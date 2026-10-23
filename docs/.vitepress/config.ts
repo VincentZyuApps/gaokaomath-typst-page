@@ -8,7 +8,11 @@ export default defineConfig({
   
   base: "/gaokaomath-typst-page/",
 
-  // 1952 年第一届全国统一高考，致敬年份端口 61952
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/gaokaomath-typst-page/favicon.svg' }]
+  ],
+
+  // 1952 年第一届全国统一高考，暗示年份端口 61952
   vite: {
     server: {
       port: 61952,
