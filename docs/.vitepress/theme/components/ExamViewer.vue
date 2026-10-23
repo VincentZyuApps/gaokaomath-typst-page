@@ -495,47 +495,86 @@ function cleanMathFormula(rawMath: string): string {
 
 function renderMath(text: string): string {
   if (!text) return '';
+
+  // 1. 保护图片标签
   const imgPlaceholders: string[] = [];
   let s = text.replace(/<img[^>]*>/gi, (match) => {
     imgPlaceholders.push(match);
     return `__IMG_PH_${imgPlaceholders.length - 1}__`;
   });
 
-  // 清洗公式外部裸露的空花括号填空符，例如 _______ {} -> _______
-  s = s.replace(/(_{2,})\s*\{\s*\}/g, '$1');
+  // 2. 提取并编译数学公式到独立占位符中 (防止 KaTeX 生成的 SVG 代码被外部换行正则破坏)
+  const mathPlaceholders: string[] = [];
+  const addMath = (html: string) => {
+    mathPlaceholders.push(html);
+    return `__MATH_PH_${mathPlaceholders.length - 1}__`;
+  };
 
-  // 块级公式
+  // 块级公式: $$...$$ 与 \[...\]
   s = s.replace(/\$\$([\s\S]+?)\$\$/g, (_, math) => {
     try {
-      return katex.renderToString(cleanMathFormula(math.trim()), {
+      return addMath(katex.renderToString(cleanMathFormula(math.trim()), {
         displayMode: true,
         throwOnError: false,
         strict: false
-      });
+      }));
     } catch {
-      return math;
+      return addMath(math);
     }
   });
 
-  // 行内公式
+  s = s.replace(/\\\[([\s\S]+?)\\\]/g, (_, math) => {
+    try {
+      return addMath(katex.renderToString(cleanMathFormula(math.trim()), {
+        displayMode: true,
+        throwOnError: false,
+        strict: false
+      }));
+    } catch {
+      return addMath(math);
+    }
+  });
+
+  // 行内公式: $...$ 与 \(...\)
   s = s.replace(/\$([^\$\n]+?)\$/g, (_, math) => {
     try {
-      return katex.renderToString(cleanMathFormula(math.trim()), {
+      return addMath(katex.renderToString(cleanMathFormula(math.trim()), {
         displayMode: false,
         throwOnError: false,
         strict: false
-      });
+      }));
     } catch {
-      return math;
+      return addMath(math);
     }
   });
 
-  // 恢复图片
+  s = s.replace(/\\\(([\s\S]+?)\\\)/g, (_, math) => {
+    try {
+      return addMath(katex.renderToString(cleanMathFormula(math.trim()), {
+        displayMode: false,
+        throwOnError: false,
+        strict: false
+      }));
+    } catch {
+      return addMath(math);
+    }
+  });
+
+  // 3. 此时所有数学公式与图片均在占位符中受保护，可安全处理文本换行与文本填空线
+  s = s.replace(/(_{2,})\s*\{\s*\}/g, '$1');
+  s = s.replace(/\n\n+/g, '<br/><br/>').replace(/\n/g, '<br/>');
+
+  // 4. 安全无损还原数学公式 (保证 KaTeX 生成的 SVG 矢量 path 内部换行符完整不受污染)
+  s = s.replace(/__MATH_PH_(\d+)__/g, (_, idx) => {
+    return mathPlaceholders[Number(idx)] || '';
+  });
+
+  // 5. 还原图片
   s = s.replace(/__IMG_PH_(\d+)__/g, (_, idx) => {
     return imgPlaceholders[Number(idx)] || '';
   });
 
-  return s.replace(/\n\n+/g, '<br/><br/>').replace(/\n/g, '<br/>');
+  return s;
 }
 
 function hasChoiceImage(choices?: string[]): boolean {
@@ -1104,40 +1143,38 @@ onUnmounted(() => {
   object-fit: contain;
 }
 
-/* 选项网格 */
+/* 选项列表: 固定单列流式排布 (一行一个选项，横向舒展自如) */
 .choices-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0.8rem;
-  margin: 0.6rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin: 0.75rem 0;
+  width: 100%;
 }
 
 .choices-grid.with-image {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-@media (max-width: 768px) {
-  .choices-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .choices-grid {
-    grid-template-columns: 1fr;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .choice-box {
   display: flex;
   align-items: flex-start;
-  gap: 0.5rem;
-  padding: 8px 12px;
+  gap: 0.75rem;
+  padding: 10px 14px;
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
   min-width: 0;
-  overflow: hidden;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.choice-box:hover {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-bg-elv);
 }
 
 .choice-letter {
