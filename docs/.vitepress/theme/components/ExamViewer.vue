@@ -493,12 +493,73 @@ function cleanMathFormula(rawMath: string): string {
   return rawMath.replace(/_{2,}\s*(\{\s*\})?/g, '\\underline{\\hspace{2.5em}}');
 }
 
+function parseLatexTable(text: string): string {
+  if (!text) return '';
+
+  let s = text;
+
+  // 清洗外围无用的排版定义宏
+  s = s.replace(/\\renewcommand\{[^}]+\}\{[^}]+\}/g, '');
+  s = s.replace(/\\cline\{[^}]+\}/g, '');
+
+  // 循环匹配最内层的 tabular (递归自底向上解析嵌套表格)
+  const innerTableRegex = /\\begin\{tabular\}\{([^}]+)\}((?:(?!\\begin\{tabular\})[\s\S])*?)\\end\{tabular\}/g;
+
+  let iterations = 0;
+  while (innerTableRegex.test(s) && iterations < 5) {
+    s = s.replace(innerTableRegex, (_, alignStr: string, bodyStr: string) => {
+      // 解析列对齐方式: l, c, r
+      const colAligns = (alignStr.match(/[lcr]/g) || []).map(c => {
+        if (c === 'l') return 'left';
+        if (c === 'r') return 'right';
+        return 'center';
+      });
+
+      // 按行切分 (\\ 或 \cr)
+      const rawLines = bodyStr
+        .split(/\\\\|\\cr/)
+        .map(line => line.replace(/\\hline/g, '').trim())
+        .filter(line => line.length > 0);
+
+      // 如果只有 1 行 1 列且不含 &，通常为单元格内局部排版
+      if (rawLines.length <= 1 && !bodyStr.includes('&')) {
+        return bodyStr.replace(/\\hline/g, '').trim();
+      }
+
+      let html = '<div class="exam-table-wrapper"><table class="exam-table">';
+      rawLines.forEach((line, rowIdx) => {
+        const cells = line.split('&').map(c => c.trim());
+        html += '<tr>';
+        cells.forEach((cell, colIdx) => {
+          const tag = (rowIdx === 0 && !cell.includes('<table')) ? 'th' : 'td';
+          const align = colAligns[colIdx] || 'center';
+          html += `<${tag} style="text-align:${align}">${cell}</${tag}>`;
+        });
+        html += '</tr>';
+      });
+      html += '</table></div>';
+      return html;
+    });
+    iterations++;
+  }
+
+  // 清洗残留的居中与环境宏
+  s = s.replace(/\\begin\{center\}/g, '<div class="exam-table-center">');
+  s = s.replace(/\\end\{center\}/g, '</div>');
+  s = s.replace(/\\begingroup[\s\S]*?\\endgroup/g, '');
+
+  return s;
+}
+
 function renderMath(text: string): string {
   if (!text) return '';
 
+  // 0. 解析 LaTeX 表格环境为语义化 HTML Table
+  let s = parseLatexTable(text);
+
   // 1. 保护图片标签
   const imgPlaceholders: string[] = [];
-  let s = text.replace(/<img[^>]*>/gi, (match) => {
+  s = s.replace(/<img[^>]*>/gi, (match) => {
     imgPlaceholders.push(match);
     return `__IMG_PH_${imgPlaceholders.length - 1}__`;
   });
@@ -1141,6 +1202,62 @@ onUnmounted(() => {
   max-width: 260px;
   max-height: 220px;
   object-fit: contain;
+}
+
+/* 表格样式支持 (LaTeX tabular 转换) */
+.problem-body :deep(.exam-table-wrapper),
+.analysis-text :deep(.exam-table-wrapper),
+.exam-table-wrapper {
+  margin: 1rem auto;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.problem-body :deep(.exam-table),
+.analysis-text :deep(.exam-table),
+.exam-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 0.95rem;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.problem-body :deep(.exam-table th),
+.analysis-text :deep(.exam-table th),
+.exam-table th {
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+  padding: 8px 14px;
+  border: 1px solid var(--vp-c-divider);
+  white-space: nowrap;
+}
+
+.problem-body :deep(.exam-table td),
+.analysis-text :deep(.exam-table td),
+.exam-table td {
+  padding: 8px 14px;
+  border: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-1);
+  white-space: nowrap;
+}
+
+.problem-body :deep(.exam-table tr:hover),
+.analysis-text :deep(.exam-table tr:hover),
+.exam-table tr:hover {
+  background: var(--vp-c-bg-elv);
+}
+
+.exam-table-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.8rem 0;
 }
 
 /* 选项列表: 固定单列流式排布 (一行一个选项，横向舒展自如) */
