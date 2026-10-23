@@ -340,7 +340,7 @@ $C H=(sqrt(2))/(2)C D=(sqrt(2))/(2) dot 2 B C=sqrt(2) dot B C$.
 $(B C)/(C H)=(sqrt(2))/(2)$，
 即 $triangle B H C$ 是直角三角形，且 $angle H B C=90^ degree$.
 所以 $H B bot B C$，所以 $B C bot$ 面 $D H B$，因为 $B D subset$ 面 $D H B$，所以 $B C bot B D$.
-因为在三棱台 $D E F-A B C$ 中，$E F//B C$，所以 $E F bot D B$.
+因为在三棱台 $D E F-A B C$ 中，$E F parallel B C$，所以 $E F bot D B$.
 + (2) 设 $B C=1$，则 $B H=1$，$H C=sqrt(2)$.
 在 $R t triangle D H C$ 中，$D H=sqrt(2)$，$D C=2$.
 在 $R t triangle D H B$ 中，

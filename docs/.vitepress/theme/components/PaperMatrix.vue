@@ -143,6 +143,22 @@
           >
             Typst 📄
           </a>
+          <a
+            v-if="paper.hasPdf"
+            :href="`/gaokaomath-typst-page/papers/${paper.year}/${paper.slug}.pdf`"
+            download
+            class="pdf-btn"
+            title="下载 Typst 印刷级 PDF"
+          >
+            PDF 📥
+          </a>
+          <span
+            v-else
+            class="pdf-btn disabled"
+            title="上游排版校对中，可下载 Typst 源码一键编译"
+          >
+            PDF 📥
+          </span>
         </div>
       </div>
     </div>
@@ -201,6 +217,7 @@ interface PaperItem {
   provinces: string;
   problemCount: number;
   hasSolution: boolean;
+  hasPdf?: boolean;
   pageCount: number;
 }
 
@@ -649,8 +666,8 @@ onMounted(async () => {
 }
 
 .typ-btn {
-  padding: 7px 12px;
-  font-size: 0.85rem;
+  padding: 7px 10px;
+  font-size: 0.82rem;
   font-weight: 600;
   background: var(--vp-c-bg-mute);
   color: var(--vp-c-text-1) !important;
@@ -663,6 +680,35 @@ onMounted(async () => {
 .typ-btn:hover {
   border-color: var(--vp-c-brand-1);
   color: var(--vp-c-brand-1) !important;
+}
+
+.pdf-btn {
+  padding: 7px 10px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  background: var(--vp-c-bg-mute);
+  color: var(--vp-c-text-1) !important;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.pdf-btn:hover:not(.disabled) {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1) !important;
+}
+
+.pdf-btn.disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  color: var(--vp-c-text-3) !important;
+  background: var(--vp-c-bg-mute);
+  border-color: var(--vp-c-divider);
 }
 
 /* 空状态 */

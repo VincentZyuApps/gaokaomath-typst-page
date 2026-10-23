@@ -358,11 +358,11 @@ $ |A B|=sqrt(1+t^2)|y_1-y_2| =sqrt((5)/(3)) dot (sqrt(32-16 times (2)/(3)))/((2)
 ]
 
 #problem(17)[
-如图，在四边形 $A B C D$ 中，$A B//C D$，$angle D A B=90^ degree$，$F$ 为 $C D$ 的中点，点 $E$ 在 $A B$ 上，$E F//A D$，$A B=3 A D$，$C D=2 A D$.
+如图，在四边形 $A B C D$ 中，$A B parallel C D$，$angle D A B=90^ degree$，$F$ 为 $C D$ 的中点，点 $E$ 在 $A B$ 上，$E F parallel A D$，$A B=3 A D$，$C D=2 A D$.
 
 将四边形 $E F D A$ 沿 $E F$ 翻折至四边形 $E F D'A'$，使得面 $E F D'A'$ 与面 $E F C B$ 所成的二面角为 $60^ degree$.
 
-+ (1) 证明：$A'B//$ 平面 $C D'F$；
++ (1) 证明：$A'B parallel$ 平面 $C D'F$；
 + (2) 求面 $B C D'$ 与面 $E F D'A'$ 所成的二面角的正弦值.
 
 
@@ -371,10 +371,10 @@ $ |A B|=sqrt(1+t^2)|y_1-y_2| =sqrt((5)/(3)) dot (sqrt(32-16 times (2)/(3)))/((2)
 ]
 
 #solution[
-+ (1) 设 $A D=1$，则 $A B=3$，$C D=2$. 因为 $F$ 为 $C D$ 的中点，所以 $D F=1$. 又因为 $E F//A D$，$A B//C D$，所以 $A E F D$ 是平行四边形，从而 $A E//D F$. 翻折后仍有 $A'E//D'F$.
-因为 $D'F subset$ 平面 $C D'F$，且 $A'E not subset$ 平面 $C D'F$，故 $A'E//$ 平面 $C D'F$. 又因为 $F C//E B$，且 $F C subset$ 平面 $C D'F$，$E B not subset$ 平面 $C D'F$，故 $E B//$ 平面 $C D'F$.
-又 $A'E inter E B=E$，且 $A'E$，$E B subset$ 平面 $A'E B$，所以平面 $A'E B//$ 平面 $C D'F$. 因此
-$A'B//"平面 "C D'F$.
++ (1) 设 $A D=1$，则 $A B=3$，$C D=2$. 因为 $F$ 为 $C D$ 的中点，所以 $D F=1$. 又因为 $E F parallel A D$，$A B parallel C D$，所以 $A E F D$ 是平行四边形，从而 $A E parallel D F$. 翻折后仍有 $A'E parallel D'F$.
+因为 $D'F subset$ 平面 $C D'F$，且 $A'E not subset$ 平面 $C D'F$，故 $A'E parallel$ 平面 $C D'F$. 又因为 $F C parallel E B$，且 $F C subset$ 平面 $C D'F$，$E B not subset$ 平面 $C D'F$，故 $E B parallel$ 平面 $C D'F$.
+又 $A'E inter E B=E$，且 $A'E$，$E B subset$ 平面 $A'E B$，所以平面 $A'E B parallel$ 平面 $C D'F$. 因此
+$A'B parallel "平面 "C D'F$.
 + (2) 以 $F$ 为原点，$F E$，$F C$ 以及垂直于平面 $E F C B$ 的直线分别为 $x$，$y$，$z$ 轴，建立空间直角坐标系.
 
 #align(center)[#image("/papers/2025/img/national_paper_2/q17_solution_fig1.png", width: 4.0cm)]

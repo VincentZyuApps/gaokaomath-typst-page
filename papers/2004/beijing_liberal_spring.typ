@@ -273,7 +273,7 @@ $7$&$12$&$(\ )$&$(\ )$&$(\ )$&$dots.c$&$a_(2 j)$&$dots.c$\\ \hline
 $(\ )$&$(\ )$&$(\ )$&$(\ )$&$(\ )$&$dots.c$&$a_(3 j)$&$dots.c$\\ \hline
 $(\ )$&$(\ )$&$(\ )$&$(\ )$&$(\ )$&$dots.c$&$a_(4 j)$&$dots.c$\\ \hline
 $\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$\\ \hline
-$a_(i1)$&$a_(i2)$&$a_(i3)$&$a_(i4)$&$a_(i5)$&$dots.c$&$a_(i j)$&$dots.c$\\ \hline
+$a_(i 1)$&$a_(i 2)$&$a_(i 3)$&$a_(i 4)$&$a_(i 5)$&$dots.c$&$a_(i j)$&$dots.c$\\ \hline
 $\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$\\ \hline
 \end{tabular}
 \end{center}
@@ -287,7 +287,7 @@ $\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$&$\v d o t s$&$\
 #solution[
 + (1) 记第 $i$ 行的公差为 $h_i$，第 $j$ 列的公差为 $v_j$. 由表中前两行、前两列可得 $h_1=7-4=3$，$h_2=12-7=5$，$v_1=7-4=3$，$v_2=12-7=5$. 对任意 $i$，$j$，从 $a_(i j)$ 先向右再向下，或先向下再向右，都可到达 $a_(i+1,j+1)$，所以 $h_i+v_(j+1)=v_j+h_(i+1)$，即 $h_(i+1)-h_i=v_(j+1)-v_j$. 因此这些相邻公差的增量都是 $2$，从而 $h_i=3+2(i-1)=2 i+1$.
 
-又 $a_(i1)=4+3(i-1)=3 i+1$，所以 $a_(i j)=a_(i1)+(j-1)h_i=3 i+1+(j-1)(2 i+1)=2 i j+i+j$. 于是 $a_(45)=2 times 4 times 5 +4+5=49$.
+又 $a_(i 1)=4+3(i-1)=3 i+1$，所以 $a_(i j)=a_(i 1)+(j-1)h_i=3 i+1+(j-1)(2 i+1)=2 i j+i+j$. 于是 $a_(45)=2 times 4 times 5 +4+5=49$.
 + (2) 由上式，令 $a_(i j)=2008$，得
 
 $ 2 i j+i+j=2008 <=> (2 i+1)(2 j+1)=4017=3 times 13 times 103 $

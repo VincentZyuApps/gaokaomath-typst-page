@@ -135,7 +135,7 @@ $| (b^2)/(a^2)-2 | =| (17^2)/(12^2)-2 | =(1)/(144)<0.01$.
 
 #problem(7)[
 在正方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$E$，$F$ 分别为 $A B$，$B C$ 的中点，则（ ）
-  #choices([$"平面 "B_(1) E F bot "平面 "B D D_1$], [$"平面 "B_(1) E F bot "平面 "A_(1) B D$], [$"平面 "B_(1) E F // "平面 "A_(1) A C$], [$"平面 "B_(1) E F // "平面 "A_(1) C_(1) D$], cols: 1)
+  #choices([$"平面 "B_(1) E F bot "平面 "B D D_1$], [$"平面 "B_(1) E F bot "平面 "A_(1) B D$], [$"平面 "B_(1) E F parallel "平面 "A_(1) A C$], [$"平面 "B_(1) E F parallel "平面 "A_(1) C_(1) D$], cols: 1)
 ]
 
 #answer([A])
@@ -143,7 +143,7 @@ $| (b^2)/(a^2)-2 | =| (17^2)/(12^2)-2 | =(1)/(144)<0.01$.
 #solution[
 在正方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$A C bot B D$，且 $D D_1 bot "平面 "A B C D$.
 又因为 $E F subset "平面 "A B C D$，所以 $E F bot D D_1$.
-因为 $E$，$F$ 分别为 $A B$，$B C$ 的中点，所以 $E F // A C$，从而 $E F bot B D$.
+因为 $E$，$F$ 分别为 $A B$，$B C$ 的中点，所以 $E F parallel A C$，从而 $E F bot B D$.
 又 $B D inter D D_1=D$，所以 $E F bot "平面 "B D D_1$.
 因为 $E F subset "平面 "B_(1) E F$，所以 $"平面 "B_(1) E F bot "平面 "B D D_1$.
 故选 A.

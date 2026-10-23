@@ -463,14 +463,14 @@ $K^2=(100(33 times 8 -37 times 22 )^2)/(70 times 30 times 55 times 45) approx 5 
 
 #solution[
 + (1) 证明：在 $A A_1$ 上取点 $M$，使得 $A_(1) M=2 A M$，连接 $E M$，$M B_1$，$E C_1$，$F C_1$，
-在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，有 $D D_1//A A_1//B B_1$，且 $D D_1=A A_1=B B_1$.
+在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，有 $D D_1 parallel A A_1 parallel B B_1$，且 $D D_1=A A_1=B B_1$.
 又 $2 D E=E D_1$，$A_(1) M=2 A M$，$B F=2 F B_1$，所以 $D E=A M=F B_1$.
 所以四边形 $B_(1) F A M$ 和四边形 $E D A M$ 都是平行四边形.
-所以 $A F//M B_1$，且 $A F=M B_1$，$A D//M E$，且 $A D=M E$.
-又在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，有 $A D//B_(1) C_1$，且 $A D=B_(1) C_1$，
-所以 $B_(1) C_1//M E$ 且 $B_(1) C_1=M E$，则四边形 $B_(1) C_(1) E M$ 为平行四边形，
-所以 $E C_1//M B_1$，且 $E C_1=M B_1$.
-又 $A F//M B_1$，且 $A F=M B_1$，所以 $A F//E C_1$，且 $A F=E C_1$，
+所以 $A F parallel M B_1$，且 $A F=M B_1$，$A D parallel M E$，且 $A D=M E$.
+又在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，有 $A D parallel B_(1) C_1$，且 $A D=B_(1) C_1$，
+所以 $B_(1) C_1 parallel M E$ 且 $B_(1) C_1=M E$，则四边形 $B_(1) C_(1) E M$ 为平行四边形，
+所以 $E C_1 parallel M B_1$，且 $E C_1=M B_1$.
+又 $A F parallel M B_1$，且 $A F=M B_1$，所以 $A F parallel E C_1$，且 $A F=E C_1$，
 则四边形 $A F C_(1) E$ 为平行四边形，
 所以点 $C_1$ 在平面 $A E F$ 内.
 + (2) 在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，以 $C_1$ 为坐标原点，分别以 $C_(1) D_1$，$C_(1) B_1$，$C_(1) C$ 所在直线为 $x$，$y$，$z$ 轴建立空间直角坐标系.

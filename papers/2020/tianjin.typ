@@ -270,7 +270,7 @@ $(a+b)/(2)+(8)/(a+b) >= 2 sqrt((a+b)/(2) dot (8)/(a+b))=4$，
 #answer([$(1)/(6)\)，\(\ (13)/(2)$])
 
 #solution[
-因为 $arrow(A D)=\l a m b d a a r r o w(B C)$，所以 $arrow(A D)//arrow(B C)$，故 $angle B A D=180^ degree - angle B=120^ degree$.
+因为 $arrow(A D)=\l a m b d a a r r o w(B C)$，所以 $arrow(A D) parallel arrow(B C)$，故 $angle B A D=180^ degree - angle B=120^ degree$.
 $arrow(A B)\c d o t a r r o w(A D)=\l a m b d a a r r o w(B C)\c d o t a r r o w(A B)= lambda |B C||A B| cos 120 ""^ degree = lambda times 6 times 3 times ( -(1)/(2)) =-9 lambda =-(3)/(2)$，
 解得 $lambda =(1)/(6)$.
 

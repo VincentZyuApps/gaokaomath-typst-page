@@ -159,13 +159,13 @@ $i$ 是虚数单位，则 $|(5-i)/(1+i)|=\f i l l i n b l a n k{}$.
 ]
 
 #problem(14)[
-在四边形 $A B C D$ 中，$A D//B C$，$|A B|=2 sqrt(3)$，$|A D|=5$，$angle A=30^ degree$，点 $E$ 在线段 $C B$ 的延长线上，且 $A E=B E$，则 $arrow(B D)\c d o t a r r o w(A E)=\f i l l i n b l a n k{}$.
+在四边形 $A B C D$ 中，$A D parallel B C$，$|A B|=2 sqrt(3)$，$|A D|=5$，$angle A=30^ degree$，点 $E$ 在线段 $C B$ 的延长线上，且 $A E=B E$，则 $arrow(B D)\c d o t a r r o w(A E)=\f i l l i n b l a n k{}$.
 ]
 
 #answer([$-1$])
 
 #solution[
-以 $A$ 为原点，$A D$ 所在直线为 $x$ 轴建立直角坐标系，记 $A(0,0)$，$D(5,0)$，其中 $D$ 由 $|A D|=5$ 且 $D$ 在正半轴上得到. 因为 $|A B|=2 sqrt(3)$ 且 $angle A=30^( degree )$，所以 $B=(2 sqrt(3) cos 30 ""^( degree ),2 sqrt(3) sin 30 ""^( degree ))=(2 sqrt(3) times (sqrt(3))/(2),2 sqrt(3) times (1)/(2))=(3,sqrt(3))$. 由 $A D//B C$ 知 $B C$ 为水平直线，故其上的点 $E$ 纵坐标与 $B$ 相同，可设 $E(t,sqrt(3))$. 由 $A E=B E$ 得 $|A E|^(2)=|B E|^(2)$，即 $t^(2)+(sqrt(3))^(2)=(t-3)^(2)$，展开得 $t^(2)+3=t^(2)-6 t+9$，解得 $t=1$，故 $E(1,sqrt(3))$. 于是 $arrow(B D)=(5-3,0-sqrt(3))=(2,-sqrt(3))$，$arrow(A E)=(1,sqrt(3))$，点积 $arrow(B D)\c d o t a r r o w(A E)=2 times 1 +(-sqrt(3))\t i m e s s q r t(3)=2-3=-1$.
+以 $A$ 为原点，$A D$ 所在直线为 $x$ 轴建立直角坐标系，记 $A(0,0)$，$D(5,0)$，其中 $D$ 由 $|A D|=5$ 且 $D$ 在正半轴上得到. 因为 $|A B|=2 sqrt(3)$ 且 $angle A=30^( degree )$，所以 $B=(2 sqrt(3) cos 30 ""^( degree ),2 sqrt(3) sin 30 ""^( degree ))=(2 sqrt(3) times (sqrt(3))/(2),2 sqrt(3) times (1)/(2))=(3,sqrt(3))$. 由 $A D parallel B C$ 知 $B C$ 为水平直线，故其上的点 $E$ 纵坐标与 $B$ 相同，可设 $E(t,sqrt(3))$. 由 $A E=B E$ 得 $|A E|^(2)=|B E|^(2)$，即 $t^(2)+(sqrt(3))^(2)=(t-3)^(2)$，展开得 $t^(2)+3=t^(2)-6 t+9$，解得 $t=1$，故 $E(1,sqrt(3))$. 于是 $arrow(B D)=(5-3,0-sqrt(3))=(2,-sqrt(3))$，$arrow(A E)=(1,sqrt(3))$，点积 $arrow(B D)\c d o t a r r o w(A E)=2 times 1 +(-sqrt(3))\t i m e s s q r t(3)=2-3=-1$.
 ]
 
 #part-header("解答题")
@@ -222,7 +222,7 @@ $i$ 是虚数单位，则 $|(5-i)/(1+i)|=\f i l l i n b l a n k{}$.
 如图，在四棱锥 $P-A B C D$ 中，底面 $A B C D$ 为平行四边形，$triangle P C D$ 为等边三角形，平面 $P A C bot$ 平面 $P C D$，$P A bot C D$，$C D=2$，$A D=3$.
 
 
-+ (1) 设 $G$，$H$ 分别为 $P B$，$A C$ 的中点，求证：$G H//$ 平面 $P A D$；
++ (1) 设 $G$，$H$ 分别为 $P B$，$A C$ 的中点，求证：$G H parallel$ 平面 $P A D$；
 + (2) 求证：$P A bot$ 平面 $P C D$；
 + (3) 求直线 $A D$ 与平面 $P A C$ 所成角的正弦值.
 
@@ -255,7 +255,7 @@ $i$ 是虚数单位，则 $|(5-i)/(1+i)|=\f i l l i n b l a n k{}$.
 
 
 + (1) 求椭圆的离心率；
-+ (2) 设经过点 $F$ 且斜率为 $(3)/(4)$ 的直线 $l$ 与椭圆在 $x$ 轴上方的交点为 $P$，圆 $C$ 同时与 $x$ 轴和直线 $l$ 相切，圆心 $C$ 在直线 $x=4$ 上，且 $O C//A P$，求椭圆的方程.
++ (2) 设经过点 $F$ 且斜率为 $(3)/(4)$ 的直线 $l$ 与椭圆在 $x$ 轴上方的交点为 $P$，圆 $C$ 同时与 $x$ 轴和直线 $l$ 相切，圆心 $C$ 在直线 $x=4$ 上，且 $O C parallel A P$，求椭圆的方程.
 ]
 
 #solution[

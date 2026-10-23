@@ -125,7 +125,7 @@ A，B 两式的周期均为 $(2 pi)/((pi)/(2))=4$，C，D 两式的周期均为 
 
 #align(center)[#image("/papers/2023/img/tianjin/q8_solution_fig1.png", width: 55%)]
 
-因为 $B B' bot "平面 "P A C$，$B B' subset "平面 "P B B'$，所以 $"平面 "P B B' bot "平面 "P A C$. 又因为 $"平面 "P B B' inter "平面 "P A C=P B'$，$NN' bot P B'$，$NN' subset "平面 "P B B'$，所以 $NN' bot "平面 "P A C$，且 $B B'//NN'$. 在 $triangle P C C'$ 中，因为 $M M' bot P A$，$CC' bot P A$，所以 $M M'//CC'$，所以 $(P M)/(P C)=(M M')/(CC')=(1)/(3)$. 在 $triangle P B B'$ 中，因为 $B B'//NN'$，所以 $(P N)/(P B)=(NN')/(B B')=(2)/(3)$. 所以
+因为 $B B' bot "平面 "P A C$，$B B' subset "平面 "P B B'$，所以 $"平面 "P B B' bot "平面 "P A C$. 又因为 $"平面 "P B B' inter "平面 "P A C=P B'$，$NN' bot P B'$，$NN' subset "平面 "P B B'$，所以 $NN' bot "平面 "P A C$，且 $B B' parallel NN'$. 在 $triangle P C C'$ 中，因为 $M M' bot P A$，$CC' bot P A$，所以 $M M' parallel CC'$，所以 $(P M)/(P C)=(M M')/(CC')=(1)/(3)$. 在 $triangle P B B'$ 中，因为 $B B' parallel NN'$，所以 $(P N)/(P B)=(NN')/(B B')=(2)/(3)$. 所以
 
 $ (V_(P-A M N))/(V_(P-A B C))=(V_(N-P A M))/(V_(B-P A C))=((1)/(3)S_( triangle P A M) dot NN')/((1)/(3)S_( triangle P A C) dot B B')=((1)/(3) dot (1)/(2)( P A dot M M' ) dot NN')/((1)/(3) dot (1)/(2)( P A dot CC' ) dot B B')=(2)/(9) $
 

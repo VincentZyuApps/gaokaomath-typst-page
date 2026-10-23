@@ -186,7 +186,7 @@ $g(3)=(2 sin 3)/(10)>0$，
 
 #problem(9)[
 在正方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$E$，$F$ 分别为 $A B$，$B C$ 的中点，则（ ）
-  #choices([平面 $B_(1) E F bot$ 平面 $B D D_1$], [平面 $B_(1) E F bot$ 平面 $A_(1) B D$], [平面 $B_(1) E F//$ 平面 $A_(1) A C$], [平面 $B_(1) E F//$ 平面 $A_(1) C_(1) D$], cols: 1)
+  #choices([平面 $B_(1) E F bot$ 平面 $B D D_1$], [平面 $B_(1) E F bot$ 平面 $A_(1) B D$], [平面 $B_(1) E F parallel$ 平面 $A_(1) A C$], [平面 $B_(1) E F parallel$ 平面 $A_(1) C_(1) D$], cols: 1)
 ]
 
 #answer([A])
@@ -497,7 +497,7 @@ $E F=(B E dot D E)/(B D)=(sqrt(3))/(2)$.
 
 + (1) []
 
-设过 $F$ 作 $F H bot B E$，垂足为 $H$. 因为 $F H//D E$，所以
+设过 $F$ 作 $F H bot B E$，垂足为 $H$. 因为 $F H parallel D E$，所以
 $F H bot "平面 "A B C$.
 又
 $(F H)/(D E)=(B F)/(B D)$.

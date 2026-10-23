@@ -39,6 +39,7 @@
           📄 Typst 源码
         </a>
         <a
+          v-if="hasPdf"
           :href="pdfUrl"
           download
           class="action-btn download-btn"
@@ -46,6 +47,13 @@
         >
           📥 下载打印版 PDF
         </a>
+        <span
+          v-else
+          class="action-btn download-btn disabled"
+          title="上游排版校对中，可下载 Typst 源码一键编译"
+        >
+          📥 PDF 校对中
+        </span>
       </div>
     </div>
 
@@ -317,6 +325,7 @@ interface PaperManifest {
   title: string;
   pageCount: number;
   hasVectorSvg?: boolean;
+  hasPdf?: boolean;
   questions: QuestionMeta[];
   sections?: ExamSection[];
 }
@@ -370,6 +379,13 @@ const hasVectorSvg = computed(() => {
     return manifestData.value.hasVectorSvg;
   }
   return pageCount.value > 0;
+});
+
+const hasPdf = computed(() => {
+  if (manifestData.value && typeof manifestData.value.hasPdf === 'boolean') {
+    return manifestData.value.hasPdf;
+  }
+  return false;
 });
 
 function getPageSvgUrl(pageNum: number): string {
@@ -663,8 +679,16 @@ onUnmounted(() => {
   color: #fff !important;
 }
 
-.download-btn:hover {
+.download-btn:hover:not(.disabled) {
   opacity: 0.9;
+}
+
+.download-btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background: var(--vp-c-bg-mute);
+  color: var(--vp-c-text-3) !important;
+  border: 1px solid var(--vp-c-divider);
 }
 
 /* 模式 1: 连续试卷 */

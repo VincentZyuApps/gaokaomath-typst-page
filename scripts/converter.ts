@@ -184,8 +184,14 @@ export function latexMathToTypst(mathStr: string): string {
   s = replaceBalancedMacro(s, 'bar', 1, (a) => `overline(${a})`);
 
   for (let i = 0; i < 3; i++) {
-    s = s.replace(/_\{((?:[^{}]|\{[^{}]*\})+)\}/g, '_($1)');
-    s = s.replace(/\^\{((?:[^{}]|\{[^{}]*\})+)\}/g, '^($1)');
+    s = s.replace(/_\{((?:[^{}]|\{[^{}]*\})+)\}/g, (_, sub) => {
+      const cleanSub = /^[a-zA-Z0-9]+$/.test(sub) && sub.length > 1 && !/^[0-9]+$/.test(sub) ? sub.split('').join(' ') : sub;
+      return `_(${cleanSub})`;
+    });
+    s = s.replace(/\^\{((?:[^{}]|\{[^{}]*\})+)\}/g, (_, sup) => {
+      const cleanSup = /^[a-zA-Z0-9]+$/.test(sup) && sup.length > 1 && !/^[0-9]+$/.test(sup) ? sup.split('').join(' ') : sup;
+      return `^(${cleanSup})`;
+    });
   }
 
   s = s.replace(/\\bs\s+([a-zA-Z0-9]+)/g, 'bold($1)');
@@ -228,6 +234,7 @@ export function latexMathToTypst(mathStr: string): string {
   // 几何与数集
   s = s.replace(/\\triangle\b/g, ' triangle ');
   s = s.replace(/\\parallel\b/g, ' parallel ');
+  s = s.replace(/\/\//g, ' parallel ');
   s = s.replace(/\\perp\b/g, ' bot ');
   s = s.replace(/\\angle\b/g, ' angle ');
   s = s.replace(/\\circ\b/g, ' degree ');

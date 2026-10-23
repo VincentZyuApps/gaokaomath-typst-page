@@ -274,7 +274,7 @@ $ e=sqrt(1+(b^2)/(a^2))=sqrt(1+((1)/(6))/((1)/(5)))=sqrt(1+(5)/(6))=sqrt((11)/(6
 如图，在直三棱柱 $A B C-A_(1) B_(1) C_1$ 中，$angle A C B=90^ degree$，$A C=B C$，$D$，$E$ 分别为 $A B$，$A C_1$ 的中点.
 
 
-+ (1) 证明：$D E // "平面"B C C_(1) B_1$；
++ (1) 证明：$D E parallel "平面"B C C_(1) B_1$；
 + (2) 设 $CC_1=2$，直线 $D E$ 与平面 $A C C_(1) A_1$ 所成的角为 $45^ degree$，求直线 $D E$ 到平面 $B C C_(1) B_1$ 的距离．
 
 
@@ -284,11 +284,11 @@ $ e=sqrt(1+(b^2)/(a^2))=sqrt(1+((1)/(6))/((1)/(5)))=sqrt(1+(5)/(6))=sqrt((11)/(6
 
 #solution[
 + (1) 设 $A C=B C=a$. 建立空间直角坐标系，使 $C(0,0,0)$，$A(a,0,0)$，$B(0,a,0)$，$C_1(0,0,2)$. 因为是直三棱柱，所以 $A_1(a,0,2)$，$B_1(0,a,2)$. 又因为 $D$ 为 $A B$ 的中点，$E$ 为 $A C_1$ 的中点，所以 $D( (a)/(2),(a)/(2),0 )$，$E( (a)/(2),0,1 )$.
-平面 $B C C_(1) B_1$ 由四点 $B(0,a,0)$，$C(0,0,0)$，$C_1(0,0,2)$，$B_1(0,a,2)$ 确定，其方程为 $x=0$. 而 $arrow(D E)=( 0,-(a)/(2),1 )$. 向量 $arrow(D E)$ 的 $x$ 分量为 $0$，所以直线 $D E$ 的方向向量与平面 $x=0$ 平行，从而 $D E // "平面"B C C_(1) B_1$.
+平面 $B C C_(1) B_1$ 由四点 $B(0,a,0)$，$C(0,0,0)$，$C_1(0,0,2)$，$B_1(0,a,2)$ 确定，其方程为 $x=0$. 而 $arrow(D E)=( 0,-(a)/(2),1 )$. 向量 $arrow(D E)$ 的 $x$ 分量为 $0$，所以直线 $D E$ 的方向向量与平面 $x=0$ 平行，从而 $D E parallel "平面"B C C_(1) B_1$.
 + (2) 平面 $A C C_(1) A_1$ 由 $A(a,0,0)$，$C(0,0,0)$，$C_1(0,0,2)$，$A_1(a,0,2)$ 确定，其方程为 $y=0$. 平面 $y=0$ 的一个法向量为 $bold(n)=(0,1,0)$.
 设直线 $D E$ 与平面 $A C C_(1) A_1$ 所成的角为 $theta$. 由题意 $theta =45^ degree$. 根据线面角公式，$sin theta =(| arrow(D E){ dot } bold(n)|)/(| arrow(D E)|)=((a)/(2))/(sqrt((a^2)/(4)+1))$.
 代入 $theta =45^ degree$，得 $(sqrt(2))/(2)=((a)/(2))/(sqrt((a^2)/(4)+1))$. 两边平方，得 $(1)/(2)=((a^2)/(4))/((a^2)/(4)+1)$. 解得 $a=2$.
-由上可知 $D E // "平面"B C C_(1) B_1$，所以直线 $D E$ 到平面 $B C C_(1) B_1$ 的距离等于点 $D$ 到平面 $x=0$ 的距离，即 $(a)/(2)=1$. 所以所求距离为 $1$.
+由上可知 $D E parallel "平面"B C C_(1) B_1$，所以直线 $D E$ 到平面 $B C C_(1) B_1$ 的距离等于点 $D$ 到平面 $x=0$ 的距离，即 $(a)/(2)=1$. 所以所求距离为 $1$.
 ]
 
 #problem(16)[
@@ -296,14 +296,14 @@ $ e=sqrt(1+(b^2)/(a^2))=sqrt(1+((1)/(6))/((1)/(5)))=sqrt(1+(5)/(6))=sqrt((11)/(6
 
 
 + (1) 求 $cos A$；
-+ (2) 设 $D$，$E$ 两点满足：$D$ 在 $B A$ 的延长线上，$D E // B C$，$A E bot A C$. 若 $D E=sqrt(6)$，求 $C E$．
++ (2) 设 $D$，$E$ 两点满足：$D$ 在 $B A$ 的延长线上，$D E parallel B C$，$A E bot A C$. 若 $D E=sqrt(6)$，求 $C E$．
 ]
 
 #solution[
 + (1) 由余弦定理，$A C^2=A B^2+B C^2-2 A B dot B C dot cos B$. 代入已知，得 $A C^2=3^2+( 2 sqrt(3))^2-2 dot 3 dot 2 sqrt(3) dot (sqrt(3))/(3)=9+12-12=9$，所以 $A C=3$. 再由余弦定理，$cos A=(A B^2+A C^2-B C^2)/(2 A B dot A C)=(9+9-12)/(2 dot 3 dot 3)=(1)/(3)$.
 + (2) 取 $A(0,0)$，$C(3,0)$. 设 $B(x,y)$. 由 $A B=3$，$B C=2 sqrt(3)$，得 $x^2+y^2=9$，$( x-3 )^2+y^2=12$. 两式相减，得 $-6 x+9=3$，所以 $x=1$. 再代回 $y^2=9-1=8$. 取 $B( 1,2 sqrt(2))$.
 因为 $D$ 在 $B A$ 的延长线上，所以可设 $D= lambda ( -1,-2 sqrt(2))$（$lambda >0$）. 又因为 $A E bot A C$，而 $A C$ 在 $x$ 轴上，所以 $E$ 在过 $A$ 的 $y$ 轴上，设 $E(0,t)$.
-由 $D E // B C$，得 $arrow(D E)\ //\ arrow(B C)$. 其中 $arrow(B C)=( 2,-2 sqrt(2))$，$arrow(D E)=( lambda ,t+2 sqrt(2) lambda )$. 故存在实数 $mu$，使 $( lambda ,t+2 sqrt(2) lambda )= mu ( 2,-2 sqrt(2))$. 比较 $x$ 坐标，得 $lambda =2 mu$. 再比较 $y$ 坐标，得 $t+2 sqrt(2) lambda =-2 sqrt(2) mu$，所以 $t=-3 sqrt(2) lambda$.
+由 $D E parallel B C$，得 $arrow(D E)\ parallel \ arrow(B C)$. 其中 $arrow(B C)=( 2,-2 sqrt(2))$，$arrow(D E)=( lambda ,t+2 sqrt(2) lambda )$. 故存在实数 $mu$，使 $( lambda ,t+2 sqrt(2) lambda )= mu ( 2,-2 sqrt(2))$. 比较 $x$ 坐标，得 $lambda =2 mu$. 再比较 $y$ 坐标，得 $t+2 sqrt(2) lambda =-2 sqrt(2) mu$，所以 $t=-3 sqrt(2) lambda$.
 因为 $| B C| =2 sqrt(3)$，且 $mu =(lambda)/(2)$，所以 $D E=(lambda)/(2) dot 2 sqrt(3)= lambda sqrt(3)$. 由 $D E=sqrt(6)$，得 $lambda sqrt(3)=sqrt(6)$，所以 $lambda =sqrt(2)$. 于是 $t=-6$，即 $E(0,-6)$.
 $C E=sqrt(( 3-0 )^2+( 0+6 )^2)=sqrt(45)=3 sqrt(5)$，
 所以 $C E=3 sqrt(5)$.

@@ -1,5 +1,41 @@
 import { defineConfig } from 'vitepress';
 import mathjax3 from 'markdown-it-mathjax3';
+import fs from 'node:fs';
+import path from 'node:path';
+
+function getSidebarConfig() {
+  const sidebar: Record<string, any[]> = {};
+  const registryPath = path.resolve(__dirname, '../public/papers/registry.json');
+  if (fs.existsSync(registryPath)) {
+    const list = JSON.parse(fs.readFileSync(registryPath, 'utf-8'));
+    const byYear: Record<string, any[]> = {};
+    for (const p of list) {
+      if (!byYear[p.year]) byYear[p.year] = [];
+      byYear[p.year].push(p);
+    }
+    for (const [yr, papers] of Object.entries(byYear)) {
+      sidebar[`/papers/${yr}/`] = [
+        { text: "🏛️ 返回真题检索大厅", link: "/papers/" },
+        {
+          text: `📅 ${yr} 年高考试卷 (${papers.length}套)`,
+          collapsed: false,
+          items: papers.map(p => ({
+            text: p.title,
+            link: `/papers/${yr}/${p.slug}`
+          }))
+        },
+        { text: "📖 关于项目与致敬", link: "/about" }
+      ];
+    }
+  }
+
+  sidebar['/about'] = [
+    { text: "🏛️ 历年真题大厅", link: "/papers/" },
+    { text: "📖 关于项目与致敬", link: "/about" }
+  ];
+
+  return sidebar;
+}
 
 export default defineConfig({
   title: "高考数学沉浸式题库",
@@ -57,20 +93,6 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "🏛️ 历年真题大厅 (777套)", link: "/papers/" },
-      {
-        text: "精选试卷",
-        items: [
-          { text: "🏛️ 1952年 建国第一卷", link: "/papers/1952/national" },
-          { text: "🌟 2024 新高考 I 卷", link: "/papers/2024/new_gaokao_paper_1" },
-          { text: "🌟 2024 新高考 II 卷", link: "/papers/2024/new_gaokao_paper_2" },
-          { text: "🌟 2024 全国甲卷（理科）", link: "/papers/2024/national_paper_a_science" },
-          { text: "🌟 2024 全国甲卷（文科）", link: "/papers/2024/national_paper_a_liberal" },
-          { text: "🌟 2024 北京卷", link: "/papers/2024/beijing" },
-          { text: "🌟 2024 上海卷", link: "/papers/2024/shanghai" },
-          { text: "🌟 2024 天津卷", link: "/papers/2024/tianjin" },
-          { text: "🌟 2024 上海春考", link: "/papers/2024/shanghai_spring" }
-        ]
-      },
       { text: "关于与鸣谢", link: "/about" },
       {
         text: "上游项目",
@@ -81,34 +103,7 @@ export default defineConfig({
       }
     ],
 
-    sidebar: [
-      {
-        text: "🏛️ 真题大厅",
-        items: [
-          { text: "试卷导航检索大厅", link: "/papers/" }
-        ]
-      },
-      {
-        text: "📅 2024 年高考试卷 (新高考与自主命题)",
-        collapsed: false,
-        items: [
-          { text: "2024 新高考 I 卷", link: "/papers/2024/new_gaokao_paper_1" },
-          { text: "2024 新高考 II 卷", link: "/papers/2024/new_gaokao_paper_2" },
-          { text: "2024 全国甲卷 (文科)", link: "/papers/2024/national_paper_a_liberal" },
-          { text: "2024 全国甲卷 (理科)", link: "/papers/2024/national_paper_a_science" },
-          { text: "2024 北京卷", link: "/papers/2024/beijing" },
-          { text: "2024 上海卷", link: "/papers/2024/shanghai" },
-          { text: "2024 天津卷", link: "/papers/2024/tianjin" },
-          { text: "2024 上海春考", link: "/papers/2024/shanghai_spring" }
-        ]
-      },
-      {
-        text: "关于项目",
-        items: [
-          { text: "项目背景与开源致敬", link: "/about" }
-        ]
-      }
-    ],
+    sidebar: getSidebarConfig(),
 
     socialLinks: [
       { icon: "github", link: "https://github.com/VincentZyuApps/gaokaomath-typst-page" }
