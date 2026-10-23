@@ -488,6 +488,11 @@ function handleKeydown(e: KeyboardEvent) {
 }
 
 // 原生交互文档辅助函数
+function cleanMathFormula(rawMath: string): string {
+  // 将数学公式内部的连续下划线填空符如 _______ 或 _______ {} 替换为 KaTeX 标准下划线宏
+  return rawMath.replace(/_{2,}\s*(\{\s*\})?/g, '\\underline{\\hspace{2.5em}}');
+}
+
 function renderMath(text: string): string {
   if (!text) return '';
   const imgPlaceholders: string[] = [];
@@ -496,10 +501,17 @@ function renderMath(text: string): string {
     return `__IMG_PH_${imgPlaceholders.length - 1}__`;
   });
 
+  // 清洗公式外部裸露的空花括号填空符，例如 _______ {} -> _______
+  s = s.replace(/(_{2,})\s*\{\s*\}/g, '$1');
+
   // 块级公式
   s = s.replace(/\$\$([\s\S]+?)\$\$/g, (_, math) => {
     try {
-      return katex.renderToString(math.trim(), { displayMode: true, throwOnError: false });
+      return katex.renderToString(cleanMathFormula(math.trim()), {
+        displayMode: true,
+        throwOnError: false,
+        strict: false
+      });
     } catch {
       return math;
     }
@@ -508,7 +520,11 @@ function renderMath(text: string): string {
   // 行内公式
   s = s.replace(/\$([^\$\n]+?)\$/g, (_, math) => {
     try {
-      return katex.renderToString(math.trim(), { displayMode: false, throwOnError: false });
+      return katex.renderToString(cleanMathFormula(math.trim()), {
+        displayMode: false,
+        throwOnError: false,
+        strict: false
+      });
     } catch {
       return math;
     }

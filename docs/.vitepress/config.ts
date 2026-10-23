@@ -5,6 +5,27 @@ import path from 'node:path';
 
 function getSidebarConfig() {
   const sidebar: Record<string, any[]> = {};
+
+  const periodNavGroup = {
+    text: "⏳ 高考历史分期 (5个时期)",
+    collapsed: false,
+    items: [
+      { text: "🌟 新高考改革 (2020~2026)", link: "/papers/?period=2020-2026" },
+      { text: "🏛️ 新课标·全国卷 (2010~2019)", link: "/papers/?period=2010-2019" },
+      { text: "⚡ 自主命题繁荣 (2000~2009)", link: "/papers/?period=2000-2009" },
+      { text: "📚 恢复高考推进 (1977~1999)", link: "/papers/?period=1977-1999" },
+      { text: "📜 建国初期统考 (1952~1965)", link: "/papers/?period=1952-1965" }
+    ]
+  };
+
+  const commonTopItems = [
+    { text: "🏠 首页", link: "/" },
+    { text: "🏛️ 历年真题检索大厅", link: "/papers/" },
+    periodNavGroup
+  ];
+
+  const commonBottomItem = { text: "📖 关于项目与致敬", link: "/about" };
+
   const registryPath = path.resolve(__dirname, '../public/papers/registry.json');
   if (fs.existsSync(registryPath)) {
     const list = JSON.parse(fs.readFileSync(registryPath, 'utf-8'));
@@ -15,7 +36,7 @@ function getSidebarConfig() {
     }
     for (const [yr, papers] of Object.entries(byYear)) {
       sidebar[`/papers/${yr}/`] = [
-        { text: "🏛️ 返回真题检索大厅", link: "/papers/" },
+        ...commonTopItems,
         {
           text: `📅 ${yr} 年高考试卷 (${papers.length}套)`,
           collapsed: false,
@@ -24,39 +45,19 @@ function getSidebarConfig() {
             link: `/papers/${yr}/${p.slug}`
           }))
         },
-        { text: "📖 关于项目与致敬", link: "/about" }
+        commonBottomItem
       ];
     }
   }
 
   sidebar['/papers/'] = [
-    {
-      text: "🏛️ 历年真题大厅",
-      items: [
-        { text: "试卷导航检索大厅", link: "/papers/" }
-      ]
-    },
-    {
-      text: "📖 关于项目",
-      items: [
-        { text: "项目背景与开源致敬", link: "/about" }
-      ]
-    }
+    ...commonTopItems,
+    commonBottomItem
   ];
 
   sidebar['/about'] = [
-    {
-      text: "🏛️ 历年真题大厅",
-      items: [
-        { text: "试卷导航检索大厅", link: "/papers/" }
-      ]
-    },
-    {
-      text: "📖 关于项目",
-      items: [
-        { text: "项目背景与开源致敬", link: "/about" }
-      ]
-    }
+    ...commonTopItems,
+    commonBottomItem
   ];
 
   return sidebar;

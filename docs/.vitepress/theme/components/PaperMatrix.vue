@@ -205,7 +205,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch, onMounted } from 'vue';
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue';
+import { useRoute } from 'vitepress';
 
 interface PaperItem {
   slug: string;
@@ -221,6 +222,7 @@ interface PaperItem {
   pageCount: number;
 }
 
+const route = useRoute();
 const papers = ref<PaperItem[]>([]);
 const searchQuery = ref('');
 const selectedPeriod = ref('all');
@@ -229,15 +231,39 @@ const selectedCategory = ref('all');
 const currentPage = ref(1);
 const pageSize = 24;
 
+let isInitialSync = true;
+
 const periodOptions = [
-  { label: '全部时期', value: 'all' },
-  { label: '新高考改革 (2020~至今)', value: 'new_gaokao' },
-  { label: '新课标·全国卷 (2010~2019)', value: 'curriculum_reform' },
-  { label: '自主命题蓬勃期 (2000~2009)', value: 'autonomous' },
-  { label: '标准化高考推进 (1985~1999)', value: 'standardized' },
-  { label: '恢复高考初期 (1977~1984)', value: 'restoration' },
-  { label: '建国初期统考 (1952~1965)', value: 'early_days' }
+  { label: '全部时期', value: 'all', param: 'all' },
+  { label: '新高考改革 (2020~2026)', value: 'new_gaokao', param: '2020-2026' },
+  { label: '新课标·全国卷 (2010~2019)', value: 'new_curriculum', param: '2010-2019' },
+  { label: '自主命题繁荣 (2000~2009)', value: 'autonomous', param: '2000-2009' },
+  { label: '恢复高考推进 (1977~1999)', value: 'restoration', param: '1977-1999' },
+  { label: '建国初期统考 (1952~1965)', value: 'early_days', param: '1952-1965' }
 ];
+
+const PERIOD_PARAM_TO_VALUE: Record<string, string> = {
+  '2020-2026': 'new_gaokao',
+  'new_gaokao': 'new_gaokao',
+  '2010-2019': 'new_curriculum',
+  'new_curriculum': 'new_curriculum',
+  'curriculum_reform': 'new_curriculum',
+  '2000-2009': 'autonomous',
+  'autonomous': 'autonomous',
+  '1977-1999': 'restoration',
+  'restoration': 'restoration',
+  'standardized': 'restoration',
+  '1952-1965': 'early_days',
+  'early_days': 'early_days'
+};
+
+const PERIOD_VALUE_TO_PARAM: Record<string, string> = {
+  'new_gaokao': '2020-2026',
+  'new_curriculum': '2010-2019',
+  'autonomous': '2000-2009',
+  'restoration': '1977-1999',
+  'early_days': '1952-1965'
+};
 
 const regionOptions = [
   { label: '全部地区', value: 'all' },
@@ -270,6 +296,7 @@ const categoryOptions = [
 const formatPeriod = (period: string) => {
   switch (period) {
     case 'new_gaokao': return '新高考';
+    case 'new_curriculum': return '新课标';
     case 'curriculum_reform': return '新课标';
     case 'autonomous': return '自主命题';
     case 'standardized': return '标准化高考';
@@ -286,12 +313,86 @@ const isFiltered = computed(() => {
     selectedCategory.value !== 'all';
 });
 
+const syncFromUrl = () => {
+  if (typeof window === 'undefined') return;
+  const params = new URLSearchParams(window.location.search);
+
+  const p = params.get('period');
+  if (p && PERIOD_PARAM_TO_VALUE[p]) {
+    selectedPeriod.value = PERIOD_PARAM_TO_VALUE[p];
+  } else if (p === 'all') {
+    selectedPeriod.value = 'all';
+  }
+
+  const r = params.get('region');
+  if (r) {
+    selectedRegion.value = r;
+  }
+
+  const c = params.get('category');
+  if (c) {
+    selectedCategory.value = c;
+  }
+
+  const q = params.get('q');
+  if (q !== null && q !== undefined) {
+    searchQuery.value = q;
+  }
+
+  const pg = params.get('page');
+  if (pg) {
+    const pageNum = parseInt(pg, 10);
+    if (!isNaN(pageNum) && pageNum >= 1) {
+      currentPage.value = pageNum;
+    }
+  }
+};
+
+const syncToUrl = () => {
+  if (typeof window === 'undefined' || isInitialSync) return;
+
+  const url = new URL(window.location.href);
+
+  if (selectedPeriod.value !== 'all') {
+    url.searchParams.set('period', PERIOD_VALUE_TO_PARAM[selectedPeriod.value] || selectedPeriod.value);
+  } else {
+    url.searchParams.delete('period');
+  }
+
+  if (selectedRegion.value !== 'all') {
+    url.searchParams.set('region', selectedRegion.value);
+  } else {
+    url.searchParams.delete('region');
+  }
+
+  if (selectedCategory.value !== 'all') {
+    url.searchParams.set('category', selectedCategory.value);
+  } else {
+    url.searchParams.delete('category');
+  }
+
+  if (searchQuery.value.trim() !== '') {
+    url.searchParams.set('q', searchQuery.value.trim());
+  } else {
+    url.searchParams.delete('q');
+  }
+
+  if (currentPage.value > 1) {
+    url.searchParams.set('page', String(currentPage.value));
+  } else {
+    url.searchParams.delete('page');
+  }
+
+  window.history.replaceState({}, '', url.toString());
+};
+
 const resetFilters = () => {
   searchQuery.value = '';
   selectedPeriod.value = 'all';
   selectedRegion.value = 'all';
   selectedCategory.value = 'all';
   currentPage.value = 1;
+  syncToUrl();
 };
 
 const filteredPapers = computed(() => {
@@ -350,15 +451,26 @@ const visiblePages = computed(() => {
 const goToPage = (page: number) => {
   if (page >= 1 && page <= totalPages.value) {
     currentPage.value = page;
+    syncToUrl();
     window.scrollTo({ top: 300, behavior: 'smooth' });
   }
 };
 
 watch([searchQuery, selectedPeriod, selectedRegion, selectedCategory], () => {
   currentPage.value = 1;
+  syncToUrl();
+});
+
+watch(() => route.path, () => {
+  syncFromUrl();
 });
 
 onMounted(async () => {
+  syncFromUrl();
+  isInitialSync = false;
+
+  window.addEventListener('popstate', syncFromUrl);
+
   try {
     const res = await fetch('/gaokaomath-typst-page/papers/registry.json');
     if (res.ok) {
@@ -366,6 +478,22 @@ onMounted(async () => {
     }
   } catch (e) {
     console.error('Failed to load paper registry:', e);
+  }
+
+  // 若带特定参数进入，平滑滚动至过滤面板
+  if (typeof window !== 'undefined' && window.location.search) {
+    setTimeout(() => {
+      const panel = document.querySelector('.filter-panel');
+      if (panel) {
+        panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 150);
+  }
+});
+
+onUnmounted(() => {
+  if (typeof window !== 'undefined') {
+    window.removeEventListener('popstate', syncFromUrl);
   }
 });
 </script>
