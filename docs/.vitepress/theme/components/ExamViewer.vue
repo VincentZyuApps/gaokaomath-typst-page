@@ -557,6 +557,11 @@ function renderMath(text: string): string {
   // 0. 解析 LaTeX 表格环境为语义化 HTML Table
   let s = parseLatexTable(text);
 
+  // 0.5 智能公式升格: 将单美元符号 $...$ 内包裹的多行数学环境 (如 cases, matrix, pmatrix, aligned, array) 安全升格为块级公式 $$...$$
+  s = s.replace(/\$((?:[^\$]|\\\$)*?\\begin\{(?:cases|matrix|pmatrix|vmatrix|bmatrix|aligned|array)\}(?:[^\$]|\\\$)*?\\end\{(?:cases|matrix|pmatrix|vmatrix|bmatrix|aligned|array)\}(?:[^\$]|\\\$)*?)\$/g, (_, mathContent) => {
+    return `\n$$\n${mathContent.trim()}\n$$\n`;
+  });
+
   // 1. 保护图片标签
   const imgPlaceholders: string[] = [];
   s = s.replace(/<img[^>]*>/gi, (match) => {
