@@ -6,7 +6,6 @@ export default defineConfig({
   description: "基于 Typst 与 VitePress 的历年全国高考数学真题现代排版与沉浸式在线题库",
   lang: "zh-CN",
   
-  // 生产环境若部署在 github.io/gaokaomath-typst-page/ 则配置 base
   base: "/gaokaomath-typst-page/",
 
   // 1952 年第一届全国统一高考，致敬年份端口 61952

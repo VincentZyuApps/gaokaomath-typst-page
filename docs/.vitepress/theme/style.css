@@ -1,0 +1,77 @@
+/* ==============================================================================
+   沉浸式高考数学题库全局样式与暗黑模式反色系统
+   ============================================================================== */
+
+:root {
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #1d4ed8;
+  --vp-c-brand-soft: rgba(37, 99, 235, 0.14);
+}
+
+/* 连续试卷与单题卡片在暗黑模式下的智能反色 */
+html.dark .paper-svg-page,
+html.dark .question-card-svg,
+html.dark .problem-image {
+  filter: invert(0.92) hue-rotate(180deg) contrast(1.05);
+  background-color: transparent !important;
+  transition: filter 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html:not(.dark) .paper-svg-page,
+html:not(.dark) .question-card-svg,
+html:not(.dark) .problem-image {
+  filter: none;
+  transition: filter 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 试卷纸张阴影在暗色下的自适应 */
+html.dark .paper-page-card {
+  background: #18181b;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* 日夜切换平滑 Cross-fade 渐变动效 */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  z-index: 1;
+}
+::view-transition-new(root) {
+  z-index: 2147483646;
+}
+
+html {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* 题目选项容器样式 */
+.choices-container {
+  margin: 0.6rem 0 1rem 0;
+  padding: 0.6rem 1rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  border-left: 3px solid var(--vp-c-brand-1);
+}
+
+.choices-container ul {
+  list-style-type: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.6rem;
+}
+
+.choices-container li {
+  margin: 0 !important;
+}
+
+/* 原生文档容器在非文档模式时隐藏 */
+.native-doc-container {
+  display: none;
+  margin-top: 1.5rem;
+}

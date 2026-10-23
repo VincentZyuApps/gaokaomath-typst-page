@@ -2,12 +2,22 @@
 title: 2024年新高考I卷
 ---
 
+<script setup>
+import ExamViewer from '../../.vitepress/theme/components/ExamViewer.vue';
+</script>
+
 # 2024年新高考I卷
+
+<ClientOnly>
+  <ExamViewer paperYear="2024" paperSlug="new_gaokao_1" />
+</ClientOnly>
+
+<div class="native-doc-container">
 
 ::: tip 试卷速览与下载
 - **考试年份**：2024 年全国统一高考
 - **适用省份**：山东、广东、湖南、湖北、河北、江苏、福建、浙江、河南、江西、安徽等
-- **资源获取**：可以在 GitHub Releases 下载由 Typst 原生编译的高清 A4 打印版 PDF，或者直接在线浏览做题。
+- **下载入口**：[📥 下载高清打印版 PDF](/gaokaomath-typst-page/papers/2024/new_gaokao_1.pdf)
 :::
 
 ## 单选题
@@ -35,11 +45,9 @@ title: 2024年新高考I卷
 
 因为 $1<\sqrt[3]{5}<2$，所以
 
-$
-
+$$
 -\sqrt[3]{5}<-1<0<\sqrt[3]{5}
-
-$
+$$
 
 而 $-3$，$2$，$3$ 都不在区间 $\left(-\sqrt[3]{5},\sqrt[3]{5}\right)$ 内，因此
 $A\cap B=\{-1,0\}$.
@@ -51,14 +59,14 @@ $A\cap B=\{-1,0\}$.
 
 ### 第 2 题
 
-若 $\dfrac{z}{z-1}=1+\i$，则 $z=$（ ）
+若 $\dfrac{z}{z-1}=1+\mathrm{i}$，则 $z=$（ ）
 
 <div class="choices-container">
 
-* **A.** $-1-\i$
-* **B.** $-1+\i$
-* **C.** $1-\i$
-* **D.** $1+\i$
+* **A.** $-1-\mathrm{i}$
+* **B.** $-1+\mathrm{i}$
+* **C.** $1-\mathrm{i}$
+* **D.** $1+\mathrm{i}$
 
 </div>
 
@@ -69,13 +77,13 @@ $A\cap B=\{-1,0\}$.
 **【详细解析】**：
 
 由
-$\frac{z}{z-1}=1+\i$
+$\frac{z}{z-1}=1+\mathrm{i}$
 得
-$z=(1+\i)(z-1)$.
+$z=(1+\mathrm{i})(z-1)$.
 所以
-$\i z=-(1+\i)$，
+$\mathrm{i} z=-(1+\mathrm{i})$，
 从而
-$z=\frac{-(1+\i)}{\i}=1-\i$.
+$z=\frac{-(1+\mathrm{i})}{\mathrm{i}}=1-\mathrm{i}$.
 故选 C.
 
 :::
@@ -84,7 +92,7 @@ $z=\frac{-(1+\i)}{\i}=1-\i$.
 
 ### 第 3 题
 
-已知向量 $\bs a=(0,1)$，$\bs b=(2,x)$，若 $\bs b\perp (\bs b-4\bs a)$，则 $x=$（ ）
+已知向量 $\mathbf{a}=(0,1)$，$\mathbf{b}=(2,x)$，若 $\mathbf{b}\perp (\mathbf{b}-4\mathbf{a})$，则 $x=$（ ）
 
 <div class="choices-container">
 
@@ -101,8 +109,8 @@ $z=\frac{-(1+\i)}{\i}=1-\i$.
 
 **【详细解析】**：
 
-由 $\bs b\perp (\bs b-4\bs a)$，得
-$\bs b\cdot (\bs b-4\bs a)=0$.
+由 $\mathbf{b}\perp (\mathbf{b}-4\mathbf{a})$，得
+$\mathbf{b}\cdot (\mathbf{b}-4\mathbf{a})=0$.
 即
 $(2,x)\cdot\left(2,x-4\right)=4+x(x-4)=0$.
 故 $x^2-4x+4=0$，所以 $x=2$（题中仅有一个取值）. 故选 D.
@@ -138,11 +146,9 @@ $\sin\alpha\sin\beta=2\cos\alpha\cos\beta$.
 $\cos\alpha\cos\beta-2\cos\alpha\cos\beta=-m$
 即 $\cos\alpha\cos\beta=-m$. 从而
 
-$
-
+$$
 \cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=(-m)+2(-m)=-3m
-
-$
+$$
 
 故选 A.
 
@@ -179,11 +185,9 @@ $\sqrt{r^2+3}=2\sqrt3$，
 $r^2=9$.
 所以 $r=3$. 圆锥体积
 
-$
-
+$$
 V=\frac13\pi r^2\cdot \sqrt3=\frac13\pi\cdot 9\cdot \sqrt3=3\sqrt3\pi
-
-$
+$$
 
 故选 B.
 
@@ -194,8 +198,8 @@ $
 ### 第 6 题
 
 已知函数
-$f(x)=-x^2-2ax-a$（$x<0$），$f(x)=\e^x+\ln(x+1)$（$x\ge 0$）
-在 $\R$ 上单调递增，则 $a$ 取值范围为（ ）
+$f(x)=-x^2-2ax-a$（$x<0$），$f(x)=\mathrm{e}^x+\ln(x+1)$（$x\ge 0$）
+在 $\mathbb{R}$ 上单调递增，则 $a$ 取值范围为（ ）
 
 <div class="choices-container">
 
@@ -213,9 +217,9 @@ $f(x)=-x^2-2ax-a$（$x<0$），$f(x)=\e^x+\ln(x+1)$（$x\ge 0$）
 **【详细解析】**：
 
 当 $x\ge 0$ 时，
-$f(x)=\e^x+\ln(x+1)$，
+$f(x)=\mathrm{e}^x+\ln(x+1)$，
 故
-$f'(x)=\e^x+\frac1{x+1}>0$，
+$f'(x)=\mathrm{e}^x+\frac1{x+1}>0$，
 于是右侧部分严格递增.
 
 对 $x<0$，有
@@ -224,11 +228,9 @@ $f'(x)=-2x-2a$.
 
 此外，单调性要求左侧极限不超过右侧端点值，即
 
-$
-
-\lim\limits_{x\to0^-}f(x)=-a\le f(0)=\e+\ln1=1
-
-$
+$$
+\lim\limits_{x\to0^-}f(x)=-a\le f(0)=\mathrm{e}+\ln1=1
+$$
 
 故 $-a\le1$，即 $a\ge-1$. 故 $a\in[-1,0]$.
 
@@ -272,7 +274,7 @@ $h(x)\le \frac12-1<0$.
 
 
 
-<div align="center"><img src="./img/q7_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/q7_fig1.png" style="max-width:320px;" /></div>
 
 
 
@@ -292,7 +294,7 @@ $\left(0,\frac{\pi}{6}\right)$，$\left(\frac{\pi}{3},\frac{\pi}{2}\right)$，$\
 
 ### 第 8 题
 
-已知函数 $f(x)$ 的定义域为 $\R$，且
+已知函数 $f(x)$ 的定义域为 $\mathbb{R}$，且
 $f(x)>f(x-1)+f(x-2)$，
 当 $x<3$ 时 $f(x)=x$. 则下列结论中一定正确的是（ ）
 
@@ -344,21 +346,17 @@ $f(10)>89$，$f(20)>1597>1000$.
 
 由 $x=2.1$，$s^2=0.01$，有 $Y\sim N(2.1,0.1)$. 故
 
-$
-
+$$
 P(Y>2)=P(Y>2.1-0.1)=P(Y<2.1+0.1)\approx0.8413>0.5
-
-$
+$$
 
 所以 $C$ 正确，$D$ 错误.
 
 又 $X\sim N(1.8,0.1)$，故
 
-$
-
+$$
 P(X>2)=P\left(X>1.8+2\times0.1\right)<P\left(X>1.8+0.1\right)\approx1-0.8413=0.1587<0.2
-
-$
+$$
 
 所以 B 正确，A 错误. 故选 BC.
 
@@ -387,7 +385,7 @@ $f(x)=(x-1)^2(x-4)$
 
 **【详细解析】**：
 
-设 $x\in\R$，
+设 $x\in\mathbb{R}$，
 $f'(x)=3(x-1)(x-3)$.
 当 $x\in(-\infty,1)\cup(3,+\infty)$ 时 $f'(x)>0$，当 $x\in(1,3)$ 时 $f'(x)<0$，故 $x=1$ 是局部极大，$x=3$ 为局部极小；在 $0<x<1$ 时 $f$ 增，故 $f(x)<f(x^2)$ 的说法方向相反，$B$ 错误.
 当 $1<x<2$ 时，$2x-1\in(1,3)$ 且 $f$ 在 $(1,3)$ 上递减，所以 $f(1)>f(2x-1)>f(3)$，即 $-4<f(2x-1)<0$，故 $C$ 正确.
@@ -405,7 +403,7 @@ $f(2-x)-f(x)=2(1-x)^3$.
 
 
 
-<div align="center"><img src="./img/q11_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/q11_fig1.png" style="max-width:320px;" /></div>
 
 <div class="choices-container">
 
@@ -434,11 +432,9 @@ $\sqrt{(2\sqrt2-2)^2+0^2}\,(2\sqrt2+2)=2(\sqrt2-1)\cdot 2(\sqrt2+1)=4$，
 故点 $(2\sqrt2,0)$ 在 $C$ 上，$B$ 正确.
 又当 $x=\frac32$ 时，
 
-$
-
+$$
 y^2=\frac{16}{(x+2)^2}-(x-2)^2=\frac{64}{49}-\frac14=\frac{207}{196}>1
-
-$
+$$
 
 故第一象限上 $y$ 的最大值大于 $1$，所以 $C$ 错.
 再由方程可得
@@ -467,11 +463,11 @@ $|AF_1|=13$，$|AB|=10$，
 
 
 
-<div align="center"><img src="./img/q12_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/q12_fig1.png" style="max-width:320px;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
-**【参考答案】**：`$\dfrac{3}{2}$`
+**【参考答案】**：`\(\dfrac{3}{2}\)`
 
 **【详细解析】**：
 
@@ -490,15 +486,15 @@ $e=\sqrt{1+\frac{b^2}{a^2}}=\sqrt{1+\frac{20}{16}}=\frac32$.
 
 ### 第 13 题
 
-若曲线 $y=\e^x+x$ 与曲线 $y=\ln(x+1)+a$ 在点 $(0,1)$ 处有切线重合，则 $a=$ _______ {}.
+若曲线 $y=\mathrm{e}^x+x$ 与曲线 $y=\ln(x+1)+a$ 在点 $(0,1)$ 处有切线重合，则 $a=$ _______ {}.
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
-**【参考答案】**：`$\ln2$`
+**【参考答案】**：`\(\ln2\)`
 
 **【详细解析】**：
 
-$y=\e^x+x$ 在 $(0,1)$ 的切线方程是
+$y=\mathrm{e}^x+x$ 在 $(0,1)$ 的切线方程是
 $y=2x+1$.
 设 $y=\ln(x+1)+a$ 在 $x_0$ 处切于该点且切线与上述相同. 因为该切线斜率是 2，故
 $\frac{1}{x_0+1}=2\Rightarrow x_0=-\frac12$.
@@ -516,7 +512,7 @@ $y=2x+1+a-\ln2$.
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
-**【参考答案】**：`$\frac12$`
+**【参考答案】**：`\(\frac12\)`
 
 **【详细解析】**：
 
@@ -538,11 +534,9 @@ $p_1+p_2=\frac{11}{12}$，$p_1+2p_2=\frac{11}{8}$，
 $p_2=\frac{11}{24}$.
 因此
 
-$
-
+$$
 P(X\ge2)=p_2+p_3=\frac{11}{24}+\frac1{24}=\frac12
-
-$
+$$
 
 故所求概率为 $\frac12$.
 
@@ -652,7 +646,7 @@ $3x-2y-6=0$，$x-2y=0$.
 
 
 
-<div align="center"><img src="./img/q17_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/q17_fig1.png" style="max-width:320px;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
@@ -670,7 +664,7 @@ $CD=\sqrt{4-x^2}$.
 过点 $D$ 作 $DE\perp AC$ 于 $E$，再过点 $E$ 作 $EF\perp CP$ 于 $F$，连接 $DF$.
 
 
-<div align="center"><img src="./img/q17_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/q17_solution_fig1.png" style="max-width:320px;" /></div>
 
 
 因为 $PA\perp$ 底面 $ABCD$，所以平面 $PAC\perp$ 平面 $ABCD$，且它们的交线为 $AC$. 由 $DE\perp AC$ 且 $DE\subset$ 平面 $ABCD$，得 $DE\perp$ 平面 $PAC$.
@@ -682,21 +676,17 @@ $\tan\angle DFE=\sqrt6$.
 $DE=\frac{x\sqrt{4-x^2}}{2}$.
 又
 
-$
-
+$$
 CE=\sqrt{CD^2-DE^2}=\sqrt{(4-x^2)-\frac{x^2(4-x^2)}{4}}=\frac{4-x^2}{2}
-
-$
+$$
 
 在 $\triangle PAC$ 中，$PA=AC=2$，且 $PA\perp AC$，所以 $\angle ACP=\frac{\pi}{4}$. 又 $CE\subset AC$，$CF\subset CP$，故 $\angle ECF=\frac{\pi}{4}$. 因为 $EF\perp CP$，所以 $\angle EFC=\frac{\pi}{2}$，从而 $\triangle EFC$ 是等腰直角三角形，所以
 $EF=\frac{CE}{\sqrt2}=\frac{4-x^2}{2\sqrt2}$.
 因此
 
-$
-
+$$
 \tan\angle DFE=\frac{DE}{EF}=\frac{\frac{x\sqrt{4-x^2}}{2}}{\frac{4-x^2}{2\sqrt2}}=\frac{x\sqrt2}{\sqrt{4-x^2}}=\sqrt6
-
-$
+$$
 
 解得
 $x^2=3$.
@@ -776,3 +766,4 @@ $P_m\ge\frac{(m+1)^2-m}{\binom{4m+2}{2}} =\frac{m^2+m+1}{(2m+1)(4m+1)}>\frac18$.
 
 ---
 
+</div>

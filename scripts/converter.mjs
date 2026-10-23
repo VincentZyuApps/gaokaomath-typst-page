@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 
 const TYPST_MATH_BUILTINS = new Set([
   'sin', 'cos', 'tan', 'cot', 'sec', 'csc', 'arcsin', 'arccos', 'arctan',
@@ -193,18 +194,28 @@ function processTextForTypst(text, imgRelativePrefix = "img/") {
   return s.trim();
 }
 
+// 修复 Web 端 Markdown 中的特殊宏（修复 13 题 \e^x 等问题）
+function cleanLatexForWeb(latexStr) {
+  let s = latexStr;
+  // 规范化专有宏
+  s = s.replace(/\\e\b/g, '\\mathrm{e}');
+  s = s.replace(/\\i\b/g, '\\mathrm{i}');
+  s = s.replace(/\\R\b/g, '\\mathbb{R}');
+  s = s.replace(/\\bs\s+([a-zA-Z0-9]+)/g, '\\mathbf{$1}');
+  s = s.replace(/\\bs\{([^}]+)\}/g, '\\mathbf{$1}');
+  return s;
+}
+
 function processTextForWebMarkdown(text, imgRelativePrefix = "./img/") {
   let s = text;
   s = s.replace(/\\FigureLayoutDeclare\{[^\n]+\}/g, '');
-  s = s.replace(/\\bitmapfigure(?:\[[^\]]*\])?\{img\/[^/]+\/[^/]+\/([^}]+)\}/g, `\n\n<div align="center"><img src="${imgRelativePrefix}$1" style="max-width:320px;" /></div>\n\n`);
+  s = s.replace(/\\bitmapfigure(?:\[[^\]]*\])?\{img\/[^/]+\/[^/]+\/([^}]+)\}/g, `\n\n<div align="center"><img class="problem-image" src="${imgRelativePrefix}$1" style="max-width:320px;" /></div>\n\n`);
   s = s.replace(/\\solutionfigure\{([\s\S]*?)\}/g, '$1');
   s = s.replace(/\\fillinblank/g, ' _______ ');
 
-  // 转换数学符号至标准 Markdown / MathJax 格式
-  // \( ... \) -> $ ... $
-  s = s.replace(/\\\(([\s\S]*?)\\\)/g, '$$$1$$');
-  // \[ ... \] -> $$ ... $$
-  s = s.replace(/\\\[([\s\S]*?)\\\]/g, '\n$$\n$1\n$$\n');
+  // 转换数学公式中的特殊宏
+  s = s.replace(/\\\[([\s\S]*?)\\\]/g, (m, p1) => `\n$$\n${cleanLatexForWeb(p1.trim())}\n$$\n`);
+  s = s.replace(/\\\(([\s\S]*?)\\\)/g, (m, p1) => `$${cleanLatexForWeb(p1.trim())}$`);
 
   s = s.replace(/\\begin\{enumerate\}([\s\S]*?)\\end\{enumerate\}/g, (m, body) => {
     const items = body.split(/\\item\s*/).filter(x => x.trim().length > 0);
@@ -383,13 +394,76 @@ export function generateTypst(data, templateRelPath = "../../templates/exam.typ"
   return out;
 }
 
+// 生成单题卡片源码
+export function generateSingleCardTypst(prob, secName, showAnswer = false) {
+  let pts = 5;
+  if (secName.includes("多选")) pts = 6;
+  if (secName.includes("填空")) pts = 5;
+  if (secName.includes("解答")) {
+    if (prob.num === 15) pts = 13;
+    else if (prob.num === 16 || prob.num === 17) pts = 15;
+    else pts = 17;
+  }
+
+  let out = `#import "../../../templates/card.typ": *\n\n`;
+  let ansStr = "";
+  if (prob.answer) {
+    let a = prob.answer.trim();
+    if (a.startsWith('\\(') && a.endsWith('\\)')) {
+      ansStr = `$${latexMathToTypst(a.slice(2, -2))}$`;
+    } else {
+      ansStr = processTextForTypst(a, "../img/");
+    }
+  }
+
+  let solBody = "none";
+  if (prob.solution) {
+    solBody = `[\n${processTextForTypst(prob.solution, "../img/")}\n]`;
+  }
+
+  out += `#show: question-card.with(\n`;
+  out += `  num: ${prob.num},\n`;
+  out += `  type: "${secName}",\n`;
+  out += `  points: ${pts},\n`;
+  out += `  show-answer: ${showAnswer},\n`;
+  out += `  answer-text: [${ansStr}],\n`;
+  out += `  solution-body: ${solBody},\n`;
+  out += `)\n\n`;
+
+  const body = processTextForTypst(prob.body, "../img/");
+  out += `${body}\n\n`;
+
+  if (prob.choices && prob.choices.length === 4) {
+    const c0 = processTextForTypst(prob.choices[0], "../img/");
+    const c1 = processTextForTypst(prob.choices[1], "../img/");
+    const c2 = processTextForTypst(prob.choices[2], "../img/");
+    const c3 = processTextForTypst(prob.choices[3], "../img/");
+    const maxLen = Math.max(c0.length, c1.length, c2.length, c3.length);
+    const cols = maxLen > 30 ? 1 : (maxLen > 15 ? 2 : 4);
+    out += `#choices([${c0}], [${c1}], [${c2}], [${c3}], cols: ${cols})\n`;
+  }
+
+  return out;
+}
+
 export function generateVitepressMarkdown(data, year = "2024", slug = "new_gaokao_1") {
   let md = `---\ntitle: ${data.subtitle}\n---\n\n`;
+  md += `<script setup>\n`;
+  md += `import ExamViewer from '../../.vitepress/theme/components/ExamViewer.vue';\n`;
+  md += `</script>\n\n`;
+
   md += `# ${data.subtitle}\n\n`;
+
+  // 插入三模交互组件
+  md += `<ClientOnly>\n`;
+  md += `  <ExamViewer paperYear="${year}" paperSlug="${slug}" />\n`;
+  md += `</ClientOnly>\n\n`;
+
+  md += `<div class="native-doc-container">\n\n`;
   md += `::: tip 试卷速览与下载\n`;
   md += `- **考试年份**：${year} 年全国统一高考\n`;
   md += `- **适用省份**：山东、广东、湖南、湖北、河北、江苏、福建、浙江、河南、江西、安徽等\n`;
-  md += `- **资源获取**：可以在 GitHub Releases 下载由 Typst 原生编译的高清 A4 打印版 PDF，或者直接在线浏览做题。\n`;
+  md += `- **下载入口**：[📥 下载高清打印版 PDF](/gaokaomath-typst-page/papers/${year}/${slug}.pdf)\n`;
   md += `:::\n\n`;
 
   for (const sec of data.sections) {
@@ -420,9 +494,7 @@ export function generateVitepressMarkdown(data, year = "2024", slug = "new_gaoka
         md += `::: details 💡 点击展开【参考答案与详细解析】\n\n`;
         if (prob.answer) {
           let ansText = prob.answer.trim();
-          if (ansText.startsWith('\\(') && ansText.endsWith('\\)')) {
-            ansText = `$${ansText.slice(2, -2)}$`;
-          }
+          ansText = cleanLatexForWeb(ansText);
           md += `**【参考答案】**：\`${ansText}\`\n\n`;
         }
         if (prob.solution) {
@@ -436,32 +508,95 @@ export function generateVitepressMarkdown(data, year = "2024", slug = "new_gaoka
     }
   }
 
+  md += `</div>\n`;
+
   return md;
 }
 
-// 主执行函数（批量或单卷）
-export function convertSinglePaper(sourceTexPath, destDirTypst, destDirDocs, year = "2024", slug = "new_gaokao_1") {
-  const data = parseLatexPaper(sourceTexPath);
+// 主流水线
+export function runPipeline() {
+  const year = '2024';
+  const slug = 'new_gaokao_1';
+  const upstreamTex = 'D:/TMP/Gaokao-Math-Problems-Compilation/content/2024/new_gaokao_paper_1.tex';
+  const data = parseLatexPaper(upstreamTex);
 
-  // 1. 生成 Typst
-  fs.mkdirSync(destDirTypst, { recursive: true });
+  const rootDir = 'D:/TMP/gaokaomath-typst-page';
+  const papersDir = path.join(rootDir, 'papers', year);
+  const cardsDir = path.join(papersDir, 'cards');
+  const pagesDir = path.join(papersDir, 'pages');
+  const docsDir = path.join(rootDir, 'docs', 'papers', year);
+  const publicDir = path.join(rootDir, 'docs', 'public', 'papers', year);
+
+  fs.mkdirSync(cardsDir, { recursive: true });
+  fs.mkdirSync(pagesDir, { recursive: true });
+  fs.mkdirSync(docsDir, { recursive: true });
+  fs.mkdirSync(publicDir, { recursive: true });
+
+  // 1. 生成整卷 Typst
   const typstCode = generateTypst(data, "../../templates/exam.typ", true);
-  fs.writeFileSync(path.join(destDirTypst, `${slug}.typ`), typstCode, 'utf-8');
+  fs.writeFileSync(path.join(papersDir, `${slug}.typ`), typstCode, 'utf-8');
 
-  // 2. 生成 VitePress Markdown
-  fs.mkdirSync(destDirDocs, { recursive: true });
+  // 2. 编译整卷 PDF
+  console.log('[1/4] Compiling full paper PDF with Typst...');
+  execSync(`typst compile --root . papers/${year}/${slug}.typ papers/${year}/${slug}.pdf`, { cwd: rootDir });
+  fs.copyFileSync(path.join(papersDir, `${slug}.pdf`), path.join(publicDir, `${slug}.pdf`));
+
+  // 3. 编译整卷连续分页 SVG
+  console.log('[2/4] Compiling continuous pages SVG...');
+  execSync(`typst compile --root . --format svg papers/${year}/${slug}.typ "papers/${year}/pages/page_{p}.svg"`, { cwd: rootDir });
+  
+  const pageFiles = fs.readdirSync(pagesDir).filter(f => f.startsWith('page_') && f.endsWith('.svg'));
+  pageFiles.forEach(f => {
+    fs.copyFileSync(path.join(pagesDir, f), path.join(publicDir, f));
+  });
+
+  // 4. 为每道题生成独立单题卡片源码并编译为 SVG
+  console.log('[3/4] Compiling single question SVGs...');
+  const manifest = {
+    year,
+    slug,
+    title: data.subtitle,
+    pageCount: pageFiles.length,
+    questions: []
+  };
+
+  for (const sec of data.sections) {
+    for (const prob of sec.problems) {
+      const qNumStr = String(prob.num).padStart(2, '0');
+      // 纯题目卡片
+      const cardTypCode = generateSingleCardTypst(prob, sec.name, false);
+      const cardTypPath = path.join(cardsDir, `q${qNumStr}.typ`);
+      fs.writeFileSync(cardTypPath, cardTypCode, 'utf-8');
+
+      // 含解析卡片
+      const cardSolTypCode = generateSingleCardTypst(prob, sec.name, true);
+      const cardSolTypPath = path.join(cardsDir, `q${qNumStr}_sol.typ`);
+      fs.writeFileSync(cardSolTypPath, cardSolTypCode, 'utf-8');
+
+      // 编译 SVG
+      execSync(`typst compile --root . "${cardTypPath}" "${path.join(cardsDir, `q${qNumStr}.svg`)}"`, { cwd: rootDir });
+      execSync(`typst compile --root . "${cardSolTypPath}" "${path.join(cardsDir, `q${qNumStr}_sol.svg`)}"`, { cwd: rootDir });
+
+      fs.copyFileSync(path.join(cardsDir, `q${qNumStr}.svg`), path.join(publicDir, `q${qNumStr}.svg`));
+      fs.copyFileSync(path.join(cardsDir, `q${qNumStr}_sol.svg`), path.join(publicDir, `q${qNumStr}_sol.svg`));
+
+      manifest.questions.push({
+        num: prob.num,
+        type: sec.name,
+        hasAnswer: !!(prob.answer || prob.solution)
+      });
+    }
+  }
+
+  // 写入清单文件
+  fs.writeFileSync(path.join(publicDir, 'manifest.json'), JSON.stringify(manifest, null, 2), 'utf-8');
+
+  // 5. 生成 VitePress Markdown
+  console.log('[4/4] Generating VitePress Markdown...');
   const mdCode = generateVitepressMarkdown(data, year, slug);
-  fs.writeFileSync(path.join(destDirDocs, `${slug}.md`), mdCode, 'utf-8');
+  fs.writeFileSync(path.join(docsDir, `${slug}.md`), mdCode, 'utf-8');
 
-  console.log(`[Success] Converted ${year}/${slug} to Typst and VitePress Markdown.`);
+  console.log('🎉 [All Done] All SVG pages, single cards, PDF and Markdown successfully built!');
 }
 
-// 默认运行
-const upstreamTex = 'D:/TMP/Gaokao-Math-Problems-Compilation/content/2024/new_gaokao_paper_1.tex';
-convertSinglePaper(
-  upstreamTex,
-  'D:/TMP/gaokaomath-typst-page/papers/2024',
-  'D:/TMP/gaokaomath-typst-page/docs/papers/2024',
-  '2024',
-  'new_gaokao_1'
-);
+runPipeline();
