@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 立即开始刷题 🚀
-      link: /papers/2024/new_gaokao_1
+      link: /papers/
     - theme: alt
       text: 查看 GitHub 仓库 🌟
       link: https://github.com/VincentZyuApps/gaokaomath-typst-page
@@ -25,5 +25,5 @@ features:
     details: 涵盖 1952 年第一届统一高考至今的数学真题，保留高精度几何重绘图与完整数学公式。
   - icon: 🌐
     title: 开源与自动管道
-    details: 基于 upstream 社区数据源自动化转换，支持本地快捷启动（致敬 1952 年份端口 61952）。
+    details: 基于 upstream 社区数据源自动化转换，支持本地快捷启动（暗示 1952 年份端口 61952）。
 ---

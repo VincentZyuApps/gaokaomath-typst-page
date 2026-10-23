@@ -30,6 +30,6 @@ npm run convert
 # 3. 本地编译 Typst 试卷 PDF
 npm run compile:pdf
 
-# 4. 启动本地沉浸式题库站点（默认端口 61952，致敬 1952 年第一届高考）
+# 4. 启动本地沉浸式题库站点（默认端口 61952，暗示 1952 年高考创立年份）
 npm run dev
 ```

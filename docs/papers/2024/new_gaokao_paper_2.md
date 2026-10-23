@@ -1,0 +1,838 @@
+---
+title: 2024年新高考II卷
+---
+
+<script setup>
+import ExamViewer from '../../.vitepress/theme/components/ExamViewer.vue';
+</script>
+
+# 2024年新高考II卷
+
+<ClientOnly>
+  <ExamViewer paperYear="2024" paperSlug="new_gaokao_paper_2" />
+</ClientOnly>
+
+<div class="native-doc-container">
+
+::: tip 试卷速览与下载
+- **考试年份**：2024 年全国统一高考
+- **试卷名称**：2024年新高考II卷
+- **下载入口**：[📥 下载高清打印版 PDF](/gaokaomath-typst-page/papers/2024/new_gaokao_paper_2.pdf)
+:::
+
+## 单选题
+
+### 第 1 题
+
+已知 $z=-1-\mathrm{i}$，则 $|z|=$（ ）
+
+<div class="choices-container">
+
+* **A.** $0$
+* **B.** $1$
+* **C.** $\sqrt2$
+* **D.** $2$
+
+</div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`C`
+
+**【详细解析】**：
+
+由复数模的定义，
+$|z|=\sqrt{(-1)^2+(-1)^2}=\sqrt2$.
+故选 C.
+
+:::
+
+---
+
+### 第 2 题
+
+已知命题 $p:\forall x\in\mathbb{R}$，$|x+1|>1$；命题 $q:\exists x>0$，$x^3=x$，则（ ）
+
+<div class="choices-container">
+
+* **A.** $p$ 和 $q$ 都是真命题
+* **B.** $\neg p$ 和 $q$ 都是真命题
+* **C.** $p$ 和 $\neg q$ 都是真命题
+* **D.** $\neg p$ 和 $\neg q$ 都是真命题
+
+</div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`B`
+
+**【详细解析】**：
+
+对命题 $p$，取 $x=-1$，有 $|x+1|=0\le 1$，所以 $p$ 为假命题，$\neg p$ 为真命题.
+对命题 $q$，取 $x=1$，则 $x>0$ 且 $x^3=x$，所以 $q$ 为真命题.
+故 $\neg p$ 和 $q$ 都是真命题，选 B.
+
+:::
+
+---
+
+### 第 3 题
+
+已知向量 $\mathbf{a}$，$\mathbf{b}$ 满足 $|\mathbf{a}|=1$，$|\mathbf{a}+2\mathbf{b}|=2$，且 $(\mathbf{b}-2\mathbf{a})\perp \mathbf{b}$，则 $|\mathbf{b}|=$（ ）
+
+<div class="choices-container">
+
+* **A.** $\frac12$
+* **B.** $\frac{\sqrt2}{2}$
+* **C.** $\frac{\sqrt3}{2}$
+* **D.** $1$
+
+</div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`B`
+
+**【详细解析】**：
+
+由 $(\mathbf{b}-2\mathbf{a})\perp \mathbf{b}$ 得
+$(\mathbf{b}-2\mathbf{a})\cdot \mathbf{b}=0$，
+即
+$|\mathbf{b}|^2=2\mathbf{a}\cdot \mathbf{b}$.
+又由 $|\mathbf{a}+2\mathbf{b}|=2$ 得
+$|\mathbf{a}+2\mathbf{b}|^2=|\mathbf{a}|^2+4\mathbf{a}\cdot \mathbf{b}+4|\mathbf{b}|^2=4$.
+代入 $|\mathbf{a}|=1$ 及 $2\mathbf{a}\cdot \mathbf{b}=|\mathbf{b}|^2$，得
+$1+6|\mathbf{b}|^2=4$.
+$|\mathbf{b}|^2=\frac12$，$|\mathbf{b}|=\frac{\sqrt2}{2}$.
+故选 B.
+
+:::
+
+---
+
+### 第 4 题
+
+某农业研究部门在面积相等的 $100\text{ 块}$稻田上种植一种新型水稻，得到各块稻田的亩产量（单位：$\mathrm{kg}$）并整理得如下表. 根据表中数据，结论中正确的是（ ）
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+亩产量 & $[900,950)$ & $[950,1000)$ & $[1000,1050)$ \\
+\hline
+频数 & $6$ & $12$ & $18$ \\
+\hline
+亩产量 & $[1050,1100)$ & $[1100,1150)$ & $[1150,1200)$ \\
+\hline
+频数 & $30$ & $24$ & $10$ \\
+\hline
+\end{tabular}
+\end{center}
+
+<div class="choices-container">
+
+* **A.** $100\text{ 块}$稻田亩产量的中位数小于 $1050 \mathrm{~kg}$
+* **B.** $100\text{ 块}$稻田中亩产量低于 $1100 \mathrm{~kg}$ 的稻田所占比例超过 $80\%$
+* **C.** $100\text{ 块}$稻田亩产量的极差介于 $200 \mathrm{~kg}$ 至 $300 \mathrm{~kg}$ 之间
+* **D.** $100\text{ 块}$稻田亩产量的平均值介于 $900 \mathrm{~kg}$ 至 $1000 \mathrm{~kg}$ 之间
+
+</div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`C`
+
+**【详细解析】**：
+
+前 3 组频数之和为
+$6+12+18=36<50$，
+故第 $50$，$51$ 个观测值都落在 $[1050,1100)$ 内，中位数不小于 $1050 \mathrm{~kg}$，A 错.
+
+亩产量不低于 $1100 \mathrm{~kg}$ 的有 $24+10=34$ 块，所以低于 $1100 \mathrm{~kg}$ 的占比为
+$\frac{100-34}{100}=66\%$，
+B 错.
+
+设最小亩产量为 $m$，最大亩产量为 $M$，则 $m\in[900,950)$，$M\in[1150,1200)$，所以 $M-m>1150-950=200$，$M-m<1200-900=300$，故极差介于 $200 \mathrm{~kg}$ 至 $300 \mathrm{~kg}$ 之间，C 对.
+
+用各组左端点作下界，平均值不小于
+$\frac{1}{100}\left(6\times 900+12\times 950+18\times 1000+30\times 1050+24\times 1100+10\times 1150\right)=1042 \mathrm{~kg}$，
+必大于 $1000 \mathrm{~kg}$，D 错.
+
+故选 C.
+
+:::
+
+---
+
+### 第 5 题
+
+已知曲线 $C:x^2+y^2=16$（$y>0$），从 $C$ 上任意一点 $P$ 向 $x$ 轴作垂线段 $PP'$，$P'$ 为垂足，则线段 $PP'$ 的中点 $M$ 的轨迹方程为（ ）
+
+<div class="choices-container">
+
+* **A.** $\dfrac{x^2}{16}+\dfrac{y^2}{4}=1$（$y>0$）
+* **B.** $\dfrac{x^2}{16}+\dfrac{y^2}{8}=1$（$y>0$）
+* **C.** $\dfrac{y^2}{16}+\dfrac{x^2}{4}=1$（$y>0$）
+* **D.** $\dfrac{y^2}{16}+\dfrac{x^2}{8}=1$（$y>0$）
+
+</div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`A`
+
+**【详细解析】**：
+
+设 $M(x,y)$，则 $P(x,y_0)$，$P'(x,0)$.
+因为 $M$ 为 $PP'$ 的中点，所以 $y_0=2y$，即 $P(x,2y)$.
+又 $P$ 在曲线 $x^2+y^2=16$（$y>0$）上，故
+$x^2+(2y)^2=16$，
+即
+$\frac{x^2}{16}+\frac{y^2}{4}=1$（$y>0$）.
+故选 A.
+
+:::
+
+---
+
+### 第 6 题
+
+设函数 $f(x)=a(x+1)^2-1$，$g(x)=\cos x+2ax$，当 $x\in(-1,1)$ 时，曲线 $y=f(x)$ 与 $y=g(x)$ 恰有一个交点，则 $a=$（ ）
+
+<div class="choices-container">
+
+* **A.** $-1$
+* **B.** $\frac12$
+* **C.** $1$
+* **D.** $2$
+
+</div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`D`
+
+**【详细解析】**：
+
+令 $f(x)=g(x)$，得
+$a(x+1)^2-1=\cos x+2ax$，
+化简为
+$ax^2+a-1=\cos x$.
+令
+$F(x)=ax^2+a-1$，$G(x)=\cos x$.
+则 $F(x)$，$G(x)$ 都是偶函数. 题意等价于在区间 $(-1,1)$ 上，曲线 $y=F(x)$ 与 $y=G(x)$ 恰有一个交点.
+若存在交点 $(x_0,F(x_0))$ 满足 $x_0\ne 0$，则由偶函数性质有
+$F(-x_0)=F(x_0)$，$G(-x_0)=G(x_0)$，
+于是 $(-x_0,F(x_0))$ 也是交点，这与“恰有一个交点”矛盾.
+因此唯一交点只能对应 $x=0$.
+于是
+$F(0)=G(0)$，
+即
+$a-1=1$，
+所以 $a=2$.
+当 $a=2$ 时，
+$F(x)-G(x)=2x^2+1-\cos x$.
+在 $(-1,1)$ 上有 $2x^2\ge 0$ 且 $1-\cos x\ge 0$，并且仅当 $x=0$ 时同时取等号，所以该方程只有一个实根 $x=0$.
+故选 D.
+
+:::
+
+---
+
+### 第 7 题
+
+已知正三棱台 $ABC-A_1B_1C_1$ 的体积为 $\frac{52}{3}$，$AB=6$，$A_1B_1=2$，则 $A_1A$ 与平面 $ABC$ 所成角的正切值为（ ）
+
+<div class="choices-container">
+
+* **A.** $\frac12$
+* **B.** $1$
+* **C.** $2$
+* **D.** $3$
+
+</div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`B`
+
+**【详细解析】**：
+
+设正三棱台的高为 $h$. 上下底面积分别为
+$S_{ABC}=\frac{\sqrt3}{4}\cdot 6^2=9\sqrt3$，$S_{A_1B_1C_1}=\frac{\sqrt3}{4}\cdot 2^2=\sqrt3$.
+由台体体积公式
+$V=\frac{h}{3}\left(S_{ABC}+S_{A_1B_1C_1}+\sqrt{S_{ABC}S_{A_1B_1C_1}}\right)$
+得
+$\frac{52}{3}=\frac{h}{3}(9\sqrt3+\sqrt3+3\sqrt3)=\frac{13\sqrt3}{3}h$，
+所以
+$h=\frac{4\sqrt3}{3}$.
+
+
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q7_solution_fig1.png" style="max-width:320px;" /></div>
+
+
+设底面中心为 $O$，$A_1$ 在底面的射影为 $M$. 因为正三棱台的上下底相似且同心，
+$AO=\frac{6}{\sqrt3}=2\sqrt3$，$OM=\frac{2}{\sqrt3}=\frac{2\sqrt3}{3}$.
+故
+$AM=AO-OM=2\sqrt3-\frac{2\sqrt3}{3}=\frac{4\sqrt3}{3}$.
+于是
+$\tan\angle(A_1A,\text{平面 }ABC)=\frac{A_1M}{AM}=\frac{h}{AM}=1$.
+故选 B.
+
+:::
+
+---
+
+### 第 8 题
+
+设函数 $f(x)=(x+a)\ln(x+b)$，若 $f(x)\ge 0$，则 $a^2+b^2$ 的最小值为（ ）
+
+<div class="choices-container">
+
+* **A.** $\frac18$
+* **B.** $\frac14$
+* **C.** $\frac12$
+* **D.** $1$
+
+</div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`C`
+
+**【详细解析】**：
+
+函数的定义域为 $(-b,+\infty)$.
+当 $x\in(-b,1-b)$ 时，
+$\ln(x+b)<0$.
+要使 $f(x)=(x+a)\ln(x+b)\ge 0$，必须有
+$x+a\le 0$.
+当 $x>1-b$ 时，
+$\ln(x+b)>0$，
+故必须有
+$x+a\ge 0$.
+对左段令 $x\to(1-b)^{-}$ 得 $1-b+a\le 0$，对右段令 $x\to(1-b)^{+}$ 得 $1-b+a\ge 0$，因此 $-a=1-b$，即 $b=a+1$.
+反之，若 $b=a+1$，则定义域为 $x>-b$，记 $t=x+a>-1$，有 $f(x)=t\ln(t+1)$，当 $t>0$ 时两因子皆正，当 $-1<t<0$ 时两因子皆负，当 $t=0$ 时为零，故恒有 $f(x)\ge 0$.
+于是
+$a^2+b^2=a^2+(a+1)^2=2\left(a+\frac12\right)^2+\frac12\ge \frac12$.
+当 $a=-\frac12$，$b=\frac12$ 时取等号.
+故最小值为 $\frac12$，选 C.
+
+:::
+
+---
+
+## 多选题
+
+### 第 9 题
+
+对于函数 $f(x)=\sin 2x$ 和 $g(x)=\sin\left(2x-\frac{\pi}{4}\right)$，下列说法正确的有（ ）
+
+<div class="choices-container">
+
+* **A.** $f(x)$ 与 $g(x)$ 有相同的零点
+* **B.** $f(x)$ 与 $g(x)$ 有相同的最大值
+* **C.** $f(x)$ 与 $g(x)$ 有相同的最小正周期
+* **D.** $f(x)$ 与 $g(x)$ 的图像有相同的对称轴
+
+</div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`BC`
+
+**【详细解析】**：
+
+A：由 $f(x)=0$ 得 $2x=k\pi$（$k\in\mathbb{Z}$），即 $x=\frac{k\pi}{2}$（$k\in\mathbb{Z}$），而由 $g(x)=0$ 得 $2x-\frac{\pi}{4}=k\pi$（$k\in\mathbb{Z}$），即 $x=\frac{k\pi}{2}+\frac{\pi}{8}$（$k\in\mathbb{Z}$），两零点集不交，故 A 错.
+
+B：两函数振幅均为 $1$，最大值均为 $1$，故 B 对.
+
+C：两函数角频率均为 $2$，最小正周期均为
+$\frac{2\pi}{2}=\pi$，
+故 C 对.
+
+D：由 $2x=k\pi+\frac{\pi}{2}$（$k\in\mathbb{Z}$）得 $f(x)$ 的对称轴为 $x=\frac{k\pi}{2}+\frac{\pi}{4}$（$k\in\mathbb{Z}$），由 $2x-\frac{\pi}{4}=k\pi+\frac{\pi}{2}$（$k\in\mathbb{Z}$）得 $g(x)$ 的对称轴为 $x=\frac{k\pi}{2}+\frac{3\pi}{8}$（$k\in\mathbb{Z}$），两集合不相等，故 D 错.
+
+故选 BC.
+
+:::
+
+---
+
+### 第 10 题
+
+抛物线 $C:y^2=4x$ 的准线为 $l$，$P$ 为 $C$ 上的动点，过 $P$ 作圆 $\odot A:x^2+(y-4)^2=1$ 的一条切线，$Q$ 为切点；过 $P$ 作 $l$ 的垂线，垂足为 $B$，则（ ）
+
+<div class="choices-container">
+
+* **A.** $l$ 与 $\odot A$ 相切
+* **B.** 当 $P$，$A$，$B$ 三点共线时，$|PQ|=\sqrt{15}$
+* **C.** 当 $|PB|=2$ 时，$PA\perp AB$
+* **D.** 满足 $|PA|=|PB|$ 的点 $P$ 有且仅有 $2$ 个
+
+</div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`ABD`
+
+**【详细解析】**：
+
+抛物线 $y^2=4x$ 的准线为 $l$，$l$ 的方程为 $x=-1$.
+
+
+
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q10_fig1.png" style="max-width:320px;" /></div>
+
+
+
+A：圆心 $A(0,4)$ 到直线 $x=-1$ 的距离为 $1$，恰等于圆半径，故 $l$ 与 $\odot A$ 相切，A 对.
+
+B：若 $P$，$A$，$B$ 三点共线，则因 $B$ 与 $P$ 纵坐标相同，直线 $PB$ 为水平线，故 $A$ 与 $P$ 纵坐标相同，即 $y_P=4$. 由 $P$ 在 $C$ 上得 $16=4x_P$，$x_P=4$，即 $P(4,4)$. 此时 $PA=4$，切线长 $PQ=\sqrt{PA^2-1}=\sqrt{15}$，故 B 对.
+
+C：设 $P\left(\frac{t^2}{4},t\right)$，则 $|PB|=\frac{t^2}{4}+1$. 由 $|PB|=2$ 得 $t=\pm 2$，即 $P(1,2)$ 或 $P(1,-2)$. 当 $P=(1,2)$ 时，$k_{PA}=\frac{2-4}{1-0}=-2$，$k_{AB}=\frac{2-4}{-1-0}=2$；当 $P=(1,-2)$ 时，$k_{PA}=\frac{-2-4}{1-0}=-6$，$k_{AB}=\frac{-2-4}{-1-0}=6$，两种情形都不满足 $k_{PA}k_{AB}=-1$，故 $PA\not\perp AB$，C 错.
+
+D：抛物线焦点为 $F(1,0)$，由抛物线定义有 $|PB|=|PF|$. 故 $|PA|=|PB|$ 等价于 $|PA|=|PF|$，即点 $P$ 在线段 $AF$ 的垂直平分线上. 其中 $A(0,4)$，$F(1,0)$，$AF$ 的中点为 $\left(\frac12,2\right)$，$AF$ 斜率为 $-4$，故垂直平分线方程为 $y-2=\frac14\left(x-\frac12\right)$，即 $x=4y-\frac{15}{2}$. 与 $y^2=4x$ 联立得 $y^2-16y+30=0$，判别式 $\Delta=256-120=136>0$，故有两个交点，即满足条件的点 $P$ 有且仅有 $2$ 个，D 对.
+
+故选 ABD.
+
+:::
+
+---
+
+### 第 11 题
+
+设函数 $f(x)=2x^3-3ax^2+1$，则（ ）
+
+<div class="choices-container">
+
+* **A.** 当 $a>1$ 时，$f(x)$ 有三个零点
+* **B.** 当 $a<0$ 时，$x=0$ 是 $f(x)$ 的极大值点
+* **C.** 存在 $a$，$b$，使得 $x=b$ 为曲线 $y=f(x)$ 的对称轴
+* **D.** 存在 $a$，使得点 $(1,f(1))$ 为曲线 $y=f(x)$ 的对称中心
+
+</div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`AD`
+
+**【详细解析】**：
+
+因为
+$f'(x)=6x^2-6ax=6x(x-a)$.
+
+A：当 $a>1$ 时，$f(x)$ 在 $(-\infty,0)$ 与 $(a,+\infty)$ 上单调递增，在 $(0,a)$ 上单调递减. 此时 $f(0)=1>0$，$f(a)=1-a^3<0$. 又 $f(-1)=-1-3a<0$，$f(2a)=4a^3+1>0$，故由零点存在定理，$f(x)$ 在 $(-1,0)$，$(0,a)$，$(a,2a)$ 内各至少有一个零点，而三次函数至多有三个零点，故恰有三个零点，A 对.
+
+B：当 $a<0$ 时，$f'(x)$ 在 $(a,0)$ 内小于 $0$，在 $(0,+\infty)$ 内大于 $0$，故 $x=0$ 是极小值点，不是极大值点，B 错.
+
+C：若存在 $b$ 使直线 $x=b$ 为曲线 $y=f(x)$ 的对称轴，则恒有 $f(b+t)=f(b-t)$. 而 $f(b+t)-f(b-t)=4t^3+12b(b-a)t$，其中 $t^3$ 系数为 $4\ne 0$，不可能恒为 $0$，故 C 错.
+
+D：$f(1+t)+f(1-t)=6-6a+(12-6a)t^2$，$2f(1)=6-6a$. 取 $a=2$ 时恒有 $f(1+t)+f(1-t)=2f(1)$，即点 $(1,f(1))$ 为曲线 $y=f(x)$ 的对称中心，故 D 对.
+
+故选 AD.
+
+:::
+
+---
+
+## 填空题
+
+### 第 12 题
+
+记 $S_n$ 为等差数列 $\{a_n\}$ 的前 $n$ 项和，若 $a_3+a_4=7$，$3a_2+a_5=5$，则 $S_{10}=$ _______ {}.
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`95`
+
+**【详细解析】**：
+
+设等差数列首项为 $a_1$，公差为 $d$. 则
+$a_3+a_4=(a_1+2d)+(a_1+3d)=7$，
+$3a_2+a_5=3(a_1+d)+(a_1+4d)=5$.
+解得
+$a_1=-4$，$d=3$.
+所以
+$S_{10}=10a_1+\frac{10\times 9}{2}d=10\times(-4)+45\times 3=95$.
+故答案为 95.
+
+:::
+
+---
+
+### 第 13 题
+
+已知 $\alpha$ 为第一象限角，$\beta$ 为第三象限角，$\tan\alpha+\tan\beta=4$，$\tan\alpha\tan\beta=\sqrt2+1$，则 $\sin(\alpha+\beta)=$ _______ {}.
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`\(-\frac{2\sqrt2}{3}\)`
+
+**【详细解析】**：
+
+由正切和角公式，
+$\tan(\alpha+\beta)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta} =\frac{4}{1-(\sqrt2+1)}=-2\sqrt2$.
+存在整数 $k$ 使 $\alpha+\beta-2k\pi\in(\pi,2\pi)$，而 $\tan(\alpha+\beta)<0$，故 $\alpha+\beta-2k\pi\in\left(\frac{3\pi}{2},2\pi\right)$，从而
+$\sin(\alpha+\beta)<0$.
+设
+$\sin(\alpha+\beta)=s$，$\cos(\alpha+\beta)=c$.
+则
+$\frac{s}{c}=-2\sqrt2$，$s^2+c^2=1$.
+解得
+$s=-\frac{2\sqrt2}{3}$.
+故答案为 $-\frac{2\sqrt2}{3}$.
+
+:::
+
+---
+
+### 第 14 题
+
+在如图的 $4\times 4$ 方格表中选 4 个方格，要求每行和每列均恰有一个方格被选中，则共有 _______ {} 种选法；在所有符合上述要求的选法中，选中方格中的 4 个数之和的最大值是 _______ {}.
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+11 & 21 & 31 & 40 \\
+\hline
+12 & 22 & 33 & 42 \\
+\hline
+13 & 22 & 33 & 43 \\
+\hline
+15 & 24 & 34 & 44 \\
+\hline
+\end{tabular}
+\end{center}
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【参考答案】**：`24；112`
+
+**【详细解析】**：
+
+每行每列恰选一个，相当于给四列分配四个不同行，即行的一个全排列，共有
+$4!=24$
+种选法.
+
+记第 $4$ 行所选列为 $j$. 当 $j=1$ 时选 $15$，余下第 $1$，$2$，$3$ 行在第 $2$，$3$，$4$ 列的 $6$ 种分配之和分别为 $21+33+43=97$，$21+42+33=96$，$31+22+43=96$，$31+42+22=95$，$40+22+33=95$，$40+33+22=95$，最大为 $97$，总数为 $112$. 当 $j=2$ 时选 $24$，余下在第 $1$，$3$，$4$ 列的 $6$ 种分配之和分别为 $11+33+43=87$，$11+42+33=86$，$31+12+43=86$，$31+42+13=86$，$40+12+33=85$，$40+33+13=86$，总数至多为 $111$. 当 $j=3$ 时选 $34$，余下在第 $1$，$2$，$4$ 列的 $6$ 种分配之和分别为 $11+22+43=76$，$11+42+22=75$，$21+12+43=76$，$21+42+13=76$，$40+12+22=74$，$40+22+13=75$，总数至多为 $110$. 当 $j=4$ 时选 $44$，余下在第 $1$，$2$，$3$ 列的 $6$ 种分配之和分别为 $11+22+33=66$，$11+33+22=66$，$21+12+33=66$，$21+33+13=67$，$31+12+22=65$，$31+22+13=66$，总数至多为 $111$. 故和的最大值为 $112$，例如选 $15$，$21$，$33$，$43$，和为 $15+21+33+43=112$.
+
+故答案为：24；112.
+
+:::
+
+---
+
+## 解答题
+
+### 第 15 题
+
+记 $\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $\sin A+\sqrt3\cos A=2$.
+
+(1) 求 $A$；
+
+(2) 若 $a=2$，$\sqrt2 b\sin C=c\sin 2B$，求 $\triangle ABC$ 的周长.
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【详细解析】**：
+
+(1) 由辅助角公式，
+$\sin A+\sqrt3\cos A=2\sin\left(A+\frac{\pi}{3}\right)=2$.
+所以
+$\sin\left(A+\frac{\pi}{3}\right)=1$.
+又 $A\in(0,\pi)$，故
+$A+\frac{\pi}{3}=\frac{\pi}{2}$，
+从而
+$A=\frac{\pi}{6}$.
+
+(2) 由正弦定理，
+$\frac{b}{\sin B}=\frac{c}{\sin C}$.
+题设
+$\sqrt2 b\sin C=c\sin 2B$
+可化为
+$\sqrt2\sin B\sin C=2\sin B\sin C\cos B$.
+因为 $B$，$C\in(0,\pi)$，故 $\sin B\sin C\ne 0$，所以
+$\cos B=\frac{\sqrt2}{2}$，
+即
+$B=\frac{\pi}{4}$.
+于是
+$C=\pi-A-B=\pi-\frac{\pi}{6}-\frac{\pi}{4}=\frac{7\pi}{12}$.
+再由正弦定理，
+$\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}$.
+因为 $a=2$，$\sin A=\frac12$，所以公共比为 4. 故
+$b=4\sin\frac{\pi}{4}=2\sqrt2$，
+$c=4\sin\frac{7\pi}{12} =4\left(\sin\frac{\pi}{6}\cos\frac{\pi}{4}+\cos\frac{\pi}{6}\sin\frac{\pi}{4}\right) =\sqrt2+\sqrt6$.
+所以周长为
+$a+b+c=2+2\sqrt2+\sqrt2+\sqrt6=2+\sqrt6+3\sqrt2$.
+
+:::
+
+---
+
+### 第 16 题
+
+已知函数 $f(x)=\mathrm{e}^x-ax-a^3$.
+
+(1) 当 $a=1$ 时，求曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程；
+
+(2) 若 $f(x)$ 有极小值，且极小值小于 0，求 $a$ 的取值范围.
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【详细解析】**：
+
+(1) 当 $a=1$ 时，
+$f(x)=\mathrm{e}^x-x-1$，$f'(x)=\mathrm{e}^x-1$.
+所以
+$f(1)=\mathrm{e}-2$，$f'(1)=\mathrm{e}-1$.
+故切线方程为
+$y-(\mathrm{e}-2)=(\mathrm{e}-1)(x-1)$，
+即
+$(\mathrm{e}-1)x-y-1=0$.
+
+(2) 由
+$f'(x)=\mathrm{e}^x-a$.
+若 $f(x)$ 有极小值，则 $f'(x)=0$ 至少有一个实根，因此 $a>0$.
+当 $a>0$ 时，
+$f'(x)=0 \iff x=\ln a$.
+此时 $f(x)$ 在 $x=\ln a$ 处取得极小值，
+$f(\ln a)=a-a\ln a-a^3$.
+由题意，
+$a-a\ln a-a^3<0$.
+因为 $a>0$，两边同除以 $a$ 得
+$1-\ln a-a^2<0$，
+即
+$a^2+\ln a-1>0$.
+设
+$g(a)=a^2+\ln a-1$（$a>0$），
+则
+$g'(a)=2a+\frac1a>0$.
+所以 $g(a)$ 在 $(0,+\infty)$ 上单调递增，且
+$g(1)=0$.
+故
+$g(a)>0 \iff a>1$.
+所以 $a$ 的取值范围为 $(1,+\infty)$.
+
+:::
+
+---
+
+### 第 17 题
+
+如图，平面四边形 $ABCD$ 中，$AB=8$，$CD=3$，$AD=5\sqrt3$，$\angle ADC=90^\circ$，$\angle BAD=30^\circ$，点 $E$，$F$ 满足 $\overrightarrow{AE}=\frac{2}{5}\overrightarrow{AD}$，$\overrightarrow{AF}=\frac{1}{2}\overrightarrow{AB}$，将 $\triangle AEF$ 沿 $EF$ 对折至 $\triangle PEF$，使得 $PC=4\sqrt3$.
+
+(1) 证明：$EF\perp PD$；
+
+(2) 求面 $PCD$ 与面 $PBF$ 所成二面角的正弦值.
+
+
+
+
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q17_fig1.png" style="max-width:320px;" /></div>
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【详细解析】**：
+
+(1) 由
+$AE=\frac25 AD=2\sqrt3$，$AF=\frac12 AB=4$.
+在 $\triangle AEF$ 中，由余弦定理，
+$EF^2=AE^2+AF^2-2AE\cdot AF\cos 30^\circ =12+16-2\cdot 2\sqrt3\cdot 4\cdot \frac{\sqrt3}{2}=4$.
+故
+$EF=2$.
+于是
+$AE^2+EF^2=AF^2$，
+所以
+$EF\perp AE$.
+又 $E$ 在 $AD$ 上，故 $EF\perp AD$，从而 $EF\perp DE$.
+折叠后 $EF$ 为折痕，故 $EF\perp PE$. 因为 $PE$，$DE\subset \text{平面 }PDE$，且 $PE\cap DE=E$，于是
+$EF\perp \text{平面 }PDE$.
+从而
+$EF\perp PD$.
+
+(2) 由 $AD=5\sqrt3$，$AE=2\sqrt3$，得
+$ED=3\sqrt3$.
+又 $\angle ADC=90^\circ$，$CD=3$，故
+$CE=\sqrt{ED^2+CD^2}=\sqrt{27+9}=6$.
+在 $\triangle PEC$ 中，
+$PE=AE=2\sqrt3$，$PC=4\sqrt3$.
+于是
+$PE^2+CE^2=12+36=48=PC^2$，
+所以
+$PE\perp CE$.
+由（1）知 $PE\perp EF$，且 $CE$，$EF\subset \text{平面 }ABCD$，故
+$PE\perp \text{平面 }ABCD$.
+以 $E$ 为原点，分别以 $EF$，$ED$，$EP$ 所在直线为 $x$，$y$，$z$ 轴建立空间直角坐标系，则
+$E(0,0,0)$，$P(0,0,2\sqrt3)$，$D(0,3\sqrt3,0)$，
+$F(2,0,0)$，$A(0,-2\sqrt3,0)$，$C(3,3\sqrt3,0)$.
+又因为 $F$ 是 $AB$ 的中点，所以
+$B(4,2\sqrt3,0)$.
+
+
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q17_solution_fig1.png" style="max-width:320px;" /></div>
+
+
+于是
+$\overrightarrow{PC}=(3,3\sqrt3,-2\sqrt3)$，$\overrightarrow{PD}=(0,3\sqrt3,-2\sqrt3)$，
+$\overrightarrow{PB}=(4,2\sqrt3,-2\sqrt3)$，$\overrightarrow{PF}=(2,0,-2\sqrt3)$.
+设平面 $PCD$ 的法向量为 $\mathbf{n}=(x_1,y_1,z_1)$，则
+$\mathbf{n}\cdot \overrightarrow{PC}=0$，$\mathbf{n}\cdot \overrightarrow{PD}=0$.
+可取
+$\mathbf{n}=(0,2,3)$.
+设平面 $PBF$ 的法向量为 $\mathbf{m}=(x_2,y_2,z_2)$，则
+$\mathbf{m}\cdot \overrightarrow{PB}=0$，$\mathbf{m}\cdot \overrightarrow{PF}=0$.
+可取
+$\mathbf{m}=(\sqrt3,-1,1)$.
+故两平面所成角 $\theta$ 满足
+$\cos\theta=\frac{|\mathbf{m}\cdot \mathbf{n}|}{|\mathbf{m}||\mathbf{n}|} =\frac{1}{\sqrt5\cdot \sqrt{13}} =\frac{1}{\sqrt{65}}$.
+所以
+$\sin\theta=\sqrt{1-\cos^2\theta} =\sqrt{1-\frac{1}{65}} =\frac{8}{\sqrt{65}} =\frac{8\sqrt{65}}{65}$.
+故所求二面角的正弦值为 $\frac{8\sqrt{65}}{65}$.
+
+:::
+
+---
+
+### 第 18 题
+
+某投篮比赛分为两个阶段，每个参赛队由两名队员组成，比赛具体规则如下：第一阶段由参赛队中一名队员投篮 $3\text{ 次}$，若 $3\text{ 次}$都未投中，则该队被淘汰，比赛成绩为 $0\text{ 分}$；若至少投中一次，则该队进入第二阶段，由该队的另一名队员投篮 $3\text{ 次}$，每次投中得 $5\text{ 分}$，未投中得 $0\text{ 分}$，该队的比赛成绩为第二阶段的得分总和. 某参赛队由甲，乙两名队员组成，设甲每次投中的概率为 $p$，乙每次投中的概率为 $q$，各次投中与否相互独立.
+
+(1) 若 $p=0.4$，$q=0.5$，甲参加第一阶段比赛，求甲，乙所在队的比赛成绩不少于 5 分的概率；
+
+(2) 假设 $0<p<q$，
+\begin{enumerate}
+
+(3) 为使得甲，乙所在队的比赛成绩为 15 分的概率最大，应该由谁参加第一阶段比赛？
+
+(4) 为使得甲，乙所在队的比赛成绩的数学期望最大，应该由谁参加第一阶段比赛？
+
+\end{enumerate}
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【详细解析】**：
+
+(1) 比赛成绩不少于 $5\text{ 分}$，当且仅当甲在第一阶段至少投中 $1$ 次，且乙在第二阶段至少投中 $1$ 次.
+故所求概率为
+$P=\bigl[1-(1-0.4)^3\bigr]\bigl[1-(1-0.5)^3\bigr] =0.784\times 0.875 =0.686$.
+
+(2) 记“甲先投”时，球队得 15 分的概率为 $P_{\text{甲}}$；“乙先投”时为 $P_{\text{乙}}$.
+\begin{enumerate}
+
+(3) 有
+$P_{\text{甲}}=\bigl[1-(1-p)^3\bigr]q^3$，$P_{\text{乙}}=\bigl[1-(1-q)^3\bigr]p^3$.
+于是
+$P_{\text{甲}}-P_{\text{乙}} =q^3(3p-3p^2+p^3)-p^3(3q-3q^2+q^3) =3pq(q-p)(p+q-pq)$.
+因为 $0<p<q$，且 $p+q-pq>0$，故
+$P_{\text{甲}}-P_{\text{乙}}>0$.
+所以应由甲参加第一阶段比赛.
+
+(4) 若甲先投，则进入第二阶段的概率为 $[1-(1-p)^3]$，而第二阶段由乙投 $3$ 次，每次得分期望为 $5q$，故总得分期望为
+$E_{\text{甲}}=15q\bigl[1-(1-p)^3\bigr]$.
+
+若乙先投，则进入第二阶段的概率为 $[1-(1-q)^3]$，而第二阶段由甲投 $3$ 次，每次得分期望为 $5p$，故总得分期望为
+$E_{\text{乙}}=15p\bigl[1-(1-q)^3\bigr]$.
+于是
+$E_{\text{甲}}-E_{\text{乙}} =15pq(q-p)(3-p-q)$.
+因为 $0<p<q<1$，故 $q-p>0$，$3-p-q>0$，所以
+$E_{\text{甲}}-E_{\text{乙}}>0$.
+因此为使数学期望最大，也应由甲参加第一阶段比赛.
+
+\end{enumerate}
+
+:::
+
+---
+
+### 第 19 题
+
+已知双曲线 $C:x^2-y^2=m$（$m>0$），点 $P_1(5,4)$ 在 $C$ 上，$k$ 为常数，$0<k<1$. 按照如下方式依次构造点 $P_n$（$n=2$，$3$，$\dots$）：过 $P_{n-1}$ 作斜率为 $k$ 的直线与 $C$ 的左支交于点 $Q_{n-1}$，令 $P_n$ 为 $Q_{n-1}$ 关于 $y$ 轴的对称点，记 $P_n$ 的坐标为 $(x_n,y_n)$.
+
+(1) 若 $k=\frac12$，求 $x_2$，$y_2$；
+
+(2) 证明：数列 $\{x_n-y_n\}$ 是公比为 $\frac{1+k}{1-k}$ 的等比数列；
+
+(3) 设 $S_n$ 为 $\triangle P_nP_{n+1}P_{n+2}$ 的面积，证明：对任意的正整数 $n$，$S_n=S_{n+1}$.
+
+::: details 💡 点击展开【参考答案与详细解析】
+
+**【详细解析】**：
+
+由 $P_1(5,4)\in C$ 得
+$m=5^2-4^2=9$，
+故双曲线方程为
+$x^2-y^2=9$.
+
+
+(1) 当 $k=\frac12$ 时，过 $P_1(5,4)$ 的直线方程为
+$y-4=\frac12(x-5)$，
+即
+$y=\frac{x+3}{2}$.
+与双曲线 $x^2-y^2=9$ 联立，得
+$x^2-\left(\frac{x+3}{2}\right)^2=9$，
+解得 $x=5$ 或 $x=-3$. 异于 $P_1$ 的交点为
+$Q_1(-3,0)$.
+关于 $y$ 轴对称后得
+$P_2(3,0)$.
+故
+$x_2=3$，$y_2=0$.
+
+
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q19_solution_fig1.png" style="max-width:320px;" /></div>
+
+(2) 设
+$P_n(x_n,y_n)$.
+过 $P_n$ 作斜率为 $k$ 的直线，
+$y-y_n=k(x-x_n)$.
+即
+$y=k(x-x_n)+y_n$.
+与双曲线联立：
+$x^2-\bigl(k(x-x_n)+y_n\bigr)^2=9$.
+因为 $P_n$ 本身就在直线上和双曲线上，所以该二次方程有一根 $x=x_n$. 由韦达定理可得另一交点 $Q_n$ 的横坐标为
+$\frac{2k(y_n-kx_n)}{1-k^2}-x_n=\frac{2ky_n-(1+k^2)x_n}{1-k^2}$.
+代回直线方程，得 $Q_n$ 的纵坐标为
+$\frac{(1+k^2)y_n-2kx_n}{1-k^2}$.
+关于 $y$ 轴对称后，
+$P_{n+1}\left(\frac{(1+k^2)x_n-2ky_n}{1-k^2},\ \frac{(1+k^2)y_n-2kx_n}{1-k^2}\right)$.
+于是
+$x_{n+1}-y_{n+1} =\frac{(1+k^2+2k)(x_n-y_n)}{1-k^2} =\frac{1+k}{1-k}(x_n-y_n)$.
+因此数列 $\{x_n-y_n\}$ 是公比为
+$\frac{1+k}{1-k}$
+的等比数列.
+
+(3) 令
+$u_n=x_n-y_n$，$v_n=x_n+y_n$.
+由
+$P_{n+1}\left(\frac{(1+k^2)x_n-2ky_n}{1-k^2},\ \frac{(1+k^2)y_n-2kx_n}{1-k^2}\right)$
+可得
+$u_{n+1}=\frac{1+k}{1-k}u_n$，$v_{n+1}=\frac{1-k}{1+k}v_n$.
+又由
+$x_1-y_1=1$，$x_1+y_1=9$，
+知
+$u_n=\left(\frac{1+k}{1-k}\right)^{n-1}$，$v_n=9\left(\frac{1-k}{1+k}\right)^{n-1}$.
+由
+$x_n=\frac{u_n+v_n}{2}$，$y_n=\frac{v_n-u_n}{2}$，
+可得对任意正整数 $m$，
+$x_ny_{n+m}-y_nx_{n+m} =\frac12\bigl(u_n v_{n+m}-v_n u_{n+m}\bigr) =\frac92\left[\left(\frac{1-k}{1+k}\right)^m-\left(\frac{1+k}{1-k}\right)^m\right]$，
+它与 $n$ 无关.
+由上式取 $m=1$ 和 $m=2$，可得
+$x_{n+2}y_{n+3}-y_{n+2}x_{n+3} =\frac92\left(\frac{1-k}{1+k}-\frac{1+k}{1-k}\right) =x_ny_{n+1}-y_nx_{n+1}$，
+以及
+$x_{n+1}y_{n+3}-y_{n+1}x_{n+3} =\frac92\left[\left(\frac{1-k}{1+k}\right)^2-\left(\frac{1+k}{1-k}\right)^2\right] =x_ny_{n+2}-y_nx_{n+2}$.
+两式相减，得
+$(x_{n+2}y_{n+3}-y_{n+2}x_{n+3})-(x_{n+1}y_{n+3}-y_{n+1}x_{n+3}) =(x_ny_{n+1}-y_nx_{n+1})-(x_ny_{n+2}-y_nx_{n+2})$.
+整理可得
+$(y_{n+3}-y_n)(x_{n+2}-x_{n+1})=(y_{n+2}-y_{n+1})(x_{n+3}-x_n)$.
+而
+$\overrightarrow{P_nP_{n+3}}=(x_{n+3}-x_n,\ y_{n+3}-y_n)$，$\overrightarrow{P_{n+1}P_{n+2}}=(x_{n+2}-x_{n+1},\ y_{n+2}-y_{n+1})$.
+所以上述等式说明
+$\overrightarrow{P_nP_{n+3}}\parallel \overrightarrow{P_{n+1}P_{n+2}}$.
+从而 $\triangle P_nP_{n+1}P_{n+2}$ 与 $\triangle P_{n+1}P_{n+2}P_{n+3}$ 具有公共底边 $P_{n+1}P_{n+2}$ 且高相等，因此
+$S_n=S_{n+1}$.
+证毕.
+
+:::
+
+---
+
+</div>

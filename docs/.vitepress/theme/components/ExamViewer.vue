@@ -40,7 +40,7 @@
     <!-- 模式 1: 连续试卷模式 (默认) -->
     <div v-show="currentMode === 'continuous'" class="continuous-view">
       <div class="view-hint">
-        <span>💡 正在以纯矢量 SVG 渲染全卷高清版面，放大无失真。</span>
+        <span>💡 正在以纯矢量 SVG 渲染全卷高清版面，支持无限缩放不失真。</span>
       </div>
       <div class="pages-container">
         <div
@@ -144,42 +144,9 @@
       <!-- 底部题号矩阵 -->
       <div class="question-matrix">
         <div class="matrix-section">
-          <span class="matrix-label">选择题:</span>
+          <span class="matrix-label">题号跳转:</span>
           <button
-            v-for="i in 8"
-            :key="i"
-            :class="['num-pill', { active: currentQIndex === i - 1 }]"
-            @click="jumpToQuestion(i - 1)"
-          >
-            {{ i }}
-          </button>
-        </div>
-        <div class="matrix-section">
-          <span class="matrix-label">多选题:</span>
-          <button
-            v-for="i in [9, 10, 11]"
-            :key="i"
-            :class="['num-pill', { active: currentQIndex === i - 1 }]"
-            @click="jumpToQuestion(i - 1)"
-          >
-            {{ i }}
-          </button>
-        </div>
-        <div class="matrix-section">
-          <span class="matrix-label">填空题:</span>
-          <button
-            v-for="i in [12, 13, 14]"
-            :key="i"
-            :class="['num-pill', { active: currentQIndex === i - 1 }]"
-            @click="jumpToQuestion(i - 1)"
-          >
-            {{ i }}
-          </button>
-        </div>
-        <div class="matrix-section">
-          <span class="matrix-label">解答题:</span>
-          <button
-            v-for="i in [15, 16, 17, 18, 19]"
+            v-for="i in totalQuestions"
             :key="i"
             :class="['num-pill', { active: currentQIndex === i - 1 }]"
             @click="jumpToQuestion(i - 1)"
@@ -192,8 +159,23 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
+
+interface QuestionMeta {
+  num: number;
+  type: string;
+  hasAnswer: boolean;
+  hasSolution: boolean;
+}
+
+interface PaperManifest {
+  year: string;
+  slug: string;
+  title: string;
+  pageCount: number;
+  questions: QuestionMeta[];
+}
 
 const props = defineProps({
   paperYear: {
@@ -202,46 +184,46 @@ const props = defineProps({
   },
   paperSlug: {
     type: String,
-    default: 'new_gaokao_1'
+    default: 'new_gaokao_paper_1'
   }
 });
 
 // 当前展示模式: 'continuous' | 'single' | 'doc'
-const currentMode = ref('continuous');
+const currentMode = ref<'continuous' | 'single' | 'doc'>('continuous');
 
 // 题库元数据
-const pageCount = ref(9);
-const totalQuestions = ref(19);
-const currentQIndex = ref(0);
-const showSolution = ref(false);
-const manifestData = ref(null);
+const pageCount = ref<number>(8);
+const totalQuestions = ref<number>(19);
+const currentQIndex = ref<number>(0);
+const showSolution = ref<boolean>(false);
+const manifestData = ref<PaperManifest | null>(null);
 
 const currentQuestionNum = computed(() => currentQIndex.value + 1);
 
-const currentQuestionMeta = computed(() => {
+const currentQuestionMeta = computed<QuestionMeta | null>(() => {
   if (manifestData.value && manifestData.value.questions) {
     return manifestData.value.questions[currentQIndex.value] || null;
   }
-  return { hasAnswer: true, hasSolution: true };
+  return { num: currentQuestionNum.value, type: '', hasAnswer: true, hasSolution: true };
 });
 
 // 资源基础 URL
-const baseAssetUrl = computed(() => {
-  return `/gaokaomath-typst-page/papers/${props.paperYear}`;
+const basePaperAssetUrl = computed(() => {
+  return `/gaokaomath-typst-page/papers/${props.paperYear}/${props.paperSlug}`;
 });
 
 const pdfUrl = computed(() => {
-  return `${baseAssetUrl.value}/${props.paperSlug}.pdf`;
+  return `/gaokaomath-typst-page/papers/${props.paperYear}/${props.paperSlug}.pdf`;
 });
 
-function getPageSvgUrl(pageNum) {
-  return `${baseAssetUrl.value}/page_${pageNum}.svg`;
+function getPageSvgUrl(pageNum: number): string {
+  return `${basePaperAssetUrl.value}/page_${pageNum}.svg`;
 }
 
-function getCurrentCardSvgUrl() {
+function getCurrentCardSvgUrl(): string {
   const numStr = String(currentQuestionNum.value).padStart(2, '0');
   const suffix = showSolution.value ? '_sol' : '';
-  return `${baseAssetUrl.value}/q${numStr}${suffix}.svg`;
+  return `${basePaperAssetUrl.value}/q${numStr}${suffix}.svg`;
 }
 
 // 题目切换
@@ -259,19 +241,19 @@ function nextQuestion() {
   }
 }
 
-function jumpToQuestion(idx) {
+function jumpToQuestion(idx: number) {
   currentQIndex.value = idx;
   resetZoom();
 }
 
 // Panzoom 平移与缩放
-const scale = ref(1);
-const panX = ref(0);
-const panY = ref(0);
-const isPanning = ref(false);
+const scale = ref<number>(1);
+const panX = ref<number>(0);
+const panY = ref<number>(0);
+const isPanning = ref<boolean>(false);
 const startPos = { x: 0, y: 0 };
 
-function onWheel(e) {
+function onWheel(e: WheelEvent) {
   const delta = e.deltaY < 0 ? 0.15 : -0.15;
   const newScale = Math.min(Math.max(scale.value + delta, 0.5), 3.5);
   scale.value = Number(newScale.toFixed(2));
@@ -291,7 +273,7 @@ function resetZoom() {
   panY.value = 0;
 }
 
-function startPan(e) {
+function startPan(e: MouseEvent) {
   if (e.button !== 0) return;
   isPanning.value = true;
   startPos.x = e.clientX - panX.value;
@@ -301,7 +283,7 @@ function startPan(e) {
   window.addEventListener('mouseup', stopPan);
 }
 
-function onPan(e) {
+function onPan(e: MouseEvent) {
   if (!isPanning.value) return;
   panX.value = e.clientX - startPos.x;
   panY.value = e.clientY - startPos.y;
@@ -314,9 +296,10 @@ function stopPan() {
 }
 
 // 键盘快捷键监听
-function handleKeydown(e) {
+function handleKeydown(e: KeyboardEvent) {
   if (currentMode.value !== 'single') return;
-  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  const target = e.target as HTMLElement | null;
+  if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA')) return;
 
   if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
     prevQuestion();
@@ -334,7 +317,7 @@ function handleKeydown(e) {
 
 // 控制原生文档流容器的可见性
 watch(currentMode, (mode) => {
-  const docContainer = document.querySelector('.native-doc-container');
+  const docContainer = document.querySelector('.native-doc-container') as HTMLElement | null;
   if (docContainer) {
     docContainer.style.display = mode === 'doc' ? 'block' : 'none';
   }
@@ -343,20 +326,19 @@ watch(currentMode, (mode) => {
 onMounted(async () => {
   window.addEventListener('keydown', handleKeydown);
 
-  // 异步获取清单
   try {
-    const res = await fetch(`${baseAssetUrl.value}/manifest.json`);
+    const res = await fetch(`${basePaperAssetUrl.value}/manifest.json`);
     if (res.ok) {
       manifestData.value = await res.json();
-      if (manifestData.value.pageCount) pageCount.value = manifestData.value.pageCount;
-      if (manifestData.value.questions) totalQuestions.value = manifestData.value.questions.length;
+      if (manifestData.value?.pageCount) pageCount.value = manifestData.value.pageCount;
+      if (manifestData.value?.questions) totalQuestions.value = manifestData.value.questions.length;
     }
   } catch (err) {
     // 降级使用默认值
   }
 
   setTimeout(() => {
-    const docContainer = document.querySelector('.native-doc-container');
+    const docContainer = document.querySelector('.native-doc-container') as HTMLElement | null;
     if (docContainer) {
       docContainer.style.display = currentMode.value === 'doc' ? 'block' : 'none';
     }
@@ -622,14 +604,16 @@ onUnmounted(() => {
 
 .matrix-section {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.35rem;
 }
 
 .matrix-label {
-  font-size: 0.8rem;
-  color: var(--vp-c-text-3);
-  margin-right: 0.2rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  margin-right: 0.3rem;
 }
 
 .num-pill {
