@@ -83,10 +83,10 @@ $a^3=b^3\Longleftrightarrow a=b$，$3^a=3^b\Longleftrightarrow a=b$，
 
 <div class="choices-container">
 
-* **A.** <div align="center"><img class="problem-image" src="./img/tianjin/q3_fig1.png" style="max-width:320px;" /></div>
-* **B.** <div align="center"><img class="problem-image" src="./img/tianjin/q3_fig2.png" style="max-width:320px;" /></div>
-* **C.** <div align="center"><img class="problem-image" src="./img/tianjin/q3_fig3.png" style="max-width:320px;" /></div>
-* **D.** <div align="center"><img class="problem-image" src="./img/tianjin/q3_fig4.png" style="max-width:320px;" /></div>
+* **A.** <div align="center"><img class="problem-choice-image" src="./img/tianjin/q3_fig1.png" style="max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;" /></div>
+* **B.** <div align="center"><img class="problem-choice-image" src="./img/tianjin/q3_fig2.png" style="max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;" /></div>
+* **C.** <div align="center"><img class="problem-choice-image" src="./img/tianjin/q3_fig3.png" style="max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;" /></div>
+* **D.** <div align="center"><img class="problem-choice-image" src="./img/tianjin/q3_fig4.png" style="max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;" /></div>
 
 </div>
 
@@ -268,7 +268,7 @@ $f_{\min}=\frac32$. 故选 D.
 如图，点 $P$ 在第四象限，且 $\angle F_1PF_2=90^\circ$.
 
 
-<div align="center"><img class="problem-image" src="./img/tianjin/q8_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/tianjin/q8_solution_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 设 $|PF_2|=m$. 由斜率 $k_{PF_2}=2$ 可得
@@ -309,7 +309,7 @@ $\frac{x^2}{2}-\frac{y^2}{8}=1$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/tianjin/q9_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/tianjin/q9_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 <div class="choices-container">
 
@@ -330,7 +330,7 @@ $\frac{x^2}{2}-\frac{y^2}{8}=1$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/tianjin/q9_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/tianjin/q9_solution_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 该三棱柱的直截面是边长为 1 的等边三角形，面积为
@@ -451,7 +451,7 @@ $\frac36=\frac12$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/tianjin/q14_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/tianjin/q14_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
@@ -481,7 +481,7 @@ $\overrightarrow{AF}\cdot \overrightarrow{DG}=\frac12\left(\frac{k}{3}-1\right)^
 $\overrightarrow{AF}\cdot \overrightarrow{DG}_{\min}=-\frac{5}{18}$.
 
 
-<div align="center"><img class="problem-image" src="./img/tianjin/q14_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/tianjin/q14_solution_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 故答案为 $\frac43$，$-\frac{5}{18}$.
@@ -671,7 +671,7 @@ $N$ 是 $B_1C_1$ 的中点，$M$ 是 $DD_1$ 的中点.
 
 
 
-<div align="center"><img class="problem-image" src="./img/tianjin/q17_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/tianjin/q17_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
@@ -694,7 +694,7 @@ $A(0,0,0)$，$B(2,0,0)$，$B_1(2,0,2)$，$C(1,1,0)$，$C_1(1,1,2)$，$M(0,1,1)$.
 $\overrightarrow{CB_1}=(1,-1,2)$，$\overrightarrow{CM}=(-1,0,1)$，$\overrightarrow{BB_1}=(0,0,2)$.
 
 
-<div align="center"><img class="problem-image" src="./img/tianjin/q17_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/tianjin/q17_solution_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 设平面 $CB_1M$ 的法向量为 $\mathbf{m}=(x_1,y_1,z_1)$，则
@@ -766,7 +766,7 @@ $\overrightarrow{TP}\cdot \overrightarrow{TQ} =x_1x_2+(y_1-t)(y_2-t)$.
 $\overrightarrow{TP}\cdot \overrightarrow{TQ} =\frac{\bigl[(3+2t)^2-12t-45\bigr]k^2+3\left(\frac32+t\right)^2-27}{3+4k^2}$.
 
 
-<div align="center"><img class="problem-image" src="./img/tianjin/q18_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/tianjin/q18_solution_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 要使其对任意 $k$ 都不大于 0，只需 $(3+2t)^2-12t-45\le 0$，$3\left(\frac32+t\right)^2-27\le 0$.

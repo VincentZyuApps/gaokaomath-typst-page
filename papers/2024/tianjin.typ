@@ -39,7 +39,7 @@ $a^3=b^3 <=> a=b$，$3^a=3^b <=> a=b$，
 
 #problem(3)[
 下列图中，相关性系数最大的是（ ）
-  #choices([#align(center)[#image("/papers/2024/img/tianjin/q3_fig1.png", width: 60%)]], [#align(center)[#image("/papers/2024/img/tianjin/q3_fig2.png", width: 60%)]], [#align(center)[#image("/papers/2024/img/tianjin/q3_fig3.png", width: 60%)]], [#align(center)[#image("/papers/2024/img/tianjin/q3_fig4.png", width: 60%)]], cols: 1)
+  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/tianjin/q3_fig1.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/tianjin/q3_fig2.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/tianjin/q3_fig3.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/tianjin/q3_fig4.png", height: 100%, fit: "contain")]]], cols: 2)
 ]
 
 #answer([A])
@@ -144,7 +144,7 @@ $f_( min )=(3)/(2)$. 故选 D.
 #solution[
 如图，点 $P$ 在第四象限，且 $angle F_(1) P F_2=90^ degree$.
 
-#align(center)[#image("/papers/2024/img/tianjin/q8_solution_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/tianjin/q8_solution_fig1.png", width: 4.6cm)]
 
 设 $|P F_2|=m$. 由斜率 $k_(P F_2)=2$ 可得
 $sin angle P F_(2) F_1=(2)/(sqrt(5))$.
@@ -177,7 +177,7 @@ $(x^2)/(2)-(y^2)/(8)=1$.
 一个五面体 $A B C-D E F$. 已知 $A D parallel B E parallel C F$，且两两之间距离为 1，并已知 $A D=1$，$B E=2$，$C F=3$. 则该五面体的体积为（ ）
 
 
-#align(center)[#image("/papers/2024/img/tianjin/q9_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/tianjin/q9_fig1.png", width: 6.0cm)]
   #choices([$(sqrt(3))/(6)$], [$(3 sqrt(3))/(4)+(1)/(2)$], [$(sqrt(3))/(2)$], [$(3 sqrt(3))/(4)-(1)/(2)$], cols: 2)
 ]
 
@@ -187,7 +187,7 @@ $(x^2)/(2)-(y^2)/(8)=1$.
 取一个与原五面体全等的五面体，与它相嵌后可拼成一个三棱柱.
 
 
-#align(center)[#image("/papers/2024/img/tianjin/q9_solution_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/tianjin/q9_solution_fig1.png", width: 5.2cm)]
 
 该三棱柱的直截面是边长为 1 的等边三角形，面积为
 $(sqrt(3))/(4)$.
@@ -275,7 +275,7 @@ $(3)/(6)=(1)/(2)$.
 在边长为 1 的正方形 $A B C D$ 中，点 $E$ 为线段 $C D$ 的三等分点，$C E=(1)/(2)D E$，$arrow(B E)=\l a m b d a a r r o w(B A)+\m u a r r o w(B C)$，则 $lambda + mu =\f i l l i n b l a n k{}$；$F$ 为线段 $B E$ 上的动点，$G$ 为 $A F$ 中点，则 $arrow(A F) dot arrow(D G)$ 的最小值为#blank(){}.
 
 
-#align(center)[#image("/papers/2024/img/tianjin/q14_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/tianjin/q14_fig1.png", width: 4.8cm)]
 ]
 
 #answer([+ (1) $(4)/(3)$
@@ -299,7 +299,7 @@ $arrow(A F) dot arrow(D G)=(1)/(2)((k)/(3)-1)^2+k((k)/(2)-1)=(5)/(9)(k-(6)/(5))^
 在 $k in [0,1]$ 上，最小值在 $k=1$ 处取得，即
 $arrow(A F) dot arrow(D G)_( min )=-(5)/(18)$.
 
-#align(center)[#image("/papers/2024/img/tianjin/q14_solution_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/tianjin/q14_solution_fig1.png", width: 4.5cm)]
 
 故答案为 $(4)/(3)$，$-(5)/(18)$.
 ]
@@ -429,7 +429,7 @@ $N$ 是 $B_(1) C_1$ 的中点，$M$ 是 $D D_1$ 的中点.
 
 
 
-#align(center)[#image("/papers/2024/img/tianjin/q17_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/tianjin/q17_fig1.png", width: 6.0cm)]
 ]
 
 #solution[
@@ -448,7 +448,7 @@ $A(0,0,0)$，$B(2,0,0)$，$B_1(2,0,2)$，$C(1,1,0)$，$C_1(1,1,2)$，$M(0,1,1)$.
 于是
 $arrow(C B_1)=(1,-1,2)$，$arrow(C M)=(-1,0,1)$，$arrow(B B_1)=(0,0,2)$.
 
-#align(center)[#image("/papers/2024/img/tianjin/q17_solution_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/tianjin/q17_solution_fig1.png", width: 4.6cm)]
 
 设平面 $C B_(1) M$ 的法向量为 $bold(m)=(x_1,y_1,z_1)$，则
 $bold(m) dot arrow(C B_1)=x_1-y_1+2 z_1=0$，$bold(m) dot arrow(C M)=-x_1+z_1=0$.
@@ -505,7 +505,7 @@ $arrow(T P) dot arrow(T Q)=x_(1) x_2+(y_1-t)(y_2-t)$.
 代入 $y_i=k x_i-(3)/(2)$ 并化简可得
 $arrow(T P) dot arrow(T Q)=([(3+2 t)^2-12 t-45]k^2+3((3)/(2)+t)^2-27)/(3+4 k^2)$.
 
-#align(center)[#image("/papers/2024/img/tianjin/q18_solution_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/tianjin/q18_solution_fig1.png", width: 4.2cm)]
 
 要使其对任意 $k$ 都不大于 0，只需 $(3+2 t)^2-12 t-45 <= 0$，$3((3)/(2)+t)^2-27 <= 0$.
 解得

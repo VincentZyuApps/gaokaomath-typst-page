@@ -11,7 +11,8 @@
 /* 连续试卷与单题卡片在暗黑模式下的智能反色 */
 html.dark .paper-svg-page,
 html.dark .question-card-svg,
-html.dark .problem-image {
+html.dark .problem-image,
+html.dark .problem-choice-image {
   filter: invert(0.92) hue-rotate(180deg) contrast(1.05);
   background-color: transparent !important;
   transition: filter 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -19,7 +20,8 @@ html.dark .problem-image {
 
 html:not(.dark) .paper-svg-page,
 html:not(.dark) .question-card-svg,
-html:not(.dark) .problem-image {
+html:not(.dark) .problem-image,
+html:not(.dark) .problem-choice-image {
   filter: none;
   transition: filter 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -62,12 +64,19 @@ html {
   padding-left: 0 !important;
   margin: 0 !important;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 0.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.8rem;
 }
 
 .choices-container li {
   margin: 0 !important;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.choices-container img {
+  max-width: 100% !important;
+  height: auto;
 }
 
 /* 原生文档容器在非文档模式时隐藏 */

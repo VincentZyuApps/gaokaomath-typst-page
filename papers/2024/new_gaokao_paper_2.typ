@@ -159,7 +159,7 @@ $(52)/(3)=(h)/(3)(9 sqrt(3)+sqrt(3)+3 sqrt(3))=(13 sqrt(3))/(3)h$，
 所以
 $h=(4 sqrt(3))/(3)$.
 
-#align(center)[#image("/papers/2024/img/new_gaokao_paper_2/q7_solution_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/new_gaokao_paper_2/q7_solution_fig1.png", width: 4.4cm)]
 
 设底面中心为 $O$，$A_1$ 在底面的射影为 $M$. 因为正三棱台的上下底相似且同心，
 $A O=(6)/(sqrt(3))=2 sqrt(3)$，$O M=(2)/(sqrt(3))=(2 sqrt(3))/(3)$.
@@ -229,7 +229,7 @@ D：由 $2 x=k pi +(pi)/(2)$（$k in ZZ$）得 $f(x)$ 的对称轴为 $x=(k pi)/
 抛物线 $y^2=4 x$ 的准线为 $l$，$l$ 的方程为 $x=-1$.
 
 
-#align(center)[#image("/papers/2024/img/new_gaokao_paper_2/q10_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/new_gaokao_paper_2/q10_fig1.png", width: 4.3cm)]
 
 
 A：圆心 $A(0,4)$ 到直线 $x=-1$ 的距离为 $1$，恰等于圆半径，故 $l$ 与 $\o d o t A$ 相切，A 对.
@@ -421,7 +421,7 @@ $g(a)>0 <=> a>1$.
 
 
 
-#align(center)[#image("/papers/2024/img/new_gaokao_paper_2/q17_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/new_gaokao_paper_2/q17_fig1.png", width: 4.6cm)]
 ]
 
 #solution[
@@ -458,7 +458,7 @@ $F(2,0,0)$，$A(0,-2 sqrt(3),0)$，$C(3,3 sqrt(3),0)$.
 又因为 $F$ 是 $A B$ 的中点，所以
 $B(4,2 sqrt(3),0)$.
 
-#align(center)[#image("/papers/2024/img/new_gaokao_paper_2/q17_solution_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/new_gaokao_paper_2/q17_solution_fig1.png", width: 4.6cm)]
 
 于是
 $arrow(P C)=(3,3 sqrt(3),-2 sqrt(3))$，$arrow(P D)=(0,3 sqrt(3),-2 sqrt(3))$，
@@ -545,7 +545,7 @@ $P_2(3,0)$.
 故
 $x_2=3$，$y_2=0$.
 
-#align(center)[#image("/papers/2024/img/new_gaokao_paper_2/q19_solution_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/new_gaokao_paper_2/q19_solution_fig1.png", width: 4.2cm)]
 + (2) 设
 $P_n(x_n,y_n)$.
 过 $P_n$ 作斜率为 $k$ 的直线，

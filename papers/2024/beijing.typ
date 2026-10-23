@@ -91,7 +91,7 @@ $f$ 的最小值 $-1$ 与最大值 $1$ 在相邻的最值点处取得，相距�
 如图，在四棱锥 $P-A B C D$ 中，底面 $A B C D$ 是边长为 4 的正方形，$P A=P B=4$，$P C=P D=2 sqrt(2)$，该棱锥的高为（ ）
 
 
-#align(center)[#image("/papers/2024/img/beijing/q8_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/beijing/q8_fig1.png", width: 5.2cm)]
   #choices([$1$], [$2$], [$sqrt(2)$], [$sqrt(3)$], cols: 4)
 ]
 
@@ -213,7 +213,7 @@ $y^2=16 x=4 dot 4 x$，故焦点坐标为 $(4,0)$.
 
 
 
-#align(center)[#image("/papers/2024/img/beijing/q17_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/beijing/q17_fig1.png", width: 5.1cm)]
 ]
 
 #solution[

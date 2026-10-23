@@ -203,7 +203,7 @@ $f$ 的最小值 $-1$ 与最大值 $1$ 在相邻的最值点处取得，相距�
 
 
 
-<div align="center"><img class="problem-image" src="./img/beijing/q8_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/beijing/q8_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 <div class="choices-container">
 
@@ -410,7 +410,7 @@ $y^2=16x=4\cdot4x$，故焦点坐标为 $(4,0)$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/beijing/q17_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/beijing/q17_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 

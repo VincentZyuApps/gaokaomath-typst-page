@@ -135,7 +135,7 @@ $ (1)/(2) times (1)/(3) times 1 =(1)/(6) $
 
 #problem(8)[
 函数 $y=-x^2+( e ""^x- e ""^(-x)) sin x$ 在区间 $[-2.8,2.8]$ 的图象大致为（ ）
-  #choices([#align(center)[#image("/papers/2024/img/national_paper_a_liberal/q8_optA.png", width: 60%)]], [#align(center)[#image("/papers/2024/img/national_paper_a_liberal/q8_optB.png", width: 60%)]], [#align(center)[#image("/papers/2024/img/national_paper_a_liberal/q8_optC.png", width: 60%)]], [#align(center)[#image("/papers/2024/img/national_paper_a_liberal/q8_optD.png", width: 60%)]], cols: 1)
+  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/national_paper_a_liberal/q8_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/national_paper_a_liberal/q8_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/national_paper_a_liberal/q8_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/national_paper_a_liberal/q8_optD.png", height: 100%, fit: "contain")]]], cols: 2)
 ]
 
 #answer([B])
@@ -433,7 +433,7 @@ $ p+1.65 sqrt((p(1-p))/(n))=0.5+1.65 sqrt((0.5 times 0 .5)/(150))=0.5+(0.825)/(s
 
 
 
-#align(center)[#image("/papers/2024/img/national_paper_a_liberal/q19_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/national_paper_a_liberal/q19_fig1.png", width: 70%)]
 ]
 
 #solution[

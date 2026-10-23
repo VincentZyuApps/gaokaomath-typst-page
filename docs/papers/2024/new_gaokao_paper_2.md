@@ -267,7 +267,7 @@ $\frac{52}{3}=\frac{h}{3}(9\sqrt3+\sqrt3+3\sqrt3)=\frac{13\sqrt3}{3}h$，
 $h=\frac{4\sqrt3}{3}$.
 
 
-<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q7_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q7_solution_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 设底面中心为 $O$，$A_1$ 在底面的射影为 $M$. 因为正三棱台的上下底相似且同心，
@@ -381,7 +381,7 @@ D：由 $2x=k\pi+\frac{\pi}{2}$（$k\in\mathbb{Z}$）得 $f(x)$ 的对称轴为 
 
 
 
-<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q10_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q10_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 
@@ -628,7 +628,7 @@ $g(a)>0 \iff a>1$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q17_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q17_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
@@ -669,7 +669,7 @@ $F(2,0,0)$，$A(0,-2\sqrt3,0)$，$C(3,3\sqrt3,0)$.
 $B(4,2\sqrt3,0)$.
 
 
-<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q17_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q17_solution_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 于是
@@ -778,7 +778,7 @@ $P_2(3,0)$.
 $x_2=3$，$y_2=0$.
 
 
-<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q19_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_2/q19_solution_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 (2) 设
 $P_n(x_n,y_n)$.

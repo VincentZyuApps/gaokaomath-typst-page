@@ -242,7 +242,7 @@ $72+256+1=329$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/shanghai/q11_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/shanghai/q11_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
@@ -456,7 +456,7 @@ D：若 $f(x)$ 在 $x=-1$ 处取极小值，则不可能对所有 $x<-1$ 都有 
 
 
 
-<div align="center"><img class="problem-image" src="./img/shanghai/q17_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/shanghai/q17_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
@@ -475,7 +475,7 @@ $V=\frac{1}{3}\pi\times 3^2\times 4=12\pi$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/shanghai/q17_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/shanghai/q17_solution_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 
@@ -688,7 +688,7 @@ $y_1+y_2=\frac{4b^2m}{b^2m^2-1}$，$y_1y_2=\frac{3b^2}{b^2m^2-1}$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/shanghai/q20_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/shanghai/q20_solution_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 

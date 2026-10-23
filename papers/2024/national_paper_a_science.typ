@@ -123,7 +123,7 @@ $S=(1)/(2) times 1 times | -(1)/(3)|=(1)/(6)$.
 
 #problem(7)[
 函数 $f(x)=-x^2+( e ""^x- e ""^(-x) ) sin x$ 在区间 $[-2.8,2.8]$ 的大致图像为（ ）
-  #choices([#align(center)[#image("/papers/2024/img/national_paper_a_science/q7_optA.png", width: 60%)]], [#align(center)[#image("/papers/2024/img/national_paper_a_science/q7_optB.png", width: 60%)]], [#align(center)[#image("/papers/2024/img/national_paper_a_science/q7_optC.png", width: 60%)]], [#align(center)[#image("/papers/2024/img/national_paper_a_science/q7_optD.png", width: 60%)]], cols: 1)
+  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/national_paper_a_science/q7_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/national_paper_a_science/q7_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/national_paper_a_science/q7_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2024/img/national_paper_a_science/q7_optD.png", height: 100%, fit: "contain")]]], cols: 2)
 ]
 
 #answer([B])
@@ -485,7 +485,7 @@ $T_n=( 2 n-1 ) dot 3 ""^n+1$.
 
 
 
-#align(center)[#image("/papers/2024/img/national_paper_a_science/q19_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/national_paper_a_science/q19_fig1.png", width: 55%)]
 ]
 
 #solution[

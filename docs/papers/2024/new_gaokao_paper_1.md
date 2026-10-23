@@ -272,7 +272,7 @@ $h(x)\le \frac12-1<0$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_1/q7_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_1/q7_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 
@@ -399,7 +399,7 @@ $f(2-x)-f(x)=2(1-x)^3$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_1/q11_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_1/q11_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 <div class="choices-container">
 
@@ -457,7 +457,7 @@ $|AF_1|=13$，$|AB|=10$，
 
 
 
-<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_1/q12_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_1/q12_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
@@ -638,7 +638,7 @@ $3x-2y-6=0$，$x-2y=0$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_1/q17_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_1/q17_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
@@ -656,7 +656,7 @@ $CD=\sqrt{4-x^2}$.
 过点 $D$ 作 $DE\perp AC$ 于 $E$，再过点 $E$ 作 $EF\perp CP$ 于 $F$，连接 $DF$.
 
 
-<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_1/q17_solution_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/new_gaokao_paper_1/q17_solution_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 
 因为 $PA\perp$ 底面 $ABCD$，所以平面 $PAC\perp$ 平面 $ABCD$，且它们的交线为 $AC$. 由 $DE\perp AC$ 且 $DE\subset$ 平面 $ABCD$，得 $DE\perp$ 平面 $PAC$.

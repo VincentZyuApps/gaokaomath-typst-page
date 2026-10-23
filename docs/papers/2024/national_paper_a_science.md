@@ -235,10 +235,10 @@ $S=\frac{1}{2}\times 1\times \left| -\frac{1}{3} \right|=\frac{1}{6}$.
 
 <div class="choices-container">
 
-* **A.** <div align="center"><img class="problem-image" src="./img/national_paper_a_science/q7_optA.png" style="max-width:320px;" /></div>
-* **B.** <div align="center"><img class="problem-image" src="./img/national_paper_a_science/q7_optB.png" style="max-width:320px;" /></div>
-* **C.** <div align="center"><img class="problem-image" src="./img/national_paper_a_science/q7_optC.png" style="max-width:320px;" /></div>
-* **D.** <div align="center"><img class="problem-image" src="./img/national_paper_a_science/q7_optD.png" style="max-width:320px;" /></div>
+* **A.** <div align="center"><img class="problem-choice-image" src="./img/national_paper_a_science/q7_optA.png" style="max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;" /></div>
+* **B.** <div align="center"><img class="problem-choice-image" src="./img/national_paper_a_science/q7_optB.png" style="max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;" /></div>
+* **C.** <div align="center"><img class="problem-choice-image" src="./img/national_paper_a_science/q7_optC.png" style="max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;" /></div>
+* **D.** <div align="center"><img class="problem-choice-image" src="./img/national_paper_a_science/q7_optD.png" style="max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;" /></div>
 
 </div>
 
@@ -737,7 +737,7 @@ $T_n=\left( 2n-1 \right)\cdot 3^n+1$.
 
 
 
-<div align="center"><img class="problem-image" src="./img/national_paper_a_science/q19_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/national_paper_a_science/q19_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 

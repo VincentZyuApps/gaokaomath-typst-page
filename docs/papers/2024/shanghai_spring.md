@@ -191,7 +191,7 @@ f(x), & x\ge 0,\\
 
 
 
-<div align="center"><img class="problem-image" src="./img/shanghai_spring/q11_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/shanghai_spring/q11_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 
@@ -364,7 +364,7 @@ $a_1=2$，$a_2=4$，$a_3=8$，$a_4=16$，任意 $b_1$，$b_2$，$b_3$，$b_4\in 
 
 
 
-<div align="center"><img class="problem-image" src="./img/shanghai_spring/q18_fig1.png" style="max-width:320px;" /></div>
+<div align="center"><img class="problem-image" src="./img/shanghai_spring/q18_fig1.png" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>
 
 ::: details 💡 点击展开【参考答案与详细解析】
 

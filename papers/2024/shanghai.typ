@@ -165,7 +165,7 @@ $72+256+1=329$.
 海上有灯塔 $O$，$A$，$B$ 和船只 $T$，$A$ 在 $O$ 的正东方向，$B$ 在 $O$ 的正北方向，$O A=O B$，$O$，$A$，$T$，$B$ 按逆时针排列. 若 $angle A T O=37^ degree$，$angle B T O=16.5^ degree$，则 $angle B O T=$#blank(){}（精确到 $0.1^ degree$）.
 
 
-#align(center)[#image("/papers/2024/img/shanghai/q11_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/shanghai/q11_fig1.png", width: 42%)]
 ]
 
 #answer([$7.8^ degree$])
@@ -302,7 +302,7 @@ D：若 $f(x)$ 在 $x=-1$ 处取极小值，则不可能对所有 $x<-1$ 都有 
 
 
 
-#align(center)[#image("/papers/2024/img/shanghai/q17_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/shanghai/q17_fig1.png", width: 55%)]
 ]
 
 #solution[
@@ -317,7 +317,7 @@ $V=(1)/(3) pi times 3 ""^2 times 4 =12 pi$.
 + (2) 连接 $E A$，$E O$，$E C$. 根据题意结合正四棱锥的性质，每个侧面都是等边三角形.
 
 
-#align(center)[#image("/papers/2024/img/shanghai/q17_solution_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/shanghai/q17_solution_fig1.png", width: 42%)]
 
 
 由 $E$ 是 $P B$ 的中点，得
@@ -481,7 +481,7 @@ $(b^(2) m^2-1)y^2-4 b^(2) m y+3 b^2=0$.
 $y_1+y_2=(4 b^(2) m)/(b^(2) m^2-1)$，$y_(1) y_2=(3 b^2)/(b^(2) m^2-1)$.
 
 
-#align(center)[#image("/papers/2024/img/shanghai/q20_solution_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/shanghai/q20_solution_fig1.png", width: 42%)]
 
 
 又

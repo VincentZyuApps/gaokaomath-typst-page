@@ -297,8 +297,21 @@ function processTextForTypst(text: string, imgPrefix: string = "img/"): string {
   s = s.replace(/\\solutionfigure\{([\s\S]*?)\}/g, '$1');
 
   // 支持 bitmapfigure 和 choicebitmap
-  s = s.replace(/\\(bitmapfigure|choicebitmap)(?:\[[^\]]*\])?\{img\/[^/]+\/([^}]+)\}/g, (m, p1, p2) => {
-    const width = p1 === 'choicebitmap' ? '60%' : '45%';
+  s = s.replace(/\\(bitmapfigure|choicebitmap)(?:\[([^\]]*)\])?\{img\/[^/]+\/([^}]+)\}/g, (m, p1, opt, p2) => {
+    if (p1 === 'choicebitmap') {
+      return `\n#align(center)[#box(height: 2.8cm)[#image("${imgPrefix}${p2}", height: 100%, fit: "contain")]]\n`;
+    }
+    let width = '28%';
+    if (opt) {
+      const matchLw = opt.match(/width=([\d\.]+)\\linewidth/);
+      if (matchLw) {
+        width = `${Math.round(parseFloat(matchLw[1]) * 100)}%`;
+      }
+      const matchCm = opt.match(/width=([\d\.]+)cm/);
+      if (matchCm) {
+        width = `${matchCm[1]}cm`;
+      }
+    }
     return `\n#align(center)[#image("${imgPrefix}${p2}", width: ${width})]\n`;
   });
 
@@ -328,7 +341,13 @@ function cleanLatexForWeb(latexStr: string): string {
 function processTextForWebMarkdown(text: string, imgPrefix: string = "./img/"): string {
   let s = text;
   s = s.replace(/\\FigureLayoutDeclare\{[^\n]+\}/g, '');
-  s = s.replace(/\\(bitmapfigure|choicebitmap)(?:\[[^\]]*\])?\{img\/[^/]+\/([^}]+)\}/g, `\n\n<div align="center"><img class="problem-image" src="${imgPrefix}$2" style="max-width:320px;" /></div>\n\n`);
+  s = s.replace(/\\(bitmapfigure|choicebitmap)(?:\[[^\]]*\])?\{img\/[^/]+\/([^}]+)\}/g, (m, p1, p2) => {
+    if (p1 === 'choicebitmap') {
+      return `\n\n<div align="center"><img class="problem-choice-image" src="${imgPrefix}${p2}" style="max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;" /></div>\n\n`;
+    } else {
+      return `\n\n<div align="center"><img class="problem-image" src="${imgPrefix}${p2}" style="max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;" /></div>\n\n`;
+    }
+  });
   s = s.replace(/\\solutionfigure\{([\s\S]*?)\}/g, '$1');
   s = s.replace(/\\fillinblank/g, ' _______ ');
 
@@ -478,8 +497,9 @@ export function generateTypst(data: ExamData, templatePath: string = "/templates
         const c1 = processTextForTypst(prob.choices[1], imgPrefix);
         const c2 = processTextForTypst(prob.choices[2], imgPrefix);
         const c3 = processTextForTypst(prob.choices[3], imgPrefix);
+        const hasChoiceImage = c0.includes('#image') || c1.includes('#image') || c2.includes('#image') || c3.includes('#image');
         const maxLen = Math.max(c0.length, c1.length, c2.length, c3.length);
-        const cols = maxLen > 30 ? 1 : (maxLen > 15 ? 2 : 4);
+        const cols = hasChoiceImage ? 2 : (maxLen > 30 ? 1 : (maxLen > 15 ? 2 : 4));
         out += `  #choices([${c0}], [${c1}], [${c2}], [${c3}], cols: ${cols})\n`;
       }
       out += `]\n\n`;
@@ -551,8 +571,9 @@ export function generateSingleCardTypst(prob: Problem, secName: string, showAnsw
     const c1 = processTextForTypst(prob.choices[1], imgPrefix);
     const c2 = processTextForTypst(prob.choices[2], imgPrefix);
     const c3 = processTextForTypst(prob.choices[3], imgPrefix);
+    const hasChoiceImage = c0.includes('#image') || c1.includes('#image') || c2.includes('#image') || c3.includes('#image');
     const maxLen = Math.max(c0.length, c1.length, c2.length, c3.length);
-    const cols = maxLen > 30 ? 1 : (maxLen > 15 ? 2 : 4);
+    const cols = hasChoiceImage ? 2 : (maxLen > 30 ? 1 : (maxLen > 15 ? 2 : 4));
     out += `#choices([${c0}], [${c1}], [${c2}], [${c3}], cols: ${cols})\n`;
   }
 

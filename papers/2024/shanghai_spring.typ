@@ -114,7 +114,7 @@ $(x-1)^6$ 展开式中 $x^4$ 的系数为#blank(){} .
 正方形草地 $A B C D$ 边长 $1.2$，$E$ 到 $A B$，$A D$ 距离为 $0.2$，$F$ 到 $B C$，$C D$ 距离为 $0.4$，有个位于正方形草地 $A B C D$ 内的圆形通道经过 $E$，$F$，且与 $A D$ 相切于 $A D$ 边上一点，求圆形通道的周长#blank(){} .（精确到 $0.01$）
 
 
-#align(center)[#image("/papers/2024/img/shanghai_spring/q11_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/shanghai_spring/q11_fig1.png", width: 28%)]
 ]
 
 #answer([$2.73$])
@@ -209,7 +209,7 @@ $a_1=2$，$a_2=4$，$a_3=8$，$a_4=16$，任意 $b_1$，$b_2$，$b_3$，$b_4 in 
 
 
 
-#align(center)[#image("/papers/2024/img/shanghai_spring/q18_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/shanghai_spring/q18_fig1.png", width: 34%)]
 ]
 
 #solution[

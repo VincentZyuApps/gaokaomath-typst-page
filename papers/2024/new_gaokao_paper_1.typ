@@ -156,7 +156,7 @@ $h(x) >= (sqrt(3))/(2)+1>0$.
 $h(x) <= (1)/(2)-1<0$.
 
 
-#align(center)[#image("/papers/2024/img/new_gaokao_paper_1/q7_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/new_gaokao_paper_1/q7_fig1.png", width: 6.8cm)]
 
 
 再看三个剩余区间：
@@ -231,7 +231,7 @@ $f(2-x)-f(x)=2(1-x)^3$.
 造型可做成美丽的丝带，将其看作图中曲线 $C$ 的一部分. 已知 $C$ 过坐标原点 $O$，且 $C$ 上点满足横坐标大于 $-2$，到点 $F(2,0)$ 的距离与到定直线 $x=a$（$a<0$） 的距离之积为 $4$，则（ ）
 
 
-#align(center)[#image("/papers/2024/img/new_gaokao_paper_1/q11_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/new_gaokao_paper_1/q11_fig1.png", width: 6.0cm)]
   #choices([$a=-2$], [点 $(2 sqrt(2),0)$ 在 $C$ 上], [在第一象限 $C$ 的点的纵坐标最大值为 $1$], [若点 $(x_0,y_0)$ 在 $C$ 上，则 $y_0 <= (4)/(x_0+2)$], cols: 1)
 ]
 
@@ -272,7 +272,7 @@ $|A F_1|=13$，$|A B|=10$，
 则该双曲线的离心率为（ ）.
 
 
-#align(center)[#image("/papers/2024/img/new_gaokao_paper_1/q12_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/new_gaokao_paper_1/q12_fig1.png", width: 6.0cm)]
 ]
 
 #answer([$(3)/(2)$])
@@ -415,7 +415,7 @@ $3 x-2 y-6=0$，$x-2 y=0$.
 
 
 
-#align(center)[#image("/papers/2024/img/new_gaokao_paper_1/q17_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/new_gaokao_paper_1/q17_fig1.png", width: 6.0cm)]
 ]
 
 #solution[
@@ -429,7 +429,7 @@ $A C^2=A B^2+B C^2$
 $C D=sqrt(4-x^2)$.
 过点 $D$ 作 $D E bot A C$ 于 $E$，再过点 $E$ 作 $E F bot C P$ 于 $F$，连接 $D F$.
 
-#align(center)[#image("/papers/2024/img/new_gaokao_paper_1/q17_solution_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2024/img/new_gaokao_paper_1/q17_solution_fig1.png", width: 3.6cm)]
 
 因为 $P A bot$ 底面 $A B C D$，所以平面 $P A C bot$ 平面 $A B C D$，且它们的交线为 $A C$. 由 $D E bot A C$ 且 $D E subset$ 平面 $A B C D$，得 $D E bot$ 平面 $P A C$.
 又 $E F bot C P$，而 $C P subset$ 平面 $P A C$，所以 $C P bot$ 平面 $D E F$. 因此 $angle D F E$ 为二面角 $A-C P-D$ 的平面角. 已知
