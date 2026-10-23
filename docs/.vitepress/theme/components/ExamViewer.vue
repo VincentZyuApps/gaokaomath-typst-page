@@ -2,26 +2,25 @@
   <div class="exam-viewer-wrapper">
     <!-- 顶部控制面板 -->
     <div class="viewer-toolbar">
-      <!-- 视图模式分段控制器 -->
+      <!-- 视图模式分段控制器 (全库 777 套试卷全面点亮) -->
       <div class="segmented-control">
         <button
-          :class="['segment-btn', { active: currentMode === 'continuous', disabled: !hasVectorSvg }]"
-          :disabled="!hasVectorSvg"
-          :title="hasVectorSvg ? '连续高清矢量试卷' : '本卷支持原生交互文档'"
-          @click="hasVectorSvg && (currentMode = 'continuous')"
+          :class="['segment-btn', { active: currentMode === 'continuous' }]"
+          title="整卷流式全景画卷模式"
+          @click="currentMode = 'continuous'"
         >
           📄 连续试卷
         </button>
         <button
-          :class="['segment-btn', { active: currentMode === 'single', disabled: !hasVectorSvg }]"
-          :disabled="!hasVectorSvg"
-          :title="hasVectorSvg ? '纯矢量单题无限缩放' : '本卷支持原生交互文档'"
-          @click="hasVectorSvg && (currentMode = 'single')"
+          :class="['segment-btn', { active: currentMode === 'single' }]"
+          title="单题独立卡片聚焦与无级缩放平移"
+          @click="currentMode = 'single'"
         >
           🎯 单题聚焦
         </button>
         <button
           :class="['segment-btn', { active: currentMode === 'doc' }]"
+          title="原生大题交互做题文档"
           @click="currentMode = 'doc'"
         >
           📝 原生做题文档
@@ -57,24 +56,53 @@
       </div>
     </div>
 
-    <!-- 模式 1: 连续试卷模式 (纯矢量 SVG) -->
+    <!-- 模式 1: 连续试卷模式 (整卷流式全景画卷) -->
     <div v-show="currentMode === 'continuous'" class="continuous-view">
       <div class="view-hint">
-        <span>💡 正在以纯矢量 SVG 渲染全卷高清版面，支持无限缩放不失真。</span>
+        <span>💡 正在以流式画卷呈现全卷试题，支持顺畅滚动浏览与考卷概览。</span>
       </div>
-      <div class="pages-container">
-        <div
-          v-for="page in pageCount"
-          :key="page"
-          class="paper-page-card"
-        >
-          <div class="page-badge">第 {{ page }} 页 / 共 {{ pageCount }} 页</div>
-          <img
-            :src="getPageSvgUrl(page)"
-            :alt="`第 ${page} 页`"
-            class="paper-svg-page"
-            loading="lazy"
-          />
+
+      <div class="continuous-paper-flow">
+        <div class="continuous-header-card">
+          <div class="continuous-title">{{ paperYear }} 年普通高等学校招生全国统一考试数学真题</div>
+          <div class="continuous-meta">
+            <span>满分 150 分 · 考试时间 120 分钟</span>
+            <span>全卷共 {{ totalQuestions }} 道试题</span>
+          </div>
+        </div>
+
+        <div v-if="manifestData?.sections && manifestData.sections.length > 0" class="continuous-sections">
+          <div
+            v-for="(sec, sIdx) in manifestData.sections"
+            :key="sIdx"
+            class="continuous-sec-block"
+          >
+            <h3 class="continuous-sec-title">{{ sec.name }}</h3>
+            <div
+              v-for="prob in sec.problems"
+              :key="prob.num"
+              class="continuous-prob-item"
+            >
+              <div class="continuous-prob-num">{{ prob.num }}.</div>
+              <div class="continuous-prob-content">
+                <div class="problem-body" v-html="renderMath(prob.body)"></div>
+                <div v-if="prob.choices && prob.choices.length === 4" class="choices-grid">
+                  <div
+                    v-for="(choice, cIdx) in prob.choices"
+                    :key="cIdx"
+                    class="choice-box"
+                  >
+                    <span class="choice-letter">{{ ['A', 'B', 'C', 'D'][cIdx] }}.</span>
+                    <div class="choice-text" v-html="renderMath(choice)"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div v-else class="doc-loading">
+          <p>试卷加载中，请稍候...</p>
         </div>
       </div>
     </div>
@@ -106,20 +134,13 @@
         </div>
 
         <div class="zoom-btn-group">
-          <!-- 解析切换按钮（支持自适应降级） -->
+          <!-- 解析切换按钮 -->
           <button
-            v-if="currentQuestionMeta && currentQuestionMeta.hasSolution"
+            v-if="currentProblem && (currentProblem.hasSolution || currentProblem.hasAnswer)"
             :class="['toggle-sol-btn', { active: showSolution }]"
             @click="showSolution = !showSolution"
           >
             {{ showSolution ? '👁️ 隐藏解析' : '💡 显示解析' }}
-          </button>
-          <button
-            v-else-if="currentQuestionMeta && currentQuestionMeta.hasAnswer"
-            :class="['toggle-sol-btn', { active: showSolution }]"
-            @click="showSolution = !showSolution"
-          >
-            {{ showSolution ? '👁️ 隐藏答案' : '💡 展开参考答案' }}
           </button>
           <button
             v-else
@@ -152,12 +173,37 @@
             cursor: isPanning ? 'grabbing' : 'grab'
           }"
         >
-          <img
-            :src="getCurrentCardSvgUrl()"
-            :alt="`第 ${currentQuestionNum} 题`"
-            class="question-card-svg"
-            draggable="false"
-          />
+          <!-- 纯矢量原生高精单题卡片 -->
+          <div v-if="currentProblem" class="single-card-panel">
+            <div class="problem-card-header">
+              <span class="problem-num-badge">第 {{ currentProblem.num }} 题</span>
+              <span class="problem-type-badge">{{ currentSectionName }}</span>
+            </div>
+
+            <div class="problem-body" v-html="renderMath(currentProblem.body)"></div>
+
+            <div v-if="currentProblem.choices && currentProblem.choices.length === 4" class="choices-grid">
+              <div
+                v-for="(choice, cIdx) in currentProblem.choices"
+                :key="cIdx"
+                class="choice-box"
+              >
+                <span class="choice-letter">{{ ['A', 'B', 'C', 'D'][cIdx] }}.</span>
+                <div class="choice-text" v-html="renderMath(choice)"></div>
+              </div>
+            </div>
+
+            <div v-show="showSolution" class="single-solution-container">
+              <div v-if="currentProblem.answer" class="answer-row">
+                <span class="answer-label">【参考答案】</span>
+                <span class="answer-val" v-html="renderMath(currentProblem.answer)"></span>
+              </div>
+              <div v-if="currentProblem.solution" class="analysis-box">
+                <div class="analysis-label">【详细解析】</div>
+                <div class="analysis-text" v-html="renderMath(currentProblem.solution)"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -359,6 +405,29 @@ const currentQuestionMeta = computed<QuestionMeta | null>(() => {
     return manifestData.value.questions[currentQIndex.value] || null;
   }
   return { num: currentQuestionNum.value, type: '', hasAnswer: true, hasSolution: true };
+});
+
+const allProblems = computed<QuestionProblem[]>(() => {
+  if (!manifestData.value?.sections) return [];
+  const list: QuestionProblem[] = [];
+  for (const sec of manifestData.value.sections) {
+    if (sec.problems) list.push(...sec.problems);
+  }
+  return list;
+});
+
+const currentProblem = computed<QuestionProblem | null>(() => {
+  return allProblems.value[currentQIndex.value] || null;
+});
+
+const currentSectionName = computed<string>(() => {
+  if (!manifestData.value?.sections || !currentProblem.value) return '全国高考真题';
+  for (const sec of manifestData.value.sections) {
+    if (sec.problems && sec.problems.some(p => p.num === currentProblem.value?.num)) {
+      return sec.name;
+    }
+  }
+  return '全国高考真题';
 });
 
 // 资源基础 URL
@@ -690,15 +759,9 @@ onMounted(async () => {
       manifestData.value = await res.json();
       if (manifestData.value?.pageCount !== undefined) pageCount.value = manifestData.value.pageCount;
       if (manifestData.value?.questions) totalQuestions.value = manifestData.value.questions.length;
-      if (!hasVectorSvg.value) {
-        currentMode.value = 'doc';
-      }
-    } else {
-      currentMode.value = 'doc';
     }
   } catch (e) {
     console.error('Failed to load paper manifest:', e);
-    currentMode.value = 'doc';
   }
 });
 
@@ -812,7 +875,7 @@ onUnmounted(() => {
   border: 1px solid var(--vp-c-divider);
 }
 
-/* 模式 1: 连续试卷 */
+/* 模式 1: 连续试卷流式画卷 */
 .continuous-view {
   display: flex;
   flex-direction: column;
@@ -828,39 +891,77 @@ onUnmounted(() => {
   border-left: 3px solid var(--vp-c-brand-1);
 }
 
-.pages-container {
+.continuous-paper-flow {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 1.5rem;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.continuous-header-card {
+  text-align: center;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px dashed var(--vp-c-divider);
+}
+
+.continuous-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  margin-bottom: 0.5rem;
+}
+
+.continuous-meta {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+}
+
+.continuous-sections {
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
 
-.paper-page-card {
-  position: relative;
-  background: #fff;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  border: 1px solid var(--vp-c-divider);
-  max-width: 900px;
-  width: 100%;
+.continuous-sec-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.page-badge {
-  position: absolute;
-  top: 12px;
-  right: 16px;
-  font-size: 0.75rem;
-  color: #888;
-  background: #f1f5f9;
-  padding: 2px 8px;
-  border-radius: 4px;
+.continuous-sec-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--vp-c-brand-1);
+  border-left: 4px solid var(--vp-c-brand-1);
+  padding-left: 0.6rem;
+  margin: 0.5rem 0;
 }
 
-.paper-svg-page {
-  width: 100%;
-  height: auto;
-  display: block;
+.continuous-prob-item {
+  display: flex;
+  gap: 0.8rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.continuous-prob-num {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--vp-c-brand-1);
+  flex-shrink: 0;
+  min-width: 1.8rem;
+}
+
+.continuous-prob-content {
+  flex: 1;
+  min-width: 0;
 }
 
 /* 模式 2: 单题聚焦 */
@@ -868,6 +969,24 @@ onUnmounted(() => {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.single-card-panel {
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 1.8rem 2.2rem;
+  max-width: 760px;
+  width: 85vw;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.single-solution-container {
+  margin-top: 1.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px dashed var(--vp-c-divider);
 }
 
 .single-controls {
