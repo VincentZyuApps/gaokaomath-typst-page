@@ -86,12 +86,30 @@
         </div>
 
         <div class="zoom-btn-group">
+          <!-- 解析切换按钮（支持自适应降级） -->
           <button
+            v-if="currentQuestionMeta && currentQuestionMeta.hasSolution"
             :class="['toggle-sol-btn', { active: showSolution }]"
             @click="showSolution = !showSolution"
           >
             {{ showSolution ? '👁️ 隐藏解析' : '💡 显示解析' }}
           </button>
+          <button
+            v-else-if="currentQuestionMeta && currentQuestionMeta.hasAnswer"
+            :class="['toggle-sol-btn', { active: showSolution }]"
+            @click="showSolution = !showSolution"
+          >
+            {{ showSolution ? '👁️ 隐藏答案' : '💡 展开参考答案' }}
+          </button>
+          <button
+            v-else
+            class="toggle-sol-btn disabled"
+            disabled
+            title="上游仓库暂未附详细步骤"
+          >
+            🚫 上游仓库暂未附详细步骤
+          </button>
+
           <button class="icon-btn" @click="zoomIn" title="放大 (+)">🔍+</button>
           <button class="icon-btn" @click="zoomOut" title="缩小 (-)">🔍-</button>
           <button class="icon-btn" @click="resetZoom" title="重置缩放">↺ 还原</button>
@@ -196,8 +214,16 @@ const pageCount = ref(9);
 const totalQuestions = ref(19);
 const currentQIndex = ref(0);
 const showSolution = ref(false);
+const manifestData = ref(null);
 
 const currentQuestionNum = computed(() => currentQIndex.value + 1);
+
+const currentQuestionMeta = computed(() => {
+  if (manifestData.value && manifestData.value.questions) {
+    return manifestData.value.questions[currentQIndex.value] || null;
+  }
+  return { hasAnswer: true, hasSolution: true };
+});
 
 // 资源基础 URL
 const baseAssetUrl = computed(() => {
@@ -298,7 +324,9 @@ function handleKeydown(e) {
     nextQuestion();
   } else if (e.key === ' ' || e.key === 's' || e.key === 'S') {
     e.preventDefault();
-    showSolution.value = !showSolution.value;
+    if (currentQuestionMeta.value && (currentQuestionMeta.value.hasSolution || currentQuestionMeta.value.hasAnswer)) {
+      showSolution.value = !showSolution.value;
+    }
   } else if (e.key === 'r' || e.key === 'R') {
     resetZoom();
   }
@@ -312,10 +340,21 @@ watch(currentMode, (mode) => {
   }
 }, { immediate: true });
 
-onMounted(() => {
+onMounted(async () => {
   window.addEventListener('keydown', handleKeydown);
 
-  // 初始化隐藏原生文档容器
+  // 异步获取清单
+  try {
+    const res = await fetch(`${baseAssetUrl.value}/manifest.json`);
+    if (res.ok) {
+      manifestData.value = await res.json();
+      if (manifestData.value.pageCount) pageCount.value = manifestData.value.pageCount;
+      if (manifestData.value.questions) totalQuestions.value = manifestData.value.questions.length;
+    }
+  } catch (err) {
+    // 降级使用默认值
+  }
+
   setTimeout(() => {
     const docContainer = document.querySelector('.native-doc-container');
     if (docContainer) {
@@ -512,6 +551,13 @@ onUnmounted(() => {
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s ease;
+}
+
+.toggle-sol-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: var(--vp-c-bg-mute);
+  color: var(--vp-c-text-3);
 }
 
 .toggle-sol-btn.active {

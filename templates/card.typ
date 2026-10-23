@@ -8,6 +8,7 @@
   points: 5,
   show-answer: false,
   answer-text: "",
+  has-solution: true,
   body,
   solution-body: none
 ) = {
@@ -53,7 +54,7 @@
         ]
       ],
       [
-        #text(size: 9pt, fill: rgb("#94a3b8"))[2024年全国高考数学 · 新高考I卷]
+        #text(size: 9pt, fill: rgb("#94a3b8"))[历年高考数学真题]
       ]
     )
 
@@ -64,8 +65,8 @@
     // 题干正文
     #body
 
-    // 参考答案与详细解析
-    #if show-answer and (answer-text != "" or solution-body != none) [
+    // 参考答案与详细解析 (支持自适应降级)
+    #if show-answer [
       #v(1em)
       #rect(
         width: 100%,
@@ -82,6 +83,9 @@
           #text(weight: "bold", fill: rgb("#2563eb"))[【详细解析】] \
           #v(0.2em)
           #text(size: 10pt, font: ("KaiTi", "SimSun"))[#solution-body]
+        ] else if not has-solution [
+          #v(0.3em)
+          #text(size: 9.5pt, fill: rgb("#64748b"), style: "italic")[（上游仓库暂未附详细步骤）]
         ]
       ]
     ]

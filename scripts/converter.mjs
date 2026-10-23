@@ -194,10 +194,8 @@ function processTextForTypst(text, imgRelativePrefix = "img/") {
   return s.trim();
 }
 
-// 修复 Web 端 Markdown 中的特殊宏（修复 13 题 \e^x 等问题）
 function cleanLatexForWeb(latexStr) {
   let s = latexStr;
-  // 规范化专有宏
   s = s.replace(/\\e\b/g, '\\mathrm{e}');
   s = s.replace(/\\i\b/g, '\\mathrm{i}');
   s = s.replace(/\\R\b/g, '\\mathbb{R}');
@@ -213,7 +211,6 @@ function processTextForWebMarkdown(text, imgRelativePrefix = "./img/") {
   s = s.replace(/\\solutionfigure\{([\s\S]*?)\}/g, '$1');
   s = s.replace(/\\fillinblank/g, ' _______ ');
 
-  // 转换数学公式中的特殊宏
   s = s.replace(/\\\[([\s\S]*?)\\\]/g, (m, p1) => `\n$$\n${cleanLatexForWeb(p1.trim())}\n$$\n`);
   s = s.replace(/\\\(([\s\S]*?)\\\)/g, (m, p1) => `$${cleanLatexForWeb(p1.trim())}$`);
 
@@ -386,6 +383,8 @@ export function generateTypst(data, templateRelPath = "../../templates/exam.typ"
         if (prob.solution) {
           const sol = processTextForTypst(prob.solution, "img/");
           out += `#solution[\n${sol}\n]\n\n`;
+        } else if (!prob.answer) {
+          // 既无答案也无解析，静默不显示
         }
       }
     }
@@ -394,7 +393,6 @@ export function generateTypst(data, templateRelPath = "../../templates/exam.typ"
   return out;
 }
 
-// 生成单题卡片源码
 export function generateSingleCardTypst(prob, secName, showAnswer = false) {
   let pts = 5;
   if (secName.includes("多选")) pts = 6;
@@ -416,8 +414,9 @@ export function generateSingleCardTypst(prob, secName, showAnswer = false) {
     }
   }
 
+  const hasSolution = !!(prob.solution && prob.solution.trim().length > 0);
   let solBody = "none";
-  if (prob.solution) {
+  if (hasSolution) {
     solBody = `[\n${processTextForTypst(prob.solution, "../img/")}\n]`;
   }
 
@@ -427,6 +426,7 @@ export function generateSingleCardTypst(prob, secName, showAnswer = false) {
   out += `  points: ${pts},\n`;
   out += `  show-answer: ${showAnswer},\n`;
   out += `  answer-text: [${ansStr}],\n`;
+  out += `  has-solution: ${hasSolution},\n`;
   out += `  solution-body: ${solBody},\n`;
   out += `)\n\n`;
 
@@ -454,7 +454,6 @@ export function generateVitepressMarkdown(data, year = "2024", slug = "new_gaoka
 
   md += `# ${data.subtitle}\n\n`;
 
-  // 插入三模交互组件
   md += `<ClientOnly>\n`;
   md += `  <ExamViewer paperYear="${year}" paperSlug="${slug}" />\n`;
   md += `</ClientOnly>\n\n`;
@@ -500,8 +499,12 @@ export function generateVitepressMarkdown(data, year = "2024", slug = "new_gaoka
         if (prob.solution) {
           const sol = processTextForWebMarkdown(prob.solution, "./img/");
           md += `**【详细解析】**：\n\n${sol}\n\n`;
+        } else {
+          md += `*上游仓库暂未附详细步骤*\n\n`;
         }
         md += `:::\n\n`;
+      } else {
+        md += `> *上游仓库暂未附详细步骤*\n\n`;
       }
 
       md += `---\n\n`;
@@ -509,11 +512,9 @@ export function generateVitepressMarkdown(data, year = "2024", slug = "new_gaoka
   }
 
   md += `</div>\n`;
-
   return md;
 }
 
-// 主流水线
 export function runPipeline() {
   const year = '2024';
   const slug = 'new_gaokao_1';
@@ -563,6 +564,9 @@ export function runPipeline() {
   for (const sec of data.sections) {
     for (const prob of sec.problems) {
       const qNumStr = String(prob.num).padStart(2, '0');
+      const hasSol = !!(prob.solution && prob.solution.trim().length > 0);
+      const hasAns = !!(prob.answer && prob.answer.trim().length > 0);
+
       // 纯题目卡片
       const cardTypCode = generateSingleCardTypst(prob, sec.name, false);
       const cardTypPath = path.join(cardsDir, `q${qNumStr}.typ`);
@@ -583,7 +587,8 @@ export function runPipeline() {
       manifest.questions.push({
         num: prob.num,
         type: sec.name,
-        hasAnswer: !!(prob.answer || prob.solution)
+        hasAnswer: hasAns,
+        hasSolution: hasSol
       });
     }
   }
@@ -599,4 +604,7 @@ export function runPipeline() {
   console.log('🎉 [All Done] All SVG pages, single cards, PDF and Markdown successfully built!');
 }
 
-runPipeline();
+// 仅当直接执行时运行 runPipeline
+if (process.argv[1] && process.argv[1].endsWith('converter.mjs')) {
+  runPipeline();
+}
