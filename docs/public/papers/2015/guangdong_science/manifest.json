@@ -1,0 +1,386 @@
+{
+  "year": "2015",
+  "slug": "guangdong_science",
+  "title": "2015年广东卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "若集合 $M = \\{x \\mid (x + 4)(x + 1) = 0\\}$，$N = \\{x \\mid (x - 4)(x - 1) = 0\\}$，则 $M \\cap N =$（ ）",
+          "choices": [
+            "$\\{1, 4\\}$",
+            "$\\{-1,-4\\}$",
+            "$\\{0\\}$",
+            "$\\varnothing$"
+          ],
+          "answer": "D",
+          "solution": "由 $(x+4)(x+1)=0$，得\r\n\n$$\nM=\\{-4,-1\\}\n$$\n\r\n由 $(x-4)(x-1)=0$，得\r\n\n$$\nN=\\{4,1\\}\n$$\n\r\n两集合没有公共元素，所以 $M\\cap N=\\varnothing$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "若复数 $z = \\mathrm{i}(3 - 2\\mathrm{i})$（$\\mathrm{i}$ 是虚数单位），则 $\\overline{z} =$（ ）",
+          "choices": [
+            "$2 - 3\\mathrm{i}$",
+            "$2 + 3\\mathrm{i}$",
+            "$3 + 2\\mathrm{i}$",
+            "$3 - 2\\mathrm{i}$"
+          ],
+          "answer": "A",
+          "solution": "利用 $\\mathrm{i}^2=-1$，有\r\n\n$$\nz=\\mathrm{i}(3-2\\mathrm{i})=3\\mathrm{i}-2\\mathrm{i}^2=2+3\\mathrm{i}\n$$\n\r\n因此\r\n\n$$\n\\overline z=2-3\\mathrm{i}\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "下列函数中，既不是奇函数，也不是偶函数的是（ ）",
+          "choices": [
+            "$y = \\sqrt{1 + x^2}$",
+            "$y = x + \\frac{1}{x}$",
+            "$y = 2^x + \\frac{1}{2^x}$",
+            "$y = x + \\mathrm{e}^{x}$"
+          ],
+          "answer": "D",
+          "solution": "逐项判断函数的定义域及奇偶性：\r\n\n(1) 对 $f(x)=\\sqrt{1+x^2}$，有 $f(-x)=f(x)$，所以它是偶函数；\n\n(2) 对 $f(x)=x+\\dfrac1x$，定义域为 $\\{x\\in\\mathbb{R}\\mid x\\ne0\\}$，且 $f(-x)=-f(x)$，所以它是奇函数；\n\n(3) 对 $f(x)=2^x+\\dfrac1{2^x}$，有 $f(-x)=2^{-x}+2^x=f(x)$，所以它是偶函数；\n\n(4) 对 $f(x)=x+\\mathrm{e}^x$，有 $f(1)=1+\\mathrm{e}$，而 $f(-1)=-1+\\mathrm{e}^{-1}$，既不相等也不互为相反数，所以它既不是奇函数，也不是偶函数.\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "袋中共有 $15$ 个除了颜色外完全相同的球，其中有 $10$ 个白球，$5$ 个红球. 从袋中任取 $2$ 个球，所取的 $2$ 个球中恰有 $1$ 个白球，$1$ 个红球的概率为（ ）",
+          "choices": [
+            "$\\frac{5}{21}$",
+            "$\\frac{10}{21}$",
+            "$\\frac{11}{21}$",
+            "$1$"
+          ],
+          "answer": "B",
+          "solution": "从 $15$ 个球中任取 $2$ 个球的基本事件总数为 $\\mathrm C_{15}^{2}$，其中恰有一个白球和一个红球的事件数为 $\\mathrm C_{10}^{1}\\mathrm C_{5}^{1}$. 因而所求概率为\r\n\n$$\nP=\\frac{\\mathrm C_{10}^{1}\\mathrm C_{5}^{1}}{\\mathrm C_{15}^{2}}\r\n =\\frac{50}{105}=\\frac{10}{21}\n$$\n\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "平行于直线 $2x + y + 1 = 0$ 且与圆 $x^{2} + y^{2} = 5$ 相切的直线的方程是（ ）",
+          "choices": [
+            "$2x + y + 5 = 0$ 或 $2x + y - 5 = 0$",
+            "$2x + y + \\sqrt{5} = 0$ 或 $2x + y - \\sqrt{5} = 0$",
+            "$2x - y + 5 = 0$ 或 $2x - y - 5 = 0$",
+            "$2x - y + \\sqrt{5} = 0$ 或 $2x - y - \\sqrt{5} = 0$"
+          ],
+          "answer": "A",
+          "solution": "设所求直线为 $2x+y+c=0$，其与圆心 $O(0,0)$ 的距离等于圆的半径 $\\sqrt5$. 因此\r\n\n$$\n\\frac{|c|}{\\sqrt{2^2+1^2}}=\\sqrt5\n$$\n\r\n即 $|c|=5$. 所以切线为 $2x+y+5=0$ 或 $2x+y-5=0$.\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "若变量 $x$，$y$ 满足约束条件 $\\begin{cases}\r\n4x + 5y \\ge 8,\\\\\r\n1 \\le x \\le 3,\\\\\r\n0 \\le y \\le 2,\r\n\\end{cases}$ 则 $z = 3x + 2y$ 的最小值为（ ）",
+          "choices": [
+            "$4$",
+            "$\\frac{23}{5}$",
+            "$6$",
+            "$\\frac{31}{5}$"
+          ],
+          "answer": "B",
+          "solution": "可行域由题中不等式确定，其边界交点为\r\n$\\left(1,\\frac45\\right)$，$(1,2)$，$(3,2)$，$(3,0)$，$(2,0)$.\r\n线性目标函数只需在各顶点处比较. 在 $\\left(1,\\frac45\\right)$、$(1,2)$、$(3,2)$、$(3,0)$、$(2,0)$ 处，$z$ 的值分别为 $\\frac{23}{5}$、$7$、$13$、$9$、$6$.\r\n所以 $z$ 的最小值为 $\\dfrac{23}{5}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知双曲线 $C: \\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} = 1$ 的离心率 $e = \\frac{5}{4}$，且其右焦点为 $F_{2}(5,0)$，则双曲线 $C$ 的方程为（ ）",
+          "choices": [
+            "$\\frac{x^2}{4} -\\frac{y^2}{3} = 1$",
+            "$\\frac{x^2}{9} -\\frac{y^2}{16} = 1$",
+            "$\\frac{x^2}{16} -\\frac{y^2}{9} = 1$",
+            "$\\frac{x^2}{3} -\\frac{y^2}{4} = 1$"
+          ],
+          "answer": "C",
+          "solution": "双曲线的离心率满足 $e=\\dfrac ca$，右焦点为 $(c,0)=(5,0)$，故 $c=5$. 由\r\n\n$$\n\\frac ca=\\frac54\n$$\n\r\n得 $a=4$. 又因为 $c^2=a^2+b^2$，所以\r\n\n$$\nb^2=25-16=9\n$$\n\r\n因此双曲线方程为\r\n\n$$\n\\frac{x^2}{16}-\\frac{y^2}{9}=1\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "若空间中 $n$ 个不同的点两两距离都相等，则正整数 $n$ 的取值（ ）",
+          "choices": [
+            "至多等于 $3$",
+            "至多等于 $4$",
+            "等于 $5$",
+            "大于 $5$"
+          ],
+          "answer": "B",
+          "solution": "当 $n=1$ 时没有需要比较的点对，条件成立. 以下设 $n\\geqslant2$，任取其中一点作为基点，连接其余各点得到向量 $\\mathbf{v}_1$，$\\ldots$，$\\mathbf{v}_{n-1}$. 设所有点之间的距离为 $d>0$，则\r\n$|\\mathbf{v}_i|=d$，$|\\mathbf{v}_i-\\mathbf{v}_j|=d$，（$i\\ne j$）.\r\n由平方展开得\r\n$\\mathbf{v}_i\\cdot\\mathbf{v}_j =\\frac{|\\mathbf{v}_i|^2+|\\mathbf{v}_j|^2-|\\mathbf{v}_i-\\mathbf{v}_j|^2}{2} =\\frac{d^2}{2}$，（$i\\ne j$）.\r\n这些向量的 Gram 矩阵对角线元素为 $d^2$，非对角线元素为 $\\frac{d^2}{2}$，其特征值为 $\\frac{d^2}{2}$（重数 $n-2$）和 $n\\frac{d^2}{2}$，均为正，所以这些向量线性无关. 在三维空间中因而有 $n-1\\leqslant3$，即 $n\\leqslant4$. 正四面体的四个顶点可以达到 $n=4$，所以 $n$ 至多等于 $4$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 9,
+          "body": "在 $(\\sqrt{x} - 1)^4$ 的展开式中，$x$ 的系数为 _______ {}.",
+          "choices": [],
+          "answer": "6",
+          "solution": "展开得\r\n\n$$\n(\\sqrt{x}-1)^4=x^2-4x\\sqrt{x}+6x-4\\sqrt{x}+1\n$$\n\r\n其中含 $x$ 的项为 $6x$，所以 $x$ 的系数为 $6$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "在等差数列 $\\{a_n\\}$ 中，若 $a_3 + a_4 + a_5 + a_6 + a_7 = 25$，则 $a_2 + a_8 =$ _______ {}.",
+          "choices": [],
+          "answer": "10",
+          "solution": "等差数列中五项和的平均数等于中间项，因此\r\n\n$$\n5a_5=a_3+a_4+a_5+a_6+a_7=25\n$$\n\r\n得 $a_5=5$. 又因为等差数列中等距两项之和等于中间项的两倍，所以\r\n\n$$\na_2+a_8=2a_5=10\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 若 $a = \\sqrt{3}$，$\\sin B = \\frac{1}{2}$，$C = \\frac{\\pi}{6}$，则 $b =$ _______ {}.",
+          "choices": [],
+          "answer": "1",
+          "solution": "由正弦定理，\r\n\n$$\n\\frac{b}{\\sin B}=\\frac{a}{\\sin A}\n$$\n\r\n已知 $\\sin B=\\dfrac12$，故 $B=\\dfrac\\pi6$ 或 $B=\\dfrac{5\\pi}6$. 若 $B=\\dfrac{5\\pi}6$，则因 $C=\\dfrac\\pi6$，有 $A=0$，不能构成三角形，所以 $B=\\dfrac\\pi6$，进而\r\n\n$$\nA=\\pi-B-C=\\frac{2\\pi}{3}\n$$\n\r\n于是\r\n\n$$\nb=\\frac{a\\sin B}{\\sin A}\r\n=\\frac{\\sqrt3\\cdot\\frac12}{\\frac{\\sqrt3}{2}}=1\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "某高三毕业班有 $40$ 人，同学之间两两彼此给对方仅写一条毕业留言，那么全班共写了 _______ {} 条毕业留言. （用数字作答）",
+          "choices": [],
+          "answer": "1560",
+          "solution": "任意两位同学之间有两个有序留言方向，所以全班留言条数为\r\n\n$$\n2\\mathrm C_{40}^{2}=40\\times39=1560\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "已知随机变量 $X$ 服从二项分布 $B(n,p)$，若 $E(X)=30$，$D(X)=20$，则 $p = _______ {}$.",
+          "choices": [],
+          "answer": "\\(\\frac{1}{3}\\)",
+          "solution": "二项分布满足\r\n$E(X)=np=30$，$D(X)=np(1-p)=20$.\r\n两式相除得\r\n\n$$\n1-p=\\frac{20}{30}=\\frac23\n$$\n\r\n所以\r\n\n$$\np=\\frac13\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选考题：填空题",
+      "problems": [
+        {
+          "num": 14,
+          "body": "已知直线 $l$ 的极坐标方程为 $2\\rho\\sin\\left(\\theta-\\frac{\\pi}{4}\\right)=\\sqrt{2}$，点 $A$ 的极坐标为 $A\\left(2\\sqrt{2},\\frac{7\\pi}{4}\\right)$，则点 $A$ 到直线 $l$ 的距离为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{5\\sqrt{2}}{2}\\)",
+          "solution": "由极坐标与直角坐标的关系 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，原直线方程化为\r\n\n$$\n2\\rho\\sin\\left(\\theta-\\frac\\pi4\\right)\r\n=\\sqrt2\\rho\\sin\\theta-\\sqrt2\\rho\\cos\\theta\r\n=\\sqrt2(y-x)=\\sqrt2\n$$\n\r\n因此直线 $l$ 的直角坐标方程为\r\n\n$$\nx-y+1=0\n$$\n\r\n点 $A\\left(2\\sqrt2,\\frac{7\\pi}{4}\\right)$ 的直角坐标为\r\n\n$$\n\\left(2\\sqrt2\\cos\\frac{7\\pi}{4},2\\sqrt2\\sin\\frac{7\\pi}{4}\\right)=(2,-2)\n$$\n\r\n故点到直线的距离为\r\n\n$$\n\\frac{|2-(-2)+1|}{\\sqrt{1^2+(-1)^2}}\r\n=\\frac{5\\sqrt2}{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "如图，已知 $AB$ 是圆 $O$ 的直径，$AB = 4$，$EC$ 是圆 $O$ 的切线，切点为 $C$，$BC = 1$. 过圆心 $O$ 作 $BC$ 的平行线，分别交 $EC$ 和 $AC$ 于点 $D$ 和点 $P$.\r\n则 $OD =$ _______ {}.\r\n\r\n\\begin{center}\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2015/img/guangdong_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\end{center}",
+          "choices": [],
+          "answer": "8",
+          "solution": "设圆心为 $O$，则半径 $OC=2$. 取 $O$ 为原点，令\r\n$\\mathbf{v}=\\overrightarrow{CB}$，$|\\mathbf{v}|=BC=1$.\r\n由于 $AB$ 是直径，$|\\overrightarrow{OB}|=|\\overrightarrow{OC}|=2$，且\r\n$\\mathbf{v}=\\overrightarrow{OB}-\\overrightarrow{OC}$. 由 $|\\mathbf{v}|=1$ 得\r\n$|\\overrightarrow{OB}-\\overrightarrow{OC}|^2=1$，$|\\overrightarrow{OB}|=|\\overrightarrow{OC}|=2$.\r\n展开得\r\n\n$$\n\\overrightarrow{OC}\\cdot\\overrightarrow{OB}=\\frac{4+4-1}{2}=\\frac72\n$$\n\r\n所以\r\n\n$$\n\\overrightarrow{OC}\\cdot\\mathbf{v}\r\n=\\overrightarrow{OC}\\cdot(\\overrightarrow{OB}-\\overrightarrow{OC})\r\n=\\frac72-4=-\\frac12\n$$\n\r\n设 $\\overrightarrow{OD}=t\\mathbf{v}$. 由于 $D$ 在切线 $EC$ 上，且切线方程的向量形式为 $\\overrightarrow{OC}\\cdot\\overrightarrow{OX}=4$，故\r\n$t\\left(-\\frac12\\right)=4$，$t=-8$.\r\n于是\r\n\n$$\nOD=|t|\\cdot|\\mathbf{v}|=8\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 16,
+          "body": "在平面直角坐标系 $xOy$ 中，已知向量 $\\mathbf{m} = \\left(\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}\\right)$，$\\mathbf{n} = (\\sin x, \\cos x)$，$x \\in \\left(0, \\frac{\\pi}{2}\\right)$.\r\n\r\n\n(1) 若 $\\mathbf{m} \\perp \\mathbf{n}$，求 $\\tan x$ 的值；\n\n(2) 若 $\\mathbf{m}$ 与 $\\mathbf{n}$ 的夹角为 $\\frac{\\pi}{3}$，求 $x$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由 $\\mathbf{m}\\perp\\mathbf{n}$，得\r\n\n$$\n\\mathbf{m}\\cdot\\mathbf{n}\r\n=\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x=0\n$$\n\r\n所以 $\\sin x=\\cos x$. 由于 $x\\in\\left(0,\\dfrac\\pi2\\right)$，两者均非零，故\r\n\n$$\n\\tan x=1\n$$\n\n(2) 两向量的模均为 $1$，所以由夹角公式\r\n\n$$\n\\mathbf{m}\\cdot\\mathbf{n}=|\\mathbf{m}|\\cdot|\\mathbf{n}|\\cos\\frac\\pi3=\\frac12\n$$\n\r\n于是\r\n$\\frac{\\sqrt2}{2}\\left(\\sin x-\\cos x\\right)=\\frac12$，$\\sin x-\\cos x=\\frac{\\sqrt2}{2}$.\r\n利用 $\\sin x-\\cos x=\\sqrt2\\sin\\left(x-\\dfrac\\pi4\\right)$，得\r\n\n$$\n\\sin\\left(x-\\frac\\pi4\\right)=\\frac12\n$$\n\r\n又 $x-\\dfrac\\pi4\\in\\left(-\\dfrac\\pi4,\\dfrac\\pi4\\right)$，在此区间内只有\r\n$x-\\dfrac\\pi4=\\dfrac\\pi6$，故\r\n\n$$\nx=\\frac{5\\pi}{12}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "某工厂 $36$ 名工人的年龄数据如下表.\r\n\r\n\\begin{center}\r\n\\footnotesize\r\n\\renewcommand{\\arraystretch}{1.15}\r\n\\begin{tabular}{|c|c|c|c|c|c|c|c|}\r\n\\hline\r\n工人编号 & 年龄 & 工人编号 & 年龄 & 工人编号 & 年龄 & 工人编号 & 年龄 \\\\\r\n\\hline\r\n1 & 40 & 10 & 36 & 19 & 27 & 28 & 34 \\\\\r\n\\hline\r\n2 & 44 & 11 & 31 & 20 & 43 & 29 & 39 \\\\\r\n\\hline\r\n3 & 40 & 12 & 38 & 21 & 41 & 30 & 43 \\\\\r\n\\hline\r\n4 & 41 & 13 & 39 & 22 & 37 & 31 & 38 \\\\\r\n\\hline\r\n5 & 33 & 14 & 43 & 23 & 34 & 32 & 42 \\\\\r\n\\hline\r\n6 & 40 & 15 & 45 & 24 & 42 & 33 & 53 \\\\\r\n\\hline\r\n7 & 45 & 16 & 39 & 25 & 37 & 34 & 37 \\\\\r\n\\hline\r\n8 & 42 & 17 & 38 & 26 & 44 & 35 & 49 \\\\\r\n\\hline\r\n9 & 43 & 18 & 36 & 27 & 42 & 36 & 39 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 用系统抽样法从 $36$ 名工人中抽取容量为 $9$ 的样本，且在第一分段里用随机抽样法抽到的年龄数据为 $44$，列出样本的年龄数据；\n\n(2) 计算（1）中样本的均值 $\\overline{x}$ 和方差 $s^2$；\n\n(3) $36$ 名工人中年龄在 $\\overline{x} - s$ 与 $\\overline{x} + s$ 之间有多少人？所占的百分比是多少（精确到 $0.01\\%$）？",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 将 $36$ 名工人等分为 $9$ 个分段，每段 $4$ 人. 第一分段抽到第 $2$ 号工人后，系统抽样的编号为\r\n$2$，$6$，$10$，$14$，$18$，$22$，$26$，$30$，$34$.\r\n查表得到样本年龄数据为\r\n$44$，$40$，$36$，$43$，$36$，$37$，$44$，$43$，$37$.\n\n(2) 样本均值为\r\n\n$$\n\\overline{x}=\\frac{44+40+36+43+36+37+44+43+37}{9}=40\n$$\n\r\n各数据与均值的差为 $4$，$0$，$-4$，$3$，$-4$，$-3$，$4$，$3$，$-3$，故\r\n\n$$\ns^2=\\frac19\\left(4^2+0^2+(-4)^2+3^2+(-4)^2+(-3)^2\r\n+4^2+3^2+(-3)^2\\right)=\\frac{100}{9}\n$$\n\n(3) $s=\\frac{10}{3}$，$\\overline{x}-s=\\frac{110}{3}$，$\\overline{x}+s=\\frac{130}{3}$.\r\n所以年龄在该区间内的整数年龄为 $37$，$38$，$39$，$40$，$41$，$42$，$43$. 由表统计各年龄人数分别为\r\n$3$，$3$，$4$，$3$，$2$，$4$，$4$\r\n合计 $23$ 人. 所占百分比为\r\n\n$$\n\\frac{23}{36}\\times100\\%=63.888\\ldots\\%\\approx63.89\\%\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，三角形 $PDC$ 所在的平面与长方形 $ABCD$ 所在的平面垂直，$PD = PC = 4$，$AB = 6$，$BC = 3$. 点 $E$ 是 $CD$ 边的中点，点 $F$，$G$ 分别在线段 $AB$，$BC$ 上，且 $AF = 2FB$，$CG = 2GB$.\r\n\r\n\n(1) 证明：$PE \\perp FG$；\n\n(2) 求二面角 $P - AD - C$ 的正切值；\n\n(3) 求直线 $PA$ 与直线 $FG$ 所成角的余弦值.\n\r\n\r\n\\begin{center}\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2015/img/guangdong_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\end{center}",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 建立空间直角坐标系，取\r\n$A(0,0,0)$，$B(6,0,0)$，$C(6,3,0)$，$D(0,3,0)$.\r\n在等腰三角形 $PDC$ 中，$E$ 为 $CD$ 的中点，所以\r\n$DE=CE=3$，$PE=\\sqrt{PD^2-DE^2}=\\sqrt7$.\r\n又因平面 $PDC$ 垂直于底面，$PE$ 垂直于底面，故可取\r\n$E(3,3,0)$，$P(3,3,\\sqrt7)$.\r\n由 $AF=2FB$ 和 $AB=6$，得 $AF=4$，故 $F(4,0,0)$. 由 $CG=2GB$ 和 $BC=3$，得 $GB=1$，故 $G(6,1,0)$. 因而\r\n$\\overrightarrow{PE}=(0,0,-\\sqrt7)$，$\\overrightarrow{FG}=(2,1,0)$，\r\n从而\r\n\n$$\n\\overrightarrow{PE}\\cdot\\overrightarrow{FG}=0\n$$\n\r\n所以 $PE\\perp FG$.\n\n(2) 平面 $ADC$ 就是 $z=0$ 平面. 取平面 $PAD$ 内的两个向量\r\n$\\overrightarrow{AD}=(0,3,0)$，$\\overrightarrow{AP}=(3,3,\\sqrt7)$.\r\n其法向量可取\r\n\n$$\n\\mathbf{n}_1=\\overrightarrow{AD}\\times\\overrightarrow{AP}\r\n=(3\\sqrt7,0,-9)\n$$\n\r\n平面 $ADC$ 的法向量取 $\\mathbf{n}_2=(0,0,1)$. 二面角的平面角为锐角，故\r\n\n$$\n\\cos\\alpha=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1|\\cdot|\\mathbf{n}_2|}\r\n=\\frac{9}{\\sqrt{(3\\sqrt7)^2+9^2}}=\\frac34\n$$\n\r\n因此\r\n\n$$\n\\tan\\alpha=\\frac{\\sqrt{1-\\left(\\frac34\\right)^2}}{\\frac34}\r\n=\\frac{\\sqrt7}{3}\n$$\n\n(3) $\\overrightarrow{PA}=(-3,-3,-\\sqrt7)$，$\\overrightarrow{FG}=(2,1,0)$.\r\n直线所成的锐角记为 $\\beta$，则\r\n\n$$\n\\cos\\beta\r\n=\\frac{|\\overrightarrow{PA}\\cdot\\overrightarrow{FG}|}{|\\overrightarrow{PA}|\\cdot|\\overrightarrow{FG}|}\r\n=\\frac{|-9|}{5\\sqrt5}\r\n=\\frac{9\\sqrt5}{25}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "设 $a > 1$，函数 $f(x) = (1 + x^2)\\mathrm{e}^x - a$.\r\n\r\n\n(1) 求 $f(x)$ 的单调区间；\n\n(2) 证明：$f(x)$ 在 $(-\\infty, +\\infty)$ 上仅有一个零点；\n\n(3) 若曲线 $y = f(x)$ 在点 $P$ 处的切线与 $x$ 轴平行，且在点 $M(m, n)$ 处的切线与直线 $OP$ 平行（$O$ 是坐标原点），证明：$m \\le \\sqrt[3]{a - \\frac{2}{\\mathrm{e}}} - 1$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) $$\nf'(x)=\\left(1+x^2\\right)\\mathrm{e}^x+2x\\mathrm{e}^x\r\n=(x+1)^2\\mathrm{e}^x\\geqslant0\n$$\n\r\n除 $x=-1$ 外导数均为正，且任意非退化区间上导数不恒为零，所以 $f(x)$ 在 $\\mathbb{R}$ 上单调递增.\n\n(2) 当 $x\\to-\\infty$ 时，$(1+x^2)\\mathrm{e}^x\\to0$，从而\r\n\n$$\n\\lim_{x\\to-\\infty}f(x)=-a<0\n$$\n\r\n又 $f(0)=1-a<0$，而当 $x\\to+\\infty$ 时，$f(x)\\to+\\infty$. 因此由连续函数零点存在定理，$f(x)$ 至少有一个零点；由（1）的严格单调性，$f(x)$ 至多有一个零点. 所以它在 $(-\\infty,+\\infty)$ 上仅有一个零点.\n\n(3) 设曲线在 $P(p,f(p))$ 处的切线与 $x$ 轴平行，则\r\n\n$$\nf'(p)=(p+1)^2\\mathrm{e}^p=0\n$$\n\r\n故 $p=-1$，从而\r\n\n$$\nP\\left(-1,\\frac2\\mathrm{e}-a\\right)\n$$\n\r\n令 $c=a-\\dfrac2\\mathrm{e}$. 因为 $a>1>\\dfrac2\\mathrm{e}$，所以 $c>0$，且直线 $OP$ 的斜率为\r\n\n$$\n\\frac{\\frac2\\mathrm{e}-a}{-1}=c\n$$\n\r\n在 $M(m,n)$ 处的切线与 $OP$ 平行，故\r\n\n$$\n(m+1)^2\\mathrm{e}^m=c\n$$\n\r\n令 $t=m+1$. 若 $t\\leqslant0$，则 $t\\le c^{\\frac{1}{3}}$ 立即成立. 若 $t>0$，由 $\\ln t\\le t-1$ 得 $\\mathrm{e}^{t-1}\\ge t$，于是\r\n\n$$\nc=t^2\\mathrm{e}^{t-1}\\ge t^3\n$$\n\r\n所以 $t\\le c^{\\frac{1}{3}}$，即\r\n\n$$\nm\\le\\sqrt[3]{a-\\frac2\\mathrm{e}}-1\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知过原点的动直线 $l$ 与圆 $C_1: x^2 + y^2 - 6x + 5 = 0$ 相交于不同的两点 $A$，$B$.\r\n\r\n\n(1) 求圆 $C_1$ 的圆心坐标；\n\n(2) 求线段 $AB$ 的中点 $M$ 的轨迹 $C$ 的方程；\n\n(3) 是否存在实数 $k$，使得直线 $L: y = k(x - 4)$ 与曲线 C 只有一个交点？若存在，求出 $k$ 的取值范围；若不存在，说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 配方得\r\n\n$$\nx^2+y^2-6x+5=(x-3)^2+y^2-4\n$$\n\r\n所以圆心为 $C_1(3,0)$，半径为 $2$.\n\n(2) 设 $M$ 为弦 $AB$ 的中点. 半径 $C_1M$ 垂直于弦 $AB$，而 $O$，$M$，$A$，$B$ 共线，所以 $C_1M\\perp OM$. 因此 $M$ 在以 $OC_1$ 为直径的圆上，该圆方程为\r\n\n$$\n\\left(x-\\frac32\\right)^2+y^2=\\left(\\frac32\\right)^2\n$$\n\r\n即\r\n\n$$\nC:x^2+y^2-3x=0\n$$\n\r\n若动直线写成 $y=tx$，则其到 $C_1(3,0)$ 的距离必须小于半径 $2$，故\r\n\n$$\n\\frac{3|t|}{\\sqrt{1+t^2}}<2\n$$\n\r\n又垂足 $M$ 的坐标为\r\n\n$$\nM\\left(\\frac{3}{1+t^2},\\frac{3t}{1+t^2}\\right)\n$$\n\r\n于是 $x\\in\\left(\\dfrac53,3\\right]$，所以轨迹还应取该范围内的圆弧.\n\n(3) 直线 $L:y=k(x-4)$ 恒过 $T(4,0)$. 先考虑它与圆 $C$ 相切的情形. 圆 $C$ 的圆心为 $O'\\left(\\dfrac32,0\\right)$，半径为 $\\dfrac32$，而 $L$ 的一般式为\r\n\n$$\nkx-y-4k=0\n$$\n\r\n相切条件为\r\n\n$$\n\\frac{\\left|\\frac32k-4k\\right|}{\\sqrt{k^2+1}}=\\frac32\n$$\n\r\n即 $\\dfrac{5|k|}{2\\sqrt{k^2+1}}=\\dfrac32$，解得\r\n\n$$\nk=\\pm\\frac34\n$$\n\r\n再考虑割线与上述轨迹弧只有一个公共点的情形. 由对称性只需令 $s=|k|\\geqslant0$，考察下半圆弧. 对 $x\\in\\left(\\dfrac53,3\\right]$，该弧上点的纵坐标满足\r\n\n$$\n\\frac{|y|}{4-x}=h(x):=\\frac{\\sqrt{x(3-x)}}{4-x}\n$$\n\r\n令 $g(x)=h^2(x)=\\dfrac{x(3-x)}{(4-x)^2}$，则\r\n\n$$\ng'(x)=\\frac{12-5x}{(4-x)^3}\n$$\n\r\n所以 $h(x)$ 在 $\\left(\\dfrac53,\\dfrac{12}{5}\\right)$ 上递增，在 $\\left(\\dfrac{12}{5},3\\right]$ 上递减，并且\r\n$\\lim_{x\\to\\frac53+}h(x)=\\frac{2\\sqrt5}{7}$，$h\\left(\\frac{12}{5}\\right)=\\frac34$，$h(3)=0$.\r\n注意左端点不属于轨迹弧，而右端点 $(3,0)$ 属于轨迹弧. 当 $s=\\dfrac{2\\sqrt5}{7}$ 时，直线还经过左端点对应的整圆交点，但联立方程的另一个根为\r\n\n$$\nx=\\frac{64}{23}\\in\\left(\\frac53,3\\right]\n$$\n\r\n故此时轨迹弧上仍恰有一个交点. 因而割线与轨迹弧恰有一个公共点当且仅当\r\n$0\\le s\\le\\frac{2\\sqrt5}{7}$ 或 $s=\\frac34$.\r\n由 $k$ 关于原点对称，合并相切情形得\r\n\n$$\nk\\in\\left[-\\frac{2\\sqrt5}{7},\\frac{2\\sqrt5}{7}\\right]\r\n\\cup\\left\\{-\\frac34,\\frac34\\right\\}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "数列 $\\{a_n\\}$ 满足 $a_1 + 2a_2 + \\cdots + na_n = 4 - \\frac{n + 2}{2^{n - 1}}$，$n \\in \\mathbb{N}^*$.\r\n\r\n\n(1) 求 $a_3$ 的值；\n\n(2) 求数列 $\\{a_n\\}$ 的前 $n$ 项和 $T_n$；\n\n(3) 令 $b_1 = a_1$，$b_n = \\frac{T_{n - 1}}{n} + \\left(1 + \\frac{1}{2} + \\frac{1}{3} + \\cdots + \\frac{1}{n}\\right) a_n$（$n \\ge 2$），证明：数列 $\\{b_n\\}$ 的前 $n$ 项和 $S_n$ 满足 $S_n < 2 + 2 \\ln n$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 令\r\n\n$$\nU_n=a_1+2a_2+\\cdots+na_n=4-\\frac{n+2}{2^{n-1}}\n$$\n\r\n由 $U_1=1$ 得 $a_1=1$，由 $U_2=2$ 得 $a_2=\\dfrac12$，由\r\n\n$$\nU_3=4-\\frac54=\\frac{11}{4}\n$$\n\r\n得\r\n$a_1+2a_2+3a_3=\\frac{11}{4}$，$a_3=\\frac14$.\n\n(2) 当 $n\\geqslant2$ 时，作相邻两式相减：\r\n\n$$\nna_n=U_n-U_{n-1}\r\n=\\frac{n+1}{2^{n-2}}-\\frac{n+2}{2^{n-1}}\r\n=\\frac{n}{2^{n-1}}\n$$\n\r\n所以 $a_n=2^{1-n}$，且该式对 $n=1$ 也成立. 因而\r\n\n$$\nT_n=\\sum_{j=1}^n2^{1-j}=2-2^{1-n}=2-\\frac1{2^{n-1}}\n$$\n\n(3) 记\r\n\n$$\nH_n=1+\\frac12+\\cdots+\\frac1n\n$$\n\r\n由上式，当 $n\\geqslant2$ 时\r\n\n$$\nb_n=\\frac{T_{n-1}}n+H_na_n\r\n=\\frac2n+2^{1-n}\\left(H_n-\\frac2n\\right)\n$$\n\r\n令\r\n\n$$\nC_n=\\sum_{j=2}^n2^{1-j}\\left(H_j-\\frac2j\\right)\n$$\n\r\n由于 $H_j-\\dfrac2j>0$，故 $C_n>0$. 又利用级数恒等式\r\n\n$$\n\\sum_{j=1}^{\\infty}\\frac{H_j}{2^j}=2\\ln2\n$$\n\r\n可得\r\n$\\sum_{j=2}^{\\infty}2^{1-j}H_j=4\\ln2-1$，$\\sum_{j=2}^{\\infty}\\frac{2^{2-j}}j=4\\ln2-2$.\r\n所以\r\n\n$$\n0<C_n<\\sum_{j=2}^{\\infty}2^{1-j}\\left(H_j-\\frac2j\\right)=1\n$$\n\r\n其中恒等式可由\r\n\n$$\n\\sum_{j=1}^{\\infty}H_jx^j\r\n=\\frac1{1-x}\\sum_{r=1}^{\\infty}\\frac{x^r}{r}\r\n=-\\frac{\\ln(1-x)}{1-x}\n$$\n\r\n在 $x=\\dfrac12$ 处取得. 因而当 $n\\geqslant2$ 时\r\n\n$$\nS_n=1+\\sum_{j=2}^n b_j\r\n=1+2\\sum_{j=2}^n\\frac1j+C_n\r\n=2H_n-1+C_n<2H_n\n$$\n\r\n又因 $\\frac{1}{x}$ 在 $[1,+\\infty)$ 上递减，\r\n\n$$\nH_n=1+\\sum_{j=2}^n\\frac1j\r\n<1+\\int_1^n\\frac{1}{x}\\,\\mathrm dx\r\n=1+\\ln n\n$$\n\r\n所以 $S_n<2+2\\ln n$. 当 $n=1$ 时 $S_1=b_1=a_1=1<2$，结论同样成立.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

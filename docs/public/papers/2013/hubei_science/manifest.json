@@ -1,0 +1,411 @@
+{
+  "year": "2013",
+  "slug": "hubei_science",
+  "title": "2013年湖北卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "在复平面内，复数 $z = \\frac{2\\mathrm{i}}{1 + \\mathrm{i}}$（$\\mathrm{i}$ 为虚数单位）的共轭复数对应的点位于（ ）",
+          "choices": [
+            "第一象限",
+            "第二象限",
+            "第三象限",
+            "第四象限"
+          ],
+          "answer": "D",
+          "solution": "将分子分母同乘以 $1-\\mathrm{i}$，得\r\n$z=\\dfrac{2\\mathrm{i}(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\dfrac{2\\mathrm{i}(1-\\mathrm{i})}{2}=1+\\mathrm{i}$.\r\n因此共轭复数为 $\\overline{z}=1-\\mathrm{i}$，它在复平面内对应的点为 $(1,-1)$，位于第四象限，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知全集为 $\\mathbb{R}$. 集合 $A = \\left\\{x \\mid \\left(\\frac{1}{2}\\right)^x \\le 1\\right\\}$，$B = \\{x \\mid x^2 - 6x + 8 \\le 0\\}$，则 $A \\cap \\complement_{\\mathbb{R}} B =$（ ）",
+          "choices": [
+            "$\\{x \\mid x \\le 0\\}$",
+            "$\\{x \\mid 2 \\le x \\le 4\\}$",
+            "$\\{x \\mid 0 \\le x < 2\\}$ 或 $\\{x \\mid x > 4\\}$",
+            "$\\{x \\mid 0 < x \\le 2\\}$ 或 $\\{x \\mid x \\ge 4\\}$"
+          ],
+          "answer": "C",
+          "solution": "因为函数 $y=\\left(\\dfrac12\\right)^x$ 是减函数，且在 $x=0$ 时取值为 $1$，所以 $\\left(\\dfrac12\\right)^x\\leqslant1$ 等价于 $x\\geqslant0$，即 $A=[0,+\\infty)$.\r\n又 $x^2-6x+8=(x-2)(x-4)$，所以 $B=[2,4]$，从而 $\\complement_{\\mathbb{R}}B=(-\\infty,2)\\cup(4,+\\infty)$.\r\n因此\r\n$A\\cap\\complement_{\\mathbb{R}}B=[0,2)\\cup(4,+\\infty)$，对应选项 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "在一次跳伞训练中，甲，乙两位学员各跳一次. 设命题 $p$ 是“甲降落在指定范围”，$q$ 是“乙降落在指定范围”，则命题“至少有一位学员没有降落在指定范围”可表示为（ ）",
+          "choices": [
+            "$(\\neg p) \\vee (\\neg q)$",
+            "$p \\vee (\\neg q)$",
+            "$(\\neg p) \\wedge (\\neg q)$",
+            "$p \\vee q$"
+          ],
+          "answer": "A",
+          "solution": "“至少有一位学员没有降落在指定范围”是“不是两位学员都降落在指定范围”，即命题 $\\neg(p\\wedge q)$.\r\n由德摩根律，$\\neg(p\\wedge q)=(\\neg p)\\vee(\\neg q)$，所以选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "将函数 $y = \\sqrt{3} \\cos x + \\sin x$（$x \\in \\mathbb{R}$）的图像向左平移 $m$（$m > 0$）个单位长度后，所得到的图象关于 $y$ 轴对称. 则 $m$ 的最小值是（ ）",
+          "choices": [
+            "$\\frac{\\pi}{12}$",
+            "$\\frac{\\pi}{6}$",
+            "$\\frac{\\pi}{3}$",
+            "$\\frac{5\\pi}{6}$"
+          ],
+          "answer": "B",
+          "solution": "原函数可化为\r\n$y=\\sqrt{3}\\cos x+\\sin x=2\\cos\\left(x-\\dfrac{\\pi}{6}\\right)$.\r\n图象向左平移 $m$ 个单位后，函数变为\r\n$g(x)=2\\cos\\left(x+m-\\dfrac{\\pi}{6}\\right)$.\r\n图象关于 $y$ 轴对称等价于 $g(x)$ 为偶函数. 展开得\r\n$g(x)=2\\cos x\\cos\\left(m-\\dfrac{\\pi}{6}\\right)-2\\sin x\\sin\\left(m-\\dfrac{\\pi}{6}\\right)$，故必须有\r\n$\\sin\\left(m-\\dfrac{\\pi}{6}\\right)=0$.\r\n于是 $m=\\dfrac{\\pi}{6}+k\\pi$，其中 $k$ 为整数. 结合 $m>0$，最小值为 $\\dfrac{\\pi}{6}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "已知 $0 < \\theta < \\frac{\\pi}{4}$，则双曲线 $C_1: \\frac{x^{2}}{\\cos^{2}\\theta} - \\frac{y^{2}}{\\sin^{2}\\theta} = 1$ 与 $C_2: \\frac{y^{2}}{\\sin^{2}\\theta} - \\frac{x^{2}}{\\sin^{2}\\theta \\tan^{2}\\theta} = 1$ 的（ ）",
+          "choices": [
+            "实轴长相等",
+            "虚轴长相等",
+            "焦距相等",
+            "离心率相等"
+          ],
+          "answer": "D",
+          "solution": "双曲线 $C_1$ 的实半轴和虚半轴分别为 $a_1=\\cos\\theta$、$b_1=\\sin\\theta$，所以其焦半距满足 $c_1^2=a_1^2+b_1^2=1$，离心率为\r\n$e_1=\\dfrac{c_1}{a_1}=\\dfrac{1}{\\cos\\theta}$.\r\n将 $C_2$ 写成标准形式\r\n$\\dfrac{y^2}{(\\sin\\theta)^2}-\\dfrac{x^2}{(\\sin\\theta\\tan\\theta)^2}=1$，其竖直实半轴为 $a_2=\\sin\\theta$，虚半轴为 $b_2=\\sin\\theta\\tan\\theta$.\r\n因此\r\n$c_2^2=a_2^2+b_2^2=\\sin^2\\theta+\\sin^2\\theta\\tan^2\\theta=\\tan^2\\theta$，从而 $c_2=\\tan\\theta$，且\r\n$e_2=\\dfrac{c_2}{a_2}=\\dfrac{\\tan\\theta}{\\sin\\theta}=\\dfrac{1}{\\cos\\theta}=e_1$.\r\n故两条双曲线的离心率相等，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "已知点 $A(-1,1)$，$B(1,2)$，$C(-2,-1)$，$D(3,4)$. 则向量 $\\overrightarrow{AB}$ 在 $\\overrightarrow{CD}$ 方向上的投影为（ ）",
+          "choices": [
+            "$\\frac{3\\sqrt{2}}{2}$",
+            "$\\frac{3\\sqrt{15}}{2}$",
+            "$-\\frac{3\\sqrt{2}}{2}$",
+            "$-\\frac{3\\sqrt{15}}{2}$"
+          ],
+          "answer": "A",
+          "solution": "$\\overrightarrow{AB}=(1-(-1),2-1)=(2,1)$，$\\overrightarrow{CD}=(3-(-2),4-(-1))=(5,5)$.\r\n向量 $\\overrightarrow{AB}$ 在 $\\overrightarrow{CD}$ 方向上的投影为\r\n$\\dfrac{\\overrightarrow{AB}\\cdot\\overrightarrow{CD}}{|\\overrightarrow{CD}|}=\\dfrac{2\\cdot5+1\\cdot5}{\\sqrt{5^2+5^2}}=\\dfrac{15}{5\\sqrt{2}}=\\dfrac{3\\sqrt{2}}{2}$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "一辆汽车在高速公路上行驶，由于遇到紧急情况而刹车，以速度 $v(t) = 7 - 3t + \\frac{25}{1 + t}$（$t$ 的单位：$\\mathrm{s}$，$v$ 的单位：$\\mathrm{m/s}$）行驶至停止，在此期间汽车继续行驶的距离（单位：$\\mathrm{m}$）是（ ）",
+          "choices": [
+            "$1 + 25\\ln 5$",
+            "$8 + 25\\ln \\frac{11}{3}$",
+            "$4 + 25\\ln 5$",
+            "$4 + 50\\ln 2$"
+          ],
+          "answer": "C",
+          "solution": "汽车停止时速度为 $0$. 由于 $t\\geqslant0$，由\r\n$7-3t+\\dfrac{25}{1+t}=0$ 得 $(7-3t)(1+t)+25=0$，即 $3t^2-4t-32=0$.\r\n解得 $t=4$ 或 $t=-\\dfrac{8}{3}$，故汽车在 $0\\le t\\leqslant4$ 内行驶.\r\n行驶距离为\r\n\n$$\n\\int_0^4\\left(7-3t+\\frac{25}{1+t}\\right)\\,\\mathrm{d}t\r\n=\\left[7t-\\frac{3}{2}t^2+25\\ln(1+t)\\right]_0^4\r\n=4+25\\ln5\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "一个几何体的三视图如图所示，该几何体从上到下由四个简单几何体组成，其体积分别记为 $V_{1}$，$V_{2}$，$V_{3}$，$V_{4}$. 上面两个简单几何体均为旋转体，下面两个简单几何体均为多面体，则有（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/hubei_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
+          "choices": [
+            "$V_{1} < V_{2} < V_{4} < V_{3}$",
+            "$V_{1} < V_{3} < V_{2} < V_{4}$",
+            "$V_{2} < V_{1} < V_{3} < V_{4}$",
+            "$V_{2} < V_{3} < V_{1} < V_{4}$"
+          ],
+          "answer": "C",
+          "solution": "由三视图可读出，从上到下四个几何体分别是高为 $1$、上、下底面半径分别为 $2$、$1$ 的圆台，高为 $2$、半径为 $1$ 的圆柱，边长为 $2$ 的正方体，以及高为 $1$、上、下底面边长分别为 $2$、$4$ 的正四棱台.\r\n因此\r\n$V_1=\\dfrac{\\pi}{3}(2^2+2\\cdot1+1^2)\\cdot1=\\dfrac{7\\pi}{3}$，\r\n$V_2=\\pi\\cdot1^2\\cdot2=2\\pi$，\r\n$V_3=2^3=8$，\r\n$V_4=\\dfrac{1}{3}(2^2+2\\cdot4+4^2)\\cdot1=\\dfrac{28}{3}$.\r\n利用 $\\pi<\\dfrac{22}{7}$，有 $V_2<V_1<8=V_3<V_4$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "如图，将一个各面都涂了油漆的正方体切割为 125 个同样大小的小正方体，经过搅拌后，从中随机取一个小正方体，记其涂漆面数为 $X$，则 $X$ 的均值 $E(X) =$（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/hubei_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\frac{126}{125}$",
+            "$\\frac{6}{5}$",
+            "$\\frac{168}{125}$",
+            "$\\frac{7}{5}$"
+          ],
+          "answer": "B",
+          "solution": "正方体被切成 $5^3=125$ 个小正方体. 三面涂漆的小正方体有 $8$ 个，两面涂漆的有 $12(5-2)=36$ 个，一面涂漆的有 $6(5-2)^2=54$ 个，没有涂漆面的有 $(5-2)^3=27$ 个.\r\n所以\r\n\n$$\nE(X)=\\frac{3\\cdot8+2\\cdot36+1\\cdot54+0\\cdot27}{125}=\\frac{150}{125}=\\frac65\n$$\n\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知 $a$ 为常数，函数 $f(x) = x(\\ln x - ax)$ 有两个极值点 $x_1$，$x_2$（$x_1 < x_2$），则（ ）",
+          "choices": [
+            "$f(x_1) > 0$，$f(x_2) > -\\frac{1}{2}$",
+            "$f(x_1) < 0$，$f(x_2) < -\\frac{1}{2}$",
+            "$f(x_1) > 0$，$f(x_2) < -\\frac{1}{2}$",
+            "$f(x_1) < 0$，$f(x_2) > -\\frac{1}{2}$"
+          ],
+          "answer": "D",
+          "solution": "函数定义域为 $x>0$，且\r\n$f'(x)=\\ln x+1-2ax$.\r\n要使 $f'(x)=0$ 有两个根，必须有 $a>0$. 函数 $h(x)=\\ln x+1-2ax$ 在 $x=\\dfrac{1}{2a}$ 处取得最大值 $-\\ln(2a)$，故两个根的存在要求 $-\\ln(2a)>0$，即 $0<a<\\dfrac12$.\r\n又 $h(1)=1-2a>0$，而 $h(x)$ 在 $x\\to0^+$ 和 $x\\to+\\infty$ 时均趋于负无穷，因此 $x_1<1<x_2$.\r\n在极值点处由 $\\ln x+1=2ax$ 得 $ax=\\dfrac{\\ln x+1}{2}$，于是\r\n$f(x)=x(\\ln x-ax)=\\dfrac{x}{2}(\\ln x-1)$.\r\n所以 $f(x_1)<0$. 对 $x>1$，函数 $x(\\ln x-1)$ 的导数为 $\\ln x>0$，且在 $x=1$ 时其值为 $-1$，故 $f(x_2)>-\\dfrac12$.\r\n因此选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "从某小区抽取 100 户居民进行月用电量调查，发现其用电量都在 50 至 350 度之间，频率分布直方图如图所示.\r\n\r\n\n(1) 直方图中 $x$ 的值为 _______ {}；\n\n(2) 在这些用户中，用电量落在区间 $[100,250)$ 内的户数为 _______ {}.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/hubei_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(0.0044\\)；\\(70\\)",
+          "solution": "每个组距为 $50$，频率分布直方图的各柱面积之和为 $1$，所以\r\n$50\\left(0.0024+0.0036+0.0060+x+0.0024+0.0012\\right)=1$.\r\n解得 $x=0.0044$.\r\n用电量落在 $[100,250)$ 内的频率为\r\n$50(0.0036+0.0060+0.0044)=0.70$，因此相应户数为 $100\\times0.70=70$ 户.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "阅读如图所示的程序框图，运行相应的程序，输出的结果 $i= _______ {}$.\r\n\r\n\\texfigure[max width=0.46\\linewidth]{img_repaint/2013/hubei_science/q12_fig1.tex}",
+          "choices": [],
+          "answer": "5",
+          "solution": "程序开始时 $a=10$，$i=1$. 逐次执行循环：当 $a=10$ 时，$a$ 不是 $4$ 且为偶数，令 $a=\\frac{10}{2}=5$，再令 $i=2$；当 $a=5$ 时，令 $a=3\\times5+1=16$，再令 $i=3$；当 $a=16$ 时，令 $a=\\frac{16}{2}=8$，再令 $i=4$；当 $a=8$ 时，令 $a=\\frac{8}{2}=4$，再令 $i=5$. 此时满足 $a=4$，输出 $i=5$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "设 $x$，$y$，$z \\in \\mathbb{R}$，且满足：$x^2 + y^2 + z^2 = 1$，$x + 2y + 3z = \\sqrt{14}$，则 $x + y + z = _______ {}$.",
+          "choices": [],
+          "answer": "\\(\\frac{3\\sqrt{14}}{7}\\)",
+          "solution": "由柯西不等式，\r\n$(x+2y+3z)^2\\le(1^2+2^2+3^2)(x^2+y^2+z^2)=14$.\r\n题设给出 $(x+2y+3z)^2=14$，故等号成立. 于是 $(x,y,z)$ 与 $(1,2,3)$ 同向，设 $(x,y,z)=k(1,2,3)$. 代入 $x+2y+3z=\\sqrt{14}$，得 $14k=\\sqrt{14}$，所以 $k=\\dfrac{\\sqrt{14}}{14}$.\r\n因此 $x+y+z=6k=\\dfrac{3\\sqrt{14}}{7}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "古希腊毕达哥拉斯学派的数学家研究过各种多边形数，如三角形数 $1$，$3$，$6$，$10$，$\\cdots$，第 $n$ 个三角形数为 $\\frac{n(n + 1)}{2} = \\frac{1}{2}n^2 + \\frac{1}{2}n$. 记第 $n$ 个 $k$ 边形数为 $N(n, k)$（$k \\ge 3$），以下列出了部分 $k$ 边形数中第 $n$ 个数的表达式：\r\n\r\n三角形数 $N(n, 3) = \\frac{1}{2}n^2 + \\frac{1}{2}n$，\r\n正方形数 $N(n, 4) = n^2$，\r\n五边形数 $N(n, 5) = \\frac{3}{2}n^2 - \\frac{1}{2}n$，\r\n六边形数 $N(n, 6) = 2n^2 - n$，\r\n……\r\n\r\n可以推测 $N(n, k)$ 的表达式，由此计算 $N(10, 24) = _______ {}$.",
+          "choices": [],
+          "answer": "1000",
+          "solution": "观察题中各式，$n^2$ 的系数在 $k=3$，$4$，$5$，$6$ 时依次为 $\\dfrac12$，$1$，$\\dfrac32$，$2$，构成公差为 $\\dfrac12$ 的等差数列，故该系数为 $\\dfrac{k-2}{2}$. $n$ 的系数依次为 $\\dfrac12$，$0$，$-\\dfrac12$，$-1$，故该系数为 $\\dfrac{4-k}{2}$. 因此\r\n$N(n,k)=\\dfrac{k-2}{2}n^2+\\dfrac{4-k}{2}n$.\r\n代入 $n=10$、$k=24$，得\r\n$N(10,24)=\\dfrac{22}{2}\\cdot10^2+\\dfrac{-20}{2}\\cdot10=1100-100=1000$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选考题：填空题",
+      "problems": [
+        {
+          "num": 15,
+          "body": "如图，圆 $O$ 上一点 $C$ 在直径 $AB$ 上的射影为 $D$，点 $D$ 在半径 $OC$ 上的射影为 $E$，若 $AB = 3AD$，则 $\\dfrac{CE}{EO}$ 的值为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/hubei_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "8",
+          "solution": "设 $AD=x$，则 $AB=3x$，圆的半径为 $OA=\\dfrac{3x}{2}$. 因为 $D$ 在线段 $AB$ 上，所以\r\n$OD=OA-AD=\\dfrac{x}{2}$.\r\n在直角三角形 $ODC$ 中，$OC$ 是斜边，且 $DE\\perp OC$. 由射影定理，\r\n$OE\\cdot OC=OD^2$，从而 $OE=\\dfrac{(\\frac{x}{2})^2}{3\\frac{x}{2}}=\\dfrac{x}{6}$.\r\n于是 $CE=OC-OE=\\dfrac{3x}{2}-\\dfrac{x}{6}=\\dfrac{4x}{3}$，故\r\n$\\dfrac{CE}{EO}=\\dfrac{4\\frac{x}{3}}{\\frac{x}{6}}=8$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "在直角坐标系 $xOy$ 中，椭圆 $C$ 的参数方程为 $\\begin{cases}\r\nx = a\\cos\\varphi,\\\\\r\ny = b\\sin\\varphi,\r\n\\end{cases}$\r\n（$\\varphi$ 为参数，$a > b > 0$），在极坐标系（与直角坐标系 $xOy$ 取相同的长度单位，且以原点 $O$ 为极点，以 $x$ 轴正半轴为极轴）中，直线 $l$ 与圆 $O$ 的极坐标方程分别为 $\\rho\\sin\\left(\\theta + \\frac{\\pi}{4}\\right) = \\frac{\\sqrt{2}}{2}m$（$m$ 为非零常数）与 $\\rho = b$，若直线 $l$ 经过椭圆 $C$ 的焦点，且与圆 $O$ 相切，则椭圆 $C$ 的离心率为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{\\sqrt{6}}{3}\\)",
+          "solution": "将直线的极坐标方程化为直角坐标方程. 由 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$，有\r\n$\\rho\\sin\\left(\\theta+\\dfrac{\\pi}{4}\\right)=\\dfrac{x+y}{\\sqrt{2}}$，所以直线 $l$ 的方程为 $x+y=m$.\r\n直线 $l$ 与圆 $O: x^2+y^2=b^2$ 相切，故原点到直线的距离满足 $\\dfrac{|m|}{\\sqrt{2}}=b$，即 $|m|=\\sqrt{2}b$.\r\n椭圆焦点为 $(\\pm c,0)$，其中 $c^2=a^2-b^2$. 由于直线 $l$ 经过一个焦点，有 $|m|=c$，故 $c=\\sqrt{2}b$. 于是 $a^2=b^2+c^2=3b^2$，椭圆离心率为\r\n$e=\\dfrac{c}{a}=\\dfrac{\\sqrt{2}b}{\\sqrt{3}b}=\\dfrac{\\sqrt{6}}{3}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 对应的边分别是 $a$，$b$，$c$. 已知 $\\cos 2A - 3\\cos (B + C) = 1$.\r\n\n(1) 求角 $A$ 的大小；\n\n(2) 若 $\\triangle ABC$ 的面积 $S = 5\\sqrt{3}$，$b = 5$，求 $\\sin B \\sin C$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $A+B+C=\\pi$，所以 $B+C=\\pi-A$，从而 $\\cos(B+C)=-\\cos A$. 代入已知等式，得 $\\cos 2A+3\\cos A=1$.\r\n令 $u=\\cos A$，利用 $\\cos 2A=2\\cos^2A-1$，可得 $2u^2-1+3u=1$，即 $2u^2+3u-2=0$，从而 $(2u-1)(u+2)=0$.\r\n因为 $0<A<\\pi$，所以 $-1<u<1$，故 $u=\\frac{1}{2}$，即 $A=\\frac{\\pi}{3}$.\n\n(2) 由三角形面积公式 $S=\\frac{1}{2}bc\\sin A$，得 $5\\sqrt{3}=\\frac{1}{2}\\cdot5\\cdot c\\cdot\\frac{\\sqrt{3}}{2}$，所以 $c=4$. 由余弦定理，$a^2=b^2+c^2-2bc\\cos A=25+16-2\\cdot5\\cdot4\\cdot\\frac{1}{2}=21$. 由正弦定理，$\\sin B=\\frac{b}{a}\\sin A$，$\\sin C=\\frac{c}{a}\\sin A$，因此\r\n\n$$\n\\sin B\\sin C\r\n=\\frac{bc}{a^2}\\sin^2A\r\n=\\frac{5\\cdot4}{21}\\cdot\\frac{3}{4}\r\n=\\frac{5}{7}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "已知等比数列 $\\{a_{n}\\}$ 满足：$\\left|a_2 - a_3\\right| = 10$，$a_1a_2a_3 = 125$.\r\n\n(1) 求数列 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 是否存在正整数 $m$，使得 $\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_m} \\ge 1$. 若存在，求 $m$ 的最小值；若不存在，说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "设等比数列的公比为 $q$. 由 $a_2=a_1q$，有\r\n\n$$\na_1a_2a_3=a_1\\cdot a_1q\\cdot a_1q^2=(a_1q)^3=a_2^3\n$$\n\r\n因此 $a_2^3=125$，从而 $a_2=5$. 又 $|a_2-a_3|=|5-5q|=10$，即 $|1-q|=2$，所以 $q=3$ 或 $q=-1$.\r\n\r\n当 $q=3$ 时，$a_1=\\frac{a_2}{q}=\\frac{5}{3}$，故\r\n$a_n=\\frac{5}{3}\\cdot3^{n-1}=5\\cdot3^{n-2}$.\r\n当 $q=-1$ 时，$a_1=-5$，故\r\n$a_n=-5(-1)^{n-1}=5(-1)^n$. 因此数列的通项公式有两种可能：$a_n=5\\cdot3^{n-2}$ 或 $a_n=5(-1)^n$.\r\n\r\n对第（2）问分别讨论.\r\n\r\n当 $q=3$ 时，\r\n\n$$\n\\sum_{k=1}^{m}\\frac{1}{a_k}\r\n=\\frac{3}{5}\\sum_{k=0}^{m-1}\\left(\\frac{1}{3}\\right)^k\r\n=\\frac{9}{10}\\left(1-\\frac{1}{3^m}\\right)<\\frac{9}{10}<1\n$$\n\r\n当 $q=-1$ 时，$a_n=5(-1)^n$，所以\r\n\n$$\n\\sum_{k=1}^{m}\\frac{1}{a_k}\r\n=\\frac{1}{5}\\sum_{k=1}^{m}(-1)^k\r\n=\\begin{cases}\r\n0,&m\\text{ 为偶数},\\\\\r\n-\\frac{1}{5},&m\\text{ 为奇数}.\r\n\\end{cases}\n$$\n\r\n这两种情形下的和都不可能不小于 1，故不存在满足条件的正整数 $m$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，$AB$ 是圆 $O$ 的直径，点 $C$ 是圆 $O$ 上异于 $A$，$B$ 的点，直线 $PC \\perp$ 平面 $ABC$，$E$，$F$ 分别是 $PA$，$PC$ 的中点.\r\n\n(1) 记平面 $BEF$ 与平面 $ABC$ 的交线为 $l$，试判断直线 $l$ 与平面 PAC 的位置关系，并加以证明；\n\n(2) 设 （1） 中的直线 $l$ 与圆 $O$ 的另一个交点为 $D$，且点 $Q$ 满足 $\\overrightarrow{DQ} = \\frac{1}{2}\\overrightarrow{CP}$，记直线 $PQ$ 与平面 $ABC$ 所成的角为 $\\theta$，异面直线 $PQ$ 与 $EF$ 所成的角为 $\\alpha$，二面角 $E - l - C$ 的大小为 $\\beta$，求证： $\\sin \\theta = \\sin \\alpha \\sin \\beta$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $AB$ 是圆的直径，所以 $\\angle ACB=90^{\\circ}$，即 $AC\\perp BC$. 建立空间直角坐标系，使 $C$ 为原点，$AC$、$BC$、$PC$ 分别为 $x$ 轴、$y$ 轴、$z$ 轴，设 $A=(a,0,0)$，$B=(0,b,0)$，$P=(0,0,h)$，其中 $a>0$，$b>0$，$h>0$.\r\n则 $E=\\left(\\frac{a}{2},0,\\frac{h}{2}\\right)$，$F=\\left(0,0,\\frac{h}{2}\\right)$.\r\n由于 $EF\\parallel AC$，平面 $BEF$ 与平面 $ABC$ 的交线 $l$ 经过公共点 $B$，且平行于 $AC$.\r\n\r\n平面 $PAC$ 与平面 $ABC$ 的交线为 $AC$，而 $B\\notin AC$，所以直线 $l$ 不与平面 $PAC$ 相交，又因 $l\\parallel AC$，可得 $l\\parallel\\text{平面 }PAC$.\n\n(2) 在上述坐标系中，圆 $O$ 经过 $A$、$B$、$C$，其方程为\r\n$x^2+y^2-ax-by=0$.\r\n由第（1）问，直线 $l$ 的方程为 $y=b$，$z=0$. 将其代入圆的方程，得 $x^2-ax=0$，所以除点 $B=(0,b,0)$ 外，另一个交点为 $D=(a,b,0)$. 由 $\\overrightarrow{DQ}=\\frac{1}{2}\\overrightarrow{CP}$，得 $Q=\\left(a,b,\\frac{h}{2}\\right)$.\r\n于是可取 $\\overrightarrow{PQ}=\\left(a,b,-\\frac{h}{2}\\right)$，$\\overrightarrow{EF}=\\left(-\\frac{a}{2},0,0\\right)$. 令 $L=\\sqrt{a^2+b^2+\\frac{h^2}{4}}$. 直线 $PQ$ 与平面 $ABC$ 所成的角为 $\\theta$，故 $\\sin\\theta=\\frac{\\frac{h}{2}}{L}$. 直线 $EF$ 的方向为 $x$ 轴方向，因此 $\\cos\\alpha=\\frac{a}{L}$，$\\sin\\alpha=\\frac{\\sqrt{b^2+\\frac{h^2}{4}}}{L}$.\r\n\r\n二面角 $E-l-C$ 的一个面为平面 $E-l$，另一个面为平面 $C-l=ABC$. 在垂直于 $l$ 的截面内，平面 $E-l$ 的方向向量可取 $(-b,\\frac{h}{2})$，所以 $\\sin\\beta=\\frac{\\frac{h}{2}}{\\sqrt{b^2+\\frac{h^2}{4}}}$.\r\n从而\r\n\n$$\n\\sin\\alpha\\sin\\beta\r\n=\\frac{\\sqrt{b^2+\\frac{h^2}{4}}}{L}\\cdot\r\n\\frac{\\frac{h}{2}}{\\sqrt{b^2+\\frac{h^2}{4}}}\r\n=\\frac{\\frac{h}{2}}{L}\r\n=\\sin\\theta\n$$\n\r\n故 $\\sin\\theta=\\sin\\alpha\\sin\\beta$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "假设每天从甲地去乙地的旅客人数 $X$ 是服从正态分布 $N(800,50^{2})$ 的随机变量，记一天中从甲地去乙地的旅客人数不超过 900 的概率为 $P_{0}$.\r\n\n(1) 求 $P_{0}$ 的值；（参考数据：若 $X \\sim N(\\mu, \\sigma^{2})$，有 $P(\\mu - \\sigma < X \\le \\mu + \\sigma) = 0.6826$，$P(\\mu - 2\\sigma < X \\le \\mu + 2\\sigma) = 0.9544$，$P(\\mu - 3\\sigma < X \\le \\mu + 3\\sigma) = 0.9974$）\n\n(2) 某客运公司用 $A$，$B$ 两种型号的车辆承担甲，乙两地间的长途客运业务，每车每天往返一次，$A$，$B$ 两种车辆的载客量分别为 36 人和 60 人，从甲地去乙地的营运成本分别为 1600 元/辆和 2400 元/辆. 公司拟组建一个不超过 21 辆车的客运车队，并要求 $B$ 型车不多于 $A$ 型车 7 辆. 若每天要以不小于 $p_0$ 的概率运完从甲地去乙地的旅客，且使公司从甲地去乙地的营运成本最小，那么应配备 $A$ 型车，$B$ 型车各多少辆？",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $900=800+2\\times50$，所以 $P_0=P(X\\leqslant800+2\\times50)$.\r\n正态分布关于均值对称，且 $P(700<X\\leqslant900)=0.9544$.\r\n因此\r\n\n$$\nP_0=P(X\\leqslant800)+P(800<X\\leqslant900)\r\n=0.5+\\frac{0.9544}{2}=0.9772\n$$\n\r\n\r\n$p_0$ 按题意取为第一问所得的 $P_0$，即 $p_0=0.9772$.\n\n(2) 设配备 $x$ 辆 $A$ 型车、$y$ 辆 $B$ 型车，其中 $x$，$y$ 为非负整数. 要使运力满足概率要求，车辆总载客量至少为 900 人，因此 $36x+60y\\geqslant900$，即 $3x+5y\\geqslant75$. 另外，$x+y\\leqslant21$，$y\\le x+7$. 营运成本为 $1600x+2400y=800(2x+3y)$.\r\n\r\n下面证明 $2x+3y$ 不小于 46. 若 $2x+3y\\leqslant45$，则由运力约束\r\n\n$$\n75\\leqslant3x+5y\r\n=\\frac{3}{2}(2x+3y)+\\frac{1}{2}y\r\n\\leqslant67.5+\\frac{1}{2}y\n$$\n\r\n可得 $y\\geqslant15$. 又因 $y\\le x+7$，所以 $x\\geqslant8$，从而 $2x+3y\\geqslant2\\cdot8+3\\cdot15=61$，这与 $2x+3y\\leqslant45$ 矛盾. 因此 $2x+3y\\geqslant46$.\r\n\r\n取 $x=5$，$y=12$，则 $36x+60y=36\\cdot5+60\\cdot12=900$，$x+y=17\\leqslant21$，$y=x+7$，并且 $1600x+2400y=1600\\cdot5+2400\\cdot12=36800$.\r\n所以应配备 $A$ 型车 5 辆，$B$ 型车 12 辆，最小营运成本为 36800 元.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "如图，已知椭圆 $C_1$ 与 $C_2$ 的中心在坐标原点 $O$，长轴均为 $MN$ 且在 $x$ 轴上，短轴长分别为 $2m$，$2n$（$m > n$），过原点且不与 $x$ 轴重合的直线 $l$ 与 $C_1$，$C_2$ 的四个交点按纵坐标从大到小依次为 $A$，$B$，$C$，$D$，记 $\\lambda = \\frac{m}{n}$，$\\triangle BDM$ 和 $\\triangle ABN$ 的面积分别为 $S_1$ 和 $S_2$.\r\n\n(1) 当直线 $l$ 与 $y$ 轴重合时，若 $S_{1} = \\lambda S_{2}$，求 $\\lambda$ 的值；\n\n(2) 当 $\\lambda$ 变化时，是否存在与坐标轴不重合的直线 $l$ 使得 $S_{1} = \\lambda S_{2}$ 并说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "设 $OM=ON=a$，则 $a>m>n>0$.\r\n\r\n\n(1) 当 $l$ 与 $y$ 轴重合时，\r\n有 $A=(0,m)$，$B=(0,n)$，$C=(0,-n)$，$D=(0,-m)$，$M=(-a,0)$，$N=(a,0)$. 因此 $S_1=\\frac{1}{2}a(m+n)$，$S_2=\\frac{1}{2}a(m-n)$. 由 $S_1=\\lambda S_2$ 及 $\\lambda=\\frac{m}{n}$，得 $m+n=\\frac{m}{n}(m-n)$.\r\n令 $m=\\lambda n$，可得 $\\lambda+1=\\lambda(\\lambda-1)$，即 $\\lambda^2-2\\lambda-1=0$.\r\n因为 $\\lambda>1$，所以 $\\lambda=1+\\sqrt{2}$.\n\n(2) 设直线 $l$ 与正半轴方向的夹角为 $\\varphi$，取直线在上半平面的射线为正方向. 记该射线与 $C_1$，$C_2$ 的交点到原点的距离分别为 $R_m$，$R_n$，则\r\n\n$$\nR_m=\\left(\\frac{\\cos^2\\varphi}{a^2}+\\frac{\\sin^2\\varphi}{m^2}\\right)^{-\\frac{1}{2}}\n$$\n\r\n并且\r\n\n$$\nR_n=\\left(\\frac{\\cos^2\\varphi}{a^2}+\\frac{\\sin^2\\varphi}{n^2}\\right)^{-\\frac{1}{2}}\n$$\n\r\n记上半平面内的两个交点为 $A=(x_m,y_m)$、$B=(x_n,y_n)$，则\r\n有 $y_m=R_m\\sin\\varphi$，$y_n=R_n\\sin\\varphi$，$C=-B$，$D=-A$.\r\n由三角形面积的行列式公式，\r\n\n$$\nS_1=\\frac{1}{2}\\left|\\overrightarrow{BD}\\times\\overrightarrow{BM}\\right|\r\n=\\frac{1}{2}a(y_m+y_n)\n$$\n\r\n以及\r\n\n$$\nS_2=\\frac{1}{2}\\left|\\overrightarrow{AB}\\times\\overrightarrow{AN}\\right|\r\n=\\frac{1}{2}a(y_m-y_n)\n$$\n\r\n令 $\\rho=\\frac{y_m}{y_n}=\\frac{R_m}{R_n}$，则条件 $S_1=\\lambda S_2$ 等价于 $\\frac{\\rho+1}{\\rho-1}=\\lambda$，即 $\\rho=\\frac{\\lambda+1}{\\lambda-1}$.\r\n\r\n当直线不与坐标轴重合时，$\\sin\\varphi\\neq0$ 且 $\\cos\\varphi\\neq0$. 由\r\n\n$$\n\\rho^2=\\lambda^2\\frac{n^2\\cos^2\\varphi+a^2\\sin^2\\varphi}{m^2\\cos^2\\varphi+a^2\\sin^2\\varphi}\n$$\n\r\n可知 $1<\\rho<\\lambda$. 因此必要条件为 $\\frac{\\lambda+1}{\\lambda-1}<\\lambda$，即 $\\lambda^2-2\\lambda-1>0$.\r\n结合 $\\lambda>1$，得到 $\\lambda>1+\\sqrt{2}$.\r\n\r\n反之，当 $\\lambda>1+\\sqrt{2}$ 时，令 $m=\\lambda n$，由上式令 $\\rho=\\frac{\\lambda+1}{\\lambda-1}$，整理得\r\n\n$$\n\\tan^2\\varphi\r\n=\\frac{4\\lambda^3n^2}{a^2(\\lambda^2+1)(\\lambda^2-2\\lambda-1)}\n$$\n\r\n右端为正且有限，故存在既不与 $x$ 轴也不与 $y$ 轴重合的直线 $l$ 满足条件. 综上，当且仅当 $\\lambda>1+\\sqrt{2}$ 时，存在满足条件的直线 $l$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "设 $n$ 为正整数，$r$ 为正有理数.\r\n\n(1) 求函数 $f(x) = (1 + x)^{r + 1} - (r + 1)x - 1$（$x > -1$）的最小值；\n\n(2) 证明： $\\frac{n^{r+1} - (n-1)^{r+1}}{r+1} < n^{r} < \\frac{(n+1)^{r+1} - n^{r+1}}{r+1}$；\n\n(3) 设 $x \\in \\mathbb{R}$，记 $[x]$ 为不小于 $x$ 的最小整数，例如 $[2] = 2$，$[\\pi] = 4$，$\\left[\\frac{3}{-2}\\right] = -1$. 令 $S = \\sqrt[3]{81} + \\sqrt[3]{82} + \\sqrt[3]{83} + \\cdots + \\sqrt[3]{125}$，求 $[S]$ 的值.（参考数据： $80^{\\frac{4}{3}} \\approx 344.7$，$81^{\\frac{4}{3}} \\approx 350.5$，$124^{\\frac{4}{3}} \\approx 618.3$，$126^{\\frac{4}{3}} \\approx 631.7$）",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 令 $t=1+x$，则 $t>0$，且 $f(x)=t^{r+1}-(r+1)t+r$. 于是 $f'(x)=(r+1)(t^r-1)=(r+1)((1+x)^r-1)$.\r\n当 $-1<x<0$ 时，$0<1+x<1$，所以 $(1+x)^r<1$，从而 $f'(x)<0$；当 $x>0$ 时，$(1+x)^r>1$，从而 $f'(x)>0$. 因此函数在 $x=0$ 处取得最小值，且\r\n$f(0)=1-0-1=0$.\n\n(2) 当 $n=1$ 时，$\\frac{1^{r+1}-0^{r+1}}{r+1}=\\frac{1}{r+1}<1=1^r$.\r\n\r\n当 $n\\geqslant2$ 时，将 $x=-\\frac{1}{n}$ 代入第（1）问的结论. 由于 $-\\frac{1}{n}\\neq0$，有 $\\left(1-\\frac{1}{n}\\right)^{r+1}+\\frac{r+1}{n}-1>0$. 两边同乘以正数 $n^{r+1}$，得 $(n-1)^{r+1}+(r+1)n^r-n^{r+1}>0$，即 $\\frac{n^{r+1}-(n-1)^{r+1}}{r+1}<n^r$.\r\n\r\n对任意正整数 $n$，将 $x=\\frac{1}{n}$ 代入，同样因为 $x\\neq0$，有 $\\left(1+\\frac{1}{n}\\right)^{r+1}-\\frac{r+1}{n}-1>0$. 两边同乘以正数 $n^{r+1}$，得 $(n+1)^{r+1}-(r+1)n^r-n^{r+1}>0$，即 $n^r<\\frac{(n+1)^{r+1}-n^{r+1}}{r+1}$.\r\n两式合并即得所证不等式.\n\n(3) 在第（2）问中取 $r=\\frac{1}{3}$，对 $n=81$，$82$，$\\ldots$，$125$ 分别求和，得到\r\n\n$$\n\\frac{3}{4}\\left(125^{\\frac{4}{3}}-80^{\\frac{4}{3}}\\right)\r\n<S<\r\n\\frac{3}{4}\\left(126^{\\frac{4}{3}}-81^{\\frac{4}{3}}\\right)\n$$\n\r\n因为 $125^{\\frac{4}{3}}=625$，结合题中参考数据，$\\frac{3}{4}(625-344.7)\\approx210.2<S$，且 $S<\\frac{3}{4}(631.7-350.5)\\approx210.9$.\r\n所以 $210<S<211$. 题目中的 $[S]$ 表示不小于 $S$ 的最小整数，故 $[S]=211$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

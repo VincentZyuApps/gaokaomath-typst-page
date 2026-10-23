@@ -3,6 +3,7 @@
   "slug": "national_paper_a_science",
   "title": "2024年全国甲卷（理）",
   "pageCount": 11,
+  "hasVectorSvg": true,
   "questions": [
     {
       "num": 1,
@@ -141,6 +142,295 @@
       "type": "选考题：解答题",
       "hasAnswer": false,
       "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设 $z=5+\\mathrm{i}$，则 $\\mathrm{i} \\left( \\bar z+z \\right)=$（ ）",
+          "choices": [
+            "$10\\mathrm{i}$",
+            "$2\\mathrm{i}$",
+            "$10$",
+            "$2$"
+          ],
+          "answer": "A",
+          "solution": "根据 $z=5+\\mathrm{i}$，可得 $\\bar z=5-\\mathrm{i}$，所以\r\n$z+\\bar z=10$，\r\n则\r\n$\\mathrm{i} \\left( \\bar z+z \\right)=10\\mathrm{i}$.\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "集合 $A=\\{1,2,3,4,5,9\\}$，$B=\\left\\{ x \\mid \\sqrt{x}\\in A \\right\\}$，则 $C_A\\left( A\\cap B \\right)=$（ ）",
+          "choices": [
+            "$\\{1,4,9\\}$",
+            "$\\{3,4,9\\}$",
+            "$\\{1,2,3\\}$",
+            "$\\{2,3,5\\}$"
+          ],
+          "answer": "D",
+          "solution": "因为 $A=\\{1,2,3,4,5,9\\}$，$B=\\left\\{ x \\mid \\sqrt{x}\\in A \\right\\}$，所以\r\n$B=\\{1,4,9,16,25,81\\}$，\r\n则\r\n$A\\cap B=\\{1,4,9\\}$，\r\n故\r\n$C_A\\left( A\\cap B \\right)=\\{2,3,5\\}$.\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "若实数 $x$，$y$ 满足约束条件\r\n$\\begin{cases}\r\n4x-3y-3\\ge 0,\\\\\r\nx-2y-2\\le 0,\\\\\r\n2x+6y-9\\le 0,\r\n\\end{cases}$\r\n则 $z=x-5y$ 的最小值为（ ）",
+          "choices": [
+            "$\\dfrac{1}{2}$",
+            "$0$",
+            "$-\\dfrac{5}{2}$",
+            "$-\\dfrac{7}{2}$"
+          ],
+          "answer": "D",
+          "solution": "实数 $x$，$y$ 满足 $\\begin{cases}\r\n4x-3y-3\\ge 0,\\\\\r\nx-2y-2\\le 0,\\\\\r\n2x+6y-9\\le 0,\r\n\\end{cases}$ 作出可行域.\r\n根据 $z=x-5y$ 可得\r\n$y=\\frac{1}{5}x-\\frac{1}{5}z$，\r\n即 $z$ 的几何意义为 $y=\\frac{1}{5}x-\\frac{1}{5}z$ 的截距的 $-5$ 倍.\r\n则该直线截距取最大值时，$z$ 有最小值，此时直线 $y=\\frac{1}{5}x-\\frac{1}{5}z$ 过点 A.\r\n联立 $4x-3y-3=0$ 与 $2x+6y-9=0$，解得 $x=\\dfrac{3}{2}$，$y=1$，即 $A\\left( \\dfrac{3}{2},1 \\right)$，则\r\n$z_{\\min}=\\frac{3}{2}-5\\times 1=-\\frac{7}{2}$.\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "等差数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，若 $S_5=S_{10}$，$a_5=1$，则 $a_1=$（ ）",
+          "choices": [
+            "$\\dfrac{7}{2}$",
+            "$\\dfrac{7}{3}$",
+            "$-\\dfrac{1}{3}$",
+            "$-\\dfrac{7}{11}$"
+          ],
+          "answer": "B",
+          "solution": "由 $S_{10}-S_5=a_6+a_7+a_8+a_9+a_{10}=5a_8=0$ 可得 $a_8=0$.\r\n则等差数列 $\\{a_n\\}$ 的公差 $d=\\frac{a_8-a_5}{3}=-\\frac{1}{3}$，故\r\n $a_1=a_5-4d=1-4\\times \\left( -\\frac{1}{3} \\right)=\\frac{7}{3}$.\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "已知双曲线的两个焦点分别为 $(0,4)$，$(0,-4)$，点 $P(-6,4)$ 在该双曲线上，则该双曲线的离心率为（ ）",
+          "choices": [
+            "$4$",
+            "$3$",
+            "$2$",
+            "$\\sqrt{2}$"
+          ],
+          "answer": "C",
+          "solution": "设两个焦点为 $F_1(0,4)$，$F_2(0,-4)$，则\r\n$\\left| F_1F_2 \\right|=2c=8$，\r\n$\\left| PF_1 \\right|=6$，\r\n$\\left| PF_2 \\right|=\\sqrt{6^2+8^2}=10$.\r\n由双曲线定义可得\r\n$2a=\\left| PF_2 \\right|-\\left| PF_1 \\right|=10-6=4$，\r\n则\r\n$e=\\frac{c}{a}=\\frac{4}{2}=2$.\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "设函数 $f(x)=\\dfrac{\\mathrm{e}^x+2\\sin x}{1+x^2}$，则曲线 $y=f(x)$ 在 $(0,1)$ 处的切线与两坐标轴围成的三角形的面积为（ ）",
+          "choices": [
+            "$\\dfrac{1}{6}$",
+            "$\\dfrac{1}{3}$",
+            "$\\dfrac{1}{2}$",
+            "$\\dfrac{2}{3}$"
+          ],
+          "answer": "A",
+          "solution": "借助导数的几何意义计算可得其在点 $(0,1)$ 处的切线方程.\r\n\n$$\nf'(x)=\\frac{\\left( \\mathrm{e}^x+2\\cos x \\right)\\left( 1+x^2 \\right)-\\left( \\mathrm{e}^x+2\\sin x \\right)\\cdot 2x}{\\left( 1+x^2 \\right)^2}\n$$\n\r\n所以\r\n\n$$\nf'(0)=\\frac{\\left( \\mathrm{e}^0+2\\cos 0 \\right)\\left( 1+0 \\right)-\\left( \\mathrm{e}^0+2\\sin 0 \\right)\\times 0}{\\left( 1+0 \\right)^2}=3\n$$\n\r\n即该切线方程为\r\n$y-1=3x$\r\n也就是\r\n$y=3x+1$\r\n令 $x=0$，则 $y=1$；令 $y=0$，则 $x=-\\dfrac{1}{3}$.\r\n所以该切线与两坐标轴所围成的三角形面积\r\n$S=\\frac{1}{2}\\times 1\\times \\left| -\\frac{1}{3} \\right|=\\frac{1}{6}$.\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "函数 $f(x)=-x^2+\\left( \\mathrm{e}^x-\\mathrm{e}^{-x} \\right)\\sin x$ 在区间 $[-2.8,2.8]$ 的大致图像为（ ）",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2024/img/national_paper_a_science/q7_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2024/img/national_paper_a_science/q7_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2024/img/national_paper_a_science/q7_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2024/img/national_paper_a_science/q7_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "B",
+          "solution": "由\r\n\n$$\nf(-x)=-x^2+\\left( \\mathrm{e}^{-x}-\\mathrm{e}^x \\right)\\sin(-x)=-x^2+\\left( \\mathrm{e}^x-\\mathrm{e}^{-x} \\right)\\sin x=f(x)\n$$\n\r\n可知函数定义域为 $[-2.8,2.8]$ 时，$f(x)$ 为偶函数，故选项 A，C 错误.\r\n又\r\n$f(1)=-1+\\left( \\mathrm{e}-\\frac{1}{\\mathrm{e}} \\right)\\sin 1>-1+\\left( \\mathrm{e}-\\frac{1}{\\mathrm{e}} \\right)\\sin \\frac{\\pi}{6}=\\frac{\\mathrm{e}}{2}-1-\\frac{1}{2\\mathrm{e}}>\\frac{1}{4}-\\frac{1}{2\\mathrm{e}}>0$，\r\n故 D 错误.\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "已知 $\\dfrac{\\cos \\alpha}{\\cos \\alpha-\\sin \\alpha}=\\sqrt{3}$，则 $\\tan \\left( \\alpha+\\dfrac{\\pi}{4} \\right)=$（ ）",
+          "choices": [
+            "$2\\sqrt{3}+1$",
+            "$2\\sqrt{3}-1$",
+            "$\\dfrac{\\sqrt{3}}{2}$",
+            "$1-\\sqrt{3}$"
+          ],
+          "answer": "B",
+          "solution": "因为\r\n$\\frac{\\cos \\alpha}{\\cos \\alpha-\\sin \\alpha}=\\sqrt{3}$，\r\n所以\r\n$\\frac{1}{1-\\tan \\alpha}=\\sqrt{3}$，\r\n即\r\n$\\tan \\alpha=1-\\frac{\\sqrt{3}}{3}$.\r\n所以\r\n$\\tan \\left( \\alpha+\\frac{\\pi}{4} \\right)=\\frac{\\tan \\alpha+1}{1-\\tan \\alpha}=2\\sqrt{3}-1$.\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "已知向量 $\\mathbf{a}=(x+1,x)$，$\\mathbf{b}=(x,2)$，则（ ）",
+          "choices": [
+            "“$x=-3$”是“$\\mathbf{a}\\perp \\mathbf{b}$”的必要条件",
+            "“$x=1+\\sqrt{3}$”是“$\\mathbf{a}\\parallel\\mathbf{b}$”的必要条件",
+            "“$x=0$”是“$\\mathbf{a}\\perp \\mathbf{b}$”的充分条件",
+            "“$x=-1+\\sqrt{3}$”是“$\\mathbf{a}\\parallel\\mathbf{b}$”的充分条件"
+          ],
+          "answer": "C",
+          "solution": "A，当 $\\mathbf{a}\\perp \\mathbf{b}$ 时，则\r\n$\\mathbf{a}\\cdot \\mathbf{b}=0$，\r\n所以\r\n$x(x+1)+2x=0$，\r\n解得 $x=0$ 或 $x=-3$，即必要性不成立，A 错误.\r\nB，当 $\\mathbf{a}\\parallel\\mathbf{b}$ 时，则\r\n$2(x+1)=x^2$，\r\n解得\r\n$x=1\\pm \\sqrt{3}$，\r\n即必要性不成立，B 错误.\r\nC，当 $x=0$ 时，\r\n$\\mathbf{a}=(1,0)$，$\\mathbf{b}=(0,2)$，\r\n故\r\n$\\mathbf{a}\\cdot \\mathbf{b}=0$，\r\n所以 $\\mathbf{a}\\perp \\mathbf{b}$，即充分性成立，C 正确.\r\nD，当 $x=-1+\\sqrt{3}$ 时，不满足\r\n$2(x+1)=x^2$，\r\n所以 $\\mathbf{a}\\parallel\\mathbf{b}$ 不成立，即充分性不成立，D 错误.\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "设 $\\alpha$，$\\beta$ 是两个平面，$m$，$n$ 是两条直线，且 $\\alpha\\cap\\beta=m$. 下列四个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 若 $m\\parallel n$，则 $n\\parallel\\alpha$ 或 $n\\parallel\\beta$；\r\n\\item 若 $m\\perp n$，则 $n\\perp \\alpha$ 或 $n\\perp \\beta$；\r\n\\item 若 $n\\parallel\\alpha$，且 $n\\parallel\\beta$，则 $m\\parallel n$；\r\n\\item 若 $n$ 与 $\\alpha$ 和 $\\beta$ 所成的角相等，则 $m\\perp n$.\r\n\\end{circlelist}\r\n\r\n其中所有真命题的编号是（ ）",
+          "choices": [
+            "$\\circled{1}\\circled{3}$",
+            "$\\circled{2}\\circled{4}$",
+            "$\\circled{1}\\circled{2}\\circled{3}$",
+            "$\\circled{1}\\circled{3}\\circled{4}$"
+          ],
+          "answer": "A",
+          "solution": "\\circled{1}，当 $n\\subset \\alpha$ 时，因为 $m\\parallel n$，$m\\subset \\beta$，则 $n\\parallel\\beta$；\r\n当 $n\\subset \\beta$ 时，因为 $m\\parallel n$，$m\\subset \\alpha$，则 $n\\parallel\\alpha$；\r\n当 $n$ 既不在 $\\alpha$ 也不在 $\\beta$ 内时，因为 $m\\parallel n$，$m\\subset \\alpha$，$m\\subset \\beta$，则 $n\\parallel\\alpha$ 且 $n\\parallel\\beta$，故 \\circled{1} 正确.\r\n\\circled{2}，若 $m\\perp n$，则 $n$ 与 $\\alpha$，$\\beta$ 不一定垂直，故 \\circled{2} 错误.\r\n\\circled{3}，过直线 $n$ 分别作两平面与 $\\alpha$，$\\beta$ 分别相交于直线 $s$ 和直线 $t$. 因为 $n\\parallel\\alpha$，过直线 $n$ 的平面与平面 $\\alpha$ 的交线为直线 $s$，则根据线面平行的性质定理知 $n\\parallel s$. 又因为 $n\\parallel\\beta$，过直线 $n$ 的平面与平面 $\\beta$ 的交线为直线 $t$，则根据线面平行的性质定理知 $n\\parallel t$，则 $s\\parallel t$. 因为 $s\\nsubseteq \\beta$，$t\\subset \\beta$，则 $s\\parallel\\beta$. 因为 $s\\subset \\alpha$，$\\alpha\\cap\\beta=m$，则 $s\\parallel m$，又因为 $n\\parallel s$，则 $m\\parallel n$，故 \\circled{3} 正确.\r\n\\circled{4}，若 $\\alpha\\cap\\beta=m$，$n$ 与 $\\alpha$ 和 $\\beta$ 所成的角相等，如果 $n\\parallel\\alpha$，$n\\parallel\\beta$，则 $m\\parallel n$，故 \\circled{4} 错误.\r\n\\circled{1}\\circled{3} 正确，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "在 $\\triangle ABC$ 中内角 $A$，$B$，$C$ 所对边分别为 $a$，$b$，$c$，若 $B=\\dfrac{\\pi}{3}$，$b^2=\\dfrac{9}{4}ac$，则 $\\sin A+\\sin C=$（ ）",
+          "choices": [
+            "$\\dfrac{3}{2}$",
+            "$\\sqrt{2}$",
+            "$\\dfrac{\\sqrt{7}}{2}$",
+            "$\\dfrac{\\sqrt{3}}{2}$"
+          ],
+          "answer": "C",
+          "solution": "因为 $B=\\dfrac{\\pi}{3}$，$b^2=\\dfrac{9}{4}ac$，由正弦定理得\r\n$\\sin A\\sin C=\\frac{4}{9}\\sin^2 B=\\frac{1}{3}$\r\n由余弦定理可得\r\n$b^2=a^2+c^2-ac=\\frac{9}{4}ac$，\r\n即\r\n$a^2+c^2=\\frac{13}{4}ac$.\r\n根据正弦定理得\r\n$\\sin^2 A+\\sin^2 C=\\frac{13}{4}\\sin A\\sin C=\\frac{13}{12}$，\r\n所以\r\n$\\left( \\sin A+\\sin C \\right)^2=\\sin^2 A+\\sin^2 C+2\\sin A\\sin C=\\frac{7}{4}$\r\n因为 $A$，$C$ 为三角形内角，则 $\\sin A+\\sin C>0$，故\r\n$\\sin A+\\sin C=\\frac{\\sqrt{7}}{2}$.\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "已知 $b$ 是 $a$，$c$ 的等差中项，直线 $ax+by+c=0$ 与圆 $x^2+y^2+4y-1=0$ 交于 $A$，$B$ 两点，则 $\\left| AB \\right|$ 的最小值为（ ）",
+          "choices": [
+            "$1$",
+            "$2$",
+            "$4$",
+            "$2\\sqrt{5}$"
+          ],
+          "answer": "C",
+          "solution": "因为 $a$，$b$，$c$ 成等差数列，所以 $2b=a+c$，即 $c=2b-a$.\r\n代入直线方程 $ax+by+c=0$ 得\r\n$ax+by+2b-a=0$，\r\n即\r\n$a(x-1)+b(y+2)=0$.\r\n令 $x-1=0$，$y+2=0$，得 $x=1$，$y=-2$，故直线恒过 $(1,-2)$，设 $P(1,-2)$.\r\n圆化为标准方程得\r\n$C:x^2+(y+2)^2=5$.\r\n设圆心为 $C$，当 $PC\\perp AB$ 时，$|AB|$ 最小.\r\n因为\r\n$|PC|=1$，$|AC|=r=\\sqrt{5}$，\r\n此时\r\n$|AB|=2|AP|=2\\sqrt{AC^2-PC^2}=2\\sqrt{5-1}=4$.\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "$\\left( \\dfrac{1}{3}+x \\right)^{10}$ 的展开式中，各项系数中的最大值是 _______ {}.",
+          "choices": [],
+          "answer": "5",
+          "solution": "根据题意，展开式通项公式为\r\n$T_{r+1}=\\mathrm C_{10}^{r}\\left( \\frac{1}{3} \\right)^{10-r}x^r$，\r\n其中 $0\\le r\\le 10$，且 $r\\in \\mathbb{Z}$.\r\n设展开式中第 $r+1$ 项系数最大，则 $\\mathrm C_{10}^{r}\\left( \\dfrac{1}{3} \\right)^{10-r}\\ge \\mathrm C_{10}^{r+1}\\left( \\dfrac{1}{3} \\right)^{9-r}$，且 $\\mathrm C_{10}^{r}\\left( \\dfrac{1}{3} \\right)^{10-r}\\ge \\mathrm C_{10}^{r-1}\\left( \\dfrac{1}{3} \\right)^{11-r}$，解得 $\\frac{29}{4}\\le r\\le \\frac{33}{4}$.\r\n又 $r\\in \\mathbb{Z}$，故 $r=8$，所以展开式中系数最大的项是第 $9$ 项，且该项系数为\r\n$\\mathrm C_{10}^{8}\\left( \\frac{1}{3} \\right)^2=5$.\r\n答案为：5.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "已知圆台甲，乙的上底面半径均为 $r_1$，下底面半径均为 $r_2$，母线长分别为 $2\\left( r_2-r_1 \\right)$ 和 $3\\left( r_2-r_1 \\right)$，则圆台甲与乙的体积之比 $\\dfrac{V_{\\text{甲}}}{V_{\\text{乙}}}=$ _______ {}.",
+          "choices": [],
+          "answer": "\\( \\dfrac{\\sqrt{6}}{4} \\)",
+          "solution": "根据题可得两个圆台的高分别为\r\n$h_{\\text{甲}}=\\sqrt{\\left[ 2\\left( r_2-r_1 \\right) \\right]^2-\\left( r_2-r_1 \\right)^2}=\\sqrt{3}\\left( r_2-r_1 \\right)$，\r\n$h_{\\text{乙}}=\\sqrt{\\left[ 3\\left( r_2-r_1 \\right) \\right]^2-\\left( r_2-r_1 \\right)^2}=2\\sqrt{2}\\left( r_2-r_1 \\right)$.\r\n所以\r\n\n$$\n\\frac{V_{\\text{甲}}}{V_{\\text{乙}}}\r\n=\\frac{\\dfrac{1}{3}\\left( S_2+S_1+\\sqrt{S_2S_1} \\right)h_{\\text{甲}}}{\\dfrac{1}{3}\\left( S_2+S_1+\\sqrt{S_2S_1} \\right)h_{\\text{乙}}}\r\n=\\frac{h_{\\text{甲}}}{h_{\\text{乙}}}\r\n=\\frac{\\sqrt{3}\\left( r_2-r_1 \\right)}{2\\sqrt{2}\\left( r_2-r_1 \\right)}\r\n=\\frac{\\sqrt{6}}{4}\n$$\n\r\n答案为：$\\dfrac{\\sqrt{6}}{4}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "已知 $a>1$，$\\dfrac{1}{\\log_8 a}-\\dfrac{1}{\\log_a 4}=-\\dfrac{5}{2}$，则 $a=$ _______ {}.",
+          "choices": [],
+          "answer": "64",
+          "solution": "由题\r\n$\\frac{1}{\\log_8 a}-\\frac{1}{\\log_a 4}=\\frac{3}{\\log_2 a}-\\frac{1}{2}\\log_2 a=-\\frac{5}{2}$\r\n整理得\r\n$\\left( \\log_2 a \\right)^2-5\\log_2 a-6=0$，\r\n所以\r\n$\\log_2 a=-1$\r\n或\r\n$\\log_2 a=6$.\r\n又 $a>1$，所以\r\n$\\log_2 a=6=\\log_2 2^6$，\r\n故\r\n$a=2^6=64$.\r\n答案为：64.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "有 $6\\text{ 个}$ 相同的球，分别标有数字 $1$，$2$，$3$，$4$，$5$，$6$，从中不放回地随机抽取 $3\\text{ 次}$，每次取 $1\\text{ 个}$ 球. 记 $m$ 为前两次取出的球上数字的平均值，$n$ 为取出的三个球上数字的平均值，则 $m$ 与 $n$ 差的绝对值不超过 $\\dfrac{1}{2}$ 的概率是 _______ {}.",
+          "choices": [],
+          "answer": "\\( \\dfrac{7}{15} \\)",
+          "solution": "从 $6\\text{ 个}$ 不同的球中不放回地抽取 $3\\text{ 次}$，共有\r\n$\\mathrm A_6^3=120\\text{ 种}$.\r\n设前两个球的号码为 $a$，$b$，第三个球的号码为 $c$，则\r\n$\\left| \\frac{a+b+c}{3}-\\frac{a+b}{2} \\right|\\le \\frac{1}{2}$，\r\n所以\r\n$\\left| 2c-(a+b) \\right|\\le 3$，\r\n即\r\n$a+b-3\\le 2c\\le a+b+3$.\r\n\r\n若 $c=1$，则 $a+b\\le 5$，则 $(a,b)$ 为 $(2,3)$，$(3,2)$，因此有 $2\\text{ 种}$.\r\n\r\n若 $c=2$，则 $1\\le a+b\\le 7$，则 $(a,b)$ 为\r\n$(1,3)$，$(1,4)$，$(1,5)$，$(1,6)$，$(3,4)$，\r\n$(3,1)$，$(4,1)$，$(5,1)$，$(6,1)$，$(4,3)$，\r\n因此有 $10\\text{ 种}$.\r\n\r\n当 $c=3$ 时，则 $3\\le a+b\\le 9$，则 $(a,b)$ 为\r\n$(1,2)$，$(1,4)$，$(1,5)$，$(1,6)$，$(2,4)$，$(2,5)$，$(2,6)$，$(4,5)$，\r\n$(2,1)$，$(4,1)$，$(5,1)$，$(6,1)$，$(4,2)$，$(5,2)$，$(6,2)$，$(5,4)$，\r\n因此有 $16\\text{ 种}$.\r\n\r\n当 $c=4$ 时，则 $5\\le a+b\\le 11$，则 $(a,b)$ 为\r\n$(1,5)$，$(1,6)$，$(2,3)$，$(2,5)$，$(2,6)$，$(3,2)$，$(3,5)$，$(3,6)$，\r\n$(5,1)$，$(5,2)$，$(5,3)$，$(5,6)$，$(6,1)$，$(6,2)$，$(6,3)$，$(6,5)$，\r\n因此有 $16\\text{ 种}$.\r\n\r\n当 $c=5$ 时，则 $7\\le a+b\\le 13$，则 $(a,b)$ 为\r\n$(1,6)$，$(2,6)$，$(3,4)$，$(3,6)$，$(4,3)$，\r\n$(4,6)$，$(6,1)$，$(6,2)$，$(6,3)$，$(6,4)$，\r\n因此有 $10\\text{ 种}$.\r\n\r\n当 $c=6$ 时，则 $9\\le a+b\\le 15$，则 $(a,b)$ 为 $(4,5)$，$(5,4)$，因此有 $2\\text{ 种}$.\r\n共 $m$ 与 $n$ 的差的绝对值不超过 $\\dfrac{1}{2}$ 时不同的抽取方法总数为\r\n$2(2+10+16)=56$，\r\n因此所求概率为\r\n$\\frac{56}{120}=\\frac{7}{15}$.\r\n答案为：$\\dfrac{7}{15}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "某工厂进行生产线智能化升级改造，升级改造后，从该工厂甲，乙两个车间的产品中随机抽取 $150\\text{ 件}$ 进行检验，数据如下：\r\n\r\n\\begin{center}\r\n\\renewcommand{\\arraystretch}{1.3}\r\n\\begin{tabular}{c|c|c|c|c}\r\n & 优级品 & 合格品 & 不合格品 & 总计 \\\\\r\n\\hline\r\n甲车间 & 26 & 24 & 0 & 50 \\\\\r\n\\hline\r\n乙车间 & 70 & 28 & 2 & 100 \\\\\r\n\\hline\r\n总计 & 96 & 52 & 2 & 150\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 填写如下列联表：\r\n\r\n\\begin{center}\r\n\\renewcommand{\\arraystretch}{1.3}\r\n\\begin{tabular}{c|c|c}\r\n & 优级品 & 非优级品 \\\\\r\n\\hline\r\n甲车间 & _______ {}& _______ {} \\\\\r\n\\hline\r\n乙车间 & _______ {}& _______ {}\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n能否有 $95\\%$ 的把握认为甲，乙两车间产品的优级品率存在差异？能否有 $99\\%$ 的把握认为甲，乙两车间产品的优级品率存在差异？\n\n(2) 已知升级改造前该工厂产品的优级品率 $p=0.5$，设 $\\bar p$ 为升级改造后抽取的 $n\\text{ 件}$ 产品的优级品率. 如果 $\\bar p>p+1.65\\sqrt{\\frac{p(1-p)}{n}}$，则认为该工厂产品的优级品率提高了. 根据抽取的 $150\\text{ 件}$ 产品的数据，能否认为生产线智能化升级改造后，该工厂产品的优级品率提高了？（$\\sqrt{150}\\approx 12.247$）\n\r\n\r\n附：$K^2=\\frac{n(ad-bc)^2}{(a+b)(c+d)(a+c)(b+d)}$\r\n\r\n\\begin{center}\r\n\\renewcommand{\\arraystretch}{1.3}\r\n\\begin{tabular}{c|c|c|c}\r\n$P\\left( K^2\\ge k \\right)$ & 0.050 & 0.010 & 0.001 \\\\\r\n\\hline\r\n$k$ & 3.841 & 6.635 & 10.828\r\n\\end{tabular}\r\n\\end{center}",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 根据题意可得列联表：\r\n\r\n\\begin{center}\r\n\\renewcommand{\\arraystretch}{1.3}\r\n\\begin{tabular}{c|c|c}\r\n & 优级品 & 非优级品 \\\\\r\n\\hline\r\n甲车间 & 26 & 24 \\\\\r\n\\hline\r\n乙车间 & 70 & 30\r\n\\end{tabular}\r\n\\end{center}\r\n可得\r\n\n$$\nK^2=\\frac{150\\left( 26\\times 30-24\\times 70 \\right)^2}{50\\times 100\\times 96\\times 54}=\\frac{75}{16}=4.6875\n$$\n\r\n因为\r\n$3.841<4.6875<6.635$，\r\n所以有 $95\\%$ 的把握认为甲，乙两车间产品的优级品率存在差异，没有 $99\\%$ 的把握认为甲，乙两车间产品的优级品率存在差异.\n\n(2) 根据题意可知：生产线智能化升级改造后，该工厂产品的优级品的频率为\r\n$\\frac{96}{150}=0.64$.\r\n用频率估计概率可得 $\\bar p=0.64$.\r\n又因为升级改造前该工厂产品的优级品率 $p=0.5$，则\r\n$p+1.65\\sqrt{\\frac{p(1-p)}{n}}=0.5+1.65\\sqrt{\\frac{0.5(1-0.5)}{150}}\\approx 0.5+1.65\\times \\frac{0.5}{12.247}\\approx 0.568$.\r\n可知\r\n$\\bar p>p+1.65\\sqrt{\\frac{p(1-p)}{n}}$，\r\n所以可以认为生产线智能化升级改造后，该工厂产品的优级品率提高了.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "记 $S_n$ 为数列 $\\{a_n\\}$ 的前 $n$ 项和，且 $4S_n=3a_n+4$.\r\n\r\n\n(1) 求 $\\{a_n\\}$ 的通项公式；\n\n(2) 设 $b_n=\\left( -1 \\right)^{n-1}na_n$，求数列 $\\{b_n\\}$ 的前 $n$ 项和 $T_n$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 当 $n=1$ 时，\r\n$4S_1=4a_1=3a_1+4$\r\n解得 $a_1=4$.\r\n当 $n\\ge 2$ 时，\r\n$4S_{n-1}=3a_{n-1}+4$，\r\n所以\r\n$4S_n-4S_{n-1}=4a_n=3a_n-3a_{n-1}$\r\n即 $a_n=-3a_{n-1}$.\r\n而 $a_1=4\\ne 0$，故 $a_n\\ne 0$，所以\r\n$\\frac{a_n}{a_{n-1}}=-3$.\r\n故数列 $\\{a_n\\}$ 是以 $4$ 为首项，$-3$ 为公比的等比数列，\r\n$a_n=4\\cdot \\left( -3 \\right)^{n-1}$.\n\n(2) $b_n=\\left( -1 \\right)^{n-1}n\\cdot 4\\cdot \\left( -3 \\right)^{n-1}=4n\\cdot 3^{n-1}$，\r\n所以\r\n$T_n=b_1+b_2+b_3+\\cdots+b_n =4\\cdot 3^0+8\\cdot 3^1+12\\cdot 3^2+\\cdots+4n\\cdot 3^{n-1}$.\r\n则\r\n$3T_n=4\\cdot 3^1+8\\cdot 3^2+12\\cdot 3^3+\\cdots+4n\\cdot 3^n$，\r\n所以\r\n\n$$\n\\begin{aligned}\r\n-2T_n\r\n&=4+4\\cdot 3^1+4\\cdot 3^2+\\cdots+4\\cdot 3^{n-1}-4n\\cdot 3^n\\\\\r\n&=4+4\\cdot \\frac{3\\left( 1-3^{n-1} \\right)}{1-3}-4n\\cdot 3^n\\\\\r\n&=4+2\\cdot 3\\left( 3^{n-1}-1 \\right)-4n\\cdot 3^n=\\left( 2-4n \\right)\\cdot 3^n-2.\r\n\\end{aligned}\n$$\n\r\n故\r\n$T_n=\\left( 2n-1 \\right)\\cdot 3^n+1$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，在以 $A$，$B$，$C$，$D$，$E$，$F$ 为顶点的五面体中，四边形 $ABCD$ 与四边形 $ADEF$ 均为等腰梯形，$BC\\parallel AD$，$EF\\parallel AD$，$AD=4$，$AB=BC=EF=2$，$ED=\\sqrt{10}$，$FB=2\\sqrt{3}$，$M$ 为 $AD$ 的中点.\r\n\r\n\n(1) 证明：$BM\\parallel$平面 $CDE$；\n\n(2) 求二面角 $F-BM-E$ 的正弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2024/img/national_paper_a_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $BC\\parallel AD$，$BC=2$，$AD=4$，$M$ 为 $AD$ 的中点，所以 $BC\\parallel MD$，$BC=MD$.\r\n四边形 $BCDM$ 为平行四边形，所以 $BM\\parallel CD$，又因为 $BM\\nsubseteq$ 平面 $CDE$，$CD\\subset$ 平面 $CDE$，所以 $BM\\parallel$平面 $CDE$.\n\n(2) 作 $BO\\perp AD$ 交 $AD$ 于 $O$，连接 $OF$.\r\n因为四边形 $ABCD$ 为等腰梯形，$BC\\parallel AD$，$AD=4$，$AB=BC=2$，所以 $CD=2$.\r\n结合（1）$BCDM$ 为平行四边形，可得 $BM=CD=2$，又 $AM=2$，所以 $\\triangle ABM$ 为等边三角形，$O$ 为 $AM$ 中点，所以\r\n$OB=\\sqrt{3}$.\r\n又因为四边形 $ADEF$ 为等腰梯形，$M$ 为 $AD$ 中点，所以 $EF=MD$，$EF\\parallel MD$.\r\n四边形 $EFMD$ 为平行四边形，$FM=ED=AF$，所以 $\\triangle AFM$ 为等腰三角形，$\\triangle ABM$ 与 $\\triangle AFM$ 底边上中点 $O$ 重合，且 $OF\\perp AM$，\r\n$OF=\\sqrt{AF^2-AO^2}=3$.\r\n因为\r\n$OB^2+OF^2=BF^2$，\r\n所以 $OB\\perp OF$，故 $OB$，$OD$，$OF$ 互相垂直.\r\n以 $OB$ 方向为 $x$ 轴，$OD$ 方向为 $y$ 轴，$OF$ 方向为 $z$ 轴，建立 $O-xyz$ 空间直角坐标系.\r\n则\r\n$F(0,0,3)$，$B(\\sqrt{3},0,0)$，$M(0,1,0)$，$E(0,2,3)$，\r\n所以\r\n$\\overrightarrow{BM}=(-\\sqrt{3},1,0)$，$\\overrightarrow{BF}=(-\\sqrt{3},0,3)$，$\\overrightarrow{BE}=(-\\sqrt{3},2,3)$.\r\n设平面 $BFM$ 的法向量为 $\\mathbf{m}=(x_1,y_1,z_1)$，平面 $EMB$ 的法向量为 $\\mathbf{n}=(x_2,y_2,z_2)$.\r\n则 $\\mathbf{m}\\cdot \\overrightarrow{BM}=0$，$\\mathbf{m}\\cdot \\overrightarrow{BF}=0$，即 $-\\sqrt{3}x_1+y_1=0$，$-\\sqrt{3}x_1+3z_1=0$. 令 $x_1=3$，得 $y_1=3\\sqrt{3}$，$z_1=\\sqrt{3}$，即\r\n$\\mathbf{m}=(3,3\\sqrt{3},\\sqrt{3})$.\r\n又因为 $\\mathbf{n}$ 为平面 $EMB$ 的法向量，所以 $\\mathbf{n}\\cdot \\overrightarrow{BM}=0$，$\\mathbf{n}\\cdot \\overrightarrow{BE}=0$，即 $-\\sqrt{3}x_2+y_2=0$，$-\\sqrt{3}x_2+2y_2+3z_2=0$. 令 $x_2=3$，得 $y_2=3\\sqrt{3}$，$z_2=-\\sqrt{3}$，即\r\n$\\mathbf{n}=(3,3\\sqrt{3},-\\sqrt{3})$.\r\n于是\r\n$\\cos \\angle \\left( \\mathbf{m},\\mathbf{n} \\right)=\\frac{\\mathbf{m}\\cdot \\mathbf{n}}{|\\mathbf{m}||\\mathbf{n}|}=\\frac{11}{13}$，\r\n所以\r\n$\\sin \\angle \\left( \\mathbf{m},\\mathbf{n} \\right)=\\frac{4\\sqrt{3}}{13}$.\r\n故二面角 $F-BM-E$ 的正弦值为 $\\dfrac{4\\sqrt{3}}{13}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的右焦点为 $F$，点 $M\\left( 1,\\dfrac{3}{2} \\right)$ 在 $C$ 上，且 $MF\\perp x$ 轴.\r\n\r\n\n(1) 求 $C$ 的方程；\n\n(2) 过点 $P(4,0)$ 的直线与 $C$ 交于 $A$，$B$ 两点，$N$ 为线段 $FP$ 的中点，直线 $NB$ 交直线 $MF$ 于点 $Q$，证明：$AQ\\perp y$ 轴.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $F(c,0)$，由题设有 $c=1$ 且 $\\frac{b^2}{a^2}=\\frac{3}{4}$，故\r\n$\\frac{a^2-1}{a^2}=\\frac{3}{4}$，\r\n于是 $a=2$，故 $b=\\sqrt{3}$.\r\n所以椭圆方程为\r\n$\\frac{x^2}{4}+\\frac{y^2}{3}=1$.\n\n(2) 直线 $AB$ 的斜率必定存在，设\r\n$AB:y=k(x-4)$，\r\n其中 $A(x_1,y_1)$，$B(x_2,y_2)$.\r\n由 $3x^2+4y^2=12$ 与 $y=k(x-4)$ 可得\r\n$\\left( 3+4k^2 \\right)x^2-32k^2x+64k^2-12=0$，\r\n故\r\n$\\Delta=1024k^4-4\\left( 3+4k^2 \\right)\\left( 64k^2-12 \\right)>0$，\r\n从而 $-\\frac{1}{2}<k<\\frac{1}{2}$.\r\n又\r\n$x_1+x_2=\\frac{32k^2}{3+4k^2}$，$x_1x_2=\\frac{64k^2-12}{3+4k^2}$.\r\n因为 $N\\left( \\dfrac{5}{2},0 \\right)$，故直线 $BN$ 的方程为\r\n$y=\\frac{y_2}{x_2-\\frac{5}{2}}\\left( x-\\frac{5}{2} \\right)$.\r\n由 $MF\\perp x$ 轴且 $F(1,0)$，可知直线 $MF$ 的方程为 $x=1$，故\r\n$y_Q=\\frac{-3y_2}{2x_2-5}$.\r\n所以\r\n\n$$\n\\begin{aligned}\r\ny_1-y_Q\r\n&=y_1+\\frac{3y_2}{2x_2-5}\r\n=\\frac{y_1(2x_2-5)+3y_2}{2x_2-5}\\\\\r\n&=\\frac{k(x_1-4)(2x_2-5)+3k(x_2-4)}{2x_2-5}\r\n=\\frac{k\\left( 2x_1x_2-5x_1+x_2-8+3x_2-12 \\right)}{2x_2-5}\\\\\r\n&=\\frac{k\\left( 2x_1x_2-5(x_1+x_2)+8 \\right)}{2x_2-5}.\r\n\\end{aligned}\n$$\n\r\n代入 $x_1+x_2$ 与 $x_1x_2$ 得\r\n\n$$\n\\begin{aligned}\r\n2x_1x_2-5(x_1+x_2)+8\r\n&=2\\times \\frac{64k^2-12}{3+4k^2}-5\\times \\frac{32k^2}{3+4k^2}+8\\\\\r\n&=\\frac{128k^2-24-160k^2+24+32k^2}{3+4k^2}=0.\r\n\\end{aligned}\n$$\n\r\n故\r\n$y_1=y_Q$，\r\n即 $AQ\\perp y$ 轴.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知函数 $f(x)=(1-ax)\\ln(1+x)-x$.\r\n\r\n\n(1) 当 $a=-2$ 时，求 $f(x)$ 的极值；\n\n(2) 当 $x\\ge 0$ 时，$f(x)\\ge 0$ 恒成立，求 $a$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 当 $a=-2$ 时，$f(x)=(1+2x)\\ln(1+x)-x$.\r\n故\r\n$f'(x)=2\\ln(1+x)+\\frac{1+2x}{1+x}-1=2\\ln(1+x)-\\frac{1}{1+x}+1$\r\n因为\r\n$y=2\\ln(1+x)$，$y=-\\frac{1}{1+x}+1$\r\n在 $(-1,+\\infty)$ 上都为增函数，故 $f'(x)$ 在 $(-1,+\\infty)$ 上为增函数，而\r\n$f'(0)=0$.\r\n故当 $-1<x<0$ 时，$f'(x)<0$；当 $x>0$ 时，$f'(x)>0$.\r\n所以 $f(x)$ 在 $x=0$ 处取极小值，且极小值为\r\n$f(0)=0$，\r\n无极大值.\n\n(2) $f'(x)=-a\\ln(1+x)+\\frac{1-ax}{1+x}-1=-a\\ln(1+x)-\\frac{(a+1)x}{1+x}$，$x>0$.\r\n设\r\n$s(x)=-a\\ln(1+x)-\\frac{(a+1)x}{1+x}$，$x>0$，\r\n则\r\n\n$$\ns'(x)=-\\frac{a}{1+x}-\\frac{a+1}{(1+x)^2}\r\n=-\\frac{a(x+1)+a+1}{(1+x)^2}\r\n=-\\frac{ax+2a+1}{(1+x)^2}\n$$\n\r\n当 $a\\le -\\dfrac{1}{2}$ 时，$s'(x)>0$，故 $s(x)$ 在 $(0,+\\infty)$ 上为增函数，\r\n$s(x)>s(0)=0$，\r\n即 $f'(x)>0$，所以 $f(x)$ 在 $[0,+\\infty)$ 上为增函数，故\r\n$f(x)\\ge f(0)=0$.\r\n\r\n当 $-\\dfrac{1}{2}<a<0$ 时，当\r\n$0<x<-\\frac{2a+1}{a}$\r\n时，$s'(x)<0$，故 $s(x)$ 在 $\\left( 0,-\\dfrac{2a+1}{a} \\right)$ 上为减函数，\r\n$s(x)<s(0)$，\r\n即在 $\\left( 0,-\\dfrac{2a+1}{a} \\right)$ 上 $f'(x)<0$，所以 $f(x)<f(0)=0$，不合题意.\r\n当 $a\\ge 0$ 时，此时 $s'(x)<0$ 在 $(0,+\\infty)$ 上恒成立，故 $s(x)$ 在 $(0,+\\infty)$ 上为减函数，\r\n$s(x)<s(0)=0$，\r\n即 $f'(x)<0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上为减函数，从而\r\n$f(x)<f(0)=0$，\r\n也不合题意.\r\n综上，\r\n$a\\le -\\frac{1}{2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选考题：解答题",
+      "problems": [
+        {
+          "num": 22,
+          "body": "在平面直角坐标系 $xOy$ 中，以坐标原点 $O$ 为极点，$x$ 轴的正半轴为极轴建立极坐标系，曲线 $C$ 的极坐标方程为 $\\rho=\\rho\\cos\\theta+1$.\r\n\r\n\n(1) 写出 $C$ 的直角坐标方程；\n\n(2) 设直线 $l$ 的参数方程为 $\\begin{cases}\r\nx=t,\\\\\r\ny=t+a,\r\n\\end{cases}$（$t$ 为参数），若 $C$ 与 $l$ 相交于 $A$，$B$ 两点，且 $|AB|=2$，求 $a$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由 $\\rho=\\rho\\cos\\theta+1$，将 $\\rho=\\sqrt{x^2+y^2}$ 和 $\\rho\\cos\\theta=x$ 代入，可得\r\n$\\sqrt{x^2+y^2}=x+1$.\r\n两边平方后可得曲线的直角坐标方程为\r\n$y^2=2x+1$.\n\n(2) 对于直线 $l$ 的参数方程消去参数 $t$，得直线的普通方程为\r\n$y=x+a$.\r\n法 1：直线 $l$ 的斜率为 $1$，故倾斜角为 $\\dfrac{\\pi}{4}$，故直线的参数方程可设为 $x=\\dfrac{\\sqrt{2}}{2}s$，$y=a+\\dfrac{\\sqrt{2}}{2}s$（$s\\in \\mathbb{R}$）.\r\n将其代入 $y^2=2x+1$ 中得\r\n$s^2+2\\sqrt{2}(a-1)s+2(a^2-1)=0$.\r\n设 $A$，$B$ 两点对应的参数分别为 $s_1$，$s_2$，则\r\n$s_1+s_2=-2\\sqrt{2}(a-1)$，$s_1s_2=2(a^2-1)$.\r\n且\r\n$\\Delta=8(a-1)^2-8(a^2-1)=16-16a>0$，\r\n故 $a<1$.\r\n又\r\n\n$$\n|AB|=|s_1-s_2|=\\sqrt{(s_1+s_2)^2-4s_1s_2}=\\sqrt{8(a-1)^2-8(a^2-1)}=2\n$$\n\r\n解得 $a=\\frac{3}{4}$.\r\n\r\n法 2：联立 $y=x+a$ 与 $y^2=2x+1$，得\r\n$x^2+(2a-2)x+a^2-1=0$.\r\n则\r\n$\\Delta=(2a-2)^2-4(a^2-1)=-8a+8>0$\r\n解得 $a<1$. 设 $A(x_1,y_1)$，$B(x_2,y_2)$，则\r\n$x_1+x_2=2-2a$，$x_1x_2=a^2-1$.\r\n所以\r\n\n$$\n|AB|=\\sqrt{1+1^2}\\cdot \\sqrt{(x_1+x_2)^2-4x_1x_2}=\\sqrt{2}\\cdot \\sqrt{(2-2a)^2-4(a^2-1)}=2\n$$\n\r\n解得 $a=\\frac{3}{4}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 23,
+          "body": "实数 $a$，$b$ 满足 $a+b\\ge 3$.\r\n\r\n\n(1) 证明：$2a^2+2b^2>a+b$；\n\n(2) 证明：$|a-2b^2|+|b-2a^2|\\ge 6$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为\r\n$2a^2+2b^2-(a+b)^2=a^2-2ab+b^2=(a-b)^2\\ge 0$\r\n当 $a=b$ 时等号成立，则\r\n$2a^2+2b^2\\ge (a+b)^2$.\r\n因为 $a+b\\ge 3$，所以\r\n$2a^2+2b^2\\ge (a+b)^2>a+b$.\n\n(2) $$\n\\begin{aligned}\r\n|a-2b^2|+|b-2a^2|\r\n&\\ge |a-2b^2+b-2a^2|=|2a^2+2b^2-(a+b)|\\\\\r\n&=2a^2+2b^2-(a+b)\\ge (a+b)^2-(a+b)\\\\\r\n&=(a+b)(a+b-1)\\ge 3\\times 2=6.\r\n\\end{aligned}\n$$\n\r\n故\r\n$|a-2b^2|+|b-2a^2|\\ge 6$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,201 @@
+{
+  "year": "1977",
+  "slug": "qinghai",
+  "title": "1977年青海卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "计算：$\\frac{a}{a-b}-\\frac{b}{a+b}+\\frac{2ab}{a^2-b^2}$（$a\\neq\\pm b$）.",
+          "choices": [],
+          "answer": "",
+          "solution": "由题设，$a-b\\neq0$、$a+b\\neq0$，且\r\n$a^2-b^2=(a-b)(a+b)$. 因此\r\n\n$$\n\\text{原式}=\\frac{a(a+b)-b(a-b)+2ab}{(a-b)(a+b)}\r\n =\\frac{a^2+b^2+2ab}{(a-b)(a+b)}\n$$\n\r\n\n$$\n\\text{原式}=\\frac{(a+b)^2}{(a-b)(a+b)}=\\frac{a+b}{a-b}\n$$\n\r\n这里约去的因式 $a+b$ 非零，所以化简合法.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "如图，$AB$ 是 $\\odot O$ 的直径，$AC$ 是 $\\odot O$ 的切线，连接 $BC$ 与 $\\odot O$ 相交于 $D$ 点，而且 $\\angle ABC=45^\\circ$. 求证 $BD=DC$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/qinghai/q2_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "连接 $AD$. 因为 $AB$ 是圆的直径，所以由直径所对的圆周角为直角，得\r\n$\\angle ADB=90^\\circ$. 又因为 $B$，$D$，$C$ 共线，\r\n$\\angle ABD=\\angle ABC=45^\\circ$，所以在三角形 $ABD$ 中\r\n\n$$\n\\angle BAD=180^\\circ-\\angle ADB-\\angle ABD=45^\\circ\n$$\n\r\n从而 $\\angle BAD=\\angle ABD$，故 $BD=AD$.\r\n\r\n由于 $AC$ 是圆在 $A$ 点的切线，半径 $OA$ 垂直于 $AC$；又 $A$，$O$，$B$ 共线，所以 $AB\\perp AC$，即 $\\angle BAC=90^\\circ$. 因而\r\n\n$$\n\\angle DAC=\\angle BAC-\\angle BAD=45^\\circ\n$$\n\r\n在三角形 $ABC$ 中，\r\n\n$$\n\\angle ACB=180^\\circ-\\angle BAC-\\angle ABC=45^\\circ\n$$\n\r\n由于 $D$ 在 $BC$ 上，$\\angle ACD=\\angle ACB=45^\\circ$. 所以在三角形 $ADC$ 中，$\\angle DAC=\\angle ACD$，从而 $DC=AD$. 结合 $BD=AD$，得到 $BD=DC$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "已知长方体 $ABCD-A'B'C'D'$ 的对角线 $AC'$ 与 $A'C$ 的夹角 $\\angle AOC=120^\\circ$，底面边长 $AB=4\\mathrm{~cm}$，$BC=3\\mathrm{~cm}$. 求此长方体的体积.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/qinghai/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "设长方体的体对角线交点为 $O$，令 $h=C'C$. 因为 $A$，$O$，$C'$ 共线且 $OA$、$OC'$ 是反向射线，所以\r\n\n$$\n\\angle COC'=180^\\circ-\\angle AOC=60^\\circ\n$$\n\r\n点 $O$ 是长方体的中心，中心到各个顶点的距离相等，故 $OC=OC'$. 在等腰三角形 $OCC'$ 中，顶角为 $60^\\circ$，所以\r\n\n$$\n\\angle OC'C=\\angle OCC'=60^\\circ\n$$\n\r\n又因 $A$，$O$，$C'$ 共线，故 $\\angle AC'C=60^\\circ$. 底面内的对角线 $AC$ 垂直于棱 $CC'$，所以三角形 $ACC'$ 在 $C$ 点为直角，进而\r\n$\\angle C'AC=90^\\circ-\\angle AC'C=30^\\circ$，$AC'=2C'C=2h$.\r\n\r\n底面对角线长为\r\n\n$$\nAC=\\sqrt{AB^2+BC^2}=\\sqrt{4^2+3^2}=5\\mathrm{~cm}\n$$\n\r\n在直角三角形 $ACC'$ 中使用勾股定理，得\r\n\n$$\n(2h)^2=5^2+h^2\n$$\n\r\n所以 $3h^2=25$，长度取正值，得\r\n\n$$\nh=\\frac{5\\sqrt{3}}{3}\\mathrm{~cm}\n$$\n\r\n长度取正值，所以舍去负平方根. 因而长方体的体积为\r\n\n$$\nV=AB\\times BC\\times C'C\r\n =4\\times3\\times\\frac{5\\sqrt{3}}{3}\r\n =20\\sqrt{3}\\mathrm{~cm}^3\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "求下列函数的定义域：\r\n\r\n\n(1) $y=\\frac{7x}{x+1}$.\n\n(2) $y=\\frac{1}{\\sqrt{2-x}}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 分式有意义的条件是分母不为零，即 $x+1\\neq0$. 所以 $x\\neq-1$，定义域为\r\n    $\\{x\\in\\mathbb{R}\\mid x\\neq-1\\}$.\n\n(2) 根式有意义要求 $2-x\\geqslant0$，但它在分母中，故还必须有 $\\sqrt{2-x}\\neq0$. 合并得\r\n    $2-x>0$，即 $x<2$. 所以定义域为 $\\{x\\in\\mathbb{R}\\mid x<2\\}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "化简：$\\left( 27a^{\\frac{5}{2}}\\sqrt{ab^{-\\frac{1}{3}}\\sqrt[4]{b^{\\frac{4}{3}}}} \\right)^{\\frac{1}{3}}$（$b\\neq0$）.",
+          "choices": [],
+          "answer": "",
+          "solution": "以下按实数范围讨论. 因为 $a^{\\frac{5}{2}}$ 为实数，必须有 $a\\geqslant0$. 先考虑 $b>0$. 此时\r\n$\\sqrt[4]{b^{\\frac{4}{3}}}=b^{\\frac{1}{3}}$，$b^{-\\frac{1}{3}}\\sqrt[4]{b^{\\frac{4}{3}}}=1$.\r\n所以\r\n\n$$\n\\text{原式}=\\left(27a^{\\frac{5}{2}}\\sqrt{a}\\right)^{\\frac{1}{3}}\r\n =\\left(27a^3\\right)^{\\frac{1}{3}}=3a\n$$\n\r\n\r\n若 $b<0$，令 $t=\\sqrt[3]{b}<0$. 则\r\n\n$$\nb^{-\\frac{1}{3}}\\sqrt[4]{b^{\\frac{4}{3}}}\r\n =\\frac{1}{t}\\sqrt[4]{t^4}\r\n =\\frac{|t|}{t}=-1\n$$\n\r\n根式中的被开方数为 $-a$. 结合前面的 $a\\geqslant0$，要使该根式为实数只能有 $a=0$，此时原式等于 $0=3a$. 因而在题设的实数定义范围内，原式统一化简为\r\n\n$$\n3a\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "计算：$\\lg14-2\\lg\\frac{7}{3}+\\lg7-\\lg18$.",
+          "choices": [],
+          "answer": "",
+          "solution": "各对数的真数均为正，可以使用对数的运算性质. 由\r\n$\\lg14=\\lg2+\\lg7$，$2\\lg\\frac{7}{3}=2\\left(\\lg7-\\lg3\\right)$，$\\lg18=\\lg\\left(2\\times3^2\\right)=\\lg2+2\\lg3$.\r\n可得\r\n\n$$\n\\text{原式}=\\left(\\lg2-\\lg2\\right)+\\left(\\lg7-2\\lg7+\\lg7\\right)\r\n +\\left(2\\lg3-2\\lg3\\right)=0\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "求 $\\sin435^\\circ$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "利用正弦函数的周期性，\r\n\n$$\n\\sin435^\\circ=\\sin\\left(360^\\circ+75^\\circ\\right)=\\sin75^\\circ\n$$\n\r\n再用正弦的和角公式，\r\n\n$$\n\\sin75^\\circ=\\sin\\left(45^\\circ+30^\\circ\\right)\r\n =\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ\n$$\n\r\n\n$$\n\\sin75^\\circ=\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{3}}{2}\r\n +\\frac{\\sqrt{2}}{2}\\cdot\\frac{1}{2}\r\n =\\frac{\\sqrt{6}+\\sqrt{2}}{4}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "(1) 当锐角 $\\theta$ 为何值时，方程 $\\left( 3\\sin\\theta \\right)x^2-\\left( 4\\cos\\theta \\right)x+2=0$ 有两个相等的实数根？\n\n(2) 并求出这个方程的实数根.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $\\theta$ 是锐角，所以 $\\sin\\theta>0$，方程确实是关于 $x$ 的二次方程. 它有两个相等的实数根，当且仅当判别式为零：\r\n    \n$$\n\\left(-4\\cos\\theta\\right)^2-4\\left(3\\sin\\theta\\right)\\cdot2=0\n$$\n\r\n    整理得\r\n    \n$$\n16\\cos^2\\theta-24\\sin\\theta=0\r\n     \\Longleftrightarrow \r\n    2\\cos^2\\theta-3\\sin\\theta=0\n$$\n\r\n    令 $s=\\sin\\theta$，并使用 $\\cos^2\\theta=1-s^2$，则\r\n    \n$$\n2(1-s^2)-3s=0\r\n     \\Longleftrightarrow \r\n    2s^2+3s-2=0\r\n     \\Longleftrightarrow \r\n    (2s-1)(s+2)=0\n$$\n\r\n    因为 $0<\\sin\\theta<1$，只能取 $s=\\frac{1}{2}$. 锐角范围内正弦函数单调递增，所以 $\\theta=30^\\circ$.\n\n(2) 代入 $\\theta=30^\\circ$，原方程为\r\n    \n$$\n\\frac{3}{2}x^2-2\\sqrt{3}x+2=0\n$$\n\r\n    两边乘以 $2$，并配方得\r\n    \n$$\n3x^2-4\\sqrt{3}x+4=0\r\n     \\Longleftrightarrow \r\n    \\left(\\sqrt{3}x-2\\right)^2=0\n$$\n\r\n    因而两个相等的实数根都是\r\n    \n$$\nx=\\frac{2}{\\sqrt{3}}=\\frac{2\\sqrt{3}}{3}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "求经过抛物线 $y^2=-2x$ 的焦点，且与直线 $2x-y-1=0$ 垂直的直线方程.",
+          "choices": [],
+          "answer": "",
+          "solution": "抛物线的标准形式为 $y^2=2px$. 与 $y^2=-2x$ 对比得 $p=-1$，所以其焦点为\r\n\n$$\nF\\left(\\frac{p}{2},0\\right)=\\left(-\\frac{1}{2},0\\right)\n$$\n\r\n已知直线可写为 $y=2x-1$，斜率为 $2$. 所求直线与它垂直，故斜率为 $-\\frac{1}{2}$. 由点斜式，所求直线满足\r\n\n$$\ny=-\\frac{1}{2}\\left(x+\\frac{1}{2}\\right)\n$$\n\r\n化为一般式得\r\n\n$$\n2x+4y+1=0\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "今年，我省香日德农场春小麦亩产达 $1765.5$ 斤，创全国春小麦亩产新记录，在大治之年作出了贡献. 我省在 $1971$ 年开始出现亩产 $1000$ 斤的高产田. 从 $1971$ 年的高产量 $1000$ 斤到今年的创记录产量 $1765.5$ 斤，平均每年的增长率是多少？（已知 $\\lg1.766=0.2470$，已知由 $\\lg A=0.0412$ 得 $A=1.100$）",
+          "choices": [],
+          "answer": "",
+          "solution": "从 $1971$ 年到今年 $1977$ 年共有 $6$ 个年度增长区间. 设平均每年的增长率为 $x$，则今年的产量满足\r\n\n$$\n1000(1+x)^6=1765.5\n$$\n\r\n因此\r\n\n$$\n(1+x)^6=1.7655\\approx1.766\n$$\n\r\n两边取常用对数，利用题设数据得\r\n$6\\lg(1+x)=\\lg1.766=0.2470$，$\\lg(1+x)=\\frac{0.2470}{6}=0.0412$.\r\n题设又给出 $\\lg A=0.0412$ 时 $A=1.100$，所以\r\n$1+x=1.100$，$x=0.100=10.0\\%$.\r\n由于产量数据在计算中作了近似，平均每年的增长率约为 $10.0\\%$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "参考题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "若齐次线性方程组\r\n$\\begin{cases}\r\nx+ay+a^2z=0,\\\\\r\nax+a^2y+z=0,\\\\\r\na^2x+y+az=0\r\n\\end{cases}$\r\n有非零解，那末 $a$ 应为何值？",
+          "choices": [],
+          "answer": "",
+          "solution": "把方程组的系数矩阵记为 $M$. 齐次线性方程组有非零解的充要条件是系数行列式为零，因此\r\n\n$$\n\\det M=\r\n\\begin{vmatrix}\r\n1&a&a^2\\\\\r\na&a^2&1\\\\\r\na^2&1&a\r\n\\end{vmatrix}=0\n$$\n\r\n按第一行展开，\r\n\n$$\n\\det M\r\n=a^3-1-a\\left(a^2-a^2\\right)+a^2\\left(a-a^4\\right)\r\n=2a^3-a^6-1\n$$\n\r\n所以\r\n\n$$\n2a^3-a^6-1=0\r\n \\Longleftrightarrow \r\n\\left(a^3-1\\right)^2=0\n$$\n\r\n从而 $a^3=1$. 在实数范围内，$a=1$. 代入时三个方程都化为 $x+y+z=0$，例如 $(x,y,z)=(1,-1,0)$ 是非零解，故该值确实满足题意.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "试求由曲线 $y=2\\cos x$ 之一半被与 $y=0$ 围成的面积绕 $ox$ 轴旋转所产生的立体的体积.",
+          "choices": [],
+          "answer": "",
+          "solution": "曲线与 $x$ 轴的相邻交点满足 $2\\cos x=0$，取围成中间区域的两个交点\r\n$x=-\\frac{\\pi}{2}$ 和 $x=\\frac{\\pi}{2}$. 旋转后在位置 $x$ 处的截面是半径为 $y=2\\cos x$ 的圆，所以\r\n\n$$\nV=\\pi\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}y^2\\,\\mathrm{d}x\r\n=4\\pi\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\cos^2x\\,\\mathrm{d}x\n$$\n\r\n利用恒等式 $\\cos^2x=\\frac{1+\\cos2x}{2}$，得\r\n\n$$\nV=2\\pi\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\left(1+\\cos2x\\right)\\,\\mathrm{d}x\r\n=\\left(2\\pi x+\\pi\\sin2x\\right)\\bigg|_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\n$$\n\r\n代入上下限时，$\\sin\\pi=\\sin(-\\pi)=0$，因此\r\n\n$$\nV=2\\pi\\left(\\frac{\\pi}{2}-\\left(-\\frac{\\pi}{2}\\right)\\right)=2\\pi^2\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

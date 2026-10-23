@@ -1,0 +1,416 @@
+{
+  "year": "2007",
+  "slug": "fujian_science",
+  "title": "2007年福建卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "复数 $\\frac{1}{(1 + \\mathrm{i})^2}$ 等于（ ）",
+          "choices": [
+            "$\\frac{1}{2}$",
+            "$-\\frac{1}{2}$",
+            "$\\frac{1}{2}\\mathrm{i}$",
+            "$-\\frac{1}{2}\\mathrm{i}$"
+          ],
+          "answer": "D",
+          "solution": "由\r\n\n$$\n(1+\\mathrm{i})^2=1+2\\mathrm{i}+\\mathrm{i}^2=2\\mathrm{i}\n$$\n\r\n得\r\n\n$$\n\\frac{1}{(1+\\mathrm{i})^2}=\\frac{1}{2\\mathrm{i}}=-\\frac{1}{2}\\mathrm{i}\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，若 $a_{n} = \\frac{1}{n(n + 1)}$，则 $S_{5}$ 等于（ ）",
+          "choices": [
+            "$1$",
+            "$\\frac{5}{6}$",
+            "$\\frac{1}{6}$",
+            "$\\frac{1}{30}$"
+          ],
+          "answer": "B",
+          "solution": "因为\r\n\n$$\n\\frac{1}{n(n+1)}=\\frac{1}{n}-\\frac{1}{n+1}\n$$\n\r\n所以\r\n\n$$\nS_5=\\sum_{n=1}^{5}\\left(\\frac{1}{n}-\\frac{1}{n+1}\\right)=1-\\frac{1}{6}=\\frac{5}{6}\n$$\n\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "已知集合 $A = \\{x \\mid x < a\\}$，$B = \\{x \\mid 1 < x < 2\\}$，且 $A \\cup (\\complement_{\\mathbb{R}} B) = \\mathbb{R}$，则实数 $a$ 的取值范围是（ ）",
+          "choices": [
+            "$a \\le 1$",
+            "$a < 1$",
+            "$a \\ge 2$",
+            "$a > 2$"
+          ],
+          "answer": "C",
+          "solution": "由 $A\\cup(\\complement_{\\mathbb{R}}B)=\\mathbb{R}$，对任意 $x\\in B$，因为 $x\\notin\\complement_{\\mathbb{R}}B$，必有 $x\\in A$，故 $B\\subset A$. 反过来，若 $B\\subset A$，则 $A\\cup(\\complement_{\\mathbb{R}}B)=\\mathbb{R}$. 因此题设等价于 $(1,2)\\subset(-\\infty,a)$. 这要求且只要求 $a\\geqslant2$：当 $a\\geqslant2$ 时任意 $x\\in(1,2)$ 都满足 $x<a$；当 $a<2$ 时可取充分接近 $2$ 且大于 $a$ 的 $x\\in(1,2)$，此时 $x\\notin A$. 故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "对于向量 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 和实数 $\\lambda$，下列命题中真命题的是（ ）",
+          "choices": [
+            "若 $\\mathbf{a} \\cdot \\mathbf{b} = 0$，则 $\\mathbf{a} = 0$ 或 $\\mathbf{b} = 0$",
+            "若 $\\lambda\\mathbf{a} = 0$，则 $\\lambda = 0$ 或 $\\mathbf{a} = 0$",
+            "若 $\\mathbf{a}^2 = \\mathbf{b}^2$，则 $\\mathbf{a} = \\mathbf{b}$ 或 $\\mathbf{a} = -\\mathbf{b}$",
+            "若 $\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{a} \\cdot \\mathbf{c}$，则 $\\mathbf{b} = \\mathbf{c}$"
+          ],
+          "answer": "B",
+          "solution": "命题 A 不正确，例如取 $\\mathbf{a}=(1,0)$，$\\mathbf{b}=(0,1)$，则 $\\mathbf{a}\\cdot\\mathbf{b}=0$，但 $\\mathbf{a}$，$\\mathbf{b}$ 均不是零向量. 命题 B 正确，因为若 $\\lambda\\mathbf{a}=0$，当 $\\lambda\\neq0$ 时两边同除以 $\\lambda$ 得 $\\mathbf{a}=0$，所以必有 $\\lambda=0$ 或 $\\mathbf{a}=0$. 命题 C 不正确，例如 $\\mathbf{a}=(1,0)$，$\\mathbf{b}=(0,1)$ 的长度相等，但 $\\mathbf{a}\\neq\\mathbf{b}$ 且 $\\mathbf{a}\\neq-\\mathbf{b}$. 命题 D 不正确，例如取 $\\mathbf{a}=(1,0)$，$\\mathbf{b}=(0,0)$，$\\mathbf{c}=(0,1)$，则 $\\mathbf{a}\\cdot\\mathbf{b}=\\mathbf{a}\\cdot\\mathbf{c}=0$，但 $\\mathbf{b}\\neq\\mathbf{c}$. 故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "已知函数 $f(x) = \\sin \\left( \\omega x + \\frac{\\pi}{3} \\right)$（$\\omega > 0$）的最小正周期为 $\\pi$，则该函数的图象（ ）",
+          "choices": [
+            "关于点 $\\left(\\frac{\\pi}{3}, 0\\right)$ 对称",
+            "关于直线 $x = \\frac{\\pi}{4}$ 对称",
+            "关于点 $\\left(\\frac{\\pi}{4}, 0\\right)$ 对称",
+            "关于直线 $x = \\frac{\\pi}{3}$ 对称"
+          ],
+          "answer": "A",
+          "solution": "函数的最小正周期为 $\\dfrac{2\\pi}{\\omega}=\\pi$，所以 $\\omega=2$，即 $f(x)=\\sin\\left(2x+\\dfrac{\\pi}{3}\\right)$. 其图象与 $x$ 轴的交点满足\r\n$2x+\\frac{\\pi}{3}=k\\pi$，$x=\\frac{k\\pi}{2}-\\frac{\\pi}{6}$，（$k\\in\\mathbb{Z}$）.\r\n取 $k=1$，得交点 $\\left(\\dfrac{\\pi}{3},0\\right)$. 正弦曲线关于这些交点中心对称，因此选项 A 正确. 其对称轴满足 $2x+\\dfrac{\\pi}{3}=\\dfrac{\\pi}{2}+k\\pi$，即 $x=\\dfrac{\\pi}{12}+\\dfrac{k\\pi}{2}$，既不为 $\\dfrac{\\pi}{4}$，也不为 $\\dfrac{\\pi}{3}$；而 $f\\left(\\dfrac{\\pi}{4}\\right)=\\dfrac12\\neq0$，选项 C 也不正确. 故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "以双曲线 $\\frac{x^2}{9} - \\frac{y^2}{16} = 1$ 的右焦点为圆心，且与其渐近线相切的圆的方程是（ ）",
+          "choices": [
+            "$x^{2} + y^{2} - 10x + 9 = 0$",
+            "$x^{2} + y^{2} - 10x + 16 = 0$",
+            "$x^{2} + y^{2} + 10x + 16 = 0$",
+            "$x^{2} + y^{2} + 10x + 9 = 0$"
+          ],
+          "answer": "A",
+          "solution": "双曲线的半实轴长和半虚轴长分别为 $3$ 和 $4$，所以焦半距为\r\n\n$$\nc=\\sqrt{3^2+4^2}=5\n$$\n\r\n右焦点为 $F(5,0)$，其渐近线为 $y=\\pm\\dfrac{4}{3}x$. 取渐近线 $4x-3y=0$，焦点到该直线的距离为\r\n\n$$\nr=\\frac{|4\\times5-3\\times0|}{\\sqrt{4^2+(-3)^2}}=4\n$$\n\r\n因此圆的圆心为 $(5,0)$，半径为 $4$，方程为\r\n\n$$\n(x-5)^2+y^2=4^2\n$$\n\r\n即 $x^2+y^2-10x+9=0$. 故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知 $f(x)$ 为 $\\mathbb{R}$ 上的减函数，则满足 $f\\left(\\left|\\frac{1}{x}\\right|\\right) < f(1)$ 的实数 $x$ 的取值范围是（ ）",
+          "choices": [
+            "$(-1, 1)$",
+            "$(0,1)$",
+            "$(-1,0)\\cup (0,1)$",
+            "$(-\\infty, -1) \\cup (1, +\\infty)$"
+          ],
+          "answer": "C",
+          "solution": "函数 $f$ 在 $\\mathbb{R}$ 上为严格减函数，所以\r\n\n$$\nf\\left(\\left|\\frac{1}{x}\\right|\\right)<f(1)\r\n\\Longleftrightarrow \\left|\\frac{1}{x}\\right|>1\n$$\n\r\n这里必须有 $x\\neq0$，且 $\\left|\\dfrac{1}{x}\\right|>1$ 等价于 $0<|x|<1$. 因而 $x$ 的取值范围为 $(-1,0)\\cup(0,1)$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "已知 $m$，$n$ 为两条不同的直线，$\\alpha$，$\\beta$ 为两个不同的平面，则下列命题中正确的是（ ）",
+          "choices": [
+            "$m \\subset \\alpha$，$n \\subset \\alpha$，$m \\parallel \\beta$，$n \\parallel \\beta \\Rightarrow \\alpha \\parallel \\beta$",
+            "$\\alpha \\parallel \\beta$，$m \\subset \\alpha$，$n \\subset \\beta \\Rightarrow m \\parallel n$",
+            "$m \\perp \\alpha$，$m \\perp n \\Rightarrow n \\parallel \\alpha$",
+            "$n \\parallel m$，$n \\subset \\alpha \\Rightarrow m \\perp \\alpha$"
+          ],
+          "answer": "无正确选项（按原 PDF 题面及线面平行的通常定义）",
+          "solution": "逐项检验. 命题 A 不成立：取相交平面 $\\alpha\\colon y=0$，$\\beta\\colon z=0$，在 $\\alpha$ 内取两条沿 $x$ 轴方向、分别位于 $z=1$ 与 $z=2$ 的直线，则它们都与 $\\beta$ 无公共点而平行于 $\\beta$，但 $\\alpha$ 与 $\\beta$ 相交. 命题 B 不成立：取 $\\alpha\\colon z=0$，$\\beta\\colon z=1$，在 $\\alpha$ 内取沿 $x$ 轴方向的直线 $m$，在 $\\beta$ 内取沿 $y$ 轴方向的直线 $n$，虽有 $\\alpha\\parallel\\beta$，但 $m\\not\\parallel n$.\r\n\r\n命题 C 也不成立. 取 $\\alpha\\colon z=0$，取 $m$ 为 $z$ 轴，取 $n$ 为 $x$ 轴，则 $m\\perp\\alpha$ 且 $m\\perp n$，但 $n\\subset\\alpha$，按直线与平面平行的通常定义，$n$ 不平行于 $\\alpha$. 命题 D 不成立：仍取 $\\alpha\\colon z=0$，令 $n\\colon y=z=0$，令 $m\\colon\\begin{cases}\r\ny=1,\\\\\r\nz=1\r\n\\end{cases}$，则 $n\\parallel m$、$n\\subset\\alpha$，但 $m$ 的方向平行于 $\\alpha$，故 $m\\not\\perp\\alpha$. 命题 C、D 中均可另取 $\\beta\\colon z=1$，使两个平面不同，且上述反例中的两条直线均不同；题设未排除命题 C 中直线位于平面内的情形. 因此按原 PDF 的题面和通常定义，四个命题均不成立，本题无正确选项.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "把 $1 + (1 + x) + (1 + x)^2 + \\cdots + (1 + x)^n$ 展开成关于 $x$ 的多项式，其各项系数和为 $a_n$，则 $\\lim\\limits_{n \\to \\infty} \\frac{2a_n - 1}{a_n + 1}$ 等于（ ）",
+          "choices": [
+            "$\\frac{1}{4}$",
+            "$\\frac{1}{2}$",
+            "$1$",
+            "$2$"
+          ],
+          "answer": "D",
+          "solution": "多项式各项系数之和等于令 $x=1$ 时的值，因此\r\n\n$$\na_n=1+2+2^2+\\cdots+2^n=2^{n+1}-1\n$$\n\r\n于是\r\n\n$$\n\\lim_{n\\to\\infty}\\frac{2a_n-1}{a_n+1}\r\n =\\lim_{n\\to\\infty}\\frac{2^{n+2}-3}{2^{n+1}}=2\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "顶点在同一球面上的正四棱柱 $ABCD - A'B'C'D'$ 中，$AB = 1$，$AA' = \\sqrt{2}$，则 $A$，$C$ 两点间的球面距离为（ ）",
+          "choices": [
+            "$\\frac{\\pi}{4}$",
+            "$\\frac{\\pi}{2}$",
+            "$\\frac{\\sqrt{2}}{4}\\pi$",
+            "$\\frac{\\sqrt{2}}{2}\\pi$"
+          ],
+          "answer": "B",
+          "solution": "设该正四棱柱外接球的球心为 $O$. 正四棱柱的空间对角线为\r\n\n$$\nAC'=\\sqrt{AB^2+BC^2+AA'^2}=\\sqrt{1+1+2}=2\n$$\n\r\n故外接球半径为 $R=1$. 设球心角 $\\angle AOC=\\theta$，则弦长 $AC=\\sqrt2$ 满足\r\n\n$$\n\\sqrt2=2R\\sin\\frac{\\theta}{2}=2\\sin\\frac{\\theta}{2}\n$$\n\r\n由于 $0\\le\\theta\\le\\pi$，得 $\\theta=\\dfrac\\pi2$. 球面距离等于半径乘以对应的圆心角，所以所求距离为 $R\\theta=\\dfrac\\pi2$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "已知对任意实数 $x$，有 $f(-x) = -f(x)$，$g(-x) = g(x)$，且 $x > 0$ 时，$f'(x) > 0$，$g'(x) > 0$，则 $x < 0$ 时，（ ）",
+          "choices": [
+            "$f'(x) > 0$，$g'(x) > 0$",
+            "$f^{\\prime}(x) > 0$，$g^{\\prime}(x) < 0$",
+            "$f^{\\prime}(x) < 0$，$g^{\\prime}(x) > 0$",
+            "$f^{\\prime}(x) < 0$，$g^{\\prime}(x) < 0$"
+          ],
+          "answer": "B",
+          "solution": "由 $f(-x)=-f(x)$，对等式两边求导得 $f'(-x)=f'(x)$，所以 $f'$ 为偶函数. 由 $g(-x)=g(x)$，求导得 $g'(-x)=-g'(x)$，所以 $g'$ 为奇函数. 当 $x<0$ 时，$-x>0$，故 $f'(x)=f'(-x)>0$，$g'(x)=-g'(-x)<0$.\r\n因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "将 $9$ 个数 $a_{ij}$（$i = 1$，$2$，$3$，$j = 1$，$2$，$3$）排成三行三列的方阵，从中任取三个数，则至少有两个数位于同行或同列的概率是（ ）",
+          "choices": [
+            "$\\frac{3}{7}$",
+            "$\\frac{4}{7}$",
+            "$\\frac{1}{14}$",
+            "$\\frac{13}{14}$"
+          ],
+          "answer": "D",
+          "solution": "从 $9$ 个数中任取 $3$ 个，共有\r\n\n$$\n\\mathrm C_9^3=84\n$$\n\r\n种取法. 若任取的三个数没有两个位于同行或同列，则三个数必须分别位于三行，且也分别位于三列. 这相当于把三列与三行一一对应，共有 $3!=6$ 种取法. 所以至少有两个数位于同行或同列的取法数为 $84-6=78$，其概率为\r\n\n$$\n\\frac{78}{84}=\\frac{13}{14}\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "已知实数 $x$，$y$ 满足 $\\begin{cases}\r\nx + y \\ge 2,\\\\\r\nx - y \\le 2,\\\\\r\n0 \\le y \\le 3,\r\n\\end{cases}$ 则 $z = 2x - y$ 的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left[-5, 7\\right]\\)",
+          "solution": "由题设得\r\n$x\\geqslant2-y$，$x\\leqslant2+y$，$0\\le y\\leqslant3$\r\n对固定的 $y$，因为 $z=2x-y$ 随 $x$ 增大而增大，所以\r\n\n$$\n2(2-y)-y\\le z\\leqslant2(2+y)-y\n$$\n\r\n即\r\n\n$$\n4-3y\\le z\\leqslant4+y\n$$\n\r\n当 $y=3$ 且 $x=2-y=-1$ 时，取得最小值 $z=-5$；当 $y=3$ 且 $x=2+y=5$ 时，取得最大值 $z=7$. 可行域为凸集，线性函数 $z=2x-y$ 的值域为区间，因此 $z$ 的取值范围是 $[-5,7]$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "已知正方形 $ABCD$，则以 $A$，$B$ 为焦点，且过 $C$，$D$ 两点的椭圆的离心率为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\sqrt{2} - 1\\)",
+          "solution": "设正方形边长为 $s$，椭圆的半焦距为 $c$，半长轴为 $a$. 由于焦点为相邻顶点 $A$，$B$，有\r\n$2c=AB=s$，$c=\\frac{s}{2}$\r\n点 $C$ 在椭圆上，且 $CA=s\\sqrt2$，$CB=s$，所以椭圆定义给出\r\n\n$$\n2a=CA+CB=s\\sqrt2+s=s(\\sqrt2+1)\n$$\n\r\n因此离心率为\r\n\n$$\ne=\\frac{c}{a}=\\frac{1}{\\sqrt2+1}=\\sqrt2-1\n$$\n\r\n又 $DA=BC=s$，$DB=AC=s\\sqrt2$，所以 $DA+DB=s(\\sqrt2+1)=2a$，故点 $D$ 也在该椭圆上. 因此所求离心率为 $\\sqrt2-1$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "两封信随机投入 $A$，$B$，$C$ 三个空邮箱，则 $A$ 邮箱的信件数 $\\xi$ 的数学期望 $E(\\xi) = _______ {}$.",
+          "choices": [],
+          "answer": "\\(\\frac{2}{3}\\)",
+          "solution": "设两封信分别为第一个和第二个投递结果，令 $I_1$，$I_2$ 分别表示该封信投入邮箱 $A$ 的示性变量，则 $\\xi=I_1+I_2$. 每封信投入 $A$ 的概率均为 $\\dfrac13$，所以\r\n\n$$\nE(I_1)=E(I_2)=\\frac13\n$$\n\r\n由数学期望的线性性质，\r\n\n$$\nE(\\xi)=E(I_1)+E(I_2)=\\frac13+\\frac13=\\frac23\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "中学数学中存在许多关系，比如“相等关系”，“平行关系”等等. 如果集合 $A$ 中元素之间的一个关系“$\\sim$”满足以下三个条件：\r\n\r\n\\begin{circlelist}\r\n\\item 自反性：对于任意 $a \\in A$，都有 $a \\sim a$；\r\n\\item 对称性：对于 $a$，$b \\in A$，若 $a \\sim b$，则有 $b \\sim a$；\r\n\\item 传递性：对于 $a$，$b$，$c \\in A$，若 $a \\sim b$，$b \\sim c$，则有 $a \\sim c$.\r\n\\end{circlelist}\r\n\r\n则称“$\\sim$”是集合 $A$ 的一个等价关系. 例如：“数的相等”是等价关系，而“直线的平行”不是等价关系（自反性不成立）. 请你再列出三个等价关系： _______ {}.",
+          "choices": [],
+          "answer": "图形的全等、图形的相似、非零向量的共线",
+          "solution": "图形的全等关系具有自反性、对称性和传递性：任一图形与自身全等；若图形 $X$ 与图形 $Y$ 全等，则图形 $Y$ 与图形 $X$ 全等；若图形 $X$ 与图形 $Y$ 全等且图形 $Y$ 与图形 $Z$ 全等，则图形 $X$ 与图形 $Z$ 全等. 因而图形的全等是等价关系. 图形的相似关系也满足三个条件：任一图形与自身相似；若图形 $X$ 与图形 $Y$ 相似，则图形 $Y$ 与图形 $X$ 相似；若图形 $X$ 与图形 $Y$ 相似且图形 $Y$ 与图形 $Z$ 相似，则图形 $X$ 与图形 $Z$ 相似. 因而图形的相似也是等价关系. 对非零向量，若 $\\mathbf{a}\\sim\\mathbf{b}$ 表示两向量共线，则 $\\mathbf{a}=\\lambda\\mathbf{b}$，其中 $\\lambda\\neq0$，所以自反性成立；又有 $\\mathbf{b}=\\lambda^{-1}\\mathbf{a}$，所以对称性成立；若 $\\mathbf{a}=\\lambda\\mathbf{b}$，$\\mathbf{b}=\\mu\\mathbf{c}$，则 $\\mathbf{a}=\\lambda\\mu\\mathbf{c}$，且 $\\lambda\\mu\\neq0$，故传递性也成立. 所以图形的全等、图形的相似、非零向量的共线均为等价关系.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "在 $\\triangle ABC$ 中，$\\tan A = \\frac{1}{4}$，$\\tan B = \\frac{3}{5}$.\r\n\r\n\n(1) 求角 $C$ 的大小；\n\n(2) 若 $AB$ 边的长为 $\\sqrt{17}$，求 $BC$ 边的长.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由于 $A$，$B$ 是三角形的内角，且 $\\tan A$，$\\tan B$ 均为正数，所以 $A$，$B$ 均为锐角. 因而\r\n\n$$\n\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}\r\n=\\frac{\\frac{1}{4}+\\frac{3}{5}}{1-\\frac{1}{4}\\cdot\\frac{3}{5}}=1\n$$\n\r\n又 $0<A+B<\\pi$，且 $\\tan(A+B)=1>0$，所以 $A+B$ 不可能在 $(\\frac{\\pi}{2},\\pi)$ 内，只能为锐角. 因而 $A+B=\\frac{\\pi}{4}$，从而\r\n\n$$\nC=\\pi-A-B=\\frac{3\\pi}{4}\n$$\n\n(2) 由 $\\tan A=\\frac{1}{4}$ 及 $A$ 为锐角，得\r\n$\\sin A=\\frac{1}{\\sqrt{17}}$，$\\sin C=\\sin\\frac{3\\pi}{4}=\\frac{\\sqrt{2}}{2}$.\r\n由正弦定理，\r\n\n$$\n\\frac{BC}{\\sin A}=\\frac{AB}{\\sin C}\n$$\n\r\n所以\r\n\n$$\nBC=\\sqrt{17}\\cdot\\frac{\\sin A}{\\sin C}\r\n=\\sqrt{17}\\cdot\\frac{\\frac{1}{\\sqrt{17}}}{\\frac{\\sqrt{2}}{2}}=\\sqrt{2}\n$$\n\r\n故 $BC=\\sqrt{2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 的所有棱长都为 $2$，$D$ 为 $CC_{1}$ 中点.\r\n\r\n\n(1) 求证：$AB_{1} \\perp$ 平面 $A_{1}BD$；\n\n(2) 求二面角 $A - A_1D - B$ 的大小；\n\n(3) 求点 $C$ 到平面 $A_{1}BD$ 的距离.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/fujian_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "建立空间直角坐标系，取点 $A(0,0,0)$，$B(2,0,0)$，$C(1,\\sqrt{3},0)$，$A_{1}(0,0,2)$，$B_{1}(2,0,2)$，$C_{1}(1,\\sqrt{3},2)$.\r\n由 $D$ 为 $CC_{1}$ 的中点，得 $D(1,\\sqrt{3},1)$.\r\n\r\n\n(1) 由坐标可得\r\n$\\overrightarrow{AB_{1}}=(2,0,2)$，$\\overrightarrow{A_{1}B}=(2,0,-2)$，$\\overrightarrow{A_{1}D}=(1,\\sqrt{3},-1)$. 于是 $\\overrightarrow{AB_{1}}\\cdot\\overrightarrow{A_{1}B}=4-4=0$，$\\overrightarrow{AB_{1}}\\cdot\\overrightarrow{A_{1}D}=2-2=0$.\r\n直线 $A_{1}B$，$A_{1}D$ 是平面 $A_{1}BD$ 内相交的两条直线，所以\r\n直线 $AB_{1}$ 垂直于平面 $A_{1}BD$.\n\n(2) 二面角 $A-A_1D-B$ 的棱为 $A_1D$，两侧半平面分别在平面 $AA_1D$ 和 $A_1BD$ 内，且分别含点 $A$ 和点 $B$. 令 $\\mathbf{e}=\\overrightarrow{A_1D}=(1,\\sqrt{3},-1)$，$\\mathbf{a}=\\overrightarrow{A_1A}=(0,0,-2)$，$\\mathbf{b}=\\overrightarrow{A_1B}=(2,0,-2)$. 将后两向量向垂直于棱的平面投影，得到分别朝向两个半平面内部的向量\r\n\n$$\n\\mathbf{u}=\\mathbf{a}-\\frac{\\mathbf{a}\\cdot\\mathbf{e}}{|\\mathbf{e}|^2}\\mathbf{e}\r\n=\\mathbf{a}-\\frac{2}{5}\\mathbf{e}\r\n=\\left(-\\frac{2}{5},-\\frac{2\\sqrt{3}}{5},-\\frac{8}{5}\\right)\n$$\n\r\n及\r\n\n$$\n\\mathbf{v}=\\mathbf{b}-\\frac{\\mathbf{b}\\cdot\\mathbf{e}}{|\\mathbf{e}|^2}\\mathbf{e}\r\n=\\mathbf{b}-\\frac{4}{5}\\mathbf{e}\r\n=\\left(\\frac{6}{5},-\\frac{4\\sqrt{3}}{5},-\\frac{6}{5}\\right)\n$$\n\r\n由 $\\mathbf{u}\\cdot\\mathbf{v}=\\frac{12}{5}>0$，$|\\mathbf{u}|^2=\\frac{16}{5}$，$|\\mathbf{v}|^2=\\frac{24}{5}$，得这两个非零向量的夹角就是所求二面角的平面角 $\\theta$，且为锐角. 因而 $\\cos\\theta=\\frac{\\frac{12}{5}}{\\sqrt{\\frac{16}{5}}\\sqrt{\\frac{24}{5}}}=\\frac{\\sqrt{6}}{4}$，故 $\\theta=\\arccos\\frac{\\sqrt{6}}{4}$.\n\n(3) 由\r\n\n$$\n\\overrightarrow{A_{1}B}\\times\\overrightarrow{A_{1}D}=(2\\sqrt{3},0,2\\sqrt{3})\n$$\n\r\n可取平面 $A_{1}BD$ 的法向量为 $(1,0,1)$. 该平面过点 $A_{1}(0,0,2)$，故其方程为\r\n\n$$\nx+z-2=0\n$$\n\r\n于是点 $C(1,\\sqrt{3},0)$ 到平面 $A_{1}BD$ 的距离为\r\n\n$$\nd=\\frac{|1+0-2|}{\\sqrt{1^{2}+0^{2}+1^{2}}}=\\frac{\\sqrt{2}}{2}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "某分公司经销某种品牌产品，每件产品的成本为 $3\\text{ 元}$，并且每件产品需向总公司交 $a\\text{ 元}$（$3 \\le a \\le 5$）的管理费，预计当每件产品的售价为 $x\\text{ 元}$（$9 \\le x \\le 11$）时，一年的销售量为 $(12 - x)^{2}\\text{ 万件}$.\r\n\r\n\n(1) 求分公司一年的利润 $L$（万元）与每件产品的售价 $x$ 的函数关系式；\n\n(2) 当每件产品的售价为多少元时，分公司一年的利润 $L$ 最大？并求出 $L$ 的最大值 $Q(a)$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 每件产品的利润为售价减去成本和管理费，即 $x-3-a$ 元. 销售量为 $(12-x)^{2}$ 万件，所以年利润为 $L=(x-a-3)(12-x)^{2}$，其中 $9\\le x\\le 11$.\n\n(2) 对 $L$ 求导，得\r\n\n$$\nL'=(12-x)^{2}-2(x-a-3)(12-x)=(12-x)(18+2a-3x)\n$$\n\r\n在 $9\\le x\\le 11$ 时，$12-x>0$，所以极值只由 $18+2a-3x$ 的符号决定. 令\r\n\n$$\nx_{0}=\\frac{18+2a}{3}=6+\\frac{2a}{3}\n$$\n\r\n当 $3\\le a\\le\\frac{9}{2}$ 时，$x_{0}\\le 9$，从而 $L$ 在 $[9,11]$ 上递减，最大值在 $x=9$ 处取得，并且\r\n\n$$\nQ(a)=L(9)=(6-a)\\cdot 3^{2}=54-9a\n$$\n\r\n\r\n当 $\\frac{9}{2}<a\\le 5$ 时，$9<x_{0}<11$，$L$ 在 $[9,x_{0}]$ 上递增，在 $[x_{0},11]$ 上递减，最大值在 $x=x_{0}$ 处取得. 此时 $x_{0}-a-3=3-\\frac{a}{3}=\\frac{9-a}{3}$，$12-x_{0}=6-\\frac{2a}{3}=\\frac{2(9-a)}{3}$，\r\n所以\r\n\n$$\nQ(a)=L(x_{0})=\\frac{9-a}{3}\\left(\\frac{2(9-a)}{3}\\right)^{2}\r\n=\\frac{4(9-a)^{3}}{27}\n$$\n\r\n综上，售价为\r\n\n$$\nx=\\begin{cases}\r\n9,&3\\le a\\le\\frac{9}{2},\\\\\r\n6+\\frac{2a}{3},&\\frac{9}{2}<a\\leqslant5,\r\n\\end{cases}\n$$\n\r\n最大利润为\r\n\n$$\nQ(a)=\\begin{cases}\r\n54-9a,&3\\le a\\le\\frac{9}{2},\\\\\r\n\\frac{4(9-a)^{3}}{27},&\\frac{9}{2}<a\\leqslant5\r\n\\end{cases}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "如图，已知点 $F(1,0)$，直线 $l$：$x = -1$，$P$ 为平面上的动点. 过 $P$ 作直线 $l$ 的垂线，垂足为点 $Q$，且 $\\overrightarrow{QP} \\cdot \\overrightarrow{QF} = \\overrightarrow{FP} \\cdot \\overrightarrow{FQ}$.\r\n\r\n\n(1) 求动点 $P$ 的轨迹 $C$ 的方程；\n\n(2) 过点 $F$ 的直线交轨迹 $C$ 于 $A$，$B$ 两点，交直线 $l$ 于点 $M$，已知 $\\overrightarrow{MA} = \\lambda_1 \\overrightarrow{AF}$，$\\overrightarrow{MB} = \\lambda_2 \\overrightarrow{BF}$，求 $\\lambda_1 + \\lambda_2$ 的值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/fujian_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $P(x,y)$，则垂足为 $Q(-1,y)$. 因而 $\\overrightarrow{QP}=(x+1,0)$，$\\overrightarrow{QF}=(2,-y)$，$\\overrightarrow{FP}=(x-1,y)$，$\\overrightarrow{FQ}=(-2,y)$.\r\n代入题设向量等式，得\r\n\n$$\n2(x+1)=-2(x-1)+y^{2}\n$$\n\r\n化简得 $y^{2}=4x$，所以动点 $P$ 的轨迹 $C$ 的方程为\r\n\n$$\ny^{2}=4x\n$$\n\n(2) 设过 $F$ 的直线方向向量为 $(u,v)$，用参数 $t$ 表示直线上各点：\r\n\n$$\nX(t)=(1+tu,tv)\n$$\n\r\n由于该直线与 $l\\colon x=-1$ 相交，故 $u\\neq0$. 设交点 $M=X(t_{0})$，则由 $1+t_{0}u=-1$，得 $t_{0}=-\\frac{2}{u}$.\r\n直线与抛物线交于 $A=X(t_{1})$，$B=X(t_{2})$. 代入 $y^{2}=4x$，得\r\n\n$$\nv^{2}t^{2}-4ut-4=0\n$$\n\r\n因为有两个交点，所以 $v\\neq0$. 由韦达定理，$t_{1}+t_{2}=\\frac{4u}{v^{2}}$，$t_{1}t_{2}=-\\frac{4}{v^{2}}$，从而 $\\frac{t_{1}+t_{2}}{t_{1}t_{2}}=-u$.\r\n又 $\\overrightarrow{MA}=(t_{1}-t_{0})(u,v)$，$\\overrightarrow{AF}=-t_{1}(u,v)$.\r\n由 $\\overrightarrow{MA}=\\lambda_{1}\\overrightarrow{AF}$，得\r\n\n$$\n\\lambda_{1}=\\frac{t_{0}}{t_{1}}-1\n$$\n\r\n由 $\\overrightarrow{MB}=(t_{2}-t_{0})(u,v)$，$\\overrightarrow{BF}=-t_{2}(u,v)$，代入 $\\overrightarrow{MB}=\\lambda_{2}\\overrightarrow{BF}$，得\r\n\n$$\n\\lambda_{2}=\\frac{t_{0}}{t_{2}}-1\n$$\n\r\n因此\r\n\n$$\n\\lambda_{1}+\\lambda_{2}\r\n=t_{0}\\left(\\frac{1}{t_{1}}+\\frac{1}{t_{2}}\\right)-2\r\n=t_{0}\\frac{t_{1}+t_{2}}{t_{1}t_{2}}-2\r\n=\\left(-\\frac{2}{u}\\right)(-u)-2=0\n$$\n\r\n故 $\\lambda_{1}+\\lambda_{2}=0$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，$a_{1} = 1 + \\sqrt{2}$，$S_{3} = 9 + 3\\sqrt{2}$.\r\n\r\n\n(1) 求数列 $\\{a_{n}\\}$ 的通项 $a_{n}$ 与前 $n$ 项和为 $S_{n}$；\n\n(2) 设 $b_{n} = \\frac{S_{n}}{n}$（$n \\in \\mathbb{N}^*$），求证：数列 $\\{b_{n}\\}$ 中任意不同的三项都不可能成为等比数列.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设等差数列 $\\{a_{n}\\}$ 的公差为 $d$. 由等差数列的前 $3$ 项和公式，\r\n\n$$\nS_{3}=3(a_{1}+d)\n$$\n\r\n所以\r\n\n$$\n3(1+\\sqrt{2}+d)=9+3\\sqrt{2}\n$$\n\r\n从而 $d=2$.\r\n\n$$\na_{n}=a_{1}+(n-1)d=2n-1+\\sqrt{2}\n$$\n\r\n且\r\n\n$$\nS_{n}=\\frac{n(a_{1}+a_{n})}{2}=n(n+\\sqrt{2})\n$$\n\n(2) 由上式，\r\n\n$$\nb_{n}=\\frac{S_{n}}{n}=n+\\sqrt{2}\n$$\n\r\n任取三个不同的正整数 $n_{1}<n_{2}<n_{3}$，令 $p=n_{2}-n_{1}>0$，$q=n_{3}-n_{2}>0$.\r\n因为 $b_{n}$ 随 $n$ 严格递增，若这三项能组成等比数列，则中间项必须满足\r\n\n$$\nb_{n_{2}}^{2}=b_{n_{1}}b_{n_{3}}\n$$\n\r\n将 $b_{n}=n+\\sqrt{2}$ 代入，记 $t=n_{1}+\\sqrt{2}$，则该等式等价于\r\n\n$$\n(t+p)^{2}=t(t+p+q)\n$$\n\r\n即\r\n\n$$\nt(p-q)+p^{2}=0\n$$\n\r\n若 $p=q$，则上式变为 $p^{2}=0$，与 $p>0$ 矛盾；若 $p\\neq q$，则\r\n\n$$\n\\sqrt{2}=-n_{1}-\\frac{p^{2}}{p-q}\n$$\n\r\n为有理数，也矛盾. 因此任意不同的三项都不可能成为等比数列.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "已知函数 $f(x) = \\mathrm{e}^{x} - kx$，$x \\in \\mathbb{R}$.\r\n\r\n\n(1) 若 $k = \\mathrm{e}$，试确定函数 $f(x)$ 的单调区间；\n\n(2) 若 $k > 0$，且对于任意 $x \\in \\mathbb{R}$，$f(|x|) > 0$ 恒成立，试确定实数 $k$ 的取值范围；\n\n(3) 设函数 $F(x) = f(x) + f(-x)$，求证：$F(1)F(2)\\cdots F(n) > (\\mathrm{e}^{n+1} + 2)^{\\frac{n}{2}}$（$n \\in \\mathbb{N}^*$）.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 当 $k=\\mathrm{e}$ 时，\r\n\n$$\nf'(x)=\\mathrm{e}^{x}-\\mathrm{e}\n$$\n\r\n因为 $\\mathrm{e}^{x}<\\mathrm{e}$ 当且仅当 $x<1$，所以 $f'(x)<0$ 在 $(-\\infty,1)$ 上成立，$f'(x)>0$ 在 $(1,+\\infty)$ 上成立. 因此 $f(x)$ 在 $(-\\infty,1]$ 上单调递减，在 $[1,+\\infty)$ 上单调递增.\n\n(2) 令 $t=|x|$，则 $t\\geqslant0$，题设等价于\r\n\n$$\n\\mathrm{e}^{t}-kt>0 \\text{对任意 }t\\geqslant0\n$$\n\r\n当 $t=0$ 时，$\\mathrm{e}^{t}-kt=1>0$. 当 $t>0$ 时，不等式等价于\r\n\n$$\nk<\\frac{\\mathrm{e}^{t}}{t}\n$$\n\r\n令 $h(t)=\\frac{\\mathrm{e}^{t}}{t}$，则\r\n\n$$\nh'(t)=\\frac{\\mathrm{e}^{t}(t-1)}{t^{2}}\n$$\n\r\n所以 $h(t)$ 在 $(0,1)$ 上递减，在 $(1,+\\infty)$ 上递增，最小值为 $h(1)=\\mathrm{e}$. 因为题设是不等式 $f(|x|)>0$，在 $t=1$ 处也必须严格成立，故\r\n\n$$\n0<k<\\mathrm{e}\n$$\n\n(3) 由函数定义，\r\n\n$$\nF(x)=\\mathrm{e}^{x}-kx+\\mathrm{e}^{-x}+kx=\\mathrm{e}^{x}+\\mathrm{e}^{-x}\n$$\n\r\n记 $P_{n}=F(1)F(2)\\cdots F(n)$. 对 $1\\le j\\le\\left\\lfloor\\frac{n}{2}\\right\\rfloor$，有\r\n\n$$\nF(j)F(n+1-j)\r\n=\\mathrm{e}^{n+1}+\\mathrm{e}^{-(n+1)}+\\mathrm{e}^{n+1-2j}+\\mathrm{e}^{2j-(n+1)}\n$$\n\r\n由于最后两项的乘积为 $1$，且 $j\\neq\\frac{n+1}{2}$，由 $u+u^{-1}>2$（$u>0$，$u\\neq1$）得\r\n\n$$\nF(j)F(n+1-j)>\\mathrm{e}^{n+1}+2\n$$\n\r\n\r\n若 $n$ 为偶数，共有 $\\frac{n}{2}$ 对上述因子，所以\r\n\n$$\nP_{n}>\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{n}{2}}\n$$\n\r\n\r\n若 $n$ 为奇数，除上述 $\\frac{(n-1)}{2}$ 对因子外，还有中间项 $F\\left(\\frac{n+1}{2}\\right)$. 且\r\n\n$$\nF\\left(\\frac{n+1}{2}\\right)^{2}\r\n=\\mathrm{e}^{n+1}+2+\\mathrm{e}^{-(n+1)}>\\mathrm{e}^{n+1}+2\n$$\n\r\n从而\r\n\n$$\nF\\left(\\frac{n+1}{2}\\right)>\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac12}\n$$\n\r\n因此\r\n\n$$\nP_{n}>\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{n-1}{2}}\r\n\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac12}\r\n=\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{n}{2}}\n$$\n\r\n两种情形均得所证不等式.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

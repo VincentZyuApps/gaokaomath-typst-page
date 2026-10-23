@@ -1,0 +1,386 @@
+{
+  "year": "2014",
+  "slug": "guangdong_science",
+  "title": "2014年广东卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "已知集合 $M = \\{-1, 0, 1\\}$，$N = \\{0, 1, 2\\}$，则 $M \\cup N =$（ ）",
+          "choices": [
+            "$\\{0, 1\\}$",
+            "$\\{-1, 0, 2\\}$",
+            "$\\{-1, 0, 1, 2\\}$",
+            "$\\{-1, 0, 1\\}$"
+          ],
+          "answer": "C",
+          "solution": "并集包含两个集合中的全部元素，因此\r\n$M\\cup N=\\{-1,0,1,2\\}$，与选项 C 相符，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知复数 $z$ 满足 $(3 + 4\\mathrm{i})z = 25$，则 $z =$（ ）",
+          "choices": [
+            "$-3 + 4\\mathrm{i}$",
+            "$-3 - 4\\mathrm{i}$",
+            "$3 + 4\\mathrm{i}$",
+            "$3 - 4\\mathrm{i}$"
+          ],
+          "answer": "D",
+          "solution": "将分母实数化，得\r\n$z=\\dfrac{25}{3+4\\mathrm{i}}=\\dfrac{25(3-4\\mathrm{i})}{(3+4\\mathrm{i})(3-4\\mathrm{i})}=3-4\\mathrm{i}$，与选项 D 相符，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "若变量 $x$，$y$ 满足约束条件 $\\begin{cases}\r\ny \\le x,\\\\\r\nx + y \\le 1,\\\\\r\ny \\ge -1,\r\n\\end{cases}$ 且 $z = 2x + y$ 的最大值和最小值分别为 $m$ 和 $n$，则 $m - n =$（ ）",
+          "choices": [
+            "$5$",
+            "$6$",
+            "$7$",
+            "$8$"
+          ],
+          "answer": "B",
+          "solution": "三个边界的交点分别为\r\n$(-1,-1)$、$(2,-1)$ 和 $\\left(\\frac{1}{2},\\frac{1}{2}\\right)$，可行域是由这三个点围成的三角形. 因为线性目标函数在有界多边形上的最值在顶点处取得，所以\r\n$2(-1)+(-1)=-3$，$2\\cdot2+(-1)=3$，$2\\cdot\\frac{1}{2}+\\frac{1}{2}=\\frac{3}{2}$.\r\n故最大值 $m=3$，最小值 $n=-3$，从而 $m-n=6$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "若实数 $k$ 满足 $0 < k < 9$，则曲线 $\\frac{x^{2}}{25} - \\frac{y^{2}}{9-k} = 1$ 与曲线 $\\frac{x^{2}}{25-k} - \\frac{y^{2}}{9} = 1$ 的（ ）",
+          "choices": [
+            "焦距相等",
+            "实半轴长相等",
+            "虚半轴长相等",
+            "离心率相等"
+          ],
+          "answer": "A",
+          "solution": "第一条双曲线的实半轴长和虚半轴长分别为 $5$ 和 $\\sqrt{9-k}$，所以其焦半距满足\r\n$c_1^2=5^2+(\\sqrt{9-k})^2=34-k$. 第二条双曲线的实半轴长和虚半轴长分别为 $\\sqrt{25-k}$ 和 $3$，所以\r\n$c_2^2=(\\sqrt{25-k})^2+3^2=34-k$. 因此 $c_1=c_2$，两条双曲线的焦距 $2c$ 相等，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "已知向量 $\\mathbf{a} = (1, 0, -1)$，则下列向量中与 $\\mathbf{a}$ 成 $60^{\\circ}$ 角的是（ ）",
+          "choices": [
+            "$(-1, 1, 0)$",
+            "$(1, -1, 0)$",
+            "$(0, -1, 1)$",
+            "$(-1, 0, 1)$"
+          ],
+          "answer": "B",
+          "solution": "$\\lvert\\mathbf{a}\\rvert=\\sqrt{1^2+0^2+(-1)^2}=\\sqrt{2}$. 逐一计算各选项向量 $v$ 与 $\\mathbf{a}$ 的夹角余弦：\r\n$\\frac{\\mathbf{a}\\cdot(-1,1,0)}{|\\mathbf{a}|\\sqrt{2}}=-\\frac12$、$\\frac{\\mathbf{a}\\cdot(1,-1,0)}{|\\mathbf{a}|\\sqrt{2}}=\\frac12$、$\\frac{\\mathbf{a}\\cdot(0,-1,1)}{|\\mathbf{a}|\\sqrt{2}}=-\\frac12$、$\\frac{\\mathbf{a}\\cdot(-1,0,1)}{|\\mathbf{a}|\\sqrt{2}}=-1$.\r\n只有第二个向量的夹角余弦为 $\\cos60^\\circ=\\frac12$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "已知某地区中小学生人数和近视情况如图 1 和图 2 所示，为了解该地区中小学生的近视形成原因，用分层抽样的方法抽取 $2\\%$ 的学生进行调查，则样本容量和抽取的高中生近视人数分别为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/guangdong_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$200,20$",
+            "$100,20$",
+            "$200,10$",
+            "$100,10$"
+          ],
+          "answer": "A",
+          "solution": "该地区学生总人数为 $3500+4500+2000=10000$，抽取 $2\\%$ 后样本容量为\r\n$10000\\times2\\%=200$. 图 2 表明高中生近视率为 $50\\%$，高中生近视人数为 $2000\\times50\\%=1000$，按同样比例抽取的高中生近视人数为 $1000\\times2\\%=20$. 因此选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "若空间中四条两两不同的直线 $l_{1}$，$l_{2}$，$l_{3}$，$l_{4}$，满足 $l_{1} \\perp l_{2}$，$l_{2} \\perp l_{3}$，$l_{3} \\perp l_{4}$，则下列结论一定正确的是（ ）",
+          "choices": [
+            "$l_{1} \\perp l_{4}$",
+            "$l_{1} \\parallel l_{4}$",
+            "$l_{1}$，$l_{4}$ 既不垂直也不平行",
+            "$l_{1}$，$l_{4}$ 的位置关系不确定"
+          ],
+          "answer": "D",
+          "solution": "例如取三条相交坐标轴所在的直线\r\n$l_2$ 为 $x$ 轴，$l_1$ 为 $y$ 轴，$l_3$ 为 $z$ 轴. 若取过 $(0,0,1)$ 且平行于 $y$ 轴的 $l_4$，则 $l_1\\parallel l_4$，且题设的三个垂直关系都成立. 若改取过原点、方向向量为 $(1,1,0)$ 的 $l_4$，则 $l_3\\perp l_4$，但 $l_1$ 与 $l_4$ 相交且不垂直，也不平行. 故 $l_1$ 与 $l_4$ 的位置关系不确定，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "设集合 $A = \\{(x_{1}, x_{2}, x_{3}, x_{4}, x_{5}) \\mid x_{i} \\in \\{-1, 0, 1\\}, i = 1, 2, 3, 4, 5\\}$，那么集合 $A$ 中满足条件“$1 \\le |x_{1}| + |x_{2}| + |x_{3}| + |x_{4}| + |x_{5}| \\le 3$”的元素个数为（ ）",
+          "choices": [
+            "$60$",
+            "$90$",
+            "$120$",
+            "$130$"
+          ],
+          "answer": "D",
+          "solution": "令恰有 $r$ 个分量非零. 因为每个非零分量只能取 $1$ 或 $-1$，所以当 $r=1$，$2$，$3$ 时，对应元素个数分别为\r\n$\\mathrm C_5^1 2^1=10$、$\\mathrm C_5^2 2^2=40$、$\\mathrm C_5^3 2^3=80$. 题设条件正是 $r=1$，$2$，$3$，因此元素总数为\r\n$10+40+80=130$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 9,
+          "body": "不等式 $|x - 1| + |x + 2| \\ge 5$ 的解集为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left(-\\infty,-3\\right]\\cup\\left[2,+\\infty\\right)\\)",
+          "solution": "按绝对值的分界点 $-2$、$1$ 分类. 当 $x\\le-2$ 时，原不等式化为\r\n$-2x-1\\geqslant5$，得 $x\\le-3$；当 $-2\\le x\\leqslant1$ 时，左端恒为 $3$，无解；当 $x\\geqslant1$ 时，原不等式化为 $2x+1\\geqslant5$，得 $x\\geqslant2$. 由于原不等式是非严格不等式，端点应保留，所以解集为\r\n$\\left(-\\infty,-3\\right]\\cup\\left[2,+\\infty\\right)$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "曲线 $y = \\mathrm{e}^{-5x} + 2$ 在点 $(0, 3)$ 处的切线方程为 _______ {}.",
+          "choices": [],
+          "answer": "\\(y=-5x+3\\)",
+          "solution": "设 $g(x)=\\mathrm{e}^{-5x}+2$，则 $g'(x)=-5\\mathrm{e}^{-5x}$，所以 $g'(0)=-5$. 切线经过 $(0,3)$，故其方程为\r\n$y-3=-5(x-0)$，即 $y=-5x+3$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "从 0， 1， 2， 3， 4， 5， 6， 7， 8， 9 中任取七个不同的数，则这七个数的中位数是 6 的概率为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{1}{6}\\)",
+          "solution": "七个数的中位数是第 4 个数. 要使中位数为 $6$，必须选取数字 $6$，再从 $0$，$1$，$2$，$3$，$4$，$5$ 中选出三个，从 $7$，$8$，$9$ 中选出三个. 因此有利选法数为\r\n$\\mathrm C_6^3\\mathrm C_3^3=20$. 全部选法数为 $\\mathrm C_{10}^7=120$，所以所求概率为\r\n$\\dfrac{20}{120}=\\dfrac16$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对应的边分别为 $a$，$b$，$c$，已知 $b \\cos C + c \\cos B = 2b$，则 $\\frac{a}{b} =$ _______ {}.",
+          "choices": [],
+          "answer": "2",
+          "solution": "由余弦定理，\r\n$b\\cos C=\\dfrac{a^2+b^2-c^2}{2a}$，$c\\cos B=\\dfrac{a^2+c^2-b^2}{2a}$. 相加得\r\n\n$$\nb\\cos C+c\\cos B=\\frac{2a^2}{2a}=a\n$$\n\r\n题设给出该和等于 $2b$，所以 $a=2b$，从而 $\\dfrac ab=2$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "若等比数列 $\\{a_{n}\\}$ 的各项均为正数，且 $a_{10}a_{11} + a_{9}a_{12} = 2\\mathrm{e}^{5}$，则 $\\ln a_1 + \\ln a_2 + \\cdots + \\ln a_{20} = _______ {}$.",
+          "choices": [],
+          "answer": "50",
+          "solution": "设等比数列的首项为 $a_1$，公比为 $q$，则 $q>0$，且\r\n$a_{10}a_{11}=a_1^2q^{19}=a_9a_{12}$. 由题设\r\n$2a_1^2q^{19}=2\\mathrm{e}^5$，即 $a_1^2q^{19}=\\mathrm{e}^5$. 于是\r\n\n$$\n\\ln a_1+\\cdots+\\ln a_{20}\r\n=\\ln\\left(a_1a_2\\cdots a_{20}\\right)\r\n=\\ln\\left(a_1^{20}q^{0+1+\\cdots+19}\\right)\r\n=\\ln\\left((a_1^2q^{19})^{10}\\right)=\\ln\\mathrm{e}^{50}=50\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选考题：填空题",
+      "problems": [
+        {
+          "num": 14,
+          "body": "在极坐标系中，曲线 $C_1$ 和 $C_2$ 的方程分别为 $\\rho \\sin^2 \\theta = \\cos \\theta$ 和 $\\rho \\sin \\theta = 1$，以极点为平面直角坐标系的原点，极轴为 $x$ 轴的正半轴，建立平面直角坐标系，则曲线 $C_1$ 和 $C_2$ 的交点的直角坐标为 _______ {}.",
+          "choices": [],
+          "answer": "\\((1,1)\\)",
+          "solution": "由极坐标与直角坐标的关系 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$，第一条曲线满足\r\n$\\rho^2\\sin^2\\theta=\\rho\\cos\\theta$，即 $y^2=x$；第二条曲线满足 $y=1$. 代入得 $x=1$，所以交点的直角坐标为 $(1,1)$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "如图，在平行四边形 $ABCD$ 中，点 $E$ 在 $AB$ 上，且 $EB = 2AE$，$AC$ 与 $DE$ 交于点 $F$，则 $\\triangle CDF$ 的面积与 $\\triangle AEF$ 的面积之比为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/guangdong_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "9",
+          "solution": "取 $AE=1$、$EB=2$，建立直角坐标系，使 $A=(0,0)$、$B=(3,0)$、$D=(u,v)$（$v>0$），则 $C=(3+u,v)$、$E=(1,0)$. 设 $F=AC\\cap DE$，在两条直线上分别写成\r\n$F=t(3+u,v)$ 和 $F=(1+s(u-1),sv)$. 比较纵坐标得 $s=t$，再比较横坐标得\r\n$t(3+u)=1+t(u-1)$，从而 $t=\\frac14$.\r\n\r\n因此 $F$ 到 $AB$ 的距离是 $\\frac14$ 个平行四边形高，而 $C$、$D$ 到直线 $AB$ 的距离是一个平行四边形高. 于是 $S_{\\triangle AEF}=\\frac12\\cdot AE\\cdot\\frac{h}{4}=\\frac h8$，$S_{\\triangle CDF}=\\frac12\\cdot CD\\cdot\\frac{3h}{4}=\\frac{9h}{8}$.\r\n其中 $CD=AB=3AE$. 故\r\n$\\dfrac{S_{\\triangle CDF}}{S_{\\triangle AEF}}=9$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 16,
+          "body": "已知函数 $f(x) = A \\sin \\left( x + \\frac{\\pi}{4} \\right)$，$x \\in \\mathbb{R}$，且 $f\\left( \\frac{5\\pi}{12} \\right) = \\frac{3}{2}$.\r\n\r\n\n(1) 求 $A$ 的值；\n\n(2) 若 $f(\\theta) + f(-\\theta) = \\frac{3}{2}$，$\\theta \\in \\left(0, \\frac{\\pi}{2}\\right)$，求 $f\\left(\\frac{3}{4}\\pi - \\theta\\right)$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由题设\r\n\n$$\nf\\left(\\frac{5\\pi}{12}\\right)=A\\sin\\left(\\frac{5\\pi}{12}+\\frac{\\pi}{4}\\right)=A\\sin\\frac{2\\pi}{3}=\\frac{\\sqrt{3}}{2}A=\\frac32\n$$\n\r\n所以 $A=\\sqrt3$，从而 $f(x)=\\sqrt3\\sin\\left(x+\\frac\\pi4\\right)$.\n\n(2) 由和差化积公式，\r\n\n$$\nf(\\theta)+f(-\\theta)\r\n=\\sqrt3\\left[\\sin\\left(\\theta+\\frac\\pi4\\right)+\\sin\\left(\\frac\\pi4-\\theta\\right)\\right]\r\n=\\sqrt6\\cos\\theta=\\frac32\n$$\n\r\n故 $\\cos\\theta=\\frac{\\sqrt6}{4}$. 因为 $0<\\theta<\\frac\\pi2$，所以\r\n$\\sin\\theta=\\sqrt{1-\\frac{6}{16}}=\\frac{\\sqrt{10}}{4}$. 最后\r\n\n$$\nf\\left(\\frac{3\\pi}{4}-\\theta\\right)\r\n=\\sqrt3\\sin(\\pi-\\theta)\r\n=\\sqrt3\\sin\\theta\r\n=\\frac{\\sqrt{30}}{4}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "随机观测生产某种零件的某工厂 25 名工人的日加工零件数（单位：件），获得数据如下：30，42，41，36，44，40，37，37，25，45，29，43，31，36，49，34，33，43，38，42，32，34，46，39，36.\r\n根据上述数据得到样本的频率分布表如下：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|cc}\r\n\\hline\r\n分组 & 频数 & 频率 \\\\\r\n\\hline\r\n$[25,30]$ & 3 & 0.12 \\\\\r\n$(30,35]$ & 5 & 0.20 \\\\\r\n$(35,40]$ & 8 & 0.32 \\\\\r\n$(40,45]$ & $n_1$ & $f_1$ \\\\\r\n$(45,50]$ & $n_2$ & $f_2$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 确定样本频率分布表中 $n_1$，$n_2$，$f_1$ 和 $f_2$ 的值；\n\n(2) 根据上述频率分布表，画出样本频率分布直方图；\n\n(3) 根据样本频率分布直方图，求在该厂任取 4 人，至少有 1 人的日加工零件数落在区间 $(30,35]$ 的概率.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 直接统计原始数据，各组频数分别为 $3$，$5$，$8$，$7$，$2$，所以\r\n$n_1=7$、$n_2=2$，并且\r\n$f_1=\\frac{7}{25}=0.28$、$f_2=\\frac{2}{25}=0.08$.\n\n(2) 直方图的纵轴表示频率除以组距. 五组组距均为 $5$，所以从左到右五个矩形的高分别为\r\n$\\frac{0.12}{5}=0.024$、$\\frac{0.20}{5}=0.04$、$\\frac{0.32}{5}=0.064$、$\\frac{0.28}{5}=0.056$、$\\frac{0.08}{5}=0.016$.\r\n因此以 $[25,30]$、$(30,35]$、$(35,40]$、$(40,45]$、$(45,50]$ 为底边，以上述五个数为高，分别作相邻矩形，即得样本频率分布直方图.\n\n(3) 由直方图，任意抽取一名工人的日加工零件数落在 $(30,35]$ 的概率用其频率估计为 $0.20$，不落在该区间的概率为 $0.80$. 四人中至少有一人落在该区间的概率为\r\n$1-0.80^4=1-0.4096=0.5904$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，四边形 $ABCD$ 为正方形，$PD \\perp$ 平面 $ABCD$，$\\angle DPC = 30^{\\circ}$，$AF \\perp PC$ 于点 $F$，$FE \\parallel CD$，交 $PD$ 于点 $E$.\r\n\r\n\n(1) 证明：$CF \\perp$ 平面 $ADF$；\n\n(2) 求二面角 $D - AF - E$ 的余弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/guangdong_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 取正方形边长 $DC=1$，建立空间直角坐标系，使\r\n$D=(0,0,0)$、$C=(1,0,0)$、$A=(0,1,0)$、$B=(1,1,0)$. 因为 $PD\\perp$ 平面 $ABCD$，且三角形 $PDC$ 在 $D$ 处为直角，故\r\n$\\tan\\angle DPC=\\frac{DC}{PD}=\\tan30^\\circ$，从而 $P=(0,0,\\sqrt3)$.\r\n\r\n点 $F$ 在 $PC$ 上，设 $F=(t,0,\\sqrt3(1-t))$. 由 $AF\\perp PC$，有\r\n\n$$\n\\overrightarrow{AF}\\cdot\\overrightarrow{PC}\r\n=\\left(t,-1,\\sqrt3(1-t)\\right)\\cdot(1,0,-\\sqrt3)\r\n=4t-3=0\n$$\n\r\n所以 $F=\\left(\\frac34,0,\\frac{\\sqrt3}{4}\\right)$. 又因 $FE\\parallel CD$，且 $E\\in PD$，故 $E=\\left(0,0,\\frac{\\sqrt3}{4}\\right)$.\r\n\r\n计算得\r\n$\\overrightarrow{CF}=\\left(-\\frac14,0,\\frac{\\sqrt3}{4}\\right)$、\r\n$\\overrightarrow{DF}=\\left(\\frac34,0,\\frac{\\sqrt3}{4}\\right)$、\r\n$\\overrightarrow{AF}=\\left(\\frac34,-1,\\frac{\\sqrt3}{4}\\right)$，于是\r\n$\\overrightarrow{CF}\\cdot\\overrightarrow{DF}=0$，且 $\\overrightarrow{CF}\\cdot\\overrightarrow{AF}=0$. 直线 $AF$、$DF$ 是平面 $ADF$ 内相交的两条直线，所以 $CF\\perp$ 平面 $ADF$.\n\n(2) 由 $\\overrightarrow{AD}=(0,-1,0)$、$\\overrightarrow{AF}=\\left(\\frac34,-1,\\frac{\\sqrt3}{4}\\right)$，以及 $\\overrightarrow{AE}=\\left(0,-1,\\frac{\\sqrt3}{4}\\right)$，可分别取平面 $ADF$ 和平面 $EAF$ 的法向量为\r\n$\\mathbf{n}_1=(\\sqrt3,0,-3)$ 和 $\\mathbf{n}_2=(0,\\sqrt3,4)$. 设二面角 $D-AF-E$ 为 $\\varphi$，则取对应的锐角余弦得\r\n\n$$\n\\cos\\varphi=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1||\\mathbf{n}_2|}\r\n=\\frac{12}{\\sqrt{12}\\sqrt{19}}\r\n=\\frac{2\\sqrt{57}}{19}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "设数列 $\\{a_{n}\\}$ 的前 $n$ 和为 $S_{n}$，满足 $S_{n} = 2na_{n+1} - 3n^{2} - 4n$，$n \\in \\mathbb{N}^*$，且 $S_{3} = 15$.\r\n\r\n\n(1) 求 $a_{1}$，$a_{2}$，$a_{3}$ 的值；\n\n(2) 求数列 $\\{a_{n}\\}$ 的通项公式.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 在 $n=2$ 时，题设给出 $S_2=4a_3-20$. 又\r\n$S_3=S_2+a_3=15$，所以 $5a_3-20=15$，得 $a_3=7$，进而 $S_2=8$.\r\n\r\n在 $n=1$ 时，$S_1=2a_2-7$，而 $S_2=S_1+a_2=8$，所以 $3a_2-7=8$，得 $a_2=5$，再得 $a_1=S_1=3$.\n\n(2) 下面用数学归纳法求通项. 已知 $a_1=3=2\\cdot1+1$. 假设对某个正整数 $n$，前 $n$ 项均满足 $a_j=2j+1$，则\r\n$S_n=3+5+\\cdots+(2n+1)=n(n+2)$. 代入已知关系，得\r\n\n$$\nn(n+2)=2na_{n+1}-3n^2-4n\n$$\n\r\n由于 $n\\geqslant1$，除以 $n$ 后得\r\n$n+2=2a_{n+1}-3n-4$，即 $a_{n+1}=2n+3=2(n+1)+1$. 因此对任意正整数 $n$，都有\r\n$a_n=2n+1$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知椭圆 $C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a > b > 0$）的一个焦点为 $(\\sqrt{5}, 0)$. 离心率为 $\\frac{\\sqrt{5}}{3}$.\r\n\r\n\n(1) 求椭圆 $C$ 的标准方程；\n\n(2) 若动点 $P(x_0, y_0)$ 为椭圆 $C$ 外一点，且点 $P$ 到椭圆 $C$ 的两条切线相互垂直，求点 $P$ 的轨迹方程.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 椭圆焦半距 $c=\\sqrt5$，又 $e=\\frac ca=\\frac{\\sqrt5}{3}$，所以 $a=3$. 由 $a^2=b^2+c^2$，得 $b^2=9-5=4$，故椭圆标准方程为\r\n$\\dfrac{x^2}{9}+\\dfrac{y^2}{4}=1$.\n\n(2) 先设一般直线过 $P(x_0,y_0)$ 且斜率为 $m$，写成 $y-y_0=m(x-x_0)$. 令 $q=y_0-mx_0$，代入椭圆方程得\r\n$\\frac{x^2}{9}+\\frac{(mx+q)^2}{4}=1$，即\r\n$(4+9m^2)x^2+18mqx+9q^2-36=0$. 直线为切线时该关于 $x$ 的二次方程有重根，故\r\n$(18mq)^2-4(4+9m^2)(9q^2-36)=0$，化简得 $q^2=4+9m^2$. 代入 $q=y_0-mx_0$，得\r\n\n$$\n(x_0^2-9)m^2-2x_0y_0m+y_0^2-4=0\n$$\n\r\n两条切线的斜率 $m_1$，$m_2$ 是此方程的两个根. 当两条切线均非竖直时，垂直条件为 $m_1m_2=-1$，而根的乘积为 $\\frac{y_0^2-4}{x_0^2-9}$，所以\r\n\n$$\n\\frac{y_0^2-4}{x_0^2-9}=-1\n$$\n\r\n从而 $x_0^2+y_0^2=13$.\r\n若有一条切线为竖直线，则另一条必须为水平线，这对应于 $P=(\\pm3,\\pm2)$，这些点同样满足上式. 反之，圆 $x_0^2+y_0^2=13$ 上的点满足 $\\frac{x_0^2}{9}+\\frac{y_0^2}{4}\\ge\\frac{x_0^2+y_0^2}{9}=\\frac{13}{9}>1$，确为椭圆外点. 因此轨迹方程为\r\n$x_0^2+y_0^2=13$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "设函数 $f(x) = \\frac{1}{\\sqrt{(x^2 + 2x + k)^2 + 2(x^2 + 2x + k) - 3}}$，其中 $k < -2$.\r\n\r\n\n(1) 求函数 $f(x)$ 的定义域 $D$（用区间表示）；\n\n(2) 讨论 $f(x)$ 在区间 $D$ 上的单调性；\n\n(3) 若 $k < -6$，求 $D$ 上满足条件 $f(x) > f(1)$ 的 $x$ 的集合（用区间表示）.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 令 $u=x^2+2x+k$，则根式内为 $u^2+2u-3=(u-1)(u+3)$.\r\n\r\n函数有意义要求根式内严格大于零，因此 $u<-3$ 或 $u>1$. 分别化为\r\n$(x+1)^2<-2-k$ 或 $(x+1)^2>2-k$，所以\r\n\n$$\nD=\\left(-\\infty,-1-\\sqrt{2-k}\\right)\\cup\\left(-1-\\sqrt{-2-k},-1+\\sqrt{-2-k}\\right)\\cup\\left(-1+\\sqrt{2-k},+\\infty\\right)\n$$\n\n(2) 在定义域内\r\n\n$$\nf'(x)=-\\frac{2(x+1)(u+1)}{\\left(u^2+2u-3\\right)^{\\frac{3}{2}}}\n$$\n\r\n在两个外侧区间上 $u>1$，所以 $u+1>0$，导数符号与 $-(x+1)$ 相同，故左外侧递增、右外侧递减. 在中间区间上 $u<-3$，所以 $u+1<0$，导数符号与 $x+1$ 相同，故\r\n$f(x)$ 在 $\\left(-1-\\sqrt{-2-k},-1\\right)$ 上递减，在 $\\left(-1,-1+\\sqrt{-2-k}\\right)$ 上递增. 综上，递增区间为\r\n$\\left(-\\infty,-1-\\sqrt{2-k}\\right)$ 和 $\\left(-1,-1+\\sqrt{-2-k}\\right)$，递减区间为\r\n$\\left(-1-\\sqrt{-2-k},-1\\right)$ 和 $\\left(-1+\\sqrt{2-k},+\\infty\\right)$.\n\n(3) 当 $k<-6$ 时，$u(1)=k+3<-3$，且在定义域内分母为正. 由\r\n$f(x)>f(1)$ 等价于\r\n\n$$\n(u+1)^2<(u(1)+1)^2=(k+4)^2\n$$\n\r\n因为 $k<-6$，所以这等价于 $k+3<u<-k-5$. 再与定义域中的 $u<-3$ 或 $u>1$ 结合，得到\r\n$k+3<u<-3$ 或 $1<u<-k-5$.\r\n\r\n当 $k+3<u<-3$ 时，等价于 $x<-3$ 或 $x>1$，且 $(x+1)^2<-2-k$，得到\r\n$\\left(-1-\\sqrt{-2-k},-3\\right)\\cup\\left(1,-1+\\sqrt{-2-k}\\right)$.\r\n\r\n当 $1<u<-k-5$ 时，等价于 $(x+1)^2>2-k$ 且 $(x+1)^2<-2k-4$，得到\r\n$\\left(-1-\\sqrt{-2k-4},-1-\\sqrt{2-k}\\right)\\cup\\left(-1+\\sqrt{2-k},-1+\\sqrt{-2k-4}\\right)$.\r\n\r\n所以所求集合为\r\n\n$$\n\\left(-1-\\sqrt{-2k-4},-1-\\sqrt{2-k}\\right)\\cup\\left(-1-\\sqrt{-2-k},-3\\right)\n$$\n\r\n和\r\n\n$$\n\\left(1,-1+\\sqrt{-2-k}\\right)\\cup\\left(-1+\\sqrt{2-k},-1+\\sqrt{-2k-4}\\right)\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

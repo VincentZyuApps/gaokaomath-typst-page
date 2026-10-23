@@ -1,0 +1,376 @@
+{
+  "year": "2001",
+  "slug": "shanghai_liberal",
+  "title": "2001年上海卷（秋文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设函数 $f(x)=\\log_{9}x$，则满足 $f(x)=\\frac{1}{2}$ 的 $x$ 值为 _______ {}.",
+          "choices": [],
+          "answer": "\\(3\\)",
+          "solution": "由 $\\log_{9}x=\\dfrac{1}{2}$，得\r\n\n$$\nx=9^{\\frac{1}{2}}=3\n$$\n\r\n因为对数的真数必须为正，且 $3>0$，所以所求 $x$ 为 $3$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "设数列 $\\{a_n\\}$ 的首项 $a_1=-7$，且满足 $a_{n+1}=a_n+2$（$n\\in\\mathbb{N}$），则 $a_1+a_2+\\cdots+a_{17}= _______ {}$.",
+          "choices": [],
+          "answer": "\\(153\\)",
+          "solution": "由递推关系可知 $\\{a_n\\}$ 是首项为 $-7$、公差为 $2$ 的等差数列，因此\r\n\n$$\na_{17}=a_1+16\\times2=-7+32=25\n$$\n\r\n于是\r\n\n$$\na_1+a_2+\\cdots+a_{17}=\\frac{17(a_1+a_{17})}{2}=\\frac{17(-7+25)}{2}=153\n$$\n\r\n所以填 $153$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "设 $P$ 为双曲线 $\\frac{x^2}{4}-y^2=1$ 上一动点，$O$ 为坐标原点，$M$ 为线段 $OP$ 的中点，则点 $M$ 的轨迹方程为 _______ {}.",
+          "choices": [],
+          "answer": "\\(x^2-4y^2=1\\)",
+          "solution": "设动点 $P$ 的坐标为 $(u,v)$，则中点 $M$ 的坐标为 $(x,y)=\\left(\\dfrac{u}{2},\\dfrac{v}{2}\\right)$，即 $u=2x$，$v=2y$. 由 $P$ 在双曲线上，得\r\n\n$$\n\\frac{(2x)^2}{4}-(2y)^2=1\n$$\n\r\n化简为\r\n\n$$\nx^2-4y^2=1\n$$\n\r\n反过来，若 $(x,y)$ 满足该方程，则点 $(2x,2y)$ 满足原双曲线方程，且 $(x,y)$ 是原点与该点的中点. 因此轨迹方程为 $x^2-4y^2=1$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "设集合 $A=\\{x\\mid 2\\lg x=\\lg(8x-15),x\\in\\mathbb{R}\\}$，$B=\\{x\\mid \\cos\\frac{x}{2}>0,x\\in\\mathbb{R}\\}$，则 $A\\cap B$ 的元素个数为 _______ {}$\\text{个}$.",
+          "choices": [],
+          "answer": "\\(1\\)",
+          "solution": "由对数真数的限制，必须有 $x>0$ 且 $8x-15>0$，即 $x>\\dfrac{15}{8}$. 在此条件下，\r\n\n$$\n2\\lg x=\\lg x^2\n$$\n\r\n所以\r\n\n$$\nx^2=8x-15\\Longleftrightarrow (x-3)(x-5)=0\n$$\n\r\n两个根 $3,5$ 均满足定义域条件，故 $A=\\{3,5\\}$.\r\n\r\n又因为 $B=\\left\\{x\\mid\\cos\\dfrac{x}{2}>0\\right\\}$，有\r\n$\\cos\\frac{3}{2}>0$，$\\cos\\frac{5}{2}<0$\r\n其中前者是因为 $0<\\dfrac32<\\dfrac\\pi2$，后者是因为 $\\dfrac\\pi2<\\dfrac52<\\pi$. 因而 $A\\cap B=\\{3\\}$，元素个数为 $1$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "抛物线 $x^2-4y-3=0$ 的焦点坐标为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left(0,\\frac{1}{4}\\right)\\)",
+          "solution": "将方程整理为\r\n\n$$\nx^2=4\\left(y+\\frac{3}{4}\\right)\n$$\n\r\n与抛物线标准方程 $x^2=4p(y-y_0)$ 比较，得顶点为 $\\left(0,-\\dfrac34\\right)$，且 $p=1$. 因此焦点为\r\n\n$$\n\\left(0,-\\frac34+1\\right)=\\left(0,\\frac14\\right)\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "设数列 $\\{a_n\\}$ 是公比 $q>0$ 的等比数列，$S_n$ 是它的前 $n$ 项和. $\\displaystyle\\lim_{n\\to\\infty}S_n=7$，则此数列的首项 $a_1$ 的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\((0,7)\\)",
+          "solution": "若等比数列的前 $n$ 项和有有限极限，则必须有 $0<q<1$. 此时\r\n$S_n=\\frac{a_1(1-q^n)}{1-q}$，$\\lim_{n\\to\\infty}S_n=\\frac{a_1}{1-q}=7$，\r\n从而 $a_1=7(1-q)$. 当 $0<q<1$ 时，$0<a_1<7$.\r\n\r\n反过来，任取 $a_1\\in(0,7)$，令 $q=1-\\dfrac{a_1}{7}$，则 $0<q<1$，且 $\\lim S_n=7$. 所以 $a_1$ 的取值范围为 $(0,7)$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "某餐厅供应客饭，每位顾客可以在餐厅提供的菜肴中任选 $2$ 荤 $2$ 素共 $4$ 种不同的品种. 现在餐厅准备了 $5$ 种不同的荤菜，若要保证每位顾客有 $200$ 种以上不同的选择，则餐厅至少还需要准备不同的素菜品种 _______ {}$\\text{种}$（结果用数值表示）.",
+          "choices": [],
+          "answer": "\\(7\\)",
+          "solution": "设素菜有 $n$ 种，则每位顾客的选择数为\r\n\n$$\n\\mathrm C_5^2\\mathrm C_n^2=10\\cdot\\frac{n(n-1)}{2}=5n(n-1)\n$$\n\r\n题意要求 $5n(n-1)>200$，即 $n(n-1)>40$. 当 $n=6$ 时，选择数为 $5\\times6\\times5=150$，不超过 $200$；当 $n=7$ 时，选择数为 $5\\times7\\times6=210>200$. 因此至少需要准备 $7$ 种素菜.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "在代数式 $\\left(x-\\frac{1}{x^2}\\right)^5$ 的展开式中，常数项为 _______ {}.",
+          "choices": [],
+          "answer": "\\(0\\)",
+          "solution": "展开式的通项为\r\n$\\mathrm C_5^k x^{5-k}\\left(-\\frac{1}{x^2}\\right)^k=(-1)^k\\mathrm C_5^k x^{5-3k}$，$k=0$，$1$，$2$，$3$，$4$，$5$.\r\n当 $k=0$，$1$，$2$，$3$，$4$，$5$ 时，幂指数依次为 $5$，$2$，$-1$，$-4$，$-7$，$-10$，其中没有 $0$，所以展开式中没有常数项，常数项为 $0$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "设 $x=\\sin\\alpha$，$\\alpha\\in\\left[-\\frac{\\pi}{6},\\frac{5\\pi}{6}\\right]$，则 $\\arccos x$ 的取值范围为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left[0,\\frac{2\\pi}{3}\\right]\\)",
+          "solution": "在区间 $\\left[-\\dfrac\\pi6,\\dfrac{5\\pi}{6}\\right]$ 内，正弦函数在 $\\alpha=\\dfrac\\pi2$ 处取得最大值 $1$，在左端点处取得最小值 $-\\dfrac12$. 因而\r\n\n$$\nx=\\sin\\alpha\\in\\left[-\\frac12,1\\right]\n$$\n\r\n反余弦函数在 $[-1,1]$ 上单调递减，所以\r\n\n$$\n\\arccos x\\in\\left[\\arccos1,\\arccos\\left(-\\frac12\\right)\\right]\r\n=\\left[0,\\frac{2\\pi}{3}\\right]\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "利用下列盈利表中的数据进行决策，应选择的方案是 _______ {}.\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|c|c|c|c|}\r\n\\hline\r\n自然状况 & 概率 & \\multicolumn{4}{c|}{盈利（万元）} \\\\\r\n\\cline{3-6}\r\n & & $A_1$ & $A_2$ & $A_3$ & $A_4$ \\\\\r\n\\hline\r\n$S_1$ & $0.25$ & $50$ & $70$ & $-20$ & $98$ \\\\\r\n\\hline\r\n$S_2$ & $0.30$ & $65$ & $26$ & $52$ & $82$ \\\\\r\n\\hline\r\n$S_3$ & $0.45$ & $26$ & $16$ & $78$ & $-10$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}",
+          "choices": [],
+          "answer": "\\(A_3\\)",
+          "solution": "按概率加权计算各方案的期望盈利：\r\n\n$$\nE(A_1)=0.25\\times50+0.30\\times65+0.45\\times26=43.7\n$$\n\r\n\n$$\nE(A_2)=0.25\\times70+0.30\\times26+0.45\\times16=32.5\n$$\n\r\n\n$$\nE(A_3)=0.25\\times(-20)+0.30\\times52+0.45\\times78=45.7\n$$\n\r\n\n$$\nE(A_4)=0.25\\times98+0.30\\times82+0.45\\times(-10)=44.6\n$$\n\r\n其中最大值为 $E(A_3)=45.7$，所以应选择方案 $A_3$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "已知两个圆：\r\n\\begin{circlelist}\r\n\\item $x^2+y^2=1$；\r\n\\item $x^2+(y-3)^2=1$.\r\n\\end{circlelist}\r\n由前一个方程减去后一个方程可得上述两圆的对称轴方程. 将上述命题在曲线的情况下加以推广，即要求得到一个更一般的命题，而已知命题应成为所推广命题的一个特例，推广的命题为 _______ {}.",
+          "choices": [],
+          "answer": "若两圆方程为 \\((x-a)^2+(y-b)^2=r^2\\) 与 \\((x-c)^2+(y-d)^2=r^2\\)，且 \\(a\\ne c\\) 或 \\(b\\ne d\\)，则由两式相减可得两圆的对称轴方程.",
+          "solution": "将两个圆的方程分别记为\r\n$(x-a)^2+(y-b)^2=r^2$，$(x-c)^2+(y-d)^2=r^2$\r\n其中两个圆心不同. 两式相减，二次项和半径项消去，得到\r\n\n$$\n2(c-a)x+2(d-b)y+a^2+b^2-c^2-d^2=0\n$$\n\r\n这是一条直线，其法向量为 $(c-a,d-b)$，所以它垂直于两圆心连线；代入圆心连线中点 $\\left(\\dfrac{a+c}{2},\\dfrac{b+d}{2}\\right)$ 可验证该中点在此直线上. 因而这条直线就是两圆的对称轴.\r\n\r\n当 $a=b=0$，$c=0$，$d=3$，$r=1$ 时，上式化为 $6y-9=0$，即 $y=\\dfrac32$，正好得到题设结论. 所以该推广包含原命题.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "据报道，我国目前已成为世界上受荒漠化危害最严重的国家之一. 下左图表示我国土地沙化总面积在上个世纪五六十年代，七八十年代，九十年代的变化情况. 由图中的相关信息，可将上述有关年代中，我国年平均土地沙化面积在下右图中图示为： _______ {}\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/shanghai_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "在 \\(1950\\) 至 \\(1970\\)、\\(1970\\) 至 \\(1990\\)、\\(1990\\) 至 \\(2000\\) 年间，纵坐标分别为 \\(16\\)、\\(21\\)、\\(25\\)（百平方公里）.",
+          "solution": "由左图可知，$1950$ 至 $1970$ 年土地沙化总面积增加 $253.3-250.1=3.2$ 万平方公里，年平均增加 $3.2\\div20=0.16$ 万平方公里，即 $16$ 百平方公里；$1970$ 至 $1990$ 年年平均增加 $(257.5-253.3)\\div20=0.21$ 万平方公里，即 $21$ 百平方公里；$1990$ 至 $2000$ 年年平均增加 $(260-257.5)\\div10=0.25$ 万平方公里，即 $25$ 百平方公里. 因此右图应在这三个时间段分别画出高度为 $16$、$21$、$25$ 的阶梯图.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "$a=3$ 是直线 $ax+2y+3a=0$ 和直线 $3x+(a-1)y=a-7$ 平行且不重合的（ ）",
+          "choices": [
+            "充分非必要条件",
+            "必要非充分条件",
+            "充要条件",
+            "既非充分也非必要条件"
+          ],
+          "answer": "C",
+          "solution": "若 $a=3$，两直线方程分别为\r\n$3x+2y+9=0$，$3x+2y+4=0$.\r\n它们的斜率相同，且常数项不同，因此平行且不重合，故 $a=3$ 是该命题的充分条件.\r\n\r\n反过来，两直线平行的充要条件为\r\n\n$$\na(a-1)-3\\times2=0\n$$\n\r\n即\r\n\n$$\na^2-a-6=0\\Longleftrightarrow (a-3)(a+2)=0\n$$\n\r\n当 $a=-2$ 时，两式都化为直线 $-x+y-3=0$，两直线重合，不符合“不重合”的条件；所以平行且不重合只能有 $a=3$. 因而 $a=3$ 也是必要条件，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "在平行六面体 $ABCD-A_1B_1C_1D_1$ 中，$M$ 为 $AC$ 与 $BD$ 的交点，若 $\\overrightarrow{A_1B_1}=\\mathbf{a}$，$\\overrightarrow{A_1D_1}=\\mathbf{b}$，$\\overrightarrow{A_1A}=\\mathbf{c}$，则下列向量中与 $\\overrightarrow{B_1M}$ 相等的向量是（ ）",
+          "choices": [
+            "$-\\frac{1}{2}\\mathbf{a}+\\frac{1}{2}\\mathbf{b}+\\mathbf{c}$",
+            "$\\frac{1}{2}\\mathbf{a}+\\frac{1}{2}\\mathbf{b}+\\mathbf{c}$",
+            "$\\frac{1}{2}\\mathbf{a}-\\frac{1}{2}\\mathbf{b}+\\mathbf{c}$",
+            "$-\\frac{1}{2}\\mathbf{a}-\\frac{1}{2}\\mathbf{b}+\\mathbf{c}$"
+          ],
+          "answer": "A",
+          "solution": "以 $A_1$ 为原点，用 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 分别表示 $\\overrightarrow{A_1B_1}$，$\\overrightarrow{A_1D_1}$，$\\overrightarrow{A_1A}$. 则\r\n$\\overrightarrow{A_1B_1}=\\mathbf{a}$，$\\overrightarrow{A_1A}=\\mathbf{c}$，$\\overrightarrow{A_1C}=\\mathbf{a}+\\mathbf{b}+\\mathbf{c}$.\r\n因为平行四边形 $ABCD$ 的对角线互相平分，$M$ 是 $AC$ 的中点，所以\r\n\n$$\n\\overrightarrow{A_1M}=\\frac12\\left(\\mathbf{c}+\\mathbf{a}+\\mathbf{b}+\\mathbf{c}\\right)=\\frac12\\mathbf{a}+\\frac12\\mathbf{b}+\\mathbf{c}\n$$\n\r\n于是\r\n\n$$\n\\overrightarrow{B_1M}=\\overrightarrow{A_1M}-\\overrightarrow{A_1B_1}\r\n=-\\frac12\\mathbf{a}+\\frac12\\mathbf{b}+\\mathbf{c}\n$$\n\r\n对应选项 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "已知 $a$，$b$ 为两条不同的直线，$\\alpha$，$\\beta$ 为两个不同的平面，且 $a\\perp\\alpha$，$b\\perp\\beta$，则下列命题中的假命题是（ ）",
+          "choices": [
+            "若 $a\\parallel b$，则 $\\alpha\\parallel\\beta$",
+            "若 $\\alpha\\perp\\beta$，则 $a\\perp b$",
+            "若 $a$，$b$ 相交，则 $\\alpha$，$\\beta$ 相交",
+            "若 $\\alpha$，$\\beta$ 相交，则 $a$，$b$ 相交"
+          ],
+          "answer": "D",
+          "solution": "由于直线垂直于平面时，直线方向是该平面的法向方向：若 $a\\parallel b$，则两个平面的法向方向平行，结合 $\\alpha\\ne\\beta$，可得 $\\alpha\\parallel\\beta$，所以 A 正确；若 $\\alpha\\perp\\beta$，则两平面的法向方向垂直，所以 $a\\perp b$，B 正确.\r\n\r\n若 $a$，$b$ 相交而 $\\alpha$，$\\beta$ 不相交，则两个不同平面必平行，从而其法向方向平行，导致 $a\\parallel b$，与两条不同直线相交矛盾，因此 C 正确.\r\n\r\nD 不一定成立. 例如取 $\\alpha:z=0$，$\\beta:y=0$，两平面相交；取 $a$ 为过 $(0,0,1)$ 且方向为 $(0,0,1)$ 的直线，取 $b$ 为过 $(1,0,0)$ 且方向为 $(0,1,0)$ 的直线. 则 $a\\perp\\alpha$，$b\\perp\\beta$，但 $a$，$b$ 不相交. 所以假命题是 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "用计算器验算函数 $y=\\frac{\\lg x}{x}$（$x>1$）的若干个值，可以猜想下列命题中的真命题只能是（ ）",
+          "choices": [
+            "$y=\\frac{\\lg x}{x}$ 在 $(1,+\\infty)$ 上是单调减函数",
+            "$y=\\frac{\\lg x}{x}$，$x\\in(1,+\\infty)$ 的值域为 $\\left(0,\\frac{\\lg 3}{3}\\right]$",
+            "$y=\\frac{\\lg x}{x}$，$x\\in(1,+\\infty)$ 有最小值",
+            "$\\displaystyle\\lim_{n\\to\\infty}\\frac{\\lg n}{n}=0$，$n\\in\\mathbb{N}$"
+          ],
+          "answer": "D",
+          "solution": "令 $f(x)=\\dfrac{\\lg x}{x}$. 先比较几个定义域内的值：\r\n$f(2)=\\frac{\\lg2}{2}\\approx0.1505$，$f(3)=\\frac{\\lg3}{3}\\approx0.1590$，\r\n所以函数在 $(1,+\\infty)$ 上不可能单调递减，选项 A 错. 又\r\n\n$$\nf(2.7)=\\frac{\\lg2.7}{2.7}\\approx0.15976>\\frac{\\lg3}{3}\n$$\n\r\n故选项 B 所给的值域上界也不正确. 对任意 $x>1$，有 $f(x)>0$，而 $\\displaystyle\\lim_{x\\to+\\infty}f(x)=0$，所以函数没有最小值，选项 C 错.\r\n\r\n利用对数函数增长速度低于一次函数，\r\n\n$$\n\\lim_{x\\to+\\infty}\\frac{\\lg x}{x}=0\n$$\n\r\n取 $x=n\\in\\mathbb{N}$ 即得\r\n\n$$\n\\lim_{n\\to\\infty}\\frac{\\lg n}{n}=0\n$$\n\r\n因此只有选项 D 是真命题.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "已知 $a$，$b$，$c$ 是 $\\triangle ABC$ 中 $\\angle A$，$\\angle B$，$\\angle C$ 的对边，$S$ 是 $\\triangle ABC$ 的面积，若 $a=4$，$b=5$，$S=5\\sqrt{3}$，求 $c$ 的长度.",
+          "choices": [],
+          "answer": "",
+          "solution": "由三角形面积公式，\r\n\n$$\nS=\\frac{1}{2}ab\\sin C=10\\sin C=5\\sqrt{3}\n$$\n\r\n所以 $\\sin C=\\dfrac{\\sqrt{3}}{2}$. 因为 $0<C<\\pi$，所以 $C=\\dfrac{\\pi}{3}$ 或 $C=\\dfrac{2\\pi}{3}$. 由余弦定理，\r\n\n$$\nc^2=a^2+b^2-2ab\\cos C=41-40\\cos C\n$$\n\r\n当 $C=\\dfrac{\\pi}{3}$ 时，$c^2=41-20=21$，得 $c=\\sqrt{21}$；当 $C=\\dfrac{2\\pi}{3}$ 时，$c^2=41+20=61$，得 $c=\\sqrt{61}$. 两个值均满足三角形三边关系，故 $c=\\sqrt{21}$ 或 $c=\\sqrt{61}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "设 $F_1$，$F_2$ 为椭圆 $\\frac{x^2}{9}+\\frac{y^2}{4}=1$ 的两个焦点，$P$ 为椭圆上的一点. 已知 $P$，$F_1$，$F_2$ 是一个直角三角形的三个顶点，且 $|PF_1|>|PF_2|$，求 $\\frac{|PF_1|}{|PF_2|}$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "设 $r_1=|PF_1|$，$r_2=|PF_2|$. 椭圆的长半轴为 $3$，由椭圆定义得 $r_1+r_2=6$；焦距满足 $c=\\sqrt{3^2-2^2}=\\sqrt{5}$，所以 $|F_1F_2|=2\\sqrt{5}$，即 $|F_1F_2|^2=20$.\r\n\r\n当直角在 $P$ 处时，勾股定理给出 $r_1^2+r_2^2=20$. 结合 $(r_1+r_2)^2=36$，得 $r_1r_2=8$，从而 $r_1$，$r_2$ 是方程 $t^2-6t+8=0$ 的两个根. 因为 $r_1>r_2$，所以 $r_1=4$，$r_2=2$，此时 $\\dfrac{r_1}{r_2}=2$.\r\n\r\n当直角在 $F_1$ 处时，$r_2^2=r_1^2+20$. 联立 $r_1+r_2=6$，得 $r_1=\\dfrac{4}{3}$，$r_2=\\dfrac{14}{3}$，与 $r_1>r_2$ 矛盾，故此情形不成立.\r\n\r\n当直角在 $F_2$ 处时，$r_1^2=r_2^2+20$. 联立 $r_1+r_2=6$，得 $r_1=\\dfrac{14}{3}$，$r_2=\\dfrac{4}{3}$，此时 $\\dfrac{r_1}{r_2}=\\dfrac{7}{2}$. 因此所求比值为 $2$ 或 $\\dfrac{7}{2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "在棱长为 $a$ 的正方体 $OABC-O'A'B'C'$ 中，$E$，$F$ 分别是棱 $AB$，$BC$ 上的动点，且 $AE=BF$.\r\n\n(1) 求证：$A'F\\perp C'E$；\n\n(2) 当三棱锥 $B'-BEF$ 的体积取得最大值时，求二面角 $B'-EF-B$ 的大小.（结果用反三角函数表示）",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 建立空间直角坐标系，取 $O=(0,0,0)$，$A=(a,0,0)$，$B=(a,a,0)$，$C=(0,a,0)$，并取竖直方向为第三坐标轴. 设 $AE=BF=t$，其中 $0\\le t\\le a$，则\r\n$E=(a,t,0)$，$F=(a-t,a,0)$，$A'=(a,0,a)$，$C'=(0,a,a)$.\r\n于是\r\n$\\overrightarrow{A'F}=(-t,a,-a)$，$\\overrightarrow{C'E}=(a,t-a,-a)$，\r\n从而\r\n\n$$\n\\overrightarrow{A'F}\\cdot\\overrightarrow{C'E}=-at+a(t-a)+a^2=0\n$$\n\r\n所以 $A'F\\perp C'E$.\n\n(2) 设 $BF=AE=x$. 因为 $EB=a-x$，且 $AB\\perp BC$，所以\r\n\n$$\nS_{\\triangle BEF}=\\frac{1}{2}x(a-x)\n$$\n\r\n点 $B'$ 到平面 $BEF$（即底面 $OABC$）的距离为 $a$，故三棱锥体积为\r\n\n$$\nV=\\frac{1}{3}S_{\\triangle BEF}\\cdot a=\\frac{a}{6}x(a-x)\n$$\n\r\n由 $x(a-x)\\le\\dfrac{a^2}{4}$，且等号当且仅当 $x=\\dfrac{a}{2}$，可知体积最大时 $E$，$F$ 分别为 $AB$，$BC$ 的中点.\r\n\r\n此时 $BE=BF=\\dfrac{a}{2}$，在直角三角形 $BEF$ 中，设从 $B$ 向 $EF$ 作垂线，垂足为 $H$. 则\r\n\n$$\nBH=\\frac{BE\\cdot BF}{EF}=\\frac{(\\frac{a}{2})^2}{\\frac{a}{\\sqrt{2}}}=\\frac{a}{2\\sqrt{2}}\n$$\n\r\n过 $B'B$ 和 $BH$ 的平面垂直于 $EF$，其与两个侧面的交线分别为 $B'H$ 和 $BH$，所以二面角 $B'-EF-B$ 的平面角为 $\\angle B'HB$. 在直角三角形 $B'BH$ 中，$BB'=a$，因此\r\n\n$$\n\\tan\\angle B'HB=\\frac{BB'}{BH}=2\\sqrt{2}\n$$\n\r\n故二面角的大小为 $\\arctan\\left(2\\sqrt{2}\\right)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "对任意一个非零复数 $z$，定义集合 $M_z=\\{\\omega\\mid \\omega=z^{2n-1},n\\in\\mathbb{N}\\}$.\r\n\n(1) 设 $a$ 是方程 $x+\\frac{1}{x}=\\sqrt{2}$ 的一个根，试用列举法表示集合 $M_a$. 若在 $M_a$ 中任取两个数，求其和为零的概率 $P$；\n\n(2) 设集合 $M_z$ 中只有 3 个元素，试写出满足条件的一个 $z$ 的值，并说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由\r\n\n$$\nx+\\frac{1}{x}=\\sqrt{2}\n$$\n\r\n得\r\n\n$$\nx^2-\\sqrt{2}x+1=0\n$$\n\r\n即\r\n\n$$\n\\left(x-\\frac{\\sqrt{2}}{2}\\right)^2+\\frac{1}{2}=0\n$$\n\r\n所以方程的两个复数根为\r\n\n$$\na=\\frac{1+\\mathrm{i}}{\\sqrt{2}} \\text{或}  a=\\frac{1-\\mathrm{i}}{\\sqrt{2}}\n$$\n\r\n若 $a=\\frac{(1+\\mathrm{i})}{\\sqrt{2}}$，则 $a^2=\\mathrm{i}$；若 $a=\\frac{(1-\\mathrm{i})}{\\sqrt{2}}$，则 $a^2=-\\mathrm{i}$. 两种情形的奇次幂都得到同一组四个数，因而\r\n\n$$\nM_a=\\left\\{\\frac{1+\\mathrm{i}}{\\sqrt{2}},\\frac{-1+\\mathrm{i}}{\\sqrt{2}},\\frac{-1-\\mathrm{i}}{\\sqrt{2}},\\frac{1-\\mathrm{i}}{\\sqrt{2}}\\right\\}\n$$\n\r\n从这四个不同的数中任取两个，所有等可能的取法共有\r\n$\\mathrm C_4^2=6$ 种. 和为零的取法是互为相反数的两对：\r\n$\\left\\{\\frac{1+\\mathrm{i}}{\\sqrt{2}},\\frac{-1-\\mathrm{i}}{\\sqrt{2}}\\right\\}$，$\\left\\{\\frac{-1+\\mathrm{i}}{\\sqrt{2}},\\frac{1-\\mathrm{i}}{\\sqrt{2}}\\right\\}$.\r\n因此\r\n\n$$\nP=\\frac{2}{\\mathrm C_4^2}=\\frac{1}{3}\n$$\n\n(2) 取\r\n\n$$\nz=\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i}\n$$\n\r\n则 $z^2=-\\dfrac{1}{2}+\\dfrac{\\sqrt{3}}{2}\\mathrm{i}$，且 $(z^2)^3=1$，而 $z^2\\ne1$. 于是 $z^{2n-1}=z(z^2)^{n-1}$ 按三个值循环，具体为\r\n\n$$\nM_z=\\left\\{\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i},-1,\\frac{1}{2}-\\frac{\\sqrt{3}}{2}\\mathrm{i}\\right\\}\n$$\n\r\n这三个数互不相同，所以 $M_z$ 中恰有 $3$ 个元素.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "用水清洗一堆蔬菜上残留的农药，对用一定量的水清洗一次的效果作如下假定：用 $1$ 个单位量的水可洗掉蔬菜上残留农药用量的 $\\frac{1}{2}$，用水越多，洗掉的农药量也越多，但总还有农药残留在蔬菜上. 设用 $x$ 单位量的水清洗一次以后，蔬菜上残留的农药与本次清洗前残留的农药量之比为函数 $f(x)$.\r\n\n(1) 试规定 $f(0)$ 的值，并解释其实际意义；\n\n(2) 试根据假定写出函数 $f(x)$ 应该满足的条件和具有的性质；\n\n(3) 设 $f(x)=\\frac{1}{1+x^2}$，现有 $a$（$a>0$）单位量的水，可以清洗一次，也可以把水平均分成 $2$ 份后清洗两次. 试问用哪种方案清洗后蔬菜上的农药量比较少？说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 规定 $f(0)=1$. 这表示使用 $0$ 单位量的水时没有发生清洗，清洗后农药残留量与清洗前相同.\n\n(2) 函数的定义域为 $[0,+\\infty)$，并且 $f(0)=1$，$f(1)=\\dfrac{1}{2}$. 由于用水越多，洗掉的农药越多，残留比例应在 $[0,+\\infty)$ 上单调递减；又因为清洗后仍有农药残留，所以对任意 $x\\geqslant0$，有 $f(x)>0$. 因而 $0<f(x)\\leqslant1$.\n\n(3) 设清洗前农药量为 $A>0$. 一次使用全部水量时，清洗后残留量为\r\n\n$$\nA f(a)=\\frac{A}{1+a^2}\n$$\n\r\n将水平均分成两份清洗两次时，每次用水 $\\frac{a}{2}$，第一次清洗后残留量为 $A f(\\frac{a}{2})$，第二次清洗后残留量为\r\n\n$$\nA f\\left(\\frac{a}{2}\\right)^2=\\frac{A}{\\left(1+\\frac{a^2}{4}\\right)^2}\n$$\n\r\n因为 $A>0$，两次清洗效果更好当且仅当\r\n\n$$\n\\frac{1}{\\left(1+\\frac{a^2}{4}\\right)^2}<\\frac{1}{1+a^2}\r\n\\Longleftrightarrow \\left(1+\\frac{a^2}{4}\\right)^2>1+a^2\r\n\\Longleftrightarrow a^2(a^2-8)>0\n$$\n\r\n结合 $a>0$，得当 $a>2\\sqrt{2}$ 时两次清洗后残留较少；当 $a=2\\sqrt{2}$ 时两种方案效果相同；当 $0<a<2\\sqrt{2}$ 时一次清洗后残留较少.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "对任意函数 $f(x)$，$x\\in D$，可按图示构造一个数列发生器，其工作原理如下：\r\n\\begin{circlelist}\r\n\\item 输入数据 $x_0\\in D$，经数列发生器输出 $x_1=f(x_0)$；\r\n\\item 若 $x_1\\notin D$，则数列发生器结束工作；若 $x_1\\in D$，则将 $x_1$ 反馈回输入端，再输出 $x_2=f(x_1)$，并依此规律继续下去.\r\n\\end{circlelist}\r\n现定义 $f(x)=\\frac{4x-2}{x+1}$.\r\n\r\n\n(1) 若输入 $x_0=\\frac{49}{65}$，则由数列发生器产生数列 $\\{x_n\\}$. 请写出数列 $\\{x_n\\}$ 的所有项；\n\n(2) 若要数列发生器产生一个无穷的常数数列，试求输出的初始数据 $x_0$ 的值；\n\n(3) 是否存在 $x_0$，在输入数据 $x_0$ 时，该数列发生器产生一个各项均为负数的无穷数列？若存在，求出 $x_0$ 的值；若不存在，请说明理由.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/shanghai_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由于 $f(x)=\\dfrac{4x-2}{x+1}$ 的定义域为 $D=\\{x\\in\\mathbb{R}\\mid x\\ne-1\\}$，依次计算得\r\n\n$$\nx_1=f\\left(\\frac{49}{65}\\right)=\\frac{\\frac{196}{65}-2}{\\frac{49}{65}+1}=\\frac{11}{19}\n$$\n\r\n$x_2=f\\left(\\frac{11}{19}\\right)=\\frac{\\frac{44}{19}-2}{\\frac{11}{19}+1}=\\frac{1}{5}$，$x_3=f\\left(\\frac{1}{5}\\right)=\\frac{\\frac{4}{5}-2}{\\frac{1}{5}+1}=-1$.\r\n因为 $x_3=-1\\notin D$，发生器在输出 $x_3$ 后结束，所以数列的所有项为 $\\dfrac{11}{19}$，$\\dfrac{1}{5}$，$-1$.\n\n(2) 要得到无穷的常数数列，初始数据必须是函数的不动点，即 $x_0=f(x_0)$. 因为 $x_0\\ne-1$，所以\r\n\n$$\nx_0=\\frac{4x_0-2}{x_0+1}\\Longleftrightarrow x_0^2-3x_0+2=0\\Longleftrightarrow (x_0-1)(x_0-2)=0\n$$\n\r\n因此 $x_0=1$ 或 $x_0=2$，这两个值均在定义域内，且确实分别产生恒为 $1$、恒为 $2$ 的无穷常数数列.\n\n(3) 不存在这样的 $x_0$. 事实上，若某一项 $x_n<0$，分两种情况讨论：当 $x_n<-1$ 时，分子和分母均为负数，故 $x_{n+1}=f(x_n)>0$；当 $-1<x_n<0$ 时，分母为正数，且\r\n\n$$\nf(x_n)<-1\\Longleftrightarrow 4x_n-2<-x_n-1\\Longleftrightarrow 5x_n<1\n$$\n\r\n所以 $x_{n+1}<-1$，再由前一种情况得 $x_{n+2}>0$. 因此负数项之后至多再出现一项负数，不可能形成各项均为负数的无穷数列.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

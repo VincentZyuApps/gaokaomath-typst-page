@@ -1,0 +1,350 @@
+// 历年全国高考数学真题 - Typst 高清排版
+#import "/templates/exam.typ": *
+
+#show: exam-setup.with(
+  title: "1998年普通高等学校招生全国统一考试",
+  subtitle: "1998年全国卷（文）",
+  show-answers: true,
+  two-column: false,
+)
+
+#part-header("单选题")
+
+#problem(1)[
+$sin 600 ""^( degree )$ 的值是（ ）
+  #choices([$(1)/(2)$], [$-(1)/(2)$], [$(sqrt(3))/(2)$], [$-(sqrt(3))/(2)$], cols: 2)
+]
+
+#answer([D])
+
+#solution[
+因为 $600^( degree )=360^( degree )+240^( degree )$，所以
+$sin 600 ""^( degree )= sin 240 ""^( degree )=- sin 60 ""^( degree )=-(sqrt(3))/(2)$，故选 D.
+]
+
+#problem(2)[
+函数 $y=a^(|x|)$（$a>1$）的图象是（ ）
+  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/1998/img/national_liberal/q2_optA_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/1998/img/national_liberal/q2_optB_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/1998/img/national_liberal/q2_optC_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/1998/img/national_liberal/q2_optD_clean.png", height: 100%, fit: "contain")]]], cols: 2)
+]
+
+#answer([B])
+
+#solution[
+因为 $a>1$ 且 $|x| >= 0$，所以 $a^(|x|) >= 1$，等号仅在 $x=0$ 时成立；又 $a^(|-x|)=a^(|x|)$，图象关于 $y$ 轴对称，并随 $|x|$ 增大而增大. 因此图象在 $(0,1)$ 处取得最小值，符合选项 B.
+]
+
+#problem(3)[
+已知直线 $x=a$（$a>0$）和圆 $(x - 1)^2 + y^2 = 4$ 相切，那么 $a$ 的值是（ ）
+  #choices([$5$], [$4$], [$3$], [$2$], cols: 4)
+]
+
+#answer([C])
+
+#solution[
+圆的圆心为 $(1,0)$，半径为 $2$. 直线 $x=a$ 与圆相切，当且仅当圆心到该直线的距离等于半径，即 $|a-1|=2$. 因为 $a>0$，所以 $a=3$，故选 C.
+]
+
+#problem(4)[
+两条直线 $A_(1)x + B_(1)y + C_(1) = 0$，$A_(2)x + B_(2)y + C_(2) = 0$ 垂直的充要条件是（ ）
+  #choices([$A_(1)A_(2) + B_(1)B_(2) = 0$], [$A_(1)A_(2) - B_(1)B_(2) = 0$], [$(A_(1) A_2)/(B_(1) B_2)= -1$], [$(B_(1) B_2)/(A_(1) A_2)= 1$], cols: 2)
+]
+
+#answer([A])
+
+#solution[
+两条直线的方向向量可分别取 $(B_(1),-A_(1))$ 和 $(B_(2),-A_(2))$. 两直线垂直的充要条件是方向向量的内积为零，因此
+$B_(1)B_(2)+A_(1)A_(2)=0$，即 $A_(1)A_(2)+B_(1)B_(2)=0$，故选 A.
+]
+
+#problem(5)[
+函数 $f(x)=(1)/(x)$（$x != 0$）的反函数 $f^(-1)(x)=$（ ）
+  #choices([$x$（$x != 0$）], [$(1)/(x)$（$x != 0$）], [$-x$（$x != 0$）], [$-(1)/(x)$（$x != 0$）], cols: 2)
+]
+
+#answer([B])
+
+#solution[
+令 $y=f(x)=(1)/(x)$，则 $x=(1)/(y)$. 由于 $x\n e q0$，有 $y\n e q0$；交换 $x$、$y$ 后仍得 $y=(1)/(x)$. 所以 $f^(-1)(x)=(1)/(x)$（$x\n e q0$），故选 B.
+]
+
+#problem(6)[
+已知点 $P( sin alpha - cos alpha , tan alpha )$ 在第一象限，则在 $[0, 2 pi ]$ 内 $alpha$ 的取值范围是（ ）
+  #choices([$((pi)/(2), (3 pi)/(4)) union ( pi , (5 pi)/(4))$], [$((pi)/(4), (pi)/(2)) union ( pi , (5 pi)/(4))$], [$((pi)/(2), (3 pi)/(4)) union ((5 pi)/(4), (3 pi)/(2))$], [$((pi)/(4), (pi)/(2)) union ((3 pi)/(4), pi )$], cols: 1)
+]
+
+#answer([B])
+
+#solution[
+点 $P$ 在第一象限等价于 $tan alpha >0$ 且 $sin alpha - cos alpha >0$. 在 $[0,2 pi ]$ 内，$tan alpha >0$ 给出
+$alpha in (0,(pi)/(2)) union ( pi ,(3 pi)/(2))$. 又
+$sin alpha - cos alpha =sqrt(2) sin ( alpha -(pi)/(4))$，所以取交集得到
+$alpha in ((pi)/(4),(pi)/(2)) union ( pi ,(5 pi)/(4))$，故选 B.
+]
+
+#problem(7)[
+已知圆锥的全面积是底面积的 $3$ 倍，那么该圆锥的侧面展开图扇形的圆心角为（ ）
+  #choices([$120^( degree )$], [$150^( degree )$], [$180^( degree )$], [$240^( degree )$], cols: 2)
+]
+
+#answer([C])
+
+#solution[
+设圆锥底面半径为 $r$，母线长为 $l$. 由全面积是底面积的 $3$ 倍，得
+$pi r l+ pi r^(2)=3 pi r^(2)$，所以 $l=2 r$. 设侧面展开图扇形的圆心角为 $theta$（弧度），则扇形弧长等于底面周长，故 $theta l=2 pi r$. 代入 $l=2 r$，得 $theta = pi =180^( degree )$，故选 C.
+]
+
+#problem(8)[
+复数 $- i$ 的一个立方根是 $i$，它的另外两个立方根是（ ）
+  #choices([$(sqrt(3))/(2) +- (1)/(2) i$], [$-(sqrt(3))/(2) +- (1)/(2) i$], [$+- (sqrt(3))/(2)+ (1)/(2) i$], [$+- (sqrt(3))/(2)- (1)/(2) i$], cols: 2)
+]
+
+#answer([D])
+
+#solution[
+设 $omega =-(1)/(2)+(sqrt(3))/(2) i$ 是三次单位根，则已知立方根 $i$ 的另外两个立方根为 $i omega$ 和 $i omega ""^(2)$. 计算得
+$i omega =-(sqrt(3))/(2)-(1)/(2) i$，$i omega ""^(2)=(sqrt(3))/(2)-(1)/(2) i$. 因此另外两个立方根为 $+- (sqrt(3))/(2)-(1)/(2) i$，故选 D.
+]
+
+#problem(9)[
+如果棱台的两底面积分别是 $S$，$S'$，中截面的面积是 $S_0$，那么（ ）
+  #choices([$2 sqrt(S_0)= sqrt(S)+ sqrt(S')$], [$S_0 = sqrt(S S')$], [$2 S_(0) = S + S^(\p r i m e)$], [$S_0^2 = 2 S S'$], cols: 1)
+]
+
+#answer([A])
+
+#solution[
+棱台的中截面与两底面平行，且相应的线性尺寸是两底面相应线性尺寸的平均值. 因而中截面的面积平方根是两底面积平方根的平均值，即
+$sqrt(S_(0))=(sqrt(S)+sqrt(S'))/(2)$. 所以
+$2 sqrt(S_(0))=sqrt(S)+sqrt(S')$，故选 A.
+]
+
+#problem(10)[
+$2$ 名医生和 $4$ 名护士被分配到 $2$ 所学校为学生体检，每校分配 $1$ 名医生和 $2$ 名护士，不同的分配方法共有（ ）
+  #choices([$6$ 种], [$12$ 种], [$18$ 种], [$24$ 种], cols: 4)
+]
+
+#answer([B])
+
+#solution[
+两名医生先分配到两所学校，有 $2!$ 种方法. 再从 $4$ 名护士中选出 $2$ 名分配到第一所学校，余下两名分配到第二所学校，有 $C_(4)^(2)$ 种方法. 因而总分配方法数为
+$2!C_(4)^(2)=2 times 6 =12$，故选 B.
+]
+
+#problem(11)[
+向高为 $H$ 的水瓶中注水，注满为止，如果注水量 $V$ 与水深 $h$ 的函数关系的图象如下图所示，那么水瓶的形状是（ ）
+
+
+#align(center)[#image("/papers/1998/img/national_liberal/q11_fig1.png", width: 30%)]
+  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/1998/img/national_liberal/q11_optA_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/1998/img/national_liberal/q11_optB_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/1998/img/national_liberal/q11_optC_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/1998/img/national_liberal/q11_optD_clean.png", height: 100%, fit: "contain")]]], cols: 2)
+]
+
+#answer([B])
+
+#solution[
+图象的斜率表示水深增加单位长度所需增加的水量. 由图可知，随着 $h$ 增大，斜率逐渐减小，说明水瓶各高度处的水平截面积自下而上逐渐减小，即瓶底较宽、瓶口较窄. 四个图形中符合这一特征的是选项 B.
+]
+
+#problem(12)[
+椭圆 $(x^2)/(12)+ (y^2)/(3)= 1$ 的焦点为 $F_1$ 和 $F_2$. 点 $P$ 在椭圆上，如果线段 $P F_1$ 的中点 $M$ 在 $y$ 轴上，那么点 $M$ 的纵坐标是（ ）
+  #choices([$+- (sqrt(3))/(4)$], [$+- (sqrt(2))/(2)$], [$+- (sqrt(3))/(2)$], [$+- (3)/(4)$], cols: 2)
+]
+
+#answer([A])
+
+#solution[
+椭圆的半长轴、半短轴分别为 $2 sqrt(3)$、$sqrt(3)$，所以焦半距为
+$c=sqrt(12-3)=3$. 取 $F_1=(-3,0)$，设 $P=(x,y)$，则线段 $P F_1$ 的中点为
+$M=((x-3)/(2),(y)/(2))$. 由于 $M$ 在 $y$ 轴上，
+$(x-3)/(2)=0$，所以 $x=3$. 代入椭圆方程得
+$(3^2)/(12)+(y^2)/(3)=1$，即 $y^2=(3)/(4)$. 因而点 $M$ 的纵坐标为
+$(y)/(2)= +- (sqrt(3))/(4)$，故选 A.
+]
+
+#problem(13)[
+球面上有 $3$ 个点，其中任意两点的球面距离都等于大圆周长的 $(1)/(6)$，经过这 $3$ 个点的小圆的周长为 $4 pi$，那么这个球的半径为（ ）
+  #choices([$4 sqrt(3)$], [$2 sqrt(3)$], [$2$], [$sqrt(3)$], cols: 4)
+]
+
+#answer([B])
+
+#solution[
+设球的半径为 $R$. 任意两点的球面距离为大圆周长的 $(1)/(6)$，所以这两点所对的球心角为 $(2 pi)/(6)=(pi)/(3)$，两点间的弦长为 $2 R sin (pi)/(6)=R$. 因而这三个点在同一平面内构成边长为 $R$ 的等边三角形，其外接圆就是题目所说的小圆. 设小圆半径为 $r$，等边三角形外接圆半径满足 $r=(R)/(sqrt(3))$. 又小圆周长为 $4 pi$，所以 $2 pi r=4 pi$，即 $r=2$. 因此 $R=2 sqrt(3)$，故选 B.
+]
+
+#problem(14)[
+一个直角三角形三内角的正弦值成等比数列，其最小内角的正弦值为（ ）
+  #choices([$(1-sqrt(5))/(2)$], [$(sqrt(2 sqrt(5)-2))/(2)$], [$(sqrt(5)-1)/(2)$], [$(sqrt(2 sqrt(5)+2))/(2)$], cols: 2)
+]
+
+#answer([C])
+
+#solution[
+设直角三角形的两个锐角按大小记为 $0< alpha <= beta <(pi)/(2)$. 若 $alpha = beta$，则三项正弦值中前两项相等，等比条件将给出 $sin ""^2 alpha = sin alpha$，这与 $0< sin alpha <1$ 矛盾，故 $0< alpha < beta <(pi)/(2)$. 三个内角的正弦值按从小到大排列为 $sin alpha$、$sin beta$、$1$，成等比数列，因此 $sin ""^2 beta = sin alpha$. 又 $alpha + beta =(pi)/(2)$，所以 $sin alpha = cos beta$. 令 $s= sin alpha$，则 $sin beta =sqrt(1-s^2)$，等比条件给出 $1-s^2=s$，即 $s^2+s-1=0$. 因为 $s>0$，所以 $s=(sqrt(5)-1)/(2)$. 因此正确选项为 C.
+]
+
+#problem(15)[
+等比数列 $\{a_(n)\}$ 的公比为 $-(1)/(2)$，前 $n$ 项和为 $S_(n)$，满足 $lim_(n -> oo ) S_n = (1)/(a_1)$，那么 $a_1$ 的值为（ ）
+  #choices([$+- sqrt(3)$], [$+- (3)/(2)$], [$\p m s q r t(2)$], [$+- (sqrt(6))/(2)$], cols: 2)
+]
+
+#answer([D])
+
+#solution[
+等比数列的公比为 $q=-(1)/(2)$，且 $|q|<1$，所以
+$lim_(n -> oo )S_n=(a_1)/(1-q)=(2 a_1)/(3)$. 由题设
+$(2 a_1)/(3)=(1)/(a_1)$，得 $2 a_1^2=3$. 因而
+$a_1=\p m s q r t((3)/(2))= +- (sqrt(6))/(2)$，故选 D.
+]
+
+#part-header("填空题")
+
+#problem(16)[
+设圆过双曲线 $(x^(2))/(9)- (y^(2))/(16)= 1$ 的一个顶点和一个焦点，圆心在此双曲线上，则圆心到双曲线中心的距离是#blank(){}.
+]
+
+#answer([$(16)/(3)$])
+
+#solution[
+双曲线的半实轴、半虚轴分别为 $3$、$4$，所以焦半距为 $sqrt(3^2+4^2)=5$. 由对称性，不妨取顶点 $A=(3,0)$ 和同一支上的焦点 $F=(5,0)$. 设所求圆的圆心为 $O=(u,v)$，因为 $O A=O F$，所以 $O$ 在 $A F$ 的垂直平分线上，即 $u=4$. 代入圆心在双曲线上的条件，得
+$(4^2)/(9)-(v^2)/(16)=1$，从而 $v^2=(112)/(9)$. 因此圆心到双曲线中心的距离为
+$sqrt(u^2+v^2)=sqrt(16+(112)/(9))=(16)/(3)$. 若取异支顶点和焦点，则垂直平分线的横坐标为 $-1$，不与双曲线相交，故上述情形给出唯一可能的距离.
+]
+
+#problem(17)[
+$(x + 2)^(10)(x^(2) - 1)$ 的展开式中 $x$ 的系数为#blank(){}.（用数字作答）
+]
+
+#answer([$-5120$])
+
+#solution[
+展开式中 $x$ 的系数只可能来自 $-1$ 乘以 $(x+2)^(10)$ 中的 $x$ 项，因为 $x^2$ 乘以任何项的次数都至少为 $2$. 而
+$(x+2)^(10)$ 中 $x$ 的系数为 $C_(10)^(1)2^(9)=5120$，所以所求系数为 $-5120$.
+]
+
+#problem(18)[
+在直四棱柱 $A_(1)B_(1)C_(1)D_(1) - A B C D$ 中，当底面四边形 $A B C D$ 满足条件#blank(){}时，有 $A_(1)C bot B_(1)D_(1)$. （注：写上你认为正确的一种条件即可，不必考虑所有可能的情形）
+]
+
+#answer([$A C bot B D$])
+
+#solution[
+设 $arrow(A A_(1))=bold(u)$，则 $bold(u) bot$ 底面 $A B C D$. 由直四棱柱的平移关系，
+$arrow(A_(1)C)=arrow(A C)-bold(u)$，且 $arrow(B_(1)D_(1))=arrow(B D)$. 因为 $bold(u)\p e r p a r r o w(B D)$，有
+$arrow(A_(1)C)\c d o t a r r o w(B_(1)D_(1))=arrow(A C)\c d o t a r r o w(B D)$. 因此只要底面两条对角线满足 $A C bot B D$，就有 $A_(1)C bot B_(1)D_(1)$，这就是一种正确条件.
+]
+
+#problem(19)[
+关于函数 $f(x)=4 sin (2 x+(pi)/(3))$（$x in RR$），有下列命题：
+\begin{circlelist}
+\item 由 $f(x_(1)) = f(x_(2)) = 0$ 可得 $x_(1) - x_(2)$ 必是 $pi$ 的整数倍；
+\item $y = f(x)$ 的表达式可改写为 $y = 4 cos (2 x - (pi)/(6))$；
+\item $y = f(x)$ 的图象关于点 $(-(pi)/(6),0)$ 对称；
+\item $y = f(x)$ 的图象关于直线 $x = -(pi)/(6)$ 对称.
+\end{circlelist}
+其中正确的命题的序号是#blank(){}.（注：把你认为正确的命题的序号都填上）
+]
+
+#answer([$"[2]"\)、\("[3]"$])
+
+#solution[
+命题 1 中，令 $2 x+(pi)/(3)=k pi$，则函数零点为 $x=(k pi)/(2)-(pi)/(6)$. 两个零点之差为 $((k_1-k_2) pi)/(2)$，不一定是 $pi$ 的整数倍，所以命题 1 错误. 命题 2 由 $sin theta = cos ((pi)/(2)- theta )$ 得 $4 sin (2 x+(pi)/(3))=4 cos (2 x-(pi)/(6))$，所以命题 2 正确. 当 $x=-(pi)/(6)$ 时，函数值为零；正弦函数图象关于每一个零点中心对称，所以命题 3 正确. 直线对称轴应满足 $2 x+(pi)/(3)=(pi)/(2)+k pi$，即 $x=(pi)/(12)+(k pi)/(2)$，故 $x=-(pi)/(6)$ 不是对称轴，命题 4 错误. 因此正确命题的序号是 $2$、$3$.
+]
+
+#part-header("解答题")
+
+#problem(20)[
+设 $a != b$，解关于 $x$ 的不等式：$a^2 x + b^2 (1 - x) >= [a x + b(1 - x)]^2$.
+]
+
+#solution[
+将不等式右边移到左边并整理，得
+
+$ a^(2) x+b^2(1-x)-[a x+b(1-x)]^2=(a-b)^(2) x(1-x) >= 0 $
+
+因为 $a != b$，所以 $(a-b)^2>0$，原不等式等价于 $x(1-x) >= 0$. 这个二次式的两个零点为 $0$ 和 $1$，且在两零点之间取非负值，因此解集为 $x in [0,1]$.
+]
+
+#problem(21)[
+在 $triangle A B C$ 中，$a$，$b$，$c$ 分别是 $A$，$B$，$C$ 的对边，设 $a + c = 2 b$，$A - C = (pi)/(3)$，求 $sin B$ 的值.
+]
+
+#solution[
+由正弦定理，$a+c=2 b$ 等价于 $sin A+ sin C=2 sin B$. 由和差化积公式及 $A-C=(pi)/(3)$，有 $sin A+ sin C=2 sin (A+C)/(2) cos (pi)/(6)$. 又因为 $A+B+C= pi$，所以 $sin (A+C)/(2)= cos (B)/(2)$. 因而
+
+$ sqrt(3) cos (B)/(2)=2 sin B=4 sin (B)/(2) cos (B)/(2) $
+
+三角形内角满足 $0<B< pi$，故 $cos (B)/(2)>0$，约去后得 $sin (B)/(2)=(sqrt(3))/(4)$. 于是 $cos (B)/(2)=sqrt(1-(3)/(16))=(sqrt(13))/(4)$，从而 $sin B=2 sin (B)/(2) cos (B)/(2)=(sqrt(39))/(8)$.
+]
+
+#problem(22)[
+如图，直线 $l_(1)$ 和 $l_(2)$ 相交于点 $M$，$l_(1) bot l_(2)$，点 $N in l_(1)$. 以 $A$，$B$ 为端点的曲线段 $C$ 上的任一点到 $l_(2)$ 的距离与到点 $N$ 的距离相等. 若 $triangle A M N$ 为锐角三角形，$|A M| = sqrt(17)$，$|A N| = 3$，且 $|B N| = 6$. 建立适当的坐标系，求曲线段 $C$ 的方程.
+
+
+#align(center)[#image("/papers/1998/img/national_liberal/q22_fig1.png", width: 34%)]
+]
+
+#solution[
+取 $M N$ 的中点为原点，以 $l_1$ 为 $x$ 轴、$M N$ 的垂直平分线为 $y$ 轴，设 $M N=2 d$. 则 $M=(-d,0)$，$N=(d,0)$，而 $l_2$ 的方程为 $x=-d$. 由题意，曲线 $C$ 上任一点 $(x,y)$ 到 $l_2$ 的距离等于到 $N$ 的距离，所以 $(x+d)^2=(x-d)^2+y^2$，即曲线所在抛物线的方程为 $y^2=4 d x$. 设 $A=(x_A,y_A)$，由 $|A M|=sqrt(17)$、$|A N|=3$ 及上式得 $4 d x_A=17-9=8$，并且 $(x_A+d)^2+y_A^2=17$ 给出 $(x_A+d)^2=9$. 因为 $x_A+d>0$，故 $x_A+d=3$，再结合 $d x_A=2$，得到 $(d,x_A)=(2,1)$ 或 $(1,2)$.
+
+三角形 $A M N$ 为锐角三角形时，顶点 $N$ 处的内积为 $arrow(N M)\c d o t a r r o w(N A)=2 d(d-x_A)>0$，所以必须有 $d>x_A$，从而 $d=2$，$x_A=1$. 因此抛物线为 $y^2=8 x$，且 $M=(-2,0)$，$N=(2,0)$. 设 $B=(x_B,y_B)$，由 $|B N|=6$ 得 $(x_B-2)^2+y_B^2=36$. 代入 $y_B^2=8 x_B$，得 $x_B^2+4 x_B-32=0$，所以 $x_B=4$ 或 $-8$. 抛物线上 $x_B >= 0$，故 $x_B=4$，且由原图取上支 $y >= 0$. 所以曲线段 $C$ 的方程为 $y^2=8 x$，其中 $1 <= x <= 4$，$y >= 0$.
+]
+
+#problem(23)[
+已知斜三棱柱 $A B C - A_(1)B_(1)C_(1)$ 的侧面 $A_(1)A C C_(1)$ 与底面 $A B C$ 垂直，$angle A B C = 90^( degree )$，$B C = 2$，$A C = 2 sqrt(3)$. 且 $A A_(1) bot A_(1)C$，$A A_(1) = A_(1)C$.
+
+
++ (1) 求侧棱 $A_(1)A$ 与底面 $A B C$ 所成角的大小；
++ (2) 求侧面 $A_(1)A B B_(1)$ 与底面 $A B C$ 所成二面角的大小；
++ (3) 求侧棱 $B_(1)B$ 和侧面 $A_(1)A C C_(1)$ 的距离.
+
+
+
+#align(center)[#image("/papers/1998/img/national_liberal/q23_fig1.png", width: 48%)]
+]
+
+#solution[
++ (1) 在直角三角形 $A A_(1) C$ 中，$A A_1 bot A_(1) C$ 且 $A A_1=A_(1) C$，又 $A C=2 sqrt(3)$，所以 $A A_1=A_(1) C=sqrt(6)$. 设 $D$ 为 $A_1$ 在 $A C$ 上的垂足，则直角等腰三角形的斜边中线给出 $A D=D C=sqrt(3)$，且 $A_(1) D=sqrt(3)$. 因为平面 $A_(1) A C C_1 bot$ 平面 $A B C$，且 $A_(1) D bot A C$，所以 $A_(1) D bot$ 平面 $A B C$. 于是 $A D$ 是侧棱 $A A_1$ 在底面上的射影，$angle A_(1) A D=45^( degree )$，即侧棱与底面所成的角为 $45^( degree )$.
++ (2) 在底面内取坐标 $B=(0,0,0)$，$A=(2 sqrt(2),0,0)$，$C=(0,2,0)$. 则 $D=(sqrt(2),1,0)$，并由 $A_(1) D bot$ 底面且 $A_(1) D=sqrt(3)$ 得 $A_1=(sqrt(2),1,sqrt(3))$. 设 $E=(sqrt(2),0,0)$ 为 $D$ 在 $A B$ 上的垂足，则 $D E bot A B$，且 $A_(1) E bot A B$. 由 $|D E|=1$、$|A_(1) E|=2$，二面角的平面角为 $angle A_(1) E D$，满足 $cos angle A_(1) E D=(1)/(2)$，故该二面角为 $60^( degree )$.
++ (3) 设 $F$ 为 $B$ 到 $A C$ 的垂足. 由于 $B F bot A C$，且 $B F$ 在底面内，从而 $B F bot A_(1) D$；又平面 $A_(1) A C C_1$ 由相交直线 $A C$、$A_(1) D$ 张成，所以 $B F bot$ 平面 $A_(1) A C C_1$. 另外 $A_(1) A$ 在侧面 $A_(1) A C C_1$ 内，且 $B_(1) B parallel A_(1) A$，所以 $B_(1) B parallel$ 平面 $A_(1) A C C_1$，所求距离等于 $|B F|$. 在直角三角形 $A B C$ 中，$A B=sqrt(A C^2-B C^2)=2 sqrt(2)$，因此 $|B F|=(A B dot B C)/(A C)=(2 sqrt(2){ dot }2)/(2 sqrt(3))=(2 sqrt(6))/(3)$.
+]
+
+#problem(24)[
+如图，为处理含有某种杂质的污水，要制造一底宽为 $2" 米"$ 的无盖长方体沉淀槽，污水从 $A$ 孔流入，经沉淀后从 $B$ 孔流出. 设箱体的长度为 $a" 米"$，高度为 $b" 米"$. 已知流出的水中该杂质的质量分数与 $a$，$b$ 的乘积 $a b$ 成反比. 现有制箱材料 $60" 平方米"$. 问当 $a$，$b$ 各为多少米时，经沉淀后流出的水中该杂质的质量分数最小.（$A$，$B$ 孔的面积忽略不计）
+
+
+#align(center)[#image("/papers/1998/img/national_liberal/q24_fig1.png", width: 40%)]
+]
+
+#solution[
+设流出水中杂质的质量分数为 $y$，由题意存在常数 $k>0$，使 $y=(k)/(a b)$. 因而要使 $y$ 最小，只需在材料约束下使 $a b$ 最大. 无盖箱体的材料面积为底面 $2 a$、两个长侧面 $2 a b$ 和两个端面 $4 b$ 之和，所以 $2 a+2 a b+4 b=60$，即 $a+a b+2 b=30$. 令 $x=a b>0$，由基本不等式得 $a+2 b >= 2 sqrt(2 a b)=2 sqrt(2 x)$，于是 $x+2 sqrt(2 x) <= 30$. 令 $u=sqrt(2 x)>0$，则 $(u^2)/(2)+2 u <= 30$，即 $(u+2)^2 <= 64$，所以 $u <= 6$，从而 $a b=x <= 18$. 等号成立当且仅当 $a=2 b$. 由 $a b=18$ 得 $2 b^2=18$，所以 $b=3$，$a=6$. 因此当 $a=6" 米"$、$b=3" 米"$ 时，质量分数最小.
+]
+
+#problem(25)[
+已知数列 $\{b_(n)\}$ 是等差数列，$b_(1) = 1$，$b_(1) + b_(2) + dots.c + b_(10) = 145$.
+
+
++ (1) 求数列 $\{b_(n)\}$ 的通项 $b_n$；
++ (2) 设数列 $\{a_(n)\}$ 的通项 $a_n = \l g(1 + (1)/(b_n))$（其中 $a > 0$，且 $a != 1$），记 $S_n$ 是数列 $\{a_n\}$ 的前 $n$ 项和. 试比较 $S_n$ 与 $(1)/(2)\l g b_n + 1$ 的大小，并证明你的结论.
+]
+
+#solution[
+设等差数列 $\{b_n\}$ 的公差为 $d$. 由 $b_1=1$ 和前十项和公式，得 $145=(10)/(2)(2+9 d)$，所以 $d=3$，从而 $b_n=1+3(n-1)=3 n-2$.
+
+由此 $b_n>0$，且 $a_n=\l g(1+(1)/(b_n))=\l g(3 n-1)/(3 n-2)$. 令
+$P_n=prod_(k=1)^(n)(3 k-1)/(3 k-2)$，则
+$S_n=sum_(k=1)^(n)\l g(3 k-1)/(3 k-2)=\l g P_n$. 令
+$R_n=(P_n)/(sqrt(b_n))=(1)/(sqrt(3 n-2))prod_(k=1)^(n)(3 k-1)/(3 k-2)$.
+为判断 $R_n$ 的大小，计算得
+
+$ ((R_(n+1))/(R_n))^2 =((3 n+2)^2(3 n-2))/((3 n+1)^3) $
+
+又
+
+$ (3 n+1)^3-(3 n-2)(3 n+2)^2=9 n^2+21 n+9>0 $
+
+所以 $R_(n+1)<R_n$. 由于 $R_1=2$，可得 $R_n <= 2 <10$，即
+$P_n<10 sqrt(b_n)$. 取常用对数并利用 $\l g x$ 的增性，得
+$S_n=\l g P_n<\l g(10 sqrt(b_n))=1+(1)/(2)\l g b_n$.
+因此，对任意正整数 $n$，都有 $S_n<(1)/(2)\l g b_n+1$.
+]
+

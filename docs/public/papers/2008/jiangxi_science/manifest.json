@@ -1,0 +1,416 @@
+{
+  "year": "2008",
+  "slug": "jiangxi_science",
+  "title": "2008年江西卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "在复平面内，复数 $z = \\sin 2 + \\mathrm{i}\\cos 2$ 对应的点位于（ ）",
+          "choices": [
+            "第一象限",
+            "第二象限",
+            "第三象限",
+            "第四象限"
+          ],
+          "answer": "D",
+          "solution": "因为 $\\frac{\\pi}{2}<2<\\pi$，所以 $\\sin 2>0$，$\\cos 2<0$. 复数 $z=\\sin 2+\\mathrm{i}\\cos 2$ 对应的点的横坐标为正、纵坐标为负，故该点位于第四象限.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "定义集合运算： $A * B = \\{z \\mid z = xy, x \\in A, y \\in B\\}$. 设 $A = \\{1, 2\\}$，$B = \\{0, 2\\}$，则集合 $A * B$ 的所有元素之和为（ ）",
+          "choices": [
+            "$0$",
+            "$2$",
+            "$3$",
+            "$6$"
+          ],
+          "answer": "D",
+          "solution": "根据定义，取 $x\\in A$、$y\\in B$ 可得乘积 $1\\cdot0=0$、$1\\cdot2=2$、$2\\cdot0=0$、$2\\cdot2=4$. 因此\r\n\n$$\nA*B=\\{0,2,4\\}\n$$\n\r\n其所有元素之和为 $0+2+4=6$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "若函数 $y = f(x)$ 的值域是 $\\left[\\frac{1}{2}, 3\\right]$，则函数 $F(x) = f(x) + \\frac{1}{f(x)}$ 的值域是（ ）",
+          "choices": [
+            "$\\left[\\frac{1}{2}, 3\\right]$",
+            "$\\left[2, \\frac{10}{3}\\right]$",
+            "$\\left[\\frac{5}{2}, \\frac{10}{3}\\right]$",
+            "$\\left[3, \\frac{10}{3}\\right]$"
+          ],
+          "answer": "B",
+          "solution": "令 $t=f(x)$，则 $t\\in\\left[\\frac12,3\\right]$，且所求函数值为\r\n\n$$\nF=t+\\frac1t\n$$\n\r\n在 $t>0$ 时，函数 $t+\\frac1t$ 的导数为 $1-\\frac1{t^2}$，所以它在 $\\left[\\frac12,1\\right]$ 上递减，在 $[1,3]$ 上递增. 因而最小值为 $2$，最大值为\r\n\n$$\n\\max\\left\\{\\frac12+2,\\,3+\\frac13\\right\\}=\\frac{10}{3}\n$$\n\r\n所以值域为 $\\left[2,\\frac{10}{3}\\right]$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "$\\displaystyle \\lim\\limits_{x\\to 1}\\frac{\\sqrt{x + 3} - 2}{\\sqrt{x} - 1} =$ （ ）",
+          "choices": [
+            "$\\frac{1}{2}$",
+            "$0$",
+            "$-\\frac{1}{2}$",
+            "不存在"
+          ],
+          "answer": "A",
+          "solution": "当 $x\\ne1$ 时，分子、分母分别有理化，得\r\n\n$$\n\\frac{\\sqrt{x+3}-2}{\\sqrt{x}-1}\r\n=\\frac{x-1}{\\sqrt{x+3}+2}\\cdot\\frac{\\sqrt{x}+1}{x-1}\r\n=\\frac{\\sqrt{x}+1}{\\sqrt{x+3}+2}\n$$\n\r\n令 $x\\to1$，得到\r\n\n$$\n\\lim_{x\\to1}\\frac{\\sqrt{x+3}-2}{\\sqrt{x}-1}=\\frac{2}{4}=\\frac12\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "在数列 $\\{a_{n}\\}$ 中，$a_{1} = 2$，$a_{n+1} = a_{n} + \\ln \\left(1 + \\frac{1}{n}\\right)$，则 $a_{n} =$（ ）",
+          "choices": [
+            "$2 + \\ln n$",
+            "$2 + (n - 1)\\ln n$",
+            "$2 + n\\ln n$",
+            "$1 + n + \\ln n$"
+          ],
+          "answer": "A",
+          "solution": "由递推式逐项相加，得到\r\n\n$$\na_n=a_1+\\sum_{k=1}^{n-1}\\ln\\left(1+\\frac1k\\right)\r\n=2+\\sum_{k=1}^{n-1}\\ln\\frac{k+1}{k}\n$$\n\r\n利用对数的运算性质，\r\n\n$$\n\\sum_{k=1}^{n-1}\\ln\\frac{k+1}{k}\r\n=\\ln\\prod_{k=1}^{n-1}\\frac{k+1}{k}=\\ln n\n$$\n\r\n因此 $a_n=2+\\ln n$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "函数 $y = \\tan x + \\sin x - |\\tan x - \\sin x|$ 在区间 $\\left(\\frac{\\pi}{2}, \\frac{3\\pi}{2}\\right)$ 内的图象大致是 （ ）",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/jiangxi_science/q6_optA_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/jiangxi_science/q6_optB_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/jiangxi_science/q6_optC_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/jiangxi_science/q6_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "D",
+          "solution": "在 $\\left(\\frac\\pi2,\\pi\\right)$ 内，$\\sin x>0$、$\\cos x<0$，所以 $\\tan x<0<\\sin x$，从而\r\n\n$$\ny=\\tan x+\\sin x-(\\sin x-\\tan x)=2\\tan x\n$$\n\r\n该段图象从 $x\\to\\frac\\pi2+$ 时的负无穷上升到 $x\\to\\pi-$ 时的 $0$.\r\n\r\n在 $\\left(\\pi,\\frac{3\\pi}{2}\\right)$ 内，$\\sin x<0$、$\\cos x<0$，所以 $\\tan x>0>\\sin x$，从而\r\n\n$$\ny=\\tan x+\\sin x-(\\tan x-\\sin x)=2\\sin x\n$$\n\r\n在 $x=\\pi$ 时，$y=0$，该点属于定义域；第二段图象从 $x\\to\\pi+$ 时的 $0$ 下降到 $x\\to\\frac{3\\pi}{2}-$ 时的 $-2$，而 $x=\\frac\\pi2$ 和 $x=\\frac{3\\pi}{2}$ 不属于定义域. 这与选项 D 的图象相符，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知 $F_{1}$，$F_{2}$ 是椭圆的两个焦点，满足 $\\overrightarrow{MF_{1}} \\cdot \\overrightarrow{MF_{2}} = 0$ 的点 $M$ 总在椭圆内部，则椭圆离心率的取值范围是（ ）",
+          "choices": [
+            "$(0,1)$",
+            "$\\left(0, \\frac{1}{2}\\right]$",
+            "$\\left(0, \\frac{\\sqrt{2}}{2}\\right)$",
+            "$\\left[\\frac{\\sqrt{2}}{2}, 1\\right)$"
+          ],
+          "answer": "C",
+          "solution": "设椭圆的半长轴、半短轴和半焦距分别为 $a$、$b$、$c$，则 $a>b>0$，且\r\n\n$$\na^2=b^2+c^2\n$$\n\r\n取椭圆中心为原点、焦点为 $F_1(-c,0)$、$F_2(c,0)$. 对点 $M(x,y)$，条件\r\n\n$$\n\\overrightarrow{MF_1}\\cdot\\overrightarrow{MF_2}=0\n$$\n\r\n化为\r\n\n$$\n(x+c)(x-c)+y^2=0\n$$\n\r\n即 $x^2+y^2=c^2$. 因而这些点构成以椭圆中心为圆心、半径为 $c$ 的圆.\r\n\r\n该圆上的点都在椭圆内部时，圆在短轴端点处最容易到达椭圆边界，因此必须有 $c<b$. 于是\r\n\n$$\ne=\\frac ca<\\frac ba=\\sqrt{1-e^2}\n$$\n\r\n由于 $e>0$，平方后得 $2e^2<1$，即\r\n\n$$\n0<e<\\frac{\\sqrt2}{2}\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "$(1 + \\sqrt[3]{x})^6\\left(1 + \\frac{1}{\\sqrt[4]{x}}\\right)^{10}$ 展开式中的常数项为（ ）",
+          "choices": [
+            "$1$",
+            "$46$",
+            "$4245$",
+            "$4246$"
+          ],
+          "answer": "D",
+          "solution": "第一项取 $\\mathrm C_6^r(\\sqrt[3]{x})^r$，第二项取 $\\mathrm C_{10}^k(x^{-\\frac{1}{4}})^k$，所得项的幂为\r\n\n$$\n\\frac r3-\\frac k4\n$$\n\r\n成为常数项的条件是 $\\frac r3-\\frac k4=0$，即 $4r=3k$. 在 $0\\le r\\leqslant6$、$0\\le k\\leqslant10$ 内，只有\r\n$(r,k)=(0,0)$，$(3,4)$，$(6,8)$.\r\n所以常数项为\r\n\n$$\n\\mathrm C_6^0\\mathrm C_{10}^0+\\mathrm C_6^3\\mathrm C_{10}^4+\\mathrm C_6^6\\mathrm C_{10}^8\r\n=1+20\\times210+1\\times45=4246\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "若 $0 < a_{1} < a_{2}$，$0 < b_{1} < b_{2}$，且 $a_{1} + a_{2} = b_{1} + b_{2} = 1$，则下列代数式中值最大的是（ ）",
+          "choices": [
+            "$a_{1}b_{1} + a_{2}b_{2}$",
+            "$a_{1}a_{2} + b_{1}b_{2}$",
+            "$a_{1}b_{2} + a_{2}b_{1}$",
+            "$\\frac{1}{2}$"
+          ],
+          "answer": "A",
+          "solution": "令 $u=a_2-a_1$、$v=b_2-b_1$，则 $0<u<1$、$0<v<1$，并且\r\n$a_1=\\frac{1-u}{2}$，$a_2=\\frac{1+u}{2}$，$b_1=\\frac{1-v}{2}$，$b_2=\\frac{1+v}{2}$.\r\n记四个选项中的代数式依次为 $X_1$，$X_2$，$X_3$，$X_4$. 直接代入得\r\n$X_1=\\frac{1+uv}{2}$，$X_2=\\frac{2-u^2-v^2}{4}$，$X_3=\\frac{1-uv}{2}$，$X_4=\\frac12$.\r\n于是\r\n\n$$\nX_1-X_3=uv>0\n$$\n\r\n\n$$\nX_1-X_4=\\frac{uv}{2}>0\n$$\n\r\n以及\r\n\n$$\nX_1-X_2=\\frac{(u+v)^2}{4}>0\n$$\n\r\n因此 $X_1$ 最大，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "连结球面上两点的线段称为球的弦. 半径为 $4$ 的球的两条弦 $AB$，$CD$ 的长度分别等于 $2\\sqrt{7}$，$4\\sqrt{3}$，$M$，$N$ 分别为 $AB$，$CD$ 的中点，每条弦的两端都在球面上运动，有下列四个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 弦 $AB$，$CD$ 可能相交于点 $M$；\r\n\\item 弦 $AB$，$CD$ 可能相交于点 $N$；\r\n\\item $MN$ 的最大值为 $5$；\r\n\\item $MN$ 的最小值为 $1$.\r\n\\end{circlelist}",
+          "choices": [
+            "$1$ 个",
+            "$2$ 个",
+            "$3$ 个",
+            "$4$ 个"
+          ],
+          "answer": "C",
+          "solution": "设球心为 $O$. 弦中点到球心的连线垂直于弦，因此\r\n$OM=\\sqrt{4^2-\\left(\\frac{2\\sqrt7}{2}\\right)^2}=3$，$ON=\\sqrt{4^2-\\left(\\frac{4\\sqrt3}{2}\\right)^2}=2$.\r\n\r\n弦 $AB$ 的所在直线上各点到 $O$ 的距离不小于直线到 $O$ 的距离 $OM=3$，而 $ON=2$，所以弦 $AB$ 不可能经过 $N$，第二个命题错误.\r\n\r\n弦 $CD$ 所在直线到 $O$ 的距离为 $2$. 可以取一条经过 $M$ 且到 $O$ 的距离为 $2$ 的直线；其上从垂足到 $M$ 的距离为 $\\sqrt{OM^2-ON^2}=\\sqrt5<2\\sqrt3$，故以该垂足为中点截取长度为 $4\\sqrt3$ 的弦时，$M$ 在线段 $CD$ 上. 因此第一个命题正确.\r\n\r\n又由三角不等式，\r\n\n$$\n|OM-ON|\\le MN\\le OM+ON\n$$\n\r\n即 $1\\le MN\\leqslant5$. 当 $M$，$O$，$N$ 共线且同向时取最小值 $1$，反向时取最大值 $5$，所以第三、第四个命题均正确. 真命题共有 3 个，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "电子钟一天显示的时间是从 $00{:}00$ 到 $23{:}59$. 每一时刻都由四个数字组成. 则一天中任一时刻显示的四个数字之和为 $23$ 的概率为（ ）",
+          "choices": [
+            "$\\frac{1}{180}$",
+            "$\\frac{1}{288}$",
+            "$\\frac{1}{360}$",
+            "$\\frac{1}{480}$"
+          ],
+          "answer": "C",
+          "solution": "一天共有 $24\\times60=1440$ 个时刻，且每个时刻等可能.\r\n\r\n若小时的十位为 $0$，四个数字和为 $23$ 只能是 $09{:}59$. 若小时的十位为 $1$，需满足“小时个位、分钟十位、分钟个位”之和为 $22$，只有 $18{:}59$、$19{:}49$、$19{:}58$. 小时的十位为 $2$ 时，四个数字和的最大值为 $2+3+5+9=19$，不可能为 $23$.\r\n\r\n所以满足条件的时刻共有 4 个，所求概率为\r\n\n$$\n\\frac4{1440}=\\frac1{360}\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "已知函数 $f(x) = 2mx^2 - 2(4 - m)x + 1$，$g(x) = mx$，若对于任一实数 $x$，$f(x)$ 与 $g(x)$ 的值至少有一个为正数，则实数 $m$ 的取值范围是（ ）",
+          "choices": [
+            "$(0, 2)$",
+            "$(0, 8)$",
+            "$(2, 8)$",
+            "$(-\\infty, 0)$"
+          ],
+          "answer": "B",
+          "solution": "若 $m<0$，当 $x\\to+\\infty$ 时，$f(x)\\to-\\infty$，且 $g(x)=mx<0$，所以对充分大的正数 $x$，二者都不是正数，条件不成立. 若 $m=0$，取 $x=1$ 得 $f(1)=-7$、$g(1)=0$，条件也不成立. 因此必须有 $m>0$.\r\n\r\n当 $m>0$ 且 $x\\geqslant0$ 时，若 $x>0$，则 $g(x)>0$；若 $x=0$，则 $f(0)=1>0$. 所以只需保证 $x<0$ 时 $f(x)>0$.\r\n\r\n此时\r\n\n$$\nf(x)=2mx^2+(2m-8)x+1\n$$\n\r\n当 $0<m\\leqslant4$ 时，$x<0$ 有\r\n\n$$\nf'(x)=4mx+2m-8<0\n$$\n\r\n所以 $f(x)>f(0)=1>0$. 当 $m>4$ 时，抛物线顶点横坐标为\r\n\n$$\nx_0=-\\frac{2m-8}{4m}=\\frac{4-m}{2m}<0\n$$\n\r\n且顶点处的最小值为\r\n\n$$\nf(x_0)=1-\\frac{(2m-8)^2}{8m}=-\\frac{(m-2)(m-8)}{2m}\n$$\n\r\n要使该最小值为正，必须且只需 $4<m<8$. 结合前一种情形，得到\r\n\n$$\n0<m<8\n$$\n\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "直角坐标平面内三点 $A(1,2)$，$B(3,-2)$，$C(9,7)$，若 $E$，$F$ 为线段 $BC$ 的三等分点，则 $\\overrightarrow{AE} \\cdot \\overrightarrow{AF} =$ _______ {}.",
+          "choices": [],
+          "answer": "22",
+          "solution": "由 $\\overrightarrow{BC}=(6,9)$，线段的两个三等分点为\r\n$E=B+\\frac13\\overrightarrow{BC}=(5,1)$，$F=B+\\frac23\\overrightarrow{BC}=(7,4)$.\r\n所以\r\n$\\overrightarrow{AE}=(4,-1)$，$\\overrightarrow{AF}=(6,2)$，\r\n从而\r\n\n$$\n\\overrightarrow{AE}\\cdot\\overrightarrow{AF}=4\\times6+(-1)\\times2=22\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "不等式 $2^{x - \\frac{3}{x} + 1} \\le \\frac{1}{2}$ 的解集为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left(-\\infty,-3\\right]\\cup\\left(0,1\\right]\\)",
+          "solution": "因为底数 $2>1$，原不等式等价于\r\n$x-\\frac3x+1\\le-1$，即 $x-\\frac3x+2\\leqslant0$，且 $x\\ne0$.\r\n当 $x>0$ 时，乘以正数 $x$，得\r\n\n$$\nx^2+2x-3=(x-1)(x+3)\\leqslant0\n$$\n\r\n故 $0<x\\leqslant1$. 当 $x<0$ 时，乘以负数 $x$ 后不等号改变方向，得\r\n\n$$\nx^2+2x-3\\geqslant0\n$$\n\r\n故 $x\\le-3$. 因此解集为\r\n\n$$\n(-\\infty,-3]\\cup(0,1]\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "过抛物线 $x^{2} = 2py$ （$p > 0$）的焦点 $F$ 作倾斜角为 $30^{\\circ}$ 的直线，与抛物线分别交于 $A$，$B$ 两点（点 $A$ 在 $y$ 轴左侧），则 $\\frac{|AF|}{|FB|} =$ _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{1}{3}\\)",
+          "solution": "抛物线 $x^2=2py$ 的焦点为 $F\\left(0,\\frac p2\\right)$. 过焦点且倾斜角为 $30^\\circ$ 的直线方程为\r\n\n$$\ny=\\frac{x}{\\sqrt3}+\\frac p2\n$$\n\r\n与抛物线联立，得\r\n$x^2=2p\\left(\\frac{x}{\\sqrt3}+\\frac p2\\right)$，$x^2-\\frac{2p}{\\sqrt3}x-p^2=0$.\r\n其两个根分别为\r\n$x_A=-\\frac p{\\sqrt3}$，$x_B=\\sqrt3p$\r\n其中 $x_A<0<x_B$. 因为 $A$，$F$，$B$ 共线，且横坐标差与同一直线上距离成固定比例，所以\r\n\n$$\n\\frac{|AF|}{|FB|}=\\frac{|x_A-0|}{|x_B-0|}\r\n=\\frac{\\frac{p}{\\sqrt3}}{\\sqrt3p}=\\frac13\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "如图 1，一个正四棱柱形的密闭容器水平放置，其底部镶嵌了同底的正四棱锥形实心装饰块，容器内盛有 $a\\text{ 升}$ 水时，水面恰好经过正四棱锥的顶点 $P$. 如果将容器倒置，水面也恰好过点 $P$（图 2）. 有下列四个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 正四棱锥的高等于正四棱柱高的一半；\r\n\\item 将容器侧面水平放置时，水面也恰好过点 $P$；\r\n\\item 任意摆放该容器，当水面静止时，水面都恰好经过点 $P$；\r\n\\item 若往容器内再注入 $a\\text{ 升}$ 水，则容器恰好能装满.\r\n\\end{circlelist}\r\n其中真命题的代号是 _______ {}.（写出所有真命题的代号）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/jiangxi_science/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "B，D",
+          "solution": "设正四棱柱的底面边长为 $s$，高为 $H$，正四棱锥的高为 $h$. 在图 1 中，水面经过顶点 $P$，所以水的体积为正四棱柱内高为 $h$ 的部分减去正四棱锥体积，即\r\n\n$$\na=s^2h-\\frac13s^2h=\\frac23s^2h\n$$\n\r\n倒置后，点 $P$ 距容器底面为 $H-h$，水面经过 $P$，且水面以下没有装饰块，所以\r\n\n$$\na=s^2(H-h)\n$$\n\r\n两式相等，得\r\n\n$$\n\\frac23h=H-h, \\text{即}  H=\\frac53h\n$$\n\r\n因此正四棱锥的高不是正四棱柱高的一半，命题 A 错误.\r\n\r\n容器除去实心装饰块后的总容积为\r\n\n$$\nV=s^2H-\\frac13s^2h\r\n=s^2\\left(\\frac53h-\\frac13h\\right)\r\n=\\frac43s^2h=2a\n$$\n\r\n所以再注入 $a$ 升水后恰好装满，命题 D 正确.\r\n\r\n当容器的一个侧面水平放置时，经过 $P$ 且平行于该侧面的水平面是容器和正四棱锥的对称面，分别把容器空间和装饰块体积平分. 由 $V=2a$，当前水量正好是可用容积的一半，故水面恰好经过 $P$，命题 B 正确.\r\n\r\n说明命题 C 错误：将正四棱锥的一个侧面水平放置，若水面经过 $P$，水面就必须与该侧面重合. 在原坐标系中取底面为\r\n$-\\frac{s}{2}\\le x$，$y\\le\\frac{s}{2}$、$z=0$，顶面为 $z=H$，并令 $P\\left(0,0,h\\right)$. 取包含底边 $y=\\frac{s}{2}$ 的侧面，其所在平面为\r\n\r\n\n$$\ny+\\frac{s}{2h}z=\\frac{s}{2}\n$$\n\r\n\r\n该平面一侧包含整个正四棱锥. 由 $H=\\frac53h$，棱柱位于该侧的体积为\r\n\r\n\n$$\nV_-=\\int_0^H s\\left(s-\\frac{s}{2h}z\\right)\\,\\mathrm dz\r\n=s^2\\left(H-\\frac{H^2}{4h}\\right)=\\frac{35}{36}s^2h\n$$\n\r\n\r\n因此该侧的可用空间体积为\r\n\r\n\n$$\nV_--\\frac13s^2h=\\frac{23}{36}s^2h\n$$\n\r\n\r\n另一侧的可用空间体积为\r\n\r\n\n$$\nV-\\left(V_--\\frac13s^2h\\right)=\\frac{25}{36}s^2h\n$$\n\r\n\r\n而当前水量 $a=\\frac23s^2h=\\frac{24}{36}s^2h$，两者均不等于 $a$. 所以并非任意摆放时水面都经过 $P$. 综上，真命题为 B，D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "在 $\\triangle ABC$ 中，$a$，$b$，$c$ 分别为角 $A$，$B$，$C$ 所对的边长，$a = 2\\sqrt{3}$，$\\tan \\frac{A + B}{2} + \\tan \\frac{C}{2} = 4$，$\\sin B \\sin C = \\cos^2 \\frac{A}{2}$，求 $A$，$B$ 及 $b$，$c$.",
+          "choices": [],
+          "answer": "",
+          "solution": "因为 $A+B+C=\\pi$，所以 $\\tan\\frac{A+B}{2}=\\cot\\frac{C}{2}$. 令 $t=\\tan\\frac{C}{2}$，则 $t>0$，且\r\n$t+\\dfrac{1}{t}=4$，即 $t^2-4t+1=0$，从而 $t=2-\\sqrt{3}$ 或 $t=2+\\sqrt{3}$. 因此 $C=30^\\circ$ 或 $C=150^\\circ$.\r\n\r\n又 $A=\\pi-B-C$，由已知条件得 $\\sin B\\sin C=\\sin^2\\dfrac{B+C}{2}$. 利用积化和差公式，左边为 $\\dfrac{\\cos(B-C)-\\cos(B+C)}{2}$，右边为 $\\dfrac{1-\\cos(B+C)}{2}$，所以 $\\cos(B-C)=1$.\r\n\r\n由 $\\cos(B-C)=1$ 且 $B$，$C\\in(0,\\pi)$，可知 $B=C$. 若 $C=150^\\circ$，则 $B=150^\\circ$，从而 $A+B+C>180^\\circ$，不合题意. 因此 $B=C=30^\\circ$，$A=120^\\circ$. 由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$，且 $\\dfrac{a}{\\sin A}=\\dfrac{2\\sqrt{3}}{\\frac{\\sqrt{3}}{2}}=4$. 所以 $b=4\\sin30^\\circ=2$，$c=4\\sin30^\\circ=2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "因冰雪灾害，某柑桔基地果林严重受损，为此有关专家提出两种拯救果树的方案，每种方案都需分两年实施. 若实施方案一，预计第一年可以使柑桔产量恢复到灾前的 $1.0\\text{ 倍}$，$0.9\\text{ 倍}$，$0.8\\text{ 倍}$ 的概率分别是 $0.3$，$0.3$，$0.4$；第二年可以使柑桔产量为第一年产量的 $1.25\\text{ 倍}$，$1.0\\text{ 倍}$ 的概率分别是 $0.5$，$0.5$. 若实施方案二，预计第一年可以使柑桔产量达到灾前的 $1.2\\text{ 倍}$，$1.0\\text{ 倍}$，$0.88\\text{ 倍}$ 的概率分别是 $0.2$，$0.3$，$0.5$；第二年可以使柑桔产量为第一年产量的 $1.2\\text{ 倍}$，$1.0\\text{ 倍}$ 的概率分别是 $0.4$，$0.6$. 实施每种方案第一年与第二年相互独立，令 $\\xi_i$（$i = 1$，$2$）表示方案 $i$ 实施两年后柑桔产量达到灾前产量的倍数.\r\n\n(1) 写出 $\\xi_1$，$\\xi_2$ 的分布列；\n\n(2) 实施哪种方案，两年后柑桔产量超过灾前产量的概率更大？\n\n(3) 不管哪种方案，如果实施两年后柑桔产量达不到，恰好达到，超过灾前产量，预计利润分别为 $10\\text{ 万元}$，$15\\text{ 万元}$，$20\\text{ 万元}$. 问实施哪种方案的平均利润更大？",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 方案一中，两年后的产量倍数等于第一年倍数与第二年倍数的乘积. 因为两年相互独立，分别计算各组合的概率并合并相同取值，得到\r\n$P(\\xi_1=0.8)=0.4\\times0.5=0.2$，$P(\\xi_1=0.9)=0.3\\times0.5=0.15$，$P(\\xi_1=1)=0.3\\times0.5+0.8\\times0.5=0.35$，$P(\\xi_1=1.125)=0.3\\times0.5=0.15$，$P(\\xi_1=1.25)=0.3\\times0.5=0.15$. 因此 $\\xi_1$ 的分布列为\r\n\r\n\\begin{tabular}{c|ccccc}\r\n$\\xi_1$ & $0.8$ & $0.9$ & $1$ & $1.125$ & $1.25$ \\\\\r\n\\hline\r\n$P$ & $0.2$ & $0.15$ & $0.35$ & $0.15$ & $0.15$\r\n\\end{tabular}\r\n\r\n方案二中，可能的两年后产量倍数及概率为\r\n$P(\\xi_2=0.88)=0.5\\times0.6=0.3$，$P(\\xi_2=1)=0.3\\times0.6=0.18$，$P(\\xi_2=1.056)=0.5\\times0.4=0.2$，$P(\\xi_2=1.2)=0.2\\times0.6+0.3\\times0.4=0.24$，$P(\\xi_2=1.44)=0.2\\times0.4=0.08$. 因此 $\\xi_2$ 的分布列为\r\n\r\n\\begin{tabular}{c|ccccc}\r\n$\\xi_2$ & $0.88$ & $1$ & $1.056$ & $1.2$ & $1.44$ \\\\\r\n\\hline\r\n$P$ & $0.3$ & $0.18$ & $0.2$ & $0.24$ & $0.08$\r\n\\end{tabular}\n\n(2) 方案一两年后产量超过灾前产量的概率为 $P(\\xi_1>1)=0.15+0.15=0.30$. 方案二两年后产量超过灾前产量的概率为 $P(\\xi_2>1)=0.20+0.24+0.08=0.52$. 因为 $0.52>0.30$，所以实施方案二的概率更大.\n\n(3) 方案一中，两年后产量达不到、恰好达到、超过灾前产量的概率分别为 $0.2+0.15=0.35$，$0.35$，$0.30$，所以平均利润为 $E_1=10\\times0.35+15\\times0.35+20\\times0.30=14.75\\text{ 万元}$.\r\n\r\n方案二中，上述三种情况的概率分别为 $0.30$，$0.18$，$0.20+0.24+0.08=0.52$，所以平均利润为 $E_2=10\\times0.30+15\\times0.18+20\\times0.52=16.1\\text{ 万元}$. 因为 $16.1>14.75$，所以实施方案二的平均利润更大.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "(1) 等差数列 $\\{a_{n}\\}$ 各项均为正整数，$a_{1} = 3$. 前 $n$ 项和为 $S_{n}$，等比数列 $\\{b_{n}\\}$ 中，$b_{1} = 1$，且 $b_{2}S_{2} = 64$，$\\{b_{a_{n}}\\}$ 是公比为 $64$ 的等比数列. 求 $a_{n}$ 与 $b_{n}$；\n\n(2) 证明：$\\frac{1}{S_1} + \\frac{1}{S_2} + \\cdots + \\frac{1}{S_n} < \\frac{3}{4}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设等差数列 $\\{a_n\\}$ 的公差为 $d$，等比数列 $\\{b_n\\}$ 的公比为 $q$. 因为 $a_n=3+(n-1)d$ 对任意正整数 $n$ 都是正整数，所以 $d$ 是整数且 $d\\geqslant0$. 又 $b_1=1$，所以 $b_n=q^{n-1}$，并且 $S_2=3+(3+d)=6+d$. 由 $b_2S_2=64$ 得 $q(6+d)=64$，从而 $q>0$.\r\n\r\n由 $b_{a_n}=q^{a_n-1}=q^{2+(n-1)d}$，可知 $\\{b_{a_n}\\}$ 的公比为 $q^d$，故 $q^d=64$. 因为 $d=0$ 时 $q^d=1$，不满足 $q^d=64$，所以 $d>0$. 由 $q=\\dfrac{64}{d+6}$ 可知 $q$ 是正有理数. 设 $q=\\dfrac{r}{s}$，其中 $r$，$s$ 是互质的正整数，则 $r^d=64s^d$，故 $s^d\\mid r^d$. 由 $r$，$s$ 互质可得 $s=1$，所以 $q$ 是正整数. 再由 $q^d=64=2^6$，正整数 $q$ 只能为 $2^k$，且 $kd=6$，于是 $(q,d)$ 只能是 $(64,1)$，$(8,2)$，$(4,3)$ 或 $(2,6)$. 代入 $q(6+d)=64$ 检验，只有 $q=8$，$d=2$ 满足条件. 所以 $a_n=3+2(n-1)=2n+1$，$b_n=8^{n-1}$.\n\n(2) 由 $a_n=2n+1$ 得\r\n$S_n=\\dfrac{n\\left(a_1+a_n\\right)}{2}=\\dfrac{n(3+2n+1)}{2}=n(n+2)$. 因而\r\n$\\dfrac{1}{S_n}=\\dfrac{1}{n(n+2)}=\\dfrac{1}{2}\\left(\\dfrac{1}{n}-\\dfrac{1}{n+2}\\right)$，从而\r\n$\\dfrac{1}{S_1}+\\dfrac{1}{S_2}+\\cdots+\\dfrac{1}{S_n}=\\dfrac{1}{2}\\left(1+\\dfrac{1}{2}-\\dfrac{1}{n+1}-\\dfrac{1}{n+2}\\right)=\\dfrac{3}{4}-\\dfrac{2n+3}{2(n+1)(n+2)}<\\dfrac{3}{4}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "(1) 如图，正三棱锥 $O - ABC$ 的三条侧棱 $OA$，$OB$，$OC$ 两两垂直，且长度均为 $2$. $E$，$F$ 分别是 $AB$，$AC$ 的中点，$H$ 是 $EF$ 的中点，过 $EF$ 的一个平面与侧棱 $OA$，$OB$，$OC$ 或其延长线分别相交于 $A_{1}$，$B_{1}$，$C_{1}$，已知 $OA_{1} = \\frac{3}{2}$. 证明： $B_{1}C_{1}\\perp$ 平面 $OAH$；\n\n(2) 求二面角 $O - A_{1}B_{1} - C_{1}$ 的大小.\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/jiangxi_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 以 $OA$，$OB$，$OC$ 所在直线分别为 $x$，$y$，$z$ 轴建立空间直角坐标系，则 $O(0,0,0)$，$A(2,0,0)$，$B(0,2,0)$，$C(0,0,2)$. 由中点坐标公式，得 $E(1,1,0)$，$F(1,0,1)$，$H\\left(1,\\dfrac{1}{2},\\dfrac{1}{2}\\right)$. 已知 $OA_1=\\dfrac{3}{2}$，故 $A_1\\left(\\dfrac{3}{2},0,0\\right)$.\r\n\r\n平面 $A_1EF$ 的方程为 $2x+y+z=3$，所以它与 $OB$，$OC$ 的交点分别为 $B_1(0,3,0)$，$C_1(0,0,3)$. 因此 $\\overrightarrow{B_1C_1}=(0,-3,3)$，$\\overrightarrow{OA}=(2,0,0)$，$\\overrightarrow{AH}=\\left(-1,\\dfrac{1}{2},\\dfrac{1}{2}\\right)$. 于是 $\\overrightarrow{B_1C_1}\\cdot\\overrightarrow{OA}=0$，$\\overrightarrow{B_1C_1}\\cdot\\overrightarrow{AH}=0$. 由于 $\\overrightarrow{OA}$ 与 $\\overrightarrow{AH}$ 不共线，$\\overrightarrow{B_1C_1}$ 是平面 $OAH$ 的法向量方向. 又平面 $OAH$ 的方程为 $z-y=0$，点 $Q\\left(0,\\frac32,\\frac32\\right)$ 同时在直线 $B_1C_1$ 和平面 $OAH$ 上，因此 $B_1C_1\\perp$ 平面 $OAH$.\n\n(2) 平面 $OA_1B_1$ 的方程为 $z=0$，其一个法向量为 $\\mathbf{n}_1=(0,0,1)$. 平面 $A_1B_1C_1$ 的方程为 $2x+y+z=3$，其一个法向量为 $\\mathbf{n}_2=(2,1,1)$. 设二面角 $O-A_1B_1-C_1$ 的平面角为 $\\theta$，取其锐角，则\r\n$\\cos\\theta=\\dfrac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1||\\mathbf{n}_2|}=\\dfrac{1}{\\sqrt{6}}$. 因此 $\\tan\\theta=\\sqrt{5}$，且 $0<\\theta<\\dfrac{\\pi}{2}$，所以二面角的大小为 $\\arctan\\sqrt{5}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "(1) 设点 $P(x_0, y_0)$ 在直线 $x = m$（$y_0 \\neq \\pm m$，$0 < m < 1$）上，过点 $P$ 作双曲线 $x^2 - y^2 = 1$ 的两条切线 $PA$，$PB$. 切点为 $A$，$B$，定点 $M\\left(\\frac{1}{m}, 0\\right)$. 过点 $A$ 作直线 $x - y = 0$ 的垂线. 垂足为 $N$，试求 $\\triangle AMN$ 的重心 $G$ 所在的曲线方程；\n\n(2) 求证：$A$，$M$，$B$ 三点共线.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设切点 $A\\left(x_1,y_1\\right)$，则 $x_1^2-y_1^2=1$. 直线 $x-y=0$ 的方向向量为 $(1,1)$，故从 $A$ 向该直线作垂线所得垂足为 $N\\left(\\dfrac{x_1+y_1}{2},\\dfrac{x_1+y_1}{2}\\right)$. 设 $\\triangle AMN$ 的重心为 $G(X,Y)$，则\r\n$X=\\dfrac{x_1+\\frac{1}{m}+\\frac{x_1+y_1}{2}}{3}=\\dfrac{3x_1+y_1+\\frac{2}{m}}{6}$，$Y=\\dfrac{y_1+\\frac{x_1+y_1}{2}}{3}=\\dfrac{x_1+3y_1}{6}$. 从而 $X-\\dfrac{1}{3m}=\\dfrac{3x_1+y_1}{6}$，所以\r\n$\\left(X-\\dfrac{1}{3m}\\right)^2-Y^2=\\dfrac{(3x_1+y_1)^2-(x_1+3y_1)^2}{36}=\\dfrac{8(x_1^2-y_1^2)}{36}=\\dfrac{2}{9}$. 因此 $G$ 所在的曲线方程为 $\\left(X-\\dfrac{1}{3m}\\right)^2-Y^2=\\dfrac{2}{9}$，将坐标变量仍记为 $x$，$y$，即为 $\\left(x-\\dfrac{1}{3m}\\right)^2-y^2=\\dfrac{2}{9}$.\n\n(2) 设切点 $A\\left(x_1,y_1\\right)$，$B\\left(x_2,y_2\\right)$. 双曲线 $x^2-y^2=1$ 在点 $\\left(x_i,y_i\\right)$ 处的切线方程为 $x_i x-y_i y=1$. 因为点 $P(m,y_0)$ 在两条切线上，所以\r\n$mx_1-y_0y_1=1$，$mx_2-y_0y_2=1$. 这说明 $A$，$B$ 均在直线 $mx-y_0y=1$ 上，而点 $M\\left(\\dfrac{1}{m},0\\right)$ 也满足 $m\\cdot\\dfrac{1}{m}-y_0\\cdot0=1$. 因此 $A$，$M$，$B$ 三点共线.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "(1) 已知函数 $f(x) = \\frac{1}{\\sqrt{1 + x}} + \\frac{1}{\\sqrt{1 + a}} + \\sqrt{\\frac{ax}{ax + 8}}$，$x \\in (0, +\\infty)$. 当 $a = 8$ 时，求 $f(x)$ 的单调区间；\n\n(2) 对任意正数 $a$，证明：$1 < f(x) < 2$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 当 $a=8$ 时，\r\n$f(x)=\\dfrac{1}{3}+\\dfrac{1}{\\sqrt{1+x}}+\\sqrt{\\dfrac{x}{1+x}}=\\dfrac{1}{3}+\\dfrac{1+\\sqrt{x}}{\\sqrt{1+x}}$. 求导得\r\n$f'(x)=\\dfrac{1-\\sqrt{x}}{2\\sqrt{x}(1+x)^{\\frac{3}{2}}}$. 因为分母在 $x>0$ 时恒为正，所以当 $0<x<1$ 时 $f'(x)>0$，当 $x>1$ 时 $f'(x)<0$. 因此 $f(x)$ 在 $(0,1]$ 上单调递增，在 $[1,+\\infty)$ 上单调递减.\n\n(2) 令 $u=x$，$v=a$，$w=\\dfrac{8}{ax}$，则 $u$，$v$，$w>0$，且 $uvw=8$，并且\r\n$f(x)=\\dfrac{1}{\\sqrt{1+u}}+\\dfrac{1}{\\sqrt{1+v}}+\\dfrac{1}{\\sqrt{1+w}}$. 先证下界. 因为 $u>0$，有 $\\dfrac{1}{\\sqrt{1+u}}>\\dfrac{1}{1+u}$，所以\r\n$f(x)>\\sum\\limits_{\\mathrm{cyc}}\\dfrac{1}{1+u}$. 另一方面，\r\n$\\sum\\limits_{\\mathrm{cyc}}\\dfrac{1}{1+u}-1=\\dfrac{u+v+w-6}{(1+u)(1+v)(1+w)}\\geqslant0$，其中最后一步用了 $u+v+w\\geqslant3\\sqrt[3]{uvw}=6$. 因此 $f(x)>1$.\r\n\r\n再证上界. 不妨设 $u\\le v\\le w$. 若 $u+v\\geqslant6$，则 $v\\geqslant3$，$w\\geqslant3$，从而 $\\dfrac{1}{\\sqrt{1+v}}\\le\\dfrac{1}{2}$，$\\dfrac{1}{\\sqrt{1+w}}\\le\\dfrac{1}{2}$，且 $\\dfrac{1}{\\sqrt{1+u}}<1$，故 $f(x)<2$.\r\n\r\n若 $u+v<6$，因为 $u>0$，有 $2\\sqrt{1+u}<u+2$，从而\r\n$\\dfrac{1}{\\sqrt{1+u}}<\\dfrac{u+2}{2(1+u)}=1-\\dfrac{u}{2(1+u)}$. 对 $v>0$ 同样有\r\n$2\\sqrt{1+v}<v+2$，故\r\n$\\dfrac{1}{\\sqrt{1+v}}<\\dfrac{v+2}{2(1+v)}=1-\\dfrac{v}{2(1+v)}$. 又由均值不等式，\r\n$\\dfrac{u}{2(1+u)}+\\dfrac{v}{2(1+v)}\\ge\\sqrt{\\dfrac{uv}{(1+u)(1+v)}}$.\r\n\r\n由于 $u+v<6$，有 $(1+u)(1+v)=uv+u+v+1<uv+8$. 再由 $w=\\dfrac{8}{uv}$，得\r\n$\\dfrac{uv}{(1+u)(1+v)}>\\dfrac{uv}{uv+8}=\\dfrac{1}{1+w}$，从而 $\\dfrac{u}{2(1+u)}+\\dfrac{v}{2(1+v)}>\\dfrac{1}{\\sqrt{1+w}}$. 因此\r\n$f(x)<2-\\dfrac{u}{2(1+u)}-\\dfrac{v}{2(1+v)}+\\dfrac{1}{\\sqrt{1+w}}<2$. 综上，对任意正数 $a$，恒有 $1<f(x)<2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

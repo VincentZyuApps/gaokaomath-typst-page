@@ -1,0 +1,376 @@
+{
+  "year": "2005",
+  "slug": "zhejiang_science",
+  "title": "2005年浙江卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "极限 $\\displaystyle\\lim_{n \\to \\infty} \\frac{1+2+\\cdots+n}{n^{2}}$ 的值是（$ $）\r\n\r\n\r\nC\r\n\r\n由等差数列求和公式，$1+2+\\cdots+n=\\dfrac{n(n+1)}{2}$，所以\r\n\n$$\n\\displaystyle\\lim_{n\\to\\infty}\\frac{1+2+\\cdots+n}{n^{2}}\r\n=\\displaystyle\\lim_{n\\to\\infty}\\frac{n(n+1)}{2n^{2}}\r\n=\\displaystyle\\lim_{n\\to\\infty}\\frac{n+1}{2n}=\\frac{1}{2}\n$$\n\r\n故选 C.",
+          "choices": [
+            "$2$",
+            "$4$",
+            "$\\frac{1}{2}$",
+            "$0$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 2,
+          "body": "点 $(1,-1)$ 到直线 $x-y+1=0$ 的距离是（$ $）\r\n\r\n\r\nD\r\n\r\n点 $(x_0,y_0)$ 到直线 $Ax+By+C=0$ 的距离为\r\n$\\dfrac{|Ax_0+By_0+C|}{\\sqrt{A^2+B^2}}$. 因此所求距离为\r\n\n$$\n\\frac{|1-(-1)+1|}{\\sqrt{1^2+(-1)^2}}\r\n=\\frac{3}{\\sqrt{2}}=\\frac{3\\sqrt{2}}{2}\n$$\n\r\n故选 D.",
+          "choices": [
+            "$\\frac{1}{2}$",
+            "$\\frac{3}{2}$",
+            "$\\frac{\\sqrt{2}}{2}$",
+            "$\\frac{3\\sqrt{2}}{2}$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 3,
+          "body": "设 $f(x)=\\begin{cases}\r\n|x-1|-2, & |x|\\leqslant1,\\\\\r\n\\dfrac{1}{1+x^{2}}, & |x|>1,\r\n\\end{cases}$ 则 $f\\left[f\\left(\\frac{1}{2}\\right)\\right]=$（$ $）\r\n\r\n\r\nB\r\n\r\n因为 $\\left|\\frac{1}{2}\\right|\\leqslant1$，所以应使用分段函数的第一段，得\r\n\n$$\nf\\left(\\frac{1}{2}\\right)=\\left|\\frac{1}{2}-1\\right|-2=-\\frac{3}{2}\n$$\n\r\n又因为 $\\left|-\\frac{3}{2}\\right|>1$，所以计算外层函数值时应使用第二段，得\r\n\n$$\nf\\left[f\\left(\\frac{1}{2}\\right)\\right]\r\n=f\\left(-\\frac{3}{2}\\right)\r\n=\\frac{1}{1+\\left(-\\frac{3}{2}\\right)^2}\r\n=\\frac{4}{13}\n$$\n\r\n故选 B.",
+          "choices": [
+            "$\\frac{1}{2}$",
+            "$\\frac{4}{13}$",
+            "$-\\frac{9}{5}$",
+            "$\\frac{25}{41}$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 4,
+          "body": "在复平面内，复数 $\\frac{\\mathrm{i}}{1+\\mathrm{i}} + (1 + \\sqrt{3}\\mathrm{i})^{2}$ 对应的点位于（$ $）\r\n\r\n\r\nB\r\n\r\n先将分式分母实数化，得\r\n\n$$\n\\frac{\\mathrm{i}}{1+\\mathrm{i}}=\\frac{\\mathrm{i}(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac{1+\\mathrm{i}}{2}\n$$\n\r\n又\r\n\n$$\n(1+\\sqrt{3}\\mathrm{i})^2=1+2\\sqrt{3}\\mathrm{i}+3\\mathrm{i}^2=-2+2\\sqrt{3}\\mathrm{i}\n$$\n\r\n所以原复数为\r\n\n$$\n\\frac{1+\\mathrm{i}}{2}-2+2\\sqrt{3}\\mathrm{i}\r\n=-\\frac{3}{2}+\\left(\\frac{1}{2}+2\\sqrt{3}\\right)\\mathrm{i}\n$$\n\r\n其实部为负，虚部为正，故对应的点位于第二象限，选 B.",
+          "choices": [
+            "第一象限",
+            "第二象限",
+            "第三象限",
+            "第四象限"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 5,
+          "body": "在 $(1 - x)^{5} + (1 - x)^{6} + (1 - x)^{7} + (1 - x)^{8}$ 的展开式中，含 $x^{3}$ 的项的系数是（$ $）\r\n\r\n\r\nD\r\n\r\n由二项式定理，$(1-x)^j$ 中 $x^3$ 的系数为\r\n$\\mathrm C_j^3(-1)^3=-\\mathrm C_j^3$. 因此原式中 $x^3$ 的系数为\r\n\n$$\n-\\left[\\mathrm C_5^3+\\mathrm C_6^3+\\mathrm C_7^3+\\mathrm C_8^3\\right]\r\n=-(10+20+35+56)=-121\n$$\n\r\n故选 D.",
+          "choices": [
+            "$74$",
+            "$121$",
+            "$-74$",
+            "$-121$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 6,
+          "body": "设 $\\alpha$，$\\beta$ 为两个不同的平面，$l$，$m$ 为两条不同的直线，且 $l \\subset \\alpha$，$m \\subset \\beta$，有如下的两个命题：\r\n\\begin{circlelist}\r\n\\item 若 $\\alpha \\parallel \\beta$，则 $l \\parallel m$；\r\n\\item 若 $l \\perp m$，则 $\\alpha \\perp \\beta$.\r\n\\end{circlelist}\r\n那么（$ $）\r\n\r\n\r\nD\r\n\r\n命题$\\circled{1}$不成立. 取 $\\alpha:z=0$，$\\beta:z=1$，并在其中分别取\r\n$l=\\{(t,0,0)\\mid t\\in\\mathbb{R}\\}$，$m=\\{(0,t,1)\\mid t\\in\\mathbb{R}\\}$.\r\n此时 $\\alpha\\parallel\\beta$，但两条直线的方向向量分别为 $(1,0,0)$ 和 $(0,1,0)$，不平行，故命题$\\circled{1}$是假命题.\r\n\r\n命题$\\circled{2}$也不成立. 取 $\\alpha:z=0$，$\\beta:z=x$，并取\r\n$l=\\{(0,t,0)\\mid t\\in\\mathbb{R}\\}$，$m=\\{(t,0,t)\\mid t\\in\\mathbb{R}\\}$.\r\n两条直线都经过原点，且方向向量的内积为\r\n$(0,1,0)\\cdot(1,0,1)=0$，所以 $l\\perp m$. 但两平面的法向量可分别取 $(0,0,1)$ 和 $(-1,0,1)$，其内积为 $1$，两平面所成的锐二面角为 $45^{\\circ}$，并非垂直. 故命题$\\circled{2}$也是假命题，选 D.",
+          "choices": [
+            "$\\circled{1}$是真命题，$\\circled{2}$是假命题",
+            "$\\circled{1}$是假命题，$\\circled{2}$是真命题",
+            "$\\circled{1}\\circled{2}$都是真命题",
+            "$\\circled{1}\\circled{2}$都是假命题"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 7,
+          "body": "设集合 $A=\\{(x,y)\\mid x,y,1-x-y\\text{ 是三角形的三边长}\\}$，则 $A$ 所表示的平面区域（不含边界的阴影部分）是（$ $）\r\n\r\n\r\nA\r\n\r\n令三边长分别为 $x$，$y$，$1-x-y$. 它们能构成三角形的充要条件是三者均为正数，且每一边都小于另外两边之和. 因此\r\n$x>0$，$y>0$，$1-x-y>0$，$x<1-x$，$y<1-y$，$1-x-y<x+y$.\r\n化简得\r\n$0<x<\\frac{1}{2}$，$0<y<\\frac{1}{2}$，$\\frac{1}{2}<x+y<1$.\r\n其中 $x<\\frac{1}{2}$ 和 $y<\\frac{1}{2}$ 已推出 $x+y<1$，所以区域是正方形\r\n$0<x<\\frac{1}{2}$，$0<y<\\frac{1}{2}$ 中直线 $x+y=\\frac{1}{2}$ 上方且不含边界的部分，对应图 A.",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/zhejiang_science/q7_optA_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/zhejiang_science/q7_optB_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/zhejiang_science/q7_optC_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/zhejiang_science/q7_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 8,
+          "body": "已知 $k < -4$，则函数 $y = \\cos 2x + k(\\cos x - 1)$ 的最小值是（$ $）\r\n\r\n\r\nA\r\n\r\n令 $t=\\cos x$，则 $-1\\le t\\leqslant1$，且\r\n\n$$\ny=2t^2-1+k(t-1)=2t^2+kt-k-1\n$$\n\r\n记右侧为 $h(t)$，则\r\n$h'(t)=4t+k\\leqslant4+k<0$，（$-1\\le t\\leqslant1$）.\r\n所以 $h(t)$ 在 $[-1,1]$ 上单调递减，最小值在 $t=1$ 处取得. 因而\r\n\n$$\ny_{\\min}=2+k-k-1=1\n$$\n\r\n故选 A.",
+          "choices": [
+            "$1$",
+            "$-1$",
+            "$2k + 1$",
+            "$-2k + 1$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 9,
+          "body": "设 $f(n) = 2n + 1$（$n \\in \\mathbb{N}$），$P = \\{1, 2, 3, 4, 5\\}$，$Q = \\{3, 4, 5, 6, 7\\}$，记 $\\hat{P} = \\{n \\in \\mathbb{N} \\mid f(n) \\in P\\}$，$\\hat{Q} = \\{n \\in \\mathbb{N} \\mid f(n) \\in Q\\}$，则 $\\left(\\hat{P} \\cap \\complement_{\\mathbb{N}} \\hat{Q}\\right) \\cup \\left(\\hat{Q} \\cap \\complement_{\\mathbb{N}} \\hat{P}\\right) =$（$ $）\r\n\r\n\r\nA\r\n\r\n由 $f(n)=2n+1$ 以及 $0\\in\\mathbb{N}$，可得\r\n\n$$\n\\hat P=\\{n\\in\\mathbb{N}\\mid 2n+1\\in\\{1,2,3,4,5\\}\\}=\\{0,1,2\\}\n$$\n\r\n\n$$\n\\hat Q=\\{n\\in\\mathbb{N}\\mid 2n+1\\in\\{3,4,5,6,7\\}\\}=\\{1,2,3\\}\n$$\n\r\n因此\r\n$\\hat P\\cap\\complement_{\\mathbb{N}}\\hat Q=\\{0\\}$，$\\hat Q\\cap\\complement_{\\mathbb{N}}\\hat P=\\{3\\}$，\r\n从而所求集合为 $\\{0,3\\}$，选 A.",
+          "choices": [
+            "$\\{0, 3\\}$",
+            "$\\{1, 2\\}$",
+            "$\\{3, 4, 5\\}$",
+            "$\\{1, 2, 6, 7\\}$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 10,
+          "body": "已知向量 $\\mathbf{a} \\neq \\mathbf{e}$，$|\\mathbf{e}| = 1$，对任意 $t \\in \\mathbb{R}$，恒有 $|\\mathbf{a} - t\\mathbf{e}| \\ge |\\mathbf{a} - \\mathbf{e}|$. 则（$ $）\r\n\r\n\r\nC\r\n\r\n两边平方并利用 $|\\mathbf{e}|=1$，得到对任意 $t\\in\\mathbb{R}$，\r\n\n$$\n|\\mathbf{a}-t\\mathbf{e}|^2-|\\mathbf{a}-\\mathbf{e}|^2\r\n=t^2-2t\\mathbf{a}\\cdot\\mathbf{e}+2\\mathbf{a}\\cdot\\mathbf{e}-1\r\n=(t-1)^2+2(t-1)(1-\\mathbf{a}\\cdot\\mathbf{e})\\geqslant0\n$$\n\r\n令 $t=1+h$，则\r\n$h^2+2h(1-\\mathbf{a}\\cdot\\mathbf{e})\\geqslant0$，（$h\\in\\mathbb{R}$）.\r\n若 $1-\\mathbf{a}\\cdot\\mathbf{e}\\ne0$，取充分小且符号相反的 $h$，上式将小于零，矛盾. 所以\r\n$\\mathbf{a}\\cdot\\mathbf{e}=1$. 因而\r\n\n$$\n\\mathbf{e}\\cdot(\\mathbf{a}-\\mathbf{e})=\\mathbf{a}\\cdot\\mathbf{e}-|\\mathbf{e}|^2=1-1=0\n$$\n\r\n又因 $\\mathbf{a}\\ne\\mathbf{e}$，故 $\\mathbf{e}\\perp(\\mathbf{a}-\\mathbf{e})$，选 C.",
+          "choices": [
+            "$\\mathbf{a} \\perp \\mathbf{e}$",
+            "$\\mathbf{a} \\perp (\\mathbf{a} - \\mathbf{e})$",
+            "$\\mathbf{e} \\perp (\\mathbf{a} - \\mathbf{e})$",
+            "$(\\mathbf{a} + \\mathbf{e}) \\perp (\\mathbf{a} - \\mathbf{e})$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "函数 $y = \\frac{x}{x + 2}$（$x \\in \\mathbb{R}$，且 $x \\neq -2$）的反函数是 _______ {}.\r\n\r\n$y=\\frac{2}{1-x}$，$x\\in\\mathbb{R}$，且 $x\\neq1$\r\n\r\n由 $y=\\dfrac{x}{x+2}$ 得\r\n$y(x+2)=x$，$\\Longrightarrow$，$x(y-1)=-2$.\r\n由于原函数的值域为 $\\mathbb{R}\\setminus\\{1\\}$，所以 $y\\ne1$，从而\r\n\n$$\nx=\\frac{2}{1-y}\n$$\n\r\n交换 $x$，$y$ 得反函数\r\n$y=\\frac{2}{1-x}$，$x\\in\\mathbb{R}$，$\\ x\\ne1$.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 12,
+          "body": "设 $M$，$N$ 是直角梯形 $ABCD$ 两腰的中点，$DE \\perp AB$ 于 $E$（如图）. 现将 $\\triangle ADE$ 沿 $DE$ 折起，使二面角 $A-DE-B$ 为 $45^{\\circ}$，此时点 $A$ 在平面 $BCDE$ 内的射影恰为点 $B$，则 $M$，$N$ 的连线与 $AE$ 所成角的大小等于 _______ {}.\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/zhejiang_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n$90^{\\circ}$\r\n\r\n建立空间直角坐标系，使平面 $BCDE$ 为 $z=0$ 平面，$EB$ 为 $x$ 轴正向，$ED$ 为 $y$ 轴正向. 设 $EB=u>0$，$ED=v>0$，则\r\n$E=(0,0,0)$，$B=(u,0,0)$，$D=(0,v,0)$，$C=(u,v,0)$.\r\n点 $A$ 在平面 $BCDE$ 内的射影为 $B$，故可设 $A=(u,0,h)$. 在垂直于 $DE$ 的截面内，二面角 $A-DE-B$ 是射线 $EA$ 与 $EB$ 的夹角. 该角为 $45^{\\circ}$，所以 $h=u$，即 $A=(u,0,u)$.\r\n\r\n由中点坐标公式，\r\n$M=\\left(\\frac{u}{2},\\frac{v}{2},\\frac{u}{2}\\right)$，$N=\\left(u,\\frac{v}{2},0\\right)$.\r\n于是\r\n$\\overrightarrow{MN}=\\left(\\frac{u}{2},0,-\\frac{u}{2}\\right)$，$\\overrightarrow{AE}=(-u,0,-u)$，\r\n且\r\n\n$$\n\\overrightarrow{MN}\\cdot\\overrightarrow{AE}\r\n=-\\frac{u^2}{2}+\\frac{u^2}{2}=0\n$$\n\r\n所以 $MN\\perp AE$，所成角为 $90^{\\circ}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 13,
+          "body": "过双曲线 $\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} = 1$（$a > 0$，$b > 0$）的左焦点且垂直于 $x$ 轴的直线与双曲线相交于 $M$，$N$ 两点，以 $MN$ 为直径的圆恰好过双曲线的右顶点，则双曲线的离心率等于 _______ {}.\r\n\r\n$2$\r\n\r\n设双曲线的半焦距为 $c$，则 $c^2=a^2+b^2$，左焦点为 $(-c,0)$. 直线 $x=-c$ 与双曲线相交时，代入方程得\r\n$\\frac{c^2}{a^2}-\\frac{y^2}{b^2}=1$，$\\Longrightarrow$，$y^2=\\frac{b^4}{a^2}$.\r\n所以 $M$，$N$ 的纵坐标分别为 $\\frac{b^2}{a}$ 和 $-\\frac{b^2}{a}$，以 $MN$ 为直径的圆的圆心为 $(-c,0)$，半径为 $\\frac{b^2}{a}$.\r\n\r\n双曲线右顶点为 $(a,0)$，由题意\r\n\n$$\na+c=\\frac{b^2}{a}=\\frac{c^2-a^2}{a}=\\frac{(c-a)(c+a)}{a}\n$$\n\r\n因 $c+a>0$，约去 $c+a$ 得 $c-a=a$，即 $c=2a$. 因而离心率\r\n\n$$\ne=\\frac{c}{a}=2\n$$",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 14,
+          "body": "从集合 $\\{O, P, Q, R, S\\}$ 与 $\\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\}$ 中各任取 $2$ 个元素排成一排（字母和数字均不能重复）. 每排中字母 $O$，$Q$ 和数字 $0$ 至多只能出现一个的不同排法种数是 _______ {}. （用数字作答）\r\n\r\n$8424$\r\n\r\n先任取两个字母、两个数字，再将四个元素排列，总排法数为\r\n\n$$\n\\mathrm C_5^2\\mathrm C_{10}^2 4!=10\\times45\\times24=10800\n$$\n\r\n不合条件的排法分三类且互不相交：\r\n\n(1) 同时选中字母 $O$，$Q$. 两个数字任取，有 $\\mathrm C_{10}^2$ 种选法，排法数为 $\\mathrm C_{10}^2 4!=1080$；\n\n(2) 选中 $O$ 和数字 $0$，但未选中 $Q$. 另一个字母有 $3$ 种，另一个数字有 $9$ 种，排法数为 $3\\times9\\times4!=648$；\n\n(3) 选中 $Q$ 和数字 $0$，但未选中 $O$. 同理，排法数为 $3\\times9\\times4!=648$.\n\r\n因此符合条件的排法数为\r\n\n$$\n10800-(1080+648+648)=8424\n$$",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 15,
+          "body": "已知函数 $f(x) = -\\sqrt{3}\\sin^{2}x + \\sin x\\cos x$.\r\n\n(1) 求 $f\\left(\\frac{25\\pi}{6}\\right)$ 的值；\n\n(2) 设 $\\alpha \\in (0, \\pi)$，$f\\left(\\frac{\\alpha}{2}\\right) = \\frac{1}{4} - \\frac{\\sqrt{3}}{2}$，求 $\\sin \\alpha$ 的值.\n\r\n\r\n\n(1) 因为 $\\frac{25\\pi}{6}=4\\pi+\\frac{\\pi}{6}$，所以\r\n$\\sin\\frac{25\\pi}{6}=\\frac{1}{2}$，$\\cos\\frac{25\\pi}{6}=\\frac{\\sqrt{3}}{2}$.\r\n因此\r\n\n$$\nf\\left(\\frac{25\\pi}{6}\\right)\r\n=-\\sqrt{3}\\left(\\frac{1}{2}\\right)^2+\\frac{1}{2}\\cdot\\frac{\\sqrt{3}}{2}=0\n$$\n\n(2) 令 $\\theta=\\frac{\\alpha}{2}$，则 $\\theta\\in\\left(0,\\frac{\\pi}{2}\\right)$. 利用半角公式，原条件化为\r\n\n$$\n-\\sqrt{3}\\frac{1-\\cos\\alpha}{2}+\\frac{\\sin\\alpha}{2}\r\n=\\frac{1}{4}-\\frac{\\sqrt{3}}{2}\n$$\n\r\n整理得\r\n\n$$\n\\sin\\alpha+\\sqrt{3}\\cos\\alpha=\\frac{1}{2}\n$$\n\r\n即\r\n\n$$\n2\\sin\\left(\\alpha+\\frac{\\pi}{3}\\right)=\\frac{1}{2}\n$$\n\r\n令 $\\delta=\\arcsin\\frac{1}{4}$，则 $0<\\delta<\\frac{\\pi}{6}$. 由于\r\n$\\alpha+\\frac{\\pi}{3}\\in\\left(\\frac{\\pi}{3},\\frac{4\\pi}{3}\\right)$，只有\r\n\n$$\n\\alpha+\\frac{\\pi}{3}=\\pi-\\delta\n$$\n\r\n满足条件，所以 $\\alpha=\\frac{2\\pi}{3}-\\delta$. 又\r\n$\\sin\\delta=\\frac14$，$\\cos\\delta=\\frac{\\sqrt{15}}4$，从而\r\n\n$$\n\\sin\\alpha\r\n=\\sin\\left(\\frac{2\\pi}{3}-\\delta\\right)\r\n=\\frac{\\sqrt{3}}{2}\\cdot\\frac{\\sqrt{15}}{4}\r\n+\\frac{1}{2}\\cdot\\frac{1}{4}\r\n=\\frac{1+3\\sqrt{5}}{8}\n$$",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 16,
+          "body": "已知函数 $f(x)$ 和 $g(x)$ 的图象关于原点对称，且 $f(x) = x^{2} + 2x$.\r\n\n(1) 求函数 $g(x)$ 的解析式；\n\n(2) 解不等式 $g(x) \\ge f(x) - |x - 1|$.\n\r\n\r\n\n(1) 图象关于原点对称意味着点 $(x,f(x))$ 关于原点的对称点 $(-x,-f(x))$ 在函数 $g$ 的图象上. 因而\r\n\n$$\ng(x)=-f(-x)=-\\left[(-x)^2+2(-x)\\right]=-x^2+2x\n$$\n\n(2) 将 $f$，$g$ 的解析式代入不等式，得\r\n\n$$\n-x^2+2x\\ge x^2+2x-|x-1|\r\n \\Longleftrightarrow \r\n|x-1|\\geqslant2x^2\n$$\n\r\n当 $x\\geqslant1$ 时，$|x-1|=x-1$，不等式化为\r\n\n$$\n2x^2-x+1\\leqslant0\n$$\n\r\n其判别式为 $1-8<0$，故此时无解.\r\n\r\n当 $x<1$ 时，$|x-1|=1-x$，不等式化为\r\n\n$$\n2x^2+x-1\\leqslant0\r\n \\Longleftrightarrow \r\n(2x-1)(x+1)\\leqslant0\n$$\n\r\n所以 $-1\\le x\\le\\frac12$. 综合两种情况，解集为\r\n$\\left[-1,\\frac12\\right]$.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 17,
+          "body": "如图，已知椭圆的中心在坐标原点，焦点 $F_{1}$，$F_{2}$ 在 $x$ 轴上，长轴 $A_{1}A_{2}$ 的长为 $4$，左准线 $l$ 与 $x$ 轴的交点为 $M$，$|MA_{1}|: |A_{1}F_{1}| = 2:1$.\r\n\n(1) 求椭圆的方程；\n\n(2) 若直线 $l_{1}: x = m$（$|m| > 1$），$P$ 为 $l_{1}$ 上的动点，使 $\\angle F_{1}PF_{2}$ 最大的点 $P$ 记为 $Q$，求点 $Q$ 的坐标.（用 $m$ 表示）\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/zhejiang_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\n(1) 设椭圆的长半轴为 $a$，半焦距为 $c$. 由长轴长为 $4$，得 $a=2$. 左顶点为 $A_1=(-2,0)$，左焦点为 $F_1=(-c,0)$，左准线为 $x=-\\frac{a^2}{c}=-\\frac4c$. 因为 $M$ 在左准线上，且 $M$ 位于 $A_1$ 左侧，所以\r\n$|MA_1|=\\frac4c-2$，$|A_1F_1|=2-c$.\r\n由比例条件\r\n\n$$\n\\frac4c-2=2(2-c)\n$$\n\r\n得\r\n$2c^2-6c+4=0$，$\\Longrightarrow$，$(c-1)(c-2)=0$.\r\n因椭圆要求 $0<c<a=2$，故 $c=1$. 于是\r\n$b^2=a^2-c^2=3$，椭圆方程为\r\n\n$$\n\\frac{x^2}{4}+\\frac{y^2}{3}=1\n$$\n\n(2) 由上问，$F_1=(-1,0)$，$F_2=(1,0)$. 设 $P=(m,y)$，令 $u=|y|$. 从 $P$ 指向两焦点的两个向量的内积为\r\n\n$$\n(m^2-1)+y^2=m^2+u^2-1\n$$\n\r\n其行列式的绝对值为 $2u$. 因为 $|m|>1$，所成角 $\\theta=\\angle F_1PF_2$ 为锐角，故\r\n\n$$\n\\tan\\theta=\\frac{2u}{m^2+u^2-1}\n$$\n\r\n对 $u\\geqslant0$ 求导，得\r\n\n$$\n\\left(\\frac{2u}{m^2+u^2-1}\\right)'\r\n=\\frac{2(m^2-1-u^2)}{(m^2+u^2-1)^2}\n$$\n\r\n所以当 $u=\\sqrt{m^2-1}$ 时该比值取得最大值，角 $\\theta$ 也取得最大值. 因此\r\n\n$$\nQ\\left(m,\\pm\\sqrt{m^2-1}\\right)\n$$",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 18,
+          "body": "如图，在三棱锥 $P - ABC$ 中，$AB \\perp BC$，$AB = BC = kPA$，点 $O$，$D$ 分别是 $AC$，$PC$ 的中点，$OP \\perp$ 底面 $ABC$.\r\n\n(1) 求证： $OD \\parallel$ 平面 $PAB$；\n\n(2) 当 $k = \\frac{1}{2}$ 时，求直线 $PA$ 与平面 $PBC$ 所成角的大小；\n\n(3) 当 $k$ 取何值时，$O$ 在平面 $PBC$ 内的射影恰好为 $\\triangle PBC$ 的重心？\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/zhejiang_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\n(1) 在三角形 $APC$ 中，$O$，$D$ 分别是 $AC$，$PC$ 的中点. 由三角形中位线定理，\r\n\n$$\nOD\\parallel AP\n$$\n\r\n又 $AP\\subset$ 平面 $PAB$，所以 $OD\\parallel$ 平面 $PAB$.\n\n(2) 设 $PA=p>0$，令 $s=AB=BC=kp$. 建立空间直角坐标系，取\r\n$B=(0,0,0)$，$A=(s,0,0)$，$C=(0,s,0)$.\r\n由于 $OP\\perp$ 底面且 $O$ 为 $AC$ 的中点，设\r\n\n$$\nP=\\left(\\frac{s}{2},\\frac{s}{2},h\\right)\n$$\n\r\n由 $|PA|=p$ 得\r\n\n$$\nh^2+\\frac{s^2}{2}=p^2\n$$\n\r\n平面 $PBC$ 的一个法向量为\r\n\n$$\n\\mathbf{n}=\\overrightarrow{BC}\\times\\overrightarrow{BP}\r\n=\\left(sh,0,-\\frac{s^2}{2}\\right)\n$$\n\r\n取直线 $PA$ 的方向向量 $\\mathbf{v}=\\overrightarrow{AP}=\\left(-\\frac{s}{2},\\frac{s}{2},h\\right)$，则\r\n$|\\mathbf{v}|=p$，$|\\mathbf{n}|=s\\sqrt{h^2+\\frac{s^2}{4}}$，$|\\mathbf{v}\\cdot\\mathbf{n}|=s^2h$.\r\n若直线 $PA$ 与平面 $PBC$ 所成的角为 $\\theta$，则\r\n\n$$\n\\sin\\theta=\\frac{|\\mathbf{v}\\cdot\\mathbf{n}|}{|\\mathbf{v}|\\,|\\mathbf{n}|}\r\n=\\frac{sh}{p\\sqrt{h^2+\\frac{s^2}{4}}}\n$$\n\r\n当 $k=\\frac12$ 时，$s=\\frac p2$，且\r\n$h^2=p^2-\\frac{s^2}{2}=\\frac{7p^2}{8}$，$h=\\frac{\\sqrt{14}}{4}p$.\r\n代入得\r\n\n$$\n\\sin\\theta=\\frac{\\sqrt{14}}{2\\sqrt{15}}=\\frac{\\sqrt{210}}{30}\n$$\n\r\n所以所成角为\r\n$\\displaystyle\\theta=\\arcsin\\frac{\\sqrt{210}}{30}$.\n\n(3) 由上面的坐标设定，三角形 $PBC$ 的重心为\r\n\n$$\nG=\\frac{P+B+C}{3}=\\left(\\frac{s}{6},\\frac{s}{2},\\frac{h}{3}\\right)\n$$\n\r\n而\r\n$O=\\left(\\frac{s}{2},\\frac{s}{2},0\\right)$，$\\overrightarrow{GO}=\\left(\\frac{s}{3},0,-\\frac{h}{3}\\right)$.\r\n仍取平面 $PBC$ 的法向量 $\\mathbf{n}=\\left(sh,0,-\\frac{s^2}{2}\\right)$. 点 $O$ 在平面 $PBC$ 内的射影为 $G$ 的充要条件是 $GO\\perp$ 平面 $PBC$，即 $\\overrightarrow{GO}\\parallel\\mathbf{n}$. 因此\r\n$\\left(s,0,-h\\right)\\parallel\\left(h,0,-\\frac{s}{2}\\right)$，$\\Longrightarrow$，$h^2=\\frac{s^2}{2}$.\r\n结合 $h^2+\\frac{s^2}{2}=p^2$，得 $s^2=p^2$. 因 $s=kp>0$，所以 $k=1$. 反之，$k=1$ 时上述平行关系成立，故此时射影确为重心.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 19,
+          "body": "袋子 $A$ 和 $B$ 中装有若干个均匀的红球和白球，从 $A$ 中摸出一个红球的概率是 $\\frac{1}{3}$，从 $B$ 中摸出一个红球的概率为 $p$.\r\n\n(1) 从 $A$ 中有放回地摸球，每次摸出一个，有 $3$ 次摸到红球即停止.\r\n\\begin{enumerate}\n\n(2) 求恰好摸 $5$ 次停止的概率；\n\n(3) 记 $5$ 次之内（含 $5$ 次）摸到红球的次数为 $\\xi$，求随机变量 $\\xi$ 的分布列及数学期望 $E(\\xi)$；\n\r\n\\item 若 $A$，$B$ 两个袋子中的球数之比为 $1:2$，将 $A$，$B$ 中的球装在一起后，从中摸出一个红球的概率是 $\\frac{2}{5}$，求 $p$ 的值.\r\n\\end{enumerate}\r\n\r\n\n(1) 设一次摸到红球和白球的概率分别为 $r=\\frac13$，$w=\\frac23$.\r\n\\begin{enumerate}\n\n(2) 恰好第 $5$ 次停止，等价于前 $4$ 次恰有 $2$ 次摸到红球且第 $5$ 次摸到红球. 因此\r\n\n$$\nP=\\mathrm C_4^2r^2w^2r\r\n=6\\left(\\frac13\\right)^3\\left(\\frac23\\right)^2\r\n=\\frac{8}{81}\n$$\n\n(3) 当 $\\xi=0$，$1$，$2$ 时，在前 $5$ 次中分别恰有 $0$，$1$，$2$ 次红球，故\r\n\n$$\nP(\\xi=0)=w^5=\\frac{32}{243}\n$$\n\r\n\n$$\nP(\\xi=1)=\\mathrm C_5^1rw^4=\\frac{80}{243}\n$$\n\r\n\n$$\nP(\\xi=2)=\\mathrm C_5^2r^2w^3=\\frac{80}{243}\n$$\n\r\n当 $\\xi=3$ 时，第三次红球在第 $3$，$4$ 或 $5$ 次出现，所以\r\n\n$$\nP(\\xi=3)=r^3+\\mathrm C_3^2r^3w+\\mathrm C_4^2r^3w^2\r\n=\\frac{1}{27}+\\frac{2}{27}+\\frac{8}{81}\r\n=\\frac{17}{81}=\\frac{51}{243}\n$$\n\r\n所以分布列为\r\n\n$$\n\\begin{tabular}{c|cccc}\r\n$\\xi$ & $0$ & $1$ & $2$ & $3$ \\\\\r\n\\hline\r\nP & $\\dfrac{32}{243}$ & $\\dfrac{80}{243}$ & $\\dfrac{80}{243}$ & $\\dfrac{51}{243}$\r\n\\end{tabular}\n$$\n\r\n且\r\n\n$$\nE(\\xi)=0\\cdot\\frac{32}{243}+1\\cdot\\frac{80}{243}+2\\cdot\\frac{80}{243}+3\\cdot\\frac{51}{243}=\\frac{131}{81}\n$$\n\r\n\r\n\\item 设袋子 $A$ 中有 $N$ 个球，则袋子 $B$ 中有 $2N$ 个球. 两袋合并后红球总数为\r\n$\\frac N3+2Np$，球总数为 $3N$. 由题意\r\n$\\frac{\\frac N3+2Np}{3N}=\\frac25$，$\\Longrightarrow$，$\\frac19+\\frac{2p}{3}=\\frac25$.\r\n解得 $p=\\frac{13}{30}$.\r\n\\end{enumerate}",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 20,
+          "body": "设点 $A_{n}(x_{n},0)$，$P_{n}(x_{n},2^{n - 1})$ 和抛物线 $C_n: y = x^{2} + a_n x + b_n$（$n \\in \\mathbb{N}^{*}$），其中 $a_{n} = -2 - 4n - \\frac{1}{2^{n-1}}$，$x_{n}$ 由以下方法得到：$x_{1} = 1$，点 $P_{2}(x_{2},2)$ 在抛物线 $C_{1}: y = x^{2} + a_{1}x + b_{1}$ 上，点 $A_{1}(x_{1},0)$ 到 $P_{2}$ 的距离是 $A_{1}$ 到 $C_{1}$ 上点的最短距离. $\\cdots$，点 $P_{n + 1}(x_{n + 1},2^{n})$ 在抛物线 $C_{n}: y = x^{2} + a_{n}x + b_{n}$ 上，点 $A_{n}(x_{n},0)$ 到 $P_{n + 1}$ 的距离是 $A_{n}$ 到 $C_{n}$ 上点的最短距离.\r\n\n(1) 求 $x_{2}$ 及 $C_{1}$ 的方程.\n\n(2) 证明 $\\{x_{n}\\}$ 是等差数列.\n\r\n\r\n\n(1) 由 $a_1=-2-4-1=-7$，知 $C_1:y=x^2-7x+b_1$. 抛物线在点 $P_2=(x_2,2)$ 处的切线方向向量为 $(1,2x_2-7)$，而\r\n$\\overrightarrow{A_1P_2}=(x_2-1,2)$. 最短距离条件说明这两条方向相互垂直，因此\r\n$(x_2-1,2)\\cdot(1,2x_2-7)=0$，$\\Longrightarrow$，$x_2-1+2(2x_2-7)=0$.\r\n解得 $x_2=3$. 再由 $P_2\\in C_1$，得\r\n\n$$\n2=3^2-7\\cdot3+b_1\n$$\n\r\n所以 $b_1=14$，从而\r\n\n$$\nC_1:y=x^2-7x+14\n$$\n\n(2) 对任意 $n\\in\\mathbb{N}^*$，抛物线 $C_n$ 在点 $P_{n+1}$ 处的切线方向向量为\r\n$\\left(1,2x_{n+1}+a_n\\right)$，而\r\n\n$$\n\\overrightarrow{A_nP_{n+1}}=\\left(x_{n+1}-x_n,2^n\\right)\n$$\n\r\n由最短距离条件，二者垂直，故\r\n\n$$\nx_{n+1}-x_n+2^n(2x_{n+1}+a_n)=0\n$$\n\r\n假设 $x_n=2n-1$，代入 $a_n=-2-4n-2^{1-n}$，得\r\n\n$$\n\\left(1+2^{n+1}\\right)x_{n+1}\r\n=2n-1+2^n\\left(2+4n+2^{1-n}\\right)\r\n=(2n+1)\\left(1+2^{n+1}\\right)\n$$\n\r\n因此 $x_{n+1}=2n+1$. 又 $x_1=1=2\\times1-1$，由数学归纳法\r\n$x_n=2n-1$，（$n\\in\\mathbb{N}^*$）.\r\n所以 $x_{n+1}-x_n=2$，即 $\\{x_n\\}$ 是首项为 $1$，公差为 $2$ 的等差数列.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "year": "2009",
+  "slug": "zhejiang_liberal",
+  "title": "2009年浙江卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设 $U = \\mathbb{R}$，$A = \\{x \\mid x > 0\\}$，$B = \\{x \\mid x > 1\\}$，则 $A \\cap \\complement_U B =$（ ）",
+          "choices": [
+            "$\\{x\\mid 0\\le x < 1\\}$",
+            "$\\{x\\mid 0 < x\\le 1\\}$",
+            "$\\{x \\mid x < 0\\}$",
+            "$\\{x \\mid x > 1\\}$"
+          ],
+          "answer": "B",
+          "solution": "由 $A=\\{x\\mid x>0\\}$，$B=\\{x\\mid x>1\\}$，得\r\n$\\complement_U B=\\{x\\mid x\\le 1\\}$，因此\r\n\n$$\nA\\cap\\complement_U B=\\{x\\mid 0<x\\le 1\\}\n$$\n\r\n对应选项 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "“$x > 0$”是“$x \\ne 0$”的（ ）",
+          "choices": [
+            "充分而不必要条件",
+            "必要而不充分条件",
+            "充分必要条件",
+            "既不充分也不必要条件"
+          ],
+          "answer": "A",
+          "solution": "若 $x>0$，则必有 $x\\neq0$，所以“$x>0$”是“$x\\neq0$”的充分条件.\r\n但 $x=-1$ 时 $x\\neq0$ 而 $x>0$ 不成立，故它不是必要条件，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "设 $z = 1 + \\mathrm{i}$ （$\\mathrm{i}$ 是虚数单位），则 $\\frac{2}{z} + z^2 =$（ ）",
+          "choices": [
+            "$1 + \\mathrm{i}$",
+            "$-1 + \\mathrm{i}$",
+            "$1 - \\mathrm{i}$",
+            "$-1 - \\mathrm{i}$"
+          ],
+          "answer": "A",
+          "solution": "$$\n\\frac{2}{z}=\\frac{2}{1+\\mathrm{i}}=\\frac{2(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=1-\\mathrm{i}\n$$\n\r\n且 $z^2=(1+\\mathrm{i})^2=2\\mathrm{i}$.\r\n所以\r\n\n$$\n\\frac{2}{z}+z^2=(1-\\mathrm{i})+2\\mathrm{i}=1+\\mathrm{i}\n$$\n\r\n对应选项 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "设 $\\alpha$，$\\beta$ 是两个不同的平面，$l$ 是一条直线. 以下命题正确的是（ ）",
+          "choices": [
+            "若 $l \\perp \\alpha$，$\\alpha \\perp \\beta$，则 $l \\subset \\beta$",
+            "若 $l \\parallel \\alpha$，$\\alpha \\parallel \\beta$，则 $l \\subset \\beta$",
+            "若 $l \\perp \\alpha$，$\\alpha \\parallel \\beta$，则 $l \\perp \\beta$",
+            "若 $l \\parallel \\alpha$，$\\alpha \\perp \\beta$，则 $l \\perp \\beta$"
+          ],
+          "answer": "C",
+          "solution": "若 $l\\perp\\alpha$，则 $l$ 的方向垂直于平面 $\\alpha$ 内的任意直线.\r\n当 $\\alpha\\parallel\\beta$ 时，两平面的法向方向相同，所以同一条直线\r\n垂直于 $\\alpha$ 也垂直于 $\\beta$，选 C.\r\n选项 A 不是必然成立. 例如取 $\\alpha:z=0$、$\\beta:y=1$，\r\n$l$ 为 $z$ 轴，则 $l\\perp\\alpha$、$\\alpha\\perp\\beta$，但\r\n$l$ 不在平面 $\\beta$ 内. 选项 B 也不成立：取\r\n$\\alpha:z=0$、$\\beta:z=1$，取 $l$ 为平面 $z=2$ 内平行于\r\n$x$ 轴的直线，则 $l\\parallel\\alpha$、$\\alpha\\parallel\\beta$，\r\n但 $l$ 不在平面 $\\beta$ 内. 选项 D 不成立：取\r\n$\\alpha:z=0$、$\\beta:x=0$，取 $x=1$，$z=1$ 内平行于 $y$ 轴的直线\r\n$l$，则 $l\\parallel\\alpha$、$\\alpha\\perp\\beta$，而 $l\\parallel\\beta$，\r\n所以 $l$ 不垂直于 $\\beta$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "已知向量 $\\mathbf{a} = (1, 2)$，$\\mathbf{b} = (2, -3)$. 若向量 $\\mathbf{c}$ 满足 $(\\mathbf{c} + \\mathbf{a}) \\parallel \\mathbf{b}$，$\\mathbf{c} \\perp (\\mathbf{a} + \\mathbf{b})$，则 $\\mathbf{c} =$（ ）",
+          "choices": [
+            "$\\left(\\frac{7}{9}, \\frac{7}{3}\\right)$",
+            "$\\left(-\\frac{7}{3}, -\\frac{7}{9}\\right)$",
+            "$\\left(\\frac{7}{3}, \\frac{7}{9}\\right)$",
+            "$\\left(-\\frac{7}{9}, -\\frac{7}{3}\\right)$"
+          ],
+          "answer": "D",
+          "solution": "设 $\\mathbf{c}=(x,y)$. 由 $\\mathbf{a}+\\mathbf{b}=(3,-1)$，\r\n$\\mathbf{c}\\perp(\\mathbf{a}+\\mathbf{b})$ 得\r\n\n$$\n3x-y=0\n$$\n\r\n又因为 $(\\mathbf{c}+\\mathbf{a})\\parallel\\mathbf{b}$，所以\r\n\n$$\n\\begin{vmatrix}x+1&y+2\\\\2&-3\\end{vmatrix}=0\n$$\n\r\n展开得 $-3(x+1)-2(y+2)=0$，\r\n即\r\n\n$$\n3x+2y+7=0\n$$\n\r\n由上式得 $y=3x$，代入前一式得 $9x+7=0$.\r\n于是 $x=-\\frac79$，$y=-\\frac73$，故\r\n\n$$\n\\mathbf{c}=\\left(-\\frac79,-\\frac73\\right)\n$$\n\r\n选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "已知椭圆 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a > b > 0$）的左焦点为 $F$，右顶点为 $A$，点 $B$ 在椭圆上，且 $BF \\perp x$ 轴. 直线 $AB$ 交 $y$ 轴于点 $P$. 若 $\\overrightarrow{AP} = 2\\overrightarrow{PB}$，则椭圆的离心率是（ ）",
+          "choices": [
+            "$\\frac{\\sqrt{3}}{2}$",
+            "$\\frac{\\sqrt{2}}{2}$",
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{2}$"
+          ],
+          "answer": "D",
+          "solution": "记椭圆半焦距为 $c=\\sqrt{a^2-b^2}$，则\r\n$F=(-c,0)$，$A=(a,0)$，由 $BF\\perp x$ 轴，设\r\n$B=(-c,y_B)$，代入椭圆方程得\r\n\n$$\n\\frac{c^2}{a^2}+\\frac{y_B^2}{b^2}=1\n$$\n\r\n从而 $y_B^2=\\frac{b^4}{a^2}$.\r\n条件 $\\overrightarrow{AP}=2\\overrightarrow{PB}$ 表明 $P$ 将 $AB$ 内分为\r\n$AP:PB=2:1$，故\r\n\n$$\nP=A+\\frac23(B-A)\n$$\n\r\n从而 $x_P=\\frac{a-2c}{3}$.\r\n由于 $P$ 在 $y$ 轴上，$x_P=0$，从而 $a=2c$，因此椭圆的离心率为\r\n\n$$\ne=\\frac ca=\\frac12\n$$\n\r\n选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "某程序框图如图所示，该程序运行后输出的 $k$ 的值是（ ）\r\n\r\n\\texfigure[max width=0.42\\linewidth]{img_repaint/2009/zhejiang_liberal/q7_flow.tex}",
+          "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "A",
+          "solution": "程序开始时 $k=0$，$S=0$，每次循环先将 $S$ 更新为 $S+2^S$，再令\r\n$k$ 增加 1，逐次得到\r\n\n$$\n(S,k)=(0,0)\\to(1,1)\\to(3,2)\\to(11,3)\\to(2059,4)\n$$\n\r\n其中 $11+2^{11}=2059\\geqslant100$，循环结束并输出 $k=4$，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "若函数 $f(x) = x^2 + \\frac{a}{x}$（$a \\in \\mathbb{R}$），则下列结论正确的是（ ）",
+          "choices": [
+            "$\\forall a\\in \\mathbb{R},f(x)$ 在 $(0, + \\infty)$ 上是增函数",
+            "$\\forall a\\in \\mathbb{R}$，$f(x)$ 在 $(0, + \\infty)$ 上是减函数",
+            "$\\exists a\\in \\mathbb{R}$，$f(x)$ 是偶函数",
+            "$\\exists a\\in \\mathbb{R}$，$f(x)$ 是奇函数"
+          ],
+          "answer": "C",
+          "solution": "函数定义域为 $\\{x\\in\\mathbb{R}\\mid x\\ne0\\}$. 取 $a=0$ 时，\r\n$f(x)=x^2$，且 $f(-x)=f(x)$，所以存在 $a$ 使 $f$ 为偶函数，\r\n选项 C 正确.\r\n\r\n选项 A 不成立，例如 $a=1$ 时\r\n$f'(x)=2x-\\frac{1}{x^2}$，在正半轴上既有负值又有正值；选项 B 不成立，\r\n因为 $a=0$ 时 $x^2$ 在正半轴上递增. 若 $f$ 为奇函数，则对任意\r\n$x\\neq0$ 有\r\n\n$$\nf(x)+f(-x)=2x^2=0\n$$\n\r\n矛盾，所以 D 也不成立.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "已知三角形的三边长分别为 3， 4， 5，则它的边与半径为 1 的圆的公共点个数最多为（ ）",
+          "choices": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": "B",
+          "solution": "将直角三角形置于坐标平面内，取三个顶点为\r\n$O=(0,0)$、$U=(3,0)$、$V=(0,4)$，三边所在的线段分别为\r\n$OU$、$OV$ 和 $UV$，其中斜边所在直线为\r\n\n$$\n4x+3y=12\n$$\n\r\n\r\n设圆心为 $C=(u,v)$，半径为 1. 圆与每一条边所在直线至多有两个\r\n公共点.\r\n\r\n先考虑圆与两条直角边均有两个公共点的情形. 与 $OU$ 的两个交点\r\n均在线段 $OU$ 上，因而 $|v|<1$ 且 $u>0$；与 $OV$ 的两个交点\r\n均在线段 $OV$ 上，因而 $|u|<1$ 且 $v>0$.\r\n所以必有 $0<u<1$、$0<v<1$. 此时圆心到斜边所在直线的距离为\r\n\n$$\n\\frac{12-4u-3v}{5}>\\frac{12-4-3}{5}=1\n$$\n\r\n所以圆与 $UV$ 没有公共点，公共点总数至多为 4.\r\n\r\n若公共点总数超过 4，则由于每条边至多贡献两个点，必有一条直角边\r\n有两个公共点，斜边也有两个公共点，另一条直角边至少有一个公共点.\r\n不妨先设 $OU$ 有两个公共点.\r\n这时 $|v|<1$ 且 $u>0$. 若 $OV$ 没有公共点，则总数至多为 4；\r\n若 $OV$ 至少有一个公共点，则圆心到直线 $OV$ 的距离不超过 1，\r\n从而 $u\\leqslant1$. 因此\r\n$4u+3v\\leqslant4+3v<7$，从而\r\n$\\frac{12-4u-3v}{5}>1$.\r\n这说明圆与 $UV$ 没有公共点，与斜边有两个公共点矛盾.\r\n\r\n若 $OV$ 有两个公共点，则同理有 $|u|<1$ 且 $v>0$. 若 $OU$\r\n没有公共点，则总数至多为 4；若 $OU$ 至少有一个公共点，则\r\n$v\\leqslant1$，于是\r\n$4u+3v<4+3=7$，从而\r\n$\\frac{12-4u-3v}{5}>1$，\r\n同样不可能与 $UV$ 有两个公共点. 所以公共点总数不超过 4.\r\n\r\n最后给出 4 个公共点的构造. 取圆心 $C=(0,\\frac52)$，半径为 1.\r\n它与 $OV$ 的两个交点为\r\n$(0,\\frac32)$、$(0,\\frac72)$，且到直线 $UV$ 的距离为\r\n$\\frac9{10}<1$，与 $UV$ 的两个交点为\r\n\n$$\n\\left(\\frac{18}{25}\\pm\\frac{3\\sqrt{19}}{50},\r\n\\frac{76}{25}\\mp\\frac{2\\sqrt{19}}{25}\\right)\n$$\n\r\n这两点均在线段 $UV$ 上；圆与 $OU$ 没有公共点. 因此最多为 4 个，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知 $a$ 是实数，则函数 $f(x) = 1 + a \\sin ax$ 的图象不可能是（ ）",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/zhejiang_liberal/q10_optA_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/zhejiang_liberal/q10_optB_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/zhejiang_liberal/q10_optC_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/zhejiang_liberal/q10_optD_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "D",
+          "solution": "当 $a=0$ 时，函数恒为 $1$，对应选项 C 的水平图象.\r\n当 $a\\neq0$ 时，函数的振幅为 $|a|$，周期为\r\n\n$$\nT=\\frac{2\\pi}{|a|}\n$$\n\r\n图 D 的最大值超过 2、最小值小于 0，所以其振幅大于 1，即\r\n$|a|>1$；但图 D 所示的周期又大于 $2\\pi$. 这与\r\n$|a|>1\\Rightarrow T<2\\pi$ 矛盾，故图 D 不可能，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "设等比数列 $\\left\\{a_{n}\\right\\}$ 的公比 $q = \\frac{1}{2}$，前 $n$ 项和为 $S_{n}$，则 $\\frac{S_{4}}{a_{4}} =$ _______ {}.",
+          "choices": [],
+          "answer": "15",
+          "solution": "由 $q=\\frac12$，有\r\n\n$$\nS_4=a_1\\left(1+\\frac12+\\frac14+\\frac18\\right)\n$$\n\r\n且 $a_4=\\frac{a_1}{8}$.\r\n题目中的比值有意义，所以 $a_4\\ne0$，从而 $a_1\\ne0$.\r\n因此\r\n\n$$\n\\frac{S_4}{a_4}=8\\left(1+\\frac12+\\frac14+\\frac18\\right)=15\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "若某几何体的三视图（单位：$\\mathrm{cm}$）如图所示，则此几何体的体积是 _______ {} $\\mathrm{cm}^{3}$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/zhejiang_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "18",
+          "solution": "由三视图可知，该几何体是一个高为 $3$ 的直棱柱，底面为 $T$ 形图形.\r\n$T$ 形底面的面积为上横条和竖条面积之和：\r\n\n$$\nS_{\\text{底}}=3\\times1+1\\times3=6\\ \\mathrm{cm}^{2}\n$$\n\r\n所以几何体的体积为\r\n\n$$\nV=S_{\\text{底}}\\times3=6\\times3=18\\ \\mathrm{cm}^{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "若实数 $x$，$y$ 满足不等式组 $\\begin{cases}\r\nx + y \\ge 2,\\\\\r\n2x - y \\le 4,\\\\\r\nx - y \\ge 0,\r\n\\end{cases}$ 则 $2x + 3y$ 的最小值是 _______ {}.",
+          "choices": [],
+          "answer": "4",
+          "solution": "不等式组等价于 $y\\geqslant2-x$，$y\\geqslant2x-4$，\r\n$y\\le x$.\r\n三条边界直线的交点为\r\n$(1,1)$，$(2,0)$，$(4,4)$.\r\n在三个顶点处，目标函数 $2x+3y$ 的值分别为\r\n$5$，$4$，$20$.\r\n在边 $y=2-x$（$1\\le x\\le2$）上，\r\n\n$$\n2x+3y=6-x\\ge4\n$$\n\r\n在边 $y=2x-4$（$2\\le x\\le4$）上，\r\n\n$$\n2x+3y=8x-12\\ge4\n$$\n\r\n在边 $y=x$（$1\\le x\\le4$）上，目标函数为 $5x\\ge5$.\r\n因此三条边上的最小值中最小者为 $4$，所以最小值为 $4$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "某个容量为 100 的样本的频率分布直方图如下，则在区间 $[4, 5)$ 上的数据的频数为 _______ {}.\r\n\r\n\\texfigure[max width=6.0cm]{img_repaint/2009/zhejiang_liberal/q14_fig1.tex}",
+          "choices": [],
+          "answer": "30",
+          "solution": "从直方图读得区间 $[4,5)$ 上的频率密度为 $0.30$，该组组距为\r\n$5-4=1$，因此该组频率为 $0.30\\times1=0.30$，样本容量为\r\n100，故频数为\r\n\n$$\n100\\times0.30=30\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "某地区居民生活用电分为高峰和低谷两个时间段进行分时计价. 该地区的电网销售电价表如下：\r\n\r\n\\begin{center}\r\n高峰时间段用电价格表\r\n\r\n\\begin{tabular}{|c|c|}\r\n\\hline\r\n高峰月用电量（单位：$\\text{千瓦时}$） & 高峰电价（单位：$\\text{元}/\\text{千瓦时}$） \\\\\r\n\\hline\r\n$50$ 及以下的部分 & $0.568$ \\\\\r\n\\hline\r\n超过 $50$ 至 $200$ 的部分 & $0.598$ \\\\\r\n\\hline\r\n超过 $200$ 的部分 & $0.668$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\r\n\\vspace{0.8em}\r\n\r\n低谷时间段用电价格表\r\n\r\n\\begin{tabular}{|c|c|}\r\n\\hline\r\n低谷月用电量（单位：$\\text{千瓦时}$） & 低谷电价（单位：$\\text{元}/\\text{千瓦时}$） \\\\\r\n\\hline\r\n$50$ 及以下的部分 & $0.288$ \\\\\r\n\\hline\r\n超过 $50$ 至 $200$ 的部分 & $0.318$ \\\\\r\n\\hline\r\n超过 $200$ 的部分 & $0.388$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n若某家庭 $5$ 月份的高峰时间段用电量为 $200\\text{ 千瓦时}$，低谷时间段用电量为 $100\\text{ 千瓦时}$，则按这种计费方式该家庭本月应付的电费为 _______ {} $\\text{元}$. （用数字作答）",
+          "choices": [],
+          "answer": "148.4",
+          "solution": "高峰时段用电 $200\\text{ 千瓦时}$ 的电费为\r\n\n$$\n50\\times0.568+(200-50)\\times0.598\r\n=28.4+89.7=118.1\\text{ 元}\n$$\n\r\n低谷时段用电 $100\\text{ 千瓦时}$ 的电费为\r\n\n$$\n50\\times0.288+(100-50)\\times0.318\r\n=14.4+15.9=30.3\\text{ 元}\n$$\n\r\n所以本月电费为\r\n\n$$\n118.1+30.3=148.4\\text{ 元}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "设等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，则 $S_{4}$，$S_{8} - S_{4}$，$S_{12} - S_{8}$，$S_{16} - S_{12}$ 成等差数列. 类比以上结论有：设等比数列 $\\{b_{n}\\}$ 的前 $n$ 项积为 $T_{n}$，则 $T_{4}$， _______ {}， _______ {}，$\\frac{T_{16}}{T_{12}}$ 成等比数列.",
+          "choices": [],
+          "answer": "\\(\\frac{T_{8}}{T_{4}}\\)，\\(\\frac{T_{12}}{T_{8}}\\)",
+          "solution": "令\r\n$U_j=b_{4j-3}b_{4j-2}b_{4j-1}b_{4j}$，（$j=1,2,3,4$）.\r\n若等比数列 $\\{b_n\\}$ 的公比为 $q$，则\r\n从 $U_j$ 到 $U_{j+1}$ 的每一个因子都向后移动 4 项，所以有恒等式\r\n\n$$\nU_{j+1}=q^{16}U_j\n$$\n\r\n该恒等式对所有 $j=1$，$2$，$3$ 都成立，即使某个 $U_j=0$ 也无需相除，\r\n因此 $U_1$，$U_2$，$U_3$，$U_4$ 成等比数列. 其中 $T_0=1$，故\r\n$U_1=T_4$；在题目中的比值有定义时，\r\n$U_2=\\frac{T_8}{T_4}$，$U_3=\\frac{T_{12}}{T_8}$，\r\n$U_4=\\frac{T_{16}}{T_{12}}$.\r\n故两空依次为 $\\frac{T_8}{T_4}$、$\\frac{T_{12}}{T_8}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "有 20 张卡片，每张卡片上分别标有两个连续的自然数 $k$，$k + 1$，其中 $k = 0$，$1$，$2$，$\\cdots$，$19$. 从这 20 张卡片中任取一张，记事件“该卡片上两个数的各位数字之和（例如：若取到标有 9, 10 的卡片，则卡片上两个数的各位数字之和为 $9 + 1 + 0 = 10$）不小于 14”为 $A$，则 $P(A)$ = _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{1}{4}\\)",
+          "solution": "记 $s(n)$ 为 $n$ 的各位数字之和. 对 $k=0$，$1$，$\\ldots$，$8$，有\r\n$s(k)+s(k+1)=2k+1$，所以满足不小于 14 的只有 $k=7$，$8$.\r\n此外 $k=9$ 时和为 $9+1+0=10$.\r\n\r\n对 $k=10$，$11$，$\\ldots$，$18$，有\r\n\n$$\ns(k)+s(k+1)=(k-9)+(k-8)=2k-17\n$$\n\r\n所以满足条件的为 $k=16$，$17$，$18$. $k=19$ 时和为\r\n$1+9+2=12$. 因此共有 $2+3=5$ 张符合条件的卡片，\r\n\n$$\nP(A)=\\frac5{20}=\\frac14\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 18,
+          "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$ 且满足 $\\cos \\frac{A}{2} = \\frac{2\\sqrt{5}}{5}$，$\\overrightarrow{AB} \\cdot \\overrightarrow{AC} = 3$.\r\n\n(1) 求 $\\triangle ABC$ 的面积；\n\n(2) 若 $c = 1$，求 $a$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由半角公式，\r\n\n$$\n\\cos A=2\\cos^2\\frac A2-1\r\n=2\\left(\\frac{2\\sqrt5}{5}\\right)^2-1=\\frac35\n$$\n\r\n且\r\n\n$$\n\\sin A=\\frac45\n$$\n\r\n又因为 $\\overrightarrow{AB}$ 与 $\\overrightarrow{AC}$ 的夹角为 $A$，\r\n$bc\\cos A=3$，从而 $bc=5$.\r\n所以\r\n\n$$\nS_{\\triangle ABC}=\\frac12bc\\sin A\r\n=\\frac12\\times5\\times\\frac45=2\n$$\n\n(2) 若 $c=1$，由 $bc=5$ 得 $b=5$，由余弦定理，\r\n\n$$\na^2=b^2+c^2-2bc\\cos A\r\n=25+1-2\\times5\\times\\frac35=20\n$$\n\r\n因为 $a>0$，故 $a=2\\sqrt5$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图， $DC \\perp$ 平面 $ABC$，$EB \\parallel DC$，$AC = BC = EB = 2DC = 2$， $\\angle ACB = 120^{\\circ}$，$P$，$Q$ 分别为 $AE$，$AB$ 的中点.\r\n\n(1) 证明：$PQ \\parallel$ 平面 $ACD$；\n\n(2) 求 $AD$ 与平面 $ABE$ 所成角的正弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/zhejiang_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 在三角形 $AEB$ 中，$P$，$Q$ 分别为 $AE$，$AB$ 的中点，\r\n由中位线定理得 $PQ\\parallel EB$. 又 $EB\\parallel DC$，且\r\n$DC\\subset$ 平面 $ACD$，所以 $PQ\\parallel DC$. 平面 $ACD$ 与\r\n平面 $ABC$ 的交线为 $AC$，而 $B$ 不在直线 $AC$ 上. 若 $Q$ 在平面\r\n$ACD$ 内，则 $A$，$Q$ 都在该平面内，从而直线 $AB$ 及点 $B$ 也在\r\n该平面内，矛盾. 因此 $PQ$ 不在该平面内，从而\r\n\n$$\nPQ\\parallel DC\n$$\n\r\n所以 $PQ$ 平行于平面 $ACD$.\n\n(2) 建立空间直角坐标系，取 $C=(0,0,0)$，$B=(2,0,0)$，\r\n$A=(-1,\\sqrt3,0)$，$D=(0,0,1)$，$E=(2,0,2)$.\r\n则 $\\overrightarrow{AD}=(1,-\\sqrt3,1)$，\r\n$\\overrightarrow{AB}=(3,-\\sqrt3,0)$，\r\n$\\overrightarrow{AE}=(3,-\\sqrt3,2)$.\r\n取平面 $ABE$ 的一个法向量\r\n\n$$\n\\mathbf{n}=\\overrightarrow{AB}\\times\\overrightarrow{AE}\r\n=(-2\\sqrt3,-6,0)\n$$\n\r\n直线与平面所成角的正弦为方向向量在法向方向上的投影长度与方向向量\r\n长度之比，因此\r\n\n$$\n\\sin\\theta\r\n=\\frac{|\\overrightarrow{AD}\\cdot\\mathbf{n}|}\r\n{|\\overrightarrow{AD}|\\,|\\mathbf{n}|}\r\n=\\frac{|4\\sqrt3|}{\\sqrt5\\cdot4\\sqrt3}\r\n=\\frac{\\sqrt5}{5}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设 $S_{n}$ 为数列 $\\{a_{n}\\}$ 的前 $n$ 项和，$S_{n} = kn^{2} + n$，$n \\in \\mathbb{N}^{*}$，其中 $k$ 是常数.\r\n\n(1) 求 $a_{1}$ 及 $a_{n}$；\n\n(2) 若对于任意的 $m \\in \\mathbb{N}^*$，$a_m$，$a_{2m}$，$a_{4m}$ 成等比数列，求 $k$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) $$\na_1=S_1=k+1\n$$\n\r\n且对 $n\\geqslant2$，\r\n\n$$\na_n=S_n-S_{n-1}\r\n=kn^2+n-k(n-1)^2-(n-1)=2kn-k+1\n$$\n\r\n该公式对 $n=1$ 也成立.\n\n(2) 对任意 $m\\in\\mathbb{N}^*$，等比条件为\r\n\n$$\na_{2m}^{\\,2}=a_ma_{4m}\n$$\n\r\n代入通项，令 $d=1-k$，得 $a_m=2km+d$，\r\n$a_{2m}=4km+d$，$a_{4m}=8km+d$.\r\n于是\r\n\n$$\na_{2m}^{\\,2}-a_ma_{4m}\r\n=(4km+d)^2-(2km+d)(8km+d)\r\n=2km(k-1)\n$$\n\r\n由于 $m\\geqslant1$，故 $k=0$ 或 $k=1$. 反之，$k=0$ 时三项均为\r\n1，$k=1$ 时三项为 $2m$，$4m$，$8m$，均满足等比条件. 因此\r\n$k=0$ 或 $k=1$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知函数 $f(x) = x^3 + (1 - a)x^2 - a(a + 2)x + b$，$a$，$b \\in \\mathbb{R}$.\r\n\n(1) 若函数 $f(x)$ 的图象过原点，且在原点处的切线斜率是 $-3$. 求 $a$，$b$ 的值；\n\n(2) 若函数 $f(x)$ 在区间 $(-1, 1)$ 上不单调，求 $a$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) $f(0)=0$，故 $b=0$，又\r\n\n$$\nf'(x)=3x^2+2(1-a)x-a(a+2)\n$$\n\r\n所以 $f'(0)=-a(a+2)=-3$，即\r\n\n$$\na^2+2a-3=0\n$$\n\r\n即 $(a-1)(a+3)=0$.\r\n故 $a=-3$ 或 $a=1$，且 $b=0$.\n\n(2) 将导函数因式分解：\r\n\n$$\nf'(x)=3(x-a)\\left(x+\\frac{a+2}{3}\\right)\n$$\n\r\n其两个零点为 $a$ 和 $-\\frac{a+2}{3}$，二次项系数为正时，导函数\r\n在两相异零点之间为负，在外部为正. 当 $a\\le-5$ 时，\r\n$a\\le-5<-1<1\\le-\\frac{a+2}{3}$，所以 $f'(x)<0$\r\n在 $(-1,1)$ 上恒成立，函数单调；当 $a\\geqslant1$ 时，\r\n$-\\frac{a+2}{3}\\le-1<1\\le a$，同样有 $f'(x)<0$\r\n在 $(-1,1)$ 上恒成立，函数单调.\r\n\r\n因此只有在 $-5<a<1$ 时，至少有一个零点落在 $(-1,1)$ 内；两根\r\n不重合时，导函数在该区间内变号，函数不单调. 条件分别给出\r\n$a\\in(-1,1)$，$-\\frac{a+2}{3}\\in(-1,1)$，第二个条件等价于\r\n$a\\in(-5,1)$，合并得 $-5<a<1$. 当两根重合时\r\n$a=-\\frac12$，此时 $f'(x)=3(x+\\frac12)^2\\geqslant0$，函数单调；\r\n端点 $a=-5$，$1$ 时导函数在开区间内也不变号，故\r\n\n$$\na\\in\\left(-5,-\\frac12\\right)\\cup\\left(-\\frac12,1\\right)\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "已知抛物线 $C: x^{2} = 2py$（$p > 0$）上一个点 $A(m,4)$ 到其焦点的距离为 $\\frac{17}{4}$.\r\n\n(1) 求 $p$ 与 $m$ 的值；\n\n(2) 设抛物线 $C$ 上一点 $P$ 的横坐标为 $t$（$t > 0$），过 $P$ 的直线交 $C$ 于另一点 $Q$，交 $x$ 轴于点 $M$，过点 $Q$ 作 $PQ$ 的垂线交 $C$ 于另一点 $N$. 若 $MN$ 是 $C$ 的切线，求 $t$ 的最小值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/zhejiang_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 抛物线 $x^2=2py$ 的焦点为\r\n$F=(0,\\frac p2)$，准线为 $y=-\\frac p2$，点 $A=(m,4)$ 到准线的\r\n距离为 $4+\\frac p2$，由抛物线的定义等于到焦点的距离 $\\frac{17}{4}$，\r\n故\r\n\n$$\n4+\\frac p2=\\frac{17}{4}\n$$\n\r\n所以 $p=\\frac12$.\r\n又 $A$ 在抛物线上，故\r\n\n$$\nm^2=2p\\cdot4=4\n$$\n\r\n所以 $m=\\pm2$.\n\n(2) 此时抛物线为 $y=x^2$. 设\r\n$P=(t,t^2)$，$Q=(u,u^2)$，其中 $u\\neq t$.\r\n并记 $s=t+u$. 若 $s=0$，则 $u=-t$，直线 $PQ$ 为水平直线\r\n$y=t^2>0$，不可能与 $x$ 轴相交；由于题设给出了交点 $M$，故 $s\\ne0$.\r\n直线 $PQ$ 的斜率为 $s$，与 $x$ 轴交于\r\n\n$$\nM=\\left(\\frac{tu}{s},0\\right)\n$$\n\r\n过 $Q$ 作 $PQ$ 的垂线，其斜率为 $-\\frac{1}{s}$. 设它与抛物线的另一交点为\r\n$N=(n,n^2)$，则\r\n\n$$\nn+u=-\\frac1s\n$$\n\r\n所以 $n=-u-\\frac1s$.\r\n先考虑 $n=0$ 的情形. 此时 $N$ 为原点，条件\r\n$n+u=-\\frac{1}{s}$ 化为 $us=-1$. 由于 $s=t+u$，故\r\n$u^2+tu+1=0$，其判别式为 $t^2-4$，从而 $t\\geqslant2$.\r\n又 $M$ 的横坐标为 $t\\frac{u}{s}=-tu^2\\neq0$，所以 $MN$ 就是\r\n$x$ 轴，确为原点处的切线. 这一情形不能给出比后面更小的 $t$.\r\n\r\n下面设 $n\\neq0$. 抛物线在 $N$ 处的切线斜率为 $2n$，与 $x$ 轴的交点横坐标为\r\n$\\frac{n}{2}$. 由于 $MN$ 是该切线，得到\r\n\n$$\n\\frac{tu}{s}=\\frac n2\n$$\n\r\n代入 $u=s-t$ 和 $n=-u-\\frac{1}{s}$，化简得\r\n\n$$\ns^2+ts-2t^2+1=0\n$$\n\r\n把它看作关于 $s$ 的二次方程，其判别式为\r\n\n$$\n\\Delta=t^2-4(1-2t^2)=9t^2-4\n$$\n\r\n因为 $t>0$，必须有 $t\\ge\\frac23$. 当\r\n$t=\\frac23$ 时取 $s=-\\frac13$，则 $u=-1$，$n=4$，从而\r\n$P=\\left(\\frac23,\\frac49\\right)$，$Q=(-1,1)$，\r\n$M=(2,0)$，$N=(4,16)$.\r\n此时 $PQ$ 斜率为 $-\\frac13$，$QN$ 斜率为 $3$，且 $MN$ 为\r\n点 $N$ 处切线，条件确实满足. 因此\r\n\n$$\nt_{\\min}=\\frac23\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

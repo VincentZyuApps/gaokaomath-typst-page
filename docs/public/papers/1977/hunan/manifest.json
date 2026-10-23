@@ -1,0 +1,156 @@
+{
+  "year": "1977",
+  "slug": "hunan",
+  "title": "1977年湖南卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "(1) $\\log_x 3\\frac{3}{8}=-1\\frac{1}{2}$，求 $x$.\n\n(2) $\\lg 4+\\lg 9+2\\sqrt{\\left(\\lg 6\\right)^2-2\\lg 6+1}=?$\n\n(3) 求函数 $y=\\frac{\\sqrt{3-x}}{\\sqrt{x-2}}$ 的定义域（即自变量 $x$ 的取值范围）.\n\n(4) 解不等式：$x^2-3x-28<0$.\n\n(5) 证明 $\\cos 15^\\circ+\\sin 15^\\circ=\\frac{\\sqrt{6}}{2}$.\n\n(6) 求中心在原点，焦点在 $x$ 轴上，且经过 $A\\left(5,0\\right)$，$B\\left(4,\\frac{12}{5}\\right)$ 两点的椭圆方程.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 对数的底数必须满足 $x>0$ 且 $x\\ne1$，并且\r\n$3\\frac{3}{8}=\\frac{27}{8}$，$-1\\frac{1}{2}=-\\frac{3}{2}$. 由对数定义，得\r\n$x^{-\\frac{3}{2}}=\\frac{27}{8}=\\left(\\frac{3}{2}\\right)^3$. 两边取倒数并开立方，得 $x^{\\frac{3}{2}}=\\left(\\frac{2}{3}\\right)^3$，所以 $x^{\\frac{1}{2}}=\\frac{2}{3}$，从而 $x=\\frac{4}{9}$. 该值满足 $x>0$ 且 $x\\ne1$，故原方程的解为 $x=\\frac{4}{9}$.\n\n(2) 因为 $6<10$，所以 $\\lg 6<1$. 因而\r\n$\\sqrt{\\left(\\lg 6\\right)^2-2\\lg 6+1}=\\sqrt{\\left(\\lg 6-1\\right)^2}=1-\\lg 6$. 于是原式\r\n$=\\lg 4+\\lg 9+2-2\\lg 6=\\lg 36+2-\\lg 36=2$.\n\n(3) 分式有意义，必须使分子根式的被开方数非负，同时使分母根式的被开方数严格为正，因此 $x$ 满足\r\n\n$$\n\\begin{cases}\r\n3-x\\ge0,\\\\\r\nx-2>0.\r\n\\end{cases}\n$$\n\r\n由第一式得 $x\\le3$，由第二式得 $x>2$，两者取交集得 $2<x\\le3$. 所以函数的定义域为 $(2,3]$.\n\n(4) 将多项式因式分解，得\r\n$x^2-3x-28=(x-7)(x+4)$. 因此原不等式等价于 $(x-7)(x+4)<0$. 两个因式的零点为 $-4$ 和 $7$，在 $x<-4$、$-4<x<7$、$x>7$ 三个区间上，乘积的符号依次为正、负、正；又因不等式是严格不等式，两个零点不能取. 所以解集为 $(-4,7)$，即 $-4<x<7$.\n\n(5) 设 $u=\\cos15^\\circ+\\sin15^\\circ$. 则\r\n\n$$\nu^2=\\cos^2 15^\\circ+\\sin^2 15^\\circ+2\\sin15^\\circ\\cos15^\\circ\r\n=1+\\sin30^\\circ=1+\\frac12=\\frac32\n$$\n\r\n由于 $15^\\circ$ 在第一象限，$\\cos15^\\circ>0$ 且 $\\sin15^\\circ>0$，故 $u>0$. 因而 $u=\\sqrt{\\frac32}=\\frac{\\sqrt6}{2}$，即\r\n$\\cos15^\\circ+\\sin15^\\circ=\\frac{\\sqrt6}{2}$.\r\n\r\n也可以利用和差化积公式：\r\n\n$$\n\\cos15^\\circ+\\sin15^\\circ=\\sin75^\\circ+\\sin15^\\circ\r\n=2\\sin45^\\circ\\cos30^\\circ\n$$\n\r\n\n$$\n2\\sin45^\\circ\\cos30^\\circ\r\n=2\\cdot\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\r\n=\\frac{\\sqrt6}{2}\n$$\n\n(6) 因为椭圆的中心在原点且焦点在 $x$ 轴上，可设其标准方程为\r\n$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$，其中 $a>b>0$. 点 $A(5,0)$ 在椭圆上，所以\r\n$\\frac{25}{a^2}=1$，从而 $a=5$. 将点 $B\\left(4,\\frac{12}{5}\\right)$ 代入，得\r\n$\\frac{4^2}{25}+\\frac{\\left(\\frac{12}{5}\\right)^2}{b^2}=1$，$\\frac{16}{25}+\\frac{144}{25b^2}=1$.\r\n因此 $\\frac{144}{25b^2}=\\frac9{25}$，即 $b^2=16$. 由 $b>0$，得 $b=4$. 所以所求椭圆方程为\r\n$\\frac{x^2}{25}+\\frac{y^2}{16}=1$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "某县农机厂金工车间共有 $86$ 个工人，已知每个工人平均每天可以加工甲种部件 $15$ 个，或者乙种部件 $12$ 个，或者丙种部件 $9$ 个. 问应安排加工甲种部件，乙种部件和丙种部件各多少人，才能使加工后的 $3$ 个甲种部件，$2$ 个乙种部件和 $1$ 个丙种部件恰好配套（即加工后的甲种部件个数是丙种部件个数的 $3$ 倍，乙种部件个数是丙种部件个数的 $2$ 倍）.",
+          "choices": [],
+          "answer": "",
+          "solution": "设安排加工甲、乙、丙三种部件的工人数分别为 $x$、$y$、$z$. 工人总数为 $86$，而甲、乙、丙三种部件的产量分别为 $15x$、$12y$、$9z$，所以由配套条件得\r\n\n$$\n\\begin{cases}\r\nx+y+z=86,\\\\\r\n15x=3\\cdot9z,\\\\\r\n12y=2\\cdot9z.\r\n\\end{cases}\n$$\n\r\n将后两式分别约去公因数，化为\r\n\n$$\n\\begin{cases}\r\nx+y+z=86,\\\\\r\n5x-9z=0,\\\\\r\n2y-3z=0.\r\n\\end{cases}\n$$\n\r\n将第一式乘以 $2$ 后减去第三式，得 $2x+5z=172$. 再将这个等式乘以 $5$，减去第二式的 $2$ 倍，得\r\n$43z=860$，所以 $z=20$. 代入 $2y-3z=0$，得 $y=30$. 再由第一式得 $x=86-30-20=36$. 三个数均为非负整数，且代回原条件可得产量分别为 $540$、$360$、$180$，恰为 $3:2:1$. 因此应安排甲、乙、丙三种部件工人分别为 $36$ 人、$30$ 人、$20$ 人.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "已知方程 $ax^2-(2a+1)x+(a+1)=0$.\r\n\n(1) 有一个根为 $0$；\n\n(2) 两个根的和为 $0$；\n\n(3) 两个根的乘积为 $2$.\n\r\n分别求 $a$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "由于题目给出的是二次方程，必须有 $a\\ne0$.\r\n\n(1) 若 $0$ 是方程的一个根，将 $x=0$ 代入得 $a+1=0$，所以 $a=-1$. 此时二次项系数不为零，条件确实成立.\n\n(2) 设方程的两个根为 $x_1$、$x_2$. 由韦达定理，\r\n$x_1+x_2=\\frac{2a+1}{a}$. 当两根的和为 $0$ 时，$\\frac{2a+1}{a}=0$. 因为 $a\\ne0$，所以 $2a+1=0$，得 $a=-\\frac12$. 此时方程为 $-\\frac12x^2+\\frac12=0$，确有两个根 $1$、$-1$，条件成立.\n\n(3) 同样由韦达定理，$x_1x_2=\\frac{a+1}{a}$. 令其等于 $2$，得 $a+1=2a$，所以 $a=1$. 此时方程为 $x^2-3x+2=0=(x-1)(x-2)$，两个根的乘积确为 $2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "把表面积分别是 $36\\pi\\mathrm{~cm}^2$、$64\\pi\\mathrm{~cm}^2$ 和 $100\\pi\\mathrm{~cm}^2$ 的三个锡球熔成一个大锡球，求这个大锡球的半径.",
+          "choices": [],
+          "answer": "",
+          "solution": "设大锡球的半径为 $R$，三个小锡球的半径分别为 $r_1$、$r_2$、$r_3$. 由球的表面积公式 $S=4\\pi r^2$，有\r\n$r_1=\\sqrt{\\frac{36\\pi}{4\\pi}}=3$，$r_2=\\sqrt{\\frac{64\\pi}{4\\pi}}=4$，$r_3=\\sqrt{\\frac{100\\pi}{4\\pi}}=5$.\r\n熔化过程中没有材料损失，因此体积守恒. 由球的体积公式 $V=\\frac43\\pi r^3$，得\r\n\n$$\n\\frac43\\pi R^3=\\frac43\\pi\\left(r_1^3+r_2^3+r_3^3\\right)\n$$\n\r\n约去 $\\frac43\\pi$，并代入三个半径，得\r\n$R^3=3^3+4^3+5^3=27+64+125=216$. 由于半径为正，$R=6$. 所以这个大锡球的半径为 $6\\mathrm{~cm}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "已知四边形 $ABCD$ 中，$\\angle A$、$\\angle B$、$\\angle C$、$\\angle D$ 成等差数列，且 $\\angle C=3\\angle A$，求 $\\angle A$、$\\angle B$、$\\angle C$、$\\angle D$ 的度数.",
+          "choices": [],
+          "answer": "",
+          "solution": "设等差数列的首项为 $x$，公差为 $d$，则\r\n$\\angle A=x$、$\\angle B=x+d$、$\\angle C=x+2d$、$\\angle D=x+3d$. 由 $\\angle C=3\\angle A$，得 $x+2d=3x$，即 $d=x$. 所以四个角依次为 $x$、$2x$、$3x$、$4x$. 四边形内角和为 $360^\\circ$，故\r\n$x+2x+3x+4x=360^\\circ$，解得 $x=36^\\circ$. 因而\r\n$\\angle A=36^\\circ$、$\\angle B=72^\\circ$、$\\angle C=108^\\circ$、$\\angle D=144^\\circ$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "在 $\\triangle ABC$ 中，用 $a$、$b$、$c$ 依次表示 $\\angle A$、$\\angle B$、$\\angle C$ 的对边，已知 $\\angle B=45^\\circ$、$b=10$、$c=5\\sqrt6$，不查表求 $C$、$A$、$a$.",
+          "choices": [],
+          "answer": "",
+          "solution": "由正弦定理，$\\frac{c}{\\sin C}=\\frac{b}{\\sin B}$，所以\r\n\n$$\n\\sin C=\\frac{c\\sin B}{b}\r\n=\\frac{5\\sqrt6\\cdot\\frac{\\sqrt2}{2}}{10}\r\n=\\frac{\\sqrt3}{2}\n$$\n\r\n三角形内角满足 $0^\\circ<C<180^\\circ$，故 $\\sin C=\\frac{\\sqrt3}{2}$ 给出两种可能：$C=60^\\circ$ 或 $C=120^\\circ$.\r\n\r\n当 $C=60^\\circ$ 时，$A=180^\\circ-45^\\circ-60^\\circ=75^\\circ$. 再由正弦定理，\r\n\n$$\na=\\frac{b\\sin A}{\\sin B}\r\n=\\frac{10\\sin75^\\circ}{\\sin45^\\circ}\r\n=\\frac{10\\cdot\\frac{\\sqrt6+\\sqrt2}{4}}{\\frac{\\sqrt2}{2}}\r\n=5(\\sqrt3+1)\n$$\n\r\n\r\n当 $C=120^\\circ$ 时，$A=180^\\circ-45^\\circ-120^\\circ=15^\\circ$. 同理\r\n\n$$\na=\\frac{b\\sin A}{\\sin B}\r\n=\\frac{10\\sin15^\\circ}{\\sin45^\\circ}\r\n=\\frac{10\\cdot\\frac{\\sqrt6-\\sqrt2}{4}}{\\frac{\\sqrt2}{2}}\r\n=5(\\sqrt3-1)\n$$\n\r\n两种情形下的第三角均为正，均能构成三角形. 因此答案为\r\n$C=60^\\circ$，$A=75^\\circ$，$a=5(\\sqrt3+1)$，或\r\n$C=120^\\circ$，$A=15^\\circ$，$a=5(\\sqrt3-1)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知圆内接四边形 $ABCD$ 中，$\\angle A=60^\\circ$、$\\angle B=90^\\circ$、$AB=2$、$CD=1$. 求 $BC$ 和 $DA$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/hunan/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "方法一：由圆周角定理，$\\angle B=90^\\circ$ 所对的弦 $AC$ 是外接圆的直径. 因此同弦 $AC$ 所对的圆周角 $\\angle D=90^\\circ$. 四边形内角和为 $360^\\circ$，所以 $\\angle C=360^\\circ-\\angle A-\\angle B-\\angle D=120^\\circ$.\r\n\r\n设 $BC=x>0$、$DA=y>0$. 在直角三角形 $ABC$ 和 $ADC$ 中，斜边都是 $AC$，由勾股定理分别得 $AC^2=AB^2+BC^2=4+x^2$ 与 $AC^2=AD^2+DC^2=y^2+1$，从而\r\n$4+x^2=y^2+1$.\r\n\r\n对三角形 $ABD$ 使用余弦定理，得 $BD^2=AB^2+AD^2-2AB\\cdot AD\\cos60^\\circ=4+y^2-2y$. 对三角形 $BCD$ 使用余弦定理，得 $BD^2=BC^2+CD^2-2BC\\cdot CD\\cos120^\\circ=x^2+1+x$. 比较两个 $BD^2$ 的表达式，得 $4+y^2-2y=x^2+1+x$.\r\n\r\n由第一式得 $x^2=y^2-3$，代入第二式，得 $4+y^2-2y=y^2-2+x$，即 $x+2y=6$. 因而 $x=6-2y$. 代入 $x^2=y^2-3$，得\r\n\n$$\n(6-2y)^2=y^2-3\r\n \\Longleftrightarrow \r\n3y^2-24y+39=0\r\n \\Longleftrightarrow \r\n(y-4)^2=3\n$$\n\r\n所以 $y=4\\pm\\sqrt3$. 当 $y=4+\\sqrt3$ 时，$x=6-2y=-2-2\\sqrt3<0$，不符合边长为正的条件；故取 $y=4-\\sqrt3$，此时 $x=6-2y=2\\sqrt3-2$. 因此\r\n$BC=2\\sqrt3-2$，$DA=4-\\sqrt3$.\r\n\r\n方法二：由上面的圆周角关系，$\\angle D=90^\\circ$、$\\angle C=120^\\circ$. 过 $B$ 作 $BE\\perp AD$，垂足为 $E$；过 $C$ 作 $CF\\perp BE$，垂足为 $F$. 因为 $BE\\perp AD$ 且 $CF\\perp BE$，而 $CD\\perp AD$，所以四边形 $CDEF$ 为矩形，进而 $ED=CF$、$FE=CD=1$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/hunan/q7_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n在直角三角形 $ABE$ 中，$\\angle ABE=90^\\circ-\\angle A=30^\\circ$，故\r\n$AE=AB\\sin30^\\circ=2\\cdot\\frac12=1$，且 $BE=AB\\cos30^\\circ=2\\cdot\\frac{\\sqrt3}{2}=\\sqrt3$.\r\n\r\n在直角三角形 $BCF$ 中，$BF=BE-FE=\\sqrt3-1$. 又 $\\angle CBF=90^\\circ-\\angle ABE=60^\\circ$，所以\r\n$BC=\\frac{BF}{\\cos60^\\circ}=2(\\sqrt3-1)$. 另外\r\n$CF=BF\\tan60^\\circ=(\\sqrt3-1)\\sqrt3=3-\\sqrt3$. 因为 $AD=AE+ED=AE+CF$，所以 $AD=1+3-\\sqrt3=4-\\sqrt3$. 这与方法一所得结果一致.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "参考题",
+      "problems": [
+        {
+          "num": 8,
+          "body": "用数学归纳法或其他方法证明：$1^4+2^4+3^4+\\dots+n^4=\\frac{n(n+1)(2n+1)(3n^2+3n-1)}{30}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "方法一：数学归纳法. 设命题 $P(n)$ 为\r\n$1^4+2^4+\\dots+n^4=\\frac{n(n+1)(2n+1)(3n^2+3n-1)}{30}$，其中 $n$ 为正整数.\r\n\r\n当 $n=1$ 时，左边为 $1^4=1$，右边为\r\n$\\frac{1\\cdot2\\cdot3\\cdot5}{30}=1$，所以 $P(1)$ 成立.\r\n\r\n假设 $P(k)$ 成立，即\r\n$1^4+2^4+\\dots+k^4=\\frac{k(k+1)(2k+1)(3k^2+3k-1)}{30}$. 则\r\n\n$$\n\\begin{aligned}\r\n1^4+2^4+\\dots+k^4+(k+1)^4\r\n&=\\frac{k(k+1)(2k+1)(3k^2+3k-1)+30(k+1)^4}{30}\\\\\r\n&=\\frac{(k+1)(6k^4+39k^3+91k^2+89k+30)}{30}\\\\\r\n&=\\frac{(k+1)(k+2)(6k^3+27k^2+37k+15)}{30}\\\\\r\n&=\\frac{(k+1)(k+2)(2k+3)(3k^2+9k+5)}{30}\\\\\r\n&=\\frac{(k+1)((k+1)+1)(2(k+1)+1)\\left(3(k+1)^2+3(k+1)-1\\right)}{30}.\r\n\\end{aligned}\n$$\n\r\n这里用到的因式分解可直接验证：\r\n$6k^4+39k^3+91k^2+89k+30=(k+2)(2k+3)(3k^2+9k+5)$. 因此 $P(k+1)$ 成立. 由数学归纳法，对任意正整数 $n$，原等式成立.\r\n\r\n方法二：利用递推式. 对正整数 $r$ 记 $S_r=1^r+2^r+\\dots+n^r$. 对任意正整数 $k$，由二项式定理，对每个 $j=1$，$2$，$\\dots$，$n$ 有\r\n\n$$\n(j+1)^{k+1}-j^{k+1}-1\r\n=\\mathrm C_{k+1}^1j^k+\\mathrm C_{k+1}^2j^{k-1}+\\dots+\\mathrm C_{k+1}^kj\n$$\n\r\n对 $j=1$ 到 $n$ 求和，左边望远镜相消，得到\r\n\n$$\n\\mathrm C_{k+1}^1S_k+\\mathrm C_{k+1}^2S_{k-1}+\\dots+\\mathrm C_{k+1}^kS_1\r\n=(n+1)^{k+1}-(n+1)\n$$\n\r\n依次令 $k=1$，$2$，$3$，$4$，可得\r\n$S_1=\\frac{n(n+1)}2$，$S_2=\\frac{n(n+1)(2n+1)}6$，$S_3=\\frac{n^2(n+1)^2}{4}$.\r\n当 $k=4$ 时，代入前三式，得\r\n\n$$\n\\begin{aligned}\r\nS_4\r\n&=\\frac{(n+1)^5-(n+1)-5S_1-10S_2-10S_3}{5}\\\\\r\n&=\\frac{(n+1)^5-(n+1)-\\frac52n(n+1)-\\frac53n(n+1)(2n+1)-\\frac52n^2(n+1)^2}{5}\\\\\r\n&=\\frac{n(n+1)(2n+1)(3n^2+3n-1)}{30}.\r\n\\end{aligned}\n$$\n\r\n所以 $S_4=1^4+2^4+\\dots+n^4$ 等于题中所给表达式.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "计算下列积分：\r\n\n(1) $\\int_0^1 x\\mathrm{e}^{-x}\\,dx$；\n\n(2) $\\int_0^a x^2\\sqrt{a^2-x^2}\\,dx$（$a>0$）.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由分部积分，取 $u=x$，$dv=\\mathrm{e}^{-x}\\,dx$，则 $du=dx$，$v=-\\mathrm{e}^{-x}$. 因而\r\n\n$$\n\\int_0^1 x\\mathrm{e}^{-x}\\,dx\r\n=\\left[-x\\mathrm{e}^{-x}\\right]_0^1+\\int_0^1\\mathrm{e}^{-x}\\,dx\r\n=-\\frac1{\\mathrm{e}}+\\left[-\\mathrm{e}^{-x}\\right]_0^1\r\n=1-\\frac2{\\mathrm{e}}\n$$\n\n(2) 因为 $a>0$，令 $x=a\\sin t$，其中 $0\\le t\\le\\frac\\pi2$. 则 $dx=a\\cos t\\,dt$，且\r\n$\\sqrt{a^2-x^2}=\\sqrt{a^2-a^2\\sin^2t}=a\\cos t$. 当 $x=0$ 时 $t=0$，当 $x=a$ 时 $t=\\frac\\pi2$，所以\r\n\n$$\n\\begin{aligned}\r\n\\int_0^a x^2\\sqrt{a^2-x^2}\\,dx\r\n&=a^4\\int_0^{\\frac\\pi2}\\sin^2t\\cos^2t\\,dt\r\n=\\frac{a^4}{4}\\int_0^{\\frac\\pi2}\\sin^2 2t\\,dt\\\\\r\n&=\\frac{a^4}{8}\\int_0^{\\frac\\pi2}(1-\\cos4t)\\,dt\r\n=\\frac{a^4}{8}\\left[t-\\frac14\\sin4t\\right]_0^{\\frac\\pi2}\r\n=\\frac{a^4\\pi}{16}.\r\n\\end{aligned}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

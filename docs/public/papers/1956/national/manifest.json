@@ -1,0 +1,91 @@
+{
+  "year": "1956",
+  "slug": "national",
+  "title": "1956年全国卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "试题部分",
+      "problems": [
+        {
+          "num": 1,
+          "body": "(1) 利用对数性质，计算 $\\lg^{2}5+\\lg2\\cdot\\lg50$. （注）$\\lg$ 是以 $10$ 为底的对数 $\\log_{10}$ 的记号.\n\n(2) 设 $m$ 是实数，求证方程 $2x^{2}-\\left(4m-1\\right)x-m^{2}-m=0$ 的两个根必定都是实数.\n\n(3) 设 $M$ 是 $\\triangle ABC$ 的边 $AC$ 的中点，过 $M$ 作直线交 $AB$ 直线于 $E$，过 $B$ 作直线平行于 $ME$ 交 $AC$ 直线于 $F$. 求证 $\\triangle AEF$ 的面积等于 $\\triangle ABC$ 的面积的一半.\n\n(4) 一个三角形三边的长分别是 $3\\text{ 尺}$，$4\\text{ 尺}$ 及 $\\sqrt{37}\\text{ 尺}$. 求这个三角形的最大角的度数.\n\n(5) 设 $\\tan\\alpha$ 与 $\\tan\\beta$ 是方程 $x^{2}+6x+7=0$ 的两个根，求证 $\\sin\\left(\\alpha+\\beta\\right)=\\cos\\left(\\alpha+\\beta\\right)$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由 $\\lg\\left(2\\cdot5\\right)=\\lg10=1$，得 $\\lg2+\\lg5=1$，所以 $\\lg2=1-\\lg5$. 又因为 $50=10\\cdot5$，所以 $\\lg50=\\lg10+\\lg5=1+\\lg5$. 代入原式，得\r\n\n$$\n\\lg^{2}5+\\lg2\\cdot\\lg50=\\lg^{2}5+\\left(1-\\lg5\\right)\\left(1+\\lg5\\right)=1\n$$\n\r\n因此原式的值为 $1$.\n\n(2) 方程的二次项系数为 $2$，不为零. 其判别式为\r\n\n$$\n\\Delta=\\left(4m-1\\right)^{2}-4\\cdot2\\cdot\\left[-\\left(m^{2}+m\\right)\\right]=\\left(4m-1\\right)^{2}+8\\left(m^{2}+m\\right)=24m^{2}+1\n$$\n\r\n因为 $m$ 是实数，所以 $m^{2}\\geq0$，从而 $\\Delta=24m^{2}+1>0$. 因此该方程有两个互不相等的实数根，结论得证.\n\n(3) 取直角坐标系，并以 $A\\frac{C}{2}$ 为长度单位，使 $A=(0,0)$，$C=(2,0)$，于是 $M=(1,0)$. 设 $B=(u,v)$，其中 $v\\ne0$. 因为 $E$ 在直线 $AB$ 上，可设 $E=(tu,tv)$. 这里 $t\\ne0$，否则 $E=A$，直线 $ME$ 与 $AC$ 重合，过 $B$ 作的平行线不与 $AC$ 相交，构造不成立.\r\n\r\n由 $M$，$E$ 两点坐标，得 $\\overrightarrow{ME}=(tu-1,tv)$. 直线 $BF$ 与 $ME$ 平行，所以直线 $BF$ 上的点可表示为\r\n\n$$\nB+\\lambda\\overrightarrow{ME}=\\left(u+\\lambda\\left(tu-1\\right),v+\\lambda tv\\right)\n$$\n\r\n由于 $F$ 在直线 $AC$ 上，其纵坐标为零，故 $v+\\lambda tv=0$. 因为 $v\\ne0$ 且 $t\\ne0$，所以 $\\lambda=-t^{-1}$，从而\r\n\n$$\nF=\\left(u-\\frac{tu-1}{t},0\\right)=\\left(t^{-1},0\\right)\n$$\n\r\n于是\r\n\n$$\nS_{\\triangle AEF}=\\frac{1}{2}\\left|\\det\\begin{pmatrix}tu&tv\\\\ t^{-1}&0\\end{pmatrix}\\right|=\\frac{|v|}{2}\n$$\n\r\n另一方面，$C=(2,0)$，所以\r\n\n$$\nS_{\\triangle ABC}=\\frac{1}{2}\\left|\\det\\begin{pmatrix}u&v\\\\ 2&0\\end{pmatrix}\\right|=|v|\n$$\n\r\n因此 $S_{\\triangle AEF}=\\frac{1}{2}S_{\\triangle ABC}$，结论得证.\n\n(4) 因为 $\\sqrt{37}>4>3$，所以最大角 $\\theta$ 的对边为 $\\sqrt{37}$. 由余弦定理，\r\n\n$$\n37=3^{2}+4^{2}-2\\cdot3\\cdot4\\cos\\theta\n$$\n\r\n即 $\\cos\\theta=-\\frac{1}{2}$. 三角形内角满足 $0^{\\circ}<\\theta<180^{\\circ}$，故 $\\theta=120^{\\circ}$.\n\n(5) 由韦达定理，$\\tan\\alpha+\\tan\\beta=-6$，$\\tan\\alpha\\cdot\\tan\\beta=7$. 题设说明 $\\tan\\alpha$、$\\tan\\beta$ 有定义，且 $1-\\tan\\alpha\\tan\\beta=1-7=-6\\ne0$，所以正切和角公式适用. 因而\r\n\n$$\n\\tan\\left(\\alpha+\\beta\\right)=\\frac{\\tan\\alpha+\\tan\\beta}{1-\\tan\\alpha\\tan\\beta}=\\frac{-6}{-6}=1\n$$\n\r\n又因 $\\cos\\left(\\alpha+\\beta\\right)\\ne0$，故\r\n\n$$\n\\frac{\\sin\\left(\\alpha+\\beta\\right)}{\\cos\\left(\\alpha+\\beta\\right)}=1\n$$\n\r\n从而 $\\sin\\left(\\alpha+\\beta\\right)=\\cos\\left(\\alpha+\\beta\\right)$，结论得证.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "解联立方程 $\\begin{cases}\r\n7\\sqrt{x+y}-x-y=12,\\\\\r\nx^{2}+y^{2}=136.\r\n\\end{cases}$",
+          "choices": [],
+          "answer": "",
+          "solution": "由根式有意义知 $x+y\\geq0$. 令 $u=\\sqrt{x+y}$，则 $u\\geq0$，且第一个方程化为 $7u-u^{2}=12$，即\r\n$u^{2}-7u+12=0$，$\\left(u-3\\right)\\left(u-4\\right)=0$，\r\n所以 $u=3$ 或 $u=4$，从而 $x+y=9$ 或 $x+y=16$.\r\n\r\n又因为\r\n\n$$\n2\\left(x^{2}+y^{2}\\right)-\\left(x+y\\right)^{2}=x^{2}-2xy+y^{2}=\\left(x-y\\right)^{2}\n$$\n\r\n所以可在两种情形下分别求出 $x-y$，再利用 $x=\\frac{(x+y)+(x-y)}{2}$，$y=\\frac{(x+y)-(x-y)}{2}$ 求出 $x$，$y$.\r\n\r\n当 $x+y=9$ 时，\r\n\n$$\n\\left(x-y\\right)^{2}=2\\cdot136-9^{2}=191\n$$\n\r\n所以 $x-y=\\pm\\sqrt{191}$. 当 $x-y=\\sqrt{191}$ 时，\r\n$x=\\frac{9+\\sqrt{191}}{2}$，$y=\\frac{9-\\sqrt{191}}{2}$\r\n当 $x-y=-\\sqrt{191}$ 时，\r\n$x=\\frac{9-\\sqrt{191}}{2}$，$y=\\frac{9+\\sqrt{191}}{2}$\r\n\r\n当 $x+y=16$ 时，\r\n\n$$\n\\left(x-y\\right)^{2}=2\\cdot136-16^{2}=16\n$$\n\r\n所以 $x-y=\\pm4$. 当 $x-y=4$ 时，$x=10$，$y=6$；当 $x-y=-4$ 时，$x=6$，$y=10$.\r\n\r\n这四组数都满足 $x+y\\geq0$，并且由构造满足 $x+y=9$ 或 $x+y=16$ 以及 $x^{2}+y^{2}=136$. 代回第一个方程，分别得到 $7\\cdot3-9=12$ 或 $7\\cdot4-16=12$. 因此原联立方程的解为\r\n\n$$\n\\left\\{\r\n\\left(\\frac{9+\\sqrt{191}}{2},\\frac{9-\\sqrt{191}}{2}\\right),\r\n\\left(\\frac{9-\\sqrt{191}}{2},\\frac{9+\\sqrt{191}}{2}\\right),\r\n(10,6),(6,10)\r\n\\right\\}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "设 $P$ 是等边三角形 $ABC$ 外接圆弧 $\\myarc{BC}$（不含 $A$）上的一点，求证 $PA^{2}=AB^{2}+PB\\cdot PC$.",
+          "choices": [],
+          "answer": "",
+          "solution": "设直线 $AP$ 与 $BC$ 相交于 $M$. 因为 $P$ 在弧 $BC$（不含 $A$）上，$M$ 在线段 $BC$ 上，且 $AM+MP=AP$.\r\n\r\n\\begingroup\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1956/img/national/q3_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup\r\n\r\n由于 $A$，$B$，$P$，$C$ 四点共圆，$\\angle APB=\\angle ACB=\\angle ABM$，又因 $A$，$P$，$M$ 三点共线，$\\angle PAB=\\angle MAB$. 所以 $\\triangle APB\\sim\\triangle AMB$，从而\r\n\n$$\nAP\\cdot AM=AB^{2}\n$$\n\r\n\r\n等边三角形的内角均为 $60^{\\circ}$. 由圆周角定理，$\\angle APC=\\angle BPA=60^{\\circ}$. 因为 $P$，$M$，$A$ 三点共线，所以 $\\angle APC=\\angle BPM$；又因为 $A$，$B$，$P$，$C$ 四点共圆，$\\angle PAC=\\angle PBC$，而 $B$，$M$，$C$ 三点共线，故 $\\angle PAC=\\angle PBM$. 因此 $\\triangle APC\\sim\\triangle BPM$，从而\r\n\n$$\nAP\\cdot MP=PB\\cdot PC\n$$\n\r\n\r\n将两式相加，得 $AP\\cdot AM+AP\\cdot MP=AB^{2}+PB\\cdot PC$. 由 $AM+MP=AP$，左边等于 $AP^{2}$，所以 $PA^{2}=AB^{2}+PB\\cdot PC$，结论得证.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "有一四棱柱体，底面 $ABCD$ 为菱形，$\\angle A'AB=\\angle A'AD$（如图），求证平面 $A'ACC'$ 垂直于底面 $ABCD$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1956/img/national/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "设 $AC$ 与 $BD$ 交于 $O$. 因为 $ABCD$ 是菱形，所以两条对角线互相垂直且互相平分，故 $AO\\perp BD$，且 $O$ 是 $BD$ 的中点.\r\n\r\n\\begingroup\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1956/img/national/q4_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup\r\n\r\n因为 $AB=AD$，$A'A$ 是公共边，且 $\\angle A'AB=\\angle A'AD$，所以由边角边可知 $\\triangle A'AB\\cong\\triangle A'AD$，从而 $A'B=A'D$. 因此 $\\triangle A'BD$ 是等腰三角形. 又因为 $O$ 是 $BD$ 的中点，所以等腰三角形的中线 $A'O$ 同时是高，即 $A'O\\perp BD$.\r\n\r\n直线 $AO$ 与 $A'O$ 都在平面 $A'ACC'$ 内，且相交于 $O$，并且都垂直于直线 $BD$，所以由直线与平面垂直的判定定理，$BD$ 垂直于平面 $A'ACC'$. 由于 $BD$ 在底面 $ABCD$ 内，且底面 $ABCD$ 含有直线 $BD$，由平面与平面垂直的判定定理，平面 $A'ACC'$ 垂直于底面 $ABCD$，结论得证.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "若三角形的三个角成等差级数，则其中一定有一个角是 $60^{\\circ}$；若这样的三角形的三边又成等比级数，则三个角都是 $60^{\\circ}$，试证明之.",
+          "choices": [],
+          "answer": "",
+          "solution": "将三角形的三个角按从大到小记为 $A$，$B$，$C$. 因为它们成等差数列，所以 $A+C=2B$. 又因为三角形内角和为 $A+B+C=180^{\\circ}$，两式相减得 $3B=180^{\\circ}$，所以 $B=60^{\\circ}$. 这证明了三个角中一定有一个是 $60^{\\circ}$.\r\n\r\n再按从小到大排列三边，设它们为 $a$，$aq$，$aq^{2}$，其中 $a>0$，$q\\geq1$. 三角形中边长大小规律与其对角大小规律相同，因此中间边 $aq$ 所对的角正是中间角 $B=60^{\\circ}$. 对该角应用余弦定理，得\r\n\n$$\n(aq)^{2}=a^{2}+(aq^{2})^{2}-2a\\cdot aq^{2}\\cos60^{\\circ}=a^{2}+a^{2}q^{4}-a^{2}q^{2}\n$$\n\r\n由于 $a>0$，两边除以 $a^{2}$，得 $q^{2}=1+q^{4}-q^{2}$，即\r\n$q^{4}-2q^{2}+1=0$，$\\left(q^{2}-1\\right)^{2}=0$，\r\n所以 $q^{2}=1$. 结合 $q\\geq1$，得 $q=1$，三边相等. 因此三角形为等边三角形，三个角都是 $60^{\\circ}$，结论得证.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

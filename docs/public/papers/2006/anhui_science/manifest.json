@@ -1,0 +1,416 @@
+{
+  "year": "2006",
+  "slug": "anhui_science",
+  "title": "2006年安徽卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "复数 $\\frac{1+\\sqrt{3}\\mathrm{i}}{\\sqrt{3}-\\mathrm{i}}$ 等于（ ）",
+          "choices": [
+            "$\\mathrm{i}$",
+            "$-\\mathrm{i}$",
+            "$\\sqrt{3}+\\mathrm{i}$",
+            "$\\sqrt{3}-\\mathrm{i}$"
+          ],
+          "answer": "A",
+          "solution": "将分子、分母同乘分母的共轭复数 $\\sqrt{3}+\\mathrm{i}$，得\r\n\n$$\n\\frac{1+\\sqrt{3}\\mathrm{i}}{\\sqrt{3}-\\mathrm{i}}\r\n=\\frac{(1+\\sqrt{3}\\mathrm{i})(\\sqrt{3}+\\mathrm{i})}{(\\sqrt{3}-\\mathrm{i})(\\sqrt{3}+\\mathrm{i})}\r\n=\\frac{\\sqrt{3}+\\mathrm{i}+3\\mathrm{i}-\\sqrt{3}}{3+1}\r\n=\\frac{4\\mathrm{i}}{4}=\\mathrm{i}\n$$\n\r\n因此选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "设集合 $A = \\{x \\mid |x - 2| \\le 2, x \\in \\mathbb{R}\\}$，$B = \\{y \\mid y = -x^2, -1 \\le x \\le 2\\}$，则 $\\complement_{\\mathbb{R}}(A \\cap B)$ 等于（ ）",
+          "choices": [
+            "$\\mathbb{R}$",
+            "$\\{x\\mid x\\in \\mathbb{R},x\\neq 0\\}$",
+            "$\\{0\\}$",
+            "$\\varnothing$"
+          ],
+          "answer": "B",
+          "solution": "由 $|x-2|\\leqslant2$，得 $0\\le x\\leqslant4$，所以 $A=[0,4]$.\r\n又因为 $y=-x^2$，且 $-1\\le x\\leqslant2$，函数值的最大值为 $0$，最小值为 $-4$，所以 $B=[-4,0]$.\r\n从而 $A\\cap B=\\{0\\}$，其在 $\\mathbb{R}$ 中的补集为 $\\mathbb{R}\\mathbin{\\backslash}\\{0\\}$，因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "若抛物线 $y^{2} = 2px$ 的焦点与椭圆 $\\frac{x^2}{6} + \\frac{y^2}{2} = 1$ 的右焦点重合，则 $p$ 的值为（ ）",
+          "choices": [
+            "$-2$",
+            "$2$",
+            "$-4$",
+            "$4$"
+          ],
+          "answer": "D",
+          "solution": "椭圆的半长轴平方、半短轴平方分别为 $6$、$2$，故\r\n\n$$\nc^2=6-2=4\n$$\n\r\n其右焦点为 $(2,0)$. 抛物线 $y^2=2px$ 的焦点为 $(\\frac{p}{2},0)$，由焦点重合得\r\n\n$$\n\\frac p2=2\n$$\n\r\n所以 $p=4$，因此选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "设 $a$，$b \\in \\mathbb{R}$，已知命题 $p$：$a = b$，命题 $q$：$\\left(\\frac{a + b}{2}\\right)^2 \\le \\frac{a^2 + b^2}{2}$，则 $p$ 是 $q$ 成立的（ ）",
+          "choices": [
+            "必要不充分条件",
+            "充分不必要条件",
+            "充分必要条件",
+            "既不充分也不必要条件"
+          ],
+          "answer": "B",
+          "solution": "将命题 $q$ 两边相减并通分，得到\r\n\n$$\n\\frac{a^2+b^2}{2}-\\left(\\frac{a+b}{2}\\right)^2\r\n=\\frac{(a-b)^2}{4}\\geqslant0\n$$\n\r\n所以对任意实数 $a$，$b$，命题 $q$ 恒成立. 若 $p$ 成立，即 $a=b$，当然有 $q$ 成立；但 $q$ 成立不要求 $a=b$，例如 $a=1$，$b=0$ 时仍成立. 因此 $p$ 是 $q$ 成立的充分不必要条件，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "函数 $y = \\begin{cases}\r\n2x, & x \\ge 0,\\\\\r\n-x^2, & x < 0,\r\n\\end{cases}$ 的反函数是（ ）\r\n\r\n    {$y = \\begin{cases}\r\n2x, & x \\ge 0,\\\\\r\n\\sqrt{-x}, & x < 0.\r\n\\end{cases}$}\r\n    {$y = \\begin{cases}\r\n\\frac{x}{2}, & x \\ge 0,\\\\\r\n-\\sqrt{-x}, & x < 0.\r\n\\end{cases}$}\r\n    {$y = \\begin{cases}\r\n2x, & x \\ge 0,\\\\\r\n-\\sqrt{-x}, & x < 0.\r\n\\end{cases}$}",
+          "choices": [
+            "\\(y = \\begin{cases",
+            "x}{2",
+            "-x",
+            "cases}\\)"
+          ],
+          "answer": "C",
+          "solution": "原函数在 $x\\geqslant0$ 时的值域为 $[0,+\\infty)$，在 $x<0$ 时的值域为 $( -\\infty,0)$.\r\n对反函数设自变量为 $x$. 当 $x\\geqslant0$ 时，原式 $x=2y$，故 $y=\\frac{x}{2}$；当 $x<0$ 时，原式 $x=-y^2$，且原函数这一段要求 $y<0$，故 $y=-\\sqrt{-x}$.\r\n所以反函数为\r\n\n$$\ny=\\begin{cases}\r\n\\dfrac{x}{2},&x\\geqslant0,\\\\\r\n-\\sqrt{-x},&x<0,\r\n\\end{cases}\n$$\n\r\n选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "将函数 $y = \\sin \\omega x$（$\\omega > 0$）的图象按向量 $\\mathbf{a} = \\left(-\\frac{\\pi}{6}, 0\\right)$ 平移，平移后的图象如图所示，则平移后的图象所对应的函数解析式是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/anhui_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$y = \\sin \\left(x + \\frac{\\pi}{6}\\right)$",
+            "$y = \\sin \\left(x - \\frac{\\pi}{6}\\right)$",
+            "$y = \\sin \\left(2x + \\frac{\\pi}{3}\\right)$",
+            "$y = \\sin \\left(2x - \\frac{\\pi}{3}\\right)$"
+          ],
+          "answer": "C",
+          "solution": "图象向左平移 $\\frac{\\pi}{6}$ 后，原函数的自变量应替换为 $x+\\frac{\\pi}{6}$，故平移后的函数形式为\r\n\n$$\ny=\\sin\\omega\\left(x+\\frac{\\pi}{6}\\right)\n$$\n\r\n由图象最低点在 $x=\\frac{7\\pi}{12}$ 处取得 $-1$，代入得 $\\omega\\left(\\frac{7\\pi}{12}+\\frac{\\pi}{6}\\right)=\\frac{3\\pi}{2}+2k\\pi$（$k\\in\\mathbb{Z}$），即 $\\omega=2+\\frac{8k}{3}$. 结合选项，$\\omega$ 只能为 $1$ 或 $2$，故 $\\omega=2$. 因此\r\n\n$$\ny=\\sin\\left(2x+\\frac{\\pi}{3}\\right)\n$$\n\r\n选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "若曲线 $y = x^4$ 的一条切线 $l$ 与直线 $x + 4y - 8 = 0$ 垂直，则 $l$ 的方程为（ ）",
+          "choices": [
+            "$4x - y - 3 = 0$",
+            "$x + 4y - 5 = 0$",
+            "$4x - y + 3 = 0$",
+            "$x + 4y + 3 = 0$"
+          ],
+          "answer": "A",
+          "solution": "直线 $x+4y-8=0$ 的斜率为 $-\\frac{1}{4}$，所以与它垂直的切线斜率为 $4$. 曲线 $y=x^4$ 在点 $(x,x^4)$ 处的切线斜率为\r\n\n$$\ny'=4x^3\n$$\n\r\n令 $4x^3=4$，得 $x=1$，切点为 $(1,1)$. 切线方程为\r\n\n$$\ny-1=4(x-1)\n$$\n\r\n即 $4x-y-3=0$，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "设 $a > 0$，对于函数 $f(x) = \\frac{\\sin x + a}{\\sin x}$（$0 < x < \\pi$），下列结论正确的是（ ）",
+          "choices": [
+            "有最大值而无最小值",
+            "有最小值而无最大值",
+            "有最大值且有最小值",
+            "既无最大值又无最小值"
+          ],
+          "answer": "B",
+          "solution": "因为 $0<x<\\pi$，所以 $0<\\sin x\\leqslant1$，且 $\\sin x$ 在 $x=\\frac{\\pi}{2}$ 时取最大值. 函数可写为\r\n\n$$\nf(x)=1+\\frac{a}{\\sin x}\n$$\n\r\n由于 $a>0$，有\r\n\n$$\nf(x)\\geqslant1+a\n$$\n\r\n等号在 $x=\\frac{\\pi}{2}$ 时成立，所以函数有最小值 $1+a$. 当 $x\\to0^+$ 或 $x\\to\\pi^-$ 时，$\\sin x\\to0^+$，故 $f(x)\\to+\\infty$，函数没有最大值. 因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "表面积为 $2\\sqrt{3}$ 的正八面体的各个顶点都在同一球面上，则此球的体积为（ ）",
+          "choices": [
+            "$\\frac{\\sqrt{2}}{3}\\pi$",
+            "$\\frac{1}{3}\\pi$",
+            "$\\frac{2}{3}\\pi$",
+            "$\\frac{2\\sqrt{2}}{3}\\pi$"
+          ],
+          "answer": "A",
+          "solution": "设正八面体的棱长为 $s$. 正八面体有 $8$ 个全等的正三角形面，故其表面积为\r\n\n$$\n8\\cdot\\frac{\\sqrt{3}}{4}s^2=2\\sqrt{3}s^2\n$$\n\r\n由题设表面积为 $2\\sqrt{3}$，得 $s=1$. 正八面体的中心到任一顶点的距离为外接球半径\r\n\n$$\nR=\\frac{s}{\\sqrt{2}}=\\frac{1}{\\sqrt{2}}\n$$\n\r\n所以球的体积为\r\n\n$$\nV=\\frac{4}{3}\\pi R^3=\\frac{4}{3}\\pi\\left(\\frac{1}{\\sqrt{2}}\\right)^3=\\frac{\\sqrt{2}}{3}\\pi\n$$\n\r\n因此选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "如果实数 $x$，$y$ 满足条件 $\\begin{cases}\r\nx - y + 1 \\ge 0,\\\\\r\ny + 1 \\ge 0,\\\\\r\nx + y + 1 \\le 0,\r\n\\end{cases}$ 那么 $2x - y$ 的最大值为（ ）",
+          "choices": [
+            "$2$",
+            "$1$",
+            "$-2$",
+            "$-3$"
+          ],
+          "answer": "B",
+          "solution": "三个不等式分别给出\r\n$y\\le x+1$，$y\\ge-1$，$y\\le-x-1$.\r\n可行域是由三条边界直线围成的三角形，其顶点为\r\n$(-2,-1)$，$(-1,0)$，$(0,-1)$.\r\n目标函数 $2x-y$ 在这些顶点处的值依次为\r\n$-3$，$-2$，$1$.\r\n线性目标函数在多边形上的最大值在顶点取得，所以最大值为 $1$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "如果 $\\triangle A_{1}B_{1}C_{1}$ 的三个内角的余弦值分别等于 $\\triangle A_{2}B_{2}C_{2}$ 的三个内角的正弦值，则（ ）",
+          "choices": [
+            "$\\triangle A_{1}B_{1}C_{1}$ 和 $\\triangle A_{2}B_{2}C_{2}$ 都是锐角三角形",
+            "$\\triangle A_{1}B_{1}C_{1}$ 和 $\\triangle A_{2}B_{2}C_{2}$ 都是钝角三角形",
+            "$\\triangle A_{1}B_{1}C_{1}$ 是钝角三角形，$\\triangle A_{2}B_{2}C_{2}$ 是锐角三角形",
+            "$\\triangle A_{1}B_{1}C_{1}$ 是锐角三角形，$\\triangle A_{2}B_{2}C_{2}$ 是钝角三角形"
+          ],
+          "answer": "D",
+          "solution": "三角形 $A_1B_1C_1$ 的三个内角余弦都等于正数，因此其三个内角都小于 $\\frac{\\pi}{2}$，所以 $\\triangle A_1B_1C_1$ 是锐角三角形.\r\n\r\n若 $\\triangle A_2B_2C_2$ 也是锐角三角形，则各角都在 $(0,\\frac{\\pi}{2})$ 内. 由\r\n\n$$\n\\sin A_{2}=\\cos A_{1}=\\sin\\left(\\frac{\\pi}{2}-A_{1}\\right)\n$$\n\r\n以及正弦函数在 $(0,\\frac{\\pi}{2})$ 上的单调性，得 $A_2=\\frac{\\pi}{2}-A_1$. 对 $B_2$ 同样有\r\n\n$$\nB_2=\\frac{\\pi}{2}-B_1\n$$\n\r\n同样由 $\\sin C_2=\\cos C_1=\\sin\\left(\\frac{\\pi}{2}-C_1\\right)$ 及正弦函数在 $(0,\\frac{\\pi}{2})$ 上的单调性，得\r\n\n$$\nC_2=\\frac{\\pi}{2}-C_1\n$$\n\r\n于是 $A_2+B_2+C_2=\\frac{\\pi}{2}$，与三角形内角和为 $\\pi$ 矛盾. $\\triangle A_2B_2C_2$ 也不可能是直角三角形，因为若某个角为 $\\frac{\\pi}{2}$，其正弦为 $1$，则对应的 $A_1$ 角余弦为 $1$，这要求 $A_1=0$，不可能.\r\n\r\n因此 $\\triangle A_2B_2C_2$ 是钝角三角形，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "在正方体上任选 $3$ 个顶点连成三角形，则所得的三角形是直角非等腰三角形的概率为（ ）",
+          "choices": [
+            "$\\frac{1}{7}$",
+            "$\\frac{2}{7}$",
+            "$\\frac{3}{7}$",
+            "$\\frac{4}{7}$"
+          ],
+          "answer": "C",
+          "solution": "从正方体的 $8$ 个顶点中任取 $3$ 个，样本总数为\r\n\n$$\n\\mathrm C_{8}^{3}=56\n$$\n\r\n固定一个顶点作为直角顶点. 从该顶点出发的三个棱方向两两垂直. 若另外两个顶点分别在从该顶点出发的两条棱上，则有 $3$ 种选法，但所得两条直角边等长；若一个顶点在一条棱的另一端，另一个顶点在不含该棱的那个面对角线的对角端，则也有 $3$ 种选法，且两条直角边长度分别为 $1$ 和 $\\sqrt{2}$，所得三角形为非等腰直角三角形.\r\n\r\n每个直角三角形的直角顶点唯一，故符合条件的三角形数为 $8\\times3=24$. 所求概率为\r\n\n$$\n\\frac{24}{56}=\\frac{3}{7}\n$$\n\r\n因此选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "设常数 $a > 0$，$\\left(a x^2 + \\frac{1}{\\sqrt{x}}\\right)^4$ 展开式中 $x^3$ 的系数为 $\\frac{3}{2}$，则 $\\displaystyle\\lim_{n \\to +\\infty} (a + a^2 + \\cdots + a^n) =$ _______ {}.",
+          "choices": [],
+          "answer": "1",
+          "solution": "在展开式中，若取 $k$ 个 $ax^2$，取 $4-k$ 个 $\\frac{1}{\\sqrt{x}}$，则该项中 $x$ 的指数为\r\n\n$$\n2k-\\frac{4-k}{2}=\\frac{5k-4}{2}\n$$\n\r\n令其等于 $3$，得 $k=2$. 因此 $x^3$ 的系数为\r\n\n$$\n\\mathrm C_{4}^{2}a^2=6a^2=\\frac{3}{2}\n$$\n\r\n从而 $a^2=\\frac{1}{4}$. 由 $a>0$，得 $a=\\frac{1}{2}$. 所以\r\n\n$$\n\\lim_{n\\to+\\infty}(a+a^2+\\cdots+a^n)\r\n=\\lim_{n\\to+\\infty}\\sum_{k=1}^{n}\\left(\\frac12\\right)^k\r\n=\\frac{\\frac{1}{2}}{1-\\frac{1}{2}}=1\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "在平行四边形 $ABCD$ 中，$\\overrightarrow{AB} = \\mathbf{a}$，$\\overrightarrow{AD} = \\mathbf{b}$，$\\overrightarrow{AN} = 3\\overrightarrow{NC}$，$M$ 为 $BC$ 的中点，则 $\\overrightarrow{MN} =$ _______ {}.\r\n\r\n（用 $\\mathbf{a}$，$\\mathbf{b}$ 表示）",
+          "choices": [],
+          "answer": "\\(-\\frac{1}{4}\\mathbf{a}+\\frac{1}{4}\\mathbf{b}\\)",
+          "solution": "取 $A$ 为原点，则\r\n$\\overrightarrow{AB}=\\mathbf{a}$，$\\overrightarrow{AD}=\\mathbf{b}$，$\\overrightarrow{AC}=\\mathbf{a}+\\mathbf{b}$.\r\n由 $\\overrightarrow{AN}=3\\overrightarrow{NC}$，有\r\n\n$$\n\\overrightarrow{AC}=\\overrightarrow{AN}+\\overrightarrow{NC}\r\n=4\\overrightarrow{NC}\n$$\n\r\n所以\r\n\n$$\n\\overrightarrow{AN}=\\frac34(\\mathbf{a}+\\mathbf{b})\n$$\n\r\n又因为 $M$ 是 $BC$ 的中点，\r\n\n$$\n\\overrightarrow{AM}=\\overrightarrow{AB}+\\frac12\\overrightarrow{BC}\r\n=\\mathbf{a}+\\frac12\\mathbf{b}\n$$\n\r\n因此\r\n\n$$\n\\overrightarrow{MN}=\\overrightarrow{AN}-\\overrightarrow{AM}\r\n=\\frac34(\\mathbf{a}+\\mathbf{b})-\\left(\\mathbf{a}+\\frac12\\mathbf{b}\\right)\r\n=-\\frac14\\mathbf{a}+\\frac14\\mathbf{b}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "函数 $f(x)$ 对于任意实数 $x$ 满足条件 $f(x + 2) = \\frac{1}{f(x)}$，若 $f(1) = -5$，则 $f(f(5)) =$ _______ {}.",
+          "choices": [],
+          "answer": "\\(-\\frac{1}{5}\\)",
+          "solution": "由题设关系式可知函数值不为零，并且\r\n\n$$\nf(x+4)=\\frac{1}{f(x+2)}=f(x)\n$$\n\r\n所以 $f$ 以 $4$ 为周期. 于是\r\n\n$$\nf(5)=f(1)=-5\n$$\n\r\n再由 $f(1)=\\frac{1}{f(-1)}$，得\r\n\n$$\nf(-1)=-\\frac15\n$$\n\r\n由于 $-5=-1-4$，利用周期性得到 $f(-5)=f(-1)=-\\frac{1}{5}$. 因此\r\n\n$$\nf(f(5))=f(-5)=-\\frac15\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "多面体上，位于同一条棱两端的顶点称为相邻的. 如图，正方体的一个顶点 $A$ 在平面 $\\alpha$ 内，其余顶点在 $\\alpha$ 的同侧，正方体上与顶点 $A$ 相邻的三个顶点到 $\\alpha$ 的距离分别为 $1$，$2$ 和 $4$. $P$ 是正方体的其余四个顶点中的一个，则 $P$ 到平面 $\\alpha$ 的距离可能是：\r\n\r\n\\begin{circlelist}\r\n\\item $3$\r\n\\item $4$\r\n\\item $5$\r\n\\item $6$\r\n\\item $7$\r\n\\end{circlelist}\r\n\r\n以上结论正确的是 _______ {}.（写出所有正确结论的编号）\r\n\r\n\\begingroup\r\n\\leftskip=0pt\r\n\\rightskip=0pt\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/anhui_science/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
+          "choices": [],
+          "answer": "1, 3, 4, 5",
+          "solution": "以顶点 $A$ 为原点，沿从 $A$ 出发的三条棱取向量 $\\mathbf{u}$，$\\mathbf{v}$，$\\mathbf{w}$. 设带符号距离平面 $\\alpha$ 的有向距离函数为 $d$，则它是顶点坐标的仿射一次函数. 由题设\r\n$d(A)=0$，$d(A+\\mathbf{u})=1$，$d(A+\\mathbf{v})=2$，$d(A+\\mathbf{w})=4$.\r\n由于其余顶点均在平面 $\\alpha$ 的同侧，$d$ 在这些顶点上取正值. 对任意实数 $r$，$s$，$t$，仿射一次函数满足\r\n\n$$\nd(A+r\\mathbf{u}+s\\mathbf{v}+t\\mathbf{w})\r\n=d(A)+r\\bigl(d(A+\\mathbf{u})-d(A)\\bigr)\r\n+s\\bigl(d(A+\\mathbf{v})-d(A)\\bigr)\r\n+t\\bigl(d(A+\\mathbf{w})-d(A)\\bigr)\n$$\n\r\n因此在各棱向量系数为 $0$ 或 $1$ 的顶点上，有向距离就是相应邻接顶点距离之和. 于是另外四个顶点到平面的距离分别为\r\n\n$$\nd(A+\\mathbf{u}+\\mathbf{v})=1+2=3\n$$\n\r\n\n$$\nd(A+\\mathbf{u}+\\mathbf{w})=1+4=5\n$$\n\r\n\n$$\nd(A+\\mathbf{v}+\\mathbf{w})=2+4=6\n$$\n\r\n以及\r\n\n$$\nd(A+\\mathbf{u}+\\mathbf{v}+\\mathbf{w})=1+2+4=7\n$$\n\r\n所以可能的距离为 $3$，$5$，$6$，$7$，对应选项编号为 $1$，$3$，$4$，$5$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "已知 $\\frac{3\\pi}{4} < \\alpha < \\pi$，$\\tan \\alpha + \\cot \\alpha = -\\frac{10}{3}$.\r\n\r\n\n(1) 求 $\\tan \\alpha$ 的值；\n\n(2) 求 $\\frac{5\\sin^{2}\\frac{\\alpha}{2}+8\\sin\\frac{\\alpha}{2}\\cos\\frac{\\alpha}{2}+11\\cos^{2}\\frac{\\alpha}{2}-8}{\\sqrt{2}\\sin\\left(\\alpha-\\frac{\\pi}{2}\\right)}$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 令 $t=\\tan\\alpha$. 由 $\\cot\\alpha=\\frac{1}{t}$，题设给出\r\n\n$$\nt+\\frac1t=-\\frac{10}{3}\n$$\n\r\n因为 $\\tan\\alpha\\neq0$，两边同乘 $3t$，得\r\n\n$$\n3t^2+10t+3=0\n$$\n\r\n即\r\n\n$$\n(3t+1)(t+3)=0\n$$\n\r\n所以 $t=-\\frac{1}{3}$ 或 $t=-3$. 又因为 $3\\frac{\\pi}{4}<\\alpha<\\pi$，故 $-1<\\tan\\alpha<0$，舍去 $-3$，得到\r\n\n$$\n\\tan\\alpha=-\\frac13\n$$\n\n(2) 记 $s=\\sin(\\frac{\\alpha}{2})$，$c=\\cos(\\frac{\\alpha}{2})$. 利用二倍角公式，分子为\r\n\n$$\n5s^2+8sc+11c^2-8\r\n=\\frac52(1-\\cos\\alpha)+4\\sin\\alpha+\\frac{11}{2}(1+\\cos\\alpha)-8\r\n=3\\cos\\alpha+4\\sin\\alpha\n$$\n\r\n分母为\r\n\n$$\n\\sqrt2\\sin\\left(\\alpha-\\frac\\pi2\\right)=-\\sqrt2\\cos\\alpha\n$$\n\r\n由于 $\\alpha\\in(3\\frac{\\pi}{4},\\pi)$，有 $\\cos\\alpha\\neq0$，所以原式等于\r\n\n$$\n-\\frac{3\\cos\\alpha+4\\sin\\alpha}{\\sqrt2\\cos\\alpha}\r\n=-\\frac{3+4\\tan\\alpha}{\\sqrt2}\r\n=-\\frac{3-\\frac{4}{3}}{\\sqrt2}\r\n=-\\frac{5\\sqrt2}{6}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "在添加剂的搭配适用中，为了找到最佳的搭配方案，需要对各种不同的搭配方式作比较，在试制某种牙膏新品种时，需要选用两种不同的添加剂. 现有芳香度分别为 $0$，$1$，$2$，$3$，$4$，$5$ 的六种添加剂可供选用. 根据实验设计学原理，通常首先要随机选取两种不同的添加剂进行搭配实验. 用 $\\xi$ 表示所选用的两种不同的添加剂的芳香度之和.\r\n\r\n\n(1) 写出 $\\xi$ 的分布列；（以列表的形式给出结论，不必写计算过程）\n\n(2) 求 $\\xi$ 的数学期望 $E(\\xi)$.（要求写出计算过程或说明理由）",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 从 $0$，$1$，$2$，$3$，$4$，$5$ 中任选两个不同的数，共有 $\\mathrm C_{6}^{2}=15$ 种等可能的选法. 各和的组合数如下，因此分布列为\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccccccc}\r\n$\\xi$ & $1$ & $2$ & $3$ & $4$ & $5$ & $6$ & $7$ & $8$ & $9$ \\\\\r\n\\hline\r\n$P$ & $\\frac{1}{15}$ & $\\frac{1}{15}$ & $\\frac{2}{15}$ & $\\frac{2}{15}$ & $\\frac{3}{15}$ & $\\frac{2}{15}$ & $\\frac{2}{15}$ & $\\frac{1}{15}$ & $\\frac{1}{15}$\r\n\\end{tabular}\r\n\\end{center}\n\n(2) 每个数在所有无序二元组中出现的次数相同，且任取一组的两个数的和的期望等于两个位置的平均数之和. 因此\r\n\n$$\nE(\\xi)=2\\cdot\\frac{0+1+2+3+4+5}{6}=2\\cdot\\frac{15}{6}=5\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，$P$ 是边长为 $1$ 的正六边形 $ABCDEF$ 所在平面外一点，$PA = 1$，$P$ 在平面 $ABC$ 内的射影为 $BF$ 的中点 $O$.\r\n\r\n\n(1) 证明：$PA \\perp BF$；\n\n(2) 求面 $APB$ 与面 $DPB$ 所成二面角的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/anhui_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 取正六边形所在平面为 $z=0$，令 $O$ 为原点，并取坐标\r\n$A=\\left(\\frac12,0,0\\right)$，$B=\\left(0,\\frac{\\sqrt3}{2},0\\right)$，$F=\\left(0,-\\frac{\\sqrt3}{2},0\\right)$，$D=\\left(-\\frac32,0,0\\right)$.\r\n因为 $O$ 是点 $P$ 在该平面内的射影，所以设 $P=(0,0,h)$. 由 $PA=1$ 得\r\n\n$$\n\\left(\\frac12\\right)^2+h^2=1\n$$\n\r\n从而 $h=\\frac{\\sqrt3}{2}$，可取 $P=(0,0,\\frac{\\sqrt3}{2})$. 于是\r\n$\\overrightarrow{PA}=\\left(\\frac12,0,-\\frac{\\sqrt3}{2}\\right)$，$\\overrightarrow{BF}=\\left(0,-\\sqrt3,0\\right)$.\r\n两向量的数量积为 $0$，故 $PA\\perp BF$.\n\n(2) 设二面角为 $\\theta$. 两平面均以 $PB$ 为交线，取\r\n$\\mathbf{u}=\\overrightarrow{PA}=\\left(\\frac12,0,-\\frac{\\sqrt3}{2}\\right)$，$\\mathbf{v}=\\overrightarrow{PB}=\\left(0,\\frac{\\sqrt3}{2},-\\frac{\\sqrt3}{2}\\right)$\r\n\n$$\n\\mathbf{w}=\\overrightarrow{PD}=\\left(-\\frac32,0,-\\frac{\\sqrt3}{2}\\right)\n$$\n\r\n平面 $APB$ 和平面 $DPB$ 的法向量可分别取\r\n\n$$\n\\mathbf{n}_1=\\mathbf{u}\\times\\mathbf{v}\r\n=\\left(\\frac34,\\frac{\\sqrt3}{4},\\frac{\\sqrt3}{4}\\right)\n$$\n\r\n\n$$\n\\mathbf{n}_2=\\mathbf{w}\\times\\mathbf{v}\r\n=\\left(\\frac34,-\\frac{3\\sqrt3}{4},-\\frac{3\\sqrt3}{4}\\right)\n$$\n\r\n因此\r\n$\\mathbf{n}_1\\cdot\\mathbf{n}_2=-\\frac{9}{16}$，$|\\mathbf{n}_1|=\\frac{\\sqrt{15}}4$，$|\\mathbf{n}_2|=\\frac{3\\sqrt7}{4}$.\r\n按半平面 $PBA$ 与 $PBD$ 的取向，所求二面角 $\\theta\\in(0,\\pi)$ 对应于上述两个法向量的夹角，\r\n\n$$\n\\cos\\theta=\\frac{\\mathbf{n}_1\\cdot\\mathbf{n}_2}{|\\mathbf{n}_1||\\mathbf{n}_2|}\r\n=-\\frac{3}{\\sqrt{105}}\n$$\n\r\n又 $0<\\theta<\\pi$，故 $\\tan\\theta=-4\\frac{\\sqrt6}{3}$，从而\r\n\n$$\n\\theta=\\pi-\\arctan\\left(\\frac{4\\sqrt6}{3}\\right)\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知函数 $f(x)$ 在 $\\mathbb{R}$ 上有定义，对任意实数 $a > 0$ 和任意实数 $x$，都有 $f(ax) = af(x)$.\r\n\r\n\n(1) 证明 $f(0) = 0$；\n\n(2) 证明 $f(x) = \\begin{cases}\r\nkx, & x \\ge 0,\\\\\r\nhx, & x < 0,\r\n\\end{cases}$ 其中 $k$ 和 $h$ 均为常数；\n\n(3) 当第（2）问中的 $k > 0$ 时，设 $g(x) = \\frac{1}{f(x)} + f(x)$（$x > 0$），讨论 $g(x)$ 在 $(0, +\\infty)$ 内的单调性并求极值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 取任意正数 $a$，令 $x=0$，则\r\n\n$$\nf(0)=f(a\\cdot0)=af(0)\n$$\n\r\n取 $a=2$，得 $f(0)=2f(0)$，所以 $f(0)=0$.\n\n(2) 令 $k=f(1)$. 当 $x>0$ 时，取题设中的 $a=x$，得到\r\n\n$$\nf(x)=f(x\\cdot1)=xf(1)=kx\n$$\n\r\n令 $h=-f(-1)$. 当 $x<0$ 时取 $a=-x>0$，则\r\n\n$$\nf(x)=f((-x)(-1))=(-x)f(-1)=hx\n$$\n\r\n结合第（1）问，得到\r\n\n$$\nf(x)=\\begin{cases}\r\nkx,&x\\geqslant0,\\\\\r\nhx,&x<0,\r\n\\end{cases}\n$$\n\r\n其中 $k$，$h$ 均为常数.\n\n(3) 当 $k>0$ 且 $x>0$ 时，$f(x)=kx>0$，所以\r\n\n$$\ng(x)=\\frac{1}{kx}+kx\n$$\n\r\n求导得\r\n\n$$\ng'(x)=k-\\frac{1}{kx^2}=\\frac{k^2x^2-1}{kx^2}\n$$\n\r\n由于 $kx>0$，导数在 $0<x<\\frac{1}{k}$ 时为负，在 $x>\\frac{1}{k}$ 时为正. 因此 $g(x)$ 在 $(0,\\frac{1}{k})$ 内单调递减，在 $(\\frac{1}{k},+\\infty)$ 内单调递增，并在 $x=\\frac{1}{k}$ 处取得极小值\r\n\n$$\ng\\left(\\frac1k\\right)=\\frac{1}{k\\cdot(\\frac{1}{k})}+k\\cdot\\frac1k=2\n$$\n\r\n当 $x\\to0^+$ 或 $x\\to+\\infty$ 时，$g(x)\\to+\\infty$，所以没有最大值.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$. 已知 $a_{1} = \\frac{1}{2}$，$S_{n} = n^{2}a_{n} - n(n - 1)$，$n = 1$，$2$，$\\dots$.\r\n\r\n\n(1) 写出 $S_{n}$ 与 $S_{n-1}$ 的递推关系式（$n \\ge 2$）. 并求 $S_{n}$ 关于 $n$ 的表达式；\n\n(2) 设 $f_n(x) = \\frac{S_n}{n} x^{n+1}$，$b_n = f_n'(p)$（$p \\in \\mathbb{R}$），求数列 $\\{b_n\\}$ 的前 $n$ 项和 $T_n$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由 $a_n=S_n-S_{n-1}$ 及题设关系式，得\r\n\n$$\nS_n=n^2(S_n-S_{n-1})-n(n-1)\n$$\n\r\n即\r\n$(n^2-1)S_n-n^2S_{n-1}=n(n-1)$，$n\\geqslant2$.\r\n等价地，递推关系为\r\n\n$$\n\\frac{n+1}{n}S_n-\\frac{n}{n-1}S_{n-1}=1\n$$\n\r\n令 $u_n=\\frac{S_n}{n}$，则\r\n\n$$\n(n+1)u_n-nu_{n-1}=1\n$$\n\r\n又 $u_1=S_1=\\frac{1}{2}$. 用归纳法证明 $u_n=\\frac{n}{(n+1)}$：当 $n=1$ 时成立；若 $u_{n-1}=\\frac{(n-1)}{n}$，则\r\n\n$$\n(n+1)u_n-n\\cdot\\frac{n-1}{n}=1\n$$\n\r\n从而 $u_n=\\frac{n}{(n+1)}$. 因此\r\n\n$$\nS_n=nu_n=\\frac{n^2}{n+1}\n$$\n\n(2) 由上式\r\n\n$$\nf_n(x)=\\frac{S_n}{n}x^{n+1}=\\frac{n}{n+1}x^{n+1}\n$$\n\r\n所以\r\n\n$$\nb_n=f_n'(p)=np^n\n$$\n\r\n于是 $T_n=\\sum_{k=1}^nkp^k$. 当 $p\\neq1$ 时，将等比数列求和式求导，或直接计算\r\n\n$$\n(1-p)T_n\r\n=\\bigl(p+2p^2+\\cdots+np^n\\bigr)\r\n-\\bigl(p^2+2p^3+\\cdots+np^{n+1}\\bigr)\r\n=p+p^2+\\cdots+p^n-np^{n+1}\n$$\n\r\n得到\r\n\n$$\nT_n=\\frac{p-(n+1)p^{n+1}+np^{n+2}}{(1-p)^2}\n$$\n\r\n当 $p=1$ 时，\r\n\n$$\nT_n=1+2+\\cdots+n=\\frac{n(n+1)}2\n$$\n\r\n故\r\n\n$$\nT_{n}=\\begin{cases}\r\n\\displaystyle\\frac{p-(n+1)p^{n+1}+np^{n+2}}{(1-p)^{2}}, & p\\neq 1,\\\\\r\n\\displaystyle\\frac{n(n+1)}{2}, & p=1.\r\n\\end{cases}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "如图，$F$ 为双曲线 $C$：$\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} = 1$（$a > 0$，$b > 0$）的右焦点，$P$ 为双曲线 $C$ 右支上一点，且位于 $x$ 轴上方，$M$ 为左准线上一点，$O$ 为坐标原点. 已知四边形 $OFPM$ 为平行四边形，$|PF| = \\lambda |OF|$.\r\n\r\n\n(1) 写出双曲线 $C$ 的离心率 $e$ 与 $\\lambda$ 的关系式；\n\n(2) 当 $\\lambda = 1$ 时，经过焦点 $F$ 且平行于 $OP$ 的直线交双曲线于 $A$，$B$ 点，若 $|AB| = 12$，求此时的双曲线方程.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/anhui_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设双曲线右焦点为 $F=(c,0)$，其中\r\n$c^2=a^2+b^2$，$e=\\frac ca$.\r\n左、右准线分别为 $x=-\\frac{a^2}{c}$ 和 $x=\\frac{a^2}{c}$. 由四边形 $OFPM$ 为平行四边形，得\r\n$M=P-F$，$PM=OF=c$.\r\n设线段 $PM$ 与右准线交于 $H$. 由题设位置关系，$M$，$H$，$P$ 依次位于该水平线上，且\r\n$HM=\\frac{a^2}{c}-\\left(-\\frac{a^2}{c}\\right)=\\frac{2a^2}{c}$，$PH=PM-HM=c-\\frac{2a^2}{c}$.\r\n双曲线的离心率定义给出 $PF=e\\,PH$. 结合 $PF=\\lambda OF=\\lambda c$，得到\r\n\n$$\n\\lambda c=e\\left(c-\\frac{2a^2}{c}\\right)\n$$\n\r\n代入 $c=ae$，并约去 $a$，得\r\n\n$$\n\\lambda e=e^2-2\n$$\n\r\n即\r\n\n$$\ne^2-\\lambda e-2=0\n$$\n\n(2) 当 $\\lambda=1$ 时，由 $e>1$ 得 $e=2$，所以\r\n$c=2a$，$b^2=c^2-a^2=3a^2$.\r\n由平行四边形关系及右准线位置，点 $P$ 的横坐标为\r\n\n$$\nx_P=c-\\frac{a^2}{c}=\\frac{3a}{2}\n$$\n\r\n代入双曲线方程并取上方的点，得\r\n$P=\\left(\\frac{3a}{2},\\frac{\\sqrt{15}a}{2}\\right)$，$F=(2a,0)$.\r\n过 $F$ 且平行于 $OP$ 的直线为\r\n\n$$\ny=\\frac{\\sqrt{15}}{3}(x-2a)\n$$\n\r\n将其代入 $\\frac{x^2}{a^2}-\\frac{y^2}{(3a^2)}=1$，得到交点横坐标满足\r\n\n$$\n4x^2+20ax-29a^2=0\n$$\n\r\n两根之差为 $3\\sqrt6a$，而直线斜率为 $\\frac{\\sqrt{15}}{3}$，所以两交点间距离为\r\n\n$$\n|AB|=3\\sqrt6a\\sqrt{1+\\frac{15}{9}}=12a\n$$\n\r\n由 $|AB|=12$，得 $a=1$，进而 $b^2=3$. 故双曲线方程为\r\n\n$$\n\\frac{x^2}{1^2}-\\frac{y^2}{3}=1\n$$\n\r\n即\r\n\n$$\nx^2-\\frac{y^2}{3}=1\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "year": "2006",
+  "slug": "liaoning_liberal",
+  "title": "2006年辽宁卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "函数 $y = \\sin \\left(\\frac{1}{2} x + 3\\right)$ 的最小正周期是（ ）",
+          "choices": [
+            "$\\frac{\\pi}{2}$",
+            "$\\pi$",
+            "$2\\pi$",
+            "$4\\pi$"
+          ],
+          "answer": "D",
+          "solution": "正弦函数 $y=\\sin(\\omega x+\\varphi)$ 的最小正周期为 $T=\\dfrac{2\\pi}{|\\omega|}$. 本题中 $\\omega=\\dfrac{1}{2}$，所以 $T=\\dfrac{2\\pi}{\\frac{1}{2}}=4\\pi$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "设集合 $A = \\{1, 2\\}$，则满足 $A \\cup B = \\{1, 2, 3\\}$ 的集合 $B$ 的个数是（ ）",
+          "choices": [
+            "$1$",
+            "$3$",
+            "$4$",
+            "$8$"
+          ],
+          "answer": "C",
+          "solution": "由 $A\\cup B=\\{1,2,3\\}$ 可知 $3\\in B$，且 $B$ 中不能含有 $1$，$2$，$3$ 以外的元素；元素 $1,2$ 是否属于 $B$ 均不影响并集. 因此，$1,2$ 各有“取或不取”两种选择，集合 $B$ 的个数为 $2^2=4$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "设 $f(x)$ 是 $\\mathbb{R}$ 上的任意函数，则下列叙述正确的是（ ）",
+          "choices": [
+            "$f(x)f(-x)$ 是奇函数",
+            "$f(x)|f(-x)|$ 是奇函数",
+            "$f(x) + f(-x)$ 是偶函数",
+            "$f(x) - f(-x)$ 是偶函数"
+          ],
+          "answer": "C",
+          "solution": "令 $F(x)=f(x)+f(-x)$，则 $F(-x)=f(-x)+f(x)=F(x)$，所以 $F(x)$ 是偶函数.\r\n\r\n其余叙述不恒成立：取 $f(x)=1$，则 $f(x)f(-x)=1$ 和 $f(x)|f(-x)|=1$ 都不是奇函数；取 $f(x)=x$，则 $f(x)-f(-x)=2x$ 是奇函数而不是偶函数. 因此只有第三个叙述正确，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "$\\mathrm{C}_6^1 + \\mathrm{C}_6^2 + \\mathrm{C}_6^3 + \\mathrm{C}_6^4 + \\mathrm{C}_6^5$ 的值为（ ）",
+          "choices": [
+            "$61$",
+            "$62$",
+            "$63$",
+            "$64$"
+          ],
+          "answer": "B",
+          "solution": "由二项式系数和 $\\sum_{k=0}^{6}\\mathrm C_6^k=2^6=64$，得 $\\mathrm C_6^1+\\mathrm C_6^2+\\mathrm C_6^3+\\mathrm C_6^4+\\mathrm C_6^5=64-\\mathrm C_6^0-\\mathrm C_6^6=64-1-1=62$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "方程 $2x^{2} - 5x + 2 = 0$ 的两个根可分别作为（ ）",
+          "choices": [
+            "一个椭圆和一双曲线的离心率",
+            "两抛物线的离心率",
+            "一个椭圆和一抛物线的离心率",
+            "两椭圆的离心率"
+          ],
+          "answer": "A",
+          "solution": "将方程因式分解得 $(2x-1)(x-2)=0$，所以两个根为 $x_1=\\dfrac{1}{2}$，$x_2=2$. 椭圆的离心率满足 $0<e<1$，双曲线的离心率满足 $e>1$，抛物线的离心率等于 $1$. 因此 $\\dfrac{1}{2}$ 和 $2$ 可分别作为一个椭圆和一条双曲线的离心率，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "给出下列四个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 垂直于同一直线的两条直线互相平行；\r\n\\item 垂直于同一平面的两个平面互相平行；\r\n\\item 若直线 $l_{1}$，$l_{2}$ 与同一平面所成的角相等，则 $l_{1}$，$l_{2}$ 互相平行；\r\n\\item 若直线 $l_{1}$，$l_{2}$ 是异面直线，则与 $l_{1}$，$l_{2}$ 都相交的两条直线是异面直线.\r\n\\end{circlelist}\r\n\r\n其中假命题的个数是（ ）",
+          "choices": [
+            "$1$",
+            "$2$",
+            "$3$",
+            "$4$"
+          ],
+          "answer": "D",
+          "solution": "命题\\circled{1}不正确：取同一直线 $l$ 上一点 $O$，过 $O$ 作两条不同的直线 $l_1$、$l_2$，使 $l_1\\perp l$、$l_2\\perp l$，则 $l_1$、$l_2$ 相交而不平行.\r\n\r\n命题\\circled{2}不正确：取一个平面 $\\alpha$，作两个都垂直于 $\\alpha$ 且互相垂直的平面 $\\beta$、$\\gamma$，则 $\\beta$、$\\gamma$ 都垂直于 $\\alpha$，但彼此不平行.\r\n\r\n命题\\circled{3}不正确：取同一平面内两条相交直线，它们与该平面所成的角都为 $0$，但两条直线不平行.\r\n\r\n命题\\circled{4}不正确：在 $l_1$ 上取点 $P$，在 $l_2$ 上取两个不同的点 $Q_1$、$Q_2$，则直线 $PQ_1$、$PQ_2$ 都分别与 $l_1$、$l_2$ 相交，但它们在 $P$ 处相交而不是异面直线. 因此四个命题都是假命题，假命题的个数为 $4$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "双曲线 $x^{2} - y^{2} = 4$ 的两条渐近线与直线 $x = 3$ 围成一个三角形区域，表示该区域的不等式组是（ ）\r\n\r\n    {$\\begin{cases}\r\nx - y \\le 0,\\\\\r\nx + y \\le 0,\\\\\r\n0 \\le x \\le 3.\r\n\\end{cases}$}\r\n    {$\\begin{cases}\r\nx - y \\le 0,\\\\\r\nx + y \\ge 3,\\\\\r\n0 \\le x \\le 3.\r\n\\end{cases}$}",
+          "choices": [
+            "\\(\\begin{cases",
+            "cases}\\)",
+            "\\(\\begin{cases",
+            "cases}\\)"
+          ],
+          "answer": "A",
+          "solution": "由 $x^2-y^2=4$ 可知双曲线的两条渐近线为 $y=x$ 和 $y=-x$，即 $x-y=0$ 与 $x+y=0$. 直线 $x=3$ 与两条渐近线围成的三角形位于右侧夹角内，所以其中的点满足 $y\\le x$、$y\\ge-x$，即 $x-y\\geqslant0$、$x+y\\geqslant0$，并且 $0\\le x\\leqslant3$. 故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "设 $\\oplus$ 是 $\\mathbb{R}$ 上的一个运算，$A$ 是 $\\mathbb{R}$ 的非空子集，若对任意 $a$，$b \\in A$，有 $a \\oplus b \\in A$，则称 $A$ 对运算 $\\oplus$ 封闭. 下列数集对加法，减法，乘法和除法 （除数不等于零） 四则运算都封闭的是（ ）",
+          "choices": [
+            "自然数集",
+            "整数集",
+            "有理数集",
+            "无理数集"
+          ],
+          "answer": "C",
+          "solution": "自然数集对减法和除法不封闭，例如 $1-2=-1\\notin\\mathbb{N}$、$1\\div2=\\dfrac12\\notin\\mathbb{N}$；整数集对除法不封闭，例如 $1\\div2=\\dfrac12\\notin\\mathbb{Z}$. 无理数集对加法也不封闭，例如 $\\sqrt2+(-\\sqrt2)=0$ 是有理数. 任意两个有理数的和、差、积仍为有理数，除数不为零时商也仍为有理数，所以有理数集对题述四则运算都封闭，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "$\\triangle ABC$ 的三内角 $A$，$B$，$C$，所对边的长分别为 $a$，$b$，$c$，设向量 $\\mathbf{p} = (a + c, b)$，$\\mathbf{q} = (b - a, c - a)$. 若 $\\mathbf{p} \\parallel \\mathbf{q}$，则角 $C$ 的大小为（ ）",
+          "choices": [
+            "$\\frac{\\pi}{6}$",
+            "$\\frac{\\pi}{3}$",
+            "$\\frac{\\pi}{2}$",
+            "$\\frac{2\\pi}{3}$"
+          ],
+          "answer": "B",
+          "solution": "向量平行的充要条件给出 $(a+c)(c-a)-b(b-a)=0$. 化简得 $c^2-a^2-b^2+ab=0$，即 $c^2=a^2+b^2-ab$. 另一方面，由余弦定理，$c^2=a^2+b^2-2ab\\cos C$，所以 $2ab\\cos C=ab$. 由于三角形边长 $a$，$b>0$，得 $\\cos C=\\dfrac12$，且 $0<C<\\pi$，从而 $C=\\dfrac{\\pi}{3}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知等腰 $\\triangle ABC$ 的腰为底的 2 倍，则顶角 $A$ 的正切值是（ ）",
+          "choices": [
+            "$\\frac{\\sqrt{3}}{2}$",
+            "$\\sqrt{3}$",
+            "$\\frac{\\sqrt{15}}{8}$",
+            "$\\frac{\\sqrt{15}}{7}$"
+          ],
+          "answer": "D",
+          "solution": "设等腰三角形的底边长为 $b$，两腰长为 $2b$. 由余弦定理，在顶角 $A$ 对面有 $b^2=(2b)^2+(2b)^2-2(2b)(2b)\\cos A$，所以 $\\cos A=\\dfrac78$. 由于 $0<A<\\pi$，$\\sin A=\\sqrt{1-\\dfrac{49}{64}}=\\dfrac{\\sqrt{15}}8$，故 $\\tan A=\\dfrac{\\sin A}{\\cos A}=\\dfrac{\\sqrt{15}}7$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "与方程 $y = \\mathrm{e}^{2x} - 2\\mathrm{e}^{x} + 1$（$x \\ge 0$）的曲线关于直线 $y = x$ 对称的曲线方程为（ ）",
+          "choices": [
+            "$y = \\ln (1 + \\sqrt{x})$",
+            "$y = \\ln (1 - \\sqrt{x})$",
+            "$y = -\\ln (1 + \\sqrt{x})$",
+            "$y = -\\ln (1 - \\sqrt{x})$"
+          ],
+          "answer": "A",
+          "solution": "原曲线上 $x\\geqslant0$，且 $y=\\mathrm{e}^{2x}-2\\mathrm{e}^x+1=(\\mathrm{e}^x-1)^2$. 关于直线 $y=x$ 对称后交换横、纵坐标，得到 $x=(\\mathrm{e}^y-1)^2$，并且原曲线的横坐标条件变为反曲线的 $y\\geqslant0$. 因此 $\\mathrm{e}^y-1=\\sqrt{x}$，从而 $y=\\ln(1+\\sqrt{x})$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "曲线 $\\frac{x^2}{10 - m} + \\frac{y^2}{6 - m} = 1$（$m < 6$）与曲线 $\\frac{x^2}{5 - n} + \\frac{y^2}{9 - n} = 1$（$5 < n < 9$）的（ ）",
+          "choices": [
+            "离心率相等",
+            "焦距相等",
+            "焦点相同",
+            "准线相同"
+          ],
+          "answer": "B",
+          "solution": "第一条曲线中 $m<6$，所以它是椭圆，且半长轴平方与半短轴平方之差为 $(10-m)-(6-m)=4$，故其焦半距 $c=2$，焦距为 $2c=4$.\r\n\r\n第二条曲线中 $5<n<9$，改写为 $\\dfrac{y^2}{9-n}-\\dfrac{x^2}{n-5}=1$，它是双曲线，且 $c^2=(9-n)+(n-5)=4$，所以同样有 $c=2$，焦距为 $4$. 因此两曲线的焦距相等，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "方程 $\\log_2(x - 1) = 2 - \\log_2(x + 1)$ 的解为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\sqrt{5}\\)",
+          "solution": "定义域要求 $x-1>0$，即 $x>1$. 在此条件下，原方程化为 $\\log_2(x-1)+\\log_2(x+1)=2$，即 $\\log_2(x^2-1)=2$. 所以 $x^2-1=4$，得 $x=\\pm\\sqrt5$. 结合 $x>1$，舍去负根，故解为 $x=\\sqrt5$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "设 $g(x)=\\begin{cases}\r\n\\mathrm{e}^{x},&x\\leqslant0,\\\\\r\n\\ln x,&x>0,\r\n\\end{cases}$ 则 $g\\left(g\\left(\\frac{1}{2}\\right)\\right)=$ _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{1}{2}\\)",
+          "solution": "由于 $\\dfrac12>0$，有 $g\\left(\\dfrac12\\right)=\\ln\\dfrac12=-\\ln2<0$. 因此第二次使用分段函数时取第一段，得到 $g\\left(g\\left(\\dfrac12\\right)\\right)=g(-\\ln2)=\\mathrm{e}^{-\\ln2}=\\dfrac12$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "如图，半径为 $2$ 的半球内有一内接正六棱锥 $P - ABCDEF$，则此正六棱锥的侧面积是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/liaoning_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
+          "choices": [],
+          "answer": "\\(6\\sqrt{7}\\)",
+          "solution": "设半球球心为 $O$，正六边形底面的中心为 $O$，正六边形的顶点在半径为 $2$ 的圆周上，正六棱锥顶点为球面上的点 $P$，则 $PO=2$. 设 $M$ 是正六边形一边的中点，则正六边形边长为 $2$，其中心到边的距离为 $OM=\\sqrt3$. 在直角三角形 $POM$ 中，$PM=\\sqrt{PO^2+OM^2}=\\sqrt7$. 六个侧面全等，每个侧面的面积为 $\\dfrac12\\cdot2\\cdot\\sqrt7=\\sqrt7$，所以侧面积为 $6\\sqrt7$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "$5$ 名乒乓球队员中，有 $2$ 名老队员和 $3$ 名新队员. 现从中选出 $3$ 名队员排成 $1$，$2$，$3$ 号参加团体比赛，则入选的 $3$ 名队员中至少有 $1$ 名老队员，且 $1$，$2$ 号中至少有 $1$ 名新队员的排列方法有 _______ {} 种.",
+          "choices": [],
+          "answer": "48",
+          "solution": "不加限制时，从 $5$ 名队员中选出并排成三号位，共有 $\\mathrm A_5^3=5\\cdot4\\cdot3=60$ 种.\r\n\r\n不满足“至少有一名老队员”的排列，三人全为新队员，共 $\\mathrm A_3^3=6$ 种；不满足“1，2号中至少有一名新队员”的排列，1，2号均为两名老队员，排法为 $2!$，3号从三名新队员中选取，排法为 $2!\\cdot3=6$ 种. 这两类情形不相交，因此所求为 $60-6-6=48$ 种.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "已知函数 $f(x) = \\sin^2 x + 2\\sin x\\cos x + 3\\cos^2 x$，$x \\in \\mathbb{R}$. 求：\r\n\r\n\n(1) 函数 $f(x)$ 的最大值及取得最大值的自变量 $x$ 的集合；\n\n(2) 函数 $f(x)$ 的单调增区间.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 利用 $\\sin^2x+\\cos^2x=1$ 及二倍角公式，有 $f(x)=2+\\cos2x+\\sin2x=2+\\sqrt2\\sin\\left(2x+\\dfrac{\\pi}{4}\\right)$. 因此 $f(x)\\leqslant2+\\sqrt2$，当且仅当 $2x+\\dfrac{\\pi}{4}=\\dfrac{\\pi}{2}+2k\\pi$，即 $x=k\\pi+\\dfrac{\\pi}{8}$，$k\\in\\mathbb{Z}$ 时取得等号. 故最大值为 $2+\\sqrt2$，取得最大值的自变量集合为 $\\left\\{k\\pi+\\dfrac{\\pi}{8}\\mid k\\in\\mathbb{Z}\\right\\}$.\n\n(2) $f'(x)=2\\cos2x-2\\sin2x=2\\sqrt2\\cos\\left(2x+\\dfrac{\\pi}{4}\\right)$. 函数在导数非负的区间上单调增加，即 $-\\dfrac{\\pi}{2}+2k\\pi\\leqslant2x+\\dfrac{\\pi}{4}\\le\\dfrac{\\pi}{2}+2k\\pi$. 解得 $-\\dfrac{3\\pi}{8}+k\\pi\\le x\\le\\dfrac{\\pi}{8}+k\\pi$，所以单调增区间为 $\\left[k\\pi-\\dfrac{3\\pi}{8},k\\pi+\\dfrac{\\pi}{8}\\right]$，$k\\in\\mathbb{Z}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "甲，乙两班各派 $2$ 名同学参加年级数学竞赛，参赛同学成绩及格的概率都为 $0.6$，且参赛同学的成绩相互之间没有影响. 求：\r\n\r\n\n(1) 甲，乙两班参赛同学中各有 1 名同学成绩及格的概率；\n\n(2) 甲，乙两班参赛同学中至少有 1 名同学成绩及格的概率.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 对甲班，恰有 1 名同学成绩及格的概率为 $\\mathrm C_2^1(0.6)(0.4)=0.48$，乙班同样为 $0.48$. 由于两班参赛同学的成绩相互独立，所求概率为 $0.48^2=0.2304$.\n\n(2) 四名同学的成绩都不及格的概率为 $(1-0.6)^4=0.4^4=0.0256$，所以至少有 1 名同学成绩及格的概率为 $1-0.0256=0.9744$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "已知正方形 $ABCD$，$E$，$F$ 分别是边 $AB$，$CD$ 的中点，将 $\\triangle ADE$ 沿 $DE$ 折起. 如图所示，记二面角 $A - DE - C$ 的大小为 $\\theta$（$0 < \\theta < \\pi$）.\r\n\r\n\n(1) 证明： $BF \\parallel$ 平面 $ADE$；\n\n(2) 若 $\\triangle ACD$ 为正三角形，试判断点 $A$ 在平面 $BCDE$ 内的射影 $G$ 是否在直线 $EF$ 上. 说明你的结论，并求角 $\\theta$ 的余弦值.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/liaoning_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 在正方形中，$EB\\parallel FD$ 且 $EB=FD$，所以四边形 $EBFD$ 是平行四边形，从而 $BF\\parallel ED$. 又 $ED\\subset$ 平面 $ADE$，且 $B\\notin$ 平面 $ADE$，因此 $BF\\parallel$ 平面 $ADE$.\n\n(2) 设正方形边长为 $2t$，其中 $t>0$. 折叠后 $AD=CD=2t$，且 $E$，$F$ 分别为 $AB$，$CD$ 的中点，所以 $AE=t$，$EF=2t$. 由 $\\triangle ACD$ 为正三角形，$AF$ 是中线，故 $AF=\\sqrt3t$，于是 $AE^2+AF^2=EF^2$，从而 $AE\\perp AF$.\r\n\r\n设点 $A$ 在平面 $BCDE$ 内的射影为 $G$. 因为 $AC=AD$，所以 $AG^2+GC^2=AG^2+GD^2$，即 $GC=GD$. 因此 $G$ 在 $CD$ 的垂直平分线上. 又 $EF$ 是 $CD$ 的垂直平分线，故 $G\\in EF$.\r\n\r\n在直线 $EF$ 上建立有向坐标，取 $E$ 的坐标为 $0$，$F$ 的坐标为 $2t$，设 $G$ 的坐标为 $u$. 由 $AG\\perp$ 平面 $BCDE$，在两个直角三角形中分别有 $AE^2=AG^2+u^2=t^2$，$AF^2=AG^2+(2t-u)^2=3t^2$. 两式相减得 $(2t-u)^2-u^2=2t^2$，解得 $u=\\dfrac{t}{2}$，所以 $G$ 在线段 $EF$ 上，$EG=\\dfrac{t}{2}$，$GF=\\dfrac{3t}{2}$，且 $AG^2=t^2-u^2=\\dfrac{3t^2}{4}$.\r\n\r\n在平面 $BCDE$ 内，$D$ 到直线 $EF$ 的距离为 $t$. 因此 $\\triangle DEG$ 的面积为 $\\dfrac12\\cdot\\dfrac{t}{2}\\cdot t=\\dfrac{t^2}{4}$. 令 $H$ 为 $G$ 在直线 $DE$ 上的垂足，则 $GH\\perp DE$. 另一方面，$DE=t\\sqrt5$，故 $\\dfrac12DE\\cdot GH=\\dfrac{t^2}{4}$，从而 $GH=\\dfrac{t}{2\\sqrt5}$.\r\n\r\n因为 $AG\\perp$ 平面 $BCDE$，所以 $AG\\perp GH$，得 $AH^2=AG^2+GH^2=\\dfrac{3t^2}{4}+\\dfrac{t^2}{20}=\\dfrac{4t^2}{5}$，即 $AH=\\dfrac{2t}{\\sqrt5}$. 直线 $AH$ 与 $HG$ 分别垂直于棱 $DE$，所以 $\\angle AHG=\\theta$，于是 $\\cos\\theta=\\dfrac{HG}{AH}=\\dfrac14$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n} = pn^{2} - 2n + q$（$p\\in\\mathbb{R}$，$q\\in\\mathbb{R}$），$n \\in \\N_{+}$.\r\n\r\n\n(1) 求 $q$ 的值；\n\n(2) 若 $a_{1}$ 与 $a_{5}$ 的等差中项为 $18$，$b_{n}$ 满足 $a_{n} = 2 \\log_{2} b_{n}$，求数列 $\\{b_n\\}$ 的前 $n$ 项和.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由等差数列前 $n$ 项和的性质，$a_n=S_n-S_{n-1}$. 当 $n\\geqslant2$ 时，\r\n    \n$$\na_n=pn^2-2n+q-\\left(p(n-1)^2-2(n-1)+q\\right)=(2n-1)p-2\n$$\n\r\n    特别地，$a_1=S_1=p-2+q$，$a_2=3p-2$，$a_3=5p-2$. 因为 $\\{a_n\\}$ 是等差数列，$a_2-a_1=a_3-a_2$，即 $2p-q=2p$，所以 $q=0$.\n\n(2) 由 $q=0$，并结合 $a_1=p-2$ 与上式，得对所有 $n\\in\\N_+$，$a_n=(2n-1)p-2$. 因 $\\{a_n\\}$ 为等差数列，$a_1$ 与 $a_5$ 的等差中项就是 $a_3$，所以 $a_3=18$，即 $5p-2=18$，解得 $p=4$. 于是 $a_n=8n-6$.\r\n\r\n由 $a_n=2\\log_2 b_n$，得 $\\log_2 b_n=4n-3$，所以 $b_n=2^{4n-3}=2\\cdot16^{n-1}$. 因此数列 $\\{b_n\\}$ 的前 $n$ 项和为 $2\\dfrac{16^n-1}{16-1}=\\dfrac{2}{15}(16^n-1)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知函数 $f(x) = \\frac{1}{3} ax^3 + (a + d)x^2 + (a + 2d)x + d$，$g(x) = ax^2 + 2(a + 2d)x + a + 4d$. 其中 $a > 0$，$d > 0$. 设 $x_0$ 为 $f(x)$ 的极小值点，$x_1$ 为 $g(x)$ 的极值点，$g(x_2) = g(x_3) = 0$，并且 $x_2 < x_3$. 将点 $(x_0, f(x_0))$，$(x_1, g(x_1))$，$(x_2, 0)$，$(x_3, 0)$ 依次记为 $A$，$B$，$C$，$D$.\r\n\r\n\n(1) 求 $x_0$ 的值；\n\n(2) 若四边形 $APCD$ 为梯形且面积为 1，求 $a$，$d$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 题面第二问将四边形写作 $APCD$，但前文定义的四个点依次为 $A$，$B$，$C$，$D$；以下按点列及梯形条件，将该四边形理解为 $ABCD$.\r\n\r\n由\r\n\n$$\nf'(x)=ax^2+2(a+d)x+a+2d=a\\left(x+1\\right)\\left(x+1+\\frac{2d}{a}\\right)\n$$\n\r\n且 $a>0$，$d>0$，可知 $f'(x)$ 在 $x=-1$ 处由负变正，所以 $f(x)$ 的极小值点为 $x_0=-1$.\n\n(2) 由\r\n\n$$\ng'(x)=2ax+2(a+2d)\n$$\n\r\n得 $x_1=-1-\\dfrac{2d}{a}$. 又\r\n\n$$\ng(x)=a\\left(x+1\\right)\\left(x+1+\\frac{4d}{a}\\right)\n$$\n\r\n所以 $x_2=-1-\\dfrac{4d}{a}$，$x_3=-1$. 直接计算得\r\n\n$$\nf(-1)=-\\frac{a}{3}+(a+d)-(a+2d)+d=-\\frac{a}{3}\n$$\n\r\n并且\r\n\n$$\ng(x_1)=a\\left(-\\frac{2d}{a}\\right)\\left(\\frac{2d}{a}\\right)=-\\frac{4d^2}{a}\n$$\n\r\n因此\r\n$A\\left(-1,-\\frac{a}{3}\\right)$，$B\\left(-1-\\frac{2d}{a},-\\frac{4d^2}{a}\\right)$，$C\\left(-1-\\frac{4d}{a},0\\right)$，$D(-1,0)$.\r\n由于 $CD$ 水平，而 $AD$ 为竖直线，且 $BC$ 不可能竖直，所以梯形 $ABCD$ 的两底只能是 $AB$ 与 $CD$，即 $AB\\parallel CD$. 于是\r\n\n$$\n-\\frac{a}{3}=-\\frac{4d^2}{a}\n$$\n\r\n从而 $a^2=12d^2$. 由 $a>0$，$d>0$，得 $a=2\\sqrt3\\,d$.\r\n\r\n此时 $|AB|=\\dfrac{2d}{a}$，$|CD|=\\dfrac{4d}{a}$，两底间的距离为 $\\dfrac{a}{3}$，故梯形面积为\r\n\n$$\nS=\\frac12\\left(\\frac{2d}{a}+\\frac{4d}{a}\\right)\\frac{a}{3}=d\n$$\n\r\n由 $S=1$ 得 $d=1$，从而 $a=2\\sqrt3$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "已知点 $A(x_{1},y_{1})$， $B(x_{2},y_{2})$（$x_{1}\\neq 0$，$x_{2}\\neq 0$）是抛物线 $y^{2} = 2px$（$p > 0$）上的两个动点. $O$ 是坐标原点，向量 $\\overrightarrow{OA}$， $\\overrightarrow{OB}$ 满足 $\\left|\\overrightarrow{OA} +\\overrightarrow{OB}\\right| = \\left|\\overrightarrow{OA} -\\overrightarrow{OB}\\right|$，设圆 $C$ 的方程为 $x^{2} + y^{2} - (x_{1} + x_{2})x - (y_{1} + y_{2})y = 0$.\r\n\r\n\n(1) 证明线段 $AB$ 是圆 $C$ 的直径；\n\n(2) 当圆 $C$ 的圆心到直线 $x - 2y = 0$ 的距离的最小值为 $\\frac{2\\sqrt{5}}{5}$ 时，求 $p$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $\\mathbf{u}=\\overrightarrow{OA}$，$\\mathbf{v}=\\overrightarrow{OB}$. 由已知\r\n$\\lvert\\mathbf{u}+\\mathbf{v}\\rvert=\\lvert\\mathbf{u}-\\mathbf{v}\\rvert$，两边平方并化简得 $\\mathbf{u}\\cdot\\mathbf{v}=0$，即 $x_1x_2+y_1y_2=0$.\r\n\r\n圆 $C$ 的方程可写为\r\n\n$$\n\\left(x-\\frac{x_1+x_2}{2}\\right)^2+\\left(y-\\frac{y_1+y_2}{2}\\right)^2=\\frac{(x_1-x_2)^2+(y_1-y_2)^2}{4}\n$$\n\r\n所以圆心是线段 $AB$ 的中点. 又由 $x_1x_2+y_1y_2=0$，代入点 $A$ 的坐标可得\r\n\n$$\nx_1^2+y_1^2-(x_1+x_2)x_1-(y_1+y_2)y_1=-(x_1x_2+y_1y_2)=0\n$$\n\r\n故 $A$ 在圆 $C$ 上；同理 $B$ 也在圆 $C$ 上. 因此 $AB$ 经过圆心且端点在圆上，线段 $AB$ 是圆 $C$ 的直径.\n\n(2) 设 $y_1=u$，$y_2=v$. 由抛物线方程，$x_1=\\dfrac{u^2}{2p}$，$x_2=\\dfrac{v^2}{2p}$. 由于 $x_1$，$x_2\\neq0$，有 $u$，$v\\neq0$. 正交条件给出\r\n\n$$\n\\frac{u^2v^2}{4p^2}+uv=0\n$$\n\r\n从而 $uv=-4p^2$. 令 $s=u+v$，则\r\n$x_1+x_2=\\frac{u^2+v^2}{2p}=\\frac{s^2+8p^2}{2p}=\\frac{s^2}{2p}+4p$，$y_1+y_2=s$.\r\n圆心到直线 $x-2y=0$ 的距离为\r\n\n$$\nd(s)=\\frac{\\left|x_1+x_2-2(y_1+y_2)\\right|}{2\\sqrt5}=\\frac{\\left|(s-2p)^2+4p^2\\right|}{4p\\sqrt5}\n$$\n\r\n其中分子恒为正，且 $s$ 可取任意实数，所以当 $s=2p$ 时取得最小值，且\r\n\n$$\nd_{\\min}=\\frac{4p^2}{4p\\sqrt5}=\\frac{p}{\\sqrt5}\n$$\n\r\n由题设 $d_{\\min}=\\dfrac{2\\sqrt5}{5}=\\dfrac{2}{\\sqrt5}$，得 $p=2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

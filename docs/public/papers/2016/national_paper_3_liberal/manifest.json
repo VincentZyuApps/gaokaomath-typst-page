@@ -1,0 +1,451 @@
+{
+  "year": "2016",
+  "slug": "national_paper_3_liberal",
+  "title": "2016年全国III卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 24,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设集合 $A=\\{0,2,4,6,8,10\\}$，$B=\\{4,8\\}$，则 $\\complement_A B=$（ ）",
+          "choices": [
+            "$\\{4,8\\}$",
+            "$\\{0,2,6\\}$",
+            "$\\{0,2,6,10\\}$",
+            "$\\{0,2,4,6,8,10\\}$"
+          ],
+          "answer": "C",
+          "solution": "由补集的定义，所求集合由 $A$ 中不属于 $B$ 的元素组成. 因为 $B=\\{4,8\\}$，所以 $\\complement_A B=\\{0,2,6,10\\}$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "若 $z=4+3\\mathrm{i}$，则 $\\dfrac{\\overline z}{|z|}=$（ ）",
+          "choices": [
+            "$1$",
+            "$-1$",
+            "$\\dfrac45+\\dfrac35\\mathrm{i}$",
+            "$\\dfrac45-\\dfrac35\\mathrm{i}$"
+          ],
+          "answer": "D",
+          "solution": "由 $z=4+3\\mathrm{i}$，得 $\\overline z=4-3\\mathrm{i}$，且 $|z|=\\sqrt{4^2+3^2}=5$. 因此 $\\dfrac{\\overline z}{|z|}=\\dfrac{4-3\\mathrm{i}}{5}=\\dfrac45-\\dfrac35\\mathrm{i}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "已知向量 $\\overrightarrow{BA}=\\left( \\dfrac12,\\dfrac{\\sqrt3}{2} \\right)$，$\\overrightarrow{BC}=\\left( \\dfrac{\\sqrt3}{2},\\dfrac12 \\right)$，则 $\\angle ABC=$（ ）",
+          "choices": [
+            "$30^\\circ$",
+            "$45^\\circ$",
+            "$60^\\circ$",
+            "$120^\\circ$"
+          ],
+          "answer": "A",
+          "solution": "记 $\\mathbf{u}=\\overrightarrow{BA}$，$\\mathbf{v}=\\overrightarrow{BC}$. 则 $|\\mathbf{u}|=|\\mathbf{v}|=1$，并且 $\\mathbf{u}\\cdot\\mathbf{v}=\\dfrac12\\cdot\\dfrac{\\sqrt3}{2}+\\dfrac{\\sqrt3}{2}\\cdot\\dfrac12=\\dfrac{\\sqrt3}{2}$. 所以 $\\cos\\angle ABC=\\dfrac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}||\\mathbf{v}|}=\\dfrac{\\sqrt3}{2}$，从而 $\\angle ABC=30^\\circ$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "某旅游城市为向游客介绍本地的气温情况，绘制了一年中月平均最高气温和平均最低气温的雷达图，图中 $A$ 点表示十月的平均最高气温约为 $15^\\circ\\mathrm{C}$，$B$ 点表示四月的平均最低气温约为 $5^\\circ\\mathrm{C}$，下面叙述不正确的是（ ）\r\n\r\n\\begingroup\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_3_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
+          "choices": [
+            "各月的平均最低气温都在 $0^\\circ\\mathrm{C}$ 以上",
+            "七月的平均温差比一月的平均温差大",
+            "三月和十一月的平均最高气温基本相同",
+            "平均气温高于 $20^\\circ\\mathrm{C}$ 的月份有 $5$ 个"
+          ],
+          "answer": "D",
+          "solution": "由图例知，实线表示平均最高气温，虚线表示平均最低气温. 逐月比较虚线与 $0^\\circ\\mathrm{C}$ 的位置可知，各月平均最低气温都高于 $0^\\circ\\mathrm{C}$，所以 A 正确. 七月实线与虚线的半径差大于一月对应的半径差，所以七月的平均温差较大，B 正确. 三月和十一月的实线都约在 $10^\\circ\\mathrm{C}$ 的圆周上，故 C 正确. 实线超过 $20^\\circ\\mathrm{C}$ 圆周的月份只有六月、七月和八月，共 $3$ 个，不是 $5$ 个，因此不正确的是 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "小敏打开计算机时，忘记了开机密码的前两位，只记得第一位是 $M$，$I$，$N$ 中的一个字母，第二位是 $1$，$2$，$3$，$4$，$5$ 中的一个数字，则小敏输入一次密码能够成功开机的概率是（ ）",
+          "choices": [
+            "$\\dfrac{8}{15}$",
+            "$\\dfrac18$",
+            "$\\dfrac{1}{15}$",
+            "$\\dfrac{1}{30}$"
+          ],
+          "answer": "C",
+          "solution": "第一位有 3 种可能，第二位有 5 种可能，所以前两位共有 $3\\times5=15$ 种等可能结果. 实际密码只有其中 1 种，故一次输入成功的概率为 $\\dfrac1{15}$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "若 $\\tan\\theta=-\\dfrac13$，则 $\\cos2\\theta=$（ ）",
+          "choices": [
+            "$-\\dfrac45$",
+            "$-\\dfrac15$",
+            "$\\dfrac15$",
+            "$\\dfrac45$"
+          ],
+          "answer": "D",
+          "solution": "利用正切的二倍角公式，$\\cos2\\theta=\\dfrac{1-\\tan^2\\theta}{1+\\tan^2\\theta}$. 代入 $\\tan\\theta=-\\dfrac13$，得 $\\cos2\\theta=\\dfrac{1-\\frac19}{1+\\frac19}=\\dfrac{\\frac{8}{9}}{\\frac{10}{9}}=\\dfrac45$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知 $a=2^{\\frac43}$，$b=3^{\\frac23}$，$c=25^{\\frac13}$，则（ ）",
+          "choices": [
+            "$b<a<c$",
+            "$a<b<c$",
+            "$b<c<a$",
+            "$c<a<b$"
+          ],
+          "answer": "A",
+          "solution": "三个数均为正数，比较它们的立方即可. 因为 $a^3=16$，$b^3=9$，$c^3=25$，且 $9<16<25$，所以 $b<a<c$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "执行如图程序框图，如果输入的 $a=4$，$b=6$，那么输出的 $n=$（ ）\r\n\r\n\\begingroup\r\n\\texfigure[max width=0.42\\linewidth]{img_repaint/2016/national_paper_3_liberal/q8_fig1.tex}\r\n\\endgroup",
+          "choices": [
+            "$3$",
+            "$4$",
+            "$5$",
+            "$6$"
+          ],
+          "answer": "B",
+          "solution": "每次循环中的赋值语句按从上到下的顺序执行，不能把三条语句看成同时赋值. 初始时 $(a,b,s,n)=(4,6,0,0)$. 第一次循环后，$a=6-4=2$，$b=6-2=4$，$a=4+2=6$，再得 $s=0+6=6$，$n=1$. 因而状态为 $(6,4,6,1)$. 继续按同样方法计算，四次循环后的状态依次为\r\n$(a,b,s,n)=(6,4,6,1)$，$(4,6,10,2)$，$(6,4,16,3)$，$(4,6,20,4)$.\r\n前三次循环后均有 $s\\le16$，继续循环；第四次循环后 $s=20>16$，满足停止条件，所以输出 $n=4$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "在 $\\triangle ABC$ 中，$B=\\dfrac{\\pi}{4}$，$BC$ 边上的高等于 $\\dfrac13 BC$，则 $\\sin A=$（ ）",
+          "choices": [
+            "$\\dfrac{3}{10}$",
+            "$\\dfrac{\\sqrt{10}}{10}$",
+            "$\\dfrac{\\sqrt5}{5}$",
+            "$\\dfrac{3\\sqrt{10}}{10}$"
+          ],
+          "answer": "D",
+          "solution": "设从 $A$ 向 $BC$ 作垂线，垂足为 $H$，并设 $BC=L$，则 $AH=\\dfrac L3$. 在直角三角形 $ABH$ 中，$\\angle ABH=B=45^\\circ$，所以 $BH=AH=\\dfrac L3$，从而 $CH=\\dfrac{2L}{3}$. 于是\r\n\n$$\nAC=\\sqrt{AH^2+CH^2}=\\frac{\\sqrt5}{3}L\n$$\n\r\n由正弦定理，$\\dfrac{\\sin A}{BC}=\\dfrac{\\sin B}{AC}$，故 $\\sin A=\\dfrac{L\\cdot\\frac{\\sqrt2}{2}}{\\frac{\\sqrt5}{3}L}=\\dfrac{3\\sqrt{10}}{10}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "如图，网格纸上小正方形的边长为 $1$，粗实线画出的是某多面体的三视图，则该多面体的表面积为（ ）\r\n\r\n\\begingroup\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_3_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
+          "choices": [
+            "$18+36\\sqrt5$",
+            "$54+18\\sqrt5$",
+            "$90$",
+            "$81$"
+          ],
+          "answer": "B",
+          "solution": "由三视图可知，该多面体是以侧视图中的 $3\\times6$ 矩形为底面的斜四棱柱，棱柱的长度由俯视图读得为 $3$. 两个底面的总面积为 $2\\times3\\times6$. 斜四棱柱的两组侧面分别是边长 $3$ 与 $3$ 的矩形，以及边长 $3$ 与斜高\r\n$\\sqrt{3^2+6^2}=3\\sqrt5$\r\n的平行四边形，因此四个侧面的总面积为 $2\\times3\\times3+2\\times3\\times3\\sqrt5$. 所以表面积为\r\n\n$$\nS=2\\left(3\\times6\\right)+2\\left(3\\times3\\right)+2\\left(3\\times3\\sqrt5\\right)=54+18\\sqrt5\n$$\n\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "在封闭的直三棱柱 $ABC-A_1B_1C_1$ 内有一个体积为 $V$ 的球，若 $AB\\perp BC$，$AB=6$，$BC=8$，$AA_1=3$，则 $V$ 的最大值是（ ）",
+          "choices": [
+            "$4\\pi$",
+            "$\\dfrac{9\\pi}{2}$",
+            "$6\\pi$",
+            "$\\dfrac{32\\pi}{3}$"
+          ],
+          "answer": "B",
+          "solution": "三棱柱的底面是直角三角形，斜边\r\n$AC=\\sqrt{AB^2+BC^2}=\\sqrt{6^2+8^2}=10$，其内切圆半径为\r\n$r_0=\\frac{AB+BC-AC}{2}=\\frac{6+8-10}{2}=2$.\r\n任意内接球的球心到上、下底面的距离之和为 $3$，所以球半径 $r\\le\\dfrac32$. 同时，球心在底面内的投影到三个侧面对应边的距离都至少要为 $r$，而底面内能达到的最大最小边距就是内切圆半径 $r_0=2$. 因此 $r\\le\\min\\left(2,\\dfrac32\\right)=\\dfrac32$. 取球心为底面内切圆圆心沿棱柱高方向上升 $\\dfrac32$ 的位置，即位于两底面中间，此时到上、下底面的距离均为 $\\dfrac32$，到三个侧面的距离均为 $2$，确实得到半径 $\\dfrac32$ 的内接球. 所以\r\n\n$$\nV_{\\max}=\\frac43\\pi\\left(\\frac32\\right)^3=\\frac{9\\pi}{2}\n$$\n\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "已知 $O$ 为坐标原点，$F$ 是椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的左焦点，$A$，$B$ 分别为 $C$ 的左，右顶点，$P$ 为 $C$ 上一点，且 $PF\\perp x$ 轴，过点 $A$ 的直线 $l$ 与线段 $PF$ 交于点 $M$，与 $y$ 轴交于点 $E$. 若直线 $BM$ 经过 $OE$ 的中点，则 $C$ 的离心率为（ ）",
+          "choices": [
+            "$\\dfrac13$",
+            "$\\dfrac12$",
+            "$\\dfrac23$",
+            "$\\dfrac34$"
+          ],
+          "answer": "A",
+          "solution": "设 $c=\\sqrt{a^2-b^2}$，则 $F(-c,0)$，$A(-a,0)$，$B(a,0)$，且 $0<c<a$. 题面中的 $OE$ 是有中点的线段，按几何定义其两端点不同，故 $E\\ne O$. 因此 $l$ 不是 $x$ 轴；又因 $l$ 与 $y$ 轴相交，它不是过 $A$ 的竖直线. 设 $l$ 的方程为 $y=k\\left(x+a\\right)$，则 $k\\ne0$. 因为 $PF\\perp x$ 轴，线段 $PF$ 位于直线 $x=-c$ 上，故 $M\\left(-c,k\\left(a-c\\right)\\right)$，$E(0,ka)$. 设 $OE$ 的中点为 $N\\left(0,\\dfrac{ka}{2}\\right)$. 由 $B$，$M$，$N$ 共线，比较直线 $BM$ 和 $BN$ 的斜率得 $-\\dfrac{k\\left(a-c\\right)}{a+c}=-\\dfrac{k}{2}$. 约去非零的 $-k$，可得 $2\\left(a-c\\right)=a+c$，所以 $a=3c$，离心率为 $e=\\dfrac ca=\\dfrac13$，故选 A. 若取 $l$ 为 $x$ 轴，则 $E=O$，线段 $OE$ 的两个端点重合，不符合原题几何对象的非退化定义，不能作为反例.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "设 $x$，$y$ 满足约束条件\r\n$\\begin{cases}\r\n2x-y+1\\ge0,\\\\\r\nx-2y-1\\le0,\\\\\r\nx\\le1\r\n\\end{cases}$，\r\n则 $z=2x+3y-5$ 的最小值为 _______ {}.",
+          "choices": [],
+          "answer": "\\(-10\\)",
+          "solution": "约束条件等价于 $y\\le2x+1$、$y\\ge\\dfrac{x-1}{2}$ 和 $x\\le1$. 要使可行域非空，必须有 $\\dfrac{x-1}{2}\\le2x+1$，解得 $x\\ge-1$. 对固定的 $x$，因为 $z=2x+3y-5$ 随 $y$ 增大而增大，所以取 $y=\\dfrac{x-1}{2}$ 时取得该 $x$ 下的最小值. 此时\r\n\n$$\nz=2x+3\\cdot\\frac{x-1}{2}-5=\\frac72x-\\frac{13}{2}\n$$\n\r\n它随 $x$ 增大而增大，故在 $x=-1$ 时取得最小值. 此时 $y=-1$，从而 $z_{\\min}=2(-1)+3(-1)-5=-10$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "函数 $y=\\sin x-\\sqrt3\\cos x$ 的图象可由函数 $y=2\\sin x$ 的图象至少向右平移 _______ {} 个单位长度得到.",
+          "choices": [],
+          "answer": "\\(\\dfrac{\\pi}{3}\\)",
+          "solution": "由和角公式，$2\\sin\\left(x-\\dfrac\\pi3\\right)=2\\left(\\sin x\\cos\\dfrac\\pi3-\\cos x\\sin\\dfrac\\pi3\\right)=\\sin x-\\sqrt3\\cos x$. 因此目标函数图象是将 $y=2\\sin x$ 的图象向右平移 $\\dfrac\\pi3$ 个单位长度得到的. 由于周期为 $2\\pi$，最小的正平移量为 $\\dfrac\\pi3$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "已知直线 $l:x-\\sqrt3 y+6=0$ 与圆 $x^2+y^2=12$ 交于 $A$，$B$ 两点，过 $A$，$B$ 分别作 $l$ 的垂线与 $x$ 轴交于 $C$，$D$ 两点，则 $|CD|= _______ {}$.",
+          "choices": [],
+          "answer": "\\(4\\)",
+          "solution": "圆心到直线 $l$ 的距离为 $\\dfrac6{\\sqrt{1+3}}=3$，圆的半径为 $2\\sqrt3$，所以弦 $AB$ 的一半长为 $\\sqrt{(2\\sqrt3)^2-3^2}=\\sqrt3$. 直线 $l$ 的一个单位方向向量为 $\\left(\\dfrac{\\sqrt3}{2},\\dfrac12\\right)$，故 $|y_A-y_B|=2\\sqrt3\\cdot\\dfrac12=\\sqrt3$.\r\n\r\n设 $A=(x_A,y_A)$. 过 $A$ 的 $l$ 的垂线方向向量可取 $(1,-\\sqrt3)$，它与 $x$ 轴交点的横坐标为 $x_A+\\dfrac{y_A}{\\sqrt3}$. 又因 $A\\in l$，有 $x_A=\\sqrt3 y_A-6$，所以 $x_C=\\dfrac4{\\sqrt3}y_A-6$. 同理 $x_D=\\dfrac4{\\sqrt3}y_B-6$，从而\r\n\n$$\n|CD|=|x_C-x_D|=\\frac4{\\sqrt3}|y_A-y_B|=4\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "已知 $f(x)$ 为偶函数，当 $x\\le0$ 时，$f(x)=\\mathrm{e}^{-x-1}-x$，则曲线 $y=f(x)$ 在点 $(1,2)$ 处的切线方程是 _______ {}.",
+          "choices": [],
+          "answer": "\\(y=2x\\)",
+          "solution": "因为 $f(x)$ 是偶函数，当 $x\\ge0$ 时，$f(x)=f(-x)=\\mathrm{e}^{x-1}+x$. 所以 $f(1)=2$，且 $f'(x)=\\mathrm{e}^{x-1}+1$，从而 $f'(1)=2$. 曲线在 $(1,2)$ 处的切线方程为 $y-2=2(x-1)$，即 $y=2x$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "已知各项都为正数的数列 $\\{a_n\\}$ 满足 $a_1=1$，$a_n^2-\\left( 2a_{n+1}-1 \\right)a_n-2a_{n+1}=0$.\r\n\r\n\n(1) 求 $a_2$，$a_3$；\n\n(2) 求 $\\{a_n\\}$ 的通项公式.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由题设关系式得 $a_n^2+a_n=2a_{n+1}(a_n+1)$. 因为 $a_n>0$，可除以 $2(a_n+1)$，得到 $a_{n+1}=\\dfrac{a_n}{2}$. 代入 $a_1=1$，得 $a_2=\\dfrac12$，再得 $a_3=\\dfrac14$.\n\n(2) 由 $a_{n+1}=\\dfrac12a_n$，递推可得 $a_n=a_1\\left(\\dfrac12\\right)^{n-1}=\\left(\\dfrac12\\right)^{n-1}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "下图是我国 $2008$ 年至 $2014$ 年生活垃圾无害化处理量（单位：亿吨）的折线图.\r\n\r\n注：年份代码 $1$ 到 $7$ 分别对应年份 $2008$ 到 $2014$.\r\n\r\n参考数据：$\\sum_{i=1}^{7}y_i=9.32$，$\\sum_{i=1}^{7}t_iy_i=40.17$，$\\sqrt{\\sum_{i=1}^{7}\\left( y_i-\\bar y \\right)^2}=0.55$，$\\sqrt7\\approx2.646$.\r\n\r\n参考公式：相关系数 $r=\\dfrac{\\sum_{i=1}^{n}\\left( t_i-\\bar t \\right)\\left( y_i-\\bar y \\right)}{\\sqrt{\\sum_{i=1}^{n}\\left( t_i-\\bar t \\right)^2\\sum_{i=1}^{n}\\left( y_i-\\bar y \\right)^2}}$，回归方程 $\\hat y=\\hat a+\\hat b t$ 中斜率和截距的最小二乘估计公式分别为：$\\hat b=\\dfrac{\\sum_{i=1}^{n}\\left( t_i-\\bar t \\right)\\left( y_i-\\bar y \\right)}{\\sum_{i=1}^{n}\\left( t_i-\\bar t \\right)^2}$，$\\hat a=\\bar y-\\hat b\\bar t$.\r\n\r\n\n(1) 由折线图看出，可用线性回归模型拟合 $y$ 与 $t$ 的关系，请用相关系数加以说明；\n\n(2) 建立 $y$ 关于 $t$ 的回归方程（系数精确到 $0.01$），预测 $2016$ 年我国生活垃圾无害化处理量.\n\r\n\r\n\\begingroup\r\n\\leftskip=0pt\\relax\r\n\\rightskip=0pt\\relax\r\n\\begingroup\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_3_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup\r\n\\endgroup",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) $\\bar t=4$，且 $\\sum_{i=1}^{7}(t_i-\\bar t)^2=28$. 由已知数据，$\\sum_{i=1}^{7}(t_i-\\bar t)(y_i-\\bar y)=\\sum_{i=1}^{7}t_i y_i-\\bar t\\sum_{i=1}^{7}y_i=40.17-4\\times9.32=2.89$. 因此\r\n\n$$\nr=\\frac{2.89}{\\sqrt{28}\\times0.55}\\approx0.99\n$$\n\r\n说明 $y$ 与 $t$ 的线性相关程度相当高.\n\n(2) 回归方程的斜率为 $\\hat b=\\dfrac{2.89}{28}\\approx0.10$，又 $\\bar y=\\dfrac{9.32}{7}$，所以截距 $\\hat a=\\bar y-4\\hat b\\approx0.92$. 故回归方程为 $\\hat y=0.92+0.10t$. $2016$ 年对应的年份代码为 $t=9$，所以预测处理量为 $\\hat y=0.92+0.10\\times9=1.82$ 亿吨.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，四棱锥 $P-ABCD$ 中，$PA\\perp$ 底面 $ABCD$，\\allowbreak $AD\\parallel BC$，\r\n\\allowbreak $AB=AD=AC=3$，\\allowbreak $PA=BC=4$，$M$ 为线段 $AD$ 上一点，\\allowbreak $AM=2MD$，\r\n$N$ 为 $PC$ 的中点.\r\n\r\n\n(1) 证明：$MN\\parallel$ 平面 $PAB$；\n\n(2) 求四面体 $N-BCM$ 的体积.\n\r\n\r\n\\begingroup\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_3_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 在底面内建立直角坐标系，取 $A=(0,0,0)$，$D=(3,0,0)$，并设 $B=(u,v,0)$，$C=(u+4,v,0)$. 由 $AB=AC=3$ 得\r\n$u^2+v^2=9$，$(u+4)^2+v^2=9$，\r\n从而 $u=-2$，$v^2=5$. 取 $v=\\sqrt5$，则 $B=(-2,\\sqrt5,0)$，$C=(2,\\sqrt5,0)$. 又 $P=(0,0,4)$，由 $AM=2$ 得 $M=(2,0,0)$，而 $N$ 是 $PC$ 的中点，所以 $N=(1,\\dfrac{\\sqrt5}{2},2)$. 于是\r\n\n$$\n\\overrightarrow{MN}=\\left(-1,\\frac{\\sqrt5}{2},2\\right)=\\frac12\\overrightarrow{AB}+\\frac12\\overrightarrow{AP}\n$$\n\r\n因此 $\\overrightarrow{MN}$ 是平面 $PAB$ 内两个相交方向向量的线性组合. 又 $M$ 在底面内且不在直线 $AB$ 上，所以 $M\\notin$ 平面 $PAB$，故 $MN\\parallel$ 平面 $PAB$.\n\n(2) 三角形 $BCM$ 的底边 $BC=4$，点 $M$ 到直线 $BC$ 的距离为 $\\sqrt5$，所以 $S_{\\triangle BCM}=\\dfrac12\\times4\\times\\sqrt5=2\\sqrt5$. 点 $N$ 到底面 $ABCD$ 的距离为 $2$，故\r\n\n$$\nV_{N-BCM}=\\frac13S_{\\triangle BCM}\\times2=\\frac{4\\sqrt5}{3}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知抛物线 $C:y^2=2x$ 的焦点为 $F$，平行于 $x$ 轴的两条直线 $l_1$，$l_2$ 分别交 $C$ 于 $A$，$B$ 两点，交 $C$ 的准线于 $P$，$Q$ 两点.\r\n\r\n\n(1) 若 $F$ 在线段 $AB$ 上，$R$ 是 $PQ$ 的中点，证明 $AR\\parallel FQ$；\n\n(2) 若 $\\triangle PQF$ 的面积是 $\\triangle ABF$ 的面积的两倍，求 $AB$ 中点的轨迹方程.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $l_1:y=t_1$，$l_2:y=t_2$. 平行直线没有公共点，故 $l_1$，$l_2$ 均不与 $x$ 轴重合，所以 $t_1\\ne0$，$t_2\\ne0$；两条直线不同，故 $t_1\\ne t_2$. 于是 $A\\left(\\dfrac{t_1^2}{2},t_1\\right)$，$B\\left(\\dfrac{t_2^2}{2},t_2\\right)$. 准线为 $x=-\\dfrac12$，故 $P\\left(-\\dfrac12,t_1\\right)$，$Q\\left(-\\dfrac12,t_2\\right)$，焦点为 $F\\left(\\dfrac12,0\\right)$. 直线 $AB$ 的方程为\r\n\n$$\nx-\\frac{t_1+t_2}{2}y+\\frac{t_1t_2}{2}=0\n$$\n\r\n因为 $F$ 在线段 $AB$ 上，代入上式得 $t_1t_2=-1$. 又 $R$ 为 $PQ$ 的中点，所以\r\n\n$$\n\\overrightarrow{AR}=\\left(-\\frac{1+t_1^2}{2},\\frac{t_2-t_1}{2}\\right)\n$$\n\r\n由 $t_1t_2=-1$，有 $t_2-t_1=t_2+t_1^2t_2$，从而\r\n\n$$\n\\overrightarrow{AR}=\\frac{1+t_1^2}{2}(-1,t_2)=\\frac{1+t_1^2}{2}\\overrightarrow{FQ}\n$$\n\r\n又 $R\\ne Q$，而直线 $FQ$ 与准线仅交于 $Q$，故 $R$ 不在直线 $FQ$ 上. 因此 $AR\\parallel FQ$.\n\n(2) 沿用上述坐标与参数限制. 因为 $t_1\\ne t_2$，且焦点到准线的距离为 $1$，所以 $S_{\\triangle PQF}=\\dfrac12\\left|t_2-t_1\\right|>0$. 由坐标计算面积，得 $S_{\\triangle ABF}=\\dfrac12\\left|\\dfrac{t_1^2-1}{2}t_2-\\dfrac{t_2^2-1}{2}t_1\\right|=\\dfrac14\\left|t_2-t_1\\right|\\left|1+t_1t_2\\right|$. 由 $S_{\\triangle PQF}=2S_{\\triangle ABF}$，约去非零因子 $\\dfrac12\\left|t_2-t_1\\right|$，得 $\\left|1+t_1t_2\\right|=1$，即 $t_1t_2=0$ 或 $t_1t_2=-2$. 因为 $t_1$，$t_2$ 均非零，所以只能有 $t_1t_2=-2$. 设 $AB$ 的中点为 $H(x,y)$，则 $x=\\dfrac{t_1^2+t_2^2}{4}$，$y=\\dfrac{t_1+t_2}{2}$，故 $x-y^2=-\\dfrac{t_1t_2}{2}=1$，即 $y^2=x-1$.\r\n\r\n反之，对曲线 $y^2=x-1$ 上任意一点 $H(x,y)$，取 $t_1=y+\\sqrt{y^2+2}$，$t_2=y-\\sqrt{y^2+2}$. 则 $t_1>0$，$t_2<0$，故两参数不同且均非零，直线 $l_1$，$l_2$ 均与 $x$ 轴平行. 又 $t_1+t_2=2y$，$t_1t_2=-2$，所以 $\\dfrac{t_1^2+t_2^2}{4}=y^2+1=x$，所得 $AB$ 的中点恰为 $H$. 代入面积公式得 $S_{\\triangle ABF}=\\dfrac14\\left|t_2-t_1\\right|>0$，$S_{\\triangle PQF}=2S_{\\triangle ABF}$，满足全部题设条件. 因此完整轨迹为 $y^2=x-1$. 参数乘积为零会使某条直线与 $x$ 轴重合，违反原题的平行条件，不能产生另一轨迹分支.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "设函数 $f(x)=\\ln x-x+1$.\r\n\r\n\n(1) 讨论 $f(x)$ 的单调性；\n\n(2) 证明当 $x\\in(1,+\\infty)$ 时，$1<\\dfrac{x-1}{\\ln x}<x$；\n\n(3) 设 $c>1$，证明当 $x\\in(0,1)$ 时，$1+(c-1)x>c^x$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 函数定义域为 $(0,+\\infty)$，且 $f'(x)=\\dfrac1x-1=\\dfrac{1-x}{x}$. 当 $0<x<1$ 时，$f'(x)>0$，所以 $f(x)$ 在 $(0,1)$ 上单调递增；当 $x>1$ 时，$f'(x)<0$，所以 $f(x)$ 在 $(1,+\\infty)$ 上单调递减.\n\n(2) 由第（1）问，$f(1)=0$，且当 $x>1$ 时 $f(x)<f(1)=0$，所以 $\\ln x<x-1$，从而 $1<\\dfrac{x-1}{\\ln x}$. 又因为 $0<\\dfrac1x<1$，有 $f\\left(\\dfrac1x\\right)<0$，即 $-\\ln x-\\dfrac1x+1<0$，所以 $\\ln x>1-\\dfrac1x$. 两边乘以正数 $x$，得 $x\\ln x>x-1$，从而 $\\dfrac{x-1}{\\ln x}<x$. 综上，$1<\\dfrac{x-1}{\\ln x}<x$.\n\n(3) 设 $h(x)=\\ln\\left(1+(c-1)x\\right)-x\\ln c$. 则 $h(0)=h(1)=0$，且\r\n\n$$\nh''(x)=-\\frac{(c-1)^2}{\\left(1+(c-1)x\\right)^2}<0\n$$\n\r\n所以 $h$ 在 $(0,1)$ 上严格凹，函数图象严格位于端点连线之上，故当 $0<x<1$ 时 $h(x)>0$. 于是 $\\ln\\left(1+(c-1)x\\right)>x\\ln c$，两边取指数即得 $1+(c-1)x>c^x$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选考题：解答题",
+      "problems": [
+        {
+          "num": 22,
+          "body": "如图，$\\odot O$ 中 $\\overset{\\frown}{AB}$ 的中点为 $P$，弦 $PC$，$PD$ 分别交 $AB$ 于 $E$，$F$ 两点.\r\n\r\n\n(1) 若 $\\angle PFB=2\\angle PCD$，求 $\\angle PCD$ 的大小；\n\n(2) 若 $EC$ 的垂直平分线与 $FD$ 的垂直平分线交于点 $G$，证明 $OG\\perp CD$.\n\r\n\r\n\\begingroup\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_3_liberal/q22_fig1_large.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设弧 $PA$、$PB$ 的度数均为 $u$，弧 $BD$、$DC$、$CA$ 的度数分别为 $v$，$w$，$s$. 因为 $P$ 是弧 $AB$ 的中点，所以弧 $PA=$弧 $PB$. 由圆周角定理，$\\angle PCD$ 所对的弧为弧 $PB$ 与弧 $BD$，故 $\\angle PCD=\\dfrac{u+v}{2}$. 又由圆内相交弦所成角的度数等于所对两弧度数和的一半，$\\angle PFB=\\dfrac{u+w+s}{2}$. 条件 $\\angle PFB=2\\angle PCD$ 给出 $u+w+s=2u+2v$，即 $w+s=u+2v$. 再由圆周上的弧度数和为 $2u+v+w+s=360^\\circ$，得 $3u+3v=360^\\circ$，所以 $u+v=120^\\circ$，从而 $\\angle PCD=60^\\circ$.\n\n(2) 建立直角坐标系，使圆为单位圆，圆心 $O=(0,0)$，并取 $P=(0,1)$. 令\r\n\n$$\nT(t)=\\left(\\frac{2t}{1+t^2},\\frac{1-t^2}{1+t^2}\\right)\n$$\n\r\n由于 $P$ 是弧 $AB$ 的中点，可设 $A=T(-u)$，$B=T(u)$. 因而\r\n\n$$\ny_{AB}=\\frac{1-u^2}{1+u^2}=:h\n$$\n\r\n令 $C=T(r)$，$D=T(s)$，并记 $k=\\dfrac{2u^2}{1+u^2}$. 直线 $PC$ 的斜率为 $-r$，故方程为 $y=1-rx$，与 $y=h$ 联立得 $x=\\frac{k}{r}$. 同理，直线 $PD$ 与 $AB$ 的交点分别为\r\n$E=\\left(\\frac{k}{r},h\\right)$，$F=\\left(\\frac{k}{s},h\\right)$.\r\n设 $G=(X,Y)$. 由 $G$ 在 $EC$ 的垂直平分线上，$GE^2=GC^2$. 将 $E$、$C$ 的坐标代入并使用 $h=\\dfrac{1-u^2}{1+u^2}$、$k=\\dfrac{2u^2}{1+u^2}$，移项并约去公共因子，得\r\n\n$$\nrX-r^2Y=\\frac{u^2(1+r^2)}{1+u^2}\n$$\n\r\n同理，由 $GF=GD$ 得\r\n\n$$\nsX-s^2Y=\\frac{u^2(1+s^2)}{1+u^2}\n$$\n\r\n令 $q=\\dfrac{u^2}{1+u^2}$，将上面两式分别除以 $r$、$s$ 后相减，得到\r\n\n$$\nY=q\\left(\\frac1{rs}-1\\right)=-\\frac{u^2(rs-1)}{rs(1+u^2)}\n$$\n\r\n再代回任一式，得到\r\n\n$$\nX=q\\left(\\frac1r+\\frac1s\\right)=\\frac{u^2(r+s)}{rs(1+u^2)}\n$$\n\r\n另一方面，由 $C=T(r)$、$D=T(s)$ 直接相减可得\r\n\n$$\n\\overrightarrow{CD}=\\frac{2(s-r)}{(1+r^2)(1+s^2)}\\left(1-rs,-(r+s)\\right)\n$$\n\r\n而\r\n\n$$\n\\overrightarrow{OG}=\\frac{u^2}{rs(1+u^2)}\\left(r+s,1-rs\\right)\n$$\n\r\n因此\r\n\n$$\n\\overrightarrow{OG}\\cdot\\overrightarrow{CD}\\propto (r+s)(1-rs)+(1-rs)\\bigl(-(r+s)\\bigr)=0\n$$\n\r\n所以 $OG\\perp CD$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 23,
+          "body": "在直角坐标系 $xOy$ 中，曲线 $C_1$ 的参数方程为 $x=\\sqrt3\\cos\\alpha$，$y=\\sin\\alpha$（$\\alpha$ 为参数），以坐标原点为极点，以 $x$ 轴的正半轴为极轴，建立极坐标系，曲线 $C_2$ 的极坐标方程为 $\\rho\\sin\\left( \\theta+\\dfrac{\\pi}{4} \\right)=2\\sqrt2$.\r\n\r\n\n(1) 写出 $C_1$ 的普通方程和 $C_2$ 的直角坐标方程；\n\n(2) 设点 $P$ 在 $C_1$ 上，点 $Q$ 在 $C_2$ 上，求 $|PQ|$ 的最小值及此时 $P$ 的直角坐标.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由参数方程，$\\dfrac{x^2}{3}+y^2=\\cos^2\\alpha+\\sin^2\\alpha=1$，所以 $C_1:\\dfrac{x^2}{3}+y^2=1$. 又因为 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，所以\r\n\n$$\n\\rho\\sin\\left(\\theta+\\frac\\pi4\\right)=\\frac{x+y}{\\sqrt2}=2\\sqrt2\n$$\n\r\n从而 $C_2:x+y-4=0$.\n\n(2) 对椭圆上的任意点，$x+y=\\sqrt3\\cos\\alpha+\\sin\\alpha\\le\\sqrt{3+1}=2$. 因此椭圆在直线 $x+y=4$ 的一侧，点 $P$ 到该直线的距离为 $\\dfrac{4-x-y}{\\sqrt2}$，要使 $|PQ|$ 最小，只需使 $x+y$ 最大. 由柯西不等式取等条件，$\\cos\\alpha=\\dfrac{\\sqrt3}{2}$，$\\sin\\alpha=\\dfrac12$，故 $P=\\left(\\dfrac32,\\dfrac12\\right)$，且\r\n\n$$\n|PQ|_{\\min}=\\frac{4-2}{\\sqrt2}=\\sqrt2\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 24,
+          "body": "已知函数 $f(x)=|2x-a|+a$.\r\n\r\n\n(1) 当 $a=2$ 时，求不等式 $f(x)\\le6$ 的解集；\n\n(2) 设函数 $g(x)=|2x-1|$，当 $x\\in\\mathbb{R}$ 时，$f(x)+g(x)\\ge3$，求 $a$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 当 $a=2$ 时，不等式化为 $2|x-1|+2\\le6$，即 $|x-1|\\le2$. 所以 $-2\\le x-1\\le2$，解得 $-1\\le x\\le3$.\n\n(2) 令 $t=2x$，则题设不等式对任意 $t\\in\\mathbb{R}$ 成立，当且仅当\r\n\n$$\n|t-a|+|t-1|+a\\ge3\n$$\n\r\n由三角不等式，$|t-a|+|t-1|\\ge|a-1|$，且当 $t$ 位于 $a$ 与 $1$ 之间时取等号. 因此左边关于 $t$ 的最小值为 $a+|a-1|$. 若 $a<1$，该最小值为 $1<3$；若 $a\\ge1$，该最小值为 $2a-1$，不小于 3 当且仅当 $a\\ge2$. 故 $a\\in[2,+\\infty)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

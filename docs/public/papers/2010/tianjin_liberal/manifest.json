@@ -1,0 +1,406 @@
+{
+  "year": "2010",
+  "slug": "tianjin_liberal",
+  "title": "2010年天津卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "$\\mathrm{i}$ 是虚数单位，复数 $\\frac{3 + \\mathrm{i}}{1 - \\mathrm{i}} =$（ ）",
+          "choices": [
+            "$1 + 2\\mathrm{i}$",
+            "$2 + 4\\mathrm{i}$",
+            "$-1 - 2\\mathrm{i}$",
+            "$2 - \\mathrm{i}$"
+          ],
+          "answer": "A",
+          "solution": "将分子、分母同乘以 $1+\\mathrm{i}$，得\r\n\n$$\n\\frac{3+\\mathrm{i}}{1-\\mathrm{i}}=\\frac{(3+\\mathrm{i})(1+\\mathrm{i})}{(1-\\mathrm{i})(1+\\mathrm{i})}\r\n=\\frac{2+4\\mathrm{i}}{2}=1+2\\mathrm{i}\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "设变量 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx + y \\le 3,\\\\\r\nx - y \\ge -1,\\\\\r\ny \\ge 1.\r\n\\end{cases}$，\r\n则目标函数 $z = 4x + 2y$ 的最大值为（ ）",
+          "choices": [
+            "$12$",
+            "$10$",
+            "$8$",
+            "$2$"
+          ],
+          "answer": "B",
+          "solution": "由约束条件可得\r\n$y-1\\le x\\le 3-y$，$1\\le y\\le 2$.\r\n可行域的顶点为 $(0,1)$、$(2,1)$、$(1,2)$. 目标函数在这些顶点处的值分别为\r\n$2$，$10$，$8$.\r\n所以目标函数的最大值为 $10$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "阅读下面的程序框图，若输出 $s$ 的值为 $-7$，则判断框内可填写（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/tianjin_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$-1$",
+            "$0$",
+            "$1$",
+            "$3$"
+          ],
+          "answer": "题面与选项矛盾，无正确选项",
+          "solution": "按照框图逐次计算. 初始 $s=1$，$\\ i=1$，每次循环先更新 $s$，再令 $i$ 增加 1. 第一次循环后\r\n$s=1(3-1)+1=3$，$i=2$.\r\n第二次循环后\r\n$s=3(3-2)+1=4$，$i=3$.\r\n第三次循环后\r\n$s=4(3-3)+1=1$，$i=4$.\r\n第四次循环后\r\n$s=1(3-4)+1=0$，$i=5$.\r\n若将判断框内依次填入四个选项中的数值 $-1$，$0$，$1$，$3$，前三种情形均在第一次循环后因 $i=2$ 满足条件而停止，输出 $s=3$；填入 $3$ 时，前三次循环后的 $(s,i)$ 依次为 $(3,2)$、$(4,3)$、$(1,4)$，第三次循环后停止，输出 $s=1$，均不可能输出 $-7$.\r\n\r\n原 PDF 中判断框清晰印为 $i>4$. 按此条件，第四次循环后 $s=0$、$i=5$，程序停止并输出 $0$，仍与题干的 $-7$ 不符. 因此按原 PDF 的题面，四个选项均不能成立，答案为“题面与选项矛盾，无正确选项”；公开文科版本将题干改为“运行相应的程序，则输出 $s$ 的值为”时才对应选项 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "函数 $f(x) = \\mathrm{e}^{x} + x - 2$ 的零点所在的一个区间是（ ）",
+          "choices": [
+            "$(-2,-1)$",
+            "$(-1,0)$",
+            "$(0,1)$",
+            "$(1,2)$"
+          ],
+          "answer": "C",
+          "solution": "$f(x)=\\mathrm{e}^x+x-2$ 在 $\\mathbb{R}$ 上连续，且\r\n$f(0)=1+0-2=-1<0$，$f(1)=\\mathrm{e}+1-2=\\mathrm{e}-1>0$.\r\n由零点存在定理，$f$ 在 $(0,1)$ 内至少有一个零点. 因此零点所在的一个区间是 $(0,1)$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "下列命题中，真命题是（ ）",
+          "choices": [
+            "$\\exists m \\in \\mathbb{R}$，使函数 $f(x) = x^{2} + mx$（$x \\in \\mathbb{R}$）是偶函数",
+            "$\\exists m \\in \\mathbb{R}$，使函数 $f(x) = x^{2} + mx$（$x \\in \\mathbb{R}$）是奇函数",
+            "$\\forall m \\in \\mathbb{R}$，使函数 $f(x) = x^{2} + mx$（$x \\in \\mathbb{R}$）是偶函数",
+            "$\\forall m \\in \\mathbb{R}$，使函数 $f(x) = x^{2} + mx$（$x \\in \\mathbb{R}$）是奇函数"
+          ],
+          "answer": "A",
+          "solution": "对任意 $x\\in\\mathbb{R}$，有\r\n\n$$\nf(-x)=x^2-mx\n$$\n\r\n若 $f$ 为偶函数，则应有 $f(-x)=f(x)$，从而\r\n\n$$\nx^2-mx=x^2+mx \\text{对任意 }x\\text{成立}\n$$\n\r\n即 $2mx=0$ 对任意 $x$ 成立，所以 $m=0$. 此时 $f(x)=x^2$ 确为偶函数，故选项 A 为真.\r\n\r\n若 $f$ 为奇函数，则应有\r\n\n$$\nx^2-mx=-x^2-mx\n$$\n\r\n即 $2x^2=0$ 对任意 $x$ 成立，这是不可能的. 因此 B、C、D 均不成立，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "设 $a = \\log_{5} 4$，$b = (\\log_{5} 3)^{2}$，$c = \\log_{4} 5$，则（ ）",
+          "choices": [
+            "$a < c < b$",
+            "$b < c < a$",
+            "$a < b < c$",
+            "$b < a < c$"
+          ],
+          "answer": "D",
+          "solution": "因为 $3<4<5$，所以\r\n\n$$\n0<\\log_5 3<\\log_5 4<1\n$$\n\r\n记 $t=\\log_5 3$，则 $0<t<1$，故 $t^2<t$. 因而\r\n\n$$\nb=(\\log_5 3)^2<\\log_5 3<\\log_5 4=a\n$$\n\r\n又 $0<a<1$，所以 $c=\\log_4 5=\\frac{1}{\\log_5 4}=\\frac{1}{a}>a$. 综上\r\n\n$$\nb<a<c\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "设集合 $A = \\{x \\mid |x - a| < 1,\\ x \\in \\mathbb{R}\\}$，$B = \\{x \\mid 1 < x < 5,\\ x \\in \\mathbb{R}\\}$. 若 $A \\cap B = \\varnothing$，则实数 $a$ 的取值范围是（ ）",
+          "choices": [
+            "$\\{a \\mid 0 \\le a \\le 6\\}$",
+            "$\\{a \\mid a \\le 2\\text{ 或 }a \\ge 4\\}$",
+            "$\\{a \\mid a \\le 0\\text{ 或 }a \\ge 6\\}$",
+            "$\\{a \\mid 2 \\le a \\le 4\\}$"
+          ],
+          "answer": "C",
+          "solution": "$A=(a-1,a+1)$，$B=(1,5)$.\r\n要使两个开区间没有公共点，必须满足左侧区间在 $B$ 的左边，或在 $B$ 的右边，即\r\n\n$$\na+1\\le 1 \\text{或}  a-1\\ge 5\n$$\n\r\n这分别给出 $a\\leqslant0$ 或 $a\\geqslant6$. 端点不属于相应开区间，所以等号允许. 故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "如图是函数 $y = A \\sin (\\omega x + \\varphi)$ （$x \\in \\mathbb{R}$）在区间 $\\left[-\\frac{\\pi}{6}, \\frac{5\\pi}{6}\\right]$ 上的图象，为了得到这个函数的图象，只要将 $y = \\sin x$ （$x \\in \\mathbb{R}$）的图象上所有的点（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/tianjin_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "向左平移 $\\frac{\\pi}{3}$ 个单位长度，再把所得各点的横坐标缩短到原来的 $\\frac{1}{2}$ 倍，纵坐标不变",
+            "向左平移 $\\frac{\\pi}{3}$ 个单位长度，再把所得各点的横坐标伸长到原来的 2 倍，纵坐标不变",
+            "向左平移 $\\frac{\\pi}{6}$ 个单位长度，再把所得各点的横坐标缩短到原来的 $\\frac{1}{2}$ 倍，纵坐标不变",
+            "向左平移 $\\frac{\\pi}{6}$ 个单位长度，再把所得各点的横坐标伸长到原来的 2 倍，纵坐标不变"
+          ],
+          "answer": "A",
+          "solution": "由图象可读出函数的振幅为 $1$，周期为 $\\pi$，且可表示为\r\n\n$$\ny=\\sin\\left(2x+\\frac{\\pi}{3}\\right)\n$$\n\r\n先将 $y=\\sin x$ 的图象向左平移 $\\frac{\\pi}{3}$ 个单位，得到\r\n\n$$\ny=\\sin\\left(x+\\frac{\\pi}{3}\\right)\n$$\n\r\n再把所得各点的横坐标缩短到原来的 $\\frac12$ 倍，相当于把 $x$ 替换为 $2x$，得到\r\n\n$$\ny=\\sin\\left(2x+\\frac{\\pi}{3}\\right)\n$$\n\r\n与图象一致，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "如图，在 $\\triangle ABC$ 中，$AD \\perp AB$，$\\overrightarrow{BC} = \\sqrt{3}\\overrightarrow{BD}$，$|\\overrightarrow{AD}| = 1$，则 $\\overrightarrow{AC} \\cdot \\overrightarrow{AD} =$（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/tianjin_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$2\\sqrt{3}$",
+            "$\\frac{\\sqrt{3}}{2}$",
+            "$\\frac{\\sqrt{3}}{3}$",
+            "$\\sqrt{3}$"
+          ],
+          "answer": "D",
+          "solution": "取 $B=(0,0)$，设 $D=(d,0)$，则由\r\n$\\overrightarrow{BC}=\\sqrt3\\overrightarrow{BD}$ 得\r\n\n$$\nC=(\\sqrt3d,0)\n$$\n\r\n设 $A=(u,v)$. 由 $AD\\perp AB$ 得\r\n\n$$\n(u-d,v)\\mathbin{\\cdot}(u,v)=0,\\qquad\\text{即 }u^2+v^2=ud\n$$\n\r\n又 $|AD|=1$，所以\r\n\n$$\n1=(u-d)^2+v^2=u^2+v^2-2ud+d^2=d^2-ud\n$$\n\r\n于是\r\n\n$$\nd(d-u)=1\n$$\n\r\n因此\r\n\n$$\n\\overrightarrow{AC}\\mathbin{\\cdot}\\overrightarrow{AD}\r\n=(C-A)\\mathbin{\\cdot}(D-A)\r\n=(\\sqrt3d-u,-v)\\mathbin{\\cdot}(d-u,-v)\r\n=\\sqrt3d(d-u)-ud+u^2+v^2\r\n=\\sqrt3d(d-u)=\\sqrt3\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "设函数 $g(x) = x^{2} - 2$ （$x \\in \\mathbb{R}$），$f(x) = \\begin{cases}\r\ng(x) + x + 4, & x < g(x),\\\\\r\ng(x) - x, & x \\ge g(x),\r\n\\end{cases}$，\r\n则 $f(x)$ 的值域是（ ）",
+          "choices": [
+            "$\\left[-\\frac{9}{4}, 0\\right] \\cup (1, +\\infty)$",
+            "$[0, +\\infty)$",
+            "$\\left[-\\frac{9}{4}, +\\infty\\right)$",
+            "$\\left[-\\frac{9}{4}, 0\\right] \\cup (2, +\\infty)$"
+          ],
+          "answer": "D",
+          "solution": "由 $x<g(x)$ 得\r\n\n$$\nx<x^2-2\\iff x^2-x-2>0\\iff x<-1\\text{ 或 }x>2\n$$\n\r\n在这部分，\r\n\n$$\nf(x)=x^2-2+x+4=x^2+x+2\n$$\n\r\n当 $x<-1$ 时，该函数在此区间上递减，且趋近于 $-1$ 时趋近于 $2$，所以值域为 $(2,+\\infty)$；当 $x>2$ 时，函数递增，值域为 $(8,+\\infty)$，这是 $(2,+\\infty)$ 的子集. 因而第一部分总值域为 $(2,+\\infty)$.\r\n\r\n由 $x\\ge g(x)$ 得\r\n\n$$\nx\\ge x^2-2\\iff x^2-x-2\\leqslant0\\iff -1\\le x\\leqslant2\n$$\n\r\n在此区间，\r\n\n$$\nf(x)=x^2-x-2=\\left(x-\\frac12\\right)^2-\\frac94\n$$\n\r\n故值域为 $\\left[-\\frac94,0\\right]$. 合并两部分得到\r\n\n$$\n\\left[-\\frac94,0\\right]\\cup(2,+\\infty)\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "如图，四边形 $ABCD$ 是圆 $O$ 的内接四边形，延长 $AB$ 和 $DC$ 相交于点 $P$. 若 $PB = 1$，$PD = 3$，则 $\\frac{BC}{AD}$ 的值为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/tianjin_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(\\frac{1}{3}\\)",
+          "solution": "因为四边形 $ABCD$ 内接于同一圆，所以对角互补：\r\n\n$$\n\\angle ABC+\\angle CDA=\\pi\n$$\n\r\n由图中点的顺序 $P$，$B$，$A$ 共线、$P$，$C$，$D$ 共线，射线 $BP$ 是射线 $BA$\r\n的反向延长线，从而\r\n\n$$\n\\angle PBC=\\pi-\\angle ABC=\\angle CDA\n$$\n\r\n又因为 $P$，$B$，$A$ 共线且 $P$，$C$，$D$ 共线，\r\n\n$$\n\\angle BPC=\\angle DPA\n$$\n\r\n所以由两角分别相等，\r\n\n$$\n\\triangle PBC\\sim\\triangle PDA\n$$\n\r\n对应边满足\r\n\n$$\n\\frac{BC}{AD}=\\frac{PB}{PD}=\\frac{1}{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "一个几何体的三视图如图所示，则这个几何体的体积为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/tianjin_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "3",
+          "solution": "由三视图可知，该几何体的高为 $1$，俯视图为梯形，其两条平行边长分别为 $1$ 和 $2$，高为 $2$. 因此俯视图的面积为\r\n\n$$\nS=\\frac{1+2}{2}\\times2=3\n$$\n\r\n几何体的体积为底面积乘高，故\r\n\n$$\nV=S\\times1=3\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "已知双曲线 $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ （$a > 0$，$\\ b > 0$） 的一条渐近线方程是 $y = \\sqrt{3}x$，它的一个焦点与抛物线 $y^2 = 16x$ 的焦点相同. 则双曲线的方程为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{x^2}{4} - \\frac{y^2}{12} = 1\\)",
+          "solution": "双曲线的渐近线为 $y=\\pm\\frac{b}{a}x$，故\r\n$\\frac{b}{a}=\\sqrt3$，$b^2=3a^2$.\r\n抛物线 $y^2=16x$ 的焦点为 $(4,0)$. 双曲线的焦点为 $(\\pm c,0)$，且\r\n\n$$\nc^2=a^2+b^2=4a^2\n$$\n\r\n由题意 $c=4$，所以 $2a=4$，即 $a=2$，从而 $b^2=12$. 因此双曲线方程为\r\n\n$$\n\\frac{x^2}{4}-\\frac{y^2}{12}=1\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "已知圆 $C$ 的圆心是直线 $x - y + 1 = 0$ 与 $x$ 轴的交点，且圆 $C$ 与直线 $x + y + 3 = 0$ 相切，则圆 $C$ 的方程为 _______ {}.",
+          "choices": [],
+          "answer": "\\((x+1)^2+y^2=2\\)",
+          "solution": "圆心是直线 $x-y+1=0$ 与 $x$ 轴的交点. 令 $y=0$，得 $x=-1$，所以圆心为 $(-1,0)$.\r\n\r\n圆心到切线 $x+y+3=0$ 的距离为\r\n\n$$\nr=\\frac{|-1+0+3|}{\\sqrt{1^2+1^2}}=\\sqrt2\n$$\n\r\n故圆的方程为\r\n\n$$\n(x+1)^2+y^2=2\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "设 $\\{a_n\\}$ 是等比数列，公比 $q = \\sqrt{2}$. $S_n$ 为 $\\{a_n\\}$ 的前 $n$ 项和. 记 $T_n = \\frac{17S_n - S_{2n}}{a_{n+1}}$，$\\ n \\in \\mathbf{N}^{*}$. 设 $T_{n_0}$ 为数列 $\\{T_n\\}$ 的最大项，则 $n_0 = _______ {}$.",
+          "choices": [],
+          "answer": "4",
+          "solution": "设首项为 $a_1$. 由于题设中的 $T_n$ 有定义，故 $a_1\\ne0$. 公比 $q=\\sqrt2\\ne1$，\r\n$S_n=a_1\\frac{q^n-1}{q-1}$，$S_{2n}=a_1\\frac{q^{2n}-1}{q-1}$.\r\n代入 $T_n$，并利用 $a_{n+1}=a_1q^n$，得\r\n\n$$\nT_n=\\frac{17-q^n-16q^{-n}}{q-1}\n$$\n\r\n于是\r\n\n$$\nT_{n+1}-T_n=-q^n+16q^{-(n+1)}\n$$\n\r\n因为 $q>0$，差值为正当且仅当\r\n\n$$\nq^{2n+1}<16\n$$\n\r\n当 $n=1$，$2$，$3$ 时该不等式成立，而当 $n\\geqslant4$ 时不成立. 因此 $T_n$ 先增后减，最大项为 $T_4$，即 $n_0=4$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "设函数 $f(x) = x - \\frac{1}{x}$，对任意 $x \\in [1,+\\infty)$，$f(mx) + mf(x) < 0$ 恒成立，则实数 $m$ 的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\(m < -1\\)",
+          "solution": "题设对任意 $x\\geqslant1$ 都要求 $f(mx)$ 有意义，因此 $m\\ne0$. 直接计算得\r\n\n$$\nf(mx)+mf(x)=mx-\\frac{1}{mx}+m\\left(x-\\frac1x\\right)\r\n=2mx-\\frac{m+\\frac{1}{m}}{x}\r\n=\\frac{2mx^2-m-\\frac{1}{m}}{x}\n$$\n\r\n若 $m>0$，当 $x$ 足够大时上式为正，不可能恒小于 0. 所以必须有 $m<0$.\r\n\r\n当 $m<0$ 时，分母 $x>0$，且分子 $2mx^2-m-\\frac{1}{m}$ 关于 $x^2$ 递减. 因此对所有 $x\\geqslant1$ 为负，等价于在 $x=1$ 时为负：\r\n\n$$\n2m-m-\\frac1m=m-\\frac1m<0\n$$\n\r\n令 $m=-t$，其中 $t>0$，则上式等价于\r\n\n$$\n-t+\\frac1t<0\\iff t>1\\iff m<-1\n$$\n\r\n故 $m$ 的取值范围为 $m<-1$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "在 $\\triangle ABC$ 中，$\\frac{AC}{AB} = \\frac{\\cos B}{\\cos C}$.\r\n\r\n\n(1) 证明：$B = C$；\n\n(2) 若 $\\cos A = -\\frac{1}{3}$，求 $\\sin \\left(4B + \\frac{\\pi}{3}\\right)$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由正弦定理，\r\n\n$$\n\\frac{AC}{AB}=\\frac{\\sin B}{\\sin C}\n$$\n\r\n结合题设得\r\n\n$$\n\\frac{\\sin B}{\\sin C}=\\frac{\\cos B}{\\cos C}\n$$\n\r\n所以 $\\sin B\\cos C=\\sin C\\cos B$，即 $\\sin(B-C)=0$. 由于 $B$，$C\\in(0,\\pi)$，且 $B-C\\in(-\\pi,\\pi)$，只能有 $B=C$.\n\n(2) 由 $B=C$ 及三角形内角和，$A+2B=\\pi$. 题设给出\r\n\n$$\n\\cos A=\\cos(\\pi-2B)=-\\cos2B=-\\frac13\n$$\n\r\n故 $\\cos2B=\\frac13$. 因为 $0<B<\\frac{\\pi}{2}$，所以\r\n\n$$\n\\sin2B=\\sqrt{1-\\cos^22B}=\\frac{2\\sqrt2}{3}\n$$\n\r\n于是\r\n$\\sin4B=2\\sin2B\\cos2B=\\frac{4\\sqrt2}{9}$，$\\cos4B=2\\cos^22B-1=-\\frac79$.\r\n最后\r\n\n$$\n\\sin\\left(4B+\\frac{\\pi}{3}\\right)\r\n=\\sin4B\\cos\\frac{\\pi}{3}+\\cos4B\\sin\\frac{\\pi}{3}\r\n=\\frac{4\\sqrt2-7\\sqrt3}{18}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "有编号为 $A_1$，$A_2$，$\\cdots$，$A_{10}$ 的 10 个零件，测量其直径（单位：$\\mathrm{cm}$），得到下面数据：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|*{10}{c|}}\r\n\\hline\r\n编号 & $A_1$ & $A_2$ & $A_3$ & $A_4$ & $A_5$ & $A_6$ & $A_7$ & $A_8$ & $A_9$ & $A_{10}$ \\\\\r\n\\hline\r\n直径 & 1.51 & 1.49 & 1.49 & 1.51 & 1.49 & 1.51 & 1.47 & 1.46 & 1.53 & 1.47 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n其中直径在区间 $[1.48,1.52]$ 内的零件为一等品.\r\n\r\n\n(1) 从上述 10 个零件中，随机抽取一个，求这个零件为一等品的概率；\n\n(2) 从一等品零件中，随机抽取 2 个.\r\n\r\n\\begin{enumerate}\n\n(3) 用零件的编号列出所有可能的抽取结果；\n\n(4) 求这 2 个零件直径相等的概率.\n\r\n\\end{enumerate}",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 直径在 $[1.48,1.52]$ 内的零件为\r\n$A_1$、$A_2$、$A_3$、$A_4$、$A_5$、$A_6$，共 $6$ 个. 因此随机抽取一个得到一等品的概率为\r\n\n$$\n\\frac{6}{10}=\\frac35\n$$\n\n(2) \\begin{enumerate}\n\n(3) 抽取不计顺序，全部可能结果为\r\n$\\{A_1,A_2\\}$、$\\{A_1,A_3\\}$、$\\{A_1,A_4\\}$、$\\{A_1,A_5\\}$、$\\{A_1,A_6\\}$、\r\n$\\{A_2,A_3\\}$、$\\{A_2,A_4\\}$、$\\{A_2,A_5\\}$、$\\{A_2,A_6\\}$、\r\n$\\{A_3,A_4\\}$、$\\{A_3,A_5\\}$、$\\{A_3,A_6\\}$、\r\n$\\{A_4,A_5\\}$、$\\{A_4,A_6\\}$、$\\{A_5,A_6\\}$，共\r\n$\\mathrm C_6^2=15$ 种. 由于从 $6$ 个零件中任取 $2$ 个，每个无序结果等可能.\n\n(4) 直径为 $1.51$ 的零件有 $A_1$、$A_4$、$A_6$，直径为 $1.49$ 的零件有 $A_2$、$A_3$、$A_5$. 有利结果数为\r\n\n$$\n\\mathrm C_3^2+\\mathrm C_3^2=6\n$$\n\r\n所以所求概率为\r\n\n$$\n\\frac{6}{15}=\\frac25\n$$\n\r\n\\end{enumerate}",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，在五面体 $ABCDEF$ 中，四边形 $ADEF$ 是正方形，$FA \\perp$ 平面 $ABCD$，$BC \\parallel AD$，$CD = 1$，$AD = 2\\sqrt{2}$，$\\angle BAD = \\angle CDA = 45^\\circ$.\r\n\r\n\n(1) 求异面直线 $CE$ 与 $AF$ 所成角的余弦值；\n\n(2) 证明 $CD \\perp$ 平面 $ABF$；\n\n(3) 求二面角 $B - EF - A$ 的正切值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/tianjin_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 建立直角坐标系，使平面 $ABCD$ 为 $z=0$，取\r\n$A=(0,0,0)$，$D=(2\\sqrt2,0,0)$，$F=(0,0,2\\sqrt2)$，$E=(2\\sqrt2,0,2\\sqrt2)$.\r\n由 $CD=1$、$\\angle CDA=45^\\circ$ 及 $BC\\parallel AD$，可取\r\n$B=\\left(\\frac{\\sqrt2}{2},\\frac{\\sqrt2}{2},0\\right)$，$C=\\left(\\frac{3\\sqrt2}{2},\\frac{\\sqrt2}{2},0\\right)$.\r\n于是\r\n$\\overrightarrow{CE}=\\left(\\frac{\\sqrt2}{2},-\\frac{\\sqrt2}{2},2\\sqrt2\\right)$，$\\overrightarrow{AF}=(0,0,2\\sqrt2)$.\r\n两向量的夹角可作为异面直线 $CE$ 与 $AF$ 所成的角，故\r\n\n$$\n\\cos\\theta\r\n=\\frac{\\overrightarrow{CE}\\mathbin{\\cdot}\\overrightarrow{AF}}\r\n{|\\overrightarrow{CE}|\\,|\\overrightarrow{AF}|}\r\n=\\frac{8}{3\\cdot2\\sqrt2}\r\n=\\frac{2\\sqrt2}{3}\n$$\n\n(2) 由坐标可得\r\n$\\overrightarrow{CD}=\\left(\\frac{\\sqrt2}{2},-\\frac{\\sqrt2}{2},0\\right)$，$\\overrightarrow{AB}=\\left(\\frac{\\sqrt2}{2},\\frac{\\sqrt2}{2},0\\right)$，$\\overrightarrow{AF}=(0,0,2\\sqrt2)$.\r\n平面 $ABF$ 的一个法向量为\r\n\n$$\n\\overrightarrow{AB}\\times\\overrightarrow{AF}=(2,-2,0)\n$$\n\r\n而 $\\overrightarrow{CD}\\parallel(2,-2,0)$. 又点\r\n\n$$\nP=(\\sqrt2,\\sqrt2,0)=A+2\\overrightarrow{AB}=C-\\overrightarrow{CD}\n$$\n\r\n同时在直线 $CD$ 和平面 $ABF$ 内，所以 $CD$ 与平面 $ABF$ 相交且平行于该平面的法向量. 因此\r\n\n$$\nCD\\perp\\text{平面 }ABF\n$$\n\n(3) 平面 $AEF$ 的一个法向量可取 $\\mathbf{n}_1=(0,1,0)$. 由\r\n$\\overrightarrow{EF}=(-2\\sqrt2,0,0)$，$\\overrightarrow{EB}=\\left(-\\frac{3\\sqrt2}{2},\\frac{\\sqrt2}{2},-2\\sqrt2\\right)$\r\n可得平面 $BEF$ 的一个法向量\r\n\n$$\n\\mathbf{n}_2=\\overrightarrow{EF}\\times\\overrightarrow{EB}\r\n=(0,-8,-2)\n$$\n\r\n因此二面角 $B-EF-A$ 的正切值等于两法向量夹角正切值的绝对值：\r\n\n$$\n\\tan\\theta\r\n=\\frac{|\\mathbf{n}_1\\times\\mathbf{n}_2|}\r\n{|\\mathbf{n}_1\\mathbin{\\cdot}\\mathbf{n}_2|}\r\n=\\frac{2}{8}\r\n=\\frac14\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知函数 $f(x) = ax^3 - \\frac{3}{2}x^2 + 1$ （$x \\in \\mathbb{R}$），其中 $a > 0$.\r\n\r\n\n(1) 若 $a = 1$，求曲线 $y = f(x)$ 在点 $(2,f(2))$ 处的切线方程；\n\n(2) 若在区间 $\\left[-\\frac{1}{2}, \\frac{1}{2}\\right]$ 上，$f(x) > 0$ 恒成立，求 $a$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 当 $a=1$ 时，\r\n$f(x)=x^3-\\frac32x^2+1$，$f(2)=8-6+1=3$.\r\n又\r\n$f'(x)=3x^2-3x$，$f'(2)=6$.\r\n所以曲线在 $(2,3)$ 处的切线为\r\n\n$$\ny-3=6(x-2)\n$$\n\r\n即 $y=6x-9$.\n\n(2) 必要性方面，若 $f(x)>0$ 在区间上恒成立，则特别有\r\n\n$$\nf\\left(-\\frac12\\right)\r\n=-\\frac a8-\\frac38+1\r\n=\\frac{5-a}{8}>0\n$$\n\r\n所以 $a<5$. 结合题设 $a>0$，必要条件为 $0<a<5$.\r\n\r\n下面证明该条件充分. 对 $x\\in[-\\frac12,0]$，有\r\n\n$$\nf'(x)=3x(ax-1)\\geqslant0\n$$\n\r\n（因为 $x\\leqslant0$、$a>0$，且 $ax-1<0$），故 $f$ 在该区间上递增，最小值为\r\n\n$$\nf\\left(-\\frac12\\right)=\\frac{5-a}{8}>0\n$$\n\r\n当 $0\\le x\\le\\frac12$ 时分两种情况讨论：\r\n\r\n若 $0<a\\leqslant2$，则 $ax\\leqslant1$，从而 $f'(x)\\leqslant0$，最小值在 $x=\\frac12$ 处，且\r\n\n$$\nf\\left(\\frac12\\right)=\\frac a8-\\frac38+1=\\frac{a+5}{8}>0\n$$\n\r\n\r\n若 $2<a<5$，则 $f'(x)$ 在 $x=\\frac{1}{a}$ 处由负变正，故最小值为\r\n\n$$\nf\\left(\\frac1a\\right)\r\n=1+\\frac1{a^2}-\\frac{3}{2a^2}\r\n=1-\\frac1{2a^2}>0\n$$\n\r\n所以当且仅当 $0<a<5$ 时，区间 $[-\\frac12,\\frac12]$ 上恒有 $f(x)>0$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知椭圆 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ （$a > b > 0$） 的离心率 $e = \\frac{\\sqrt{3}}{2}$，连接椭圆的四个顶点得到的菱形的面积为 4.\r\n\r\n\n(1) 求椭圆的方程；\n\n(2) 设直线 $l$ 与椭圆相交于不同的两点 $A$，$B$，已知点 $A$ 的坐标为 $(-a,0)$.\r\n\r\n\\begin{enumerate}\n\n(3) 若 $|AB| = \\frac{4\\sqrt{2}}{5}$，求直线 $l$ 的倾斜角；\n\n(4) 若点 $Q(0,y_0)$ 在线段 $AB$ 的垂直平分线上，且 $\\overrightarrow{QA} \\cdot \\overrightarrow{QB} = 4$. 求 $y_0$ 的值.\n\r\n\\end{enumerate}",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设椭圆的半长轴、半短轴分别为 $a$、$b$，焦距的一半为 $c$. 由离心率\r\n\n$$\n\\frac ca=\\frac{\\sqrt3}{2}\n$$\n\r\n得\r\n$c^2=\\frac34a^2$，$b^2=a^2-c^2=\\frac14a^2$.\r\n四个顶点为 $(\\pm a,0)$、$(0,\\pm b)$，连接它们所得菱形的两条对角线长分别为 $2a$、$2b$，所以面积为\r\n\n$$\n\\frac{(2a)(2b)}2=2ab=a^2=4\n$$\n\r\n因 $a>0$，得 $a=2$、$b=1$. 椭圆方程为\r\n\n$$\n\\frac{x^2}{4}+y^2=1\n$$\n\n(2) \\begin{enumerate}\n\n(3) 因 $A=(-2,0)$，非竖直直线 $l$ 可设为\r\n\n$$\ny=k(x+2)\n$$\n\r\n竖直直线 $x=-2$ 与椭圆只有一个交点，不能满足交于不同两点，所以不漏掉情形. 将直线代入椭圆：\r\n\n$$\n\\frac{x^2}{4}+k^2(x+2)^2=1\n$$\n\r\n整理得\r\n\n$$\n(1+4k^2)x^2+16k^2x+16k^2-4=0\n$$\n\r\n其中一个根为 $x_A=-2$，设另一个交点的横坐标为 $x_B$. 由根与系数的关系，\r\n$x_B=\\frac{2-8k^2}{1+4k^2}$，$x_B+2=\\frac4{1+4k^2}$.\r\n因此\r\n\n$$\n|AB|=\\frac{4\\sqrt{1+k^2}}{1+4k^2}\n$$\n\r\n由题设 $|AB|=\\frac{4\\sqrt2}{5}$，平方并化简得\r\n\n$$\n25(1+k^2)=2(1+4k^2)^2\n$$\n\r\n即\r\n\n$$\n32k^4-9k^2-23=0\n$$\n\r\n令 $u=k^2$，则\r\n\n$$\n32u^2-9u-23=0\n$$\n\r\n其根为\r\n\n$$\nu=\\frac{9\\pm55}{64}\n$$\n\r\n因 $u\\geqslant0$，只能取 $u=1$，故 $k=\\pm1$. 直线的倾斜角为\r\n\n$$\n\\frac{\\pi}{4} \\text{或} \\frac{3\\pi}{4}\n$$\n\n(4) 由于 $A$，$B$ 为不同交点，$l$ 不可能是竖直直线 $x=-2$，故可设直线 $l$ 的斜率为 $k$，则\r\n\n$$\ny=k(x+2)\n$$\n\r\n将其代入椭圆方程，得\r\n\n$$\n(1+4k^2)x^2+16k^2x+16k^2-4=0\n$$\n\r\n一个根为 $-2$，故另一个交点 $B=(x_1,y_1)$ 满足\r\n$x_1=\\frac{2-8k^2}{1+4k^2}$，$y_1=\\frac{4k}{1+4k^2}$.\r\n\r\n先考虑 $k=0$. 此时 $B=(2,0)$，线段 $AB$ 的垂直平分线为 $x=0$，而\r\n$\\overrightarrow{QA}=(-2,-y_0)$，$\\overrightarrow{QB}=(2,-y_0)$.\r\n由数量积条件，\r\n\n$$\n-4+y_0^2=4\n$$\n\r\n所以\r\n\n$$\ny_0=\\pm2\\sqrt2\n$$\n\r\n\r\n再考虑 $k\\ne0$. 线段 $AB$ 的中点为\r\n\n$$\nM=\\left(-\\frac{8k^2}{1+4k^2},\\frac{2k}{1+4k^2}\\right)\n$$\n\r\n由于 $AB$ 的斜率为 $k$，其垂直平分线斜率为 $-\\frac{1}{k}$. 将 $x=0$ 代入这条过 $M$ 的直线，得\r\n\n$$\ny_0=-\\frac{6k}{1+4k^2}\n$$\n\r\n又\r\n$\\overrightarrow{QA}=(-2,-y_0)$，$\\overrightarrow{QB}=(x_1,y_1-y_0)$.\r\n代入数量积条件并化简：\r\n\n$$\n\\frac{4(16k^4+15k^2-1)}{(1+4k^2)^2}=4\n$$\n\r\n所以\r\n\n$$\n7k^2=2\n$$\n\r\n于是\r\n\n$$\ny_0^2=\\frac{36k^2}{(1+4k^2)^2}\r\n=\\frac{36\\cdot\\frac27}{\\left(1+\\frac87\\right)^2}\r\n=\\frac{56}{25}\n$$\n\r\n从而\r\n\n$$\ny_0=\\pm\\frac{2\\sqrt{14}}5\n$$\n\r\n综上，\r\n\n$$\ny_0=\\pm2\\sqrt2 \\text{或}  y_0=\\pm\\frac{2\\sqrt{14}}5\n$$\n\r\n\\end{enumerate}",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "在数列 $\\{a_n\\}$ 中，$a_1 = 0$，且对任意 $k \\in \\mathbf{N}^{*}$，$a_{2k-1}$，$a_{2k}$，$a_{2k+1}$ 成等差数列，其公差为 $2k$.\r\n\r\n\n(1) 证明 $a_4$，$a_5$，$a_6$ 成等比数列；\n\n(2) 求数列 $\\{a_n\\}$ 的通项公式；\n\n(3) 记 $T_n = \\frac{2^2}{a_2} + \\frac{3^2}{a_3} + \\cdots + \\frac{n^2}{a_n}$，证明 $\\frac{3}{2} < 2n - T_n \\le 2$（$n \\ge 2$）.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $a_{2k-1}$、$a_{2k}$、$a_{2k+1}$ 成等差数列且公差为 $2k$，所以\r\n$a_{2k}=a_{2k-1}+2k$，$a_{2k+1}=a_{2k}+2k=a_{2k-1}+4k$.\r\n取 $k=1$，得 $a_2=2$、$a_3=4$；取 $k=2$，得\r\n$a_4=8$，$a_5=12$.\r\n再取 $k=3$，由 $a_5$，$a_6$，$a_7$ 成等差数列且公差为 $6$，得 $a_6=18$.\r\n由于\r\n\n$$\na_5^2=12^2=144=8\\cdot18=a_4a_6\n$$\n\r\n所以 $a_4$、$a_5$、$a_6$ 成等比数列，公比为 $\\frac{12}{8}=\\frac{3}{2}$.\n\n(2) 由\r\n$a_{2k+1}=a_{2k-1}+4k$，$a_1=0$\r\n逐项累加得\r\n\n$$\na_{2k+1}=4\\sum_{j=1}^{k}j=2k(k+1)\n$$\n\r\n令 $n=2k+1$，得到\r\n$a_n=\\frac{n^2-1}{2}$，$(n\\text{为奇数})$.\r\n再由 $a_{2k}=a_{2k-1}+2k$，得\r\n\n$$\na_{2k}=2k(k-1)+2k=2k^2=\\frac{(2k)^2}{2}\n$$\n\r\n因此\r\n\n$$\na_n=\\begin{cases}\r\n\\dfrac{n^2-1}{2},&n\\text{为奇数},\\\\[4pt]\r\n\\dfrac{n^2}{2},&n\\text{为偶数}.\r\n\\end{cases}\n$$\n\n(3) 当 $k$ 为偶数时，由通项公式\r\n\n$$\n\\frac{k^2}{a_k}=2\n$$\n\r\n当 $k=2j+1$ 为奇数时\r\n\n$$\n\\frac{k^2}{a_k}\r\n=\\frac{2k^2}{k^2-1}\r\n=2+\\frac{2}{k^2-1}\r\n=2+\\frac{1}{2j(j+1)}\n$$\n\r\n设 $m$ 为不超过 $n$ 的奇数 $3$，$5$，$\\ldots$ 的个数，则\r\n\n$$\n\\sum_{j=1}^{m}\\frac{1}{2j(j+1)}\r\n=\\frac12\\sum_{j=1}^{m}\\left(\\frac1j-\\frac1{j+1}\\right)\r\n=\\frac12-\\frac{1}{2(m+1)}\n$$\n\r\n若 $n=2r$，则 $m=r-1$，从而\r\n$T_n=2(n-1)+\\frac12-\\frac1n$，$2n-T_n=\\frac32+\\frac1n$.\r\n若 $n=2r+1$，则 $m=r$，从而\r\n$T_n=2(n-1)+\\frac12-\\frac1{n+1}$，$2n-T_n=\\frac32+\\frac1{n+1}$.\r\n当 $n\\geqslant2$ 时，上述两种情形均有 $2n-T_n>\\frac32$. 又当 $n$ 为偶数时 $\\frac{1}{n}\\le\\frac{1}{2}$，当 $n$ 为奇数时 $\\frac{1}{(n+1)}\\le\\frac{1}{2}$，所以 $2n-T_n\\leqslant2$. 因而\r\n\n$$\n\\frac32<2n-T_n\\leqslant2\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

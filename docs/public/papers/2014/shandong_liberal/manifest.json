@@ -1,0 +1,391 @@
+{
+  "year": "2014",
+  "slug": "shandong_liberal",
+  "title": "2014年山东卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "已知 $a$，$b \\in \\mathbb{R}$，$\\mathrm{i}$ 是虚数单位，若 $a + \\mathrm{i} = 2 - b\\mathrm{i}$，则 $(a + b\\mathrm{i})^2 =$（ ）",
+          "choices": [
+            "$3 - 4\\mathrm{i}$",
+            "$3 + 4\\mathrm{i}$",
+            "$4 - 3\\mathrm{i}$",
+            "$4 + 3\\mathrm{i}$"
+          ],
+          "answer": "A",
+          "solution": "由复数相等的充要条件，比较等式两边的实部和虚部，得 $a=2$，$-b=1$，所以 $b=-1$. 因而\r\n\n$$\n(a+b\\mathrm{i})^2=(2-\\mathrm{i})^2=4-4\\mathrm{i}+\\mathrm{i}^2=3-4\\mathrm{i}\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "设集合 $A = \\{x \\mid x^2 - 2x < 0\\}$，$B = \\{x \\mid 1 \\le x \\le 4\\}$，则 $A \\cap B =$（ ）",
+          "choices": [
+            "$(0,2]$",
+            "$(1,2)$",
+            "$[1, 2)$",
+            "$(1,4)$"
+          ],
+          "answer": "C",
+          "solution": "由 $x^2-2x=x(x-2)<0$，得 $0<x<2$，所以 $A=(0,2)$. 又 $B=[1,4]$，从而\r\n\n$$\nA\\cap B=[1,2)\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "函数 $f(x) = \\frac{1}{\\sqrt{\\log_2 x - 1}}$ 的定义域为（ ）",
+          "choices": [
+            "$(0,2)$",
+            "$(0,2]$",
+            "$(2, + \\infty)$",
+            "$[2, +\\infty)$"
+          ],
+          "answer": "C",
+          "solution": "根式在分母中，要求根式内的式子严格大于零，因此\r\n\n$$\n\\log_2x-1>0\n$$\n\r\n由于底数 $2>1$，上式等价于 $\\log_2x>1$，即 $x>2$. 所以函数的定义域为 $(2,+\\infty)$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "用反证法证明命题“设 $a$，$b$ 为实数，则方程 $x^3 + ax + b = 0$ 至少有一个实根”时，要做的假设是（ ）",
+          "choices": [
+            "方程 $x^{3} + ax + b = 0$ 没有实根",
+            "方程 $x^{3} + ax + b = 0$ 至多有一个实根",
+            "方程 $x^{3} + ax + b = 0$ 至多有两个实根",
+            "方程 $x^{3} + ax + b = 0$ 恰好有两个实根"
+          ],
+          "answer": "A",
+          "solution": "原命题为“方程至少有一个实根”. 它的否定是“方程没有实根”，所以用反证法时应假设方程\r\n\n$$\nx^3+ax+b=0\n$$\n\r\n没有实根.\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "已知实数 $x$，$y$ 满足 $a^x < a^y$ （$0 < a < 1$），则下列关系式恒成立的是（ ）",
+          "choices": [
+            "$x^3 > y^3$",
+            "$\\sin x > \\sin y$",
+            "$\\ln (x^2 + 1) > \\ln (y^2 + 1)$",
+            "$\\frac{1}{x^2 + 1} >\\frac{1}{y^2 + 1}$"
+          ],
+          "answer": "A",
+          "solution": "当 $0<a<1$ 时，函数 $a^x$ 在 $\\mathbb{R}$ 上单调递减. 由 $a^x<a^y$ 可得 $x>y$. 由于函数 $x^3$ 在 $\\mathbb{R}$ 上单调递增，所以\r\n\n$$\nx^3>y^3\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "已知函数 $y = \\log_a (x + c)$ （$a$，$c$ 为常数，其中 $a > 0$，$a \\neq 1$）的图象如图，则下列结论成立的是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/shandong_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$a > 1, c > 1$",
+            "$a > 1$，$0 < c < 1$",
+            "$0 < a < 1$，$c > 1$",
+            "$0 < a < 1$，$0 < c < 1$"
+          ],
+          "answer": "D",
+          "solution": "由图象可知函数单调递减，因此 $0<a<1$. 图象与 $x$ 轴的交点横坐标在 $0$ 与 $1$ 之间，而当 $y=0$ 时，\r\n$\\log_a(x+c)=0$，$\\Longrightarrow$，$x=1-c$.\r\n所以 $0<1-c<1$，即 $0<c<1$. 故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知向量 $\\mathbf{a} = (1, \\sqrt{3})$，$\\mathbf{b} = (3, m)$. 若向量 $\\mathbf{a}$，$\\mathbf{b}$ 的夹角为 $\\frac{\\pi}{6}$，则实数 $m =$（ ）",
+          "choices": [
+            "$2\\sqrt{3}$",
+            "$\\sqrt{3}$",
+            "$0$",
+            "$-\\sqrt{3}$"
+          ],
+          "answer": "B",
+          "solution": "由向量夹角公式，得\r\n\n$$\n\\cos\\frac\\pi6=\\frac{\\mathbf{a}\\cdot\\mathbf{b}}{|\\mathbf{a}||\\mathbf{b}|}\r\n =\\frac{3+\\sqrt3m}{2\\sqrt{9+m^2}}\n$$\n\r\n于是\r\n\n$$\n3+\\sqrt3m=\\sqrt3\\sqrt{9+m^2}\n$$\n\r\n两边平方并化简，得\r\n$9+6\\sqrt3m+3m^2=27+3m^2$，$m=\\sqrt3$.\r\n代入原等式可知等式成立，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "为了研究某种药品的疗效，选取若干名志愿者进行临床试验. 所有志愿者的舒张压数据（单位：$\\mathrm{kPa}$）的分组区间为 $[12,13)$，$[13,14)$，$[14,15)$，$[15,16)$，$[16,17]$. 将其按从左到右的顺序分别编号为第一组，第二组，…，第五组. 如图所示是根据试验数据制成的频率分布直方图. 已知第一组与第二组共有 $20\\text{ 人}$，第三组中没有疗效的有 $6\\text{ 人}$，则第三组中有疗效的人数为（ ）\r\n\r\n\\texfigure[max width=0.34\\linewidth]{img_repaint/2014/shandong_liberal/q8_fig1.tex}",
+          "choices": [
+            "$6$",
+            "$8$",
+            "$12$",
+            "$18$"
+          ],
+          "answer": "C",
+          "solution": "频率分布直方图纵轴表示频率与组距的比值，而五组的组距均为 $1$，所以第一组、第二组和第三组的频率分别为 $0.24$、$0.16$ 和 $0.36$. 设志愿者总人数为 $N$，则\r\n\n$$\n(0.24+0.16)N=20\n$$\n\r\n解得 $N=50$. 因此第三组共有 $0.36\\times50=18$ 人，其中有疗效的人数为\r\n\n$$\n18-6=12\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "对于函数 $f(x)$，若存在常数 $a \\neq 0$，使得 $x$ 取定义域内的每一个值，都有 $f(x) = f(2a - x)$，则称 $f(x)$ 为准偶函数，下列函数中是准偶函数的是（ ）",
+          "choices": [
+            "$f(x) = \\sqrt{x}$",
+            "$f(x) = x^{3}$",
+            "$f(x) = \\tan x$",
+            "$f(x) = \\cos (x + 1)$"
+          ],
+          "answer": "D",
+          "solution": "取 $a=-1$，则 $a\\ne0$，且对定义域内任意的 $x$，有\r\n\n$$\nf(2a-x)=\\cos(-2-x+1)=\\cos(-x-1)=\\cos(x+1)=f(x)\n$$\n\r\n所以 $f(x)=\\cos(x+1)$ 是准偶函数，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx - y - 1 \\le 0,\\\\\r\n2x - y - 3 \\ge 0,\r\n\\end{cases}$ 当目标函数 $z = ax + by$（$a > 0$，$b > 0$）在该约束条件下取到最小值 $2\\sqrt{5}$ 时，$a^2 + b^2$ 的最小值为（ ）",
+          "choices": [
+            "$5$",
+            "$4$",
+            "$\\sqrt{5}$",
+            "$2$"
+          ],
+          "answer": "B",
+          "solution": "约束条件等价于\r\n$y\\ge x-1$，$y\\leqslant2x-3$.\r\n要使可行域非空，必须有 $x-1\\leqslant2x-3$，所以 $x\\geqslant2$. 对固定的 $x$，因为 $b>0$，目标函数在最小的可行 $y$，即 $y=x-1$ 处取最小值. 因而\r\n\n$$\nz=ax+b(x-1)=(a+b)x-b\n$$\n\r\n又因为 $a+b>0$ 且 $x\\geqslant2$，所以目标函数的最小值在 $(x,y)=(2,1)$ 处取得，且\r\n\n$$\n2a+b=2\\sqrt5\n$$\n\r\n由柯西不等式，\r\n\n$$\n(2a+b)^2\\le(2^2+1^2)(a^2+b^2)=5(a^2+b^2)\n$$\n\r\n所以 $a^2+b^2\\geqslant4$. 当 $(a,b)=t(2,1)$，且 $5t=2\\sqrt5$，即\r\n$a=\\frac{4\\sqrt5}{5}$，$b=\\frac{2\\sqrt5}{5}$\r\n时等号成立. 因此 $a^2+b^2$ 的最小值为 $4$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "执行如图所示的程序框图，若输入的 $x$ 的值为 1，则输出的 $n$ 的值为 _______ {}.\r\n\\parbox{\\dimexpr\\linewidth-\\problembodyindent\\relax}{%\r\n    \\centering\r\n    \\texfigure[float=inline,max width=0.46\\linewidth]{img_repaint/2014/shandong_liberal/q11_fig1.tex}%\r\n}",
+          "choices": [],
+          "answer": "\\(3\\)",
+          "solution": "初始时 $x=1$，$n=0$. 判断条件为\r\n\n$$\nx^2-4x+3=(x-1)(x-3)\\leqslant0\n$$\n\r\n即 $1\\le x\\leqslant3$. 当 $x=1$ 时条件成立，执行一次循环后得到 $x=2$，$n=1$；当 $x=2$ 时条件仍成立，执行一次循环后得到 $x=3$，$n=2$；当 $x=3$ 时条件仍成立，执行一次循环后得到 $x=4$，$n=3$. 此时 $x^2-4x+3=3>0$，循环结束，输出 $n=3$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "函数 $y = \\frac{\\sqrt{3}}{2} \\sin 2x + \\cos^2 x$ 最小正周期为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\pi\\)",
+          "solution": "利用二倍角公式 $\\cos^2x=\\frac{1+\\cos2x}{2}$，得\r\n\n$$\ny=\\frac12+\\frac{\\sqrt3}{2}\\sin2x+\\frac12\\cos2x\r\n =\\frac12+\\sin\\left(2x+\\frac\\pi6\\right)\n$$\n\r\n后式中正弦函数的自变量系数为 $2$，所以其最小正周期为 $\\frac{2\\pi}{2}=\\pi$. 因此原函数的最小正周期为 $\\pi$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "一个六棱锥的体积为 $2\\sqrt{3}$，其底面是边长为 2 的正六边形，侧棱长都相等，则该六棱锥的侧面积为 _______ {}.",
+          "choices": [],
+          "answer": "\\(12\\)",
+          "solution": "设六棱锥的高为 $h$. 正六边形底面的面积为\r\n\n$$\nS_\\text{底}=6\\times\\frac{1}{2}\\times2\\times\\sqrt3=6\\sqrt3\n$$\n\r\n由棱锥体积公式，\r\n\n$$\n2\\sqrt3=\\frac13\\times6\\sqrt3\\times h\n$$\n\r\n解得 $h=1$. 由于六条侧棱相等，顶点在底面内的射影为正六边形的中心，设正六边形一边的中点为 $E$，则\r\n$OE=2\\cos\\frac\\pi6=\\sqrt3$，$PE=\\sqrt{PO^2+OE^2}=\\sqrt{1+3}=2$.\r\n每个侧面三角形的面积为 $\\frac12\\times2\\times2=2$，所以六个侧面的总面积为 $6\\times2=12$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "圆心在直线 $x - 2y = 0$ 上的圆 $C$ 与 $y$ 轴的正半轴相切，圆 $C$ 截 $x$ 轴所得弦的长为 $2\\sqrt{3}$，则圆 $C$ 的标准方程为 _______ {}.",
+          "choices": [],
+          "answer": "\\((x - 2)^2 + (y - 1)^2 = 4\\)",
+          "solution": "设圆心为 $O(h,k)$，半径为 $r$. 由圆心在直线 $x-2y=0$ 上，得 $h=2k$. 圆与 $y$ 轴的正半轴相切，所以切点的纵坐标为正，且 $k>0$，半径为圆心到 $y$ 轴的距离，即 $r=h=2k$.\r\n\r\n圆截 $x$ 轴所得弦的长为 $2\\sqrt3$，圆心到 $x$ 轴的距离为 $k$，因此\r\n\n$$\n2\\sqrt{r^2-k^2}=2\\sqrt3\n$$\n\r\n代入 $r=2k$，得 $4k^2-k^2=3$，所以 $k=1$，从而 $h=2$，$r=2$. 因此圆的标准方程为\r\n\n$$\n(x-2)^2+(y-1)^2=4\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "已知双曲线 $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$（$a > 0$，$b > 0$）的焦距为 $2c$，右顶点为 $A$，抛物线 $x^2 = 2py$（$p > 0$）的焦点为 $F$. 若双曲线截抛物线的准线所得线段长为 $2c$，且 $FA = c$，则双曲线的渐近线方程为 _______ {}.",
+          "choices": [],
+          "answer": "\\(y = \\pm x\\)",
+          "solution": "设双曲线的半焦距为 $c$，则\r\n\n$$\nc^2=a^2+b^2\n$$\n\r\n抛物线 $x^2=2py$ 的准线为 $y=-\\frac p2$. 设双曲线与该准线的交点横坐标的绝对值为 $x_0$，则由题意 $2x_0=2c$，即 $x_0=c$. 把 $y=-\\frac p2$ 代入双曲线方程，得\r\n\n$$\n\\frac{x_0^2}{a^2}-\\frac{p^2}{4b^2}=1\n$$\n\r\n利用 $x_0=c$ 和 $c^2=a^2+b^2$，可得\r\n$\\frac{a^2+b^2}{a^2}-\\frac{p^2}{4b^2}=1$，$\\frac{a^2p^2}{4b^2}=b^2$.\r\n因为 $a>0$，$b>0$，$p>0$，所以 $p=\\frac{2b^2}{a}$. 抛物线焦点为 $F\\left(0,\\frac p2\\right)=\\left(0,\\frac{b^2}{a}\\right)$，双曲线右顶点为 $A(a,0)$. 由 $FA=c$，得\r\n\n$$\na^2+\\frac{b^4}{a^2}=c^2=a^2+b^2\n$$\n\r\n于是 $b^4=a^2b^2$，结合 $a>0$，$b>0$，得 $a=b$. 双曲线的渐近线为\r\n\n$$\ny=\\pm\\frac ba x=\\pm x\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 16,
+          "body": "海关对同时从 $A$，$B$，$C$ 三个不同地区进口的某种商品进行抽样检测，从各地区进口此商品的数量（单位：$\\text{件}$）如下表所示. 工作人员用分层抽样的方法从这些商品中共抽取 $6\\text{ 件}$样品进行检测.\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|c|c|c}\r\n\\hline\r\n地区 & $A$ & $B$ & $C$ \\\\\r\n\\hline\r\n数量 & 50 & 150 & 100 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 求这 $6\\text{ 件}$样品中来自 $A$，$B$，$C$ 各地区商品的数量；\n\n(2) 若在这 $6\\text{ 件}$样品中随机抽取 $2\\text{ 件}$送往甲机构进行进一步检测，求这 $2\\text{ 件}$商品来自相同地区的概率.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 商品总数为 $50+150+100=300\\text{ 件}$，抽取样品的比例为 $\\frac{6}{300}=\\frac{1}{50}$. 因此，来自 $A$，$B$，$C$ 三个地区的样品数分别为\r\n$50\\times\\frac1{50}=1$，$150\\times\\frac1{50}=3$，$100\\times\\frac1{50}=2$.\r\n所以这 $6$ 件样品中来自 $A$，$B$，$C$ 三个地区的数量分别为 $1$，$3$，$2$.\n\n(2) 从 $6$ 件样品中任取 $2$ 件，共有 $\\mathrm C_{6}^{2}$ 种取法. 若两件样品来自相同地区，则它们只能都来自 $B$ 地区或都来自 $C$ 地区，取法数为 $\\mathrm C_{3}^{2}+\\mathrm C_{2}^{2}$. 因而所求概率为\r\n\n$$\n\\frac{\\mathrm C_{3}^{2}+\\mathrm C_{2}^{2}}{\\mathrm C_{6}^{2}}=\\frac{3+1}{15}=\\frac4{15}\n$$\n\r\n这里从 $6$ 件样品中任取 $2$ 件时每一种二件组合等可能，因此上述有利取法数与总取法数之比就是所求概率.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "$\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $a = 3$，$\\cos A = \\frac{\\sqrt{6}}{3}$，$B = A + \\frac{\\pi}{2}$.\r\n\r\n\n(1) 求 $b$ 的值；\n\n(2) 求 $\\triangle ABC$ 的面积.",
+          "choices": [],
+          "answer": "",
+          "solution": "由 $A$ 为三角形内角，得 $\\sin A>0$，所以\r\n\n$$\n\\sin A=\\sqrt{1-\\cos^{2}A}=\\sqrt{1-\\frac{6}{9}}=\\frac{\\sqrt{3}}{3}\n$$\n\r\n又由 $A+B+C=\\pi$ 和 $B=A+\\frac\\pi2$，得 $2A<\\frac\\pi2$，从而 $C=\\frac\\pi2-2A>0$，这些角确实满足三角形内角的范围.\r\n\r\n\n(1) 由 $B=A+\\frac\\pi2$，得 $\\sin B=\\cos A=\\frac{\\sqrt6}{3}$. 根据正弦定理，\r\n\n$$\n\\frac{b}{\\sin B}=\\frac{a}{\\sin A}\n$$\n\r\n从而\r\n\n$$\nb=a\\frac{\\sin B}{\\sin A}=3\\cdot\\frac{\\frac{\\sqrt6}{3}}{\\frac{\\sqrt3}{3}}=3\\sqrt2\n$$\n\n(2) 三角形内角和给出 $C=\\pi-A-B=\\frac\\pi2-2A$，于是\r\n\n$$\n\\sin C=\\cos 2A=\\cos^{2}A-\\sin^{2}A=\\frac69-\\frac39=\\frac13\n$$\n\r\n因此三角形面积为\r\n\n$$\nS_{\\triangle ABC}=\\frac12ab\\sin C=\\frac12\\cdot3\\cdot3\\sqrt2\\cdot\\frac13=\\frac{3\\sqrt2}{2}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，四棱锥 $P - ABCD$ 中，$AP \\perp$ 平面 $PCD$，$AD \\parallel BC$，$AB = BC = \\frac{1}{2} AD$，$E$，$F$ 分别为线段 $AD$，$PC$ 的中点.\r\n\r\n\n(1) 求证：$AP \\parallel$ 平面 $BEF$；\n\n(2) 求证：$BE \\perp$ 平面 $PAC$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/shandong_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "设 $\\overrightarrow{BA}=\\mathbf{a}$，$\\overrightarrow{BC}=\\mathbf{c}$，$\\overrightarrow{BP}=\\mathbf{p}$. 由四边形的顶点顺序、$AD\\parallel BC$ 以及 $AD=2BC$，有\r\n$\\overrightarrow{AD}=2\\overrightarrow{BC}$，$\\overrightarrow{BD}=\\mathbf{a}+2\\mathbf{c}$.\r\n由于 $E$，$F$ 分别是 $AD$，$PC$ 的中点，故\r\n$\\overrightarrow{BE}=\\mathbf{a}+\\mathbf{c}$，$\\overrightarrow{BF}=\\frac{\\mathbf{p}+\\mathbf{c}}{2}$.\r\n\r\n\n(1) 由上式可得\r\n\n$$\n2\\overrightarrow{BF}-\\overrightarrow{BE}=\\mathbf{p}+\\mathbf{c}-\\mathbf{a}-\\mathbf{c}=\\mathbf{p}-\\mathbf{a}=\\overrightarrow{AP}\n$$\n\r\n因此，直线 $AP$ 的方向向量是平面 $BEF$ 内两条相交直线 $BE$，$BF$ 的方向向量的线性组合.\r\n\r\n还需说明 $AP$ 不在平面 $BEF$ 内. 若 $A$ 在平面 $BEF$ 内，则存在实数 $\\alpha$，$\\beta$，使\r\n\n$$\n\\mathbf{a}=\\alpha(\\mathbf{a}+\\mathbf{c})+\\frac{\\beta}{2}(\\mathbf{p}+\\mathbf{c})\n$$\n\r\n由于 $\\mathbf{a}$，$\\mathbf{c}$ 在底面内而 $\\mathbf{p}$ 不在底面内，比较垂直于底面的分量得 $\\beta=0$，于是 $\\mathbf{a}=\\alpha(\\mathbf{a}+\\mathbf{c})$，这与四边形 $ABCD$ 的底面不退化矛盾. 所以 $AP$ 不在平面 $BEF$ 内，结合其方向向量平行于该平面，得 $AP\\parallel$ 平面 $BEF$.\n\n(2) 因为\r\n\n$$\n\\overrightarrow{CD}=\\overrightarrow{BD}-\\overrightarrow{BC}=\\mathbf{a}+\\mathbf{c}=\\overrightarrow{BE}\n$$\n\r\n所以 $BE\\parallel CD$. 又因为 $CD\\subset$ 平面 $PCD$，且 $AP\\perp$ 平面 $PCD$，故 $BE\\perp AP$.\r\n\r\n另一方面，$AB=BC$ 给出 $\\lvert\\mathbf{a}\\rvert=\\lvert\\mathbf{c}\\rvert$. 而\r\n$\\overrightarrow{AC}=\\mathbf{c}-\\mathbf{a}$，$\\overrightarrow{BE}\\cdot\\overrightarrow{AC}=(\\mathbf{a}+\\mathbf{c})\\cdot(\\mathbf{c}-\\mathbf{a})=\\lvert\\mathbf{c}\\rvert^{2}-\\lvert\\mathbf{a}\\rvert^{2}=0$，\r\n所以 $BE\\perp AC$. 直线 $AP$，$AC$ 是平面 $PAC$ 内相交的两条直线，且 $BE$ 同时垂直于它们，因此 $BE\\perp$ 平面 $PAC$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "在等差数列 $\\{a_{n}\\}$ 中，已知公差 $d = 2$，$a_{2}$ 是 $a_{1}$ 与 $a_{4}$ 的等比中项.\r\n\r\n\n(1) 求数列 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 设 $b_n = a_{\\frac{n(n+1)}{2}}$，记 $T_n = -b_1 + b_2 - b_3 + b_4 - \\cdots + (-1)^n b_n$，求 $T_n$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由公差 $d=2$，得\r\n$a_{2}=a_{1}+2$，$a_{4}=a_{1}+6$.\r\n因为 $a_{2}$ 是 $a_{1}$ 与 $a_{4}$ 的等比中项，所以\r\n\n$$\n(a_{1}+2)^{2}=a_{1}(a_{1}+6)\n$$\n\r\n展开并化简得 $a_{1}^{2}+4a_{1}+4=a_{1}^{2}+6a_{1}$，即 $a_{1}=2$. 因此数列的通项公式为\r\n\n$$\na_{n}=a_{1}+(n-1)d=2+2(n-1)=2n\n$$\n\n(2) 由定义\r\n\n$$\nb_{n}=a_{\\frac{n(n+1)}2}=2\\cdot\\frac{n(n+1)}2=n(n+1)\n$$\n\r\n当 $n=2m$ 时，成对相加可得\r\n\n$$\nT_{2m}=\\sum_{j=1}^{m}\\bigl[-(2j-1)(2j)+(2j)(2j+1)\\bigr]\r\n=\\sum_{j=1}^{m}4j=2m(m+1)\n$$\n\r\n当 $n=2m+1$ 时，\r\n\n$$\nT_{2m+1}=T_{2m}-(2m+1)(2m+2)=-2(m+1)^{2}\n$$\n\r\n所以\r\n\n$$\nT_{n}=\\begin{cases}\r\n\\dfrac{n(n+2)}2,&n=2m,\\\\[6pt]\r\n-\\dfrac{(n+1)^{2}}2,&n=2m+1,\r\n\\end{cases}\n$$\n\r\n其中偶数情形 $m\\geqslant1$，奇数情形 $m\\geqslant0$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设函数 $f(x) = a \\ln x + \\frac{x - 1}{x + 1}$，其中 $a$ 为常数.\r\n\r\n\n(1) 若 $a = 0$，求曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线方程；\n\n(2) 讨论函数 $f(x)$ 的单调性.",
+          "choices": [],
+          "answer": "",
+          "solution": "函数的定义域为 $x>0$，且\r\n\n$$\nf'(x)=\\frac{a}{x}+\\frac{2}{(x+1)^{2}}=\\frac{a(x+1)^{2}+2x}{x(x+1)^{2}}\n$$\n\r\n\r\n\n(1) 当 $a=0$ 时，$f(1)=0$，$f'(1)=\\frac12$. 因而曲线在 $(1,f(1))=(1,0)$ 处的切线方程为\r\n\n$$\ny=\\frac12(x-1)\n$$\n\n(2) 由于 $x(x+1)^{2}>0$，$f'(x)$ 的符号由\r\n\n$$\ng(x)=a(x+1)^{2}+2x=ax^{2}+2(a+1)x+a\n$$\n\r\n决定.\r\n\r\n当 $a\\geqslant0$ 时，$g(x)>0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调递增.\r\n\r\n当 $a<0$ 时，方程 $g(x)=0$ 的判别式为 $4(2a+1)$. 若 $a<-\\frac12$，判别式小于零，且 $g(0)=a<0$，故 $g(x)<0$，函数在 $(0,+\\infty)$ 上单调递减. 若 $a=-\\frac12$，则\r\n\n$$\ng(x)=-\\frac12(x-1)^{2}\\leqslant0\n$$\n\r\n且 $g(x)=0$ 仅在 $x=1$ 处成立. 因此 $f'(x)<0$ 在 $(0,1)$ 和 $(1,+\\infty)$ 上均成立，函数在这两个区间上分别严格递减；又 $f$ 在 $x=1$ 处连续，所以对任意 $0<x_1<1<x_2$，有 $f(x_1)>f(1)>f(x_2)$. 故函数在 $(0,+\\infty)$ 上严格递减.\r\n\r\n若 $-\\frac12<a<0$，令\r\n$x_{1}=\\frac{-(a+1)+\\sqrt{2a+1}}{a}$，$x_{2}=\\frac{-(a+1)-\\sqrt{2a+1}}{a}$.\r\n由于 $a<0$ 且 $0<\\sqrt{2a+1}<a+1$，有 $0<x_{1}<x_{2}$. 此时 $g(x)=0$ 的两个根为 $x_{1}$，$x_{2}$，又因二次项系数 $a<0$，故\r\n$f'(x)<0$，（$0<x<x_{1}\\text{ 或 }x>x_{2}$），$f'(x)>0$，（$x_{1}<x<x_{2}$）.\r\n因此函数在 $(0,x_{1})$，$(x_{2},+\\infty)$ 上单调递减，在 $(x_{1},x_{2})$ 上单调递增.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "在平面直角坐标系 $xOy$ 中，椭圆 $C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a > b > 0$）的离心率为 $\\frac{\\sqrt{3}}{2}$，直线 $y = x$ 被椭圆 $C$ 截得的线段长为 $\\frac{4\\sqrt{10}}{5}$.\r\n\r\n\n(1) 求椭圆 $C$ 的方程；\n\n(2) 过原点的直线与椭圆 $C$ 交于 $A$，$B$ 两点（$A$，$B$ 不是椭圆 $C$ 的顶点）. 点 $D$ 在椭圆 $C$ 上，且 $AD \\perp AB$，直线 $BD$ 与 $x$ 轴，$y$ 轴分别交于 $M$，$N$ 两点.\r\n\\begin{enumerate}\n\n(3) 设直线 $BD$，$AM$ 的斜率分别为 $k_{1}$，$k_{2}$，证明存在常数 $\\lambda$ 使得 $k_{1} = \\lambda k_{2}$，并求出 $\\lambda$ 的值；\n\n(4) 求 $\\triangle OMN$ 面积的最大值.\n\r\n\\end{enumerate}",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设椭圆的半焦距为 $c$. 由离心率条件\r\n$\\frac{c}{a}=\\frac{\\sqrt3}{2}$，$c^{2}=a^{2}-b^{2}$，\r\n得 $b^{2}=\\frac{a^{2}}{4}$. 直线 $y=x$ 与椭圆的交点满足\r\n\n$$\n\\frac{x^{2}}{a^{2}}+\\frac{x^{2}}{\\frac{a^{2}}{4}}=1\n$$\n\r\n即 $x^{2}=\\frac{a^{2}}{5}$. 两交点为 $(\\frac{a}{\\sqrt5},\\frac{a}{\\sqrt5})$，$(-\\frac{a}{\\sqrt5},-\\frac{a}{\\sqrt5})$，所以截得线段长为\r\n\n$$\n\\sqrt{2\\left(\\frac{2a}{\\sqrt5}\\right)^{2}}=\\frac{2\\sqrt2a}{\\sqrt5}\n$$\n\r\n由题设 $\\frac{2\\sqrt2a}{\\sqrt5}=\\frac{4\\sqrt{10}}5$，解得 $a=2$，从而 $b=1$. 因此椭圆方程为\r\n\n$$\n\\frac{x^{2}}4+y^{2}=1\n$$\n\n(2) 由于 $A$，$B$ 不是椭圆的顶点，直线 $AB$ 既不垂直于 $x$ 轴，也不平行于 $x$ 轴. 设其斜率为 $t$，则 $t\\neq0$. 令 $A=(u,tu)$，则由 $A$ 在椭圆上知\r\n$\\frac{u^{2}}4+t^{2}u^{2}=1$，$u^{2}=\\frac4{1+4t^{2}}$.\r\n因为直线 $AB$ 过原点，椭圆关于原点对称，所以 $B=(-u,-tu)$.\r\n\r\n直线 $AD\\perp AB$，而 $AB$ 的方向向量为 $(1,t)$，故可设\r\n\n$$\nD=A+s(t,-1)=(u+st,tu-s)\n$$\n\r\n将其代入椭圆方程，并利用 $A$ 在椭圆上，得\r\n\n$$\n\\frac{(u+st)^{2}}4+(tu-s)^{2}=1\n$$\n\r\n从而\r\n\n$$\ns\\left(-\\frac32ut+\\frac{t^{2}+4}{4}s\\right)=0\n$$\n\r\n根 $s=0$ 对应点 $A$，另一个交点对应\r\n\n$$\ns=\\frac{6ut}{t^{2}+4}\n$$\n\r\n因此\r\n\n$$\nD=\\left(\\frac{u(7t^{2}+4)}{t^{2}+4},\\frac{ut(t^{2}-2)}{t^{2}+4}\\right)\n$$\n\r\n\r\n\\begin{enumerate}\n\n(3) 由上式和 $B=(-u,-tu)$，有\r\n\n$$\n\\overrightarrow{BD}=\\frac{2u(t^{2}+1)}{t^{2}+4}(4,t)\n$$\n\r\n所以\r\n\n$$\nk_{1}=\\frac{t}{4}\n$$\n\r\n直线 $BD$ 的方程为 $y+tu=\\frac{t}{4}(x+u)$. 令 $y=0$，得 $M=(3u,0)$；令 $x=0$，得 $N=(0,-3t\\frac{u}{4})$. 因而\r\n\n$$\nk_{2}=k_{AM}=\\frac{0-tu}{3u-u}=-\\frac{t}{2}\n$$\n\r\n于是\r\n\n$$\nk_{1}=-\\frac12k_{2}\n$$\n\r\n故存在常数 $\\lambda=-\\frac12$，使得 $k_{1}=\\lambda k_{2}$.\n\n(4) 由 $M=(3u,0)$，$N=(0,-3t\\frac{u}{4})$，得\r\n\n$$\nS_{\\triangle OMN}=\\frac12\\lvert3u\\rvert\\cdot\\left\\lvert-\\frac{3tu}{4}\\right\\rvert\r\n=\\frac98\\lvert t\\rvert u^{2}=\\frac92\\cdot\\frac{\\lvert t\\rvert}{1+4t^{2}}\n$$\n\r\n令 $r=\\lvert t\\rvert>0$. 由 $A$，$B$ 不是椭圆顶点知 $t$ 不能为 $0$，所以 $r$ 的取值为全部正数. 因为\r\n\n$$\n1+4r^{2}-4r=(2r-1)^{2}\\geqslant0\n$$\n\r\n所以 $1+4r^{2}\\geqslant4r$，从而\r\n\n$$\nS_{\\triangle OMN}\\le\\frac92\\cdot\\frac14=\\frac98\n$$\n\r\n当 $r=\\frac12$，即 $\\lvert t\\rvert=\\frac12$ 时取等号，此时直线 $AB$ 不是坐标轴，满足题设限制. 因此三角形 $OMN$ 面积的最大值为 $\\frac98$.\n\r\n\\end{enumerate}",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

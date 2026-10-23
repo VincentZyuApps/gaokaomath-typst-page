@@ -1,0 +1,396 @@
+{
+  "year": "2011",
+  "slug": "guangdong_liberal",
+  "title": "2011年广东卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设复数 $z$ 满足 $\\mathrm{i} z = 1$，其中 $\\mathrm{i}$ 为虚数单位，则 $z =$（ ）",
+          "choices": [
+            "$-\\mathrm{i}$",
+            "$\\mathrm{i}$",
+            "$-1$",
+            "$1$"
+          ],
+          "answer": "A",
+          "solution": "由 $\\mathrm{i} z=1$，两边同乘 $-\\mathrm{i}$，利用 $(-\\mathrm{i})\\mathrm{i}=1$，得 $z=-\\mathrm{i}$，所以选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知集合 $A = \\{(x, y) | x, y$ 为实数，且 $x^2 + y^2 = 1\\}$，$B = \\{(x, y) | x, y$ 为实数，且 $x + y = 1\\}$，则 $A \\cap B$ 的元素个数为（ ）",
+          "choices": [
+            "$4$",
+            "$3$",
+            "$2$",
+            "$1$"
+          ],
+          "answer": "C",
+          "solution": "点 $(x,y)$ 属于 $A\\cap B$ 当且仅当同时满足 $x^2+y^2=1$ 和 $x+y=1$. 由 $y=1-x$，代入得 $x^2+(1-x)^2=1$，即 $2x(x-1)=0$，所以 $x=0$ 或 $x=1$. 相应的点为 $(0,1)$ 和 $(1,0)$，共有 $2$ 个元素，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "已知向量 $\\mathbf{a} = (1, 2)$，$\\mathbf{b} = (1, 0)$，$\\mathbf{c} = (3, 4)$. 若 $\\lambda$ 为实数，$(\\mathbf{a} + \\lambda \\mathbf{b}) \\parallel \\mathbf{c}$，则 $\\lambda =$（ ）",
+          "choices": [
+            "$\\frac{1}{4}$",
+            "$\\frac{1}{2}$",
+            "$1$",
+            "$2$"
+          ],
+          "answer": "B",
+          "solution": "有 $\\mathbf{a}+\\lambda\\mathbf{b}=(1+\\lambda,2)$. 两个向量平行，当且仅当其坐标行列式为零，因此\r\n\n$$\n4(1+\\lambda)-2\\cdot3=0\n$$\n\r\n解得 $\\lambda=\\frac{1}{2}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "函数 $f(x) = \\frac{1}{1 - x} + \\lg (1 + x)$ 的定义域是（ ）",
+          "choices": [
+            "$(-\\infty, -1)$",
+            "$(1, +\\infty)$",
+            "$(-1,1)\\cup (1, + \\infty)$",
+            "$(-\\infty, +\\infty)$"
+          ],
+          "answer": "C",
+          "solution": "分式有意义要求 $1-x\\ne0$，即 $x\\ne1$；对数有意义要求 $1+x>0$，即 $x>-1$. 合并得定义域 $(-1,1)\\cup(1,+\\infty)$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "不等式 $2x^{2} - x - 1 > 0$ 的解集是（ ）",
+          "choices": [
+            "$\\left(-\\frac{1}{2},1\\right)$",
+            "$(1, + \\infty)$",
+            "$(-\\infty, 1) \\cup (2, +\\infty)$",
+            "$\\left(-\\infty, -\\frac{1}{2}\\right) \\cup (1, +\\infty)$"
+          ],
+          "answer": "D",
+          "solution": "因式分解得 $2x^2-x-1=(2x+1)(x-1)$，两个根为 $-\\frac{1}{2}$ 和 $1$. 二次项系数为正，所以积在两根外侧为正，且不取使积为零的两个端点. 因此解集为 $\\left(-\\infty,-\\frac{1}{2}\\right)\\cup(1,+\\infty)$，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "已知平面直角坐标系 $xOy$ 上的区域 $D$ 由不等式组 $\\begin{cases}\r\n0 \\le x \\le \\sqrt{2},\\\\\r\ny \\le 2,\\\\\r\nx \\le \\sqrt{2}y\r\n\\end{cases}$ 给定. 若 $M(x, y)$ 为 $D$ 上的动点，点 $A$ 的坐标为 $(\\sqrt{2}, 1)$，则 $z = \\overrightarrow{OM} \\cdot \\overrightarrow{OA}$ 的最大值为（ ）",
+          "choices": [
+            "$3$",
+            "$4$",
+            "$3\\sqrt{2}$",
+            "$4\\sqrt{2}$"
+          ],
+          "answer": "B",
+          "solution": "由坐标得 $\\overrightarrow{OM}=(x,y)$，$\\overrightarrow{OA}=(\\sqrt{2},1)$，故\r\n\n$$\nz=\\overrightarrow{OM}\\cdot\\overrightarrow{OA}=\\sqrt{2}x+y\n$$\n\r\n由 $0\\le x\\le\\sqrt{2}$ 和 $y\\leqslant2$，有 $z\\le\\sqrt{2}\\cdot\\sqrt{2}+2=4$. 点 $(\\sqrt{2},2)$ 还满足 $\\sqrt{2}\\le\\sqrt{2}\\cdot2$，所以确实属于 $D$，并在该点取到上界. 最大值为 $4$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "正五棱柱中，不同在任何侧面且不同在任何底面的两顶点的连线称为它的对角线，那么一个正五棱柱对角线的条数共有（ ）",
+          "choices": [
+            "$20$",
+            "$15$",
+            "$12$",
+            "$10$"
+          ],
+          "answer": "D",
+          "solution": "同一底面的两个顶点不符合条件，所以所求线段必须分别取自上、下两个底面. 上下底面各有 $5$ 个顶点，跨两个底面的连线共有 $5\\times5=25$ 条.\r\n\r\n其中，连接对应顶点的 $5$ 条线段是侧棱；每个侧面还有 $2$ 条面内对角线，五个侧面共有 $5\\times2=10$ 条. 这 $15$ 条线段均位于某个侧面内，不能算作所求对角线. 因此对角线条数为 $25-5-10=10$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "设圆 $C$ 与圆 $x^{2}+(y-3)^{2}=1$ 外切，且与直线 $y=0$ 相切，则 $C$ 的圆心轨迹为（ ）",
+          "choices": [
+            "抛物线",
+            "双曲线",
+            "椭圆",
+            "圆"
+          ],
+          "answer": "A",
+          "solution": "设圆 $C$ 的圆心为 $P(x,y)$，半径为 $r$. 由于圆 $C$ 与 $y=0$ 相切，$r=|y|$. 已知圆的圆心为 $(0,3)$，半径为 $1$，外切条件给出\r\n\n$$\nx^2+(y-3)^2=(|y|+1)^2\n$$\n\r\n当 $y\\geqslant0$ 时，化简得 $x^2-8y+8=0$，即 $y=\\frac{x^2}{8}+1$. 这是一条抛物线，并且其所有点都满足 $y\\geqslant1$.\r\n\r\n当 $y<0$ 时，化简得 $x^2-4y+8=0$，即 $y=\\frac{x^2+8}{4}>0$，与 $y<0$ 矛盾. 因此圆心轨迹为抛物线，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "如图，某几何体的正视图（主视图）、侧视图（左视图）和俯视图分别是等边三角形、等腰三角形和菱形，则该几何体的体积为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/guangdong_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$4\\sqrt{3}$",
+            "$4$",
+            "$2 \\sqrt{3}$",
+            "$2$"
+          ],
+          "answer": "C",
+          "solution": "由三视图可知，该几何体是以菱形为底面的四棱锥. 正视图为边长 $2\\sqrt{3}$ 的等边三角形，所以它的底边投影，即菱形的一条对角线，长为 $2\\sqrt{3}$，四棱锥的高为\r\n\n$$\nh=\\sqrt{(2\\sqrt{3})^2-(\\sqrt{3})^2}=3\n$$\n\r\n侧视图的底边给出菱形的另一条对角线，长为 $2$. 这也与俯视图中边长为 $2$ 的菱形相符，因为两条半对角线长为 $\\sqrt{3}$ 和 $1$. 因此底面积为\r\n\n$$\nS=\\frac{1}{2}\\cdot2\\sqrt{3}\\cdot2=2\\sqrt{3}\n$$\n\r\n所以体积为 $V=\\frac{1}{3}Sh=\\frac{1}{3}\\cdot2\\sqrt{3}\\cdot3=2\\sqrt{3}$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "设 $f(x)$，$g(x)$，$h(x)$ 是 $\\mathbb{R}$ 上的任意实值函数. 如下定义两个函数 $(f \\circ g)(x)$ 和 $(f \\bullet g)(x)$：对任意 $x \\in \\mathbb{R}$，$(f \\circ g)(x) = f(g(x))$；$(f \\bullet g)(x) = f(x)g(x)$，则下列等式恒成立的是（ ）",
+          "choices": [
+            "$\\big((f\\circ g)\\bullet h\\big)(x) = \\big((f\\bullet h)\\circ (g\\bullet h)\\big)(x)$",
+            "$\\big((f\\bullet g)\\circ h\\big)(x) = \\big((f\\circ h)\\bullet (g\\circ h)\\big)(x)$",
+            "$\\big((f\\circ g)\\circ h\\big)(x) = \\big((f\\circ h)\\circ (g\\circ h)\\big)(x)$",
+            "$\\big((f\\bullet g)\\bullet h\\big)(x) = \\big((f\\bullet h)\\bullet (g\\bullet h)\\big)(x)$"
+          ],
+          "answer": "B",
+          "solution": "对选项 B，左边为\r\n\n$$\n\\big((f\\bullet g)\\circ h\\big)(x)=(f\\bullet g)(h(x))=f(h(x))g(h(x))\n$$\n\r\n右边为 $\\big((f\\circ h)\\bullet(g\\circ h)\\big)(x)=f(h(x))g(h(x))$，所以 B 对任意 $f$，$g$，$h$ 恒成立.\r\n\r\n其余各项可分别构造反例. 对 A 取 $f(x)=x$，$g(x)=1$，$h(x)=2$，则左边为 $2$，右边为 $4$；对 C 取 $f(x)=x$，$g(x)=x$，$h(x)=x+1$，则左边为 $x+1$，右边为 $x+2$；对 D 取 $f(x)=g(x)=h(x)=2$，则左边为 $8$，右边为 $16$. 因此只有 B 恒成立.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "已知 $\\{a_{n}\\}$ 是递增的等比数列，$a_{2} = 2$，$a_{4} - a_{3} = 4$. 则此数列的公比 $q =$ _______ {}.",
+          "choices": [],
+          "answer": "\\(2\\)",
+          "solution": "设公比为 $q$. 由 $a_2=2$，得 $a_3=2q$，$a_4=2q^2$. 代入 $a_4-a_3=4$，得 $2q^2-2q=4$，即\r\n\n$$\nq^2-q-2=(q-2)(q+1)=0\n$$\n\r\n所以 $q=2$ 或 $q=-1$. 当 $q=-1$ 时，数列项正负交替，不可能递增，故 $q=2$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "设函数 $f(x) = x^{3}\\cos x + 1$. 若 $f(a) = 11$，则 $f(-a) =$ _______ {}.",
+          "choices": [],
+          "answer": "\\(-9\\)",
+          "solution": "由 $f(a)=11$ 得 $a^3\\cos a+1=11$，即 $a^3\\cos a=10$. 又因为 $\\cos(-a)=\\cos a$，所以\r\n\n$$\nf(-a)=(-a)^3\\cos(-a)+1=-a^3\\cos a+1=-10+1=-9\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "为了解篮球爱好者小李的投篮命中率与打篮球时间之间的关系. 下表记录了小李某月 $1$ 号到 $5$ 号每天打篮球时间 $x$（单位：小时）与当天投篮命中率 $y$ 之间的关系：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccc}\r\n时间 $x$ & $1$ & $2$ & $3$ & $4$ & $5$ \\\\\r\n\\hline\r\n命中率 $y$ & $0.4$ & $0.5$ & $0.6$ & $0.6$ & $0.4$\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n小李这 $5$ 天的平均投篮命中率为 _______ {}；用线性回归分析的方法，预测小李该月 $6$ 号打 $6$ 小时篮球的投篮命中率为 _______ {}.",
+          "choices": [],
+          "answer": "\\(0.5\\)；\\(0.53\\)",
+          "solution": "平均命中率为\r\n\n$$\n\\bar y=\\frac{0.4+0.5+0.6+0.6+0.4}{5}=0.5\n$$\n\r\n而 $\\bar x=\\frac{1+2+3+4+5}{5}=3$. 线性回归直线 $\\hat y=\\hat a+\\hat b x$ 中，\r\n\n$$\n\\hat b=\\frac{\\sum_{i=1}^{5}(x_i-\\bar x)(y_i-\\bar y)}{\\sum_{i=1}^{5}(x_i-\\bar x)^2}\r\n =\\frac{(-2)(-0.1)+(-1)\\cdot0+0\\cdot0.1+1\\cdot0.1+2(-0.1)}{(-2)^2+(-1)^2+0^2+1^2+2^2}\r\n =\\frac{0.1}{10}=0.01\n$$\n\r\n因此 $\\hat a=\\bar y-\\hat b\\bar x=0.5-0.01\\times3=0.47$，回归直线为 $\\hat y=0.47+0.01x$. 当 $x=6$ 时，预测命中率为 $\\hat y=0.47+0.01\\times6=0.53$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选考题：填空题",
+      "problems": [
+        {
+          "num": 14,
+          "body": "已知两曲线参数方程分别为 $\\begin{cases}\r\nx = \\sqrt{5} \\cos \\theta,\\\\\r\ny = \\sin \\theta,\r\n\\end{cases}$ （$0 \\le \\theta < \\pi$）和 $\\begin{cases}\r\nx = \\frac{5}{4} t^2,\\\\\r\ny = t,\r\n\\end{cases}$ （$t \\in \\mathbb{R}$），它们的交点坐标为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left(1,\\dfrac{2\\sqrt{5}}{5}\\right)\\)",
+          "solution": "第一条曲线满足 $\\frac{x^2}{5}+y^2=1$. 因为 $0\\le\\theta<\\pi$，有 $y=\\sin\\theta\\geqslant0$. 第二条曲线中 $y=t$，所以 $x=\\frac{5}{4}y^2$. 代入椭圆方程得\r\n\n$$\n\\frac{1}{5}\\left(\\frac{5}{4}y^2\\right)^2+y^2=1\n$$\n\r\n即 $5y^4+16y^2-16=0$，从而\r\n\n$$\n(5y^2-4)(y^2+4)=0\n$$\n\r\n由于 $y\\geqslant0$，只能有 $y^2=\\frac45$，故 $y=\\frac{2\\sqrt5}{5}$，再由 $x=\\frac54y^2$ 得 $x=1$. 此时 $x>0$，$y>0$，可取第一象限的 $\\theta\\in[0,\\frac\\pi2)$，确实满足第一条参数方程；第二条取 $t=\\frac{2\\sqrt5}{5}$ 即可. 因此交点坐标为 $\\left(1,\\frac{2\\sqrt5}{5}\\right)$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "如图，在梯形 $ABCD$ 中，$AB \\parallel CD$，$AB = 4$，$CD = 2$，$E$，$F$ 分别为 $AD$，$BC$ 上的点，且 $EF = 3$，$EF \\parallel AB$，则梯形 $ABFE$ 与梯形 $EFCD$ 的面积比为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/guangdong_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(7:5\\)",
+          "solution": "设梯形 $ABCD$ 的高为 $h$，并令 $\\frac{AE}{AD}=\\frac{BF}{BC}=r$. 因为 $AB$，$EF$，$CD$ 互相平行，平行线截两腰所得的对应线段成比例，且截线长度随位置线性变化，所以\r\n\n$$\nEF=(1-r)AB+rCD=4-2r\n$$\n\r\n由 $EF=3$ 得 $r=\\frac12$，故 $EF$ 到两底的距离都为 $\\frac h2$. 于是\r\n$S_{ABFE}=\\frac{4+3}{2}\\cdot\\frac h2=\\frac{7h}{4}$，$S_{EFCD}=\\frac{3+2}{2}\\cdot\\frac h2=\\frac{5h}{4}$.\r\n所求面积比为 $7:5$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 16,
+          "body": "已知函数 $f(x) = 2\\sin \\left(\\frac{1}{3} x - \\frac{\\pi}{6}\\right)$，$x \\in \\mathbb{R}$.\r\n\n(1) 求 $f(0)$ 的值；\n\n(2) 设 $\\alpha$，$\\beta \\in \\left[0, \\frac{\\pi}{2}\\right]$，$f\\left(3\\alpha + \\frac{\\pi}{2}\\right) = \\frac{10}{13}$，$f(3\\beta + 2\\pi) = \\frac{6}{5}$，求 $\\sin (\\alpha + \\beta)$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 代入 $x=0$，得 $f(0)=2\\sin\\left(-\\frac\\pi6\\right)=-1$.\n\n(2) 将 $x=3\\alpha+\\frac\\pi2$ 代入，得\r\n\n$$\nf\\left(3\\alpha+\\frac\\pi2\\right)=2\\sin\\left(\\alpha+\\frac\\pi6-\\frac\\pi6\\right)=2\\sin\\alpha=\\frac{10}{13}\n$$\n\r\n所以 $\\sin\\alpha=\\frac5{13}$. 由 $\\alpha\\in[0,\\frac\\pi2]$，得 $\\cos\\alpha=\\frac{12}{13}$. 同理，\r\n\n$$\nf(3\\beta+2\\pi)=2\\sin\\left(\\beta+\\frac{2\\pi}{3}-\\frac\\pi6\\right)=2\\sin\\left(\\beta+\\frac\\pi2\\right)=2\\cos\\beta=\\frac65\n$$\n\r\n从而 $\\cos\\beta=\\frac35$. 由 $\\beta\\in[0,\\frac\\pi2]$，得 $\\sin\\beta=\\frac45$. 因此\r\n\n$$\n\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta\r\n =\\frac5{13}\\cdot\\frac35+\\frac{12}{13}\\cdot\\frac45=\\frac{63}{65}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "在某次测验中，有 $6$ 位同学的平均成绩为 $75$ 分. 用 $x_{n}$ 表示编号为 $n$ （$n = 1$，$2$，$\\cdots$，$6$）的同学所得成绩，且前 $5$ 位同学的成绩如下：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccc}\r\n编号 $n$ & $1$ & $2$ & $3$ & $4$ & $5$ \\\\\r\n\\hline\r\n成绩 $x_{n}$ & $70$ & $76$ & $72$ & $70$ & $72$\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 求第 $6$ 位同学的成绩 $x_6$，及这 $6$ 位同学成绩的标准差 $s$；\n\n(2) 从前 $5$ 位同学中，随机地选 $2$ 位同学，求恰有 $1$ 位同学成绩在区间 $(68, 75)$ 中的概率.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 六位同学的总成绩为 $6\\times75=450$，前五位同学的总成绩为 $70+76+72+70+72=360$，所以 $x_6=450-360=90$. 以平均成绩 $\\bar x=75$ 为基准，平方离差和为\r\n\n$$\n\\sum_{i=1}^{6}(x_i-\\bar x)^2=(-5)^2+1^2+(-3)^2+(-5)^2+(-3)^2+15^2=294\n$$\n\r\n因此标准差为 $s=\\sqrt{\\frac{294}{6}}=7$.\n\n(2) 前五位同学中，成绩在 $(68,75)$ 内的有编号 $1$，$3$，$4$，$5$ 的四位同学，成绩为 $76$ 的二号同学不在该区间内. 随机选两位的基本事件数为 $\\mathrm C_5^2$，恰有一位来自这四位同学的事件数为 $\\mathrm C_4^1\\mathrm C_1^1$. 故所求概率为\r\n\n$$\n\\frac{\\mathrm C_4^1\\mathrm C_1^1}{\\mathrm C_5^2}=\\frac4{10}=\\frac25\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图所示的几何体是将高为 $2$、底面半径为 $1$ 的直圆柱沿过轴的平面切开后，将其中一半沿切面向右水平平移后得到的. $A$，$A'$，$B$，$B'$ 分别为 $\\myarc{CD}$，$\\myarc{C'D'}$，$\\myarc{DE}$，$\\myarc{D'E'}$ 的中点，$O_1$，$O_1'$，$O_2$，$O_2'$ 分别为 $CD$，$C'D'$，$DE$，$D'E'$ 的中点.\r\n\r\n\n(1) 证明：$O_{1}^{\\prime}$，$A^{\\prime}$，$O_{2}$，$B$ 四点共面；\n\n(2) 设 $G$ 为 $A^{\\prime}A$ 的中点，延长 $A^{\\prime}O_{1}^{\\prime}$ 到 $H^{\\prime}$，使得 $O_{1}^{\\prime}H^{\\prime}=A^{\\prime}O_{1}^{\\prime}$，证明：$BO_{2}^{\\prime}\\perp$ 平面 $H^{\\prime}B^{\\prime}G$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/guangdong_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "建立直角坐标系：取 $D$ 为原点，$DE$ 所在方向为 $x$ 轴，竖直向上为 $z$ 轴，左侧半圆柱位于 $y\\geqslant0$ 一侧，右侧半圆柱位于 $y\\leqslant0$ 一侧. 由半径为 $1$、平移后两半圆柱的直径分别为 $CD$ 和 $DE$，可取\r\n$C=(-2,0,0)$，$D=(0,0,0)$，$E=(2,0,0)$.\r\n\r\n$C'=(-2,0,2)$，$D'=(0,0,2)$，$E'=(2,0,2)$.\r\n于是 $O_1=(-1,0,0)$，$O_1'=(-1,0,2)$，$O_2=(1,0,0)$，$O_2'=(1,0,2)$.\r\n\r\n以及 $A=(-1,1,0)$，$A'=(-1,1,2)$，$B=(1,-1,0)$，$B'=(1,-1,2)$.\r\n\r\n\n(1) 由 $O_1'=(-1,0,2)$，$A'=(-1,1,2)$，$O_2=(1,0,0)$ 三点可知平面 $O_1'A'O_2$ 的方程为 $x+z=1$. 而 $B=(1,-1,0)$ 也满足 $x+z=1$，所以 $O_1'$，$A'$，$O_2$，$B$ 四点共面.\n\n(2) 因为 $G$ 是 $A'A$ 的中点，所以 $G=(-1,1,1)$. 从 $A'$ 沿着 $A'O_1'$ 的方向延长一段 $A'O_1'$，得\r\n\n$$\nH'=2O_1'-A'=(-1,-1,2)\n$$\n\r\n因此 $\\overrightarrow{BO_2'}=(0,1,2)$，$\\overrightarrow{H'B'}=(2,0,0)$，$\\overrightarrow{H'G}=(0,2,-1)$.\r\n于是 $\\overrightarrow{BO_2'}\\cdot\\overrightarrow{H'B'}=0$，且 $\\overrightarrow{BO_2'}\\cdot\\overrightarrow{H'G}=0$. 向量 $\\overrightarrow{H'B'}$ 与 $\\overrightarrow{H'G}$ 不共线，它们确定平面 $H'B'G$，故 $BO_2'\\perp$ 平面 $H'B'G$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "设 $a > 0$，讨论函数 $f(x) = \\ln x + a(1 - a)x^2 - 2(1 - a)x$ 的单调性.",
+          "choices": [],
+          "answer": "",
+          "solution": "函数定义域为 $(0,+\\infty)$，且\r\n\n$$\nf'(x)=\\frac1x+2a(1-a)x-2(1-a)=\\frac{g(x)}{x}\n$$\n\r\n其中 $g(x)=2a(1-a)x^2-2(1-a)x+1$.\r\n由于 $x>0$，$f'(x)$ 与 $g(x)$ 同号.\r\n\r\n当 $0<a<\\frac13$ 时，$g(x)$ 的判别式为 $4(1-a)(1-3a)>0$，两个根为\r\n$x_1=\\frac{1-\\sqrt{\\frac{1-3a}{1-a}}}{2a}$，$x_2=\\frac{1+\\sqrt{\\frac{1-3a}{1-a}}}{2a}$.\r\n因为 $0<\\sqrt{\\frac{1-3a}{1-a}}<1$，所以 $0<x_1<x_2$. 此时二次项系数为正，故 $g(x)>0$ 在 $(0,x_1)$ 和 $(x_2,+\\infty)$ 上成立，$g(x)<0$ 在 $(x_1,x_2)$ 上成立. 因此 $f(x)$ 在 $(0,x_1)$ 和 $(x_2,+\\infty)$ 上单调递增，在 $(x_1,x_2)$ 上单调递减.\r\n\r\n当 $a=\\frac13$ 时，\r\n\n$$\ng(x)=\\frac49x^2-\\frac43x+1=\\left(\\frac{2x}{3}-1\\right)^2\\geqslant0\n$$\n\r\n虽然仅在 $x=\\frac32$ 时导数为零，但函数在整个 $(0,+\\infty)$ 上单调递增.\r\n\r\n当 $\\frac13<a<1$ 时，二次项系数为正且判别式 $4(1-a)(1-3a)<0$，所以 $g(x)>0$. 当 $a=1$ 时，$g(x)=1>0$. 因此 $\\frac13\\le a\\leqslant1$ 时，$f(x)$ 在 $(0,+\\infty)$ 上单调递增.\r\n\r\n当 $a>1$ 时，令 $c=a-1>0$，则\r\n\n$$\ng(x)=-2acx^2+2cx+1\n$$\n\r\n其两个根分别为 $\\frac{1-\\sqrt{\\frac{3a-1}{a-1}}}{2a}<0$ 和 $x_0=\\frac{1+\\sqrt{\\frac{3a-1}{a-1}}}{2a}>0$.\r\n因二次项系数为负，故在正半轴上 $g(x)>0$（$0<x<x_0$），$g(x)<0$（$x>x_0$）. 所以 $f(x)$ 在 $(0,x_0)$ 上单调递增，在 $(x_0,+\\infty)$ 上单调递减.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设 $b > 0$，数列 $\\{a_{n}\\}$ 满足 $a_{1} = b$，$a_{n} = \\frac{nba_{n - 1}}{a_{n - 1} + n - 1}$（$n \\ge 2$）.\r\n\n(1) 求数列 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 证明：对于一切正整数 $n$，$2a_{n} \\le b^{n+1} + 1$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 先证数列各项均为正. 已知 $a_1=b>0$，若 $a_{n-1}>0$，则递推式的分子、分母均为正，从而 $a_n>0$.\r\n\r\n令 $S_n=1+b+b^2+\\cdots+b^{n-1}$. 当 $n=1$ 时，$a_1=b=\\frac{1\\cdot b^1}{S_1}$. 假设 $a_{n-1}=\\frac{(n-1)b^{n-1}}{S_{n-1}}$，则\r\n\n$$\na_{n-1}+n-1=\\frac{(n-1)b^{n-1}}{S_{n-1}}+(n-1)=\\frac{(n-1)S_n}{S_{n-1}}\n$$\n\r\n代入递推式得\r\n\n$$\na_n=\\frac{nb\\cdot\\frac{(n-1)b^{n-1}}{S_{n-1}}}{\\frac{(n-1)S_n}{S_{n-1}}}=\\frac{nb^n}{S_n}\n$$\n\r\n所以对一切正整数 $n$，\r\n\n$$\na_n=\\frac{nb^n}{1+b+b^2+\\cdots+b^{n-1}}\n$$\n\n(2) 由均值不等式，\r\n\n$$\nb^{n+1}+1\\geqslant2b^{\\frac{n+1}{2}}\n$$\n\r\n又因 $b>0$，对 $1$，$b$，$b^2$，$\\ldots$，$b^{n-1}$ 使用均值不等式，得\r\n\n$$\nS_n\\ge n\\sqrt[n]{b^{0+1+\\cdots+(n-1)}}=nb^{\\frac{n-1}{2}}\n$$\n\r\n两式相乘，得到 $(b^{n+1}+1)S_n\\geqslant2nb^n$. 由于 $S_n>0$，再利用 $a_n=\\frac{nb^n}{S_n}$，可得 $b^{n+1}+1\\geqslant2a_n$，即所证不等式成立.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "在平面直角坐标系 $xOy$ 中，直线 $l: x = -2$ 交 $x$ 轴于点 $A$. 设 $P$ 是 $l$ 上一点，$M$ 是线段 $OP$ 的垂直平分线上一点，且满足 $\\angle MPO = \\angle AOP$.\r\n\n(1) 当点 $P$ 在 $l$ 上运动时，求点 $M$ 的轨迹 $E$ 的方程；\n\n(2) 已知 $T(1,-1)$，设 $H$ 是 $E$ 上动点，求 $|HO| + |HT|$ 的最小值，并给出此时点 $H$ 的坐标；\n\n(3) 过点 $T(1, -1)$ 且不平行于 $y$ 轴的直线 $l_{1}$ 与轨迹 E 有且只有两个不同的交点，求直线 $l_{1}$ 的斜率 $k$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $P=(-2,t)$，$M=(x,y)$. 因为 $M$ 在线段 $OP$ 的垂直平分线上，所以 $MO=MP$，从而\r\n\n$$\nx^2+y^2=(x+2)^2+(y-t)^2\n$$\n\r\n即\r\n\n$$\n4x+4-2ty+t^2=0\n$$\n\r\n在等腰三角形 $MOP$ 中，$MO=MP$，所以 $\\angle MOP=\\angle MPO=\\angle AOP$. 因此，从射线 $OP$ 看，射线 $OM$ 有如下两种可能位置.\r\n\r\n若射线 $OM$ 与射线 $OA$ 重合，则 $y=0$. 代入上式得 $x=-\\frac{t^2+4}{4}\\le-1$，且当 $t$ 取遍实数时得到射线 $y=0$，$x\\le-1$.\r\n\r\n另一种情形是射线 $OP$ 平分 $\\angle AOM$. 令 $u=\\overrightarrow{OP}=(-2,t)$，$v=\\overrightarrow{OA}=(-2,0)$. 将 $v$ 关于直线 $OP$ 对称，所得方向向量为\r\n\n$$\n2\\frac{v\\cdot u}{u\\cdot u}u-v\r\n=2\\frac{4}{t^2+4}(-2,t)-(-2,0)\r\n=\\frac{2}{t^2+4}(t^2-4,4t)\n$$\n\r\n故可设 $M=\\lambda(t^2-4,4t)$，其中 $\\lambda>0$. 代入（1）得\r\n\n$$\n4\\lambda(t^2-4)+4-8\\lambda t^2+t^2=0\n$$\n\r\n所以 $\\lambda=\\frac14$，即\r\n\n$$\nM=\\left(\\frac{t^2-4}{4},t\\right)\n$$\n\r\n消去参数得 $y^2=4x+4$，且此支满足 $x\\ge-1$. 综上，轨迹为 $E$ 的两部分：$y^2=4x+4$（$x\\ge-1$）以及 $y=0$（$x\\le-1$）.\r\n两部分在点 $(-1,0)$ 相接.\n\n(2) 对抛物线支 $y^2=4(x+1)$ 上的点 $H=(x,y)$，焦点为 $O=(0,0)$，准线为 $d:x=-2$. 设 $H_0=(-2,y)$ 为 $H$ 在准线上的垂足. 由抛物线定义，$HO=HH_0$，故\r\n\n$$\nHO+HT=HH_0+HT\\ge H_0T=\\sqrt{9+(y+1)^2}\\geqslant3\n$$\n\r\n当且仅当 $y=-1$ 且 $H_0$，$H$，$T$ 共线时取等号. 此时由抛物线方程得 $H=\\left(-\\frac34,-1\\right)$，并且该点确实在抛物线上.\r\n\r\n对另一支 $y=0$，$x\\le-1$，令 $u=-x\\geqslant1$，则\r\n\n$$\nHO+HT=u+\\sqrt{(u+1)^2+1}>u+(u+1)\\geqslant3\n$$\n\r\n在端点 $u=1$ 时不等式仍为严格不等式. 因此全轨迹上的最小值为 $3$，此时 $H=\\left(-\\frac34,-1\\right)$.\n\n(3) 设直线 $l_1$ 的斜率为 $k$. 因其不平行于 $y$ 轴，方程可写为 $y+1=k(x-1)$.\r\n\r\n先考虑 $k\\ne0$. 由 $x=1+\\frac{y+1}{k}$，代入抛物线方程得\r\n\n$$\nky^2-4y-8k-4=0\n$$\n\r\n其判别式为\r\n\n$$\n\\Delta=(-4)^2-4k(-8k-4)=16(2k^2+k+1)\n$$\n\r\n由于 $2k^2+k+1>0$，直线与抛物线恒有两个不同的交点.\r\n\r\n直线与附加支 $y=0$，$x\\le-1$ 的交点横坐标为 $x=1+\\frac1k$. 当且仅当 $-\\frac12<k<0$ 时，$1+\\frac1k<-1$，从而会在抛物线的两个交点之外再增加一个交点. 当 $k=-\\frac12$ 时，附加支交点为 $(-1,0)$，它正好是抛物线顶点，不增加新的交点.\r\n\r\n当 $k=0$ 时，直线为 $y=-1$，与抛物线只有一个交点，故不符合题意. 因此恰有两个不同交点时\r\n\n$$\nk\\in\\left(-\\infty,-\\frac12\\right]\\cup(0,+\\infty)\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

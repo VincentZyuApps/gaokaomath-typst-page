@@ -1,0 +1,366 @@
+{
+  "year": "2016",
+  "slug": "zhejiang_liberal",
+  "title": "2016年浙江卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "已知全集 $U=\\{1,2,3,4,5,6\\}$，集合 $P=\\{1,3,5\\}$，$Q=\\{1,2,4\\}$，则 $(\\complement_U P)\\cup Q=$（ ）",
+          "choices": [
+            "$\\{1\\}$",
+            "$\\{3,5\\}$",
+            "$\\{1,2,4,6\\}$",
+            "$\\{1,2,3,4,5\\}$"
+          ],
+          "answer": "C",
+          "solution": "全集补集为 $\\complement_U P=\\{2,4,6\\}$，因此\r\n\n$$\n(\\complement_U P)\\cup Q=\\{2,4,6\\}\\cup\\{1,2,4\\}=\\{1,2,4,6\\}\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知互相垂直的平面 $\\alpha$，$\\beta$ 交于直线 $l$，若直线 $m$，$n$ 满足 $m\\parallel\\alpha$，$n\\perp\\beta$，则（ ）",
+          "choices": [
+            "$m\\parallel l$",
+            "$m\\parallel n$",
+            "$n\\perp l$",
+            "$m\\perp n$"
+          ],
+          "answer": "C",
+          "solution": "因为 $n\\perp\\beta$，所以直线 $n$ 垂直于平面 $\\beta$ 内的每一条直线，特别地有 $n\\perp l$，其中 $l=\\alpha\\cap\\beta$. 其余选项并不能由已知条件推出，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "函数 $y=\\sin x^2$ 的图象是（ ）",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_liberal/q3_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_liberal/q3_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_liberal/q3_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_liberal/q3_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "D",
+          "solution": "令 $f(x)=\\sin x^2$. 有 $f(-x)=\\sin(-x)^2=\\sin x^2=f(x)$，所以图象关于 $y$ 轴对称；且 $f(0)=0$. 当 $0<x<\\sqrt{\\pi}$ 时，$0<x^2<\\pi$，从而 $f(x)>0$，并且在 $x=\\sqrt{\\frac{\\pi}{2}}$ 时取得 $1$，在 $x=\\sqrt{\\pi}$ 时回到 $0$. 因此图象应关于 $y$ 轴对称，在原点处过原点并在两侧形成相同的正弦波形，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "若平面区域\r\n$\\begin{cases}\r\nx+y-3\\ge 0,\\\\\r\n2x-y-3\\le 0,\\\\\r\nx-2y+3\\ge 0\r\n\\end{cases}$\r\n夹在两条斜率为 $1$ 的平行直线之间，则这两条平行直线间的距离的最小值是（ ）",
+          "choices": [
+            "$\\dfrac{3\\sqrt5}{5}$",
+            "$\\sqrt2$",
+            "$\\dfrac{3\\sqrt2}{2}$",
+            "$\\sqrt5$"
+          ],
+          "answer": "B",
+          "solution": "三条边界直线的交点为\r\n\n$$\n(x+y=3)\\cap(2x-y=3)=(2,1)\n$$\n\r\n\n$$\n(x+y=3)\\cap(x-2y+3=0)=(1,2)\n$$\n\r\n\n$$\n(2x-y=3)\\cap(x-2y+3=0)=(3,3)\n$$\n\r\n故平面区域是以 $(2,1)$，$(1,2)$，$(3,3)$ 为顶点的三角形.\r\n\r\n斜率为 $1$ 的直线可写成 $x-y=t$. 在三个顶点处，$x-y$ 的值分别为 $1$，$-1$，$0$，所以包住该三角形的最小平行带在 $x-y=1$ 与 $x-y=-1$ 之间. 两直线间的距离为\r\n\n$$\n\\frac{|1-(-1)|}{\\sqrt{1^2+(-1)^2}}=\\sqrt2\n$$\n\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "已知 $a$，$b>0$，且 $a\\ne1$，$b\\ne1$，若 $\\log_a b>1$，则（ ）",
+          "choices": [
+            "$(a-1)(b-1)<0$",
+            "$(a-1)(a-b)>0$",
+            "$(b-1)(b-a)<0$",
+            "$(b-1)(b-a)>0$"
+          ],
+          "answer": "D",
+          "solution": "若 $a>1$，则对数函数 $\\log_a x$ 递增，由 $\\log_a b>\\log_a a=1$ 得 $b>a>1$. 若 $0<a<1$，则对数函数递减，由 $\\log_a b>\\log_a a=1$ 得 $0<b<a<1$. 因此总有\r\n\n$$\n(b-1)(b-a)>0\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "已知函数 $f(x)=x^2+bx$，则“$b<0$”是“$f(f(x))$ 的最小值与 $f(x)$ 的最小值相等”的（ ）",
+          "choices": [
+            "\\text{充分不必要条件}",
+            "\\text{必要不充分条件}",
+            "\\text{充分必要条件}",
+            "\\text{既不充分也不必要条件}"
+          ],
+          "answer": "A",
+          "solution": "记 $m=\\min f(x)=-\\dfrac{b^2}{4}$，且\r\n\n$$\nf(x)=\\left(x+\\frac b2\\right)^2-\\frac{b^2}{4},\\qquad f(\\mathbb{R})=[m,+\\infty)\n$$\n\r\n当 $b<0$ 时，二次函数 $f$ 的顶点横坐标 $-\\frac{b}{2}>0$，而 $m<0$，所以顶点属于区间 $[m,+\\infty)$. 于是\r\n\n$$\n\\min f(f(x))=\\min_{y\\ge m}f(y)=m=\\min f(x)\n$$\n\r\n说明“$b<0$”是题述相等关系的充分条件.\r\n\r\n但取 $b=0$ 时，$f(x)=x^2$，从而 $\\min f(x)=0$，且 $f(f(x))=x^4$，也有 $\\min f(f(x))=0$，而此时 $b<0$ 不成立. 因此该条件不是必要条件，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知函数 $f(x)$ 满足：$f(x)\\ge |x|$ 且 $f(x)\\ge 2^x$，$x\\in\\mathbb{R}$. 则（ ）",
+          "choices": [
+            "若 $f(a)\\le |b|$，则 $a\\le b$",
+            "若 $f(a)\\le 2^b$，则 $a\\le b$",
+            "若 $f(a)\\ge |b|$，则 $a\\ge b$",
+            "若 $f(a)\\ge 2^b$，则 $a\\ge b$"
+          ],
+          "answer": "B",
+          "solution": "由 $f(a)\\geqslant2^a$，若 $f(a)\\leqslant2^b$，则\r\n\n$$\n2^a\\le f(a)\\leqslant2^b\n$$\n\r\n由于指数函数 $2^x$ 在 $\\mathbb{R}$ 上递增，所以 $a\\le b$，故选项 B 正确.\r\n\r\n其余选项不能由条件推出. 例如取 $f(x)=\\max\\{|x|,2^x\\}$，令 $a=-1$，$b=-2$，则 $f(a)=1\\le|b|$，但 $a\\le b$ 不成立，故 A 错误. 令 $a=0$，$b=1$，由 $f(0)\\geqslant2^0=1=|b|$，但 $a\\ge b$ 不成立，故 C 错误. 取满足条件的 $f(x)=|x|+2^x$，仍令 $a=0$，$b=1$，则 $f(a)=2=2^b$，但 $a\\ge b$ 不成立，故 D 错误.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "如图，点列 $\\{A_n\\}$，$\\{B_n\\}$ 分别在某锐角的两边上，且 $|A_nA_{n+1}|=|A_{n+1}A_{n+2}|$，$A_n\\ne A_{n+2}$，$n\\in\\mathbb{N}^*$，$|B_nB_{n+1}|=|B_{n+1}B_{n+2}|$，$B_n\\ne B_{n+2}$，$n\\in\\mathbb{N}^*$（$P\\ne Q$ 表示点 $P$ 与点 $Q$ 不重合）. 若 $d_n=|A_nB_n|$，$S_n$ 为 $\\triangle A_nB_nB_{n+1}$ 的面积，则（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\{S_n\\}$ 是等差数列",
+            "$\\{S_n^2\\}$ 是等差数列",
+            "$\\{d_n\\}$ 是等差数列",
+            "$\\{d_n^2\\}$ 是等差数列"
+          ],
+          "answer": "A",
+          "solution": "设该锐角的顶点为 $O$，两边方向的单位向量分别为 $u$，$v$，夹角为 $\\theta$. 记 $OA_n=x_n$，$OB_n=y_n$. 令 $\\delta_n=x_{n+1}-x_n$. 由 $|A_nA_{n+1}|=|A_{n+1}A_{n+2}|$ 有 $|\\delta_n|=|\\delta_{n+1}|$，故 $\\delta_{n+1}=\\pm\\delta_n$. 若取负号，则 $x_{n+2}=x_n$，即 $A_{n+2}=A_n$，与题设矛盾，所以 $\\delta_{n+1}=\\delta_n$. 同理，$y_{n+1}-y_n$ 也是常数.\r\n\n$$\nx_{n+2}-x_{n+1}=x_{n+1}-x_n\n$$\n\r\n因此 $\\{x_n\\}$ 为等差数列. 同理，$\\{y_n\\}$ 也是等差数列. 由于点列均在从 $O$ 出发的射线上且条件对所有正整数成立，两数列的公差均为正；设 $y_{n+1}-y_n=q>0$.\r\n\r\n三角形 $A_nB_nB_{n+1}$ 的底边长为 $q$，点 $A_n$ 到直线 $OB_n$ 的距离为 $x_n\\sin\\theta$，故\r\n\n$$\nS_n=\\frac12q x_n\\sin\\theta\n$$\n\r\n右端是等差数列的常数倍，所以 $\\{S_n\\}$ 是等差数列，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 9,
+          "body": "某几何体的三视图如图所示（单位：$\\mathrm{cm}$），则该几何体的表面积是 _______ {}$\\mathrm{cm}^2$，体积是 _______ {}$\\mathrm{cm}^3$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(80\\)，\\(40\\)",
+          "solution": "由三视图可将几何体分解为下部的长方体和上部的正方体：下部长、宽、高分别为 $4\\mathrm{~cm}$，$4\\mathrm{~cm}$，$2\\mathrm{~cm}$，上部正方体的棱长为 $2\\mathrm{~cm}$. 两部分的接触面是边长为 $2\\mathrm{~cm}$ 的正方形.\r\n\r\n下部长方体的表面积和体积分别为\r\n$2(4\\times4+4\\times2+4\\times2)=64\\mathrm{~cm}^2$，$4\\times4\\times2=32\\mathrm{~cm}^3$.\r\n上部正方体的表面积和体积分别为\r\n$6\\times2^2=24\\mathrm{~cm}^2$，$2^3=8\\mathrm{~cm}^3$.\r\n接触面在组合体内部，表面积中应扣除两次接触面面积，因此组合体的表面积为\r\n\n$$\n64+24-2\\times2^2=80\\mathrm{~cm}^2\n$$\n\r\n体积为\r\n\n$$\n32+8=40\\mathrm{~cm}^3\n$$\n\r\n故两空分别为 $80$，$40$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知 $a\\in\\mathbb{R}$，方程 $a^2x^2+(a+2)y^2+4x+8y+5a=0$ 表示圆，则圆心坐标是 _______ {}，半径是 _______ {}.",
+          "choices": [],
+          "answer": "\\((-2,-4)\\)，\\(5\\)",
+          "solution": "方程表示圆时，$x^2$ 与 $y^2$ 的系数必须相等且为正，因此\r\n$a^2=a+2$，$a^2-a-2=0$，\r\n得到 $a=2$ 或 $a=-1$.\r\n\r\n当 $a=2$ 时，原方程化为\r\n\n$$\nx^2+y^2+x+2y+\\frac52=0\n$$\n\r\n即\r\n\n$$\n\\left(x+\\frac12\\right)^2+(y+1)^2=-\\frac54\n$$\n\r\n没有实圆，舍去. 当 $a=-1$ 时，方程为\r\n\n$$\nx^2+y^2+4x+8y-5=0\n$$\n\r\n配方得\r\n\n$$\n(x+2)^2+(y+4)^2=25\n$$\n\r\n所以圆心为 $(-2,-4)$，半径为 $5$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "已知 $2\\cos^2x+\\sin2x=A\\sin(\\omega x+\\varphi)+B$（$A>0$），则 $A= _______ {}$，$B= _______ {}$.",
+          "choices": [],
+          "answer": "\\(\\sqrt2\\)，\\(1\\)",
+          "solution": "利用二倍角公式，\r\n\n$$\n2\\cos^2x+\\sin2x=1+\\cos2x+\\sin2x\n$$\n\r\n又\r\n\n$$\n\\sin2x+\\cos2x=\\sqrt2\\sin\\left(2x+\\frac\\pi4\\right)\n$$\n\r\n所以\r\n\n$$\n2\\cos^2x+\\sin2x=\\sqrt2\\sin\\left(2x+\\frac\\pi4\\right)+1\n$$\n\r\n由于 $A>0$，故 $A=\\sqrt2$，$B=1$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "设函数 $f(x)=x^3+3x^2+1$，已知 $a\\ne0$，且 $f(x)-f(a)=(x-b)(x-a)^2$，$x\\in\\mathbb{R}$，则实数 $a= _______ {}$，$b= _______ {}$.",
+          "choices": [],
+          "answer": "\\(-2\\)，\\(1\\)",
+          "solution": "将等式两边展开，左边为\r\n\n$$\nf(x)-f(a)=x^3+3x^2-a^3-3a^2\n$$\n\r\n右边为\r\n\n$$\n(x-b)(x-a)^2=x^3-(b+2a)x^2+(a^2+2ab)x-ba^2\n$$\n\r\n比较 $x^2$ 与 $x$ 的系数，得到\r\n$-(b+2a)=3$，$a^2+2ab=0$.\r\n因 $a\\ne0$，第二式化为 $a+2b=0$. 联立得\r\n$a=-2b$，$b+2a=-3$，\r\n从而 $b=1$，$a=-2$. 代入常数项可得两边均为 $-4$，故确有恒等式成立.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "设双曲线 $x^2-\\dfrac{y^2}{3}=1$ 的左，右焦点分别为 $F_1$，$F_2$，若点 $P$ 在双曲线上，且 $\\triangle F_1PF_2$ 为锐角三角形，则 $|PF_1|+|PF_2|$ 的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left(2\\sqrt7,8\\right)\\)",
+          "solution": "双曲线的焦距参数满足 $a_0^2=1$，$b_0^2=3$，所以 $c^2=a_0^2+b_0^2=4$，两个焦点间距离为 $F_1F_2=4$. 记\r\n$r_1=|PF_1|$，$r_2=|PF_2|$.\r\n由双曲线的定义，$|r_2-r_1|=2$. 不妨设 $r_2=r_1+2$，记 $r_1=r>0$. 此时三角形三边为 $r$，$r+2$，$4$.\r\n\r\n三角形为锐角三角形，当且仅当每一边的平方小于另外两边平方和. 其中非平凡的两个条件为\r\n$r^2+(r+2)^2>4^2$，$r^2+4^2>(r+2)^2$.\r\n它们分别化为\r\n$r^2+2r-6>0$，$\\Longrightarrow$，$r>\\sqrt7-1$\r\n以及\r\n$16>4r+4$，$\\Longrightarrow$，$r<3$.\r\n第三个不等式自动成立. 因而\r\n\n$$\n|PF_1|+|PF_2|=2r+2\\in\\left(2\\sqrt7,8\\right)\n$$\n\r\n端点分别对应直角三角形，不能取到，故取值范围为 $\\left(2\\sqrt7,8\\right)$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "如图，已知平面四边形 $ABCD$，$AB=BC=3$，$CD=1$，$AD=\\sqrt5$，$\\angle ADC=90^\\circ$，沿直线 $AC$ 将 $\\triangle ACD$ 翻折成 $\\triangle ACD'$，直线 $AC$ 与 $BD'$ 所成角的余弦的最大值是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_liberal/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(\\dfrac{\\sqrt6}{6}\\)",
+          "solution": "由 $AD=\\sqrt5$，$CD=1$，$\\angle ADC=90^\\circ$，得 $AC=\\sqrt6$. 建立直角坐标系，令\r\n$A=(0,0,0)$，$C=(\\sqrt6,0,0)$.\r\n由 $AB=BC=3$，可取\r\n\n$$\nB=\\left(\\frac{\\sqrt6}{2},-\\frac{\\sqrt{30}}2,0\\right)\n$$\n\r\n设 $D=(u,v,0)$. 由 $AD^2=5$，$CD^2=1$ 得\r\n$u^2+v^2=5$，$(u-\\sqrt6)^2+v^2=1$，\r\n解得 $u=\\frac{5}{\\sqrt6}$，$v=\\sqrt{\\frac{5}{6}}$. 折叠后，设折叠角为 $\\theta$，则可写成\r\n$D'=\\left(\\frac5{\\sqrt6},\\sqrt{\\frac56}\\cos\\theta,\\sqrt{\\frac56}\\sin\\theta\\right)$，$0\\le\\theta\\le\\pi$.\r\n\r\n设直线 $AC$ 与 $BD'$ 所成的锐角为 $\\varphi$. 由于 $AC$ 为 $x$ 轴，\r\n\n$$\n\\cos\\varphi=\\frac{\\left|\\frac5{\\sqrt6}-\\frac{\\sqrt6}{2}\\right|}{|BD'|}=\\frac{\\sqrt{\\frac{2}{3}}}{|BD'|}\n$$\n\r\n并且\r\n\n$$\n|BD'|^2\r\n=\\frac23+\\left(\\sqrt{\\frac56}\\cos\\theta+\\frac{\\sqrt{30}}2\\right)^2+\\frac56\\sin^2\\theta\n$$\n\r\n化简得\r\n\n$$\n|BD'|^2=9+5\\cos\\theta\n$$\n\r\n要使 $\\cos\\varphi$ 最大，只需使分母最小. 因为 $-1\\le\\cos\\theta\\leqslant1$，故当 $\\cos\\theta=-1$ 时取得最大值，且\r\n\n$$\n\\cos\\varphi_{\\max}=\\frac{\\sqrt{\\frac{2}{3}}}{\\sqrt{9-5}}=\\frac{\\sqrt6}{6}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "已知平面向量 $\\mathbf{a}$，$\\mathbf{b}$，$|\\mathbf{a}|=1$，$|\\mathbf{b}|=2$，$\\mathbf{a}\\cdot\\mathbf{b}=1$，若 $\\mathbf{e}$ 为平面单位向量，则 $|\\mathbf{a}\\cdot\\mathbf{e}|+|\\mathbf{b}\\cdot\\mathbf{e}|$ 的最大值是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\sqrt7\\)",
+          "solution": "对任意实数 $u$，$v$，有\r\n\n$$\n|u|+|v|=\\max_{\\varepsilon_1,\\varepsilon_2\\in\\{\\pm1\\}}\r\n\\left(\\varepsilon_1u+\\varepsilon_2v\\right)\n$$\n\r\n因此\r\n\n$$\n|\\mathbf{a}\\cdot\\mathbf{e}|+|\\mathbf{b}\\cdot\\mathbf{e}|\r\n=\\max_{\\varepsilon_1,\\varepsilon_2\\in\\{\\pm1\\}}\r\n\\left(\\varepsilon_1\\mathbf{a}+\\varepsilon_2\\mathbf{b}\\right)\\cdot\\mathbf{e}\n$$\n\r\n对固定的符号组合，由柯西不等式及 $|\\mathbf{e}|=1$，上式最大值为 $|\\varepsilon_1\\mathbf{a}+\\varepsilon_2\\mathbf{b}|$. 于是总最大值为\r\n\n$$\n\\max\\{|\\mathbf{a}+\\mathbf{b}|,|\\mathbf{a}-\\mathbf{b}|\\}\n$$\n\r\n由已知条件，\r\n$|\\mathbf{a}+\\mathbf{b}|^2=1^2+2^2+2\\mathbf{a}\\cdot\\mathbf{b}=7$，$|\\mathbf{a}-\\mathbf{b}|^2=1^2+2^2-2\\mathbf{a}\\cdot\\mathbf{b}=3$.\r\n故最大值为 $\\sqrt7$，并可取 $\\mathbf{e}$ 与 $\\mathbf{a}+\\mathbf{b}$ 同方向.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 16,
+          "body": "在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，已知 $b+c=2a\\cos B$.\r\n\r\n\n(1) 证明：$A=2B$；\n\n(2) 若 $\\cos B=\\dfrac23$，求 $\\cos C$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由正弦定理，设三角形 $ABC$ 的外接圆半径为 $R$，则\r\n$b+c=2R(\\sin B+\\sin C)$，$a=2R\\sin A$.\r\n因此由已知条件得 $\\sin B+\\sin C=2\\sin A\\cos B$. 又因为 $b+c>0$，所以 $\\cos B>0$，从而 $B\\in(0,\\frac{\\pi}{2})$. 由 $C=\\pi-A-B$，有 $\\sin C=\\sin(A+B)$，故\r\n\n$$\n\\sin A\\cos B+(1+\\cos A)\\sin B=2\\sin A\\cos B\n$$\n\r\n即 $(1+\\cos A)\\sin B=\\sin A\\cos B$. 由于 $A\\in(0,\\pi)$，且 $B\\in(0,\\frac{\\pi}{2})$，可得\r\n\n$$\n\\tan B=\\frac{\\sin A}{1+\\cos A}=\\tan\\frac A2\n$$\n\r\n又 $B$ 与 $\\frac A2$ 均在 $(0,\\frac{\\pi}{2})$ 内，正切函数在此区间上单调递增，所以 $B=\\frac A2$，即 $A=2B$.\n\n(2) 由第（1）问，$C=\\pi-A-B=\\pi-3B$. 因为 $\\cos B=\\frac23$，所以\r\n\n$$\n\\cos C=-\\cos 3B=-\\left(4\\cos^3B-3\\cos B\\right)\r\n=-\\left(4\\left(\\frac23\\right)^3-3\\cdot\\frac23\\right)=\\frac{22}{27}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "设数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，已知 $S_2=4$，$a_{n+1}=2S_n+1$，$n\\in\\mathbb{N}^*$.\r\n\r\n\n(1) 求通项公式 $a_n$；\n\n(2) 求数列 $\\{|a_n-n-2|\\}$ 的前 $n$ 项和.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 记 $S_1=a_1$. 由 $a_2=2S_1+1$ 及 $S_2=S_1+a_2=4$，得\r\n$3S_1+1=4$，$S_1=a_1=1$.\r\n对任意 $n\\in\\mathbb{N}^*$，由递推关系得\r\n\n$$\nS_{n+1}=S_n+a_{n+1}=3S_n+1\n$$\n\r\n于是 $S_{n+1}+\\frac12=3\\left(S_n+\\frac12\\right)$. 结合 $S_1=1$，可得\r\n\n$$\nS_n+\\frac12=3^{n-1}\\left(S_1+\\frac12\\right)=\\frac{3^n}{2}\n$$\n\r\n即 $S_n=\\frac{3^n-1}{2}$. 因此 $a_1=1$，且对 $n\\geqslant2$，\r\n\n$$\na_n=S_n-S_{n-1}=\\frac{3^n-1}{2}-\\frac{3^{n-1}-1}{2}=3^{n-1}\n$$\n\r\n故对一切 $n\\in\\mathbb{N}^*$，$a_n=3^{n-1}$.\n\n(2) 由 $a_1=1$，$a_2=3$，可得\r\n$|a_1-1-2|=2$，$|a_2-2-2|=1$.\r\n当 $k\\geqslant3$ 时，$3^{k-1}>k+2$：当 $k=3$ 时不等式成立；若对某个 $k\\geqslant3$ 成立，则 $3^k>3(k+2)>k+3$，所以可由归纳法得证. 因此\r\n$|a_k-k-2|=3^{k-1}-k-2$，（$k\\geqslant3$）.\r\n当 $n=1$ 或 $n=2$ 时，前 $n$ 项和分别为 $2$ 和 $3$. 当 $n\\geqslant3$ 时，\r\n\n$$\n\\sum_{k=1}^{n}|a_k-k-2|=3+\\frac{3^n-9}{2}-\\left(\\frac{n(n+1)}2+2n-7\\right)\n$$\n\r\n化简得\r\n\n$$\n\\sum_{k=1}^{n}|a_k-k-2|=\\frac{3^n-n^2-5n+11}{2}\n$$\n\r\n综上，数列 $\\{|a_n-n-2|\\}$ 的前 $n$ 项和为\r\n\n$$\n\\sum_{k=1}^{n}|a_k-k-2|=\r\n\\begin{cases}\r\n2, & n=1,\\\\\r\n3, & n=2,\\\\\r\n\\dfrac{3^n-n^2-5n+11}{2}, & n\\geqslant3.\r\n\\end{cases}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，在三棱台 $ABC-DEF$ 中，平面 $BCFE\\perp$ 平面 $ABC$，$\\angle ACB=90^\\circ$，$BE=EF=FC=1$，$BC=2$，$AC=3$.\r\n\r\n\n(1) 求证：$BF\\perp$ 平面 $ACFD$；\n\n(2) 求直线 $BD$ 与平面 $ACFD$ 所成角的余弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "建立如图所示的直角坐标系，使平面 $ABC$ 为 $xOy$ 平面，平面 $BCFE$ 为 $xOz$ 平面，并取\r\n$C=(0,0,0)$，$B=(2,0,0)$，$A=(0,3,0)$.\r\n因为三棱台的对应底边平行，所以 $EF\\parallel BC$，且 $\\dfrac{EF}{BC}=\\frac12$. 设 $E=(\\frac32,0,h)$，$F=(\\frac12,0,h)$. 由 $BE=1$ 得\r\n$h^2+\\left(2-\\frac32\\right)^2=1$，$h=\\frac{\\sqrt3}{2}$.\r\n又因为 $DF\\parallel AC$ 且 $DF=\\frac12AC$，所以\r\n\n$$\nD=\\left(\\frac12,\\frac32,\\frac{\\sqrt3}{2}\\right)\n$$\n\r\n\r\n\n(1) 平面 $ACFD$ 内的两条相交直线可取 $CA$ 和 $CF$. 有\r\n$\\overrightarrow{BF}=\\left(-\\frac32,0,\\frac{\\sqrt3}{2}\\right)$，$\\overrightarrow{CA}=(0,3,0)$，$\\overrightarrow{CF}=\\left(\\frac12,0,\\frac{\\sqrt3}{2}\\right)$.\r\n于是\r\n$\\overrightarrow{BF}\\cdot\\overrightarrow{CA}=0$，$\\overrightarrow{BF}\\cdot\\overrightarrow{CF}=-\\frac34+\\frac34=0$.\r\n所以 $BF$ 同时垂直于平面 $ACFD$ 内相交的两条直线 $CA$ 和 $CF$，故 $BF\\perp$ 平面 $ACFD$.\n\n(2) 设直线 $BD$ 与平面 $ACFD$ 所成的角为 $\\theta$. 由第（1）问，$BF$ 是平面 $ACFD$ 的法线，因此\r\n\n$$\n\\sin\\theta=\\frac{|\\overrightarrow{BD}\\cdot\\overrightarrow{BF}|}{|\\overrightarrow{BD}|\\,|\\overrightarrow{BF}|}\n$$\n\r\n其中\r\n$\\overrightarrow{BD}=\\left(-\\frac32,\\frac32,\\frac{\\sqrt3}{2}\\right)$，$|\\overrightarrow{BD}|=\\frac{\\sqrt{21}}2$，$|\\overrightarrow{BF}|=\\sqrt3$，\r\n且\r\n\n$$\n\\overrightarrow{BD}\\cdot\\overrightarrow{BF}=\\frac94+\\frac34=3\n$$\n\r\n所以 $\\sin\\theta=\\frac{2}{\\sqrt7}$，从而\r\n\n$$\n\\cos\\theta=\\sqrt{1-\\sin^2\\theta}=\\sqrt{1-\\frac47}=\\frac{\\sqrt{21}}7\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，设抛物线 $y^2=2px$（$p>0$）的焦点为 $F$，抛物线上的点 $A$ 到 $y$ 轴的距离等于 $|AF|-1$.\r\n\r\n\n(1) 求 $p$ 的值；\n\n(2) 若直线 $AF$ 交抛物线于另一点 $B$，过 $B$ 与 $x$ 轴平行的直线和过 $F$ 与 $AB$ 垂直的直线交于点 $N$，$AN$ 与 $x$ 轴交于点 $M$，求 $M$ 的横坐标的取值范围.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设抛物线上的点 $A$ 的参数为 $t$，则\r\n$A=\\left(\\frac p2t^2,pt\\right)$，$F=\\left(\\frac p2,0\\right)$.\r\n由于抛物线在右侧，点 $A$ 到 $y$ 轴的距离为 $\\frac p2t^2$，而\r\n\n$$\n|AF|=\\sqrt{\\left(\\frac p2t^2-\\frac p2\\right)^2+p^2t^2}=\\frac p2(t^2+1)\n$$\n\r\n由题意，$\\frac p2t^2=\\frac p2(t^2+1)-1$，所以 $p=2$.\n\n(2) 此时抛物线方程为 $y^2=4x$，焦点为 $F=(1,0)$，且\r\n\n$$\nA=(t^2,2t)\n$$\n\r\n设直线 $AF$ 与抛物线的另一交点为 $B$，记 $B$ 的参数为 $s$. 过参数为 $t$，$s$ 的两点的弦所在直线方程为\r\n\n$$\n(t+s)y=2x+2ts\n$$\n\r\n因为焦点 $F=(1,0)$ 在直线 $AB$ 上，所以 $2+2ts=0$，即 $ts=-1$，从而\r\n$B=\\left(\\frac1{t^2},-\\frac2t\\right)$，$t\\ne0$.\r\n过 $B$ 的水平直线为 $y=-\\frac2t$. 直线 $AB$ 的方向向量可取 $(t^2-1,2t)$. 设过 $F$ 且垂直于 $AB$ 的直线与上述水平直线交于 $N=(u,-\\frac2t)$，则\r\n\n$$\n(u-1,-\\tfrac2t)\\cdot(t^2-1,2t)=0\n$$\n\r\n所以 $u=1+\\frac4{t^2-1}$.\r\n\r\n当 $t^2=1$ 时，$AB$ 为过 $F$ 的竖直直线，过 $F$ 的垂线与过 $B$ 的水平线平行，点 $N$ 不存在，故还需有 $t^2\\ne1$.\r\n\r\n设 $M=(m,0)$. 因为 $A$，$N$，$M$ 三点共线，由截距关系得\r\n\n$$\nm=\\frac{t^2(1+u)}{t^2+1}=\\frac{2t^2}{t^2-1}\n$$\n\r\n令 $v=t^2$，则 $v>0$ 且 $v\\ne1$. 当 $0<v<1$ 时，$m=\\frac{2v}{v-1}$ 的取值范围为 $(-\\infty,0)$；当 $v>1$ 时，$m=2+\\frac2{v-1}$ 的取值范围为 $(2,+\\infty)$. 因此 $M$ 的横坐标的取值范围为\r\n\n$$\n(-\\infty,0)\\cup(2,+\\infty)\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设函数 $f(x)=x^3+\\dfrac{1}{x+1}$，$x\\in[0,1]$，证明：\r\n\r\n\n(1) $f(x)\\ge1-x+x^2$；\n\n(2) $\\dfrac34<f(x)\\le\\dfrac32$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 在 $x\\in[0,1]$ 时，$x+1>0$，于是\r\n\n$$\nf(x)-(1-x+x^2)=x^3+\\frac1{x+1}-1+x-x^2=\\frac{x^4}{x+1}\\geqslant0\n$$\n\r\n所以 $f(x)\\geqslant1-x+x^2$.\n\n(2) 由\r\n\n$$\n1-x+x^2=\\left(x-\\frac12\\right)^2+\\frac34\\ge\\frac34\n$$\n\r\n及第（1）问知 $f(x)\\ge\\frac34$. 若 $x\\ne\\frac12$，则上式中的二次式严格大于 $\\frac34$；若 $x=\\frac12$，则\r\n\n$$\nf(x)-(1-x+x^2)=\\frac{x^4}{x+1}>0\n$$\n\r\n故始终有 $f(x)>\\frac34$.\r\n\r\n另一方面，\r\n\n$$\n\\frac32-f(x)=\\frac32-x^3-\\frac1{x+1}=\\frac{(1-x)(2x^3+4x^2+4x+1)}{2(x+1)}\\geqslant0\n$$\n\r\n其中最后一个不等号由 $x\\in[0,1]$ 得到. 所以 $f(x)\\le\\frac32$，且当 $x=1$ 时取等号. 综上，\r\n\n$$\n\\frac34<f(x)\\le\\frac32\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

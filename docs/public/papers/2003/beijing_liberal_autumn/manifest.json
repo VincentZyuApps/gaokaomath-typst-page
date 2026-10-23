@@ -1,0 +1,376 @@
+{
+  "year": "2003",
+  "slug": "beijing_liberal_autumn",
+  "title": "2003年北京卷（秋文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设集合 $A = \\{x \\mid x^2 - 1 > 0\\}$，$B = \\{x \\mid \\log_2 x > 0\\}$，$A \\cap B$ 等于（ ）",
+          "choices": [
+            "$\\{x \\mid x > 1\\}$",
+            "$\\{x \\mid x > 0\\}$",
+            "$\\{x \\mid x < -1\\}$",
+            "$\\{x \\mid x < -1 \\text{\\ 或\\ } x > 1\\}$"
+          ],
+          "answer": "A",
+          "solution": "由 $x^2-1>0$ 得 $x<-1$ 或 $x>1$，而 $\\log_2x>0$ 等价于 $x>1$，所以 $A\\cap B=\\{x\\mid x>1\\}$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "设 $y_1 = 4^{0.9}$，$y_2 = 8^{0.44}$，$y_3 = \\left(\\frac{1}{2}\\right)^{-1.5}$，则（ ）",
+          "choices": [
+            "$y_3 > y_1 > y_2$",
+            "$y_2 > y_1 > y_3$",
+            "$y_1 > y_2 > y_3$",
+            "$y_1 > y_3 > y_2$"
+          ],
+          "answer": "D",
+          "solution": "将三数都化为以 $2$ 为底的幂，有 $y_1=4^{0.9}=2^{1.8}$，$y_2=8^{0.44}=2^{1.32}$，$y_3=(\\frac{1}{2})^{-1.5}=2^{1.5}$. 因为底数 $2>1$，指数大小规律与数值大小规律相同，且 $1.8>1.5>1.32$，所以 $y_1>y_3>y_2$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "“$\\cos 2\\alpha = -\\frac{\\sqrt{3}}{2}$”是“$\\alpha = k\\pi + \\frac{5\\pi}{12}$，（$k \\in \\mathbb{Z}$）”的（ ）",
+          "choices": [
+            "必要非充分条件",
+            "充分非必要条件",
+            "充分必要条件",
+            "既非充分又非必要条件"
+          ],
+          "answer": "A",
+          "solution": "由 $\\cos 2\\alpha=-\\dfrac{\\sqrt{3}}{2}$，得\r\n$2\\alpha=\\dfrac{5\\pi}{6}+2k\\pi$ 或 $2\\alpha=\\dfrac{7\\pi}{6}+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 因而\r\n$\\alpha=\\dfrac{5\\pi}{12}+k\\pi$ 或 $\\alpha=\\dfrac{7\\pi}{12}+k\\pi$. 所以条件 $\\alpha=k\\pi+\\dfrac{5\\pi}{12}$ 能推出 $\\cos 2\\alpha=-\\dfrac{\\sqrt{3}}{2}$，但后一个等式还允许 $\\alpha=k\\pi+\\dfrac{7\\pi}{12}$，不一定推出 $\\alpha=k\\pi+\\dfrac{5\\pi}{12}$. 因此前一个等式是后一个条件的必要非充分条件，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "已知 $\\alpha$，$\\beta$ 是平面，$m$，$n$ 是直线. 下列命题中不正确的是（ ）",
+          "choices": [
+            "若 $m \\parallel n$，$m \\perp \\alpha$，则 $n \\perp \\alpha$",
+            "若 $m \\parallel \\alpha$，$\\alpha \\cap \\beta = n$，则 $m \\parallel n$",
+            "若 $m \\perp \\alpha$，$m \\perp \\beta$，则 $\\alpha \\parallel \\beta$",
+            "若 $m \\perp \\alpha$，$m \\subset \\beta$，则 $\\alpha \\perp \\beta$"
+          ],
+          "answer": "B",
+          "solution": "命题 A 正确：若 $m\\parallel n$ 且 $m\\perp\\alpha$，则与 $m$ 平行的直线 $n$ 也垂直于平面 $\\alpha$. 命题 C 正确，因为垂直于同一直线的两个平面平行；命题 D 正确，因为平面 $\\beta$ 含有直线 $m$，而 $m\\perp\\alpha$，所以 $\\alpha\\perp\\beta$. 命题 B 不正确，例如取 $\\alpha:z=0$，$\\beta:x=0$，则 $n=\\alpha\\cap\\beta$ 是 $y$ 轴；取 $m:y=0$，$z=1$，有 $m\\parallel\\alpha$，但 $m$ 与 $n$ 既不平行也不相交，故不能推出 $m\\parallel n$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "如图，直线 $l: x - 2y + 2 = 0$ 过椭圆的左焦点 $F_1$ 和一个顶点 $B$，该椭圆的离心率是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2003/img/beijing_liberal_autumn/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\frac{1}{5}$",
+            "$\\frac{2}{5}$",
+            "$\\frac{\\sqrt{5}}{5}$",
+            "$\\frac{2\\sqrt{5}}{5}$"
+          ],
+          "answer": "D",
+          "solution": "由直线 $l:x-2y+2=0$ 与 $x$ 轴交于 $F_1$，令 $y=0$，得 $F_1=(-2,0)$，所以椭圆的左焦点参数 $c=2$. 直线与 $y$ 轴交于顶点 $B$，令 $x=0$，得 $B=(0,1)$，所以短半轴 $b=1$. 对椭圆有 $a^2=b^2+c^2=1+4=5$，故离心率 $e=\\frac{c}{a}=\\frac{2}{\\sqrt5}=2\\frac{\\sqrt5}{5}$，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "若 $z \\in \\mathbf{C}$ 且 $\\left|z + 2 - 2\\mathrm{i}\\right| = 1$，则 $\\left|z - 2 - 2\\mathrm{i}\\right|$ 的最小值是（ ）",
+          "choices": [
+            "$2$",
+            "$3$",
+            "$4$",
+            "$5$"
+          ],
+          "answer": "B",
+          "solution": "令 $w=z+2-2\\mathrm{i}$，则 $\\lvert w\\rvert=1$，且\r\n$z-2-2\\mathrm{i}=w-4$. 由三角不等式的逆不等式，\r\n$\\lvert z-2-2\\mathrm{i}\\rvert=\\lvert w-4\\rvert\\ge\\bigl|\\lvert4\\rvert-\\lvert w\\rvert\\bigr|=3$. 当 $w=1$ 时，$\\lvert w\\rvert=1$ 且 $\\lvert w-4\\rvert=3$，等号可以取得，所以最小值为 $3$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "如果圆台的母线与底面成 $60^{\\circ}$ 角，那么这个圆台的侧面积与轴截面面积的比为（ ）",
+          "choices": [
+            "$2\\pi$",
+            "$\\frac{3}{2}\\pi$",
+            "$\\frac{2\\sqrt{3}}{3}\\pi$",
+            "$\\frac{1}{2}\\pi$"
+          ],
+          "answer": "C",
+          "solution": "设圆台上、下底面半径分别为 $r$、$R$，母线长为 $l$，高为 $h$. 母线与底面成 $60^\\circ$ 角，所以 $h=l\\sin60^\\circ=\\sqrt3\\frac{l}{2}$. 圆台侧面积为 $S_1=\\pi(R+r)l$，轴截面是上、下底为 $2r$，$2R$、高为 $h$ 的梯形，面积为 $S_2=(R+r)h$. 因而 $\\frac{S_1}{S_2}=\\pi \\frac{l}{h}=2\\frac{\\pi}{\\sqrt3}=2\\sqrt3\\frac{\\pi}{3}$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "若数列 $\\{a_n\\}$ 的通项公式是 $a_n = \\frac{3^{-n} + (-1)^n 3^{-n}}{2}$，$n = 1$，$2$，$\\ldots$，则 $\\displaystyle\\lim_{n \\to \\infty}(a_1 + a_2 + \\cdots + a_n)$ 等于（ ）",
+          "choices": [
+            "$\\frac{1}{24}$",
+            "$\\frac{1}{8}$",
+            "$\\frac{1}{6}$",
+            "$\\frac{1}{2}$"
+          ],
+          "answer": "B",
+          "solution": "当 $n$ 为奇数时，$1+(-1)^n=0$，所以 $a_n=0$；当 $n=2k$ 时，\r\n$a_{2k}=\\dfrac{3^{-2k}+3^{-2k}}{2}=3^{-2k}=\\left(\\dfrac19\\right)^k$. 因而部分和的极限为\r\n$\\displaystyle\\sum_{k=1}^{\\infty}\\left(\\dfrac19\\right)^k=\\dfrac{\\frac19}{1-\\frac19}=\\dfrac18$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "从黄瓜，白菜，油菜，扁豆 $4$ 种蔬菜品种中选出 $3$ 种，分别种在不同土质的三块土地上，其中黄瓜必须种植，不同的种植方法共有（ ）",
+          "choices": [
+            "$24$ 种",
+            "$18$ 种",
+            "$12$ 种",
+            "$6$ 种"
+          ],
+          "answer": "B",
+          "solution": "黄瓜必须选出，再从白菜、油菜、扁豆中选出 $2$ 种，有 $\\mathrm C_3^2=3$ 种选法. 选定的 $3$ 种蔬菜分别种在三块不同土质的土地上，有 $\\mathrm A_3^3=3!=6$ 种安排方法. 所以不同的种植方法共有 $\\mathrm C_3^2\\mathrm A_3^3=3\\times6=18$ 种，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "某班试用电子投票系统选举班干部候选人. 全班 $k$ 名同学都有选举权和被选举权，他们的编号分别为 $1$，$2$，$\\ldots$，$k$，规定：同意按“1”，不同意（含弃权）按“0”，令\r\n$a_{ij} = \\begin{cases}\r\n1,& \\text{第 } i\\text{ 号同学同意第 }j\\text{ 号同学当选},\\\\\r\n0,& \\text{第 } i\\text{ 号同学不同意第 }j\\text{ 号同学当选}.\r\n\\end{cases}$\r\n其中 $i = 1$，$2$，$\\ldots$，$k$，且 $j = 1$，$2$，$\\ldots$，$k$，则同时同意第 $1$，$2$ 号同学当选的人数为（ ）",
+          "choices": [
+            "$a_{11} + a_{12} + \\cdots + a_{1k} + a_{21} + a_{22} + \\cdots + a_{2k}$",
+            "$a_{11} + a_{21} + \\cdots + a_{k1} + a_{12} + a_{22} + \\cdots + a_{k2}$",
+            "$a_{11}a_{12} + a_{21}a_{22} + \\cdots + a_{k1}a_{k2}$",
+            "$a_{11}a_{21} + a_{12}a_{22} + \\cdots + a_{1k}a_{2k}$"
+          ],
+          "answer": "C",
+          "solution": "对第 $i$ 号同学，同时同意第 $1$、$2$ 号同学当选的指示量分别为 $a_{i1}$、$a_{i2}$. 由于它们只取 $0$ 或 $1$，两者的乘积在且仅在二者都为 $1$ 时等于 $1$，所以同时同意的人数为 $\\sum_{i=1}^k a_{i1}a_{i2}=a_{11}a_{12}+a_{21}a_{22}+\\cdots+a_{k1}a_{k2}$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "已知某球体的体积与其表面积的数值相等，则此球体的半径为 _______ {}.",
+          "choices": [],
+          "answer": "\\(3\\)",
+          "solution": "设球半径为 $r>0$. 球体积为 $V=4\\pi \\frac{r^3}{3}$，表面积为 $S=4\\pi r^2$. 由数值相等得 $4\\pi \\frac{r^3}{3}=4\\pi r^2$，约去 $4\\pi r^2$ 后得 $\\frac{r}{3}=1$，所以 $r=3$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "函数 $f(x) = \\lg(1 + x^2)$，$g(x) = 2 - |x|$，$h(x) = \\tan 2x$ 中， _______ {}是偶函数.",
+          "choices": [],
+          "answer": "\\(f(x)\\)，\\(g(x)\\)",
+          "solution": "有 $f(-x)=\\lg(1+(-x)^2)=\\lg(1+x^2)=f(x)$，所以 $f$ 是偶函数；又 $g(-x)=2-|-x|=2-|x|=g(x)$，所以 $g$ 是偶函数. 对 $h$，在其定义域上 $h(-x)=\\tan(-2x)=-\\tan2x=-h(x)$，它是奇函数而不是偶函数，故应填 $f(x)$，$g(x)$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "以双曲线 $\\frac{x^{2}}{16} - \\frac{y^{2}}{9} = 1$ 右顶点为顶点，左焦点为焦点的抛物线的方程是 _______ {}.",
+          "choices": [],
+          "answer": "\\(y^2=-36(x-4)\\)",
+          "solution": "双曲线的 $a=4$，$b=3$，故 $c=\\sqrt{a^2+b^2}=5$. 其右顶点为 $(4,0)$，左焦点为 $(-5,0)$. 以 $(4,0)$ 为顶点、焦点为 $(-5,0)$ 的抛物线向左开口，设方程为 $y^2=4p(x-4)$. 顶点到焦点的有向距离为 $p=-9$，所以方程为 $y^2=-36(x-4)$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "将长度为 $1$ 的铁丝分成两段，分别围成一个正方形和一个圆形，要使正方形与圆的面积之和最小，正方形的周长应为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{4}{\\pi+4}\\)",
+          "solution": "设正方形周长为 $x$，则圆的周长为 $1-x$，其中 $0<x<1$. 正方形边长为 $\\frac{x}{4}$，圆半径为 $\\frac{(1-x)}{(2\\pi)}$，所以面积和为\r\n$F(x)=\\dfrac{x^2}{16}+\\dfrac{(1-x)^2}{4\\pi}$. 求导得\r\n$F'(x)=\\dfrac{x}{8}-\\dfrac{1-x}{2\\pi}$. 令 $F'(x)=0$，得 $\\pi x=4(1-x)$，即 $x=\\dfrac{4}{\\pi+4}$，且此值属于 $(0,1)$. 又\r\n$F''(x)=\\dfrac18+\\dfrac{1}{2\\pi}>0$，故 $F$ 在该点取得最小值，正方形周长为 $\\dfrac{4}{\\pi+4}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 15,
+          "body": "已知函数 $f(x) = \\cos^4 x - 2 \\sin x \\cos x - \\sin^4 x$.\r\n\r\n\n(1) 求 $f(x)$ 的最小正周期；\n\n(2) 求 $f(x)$ 的最大值，最小值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由平方差公式和二倍角公式，\r\n$f(x)=\\bigl(\\cos^4x-\\sin^4x\\bigr)-2\\sin x\\cos x=(\\cos^2x-\\sin^2x)-\\sin2x=\\cos2x-\\sin2x=\\sqrt2\\cos\\left(2x+\\dfrac\\pi4\\right)$. 若 $T>0$ 是其周期，则 $2T$ 必为余弦函数的周期，即 $2T=2k\\pi$；因此最小的正周期为 $T=\\pi$.\n\n(2) 因为 $-1\\le\\cos(2x+\\frac{\\pi}{4})\\leqslant1$，所以 $-\\sqrt2\\le f(x)\\le\\sqrt2$，且余弦可以取到 $1$ 与 $-1$. 故 $f(x)$ 的最大值为 $\\sqrt2$，最小值为 $-\\sqrt2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "已知数列 $\\{a_n\\}$ 是等差数列，且 $a_1 = 2$，$a_1 + a_2 + a_3 = 12$.\r\n\r\n\n(1) 求数列 $\\{a_n\\}$ 的通项公式；\n\n(2) 令 $b_n = a_n \\cdot 3^n$，求数列 $\\{b_n\\}$ 前 $n$ 项和的公式.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设公差为 $d$. 由等差数列三项和公式，$a_1+a_2+a_3=3a_1+3d=12$，代入 $a_1=2$ 得 $6+3d=12$，所以 $d=2$，从而 $a_n=a_1+(n-1)d=2n$.\n\n(2) 由 $b_k=a_k3^k=2k3^k$，记前 $n$ 项和为 $S_n$，则 $S_n=2\\cdot3+4\\cdot3^2+\\cdots+2n\\cdot3^n$. 两边乘以 $3$，得 $3S_n=2\\cdot3^2+4\\cdot3^3+\\cdots+2(n-1)\\cdot3^n+2n\\cdot3^{n+1}$. 两式相减，得到\r\n\r\n\n$$\n2S_n=2n\\cdot3^{n+1}-2(3+3^2+\\cdots+3^n)=2n\\cdot3^{n+1}-3(3^n-1)=3\\bigl((2n-1)3^n+1\\bigr)\n$$\n\r\n\r\n所以 $S_n=\\dfrac{3}{2}\\bigl((2n-1)3^n+1\\bigr)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "如图，正三棱柱 $ABC - A_1B_1C_1$ 中，$D$ 是 $BC$ 的中点，$AB = a$.\r\n\r\n\n(1) 求证：直线 $A_1D \\perp B_1C_1$；\n\n(2) 求点 $D$ 到平面 $ACC_1$ 的距离；\n\n(3) 判断 $A_1B$ 与平面 $ADC_1$ 的位置关系，并证明你的结论.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2003/img/beijing_liberal_autumn/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $E$ 为 $B_1C_1$ 的中点. 在正三角形 $A_1B_1C_1$ 中，$A_1E\\perp B_1C_1$. 又因 $D$、$E$ 分别为 $BC$、$B_1C_1$ 的中点，且棱柱为直棱柱，所以 $DE\\parallel BB_1\\perp B_1C_1$. 直线 $A_1E$、$DE$ 相交且都在平面 $A_1DE$ 内，故 $B_1C_1\\perp\\text{平面 }A_1DE$，从而 $A_1D\\perp B_1C_1$.\n\n(2) 设 $H$ 为 $D$ 到 $AC$ 的垂足. 因为 $AC\\subset\\text{平面 }ACC_1$，且 $CC_1\\perp\\text{平面 }ABC$，所以 $AC$ 与 $CC_1$ 是平面 $ACC_1$ 内的两条相交直线. 又 $DH\\perp AC$，$DH\\subset\\text{平面 }ABC$，故 $DH\\perp CC_1$，从而 $DH\\perp\\text{平面 }ACC_1$. 在等边三角形 $ABC$ 中，$D$ 是 $BC$ 中点，三角形 $ADC$ 面积为三角形 $ABC$ 面积的一半，故 $DH=\\dfrac{2S_{\\triangle ADC}}{AC}=\\dfrac{\\sqrt3}{4}a$. 这就是所求距离.\n\n(3) 在平行四边形 $ACC_1A_1$ 中，设对角线 $A_1C$ 与 $AC_1$ 交于 $F$，则 $F$ 是 $A_1C$ 的中点. 在三角形 $A_1CB$ 中，$F$，$D$ 分别是 $A_1C$，$CB$ 的中点，所以 $DF\\parallel A_1B$. 又 $DF\\subset\\text{平面 }ADC_1$. 下面说明 $A_1B$ 不在该平面内：若 $A_1$ 在平面 $ADC_1$ 内，则 $AA_1$ 在该平面内；由于 $AA_1\\parallel CC_1$ 且 $C_1$ 在该平面内，点 $C$ 也在该平面内，从而该平面就是底面 $ABC$，这与 $C_1$ 不在底面 $ABC$ 内矛盾. 因此 $A_1B\\parallel\\text{平面 }ADC_1$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，$A_1$，$A_2$ 为椭圆的两个顶点，$F_1$，$F_2$ 为椭圆的两个焦点.\r\n\r\n\n(1) 写出椭圆的方程及准线方程；\n\n(2) 过线段 $OA$ 上异于 $O$，$A$ 的任一点 $K$ 作 $OA$ 的垂线，交椭圆于 $P$，$P_1$ 两点，直线 $A_1P$ 与 $AP_1$ 交于点 $M$. 求证：点 $M$ 在双曲线 $\\frac{x^{2}}{25} - \\frac{y^{2}}{9} = 1$ 上.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2003/img/beijing_liberal_autumn/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由图中顶点 $A_1=(-5,0)$，$A=(5,0)$ 得长半轴 $a=5$，由焦点 $F_1=(-4,0)$，$F_2=(4,0)$ 得焦半距 $c=4$，所以 $b^2=a^2-c^2=25-16=9$. 椭圆方程为 $\\frac{x^2}{25}+\\frac{y^2}{9}=1$，离心率为 $\\frac{4}{5}$，故准线方程为 $x=\\pm \\frac{a}{e}=\\pm\\frac{25}{4}$.\n\n(2) 设 $K=(x_0,0)$，其中 $0<x_0<5$，直线 $x=x_0$ 与椭圆交于 $P=(x_0,y_0)$、$P_1=(x_0,-y_0)$. 直线 $A_1P$、$AP_1$ 的方程分别为 $y=y_0\\frac{(x+5)}{(x_0+5)}$ 与 $y=-y_0\\frac{(x-5)}{(x_0-5)}$. 设交点 $M=(x,y)$，联立两式并约去 $y_0\\ne0$，得 $x=\\frac{25}{x_0}$，再代回得 $y=5\\frac{y_0}{x_0}$. 由 $P$ 在椭圆上，$\\frac{x_0^2}{25}+\\frac{y_0^2}{9}=1$，于是 $\\frac{x^2}{25}-\\frac{y^2}{9}=\\frac{25}{x_0^2}-25\\frac{y_0^2}{(9x_0^2)}=\\frac{25}{x_0^2}(1-\\frac{y_0^2}{9})=\\frac{25}{x_0^2}\\cdot \\frac{x_0^2}{25}=1$. 因此 $M$ 在双曲线 $\\frac{x^2}{25}-\\frac{y^2}{9}=1$ 上.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "有三个新兴城镇，分别位于 $A$，$B$，$C$ 三点处，且 $AB = AC = 13 \\mathrm{~km}$，$BC = 10 \\mathrm{~km}$. 今计划合建一个中心医院，为同时方便三镇，准备建在 $BC$ 的垂直平分线上的 $P$ 点处.（建立坐标系如图）\r\n\r\n\n(1) 若希望点 $P$ 到三镇距离的平方和为最小，点 $P$ 应位于何处？\n\n(2) 若希望点 $P$ 到三镇的最远距离为最小，点 $P$ 应位于何处？\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2003/img/beijing_liberal_autumn/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由 $AB=AC=13$、$B=(-5,0)$、$C=(5,0)$，得 $A=(0,12)$. 设 $P=(0,y)$，则三镇距离的平方和为 $PA^2+PB^2+PC^2=(y-12)^2+(y^2+25)+(y^2+25)=3(y-4)^2+146$. 该式在 $y=4$ 时取得最小值，所以 $P=(0,4)$.\n\n(2) 设 $g(y)$ 为点 $P=(0,y)$ 到三镇的最远距离，则 $g(y)=\\max\\{\\sqrt{y^2+25},|y-12|\\}$. 当 $y\\leqslant12$ 时，比较两者平方：$y^2+25-(12-y)^2=24y-119$. 因而 $y<\\frac{119}{24}$ 时 $g(y)=12-y$，它随 $y$ 增大而减小；$\\frac{119}{24}\\le y\\leqslant12$ 时 $g(y)=\\sqrt{y^2+25}$，它随 $y$ 增大而增大. 当 $y\\geqslant12$ 时，$y^2+25-(y-12)^2=24y-119>0$，仍有 $g(y)=\\sqrt{y^2+25}$，并随 $y$ 增大而增大. 所以最小值在两段交界处取得，即 $P=\\left(0,\\dfrac{119}{24}\\right)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设 $y = f(x)$ 是定义在区间 $[-1,1]$ 上的函数，且满足条件：\r\n\r\n\\begin{circlelist}\r\n\\item $f(-1) = f(1) = 0$；\r\n\\item 对任意的 $u$，$v \\in [-1,1]$，都有 $\\left|f(u) - f(v)\\right| \\le |u - v|$.\r\n\\end{circlelist}\r\n\r\n\n(1) 证明：对任意的 $x \\in [-1,1]$，$x - 1 \\le f(x) \\le 1 - x$；\n\n(2) 判断函数 $g(x) = \\begin{cases}\r\n1 + x,& x \\in [-1,0),\\\\\r\n1 - x,& x \\in [0,1]\r\n\\end{cases}$ 是否满足题设条件；\n\n(3) 在区间 $[-1,1]$ 上是否存在满足题设条件的函数 $y = f(x)$，且使得对任意的 $u$，$v \\in [-1,1]$，都有 $\\left|f(u) - f(v)\\right| = u - v$，若存在，请举一例；若不存在，请说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 取题设不等式中的 $u=x$，$v=1$，由 $f(1)=0$ 得 $|f(x)|=|f(x)-f(1)|\\le|x-1|=1-x$. 因而 $-(1-x)\\le f(x)\\leqslant1-x$，即 $x-1\\le f(x)\\leqslant1-x$.\n\n(2) 先有 $g(-1)=0=g(1)$. 若 $u$，$v\\in[0,1]$，则 $|g(u)-g(v)|=|(1-u)-(1-v)|=|u-v|$；若 $u$，$v\\in[-1,0)$，则 $|g(u)-g(v)|=|(1+u)-(1+v)|=|u-v|$. 不妨设 $u\\in[-1,0)$，$v\\in[0,1]$，则 $|g(u)-g(v)|=|u+v|$，而 $u\\leqslant0\\le v$ 时 $(v-u)^2-(u+v)^2=-4uv\\geqslant0$，故 $|u+v|\\le v-u=|u-v|$. 因此 $g$ 满足题设条件.\n\n(3) 不存在. 若存在这样的函数，取 $u=-1$，$v=1$，则题设等式给出 $|f(-1)-f(1)|=-2$. 左边等于 $0$，右边等于 $-2$，矛盾，所以不存在.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

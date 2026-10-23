@@ -1,0 +1,416 @@
+{
+  "year": "2004",
+  "slug": "chongqing_liberal",
+  "title": "2004年重庆卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "函数 $y = \\sqrt{\\log_{\\frac{1}{2}}(3x - 2)}$ 的定义域是（ ）",
+          "choices": [
+            "$[1, +\\infty)$",
+            "$\\left(\\frac{2}{3}, +\\infty\\right)$",
+            "$\\left[\\frac{2}{3}, 1\\right]$",
+            "$\\left(\\frac{2}{3}, 1\\right]$"
+          ],
+          "answer": "D",
+          "solution": "要使根式有意义，必须满足 $\\log_{\\frac{1}{2}}(3x-2)\\geqslant0$. 因为对数的真数还需为正，且底数 $\\frac{1}{2}$ 小于 $1$，所以 $0<3x-2\\leqslant1$.\r\n解得 $\\frac{2}{3}<x\\leqslant1$，故定义域为 $\\left(\\frac{2}{3},1\\right]$，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "函数 $f(x) = \\frac{x^2 - 1}{x^2 + 1}$，则 $\\frac{f(2)}{f\\left(\\frac{1}{2}\\right)} =$（ ）",
+          "choices": [
+            "$1$",
+            "$-1$",
+            "$\\frac{3}{5}$",
+            "$-\\frac{3}{5}$"
+          ],
+          "answer": "B",
+          "solution": "代入得 $f(2)=\\frac{2^2-1}{2^2+1}=\\frac{3}{5}$，$f\\left(\\frac{1}{2}\\right)=\\frac{\\frac{1}{4}-1}{\\frac{1}{4}+1}=-\\frac{3}{5}$. 因此 $\\frac{f(2)}{f\\left(\\frac{1}{2}\\right)}=\\frac{\\frac{3}{5}}{-\\frac{3}{5}}=-1$，\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "圆 $x^{2} + y^{2} - 2x + 4y + 3 = 0$ 的圆心到直线 $x - y = 1$ 的距离为（ ）",
+          "choices": [
+            "$2$",
+            "$\\frac{\\sqrt{2}}{2}$",
+            "$1$",
+            "$\\sqrt{2}$"
+          ],
+          "answer": "D",
+          "solution": "将圆的方程配方，得 $(x-1)^2+(y+2)^2=2$，所以圆心为 $C(1,-2)$. 圆心到直线 $x-y=1$，即 $x-y-1=0$ 的距离为 $\\frac{|1-(-2)-1|}{\\sqrt{1^2+(-1)^2}}=\\frac{2}{\\sqrt{2}}=\\sqrt{2}$，\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "不等式 $x + \\frac{2}{x + 1} > 2$ 的解集是（ ）",
+          "choices": [
+            "$(-1,0)\\cup (1, + \\infty)$",
+            "$(-\\infty, -1) \\cup (0, 1)$",
+            "$(-1,0)\\cup (0,1)$",
+            "$(-\\infty, -1) \\cup (1, + \\infty)$"
+          ],
+          "answer": "A",
+          "solution": "原不等式的定义域为 $x\\neq-1$. 移项通分，得 $x+\\frac{2}{x+1}-2=\\frac{x(x-1)}{x+1}>0$. 分式的分界点为 $-1$、$0$、$1$，将数轴分成四个区间：在 $(- \\infty,-1)$ 上分子为正、分母为负，分式为负；在 $(-1,0)$ 上分子、分母均为正，分式为正；在 $(0,1)$ 上分子为负、分母为正，分式为负；在 $(1,+\\infty)$ 上分子、分母均为正，分式为正. 又因不等式为严格不等式，$x=0$、$x=1$ 不取，且 $-1$ 不在定义域内，所以解集为 $(-1,0)\\cup(1,+\\infty)$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "$\\sin 163^{\\circ}\\sin 223^{\\circ} + \\sin 253^{\\circ}\\sin 313^{\\circ} =$（ ）",
+          "choices": [
+            "$-\\frac{1}{2}$",
+            "$\\frac{1}{2}$",
+            "$-\\frac{\\sqrt{3}}{2}$",
+            "$\\frac{\\sqrt{3}}{2}$"
+          ],
+          "answer": "B",
+          "solution": "利用积化和差公式，原式为 $\\frac{1}{2}\\left(\\cos60^\\circ-\\cos386^\\circ\\right)+\\frac{1}{2}\\left(\\cos60^\\circ-\\cos566^\\circ\\right)$. 又 $\\cos386^\\circ=\\cos26^\\circ$，$\\cos566^\\circ=\\cos206^\\circ=-\\cos26^\\circ$，所以原式为 $\\frac{1}{2}\\left(\\frac{1}{2}-\\cos26^\\circ\\right)+\\frac{1}{2}\\left(\\frac{1}{2}+\\cos26^\\circ\\right)=\\frac{1}{2}$，\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "若向量 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $60^{\\circ}$，$\\left|\\mathbf{b}\\right| = 4$，$\\left(\\mathbf{a} + 2\\mathbf{b}\\right) \\cdot \\left(\\mathbf{a} - 3\\mathbf{b}\\right) = -72$，则向量 $\\mathbf{a}$ 的模为（ ）",
+          "choices": [
+            "$2$",
+            "$4$",
+            "$6$",
+            "$12$"
+          ],
+          "answer": "C",
+          "solution": "设 $\\left|\\mathbf{a}\\right|=t$，则 $\\mathbf{a}\\cdot\\mathbf{b}=\\left|\\mathbf{a}\\right|\\left|\\mathbf{b}\\right|\\cos60^\\circ=2t$. 将已知等式左边展开，得 $(\\mathbf{a}+2\\mathbf{b})\\cdot(\\mathbf{a}-3\\mathbf{b})=|\\mathbf{a}|^2-\\mathbf{a}\\cdot\\mathbf{b}-6|\\mathbf{b}|^2=t^2-2t-96$. 因此 $t^2-2t-96=-72$，即 $t^2-2t-24=0$，\r\n解得 $t=6$ 或 $t=-4$. 因为模非负，所以 $t=6$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知 $p$ 是 $r$ 的充分不必要条件，$s$ 是 $r$ 的必要条件，$q$ 是 $s$ 的必要条件，那么 $p$ 是 $q$ 成立的（ ）",
+          "choices": [
+            "充分不必要条件",
+            "必要不充分条件",
+            "充要条件",
+            "既不充分也不必要条件"
+          ],
+          "answer": "A",
+          "solution": "由“$p$ 是 $r$ 的充分不必要条件”知 $p\\Rightarrow r$，且 $r$ 不推出 $p$. 由“$s$ 是 $r$ 的必要条件”知 $r\\Rightarrow s$，由“$q$ 是 $s$ 的必要条件”知 $s\\Rightarrow q$. 因而\r\n$p\\Rightarrow r\\Rightarrow s\\Rightarrow q$.\r\n所以 $p$ 是 $q$ 的充分条件. 又存在 $r$ 成立而 $p$ 不成立的情形，此时由 $r\\Rightarrow s\\Rightarrow q$ 可知 $q$ 成立而 $p$ 不成立，因此 $p$ 不是 $q$ 的必要条件. 故 $p$ 是 $q$ 成立的充分不必要条件，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "不同直线 $m$，$n$ 和不同平面 $\\alpha$，$\\beta$，给出下列命题：\r\n\r\n\\begin{circlelist}\r\n\\item $\\begin{cases}\r\n\\alpha&\\parallel\\beta,\\\\\r\nm&\\subset\\alpha,\r\n\\end{cases}\\Rightarrow m\\parallel\\beta$；\r\n\\item $\\begin{cases}\r\nm&\\parallel n,\\\\\r\nm&\\parallel\\beta,\r\n\\end{cases}\\Rightarrow n\\parallel\\beta$；\r\n\\item $\\begin{cases}\r\nm&\\subset\\alpha,\\\\\r\nn&\\subset\\beta,\r\n\\end{cases}\\Rightarrow m$，$n$ 异面；\r\n\\item $\\begin{cases}\r\n\\alpha&\\perp\\beta,\\\\\r\nm&\\parallel\\alpha,\r\n\\end{cases}\\Rightarrow m\\perp\\beta$.\r\n\\end{circlelist}\r\n\r\n其中假命题有（ ）",
+          "choices": [
+            "$0$ 个",
+            "$1$ 个",
+            "$2$ 个",
+            "$3$ 个"
+          ],
+          "answer": "D",
+          "solution": "第一个命题正确. 因为 $\\alpha\\parallel\\beta$，平面 $\\alpha$ 内的任意直线都不与平面 $\\beta$ 相交；又 $m\\subset\\alpha$，所以 $m\\parallel\\beta$.\r\n\r\n第二个命题不一定正确. 在平面 $\\beta$ 内取一条直线 $n$，在与 $\\beta$ 平行的另一平面内取一条与 $n$ 平行的直线 $m$. 则 $m\\parallel n$ 且 $m\\parallel\\beta$，但 $n\\subset\\beta$，按直线与平面平行的定义，$n$ 不平行于 $\\beta$. 因而第二个命题是假命题.\r\n\r\n第三个命题不一定正确. 若 $\\alpha$ 与 $\\beta$ 相交，设交线为 $l$，在 $\\alpha$ 和 $\\beta$ 内分别取经过 $l$ 上同一点的两条不同直线 $m$、$n$，则 $m$ 与 $n$ 相交，不是异面直线. 因而第三个命题是假命题.\r\n\r\n第四个命题不一定正确. 设 $l=\\alpha\\cap\\beta$，取一条与 $l$ 平行且不在 $\\alpha$ 内的直线 $m$. 由于 $l\\subset\\alpha$，有 $m\\parallel\\alpha$；但 $m$ 的方向与平面 $\\beta$ 内的直线 $l$ 平行，且可取为不与 $\\beta$ 相交，所以不可能垂直于平面 $\\beta$. 因而第四个命题是假命题.\r\n\r\n所以假命题有 3 个，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "若数列 $\\{a_{n}\\}$ 是等差数列，首项 $a_{1}>0$，$a_{2003}+a_{2004}>0$，$a_{2003}\\cdot a_{2004}<0$，则使前 $n$ 项和 $S_{n}>0$ 成立的最大自然数 $n$ 是（ ）",
+          "choices": [
+            "$4005$",
+            "$4006$",
+            "$4007$",
+            "$4008$"
+          ],
+          "answer": "B",
+          "solution": "若 $a_{2003}<0<a_{2004}$，则公差 $d=a_{2004}-a_{2003}>0$，从而 $a_1=a_{2003}-2002d<0$，与 $a_1>0$ 矛盾. 因此 $a_{2003}>0>a_{2004}$. 结合 $a_{2003}a_{2004}<0$ 和 $a_{2003}+a_{2004}>0$，设\r\n$a_{2003}=u>0$，$a_{2004}=-v<0$\r\n其中 $u>v>0$. 设等差数列的公差为 $d$，则\r\n\n$$\nd=a_{2004}-a_{2003}=-(u+v)\n$$\n\r\n并且\r\n\n$$\na_1=a_{2003}-2002d=2003u+2002v\n$$\n\r\n等差数列前 $n$ 项和为\r\n\n$$\nS_n=\\frac{n}{2}(a_1+a_n)\n$$\n\r\n因为 $n>0$，所以\r\n\n$$\nS_n>0\\Longleftrightarrow a_1+a_n>0\\Longleftrightarrow 2a_1+(n-1)d>0\n$$\n\r\n代入 $a_1$ 和 $d$，得\r\n\n$$\nn-1<\\frac{2(2003u+2002v)}{u+v}=4004+\\frac{2u}{u+v}\n$$\n\r\n由 $u>v>0$ 知 $\\frac{1}{2}<\\frac{u}{u+v}<1$，从而\r\n\n$$\n4005<\\frac{2(2003u+2002v)}{u+v}<4006\n$$\n\r\n因此满足不等式的最大整数 $n-1$ 为 $4005$，故 $n$ 的最大值为 $4006$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知双曲线 $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$（$a > 0$，$b > 0$）的左，右焦点分别为 $F_1$，$F_2$，点 $P$ 在双曲线的右支上，且 $|PF_1| = 4|PF_2|$. 则双曲线的离心率 $e$ 的最大值为（ ）",
+          "choices": [
+            "$\\frac{4}{3}$",
+            "$\\frac{5}{3}$",
+            "$2$",
+            "$\\frac{7}{3}$"
+          ],
+          "answer": "B",
+          "solution": "设双曲线的半焦距为 $c$，则离心率 $e=\\frac{c}{a}$. 对双曲线右支上的点 $P$，有双曲线的焦点性质\r\n\n$$\n|PF_1|-|PF_2|=2a\n$$\n\r\n结合 $|PF_1|=4|PF_2|$，得\r\n$3|PF_2|=2a$，$|PF_2|=\\frac{2a}{3}$.\r\n右支上的点可写为 $P=(x,y)$，其中 $x\\ge a$，且\r\n\n$$\ny^2=\\frac{b^2}{a^2}(x^2-a^2)\n$$\n\r\n因此\r\n\n$$\n|PF_2|^2=(x-c)^2+y^2=\\frac{c^2}{a^2}x^2-2cx+a^2=\\left(\\frac{cx}{a}-a\\right)^2\n$$\n\r\n由于 $x\\ge a$ 且 $c>a$，有 $|PF_2|=\\frac{cx}{a}-a\\ge c-a$，等号当且仅当 $P$ 为右顶点. 所以\r\n\n$$\nc-a\\le\\frac{2a}{3}\n$$\n\r\n即 $c\\le\\frac{5a}{3}$. 因而\r\n\n$$\ne=\\frac{c}{a}\\le\\frac{5}{3}\n$$\n\r\n当 $P$ 取右顶点且 $c=\\frac{5a}{3}$ 时，$|PF_2|=c-a=\\frac{2a}{3}$，$|PF_1|=c+a=\\frac{8a}{3}=4|PF_2|$，题设条件确实成立，所以等号可以取得，离心率的最大值为 $\\frac{5}{3}$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "已知盒中装有 $3$ 只螺口与 $7$ 只卡口灯泡，这些灯泡的外形与功率都相同且灯口向下放着，现需要一只卡口灯泡使用，电工师傅每次从中任取一只并不放回，则他直到第 $3$ 次才取得卡口灯泡的概率为（ ）",
+          "choices": [
+            "$\\frac{21}{40}$",
+            "$\\frac{17}{40}$",
+            "$\\frac{3}{10}$",
+            "$\\frac{7}{120}$"
+          ],
+          "answer": "D",
+          "solution": "要使第 3 次取到卡口灯泡，前两次必须取到螺口灯泡，且第 3 次取到卡口灯泡. 因此所求概率为\r\n\n$$\n\\frac{3}{10}\\cdot\\frac{2}{9}\\cdot\\frac{7}{8}=\\frac{7}{120}\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "如图，棱长为 $5$ 的正方体无论从哪一个面看，都有两个直通的边长为 $1$ 的正方形孔. 则这个有孔正方体的表面积（含孔内各面）是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/chongqing_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$258$",
+            "$234$",
+            "$222$",
+            "$210$"
+          ],
+          "answer": "C",
+          "solution": "正方体六个外表面上各有两个边长为 $1$ 的正方形孔口，所以外表面实际保留的面积为\r\n\n$$\nS_{\\text{外}}=6\\left(5^2-2\\cdot1^2\\right)=138\n$$\n\r\n六个直通孔可看成六条长为 $5$、截面为边长 $1$ 的正方形通道，每条通道沿长度方向由五个单位小立方体组成. 由图可知，每条通道有两个位置与其他通道相交；六条通道的交会次数按两个通道共用一个交会小立方体计算，因此共有 $6\\times2\\div2=6$ 个交会小立方体. 除去这些交会位置后，每条通道还有三个不交会的小立方体，每个贡献四个单位内壁面，所以这部分面积为 $6\\times3\\times4=72$. 每个交会小立方体由两条互相垂直的孔道共用，按图中实际边界计数只留下两个单位内壁面，故交会处的面积为 $6\\times2=12$. 因而孔内各面的总面积为 $S_{\\text{内}}=72+12=84$.\r\n\r\n所以有孔正方体的表面积为 $S=S_{\\text{外}}+S_{\\text{内}}=138+84=222$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "若在 $(1 + a x)^5$ 的展开式中 $x^3$ 的系数为 $-80$，则 $a=$ _______ {}.",
+          "choices": [],
+          "answer": "\\(-2\\)",
+          "solution": "由二项式定理，$(1+ax)^5$ 中 $x^3$ 的系数为 $\\mathrm C_5^3a^3=10a^3$. 因此 $10a^3=-80$，即 $a^3=-8$，所以 $a=-2$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "已知 $\\frac{5}{x} + \\frac{3}{y} = 2$（$x > 0$，$y > 0$），则 $xy$ 的最小值是 _______ {}.",
+          "choices": [],
+          "answer": "\\(15\\)",
+          "solution": "令 $u=\\frac{5}{x}$，$v=\\frac{3}{y}$，则 $u>0$，$v>0$，且 $u+v=2$. 由 $(u-v)^2\\geqslant0$，得 $uv\\leqslant1$. 又 $xy=\\frac{15}{uv}$，所以 $xy\\geqslant15$. 当且仅当 $u=v=1$，即 $x=5$，$y=3$ 时取等号，故 $xy$ 的最小值为 $15$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "已知曲线 $y = \\frac{1}{3} x^3 + \\frac{4}{3}$，则过点 $P(2,4)$ 的切线方程是 _______ {}.",
+          "choices": [],
+          "answer": "\\(y-4x+4=0\\)",
+          "solution": "对曲线方程求导，得 $y'=x^2$. 在点 $P(2,4)$ 处，切线斜率为 $2^2=4$，因而切线方程为 $y-4=4(x-2)$，整理得 $y-4x+4=0$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "毛泽东在《送瘟神》中写到：“坐地日行八万里”. 又知地球的体积大约是火星的 $8$ 倍，则火星的大圆周长约 _______ {}$\\text{万里}$.",
+          "choices": [],
+          "answer": "\\(4\\)",
+          "solution": "设地球和火星的半径分别为 $R$ 和 $r$. 由球的体积公式及题意，得 $\\frac{4}{3}\\pi R^3=8\\cdot\\frac{4}{3}\\pi r^3$，所以 $R^3=8r^3$，从而 $R=2r$. 因此地球与火星的大圆周长之比为 $\\frac{2\\pi R}{2\\pi r}=2$. 地球大圆周长约为八万里，所以火星大圆周长约为 $8\\div2=4$$\\text{万里}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "求函数 $y = \\sin^4 x + 2\\sqrt{3}\\sin x\\cos x - \\cos^4 x$ 的最小正周期和最小值；并写出该函数在 $[0, \\pi]$ 上的单调递增区间.",
+          "choices": [],
+          "answer": "",
+          "solution": "利用 $\\sin^4x-\\cos^4x=(\\sin^2x-\\cos^2x)(\\sin^2x+\\cos^2x)=-\\cos2x$，以及 $2\\sin x\\cos x=\\sin2x$，得\r\n\n$$\ny=\\sqrt{3}\\sin2x-\\cos2x=2\\sin\\left(2x-\\frac{\\pi}{6}\\right)\n$$\n\r\n由于正弦函数的最小正周期为 $2\\pi$，而自变量的系数为 $2$，所以函数的最小正周期为 $\\pi$，最小值为 $-2$.\r\n\r\n函数的导数为 $y'=2\\sqrt{3}\\cos2x+2\\sin2x=4\\cos\\left(2x-\\frac{\\pi}{6}\\right)$. 当 $x\\in[0,\\pi]$ 时，$y'>0$ 的区间为 $0<x<\\frac{\\pi}{3}$ 或 $\\frac{5\\pi}{6}<x<\\pi$，所以函数在 $[0,\\frac{\\pi}{3}]$ 和 $[\\frac{5\\pi}{6},\\pi]$ 上单调递增.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "设甲，乙，丙三人每次射击命中目标的概率分别为 $0.7$，$0.6$ 和 $0.5$.\r\n\r\n\n(1) 三人各向目标射击一次，求至少有一人命中目标的概率及恰有两人命中目标的概率；\n\n(2) 若甲单独向目标射击三次，求他恰好命中两次的概率.",
+          "choices": [],
+          "answer": "",
+          "solution": "由于三人的射击相互独立，且甲、乙、丙每次命中的概率分别为 $0.7$、$0.6$、$0.5$，未命中的概率分别为 $0.3$、$0.4$、$0.5$.\r\n\r\n\n(1) 三人都没有命中的概率为 $(1-0.7)(1-0.6)(1-0.5)=0.3\\times0.4\\times0.5=0.06$，所以至少有一人命中的概率为 $1-0.06=0.94$. 恰有两人命中的概率为\r\n$0.7\\times0.6\\times0.5+0.7\\times0.4\\times0.5+0.3\\times0.6\\times0.5=0.21+0.14+0.09=0.44$.\n\n(2) 甲每次命中的概率为 $0.7$，未命中的概率为 $0.3$. 三次射击中恰好命中两次的概率为 $\\mathrm C_3^2(0.7)^2(0.3)=0.441$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，四棱锥 $P - ABCD$ 的底面是正方形，$PA \\perp$ 底面 $ABCD$，$AE \\perp PD$，$EF \\parallel CD$，$AM = EF$.\r\n\r\n\n(1) 证明：$MF$ 是异面直线 $AB$ 与 $PC$ 的公垂线；\n\n(2) 若 $PA = 3AB$，求直线 $AC$ 与平面 $EAM$ 所成角的正弦值.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/chongqing_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "由图可知 $E\\in PD$，$F\\in PC$，$M\\in AB$. 因为底面 $ABCD$ 是正方形，所以 $AB\\parallel CD$，从而 $AM\\parallel EF$. 又已知 $AM=EF$，故四边形 $AMFE$ 是平行四边形，于是 $MF\\parallel AE$.\r\n\r\n由 $PA\\perp$ 平面 $ABCD$，且 $AB\\perp AD$，得 $AB\\perp$ 平面 $PAD$，所以 $AB\\perp AE$，进而 $AB\\perp MF$. 另外，$DC\\parallel AB$，故 $AE\\perp DC$. 已知 $AE\\perp PD$，而 $PD$ 与 $DC$ 是平面 $PCD$ 内相交的两条直线，所以 $AE\\perp$ 平面 $PCD$，从而 $AE\\perp PC$. 由 $MF\\parallel AE$，得 $MF\\perp PC$. 因此，$MF$ 是异面直线 $AB$ 与 $PC$ 的公垂线.\r\n\r\n设正方形边长 $AB=a$，则 $PA=3a$. 建立直角坐标系，取 $A$ 为原点，$AB$、$AD$、$AP$ 分别为三个坐标轴正方向，则\r\n$A=(0,0,0)$，$B=(a,0,0)$，$D=(0,a,0)$，$C=(a,a,0)$，$P=(0,0,3a)$.\r\n\r\n设 $E=P+t(D-P)=(0,ta,3a(1-t))$. 由 $AE\\perp PD$，得\r\n\n$$\n\\overrightarrow{AE}\\cdot\\overrightarrow{PD}=(0,ta,3a(1-t))\\cdot(0,a,-3a)=0\n$$\n\r\n即 $t-9(1-t)=0$，所以 $t=\\frac9{10}$. 因而 $E=(0,\\frac{9a}{10},\\frac{3a}{10})$.\r\n\r\n再设 $F\\in PC$. 由于 $EF\\parallel CD$，可写 $F=P+s(C-P)=(sa,sa,3a(1-s))$. 比较 $E$、$F$ 的纵坐标，得 $s=t=\\frac9{10}$，从而 $EF=sa=ta=\\frac{9a}{10}$. 由 $AM=EF$ 且 $M\\in AB$，得 $M=(\\frac{9a}{10},0,0)$.\r\n\r\n平面 $EAM$ 由向量 $\\overrightarrow{AM}=(\\frac{9a}{10},0,0)$ 和 $\\overrightarrow{AE}=(0,\\frac{9a}{10},\\frac{3a}{10})$ 确定，因此它的一个法向量可取 $\\mathbf{n}=(0,-1,3)$. 又 $\\overrightarrow{AC}=(a,a,0)$，设直线 $AC$ 与平面 $EAM$ 所成的角为 $\\theta$，则\r\n\n$$\n\\sin\\theta=\\frac{\\left|\\overrightarrow{AC}\\cdot\\mathbf{n}\\right|}{\\left|\\overrightarrow{AC}\\right|\\left|\\mathbf{n}\\right|}=\\frac{a}{a\\sqrt{2}\\cdot\\sqrt{10}}=\\frac{\\sqrt{5}}{10}\n$$\n\r\n故所求正弦值为 $\\frac{\\sqrt{5}}{10}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "某工厂生产某种产品，已知该产品的月生产量 $x$（$\\text{吨}$）与每吨产品的价格 $p$（$\\text{元}/\\text{吨}$）之间的关系式为：$p = 24200 - \\frac{1}{5} x^2$，且生产 $x\\text{ 吨}$ 的成本为 $R = 50000 + 200x$（$\\text{元}$）. 问该产品每月生产多少吨产品才能使利润达到最大？最大利润是多少？（利润 $=$ 收入-成本）",
+          "choices": [],
+          "answer": "",
+          "solution": "设月利润为 $\\Pi(x)$，则月收入为 $xp=24200x-\\frac15x^3$，所以\r\n\n$$\n\\Pi(x)=24200x-\\frac15x^3-(50000+200x)=-\\frac15x^3+24000x-50000\n$$\n\r\n其中 $x\\geqslant0$. 求导得 $\\Pi'(x)=24000-\\frac35x^2$. 当 $0\\le x<200$ 时，$\\Pi'(x)>0$；当 $x>200$ 时，$\\Pi'(x)<0$，所以 $x=200$ 时利润最大.\r\n\r\n此时 $\\Pi(200)=-\\frac15\\times200^3+24000\\times200-50000=3150000$. 因此，每月生产 $200\\text{ 吨}$ 时利润达到最大，最大利润为 $3150000\\text{ 元}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "设 $p > 0$ 是一常数，过点 $Q(2p,0)$ 的直线与抛物线 $y^{2} = 2px$ 交于相异两点 $A$，$B$，以线段 $AB$ 为直径作圆 $H$（$H$ 为圆心）. 试证抛物线顶点在圆 $H$ 的圆周上，并求圆 $H$ 的面积最小时直线 $AB$ 的方程.",
+          "choices": [],
+          "answer": "",
+          "solution": "记抛物线顶点为 $O$. 因为 $x$ 轴 $y=0$ 与抛物线只交于顶点 $O$，不能与抛物线交于相异两点，所以所取直线不是 $x$ 轴，可设其方程为 $x=2p+\\lambda y$. 设它与抛物线的交点为 $A=(x_1,y_1)$、$B=(x_2,y_2)$，则 $y_1$，$y_2$ 是方程\r\n\n$$\ny^2-2p\\lambda y-4p^2=0\n$$\n\r\n的两个不相等的实根. 因而 $y_1+y_2=2p\\lambda$，$y_1y_2=-4p^2$，且 $x_i=2p+\\lambda y_i$.\r\n\r\n于是\r\n\n$$\nx_1x_2=(2p+\\lambda y_1)(2p+\\lambda y_2)=4p^2+2p\\lambda(y_1+y_2)+\\lambda^2y_1y_2=4p^2\n$$\n\r\n所以 $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=x_1x_2+y_1y_2=0$，由勾股定理的逆定理，$OA\\perp OB$. 因此顶点 $O$ 在以 $AB$ 为直径的圆 $H$ 上.\r\n\r\n又由根的差的平方等于判别式，得 $(y_1-y_2)^2=4p^2(\\lambda^2+4)$. 因为 $x_1-x_2=\\lambda(y_1-y_2)$，所以\r\n\n$$\nAB^2=(x_1-x_2)^2+(y_1-y_2)^2=4p^2(\\lambda^2+1)(\\lambda^2+4)\n$$\n\r\n圆 $H$ 的半径为 $A\\frac{B}{2}$，故其面积为\r\n\n$$\nS=\\pi\\left(\\frac{AB}{2}\\right)^2=\\pi p^2(\\lambda^2+1)(\\lambda^2+4)\n$$\n\r\n令 $u=\\lambda^2\\geqslant0$，则 $(u+1)(u+4)=u^2+5u+4\\geqslant4$，等号当且仅当 $u=0$，即 $\\lambda=0$. 此时直线 $AB$ 的方程为 $x=2p$，圆 $H$ 的面积最小.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "设数列 $\\{a_n\\}$ 满足：$a_1 = 2$，$a_2 = \\frac{5}{3}$，$a_{n+2} = \\frac{5}{3} a_{n+1} + \\frac{1}{3} a_n$（$n = 1$，$2$，$\\cdots$）.\r\n\r\n\n(1) 令 $b_n = a_{n+1} - a_n$（$n = 1$，$2$，$\\cdots$），求数列 $\\{b_n\\}$ 的通项公式；\n\n(2) 求数列 $\\{na_n\\}$ 的前 $n$ 项和 $S_n$.",
+          "choices": [],
+          "answer": "",
+          "solution": "设特征方程为 $r^2-\\frac53r-\\frac13=0$，其两个根为\r\n$\\alpha=\\frac{5+\\sqrt{37}}{6}$，$\\beta=\\frac{5-\\sqrt{37}}{6}$.\r\n由 $\\alpha+\\beta=\\frac53$、$\\alpha\\beta=-\\frac13$，以及初值 $a_1=2=1+1$、$a_2=\\frac53=\\alpha+\\beta$，可得\r\n\n$$\na_n=\\alpha^{n-1}+\\beta^{n-1}\n$$\n\r\n\r\n\n(1) 由 $b_n=a_{n+1}-a_n$，得\r\n\n$$\nb_n=(\\alpha-1)\\alpha^{n-1}+(\\beta-1)\\beta^{n-1}=\\frac{\\sqrt{37}-1}{6}\\left(\\frac{5+\\sqrt{37}}{6}\\right)^{n-1}-\\frac{\\sqrt{37}+1}{6}\\left(\\frac{5-\\sqrt{37}}{6}\\right)^{n-1}\n$$\n\n(2) 由上式，\r\n\n$$\nS_n=\\sum_{k=1}^{n}ka_k=\\sum_{k=1}^{n}k\\left(\\alpha^{k-1}+\\beta^{k-1}\\right)\n$$\n\r\n对任意 $r\\ne1$，由等比数列求和公式求导可得\r\n\n$$\n\\sum_{k=1}^{n}kr^{k-1}=\\frac{\\mathrm d}{\\mathrm dr}\\left(\\frac{1-r^{n+1}}{1-r}\\right)=\\frac{1-(n+1)r^n+nr^{n+1}}{(1-r)^2}\n$$\n\r\n因此\r\n\n$$\nS_n=\\frac{1-(n+1)\\alpha^n+n\\alpha^{n+1}}{(1-\\alpha)^2}+\\frac{1-(n+1)\\beta^n+n\\beta^{n+1}}{(1-\\beta)^2}\n$$\n\r\n其中 $\\alpha=\\frac{5+\\sqrt{37}}{6}$，$\\beta=\\frac{5-\\sqrt{37}}{6}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "year": "1981",
+  "slug": "national_liberal",
+  "title": "1981年全国卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设 $A$ 表示有理数的集合，$B$ 表示无理数的集合，即设 $A = \\{\\text{有理数}\\}$，$B = \\{\\text{无理数}\\}$，试写出：\r\n\r\n\n(1) $A \\cup B$；\n\n(2) $A \\cap B$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 任意实数或者是有理数，或者是无理数，因此 $A\\cup B$ 包含全体实数；反过来，$A$ 和 $B$ 都是实数的子集，所以 $A\\cup B$ 不包含实数以外的数. 故 $A\\cup B=\\mathbb{R}$.\n\n(2) 一个数不可能同时是有理数和无理数，因此 $A$ 与 $B$ 没有公共元素. 故 $A\\cap B=\\varnothing$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "化简： $\\left[-\\frac{a^7b^2}{\\sqrt{3}(a+b)^2}\\right]^2\\times \\left[\\frac{a^2-b^2}{a^2\\sqrt{b}}\\right]^4\\div \\left[\\frac{a^2(b-a)}{2}\\right]^3$.",
+          "choices": [],
+          "answer": "",
+          "solution": "原式有意义时，需满足 $b>0$、$a\\ne0$、$a+b\\ne0$ 且 $a\\ne b$. 先分别化简各因式，得\r\n$\\left[-\\frac{a^7b^2}{\\sqrt{3}(a+b)^2}\\right]^2=\\frac{a^{14}b^4}{3(a+b)^4}$，$\\left[\\frac{a^2-b^2}{a^2\\sqrt b}\\right]^4=\\frac{(a^2-b^2)^4}{a^8b^2}$\r\n以及\r\n\n$$\n\\left[\\frac{a^2(b-a)}{2}\\right]^3=\\frac{a^6(b-a)^3}{8}\n$$\n\r\n所以原式\r\n\n$$\n=\\frac{a^{14}b^4}{3(a+b)^4}\\cdot\\frac{(a^2-b^2)^4}{a^8b^2}\\cdot\\frac{8}{a^6(b-a)^3}\r\n=\\frac{8b^2(a^2-b^2)^4}{3(a+b)^4(b-a)^3}\n$$\n\r\n由 $a^2-b^2=(a-b)(a+b)=-(b-a)(a+b)$，有\r\n\n$$\n(a^2-b^2)^4=(b-a)^4(a+b)^4\n$$\n\r\n约去非零因式后，原式 $=\\dfrac{8}{3}(b-a)b^2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "在 A，B，C，D 四位候选人中，\r\n\r\n\n(1) 如果选举正，副班长各 $1\\text{ 人}$，共有几种选法？写出所有可能的选举结果；\n\n(2) 如果选举班委 $3\\text{ 人}$，共有几种选法？写出所有可能的选举结果.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 正班长有 $4$ 种选法；正班长确定后，副班长有 $3$ 种选法. 因此选法种数为\r\n\n$$\n4\\times3=12\n$$\n\r\n以下把两个字母依次记为正班长和副班长，所有可能的选举结果为 AB、AC、AD、BA、BC、BD、CA、CB、CD、DA、DB、DC.\n\n(2) 只需从四位候选人中选出三人，先不区分三人的顺序，因此选法种数为\r\n\n$$\n\\mathrm C_4^3=\\frac{4\\times3\\times2}{3\\times2\\times1}=4\n$$\n\r\n所有可能的选举结果为 ABC、ABD、ACD、BCD.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "求函数 $f(x)=\\sin x+\\cos x$ 在区间 $(-\\pi,\\pi)$ 上的最大值.",
+          "choices": [],
+          "answer": "",
+          "solution": "由三角函数的和角公式，\r\n\n$$\nf(x)=\\sin x+\\cos x=\\sqrt{2}\\sin\\left(x+\\frac{\\pi}{4}\\right)\n$$\n\r\n因为正弦函数的值不超过 $1$，所以对区间内任意 $x$，都有 $f(x)\\le\\sqrt{2}$. 当 $x=\\dfrac{\\pi}{4}$ 时，$x\\in(-\\pi,\\pi)$，且\r\n\n$$\nf\\left(\\frac{\\pi}{4}\\right)=\\sin\\frac{\\pi}{4}+\\cos\\frac{\\pi}{4}=\\sqrt{2}\n$$\n\r\n因此，函数在给定区间上的最大值为 $\\sqrt{2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "写出正弦定理，并对钝角三角形的情况加以证明.",
+          "choices": [],
+          "answer": "",
+          "solution": "在 $\\triangle ABC$ 中，记 $BC=a$、$CA=b$、$AB=c$，则正弦定理为\r\n\n$$\n\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}\n$$\n\r\n\r\n不妨设钝角为 $C$，即 $C>\\dfrac{\\pi}{2}$. 从点 $A$ 向直线 $BC$ 作垂线，垂足为 $D$；从点 $B$ 向直线 $AC$ 作垂线，垂足为 $E$. 因为 $C$ 是钝角，$D$ 在射线 $CB$ 的反向延长线上，$E$ 在射线 $CA$ 的反向延长线上.\r\n\r\n在直角三角形 $ACD$ 和 $ABD$ 中，分别有\r\n$AD=b\\sin(\\pi-C)=b\\sin C$，$AD=c\\sin B$.\r\n于是\r\n\n$$\n\\frac{b}{\\sin B}=\\frac{c}{\\sin C}\n$$\n\r\n又在直角三角形 $ABE$ 和 $BCE$ 中，分别有\r\n$BE=c\\sin A$，$BE=a\\sin(\\pi-C)=a\\sin C$.\r\n于是\r\n\n$$\n\\frac{a}{\\sin A}=\\frac{c}{\\sin C}\n$$\n\r\n合并两式，即得\r\n\n$$\n\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "已知正方形 $ABCD$ 的相对顶点 $A(0,-1)$ 和 $C(2,5)$，求顶点 $B$ 和 $D$ 的坐标.",
+          "choices": [],
+          "answer": "",
+          "solution": "设正方形两条对角线的交点为 $O$. 因为对角线互相平分，\r\n\n$$\nO=\\left(\\frac{0+2}{2},\\frac{-1+5}{2}\\right)=(1,2)\n$$\n\r\n于是\r\n\n$$\n\\overrightarrow{OA}=(-1,-3)\n$$\n\r\n正方形的两条对角线互相垂直且长度相等，所以从 $O$ 指向 $B$ 或 $D$ 的向量应当与 $\\overrightarrow{OA}$ 垂直，且长度相等. 将 $\\overrightarrow{OA}$ 旋转 $90^{\\circ}$，得到两个可能的向量 $(3,-1)$ 和 $(-3,1)$，故两个端点的无序集合为 $\\{(4,1),(-2,3)\\}$. 按 $A$，$B$，$C$，$D$ 逆时针编号的通常约定，取 $\\overrightarrow{OB}=(3,-1)$、$\\overrightarrow{OD}=(-3,1)$，因而\r\n$B=O+(3,-1)=(4,1)$，$D=O+(-3,1)=(-2,3)$.\r\n故顶点 $B$ 和 $D$ 的坐标分别为 $B(4,1)$ 和 $D(-2,3)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "设 $1980$ 年底我国人口以 $10\\text{ 亿}$ 计算.\r\n\r\n\n(1) 如果我国人口每年比上年平均递增 $2\\%$，那么到 $2000$ 年底将达到多少？\n\n(2) 要使 $2000$ 年底我国人口不超过 $12\\text{ 亿}$，那么每年比上年平均递增率最高是多少？\n\r\n\r\n\\begin{center}\r\n\\fbox{%\r\n\\begin{minipage}{10cm}\r\n\\centering\r\n下列对数值可供选用：\r\n\r\n{\r\n\\small\r\n\\setlength{\\tabcolsep}{2pt}\r\n\\begin{tabular}{@{}ccc@{}}\r\n$\\lg 1.0087 = 0.00377$ & $\\lg 1.0092 = 0.00396$ & $\\lg 1.0096 = 0.00417$ \\\\\r\n$\\lg 1.0200 = 0.00860$ & $\\lg 1.2000 = 0.07918$ & $\\lg 1.3098 = 0.11720$ \\\\\r\n$\\lg 1.4568 = 0.16340$ & $\\lg 1.4859 = 0.17200$ & $\\lg 1.5157 = 0.18060$\r\n\\end{tabular}\r\n}\r\n\\end{minipage}%\r\n}\r\n\\end{center}",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设人口数的单位为亿. 从 $1980$ 年底到 $2000$ 年底共有 $20$ 年，因此人口数为等比数列的第 $21$ 项：\r\n\n$$\nN=10(1+0.02)^{20}=10(1.0200)^{20}\n$$\n\r\n取常用对数，利用题给数据得\r\n\n$$\n\\lg N=1+20\\lg1.0200=1+20\\times0.00860=1.17200\n$$\n\r\n又因为 $\\lg1.4859=0.17200$，所以\r\n\n$$\nN=10\\times1.4859=14.859\n$$\n\r\n故到 $2000$ 年底我国人口将达到 $14.859\\text{ 亿}$.\n\n(2) 设每年比上年平均递增率为 $r$，则 $r\\ge0$，且\r\n\n$$\n10(1+r)^{20}\\le12\n$$\n\r\n即 $(1+r)^{20}\\le1.2000$. 由于常用对数函数单调递增，\r\n\n$$\n20\\lg(1+r)\\le\\lg1.2000=0.07918\n$$\n\r\n从而\r\n\n$$\n\\lg(1+r)\\le\\frac{0.07918}{20}=0.003959\n$$\n\r\n因此严格的最大值在等号成立时取得：\r\n\n$$\nr=1.2^{\\frac{1}{20}}-1\\approx0.0091577558=0.91577558\\%\n$$\n\r\n因此严格的最大递增率为 $0.91577558\\%$；按题给对数表和通常保留百分数小数点后两位的报告精度，答案写作 $0.92\\%$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "$ABCD-A_{1}B_{1}C_{1}D_{1}$ 为一正四棱柱，过 $A$，$C$，$B_{1}$ 三点作一截面，求证：截面 $ACB_{1}\\perp$ 对角面 $DBB_{1}D_{1}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "设 $O=AC\\cap BD$，并记对角面 $DBB_{1}D_{1}$ 为平面 $\\Pi$. 因为 $ABCD$ 是正方形，所以两条对角线互相垂直，即\r\n\n$$\nAC\\perp BD\n$$\n\r\n过 $O$ 作直线 $l\\parallel BB_{1}$. 因为 $O$ 在 $DB$ 上，且平面 $\\Pi$ 包含直线 $DB$ 和直线 $BB_{1}$，所以 $l\\subset\\Pi$. 又因为正四棱柱的侧棱垂直于底面 $ABCD$，所以 $l\\perp AC$. 因此，直线 $AC$ 垂直于平面 $\\Pi$ 内经过 $O$ 的两条相交直线 $BD$ 和 $l$，从而\r\n\n$$\nAC\\perp\\Pi\n$$\n\r\n而 $AC$ 在截面平面 $ACB_{1}$ 内，所以截面平面 $ACB_{1}$ 与平面 $DBB_{1}D_{1}$ 垂直，即\r\n\n$$\nACB_{1}\\perp DBB_{1}D_{1}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "(1) 设抛物线 $y^{2}=4x$ 截直线 $y=2x+k$ 所得的弦长为 $3\\sqrt{5}$，求 $k$ 的值.\n\n(2) 以本题（1）得到的弦为底边，以 $x$ 轴上的点 $P$ 为顶点做成三角形. 当这三角形的面积为 $9$ 时，求 $P$ 的坐标.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 将抛物线参数化为\r\n\n$$\nQ(t)=(t^2,2t)\n$$\n\r\n因为 $y^2=4x$. 交点参数 $t_1$，$t_2$ 满足直线方程，故\r\n\n$$\n2t=2t^2+k\n$$\n\r\n即\r\n\n$$\nt^2-t+\\frac{k}{2}=0\n$$\n\r\n所以\r\n\n$$\nt_1+t_2=1\n$$\n\r\n两交点为 $Q(t_1)$、$Q(t_2)$，弦长的平方为\r\n\n$$\n\\left|Q(t_1)Q(t_2)\\right|^2=\\left(t_1^2-t_2^2\\right)^2+\\left(2t_1-2t_2\\right)^2=\\left(t_1-t_2\\right)^2\\left(\\left(t_1+t_2\\right)^2+4\\right)=5\\left(t_1-t_2\\right)^2\n$$\n\r\n由弦长为 $3\\sqrt5$，得 $5(t_1-t_2)^2=45$，即 $(t_1-t_2)^2=9$. 又由韦达定理，\r\n\n$$\n(t_1-t_2)^2=(t_1+t_2)^2-4t_1t_2=1-4\\cdot\\frac{k}{2}=1-2k\n$$\n\r\n因此 $1-2k=9$，解得 $k=-4$. 此时交点参数为 $2,-1$，确有两个实交点，且弦长为 $3\\sqrt5$，检验成立.\n\n(2) 当 $k=-4$ 时，弦所在直线为 $y=2x-4$，交点为\r\n$Q(2)=(4,4)$，$Q(-1)=(1,-2)$，\r\n所以底边长为 $3\\sqrt5$. 设 $P=(u,0)$，则点 $P$ 到底边所在直线 $2x-y-4=0$ 的距离为\r\n\n$$\nh=\\frac{|2u-4|}{\\sqrt5}\n$$\n\r\n由三角形面积为 $9$，有\r\n\n$$\n9=\\frac12\\cdot3\\sqrt5\\cdot\\frac{|2u-4|}{\\sqrt5}=\\frac32|2u-4|\n$$\n\r\n于是 $|2u-4|=6$，解得 $u=5$ 或 $u=-1$. 故\r\n\n$$\nP=(5,0) \\text{或}  P=(-1,0)\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

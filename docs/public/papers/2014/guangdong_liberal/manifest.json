@@ -1,0 +1,396 @@
+{
+  "year": "2014",
+  "slug": "guangdong_liberal",
+  "title": "2014年广东卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "已知集合 $M = \\{2, 3, 4\\}$，$N = \\{0, 2, 3, 5\\}$，则 $M \\cap N$（ ）",
+          "choices": [
+            "$\\{0, 2\\}$",
+            "$\\{2, 3\\}$",
+            "$\\{3, 4\\}$",
+            "$\\{3, 5\\}$"
+          ],
+          "answer": "B",
+          "solution": "交集中的元素必须同时属于两个集合.集合 $M$ 的元素为 $2$，$3$，$4$，其中 $2,3$ 也属于 $N$，而 $4\\notin N$，所以\r\n\n$$\nM\\cap N=\\{2,3\\}\n$$\n\r\n因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知复数 $z$ 满足 $(3 - 4\\mathrm{i})z = 25$，则 $z =$（ ）",
+          "choices": [
+            "$-3 - 4\\mathrm{i}$",
+            "$-3 + 4\\mathrm{i}$",
+            "$3 - 4\\mathrm{i}$",
+            "$3 + 4\\mathrm{i}$"
+          ],
+          "answer": "D",
+          "solution": "由题设\r\n\n$$\nz=\\frac{25}{3-4\\mathrm{i}}=\\frac{25(3+4\\mathrm{i})}{(3-4\\mathrm{i})(3+4\\mathrm{i})}\r\n =\\frac{25(3+4\\mathrm{i})}{3^2+4^2}=3+4\\mathrm{i}\n$$\n\r\n因此选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "已知向量 $\\mathbf{a} = (1, 2)$，$\\mathbf{b} = (3, 1)$，则 $\\mathbf{b} - \\mathbf{a} =$（ ）",
+          "choices": [
+            "$(-2, 1)$",
+            "$(2, -1)$",
+            "$(2, 0)$",
+            "$(4, 3)$"
+          ],
+          "answer": "B",
+          "solution": "按坐标相减，得\r\n\n$$\n\\mathbf{b}-\\mathbf{a}=(3-1,1-2)=(2,-1)\n$$\n\r\n因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "若变量 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx + 2y \\le 8,\\\\\r\n0 \\le x \\le 4,\\\\\r\n0 \\le y \\le 3,\r\n\\end{cases}$ 则 $z = 2x + y$ 的最大值等于（ ）",
+          "choices": [
+            "7",
+            "8",
+            "10",
+            "11"
+          ],
+          "answer": "C",
+          "solution": "可行域是由题设不等式确定的多边形，其顶点为\r\n$(0,0)$，$\\ (4,0)$，$\\ (4,2)$，$\\ (2,3)$，$\\ (0,3)$.\r\n由于 $z=2x+y$ 是线性函数，只需比较各顶点处的值：\r\n$0$，$8$，$10$，$7$，$3$.\r\n最大值为 $10$，因此选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "下列函数为奇函数的是（ ）",
+          "choices": [
+            "$2^{x} - \\frac{1}{2^{x}}$",
+            "$x^{3}\\sin x$",
+            "$2\\cos x + 1$",
+            "$x^{2} + 2^{x}$"
+          ],
+          "answer": "A",
+          "solution": "逐项检验奇偶性.对选项 A，\r\n\n$$\nf(-x)=2^{-x}-2^x=-(2^x-2^{-x})=-f(x)\n$$\n\r\n且定义域为 $\\mathbb{R}$，所以它是奇函数.\r\n\r\n选项 B 中，$x^3$ 与 $\\sin x$ 都是奇函数，乘积是偶函数；选项 C 有常数项，且\r\n$2\\cos(-x)+1=2\\cos x+1$，是偶函数；选项 D 既不是奇函数也不是偶函数.因此选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "为了解 1000 名学生的学习情况，采用系统抽样的方法，从中抽取容量为 40 的样本，则分段的间隔为（ ）",
+          "choices": [
+            "50",
+            "40",
+            "25",
+            "20"
+          ],
+          "answer": "C",
+          "solution": "系统抽样的分段间隔等于总体容量除以样本容量，因此\r\n\n$$\n\\frac{1000}{40}=25\n$$\n\r\n所以选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对应的边分别为 $a$，$b$，$c$，则 “$a \\le b$” 是 “$\\sin A \\le \\sin B$” 的（ ）",
+          "choices": [
+            "充分必要条件",
+            "充分非必要条件",
+            "必要非充分条件",
+            "非充分非必要条件"
+          ],
+          "answer": "A",
+          "solution": "由正弦定理，存在同一个正数 $2R$，使得\r\n$a=2R\\sin A$，$b=2R\\sin B$.\r\n因为 $2R>0$，所以\r\n\n$$\na\\le b\\iff 2R\\sin A\\le 2R\\sin B\r\n\\iff \\sin A\\le\\sin B\n$$\n\r\n两个不等式互相推出，故这是充分必要条件，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "若实数 $k$ 满足 $0 < k < 5$，则曲线 $\\frac{x^{2}}{16} - \\frac{y^{2}}{5-k} = 1$ 与曲线 $\\frac{x^{2}}{16-k} - \\frac{y^{2}}{5} = 1$ 的（ ）",
+          "choices": [
+            "实半轴长相等",
+            "虚半轴长相等",
+            "离心率相等",
+            "焦距相等"
+          ],
+          "answer": "D",
+          "solution": "两条曲线都是焦点在 $x$ 轴上的双曲线.第一条双曲线满足\r\n$a_1^2=16$，$b_1^2=5-k$，\r\n所以\r\n\n$$\nc_1^2=a_1^2+b_1^2=16+5-k=21-k\n$$\n\r\n第二条双曲线满足\r\n$a_2^2=16-k$，$b_2^2=5$，\r\n从而\r\n\n$$\nc_2^2=a_2^2+b_2^2=16-k+5=21-k\n$$\n\r\n因此 $c_1=c_2$，两条双曲线的焦距 $2c$ 相等，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "若空间中四条两两不同的直线 $l_{1}$，$l_{2}$，$l_{3}$，$l_{4}$，满足 $l_{1} \\perp l_{2}$，$l_{2} \\parallel l_{3}$，$l_{3} \\perp l_{4}$，则下列结论一定正确的是（ ）",
+          "choices": [
+            "$l_{1} \\perp l_{4}$",
+            "$l_{1} \\parallel l_{4}$",
+            "$l_{1}$，$l_{4}$ 既不垂直也不平行",
+            "$l_{1}$，$l_{4}$ 的位置关系不确定"
+          ],
+          "answer": "D",
+          "solution": "由 $l_2\\parallel l_3$ 及 $l_1\\perp l_2$，可知 $l_1\\perp l_3$.但两条都垂直于 $l_3$ 的直线，在空间中的位置关系仍可能不同.\r\n\r\n例如取 $l_2$ 与 $l_3$ 为两条不同的平行 $x$ 轴，取 $l_1$ 为 $y$ 轴；可以取 $l_4$ 为与 $l_1$ 平行且与 $l_3$ 相交的直线，此时 $l_1\\parallel l_4$.也可以取 $l_4$ 为与 $l_3$ 相交的 $z$ 轴，此时 $l_1\\perp l_4$.因此 $l_1$ 与 $l_4$ 的位置关系不确定，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "对任意复数 $w_{1}$，$w_{2}$，定义 $w_{1} * w_{2} = w_{1} \\overline{w}_{2}$. 其中 $\\overline{w}_{2}$ 是 $w_{2}$ 的共轭复数. 对任意复数 $z_{1}$，$z_{2}$，$z_{3}$ 有如下四个命题：\r\n\r\n\\begin{circlelist}\r\n\\item $(z_{1} + z_{2}) * z_{3} = (z_{1} * z_{3}) + (z_{2} * z_{3})$；\r\n\\item $z_{1} * (z_{2} + z_{3}) = (z_{1} * z_{2}) + (z_{1} * z_{3})$；\r\n\\item $(z_{1} * z_{2}) * z_{3} = z_{1} * (z_{2} * z_{3})$；\r\n\\item $z_{1} * z_{2} = z_{2} * z_{1}$.\r\n\\end{circlelist}\r\n\r\n则真命题的个数是（ ）",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "B",
+          "solution": "由共轭运算的加法性质，\r\n\n$$\n(z_1+z_2)*z_3=(z_1+z_2)\\overline{z_3}\r\n =z_1\\overline{z_3}+z_2\\overline{z_3}\r\n =(z_1*z_3)+(z_2*z_3)\n$$\n\r\n所以命题 1 正确.\r\n\r\n同理，\r\n\n$$\nz_1*(z_2+z_3)=z_1\\overline{z_2+z_3}\r\n =z_1(\\overline{z_2}+\\overline{z_3})\r\n =(z_1*z_2)+(z_1*z_3)\n$$\n\r\n所以命题 2 正确.\r\n\r\n对命题 3，左边和右边分别为\r\n$(z_1*z_2)*z_3=z_1\\overline{z_2}\\,\\overline{z_3}$，$z_1*(z_2*z_3)=z_1\\overline{z_2\\overline{z_3}}=z_1\\overline{z_2}z_3$.\r\n取 $z_1=z_2=1$，$z_3=\\mathrm{i}$，两式分别为 $-\\mathrm{i}$ 和 $\\mathrm{i}$，故命题 3 不正确.\r\n\r\n对命题 4，取 $z_1=1$，$z_2=\\mathrm{i}$，则\r\n$z_1*z_2=-\\mathrm{i}$，$z_2*z_1=\\mathrm{i}$，\r\n故命题 4 不正确.真命题共有 2 个，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "曲线 $y = -5\\mathrm{e}^{x} + 3$ 在点 $(0, -2)$ 处的切线方程为 _______ {}.",
+          "choices": [],
+          "answer": "\\(5x + y + 2 = 0\\)",
+          "solution": "函数的导数为\r\n\n$$\ny'=-5\\mathrm{e}^x\n$$\n\r\n在 $x=0$ 处，切线斜率为 $y'(0)=-5$，且切点为 $(0,-2)$.由点斜式，切线方程为\r\n\n$$\ny+2=-5(x-0)\n$$\n\r\n即\r\n\n$$\n5x+y+2=0\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "从字母 $a$，$b$，$c$，$d$，$e$ 中任取两个不同字母，则取到字母 $a$ 的概率为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\dfrac{2}{5}\\)",
+          "solution": "任取两个不同字母的基本结果数为\r\n\n$$\n\\mathrm C_5^2=10\n$$\n\r\n取到字母 $a$ 时，另一个字母可从其余 4 个字母中任选一个，所以有\r\n\n$$\n\\mathrm C_4^1=4\n$$\n\r\n个结果.故所求概率为\r\n\n$$\n\\frac{4}{10}=\\frac{2}{5}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "等比数列 $\\{a_{n}\\}$ 的各项均为正数，且 $a_{1}a_{5} = 4$，则 $\\log_{2} a_{1} + \\log_{2} a_{2} + \\log_{2} a_{3} + \\log_{2} a_{4} + \\log_{2} a_{5} = _______ {}$.",
+          "choices": [],
+          "answer": "5",
+          "solution": "设公比为 $q>0$.等比数列的对称项满足\r\n\n$$\na_1a_5=a_3^2=4\n$$\n\r\n由于各项为正数，故 $a_3=2$.另外\r\n\n$$\na_2a_4=a_3^2=4\n$$\n\r\n于是\r\n\n$$\na_1a_2a_3a_4a_5=(a_1a_5)(a_2a_4)a_3=4\\cdot4\\cdot2=32\n$$\n\r\n因此\r\n\n$$\n\\sum_{k=1}^{5}\\log_2a_k\r\n=\\log_2\\left(a_1a_2a_3a_4a_5\\right)\r\n=\\log_2 32=5\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选考题：填空题",
+      "problems": [
+        {
+          "num": 14,
+          "body": "在极坐标系中，曲线 $C_{1}$ 和 $C_{2}$ 的方程分别为 $2\\rho \\cos^{2}\\theta = \\sin\\theta$ 和 $\\rho \\cos\\theta = 1$，以极点为平面直角坐标系的原点，极轴为 $x$ 轴的正半轴，建立平面直角坐标系，则曲线 $C_{1}$ 和 $C_{2}$ 的交点的直角坐标为 _______ {}.",
+          "choices": [],
+          "answer": "\\((1, 2)\\)",
+          "solution": "由极坐标与直角坐标的关系\r\n$x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$.\r\n由第二条曲线 $\\rho\\cos\\theta=1$ 可知 $\\rho\\ne0$，所以可以将第一条曲线的方程乘以 $\\rho$，得\r\n\n$$\n2\\rho^2\\cos^2\\theta=\\rho\\sin\\theta\n$$\n\r\n即\r\n\n$$\n2x^2=y\n$$\n\r\n第二条曲线的方程就是\r\n\n$$\nx=\\rho\\cos\\theta=1\n$$\n\r\n联立得 $x=1$，$y=2$，所以交点的直角坐标为 $(1,2)$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "如图，在平行四边形 $ABCD$ 中，点 $E$ 在 $AB$ 上，且 $EB = 2AE$，$AC$ 与 $DE$ 交于点 $F$，则 $\\triangle CDF$ 的周长与 $\\triangle AEF$ 的周长之比为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/guangdong_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "3",
+          "solution": "由 $EB=2AE$，可得\r\n\n$$\nAB=AE+EB=3AE\n$$\n\r\n在平行四边形中，$CD\\parallel AB$，且 $C$，$F$，$A$ 共线、$D$，$F$，$E$ 共线.因此\r\n$\\angle CDF=\\angle AEF$，$\\angle CFD=\\angle AFE$，\r\n从而 $\\triangle CDF\\sim\\triangle AEF$.对应边满足\r\n\n$$\n\\frac{CD}{AE}=\\frac{AB}{AE}=3\n$$\n\r\n相似三角形的周长比等于对应边比，所以\r\n\n$$\n\\frac{CD+DF+FC}{AE+EF+FA}=3\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 16,
+          "body": "已知函数 $f(x) = A \\sin \\left( x + \\frac{\\pi}{3} \\right)$，$x \\in \\mathbb{R}$，且 $f\\left( \\frac{5\\pi}{12} \\right) = \\frac{3\\sqrt{2}}{2}$.\r\n\r\n\n(1) 求 $A$ 的值；\n\n(2) 若 $f(\\theta) - f(-\\theta) = \\sqrt{3}$，$\\theta \\in \\left(0, \\frac{\\pi}{2}\\right)$，求 $f\\left(\\frac{\\pi}{6} - \\theta\\right)$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由\r\n\n$$\nf\\left(\\frac{5\\pi}{12}\\right)\r\n=A\\sin\\left(\\frac{5\\pi}{12}+\\frac{\\pi}{3}\\right)\r\n=A\\sin\\frac{3\\pi}{4}=\\frac{A\\sqrt{2}}{2}\n$$\n\r\n以及题设值 $\\frac{3\\sqrt{2}}{2}$，得 $A=3$.\n\n(2) 由和差化积公式，\r\n\n$$\n\\begin{aligned}\r\nf(\\theta)-f(-\\theta)\r\n&=3\\left[\\sin\\left(\\theta+\\frac{\\pi}{3}\\right)-\\sin\\left(\\frac{\\pi}{3}-\\theta\\right)\\right]\\\\\r\n&=3\\cdot2\\cos\\frac{\\pi}{3}\\sin\\theta\r\n=3\\sin\\theta.\r\n\\end{aligned}\n$$\n\r\n所以 $3\\sin\\theta=\\sqrt{3}$，即\r\n\n$$\n\\sin\\theta=\\frac{\\sqrt{3}}{3}\n$$\n\r\n由于 $0<\\theta<\\frac{\\pi}{2}$，有\r\n\n$$\n\\cos\\theta=\\sqrt{1-\\sin^2\\theta}=\\frac{\\sqrt{6}}{3}\n$$\n\r\n于是\r\n\n$$\nf\\left(\\frac{\\pi}{6}-\\theta\\right)\r\n=3\\sin\\left(\\frac{\\pi}{6}-\\theta+\\frac{\\pi}{3}\\right)\r\n=3\\sin\\left(\\frac{\\pi}{2}-\\theta\\right)\r\n=3\\cos\\theta=\\sqrt{6}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "某车间 20 名工人年龄数据如下表：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|c}\r\n\\hline\r\n年龄（岁） & 工人数（人） \\\\\r\n\\hline\r\n19 & 1 \\\\\r\n28 & 3 \\\\\r\n29 & 3 \\\\\r\n30 & 5 \\\\\r\n31 & 4 \\\\\r\n32 & 3 \\\\\r\n40 & 1 \\\\\r\n\\hline\r\n合计 & 20 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 求这 20 名工人年龄的众数与极差；\n\n(2) 以十位数为茎，个位数为叶，作出这 20 名工人年龄的茎叶图；\n\n(3) 求这 20 名工人年龄的方差.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 频数最大的年龄是 30 岁，频数为 5，因此众数为 $30$；最大年龄与最小年龄分别为 40 岁和 19 岁，因此极差为\r\n\n$$\n40-19=21\n$$\n\n(2) 以年龄的十位数字为茎、个位数字为叶，并按从小到大排列叶，茎叶图为\r\n\\begin{center}\r\n\\begin{tabular}{c|l}\r\n茎 & 叶 \\\\\r\n\\hline\r\n1 & 9 \\\\\r\n2 & $8$，$8$，$8$，$9$，$9$，$9$ \\\\\r\n3 & $0$，$0$，$0$，$0$，$0$，$1$，$1$，$1$，$1$，$2$，$2$，$2$ \\\\\r\n4 & 0\r\n\\end{tabular}\r\n\\end{center}\n\n(3) 先求平均数：\r\n\n$$\n\\bar{x}=\\frac{19+3\\times28+3\\times29+5\\times30+4\\times31+3\\times32+40}{20}=30\n$$\n\r\n因此方差为\r\n\n$$\n\\begin{aligned}\r\ns^2\r\n&=\\frac{(19-30)^2+3(28-30)^2+3(29-30)^2+5(30-30)^2}{20}\\\\\r\n& +\\frac{4(31-30)^2+3(32-30)^2+(40-30)^2}{20}\\\\\r\n&=\\frac{121+12+3+0+4+12+100}{20}=12.6.\r\n\\end{aligned}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图 1，四边形 $ABCD$ 为矩形，$PD \\perp$ 平面 $ABCD$，$AB = 1$，$BC = PC = 2$，作如图 2 折叠，折痕 $EF \\parallel DC$. 其中点 $E$，$F$ 分别在线段 $PD$，$PC$ 上，沿 $EF$ 折叠后点 $P$ 叠在线段 $AD$ 上的点记为 $M$，并且 $MF \\perp CF$.\r\n\r\n\n(1) 证明：$CF \\perp$ 平面 $MDF$；\n\n(2) 求三棱锥 $M-CDE$ 的体积.\n\r\n\r\n\\examfiguregroup[float=inline]{img/2014/guangdong_liberal/q18_fig1.png}{%\r\n    \\makebox[0.44\\linewidth][c]{\\bitmapinclude[max width=\\linewidth]{img/2014/guangdong_liberal/q18_fig1.png}}\\hfill\r\n    \\makebox[0.44\\linewidth][c]{\\bitmapinclude[max width=\\linewidth]{img/2014/guangdong_liberal/q18_fig2.png}}%\r\n}",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $PD\\perp$ 平面 $ABCD$，所以 $MD\\perp PD$.又因为 $ABCD$ 是矩形，$AD\\perp DC$，而 $MD\\subset AD$，所以 $MD\\perp DC$.直线 $PD$ 和 $DC$ 是平面 $PCD$ 内的相交直线，故\r\n\n$$\nMD\\perp\\text{平面 }PCD\n$$\n\r\n由于 $CF\\subset\\text{平面 }PCD$，所以 $CF\\perp MD$.结合已知的 $MF\\perp CF$，且 $MD$ 与 $MF$ 是平面 $MDF$ 内相交的两条直线，得到\r\n\n$$\nCF\\perp\\text{平面 }MDF\n$$\n\n(2) 由 $AB=1$、$BC=2$，得 $DC=1$.在直角三角形 $PDC$ 中，\r\n$PD=\\sqrt{PC^2-DC^2}=\\sqrt{4-1}=\\sqrt{3}$，$\\angle PCD=60^\\circ$.\r\n由第（1）问，$CF\\perp$ 平面 $MDF$，而 $DF$ 在该平面内，所以 $CF\\perp DF$.又 $C$，$F$，$P$ 共线，故\r\n\n$$\n\\angle DCF=\\angle DCP=60^\\circ\n$$\n\r\n在直角三角形 $CDF$ 中，$CD=1$，于是\r\n$CF=CD\\cos60^\\circ=\\frac12$，$DF=CD\\sin60^\\circ=\\frac{\\sqrt3}{2}$.\r\n因为 $EF\\parallel DC$，所以 $\\triangle PEF\\sim\\triangle PDC$.由 $PF=PC-CF=\\frac32$，得\r\n$\\frac{PE}{PD}=\\frac{PF}{PC}=\\frac34$，$PE=\\frac{3\\sqrt3}{4}$，$DE=PD-PE=\\frac{\\sqrt3}{4}$.\r\n折叠保持折痕上点 $E$ 到点 $P$ 的距离不变，故 $ME=PE=\\frac{3\\sqrt3}{4}$.又 $MD\\subset AD$，$DE\\subset PD$，且 $PD\\perp$ 平面 $ABCD$，所以 $MD\\perp DE$.在直角三角形 $MDE$ 中，\r\n\n$$\nMD=\\sqrt{ME^2-DE^2}\r\n=\\sqrt{\\left(\\frac{3\\sqrt3}{4}\\right)^2-\\left(\\frac{\\sqrt3}{4}\\right)^2}\r\n=\\sqrt{\\frac32}=\\frac{\\sqrt6}{2}\n$$\n\r\n由 $CD\\perp DE$，三角形 $CDE$ 的面积为\r\n\n$$\nS_{\\triangle CDE}=\\frac12\\,CD\\cdot DE=\\frac{\\sqrt3}{8}\n$$\n\r\n第（1）问已证 $MD\\perp$ 平面 $PCD$，而三角形 $CDE$ 在平面 $PCD$ 内，故 $MD$ 是三棱锥 $M-CDE$ 的高.因此\r\n\n$$\nV_{M-CDE}=\\frac13S_{\\triangle CDE}\\cdot MD\r\n=\\frac13\\cdot\\frac{\\sqrt3}{8}\\cdot\\frac{\\sqrt6}{2}\r\n=\\frac{\\sqrt2}{16}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "设各项均为正数的数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，且 $S_{n}$ 满足 $S_{n}^{2} - (n^{2} + n - 3)S_{n} - 3(n^{2} + n) = 0$，$n \\in \\mathbb{N}^{*}$.\r\n\r\n\n(1) 求 $a_{1}$ 的值；\n\n(2) 求数列 $\\{a_{n}\\}$ 的通项公式；\n\n(3) 证明：对一切正整数 $n$，有 $\\frac{1}{a_1(a_1 + 1)} + \\frac{1}{a_2(a_2 + 1)} + \\cdots + \\frac{1}{a_n(a_n + 1)} < \\frac{1}{3}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 令\r\n\n$$\nQ_n(S)=S^2-(n^2+n-3)S-3(n^2+n)\n$$\n\r\n注意到\r\n\n$$\nQ_n\\bigl(n(n+1)\\bigr)=0\n$$\n\r\n并且将二次方程因式分解为\r\n\n$$\n\\left(S_n-n(n+1)\\right)(S_n+3)=0\n$$\n\r\n因为各项均为正数，所以 $S_n>0$，不能取 $S_n=-3$，故\r\n\n$$\nS_n=n(n+1)\n$$\n\r\n取 $n=1$，得 $S_1=2$，所以 $a_1=2$.\n\n(2) 当 $n\\geqslant2$ 时，\r\n\n$$\na_n=S_n-S_{n-1}=n(n+1)-(n-1)n=2n\n$$\n\r\n而 $a_1=2=2\\times1$，所以对所有正整数 $n$，\r\n\n$$\na_n=2n\n$$\n\n(3) 由上式，需证明\r\n\n$$\n\\sum_{k=1}^{n}\\frac{1}{2k(2k+1)}<\\frac13\n$$\n\r\n当 $n=1$ 时，左边为 $\\frac16<\\frac13$.当 $n\\geqslant2$ 时，对每个 $k\\geqslant2$，有\r\n\n$$\n\\frac{1}{2k(2k+1)}\r\n<\\frac{1}{(2k-1)(2k+1)}\r\n=\\frac12\\left(\\frac{1}{2k-1}-\\frac{1}{2k+1}\\right)\n$$\n\r\n因此\r\n\n$$\n\\begin{aligned}\r\n\\sum_{k=1}^{n}\\frac{1}{2k(2k+1)}\r\n&<\\frac16+\\frac12\\sum_{k=2}^{n}\\left(\\frac{1}{2k-1}-\\frac{1}{2k+1}\\right)\\\\\r\n&=\\frac16+\\frac12\\left(\\frac13-\\frac{1}{2n+1}\\right)\\\\\r\n&<\\frac16+\\frac16=\\frac13.\r\n\\end{aligned}\n$$\n\r\n所以不等式对一切正整数 $n$ 成立.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知椭圆 $C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a > b > 0$）的一个焦点为 $(\\sqrt{5}, 0)$，离心率为 $\\frac{\\sqrt{5}}{3}$.\r\n\r\n\n(1) 求椭圆 $C$ 的标准方程；\n\n(2) 若动点 $P(x_0, y_0)$ 为椭圆 $C$ 外一点，且点 $P$ 到椭圆 $C$ 的两条切线互相垂直，求点 $P$ 的轨迹方程.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设椭圆的半焦距为 $c$.由焦点坐标得 $c=\\sqrt{5}$，再由离心率\r\n\n$$\ne=\\frac{c}{a}=\\frac{\\sqrt{5}}{3}\n$$\n\r\n得 $a=3$.由椭圆关系 $b^2=a^2-c^2$，得\r\n\n$$\nb^2=9-5=4\n$$\n\r\n所以椭圆的标准方程为\r\n\n$$\n\\frac{x^2}{9}+\\frac{y^2}{4}=1\n$$\n\n(2) 设过点 $P(x_0,y_0)$ 的一条非竖直直线为\r\n$y=kx+b$，$b=y_0-kx_0$.\r\n将其代入椭圆方程，得到关于 $x$ 的二次方程\r\n\n$$\n\\frac{x^2}{9}+\\frac{(kx+b)^2}{4}=1\n$$\n\r\n直线与椭圆相切的充要条件是该方程的判别式为零，化简得\r\n\n$$\nb^2=9k^2+4\n$$\n\r\n所以两条切线的斜率 $k_1$，$k_2$ 是方程\r\n\n$$\n(x_0^2-9)k^2-2x_0y_0k+(y_0^2-4)=0\n$$\n\r\n的两个根.当 $x_0^2\\ne9$ 时，由两切线垂直，$k_1k_2=-1$，由韦达定理得\r\n\n$$\n\\frac{y_0^2-4}{x_0^2-9}=-1\n$$\n\r\n即\r\n\n$$\nx_0^2+y_0^2=13\n$$\n\r\n\r\n当 $x_0^2=9$ 时，一条切线为竖直线 $x=x_0$.要与另一条切线垂直，另一条必须是水平切线 $y=2$ 或 $y=-2$，于是 $y_0^2=4$，仍满足 $x_0^2+y_0^2=13$.反过来，圆 $x_0^2+y_0^2=13$ 上的点均在椭圆外；除上述竖直切线的特殊情形外，由上面的斜率积为 $-1$ 可知两切线互相垂直.因此轨迹方程为\r\n\n$$\nx_0^2+y_0^2=13\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知函数 $f(x) = \\frac{1}{3}x^3 + x^2 + ax + 1$（$a \\in \\mathbb{R}$）.\r\n\r\n\n(1) 求函数 $f(x)$ 的单调区间；\n\n(2) 当 $a < 0$ 时，试讨论是否存在 $x_0 \\in \\left(0, \\frac{1}{2}\\right) \\cup \\left(\\frac{1}{2}, 1\\right)$，使得 $f(x_0) = f\\left(\\frac{1}{2}\\right)$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 求导得\r\n\n$$\nf'(x)=x^2+2x+a=(x+1)^2+a-1\n$$\n\r\n当 $a\\geqslant1$ 时，$f'(x)\\geqslant0$，且导数不在任何区间上恒为零，所以函数在 $\\mathbb{R}$ 上单调递增.\r\n\r\n当 $a<1$ 时，令 $f'(x)=0$，得两个根\r\n$x_1=-1-\\sqrt{1-a}$，$x_2=-1+\\sqrt{1-a}$.\r\n由于 $f'(x)$ 的二次项系数为正，故\r\n\n$$\nf'(x)>0 \\text{在 }(-\\infty,x_1)\\text{ 和 }(x_2,+\\infty)\n$$\n\r\n\n$$\nf'(x)<0 \\text{在 }(x_1,x_2)\n$$\n\r\n因此函数的单调递增区间为\r\n\n$$\n\\left(-\\infty,-1-\\sqrt{1-a}\\right) \\text{和} \r\n\\left(-1+\\sqrt{1-a},+\\infty\\right)\n$$\n\r\n单调递减区间为\r\n\n$$\n\\left(-1-\\sqrt{1-a},-1+\\sqrt{1-a}\\right)\n$$\n\n(2) 因为 $x_0\\ne\\frac12$，先将等式移项并因式分解：\r\n\n$$\n\\begin{aligned}\r\nf(x_0)-f\\left(\\frac12\\right)\r\n&=\\frac{1}{3}x_0^3+x_0^2+ax_0+1\r\n -\\left(\\frac{1}{24}+\\frac14+\\frac a2+1\\right)\\\\\r\n&=\\frac{x_0-\\frac12}{12}\\left(4x_0^2+14x_0+7+12a\\right).\r\n\\end{aligned}\n$$\n\r\n所以所求条件等价于\r\n\n$$\na=-\\frac{4x_0^2+14x_0+7}{12}\n$$\n\r\n记右端为 $h(x_0)$.在 $0<x_0<1$ 上，\r\n\n$$\nh'(x_0)=-\\frac{8x_0+14}{12}<0\n$$\n\r\n所以 $h$ 严格递减.分别考察两个区间：\r\n\n$$\nh(0)=-\\frac{7}{12}\n$$\n\r\n\n$$\nh\\left(\\frac12\\right)=-\\frac54\n$$\n\r\n\n$$\nh(1)=-\\frac{25}{12}\n$$\n\r\n由于两个端点 $0$，$\\frac12$，$1$ 均不属于相应的开区间，存在这样的 $x_0$ 当且仅当\r\n\n$$\na\\in\\left(-\\frac{25}{12},-\\frac54\\right)\\cup\r\n\\left(-\\frac54,-\\frac{7}{12}\\right)\n$$\n\r\n这些参数均满足 $a<0$，其余负数参数均不存在这样的 $x_0$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

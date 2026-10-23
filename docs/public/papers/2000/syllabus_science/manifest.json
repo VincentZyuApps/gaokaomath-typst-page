@@ -1,0 +1,416 @@
+{
+  "year": "2000",
+  "slug": "syllabus_science",
+  "title": "2000年大纲卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设集合 $A$ 和 $B$ 都是自然数集合 $\\mathbb{N}$，映射 $f:A\\to B$ 把集合 $A$ 中的元素 $n$ 映射成集合 $B$ 中的元素 $2^n+n$，则在映射 $f$ 下，象 $20$ 的原象是（ ）",
+          "choices": [
+            "$2$",
+            "$3$",
+            "$4$",
+            "$5$"
+          ],
+          "answer": "C",
+          "solution": "由 $f(n)=2^n+n$ 以及 $f(n+1)-f(n)=2^n+1>0$，可知 $f$ 在自然数集合上严格递增. 又 $f(4)=2^4+4=20$，所以象 $20$ 的原象是 $4$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "在复平面内，把复数 $3-\\sqrt{3}\\mathrm{i}$ 对应的向量按顺时针方向旋转 $\\frac{\\pi}{3}$，所得向量对应的复数是（ ）",
+          "choices": [
+            "$2\\sqrt{3}$",
+            "$-2\\sqrt{3}\\mathrm{i}$",
+            "$\\sqrt{3}-3\\mathrm{i}$",
+            "$3+\\sqrt{3}\\mathrm{i}$"
+          ],
+          "answer": "B",
+          "solution": "顺时针旋转 $\\frac{\\pi}{3}$ 相当于乘以\r\n$\\cos\\frac{\\pi}{3}-\\mathrm{i}\\sin\\frac{\\pi}{3}=\\frac12-\\frac{\\sqrt{3}}2\\mathrm{i}$. 因此所得复数为\r\n\n$$\n(3-\\sqrt{3}\\mathrm{i})\\left(\\frac12-\\frac{\\sqrt{3}}2\\mathrm{i}\\right)\r\n=\\left(\\frac32-\\frac32\\right)-\\left(\\frac{3\\sqrt{3}}2+\\frac{\\sqrt{3}}2\\right)\\mathrm{i}\r\n=-2\\sqrt{3}\\mathrm{i}\n$$\n\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "一个长方体共一顶点的三个面的面积分别是 $\\sqrt{2}$，$\\sqrt{3}$，$\\sqrt{6}$，这个长方体对角线的长是（ ）",
+          "choices": [
+            "$2\\sqrt{3}$",
+            "$3\\sqrt{2}$",
+            "$6$",
+            "$\\sqrt{6}$"
+          ],
+          "answer": "D",
+          "solution": "设长方体的三条棱长分别为 $x$，$y$，$z$，则\r\n$xy=\\sqrt{2}$，$yz=\\sqrt{3}$，$zx=\\sqrt{6}$. 由此得\r\n$x^2=\\frac{(xy)(xz)}{yz}=2$，$y^2=\\frac{(xy)(yz)}{xz}=1$，$z^2=\\frac{(xz)(yz)}{xy}=3$. 所以长方体对角线长为\r\n\n$$\n\\sqrt{x^2+y^2+z^2}=\\sqrt{2+1+3}=\\sqrt{6}\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "已知 $\\sin\\alpha>\\sin\\beta$，那么下列命题成立的是（ ）",
+          "choices": [
+            "若 $\\alpha$，$\\beta$ 是第一象限角，则 $\\cos\\alpha>\\cos\\beta$",
+            "若 $\\alpha$，$\\beta$ 是第二象限角，则 $\\tan\\alpha>\\tan\\beta$",
+            "若 $\\alpha$，$\\beta$ 是第三象限角，则 $\\cos\\alpha>\\cos\\beta$",
+            "若 $\\alpha$，$\\beta$ 是第四象限角，则 $\\tan\\alpha>\\tan\\beta$"
+          ],
+          "answer": "D",
+          "solution": "在第一象限内，正弦函数递增，所以 $\\sin\\alpha>\\sin\\beta$ 推出 $\\alpha>\\beta$，而余弦函数递减，故选项 A 错误. 在第二象限内正弦函数递减，因而 $\\alpha<\\beta$，正切函数递增，选项 B 错误. 在第三象限内正弦函数递减且余弦函数递增，仍有 $\\cos\\alpha<\\cos\\beta$，选项 C 错误. 在第四象限内正弦函数递增，故 $\\alpha>\\beta$，又正切函数递增，所以 $\\tan\\alpha>\\tan\\beta$. 故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "函数 $y=-x\\cos x$ 的部分图象是（ ）",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2000/img/syllabus_science/q5_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2000/img/syllabus_science/q5_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2000/img/syllabus_science/q5_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2000/img/syllabus_science/q5_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "D",
+          "solution": "函数满足 $y(0)=0$. 当 $x$ 在原点右侧且足够接近原点时，$\\cos x>0$，所以 $y=-x\\cos x<0$；当 $x$ 在原点左侧且足够接近原点时，$y>0$. 此外，$x=\\frac{\\pi}{2}$ 是另一个零点，且在 $0<x<\\frac{\\pi}{2}$ 时函数值为负，在 $x>\\frac{\\pi}{2}$ 且接近该点时函数值为正. 因此图象过原点时由左上方向右下方向穿过，并在右侧先位于 $x$ 轴下方，符合选项 D. 故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "《中华人民共和国个人所得税法》规定，公民全月工资、薪金所得不超过 $800\\text{ 元}$ 的部分不必纳税，超过 $800\\text{ 元}$ 的部分为全月应纳税所得额，此项税款按下表分段累进计算：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|}\r\n\\hline\r\n全月应纳税所得额 & 税率 \\\\\r\n\\hline\r\n不超过 $500\\text{ 元}$ 的部分 & $5\\%$ \\\\\r\n\\hline\r\n超过 $500\\text{ 元}$ 至 $2000\\text{ 元}$ 的部分 & $10\\%$ \\\\\r\n\\hline\r\n超过 $2000\\text{ 元}$ 至 $5000\\text{ 元}$ 的部分 & $15\\%$ \\\\\r\n\\hline\r\n$\\cdots$ & $\\cdots$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n某人一月份交纳此项税款 $26.78\\text{ 元}$，则他的当月工资、薪金所得介于（ ）",
+          "choices": [
+            "$800\\text{ 元}-900\\text{ 元}$",
+            "$900\\text{ 元}-1200\\text{ 元}$",
+            "$1200\\text{ 元}-1500\\text{ 元}$",
+            "$1500\\text{ 元}-2800\\text{ 元}$"
+          ],
+          "answer": "C",
+          "solution": "设超过免税额的部分为 $t$ 元，则工资、薪金所得为 $t+800$ 元. 当 $0\\le t\\leqslant500$ 时，税款至多为 $0.05\\times500=25$ 元，不可能是 $26.78$ 元. 因此 $500<t\\leqslant2000$，税款为\r\n\n$$\n25+0.1(t-500)=26.78\n$$\n\r\n解得 $t=517.8$，所以当月工资、薪金所得为 $1317.8$ 元，介于 $1200$ 元和 $1500$ 元之间，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "若 $a>b>1$，$P=\\sqrt{\\lg a\\cdot\\lg b}$，$Q=\\frac12\\left(\\lg a+\\lg b\\right)$，$R=\\lg\\left(\\frac{a+b}{2}\\right)$，则（ ）",
+          "choices": [
+            "$R<P<Q$",
+            "$P<Q<R$",
+            "$Q<P<R$",
+            "$P<R<Q$"
+          ],
+          "answer": "B",
+          "solution": "令 $u=\\lg a$，$v=\\lg b$. 因为 $a>b>1$，所以 $u>v>0$. 由算术平均数不小于几何平均数，且 $u\\ne v$，得\r\n\n$$\nP=\\sqrt{uv}<\\frac{u+v}{2}=Q\n$$\n\r\n因为 $a\\ne b$，所以 $(a+b)^2>4ab$，从而\r\n\n$$\n\\frac{a+b}{2}>\\sqrt{ab}\n$$\n\r\n对正数应用 $\\lg x$ 的单调性，得到\r\n\n$$\nR=\\lg\\left(\\frac{a+b}{2}\\right)>\\lg\\sqrt{ab}\r\n=\\frac12\\lg(ab)=\\frac{\\lg a+\\lg b}{2}=Q\n$$\n\r\n因此 $P<Q<R$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "以极坐标系中的点 $(1,1)$ 为圆心，$1$ 为半径的圆的方程是（ ）",
+          "choices": [
+            "$\\rho=2\\cos\\left(\\theta-\\frac{\\pi}{4}\\right)$",
+            "$\\rho=2\\sin\\left(\\theta-\\frac{\\pi}{4}\\right)$",
+            "$\\rho=2\\cos\\left(\\theta-1\\right)$",
+            "$\\rho=2\\sin\\left(\\theta-1\\right)$"
+          ],
+          "answer": "C",
+          "solution": "极坐标点 $(1,1)$ 表示极径为 $1$、极角为 $1$ 的点，故其直角坐标为 $(\\cos1,\\sin1)$. 设圆上任意一点的极坐标为 $(\\rho,\\theta)$，由圆心距等于半径，有\r\n\n$$\n(\\rho\\cos\\theta-\\cos1)^2+(\\rho\\sin\\theta-\\sin1)^2=1\n$$\n\r\n展开并利用 $\\sin^2 1+\\cos^2 1=1$，得\r\n\n$$\n\\rho^2-2\\rho(\\cos\\theta\\cos1+\\sin\\theta\\sin1)=0\n$$\n\r\n即 $\\rho^2-2\\rho\\cos(\\theta-1)=0$. 除去表示极点的因子 $\\rho=0$，圆的极坐标方程为\r\n\n$$\n\\rho=2\\cos(\\theta-1)\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "一个圆柱的侧面展开图是一个正方形，这个圆柱的全面积与侧面积的比是（ ）",
+          "choices": [
+            "$\\frac{1+2\\pi}{2\\pi}$",
+            "$\\frac{1+4\\pi}{4\\pi}$",
+            "$\\frac{1+2\\pi}{\\pi}$",
+            "$\\frac{1+4\\pi}{2\\pi}$"
+          ],
+          "answer": "A",
+          "solution": "设圆柱的底面半径为 $r$，高为 $h$. 侧面展开图是正方形，所以 $h=2\\pi r$. 因此侧面积为 $2\\pi rh=4\\pi^2r^2$，两个底面的面积为 $2\\pi r^2$. 全面积与侧面积的比为\r\n\n$$\n\\frac{4\\pi^2r^2+2\\pi r^2}{4\\pi^2r^2}\r\n=\\frac{1+2\\pi}{2\\pi}\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "过原点的直线与圆 $x^2+y^2+4x+3=0$ 相切，若切点在第三象限，则该直线的方程是（ ）",
+          "choices": [
+            "$y=\\sqrt{3}x$",
+            "$y=-\\sqrt{3}x$",
+            "$y=\\frac{\\sqrt{3}}{3}x$",
+            "$y=-\\frac{\\sqrt{3}}{3}x$"
+          ],
+          "answer": "C",
+          "solution": "将圆方程配方得 $(x+2)^2+y^2=1$，所以圆心为 $(-2,0)$，半径为 $1$. 设过原点的切线为 $y=kx$，则圆心到直线的距离等于半径，故\r\n\n$$\n\\frac{2|k|}{\\sqrt{k^2+1}}=1\n$$\n\r\n从而 $k^2=\\frac13$，即 $k=\\pm\\frac{\\sqrt{3}}3$. 对直线 $kx-y=0$，圆心 $(-2,0)$ 到直线的垂足为切点，故切点坐标为\r\n\n$$\n(-2,0)-\\frac{-2k}{k^2+1}(k,-1)\r\n=\\left(-\\frac{2}{k^2+1},-\\frac{2k}{k^2+1}\\right)\n$$\n\r\n当 $k=\\frac{\\sqrt{3}}3$ 时，切点为 $\\left(-\\frac32,-\\frac{\\sqrt{3}}2\\right)$，在第三象限；当 $k=-\\frac{\\sqrt{3}}3$ 时，切点为 $\\left(-\\frac32,\\frac{\\sqrt{3}}2\\right)$，在第二象限. 因此所求直线为 $y=\\frac{\\sqrt{3}}3x$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "过抛物线 $y=ax^2$（$a>0$）的焦点 $F$ 作一直线交抛物线于 $P$，$Q$ 两点，若线段 $PF$ 与 $FQ$ 的长分别是 $p$，$q$，则 $\\frac1p+\\frac1q$ 等于（ ）",
+          "choices": [
+            "$2a$",
+            "$\\frac1{2a}$",
+            "$4a$",
+            "$\\frac4a$"
+          ],
+          "answer": "C",
+          "solution": "抛物线 $y=ax^2$ 的焦点为 $F\\left(0,\\frac1{4a}\\right)$. 设过焦点的直线方程为\r\n\n$$\ny-\\frac1{4a}=kx\n$$\n\r\n它与抛物线的两个交点的横坐标 $x_1$，$x_2$ 是方程\r\n\n$$\nax^2-kx-\\frac1{4a}=0\n$$\n\r\n的两个根. 因此 $x_1x_2=-\\frac1{4a^2}<0$，两根异号，且\r\n\n$$\n|x_1-x_2|=\\frac{\\sqrt{k^2+1}}{a}\n$$\n\r\n由于直线上横坐标相差 $|x|$ 时距离相差 $|x|\\sqrt{1+k^2}$，且 $x_1$，$x_2$ 异号，所以 $|x_1|+|x_2|=|x_1-x_2|$. 因而\r\n\n$$\n\\frac1p+\\frac1q\r\n=\\frac1{\\sqrt{1+k^2}}\\left(\\frac1{|x_1|}+\\frac1{|x_2|}\\right)\r\n=\\frac{|x_1-x_2|}{|x_1x_2|\\sqrt{1+k^2}}\r\n=4a\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "如图，$OA$ 是圆锥底面中心 $O$ 到母线的垂线，$OA$ 绕轴旋转一周所得曲面将圆锥分成体积相等的两部分，则母线与轴的夹角为（ ）\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2000/img/syllabus_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\arccos\\frac1{\\sqrt[3]{2}}$",
+            "$\\arccos\\frac12$",
+            "$\\arccos\\frac1{\\sqrt{2}}$",
+            "$\\arccos\\frac1{\\sqrt[4]{2}}$"
+          ],
+          "answer": "D",
+          "solution": "设圆锥的高为 $h$，底面半径为 $r$，顶点为 $V$，并在含轴的截面内设底面圆周上的母线端点为 $B$. 取轴为纵轴，令 $V=(0,h)$，$O=(0,0)$，$B=(r,0)$. 设 $A$ 为 $O$ 到母线 $VB$ 的垂足，记 $A$ 到轴的距离为 $x_A$. 直线 $VB$ 的方程为 $hx+ry=hr$，由垂足坐标公式得\r\n\n$$\nx_A=\\frac{rh^2}{r^2+h^2}\n$$\n\r\n若 $\\theta$ 为母线与轴的夹角，则 $\\cos\\theta=\\frac{h}{\\sqrt{r^2+h^2}}$，所以 $x_A=r\\cos^2\\theta$.\r\n\r\n旋转线段 $OA$ 所得的曲面把原圆锥分成两部分. 含有轴截面三角形 $VOA$ 的那一部分，在旋转后由以 $O$、$V$ 为顶点、以过 $A$ 的圆为底面的两个圆锥组成；它们的底面半径均为 $x_A$，高分别为 $y_A$ 和 $h-y_A$，其中 $y_A$ 为点 $A$ 的纵坐标. 因此该部分体积为\r\n\n$$\n\\frac13\\pi x_A^2y_A+\\frac13\\pi x_A^2(h-y_A)=\\frac13\\pi h x_A^2\n$$\n\r\n原圆锥体积为 $\\frac13\\pi h r^2$. 由题意上述部分占原圆锥体积的一半，因此\r\n\n$$\n\\frac{\\frac13\\pi h x_A^2}{\\frac13\\pi h r^2}=\\frac12\n$$\n\r\n从而 $\\frac{x_A}{r}=\\frac1{\\sqrt2}$. 于是 $\\cos^2\\theta=\\frac1{\\sqrt2}$，且 $\\theta$ 为锐角，故\r\n\n$$\n\\cos\\theta=\\frac1{\\sqrt[4]{2}}\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "乒乓球队的 $10$ 名队员中有 $3$ 名主力队员，派 $5$ 名参加比赛，$3$ 名主力队员要安排在第一、三、五位置，其余 $7$ 名队员选 $2$ 名安排在第二、四位置，那么不同的出场安排共有 _______ {}种（用数字作答）.",
+          "choices": [],
+          "answer": "252",
+          "solution": "先把 $3$ 名主力队员安排在第一、三、五位置，有 $3!$ 种安排. 再从其余 $7$ 名队员中选出 $2$ 名，并把他们安排在第二、四位置，有 $\\mathrm C_7^2\\cdot2!$ 种安排. 因此不同的出场安排共有\r\n\n$$\n3!\\,\\mathrm C_7^2\\,2!=6\\times21\\times2=252\n$$\n\r\n种.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "椭圆 $\\frac{x^2}{9}+\\frac{y^2}{4}=1$ 的焦点 $F_1$，$F_2$，点 $P$ 为其上的动点，当 $\\angle F_1PF_2$ 为钝角时，点 $P$ 横坐标的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\(-\\frac{3}{\\sqrt{5}}<x<\\frac{3}{\\sqrt{5}}\\)",
+          "solution": "椭圆的长半轴为 $3$，短半轴为 $2$，所以 $c=\\sqrt{3^2-2^2}=\\sqrt5$，可设\r\n$F_1=(-\\sqrt5,0)$，$F_2=(\\sqrt5,0)$，$P=(x,y)$. 角 $\\angle F_1PF_2$ 为钝角，当且仅当\r\n\n$$\n\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}<0\n$$\n\r\n而\r\n\n$$\n\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}\r\n=(-\\sqrt5-x)(\\sqrt5-x)+y^2=x^2+y^2-5\n$$\n\r\n因此钝角条件为 $x^2+y^2<5$. 由椭圆方程得 $y^2=4-\\frac49x^2$，代入可得\r\n\n$$\n4+\\frac59x^2<5\n$$\n\r\n即 $x^2<\\frac95$. 所以点 $P$ 的横坐标范围为\r\n\n$$\n-\\frac3{\\sqrt5}<x<\\frac3{\\sqrt5}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "设 $\\{a_n\\}$ 是首项为 $1$ 的正项数列，且 $(n+1)a_{n+1}^2-na_n^2+a_{n+1}a_n=0$（$n=1$，$2$，$3$，$\\dots$），则它的通项公式是 $a_n= _______ {}$.",
+          "choices": [],
+          "answer": "\\(\\frac{1}{n}\\)",
+          "solution": "因为数列各项为正，令 $r_n=\\frac{a_{n+1}}{a_n}>0$. 将递推关系除以 $a_n^2$，得\r\n\n$$\n(n+1)r_n^2+r_n-n=0\n$$\n\r\n这个关于 $r_n$ 的方程判别式为 $1+4n(n+1)=(2n+1)^2$，所以\r\n\n$$\nr_n=\\frac{-1+(2n+1)}{2(n+1)}=\\frac{n}{n+1}\n$$\n\r\n另一个根为负数，不符合 $r_n>0$. 于是\r\n\n$$\na_{n+1}=\\frac{n}{n+1}a_n\n$$\n\r\n由 $a_1=1$ 逐项相乘，得到\r\n\n$$\na_n=a_1\\prod_{k=1}^{n-1}\\frac{k}{k+1}\r\n=\\frac1n\n$$\n\r\n故通项公式为 $a_n=\\frac1n$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "如图，$E$，$F$ 分别为正方体面 $ADD_1A_1$，面 $BCC_1B_1$ 的中心，则四边形 $BFD_1E$ 在该正方体的面上的射影可能是 _______ {}（要求：把可能的图序号都填上）.\r\n\r\n\\begingroup\r\n\\leftskip=0pt\\relax\r\n\\everypar{}\r\n\\hbadness=10000\r\n\\examfiguregroup[float=inline]{img/2000/syllabus_science/q16_fig1.png}{%\r\n    \\bitmapinclude[max width=0.82\\linewidth]{img/2000/syllabus_science/q16_fig1.png}\\par\r\n    \\noindent\r\n    \\makebox[0.22\\linewidth][c]{\\bitmapinclude[width=0.20\\linewidth]{img/2000/syllabus_science/q16_optA.png}}\\hfill\r\n    \\makebox[0.22\\linewidth][c]{\\bitmapinclude[width=0.20\\linewidth]{img/2000/syllabus_science/q16_optB.png}}\\hfill\r\n    \\makebox[0.22\\linewidth][c]{\\bitmapinclude[width=0.20\\linewidth]{img/2000/syllabus_science/q16_optC.png}}\\hfill\r\n    \\makebox[0.22\\linewidth][c]{\\bitmapinclude[width=0.20\\linewidth]{img/2000/syllabus_science/q16_optD.png}}%\r\n}\r\n\\endgroup",
+          "choices": [],
+          "answer": "\\(\\circled{2}\\circled{3}\\)",
+          "solution": "取正方体棱长为 $1$，设\r\n$A=(0,0,0)$，$B=(1,0,0)$，$D_1=(0,1,1)$，$E=\\left(0,\\frac12,\\frac12\\right)$，$F=\\left(1,\\frac12,\\frac12\\right)$.\r\n在两个与面 $ADD_1A_1$、$BCC_1B_1$ 平行的面上作射影时，$E$ 与 $F$ 的射影重合，$B$ 与 $D_1$ 的射影分别为该面的两个对角顶点，所以四边形的射影退化为一条对角线，对应图 $\\circled{3}$.\r\n\r\n在其余四个面上作射影时，以相应面的两条棱为坐标轴，四个投影点按顶点顺序均可写成\r\n$\\left(1,0\\right)$，$\\left(1,\\frac12\\right)$，$\\left(0,1\\right)$，$\\left(0,\\frac12\\right)$.\r\n相邻两点依次连接后，得到两条平行的短边和两条斜边，即图 $\\circled{2}$ 所示的四边形. 因此可能的图序号为 $\\circled{2}$、$\\circled{3}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "已知函数 $y=\\sqrt{3}\\sin x+\\cos x$（$x\\in\\mathbb{R}$）.\r\n\r\n\n(1) 当函数 $y$ 取得最大值时，求自变量 $x$ 的集合.\n\n(2) 该函数的图象可由 $y=\\sin x$（$x\\in\\mathbb{R}$）的图象经过怎样的平移和伸缩变换得到？",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 利用两角和公式，\r\n\n$$\n\\sqrt{3}\\sin x+\\cos x\r\n=2\\left(\\frac{\\sqrt{3}}{2}\\sin x+\\frac{1}{2}\\cos x\\right)\r\n=2\\sin\\left(x+\\frac{\\pi}{6}\\right)\n$$\n\r\n由于正弦函数的最大值为 $1$，所以函数 $y$ 的最大值为 $2$. 当且仅当\r\n$x+\\frac{\\pi}{6}=\\frac{\\pi}{2}+2k\\pi$，（$k\\in\\mathbb{Z}$）\r\n时取到最大值，故自变量 $x$ 的集合为\r\n\n$$\n\\left\\{\\frac{\\pi}{3}+2k\\pi\\mid k\\in\\mathbb{Z}\\right\\}\n$$\n\n(2) 先将 $y=\\sin x$ 的图象上各点的纵坐标伸长为原来的 $2$ 倍，得到 $y=2\\sin x$ 的图象；再将所得图象向左平移 $\\frac{\\pi}{6}$，得到\r\n\n$$\ny=2\\sin\\left(x+\\frac{\\pi}{6}\\right)=\\sqrt{3}\\sin x+\\cos x\n$$\n\r\n因此，所求图象可由 $y=\\sin x$ 的图象先作纵向伸长，再向左平移 $\\frac{\\pi}{6}$ 得到.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，已知平行六面体 $ABCD-A_1B_1C_1D_1$ 的底面 $ABCD$ 为菱形，且 $\\angle C_1CB=\\angle C_1CD=\\angle BCD=60^\\circ$.\r\n\r\n\n(1) 证明：$C_1C\\perp BD$；\n\n(2) 假定 $CD=2$，$CC_1=\\frac32$，记面 $C_1BD$ 为 $\\alpha$，面 $CBD$ 为 $\\beta$，求二面角 $\\alpha-BD-\\beta$ 的平面角的余弦值；\n\n(3) 当 $\\frac{CD}{CC_1}$ 的值为多少时，能使 $A_1C\\perp$ 平面 $C_1BD$？请给出证明.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2000/img/syllabus_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $\\mathbf{b}=\\overrightarrow{CB}$，$\\mathbf{d}=\\overrightarrow{CD}$，$\\mathbf{c}=\\overrightarrow{CC_1}$. 由已知角相等，\r\n\n$$\n\\mathbf{c}\\cdot\\mathbf{b}=|\\mathbf{c}|\\,|\\mathbf{b}|\\cos60^\\circ=\\mathbf{c}\\cdot\\mathbf{d}\n$$\n\r\n又 $\\overrightarrow{BD}=\\mathbf{d}-\\mathbf{b}$，所以\r\n\n$$\n\\mathbf{c}\\cdot\\overrightarrow{BD}=\\mathbf{c}\\cdot(\\mathbf{d}-\\mathbf{b})=0\n$$\n\r\n因此 $C_1C\\perp BD$.\n\n(2) 由于 $CB=CD=2$，且 $\\angle BCD=60^\\circ$，所以三角形 $BCD$ 为边长 $2$ 的等边三角形. 设 $M$ 为 $BD$ 的中点，则\r\n$CM\\perp BD$，$CM=\\sqrt{3}$.\r\n由 $M$ 为 $BD$ 的中点，\r\n$\\overrightarrow{CM}=\\frac{\\mathbf{b}+\\mathbf{d}}{2}$，$\\mathbf{c}\\cdot\\overrightarrow{CM}=\\frac{\\mathbf{c}\\cdot\\mathbf{b}+\\mathbf{c}\\cdot\\mathbf{d}}{2}=\\frac{3}{2}$.\r\n于是\r\n\n$$\n\\cos\\angle C_1CM=\\frac{\\mathbf{c}\\cdot\\overrightarrow{CM}}{CC_1\\cdot CM}\r\n=\\frac{\\frac{3}{2}}{(\\frac{3}{2})\\sqrt{3}}=\\frac{\\sqrt{3}}{3}\n$$\n\r\n由于 $C_1C\\perp BD$ 且 $CM\\perp BD$，直线 $MC_1$ 也垂直于 $BD$，所以二面角 $\\alpha-BD-\\beta$ 的平面角为 $\\angle C_1MC$. 在三角形 $C_1CM$ 中，\r\n\n$$\nC_1M^2=CC_1^2+CM^2-2\\cdot CC_1\\cdot CM\\cos\\angle C_1CM\r\n=\\frac94+3-3=\\frac94\n$$\n\r\n故 $C_1M=\\frac32=CC_1$. 从而\r\n\n$$\n\\cos\\angle C_1MC=\\frac{C_1M^2+CM^2-CC_1^2}{2\\cdot C_1M\\cdot CM}\r\n=\\frac{3}{3\\sqrt{3}}=\\frac{\\sqrt{3}}{3}\n$$\n\n(3) 设 $CD=CB=s>0$，$CC_1=h>0$，仍取 $M$ 为 $BD$ 的中点. 由等边三角形 $BCD$，\r\n$CM=\\frac{\\sqrt{3}}{2}s$，$CM^2=\\frac34s^2$\r\n并且\r\n\n$$\n\\mathbf{c}\\cdot\\overrightarrow{CM}=\\frac{hs}{2}\n$$\n\r\n由平行六面体的向量关系，\r\n\n$$\n\\overrightarrow{CA_1}=\\mathbf{b}+\\mathbf{d}+\\mathbf{c}=2\\overrightarrow{CM}+\\mathbf{c}\n$$\n\r\n由第一问，$\\mathbf{c}\\perp BD$. 又因底面 $ABCD$ 为菱形，$|\\mathbf{b}|=|\\mathbf{d}|$，所以\r\n\n$$\n(\\mathbf{b}+\\mathbf{d})\\cdot(\\mathbf{d}-\\mathbf{b})=|\\mathbf{d}|^2-|\\mathbf{b}|^2=0\n$$\n\r\n因此 $\\mathbf{b}+\\mathbf{d}\\perp BD$，从而\r\n\n$$\n\\overrightarrow{CA_1}=\\mathbf{b}+\\mathbf{d}+\\mathbf{c}\\perp BD\n$$\n\r\n平面 $C_1BD$ 内过 $M$ 的两条相交直线可取 $BD$ 与 $MC_1$，其中\r\n\n$$\n\\overrightarrow{MC_1}=\\mathbf{c}-\\overrightarrow{CM}\n$$\n\r\n因此，$A_1C\\perp$ 平面 $C_1BD$ 的充要条件是\r\n\n$$\n\\overrightarrow{CA_1}\\cdot\\overrightarrow{MC_1}=0\n$$\n\r\n代入上式得\r\n\n$$\n\\overrightarrow{CA_1}\\cdot\\overrightarrow{MC_1}\r\n=(2\\overrightarrow{CM}+\\mathbf{c})\\cdot(\\mathbf{c}-\\overrightarrow{CM})\r\n=h^2+\\frac{hs}{2}-\\frac32s^2\n$$\n\r\n所以\r\n\n$$\n2h^2+hs-3s^2=0\n$$\n\r\n令 $r=\\frac{s}{h}>0$，则\r\n$3r^2-r-2=0$，$(3r+2)(r-1)=0$.\r\n由于 $r>0$，只能有 $r=1$，即\r\n\n$$\n\\frac{CD}{CC_1}=1\n$$\n\r\n反之，当该比值为 $1$ 时上面的内积为 $0$，且 $\\overrightarrow{CA_1}\\perp BD$，故确实有 $A_1C\\perp$ 平面 $C_1BD$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "设函数 $f(x)=\\sqrt{x^2+1}-ax$，其中 $a>0$.\r\n\r\n\n(1) 解不等式 $f(x)\\leqslant1$；\n\n(2) 求 $a$ 的取值范围，使函数 $f(x)$ 在区间 $[0,+\\infty)$ 上是单调函数.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 原不等式等价于\r\n\n$$\n\\sqrt{x^2+1}\\le 1+ax\n$$\n\r\n由于左边非负，必须有 $1+ax\\geqslant0$. 在此条件下两边平方，得\r\n\n$$\nx^2+1\\le(1+ax)^2\n$$\n\r\n即\r\n\n$$\nx\\bigl((1-a^2)x-2a\\bigr)\\leqslant0\n$$\n\r\n$0<a<1$ 时，第二个不等式的两个根为 $0$ 和 $\\frac{2a}{1-a^2}>0$，故其解集为 $\\left[0,\\frac{2a}{1-a^2}\\right]$，且其中每个 $x$ 都满足 $1+ax>0$. 因此此时原不等式的解集为\r\n\n$$\n\\left[0,\\frac{2a}{1-a^2}\\right]\n$$\n\r\n当 $a=1$ 时，平方后的不等式为 $-2x\\leqslant0$，结合 $1+x\\geqslant0$，得到解集 $[0,+\\infty)$. 当 $a>1$ 时，平方后的不等式解为\r\n\n$$\n\\left(-\\infty,-\\frac{2a}{a^2-1}\\right]\\cup[0,+\\infty)\n$$\n\r\n但 $x\\le-\\frac{2a}{a^2-1}$ 时有 $1+ax<0$，不符合平方前的必要条件，所以原不等式的解集仍为 $[0,+\\infty)$. 综上，\r\n\n$$\n\\begin{cases}\r\n\\left[0,\\dfrac{2a}{1-a^2}\\right],&0<a<1,\\\\\r\n[0,+\\infty),&a\\geqslant1.\r\n\\end{cases}\n$$\n\n(2) 在 $x\\geqslant0$ 时，函数的导数为\r\n\n$$\nf'(x)=\\frac{x}{\\sqrt{x^2+1}}-a\n$$\n\r\n又因为 $0\\le\\frac{x}{\\sqrt{x^2+1}}<1$. 当 $a\\geqslant1$ 时，$f'(x)<0$，所以 $f(x)$ 在 $[0,+\\infty)$ 上单调递减.\r\n\r\n当 $0<a<1$ 时，令\r\n\n$$\nx_0=\\frac{a}{\\sqrt{1-a^2}}>0\n$$\n\r\n由 $\\frac{x_0}{\\sqrt{x_0^2+1}}=a$，可知 $f'(x)<0$（$0\\le x<x_0$），而 $f'(x)>0$（$x>x_0$）. 因此函数先减后增，不是单调函数. 故所求 $a$ 的取值范围为\r\n\n$$\na\\geqslant1\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "(1) 已知数列 $\\{c_n\\}$，其中 $c_n=2^n+3^n$，且数列 $\\{c_{n+1}-pc_n\\}$ 为等比数列，求常数 $p$；\n\n(2) 设 $\\{a_n\\}$，$\\{b_n\\}$ 是公比不相等的两个等比数列，$c_n=a_n+b_n$，证明数列 $\\{c_n\\}$ 不是等比数列.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 记\r\n\n$$\nd_n=c_{n+1}-pc_n=(2-p)2^n+(3-p)3^n\n$$\n\r\n若 $\\{d_n\\}$ 为等比数列，则必满足 $d_{n+1}^2=d_nd_{n+2}$. 令 $A=2-p$，$B=3-p$，则\r\n\n$$\nd_{n+1}^2-d_nd_{n+2}\r\n=(2A2^n+3B3^n)^2-(A2^n+B3^n)(4A2^n+9B3^n)\r\n=-AB6^n=-(2-p)(3-p)6^n\n$$\n\r\n由于 $6^n\\ne0$，必须有 $(2-p)(3-p)=0$，所以 $p=2$ 或 $p=3$. 当 $p=2$ 时 $d_n=3^n$，当 $p=3$ 时 $d_n=-2^n$，二者均为等比数列，故这两个值都成立.\n\n(2) 按等比数列的定义，设 $\\{a_n\\}$ 和 $\\{b_n\\}$ 的公比分别为 $r$ 和 $s$，其中 $r\\ne s$，且各项均非零. 则\r\n$c_{n+1}=ra_n+sb_n$，$c_{n+2}=r^2a_n+s^2b_n$.\r\n于是\r\n\n$$\nc_{n+1}^2-c_nc_{n+2}\r\n=(ra_n+sb_n)^2-(a_n+b_n)(r^2a_n+s^2b_n)\r\n=-(r-s)^2a_nb_n\n$$\n\r\n由于两个等比数列的各项非零，且 $r\\ne s$，右端不为 $0$. 但是任一等比数列都满足 $c_{n+1}^2=c_nc_{n+2}$，矛盾. 因此 $\\{c_n\\}$ 不是等比数列.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "某蔬菜基地种植西红柿，由历年市场行情得知，从二月一日起的 $300$ 天内，西红柿市场售价与上市时间的关系用图一的一条折线表示；西红柿的种植成本与上市时间的关系用图二的抛物线段表示.\r\n\r\n\n(1) 写出图一表示的市场售价与时间的函数关系式 $p=f(t)$；写出图二表示的种植成本与时间的函数关系式 $Q=g(t)$；\n\n(2) 认定市场售价减去种植成本为纯收益，问何时上市的西红柿纯收益最大？\n\r\n\r\n注：市场售价和种植成本的单位：$\\text{ 元}/10^{2}\\mathrm{~kg}$，时间单位：$\\text{天}$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2000/img/syllabus_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由图一，市场售价折线经过 $(0,300)$、$(200,100)$、$(300,300)$. 前一段斜率为\r\n$\\frac{100-300}{200-0}=-1$，后一段斜率为\r\n$\\frac{300-100}{300-200}=2$，所以\r\n\n$$\np=f(t)=\\begin{cases}\r\n300-t,&0\\le t\\leqslant200,\\\\\r\n2t-300,&200<t\\leqslant300.\r\n\\end{cases}\n$$\n\r\n由图二，成本曲线的顶点为 $(150,100)$，且经过 $(50,150)$，可设\r\n\n$$\nQ=g(t)=k(t-150)^2+100\n$$\n\r\n代入 $(50,150)$，得\r\n\n$$\n150=100+k(50-150)^2=100+10000k\n$$\n\r\n所以 $k=\\frac{1}{200}$，从而\r\n$g(t)=\\frac{1}{200}(t-150)^2+100$，（$0\\le t\\leqslant300$）.\n\n(2) 设纯收益为 $H(t)=f(t)-g(t)$. 当 $0\\le t\\leqslant200$ 时，\r\n\n$$\nH(t)=300-t-\\left[\\frac{1}{200}(t-150)^2+100\\right]\r\n=100-\\frac{(t-50)^2}{200}\n$$\n\r\n因此这一段的最大值在 $t=50$ 时取得，最大值为 $100$.\r\n\r\n当 $200<t\\leqslant300$ 时，\r\n\n$$\nH(t)=2t-300-\\left[\\frac{1}{200}(t-150)^2+100\\right]\r\n=100-\\frac{(t-350)^2}{200}\n$$\n\r\n在区间 $(200,300]$ 内，$t$ 越大，$(t-350)^2$ 越小，所以这一段的最大值在 $t=300$ 时取得，等于 $\\frac{175}{2}$. 因为 $100>\\frac{175}{2}$，故纯收益最大时 $t=50$，即从二月一日起第 $50$ 天上市.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "如图，已知梯形 $ABCD$ 中 $|AB|=2|CD|$，点 $E$ 分有向线段 $\\overrightarrow{AC}$ 所成的比为 $\\lambda$，双曲线过 $C$，$D$，$E$ 三点，且以 $A$，$B$ 为焦点，当 $\\frac23\\le\\lambda\\le\\frac34$ 时，求双曲线离心率 $e$ 的取值范围.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2000/img/syllabus_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "设双曲线的中心为 $O$，焦点 $A$，$B$ 分别为 $(-c,0)$，$(c,0)$，则 $AB=2c$，且双曲线方程可写为\r\n$\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$，$c^2=a^2+b^2$，$e=\\frac{c}{a}$.\r\n由图中 $CD\\parallel AB$，且 $C$，$D$ 在双曲线的两支上，设它们的纵坐标均为 $y_0$. 双曲线方程关于 $y$ 轴对称，所以 $C$，$D$ 的横坐标互为相反数. 又\r\n\n$$\nCD=\\frac{AB}{2}=c\n$$\n\r\n故可设\r\n$C\\left(\\frac{c}{2},y_0\\right)$，$D\\left(-\\frac{c}{2},y_0\\right)$.\r\n由点 $C$ 在双曲线上，\r\n\n$$\n\\frac{c^2}{4a^2}-\\frac{y_0^2}{b^2}=1\n$$\n\r\n由 $\\frac{AE}{EC}=\\lambda$，点 $E$ 的坐标为内分点公式\r\n\n$$\nE=\\frac{A+\\lambda C}{1+\\lambda}\r\n=\\left(\\frac{c(\\lambda-2)}{2(1+\\lambda)},\\frac{\\lambda y_0}{1+\\lambda}\\right)\n$$\n\r\n因为 $E$ 也在双曲线上，\r\n\n$$\n\\frac{c^2(\\lambda-2)^2}{4a^2(1+\\lambda)^2}\r\n-\\frac{\\lambda^2y_0^2}{b^2(1+\\lambda)^2}=1\n$$\n\r\n令 $e^2=\\frac{c^2}{a^2}$，由点 $C$ 的关系得到\r\n\n$$\n\\frac{y_0^2}{b^2}=\\frac{e^2}{4}-1\n$$\n\r\n将其代入点 $E$ 的关系，并乘以 $(1+\\lambda)^2$，得\r\n\n$$\n\\frac{e^2(\\lambda-2)^2}{4}-\\lambda^2\\left(\\frac{e^2}{4}-1\\right)=(1+\\lambda)^2\n$$\n\r\n化简可得\r\n$e^2(1-\\lambda)+\\lambda^2=1+2\\lambda+\\lambda^2$，$e^2=\\frac{1+2\\lambda}{1-\\lambda}$.\r\n由于 $\\frac23\\le\\lambda\\le\\frac34<1$，且\r\n\n$$\n\\frac{\\mathrm d}{\\mathrm d\\lambda}\\left(\\frac{1+2\\lambda}{1-\\lambda}\\right)=\\frac{3}{(1-\\lambda)^2}>0\n$$\n\r\n所以 $e^2$ 随 $\\lambda$ 增大而增大. 因此\r\n\n$$\ne^2\\in\\left[\\frac{1+2\\cdot\\frac23}{1-\\frac23},\\frac{1+2\\cdot\\frac34}{1-\\frac34}\\right]=[7,10]\n$$\n\r\n由 $e>0$，得到\r\n\n$$\n\\sqrt{7}\\le e\\le\\sqrt{10}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

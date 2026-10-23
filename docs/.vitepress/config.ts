@@ -56,18 +56,19 @@ export default defineConfig({
 
     nav: [
       { text: "首页", link: "/" },
-      { text: "🏛️ 真题检索大厅", link: "/papers/" },
+      { text: "🏛️ 历年真题大厅 (777套)", link: "/papers/" },
       {
-        text: "2024年真题",
+        text: "精选试卷",
         items: [
-          { text: "新高考 I 卷", link: "/papers/2024/new_gaokao_paper_1" },
-          { text: "新高考 II 卷", link: "/papers/2024/new_gaokao_paper_2" },
-          { text: "全国甲卷（文科）", link: "/papers/2024/national_paper_a_liberal" },
-          { text: "全国甲卷（理科）", link: "/papers/2024/national_paper_a_science" },
-          { text: "北京卷", link: "/papers/2024/beijing" },
-          { text: "上海卷", link: "/papers/2024/shanghai" },
-          { text: "天津卷", link: "/papers/2024/tianjin" },
-          { text: "上海春考", link: "/papers/2024/shanghai_spring" }
+          { text: "🏛️ 1952年 建国第一卷", link: "/papers/1952/national" },
+          { text: "🌟 2024 新高考 I 卷", link: "/papers/2024/new_gaokao_paper_1" },
+          { text: "🌟 2024 新高考 II 卷", link: "/papers/2024/new_gaokao_paper_2" },
+          { text: "🌟 2024 全国甲卷（理科）", link: "/papers/2024/national_paper_a_science" },
+          { text: "🌟 2024 全国甲卷（文科）", link: "/papers/2024/national_paper_a_liberal" },
+          { text: "🌟 2024 北京卷", link: "/papers/2024/beijing" },
+          { text: "🌟 2024 上海卷", link: "/papers/2024/shanghai" },
+          { text: "🌟 2024 天津卷", link: "/papers/2024/tianjin" },
+          { text: "🌟 2024 上海春考", link: "/papers/2024/shanghai_spring" }
         ]
       },
       { text: "关于与鸣谢", link: "/about" },

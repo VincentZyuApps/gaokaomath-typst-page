@@ -1,0 +1,216 @@
+{
+  "year": "1977",
+  "slug": "chongqing",
+  "title": "1977年重庆卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "解方程：$9\\left(3x+2\\right)^2-4=0$.",
+          "choices": [],
+          "answer": "",
+          "solution": "移项得\r\n\n$$\n9\\left(3x+2\\right)^2=4\n$$\n\r\n将左边看作平方差，得\r\n\n$$\n\\left[3\\left(3x+2\\right)+2\\right]\\left[3\\left(3x+2\\right)-2\\right]=0\n$$\n\r\n即\r\n\n$$\n\\left(9x+8\\right)\\left(9x+4\\right)=0\n$$\n\r\n所以 $9x+8=0$ 或 $9x+4=0$，从而\r\n\n$$\nx=-\\frac{8}{9} \\text{或}  x=-\\frac{4}{9}\n$$\n\r\n把这两个值分别代回原方程，均使等式成立，故原方程的解为\r\n$x_1=-\\frac{8}{9}$，$x_2=-\\frac{4}{9}$.\r\n\r\n也可由 $\\left(3x+2\\right)^2=\\frac49$ 得\r\n$3x+2=\\pm\\frac23$，解得同样的两个值.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知 $\\lg5=0.6990$，问 $8^{34}\\times25^{11}$ 是多少位的整数.",
+          "choices": [],
+          "answer": "",
+          "solution": "设 $N=8^{34}\\times25^{11}$. 由 $\\lg10=1$ 和已知条件，\r\n\n$$\n\\lg2=\\lg10-\\lg5=1-0.6990=0.3010\n$$\n\r\n于是\r\n\n$$\n\\begin{aligned}\r\n\\lg N\r\n&=34\\lg8+11\\lg25\\\\\r\n&=34\\times3\\lg2+11\\times2\\lg5\\\\\r\n&=102\\times0.3010+22\\times0.6990\\\\\r\n&=30.702+15.378=46.0800.\r\n\\end{aligned}\n$$\n\r\n因此 $10^{46}<N<10^{47}$. 正整数的常用对数在 $(46,47)$ 内时，该正整数恰有 $47$ 位，所以 $8^{34}\\times25^{11}$ 是 $47$ 位的整数.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "把 $\\sin\\left(30^\\circ+x\\right)+\\cos\\left(x+60^\\circ\\right)-\\sin^2x-\\cos^2x$ 化成积的形式.",
+          "choices": [],
+          "answer": "",
+          "solution": "利用 $\\cos\\theta=\\sin\\left(90^\\circ-\\theta\\right)$ 和平方关系，原式为\r\n\n$$\n\\sin\\left(30^\\circ+x\\right)+\\sin\\left(30^\\circ-x\\right)-1\n$$\n\r\n用两角和的正弦之和公式，得\r\n\n$$\n\\begin{aligned}\r\n&\\sin\\left(30^\\circ+x\\right)+\\sin\\left(30^\\circ-x\\right)-1\\\\\r\n&=2\\sin30^\\circ\\cos x-1\\\\\r\n&=\\cos x-1\\\\\r\n&=-\\left(1-\\cos x\\right)\\\\\r\n&=-2\\sin^2\\frac{x}{2}.\r\n\\end{aligned}\n$$\n\r\n所以原式化成积的形式为 $-2\\sin^2\\frac{x}{2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "试证明：$\\left[\\left(2m\\right)^0-\\left(m+x\\right)^{-2}\\right]\\div\\left[\\left(2x\\right)^0-\\left(m+x\\right)^{-1}\\right]^2\\cdot\\left[2m^0-\\frac{1-\\left(m-x\\right)^2}{2mx}\\right]=\\frac{\\left(m+x+1\\right)^2}{2mx}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "原式有意义并且可以进行下列约分时，需要\r\n$m\\ne0$，$x\\ne0$，$m+x\\ne0$，$m+x\\ne1$. 在这些条件下，先把幂改写为分式：\r\n$\\left(2m\\right)^0=1$，$\\left(2x\\right)^0=1$，$\\left(m+x\\right)^{-2}=\\frac{1}{\\left(m+x\\right)^2}$，$\\left(m+x\\right)^{-1}=\\frac{1}{m+x}$.\r\n因此第一因子为\r\n\n$$\n1-\\frac{1}{\\left(m+x\\right)^2}\r\n=\\frac{\\left(m+x-1\\right)\\left(m+x+1\\right)}{\\left(m+x\\right)^2}\n$$\n\r\n被除数中的平方因子为\r\n\n$$\n\\left(1-\\frac{1}{m+x}\\right)^2\r\n=\\frac{\\left(m+x-1\\right)^2}{\\left(m+x\\right)^2}\n$$\n\r\n第三因子化为\r\n\n$$\n\\begin{aligned}\r\n2-\\frac{1-\\left(m-x\\right)^2}{2mx}\r\n&=\\frac{4mx-1+\\left(m-x\\right)^2}{2mx}\\\\\r\n&=\\frac{m^2+x^2+2mx-1}{2mx}\\\\\r\n&=\\frac{\\left(m+x-1\\right)\\left(m+x+1\\right)}{2mx}.\r\n\\end{aligned}\n$$\n\r\n代入原式并约去非零因子，得\r\n\n$$\n\\begin{aligned}\r\n&\\frac{\\left(m+x-1\\right)\\left(m+x+1\\right)}{\\left(m+x\\right)^2}\r\n\\cdot\\frac{\\left(m+x\\right)^2}{\\left(m+x-1\\right)^2}\r\n\\cdot\\frac{\\left(m+x-1\\right)\\left(m+x+1\\right)}{2mx}\\\\\r\n&=\\frac{\\left(m+x+1\\right)^2}{2mx}.\r\n\\end{aligned}\n$$\n\r\n这正是题中右端，故等式成立.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "将半径为 $R$，中心角为 $120^\\circ$ 的扇形铁片，卷成一圆锥容器，问圆锥容器的容积是多少（接缝及卷边不计）.",
+          "choices": [],
+          "answer": "",
+          "solution": "设卷成的圆锥底面半径为 $r$，高为 $h$. 扇形的两条半径卷合后成为圆锥的母线，所以母线长仍为 $R$，扇形弧长成为圆锥底面周长.\r\n\r\n扇形弧长为\r\n\n$$\n\\frac{120^\\circ}{360^\\circ}\\cdot2\\pi R=\\frac{2\\pi R}{3}\n$$\n\r\n所以\r\n$2\\pi r=\\frac{2\\pi R}{3}$，$r=\\frac{R}{3}$.\r\n由圆锥的母线、高和底面半径构成直角三角形，\r\n\n$$\nh=\\sqrt{R^2-r^2}\r\n=\\sqrt{R^2-\\left(\\frac{R}{3}\\right)^2}\r\n=\\frac{2\\sqrt2}{3}R\n$$\n\r\n于是圆锥容积为\r\n\n$$\nV=\\frac13\\pi r^2h\r\n=\\frac13\\pi\\left(\\frac{R}{3}\\right)^2\\cdot\\frac{2\\sqrt2}{3}R\r\n=\\frac{2\\sqrt2}{81}\\pi R^3\n$$\n\r\n故圆锥容器的容积为 $\\frac{2\\sqrt2}{81}\\pi R^3$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/chongqing/q2_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "如图，$AD$，$BD$ 分别为 $\\triangle ABC$ 的角平分线，延长 $AD$ 交 $\\triangle ABC$ 的外接圆于 $E$，连接 $BE$，求证：$BE=DE$.\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/chongqing/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "延长 $BD$ 交外接圆于 $F$. 由于两弦 $AE$ 和 $BF$ 在圆内相交，圆内两弦所成角的度数等于所对两弧度数和的一半，因此\r\n\n$$\nm\\left(\\angle BDE\\right)=\\frac12\\left[m\\left(\\widehat{BE}\\right)+m\\left(\\widehat{AF}\\right)\\right]\n$$\n\r\n又因为 $D$ 在 $BF$ 上，$\\angle DBE=\\angle FBE$ 是圆周角，它所对的弧为不含点 $B$ 的弧 $FE$，所以\r\n\n$$\nm\\left(\\angle DBE\\right)=\\frac12m\\left(\\widehat{FE}\\right)\n$$\n\r\n图中弧 $FE$ 经过 $C$，故\r\n\n$$\nm\\left(\\angle DBE\\right)=\\frac12\\left[m\\left(\\widehat{EC}\\right)+m\\left(\\widehat{CF}\\right)\\right]\n$$\n\r\n因为 $AD$ 平分 $\\angle BAC$，且 $A$，$D$，$E$ 共线，所以\r\n$\\angle BAE=\\angle EAC$. 这两个圆周角分别所对弧 $BE$ 和 $EC$，从而\r\n\n$$\nm\\left(\\widehat{BE}\\right)=m\\left(\\widehat{EC}\\right)\n$$\n\r\n同理，$BD$ 平分 $\\angle ABC$，且 $B$，$D$，$F$ 共线，所以\r\n$\\angle ABF=\\angle FBC$，从而\r\n\n$$\nm\\left(\\widehat{AF}\\right)=m\\left(\\widehat{FC}\\right)\n$$\n\r\n代入前面的两个角度关系，得到\r\n\n$$\nm\\left(\\angle BDE\\right)=m\\left(\\angle DBE\\right)\n$$\n\r\n所以 $\\triangle BDE$ 的两个底角相等，故 $BE=DE$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "顺次连接 $A(-2,4)$，$B(2,2)$，$C(4,0)$ 得 $\\triangle ABC$，写出 $BC$ 边上的高所在的直线方程，并计算 $\\triangle ABC$ 的面积.",
+          "choices": [],
+          "answer": "",
+          "solution": "直线 $BC$ 的斜率为\r\n\n$$\n\\frac{0-2}{4-2}=-1\n$$\n\r\n所以直线 $BC$ 的方程为\r\n$y-2=-(x-2)$，$x+y-4=0$.\r\n$BC$ 边上的高垂直于 $BC$，其斜率为 $1$，又经过点 $A(-2,4)$，故高所在直线为\r\n$y-4=x+2$，$y=x+6$.\r\n\r\n点 $A$ 到直线 $BC$ 的距离为高的长度：\r\n\n$$\nh=\\frac{|(-2)+4-4|}{\\sqrt{1^2+1^2}}=\\sqrt2\n$$\n\r\n而\r\n\n$$\n|BC|=\\sqrt{(4-2)^2+(0-2)^2}=2\\sqrt2\n$$\n\r\n因此\r\n\n$$\nS_{\\triangle ABC}=\\frac12h|BC|=\\frac12\\cdot\\sqrt2\\cdot2\\sqrt2=2\n$$\n\r\n所以高所在直线方程为 $y=x+6$，三角形面积为 $2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "如图，在梯形 $ABCD$ 中，$a:b:c:d=1:3:1:2$. 求在梯形 $ABCD$ 中，$\\cos\\alpha$，$\\sin\\alpha$ 和 $\\sin\\beta$ 的值.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/chongqing/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "由图记 $AB=a$，$DC=b$，$AD=c$，$BC=d$，且 $AB\\parallel DC$. 从 $A$、$B$ 分别向 $DC$ 作垂线，垂足为 $E$、$F$. 因为两条垂线之间的四边形 $ABFE$ 是矩形，所以\r\n$EF=AB=a$，$AE=BF$.\r\n设 $DE=x$，则\r\n\n$$\nFC=DC-DE-EF=b-x-a=b-a-x\n$$\n\r\n由比例条件可取 $a$ 为基本长度，于是\r\n$c=a$，$b=3a$，$d=2a$.\r\n在直角三角形 $ADE$ 和 $BFC$ 中，勾股定理分别给出\r\n$AE^2=a^2-x^2$，$BF^2=(2a)^2-(3a-a-x)^2$.\r\n利用 $AE=BF$，得\r\n\n$$\na^2-x^2=4a^2-(2a-x)^2=4ax-x^2\n$$\n\r\n所以 $4ax=a^2$，即\r\n$DE=x=\\frac a4$，$qquad FC=2a-x=\\frac{7a}{4}$.\r\n在直角三角形 $BFC$ 中，$\\alpha$ 位于点 $C$，因此\r\n\n$$\n\\cos\\alpha=\\frac{FC}{BC}=\\frac{\\frac{7a}{4}}{2a}=\\frac78\n$$\n\r\n$BF=\\sqrt{(2a)^2-\\left(\\frac{7a}{4}\\right)^2}=\\frac{\\sqrt{15}}4a$，$\\sin\\alpha=\\frac{BF}{BC}=\\frac{\\sqrt{15}}8$.\r\n在直角三角形 $ADE$ 中，$\\beta$ 位于点 $D$，所以\r\n\n$$\n\\sin\\beta=\\frac{AE}{AD}=\\frac{BF}{c}\r\n=\\frac{\\frac{\\sqrt{15}}4a}{a}=\\frac{\\sqrt{15}}4\n$$\n\r\n故 $\\cos\\alpha=\\frac78$，$\\sin\\alpha=\\frac{\\sqrt{15}}8$，$\\sin\\beta=\\frac{\\sqrt{15}}4$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "分别在三个平面直角坐标上作出下列方程的图形.\r\n\r\n\n(1) $\\left(x+2\\right)\\left(y-1\\right)=0$；\n\n(2) $\\left(x+2\\right)^2+\\left(y-1\\right)^2=0$；\n\n(3) $\\left(x+2\\right)^2-\\left(y-1\\right)^2=0$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 乘积为零，等价于至少有一个因式为零，因此\r\n\n$$\nx+2=0 \\text{或}  y-1=0\n$$\n\r\n所以图形是两条直线 $x=-2$ 和 $y=1$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/chongqing/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n(2) 两个平方数都不小于零，平方数之和等于零，当且仅当两个平方数同时为零. 因此\r\n\n$$\n\\begin{cases}\r\nx+2=0,\\\\\r\ny-1=0,\r\n\\end{cases}\r\n\\qquad\\text{即}\\qquad\r\n\\begin{cases}\r\nx=-2,\\\\\r\ny=1.\r\n\\end{cases}\n$$\n\r\n所以图形只有一个点 $(-2,1)$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/chongqing/q6_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n(3) 将平方差分解，得\r\n\n$$\n\\begin{aligned}\r\n\\left(x+2\\right)^2-\\left(y-1\\right)^2\r\n&=\\left(x+2-y+1\\right)\\left(x+2+y-1\\right)\\\\\r\n&=\\left(x-y+3\\right)\\left(x+y+1\\right).\r\n\\end{aligned}\n$$\n\r\n因此原方程等价于\r\n\n$$\nx-y+3=0 \\text{或}  x+y+1=0\n$$\n\r\n所以图形是两条直线 $x-y+3=0$ 和 $x+y+1=0$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/chongqing/q6_fig3.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "参考题",
+      "problems": [
+        {
+          "num": 10,
+          "body": "求函数 $f(x)=\\frac{1}{4}x^4-x^3-2x^2+3$ 的极值.",
+          "choices": [],
+          "answer": "",
+          "solution": "函数在 $\\mathbb{R}$ 上可导，先求其可能的极值点：\r\n\n$$\nf'(x)=x^3-3x^2-4x=x(x-4)(x+1)\n$$\n\r\n令 $f'(x)=0$，得临界点 $x=-1$，$0$，$4$. 再求二阶导数：\r\n\n$$\nf''(x)=3x^2-6x-4\n$$\n\r\n于是\r\n$f''(-1)=5>0$，$f''(0)=-4<0$，$f''(4)=20>0$.\r\n由二阶导数判别法，$x=-1$ 和 $x=4$ 处为极小值点，$x=0$ 处为极大值点.\r\n\r\n分别计算函数值：\r\n\n$$\nf(-1)=\\frac14+1-2+3=\\frac94=2\\frac14\n$$\n\r\n\n$$\nf(0)=3\n$$\n\r\n\n$$\nf(4)=\\frac14\\times4^4-4^3-2\\times4^2+3=64-64-32+3=-29\n$$\n\r\n所以当 $x=0$ 时有极大值 $3$；当 $x=-1$ 时有极小值 $2\\frac14$；当 $x=4$ 时有极小值 $-29$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "计算 $\\int\\left(\\frac{1}{\\sqrt{1-x^2}}-\\frac{x^2}{\\sqrt{4-x^2}}\\right)\\mathrm{d}x$.",
+          "choices": [],
+          "answer": "",
+          "solution": "实被积函数在 $(-1,1)$ 上有意义. 第一项直接积分得\r\n\n$$\n\\int\\frac{1}{\\sqrt{1-x^2}}\\mathrm{d}x=\\arcsin x+C_1\n$$\n\r\n对第二项令 $x=2\\sin t$. 在本题的实数定义域内可以取 $t=\\arcsin\\frac{x}{2}$，且 $\\cos t>0$，于是\r\n$\\mathrm{d}x=2\\cos t\\,\\mathrm{d}t$，$\\sqrt{4-x^2}=2\\cos t$.\r\n因此\r\n\n$$\n\\begin{aligned}\r\n\\int\\frac{x^2}{\\sqrt{4-x^2}}\\mathrm{d}x\r\n&=\\int\\frac{4\\sin^2t}{2\\cos t}\\cdot2\\cos t\\,\\mathrm{d}t\\\\\r\n&=\\int4\\sin^2t\\,\\mathrm{d}t\\\\\r\n&=\\int2\\left(1-\\cos2t\\right)\\,\\mathrm{d}t\\\\\r\n&=2t-\\sin2t+C_2.\r\n\\end{aligned}\n$$\n\r\n代回 $t=\\arcsin\\frac{x}{2}$，并利用\r\n\n$$\n\\sin\\left(2\\arcsin\\frac{x}{2}\\right)\r\n=2\\cdot\\frac{x}{2}\\cdot\\sqrt{1-\\frac{x^2}{4}}\r\n=\\frac{x}{2}\\sqrt{4-x^2}\n$$\n\r\n得到\r\n\n$$\n\\int\\frac{x^2}{\\sqrt{4-x^2}}\\mathrm{d}x\r\n=2\\arcsin\\frac{x}{2}-\\frac{x}{2}\\sqrt{4-x^2}+C_2\n$$\n\r\n所以原积分为\r\n\n$$\n\\begin{aligned}\r\n&\\int\\left(\\frac{1}{\\sqrt{1-x^2}}-\\frac{x^2}{\\sqrt{4-x^2}}\\right)\\mathrm{d}x\\\\\r\n&=\\arcsin x-\\left(2\\arcsin\\frac{x}{2}-\\frac{x}{2}\\sqrt{4-x^2}\\right)+C\\\\\r\n&=\\arcsin x-2\\arcsin\\frac{x}{2}+\\frac{x}{2}\\sqrt{4-x^2}+C.\r\n\\end{aligned}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "计算 $\\iint_D\\left(1+y^2\\right)\\mathrm{d}x\\mathrm{d}y$，区域 $D$ 是 $y=x^2$，$x=y^2$ 所围成的区域.",
+          "choices": [],
+          "answer": "",
+          "solution": "联立两条边界曲线. 由 $y=x^2$ 和 $x=y^2$ 得 $x=x^4$，所以交点的横坐标为 $x=0$ 或 $x=1$，相应交点为 $(0,0)$ 和 $(1,1)$. 在 $0\\le x\\leqslant1$ 内，$y=x^2$ 是下边界，$y=\\sqrt{x}$ 是上边界，因此由二重积分的累次积分和 Fubini 定理，\r\n\n$$\n\\iint_D\\left(1+y^2\\right)\\mathrm{d}x\\mathrm{d}y\r\n=\\int_0^1\\left(\\int_{x^2}^{\\sqrt{x}}\\left(1+y^2\\right)\\mathrm{d}y\\right)\\mathrm{d}x\n$$\n\r\n先对 $y$ 积分：\r\n\n$$\n\\begin{aligned}\r\n\\int_{x^2}^{\\sqrt{x}}\\left(1+y^2\\right)\\mathrm{d}y\r\n&=\\left[y+\\frac{y^3}{3}\\right]_{x^2}^{\\sqrt{x}}\\\\\r\n&=\\sqrt{x}+\\frac{x\\sqrt{x}}{3}-x^2-\\frac{x^6}{3}.\r\n\\end{aligned}\n$$\n\r\n再对 $x$ 积分，得\r\n\n$$\n\\begin{aligned}\r\n\\iint_D\\left(1+y^2\\right)\\mathrm{d}x\\mathrm{d}y\r\n&=\\left[-\\frac{x^7}{21}-\\frac{x^3}{3}+\\frac{2x^2\\sqrt{x}}{15}+\\frac{2x\\sqrt{x}}{3}\\right]_0^1\\\\\r\n&=-\\frac1{21}-\\frac13+\\frac2{15}+\\frac23=\\frac{44}{105}.\r\n\\end{aligned}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "求下列方程的通解.\r\n\r\n\n(1) $x\\mathrm{d}y-2y\\mathrm{d}x=3x^2\\mathrm{d}x$；\n\n(2) $y''-2y'+y=\\cos x$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 对于第一式，先在 $x\\ne0$ 的区间上把方程两边同除以 $x^3$，得\r\n\n$$\n\\frac{1}{x^2}\\mathrm{d}y-\\frac{2y}{x^3}\\mathrm{d}x=\\frac{3}{x}\\mathrm{d}x\n$$\n\r\n注意到\r\n$\\mathrm{d}\\left(\\frac{y}{x^2}\\right)=\\frac{1}{x^2}\\mathrm{d}y-\\frac{2y}{x^3}\\mathrm{d}x$，$\\mathrm{d}\\left(3\\ln|x|\\right)=\\frac{3}{x}\\mathrm{d}x$.\r\n所以\r\n\n$$\n\\mathrm{d}\\left(\\frac{y}{x^2}\\right)=\\mathrm{d}\\left(3\\ln|x|\\right)\n$$\n\r\n积分得\r\n\n$$\n\\frac{y}{x^2}=3\\ln|x|+C\n$$\n\r\n从而通解为\r\n$y=3x^2\\ln|x|+Cx^2$，$x\\ne0$.\n\n(2) 先求对应齐次方程\r\n$y''-2y'+y=0$ 的通解. 其特征方程为\r\n\n$$\n\\lambda^2-2\\lambda+1=(\\lambda-1)^2=0\n$$\n\r\n所以有二重特征根 $\\lambda=1$，齐次通解为\r\n\n$$\ny_h=\\left(C_1+C_2x\\right)\\mathrm{e}^x\n$$\n\r\n为求非齐次方程的一个特解，设\r\n\n$$\ny_p=A\\cos x+B\\sin x\n$$\n\r\n则\r\n$y_p'=-A\\sin x+B\\cos x$，$y_p''=-A\\cos x-B\\sin x$.\r\n代入左端，得到\r\n\n$$\ny_p''-2y_p'+y_p=-2B\\cos x+2A\\sin x\n$$\n\r\n要使其等于 $\\cos x$，必须有\r\n$-2B=1$，$2A=0$\r\n即 $A=0$，$B=-\\frac12$. 因而\r\n$y_p=-\\frac12\\sin x$，原方程的通解为\r\n\n$$\ny=\\left(C_1+C_2x\\right)\\mathrm{e}^x-\\frac12\\sin x\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

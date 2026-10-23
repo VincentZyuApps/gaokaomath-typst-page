@@ -1,0 +1,416 @@
+{
+  "year": "2004",
+  "slug": "zhejiang_science",
+  "title": "2004年浙江卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "若 $U=\\{1,2,3,4\\}$，$M=\\{1,2\\}$，$N=\\{2,3\\}$，则 $\\complement_U(M\\cup N)=$（ ）",
+          "choices": [
+            "$\\{1,2,3\\}$",
+            "$\\{2\\}$",
+            "$\\{1,3,4\\}$",
+            "$\\{4\\}$"
+          ],
+          "answer": "D",
+          "solution": "先求并集：$M\\cup N=\\{1,2,3\\}$. 补集中的元素必须属于全集 $U$，但不属于这个并集，因此\r\n$\\complement_U(M\\cup N)=\\{4\\}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "点 $P$ 从 $(1,0)$ 出发，沿单位圆 $x^2+y^2=1$ 逆时针方向运动 $\\frac{2\\pi}{3}$ 弧长到达 $Q$ 点，则 $Q$ 的坐标为（ ）",
+          "choices": [
+            "$\\left(-\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$",
+            "$\\left(-\\frac{\\sqrt{3}}{2}, -\\frac{1}{2}\\right)$",
+            "$\\left(-\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)$",
+            "$\\left(-\\frac{\\sqrt{3}}{2}, \\frac{1}{2}\\right)$"
+          ],
+          "answer": "A",
+          "solution": "单位圆的半径为 $r=1$. 由弧长公式 $s=r\\theta$，点 $P$ 对应的圆心角为\r\n$\\theta=\\frac{s}{r}=\\frac{2\\frac{\\pi}{3}}{1}=\\frac{2\\pi}{3}$. 从 $(1,0)$ 沿逆时针方向转过 $\\frac{2\\pi}{3}$ 后，\r\n\n$$\nQ=\\left(\\cos\\frac{2\\pi}{3},\\sin\\frac{2\\pi}{3}\\right)=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "已知等差数列 $\\{a_n\\}$ 的公差为 2，若 $a_1$，$a_3$，$a_4$ 成等比数列，则 $a_2=$（ ）",
+          "choices": [
+            "$-4$",
+            "$-6$",
+            "$-8$",
+            "$-10$"
+          ],
+          "answer": "B",
+          "solution": "设首项为 $a_1$. 由公差为 $2$，\r\n$a_3=a_1+2\\times2=a_1+4$，$a_4=a_1+3\\times2=a_1+6$.\r\n三项 $a_1$，$a_3$，$a_4$ 成等比数列，所以中项平方等于两端项之积，即\r\n\n$$\n(a_1+4)^2=a_1(a_1+6)\n$$\n\r\n展开并约去 $a_1^2$，得 $8a_1+16=6a_1$，从而 $a_1=-8$. 因此\r\n$a_2=a_1+2=-6$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "曲线 $y^2=4x$ 关于直线 $x=2$ 对称的曲线方程是（ ）",
+          "choices": [
+            "$y^2=8-4x$",
+            "$y^2=4x-8$",
+            "$y^2=16-4x$",
+            "$y^2=4x-16$"
+          ],
+          "answer": "C",
+          "solution": "设原曲线上任一点为 $(x,y)$. 关于直线 $x=2$ 对称后，纵坐标不变，横坐标变为\r\n$X=2\\times2-x=4-x$，所以 $x=4-X$. 代入原方程得\r\n\n$$\ny^2=4x=4(4-X)=16-4X\n$$\n\r\n把对称后坐标的字母 $X$ 改写为通常的 $x$，所得曲线方程为 $y^2=16-4x$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "设 $z=x-y$，式中变量 $x$ 和 $y$ 满足条件 $\\begin{cases}\r\nx+y-3\\geqslant0,\\\\\r\nx-2y\\geqslant0,\r\n\\end{cases}$ 则 $z$ 的最小值为（ ）",
+          "choices": [
+            "1",
+            "$-1$",
+            "3",
+            "$-3$"
+          ],
+          "answer": "A",
+          "solution": "令 $u=x+y-3$，$v=x-2y$，则 $u\\geqslant0$，$v\\geqslant0$，且\r\n$x+y=3+u$，$x-2y=v$.\r\n两式相减消去 $x$，得 $3y=3+u-v$，所以\r\n$y=1+\\frac{u-v}{3}$，进而 $x=2+\\frac{2u+v}{3}$. 因此\r\n\n$$\nz=x-y=1+\\frac{u+2v}{3}\\geqslant1\n$$\n\r\n当 $u=v=0$，即 $(x,y)=(2,1)$ 时满足原条件且取等号，所以 $z$ 的最小值为 $1$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "已知复数 $z_1=3+4\\mathrm{i}$，$z_2=t+\\mathrm{i}$，且 $z_1\\cdot z_2$ 为实数，则实数 $t=$（ ）",
+          "choices": [
+            "$\\frac{3}{4}$",
+            "$\\frac{4}{3}$",
+            "$-\\frac{4}{3}$",
+            "$-\\frac{3}{4}$"
+          ],
+          "answer": "D",
+          "solution": "利用 $\\mathrm{i}^2=-1$，\r\n\n$$\nz_1z_2=(3+4\\mathrm{i})(t+\\mathrm{i})=3t+3\\mathrm{i}+4t\\mathrm{i}+4\\mathrm{i}^2=(3t-4)+(3+4t)\\mathrm{i}\n$$\n\r\n复数为实数的充要条件是虚部为零，因此 $3+4t=0$，解得\r\n$t=-\\frac34$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "若 $\\left(\\sqrt{x}+\\frac{2}{\\sqrt[3]{x}}\\right)^n$ 展开式中存在常数项，则 $n$ 的值可以是（ ）",
+          "choices": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "answer": "C",
+          "solution": "在展开式的一般项中，若从第二项取 $k$ 次，则从第一项取 $n-k$ 次，其中 $0\\le k\\le n$. 该项中 $x$ 的指数为\r\n\n$$\n\\frac{n-k}{2}-\\frac{k}{3}=\\frac{3n-5k}{6}\n$$\n\r\n常数项要求指数为零，所以 $3n=5k$. 因为 $3$ 与 $5$ 互质，故 $5\\mid n$. 给出的正整数中只有 $n=10$ 是 $5$ 的倍数；此时 $k=\\frac{3n}{5}=6$，满足 $0\\le k\\le n$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "在 $\\triangle ABC$ 中，“$A>30^{\\circ}$”是“$\\sin A>\\frac{1}{2}$”的（ ）",
+          "choices": [
+            "充分而不必要条件",
+            "必要而不充分条件",
+            "充分必要条件",
+            "既不充分也必要条件"
+          ],
+          "answer": "B",
+          "solution": "三角形内角满足 $0<A<\\pi$. 在此范围内，\r\n\n$$\n\\sin A>\\frac12\\iff \\frac{\\pi}{6}<A<\\frac{5\\pi}{6}\n$$\n\r\n所以 $\\sin A>\\frac12$ 一定能推出 $A>\\frac{\\pi}{6}=30^{\\circ}$，即“$A>30^{\\circ}$”是“$\\sin A>\\frac12$”的必要条件. 反过来不成立，例如取 $A=\\frac{5\\pi}{6}=150^{\\circ}$，并令另外两个角均为 $15^{\\circ}$，仍构成三角形，但 $\\sin A=\\frac12$ 不满足严格不等式. 因此“$A>30^{\\circ}$”是“$\\sin A>\\frac12$”的必要而不充分条件，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "若椭圆 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$（$a>b>0$）的左、右焦点分别为 $F_1$，$F_2$，线段 $F_1F_2$ 被抛物线 $y^2=2bx$ 的焦点分成 $5:3$ 两段，则此椭圆的离心率为（ ）",
+          "choices": [
+            "$\\frac{16}{17}$",
+            "$\\frac{4\\sqrt{17}}{17}$",
+            "$\\frac{4}{5}$",
+            "$\\frac{2\\sqrt{5}}{5}$"
+          ],
+          "answer": "D",
+          "solution": "设椭圆的半焦距为 $c$，则焦点为 $F_1(-c,0)$，$F_2(c,0)$. 将抛物线写成标准形式\r\n$y^2=4px$，由 $4p=2b$ 得 $p=\\frac b2$，所以其焦点为 $S\\left(\\frac b2,0\\right)$.\r\n由于 $S$ 在线段 $F_1F_2$ 上且将其分成 $5:3$ 两段，\r\n\n$$\n\\frac{SF_1}{SF_2}=\\frac{c+\\frac{b}{2}}{c-\\frac{b}{2}}=\\frac53\n$$\n\r\n于是 $3c+\\frac32b=5c-\\frac52b$，即 $c=2b$. 椭圆参数满足\r\n$a^2=b^2+c^2$，故 $a^2=5b^2$. 因而离心率为\r\n\n$$\ne=\\frac ca=\\frac{2b}{\\sqrt5b}=\\frac2{\\sqrt5}=\\frac{2\\sqrt5}{5}\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "如图，在正三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中已知 $AB=1$，$D$ 在棱 $BB_{1}$ 上，且 $BD=1$，若 $AD$ 与平面 $AA_{1}C_{1}C$ 所成的角为 $\\alpha$，则 $\\alpha=$（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/zhejiang_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\frac{\\pi}{3}$",
+            "$\\frac{\\pi}{4}$",
+            "$\\arcsin \\frac{\\sqrt{10}}{4}$",
+            "$\\arcsin \\frac{\\sqrt{6}}{4}$"
+          ],
+          "answer": "D",
+          "solution": "建立直角坐标系，使底面在 $xOy$ 平面内，取\r\n$A=(0,0,0)$，$B=(1,0,0)$，$C=\\left(\\frac12,\\frac{\\sqrt3}{2},0\\right)$.\r\n因为侧棱垂直于底面且 $BD=1$，可取 $D=(1,0,1)$. 平面 $AA_1C_1C$ 由方向向量\r\n$\\overrightarrow{AC}=\\left(\\frac12,\\frac{\\sqrt3}{2},0\\right)$ 和竖直方向共同确定，因而可取其单位法向量\r\n$\\mathbf{n}=\\left(\\frac{\\sqrt3}{2},-\\frac12,0\\right)$. 又\r\n$\\overrightarrow{AD}=(1,0,1)$，所以\r\n$|\\overrightarrow{AD}\\cdot\\mathbf{n}|=\\frac{\\sqrt3}{2}$，$|AD|=\\sqrt{1^2+1^2}=\\sqrt2$.\r\n直线与平面所成角为 $\\alpha$ 时，$\\sin\\alpha$ 等于方向向量在平面法向上的投影长度与方向向量长度之比，故\r\n\n$$\n\\sin\\alpha=\\frac{\\frac{\\sqrt3}{2}}{\\sqrt2}=\\frac{\\sqrt6}{4}\n$$\n\r\n因此 $\\alpha=\\arcsin\\frac{\\sqrt6}{4}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "设 $f'(x)$ 是函数 $f(x)$ 的导函数，$y=f'(x)$ 的图象如图所示，则 $y=f(x)$ 的图象最有可能的是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/zhejiang_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/zhejiang_science/q11_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/zhejiang_science/q11_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/zhejiang_science/q11_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/zhejiang_science/q11_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "C",
+          "solution": "由图可读出 $f'(0)=f'(2)=0$，并且\r\n$f'(x)>0$，（$x<0\\text{ 或 }x>2$），$f'(x)<0$，（$0<x<2$）.\r\n所以 $f(x)$ 在 $(-\\infty,0)$ 上递增，在 $(0,2)$ 上递减，在 $(2,+\\infty)$ 上递增. 于是 $x=0$ 处由增变减，是极大值点；$x=2$ 处由减变增，是极小值点. 四个选项中只有 C 的图象同时具有这两个单调性特征，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "若 $f(x)$ 和 $g(x)$ 都是定义在实数集 $\\mathbb{R}$ 上的函数，且方程 $x-f[g(x)]=0$ 有实数解，则 $g[f(x)]$ 不可能是（ ）",
+          "choices": [
+            "$x^2+x-\\frac{1}{5}$",
+            "$x^2+x+\\frac{1}{5}$",
+            "$x^2-\\frac{1}{5}$",
+            "$x^2+\\frac{1}{5}$"
+          ],
+          "answer": "B",
+          "solution": "设方程 $x-f(g(x))=0$ 的实数解为 $x_0$，则 $x_0=f(g(x_0))$. 令 $y_0=g(x_0)$，便有 $x_0=f(y_0)$，从而\r\n\n$$\ng(f(y_0))=g(x_0)=y_0\n$$\n\r\n因此函数 $g\\circ f$ 必须有实数不动点，即方程 $g(f(x))=x$ 必须有实数解.\r\n\r\n逐项判断：\r\n\n$$\nx^2+x-\\frac15=x\\iff x^2-\\frac15=0\n$$\n\r\n有实数解；\r\n\n$$\nx^2+x+\\frac15=x\\iff x^2+\\frac15=0\n$$\n\r\n无实数解；\r\n\n$$\nx^2-\\frac15=x\n$$\n\r\n的判别式为 $1+\\frac45>0$，有实数解；\r\n\n$$\nx^2+\\frac15=x\n$$\n\r\n的判别式为 $1-\\frac45>0$，也有实数解. 因此不可能的是 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "已知 $f(x)=\\begin{cases}\r\n1,&x\\geqslant0,\\\\\r\n-1,&x<0,\r\n\\end{cases}$ 则不等式 $x+(x+2)\\cdot f(x+2)\\leqslant5$ 的解集是 _______ {}.",
+          "choices": [],
+          "answer": "\\((-\\infty,\\frac{3}{2}]\\)",
+          "solution": "分界点由 $x+2=0$ 给出，即 $x=-2$. 当 $x\\ge-2$ 时，\r\n$f(x+2)=1$，原不等式化为\r\n\n$$\nx+(x+2)\\leqslant5\\iff 2x\\leqslant3\\iff x\\le\\frac32\n$$\n\r\n结合本段条件，得到 $\\left[-2,\\frac32\\right]$.\r\n\r\n当 $x<-2$ 时，$f(x+2)=-1$，左端为\r\n\n$$\nx-(x+2)=-2\\leqslant5\n$$\n\r\n恒成立，所以得到 $(-\\infty,-2)$. 合并两段解集，且 $x=-2$ 已包含在第一段中，故解集为\r\n$\\left(-\\infty,\\frac32\\right]$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "已知平面上三点 $A$，$B$，$C$ 满足 $\\left|\\overrightarrow{AB}\\right|=3$，$\\left|\\overrightarrow{BC}\\right|=4$，$\\left|\\overrightarrow{CA}\\right|=5$，则 $\\overrightarrow{AB}\\cdot\\overrightarrow{BC}+\\overrightarrow{BC}\\cdot\\overrightarrow{CA}+\\overrightarrow{CA}\\cdot\\overrightarrow{AB}$ 的值等于 _______ {}.",
+          "choices": [],
+          "answer": "\\(-25\\)",
+          "solution": "记题目所求的量为 $T$. 首尾相接的向量满足\r\n$\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CA}=\\mathbf{0}$. 两边取模平方，得\r\n\n$$\n0=|\\overrightarrow{AB}|^2+|\\overrightarrow{BC}|^2+|\\overrightarrow{CA}|^2\r\n  +2\\left(\\overrightarrow{AB}\\cdot\\overrightarrow{BC}\r\n  +\\overrightarrow{BC}\\cdot\\overrightarrow{CA}\r\n  +\\overrightarrow{CA}\\cdot\\overrightarrow{AB}\\right)\n$$\n\r\n代入三条向量的模，并用 $T$ 表示括号中的三项和，得\r\n\n$$\n0=3^2+4^2+5^2+2T=50+2T\n$$\n\r\n所以 $T=-25$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "设坐标平面内有一个质点从原点出发，沿 $x$ 轴跳动. 每次向正方向或负方向跳 1 个单位，经过 5 次跳动质点落在点 $(3,0)$（允许重复过此点）处，则质点不同的运动方法共有 _______ {} 种.（用数字作答）",
+          "choices": [],
+          "answer": "5",
+          "solution": "设向正方向跳的次数为 $p$，向负方向跳的次数为 $q$. 总跳动次数和最终位移分别给出\r\n$p+q=5$，$p-q=3$.\r\n两式相加、相减得 $p=4$，$q=1$. 因而五次跳动中恰有一次为负方向跳动；确定这一次发生在第几次即可唯一确定整个运动方法，所以方法数为\r\n\n$$\n\\mathrm C_5^1=5\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "已知平面 $\\alpha$ 和平面 $\\beta$ 交于直线 $l$，$P$ 是空间一点，$PA\\perp \\alpha$，垂足为 $A$，$PB\\perp \\beta$，垂足为 $B$，且 $PA=1$，$PB=2$，若点 $A$ 在 $\\beta$ 内的射影与点 $B$ 在 $\\alpha$ 内的射影重合，则点 $P$ 到 $l$ 的距离为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\sqrt{5}\\)",
+          "solution": "设两个射影的重合点为 $C$. 由 $AC\\perp\\beta$，且 $A$，$C\\in\\alpha$，若 $A\\ne C$，则平面 $\\alpha$ 含有一条垂直于平面 $\\beta$ 的直线，所以 $\\alpha\\perp\\beta$. 若 $A=C$，则 $C\\in l$. 又 $PA=1\\ne2=PB$，故 $B\\ne C$；此时 $B$，$C\\in\\beta$ 且 $BC\\perp\\alpha$，同样得到 $\\alpha\\perp\\beta$.\r\n\r\n建立直角坐标系，使交线 $l$ 为 $z$ 轴，$\\alpha$ 为 $xOz$ 平面，$\\beta$ 为 $yOz$ 平面. 设 $P=(x,y,z)$，则 $P$ 到 $\\alpha$ 的垂距为 $|y|$，到 $\\beta$ 的垂距为 $|x|$，所以\r\n$|y|=PA=1$，$|x|=PB=2$.\r\n点 $P$ 到 $z$ 轴，即到 $l$ 的距离为\r\n\n$$\n\\sqrt{x^2+y^2}=\\sqrt{2^2+1^2}=\\sqrt5\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，且 $\\cos A=\\frac{1}{3}$.\r\n\n(1) 求 $\\sin^{2}\\frac{B+C}{2}+\\cos 2A$ 的值；\n\n(2) 若 $a=\\sqrt{3}$，求 $bc$ 的最大值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $A+B+C=\\pi$，所以 $B+C=\\pi-A$，从而\r\n\n$$\n\\sin^2\\frac{B+C}{2}\r\n=\\sin^2\\left(\\frac{\\pi}{2}-\\frac A2\\right)\r\n=\\cos^2\\frac A2\r\n=\\frac{1+\\cos A}{2}\r\n=\\frac23\n$$\n\r\n另外，\r\n\n$$\n\\cos 2A=2\\cos^2A-1=2\\left(\\frac13\\right)^2-1=-\\frac79\n$$\n\r\n因此所求的值为\r\n$\\frac23-\\frac79=-\\frac19$.\n\n(2) 由余弦定理及 $\\cos A=\\frac13$，且 $a=\\sqrt3$，得\r\n\n$$\n3=a^2=b^2+c^2-2bc\\cos A=b^2+c^2-\\frac23bc\r\n=(b-c)^2+\\frac43bc\n$$\n\r\n所以\r\n\n$$\nbc=\\frac34\\left(3-(b-c)^2\\right)\\le\\frac94\n$$\n\r\n当且仅当 $b=c$ 时等号成立. 代入上式，此时\r\n$3=\\frac43b^2$，得 $b=c=\\frac32$，且三角形条件成立. 因此 $bc$ 的最大值为 $\\frac94$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "盒子中有大小相同的球 10 个，其中标号为 1 的球 3 个，标号为 2 的球 4 个，标号为 5 的球 3 个，第一次从盒子中任取 1 个球，放回后第二次再任取 1 个球（假设取到每个球的可能性都相同）. 记第一次与第二次取到球的标号之和为 $\\varepsilon$.\r\n\n(1) 求随机变量 $\\varepsilon$ 的分布列；\n\n(2) 求随机变量 $\\varepsilon$ 的期望 $E(\\varepsilon)$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 每次取到标号 $1$，$2$，$5$ 的概率分别为\r\n$\\frac3{10}$，$\\frac4{10}$，$\\frac3{10}$. 由于取球后放回，两次取球相互独立. 设两次取到的标号分别为 $\\varepsilon_1$，$\\varepsilon_2$，则\r\n$\\varepsilon=\\varepsilon_1+\\varepsilon_2$ 的可能取值为 $2$，$3$，$4$，$6$，$7$，$10$. 逐一按有序组合计算：\r\n$P(\\varepsilon=2)=\\frac3{10}\\cdot\\frac3{10}=\\frac9{100}$，$P(\\varepsilon=3)=2\\cdot\\frac3{10}\\cdot\\frac4{10}=\\frac{24}{100}$，$P(\\varepsilon=4)=\\frac4{10}\\cdot\\frac4{10}=\\frac{16}{100}$. 又 $P(\\varepsilon=6)=2\\cdot\\frac3{10}\\cdot\\frac3{10}=\\frac{18}{100}$，$P(\\varepsilon=7)=2\\cdot\\frac4{10}\\cdot\\frac3{10}=\\frac{24}{100}$，$P(\\varepsilon=10)=\\frac3{10}\\cdot\\frac3{10}=\\frac9{100}$.\r\n这些概率之和为 $1$，故分布列为\r\n\\begin{center}\r\n\\begin{tabular}{c|cccccc}\r\n\\hline\r\n$\\varepsilon$ & $2$ & $3$ & $4$ & $6$ & $7$ & $10$ \\\\\r\n\\hline\r\n$P$ & $\\frac9{100}$ & $\\frac{24}{100}$ & $\\frac{16}{100}$ & $\\frac{18}{100}$ & $\\frac{24}{100}$ & $\\frac9{100}$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\n\n(2) 对任意一次取球，标号的期望为\r\n\n$$\nE(\\varepsilon_1)=E(\\varepsilon_2)\r\n=1\\cdot\\frac3{10}+2\\cdot\\frac4{10}+5\\cdot\\frac3{10}\r\n=\\frac{13}{5}\n$$\n\r\n由期望的线性性质，\r\n\n$$\nE(\\varepsilon)=E(\\varepsilon_1+\\varepsilon_2)\r\n=E(\\varepsilon_1)+E(\\varepsilon_2)\r\n=\\frac{26}{5}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，已知正方形 $ABCD$ 和矩形 $ACEF$ 所在的平面互相垂直，$AB=\\sqrt{2}$，$AF=1$，$M$ 是线段 $EF$ 的中点.\r\n\n(1) 求证：$AM \\parallel$ 平面 $BDE$；\n\n(2) 求二面角 $A-DF-B$ 的大小.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/zhejiang_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 取直角坐标系，使 $A=(-1,0,0)$，$C=(1,0,0)$，正方形 $ABCD$ 在 $xOy$ 平面内，矩形 $ACEF$ 在 $xOz$ 平面内. 因为 $AC=2$，$AB=\\sqrt2$，可取\r\n$B=(0,1,0)$，$D=(0,-1,0)$.\r\n又 $AF=1$，从而\r\n$E=(1,0,1)$，$F=(-1,0,1)$，$M=(0,0,1)$.\r\n$\\overrightarrow{AM}=(1,0,1)$，$\\overrightarrow{BD}=(0,-2,0)$，$\\overrightarrow{BE}=(1,-1,1)$.\r\n平面 $BDE$ 的一个法向量为\r\n\n$$\n\\overrightarrow{BD}\\times\\overrightarrow{BE}=(-2,0,2)\n$$\n\r\n因此平面 $BDE$ 的方程为 $z=x$. 由于 $\\overrightarrow{AM}\\cdot(-2,0,2)=0$，直线 $AM$ 的方向平行于平面 $BDE$；又 $A=(-1,0,0)$ 不满足 $z=x$，所以 $A$ 不在该平面上，从而 $AM\\parallel$ 平面 $BDE$.\n\n(2) 平面 $ADF$ 与平面 $BDF$ 的法向量可分别取为\r\n$\\mathbf{n}_1=\\overrightarrow{DA}\\times\\overrightarrow{DF}=(1,1,0)$，$\\mathbf{n}_2=\\overrightarrow{DB}\\times\\overrightarrow{DF}=(2,0,2)$\r\n其中 $\\overrightarrow{DA}=(-1,1,0)$，$\\overrightarrow{DB}=(0,2,0)$，$\\overrightarrow{DF}=(-1,1,1)$. 所以二面角 $A\\mathord{-}DF\\mathord{-}B$ 的余弦为\r\n\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1||\\mathbf{n}_2|}\r\n=\\frac{2}{\\sqrt2\\cdot2\\sqrt2}=\\frac12\n$$\n\r\n因此二面角 $A\\mathord{-}DF\\mathord{-}B=\\frac{\\pi}{3}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设曲线 $y=\\mathrm{e}^{-x}$（$x\\geqslant0$）在点 $M(t,\\mathrm{e}^{-t})$ 处的切线 $l$ 与 $x$ 轴 $y$ 轴所围成的三角形面积为 $S(t)$.\r\n\n(1) 求切线 $l$ 的方程；\n\n(2) 求 $S(t)$ 的最大值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $y'=-\\mathrm{e}^{-x}$，所以在 $M(t,\\mathrm{e}^{-t})$ 处的切线斜率为 $-\\mathrm{e}^{-t}$. 由点斜式，切线 $l$ 的方程为\r\n\n$$\ny-\\mathrm{e}^{-t}=-\\mathrm{e}^{-t}(x-t)\n$$\n\r\n整理得\r\n\n$$\ny=\\mathrm{e}^{-t}(t+1-x)\n$$\n\n(2) 令 $y=0$，得切线与 $x$ 轴交于 $(t+1,0)$；令 $x=0$，得其与 $y$ 轴交于 $(0,(t+1)\\mathrm{e}^{-t})$. 由于 $t\\geqslant0$，两个截距均非负，三角形面积为\r\n\n$$\nS(t)=\\frac12(t+1)^2\\mathrm{e}^{-t}\n$$\n\r\n对 $t\\geqslant0$ 求导：\r\n\n$$\nS'(t)=\\frac12\\mathrm{e}^{-t}(t+1)(1-t)\n$$\n\r\n因为 $\\mathrm{e}^{-t}>0$，$t+1>0$，所以 $S'(t)>0$（$0\\le t<1$），$S'(1)=0$，$S'(t)<0$（$t>1$）. 因而 $S(t)$ 在 $[0,1]$ 上递增，在 $[1,+\\infty)$ 上递减，最大值在 $t=1$ 时取得，且\r\n\n$$\nS(1)=\\frac12(1+1)^2\\mathrm{e}^{-1}=\\frac2{\\mathrm{e}}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知双曲线的中心在原点，右顶点为 $A(1,0)$，点 $P$，$Q$ 在双曲线的右支上，点 $M(m,0)$ 到直线 $AP$ 的距离为 1.\r\n\n(1) 若直线 $AP$ 的斜率为 $k$，且 $\\left|k\\right| \\in \\left[\\frac{\\sqrt{3}}{3}, \\sqrt{3}\\right]$，求实数 $m$ 的取值范围；\n\n(2) 当 $m=\\sqrt{2}+1$ 时，$\\triangle APQ$ 的内心恰好是点 $M$，求此双曲线的方程.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 直线 $AP$ 的方程为 $y=k(x-1)$，即 $kx-y-k=0$. 由点到直线的距离公式，\r\n\n$$\n\\frac{|k(m-1)|}{\\sqrt{1+k^2}}=1\n$$\n\r\n所以\r\n\n$$\n|m-1|=\\frac{\\sqrt{1+k^2}}{|k|}=\\sqrt{1+\\frac1{k^2}}\n$$\n\r\n由 $\\frac{\\sqrt3}{3}\\le|k|\\le\\sqrt3$，得\r\n$\\frac13\\le k^2\\leqslant3$，从而\r\n$\\frac{2}{\\sqrt3}\\le|m-1|\\leqslant2$. 因此\r\n\n$$\nm\\in\\left[-1,1-\\frac{2\\sqrt3}{3}\\right]\\cup\\left[1+\\frac{2\\sqrt3}{3},3\\right]\n$$\n\n(2) 由于双曲线的右顶点为 $A(1,0)$，其方程可设为\r\n$\\frac{x^2}{1^2}-\\frac{y^2}{b^2}=1$，$b>0$.\r\n内心 $M$ 在顶点 $A$ 的内角平分线上，而 $AM$ 是 $x$ 轴，所以两条射线 $AP$，$AQ$ 关于 $x$ 轴对称. 对称的两条直线与该双曲线除 $A$ 外的交点横坐标相同，故可设\r\n$P=(x,y)$，$Q=(x,-y)$，$y>0$.\r\n于是 $PQ$ 为直线 $x=x$. 因为内心在三角形内部，$x>m$，且内心到边 $PQ$ 的距离为 $1$，所以\r\n\n$$\nx-m=1\n$$\n\r\n代入 $m=\\sqrt2+1$，得 $x=2+\\sqrt2$.\r\n\r\n设直线 $AP$ 的斜率为 $k=\\frac{y}{x-1}$. 由题设点到直线的距离为 $1$，以及 $m-1=\\sqrt2$，有\r\n\n$$\n\\frac{|k|\\sqrt2}{\\sqrt{1+k^2}}=1\n$$\n\r\n平方并整理得 $2k^2=1+k^2$，所以 $k^2=1$. 由于 $P$ 在上方且 $x>1$，取 $k=1$，从而\r\n\n$$\ny=k(x-1)=x-1=1+\\sqrt2\n$$\n\r\n代入双曲线方程，得\r\n\n$$\n\\frac1{b^2}=\\frac{x^2-1}{y^2}\r\n=\\frac{(2+\\sqrt2)^2-1}{(1+\\sqrt2)^2}\r\n=2\\sqrt2-1\n$$\n\r\n故所求双曲线方程为\r\n\n$$\nx^2-(2\\sqrt2-1)y^2=1\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "如图，$\\triangle OBC$ 的三个顶点坐标分别为 $(0,0)$，$(1,0)$，$(0,2)$. 设 $P_{1}$ 为线段 $BC$ 的中点，$P_{2}$ 为线段 $CO$ 的中点，$P_{3}$ 为线段 $OP_{1}$ 的中点. 对于每一个正整数 $n$，$P_{n+3}$ 为线段 $P_{n}P_{n+1}$ 的中点，令 $P_{n}$ 的坐标为 $(x_{n}, y_{n})$，$a_{n} = \\frac{1}{2}y_{n} + y_{n+1} + y_{n+2}$.\r\n\n(1) 求 $a_{1}$，$a_{2}$，$a_{3}$ 及 $a_{n}$；\n\n(2) 证明 $y_{n+4} = 1 - \\frac{y_n}{4}$，$n \\in \\mathbb{N}^*$；\n\n(3) 若记 $b_{n} = y_{4n+4} - y_{4n}$，$n \\in \\mathbb{N}^*$，证明 $\\{b_n\\}$ 是等比数列.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/zhejiang_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由中点坐标公式，\r\n$P_1=\\left(\\frac12,1\\right)$，$P_2=(0,1)$，$P_3=\\left(\\frac14,\\frac12\\right)$. 又\r\n$y_4=\\frac{y_1+y_2}{2}=1$，$y_5=\\frac{y_2+y_3}{2}=\\frac34$. 因此\r\n$a_1=\\frac12y_1+y_2+y_3=2$，$a_2=\\frac12y_2+y_3+y_4=2$，$a_3=\\frac12y_3+y_4+y_5=2$.\r\n由递推关系 $y_{n+3}=\\frac{y_n+y_{n+1}}2$，有\r\n\n$$\na_{n+1}=\\frac12y_{n+1}+y_{n+2}+y_{n+3}\r\n=\\frac12y_n+y_{n+1}+y_{n+2}=a_n\n$$\n\r\n所以 $a_n$ 是常数列，且 $a_n=2$.\n\n(2) 由 $a_n=2$ 得\r\n$y_{n+1}+y_{n+2}=2-\\frac12y_n$. 另一方面，\r\n$y_{n+4}=\\frac{y_{n+1}+y_{n+2}}2$，所以\r\n$y_{n+4}=1-\\frac14y_n$，$n\\in\\mathbb{N}^*$.\n\n(3) 由上式，\r\n\n$$\nb_{n+1}=y_{4n+8}-y_{4n+4}\r\n=\\left(1-\\frac14y_{4n+4}\\right)-\\left(1-\\frac14y_{4n}\\right)\r\n=-\\frac14\\left(y_{4n+4}-y_{4n}\\right)\r\n=-\\frac14b_n\n$$\n\r\n又 $y_4=1$，$y_5=y_6=\\frac34$，$y_7=\\frac78$，$y_8=\\frac34$，故\r\n$b_1=y_8-y_4=-\\frac14\\ne0$. 因此 $\\{b_n\\}$ 是等比数列，公比为 $-\\frac14$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

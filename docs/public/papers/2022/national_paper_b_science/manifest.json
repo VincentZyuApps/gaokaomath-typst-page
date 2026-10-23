@@ -1,0 +1,436 @@
+{
+  "year": "2022",
+  "slug": "national_paper_b_science",
+  "title": "2022年全国乙卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设全集 $U=\\{1,2,3,4,5\\}$，集合 $M$ 满足 $\\complement_U M=\\{1,3\\}$，则（ ）",
+          "choices": [
+            "$2\\in M$",
+            "$3\\in M$",
+            "$4\\notin M$",
+            "$5\\notin M$"
+          ],
+          "answer": "A",
+          "solution": "由 $U=\\{1,2,3,4,5\\}$，$\\complement_U M=\\{1,3\\}$，所以 $M=\\{2,4,5\\}$.\r\n所以 $2\\in M$，$3\\notin M$，$4\\in M$，$5\\in M$.\r\n$A$ 正确，$B$，$C$，$D$ 错误.\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知 $z=1-2\\mathrm{i}$，且 $z+a\\overline z+b=0$，其中 $a$，$b$ 为实数，则（ ）",
+          "choices": [
+            "$a=1$，$b=-2$",
+            "$a=-1$，$b=2$",
+            "$a=1$，$b=2$",
+            "$a=-1$，$b=-2$"
+          ],
+          "answer": "A",
+          "solution": "因为 $z=1-2\\mathrm{i}$，所以 $\\overline z=1+2\\mathrm{i}$.\r\n由 $z+a\\overline z+b=0$，得\r\n$1-2\\mathrm{i}+a\\left( 1+2\\mathrm{i} \\right)+b=0$，\r\n即\r\n$\\left( 1+a+b \\right)+\\left( 2a-2 \\right)\\mathrm{i}=0$.\r\n所以由上式得 $1+a+b=0$，$2a-2=0$.\r\n解得 $a=1$，$b=-2$.\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "已知向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $|\\mathbf{a}|=1$，$|\\mathbf{b}|=\\sqrt{3}$，$|\\mathbf{a}-2\\mathbf{b}|=3$，则 $\\mathbf{a}\\cdot\\mathbf{b}=$（ ）",
+          "choices": [
+            "$-2$",
+            "$-1$",
+            "$1$",
+            "$2$"
+          ],
+          "answer": "C",
+          "solution": "因为\r\n$|\\mathbf{a}-2\\mathbf{b}|^2=|\\mathbf{a}|^2-4\\mathbf{a}\\cdot\\mathbf{b}+4|\\mathbf{b}|^2$，\r\n又 $|\\mathbf{a}|=1$，$|\\mathbf{b}|=\\sqrt{3}$，$|\\mathbf{a}-2\\mathbf{b}|=3$，所以\r\n$9=1-4\\mathbf{a}\\cdot\\mathbf{b}+4\\times 3=13-4\\mathbf{a}\\cdot\\mathbf{b}$.\r\n因此\r\n$\\mathbf{a}\\cdot\\mathbf{b}=1$.\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "嫦娥二号卫星在完成探月任务后，继续进行深空探测，成为我国第一颗环绕太阳飞行的人造行星，为研究嫦娥二号绕日周期与地球绕日周期的比值，用到数列 $\\{b_n\\}$：$b_1=1+\\frac{1}{\\alpha_1}$，$b_2=1+\\frac{1}{\\alpha_1+\\frac{1}{\\alpha_2}}$，$b_3=1+\\frac{1}{\\alpha_1+\\frac{1}{\\alpha_2+\\frac{1}{\\alpha_3}}}$，…，依此类推，其中 $\\alpha_k\\in\\mathbb{N}^*$（$k=1$，$2$，$\\dots$），则（ ）",
+          "choices": [
+            "$b_1<b_5$",
+            "$b_3<b_8$",
+            "$b_6<b_2$",
+            "$b_4<b_7$"
+          ],
+          "answer": "D",
+          "solution": "因为 $\\alpha_k\\in\\mathbb{N}^*$（$k=1$，$2$，$\\dots$），所以\r\n$\\alpha_1<\\alpha_1+\\frac{1}{\\alpha_2}$，\r\n从而\r\n$\\frac{1}{\\alpha_1}>\\frac{1}{\\alpha_1+\\frac{1}{\\alpha_2}}$，\r\n即 $b_1>b_2$.\r\n又因为\r\n$\\frac{1}{\\alpha_2}>\\frac{1}{\\alpha_2+\\frac{1}{\\alpha_3}}$，\r\n所以\r\n$\\alpha_1+\\frac{1}{\\alpha_2}>\\alpha_1+\\frac{1}{\\alpha_2+\\frac{1}{\\alpha_3}}$，\r\n从而 $b_2<b_3$，且 $b_1>b_3$.\r\n$\\alpha_1+\\frac{1}{\\alpha_2+\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4+\\frac{1}{\\alpha_5}}}}>\\alpha_1$，\r\n所以 $b_1>b_5$.\r\n又因为 $\\frac{1}{\\alpha_3}>\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4+\\frac{1}{\\alpha_5+\\frac{1}{\\alpha_6+\\frac{1}{\\alpha_7+\\frac{1}{\\alpha_8}}}}}}$，所以 $\\alpha_2+\\frac{1}{\\alpha_3}>\\alpha_2+\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4+\\frac{1}{\\alpha_5+\\frac{1}{\\alpha_6+\\frac{1}{\\alpha_7+\\frac{1}{\\alpha_8}}}}}}$，从而 $\\frac{1}{\\alpha_2+\\frac{1}{\\alpha_3}}<\\frac{1}{\\alpha_2+\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4+\\frac{1}{\\alpha_5+\\frac{1}{\\alpha_6+\\frac{1}{\\alpha_7+\\frac{1}{\\alpha_8}}}}}}}$，即 $b_3>b_8$.\r\n又因为 $\\alpha_2<\\alpha_2+\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4+\\frac{1}{\\alpha_5+\\frac{1}{\\alpha_6}}}}$，所以 $\\frac{1}{\\alpha_2}>\\frac{1}{\\alpha_2+\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4+\\frac{1}{\\alpha_5+\\frac{1}{\\alpha_6}}}}}$，即 $b_2<b_6$.\r\n又因为 $\\alpha_4< \\alpha_4+\\frac{1}{\\alpha_5+\\frac{1}{\\alpha_6+\\frac{1}{\\alpha_7}}}$，所以 $\\frac{1}{\\alpha_4}>\\frac{1}{\\alpha_4+\\frac{1}{\\alpha_5+\\frac{1}{\\alpha_6+\\frac{1}{\\alpha_7}}}}$，从而 $\\alpha_3+\\frac{1}{\\alpha_4}>\\alpha_3+\\frac{1}{\\alpha_4+\\frac{1}{\\alpha_5+\\frac{1}{\\alpha_6+\\frac{1}{\\alpha_7}}}}$，于是 $\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4}}<\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4+\\frac{1}{\\alpha_5+\\frac{1}{\\alpha_6+\\frac{1}{\\alpha_7}}}}}$，所以 $\\alpha_2+\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4}}<\\alpha_2+\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4+\\frac{1}{\\alpha_5+\\frac{1}{\\alpha_6+\\frac{1}{\\alpha_7}}}}}$，从而 $\\frac{1}{\\alpha_2+\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4}}}>\\frac{1}{\\alpha_2+\\frac{1}{\\alpha_3+\\frac{1}{\\alpha_4+\\frac{1}{\\alpha_5+\\frac{1}{\\alpha_6+\\frac{1}{\\alpha_7}}}}}}$，即 $b_4<b_7$.\r\n$b_1>b_3>b_5>b_7>\\cdots$，\r\n$b_2<b_4<b_6<b_8<\\cdots$，\r\n并且任意奇数项都大于任意偶数项.\r\n$b_1>b_5$，$b_3>b_8$，$b_2<b_6$，$b_4<b_7$.\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "设 $F$ 为抛物线 $C:y^2=4x$ 的焦点，点 $A$ 在 $C$ 上，点 $B(3,0)$，若 $AF=BF$，则 $AB=$（ ）",
+          "choices": [
+            "$2$",
+            "$2\\sqrt{2}$",
+            "$3$",
+            "$3\\sqrt{2}$"
+          ],
+          "answer": "B",
+          "solution": "由题意得 $F(1,0)$，则\r\n$BF=\\sqrt{\\left( 3-1 \\right)^2+0^2}=2$.\r\n因为 $AF=BF$，所以 $AF=2$.\r\n抛物线上的点到焦点与准线的距离相等，所以点 $A$ 到准线 $x=-1$ 的距离为 $2$，故点 $A$ 的横坐标为 $1$.\r\n不妨设点 $A$ 在 $x$ 轴上方，代入 $y^2=4x$ 得 $A(1,2)$.\r\n所以\r\n$AB=\\sqrt{\\left( 3-1 \\right)^2+\\left( 0-2 \\right)^2}=2\\sqrt{2}$.\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "执行下边的程序框图，输出的 $n=$（ ）\r\n\r\n\\texfigure[max width=6.0cm]{img_repaint/2022/national_paper_b_science/q6_fig1.tex}",
+          "choices": [
+            "$3$",
+            "$4$",
+            "$5$",
+            "$6$"
+          ],
+          "answer": "B",
+          "solution": "执行第一次循环，\r\n$b=b+2a=1+2=3$，\r\n$a=b-a=3-1=2$，$n=n+1=2$，\r\n$\\left| \\frac{b^2}{a^2}-2 \\right| =\\left| \\frac{3^2}{2^2}-2 \\right| =\\frac{1}{4}>0.01$.\r\n执行第二次循环，\r\n$b=b+2a=3+4=7$，\r\n$a=b-a=7-2=5$，$n=n+1=3$，\r\n$\\left| \\frac{b^2}{a^2}-2 \\right| =\\left| \\frac{7^2}{5^2}-2 \\right| =\\frac{1}{25}>0.01$.\r\n执行第三次循环，\r\n$b=b+2a=7+10=17$，\r\n$a=b-a=17-5=12$，$n=n+1=4$，\r\n$\\left| \\frac{b^2}{a^2}-2 \\right| =\\left| \\frac{17^2}{12^2}-2 \\right| =\\frac{1}{144}<0.01$.\r\n此时输出 $n=4$.\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "在正方体 $ABCD-A_1B_1C_1D_1$ 中，$E$，$F$ 分别为 $AB$，$BC$ 的中点，则（ ）",
+          "choices": [
+            "$\\text{平面 }B_1EF\\perp \\text{平面 }BDD_1$",
+            "$\\text{平面 }B_1EF\\perp \\text{平面 }A_1BD$",
+            "$\\text{平面 }B_1EF // \\text{平面 }A_1AC$",
+            "$\\text{平面 }B_1EF // \\text{平面 }A_1C_1D$"
+          ],
+          "answer": "A",
+          "solution": "在正方体 $ABCD-A_1B_1C_1D_1$ 中，$AC\\perp BD$，且 $DD_1\\perp \\text{平面 }ABCD$.\r\n又因为 $EF\\subset \\text{平面 }ABCD$，所以 $EF\\perp DD_1$.\r\n因为 $E$，$F$ 分别为 $AB$，$BC$ 的中点，所以 $EF // AC$，从而 $EF\\perp BD$.\r\n又 $BD\\cap DD_1=D$，所以 $EF\\perp \\text{平面 }BDD_1$.\r\n因为 $EF\\subset \\text{平面 }B_1EF$，所以 $\\text{平面 }B_1EF\\perp \\text{平面 }BDD_1$.\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "已知等比数列 $\\{a_n\\}$ 的前 $3$ 项和为 $168$，$a_2-a_5=42$，则 $a_6=$（ ）",
+          "choices": [
+            "$14$",
+            "$12$",
+            "$6$",
+            "$3$"
+          ],
+          "answer": "D",
+          "solution": "设等比数列 $\\{a_n\\}$ 的首项为 $a_1$，公比为 $q$.\r\n若 $q=1$，则 $a_2-a_5=0$，与题意矛盾，所以 $q\\neq 1$.\r\n由题意得\r\n$a_1+a_2+a_3=\\frac{a_1\\left( 1-q^3 \\right)}{1-q}=168$，\r\n$a_2-a_5=a_1q-a_1q^4=42$.\r\n解得\r\n$a_1=96$，$q=\\frac{1}{2}$.\r\n所以\r\n$a_6=a_1q^5=96\\times \\left( \\frac{1}{2} \\right)^5=3$.\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "已知球 $O$ 的半径为 $1$，四棱锥的顶点为 $O$，底面的四个顶点均在球 $O$ 的球面上，则当该四棱锥的体积最大时，其高为（ ）",
+          "choices": [
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{\\sqrt{3}}{3}$",
+            "$\\frac{\\sqrt{2}}{2}$"
+          ],
+          "answer": "C",
+          "solution": "设该四棱锥底面为四边形 $ABCD$，四边形 $ABCD$ 所在小圆半径为 $r$，四棱锥的高为 $h$.\r\n因为四边形 $ABCD$ 的四个顶点都在同一圆上，设其对角线夹角为 $\\alpha$，则 $S_{ABCD}=\\frac{1}{2}\\cdot AC\\cdot BD\\cdot \\sin \\alpha\\le \\frac{1}{2}\\cdot AC\\cdot BD\\le \\frac{1}{2}\\cdot 2r\\cdot 2r=2r^2$.\r\n当且仅当四边形 $ABCD$ 为正方形时等号成立.\r\n又因为球半径为 $1$，所以\r\n$r^2+h^2=1$.\r\n于是四棱锥体积\r\n$V=\\frac{1}{3}\\cdot S_{ABCD}\\cdot h \\le \\frac{1}{3}\\cdot 2r^2h$.\r\n由 $r^2+h^2=1$，得\r\n$V\\le \\frac{2}{3}r^2h$.\r\n当 $r^2=2h^2$ 时取到最大值，因此\r\n$1=r^2+h^2=2h^2+h^2=3h^2$，\r\n所以\r\n$h=\\frac{\\sqrt{3}}{3}$.\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "某棋手与甲，乙，丙三位棋手各比赛一盘，各盘比赛结果相互独立. 已知该棋手与甲，乙，丙比赛获胜的概率分别为 $p_1$，$p_2$，$p_3$，且 $p_3>p_2>p_1>0$. 记该棋手连胜两盘的概率为 $p$，则（ ）",
+          "choices": [
+            "$p$ 与该棋手和甲，乙，丙的比赛次序无关",
+            "该棋手在第二盘与甲比赛，$p$ 最大",
+            "该棋手在第二盘与乙比赛，$p$ 最大",
+            "该棋手在第二盘与丙比赛，$p$ 最大"
+          ],
+          "answer": "D",
+          "solution": "该棋手连胜两盘，则第二盘为必胜盘.\r\n记该棋手在第二盘与甲比赛且连胜两盘的概率为 $p_{\\text{甲}}$. 此时比赛顺序可能为乙甲丙或丙甲乙，两种顺序概率相同，所以 $p_{\\text{甲}}=\\frac{1}{2}\\left[ \\left( 1-p_2 \\right)p_1p_3+p_2p_1\\left( 1-p_3 \\right) \\right]=\\frac{1}{2}\\left[ \\left( 1-p_3 \\right)p_1p_2+p_3p_1\\left( 1-p_2 \\right) \\right]=p_1\\left( p_2+p_3 \\right)-2p_1p_2p_3$.\r\n记该棋手在第二盘与乙比赛且连胜两盘的概率为 $p_{\\text{乙}}$. 此时比赛顺序可能为甲乙丙或丙乙甲，两种顺序下连胜两盘的概率分别为 $\\left( 1-p_1 \\right)p_2p_3+p_1p_2\\left( 1-p_3 \\right)$ 和 $\\left( 1-p_3 \\right)p_2p_1+p_3p_2\\left( 1-p_1 \\right)$. 这两个式子相等，所以 $p_{\\text{乙}}=\\left( 1-p_1 \\right)p_2p_3+p_1p_2\\left( 1-p_3 \\right)=p_2\\left( p_1+p_3 \\right)-2p_1p_2p_3$.\r\n记该棋手在第二盘与丙比赛且连胜两盘的概率为 $p_{\\text{丙}}$. 此时比赛顺序可能为甲丙乙或乙丙甲，两种顺序下连胜两盘的概率分别为 $\\left( 1-p_1 \\right)p_3p_2+p_1p_3\\left( 1-p_2 \\right)$ 和 $\\left( 1-p_2 \\right)p_3p_1+p_2p_3\\left( 1-p_1 \\right)$. 这两个式子也相等，所以 $p_{\\text{丙}}=\\left( 1-p_1 \\right)p_3p_2+p_1p_3\\left( 1-p_2 \\right)=p_3\\left( p_1+p_2 \\right)-2p_1p_2p_3$.\r\n于是\r\n$p_{\\text{甲}}-p_{\\text{乙}} =\\left( p_1-p_2 \\right)p_3<0$，\r\n$p_{\\text{乙}}-p_{\\text{丙}} =\\left( p_2-p_3 \\right)p_1<0$.\r\n所以\r\n$p_{\\text{甲}}<p_{\\text{乙}}<p_{\\text{丙}}$.\r\n因此该棋手在第二盘与丙比赛时，$p$ 最大.\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "双曲线 $C$ 的两个焦点为 $F_1$，$F_2$，以 $C$ 的实轴为直径的圆记为 $D$，过 $F_1$ 作 $D$ 的切线与 $C$ 交于 $M$，$N$ 两点，且 $\\cos \\angle F_1NF_2=\\frac{3}{5}$，则 $C$ 的离心率为（ ）",
+          "choices": [
+            "$\\frac{\\sqrt{5}}{2}$",
+            "$\\frac{3}{2}$",
+            "$\\frac{\\sqrt{13}}{2}$",
+            "$\\frac{\\sqrt{17}}{2}$"
+          ],
+          "answer": "AC",
+          "solution": "依题意不妨设双曲线焦点在 $x$ 轴，设过 $F_1$ 作圆 $D$ 的切线切点为 $B$.\r\n设 $\\angle F_1NF_2=\\alpha$，由题意\r\n$\\cos \\alpha=\\frac{3}{5}$，\r\n所以\r\n$\\sin \\alpha=\\frac{4}{5}$.\r\n分两种情况讨论.\r\n\r\n当 $M$，$N$ 在双曲线的同一支上时，因为 $\\cos \\angle F_1NF_2>0$，所以 $N$ 在双曲线的左支.\r\n设 $|OB|=a$，$|OF_1|=c$，$|F_1B|=b$，则\r\n$|NA|=\\frac{3}{2}a$，$|NF_2|=\\frac{5}{2}a$.\r\n又因为\r\n$|NF_2|-|NF_1|=2a$，\r\n所以\r\n$\\frac{5}{2}a-\\left( \\frac{3}{2}a-2b \\right)=2a$，\r\n即\r\n$2b=a$.\r\n于是 $e=\\frac{c}{a}=\\sqrt{1+\\left( \\frac{b}{a} \\right)^2}=\\sqrt{1+\\left( \\frac{1}{2} \\right)^2}=\\frac{\\sqrt{5}}{2}$.\r\n故此时选 A.\r\n\r\n当 $M$，$N$ 在双曲线的两支上时，因为 $\\cos \\angle F_1NF_2>0$，所以 $N$ 在双曲线的右支.\r\n设 $\\angle F_1NF_2=\\alpha$，由\r\n$\\cos \\angle F_1NF_2=\\frac{3}{5}$，\r\n即\r\n$\\cos \\alpha=\\frac{3}{5}$，\r\n则\r\n$\\sin \\alpha=\\frac{4}{5}$.\r\n因此\r\n$|NA|=\\frac{3}{2}a$，$|NF_2|=\\frac{5}{2}a$，\r\n又因为\r\n$|NF_1|-|NF_2|=2a$，\r\n所以\r\n$\\frac{3}{2}a+2b-\\frac{5}{2}a=2a$，\r\n即\r\n$2b=3a$.\r\n于是 $e=\\frac{c}{a}=\\sqrt{1+\\left( \\frac{b}{a} \\right)^2}=\\sqrt{1+\\left( \\frac{3}{2} \\right)^2}=\\frac{\\sqrt{13}}{2}$.\r\n故此时选 C.\r\n综上，故选 AC.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "已知函数 $f(x)$，$g(x)$ 的定义域均为 $\\mathbb{R}$，且 $f(x)+g(2-x)=5$，$g(x)-f(x-4)=7$. 若 $y=g(x)$ 的图像关于直线 $x=2$ 对称，$g(2)=4$，则 $\\sum_{k=1}^{22}f(k)=$（ ）",
+          "choices": [
+            "$-21$",
+            "$-22$",
+            "$-23$",
+            "$-24$"
+          ],
+          "answer": "D",
+          "solution": "因为 $y=g(x)$ 的图像关于直线 $x=2$ 对称，所以\r\n$g(2-x)=g(x+2)$.\r\n又因为\r\n$g(x)-f(x-4)=7$，\r\n所以\r\n$g(x+2)-f(x-2)=7$，\r\n即\r\n$g(x+2)=7+f(x-2)$.\r\n由\r\n$f(x)+g(2-x)=5$\r\n和 $g(2-x)=g(x+2)$，得\r\n$f(x)+g(x+2)=5$.\r\n代入上式，得\r\n$f(x)+\\left[ 7+f(x-2) \\right]=5$，\r\n即\r\n$f(x)+f(x-2)=-2$.\r\n于是\r\n$f(3)+f(5)+\\cdots+f(21)=-10$，\r\n$f(4)+f(6)+\\cdots+f(22)=-10$.\r\n又因为\r\n$f(x)+g(2-x)=5$，\r\n取 $x=0$，得\r\n$f(0)+g(2)=5$，\r\n所以\r\n$f(0)=1$.\r\n再由\r\n$f(2)+f(0)=-2$，\r\n得\r\n$f(2)=-3$.\r\n又因为\r\n$g(x)-f(x-4)=7$，\r\n所以\r\n$g(x+4)-f(x)=7$.\r\n联立\r\n$f(x)+g(2-x)=5$，\r\n得\r\n$g(2-x)+g(x+4)=12$.\r\n因此 $y=g(x)$ 的图像关于点 $(3,6)$ 中心对称.\r\n因为函数 $g(x)$ 的定义域为 $\\mathbb{R}$，所以\r\n$g(3)=6$.\r\n再由\r\n$f(x)+g(x+2)=5$，\r\n取 $x=1$，得\r\n$f(1)=5-g(3)=-1$.\r\n所以 $\\sum_{k=1}^{22}f(k) =f(1)+f(2)+\\left[ f(3)+f(5)+\\cdots+f(21) \\right]+\\left[ f(4)+f(6)+\\cdots+f(22) \\right]=-1-3-10-10=-24$.\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "从甲，乙等 $5$ 名同学中随机选 $3$ 名参加社区服务工作，则甲，乙都入选的概率为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{3}{10}\\) 或 \\(0.3\\)",
+          "solution": "从 $5$ 名同学中随机选 $3$ 名，共有\r\n$\\binom{5}{3}=10$\r\n种选法.\r\n其中甲，乙都入选时，还需从其余 $3$ 名同学中再选 $1$ 名，共有\r\n$\\binom{3}{1}=3$\r\n种选法.\r\n所以所求概率\r\n$P=\\frac{3}{10}$.\r\n故答案为 $\\frac{3}{10}$ 或 $0.3$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "过四点 $(0,0)$，$(4,0)$，$(-1,1)$，$(4,2)$ 中的三点的一个圆的方程为 _______ {}.",
+          "choices": [],
+          "answer": "\\((x-2)^2+(y-3)^2=13\\) 或 \\((x-2)^2+(y-1)^2=5\\) 或 \\(\\left( x-\\frac{4}{3} \\right)^2+\\left( y-\\frac{7}{3} \\right)^2=\\frac{65}{9}\\) 或 \\(\\left( x-\\frac{8}{5} \\right)^2+(y-1)^2=\\frac{169}{25}\\)",
+          "solution": "设圆的方程为 $x^2+y^2+Dx+Ey+F=0$.\r\n\r\n$1^{\\odot}$ 若圆过 $(0,0)$，$(4,0)$，$(-1,1)$，则 $F=0$，$16+4D+F=0$，$1+1-D+E+F=0$.\r\n解得\r\n$D=-4$，$E=-6$，$F=0$.\r\n所以圆的方程为\r\n$x^2+y^2-4x-6y=0$，\r\n即\r\n$\\left( x-2 \\right)^2+\\left( y-3 \\right)^2=13$.\r\n\r\n$2^{\\odot}$ 若圆过 $(0,0)$，$(4,0)$，$(4,2)$，则 $F=0$，$16+4D+F=0$，$16+4+4D+2E+F=0$.\r\n解得\r\n$D=-4$，$E=-2$，$F=0$.\r\n所以圆的方程为\r\n$x^2+y^2-4x-2y=0$，\r\n即\r\n$\\left( x-2 \\right)^2+\\left( y-1 \\right)^2=5$.\r\n\r\n$3^{\\odot}$ 若圆过 $(0,0)$，$(4,2)$，$(-1,1)$，则 $F=0$，$1+1-D+E+F=0$，$16+4+4D+2E+F=0$.\r\n解得\r\n$D=-\\frac{8}{3}$，$E=-\\frac{14}{3}$，$F=0$.\r\n所以圆的方程为\r\n$x^2+y^2-\\frac{8}{3}x-\\frac{14}{3}y=0$，\r\n即\r\n$\\left( x-\\frac{4}{3} \\right)^2+\\left( y-\\frac{7}{3} \\right)^2=\\frac{65}{9}$.\r\n\r\n$4^{\\odot}$ 若圆过 $(-1,1)$，$(4,0)$，$(4,2)$，则 $1+1-D+E+F=0$，$16+4D+F=0$，$16+4+4D+2E+F=0$.\r\n解得\r\n$D=-\\frac{16}{5}$，$E=-2$，$F=-\\frac{16}{5}$.\r\n所以圆的方程为\r\n$x^2+y^2-\\frac{16}{5}x-2y-\\frac{16}{5}=0$，\r\n即\r\n$\\left( x-\\frac{8}{5} \\right)^2+\\left( y-1 \\right)^2=\\frac{169}{25}$.\r\n故答案为 $\\left( x-2 \\right)^2+\\left( y-3 \\right)^2=13$ 或 $\\left( x-2 \\right)^2+\\left( y-1 \\right)^2=5$ 或 $\\left( x-\\frac{4}{3} \\right)^2+\\left( y-\\frac{7}{3} \\right)^2=\\frac{65}{9}$ 或 $\\left( x-\\frac{8}{5} \\right)^2+\\left( y-1 \\right)^2=\\frac{169}{25}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "记函数 $f(x)=\\cos \\left( \\omega x+\\varphi \\right)$（$\\omega>0$，$0<\\varphi<\\pi$）的最小正周期为 $T$，若 $f(T)=\\frac{\\sqrt{3}}{2}$，$x=\\frac{\\pi}{9}$ 为 $f(x)$ 的零点，则 $\\omega$ 的最小值为 _______ {}.",
+          "choices": [],
+          "answer": "3",
+          "solution": "因为\r\n$f(x)=\\cos \\left( \\omega x+\\varphi \\right)$，\r\n所以最小正周期\r\n$T=\\frac{2\\pi}{\\omega}$.\r\n由 $f(T)=\\frac{\\sqrt{3}}{2}$，得 $f(T)=\\cos \\left( \\omega\\cdot \\frac{2\\pi}{\\omega}+\\varphi \\right)=\\cos \\left( 2\\pi+\\varphi \\right)=\\cos \\varphi=\\frac{\\sqrt{3}}{2}$.\r\n又 $0<\\varphi<\\pi$，所以\r\n$\\varphi=\\frac{\\pi}{6}$.\r\n于是\r\n$f(x)=\\cos \\left( \\omega x+\\frac{\\pi}{6} \\right)$.\r\n又 $x=\\frac{\\pi}{9}$ 为 $f(x)$ 的零点，所以\r\n$\\frac{\\pi}{9}\\omega+\\frac{\\pi}{6}=\\frac{\\pi}{2}+k\\pi$，$k\\in \\mathbb{Z}$.\r\n解得\r\n$\\omega=3+9k$，$k\\in \\mathbb{Z}$.\r\n因为 $\\omega>0$，所以当 $k=0$ 时，$\\omega$ 的最小值为 $3$.\r\n故答案为 $3$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "已知 $x=x_1$ 和 $x=x_2$ 分别是函数 $f(x)=2a^x-\\mathrm{e} x^2$（$a>0$ 且 $a\\neq 1$）的极小值点和极大值点. 若 $x_1<x_2$，则 $a$ 的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left( \\frac{1}{\\mathrm{e}},1 \\right)\\)",
+          "solution": "因为\r\n$f'(x)=2\\ln a\\cdot a^x-2\\mathrm{e} x$，\r\n所以方程\r\n$2\\ln a\\cdot a^x-2\\mathrm{e} x=0$\r\n的两个根为 $x_1$，$x_2$.\r\n即方程\r\n$\\ln a\\cdot a^x=\\mathrm{e} x$\r\n有两个不同的实根，也就是函数 $y=\\ln a\\cdot a^x$ 与函数 $y=\\mathrm{e} x$ 的图像有两个不同的交点.\r\n因为 $x_1$，$x_2$ 分别是函数 $f(x)=2a^x-\\mathrm{e} x^2$ 的极小值点和极大值点，且 $x_1<x_2$，所以函数 $f(x)$ 在 $(-\\infty,x_1)$ 和 $(x_2,+\\infty)$ 上递减，在 $(x_1,x_2)$ 上递增.\r\n因此当 $x\\in (-\\infty,x_1)\\cup (x_2,+\\infty)$ 时，$f'(x)<0$，即直线 $y=\\mathrm{e} x$ 在曲线 $y=\\ln a\\cdot a^x$ 上方；当 $x\\in (x_1,x_2)$ 时，$f'(x)>0$，即直线 $y=\\mathrm{e} x$ 在曲线 $y=\\ln a\\cdot a^x$ 下方.\r\n若 $a>1$，则 $\\ln a>0$，从而对任意 $x$ 都有 $\\ln a\\cdot a^x>0$；而当 $x<0$ 时，$\\mathrm{e} x<0$. 这说明在 $x<0$ 的范围内，直线 $y=\\mathrm{e} x$ 不可能在曲线 $y=\\ln a\\cdot a^x$ 上方，更不可能与它相交，这与在 $(-\\infty,x_1)$ 上恒有 $f'(x)<0$ 矛盾. 所以\r\n$0<a<1$.\r\n令\r\n$g(x)=\\ln a\\cdot a^x$，\r\n则\r\n$g'(x)=\\ln^2 a\\cdot a^x$.\r\n设过原点且与函数 $y=g(x)$ 的图像相切的直线的切点为 $\\left( x_0,\\ln a\\cdot a^{x_0} \\right)$，则该切线斜率为\r\n$g'(x_0)=\\ln^2 a\\cdot a^{x_0}$.\r\n切线方程为\r\n$y-\\ln a\\cdot a^{x_0}=\\ln^2 a\\cdot a^{x_0}\\left( x-x_0 \\right)$.\r\n因为该切线过原点，所以\r\n$0-\\ln a\\cdot a^{x_0}=\\ln^2 a\\cdot a^{x_0}\\left( 0-x_0 \\right)$，\r\n解得\r\n$x_0=\\frac{1}{\\ln a}$.\r\n于是切线斜率\r\n$g'(x_0)=\\ln^2 a\\cdot a^{\\frac{1}{\\ln a}}=\\mathrm{e} \\ln^2 a$.\r\n因为函数 $y=\\ln a\\cdot a^x$ 与函数 $y=\\mathrm{e} x$ 的图像有两个不同的交点，所以\r\n$\\mathrm{e} \\ln^2 a<\\mathrm{e}$，\r\n即\r\n$\\ln^2 a<1$.\r\n解得\r\n$\\frac{1}{\\mathrm{e}}<a<\\mathrm{e}$.\r\n再结合 $0<a<1$，得\r\n$\\frac{1}{\\mathrm{e}}<a<1$.\r\n故答案为 $\\left( \\frac{1}{\\mathrm{e}},1 \\right)$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "记 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $\\sin C\\sin \\left( A-B \\right)=\\sin B\\sin \\left( C-A \\right)$.\r\n\n(1) 证明：$2a^2=b^2+c^2$；\n\n(2) 若 $a=5$，$\\cos A=\\frac{25}{31}$，求 $\\triangle ABC$ 的周长.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 证明：因为\r\n$\\sin C\\sin \\left( A-B \\right)=\\sin B\\sin \\left( C-A \\right)$，\r\n所以\r\n$\\sin C\\sin A\\cos B-\\sin C\\sin B\\cos A =\\sin B\\sin C\\cos A-\\sin B\\sin A\\cos C$.\r\n由正弦定理与余弦定理可得 $ac\\cdot \\frac{a^2+c^2-b^2}{2ac}-2bc\\cdot \\frac{b^2+c^2-a^2}{2bc}=-ab\\cdot \\frac{a^2+b^2-c^2}{2ab}$.\r\n化简得\r\n$\\frac{a^2+c^2-b^2}{2}-\\left( b^2+c^2-a^2 \\right) =-\\frac{a^2+b^2-c^2}{2}$，\r\n所以\r\n$2a^2=b^2+c^2$.\n\n(2) 因为 $a=5$，$\\cos A=\\frac{25}{31}$，由（1）得\r\n$b^2+c^2=2a^2=50$.\r\n由余弦定理\r\n$a^2=b^2+c^2-2bc\\cos A$，\r\n得\r\n$25=50-2bc\\cdot \\frac{25}{31}$，\r\n所以\r\n$bc=\\frac{31}{2}$.\r\n于是\r\n$\\left( b+c \\right)^2=b^2+c^2+2bc=50+31=81$，\r\n所以\r\n$b+c=9$.\r\n因此 $\\triangle ABC$ 的周长为\r\n$a+b+c=5+9=14$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，四面体 $ABCD$ 中，$AD\\perp CD$，$AD=CD$，$\\angle ADB=\\angle BDC$，$E$ 为 $AC$ 的中点.\r\n\r\n\n(1) 证明：$\\text{平面 }BED\\perp \\text{平面 }ACD$；\n\n(2) 设 $AB=BD=2$，$\\angle ACB=60^\\circ$，点 $F$ 在 $BD$ 上. 当 $\\triangle AFC$ 面积最小时，求 $CF$ 与平面 $ABD$ 所成的角的正弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2022/img/national_paper_b_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 证明：因为 $AD=CD$，$E$ 为 $AC$ 的中点，所以\r\n$AC\\perp DE$.\r\n在 $\\triangle ABD$ 和 $\\triangle CBD$ 中，\r\n$AD=CD$，$\\angle ADB=\\angle CDB$，$DB=DB$，\r\n所以\r\n$\\triangle ABD\\cong \\triangle CBD$.\r\n因此\r\n$AB=CB$.\r\n又因为 $E$ 为 $AC$ 的中点，所以\r\n$AC\\perp BE$.\r\n因为 $DE$，$BE\\subset \\text{平面 }BED$，且 $DE\\cap BE=E$，所以\r\n$AC\\perp \\text{平面 }BED$.\r\n又因为 $AC\\subset \\text{平面 }ACD$，所以\r\n$\\text{平面 }BED\\perp \\text{平面 }ACD$.\n\n(2) 连接 $EF$. 由（1）知 $AC\\perp \\text{平面 }BED$，因为 $EF\\subset \\text{平面 }BED$，所以\r\n$AC\\perp EF$.\r\n于是\r\n$S_{\\triangle AFC}=\\frac{1}{2}\\cdot AC\\cdot EF$.\r\n当 $EF\\perp BD$ 时，$EF$ 最小，此时 $\\triangle AFC$ 面积最小.\r\n因为 $\\triangle ABD\\cong \\triangle CBD$，所以\r\n$CB=AB=2$.\r\n又因为 $\\angle ACB=60^\\circ$，所以 $\\triangle ABC$ 是等边三角形.\r\n因为 $E$ 为 $AC$ 的中点，所以\r\n$AE=EC=1$，$BE=\\sqrt{3}$.\r\n又因为 $AD\\perp CD$，且 $AD=CD$，所以在等腰直角三角形 $ADC$ 中，\r\n$DE=\\frac{1}{2}AC=1$.\r\n在 $\\triangle DEB$ 中，\r\n$DE^2+BE^2=1^2+\\left( \\sqrt{3} \\right)^2=4=BD^2$，\r\n所以\r\n$BE\\perp DE$.\r\n以 $E$ 为坐标原点建立空间直角坐标系 $E-xyz$，则\r\n$A(1,0,0)$，$B(0,\\sqrt{3},0)$，$D(0,0,1)$，$C(-1,0,0)$.\r\n于是\r\n$\\overrightarrow{AD}=(-1,0,1)$，$\\overrightarrow{AB}=(-1,\\sqrt{3},0)$.\r\n设平面 $ABD$ 的一个法向量为 $\\mathbf{n}=(x,y,z)$，则\r\n$\\mathbf{n}\\cdot \\overrightarrow{AD}=-x+z=0$，$\\mathbf{n}\\cdot \\overrightarrow{AB}=-x+\\sqrt{3}y=0$.\r\n取 $y=\\sqrt{3}$，得\r\n$\\mathbf{n}=(3,\\sqrt{3},3)$.\r\n当 $EF\\perp BD$ 时，$F$ 为 $BD$ 上到 $E$ 的垂足. 由向量投影可得\r\n$F\\left( 0,\\frac{\\sqrt{3}}{4},\\frac{3}{4} \\right)$.\r\n所以\r\n$\\overrightarrow{CF}=\\left( 1,\\frac{\\sqrt{3}}{4},\\frac{3}{4} \\right)$.\r\n设 $CF$ 与平面 $ABD$ 所成角为 $\\theta$，则 $\\sin \\theta=\\cos \\angle \\left( \\mathbf{n},\\overrightarrow{CF} \\right)=\\frac{\\left| \\mathbf{n}\\cdot \\overrightarrow{CF} \\right|}{|\\mathbf{n}|\\cdot |\\overrightarrow{CF}|}$.\r\n计算得 $\\mathbf{n}\\cdot \\overrightarrow{CF} =3+\\frac{3}{4}+\\frac{9}{4} =6$，$|\\mathbf{n}|=\\sqrt{9+3+9}=\\sqrt{21}$，$|\\overrightarrow{CF}|=\\sqrt{1+\\frac{3}{16}+\\frac{9}{16}}=\\sqrt{\\frac{7}{4}}$，所以 $\\cos \\angle \\left( \\mathbf{n},\\overrightarrow{CF} \\right)=\\frac{6}{\\sqrt{21}\\cdot \\sqrt{\\frac{7}{4}}}=\\frac{4\\sqrt{3}}{7}$.\r\n因此\r\n$\\sin \\theta=\\frac{4\\sqrt{3}}{7}$.\r\n所以 $CF$ 与平面 $ABD$ 所成角的正弦值为\r\n$\\frac{4\\sqrt{3}}{7}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "某地经过多年的环境治理，已将荒山改造成了绿水青山. 为估计一林区某种树木的总材积量，随机选取了 $10$ 棵这种树木，测量每棵树的根部横截面积（单位：$\\mathrm{m}^2$）和材积量（单位：$\\mathrm{m}^3$），得到如下数据：\r\n\r\n\\begin{center}\r\n\\renewcommand{\\arraystretch}{1.3}\r\n\\begin{tabular}{|c|c|c|c|c|c|}\r\n\\hline\r\n样本号 $i$ & 1 & 2 & 3 & 4 & 5 \\\\\r\n\\hline\r\n根部横截面积 $x_i$ & 0.04 & 0.06 & 0.04 & 0.08 & 0.08 \\\\\r\n\\hline\r\n材积量 $y_i$ & 0.25 & 0.40 & 0.22 & 0.54 & 0.51 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\\begin{center}\r\n\\renewcommand{\\arraystretch}{1.3}\r\n\\begin{tabular}{|c|c|c|c|c|c|c|}\r\n\\hline\r\n样本号 $i$ & 6 & 7 & 8 & 9 & 10 & 总和 \\\\\r\n\\hline\r\n根部横截面积 $x_i$ & 0.05 & 0.05 & 0.07 & 0.07 & 0.06 & 0.6 \\\\\r\n\\hline\r\n材积量 $y_i$ & 0.34 & 0.36 & 0.46 & 0.42 & 0.40 & 3.9 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n并计算得 $\\sum_{i=1}^{10}x_i^2=0.038$，$\\sum_{i=1}^{10}y_i^2=1.6158$，$\\sum_{i=1}^{10}x_iy_i=0.2474$.\r\n\r\n附：相关系数 $r=\\frac{\\sum_{i=1}^{n}\\left( x_i-\\bar{x} \\right)\\left( y_i-\\bar{y} \\right)}{\\sqrt{\\sum_{i=1}^{n}\\left( x_i-\\bar{x} \\right)^2\\sum_{i=1}^{n}\\left( y_i-\\bar{y} \\right)^2}}$，$\\sqrt{1.896}\\approx1.377$.\r\n\r\n\n(1) 估计该林区这种树木平均一棵的根部横截面积与平均一棵的材积量；\n\n(2) 求该林区这种树木的根部横截面积与材积量的样本相关系数（精确到 $0.01$）；\n\n(3) 现测量了该林区所有这种树木的根部横截面积，并得到所有这种树木的根部横截面积总和为 $186\\mathrm{m}^2$. 已知树木的材积量与其根部横截面积近似成正比. 利用以上数据给出该林区这种树木的总材积量的估计值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 样本中 $10$ 棵这种树木的根部横截面积的平均值\r\n$\\bar{x}=\\frac{0.6}{10}=0.06$.\r\n样本中 $10$ 棵这种树木的材积量的平均值\r\n$\\bar{y}=\\frac{3.9}{10}=0.39$.\r\n据此可估计该林区这种树木平均一棵的根部横截面积为 $0.06\\mathrm{m}^2$，平均一棵的材积量为 $0.39\\mathrm{m}^3$.\n\n(2) 于是 $r=\\frac{\\sum_{i=1}^{10}\\left( x_i-\\bar{x} \\right)\\left( y_i-\\bar{y} \\right)}{\\sqrt{\\sum_{i=1}^{10}\\left( x_i-\\bar{x} \\right)^2\\sum_{i=1}^{10}\\left( y_i-\\bar{y} \\right)^2}}=\\frac{\\sum_{i=1}^{10}x_iy_i-10\\bar{x}\\bar{y}}{\\sqrt{\\left( \\sum_{i=1}^{10}x_i^2-10\\bar{x}^2 \\right)\\left( \\sum_{i=1}^{10}y_i^2-10\\bar{y}^2 \\right)}}$.\r\n所以 $r=\\frac{0.2474-10\\times 0.06\\times 0.39}{\\sqrt{\\left( 0.038-10\\times 0.06^2 \\right)\\left( 1.6158-10\\times 0.39^2 \\right)}}=\\frac{0.0134}{\\sqrt{0.0001896}}\\approx \\frac{0.0134}{0.01377}\\approx 0.97$.\r\n故样本相关系数约为 $0.97$.\n\n(3) 设该林区这种树木的总材积量的估计值为 $Y\\mathrm{m}^3$.\r\n又已知树木的材积量与其根部横截面积近似成正比，所以\r\n$\\frac{0.06}{0.39}=\\frac{186}{Y}$.\r\n解得\r\n$Y=1209$.\r\n故该林区这种树木的总材积量估计值为 $1209\\mathrm{m}^3$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知椭圆 $E$ 的中心为坐标原点，对称轴为 $x$ 轴，$y$ 轴，且过 $A(0,-2)$，$B\\left( \\frac{3}{2},-1 \\right)$ 两点.\r\n\n(1) 求 $E$ 的方程；\n\n(2) 设过点 $P(1,-2)$ 的直线交 $E$ 于 $M$，$N$ 两点，过 $M$ 且平行于 $x$ 轴的直线与线段 $AB$ 交于点 $T$，点 $H$ 满足 $MT=TH$. 证明：直线 $HN$ 过定点.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设椭圆 $E$ 的方程为\r\n$mx^2+ny^2=1$.\r\n由椭圆过 $A(0,-2)$，$B\\left( \\frac{3}{2},-1 \\right)$，得 $4n=1$，$\\frac{9}{4}m+n=1$.\r\n解得\r\n$m=\\frac{1}{3}$，$n=\\frac{1}{4}$.\r\n所以椭圆 $E$ 的方程为\r\n$\\frac{y^2}{4}+\\frac{x^2}{3}=1$.\n\n(2) 由 $A(0,-2)$，$B\\left( \\frac{3}{2},-1 \\right)$，得直线 $AB$ 的方程为\r\n$y+2=\\frac{2}{3}x$.\r\n\\begin{enumerate}\n\n(3) 若过点 $P(1,-2)$ 的直线斜率不存在，则直线方程为\r\n$x=1$.\r\n联立 $x=1$ 和 $\\frac{x^2}{3}+\\frac{y^2}{4}=1$，可得\r\n$M\\left( 1,-\\frac{2\\sqrt{6}}{3} \\right)$，$N\\left( 1,\\frac{2\\sqrt{6}}{3} \\right)$.\r\n将 $M$ 的纵坐标代入 $AB$ 的方程，得\r\n$T\\left( -\\sqrt{6}+3,-\\frac{2\\sqrt{6}}{3} \\right)$.\r\n由 $MT=TH$ 得\r\n$H\\left( -2\\sqrt{6}+5,-\\frac{2\\sqrt{6}}{3} \\right)$.\r\n于是直线 $HN$ 的方程为\r\n$y=\\left( 2+\\frac{2\\sqrt{6}}{3} \\right)x-2$，\r\n显然过点 $(0,-2)$.\n\n(4) 若过点 $P(1,-2)$ 的直线斜率存在，设直线方程为\r\n$kx-y-(k+2)=0$，\r\n设\r\n$M(x_1,y_1)$，$N(x_2,y_2)$.\r\n联立 $kx-y-(k+2)=0$ 和 $\\frac{x^2}{3}+\\frac{y^2}{4}=1$，得\r\n$\\left( 3k^2+4 \\right)x^2-6k(k+2)x+3k(k+4)=0$.\r\n所以 $x_1+x_2=\\frac{6k(k+2)}{3k^2+4}$，$x_1x_2=\\frac{3k(k+4)}{3k^2+4}$.\r\n又因为 $y=kx-(k+2)$，所以 $y_1+y_2=\\frac{-8(k+2)}{3k^2+4}$，$y_1y_2=\\frac{4(4+4k-2k^2)}{3k^2+4}$，$x_1y_2+x_2y_1=\\frac{-24k}{3k^2+4}$.\r\n由 $y=y_1$ 和 $y=\\frac{2}{3}x-2$\r\n可得\r\n$T\\left( \\frac{3}{2}y_1+3,y_1 \\right)$.\r\n又由 $MT=TH$，得\r\n$H\\left( 3y_1+6-x_1,y_1 \\right)$.\r\n于是\r\n$HN:\\ y-y_2=\\frac{y_1-y_2}{3y_1+6-x_1-x_2}(x-x_2)$.\r\n将 $(0,-2)$ 代入并整理，需证 $2(x_1+x_2)-6(y_1+y_2)+x_1y_2+x_2y_1-3y_1y_2-12=0$.\r\n代入上面各式得 $\\frac{24k(k+2)+48(k+2)-24k-12(4+4k-2k^2)-12(3k^2+4)}{3k^2+4}=0$，\r\n恒成立.\r\n因此直线 $HN$ 过定点\r\n$(0,-2)$.\n\r\n\\end{enumerate}",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知函数 $f(x)=\\ln(1+x)+ax\\mathrm{e}^{-x}$.\r\n\n(1) 当 $a=1$ 时，求曲线 $y=f(x)$ 在点 $\\left( 0,f(0) \\right)$ 处的切线方程；\n\n(2) 若 $f(x)$ 在区间 $(-1,0)$，$(0,+\\infty)$ 各恰有一个零点，求 $a$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 函数 $f(x)$ 的定义域为 $(-1,+\\infty)$.\r\n当 $a=1$ 时，\r\n$f(x)=\\ln(1+x)+\\frac{x}{\\mathrm{e}^x}$，$f(0)=0$.\r\n所以\r\n$f'(x)=\\frac{1}{1+x}+\\frac{1-x}{\\mathrm{e}^x}$，\r\n从而\r\n$f'(0)=2$.\r\n故曲线 $y=f(x)$ 在点 $\\left( 0,f(0) \\right)$ 处的切线方程为\r\n$y=2x$.\n\n(2) 因为\r\n$f(x)=\\ln(1+x)+\\frac{ax}{\\mathrm{e}^x}$，\r\n所以\r\n$f'(x)=\\frac{1}{1+x}+\\frac{a(1-x)}{\\mathrm{e}^x} =\\frac{\\mathrm{e}^x+a(1-x^2)}{(1+x)\\mathrm{e}^x}$.\r\n设\r\n$g(x)=\\mathrm{e}^x+a(1-x^2)$.\r\n\\begin{enumerate}\n\n(3) 若 $a>0$，当 $x\\in(-1,0)$ 时，\r\n$g(x)=\\mathrm{e}^x+a(1-x^2)>0$，\r\n所以 $f'(x)>0$.\r\n故 $f(x)$ 在 $(-1,0)$ 上单调递增，而 $f(x)<f(0)=0$，所以 $f(x)$ 在 $(-1,0)$ 上没有零点，不合题意.\n\n(4) 若 $-1\\le a\\le 0$，当 $x\\in(0,+\\infty)$ 时，\r\n$g'(x)=\\mathrm{e}^x-2ax>0$，\r\n所以 $g(x)$ 在 $(0,+\\infty)$ 上单调递增，从而\r\n$g(x)>g(0)=1+a\\ge 0$.\r\n于是 $f'(x)>0$，故 $f(x)$ 在 $(0,+\\infty)$ 上单调递增，而 $f(x)>f(0)=0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上没有零点，不合题意.\n\n(5) 若 $a<-1$.\r\n先看区间 $(0,+\\infty)$. 因为\r\n$g'(x)=\\mathrm{e}^x-2ax>0$，\r\n所以 $g(x)$ 在 $(0,+\\infty)$ 上单调递增.\r\n又\r\n$g(0)=1+a<0$，$g(1)=\\mathrm{e}>0$，\r\n所以存在 $m\\in(0,1)$，使得\r\n$g(m)=0$，\r\n即 $f'(m)=0$.\r\n当 $x\\in(0,m)$ 时，$f'(x)<0$，$f(x)$ 单调递减；当 $x\\in(m,+\\infty)$ 时，$f'(x)>0$，$f(x)$ 单调递增.\r\n于是\r\n$f(x)<f(0)=0$（$x\\in(0,m)$），\r\n且\r\n$\\lim\\limits_{x\\to+\\infty}f(x)=+\\infty$，\r\n故 $f(x)$ 在 $(0,+\\infty)$ 上恰有一个零点.\r\n再看区间 $(-1,0)$. 此时\r\n$g'(x)=\\mathrm{e}^x-2ax$.\r\n设\r\n$h(x)=g'(x)=\\mathrm{e}^x-2ax$，\r\n则\r\n$h'(x)=\\mathrm{e}^x-2a>0$.\r\n所以 $g'(x)$ 在 $(-1,0)$ 上单调递增.\r\n又\r\n$g'(-1)=\\frac{1}{\\mathrm{e}}+2a<0$，$g'(0)=1>0$，\r\n所以存在 $n\\in(-1,0)$，使得\r\n$g'(n)=0$.\r\n当 $x\\in(-1,n)$ 时，$g'(x)<0$，$g(x)$ 单调递减；当 $x\\in(n,0)$ 时，$g'(x)>0$，$g(x)$ 单调递增.\r\n又\r\n$g(0)=1+a<0$，$g(-1)=\\frac{1}{\\mathrm{e}}>0$，\r\n所以存在 $t\\in(-1,n)$，使得\r\n$g(t)=0$，\r\n即 $f'(t)=0$.\r\n当 $x\\in(-1,t)$ 时，$f(x)$ 单调递增；当 $x\\in(t,0)$ 时，$f(x)$ 单调递减.\r\n因为\r\n$\\lim\\limits_{x\\to-1^+}f(x)=-\\infty$，$f(0)=0$，\r\n所以当 $x\\in(t,0)$ 时，$f(x)>0$.\r\n故 $f(x)$ 在 $(-1,t)$ 上有唯一零点，在 $(t,0)$ 上无零点，从而 $f(x)$ 在 $(-1,0)$ 上恰有一个零点.\r\n综上，$a$ 的取值范围为\r\n$(-\\infty,-1)$.\n\r\n\\end{enumerate}",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选考题：解答题",
+      "problems": [
+        {
+          "num": 22,
+          "body": "在直角坐标系 $xOy$ 中，曲线 $C$ 的参数方程为 $x=\\sqrt{3}\\cos 2t$，$y=2\\sin t$（$t$ 为参数），以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系，已知直线 $l$ 的极坐标方程为 $\\rho \\sin \\left( \\theta+\\frac{\\pi}{3} \\right)+m=0$.\r\n\n(1) 写出 $l$ 的直角坐标方程；\n\n(2) 若 $l$ 与 C 有公共点，求 $m$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为\r\n$\\rho \\sin \\left( \\theta+\\frac{\\pi}{3} \\right)+m=0$，\r\n所以\r\n$\\frac{1}{2}\\rho \\sin \\theta+\\frac{\\sqrt{3}}{2}\\rho \\cos \\theta+m=0$.\r\n又因为\r\n$\\rho \\sin \\theta=y$，$\\rho \\cos \\theta=x$，\r\n所以\r\n$\\frac{1}{2}y+\\frac{\\sqrt{3}}{2}x+m=0$.\r\n整理得 $l$ 的直角坐标方程为\r\n$\\sqrt{3}x+y+2m=0$.\n\n(2) 【法一】把\r\n$x=\\sqrt{3}\\cos 2t$，$y=2\\sin t$\r\n代入\r\n$\\sqrt{3}x+y+2m=0$，\r\n得\r\n$3\\cos 2t+2\\sin t+2m=0$.\r\n由\r\n$\\cos 2t=1-2\\sin^2 t$，\r\n得\r\n$-6\\sin^2 t+2\\sin t+3+2m=0$.\r\n令\r\n$\\sin t=a$，$a\\in[-1,1]$，\r\n则\r\n$2m=6a^2-2a-3$.\r\n设\r\n$f(a)=6a^2-2a-3$，$-1\\le a\\le 1$.\r\n因为抛物线开口向上，对称轴为\r\n$a=\\frac{1}{6}$，\r\n所以\r\n$f(a)_{\\max}=f(-1)=5$，$f(a)_{\\min}=f\\left( \\frac{1}{6} \\right)=-\\frac{19}{6}$.\r\n因此\r\n$-\\frac{19}{6}\\le 2m\\le 5$，\r\n即\r\n$-\\frac{19}{12}\\le m\\le \\frac{5}{2}$.\r\n故 $m$ 的取值范围为\r\n$\\left[ -\\frac{19}{12},\\frac{5}{2} \\right]$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 23,
+          "body": "已知 $a$，$b$，$c$ 都是正数，且 $a^{\\frac{3}{2}}+b^{\\frac{3}{2}}+c^{\\frac{3}{2}}=1$，证明：\r\n\n(1) $abc\\le \\frac{1}{9}$；\n\n(2) $\\frac{a}{b+c}+\\frac{b}{a+c}+\\frac{c}{a+b}\\le \\frac{1}{2\\sqrt{abc}}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 证明：因为 $a>0$，$b>0$，$c>0$，所以 $a^{\\frac{3}{2}}>0$，$b^{\\frac{3}{2}}>0$，$c^{\\frac{3}{2}}>0$.\r\n由均值不等式得 $\\frac{a^{\\frac{3}{2}}+b^{\\frac{3}{2}}+c^{\\frac{3}{2}}}{3}\\ge \\sqrt[3]{a^{\\frac{3}{2}}b^{\\frac{3}{2}}c^{\\frac{3}{2}}}$.\r\n因为\r\n$a^{\\frac{3}{2}}+b^{\\frac{3}{2}}+c^{\\frac{3}{2}}=1$，\r\n所以\r\n$\\frac{1}{3}\\ge (abc)^{\\frac{1}{2}}$.\r\n于是\r\n$abc\\le \\frac{1}{9}$.\r\n当且仅当\r\n$a^{\\frac{3}{2}}=b^{\\frac{3}{2}}=c^{\\frac{3}{2}}$\r\n时取等号.\n\n(2) 证明：因为\r\n$b+c\\ge 2\\sqrt{bc}$，$a+c\\ge 2\\sqrt{ac}$，$a+b\\ge 2\\sqrt{ab}$，\r\n所以\r\n$\\frac{a}{b+c}\\le \\frac{a}{2\\sqrt{bc}}=\\frac{a^{\\frac{3}{2}}}{2\\sqrt{abc}}$，\r\n$\\frac{b}{a+c}\\le \\frac{b}{2\\sqrt{ac}}=\\frac{b^{\\frac{3}{2}}}{2\\sqrt{abc}}$，\r\n$\\frac{c}{a+b}\\le \\frac{c}{2\\sqrt{ab}}=\\frac{c^{\\frac{3}{2}}}{2\\sqrt{abc}}$.\r\n三式相加得\r\n所以 $\\frac{a}{b+c}+\\frac{b}{a+c}+\\frac{c}{a+b}\\le \\frac{a^{\\frac{3}{2}}+b^{\\frac{3}{2}}+c^{\\frac{3}{2}}}{2\\sqrt{abc}}=\\frac{1}{2\\sqrt{abc}}$.\r\n当且仅当 $a=b=c$ 时取等号.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

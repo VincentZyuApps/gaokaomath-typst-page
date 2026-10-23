@@ -1,10 +1,60 @@
 <template>
   <div class="paper-matrix-wrapper">
+    <!-- 题库全景数据概览 -->
+    <div class="stats-banner">
+      <div class="stat-box">
+        <span class="stat-number">64</span>
+        <span class="stat-label">收录年份 (1952-2026)</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-box">
+        <span class="stat-number">{{ papers.length || 777 }}</span>
+        <span class="stat-label">收录高考试卷 (套)</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-box">
+        <span class="stat-number">16,321</span>
+        <span class="stat-label">真题题库总量 (道)</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-box">
+        <span class="stat-number">97.4%</span>
+        <span class="stat-label">详细解析步骤覆盖率</span>
+      </div>
+    </div>
+
     <!-- 过滤器面板 -->
     <div class="filter-panel">
-      <!-- 地区与卷型筛选 -->
+      <!-- 搜索输入框 -->
+      <div class="search-bar">
+        <span class="search-icon">🔍</span>
+        <input
+          v-model="searchQuery"
+          type="text"
+          placeholder="搜索年份、卷名、地区或科类（例如：2024、全国新高考、天津、理科）..."
+          class="search-input"
+        />
+        <button v-if="searchQuery" class="clear-btn" @click="searchQuery = ''">✕</button>
+      </div>
+
+      <!-- 历史时期筛选 -->
       <div class="filter-group">
-        <span class="filter-label">试卷类型:</span>
+        <span class="filter-label">历史时期:</span>
+        <div class="filter-pills">
+          <button
+            v-for="item in periodOptions"
+            :key="item.value"
+            :class="['filter-pill', { active: selectedPeriod === item.value }]"
+            @click="selectedPeriod = item.value"
+          >
+            {{ item.label }}
+          </button>
+        </div>
+      </div>
+
+      <!-- 地区筛选 -->
+      <div class="filter-group">
+        <span class="filter-label">地区省份:</span>
         <div class="filter-pills">
           <button
             v-for="item in regionOptions"
@@ -17,7 +67,7 @@
         </div>
       </div>
 
-      <!-- 分类筛选 -->
+      <!-- 科类筛选 -->
       <div class="filter-group">
         <span class="filter-label">科类分卷:</span>
         <div class="filter-pills">
@@ -33,16 +83,30 @@
       </div>
     </div>
 
+    <!-- 筛选结果统计 -->
+    <div class="results-header">
+      <span class="results-count">
+        共匹配到 <strong>{{ filteredPapers.length }}</strong> 套试卷
+        <span v-if="totalPages > 1">（第 {{ currentPage }} / {{ totalPages }} 页）</span>
+      </span>
+      <button v-if="isFiltered" class="reset-filters-btn" @click="resetFilters">
+        重置筛选
+      </button>
+    </div>
+
     <!-- 试卷卡片网格 -->
-    <div class="papers-grid">
+    <div v-if="pagedPapers.length > 0" class="papers-grid">
       <div
-        v-for="paper in filteredPapers"
-        :key="paper.slug"
+        v-for="paper in pagedPapers"
+        :key="`${paper.year}-${paper.slug}`"
         class="paper-card"
       >
         <div class="paper-card-header">
-          <span class="year-badge">{{ paper.year }} 年</span>
-          <span :class="['cat-badge', paper.category]">{{ paper.category }}</span>
+          <div class="header-tags">
+            <span class="year-badge">{{ paper.year }} 年</span>
+            <span :class="['cat-badge', paper.category]">{{ paper.category }}</span>
+          </div>
+          <span class="period-badge">{{ formatPeriod(paper.period) }}</span>
         </div>
 
         <h3 class="paper-title">{{ paper.title }}</h3>
@@ -50,7 +114,7 @@
         <div class="paper-meta-list">
           <div class="meta-item">
             <span class="meta-icon">📍</span>
-            <span class="meta-text">{{ paper.provinces }}</span>
+            <span class="meta-text">{{ paper.provinces || paper.region }}</span>
           </div>
           <div class="meta-item">
             <span class="meta-icon">📝</span>
@@ -72,25 +136,60 @@
             立即刷题 🚀
           </a>
           <a
-            :href="`/gaokaomath-typst-page/papers/${paper.year}/${paper.slug}.pdf`"
+            :href="`/gaokaomath-typst-page/papers/${paper.year}/${paper.slug}.typ`"
             download
-            class="pdf-btn"
-            title="下载 Typst 印刷级 PDF"
+            class="typ-btn"
+            title="下载 Typst 试卷源码"
           >
-            PDF 📥
+            Typst 📄
           </a>
         </div>
       </div>
     </div>
 
-    <div v-if="filteredPapers.length === 0" class="empty-state">
-      <p>没有找到符合当前筛选条件的试卷，尝试切换筛选条件试试～</p>
+    <!-- 空状态提示 -->
+    <div v-else class="empty-state">
+      <div class="empty-icon">📂</div>
+      <p>没有找到符合当前筛选条件的试卷，尝试切换筛选条件或清空搜索词试试～</p>
+      <button class="empty-reset-btn" @click="resetFilters">清空所有筛选</button>
+    </div>
+
+    <!-- 分页器 -->
+    <div v-if="totalPages > 1" class="pagination-bar">
+      <button
+        class="page-btn"
+        :disabled="currentPage === 1"
+        @click="goToPage(currentPage - 1)"
+      >
+        ◀ 上一页
+      </button>
+
+      <div class="page-numbers">
+        <template v-for="page in visiblePages" :key="page">
+          <span v-if="page === -1" class="page-ellipsis">…</span>
+          <button
+            v-else
+            :class="['page-num-btn', { active: currentPage === page }]"
+            @click="goToPage(page)"
+          >
+            {{ page }}
+          </button>
+        </template>
+      </div>
+
+      <button
+        class="page-btn"
+        :disabled="currentPage === totalPages"
+        @click="goToPage(currentPage + 1)"
+      >
+        下一页 ▶
+      </button>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, watch, onMounted } from 'vue';
 
 interface PaperItem {
   slug: string;
@@ -106,30 +205,140 @@ interface PaperItem {
 }
 
 const papers = ref<PaperItem[]>([]);
-const selectedRegion = ref<string>('all');
-const selectedCategory = ref<string>('all');
+const searchQuery = ref('');
+const selectedPeriod = ref('all');
+const selectedRegion = ref('all');
+const selectedCategory = ref('all');
+const currentPage = ref(1);
+const pageSize = 24;
+
+const periodOptions = [
+  { label: '全部时期', value: 'all' },
+  { label: '新高考改革 (2020~至今)', value: 'new_gaokao' },
+  { label: '新课标·全国卷 (2010~2019)', value: 'curriculum_reform' },
+  { label: '自主命题蓬勃期 (2000~2009)', value: 'autonomous' },
+  { label: '标准化高考推进 (1985~1999)', value: 'standardized' },
+  { label: '恢复高考初期 (1977~1984)', value: 'restoration' },
+  { label: '建国初期统考 (1952~1965)', value: 'early_days' }
+];
 
 const regionOptions = [
   { label: '全部地区', value: 'all' },
-  { label: '全国新高考/甲卷', value: '全国' },
-  { label: '北京卷', value: '北京' },
-  { label: '上海卷', value: '上海' },
-  { label: '天津卷', value: '天津' }
+  { label: '全国统考卷', value: '全国' },
+  { label: '北京', value: '北京' },
+  { label: '上海', value: '上海' },
+  { label: '天津', value: '天津' },
+  { label: '江苏', value: '江苏' },
+  { label: '浙江', value: '浙江' },
+  { label: '山东', value: '山东' },
+  { label: '广东', value: '广东' },
+  { label: '四川', value: '四川' },
+  { label: '重庆', value: '重庆' },
+  { label: '湖北', value: '湖北' },
+  { label: '湖南', value: '湖南' },
+  { label: '陕西', value: '陕西' },
+  { label: '安徽', value: '安徽' },
+  { label: '福建', value: '福建' },
+  { label: '辽宁', value: '辽宁' },
+  { label: '江西', value: '江西' }
 ];
 
 const categoryOptions = [
   { label: '全部分类', value: 'all' },
   { label: '综合 (不分文理)', value: '综合' },
-  { label: '文科数学', value: '文科' },
-  { label: '理科数学', value: '理科' }
+  { label: '理科数学', value: '理科' },
+  { label: '文科数学', value: '文科' }
 ];
 
+const formatPeriod = (period: string) => {
+  switch (period) {
+    case 'new_gaokao': return '新高考';
+    case 'curriculum_reform': return '新课标';
+    case 'autonomous': return '自主命题';
+    case 'standardized': return '标准化高考';
+    case 'restoration': return '恢复高考';
+    case 'early_days': return '早期统考';
+    default: return '真题';
+  }
+};
+
+const isFiltered = computed(() => {
+  return searchQuery.value.trim() !== '' ||
+    selectedPeriod.value !== 'all' ||
+    selectedRegion.value !== 'all' ||
+    selectedCategory.value !== 'all';
+});
+
+const resetFilters = () => {
+  searchQuery.value = '';
+  selectedPeriod.value = 'all';
+  selectedRegion.value = 'all';
+  selectedCategory.value = 'all';
+  currentPage.value = 1;
+};
+
 const filteredPapers = computed(() => {
+  const query = searchQuery.value.trim().toLowerCase();
   return papers.value.filter(p => {
-    const matchRegion = selectedRegion.value === 'all' || p.region === selectedRegion.value;
-    const matchCategory = selectedCategory.value === 'all' || p.category === selectedCategory.value;
-    return matchRegion && matchCategory;
+    // 关键词搜索
+    if (query) {
+      const matchText = (p.title + ' ' + p.year + ' ' + p.region + ' ' + p.category + ' ' + (p.provinces || '')).toLowerCase();
+      if (!matchText.includes(query)) return false;
+    }
+    // 时期筛选
+    if (selectedPeriod.value !== 'all' && p.period !== selectedPeriod.value) {
+      return false;
+    }
+    // 地区筛选
+    if (selectedRegion.value !== 'all') {
+      const matchRegion = p.region.includes(selectedRegion.value) ||
+        (p.provinces && p.provinces.includes(selectedRegion.value)) ||
+        p.title.includes(selectedRegion.value);
+      if (!matchRegion) return false;
+    }
+    // 科类筛选
+    if (selectedCategory.value !== 'all' && p.category !== selectedCategory.value) {
+      return false;
+    }
+    return true;
   });
+});
+
+const totalPages = computed(() => {
+  return Math.ceil(filteredPapers.value.length / pageSize) || 1;
+});
+
+const pagedPapers = computed(() => {
+  const start = (currentPage.value - 1) * pageSize;
+  return filteredPapers.value.slice(start, start + pageSize);
+});
+
+const visiblePages = computed(() => {
+  const current = currentPage.value;
+  const total = totalPages.value;
+  if (total <= 7) {
+    return Array.from({ length: total }, (_, i) => i + 1);
+  }
+  const pages: number[] = [1];
+  let left = Math.max(2, current - 2);
+  let right = Math.min(total - 1, current + 2);
+
+  if (left > 2) pages.push(-1); // 省略号
+  for (let i = left; i <= right; i++) pages.push(i);
+  if (right < total - 1) pages.push(-1); // 省略号
+  pages.push(total);
+  return pages;
+});
+
+const goToPage = (page: number) => {
+  if (page >= 1 && page <= totalPages.value) {
+    currentPage.value = page;
+    window.scrollTo({ top: 300, behavior: 'smooth' });
+  }
+};
+
+watch([searchQuery, selectedPeriod, selectedRegion, selectedCategory], () => {
+  currentPage.value = 1;
 });
 
 onMounted(async () => {
@@ -146,26 +355,117 @@ onMounted(async () => {
 
 <style scoped>
 .paper-matrix-wrapper {
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 3rem 0;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+/* 顶部全景数据牌 */
+.stats-banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.2rem 1.5rem;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.06), rgba(59, 130, 246, 0.02));
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+}
+
+.stat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.stat-number {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--vp-c-brand-1);
+  font-feature-settings: "tnum";
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--vp-c-text-2);
+}
+
+.stat-divider {
+  width: 1px;
+  height: 36px;
+  background: var(--vp-c-divider);
+}
+
+@media (max-width: 640px) {
+  .stat-divider { display: none; }
+  .stat-box { min-width: 45%; }
 }
 
 /* 筛选面板 */
 .filter-panel {
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
-  padding: 1rem 1.2rem;
+  gap: 0.9rem;
+  padding: 1.2rem;
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
   border-radius: 12px;
 }
 
-.filter-group {
+/* 搜索框 */
+.search-bar {
   display: flex;
   align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  font-size: 0.95rem;
+  color: var(--vp-c-text-3);
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 38px 10px 38px;
+  font-size: 0.9rem;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search-input:focus {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.clear-btn {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  color: var(--vp-c-text-3);
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 2px 6px;
+}
+
+.clear-btn:hover {
+  color: var(--vp-c-text-1);
+}
+
+.filter-group {
+  display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 0.6rem;
 }
@@ -174,13 +474,15 @@ onMounted(async () => {
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--vp-c-text-2);
-  min-width: 70px;
+  min-width: 72px;
+  padding-top: 4px;
 }
 
 .filter-pills {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
+  flex: 1;
 }
 
 .filter-pill {
@@ -206,6 +508,29 @@ onMounted(async () => {
   border-color: var(--vp-c-brand-1);
 }
 
+/* 结果状态与重置按钮 */
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+}
+
+.reset-filters-btn {
+  background: none;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  padding: 3px 10px;
+  font-size: 0.8rem;
+  color: var(--vp-c-brand-1);
+  cursor: pointer;
+}
+
+.reset-filters-btn:hover {
+  background: var(--vp-c-brand-soft);
+}
+
 /* 卡片网格 */
 .papers-grid {
   display: grid;
@@ -221,7 +546,7 @@ onMounted(async () => {
   background: var(--vp-c-bg);
   border: 1px solid var(--vp-c-divider);
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
@@ -236,6 +561,12 @@ onMounted(async () => {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0.6rem;
+}
+
+.header-tags {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
 }
 
 .year-badge {
@@ -255,13 +586,21 @@ onMounted(async () => {
 }
 
 .cat-badge.综合 { background: #e0f2fe; color: #0369a1; }
-.cat-badge.文科 { background: #fef3c7; color: #b45309; }
 .cat-badge.理科 { background: #ecfdf5; color: #047857; }
+.cat-badge.文科 { background: #fef3c7; color: #b45309; }
+
+.period-badge {
+  font-size: 0.72rem;
+  color: var(--vp-c-text-3);
+  background: var(--vp-c-bg-mute);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
 
 .paper-title {
   font-size: 1.05rem;
   font-weight: bold;
-  margin: 0.4rem 0 0.8rem 0;
+  margin: 0.3rem 0 0.8rem 0;
   line-height: 1.4;
   color: var(--vp-c-text-1);
 }
@@ -309,7 +648,7 @@ onMounted(async () => {
   opacity: 0.9;
 }
 
-.pdf-btn {
+.typ-btn {
   padding: 7px 12px;
   font-size: 0.85rem;
   font-weight: 600;
@@ -321,14 +660,77 @@ onMounted(async () => {
   transition: all 0.2s ease;
 }
 
-.pdf-btn:hover {
+.typ-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1) !important;
+}
+
+/* 空状态 */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+  color: var(--vp-c-text-3);
+  text-align: center;
+  gap: 0.8rem;
+}
+
+.empty-icon {
+  font-size: 2.5rem;
+}
+
+.empty-reset-btn {
+  background: var(--vp-c-brand-1);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+/* 分页器 */
+.pagination-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.page-btn, .page-num-btn {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.page-btn:hover:not(:disabled), .page-num-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+.page-num-btn.active {
+  background: var(--vp-c-brand-1);
+  color: #fff;
   border-color: var(--vp-c-brand-1);
 }
 
-.empty-state {
-  text-align: center;
-  padding: 3rem 1rem;
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.page-ellipsis {
+  padding: 0 4px;
   color: var(--vp-c-text-3);
-  font-size: 0.9rem;
 }
 </style>

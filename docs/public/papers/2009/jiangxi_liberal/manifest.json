@@ -1,0 +1,416 @@
+{
+  "year": "2009",
+  "slug": "jiangxi_liberal",
+  "title": "2009年江西卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "下列命题是真命题的为（ ）\r\n\r\n\\answer{A}\r\n命题 A 中等式有意义，故 $x\\neq0$，$y\\neq0$，由 $\\frac{1}{x}=\\frac{1}{y}$ 得 $x=y$，所以命题 A 正确. 命题 B 中 $x^{2}=1$ 可得 $x=\\pm1$，不能推出 $x=1$. 命题 C 取 $x=y=-1$ 时，$\\sqrt{x}$ 与 $\\sqrt{y}$ 在实数范围内均无意义. 命题 D 取 $x=-2$，$y=-1$，虽有 $x<y$，但 $x^{2}>y^{2}$. 因此真命题为 A.",
+          "choices": [
+            "若 $\\frac{1}{x}=\\frac{1}{y}$，则 $x=y$",
+            "若 $x^{2}=1$，则 $x=1$",
+            "若 $x=y$，则 $\\sqrt{x}=\\sqrt{y}$",
+            "若 $x<y$，则 $x^2<y^2$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 2,
+          "body": "函数 $y = \\frac{\\sqrt{-x^2 - 3x + 4}}{x}$ 的定义域为（ ）\r\n\r\n\\answer{D}\r\n根式有意义要求 $-x^{2}-3x+4\\geqslant0$，分母还要求 $x\\neq0$. 因为\r\n$-x^{2}-3x+4=-(x+4)(x-1)$，所以 $-4\\le x\\leqslant1$. 排除 $x=0$ 后，定义域为 $[-4,0)\\cup(0,1]$，故选 D.",
+          "choices": [
+            "$[-4, 1]$",
+            "$[-4, 0)$",
+            "$(0,1]$",
+            "$[-4,0)\\cup (0,1]$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 3,
+          "body": "$50$ 名学生参加甲，乙两项体育活动，每人至少参加了一项. 参加甲项的学生有 $30$ 名，参加乙项的学生有 $25$ 名，则仅参加了一项活动的学生人数为（ ）\r\n\r\n\\answer{B}\r\n设同时参加甲、乙两项活动的人数为 $u$. 由容斥原理，$30+25-u=50$，所以 $u=5$. 仅参加一项活动的人数为\r\n$30+25-2u=55-10=45$，故选 B.",
+          "choices": [
+            "$50$",
+            "$45$",
+            "$40$",
+            "$35$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 4,
+          "body": "函数 $f(x) = (1 + \\sqrt{3}\\tan x)\\cos x$ 的最小正周期为（ ）\r\n\r\n\\answer{A}\r\n在原定义域 $\\cos x\\neq0$ 上，$f(x)=\\cos x+\\sqrt{3}\\sin x=2\\sin\\left(x+\\frac{\\pi}{6}\\right)$. 该正弦型函数的最小正周期为 $2\\pi$，且原函数的定义域在平移 $\\pi$ 后虽保持不变、函数值却变号，因此最小正周期仍为 $2\\pi$，故选 A.",
+          "choices": [
+            "$2\\pi$",
+            "$\\frac{3\\pi}{2}$",
+            "$\\pi$",
+            "$\\frac{\\pi}{2}$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 5,
+          "body": "已知函数 $f(x)$ 是 $(- \\infty, +\\infty)$ 上的偶函数，若对于 $x \\ge 0$，都有 $f(x + 2) = f(x)$，且当 $x \\in [0, 2)$ 时，$f(x) = \\log_2(x + 1)$，则 $f(-2008) + f(2009)$ 的值为（ ）\r\n\r\n\\answer{C}\r\n由偶函数性质，$f(-2008)=f(2008)$. 对 $x\\geqslant0$ 反复使用 $f(x+2)=f(x)$，得 $f(2008)=f(0)$，$f(2009)=f(1)$. 又 $f(x)=\\log_{2}(x+1)$（$0\\le x<2$），所以\r\n$f(0)=\\log_{2}1=0$，$f(1)=\\log_{2}2=1$. 因而 $f(-2008)+f(2009)=1$，故选 C.",
+          "choices": [
+            "$-2$",
+            "$-1$",
+            "$1$",
+            "$2$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 6,
+          "body": "若 $\\mathrm C_n^1 x + \\mathrm C_n^2 x^2 + \\dots + \\mathrm C_n^n x^n$ 能被$7$整除，则 $x$，$n$ 的值可能为（ ）\r\n\r\n\\answer{C}\r\n由二项式定理，$\\mathrm C_n^1x+\\mathrm C_n^2x^2+\\cdots+\\mathrm C_n^nx^n=(1+x)^n-1$. 逐项检验：当 $x=4$，$n=3$ 时值为 $5^3-1=124$，不能被 $7$ 整除；当 $x=4$，$n=4$ 时值为 $5^4-1=624$，不能被 $7$ 整除；当 $x=5$，$n=4$ 时值为 $6^4-1=1295=7\\cdot185$，可以被 $7$ 整除；当 $x=6$，$n=5$ 时值为 $7^5-1\\equiv-1\\pmod 7$，不能被 $7$ 整除. 因此选 C.",
+          "choices": [
+            "$x = 4, n = 3$",
+            "$x = 4$，$n = 4$",
+            "$x = 5$，$n = 4$",
+            "$x = 6$，$n = 5$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 7,
+          "body": "设 $F_{1}$ 和 $F_{2}$ 为双曲线 $\\frac{x^2}{a^2} -\\frac{y^2}{b^2} = 1$（$a > 0$，$b > 0$）的两个焦点. 若 $F_{1}$，$F_{2}$， $P(0,2b)$ 是正三角形的三个顶点，则双曲线的离心率为（ ）\r\n\r\n\\answer{B}\r\n设双曲线的焦距参数为 $c$，则 $c^{2}=a^{2}+b^{2}$，且 $F_{1}F_{2}=2c$. 正三角形条件给出\r\n$PF_{1}=PF_{2}=F_{1}F_{2}=2c$. 由 $P(0,2b)$ 得 $PF_{1}^{2}=c^{2}+4b^{2}$，所以 $c^{2}+4b^{2}=4c^{2}$，即 $4b^{2}=3c^{2}$. 与 $c^{2}=a^{2}+b^{2}$ 联立，得 $b^{2}=3a^{2}$，$c^{2}=4a^{2}$. 因而离心率 $e=\\frac{c}{a}=2$，故选 B.",
+          "choices": [
+            "$\\frac{3}{2}$",
+            "$2$",
+            "$\\frac{5}{2}$",
+            "$3$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 8,
+          "body": "公差不为零的等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$. 若 $a_{4}$ 是 $a_{3}$ 与 $a_{7}$ 的等比中项，$S_{8} = 32$，则 $S_{10}$ 等于（ ）\r\n\r\n\\answer{C}\r\n设等差数列首项为 $a_{1}$，公差为 $d\\neq0$. 由 $a_{4}^{2}=a_{3}a_{7}$，得\r\n$(a_{1}+3d)^{2}=(a_{1}+2d)(a_{1}+6d)$，从而 $2a_{1}+3d=0$. 又\r\n$S_{8}=4(2a_{1}+7d)=32$，所以 $2a_{1}+7d=8$. 联立得 $d=2$，$a_{1}=-3$. 因此\r\n$S_{10}=5(2a_{1}+9d)=5(-6+18)=60$，故选 C.",
+          "choices": [
+            "$18$",
+            "$24$",
+            "$60$",
+            "$90$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 9,
+          "body": "如图，在四面体 $ABCD$ 中，截面 $PQMN$ 是正方形，则在下列命题中，错误的为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/jiangxi_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\\answer{C}\r\n截面为正方形，所以 $PQ\\parallel MN$，$QM\\parallel PN$，且 $PQ\\perp QM$. 其中 $PQ$ 在平面 $ABC$ 内，$MN$ 在平面 $ACD$ 内，两平面的交线为 $AC$，故 $PQ\\parallel AC$；同理 $QM\\parallel BD$. 因而 $AC\\perp BD$，命题 A 正确；$AC\\parallel PQ$，所以 $AC$ 平行于截面 $PQMN$，命题 B 正确.\r\n\r\n正方形条件只给出 $PQ=QM$，不能推出 $AC=BD$. 例如取 $A=(0,0,0)$，$B=(0,1,0)$，$C=(4,0,0)$，$D=(0,1,2)$，并取 $P=(0,\\frac23,0)$，$Q=(\\frac43,\\frac23,0)$，$M=(\\frac43,\\frac23,\\frac43)$，$N=(0,\\frac23,\\frac43)$. 则 $P$，$Q$，$M$，$N$ 分别在 $AB$，$BC$，$CD$，$DA$ 上，且 $PQMN$ 为边长 $\\frac43$ 的正方形，而 $AC=4$，$BD=2$，故命题 C 错误.\r\n\r\n又 $BD\\parallel QM$，异面直线 $PM$ 与 $BD$ 所成的角等于 $PM$ 与 $QM$ 所成的角；正方形对角线与边成 $45^{\\circ}$，故命题 D 正确. 所以错误命题为 C.",
+          "choices": [
+            "$AC \\perp BD$",
+            "$AC \\parallel$ 截面 $PQMN$",
+            "$AC = BD$",
+            "异面直线 $PM$ 与 $BD$ 所成的角为 $45^{\\circ}$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 10,
+          "body": "甲，乙，丙，丁$4$个足球队参加比赛，假设每场比赛各队取胜的概率相等，现任意将这$4$个队分成两个组（每组两个队）进行比赛，胜者再赛. 则甲，乙相遇的概率为（ ）\r\n\r\n\\answer{D}\r\n四队分成两组的三种等可能配对为（甲、乙）（丙、丁）、（甲、丙）（乙、丁）、（甲、丁）（乙、丙）. 第一种配对中甲、乙必相遇；另外两种配对中，甲、乙只有在各自先战胜对手后才在决赛相遇，概率为 $\\frac12\\cdot\\frac12=\\frac14$. 因而所求概率为\r\n$\\frac13+\\frac23\\cdot\\frac14=\\frac12$，故选 D.",
+          "choices": [
+            "$\\frac{1}{6}$",
+            "$\\frac{1}{4}$",
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{2}$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 11,
+          "body": "如图所示，一质点 $P(x, y)$ 在 $xOy$ 平面上沿曲线运动，速度大小不变，其在 $x$ 轴上的投影点 $Q(x, 0)$ 的运动速度 $V = V(t)$ 的图象大致为（ ）\r\n\r\n\\answer{B}\r\n把投影点的有向速度记为 $V(t)=\\frac{\\mathrm dx}{\\mathrm dt}$. 质点开始沿斜率不变的直线向右运动，所以 $V(t)$ 在开始阶段为正常数. 进入第一个封闭曲线后，质点的横坐标先增大、再减小、又增大，因此 $V(t)$ 依次为正、负、正，并在竖直切线处经过 $0$. 进入第二个封闭曲线后，横坐标同样经历先增大、再减小、又增大的过程，故 $V(t)$ 再次出现正、负、正的变化. 选项 A 始终非负，选项 C 开始阶段不是常数，选项 D 的末段变化方向与题图不符，只有选项 B 符合，故选 B.",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/jiangxi_liberal/q11_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/jiangxi_liberal/q11_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/jiangxi_liberal/q11_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/jiangxi_liberal/q11_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 12,
+          "body": "若存在过点 $(1,0)$ 的直线与曲线 $y = x^3$ 和 $y = ax^2 + \\frac{15}{4} x - 9$ 都相切，则 $a$ 等于（ ）\r\n\r\n\\answer{A}\r\n设过点 $(1,0)$ 且与 $y=x^{3}$ 相切的切点横坐标为 $t$. 切线为\r\n$y=3t^{2}x-2t^{3}$，代入 $(1,0)$ 得 $t^{2}(3-2t)=0$. 因而 $t=0$ 或 $t=\\frac32$，相应切线分别为 $y=0$ 和 $y=\\frac{27}{4}x-\\frac{27}{4}$.\r\n\r\n当切线为 $y=0$ 时，与二次曲线联立得 $ax^{2}+\\frac{15}{4}x-9=0$. 该直线相切要求判别式为零，即\r\n$\\left(\\frac{15}{4}\\right)^{2}+36a=0$，所以 $a=-\\frac{25}{64}$.\r\n\r\n当切线为 $y=\\frac{27}{4}x-\\frac{27}{4}$ 时，联立得 $ax^{2}-3x-\\frac94=0$. 判别式为零给出 $9+9a=0$，所以 $a=-1$. 因此选 A.",
+          "choices": [
+            "$-1$ 或 $-\\frac{25}{64}$",
+            "$-1$ 或 $\\frac{21}{64}$",
+            "$-\\frac{7}{4}$ 或 $-\\frac{25}{64}$",
+            "$-\\frac{7}{4}$ 或 $7$"
+          ],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "已知向量 $\\mathbf{a} = (3, 1)$，$\\mathbf{b} = (1, 3)$，$\\mathbf{c} = (k, 2)$. 若 $(\\mathbf{a} - \\mathbf{c}) \\perp \\mathbf{b}$，则 $k =$ _______ {}.\r\n\\answer{0}\r\n$\\mathbf{a}-\\mathbf{c}=(3-k,-1)$. 由垂直条件，\r\n$(\\mathbf{a}-\\mathbf{c})\\cdot\\mathbf{b}=(3-k,-1)\\cdot(1,3)=3-k-3=-k=0$，所以 $k=0$.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 14,
+          "body": "体积为 $8$ 的一个正方体，其全面积与球 $O$ 的表面积相等，则球 $O$ 的体积等于 _______ {}.\r\n\\answer{$\\dfrac{8\\sqrt{6\\pi}}{\\pi}$}\r\n正方体体积为 $8$，故棱长为 $2$，全面积为 $6\\cdot2^{2}=24$. 设球半径为 $R$，由表面积相等，\r\n$4\\pi R^{2}=24$，所以 $R^{2}=\\frac{6}{\\pi}$. 球体积为\r\n$\\frac43\\pi R^{3}=\\frac43\\pi\\left(\\frac6\\pi\\right)^{\\frac{3}{2}}=\\frac{8\\sqrt{6\\pi}}{\\pi}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 15,
+          "body": "若不等式 $\\sqrt{4-x^{2}} \\le k(x+1)$ 的解集为区间 $[a,b]$，且 $b-a = 1$，则 $k = _______ {}$.\r\n\\answer{$\\dfrac{\\sqrt{3}}{2}$}\r\n根式有意义要求 $-2\\le x\\leqslant2$. 若 $k>0$，当 $x\\le-1$ 时右端不为正而左端非负，只有可能在 $x=-2$ 时成立，但此时右端为 $-k<0$，仍不成立，所以解集包含于 $(-1,2]$. 又 $x=2$ 对任意 $k>0$ 都满足不等式，故解集若为 $[a,b]$，必有 $b=2$. 由 $b-a=1$，得到 $a=1$. 因为 $1$ 是定义域内部的解集端点，连续函数两边的符号必须在此处改变，故在 $x=1$ 处取等号：\r\n$\\sqrt{4-1}=k(1+1)$，从而 $k=\\frac{\\sqrt{3}}{2}$.\r\n\r\n反向验证：当 $k=\\frac{\\sqrt{3}}{2}$ 时，解集必须满足 $x>-1$，且平方等价于\r\n$4-x^{2}\\le\\frac34(x+1)^{2}$，即 $7x^{2}+6x-13\\geqslant0$，也就是 $(7x+13)(x-1)\\geqslant0$. 与 $(-1,2]$ 取交集，解集恰为 $[1,2]$，长度为 $1$.\r\n\r\n若 $k=0$，不等式只在 $x=-2$ 或 $x=2$ 时成立，解集不是区间. 若 $k<0$，成立时必须有 $x<-1$，且 $-2$ 属于解集而 $-1$ 不属于解集；若解集是长度为 $1$ 的闭区间，就只能是 $[-2,-1]$，矛盾. 因而 $k=\\frac{\\sqrt{3}}{2}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 16,
+          "body": "设直线系 $M: x \\cos \\theta + (y - 2) \\sin \\theta = 1$（$0 \\le \\theta \\le 2\\pi$），对于下列四个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 存在一个圆与所有直线相交；\r\n\\item 存在一个圆与所有直线不相交；\r\n\\item 存在一个圆与所有直线相切；\r\n\\item $M$ 中的直线所能围成的正三角形面积都相等.\r\n\\end{circlelist}\r\n其中真命题的代号是 _______ {}. （写出所有真命题的代号）\r\n\\answer{ABC}\r\n将直线写成 $x\\cos\\theta+(y-2)\\sin\\theta=1$. 点 $P(0,2)$ 到任一直线的距离为\r\n$\\frac{|0-1|}{\\sqrt{\\cos^{2}\\theta+\\sin^{2}\\theta}}=1$，所以 $M$ 中的所有直线都是圆 $C:x^{2}+(y-2)^{2}=1$ 的切线.\r\n\r\n半径大于 $1$ 且圆心为 $P$ 的圆与所有这些直线相交，半径小于 $1$ 且圆心为 $P$ 的圆与所有这些直线均不相交，圆 $C$ 与所有这些直线相切，因此 A、B、C 都是真命题.\r\n\r\nD 不成立. 例如取 $\\theta=0$，$\\frac{2\\pi}{3}$，$\\frac{4\\pi}{3}$，所得正三角形的内切圆为 $C$，内切半径为 $1$，面积为 $3\\sqrt{3}$. 再取 $\\theta=0$，$\\frac{\\pi}{3}$，$\\frac{5\\pi}{3}$，令 $u=x$，$v=y-2$，三条直线为 $u=1$、$\\frac12u+\\frac{\\sqrt3}{2}v=1$、$\\frac12u-\\frac{\\sqrt3}{2}v=1$. 它们的三个交点为 $(2,0)$、$(1,\\frac1{\\sqrt3})$、$(1,-\\frac1{\\sqrt3})$，故所得正三角形边长为 $\\frac{2}{\\sqrt3}$，面积为 $\\frac{\\sqrt3}{3}$. 两个面积不相等，故真命题的代号为 ABC.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "设函数 $f(x) = x^3 - \\frac{9}{2} x^2 + 6x - a$.\r\n\r\n\n(1) 对于任意实数 $x$，$f'(x) \\ge m$ 恒成立，求 $m$ 的最大值；\n\n(2) 若方程 $f(x)=0$ 有且仅有一个实根，求 $a$ 的取值范围.\n\r\n\n(1) $f'(x)=3x^{2}-9x+6=3\\left(x-\\frac32\\right)^{2}-\\frac34$. 因此对任意实数 $x$，都有 $f'(x)\\ge-\\frac34$，且在 $x=\\frac32$ 时取等号. 若 $f'(x)\\ge m$ 恒成立，则 $m\\le-\\frac34$，所以 $m$ 的最大值为 $-\\frac34$.\n\n(2) $f'(x)=3(x-1)(x-2)$，所以 $f(x)$ 在 $(-\\infty,1)$ 和 $(2,+\\infty)$ 上递增，在 $(1,2)$ 上递减. 两个极值为\r\n$f(1)=\\frac52-a$，$f(2)=2-a$.\r\n\r\n若 $a<2$，则 $f(2)>0$，局部极小值也为正，函数只在 $(-\\infty,1)$ 上有一个零点. 若 $a>\\frac52$，则 $f(1)<0$，局部极大值也为负，函数只在 $(2,+\\infty)$ 上有一个零点.\r\n\r\n当 $2<a<\\frac52$ 时，$f(1)>0>f(2)$，三段单调区间各有一个零点；当 $a=2$ 或 $a=\\frac52$ 时，极值点给出重根且另有一个零点，均不满足“有且仅有一个实根”. 因而 $a<2$ 或 $a>\\frac52$.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 18,
+          "body": "某公司拟资助三位大学生自主创业，现聘请两位专家，独立地对每位大学生的创业方案进行评审. 假设评审结果为“支持”或“不支持”的概率都是 $\\frac{1}{2}$. 若某人获得两个“支持”，则给予 $10\\text{ 万元}$ 的创业资助. 若只获得一个“支持”，则给予 $5\\text{ 万元}$ 的资助；若未获得“支持”，则不予资助. 求：\r\n\r\n\n(1) 该公司的资助总额为零的概率；\n\n(2) 该公司的资助总额超过$15\\text{ 万元}$的概率.\n\r\n\n(1) 对每位大学生，两位专家都“不支持”的概率为 $\\frac12\\cdot\\frac12=\\frac14$. 三位大学生的评审相互独立，资助总额为零当且仅当三人的评审结果都为“两次不支持”，所以所求概率为 $\\left(\\frac14\\right)^{3}=\\frac1{64}$.\n\n(2) 把六次独立评审中“支持”的次数记为 $X$，则 $X\\sim B\\left(6,\\frac12\\right)$. 每次“支持”对应 $5$ 万元资助，因此总额为 $5X$ 万元. 总额超过 $15$ 万元等价于 $X\\geqslant4$，故\r\n\n$$\nP(X\\geqslant4)=\\frac{\\mathrm C_6^4+\\mathrm C_6^5+\\mathrm C_6^6}{2^6}=\\frac{15+6+1}{64}=\\frac{11}{32}\n$$",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 19,
+          "body": "$\\triangle ABC$ 中，$A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，$A = \\frac{\\pi}{6}$，$(1 + \\sqrt{3})c = 2b$.\r\n\r\n\n(1) 求 $C$；\n\n(2) 若 $\\overrightarrow{CB} \\cdot \\overrightarrow{CA} = 1 + \\sqrt{3}$，求 $a$，$b$，$c$.\n\r\n\n(1) 由正弦定理，$\\frac{b}{c}=\\frac{\\sin B}{\\sin C}$. 又 $B=\\frac{5\\pi}{6}-C$，且 $\\frac{b}{c}=\\frac{1+\\sqrt3}{2}$，所以\r\n\n$$\n\\sin\\left(\\frac{5\\pi}{6}-C\\right)=\\frac{1+\\sqrt3}{2}\\sin C\n$$\n\r\n展开左边得 $\\frac12\\cos C+\\frac{\\sqrt3}{2}\\sin C$，从而 $\\cos C=\\sin C$. 因为 $0<C<\\frac{5\\pi}{6}$，所以 $C=\\frac{\\pi}{4}$.\n\n(2) 由正弦定理和 $A=\\frac{\\pi}{6}$、$C=\\frac{\\pi}{4}$，有 $\\frac{a}{c}=\\frac{\\sin A}{\\sin C}=\\frac1{\\sqrt2}$. 再由已知，$b=\\frac{1+\\sqrt3}{2}c$. 由向量数量积，\r\n\n$$\n\\overrightarrow{CB}\\cdot\\overrightarrow{CA}=ab\\cos C\r\n=\\frac{c}{\\sqrt2}\\cdot\\frac{1+\\sqrt3}{2}c\\cdot\\frac{\\sqrt2}{2}\r\n=\\frac{1+\\sqrt3}{4}c^{2}\n$$\n\r\n因此 $c^{2}=4$，因边长为正，$c=2$，进而 $a=\\sqrt2$，$b=1+\\sqrt3$.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 20,
+          "body": "在四棱锥 $P - ABCD$ 中，底面 $ABCD$ 是矩形，$PA \\perp$ 平面 $ABCD$，$PA = AD = 4$，$AB = 2$. 以 $BD$ 的中点 $O$ 为球心，$BD$ 为直径的球面交 $PD$ 于点 $M$.\r\n\n(1) 求证：平面 $ABM$ $\\perp$ 平面 $PCD$；\n\n(2) 求直线 $PC$ 与平面 $ABM$ 所成的角；\n\n(3) 求点 $O$ 到平面 $ABM$ 的距离.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/jiangxi_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\n(1) 建立空间直角坐标系，取 $A$ 为原点，令 $AB$、$AD$、$AP$ 分别为三个坐标轴正向，则\r\n$A(0,0,0)$，$B(2,0,0)$，$D(0,4,0)$，$C(2,4,0)$，$P(0,0,4)$.\r\n设 $M$ 在 $PD$ 上，写成 $M=(0,4t,4-4t)$. 因为 $M$ 在以 $BD$ 为直径的球面上，所以 $\\angle BMD=90^{\\circ}$，即\r\n\n$$\n(M-B)\\cdot(M-D)=16(2t^{2}-3t+1)=0\n$$\n\r\n交点 $D$ 对应 $t=1$，故另一交点 $M$ 对应 $t=\\frac12$，从而 $M=(0,2,2)$.\r\n\r\n$\\overrightarrow{AM}=(0,2,2)$，$\\overrightarrow{PD}=(0,4,-4)$，$\\overrightarrow{CD}=(-2,0,0)$. 因此 $\\overrightarrow{AM}\\cdot\\overrightarrow{PD}=0$，$\\overrightarrow{AM}\\cdot\\overrightarrow{CD}=0$，所以 $AM\\perp$ 平面 $PCD$. 又 $AM\\subset$ 平面 $ABM$，故平面 $ABM\\perp$ 平面 $PCD$.\n\n(2) 平面 $ABM$ 的一个法向量为 $\\mathbf{n}=\\overrightarrow{AB}\\times\\overrightarrow{AM}=(0,-4,4)$，可取 $\\mathbf{n}=(0,1,-1)$. 直线 $PC$ 的方向向量为 $\\mathbf{v}=\\overrightarrow{PC}=(2,4,-4)$. 设直线 $PC$ 与平面 $ABM$ 所成的角为 $\\alpha$，则\r\n\n$$\n\\sin\\alpha=\\frac{|\\mathbf{v}\\cdot\\mathbf{n}|}{|\\mathbf{v}||\\mathbf{n}|}=\\frac8{6\\sqrt2}=\\frac{2\\sqrt2}{3}\n$$\n\r\n所以 $\\cos\\alpha=\\frac13$，$\\tan\\alpha=2\\sqrt2$，即 $\\alpha=\\arctan 2\\sqrt2$.\n\n(3) 由法向量 $\\mathbf{n}=(0,1,-1)$，平面 $ABM$ 的方程为 $y-z=0$. 因 $O$ 是 $BD$ 的中点，$O=(1,2,0)$，所以\r\n\n$$\nd(O,\\text{平面 }ABM)=\r\n\\frac{|2-0|}{\\sqrt{1^{2}+(-1)^{2}}}=\\sqrt2\n$$",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 21,
+          "body": "数列 $\\{a_{n}\\}$ 的通项 $a_{n} = n^{2}\\left(\\cos^{2}\\frac{n\\pi}{3} - \\sin^{2}\\frac{n\\pi}{3}\\right)$，其前 $n$ 项和为 $S_{n}$.\r\n\r\n\n(1) 求 $S_{n}$；\n\n(2) $b_{n}=\\frac{S_{3n}}{n\\cdot4^{n}}$，求数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}$.\n\r\n\n(1) 利用 $\\cos^{2}u-\\sin^{2}u=\\cos2u$，得 $a_n=n^{2}\\cos\\frac{2n\\pi}{3}$. 当 $n=3j-2$，$3j-1$，$3j$ 时，分别有\r\n$a_{3j-2}=-\\frac12(3j-2)^{2}$，$a_{3j-1}=-\\frac12(3j-1)^{2}$，$a_{3j}=9j^{2}$.\r\n每三个连续项的和为\r\n\n$$\na_{3j-2}+a_{3j-1}+a_{3j}=9j-\\frac52\n$$\n\r\n所以\r\n\n$$\nS_{3k}=\\sum_{j=1}^{k}\\left(9j-\\frac52\\right)=\\frac{k(9k+4)}2=\\frac{n(3n+4)}6\n$$\n\r\n由 $S_{3k-1}=S_{3k}-a_{3k}$，得\r\n\n$$\nS_{3k-1}=\\frac{k(9k+4)}2-9k^{2}=\\frac{k(4-9k)}2\n$$\n\r\n再由 $S_{3k-2}=S_{3k-1}-a_{3k-1}$，得\r\n\n$$\nS_{3k-2}=\\frac{k(4-9k)}2+\\frac{(3k-1)^{2}}2=-k+\\frac12\n$$\n\r\n因此\r\n\n$$\nS_n=\r\n\\begin{cases}\r\n-\\dfrac{n}{3}-\\dfrac{1}{6},&n=3k-2,\\\\[4pt]\r\n\\dfrac{(n+1)(1-3n)}6,&n=3k-1,\\\\[4pt]\r\n\\dfrac{n(3n+4)}6,&n=3k,\r\n\\end{cases}\r\n\\qquad k\\in\\mathbb{N}^*\n$$\n\n(2) 由第一问在 $3n$ 处的结果，\r\n\n$$\nb_n=\\frac{S_{3n}}{n\\cdot4^n}=\\frac{9n+4}{2\\cdot4^n}\n$$\n\r\n于是\r\n\n$$\nT_n=\\frac12\\sum_{j=1}^{n}\\frac{9j+4}{4^j}\n$$\n\r\n将上式乘以 $4$ 后与原式相减，得\r\n\n$$\n3T_n=\\frac12\\left(13+\\frac94+\\frac9{4^2}+\\cdots+\\frac9{4^{n-1}}-\\frac{9n+4}{4^n}\\right)\r\n=\\frac12\\left(16-\\frac{9n+16}{4^n}\\right)\r\n=8-\\frac{9n+16}{2\\cdot4^n}\n$$\n\r\n因此\r\n\n$$\nT_n=\\frac83-\\frac{8}{3\\cdot4^n}-\\frac{3n}{2\\cdot4^n}\r\n=\\frac83-\\frac{1}{3\\cdot2^{2n-3}}-\\frac{3n}{2^{2n+1}}\n$$",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        },
+        {
+          "num": 22,
+          "body": "如图，已知圆 $G: (x - 2)^2 + y^2 = r^2$ 是椭圆 $\\frac{x^2}{16} + y^2 = 1$ 的内接 $\\triangle ABC$ 的内切圆，其中 $A$ 为椭圆的左顶点.\r\n\r\n\n(1) 求圆 $G$ 的半径 $r$；\n\n(2) 过点 $M(0,1)$ 作圆 $G$ 的两条切线交椭圆于 $E$，$F$ 两点，证明：直线 $EF$ 与圆 $G$ 相切.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/jiangxi_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\n(1) 圆 $G$ 的圆心和点 $A=(-4,0)$ 都在 $x$ 轴上. 两条边 $AB$，$AC$ 是从 $A$ 引圆 $G$ 的两条切线，且椭圆和圆都关于 $x$ 轴对称，所以 $B$，$C$ 关于 $x$ 轴对称. 因三角形包含圆 $G$，第三条切线 $BC$ 必须是圆的右侧切线，故设 $B=(2+r,y_0)$，$C=(2+r,-y_0)$，其中 $y_0>0$. 又 $B$ 在椭圆上，所以\r\n\n$$\ny_0^{2}=1-\\frac{(2+r)^{2}}{16}=\\frac{12-4r-r^{2}}{16}\n$$\n\r\n直线 $AB$ 的方程为 $y_0x-(6+r)y+4y_0=0$. 因它与圆 $G$ 相切，圆心 $G(2,0)$ 到该直线的距离等于 $r$，即\r\n\n$$\n\\frac{6y_0}{\\sqrt{y_0^{2}+(6+r)^{2}}}=r\n$$\n\r\n平方并整理得 $(36-r^{2})y_0^{2}=r^{2}(6+r)^{2}$. 代入 $y_0^{2}$，利用 $36-r^{2}=(6-r)(6+r)$，并约去正数 $6+r$，得\r\n\n$$\n(12-4r-r^{2})(6-r)=16r^{2}(6+r)\n$$\n\r\n即\r\n\n$$\n15r^{3}+98r^{2}+36r-72=(r+6)(15r^{2}+8r-12)=0\n$$\n\r\n由于 $r>0$，可约去 $r+6$，于是 $15r^{2}+8r-12=0$. 解得 $r=\\frac23$ 或 $r=-\\frac65$，由 $r>0$，所以 $r=\\frac23$.\n\n(2) 过 $M(0,1)$ 的直线设为 $y-1=kx$. 它与圆 $G$ 相切的条件为\r\n\n$$\n\\frac{|2k+1|}{\\sqrt{k^{2}+1}}=\\frac23\n$$\n\r\n即 $32k^{2}+36k+5=0$. 设两根为 $k_1$，$k_2$，则\r\n$k_1+k_2=-\\frac98$，$k_1k_2=\\frac5{32}$.\r\n直线 $y=k_ix+1$ 与椭圆联立，得到\r\n\n$$\n\\frac{x^2}{16}+(k_ix+1)^2=1\r\n \\Longleftrightarrow \r\nx\\left((16k_i^2+1)x+32k_i\\right)=0\n$$\n\r\n除去公共交点 $M$ 后的另一个交点记为 $(x_i,y_i)$，则\r\n$x_i=-\\frac{32k_i}{16k_i^{2}+1}$，$y_i=1+k_ix_i=\\frac{1-16k_i^2}{16k_i^2+1}$.\r\n记 $s=k_1+k_2$，$p=k_1k_2$，并记 $d_i=16k_i^2+1$. 直接通分可得\r\n$x_2-x_1=-\\frac{32(k_2-k_1)(1-16p)}{d_1d_2}$，$y_2-y_1=-\\frac{32(k_2-k_1)s}{d_1d_2}$.\r\n因此弦 $EF$ 的斜率为\r\n\n$$\n\\frac{y_2-y_1}{x_2-x_1}=\\frac{s}{1-16p}=\\frac34\n$$\n\r\n再由 $b=y_1-\\frac34x_1$，通分得\r\n\n$$\nb=1+\\frac{32p}{1-16p}=-\\frac73\n$$\n\r\n所以直线 $EF$ 为 $y=\\frac34x-\\frac73$. 将其写成 $9x-12y-28=0$，则圆心 $G(2,0)$ 到该直线的距离为\r\n\n$$\n\\frac{|18-28|}{\\sqrt{9^{2}+(-12)^{2}}}=\\frac{10}{15}=\\frac23=r\n$$\n\r\n因此直线 $EF$ 与圆 $G$ 相切.",
+          "choices": [],
+          "answer": "",
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
+        }
+      ]
+    }
+  ]
+}

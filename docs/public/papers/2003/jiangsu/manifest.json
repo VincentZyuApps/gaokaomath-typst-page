@@ -1,0 +1,416 @@
+{
+  "year": "2003",
+  "slug": "jiangsu",
+  "title": "2003年江苏卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "如果函数 $y = ax^{2} + bx + a$ 的图象与 $x$ 轴有两个交点，则点 $(a, b)$ 在 $aOb$ 平面上的区域（不包含边界）为（ ）",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2003/img/jiangsu/q1_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2003/img/jiangsu/q1_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2003/img/jiangsu/q1_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2003/img/jiangsu/q1_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "C",
+          "solution": "函数图象与 $x$ 轴有两个交点，等价于方程 $ax^{2}+bx+a=0$ 是二次方程且有两个不相等的实根. 因此必须有 $a\\ne0$，并且判别式满足 $\\Delta=b^{2}-4a^{2}>0$，即 $b^{2}>4a^{2}$. 于是严格的参数条件是 $a\\ne0$ 且 $b^{2}>4a^{2}$. 选项 C 所表示的两个开区域对应 $b^{2}>4a^{2}$，所以按原卷标准答案选 C；但图示区域还包含 $a=0$ 且 $b\\ne0$ 的点，这些点对应一次函数 $y=bx$，与“二次函数图象有两个交点”不符. 因此，严格解集还必须排除这条 $b$ 轴，原题的图示与严格条件存在争议.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "抛物线 $y = ax^{2}$ 的准线方程是 $y = 2$，则 $a$ 的值为（ ）",
+          "choices": [
+            "$\\frac{1}{8}$",
+            "$-\\frac{1}{8}$",
+            "$8$",
+            "$-8$"
+          ],
+          "answer": "B",
+          "solution": "抛物线 $y=ax^{2}$ 可写为 $x^{2}=\\frac{1}{a}y$. 与标准形式 $x^{2}=4py$ 比较，得到 $4p=\\frac{1}{a}$. 其准线方程为 $y=-p=-\\frac{1}{4a}$. 由题意 $-\\frac{1}{4a}=2$，所以 $a=-\\frac{1}{8}$，对应选项 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "已知 $x \\in \\left(-\\frac{\\pi}{2}, 0\\right)$，$\\cos x = \\frac{4}{5}$，则 $\\tan 2x =$（ ）",
+          "choices": [
+            "$\\frac{7}{24}$",
+            "$-\\frac{7}{24}$",
+            "$\\frac{24}{7}$",
+            "$-\\frac{24}{7}$"
+          ],
+          "answer": "D",
+          "solution": "因为 $x\\in\\left(-\\frac{\\pi}{2},0\\right)$，所以 $\\sin x<0$. 由 $\\cos x=\\frac45$ 得 $\\sin x=-\\frac35$，从而 $\\tan x=-\\frac34$. 因此\r\n\n$$\n\\tan 2x=\\frac{2\\tan x}{1-\\tan^{2}x}=\\frac{-\\frac32}{1-\\frac{9}{16}}=-\\frac{24}{7}\n$$\n\r\n其中 $1-\\tan^{2}x=\\frac7{16}\\ne0$，故 $\\tan 2x$ 有定义，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "设函数 $f(x) = \\begin{cases}\r\n2^{-x} - 1, & x \\le 0,\\\\\r\nx^{\\frac{1}{2}}, & x > 0,\r\n\\end{cases}$ 若 $f(x_0) > 1$，则 $x_0$ 的取值范围是（ ）",
+          "choices": [
+            "$(-1, 1)$",
+            "$(-1,+\\infty)$",
+            "$(- \\infty, -2) \\cup (0, +\\infty)$",
+            "$(-\\infty, -1) \\cup (1, +\\infty)$"
+          ],
+          "answer": "D",
+          "solution": "当 $x_{0}\\leqslant0$ 时，$f(x_{0})>1$ 等价于 $2^{-x_{0}}-1>1$，即 $2^{-x_{0}}>2=2^{1}$. 因为底数 $2>1$，所以 $-x_{0}>1$，从而 $x_{0}<-1$. 当 $x_{0}>0$ 时，$f(x_{0})=\\sqrt{x_{0}}>1$，而两边均为非负数，平方得 $x_{0}>1$. 两种情形合并为 $x_{0}\\in(-\\infty,-1)\\cup(1,+\\infty)$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "$O$ 是平面上一定点，$A$，$B$，$C$ 是平面上不共线的三个点，动点 $P$ 满足 $\\overrightarrow{OP} = \\overrightarrow{OA} + \\lambda \\left(\\frac{\\overrightarrow{AB}}{|\\overrightarrow{AB}|} + \\frac{\\overrightarrow{AC}}{|\\overrightarrow{AC}|}\\right)$，$\\lambda \\in [0, +\\infty)$，则 $P$ 的轨迹一定通过 $\\triangle ABC$ 的（ ）",
+          "choices": [
+            "外心",
+            "内心",
+            "重心",
+            "垂心"
+          ],
+          "answer": "B",
+          "solution": "设 $\\mathbf{u}=\\frac{\\overrightarrow{AB}}{|\\overrightarrow{AB}|}$，$\\mathbf{v}=\\frac{\\overrightarrow{AC}}{|\\overrightarrow{AC}|}$. 其中 $\\mathbf{u}$ 和 $\\mathbf{v}$ 是从 $A$ 出发、分别沿 $AB$ 和 $AC$ 方向的单位向量，因此 $\\mathbf{u}+\\mathbf{v}$ 的方向是 $\\angle BAC$ 的内角平分线方向. 由题设\r\n$\\overrightarrow{AP}=\\overrightarrow{OP}-\\overrightarrow{OA}=\\lambda(\\mathbf{u}+\\mathbf{v})$，$\\lambda\\geqslant0$\r\n可知 $P$ 在从 $A$ 出发的内角平分线射线上. 设三角形内心为 $I$. 因为 $I$ 在 $A$ 的内角平分线上且位于从 $A$ 向三角形内部的方向，所以存在 $\\lambda_{0}>0$ 使得 $\\overrightarrow{AI}=\\lambda_{0}(\\mathbf{u}+\\mathbf{v})$. 取 $\\lambda=\\lambda_{0}$ 即得 $P=I$，故轨迹一定经过内心，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "函数 $y = \\ln \\frac{x + 1}{x - 1}$，$x \\in (1, +\\infty)$ 的反函数为（ ）",
+          "choices": [
+            "$y = \\frac{\\mathrm{e}^{x} - 1}{\\mathrm{e}^{x} + 1}, x \\in (0, +\\infty)$",
+            "$y = \\frac{\\mathrm{e}^{x} + 1}{\\mathrm{e}^{x} - 1}$，$x \\in (0, +\\infty)$",
+            "$y = \\frac{\\mathrm{e}^{x} - 1}{\\mathrm{e}^{x} + 1}$，$x \\in (-\\infty, 0)$",
+            "$y = \\frac{\\mathrm{e}^{x} + 1}{\\mathrm{e}^{x} - 1}$，$x \\in (-\\infty, 0)$"
+          ],
+          "answer": "B",
+          "solution": "令原函数为 $y=\\ln\\frac{x+1}{x-1}$，其中 $x>1$. 因为\r\n\n$$\nf'(x)=\\frac{1}{x+1}-\\frac{1}{x-1}=-\\frac{2}{x^{2}-1}<0\n$$\n\r\n所以原函数在 $(1,+\\infty)$ 上严格递减，反函数存在. 又因 $\\frac{x+1}{x-1}>1$，所以函数值 $y>0$，且当 $x\\to1^{+}$ 时 $y\\to+\\infty$，当 $x\\to+\\infty$ 时 $y\\to0^{+}$，故值域为 $(0,+\\infty)$. 由\r\n\n$$\n\\mathrm{e}^{y}=\\frac{x+1}{x-1}\n$$\n\r\n得 $\\mathrm{e}^{y}x-\\mathrm{e}^{y}=x+1$，即 $x(\\mathrm{e}^{y}-1)=\\mathrm{e}^{y}+1$，所以\r\n$x=\\frac{\\mathrm{e}^{y}+1}{\\mathrm{e}^{y}-1}$，$y>0$.\r\n交换自变量与因变量，反函数为 $y=\\frac{\\mathrm{e}^{x}+1}{\\mathrm{e}^{x}-1}$，定义域为 $x\\in(0,+\\infty)$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "棱长为 $a$ 的正方体中，连结相邻面的中心，以这些线段为棱的八面体的体积为（ ）",
+          "choices": [
+            "$\\frac{a^3}{3}$",
+            "$\\frac{a^3}{4}$",
+            "$\\frac{a^3}{6}$",
+            "$\\frac{a^3}{12}$"
+          ],
+          "answer": "C",
+          "solution": "取正方体六个面的中心为 $\\left(\\frac a2,0,0\\right)$，$\\left(-\\frac a2,0,0\\right)$，$\\left(0,\\frac a2,0\\right)$，$\\left(0,-\\frac a2,0\\right)$，$\\left(0,0,\\frac a2\\right)$，$\\left(0,0,-\\frac a2\\right)$. 由相邻面中心连成的棱长为\r\n\n$$\n\\sqrt{\\left(\\frac a2\\right)^2+\\left(\\frac a2\\right)^2}=\\frac{a}{\\sqrt2}\n$$\n\r\n以四个 $xOy$ 平面内的面心为顶点的正方形是八面体的中截面，其两条对角线长度均为 $a$，故中截面面积为 $\\frac{a^{2}}{2}$. 上、下两个顶点到该中截面的距离均为 $\\frac a2$，所以八面体体积为\r\n\n$$\n2\\times\\frac13\\times\\frac{a^{2}}2\\times\\frac a2=\\frac{a^{3}}6\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "设 $a > 0$，$f(x) = ax^2 + bx + c$. 曲线 $y = f(x)$ 在点 $P(x_0, f(x_0))$ 处切线的倾斜角的取值范围为 $\\left[0, \\frac{\\pi}{4}\\right]$，则 $P$ 到曲线 $y = f(x)$ 对称轴距离的取值范围为（ ）",
+          "choices": [
+            "$\\left[0, \\frac{1}{a}\\right]$",
+            "$\\left[0, \\frac{1}{2a}\\right]$",
+            "$\\left[0, \\left|\\frac{b}{2a}\\right|\\right]$",
+            "$\\left[0, \\left|\\frac{b - 1}{2a}\\right|\\right]$"
+          ],
+          "answer": "B",
+          "solution": "曲线 $y=f(x)$ 在 $x=x_{0}$ 处的切线斜率为 $f'(x_{0})=2ax_{0}+b$. 由于切线倾斜角 $\\theta\\in\\left[0,\\frac{\\pi}{4}\\right]$，且 $\\tan\\theta=f'(x_{0})$，所以\r\n\n$$\n0\\leqslant2ax_{0}+b\\leqslant1\n$$\n\r\n抛物线的对称轴为 $x=-\\frac{b}{2a}$，点 $P$ 到该轴的距离为\r\n\n$$\n\\left|x_{0}+\\frac{b}{2a}\\right|=\\frac{|2ax_{0}+b|}{2a}\n$$\n\r\n由于 $a>0$，函数 $2ax_{0}+b$ 随 $x_{0}$ 连续变化，且题设给出的倾斜角范围使其恰好取遍 $[0,1]$. 因此上述距离恰好取遍 $\\left[0,\\frac{1}{2a}\\right]$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "已知方程 $(x^{2} - 2x + m)(x^{2} - 2x + n) = 0$ 的四个根组成一个首项为 $\\frac{1}{4}$ 的等差数列. 则 $|m - n| =$（ ）",
+          "choices": [
+            "$1$",
+            "$\\frac{3}{4}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{3}{8}$"
+          ],
+          "answer": "C",
+          "solution": "设四个根组成首项为 $\\frac14$、公差为 $d$ 的等差数列. 四次方程的四个根之和由韦达定理得为 $4$，而等差数列各项之和为 $4\\left(\\frac14+\\frac{3d}{2}\\right)=1+6d$. 因此 $d=\\frac12$，四个根为\r\n$\\frac14$，$\\frac34$，$\\frac54$，$\\frac74$.\r\n每个二次因式 $x^{2}-2x+m$ 或 $x^{2}-2x+n$ 的两个根之和均为 $2$，所以两因式分别对应根对 $\\left(\\frac14,\\frac74\\right)$ 和 $\\left(\\frac34,\\frac54\\right)$. 于是 $\\{m,n\\}=\\left\\{\\frac{7}{16},\\frac{15}{16}\\right\\}$，从而\r\n\n$$\n|m-n|=\\frac{15}{16}-\\frac{7}{16}=\\frac12\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知双曲线中心在原点且一个焦点为 $F(\\sqrt{7}, 0)$，直线 $y = x - 1$ 与其相交于 $M$，$N$ 两点，$MN$ 中点的横坐标为 $-\\frac{2}{3}$，则此双曲线的方程是（ ）",
+          "choices": [
+            "$\\frac{x^2}{3} - \\frac{y^2}{4} = 1$",
+            "$\\frac{x^2}{4} - \\frac{y^2}{3} = 1$",
+            "$\\frac{x^2}{5} - \\frac{y^2}{2} = 1$",
+            "$\\frac{x^2}{2} - \\frac{y^2}{5} = 1$"
+          ],
+          "answer": "D",
+          "solution": "设双曲线方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$. 由焦点为 $(\\sqrt7,0)$，得\r\n\n$$\na^{2}+b^{2}=7\n$$\n\r\n将直线 $y=x-1$ 代入双曲线，得到\r\n\n$$\n\\left(\\frac1{a^{2}}-\\frac1{b^{2}}\\right)x^{2}+\\frac2{b^{2}}x-\\left(1+\\frac1{b^{2}}\\right)=0\n$$\n\r\n设交点的横坐标为 $x_{1}$，$x_{2}$. 由根与系数的关系，\r\n\n$$\nx_{1}+x_{2}=-\\frac{\\frac{2}{b^{2}}}{\\frac{1}{a^{2}}-\\frac{1}{b^{2}}}=\\frac{2a^{2}}{a^{2}-b^{2}}\n$$\n\r\n因 $MN$ 中点横坐标为 $-\\frac23$，有 $x_{1}+x_{2}=-\\frac43$，所以 $b^{2}=\\frac52a^{2}$. 联立 $a^{2}+b^{2}=7$，得 $a^{2}=2$，$b^{2}=5$. 因此双曲线方程为 $\\frac{x^{2}}2-\\frac{y^{2}}5=1$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "已知长方形的四个顶点 $A(0,0)$，$B(2,0)$，$C(2,1)$ 和 $D(0,1)$，一质点从 $AB$ 的中点 $P_0$ 沿与 $AB$ 的夹角 $\\theta$ 的方向射到 $BC$ 上的点 $P_1$ 后，依次反射到 $CD$，$DA$ 和 $AB$ 上的点 $P_2$，$P_3$ 和 $P_4$（入射角等于反射角）. 设 $P_4$ 的坐标为 $(x_4,0)$，若 $1 < x_4 < 2$，则 $\\tan \\theta$ 的取值范围是（ ）",
+          "choices": [
+            "$\\left(\\frac{1}{3}, 1\\right)$",
+            "$\\left(\\frac{1}{3}, \\frac{2}{3}\\right)$",
+            "$\\left(\\frac{2}{5}, \\frac{1}{2}\\right)$",
+            "$\\left(\\frac{2}{5}, \\frac{2}{3}\\right)$"
+          ],
+          "answer": "C",
+          "solution": "设 $t=\\tan\\theta$. 将每次反射后的长方形关于反射边展开，反射光线即可视为一条直线. 在展开图中，$P_{0}=(1,0)$，故光线方程为 $y=t(x-1)$. 它先在 $x=2$ 处到达 $BC$，再在 $y=1$ 处到达 $CD$，随后在 $x=4$ 处到达 $DA$，最后到达对应于 $AB$ 的直线 $y=2$. 设最后交点的横坐标为 $X_{4}$，则\r\n\n$$\nX_{4}=1+\\frac2t\n$$\n\r\n经过前三次反射，最后一个展开矩形的横坐标范围为 $4\\le x\\leqslant6$，其边 $y=2$ 折回原矩形的 $AB$，所以 $x_{4}=X_{4}-4$. 题设 $1<x_{4}<2$ 等价于\r\n\n$$\n1<1+\\frac2t-4<2\n$$\n\r\n即 $4<\\frac2t<5$. 这里 $t>0$，不等号方向保持不变，故 $\\frac25<t<\\frac12$. 该范围同时保证光线依次击中题设的四条边，因而 $\\tan\\theta$ 的取值范围为 $\\left(\\frac25,\\frac12\\right)$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "一个四面体的所有棱长都为 $\\sqrt{2}$，四个顶点在同一球面上，则此球的表面积为（ ）",
+          "choices": [
+            "$3\\pi$",
+            "$4\\pi$",
+            "$3\\sqrt{3}\\pi$",
+            "$6\\pi$"
+          ],
+          "answer": "A",
+          "solution": "取正四面体的四个顶点为\r\n$\\left(r,r,r\\right)$，$\\left(r,-r,-r\\right)$，$\\left(-r,r,-r\\right)$，$\\left(-r,-r,r\\right)$.\r\n任意两点间的距离均为 $2\\sqrt2r$. 由棱长为 $\\sqrt2$，得 $r=\\frac12$. 四个顶点到原点的距离均为 $\\sqrt3r=\\frac{\\sqrt3}{2}$，所以外接球半径为 $\\frac{\\sqrt3}{2}$. 其表面积为\r\n\n$$\n4\\pi\\left(\\frac{\\sqrt3}{2}\\right)^{2}=3\\pi\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "$\\left(x^{2} - \\frac{1}{2x}\\right)^{9}$ 的展开式中 $x^{9}$ 系数是 _______ {}.",
+          "choices": [],
+          "answer": "\\(-\\frac{21}{2}\\)",
+          "solution": "展开式的通项为\r\n\n$$\n\\mathrm C_{9}^{k}(x^{2})^{9-k}\\left(-\\frac1{2x}\\right)^{k}=\\mathrm C_{9}^{k}\\left(-\\frac12\\right)^{k}x^{18-3k}\n$$\n\r\n要得到 $x^{9}$，必须满足 $18-3k=9$，所以 $k=3$. 因此所求系数为\r\n\n$$\n\\mathrm C_{9}^{3}\\left(-\\frac12\\right)^{3}=84\\times\\left(-\\frac18\\right)=-\\frac{21}{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "某公司生产三种型号的轿车，产量分别为 $1200$ 辆，$6000$ 辆和 $2000$ 辆. 为检验该公司的产品质量，现用分层抽样的方法抽取 $46$ 辆进行检验，这三种型号的轿车依次应抽取 _______ {}， _______ {}， _______ {}辆.",
+          "choices": [],
+          "answer": "\\(6\\)，\\(30\\)，\\(10\\)",
+          "solution": "三种型号轿车的总产量为 $1200+6000+2000=9200$ 辆. 分层抽样时，各层抽样数与各层总体数成比例，抽样比例为\r\n\n$$\n\\frac{46}{9200}=\\frac1{200}\n$$\n\r\n因此三种型号依次抽取 $1200\\times\\frac1{200}=6$ 辆，$6000\\times\\frac1{200}=30$ 辆，$2000\\times\\frac1{200}=10$ 辆，三数之和为 $46$，所以填 $6$，$30$，$10$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "某城市在中心广场建造一个花圃，花圃分为 $6$ 个部分（如图）. 现要栽种 $4$ 种不同颜色的花，每部分栽种一种且相邻部分不能栽种同样颜色的花，不同的栽种方法有 _______ {}种.\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2003/img/jiangsu/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(120\\)",
+          "solution": "先给中心部分 $1$ 选颜色，有 $4$ 种方法. 中心部分与外圈的五个部分都相邻，所以外圈只能使用其余 $3$ 种颜色，并且外圈 $2$，$3$，$4$，$5$，$6$ 依次构成一个五边形，相邻部分颜色不同.\r\n\r\n固定外圈部分 $2$ 的颜色. 部分 $3$ 有 $2$ 种选择，部分 $4$ 有 $2$ 种选择，部分 $5$ 有 $2$ 种选择. 在这 $2^{3}=8$ 种给部分 $3$，$4$，$5$ 的方式中，部分 $5$ 与部分 $2$ 同色的有 $2$ 种，另有 $6$ 种不同色：当二者不同色时，部分 $6$ 有 $1$ 种颜色可选；当二者同色时，部分 $6$ 有 $2$ 种颜色可选. 所以固定部分 $2$ 后，外圈有 $6\\times1+2\\times2=10$ 种涂法，外圈共 $3\\times10=30$ 种涂法. 总方法数为 $4\\times30=120$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "对于四面体 $ABCD$，给出下列四个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 若 $AB = AC$，$BD = CD$，则 $BC \\perp AD$；\r\n\\item 若 $AB = CD$，$AC = BD$，则 $BC \\perp AD$；\r\n\\item 若 $AB \\perp AC$，$BD \\perp CD$，则 $BC \\perp AD$；\r\n\\item 若 $AB \\perp CD$，$AC \\perp BD$，则 $BC \\perp AD$.\r\n\\end{circlelist}\r\n\r\n其中真命题的序号是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\circled{1}\\)，\\(\\circled{4}\\)",
+          "solution": "将 $BC$ 的中点取为原点，并设 $\\overrightarrow{OB}=-\\mathbf{u}$，$\\overrightarrow{OC}=\\mathbf{u}$.\r\n\r\n命题 1 中，$AB=AC$ 给出\r\n\n$$\n\\left|\\overrightarrow{OA}+\\mathbf{u}\\right|^{2}=\\left|\\overrightarrow{OA}-\\mathbf{u}\\right|^{2}\n$$\n\r\n从而 $\\overrightarrow{OA}\\cdot\\mathbf{u}=0$. 同理，$BD=CD$ 给出 $\\overrightarrow{OD}\\cdot\\mathbf{u}=0$. 因此\r\n\n$$\n\\overrightarrow{AD}\\cdot\\overrightarrow{BC}=(\\overrightarrow{OD}-\\overrightarrow{OA})\\cdot(2\\mathbf{u})=0\n$$\n\r\n故 $AD\\perp BC$，命题 1 为真.\r\n\r\n命题 2 不成立. 取 $A=(0,0,0)$，$B=(1,0,0)$，$C=(0,2,0)$，$D=\\left(0,\\frac32,\\frac{\\sqrt3}{2}\\right)$. 则 $AB=CD=1$，$AC=BD=2$，但 $\\overrightarrow{BC}=(-1,2,0)$，$\\overrightarrow{AD}=\\left(0,\\frac32,\\frac{\\sqrt3}{2}\\right)$，且 $\\overrightarrow{BC}\\cdot\\overrightarrow{AD}=3\\ne0$，\r\n所以 $BC$ 不垂直于 $AD$，命题 2 为假.\r\n\r\n命题 3 也不成立. 取 $A=(0,0,0)$，$B=(1,0,0)$，$C=(0,1,0)$，$D=\\left(\\frac12,0,\\frac12\\right)$. 则 $\\overrightarrow{AB}=(1,0,0)$，$\\overrightarrow{AC}=(0,1,0)$，$\\overrightarrow{BD}=\\left(-\\frac12,0,\\frac12\\right)$，$\\overrightarrow{CD}=\\left(\\frac12,-1,\\frac12\\right)$，且 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=0$，$\\overrightarrow{BD}\\cdot\\overrightarrow{CD}=0$，但 $\\overrightarrow{BC}=(-1,1,0)$，$\\overrightarrow{AD}=\\left(\\frac12,0,\\frac12\\right)$，且 $\\overrightarrow{BC}\\cdot\\overrightarrow{AD}=-\\frac12\\ne0$.\r\n故命题 3 为假.\r\n\r\n命题 4 中，设 $A$ 为原点，记 $\\overrightarrow{AB}=\\mathbf{b}$，$\\overrightarrow{AC}=\\mathbf{c}$，$\\overrightarrow{AD}=\\mathbf{d}$. 条件 $AB\\perp CD$ 与 $AC\\perp BD$ 分别给出 $\\mathbf{b}\\cdot(\\mathbf{d}-\\mathbf{c})=0$，$\\mathbf{c}\\cdot(\\mathbf{d}-\\mathbf{b})=0$，\r\n即 $\\mathbf{b}\\cdot\\mathbf{d}=\\mathbf{b}\\cdot\\mathbf{c}$，$\\mathbf{c}\\cdot\\mathbf{d}=\\mathbf{c}\\cdot\\mathbf{b}$. 因而\r\n\n$$\n\\overrightarrow{BC}\\cdot\\overrightarrow{AD}=(\\mathbf{c}-\\mathbf{b})\\cdot\\mathbf{d}=\\mathbf{c}\\cdot\\mathbf{d}-\\mathbf{b}\\cdot\\mathbf{d}=0\n$$\n\r\n故 $BC\\perp AD$，命题 4 为真. 所以真命题的序号为 $1$，$4$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "有三种产品，合格率分别为 $0.90$，$0.95$ 和 $0.95$，各抽取一件进行检验.\r\n\r\n\n(1) 求恰有一件不合格的概率；\n\n(2) 求至少有两件不合格的概率（精确到 $0.001$）.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设三件产品不合格的概率分别为 $0.10$，$0.05$，$0.05$. 恰有一件不合格包括第一件不合格而另两件合格、第二件不合格而另两件合格、第三件不合格而另两件合格这三种互斥情形，所以概率为 $0.10\\times0.95\\times0.95+0.90\\times0.05\\times0.95+0.90\\times0.95\\times0.05=0.17575$.\n\n(2) 至少有两件不合格包括恰有两件不合格和三件都不合格这四种互斥情形，所以概率为 $0.10\\times0.05\\times0.95+0.10\\times0.95\\times0.05+0.90\\times0.05\\times0.05+0.10\\times0.05\\times0.05=0.012$. 精确到 $0.001$ 为 $0.012$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "已知函数 $f(x) = \\sin (\\omega x + \\varphi)$（$\\omega > 0$，$0 \\le \\varphi \\le \\pi$）是 $\\mathbb{R}$ 上的偶函数，其图象关于点 $M\\left(\\frac{3\\pi}{4}, 0\\right)$ 对称，且在区间 $\\left[0, \\frac{\\pi}{2}\\right]$ 上是单调函数. 求 $\\omega$ 和 $\\varphi$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "因为 $f(x)$ 是偶函数，所以对任意 $x\\in\\mathbb{R}$，有 $f(x)=f(-x)$. 从而\r\n\n$$\n\\sin(\\omega x+\\varphi)-\\sin(-\\omega x+\\varphi)=2\\cos\\varphi\\sin\\omega x=0\n$$\n\r\n由于 $\\omega>0$，$\\sin\\omega x$ 不恒为零，故 $\\cos\\varphi=0$. 结合 $0\\le\\varphi\\le\\pi$，得到 $\\varphi=\\frac{\\pi}{2}$，于是 $f(x)=\\cos\\omega x$.\r\n\r\n点 $M\\left(\\frac{3\\pi}{4},0\\right)$ 是图象的对称中心. 对图象上的点作关于 $M$ 的中心对称，函数关系为 $f\\left(\\frac{3\\pi}{2}-x\\right)=-f(x)$. 令 $x=\\frac{3\\pi}{4}$，可得 $f\\left(\\frac{3\\pi}{4}\\right)=0$，即\r\n\n$$\n\\cos\\frac{3\\pi\\omega}{4}=0\n$$\n\r\n因此 $\\frac{3\\pi\\omega}{4}=\\frac{(2k+1)\\pi}{2}$，其中 $k\\in\\mathbb{Z}$，从而 $\\omega=\\frac{2(2k+1)}{3}$. 由 $\\omega>0$ 知 $k\\geqslant0$.\r\n\r\n对于这些候选值，有 $2\\omega\\cdot\\frac{3\\pi}{4}=(2k+1)\\pi$，从而 $f\\left(\\frac{3\\pi}{2}-x\\right)=\\cos\\left((2k+1)\\pi-\\omega x\\right)=-\\cos\\omega x=-f(x)$，所以候选值确实满足图象关于 $M$ 中心对称.\r\n\r\n又 $f'(x)=-\\omega\\sin\\omega x$. 若 $0<\\omega\\leqslant2$，则当 $0\\le x\\le\\frac{\\pi}{2}$ 时，$0\\le\\omega x\\le\\pi$，所以 $f'(x)\\leqslant0$，函数在该区间上单调. 若 $\\omega>2$，则 $\\frac{\\pi}{\\omega}<\\frac{\\pi}{2}$，在 $\\left(0,\\frac{\\pi}{\\omega}\\right)$ 内有 $f'(x)<0$，而区间 $\\left(\\frac{\\pi}{\\omega},\\min\\left\\{\\frac{2\\pi}{\\omega},\\frac{\\pi}{2}\\right\\}\\right)$ 非空且其中 $f'(x)>0$，所以函数不单调. 因此 $\\omega\\leqslant2$. 在 $\\omega=\\frac{2(2k+1)}{3}$ 中只可能有 $k=0$，$1$，故\r\n$\\omega=\\frac{2}{3}\\text{ 或 }\\omega=2$，$\\varphi=\\frac{\\pi}{2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，在直三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，底面是等腰直角三角形，$\\angle ACB=90^{\\circ}$，侧棱 $AA_{1}=2$，$D$，$E$ 分别是 $CC_{1}$ 与 $A_{1}B$ 的中点，点 $E$ 在平面 $ABD$ 上的射影是 $\\triangle ABD$ 的重心 $G$.\r\n\r\n\n(1) 求 $A_{1}B$ 与平面 $ABD$ 所成角的大小（结果用反三角函数值表示）；\n\n(2) 求点 $A_{1}$ 到平面 $AED$ 的距离.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2003/img/jiangsu/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设等腰直角三角形的两条直角边长为 $b$. 取 $C$ 为原点，令 $A=(b,0,0)$，$B=(0,b,0)$，$C_{1}=(0,0,2)$，则 $A_{1}=(b,0,2)$，$D=(0,0,1)$，$E=\\left(\\frac b2,\\frac b2,1\\right)$. 三角形 $ABD$ 的重心为 $G=\\left(\\frac b3,\\frac b3,\\frac13\\right)$，所以\r\n\n$$\n\\overrightarrow{GE}=\\left(\\frac b6,\\frac b6,\\frac23\\right)\n$$\n\r\n由 $\\overrightarrow{AB}=(-b,b,0)$，$\\overrightarrow{AD}=(-b,0,1)$，知平面 $ABD$ 的一个法向量为 $(1,1,b)$. 因 $E$ 在平面 $ABD$ 上的射影为 $G$，所以 $\\overrightarrow{GE}$ 垂直于平面 $ABD$，即与该法向量平行. 比较第三个分量与第一个分量，得到 $\\frac{4}{b}=b$. 由于 $b>0$，所以 $b=2$.\r\n\r\n此时 $\\overrightarrow{A_{1}B}=(-2,2,-2)$，平面 $ABD$ 的法向量可取 $\\mathbf{n}=(1,1,2)$. 设直线 $A_{1}B$ 与平面 $ABD$ 所成的角为 $\\alpha$，则\r\n\n$$\n\\sin\\alpha=\\frac{|\\overrightarrow{A_{1}B}\\cdot\\mathbf{n}|}{|\\overrightarrow{A_{1}B}|\\,|\\mathbf{n}|}=\\frac{4}{2\\sqrt3\\,\\sqrt6}=\\frac{\\sqrt2}{3}\n$$\n\r\n所以 $\\alpha=\\arcsin\\frac{\\sqrt2}{3}$.\n\n(2) 由 $A=(2,0,0)$，$E=(1,1,1)$，$D=(0,0,1)$，可得平面 $AED$ 的一个法向量为\r\n\n$$\n\\overrightarrow{AE}\\times\\overrightarrow{AD}=(-1,1,1)\\times(-2,0,1)=(1,-1,2)\n$$\n\r\n故平面 $AED$ 的方程为 $x-y+2z-2=0$. 将 $A_{1}=(2,0,2)$ 代入点到平面的距离公式，得到\r\n\n$$\nd=\\frac{|2-0+2\\times2-2|}{\\sqrt{1^{2}+(-1)^{2}+2^{2}}}=\\frac{4}{\\sqrt6}=\\frac{2\\sqrt6}{3}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知常数 $a > 0$，向量 $\\mathbf{c} = (0, a)$，$\\mathbf{i} = (1, 0)$. 经过原点 $O$ 以 $\\mathbf{c} + \\lambda \\mathbf{i}$ 为方向向量的直线与经过定点 $A(0, a)$ 以 $\\mathbf{i} - 2\\lambda \\mathbf{c}$ 为方向向量的直线相交于 $P$，其中 $\\lambda \\in \\mathbb{R}$. 试问：是否存在两个定点 $E$，$F$，使得 $|PE| + |PF|$ 为定值. 若存在，求出 $E$，$F$ 的坐标；若不存在，说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "设交点 $P=(x,y)$. 第一条直线上的点可表示为 $t(\\lambda,a)$，第二条直线上的点可表示为 $A+s(1,-2a\\lambda)$，其中 $t$，$s\\in\\mathbb{R}$. 由两种表示相同，得\r\n\n$$\n\\begin{cases}\r\nt\\lambda=s\\\\\r\nta=a-2a\\lambda s\r\n\\end{cases}\n$$\n\r\n代入 $s=t\\lambda$，并利用 $a>0$，可得 $t(1+2\\lambda^{2})=1$. 因此\r\n\n$$\nP=\\left(\\frac{\\lambda}{1+2\\lambda^{2}},\\frac{a}{1+2\\lambda^{2}}\\right)\n$$\n\r\n于是 $y>0$，且 $\\lambda=\\frac{ax}{y}$. 消去参数得到\r\n\n$$\n2a^{2}x^{2}+y^{2}-ay=0\n$$\n\r\n即\r\n\n$$\n2a^{2}x^{2}+\\left(y-\\frac a2\\right)^{2}=\\frac{a^{2}}{4}\n$$\n\r\n这是一条中心为 $\\left(0,\\frac a2\\right)$ 的椭圆，除去未被有限参数取到的点 $O=(0,0)$ 外，参数 $\\lambda\\in\\mathbb{R}$ 取遍该椭圆的其余部分. 椭圆的横、纵半轴分别为 $\\frac{1}{2\\sqrt2}$ 和 $\\frac a2$，故按两个半轴的大小分类讨论其焦点.\r\n\r\n当 $0<a<\\frac{\\sqrt2}{2}$ 时，横轴为长轴，焦距的一半为\r\n\n$$\nc=\\sqrt{\\frac18-\\frac{a^{2}}4}=\\frac12\\sqrt{\\frac12-a^{2}}\n$$\n\r\n所以可取\r\n\n$$\nE=\\left(-\\frac12\\sqrt{\\frac12-a^{2}},\\frac a2\\right)\n$$\n\r\n以及\r\n\n$$\nF=\\left(\\frac12\\sqrt{\\frac12-a^{2}},\\frac a2\\right)\n$$\n\r\n此时对椭圆上（从而对所有可取的 $P$）的点都有\r\n\n$$\n|PE|+|PF|=2\\cdot\\frac{1}{2\\sqrt2}=\\frac{1}{\\sqrt2}\n$$\n\r\n\r\n当 $a>\\frac{\\sqrt2}{2}$ 时，纵轴为长轴，焦距的一半为\r\n\n$$\nc=\\sqrt{\\frac{a^{2}}4-\\frac18}=\\frac12\\sqrt{a^{2}-\\frac12}\n$$\n\r\n所以可取\r\n\n$$\nE=\\left(0,\\frac{a-\\sqrt{a^{2}-\\frac12}}2\\right)\n$$\n\r\n以及\r\n\n$$\nF=\\left(0,\\frac{a+\\sqrt{a^{2}-\\frac12}}2\\right)\n$$\n\r\n此时\r\n\n$$\n|PE|+|PF|=2\\cdot\\frac a2=a\n$$\n\r\n\r\n当 $a=\\frac{\\sqrt2}{2}$ 时，轨迹是以 $\\left(0,\\frac a2\\right)$ 为圆心的圆. 若 $E$、$F$ 是两个不同定点，则具有定和性质的轨迹应是长半轴大于焦距的椭圆，而圆对应焦距为 $0$，两个焦点必须重合于圆心，故不存在符合题意的两个不同定点. 若题意允许两定点重合，则可取 $E=F=\\left(0,\\frac a2\\right)$，此时距离和恒为圆的直径；按通常将两个焦点视为不同定点的题意，临界情形的结论为不存在.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知 $a > 0$，$n$ 为正整数.\r\n\r\n\n(1) 设 $y = (x - a)^n$，证明：$y' = n(x - a)^{n-1}$；\n\n(2) 设 $f_{n}(x) = x^{n} - (x - a)^{n}$，对任意 $n \\ge a$，证明：$f_{n+1}'(n+1) > (n+1)f_{n}'(n)$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 当 $n=1$ 时，$y=x-a$，所以 $y'=1=1\\cdot(x-a)^{0}$. 若对某个正整数 $n$ 有 $\\frac{\\mathrm d}{\\mathrm dx}(x-a)^{n}=n(x-a)^{n-1}$，则\r\n\n$$\n\\frac{\\mathrm d}{\\mathrm dx}(x-a)^{n+1}=\\frac{\\mathrm d}{\\mathrm dx}\\bigl((x-a)^{n}(x-a)\\bigr)=n(x-a)^{n-1}(x-a)+(x-a)^{n}=(n+1)(x-a)^{n}\n$$\n\r\n由数学归纳法，结论对所有正整数 $n$ 成立.\n\n(2) 由上面的求导结论，$f_n'(x)=n\\left[x^{n-1}-(x-a)^{n-1}\\right]$. 当 $n=1$ 时，$f_1(x)=a$，所以 $f_1'(1)=0$，而 $f_2'(2)=2a>0=2f_1'(1)$，结论成立.\r\n\r\n以下设 $n\\geqslant2$. 利用恒等式 $u^r-v^r=(u-v)\\sum_{k=0}^{r-1}u^{r-1-k}v^k$，并注意 $n\\ge a$，得到\r\n\n$$\n\\frac{f_{n+1}'(n+1)}{n+1}=a\\sum_{k=0}^{n-1}(n+1)^{n-1-k}(n+1-a)^k\n$$\n\r\n以及\r\n\n$$\nf_n'(n)=na\\sum_{k=0}^{n-2}n^{n-2-k}(n-a)^k\n$$\n\r\n对 $0\\le k\\le n-2$，有 $n+1>n$ 且 $n+1-a\\ge n-a\\geqslant0$，因此\r\n        \n$$\n(n+1)^{n-1-k}(n+1-a)^k>n^{n-1-k}(n-a)^k\r\n        =n\\cdot n^{n-2-k}(n-a)^k\n$$\n\r\n        对 $0\\le k\\le n-2$ 的每一项都已有严格不等式，且左边的求和还多出非负项 $k=n-1$，所以\r\n        \n$$\n\\frac{f_{n+1}'(n+1)}{n+1}\r\n        >na\\sum_{k=0}^{n-2}n^{n-2-k}(n-a)^k\r\n        =f_n'(n)\n$$\n\r\n        即\r\n\n$$\nf_{n+1}'(n+1)>(n+1)f_n'(n)\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "设 $a > 0$，如图，已知直线 $l: y = ax$ 及曲线 $C: y = x^2$，$C$ 上的点 $Q_1$ 的横坐标为 $a_1$（$0 < a_1 < a$）. 从 $C$ 上的点 $Q_n$（$n \\ge 1$）作直线平行于 $x$ 轴，交直线 $l$ 于点 $P_{n+1}$，再从点 $P_{n+1}$ 作直线平行于 $y$ 轴，交曲线 $C$ 于点 $Q_{n+1}$. $Q_n$（$n = 1$，$2$，$3$，$\\cdots$）的横坐标构成数列 $\\{a_n\\}$.\r\n\r\n\n(1) 试求 $a_{n+1}$ 与 $a_n$ 的关系，并求 $\\{a_n\\}$ 的通项公式；\n\n(2) 当 $a = 1$，$a_1 \\le \\frac{1}{2}$ 时，证明：$\\sum_{k=1}^{n} (a_k - a_{k+1}) a_{k+2} < \\frac{1}{32}$；\n\n(3) 当 $a = 1$ 时，证明：$\\sum_{k=1}^{n} (a_k - a_{k+1}) a_{k+2} < \\frac{1}{3}$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2003/img/jiangsu/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由 $Q_n=(a_n,a_n^2)$，过 $Q_n$ 作水平线后，交 $l:y=ax$ 于 $P_{n+1}=\\left(\\frac{a_n^2}{a},a_n^2\\right)$. 再过 $P_{n+1}$ 作竖直线交 $C:y=x^2$，所以\r\n\n$$\na_{n+1}=\\frac{a_n^2}{a}\n$$\n\r\n令 $r_n=\\frac{a_n}{a}$，则 $r_{n+1}=r_n^2$. 反复代入得 $r_n=r_1^{2^{n-1}}$，从而\r\n\n$$\na_n=a\\left(\\frac{a_1}{a}\\right)^{2^{n-1}}\n$$\n\n(2) 当 $a=1$ 且 $a_1\\le\\frac12$ 时，$a_{k+1}=a_k^2$，并且 $0<a_k<1$. 因此\r\n\n$$\n(a_k-a_{k+1})a_{k+2}=(a_k-a_k^2)a_k^4=a_k^5-a_k^6<a_k^5-a_k^{10}=a_k^5-a_{k+1}^5\n$$\n\r\n对 $k=1$，$2$，$\\ldots$，$n$ 求和，得到\r\n\n$$\n\\sum_{k=1}^{n}(a_k-a_{k+1})a_{k+2}<a_1^5-a_{n+1}^5<a_1^5\\le\\frac1{32}\n$$\n\n(3) 当 $a=1$ 时仍有 $a_{k+1}=a_k^2$，且 $0<a_k<1$. 对每个 $k$，有\r\n\n$$\n(a_k-a_{k+1})a_{k+2}=a_k^5(1-a_k)<\\frac13\\left(a_k^3-a_k^6\\right)=\\frac13\\left(a_k^3-a_{k+1}^3\\right)\n$$\n\r\n这里不等式等价于 $3a_k^2<1+a_k+a_k^2$，即 $(2a_k+1)(a_k-1)<0$，确实成立. 于是\r\n\n$$\n\\sum_{k=1}^{n}(a_k-a_{k+1})a_{k+2}<\\frac13\\sum_{k=1}^{n}(a_k^3-a_{k+1}^3)=\\frac13(a_1^3-a_{n+1}^3)<\\frac13\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

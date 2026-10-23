@@ -1,0 +1,416 @@
+{
+  "year": "2007",
+  "slug": "fujian_liberal",
+  "title": "2007年福建卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "已知全集 $U = \\{1, 2, 3, 4, 5\\}$，且 $A = \\{2, 3, 4\\}$，$B = \\{1, 2\\}$，则 $A \\cap \\left( \\complement_U B \\right)$ 等于（ ）",
+          "choices": [
+            "$\\{2\\}$",
+            "$\\{5\\}$",
+            "$\\{3, 4\\}$",
+            "$\\{2, 3, 4, 5\\}$"
+          ],
+          "answer": "C",
+          "solution": "由全集定义，$\\complement_U B=\\{3,4,5\\}$，所以\r\n\n$$\nA\\cap\\left(\\complement_U B\\right)=\\{2,3,4\\}\\cap\\{3,4,5\\}=\\{3,4\\}\n$$\n\r\n因此选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "等比数列 $\\{a_n\\}$ 中，$a_4 = 4$，则 $a_2 \\cdot a_6$ 等于（ ）",
+          "choices": [
+            "$4$",
+            "$8$",
+            "$16$",
+            "$32$"
+          ],
+          "answer": "C",
+          "solution": "设等比数列的公比为 $q$. 由 $a_4=a_2q^2$，$a_6=a_4q^2$，得\r\n\n$$\na_2a_6=a_2a_4q^2=a_4^2=4^2=16\n$$\n\r\n因此选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "$\\sin 15^\\circ \\cos 75^\\circ + \\cos 15^\\circ \\sin 105^\\circ$ 等于（ ）",
+          "choices": [
+            "$0$",
+            "$\\frac{1}{2}$",
+            "$\\frac{\\sqrt{3}}{2}$",
+            "$1$"
+          ],
+          "answer": "D",
+          "solution": "利用诱导公式，$\\cos75^\\circ=\\sin15^\\circ$，$\\sin105^\\circ=\\cos15^\\circ$. 因而\r\n\n$$\n\\sin15^\\circ\\cos75^\\circ+\\cos15^\\circ\\sin105^\\circ\r\n=\\sin^2 15^\\circ+\\cos^2 15^\\circ=1\n$$\n\r\n因此选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "“$|x| < 2$”是“$x^2 - x - 6 < 0$”的（ ）",
+          "choices": [
+            "充分而不必要条件",
+            "必要而不充分条件",
+            "充要条件",
+            "既不充分也不必要条件"
+          ],
+          "answer": "A",
+          "solution": "由 $|x|<2$ 得 $-2<x<2$. 又\r\n\n$$\nx^2-x-6=(x-3)(x+2)\n$$\n\r\n所以 $x^2-x-6<0$ 的解集为 $(-2,3)$. 因此 $|x|<2$ 能推出 $x^2-x-6<0$，但反之不成立，例如 $x=\\frac52$ 满足 $-2<x<3$，却不满足 $|x|<2$. 故前者是后者的充分而不必要条件，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "函数 $f(x) = \\sin \\left( 2x + \\frac{\\pi}{3} \\right)$ 的图象（ ）",
+          "choices": [
+            "关于点 $\\left( \\frac{\\pi}{3}, 0 \\right)$ 对称",
+            "关于直线 $x = \\frac{\\pi}{4}$ 对称",
+            "关于点 $\\left( \\frac{\\pi}{4}, 0 \\right)$ 对称",
+            "关于直线 $x = \\frac{\\pi}{3}$ 对称"
+          ],
+          "answer": "A",
+          "solution": "对任意实数 $u$，有\r\n\n$$\nf\\left(\\frac{\\pi}{3}+u\\right)=\\sin\\left(\\pi+2u\\right)=-\\sin2u\n$$\n\r\n\n$$\nf\\left(\\frac{\\pi}{3}-u\\right)=\\sin\\left(\\pi-2u\\right)=\\sin2u\n$$\n\r\n两式相加为零，故图象上这两个横坐标相反于 $\\frac{\\pi}{3}$ 的点的纵坐标也相反，它们的中点为 $\\left(\\frac{\\pi}{3},0\\right)$. 因此图象关于点 $\\left(\\frac{\\pi}{3},0\\right)$ 对称，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "如图，在正方体 $ABCD - A_1B_1C_1D_1$ 中，$E$，$F$，$G$，$H$ 分别为 $AA_1$，$AB$，$BB_1$，$B_1C_1$ 的中点，则异面直线 $EF$ 与 $GH$ 所成的角等于（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/fujian_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$45^\\circ$",
+            "$60^\\circ$",
+            "$90^\\circ$",
+            "$120^\\circ$"
+          ],
+          "answer": "B",
+          "solution": "取正方体棱长为 $2$，建立直角坐标系：\r\n$A=(0,0,0)$，$B=(2,0,0)$，$C=(2,2,0)$，$D=(0,2,0)$\r\n且 $A_1=(0,0,2)$，$B_1=(2,0,2)$，$C_1=(2,2,2)$. 于是\r\n$E=(0,0,1)$，$F=(1,0,0)$，$G=(2,0,1)$，$H=(2,1,2)$.\r\n取两直线的方向向量\r\n$\\overrightarrow{EF}=(1,0,-1)$，$\\overrightarrow{GH}=(0,1,1)$.\r\n它们的内积为 $-1$，长度均为 $\\sqrt2$. 设异面直线所成的锐角为 $\\theta$，则\r\n\n$$\n\\cos\\theta=\\frac{|\\overrightarrow{EF}\\cdot\\overrightarrow{GH}|}{|\\overrightarrow{EF}|\\,|\\overrightarrow{GH}|}=\\frac{1}{2}\n$$\n\r\n所以 $\\theta=60^\\circ$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知 $f(x)$ 为 $\\mathbb{R}$ 上的减函数，则满足 $f\\left( \\frac{1}{x} \\right) > f(1)$ 的实数 $x$ 的取值范围是（ ）",
+          "choices": [
+            "$(-\\infty, 1)$",
+            "$(1, +\\infty)$",
+            "$(-\\infty, 0) \\cup (0, 1)$",
+            "$(-\\infty, 0) \\cup (1, +\\infty)$"
+          ],
+          "answer": "D",
+          "solution": "因 $f$ 在 $\\mathbb{R}$ 上为减函数，故\r\n\n$$\nf\\left(\\frac1x\\right)>f(1)\\Longleftrightarrow \\frac1x<1\n$$\n\r\n同时必须有 $x\\neq0$. 当 $x<0$ 时，不等式 $\\frac1x<1$ 恒成立；当 $x>0$ 时，等价于 $x>1$. 因此\r\n\n$$\nx\\in(-\\infty,0)\\cup(1,+\\infty)\n$$\n\r\n选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "对于向量 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 和实数 $\\lambda$，下列命题中真命题的是（ ）",
+          "choices": [
+            "若 $\\mathbf{a} \\cdot \\mathbf{b} = 0$，则 $\\mathbf{a} = 0$ 或 $\\mathbf{b} = 0$",
+            "若 $\\lambda\\mathbf{a} = 0$，则 $\\lambda = 0$ 或 $\\mathbf{a} = 0$",
+            "若 $\\mathbf{a}^2 = \\mathbf{b}^2$，则 $\\mathbf{a} = \\mathbf{b}$ 或 $\\mathbf{a} = -\\mathbf{b}$",
+            "若 $\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{a} \\cdot \\mathbf{c}$，则 $\\mathbf{b} = \\mathbf{c}$"
+          ],
+          "answer": "B",
+          "solution": "若 $\\lambda\\mathbf{a}=0$ 且 $\\lambda\\neq0$，则两边同除以非零实数 $\\lambda$，得到 $\\mathbf{a}=0$，所以必有 $\\lambda=0$ 或 $\\mathbf{a}=0$，命题 B 正确.\r\n\r\n命题 A 不成立，例如取 $\\mathbf{a}=(1,0)$，$\\mathbf{b}=(0,1)$，则 $\\mathbf{a}\\cdot\\mathbf{b}=0$，但两向量都不是零向量. 命题 C 仅能说明两向量长度相等，例如上述两个向量长度相等，却既不相等也不互为相反向量. 命题 D 也不成立，例如取 $\\mathbf{a}=(1,0)$，$\\mathbf{b}=(0,1)$，$\\mathbf{c}=(0,2)$，则 $\\mathbf{a}\\cdot\\mathbf{b}=\\mathbf{a}\\cdot\\mathbf{c}=0$，但 $\\mathbf{b}\\neq\\mathbf{c}$. 因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "已知 $m$，$n$ 为两条不同的直线，$\\alpha$，$\\beta$ 为两个不同的平面，则下列命题中正确的是（ ）",
+          "choices": [
+            "$m \\subset \\alpha$，$n \\subset \\alpha$，$m \\parallel \\beta$，$n \\parallel \\beta \\Rightarrow \\alpha \\parallel \\beta$",
+            "$\\alpha \\parallel \\beta$，$m \\subset \\alpha$，$n \\subset \\beta \\Rightarrow m \\parallel n$",
+            "$m \\perp \\alpha$，$m \\perp n \\Rightarrow n \\parallel \\alpha$",
+            "$n \\parallel m$，$n \\perp \\alpha \\Rightarrow m \\perp \\alpha$"
+          ],
+          "answer": "D",
+          "solution": "命题 D 中，若 $n\\parallel m$ 且 $n\\perp\\alpha$，则与 $n$ 平行的直线 $m$ 也垂直于平面 $\\alpha$，所以 D 正确.\r\n\r\n其余命题均不能成立. 例如在 $\\alpha:z=0$，$\\beta:y=0$ 时，取 $m:y=1$，$z=0$ 和 $n:y=2$，$z=0$，则 $m$，$n\\subset\\alpha$ 且都平行于 $\\beta$，但 $\\alpha$ 与 $\\beta$ 相交，故 A 不成立. 取 $\\alpha:z=0$，$\\beta:z=1$，再取 $m$ 为 $\\alpha$ 内的 $x$ 轴、$n$ 为 $\\beta$ 内的 $y$ 轴，则 $m$ 与 $n$ 不平行，故 B 不成立. 对 C，取 $m$ 为 $z$ 轴，$\\alpha:z=0$，取 $n$ 为 $\\alpha$ 内的 $x$ 轴，则 $m\\perp\\alpha$ 且 $m\\perp n$，但 $n\\subset\\alpha$ 而不是 $n\\parallel\\alpha$. 因此选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "以双曲线 $x^2 - y^2 = 2$ 的右焦点为圆心，且与其右准线相切的圆的方程是（ ）",
+          "choices": [
+            "$x^2 + y^2 - 4x - 3 = 0$",
+            "$x^2 + y^2 - 4x + 3 = 0$",
+            "$x^2 + y^2 + 4x - 5 = 0$",
+            "$x^2 + y^2 + 4x + 5 = 0$"
+          ],
+          "answer": "B",
+          "solution": "双曲线可写为\r\n\n$$\n\\frac{x^2}{2}-\\frac{y^2}{2}=1\n$$\n\r\n故 $a^2=2$，$b^2=2$，$c^2=a^2+b^2=4$，右焦点为 $(2,0)$，右准线方程为\r\n\n$$\nx=\\frac{a^2}{c}=1\n$$\n\r\n以 $(2,0)$ 为圆心且与直线 $x=1$ 相切的圆，半径为圆心到准线的距离 $1$，所以\r\n\n$$\n(x-2)^2+y^2=1\n$$\n\r\n即 $x^2+y^2-4x+3=0$. 因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "已知对任意实数 $x$，有 $f(-x) = -f(x)$，$g(-x) = g(x)$，且 $x > 0$ 时，$f'(x) > 0$，$g'(x) > 0$，则 $x < 0$ 时（ ）",
+          "choices": [
+            "$f'(x) > 0$，$g'(x) > 0$",
+            "$f'(x) > 0$，$g'(x) < 0$",
+            "$f'(x) < 0$，$g'(x) > 0$",
+            "$f'(x) < 0$，$g'(x) < 0$"
+          ],
+          "answer": "B",
+          "solution": "对 $f(-x)=-f(x)$ 两边求导，得\r\n\n$$\n-f'(-x)=-f'(x)\n$$\n\r\n所以 $f'(-x)=f'(x)$. 当 $x<0$ 时 $-x>0$，从而 $f'(x)=f'(-x)>0$.\r\n\r\n对 $g(-x)=g(x)$ 两边求导，得\r\n\n$$\n-g'(-x)=g'(x)\n$$\n\r\n所以 $g'(x)=-g'(-x)<0$. 因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "某通讯公司推出一组手机号码，卡号的前七位数字固定，从“××××××× $0000$”到“×××××××$9999$”共 $10000$ 个号码. 公司限定：凡卡号的后四位带有数字“$4$”或“$7$”的一律作为“优惠卡”，则这组号码中“优惠卡”的个数为（ ）",
+          "choices": [
+            "$2000$",
+            "$4096$",
+            "$5904$",
+            "$8320$"
+          ],
+          "answer": "C",
+          "solution": "后四位每一位都有 $10$ 种取法，共有 $10^4=10000$ 个号码. 不含数字 $4$ 和 $7$ 时，每一位有 $8$ 种取法，共有 $8^4=4096$ 个号码. 因而至少含有一个数字 $4$ 或 $7$ 的号码数为\r\n\n$$\n10000-4096=5904\n$$\n\r\n因此选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "$\\left( x^2 + \\frac{1}{x} \\right)^6$ 的展开式中常数项是 _______ {}. （用数字作答）",
+          "choices": [],
+          "answer": "15",
+          "solution": "在展开式中，设从六个因式中选出 $k$ 个取 $x^2$，其余取 $x^{-1}$，则对应项的幂为\r\n\n$$\n2k-(6-k)=3k-6\n$$\n\r\n要得到常数项，必须有 $3k-6=0$，即 $k=2$. 因此常数项的系数为\r\n\n$$\n\\mathrm C_6^2=15\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "已知实数 $x$，$y$ 满足 $\\begin{cases}\r\nx + y \\ge 2,\\\\\r\nx - y \\le 2,\\\\\r\n0 \\le y \\le 3.\r\n\\end{cases}$，则 $2x - y$ 的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left[-5, 7\\right]\\)",
+          "solution": "由约束条件得\r\n$2-y\\le x\\le y+2$，$0\\le y\\leqslant3$.\r\n因此对固定的 $y$，有\r\n\n$$\n4-3y=2(2-y)-y\\leqslant2x-y\\leqslant2(y+2)-y=y+4\n$$\n\r\n当 $0\\le y\\leqslant3$ 时，左端的最小值为 $-5$，右端的最大值为 $7$. 取 $y=3$ 时，$-1\\le x\\leqslant5$，从而 $2x-y$ 恰好取得区间 $[-5,7]$ 内的所有值. 所以取值范围为 $\\left[-5,7\\right]$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "已知长方形 $ABCD$，$AB = 4$，$BC = 3$，则以 $A$，$B$ 为焦点，且过 $C$，$D$ 两点的椭圆的离心率为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{1}{2}\\)",
+          "solution": "在长方形中，$AC=\\sqrt{AB^2+BC^2}=\\sqrt{4^2+3^2}=5$，$BC=3$. 因为 $A$，$B$ 是椭圆的两个焦点且 $C$ 在椭圆上，所以\r\n$2a=AC+BC=5+3=8$，$a=4$.\r\n又两焦点间距离 $AB=2c=4$，故 $c=2$. 因此离心率\r\n\n$$\ne=\\frac ca=\\frac24=\\frac12\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "中学数学中存在许多关系，比如“相等关系”“平行关系”等等. 如果集合 $A$ 中元素之间的一个关系“$\\sim$”满足以下三个条件：\r\n\r\n\\begin{circlelist}\r\n\\item 自反性：对于任意 $a \\in A$，都有 $a \\sim a$.\r\n\\item 对称性：对于任意 $a$，$b \\in A$，若 $a \\sim b$，则有 $b \\sim a$.\r\n\\item 传递性：对于任意 $a$，$b$，$c \\in A$，若 $a \\sim b$，$b \\sim c$，则有 $a \\sim c$.\r\n\\end{circlelist}\r\n\r\n则称“$\\sim$”是集合 $A$ 的一个等价关系. 例如：“数的相等”是等价关系，而“直线的平行”不是等价关系（自反性不成立）. 请你再列出两个等价关系： _______ {}.",
+          "choices": [],
+          "answer": "\\(\\text{图形的全等、图形的相似}\\)",
+          "solution": "可取“图形的全等关系”和“图形的相似关系”. 对任意图形，它都与自身全等、相似，所以满足自反性；若图形 $X$ 与图形 $Y$ 全等（或相似），则交换两者仍成立，所以满足对称性；若图形 $X$ 与图形 $Y$ 全等（或相似），且图形 $Y$ 与图形 $Z$ 全等（或相似），则将对应的全等变换合成（或将相似比相乘）可得图形 $X$ 与图形 $Z$ 全等（或相似），所以满足传递性. 因此这两个关系都是等价关系.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "在 $\\triangle ABC$ 中，$\\tan A = \\frac{1}{4}$，$\\tan B = \\frac{3}{5}$.\r\n\r\n\n(1) 求角 $C$ 的大小.\n\n(2) 若 $AB$ 边的长为 $\\sqrt{17}$，求 $BC$ 边的长.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $A$，$B$ 是三角形的内角，且 $\\tan A>0$，$\\tan B>0$，所以 $A$，$B$ 都是锐角. 因此\r\n\n$$\n\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}\r\n =\\frac{\\frac14+\\frac35}{1-\\frac14\\cdot\\frac35}=1\n$$\n\r\n又 $0<A+B<\\pi$，且 $\\tan(A+B)>0$，所以 $0<A+B<\\frac{\\pi}{2}$，从而 $A+B=\\frac{\\pi}{4}$. 因此\r\n\n$$\nC=\\pi-(A+B)=\\frac{3\\pi}{4}=135^{\\circ}\n$$\n\n(2) 由 $\\tan A=\\frac14$ 且 $A$ 为锐角，得\r\n\n$$\n\\sin A=\\frac{\\tan A}{\\sqrt{1+\\tan^2 A}}=\\frac{1}{\\sqrt{1+4^{2}}}=\\frac{1}{\\sqrt{17}}\n$$\n\r\n由正弦定理，\r\n\n$$\n\\frac{BC}{\\sin A}=\\frac{AB}{\\sin C}\n$$\n\r\n所以\r\n\n$$\nBC=AB\\frac{\\sin A}{\\sin C}\r\n =\\sqrt{17}\\cdot\\frac{1}{\\sqrt{17}}\\cdot\\frac{1}{\\frac{\\sqrt{2}}{2}}\r\n =\\sqrt{2}\n$$\n\r\n故 $BC=\\sqrt{2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "甲，乙两名跳高运动员一次试跳 $2$ 米高度成功的概率分别为 $0.7$，$0.6$，且每次试跳成功与否相互之间没有影响，求：\r\n\r\n\n(1) 甲试跳三次，第三次才成功的概率.\n\n(2) 甲，乙两人在第一次试跳中至少有一人成功的概率.\n\n(3) 甲，乙各试跳两次，甲比乙的成功次数恰好多一次的概率.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 甲前两次试跳失败、第三次试跳成功，且各次试跳相互独立，所以所求概率为\r\n\n$$\nP=(1-0.7)^2\\cdot0.7=0.063\n$$\n\n(2) 甲、乙两人在第一次试跳中至少有一人成功的对立事件是两人都失败，因此所求概率为\r\n\n$$\nP=1-(1-0.7)(1-0.6)=1-0.3\\cdot0.4=0.88\n$$\n\n(3) 设甲、乙各试跳两次的成功次数分别为 $X$，$Y$. 事件 $X=Y+1$ 分为互斥的两种情形：\r\n\n$$\n(X=1,Y=0) \\text{或} (X=2,Y=1)\n$$\n\r\n因此\r\n\n$$\nP(X=Y+1)=\\mathrm C_2^1(0.7)(0.3)\\cdot(0.4)^2\r\n +(0.7)^2\\cdot\\mathrm C_2^1(0.6)(0.4)\n$$\n\r\n\n$$\nP(X=Y+1)=0.42\\cdot0.16+0.49\\cdot0.48=0.3024\n$$\n\r\n故所求概率为 $0.3024$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，正三棱柱 $ABC - A_1B_1C_1$ 的所有棱长都为 $2$，$D$ 为 $CC_1$ 中点.\r\n\r\n\n(1) 求证：$AB_1 \\perp$ 平面 $A_1BD$.\n\n(2) 求二面角 $A-A_1D-B$ 的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/fujian_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 建立空间直角坐标系，取 $A=(0,0,0)$，$B=(2,0,0)$，$C=(1,\\sqrt{3},0)$. 另取 $A_1=(0,0,2)$，$B_1=(2,0,2)$，$C_1=(1,\\sqrt{3},2)$. 因为 $D$ 是 $CC_1$ 的中点，所以 $D=(1,\\sqrt{3},1)$. 从而\r\n$\\overrightarrow{AB_1}=(2,0,2)$，$\\overrightarrow{BA_1}=(-2,0,2)$，$\\overrightarrow{BD}=(-1,\\sqrt{3},1)$.\r\n有\r\n$\\overrightarrow{AB_1}\\cdot\\overrightarrow{BA_1}=-4+4=0$，$\\overrightarrow{AB_1}\\cdot\\overrightarrow{BD}=-2+2=0$.\r\n再由\r\n\n$$\n\\overrightarrow{BA_1}\\times\\overrightarrow{BD}=(-2\\sqrt{3},0,-2\\sqrt{3})\n$$\n\r\n知 $\\overrightarrow{AB_1}$ 平行于平面 $A_1BD$ 的法向量. 该平面过点 $B$，故方程为 $x+z=2$；直线 $AB_1$ 可表示为 $(x,y,z)=(2s,0,2s)$，在 $s=\\frac12$ 时经过点 $(1,0,1)$，且该点满足平面方程. 所以直线 $AB_1$ 与平面 $A_1BD$ 相交且方向垂直于该平面，即\r\n\n$$\nAB_1\\perp\\text{平面 }A_1BD\n$$\n\n(2) 设二面角 $A-A_1D-B$ 的大小为 $\\theta$. 其两个半平面所在的平面分别为 $AA_1D$ 和 $BA_1D$.\r\n\r\n平面 $AA_1D$ 的一个法向量和平面 $A_1BD$ 的一个法向量分别可取\r\n\n$$\nn_1=\\overrightarrow{AA_1}\\times\\overrightarrow{AD}\r\n =(-2\\sqrt{3},2,0)\n$$\n\r\n\n$$\nn_2=\\overrightarrow{A_1B}\\times\\overrightarrow{A_1D}\r\n =(2\\sqrt{3},0,2\\sqrt{3})\n$$\n\r\n因此 $\\lVert n_1\\rVert=4$，$\\lVert n_2\\rVert=2\\sqrt{6}$，$\\left|n_1\\cdot n_2\\right|=12$.\r\n由两平面所成角与其法向量所成锐角相等，得\r\n\n$$\n\\cos\\theta=\\frac{12}{4\\cdot2\\sqrt{6}}=\\frac{\\sqrt{6}}{4}\n$$\n\r\n所以\r\n\n$$\n\\theta=\\arccos\\frac{\\sqrt{6}}{4}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设函数 $f(x) = tx^2 + 2t^2x + t - 1$（$x \\in \\mathbb{R}$，$t > 0$）.\r\n\r\n\n(1) 求 $f(x)$ 的最小值 $h(t)$.\n\n(2) 若 $h(t) < -2t + m$ 对 $t \\in (0, 2)$ 恒成立，求实数 $m$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 配方得\r\n\n$$\nf(x)=t\\left(x+t\\right)^2-t^3+t-1\n$$\n\r\n因为 $t>0$，所以当 $x=-t$ 时，$f(x)$ 取得最小值，故\r\n\n$$\nh(t)=-t^3+t-1\n$$\n\n(2) 条件\r\n$h(t)<-2t+m$，（$t\\in(0,2)$）\r\n等价于\r\n$m>-t^3+3t-1$，（$t\\in(0,2)$）.\r\n令 $\\varphi(t)=-t^3+3t-1$，则\r\n\n$$\n\\varphi'(t)=3(1-t^2)\n$$\n\r\n所以 $\\varphi(t)$ 在 $(0,1)$ 上递增，在 $(1,2)$ 上递减，且\r\n\n$$\n\\max_{0<t<2}\\varphi(t)=\\varphi(1)=1\n$$\n\r\n由于 $t=1$ 属于给定区间且原不等式为严格不等式，必须有 $m>1$. 反之，当 $m>1$ 时，对任意 $t\\in(0,2)$ 都有 $m>\\varphi(t)$，条件成立.\r\n\r\n故 $m$ 的取值范围是 $(1,+\\infty)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，$a_1 = 1$，$a_{n+1} = 2S_n$（$n \\in \\mathbb{N}^*$）.\r\n\r\n\n(1) 求数列 $\\{a_n\\}$ 的通项 $a_n$.\n\n(2) 求数列 $\\{na_n\\}$ 的前 $n$ 项和 $T_n$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由递推关系得 $a_2=2S_1=2$. 对 $n\\geqslant2$，有\r\n\n$$\na_{n+1}-a_n=2S_n-2S_{n-1}=2a_n\n$$\n\r\n即 $a_{n+1}=3a_n$. 因此\r\n$a_n=2\\cdot3^{n-2}$，（$n\\geqslant2$）.\r\n再结合 $a_1=1$，得 $a_1=1$，且当 $n\\geqslant2$ 时 $a_n=2\\cdot3^{n-2}$.\n\n(2) 当 $n\\geqslant2$ 时，\r\n\n$$\nT_n=\\sum_{k=1}^{n}ka_k\r\n =1+2\\sum_{k=2}^{n}k3^{k-2}\n$$\n\r\n记\r\n\n$$\nU_n=\\sum_{k=2}^{n}k3^{k-2}\n$$\n\r\n将 $3U_n$ 的下标向后移一项后与 $U_n$ 相减，得\r\n\n$$\n2U_n=n3^{n-1}-2-\\sum_{j=3}^{n}3^{j-2}\r\n =n3^{n-1}-2-\\frac{3^{n-1}-3}{2}\n$$\n\r\n\n$$\n2U_n=\\frac{(2n-1)3^{n-1}-1}{2}\n$$\n\r\n所以\r\n\n$$\nU_n=\\sum_{k=2}^{n}k3^{k-2}\r\n =\\frac{(2n-1)3^{n-1}-1}{4}\n$$\n\r\n所以\r\n\n$$\nT_n=\\frac{(2n-1)3^{n-1}+1}{2}\n$$\n\r\n当 $n=1$ 时，上式也给出 $T_1=1$，故\r\n$T_n=\\frac{(2n-1)3^{n-1}+1}{2}$，（$n\\in\\mathbb{N}^*$）.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "如图，已知点 $F(1, 0)$，直线 $l: x = -1$，$P$ 为平面上的动点，过 $P$ 作直线 $l$ 的垂线，垂足为点 $Q$，且 $\\overrightarrow{QP} \\cdot \\overrightarrow{QF} = \\overrightarrow{FP} \\cdot \\overrightarrow{FQ}$.\r\n\r\n\n(1) 求动点 $P$ 的轨迹 $C$ 的方程.\n\n(2) 过点 $F$ 的直线交轨迹 $C$ 于 $A$，$B$ 两点，交直线 $l$ 于点 $M$.\r\n\r\n\\begin{enumerate}\n\n(3) 已知 $\\overrightarrow{MA} = \\lambda_1 \\overrightarrow{AF}$，$\\overrightarrow{MB} = \\lambda_2 \\overrightarrow{BF}$，求 $\\lambda_1 + \\lambda_2$ 的值；\n\n(4) 求 $\\left| \\overrightarrow{MA} \\right| \\cdot \\left| \\overrightarrow{MB} \\right|$ 的最小值.\n\r\n\\end{enumerate}\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/fujian_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $P=(x,y)$. 因为 $PQ\\perp l$，而 $l:x=-1$，所以 $Q=(-1,y)$. 于是\r\n$\\overrightarrow{QP}=(x+1,0)$，$\\overrightarrow{QF}=(2,-y)$\r\n$\\overrightarrow{FP}=(x-1,y)$，$\\overrightarrow{FQ}=(-2,y)$.\r\n代入已知数量积关系，得\r\n\n$$\n2(x+1)=-2(x-1)+y^2\n$$\n\r\n即\r\n\n$$\ny^2=4x\n$$\n\r\n故动点 $P$ 的轨迹 $C$ 的方程为 $y^2=4x$.\n\n(2) 设过 $F$ 的直线斜率为 $k$. 因为该直线与 $l$ 相交且与轨迹交于两个不同的点，所以 $k\\neq0$，其方程可写为\r\n\n$$\ny=k(x-1)\n$$\n\r\n设它与抛物线的交点横坐标为 $x_1$，$x_2$，则\r\n\n$$\nk^2(x-1)^2=4x\n$$\n\r\n即\r\n\n$$\nk^2x^2-(2k^2+4)x+k^2=0\n$$\n\r\n由韦达定理，$x_1+x_2=2+\\frac{4}{k^2}$，$x_1x_2=1$.\r\n因为两交点不同，$x_1$，$x_2$ 是上述方程的两个实根；又 $x_1x_2>0$ 且 $x_1+x_2>0$，所以 $x_1$，$x_2>0$.\r\n\\begin{enumerate}\n\n(3) 直线与 $l$ 的交点为 $M=(-1,-2k)$. 设这两个交点为 $X_i=(x_i,k(x_i-1))$（$i=1$，$2$），并令 $X_1=A$，$X_2=B$. 对于横坐标为 $x_i$ 的交点，有\r\n\n$$\n\\overrightarrow{MX_i}=(x_i+1)(1,k)\n$$\n\r\n\n$$\n\\overrightarrow{X_iF}=(1-x_i)(1,k)\n$$\n\r\n由 $\\overrightarrow{MX_i}=\\lambda_i\\overrightarrow{X_iF}$，得\r\n\n$$\n\\lambda_i=\\frac{x_i+1}{1-x_i}=-1+\\frac{2}{1-x_i}\n$$\n\r\n因此\r\n\n$$\n\\lambda_1+\\lambda_2=-2+2\\left(\\frac{1}{1-x_1}+\\frac{1}{1-x_2}\\right)\r\n =-2+2\\cdot\\frac{2-(x_1+x_2)}{1-(x_1+x_2)+x_1x_2}=0\n$$\n\r\n故 $\\lambda_1+\\lambda_2=0$.\n\n(4) 因为\r\n\n$$\n|MX_i|=|x_i+1|\\sqrt{1+k^2}\n$$\n\r\n所以\r\n\n$$\n|\\overrightarrow{MA}|\\cdot|\\overrightarrow{MB}|\r\n =(1+k^2)(x_1+1)(x_2+1)\r\n =4(1+k^2)\\left(1+\\frac{1}{k^2}\\right)\n$$\n\r\n\n$$\n|\\overrightarrow{MA}|\\cdot|\\overrightarrow{MB}|\r\n =4\\left(k^2+2+\\frac{1}{k^2}\\right)\\geqslant16\n$$\n\r\n由基本不等式 $k^2+\\dfrac{1}{k^2}\\geqslant2$，当且仅当 $k^2=1$ 时取等号，因此 $\\left|\\overrightarrow{MA}\\right|\\cdot\\left|\\overrightarrow{MB}\\right|$ 的最小值为 $16$.\n\r\n\\end{enumerate}",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

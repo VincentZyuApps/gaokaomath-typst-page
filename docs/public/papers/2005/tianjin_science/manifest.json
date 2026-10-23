@@ -1,0 +1,406 @@
+{
+  "year": "2005",
+  "slug": "tianjin_science",
+  "title": "2005年天津卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设集合 $A=\\{x\\mid |4x-1|\\geqslant9,\\ x\\in\\mathbb{R}\\}$，\r\n$B=\\left\\{x\\mid \\dfrac{x}{x+3}\\geqslant0,\\ x\\in\\mathbb{R}\\right\\}$，则\r\n$A\\cap B=$（$ $）",
+          "choices": [
+            "$(-3,-2]$",
+            "$(-3,-2]\\cup\\left[0,\\dfrac52\\right]$",
+            "$(-\\infty,-3]\\cup\\left[\\dfrac52,+\\infty\\right)$",
+            "$(-\\infty,-3)\\cup\\left[\\dfrac52,+\\infty\\right)$"
+          ],
+          "answer": "D",
+          "solution": "由 $|4x-1|\\geqslant9$，得 $4x-1\\geqslant9$ 或 $4x-1\\le-9$，所以\r\n$A=(-\\infty,-2]\\cup[\\frac52,+\\infty)$. 对于分式不等式，定义域要求 $x\\ne-3$；在\r\n$(-\\infty,-3)$、$(-3,0)$ 和 $[0,+\\infty)$ 上分别判断分子、分母的符号，得到\r\n$B=(-\\infty,-3)\\cup[0,+\\infty)$. 因而\r\n$A\\cap B=(-\\infty,-3)\\cup[\\frac52,+\\infty)$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "若复数 $\\dfrac{a+3\\mathrm{i}}{1+2\\mathrm{i}}$（$a\\in\\mathbb{R}$，$\\mathrm{i}$ 为虚数单位）是纯虚数，则实数 $a$ 的值为（$ $）",
+          "choices": [
+            "$-2$",
+            "$4$",
+            "$-6$",
+            "$6$"
+          ],
+          "answer": "C",
+          "solution": "分母有理化得\r\n\n$$\n\\frac{a+3\\mathrm{i}}{1+2\\mathrm{i}}\r\n=\\frac{(a+3\\mathrm{i})(1-2\\mathrm{i})}5\r\n=\\frac{a+6}{5}+\\frac{3-2a}{5}\\mathrm{i}\n$$\n\r\n纯虚数的实部为零，所以 $\\dfrac{a+6}{5}=0$，即 $a=-6$；此时虚部为\r\n$\\dfrac{3-2a}{5}=3\\ne0$，确为纯虚数，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "给出下列三个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 若 $a\\ge b>-1$，则 $\\dfrac{a}{1+a}\\ge\\dfrac{b}{1+b}$；\r\n\\item 若正整数 $m$ 和 $n$ 满足 $m\\le n$，则 $\\sqrt{m(n-m)}\\le\\dfrac n2$；\r\n\\item 设 $P(x_1,y_1)$ 为圆 $O_1:x^2+y^2=9$ 上任一点，圆 $O_2$ 以 $Q(a,b)$ 为圆心且半径为 $1$. 当 $(a-x_1)^2+(b-y_1)^2=1$ 时，圆 $O_1$ 与圆 $O_2$ 相切.\r\n\\end{circlelist}\r\n\r\n其中假命题的个数为（$ $）",
+          "choices": [
+            "$0$",
+            "$1$",
+            "$2$",
+            "$3$"
+          ],
+          "answer": "B",
+          "solution": "对命题（1），函数 $g(x)=\\dfrac{x}{1+x}$ 在 $x>-1$ 上满足\r\n$g'(x)=\\dfrac{1}{(1+x)^2}>0$，所以 $a\\ge b$ 时\r\n$g(a)\\ge g(b)$，命题（1）正确.\r\n\r\n对命题（2），两边非负，平方后只需证 $4m(n-m)\\le n^2$. 而\r\n\n$$\nn^2-4m(n-m)=(n-2m)^2\\geqslant0\n$$\n\r\n所以命题（2）正确. 命题（3）的条件只说明 $P$ 同时在两圆上，不能推出两圆相切.\r\n例如取 $P=(3,0)$，$Q=(3,1)$，则 $P$ 在 $O_1$ 上且\r\n$PQ=1$，但两圆圆心距为 $\\sqrt{10}$，满足\r\n$|3-1|<\\sqrt{10}<3+1$，两圆相交于两个点而不相切，所以命题（3）错误.\r\n假命题有 $1$ 个，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "设 $\\alpha$，$\\beta$，$\\gamma$ 为平面，$m$，$n$，$l$ 为直线，则\r\n$m\\perp\\beta$ 的一个充分条件是（$ $）",
+          "choices": [
+            "$\\alpha\\perp\\beta,\\ \\alpha\\cap\\beta=l,\\ m\\perp l$",
+            "$\\alpha\\cap\\gamma=m$，$\\ \\alpha\\perp\\gamma$，$\\ \\beta\\perp\\gamma$",
+            "$\\alpha\\perp\\gamma$，$\\ \\beta\\perp\\gamma$，$\\ m\\perp\\alpha$",
+            "$n\\perp\\alpha$，$\\ n\\perp\\beta$，$\\ m\\perp\\alpha$"
+          ],
+          "answer": "D",
+          "solution": "选项 D 中，直线 $n$ 同时垂直平面 $\\alpha$、$\\beta$，两平面的法向量都与\r\n$n$ 平行，因此 $\\alpha\\parallel\\beta$（也允许两平面重合）. 又 $m\\perp\\alpha$，\r\n所以 $m$ 也垂直于与 $\\alpha$ 平行的平面 $\\beta$，故 D 是充分条件. 选项 A\r\n只给出 $m\\perp l$，没有说明 $m$ 在 $\\alpha$ 内. 例如取\r\n$\\alpha:z=0$、$\\beta:y=0$、$l$ 为 $x$ 轴、$m$ 为 $z$ 轴，则 A 的条件成立，\r\n但 $m\\subset\\beta$，所以 $m\\not\\perp\\beta$. 对于 B，取\r\n$\\alpha=\\beta:y=0$、$\\gamma:z=0$、$m$ 为 $x$ 轴，则 B 的条件成立，\r\n但 $m\\subset\\beta$. 对于 C，取 $\\alpha:y=0$、$\\beta:x=0$、$\\gamma:z=0$、$m$ 为 $y$ 轴，\r\n则 C 的条件成立，但 $m\\subset\\beta$. 因此 A、B、C 均不能保证 $m\\perp\\beta$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "设双曲线以椭圆 $\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$ 长轴的两个端点为焦点，其准线过椭圆的焦点，则双曲线的渐近线的斜率为（$ $）",
+          "choices": [
+            "$\\pm2$",
+            "$\\pm\\dfrac43$",
+            "$\\pm\\dfrac12$",
+            "$\\pm\\dfrac34$"
+          ],
+          "answer": "C",
+          "solution": "椭圆长轴端点为 $(\\pm5,0)$，椭圆焦点为 $(\\pm4,0)$. 设双曲线为\r\n$\\dfrac{x^2}{p^2}-\\dfrac{y^2}{q^2}=1$，则焦半距 $c=5$，且准线\r\n$x=\\pm\\dfrac{p^2}{c}$ 经过 $(\\pm4,0)$，故 $\\dfrac{p^2}{5}=4$，即\r\n$p^2=20$. 由 $c^2=p^2+q^2$ 得 $q^2=5$，所以渐近线斜率为\r\n$\\pm\\dfrac qp=\\pm\\dfrac12$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "从集合 $\\{1,2,3,\\cdots,11\\}$ 中任选两个元素作为椭圆方程\r\n$\\dfrac{x^2}{m^2}+\\dfrac{y^2}{n^2}=1$ 中的 $m$ 和 $n$，则能组成落在矩形区域\r\n$B=\\{(x,y)\\mid |x|<11\\text{ 且 }|y|<9\\}$ 内的椭圆个数为（$ $）",
+          "choices": [
+            "$43$",
+            "$72$",
+            "$86$",
+            "$90$"
+          ],
+          "answer": "B",
+          "solution": "椭圆上点的横坐标绝对值不超过 $m$，要使整个椭圆落在 $|x|<11$ 内，必须且只需\r\n$m\\leqslant10$；同理，必须且只需 $n\\leqslant8$. 先把 $m$ 和 $n$ 看作有序取值，\r\n共有 $10\\times8$ 种. 题目要求选取两个不同元素，因此要删去 $m=n$ 且\r\n$m=n\\in\\{1,2,\\ldots,8\\}$ 的 $8$ 种，故个数为\r\n$10\\times8-8=72$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "某人射击一次击中的概率为 $0.6$，经过 $3$ 次射击，此人至少有两次击中目标的概率为（$ $）",
+          "choices": [
+            "$\\dfrac{81}{125}$",
+            "$\\dfrac{54}{125}$",
+            "$\\dfrac{36}{125}$",
+            "$\\dfrac{27}{125}$"
+          ],
+          "answer": "A",
+          "solution": "按独立重复射击计算，设 $p=0.6=\\dfrac35$，则至少击中两次包括恰好两次和三次. 因此所求概率为\r\n\n$$\n\\mathrm C_3^2p^2(1-p)+p^3\r\n=3\\left(\\frac35\\right)^2\\frac25+\\left(\\frac35\\right)^3\r\n=\\frac{54}{125}+\\frac{27}{125}\r\n=\\frac{81}{125}\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "要得到函数 $y=\\sqrt2\\cos x$ 的图象，只需将函数\r\n$y=\\sqrt2\\sin\\left(2x+\\dfrac\\pi4\\right)$ 的图象上所有的点的（$ $）",
+          "choices": [
+            "横坐标缩短到原来的 $\\dfrac12$ 倍（纵坐标不变），再向左平行移动 $\\dfrac\\pi8$ 个单位长度",
+            "横坐标缩短到原来的 $\\dfrac12$ 倍（纵坐标不变），再向右平行移动 $\\dfrac\\pi4$ 个单位长度",
+            "横坐标伸长到原来的 $2$ 倍（纵坐标不变），再向左平行移动 $\\dfrac\\pi4$ 个单位长度",
+            "横坐标伸长到原来的 $2$ 倍（纵坐标不变），再向右平行移动 $\\dfrac\\pi8$ 个单位长度"
+          ],
+          "answer": "C",
+          "solution": "横坐标伸长为原来的 $2$ 倍后，函数变为\r\n$y=\\sqrt2\\sin\\left(x+\\dfrac\\pi4\\right)$. 再向左平移 $\\dfrac\\pi4$ 个单位，\r\n函数变为 $y=\\sqrt2\\sin\\left(x+\\dfrac\\pi2\\right)=\\sqrt2\\cos x$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "设 $f^{-1}(x)$ 是函数 $f(x)=\\dfrac12(a^x-a^{-x})$（$a>1$）的反函数，\r\n则使 $f^{-1}(x)>1$ 成立的 $x$ 的取值范围为（$ $）",
+          "choices": [
+            "$\\left(\\dfrac{a^2-1}{2a},+\\infty\\right)$",
+            "$\\left(-\\infty,\\dfrac{a^2-1}{2a}\\right)$",
+            "$\\left(\\dfrac{a^2-1}{2a},a\\right)$",
+            "$[a,+\\infty)$"
+          ],
+          "answer": "A",
+          "solution": "因为 $a>1$，有 $f'(x)=\\dfrac{\\ln a}{2}(a^x+a^{-x})>0$，\r\n所以 $f$ 严格递增，且其值域为 $\\mathbb{R}$. 因而\r\n$f^{-1}(x)>1$ 等价于 $x>f(1)$，而\r\n\n$$\nf(1)=\\frac12(a-a^{-1})=\\frac{a^2-1}{2a}\n$$\n\r\n所求范围为 $\\left(\\dfrac{a^2-1}{2a},+\\infty\\right)$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "若函数 $f(x)=\\log_a(x^3-ax)$（$a>0$，$a\\ne1$）在区间\r\n$\\left(-\\dfrac12,0\\right)$ 内单调递增，则 $a$ 的取值范围是（$ $）",
+          "choices": [
+            "$\\left[\\dfrac14,1\\right)$",
+            "$\\left[\\dfrac34,1\\right)$",
+            "$\\left(\\dfrac94,+\\infty\\right)$",
+            "$\\left(1,\\dfrac94\\right)$"
+          ],
+          "answer": "B",
+          "solution": "在 $x\\in\\left(-\\dfrac12,0\\right)$ 时 $x<0$，所以真数\r\n$x^3-ax=x(x^2-a)>0$ 等价于 $a>x^2$. 要使真数在整个开区间内有定义，\r\n必要充分条件为 $a\\ge\\dfrac14$.\r\n\r\n令 $g(x)=x^3-ax$，则 $g'(x)=3x^2-a$. 若 $0<a<1$，对数函数递减，\r\n要使 $\\log_a g(x)$ 递增，需在整个区间内有 $g'(x)<0$. 当\r\n$a\\ge\\dfrac34$ 时，由 $x^2<\\dfrac14$ 得\r\n$g'(x)<\\dfrac34-a\\leqslant0$，且不等号实际为严格不等号；当\r\n$\\dfrac14\\le a<\\dfrac34$ 时，可取充分接近 $-\\dfrac12$ 的 $x$，使\r\n$3x^2-a>0$，此时复合函数的导数为负，不能在整个区间内递增. 若 $a>1$，\r\n则需 $g'(x)>0$，但 $g'(x)<\\dfrac34-a<0$，不可能. 结合 $a\\ne1$，得\r\n$a\\in\\left[\\dfrac34,1\\right)$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "设 $n\\in\\mathbb N^*$，则\r\n$\\mathrm C_n^1+\\mathrm C_n^2 6+\\mathrm C_n^3 6^2+\\cdots+\\mathrm C_n^n6^{n-1}=$ _______ {}.",
+          "choices": [],
+          "answer": "\\(\\dfrac{7^n-1}{6}\\)",
+          "solution": "由二项式定理，\r\n\n$$\n7^n=(1+6)^n=1+\\mathrm C_n^1 6+\\mathrm C_n^2 6^2+\\cdots+\\mathrm C_n^n6^n\n$$\n\r\n两边减去 $1$ 后除以 $6$，得到原式为 $\\dfrac{7^n-1}{6}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "如图，$PA\\perp$ 平面 $ABC$，$\\angle ACB=90^\\circ$ 且\r\n$PA=AC=BC=a$，则异面直线 $PB$ 与 $AC$ 所成角的正切值等于 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/tianjin_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(\\sqrt2\\)",
+          "solution": "建立直角坐标系，取 $A=(0,0,0)$，$C=(a,0,0)$，$B=(a,a,0)$，$P=(0,0,a)$.\r\n则 $\\overrightarrow{AC}=(a,0,0)$，$\\overrightarrow{PB}=(a,a,-a)$. 设两直线所成的锐角为\r\n$\\theta$，则\r\n\n$$\n\\cos\\theta\r\n=\\frac{|\\overrightarrow{AC}\\cdot\\overrightarrow{PB}|}{|AC|\\,|PB|}\r\n=\\frac{a^2}{a\\cdot\\sqrt3a}\r\n=\\frac1{\\sqrt3}\n$$\n\r\n因而 $\\tan\\theta=\\sqrt{\\dfrac1{\\cos^2\\theta}-1}=\\sqrt2$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "在数列 $\\{a_n\\}$ 中，$a_1=1$，$a_2=2$，且\r\n$a_{n+2}-a_n=1+(-1)^n$（$n\\in\\mathbb N^*$）. 则\r\n$S_{100}=$ _______ {}.",
+          "choices": [],
+          "answer": "\\(2600\\)",
+          "solution": "当 $n$ 为奇数时，$a_{n+2}=a_n$，所以所有奇数项均为 $1$. 当 $n=2k$ 为偶数时，\r\n$a_{2k+2}=a_{2k}+2$，结合 $a_2=2$ 得 $a_{2k}=2k$. 因而\r\n\n$$\nS_{100}\r\n=\\sum_{k=1}^{50}a_{2k-1}+\\sum_{k=1}^{50}a_{2k}\r\n=50+2\\sum_{k=1}^{50}k\r\n=50+2550\r\n=2600\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "在直角坐标系 $xOy$ 中，已知点 $A(0,1)$ 和点 $B(-3,4)$，若点 $C$ 在\r\n$\\angle AOB$ 的平分线上且 $\\left|\\overrightarrow{OC}\\right|=2$，则\r\n$\\overrightarrow{OC}=$ _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left(-\\dfrac{\\sqrt{10}}5,\\dfrac{3\\sqrt{10}}5\\right)\\)",
+          "solution": "$\\overrightarrow{OA}=(0,1)$，$\\overrightarrow{OB}=(-3,4)$，且 $|OA|=1$，$|OB|=5$.\r\n内角平分线方向可取单位向量之和\r\n\n$$\n\\frac{\\overrightarrow{OA}}{|OA|}+\\frac{\\overrightarrow{OB}}{|OB|}\r\n=\\left(-\\frac35,\\frac95\\right)\n$$\n\r\n其方向为 $(-1,3)$. 该方向的单位向量为\r\n$\\dfrac1{\\sqrt{10}}(-1,3)$，再乘以 $|OC|=2$，得\r\n\n$$\n\\overrightarrow{OC}\r\n=\\left(-\\frac2{\\sqrt{10}},\\frac6{\\sqrt{10}}\\right)\r\n=\\left(-\\frac{\\sqrt{10}}5,\\frac{3\\sqrt{10}}5\\right)\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "某公司有 $5\\text{ 万元}$ 资金用于投资开发项目，如果成功，一年后可获利 $12\\%$，\r\n一旦失败，一年后将丧失全部资金的 $50\\%$. 下表是过去 $200$ 例类似项目开发的实施结果：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|}\r\n\\hline\r\n投资成功 & 投资失败 \\\\\r\n\\hline\r\n$192$ 次 & $8$ 次 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n则该公司一年后估计可获收益的期望是 _______ {}$\\text{元}$.",
+          "choices": [],
+          "answer": "\\(4760\\)",
+          "solution": "由历史数据估计成功、失败的概率分别为\r\n$\\dfrac{192}{200}=0.96$ 和 $\\dfrac8{200}=0.04$. 成功时收益为\r\n$50000\\times12\\%=6000$ 元，失败时收益为\r\n$-50000\\times50\\%=-25000$ 元. 所以收益的期望为\r\n\n$$\n0.96\\times6000+0.04\\times(-25000)=5760-1000=4760\\text{ 元}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "设 $f(x)$ 是定义在 $\\mathbb{R}$ 上的奇函数，且 $y=f(x)$ 的图象关于直线\r\n$x=\\dfrac12$ 对称，则\r\n$f(1)+f(2)+f(3)+f(4)+f(5)=$ _______ {}.",
+          "choices": [],
+          "answer": "\\(0\\)",
+          "solution": "关于直线 $x=\\dfrac12$ 对称意味着 $f(x)=f(1-x)$. 取 $x=1$，得\r\n$f(1)=f(0)=0$. 再由\r\n\n$$\nf(n)=f(1-n)=-f(n-1)\n$$\n\r\n并结合 $f(1)=0$ 归纳得 $f(2)=f(3)=f(4)=f(5)=0$，故所求和为 $0$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "在 $\\triangle ABC$ 中，$\\angle A$，$\\angle B$，$\\angle C$ 所对的边长分别为\r\n$a$，$b$，$c$. 设 $a$，$b$，$c$ 满足条件\r\n$b^2+c^2-bc=a^2$ 和 $\\dfrac cb=\\dfrac12+\\sqrt3$，求\r\n$\\angle A$ 和 $\\tan B$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "由余弦定理，$a^2=b^2+c^2-2bc\\cos A$. 与已知等式比较得\r\n$2bc\\cos A=bc$，所以 $\\cos A=\\dfrac12$，从而 $A=60^\\circ$.\r\n又 $C=120^\\circ-B$，由正弦定理\r\n\n$$\n\\frac cb\r\n=\\frac{\\sin C}{\\sin B}\r\n=\\frac{\\sin(120^\\circ-B)}{\\sin B}\r\n=\\frac{\\sqrt3}{2}\\cot B+\\frac12\n$$\n\r\n代入 $\\dfrac cb=\\dfrac12+\\sqrt3$，得 $\\dfrac{\\sqrt3}{2}\\cot B=\\sqrt3$，即\r\n$\\cot B=2$，所以 $\\tan B=\\dfrac12$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "已知 $u_n=a^n+a^{n-1}b+a^{n-2}b^2+\\cdots+ab^{n-1}+b^n$\r\n（$n\\in\\mathbb N^*$，$\\ a>0$，$\\ b>0$）.\r\n\r\n\n(1) 当 $a=b$ 时，求数列 $\\{u_n\\}$ 的前 $n$ 项和 $S_n$；\n\n(2) 求 $\\displaystyle\\lim_{n\\to\\infty}\\frac{u_n}{u_{n-1}}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 当 $a=b$ 时，原式的 $k+1$ 项均为 $a^k$，所以 $u_k=(k+1)a^k$. 当\r\n$a\\ne1$ 时，分别使用加权等比数列求和公式和等比数列求和公式，得\r\n\n$$\n\\begin{gathered}\r\nS_n=\\sum_{k=1}^n(k+1)a^k=\\sum_{k=1}^nka^k+\\sum_{k=1}^na^k,\\\\\r\nS_n=\\frac{a-(n+1)a^{n+1}+na^{n+2}}{(1-a)^2}\r\n  +\\frac{a(1-a^n)}{1-a},\\qquad a\\ne1.\r\n\\end{gathered}\n$$\n\r\n当 $a=1$ 时，$u_k=k+1$，所以\r\n\n$$\nS_n=\\sum_{k=1}^n(k+1)=\\frac{n(n+3)}2\n$$\n\n(2) 当 $a\\ne b$ 时，等比数列求和得\r\n\n$$\nu_n=\\frac{a^{n+1}-b^{n+1}}{a-b}\n$$\n\r\n若 $a>b$，则\r\n\n$$\n\\frac{u_n}{u_{n-1}}\r\n=a\\frac{1-(\\frac{b}{a})^{n+1}}{1-(\\frac{b}{a})^n}\\longrightarrow a\n$$\n\r\n所以此时极限为 $a$.\r\n若 $b>a$，令 $s=\\dfrac ab\\in(0,1)$，则\r\n\n$$\n\\frac{u_n}{u_{n-1}}\r\n=b\\frac{1-s^{n+1}}{1-s^n}\\longrightarrow b\n$$\n\r\n当 $a=b$ 时，\r\n\n$$\n\\frac{u_n}{u_{n-1}}=a\\frac{n+1}{n}\\longrightarrow a\n$$\n\r\n综合三种情形，极限为 $\\max\\{a,b\\}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，在斜三棱柱 $ABC-A_1B_1C_1$ 中，\r\n$\\angle A_1AB=\\angle A_1AC$，$AB=AC$，$A_1A=A_1B=a$，侧面\r\n$B_1BCC_1$ 与底面 $ABC$ 所成的二面角为 $120^\\circ$，$E$，$F$ 分别是棱\r\n$B_1C_1$，$A_1A$ 的中点.\r\n\r\n\n(1) 求 $A_1A$ 与底面 $ABC$ 所成的角；\n\n(2) 证明 $A_1E\\parallel\\text{平面 }B_1FC$；\n\n(3) 求经过 $A_1$，$A$，$B$，$C$ 四点的球的体积.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/tianjin_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $D$ 为棱 $BC$ 的中点，$H$ 为点 $A_1$ 在底面 $ABC$ 内的射影. 因\r\n$A_1H\\perp$ 底面，且 $AB=AC$，由\r\n$\\angle A_1AB=\\angle A_1AC$ 得\r\n$\\overrightarrow{AH}\\cdot\\overrightarrow{AB}=\r\n\\overrightarrow{AH}\\cdot\\overrightarrow{AC}$，所以\r\n$AH\\perp BC$. 又 $AD\\perp BC$，故 $A$，$H$，$D$ 共线. 取底面为\r\n$z=0$，以 $AD$ 为 $x$ 轴并令 $D$ 的横坐标为正，可取\r\n$A=(0,0,0)$，$A_1=(p,0,h)$，$B=(q,t,0)$，$C=(q,-t,0)$\r\n其中 $q>0$，$t>0$，且 $h>0$. 过 $D$ 作垂直于 $BC$ 的截面，底面内的\r\n截线方向为 $(-1,0,0)$，侧面内的截线方向为 $(p,0,h)$. 因二面角为\r\n$120^\\circ$，有\r\n\n$$\n\\cos120^\\circ=\\frac{(-1,0,0)\\cdot(p,0,h)}{\\sqrt{p^2+h^2}}=-\\frac p{AA_1}\n$$\n\r\n又 $AA_1=a$，所以 $p=\\dfrac a2$，再由\r\n\n$$\nh=\\sqrt{a^2-p^2}=\\frac{\\sqrt3}{2}a\n$$\n\r\n因而 $A_1A$ 与底面所成的角 $\\theta$ 满足\r\n$\\sin\\theta=\\dfrac ha=\\dfrac{\\sqrt3}{2}$，故 $\\theta=60^\\circ$.\n\n(2) 由平移关系，\r\n$B_1=(q+p,t,h)$，$C_1=(q+p,-t,h)$，\r\n所以\r\n$E=(q+p,0,h)$，$F=\\left(\\frac p2,0,\\frac h2\\right)$.\r\n因此 $\\overrightarrow{A_1E}=(q,0,0)$. 另一方面，\r\n$\\overrightarrow{FB_1}=\\left(q+\\frac p2,t,\\frac h2\\right)$，$\\overrightarrow{FC}=\\left(q-\\frac p2,-t,-\\frac h2\\right)$，\r\n从而 $\\overrightarrow{FB_1}+\\overrightarrow{FC}=(2q,0,0)$. 这两个向量都在\r\n平面 $B_1FC$ 内，且 $q>0$，故该平面内存在一条与 $x$ 轴平行的直线.\r\n又由 $A_1B=a$ 及 $p^2+h^2=a^2$ 得\r\n$q^2+t^2=2pq=aq$. 而 $\\overrightarrow{A_1E}=(q,0,0)$ 也与 $x$ 轴平行.\r\n$\\overrightarrow{FB_1}-\\overrightarrow{FC}=(p,2t,h)$，故平面 $B_1FC$ 内过 $F$ 的任一向量可写成\r\n$r(1,0,0)+s(p,2t,h)$；若它等于\r\n$\\overrightarrow{FA_1}=(\\frac{p}{2},0,\\frac{h}{2})$，由第二坐标得 $s=0$，但第三坐标随即不可能相等.\r\n所以 $A_1\\notin\\text{平面 }B_1FC$，故 $A_1E\\parallel\\text{平面 }B_1FC$.\n\n(3) 由 $A_1B=a$ 以及 $p=\\dfrac a2$，$h=\\dfrac{\\sqrt3}2a$，得\r\n$(q-p)^2+t^2+h^2=a^2$，$\\Longrightarrow$，$q^2+t^2=aq$.\r\n所以 $\\triangle ABC$ 的外接圆圆心为 $O=(\\frac a2,0,0)$. 设球心为\r\n$S=(\\frac a2,0,z)$，由 $SA=SA_1$ 得\r\n\n$$\n\\frac{a^2}{4}+z^2=(z-h)^2\n$$\n\r\n故 $z=\\dfrac a{2\\sqrt3}$. 于是球半径满足\r\n\n$$\nR^2=SA^2=\\frac{a^2}{4}+\\frac{a^2}{12}=\\frac{a^2}{3}\n$$\n\r\n所以\r\n\n$$\nV=\\frac43\\pi R^3=\\frac{4\\sqrt3}{27}\\pi a^3\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "某人在一山坡 $P$ 处观看对面山顶上的一座铁塔，如图所示，塔高\r\n$BC=80\\text{ 米}$，塔所在的山高 $OB=220\\text{ 米}$，$OA=200\\text{ 米}$.\r\n图中所示的山坡可视为直线 $l$ 且点 $P$ 在直线 $l$ 上，$l$ 与水平地面的夹角为\r\n$\\alpha$，$\\tan\\alpha=\\dfrac12$. 试问此人距水平地面多高时，观看塔的视角\r\n$\\angle BPC$ 最大？（不计此人的身高）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/tianjin_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "设 $P$ 距水平地面的高度为 $h\\geqslant0$. 取 $O$ 为原点、水平向右为 $x$ 轴，\r\n则 $A=(200,0)$，$B=(0,220)$，$C=(0,300)$. 由于山坡斜率为\r\n$\\dfrac12$，有 $P=(200+2h,h)$. 记 $x=200+2h$，则\r\n$\\overrightarrow{PB}=(-x,220-h)$，$\\overrightarrow{PC}=(-x,300-h)$.\r\n视角为锐角，且\r\n\n$$\n\\tan\\angle BPC\r\n=\\frac{|\\overrightarrow{PB}\\times\\overrightarrow{PC}|}\r\n{\\overrightarrow{PB}\\cdot\\overrightarrow{PC}}\r\n=\\frac{80x}{x^2+(220-h)(300-h)}\r\n=\\frac{160(h+100)}{5h^2+280h+106000}\n$$\n\r\n令右端为 $T(h)$，则 $T'(h)$ 的符号由\r\n\n$$\n5h^2+280h+106000-(h+100)(10h+280)\r\n=-5(h-60)(h+260)\n$$\n\r\n决定. 所以 $T(h)$ 在 $0\\le h<60$ 上递增，在 $h>60$ 上递减，\r\n最大值在 $h=60$ 时取得. 因而此人距水平地面 $60$ 米高时视角最大.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "抛物线 $C$ 的方程为 $y=ax^2$（$a<0$），过抛物线 $C$ 上一点\r\n$P(x_0,y_0)$（$x_0\\ne0$）作斜率为 $k_1$，$k_2$ 的两条直线分别交抛物线\r\n$C$ 于 $A(x_1,y_1)$，$B(x_2,y_2)$ 两点（$P$，$A$，$B$ 三点互不相同），\r\n且满足 $k_2+\\lambda k_1=0$（$\\lambda\\ne0$，$\\lambda\\ne-1$）.\r\n\r\n\n(1) 求抛物线 $C$ 的焦点坐标和准线方程；\n\n(2) 设直线 $AB$ 上一点 $M$，满足 $\\overrightarrow{BM}=\\lambda\\overrightarrow{MA}$，\r\n证明线段 $PM$ 的中点在 $y$ 轴上；\n\n(3) 当 $\\lambda=1$ 时，若点 $P$ 的坐标为 $(1,-1)$，求\r\n$\\angle PAB$ 为钝角时点 $A$ 的纵坐标 $y_1$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 将 $y=ax^2$ 写成 $x^2=\\dfrac1a y=4py$，得 $p=\\dfrac1{4a}$.\r\n所以焦点为 $\\left(0,\\dfrac1{4a}\\right)$，准线为 $y=-\\dfrac1{4a}$.\n\n(2) 抛物线上两点的弦斜率满足\r\n\n$$\n\\frac{y_1-y_0}{x_1-x_0}=a(x_1+x_0)\n$$\n\r\n故 $k_1=a(x_0+x_1)$，$k_2=a(x_0+x_2)$. 由条件得\r\n\n$$\nx_2+\\lambda x_1+(1+\\lambda)x_0=0\n$$\n\r\n又 $\\overrightarrow{BM}=\\lambda\\overrightarrow{MA}$ 给出\r\n$(1+\\lambda)M=B+\\lambda A$，所以\r\n\n$$\nx_M=\\frac{x_2+\\lambda x_1}{1+\\lambda}=-x_0\n$$\n\r\n因而 $PM$ 的中点横坐标为 $\\dfrac{x_0-x_0}{2}=0$，即线段 $PM$ 的中点在\r\n$y$ 轴上.\n\n(3) $P=(1,-1)$ 在抛物线上，故 $a=-1$，抛物线为 $y=-x^2$. 令 $x_1=t$，\r\n由 $k_1+k_2=0$ 得 $x_2=-2-t$. 于是\r\n$A=(t,-t^2)$，$B=(-2-t,-(t+2)^2)$.\r\n并且\r\n$\\overrightarrow{AP}=(1-t)(1,-t-1)$，$\\overrightarrow{AB}=-2(t+1)(1,2)$.\r\n因而\r\n\n$$\n\\overrightarrow{AP}\\cdot\\overrightarrow{AB}\r\n=2(1-t)(t+1)(2t+1)\n$$\n\r\n$\\angle PAB$ 为钝角等价于该内积小于零，即\r\n\n$$\nt\\in\\left(-1,-\\frac12\\right)\\cup(1,+\\infty)\n$$\n\r\n题设还排除 $t=-1$ 时 $A=B$、$t=1$ 时 $A=P$ 以及 $t=-3$ 时\r\n$B=P$ 的情形；其中 $t=-3$ 不在上面的钝角范围内. 因为 $y_1=-t^2$，故\r\n\n$$\ny_1\\in(-\\infty,-1)\\cup\\left(-1,-\\frac14\\right)\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "设函数 $f(x)=x\\sin x$（$x\\in\\mathbb{R}$）.\r\n\r\n\n(1) 证明 $f(x+2k\\pi)-f(x)=2k\\pi\\sin x$，其中 $k$ 为整数；\n\n(2) 设 $x_0$ 为 $f(x)$ 的一个极值点，证明\r\n$\\left[f(x_0)\\right]^2=\\dfrac{x_0^4}{1+x_0^2}$；\n\n(3) 设 $f(x)$ 在 $(0,+\\infty)$ 内的全部极值点按从小到大的顺序排列\r\n$a_1$，$a_2$，$\\ldots$，$a_n$，$\\ldots$，证明\r\n$\\dfrac\\pi2<a_{n+1}-a_n<\\pi$（$n=1$，$2$，$\\ldots$）.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $\\sin(x+2k\\pi)=\\sin x$，所以\r\n\n$$\nf(x+2k\\pi)-f(x)\r\n=(x+2k\\pi)\\sin x-x\\sin x\r\n=2k\\pi\\sin x\n$$\n\n(2) $f'(x)=\\sin x+x\\cos x$. 在极值点 $x_0$ 有\r\n$\\sin x_0+x_0\\cos x_0=0$，即 $\\sin x_0=-x_0\\cos x_0$. 与\r\n$\\sin^2x_0+\\cos^2x_0=1$ 联立，得\r\n\n$$\n(1+x_0^2)\\cos^2x_0=1\n$$\n\r\n所以 $\\sin^2x_0=\\dfrac{x_0^2}{1+x_0^2}$.\r\n因此\r\n\n$$\n\\left[f(x_0)\\right]^2=x_0^2\\sin^2x_0\r\n=\\frac{x_0^4}{1+x_0^2}\n$$\n\n(3) 极值点不能满足 $\\cos x=0$，因为此时\r\n$f'(x)=\\sin x\\ne0$. 因而正极值点必须满足 $\\tan x=-x$. 对 $x>0$，\r\n右端 $-x<0$，所以只需考察正切函数为负的区间\r\n$I_n=\\left(\\left(n-\\frac12\\right)\\pi,n\\pi\\right)$，$n=1$，$2$，$\\ldots$\r\n令 $g(x)=\\tan x+x$. 在每个 $I_n$ 上，\r\n$g'(x)=\\sec^2x+1>0$，且当 $x$ 从区间左端趋近时 $g(x)\\to-\\infty$，而\r\n$g(n\\pi)=n\\pi>0$，所以每个 $I_n$ 内恰有一个根，记为 $a_n$. 根的两侧\r\n$g$ 符号相反，而 $\\cos x$ 在 $I_n$ 内不变号，因此\r\n$f'(x)=\\cos x\\,g(x)$ 在 $a_n$ 两侧变号；这些根恰为全部正极值点. 由\r\n$a_n<n\\pi$ 及 $a_{n+1}>\\left(n+\\frac12\\right)\\pi$，得\r\n\n$$\na_n+\\frac\\pi2<\\left(n+\\frac12\\right)\\pi<a_{n+1}\n$$\n\r\n所以 $a_{n+1}-a_n>\\dfrac\\pi2$. 又因为\r\n$a_n>\\left(n-\\frac12\\right)\\pi$ 且 $a_n<n\\pi$，有 $a_n+\\pi\\in I_{n+1}$，且\r\n\n$$\ng(a_n+\\pi)=\\tan a_n+a_n+\\pi=\\pi>0\n$$\n\r\n由于 $g$ 在 $I_{n+1}$ 上递增且在根处为零，根 $a_{n+1}$ 位于 $a_n+\\pi$ 左侧，\r\n故 $a_{n+1}-a_n<\\pi$. 结论成立.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

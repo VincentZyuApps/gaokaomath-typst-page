@@ -1,0 +1,416 @@
+{
+  "year": "2012",
+  "slug": "jiangsu",
+  "title": "2012年江苏卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "附加题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "附加题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "附加题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 24,
+      "type": "附加题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 25,
+      "type": "附加题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 26,
+      "type": "附加题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "已知集合 $A = \\{1, 2, 4\\}$，$B = \\{2, 4, 6\\}$，则 $A \\cup B = _______ {}$.",
+          "choices": [],
+          "answer": "\\(\\{1,2,4,6\\}\\)",
+          "solution": "并集包含属于集合 $A$ 或集合 $B$ 的所有元素，因此把两个集合中的元素合并并去掉重复元素，得到\r\n\n$$\nA\\cup B=\\{1,2,4,6\\}\n$$\n\r\n所以填 $\\{1,2,4,6\\}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "某学校高一、高二、高三年级的学生人数之比是 $3:3:4$. 现用分层抽样的方法从该校高中三个年级的学生中抽取容量为 $50$ 的样本. 则应从高二年级抽取 _______ {} 名学生.",
+          "choices": [],
+          "answer": "15",
+          "solution": "三个年级的学生人数之比为 $3:3:4$，所以高二年级人数占三个年级总人数的\r\n\n$$\n\\frac{3}{3+3+4}=\\frac{3}{10}\n$$\n\r\n分层抽样保持各层的比例不变，故应抽取的高二年级学生数为\r\n\n$$\n50\\times\\frac{3}{10}=15\n$$\n\r\n所以填 $15$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "设 $a$，$b \\in \\mathbb{R}$，$a + b\\mathrm{i} = \\frac{11 - 7\\mathrm{i}}{1 - 2\\mathrm{i}}$（$\\mathrm{i}$ 为虚数单位），则 $a + b$ 的值为 _______ {}.",
+          "choices": [],
+          "answer": "8",
+          "solution": "将分式的分子、分母同乘以分母的共轭复数 $1+2\\mathrm{i}$，得\r\n\n$$\n\\frac{11-7\\mathrm{i}}{1-2\\mathrm{i}}=\\frac{(11-7\\mathrm{i})(1+2\\mathrm{i})}{(1-2\\mathrm{i})(1+2\\mathrm{i})}=\\frac{25+15\\mathrm{i}}{5}=5+3\\mathrm{i}\n$$\n\r\n比较实部和虚部，得到 $a=5$，$b=3$，所以\r\n\n$$\na+b=8\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "如图是一个算法流程图，则输出的 $k$ 的值是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangsu/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "5",
+          "solution": "流程开始时 $k=1$. 当 $k=1$ 时，$k^2-5k+4=0$，不满足大于 $0$，所以按流程令 $k=2$. 当 $k=2$ 时，$k^2-5k+4=-2$，仍令 $k=3$. 当 $k=3$ 时，该式为 $-2$，令 $k=4$. 当 $k=4$ 时，该式为 $0$，令 $k=5$. 当 $k=5$ 时，该式为 $4>0$，流程输出 $k$. 因此输出值为 $5$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "函数 $f(x)=\\sqrt{1-2\\log_{6}x}$ 的定义域为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left(0,\\sqrt{6}\\right]\\)",
+          "solution": "要使 $f(x)$ 有意义，首先必须有 $x>0$，并且根式内的数非负，即\r\n\n$$\n1-2\\log_{6}x\\geqslant0\n$$\n\r\n由于底数 $6>1$，上式等价于\r\n\n$$\n\\log_{6}x\\le\\frac{1}{2}\n$$\n\r\n从而 $x\\leqslant6^{\\frac{1}{2}}=\\sqrt{6}$. 合并两个条件，函数的定义域为\r\n\n$$\n\\left(0,\\sqrt{6}\\right]\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "现有 $10$ 个数，它们能构成一个以 $1$ 为首项，$-3$ 为公比的等比数列，若从这 $10$ 个数中随机抽取一个数，则它小于 $8$ 的概率是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{3}{5}\\)",
+          "solution": "这 $10$ 个数依次为\r\n$1$，$-3$，$9$，$-27$，$81$，$-243$，$729$，$-2187$，$6561$，$-19683$.\r\n其中第一个数 $1<8$，所有偶数项均为负数，也都小于 $8$，而从第三项开始的奇数项分别为 $9$，$81$，$729$，$6561$，均不小于 $8$. 因此小于 $8$ 的数共有 $1+5=6$ 个，所求概率为\r\n\n$$\n\\frac{6}{10}=\\frac{3}{5}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "如图，在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AB = AD = 3 \\mathrm{~cm}$，$AA_{1} = 2 \\mathrm{~cm}$，则四棱锥 $A-BB_{1}D_{1}D$ 的体积为 _______ {} $\\mathrm{cm}^{3}$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangsu/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "6",
+          "solution": "四棱锥 $A-BB_{1}D_{1}D$ 的底面 $BB_{1}D_{1}D$ 是矩形，且\r\n\n$$\nBD=\\sqrt{AB^{2}+AD^{2}}=3\\sqrt{2}\n$$\n\r\n且 $BB_{1}=AA_{1}=2$，\r\n所以底面积为\r\n\n$$\nS_{BB_{1}D_{1}D}=BD\\cdot BB_{1}=6\\sqrt{2}\n$$\n\r\n在正方形 $ABCD$ 中，三角形 $ABD$ 的面积为 $\\frac{9}{2}$，故点 $A$ 到直线 $BD$ 的距离为\r\n\n$$\n\\frac{2\\times(\\frac{9}{2})}{3\\sqrt{2}}=\\frac{3}{\\sqrt{2}}\n$$\n\r\n底面所在平面包含直线 $BD$ 并垂直于底面 $ABCD$，所以点 $A$ 到平面 $BB_{1}D_{1}D$ 的距离也是 $\\frac{3}{\\sqrt{2}}$. 因而四棱锥的体积为\r\n\n$$\nV=\\frac{1}{3}\\times6\\sqrt{2}\\times\\frac{3}{\\sqrt{2}}=6\n$$\n\r\n所以填 $6$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "在平面直角坐标系 $xOy$ 中，若双曲线 $\\frac{x^2}{m} - \\frac{y^2}{m^2 + 4} = 1$ 的离心率为 $\\sqrt{5}$，则 $m$ 的值为 _______ {}.",
+          "choices": [],
+          "answer": "2",
+          "solution": "双曲线的标准方程中 $a^{2}=m$，因此 $m>0$，且\r\n\n$$\nc^{2}=a^{2}+b^{2}=m+m^{2}+4\n$$\n\r\n由离心率 $e=\\sqrt{5}$，有\r\n\n$$\ne^{2}=\\frac{c^{2}}{a^{2}}=\\frac{m^{2}+m+4}{m}=5\n$$\n\r\n于是\r\n\n$$\nm+1+\\frac{4}{m}=5\n$$\n\r\n即\r\n\n$$\nm^{2}-4m+4=0\n$$\n\r\n所以 $(m-2)^{2}=0$，得到 $m=2$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "如图，在矩形 $ABCD$ 中，$AB = \\sqrt{2}$，$BC = 2$，点 $E$ 为 $BC$ 的中点，点 $F$ 在边 $CD$ 上，若 $\\overrightarrow{AB} \\cdot \\overrightarrow{AF} = \\sqrt{2}$，则 $\\overrightarrow{AE} \\cdot \\overrightarrow{BF}$ 的值是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangsu/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(\\sqrt{2}\\)",
+          "solution": "建立直角坐标系，取 $A=(0,0)$，$B=(\\sqrt{2},0)$，$C=(\\sqrt{2},2)$，$D=(0,2)$. 因为 $E$ 是 $BC$ 的中点，所以 $E=(\\sqrt{2},1)$. 设 $F=(t,2)$，其中 $0\\le t\\le\\sqrt{2}$. 则\r\n\n$$\n\\overrightarrow{AB}=(\\sqrt{2},0)\n$$\n\r\n且 $\\overrightarrow{AF}=(t,2)$，\r\n由题设\r\n\n$$\n\\overrightarrow{AB}\\cdot\\overrightarrow{AF}=\\sqrt{2}t=\\sqrt{2}\n$$\n\r\n得 $t=1$，所以 $F=(1,2)$. 此时\r\n\n$$\n\\overrightarrow{AE}=(\\sqrt{2},1)\n$$\n\r\n且 $\\overrightarrow{BF}=(1-\\sqrt{2},2)$，\r\n从而\r\n\n$$\n\\overrightarrow{AE}\\cdot\\overrightarrow{BF}=\\sqrt{2}(1-\\sqrt{2})+2=\\sqrt{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "设 $f(x)$ 是定义在 $\\mathbb{R}$ 上且周期为 $2$ 的函数，且在区间 $[-1,1]$ 上， $f(x)=\\begin{cases}\r\nax+1, & -1 \\le x < 0,\\\\\r\n\\frac{bx+2}{x+1}, & 0 \\le x \\le 1,\r\n\\end{cases}$\r\n其中 $a$，$b \\in \\mathbb{R}$. 若 $f\\left(\\frac{1}{2}\\right)=f\\left(\\frac{3}{2}\\right)$，则 $a + 3b$ 的值为 _______ {}.",
+          "choices": [],
+          "answer": "\\(-10\\)",
+          "solution": "由周期为 $2$，且 $\\frac{3}{2}-\\left(-\\frac{1}{2}\\right)=2$，有\r\n\n$$\nf\\left(\\frac{3}{2}\\right)=f\\left(-\\frac{1}{2}\\right)\n$$\n\r\n根据分段表达式，条件 $f\\left(\\frac{1}{2}\\right)=f\\left(\\frac{3}{2}\\right)$ 化为\r\n\n$$\n\\frac{b+4}{3}=1-\\frac{a}{2}\n$$\n\r\n即\r\n\n$$\n3a+2b=-2\n$$\n\r\n又因为函数周期为 $2$，所以 $f(-1)=f(1)$. 代入分段表达式得\r\n\n$$\n1-a=\\frac{b+2}{2}\n$$\n\r\n即 $b=-2a$. 联立两个方程，得 $a=2$，$b=-4$. 因此\r\n\n$$\na+3b=2+3(-4)=-10\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "设 $\\alpha$ 为锐角，若 $\\cos\\left(\\alpha + \\frac{\\pi}{6}\\right)=\\frac{4}{5}$，则 $\\sin\\left(2\\alpha + \\frac{\\pi}{12}\\right)$ 的值为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{17\\sqrt{2}}{50}\\)",
+          "solution": "令 $\\beta=\\alpha+\\frac{\\pi}{6}$. 由于 $\\alpha$ 为锐角，且\r\n$\\frac{\\pi}{6}<\\beta<\\frac{2\\pi}{3}$，$\\cos\\beta=\\frac45>0$，\r\n所以在上述范围内 $\\beta$ 必为锐角，从而\r\n\n$$\n\\sin\\beta=\\frac35\n$$\n\r\n由 $\\alpha=\\beta-\\frac{\\pi}{6}$，有\r\n\n$$\n2\\alpha+\\frac{\\pi}{12}=2\\beta-\\frac{\\pi}{4}\n$$\n\r\n又\r\n\n$$\n\\sin2\\beta=2\\sin\\beta\\cos\\beta=\\frac{24}{25}\n$$\n\r\n又 $\\cos2\\beta=\\cos^{2}\\beta-\\sin^{2}\\beta=\\frac{7}{25}$，\r\n因此\r\n\n$$\n\\sin\\left(2\\beta-\\frac{\\pi}{4}\\right)=\\frac{\\sin2\\beta-\\cos2\\beta}{\\sqrt{2}}=\\frac{17}{25\\sqrt{2}}=\\frac{17\\sqrt{2}}{50}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "在平面直角坐标系 $xOy$ 中，圆 $C$ 的方程为 $x^2 + y^2 - 8x + 15 = 0$，若直线 $y = kx - 2$ 上至少存在一点，使得以该点为圆心，$1$ 为半径的圆与圆 $C$ 有公共点，则 $k$ 的最大值是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{4}{3}\\)",
+          "solution": "将圆 $C$ 的方程配方，得\r\n\n$$\n(x-4)^{2}+y^{2}=1\n$$\n\r\n所以圆 $C$ 的圆心为 $O_{C}=(4,0)$，半径为 $1$. 设直线 $y=kx-2$ 上的点为 $Q$. 以 $Q$ 为圆心、半径为 $1$ 的圆与 $C$ 有公共点，当且仅当两圆心的距离不超过两个半径之和，即\r\n\n$$\nQO_{C}\\leqslant2\n$$\n\r\n因此，直线 $y=kx-2$ 到点 $O_{C}$ 的距离不超过 $2$. 由点到直线的距离公式，得到\r\n\n$$\n\\frac{|4k-2|}{\\sqrt{k^{2}+1}}\\leqslant2\n$$\n\r\n两边平方并化简，得\r\n\n$$\n(4k-2)^{2}\\leqslant4(k^{2}+1)\n$$\n\r\n即\r\n\n$$\n4k(3k-4)\\leqslant0\n$$\n\r\n所以 $0\\le k\\le\\frac43$，故 $k$ 的最大值为 $\\frac43$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "已知函数 $f(x)=x^2+ax+b$（$a$，$b\\in\\mathbb{R}$）的值域为 $[0,+\\infty)$，若关于 $x$ 的不等式 $f(x)<c$ 的解集为 $(m,m+6)$，则实数 $c$ 的值为 _______ {}.",
+          "choices": [],
+          "answer": "9",
+          "solution": "函数 $f(x)=x^{2}+ax+b$ 的图象开口向上，且值域为 $[0,+\\infty)$，因此其最小值为 $0$. 配方得\r\n\n$$\nf(x)=\\left(x+\\frac a2\\right)^{2}+b-\\frac{a^{2}}{4}\n$$\n\r\n所以顶点的纵坐标为 $b-\\frac{a^{2}}{4}=0$. 题设给出的解集非空，而 $f(x)$ 的最小值为 $0$，故必须有 $c>0$. 此时不等式 $f(x)<c$ 的解集为\r\n\n$$\n\\left(-\\frac a2-\\sqrt{c},-\\frac a2+\\sqrt{c}\\right)\n$$\n\r\n其长度为 $2\\sqrt{c}$. 题设解集 $(m,m+6)$ 的长度为 $6$，故\r\n\n$$\n2\\sqrt{c}=6\n$$\n\r\n从而 $c=9$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "已知正数 $a$，$b$，$c$ 满足 $5c-3a \\le b \\le 4c-a$，$c \\ln b \\ge a + c \\ln c$，则 $\\frac{b}{a}$ 的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left[\\mathrm{e},7\\right]\\)",
+          "solution": "令 $r=\\frac ac>0$，$t=\\frac bc>0$.\r\n题设的两个线性不等式化为\r\n\n$$\n5-3r\\le t\\leqslant4-r\n$$\n\r\n而对数不等式化为\r\n\n$$\n\\ln t\\ge r\n$$\n\r\n\r\n由 $5-3r\\leqslant4-r$，得 $r\\ge\\frac{1}{2}$. 又由 $t\\leqslant4-r$，有\r\n\n$$\n\\frac ba=\\frac tr\\le\\frac{4-r}{r}=\\frac4r-1\\leqslant7\n$$\n\r\n\r\n另一方面，$\\ln t\\ge r>0$，所以 $t>1$，且 $r\\le\\ln t$. 令 $g(t)=\\frac{t}{\\ln t}$，其中 $t>1$.\r\n则\r\n\n$$\ng'(t)=\\frac{\\ln t-1}{(\\ln t)^2}\n$$\n\r\n当 $1<t<\\mathrm{e}$ 时，$g'(t)<0$；当 $t>\\mathrm{e}$ 时，$g'(t)>0$，所以 $g(t)$ 在 $t=\\mathrm{e}$ 处取得最小值 $g(\\mathrm{e})=\\mathrm{e}$. 因此\r\n\n$$\n\\frac ba=\\frac tr\\ge\\frac{t}{\\ln t}\\ge\\mathrm{e}\n$$\n\r\n于是\r\n\n$$\n\\mathrm{e}\\le\\frac ba\\leqslant7\n$$\n\r\n\r\n下界可以取得：取 $r=1$，$t=\\mathrm{e}$，则 $5-3r=2\\le\\mathrm{e}\\leqslant3=4-r$，且 $\\ln t=r$，所以 $\\frac{b}{a}=\\mathrm{e}$. 上界也可以取得：取 $r=\\frac{1}{2}$，$t=\\frac{7}{2}$，则两个线性不等式均取等号，且 $\\ln(\\frac{7}{2})>\\frac{1}{2}$，所以 $\\frac{b}{a}=7$.\r\n\r\n再说明中间值均可取得. 令 $s\\in[0,1]$，$r_s=1-\\frac{s}{2}$，$t_s=\\mathrm{e}+s\\left(\\frac{7}{2}-\\mathrm{e}\\right)$. 两个线性不等式对 $(r_s,t_s)$ 成立，因为它们对端点 $(1,\\mathrm{e})$ 和 $(\\frac{1}{2},\\frac{7}{2})$ 成立. 又由 $\\ln t$ 的凹性，\r\n\n$$\n\\ln t_s\\ge(1-s)\\ln\\mathrm{e}+s\\ln\\frac{7}{2}=1+s\\left(\\ln\\frac{7}{2}-1\\right)\\geqslant1-\\frac{s}{2}=r_s\n$$\n\r\n所以 $(r_s,t_s)$ 始终满足全部条件. 比值 $\\frac{t_s}{r_s}$ 关于 $s$ 连续，且在 $s=0$ 和 $s=1$ 时分别为 $\\mathrm{e}$ 和 $7$，由介值定理可取得两者之间的每一个值. 因而所求取值范围为\r\n\n$$\n\\left[\\mathrm{e},7\\right]\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 15,
+          "body": "在 $\\triangle ABC$ 中，已知 $\\overrightarrow{AB} \\cdot \\overrightarrow{AC} = 3\\overrightarrow{BA} \\cdot \\overrightarrow{BC}$.\r\n\r\n\n(1) 求证：$\\tan B = 3\\tan A$.\n\n(2) 若 $\\cos C = \\frac{\\sqrt{5}}{5}$，求 $A$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 记三角形 $ABC$ 的边长分别为 $a=BC$，$b=CA$，$c=AB$. 由向量数量积的定义，题设等式化为\r\n\r\n\n$$\nbc\\cos A=3ac\\cos B\n$$\n\r\n\r\n若 $\\cos A=0$，则上式左边为 $0$，从而 $\\cos B=0$，这与三角形内角和为 $\\pi$ 矛盾；若 $\\cos B=0$，则上式右边为 $0$，从而 $\\cos A=0$，同样与三角形内角和为 $\\pi$ 矛盾. 所以 $\\cos A\\neq0$，$\\cos B\\neq0$. 将上式除以 $ac$，并由正弦定理 $\\frac{b}{a}=\\frac{\\sin B}{\\sin A}$，得\r\n\r\n\n$$\n\\frac{b}{a}\\cos A=3\\cos B\n$$\n\r\n\r\n于是 $\\frac{\\sin B}{\\sin A}\\cos A=3\\cos B$. 两边同除以 $\\cos B$，再乘以 $\\frac{\\sin A}{\\cos A}$，得到\r\n\r\n\n$$\n\\tan B=3\\tan A\n$$\n\n(2) 因为 $\\cos C=\\frac{\\sqrt{5}}{5}>0$，所以 $C$ 为锐角，且\r\n\n$$\n\\sin C=\\frac{2\\sqrt{5}}{5}\n$$\n\r\n又 $\\tan C=2$. 由 $A+B=\\pi-C$，所以 $\\tan(A+B)=-\\tan C=-2$. 令 $t=\\tan A$，由第（1）问得 $\\tan B=3t$，从而\r\n\n$$\n\\frac{4t}{1-3t^2}=-2\n$$\n\r\n由于 $A+B=\\pi-C\\neq\\frac{\\pi}{2}$，上式的分母不为零，整理得\r\n\n$$\n3t^2-2t-1=0\n$$\n\r\n即 $(3t+1)(t-1)=0$. 若 $t=-\\frac{1}{3}$，则 $A$，$B$ 均为钝角，不能构成三角形；故 $t=1$. 因此 $A=\\frac{\\pi}{4}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "如图，在直三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$A_{1}B_{1}=A_{1}C_{1}$，$D$，$E$ 分别是棱 $BC$，$CC_{1}$ 上的点（点 $D$ 不同于点 $C$），且 $AD \\perp DE$，$F$ 为 $B_{1}C_{1}$ 的中点. 求证：\r\n\r\n\n(1) 平面 $ADE \\perp$ 平面 $BCC_{1}B_{1}$；\n\n(2) 直线 $A_{1}F \\parallel$ 平面 $ADE$.\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangsu/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "由直三棱柱的性质，$AB=A_{1}B_{1}$，$AC=A_{1}C_{1}$，所以 $AB=AC$. 因而 $\\triangle ABC$ 是等腰三角形.\r\n\r\n因为 $CC_{1}\\perp$ 平面 $ABC$，而 $E$ 在 $CC_{1}$ 上，所以 $DE$ 在底面上的射影是 $DC$. 将 $\\overrightarrow{DE}$ 分解为 $\\overrightarrow{DC}+\\overrightarrow{CE}$，其中 $\\overrightarrow{CE}\\perp$ 平面 $ABC$，而 $\\overrightarrow{AD}$ 在底面内，故\r\n\n$$\n\\overrightarrow{AD}\\cdot\\overrightarrow{DE}=\\overrightarrow{AD}\\cdot\\overrightarrow{DC}\n$$\n\r\n由已知 $AD\\perp DE$，得 $\\overrightarrow{AD}\\cdot\\overrightarrow{DC}=0$.\r\n由于 $D\\neq C$，直线 $DC$ 就是直线 $BC$，所以 $AD\\perp BC$. 在等腰三角形 $ABC$ 中，顶点 $A$ 到底边 $BC$ 的垂线也是中线，故 $D$ 是 $BC$ 的中点.\r\n\r\n\n(1) 过 $D$ 作直线 $\\ell\\parallel CC_{1}$. 由于 $D\\in BC$，且 $BC$ 与 $CC_{1}$ 都在平面 $BCC_{1}B_{1}$ 内，所以 $\\ell\\subset$ 平面 $BCC_{1}B_{1}$. 又因为 $AD$ 在平面 $ABC$ 内，且 $CC_{1}\\perp$ 平面 $ABC$，所以 $AD\\perp\\ell$. 已知 $AD\\perp BC$，而 $BC$ 与 $\\ell$ 相交于 $D$，故 $AD\\perp$ 平面 $BCC_{1}B_{1}$. 由于 $AD\\subset$ 平面 $ADE$，可得平面 $ADE\\perp$ 平面 $BCC_{1}B_{1}$.\n\n(2) $D$ 是 $BC$ 的中点，平移到上底面后，$F$ 是 $B_{1}C_{1}$ 的中点. 因而从 $A_{1}$ 指向 $F$ 的向量与从 $A$ 指向 $D$ 的向量平行，即 $A_{1}F\\parallel AD$. 又 $DF\\parallel CC_{1}$. 若 $F\\in DE$，则 $DE=DF\\parallel CC_{1}$，但 $E\\in DE\\cap CC_{1}$，矛盾；故 $F\\notin DE$. 若 $A_{1}F\\subset$ 平面 $ADE$，则 $F$ 同时属于平面 $ADE$ 和平面 $BCC_{1}B_{1}$. 两平面的交线为 $DE$，这将推出 $F\\in DE$，矛盾. 因此 $A_{1}F$ 不在平面 $ADE$ 内，且 $A_{1}F\\parallel AD$、$AD\\subset$ 平面 $ADE$，所以直线 $A_{1}F\\parallel$ 平面 $ADE$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "如图，建立平面直角坐标系 $xOy$，$x$ 轴在地平面上，$y$ 轴垂直于地平面，单位长度为 $1$ 千米，某炮位于坐标原点. 已知炮弹发射后的轨迹在方程 $y = kx - \\frac{1}{20}(1+k^2)x^2$（$k>0$）表示的曲线上，其中 $k$ 与发射方向有关. 炮的射程是指炮弹落地点的横坐标.\r\n\r\n\n(1) 求炮的最大射程；\n\n(2) 设在第一象限有一飞行物（忽略其大小），其飞行高度为 $3.2$ 千米，试问它的横坐标 $a$ 不超过多少时，炮弹可以击中它？请说明理由.\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangsu/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 炮弹落地时 $y=0$. 除去发射点 $x=0$，由\r\n\n$$\n0=kx-\\frac{1+k^2}{20}x^2\n$$\n\r\n得射程\r\n\n$$\nR(k)=\\frac{20k}{1+k^2}=10-\\frac{10(k-1)^2}{1+k^2}\\leqslant10\n$$\n\r\n当且仅当 $k=1$ 时等号成立，所以炮的最大射程为 $10$ 千米.\n\n(2) 设飞行物的横坐标为 $a$. 因为它在第一象限，所以 $a>0$. 对固定的 $a$，轨迹在横坐标 $a$ 处的高度为\r\n\n$$\ny(k)=-\\frac{a^2}{20}k^2+ak-\\frac{a^2}{20}=5-\\frac{a^2}{20}-\\frac{a^2}{20}\\left(k-\\frac{10}{a}\\right)^2\n$$\n\r\n因此在 $k>0$ 中，最大高度为 $5-\\frac{a^2}{20}$，且取得最大值时 $k=\\frac{10}{a}>0$. 对固定的 $a>0$，上式右端关于 $k$ 连续；将其在 $k=0$ 处的值看作 $-\\frac{a^2}{20}<0$，而在顶点处达到最大值. 所以由介值定理，存在 $k>0$ 使炮弹经过飞行物的充要条件是\r\n\n$$\n5-\\frac{a^2}{20}\\geqslant3.2=\\frac{16}{5}\n$$\n\r\n整理得 $a^2\\leqslant36$. 结合 $a>0$，可知 $a\\leqslant6$. 所以横坐标 $a$ 不超过 $6$ 千米时，炮弹可以击中飞行物.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "若函数 $y=f(x)$ 在 $x=x_{0}$ 处取得极大值或极小值，则称 $x_{0}$ 为函数 $y=f(x)$ 的极值点. 已知 $a$，$b$ 是实数，且 $1$ 和 $-1$ 是函数 $f(x)=x^3+ax^2+bx$ 的两个极值点.\r\n\r\n\n(1) 求 $a$ 和 $b$ 的值；\n\n(2) 设函数 $g(x)$ 的导函数 $g'(x)=f(x)+2$，求 $g(x)$ 的极值点；\n\n(3) 设 $h(x)=f(f(x))-c$，其中 $c\\in[-2,2]$，求函数 $y=h(x)$ 的零点个数.",
+          "choices": [],
+          "answer": "",
+          "solution": "由 $1$ 和 $-1$ 是极值点，得导函数在这两个点处为零. 因此\r\n\n$$\nf'(x)=3x^2+2ax+b=3(x-1)(x+1)=3x^2-3\n$$\n\r\n比较系数可得 $a=0$，$b=-3$. 此时 $f'(x)=3(x^2-1)$ 在 $-1$，$1$ 两侧变号，确实对应两个极值点.\r\n\r\n\n(1) $a=0$，$b=-3$.\n\n(2) 此时 $f(x)=x^3-3x$，所以\r\n\n$$\ng'(x)=f(x)+2=x^3-3x+2=(x-1)^2(x+2)\n$$\n\r\n当 $x<-2$ 时，$g'(x)<0$；当 $-2<x<1$ 或 $x>1$ 时，$g'(x)>0$. 因此 $g(x)$ 在 $x=-2$ 的左侧递减、右侧递增，$-2$ 是极小值点；虽然 $g'(1)=0$，但导函数在 $1$ 两侧不变号，所以 $1$ 不是极值点. 故 $g(x)$ 的极值点为 $-2$.\n\n(3) 令 $u=f(x)$. 函数 $f(u)=u^3-3u$ 的导数为 $f'(u)=3(u^2-1)$，所以它在 $(-\\infty,-1)$、$(1,+\\infty)$ 上递增，在 $(-1,1)$ 上递减，并在 $u=-1$ 处取得极大值 $2$，在 $u=1$ 处取得极小值 $-2$. 当 $-2<c<2$ 时，方程\r\n\n$$\nf(u)=c\n$$\n\r\n在区间 $(-2,-1)$、$(-1,1)$、$(1,2)$ 内各有一个根：这是因为 $f(-2)=-2$，$f(-1)=2$，$f(1)=-2$，$f(2)=2$，再结合上述单调性. 对其中每一个根 $u\\in(-2,2)$，方程 $f(x)=u$ 也在这三个区间内各有一个根，且三根互不相同，因此 $f(f(x))=c$ 有 $3\\times3=9$ 个零点.\r\n\r\n当 $c=2$ 时，\r\n\n$$\nf(u)-2=u^3-3u-2=(u-2)(u+1)^2\n$$\n\r\n所以 $u$ 有两个不同的取值 $2$，$-1$. 方程 $f(x)=2$ 有两个不同的实根，方程 $f(x)=-1$ 有三个不同的实根，共有 $5$ 个零点. 当 $c=-2$ 时，\r\n\n$$\nf(u)+2=u^3-3u+2=(u+2)(u-1)^2\n$$\n\r\n所以 $u$ 有两个不同的取值 $-2$，$1$. 方程 $f(x)=-2$ 有两个不同的实根，且因为 $1\\in(-2,2)$，由前面的单调性可知方程 $f(x)=1$ 有三个不同的实根，共有 $2+3=5$ 个零点. 故零点个数为\r\n\n$$\n\\begin{cases}\r\n9,&-2<c<2,\\\\\r\n5,&c=-2\\text{ 或 }c=2.\r\n\\end{cases}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，在平面直角坐标系 $xOy$ 中，椭圆 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a>b>0$）的左、右焦点分别为 $F_{1}(-c,0)$，$F_{2}(c,0)$. 已知点 $(1,e)$ 和 $\\left(e,\\frac{\\sqrt{3}}{2}\\right)$ 都在椭圆上，其中 $e$ 为椭圆的离心率.\r\n\r\n\n(1) 求椭圆的方程；\n\n(2) 设 $A$，$B$ 是椭圆上位于 $x$ 轴上方的两点，且直线 $AF_{1}$ 与直线 $BF_{2}$ 平行，$AF_{2}$ 与 $BF_{1}$ 交于点 $P$.\r\n\\begin{enumerate}\n\n(3) 若 $AF_{1}-BF_{2}=\\frac{\\sqrt{6}}{2}$，求直线 $AF_{1}$ 的斜率；\n\n(4) 求证：$PF_{1}+PF_{2}$ 是定值.\n\r\n\\end{enumerate}\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangsu/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由离心率的定义，$e^2=1-\\frac{b^2}{a^2}$，即 $e^2=\\frac{a^2-b^2}{a^2}$. 将点 $(1,e)$ 代入椭圆方程，得\r\n\n$$\n\\frac{1}{a^2}+\\frac{e^2}{b^2}=\\frac{1}{a^2}+\\frac{a^2-b^2}{a^2b^2}=\\frac{1}{b^2}=1\n$$\n\r\n所以 $b^2=1$. 再将点 $\\left(e,\\frac{\\sqrt{3}}{2}\\right)$ 代入，得\r\n\n$$\n\\frac{e^2}{a^2}+\\frac{3}{4b^2}=1\n$$\n\r\n即\r\n\n$$\n\\frac{a^2-1}{a^4}+\\frac{3}{4}=1\n$$\n\r\n因此 $a^4-4a^2+4=0$，从而 $a^2=2$. 故椭圆方程为\r\n\n$$\n\\frac{x^2}{2}+y^2=1\n$$\n\n(2) 由 $a^2=2$，$b^2=1$，得 $c=1$，所以 $F_{1}=(-1,0)$，$F_{2}=(1,0)$. 若直线 $AF_{1}$ 和 $BF_{2}$ 都为竖直线，则 $A=(-1,\\frac{1}{\\sqrt{2}})$，$B=(1,\\frac{1}{\\sqrt{2}})$. 此时两直线 $AF_{2}$ 和 $BF_{1}$ 的交点为 $P=(0,\\frac{1}{(2\\sqrt{2})})$，从而\r\n\n$$\nPF_{1}+PF_{2}=2\\sqrt{1+\\frac{1}{8}}=\\frac{3\\sqrt{2}}{2}\n$$\n\r\n以下设两直线不为竖直线，记它们的斜率为 $k$. 令\r\n\n$$\nA=(-1+t,kt)\n$$\n\r\n且 $B=(1+s,ks)$，\r\n因为 $A$，$B$ 位于 $x$ 轴上方，所以 $t$，$s$ 同号，且与 $k$ 同号. 代入椭圆方程，得\r\n\n$$\n\\begin{cases}\r\n(1+2k^2)t^2-2t-1=0,\\\\\r\n(1+2k^2)s^2+2s-1=0\r\n\\end{cases}\n$$\n\r\n记 $d=1+2k^2$，$r=\\sqrt{2(1+k^2)}$，则 $r>1$. 两个方程的根分别为\r\n$t=\\frac{1\\pm r}{d}$，$s=\\frac{-1\\pm r}{d}$.\r\n当 $k>0$ 时，$t$，$s>0$，故取正根；当 $k<0$ 时，$t$，$s<0$，故取负根. 记 $T=|t|$，$S=|s|$，于是\r\n\n$$\n(T,S)=\r\n\\begin{cases}\r\n\\left(\\dfrac{r+1}{d},\\dfrac{r-1}{d}\\right),& k>0,\\\\\r\n\\left(\\dfrac{r-1}{d},\\dfrac{r+1}{d}\\right),& k<0.\r\n\\end{cases}\n$$\n\r\n因此无论 $k$ 正负，都有\r\n\n$$\nTS=\\frac{1}{d}\n$$\n\r\n且 $S+T=\\frac{2r}{d}$，\r\n并且 $T>S$ 当且仅当 $k>0$. 再记 $q=\\sqrt{1+k^2}$，则\r\n\n$$\nAF_{1}=qT\n$$\n\r\n且 $BF_{2}=qS$，\r\n\r\n\\begin{enumerate}\n\n(3) 由 $AF_{1}-BF_{2}=\\frac{\\sqrt{6}}{2}>0$，可知 $T>S$，从而 $k>0$. 此时\r\n\n$$\nT=\\frac{1+r}{d}\n$$\n\r\n且 $S=\\frac{r-1}{d}$，\r\n从而 $AF_{1}-BF_{2}=\\frac{2q}{d}$，\r\n题设给出\r\n\n$$\n\\frac{2q}{1+2k^2}=\\frac{\\sqrt{6}}{2}\n$$\n\r\n由于 $1+2k^2=2q^2-1$，平方并整理得\r\n\n$$\n12q^4-20q^2+3=0\n$$\n\r\n所以 $q^2=\\frac{3}{2}$ 或 $q^2=\\frac{1}{6}$. 因为 $q^2=1+k^2\\geqslant1$，故 $q^2=\\frac{3}{2}$，从而 $k^2=\\frac{1}{2}$. 又 $k>0$，所以直线 $AF_{1}$ 的斜率为 $\\frac{\\sqrt{2}}{2}$.\n\n(4) 椭圆上任意点到两焦点的距离和为 $2a=2\\sqrt{2}$，故\r\n\n$$\nAF_{2}=2\\sqrt{2}-qT\n$$\n\r\n且 $BF_{1}=2\\sqrt{2}-qS$，\r\n设 $P=AF_{2}\\cap BF_{1}$，并写成\r\n\n$$\nP=F_{2}+\\lambda(A-F_{2})=F_{1}+\\mu(B-F_{1})\n$$\n\r\n由 $A-F_{2}=(t-2,kt)$，$B-F_{1}=(s+2,ks)$，比较横、纵坐标可得\r\n\n$$\n\\lambda=\\frac{S}{S+T}\n$$\n\r\n且 $\\mu=\\frac{T}{S+T}$，\r\n因此\r\n\n$$\nPF_{2}=\\frac{S}{S+T}AF_{2}\n$$\n\r\n且 $PF_{1}=\\frac{T}{S+T}BF_{1}$，\r\n于是\r\n\n$$\nPF_{1}+PF_{2}=\\frac{T(2\\sqrt{2}-qS)+S(2\\sqrt{2}-qT)}{S+T}=2\\sqrt{2}-\\frac{2qTS}{S+T}=2\\sqrt{2}-\\frac{q}{r}=2\\sqrt{2}-\\frac{1}{\\sqrt{2}}=\\frac{3\\sqrt{2}}{2}\n$$\n\r\n所以 $PF_{1}+PF_{2}$ 是定值 $\\frac{3\\sqrt{2}}{2}$.\n\r\n\\end{enumerate}",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知各项均为正数的两个数列 $\\{a_n\\}$ 和 $\\{b_n\\}$ 满足：$a_{n+1} = \\frac{a_n + b_n}{\\sqrt{a_n^2 + b_n^2}}$，$n \\in \\mathbb{N}^*$.\r\n\r\n\n(1) 设 $b_{n+1} = 1 + \\frac{b_n}{a_n}$，$n \\in \\mathbb{N}^*$，求证：数列 $\\left\\{\\left(\\frac{b_n}{a_n}\\right)^2\\right\\}$ 是等差数列；\n\n(2) 设 $b_{n+1} = \\sqrt{2} \\cdot \\frac{b_n}{a_n}$，$n \\in \\mathbb{N}^*$，且 $\\{a_n\\}$ 是等比数列，求 $a_1$ 和 $b_1$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "令 $x_n=\\frac{b_n}{a_n}>0$. 由题设递推式，\r\n\n$$\na_{n+1}=\\frac{1+x_n}{\\sqrt{1+x_n^2}}\n$$\n\r\n\r\n\n(1) 当 $b_{n+1}=1+\\frac{b_n}{a_n}=1+x_n$ 时，\r\n\n$$\nx_{n+1}=\\frac{b_{n+1}}{a_{n+1}}=\\frac{1+x_n}{\\frac{(1+x_n)}{\\sqrt{1+x_n^2}}}=\\sqrt{1+x_n^2}\n$$\n\r\n所以 $x_{n+1}^2=x_n^2+1$，即数列 $\\{x_n^2\\}=\\left\\{\\left(\\frac{b_n}{a_n}\\right)^2\\right\\}$ 是以 $1$ 为公差的等差数列.\n\n(2) 当 $b_{n+1}=\\sqrt{2}\\,\\frac{b_n}{a_n}=\\sqrt{2}x_n$ 时，先设 $\\{a_n\\}$ 的公比为 $q>0$. 由上式及 $x_n>0$，有\r\n\n$$\n1<a_{n+1}=\\frac{1+x_n}{\\sqrt{1+x_n^2}}\\le\\sqrt{2}\n$$\n\r\n因此对所有 $n\\geqslant2$，都有 $1<a_n\\le\\sqrt{2}$. 若 $q>1$，则 $a_n$ 趋于 $+\\infty$；若 $0<q<1$，则 $a_n$ 趋于 $0$，均与上述有界性矛盾. 所以 $q=1$，数列 $\\{a_n\\}$ 为常数，记其值为 $a$.\r\n\r\n此时 $b_{n+1}=\\frac{\\sqrt{2}}{a}b_n$，所以 $x_n=\\frac{b_n}{a}$ 是以 $r=\\frac{\\sqrt{2}}{a}$ 为公比的正数列. 又\r\n\n$$\na=\\frac{1+x_n}{\\sqrt{1+x_n^2}}\n$$\n\r\n对所有 $n$ 成立. 若 $r>1$，则 $x_n$ 趋于 $+\\infty$；若 $0<r<1$，则 $x_n$ 趋于 $0$. 这两种情况下等式右端都趋于 $1$，从而得到 $a=1$，与 $a>1$ 矛盾. 因而 $r=1$，即 $a=\\sqrt{2}$.\r\n\r\n于是\r\n\n$$\n\\sqrt{2}=\\frac{1+x_n}{\\sqrt{1+x_n^2}}\n$$\n\r\n两边平方并整理，得 $(x_n-1)^2=0$，所以 $x_n=1$. 特别地，$a_1=\\sqrt{2}$，$b_1=a_1x_1=\\sqrt{2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "附加题：解答题",
+      "problems": [
+        {
+          "num": 21,
+          "body": "如图，$AB$ 是圆 $O$ 的直径，$D$，$E$ 为圆 $O$ 上位于 $AB$ 异侧的两点，连接 $BD$ 并延长至点 $C$，使 $BD=DC$，连接 $AC$，$AE$，$DE$. 求证：$\\angle E=\\angle C$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangsu/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "因为 $AB$ 是圆的直径，所以 $\\angle ADB=90^\\circ$. 又 $B$，$D$，$C$ 三点共线，故 $AD\\perp BC$. 由 $BD=DC$，点 $D$ 是 $BC$ 的中点. 因此在直角三角形 $ADB$ 和 $ADC$ 中，$AD$ 为公共边且 $BD=DC$，两三角形全等，从而 $AB=AC$. 所以 $ABC$ 是等腰三角形，且 $AD$ 同时是中线和高，有\r\n\n$$\n\\angle ABD=\\angle ABC=\\angle BCA=\\angle ACD\n$$\n\r\n\r\n点 $A$，$B$，$D$，$E$ 在同一圆上，且由 $D$，$E$ 位于 $AB$ 异侧可知点 $B$，$E$ 位于弦 $AD$ 的同侧. 因此圆周角 $\\angle AED$ 与 $\\angle ABD$ 同对弦 $AD$，有 $\\angle AED=\\angle ABD$. 因而\r\n\n$$\n\\angle E=\\angle AED=\\angle ACD=\\angle C\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "已知矩阵 $A$ 的逆矩阵 $A^{-1}=\\begin{bmatrix}-\\frac{1}{4}&\\frac{3}{4}\\\\ \\frac{1}{2}&-\\frac{1}{2}\\end{bmatrix}$，求矩阵 $A$ 的特征值.",
+          "choices": [],
+          "answer": "",
+          "solution": "设 $\\mu$ 是矩阵 $A^{-1}$ 的特征值，则\r\n\n$$\n0=\\det\\left(A^{-1}-\\mu I\\right)=\\left(-\\frac14-\\mu\\right)\\left(-\\frac12-\\mu\\right)-\\frac38=\\mu^2+\\frac34\\mu-\\frac14\n$$\n\r\n解得 $\\mu=\\frac14$ 或 $\\mu=-1$. 由于可逆矩阵的特征值与其逆矩阵的特征值互为倒数，矩阵 $A$ 的特征值为 $4$，$-1$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 23,
+          "body": "在极坐标系中，已知圆 $C$ 经过点 $P\\left(\\sqrt{2},\\frac{\\pi}{4}\\right)$，圆心为直线 $\\rho\\sin\\left(\\theta-\\frac{\\pi}{3}\\right)=-\\frac{\\sqrt{3}}{2}$ 与极轴的交点，求圆 $C$ 的极坐标方程.",
+          "choices": [],
+          "answer": "",
+          "solution": "圆心在极轴上，所以令 $\\theta=0$ 代入圆心所在直线，得\r\n\n$$\n\\rho\\sin\\left(-\\frac{\\pi}{3}\\right)=-\\frac{\\sqrt{3}}{2}\n$$\n\r\n从而 $\\rho=1$，\r\n因此圆心的直角坐标为 $(1,0)$. 点 $P\\left(\\sqrt{2},\\frac{\\pi}{4}\\right)$ 的直角坐标为 $(1,1)$，所以圆的半径为 $1$，其直角坐标方程为\r\n\n$$\n(x-1)^2+y^2=1\n$$\n\r\n即 $x^2+y^2-2x=0$. 代入 $x=\\rho\\cos\\theta$，$x^2+y^2=\\rho^2$，得圆的极坐标方程\r\n\n$$\n\\rho^2-2\\rho\\cos\\theta=0\n$$\n\r\n或写成 $\\rho=2\\cos\\theta$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 24,
+          "body": "已知实数 $x$，$y$ 满足：$|x+y|<\\frac{1}{3}$，$|2x-y|<\\frac{1}{6}$，求证：$|y|<\\frac{5}{18}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "令 $u=x+y$，$v=2x-y$. 由\r\n\n$$\n2u-v=2(x+y)-(2x-y)=3y\n$$\n\r\n故\r\n\n$$\ny=\\frac{2u-v}{3}\n$$\n\r\n又因 $|u|<\\frac13$、$|v|<\\frac16$，由绝对值三角不等式，\r\n\n$$\n|y|=\\frac{|2u-v|}{3}\\le\\frac{2|u|+|v|}{3}<\\frac{2\\cdot\\frac13+\\frac16}{3}=\\frac{5}{18}\n$$\n\r\n所以 $|y|<\\frac{5}{18}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 25,
+          "body": "设 $\\xi$ 为随机变量，从棱长为 $1$ 的正方体的 $12$ 条棱中任取两条，当两条棱相交时，$\\xi=0$；当两条棱平行时，$\\xi$ 的值为两条棱之间的距离；当两条棱异面时，$\\xi=1$.\r\n\r\n\n(1) 求概率 $P(\\xi=0)$；\n\n(2) 求 $\\xi$ 的分布列，并求其数学期望 $E(\\xi)$.",
+          "choices": [],
+          "answer": "",
+          "solution": "从 $12$ 条棱中任取两条，共有\r\n\n$$\n\\mathrm C_{12}^{2}=66\n$$\n\r\n种取法.\r\n\r\n\n(1) 正方体的每个顶点有 $3$ 条棱相交于该点，因此相交的棱对有\r\n\n$$\n8\\mathrm C_{3}^{2}=24\n$$\n\r\n对. 每一对相交棱只有一个公共顶点，所以没有重复计数. 因而\r\n\n$$\nP(\\xi=0)=\\frac{24}{66}=\\frac{4}{11}\n$$\n\n(2) 按棱的方向分类，正方体有 $3$ 个方向，每个方向有 $4$ 条互相平行的棱，所以平行的棱对有\r\n\n$$\n3\\mathrm C_{4}^{2}=18\n$$\n\r\n对. 对于同一方向的 $4$ 条棱，在垂直于该方向的正方形中对应四个顶点；其中相邻顶点给出距离 $1$，有 $4$ 对，两个对角顶点给出距离 $\\sqrt{2}$，有 $2$ 对. 因此\r\n\n$$\nN(\\xi=1\\text{ 且两棱平行})=3\\times4=12\n$$\n\r\n且 $N(\\xi=\\sqrt{2})=3\\times2=6$，\r\n\r\n其余棱对为异面棱对，数目为\r\n\n$$\n66-24-18=24\n$$\n\r\n这些棱对也满足 $\\xi=1$. 所以 $P(\\xi=0)=\\frac{4}{11}$，$P(\\xi=1)=\\frac{6}{11}$，$P(\\xi=\\sqrt{2})=\\frac{1}{11}$，这就是 $\\xi$ 的分布列.\r\n从而\r\n\n$$\nE(\\xi)=0\\cdot\\frac{4}{11}+1\\cdot\\frac{6}{11}+\\sqrt{2}\\cdot\\frac{1}{11}=\\frac{6+\\sqrt{2}}{11}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 26,
+          "body": "设集合 $P_n = \\{1,2,\\cdots,n\\}$，$n \\in \\mathbb{N}^*$. 记 $f(n)$ 为同时满足下列条件的集合 $A$ 的个数：\r\n\\begin{circlelist}\r\n\\item $A \\subseteq P_n$；\r\n\\item 若 $x \\in A$，则 $2x \\notin A$；\r\n\\item 若 $x \\in C_{P_n}A$，则 $2x \\notin C_{P_n}A$.\r\n\\end{circlelist}\r\n\r\n\n(1) 求 $f(4)$；\n\n(2) 求 $f(n)$ 的解析式（用 $n$ 表示）.",
+          "choices": [],
+          "answer": "",
+          "solution": "对每个 $j\\in P_n$，都可以唯一地写成 $j=2^r u$，其中 $u$ 为奇数. 因而 $P_n$ 被分成若干条链\r\n$u$，$2u$，$4u$，$\\ldots$，$2^m u\\le n$\r\n其中每条链的首项都是不超过 $n$ 的奇数.\r\n\r\n在同一条链上，除最后一项外，每一项的后继仍属于 $P_n$. 对这样的相邻两项，条件 2 表明若前一项属于 $A$，则后一项不属于 $A$；条件 3 表明若前一项不属于 $A$，则后一项属于 $A$. 因此同一条链上的成员资格必须交替出现，而只要确定首项 $u$ 是否属于 $A$，整条链的取法就唯一确定. 不同链之间互不影响.\r\n\r\n不超过 $n$ 的奇数共有 $\\left\\lceil\\frac{n}{2}\\right\\rceil$ 个，所以\r\n\n$$\nf(n)=2^{\\left\\lceil\\frac{n}{2}\\right\\rceil}\n$$\n\r\n当 $n=4$ 时，奇数首项为 $1$，$3$，故 $f(4)=2^2=4$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "year": "2008",
+  "slug": "shaanxi_liberal",
+  "title": "2008年陕西卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "$\\sin 330^{\\circ}$ 等于（ ）",
+          "choices": [
+            "$-\\frac{\\sqrt{3}}{2}$",
+            "$-\\frac{1}{2}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{\\sqrt{3}}{2}$"
+          ],
+          "answer": "B",
+          "solution": "由三角函数诱导公式，\r\n$\\sin 330^{\\circ}=\\sin\\left(360^{\\circ}-30^{\\circ}\\right)=-\\sin30^{\\circ}=-\\frac{1}{2}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知全集 $U = \\{1, 2, 3, 4, 5\\}$，集合 $A = \\{1, 3\\}$，$B = \\{3, 4, 5\\}$，则集合 $\\complement_U(A \\cap B) =$（ ）",
+          "choices": [
+            "$\\{3\\}$",
+            "$\\{4, 5\\}$",
+            "$\\{3, 4, 5\\}$",
+            "$\\{1, 2, 4, 5\\}$"
+          ],
+          "answer": "D",
+          "solution": "先求交集：$A\\cap B=\\{3\\}$. 因此在全集 $U$ 中取补集，得到\r\n$\\complement_U(A\\cap B)=U\\mathbin{\\backslash}\\{3\\}=\\{1,2,4,5\\}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "某林场有树苗 $30000$ 棵，其中松树苗 $4000$ 棵. 为调查树苗的生长情况，采用分层抽样的方法抽取一个容量为 $150$ 的样本，则样本中松树苗的数量为（ ）",
+          "choices": [
+            "$30$",
+            "$25$",
+            "$20$",
+            "$15$"
+          ],
+          "answer": "C",
+          "solution": "分层抽样时，各层被抽取的比例相同. 松树苗在总体中的比例为\r\n$\\frac{4000}{30000}=\\frac{2}{15}$，所以样本中松树苗的数量为\r\n$150\\times\\frac{2}{15}=20$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "已知 $\\{a_{n}\\}$ 是等差数列，$a_{1} + a_{2} = 4$，$a_{7} + a_{8} = 28$，则该数列前 $10$ 项和 $S_{10}$（ ）",
+          "choices": [
+            "$64$",
+            "$100$",
+            "$110$",
+            "$120$"
+          ],
+          "answer": "B",
+          "solution": "设等差数列的公差为 $d$. 则\r\n$a_1+a_2=2a_1+d=4$，且\r\n$a_7+a_8=(a_1+6d)+(a_1+7d)=2a_1+13d=28$.\r\n两式相减得 $12d=24$，所以 $d=2$，再由 $2a_1+d=4$ 得 $a_1=1$.\r\n于是\r\n$S_{10}=\\frac{10}{2}\\left(2a_1+9d\\right)=5(2+18)=100$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "直线 $\\sqrt{3} x - y + m = 0$ 与圆 $x^{2} + y^{2} - 2x - 2 = 0$ 相切，则实数 $m$ 等于（ ）",
+          "choices": [
+            "$-3\\sqrt{3}$ 或 $\\sqrt{3}$",
+            "$-3\\sqrt{3}$ 或 $3\\sqrt{3}$",
+            "$\\sqrt{3}$ 或 $-\\sqrt{3}$",
+            "$-\\sqrt{3}$ 或 $3\\sqrt{3}$"
+          ],
+          "answer": "A",
+          "solution": "圆的方程可化为\r\n$\\left(x-1\\right)^2+y^2=3$，所以圆心为 $O(1,0)$，半径为 $\\sqrt{3}$.\r\n直线与圆相切，当且仅当圆心到直线的距离等于半径，即\r\n$\\frac{|\\sqrt{3}+m|}{\\sqrt{3+1}}=\\sqrt{3}$.\r\n因此 $|\\sqrt{3}+m|=2\\sqrt{3}$，解得\r\n$m=\\sqrt{3}$ 或 $m=-3\\sqrt{3}$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "“$a=\\frac{1}{8}$”是“对任意的正数 $x$，$2x+\\frac{a}{x}\\geqslant1$”的（ ）",
+          "choices": [
+            "充分不必要条件",
+            "必要不充分条件",
+            "充要条件",
+            "既不充分也不必要条件"
+          ],
+          "answer": "A",
+          "solution": "当 $a=\\frac{1}{8}$ 且 $x>0$ 时，由基本不等式，\r\n\n$$\n2x+\\frac{a}{x}=2x+\\frac{1}{8x}\\geqslant2\\sqrt{2x\\cdot\\frac{1}{8x}}=1\n$$\n\r\n所以 $a=\\frac{1}{8}$ 能推出题中的不等式对任意正数 $x$ 成立.\r\n\r\n但反过来不成立. 例如取 $a=1$，则\r\n$2x+\\frac{1}{x}\\geqslant2\\sqrt{2}>1$ 对任意 $x>0$ 成立，而 $1\\ne\\frac{1}{8}$.\r\n因此，$a=\\frac{1}{8}$ 是题中条件的充分不必要条件，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知函数 $f(x) = 2^{x + 3}$，$f^{-1}(x)$ 是 $f(x)$ 的反函数，若 $mn = 16$（$m$，$n \\in \\mathbb{R}^{+}$），则 $f^{-1}(m) + f^{-1}(n)$ 的值为（ ）",
+          "choices": [
+            "$10$",
+            "$4$",
+            "$1$",
+            "$-2$"
+          ],
+          "answer": "D",
+          "solution": "由 $y=2^{x+3}$ 得 $\\log_2 y=x+3$，所以反函数为\r\n$f^{-1}(x)=\\log_2 x-3$（$x>0$）.\r\n因为 $m$，$n\\in\\mathbb{R}^+$ 且 $mn=16$，故\r\n\n$$\nf^{-1}(m)+f^{-1}(n)=\\log_2m-3+\\log_2n-3\r\n=\\log_2(mn)-6=\\log_2 16-6=-2\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的各顶点都在半径为 $1$ 的球面上，其中 $AB:AD:AA_{1}=2:1:\\sqrt{3}$，则两 $A$，$B$ 点的球面距离为（ ）",
+          "choices": [
+            "$\\frac{\\pi}{4}$",
+            "$\\frac{\\pi}{3}$",
+            "$\\frac{\\pi}{2}$",
+            "$\\frac{2\\pi}{3}$"
+          ],
+          "answer": "C",
+          "solution": "设长方体的三条棱长分别为 $2t$，$t$，$\\sqrt{3}t$. 长方体的体对角线长为\r\n\n$$\n\\sqrt{(2t)^2+t^2+(\\sqrt{3}t)^2}=2\\sqrt{2}t\n$$\n\r\n长方体各顶点都在同一个球面上时，球心是长方体中心，体对角线是球的直径，故\r\n$2\\sqrt{2}t=2$，从而 $t=\\frac{1}{\\sqrt{2}}$，$AB=\\sqrt{2}$.\r\n\r\n设 $A$，$B$ 所对的球心角为 $\\omega$. 球半径为 $1$，所以弦长满足\r\n$AB=2\\sin\\frac{\\omega}{2}$. 因而\r\n$\\sin\\frac{\\omega}{2}=\\frac{\\sqrt{2}}{2}$，且 $0\\le\\omega\\le\\pi$，得到 $\\omega=\\frac{\\pi}{2}$.\r\n球面距离等于该弧所对的圆心角，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "双曲线 $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$（$a > 0$，$b > 0$）的左、右焦点分别是 $F_1$，$F_2$，过 $F_1$ 作倾斜角为 $30^\\circ$ 的直线交双曲线右支于 $M$ 点. 若 $MF_2$ 垂直于 $x$ 轴，则双曲线的离心率为（ ）",
+          "choices": [
+            "$\\sqrt{6}$",
+            "$\\sqrt{3}$",
+            "$\\sqrt{2}$",
+            "$\\frac{\\sqrt{3}}{3}$"
+          ],
+          "answer": "B",
+          "solution": "设双曲线的半焦距为 $c$，则焦点为 $F_1(-c,0)$，$F_2(c,0)$，且\r\n$c^2=a^2+b^2$. 过 $F_1$ 的直线倾斜角为 $30^{\\circ}$，斜率为 $\\frac{1}{\\sqrt{3}}$.\r\n由于 $MF_2\\perp x$ 轴，点 $M$ 的横坐标为 $c$，由直线方程得\r\n$M\\left(c,\\frac{2c}{\\sqrt{3}}\\right)$.\r\n\r\n将点 $M$ 代入双曲线方程，并利用 $b^2=c^2-a^2$，得\r\n\n$$\n\\frac{c^2}{a^2}-\\frac{4c^2}{3(c^2-a^2)}=1\n$$\n\r\n令离心率 $e=\\frac{c}{a}>1$，化为\r\n$e^2-\\frac{4e^2}{3(e^2-1)}=1$，即\r\n$3(e^2-1)^2=4e^2$.\r\n令 $t=e^2$，则 $3t^2-10t+3=0$，解得 $t=3$ 或 $t=\\frac{1}{3}$. 因为 $e>1$，所以 $e=\\sqrt{3}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "如图，$\\alpha \\perp \\beta$，$\\alpha \\cap \\beta = l$，$A \\in \\alpha$，$B \\in \\beta$，$A$，$B$ 到 $l$ 的距离分别是 $a$ 和 $b$，$AB$ 与 $\\alpha$，$\\beta$ 所成的角分别是 $\\theta$ 和 $\\varphi$，$AB$ 在 $\\alpha$，$\\beta$ 内的射影分别是 $m$ 和 $n$，若 $a > b$，则（ ）\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/shaanxi_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\theta >\\varphi$，$m < n$",
+            "$\\theta >\\varphi$，$m > n$",
+            "$\\theta < \\varphi$，$m < n$",
+            "$\\theta < \\varphi$，$m > n$"
+          ],
+          "answer": "D",
+          "solution": "建立直角坐标系，使公共直线 $l$ 为 $x$ 轴，平面 $\\alpha$ 为 $xy$ 平面，平面 $\\beta$ 为 $xz$ 平面. 设 $A=(x_1,a,0)$，$B=(x_2,0,b)$，并记 $u=x_2-x_1$，则\r\n$AB$ 的长度为 $L=\\sqrt{u^2+a^2+b^2}$.\r\n\r\n$AB$ 与平面 $\\alpha$ 所成角为 $\\theta$，其垂直于 $\\alpha$ 的分量长度为 $b$，所以 $\\sin\\theta=\\frac{b}{L}$. 同理，$AB$ 与平面 $\\beta$ 所成角为 $\\varphi$，故 $\\sin\\varphi=\\frac{a}{L}$. 由于两角均为锐角且 $a>b$，所以 $\\theta<\\varphi$.\r\n\r\n$AB$ 在 $\\alpha$，$\\beta$ 内的射影长度分别为\r\n$m=\\sqrt{u^2+a^2}$，$n=\\sqrt{u^2+b^2}$. 由 $a>b$ 得 $m>n$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 满足 $f(x + y) = f(x) + f(y) + 2xy$（$x$，$y \\in \\mathbb{R}$），$f(1) = 2$，则 $f(-2)$ 等于（ ）",
+          "choices": [
+            "$2$",
+            "$3$",
+            "$6$",
+            "$9$"
+          ],
+          "answer": "A",
+          "solution": "令题中函数关系式中的 $y=-x$，则\r\n$f(0)=f(x)+f(-x)-2x^2$. 再令 $x=0$，可得 $f(0)=0$，因此\r\n$f(-x)=2x^2-f(x)$.\r\n\r\n由 $f(1)=2$，在原函数关系式中取 $x=y=1$，得\r\n$f(2)=f(1)+f(1)+2=6$. 再令 $x=2$，$y=-2$，得到\r\n$f(0)=f(2)+f(-2)-8$，所以\r\n$f(-2)=2$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "为提高信息在传输中的抗干扰能力，通常在原信息中按一定规则加入相关数据组成传输信息. 设定原信息为 $a_0 a_1 a_2$，$a_i \\in \\{0, 1\\}$（$i = 0$，$1$，$2$），传输信息为 $h_0 a_0 a_1 a_2 h_1$，其中 $h_0 = a_0 \\oplus a_1$，$h_1 = h_0 \\oplus a_2$，$\\oplus$ 运算规则为：$0 \\oplus 0 = 0$，$0 \\oplus 1 = 1$，$1 \\oplus 0 = 1$，$1 \\oplus 1 = 0$. 例如原信息为 $111$，则传输信息为 $01111$. 传输信息在传输过程中受到干扰可能导致接收信息出错，则下列接收信息一定有误的是（ ）",
+          "choices": [
+            "$11010$",
+            "$01100$",
+            "$10111$",
+            "$00011$"
+          ],
+          "answer": "C",
+          "solution": "合法传输信息 $h_0a_0a_1a_2h_1$ 必须满足\r\n$h_0=a_0\\oplus a_1$ 且 $h_1=h_0\\oplus a_2$. 逐项检查：\r\n\r\n接收信息 $11010$ 中，$1=1\\oplus0$，且 $0=1\\oplus1$，合法.\r\n接收信息 $01100$ 中，$0=1\\oplus1$，且 $0=0\\oplus0$，合法.\r\n接收信息 $10111$ 中，前一校验满足 $1=0\\oplus1$，但后一校验应为 $1\\oplus1=0$，而接收到的末位为 $1$，故一定有误.\r\n接收信息 $00011$ 中，$0=0\\oplus0$，且 $1=0\\oplus1$，合法.\r\n\r\n因此一定有误的是 $10111$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，若 $c = \\sqrt{2}$，$b = \\sqrt{6}$，$B = 120^{\\circ}$，则 $a = _______ {}$.",
+          "choices": [],
+          "answer": "\\(\\sqrt{2}\\)",
+          "solution": "由余弦定理，\r\n\n$$\nb^2=a^2+c^2-2ac\\cos B\n$$\n\r\n代入 $b=\\sqrt{6}$，$c=\\sqrt{2}$，$B=120^{\\circ}$，得\r\n$6=a^2+2-2a\\sqrt{2}\\left(-\\frac{1}{2}\\right)=a^2+2+\\sqrt{2}a$.\r\n所以 $a^2+\\sqrt{2}a-4=0$，解得\r\n$a=\\sqrt{2}$ 或 $a=-2\\sqrt{2}$. 由于边长 $a>0$，故 $a=\\sqrt{2}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "$\\left(1 - \\frac{2}{x}\\right)^7$ 的展开式中 $\\frac{1}{x^2}$ 的系数为 _______ {}. （用数字作答）",
+          "choices": [],
+          "answer": "\\(84\\)",
+          "solution": "二项式展开的通项为\r\n$\\mathrm C_7^k\\left(-\\frac{2}{x}\\right)^k=\\mathrm C_7^k(-2)^k x^{-k}$.\r\n要得到 $\\frac{1}{x^2}=x^{-2}$，必须取 $k=2$，所以所求系数为\r\n$\\mathrm C_7^2(-2)^2=21\\times4=84$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "关于平面向量 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$，有下列三个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 若 $\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{a} \\cdot \\mathbf{c}$，则 $\\mathbf{b} = \\mathbf{c}$；\r\n\\item 若 $\\mathbf{a} = (1, k)$，$\\mathbf{b} = (-2, 6)$，$\\mathbf{a} \\parallel \\mathbf{b}$，则 $k = -3$；\r\n\\item 非零向量 $\\mathbf{a}$ 和 $\\mathbf{b}$ 满足 $|\\mathbf{a}| = |\\mathbf{b}| = |\\mathbf{a} - \\mathbf{b}|$，则 $\\mathbf{a}$ 与 $\\mathbf{a} + \\mathbf{b}$ 的夹角为 $60^{\\circ}$.\r\n\\end{circlelist}\r\n\r\n其中真命题的序号为 _______ {}. （写出所有真命题的序号）",
+          "choices": [],
+          "answer": "\\(\\circled{2}\\)",
+          "solution": "命题 $\\circled{1}$ 只说明 $\\mathbf{a}\\cdot(\\mathbf{b}-\\mathbf{c})=0$，不能推出 $\\mathbf{b}=\\mathbf{c}$. 例如取 $\\mathbf{a}=(1,0)$，$\\mathbf{b}=(0,0)$，$\\mathbf{c}=(0,1)$，则两点积相等而 $\\mathbf{b}\\ne\\mathbf{c}$，所以命题 $\\circled{1}$ 为假.\r\n\r\n命题 $\\circled{2}$ 中，由 $\\mathbf{a}\\parallel\\mathbf{b}$ 得 $1\\cdot6-k\\cdot(-2)=0$，即 $6+2k=0$，所以 $k=-3$，命题 $\\circled{2}$ 为真.\r\n\r\n命题 $\\circled{3}$ 设 $|\\mathbf{a}|=|\\mathbf{b}|=r>0$. 由 $|\\mathbf{a}-\\mathbf{b}|=r$，得\r\n$r^2=r^2+r^2-2\\mathbf{a}\\cdot\\mathbf{b}$，从而 $\\mathbf{a}\\cdot\\mathbf{b}=\\frac{r^2}{2}$. 因此\r\n\n$$\n\\cos\\angle\\left(\\mathbf{a},\\mathbf{a}+\\mathbf{b}\\right)\r\n=\\frac{\\mathbf{a}\\cdot(\\mathbf{a}+\\mathbf{b})}{|\\mathbf{a}|\\,|\\mathbf{a}+\\mathbf{b}|}\r\n=\\frac{\\frac{3r^2}{2}}{r\\cdot\\sqrt{3}r}=\\frac{\\sqrt{3}}{2}\n$$\n\r\n所以该夹角为 $30^{\\circ}$，不是 $60^{\\circ}$，命题 $\\circled{3}$ 为假. 故真命题的序号为 $2$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "某地奥运火炬接力传递路线共分 $6$ 段. 传递活动分别由 $6$ 名火炬手完成. 如果第一棒火炬手只能从甲，乙，丙三人中产生，最后一棒火炬手只能从甲，乙两人中产生，则不同的传递方案共有 _______ {}. （用数字作答）",
+          "choices": [],
+          "answer": "\\(96\\)",
+          "solution": "第一棒从甲、乙、丙中选，最后一棒从甲、乙中选，且六名火炬手分别完成六段，所以第一棒和最后一棒不能由同一人完成. 先安排这两棒：从 $3\\times2=6$ 种搭配中去掉第一棒、最后一棒都是甲或都是乙的两种，得到 $4$ 种.\r\n\r\n确定首尾两人后，剩余四名火炬手安排到中间四段，有 $4!=24$ 种. 因此不同传递方案共有\r\n$4\\times4!=4\\times24=96$ 种.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "已知函数 $f(x) = 2\\sin \\frac{x}{4} \\cos \\frac{x}{4} + \\sqrt{3} \\cos \\frac{x}{2}$.\r\n\n(1) 求函数 $f(x)$ 的最小正周期及最值；\n\n(2) 令 $g(x) = f\\left(x + \\frac{\\pi}{3}\\right)$，判断函数 $g(x)$ 的奇偶性，并说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由正弦、余弦的二倍角公式，得 $f(x)=\\sin\\frac{x}{2}+\\sqrt{3}\\cos\\frac{x}{2}=2\\sin\\left(\\frac{x}{2}+\\frac{\\pi}{3}\\right)$. 因为正弦函数的最小正周期为 $2\\pi$，所以 $f(x)$ 的最小正周期为 $4\\pi$. 又因为 $-1\\le\\sin\\left(\\frac{x}{2}+\\frac{\\pi}{3}\\right)\\leqslant1$，所以 $f(x)$ 的最大值为 $2$，最小值为 $-2$.\n\n(2) $g(x)=f\\left(x+\\frac{\\pi}{3}\\right)=2\\sin\\left(\\frac{x}{2}+\\frac{\\pi}{2}\\right)=2\\cos\\frac{x}{2}$. 因为 $g(-x)=2\\cos\\left(-\\frac{x}{2}\\right)=2\\cos\\frac{x}{2}=g(x)$，所以 $g(x)$ 是偶函数.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "一个口袋中装有大小相同的 $2$ 个红球，$3$ 个黑球和 $4$ 个白球，从口袋中一次摸出一个球，摸出的球不再放回. \r\n\n(1) 连续摸球 $2$ 次，求第一次摸出黑球，第二次摸出白球的概率；\n\n(2) 如果摸出红球，则停止摸球，求摸球次数不超过 $3$ 次的概率.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 口袋中共有 $9$ 个球. 第一次摸出黑球的概率为 $\\frac{3}{9}$，在第一次摸出黑球的条件下，第二次摸出白球的概率为 $\\frac{4}{8}$，所以所求概率为 $\\frac{3}{9}\\cdot\\frac{4}{8}=\\frac{1}{6}$.\n\n(2) 摸球次数不超过 $3$ 次，等价于前三次摸球中至少摸到一个红球. 也可以按第一次、第二次或第三次首次摸到红球分类：第一次摸到红球的概率为 $\\frac{2}{9}$；第一次未摸到红球且第二次摸到红球的概率为 $\\frac{7}{9}\\cdot\\frac{2}{8}$；前两次均未摸到红球且第三次摸到红球的概率为 $\\frac{7}{9}\\cdot\\frac{6}{8}\\cdot\\frac{2}{7}$. 这些事件互不相容，故所求概率为 $\\frac{2}{9}+\\frac{7}{9}\\cdot\\frac{2}{8}+\\frac{7}{9}\\cdot\\frac{6}{8}\\cdot\\frac{2}{7}=\\frac{7}{12}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "三棱锥被平行于底面 $ABC$ 的平面所截得的几何体如图所示，截面为 $A_{1}B_{1}C_{1}$， $\\angle BAC = 90^{\\circ}$， $A_{1}A \\perp$ 平面 $ABC$， $A_{1}A = \\sqrt{3}$，$AB = AC = 2A_{1}C_{1} = 2$，$D$ 为 $BC$ 中点.\r\n\r\n\n(1) 证明：平面 $A_{1}AD \\perp$ 平面 $BCC_{1}B_{1}$；\n\n(2) 求二面角 $A - CC_{1} - B$ 的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/shaanxi_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 以 $A$ 为原点，分别以 $AB$，$AC$，$AA_{1}$ 的方向为三个坐标轴正方向，建立空间直角坐标系. 由题意，$A=(0,0,0)$，$B=(2,0,0)$，$C=(0,2,0)$，$A_{1}=(0,0,\\sqrt{3})$. 因为截面 $A_{1}B_{1}C_{1}$ 平行于底面 $ABC$，且 $A_{1}C_{1}=1=\\frac{1}{2}AC$，所以相应线段的长度都缩小为原来的一半，从而 $B_{1}=(1,0,\\sqrt{3})$，$C_{1}=(0,1,\\sqrt{3})$. 又因为 $D$ 为 $BC$ 的中点，所以 $D=(1,1,0)$.\r\n\r\n平面 $A_{1}AD$ 的方程为 $x-y=0$，其一个法向量为 $\\mathbf{n}_{1}=(1,-1,0)$. 平面 $BCC_{1}B_{1}$ 的方程为 $x+y+\\frac{z}{\\sqrt{3}}=2$，其一个法向量为 $\\mathbf{n}_{2}=\\left(1,1,\\frac{1}{\\sqrt{3}}\\right)$. 因为 $\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=1-1+0=0$，所以两平面的法向量互相垂直，从而平面 $A_{1}AD\\perp$ 平面 $BCC_{1}B_{1}$.\n\n(2) 设 $\\mathbf{v}=\\overrightarrow{CC_{1}}=(0,-1,\\sqrt{3})$. 过 $C$ 作垂直于 $CC_{1}$ 的平面，该平面分别与两个面交成二面角的平面角. 取 $\\overrightarrow{CA}=(0,-2,0)$ 和 $\\overrightarrow{CB}=(2,-2,0)$ 在该平面上的投影：\r\n$\\mathbf{u}=\\overrightarrow{CA}-\\frac{\\overrightarrow{CA}\\cdot\\mathbf{v}}{|\\mathbf{v}|^{2}}\\mathbf{v}=\\left(0,-\\frac{3}{2},-\\frac{\\sqrt{3}}{2}\\right)$，\r\n$\\mathbf{w}=\\overrightarrow{CB}-\\frac{\\overrightarrow{CB}\\cdot\\mathbf{v}}{|\\mathbf{v}|^{2}}\\mathbf{v}=\\left(2,-\\frac{3}{2},-\\frac{\\sqrt{3}}{2}\\right)$.\r\n$\\mathbf{u}$ 和 $\\mathbf{w}$ 分别沿两个面的平面角方向，因此若该平面角为 $\\theta$，则\r\n$\\cos\\theta=\\frac{\\mathbf{u}\\cdot\\mathbf{w}}{|\\mathbf{u}||\\mathbf{w}|}=\\frac{3}{\\sqrt{3}\\sqrt{7}}=\\sqrt{\\frac{3}{7}}$. 因此二面角 $A-CC_{1}-B$ 的大小为 $\\arccos\\sqrt{\\frac{3}{7}}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知数列 $\\{a_{n}\\}$ 的首项 $a_1 = \\frac{2}{3}$，$a_{n + 1} = \\frac{2a_n}{a_n + 1}$，$n = 1$，$2$，$\\dots$.\r\n\n(1) 证明：数列 $\\left\\{\\frac{1}{a_{n}}-1\\right\\}$ 是等比数列；\n\n(2) 数列 $\\left\\{\\frac{n}{a_{n}}\\right\\}$ 的前 $n$ 项和 $S_{n}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由递推关系式，得 $\\frac{1}{a_{n+1}}=\\frac{a_n+1}{2a_n}=\\frac{1}{2}\\left(\\frac{1}{a_n}+1\\right)$，所以 $\\frac{1}{a_{n+1}}-1=\\frac{1}{2}\\left(\\frac{1}{a_n}-1\\right)$. 又因为 $\\frac{1}{a_1}-1=\\frac{1}{2}$，所以数列 $\\left\\{\\frac{1}{a_n}-1\\right\\}$ 是首项为 $\\frac{1}{2}$、公比为 $\\frac{1}{2}$ 的等比数列.\n\n(2) 由上问，$\\frac{1}{a_n}-1=\\frac{1}{2^n}$，从而 $\\frac{1}{a_n}=1+\\frac{1}{2^n}$，即 $a_n=\\frac{2^n}{2^n+1}$. 因此 $\\frac{n}{a_n}=n+\\frac{n}{2^n}$，于是\r\n\n$$\nS_n=\\sum_{k=1}^{n}\\frac{k}{a_k}=\\frac{n(n+1)}{2}+\\sum_{k=1}^{n}\\frac{k}{2^k}\n$$\n\r\n令 $T_n=\\sum_{k=1}^{n}\\frac{k}{2^k}$，注意到 $\\frac{k}{2^k}=\\frac{k+1}{2^{k-1}}-\\frac{k+2}{2^k}$，所以\r\n\n$$\nT_n=2-\\frac{n+2}{2^n}\n$$\n\r\n故 $S_n=\\frac{n(n+1)}{2}+2-\\frac{n+2}{2^n}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知抛物线 $C: y = 2x^{2}$，直线 $y = kx + 2$ 交 $C$ 于 $A$，$B$ 两点. $M$ 是线段 $AB$ 的中点，过 $M$ 作 $x$ 轴的垂线交 $C$ 于点 $N$. \r\n\n(1) 证明：抛物线 $C$ 在点 $N$ 处的切线与 $AB$ 平行；\n\n(2) 是否存在实数 $k$ 使 $\\overrightarrow{NA} \\cdot \\overrightarrow{NB} = 0$. 若存在，求 $k$ 的值；若不存在，说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $A$，$B$ 的横坐标分别为 $x_A$，$x_B$. 由交点横坐标满足的方程 $2x^2-kx-2=0$，得 $x_A+x_B=\\frac{k}{2}$. 因为 $M$ 是 $AB$ 的中点，所以 $M$ 的横坐标为 $\\frac{x_A+x_B}{2}=\\frac{k}{4}$，过 $M$ 作 $x$ 轴的垂线与抛物线交于 $N$，故 $N$ 的横坐标为 $\\frac{k}{4}$. 抛物线 $y=2x^2$ 在横坐标为 $x$ 的点处的切线斜率为 $4x$，所以点 $N$ 处切线的斜率为 $4\\cdot\\frac{k}{4}=k$. 直线 $AB$ 的斜率也是 $k$，因此抛物线在点 $N$ 处的切线与 $AB$ 平行.\n\n(2) 令 $p=\\frac{x_A+x_B}{2}=\\frac{k}{4}$，$d=\\frac{x_A-x_B}{2}$，则 $x_A=p+d$，$x_B=p-d$. 由韦达定理，$x_Ax_B=-1$，所以 $p^2-d^2=-1$，即 $d^2=p^2+1$. 又 $N=(p,2p^2)$，从而\r\n\r\n\n$$\n\\overrightarrow{NA}=\\left(d,4pd+2d^2\\right)\n$$\n\r\n\r\n\n$$\n\\overrightarrow{NB}=\\left(-d,-4pd+2d^2\\right)\n$$\n\r\n因此\r\n\n$$\n\\overrightarrow{NA}\\cdot\\overrightarrow{NB}=-d^2+\\left(4pd+2d^2\\right)\\left(-4pd+2d^2\\right)=d^2\\left(4d^2-16p^2-1\\right)=3d^2\\left(1-4p^2\\right)\n$$\n\r\n因为 $A$，$B$ 为两个不同的交点，所以 $d\\neq0$. 当且仅当 $p^2=\\frac{1}{4}$ 时，上式等于 $0$，此时 $p=\\pm\\frac{1}{2}$，所以 $k=4p=\\pm2$. 对这两个值，交点方程的判别式均为正，确有两个交点，故存在满足条件的实数 $k$，其值为 $2$ 或 $-2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "设函数 $f(x) = x^{3} + ax^{2} - a^{2}x + 1$，$g(x) = ax^{2} - 2x + 1$，其中实数 $a \\neq 0$. \r\n\n(1) 若 $a > 0$，求函数 $f(x)$ 的单调区间；\n\n(2) 当函数 $y = f(x)$ 与 $y = g(x)$ 的图象只有一个公共点且 $g(x)$ 存在最小值时，记 $g(x)$ 的最小值为 $h(a)$，求 $h(a)$ 的值域；\n\n(3) 若 $f(x)$ 与 $g(x)$ 在区间 $(a, a + 2)$ 内均为增函数，求 $a$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 当 $a>0$ 时，$f'(x)=3x^2+2ax-a^2=(3x-a)(x+a)$. 导数的两个零点为 $-a$ 和 $\\frac{a}{3}$，且 $-a<\\frac{a}{3}$. 因此当 $x<-a$ 或 $x>\\frac{a}{3}$ 时，$f'(x)>0$；当 $-a<x<\\frac{a}{3}$ 时，$f'(x)<0$. 所以 $f(x)$ 的增区间为 $(-\\infty,-a)$ 和 $\\left(\\frac{a}{3},+\\infty\\right)$，减区间为 $\\left(-a,\\frac{a}{3}\\right)$.\n\n(2) 两函数图象的公共点横坐标满足 $f(x)=g(x)$，即 $x^3+ax^2-a^2x+1=ax^2-2x+1$，整理得 $x\\left(x^2+2-a^2\\right)=0$. 因而 $x=0$ 总是公共点横坐标；当 $a^2>2$ 时，方程 $x^2=a^2-2$ 还给出两个另外的公共点横坐标.\r\n\r\n因为 $g(x)=ax^2-2x+1$ 存在最小值，所以必须有 $a>0$. 要使公共点只有一个，必须且只需 $a^2\\leqslant2$，故 $0<a\\le\\sqrt{2}$. 配方得 $g(x)=a\\left(x-\\frac{1}{a}\\right)^2+1-\\frac{1}{a}$，所以 $h(a)=1-\\frac{1}{a}$. 当 $0<a\\le\\sqrt{2}$ 时，$h(a)$ 在该区间上递增，且当 $a\\to0^+$ 时趋于 $-\\infty$，在 $a=\\sqrt{2}$ 时取最大值 $1-\\frac{\\sqrt{2}}{2}$. 因此 $h(a)$ 的值域为 $\\left(-\\infty,1-\\frac{\\sqrt{2}}{2}\\right]$.\n\n(3) $f'(x)=(3x-a)(x+a)$，$g'(x)=2ax-2=2(ax-1)$. 先考虑 $a>0$. 由于 $x\\in(a,a+2)$ 时有 $x>a>\\frac{a}{3}$，所以 $f'(x)>0$. 要使 $g'(x)>0$ 对区间内一切 $x$ 成立，需要 $a\\geqslant1$；当 $a=1$ 时，区间为开区间 $(1,3)$，仍有 $g'(x)>0$. 故正数情形给出 $a\\geqslant1$.\r\n\r\n再考虑 $a<0$. 此时 $f'(x)>0$ 的区域为 $x<\\frac{a}{3}$ 或 $x>-a$. 由于 $a<0$ 时不可能有整个区间 $(a,a+2)$ 位于 $x>-a$ 的区域内，要使其位于左侧增区间内，必须有 $a+2\\le\\frac{a}{3}$，即 $a\\le-3$. 对于 $a\\le-3$，又有 $a(a+2)\\geqslant1$，从而对 $x\\in(a,a+2)$，有 $ax>a(a+2)\\geqslant1$，所以 $g'(x)>0$. 反之，若 $-3<a<0$，则区间内存在 $x$ 使 $\\frac{a}{3}<x<-a$，此时 $f'(x)<0$，不满足题意. 因此负数情形给出 $a\\le-3$.\r\n\r\n综上，$a$ 的取值范围为 $\\left(-\\infty,-3\\right]\\cup[1,+\\infty)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

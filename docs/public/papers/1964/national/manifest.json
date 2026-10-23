@@ -1,0 +1,156 @@
+{
+  "year": "1964",
+  "slug": "national",
+  "title": "1964年全国卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "附加题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "化简：$\\frac{\\sqrt[3]{3^{-\\frac32}\\left( \\frac13 \\right)^{-3}}}{\\left( \\sqrt3-1 \\right)^2}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "先化简根号内的幂：\r\n\n$$\n3^{-\\frac32}\\left( \\frac13 \\right)^{-3}=3^{-\\frac32}3^3=3^{\\frac32}\n$$\n\r\n因此\r\n\n$$\n\\frac{\\sqrt[3]{3^{-\\frac32}\\left( \\frac13 \\right)^{-3}}}{\\left( \\sqrt3-1 \\right)^2}\r\n=\\frac{3^{\\frac12}}{\\left( \\sqrt3-1 \\right)^2}\r\n=\\frac{\\sqrt3}{4-2\\sqrt3}\r\n=\\frac{\\sqrt3}{2\\left( 2-\\sqrt3 \\right)}\n$$\n\r\n分母有理化，得\r\n\n$$\n\\frac{\\sqrt3}{2\\left( 2-\\sqrt3 \\right)}\r\n=\\frac{\\sqrt3\\left( 2+\\sqrt3 \\right)}{2\\left( 2-\\sqrt3 \\right)\\left( 2+\\sqrt3 \\right)}\r\n=\\frac{2\\sqrt3+3}{2}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "甲乙二人在河的南岸 $O$ 处，隔河在正北方向有一建筑物 $P$. 甲向正东，乙向正西沿河岸而行，甲每分钟比乙多走 $a\\text{ 米}$. $10$ 分钟后，甲望建筑物 $P$ 在北 $\\alpha^\\circ$ 西（即北偏西 $\\alpha^\\circ$），乙望建筑物 $P$ 在北 $\\beta^\\circ$ 东（即北偏东 $\\beta^\\circ$），求 $O$ 与 $P$ 之间的距离.",
+          "choices": [],
+          "answer": "",
+          "solution": "设十分钟后甲、乙所在位置分别为 $A$、$B$，设 $OB=x$，则乙向正西走了 $x$ 米，甲向正东走了 $x+10a$ 米，所以 $OA=x+10a$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1964/img/national/q2_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n设 $OP=h$. 过 $A$、$B$ 分别作与 $OP$ 同向的正北方向直线，则由北偏角的定义，$\\alpha$、$\\beta$ 分别是 $AP$、$BP$ 与这些正北方向直线的夹角. 因此在两个直角三角形中分别有\r\n$\\tan\\alpha=\\frac{OA}{OP}=\\frac{x+10a}{h}$，$\\tan\\beta=\\frac{OB}{OP}=\\frac{x}{h}$，即 $h\\tan\\alpha=x+10a$，$h\\tan\\beta=x$.\r\n两式相减，得到\r\n\n$$\nh\\left( \\tan\\alpha-\\tan\\beta \\right)=10a\n$$\n\r\n所以\r\n\n$$\nOP=h=\\frac{10a}{\\tan\\alpha-\\tan\\beta}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "解方程 $x^4+1=0$；并且证明：平面内表示这个方程的根的四个点是一个正方形的顶点.",
+          "choices": [],
+          "answer": "",
+          "solution": "将方程左边配方并作平方差分解：\r\n\n$$\nx^4+1=\\left( x^2+1 \\right)^2-2x^2\r\n=\\left( x^2+\\sqrt2x+1 \\right)\\left( x^2-\\sqrt2x+1 \\right)\n$$\n\r\n因此原方程等价于\r\n\n$$\n\\left( x^2+\\sqrt2x+1 \\right)\\left( x^2-\\sqrt2x+1 \\right)=0\n$$\n\r\n由求根公式，两个二次方程的根分别为\r\n\n$$\nx=\\frac{-\\sqrt2\\pm\\sqrt{-2}}{2}=\\frac{\\sqrt2}{2}\\left( -1\\pm\\mathrm{i} \\right)\n$$\n\r\n以及\r\n\n$$\nx=\\frac{\\sqrt2\\pm\\sqrt{-2}}{2}=\\frac{\\sqrt2}{2}\\left( 1\\pm\\mathrm{i} \\right)\n$$\n\r\n所以四个根可按逆时针顺序记为 $x_1=\\frac{\\sqrt2}{2}\\left( 1+\\mathrm{i} \\right)$，$x_2=\\frac{\\sqrt2}{2}\\left( -1+\\mathrm{i} \\right)$，$x_3=\\frac{\\sqrt2}{2}\\left( -1-\\mathrm{i} \\right)$，$x_4=\\frac{\\sqrt2}{2}\\left( 1-\\mathrm{i} \\right)$.\r\n令 $c=\\frac{\\sqrt2}{2}$，并在复平面内分别以 $M_1$，$M_2$，$M_3$，$M_4$ 表示这四个根，则\r\n$M_1=(c,c)$，$M_2=(-c,c)$，$M_3=(-c,-c)$，$M_4=(c,-c)$.\r\n于是\r\n\n$$\nM_1M_2=M_2M_3=M_3M_4=M_4M_1=2c=\\sqrt2\n$$\n\r\n且 $M_1M_2$ 平行于实轴，$M_2M_3$ 平行于虚轴，所以 $\\angle M_1M_2M_3=90^\\circ$. 四边相等且有一个直角，故 $M_1M_2M_3M_4$ 是正方形.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1964/img/national/q3_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "已知 $A$，$B$，$C$ 是三角形的三个内角，求证：$\\cos A=\\frac{\\sin^2B+\\sin^2C-\\sin^2A}{2\\sin B\\sin C}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "设三角形的三边分别为 $a$、$b$、$c$，其中 $a$、$b$、$c$ 分别与角 $A$、$B$、$C$ 对应，外接圆半径为 $R$. 由正弦定理，\r\n\n$$\n\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R\n$$\n\r\n即 $\\sin A=\\frac{a}{2R}$，$\\sin B=\\frac{b}{2R}$，$\\sin C=\\frac{c}{2R}$.\r\n代入右端，得到\r\n\n$$\n\\frac{\\sin^2B+\\sin^2C-\\sin^2A}{2\\sin B\\sin C}\r\n=\\frac{\\frac{b^2}{4R^2}+\\frac{c^2}{4R^2}-\\frac{a^2}{4R^2}}{2\\cdot\\frac{b}{2R}\\cdot\\frac{c}{2R}}\r\n=\\frac{b^2+c^2-a^2}{2bc}\n$$\n\r\n由余弦定理 $a^2=b^2+c^2-2bc\\cos A$，所以\r\n\n$$\n\\frac{b^2+c^2-a^2}{2bc}=\\cos A\n$$\n\r\n又因为 $B$、$C$ 是三角形内角，$\\sin B\\sin C>0$，上述除法合法，故原等式成立.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "已知方程 $x^3+mx^2-3x+n=0$ 的三个根的平方和为 $6$，且知这个方程有两相等的正根，求 $m$，$n$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "设两个相等的正根为 $\\alpha$、$\\alpha$，另一个根为 $\\beta$，其中 $\\alpha>0$. 由三个根的平方和为 $6$，得\r\n\n$$\n2\\alpha^2+\\beta^2=6\n$$\n\r\n由根与系数的关系，得\r\n\n$$\n\\alpha^2+2\\alpha\\beta=-3\n$$\n\r\n将第二式乘以 $2$，再与第一式相加，得到\r\n\n$$\n\\left( 2\\alpha^2+\\beta^2 \\right)+2\\left( \\alpha^2+2\\alpha\\beta \\right)=6-6=0\n$$\n\r\n即\r\n\n$$\n\\left( 2\\alpha+\\beta \\right)^2=0\n$$\n\r\n因此 $\\beta=-2\\alpha$. 代入平方和条件，得 $2\\alpha^2+\\left( -2\\alpha \\right)^2=6$，即 $6\\alpha^2=6$.\r\n由于 $\\alpha>0$，所以 $\\alpha=1$，进而 $\\beta=-2$.\r\n\r\n再次由根与系数的关系，$2\\alpha+\\beta=-m$，$\\alpha^2\\beta=-n$.\r\n代入 $\\alpha=1$、$\\beta=-2$，得\r\n$m=0$，$n=2$.\r\n校验可得方程为 $x^3-3x+2=\\left( x-1 \\right)^2\\left( x+2 \\right)=0$，确有两个相等的正根 $1$，故 $m=0$，$n=2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "圆台形铁桶的上口半径是 $15\\text{ 厘米}$，下底半径是 $10\\text{ 厘米}$，母线长是 $30\\text{ 厘米}$，将铁桶的侧面沿一条母线剪开铺平，得图中扇面形状的铁片 $ABCD$. 求 $A$，$B$ 两点间的距离.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1964/img/national/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "设扇形的圆心为 $O$，延长 $AD$ 与 $BC$ 相交于 $O$，设 $OD=x\\text{ 厘米}$，设 $\\angle COD=\\theta$，其中 $\\theta$ 用弧度表示. 展开后，外侧弧 $\\widehat{AB}$ 的长度等于铁桶上口周长，内侧弧 $\\widehat{CD}$ 的长度等于铁桶下底周长，因此由圆周长公式，$\\widehat{AB}=2\\pi\\cdot15=30\\pi\\text{ 厘米}$，$\\widehat{CD}=2\\pi\\cdot10=20\\pi\\text{ 厘米}$.\r\n由弧长公式，得到\r\n\n$$\n\\begin{cases}\r\n\\left( x+30 \\right)\\theta=30\\pi,\\\\\r\nx\\theta=20\\pi.\r\n\\end{cases}\n$$\n\r\n两式相减，得 $30\\theta=10\\pi$，所以 $\\theta=\\frac{\\pi}{3}$. 再由 $x\\theta=20\\pi$，得\r\n\n$$\nx=\\frac{20\\pi}{\\theta}=60\n$$\n\r\n于是 $OA=OB=x+30=90\\text{ 厘米}$，且 $\\angle AOB=\\theta=\\frac{\\pi}{3}$. 因而\r\n\n$$\nAB=2\\cdot90\\sin\\frac{\\theta}{2}=180\\sin\\frac{\\pi}{6}=90\\text{ 厘米}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "$A$，$B$，$C$，$D$ 四个点在平面 $M$ 和平面 $N$ 之外，$A$，$B$，$C$，$D$ 在平面 $M$ 内的射影是 $A_1$，$B_1$，$C_1$，$D_1$，在平面 $N$ 内的射影是 $A_2$，$B_2$，$C_2$，$D_2$. 已知 $A_1$，$B_1$，$C_1$，$D_1$ 在一条直线上，$A_2B_2C_2D_2$ 是一个平行四边形，求证 $ABCD$ 也是一个平行四边形.",
+          "choices": [],
+          "answer": "",
+          "solution": "设 $A_1$、$B_1$、$C_1$、$D_1$ 所在的直线为 $l$. 过 $l$ 和直线 $AA_1$ 作平面 $P$. 因为 $l\\subset M$，且 $AA_1\\perp M$，所以 $P\\perp M$. 显然 $A\\in P$. 对于点 $B$，由于 $B_1\\in l\\subset P$，且 $BB_1\\perp M$，而平面 $P\\perp M$，所以平面 $P$ 内过 $B_1$ 的垂线就是 $BB_1$，故 $BB_1\\subset P$，从而 $B\\in P$. 同理，$C$、$D$ 也在平面 $P$ 内.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1964/img/national/q7_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n因为 $AA_2$、$DD_2$ 都垂直于平面 $N$，所以 $AA_2\\parallel DD_2$. 又因为 $A_2B_2C_2D_2$ 是平行四边形，所以 $A_2B_2\\parallel D_2C_2$. 设由直线 $AA_2$、$A_2B_2$ 所确定的平面为 $U$，由直线 $DD_2$、$D_2C_2$ 所确定的平面为 $V$. 由于 $A_2B_2$ 与 $D_2C_2$ 是不重合的平行直线，且 $AA_2\\parallel DD_2$，所以 $U$ 与 $V$ 是不重合的平行平面.\r\n\r\n由于 $BB_2\\parallel AA_2$，且 $B_2\\in A_2B_2$，有 $B\\in U$. 若 $U=P$，则 $U$ 含有垂直于 $N$ 的直线 $AA_2$，因而 $U\\perp N$，且 $U\\cap N=A_2B_2$. 对于 $C$，$D\\in P=U$，它们在 $N$ 内的正射影 $C_2$，$D_2$ 必在 $U\\cap N=A_2B_2$ 上，这与 $A_2B_2C_2D_2$ 是平行四边形矛盾，故 $U\\ne P$. 同理 $V\\ne P$. 因此 $U\\cap P=AB$，$V\\cap P=CD$. 平面 $P$ 截两个平行平面所得的交线平行，因此 $AB\\parallel CD$.\r\n\r\n同样，由 $AA_2\\parallel BB_2$ 和 $A_2D_2\\parallel B_2C_2$，由 $AA_2$、$A_2D_2$ 所确定的平面与由 $BB_2$、$B_2C_2$ 所确定的平面是两不重合的平行平面. 这两个平面与 $P$ 的交线分别为 $AD$、$BC$，所以 $AD\\parallel BC$. 两组对边分别平行，故四边形 $ABCD$ 是平行四边形.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "下图中 $ABCD$ 是正方形，其每边长为 $1$；在正方形内，$\\odot O$ 与 $\\odot O'$ 互相外切，并且 $\\odot O$ 与 $AB$，$AD$ 两边相切，$\\odot O'$ 与 $CB$，$CD$ 两边相切.\r\n\r\n\n(1) 求这两圆半径之和.\n\n(2) 当两圆半径各多么长时，两圆面积之和最小？当半径各多么长时，面积之和最大？证明你的结论.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1964/img/national/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "设两圆半径分别为 $r$、$r'$，令 $s=r+r'$. 建立直角坐标系，取 $A=(0,0)$、$B=(1,0)$、$D=(0,1)$，则 $C=(1,1)$. 由于 $\\odot O$ 与 $AB$、$AD$ 相切，$O=(r,r)$；由于 $\\odot O'$ 与 $CB$、$CD$ 相切，$O'=(1-r',1-r')$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1964/img/national/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n由于两圆都在正方形内且分别与两边相切，$0<r$，$r'\\le\\frac12$. 若 $s=1$，则 $r=r'=\\frac12$，从而 $O=O'=\\left(\\frac12,\\frac12\\right)$，这与两圆外切矛盾，故 $0<s<1$.\r\n\r\n\n(1) 两圆外切，所以 $OO'=r+r'=s$. 另一方面，\r\n\n$$\nOO'=\\sqrt{\\left( 1-r'-r \\right)^2+\\left( 1-r'-r \\right)^2}=\\sqrt2\\left( 1-s \\right)\n$$\n\r\n因此 $s=\\sqrt2\\left( 1-s \\right)$，解得\r\n\n$$\ns=\\frac{\\sqrt2}{1+\\sqrt2}=2-\\sqrt2\n$$\n\n(2) 每个圆都在边长为 $1$ 的正方形内并与两边相切，所以 $0<r\\le\\frac12$，$0<r'\\le\\frac12$，并且 $r+r'=s=2-\\sqrt2$.\r\n两圆面积之和为\r\n\n$$\nS=\\pi\\left( r^2+r'^2 \\right)=\\frac{\\pi}{2}\\left[ s^2+\\left( r-r' \\right)^2 \\right]\n$$\n\r\n当且仅当 $r-r'=0$ 时，$S$ 取得最小值，所以\r\n\n$$\nr=r'=\\frac{s}{2}=\\frac{2-\\sqrt2}{2}\n$$\n\r\n\r\n由 $0<r$，$r'\\le\\frac12$ 及 $r+r'=s$，可知\r\n\n$$\ns-\\frac12\\le r\\le\\frac12\n$$\n\r\n在此区间上，$\\left( r-r' \\right)^2=\\left( 2r-s \\right)^2$ 在端点处取得最大值. 因而面积之和最大时，一圆半径为 $\\frac12$，另一圆半径为\r\n\n$$\ns-\\frac12=\\frac32-\\sqrt2\n$$\n\r\n所以最大值在\r\n\n$$\n\\left( r,r' \\right)=\\left( \\frac12,\\frac32-\\sqrt2 \\right)\n$$\n\r\n或两圆互换这两个半径时取得.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "附加题",
+      "problems": [
+        {
+          "num": 9,
+          "body": "(1) 如果把第 $8$ 题中的正方形改成矩形，你能得什么结果？为什么？\n\n(2) 如果把第 $8$ 题中的正方形改成棱长为 $1$ 的正方体，把圆改成球，你能得到什么结果？为什么？",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设矩形 $ABCD$ 中 $AB=a$、$BC=b$，其中 $a>0$、$b>0$. 设两圆半径分别为 $r$、$r'$，且令 $s=r+r'$. 取 $A=(0,0)$、$B=(a,0)$、$D=(0,b)$，则两圆心分别为 $O=(r,r)$ 和 $O'=(a-r',b-r')$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1964/img/national/q8_additional_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n两圆外切，所以 $OO'=s$. 由两圆心坐标，\r\n\n$$\ns^2=OO'^2=\\left( a-r-r' \\right)^2+\\left( b-r-r' \\right)^2\r\n=\\left( a-s \\right)^2+\\left( b-s \\right)^2\n$$\n\r\n整理得\r\n\n$$\ns^2-2\\left( a+b \\right)s+a^2+b^2=0\n$$\n\r\n解这个关于 $s$ 的一元二次方程，得\r\n\n$$\ns=a+b\\pm\\sqrt{2ab}\n$$\n\r\n令 $m=\\min\\{a,b\\}$、$M=\\max\\{a,b\\}$. 因为每个圆都在矩形内并分别与相邻两边相切，所以 $0<r\\le\\frac{m}{2}$，$0<r'\\le\\frac{m}{2}$，从而 $0<s\\le m$. 因此只能取较小的根：\r\n\n$$\ns=a+b-\\sqrt{2ab}\n$$\n\r\n这个构型存在还必须满足\r\n\n$$\na+b-\\sqrt{2ab}\\le m\n$$\n\r\n由于 $a+b=M+m$，上式等价于\r\n\n$$\nM\\le\\sqrt{2Mm}\\iff M^2\\le2Mm\\iff M\\le2m\n$$\n\r\n若 $M>2m$，则上述两圆构型不存在. 反之，当 $M\\le2m$ 时，取 $r=r'=\\frac{s}{2}\\le\\frac m2$，两圆均在矩形内且满足外切条件，所以该条件也是充分的. 以下均在 $M\\le2m$ 的条件下讨论. 在此条件下，$s-\\frac m2>0$，因为\r\n\n$$\n\\left( M+\\frac m2 \\right)^2-2Mm=\\left( M-\\frac m2 \\right)^2>0\n$$\n\r\n\r\n两圆面积之和为\r\n\n$$\nS=\\pi\\left( r^2+r'^2 \\right)=\\frac{\\pi}{2}\\left[ s^2+\\left( r-r' \\right)^2 \\right]\n$$\n\r\n由于 $s$ 是定值，当且仅当 $r=r'=\\frac{s}{2}$ 时面积之和最小，即\r\n\n$$\nr=r'=\\frac{a+b-\\sqrt{2ab}}{2}\n$$\n\r\n\r\n又因为 $r$，$r'\\le\\frac{m}{2}$ 且 $r+r'=s$，可行范围为 $s-\\frac m2\\le r\\le\\frac m2$，且 $r'=s-r$. 此时 $r-r'=2r-s$ 随 $r$ 增大而增大，所以 $\\lvert r-r'\\rvert$ 在区间端点处取得最大值. 因而面积之和最大时，两圆半径为\r\n\n$$\n\\left\\{r,r'\\right\\}=\\left\\{\\frac{m}{2},\\ a+b-\\sqrt{2ab}-\\frac{m}{2}\\right\\}\n$$\n\r\n对应的最大面积之和为\r\n\n$$\nS_{\\max}=\\pi\\left[\\left( \\frac{m}{2} \\right)^2+\\left( a+b-\\sqrt{2ab}-\\frac{m}{2} \\right)^2\\right]\n$$\n\n(2) 设两个球的半径分别为 $r$、$r'$，令 $s=r+r'$. 建立直角坐标系，使正方体为 $[0,1]^3$，并使第一个球与过顶点 $(0,0,0)$ 的三个面相切，第二个球与相对顶点 $(1,1,1)$ 的三个面相切. 则两球心分别为 $O=(r,r,r)$ 和 $O'=(1-r',1-r',1-r')$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1964/img/national/q8_additional_solution_fig3.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n由于两球都在正方体内且分别与三个面相切，$0<r$，$r'\\le\\frac12$. 若 $s=1$，则 $r=r'=\\frac12$，从而 $O=O'=\\left(\\frac12,\\frac12,\\frac12\\right)$，这与两球外切矛盾，故 $0<s<1$.\r\n\r\n两球外切，故\r\n\n$$\ns^2=OO'^2=3\\left( 1-r-r' \\right)^2=3\\left( 1-s \\right)^2\n$$\n\r\n由于 $0<s<1$，取正平方根得到 $s=\\sqrt3\\left( 1-s \\right)$，解得\r\n\n$$\ns=\\frac{\\sqrt3}{1+\\sqrt3}=\\frac{3-\\sqrt3}{2}\n$$\n\r\n\r\n由于 $s=\\frac{3-\\sqrt3}{2}$ 且 $\\frac12<s<1$，可行范围为\r\n$s-\\frac12\\le r\\le\\frac12$，$r'=s-r$.\r\n\r\n两个球的表面积之和为\r\n\n$$\nS=4\\pi\\left( r^2+r'^2 \\right)=2\\pi\\left[ s^2+\\left( r-r' \\right)^2 \\right]\n$$\n\r\n因为 $0<r$，$r'\\le\\frac12$ 且 $r+r'=s$，当且仅当\r\n\n$$\nr=r'=\\frac{s}{2}=\\frac{3-\\sqrt3}{4}\n$$\n\r\n时表面积之和最小. 当一个半径取允许的最大值 $\\frac12$ 时，另一个半径为\r\n\n$$\ns-\\frac12=\\frac{2-\\sqrt3}{2}\n$$\n\r\n在上述可行区间上，$\\lvert r-r'\\rvert=\\lvert 2r-s\\rvert$ 在端点处取得最大值. 此时表面积之和最大. 也就是说最大值对应于\r\n\n$$\n\\left( r,r' \\right)=\\left( \\frac12,\\frac{2-\\sqrt3}{2} \\right)\n$$\n\r\n或两球互换这两个半径.\r\n\r\n两个球的体积之和为\r\n\n$$\nV=\\frac43\\pi\\left( r^3+r'^3 \\right)\r\n=\\frac43\\pi s\\left( r^2-rr'+r'^2 \\right)\r\n=\\frac{\\pi s}{3}\\left[ s^2+3\\left( r-r' \\right)^2 \\right]\n$$\n\r\n其中用到了\r\n\n$$\n4\\left( r^2-rr'+r'^2 \\right)=s^2+3\\left( r-r' \\right)^2\n$$\n\r\n这里 $s$ 为定值，所以体积之和也在 $r=r'$ 时最小，在一个半径为 $\\frac12$、另一个半径为 $\\frac{2-\\sqrt3}{2}$ 时最大.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

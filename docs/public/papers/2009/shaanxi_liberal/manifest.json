@@ -1,0 +1,416 @@
+{
+  "year": "2009",
+  "slug": "shaanxi_liberal",
+  "title": "2009年陕西卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设不等式 $x^{2} - x \\le 0$ 的解集为 $M$，函数 $f(x) = \\ln (1 - |x|)$ 的定义域为 $N$，则 $M \\cap N$ 为（ ）",
+          "choices": [
+            "$[0,1)$",
+            "$(0,1)$",
+            "$[0,1]$",
+            "$(-1,0]$"
+          ],
+          "answer": "A",
+          "solution": "由 $x^{2}-x\\le 0$ 得 $x(x-1)\\le 0$，所以 $M=[0,1]$. 函数 $\\ln(1-|x|)$ 有意义要求 $1-|x|>0$，即 $-1<x<1$，所以 $N=(-1,1)$. 因而 $M\\cap N=[0,1)$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "若 $\\tan \\alpha = 2$，则 $\\frac{2\\sin\\alpha - \\cos\\alpha}{\\sin\\alpha + 2\\cos\\alpha}$ 的值为（ ）",
+          "choices": [
+            "$0$",
+            "$\\frac{3}{4}$",
+            "$1$",
+            "$\\frac{5}{4}$"
+          ],
+          "answer": "B",
+          "solution": "由 $\\tan\\alpha=2$ 可知 $\\cos\\alpha\\neq 0$. 分子分母同除以 $\\cos\\alpha$，原式等于 $\\dfrac{2\\tan\\alpha-1}{\\tan\\alpha+2}=\\dfrac{4-1}{2+2}=\\dfrac{3}{4}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "函数 $f(x) = \\sqrt{2x - 4}$（$x \\ge 4$）的反函数为（ ）",
+          "choices": [
+            "$f^{-1}(x) = \\frac{1}{2} x^{2} + 4$（$x \\ge 0$）",
+            "$f^{-1}(x) = \\frac{1}{2} x^2 + 4$（$x \\ge 2$）",
+            "$f^{-1}(x) = \\frac{1}{2} x^2 + 2$（$x \\ge 0$）",
+            "$f^{-1}(x) = \\frac{1}{2} x^2 + 2$（$x \\ge 2$）"
+          ],
+          "answer": "D",
+          "solution": "设 $y=f(x)=\\sqrt{2x-4}$. 题设把原函数的定义域限定为 $x\\ge 4$，所以其值域为 $y\\ge 2$. 由 $y^{2}=2x-4$ 得 $x=\\dfrac{y^{2}}{2}+2$. 交换 $x$，$y$，并把原函数的值域作为反函数的定义域，得到 $f^{-1}(x)=\\dfrac{1}{2}x^{2}+2$（$x\\ge 2$），故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "过原点且倾斜角为 $60^{\\circ}$ 的直线被圆 $x^{2} + y^{2} - 4y = 0$ 所截得的弦长为（ ）",
+          "choices": [
+            "$\\sqrt{3}$",
+            "$2$",
+            "$\\sqrt{6}$",
+            "$2\\sqrt{3}$"
+          ],
+          "answer": "D",
+          "solution": "圆的方程可化为 $x^{2}+(y-2)^{2}=4$，所以圆心为 $O(0,2)$，半径为 $2$. 直线过原点且倾斜角为 $60^{\\circ}$，其方程为 $y=\\sqrt{3}x$，即 $\\sqrt{3}x-y=0$. 圆心到直线的距离为 $d=\\dfrac{2}{\\sqrt{3+1}}=1$. 弦长为 $2\\sqrt{2^{2}-1^{2}}=2\\sqrt{3}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "某单位共有老、中、青职工 $430$ 人，其中青年职工 $160$ 人，中年职工人数是老年职工人数的 $2$ 倍. 为了解职工身体状况，现采用分层抽样方法进行调查，在抽取的样本中有青年职工 $32$ 人，则该样本中的老年职工人数为（ ）",
+          "choices": [
+            "$9$",
+            "$18$",
+            "$27$",
+            "$36$"
+          ],
+          "answer": "B",
+          "solution": "设老年职工人数为 $x$，则中年职工人数为 $2x$. 由总人数得 $x+2x+160=430$，解得 $x=90$. 分层抽样中各层的抽样比例相同，青年职工的抽样比例为 $\\dfrac{32}{160}=\\dfrac{1}{5}$. 因而老年职工的抽样人数为 $90\\times\\dfrac{1}{5}=18$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "若 $(1-2x)^{2009}=a_{0}+a_{1}x+\\cdots+a_{2009}x^{2009}$（$x\\in\\mathbb{R}$），则 $\\frac{a_{1}}{2}+\\frac{a_{2}}{2^{2}}+\\cdots+\\frac{a_{2009}}{2^{2009}}$（ ）",
+          "choices": [
+            "$2$",
+            "$0$",
+            "$-1$",
+            "$-2$"
+          ],
+          "answer": "C",
+          "solution": "令 $x=0$，由展开式得 $a_{0}=1$. 令 $x=\\dfrac{1}{2}$，则 $0=(1-2\\cdot\\dfrac{1}{2})^{2009}=1+\\dfrac{a_{1}}{2}+\\dfrac{a_{2}}{2^{2}}+\\cdots+\\dfrac{a_{2009}}{2^{2009}}$. 因此题中所求的和为 $-1$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "“$m > n > 0$”是“方程 $mx^{2} + ny^{2} = 1$ 表示焦点在 $y$ 轴上的椭圆”的（ ）",
+          "choices": [
+            "充分而不必要条件",
+            "必要而不充分条件",
+            "充要条件",
+            "既不充分也不必要条件"
+          ],
+          "answer": "C",
+          "solution": "因为 $m>n>0$，方程可写为 $\\dfrac{x^{2}}{\\frac{1}{m}}+\\dfrac{y^{2}}{\\frac{1}{n}}=1$. 其半轴长的平方分别为 $\\frac{1}{m}$ 和 $\\frac{1}{n}$，而 $m>n>0$ 等价于 $\\frac{1}{n}>\\frac{1}{m}$，所以较长半轴在 $y$ 轴上，焦点在 $y$ 轴上，故该条件充分. 反过来，若该方程表示焦点在 $y$ 轴上的椭圆，则必有 $m$，$n>0$，且 $\\frac{1}{n}>\\frac{1}{m}$，从而 $m>n$. 因此该条件也是必要条件，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "在 $\\triangle ABC$ 中，$M$ 是 $BC$ 的中点，$AM = 1$，点 $P$ 在 $AM$ 上且满足 $\\overrightarrow{AP} = 2\\overrightarrow{PM}$，则 $\\overrightarrow{PA} \\cdot (\\overrightarrow{PB} + \\overrightarrow{PC})$ 等于（ ）",
+          "choices": [
+            "$\\frac{4}{9}$",
+            "$\\frac{4}{3}$",
+            "$-\\frac{4}{3}$",
+            "$-\\frac{4}{9}$"
+          ],
+          "answer": "D",
+          "solution": "取 $A$，$B$，$C$，$M$，$P$ 的位置向量分别为 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$，$\\mathbf{m}$，$\\mathbf{p}$. 因为 $M$ 是 $BC$ 的中点，故 $\\mathbf{m}=\\dfrac{\\mathbf{b}+\\mathbf{c}}{2}$. 又由 $\\overrightarrow{AP}=2\\overrightarrow{PM}$ 得 $\\mathbf{p}-\\mathbf{a}=2(\\mathbf{m}-\\mathbf{p})$，所以 $\\mathbf{p}=\\dfrac{\\mathbf{a}+2\\mathbf{m}}{3}$. 于是 $\\overrightarrow{PA}=\\mathbf{a}-\\mathbf{p}=\\dfrac{2}{3}(\\mathbf{a}-\\mathbf{m})$，且 $\\overrightarrow{PB}+\\overrightarrow{PC}=\\mathbf{b}+\\mathbf{c}-2\\mathbf{p}=2\\mathbf{m}-2\\mathbf{p}=-\\dfrac{2}{3}(\\mathbf{a}-\\mathbf{m})$. 因而\r\n\n$$\n\\overrightarrow{PA}\\cdot(\\overrightarrow{PB}+\\overrightarrow{PC})=-\\dfrac{4}{9}|\\mathbf{a}-\\mathbf{m}|^{2}=-\\dfrac{4}{9}AM^{2}=-\\dfrac{4}{9}\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "从 $1$，$2$，$3$，$4$，$5$，$6$，$7$ 这七个数字中任取两个奇数和两个偶数，组成没有重复数字的四位数，其中奇数的个数为（ ）",
+          "choices": [
+            "$432$",
+            "$288$",
+            "$216$",
+            "$108$"
+          ],
+          "answer": "A",
+          "solution": "七个数字中有奇数 $1$，$3$，$5$，$7$ 共 $4$ 个，偶数 $2$，$4$，$6$ 共 $3$ 个. 先选出两个奇数和两个偶数，有 $\\mathrm C_{4}^{2}\\mathrm C_{3}^{2}$ 种；选出的四个数字互不相同，排成四位数有 $4!$ 种. 因而总数为 $\\mathrm C_{4}^{2}\\mathrm C_{3}^{2}4!=6\\times3\\times24=432$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "定义在 $\\mathbb{R}$ 上的偶函数 $f(x)$ 满足：对任意的 $x_{1}$，$x_{2} \\in [0, +\\infty)$（$x_{1} \\neq x_{2}$），有 $\\frac{f(x_2) - f(x_1)}{x_2 - x_1} < 0$. 则（ ）",
+          "choices": [
+            "$f(3) < f(-2) < f(1)$",
+            "$f(1) < f(-2) < f(3)$",
+            "$f(-2) < f(1) < f(3)$",
+            "$f(3) < f(1) < f(-2)$"
+          ],
+          "answer": "A",
+          "solution": "题设差商对任意不同的 $x_{1}$，$x_{2}\\in[0,+\\infty)$ 都小于 $0$，所以 $f$ 在 $[0,+\\infty)$ 上严格递减. 因为 $3>2>1$，有 $f(3)<f(2)<f(1)$. 又 $f$ 是偶函数，故 $f(-2)=f(2)$. 所以 $f(3)<f(-2)<f(1)$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "若正方体的棱长为 $\\sqrt{2}$，则以该正方体各个面的中心为顶点的凸多面体的体积为（ ）",
+          "choices": [
+            "$\\frac{\\sqrt{2}}{6}$",
+            "$\\frac{\\sqrt{2}}{3}$",
+            "$\\frac{\\sqrt{3}}{3}$",
+            "$\\frac{2}{3}$"
+          ],
+          "answer": "B",
+          "solution": "正方体中心到任一面的中心距离等于棱长的一半，即 $r=\\dfrac{\\sqrt{2}}{2}$. 六个面中心构成正八面体；取通过四个侧面中心的正方形作赤道面，该正方形的边长为 $1$，面积为 $1$，正八面体可分为上下两个全等的四棱锥，每个高为 $r$. 因而体积为 $2\\times\\dfrac{1}{3}\\times1\\times\\dfrac{\\sqrt{2}}{2}=\\dfrac{\\sqrt{2}}{3}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "设曲线 $y = x^{n + 1}$（$n \\in \\mathbb{N}^*$）在点 $(1,1)$ 处的切线与 $x$ 轴的交点的横坐标为 $x_n$，则 $x_1 \\cdot x_2 \\cdots x_n$ 的值为（ ）",
+          "choices": [
+            "$\\frac{1}{n}$",
+            "$\\frac{1}{n + 1}$",
+            "$\\frac{n}{n + 1}$",
+            "$1$"
+          ],
+          "answer": "B",
+          "solution": "曲线 $y=x^{n+1}$ 在 $(1,1)$ 处的导数为 $y'=(n+1)x^{n}$，所以切线斜率为 $n+1$，切线方程为 $y-1=(n+1)(x-1)$，即 $y=(n+1)x-n$. 令 $y=0$，得 $x_{n}=\\dfrac{n}{n+1}$. 因而\r\n\n$$\nx_{1}x_{2}\\cdots x_{n}=\\prod_{k=1}^{n}\\dfrac{k}{k+1}=\\dfrac{1}{2}\\cdot\\dfrac{2}{3}\\cdots\\dfrac{n}{n+1}=\\dfrac{1}{n+1}\n$$\n\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "设等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，若 $a_{6} = S_{3} = 12$，则 $\\{a_{n}\\}$ 的通项 $a_{n} = _______ {}$.",
+          "choices": [],
+          "answer": "\\(a_{n} = 2n\\)",
+          "solution": "设等差数列首项为 $a_{1}=a$，公差为 $d$. 由 $a_{6}=12$ 得 $a+5d=12$. 由 $S_{3}=12$ 得 $\\dfrac{3(a_{1}+a_{3})}{2}=3(a+d)=12$，即 $a+d=4$. 两式相减得 $4d=8$，所以 $d=2$，再得 $a=2$. 因而 $a_{n}=a+(n-1)d=2+2(n-1)=2n$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "设 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx + y \\ge 1,\\\\\r\nx - y \\ge -1,\\\\\r\n2x - y \\le 2,\r\n\\end{cases}$ 目标函数 $z = x + 2y$ 的最小值是 _______ {}，最大值是 _______ {}.",
+          "choices": [],
+          "answer": "\\(1,11\\)",
+          "solution": "约束条件分别给出半平面 $y\\geqslant1-x$、$y\\le x+1$、$y\\geqslant2x-2$. 可行域的边界交点为：前两条直线交于 $(0,1)$，第一、第三条直线交于 $(1,0)$，第二、第三条直线交于 $(3,4)$. 目标函数是线性函数，其最值在可行域的顶点取得. 代入三点得 $z(0,1)=2$、$z(1,0)=1$、$z(3,4)=11$，所以最小值为 $1$，最大值为 $11$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "如图球 $O$ 的半径为 $2$，圆 $O_{1}$ 是一小圆，$O_{1}O = \\sqrt{2}$. $A$，$B$ 是圆 $O_{1}$ 上两点. 若 $A$，$B$ 两点间的球面距离为 $\\frac{2\\pi}{3}$，则 $\\angle AO_{1}B = _______ {}$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shaanxi_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(\\frac{\\pi}{2}\\)",
+          "solution": "设球面上两点 $A$，$B$ 所对的球心角为 $\\angle AOB=\\theta$. 球面距离等于半径乘球心角，所以 $2\\theta=\\dfrac{2\\pi}{3}$，从而 $\\theta=\\dfrac{\\pi}{3}$. 在等腰三角形 $AOB$ 中，$OA=OB=2$，由余弦定理得 $AB^{2}=2^{2}+2^{2}-2\\cdot2\\cdot2\\cos\\dfrac{\\pi}{3}=4$，即 $AB=2$. 因为小圆所在平面垂直于 $OO_{1}$，所以 $OO_{1}\\perp O_{1}A$，从而 $O_{1}A^{2}=OA^{2}-OO_{1}^{2}=4-2=2$，同理 $O_{1}B=\\sqrt{2}$. 设 $\\angle AO_{1}B=\\varphi$，则在三角形 $AO_{1}B$ 中由余弦定理得 $AB^{2}=2+2-4\\cos\\varphi$. 代入 $AB^{2}=4$ 得 $\\cos\\varphi=0$，且角为三角形内角，故 $\\varphi=\\dfrac{\\pi}{2}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "某班有 $36$ 名同学参加数学，物理，化学课外探究小组，每名同学至多参加两个小组，已知参加数学，物理，化学小组的人数分别为 $26$，$15$，$13$，同时参加数学和物理小组的有 $6$ 人，同时参加物理和化学小组的有 $4$ 人，则同时参加数学和化学小组的有 _______ {}人.",
+          "choices": [],
+          "answer": "8",
+          "solution": "设同时参加数学、化学小组的人数为 $x$. 因为每名同学至多参加两个小组，所以三组没有公共交集. 由容斥原理，三组并集人数为\r\n\n$$\n26+15+13-6-4-x=44-x\n$$\n\r\n该并集就是参加至少一个小组的 $36$ 名同学，因此 $44-x=36$，解得 $x=8$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "(1) 已知函数 $f(x) = A \\sin (\\omega x + \\varphi)$，$x \\in \\mathbb{R}$（其中 $A > 0$，$\\omega > 0$，$0 < \\varphi < \\frac{\\pi}{2}$）的周期为 $\\pi$，且图象上一个最低点为 $M\\left(\\frac{2\\pi}{3}, -2\\right)$. 求 $f(x)$ 的解析式；\n\n(2) 当 $x \\in \\left[0, \\frac{\\pi}{12}\\right]$ 时，求 $f(x)$ 的最值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由函数的周期为 $\\pi$，得 $\\frac{2\\pi}{\\omega}=\\pi$，所以 $\\omega=2$. 又因 $M$ 是最低点且 $A>0$，有 $A=2$，并且 $\\sin\\left(\\frac{4\\pi}{3}+\\varphi\\right)=-1$. 因此 $\\frac{4\\pi}{3}+\\varphi=\\frac{3\\pi}{2}+2k\\pi$. 结合 $0<\\varphi<\\frac{\\pi}{2}$，得 $k=0$，从而 $\\varphi=\\frac{\\pi}{6}$，故 $f(x)=2\\sin\\left(2x+\\frac{\\pi}{6}\\right)$.\n\n(2) 令 $t=2x+\\frac{\\pi}{6}$，当 $x\\in\\left[0,\\frac{\\pi}{12}\\right]$ 时，$t\\in\\left[\\frac{\\pi}{6},\\frac{\\pi}{3}\\right]$. 因为正弦函数在 $\\left[\\frac{\\pi}{6},\\frac{\\pi}{3}\\right]$ 上单调递增，所以 $f(x)$ 的最小值为 $2\\sin\\frac{\\pi}{6}=1$，最大值为 $2\\sin\\frac{\\pi}{3}=\\sqrt{3}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "(1) 据统计，某食品企业一个月内被消费者投诉的次数为 $0$，$1$，$2$ 的概率分别为 $0.4$，$0.5$，$0.1$. 求该企业在一个月内共被消费者投诉不超过 $1$ 次的概率；\n\n(2) 假设一月份与二月份被消费者投诉的次数互不影响，求该企业在这两个月内共被消费者投诉 $2$ 次的概率.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设一个月内被投诉的次数为随机变量 $X$，则 $P(X\\le 1)=P(X=0)+P(X=1)=0.4+0.5=0.9$.\n\n(2) 设一月份、二月份被投诉的次数分别为 $X$、$Y$. 由两个月互不影响，$X$、$Y$ 相互独立，因此 $P(X+Y=2)=P(X=0)P(Y=2)+P(X=1)P(Y=1)+P(X=2)P(Y=0)=0.4\\times0.1+0.5\\times0.5+0.1\\times0.4=0.33$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "(1) 如图，在直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB = 1$，$AC = AA_{1} = \\sqrt{3}$，$\\angle ABC = 60^{\\circ}$. 证明： $AB \\perp A_{1}C$；\n\n(2) 求二面角 $A - A_{1}C - B$ 的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shaanxi_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 在 $\\triangle ABC$ 中，由余弦定理得 $AC^{2}=AB^{2}+BC^{2}-2AB\\cdot BC\\cos\\angle ABC$，即 $3=1+BC^{2}-BC$，所以 $BC^{2}-BC-2=0$. 因为 $BC>0$，故 $BC=2$. 于是 $BC^{2}=AB^{2}+AC^{2}=1+3$，从而 $AB\\perp AC$. 又因为三棱柱是直三棱柱，$AA_{1}\\perp\\text{平面 }ABC$，所以 $AB\\perp AA_{1}$. 直线 $AC$、$AA_{1}$ 是平面 $A_{1}AC$ 内相交的两条直线，且都垂直于 $AB$，因此 $AB\\perp\\text{平面 }A_{1}AC$，从而 $AB\\perp A_{1}C$.\n\n(2) 由（1）可建立直角坐标系，取 $A(0,0,0)$，$B(1,0,0)$，$C(0,\\sqrt{3},0)$，$A_{1}(0,0,\\sqrt{3})$. 设二面角 $A-A_{1}C-B$ 的平面角为 $\\theta$. 平面 $A_{1}AC$ 的一个法向量为 $\\mathbf{n}_{1}=(1,0,0)$，而 $\\overrightarrow{A_{1}C}=(0,\\sqrt{3},-\\sqrt{3})$，$\\overrightarrow{A_{1}B}=(1,0,-\\sqrt{3})$，故平面 $A_{1}BC$ 的一个法向量可取 $\\mathbf{n}_{2}=\\overrightarrow{A_{1}C}\\times\\overrightarrow{A_{1}B}=(-3,-\\sqrt{3},-\\sqrt{3})$. 因此 $\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{3}{\\sqrt{15}}=\\frac{\\sqrt{15}}{5}$，所以二面角的大小为 $\\arccos\\frac{\\sqrt{15}}{5}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "(1) 已知函数 $f(x) = x^3 - 3ax - 1$，$a \\neq 0$. 求 $f(x)$ 的单调区间；\n\n(2) 若 $f(x)$ 在 $x = -1$ 处取得极值，直线 $y = m$ 与 $y = f(x)$ 的图象有三个不同的交点，求 $m$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) $f'(x)=3x^{2}-3a=3(x^{2}-a)$. 当 $a<0$ 时，$f'(x)>0$ 对任意 $x\\in\\mathbb{R}$ 成立，所以 $f(x)$ 在 $\\mathbb{R}$ 上单调递增；当 $a>0$ 时，$f'(x)>0$ 的区间为 $\\left(-\\infty,-\\sqrt{a}\\right)$ 和 $\\left(\\sqrt{a},+\\infty\\right)$，$f'(x)<0$ 的区间为 $\\left(-\\sqrt{a},\\sqrt{a}\\right)$，所以 $f(x)$ 在前两个区间上单调递增，在中间区间上单调递减.\n\n(2) 因为 $f(x)$ 在 $x=-1$ 处取得极值，且 $f$ 可导，所以 $f'(-1)=0$，即 $3-3a=0$，得 $a=1$. 此时 $f(x)=x^{3}-3x-1$，且 $f'(x)=3(x^{2}-1)$，所以 $f(x)$ 在 $\\left(-\\infty,-1\\right)$、$(1,+\\infty)$ 上单调递增，在 $(-1,1)$ 上单调递减. 又 $f(-1)=1$，$f(1)=-3$，因此直线 $y=m$ 与曲线有三个不同交点当且仅当 $-3<m<1$，故 $m\\in(-3,1)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "(1) 已知数列 $\\{a_{n}\\}$ 满足 $a_1 = 1$，$a_2 = 2$，$a_{n+2} = \\frac{a_n + a_{n+1}}{2}$，$n \\in \\mathbb{N}^*$. 令 $b_{n} = a_{n+1} - a_{n}$，证明：$\\{b_{n}\\}$ 是等比数列；\n\n(2) 求 $\\{a_{n}\\}$ 的通项公式.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由递推关系，$b_{n+1}=a_{n+2}-a_{n+1}=\\frac{a_{n}+a_{n+1}}{2}-a_{n+1}=\\frac{a_{n}-a_{n+1}}{2}=-\\frac{1}{2}b_{n}$. 又 $b_{1}=a_{2}-a_{1}=1$，所以 $\\{b_{n}\\}$ 是首项为 $1$、公比为 $-\\frac{1}{2}$ 的等比数列，即 $b_{n}=\\left(-\\frac{1}{2}\\right)^{n-1}$.\n\n(2) 由 $a_{n}=a_{1}+\\sum_{k=1}^{n-1}b_{k}$，得 $a_{n}=1+\\sum_{k=1}^{n-1}\\left(-\\frac{1}{2}\\right)^{k-1}=1+\\frac{1-\\left(-\\frac{1}{2}\\right)^{n-1}}{1+\\frac{1}{2}}=\\frac{5}{3}-\\frac{2}{3}\\left(-\\frac{1}{2}\\right)^{n-1}$，其中 $n\\in\\mathbb{N}^*$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "(1) 已知双曲线 $C$ 的方程为 $\\frac{y^{2}}{a^{2}} - \\frac{x^{2}}{b^{2}} = 1$（$a > 0$，$b > 0$），离心率 $e = \\frac{\\sqrt{5}}{2}$，顶点到渐近线的距离为 $\\frac{2\\sqrt{5}}{5}$；\n\n(2) 如图，$P$ 是双曲线 $C$ 上一点，$A$，$B$ 两点在双曲线 $C$ 的两条渐近线上，且分别位于第一、二象限，若 $\\overrightarrow{AP}=\\lambda\\overrightarrow{PB}$，$\\lambda\\in\\left[\\frac{1}{3},2\\right]$，求 $\\triangle AOB$ 面积的取值范围.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shaanxi_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设双曲线的半焦距为 $c$，则 $c^{2}=a^{2}+b^{2}$. 由离心率 $e=\\frac{c}{a}=\\frac{\\sqrt{5}}{2}$，得 $1+\\frac{b^{2}}{a^{2}}=\\frac{5}{4}$，所以 $b=\\frac{a}{2}$. 双曲线的渐近线为 $y=\\pm\\frac{a}{b}x$. 取顶点 $V(0,a)$，则 $V$ 到渐近线 $y=\\frac{a}{b}x$ 的距离为 $\\frac{ab}{\\sqrt{a^{2}+b^{2}}}$. 代入 $b=\\frac{a}{2}$ 得该距离为 $\\frac{a}{\\sqrt{5}}$，故 $\\frac{a}{\\sqrt{5}}=\\frac{2\\sqrt{5}}{5}=\\frac{2}{\\sqrt{5}}$，从而 $a=2$，$b=1$，所以双曲线 $C$ 的方程为 $\\frac{y^{2}}{4}-x^{2}=1$.\n\n(2) 双曲线的两条渐近线为 $y=2x$ 和 $y=-2x$. 设 $A=(u,2u)$，$B=(-v,2v)$，其中 $u>0$，$v>0$. 由 $\\overrightarrow{AP}=\\lambda\\overrightarrow{PB}$ 得 $\\overrightarrow{OP}=\\frac{\\overrightarrow{OA}+\\lambda\\overrightarrow{OB}}{1+\\lambda}$，所以 $P$ 的坐标为 $\\left(\\frac{u-\\lambda v}{1+\\lambda},\\frac{2u+2\\lambda v}{1+\\lambda}\\right)$. 因为 $P$ 在双曲线 $C$ 上，有 $\\frac{(u+\\lambda v)^{2}-(u-\\lambda v)^{2}}{(1+\\lambda)^{2}}=1$，即 $uv=\\frac{(1+\\lambda)^{2}}{4\\lambda}$. 反之，对任意 $\\lambda\\in\\left[\\frac{1}{3},2\\right]$，任取 $u>0$，并令 $v=\\frac{(1+\\lambda)^{2}}{4\\lambda u}>0$，则上述 $A$，$B$ 和 $P$ 满足题设条件，所以这些 $\\lambda$ 均可取到. 因此 $S_{\\triangle AOB}=\\frac{1}{2}|x_{A}y_{B}-y_{A}x_{B}|=2uv=\\frac{(1+\\lambda)^{2}}{2\\lambda}$. 记 $S(\\lambda)=\\frac{(1+\\lambda)^{2}}{2\\lambda}$，则 $S'(\\lambda)=\\frac{\\lambda^{2}-1}{2\\lambda^{2}}$，所以 $S$ 在 $\\left[\\frac{1}{3},1\\right]$ 上递减，在 $[1,2]$ 上递增. 又 $S(1)=2$，$S\\left(\\frac{1}{3}\\right)=\\frac{8}{3}$，$S(2)=\\frac{9}{4}$，故 $\\triangle AOB$ 面积的取值范围为 $\\left[2,\\frac{8}{3}\\right]$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

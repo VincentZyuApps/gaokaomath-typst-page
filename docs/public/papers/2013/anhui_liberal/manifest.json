@@ -1,0 +1,391 @@
+{
+  "year": "2013",
+  "slug": "anhui_liberal",
+  "title": "2013年安徽卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设 $i$ 是虚数单位，若复数 $a - \\frac{10}{3 - \\mathrm{i}}$ （$a \\in \\mathbb{R}$） 是纯虚数，则 $a$ 的值为（ ）",
+          "choices": [
+            "$-3$",
+            "$-1$",
+            "$1$",
+            "$3$"
+          ],
+          "answer": "D",
+          "solution": "有\r\n\n$$\n\\frac{10}{3-\\mathrm{i}}=\\frac{10(3+\\mathrm{i})}{(3-\\mathrm{i})(3+\\mathrm{i})}=3+\\mathrm{i}\n$$\n\r\n所以复数为 $a-3-\\mathrm{i}$. 它是纯虚数，当且仅当实部 $a-3=0$，故 $a=3$，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知 $A = \\{x \\mid x + 1 > 0\\}$，$B = \\{-2, -1, 0, 1\\}$，则 $\\left(\\complement_{\\mathbb{R}} A\\right) \\cap B =$（ ）",
+          "choices": [
+            "$\\{-2, -1\\}$",
+            "$\\{-2\\}$",
+            "$\\{-1, 0, 1\\}$",
+            "$\\{0, 1\\}$"
+          ],
+          "answer": "A",
+          "solution": "由 $x+1>0$ 得 $A=(-1,+\\infty)$，从而 $\\complement_{\\mathbb{R}}A=(-\\infty,-1]$. 因此\r\n\n$$\n(\\complement_{\\mathbb{R}}A)\\cap B=(-\\infty,-1]\\cap\\{-2,-1,0,1\\}=\\{-2,-1\\}\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "如图所示，程序框图 （算法流程图） 的输出结果是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/anhui_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\frac{3}{4}$",
+            "$\\frac{1}{6}$",
+            "$\\frac{11}{12}$",
+            "$\\frac{25}{24}$"
+          ],
+          "answer": "C",
+          "solution": "程序开始时 $s=0$，$n=2$. 循环依次取 $n=2$，$4$，$6$，相应地\r\n\n$$\ns=\\frac12+\\frac14+\\frac16=\\frac{6+3+2}{12}=\\frac{11}{12}\n$$\n\r\n此时 $n=8$，条件 $n<8$ 不成立，输出 $s=\\frac{11}{12}$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "“$(2x - 1)x = 0$”是“$x = 0$”的（ ）",
+          "choices": [
+            "充分不必要条件",
+            "必要不充分条件",
+            "充分必要条件",
+            "既不充分也不必要条件"
+          ],
+          "answer": "B",
+          "solution": "令命题 $P$ 为 $(2x-1)x=0$，命题 $Q$ 为 $x=0$. 由 $P$ 得 $x=0$ 或 $x=\\frac12$，所以 $P$ 成立时不一定有 $Q$，即 $P$ 不是 $Q$ 的充分条件；而 $Q$ 成立时必有 $(2x-1)x=0$，即 $P$ 是 $Q$ 的必要条件. 因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "若某公司从五位大学毕业生甲，乙，丙，丁，戊中录用三人，这五人被录用的机会均等，则甲或乙被录用的概率为（ ）",
+          "choices": [
+            "$\\frac{2}{3}$",
+            "$\\frac{2}{5}$",
+            "$\\frac{3}{5}$",
+            "$\\frac{9}{10}$"
+          ],
+          "answer": "D",
+          "solution": "从五人中录用三人的等可能结果共有 $\\mathrm C_5^3=10$ 个. 甲、乙均未被录用时，只能录用丙、丁、戊，只有 $1$ 个结果，所以甲或乙至少一人被录用的概率为\r\n\n$$\n1-\\frac{1}{10}=\\frac{9}{10}\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "直线 $x + 2y - 5 + \\sqrt{5} = 0$ 被圆 $x^{2} + y^{2} - 2x - 4y = 0$ 截得的弦长为（ ）",
+          "choices": [
+            "$1$",
+            "$2$",
+            "$4$",
+            "$4\\sqrt{6}$"
+          ],
+          "answer": "C",
+          "solution": "圆的方程化为\r\n\n$$\n(x-1)^2+(y-2)^2=5\n$$\n\r\n所以圆心为 $(1,2)$，半径为 $\\sqrt5$. 圆心到直线的距离为\r\n\n$$\nd=\\frac{|1+2\\cdot2-5+\\sqrt5|}{\\sqrt{1^2+2^2}}=1\n$$\n\r\n弦长为\r\n\n$$\n2\\sqrt{(\\sqrt5)^2-d^2}=2\\sqrt{5-1}=4\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "设 $S_{n}$ 为等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和，$S_{8} = 4a_{3}$，$a_{7} = -2$，则 $a_{9} =$（ ）",
+          "choices": [
+            "$-6$",
+            "$-4$",
+            "$-2$",
+            "$2$"
+          ],
+          "answer": "A",
+          "solution": "设等差数列的首项为 $a_1$，公差为 $d$，则 $a_3=a_1+2d$，且\r\n\n$$\nS_8=\\frac{8}{2}(2a_1+7d)=8a_1+28d\n$$\n\r\n由 $S_8=4a_3$ 得\r\n$8a_1+28d=4(a_1+2d)$，$a_1+5d=0$.\r\n又 $a_7=a_1+6d=-2$，联立得 $d=-2$，$a_1=10$. 因此\r\n\n$$\na_9=a_1+8d=10-16=-6\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "函数 $y = f(x)$ 的图象如图所示，在区间 $[a, b]$ 上可找到 $n$ （$n \\ge 2$）个不同的数 $x_1$，$x_2$，$\\cdots$，$x_n$，使得 $\\frac{f(x_1)}{x_1} = \\frac{f(x_2)}{x_2} = \\cdots = \\frac{f(x_n)}{x_n}$，则 $n$ 的取值范围为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/anhui_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\{2, 3\\}$",
+            "$\\{2, 3, 4\\}$",
+            "$\\{3, 4\\}$",
+            "$\\{3, 4, 5\\}$"
+          ],
+          "answer": "B",
+          "solution": "对任意给定的斜率 $k$，条件\r\n\n$$\n\\frac{f(x_1)}{x_1}=\\cdots=\\frac{f(x_n)}{x_n}=k\n$$\n\r\n等价于直线 $y=kx$ 与题图中曲线有 $n$ 个不同的交点. 令这条过原点的直线在第一象限内转动，按图中曲线的两个峰和一个谷逐段观察，交点数可以为 $2$、$3$ 或 $4$；在两个峰与中间谷之间最多产生四个交点，不可能产生五个交点. $k=0$ 时端点 $a$，$b$ 已给出两个交点，故上述三种数值均可达到. 因此\r\n\n$$\nn\\in\\{2,3,4\\}\n$$\n\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 所对边的长分别为 $a$，$b$，$c$，若 $b + c = 2a$，$3\\sin A = 5\\sin B$，则角 $C =$（ ）",
+          "choices": [
+            "$\\frac{\\pi}{3}$",
+            "$\\frac{2\\pi}{3}$",
+            "$\\frac{3\\pi}{4}$",
+            "$\\frac{5\\pi}{6}$"
+          ],
+          "answer": "B",
+          "solution": "由正弦定理，$\\dfrac{b}{a}=\\dfrac{\\sin B}{\\sin A}$. 由 $3\\sin A=5\\sin B$ 得\r\n\n$$\nb=\\frac35a\n$$\n\r\n再由 $b+c=2a$ 得 $c=\\frac75a$. 在三角形中使用余弦定理：\r\n\n$$\nc^2=a^2+b^2-2ab\\cos C\n$$\n\r\n代入三边比例并约去 $a^2$，得\r\n$\\frac{49}{25}=1+\\frac9{25}-\\frac65\\cos C$，$\\cos C=-\\frac12$.\r\n由于 $0<C<\\pi$，所以 $C=\\frac{2\\pi}{3}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知函数 $f(x) = x^3 + ax^2 + bx + c$ 有两个极值点 $x_1$，$x_2$，若 $f(x_1) = x_1 < x_2$，则关于 $x$ 的方程 $3(f(x))^2 + 2af(x) + b = 0$ 的不同实根个数为（ ）",
+          "choices": [
+            "$3$",
+            "$4$",
+            "$5$",
+            "$6$"
+          ],
+          "answer": "A",
+          "solution": "令 $g(x)=f'(x)=3x^2+2ax+b$. 题设的两个极值点满足 $x_1<x_2$，且因三次项系数为正，$x_1$ 是极大值点，$x_2$ 是极小值点. 原方程可写为\r\n\n$$\ng(f(x))=3(f(x))^2+2af(x)+b=0\n$$\n\r\n故它等价于 $f(x)=x_1$ 或 $f(x)=x_2$.\r\n\r\n又 $f(x_1)=x_1<x_2$，并且 $f(x_2)<f(x_1)=x_1$. 水平直线 $y=x_1$ 在 $x_1$ 处与曲线相切，另外在 $x_2$ 右侧还与曲线相交一次，所以 $f(x)=x_1$ 有两个不同实根；水平直线 $y=x_2$ 高于极大值 $f(x_1)=x_1$，只能在 $x_2$ 右侧与曲线相交一次，所以 $f(x)=x_2$ 有一个不同实根. 两组根不重合，原方程共有 $2+1=3$ 个不同实根，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "函数 $y = \\ln \\left(1 + \\frac{1}{x}\\right) + \\sqrt{1 - x^{2}}$ 的定义域为 _______ {}.",
+          "choices": [],
+          "answer": "\\((0, 1]\\)",
+          "solution": "对数的真数须满足\r\n\n$$\n1+\\frac1x=\\frac{x+1}{x}>0\n$$\n\r\n故 $x>0$ 或 $x<-1$. 根式有意义要求 $1-x^2\\geqslant0$，即 $-1\\le x\\leqslant1$. 两者交集为 $(0,1]$，所以定义域为 $(0,1]$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "若非负变量 $x$，$y$ 满足的约束条件 $\\begin{cases}\r\nx - y \\ge -1,\\\\\r\nx + 2y \\le 4.\r\n\\end{cases}$ 则 $x + y$ 的最大值为 _______ {}.",
+          "choices": [],
+          "answer": "\\(4\\)",
+          "solution": "由 $x$，$y$ 非负及约束条件，等价于\r\n$x\\geqslant0$，$y\\geqslant0$，$y\\le x+1$，$x+2y\\leqslant4$.\r\n可行域的顶点为 $(0,0)$、$(0,1)$、$\\left(\\frac23,\\frac53\\right)$、$(4,0)$. 目标函数 $x+y$ 在这些顶点处的值分别为\r\n$0$，$1$，$\\frac73$，$4$.\r\n所以最大值为 $4$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "若非零向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $\\lvert\\mathbf{a}\\rvert = 3\\lvert\\mathbf{b}\\rvert = \\lvert\\mathbf{a} + 2\\mathbf{b}\\rvert$，则 $\\mathbf{a}$ 与 $\\mathbf{b}$ 夹角的余弦值为 _______ {}.",
+          "choices": [],
+          "answer": "\\(-\\frac{1}{3}\\)",
+          "solution": "由 $\\lvert\\mathbf{a}\\rvert=3\\lvert\\mathbf{b}\\rvert=\\lvert\\mathbf{a}+2\\mathbf{b}\\rvert$ 得 $\\lvert\\mathbf{a}\\rvert=3\\lvert\\mathbf{b}\\rvert$，并且\r\n\n$$\n\\lvert\\mathbf{a}+2\\mathbf{b}\\rvert^2=\\lvert\\mathbf{a}\\rvert^2\n$$\n\r\n展开并约去 $\\lvert\\mathbf{a}\\rvert^2$，得\r\n$4\\mathbf{a}\\cdot\\mathbf{b}+4\\lvert\\mathbf{b}\\rvert^2=0$，$\\mathbf{a}\\cdot\\mathbf{b}=-\\lvert\\mathbf{b}\\rvert^2$.\r\n若 $\\theta$ 为两向量夹角，则\r\n\n$$\n\\cos\\theta=\\frac{\\mathbf{a}\\cdot\\mathbf{b}}{\\lvert\\mathbf{a}\\rvert\\lvert\\mathbf{b}\\rvert}\r\n =-\\frac{\\lvert\\mathbf{b}\\rvert}{\\lvert\\mathbf{a}\\rvert}=-\\frac13\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 满足 $f(x + 1) = 2f(x)$. 若当 $0 \\le x \\le 1$ 时，$f(x) = x(1 - x)$，则当 $-1 \\le x \\le 0$ 时，$f(x) = _______ {}$.",
+          "choices": [],
+          "answer": "\\(-\\frac{x(x+1)}{2}\\)",
+          "solution": "当 $-1\\le x\\leqslant0$ 时，$0\\le x+1\\leqslant1$. 由函数关系式\r\n\n$$\nf(x+1)=2f(x)\n$$\n\r\n以及已知条件，得\r\n\n$$\nf(x)=\\frac12f(x+1)=\\frac12(x+1)\\bigl(1-(x+1)\\bigr)=-\\frac{x(x+1)}2\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "如图，正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的棱长为 $1$，$P$ 为 $BC$ 中点，$Q$ 为线段 $CC_{1}$ 上的动点，过 $A$，$P$，$Q$ 的平面截该正方体所得的截面记为 $S$，则下列命题正确的是 _______ {}.（写出所有正确命题的编号）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/anhui_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\\begin{circlelist}\r\n\\item 当 $0 < CQ < \\frac{1}{2}$ 时，$S$ 为四边形；\r\n\\item 当 $CQ = \\frac{1}{2}$ 时，$S$ 为等腰梯形；\r\n\\item 当 $CQ = \\frac{3}{4}$ 时，$S$ 与 $C_1D_1$ 交点 $R$ 满足 $C_1R = \\frac{1}{3}$；\r\n\\item 当 $\\frac{3}{4} < CQ < 1$ 时，$S$ 为六边形；\r\n\\item 当 $CQ = 1$ 时，$S$ 的面积为 $\\frac{\\sqrt{6}}{2}$.\r\n\\end{circlelist}",
+          "choices": [],
+          "answer": "\\(\\circled{1}\\circled{2}\\circled{3}\\circled{5}\\)",
+          "solution": "令 $t=CQ$，建立坐标系\r\n$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$\r\n$A_1=(0,0,1)$，$B_1=(1,0,1)$，$C_1=(1,1,1)$，$D_1=(0,1,1)$.\r\n于是 $P=(1,\\frac12,0)$，$Q=(1,1,t)$，平面 $APQ$ 的方程为\r\n$tx-2ty+z=0$，$z=t(2y-x)$.\r\n\r\n当 $0<t<\\frac12$ 时，平面与正方体的截面依次经过 $A$，$P$，$Q$ 及 $DD_1$ 上的点 $(0,1,2t)$，所以截面为四边形，命题 $\\circled{1}$ 正确.\r\n\r\n当 $t=\\frac12$ 时，该点为 $D_1$，截面为四边形 $APQD_1$. 其中 $PQ\\parallel AD_1$，且\r\n\n$$\n|AP|=\\sqrt{1+\\frac14}=|QD_1|\n$$\n\r\n所以它是等腰梯形，命题 $\\circled{2}$ 正确.\r\n\r\n当 $t=\\frac34$ 时，截面与上棱 $C_1D_1$ 的交点 $R=(r,1,1)$ 满足\r\n$\\frac34(2-r)=1$，$r=\\frac23$.\r\n因此 $C_1R=1-r=\\frac13$，命题 $\\circled{3}$ 正确.\r\n\r\n当 $\\frac34<t<1$ 时，截面顶面上的两个交点为\r\n$R=\\left(2-\\frac1t,1,1\\right)$，$U=\\left(0,\\frac1{2t},1\\right)$\r\n截面依次经过 $A$，$P$，$Q$，$R$，$U$，是五边形而不是六边形，命题 $\\circled{4}$ 错误.\r\n\r\n当 $t=1$ 时，$Q=C_1$，且 $U=(0,\\frac12,1)$，截面为四边形 $APC_1U$. 将其分成三角形 $APC_1$ 和 $AC_1U$，有\r\n$\\overrightarrow{AP}=\\left(1,\\frac12,0\\right)$，$\\overrightarrow{AC_1}=(1,1,1)$，$\\overrightarrow{AU}=\\left(0,\\frac12,1\\right)$\r\n且\r\n\n$$\n\\left|\\overrightarrow{AP}\\times\\overrightarrow{AC_1}\\right|\r\n=\\left|\\overrightarrow{AC_1}\\times\\overrightarrow{AU}\\right|=\\frac{\\sqrt6}{2}\n$$\n\r\n所以截面面积为\r\n\n$$\n\\frac12\\cdot\\frac{\\sqrt6}{2}+\\frac12\\cdot\\frac{\\sqrt6}{2}=\\frac{\\sqrt6}{2}\n$$\n\r\n命题 $\\circled{5}$ 正确. 故正确命题的编号为 $1$，$2$，$3$，$5$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 16,
+          "body": "设函数 $f(x) = \\sin x + \\sin \\left(x + \\frac{\\pi}{3}\\right)$.\r\n\n(1) 求 $f(x)$ 的最小值，并求使 $f(x)$ 取得最小值的 $x$ 的集合；\n\n(2) 不画图，说明函数 $y = f(x)$ 的图象可由 $y = \\sin x$ 的图象经过怎样的变化得到.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 利用和差化积公式，\r\n\n$$\nf(x)=\\sin x+\\sin\\left(x+\\frac\\pi3\\right)\r\n=2\\sin\\left(x+\\frac\\pi6\\right)\\cos\\frac\\pi6\r\n=\\sqrt3\\sin\\left(x+\\frac\\pi6\\right)\n$$\n\r\n由于 $-1\\le\\sin\\left(x+\\frac\\pi6\\right)\\leqslant1$，所以 $f(x)$ 的最小值为 $-\\sqrt3$. 取得最小值时\r\n$x+\\frac\\pi6=-\\frac\\pi2+2k\\pi$，$k\\in\\mathbb{Z}$\r\n即\r\n$x=2k\\pi-\\frac{2\\pi}{3}$，$k\\in\\mathbb{Z}$.\r\n因此使 $f(x)$ 取得最小值的 $x$ 的集合为 $\\left\\{2k\\pi-\\frac{2\\pi}{3}\\mid k\\in\\mathbb{Z}\\right\\}$.\n\n(2) 由\r\n\n$$\ny=f(x)=\\sqrt3\\sin\\left(x+\\frac\\pi6\\right)\n$$\n\r\n先把 $y=\\sin x$ 的图象上各点的纵坐标伸长到原来的 $\\sqrt3$ 倍，得到 $y=\\sqrt3\\sin x$ 的图象；再将所得图象向左平移 $\\frac\\pi6$ 个单位，得到 $y=\\sqrt3\\sin\\left(x+\\frac\\pi6\\right)$ 的图象.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "为调查甲，乙两校高三年级学生某次联考数学成绩情况. 用简单随机抽样，从这两校中各抽取 $30$ 名高三年级学生，以他们的数学成绩（百分制）作为样本，样本数据的茎叶图如图：\r\n\r\n\n(1) 若甲校高三年级每位学生被抽取的概率为 $0.05$，求甲校高三年级学生总人数，并估计甲校高三年级这次联考数学成绩的及格率（$60$ 分及 $60$ 分以上为及格）；\n\n(2) 设甲，乙两校高三年级学生这次联考平均成绩分别为 $\\bar{x}_{1}$，$\\bar{x}_{2}$，估计 $\\bar{x}_{1} - \\bar{x}_{2}$ 的值.\n\r\n\r\n\\begin{center}\r\n\\begin{tabular}{r|c|l}\r\n\\multicolumn{1}{c}{甲} & \\  & \\multicolumn{1}{c}{乙} \\\\\r\n\\hline\r\n$7$ & 4 & $5$ \\\\\r\n$5\\;3\\;3\\;2$ & 5 & $3\\;3\\;8$ \\\\\r\n$5\\;5\\;4\\;3\\;3\\;3\\;1\\;0\\;0$ & 6 & $0\\;0\\;0\\;1\\;1\\;2\\;2\\;3\\;3\\;5$ \\\\\r\n$8\\;6\\;6\\;2\\;2\\;1\\;1\\;0\\;0$ & 7 & $0\\;0\\;2\\;2\\;2\\;3\\;3\\;6\\;6\\;9$ \\\\\r\n$7\\;5\\;4\\;4\\;2$ & 8 & $1\\;1\\;5\\;5\\;8$ \\\\\r\n$2\\;0$ & 9 & $0$\r\n\\end{tabular}\r\n\\end{center}",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设甲校高三年级学生总人数为 $N$. 简单随机抽取 $30$ 人时，每位学生被抽取的概率为 $\\frac{30}{N}$，所以\r\n$\\frac{30}{N}=0.05=\\frac1{20}$，$N=600$.\r\n甲校样本中成绩不少于 $60$ 分的学生有 $9+9+5+2=25$ 人，因此甲校学生成绩及格率的估计值为\r\n\n$$\n\\frac{25}{30}=\\frac56\n$$\n\n(2) 由茎叶图逐项相加，甲校样本成绩和为\r\n\n$$\n\\begin{aligned}\r\n47+(55+53+53+52)&+(65+65+64+63+63+63+61+60+60)\\\\\r\n&+(78+76+76+72+72+71+71+70+70)\\\\\r\n&+(87+85+84+84+82)+(92+90)=2084.\r\n\\end{aligned}\n$$\n\r\n乙校样本成绩和为\r\n\n$$\n\\begin{aligned}\r\n45+(53+53+58)&+(60+60+60+61+61+62+62+63+63+65)\\\\\r\n&+(70+70+72+72+72+73+73+76+76+79)\\\\\r\n&+(81+81+85+85+88)+90=2069.\r\n\\end{aligned}\n$$\n\r\n所以样本平均数分别为 $\\frac{2084}{30}$ 和 $\\frac{2069}{30}$，从而\r\n\n$$\n\\bar{x}_1-\\bar{x}_2\\text{ 的估计值}=\\frac{2084-2069}{30}=0.5\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，四棱锥 $P - ABCD$ 的底面 $ABCD$ 是边长为 $2$ 的菱形，$\\angle BAD = 60^{\\circ}$. 已知 $PB = PD = 2$，$PA = \\sqrt{6}$.\r\n\r\n\n(1) 证明： $PC \\perp BD$；\n\n(2) 若 $E$ 为 $PA$ 的中点，求三棱锥 $P - BCE$ 的体积.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/anhui_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "建立空间直角坐标系，取底面为 $z=0$，令\r\n$A=(0,\\sqrt3,0)$，$B=(1,0,0)$，$D=(-1,0,0)$，$C=(0,-\\sqrt3,0)$.\r\n这些点满足 $AB=AD=BC=CD=2$，且 $\\angle BAD=60^\\circ$，符合底面菱形的条件.\r\n\r\n设 $P=(u,v,w)$. 由 $PB=PD=2$，两式相减得 $u=0$，再由 $PB=2$ 得\r\n\n$$\nv^2+w^2=3\n$$\n\r\n又由 $PA=\\sqrt6$ 得\r\n\n$$\n(v-\\sqrt3)^2+w^2=6\n$$\n\r\n与前式相减可得 $v=0$，于是 $w^2=3$. 改变 $z$ 轴方向不影响结论，取 $w=\\sqrt3$，即 $P=(0,0,\\sqrt3)$.\r\n\r\n\n(1) $\\overrightarrow{BD}=(-2,0,0)$，$\\overrightarrow{PC}=(0,-\\sqrt3,-\\sqrt3)$，所以\r\n\n$$\n\\overrightarrow{BD}\\cdot\\overrightarrow{PC}=0\n$$\n\r\n因此 $PC\\perp BD$.\n\n(2) 因为 $E$ 是 $PA$ 的中点，所以 $E=(0,\\frac{\\sqrt3}{2},\\frac{\\sqrt3}{2})$. 三棱锥 $P-BCE$ 的体积为\r\n\n$$\nV=\\frac16\\left|\\det\r\n\\begin{pmatrix}\r\n1&0&0\\\\\r\n0&-\\sqrt3&\\frac{\\sqrt3}{2}\\\\\r\n-\\sqrt3&-\\sqrt3&-\\frac{\\sqrt3}{2}\r\n\\end{pmatrix}\\right|\r\n=\\frac16\\cdot3=\\frac12\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "设数列 $\\{a_{n}\\}$ 满足 $a_{1} = 2$，$a_{2} + a_{4} = 8$，且对任意 $n \\in \\mathbb{N}^{*}$，函数\r\n$f(x) = (a_{n} - a_{n+1} + a_{n+2})x + a_{n+1}\\cos x - a_{n+2}\\sin x$\r\n满足 $f'\\!\\left(\\frac{\\pi}{2}\\right) = 0$.\r\n\r\n\n(1) 求数列 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 若 $b_{n} = 2\\left(a_{n} + \\frac{1}{2a_{n}}\\right)$，求数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $S_{n}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "对题中给定的函数求导，得\r\n\n$$\nf'(x)=a_n-a_{n+1}+a_{n+2}-a_{n+1}\\sin x-a_{n+2}\\cos x\n$$\n\r\n代入 $x=\\frac\\pi2$ 并利用 $f'\\left(\\frac\\pi2\\right)=0$，得\r\n\n$$\na_n-2a_{n+1}+a_{n+2}=0\n$$\n\r\n即 $a_{n+2}-a_{n+1}=a_{n+1}-a_n$. 因此 $\\{a_n\\}$ 是等差数列.\r\n\r\n\n(1) 设公差为 $d$. 由 $a_1=2$ 得 $a_2=2+d$，$a_4=2+3d$. 由 $a_2+a_4=8$ 得\r\n$(2+d)+(2+3d)=8$，$d=1$.\r\n所以\r\n\n$$\na_n=a_1+(n-1)d=n+1\n$$\n\n(2) 代入 $a_n=n+1$，得\r\n\n$$\nb_n=2\\left(n+1+\\frac1{2(n+1)}\\right)=2(n+1)+\\frac1{n+1}\n$$\n\r\n于是\r\n\n$$\nS_n=\\sum_{k=1}^n b_k\r\n=2\\sum_{k=1}^n(k+1)+\\sum_{k=1}^n\\frac1{k+1}\r\n=n(n+3)+\\sum_{k=2}^{n+1}\\frac1k\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设函数 $f(x) = ax - (1 + a^2)x^2$，其中 $a > 0$，区间 $I = \\{x \\mid f(x) > 0\\}$.\r\n\n(1) 求 $I$ 的长度（注：区间 $(\\alpha, \\beta)$ 的长度定义为 $\\beta - \\alpha$）；\n\n(2) 给定常数 $k \\in (0,1)$，当 $1 - k \\le a \\le 1 + k$ 时，求 $I$ 长度的最小值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $a>0$，\r\n\n$$\nf(x)=x\\bigl(a-(1+a^2)x\\bigr)\n$$\n\r\n当 $x<0$ 时，两个因子中前者为负、后者为正；当 $x>\\frac{a}{1+a^2}$ 时，前者为正、后者为负. 因此\r\n\n$$\nI=\\left(0,\\frac{a}{1+a^2}\\right)\n$$\n\r\n其长度为\r\n\n$$\nL(a)=\\frac{a}{1+a^2}\n$$\n\n(2) 对 $a>0$，\r\n\n$$\nL'(a)=\\frac{1-a^2}{(1+a^2)^2}\n$$\n\r\n所以 $L(a)$ 在 $(0,1)$ 上递增、在 $(1,+\\infty)$ 上递减，区间 $[1-k,1+k]$ 上的最小值出现在某个端点. 比较两个端点：\r\n\n$$\nL(1+k)-L(1-k)\r\n=\\frac{2k^3}{\\bigl(1+(1+k)^2\\bigr)\\bigl(1+(1-k)^2\\bigr)}>0\n$$\n\r\n故最小值在 $a=1-k$ 处取得，最小长度为\r\n\n$$\n\\frac{1-k}{1+(1-k)^2}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知椭圆 $C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ （$a > b > 0$）的焦距为 $4$，且过点 $P(\\sqrt{2}, \\sqrt{3})$.\r\n\n(1) 求椭圆 $C$ 的方程.\n\n(2) 设 $Q(x_0, y_0)$ （$x_0 y_0 \\neq 0$）为椭圆 $C$ 上一点，过点 $Q$ 作 $x$ 轴的垂线，垂足为 $E$. 取点 $A(0, 2\\sqrt{2})$，连接 $AE$. 过点 $A$ 作 $AE$ 的垂线交 $x$ 轴于点 $D$. 点 $G$ 是点 $D$ 关于 $y$ 轴的对称点，作直线 $QG$. 问这样作出的直线 $QG$ 是否与椭圆 $C$ 一定有唯一的公共点？ 并说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设椭圆焦半距为 $c$，则 $2c=4$，所以 $c=2$，从而\r\n\n$$\na^2-b^2=c^2=4\n$$\n\r\n又点 $P(\\sqrt2,\\sqrt3)$ 在椭圆上，故\r\n\n$$\n\\frac2{a^2}+\\frac3{b^2}=1\n$$\n\r\n令 $A=a^2$，$B=b^2$，则 $A-B=4$，即 $A=B+4$. 代入上式：\r\n$\\frac2{B+4}+\\frac3B=1$，$\\Longrightarrow$，$B^2-B-12=0$.\r\n由于 $B>0$，得 $B=4$，于是 $A=8$. 所以椭圆方程为\r\n\n$$\n\\frac{x^2}{8}+\\frac{y^2}{4}=1\n$$\n\n(2) 由 $x_0y_0\\neq0$，点 $E=(x_0,0)$. 直线 $AE$ 的斜率为 $-\\frac{2\\sqrt2}{x_0}$，故过 $A$ 且垂直于 $AE$ 的直线斜率为 $\\frac{x_0}{2\\sqrt2}$. 它与 $x$ 轴交于\r\n\n$$\nD=\\left(-\\frac8{x_0},0\\right)\n$$\n\r\n所以点 $G$ 为\r\n\n$$\nG=\\left(\\frac8{x_0},0\\right)\n$$\n\r\n椭圆上点 $Q$ 满足 $x_0^2+2y_0^2=8$，而点 $G$ 也满足\r\n\n$$\nx_0\\cdot\\frac8{x_0}+2y_0\\cdot0=8\n$$\n\r\n因此直线 $QG$ 的方程为\r\n\n$$\nx_0x+2y_0y=8\n$$\n\r\n\r\n若 $(x,y)$ 是该直线与椭圆的公共点，则 $x^2+2y^2=8$，并且\r\n\n$$\n8=x_0x+2y_0y\r\n=x_0x+(\\sqrt2y_0)(\\sqrt2y)\r\n\\le\\sqrt{x_0^2+2y_0^2}\\sqrt{x^2+2y^2}=8\n$$\n\r\n等号成立时，柯西不等式取等，且两向量同向；由于它们的长度相同，只能有 $x=x_0$、$y=y_0$. 所以公共点只有 $Q$，直线 $QG$ 与椭圆 $C$ 一定有唯一的公共点.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "year": "2018",
+  "slug": "tianjin_liberal",
+  "title": "2018年天津卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设集合 $A=\\{1,2,3,4\\}$，$B=\\{-1,0,2,3\\}$，$C=\\{x\\in\\mathbb{R}\\mid -1\\le x<2\\}$，则 $(A\\cup B)\\cap C=$（ ）",
+          "choices": [
+            "$\\{-1,1\\}$",
+            "$\\{0,1\\}$",
+            "$\\{-1,0,1\\}$",
+            "$\\{2,3,4\\}$"
+          ],
+          "answer": "C",
+          "solution": "先求并集，得 $A\\cup B=\\{-1,0,1,2,3,4\\}$.由于 $C=[-1,2)$，其中的元素只能取并集中的 $-1$、$0$、$1$，而 $2\\notin C$.因此 $(A\\cup B)\\cap C=\\{-1,0,1\\}$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "设变量 $x$，$y$ 满足约束条件 $x+y\\le5$，$2x-y\\le4$，$-x+y\\le1$，$y\\ge0$，则目标函数 $z=3x+5y$ 的最大值为（ ）",
+          "choices": [
+            "$6$",
+            "$19$",
+            "$21$",
+            "$45$"
+          ],
+          "answer": "C",
+          "solution": "可行域的边界交点由直线 $y=0$、$y=2x-4$、$y=x+1$ 和 $y=5-x$ 两两相交并检验约束条件得到.具体地，$y=0$ 分别与 $y=x+1$、$y=2x-4$ 相交于 $(-1,0)$、$(2,0)$；$y=5-x$ 分别与 $y=2x-4$、$y=x+1$ 相交于 $(3,2)$、$(2,3)$.这四点均为可行域顶点.\r\n\r\n在线性目标函数的可行域上，最大值在顶点处取得.依次计算得\r\n$z(-1,0)=-3$，$z(2,0)=6$，$z(3,2)=19$，$z(2,3)=21$.所以 $z$ 的最大值为 $21$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "设 $x\\in\\mathbb{R}$，则“$x^3>8$”是“$|x|>2$”的（ ）",
+          "choices": [
+            "充分而不必要条件",
+            "必要而不充分条件",
+            "充要条件",
+            "既不充分也不必要条件"
+          ],
+          "answer": "A",
+          "solution": "因为函数 $y=x^3$ 在 $\\mathbb{R}$ 上单调递增，所以 $x^3>8$ 等价于 $x>2$.于是 $x^3>8$ 一定能推出 $|x|>2$，说明前者是后者的充分条件.\r\n\r\n但例如 $x=-3$ 时，$|x|>2$ 成立，而 $x^3=-27\\not>8$，所以后者不能推出前者.因此“$x^3>8$”是“$|x|>2$”的充分而不必要条件，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "阅读如图所示的程序框图，运行相应的程序，若输入 $N$ 的值为 $20$，则输出 $T$ 的值为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/tianjin_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$1$",
+            "$2$",
+            "$3$",
+            "$4$"
+          ],
+          "answer": "B",
+          "solution": "程序开始时 $i=2$，$T=0$.当 $i=2$ 时，$\\frac{20}{2}=10$ 是整数，故 $T$ 加 $1$ 得 $T=1$，随后 $i=3$.当 $i=3$ 时，$\\frac{20}{3}$ 不是整数，$T$ 仍为 $1$，随后 $i=4$.当 $i=4$ 时，$\\frac{20}{4}=5$ 是整数，故 $T=2$，随后 $i=5$.此时满足停止条件 $i\\ge5$，程序输出 $T=2$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "已知 $a=\\log_3\\dfrac72$，$b=\\left(\\dfrac14\\right)^{\\frac13}$，$c=\\log_{\\frac13}\\dfrac15$，则 $a$，$b$，$c$ 的大小关系为（ ）",
+          "choices": [
+            "$a>b>c$",
+            "$b>a>c$",
+            "$c>b>a$",
+            "$c>a>b$"
+          ],
+          "answer": "D",
+          "solution": "因为 $1<\\dfrac72<9=3^2$，所以 $1<a<2$.又因为 $b=4^{-\\frac{1}{3}}$，故 $0<b<1$.\r\n\r\n由于 $0<\\dfrac13<1$，且 $\\left(\\dfrac13\\right)^2=\\dfrac19<\\dfrac15<\\dfrac13$，对数函数 $y=\\log_{\\frac13}x$ 单调递减，所以 $1<c<2$.此外\r\n$3^a=\\dfrac72$，而\r\n$c=\\dfrac{\\ln(\\frac{1}{5})}{\\ln(\\frac{1}{3})}=\\dfrac{\\ln5}{\\ln3}$，从而 $3^c=5>\\dfrac72=3^a$，得 $c>a$.因此 $c>a>b$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "将函数 $y=\\sin\\!\\left(2x+\\dfrac{\\pi}{5}\\right)$ 的图象向右平移 $\\dfrac{\\pi}{10}$ 个单位长度，所得图象对应的函数（ ）",
+          "choices": [
+            "在区间 $\\left[-\\dfrac{\\pi}{4},\\dfrac{\\pi}{4}\\right]$ 上单调递增",
+            "在区间 $\\left[-\\dfrac{\\pi}{4},0\\right]$ 上单调递减",
+            "在区间 $\\left[\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right]$ 上单调递增",
+            "在区间 $\\left[\\dfrac{\\pi}{2},\\pi\\right]$ 上单调递减"
+          ],
+          "answer": "A",
+          "solution": "图象向右平移 $\\dfrac{\\pi}{10}$ 后，横坐标用 $x-\\dfrac{\\pi}{10}$ 替换，所得函数为\r\n$y=\\sin\\!\\left(2\\left(x-\\dfrac{\\pi}{10}\\right)+\\dfrac{\\pi}{5}\\right)=\\sin2x$.其导数为 $y'=2\\cos2x$.当 $x\\in\\left[-\\dfrac{\\pi}{4},\\dfrac{\\pi}{4}\\right]$ 时，$2x\\in\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$，故 $\\cos2x\\ge0$，且区间内部为正，所以函数在该区间上单调递增，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知双曲线 $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$（$a>0$，$b>0$）的离心率为 $2$，过右焦点且垂直于 $x$ 轴的直线与双曲线交于 $A$，$B$ 两点.设 $A$，$B$ 到双曲线同一条渐近线的距离分别为 $d_1$ 和 $d_2$，且 $d_1+d_2=6$，则双曲线的方程为（ ）",
+          "choices": [
+            "$\\dfrac{x^2}{3}-\\dfrac{y^2}{9}=1$",
+            "$\\dfrac{x^2}{9}-\\dfrac{y^2}{3}=1$",
+            "$\\dfrac{x^2}{4}-\\dfrac{y^2}{12}=1$",
+            "$\\dfrac{x^2}{12}-\\dfrac{y^2}{4}=1$"
+          ],
+          "answer": "A",
+          "solution": "设双曲线的右焦点为 $F(c,0)$.由离心率 $\\dfrac ca=2$，得 $c=2a$；又由 $c^2=a^2+b^2$，得 $b^2=3a^2$.双曲线的渐近线为 $bx\\pm ay=0$，且 $\\sqrt{a^2+b^2}=c$.\r\n\r\n直线 $x=c$ 与双曲线的交点纵坐标满足\r\n$\\dfrac{c^2}{a^2}-\\dfrac{y^2}{b^2}=1$，所以 $y=\\pm\\dfrac{b^2}{a}$.取渐近线 $bx-ay=0$，两交点到该直线的距离之和为\r\n\n$$\n\\frac{b(c-b)}{\\sqrt{a^2+b^2}}+\\frac{b(c+b)}{\\sqrt{a^2+b^2}}=\\frac{2bc}{c}=2b\n$$\n\r\n其中 $c>b$ 由 $c=2a$、$b=\\sqrt3a$ 可知.因此 $2b=6$，得 $b=3$，进而 $a^2=\\dfrac{b^2}{3}=3$.\r\n\r\n所以双曲线方程为 $\\dfrac{x^2}{3}-\\dfrac{y^2}{9}=1$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "在如图的平面图形中，已知 $OM=1$，$ON=2$，$\\angle MON=120^\\circ$，$\\overrightarrow{BM}=2\\overrightarrow{MA}$，$\\overrightarrow{CN}=2\\overrightarrow{NA}$，则 $\\overrightarrow{BC}\\cdot\\overrightarrow{OM}$ 的值为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/tianjin_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$-15$",
+            "$-9$",
+            "$-6$",
+            "$0$"
+          ],
+          "answer": "C",
+          "solution": "以 $O$ 为原点，记 $\\mathbf{m}=\\overrightarrow{OM}$，$\\mathbf{n}=\\overrightarrow{ON}$，$\\mathbf{a}=\\overrightarrow{OA}$.由 $\\overrightarrow{BM}=2\\overrightarrow{MA}$ 得\r\n$\\mathbf{m}-\\overrightarrow{OB}=2(\\mathbf{a}-\\mathbf{m})$，所以 $\\overrightarrow{OB}=3\\mathbf{m}-2\\mathbf{a}$.同理，由 $\\overrightarrow{CN}=2\\overrightarrow{NA}$ 得 $\\overrightarrow{OC}=3\\mathbf{n}-2\\mathbf{a}$.于是\r\n$\\overrightarrow{BC}=\\overrightarrow{OC}-\\overrightarrow{OB}=3(\\mathbf{n}-\\mathbf{m})$.\r\n\r\n由已知长度和夹角，$\\mathbf{m}\\cdot\\mathbf{n}=|\\mathbf{m}||\\mathbf{n}|\\cos120^\\circ=1\\cdot2\\cdot\\left(-\\dfrac12\\right)=-1$，且 $\\mathbf{m}\\cdot\\mathbf{m}=|\\mathbf{m}|^2=1$.因此\r\n\n$$\n\\overrightarrow{BC}\\cdot\\overrightarrow{OM}=3(\\mathbf{n}-\\mathbf{m})\\cdot\\mathbf{m}=3(-1-1)=-6\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 9,
+          "body": "$\\mathrm{i}$ 是虚数单位，复数 $\\dfrac{6+7\\mathrm{i}}{1+2\\mathrm{i}}= _______ {}$.",
+          "choices": [],
+          "answer": "\\(4-\\mathrm{i}\\)",
+          "solution": "分母的共轭复数为 $1-2\\mathrm{i}$，于是\r\n\n$$\n\\frac{6+7\\mathrm{i}}{1+2\\mathrm{i}}=\\frac{(6+7\\mathrm{i})(1-2\\mathrm{i})}{(1+2\\mathrm{i})(1-2\\mathrm{i})}=\\frac{6-12\\mathrm{i}+7\\mathrm{i}-14\\mathrm{i}^2}{1+4}=\\frac{20-5\\mathrm{i}}{5}=4-\\mathrm{i}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知函数 $f(x)=\\mathrm{e}^x\\ln x$，$f'(x)$ 为 $f(x)$ 的导函数，则 $f'(1)$ 的值为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\mathrm{e}\\)",
+          "solution": "因 $\\ln x$ 的定义域为 $x>0$，在此定义域内由乘积求导法则得\r\n$f'(x)=\\mathrm{e}^x\\ln x+\\mathrm{e}^x\\cdot\\dfrac1x$.代入 $x=1$，并利用 $\\ln1=0$，得到 $f'(1)=\\mathrm{e}(0+1)=\\mathrm{e}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "如图，已知正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $1$，则四棱锥 $A_1-BB_1D_1D$ 的体积为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/tianjin_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(\\dfrac13\\)",
+          "solution": "建立坐标系，令 $A=(0,0,0)$，$B=(1,0,0)$，$D=(0,1,0)$，$A_1=(0,0,1)$.底面四边形 $BB_1D_1D$ 所在平面为 $x+y=1$，它是矩形，且 $BB_1=1$，$BD=\\sqrt2$，故底面积为 $\\sqrt2$.\r\n\r\n点 $A_1$ 到该平面的距离为\r\n\n$$\nh=\\frac{|0+0-1|}{\\sqrt{1^2+1^2}}=\\frac{\\sqrt2}{2}\n$$\n\r\n因此四棱锥体积为 $V=\\dfrac13\\cdot\\sqrt2\\cdot\\dfrac{\\sqrt2}{2}=\\dfrac13$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "在平面直角坐标系中，经过三点 $(0,0)$，$(1,1)$，$(2,0)$ 的圆的方程为 _______ {}.",
+          "choices": [],
+          "answer": "\\(x^2+y^2-2x=0\\)",
+          "solution": "设圆的方程为 $x^2+y^2+Dx+Ey+F=0$.代入 $(0,0)$ 得 $F=0$；代入 $(1,1)$ 得 $2+D+E=0$；代入 $(2,0)$ 得 $4+2D=0$，所以 $D=-2$，再由 $2+D+E=0$ 得 $E=0$.\r\n\r\n故所求圆的方程为 $x^2+y^2-2x=0$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "已知 $a$，$b\\in\\mathbb{R}$，且 $a-3b+6=0$，则 $2^a+\\dfrac1{8^b}$ 的最小值为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\dfrac14\\)",
+          "solution": "由约束条件得 $a-3b=-6$，并且 $\\dfrac1{8^b}=2^{-3b}$.因为 $2^a>0$、$2^{-3b}>0$，由基本不等式有\r\n\n$$\n2^a+2^{-3b}\\ge2\\sqrt{2^a\\cdot2^{-3b}}=2\\sqrt{2^{a-3b}}=2\\sqrt{2^{-6}}=\\frac14\n$$\n\r\n等号成立当且仅当 $2^a=2^{-3b}$，即 $a=-3b$.联立 $a-3b=-6$ 得 $b=1$、$a=-3$，确实满足条件.因此最小值为 $\\dfrac14$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "已知 $a\\in\\mathbb{R}$，函数 $f(x)=\\begin{cases}\r\nx^2+2x+a-2, & x\\le0,\\\\\r\n-x^2+2x-2a, & x>0.\r\n\\end{cases}$\r\n若对任意 $x\\in[-3,+\\infty)$，$f(x)\\le|x|$ 恒成立，则 $a$ 的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left[\\dfrac18,2\\right]\\)",
+          "solution": "当 $-3\\le x\\le0$ 时，$|x|=-x$，不等式 $f(x)\\le|x|$ 等价于\r\n$x^2+2x+a-2\\le-x$，即 $a\\le -x^2-3x+2$.配方得\r\n$-x^2-3x+2=-(x+\\tfrac32)^2+\\tfrac{17}{4}$.该函数在闭区间 $[-3,0]$ 上的最小值在端点取得，且两端均为 $2$，所以必须且只需 $a\\le2$.\r\n\r\n当 $x>0$ 时，$|x|=x$，不等式等价于\r\n$-x^2+2x-2a\\le x$，即 $a\\ge\\dfrac{-x^2+x}{2}=\\dfrac18-\\dfrac12\\left(x-\\tfrac12\\right)^2$.右端在 $x=\\tfrac12$ 处取得最大值 $\\dfrac18$，所以必须且只需 $a\\ge\\dfrac18$.\r\n\r\n综合两部分，$a$ 的取值范围为 $\\left[\\dfrac18,2\\right]$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 15,
+          "body": "已知某校甲，乙，丙三个年级的学生志愿者人数分别为 $240,160,160$.现采用分层抽样的方法从中抽取 $7$ 名同学去某敬老院参加献爱心活动.\r\n\r\n\n(1) 应从甲，乙，丙三个年级的学生志愿者中分别抽取多少人？\n\n(2) 设抽出的 $7$ 名同学分别用 $A$，$B$，$C$，$D$，$E$，$F$，$G$ 表示，现从中随机抽取 $2$ 名同学承担敬老院的卫生工作.\r\n\\begin{enumerate}\n\n(3) 试用所给字母列举出所有可能的抽取结果；\n\n(4) 设 $M$ 为事件“抽取的 $2$ 名同学来自同一年级”，求事件 $M$ 发生的概率.\n\r\n\\end{enumerate}",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 甲，乙，丙三个年级的志愿者人数之比为 $240:160:160=3:2:2$.分层抽样时各层抽取人数之比等于各层人数之比，且总人数为 $7=3+2+2$，所以应从甲，乙，丙三个年级分别抽取 $3$ 人，$2$ 人，$2$ 人.\n\n(2) \\begin{enumerate}\n\n(3) 随机抽取两名同学时不计顺序，因此所有可能结果为\r\n$\\{A,B\\}$，$\\{A,C\\}$，$\\{A,D\\}$，$\\{A,E\\}$，$\\{A,F\\}$，$\\{A,G\\}$，$\\{B,C\\}$，$\\{B,D\\}$，$\\{B,E\\}$，$\\{B,F\\}$，$\\{B,G\\}$，$\\{C,D\\}$，$\\{C,E\\}$，$\\{C,F\\}$，$\\{C,G\\}$，$\\{D,E\\}$，$\\{D,F\\}$，$\\{D,G\\}$，$\\{E,F\\}$，$\\{E,G\\}$，$\\{F,G\\}$，共 $\\mathrm C_7^2=21$ 种.\n\n(4) 不妨设来自甲年级的同学为 $A$，$B$，$C$，来自乙年级的同学为 $D$，$E$，来自丙年级的同学为 $F$，$G$.事件 $M$ 包含的结果为 $\\{A,B\\}$、$\\{A,C\\}$、$\\{B,C\\}$、$\\{D,E\\}$、$\\{F,G\\}$，共 $\\mathrm C_3^2+\\mathrm C_2^2+\\mathrm C_2^2=5$ 种.\r\n\r\n由于上述 $21$ 个基本事件等可能，所以\r\n$P(M)=\\dfrac{5}{21}$.\n\r\n\\end{enumerate}",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$.已知 $b\\sin A=a\\cos\\!\\left(B-\\dfrac{\\pi}{6}\\right)$.\r\n\r\n\n(1) 求角 $B$ 的大小；\n\n(2) 设 $a=2$，$c=3$，求 $b$ 和 $\\sin(2A-B)$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$，所以 $b\\sin A=a\\sin B$.结合已知等式且 $a>0$，得\r\n$\\sin B=\\cos\\!\\left(B-\\dfrac{\\pi}{6}\\right)=\\sin\\!\\left(\\dfrac{2\\pi}{3}-B\\right)$.\r\n\r\n因为 $0<B<\\pi$，由正弦相等的两种情形，$B=\\dfrac{2\\pi}{3}-B+2k\\pi$ 给出 $B=\\dfrac{\\pi}{3}+k\\pi$，只有 $k=0$ 符合；另一种情形 $B=\\pi-\\left(\\dfrac{2\\pi}{3}-B\\right)+2k\\pi$ 无法在该范围内成立.因此 $B=\\dfrac{\\pi}{3}$.\n\n(2) 由余弦定理，\r\n$b^2=a^2+c^2-2ac\\cos B=2^2+3^2-2\\cdot2\\cdot3\\cdot\\dfrac12=7$.因 $b>0$，故 $b=\\sqrt7$.\r\n\r\n由已知等式得\r\n$\\sin A=\\dfrac{a}{b}\\cos\\!\\left(B-\\dfrac{\\pi}{6}\\right)=\\dfrac{2}{\\sqrt7}\\cdot\\dfrac{\\sqrt3}{2}=\\dfrac{\\sqrt3}{\\sqrt7}$.又因为 $a<c$，所以 $A<C$；而 $A+C=\\pi-B=\\dfrac{2\\pi}{3}$，从而 $A<\\dfrac{\\pi}{3}<\\dfrac{\\pi}{2}$，故 $\\cos A>0$.因此\r\n$\\cos A=\\sqrt{1-\\sin^2A}=\\dfrac{2}{\\sqrt7}$.\r\n\r\n于是 $\\sin2A=2\\sin A\\cos A=\\dfrac{4\\sqrt3}{7}$，$\\cos2A=2\\cos^2A-1=\\dfrac17$.最后\r\n\n$$\n\\sin(2A-B)=\\sin2A\\cos B-\\cos2A\\sin B=\\frac{4\\sqrt3}{7}\\cdot\\frac12-\\frac17\\cdot\\frac{\\sqrt3}{2}=\\frac{3\\sqrt3}{14}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "如图，在四面体 $ABCD$ 中，$\\triangle ABC$ 是等边三角形，平面 $ABC\\perp$ 平面 $ABD$，点 $M$ 为棱 $AB$ 的中点，$AB=2$，$AD=2\\sqrt3$，$\\angle BAD=90^\\circ$.\r\n\r\n\n(1) 求证：$AD\\perp BC$；\n\n(2) 求异面直线 $BC$ 与 $MD$ 所成角的余弦值；\n\n(3) 求直线 $CD$ 与平面 $ABD$ 所成角的正弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/tianjin_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 两平面 $ABC$ 与 $ABD$ 的交线为 $AB$.已知 $AD\\subset$ 平面 $ABD$ 且 $AD\\perp AB$，根据二面角为直二面角时的判定定理，得 $AD\\perp$ 平面 $ABC$.由于 $BC\\subset$ 平面 $ABC$，所以 $AD\\perp BC$.\n\n(2) 取棱 $AC$ 的中点 $N$，连接 $MN$ 和 $DN$.在三角形 $ABC$ 中，$M$，$N$ 分别为 $AB$，$AC$ 的中点，所以 $MN\\parallel BC$，且 $MN=\\dfrac12BC=1$.由（1）知 $AD\\perp$ 平面 $ABC$，故 $AD\\perp AM$、$AD\\perp AN$.于是\r\n$DM^2=AD^2+AM^2=12+1=13$，$DN^2=AD^2+AN^2=12+1=13$，即 $DM=DN=\\sqrt{13}$.\r\n\r\n在等腰三角形 $DMN$ 中，由余弦定理\r\n\n$$\n\\cos\\angle DMN=\\frac{DM^2+MN^2-DN^2}{2DM\\cdot MN}=\\frac{1}{2\\sqrt{13}}=\\frac{\\sqrt{13}}{26}\n$$\n\r\n因 $MN\\parallel BC$，$\\angle DMN$ 或其补角就是异面直线 $BC$ 与 $MD$ 所成的角，所成角取锐角，故其余弦值为 $\\dfrac{\\sqrt{13}}{26}$.\n\n(3) 在等边三角形 $ABC$ 中，$M$ 为 $AB$ 的中点，所以 $CM\\perp AB$，且 $CM=\\sqrt3$.又 $CM\\subset$ 平面 $ABC$，由两平面垂直的判定定理得 $CM\\perp$ 平面 $ABD$.因此 $M$ 是点 $C$ 在平面 $ABD$ 上的射影，直线 $CD$ 与平面 $ABD$ 所成的角等于 $\\angle CDM$.\r\n\r\n由 $AD\\perp$ 平面 $ABC$，得 $AD\\perp AC$.在直角三角形 $CAD$ 中，$AC=AB=2$，所以 $CD=\\sqrt{AC^2+AD^2}=\\sqrt{4+12}=4$.故\r\n$\\sin\\angle CDM=\\dfrac{CM}{CD}=\\dfrac{\\sqrt3}{4}$，即直线 $CD$ 与平面 $ABD$ 所成角的正弦值为 $\\dfrac{\\sqrt3}{4}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "设 $\\{a_n\\}$ 是等差数列，其前 $n$ 项和为 $S_n$（$n\\in\\mathbb{N}^*$）；$\\{b_n\\}$ 是等比数列，公比大于 $0$，其前 $n$ 项和为 $T_n$（$n\\in\\mathbb{N}^*$）.已知 $b_1=1$，$b_3=b_2+2$，$b_4=a_3+a_5$，$b_5=a_4+2a_6$.\r\n\r\n\n(1) 求 $S_n$ 和 $T_n$；\n\n(2) 若 $S_n+(T_1+T_2+\\cdots+T_n)=a_n+4b_n$，求正整数 $n$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设等比数列 $\\{b_n\\}$ 的公比为 $q$.由 $b_1=1$ 得 $b_2=q$、$b_3=q^2$，代入 $b_3=b_2+2$ 得 $q^2=q+2$，即 $(q-2)(q+1)=0$.因 $q>0$，所以 $q=2$，从而 $b_n=2^{n-1}$，$T_n=\\dfrac{2^n-1}{2-1}=2^n-1$.\r\n\r\n设等差数列 $\\{a_n\\}$ 的首项为 $a_1$，公差为 $d$.由 $b_4=8=a_3+a_5$，得\r\n$a_1+2d+a_1+4d=8$，即 $a_1+3d=4$.由 $b_5=16=a_4+2a_6$，得\r\n$a_1+3d+2(a_1+5d)=16$，即 $3a_1+13d=16$.联立解得 $a_1=1$，$d=1$，所以 $a_n=n$，$S_n=\\dfrac{n(n+1)}2$.\n\n(2) 由 $T_i=2^i-1$，得\r\n\n$$\nT_1+T_2+\\cdots+T_n=(2^1+2^2+\\cdots+2^n)-n=2^{n+1}-n-2\n$$\n\r\n又 $a_n=n$、$b_n=2^{n-1}$，代入已知等式得\r\n\n$$\n\\frac{n(n+1)}2+2^{n+1}-n-2=n+4\\cdot2^{n-1}=n+2^{n+1}\n$$\n\r\n整理得 $n^2-3n-4=0$，即 $(n-4)(n+1)=0$.因为 $n\\in\\mathbb{N}^*$，所以 $n=4$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "设椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的右顶点为 $A$，上顶点为 $B$.已知椭圆的离心率为 $\\dfrac{\\sqrt5}{3}$，$|AB|=\\sqrt{13}$.\r\n\r\n\n(1) 求椭圆的方程；\n\n(2) 设直线 $l:y=kx$（$k<0$）与椭圆交于 $P$，$Q$ 两点，$l$ 与直线 $AB$ 交于点 $M$，且点 $P$，$M$ 均在第四象限.若 $\\triangle BPM$ 的面积是 $\\triangle BPQ$ 面积的 $2$ 倍，求 $k$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设椭圆的半焦距为 $c$.由离心率条件，$\\dfrac ca=\\dfrac{\\sqrt5}{3}$，所以 $c^2=\\dfrac59a^2$.又 $a^2=b^2+c^2$，得 $b^2=\\dfrac49a^2$，即 $b=\\dfrac23a$.\r\n\r\n椭圆的右顶点和上顶点分别为 $A=(a,0)$、$B=(0,b)$，所以 $|AB|^2=a^2+b^2=13$.代入 $b=\\dfrac23a$，得 $\\dfrac{13}{9}a^2=13$，因 $a>0$，故 $a=3$、$b=2$.椭圆方程为 $\\dfrac{x^2}{9}+\\dfrac{y^2}{4}=1$.\n\n(2) 此时 $A=(3,0)$、$B=(0,2)$，直线 $AB$ 的方程为 $2x+3y=6$.设 $P=(x_1,kx_1)$、$M=(x_2,kx_2)$.因为 $P$、$M$ 在第四象限且 $k<0$，所以 $x_1>0$、$x_2>0$.椭圆关于原点对称，故直线 $l$ 的另一个交点为 $Q=(-x_1,-kx_1)$.\r\n\r\n三角形 $BPM$ 和 $BPQ$ 的底边 $PM$、$PQ$ 都在直线 $l$ 上，点 $B$ 到直线 $l$ 的高相同，所以面积比等于底边长度比.由题意\r\n$PM=2PQ$.又 $P$，$Q$，$M$ 的横坐标分别为 $x_1$，$-x_1$，$x_2$，故\r\n$|x_2-x_1|=2|x_1-(-x_1)|=4x_1$.因 $x_1$，$x_2>0$，只有 $x_2=5x_1$ 符合.\r\n\r\n由 $M\\in AB$ 且 $M\\in l$，得\r\n$x_2=\\dfrac{6}{3k+2}$.由 $P\\in l$ 且 $P$ 在椭圆上，得\r\n$\\dfrac{x_1^2}{9}+\\dfrac{k^2x_1^2}{4}=1$，所以 $x_1=\\dfrac{6}{\\sqrt{9k^2+4}}$.于是\r\n\n$$\n\\frac{6}{3k+2}=5\\cdot\\frac{6}{\\sqrt{9k^2+4}}\n$$\n\r\n由于 $x_2>0$，有 $3k+2>0$，故可化为 $\\sqrt{9k^2+4}=5(3k+2)$.两边平方并整理，得 $18k^2+25k+8=0$，解得 $k=-\\dfrac89$ 或 $k=-\\dfrac12$.\r\n\r\n当 $k=-\\dfrac89$ 时，$3k+2<0$，导致 $x_2<0$，与 $M$ 在第四象限矛盾；当 $k=-\\dfrac12$ 时，$3k+2>0$，且相应的 $P$，$M$ 均在第四象限.因此 $k=-\\dfrac12$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设函数 $f(x)=(x-t_1)(x-t_2)(x-t_3)$，其中 $t_1$，$t_2$，$t_3\\in\\mathbb{R}$，且 $t_1$，$t_2$，$t_3$ 是公差为 $d$ 的等差数列.\r\n\r\n\n(1) 若 $t_2=0$，$d=1$，求曲线 $y=f(x)$ 在点 $(0,f(0))$ 处的切线方程；\n\n(2) 若 $d=3$，求 $f(x)$ 的极值；\n\n(3) 若曲线 $y=f(x)$ 与直线 $y=-(x-t_2)-6\\sqrt3$ 有三个互异的公共点，求 $d$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "由等差数列关系，$t_1=t_2-d$、$t_3=t_2+d$.令 $u=x-t_2$，则\r\n$f(x)=(u+d)u(u-d)=u^3-d^2u$.\r\n\r\n\n(1) 当 $t_2=0$、$d=1$ 时，$f(x)=x(x+1)(x-1)=x^3-x$，所以 $f(0)=0$，$f'(x)=3x^2-1$，$f'(0)=-1$.由切线方程公式\r\n$y-f(0)=f'(0)(x-0)$，得 $y=-x$，即 $x+y=0$.\n\n(2) 当 $d=3$ 时，$f(x)=u^3-9u$，且 $f'(x)=3u^2-9$.当 $u<-\\sqrt3$ 或 $u>\\sqrt3$ 时，$f'(x)>0$；当 $-\\sqrt3<u<\\sqrt3$ 时，$f'(x)<0$.因此在 $x=t_2-\\sqrt3$ 处取得极大值，在 $x=t_2+\\sqrt3$ 处取得极小值.\r\n\r\n极大值为 $(-\\sqrt3)^3-9(-\\sqrt3)=6\\sqrt3$，极小值为 $(\\sqrt3)^3-9\\sqrt3=-6\\sqrt3$.\n\n(3) 曲线与直线的公共点满足\r\n$u^3-d^2u=-u-6\\sqrt3$，即\r\n\n$$\ng(u)=u^3+(1-d^2)u+6\\sqrt3=0\n$$\n\r\n若 $d^2\\le1$，则 $g'(u)=3u^2+1-d^2\\ge0$，函数 $g$ 在 $\\mathbb{R}$ 上单调递增，不可能有三个互异的实根.\r\n\r\n若 $d^2>1$，令 $h=d^2-1>0$，则 $g'(u)=3u^2-h$，两个极值点为 $u_1=-\\sqrt{\\frac{h}{3}}$、$u_2=\\sqrt{\\frac{h}{3}}$.函数 $g$ 在 $u_1$ 处取得极大值，在 $u_2$ 处取得极小值.计算得\r\n\n$$\ng(u_1)=6\\sqrt3+\\frac{2\\sqrt3}{9}h^{\\frac{3}{2}}>0\n$$\n\r\n\n$$\ng(u_2)=6\\sqrt3-\\frac{2\\sqrt3}{9}h^{\\frac{3}{2}}\n$$\n\r\n三次函数有三个互异实根的充要条件是极大值大于 $0$ 且极小值小于 $0$.前一个条件恒成立，后一个条件等价于\r\n$\\dfrac{2\\sqrt3}{9}h^{\\frac{3}{2}}>6\\sqrt3$，即 $h^{\\frac{3}{2}}>27$，从而 $h>9$，也就是 $d^2>10$.等号时极小值为 $0$，会出现重根，不符合三个互异公共点的要求.\r\n\r\n因此 $d$ 的取值范围为 $\\left(-\\infty,-\\sqrt{10}\\right)\\cup\\left(\\sqrt{10},+\\infty\\right)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "year": "2012",
+  "slug": "hunan_liberal",
+  "title": "2012年湖南卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "选做题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "选做题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设集合 $M = \\{-1, 0, 1\\}$，$N = \\{x \\mid x^2 = x\\}$，则 $M \\cap N =$（ ）",
+          "choices": [
+            "$\\{-1,0,1\\}$",
+            "$\\{0, 1\\}$",
+            "$\\{1\\}$",
+            "$\\{0\\}$"
+          ],
+          "answer": "B",
+          "solution": "由 $x^2=x$ 得 $x(x-1)=0$，所以 $N=\\{0,1\\}$. 因而\r\n$M\\cap N=\\{-1,0,1\\}\\cap\\{0,1\\}=\\{0,1\\}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "复数 $z = \\mathrm{i}(\\mathrm{i} + 1)$（$\\mathrm{i}$ 为虚数单位）的共轭复数是（ ）",
+          "choices": [
+            "$-1 - \\mathrm{i}$",
+            "$-1 + \\mathrm{i}$",
+            "$1 - \\mathrm{i}$",
+            "$1 + \\mathrm{i}$"
+          ],
+          "answer": "A",
+          "solution": "先将复数化为代数形式：\r\n$z=\\mathrm{i}(\\mathrm{i}+1)=\\mathrm{i}^2+\\mathrm{i}=-1+\\mathrm{i}$. 共轭复数是实部不变、虚部变号，故\r\n$\\overline z=-1-\\mathrm{i}$，所以选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "命题“若 $\\alpha = \\frac{\\pi}{4}$，则 $\\tan \\alpha = 1$”的逆否命题是（ ）",
+          "choices": [
+            "若 $\\alpha \\neq \\frac{\\pi}{4}$，则 $\\tan \\alpha \\neq 1$",
+            "若 $\\alpha = \\frac{\\pi}{4}$，则 $\\tan \\alpha \\neq 1$",
+            "若 $\\tan \\alpha \\neq 1$，则 $\\alpha \\neq \\frac{\\pi}{4}$",
+            "若 $\\tan \\alpha \\neq 1$，则 $\\alpha = \\frac{\\pi}{4}$"
+          ],
+          "answer": "C",
+          "solution": "设命题中的前件为 $p$：$\\alpha=\\frac{\\pi}{4}$，后件为 $q$：$\\tan\\alpha=1$. 命题\r\n“若 $p$，则 $q$”的逆否命题是“若非 $q$，则非 $p$”，即\r\n“若 $\\tan\\alpha\\neq1$，则 $\\alpha\\neq\\frac{\\pi}{4}$”. 故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "某几何体的正视图和侧视图均如下图所示，则该几何体的俯视图不可能是（ ）\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/hunan_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/hunan_liberal/q4_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/hunan_liberal/q4_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/hunan_liberal/q4_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/hunan_liberal/q4_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "C",
+          "solution": "正视图和侧视图相同，且上部矩形内部没有实线或虚线，说明上部几何体的侧棱方向与投影方向一致，斜边不能在正视图或侧视图的上部投影中出现. 若俯视图为 C，内边界含有一条斜边，该斜边对应的侧棱在正视图或侧视图中必留下斜线，与题给上部矩形内部无斜线矛盾. 因此 C 不可能，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "设某大学的女生体重 $y$ （单位： $\\mathrm{kg}$） 与身高 $x$ （单位： $\\mathrm{cm}$） 具有线性相关关系，根据一组样本数据 $(x_i, y_i)$（$i = 1$，$2$，$\\cdots$，$n$），用最小二乘法建立的回归方程为 $\\hat{y} = 0.85x - 85.71$，则下列结论中不正确的是（ ）",
+          "choices": [
+            "$y$ 与 $x$ 具有正的线性相关关系",
+            "回归直线过样本点的中心（$\\overline{x}$，$\\overline{y}$）",
+            "若该大学某女生身高增加 $1 \\mathrm{~cm}$，则其体重约增加 $0.85 \\mathrm{~kg}$",
+            "若该大学某女生身高为 $170 \\mathrm{~cm}$，则可断定其体重必为 $58.79 \\mathrm{~kg}$"
+          ],
+          "answer": "D",
+          "solution": "回归方程的斜率 $0.85>0$，说明 $y$ 与 $x$ 具有正的线性相关关系，A 正确. 最小二乘回归直线必经过样本中心\r\n$(\\overline{x},\\overline{y})$，B 正确. 斜率的意义是身高每增加 $1\\mathrm{~cm}$，按回归模型估计体重平均增加约 $0.85\\mathrm{~kg}$，C 正确.\r\n\r\n当 $x=170$ 时，回归方程只给出预测值\r\n$\\hat y=0.85\\times170-85.71=58.79$，并不能断定实际体重必为这个值. 因此不正确的是 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "已知双曲线 $C: \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ 的焦距为 10，点 $P(2,1)$ 在 $C$ 的渐近线上，则 $C$ 的方程为（ ）",
+          "choices": [
+            "$\\frac{x^2}{20} -\\frac{y^2}{5} = 1$",
+            "$\\frac{x^2}{5} -\\frac{y^2}{20} = 1$",
+            "$\\frac{x^2}{80} -\\frac{y^2}{20} = 1$",
+            "$\\frac{x^2}{20} -\\frac{y^2}{80} = 1$"
+          ],
+          "answer": "A",
+          "solution": "双曲线的焦距为 $2c=10$，所以 $c=5$，从而 $c^2=a^2+b^2=25$. 其渐近线为\r\n$y=\\pm\\frac{b}{a}x$. 点 $P(2,1)$ 在渐近线上，故\r\n$\\frac{b}{a}=\\frac12$，即 $b^2=\\frac{a^2}{4}$. 代入焦点关系得\r\n\n$$\na^2+\\frac{a^2}{4}=25\n$$\n\r\n所以 $a^2=20$，$b^2=5$. 因而双曲线方程为\r\n$\\frac{x^2}{20}-\\frac{y^2}{5}=1$，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "设 $a > b > 1$，$c < 0$，给出下列三个结论：\r\n\\begin{circlelist}\r\n\\item $\\frac{c}{a} > \\frac{c}{b}$；\r\n\\item $a^{c} < b^{c}$；\r\n\\item $\\log_{b}(a - c) > \\log_{a}(b - c)$.\r\n\\end{circlelist}\r\n其中所有正确结论的序号是（ ）",
+          "choices": [
+            "\\circled{1}",
+            "\\circled{1}\\circled{2}",
+            "\\circled{2}\\circled{3}",
+            "\\circled{1}\\circled{2}\\circled{3}"
+          ],
+          "answer": "D",
+          "solution": "因为 $a>b>1$，且 $c<0$，所以\r\n\n$$\n\\frac{c}{a}-\\frac{c}{b}=\\frac{c(b-a)}{ab}>0\n$$\n\r\n结论一正确. 对底数大于 $1$ 的幂函数，底数越大，负指数幂越小，因此\r\n$a^c<b^c$，结论二正确.\r\n\r\n又因为 $a-c>b-c>1$，并且 $\\ln a>\\ln b>0$、\r\n$\\ln(a-c)>\\ln(b-c)>0$，于是\r\n\n$$\n\\log_b(a-c)>\\log_a(b-c)\r\n \\Longleftrightarrow \r\n\\frac{\\ln(a-c)}{\\ln b}>\\frac{\\ln(b-c)}{\\ln a}\n$$\n\r\n交叉相乘后，左侧分子乘积为\r\n$\\ln(a-c)\\ln a$，右侧为 $\\ln(b-c)\\ln b$，前者的两个正因子分别都大于后者对应因子，故结论三也正确. 因此选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "在 $\\triangle ABC$ 中，$AC = \\sqrt{7}$，$BC = 2$，$B = 60^{\\circ}$，则 $BC$ 边上的高等于（ ）",
+          "choices": [
+            "$\\frac{\\sqrt{3}}{2}$",
+            "$\\frac{3\\sqrt{3}}{2}$",
+            "$\\frac{\\sqrt{3} + \\sqrt{6}}{2}$",
+            "$\\frac{\\sqrt{3} + \\sqrt{39}}{4}$"
+          ],
+          "answer": "B",
+          "solution": "设 $AB=t>0$，以 $B$ 为原点、$BC$ 所在直线为 $x$ 轴. 由\r\n$\\angle B=60^\\circ$，点 $A$ 的坐标可写为\r\n$\\left(\\frac t2,\\frac{\\sqrt3}{2}t\\right)$，而 $C=(2,0)$. 由\r\n$AC=\\sqrt7$ 得\r\n\n$$\n\\left(\\frac t2-2\\right)^2+\\left(\\frac{\\sqrt3}{2}t\\right)^2=7\n$$\n\r\n即 $t^2-2t-3=0$. 因为 $t>0$，所以 $t=3$. 三角形对 $BC$ 边的高为\r\n\n$$\nt\\sin60^\\circ=3\\times\\frac{\\sqrt3}{2}=\\frac{3\\sqrt3}{2}\n$$\n\r\n故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "设定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 是最小正周期为 $2\\pi$ 的偶函数，$f'(x)$ 是 $f(x)$ 的导函数. 当 $x \\in [0, \\pi]$ 时，$0 < f(x) < 1$；当 $x \\in (0, \\pi)$ 且 $x \\neq \\frac{\\pi}{2}$ 时，$\\left(x - \\frac{\\pi}{2}\\right)f'(x) > 0$，则函数 $y = f(x) - \\sin x$ 在 $[-2\\pi, 2\\pi]$ 上的零点个数为（ ）",
+          "choices": [
+            "$2$",
+            "$4$",
+            "$5$",
+            "$8$"
+          ],
+          "answer": "B",
+          "solution": "令 $h(x)=f(x)-\\sin x$. 由题设，在 $0<x<\\frac\\pi2$ 时\r\n$x-\\frac\\pi2<0$，故 $f'(x)<0$，而 $\\sin x$ 递增，所以 $h(x)$ 严格递减. 又\r\n$h(0)=f(0)>0$，$h(\\frac\\pi2)=f(\\frac\\pi2)-1<0$，故该区间恰有一个零点.\r\n\r\n在 $\\frac\\pi2<x<\\pi$ 时 $f'(x)>0$，而 $\\sin x$ 递减，所以 $h(x)$ 严格递增. 由于\r\n$h(\\frac\\pi2)<0$，$h(\\pi)=f(\\pi)>0$，该区间也恰有一个零点. 因此 $(0,\\pi)$ 内有两个零点.\r\n\r\n对 $0<x<\\pi$，由 $0<f(x)<1$ 和 $\\sin x>0$ 可知\r\n$h(-x)=f(x)+\\sin x>0$，所以 $(-\\pi,0)$ 内无零点. 若 $x\\in(\\pi,2\\pi)$，令 $t=2\\pi-x\\in(0,\\pi)$，则\r\n$f(x)=f(t)$、$\\sin x=-\\sin t$，从而 $h(x)=f(t)+\\sin t>0$. 由周期性，若 $r\\in(0,\\pi)$ 是前面得到的零点，则 $h(r-2\\pi)=h(r)=0$，所以在 $(-2\\pi,-\\pi)$ 内恰有对应的两个零点；正半轴的 $(\\pi,2\\pi)$ 及端点均无新增零点. 故 $[-2\\pi,2\\pi]$ 上共有 $2+2=4$ 个零点，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选做题：填空题",
+      "problems": [
+        {
+          "num": 10,
+          "body": "在极坐标系中，曲线 $C_{1}: \\rho (\\sqrt{2} \\cos \\theta + \\sin \\theta) = 1$ 与曲线 $C_{2}: \\rho = a$ （$a > 0$） 的一个交点在极轴上，则 $a = _______ {}$.",
+          "choices": [],
+          "answer": "\\(\\dfrac{\\sqrt{2}}{2}\\)",
+          "solution": "极轴对应 $\\theta=0$，此时曲线 $C_{1}$ 上的点满足\r\n$\\rho\\sqrt2=1$，所以 $\\rho=\\frac{\\sqrt2}{2}$. 该点同时在\r\n$C_2:\\rho=a$ 上，故 $a=\\frac{\\sqrt2}{2}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "某制药企业为了对某种药用液体进行生物测定，需要优选培养温度，试验范围定为 $29^{\\circ} \\mathrm{C} \\sim 63^{\\circ} \\mathrm{C}$，精确度要求 $\\pm 1^{\\circ} \\mathrm{C}$. 用分数法进行优选时，能保证找到最佳培养温度需要的最少试验次数为 _______ {}.",
+          "choices": [],
+          "answer": "7",
+          "solution": "分数法把试验区间按 Fibonacci 数列确定的试验点分割. 设\r\n$F_1=F_2=1$，且 $F_{n+1}=F_n+F_{n-1}$. 若还可进行 $r$ 次试验，记该方法能保证分辨的等效区间份数为 $N_r$. 一次比较后，保留的两个可能区间分别还需要 $r-1$ 次和 $r-2$ 次试验，因此\r\n$N_r=N_{r-1}+N_{r-2}$，且 $N_1=1$，$N_2=2$，从而 $N_r=F_{r+1}$. 所以最后包含最佳温度的区间长度至多为\r\n\n$$\n\\frac{63-29}{F_{r+1}}=\\frac{34}{F_{r+1}}\n$$\n\r\n精确度要求为 $\\pm1^\\circ\\mathrm C$，故最后的存优区间长度应不超过 $2^\\circ\\mathrm C$，即需有\r\n\n$$\nF_{r+1}\\ge\\frac{34}{2}=17\n$$\n\r\n由于 $F_7=13<17$，而 $F_8=21>17$，所以 $r=6$ 次不能保证达到精度，$r=7$ 次可以保证达到精度. 因而最少试验次数为 $7$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 12,
+          "body": "不等式 $x^{2} - 5x + 6 \\le 0$ 的解集为 _______ {}.",
+          "choices": [],
+          "answer": "\\([2,3]\\)",
+          "solution": "因式分解得\r\n\n$$\nx^2-5x+6=(x-2)(x-3)\n$$\n\r\n抛物线开口向上，乘积不大于零正好发生在两根之间，包含两个根，因此解集为\r\n$[2,3]$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "如图是某学校一名篮球运动员在五场比赛中所得分数的茎叶图，则该运动员在这五场比赛中得分的方差为 _______ {}.\r\n\\begin{center}\r\n\\begin{tabular}{c|ccc}\r\n$0$ & $8$ & $9$ & \\\\\r\n$1$ & $0$ & $3$ & $5$\r\n\\end{tabular}\r\n\\end{center}\r\n（注：方差 $s^{2}=\\frac{1}{n}\\left[(x_{1}-\\overline{x})^{2}+(x_{2}-\\overline{x})^{2}+\\cdots+(x_{n}-\\overline{x})^{2}\\right]$，其中 $\\overline{x}$ 为 $x_{1}$，$x_{2}$，$\\cdots$，$x_{n}$ 的平均数）",
+          "choices": [],
+          "answer": "6.8",
+          "solution": "由茎叶图可知五场得分为 $8$，$9$，$10$，$13$，$15$. 平均数为\r\n\n$$\n\\overline{x}=\\frac{8+9+10+13+15}{5}=11\n$$\n\r\n因此\r\n\n$$\ns^2=\\frac{(8-11)^2+(9-11)^2+(10-11)^2+(13-11)^2+(15-11)^2}{5}\r\n =\\frac{9+4+1+4+16}{5}=6.8\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "如果执行如图所示的程序框图，输入 $x = 4.5$，则输出的数 $i = _______ {}$.\r\n\\texfigure[max width=0.65\\linewidth]{img_repaint/2012/hunan_liberal/q14_fig1.tex}",
+          "choices": [],
+          "answer": "4",
+          "solution": "程序先令 $i=1$，每次循环先执行 $x=x-1$，再判断是否有 $x<1$. 输入 $x=4.5$ 时各次判断如下：\r\n$4.5\\to3.5$，（$i=1$），$3.5\\to2.5$，（$i=2$），$2.5\\to1.5$，（$i=3$）\r\n前三次判断均为否，每次再令 $i=i+1$. 第四次得到\r\n$1.5\\to0.5$，此时 $x<1$，不再增加 $i$，输出 $i=4$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "如图，在平行四边形 $ABCD$ 中，$AP \\perp BD$，垂足为 $P$，且 $AP = 3$，则 $\\overrightarrow{AP} \\cdot \\overrightarrow{AC} =$ _______ {}.\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/hunan_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "18",
+          "solution": "取 $P$ 为原点，令 $BD$ 为 $x$ 轴. 由于 $AP\\perp BD$ 且 $AP=3$，可设\r\n$A=(0,3)$、$B=(-u,0)$、$D=(v,0)$，其中 $u$，$v>0$. 平行四边形的对角线互相平分，故\r\n$A+C=B+D$，从而 $C=(v-u,-3)$. 因此\r\n$\\overrightarrow{AP}=(0,-3)$，$\\overrightarrow{AC}=(v-u,-6)$，\r\n于是\r\n\n$$\n\\overrightarrow{AP}\\cdot\\overrightarrow{AC}=0\\cdot(v-u)+(-3)(-6)=18\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "对于 $n \\in \\mathbf{N}^*$，将 $n$ 表示为 $n = a_k \\times 2^k + a_{k-1} \\times 2^{k-1} + \\cdots + a_1 \\times 2^1 + a_0 \\times 2^0$，当 $i = k$ 时，$a_i = 1$，当 $0 \\le i \\le k - 1$ 时，$a_i$ 为 0 或 1. 定义 $b_n$ 如下：在 $n$ 的上述表示中，当 $a_0$，$a_1$，$a_2$，$\\cdots$，$a_k$ 中等于 1 的个数为奇数时，$b_n = 1$；否则 $b_n = 0$.\r\n\n(1) $b_{2}+b_{4}+b_{6}+b_{8}= _______ {}$；\n\n(2) 记 $c_{m}$ 为数列 $\\{b_{n}\\}$ 中第 $m$ 个为 0 的项与第 $m + 1$ 个为 0 的项之间的项数，则 $c_{m}$ 的最大值是 _______ {}.",
+          "choices": [],
+          "answer": "\\(3\\)；\\(2\\)",
+          "solution": "把 $n$ 写成二进制后，$b_n$ 等于二进制表示中 $1$ 的个数的奇偶性指标. 于是\r\n$2=10_2$、$4=100_2$、$6=110_2$、$8=1000_2$，分别有\r\n$b_2=1$，$b_4=1$，$b_6=0$，$b_8=1$，故\r\n\n$$\nb_2+b_4+b_6+b_8=1+1+0+1=3\n$$\n\r\n\r\n设 $s(n)$ 为 $n$ 的二进制表示中 $1$ 的个数. 由二进制移位可得\r\n$s(2k)=s(k)$，$s(2k+1)=s(k)+1$.\r\n对 $k\\geqslant1$，有 $b_{2k}=b_k$，$b_{2k+1}=1-b_k$. 若三个连续项从偶数项\r\n$2k$ 开始，则 $b_{2k}$ 与 $b_{2k+1}$ 一定一为 $0$；若从奇数项 $2k+1$ 开始且\r\n$k\\geqslant1$，则 $b_{2k+2}$ 与 $b_{2k+3}$ 一定一为 $0$. 起始的三个项为\r\n$b_1=1$，$b_2=1$，$b_3=0$，也不可能连续出现三个 $1$. 所以连续的 $1$ 最多两个.\r\n\r\n又 $b_6=0$，$b_7=1$，$b_8=1$，$b_9=0$，所以两个相邻的零项之间可以有两项，且不能更多，故 $c_m$ 的最大值为 $2$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "某超市为了解顾客的购物量及结算时间等信息，安排一名员工随机收集了在该超市购物的 100 位顾客的相关数据，如下表所示.\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccc}\r\n一次购物量 & $1\\text{\\ 至\\ }4$件 & $5\\text{\\ 至\\ }8$件 & $9\\text{\\ 至\\ }12$件 & $13\\text{\\ 至\\ }16$件 & $17$件及以上 \\\\\r\n\\hline\r\n顾客数（人） & $x$ & 30 & 25 & $y$ & 10 \\\\\r\n\\hline\r\n结算时间（分钟/人） & 1 & 1.5 & 2 & 2.5 & 3\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n已知这 100 位顾客中一次购物量超过 8 件的顾客占 55\\%.\r\n\n(1) 确定 $x$，$y$ 的值，并估计顾客一次购物的结算时间的平均值；\n\n(2) 求一位顾客一次购物的结算时间不超过 2 分钟的概率. （将频率视为概率）",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 购物量超过 $8$ 件的顾客数为 $25+y+10$，由题意\r\n\n$$\n25+y+10=100\\times55\\%=55\n$$\n\r\n所以 $y=20$. 再由总顾客数为 $100$，得\r\n\n$$\nx+30+25+y+10=100\n$$\n\r\n$y=20$ 代入上式，得 $x=15$.\r\n\r\n将五组顾客数分别乘以对应的结算时间再求平均，得到平均结算时间的估计值\r\n\n$$\n\\frac{15\\times1+30\\times1.5+25\\times2+20\\times2.5+10\\times3}{100}\r\n=\\frac{190}{100}=1.9\\text{ 分钟}\n$$\n\n(2) 结算时间不超过 $2$ 分钟的顾客来自前三组，因此所求概率为\r\n\n$$\n\\frac{15+30+25}{100}=\\frac{70}{100}=\\frac{7}{10}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "已知函数 $f(x) = A \\sin (\\omega x + \\varphi)$ （$x \\in \\mathbb{R}$，$\\omega > 0$，$0 < \\varphi < \\tfrac{\\pi}{2}$）的部分图象如图所示.\r\n\r\n\n(1) 求函数 $f(x)$ 的解析式；\n\n(2) 求函数 $g(x)=f\\left(x-\\frac{\\pi}{12}\\right)-f\\left(x+\\frac{\\pi}{12}\\right)$ 的单调递增区间.\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/hunan_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由图象可知 $f(0)=1$，且从 $x=0$ 向右的第一个零点为\r\n$x=\\frac{5\\pi}{12}$. 因为 $0<\\varphi<\\frac{\\pi}{2}$，该零点对应正弦函数自相位\r\n$\\varphi$ 后的第一次过零，即\r\n\n$$\n2\\cdot\\frac{5\\pi}{12}+\\varphi=\\pi\n$$\n\r\n所以 $\\varphi=\\frac{\\pi}{6}$. 图象上相邻两个零点为\r\n$\\frac{5\\pi}{12}$ 和 $\\frac{11\\pi}{12}$，相距 $\\frac{\\pi}{2}$，这是半个周期，故\r\n$T=\\pi$，$\\omega=\\frac{2\\pi}{T}=2$.\r\n再由 $f(0)=A\\sin\\varphi=1$，得到\r\n\n$$\nA\\sin\\frac{\\pi}{6}=1\n$$\n\r\n从而 $A=2$. 因此\r\n\n$$\nf(x)=2\\sin\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n\n(2) 代入 $f$ 化简：\r\n\n$$\ng(x)=2\\sin\\left(2x\\right)-2\\sin\\left(2x+\\frac{\\pi}{3}\\right)\r\n=-2\\cos\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n\r\n所以\r\n\n$$\ng'(x)=4\\sin\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n\r\n函数 $g$ 在区间上单调递增需要 $g'(x)\\geqslant0$，即\r\n$2k\\pi\\leqslant2x+\\frac{\\pi}{6}\\le(2k+1)\\pi$，$k\\in\\mathbb{Z}$.\r\n解得单调递增区间为\r\n$\\left[k\\pi-\\frac{\\pi}{12},\\,k\\pi+\\frac{5\\pi}{12}\\right]$，$k\\in\\mathbb{Z}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，在四棱锥 $P - ABCD$ 中，$PA \\perp$ 平面 $ABCD$，底面 $ABCD$ 是等腰梯形，$AD\\parallel BC$，$AC \\perp BD$.\r\n\r\n\n(1) 证明： $BD \\perp PC$；\n\n(2) 若 $AD=4$，$BC=2$，直线 $PD$ 与平面 $PAC$ 所成的角为 $30^{\\circ}$，求四棱锥 $P-ABCD$ 的体积.\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/hunan_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $PA\\perp$ 平面 $ABCD$，而 $BD$ 在平面 $ABCD$ 内，所以\r\n$BD\\perp PA$. 又已知 $AC\\perp BD$. 直线 $PA$、$AC$ 是平面 $PAC$ 内相交的两条直线，\r\n因此 $BD\\perp$ 平面 $PAC$，从而 $BD\\perp PC$.\n\n(2) 设 $PA=h$. 取底面所在平面为 $z=0$，令等腰梯形的两条底边水平，设\r\n$A=(-2,0,0)$，$D=(2,0,0)$，$B=(-1,t,0)$，$C=(1,t,0)$.\r\n这里使用了等腰梯形的对称性，且 $AD=4$，$BC=2$. 由 $AC\\perp BD$，有\r\n$\\overrightarrow{AC}=(3,t,0)$，$\\overrightarrow{BD}=(3,-t,0)$，\r\n故 $9-t^2=0$. 因为 $t>0$，所以 $t=3$. 底面积为\r\n\n$$\nS_{ABCD}=\\frac{AD+BC}{2}\\,t=\\frac{4+2}{2}\\times3=9\n$$\n\r\n令 $P=(-2,0,h)$. 由第（1）问，$BD$ 是平面 $PAC$ 的一个法向方向. 于是直线 $PD$ 与平面 $PAC$ 所成角 $\\theta$ 满足\r\n\n$$\n\\sin\\theta\r\n=\\frac{\\left|\\overrightarrow{DP}\\cdot\\overrightarrow{DB}\\right|}\r\n{|\\overrightarrow{DP}|\\,|\\overrightarrow{DB}|}\n$$\n\r\n其中\r\n$\\overrightarrow{DP}=(-4,0,h)$，$\\overrightarrow{DB}=(-3,3,0)$，\r\n所以\r\n\n$$\n\\sin30^\\circ\r\n=\\frac{12}{\\sqrt{16+h^2}\\cdot3\\sqrt2}\n$$\n\r\n解得\r\n$\\frac12=\\frac{4}{\\sqrt{2}\\sqrt{16+h^2}}$，$h^2=16$.\r\n由于 $h>0$，得 $h=4$. 因而四棱锥体积为\r\n\n$$\nV=\\frac13S_{ABCD}\\,PA=\\frac13\\times9\\times4=12\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "某公司一下属企业从事某种高科技产品的生产. 该企业第一年年初有资金2000万元，将其投入生产，到当年年底资金增长了 $50\\%$，预计以后每年资金年增长率与第一年的相同. 公司要求企业从第一年开始，每年年底上缴资金 $d$ 万元，并将剩余资金全部投入下一年生产. 设第 $n$ 年年底企业上缴资金后的剩余资金为 $a_{n}$ 万元.\r\n\n(1) 用 $d$ 表示 $a_{1}$，$a_{2}$，并写出 $\\{a_{n+1}\\}$ 与 $a_{n}$ 的关系式；\n\n(2) 若公司希望经过 $m$ 年（$m \\ge 3$）使企业的剩余资金为 $4000$ 万元，试确定企业每年上缴资金 $d$ 的值（用 $m$ 表示）.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 第一年年初的资金为 $2000$ 万元，年底增长 $50\\%$ 后为\r\n$2000\\times1.5=3000$ 万元，缴纳 $d$ 万元后\r\n\n$$\na_1=3000-d\n$$\n\r\n第二年年底上缴前资金为 $1.5a_1$，所以\r\n\n$$\na_2=\\frac32a_1-d\n$$\n\r\n第 $n$ 年年底剩余资金为 $a_n$ 万元，下一年增长 $50\\%$ 后为 $\\frac32a_n$ 万元，再上缴 $d$ 万元，所以对 $n\\geqslant1$，有\r\n\n$$\na_{n+1}=\\frac32a_n-d\n$$\n\n(2) 递推式的固定值为 $2d$，因为\r\n$2d=\\frac32(2d)-d$. 因此\r\n\n$$\na_{n+1}-2d=\\frac32(a_n-2d)\n$$\n\r\n从而\r\n\n$$\na_m-2d=\\left(\\frac32\\right)^{m-1}(a_1-2d)\r\n=\\left(\\frac32\\right)^{m-1}(3000-3d)\n$$\n\r\n由 $a_m=4000$，得\r\n\n$$\n4000=2d+3000\\left(\\frac32\\right)^{m-1}\r\n-3d\\left(\\frac32\\right)^{m-1}\n$$\n\r\n整理并乘以 $2^{m-1}$，得到\r\n\n$$\nd=\\frac{3000\\cdot3^{m-1}-4000\\cdot2^{m-1}}{3^m-2^m}\r\n=\\frac{1000\\left(3^m-2^{m+1}\\right)}{3^m-2^m}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "在直角坐标系 $xOy$ 中，已知中心在原点，离心率为 $\\frac{1}{2}$ 的椭圆 $E$ 的一个焦点为圆 $C: x^2 + y^2 - 4x + 2 = 0$ 的圆心.\r\n\n(1) 求椭圆 $E$ 的方程；\n\n(2) 设 $P$ 是椭圆 $E$ 上一点，过 $P$ 作两条斜率之积为 $\\frac{1}{2}$ 的直线 $l_{1}$，$l_{2}$，当直线 $l_{1}$，$l_{2}$ 都与圆 $C$ 相切时，求 $P$ 的坐标.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 将圆 $C$ 的方程配方：\r\n\n$$\n(x-2)^2+y^2=2\n$$\n\r\n所以圆心为 $(2,0)$. 该圆心是椭圆的一个焦点，故椭圆焦距参数\r\n$c=2$. 由离心率 $e=\\frac ca=\\frac12$，得 $a=4$. 再由\r\n$a^2=b^2+c^2$，得 $b^2=16-4=12$. 因此椭圆方程为\r\n\n$$\n\\frac{x^2}{16}+\\frac{y^2}{12}=1\n$$\n\n(2) 设 $P=(x,y)$，过 $P$ 的斜率为 $k$ 的直线为\r\n\n$$\nkX-Y+y-kx=0\n$$\n\r\n它与圆 $C$ 相切的条件是圆心到直线的距离等于半径 $\\sqrt2$，即\r\n\n$$\n\\frac{\\left|2k+y-kx\\right|}{\\sqrt{k^2+1}}=\\sqrt2\n$$\n\r\n平方并整理，得到关于切线斜率 $k$ 的方程\r\n\n$$\n\\bigl((2-x)^2-2\\bigr)k^2+2y(2-x)k+y^2-2=0\n$$\n\r\n题设两条切线的斜率之积为 $\\frac12$，由韦达定理\r\n\n$$\n\\frac{y^2-2}{(2-x)^2-2}=\\frac12\n$$\n\r\n所以\r\n\n$$\nx^2-4x-2y^2+6=0\n$$\n\r\n另一方面 $P$ 在椭圆上，故\r\n\n$$\n3x^2+4y^2=48\n$$\n\r\n将前一式乘以 $2$，并消去 $4y^2$，得\r\n\n$$\n5x^2-8x-36=0\n$$\n\r\n于是\r\n\n$$\nx=-2 \\text{或}  x=\\frac{18}{5}\n$$\n\r\n当 $x=-2$ 时，由椭圆方程得 $y^2=9$，即 $y=\\pm3$. 当\r\n$x=\\frac{18}{5}$ 时，得 $y^2=\\frac{57}{25}$，即\r\n$y=\\pm\\frac{\\sqrt{57}}5$. 所以\r\n$P=(-2,3)$，$\\ (-2,-3)$，$\\ \\left(\\frac{18}{5},\\frac{\\sqrt{57}}5\\right)$，$\\ \\left(\\frac{18}{5},-\\frac{\\sqrt{57}}5\\right)$.\r\n这些点到圆心的距离平方分别为 $25$ 和 $\\frac{121}{25}$，均大于圆半径平方 $2$，确实各有两条实切线；且 $(2-x)^2-2\\neq0$，斜率均为有限值，满足题设条件.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "已知函数 $f(x) = \\mathrm{e}^{x} - ax$，其中 $a > 0$.\r\n\n(1) 若对一切 $x \\in \\mathbb{R}$，$f(x) \\ge 1$ 恒成立，求 $a$ 的取值集合；\n\n(2) 在函数 $f(x)$ 的图象上取定两点 $A(x_{1}, f(x_{1}))$，$B(x_{2}, f(x_{2}))$（$x_{1} < x_{2}$），记直线 $AB$ 的斜率为 $k$，证明：存在 $x_{0} \\in (x_{1}, x_{2})$，使 $f'(x_{0}) = k$ 成立.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 函数\r\n$f'(x)=\\mathrm{e}^x-a$，$f''(x)=\\mathrm{e}^x>0$.\r\n所以 $f$ 在 $\\mathbb{R}$ 上有唯一极小值点\r\n$x=\\ln a$，且该点的函数值为\r\n\n$$\nf(\\ln a)=\\mathrm{e}^{\\ln a}-a\\ln a=a(1-\\ln a)\n$$\n\r\n令 $t=\\ln a$，则极小值为 $\\mathrm{e}^t(1-t)$. 对其求导得\r\n\n$$\n\\frac{\\mathrm d}{\\mathrm dt}\\bigl(\\mathrm{e}^t(1-t)\\bigr)=-t\\mathrm{e}^t\n$$\n\r\n因此它在 $t<0$ 时递增，在 $t>0$ 时递减，最大值为\r\n$\\mathrm{e}^0(1-0)=1$，且只有 $t=0$ 时取到. 题设要求对一切\r\n$x$ 有 $f(x)\\geqslant1$，故极小值必须等于 $1$，从而\r\n$t=0$，即 $a=1$. 因此 $a$ 的取值集合为 $\\{1\\}$.\n\n(2) 函数 $f(x)=\\mathrm{e}^x-ax$ 在闭区间 $[x_1,x_2]$ 上连续，在开区间\r\n$(x_1,x_2)$ 上可导. 直线 $AB$ 的斜率为\r\n\n$$\nk=\\frac{f(x_2)-f(x_1)}{x_2-x_1}\n$$\n\r\n由拉格朗日中值定理，存在 $x_0\\in(x_1,x_2)$，使得\r\n\n$$\nf'(x_0)=\\frac{f(x_2)-f(x_1)}{x_2-x_1}=k\n$$\n\r\n这就证明了所要求的结论.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "year": "2017",
+  "slug": "national_paper_2_science",
+  "title": "2017年全国II卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "$\\dfrac{3+\\mathrm{i}}{1+\\mathrm{i}}=$（ ）",
+          "choices": [
+            "$1+2\\mathrm{i}$",
+            "$1-2\\mathrm{i}$",
+            "$2+\\mathrm{i}$",
+            "$2-\\mathrm{i}$"
+          ],
+          "answer": "D",
+          "solution": "分子、分母同乘以 $1-\\mathrm{i}$，得\r\n\n$$\n\\frac{3+\\mathrm{i}}{1+\\mathrm{i}}=\\frac{(3+\\mathrm{i})(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}\r\n=\\frac{4-2\\mathrm{i}}{2}=2-\\mathrm{i}\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "设集合 $A=\\{1,2,4\\}$，$B=\\{x\\mid x^2-4x+m=0\\}$. 若 $A\\cap B=\\{1\\}$，则 $B=$（ ）",
+          "choices": [
+            "$\\{1,-3\\}$",
+            "$\\{1,0\\}$",
+            "$\\{1,3\\}$",
+            "$\\{1,5\\}$"
+          ],
+          "answer": "C",
+          "solution": "因为 $A\\cap B=\\{1\\}$，所以 $1\\in B$，代入方程得 $1-4+m=0$，从而 $m=3$. 因此 $B$ 是方程 $x^2-4x+3=0$ 的根集，而\r\n$x^2-4x+3=(x-1)(x-3)$，\r\n所以 $B=\\{1,3\\}$. 故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "我国古代数学名著《算法统宗》中有如下问题：“远望巍巍塔七层，红光点点倍加增，共灯三百八十一，请问尖头几盏灯？”意思是：一座 $7\\text{ 层}$塔共挂了 $381\\text{ 盏}$灯，且相邻两层中的下一层灯数是上一层灯数的 $2\\text{ 倍}$，则塔的顶层共有灯（ ）",
+          "choices": [
+            "$1\\text{ 盏}$",
+            "$3\\text{ 盏}$",
+            "$5\\text{ 盏}$",
+            "$9\\text{ 盏}$"
+          ],
+          "answer": "B",
+          "solution": "设塔顶层有 $a$ 盏灯，则从顶层到底层各层的灯数构成首项为 $a$、公比为 $2$ 的等比数列. 由总灯数为 $381$，得\r\n$a\\frac{2^7-1}{2-1}=381$，\r\n即 $127a=381$，所以 $a=3$. 故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "如图，网格纸上小正方形的边长为 $1$，粗实线画出的是某几何体的三视图，该几何体由一平面将一圆柱截去一部分后所得，则该几何体的体积为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2017/img/national_paper_2_science/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$90\\pi$",
+            "$63\\pi$",
+            "$42\\pi$",
+            "$36\\pi$"
+          ],
+          "answer": "B",
+          "solution": "由三视图可知，原圆柱的底面半径为 $3$，高为 $10$，其体积为 $\\pi\\times3^2\\times10=90\\pi$. 被平面截去的部分是底面半径为 $3$、高为 $6$ 的半个圆柱，其体积为\r\n$\\frac12\\pi\\times3^2\\times6=27\\pi$.\r\n所以该几何体的体积为 $90\\pi-27\\pi=63\\pi$. 故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "设 $x$，$y$ 满足约束条件\r\n$\\begin{cases}\r\n2x+3y-3\\le 0,\\\\\r\n2x-3y+3\\ge 0,\\\\\r\ny+3\\ge 0\r\n\\end{cases}$\r\n则 $z=2x+y$ 的最小值是（ ）",
+          "choices": [
+            "$-15$",
+            "$-9$",
+            "$1$",
+            "$9$"
+          ],
+          "answer": "A",
+          "solution": "约束条件等价于\r\n$y\\le\\frac{3-2x}{3}$、$y\\le\\frac{2x+3}{3}$、$y\\ge-3$.\r\n三条边界直线的交点分别为 $(-6,-3)$、$(0,1)$ 和 $(6,-3)$. 因而可行域是以这三个点为顶点的三角形. 在顶点处计算目标函数 $z=2x+y$，得到\r\n$z\\bigl(-6,-3\\bigr)=-15$、$z(0,1)=1$、$z(6,-3)=9$.\r\n所以 $z$ 的最小值为 $-15$. 故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "安排 $3\\text{ 名}$志愿者完成 $4\\text{ 项}$工作，每人至少完成 $1\\text{ 项}$，每项工作由 $1\\text{ 人}$完成，则不同的安排方式共有（ ）",
+          "choices": [
+            "$12\\text{ 种}$",
+            "$18\\text{ 种}$",
+            "$24\\text{ 种}$",
+            "$36\\text{ 种}$"
+          ],
+          "answer": "D",
+          "solution": "因为有 $4$ 项工作、$3$ 名志愿者且每人至少完成 $1$ 项，所以工作分配数只能是 $2$，$1$，$1$. 先从 $4$ 项工作中选出由同一人完成的 $2$ 项，有 $\\mathrm C_4^2$ 种；再把这三组工作分给 $3$ 名志愿者，有 $\\mathrm A_3^3$ 种. 因而安排方式共有\r\n$\\mathrm C_4^2\\mathrm A_3^3=6\\times6=36$\r\n种. 故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "甲，乙，丙，丁四位同学一起去向老师询问成语竞赛的成绩. 老师说：你们四人中有 $2$ 位优秀，$2$ 位良好，我现在给甲看乙，丙的成绩，给乙看丙的成绩，给丁看甲的成绩. 看后甲对大家说：我还是不知道我的成绩. 根据以上信息，则（ ）",
+          "choices": [
+            "乙可以知道四人的成绩",
+            "丁可以知道四人的成绩",
+            "乙，丁可以知道对方的成绩",
+            "乙，丁可以知道自己的成绩"
+          ],
+          "answer": "D",
+          "solution": "若乙、丙的成绩相同，则甲看到的两人成绩或者都是优秀，或者都是良好. 在这两种情形下，由总人数中恰有 $2$ 位优秀、$2$ 位良好，甲都能确定自己的成绩. 但甲说自己仍不知道，所以乙、丙的成绩必不相同.\r\n\r\n于是，乙看到丙的成绩后，可以由“乙、丙一优一良”直接确定自己的成绩：丙优秀时乙良好，丙良好时乙优秀. 丁看到甲的成绩后，也可由总人数中两优两良确定自己的成绩：甲优秀时丁良好，甲良好时丁优秀. 但乙只看到丙的成绩，不能据此确定甲、丁二人的具体顺序，故不能确定丁的成绩；同理不能断定乙、丁能知道对方的成绩. 因此只有乙、丁可以知道自己的成绩，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "执行如图的程序框图，如果输入的 $a=-1$，则输出的 $S=$（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2017/img/national_paper_2_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$2$",
+            "$3$",
+            "$4$",
+            "$5$"
+          ],
+          "answer": "B",
+          "solution": "程序在 $K\\le6$ 时循环，每次先将 $aK$ 加入 $S$，再令 $a=-a$、$K=K+1$. 初始 $S=0$、$K=1$、$a=-1$，各次累加的数依次为\r\n$-1$、$2$、$-3$、$4$、$-5$、$6$.\r\n因此循环结束时\r\n\n$$\nS=-1+2-3+4-5+6=3\n$$\n\r\n此时 $K=7>6$，输出 $S=3$. 故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "若双曲线 $C:\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$（$a>0$，$b>0$）的一条渐近线被圆 $(x-2)^2+y^2=4$ 所截得的弦长为 $2$，则 $C$ 的离心率为（ ）",
+          "choices": [
+            "$2$",
+            "$\\sqrt3$",
+            "$\\sqrt2$",
+            "$\\dfrac{2\\sqrt3}{3}$"
+          ],
+          "answer": "A",
+          "solution": "双曲线的一条渐近线可写为 $bx-ay=0$. 圆的半径为 $2$，被渐近线截得的弦长为 $2$，所以圆心 $(2,0)$ 到该直线的距离 $d$ 满足\r\n$d=\\sqrt{2^2-\\left(\\frac{2}{2}\\right)^2}=\\sqrt3$.\r\n另一方面，点 $(2,0)$ 到直线 $bx-ay=0$ 的距离为\r\n$d=\\frac{2b}{\\sqrt{a^2+b^2}}$.\r\n于是 $4b^2=3(a^2+b^2)$，即 $b^2=3a^2$. 设双曲线焦半距为 $c$，则 $c^2=a^2+b^2=4a^2$，从而离心率\r\n$e=\\frac ca=2$.\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知直三棱柱 $ABC-A_1B_1C_1$ 中，$\\angle ABC=120^\\circ$，$AB=2$，$BC=CC_1=1$，则异面直线 $AB_1$ 与 $BC_1$ 所成角的余弦值为（ ）",
+          "choices": [
+            "$\\dfrac{\\sqrt3}{2}$",
+            "$\\dfrac{\\sqrt{15}}{5}$",
+            "$\\dfrac{\\sqrt{10}}{5}$",
+            "$\\dfrac{\\sqrt3}{3}$"
+          ],
+          "answer": "C",
+          "solution": "在底面内取直角坐标，使 $B=(0,0,0)$、$A=(2,0,0)$、$C=\\left(-\\dfrac12,\\dfrac{\\sqrt3}{2},0\\right)$. 由直三棱柱的高为 $1$，得 $B_1=(0,0,1)$、$C_1=\\left(-\\frac12,\\frac{\\sqrt3}{2},1\\right)$.\r\n取两异面直线的方向向量\r\n$\\overrightarrow{AB_1}=(-2,0,1)$、$\\overrightarrow{BC_1}=\\left(-\\frac12,\\frac{\\sqrt3}{2},1\\right)$.\r\n它们的数量积为 $2$，长度分别为 $\\sqrt5$ 和 $\\sqrt2$. 因而所成角的余弦值为\r\n\n$$\n\\frac{|\\overrightarrow{AB_1}\\cdot\\overrightarrow{BC_1}|}{|\\overrightarrow{AB_1}|\\,|\\overrightarrow{BC_1}|}\r\n=\\frac{2}{\\sqrt5\\sqrt2}=\\frac{\\sqrt{10}}5\n$$\n\r\n故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "若 $x=-2$ 是函数 $f(x)=(x^2+ax-1)\\mathrm{e}^{x-1}$ 的极值点，则 $f(x)$ 的极小值为（ ）",
+          "choices": [
+            "$-1$",
+            "$-2\\mathrm{e}^{-3}$",
+            "$5\\mathrm{e}^{-3}$",
+            "$1$"
+          ],
+          "answer": "A",
+          "solution": "求导得\r\n$f'(x)=\\mathrm{e}^{x-1}\\bigl[x^2+(a+2)x+a-1\\bigr]$.\r\n由于 $\\mathrm{e}^{x-1}>0$，且 $-2$ 是极值点，故\r\n$4-2(a+2)+a-1=0$，\r\n解得 $a=-1$. 此时\r\n$f'(x)=\\mathrm{e}^{x-1}(x+2)(x-1)$.\r\n因此 $f'(x)$ 在 $x=1$ 处由负变正，$x=1$ 是极小值点. 代入 $f(x)=(x^2-x-1)\\mathrm{e}^{x-1}$，得极小值\r\n$f(1)=(1-1-1)\\mathrm{e}^0=-1$.\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "已知 $\\triangle ABC$ 是边长为 $2$ 的等边三角形，$P$ 为平面 $ABC$ 内一点，则 $\\overrightarrow{PA}\\cdot(\\overrightarrow{PB}+\\overrightarrow{PC})$ 的最小值是（ ）",
+          "choices": [
+            "$-2$",
+            "$-\\dfrac32$",
+            "$-\\dfrac43$",
+            "$-1$"
+          ],
+          "answer": "B",
+          "solution": "设 $M$ 为 $BC$ 的中点，则 $\\overrightarrow{PB}+\\overrightarrow{PC}=2\\overrightarrow{PM}$. 令 $\\mathbf{u}=\\overrightarrow{PA}$，$\\mathbf{v}=\\overrightarrow{AM}$，则 $\\overrightarrow{PM}=\\mathbf{u}+\\mathbf{v}$，所以\r\n\n$$\n\\overrightarrow{PA}\\cdot(\\overrightarrow{PB}+\\overrightarrow{PC})\r\n=2\\mathbf{u}\\cdot(\\mathbf{u}+\\mathbf{v})\r\n=2\\left|\\mathbf{u}+\\frac12\\mathbf{v}\\right|^2-\\frac12|\\mathbf{v}|^2\n$$\n\r\n等边三角形边长为 $2$，故中线 $AM=\\sqrt3$，即 $|\\mathbf{v}|=\\sqrt3$. 因而上式的最小值为\r\n$-\\frac12(\\sqrt3)^2=-\\frac32$，\r\n且当 $P$ 为 $AM$ 的中点时可以取得. 故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "一批产品的二等品率为 $0.02$，从这批产品中每次随机取一件，有放回地抽取 $100\\text{ 次}$. $X$ 表示抽到的二等品件数，则 $D(X)=$ _______ {}",
+          "choices": [],
+          "answer": "\\(1.96\\)",
+          "solution": "每次抽取是否抽到二等品相互独立，且抽到二等品的概率为 $p=0.02$. 因而 $X\\sim\\mathrm{Bin}(100,0.02)$，其方差为\r\n$D(X)=np(1-p)=100\\times0.02\\times0.98=1.96$.\r\n所以填 $1.96$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "函数 $f(x)=\\sin^2x+\\sqrt3\\cos x-\\dfrac34$（$x\\in\\left[0,\\dfrac{\\pi}{2}\\right]$）的最大值是 _______ {}",
+          "choices": [],
+          "answer": "1",
+          "solution": "令 $t=\\cos x$，则 $0\\le t\\le1$，且\r\n$f(x)=1-t^2+\\sqrt3t-\\frac34=1-\\left(t-\\frac{\\sqrt3}{2}\\right)^2$.\r\n因为 $\\dfrac{\\sqrt3}{2}\\in[0,1]$，所以当 $t=\\dfrac{\\sqrt3}{2}$ 时，$f(x)$ 取得最大值 $1$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "等差数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，$a_3=3$，$S_4=10$，则 $\\displaystyle \\sum_{k=1}^n \\frac1{S_k}=$ _______ {}",
+          "choices": [],
+          "answer": "\\(\\dfrac{2n}{n+1}\\)",
+          "solution": "设等差数列首项为 $a_1$，公差为 $d$. 由 $a_3=3$ 和 $S_4=10$，得\r\n$a_1+2d=3$、$4a_1+6d=10$.\r\n解得 $a_1=1$，$d=1$. 所以\r\n$S_k=\\frac{k(a_1+a_k)}2=\\frac{k(k+1)}2$，从而\r\n\n$$\n\\sum_{k=1}^n\\frac1{S_k}=\\sum_{k=1}^n\\frac{2}{k(k+1)}\r\n=2\\sum_{k=1}^n\\left(\\frac1k-\\frac1{k+1}\\right)\r\n=2\\left(1-\\frac1{n+1}\\right)=\\frac{2n}{n+1}\n$$\n\r\n所以填 $\\dfrac{2n}{n+1}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "已知 $F$ 是抛物线 $C:y^2=8x$ 的焦点，$M$ 是 $C$ 上一点，$FM$ 的延长线交 $y$ 轴于点 $N$. 若 $M$ 为 $FN$ 的中点，则 $|FN|=$ _______ {}",
+          "choices": [],
+          "answer": "\\(6\\)",
+          "solution": "由 $y^2=8x$ 与标准方程 $y^2=2px$ 比较，得 $p=4$，所以焦点为 $F=(2,0)$. 设抛物线上一点 $M$ 为\r\n$M=(2t^2,4t)$.\r\n因为 $M$ 是 $FN$ 的中点，所以 $N=2M-F=(4t^2-2,8t)$. 又 $N$ 在 $y$ 轴上，故 $4t^2-2=0$，即 $t^2=\\dfrac12$. 因此\r\n$|FN|=\\sqrt{(0-2)^2+(8t)^2}=\\sqrt{4+32}=6$.\r\n所以填 $6$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $\\sin(A+C)=8\\sin^2\\dfrac B2$.\r\n\r\n\n(1) 求 $\\cos B$；\n\n(2) 若 $a+c=6$，$\\triangle ABC$ 的面积为 $2$，求 $b$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $A+B+C=\\pi$，所以 $A+C=\\pi-B$，从而 $\\sin B=\\sin(A+C)=8\\sin^2\\frac B2$.\r\n又因为 $0<B<\\pi$，所以 $\\sin\\dfrac B2>0$. 利用半角公式，得\r\n$2\\sin\\frac B2\\cos\\frac B2=8\\sin^2\\frac B2$.\r\n因此\r\n$\\cos\\frac B2=4\\sin\\frac B2$、$\\tan\\frac B2=\\frac14$.\r\n于是\r\n\n$$\n\\cos B=\\frac{1-\\tan^2\\dfrac B2}{1+\\tan^2\\dfrac B2}\r\n=\\frac{1-\\dfrac1{16}}{1+\\dfrac1{16}}=\\frac{15}{17}\n$$\n\n(2) 由上问和 $0<B<\\pi$，有 $\\sin B=\\frac{2\\tan\\dfrac B2}{1+\\tan^2\\dfrac B2}=\\frac8{17}$.\r\n由三角形面积公式及 $S_{\\triangle ABC}=2$，得\r\n$2=\\frac12ac\\sin B=\\frac12ac\\times\\frac8{17}$，所以 $ac=\\frac{17}{2}$.\r\n再由余弦定理和 $a+c=6$，得\r\n\n$$\nb^2=a^2+c^2-2ac\\cos B=(a+c)^2-2ac(1+\\cos B)\r\n=36-17\\left(1+\\frac{15}{17}\\right)=4\n$$\n\r\n由于 $b>0$，所以 $b=2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "海水养殖场进行某水产品的新、旧网箱养殖方法的产量对比，收获时各随机抽取了 $100\\text{ 个}$网箱，测量各箱水产品的产量（单位：$\\mathrm{kg}$），其频率分布直方图如图：\r\n\r\n\n(1) 设两种养殖方法的箱产量相互独立，记 $A$ 表示事件“旧养殖法的箱产量低于 $50 \\mathrm{~kg}$，新养殖法的箱产量不低于 $50 \\mathrm{~kg}$”，估计 $A$ 的概率；\n\n(2) 填写下面列联表，并根据列联表判断是否有 $99\\%$ 的把握认为箱产量与养殖方法有关：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|cc}\r\n& 箱产量 $<50 \\mathrm{~kg}$ & 箱产量 $\\ge 50 \\mathrm{~kg}$\\\\\r\n\\hline\r\n旧养殖法 & &\\\\\r\n新养殖法 & &\r\n\\end{tabular}\r\n\\end{center}\n\n(3) 根据箱产量的频率分布直方图，求新养殖法箱产量的中位数的估计值（精确到 $0.01$）.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2017/img/national_paper_2_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n附：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccc}\r\n$P(K^2\\ge k)$ & 0.050 & 0.010 & 0.001\\\\\r\n\\hline\r\nk & 3.841 & 6.635 & 10.828\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n另参考公式 $K^2=\\dfrac{n(ad-bc)^2}{(a+b)(c+d)(a+c)(b+d)}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 记事件 $B$ 为“旧养殖法的箱产量低于 $50\\mathrm{~kg}$”，事件 $C$ 为“新养殖法的箱产量不低于 $50\\mathrm{~kg}$”. 由旧养殖法直方图可得\r\n$P(B)=(0.012+0.014+0.024+0.034+0.040)\\times5=0.62$.\r\n由新养殖法直方图可得\r\n$P(C)=(0.068+0.046+0.010+0.008)\\times5=0.66$.\r\n因为两种养殖方法的箱产量相互独立，所以\r\n$P(A)=P(B)P(C)=0.62\\times0.66=0.4092$.\n\n(2) 由两种养殖方法的频率分布直方图，得到列联表\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|cc}\r\n& 箱产量 $<50\\mathrm{~kg}$ & 箱产量 $\\ge 50\\mathrm{~kg}$\\\\\r\n\\hline\r\n旧养殖法 & 62 & 38\\\\\r\n新养殖法 & 34 & 66\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n代入题给公式，得\r\n\n$$\nK^2=\\frac{200(62\\times66-38\\times34)^2}{100\\times100\\times96\\times104}\\approx15.705\n$$\n\r\n由于 $15.705>6.635$，所以有 $99\\%$ 的把握认为箱产量与养殖方法有关.\n\n(3) 新养殖法箱产量低于 $50\\mathrm{~kg}$ 的频率为\r\n$(0.004+0.020+0.044)\\times5=0.34<0.5$，\r\n低于 $55\\mathrm{~kg}$ 的频率为\r\n$(0.004+0.020+0.044+0.068)\\times5=0.68>0.5$.\r\n因此中位数的估计值在区间 $[50,55)$ 内. 设该估计值为 $m$，按组内频率均匀分布估计，有\r\n$0.34+0.068(m-50)=0.5$.\r\n从而\r\n$m=50+\\frac{0.5-0.34}{0.068}\\approx52.35\\mathrm{~kg}$.\r\n所以新养殖法箱产量的中位数估计值为 $52.35\\mathrm{~kg}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，四棱锥 $P-ABCD$ 中，侧面 $PAD$ 为等边三角形且垂直于底面 $ABCD$，$AB=BC=\\dfrac12AD$，$\\angle BAD=\\angle ABC=90^\\circ$，$E$ 是 $PD$ 的中点.\r\n\r\n\n(1) 证明：直线 $CE\\parallel$ 平面 $PAB$；\n\n(2) 点 $M$ 在棱 $PC$ 上，且直线 $BM$ 与底面 $ABCD$ 所成角为 $45^\\circ$，求二面角 $M-AB-D$ 的余弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2017/img/national_paper_2_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 取 $F$ 为 $PA$ 的中点，连接 $EF$ 和 $BF$. 在三角形 $PAD$ 中，$E$，$F$ 分别为 $PD$，$PA$ 的中点，所以\r\n$EF\\parallel AD$、$EF=\\frac12AD$.\r\n由 $\\angle BAD=\\angle ABC=90^\\circ$ 及底面共面性，得 $AD\\parallel BC$. 又因为 $BC=\\dfrac12AD$，所以 $EF\\parallel BC$ 且 $EF=BC$. 因此四边形 $BCEF$ 是平行四边形，从而 $CE\\parallel BF$.\r\n\r\n因为 $BF\\subset$ 平面 $PAB$，且 $CE$ 不在平面 $PAB$ 内，所以 $CE\\parallel$ 平面 $PAB$.\n\n(2) 令 $AB=BC=1$，则 $AD=2$. 建立空间直角坐标系，使底面 $ABCD$ 在 $z=0$ 内，取 $A(0,0,0)$、$B(1,0,0)$、$C(1,1,0)$、$D(0,2,0)$.\r\n由于侧面 $PAD$ 是边长为 $2$ 的等边三角形且垂直于底面，可取\r\n$P(0,1,\\sqrt3)$.\r\n设 $M=P+\\lambda(C-P)$，其中 $0\\le\\lambda\\le1$，并令 $t=1-\\lambda$. 则\r\n$M(1-t,1,\\sqrt3t)$、$\\overrightarrow{BM}=(-t,1,\\sqrt3t)$.\r\n直线 $BM$ 与底面所成角为 $45^\\circ$，故\r\n\n$$\n\\frac{\\sqrt3t}{\\sqrt{t^2+1+3t^2}}=\\sin45^\\circ=\\frac{\\sqrt2}{2}\n$$\n\r\n由于 $0\\le t\\le1$，解得 $t=\\dfrac1{\\sqrt2}$. 因而点 $M$ 的竖直坐标为\r\n$z_M=\\frac{\\sqrt6}{2}$.\r\n\r\n平面 $MAB$ 的一个法向量为 $\\mathbf{n}_1=\\overrightarrow{AB}\\times\\overrightarrow{AM}=\\left(0,-\\frac{\\sqrt6}{2},1\\right)$，平面 $DAB$ 的一个法向量为 $\\mathbf{n}_2=(0,0,1)$. 设二面角 $M-AB-D$ 为 $\\alpha$，则\r\n\n$$\n\\cos\\alpha=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1||\\mathbf{n}_2|}\r\n=\\frac1{\\sqrt{1+\\dfrac32}}=\\frac{\\sqrt{10}}5\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设 $O$ 为坐标原点，动点 $M$ 在椭圆 $C:\\dfrac{x^2}{2}+y^2=1$ 上，过 $M$ 作 $x$ 轴的垂线，垂足为 $N$，点 $P$ 满足 $\\overrightarrow{NP}=\\sqrt2\\,\\overrightarrow{NM}$.\r\n\r\n\n(1) 求点 $P$ 的轨迹方程；\n\n(2) 设点 $Q$ 在直线 $x=-3$ 上，且 $\\overrightarrow{OP}\\cdot \\overrightarrow{PQ}=1$. 证明：过点 $P$ 且垂直于 $OQ$ 的直线 $l$ 过 $C$ 的左焦点 $F$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $M(x_0,y_0)$，则 $N(x_0,0)$. 设 $P(x,y)$，由 $\\overrightarrow{NM}=(0,y_0)$、$\\overrightarrow{NP}=(x-x_0,y)$，以及 $\\overrightarrow{NP}=\\sqrt2\\,\\overrightarrow{NM}$，得到 $x=x_0$、$y=\\sqrt2y_0$.\r\n因为 $M$ 在椭圆 $C$ 上，所以\r\n$\\frac{x_0^2}{2}+y_0^2=1$.\r\n代入 $x=x_0$，$y=\\sqrt2y_0$，得\r\n$x^2+y^2=2$.\r\n反之，圆 $x^2+y^2=2$ 上任一点 $P(x,y)$ 均可取 $M\\left(x,\\dfrac y{\\sqrt2}\\right)$，故点 $P$ 的轨迹为\r\n$x^2+y^2=2$.\n\n(2) 椭圆 $C$ 的焦半距为 $\\sqrt{2-1}=1$，所以左焦点为 $F(-1,0)$. 设 $Q(-3,t)$，$P(x,y)$. 由上问 $x^2+y^2=2$，且\r\n\n$$\n1=\\overrightarrow{OP}\\cdot\\overrightarrow{PQ}\r\n=(x,y)\\cdot(-3-x,t-y)\r\n=-3x-x^2+ty-y^2\r\n=-3x-2+ty\n$$\n\r\n因此 $ty=3(x+1)$.\r\n又\r\n\n$$\n\\overrightarrow{FP}\\cdot\\overrightarrow{OQ}=(x+1,y)\\cdot(-3,t)=-3(x+1)+ty=0\n$$\n\r\n所以 $FP\\perp OQ$. 过 $P$ 且垂直于 $OQ$ 的直线经过 $F$，即该直线 $l$ 过椭圆 $C$ 的左焦点 $F$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知函数 $f(x)=ax^2-ax-x\\ln x$，且 $f(x)\\ge 0$.\r\n\r\n\n(1) 求 $a$；\n\n(2) 证明：$f(x)$ 存在唯一的极大值点 $x_0$，且 $\\mathrm{e}^{-2}<f(x_0)<2^{-2}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 函数的定义域为 $x>0$. 将已知不等式写成\r\n$f(x)=x\\bigl(a(x-1)-\\ln x\\bigr)\\ge0$.\r\n令 $g(x)=a(x-1)-\\ln x$，则 $g(x)\\ge0$ 且 $g(1)=0$. 因为 $1$ 是定义域内点，$g$ 在 $x=1$ 处取得最小值，所以\r\n$g'(1)=a-1=0$.\r\n故 $a=1$.\n\n(2) 由 $a=1$，有 $f(x)=x^2-x-x\\ln x$，$f'(x)=2x-2-\\ln x$.\r\n令 $h(x)=f'(x)$，则\r\n$h'(x)=2-\\frac1x$.\r\n 因此 $h$ 在 $\\left(0,\\dfrac12\\right)$ 上单调递减，在 $\\left(\\dfrac12,+\\infty\\right)$ 上单调递增. 又\r\n$\\displaystyle\\lim_{x\\to0^+}h(x)=+\\infty$、$h\\left(\\frac12\\right)=\\ln2-1<0$、$h(1)=0$.\r\n所以 $h$ 在 $\\left(0,\\dfrac12\\right)$ 内有唯一零点，记为 $x_0$，而在 $\\left(\\dfrac12,+\\infty\\right)$ 内只有零点 $1$. 由 $h$ 的符号变化，$f$ 在 $(0,x_0)$ 上递增，在 $(x_0,1)$ 上递减，在 $(1,+\\infty)$ 上递增，故 $x_0$ 是唯一的极大值点.\r\n\r\n由 $h(x_0)=0$，得\r\n$\\ln x_0=2x_0-2$.\r\n于是\r\n$f(x_0)=x_0^2-x_0-x_0\\ln x_0=x_0(1-x_0)$.\r\n因为 $0<x_0<\\dfrac12$，所以\r\n$f(x_0)<\\frac14$.\r\n另一方面，令 $\\varphi(x)=\\ln(1-x)+2x$，则在 $0<x<\\dfrac12$ 时\r\n$\\varphi'(x)=\\frac{1-2x}{1-x}>0$，且 $\\displaystyle\\lim_{x\\to0^+}\\varphi(x)=0$.\r\n因此 $\\ln(1-x)>-2x$，即 $1-x>\\mathrm{e}^{-2x}$. 取 $x=x_0$，并利用 $x_0\\mathrm{e}^{-2x_0}=\\mathrm{e}^{-2}$，得\r\n$f(x_0)=x_0(1-x_0)>x_0\\mathrm{e}^{-2x_0}=\\mathrm{e}^{-2}$.\r\n综上，\r\n$\\mathrm{e}^{-2}<f(x_0)<2^{-2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选考题：解答题",
+      "problems": [
+        {
+          "num": 22,
+          "body": "在直角坐标系 $xOy$ 中，以坐标原点为极点，$x$ 轴的正半轴为极轴建立极坐标系，曲线 $C_1$ 的极坐标方程为 $\\rho\\cos\\theta=4$.\r\n\r\n\n(1) $M$ 为曲线 $C_1$ 上的动点，点 $P$ 在线段 $OM$ 上，且满足 $|OM|\\cdot|OP|=16$，求点 $P$ 的轨迹 $C_2$ 的直角坐标方程；\n\n(2) 设点 $A$ 的极坐标为 $\\left(2,\\dfrac{\\pi}{3}\\right)$，点 $B$ 在曲线 $C_2$ 上，求 $\\triangle OAB$ 面积的最大值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $M$ 的极坐标为 $(\\rho,\\theta)$，点 $P$ 的极径为 $r$. 因为 $P$ 在线段 $OM$ 上，且\r\n$\\rho r=|OM||OP|=16$.\r\n又 $M\\in C_1$，所以 $\\rho\\cos\\theta=4$. 从而\r\n$r=\\frac{16}{\\rho}=4\\cos\\theta$.\r\n由于 $r>0$，有 $\\cos\\theta>0$. 将 $x=r\\cos\\theta$，$y=r\\sin\\theta$ 代入，得\r\n$r^2=4r\\cos\\theta$、$x^2+y^2=4x$.\r\n因此点 $P$ 的轨迹为 $(x-2)^2+y^2=4$，$x>0$.\r\n反过来，设圆上任意一点 $P(x,y)$ 满足 $x>0$，令 $r=\\sqrt{x^2+y^2}$，并取 $\\theta$ 使 $\\cos\\theta=\\frac{x}{r}$、$\\sin\\theta=\\frac{y}{r}$. 由 $x^2+y^2=4x$ 得 $r=4\\cos\\theta$，从而 $\\cos\\theta>0$. 再取 $\\rho=\\frac{4}{\\cos\\theta}$，则点 $M$ 的极坐标 $(\\rho,\\theta)$ 满足 $\\rho\\cos\\theta=4$、$\\rho r=16$，且由 $P$ 与 $M$ 同向可知 $P$ 满足题设关系. 故这就是轨迹方程.\n\n(2) 点 $A$ 的直角坐标为\r\n$A\\left(2\\cos\\frac\\pi3,2\\sin\\frac\\pi3\\right)=(1,\\sqrt3)$.\r\n设 $B(x,y)\\in C_2$. 则\r\n\n$$\nS_{\\triangle OAB}=\\frac12\\left|\\det(\\overrightarrow{OA},\\overrightarrow{OB})\\right|\r\n=\\frac12|y-\\sqrt3x|\n$$\n\r\n将圆参数化为\r\n$x=2+2\\cos t$、$y=2\\sin t$.\r\n可得\r\n$y-\\sqrt3x=2\\bigl(\\sin t-\\sqrt3\\cos t-\\sqrt3\\bigr)$.\r\n由\r\n$-2\\le\\sin t-\\sqrt3\\cos t\\le2$，\r\n可知\r\n$-4-2\\sqrt3\\le y-\\sqrt3x\\le4-2\\sqrt3$.\r\n因此 $|y-\\sqrt3x|$ 的最大值为 $4+2\\sqrt3$，例如在 $t=-\\dfrac\\pi6$ 时取得，且此时 $x=2+\\sqrt3>0$. 所以\r\n\n$$\nS_{\\triangle OAB,\\max}=\\frac12(4+2\\sqrt3)=2+\\sqrt3\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 23,
+          "body": "已知 $a>0$，$b>0$，$a^3+b^3=2$. 证明：\r\n\r\n\n(1) $(a+b)(a^5+b^5)\\ge 4$；\n\n(2) $a+b\\le 2$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由柯西不等式，得\r\n\n$$\n(a+b)(a^5+b^5)\\ge\\bigl(\\sqrt a\\,a^{\\frac52}+\\sqrt b\\,b^{\\frac52}\\bigr)^2\r\n=(a^3+b^3)^2=4\n$$\n\n(2) 由霍尔德不等式，得\r\n\n$$\n(a+b)^3=(a\\cdot1+b\\cdot1)^3\r\n\\le(a^3+b^3)(1^3+1^3)^2=2\\times4=8\n$$\n\r\n因为 $a+b>0$，所以 $a+b\\le2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

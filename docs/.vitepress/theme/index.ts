@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme';
 import ExamViewer from './components/ExamViewer.vue';
 import PaperMatrix from './components/PaperMatrix.vue';
+import 'katex/dist/katex.min.css';
 import './style.css';
 import type { Theme } from 'vitepress';
 

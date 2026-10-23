@@ -1,0 +1,386 @@
+{
+  "year": "2008",
+  "slug": "guangdong_science",
+  "title": "2008年广东卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "选考题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "已知 $0 < a < 2$，复数 $z$ 的实部为 $a$，虚部为 $1$，则 $|z|$ 的取值范围是（ ）",
+          "choices": [
+            "$(1, 5)$",
+            "$(1, 3)$",
+            "$(1, \\sqrt{5})$",
+            "$(1, \\sqrt{3})$"
+          ],
+          "answer": "C",
+          "solution": "由复数模的定义，\r\n$|z|=\\sqrt{(\\operatorname{Re}z)^2+(\\operatorname{Im}z)^2}=\\sqrt{a^2+1}$.\r\n因为 $0<a<2$，所以 $0<a^2<4$，从而\r\n$1<a^2+1<5$.\r\n两边均为正数，开平方得 $1<|z|<\\sqrt{5}$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "记等差数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$. 若 $a_1 = \\frac{1}{2}$，$S_4 = 20$，则 $S_6 =$（ ）",
+          "choices": [
+            "$16$",
+            "$24$",
+            "$36$",
+            "$48$"
+          ],
+          "answer": "D",
+          "solution": "设等差数列的公差为 $d$. 由前 $n$ 项和公式\r\n$S_n=\\frac{n}{2}\\bigl(2a_1+(n-1)d\\bigr)$，得\r\n$20=S_4=\\frac{4}{2}\\bigl(2\\times\\frac12+3d\\bigr)=2(1+3d)$，\r\n所以 $d=3$.\r\n因此\r\n$S_6=\\frac{6}{2}\\bigl(2\\times\\frac12+5\\times3\\bigr)=3(1+15)=48$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "某校共有学生 $2000\\text{ 名}$，各年级男、女生人数如下表. 已知在全校学生中随机抽取 $1\\text{ 名}$，抽到二年级女生的概率是 $0.19$. 现用分层抽样的方法在全校抽取 $64\\text{ 名}$学生，则应在三年级抽取的学生人数为（ ）\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccc}\r\n\\hline\r\n & 一年级 & 二年级 & 三年级 \\\\\r\n\\hline\r\n女生 & $373$ & $x$ & $y$ \\\\\r\n男生 & $377$ & $370$ & $z$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}",
+          "choices": [
+            "$24$",
+            "$18$",
+            "$16$",
+            "$12$"
+          ],
+          "answer": "C",
+          "solution": "设二年级女生人数为 $x$. 由抽到二年级女生的概率，\r\n$\\frac{x}{2000}=0.19$，所以 $x=380$.\r\n于是二年级共有 $380+370=750$ 人，一年级共有\r\n$373+377=750$ 人，三年级共有\r\n$2000-750-750=500$ 人.\r\n分层抽样时各层抽取人数与该层人数成正比，所以三年级抽取\r\n$64\\times\\frac{500}{2000}=16$ 人，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "若变量 $x$，$y$ 满足 $\\begin{cases}\r\n2x + y \\le 40,\\\\\r\nx + 2y \\le 50,\\\\\r\nx \\ge 0,\\\\\r\ny \\ge 0.\r\n\\end{cases}$，则 $z = 3x + 2y$ 的最大值是（ ）",
+          "choices": [
+            "$90$",
+            "$80$",
+            "$70$",
+            "$40$"
+          ],
+          "answer": "C",
+          "solution": "目标函数是线性的，最大值在可行域的顶点处取得.\r\n由 $x\\geqslant0$，$y\\geqslant0$ 及两条约束直线可得四个顶点：\r\n坐标轴上的交点分别为 $(20,0)$ 和 $(0,25)$，两条直线\r\n$2x+y=40$，$x+2y=50$ 的交点由\r\n\n$$\n\\begin{cases}\r\n2x+y=40,\\\\\r\nx+2y=50\r\n\\end{cases}\n$$\n\r\n解得 $(x,y)=(10,20)$，另一个顶点为 $(0,0)$.\r\n在四个顶点处，\r\n$z(0,0)=0$，$z(20,0)=60$，$z(10,20)=70$，\r\n$z(0,25)=50$.\r\n因此最大值为 $70$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "将正三棱柱截去三个角（如图1所示 $A$，$B$，$C$ 分别是 $\\triangle GHI$ 三边的中点）得到几何体如图2，则该几何体按图2所示方向的侧视图（或称左视图）为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/guangdong_science/q5_condition.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/guangdong_science/q5_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/guangdong_science/q5_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/guangdong_science/q5_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/guangdong_science/q5_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "A",
+          "solution": "沿图2箭头方向作正投影，将投影方向上的重合点合并. 由图2各棱的相对位置，\r\n投影外轮廓的左边为竖直线段，上、下边分别为水平线段，右边为斜线段；\r\n同时，棱 $EB$ 的投影是从左下顶点 $E$ 到上部顶点 $B$ 的内线段.\r\n逐一比较四个选项，只有选项 A 同时满足这个外轮廓和这条内投影线，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "已知命题 $p$：所有有理数都是实数，命题 $q$：正数的对数都是负数，则下列命题中为真命题的是（ ）",
+          "choices": [
+            "$(\\neg p) \\lor q$",
+            "$p \\wedge q$",
+            "$(\\neg p) \\wedge (\\neg q)$",
+            "$(\\neg p) \\lor (\\neg q)$"
+          ],
+          "answer": "D",
+          "solution": "每个有理数都属于实数集，所以命题 $p$ 为真，$\\neg p$ 为假.\r\n取正数 $1$，其任意合法底数的对数均为 $0$，不是负数，\r\n所以“正数的对数都是负数”的命题 $q$ 为假，$\\neg q$ 为真.\r\n于是四个选项的真假依次为\r\n$(\\neg p)\\lor q$ 假，$p\\wedge q$ 假，\r\n$(\\neg p)\\wedge(\\neg q)$ 假，$(\\neg p)\\lor(\\neg q)$ 真.\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "设 $a \\in \\mathbb{R}$，若函数 $y = \\mathrm{e}^{ax} + 3x$（$x \\in \\mathbb{R}$）有大于零的极值点，则（ ）",
+          "choices": [
+            "$a > -3$",
+            "$a < -3$",
+            "$a > -\\frac{1}{3}$",
+            "$a < -\\frac{1}{3}$"
+          ],
+          "answer": "B",
+          "solution": "令 $f(x)=\\mathrm{e}^{ax}+3x$. 若 $a\\geqslant0$，则\r\n$f'(x)=a\\mathrm{e}^{ax}+3>0$，函数严格递增，不存在极值点.\r\n因此必须有 $a<0$. 此时极值点应满足\r\n$f'(x)=a\\mathrm{e}^{ax}+3=0$，即\r\n$\\mathrm{e}^{ax}=-\\frac{3}{a}>0$，从而\r\n$x_0=\\frac{1}{a}\\ln\\left(-\\frac{3}{a}\\right)$.\r\n由于 $a<0$，条件 $x_0>0$ 等价于\r\n$\\ln\\left(-\\frac{3}{a}\\right)<0$，即 $0<-\\frac{3}{a}<1$，\r\n进一步得到 $a<-3$.\r\n当 $a<-3$ 时，临界点确实存在，且\r\n$f''(x_0)=a^2\\mathrm{e}^{ax_0}=a^2\\left(-\\frac{3}{a}\\right)=-3a>0$，\r\n所以它是极小值点. 因此应选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "在平行四边形 $ABCD$ 中，$AC$ 与 $BD$ 交于点 $O$，$E$ 是线段 $OD$ 的中点，$AE$ 的延长线与 $CD$ 交于点 $F$. 若 $\\overrightarrow{AC} = \\mathbf{a}$，$\\overrightarrow{BD} = \\mathbf{b}$，则 $\\overrightarrow{AF} =$（ ）",
+          "choices": [
+            "$\\frac{1}{4}\\mathbf{a} + \\frac{1}{2}\\mathbf{b}$",
+            "$\\frac{2}{3}\\mathbf{a} + \\frac{1}{3}\\mathbf{b}$",
+            "$\\frac{1}{2}\\mathbf{a} + \\frac{1}{4}\\mathbf{b}$",
+            "$\\frac{1}{3}\\mathbf{a} + \\frac{2}{3}\\mathbf{b}$"
+          ],
+          "answer": "B",
+          "solution": "以 $O$ 为原点. 因为对角线互相平分，\r\n$\\overrightarrow{OA}=-\\frac12\\mathbf{a}$，$\\overrightarrow{OC}=\\frac12\\mathbf{a}$，\r\n$\\overrightarrow{OB}=-\\frac12\\mathbf{b}$，$\\overrightarrow{OD}=\\frac12\\mathbf{b}$.\r\n又因 $E$ 是 $OD$ 的中点，\r\n$\\overrightarrow{OE}=\\frac14\\mathbf{b}$，故\r\n$\\overrightarrow{AE}=\\overrightarrow{OE}-\\overrightarrow{OA}\r\n=\\frac12\\mathbf{a}+\\frac14\\mathbf{b}$.\r\n\r\n设 $F$ 在直线 $AE$ 上，则存在实数 $t$ 使\r\n\n$$\n\\overrightarrow{OF}=-\\frac12\\mathbf{a}+t\\left(\\frac12\\mathbf{a}+\\frac14\\mathbf{b}\\right)\n$$\n\r\n又 $F\\in CD$，而 $\\overrightarrow{CD}=\\overrightarrow{OD}-\\overrightarrow{OC}$，\r\n故存在实数 $s$ 使\r\n\n$$\n\\overrightarrow{OF}=\\frac12\\mathbf{a}+s\\left(\\frac12\\mathbf{b}-\\frac12\\mathbf{a}\\right)\n$$\n\r\n比较 $\\mathbf{a}$，$\\mathbf{b}$ 的系数，得到\r\n$t+s=2$，$t=2s$，所以 $t=\\frac43$，$s=\\frac23$.\r\n于是\r\n$\\overrightarrow{AF}=t\\overrightarrow{AE}\r\n=\\frac43\\left(\\frac12\\mathbf{a}+\\frac14\\mathbf{b}\\right)\r\n=\\frac23\\mathbf{a}+\\frac13\\mathbf{b}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 9,
+          "body": "阅读如图的程序框图，若输入 $m = 4$，$n = 6$，则输出 $a =$ _______ {}, $i =$ _______ {}. （注：框图中的赋值符号“$=$”也可以写成“$\\leftarrow$”或“$:=$”）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/guangdong_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(a=12\\)，\\(i=3\\)",
+          "solution": "程序先赋值 $i=1$，再按 $a=mi$ 计算 $a$，只有当 $n$ 整除 $a$ 时才输出.\r\n输入 $m=4$，$n=6$ 后逐次计算：\r\n$i=1$ 时 $a=4$，$6$ 不能整除 $4$，故令 $i=2$；\r\n$i=2$ 时 $a=8$，$6$ 不能整除 $8$，故令 $i=3$；\r\n$i=3$ 时 $a=12$，且 $6\\mid12$，程序停止.\r\n因此输出 $a=12$，$i=3$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知 $(1 + kx^2)^6$（$k$ 是正整数）的展开式中，$x^8$ 的系数小于 $120$，则 $k =$ _______ {}.",
+          "choices": [],
+          "answer": "1",
+          "solution": "在二项式 $(1+kx^2)^6$ 中，若取 $r$ 个 $kx^2$，所得项的次数为 $2r$.\r\n要得到 $x^8$，必须有 $2r=8$，即 $r=4$.\r\n所以 $x^8$ 的系数为 $\\mathrm C_6^4 k^4=15k^4$.\r\n由题意 $15k^4<120$，得到 $k^4<8$.\r\n由于 $k$ 是正整数，若 $k\\geqslant2$，则 $k^4\\geqslant16>8$，\r\n故只能取 $k=1$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "经过圆 $x^2 + 2x + y^2 = 0$ 的圆心 $C$ 且与直线 $x + y = 0$ 垂直的直线方程是 _______ {}.",
+          "choices": [],
+          "answer": "\\(y=x+1\\)",
+          "solution": "将圆的方程配方：\r\n$x^2+2x+y^2=0\\Longleftrightarrow(x+1)^2+y^2=1$，\r\n所以圆心为 $C(-1,0)$.\r\n直线 $x+y=0$ 化为 $y=-x$，斜率为 $-1$，\r\n与它垂直的直线斜率为 $1$.\r\n过 $(-1,0)$ 的斜率为 $1$ 的直线为\r\n$y-0=1\\bigl(x-(-1)\\bigr)$，即 $y=x+1$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "已知函数 $f(x) = (\\sin x - \\cos x)\\sin x$，$x \\in \\mathbb{R}$，则 $f(x)$ 的最小正周期是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\pi\\)",
+          "solution": "由二倍角公式，\r\n\n$$\nf(x)=\\sin^2x-\\sin x\\cos x\r\n=\\frac{1-\\cos2x}{2}-\\frac{\\sin2x}{2}\r\n=\\frac12-\\frac{\\sqrt2}{2}\\sin\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n\r\n正弦项的自变量系数为 $2$，所以 $\\pi$ 是它的周期.\r\n若 $T>0$ 是该函数的周期，则对任意 $x$，正弦项也必须满足\r\n$\\sin(2x+2T+\\frac\\pi4)=\\sin(2x+\\frac\\pi4)$.\r\n这对所有自变量成立时，必须有 $2T=2k\\pi$，其中 $k$ 为正整数，\r\n故最小的正周期为 $T=\\pi$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选考题：填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "已知曲线 $C_1$，$C_2$ 的极坐标方程分别为 $\\rho \\cos \\theta = 3$，$\\rho = 4 \\cos \\theta$（$\\rho \\ge 0$，$0 \\le \\theta < \\frac{\\pi}{2}$），则曲线 $C_1$ 与 $C_2$ 交点的极坐标为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left(2\\sqrt{3},\\frac{\\pi}{6}\\right)\\)",
+          "solution": "交点同时满足两条极坐标方程. 将 $\\rho=4\\cos\\theta$ 代入\r\n$\\rho\\cos\\theta=3$，得 $4\\cos^2\\theta=3$.\r\n由 $0\\le\\theta<\\frac\\pi2$，知 $\\cos\\theta>0$，所以\r\n$\\cos\\theta=\\frac{\\sqrt3}{2}$，从而 $\\theta=\\frac\\pi6$.\r\n再代入 $\\rho=4\\cos\\theta$，得到 $\\rho=2\\sqrt3$，\r\n且满足 $\\rho\\geqslant0$. 因此交点的极坐标为\r\n$\\left(2\\sqrt3,\\frac\\pi6\\right)$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "已知 $a \\in \\mathbb{R}$，若关于 $x$ 的方程 $x^2 + x + \\left| a - \\frac{1}{4} \\right| + |a| = 0$ 有实根，则 $a$ 的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left[0,\\frac{1}{4}\\right]\\)",
+          "solution": "记常数项为 $c=\\left|a-\\frac14\\right|+|a|$. 方程\r\n$x^2+x+c=0$ 有实根，当且仅当\r\n\n$$\n\\Delta=1-4c\\geqslant0,\r\n\\qquad\\text{即}\\qquad\r\n\\left|a-\\frac14\\right|+|a|\\le\\frac14\n$$\n\r\n分三段计算左端：\r\n\n$$\n\\left|a-\\frac14\\right|+|a|=\r\n\\begin{cases}\r\n\\frac14-2a, & a<0,\\\\\r\n\\frac14, & 0\\le a\\le\\frac14,\\\\\r\n2a-\\frac14, & a>\\frac14.\r\n\\end{cases}\n$$\n\r\n当 $a<0$ 时左端大于 $\\frac14$，当 $a>\\frac14$ 时左端也大于 $\\frac14$，\r\n只有中间区间满足不等式. 所以 $a$ 的取值范围为\r\n$\\left[0,\\frac14\\right]$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "已知 $PA$ 是圆 $O$ 的切线，切点为 $A$，$PA = 2$. $AC$ 是圆 $O$ 的直径，$PC$ 与圆 $O$ 交于点 $B$，$PB = 1$，则圆 $O$ 的半径 $R =$ _______ {}.",
+          "choices": [],
+          "answer": "\\(\\sqrt{3}\\)",
+          "solution": "由点 $P$ 的切线与割线定理，\r\n$PA^2=PB\\cdot PC$. 代入 $PA=2$，$PB=1$，得\r\n$4=1\\cdot PC$，所以 $PC=4$.\r\n半径 $OA$ 垂直切线 $PA$，而 $A$，$O$，$C$ 共线，\r\n故 $PA\\perp AC$，三角形 $PAC$ 在 $A$ 处为直角三角形.\r\n由勾股定理，\r\n$AC=\\sqrt{PC^2-PA^2}=\\sqrt{4^2-2^2}=2\\sqrt3$.\r\n又 $AC$ 是直径，故 $2R=AC=2\\sqrt3$，得到 $R=\\sqrt3$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 16,
+          "body": "已知函数 $f(x) = A \\sin (x + \\varphi)$（$A > 0$，$0 < \\varphi < \\pi$），$x \\in \\mathbb{R}$ 的最大值是 $1$，其图象经过点 $M\\left( \\frac{\\pi}{3}, \\frac{1}{2} \\right)$.\r\n\r\n\n(1) 求 $f(x)$ 的解析式；\n\n(2) 已知 $\\alpha$，$\\beta \\in \\left( 0, \\frac{\\pi}{2} \\right)$，且 $f(\\alpha) = \\frac{3}{5}$，$f(\\beta) = \\frac{12}{13}$，求 $f(\\alpha - \\beta)$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $\\sin(x+\\varphi)$ 的最大值为 $1$，且 $A>0$，\r\n所以 $f(x)$ 的最大值为 $A$. 由题设最大值为 $1$，得到 $A=1$.\r\n点 $M\\left(\\frac\\pi3,\\frac12\\right)$ 在函数图象上，所以\r\n$\\sin\\left(\\frac\\pi3+\\varphi\\right)=\\frac12$.\r\n由 $0<\\varphi<\\pi$，有\r\n$\\frac\\pi3<\\frac\\pi3+\\varphi<\\frac{4\\pi}3$.\r\n在此区间内满足正弦值为 $\\frac12$ 的角只有 $\\frac{5\\pi}6$，\r\n故 $\\frac\\pi3+\\varphi=\\frac{5\\pi}6$，即 $\\varphi=\\frac\\pi2$.\r\n因此 $f(x)=\\sin\\left(x+\\frac\\pi2\\right)=\\cos x$.\n\n(2) 由第一问，$f(x)=\\cos x$. 因为 $\\alpha$，$\\beta\\in\\left(0,\\frac\\pi2\\right)$，\r\n两角的正弦均为正数. 于是\r\n$\\cos\\alpha=\\frac35$，$\\sin\\alpha=\\sqrt{1-\\frac9{25}}=\\frac45$，$\\cos\\beta=\\frac{12}{13}$，$\\sin\\beta=\\sqrt{1-\\frac{144}{169}}=\\frac5{13}$.\r\n利用余弦差角公式，\r\n$f(\\alpha-\\beta)=\\cos(\\alpha-\\beta)\r\n=\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta$，所以\r\n\n$$\nf(\\alpha-\\beta)=\\frac35\\cdot\\frac{12}{13}+\\frac45\\cdot\\frac5{13}\r\n=\\frac{36+20}{65}=\\frac{56}{65}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "随机抽取某厂的某种产品 $200\\text{ 件}$，经质检，其中有一等品 $126\\text{ 件}$，二等品 $50\\text{ 件}$，三等品 $20\\text{ 件}$，次品 $4\\text{ 件}$. 已知生产 $1\\text{ 件}$一、二、三等品获利分别为 $6\\text{ 万元}$，$2\\text{ 万元}$，$1\\text{ 万元}$，则 $1\\text{ 件}$次品亏损 $2\\text{ 万元}$. 设 $1\\text{ 件}$产品的利润（单位：万元）为 $\\xi$.\r\n\r\n\n(1) 求 $\\xi$ 的分布列；\n\n(2) 求 $1\\text{ 件}$产品的平均利润（即 $\\xi$ 的数学期望）；\n\n(3) 经技术革新后，仍有四个等级的产品，但次品率降为 $1\\%$，一等品率提高为 $70\\%$. 如果此时要求 $1\\text{ 件}$产品的平均利润不小于 $4.73\\text{ 万元}$，则三等品率最多是多少？",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 根据产品等级，$\\xi$ 的可能取值及其概率分别为\r\n\\begin{center}\r\n\\begin{tabular}{c|cccc}\r\n$\\xi$ & $6$ & $2$ & $1$ & $-2$\\\\\r\n\\hline\r\n$P$ & $\\frac{126}{200}=\\frac{63}{100}$\r\n& $\\frac{50}{200}=\\frac14$\r\n& $\\frac{20}{200}=\\frac1{10}$\r\n& $\\frac4{200}=\\frac1{50}$\r\n\\end{tabular}\r\n\\end{center}\r\n因为 $\\frac{63}{100}+\\frac14+\\frac1{10}+\\frac1{50}=1$，\r\n这确实给出 $\\xi$ 的完整分布列.\n\n(2) 由数学期望定义，$1$ 件产品的平均利润为\r\n\n$$\nE(\\xi)=6\\cdot\\frac{63}{100}+2\\cdot\\frac14+1\\cdot\\frac1{10}-2\\cdot\\frac1{50}\r\n=\\frac{217}{50}=4.34\n$$\n\r\n万元.\n\n(3) 设技术革新后三等品率为 $u$，则二等品率为\r\n$1-70\\%-1\\%-u=29\\%-u$. 因为概率非负，需有 $0\\le u\\leqslant29\\%$.\r\n此时平均利润为\r\n\n$$\n6\\cdot70\\%+2(29\\%-u)+u-2\\cdot1\\%\r\n=4.76-u\n$$\n\r\n由平均利润不小于 $4.73$ 万元，\r\n$4.76-u\\geqslant4.73$，所以 $u\\leqslant0.03=3\\%$.\r\n这个值满足概率非负条件，故三等品率最多为 $3\\%$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "设 $b > 0$，椭圆方程为 $\\frac{x^2}{2b^2} + \\frac{y^2}{b^2} = 1$，抛物线方程为 $x^2 = 8(y - b)$. 如图所示，过点 $F(0, b + 2)$ 作 $x$ 轴的平行线，与抛物线在第一象限的交点为 $G$. 已知抛物线在点 $G$ 的切线经过椭圆的右焦点 $F_1$.\r\n\r\n\n(1) 求满足条件的椭圆方程和抛物线方程；\n\n(2) 设 $A$，$B$ 分别是椭圆长轴的左、右端点，试探究在抛物线上是否存在点 $P$，使得 $\\triangle ABP$ 为直角三角形？若存在，请指出共有几个这样的点，并说明理由（不必具体求出这些点的坐标）.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/guangdong_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 椭圆的长半轴、短半轴分别为 $\\sqrt2b$、$b$，\r\n所以焦距半长为 $\\sqrt{(\\sqrt2b)^2-b^2}=b$，右焦点为 $F_1(b,0)$.\r\n直线 $y=b+2$ 与抛物线的第一象限交点满足\r\n$x_G^2=8((b+2)-b)=16$，所以 $G=(4,b+2)$.\r\n对 $x^2=8(y-b)$ 隐函数求导，得 $2x=8y'$，\r\n故在 $G$ 处切线斜率为 $y'=\\frac{x_G}{4}=1$.\r\n切线方程为\r\n$y-(b+2)=x-4$，即 $y=x+b-2$.\r\n因为该切线经过 $F_1(b,0)$，代入得 $0=b+b-2$，\r\n所以 $b=1$. 因此椭圆方程为\r\n$\\frac{x^2}{2}+y^2=1$，抛物线方程为 $x^2=8(y-1)$.\n\n(2) 由第一问，椭圆长轴端点为 $A(-\\sqrt2,0)$，$B(\\sqrt2,0)$.\r\n设抛物线上点 $P(x,y)$，则 $x^2=8(y-1)$，从而 $y\\geqslant1$.\r\n\r\n若直角在 $P$，则\r\n$\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=0$，即\r\n$x^2+y^2=2$. 联立抛物线方程，得\r\n$y^2+8y-10=0$，所以\r\n$y=-4\\pm\\sqrt{26}$. 由于 $y\\geqslant1$，只能取\r\n$y=-4+\\sqrt{26}>1$. 此时\r\n$x^2=8(y-1)>0$，故有两个相反的 $x$ 值，得到 $2$ 个点.\r\n\r\n若直角在 $A$，则 $\\overrightarrow{AB}\\cdot\\overrightarrow{AP}=0$.\r\n因为 $\\overrightarrow{AB}=(2\\sqrt2,0)$，所以 $x=-\\sqrt2$，\r\n代入抛物线方程得 $y=1+\\frac{2}{8}=\\frac54$，得到 $1$ 个点.\r\n同理，若直角在 $B$，则 $x=\\sqrt2$，仍得 $y=\\frac54$，得到 $1$ 个点.\r\n三类点的横坐标条件不同，互不重复，因此共有 $2+1+1=4$ 个点.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "设 $k \\in \\mathbb{R}$，函数 $f(x) = \\begin{cases}\r\n\\frac{1}{1 - x}, & x < 1,\\\\\r\n-\\sqrt{x - 1}, & x \\ge 1,\r\n\\end{cases}$ $F(x) = f(x) - kx$，$x \\in \\mathbb{R}$. 试讨论函数 $F(x)$ 的单调性.",
+          "choices": [],
+          "answer": "",
+          "solution": "当 $x<1$ 时，\r\n$F(x)=\\frac1{1-x}-kx$，所以\r\n$F'(x)=\\frac1{(1-x)^2}-k$.\r\n若 $k\\leqslant0$，则 $F'(x)>0$，故 $F$ 在\r\n$(-\\infty,1)$ 上单调递增.\r\n若 $k>0$，令 $F'(x)=0$，得唯一临界点\r\n$x_0=1-\\frac1{\\sqrt{k}}<1$. 因为\r\n$\\frac1{(1-x)^2}<k$ 等价于 $x<x_0$，所以\r\n$F'(x)<0$（$x<x_0$），$F'(x)>0$（$x_0<x<1$）.\r\n因此此时 $F$ 在 $(-\\infty,x_0)$ 上单调递减，在\r\n$(x_0,1)$ 上单调递增.\r\n\r\n当 $x>1$ 时，\r\n$F(x)=-\\sqrt{x-1}-kx$，所以\r\n$F'(x)=-\\frac1{2\\sqrt{x-1}}-k$.\r\n若 $k\\geqslant0$，则 $F'(x)<0$，并且\r\n$F(1)=-k$，故 $F$ 在 $[1,+\\infty)$ 上单调递减.\r\n若 $k<0$，令 $F'(x)=0$，得\r\n$x_1=1+\\frac1{4k^2}>1$. 此时\r\n$F'(x)<0$（$1<x<x_1$），$F'(x)>0$（$x>x_1$），\r\n所以 $F$ 在 $[1,x_1]$ 上单调递减，在\r\n$[x_1,+\\infty)$ 上单调递增.\r\n\r\n最后，$\\displaystyle\\lim_{x\\to1^-}F(x)=+\\infty$，而 $F(1)=-k$，\r\n故函数在 $x=1$ 处不连续. 当 $k\\leqslant0$ 时，左侧已递增但靠近 $1$ 的函数值趋于\r\n$+\\infty$，不可能与有限的 $F(1)$ 组成整个实轴上的递增函数；\r\n同时左侧递增也排除了整个实轴上的递减函数；\r\n当 $k>0$ 时，左侧在 $x_0$ 两侧先减后增，已经不是单调函数.\r\n因此对任意 $k\\in\\mathbb{R}$，$F$ 都不在整个 $\\mathbb{R}$ 上单调.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "如图所示，四棱锥 $P - ABCD$ 的底面 $ABCD$ 是半径为 $R$ 的圆的内接四边形，其中 $BD$ 是圆的直径，$\\angle ABD = 60^\\circ$，$\\angle BDC = 45^\\circ$. $PD$ 垂直底面 $ABCD$，$PD = 2\\sqrt{2}R$. $E$，$F$ 分别是 $PB$，$CD$ 上的点，且 $\\frac{PE}{EB} = \\frac{DF}{FC}$. 过点 $E$ 作 $BC$ 的平行线交 $PC$ 于 $G$.\r\n\r\n\n(1) 求 $BD$ 与平面 $ABP$ 所成角 $\\theta$ 的正切值；\n\n(2) 证明：$\\triangle EFG$ 是直角三角形；\n\n(3) 当 $\\frac{PE}{EB} = \\frac{1}{2}$ 时，求 $\\triangle EFG$ 的面积.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 在底面内取圆心 $O$ 为原点，令直径 $BD$ 为 $x$ 轴，\r\n取 $B(-R,0,0)$，$D(R,0,0)$，底面为 $z=0$.\r\n由 $\\angle ABD=60^\\circ$，并取图示一侧的点，得\r\n$A\\left(-\\frac R2,\\frac{\\sqrt3R}{2},0\\right)$；\r\n由 $\\angle BDC=45^\\circ$，得 $C(0,-R,0)$.\r\n这些点均在圆 $x^2+y^2=R^2$ 上，且满足题设角度条件.\r\n由于 $PD\\perp$ 底面且 $PD=2\\sqrt2R$，可取\r\n$P(R,0,2\\sqrt2R)$.\r\n\r\n平面 $ABP$ 的一个法向量为\r\n$\\mathbf{n}=\\overrightarrow{BA}\\times\\overrightarrow{BP} =R^2(\\sqrt6,-\\sqrt2,-\\sqrt3)$，$|\\mathbf{n}|=R^2\\sqrt{11}$.\r\n取 $BD$ 的单位方向向量 $\\mathbf{d}=(1,0,0)$. 直线与平面所成角满足\r\n$\\sin\\theta=\\frac{|\\mathbf{d}\\cdot\\mathbf{n}|}{|\\mathbf{d}||\\mathbf{n}|}$，所以\r\n$\\sin\\theta=\\frac{\\sqrt6}{\\sqrt{11}}$，\r\n$\\cos\\theta=\\sqrt{1-\\frac6{11}}=\\sqrt{\\frac5{11}}$.\r\n因此 $\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}=\\sqrt{\\frac65}$.\n\n(2) 设 $t=\\frac{PE}{EB}=\\frac{DF}{FC}>0$. 则\r\n$\\frac{PE}{PB}=\\frac{t}{1+t}$. 在三角形 $PBC$ 中，\r\n由于 $EG\\parallel BC$，所以相似三角形给出\r\n$\\frac{PG}{PC}=\\frac{PE}{PB}=\\frac{t}{1+t}$.\r\n由内分点公式，\r\n$E\\left(\\frac{1-t}{1+t}R,0,\\frac{2\\sqrt2}{1+t}R\\right)$，$F\\left(\\frac1{1+t}R,-\\frac{t}{1+t}R,0\\right)$，$G\\left(\\frac1{1+t}R,-\\frac{t}{1+t}R,\\frac{2\\sqrt2}{1+t}R\\right)$.\r\n于是\r\n$\\overrightarrow{EG}=\\left(\\frac{t}{1+t}R,-\\frac{t}{1+t}R,0\\right)$，$\\overrightarrow{FG}=\\left(0,0,\\frac{2\\sqrt2}{1+t}R\\right)$.\r\n两向量的内积为 $0$，故 $EG\\perp FG$，\r\n$\\triangle EFG$ 是以 $G$ 为直角顶点的直角三角形.\n\n(3) 当 $t=\\frac12$ 时，\r\n$\\frac{t}{1+t}=\\frac13$，且\r\n$|BC|=\\sqrt{(R-0)^2+(0+R)^2}=\\sqrt2R$.\r\n因此 $|EG|=\\frac13|BC|=\\frac{\\sqrt2R}{3}$.\r\n又 $|FG|=\\frac1{1+t}PD=\\frac23\\cdot2\\sqrt2R=\\frac{4\\sqrt2R}{3}$.\r\n由直角三角形面积公式，\r\n$S_{\\triangle EFG}=\\frac12|EG||FG|\r\n=\\frac12\\cdot\\frac{\\sqrt2R}{3}\\cdot\\frac{4\\sqrt2R}{3}\r\n=\\frac{4R^2}{9}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知 $p$，$q$ 是实数，$\\alpha$，$\\beta$ 为方程 $x^2 - px + q = 0$ 的两个实根，数列 $\\{x_n\\}$ 满足 $x_1 = p$，$x_2 = p^2 - q$，$x_n = px_{n-1} - qx_{n-2}$（$n = 3$，$4$，$\\cdots$）.\r\n\r\n\n(1) 证明：$\\alpha + \\beta = p$，$\\alpha \\beta = q$；\n\n(2) 求数列 $\\{x_n\\}$ 的通项公式；\n\n(3) 若 $p = 1$，$q = \\frac{1}{4}$，求 $\\{x_n\\}$ 的前 $n$ 项和 $S_n$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $\\alpha$，$\\beta$ 是方程的两个根，\r\n所以二次多项式可因式分解为\r\n\n$$\nx^2-px+q=(x-\\alpha)(x-\\beta)\r\n=x^2-(\\alpha+\\beta)x+\\alpha\\beta\n$$\n\r\n比较两种展开式中同次项的系数，得到\r\n$\\alpha+\\beta=p$，$\\alpha\\beta=q$.\n\n(2) 由第一问，$\\alpha^2=p\\alpha-q$，$\\beta^2=p\\beta-q$.\r\n定义 $u_n=\\sum_{j=0}^{n}\\alpha^{n-j}\\beta^j$. 则\r\n$u_1=\\alpha+\\beta=p=x_1$，并且\r\n$u_2=\\alpha^2+\\alpha\\beta+\\beta^2\r\n=(\\alpha+\\beta)^2-\\alpha\\beta=p^2-q=x_2$.\r\n再利用 $p=\\alpha+\\beta$，$q=\\alpha\\beta$，有\r\n\n$$\n\\begin{aligned}\r\npu_{n-1}-qu_{n-2}\r\n&=(\\alpha+\\beta)\\sum_{j=0}^{n-1}\\alpha^{n-1-j}\\beta^j\r\n-\\alpha\\beta\\sum_{j=0}^{n-2}\\alpha^{n-2-j}\\beta^j\\\\\r\n&=\\sum_{j=0}^{n}\\alpha^{n-j}\\beta^j=u_n.\r\n\\end{aligned}\n$$\n\r\n所以 $\\{u_n\\}$ 与 $\\{x_n\\}$ 具有相同的前两项和递推关系，\r\n由递推确定性知\r\n\n$$\nx_n=u_n=\\sum_{j=0}^{n}\\alpha^{n-j}\\beta^j\n$$\n\r\n若 $\\alpha\\ne\\beta$，这是等比和，故\r\n$x_n=\\frac{\\alpha^{n+1}-\\beta^{n+1}}{\\alpha-\\beta}$；\r\n若 $\\alpha=\\beta$，则每项均为 $\\alpha^n$，共有 $n+1$ 项，\r\n故 $x_n=(n+1)\\alpha^n$.\n\n(3) 当 $p=1$，$q=\\frac14$ 时，根方程为\r\n$x^2-x+\\frac14=0$，即\r\n$\\left(x-\\frac12\\right)^2=0$，所以 $\\alpha=\\beta=\\frac12$.\r\n由第二问的重根情形，\r\n$x_n=(n+1)\\left(\\frac12\\right)^n=\\frac{n+1}{2^n}$.\r\n因此\r\n\n$$\nS_n=\\sum_{k=1}^{n}\\frac{k+1}{2^k}\r\n=\\sum_{k=1}^{n}\\frac{k}{2^k}+\\sum_{k=1}^{n}\\frac1{2^k}\r\n=\\left(2-\\frac{n+2}{2^n}\\right)+\\left(1-\\frac1{2^n}\\right)\r\n=3-\\frac{n+3}{2^n}\n$$\n\r\n这里使用了有限和\r\n$\\sum_{k=1}^{n}\\frac1{2^k}=1-\\frac1{2^n}$ 以及\r\n$\\sum_{k=1}^{n}\\frac{k}{2^k}=2-\\frac{n+2}{2^n}$，\r\n所以 $S_n=3-\\frac{n+3}{2^n}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

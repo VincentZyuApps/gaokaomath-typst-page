@@ -134,8 +134,8 @@ function normalizeLatexSnippet(mathStr: string): string {
   s = s.replace(/\\sqrt\s*([0-9]+)/g, '\\sqrt{$1} ');
   s = s.replace(/\\sqrt\s*([a-zA-Z])(?![a-zA-Z])/g, '\\sqrt{$1} ');
 
-  // 3. 命令与紧随数字分离：\leqslant2, \approx0, \times25, \to0, \ln2 等
-  s = s.replace(/\\(to|le|ge|ne|approx|sim|times|ln|sin|cos|tan|leqslant|geqslant|int|cdot)\s*([0-9]+)/g, '\\$1 $2 ');
+  // 3. 命令与紧随数字分离：\leqslant2, \approx0, \times25, \to0, \ln2, \pm3 等
+  s = s.replace(/\\(to|le|ge|ne|approx|sim|times|ln|sin|cos|tan|leqslant|geqslant|int|cdot|pm|mp|div)\s*([0-9]+)/g, '\\$1 $2 ');
 
   // 4. 清理 limits
   s = s.replace(/\\limits\b/g, '');
@@ -243,8 +243,8 @@ export function latexMathToTypst(mathStr: string): string {
   // 运算符
   s = s.replace(/\\cdot\b/g, ' dot ');
   s = s.replace(/\\times\b/g, ' times ');
-  s = s.replace(/\\pm\b/g, ' +- ');
-  s = s.replace(/\\mp\b/g, ' -+ ');
+  s = s.replace(/\\pm(?=[^a-zA-Z]|$)/g, ' +- ');
+  s = s.replace(/\\mp(?=[^a-zA-Z]|$)/g, ' -+ ');
 
   // 希腊字母与常用符号
   s = s.replace(/\\(alpha|beta|gamma|delta|epsilon|zeta|eta|theta|iota|kappa|lambda|mu|nu|xi|pi|rho|sigma|tau|upsilon|phi|chi|psi|omega)(?=[^a-zA-Z]|$)/g, ' $1 ');
@@ -405,6 +405,13 @@ export function parseLatexPaper(filePath: string, year: string, slug: string): E
     }
 
     if (line.startsWith('\\begin{problem}')) {
+      if (!currentSection) {
+        currentSection = {
+          name: "试题部分",
+          problems: []
+        };
+        sections.push(currentSection);
+      }
       inProblem = true;
       currentProblem = {
         num: problemCounter++,
@@ -581,68 +588,55 @@ export function generateSingleCardTypst(prob: Problem, secName: string, showAnsw
 }
 
 export function generateVitepressMarkdown(data: ExamData, year: string, slug: string): string {
-  let md = `---\ntitle: ${data.subtitle}\n---\n\n`;
-  md += `<script setup>\n`;
-  md += `import ExamViewer from '../../.vitepress/theme/components/ExamViewer.vue';\n`;
-  md += `</script>\n\n`;
+  return `---
+title: ${data.subtitle}
+---
 
-  md += `# ${data.subtitle}\n\n`;
+# ${data.subtitle}
 
-  md += `<ClientOnly>\n`;
-  md += `  <ExamViewer paperYear="${year}" paperSlug="${slug}" />\n`;
-  md += `</ClientOnly>\n\n`;
-
-  md += `<div class="native-doc-container">\n\n`;
-  md += `::: tip 试卷速览与下载\n`;
-  md += `- **考试年份**：${year} 年全国统一高考\n`;
-  md += `- **试卷名称**：${data.subtitle}\n`;
-  md += `- **下载入口**：[📥 下载高清打印版 PDF](/gaokaomath-typst-page/papers/${year}/${slug}.pdf)\n`;
-  md += `:::\n\n`;
-
-  for (const sec of data.sections) {
-    md += `## ${sec.name}\n\n`;
-
-    for (const prob of sec.problems) {
-      md += `### 第 ${prob.num} 题\n\n`;
-      const body = processTextForWebMarkdown(prob.body, "./img/");
-      md += `${body}\n\n`;
-
-      if (prob.choices && prob.choices.length === 4) {
-        md += `<div class="choices-container">\n\n`;
-        md += `* **A.** ${processTextForWebMarkdown(prob.choices[0], "./img/")}\n`;
-        md += `* **B.** ${processTextForWebMarkdown(prob.choices[1], "./img/")}\n`;
-        md += `* **C.** ${processTextForWebMarkdown(prob.choices[2], "./img/")}\n`;
-        md += `* **D.** ${processTextForWebMarkdown(prob.choices[3], "./img/")}\n\n`;
-        md += `</div>\n\n`;
-      }
-
-      if (prob.answer || prob.solution) {
-        md += `::: details 💡 点击展开【参考答案与详细解析】\n\n`;
-        if (prob.answer) {
-          let ansText = prob.answer.trim();
-          ansText = cleanLatexForWeb(ansText);
-          md += `**【参考答案】**：\`${ansText}\`\n\n`;
-        }
-        if (prob.solution) {
-          const sol = processTextForWebMarkdown(prob.solution, "./img/");
-          md += `**【详细解析】**：\n\n${sol}\n\n`;
-        } else {
-          md += `*上游仓库暂未附详细步骤*\n\n`;
-        }
-        md += `:::\n\n`;
-      } else {
-        md += `> *上游仓库暂未附详细步骤*\n\n`;
-      }
-
-      md += `---\n\n`;
-    }
-  }
-
-  md += `</div>\n`;
-  return md;
+<ClientOnly>
+  <ExamViewer paperYear="${year}" paperSlug="${slug}" />
+</ClientOnly>
+`;
 }
 
-export function processYear(year: string = "2024") {
+const REGION_MAP: Record<string, string> = {
+  national: '全国',
+  new_gaokao: '全国',
+  beijing: '北京',
+  shanghai: '上海',
+  tianjin: '天津',
+  jiangsu: '江苏',
+  zhejiang: '浙江',
+  guangdong: '广东',
+  shandong: '山东',
+  anhui: '安徽',
+  hubei: '湖北',
+  hunan: '湖南',
+  sichuan: '四川',
+  chongqing: '重庆',
+  fujian: '福建',
+  hebei: '河北',
+  henan: '河南',
+  shaanxi: '陕西',
+  shanxi: '山西',
+  jiangxi: '江西',
+  liaoning: '辽宁',
+  jilin: '吉林',
+  heilongjiang: '黑龙江',
+  guangxi: '广西',
+  guizhou: '贵州',
+  yunnan: '云南',
+  gansu: '甘肃',
+  hainan: '海南',
+  neimenggu: '内蒙古',
+  xinjiang: '新疆',
+  qinghai: '青海',
+  ningxia: '宁夏',
+  xizang: '西藏'
+};
+
+export function processYear(year: string = "2024", compileSvg: boolean = false) {
   const rootDir = 'D:/TMP/gaokaomath-typst-page';
   const upstreamYearDir = path.join('D:/TMP/Gaokao-Math-Problems-Compilation/content', year);
 
@@ -652,7 +646,7 @@ export function processYear(year: string = "2024") {
   }
 
   const texFiles = fs.readdirSync(upstreamYearDir).filter(f => f.endsWith('.tex'));
-  console.log(`\n=== Processing Year ${year} (${texFiles.length} papers) ===`);
+  console.log(`\n=== Processing Year ${year} (${texFiles.length} papers, compileSvg: ${compileSvg}) ===`);
 
   const papersDir = path.join(rootDir, 'papers', year);
   const docsDir = path.join(rootDir, 'docs', 'papers', year);
@@ -665,19 +659,22 @@ export function processYear(year: string = "2024") {
   const upstreamImgDir = path.join('D:/TMP/Gaokao-Math-Problems-Compilation/img', year);
   if (fs.existsSync(upstreamImgDir)) {
     fs.cpSync(upstreamImgDir, path.join(papersDir, 'img'), { recursive: true, force: true });
-    fs.cpSync(upstreamImgDir, path.join(docsDir, 'img'), { recursive: true, force: true });
     fs.cpSync(upstreamImgDir, path.join(publicDir, 'img'), { recursive: true, force: true });
-    console.log(`Copied images for year ${year}`);
   }
 
   const yearMetas: PaperMeta[] = [];
+  const yNum = parseInt(year, 10);
+  let period = 'new_gaokao';
+  if (yNum >= 2020) period = 'new_gaokao';
+  else if (yNum >= 2010) period = 'new_curriculum';
+  else if (yNum >= 2000) period = 'autonomous';
+  else if (yNum >= 1977) period = 'restoration';
+  else period = 'early_days';
 
   for (const tf of texFiles) {
     const slug = tf.replace('.tex', '');
     const upstreamTexPath = path.join(upstreamYearDir, tf);
     const data = parseLatexPaper(upstreamTexPath, year, slug);
-
-    console.log(`-> Processing ${data.subtitle} (${slug})...`);
 
     const paperCardsDir = path.join(papersDir, 'cards', slug);
     const paperPagesDir = path.join(papersDir, 'pages', slug);
@@ -687,22 +684,30 @@ export function processYear(year: string = "2024") {
     fs.mkdirSync(paperPagesDir, { recursive: true });
     fs.mkdirSync(publicPaperDir, { recursive: true });
 
-    // 1. 生成并编译整卷 Typst PDF
+    // 1. 生成整卷 Typst 源码
     const typstCode = generateTypst(data, "/templates/exam.typ", true);
     const paperTypPath = path.join(papersDir, `${slug}.typ`);
     fs.writeFileSync(paperTypPath, typstCode, 'utf-8');
 
-    execSync(`typst compile --root . "papers/${year}/${slug}.typ" "papers/${year}/${slug}.pdf"`, { cwd: rootDir });
-    fs.copyFileSync(path.join(papersDir, `${slug}.pdf`), path.join(publicDir, `${slug}.pdf`));
+    let pageCount = 0;
 
-    // 2. 编译整卷连续分页 SVG
-    execSync(`typst compile --root . --format svg "papers/${year}/${slug}.typ" "papers/${year}/pages/${slug}/page_{p}.svg"`, { cwd: rootDir });
-    const pageFiles = fs.readdirSync(paperPagesDir).filter(f => f.startsWith('page_') && f.endsWith('.svg'));
-    pageFiles.forEach(f => {
-      fs.copyFileSync(path.join(paperPagesDir, f), path.join(publicPaperDir, f));
-    });
+    if (compileSvg) {
+      try {
+        execSync(`typst compile --root . "papers/${year}/${slug}.typ" "papers/${year}/${slug}.pdf"`, { cwd: rootDir });
+        fs.copyFileSync(path.join(papersDir, `${slug}.pdf`), path.join(publicDir, `${slug}.pdf`));
 
-    // 3. 单题卡片生成
+        execSync(`typst compile --root . --format svg "papers/${year}/${slug}.typ" "papers/${year}/pages/${slug}/page_{p}.svg"`, { cwd: rootDir });
+        const pageFiles = fs.readdirSync(paperPagesDir).filter(f => f.startsWith('page_') && f.endsWith('.svg'));
+        pageCount = pageFiles.length;
+        pageFiles.forEach(f => {
+          fs.copyFileSync(path.join(paperPagesDir, f), path.join(publicPaperDir, f));
+        });
+      } catch (err: any) {
+        console.error(`Typst PDF/SVG compile error in ${year}/${slug}:`, err.message);
+      }
+    }
+
+    // 2. 统计题目与单题卡片生成
     let totalProb = 0;
     let hasSolCount = 0;
     const questionsMeta = [];
@@ -723,11 +728,17 @@ export function processYear(year: string = "2024") {
         const cardSolTypPath = path.join(paperCardsDir, `q${qNumStr}_sol.typ`);
         fs.writeFileSync(cardSolTypPath, cardSolTypCode, 'utf-8');
 
-        execSync(`typst compile --root . "${cardTypPath}" "${path.join(paperCardsDir, `q${qNumStr}.svg`)}"`, { cwd: rootDir });
-        execSync(`typst compile --root . "${cardSolTypPath}" "${path.join(paperCardsDir, `q${qNumStr}_sol.svg`)}"`, { cwd: rootDir });
+        if (compileSvg) {
+          try {
+            execSync(`typst compile --root . "${cardTypPath}" "${path.join(paperCardsDir, `q${qNumStr}.svg`)}"`, { cwd: rootDir });
+            execSync(`typst compile --root . "${cardSolTypPath}" "${path.join(paperCardsDir, `q${qNumStr}_sol.svg`)}"`, { cwd: rootDir });
 
-        fs.copyFileSync(path.join(paperCardsDir, `q${qNumStr}.svg`), path.join(publicPaperDir, `q${qNumStr}.svg`));
-        fs.copyFileSync(path.join(paperCardsDir, `q${qNumStr}_sol.svg`), path.join(publicPaperDir, `q${qNumStr}_sol.svg`));
+            fs.copyFileSync(path.join(paperCardsDir, `q${qNumStr}.svg`), path.join(publicPaperDir, `q${qNumStr}.svg`));
+            fs.copyFileSync(path.join(paperCardsDir, `q${qNumStr}_sol.svg`), path.join(publicPaperDir, `q${qNumStr}_sol.svg`));
+          } catch (err: any) {
+            console.error(`Card compile error in ${year}/${slug} q${qNumStr}:`, err.message);
+          }
+        }
 
         questionsMeta.push({
           num: prob.num,
@@ -738,56 +749,86 @@ export function processYear(year: string = "2024") {
       }
     }
 
+    const webSections = data.sections.map(sec => ({
+      name: sec.name,
+      problems: sec.problems.map(prob => ({
+        num: prob.num,
+        body: processTextForWebMarkdown(prob.body, `/gaokaomath-typst-page/papers/${year}/img/`),
+        choices: (prob.choices || []).map(c => processTextForWebMarkdown(c, `/gaokaomath-typst-page/papers/${year}/img/`)),
+        answer: prob.answer ? cleanLatexForWeb(prob.answer.trim()) : '',
+        solution: prob.solution ? processTextForWebMarkdown(prob.solution, `/gaokaomath-typst-page/papers/${year}/img/`) : '',
+        hasAnswer: !!(prob.answer && prob.answer.trim().length > 0),
+        hasSolution: !!(prob.solution && prob.solution.trim().length > 0)
+      }))
+    }));
+
     fs.writeFileSync(
       path.join(publicPaperDir, 'manifest.json'),
       JSON.stringify({
         year,
         slug,
         title: data.subtitle,
-        pageCount: pageFiles.length,
-        questions: questionsMeta
+        pageCount,
+        hasVectorSvg: compileSvg,
+        questions: questionsMeta,
+        sections: webSections
       }, null, 2),
       'utf-8'
     );
 
-    // 4. 生成 VitePress Markdown
+    // 3. 生成 VitePress 原生交互文档
     const mdCode = generateVitepressMarkdown(data, year, slug);
     fs.writeFileSync(path.join(docsDir, `${slug}.md`), mdCode, 'utf-8');
 
     let region = '全国';
-    if (slug.includes('beijing')) region = '北京';
-    else if (slug.includes('shanghai')) region = '上海';
-    else if (slug.includes('tianjin')) region = '天津';
+    for (const [key, regName] of Object.entries(REGION_MAP)) {
+      if (slug.toLowerCase().includes(key)) {
+        region = regName;
+        break;
+      }
+    }
 
     let category = '综合';
-    if (slug.includes('liberal')) category = '文科';
-    else if (slug.includes('science')) category = '理科';
+    if (slug.includes('liberal') || data.subtitle.includes('文')) category = '文科';
+    else if (slug.includes('science') || data.subtitle.includes('理')) category = '理科';
 
     yearMetas.push({
       slug,
       title: data.subtitle,
       year,
-      period: 'new_gaokao',
+      period,
       region,
       category,
-      provinces: region === '全国' ? '新高考/全国卷省份' : region,
+      provinces: region === '全国' ? '全国统考卷/适用省份' : `${region}自主命题/单独卷`,
       problemCount: totalProb,
       hasSolution: hasSolCount > 0,
-      pageCount: pageFiles.length
+      pageCount
     });
   }
 
   return yearMetas;
 }
 
-export function runAll() {
+export function runAll(compileFullSvg: boolean = false) {
   const rootDir = 'D:/TMP/gaokaomath-typst-page';
+  const upstreamContentDir = 'D:/TMP/Gaokao-Math-Problems-Compilation/content';
   const registryPath = path.join(rootDir, 'docs', 'public', 'papers', 'registry.json');
   fs.mkdirSync(path.dirname(registryPath), { recursive: true });
 
-  const allMetas = processYear("2024");
+  const allYears = fs.readdirSync(upstreamContentDir).filter(f => /^\d{4}$/.test(f)).sort((a, b) => parseInt(b, 10) - parseInt(a, 10));
+  console.log(`\n🚀 [Full Scale Run] Processing all ${allYears.length} years (1952-2026)...`);
+
+  let allMetas: PaperMeta[] = [];
+
+  for (const year of allYears) {
+    const shouldCompileSvg = compileFullSvg || (year === '2024' || year === '1952');
+    const metas = processYear(year, shouldCompileSvg);
+    allMetas = allMetas.concat(metas);
+  }
+
   fs.writeFileSync(registryPath, JSON.stringify(allMetas, null, 2), 'utf-8');
-  console.log(`\n🎉 [All Complete] 2024 full suite converted, registry.json saved!`);
+  console.log(`\n🎉 [All Complete] Full suite of ${allMetas.length} papers converted across ${allYears.length} years!`);
+  console.log(`Registry saved to: ${registryPath}`);
 }
 
 if (process.argv[1] && process.argv[1].endsWith('converter.ts')) {

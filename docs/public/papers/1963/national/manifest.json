@@ -1,0 +1,166 @@
+{
+  "year": "1963",
+  "slug": "national",
+  "title": "1963年全国卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "已知 $\\tan\\theta=\\sqrt2$，求 $\\dfrac{\\cos\\theta+\\sin\\theta}{\\cos\\theta-\\sin\\theta}$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "因为 $\\tan\\theta=\\sqrt2$，所以 $\\cos\\theta\\neq0$，且 $1-\\tan\\theta\\neq0$. 以 $\\cos\\theta$ 除分式的分子和分母，得\r\n\n$$\n\\frac{\\cos\\theta+\\sin\\theta}{\\cos\\theta-\\sin\\theta}\r\n=\\frac{1+\\tan\\theta}{1-\\tan\\theta}\r\n=\\frac{1+\\sqrt2}{1-\\sqrt2}\r\n=\\frac{\\left( 1+\\sqrt2 \\right)^2}{\\left( 1-\\sqrt2 \\right)\\left( 1+\\sqrt2 \\right)}\n$$\n\r\n\n$$\n\\frac{1+2\\sqrt2+2}{-1}=-3-2\\sqrt2\n$$\n\r\n\r\n因此原式的值为 $-3-2\\sqrt2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "(1) 求出复数 $1+\\sqrt3\\mathrm{i}$ 的模数和辐角.\n\n(2) 在直角坐标系 $XOY$ 所在的平面内，以 $A$ 点表示复数 $1+\\sqrt3\\mathrm{i}$，把 $OA$ 绕着 $O$ 点按反时针方向旋转 $150^\\circ$，设 $A$ 点到达的位置为 $B$，写出 $B$ 点所表示的复数的代数式.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $z=1+\\sqrt3\\mathrm{i}$. 由复数模的定义，\r\n$|z|=\\sqrt{1^2+\\left(\\sqrt3\\right)^2}=2$.\r\n因为实部为正、虚部为正，且若主值为 $\\alpha$，则 $\\tan\\alpha=\\sqrt3$，所以 $z$ 位于第一象限，辐角的主值为 $60^\\circ$. 因而 $z$ 的全部辐角为 $60^\\circ+360^\\circ k$，其中 $k\\in\\mathbb{Z}$.\n\n(2) 旋转不改变模，且逆时针旋转使辐角增加 $150^\\circ$，所以点 $B$ 表示的复数的模为 $2$，辐角主值为\r\n$60^\\circ+150^\\circ=210^\\circ$.\r\n因此点 $B$ 表示的复数为\r\n\n$$\n2\\left(\\cos210^\\circ+\\mathrm{i}\\sin210^\\circ\\right)\r\n=2\\left(-\\frac{\\sqrt3}{2}-\\frac12\\mathrm{i}\\right)\r\n=-\\sqrt3-\\mathrm{i}\n$$\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1963/img/national/q2_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "如图，$AB$ 为半圆的直径，$CD\\perp AB$. 已知 $AB=1$，$AC:CB=4:1$，求 $CD$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1963/img/national/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "因为 $AB=1$，且 $AC:CB=4:1$，所以 $AC=\\frac45$，$CB=\\frac15$.\r\n由于 $AB$ 是半圆的直径，圆周角 $\\angle ADB=90^\\circ$. 又 $CD\\perp AB$，所以 $CD$ 是直角三角形 $ADB$ 斜边 $AB$ 上的高.\r\n\r\n在直角三角形 $ACD$ 和 $DCB$ 中，$\\angle ACD=\\angle DCB=90^\\circ$. 因为 $C$ 在线段 $AB$ 上且 $DC$ 位于直角 $\\angle ADB$ 内，所以 $\\angle ADC+\\angle CDB=90^\\circ$. 又由 $\\angle ACD=90^\\circ$，有 $\\angle CAD+\\angle ADC=90^\\circ$，从而 $\\angle CAD=\\angle CDB$. 因此\r\n\n$$\n\\triangle ACD\\sim\\triangle DCB\n$$\n\r\n由相似三角形对应边成比例，得\r\n$\\frac{AC}{CD}=\\frac{CD}{CB}$，$CD^2=AC\\cdot CB =\\frac45\\cdot\\frac15=\\frac4{25}$.\r\n因为 $CD>0$，所以 $CD=\\frac25$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1963/img/national/q3_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "从二面角内任意一点向二面角的两个面作垂线，求证这两条垂线所决定的平面垂直于二面角的棱（要求画图）.",
+          "choices": [],
+          "answer": "",
+          "solution": "设二面角的两个面为 $M$、$N$，棱为 $AB$，点 $P$ 在二面角内，且 $PC\\perp M$、$PD\\perp N$，其中 $C\\in M$、$D\\in N$. 直线 $PC$、$PD$ 相交于 $P$，所以它们确定平面 $PCD$. 因为平面 $PCD$ 经过直线 $PC$，而 $PC\\perp M$，所以平面 $PCD\\perp M$. 同理，平面 $PCD\\perp N$.\r\n\r\n平面 $M$、$N$ 相交于棱 $AB$. 两个相交平面同时垂直于第三个平面时，它们的交线垂直于第三个平面，因此 $AB\\perp$ 平面 $PCD$，即平面 $PCD\\perp AB$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1963/img/national/q4_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "利用下列常用对数表，计算 $23.28^{-1.1}$.\r\n\r\n\\begin{center}\r\n\\scriptsize\r\n\\setlength{\\tabcolsep}{3pt}\r\n\\renewcommand{\\arraystretch}{1.1}\r\n\\begin{tabular}{|c|cccccccccc|ccccccccc|}\r\n\\hline\r\n\\multicolumn{20}{|c|}{对数表} \\\\\r\n\\hline\r\n$N$ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\\\\r\n\\hline\r\n23 & 3617 & 3636 & 3655 & 3674 & 3692 & 3711 & 3729 & 3747 & 3766 & 3784 & 2 & 4 & 6 & 7 & 9 & 11 & 13 & 15 & 17 \\\\\r\n24 & 3802 & 3820 & 3838 & 3856 & 3874 & 3892 & 3909 & 3927 & 3945 & 3962 & 2 & 4 & 5 & 7 & 9 & 11 & 12 & 14 & 16 \\\\\r\n25 & 3979 & 3997 & 4014 & 4031 & 4048 & 4065 & 4082 & 4099 & 4116 & 4133 & 2 & 3 & 5 & 7 & 9 & 10 & 12 & 14 & 15 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\r\n\\vspace{0.8em}\r\n\r\n\\begin{tabular}{|c|cccccccccc|ccccccccc|}\r\n\\hline\r\n\\multicolumn{20}{|c|}{反对数表} \\\\\r\n\\hline\r\n$m$ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\\\\r\n\\hline\r\n.48 & 3020 & 3027 & 3034 & 3041 & 3048 & 3055 & 3062 & 3069 & 3076 & 3083 & 1 & 1 & 2 & 3 & 4 & 4 & 5 & 6 & 6 \\\\\r\n.49 & 3090 & 3097 & 3105 & 3112 & 3119 & 3126 & 3133 & 3141 & 3148 & 3155 & 1 & 1 & 2 & 3 & 4 & 4 & 5 & 6 & 6 \\\\\r\n.50 & 3162 & 3170 & 3177 & 3184 & 3192 & 3199 & 3206 & 3214 & 3221 & 3228 & 1 & 1 & 2 & 3 & 4 & 4 & 5 & 6 & 7 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}",
+          "choices": [],
+          "answer": "",
+          "solution": "由对数表，在数表的第 $23$ 行、第 $2$ 列查得 $1.3655$，再由横向的平均差表查得第 $8$ 个平均差 $15$，所以\r\n\n$$\n\\lg 23.28=1.3655+0.0015=1.3670\n$$\n\r\n于是\r\n\n$$\n\\lg 23.28^{-1.1}=-1.1\\lg 23.28=-1.1\\times1.3670=-1.5037\r\n=\\overline{2}.4963\n$$\n\r\n查反对数表，$.4963$ 在 $.49$ 行、第 $6$ 列的数为 $3133$，再加上第 $3$ 个平均差 $2$，得到 $3135$. 因而\r\n$10^{.4963}\\approx3.135$，$23.28^{-1.1}=10^{\\overline{2}.4963} =10^{-2}\\times10^{.4963}\\approx0.03135$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "解方程 $\\sin 3x-\\sin x+\\cos 2x=0$.",
+          "choices": [],
+          "answer": "",
+          "solution": "【法一】\r\n\n$$\n\\sin 3x-\\sin x+\\cos 2x=0\r\n\\Longleftrightarrow 2\\cos 2x\\sin x+\\cos 2x=0\r\n\\Longleftrightarrow \\cos 2x\\left( 2\\sin x+1 \\right)=0\n$$\n\r\n\r\n由 $\\cos 2x=0$，得 $2x=2n\\pi\\pm\\frac{\\pi}{2}$，所以 $x=n\\pi\\pm\\frac{\\pi}{4}$.\r\n\r\n由 $2\\sin x+1=0$，得 $\\sin x=-\\frac12$，所以 $x=2n\\pi-\\frac{\\pi}{6}$，或 $x=\\left( 2n+1 \\right)\\pi+\\frac{\\pi}{6}$.\r\n\r\n所以 $x=n\\pi\\pm\\frac{\\pi}{4}$，$x=2n\\pi-\\frac{\\pi}{6}$，或 $x=\\left( 2n+1 \\right)\\pi+\\frac{\\pi}{6}$（$n\\in\\mathbb{Z}$）.\r\n\r\n【法二】\r\n\n$$\n\\begin{gathered}\r\n\\sin 3x-\\sin x+\\cos 2x\r\n=\\left( 3\\sin x-4\\sin^3x \\right)-\\sin x+\\left( 1-2\\sin^2x \\right)=0\\\\\r\n\\Longleftrightarrow 4\\sin^3x+2\\sin^2x-2\\sin x-1\r\n=\\left( 2\\sin x+1 \\right)\\left( 2\\sin^2x-1 \\right)=0\r\n\\end{gathered}\n$$\n\r\n\r\n由 $2\\sin x+1=0$，得 $\\sin x=-\\frac12$，所以 $x=2n\\pi-\\frac{\\pi}{6}$，或 $x=\\left( 2n+1 \\right)\\pi+\\frac{\\pi}{6}$.\r\n\r\n由 $2\\sin^2x-1=0$，得 $\\sin x=\\pm\\frac{\\sqrt2}{2}$，所以 $x=2n\\pi+\\frac{\\pi}{4}$，$x=\\left( 2n+1 \\right)\\pi-\\frac{\\pi}{4}$，$x=2n\\pi-\\frac{\\pi}{4}$，或 $x=\\left( 2n+1 \\right)\\pi+\\frac{\\pi}{4}$.\r\n\r\n所以 $x=2n\\pi-\\frac{\\pi}{6}$，$x=\\left( 2n+1 \\right)\\pi+\\frac{\\pi}{6}$，$x=n\\pi\\pm\\frac{\\pi}{4}$（$n\\in\\mathbb{Z}$）.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "用 $1$，$2$，$3$，$4$，$7$，$9$ 组成没有重复数字的五位数，问：\r\n\r\n\n(1) 这样的五位数一共有多少个？\n\n(2) 在这些五位数中，有多少个是偶数？\n\n(3) 在这些五位数中，有多少个是 $3$ 的倍数？",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 从这六个数字中取出五个数字，共能排成 $\\mathrm A_6^5=6\\times5\\times4\\times3\\times2=720$ 个五位数.\n\n(2) 在所求的偶数中，末位必须取 $2$，$4$ 这两个数字中的一个，这有两种方法. 取定末位后，再从其余五个数字中任取四个，排成其他四位，这有 $\\mathrm A_5^4=5\\times4\\times3\\times2=120$ 种方法. 因此，共有 $2\\mathrm A_5^4=2\\times120=240$ 个五位数是偶数.\n\n(3) 一个整数是不是 $3$ 的倍数，要看它的各位数字之和是不是 $3$ 的倍数. 这六个数字 $1$，$2$，$3$，$4$，$7$，$9$ 之和是 $26$. 取出五个数字时，若删去的数字为 $d$，则所取数字之和为 $26-d$. 要使 $26-d$ 是 $3$ 的倍数，必须有 $d\\equiv2\\pmod3$. 在这六个数字中，只有 $2$ 满足这个条件，所以所取的五个数字必须是 $1$，$3$，$4$，$7$，$9$. 因此，共 $\\mathrm A_5^5=5!=120$ 个五位数是 $3$ 的倍数.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "解方程组：$\\begin{cases}\r\nx^2-2xy-y^2=1,\\\\\r\n\\sqrt{xy+3}=x\r\n\\end{cases}$（限定在实数范围内）.",
+          "choices": [],
+          "answer": "",
+          "solution": "第二式要求 $x=\\sqrt{xy+3}\\geq0$. 对第二式平方，得到\r\n$xy+3=x^2$，即 $x^2-xy=3$.\r\n将第一式乘以 $3$，再减去上式，得\r\n\n$$\n3x^2-6xy-3y^2-(x^2-xy)=3-3\n$$\n\r\n即\r\n\n$$\n2x^2-5xy-3y^2=0\r\n\\Longleftrightarrow\r\n\\left(2x+y\\right)\\left(x-3y\\right)=0\n$$\n\r\n\r\n当 $2x+y=0$ 时，$y=-2x$. 代入 $x^2-xy=3$，得\r\n$3x^2=3$，所以 $x=\\pm1$.\r\n于是得到候选解 $(x,y)=(1,-2)$ 和 $(-1,2)$. 对 $(1,-2)$，第一式左边为 $1-2\\cdot1\\cdot(-2)-(-2)^2=1$，第二式为 $\\sqrt{1}=1$，所以 $(1,-2)$ 是解. 对 $(-1,2)$，第一式虽也成立，但第二式为 $\\sqrt{1}=1\\neq-1$，所以舍去.\r\n\r\n当 $x-3y=0$ 时，$x=3y$. 代入 $x^2-xy=3$，得\r\n$6y^2=3$，所以 $y=\\pm\\frac{\\sqrt2}{2}$，$x=\\pm\\frac{3\\sqrt2}{2}$.\r\n当 $x=\\frac{3\\sqrt2}{2}$、$y=\\frac{\\sqrt2}{2}$ 时，第一式左边为 $\\frac92-3-\\frac12=1$，且 $xy+3=\\frac92$，所以第二式为 $\\sqrt{\\frac92}=\\frac{3\\sqrt2}{2}=x$，满足原方程组. 当 $x=-\\frac{3\\sqrt2}{2}$、$y=-\\frac{\\sqrt2}{2}$ 时，第一式仍成立，但左边 $\\sqrt{xy+3}=\\frac{3\\sqrt2}{2}$ 为正数，而右边为负数 $x=-\\frac{3\\sqrt2}{2}$，不满足第二式.\r\n\r\n因此，原方程组的解为\r\n$\\left(x,y\\right)=\\left(1,-2\\right)$，$\\left(x,y\\right)=\\left(\\frac{3\\sqrt2}{2},\\frac{\\sqrt2}{2}\\right)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "如图，线段 $CD$ 与 $\\odot O$ 相交于 $A$，$B$ 两点，且 $AC=BD$，又 $CE$，$DF$ 分别与 $\\odot O$ 相切于 $E$，$F$. 求证：$\\triangle OEC\\cong\\triangle OFD$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1963/img/national/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "连结 $OA$、$OB$. 因为 $OA$、$OB$ 都是半径，所以 $OA=OB$，从而在等腰三角形 $OAB$ 中\r\n\n$$\n\\angle OAB=\\angle OBA\n$$\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1963/img/national/q9_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n按图中点的顺序，$C$、$A$、$B$、$D$ 共线，因此\r\n$\\angle OAC=180^\\circ-\\angle OAB$，$\\angle OBD=180^\\circ-\\angle OBA$.\r\n由 $\\angle OAB=\\angle OBA$，可得 $\\angle OAC=\\angle OBD$. 又已知 $AC=BD$，所以\r\n\n$$\n\\triangle OAC\\cong\\triangle OBD\n$$\n\r\n（边角边），从而 $OC=OD$.\r\n\r\n因为 $CE$、$DF$ 分别是 $\\odot O$ 在 $E$、$F$ 处的切线，所以半径垂直切线，\r\n\n$$\n\\angle OEC=\\angle OFD=90^\\circ\n$$\n\r\n又 $OE=OF$ 是同一圆的半径，且已经得到 $OC=OD$. 因此两个直角三角形的斜边及一条直角边分别相等，故\r\n\n$$\n\\triangle OEC\\cong\\triangle OFD\n$$\n\r\n（斜边直角边）.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "半径为 $1$ 的球，内切于圆锥（即直圆锥），已知圆锥的母线与底面的夹角是 $2\\theta$.\r\n\r\n\n(1) 求证圆锥的母线与底面半径的和是 $\\dfrac{2}{\\tan\\theta\\left(1-\\tan^2\\theta\\right)}$.\n\n(2) 求证圆锥的全面积是 $\\dfrac{2\\pi}{\\tan^2\\theta\\left(1-\\tan^2\\theta\\right)}$.\n\n(3) 当 $\\theta$ 是什么值的时候，圆锥的全面积最小？（$\\theta$ 用反三角函数表表示）\n\r\n\r\n（图中 $V$ 是圆锥的顶点，$VB$ 是母线，$O$ 是球心，$A$ 是球和圆锥底面的切点.）\r\n\r\n\\problemresetlayout\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1963/img/national/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $C$ 为母线 $VB$ 与球相切的切点，连接 $OA$、$OB$、$OC$. 因为球与底面在 $A$ 点相切，球与母线在 $C$ 点相切，所以\r\n$OA=OC=1$，且 $\\angle OAB=\\angle OCB=90^\\circ$.\r\n三角形 $OAB$ 与 $OCB$ 有公共斜边 $OB$，且有一条直角边 $OA=OC$，所以\r\n\n$$\n\\triangle OAB\\cong\\triangle OCB\n$$\n\r\n从而 $\\angle OBA=\\angle OBC$. 又因为 $BC$ 在母线 $BV$ 上，且母线与底面的夹角为 $2\\theta$，故\r\n\n$$\n\\angle OBA+\\angle OBC=\\angle ABV=2\\theta\n$$\n\r\n因此 $\\angle OBA=\\angle OBC=\\theta$.\r\n\r\n设圆锥的底面半径为 $r$，母线为 $l$. 在直角三角形 $OAB$ 中，\r\n$\\tan\\theta=\\frac{OA}{AB}=\\frac1r$，$r=\\cot\\theta$.\r\n在直角三角形 $VAB$ 中，$AB=r$、$VB=l$，且 $\\angle ABV=2\\theta$，所以\r\n$\\cos2\\theta=\\frac{AB}{VB}=\\frac rl$，$l=\\frac{r}{\\cos2\\theta}=\\frac{\\cot\\theta}{\\cos2\\theta}$.\r\n圆锥存在时 $0<2\\theta<90^\\circ$，故 $0<\\theta<45^\\circ$，从而 $1-\\tan^2\\theta>0$. 于是\r\n\n$$\nl+r=\\cot\\theta\\left(\\frac{1}{\\cos2\\theta}+1\\right)\r\n=\\frac{1}{\\tan\\theta}\\cdot\\frac{1+\\cos2\\theta}{\\cos2\\theta}\r\n=\\frac{1}{\\tan\\theta}\\cdot\\frac{2\\cos^2\\theta}{\\cos^2\\theta-\\sin^2\\theta}\n$$\n\r\n\n$$\nl+r=\\frac{1}{\\tan\\theta}\\cdot\\frac{2}{1-\\tan^2\\theta}\r\n=\\frac{2}{\\tan\\theta\\left(1-\\tan^2\\theta\\right)}\n$$\n\n(2) 设圆锥的全面积为 $T$. 全面积等于侧面积与底面积之和，所以\r\n\n$$\nT=\\pi rl+\\pi r^2\r\n=\\pi r\\left(l+r\\right)\r\n=\\pi\\cot\\theta\\cdot\\frac{2}{\\tan\\theta\\left(1-\\tan^2\\theta\\right)}\n$$\n\r\n\n$$\nT=\\frac{2\\pi}{\\tan^2\\theta\\left(1-\\tan^2\\theta\\right)}\n$$\n\n(3) 由前一问，\r\n\n$$\nT=\\frac{2\\pi}{\\tan^2\\theta\\left(1-\\tan^2\\theta\\right)}\n$$\n\r\n在 $0<\\theta<45^\\circ$ 内，令 $u=\\tan^2\\theta$，则 $0<u<1$. 因为 $T>0$，要使 $T$ 最小，只需使\r\n\n$$\nu(1-u)=-u^2+u=-\\left(u-\\frac12\\right)^2+\\frac14\n$$\n\r\n最大. 当且仅当 $u=\\frac12$ 时取得最大值，因此\r\n\n$$\n\\tan^2\\theta=\\frac12\n$$\n\r\n又 $0<\\theta<45^\\circ$，所以 $\\tan\\theta>0$，从而\r\n\n$$\n\\theta=\\arctan\\frac{\\sqrt2}{2}\n$$\n\r\n此时圆锥的全面积最小.\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1963/img/national/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

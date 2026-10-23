@@ -1,0 +1,391 @@
+{
+  "year": "2007",
+  "slug": "hubei_liberal",
+  "title": "2007年湖北卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "$\\tan 690^{\\circ}$ 的值为（ ）",
+          "choices": [
+            "$-\\frac{\\sqrt{3}}{3}$",
+            "$\\frac{\\sqrt{3}}{3}$",
+            "$\\sqrt{3}$",
+            "$-\\sqrt{3}$"
+          ],
+          "answer": "A.",
+          "solution": "利用正切函数的周期性，\r\n\n$$\n690^{\\circ}=720^{\\circ}-30^{\\circ}\n$$\n\r\n所以\r\n\n$$\n\\tan 690^{\\circ}=\\tan(-30^{\\circ})=-\\tan 30^{\\circ}=-\\frac{\\sqrt{3}}{3}\n$$\n\r\n故选项 A 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "如果 $U = \\{x \\mid x \\text{ 是小于 } 9 \\text{ 的正整数}\\}$，$A = \\{1, 2, 3, 4\\}$，$B = \\{3, 4, 5, 6\\}$，那么 $\\complement_U A \\cap \\complement_U B =$（ ）",
+          "choices": [
+            "$\\{1, 2\\}$",
+            "$\\{3, 4\\}$",
+            "$\\{5, 6\\}$",
+            "$\\{7,8\\}$"
+          ],
+          "answer": "D.",
+          "solution": "全集为\r\n\n$$\nU=\\{1,2,3,4,5,6,7,8\\}\n$$\n\r\n因此\r\n$\\complement_U A=\\{5,6,7,8\\}$，$\\complement_U B=\\{1,2,7,8\\}$.\r\n两者的交集为\r\n\n$$\n\\complement_U A\\cap\\complement_U B=\\{7,8\\}\n$$\n\r\n故选项 D 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "如果 $\\left(3x^{2} - \\frac{2}{x^{3}}\\right)^{n}$ 的展开式中含有非零常数项，则正整数 $n$ 的最小值为（ ）",
+          "choices": [
+            "$10$",
+            "$6$",
+            "$5$",
+            "$3$"
+          ],
+          "answer": "C.",
+          "solution": "在展开式中，取含有 $k$ 个因式 $-2x^{-3}$ 的项，所得项为\r\n\n$$\n\\mathrm C_n^k(3x^2)^{n-k}\\left(-\\frac{2}{x^3}\\right)^k\n$$\n\r\n其幂的指数为\r\n\n$$\n2(n-k)-3k=2n-5k\n$$\n\r\n含有非零常数项的条件是 $2n-5k=0$. 因为 $2$ 与 $5$ 互质，所以 $k$ 必须是偶数，$n$ 必须是 $5$ 的倍数. 取最小的正整数 $k=2$，得到 $n=5$，且此时 $k\\le n$ 满足选取条件. 故选项 C 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "函数 $y = \\frac{2^x + 1}{2^x - 1}$（$x < 0$）的反函数是（ ）",
+          "choices": [
+            "$y = \\log_2\\frac{x + 1}{x - 1}$（$x < - 1$）",
+            "$y = \\log_2\\frac{x + 1}{x - 1}$（$x > 1$）",
+            "$y = \\log_2\\frac{x - 1}{x + 1}$（$x < - 1$）",
+            "$y = \\log_2\\frac{x - 1}{x + 1}$（$x > 1$）"
+          ],
+          "answer": "A.",
+          "solution": "令\r\n$y=\\frac{2^x+1}{2^x-1}$，$x<0$.\r\n移项得\r\n\n$$\n(y-1)2^x=y+1\n$$\n\r\n从而\r\n$2^x=\\frac{y+1}{y-1}$，$x=\\log_2\\frac{y+1}{y-1}$.\r\n当 $x<0$ 时，$0<2^x<1$，所以\r\n\n$$\n0<\\frac{y+1}{y-1}<1\n$$\n\r\n解得 $y<-1$. 将反函数的自变量记为 $x$，因变量记为 $y$，得\r\n$y=\\log_2\\frac{x+1}{x-1}$，$x<-1$.\r\n故选项 A 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "在棱长为 $1$ 的正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，$E$，$F$ 分别为棱 $AA_{1}$，$BB_{1}$ 的中点，$G$ 为棱 $A_{1}B_{1}$ 上的一点，且 $A_{1}G = \\lambda$（$0 \\le \\lambda \\le 1$），则点 $G$ 到平面 $D_{1}EF$ 的距离为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/hubei_liberal/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\sqrt{3}$",
+            "$\\frac{\\sqrt{2}}{2}$",
+            "$\\frac{\\sqrt{2}\\lambda}{3}$",
+            "$\\frac{\\sqrt{5}}{5}$"
+          ],
+          "answer": "D.",
+          "solution": "建立直角坐标系，取\r\n$A(0,0,0)$，$\\ B(1,0,0)$，$\\ D(0,1,0)$，$\\ A_1(0,0,1)$.\r\n则\r\n$D_1(0,1,1)$，$E\\left(0,0,\\frac12\\right)$，$F\\left(1,0,\\frac12\\right)$，$G(\\lambda,0,1)$.\r\n平面 $D_1EF$ 内有两个相交向量\r\n$\\overrightarrow{D_1E}=\\left(0,-1,-\\frac12\\right)$，$\\overrightarrow{D_1F}=\\left(1,-1,-\\frac12\\right)$.\r\n取其法向量的一个倍数为 $(0,-1,2)$，故平面方程为\r\n\n$$\n-y+2z-1=0\n$$\n\r\n代入 $G$ 的坐标，得点 $G$ 到该平面的距离\r\n\n$$\nd=\\frac{|0+2-1|}{\\sqrt{0^2+(-1)^2+2^2}}=\\frac{1}{\\sqrt5}=\\frac{\\sqrt5}{5}\n$$\n\r\n这个结果与 $\\lambda$ 无关，故选项 D 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "为了了解某学校学生的身体发育情况，抽查了该校 $100$ 名高中男生的体重情况，根据所得数据画出样本的频率分布直方图如图所示，根据此图，估计该校 $2000$ 名高中男生中体重大于 $70.5$ 公斤的人数为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/hubei_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$300$",
+            "$360$",
+            "$420$",
+            "$450$"
+          ],
+          "answer": "B.",
+          "solution": "由频率分布直方图可读出，体重在 $70.5$ 至 $72.5$、$72.5$ 至 $74.5$、$74.5$ 至 $76.5$ 公斤三个组的频率密度分别为 $0.04$、$0.035$、$0.015$，每组组距均为 $2$. 因而体重大于 $70.5$ 公斤的样本频率为\r\n\n$$\n2(0.04+0.035+0.015)=0.18\n$$\n\r\n用样本频率估计总体频率，$2000$ 名男生中体重大于 $70.5$ 公斤的人数约为\r\n\n$$\n2000\\times0.18=360\n$$\n\r\n故选项 B 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "将 $5$ 本不同的书全发给 $4$ 名同学，每名同学至少有一本书的概率是（ ）",
+          "choices": [
+            "$\\frac{15}{64}$",
+            "$\\frac{15}{128}$",
+            "$\\frac{24}{125}$",
+            "$\\frac{48}{125}$"
+          ],
+          "answer": "A.",
+          "solution": "把每本不同的书发给一名同学，每本书都有 $4$ 种去向，所以全部发法共有 $4^5$ 种.\r\n\r\n用容斥原理计算每名同学至少得到一本书的发法数：\r\n\n$$\n4^5-\\mathrm C_4^1 3^5+\\mathrm C_4^2 2^5-\\mathrm C_4^3 1^5\r\n=1024-972+192-4=240\n$$\n\r\n因此所求概率为\r\n\n$$\n\\frac{240}{4^5}=\\frac{240}{1024}=\\frac{15}{64}\n$$\n\r\n故选项 A 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "由直线 $y = x + 1$ 上的一点向圆 $(x - 3)^2 + y^2 = 1$ 引切线，则切线长的最小值为（ ）",
+          "choices": [
+            "$1$",
+            "$2 \\sqrt{2}$",
+            "$\\sqrt{7}$",
+            "$3$"
+          ],
+          "answer": "C.",
+          "solution": "圆心为 $O(3,0)$，半径为 $1$. 设直线 $y=x+1$ 上的动点为 $P$，从 $P$ 引圆的切线，切线长 $L$ 满足\r\n\n$$\nL^2=PO^2-1\n$$\n\r\n因此要使 $L$ 最小，只需使 $PO$ 最小，即取圆心到直线的距离. 直线化为 $x-y+1=0$，故\r\n\n$$\nPO_{\\min}=\\frac{|3-0+1|}{\\sqrt{1^2+(-1)^2}}=2\\sqrt2\n$$\n\r\n于是\r\n\n$$\nL_{\\min}=\\sqrt{(2\\sqrt2)^2-1}=\\sqrt7\n$$\n\r\n故选项 C 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "设 $\\mathbf{a}=(4,3)$，$\\mathbf{a}$ 在 $\\mathbf{b}$ 上的投影为 $\\frac{5\\sqrt{2}}{2}$，$\\mathbf{b}$ 在 $x$ 轴上的投影为 $2$，且 $\\left|\\mathbf{b}\\right|\\leqslant14$，则 $\\mathbf{b}$ 为（ ）",
+          "choices": [
+            "$(2,14)$",
+            "$\\left(2,-\\frac{2}{7}\\right)$",
+            "$\\left(-2,\\frac{2}{7}\\right)$",
+            "$(2,8)$"
+          ],
+          "answer": "B.",
+          "solution": "由 $\\mathbf{b}$ 在 $x$ 轴上的投影为 $2$，设\r\n\n$$\n\\mathbf{b}=(2,t)\n$$\n\r\n向量 $\\mathbf{a}$ 在 $\\mathbf{b}$ 上的投影为\r\n\n$$\n\\frac{\\mathbf{a}\\cdot\\mathbf{b}}{|\\mathbf{b}|}=\\frac{8+3t}{\\sqrt{4+t^2}}=\\frac{5\\sqrt2}{2}\n$$\n\r\n平方并整理，得\r\n\n$$\n(8+3t)^2=\\frac{25}{2}(4+t^2)\n$$\n\r\n即\r\n\n$$\n7t^2-96t-28=0\n$$\n\r\n所以 $t=14$ 或 $t=-\\frac{2}{7}$. 当 $t=14$ 时，\r\n\n$$\n|\\mathbf{b}|=\\sqrt{2^2+14^2}>14\n$$\n\r\n不符合条件；当 $t=-\\frac{2}{7}$ 时原投影等式成立. 因而\r\n\n$$\n\\mathbf{b}=\\left(2,-\\frac27\\right)\n$$\n\r\n故选项 B 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知 $p$ 是 $r$ 的充分条件而不是必要条件，$q$ 是 $r$ 的充分条件，$s$ 是 $r$ 的必要条件，$q$ 是 $s$ 的必要条件. 现有下列命题：\r\n\r\n\\begin{circlelist}\r\n\\item $s$ 是 $q$ 的充要条件；\r\n\\item $p$ 是 $q$ 的充分条件而不是必要条件；\r\n\\item $r$ 是 $q$ 的必要条件而不是充分条件；\r\n\\item $\\neg p$ 是 $\\neg s$ 的必要条件而不是充分条件；\r\n\\item $r$ 是 $s$ 的充分条件而不是必要条件.\r\n\\end{circlelist}\r\n\r\n则正确命题的序号是（ ）",
+          "choices": [
+            "$\\circled{1}\\circled{4}\\circled{5}$",
+            "$\\circled{1}\\circled{2}\\circled{4}$",
+            "$\\circled{2}\\circled{3}\\circled{5}$",
+            "$\\circled{2}\\circled{4}\\circled{5}$"
+          ],
+          "answer": "B.",
+          "solution": "题设条件可写成逻辑关系\r\n$p\\Rightarrow r$，$r\\Rightarrow s$，$s\\Rightarrow q$.\r\n又因为 $q$ 是 $r$ 的充分条件，所以 $q\\Rightarrow r$. 因而\r\n$r\\Longleftrightarrow s\\Longleftrightarrow q$，$p\\Rightarrow q$.\r\n\r\n命题 1 正确，因为 $s$ 与 $q$ 等价；命题 2 正确，因为 $p\\Rightarrow q$，且题设已知存在 $r\\land\\neg p$，由 $r\\Leftrightarrow q$ 可知 $p$ 不是 $q$ 的必要条件；命题 3 错误，因为 $r$ 不仅是 $q$ 的必要条件，也是其充分条件；命题 4 正确，因为 $p\\Rightarrow s$ 的逆否命题是 $\\neg s\\Rightarrow\\neg p$，且由 $r\\land\\neg p$ 及 $r\\Leftrightarrow s$ 可知存在 $s\\land\\neg p$，所以 $\\neg p$ 不是 $\\neg s$ 的充分条件；命题 5 错误，因为 $r$ 与 $s$ 等价，不是“充分条件而不是必要条件”.\r\n\r\n所以正确命题的序号为 $1$，$2$，$4$，故选项 B 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "设变量 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx-y+3&\\geqslant0,\\\\\r\nx+y&\\geqslant0,\\\\\r\n-2&\\le x\\leqslant3,\r\n\\end{cases}$，则目标函数 $2x+y$ 的最小值为 _______ {}.",
+          "choices": [],
+          "answer": "\\(-\\frac{3}{2}\\).",
+          "solution": "约束条件等价于\r\n$y\\le x+3$，$y\\ge-x$，$-2\\le x\\leqslant3$.\r\n要存在满足前两个不等式的 $y$，必须有\r\n$-x\\le x+3$，$x\\ge-\\frac32$.\r\n对固定的 $x$，目标函数 $2x+y$ 随 $y$ 增大而增大，所以取允许的最小值 $y=-x$. 此时\r\n\n$$\n2x+y=x\n$$\n\r\n可行的 $x$ 范围为 $[-\\frac32,3]$，故目标函数的最小值为\r\n\n$$\n-\\frac32\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "过双曲线 $\\frac{x^{2}}{4} - \\frac{y^{2}}{3} = 1$ 左焦点 $F_{1}$ 的直线交双曲线的左支于 $M$，$N$ 两点，$F_{2}$ 为其右焦点，则 $\\left|MF_{2}\\right| + \\left|NF_{2}\\right| - \\left|MN\\right|$ 的值为 _______ {}.",
+          "choices": [],
+          "answer": "\\(8\\).",
+          "solution": "双曲线的实半轴为 $a=2$，焦半距为\r\n\n$$\nc=\\sqrt{a^2+b^2}=\\sqrt{4+3}=\\sqrt7\n$$\n\r\n所以左、右焦点分别为 $F_1(-\\sqrt7,0)$、$F_2(\\sqrt7,0)$. 对左支上任一点 $X$，双曲线的定义给出\r\n\n$$\n|XF_2|-|XF_1|=2a=4\n$$\n\r\n下面说明 $F_1$ 位于 $M$，$N$ 之间. 若直线不是竖直直线，设其方程为 $y=k(x+\\sqrt7)$，并令 $u=x+\\sqrt7$. 代入双曲线方程得\r\n\n$$\n(3-4k^2)u^2-6\\sqrt7u+9=0\n$$\n\r\n两个交点都在左支上，故 $u\\le\\sqrt7-2$. 若 $3-4k^2>0$，则两根为正且根的和\r\n\n$$\n\\frac{6\\sqrt7}{3-4k^2}\\geqslant2\\sqrt7>2(\\sqrt7-2)\n$$\n\r\n不可能两根都不超过 $\\sqrt7-2$；若 $3-4k^2=0$，方程只有一个有限根. 因而 $3-4k^2<0$，两根之积为\r\n\n$$\n\\frac{9}{3-4k^2}<0\n$$\n\r\n所以 $u=0$（即 $F_1$）位于两交点之间. 竖直直线 $x=-\\sqrt7$ 与双曲线交于 $y=\\pm\\frac32$，结论同样成立. 因此\r\n\n$$\n|MN|=|MF_1|+|NF_1|\n$$\n\r\n于是\r\n\n$$\n|MF_2|+|NF_2|-|MN|\r\n=(|MF_1|+4)+(|NF_1|+4)-(|MF_1|+|NF_1|)=8\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "已知函数 $y = f(x)$ 的图象在点 $M(1, f(1))$ 处的切线方程是 $y = \\frac{1}{2} x + 2$，则 $f(1) + f'(1) =$ _______ {}.",
+          "choices": [],
+          "answer": "\\(3\\).",
+          "solution": "切线在 $M(1,f(1))$ 处，所以点 $M$ 在直线 $y=\\frac12x+2$ 上，得到\r\n\n$$\nf(1)=\\frac12+2=\\frac52\n$$\n\r\n切线斜率等于函数在该点的导数，故\r\n\n$$\nf'(1)=\\frac12\n$$\n\r\n因此\r\n\n$$\nf(1)+f'(1)=\\frac52+\\frac12=3\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "某男运动员在三分线投球的命中率是 $\\frac{1}{2}$，他投球 $10$ 次，恰好投进 $3$ 个球的概率是 _______ {}. （用数值作答）",
+          "choices": [],
+          "answer": "\\(\\frac{15}{128}\\).",
+          "solution": "设投进球的次数为 $X$，则 $X\\sim B\\left(10,\\frac12\\right)$. 恰好投进 $3$ 个球的概率为\r\n\n$$\nP(X=3)=\\mathrm C_{10}^3\\left(\\frac12\\right)^3\\left(1-\\frac12\\right)^7\r\n=120\\left(\\frac12\\right)^{10}\r\n=\\frac{120}{1024}=\\frac{15}{128}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "为了预防流感，某学校对教室用药熏消毒法进行消毒. 已知药物释放过程中，室内每立方米空气中的含药量 $y$（毫克）与时间 $t$（小时）成正比；药物释放完毕后，$y$ 与 $t$ 的函数关系式为 $y = \\left(\\frac{1}{16}\\right)^{t - a}$（$a$ 为常数），如图所示.\r\n\r\n\n(1) 从药物释放开始，每立方米空气中的含药量 $y$（毫克）与时间 $t$（小时）之间的函数关系式为 _______ {}；\n\n(2) 据测定，当空气中每立方米的含药量降低到 $0.25$ 毫克以下时，学生方可进教室，那么药物释放开始，至少需要经过 _______ {}小时后，学生才能回到教室.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/hubei_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(\r\ny=\\begin{cases}\r\n10t,&0\\le t\\le\\frac{1}{10},\\\\\r\n\\displaystyle\\left(\\frac{1}{16}\\right)^{t-\\frac{1}{10}},&t>\\frac{1}{10},\r\n\\end{cases}\r\n\\)，\\(0.6\\).",
+          "solution": "(1) 药物释放过程中 $y$ 与 $t$ 成正比，设 $y=kt$. 由图知 $t=0.1$ 时 $y=1$，所以 $k=10$，释放阶段为\r\n$y=10t$，$0\\le t\\le\\frac1{10}$.\r\n释放完毕后函数为\r\n\n$$\ny=\\left(\\frac1{16}\\right)^{t-a}\n$$\n\r\n图像在 $t=0.1$ 处连续且函数值为 $1$，故\r\n\n$$\n1=\\left(\\frac1{16}\\right)^{\\frac1{10}-a}\n$$\n\r\n由于底数不为 $1$，所以 $a=\\frac{1}{10}$. 因而完整函数为\r\n\n$$\ny=\\begin{cases}\r\n10t,&0\\le t\\le\\frac1{10},\\\\\r\n\\displaystyle\\left(\\frac1{16}\\right)^{t-\\frac1{10}},&t>\\frac1{10}.\r\n\\end{cases}\n$$\n\n(2) 当 $y\\leqslant0.25=\\frac{1}{4}$ 时，必在释放完毕后. 由\r\n\n$$\n\\left(\\frac1{16}\\right)^{t-\\frac1{10}}\\le\\frac14\r\n=\\left(\\frac1{16}\\right)^{\\frac{1}{2}}\n$$\n\r\n且 $0<\\frac{1}{16}<1$，可得\r\n$t-\\frac1{10}\\ge\\frac12$，$t\\ge\\frac35=0.6$.\r\n所以至少经过 $0.6$ 小时.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 16,
+          "body": "已知函数 $f(x) = 2\\sin^2\\left(\\frac{\\pi}{4} + x\\right) - \\sqrt{3}\\cos 2x$，$x \\in \\left[\\frac{\\pi}{4}, \\frac{\\pi}{2}\\right]$.\r\n\n(1) 求 $f(x)$ 的最大值和最小值.\n\n(2) 若不等式 $\\left|f(x)-m\\right|<2$ 在 $x\\in\\left[\\frac{\\pi}{4},\\frac{\\pi}{2}\\right]$ 上恒成立，求实数 $m$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由\r\n\n$$\n2\\sin^2\\left(\\frac{\\pi}{4}+x\\right)\r\n=1-\\cos\\left(\\frac{\\pi}{2}+2x\\right)\r\n=1+\\sin2x\n$$\n\r\n得\r\n\n$$\nf(x)=1+\\sin2x-\\sqrt3\\cos2x\r\n=1+2\\sin\\left(2x-\\frac{\\pi}{3}\\right)\n$$\n\r\n当 $x\\in[\\frac{\\pi}{4},\\frac{\\pi}{2}]$ 时，\r\n\n$$\n2x-\\frac{\\pi}{3}\\in\\left[\\frac{\\pi}{6},\\frac{2\\pi}{3}\\right]\n$$\n\r\n在此区间内，正弦函数的最大值为 $1$，最小值为 $\\frac12$，故\r\n$f_{\\max}=1+2=3$，$f_{\\min}=1+2\\cdot\\frac12=2$.\n\n(2) 因此 $|f(x)-m|<2$ 对区间内一切 $x$ 恒成立，当且仅当\r\n$|2-m|<2$，$|3-m|<2$.\r\n这两个不等式分别给出 $0<m<4$ 和 $1<m<5$，所以\r\n\n$$\n1<m<4\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "如图，在三棱锥 $V - ABC$ 中，$VC \\perp$ 底面 $ABC$，$AC \\perp BC$，$D$ 是 $AB$ 的中点，且 $AC = BC = a$，$\\angle VDC = \\theta$（$0 < \\theta < \\frac{\\pi}{2}$）.\r\n\r\n\n(1) 求证：平面 $VAB$ $\\perp$ 平面 $VCD$.\n\n(2) 试确定角 $\\theta$ 的值，使得直线 $BC$ 与平面 $VAB$ 所成的角为 $\\frac{\\pi}{6}$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/hubei_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 取直角坐标系，使\r\n$C(0,0,0)$，$A(a,0,0)$，$B(0,a,0)$，$V(0,0,h)$，\r\n其中 $h>0$. 则\r\n\n$$\nD\\left(\\frac a2,\\frac a2,0\\right)\n$$\n\r\n因为 $AC=BC$，三角形 $ABC$ 是以 $C$ 为直角顶点的等腰直角三角形. $CD$ 是底边 $AB$ 的中线，所以同时也是高，从而\r\n\n$$\nCD\\perp AB\n$$\n\r\n又因为 $VC\\perp$ 底面 $ABC$，所以 $VC\\perp AB$. 直线 $CD$，$VC$ 相交且都在平面 $VCD$ 内，故\r\n\n$$\nAB\\perp\\text{平面 }VCD\n$$\n\r\n而 $AB\\subset\\text{平面 }VAB$，所以\r\n\n$$\n\\text{平面 }VAB\\perp\\text{平面 }VCD\n$$\n\n(2) 在直角三角形 $VCD$ 中，$\\angle VCD=\\frac{\\pi}{2}$，故\r\n$CD=\\frac{AB}{2}=\\frac{a}{\\sqrt2}$，$h=CD\\tan\\theta=\\frac{a}{\\sqrt2}\\tan\\theta$.\r\n平面 $VAB$ 的一个法向量为\r\n\n$$\n\\overrightarrow{AB}\\times\\overrightarrow{AV}\r\n=(-a,a,0)\\times(-a,0,h)=(ah,ah,a^2)\n$$\n\r\n可取其方向向量为 $(h,h,a)$. 直线 $BC$ 的方向向量为 $(0,-a,0)$. 设直线 $BC$ 与平面 $VAB$ 所成的角为 $\\varphi$，则\r\n\n$$\n\\sin\\varphi\r\n=\\frac{|(0,-a,0)\\cdot(h,h,a)|}\r\n{a\\sqrt{2h^2+a^2}}\r\n=\\frac{h}{\\sqrt{2h^2+a^2}}\n$$\n\r\n令 $\\varphi=\\frac{\\pi}{6}$，得到\r\n$\\frac{h}{\\sqrt{2h^2+a^2}}=\\frac12$，$\\Longrightarrow$，$4h^2=2h^2+a^2$，$\\Longrightarrow$，$h=\\frac{a}{\\sqrt2}$.\r\n与 $h=\\frac{a}{\\sqrt2}\\tan\\theta$ 联立，得 $\\tan\\theta=1$. 由于 $0<\\theta<\\frac{\\pi}{2}$，所以\r\n\n$$\n\\theta=\\frac{\\pi}{4}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "某商品每件成本 $9$ 元. 售价 $30$ 元，每星期卖出 $432$ 件. 如果降低价格，销售量可以增加，且每星期多卖出的商品件数与商品单价的降低值 $x$（单位：元，$0 \\le x \\le 30$）的平方成正比. 已知商品单价降低 $2$ 元时，一星期多卖出 $24$ 件.\r\n\n(1) 将一个星期的商品销售利润表示成 $x$ 的函数.\n\n(2) 如何定价才能使一个星期的商品销售利润最大？",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设每星期多卖出 $kx^2$ 件. 由 $x=2$ 时多卖出 $24$ 件，得\r\n$4k=24$，$k=6$.\r\n降价 $x$ 元时，售价为 $30-x$，每件利润为 $21-x$，销售量为 $432+6x^2$. 因而一个星期的利润为\r\n$P(x)=(21-x)(432+6x^2)$，$0\\le x\\leqslant30$.\n\n(2) 展开得\r\n\n$$\nP(x)=-6x^3+126x^2-432x+9072\n$$\n\r\n所以\r\n\n$$\nP'(x)=-18x^2+252x-432=-18(x-2)(x-12)\n$$\n\r\n因此 $P$ 在 $[0,2]$ 上递减，在 $[2,12]$ 上递增，在 $[12,30]$ 上递减. 比较端点和驻点（其中 $P(2)=8664<P(0)$）：\r\n$P(0)=9072$，$P(12)=11664$，$P(30)=-52488$.\r\n故最大利润在 $x=12$ 时取得，即售价应定为\r\n\n$$\n30-12=18\\text{ 元}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "设二次函数 $f(x) = x^{2} + ax + a$，方程 $f(x) - x = 0$ 的两根 $x_{1}$ 和 $x_{2}$ 满足 $0 < x_{1} < x_{2} < 1$.\r\n\n(1) 求实数 $a$ 的取值范围.\n\n(2) 试比较 $f(0)f(1) - f(0)$ 与 $\\frac{1}{16}$ 的大小，并说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 方程 $f(x)-x=0$ 为\r\n\n$$\nx^2+(a-1)x+a=0\n$$\n\r\n由于两根 $x_1$，$x_2$ 都为正，韦达定理给出\r\n$x_1+x_2=1-a>0$，$x_1x_2=a>0$，\r\n故 $0<a<1$. 再由两根为不相等实根，\r\n\n$$\n\\Delta=(a-1)^2-4a=a^2-6a+1>0\n$$\n\r\n结合 $0<a<1$，可得\r\n\n$$\n0<a<3-2\\sqrt2\n$$\n\r\n反之，当 $0<a<3-2\\sqrt2$ 时，$\\Delta>0$，且两根之和为正、积为正，所以两根均为正；又\r\n\n$$\nx_1+x_2=1-a<1\n$$\n\r\n从而两根均小于 $1$. 因此\r\n\n$$\n0<a<3-2\\sqrt2\n$$\n\n(2) 又\r\n$f(0)=a$，$f(1)=1+2a$，\r\n所以\r\n\n$$\nf(0)f(1)-f(0)=a(1+2a)-a=2a^2\n$$\n\r\n又因为 $3-2\\sqrt2<\\frac{\\sqrt2}{8}$：两边均为正，且该不等式等价于 $24<17\\sqrt2$，平方后为 $576<578$. 因此\r\n\n$$\na<\\frac{\\sqrt2}{8}\n$$\n\r\n从而\r\n\n$$\n2a^2<2\\left(\\frac{\\sqrt2}{8}\\right)^2=\\frac1{16}\n$$\n\r\n故\r\n\n$$\nf(0)f(1)-f(0)<\\frac1{16}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知数列 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 满足：$a_{1} = 1$，$a_{2} = 2$，$a_{n} > 0$，$b_{n} = \\sqrt{a_{n}a_{n + 1}}$，$\\ n \\in \\mathbf{N}^{*}$，且 $\\{b_{n}\\}$ 是以 $q$ 为公比的等比数列.\r\n\n(1) 证明：$a_{n+2}=a_{n}q^{2}$.\n\n(2) 若 $c_{n} = a_{2n - 1} + 2a_{2n}$，证明数列 $\\{c_{n}\\}$ 是等比数列.\n\n(3) 求和：$\\frac{1}{a_1} + \\frac{1}{a_2} + \\frac{1}{a_3} + \\frac{1}{a_4} + \\cdots + \\frac{1}{a_{2n-1}} + \\frac{1}{a_{2n}}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由 $a_n>0$ 及 $b_n=\\sqrt{a_na_{n+1}}$，有\r\n\n$$\nb_n^2=a_na_{n+1}\n$$\n\r\n因为 $\\{b_n\\}$ 是以 $q$ 为公比的等比数列，且 $b_n>0$，所以 $q>0$，并且\r\n\n$$\nb_{n+1}=qb_n\n$$\n\r\n两边平方，得\r\n\n$$\na_{n+1}a_{n+2}=q^2a_na_{n+1}\n$$\n\r\n因 $a_{n+1}>0$，可约去 $a_{n+1}$，从而\r\n\n$$\na_{n+2}=a_nq^2\n$$\n\n(2) 由此递推可得\r\n$a_{2n-1}=a_1q^{2n-2}=q^{2n-2}$，$a_{2n}=a_2q^{2n-2}=2q^{2n-2}$.\r\n所以\r\n\n$$\nc_n=a_{2n-1}+2a_{2n}=5q^{2n-2}\n$$\n\r\n故 $\\{c_n\\}$ 是首项为 $5$、公比为 $q^2$ 的等比数列.\n\n(3) 最后，\r\n\n$$\n\\sum_{k=1}^{2n}\\frac1{a_k}\r\n=\\sum_{j=0}^{n-1}\\left(\\frac1{q^{2j}}+\\frac1{2q^{2j}}\\right)\r\n=\\frac32\\sum_{j=0}^{n-1}q^{-2j}\n$$\n\r\n当 $q^2\\ne1$ 时，\r\n\n$$\n\\sum_{k=1}^{2n}\\frac1{a_k}\r\n=\\frac{3(q^{2n}-1)}{2q^{2n-2}(q^2-1)}\n$$\n\r\n当 $q^2=1$ 时，\r\n\n$$\n\\sum_{k=1}^{2n}\\frac1{a_k}=\\frac{3n}{2}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "在平面直角坐标系 $xOy$ 中，过定点 $C(0, p)$ 作直线与抛物线 $x^{2} = 2py$（$p > 0$）相交于 $A$，$B$ 两点.\r\n\r\n\n(1) 若点 $N$ 是点 $C$ 关于坐标原点 $O$ 的对称点，求 $\\triangle ANB$ 面积的最小值.\n\n(2) 是否存在垂直于 $y$ 轴的直线 $l$，使得 $l$ 被以 $AC$ 为直径的圆截得的弦长恒为定值？若存在，求出 $l$ 的方程；若不存在，说明理由.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/hubei_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设过 $C(0,p)$ 的直线方程为 $y=kx+p$. 与抛物线 $x^2=2py$ 联立，交点横坐标 $x_1$，$x_2$ 满足\r\n\n$$\nx^2-2pkx-2p^2=0\n$$\n\r\n由韦达定理，\r\n$x_1+x_2=2pk$，$x_1x_2=-2p^2$.\r\n又 $N=(0,-p)$，故\r\n\n$$\nS_{\\triangle ANB}\r\n=\\frac12\\left|x_1(kx_2+2p)-x_2(kx_1+2p)\\right|\r\n=p|x_1-x_2|\n$$\n\r\n由根的判别式，\r\n\n$$\n|x_1-x_2|\r\n=\\sqrt{(x_1+x_2)^2-4x_1x_2}\r\n=\\sqrt{4p^2k^2+8p^2}\r\n=2p\\sqrt{k^2+2}\n$$\n\r\n所以\r\n\n$$\nS_{\\triangle ANB}=2p^2\\sqrt{k^2+2}\\geqslant2\\sqrt2\\,p^2\n$$\n\r\n当且仅当 $k=0$ 时取等号. 因而三角形面积的最小值为 $2\\sqrt2\\,p^2$.\n\n(2) 再设 $l:y=t$. 以 $AC$ 为直径的圆经过 $A(x_1,kx_1+p)$ 和 $C(0,p)$，其方程为\r\n\n$$\n(x-x_1)x+(y-kx_1-p)(y-p)=0\n$$\n\r\n令 $y=t$，所得关于 $x$ 的方程为\r\n\n$$\nx^2-x_1x+(t-kx_1-p)(t-p)=0\n$$\n\r\n其弦长恒定，当且仅当该方程的判别式与过 $C$ 的直线斜率 $k$ 无关. 因 $A$ 在抛物线上，\r\n\n$$\nkx_1=\\frac{x_1^2}{2p}-p\n$$\n\r\n所以判别式为\r\n\n$$\n\\Delta=x_1^2-4(t-kx_1-p)(t-p)\r\n=x_1^2\\left(\\frac{2t}{p}-1\\right)-4t(t-p)\n$$\n\r\n点 $A$ 可随过 $C$ 的割线在抛物线上变化，故 $x_1^2$ 不是常数. 要使 $\\Delta$ 恒定，必须且只需\r\n\n$$\n\\frac{2t}{p}-1=0\n$$\n\r\n即 $t=\\frac p2$. 此时 $\\Delta=p^2$，弦长为 $\\sqrt{\\Delta}=p$，确为定值. 因而存在所求直线\r\n\n$$\nl:y=\\frac p2\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

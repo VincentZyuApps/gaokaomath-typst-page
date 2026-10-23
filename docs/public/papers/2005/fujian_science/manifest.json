@@ -1,0 +1,416 @@
+{
+  "year": "2005",
+  "slug": "fujian_science",
+  "title": "2005年福建卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "复数 $z = \\frac{1}{1 - \\mathrm{i}}$ 的共轭复数是（ ）",
+          "choices": [
+            "$\\frac{1}{2} + \\frac{1}{2}\\mathrm{i}$",
+            "$\\frac{1}{2} - \\frac{1}{2}\\mathrm{i}$",
+            "$1 - \\mathrm{i}$",
+            "$1 + \\mathrm{i}$"
+          ],
+          "answer": "B",
+          "solution": "将分母实数化，得\r\n\n$$\nz=\\frac{1}{1-\\mathrm{i}}\\cdot\\frac{1+\\mathrm{i}}{1+\\mathrm{i}}=\\frac{1+\\mathrm{i}}{2}=\\frac{1}{2}+\\frac{1}{2}\\mathrm{i}\n$$\n\r\n因此 $z$ 的共轭复数为 $\\frac{1}{2}-\\frac{1}{2}\\mathrm{i}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知等差数列 $\\{a_n\\}$ 中，$a_7 + a_9 = 16$，$a_4 = 1$，则 $a_{12}$ 的值是（ ）",
+          "choices": [
+            "$15$",
+            "$30$",
+            "$31$",
+            "$64$"
+          ],
+          "answer": "A",
+          "solution": "设等差数列的公差为 $d$. 由等差数列的性质，$a_7+a_9=2a_8$，所以 $a_8=8$. 又因为 $a_4=1$，故\r\n\n$$\nd=\\frac{a_8-a_4}{8-4}=\\frac{7}{4}\n$$\n\r\n于是 $a_{12}=a_8+4d=8+7=15$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "在 $\\triangle ABC$ 中，$\\angle C = 90^{\\circ}$，$\\overrightarrow{AB} = (k, 1)$，$\\overrightarrow{AC} = (2, 3)$，则 $k$ 的值是（ ）",
+          "choices": [
+            "$5$",
+            "$-5$",
+            "$\\frac{3}{2}$",
+            "$-\\frac{3}{2}$"
+          ],
+          "answer": "A",
+          "solution": "取 $A$ 为原点，则 $\\overrightarrow{AB}=(k,1)$，$\\overrightarrow{AC}=(2,3)$，从而 $\\overrightarrow{CA}=(-2,-3)$，$\\overrightarrow{CB}=(k-2,-2)$.\r\n因为 $\\angle C=90^{\\circ}$，所以 $\\overrightarrow{CA}\\perp\\overrightarrow{CB}$，从而\r\n\n$$\n(-2,-3)\\cdot(k-2,-2)=-2k+10=0\n$$\n\r\n解得 $k=5$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "已知直线 $m$，$n$ 与平面 $\\alpha$，$\\beta$，给出下列三个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 若 $m \\parallel \\alpha$，$n \\parallel \\alpha$，则 $m \\parallel n$；\r\n\\item 若 $m \\parallel \\alpha$，$n \\perp \\alpha$，则 $n \\perp m$；\r\n\\item 若 $m \\perp \\alpha$，$m \\parallel \\beta$，则 $\\alpha \\perp \\beta$.\r\n\\end{circlelist}\r\n\r\n其中真命题的个数是（ ）",
+          "choices": [
+            "$0$",
+            "$1$",
+            "$2$",
+            "$3$"
+          ],
+          "answer": "C",
+          "solution": "第一个命题不成立. 例如取平面 $\\alpha$ 为 $z=0$，在平面 $z=1$ 内取两条相交直线 $m$，$n$. 它们都不与平面 $\\alpha$ 相交，因而都平行于 $\\alpha$，但 $m$，$n$ 相交，所以不能推出 $m\\parallel n$.\r\n\r\n第二个命题成立. 直线 $n\\perp\\alpha$，所以 $n$ 的方向垂直于平面 $\\alpha$ 内的任意方向；又因 $m\\parallel\\alpha$，直线 $m$ 的方向平行于平面 $\\alpha$ 内的方向，故 $m\\perp n$.\r\n\r\n第三个命题成立. 由 $m\\parallel\\beta$，可在平面 $\\beta$ 内作一条直线 $m'\\parallel m$. 因为 $m\\perp\\alpha$，所以 $m'\\perp\\alpha$. 平面 $\\beta$ 内有一条直线垂直于平面 $\\alpha$，故 $\\alpha\\perp\\beta$. 因此真命题有 $2$ 个，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "若函数 $f(x)=a^{x-b}$ 的图象如图，其中 $a$，$b$ 为常数，则下列结论正确的是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/fujian_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$a > 1$，$b < 0$",
+            "$a > 1$，$b > 0$",
+            "$0 < a < 1$，$b > 0$",
+            "$0 < a < 1$，$b < 0$"
+          ],
+          "answer": "D",
+          "solution": "由图象可知函数 $f(x)=a^{x-b}$ 单调递减，所以 $0<a<1$. 图象在 $x=0$ 时的纵坐标小于 $1$，即 $a^{-b}<1=a^0$. 由于底数 $a$ 在 $(0,1)$ 内，指数函数单调递减，故 $-b>0$，从而 $b<0$. 因此选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "若函数 $y = \\sin(\\omega x + \\varphi)$（$x \\in \\mathbb{R}$，$\\omega > 0$，$0 \\le \\varphi < 2\\pi$）的部分图象如图，则（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/fujian_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\omega = \\frac{\\pi}{2}$，$\\varphi = \\frac{\\pi}{4}$",
+            "$\\omega = \\frac{\\pi}{3}$，$\\varphi = \\frac{\\pi}{6}$",
+            "$\\omega = \\frac{\\pi}{4}$，$\\varphi = \\frac{\\pi}{4}$",
+            "$\\omega = \\frac{\\pi}{4}$，$\\varphi = \\frac{5\\pi}{4}$"
+          ],
+          "answer": "C",
+          "solution": "由图象知，函数在 $x=1$ 处取得最大值，在 $x=3$ 处从正值下降并过 $x$ 轴，且从 $x=1$ 到 $x=3$ 只经历了从最大值到其后的第一次下降过零. 因此存在整数 $k$，使 $\\omega+\\varphi=\\frac{\\pi}{2}+2k\\pi$，$3\\omega+\\varphi=\\pi+2k\\pi$.\r\n两式相减得 $2\\omega=\\frac{\\pi}{2}$，所以 $\\omega=\\frac{\\pi}{4}$. 代回第一式，得 $\\varphi=\\frac{\\pi}{4}+2k\\pi$. 结合 $0\\le\\varphi<2\\pi$，可知 $k=0$，故 $\\varphi=\\frac{\\pi}{4}$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "已知 $p: |2x - 3| < 1$，$q: x(x - 3) < 0$，则 $p$ 是 $q$ 的（ ）",
+          "choices": [
+            "充分不必要条件",
+            "必要不充分条件",
+            "充要条件",
+            "既不充分也不必要条件"
+          ],
+          "answer": "A",
+          "solution": "由 $p$ 得\r\n\n$$\n-1<2x-3<1 \\Longleftrightarrow  1<x<2\n$$\n\r\n由 $q$ 得 $x(x-3)<0$，所以 $0<x<3$. 因此 $p$ 的解集是 $q$ 的解集的真子集，$p$ 是 $q$ 的充分不必要条件，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "如图，长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，$AA_{1} = AB = 2$，$AD = 1$，点 $E$，$F$，$G$ 分别是 $DD_{1}$，$AB$，$CC_{1}$ 的中点，则异面直线 $A_{1}E$ 与 $GF$ 所成的角是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/fujian_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\arccos \\frac{\\sqrt{15}}{5}$",
+            "$\\frac{\\pi}{4}$",
+            "$\\arccos \\frac{\\sqrt{10}}{5}$",
+            "$\\frac{\\pi}{2}$"
+          ],
+          "answer": "D",
+          "solution": "建立直角坐标系，取 $A=(0,0,0)$，令 $AB$、$AD$、$AA_1$ 分别沿三个坐标轴，则 $B=(2,0,0)$，$D=(0,1,0)$，$A_1=(0,0,2)$，$C=(2,1,0)$.\r\n由中点条件得 $E=(0,1,1)$，$F=(1,0,0)$，$G=(2,1,1)$. 于是 $\\overrightarrow{A_1E}=(0,1,-1)$，$\\overrightarrow{FG}=(1,1,1)$，\r\n从而 $\\overrightarrow{A_1E}\\cdot\\overrightarrow{FG}=1-1=0$. 两异面直线所成的角为其方向向量的锐角或直角，故所成角为 $\\frac{\\pi}{2}$，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "从 $6\\text{ 人}$中选 $4\\text{ 人}$分别到巴黎，伦敦，悉尼，莫斯科四个城市游览，要求每个城市有一人游览，每人只游览一个城市，且这 $6\\text{ 人}$中甲，乙两人不去巴黎游览，则不同的选择方案共有（ ）",
+          "choices": [
+            "$300\\text{ 种}$",
+            "$240\\text{ 种}$",
+            "$144\\text{ 种}$",
+            "$96\\text{ 种}$"
+          ],
+          "answer": "B",
+          "solution": "先确定去巴黎的人. 甲、乙不能去巴黎，所以去巴黎的人有 $4$ 种选法. 确定此人后，从剩下的 $5$ 人中选出并安排 $3$ 人分别去伦敦、悉尼、莫斯科，有\r\n\n$$\n\\mathrm A_5^3=5\\times4\\times3\n$$\n\r\n种选法. 因此不同的选择方案共有\r\n\n$$\n4\\mathrm A_5^3=4\\times5\\times4\\times3=240\n$$\n\r\n种，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知 $F_{1}$，$F_{2}$ 是双曲线 $\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} = 1$（$a > 0$，$b > 0$）的两焦点，以线段 $F_{1}F_{2}$ 为边作正三角形 $MF_{1}F_{2}$，若边 $MF_{1}$ 的中点在双曲线上，则双曲线的离心率是（ ）",
+          "choices": [
+            "$4 + 2\\sqrt{3}$",
+            "$\\sqrt{3} - 1$",
+            "$\\frac{\\sqrt{3} + 1}{2}$",
+            "$\\sqrt{3} + 1$"
+          ],
+          "answer": "D",
+          "solution": "设双曲线的焦半距为 $c$，则 $c^2=a^2+b^2$，且离心率 $e=\\frac{c}{a}>1$. 取 $F_1=(-c,0)$，$F_2=(c,0)$，则正三角形的另一个顶点可取 $M=(0,\\sqrt{3}c)$. 边 $MF_1$ 的中点为\r\n\n$$\nP=\\left(-\\frac{c}{2},\\frac{\\sqrt{3}c}{2}\\right)\n$$\n\r\n因为 $P$ 在双曲线上，所以\r\n\n$$\n\\frac{c^2}{4a^2}-\\frac{3c^2}{4b^2}=1\n$$\n\r\n用 $c^2=a^2(e^2-1)$、$b^2=a^2(e^2-1)$ 代入，得\r\n\n$$\n\\frac{e^2}{4}-\\frac{3e^2}{4(e^2-1)}=1\n$$\n\r\n整理得 $e^4-8e^2+4=0$，所以 $e^2=4\\pm2\\sqrt{3}$.\r\n因 $e>1$，舍去 $4-2\\sqrt{3}<1$，于是\r\n\n$$\ne=\\sqrt{4+2\\sqrt{3}}=\\sqrt{3}+1\n$$\n\r\n故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "设 $a$，$b \\in \\mathbb{R}$，$a^2 + 2b^2 = 6$，则 $a + b$ 的最小值是（ ）",
+          "choices": [
+            "$-2\\sqrt{2}$",
+            "$-\\frac{5\\sqrt{3}}{3}$",
+            "$-3$",
+            "$-\\frac{7}{2}$"
+          ],
+          "answer": "C",
+          "solution": "由柯西不等式，\r\n\n$$\n(a+b)^2=\\left(a+\\sqrt{2}b\\cdot\\frac{1}{\\sqrt{2}}\\right)^2\r\n\\le\\left(a^2+2b^2\\right)\\left(1+\\frac{1}{2}\\right)=9\n$$\n\r\n所以 $a+b\\ge-3$. 当 $a=-2$，$b=-1$ 时，$a^2+2b^2=6$，且 $a+b=-3$，故最小值为 $-3$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "$f(x)$ 是定义在 $\\mathbb{R}$ 上的以 $3$ 为周期的奇函数，且 $f(2) = 0$，则方程 $f(x) = 0$ 在区间 $(0,6)$ 内解的个数的最小值是（ ）",
+          "choices": [
+            "$2$",
+            "$3$",
+            "$5$",
+            "$7$"
+          ],
+          "answer": "D",
+          "solution": "由奇函数性质，$f(0)=0$. 又因周期为 $3$，所以 $f(3)=0$. 已知 $f(2)=0$，结合奇函数性质得 $f(-2)=0$，再利用周期性得 $f(1)=f(-2+3)=f(-2)=0$. 因此在 $(0,6)$ 内至少有 $1$，$2$，$3$，$4$，$5$ 五个零点.\r\n\r\n此外，由周期性和奇函数性质，\r\n\n$$\nf\\left(\\frac{3}{2}\\right)=f\\left(-\\frac{3}{2}+3\\right)=f\\left(-\\frac{3}{2}\\right)=-f\\left(\\frac{3}{2}\\right)=0\n$$\n\r\n由周期性，$f\\left(\\frac{9}{2}\\right)=f\\left(\\frac{3}{2}+3\\right)=f\\left(\\frac{3}{2}\\right)=0$. 所以零点至少有 $7$ 个.\r\n\r\n这个下界可以达到. 例如取\r\n\n$$\nf(x)=\\sin\\frac{2\\pi x}{3}+\\sin\\frac{4\\pi x}{3}=2\\sin(\\pi x)\\cos\\frac{\\pi x}{3}\n$$\n\r\n该函数是奇函数且以 $3$ 为周期，并且 $f(2)=0$. 由 $f(x)=0$ 等价于 $\\sin(\\pi x)=0$ 或 $\\cos\\frac{\\pi x}{3}=0$，可知零点满足 $x\\in\\mathbb{Z}$ 或 $x=\\frac{3}{2}+3k$（$k\\in\\mathbb{Z}$）；在 $(0,6)$ 内恰为 $1$，$\\frac{3}{2}$，$2$，$3$，$4$，$\\frac{9}{2}$，$5$. 故方程的解的个数最小值为 $7$，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "$\\left(2\\sqrt{x} - \\frac{1}{x}\\right)^6$ 展开式中的常数项是 _______ {}. （用数字作答）",
+          "choices": [],
+          "answer": "240",
+          "solution": "展开式通项中，若从六个因式中选出 $k$ 个取 $-\\frac{1}{x}$，则该项为\r\n\n$$\n\\mathrm C_6^k\\left(2\\sqrt{x}\\right)^{6-k}\\left(-\\frac{1}{x}\\right)^k\r\n=\\mathrm C_6^k2^{6-k}(-1)^k x^{3-\\frac{3}{2}k}\n$$\n\r\n要得到常数项，必须有 $3-\\frac{3}{2}k=0$，所以 $k=2$. 因此常数项的系数为\r\n\n$$\n\\mathrm C_6^2 2^4=15\\times16=240\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "非负实数 $x$，$y$ 满足 $\\begin{cases}\r\n2x + y \\le 0,\\\\\r\nx + y - 3 \\le 0.\r\n\\end{cases}$，则 $x + 3y$ 的最大值为 _______ {}.",
+          "choices": [],
+          "answer": "0",
+          "solution": "因为 $x$，$y$ 是非负实数，所以 $2x+y\\geqslant0$. 题设又给出 $2x+y\\leqslant0$，故只能有 $2x+y=0$，从而 $x=0$，$y=0$. 此时第二个不等式也成立，且 $x+3y=0$，所以最大值为 $0$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "若常数 $b$ 满足 $|b| > 1$，则 $\\displaystyle\\lim_{n \\to \\infty} \\frac{1 + b + b^2 + \\cdots + b^{n-1}}{b^n} =$ _______ {}.",
+          "choices": [],
+          "answer": "\\(\\dfrac{1}{b-1}\\)",
+          "solution": "将分式中的每一项除以 $b^n$，得\r\n\n$$\n\\frac{1+b+b^2+\\cdots+b^{n-1}}{b^n}=\\frac{1}{b^n}+\\frac{1}{b^{n-1}}+\\cdots+\\frac{1}{b}\n$$\n\r\n令 $r=\\frac{1}{b}$，则 $|r|<1$，右端是等比数列前 $n$ 项和，故\r\n\n$$\n\\lim_{n\\to\\infty}\\sum_{j=1}^{n}r^j=\\frac{r}{1-r}=\\frac{\\frac{1}{b}}{1-\\frac{1}{b}}=\\frac{1}{b-1}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "把下面不完整的命题补充完整，并使之成为真命题：若函数 $f(x)=3+\\log_{2}x$ 的图象与 $g(x)$ 的图象关于 _______ {} 对称，则函数 $g(x)=$ _______ {}. 注：填上你认为可以成为真命题的一件情形即可，不必考虑所有可能的情形.",
+          "choices": [],
+          "answer": "\\(y=x\\)，\\(g(x)=2^{x-3}\\)",
+          "solution": "取对称轴为直线 $y=x$. 关于 $y=x$ 对称的两个函数图象互为反函数. 由\r\n\n$$\ny=3+\\log_2x\n$$\n\r\n交换 $x$，$y$ 后得\r\n\n$$\nx=3+\\log_2y\r\n \\Longleftrightarrow \r\n\\log_2y=x-3\r\n \\Longleftrightarrow \r\ny=2^{x-3}\n$$\n\r\n因此取对称轴为 $y=x$，并取 $g(x)=2^{x-3}$，即可使命题成立.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "已知 $-\\frac{\\pi}{2} < x < 0$，$\\sin x + \\cos x = \\frac{1}{5}$.\r\n\r\n\n(1) 求 $\\sin x - \\cos x$ 的值；\n\n(2) 求 $\\dfrac{3\\sin^2 \\frac{x}{2} - 2\\sin \\frac{x}{2}\\cos \\frac{x}{2} + \\cos^2 \\frac{x}{2}}{\\tan x + \\cot x}$ 的值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $s=\\sin x$，$c=\\cos x$. 由已知条件，\r\n\n$$\n(s+c)^2=s^2+c^2+2sc=1+2sc=\\frac{1}{25}\n$$\n\r\n所以 $sc=-\\frac{12}{25}$. 又因为 $-\\frac{\\pi}{2}<x<0$，故 $s<0$，$c>0$，从而 $s-c<0$. 于是\r\n\n$$\n(s-c)^2=s^2+c^2-2sc=1+\\frac{24}{25}=\\frac{49}{25}\n$$\n\r\n得 $\\sin x-\\cos x=s-c=-\\frac{7}{5}$.\n\n(2) 利用半角公式，分子为\r\n\n$$\n3\\sin^2\\frac{x}{2}-2\\sin\\frac{x}{2}\\cos\\frac{x}{2}+\\cos^2\\frac{x}{2}\r\n=3\\frac{1-c}{2}-s+\\frac{1+c}{2}\r\n=2-(s+c)=\\frac{9}{5}\n$$\n\r\n分母为\r\n\n$$\n\\tan x+\\cot x=\\frac{s}{c}+\\frac{c}{s}=\\frac{s^2+c^2}{sc}=-\\frac{25}{12}\n$$\n\r\n因此所求值为 $\\frac{9}{5}\\div\\left(-\\frac{25}{12}\\right)=-\\frac{108}{125}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "甲，乙两人在罚球线投球命中的概率分别为 $\\frac{1}{2}$ 与 $\\frac{2}{5}$，投中得 $1\\text{ 分}$，投不中得 $0\\text{ 分}$.\r\n\r\n\n(1) 甲，乙两人在罚球线各投球一次，求两人得分之和 $\\xi$ 的数学期望；\n\n(2) 甲，乙两人在罚球线各投球二次，求这四次投球中至少一次命中的概率.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设甲、乙的得分分别为 $\\xi_1$，$\\xi_2$，则 $\\xi=\\xi_1+\\xi_2$. 由数学期望的可加性，\r\n\n$$\nE(\\xi)=E(\\xi_1)+E(\\xi_2)=1\\cdot\\frac{1}{2}+1\\cdot\\frac{2}{5}=\\frac{9}{10}\n$$\n\n(2) 四次投球均未命中的概率为\r\n\n$$\n\\left(1-\\frac{1}{2}\\right)^2\\left(1-\\frac{2}{5}\\right)^2\r\n=\\left(\\frac{1}{2}\\right)^2\\left(\\frac{3}{5}\\right)^2=\\frac{9}{100}\n$$\n\r\n因此至少有一次命中的概率为 $1-\\frac{9}{100}=\\frac{91}{100}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "已知函数 $f(x) = \\frac{ax - 6}{x^2 + b}$ 的图象在点 $M(-1, f(-1))$ 处的切线方程为 $x + 2y + 5 = 0$.\r\n\r\n\n(1) 求函数 $y = f(x)$ 的解析式；\n\n(2) 求函数 $y = f(x)$ 的单调区间.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 切线 $x+2y+5=0$ 在 $x=-1$ 处的纵坐标为 $-2$，所以 $f(-1)=-2$，且切线斜率为 $-\\frac{1}{2}$，即 $f'(-1)=-\\frac{1}{2}$. 由\r\n\n$$\n\\frac{-a-6}{1+b}=-2\n$$\n\r\n得 $a=2b-4$. 又\r\n\n$$\nf'(x)=\\frac{a(x^2+b)-2x(ax-6)}{(x^2+b)^2}\r\n=\\frac{-ax^2+12x+ab}{(x^2+b)^2}\n$$\n\r\n所以\r\n\n$$\n\\frac{-a-12+ab}{(1+b)^2}=-\\frac{1}{2}\n$$\n\r\n代入 $a=2b-4$，整理得 $5b^2-10b-15=0$，即 $b=3$ 或 $b=-1$. $b=-1$ 使 $f(-1)$ 无定义，应舍去，故 $b=3$，$a=2$. 因此\r\n\n$$\nf(x)=\\frac{2x-6}{x^2+3}\n$$\n\n(2) 因为 $x^2+3>0$，所以\r\n\n$$\nf'(x)=\\frac{-2x^2+12x+6}{(x^2+3)^2}\r\n=\\frac{-2\\left(x-3+2\\sqrt{3}\\right)\\left(x-3-2\\sqrt{3}\\right)}{(x^2+3)^2}\n$$\n\r\n故当 $x<3-2\\sqrt{3}$ 或 $x>3+2\\sqrt{3}$ 时，$f'(x)<0$；当 $3-2\\sqrt{3}<x<3+2\\sqrt{3}$ 时，$f'(x)>0$. 所以函数的单调递减区间为 $\\left(-\\infty,3-2\\sqrt{3}\\right)$ 和 $\\left(3+2\\sqrt{3},+\\infty\\right)$，单调递增区间为 $\\left(3-2\\sqrt{3},3+2\\sqrt{3}\\right)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "如图，直二面角 $D - AB - E$ 中，四边形 $ABCD$ 是边长为 $2$ 的正方形，$AE = EB$，$F$ 为 $CE$ 上的点，且 $BF \\perp$ 平面 $ACE$.\r\n\r\n\n(1) 求证 $AE \\perp$ 平面 $BCE$；\n\n(2) 求二面角 $B - AC - E$ 的大小；\n\n(3) 求点 $D$ 到平面 $ACE$ 的距离.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/fujian_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "建立空间直角坐标系，取 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,2,0)$，$C=(2,2,0)$.\r\n由于 $D-AB-E$ 是直二面角，且 $AE=EB$，可设 $E=(1,0,t)$. 设 $F$ 将 $CE$ 按参数 $\\lambda$ 表示为\r\n\n$$\nF=E+\\lambda(C-E)=(1+\\lambda,2\\lambda,t(1-\\lambda))\n$$\n\r\n于是\r\n\n$$\n\\overrightarrow{BF}=(\\lambda-1,2\\lambda,t(1-\\lambda))\n$$\n\r\n由 $BF\\perp$ 平面 $ACE$，它同时垂直于平面内相交的 $AC$ 和 $AE$，故\r\n\n$$\n\\overrightarrow{BF}\\cdot\\overrightarrow{AC}=6\\lambda-2=0\n$$\n\r\n得到 $\\lambda=\\frac{1}{3}$，并且\r\n\n$$\n\\overrightarrow{BF}\\cdot\\overrightarrow{AE}\r\n=(\\lambda-1)+t^2(1-\\lambda)=(1-\\lambda)(t^2-1)=0\n$$\n\r\n所以 $t^2=1$. 关于平面 $ABCD$ 对称的情形结论相同，以下取 $t=1$，即 $E=(1,0,1)$.\r\n\n(1) 由 $\\overrightarrow{AE}=(1,0,1)$，$\\overrightarrow{BC}=(0,2,0)$，$\\overrightarrow{BE}=(-1,0,1)$，\r\n可得 $\\overrightarrow{AE}\\cdot\\overrightarrow{BC}=0$，$\\overrightarrow{AE}\\cdot\\overrightarrow{BE}=0$. 直线 $BC$ 与 $BE$ 在平面 $BCE$ 内相交，所以 $AE\\perp$ 平面 $BCE$.\n\n(2) 平面 $ABC$ 的一个法向量为 $\\mathbf{n}_1=(0,0,1)$，平面 $ACE$ 的一个法向量为\r\n\n$$\n\\mathbf{n}_2=\\overrightarrow{AC}\\times\\overrightarrow{AE}=(2,-2,-2)\n$$\n\r\n因此二面角 $B-AC-E$ 的余弦为\r\n\n$$\n\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1||\\mathbf{n}_2|}=\\frac{2}{\\sqrt{12}}=\\frac{1}{\\sqrt{3}}\n$$\n\r\n所求二面角为 $\\arccos\\frac{\\sqrt{3}}{3}$.\n\n(3) 由 $\\overrightarrow{AC}=(2,2,0)$、$\\overrightarrow{AE}=(1,0,1)$，平面 $ACE$ 的方程为\r\n\n$$\nx-y-z=0\n$$\n\r\n所以点 $D=(0,2,0)$ 到该平面的距离为\r\n\n$$\n\\frac{|0-2-0|}{\\sqrt{1^2+(-1)^2+(-1)^2}}=\\frac{2\\sqrt{3}}{3}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知方向向量为 $\\mathbf{v} = (1, \\sqrt{3})$ 的直线 $l$ 过点 $(0, -2\\sqrt{3})$ 和椭圆 $C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a > b > 0$）的焦点，且椭圆 $C$ 的中心关于直线 $l$ 的对称点在椭圆 $C$ 的右准线上.\r\n\r\n\n(1) 求椭圆 $C$ 的方程；\n\n(2) 是否存在过点 $E(-2,0)$ 的直线 $m$ 交椭圆 $C$ 于点 $M$，$N$，满足 $\\overrightarrow{OM} \\cdot \\overrightarrow{ON} = \\frac{4\\sqrt{6}}{3}\\cot \\angle MON \\neq 0$（$O$ 为原点）. 若存在，求直线 $m$ 的方程；若不存在，请说明理由.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设椭圆的焦半距为 $c$. 直线 $l$ 过点 $P=(0,-2\\sqrt{3})$，方向向量为 $(1,\\sqrt{3})$，故其斜率为 $\\sqrt{3}$. 若它经过右焦点 $(c,0)$，则\r\n\n$$\n\\frac{2\\sqrt{3}}{c}=\\sqrt{3}\n$$\n\r\n得 $c=2$；左焦点不能使该直线的斜率为 $\\sqrt{3}$. 于是\r\n$l:y=\\sqrt{3}x-2\\sqrt{3}$，即 $\\sqrt{3}x-y-2\\sqrt{3}=0$.\r\n设原点关于此直线的对称点为 $O'$. 对于直线 $Ax+By+C=0$，原点的对称点为\r\n\n$$\n\\left(-\\frac{2AC}{A^2+B^2},-\\frac{2BC}{A^2+B^2}\\right)\n$$\n\r\n所以这里 $O'=(3,-\\sqrt{3})$. 椭圆的右准线为 $x=\\frac{a^2}{c}$，由 $O'$ 在右准线上得\r\n$\\frac{a^2}{2}=3$，所以 $a^2=6$.\r\n又 $c^2=a^2-b^2$，所以 $b^2=6-4=2$. 椭圆方程为\r\n\n$$\n\\frac{x^2}{6}+\\frac{y^2}{2}=1\n$$\n\n(2) 先考虑非竖直直线，设 $m:y=k(x+2)$. 用参数 $t$ 表示直线上的点\r\n\n$$\nX(t)=(-2+t,kt)\n$$\n\r\n它与椭圆的交点参数 $t_1$，$t_2$ 满足\r\n\n$$\n(1+3k^2)t^2-4t-2=0\n$$\n\r\n记 $q=1+3k^2$，由韦达定理得 $t_1+t_2=\\frac{4}{q}$，$t_1t_2=-\\frac{2}{q}$.\r\n令 $D=\\overrightarrow{OM}\\cdot\\overrightarrow{ON}$，则\r\n\n$$\nD=(t_1-2)(t_2-2)+k^2t_1t_2\r\n=\\frac{2(5k^2-3)}{q}\n$$\n\r\n又因为 $\\overrightarrow{OM}$，$\\overrightarrow{ON}$ 的差向量沿直线 $m$，有\r\n\n$$\n|\\overrightarrow{OM}\\times\\overrightarrow{ON}|\r\n=2|k||t_1-t_2|\r\n=\\frac{4\\sqrt{6}|k|\\sqrt{1+k^2}}{q}\n$$\n\r\n设 $\\theta=\\angle MON$，则\r\n\n$$\n\\cot\\theta=\\frac{D}{|\\overrightarrow{OM}\\times\\overrightarrow{ON}|}\n$$\n\r\n题设公共值非零，所以 $D\\ne0$，可在 $D=\\frac{4\\sqrt{6}}{3}\\cot\\theta$ 中约去 $D$，得到\r\n\n$$\n|\\overrightarrow{OM}\\times\\overrightarrow{ON}|=\\frac{4\\sqrt{6}}{3}\n$$\n\r\n因此\r\n\n$$\n\\frac{4\\sqrt{6}|k|\\sqrt{1+k^2}}{1+3k^2}=\\frac{4\\sqrt{6}}{3}\n$$\n\r\n即 $9k^2(1+k^2)=(1+3k^2)^2$，解得 $k^2=\\frac{1}{3}$. 此时 $D=-\\frac{4}{3}\\ne0$，所以得到两条直线\r\n$m:y=\\frac{\\sqrt{3}}{3}(x+2)$ 和 $m:y=-\\frac{\\sqrt{3}}{3}(x+2)$.\r\n还需考虑竖直直线 $m:x=-2$. 此时交点为\r\n$M=\\left(-2,\\sqrt{\\frac{2}{3}}\\right)$，$N=\\left(-2,-\\sqrt{\\frac{2}{3}}\\right)$，\r\n从而\r\n$D=\\frac{10}{3}$，且 $|\\overrightarrow{OM}\\times\\overrightarrow{ON}|=4\\sqrt{\\frac{2}{3}}=\\frac{4\\sqrt{6}}{3}$.\r\n故 $\\cot\\theta=\\frac{D}{|\\overrightarrow{OM}\\times\\overrightarrow{ON}|}$，题设等式同样成立. 因此符合条件的直线共有三条：\r\n$x=-2$、$y=\\frac{\\sqrt{3}}{3}(x+2)$、$y=-\\frac{\\sqrt{3}}{3}(x+2)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "已知数列 $\\{a_n\\}$ 满足 $a_1 = a$，$a_{n+1} = 1 + \\frac{1}{a_n}$. 我们知道当 $a$ 取不同的值时，得到不同的数列，如当 $a = 1$ 时，得到无穷数列：$1$，$2$，$\\frac{3}{2}$，$\\frac{5}{3}$，$\\cdots$；当 $a = -\\frac{1}{2}$ 时，得到有穷数列：$-\\frac{1}{2}$，$-1$，$0$.\r\n\r\n\n(1) 求当 $a$ 为何值时，$a_4 = 0$；\n\n(2) 设数列 $\\{b_n\\}$ 满足 $b_1 = -1$，$b_{n+1} = \\frac{1}{b_n - 1}$（$n \\in \\N_+$），求证 $a$ 取数列 $\\{b_n\\}$ 中的任一个数，都可以得到一个有穷数列 $\\{a_n\\}$；\n\n(3) 若 $\\frac{3}{2} < a_n < 2$（$n \\ge 4$），求 $a$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 依次计算得\r\n$a_2=1+\\frac{1}{a}=\\frac{a+1}{a}$，$a_3=1+\\frac{1}{a_2}=\\frac{2a+1}{a+1}$，\r\n从而\r\n\n$$\na_4=1+\\frac{1}{a_3}=\\frac{3a+2}{2a+1}\n$$\n\r\n要使 $a_4=0$，需有 $3a+2=0$，解得 $a=-\\frac{2}{3}$. 此时 $a_2=-\\frac{1}{2}$，$a_3=-1$，$a_4=0$，各步均有定义，所以取值成立.\n\n(2) 设斐波那契数列 $F_1=F_2=1$，$F_{n+2}=F_{n+1}+F_n$. 由 $b_1=-1$ 及递推关系可归纳得到\r\n$b_n=-\\frac{F_n}{F_{n+1}}$，（$n\\geqslant1$）.\r\n事实上，若 $b_n=-\\frac{F_n}{F_{n+1}}$，则\r\n\n$$\nb_{n+1}=\\frac{1}{b_n-1}\r\n=\\frac{1}{-\\frac{F_n}{F_{n+1}}-1}\r\n=-\\frac{F_{n+1}}{F_n+F_{n+1}}\r\n=-\\frac{F_{n+1}}{F_{n+2}}\n$$\n\r\n令 $T(x)=1+\\frac{1}{x}$. 当 $n\\geqslant2$ 时，\r\n\n$$\nT(b_n)=1-\\frac{F_{n+1}}{F_n}\r\n=-\\frac{F_{n-1}}{F_n}=b_{n-1}\n$$\n\r\n而 $T(b_1)=T(-1)=0$. 因此以 $b_n$ 中任一个数作为 $a_1$ 时，数列依次经过 $b_n$，$b_{n-1}$，$\\ldots$，$b_1$，$0$，在有限步后得到 $0$，随后递推式无定义，故得到有穷数列.\n\n(3) 由前面的计算，\r\n\n$$\na_4=\\frac{3a+2}{2a+1}\n$$\n\r\n若对所有 $n\\geqslant4$ 有 $\\frac{3}{2}<a_n<2$，则特别有 $\\frac{3}{2}<a_4<2$. 注意\r\n$a_4-\\frac{3}{2}=\\frac{1}{2(2a+1)}$，且 $a_4-2=-\\frac{a}{2a+1}$.\r\n两式同时满足相应的不等式，先由第一式得 $2a+1>0$，再由第二式得 $a>0$.\r\n反过来，若 $a>0$，则 $\\frac{3}{2}<a_4<2$. 对任意 $u\\in\\left(\\frac{3}{2},2\\right)$，有\r\n\n$$\n\\frac{3}{2}<1+\\frac{1}{u}<\\frac{5}{3}<2\n$$\n\r\n所以 $a_5$，$a_6$，$\\ldots$ 也都属于 $\\left(\\frac{3}{2},2\\right)$. 故 $a$ 的取值范围为 $(0,+\\infty)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "year": "2009",
+  "slug": "shandong_liberal",
+  "title": "2009年山东卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "集合 $A = \\{0, 2, a\\}$，$B = \\{1, a^2\\}$. 若 $A \\cup B = \\{0, 1, 2, 4, 16\\}$，则 $a$ 的值为（ ）",
+          "choices": [
+            "$0$",
+            "$1$",
+            "$2$",
+            "$4$"
+          ],
+          "answer": "D",
+          "solution": "并集中的元素必须来自 $0$，$1$，$2$，$a$，$a^2$. 已知 $0$，$1$，$2$ 已出现，而并集中还需出现且只出现 $4$，$16$，因此\r\n\n$$\n\\{a,a^2\\}=\\{4,16\\}\n$$\n\r\n若 $a=4$，则 $a^2=16$，满足条件；若 $a=16$，则 $a^2=256$，不满足条件. 所以 $a=4$，选择 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "复数 $\\frac{3 - \\mathrm{i}}{1 - \\mathrm{i}}$ 等于（ ）",
+          "choices": [
+            "$1 + 2\\mathrm{i}$",
+            "$1 - 2\\mathrm{i}$",
+            "$2 + \\mathrm{i}$",
+            "$2 - \\mathrm{i}$"
+          ],
+          "answer": "C",
+          "solution": "分子、分母同乘以分母的共轭复数 $1+\\mathrm{i}$，得\r\n\n$$\n\\frac{3-\\mathrm{i}}{1-\\mathrm{i}}=\\frac{(3-\\mathrm{i})(1+\\mathrm{i})}{(1-\\mathrm{i})(1+\\mathrm{i})}=\\frac{4+2\\mathrm{i}}{2}=2+\\mathrm{i}\n$$\n\r\n因此选择 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "将函数 $y = \\sin 2x$ 的图象向左平移 $\\frac{\\pi}{4}$ 个单位，再向上平移 $1$ 个单位，所得图象的函数解析式是（ ）",
+          "choices": [
+            "$y = \\cos 2x$",
+            "$y = 2\\cos^2 x$",
+            "$y = 1 + \\sin \\left(2x + \\frac{\\pi}{4}\\right)$",
+            "$y = 2\\sin^2 x$"
+          ],
+          "answer": "B",
+          "solution": "函数图象向左平移 $\\frac\\pi4$ 个单位后，横坐标 $x$ 应替换为 $x+\\frac\\pi4$，所以得到\r\n\n$$\ny=\\sin\\left(2x+\\frac\\pi2\\right)=\\cos2x\n$$\n\r\n再向上平移 $1$ 个单位，得到\r\n\n$$\ny=1+\\cos2x=2\\cos^2x\n$$\n\r\n因此选择 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "一空间几何体的三视图如图所示，则该几何体的体积为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shandong_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$2\\pi + 2\\sqrt{3}$",
+            "$4\\pi + 2\\sqrt{3}$",
+            "$2\\pi + \\frac{2\\sqrt{3}}{3}$",
+            "$4\\pi + \\frac{2\\sqrt{3}}{3}$"
+          ],
+          "answer": "C",
+          "solution": "由三视图可知，该几何体由一个底面半径为 $1$、高为 $2$ 的圆柱和一个四棱锥组成. 四棱锥的底面正方形内接于直径为 $2$ 的圆，其对角线为 $2$，故底面边长为 $\\sqrt2$，底面积为 $2$. 四棱锥的侧棱长为 $2$，从顶点向底面对角线的交点作高，得\r\n\n$$\nh=\\sqrt{2^2-1^2}=\\sqrt3\n$$\n\r\n所以圆柱和四棱锥的体积分别为\r\n$V_1=\\pi\\cdot1^2\\cdot2=2\\pi$，$V_2=\\frac13\\cdot2\\cdot\\sqrt3=\\frac{2\\sqrt3}{3}$.\r\n故总体积为 $2\\pi+\\frac{2\\sqrt3}{3}$，选择 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "在 $\\mathbb{R}$ 上定义运算 $\\odot: a \\odot b = ab + 2a + b$，则满足 $x \\odot (x - 2) < 0$ 的实数 $x$ 的取值范围为（ ）",
+          "choices": [
+            "$(0,2)$",
+            "$(-2,1)$",
+            "$(- \\infty, -2) \\cup (1, +\\infty)$",
+            "$(-1, 2)$"
+          ],
+          "answer": "B",
+          "solution": "根据新运算的定义，\r\n\n$$\nx\\odot(x-2)=x(x-2)+2x+(x-2)=x^2+x-2=(x+2)(x-1)\n$$\n\r\n因此\r\n\n$$\n(x+2)(x-1)<0\n$$\n\r\n的解在两个根 $-2$，$1$ 之间，即 $-2<x<1$. 所以选择 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "函数 $y = \\frac{\\mathrm{e}^x + \\mathrm{e}^{-x}}{\\mathrm{e}^x - \\mathrm{e}^{-x}}$ 的图象大致为（ ）",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shandong_liberal/q6_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shandong_liberal/q6_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shandong_liberal/q6_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shandong_liberal/q6_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "A",
+          "solution": "函数的定义域为 $x\\ne0$. 当 $x\\to0^+$ 时，分母趋于 $0^+$，函数值趋于 $+\\infty$；当 $x\\to0^-$ 时，分母趋于 $0^-$，函数值趋于 $-\\infty$. 又\r\n$\\lim_{x\\to+\\infty}\\frac{\\mathrm{e}^x+\\mathrm{e}^{-x}}{\\mathrm{e}^x-\\mathrm{e}^{-x}}=1$，$\\lim_{x\\to-\\infty}\\frac{\\mathrm{e}^x+\\mathrm{e}^{-x}}{\\mathrm{e}^x-\\mathrm{e}^{-x}}=-1$.\r\n此外，对 $x\\ne0$ 求导得\r\n\n$$\ny'=\\frac{\\mathrm{e}^x(\\mathrm{e}^x-\\mathrm{e}^{-x})-(\\mathrm{e}^x+\\mathrm{e}^{-x})\\mathrm{e}^x}{(\\mathrm{e}^x-\\mathrm{e}^{-x})^2}=-\\frac{2}{(\\mathrm{e}^x-\\mathrm{e}^{-x})^2}<0\n$$\n\r\n所以图象在两支上均递减，且具有竖直渐近线 $x=0$，右支在 $y=1$ 上方趋近于 $1$，左支在 $y=-1$ 下方趋近于 $-1$. 与图 A 相符，选择 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 满足 $f(x) = \\begin{cases}\r\n\\log_2(4 - x), & x \\le 0,\\\\\r\nf(x - 1) - f(x - 2), & x > 0.\r\n\\end{cases}$ 则 $f(3)$ 的值为（ ）",
+          "choices": [
+            "$-1$",
+            "$-2$",
+            "$1$",
+            "$2$"
+          ],
+          "answer": "B",
+          "solution": "由递推式分别取 $x=1$，$2$，$3$，有\r\n$f(1)=f(0)-f(-1)$，$f(2)=f(1)-f(0)$，$f(3)=f(2)-f(1)$.\r\n于是\r\n\n$$\nf(3)=\\bigl(f(1)-f(0)\\bigr)-f(1)=-f(0)\n$$\n\r\n由 $f(0)=\\log_2 4=2$，得 $f(3)=-2$，选择 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "设 $P$ 是 $\\triangle ABC$ 所在平面内的一点，$\\overrightarrow{BC} + \\overrightarrow{BA} = 2\\overrightarrow{BP}$，则（ ）",
+          "choices": [
+            "$\\overrightarrow{PA} +\\overrightarrow{PB} = 0$",
+            "$\\overrightarrow{PB} +\\overrightarrow{PC} = 0$",
+            "$\\overrightarrow{PC} +\\overrightarrow{PA} = 0$",
+            "$\\overrightarrow{PA} +\\overrightarrow{PB} +\\overrightarrow{PC} = 0$"
+          ],
+          "answer": "C",
+          "solution": "设点 $A$，$B$，$C$，$P$ 的位置向量分别为 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$，$\\mathbf{p}$. 由题设\r\n\n$$\n\\overrightarrow{BC}+\\overrightarrow{BA}=(\\mathbf{c}-\\mathbf{b})+(\\mathbf{a}-\\mathbf{b})=2(\\mathbf{p}-\\mathbf{b})\n$$\n\r\n化简为 $\\mathbf{a}+\\mathbf{c}=2\\mathbf{p}$，因此 $P$ 是线段 $AC$ 的中点. 所以\r\n\n$$\n\\overrightarrow{PC}+\\overrightarrow{PA}=(\\mathbf{c}-\\mathbf{p})+(\\mathbf{a}-\\mathbf{p})=\\mathbf{a}+\\mathbf{c}-2\\mathbf{p}=0\n$$\n\r\n因此选择 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "已知 $\\alpha$，$\\beta$ 表示两个不同的平面，$m$ 为平面 $\\alpha$ 内的一条直线，则“$\\alpha \\perp \\beta$”是“$m \\perp \\beta$”的（ ）",
+          "choices": [
+            "充分不必要条件",
+            "必要不充分条件",
+            "充要条件",
+            "既不充分也不必要条件"
+          ],
+          "answer": "B",
+          "solution": "若 $m\\perp\\beta$，而 $m\\subset\\alpha$，则平面 $\\alpha$ 内含有一条垂直于平面 $\\beta$ 的直线，根据两平面垂直的判定定理，$\\alpha\\perp\\beta$. 因此“$\\alpha\\perp\\beta$”是“$m\\perp\\beta$”的必要条件.\r\n\r\n反之，$\\alpha\\perp\\beta$ 时，平面 $\\alpha$ 内只有特定方向的直线垂直于 $\\beta$，任意给定的直线 $m\\subset\\alpha$ 不一定具有该方向，所以不是充分条件. 因此选择 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "设斜率为 $2$ 的直线 $l$ 过抛物线 $y^{2} = ax$（$a \\neq 0$）的焦点 $F$，且和 $y$ 轴交于点 $A$. 若 $\\triangle OAF$（$O$ 为坐标原点）的面积为 $4$，则抛物线方程为（ ）",
+          "choices": [
+            "$y^{2} = \\pm 4x$",
+            "$y^{2} = \\pm 8x$",
+            "$y^{2} = 4x$",
+            "$y^{2} = 8x$"
+          ],
+          "answer": "B",
+          "solution": "设抛物线 $y^2=ax$ 的标准参数为 $p$，则 $a=4p$，焦点为 $F(p,0)$. 斜率为 $2$ 且过 $F$ 的直线为 $y=2(x-p)$，它与 $y$ 轴交于 $A(0,-2p)$. 因此 $OA=2\\lvert p\\rvert$，$OF=\\lvert p\\rvert$，且 $OA\\perp OF$，从而\r\n\n$$\nS_{\\triangle OAF}=\\frac12\\cdot OA\\cdot OF=p^2=4\n$$\n\r\n所以 $p=\\pm2$，即 $a=\\pm8$. 抛物线方程为 $y^2=\\pm8x$，选择 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "在区间 $\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$ 上随机取一个数 $x$，$\\cos x$ 的值介于 $0$ 到 $\\frac{1}{2}$ 之间的概率为（ ）",
+          "choices": [
+            "$\\frac{1}{3}$",
+            "$\\frac{2}{\\pi}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{2}{3}$"
+          ],
+          "answer": "A",
+          "solution": "在区间 $\\left[-\\frac\\pi2,\\frac\\pi2\\right]$ 内，$\\cos x\\geqslant0$. 条件 $0\\le\\cos x\\le\\frac12$ 等价于\r\n\n$$\n\\lvert x\\rvert\\ge\\frac\\pi3\n$$\n\r\n所以满足条件的区间为\r\n\n$$\n\\left[-\\frac\\pi2,-\\frac\\pi3\\right]\\cup\\left[\\frac\\pi3,\\frac\\pi2\\right]\n$$\n\r\n其长度为 $\\frac\\pi3$，原区间长度为 $\\pi$，故所求概率为\r\n\n$$\n\\frac{\\frac\\pi3}{\\pi}=\\frac13\n$$\n\r\n因此选择 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "已知定义在 $\\mathbb{R}$ 上的奇函数 $f(x)$ 满足 $f(x - 4) = -f(x)$. 且在区间 $[0,2]$ 上是增函数，则（ ）",
+          "choices": [
+            "$f(-25) < f(11) < f(80)$",
+            "$f(80) < f(11) < f(-25)$",
+            "$f(11) < f(80) < f(-25)$",
+            "$f(-25) < f(80) < f(11)$"
+          ],
+          "answer": "D",
+          "solution": "由奇函数性质，$f(0)=0$. 由题设 $f(x-4)=-f(x)$，令 $x$ 替换为 $x+4$，得 $f(x+4)=-f(x)$，从而 $f(x+8)=f(x)$.\r\n\r\n利用周期性和反周期关系，\r\n$f(-25)=f(-1)=-f(1)$，$f(11)=f(3)=f(1)$，$f(80)=f(0)=0$.\r\n由于 $f$ 在 $[0,2]$ 上递增，$f(1)>f(0)=0$，所以\r\n\n$$\nf(-25)=-f(1)<f(80)=0<f(11)=f(1)\n$$\n\r\n因此选择 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "在等差数列 $\\{a_{n}\\}$ 中，$a_{3} = 7$，$a_{5} = a_{2} + 6$，则 $a_{6} =$ _______ {}.",
+          "choices": [],
+          "answer": "\\(13\\).",
+          "solution": "设等差数列的公差为 $d$. 由\r\n\n$$\na_5-a_2=3d=6\n$$\n\r\n得 $d=2$. 因而\r\n\n$$\na_6=a_3+3d=7+3\\times2=13\n$$\n\r\n所以填 $13$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "若函数 $f(x) = a^x - x - a$（$a > 0$ 且 $a \\neq 1$）有两个零点，则实数 $a$ 的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\(a > 1\\).",
+          "solution": "令 $f(x)=a^x-x-a$. 当 $0<a<1$ 时，\r\n\n$$\nf'(x)=a^x\\ln a-1<0\n$$\n\r\n所以 $f$ 在 $\\mathbb{R}$ 上严格递减，至多有一个零点.\r\n\r\n当 $a>1$ 时，$f$ 连续，且\r\n$f(0)=1-a<0$，$\\lim_{x\\to-\\infty}f(x)=+\\infty$，$\\lim_{x\\to+\\infty}f(x)=+\\infty$.\r\n因此在 $0$ 的左右两侧各有一个零点. 又\r\n\n$$\nf''(x)=a^x(\\ln a)^2>0\n$$\n\r\n函数严格凸，故零点不超过两个，恰有两个零点. 所以 $a$ 的取值范围为 $a>1$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "执行如图的程序框图，输出的 $T =$ _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shandong_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(30\\).",
+          "solution": "按程序逐次执行. 初始 $S=0$，$T=0$，$n=0$，因为 $T>S$ 不成立，执行一次循环后\r\n\n$$\n(S,n,T)=(5,2,2)\n$$\n\r\n继续执行得到\r\n$(S,n,T)=(10,4,6)$，$(15,6,12)$，$(20,8,20)$，$(25,10,30)$.\r\n此时 $T=30>S=25$，程序输出 $T=30$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "某公司租赁甲，乙两种设备生产 $A$，$B$ 两类产品，甲种设备每天能生产 $A$ 类产品 $5$ 件和 $B$ 类产品 $10$ 件，乙种设备每天能生产 $A$ 类产品 $6$ 件和 $B$ 类产品 $20$ 件. 已知设备甲每天的租赁费为 $200$ 元，设备乙每天的租赁费为 $300$ 元. 现该公司至少要生产 $A$ 类产品 $50$ 件，$B$ 类产品 $140$ 件，所需租赁费最少为 _______ {}\\text{元}.",
+          "choices": [],
+          "answer": "\\(2300\\).",
+          "solution": "设租赁甲、乙两种设备的天数分别为 $x$，$y$，则 $x$，$y\\geqslant0$，并满足\r\n$5x+6y\\geqslant50$，$10x+20y\\geqslant140$\r\n即\r\n$5x+6y\\geqslant50$，$x+2y\\geqslant14$.\r\n租赁费为 $200x+300y=100(2x+3y)$. 注意到\r\n\n$$\n2x+3y=\\frac14(5x+6y)+\\frac34(x+2y)\r\n\\ge\\frac14\\times50+\\frac34\\times14=23\n$$\n\r\n所以租赁费至少为 $100\\times23=2300$ 元. 取 $x=4$，$y=5$ 时，$5x+6y=50$，$x+2y=14$，同时达到两项产量要求，且租赁费为 $200\\times4+300\\times5=2300$ 元.\r\n故最少租赁费为 $2300$ 元.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "已知函数 $f(x) = 2\\sin x\\cos^2\\frac{\\varphi}{2} + \\cos x\\sin \\varphi - \\sin x$（$0 < \\varphi < \\pi$）在 $x = \\pi$ 处取最小值.\r\n\r\n\n(1) 求 $\\varphi$ 的值.\n\n(2) 在 $\\triangle ABC$ 中，$a$，$b$，$c$ 分别是角 $A$，$B$，$C$ 的对边. 已知 $a = 1$，$b = \\sqrt{2}$，$f(A) = \\frac{\\sqrt{3}}{2}$，求角 $C$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由二倍角公式，得\r\n\n$$\nf(x)=\\bigl(1+\\cos\\varphi\\bigr)\\sin x+\\sin\\varphi\\cos x-\\sin x=\\sin(x+\\varphi)\n$$\n\r\n函数 $\\sin(x+\\varphi)$ 的最小值为 $-1$. 因为在 $x=\\pi$ 处取得最小值，所以 $\\sin(\\pi+\\varphi)=-1$. 又 $0<\\varphi<\\pi$，故 $\\pi+\\varphi\\in(\\pi,2\\pi)$，从而 $\\pi+\\varphi=\\frac{3\\pi}{2}$，即 $\\varphi=\\frac{\\pi}{2}$.\n\n(2) 由上问，$f(x)=\\sin\\left(x+\\frac{\\pi}{2}\\right)=\\cos x$. 因为 $0<A<\\pi$，且 $f(A)=\\frac{\\sqrt{3}}{2}$，所以 $\\cos A=\\frac{\\sqrt{3}}{2}$，得 $A=\\frac{\\pi}{6}$.\r\n\r\n由正弦定理，$\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}$，所以 $\\sin B=\\dfrac{b\\sin A}{a}=\\sqrt{2}\\cdot\\dfrac{1}{2}=\\dfrac{\\sqrt{2}}{2}$. 因此 $B=\\frac{\\pi}{4}$ 或 $B=\\frac{3\\pi}{4}$，相应地\r\n\n$$\nC=\\pi-A-B=\\frac{7\\pi}{12} \\text{或}  C=\\frac{\\pi}{12}\n$$\n\r\n故 $C=\\frac{\\pi}{12}$ 或 $\\frac{7\\pi}{12}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，在直四棱柱 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，底面 $ABCD$ 为等腰梯形，$AB \\parallel CD$，$AB = 4$，$BC = CD = 2$，$AA_{1} = 2$，$E$，$E_{1}$ 分别是棱 $AD$，$AA_{1}$ 的中点.\r\n\r\n\n(1) 设 $F$ 是棱 $AB$ 的中点，证明：直线 $EE_{1} \\parallel$ 平面 $FCC_{1}$；\n\n(2) 证明：平面 $D_{1}AC \\perp$ 平面 $BB_{1}C_{1}C$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shandong_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "设等腰梯形的两底边分别位于平面直角坐标系的同一水平线上，取 $A(0,0,0)$，$B(4,0,0)$，$D(1,\\sqrt{3},0)$，$C(3,\\sqrt{3},0)$，并令竖直方向为第三坐标轴. 这是因为等腰梯形的两腰长为 $2$，两底边长度之差为 $2$，故其高为 $\\sqrt{2^{2}-1^{2}}=\\sqrt{3}$. 于是 $A_{1}(0,0,2)$，$B_{1}(4,0,2)$，$C_{1}(3,\\sqrt{3},2)$，$D_{1}(1,\\sqrt{3},2)$，且 $E\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$E_{1}(0,0,1)$，$F(2,0,0)$.\r\n\r\n\n(1) 有 $\\overrightarrow{FC}=(1,\\sqrt{3},0)$，$\\overrightarrow{FC_{1}}=(1,\\sqrt{3},2)$，$\\overrightarrow{EE_{1}}=\\left(-\\frac{1}{2},-\\frac{\\sqrt{3}}{2},1\\right)$. 直接计算得\r\n\n$$\n\\overrightarrow{EE_{1}}=-\\overrightarrow{FC}+\\frac{1}{2}\\overrightarrow{FC_{1}}\n$$\n\r\n所以直线 $EE_{1}$ 的方向向量是平面 $FCC_{1}$ 内两个相交向量的线性组合，故 $EE_{1}$ 的方向平行于平面 $FCC_{1}$. 另外，平面 $FCC_{1}$ 的一个法向量为 $\\overrightarrow{FC}\\times\\overrightarrow{FC_{1}}=2(\\sqrt{3},-1,0)$，而 $\\overrightarrow{FE}=\\left(-\\frac{3}{2},\\frac{\\sqrt{3}}{2},0\\right)$ 与该法向量的内积为 $-4\\sqrt{3}\\ne0$，所以 $E\\notin\\text{平面 }FCC_{1}$. 因此直线 $EE_{1}\\parallel$ 平面 $FCC_{1}$.\n\n(2) 取平面 $D_{1}AC$ 内的两个相交向量 $\\overrightarrow{AC}=(3,\\sqrt{3},0)$，$\\overrightarrow{AD_{1}}=(1,\\sqrt{3},2)$，则该平面的一个法向量为\r\n\n$$\n\\mathbf{n}_{1}=\\overrightarrow{AC}\\times\\overrightarrow{AD_{1}}=2(\\sqrt{3},-3,\\sqrt{3})\n$$\n\r\n平面 $BB_{1}C_{1}C$ 内的两个相交向量可取 $\\overrightarrow{BC}=(-1,\\sqrt{3},0)$，$\\overrightarrow{BB_{1}}=(0,0,2)$，故其一个法向量为\r\n\n$$\n\\mathbf{n}_{2}=\\overrightarrow{BC}\\times\\overrightarrow{BB_{1}}=2(\\sqrt{3},1,0)\n$$\n\r\n于是 $\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=4(3-3)=0$. 两平面的法向量互相垂直，所以平面 $D_{1}AC\\perp$ 平面 $BB_{1}C_{1}C$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "一汽车厂生产 $A$，$B$，$C$ 三类轿车，每类轿车均有舒适型和标准型两种型号，某月的产量如下表（单位：辆）：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|c|c|}\r\n\\hline\r\n& 轿车 $A$ & 轿车 $B$ & 轿车 $C$ \\\\\r\n\\hline\r\n舒适型 & $100$ & $150$ & $z$ \\\\\r\n\\hline\r\n标准型 & $300$ & $450$ & $600$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n按类型分层抽样的方法在这个月生产的轿车中抽取 $50$ 辆，其中有 A 类轿车 $10$ 辆.\r\n\r\n\n(1) 求 $z$ 的值.\n\n(2) 用分层抽样的方法在 C 类轿车中抽取一个容量为 $5$ 的样本. 将该样本看成一个总体，从中任取 $2$ 辆，求至少有 $1$ 辆舒适型轿车的概率.\n\n(3) 用随机抽样的方法从 B 类舒适型轿车中抽取 $8$ 辆，经检测它们的得分如下：$9.4$，$8.6$，$9.2$，$9.6$，$8.7$，$9.3$，$9.0$，$8.2$. 把这 $8$ 辆轿车的得分看作一个总体，从中任取一个数，求该数与样本平均数之差的绝对值不超过 $0.5$ 的概率.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) A 类轿车共有 $100+300=400$ 辆，B 类轿车共有 $150+450=600$ 辆，全部轿车共有 $1600+z$ 辆. 由分层抽样的比例相同，得\r\n\n$$\n\\frac{400}{1600+z}=\\frac{10}{50}=\\frac{1}{5}\n$$\n\r\n解得 $z=400$.\n\n(2) C 类轿车共有 $400+600=1000$ 辆，其中舒适型轿车有 $400$ 辆，标准型轿车有 $600$ 辆. 按比例抽取容量为 $5$ 的样本，样本中舒适型轿车有 $5\\cdot\\frac{400}{1000}=2$ 辆，标准型轿车有 $3$ 辆. 从这 $5$ 辆中任取 $2$ 辆，至少有 $1$ 辆舒适型轿车的概率为\r\n\n$$\n1-\\frac{\\mathrm C_{3}^{2}}{\\mathrm C_{5}^{2}}=1-\\frac{3}{10}=\\frac{7}{10}\n$$\n\n(3) 这 $8$ 辆轿车的得分总和为 $9.4+8.6+9.2+9.6+8.7+9.3+9.0+8.2=72$，所以样本平均数为 $\\bar x=\\frac{72}{8}=9$. 满足 $\\lvert x-\\bar x\\rvert\\leqslant0.5$ 的得分应在区间 $[8.5,9.5]$ 内，其中有 $9.4$，$8.6$，$9.2$，$8.7$，$9.3$，$9.0$，共 $6$ 个. 因而所求概率为 $\\frac{6}{8}=\\frac{3}{4}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "等比数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$. 已知对任意的 $n \\in \\mathbf{N}^{*}$，点 $(n, S_{n})$ 均在函数 $y = b^{x} + r$（$b > 0$ 且 $b \\neq 1$，$b$，$r$ 均为常数）的图象上.\r\n\r\n\n(1) 求 $r$ 的值.\n\n(2) 当 $b = 2$ 时，记 $b_{n} = \\frac{n + 1}{4a_{n}}$（$n \\in \\mathbf{N}^{*}$），求数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 对 $n\\geqslant2$，由 $S_n=b^n+r$ 得 $a_n=S_n-S_{n-1}=b^{n-1}(b-1)$. 特别地，$a_2=b(b-1)$，$a_3=b^2(b-1)$，所以等比数列的公比为 $\\frac{a_3}{a_2}=b$. 又 $a_1=S_1=b+r$，故\r\n$a_2=ba_1$，$\\Longrightarrow$，$b(b-1)=b(b+r)$.\r\n因为 $b>0$，所以 $r=-1$.\n\n(2) 当 $b=2$ 时，$S_n=2^n-1$. 因而 $a_1=S_1=1$，且对 $n\\geqslant2$，$a_n=S_n-S_{n-1}=2^{n-1}$，即对任意 $n\\in\\mathbf N^*$，$a_n=2^{n-1}$. 所以\r\n\n$$\nb_n=\\frac{n+1}{4a_n}=\\frac{n+1}{2^{n+1}}\n$$\n\r\n于是\r\n\n$$\nT_n=\\sum_{k=1}^{n}\\frac{k+1}{2^{k+1}}=\\sum_{k=1}^{n}\\frac{k}{2^{k+1}}+\\sum_{k=1}^{n}\\frac{1}{2^{k+1}}=1-\\frac{n+2}{2^{n+1}}+\\frac{1}{2}-\\frac{1}{2^{n+1}}=\\frac{3}{2}-\\frac{n+3}{2^{n+1}}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知函数 $f(x) = \\frac{1}{3}ax^3 + bx^2 + x + 3$，其中 $a \\neq 0$.\r\n\r\n\n(1) 当 $a$，$b$ 满足什么条件时，$f(x)$ 取得极值？\n\n(2) 已知 $a > 0$，且 $f(x)$ 在区间 $(0,1]$ 上单调递增，试用 $a$ 表示出 $b$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由 $f'(x)=ax^2+2bx+1$，得 $f'(x)=0$ 的判别式为 $\\Delta=(2b)^2-4a=4(b^2-a)$. 当 $b^2-a>0$ 时，$f'(x)=0$ 有两个不相等的实根，且导函数在两根之间、之外符号不同，故 $f(x)$ 有极大值和极小值. 当 $b^2-a\\leqslant0$ 时，导函数没有两个不相等的实根，符号不发生由正到负或由负到正的变化，故 $f(x)$ 不取得极值. 因此所求条件为 $b^2>a$.\n\n(2) 记 $g(x)=f'(x)=ax^2+2bx+1$. 函数在 $(0,1]$ 上单调递增，当且仅当 $g(x)\\geqslant0$（$0<x<1$）. 因为 $a>0$ 且 $g(0)=1>0$，只需讨论二次函数顶点在区间右侧还是区间内部.\r\n\r\n当 $b\\ge-a$ 时，顶点横坐标 $-\\frac{b}{a}\\leqslant1$，在顶点位于正半轴的情形下，$g(x)$ 的最小值为 $1-\\frac{b^2}{a}$，故需有 $b\\ge-\\sqrt a$；而 $b\\geqslant0$ 时该条件也自动满足.\r\n\r\n当 $b<-a$ 时，顶点横坐标大于 $1$，所以 $g(x)$ 在 $(0,1]$ 上递减，最小值为 $g(1)=a+2b+1$，从而需有 $b\\ge-\\frac{a+1}{2}$. 结合两种情形，并注意到当 $0<a<1$ 时 $\\frac{a+1}{2}\\ge\\sqrt a$，当 $a\\geqslant1$ 时第二种情形不能产生更严格的范围，得\r\n\n$$\nb\\in\r\n\\begin{cases}\r\n\\left[-\\dfrac{a+1}{2},+\\infty\\right),&0<a<1,\\\\\r\n[-\\sqrt a,+\\infty),&a\\geqslant1.\r\n\\end{cases}\n$$\n\r\n等号情形下导函数至多在一个点为零，函数仍在该区间上单调递增.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "设 $m \\in \\mathbb{R}$，在平面直角坐标系中，已知向量 $\\mathbf{a} = (mx, y + 1)$，向量 $\\mathbf{b} = (x, y - 1)$，$\\mathbf{a} \\perp \\mathbf{b}$，动点 $M(x, y)$ 的轨迹为 $E$.\r\n\r\n\n(1) 求轨迹 $E$ 的方程，并说明该方程所表示曲线的形状.\n\n(2) 已知 $m = \\frac{1}{4}$，证明：存在圆心在原点的圆，使得该圆的任意一条切线与轨迹 $E$ 恒有两个交点 $A$，$B$，且 $OA \\perp OB$（$O$ 为坐标原点），并求出该圆的方程.\n\n(3) 已知 $m = \\frac{1}{4}$，设直线 $l$ 与圆 $C: x^2 + y^2 = R^2$（$1 < R < 2$）相切于 $A_1$，且 $l$ 与轨迹 $E$ 只有一个公共点 $B_1$，当 $R$ 为何值时，$\\lvert A_1B_1\\rvert$ 取得最大值？并求最大值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由 $\\mathbf{a}\\perp\\mathbf{b}$，得\r\n\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=mx^2+(y+1)(y-1)=0\n$$\n\r\n即轨迹 $E$ 的方程为 $mx^2+y^2=1$. 当 $m>0$ 时，这是以原点为中心的椭圆；当 $m=0$ 时，这是两条平行直线 $y=1$ 和 $y=-1$；当 $m<0$ 时，方程可写为 $y^2-\\lvert m\\rvert x^2=1$，表示焦点在 $y$ 轴上的双曲线.\n\n(2) 当 $m=\\frac14$ 时，轨迹为椭圆 $\\frac{x^2}{4}+y^2=1$. 设圆的半径为 $\\rho$，取该圆任意一条切线，写成\r\n$ux+vy=\\rho$，$u^2+v^2=1$.\r\n令切点到原点的垂足为 $H=\\rho(u,v)$，取直线方向向量 $(-v,u)$，则直线上的点可表示为\r\n\n$$\n(x,y)=\\bigl(\\rho u-tv,\\rho v+tu\\bigr)\n$$\n\r\n将其代入椭圆方程，得关于 $t$ 的二次方程\r\n\n$$\n\\left(u^2+\\frac{v^2}{4}\\right)t^2+\\frac{3}{2}\\rho uv\\,t+\\rho^2\\left(\\frac{u^2}{4}+v^2\\right)-1=0\n$$\n\r\n记两个交点对应的参数为 $t_1$，$t_2$. 对应点的向量内积为\r\n\n$$\n\\overrightarrow{OP_1}\\cdot\\overrightarrow{OP_2}=\\rho^2+t_1t_2\n$$\n\r\n若令 $\\rho^2=\\frac45$，则由 $u^2+v^2=1$ 有\r\n\n$$\n\\rho^2\\left(\\frac{u^2}{4}+v^2\\right)-1=-\\rho^2\\left(u^2+\\frac{v^2}{4}\\right)\n$$\n\r\n由韦达定理，$t_1t_2=-\\rho^2$，因而 $\\overrightarrow{OP_1}\\cdot\\overrightarrow{OP_2}=0$，即 $OP_1\\perp OP_2$. 同时该二次方程的判别式为\r\n\n$$\n\\left(\\frac32\\rho uv\\right)^2+4\\rho^2\\left(u^2+\\frac{v^2}{4}\\right)^2>0\n$$\n\r\n所以每条切线与椭圆有两个不同交点. 因此所求圆为\r\n\n$$\nx^2+y^2=\\frac45\n$$\n\n(3) 直线 $l$ 与椭圆只有一个公共点，所以 $l$ 是椭圆的切线. 仍将其写成 $ux+vy=R$，其中 $u^2+v^2=1$，且切点 $A_1=R(u,v)$. 椭圆 $\\frac{x^2}{4}+y^2=1$ 在法向量 $(u,v)$ 方向的支撑函数为 $\\sqrt{4u^2+v^2}$，故切线条件为\r\n$R=\\sqrt{4u^2+v^2}$，$R^2=1+3u^2$.\r\n因此 $u^2=\\frac{R^2-1}{3}$，$v^2=\\frac{4-R^2}{3}$. 椭圆在该切线上的切点为 $B_1=\\left(\\frac{4u}{R},\\frac{v}{R}\\right)$. 所以\r\n\n$$\n\\lvert A_1B_1\\rvert^2=\\frac{(R^2-4)^2u^2+(R^2-1)^2v^2}{R^2}=\\frac{(R^2-1)(4-R^2)}{R^2}\n$$\n\r\n令 $t=R^2$，则 $1<t<4$，且\r\n\n$$\n\\lvert A_1B_1\\rvert^2=\\frac{(t-1)(4-t)}{t}=5-t-\\frac4t\n$$\n\r\n其导数为 $-1+\\frac4{t^2}$，在 $1<t<4$ 内令导数为零，得 $t=2$. 此时函数先增后减，故 $\\lvert A_1B_1\\rvert^2$ 的最大值为 $1$，从而当 $R=\\sqrt2$ 时，$\\lvert A_1B_1\\rvert$ 取得最大值，最大值为 $1$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

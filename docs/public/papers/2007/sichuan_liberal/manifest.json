@@ -1,0 +1,416 @@
+{
+  "year": "2007",
+  "slug": "sichuan_liberal",
+  "title": "2007年四川卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设集合 $M = \\{4, 5, 6, 8\\}$，集合 $N = \\{3, 5, 7, 8\\}$，那么 $M \\cup N =$（ ）",
+          "choices": [
+            "$\\{3, 4, 5, 6, 7, 8\\}$",
+            "$\\{5, 8\\}$",
+            "$\\{3, 5, 7, 8\\}$",
+            "$\\{4, 5, 6, 8\\}$"
+          ],
+          "answer": "A",
+          "solution": "集合并集包含 $M$ 与 $N$ 中出现过的所有元素，去掉重复元素 $5$，$8$，得\r\n\n$$\nM\\cup N=\\{3,4,5,6,7,8\\}\n$$\n\r\n所以选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "函数 $f(x) = 1 + \\log_2 x$ 与 $g(x) = 2^{-x + 1}$ 在同一直角坐标系下的图象大致是（ ）",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2007/img/sichuan_liberal/q2_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2007/img/sichuan_liberal/q2_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2007/img/sichuan_liberal/q2_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2007/img/sichuan_liberal/q2_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "C",
+          "solution": "函数 $f(x)=1+\\log_{2}x$ 的定义域为 $x>0$，且 $f'(x)=\\dfrac{1}{x\\ln2}>0$，所以其图象在定义域内单调递增，并经过点 $(1,1)$，且 $f\\left(\\dfrac12\\right)=0$，$f(2)=2$. 函数 $g(x)=2^{1-x}$ 满足 $g'(x)=-(\\ln2)2^{1-x}<0$，所以其图象单调递减，也经过点 $(1,1)$，且 $g(0)=2$，$g(2)=\\dfrac12$. 因此两图象在 $(1,1)$ 相交，且一个递增、一个递减，结合 $f$ 的横截距为 $\\dfrac12$，符合题意的图象为 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "某商场买来一车苹果，从中随机抽取了 $10$ 个苹果，其重量（单位：克）分别为：$150$，$152$，$153$，$149$，$148$，$146$，$151$，$150$，$152$，$147$，由此估计这车苹果单个重量的期望值是（ ）",
+          "choices": [
+            "$150.2\\text{ 克}$",
+            "$149.8\\text{ 克}$",
+            "$149.4\\text{ 克}$",
+            "$147.8\\text{ 克}$"
+          ],
+          "answer": "B",
+          "solution": "用这 $10$ 个苹果重量的平均数估计单个苹果重量的期望值，有\r\n\n$$\n\\frac{150+152+153+149+148+146+151+150+152+147}{10}\r\n =\\frac{1498}{10}=149.8\\text{ 克}\n$$\n\r\n所以选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "如图， $ABCD - A_{1}B_{1}C_{1}D_{1}$ 为正方体，下面结论错误的是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/sichuan_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
+          "choices": [
+            "$BD \\parallel$ 平面 $CB_{1}D_{1}$",
+            "$AC_{1} \\perp BD$",
+            "$AC_{1} \\perp$ 平面 $CB_{1}D_{1}$",
+            "异面直线 $AD$ 与 $CB_{1}$ 角为 $60^{\\circ}$"
+          ],
+          "answer": "D",
+          "solution": "建立空间直角坐标系，令 $A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$，以及\r\n$A_{1}=(0,0,1)$，$B_{1}=(1,0,1)$，$C_{1}=(1,1,1)$，$D_{1}=(0,1,1)$.\r\n平面 $CB_{1}D_{1}$ 的方程为 $x+y+z=2$，而直线 $BD$ 上各点满足 $x+y+z=1$，故 $BD\\parallel$ 平面 $CB_{1}D_{1}$. 又 $\\overrightarrow{AC_{1}}=(1,1,1)$，$\\overrightarrow{BD}=(-1,1,0)$，\r\n所以 $\\overrightarrow{AC_{1}}\\cdot\\overrightarrow{BD}=0$，从而 $AC_{1}\\perp BD$. 平面 $CB_{1}D_{1}$ 的法向量为 $(1,1,1)$，故 $AC_{1}\\perp$ 平面 $CB_{1}D_{1}$. 最后，取 $\\overrightarrow{AD}=(0,1,0)$，$\\overrightarrow{CB_{1}}=(0,-1,1)$，则\r\n\n$$\n\\cos\\angle(AD,CB_{1})=\\frac{|(0,1,0)\\cdot(0,-1,1)|}{1\\cdot\\sqrt2}=\\frac{1}{\\sqrt2}\n$$\n\r\n故两异面直线所成的角为 $45^{\\circ}$，不是 $60^{\\circ}$. 所以错误的结论是 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "如果双曲线 $\\frac{x^2}{4} - \\frac{y^2}{2} = 1$ 上一点 $P$ 到双曲线右焦点的距离是 $2$，那么点 $P$ 到 $y$ 轴的距离是（ ）",
+          "choices": [
+            "$\\frac{4\\sqrt{6}}{3}$",
+            "$\\frac{2\\sqrt{6}}{3}$",
+            "$2\\sqrt{6}$",
+            "$2\\sqrt{3}$"
+          ],
+          "answer": "A",
+          "solution": "双曲线的焦半距为 $c=\\sqrt{4+2}=\\sqrt6$，右焦点为 $F=(\\sqrt6,0)$. 设 $P=(x,y)$，由双曲线方程得\r\n\n$$\ny^{2}=\\frac{x^{2}}{2}-2\n$$\n\r\n又因为 $PF=2$，所以\r\n\n$$\n(x-\\sqrt6)^{2}+y^{2}=4\n$$\n\r\n代入上式，得\r\n\n$$\nx^{2}-2\\sqrt6x+6+\\frac{x^{2}}2-2=4\n$$\n\r\n从而 $x\\left(\\frac32x-2\\sqrt6\\right)=0$.\r\n若 $x=0$，则 $y^{2}=-2$，不可能；因此 $x=\\dfrac{4\\sqrt6}{3}>0$. 点 $P$ 到 $y$ 轴的距离为 $|x|=\\dfrac{4\\sqrt6}{3}$，所以选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "设球 $O$ 的半径是 $1$，$A$，$B$，$C$ 是球面上三点. 已知 $A$ 到 $B$，$C$ 两点的球面距离都是 $\\frac{\\pi}{2}$，且二面角 $B - OA - C$ 的大小为 $\\frac{\\pi}{3}$，则从 $A$ 点沿球面经 $B$，$C$ 两点再回到 $A$ 点的最短距离是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/sichuan_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\frac{7\\pi}{6}$",
+            "$\\frac{5\\pi}{4}$",
+            "$\\frac{4\\pi}{3}$",
+            "$\\frac{3\\pi}{2}$"
+          ],
+          "answer": "C",
+          "solution": "球的半径为 $1$，且 $A$ 到 $B$，$C$ 的球面距离均为 $\\dfrac\\pi2$，所以\r\n\n$$\n\\angle AOB=\\angle AOC=\\frac\\pi2\n$$\n\r\n由于 $OB$，$OC$ 都垂直于 $OA$，二面角 $B-OA-C$ 的平面角就是 $\\angle BOC$，故 $\\angle BOC=\\dfrac\\pi3$. 半径为 $1$ 时，球面最短弧长等于相应的圆心角，因此所求最短距离为\r\n\n$$\n\\frac\\pi2+\\frac\\pi3+\\frac\\pi2=\\frac{4\\pi}{3}\n$$\n\r\n任意一条经 $A$，$B$，$C$，$A$ 的球面路径，其三段长度分别不小于这三个点对之间的球面距离；取三段对应的大圆短弧时可以同时达到这些下界，所以最短距离为 $\\frac{4\\pi}{3}$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "等差数列 $\\{a_{n}\\}$ 中，$a_{1} = 1$，$a_{3} + a_{5} = 14$，其前 $n$ 项和 $S_{n} = 100$，则 $n =$（ ）",
+          "choices": [
+            "$9$",
+            "$10$",
+            "$11$",
+            "$12$"
+          ],
+          "answer": "B",
+          "solution": "设等差数列的公差为 $d$，则\r\n\n$$\na_{3}+a_{5}=(1+2d)+(1+4d)=14\n$$\n\r\n所以 $d=2$. 因而\r\n\n$$\nS_{n}=\\frac{n}{2}\\bigl(2a_{1}+(n-1)d\\bigr)\r\n =\\frac{n}{2}\\bigl(2+2(n-1)\\bigr)=n^{2}\n$$\n\r\n由 $S_{n}=100$ 且 $n$ 为正整数，得 $n^{2}=100$，所以 $n=10$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "设 $A(a,1)$，$B(2,b)$，$C(4,5)$ 为坐标平面上三点，$O$ 为坐标原点. 若 $\\overrightarrow{OA}$ 与 $\\overrightarrow{OB}$ 在 $\\overrightarrow{OC}$ 上的投影相同，则 $a$ 与 $b$ 满足的关系式为（ ）",
+          "choices": [
+            "$4a - 5b = 3$",
+            "$5a - 4b = 3$",
+            "$4a + 5b = 14$",
+            "$5a + 4b = 14$"
+          ],
+          "answer": "A",
+          "solution": "两个向量在同一非零向量 $\\overrightarrow{OC}$ 上的投影相同，等价于它们与 $\\overrightarrow{OC}$ 的内积相同. 因为 $\\overrightarrow{OA}=(a,1)$，$\\overrightarrow{OB}=(2,b)$，$\\overrightarrow{OC}=(4,5)$，\r\n所以\r\n\n$$\n4a+5=\\overrightarrow{OA}\\cdot\\overrightarrow{OC}\r\n =\\overrightarrow{OB}\\cdot\\overrightarrow{OC}=8+5b\n$$\n\r\n整理得 $4a-5b=3$，所以选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "用数字 $1$，$2$，$3$，$4$，$5$ 可以组成没有重复数字，并且比 $20000$ 大的五位偶数共有（ ）",
+          "choices": [
+            "$48$ 个",
+            "$36$ 个",
+            "$24$ 个",
+            "$18$ 个"
+          ],
+          "answer": "B",
+          "solution": "五位偶数的个位只能是 $2$ 或 $4$. 当个位为 $2$ 时，首位为 $3$，$4$ 或 $5$，有 $3$ 种选法；首位确定后，中间三位有 $3!$ 种排法，共 $3\\times3!=18$ 个. 当个位为 $4$ 时，首位为 $2$，$3$ 或 $5$，同样有 $18$ 个. 因而总数为\r\n\n$$\n18+18=36\n$$\n\r\n所以选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "已知抛物线 $y = -x^2 + 3$ 上存在关于直线 $x + y = 0$ 对称的相异两点 $A$，$B$，则 $|AB|$ 等于（ ）",
+          "choices": [
+            "$3$",
+            "$4$",
+            "$3 \\sqrt{2}$",
+            "$4\\sqrt{2}$"
+          ],
+          "answer": "C",
+          "solution": "设抛物线上的一点为 $A=(t,3-t^{2})$. 关于直线 $x+y=0$ 对称时，点 $A$ 的对称点为\r\n\n$$\nB=(t^{2}-3,-t)\n$$\n\r\n要使 $B$ 仍在抛物线上，需满足\r\n\n$$\n-t=-\\left(t^{2}-3\\right)^{2}+3\n$$\n\r\n从而\r\n\n$$\nt^{4}-6t^{2}-t+6=(t-1)(t+2)(t^{2}-t-3)=0\n$$\n\r\n若 $t^{2}-t-3=0$，则 $t^{2}=t+3$，从而 $A=(t,-t)=B$，不符合两点相异. 因此 $t=1$ 或 $t=-2$，对应的两点为 $A=(1,2)$，$B=(-2,-1)$.\r\n所以\r\n\n$$\n|AB|=\\sqrt{(1+2)^{2}+(2+1)^{2}}=3\\sqrt2\n$$\n\r\n所以选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "某公司有 $60\\text{ 万元}$ 资金，计划投资甲，乙两个项目，按要求对项目甲的投资不小于对项目乙投资的 $\\frac{2}{3}$ 倍，且对每个项目的投资不能低于 $5\\text{ 万元}$，对项目甲每投资 $1\\text{ 万元}$ 可获得 $0.4\\text{ 万元}$ 的利润，对项目乙每投资 $1\\text{ 万元}$ 可获得 $0.6\\text{ 万元}$ 的利润，该公司正确规划投资后，在这两个项目上共可获得的最大利润为（ ）",
+          "choices": [
+            "$36\\text{ 万元}$",
+            "$31.2\\text{ 万元}$",
+            "$30.4\\text{ 万元}$",
+            "$24\\text{ 万元}$"
+          ],
+          "answer": "B",
+          "solution": "设投资甲、乙项目的金额分别为 $x$，$y$ 万元，则\r\n$x+y\\leqslant60$，$x\\ge\\frac23y$，$x\\geqslant5$，$y\\geqslant5$\r\n由于增加甲项目的投资会增加利润且不破坏其他约束，所以最优方案必有 $x+y=60$. 于是 $x=60-y$，由 $x\\ge\\dfrac23y$ 得\r\n$60-y\\ge\\frac23y$，$y\\leqslant36$\r\n总利润为\r\n\n$$\n0.4x+0.6y=0.4(60-y)+0.6y=24+0.2y\n$$\n\r\n它随 $y$ 增大而增大，因此在 $y=36$，$x=24$ 时取得最大值\r\n\n$$\n0.4\\times24+0.6\\times36=31.2\\text{ 万元}\n$$\n\r\n所以选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "如图，$l_{1}$，$l_{2}$，$l_{3}$ 是同一平面内的三条平行直线，$l_{1}$ 与 $l_{2}$ 间的距离是 $1$，$l_{2}$ 与 $l_{3}$ 间的距离是 $2$，正三角形 $ABC$ 的三顶点分别在 $l_{1}$，$l_{2}$，$l_{3}$ 上，则 $\\triangle ABC$ 的边长是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/sichuan_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$2\\sqrt{3}$",
+            "$\\frac{4\\sqrt{6}}{3}$",
+            "$\\frac{3 - \\sqrt{7}}{4}$",
+            "$\\frac{2 - \\sqrt{21}}{3}$"
+          ],
+          "answer": "\\(\\frac{2\\sqrt{21}}{3}\\)（按题面条件计算，原卷选项有误）.",
+          "solution": "取三条平行线分别为 $y=1$，$y=0$，$y=-2$，设 $A=(x_{A},1)$，$B=(x_{B},0)$，$C=(x_{C},-2)$，\r\n并记 $u=x_{A}-x_{B}$，$v=x_{B}-x_{C}$. 设正三角形边长为 $s$，则\r\n\n$$\ns^{2}=u^{2}+1=v^{2}+4=(u+v)^{2}+9\n$$\n\r\n由 $AB=BC$ 和 $AB=AC$ 分别得\r\n\n$$\n\\begin{cases}\r\nu^{2}-v^{2}=3,\\\\\r\nu^{2}+1=(u+v)^{2}+9\r\n\\end{cases}\n$$\n\r\n从而\r\n\n$$\n\\begin{cases}\r\nu^{2}-v^{2}=3,\\\\\r\n2uv+v^{2}+8=0\r\n\\end{cases}\n$$\n\r\n由 $u^{2}=v^{2}+3$，对第二个等式平方，得\r\n$4u^{2}v^{2}=(v^{2}+8)^{2}$，$4v^{2}(v^{2}+3)=(v^{2}+8)^{2}$\r\n整理得\r\n\n$$\n3v^{4}-4v^{2}-64=0\n$$\n\r\n令 $z=v^{2}\\geqslant0$，则 $3z^{2}-4z-64=0$，故\r\n\n$$\nz=\\frac{4\\pm\\sqrt{16+768}}{6}=\\frac{4\\pm28}{6}\n$$\n\r\n舍去负根，得 $v^{2}=\\dfrac{16}{3}$，从而 $u^{2}=\\dfrac{25}{3}$. 此时可取 $u=\\dfrac5{\\sqrt3}$，$v=-\\dfrac4{\\sqrt3}$，满足 $2uv+v^{2}+8=0$，故平方没有引入不合条件的结果. 因而\r\n\n$$\ns^{2}=v^{2}+4=\\frac{16}{3}+4=\\frac{28}{3}\n$$\n\r\n所以 $s=\\sqrt{\\dfrac{28}{3}}=\\dfrac{2\\sqrt{21}}{3}$. 该值与原卷第四项印刷的 $\\dfrac{2-\\sqrt{21}}{3}$ 不一致，故按题面条件计算，原卷选项与题面条件不相容.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "$\\left(x - \\frac{1}{x}\\right)^n$ 的展开式中的第 $5$ 项为常数项，那么正整数 $n$ 的值是 _______ {}.",
+          "choices": [],
+          "answer": "\\(8\\)",
+          "solution": "二项式展开式的第 $5$ 项对应于通项中的 $k=4$，其通项为\r\n\n$$\nT_{k+1}=\\mathrm C_n^k x^{n-k}\\left(-\\frac{1}{x}\\right)^k=(-1)^k\\mathrm C_n^k x^{n-2k}\n$$\n\r\n因此第 $5$ 项为 $(-1)^4\\mathrm C_n^4x^{n-8}$. 它为常数项，当且仅当\r\n\n$$\nn-8=0\n$$\n\r\n所以 $n=8$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "如图，在正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，侧棱长为 $\\sqrt{2}$，底面三角形的边长为 1，则 $BC_{1}$ 与侧面 $ACC_{1}A_{1}$ 所成的角是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/sichuan_liberal/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(\\dfrac{\\pi}{6}\\)",
+          "solution": "建立空间直角坐标系，令 $A=(0,0,0)$，$C=(1,0,0)$，$B=\\left(\\dfrac12,\\dfrac{\\sqrt3}{2},0\\right)$，$C_{1}=(1,0,\\sqrt2)$. 则侧面 $ACC_{1}A_{1}$ 的方程为 $y=0$，其法向量可取 $\\mathbf{n}=(0,1,0)$，且 $\\overrightarrow{BC_{1}}=\\left(\\frac12,-\\frac{\\sqrt3}{2},\\sqrt2\\right)$，\r\n\n$$\n\\left|\\overrightarrow{BC_{1}}\\right|=\\sqrt{\\frac14+\\frac34+2}=\\sqrt3\n$$\n\r\n设直线 $BC_{1}$ 与平面 $ACC_{1}A_{1}$ 所成的角为 $\\theta$，则\r\n\n$$\n\\sin\\theta=\\frac{\\left|\\overrightarrow{BC_{1}}\\cdot\\mathbf{n}\\right|}{\\left|\\overrightarrow{BC_{1}}\\right|\\left|\\mathbf{n}\\right|}\r\n =\\frac{\\frac{\\sqrt3}{2}}{\\sqrt3}=\\frac12\n$$\n\r\n因为 $0\\le\\theta\\le\\dfrac\\pi2$，所以 $\\theta=\\dfrac\\pi6$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "已知 $\\odot O$ 的方程是 $x^{2} + y^{2} - 2 = 0$，$\\odot O'$ 的方程是 $x^{2} + y^{2} - 8x + 10 = 0$，由动点 $P$ 向 $\\odot O$ 和 $\\odot O'$ 所引的切线长相等，则动点 $P$ 的轨迹方程是 _______ {}.",
+          "choices": [],
+          "answer": "\\(x=\\dfrac32\\)",
+          "solution": "设动点 $P(x,y)$ 向两圆所引的切线长分别为 $L_{1}$，$L_{2}$. 将两圆方程化为标准形式，得\r\n\n$$\n\\odot O:x^{2}+y^{2}=2\n$$\n\r\n\n$$\n\\odot O':(x-4)^{2}+y^{2}=6\n$$\n\r\n由圆的切线长公式，\r\n\n$$\nL_{1}^{2}=x^{2}+y^{2}-2\n$$\n\r\n\n$$\nL_{2}^{2}=(x-4)^{2}+y^{2}-6\n$$\n\r\n由 $L_{1}=L_{2}$，得到\r\n\n$$\nx^{2}+y^{2}-2=(x-4)^{2}+y^{2}-6=x^{2}+y^{2}-8x+10\n$$\n\r\n所以 $8x=12$，动点 $P$ 的轨迹方程为 $x=\\dfrac32$.\r\n当 $x=\\dfrac32$ 时，$L_{1}^{2}=L_{2}^{2}=y^{2}+\\dfrac14>0$，故直线上的每一点均在两圆外且能作出两圆的切线，且两切线长相等，所以轨迹确为整条直线 $x=\\dfrac32$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "下面有五个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 函数 $y = \\sin^4 x - \\cos^4 x$ 的最小正周期是 $\\pi$；\r\n\\item 终边在 $y$ 轴上的角的集合是 $\\left\\{ \\alpha \\mid \\alpha = \\frac{k\\pi}{2}, k \\in \\mathbb{Z} \\right\\}$；\r\n\\item 在同一坐标系中，函数 $y = \\sin x$ 的图象和函数 $y = x$ 的图象有 $3$ 个公共点；\r\n\\item 把函数 $y = 3\\sin \\left(2x + \\frac{\\pi}{3}\\right)$ 的图象向右平移 $\\frac{\\pi}{6}$ 得到 $y = 3\\sin 2x$ 的图象；\r\n\\item 角 $\\theta$ 为第一象限角的充要条件是 $\\sin \\theta > 0$.\r\n\\end{circlelist}\r\n\r\n其中真命题的序号是 _______ {}.（写出所有）",
+          "choices": [],
+          "answer": "\\(\\circled{1}\\)\\(\\circled{4}\\)",
+          "solution": "逐一判断这五个命题. 有\r\n\n$$\n\\sin^{4}x-\\cos^{4}x=(\\sin^{2}x-\\cos^{2}x)(\\sin^{2}x+\\cos^{2}x)\r\n =\\sin^{2}x-\\cos^{2}x=-\\cos2x\n$$\n\r\n函数 $-\\cos2x$ 的最小正周期为 $\\pi$，所以命题 $\\circled{1}$ 正确.\r\n\r\n终边在 $y$ 轴上的角应满足\r\n$\\alpha=\\frac{(2k+1)\\pi}{2}$，$k\\in\\mathbb{Z}$\r\n而命题 $\\circled{2}$ 还包含终边在 $x$ 轴上的角，所以命题 $\\circled{2}$ 错误.\r\n\r\n令 $h(x)=x-\\sin x$，则 $h'(x)=1-\\cos x\\geqslant0$. 当 $x>0$ 时，$h'$ 在 $[0,x]$ 上不恒为零，故 $h(x)>h(0)=0$；当 $x<0$ 时，$h$ 为奇函数，故 $h(x)<0$. 因此方程 $\\sin x=x$ 只有 $x=0$ 一个解，命题 $\\circled{3}$ 错误.\r\n\r\n函数 $y=3\\sin\\left(2x+\\dfrac\\pi3\\right)$ 的图象向右平移 $\\dfrac\\pi6$ 后，得到\r\n\n$$\ny=3\\sin\\left(2\\left(x-\\frac\\pi6\\right)+\\frac\\pi3\\right)=3\\sin2x\n$$\n\r\n所以命题 $\\circled{4}$ 正确.\r\n\r\n命题 $\\circled{5}$ 不正确，例如 $\\theta=\\dfrac{3\\pi}{4}$ 时 $\\sin\\theta>0$，但 $\\theta$ 不是第一象限角.\r\n\r\n因此真命题的序号为 $\\circled{1}$$\\circled{4}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "厂家在产品出厂前，需对产品做检验. 厂家对一批产品发给商家的，商家按合同规定抽取一定数量的产品做检验，以决定是否验收这些产品.\r\n\n(1) 若厂家库房中的每件产品合格的概率为 $0.3$，从中任意取出 $4$ 件进行检验，求至少有 $1$ 件是合格产品的概率；\n\n(2) 若厂家发给商家 $20$ 件产品，其中有 $3$ 件不合格，按合同规定该商家从中任取 $2$ 件，来进行检验，只有 $2$ 件产品合格时才接收这些产品. 否则拒收，分别求出该商家计算出不合格产品为 $1$ 件和 $2$ 件的概率，并求该商家拒收这些产品的概率.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设抽取的 $4$ 件产品中合格产品的件数为随机变量 $X$. 按独立重复抽取的概率模型，每件产品合格的概率为 $0.3$，不合格的概率为 $0.7$，所以\r\n\n$$\nP(X\\geqslant1)=1-P(X=0)=1-(1-0.3)^4=1-0.7^4=0.7599\n$$\n\n(2) 这 $20$ 件产品中有 $17$ 件合格，任取 $2$ 件的基本事件数为 $\\mathrm C_{20}^{2}$. 设抽到的不合格产品数为随机变量 $Y$，则\r\n\n$$\nP(Y=1)=\\frac{\\mathrm C_{3}^{1}\\mathrm C_{17}^{1}}{\\mathrm C_{20}^{2}}=\\frac{51}{190}\n$$\n\r\n\n$$\nP(Y=2)=\\frac{\\mathrm C_{3}^{2}}{\\mathrm C_{20}^{2}}=\\frac{3}{190}\n$$\n\r\n只有抽到 $2$ 件合格产品时才接收，所以拒收的事件为 $Y\\geqslant1$. 因而\r\n\n$$\nP(\\text{拒收})=P(Y=1)+P(Y=2)=\\frac{51+3}{190}=\\frac{27}{95}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "已知 $\\cos \\alpha = \\frac{1}{7}$，$\\cos (\\alpha - \\beta) = \\frac{13}{14}$，且 $0 < \\beta < \\alpha < \\frac{\\pi}{2}$.\r\n\n(1) 求 $\\tan 2\\alpha$ 的值；\n\n(2) 求 $\\beta$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $0<\\alpha<\\dfrac\\pi2$，所以 $\\sin\\alpha=\\sqrt{1-\\cos^2\\alpha}=\\dfrac{4\\sqrt3}{7}$，从而 $\\tan\\alpha=4\\sqrt3$. 因此\r\n\n$$\n\\tan2\\alpha=\\frac{2\\tan\\alpha}{1-\\tan^2\\alpha}\r\n =\\frac{8\\sqrt3}{1-48}=-\\frac{8\\sqrt3}{47}\n$$\n\n(2) 由 $0<\\alpha-\\beta<\\dfrac\\pi2$，得\r\n\n$$\n\\sin(\\alpha-\\beta)=\\sqrt{1-\\cos^2(\\alpha-\\beta)}=\\frac{3\\sqrt3}{14}\n$$\n\r\n利用差角公式，\r\n\n$$\n\\cos\\beta=\\cos\\bigl(\\alpha-(\\alpha-\\beta)\\bigr)\r\n =\\cos\\alpha\\cos(\\alpha-\\beta)+\\sin\\alpha\\sin(\\alpha-\\beta)\r\n =\\frac{13}{98}+\\frac{36}{98}=\\frac12\n$$\n\r\n又 $0<\\beta<\\dfrac\\pi2$，所以 $\\beta=\\dfrac\\pi3$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，平面 $PCBM\\perp$ 平面 $ABC$，$PCBM$ 是直角梯形，$\\angle PCB = 90^{\\circ}$，$PM \\parallel BC$，直线 $AM$ 与直线 $PC$ 所成的角为 $60^{\\circ}$，又 $AC = 1$，$BC = 2PM = 2$，$\\angle ACB = 90^{\\circ}$.\r\n\n(1) 求证：$AC \\perp BM$；\n\n(2) 求二面角 $M - AB - C$ 的大小；\n\n(3) 求多面体 $PMABC$ 的体积.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/sichuan_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "建立空间直角坐标系，使平面 $ABC$ 为 $xOy$ 平面，取 $C=(0,0,0)$，$B=(2,0,0)$，$A=(0,1,0)$. 由平面 $PCBM\\perp$ 平面 $ABC$，且两平面的交线为 $BC$，可令平面 $PCBM$ 为 $xOz$ 平面. 由 $\\angle PCB=90^{\\circ}$，设 $P=(0,0,h)$，其中 $h>0$. 由于 $PM\\parallel BC$，且 $BC=2PM=2$，得 $PM=1$，从而 $M=(1,0,h)$.\r\n\r\n\n(1) 取直线 $PC$ 的方向向量 $\\mathbf{u}=(0,0,h)$，直线 $AM$ 的方向向量 $\\mathbf{v}=(1,-1,h)$. 由两直线所成的角为 $60^{\\circ}$，有\r\n\n$$\n\\cos60^{\\circ}=\\frac{|\\mathbf{u}\\cdot\\mathbf{v}|}{|\\mathbf{u}|\\,|\\mathbf{v}|}=\\frac{h^{2}}{h\\sqrt{h^{2}+2}}=\\frac{h}{\\sqrt{h^{2}+2}}\n$$\n\r\n因此 $4h^{2}=h^{2}+2$，即 $h^{2}=\\dfrac23$.\r\n\r\n又 $\\overrightarrow{AC}=(0,-1,0)$，$\\overrightarrow{BM}=(-1,0,h)$，所以\r\n\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{BM}=0\n$$\n\r\n故 $AC\\perp BM$.\n\n(2) $\\overrightarrow{AB}=(2,-1,0)$，$\\overrightarrow{AM}=(1,-1,h)$. 取平面 $MAB$ 的法向量\r\n\n$$\n\\mathbf{n}_{1}=\\overrightarrow{AB}\\times\\overrightarrow{AM}=(-h,-2h,-1)\n$$\n\r\n取平面 $ABC$ 的法向量 $\\mathbf{n}_{2}=(0,0,1)$. 设二面角 $M-AB-C$ 的大小为 $\\theta$，则\r\n\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{1}{\\sqrt{5h^{2}+1}}=\\frac{1}{\\sqrt{\\frac{13}{3}}}=\\frac{\\sqrt{39}}{13}\n$$\n\r\n所以 $\\theta=\\arccos\\dfrac{\\sqrt{39}}{13}$.\n\n(3) 四边形 $PCBM$ 是以 $BC$，$PM$ 为两底的直角梯形，且高为 $PC=h$，所以\r\n\n$$\nS_{PCBM}=\\frac{BC+PM}{2}\\cdot PC=\\frac{2+1}{2}h=\\frac32h\n$$\n\r\n由平面 $PCBM\\perp$ 平面 $ABC$，且 $AC\\perp BC$，可知 $AC\\perp$ 平面 $PCBM$. 因此以四边形 $PCBM$ 为底、点 $A$ 为顶点的多面体 $PMABC$ 的高为 $AC=1$，从而\r\n\n$$\nV_{PMABC}=\\frac13S_{PCBM}\\cdot AC=\\frac13\\cdot\\frac32h\\cdot1=\\frac h2=\\frac12\\sqrt{\\frac23}=\\frac{\\sqrt6}{6}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设函数 $f(x) = ax^3 + bx + c$（$a \\neq 0$）为奇函数，其图象在点 $(1, f(1))$ 处的切线与直线 $x - 6y - 7 = 0$ 垂直，导函数 $f'(x)$ 的最小值为 $-12$.\r\n\n(1) 求 $a$，$b$，$c$ 的值；\n\n(2) 求函数 $f(x)$ 的单调递增区间，并求函数 $f(x)$ 在 $[-1,3]$ 上的最大值和最小值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由 $f(x)=ax^{3}+bx+c$ 为奇函数，得\r\n\n$$\nf(-x)=-ax^{3}-bx+c=-f(x)=-ax^{3}-bx-c\n$$\n\r\n所以 $c=0$. 又直线 $x-6y-7=0$ 的斜率为 $\\dfrac16$，故点 $(1,f(1))$ 处切线的斜率为 $-6$. 因此\r\n\n$$\nf'(1)=3a+b=-6\n$$\n\r\n而 $f'(x)=3ax^{2}+b$. 若 $a<0$，则 $f'(x)$ 没有最小值；所以 $a>0$，且 $f'(x)$ 的最小值为 $f'(0)=b=-12$. 代入 $3a+b=-6$，得 $a=2$. 因此\r\n\n$$\n(a,b,c)=(2,-12,0)\n$$\n\r\n且 $f(x)=2x^{3}-12x$.\n\n(2) $f'(x)=6x^{2}-12=6(x^{2}-2)$. 所以当 $x<-\\sqrt2$ 或 $x>\\sqrt2$ 时，$f'(x)>0$，函数单调递增；当 $-\\sqrt2<x<\\sqrt2$ 时，$f'(x)<0$. 因此函数的单调递增区间为 $(-\\infty,-\\sqrt2)$ 和 $(\\sqrt2,+\\infty)$. 在区间 $[-1,3]$ 内，只有临界点 $x=\\sqrt2$. 计算端点和临界点处的函数值：\r\n计算得 $f(-1)=10$，$f(\\sqrt2)=-8\\sqrt2$，$f(3)=18$. 因为 $-8\\sqrt2<10<18$，所以函数在 $[-1,3]$ 上的最大值为 $18$，最小值为 $-8\\sqrt2$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "已知 $F_{1}$，$F_{2}$ 分别是椭圆 $\\frac{x^{2}}{4} + y^{2} = 1$ 的左，右焦点.\r\n\n(1) 若 $P$ 是第一象限内该椭圆上的一点，且 $\\overrightarrow{PF_{1}} \\cdot \\overrightarrow{PF_{2}} = -\\frac{5}{4}$，求点 $P$ 的坐标；\n\n(2) 设过定点 $M(0,2)$ 的直线 $l$ 与椭圆交于不同的两点 $A$，$B$，且 $\\angle AOB$ 为锐角（其中 $O$ 为坐标原点），求直线 $l$ 的斜率 $k$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "椭圆的长半轴为 $a=2$，短半轴为 $b=1$，所以焦半距\r\n\n$$\nc=\\sqrt{a^{2}-b^{2}}=\\sqrt3\n$$\n\r\n从而 $F_{1}=(-\\sqrt3,0)$，$F_{2}=(\\sqrt3,0)$.\r\n\r\n\n(1) 设第一象限内的点 $P$ 为 $(x,y)$，则 $x>0$，$y>0$，且\r\n\n$$\n\\frac{x^{2}}4+y^{2}=1\n$$\n\r\n又\r\n$\\overrightarrow{PF_{1}}=(-\\sqrt3-x,-y)$，$\\overrightarrow{PF_{2}}=(\\sqrt3-x,-y)$，\r\n所以\r\n\n$$\n\\overrightarrow{PF_{1}}\\cdot\\overrightarrow{PF_{2}}\r\n=(-\\sqrt3-x)(\\sqrt3-x)+y^{2}=x^{2}+y^{2}-3\n$$\n\r\n由题意，$x^{2}+y^{2}-3=-\\dfrac54$，即 $x^{2}+y^{2}=\\dfrac74$. 与椭圆方程相减，得\r\n\n$$\n\\frac34x^{2}=\\frac34\n$$\n\r\n所以 $x^{2}=1$. 因为 $x>0$，故 $x=1$，再由椭圆方程得 $y=\\dfrac{\\sqrt3}{2}$. 因此 $P\\left(1,\\dfrac{\\sqrt3}{2}\\right)$.\n\n(2) 先排除竖直直线 $x=0$：它与椭圆交于 $(0,1)$，$(0,-1)$，两交点的位置向量方向相反，故 $\\angle AOB=\\pi$，不是锐角. 所以符合条件的直线可设斜率为 $k$，方程为 $y=kx+2$. 代入椭圆方程，得\r\n\n$$\n\\left(k^{2}+\\frac14\\right)x^{2}+4kx+3=0\n$$\n\r\n两交点不同的充要条件是判别式大于零，即\r\n\n$$\n\\Delta=(4k)^{2}-12\\left(k^{2}+\\frac14\\right)=4k^{2}-3>0\n$$\n\r\n所以 $\\lvert k\\rvert>\\dfrac{\\sqrt3}{2}$.\r\n\r\n设两交点的横坐标为 $x_{1}$，$x_{2}$. 由韦达定理，\r\n\n$$\nx_{1}+x_{2}=-\\frac{16k}{4k^{2}+1}\n$$\n\r\n\n$$\nx_{1}x_{2}=\\frac{12}{4k^{2}+1}\n$$\n\r\n两交点的位置向量的内积为\r\n\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}\r\n=x_{1}x_{2}+(kx_{1}+2)(kx_{2}+2)\r\n=\\frac{4(4-k^{2})}{4k^{2}+1}\n$$\n\r\n由于 $\\angle AOB$ 为锐角，当且仅当该内积大于零，即 $\\lvert k\\rvert<2$. 综合两交点不同的条件，得到\r\n\n$$\nk\\in\\left(-2,-\\frac{\\sqrt3}{2}\\right)\\cup\\left(\\frac{\\sqrt3}{2},2\\right)\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "已知函数 $f(x) = x^2 - 4$，设曲线 $y = f(x)$ 在点 $(x_n, f(x_n))$ 处的切线与 $x$ 轴的交点为 $(x_{n+1}, 0)$（$n \\in \\mathbf{N}^*$），其中 $x_1$ 为正实数.\r\n\n(1) 用 $x_{n}$ 表示 $x_{n + 1}$；\n\n(2) 若 $x_{1} = 4$，记 $a_{n} = \\lg \\frac{x_{n} + 2}{x_{n} - 2}$，证明数列 $\\{a_{n}\\}$ 成等比数列，并求数列 $\\{x_{n}\\}$ 的通项公式；\n\n(3) 若 $x_{1} = 4$，$b_{n} = x_{n} - 2$，$T_{n}$ 是数列 $\\{b_{n}\\}$ 的前 $n$ 项和，证明 $T_{n} < 3$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 曲线在点 $(x_{n},x_{n}^{2}-4)$ 处的切线斜率为 $2x_{n}$，故切线方程为\r\n\n$$\ny-(x_{n}^{2}-4)=2x_{n}(x-x_{n})\n$$\n\r\n令 $y=0$，并令横坐标为 $x_{n+1}$，得\r\n$4-x_{n}^{2}=2x_{n}(x_{n+1}-x_{n})$，$2x_{n}x_{n+1}=x_{n}^{2}+4$.\r\n因为 $x_{1}>0$，若 $x_{n}>0$，则由上式可得\r\n\n$$\nx_{n+1}=\\frac{x_{n}^{2}+4}{2x_{n}}>0\n$$\n\r\n由归纳法，所有 $x_{n}>0$，从而\r\n\n$$\nx_{n+1}=\\frac{x_{n}}2+\\frac{2}{x_{n}}\n$$\n\n(2) 当 $x_{1}=4$ 时，先有 $x_{1}>2$. 若 $x_{n}>2$，则\r\n\n$$\nx_{n+1}-2=\\frac{(x_{n}-2)^{2}}{2x_{n}}>0\n$$\n\r\n故归纳可知对任意正整数 $n$，都有 $x_{n}>2$，从而下式中的对数有意义. 又\r\n$x_{n+1}+2=\\frac{(x_{n}+2)^{2}}{2x_{n}}$，$x_{n+1}-2=\\frac{(x_{n}-2)^{2}}{2x_{n}}$，\r\n因此\r\n\n$$\n\\frac{x_{n+1}+2}{x_{n+1}-2}=\\left(\\frac{x_{n}+2}{x_{n}-2}\\right)^{2}\n$$\n\r\n记 $a_{n}=\\lg\\dfrac{x_{n}+2}{x_{n}-2}$，则 $a_{n+1}=2a_{n}$，且\r\n\n$$\na_{1}=\\lg\\frac{4+2}{4-2}=\\lg3\n$$\n\r\n所以 $\\{a_{n}\\}$ 是首项为 $\\lg3$、公比为 $2$ 的等比数列，且\r\n\n$$\na_{n}=2^{n-1}\\lg3\n$$\n\r\n令 $r_{n}=10^{a_{n}}=3^{2^{n-1}}$，则 $\\dfrac{x_{n}+2}{x_{n}-2}=r_{n}$，从而\r\n\n$$\nx_{n}=\\frac{2(r_{n}+1)}{r_{n}-1}\r\n=\\frac{2\\left(3^{2^{n-1}}+1\\right)}{3^{2^{n-1}}-1}\n$$\n\n(3) 由第（1）问，令 $b_{n}=x_{n}-2$，则\r\n\n$$\nb_{n+1}=x_{n+1}-2=\\frac{b_{n}^{2}}{2(b_{n}+2)}\n$$\n\r\n其中 $b_{1}=2$，所以 $b_{2}=\\dfrac12$. 若 $0<b_{n}\\le\\dfrac12$，则\r\n\n$$\n0<\\frac{b_{n+1}}{b_{n}}=\\frac{b_{n}}{2(b_{n}+2)}\\le\\frac1{10}<\\frac14\n$$\n\r\n从而 $0<b_{n+1}<\\dfrac12$. 由归纳法，对 $n\\geqslant2$ 均有 $0<b_{n}\\le\\dfrac12$，并且\r\n\n$$\nb_{n}\\le\\frac12\\left(\\frac14\\right)^{n-2}\n$$\n\r\n当 $n=1$ 时，$T_{1}=b_{1}=2<3$；当 $n\\geqslant2$ 时，\r\n\n$$\nT_{n}=b_{1}+\\sum_{j=2}^{n}b_{j}\r\n\\leqslant2+\\frac12\\sum_{j=0}^{n-2}\\left(\\frac14\\right)^{j}\r\n<2+\\frac12\\cdot\\frac{1}{1-\\frac14}=\\frac83<3\n$$\n\r\n故对任意正整数 $n$，均有 $T_{n}<3$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

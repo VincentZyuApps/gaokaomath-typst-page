@@ -1,0 +1,456 @@
+{
+  "year": "1999",
+  "slug": "national_science",
+  "title": "1999年全国卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 24,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "如图，$I$ 是全集，$M$，$P$，$S$ 是 $I$ 的 $3$ 个子集，则阴影部分所表示的集合是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1999/img/national_science/q1_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$(M\\cap P)\\cap S$",
+            "$(M\\cap P)\\cup S$",
+            "$(M\\cap P)\\cap \\overline{S}$",
+            "$(M\\cap P)\\cup \\overline{S}$"
+          ],
+          "answer": "C",
+          "solution": "图中阴影内任意元素都属于 $M$ 和 $P$，因此先取交集 $M\\cap P$；阴影不在 $S$ 内，因此还要取 $S$ 的补集. 所以阴影部分表示\r\n$(M\\cap P)\\cap\\overline{S}$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知映射 $f:A\\to B$，其中，集合 $A=\\{-3,-2,-1,1,2,3,4\\}$，集合 $B$ 中的元素都是 $A$ 中元素在映射 $f$ 下的象，且对任意的 $a\\in A$，在 $B$ 中和它对应的元素是 $|a|$，则集合 $B$ 中元素的个数是（ ）",
+          "choices": [
+            "$4$",
+            "$5$",
+            "$6$",
+            "$7$"
+          ],
+          "answer": "A",
+          "solution": "由 $f(a)=|a|$，逐一取集合 $A$ 中元素的象，得到\r\n$f(-3)=3$，$f(-2)=2$，$f(-1)=1$，$f(1)=1$，$f(2)=2$，$f(3)=3$，$f(4)=4$.\r\n因此\r\n$B=\\{f(a):a\\in A\\}=\\{1,2,3,4\\}$，共有 $4$ 个不同元素，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "若函数 $y=f(x)$ 的反函数是 $y=g(x)$，$f(a)=b$，$ab\\neq 0$，则 $g(b)$ 等于（ ）",
+          "choices": [
+            "$a$",
+            "$a^{-1}$",
+            "$b$",
+            "$b^{-1}$"
+          ],
+          "answer": "A",
+          "solution": "反函数的定义给出 $g(f(x))=x$（在 $f$ 的定义域内）. 由题设 $f(a)=b$，代入得\r\n$g(b)=g(f(a))=a$，故选 A. 条件 $ab\\neq0$ 不影响这一反函数关系.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "函数 $f(x)=M\\sin(\\omega x+\\varphi)$（$\\omega>0$）在区间 $[a,b]$ 上是增函数，且 $f(a)=-M$，$f(b)=M$，则函数 $g(x)=M\\cos(\\omega x+\\varphi)$ 在 $[a,b]$ 上（ ）",
+          "choices": [
+            "是增函数",
+            "是减函数",
+            "可以取得最大值 $M$",
+            "可以取得最小值 $-M$"
+          ],
+          "answer": "C",
+          "solution": "由 $f(a)=-M<f(b)=M$ 且 $f$ 在 $[a,b]$ 上为增函数可知 $M>0$. 令 $u(x)=\\omega x+\\varphi$，并记 $u_a=u(a)$、$u_b=u(b)$，则 $u$ 随 $x$ 增大而严格增大，且\r\n$\\sin u_a=-1$，$\\sin u_b=1$.\r\n\r\n因为 $M\\omega>0$，且 $f$ 在整个区间上递增，所以在相位变化的区间内必须有\r\n$f'(x)=M\\omega\\cos u(x)\\geqslant0$，即 $\\cos u(x)\\geqslant0$. 又由 $\\sin u(a)=-1$、$\\sin u(b)=1$，并结合 $u(x)$ 严格递增，只能取\r\n$u(a)=-\\frac{\\pi}{2}+2k\\pi$，$u(b)=\\frac{\\pi}{2}+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 因而区间 $[u(a),u(b)]$ 包含 $2k\\pi$. 取 $x_0\\in[a,b]$ 使 $u(x_0)=2k\\pi$，则\r\n$g(x_0)=M\\cos(2k\\pi)=M$. 又因 $|\\cos u|\\leqslant1$ 且 $M>0$，$g(x)\\le M$ 对所有 $x\\in[a,b]$ 成立，所以 $g$ 可以取得最大值 $M$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "若 $f(x)\\sin x$ 是周期为 $\\pi$ 的奇函数，则 $f(x)$ 可以是（ ）",
+          "choices": [
+            "$\\sin x$",
+            "$\\cos x$",
+            "$\\sin 2x$",
+            "$\\cos 2x$"
+          ],
+          "answer": "B",
+          "solution": "设 $h(x)=f(x)\\sin x$，逐项检验：\r\n当 $f(x)=\\sin x$ 时，$h(x)=\\sin^2x$，满足 $h(-x)=h(x)$，是偶函数；\r\n当 $f(x)=\\cos x$ 时，\r\n$h(x)=\\sin x\\cos x=\\frac{1}{2}\\sin 2x$，满足 $h(-x)=-h(x)$，且 $h(x+\\pi)=h(x)$，所以它是周期为 $\\pi$ 的奇函数；\r\n当 $f(x)=\\sin2x$ 时，\r\n$h(x)=\\sin2x\\sin x=\\frac{1}{2}(\\cos x-\\cos3x)$，是偶函数；\r\n当 $f(x)=\\cos2x$ 时，\r\n$h(x)=\\cos2x\\sin x=\\frac{1}{2}(\\sin3x-\\sin x)$ 虽是奇函数，但\r\n$h(\\frac{\\pi}{6})=\\frac{1}{4}$，$h(\\frac{7\\pi}{6})=-\\frac{1}{4}$，所以 $h(x+\\pi)$ 不恒等于 $h(x)$，不以 $\\pi$ 为周期. 因此只有选项 B 符合.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "在极坐标系中，曲线 $\\rho=4\\sin\\left(\\theta-\\frac{\\pi}{3}\\right)$ 关于（ ）",
+          "choices": [
+            "直线 $\\theta = \\frac{\\pi}{3}$ 轴对称",
+            "直线 $\\theta = \\frac{5\\pi}{6}$ 轴对称",
+            "点 $\\left(2, \\frac{\\pi}{3}\\right)$ 中心对称",
+            "极点中心对称"
+          ],
+          "answer": "B",
+          "solution": "将极坐标方程乘以 $\\rho$，并利用 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$，得\r\n$\\rho^2=4\\rho\\sin\\left(\\theta-\\frac{\\pi}{3}\\right)=2y-2\\sqrt{3}x$，所以\r\n$x^2+y^2=2y-2\\sqrt{3}x$，即\r\n$(x+\\sqrt{3})^2+(y-1)^2=4$.\r\n该圆的圆心为 $(-\\sqrt{3},1)$，其极角为 $\\frac{5\\pi}{6}$，所以圆关于直线 $\\theta=\\frac{5\\pi}{6}$ 轴对称，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "将若干毫升水倒入底面半径为 $2 \\mathrm{~cm}$ 的圆柱形器皿中，量得水面的高度为 $6 \\mathrm{~cm}$，若将这些水倒入轴截面是正三角形的倒圆锥形器皿中，则水面的高度是（ ）",
+          "choices": [
+            "$6\\sqrt{3} \\mathrm{~cm}$",
+            "$6 \\mathrm{~cm}$",
+            "$2\\sqrt[3]{18} \\mathrm{~cm}$",
+            "$3\\sqrt[3]{12} \\mathrm{~cm}$"
+          ],
+          "answer": "B",
+          "solution": "圆柱形器皿中水的体积为 $V=\\pi\\cdot 2^2\\cdot 6=24\\pi\\ \\mathrm{cm}^3$. 设倒圆锥中水面的高度为 $h$，水面半径为 $r$. 由于倒圆锥的轴截面是正三角形，轴截面的底边为 $2r$，高为 $h$，所以 $h=\\sqrt{3}r$，即 $r=\\frac{h}{\\sqrt{3}}$. 因此水的体积为 $\\frac{1}{3}\\pi r^2h=\\frac{\\pi h^3}{9}$. 由体积不变得 $\\frac{\\pi h^3}{9}=24\\pi$，所以 $h^3=216$. 因为 $h>0$，故 $h=6\\ \\mathrm{cm}$，所以选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "若 $\\left(2x + \\sqrt{3}\\right)^4 = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4$，则 $(a_0 + a_2 + a_4)^2 - (a_1 + a_3)^2$ 的值为（ ）",
+          "choices": [
+            "$1$",
+            "$-1$",
+            "$0$",
+            "$2$"
+          ],
+          "answer": "A",
+          "solution": "设 $P(x)=(2x+\\sqrt{3})^4$，并记偶次项系数和为 $E=a_0+a_2+a_4$，奇次项系数和为 $O=a_1+a_3$. 则\r\n$E=\\frac{P(1)+P(-1)}{2}$，$O=\\frac{P(1)-P(-1)}{2}$，从而\r\n\n$$\nE^2-O^2=(E+O)(E-O)=P(1)P(-1)=(2+\\sqrt{3})^4(\\sqrt{3}-2)^4=1\n$$\n\r\n故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "直线 $\\sqrt{3}x+y-2\\sqrt{3}=0$ 截圆 $x^{2}+y^{2}=4$ 得的劣弧所对的圆心角为（ ）",
+          "choices": [
+            "$\\frac{\\pi}{6}$",
+            "$\\frac{\\pi}{4}$",
+            "$\\frac{\\pi}{3}$",
+            "$\\frac{\\pi}{2}$"
+          ],
+          "answer": "C",
+          "solution": "圆心 $O(0,0)$ 到直线 $\\sqrt{3}x+y-2\\sqrt{3}=0$ 的距离为\r\n$d=\\frac{2\\sqrt{3}}{\\sqrt{3+1}}=\\sqrt{3}$.\r\n设劣弧所对圆心角的一半为 $\\theta$，则在由圆心、弦中点和弦端点组成的直角三角形中，\r\n$\\cos\\theta=\\frac{d}{2}=\\frac{\\sqrt{3}}{2}$，故 $\\theta=\\frac{\\pi}{6}$，劣弧所对的圆心角为 $2\\theta=\\frac{\\pi}{3}$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "如图，在多面体 $ABCDEF$ 中，已知面 $ABCD$ 是边长为 $3$ 的正方形，$EF\\parallel AB$，$EF=\\frac{3}{2}$，$EF$ 与面 $AC$ 的距离为 $2$，则该多面体的体积为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1999/img/national_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "$\\frac{9}{2}$",
+            "$5$",
+            "$6$",
+            "$\\frac{15}{2}$"
+          ],
+          "answer": "D",
+          "solution": "由于 $EF\\parallel AB$，且 $AB$ 与 $AC$ 相交，$EF$ 与 $AC$ 的公垂线垂直于底面 $ABCD$，所以题设距离 $2$ 就是该多面体的高. 设从底面起高为 $2t$（$0\\le t\\leqslant1$）的水平截面面积为 $S_t$. 该截面是底面正方形按比例 $1-t$ 缩小后与线段 $EF$ 按比例 $t$ 叠加得到的矩形，且其两条边分别平行于 $EF$ 及垂直于 $EF$. 因此，平行于 $EF$ 的边长由底面的 $AB=3$ 线性变到顶边的 $EF=\\frac{3}{2}$，为\r\n\r\n\n$$\n3(1-t)+\\frac{3}{2}t\n$$\n\r\n\r\n另一条边长由底面的 $AD=3$ 线性变到顶端的 $0$，为 $3(1-t)$. 所以\r\n\r\n\n$$\nS_t=\\left(3(1-t)+\\frac{3}{2}t\\right)3(1-t)\n$$\n\r\n\r\n令实际高度为 $z=2t$，则 $\\mathrm dz=2\\,\\mathrm dt$，由截面积积分得\r\n\n$$\nV=\\int_0^2 S_{\\frac{z}{2}}\\,\\mathrm dz\r\n =2\\int_0^1\\left(3-\\frac{3}{2}t\\right)3(1-t)\\,\\mathrm dt\r\n =2\\int_0^1\\left(9-\\frac{27}{2}t+\\frac{9}{2}t^2\\right)\\,\\mathrm dt\r\n =2\\left(9-\\frac{27}{4}+\\frac{3}{2}\\right)\r\n =\\frac{15}{2}\n$$\n\r\n所以该多面体的体积为 $\\frac{15}{2}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "若 $\\sin \\alpha>\\tan \\alpha>\\cot \\alpha$（$-\\frac{\\pi}{2}<\\alpha<\\frac{\\pi}{2}$），则 $\\alpha\\in$（ ）",
+          "choices": [
+            "$\\left(-\\frac{\\pi}{2}, -\\frac{\\pi}{4}\\right)$",
+            "$\\left(-\\frac{\\pi}{4}, 0\\right)$",
+            "$\\left(0, \\frac{\\pi}{4}\\right)$",
+            "$\\left(\\frac{\\pi}{4}, \\frac{\\pi}{2}\\right)$"
+          ],
+          "answer": "B",
+          "solution": "在给定区间内 $\\cos\\alpha>0$，且 $\\tan\\alpha$ 有意义. 令 $t=\\tan\\alpha$，则\r\n$\\sin\\alpha=\\frac{t}{\\sqrt{1+t^2}}$.\r\n由\r\n$\\sin\\alpha-\\tan\\alpha=t\\left(\\frac{1}{\\sqrt{1+t^2}}-1\\right)>0$\r\n可知 $t<0$. 在 $t<0$ 时，$\\tan\\alpha>\\cot\\alpha$ 等价于 $t>\\frac{1}{t}$，两边同乘负数 $t$ 后不等号反向，得 $t^2<1$. 因而\r\n$-1<t<0$，从而 $-\\frac{\\pi}{4}<\\alpha<0$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "如果圆台的上底面半径为 $5$，下底面半径为 $R$，中截面把圆台分为上，下两个圆台，它们的侧面积的比例为 $1:2$，那么 $R=$（ ）",
+          "choices": [
+            "$10$",
+            "$15$",
+            "$20$",
+            "$25$"
+          ],
+          "answer": "D",
+          "solution": "设圆台母线长为 $l$，中截面的半径为 $r=\\frac{R+5}{2}$. 中截面平行于两底面且位于母线中点，所以分成的上、下两个圆台母线长均为 $\\frac{l}{2}$. 由圆台侧面积公式 $S=\\pi(r_1+r_2)l$，侧面积之比等于相应上下底面半径和之比：\r\n\n$$\n\\frac{5+r}{r+R}=\\frac{1}{2}\n$$\n\r\n代入 $r=\\frac{R+5}{2}$，得\r\n\n$$\n\\frac{R+15}{3R+5}=\\frac{1}{2}\n$$\n\r\n所以 $R=25$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "已知两点 $M\\left(1,\\frac{5}{4}\\right)$，$N\\left(-4,-\\frac{5}{4}\\right)$，给出下列曲线方程：\r\n\r\n\\begin{circlelist}\r\n\\item $4x+2y-1=0$；\r\n\\item $x^{2}+y^{2}=3$；\r\n\\item $\\frac{x^{2}}{2}+y^{2}=1$；\r\n\\item $\\frac{x^{2}}{2}-y^{2}=1$.\r\n\\end{circlelist}\r\n\r\n在曲线上存在点 $P$ 满足 $\\left|MP\\right|=\\left|NP\\right|$ 的所有曲线方程是（ ）",
+          "choices": [
+            "$\\circled{1}\\circled{3}$",
+            "$\\circled{2}\\circled{4}$",
+            "$\\circled{1}\\circled{2}\\circled{3}$",
+            "$\\circled{2}\\circled{3}\\circled{4}$"
+          ],
+          "answer": "D",
+          "solution": "点 $P(x,y)$ 满足 $\\left|MP\\right|=\\left|NP\\right|$ 的轨迹是线段 $MN$ 的垂直平分线. 由\r\n\n$$\n(x-1)^2+\\left(y-\\frac{5}{4}\\right)^2=(x+4)^2+\\left(y+\\frac{5}{4}\\right)^2\n$$\n\r\n得垂直平分线方程为 $2x+y+3=0$，即 $y=-2x-3$.\r\n\r\n曲线 $\\circled{1}$ 的方程 $4x+2y-1=0$ 与该直线平行且不重合，没有交点. 对曲线 $\\circled{2}$，代入得\r\n$x^2+(2x+3)^2=3$，即 $5x^2+12x+6=0$，判别式为 $24>0$，有交点. 对曲线 $\\circled{3}$，代入得\r\n$\\frac{x^2}{2}+(2x+3)^2=1$，即 $(3x+4)^2=0$，有交点. 对曲线 $\\circled{4}$，代入得\r\n$\\frac{x^2}{2}-(2x+3)^2=1$，即 $7x^2+24x+20=0$，判别式为 $16>0$，有交点. 因而所有符合条件的曲线为 $\\circled{2}$、$\\circled{3}$、$\\circled{4}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "某电脑用户计划使用不超过 $500$ 元的资金购买单价分别为 $60$ 元，$70$ 元的单片软件和盒装磁盘，根据需要，软件至少买 $3$ 片，磁盘至少买 $2$ 盒，则不同的选购方式共有（ ）",
+          "choices": [
+            "$5\\text{ 种}$",
+            "$6\\text{ 种}$",
+            "$7\\text{ 种}$",
+            "$8\\text{ 种}$"
+          ],
+          "answer": "C",
+          "solution": "设软件购买 $x$ 片，磁盘购买 $y$ 盒，则 $x$，$y$ 为正整数且 $x\\geqslant3$，$y\\geqslant2$，并满足\r\n$60x+70y\\leqslant500$.\r\n令 $x'=x-3$，$y'=y-2$，则 $x'$，$y'$ 为非负整数，且\r\n$6x'+7y'\\leqslant18$.\r\n当 $y'=0$ 时，$x'=0$，$1$，$2$，$3$，有 $4$ 种；当 $y'=1$ 时，$x'=0$，$1$，有 $2$ 种；当 $y'=2$ 时，只有 $x'=0$，有 $1$ 种；$y'\\geqslant3$ 时不可能. 所以共有 $4+2+1=7$ 种，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 15,
+          "body": "设椭圆 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$（$a>b>0$）的右焦点为 $F_1$，右准线为 $l_1$，若过 $F_1$ 且垂直于 $x$ 轴的弦长等于点 $F_1$ 到 $l_1$ 的距离，则椭圆的离心率是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{1}{2}\\)",
+          "solution": "设椭圆焦距的一半为 $c$，则 $c^2=a^2-b^2$，右焦点为 $F_1(c,0)$，右准线方程为 $x=\\frac{a^2}{c}$.\r\n过 $F_1$ 且垂直于 $x$ 轴的弦所在直线为 $x=c$. 代入椭圆方程得弦长\r\n$2\\frac{b^2}{a}$. 点 $F_1$ 到右准线的距离为\r\n$\\frac{a^2}{c}-c=\\frac{b^2}{c}$.\r\n由题意 $2\\frac{b^2}{a}=\\frac{b^2}{c}$，所以 $c=\\frac{a}{2}$，椭圆的离心率为 $e=\\frac{c}{a}=\\frac{1}{2}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "在一块并排 $10\\text{ 垄}$ 的田地中，选择 $2\\text{ 垄}$ 分别种植 A，B 两种作物，每种作物种植一垄，为有利于作物生长，要求 A，B 两种作物的间隔不小于 $6\\text{ 垄}$，则不同的选垄方法共有 _______ {}$\\text{种}$.",
+          "choices": [],
+          "answer": "12",
+          "solution": "把 $10$ 垄从左到右编号为 $1$，$2$，$\\ldots$，$10$. 若两种作物分别种在第 $i$，$j$ 垄，则它们之间至少有 $6$ 垄，故 $|i-j|\\geqslant7$.\r\n无序地选择两垄时，间距为 $7$，$8$，$9$ 的选法数分别为 $3$，$2$，$1$，共有 $6$ 对. 由于 $A$，$B$ 两种作物不同，每一对垄有 $2$ 种分配方式，所以共有 $2(3+2+1)=12$ 种.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "若正数 $a$，$b$ 满足 $ab = a + b + 3$，则 $ab$ 的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\([9,+\\infty)\\)",
+          "solution": "设 $p=ab$. 由 $ab=a+b+3$ 得 $a+b=p-3$. 因为 $a$，$b$ 是方程\r\n$u^2-(p-3)u+p=0$ 的两个正根，所以其判别式必须非负：\r\n$(p-3)^2-4p=(p-1)(p-9)\\geqslant0$.\r\n又 $p=ab=a+b+3>3$，故只能有 $p\\geqslant9$.\r\n当 $p\\geqslant9$ 时，方程的两个根为正数，且它们满足原条件，所以取值范围为 $[9,+\\infty)$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "$\\alpha$，$\\beta$ 是两个不同的平面，$m$，$n$ 是平面 $\\alpha$ 及 $\\beta$ 之外的两条不同直线. 给出四个论断：\r\n\r\n\\begin{circlelist}\r\n\\item $m\\perp n$；\r\n\\item $\\alpha\\perp\\beta$；\r\n\\item $n\\perp\\beta$；\r\n\\item $m\\perp\\alpha$.\r\n\\end{circlelist}\r\n\r\n以其中三个论断作为条件，余下一个论断作为结论，写出你认为正确的一个命题： _______ {}.",
+          "choices": [],
+          "answer": "\\(m\\perp\\alpha\\)，\\(n\\perp\\beta\\)，\\(\\alpha\\perp\\beta\\) \\(\\Longrightarrow\\) \\(m\\perp n\\)",
+          "solution": "取平面 $\\alpha$，$\\beta$ 的法向量分别为 $\\mathbf{p}$，$\\mathbf{q}$，并取直线 $m$，$n$ 的方向向量分别为 $\\mathbf{u}$，$\\mathbf{v}$. 由 $m\\perp\\alpha$，直线 $m$ 的方向与平面 $\\alpha$ 的法向量平行，故 $\\mathbf{u}=\\lambda\\mathbf{p}$；同理，由 $n\\perp\\beta$，有 $\\mathbf{v}=\\mu\\mathbf{q}$，其中 $\\lambda$，$\\mu$ 均不为零. 由 $\\alpha\\perp\\beta$，两平面的法向量垂直，即 $\\mathbf{p}\\cdot\\mathbf{q}=0$. 因而\r\n\n$$\n\\mathbf{u}\\cdot\\mathbf{v}=\\lambda\\mu\\left(\\mathbf{p}\\cdot\\mathbf{q}\\right)=0\n$$\n\r\n所以直线 $m$，$n$ 的方向互相垂直，即 $m\\perp n$. 因此，取第 2，3，4 个论断为条件，第 1 个论断为结论，得到的命题正确.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 19,
+          "body": "解不等式：$\\sqrt{3\\log_{a}x-2}<2\\log_{a}x-1$（$a>0$，$a\\neq 1$）.",
+          "choices": [],
+          "answer": "",
+          "solution": "令 $t=\\log_{a}x$. 根式有意义要求 $3t-2\\ge 0$. 又因为左边非负，而不等式为严格小于关系，所以右边必须为正，即 $2t-1>0$. 因而定义域条件可合并为 $t\\ge\\frac{2}{3}$. 在此条件下两边均非负，可以平方，原不等式等价于 $3t-2<(2t-1)^2$，即 $4t^2-7t+3>0$，也就是 $(4t-3)(t-1)>0$. 所以 $t\\in\\left[\\frac{2}{3},\\frac{3}{4}\\right)\\cup(1,+\\infty)$.\r\n\r\n当 $a>1$ 时，$\\log_a x$ 是增函数，故 $x\\in\\left[a^{\\frac{2}{3}},a^{\\frac{3}{4}}\\right)\\cup(a,+\\infty)$. 当 $0<a<1$ 时，$\\log_a x$ 是减函数，故 $x\\in(0,a)\\cup\\left(a^{\\frac{3}{4}},a^{\\frac{2}{3}}\\right]$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设复数 $z=3\\cos\\theta+\\mathrm{i}\\cdot 2\\sin\\theta$，求函数 $y=\\theta-\\arg z$（$0<\\theta<\\frac{\\pi}{2}$）的最大值以及对应的 $\\theta$ 值.",
+          "choices": [],
+          "answer": "",
+          "solution": "因为 $0<\\theta<\\frac{\\pi}{2}$，复数 $z$ 的实部和虚部均为正，所以\r\n$0<\\arg z<\\frac{\\pi}{2}$，且\r\n\n$$\n\\tan(\\arg z)=\\frac{2\\sin\\theta}{3\\cos\\theta}=\\frac{2}{3}\\tan\\theta\n$$\n\r\n令 $t=\\tan\\theta>0$. 由 $y=\\theta-\\arg z$ 以及正切差角公式，得\r\n\n$$\n\\tan y=\\frac{t-\\frac{2}{3}t}{1+\\frac{2}{3}t^2}=\\frac{1}{\\frac{3}{t}+2t}\n$$\n\r\n又 $0<\\arg z<\\theta<\\frac{\\pi}{2}$，所以 $0<y<\\frac{\\pi}{2}$，正切函数在此区间上严格递增. 由均值不等式，\r\n\n$$\n\\frac{3}{t}+2t\\geqslant2\\sqrt{6}\n$$\n\r\n等号当且仅当 $\\frac{3}{t}=2t$，即 $t=\\sqrt{\\frac{3}{2}}=\\frac{\\sqrt{6}}{2}$. 因此\r\n\n$$\n\\tan y\\le\\frac{1}{2\\sqrt{6}}=\\frac{\\sqrt{6}}{12}\n$$\n\r\n所以 $y$ 的最大值为 $\\arctan\\frac{\\sqrt{6}}{12}$，且对应\r\n$\\theta=\\arctan\\frac{\\sqrt{6}}{2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "如图，已知正四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$，点 $E$ 在棱 $D_{1}D$ 上，截面 $EAC\\parallel D_{1}B$，且面 $EAC$ 与底面 $ABCD$ 所成的角为 $45^{\\circ}$，$AB=a$.\r\n\r\n\n(1) 求截面 $EAC$ 的面积；\n\n(2) 求异面直线 $A_{1}B_{1}$ 与 $AC$ 之间的距离；\n\n(3) 求三棱锥 $B_{1}-EAC$ 的体积.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1999/img/national_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设 $O=AC\\cap BD$，取 $O$ 为原点，$AC$ 为 $x$ 轴，$BD$ 为 $y$ 轴，竖直向上为 $z$ 轴，并令 $s=\\frac{a}{\\sqrt{2}}$. 设正四棱柱的高为 $h$，则 $A=(-s,0,0)$，$C=(s,0,0)$，$D=(0,-s,0)$，$B=(0,s,0)$，$D_1=(0,-s,h)$，$E=(0,-s,t)$，其中 $0\\le t\\le h$.\r\n\r\n平面 $EAC$ 的方程可写为 $ty+sz=0$，而 $\\overrightarrow{D_1B}=(0,2s,-h)$. 由 $EAC\\parallel D_1B$，得 $(0,2s,-h)\\cdot(0,t,s)=0$，即 $2st-sh=0$，所以 $h=2t$. 过 $O$ 作垂直于 $AC$ 的截面，该截面中平面 $EAC$ 与底面的交线分别为 $OE$ 和 $OD$，二面角为 $45^{\\circ}$，故 $\\tan45^{\\circ}=\\frac{t}{s}$，从而 $t=s$，于是 $h=2s=\\sqrt{2}a$.\r\n\r\n此时 $AC=2s=\\sqrt{2}a$，且点 $E$ 到直线 $AC$ 的距离为 $\\sqrt{s^2+t^2}=a$. 因而 $S_{\\triangle EAC}=\\frac{1}{2}\\cdot\\sqrt{2}a\\cdot a=\\frac{\\sqrt{2}}{2}a^2$.\n\n(2) 线段 $A_1A$ 的两个端点分别在直线 $A_1B_1$ 和直线 $AC$ 上，且 $A_1A$ 同时垂直于这两条直线，所以它是两异面直线的公垂线. 因而异面直线 $A_1B_1$ 与 $AC$ 之间的距离为 $A_1A=h=\\sqrt{2}a$.\n\n(3) 当 $t=s$ 时，平面 $EAC$ 的方程为 $y+z=0$. 点 $B_1=(0,s,h)=(0,s,2s)$ 到该平面的距离为 $\\frac{|s+2s|}{\\sqrt{2}}=\\frac{3a}{2}$. 因此三棱锥的高为 $\\frac{3a}{2}$，从而 $V_{B_1-EAC}=\\frac{1}{3}\\cdot\\frac{\\sqrt{2}}{2}a^2\\cdot\\frac{3a}{2}=\\frac{\\sqrt{2}}{4}a^3$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "如图为一台冷轧机的示意图. 冷轧机由若干对轧辊组成. 带钢从一端输入，经过各对轧辊逐步减薄后输出.\r\n\r\n\n(1) 输入带钢的厚度为 $\\alpha$，输出带钢的厚度为 $\\beta$，若每对轧辊的减薄率不超过 $r_0$，问冷轧机至少需要安装多少对轧辊（单对轧辊减薄率 $=\\frac{\\text{输入该对的带钢厚度}-\\text{从该对输出的带钢厚度}}{\\text{输入该对的带钢厚度}}$）？\n\n(2) 已知一台冷轧机共有 $4$ 对减薄率为 $20\\%$ 的轧辊，所有轧辊周长均为 $1600 \\mathrm{~mm}$. 若第 $k$ 对轧辊有缺陷，每滚动一周在带钢上压出一个疵点，在冷轧机输出的带钢上，疵点的间距为 $L_k$. 为了便于检修，请计算 $L_1$，$L_2$，$L_3$ 并填入下表（轧钢过程中，带钢宽度不变，且不考虑损耗）.\n\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|c|c|c|}\r\n\\hline\r\n轧辊序号 & 1 & 2 & 3 & 4 \\\\\r\n\\hline\r\n疵点间距 $\\frac{L_k}{\\mathrm{mm}}$ &  &  &  & 1600 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1999/img/national_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设安装 $n$ 对轧辊. 在每对轧辊均达到允许的最大减薄率 $r_0$ 时，厚度依次乘以 $1-r_0$，所以出口厚度的最小可能值为 $\\alpha(1-r_0)^n$. 在通常的减薄情形 $0<\\beta<\\alpha$、$0<r_0<1$ 下，要使出口厚度不超过 $\\beta$，必须且只需\r\n\n$$\n\\alpha(1-r_0)^n\\le\\beta\n$$\n\r\n由于 $0<1-r_0<1$，$\\lg(1-r_0)<0$，取对数并反转不等号，得到\r\n\n$$\nn\\ge\\frac{\\lg\\beta-\\lg\\alpha}{\\lg(1-r_0)}\n$$\n\r\n因此最少需要安装 $\\left\\lceil\\frac{\\lg\\beta-\\lg\\alpha}{\\lg(1-r_0)}\\right\\rceil$ 对轧辊. 若 $\\beta\\ge\\alpha$，则不安装轧辊已满足厚度要求；若 $r_0=0$ 且 $\\beta<\\alpha$，则无法达到目标厚度.\n\n(2) 设带钢宽度为 $w$，输入厚度为 $t_0$，第 $j$ 对轧辊出口处的厚度为 $t_j$. 由于每对轧辊的减薄率为 $20\\%$，有 $t_j=0.8^j t_0$. 第 $k$ 对轧辊出口处相邻疵点的间距是轧辊周长 $1600\\mathrm{~mm}$，所以两疵点之间带钢的体积为 $1600t_kw$. 这段带钢经过第 $k+1$ 至第 $4$ 对轧辊后，输出间距为 $L_k$，体积变为 $L_kt_4w$. 由带钢宽度不变且轧制过程中不考虑损耗，得 $1600t_kw=L_kt_4w$，即 $L_k=1600\\frac{t_k}{t_4}=\\frac{1600}{0.8^{4-k}}$. 因而 $L_1=3125\\mathrm{~mm}$，$L_2=2500\\mathrm{~mm}$，$L_3=2000\\mathrm{~mm}$，且 $L_4=1600\\mathrm{~mm}$，与表中已给数值一致.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 23,
+          "body": "已知函数 $y=f(x)$ 的图象是自原点出发的一条折线. 当 $n\\le y\\le n+1$（$n=0$，$1$，$2$，$\\cdots$）时，该图象是斜率为 $b^n$ 的线段（其中正常数 $b\\neq 1$），设数列 $\\{x_n\\}$ 由 $f(x_n)=n$（$n=1$，$2$，$\\cdots$）定义.\r\n\r\n\n(1) 求 $x_1$，$x_2$ 和 $x_n$ 的表达式；\n\n(2) 求 $f(x)$ 的表达式，并写出其定义域；\n\n(3) 证明：$y=f(x)$ 的图象与 $y=x$ 的图象没有横坐标大于 $1$ 的交点.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 当 $0\\le y\\leqslant1$ 时，图象从原点出发且斜率为 $b^0=1$，所以 $x_1=1$. 当 $1\\le y\\leqslant2$ 时斜率为 $b$，故 $x_2-x_1=\\frac{1}{b}$，从而 $x_2=1+\\frac{1}{b}$. 一般地，第 $n$ 段线段的斜率为 $b^n$，所以 $x_{n+1}-x_n=\\frac{1}{b^n}$. 因此\r\n$x_n=\\sum_{k=0}^{n-1}\\frac{1}{b^k}=\\frac{1-b^{-n}}{1-b^{-1}}=\\frac{b-(\\frac{1}{b})^{n-1}}{b-1}$，其中 $n=1$，$2$，$\\ldots$.\n\n(2) 当 $0\\le x\\leqslant1$ 时，$f(x)=x$. 当 $n\\le y\\le n+1$ 且 $n\\geqslant1$ 时，线段经过 $(x_n,n)$，斜率为 $b^n$，故 $f(x)=n+b^n(x-x_n)$，其中 $x_n\\le x\\le x_{n+1}$. 由 $x_n=\\sum_{k=0}^{n-1}b^{-k}$ 可知：当 $b>1$ 时，$x_n$ 递增并趋近于 $\\frac{b}{b-1}$，所以定义域为 $\\left[0,\\frac{b}{b-1}\\right)$；当 $0<b<1$ 时，$x_n\\to+\\infty$，所以定义域为 $[0,+\\infty)$.\n\n(3) 对于 $b>1$，在第一段 $1<x\\le x_2$ 上，$f(x)-x=(b-1)(x-1)>0$. 对于任意 $n\\geqslant2$，因为 $b^{-k}<1$（$k\\geqslant1$），所以 $x_n<n$，$x_{n+1}<n+1$. 在线段 $[x_n,x_{n+1}]$ 上，$f(x)-x$ 是关于 $x$ 的一次函数，并且在两个端点都为正，故整个线段上均为正.\r\n\r\n对于 $0<b<1$，在第一段 $1<x\\le x_2$ 上，$f(x)-x=(b-1)(x-1)<0$. 对于 $n\\geqslant2$，因为 $b^{-k}>1$（$k\\geqslant1$），所以 $x_n>n$，从而在 $[x_n,x_{n+1}]$ 的两个端点处均有 $f(x)-x<0$. 由于差值在线段上是一次函数，故整个线段上均为负. 因而当 $x>1$ 时总有 $f(x)\\neq x$，即两图象没有横坐标大于 $1$ 的交点.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 24,
+          "body": "如图，给出定点 $A(a,0)$（$a>0$）和直线 $l\\colon x=-1$. $B$ 是直线 $l$ 上的动点，$\\angle BOA$ 的角平分线交 $AB$ 于点 $C$. 求点 $C$ 的轨迹方程，并讨论方程表示的曲线类型与 $a$ 值的关系.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1999/img/national_science/q24_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "设动点 $B=(-1,t)$，记 $r=OB=\\sqrt{1+t^2}$. 在三角形 $AOB$ 中，$OC$ 是顶角的内角平分线，由角平分线定理得 $AC:CB=AO:OB=a:r$. 因而 $C=\\frac{rA+aB}{a+r}$，即 $x=\\frac{a(r-1)}{a+r}$，$y=\\frac{at}{a+r}$.\r\n\r\n由上式可得 $a-x=\\frac{a(a+1)}{a+r}$，从而 $r=\\frac{a(x+1)}{a-x}$，同时 $t=\\frac{(a+1)y}{a-x}$. 代入 $r^2=1+t^2$，得\r\n\n$$\na^2(x+1)^2=(a-x)^2+(a+1)^2y^2\n$$\n\r\n整理得点 $C$ 的轨迹方程\r\n\n$$\n(a-1)x^2+2ax-(a+1)y^2=0\n$$\n\r\n由参数表示还可知实际轨迹满足 $0\\le x<a$. 反过来，先取二次曲线上满足 $0<x<a$ 的一点 $(x,y)$，分别令\r\n$r=\\frac{a(x+1)}{a-x}$，$t=\\frac{(a+1)y}{a-x}$.\r\n此时 $r>1$，且由轨迹方程可得 $r^2=1+t^2$. 取 $B=(-1,t)$，则 $OB=r$，三角形 $AOB$ 非退化，代入角平分线定理的内分公式\r\n\n$$\nC=\\frac{rA+aB}{a+r}\n$$\n\r\n即可得到原点为顶点的角平分线与 $AB$ 的交点正是 $(x,y)$. 当 $x=0$ 时，轨迹方程给出 $y=0$，对应 $B=(-1,0)$ 时的退化交点 $C=O$. 所以若把该退化情形计入，实际轨迹是该二次曲线中 $0\\le x<a$ 的部分；若排除 $B=(-1,0)$，则相应取 $0<x<a$.\r\n\r\n当 $a>1$ 时，方程可化为 $(a-1)\\left(x+\\frac{a}{a-1}\\right)^2-(a+1)y^2=\\frac{a^2}{a-1}$，表示双曲线. 当 $a=1$ 时，方程为 $x=y^2$，表示抛物线. 当 $0<a<1$ 时，方程可化为 $(1-a)\\left(x-\\frac{a}{1-a}\\right)^2+(a+1)y^2=\\frac{a^2}{1-a}$，表示椭圆.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

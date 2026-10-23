@@ -1,0 +1,391 @@
+{
+  "year": "2006",
+  "slug": "hubei_science",
+  "title": "2006年湖北卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "已知向量 $\\mathbf{a} = (\\sqrt{3}, 1)$，$\\mathbf{b}$ 是不平行于 $x$ 轴的单位向量，且 $\\mathbf{a} \\cdot \\mathbf{b} = \\sqrt{3}$，则 $\\mathbf{b} =$（ ）",
+          "choices": [
+            "$\\left(\\frac{\\sqrt{3}}{2}, \\frac{1}{2}\\right)$",
+            "$\\left(\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$",
+            "$\\left(\\frac{1}{4}, \\frac{3\\sqrt{3}}{4}\\right)$",
+            "$\\left(1,0\\right)$"
+          ],
+          "answer": "B",
+          "solution": "设 $\\mathbf{b}=(u,v)$. 由 $\\mathbf{b}$ 是单位向量，得 $u^{2}+v^{2}=1$；由数量积条件，得 $\\sqrt{3}u+v=\\sqrt{3}$，即 $v=\\sqrt{3}(1-u)$. 代入单位向量条件，得到\r\n\n$$\nu^{2}+3(1-u)^{2}=1\\Longleftrightarrow 2u^{2}-3u+1=0\\Longleftrightarrow u=1\\text{ 或 }u=\\frac{1}{2}\n$$\n\r\n当 $u=1$ 时 $v=0$，与 $\\mathbf{b}$ 不平行于 $x$ 轴矛盾；所以 $u=\\frac{1}{2}$，$v=\\frac{\\sqrt{3}}{2}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "若互相不等的实数 $a$，$b$，$c$ 成等差数列，$c$，$a$，$b$ 成等比数列，且 $a + 3b + c = 10$，则 $a =$（ ）",
+          "choices": [
+            "$4$",
+            "$2$",
+            "$-2$",
+            "$-4$"
+          ],
+          "answer": "D",
+          "solution": "设等差数列的公差为 $d$. 由 $a+3b+c=10$ 及 $a+c=2b$，得 $5b=10$，所以 $b=2$，且 $c=4-a$. 由于 $c$，$a$，$b$ 成等比数列，中项的平方等于两端项的积，故\r\n\n$$\na^{2}=bc=2(4-a)\\Longleftrightarrow (a+4)(a-2)=0\n$$\n\r\n若 $a=2$，则 $a=b=c=2$，与三个实数互不相等矛盾；因此 $a=-4$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "$\\triangle ABC$ 的内角 $A$ 满足 $\\sin 2A = \\frac{2}{3}$，则 $\\sin A + \\cos A =$（ ）",
+          "choices": [
+            "$\\frac{\\sqrt{15}}{3}$",
+            "$-\\frac{\\sqrt{15}}{3}$",
+            "$\\frac{5}{3}$",
+            "$-\\frac{5}{3}$"
+          ],
+          "answer": "A",
+          "solution": "三角形内角满足 $0<A<\\pi$. 由 $\\sin 2A=\\frac{2}{3}$，有\r\n\n$$\n(\\sin A+\\cos A)^{2}=\\sin^{2}A+\\cos^{2}A+2\\sin A\\cos A=1+\\sin 2A=\\frac{5}{3}\n$$\n\r\n又因为 $0<A<\\pi$ 且 $\\sin 2A>0$，所以 $0<A<\\frac{\\pi}{2}$，从而 $\\sin A+\\cos A>0$. 因而 $\\sin A+\\cos A=\\sqrt{\\frac{5}{3}}=\\frac{\\sqrt{15}}{3}$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "设 $f(x) = \\lg \\frac{2 + x}{2 - x}$，则 $f\\left(\\frac{x}{2}\\right) + f\\left(\\frac{2}{x}\\right)$ 的定义域为（ ）",
+          "choices": [
+            "$(-4,0)\\cup(0,4)$",
+            "$(-4,-1)\\cup(1,4)$",
+            "$(-2,-1)\\cup(1,2)$",
+            "$(-4,-2)\\cup(2,4)$"
+          ],
+          "answer": "B",
+          "solution": "对 $f\\left(\\frac{x}{2}\\right)$，真数为 $\\frac{4+x}{4-x}$，要求 $-4<x<4$. 对 $f\\left(\\frac{2}{x}\\right)$，先要求 $x\\ne0$，且真数\r\n\n$$\n\\frac{2+\\frac{2}{x}}{2-\\frac{2}{x}}=\\frac{x+1}{x-1}>0\n$$\n\r\n符号分析得 $x<-1$ 或 $x>1$. 与 $(-4,4)$ 取交集，函数的定义域为 $(-4,-1)\\cup(1,4)$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "在 $\\left(\\sqrt{x} - \\frac{1}{\\sqrt[3]{x}}\\right)^{24}$ 的展开式中，$x$ 的幂的指数是整数的项共有（ ）",
+          "choices": [
+            "$3$项",
+            "$4$项",
+            "$5$项",
+            "$9$项"
+          ],
+          "answer": "C",
+          "solution": "展开式的通项可写为\r\n$\\mathrm C_{24}^{k}(\\sqrt{x})^{24-k}\\left(-\\frac{1}{\\sqrt[3]{x}}\\right)^{k}$，$k=0$，$1$，$\\ldots$，$24$.\r\n其中 $x$ 的幂的指数为\r\n\n$$\n\\frac{24-k}{2}-\\frac{k}{3}=12-\\frac{5k}{6}\n$$\n\r\n该指数为整数当且仅当 $6\\mid 5k$，由于 $5$ 与 $6$ 互质，必须有 $6\\mid k$. 在 $0\\le k\\leqslant24$ 中，$k=0$，$6$，$12$，$18$，$24$，所以共有 $5$ 项，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "关于直线 $m$，$n$ 与平面 $\\alpha$，$\\beta$，有以下四个命题：\r\n\\begin{circlelist}\r\n\\item 若 $m \\parallel \\alpha$，$n \\parallel \\beta$ 且 $\\alpha \\parallel \\beta$，则 $m \\parallel n$；\r\n\\item 若 $m \\perp \\alpha$，$n \\perp \\beta$ 且 $\\alpha \\perp \\beta$，则 $m \\perp n$；\r\n\\item 若 $m \\perp \\alpha$，$n \\parallel \\beta$ 且 $\\alpha \\parallel \\beta$，则 $m \\perp n$；\r\n\\item 若 $m \\parallel \\alpha$，$n \\perp \\beta$ 且 $\\alpha \\perp \\beta$，则 $m \\parallel n$.\r\n\\end{circlelist}\r\n其中真命题的序号是（ ）",
+          "choices": [
+            "\\circled{1}\\circled{2}",
+            "\\circled{3}\\circled{4}",
+            "\\circled{1}\\circled{4}",
+            "\\circled{2}\\circled{3}"
+          ],
+          "answer": "D",
+          "solution": "命题$\\circled{1}$不成立：在互相平行的两个平面内，分别取方向不同的两条直线，它们不一定平行. 命题$\\circled{2}$成立，因为 $m$ 与 $n$ 的方向分别是平面 $\\alpha$ 与 $\\beta$ 的法向方向，而 $\\alpha\\perp\\beta$ 时两平面的法向方向互相垂直，所以 $m\\perp n$. 命题$\\circled{3}$成立：$m\\perp\\alpha$，而 $n\\parallel\\beta\\parallel\\alpha$，故 $m\\perp n$. 命题$\\circled{4}$不成立：$n\\perp\\beta$ 只说明 $n$ 的方向平行于平面 $\\alpha$ 的某一方向，不能推出它与任意给定的 $m\\parallel\\alpha$ 平行. 因而真命题为$\\circled{2}\\circled{3}$，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "设过点 $P(x, y)$ 的直线分别与 $x$ 轴的正半轴和 $y$ 轴的正半轴交于 $A$，$B$ 两点，点 $Q$ 与点 $P$ 关于 $y$ 轴对称，$O$ 为坐标原点，若 $\\overrightarrow{BP} = 2\\overrightarrow{PA}$ 且 $\\overrightarrow{OQ} \\cdot \\overrightarrow{AB} = 1$，则点 $P$ 的轨迹方程是（ ）",
+          "choices": [
+            "$3x^{2} + \\frac{3}{2} y^{2} = 1$（$x > 0$，$y > 0$）",
+            "$3x^{2} - \\frac{3}{2} y^{2} = 1$（$x > 0$，$y > 0$）",
+            "$\\frac{3}{2} x^{2} - 3y^{2} = 1$（$x > 0$，$y > 0$）",
+            "$\\frac{3}{2} x^{2} + 3y^{2} = 1$（$x > 0$，$y > 0$）"
+          ],
+          "answer": "D",
+          "solution": "设 $A=(u,0)$，$B=(0,v)$，其中 $u$，$v>0$. 由 $\\overrightarrow{BP}=2\\overrightarrow{PA}$，得 $P-B=2(A-P)$，即 $3P=2A+B$. 因而 $P=\\left(\\frac{2u}{3},\\frac{v}{3}\\right)$，所以 $u=\\frac{3x}{2}$，$v=3y$. 又 $Q=(-x,y)$，从而\r\n$\\overrightarrow{AB}=\\left(-\\frac{3x}{2},3y\\right)$，$\\overrightarrow{OQ}=(-x,y)$.\r\n代入数量积条件，得\r\n\n$$\n1=\\overrightarrow{OQ}\\cdot\\overrightarrow{AB}=\\frac{3}{2}x^{2}+3y^{2}\n$$\n\r\n由于 $u$，$v>0$，有 $x>0$，$y>0$，故轨迹方程为 $\\frac{3}{2}x^{2}+3y^{2}=1$，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "有限集合 $S$ 中元素的个数记作 $\\operatorname{card}(S)$. 设 $A$，$B$ 都为有限集合，给出下列命题：\r\n\\begin{circlelist}\r\n\\item $A \\cap B = \\varnothing$ 的充要条件是 $\\operatorname{card}(A \\cup B) = \\operatorname{card}(A) + \\operatorname{card}(B)$；\r\n\\item $A \\subseteq B$ 的必要条件是 $\\operatorname{card}(A) \\le \\operatorname{card}(B)$；\r\n\\item $A \\nsubseteq B$ 的充分条件是 $\\operatorname{card}(A) \\le \\operatorname{card}(B)$；\r\n\\item $A = B$ 的充要条件是 $\\operatorname{card}(A) = \\operatorname{card}(B)$.\r\n\\end{circlelist}\r\n其中真命题的序号是（ ）",
+          "choices": [
+            "\\circled{3}\\circled{4}",
+            "\\circled{1}\\circled{2}",
+            "\\circled{1}\\circled{4}",
+            "\\circled{2}\\circled{3}"
+          ],
+          "answer": "B",
+          "solution": "有限集合满足容斥公式\r\n\n$$\n\\operatorname{card}(A\\cup B)=\\operatorname{card}(A)+\\operatorname{card}(B)-\\operatorname{card}(A\\cap B)\n$$\n\r\n所以命题$\\circled{1}$正确. 若 $A\\subseteq B$，则 $B$ 包含 $A$ 的全部元素，故必有 $\\operatorname{card}(A)\\le\\operatorname{card}(B)$，命题$\\circled{2}$正确. 命题$\\circled{3}$不正确，例如 $A=\\{1\\}$，$B=\\{1,2\\}$ 时基数不等式成立，但 $A\\subseteq B$. 命题$\\circled{4}$不正确，例如 $A=\\{1\\}$，$B=\\{2\\}$ 时两集合基数相等但不相等. 因此真命题为$\\circled{1}\\circled{2}$，按原题选项顺序选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "已知平面区域 $D$ 由以 $A(1,3)$，$B(5,2)$，$C(3,1)$ 为顶点的三角形内部和边界组成. 若在区域 $D$ 上有无穷多个点 $(x, y)$ 可使目标函数 $z = x + my$ 取得最小值，则 $m =$（ ）",
+          "choices": [
+            "$-2$",
+            "$-1$",
+            "$1$",
+            "$4$"
+          ],
+          "answer": "C",
+          "solution": "目标函数的等值线为 $x+my=\\text{常数}$. 要使最小值在三角形的一条边上有无穷多个取得，等值线必须与该边平行. 三条边的方向向量可分别取\r\n$\\overrightarrow{AB}=(4,-1)$，$\\overrightarrow{BC}=(-2,-1)$，$\\overrightarrow{CA}=(-2,2)$.\r\n目标函数的梯度为 $(1,m)$，因此分别得到 $m=4$，$-2$，$1$. 逐一比较顶点处的函数值：当 $m=-2$ 时，$z(A)=-5$，$z(B)=1$，$z(C)=1$，边 $BC$ 上取得的是最大值；当 $m=4$ 时，$z(A)=z(B)=13$，$z(C)=7$，边 $AB$ 上取得的是最大值；当 $m=1$ 时，$z(A)=z(C)=4$，$z(B)=7$，边 $CA$ 上的所有点都取得最小值. 所以 $m=1$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "关于 $x$ 的方程 $(x^{2} - 1)^{2} - |x^{2} - 1| + k = 0$，给出下列四个命题：\r\n\\begin{circlelist}\r\n\\item 存在实数 $k$，使得方程恰有 $2$ 个不同的实根；\r\n\\item 存在实数 $k$，使得方程恰有 $4$ 个不同的实根；\r\n\\item 存在实数 $k$，使得方程恰有 $5$ 个不同的实根；\r\n\\item 存在实数 $k$，使得方程恰有 $8$ 个不同的实根.\r\n\\end{circlelist}\r\n其中假命题的个数是（ ）",
+          "choices": [
+            "$0$",
+            "$1$",
+            "$2$",
+            "$3$"
+          ],
+          "answer": "A",
+          "solution": "令 $t=|x^{2}-1|$，则 $t\\geqslant0$，原方程化为 $t^{2}-t+k=0$. 对固定的 $t$，方程 $|x^{2}-1|=t$ 的实根数为：$t=0$ 时为 $2$ 个；$0<t<1$ 时由 $x^{2}=1-t$ 或 $x^{2}=1+t$ 得 $4$ 个；$t=1$ 时为 $x=0$，$\\pm\\sqrt{2}$，共 $3$ 个；$t>1$ 时只有 $x^{2}=1+t$，为 $2$ 个.\r\n\r\n取 $k=-1$，二次方程的唯一非负根为 $t=\\frac{1+\\sqrt{5}}{2}>1$，原方程有 $2$ 个根；取 $k=\\frac14$，有重根 $t=\\frac12$，原方程有 $4$ 个根；取 $k=0$，有 $t=0$，$1$，原方程有 $2+3=5$ 个根；取 $k=\\frac{6}{25}$，有两个根 $t=\\frac25$，$\\frac35$，每个都在 $(0,1)$ 内，原方程有 $4+4=8$ 个根. 四个命题均为真，假命题的个数为 $0$，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "设 $x$，$y$ 为实数，且 $\\frac{x}{1 - \\mathrm{i}} + \\frac{y}{1 - 2\\mathrm{i}} = \\frac{5}{1 - 3\\mathrm{i}}$，则 $x + y =$ _______ {}.",
+          "choices": [],
+          "answer": "4",
+          "solution": "将各分式有理化，原等式化为\r\n\n$$\n\\frac{x}{2}(1+\\mathrm{i})+\\frac{y}{5}(1+2\\mathrm{i})=\\frac{1}{2}(1+3\\mathrm{i})\n$$\n\r\n比较实部和虚部，得到\r\n$\\frac{x}{2}+\\frac{y}{5}=\\frac12$，$\\frac{x}{2}+\\frac{2y}{5}=\\frac32$.\r\n两式相减得 $y=5$，再代入第一式得 $x=-1$，所以 $x+y=4$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "接种某疫苗后，出现发热反应的概率为 $0.80$，现有 $5$ 人接种该疫苗，至少有 $3$ 人出现发热反应的概率为 _______ {}. （精确到 $0.01$）",
+          "choices": [],
+          "answer": "0.94",
+          "solution": "按各人的反应相互独立，设出现发热反应的人数为 $X$，则 $X\\sim B(5,0.8)$. 所求概率为\r\n\n$$\nP(X\\geqslant3)=\\mathrm C_{5}^{3}(0.8)^{3}(0.2)^{2}+\\mathrm C_{5}^{4}(0.8)^{4}(0.2)+(0.8)^{5}\r\n=0.2048+0.4096+0.32768=0.94208\n$$\n\r\n精确到 $0.01$ 得 $0.94$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "已知直线 $5x + 12y + a = 0$ 与圆 $x^{2} - 2x + y^{2} = 0$ 相切，则 $a$ 的值为 _______ {}.",
+          "choices": [],
+          "answer": "\\(-18\\) 或 \\(8\\)",
+          "solution": "将圆方程配方，得\r\n\n$$\n(x-1)^{2}+y^{2}=1\n$$\n\r\n所以圆心为 $(1,0)$，半径为 $1$. 由直线与圆相切，圆心到直线的距离等于半径，即\r\n\n$$\n\\frac{|5+a|}{\\sqrt{5^{2}+12^{2}}}=1\\Longleftrightarrow |a+5|=13\n$$\n\r\n因此 $a=8$ 或 $a=-18$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "某工程队有 $6$ 项工程需要先后单独完成，其中工程乙必须在工程甲完成后才能进行，工程丙必须在工程乙完成后才能进行，又工程丁必须在工程丙完成后立即进行. 那么安排这 $6$ 项工程的不同排法种数是 _______ {}. （用数字作答）",
+          "choices": [],
+          "answer": "20",
+          "solution": "将工程丙和必须紧接其后的工程丁看作一个整体 $\\text{丙丁}$. 于是需要排列的五个对象为甲、乙、$\\text{丙丁}$ 以及另外两项工程，并且甲、乙、$\\text{丙丁}$ 的先后顺序必须固定为甲、乙、$\\text{丙丁}$. 先从五个位置中选出这三个对象的位置，再安排另外两项工程，排法数为\r\n\n$$\n\\mathrm C_{5}^{3}\\times 2!=20\n$$\n\r\n因此不同排法种数为 $20$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "将杨辉三角中的每一个数 $\\mathrm{C}_n^r$ 都换成分数 $\\frac{1}{(n + 1)\\mathrm{C}_n^r}$，得到一个如图所示的分数三角形，称为莱布尼茨三角形.\r\n\r\n\\begin{center}\r\n\\begin{tabular}{ccccccccccccc}\r\n&&&&&&$\\displaystyle\\frac{1}{1}$&&&&&&\\\\\r\n&&&&&$\\displaystyle\\frac{1}{2}$&&$\\displaystyle\\frac{1}{2}$&&&&&\\\\\r\n&&&&$\\displaystyle\\frac{1}{3}$&&$\\displaystyle\\frac{1}{6}$&&$\\displaystyle\\frac{1}{3}$&&&&\\\\\r\n&&&$\\displaystyle\\frac{1}{4}$&&$\\displaystyle\\frac{1}{12}$&&$\\displaystyle\\frac{1}{12}$&&$\\displaystyle\\frac{1}{4}$&&&\\\\\r\n&&$\\displaystyle\\frac{1}{5}$&&$\\displaystyle\\frac{1}{20}$&&$\\displaystyle\\frac{1}{30}$&&$\\displaystyle\\frac{1}{20}$&&$\\displaystyle\\frac{1}{5}$&&\\\\\r\n&$\\displaystyle\\frac{1}{6}$&&$\\displaystyle\\frac{1}{30}$&&$\\displaystyle\\frac{1}{60}$&&$\\displaystyle\\frac{1}{60}$&&$\\displaystyle\\frac{1}{30}$&&$\\displaystyle\\frac{1}{6}$&\\\\\r\n$\\displaystyle\\frac{1}{7}$&&$\\displaystyle\\frac{1}{42}$&&$\\displaystyle\\frac{1}{105}$&&$\\displaystyle\\frac{1}{140}$&&$\\displaystyle\\frac{1}{105}$&&$\\displaystyle\\frac{1}{42}$&&$\\displaystyle\\frac{1}{7}$\\\\\r\n\\multicolumn{13}{c}{$\\cdots\\cdots$}\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n从莱布尼茨三角形可看出 $\\frac{1}{(n + 1)\\mathrm{C}_n^{r}} + \\frac{1}{(n + 1)\\mathrm{C}_n^{x}} = \\frac{1}{n\\mathrm{C}_{n - 1}^{r}}$，其中 $x =$ _______ {}，令 $a_n = \\frac{1}{3} + \\frac{1}{12} + \\cdots + \\frac{1}{n\\mathrm{C}_{n - 1}^{2}} + \\frac{1}{(n + 1)\\mathrm{C}_n^{2}}$，则 $\\lim\\limits_{n\\to \\infty} a_n =$ _______ {}.",
+          "choices": [],
+          "answer": "\\(r+1\\)，\\(\\frac{1}{2}\\)",
+          "solution": "莱布尼茨三角形中同一行相邻两项之和等于上一行夹在它们正上方的项，因此右边一项的组合数下标比左边一项大 $1$，故 $x=r+1$.\r\n\r\n由组合数的对称性，给出的和可写为\r\n\n$$\na_n=\\sum_{j=2}^{n}\\frac{1}{(j+1)\\mathrm C_{j}^{2}}\n$$\n\r\n又 $\\mathrm C_j^2=\\frac{j(j-1)}{2}$，所以\r\n\n$$\n\\frac{1}{(j+1)\\mathrm C_j^2}=\\frac{2}{j(j-1)(j+1)}=\\frac{1}{j(j-1)}-\\frac{1}{j(j+1)}\n$$\n\r\n从而\r\n\n$$\na_n=\\sum_{j=2}^{n}\\left(\\frac{1}{j(j-1)}-\\frac{1}{j(j+1)}\\right)=\\frac12-\\frac{1}{n(n+1)}\n$$\n\r\n令 $n\\to\\infty$，得到 $\\lim\\limits_{n\\to\\infty}a_n=\\frac12$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 16,
+          "body": "设函数 $f(x) = \\mathbf{a} \\cdot (\\mathbf{b} + \\mathbf{c})$，其中向量 $\\mathbf{a} = (\\sin x, -\\cos x)$，$\\mathbf{b} = (\\sin x, -3\\cos x)$，$\\mathbf{c} = (-\\cos x, \\sin x)$，$x \\in \\mathbb{R}$.\r\n\r\n\n(1) 求函数 $f(x)$ 的最大值和最小正周期；\n\n(2) 将函数 $f(x)$ 的图像按向量 $\\mathbf{d}$ 平移，使平移后得到的图像关于坐标原点成中心对称，求长度最小的 $\\mathbf{d}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由向量的坐标及数量积定义，\r\n\n$$\nf(x)=(\\sin x,-\\cos x)\\cdot(\\sin x-\\cos x,\\sin x-3\\cos x)\r\n =\\sin^{2}x+3\\cos^{2}x-2\\sin x\\cos x\n$$\n\r\n又\r\n\n$$\nf(x)=2+\\cos 2x-\\sin 2x=2+\\sqrt{2}\\cos\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n\r\n因此 $f(x)$ 的最大值为 $2+\\sqrt{2}$，且因角频率为 $2$，最小正周期为 $\\pi$.\n\n(2) 设平移向量为 $\\mathbf{d}=(h,k)$. 平移后的图像是函数\r\n\n$$\ng(x)=f(x-h)+k=2+k+\\sqrt{2}\\cos\\left(2x-2h+\\frac{\\pi}{4}\\right)\n$$\n\r\n的图像. 图像关于坐标原点中心对称，当且仅当 $g$ 是奇函数. 由 $g(x)+g(-x)\\equiv0$，常数项和余弦项的系数分别必须满足\r\n$k=-2$，$\\cos\\left(-2h+\\frac{\\pi}{4}\\right)=0$.\r\n所以\r\n$h=-\\frac{\\pi}{8}-\\frac{\\ell\\pi}{2}$，$k=-2$，$\\ell\\in\\mathbb{Z}$.\r\n在这些向量中，$h$ 的绝对值最小时取 $\\ell=0$，故长度最小的平移向量为 $\\mathbf{d}=\\left(-\\frac{\\pi}{8},-2\\right)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "已知二次函数 $y = f(x)$ 的图象经过坐标原点，其导函数为 $f'(x) = 6x - 2$，数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，点 $(n, S_n)$（$n \\in \\mathbb{N}^*$）均在函数 $y = f(x)$ 的图象上.\r\n\r\n\n(1) 求数列 $\\{a_n\\}$ 的通项公式；\n\n(2) 设 $b_n = \\frac{3}{a_n a_{n+1}}$，$T_n$ 是数列 $\\{b_n\\}$ 的前 $n$ 项和，求使得 $T_n < \\frac{m}{20}$ 对所有 $n \\in \\mathbb{N}^*$ 都成立的最小正整数 $m$.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由 $f'(x)=6x-2$，积分得 $f(x)=3x^{2}-2x+C$. 因为图像经过原点，$f(0)=0$，所以 $C=0$，即 $f(x)=3x^{2}-2x$. 由点 $(n,S_n)$ 在图像上，得\r\n\n$$\nS_n=f(n)=3n^{2}-2n\n$$\n\r\n当 $n=1$ 时，$a_1=S_1=1=6\\times1-5$. 当 $n\\geqslant2$ 时，\r\n\n$$\na_n=S_n-S_{n-1}=3n^{2}-2n-\\bigl(3(n-1)^{2}-2(n-1)\\bigr)=6n-5\n$$\n\r\n故数列通项为 $a_n=6n-5$（$n\\in\\mathbb{N}^*$）.\n\n(2) 由通项公式，\r\n\n$$\nb_n=\\frac{3}{(6n-5)(6n+1)}=\\frac12\\left(\\frac{1}{6n-5}-\\frac{1}{6n+1}\\right)\n$$\n\r\n因此\r\n\n$$\nT_n=\\sum_{j=1}^{n}b_j=\\frac12\\left(1-\\frac{1}{6n+1}\\right)<\\frac12\n$$\n\r\n取 $m=10$ 时，$\\frac{m}{20}=\\frac{1}{2}$，不等式对所有正整数 $n$ 成立. 若 $m\\leqslant9$，则 $\\frac{m}{20}<\\frac{1}{2}$，而 $T_n\\to\\frac{1}{2}$，故对充分大的 $n$ 有 $T_n>\\frac{m}{20}$，不满足条件. 所以最小正整数为 $m=10$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，在棱长为 $1$ 的正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，$P$ 是侧棱 $CC_{1}$ 上的一点，$CP = m$.\r\n\r\n\n(1) 试确定 $m$，使直线 $AP$ 与平面 $BDD_{1}B_{1}$ 所成角的正切值为 $3\\sqrt{2}$；\n\n(2) 在线段 $A_{1}C_{1}$ 上是否存在一个定点 $Q$，使得对任意的 $m$，$D_{1}Q$ 在平面 $APD_{1}$ 上的射影垂直于 $AP$，并证明你的结论.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/hubei_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "取空间直角坐标系，使\r\n$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$\r\n$A_{1}=(0,0,1)$，$B_{1}=(1,0,1)$，$C_{1}=(1,1,1)$，$D_{1}=(0,1,1)$.\r\n于是 $P=(1,1,m)$，其中 $0\\le m\\leqslant1$，且 $\\overrightarrow{AP}=(1,1,m)$. 平面 $BDD_{1}B_{1}$ 的方程为 $x+y=1$，法向量可取 $\\mathbf{n}=(1,1,0)$. 设直线 $AP$ 与该平面所成的角为 $\\theta$，则\r\n$\\sin\\theta=\\frac{|\\overrightarrow{AP}\\cdot\\mathbf{n}|}{|\\overrightarrow{AP}|\\,|\\mathbf{n}|}=\\frac{\\sqrt{2}}{\\sqrt{m^{2}+2}}$，$\\cos\\theta=\\frac{m}{\\sqrt{m^{2}+2}}$.\r\n当正切值为有限数时 $m>0$，所以 $\\tan\\theta=\\frac{\\sqrt{2}}{m}$. 由题意 $\\frac{\\sqrt{2}}{m}=3\\sqrt{2}$，得 $m=\\frac13$.\r\n\r\n再设 $Q$ 在线段 $A_{1}C_{1}$ 上，写成 $Q=(t,t,1)$，其中 $0\\le t\\leqslant1$. 则\r\n$\\overrightarrow{D_{1}Q}=(t,t-1,0)$，$\\overrightarrow{AP}=(1,1,m)$.\r\n设 $\\overrightarrow{D_{1}Q}$ 在平面 $APD_{1}$ 上的射影为 $\\mathbf{w}$，并令 $\\mathbf{u}=\\overrightarrow{D_{1}Q}-\\mathbf{w}$. 则 $\\mathbf{u}$ 垂直于平面 $APD_{1}$，而 $\\overrightarrow{AP}$ 在该平面内，所以\r\n\n$$\n\\mathbf{w}\\cdot\\overrightarrow{AP}=\\overrightarrow{D_{1}Q}\\cdot\\overrightarrow{AP}=t+(t-1)=2t-1\n$$\n\r\n因此投影垂直于 $AP$ 当且仅当 $2t-1=0$，即 $t=\\frac12$. 这与 $m$ 无关，故存在唯一这样的定点，且它是线段 $A_{1}C_{1}$ 的中点.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "在某校举行的数学竞赛中，全体参赛学生的竞赛成绩近似服从正态分布 $N(70,100)$. 已知成绩在 $90$ 分以上（含 $90$ 分）的学生有 $12$ 名.\r\n\r\n\n(1) 试问此次参赛学生总数约为多少人？\n\n(2) 若该校计划奖励竞赛成绩排在前 $50$ 名的学生，试问设奖的分数线约为多少分？\n\r\n\r\n\\begin{center}\r\n\\small\r\n\\begin{tabular}{c|ccccc}\r\n$x_0$ & 0 & 1 & 2 & 3 & 4 \\\\\r\n\\hline\r\n1.2 & 0.8849 & 0.8869 & 0.8888 & 0.8907 & 0.8925 \\\\\r\n1.3 & 0.9032 & 0.9049 & 0.9066 & 0.9082 & 0.9099 \\\\\r\n1.4 & 0.9192 & 0.9207 & 0.9222 & 0.9236 & 0.9251 \\\\\r\n1.9 & 0.9713 & 0.9719 & 0.9726 & 0.9732 & 0.9738 \\\\\r\n2.0 & 0.9772 & 0.9778 & 0.9783 & 0.9788 & 0.9793 \\\\\r\n2.1 & 0.9821 & 0.9826 & 0.9830 & 0.9834 & 0.9838\r\n\\end{tabular}\r\n\r\n\\vspace{0.4em}\r\n\r\n\\begin{tabular}{c|ccccc}\r\n$x_0$ & 5 & 6 & 7 & 8 & 9 \\\\\r\n\\hline\r\n1.2 & 0.8944 & 0.8962 & 0.8980 & 0.8997 & 0.9015 \\\\\r\n1.3 & 0.9115 & 0.9131 & 0.9147 & 0.9162 & 0.9177 \\\\\r\n1.4 & 0.9265 & 0.9278 & 0.9292 & 0.9306 & 0.9319 \\\\\r\n1.9 & 0.9744 & 0.9750 & 0.9756 & 0.9762 & 0.9767 \\\\\r\n2.0 & 0.9798 & 0.9803 & 0.9808 & 0.9812 & 0.9817 \\\\\r\n2.1 & 0.9842 & 0.9846 & 0.9850 & 0.9854 & 0.9857\r\n\\end{tabular}\r\n\\end{center}",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设参赛学生的成绩为 $X$，则 $X\\sim N(70,100)$，标准差为 $10$. 令 $Z=\\frac{X-70}{10}$，则 $Z\\sim N(0,1)$. 由标准正态分布表，\r\n\n$$\nP(X\\geqslant90)=P(Z\\geqslant2)=1-\\Phi(2)=1-0.9772=0.0228\n$$\n\r\n若参赛学生总数为 $N$，则 $0.0228N\\approx12$，所以\r\n\n$$\nN\\approx\\frac{12}{0.0228}\\approx526\n$$\n\r\n故参赛学生总数约为 $526$ 人.\n\n(2) 设奖励分数线为 $x$ 分，则成绩不低于该分数线的学生约占 $\\frac{50}{526}\\approx0.0951$. 因而\r\n\n$$\nP(X\\le x)\\approx1-0.0951=0.9049\n$$\n\r\n所以 $\\Phi\\left(\\frac{x-70}{10}\\right)=0.9049$. 查表得 $\\frac{x-70}{10}\\approx1.31$，从而 $x\\approx70+10\\times1.31=83.1$. 故设奖分数线约为 $83.1$ 分.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "设 $A$，$B$ 分别为椭圆 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a > 0$，$b > 0$）的左，右顶点，椭圆长半轴的长等于焦距，且 $x = 4$ 为它的右准线.\r\n\r\n\n(1) 求椭圆的方程；\n\n(2) 设 $P$ 为右准线上不同于点 $(4,0)$ 的任意一点，若直线 $AP$，$BP$ 分别与椭圆相交于异于 $A$，$B$ 的点 $M$，$N$，证明点 $B$ 在以 $MN$ 为直径的圆内.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设椭圆的半焦距为 $c$，则焦点为 $(\\pm c,0)$，右准线方程为 $x=\\frac{a^{2}}{c}$. 题设“长半轴的长等于焦距”给出 $a=2c$，又由右准线为 $x=4$ 得\r\n$\\frac{a^{2}}{c}=4$，$a=2c$.\r\n于是 $4c=4$，从而 $c=1$，$a=2$. 再由 $b^{2}=a^{2}-c^{2}$，得 $b^{2}=3$. 所以椭圆方程为\r\n\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n\n(2) 由上问，$A=(-2,0)$，$B=(2,0)$. 设 $P=(4,t)$，因 $P\\ne(4,0)$，有 $t\\ne0$. 记 $r=\\frac{t}{6}$，则直线 $AP$ 的方程为 $y=r(x+2)$，直线 $BP$ 的方程为 $y=3r(x-2)$.\r\n\r\n设 $M$ 是直线 $AP$ 与椭圆除 $A$ 外的交点. 将 $y=r(x+2)$ 代入椭圆方程，得\r\n\n$$\n\\frac{x^{2}}{4}+\\frac{r^{2}(x+2)^{2}}{3}-1=0\r\n\\Longleftrightarrow\r\n(x+2)\\left[\\left(\\frac14+\\frac{r^{2}}{3}\\right)(x+2)-1\\right]=0\n$$\n\r\n除去对应于 $A$ 的根，得到\r\n$x_M+2=\\frac{12}{3+4r^{2}}$，$y_M=\\frac{12r}{3+4r^{2}}$.\r\n因此\r\n\n$$\n\\overrightarrow{BM}=\\frac{4r}{3+4r^{2}}(-4r,3)\n$$\n\r\n\r\n令 $v=x-2$，将 $y=3rv$ 代入椭圆方程，得\r\n\n$$\n\\frac{(v+2)^{2}}{4}+3r^{2}v^{2}-1=0\r\n\\Longleftrightarrow\r\nv\\left[\\left(\\frac14+3r^{2}\\right)v+1\\right]=0\n$$\n\r\n其中 $v=0$ 对应于 $B$，除去该根后\r\n$x_N-2=-\\frac{4}{1+12r^{2}}$，$y_N=-\\frac{12r}{1+12r^{2}}$，\r\n从而\r\n\n$$\n\\overrightarrow{BN}=-\\frac{4}{1+12r^{2}}(1,3r)\n$$\n\r\n于是\r\n\n$$\n\\overrightarrow{BM}\\cdot\\overrightarrow{BN}=-\\frac{80r^{2}}{(3+4r^{2})(1+12r^{2})}<0\n$$\n\r\n所以 $\\angle MBN>90^{\\circ}$. 根据圆的直径所对的圆周角为直角及其内外判定，点 $B$ 在以 $MN$ 为直径的圆内.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "设 $x = 3$ 是函数 $f(x) = (x^2 + ax + b)\\mathrm{e}^{3 - x}$（$x \\in \\mathbb{R}$）的一个极值点.\r\n\r\n\n(1) 求 $a$ 与 $b$ 的关系式（用 $a$ 表示 $b$），并求 $f(x)$ 的单调区间；\n\n(2) 设 $a > 0$，$g(x) = \\left(a^2 + \\frac{25}{4}\\right)\\mathrm{e}^x$. 若存在 $\\xi_1$，$\\xi_2 \\in [0,4]$ 使得 $\\left|f(\\xi_1) - g(\\xi_2)\\right| < 1$ 成立，求 $a$ 的取值范围.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 求导得\r\n\n$$\nf'(x)=\\bigl(2x+a-(x^{2}+ax+b)\\bigr)\\mathrm{e}^{3-x}\n$$\n\r\n因为 $x=3$ 是极值点，必有 $f'(3)=0$，所以\r\n\n$$\n\\bigl(6+a-(9+3a+b)\\bigr)\\mathrm{e}^{0}=0\\Longleftrightarrow b=-3-2a\n$$\n\r\n代回并因式分解，得\r\n\n$$\nf'(x)=\\bigl(-x^{2}+(2-a)x+3+3a\\bigr)\\mathrm{e}^{3-x}=(3-x)(x+a+1)\\mathrm{e}^{3-x}\n$$\n\r\n若 $a=-4$，则两个零点重合，且 $f'(x)=-(x-3)^{2}\\mathrm{e}^{3-x}\\leqslant0$，函数在 $x=3$ 两侧均不改变单调性，不是极值点. 因此 $a\\ne-4$.\r\n\r\n当 $a>-4$ 时，$-a-1<3$，由导数符号得 $f(x)$ 在 $(-\\infty,-a-1)$ 上单调递减，在 $(-a-1,3)$ 上单调递增，在 $(3,+\\infty)$ 上单调递减. 当 $a<-4$ 时，$3<-a-1$，所以 $f(x)$ 在 $(-\\infty,3)$ 上单调递减，在 $(3,-a-1)$ 上单调递增，在 $(-a-1,+\\infty)$ 上单调递减.\n\n(2) 现有 $a>0$，属于 $a>-4$ 的情形. 因而 $f$ 在 $[0,3]$ 上递增，在 $[3,4]$ 上递减. 由 $b=-3-2a$，\r\n$f(0)=(-3-2a)\\mathrm{e}^{3}<0$，$f(3)=a+6$，$f(4)=\\frac{13+2a}{\\mathrm{e}}$.\r\n并且\r\n\n$$\n\\mathrm{e}(a+6)-(13+2a)=(\\mathrm{e}-2)a+6\\mathrm{e}-13>0\n$$\n\r\n所以 $f(4)<f(3)$，从而 $f([0,4])=[f(0),a+6]$. 另一方面，$g(x)=\\left(a^{2}+\\frac{25}{4}\\right)\\mathrm{e}^{x}$ 在 $[0,4]$ 上递增，其最小值为 $g(0)=a^{2}+\\frac{25}{4}$. 因为 $f(0)<0<g(0)$，两值域中能使距离小于 $1$ 的最小可能距离由 $f(3)$ 与 $g(0)$ 决定，故存在 $\\xi_1$，$\\xi_2\\in[0,4]$ 使 $\\left|f(\\xi_1)-g(\\xi_2)\\right|<1$ 当且仅当\r\n\n$$\ng(0)-f(3)<1\\Longleftrightarrow a^{2}+\\frac{25}{4}-(a+6)<1\\Longleftrightarrow \\left(a-\\frac12\\right)^{2}<1\n$$\n\r\n结合 $a>0$，得到 $0<a<\\frac32$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

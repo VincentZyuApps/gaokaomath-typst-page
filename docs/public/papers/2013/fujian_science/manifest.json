@@ -1,0 +1,426 @@
+{
+  "year": "2013",
+  "slug": "fujian_science",
+  "title": "2013年福建卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "已知复数 $\\overline{z} = 1 + 2\\mathrm{i}$（$\\mathrm{i}$为虚数单位），则 $z$ 在复平面内对应的点位于（ ）",
+          "choices": [
+            "第一象限",
+            "第二象限",
+            "第三象限",
+            "第四象限"
+          ],
+          "answer": "D",
+          "solution": "对等式 $\\overline{z}=1+2\\mathrm{i}$ 两边取共轭，得 $z=1-2\\mathrm{i}$. 因此 $z$ 的实部为 $1>0$，虚部为 $-2<0$，它在复平面内对应的点位于第四象限，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "已知集合 $A = \\{1, a\\}$，$B = \\{1, 2, 3\\}$，则“$a = 3$”是“$A \\subseteq B$”的（ ）",
+          "choices": [
+            "充分而不必要条件",
+            "必要而不充分条件",
+            "充分必要条件",
+            "既不充分也不必要条件"
+          ],
+          "answer": "A",
+          "solution": "当 $a=3$ 时，$A=\\{1,3\\}\\subseteq B$，所以“$a=3$”是“$A\\subseteq B$”的充分条件. 反过来，若 $A\\subseteq B$，只需 $a\\in B$，故 $a$ 可以取 $1$，$2$，$3$，不一定等于 $3$. 因此该条件不是必要条件，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "双曲线 $\\frac{x^{2}}{4} - y^{2} = 1$ 的顶点到渐近线的距离等于（ ）",
+          "choices": [
+            "$\\frac{2}{5}$",
+            "$\\frac{4}{5}$",
+            "$\\frac{2\\sqrt{5}}{5}$",
+            "$\\frac{4\\sqrt{5}}{5}$"
+          ],
+          "answer": "C",
+          "solution": "双曲线可写为 $\\frac{x^2}{2^2}-\\frac{y^2}{1^2}=1$，其顶点为 $(\\pm2,0)$，渐近线为 $y=\\pm\\frac{x}{2}$. 取顶点 $(2,0)$ 和渐近线 $x-2y=0$，点到直线的距离为\r\n\n$$\n\\frac{|2-2\\cdot0|}{\\sqrt{1^2+(-2)^2}}=\\frac{2}{\\sqrt5}=\\frac{2\\sqrt5}{5}\n$$\n\r\n另一顶点到渐近线的距离相同，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "某校从高一年级学生中随机抽取部分学生，将他们的模块测试成绩分成 $6$ 组：$[40,50)$，$[50,60)$，$[60,70)$，$[70,80)$，$[80,90)$，$[90,100)$ 加以统计，得到如图所示的频率分布直方图. 已知高一年级共有学生 $600$ 名，据此估计，该模块测试成绩不少于 $60$ 分的学生人数为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/fujian_science/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "588",
+            "480",
+            "450",
+            "120"
+          ],
+          "answer": "B",
+          "solution": "由频率分布直方图可读出成绩在 $[60,70)$，$[70,80)$，$[80,90)$，$[90,100)$ 内的频率分别为 $0.030$，$0.025$，$0.015$，$0.010$. 每组组距均为 $10$，所以成绩不少于 $60$ 分的频率为\r\n\n$$\n10(0.030+0.025+0.015+0.010)=0.8\n$$\n\r\n据此估计人数为 $600\\times0.8=480$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "满足 $a$，$b \\in \\{-1, 0, 1, 2\\}$，且关于 $x$ 的方程 $ax^{2} + 2x + b = 0$ 有实数解的有序数对 $(a, b)$ 的个数为（ ）",
+          "choices": [
+            "14",
+            "13",
+            "12",
+            "10"
+          ],
+          "answer": "B",
+          "solution": "当 $a=0$ 时，方程化为 $2x+b=0$，对四个可能的 $b$ 均有实数解，共有 $4$ 个有序数对. 当 $a\\ne0$ 时，判别式为\r\n\n$$\n\\Delta=2^2-4ab=4(1-ab)\n$$\n\r\n有实数解的充要条件是 $ab\\leqslant1$. 对 $a=-1$，四个 $b$ 均满足；对 $a=1$，有 $b=-1$，$0$，$1$，共 $3$ 个；对 $a=2$，有 $b=-1$，$0$，共 $2$ 个. 总数为 $4+4+3+2=13$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "阅读如图所示的程序框图，若输入的 $k = 10$，则该算法的功能是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/fujian_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [
+            "计算数列 $\\{2^{n-1}\\}$ 的前 $10$ 项和",
+            "计算数列 $\\{2^{n-1}\\}$ 的前 $9$ 项和",
+            "计算数列 $\\{2^{n}-1\\}$ 的前 $10$ 项和",
+            "计算数列 $\\{2^{n}-1\\}$ 的前 $9$ 项和"
+          ],
+          "answer": "A",
+          "solution": "程序开始时 $S=0$，$i=1$. 每循环一次先执行 $S\\leftarrow1+2S$，再执行 $i\\leftarrow i+1$，当 $i>k$ 时输出. 循环 $j$ 次后，递推式给出 $S_j=2^j-1=1+2+2^2+\\cdots+2^{j-1}$. 输入 $k=10$ 时，初始 $i=1$，依次循环至第 $10$ 次后变为 $i=11>10$，故输出 $S_{10}=1+2+\\cdots+2^9$，即数列 $\\{2^{n-1}\\}$ 的前 $10$ 项和，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "在四边形 $ABCD$ 中，$\\overrightarrow{AC} = (1, 2)$，$\\overrightarrow{BD} = (-4, 2)$，则该四边形的面积为（ ）",
+          "choices": [
+            "$\\sqrt{5}$",
+            "$2\\sqrt{5}$",
+            "5",
+            "10"
+          ],
+          "answer": "C",
+          "solution": "四边形面积等于两条对角线所成平行四边形面积的一半. 两条对角线的行列式为\r\n\n$$\n\\begin{vmatrix}1&2\\\\-4&2\\end{vmatrix}=1\\times2-2\\times(-4)=10\n$$\n\r\n因此四边形面积为 $\\frac12\\times|10|=5$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "设函数 $f(x)$ 的定义域为 $\\mathbb{R}$，$x_0$（$x_0 \\neq 0$）是 $f(x)$ 的极大值点，以下结论一定正确的是（ ）",
+          "choices": [
+            "$\\forall x \\in \\mathbb{R}, f(x) \\le f(x_0)$",
+            "$-x_0$ 是 $f(-x)$ 的极小值点",
+            "$-x_0$ 是 $-f(x)$ 的极小值点",
+            "$-x_0$ 是 $-f(-x)$ 的极小值点"
+          ],
+          "answer": "D",
+          "solution": "由 $x_0$ 是 $f$ 的极大值点，存在 $x_0$ 的邻域，使得当 $u$ 在该邻域内时 $f(u)\\le f(x_0)$. 令 $u=-x$，则当 $x$ 在 $-x_0$ 的相应邻域内时，\r\n\n$$\n-f(-x)\\ge-f(x_0)=-f(-(-x_0))\n$$\n\r\n所以 $-x_0$ 是 $-f(-x)$ 的极小值点. 选项 A 把极大值点误作最大值点；选项 B 在自变量变换后仍对应极大值；选项 C 的函数值在 $-x_0$ 附近没有必然关系. 故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "已知等比数列 $\\{a_n\\}$ 的公比为 $q$，记 $b_n = a_{m(n-1)+1} + a_{m(n-1)+2} + \\cdots + a_{m(n-1)+m}$，$c_n = a_{m(n-1)+1} \\cdot a_{m(n-1)+2} \\cdot \\cdots \\cdot a_{m(n-1)+m}$\r\n（$m$，$n \\in \\mathbb{N}^{*}$），则以下结论一定正确的是（ ）",
+          "choices": [
+            "数列 $\\{b_n\\}$ 为等差数列，公差为 $q^{m}$",
+            "数列 $\\{b_n\\}$ 为等比数列，公比为 $q^{2m}$",
+            "数列 $\\{c_n\\}$ 为等比数列，公比为 $q^{m^{2}}$",
+            "数列 $\\{c_n\\}$ 为等比数列，公比为 $q^{m^{m}}$"
+          ],
+          "answer": "C",
+          "solution": "由等比数列的通项关系，后一组中对应的每一项都等于前一组相应项的 $q^m$ 倍. 因此 $b_{n+1}=q^m b_n$，但这并不能得到选项 A、B 所述的结论. 对乘积有\r\n\n$$\nc_{n+1}=\\prod_{j=0}^{m-1}q^m a_{m(n-1)+1+j}=q^{m^2}c_n\n$$\n\r\n所以 $\\{c_n\\}$ 为等比数列，公比为 $q^{m^2}$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "设 $S$，$T$ 是 $\\mathbb{R}$ 的两个非空子集，如果存在一个从 $S$ 到 $T$ 的函数 $y = f(x)$ 满足：\r\n\\begin{circlelist}\r\n\\item $T = \\{f(x) \\mid x \\in S\\}$；\r\n\\item 对任意 $x_1$，$x_2 \\in S$，当 $x_1 < x_2$ 时，恒有 $f(x_1) < f(x_2)$.\r\n\\end{circlelist}\r\n那么称这两个集合“保序同构”，以下集合对不是“保序同构”的是（ ）",
+          "choices": [
+            "$A = \\mathbb{N}^{*},\\ B = \\mathbb{N}$",
+            "$A = \\{x \\mid -1 \\le x \\le 3\\}$，$\\ B = \\{x \\mid x = -8 \\text{\\ 或\\ } 0 < x \\le 10\\}$",
+            "$A = \\{x \\mid 0 < x < 1\\}$，$\\ B = \\mathbb{R}$",
+            "$A = \\mathbb{Z}$，$\\ B = \\mathbb{Q}$"
+          ],
+          "answer": "D",
+          "solution": "选项 A 中，$f(n)=n-1$ 是从 $\\mathbb{N}^{*}$ 到 $\\mathbb{N}$ 的严格递增双射. 选项 B 中，定义\r\n$f(-1)=-8$，且当 $-1<x\\leqslant3$ 时令 $f(x)=\\frac52(x+1)$，则 $f$ 严格递增，并将 $[-1,3]$ 双射到 $\\{-8\\}\\cup(0,10]$. 选项 C 中，函数\r\n\n$$\nf(x)=\\ln\\frac{x}{1-x}\n$$\n\r\n在 $(0,1)$ 上严格递增，且值域为 $\\mathbb{R}$，所以这两集合保序同构.\r\n\r\n选项 D 不可能. 若存在严格递增双射 $f:\\mathbb{Z}\\to\\mathbb{Q}$，则有 $f(0)<f(1)$. 在两个有理数之间取有理数 $r$，由满射性存在 $k\\in\\mathbb{Z}$ 使 $f(k)=r$，严格递增性又给出 $0<k<1$，这与 $k\\in\\mathbb{Z}$ 矛盾. 故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 11,
+          "body": "利用计算机产生 $0 \\sim 1$ 之间的均匀随机数 $a$，则事件“$3a - 1 > 0$”发生的概率为 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{2}{3}\\)",
+          "solution": "由 $3a-1>0$ 得 $a>\\frac13$. 在区间 $[0,1]$ 上均匀取数时，事件对应区间 $(\\frac13,1]$，其长度为 $\\frac23$，而样本区间长度为 $1$，所以所求概率为 $\\frac23$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "已知某一多面体内接于球构成一个简单组合体，如果该组合体的正视图，侧视图，俯视图均如图所示，且图中的四边形是边长为 $2$ 的正方形，则该球的表面积是 _______ {}.\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/fujian_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(12\\pi\\)",
+          "solution": "三个方向的正投影均为边长为 $2$ 的正方形，故内接多面体的三个互相垂直方向的棱长均为 $2$，其空间对角线长为\r\n\n$$\n\\sqrt{2^2+2^2+2^2}=2\\sqrt3\n$$\n\r\n内接球经过多面体的顶点，球的直径等于该空间对角线，所以半径 $R=\\sqrt3$. 因而球的表面积为 $4\\pi R^2=4\\pi\\times3=12\\pi$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 13,
+          "body": "如图，在 $\\triangle ABC$ 中，已知点 $D$ 在 $BC$ 边上，$AD \\perp AC$，$\\sin \\angle BAC = \\frac{2\\sqrt{2}}{3}$，$AB = 3\\sqrt{2}$，$AD = 3$，则 $BD$ 的长为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/fujian_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "\\(\\sqrt{3}\\)",
+          "solution": "因为点 $D$ 在边 $BC$ 上，射线 $AD$ 位于 $\\angle BAC$ 内部，且 $AD\\perp AC$，所以\r\n$\\angle BAC=\\angle BAD+90^\\circ$，即 $\\angle BAD=\\angle BAC-90^\\circ$. 从而\r\n\n$$\n\\cos\\angle BAD=\\cos\\lvert\\angle BAC-90^\\circ\\rvert=\\sin\\angle BAC=\\frac{2\\sqrt2}{3}\n$$\n\r\n在 $\\triangle ABD$ 中应用余弦定理，得\r\n\n$$\nBD^2=AB^2+AD^2-2\\,AB\\cdot AD\\cos\\angle BAD\r\n=(3\\sqrt2)^2+3^2-2\\cdot3\\sqrt2\\cdot3\\cdot\\frac{2\\sqrt2}{3}=27-24=3\n$$\n\r\n因为 $BD>0$，所以 $BD=\\sqrt3$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "椭圆 $\\Gamma : \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1$（$a > b > 0$）的左右焦点分别为 $F_1$，$F_2$，焦距为 $2c$，若直线 $y = \\sqrt{3}(x + c)$ 与椭圆 $\\Gamma$ 的一个交点 $M$ 满足 $\\angle MF_1F_2 = 2 \\angle MF_2F_1$，则该椭圆的离心率等于 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\sqrt{3}-1\\)",
+          "solution": "直线 $y=\\sqrt3(x+c)$ 经过左焦点 $F_1=(-c,0)$. 从 $F_1$ 出发的两条射线与正向焦点轴分别成 $60^\\circ$ 和 $120^\\circ$. 若 $\\angle MF_1F_2=120^\\circ$，则由题设 $\\angle MF_2F_1=60^\\circ$，三角形的第三个内角为 $0^\\circ$，不可能. 因此 $\\angle MF_1F_2=60^\\circ$，从而 $\\angle MF_2F_1=30^\\circ$，故 $\\triangle MF_1F_2$ 在 $M$ 处为直角三角形，且 $F_1F_2=2c$ 为斜边. 因此\r\n$MF_1=c$，$MF_2=\\sqrt3c$.\r\n由椭圆定义，$MF_1+MF_2=2a$，于是 $2a=(1+\\sqrt3)c$. 所以离心率为\r\n\n$$\ne=\\frac ca=\\frac{2}{1+\\sqrt3}=\\sqrt3-1\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "当 $x \\in \\mathbb{R}$，$|x| < 1$ 时，有如下表达式： $1 + x + x^{2} + \\cdots + x^{n} + \\cdots = \\frac{1}{1-x}$.\r\n两边同时积分得： $\\int_{0}^{\\frac{1}{2}} 1\\,\\text{d}x + \\int_{0}^{\\frac{1}{2}} x\\,\\text{d}x + \\int_{0}^{\\frac{1}{2}} x^{2}\\,\\text{d}x + \\cdots + \\int_{0}^{\\frac{1}{2}} x^{n}\\,\\text{d}x + \\cdots = \\int_{0}^{\\frac{1}{2}} \\frac{1}{1-x}\\,\\text{d}x$，\r\n从而得到如下等式： $1 \\times \\frac{1}{2} + \\frac{1}{2} \\times \\left(\\frac{1}{2}\\right)^{2} + \\frac{1}{3} \\times \\left(\\frac{1}{2}\\right)^{3} + \\cdots + \\frac{1}{n+1} \\times \\left(\\frac{1}{2}\\right)^{n+1} + \\cdots = \\ln 2$.\r\n请根据以上材料所蕴含的数学思想方法，计算： $\\mathrm C_{n}^{0} \\times \\frac{1}{2} + \\frac{1}{2} \\mathrm C_{n}^{1} \\times \\left(\\frac{1}{2}\\right)^{2} + \\frac{1}{3} \\mathrm C_{n}^{2} \\times \\left(\\frac{1}{2}\\right)^{3} + \\cdots + \\frac{1}{n+1} \\mathrm C_{n}^{n} \\times \\left(\\frac{1}{2}\\right)^{n+1} = _______ {}$.",
+          "choices": [],
+          "answer": "\\(\\dfrac{1}{n+1}\\left[\\left(\\dfrac{3}{2}\\right)^{n+1}-1\\right]\\)",
+          "solution": "利用二项式定理，在有限和中逐项积分：\r\n\n$$\n\\int_0^{\\frac12}(1+x)^n\\,\\mathrm{d}x\r\n=\\int_0^{\\frac12}\\sum_{k=0}^{n}\\mathrm C_n^k x^k\\,\\mathrm{d}x\r\n=\\sum_{k=0}^{n}\\frac{1}{k+1}\\mathrm C_n^k\\left(\\frac12\\right)^{k+1}\n$$\n\r\n另一方面，直接计算积分得\r\n\n$$\n\\int_0^{\\frac12}(1+x)^n\\,\\mathrm{d}x\r\n=\\left.\\frac{(1+x)^{n+1}}{n+1}\\right|_0^{\\frac12}\r\n=\\frac{1}{n+1}\\left[\\left(\\frac32\\right)^{n+1}-1\\right]\n$$\n\r\n这就是所求结果.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 16,
+          "body": "某联欢晚会举行抽奖活动，举办方设置了甲，乙两种抽奖方案，方案甲的中奖率为 $\\frac{2}{3}$，中奖可以获得 $2$ 分；方案乙的中奖率为 $\\frac{2}{5}$，中奖可以获得 $3$ 分；未中奖则不得分. 每人有且只有一次抽奖机会，每次抽奖中奖与否互不影响，晚会结束后凭分数兑换奖品.\r\n\r\n\n(1) 若小明选择方案甲抽奖，小红选择方案乙抽奖，记他们的累计得分为 $X$，求 $X \\le 3$ 的概率；\n\n(2) 若小明，小红两人都选择方案甲或都选择方案乙进行抽奖，问：他们选择何种方案抽奖，累计得分的数学期望较大？",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设小明、小红分别中奖的事件为 $A$、$B$. 则 $P(A)=\\frac23$，$P(B)=\\frac25$，且二者相互独立. 累计得分 $X$ 只有 $0$，$2$，$3$，$5$ 四种可能；只有两人同时中奖时 $X=5>3$. 因此\r\n\n$$\nP(X\\leqslant3)=1-P(A\\cap B)=1-\\frac23\\cdot\\frac25=\\frac{11}{15}\n$$\n\n(2) 设一次抽奖所得分数为随机变量. 两人都选方案甲时，累计得分的数学期望为\r\n\n$$\nE_{\\text{甲}}=2\\times\\left(2\\cdot\\frac23\\right)=\\frac83\n$$\n\r\n两人都选方案乙时，累计得分的数学期望为\r\n\n$$\nE_{\\text{乙}}=2\\times\\left(3\\cdot\\frac25\\right)=\\frac{12}{5}\n$$\n\r\n因为 $\\frac83=\\frac{40}{15}>\\frac{36}{15}=\\frac{12}{5}$，所以选择方案甲时累计得分的数学期望较大.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 17,
+          "body": "已知函数 $f(x) = x - a \\ln x$（$a \\in \\mathbb{R}$）.\r\n\r\n\n(1) 当 $a = 2$ 时，求曲线 $y = f(x)$ 在点 $A(1, f(1))$ 处的切线方程；\n\n(2) 求函数 $f(x)$ 的极值.",
+          "choices": [],
+          "answer": "",
+          "solution": "函数定义域为 $x>0$，且\r\n\n$$\nf'(x)=1-\\frac ax=\\frac{x-a}{x}\n$$\n\r\n\n(1) 当 $a=2$ 时，$f(1)=1$，$f'(1)=-1$. 因而切线为\r\n\n$$\ny-1=-1(x-1)\n$$\n\r\n即 $x+y-2=0$.\n\n(2) 当 $a\\leqslant0$ 时，对所有 $x>0$ 有 $x-a>0$，所以 $f'(x)>0$，函数在定义域上递增，无极值. 当 $a>0$ 时，\r\n$f'(x)<0$，（$0<x<a$），$f'(x)>0$，（$x>a$）.\r\n故函数在 $x=a$ 处取得极小值\r\n\n$$\nf(a)=a-a\\ln a\n$$\n\r\n且无极大值.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 18,
+          "body": "如图，在正方形 $OABC$ 中，$O$ 为坐标原点，点 $A$ 的坐标为 $(10,0)$，点 $C$ 的坐标为 $(0,10)$. 分别将线段 $OA$ 和 $AB$ 十等分，分点分别记为 $A_1$，$A_2$，$\\cdots$，$A_9$ 和 $B_1$，$B_2$，$\\cdots$，$B_9$，连接 $OB_i$，过 $A_i$ 作 $x$ 轴的垂线与 $OB_i$ 交于点 $P_i$（$i \\in \\mathbb{N}^{*}$，$1 \\le i \\le 9$）.\r\n\r\n\n(1) 求证：点 $P_i$（$i \\in \\mathbb{N}^{*}$，$1 \\le i \\le 9$）都在同一条抛物线上，并求该抛物线 $E$ 的方程；\n\n(2) 过点 $C$ 作直线 $l$ 与抛物线 $E$ 交于不同的两点 $M$，$N$，若 $\\triangle OCM$ 与 $\\triangle OCN$ 的面积之比为 $4 : 1$，求直线 $l$ 的方程.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/fujian_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由正方形顶点坐标可知 $B=(10,10)$. 十等分后 $A_i=(i,0)$，$B_i=(10,i)$. 直线 $OB_i$ 的方程为 $y=\\frac{i}{10}x$，而过 $A_i$ 的垂线方程为 $x=i$. 联立得\r\n\n$$\nP_i=\\left(i,\\frac{i^2}{10}\\right)\n$$\n\r\n因此 $x_{P_i}^2=10y_{P_i}$，所有点 $P_i$ 均在抛物线 $E:x^2=10y$ 上.\n\n(2) 设直线 $l$ 的方程为 $y=kx+10$，与 $x^2=10y$ 联立得\r\n\n$$\nx^2-10kx-100=0\n$$\n\r\n设交点横坐标为 $x_1$，$x_2$，则\r\n$x_1+x_2=10k$，$x_1x_2=-100$.\r\n以 $OC$ 为共同底边，三角形面积等于 $\\frac12|OC|$ 乘以对应点到直线 $OC$ 的距离，所以面积之比给出 $|x_1|=4|x_2|$. 又因 $x_1x_2<0$，可设 $x_1=-4x_2$. 代入乘积关系得 $-4x_2^2=-100$，即 $x_2=\\pm5$. 因而\r\n\n$$\nx_1+x_2=\\pm15=10k\n$$\n\r\n得到 $k=\\pm\\frac32$. 所求直线为 $y=\\frac32x+10$ 或 $y=-\\frac32x+10$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，在四棱柱 $ABCD - A_1B_1C_1D_1$ 中，侧棱 $AA_1 \\perp$ 底面 $ABCD$，$AB \\parallel DC$，$AA_1 = 1$，$AB = 3k$，$AD = 4k$，$BC = 5k$，$DC = 6k$（$k > 0$）.\r\n\r\n\n(1) 求证：$CD \\perp$ 平面 $ADD_1A_1$；\n\n(2) 若直线 $AA_1$ 与平面 $AB_1C$ 所成的正弦值为 $\\frac{6}{7}$，求 $k$ 的值；\n\n(3) 现将与四棱柱 $ABCD - A_1B_1C_1D_1$ 形状和大小完全相同的两个四棱柱拼成一个新的四棱柱，规定：若拼成的新四棱柱形状和大小完全相同，则视为一种拼接方案，问：共有几种不同的拼接方案？在这些拼接成的新四棱柱中，记其中最小的表面积为 $f(k)$，写出 $f(k)$ 的解析式.（直接写出答案，不必说明理由）\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/fujian_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 取 $CD$ 的中点 $E$，连接 $BE$. 因为 $AB\\parallel DC$，且 $AB=3k=DE$，所以四边形 $ABED$ 是平行四边形，从而 $BE\\parallel AD$，且 $BE=AD=4k$. 在 $\\triangle BCE$ 中，$CE=3k$，$BE=4k$，$BC=5k$，故\r\n\n$$\nBE^2+CE^2=(4k)^2+(3k)^2=(5k)^2=BC^2\n$$\n\r\n所以 $\\angle BEC=90^\\circ$，即 $BE\\perp CD$. 又 $BE\\parallel AD$，所以 $AD\\perp CD$. 因为 $AA_1\\perp$ 底面 $ABCD$，故 $AA_1\\perp CD$. 直线 $AD$、$AA_1$ 相交且都在平面 $ADD_1A_1$ 内，因此 $CD\\perp$ 平面 $ADD_1A_1$.\n\n(2) 以 $D$ 为原点，以 $DA$、$DC$、$DD_1$ 所在方向为坐标轴正方向，建立空间直角坐标系，则\r\n$A=(4k,0,0)$，$C=(0,6k,0)$，$B=(4k,3k,0)$，$A_1=(4k,0,1)$，$B_1=(4k,3k,1)$.\r\n取平面 $AB_1C$ 内的两个方向向量\r\n$\\overrightarrow{AC}=(-4k,6k,0)$，$\\overrightarrow{AB_1}=(0,3k,1)$.\r\n设该平面的法向量为 $\\mathbf{n}=(x,y,z)$，则\r\n$-4kx+6ky=0$，$3ky+z=0$.\r\n取 $y=2$，得 $\\mathbf{n}=(3,2,-6k)$. 直线 $AA_1$ 的方向向量为 $\\mathbf{d}=(0,0,1)$. 若直线与平面所成的角为 $\\theta$，则\r\n\n$$\n\\sin\\theta=\\frac{|\\mathbf{d}\\cdot\\mathbf{n}|}{|\\mathbf{d}|\\,|\\mathbf{n}|}=\\frac{6k}{\\sqrt{36k^2+13}}=\\frac67\n$$\n\r\n由 $k>0$，平方并化简得 $49k^2=36k^2+13$，所以 $k=1$.\n\n(3) 底面梯形的高为 $AD=4k$，故其面积为\r\n\n$$\nS_0=\\frac{3k+6k}{2}\\cdot4k=18k^2\n$$\n\r\n周长为 $3k+4k+5k+6k=18k$. 按拼接面逐一考察并把全等、旋转或翻转后的相同情形合并，可得到 $4$ 种新四棱柱：沿两个底面拼接的 $1$ 种，以及沿侧面拼接的 $3$ 种. 沿两个底面拼接时，新四棱柱的底面积仍为 $S_0$，高变为 $2$，所以其表面积为\r\n\n$$\nS_1=2S_0+2\\cdot18k=36k^2+36k\n$$\n\r\n其余三种侧面拼接的高为 $1$，新底面面积为 $2S_0=36k^2$，两底面面积合计为 $72k^2$. 设原底面周长为 $P=18k$. 对应公共侧棱在新底面边界上被消去，所以三种不重复拼接所得新底面的周长分别为\r\n$2P-2\\cdot3k=30k$、$2P-2\\cdot4k=28k$、$2P-2\\cdot5k=26k$；沿长度为 $6k$ 的侧面拼接不形成题设的四棱柱. 因而三种侧面拼接的表面积中最小者为 $S_2=72k^2+26k$. 比较\r\n\n$$\nS_2-S_1=36k^2-10k=2k(18k-5)\n$$\n\r\n因此\r\n\n$$\nf(k)=\\begin{cases}\r\n72k^2+26k,&0<k\\le\\frac{5}{18},\\\\\r\n36k^2+36k,&k>\\frac{5}{18}.\r\n\\end{cases}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 20,
+          "body": "已知函数 $f(x) = \\sin(\\omega x + \\varphi)$（$\\omega > 0$，$\\ 0 < \\varphi < \\pi$）的周期为 $\\pi$，图象的一个对称中心为 $\\left(\\frac{\\pi}{4}, 0\\right)$，将函数 $f(x)$ 图象上所有点的横坐标伸长到原来的 $2$ 倍（纵坐标不变），再将得到的图象向右平移 $\\frac{\\pi}{2}$ 个单位长度后得到函数 $g(x)$ 的图象.\r\n\r\n\n(1) 求函数 $f(x)$ 与 $g(x)$ 的解析式；\n\n(2) 是否存在 $x_0 \\in \\left(\\frac{\\pi}{6}, \\frac{\\pi}{4}\\right)$，使得 $f(x_0)$，$g(x_0)$，$f(x_0)g(x_0)$ 按照某种顺序成等差数列？若存在，请确定 $x_0$ 的个数；若不存在，说明理由；\n\n(3) 求实数 $a$ 与正整数 $n$，使得 $F(x) = f(x) + a g(x)$ 在 $(0, n\\pi)$ 内恰有 $2013$ 个零点.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 由周期公式 $\\frac{2\\pi}{\\omega}=\\pi$，得 $\\omega=2$. 对称中心的纵坐标为零，所以\r\n\n$$\n\\sin\\left(2\\cdot\\frac\\pi4+\\varphi\\right)=0\n$$\n\r\n结合 $0<\\varphi<\\pi$，得 $\\varphi=\\frac\\pi2$，从而 $f(x)=\\sin(2x+\\frac\\pi2)=\\cos2x$. 横坐标伸长为原来的 $2$ 倍后，函数变为 $f(\\frac x2)=\\cos x$；再向右平移 $\\frac\\pi2$，得到\r\n\n$$\ng(x)=\\cos\\left(x-\\frac\\pi2\\right)=\\sin x\n$$\n\n(2) 令 $t=\\sin x$. 当 $x\\in(\\frac\\pi6,\\frac\\pi4)$ 时，\r\n$\\frac12<t<\\frac{\\sqrt2}{2}$，$0<\\cos2x=1-2t^2<\\frac12$.\r\n因此 $0<f(x)g(x)<f(x)<g(x)$. 三个数按大小排列为 $f(x)g(x)$，$f(x)$，$g(x)$，它们成等差数列的充要条件为\r\n\n$$\nf(x)g(x)+g(x)=2f(x)\n$$\n\r\n代入 $f(x)=1-2t^2$、$g(x)=t$，得\r\n\n$$\nt(1-2t^2)+t=2(1-2t^2)\n$$\n\r\n即 $p(t):=t^3-2t^2-t+1=0$. 在 $(\\frac12,\\frac{\\sqrt2}{2})$ 上，$p'(t)=3t^2-4t-1<0$，故 $p$ 严格递减；并且\r\n$p\\left(\\frac12\\right)=\\frac18>0$，$p\\left(\\frac{\\sqrt2}{2}\\right)=-\\frac{\\sqrt2}{4}<0$.\r\n由零点存在定理，区间内恰有一个根，且 $t=\\sin x$ 在该区间严格递增，所以存在唯一的 $x_0$.\n\n(3) 由前一问，零点方程为\r\n\n$$\n\\cos2x+a\\sin x=0\n$$\n\r\n令 $s=\\sin x$，则\r\n\n$$\n2s^2-as-1=0\n$$\n\r\n其两根为 $s_+=\\frac{a+\\sqrt{a^2+8}}4>0$ 和 $s_-=-\\frac1{2s_+}<0$.\r\n\r\n由根的表达式可知，$s_+$ 随 $a$ 严格递增，且\r\n\r\n$s_+\\in(0,\\tfrac12)$，$\\ s_-<-1$，（$a<-1$）$;$，$s_+=\\tfrac12$，$\\ s_-=-1$，（$a=-1$）$;$\r\n$s_+\\in(\\tfrac12,1)$，$\\ s_-\\in(-1,-\\tfrac12)$，（$-1<a<1$）$;$，$s_+=1$，$\\ s_-=-\\tfrac12$，（$a=1$）$;$\r\n$s_+>1$，$\\ s_-\\in(-\\tfrac12,0)$，（$a>1$）.\r\n\r\n当 $a<-1$ 时，只有正根 $s_+\\in(0,\\frac12)$ 可取；每个正弦为正的区间 $(2j\\pi,(2j+1)\\pi)$ 内有 $2$ 个零点，所以总数为 $2\\lceil \\frac{n}{2}\\rceil$. 当 $a>1$ 时，只有负根 $s_-\\in(-\\frac12,0)$ 可取；每个正弦为负的区间 $((2j+1)\\pi,(2j+2)\\pi)$ 内有 $2$ 个零点，所以总数为 $2\\lfloor \\frac{n}{2}\\rfloor$. 当 $-1<a<1$ 时，两根均在 $(-1,1)$ 内，每个长度为 $\\pi$ 的半周期内恰有 $2$ 个零点，总数为 $2n$. 因此 $a\\ne\\pm1$ 时零点总数必为偶数，不能等于 $2013$.\r\n\r\n当 $a=1$ 时，根为 $s=1$，$-\\frac12$. 每个长度 $2\\pi$ 的区间内分别有 $1$ 个和 $2$ 个解，共 $3$ 个解；当 $a=-1$ 时，根为 $s=\\frac12$，$-1$，每个长度 $2\\pi$ 的区间内也有 $3$ 个解. 取 $n=2m$ 为偶数时，零点数为 $3m=\\frac{3n}{2}$，令其等于 $2013$，得 $n=1342$. 若 $n=2m+1$ 为奇数，则 $a=1$ 时零点数为 $3m+1$，$a=-1$ 时零点数为 $3m+2$，二者均不可能等于 $2013$. 所以\r\n$a=1$，$\\ n=1342,\\qquad\\text{或}\\qquad a=-1$，$\\ n=1342$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选考题：解答题",
+      "problems": [
+        {
+          "num": 21,
+          "body": "已知直线 $l: ax + y = 1$ 在矩阵 $A = \\begin{pmatrix}1 & 2 \\\\ 0 & 1\\end{pmatrix}$ 对应的变换作用下变为直线 $l': x + by = 1$.\r\n\r\n\n(1) 求实数 $a$，$b$ 的值；\n\n(2) 若点 $P(x_0, y_0)$ 在直线 $l$ 上，且 $A \\begin{pmatrix}x_0 \\\\ y_0\\end{pmatrix} = \\begin{pmatrix}x_0 \\\\ y_0\\end{pmatrix}$，求点 $P$ 的坐标.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设变换后点的坐标为 $(X,Y)$. 由矩阵变换\r\n\n$$\n\\begin{pmatrix}X\\\\Y\\end{pmatrix}=A\\begin{pmatrix}x\\\\y\\end{pmatrix}\r\n=\\begin{pmatrix}x+2y\\\\y\\end{pmatrix}\n$$\n\r\n得 $x=X-2Y$，$y=Y$. 代入原直线方程，得到变换后直线\r\n$a(X-2Y)+Y=1$，$aX+(1-2a)Y=1$.\r\n与 $X+bY=1$ 比较系数，得 $a=1$，$b=1-2a=-1$.\n\n(2) 由不动点条件\r\n\n$$\n\\begin{pmatrix}x_0+2y_0\\\\y_0\\end{pmatrix}=\\begin{pmatrix}x_0\\\\y_0\\end{pmatrix}\n$$\n\r\n得 $2y_0=0$，即 $y_0=0$. 又因 $a=1$，点 $P$ 在直线 $x+y=1$ 上，所以 $x_0=1$. 故 $P=(1,0)$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "在平面直角坐标系中，以坐标原点为极点，$x$ 轴的正半轴为极轴建立极坐标系.已知点 $A$ 的极坐标为 $\\left(\\sqrt{2}, \\frac{\\pi}{4}\\right)$，直线 $l$ 的极坐标方程为 $\\rho \\cos \\left(\\theta - \\frac{\\pi}{4}\\right) = a$，且点 $A$ 在直线 $l$ 上.\r\n\r\n\n(1) 求 $a$ 的值及直线 $l$ 的直角坐标方程；\n\n(2) 圆 $C$ 的参数方程为 $\\begin{cases}\r\nx = 1 + \\cos \\alpha,\\\\\r\ny = \\sin \\alpha,\r\n\\end{cases}$（$\\alpha$ 为参数），试判断直线 $l$ 与圆 $C$ 的位置关系.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 将点 $A$ 的极坐标代入直线方程，得\r\n\n$$\na=\\sqrt2\\cos\\left(\\frac\\pi4-\\frac\\pi4\\right)=\\sqrt2\n$$\n\r\n又因为 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，所以\r\n\n$$\n\\rho\\cos\\left(\\theta-\\frac\\pi4\\right)=\\frac{x+y}{\\sqrt2}\n$$\n\r\n代入 $a=\\sqrt2$，得到直线的直角坐标方程 $x+y-2=0$.\n\n(2) 参数方程给出圆心为 $(1,0)$，半径为 $1$. 圆心到直线的距离为\r\n\n$$\nd=\\frac{|1+0-2|}{\\sqrt{1^2+1^2}}=\\frac1{\\sqrt2}<1\n$$\n\r\n因此直线与圆相交.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 23,
+          "body": "设不等式 $|x - 2| < a$（$a \\in \\mathbb{N}^{*}$）的解集为 $A$，且 $\\frac{3}{2} \\in A$，$\\ \\frac{1}{2} \\notin A$.\r\n\r\n\n(1) 求 $a$ 的值；\n\n(2) 求函数 $f(x) = |x + a| + |x - 2|$ 的最小值.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 因为 $\\frac32\\in A$，所以\r\n\n$$\n\\left|\\frac32-2\\right|=\\frac12<a\n$$\n\r\n又因为 $\\frac12\\notin A$，所以\r\n\n$$\n\\left|\\frac12-2\\right|=\\frac32\\ge a\n$$\n\r\n结合 $a\\in\\mathbb{N}^*$，得 $\\frac12<a\\le\\frac32$，从而 $a=1$.\n\n(2) 此时\r\n\n$$\nf(x)=|x+1|+|x-2|\n$$\n\r\n由三角不等式，\r\n\n$$\n|x+1|+|x-2|\\ge|(x+1)-(x-2)|=3\n$$\n\r\n当 $-1\\le x\\leqslant2$ 时，两个差值符号相反，等号成立. 因此函数的最小值为 $3$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}

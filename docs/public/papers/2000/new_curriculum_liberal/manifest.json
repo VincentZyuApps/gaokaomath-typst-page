@@ -1,0 +1,441 @@
+{
+  "year": "2000",
+  "slug": "new_curriculum_liberal",
+  "title": "2000年新课标卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "选做题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "选做题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
+  "sections": [
+    {
+      "name": "单选题",
+      "problems": [
+        {
+          "num": 1,
+          "body": "设集合 $A = \\{x \\mid x \\in \\mathbb{Z}\\text{ 且 }-10 \\le x \\le -1\\}$，$B = \\{x \\mid x \\in \\mathbb{Z}\\text{ 且 }|x| \\le 5\\}$，则 $A \\cup B$ 中的元素个数是（ ）",
+          "choices": [
+            "$11$",
+            "$10$",
+            "$16$",
+            "$15$"
+          ],
+          "answer": "C",
+          "solution": "集合 $A$ 中的整数为 $-10$，$-9$，$\\ldots$，$-1$，集合 $B$ 中的整数为 $-5$，$-4$，$\\ldots$，$0$，$\\ldots$，$5$. 因而\r\n\r\n$A\\cup B=\\{-10,-9,\\ldots,-1,0,1,\\ldots,5\\}$\r\n\r\n共有 $10+5+1=16$ 个元素，所以选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 2,
+          "body": "设 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 是任意的非零平面向量，且相互不共线，则有下列命题：\r\n\r\n\\begin{circlelist}\r\n\\item $(\\mathbf{a} \\cdot \\mathbf{b})\\mathbf{c} - (\\mathbf{c} \\cdot \\mathbf{a})\\mathbf{b} = 0$；\r\n\\item $|\\mathbf{a}| - |\\mathbf{b}| < |\\mathbf{a} - \\mathbf{b}|$；\r\n\\item $(\\mathbf{b} \\cdot \\mathbf{c})\\mathbf{a} - (\\mathbf{c} \\cdot \\mathbf{a})\\mathbf{b}$ 不与 $\\mathbf{c}$ 垂直；\r\n\\item $(3\\mathbf{a} + 2\\mathbf{b}) \\cdot (3\\mathbf{a} - 2\\mathbf{b}) = 9|\\mathbf{a}|^{2} - 4|\\mathbf{b}|^{2}$.\r\n\\end{circlelist}\r\n\r\n其中是真命题的有（ ）",
+          "choices": [
+            "$\\circled{1}\\circled{2}$",
+            "$\\circled{2}\\circled{3}$",
+            "$\\circled{3}\\circled{4}$",
+            "$\\circled{2}\\circled{4}$"
+          ],
+          "answer": "D",
+          "solution": "逐一判断四个命题.\r\n\r\n\n(1) 取 $\\mathbf{a}=(1,0)$，$\\mathbf{b}=(0,1)$，$\\mathbf{c}=(1,1)$，三向量均非零且相互不共线. 此时\r\n$(\\mathbf{a}\\cdot\\mathbf{b})\\mathbf{c}-(\\mathbf{c}\\cdot\\mathbf{a})\\mathbf{b}=-\\mathbf{b}\\ne\\mathbf{0}$，故第一个命题是假命题.\n\n(2) 由三角不等式，\r\n$|\\mathbf{a}|\\le|\\mathbf{a}-\\mathbf{b}|+|\\mathbf{b}|$，从而 $|\\mathbf{a}|-|\\mathbf{b}|\\le|\\mathbf{a}-\\mathbf{b}|$. 等号成立时 $\\mathbf{a}-\\mathbf{b}$ 与 $\\mathbf{b}$ 同向，进而 $\\mathbf{a}$ 与 $\\mathbf{b}$ 共线，这与题设矛盾，所以不等式严格成立，第二个命题是真命题.\n\n(3) 令 $\\mathbf{v}=(\\mathbf{b}\\cdot\\mathbf{c})\\mathbf{a}-(\\mathbf{c}\\cdot\\mathbf{a})\\mathbf{b}$. 则\r\n$\\mathbf{v}\\cdot\\mathbf{c}=(\\mathbf{b}\\cdot\\mathbf{c})(\\mathbf{a}\\cdot\\mathbf{c})-(\\mathbf{c}\\cdot\\mathbf{a})(\\mathbf{b}\\cdot\\mathbf{c})=0$，所以 $\\mathbf{v}$ 与 $\\mathbf{c}$ 垂直，第三个命题是假命题.\n\n(4) 利用数量积的分配律，\r\n$(3\\mathbf{a}+2\\mathbf{b})\\cdot(3\\mathbf{a}-2\\mathbf{b})=9|\\mathbf{a}|^{2}-6\\mathbf{a}\\cdot\\mathbf{b}+6\\mathbf{b}\\cdot\\mathbf{a}-4|\\mathbf{b}|^{2}=9|\\mathbf{a}|^{2}-4|\\mathbf{b}|^{2}$，第四个命题是真命题.\n\r\n\r\n真命题为第2、4个，所以选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 3,
+          "body": "一个长方体共一顶点的三个面的面积分别是 $\\sqrt{2}$，$\\sqrt{3}$，$\\sqrt{6}$，这个长方体对角线的长是（ ）",
+          "choices": [
+            "$2 \\sqrt{3}$",
+            "$3\\sqrt{2}$",
+            "$6$",
+            "$\\sqrt{6}$"
+          ],
+          "answer": "D",
+          "solution": "设从同一顶点出发的三条棱长分别为 $x$，$y$，$z$，则\r\n$xy=\\sqrt{2},  yz=\\sqrt{3},  zx=\\sqrt{6}$.\r\n\r\n三式相乘得 $(xyz)^{2}=6$，所以 $xyz=\\sqrt{6}$. 于是\r\n$x=\\frac{xyz}{yz}=\\sqrt{2},  y=\\frac{xyz}{zx}=1,  z=\\frac{xyz}{xy}=\\sqrt{3}$.\r\n\r\n长方体的对角线长为\r\n$\\sqrt{x^{2}+y^{2}+z^{2}}=\\sqrt{2+1+3}=\\sqrt{6}$，所以选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 4,
+          "body": "已知 $\\sin \\alpha > \\sin \\beta$，那么下列命题成立的是（ ）",
+          "choices": [
+            "若 $\\alpha$，$\\beta$ 是第一象限角，则 $\\cos \\alpha > \\cos \\beta$",
+            "若 $\\alpha$，$\\beta$ 是第二象限角，则 $\\tan \\alpha > \\tan \\beta$",
+            "若 $\\alpha$，$\\beta$ 是第三象限角，则 $\\cos \\alpha > \\cos \\beta$",
+            "若 $\\alpha$，$\\beta$ 是第四象限角，则 $\\tan \\alpha > \\tan \\beta$"
+          ],
+          "answer": "D",
+          "solution": "在第一象限，正弦函数递增而余弦函数递减；在第二象限，正弦函数递减而正切函数递增；在第三象限，正弦函数递减而余弦函数递增；在第四象限，正弦函数递增且正切函数递增.\r\n\r\n若 $\\alpha$，$\\beta$ 均为第一象限角，由 $\\sin\\alpha>\\sin\\beta$ 得 $\\alpha>\\beta$，于是 $\\cos\\alpha<\\cos\\beta$，命题$\\circled{1}$所述不成立. 若二者均为第二象限角，则 $\\alpha<\\beta$，从而 $\\tan\\alpha<\\tan\\beta$，命题$\\circled{2}$不成立. 若二者均为第三象限角，同样由正弦函数的单调性得 $\\alpha<\\beta$，于是 $\\cos\\alpha<\\cos\\beta$，命题$\\circled{3}$不成立.\r\n\r\n若二者均为第四象限角，由正弦函数递增得 $\\alpha>\\beta$，再由正切函数递增得 $\\tan\\alpha>\\tan\\beta$，所以命题$\\circled{4}$成立，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 5,
+          "body": "函数 $y = -x\\cos x$ 的部分图象是（ ）",
+          "choices": [
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2000/img/new_curriculum_liberal/q5_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2000/img/new_curriculum_liberal/q5_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2000/img/new_curriculum_liberal/q5_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2000/img/new_curriculum_liberal/q5_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+          ],
+          "answer": "D",
+          "solution": "函数满足 $y(0)=0$，且在 $x=0$ 附近有 $\\cos x>0$，所以当 $x>0$ 足够小时 $y=-x\\cos x<0$，当 $x<0$ 足够小时 $y>0$. 另外，$y=0$ 的零点满足 $x=0$ 或 $\\cos x=0$，相邻零点之间曲线的正负号由 $-x\\cos x$ 的符号确定.\r\n\r\n因此图象经过原点，并在原点右侧先位于 $x$ 轴下方、在原点左侧位于 $x$ 轴上方；各振荡区间的振幅随 $|x|$ 增大而增大. 四个图象中只有 D 符合，所以选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 6,
+          "body": "《中华人民共和国个人所得税法》规定，公民全月工资、薪金所得不超过 $800\\text{ 元}$ 的部分不必纳税. 超过 $800\\text{ 元}$ 的部分为全月应纳税所得额，此项税款按下表分段累进计算：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|}\r\n\\hline\r\n全月应纳税所得额 & 税率 \\\\\r\n\\hline\r\n不超过 $500\\text{ 元}$ 的部分 & $5\\%$ \\\\\r\n\\hline\r\n超过 $500\\text{ 元}$ 至 $2000\\text{ 元}$ 的部分 & $10\\%$ \\\\\r\n\\hline\r\n超过 $2000\\text{ 元}$ 至 $5000\\text{ 元}$ 的部分 & $15\\%$ \\\\\r\n\\hline\r\n$\\cdots$ & $\\cdots$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n某人一月份应交纳此项税款 $26.78\\text{ 元}$，则他的当月工资、薪金所得介于（ ）",
+          "choices": [
+            "$800\\text{ 元} - 900\\text{ 元}$",
+            "$900\\text{ 元} - 1200\\text{ 元}$",
+            "$1200\\text{ 元} - 1500\\text{ 元}$",
+            "$1500\\text{ 元} - 2800\\text{ 元}$"
+          ],
+          "answer": "C",
+          "solution": "设当月工资、薪金所得为 $w$ 元，应纳税所得额为 $u=w-800$. 若 $u\\leqslant500$，应交税款至多为 $500\\times5\\%=25$ 元，与 $26.78$ 元矛盾；若 $u>2000$，应交税款至少为\r\n$500\\times5\\%+1500\\times10\\%=175$\r\n元，同样不可能. 因此 $500<u\\leqslant2000$，税款为前 $500$ 元按 $5\\%$ 计、其余部分按 $10\\%$ 计. 于是\r\n$25+10\\%(u-500)=26.78$，所以\r\n$u=517.8,\\qquad w=u+800=1317.8.$\r\n\r\n所得 $1317.8$ 元落在\r\n$1200<1317.8<1500$.\r\n因此选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 7,
+          "body": "若 $a > b > 1$，$P = \\sqrt{\\lg a \\cdot \\lg b}$，$Q = \\frac{1}{2} \\left(\\lg a + \\lg b\\right)$，$R = \\lg \\left(\\frac{a + b}{2}\\right)$，则（ ）",
+          "choices": [
+            "$R < P < Q$",
+            "$P < Q < R$",
+            "$Q < P < R$",
+            "$P < R < Q$"
+          ],
+          "answer": "B",
+          "solution": "令 $u=\\lg a$，$v=\\lg b$. 因为 $a>b>1$，所以 $u>v>0$. 由算术平均数不小于几何平均数，\r\n$P=\\sqrt{uv}<\\frac{u+v}{2}=Q$，其中不等号严格成立是因为 $u\\ne v$.\r\n\r\n又由 $a>b>0$，有\r\n$\\frac{a+b}{2}>\\sqrt{ab}$.\r\n对数函数 $\\lg x$ 在正数范围内递增，因此\r\n$R=\\lg\\frac{a+b}{2}>\\lg\\sqrt{ab}=\\frac{\\lg a+\\lg b}{2}=Q$.\r\n\r\n故 $P<Q<R$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 8,
+          "body": "已知两条直线 $l_{1}: y = x$，$l_{2}: ax - y = 0$，其中 $a$ 为实数. 当这两条直线的夹角在 $\\left(0, \\frac{\\pi}{12}\\right)$ 内变动时，$a$ 的取值范围是（ ）",
+          "choices": [
+            "$(0,1)$",
+            "$\\left(\\frac{\\sqrt{3}}{3},\\sqrt{3}\\right)$",
+            "$\\left(\\frac{\\sqrt{3}}{3}, 1\\right) \\cup (1, \\sqrt{3})$",
+            "$(1, \\sqrt{3})$"
+          ],
+          "answer": "C",
+          "solution": "直线 $l_{1}$ 的倾角为 $\\frac{\\pi}{4}$. 直线 $l_{2}$ 的斜率为 $a$，其倾角按模 $\\pi$ 计. 两直线的夹角小于 $\\frac{\\pi}{12}$，等价于 $l_{2}$ 的倾角落在\r\n$\\left(\\frac{\\pi}{4}-\\frac{\\pi}{12},\\frac{\\pi}{4}+\\frac{\\pi}{12}\\right)=\\left(\\frac{\\pi}{6},\\frac{\\pi}{3}\\right)$\r\n内，但不能等于 $l_{1}$ 的倾角，否则夹角为 $0$.\r\n\r\n正切函数在该区间内递增，所以\r\n$a\\in\\left(\\tan\\frac{\\pi}{6},\\tan\\frac{\\pi}{3}\\right),  a\\ne1,\\qquad a\\in\\left(\\frac{\\sqrt{3}}{3},1\\right)\\cup(1,\\sqrt{3})$.\r\n\r\n因此选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 9,
+          "body": "一个圆柱的侧面展开图是一个正方形，这个圆柱的全面积与侧面积的比是（ ）",
+          "choices": [
+            "$\\frac{1 + 2\\pi}{2\\pi}$",
+            "$\\frac{1 + 4\\pi}{4\\pi}$",
+            "$\\frac{1 + 2\\pi}{\\pi}$",
+            "$\\frac{1 + 4\\pi}{2\\pi}$"
+          ],
+          "answer": "A",
+          "solution": "设圆柱的高为 $h$，底面半径为 $r$. 侧面展开为正方形，故\r\n$h=2\\pi r$.\r\n\r\n圆柱的侧面积为 $S_{\\text{侧}}=2\\pi rh=h^{2}$，两个底面的面积之和为\r\n$2\\pi r^{2}=2\\pi\\left(\\frac{h}{2\\pi}\\right)^{2}=\\frac{h^{2}}{2\\pi}$.\r\n于是全面积与侧面积之比为\r\n$\\frac{S_{\\text{全}}}{S_{\\text{侧}}}=\\frac{h^{2}+\\frac{h^{2}}{2\\pi}}{h^{2}}=\\frac{1+2\\pi}{2\\pi}$，所以选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 10,
+          "body": "过原点的直线与圆 $x^{2} + y^{2} + 4x + 3 = 0$ 相切，若切点在第三象限，则该直线的方程是（ ）",
+          "choices": [
+            "$y = \\sqrt{3} x$",
+            "$y = -\\sqrt{3} x$",
+            "$y = \\frac{\\sqrt{3}}{3} x$",
+            "$y = -\\frac{\\sqrt{3}}{3} x$"
+          ],
+          "answer": "C",
+          "solution": "圆的方程可化为\r\n$(x+2)^{2}+y^{2}=1$，所以圆心为 $(-2,0)$，半径为 $1$. 过原点的切线设为 $y=mx$，即 $mx-y=0$. 圆心到此直线的距离等于半径，故\r\n$\\frac{|-2m|}{\\sqrt{m^{2}+1}}=1$.\r\n\r\n平方并整理得 $4m^{2}=m^{2}+1$，从而 $m=\\pm\\frac{\\sqrt{3}}{3}$. 当 $m=\\frac{\\sqrt{3}}{3}$ 时，直线在第三象限有点，因为 $x<0$ 时 $y<0$；当 $m=-\\frac{\\sqrt{3}}{3}$ 时，切点位于第二象限. 所求直线为\r\n$y=\\frac{\\sqrt{3}}{3}x$，所以选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 11,
+          "body": "过抛物线 $y = ax^2$（$a > 0$）的焦点 $F$ 作一条直线交抛物线于 $P$，$Q$ 两点，若线段 $PF$ 与 $FQ$ 的长分别是 $p$，$q$，则 $\\frac{1}{p} + \\frac{1}{q}$ 等于（ ）",
+          "choices": [
+            "$2a$",
+            "$\\frac{1}{2a}$",
+            "$4a$",
+            "$\\frac{4}{a}$"
+          ],
+          "answer": "C",
+          "solution": "把抛物线写成标准形式\r\n$x^{2}=\\frac{1}{a}y=4p_{0}y$，得标准参数 $p_{0}=\\frac{1}{4a}$，焦点为 $F\\left(0,\\frac{1}{4a}\\right)$.\r\n\r\n由于直线与抛物线交于两个点，所作直线不是竖直直线，故可设其方程为 $y=kx+\\frac{1}{4a}$. 设交点为 $P(x_{1},ax_{1}^{2})$，$Q(x_{2},ax_{2}^{2})$，代入得\r\n$ax^{2}-kx-\\frac{1}{4a}=0$，所以\r\n$x_{1}x_{2}=-\\frac{1}{4a^{2}},\\qquad |x_{1}-x_{2}|=\\frac{\\sqrt{k^{2}+1}}{a}$.\r\n\r\n点 $P$ 或 $Q$ 到焦点的水平坐标差为 $|x_i|$，而直线斜率为 $k$，故\r\n$PF=|x_{1}|\\sqrt{k^{2}+1},\\qquad FQ=|x_{2}|\\sqrt{k^{2}+1}$.\r\n因 $x_{1}x_{2}<0$，有 $|x_{1}|+|x_{2}|=|x_{1}-x_{2}|$. 因而\r\n$\\frac{1}{p}+\\frac{1}{q}=\\frac{|x_{1}|+|x_{2}|}{|x_{1}x_{2}|\\sqrt{k^{2}+1}}=\\frac{\\frac{\\sqrt{k^{2}+1}}{a}}{\\frac{1}{4a^{2}}\\sqrt{k^{2}+1}}=4a$.\r\n\r\n所以选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 12,
+          "body": "二项式 $\\left(\\sqrt{2} + \\sqrt[3]{3x}\\right)^{50}$ 的展开式中系数为有理数的项共有（ ）",
+          "choices": [
+            "$6$ 项",
+            "$7$ 项",
+            "$8$ 项",
+            "$9$ 项"
+          ],
+          "answer": "D",
+          "solution": "展开式的第 $k+1$ 项为\r\n$\\mathrm C_{50}^{k}(\\sqrt{2})^{50-k}(\\sqrt[3]{3x})^{k}\r\n=\\mathrm C_{50}^{k}2^{\\frac{50-k}{2}}3^{\\frac{k}{3}}x^{\\frac{k}{3}},\\qquad k=0,1,\\ldots,50.$\r\n\r\n组合数为整数，所以该项的系数为有理数，当且仅当 $\\frac{50-k}{2}$ 和 $\\frac{k}{3}$ 都为整数，即 $k$ 同时为偶数和 $3$ 的倍数，也就是 $k$ 为 $6$ 的倍数. 满足条件的 $k$ 为\r\n$0,6,12,18,24,30,36,42,48$，共 $9$ 个，所以选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "填空题",
+      "problems": [
+        {
+          "num": 13,
+          "body": "从含有 $500$ 个个体的总体中一次性地抽取 $25$ 个个体，假定其中每个个体被抽到的概率相等，那么总体中的每个个体被抽取的概率等于 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\frac{25}{500}\\)",
+          "solution": "设总体中的一个固定个体为 $X$. 一次抽取的 $25$ 个体中，被抽到的个体数总是 $25$，而总体共有 $500$ 个个体；由题设每个个体被抽到的概率相等，故\r\n$500P(X)=25$.\r\n因此\r\n$P(X)=\\frac{25}{500}=\\frac{1}{20}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 14,
+          "body": "椭圆 $\\frac{x^2}{9} + \\frac{y^2}{4} = 1$ 的焦点 $F_1$，$F_2$，点 $P$ 为其上的动点，当 $\\angle F_1PF_2$ 为钝角时，点 $P$ 横坐标的取值范围是 _______ {}.",
+          "choices": [],
+          "answer": "\\(\\left(-\\frac{3}{\\sqrt{5}},\\frac{3}{\\sqrt{5}}\\right)\\)",
+          "solution": "由椭圆方程知半长轴 $a=3$，半短轴 $b=2$，故焦半距\r\n$c=\\sqrt{a^{2}-b^{2}}=\\sqrt{5}$.\r\n设 $P=(x,y)$，则\r\n$F_{1}=(-\\sqrt{5},0),\\qquad F_{2}=(\\sqrt{5},0)$.\r\n\r\n角 $F_{1}PF_{2}$ 为钝角，当且仅当\r\n$\\overrightarrow{PF_{1}}\\cdot\\overrightarrow{PF_{2}}<0$.\r\n计算得\r\n$\\overrightarrow{PF_{1}}\\cdot\\overrightarrow{PF_{2}}\r\n=(-\\sqrt{5}-x,-y)\\cdot(\\sqrt{5}-x,-y)\r\n=x^{2}+y^{2}-5$.\r\n所以钝角条件等价于 $x^{2}+y^{2}<5$. 又因 $P$ 在椭圆上，\r\n$y^{2}=4\\left(1-\\frac{x^{2}}{9}\\right)$，从而\r\n$x^{2}+y^{2}=4+\\frac{5}{9}x^{2}<5$.\r\n于是 $x^{2}<\\frac{9}{5}$，即\r\n$-\\frac{3}{\\sqrt{5}}<x<\\frac{3}{\\sqrt{5}}$.\r\n端点对应直角而不是钝角，故取开区间.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 15,
+          "body": "设 $\\{a_{n}\\}$ 是首项为 $1$ 的正项数列，且 $(n + 1)a_{n + 1}^{2} - na_{n}^{2} + a_{n + 1}a_{n} = 0$（$n = 1$，$2$，$3$，$\\dots$），则它的通项公式是 $a_{n} = _______ {}$.",
+          "choices": [],
+          "answer": "\\(\\frac{1}{n}\\)",
+          "solution": "由 $a_n>0$，可令\r\n$r_n=\\frac{a_{n+1}}{a_n}>0$.\r\n将 $a_{n+1}=r_na_n$ 代入递推式并除以 $a_n^2$，得\r\n$(n+1)r_n^{2}+r_n-n=0$.\r\n因式分解为\r\n$\\bigl((n+1)r_n-n\\bigr)(r_n+1)=0$.\r\n由于 $r_n>0$，不能取 $r_n=-1$，所以\r\n$\\frac{a_{n+1}}{a_n}=r_n=\\frac{n}{n+1}$.\r\n\r\n由 $a_1=1$，逐次相乘得\r\n$a_n=a_1\\prod_{k=1}^{n-1}\\frac{k}{k+1}\r\n=\\frac{1}{n}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        },
+        {
+          "num": 16,
+          "body": "如图，$E$，$F$ 分别为正方体面 $ADD_{1}A_{1}$，面 $BCC_{1}B_{1}$ 的中心，则四边形 $BFD_{1}E$ 在该正方体的面上的射影可能是 _______ {}.\r\n\r\n（要求：把可能的图序号都填上）\r\n\r\n\\begingroup\r\n\\leftskip=0pt\\relax\r\n\\rightskip=0pt\\relax\r\n\\examfiguregroup[float=inline]{img/2000/new_curriculum_liberal/q16_fig1.png}{%\r\n    \\vbox{%\r\n        \\hbox to \\linewidth{%\r\n            \\hfil\\bitmapinclude[max width=0.82\\linewidth]{img/2000/new_curriculum_liberal/q16_fig1.png}\\hfil\r\n        }%\r\n        \\vskip 0.4\\baselineskip\r\n        \\hbox to \\linewidth{%\r\n            \\hfil\\bitmapinclude[width=0.10\\paperwidth]{img/2000/new_curriculum_liberal/q16_optA.png}\\hfil\r\n            \\bitmapinclude[width=0.10\\paperwidth]{img/2000/new_curriculum_liberal/q16_optB.png}\\hfil\r\n            \\bitmapinclude[width=0.10\\paperwidth]{img/2000/new_curriculum_liberal/q16_optC.png}\\hfil\r\n            \\bitmapinclude[width=0.10\\paperwidth]{img/2000/new_curriculum_liberal/q16_optD.png}\\hfil\r\n        }%\r\n    }%\r\n}\r\n\\endgroup",
+          "choices": [],
+          "answer": "\\(\\circled{2}\\circled{3}\\)",
+          "solution": "取正方体棱长为 $1$，建立坐标系\r\n$A=(0,0,0),  B=(1,0,0),  C=(1,1,0),  D=(0,1,0)$\r\n以及\r\n$A_{1}=(0,0,1),  B_{1}=(1,0,1),  C_{1}=(1,1,1),  D_{1}=(0,1,1)$.\r\n由 $E$，$F$ 分别为两个侧面的中心，得\r\n$E=\\left(0,\\frac12,\\frac12\\right),\\qquad F=\\left(1,\\frac12,\\frac12\\right)$.\r\n\r\n把 $B$，$F$，$D_{1}$，$E$ 正投影到 $z=0$ 或 $z=1$ 的面上，或者投影到 $y=0$ 或 $y=1$ 的面上，所得四点依次构成一个平行四边形，图形为 $\\circled{2}$.\r\n\r\n投影到 $x=0$ 的面时，$B$ 与 $F$ 分别投影到 $A$ 与 $E$，而 $D_{1}$，$E$ 不动；由于 $E$ 是 $AD_{1}$ 的中点，四个投影点共线. 投影到 $x=1$ 的面时，$D_{1}$ 与 $E$ 分别投影到 $C_{1}$ 与 $F$，且 $F$ 是 $BC_{1}$ 的中点，四个投影点也共线，图形为 $\\circled{3}$.\r\n\r\n因此可能的图序号为 $\\circled{2}$、$\\circled{3}$.",
+          "hasAnswer": true,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 17,
+          "body": "甲、乙二人参加普法知识竞答，共有 $10$ 个不同的题目，其中选择题 $6$ 个，判断题 $4$ 个，甲、乙二人依次各抽一题.\r\n\r\n\n(1) 甲抽到选择题，乙抽到判断题的概率是多少？\n\n(2) 甲、乙二人中至少有一人抽到选择题的概率是多少？",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 甲抽到选择题、乙抽到判断题的有利结果数为 $6\\times4$，而甲、乙依次抽取两题的等可能结果总数为 $10\\times9$. 所以所求概率为\r\n$\\frac{6\\times4}{10\\times9}=\\frac{4}{15}$.\n\n(2) 用对立事件计算. 甲、乙二人中至少有一人抽到选择题的对立事件是两人都抽到判断题，其概率为\r\n$\\frac{4}{10}\\cdot\\frac{3}{9}=\\frac{2}{15}$.\r\n因此所求概率为\r\n$1-\\frac{2}{15}=\\frac{13}{15}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "选做题：解答题",
+      "problems": [
+        {
+          "num": 18,
+          "body": "如图，直三棱柱 $ABC - A_{1}B_{1}C_{1}$，底面 $\\triangle ABC$ 中，$CA = CB = 1$，$\\angle BCA = 90^{\\circ}$，棱 $AA_{1} = 2$，$M$，$N$ 分别是 $A_{1}B_{1}$，$A_{1}A$ 的中点.\r\n\r\n\n(1) 求 $\\overline{BN}$ 的长；\n\n(2) 求 $\\cos\\langle\\overrightarrow{BA_{1}},\\overrightarrow{CB_{1}}\\rangle$ 的值；\n\n(3) 求证 $A_{1}B \\perp C_{1}M$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2000/img/new_curriculum_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 以 $C$ 为原点，分别以 $\\overrightarrow{CA}$，$\\overrightarrow{CB}$，$\\overrightarrow{CC_{1}}$ 的方向为三个坐标轴正方向，建立空间直角坐标系. 则\r\n$A=(1,0,0),  B=(0,1,0),  A_{1}=(1,0,2),  C=(0,0,0)$.\r\n由于 $N$ 是 $A_{1}A$ 的中点，$N=(1,0,1)$. 因而\r\n$\\overrightarrow{BN}=(1,-1,1)$，所以\r\n$\\overline{BN}=\\sqrt{1^{2}+(-1)^{2}+1^{2}}=\\sqrt{3}$.\n\n(2) 由 $B_{1}=(0,1,2)$，得\r\n$\\overrightarrow{BA_{1}}=(1,-1,2),\\qquad \\overrightarrow{CB_{1}}=(0,1,2)$.\r\n于是\r\n$\\overrightarrow{BA_{1}}\\cdot\\overrightarrow{CB_{1}}=3$，且\r\n$|\\overrightarrow{BA_{1}}|=\\sqrt{6},\\qquad |\\overrightarrow{CB_{1}}|=\\sqrt{5}$.\r\n所以\r\n$\\cos\\langle\\overrightarrow{BA_{1}},\\overrightarrow{CB_{1}}\\rangle\r\n=\\frac{3}{\\sqrt{6}\\sqrt{5}}=\\frac{\\sqrt{30}}{10}$.\n\n(3) $M$ 是 $A_{1}B_{1}$ 的中点，故 $M=\\left(\\frac12,\\frac12,2\\right)$，而 $C_{1}=(0,0,2)$. 因此可取\r\n$\\overrightarrow{BA_{1}}=(1,-1,2),\\qquad \\overrightarrow{C_{1}M}=\\left(\\frac12,\\frac12,0\\right)$.\r\n两向量的数量积为\r\n$\\overrightarrow{BA_{1}}\\cdot\\overrightarrow{C_{1}M}=\\frac12-\\frac12+0=0$.\r\n所以 $A_{1}B\\perp C_{1}M$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 19,
+          "body": "如图，已知平行六面体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的底面 $ABCD$ 为菱形，且 $\\angle C_{1}CB = \\angle C_{1}CD = \\angle BCD$.\r\n\r\n\n(1) 证明：$C_{1}C \\perp BD$；\n\n(2) 当 $\\dfrac{CD}{CC_{1}}$ 的值为多少时，能使 $A_{1}C \\perp$ 平面 $C_{1}BD$？请给出证明.\n\r\n\r\n\\begingroup\r\n\\leftskip=0pt\\relax\r\n\\rightskip=0pt\\relax\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2000/img/new_curriculum_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 设\r\n$\\mathbf{u}=\\overrightarrow{CB},\\qquad \\mathbf{v}=\\overrightarrow{CD},\\qquad \\mathbf{w}=\\overrightarrow{CC_{1}}$，\r\n并记 $s=|\\mathbf{u}|=|\\mathbf{v}|=CD$，$h=|\\mathbf{w}|=CC_{1}$，以及 $\\theta=\\angle BCD$. 由题设三个角相等，有\r\n$\\mathbf{u}\\cdot\\mathbf{v}=s^{2}\\cos\\theta,\\qquad\r\n\\mathbf{w}\\cdot\\mathbf{u}=hs\\cos\\theta,\\qquad\r\n\\mathbf{w}\\cdot\\mathbf{v}=hs\\cos\\theta$.\r\n于是\r\n$\\overrightarrow{CC_{1}}\\cdot\\overrightarrow{BD}\r\n=\\mathbf{w}\\cdot(\\mathbf{v}-\\mathbf{u})\r\n=0$.\r\n故 $C_{1}C\\perp BD$.\n\n(2) 取 $C$ 为原点，则\r\n$\\overrightarrow{CA_{1}}=\\mathbf{u}+\\mathbf{v}+\\mathbf{w},\\qquad\r\n\\overrightarrow{BC_{1}}=\\mathbf{w}-\\mathbf{u},\\qquad\r\n\\overrightarrow{BD}=\\mathbf{v}-\\mathbf{u}$.\r\n直接计算得\r\n$\\overrightarrow{CA_{1}}\\cdot\\overrightarrow{BD}\r\n=(\\mathbf{u}+\\mathbf{v}+\\mathbf{w})\\cdot(\\mathbf{v}-\\mathbf{u})\r\n=(\\mathbf{u}\\cdot\\mathbf{v}-s^{2})+(s^{2}-\\mathbf{u}\\cdot\\mathbf{v})+\\mathbf{w}\\cdot(\\mathbf{v}-\\mathbf{u})=0$.\r\n另外\r\n$\\overrightarrow{CA_{1}}\\cdot\\overrightarrow{BC_{1}}=(\\mathbf{u}+\\mathbf{v}+\\mathbf{w})\\cdot(\\mathbf{w}-\\mathbf{u})=h^{2}-s^{2}+hs\\cos\\theta-s^{2}\\cos\\theta=(h-s)(h+s+s\\cos\\theta)$.\r\n由于 $0<\\theta<\\pi$，所以 $h+s+s\\cos\\theta=h+s(1+\\cos\\theta)>0$. 因而 $CA_{1}\\perp BC_{1}$ 当且仅当 $h=s$. 当 $h=s$ 时，直线 $A_{1}C$ 同时垂直于平面 $C_{1}BD$ 内相交的两条直线 $BD$，$BC_{1}$，故\r\n$A_{1}C\\perp\\text{ 平面 }C_{1}BD$.\r\n所以\r\n$\\frac{CD}{CC_{1}}=\\frac{s}{h}=1$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    },
+    {
+      "name": "解答题",
+      "problems": [
+        {
+          "num": 20,
+          "body": "设 $\\{a_{n}\\}$ 为等差数列，$S_{n}$ 为数列 $\\{a_{n}\\}$ 的前 $n$ 项和，已知 $S_{7} = 7$，$S_{15} = 75$，$T_{n}$ 为数列 $\\left\\{\\frac{S_{n}}{n}\\right\\}$ 的前 $n$ 项和，求 $T_{n}$.",
+          "choices": [],
+          "answer": "",
+          "solution": "设等差数列 $\\{a_n\\}$ 的首项为 $a$，公差为 $d$. 由\r\n$S_n=na+\\frac{n(n-1)}{2}d$\r\n以及题设，得\r\n$7a+21d=7,\\qquad 15a+105d=75$.\r\n化简为\r\n$a+3d=1,\\qquad a+7d=5$，相减得 $d=1$，再得 $a=-2$.\r\n\r\n所以\r\n$S_n=-2n+\\frac{n(n-1)}{2}=\\frac{n(n-5)}{2}$，从而\r\n$\\frac{S_n}{n}=\\frac{n-5}{2}$.\r\n数列 $\\left\\{\\frac{S_n}{n}\\right\\}$ 是首项 $-2$、公差 $\\frac12$ 的等差数列，故\r\n$T_n=\\frac{n}{2}\\left(2(-2)+(n-1)\\frac12\\right)\r\n=\\frac{n(n-9)}{4}\r\n=\\frac14n^{2}-\\frac94n$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 21,
+          "body": "设函数 $f(x) = \\sqrt{x^2 + 1} - ax$，其中 $a > 0$.\r\n\r\n\n(1) 解不等式 $f(x) \\le 1$；\n\n(2) 证明：当 $a \\ge 1$ 时，函数 $f(x)$ 在区间 $[0, +\\infty)$ 上是单调函数.",
+          "choices": [],
+          "answer": "",
+          "solution": "(1) 当 $x<0$ 时，$\\sqrt{x^{2}+1}>1$ 且 $-ax>0$，所以 $f(x)>1$，不等式无负数解；$x=0$ 时等号成立. 当 $x\\geqslant0$ 时，$ax+1>0$，原不等式等价于\r\n$\\sqrt{x^{2}+1}\\le ax+1$\r\n以及\r\n$x^{2}+1\\le(ax+1)^{2}$.\r\n整理得\r\n$x\\bigl((1-a^{2})x-2a\\bigr)\\leqslant0$.\r\n\r\n当 $0<a<1$ 时，第二个因式的零点为 $\\frac{2a}{1-a^{2}}>0$，所以解集为\r\n$\\left[0,\\frac{2a}{1-a^{2}}\\right]$.\r\n当 $a\\geqslant1$ 时，对 $x\\geqslant0$ 有 $(1-a^{2})x-2a<0$，所以解集为\r\n$[0,+\\infty)$.\n\n(2) 任取 $0\\le x<y$. 有理化得\r\n$f(y)-f(x)=\\sqrt{y^{2}+1}-\\sqrt{x^{2}+1}-a(y-x)=(y-x)\\left(\\frac{x+y}{\\sqrt{y^{2}+1}+\\sqrt{x^{2}+1}}-a\\right)$.\r\n由于 $\\sqrt{y^{2}+1}>y$，$\\sqrt{x^{2}+1}>x$，故括号内的第一项小于 $1$. 当 $a\\geqslant1$ 时，整个括号小于 $1-a\\leqslant0$，从而 $f(y)<f(x)$. 因此 $f(x)$ 在 $[0,+\\infty)$ 上单调递减.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 22,
+          "body": "用总长 $14.8 \\mathrm{~m}$ 的钢条制成一个长方体容器的框架，如果所制做容器的底面的一边比另一边长 $0.5 \\mathrm{~m}$，那么高为多少时容器的容积最大？并求出它的最大容积.",
+          "choices": [],
+          "answer": "",
+          "solution": "设底面较短的一边为 $x\\mathrm{~m}$，则另一边为 $(x+0.5)\\mathrm{~m}$. 由长方体框架的总棱长得\r\n$4\\bigl(x+x+0.5+h\\bigr)=14.8$，所以高\r\n$h=3.2-2x$.\r\n由 $x>0$ 且 $h>0$，得 $0<x<1.6$. 容积为\r\n$V(x)=x(x+0.5)(3.2-2x)\r\n=-2x^{3}+2.2x^{2}+1.6x$.\r\n\r\n求导得\r\n$V'(x)=-6x^{2}+4.4x+1.6$.\r\n令 $V'(x)=0$，得\r\n$15x^{2}-11x-4=0$，所以 $x=1$ 或 $x=-\\frac{4}{15}$. 定义域内只有 $x=1$，且 $V'(x)$ 在 $0<x<1$ 时为正、在 $1<x<1.6$ 时为负，故 $x=1$ 时容积取得最大值.\r\n\r\n此时\r\n$h=3.2-2=1.2\\mathrm{~m}$，且\r\n$V_{\\max}=1\\times1.5\\times1.2=1.8\\mathrm{~m}^{3}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        },
+        {
+          "num": 23,
+          "body": "如图，已知梯形 $ABCD$ 中 $|AB| = 2|CD|$，点 $E$ 分有向线段 $\\overrightarrow{AC}$ 所成的比为 $\\lambda$，双曲线过 $C$，$D$，$E$ 三点，且以 $A$，$B$ 为焦点，当 $\\frac{2}{3} \\le \\lambda \\le \\frac{3}{4}$ 时，求双曲线离心率 $e$ 的取值范围.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2000/img/new_curriculum_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "choices": [],
+          "answer": "",
+          "solution": "设双曲线的焦点为 $A(-c,0)$，$B(c,0)$，则 $AB=2c$. 双曲线的对称轴为 $x$ 轴. 由于 $CD\\parallel AB$，且双曲线关于 $y$ 轴对称，故 $C$，$D$ 关于 $y$ 轴对称，可设\r\n$C=\\left(\\frac{c}{2},h\\right),\\qquad D=\\left(-\\frac{c}{2},h\\right)$.\r\n这里使用了 $|AB|=2|CD|$，因为 $|CD|=c$. 设双曲线的实半轴为 $a$，则其方程为\r\n$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{c^{2}-a^{2}}=1$.\r\n\r\n按定比分点的含义，$\\frac{AE}{EC}=\\lambda$. 令\r\n$t=\\frac{AE}{AC}=\\frac{\\lambda}{1+\\lambda}$，\r\n则\r\n$E=A+t(C-A)=\\left(-c+\\frac{3ct}{2},th\\right)$.\r\n由 $C$ 在双曲线上，得\r\n$\\frac{c^{2}}{4a^{2}}-\\frac{h^{2}}{c^{2}-a^{2}}=1$，\r\n即\r\n$\\frac{h^{2}}{c^{2}-a^{2}}=\\frac{c^{2}}{4a^{2}}-1$.\r\n将 $E$ 的坐标代入双曲线方程并利用上式，得到\r\n$c^{2}\\left(-1+\\frac{3t}{2}\\right)^{2}\r\n-t^{2}\\left(\\frac{c^{2}}{4}-a^{2}\\right)=a^{2}$.\r\n化简为\r\n$c^{2}(1-t)(1-2t)=a^{2}(1-t^{2})$.\r\n因为 $0<t<\\frac12$，可约去 $1-t$，从而\r\n$\\frac{a^{2}}{c^{2}}=\\frac{1-2t}{1+t}$， 即\r\n$e^{2}=\\frac{c^{2}}{a^{2}}=\\frac{1+t}{1-2t}\r\n=\\frac{1+2\\lambda}{1-\\lambda}$.\r\n\r\n函数 $\\frac{1+2\\lambda}{1-\\lambda}$ 在 $\\lambda<1$ 时递增，且\r\n$\\left.\\frac{1+2\\lambda}{1-\\lambda}\\right|_{\\lambda=\\frac23}=7,\\qquad\r\n\\left.\\frac{1+2\\lambda}{1-\\lambda}\\right|_{\\lambda=\\frac34}=10$.\r\n因此\r\n$7\\le e^{2}\\leqslant10$，又 $e>0$，故\r\n$\\sqrt{7}\\le e\\le\\sqrt{10}$.",
+          "hasAnswer": false,
+          "hasSolution": true
+        }
+      ]
+    }
+  ]
+}
