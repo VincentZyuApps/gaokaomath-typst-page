@@ -29,9 +29,34 @@ function getSidebarConfig() {
     }
   }
 
+  sidebar['/papers/'] = [
+    {
+      text: "🏛️ 历年真题大厅",
+      items: [
+        { text: "试卷导航检索大厅", link: "/papers/" }
+      ]
+    },
+    {
+      text: "📖 关于项目",
+      items: [
+        { text: "项目背景与开源致敬", link: "/about" }
+      ]
+    }
+  ];
+
   sidebar['/about'] = [
-    { text: "🏛️ 历年真题大厅", link: "/papers/" },
-    { text: "📖 关于项目与致敬", link: "/about" }
+    {
+      text: "🏛️ 历年真题大厅",
+      items: [
+        { text: "试卷导航检索大厅", link: "/papers/" }
+      ]
+    },
+    {
+      text: "📖 关于项目",
+      items: [
+        { text: "项目背景与开源致敬", link: "/about" }
+      ]
+    }
   ];
 
   return sidebar;
