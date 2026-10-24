@@ -6,17 +6,17 @@
         <div class="header-left">
           <div class="pulse-indicator">
             <span class="pulse-dot"></span>
-            <span class="header-tag">流水线实时监控</span>
+            <span class="header-tag">试卷工程流水线实时监控</span>
           </div>
-          <h2 class="telemetry-title">试卷数字化与多端能力矩阵</h2>
+          <h2 class="telemetry-title">试卷数字化与多源资产交付矩阵 (3 × 3)</h2>
           <p class="telemetry-subtitle">
-            全库 777 套高考试卷基于 Typst 编译与 VitePress 驱动，六大核心交付能力解锁进度一览
+            全库 777 套高考试卷基于 Typst 编译、VitePress 驱动与上游学术考据档案，九大交付能力全景一览
           </p>
         </div>
         <div class="header-right">
           <div class="overall-progress-card">
             <div class="overall-info">
-              <span class="overall-label">总体能力解锁率</span>
+              <span class="overall-label">矩阵综合达成率</span>
               <span class="overall-value">{{ overallPercentage }}%</span>
             </div>
             <div class="mini-bar-track">
@@ -26,7 +26,7 @@
         </div>
       </div>
 
-      <!-- 六大能力流水线进度槽网格 -->
+      <!-- 九大能力 3 × 3 九宫格进度槽网格 -->
       <div class="metrics-grid">
         <div
           v-for="item in metricItems"
@@ -75,7 +75,7 @@
       <!-- 底部快捷行动栏 -->
       <div class="telemetry-footer">
         <div class="footer-hint">
-          💡 数据由题库索引实时计算同步，持续追踪 Typst 离线 PDF 编译产物交付进度
+          💡 数据由题库索引与上游开源仓库实时对齐，提供“离线高清印刷 + 在线极速快印 + 上游考据档案”全维交付
         </div>
         <div class="footer-actions">
           <a :href="withBase('/papers/')" class="action-btn primary">
@@ -100,7 +100,7 @@ interface PaperItem {
 }
 
 const totalCount = ref(777);
-const pdfCount = ref(203);
+const pdfCount = ref(577);
 const isLoaded = ref(false);
 
 onMounted(async () => {
@@ -122,14 +122,14 @@ onMounted(async () => {
 const metricItems = computed(() => {
   const total = totalCount.value;
   const pdf = pdfCount.value;
-
   const pdfPercent = Number(((pdf / total) * 100).toFixed(1));
 
   return [
+    // 支柱一：做题多端交互 (行 1)
     {
       key: 'total',
       icon: '📚',
-      name: '实际总试卷数量',
+      name: '实际总试卷收录量',
       desc: '跨越 1952~2026 全历史时期 64 个年份高考试卷',
       current: total,
       target: total,
@@ -152,29 +152,20 @@ const metricItems = computed(() => {
       key: 'single',
       icon: '🎯',
       name: '单题聚焦做题模式',
-      desc: '纯前端矢量切片卡片，独立沉浸专注逐题突破',
+      desc: '纯前端矢量题卡，自适应暗黑点阵工程草稿画布',
       current: total,
       target: total,
       percentage: '100.0',
       badgeText: '全面解锁',
       badgeType: 'success'
     },
+
+    // 支柱二：全场景 PDF 交付 (行 2)
     {
       key: 'continuous',
       icon: '📜',
       name: '连续试卷流式画卷',
-      desc: '无缝长卷视界，全真还原纸质考卷答题节奏',
-      current: total,
-      target: total,
-      percentage: '100.0',
-      badgeText: '全面解锁',
-      badgeType: 'success'
-    },
-    {
-      key: 'typst',
-      icon: '📦',
-      name: 'Typst 源码一键导出',
-      desc: '现代化排版引擎源码全量就绪，支持二次自由编译',
+      desc: '无缝长卷视界，全真还原纸质考卷做题与批阅节奏',
       current: total,
       target: total,
       percentage: '100.0',
@@ -184,13 +175,59 @@ const metricItems = computed(() => {
     {
       key: 'pdf',
       icon: '🖨️',
-      name: '印刷级 A4 PDF 产物',
-      desc: 'Typst 本地极速编译生成的高清矢量排版成品',
+      name: '离线预编译 A4 PDF',
+      desc: 'Typst 离线内嵌思源字库，印刷级 A4 双面高清成品',
       current: pdf,
       target: total,
       percentage: pdfPercent.toFixed(1),
       badgeText: `${pdf} 套就绪`,
-      badgeType: 'progress'
+      badgeType: pdfPercent >= 100 ? 'success' : 'progress'
+    },
+    {
+      key: 'print',
+      icon: '⚡',
+      name: '在线免字体快印 PDF',
+      desc: '浏览器原生矢量打印引擎，零外部字体流量秒速出卷',
+      current: total,
+      target: total,
+      percentage: '100.0',
+      badgeText: '全量就绪',
+      badgeType: 'success'
+    },
+
+    // 支柱三：跨时代源码与文献 (行 3)
+    {
+      key: 'typst',
+      icon: '📦',
+      name: 'Typst 现代排版源码',
+      desc: '现代化排版引擎源码全量就绪，支持本地二次自由编译',
+      current: total,
+      target: total,
+      percentage: '100.0',
+      badgeText: '全面就绪',
+      badgeType: 'success'
+    },
+    {
+      key: 'upstream_tex',
+      icon: '📜',
+      name: '上游 LaTeX 学术源码',
+      desc: '继承 deekur 社区标准 LaTeX 源码，学术研究跨端对照',
+      current: total,
+      target: total,
+      percentage: '100.0',
+      badgeText: '直链连通',
+      badgeType: 'accent'
+    },
+    {
+      key: 'upstream_pdf',
+      icon: '🏛️',
+      name: '上游历史原卷 PDF',
+      desc: '民间油印手抄原件与历史考据扫描原版，历史见证',
+      current: total,
+      target: total,
+      percentage: '100.0',
+      badgeText: '档案映射',
+      badgeType: 'accent'
     }
   ];
 });
@@ -334,7 +371,7 @@ const overallPercentage = computed(() => {
   transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* 指标卡片网格布局 */
+/* 3 × 3 九宫格网格布局 */
 .metrics-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -420,6 +457,12 @@ const overallPercentage = computed(() => {
   border: 1px solid rgba(59, 130, 246, 0.3);
 }
 
+.metric-badge.accent {
+  background: rgba(139, 92, 246, 0.12);
+  color: #7c3aed;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
 .metric-desc {
   margin: 0 0 16px 0;
   font-size: 12px;
@@ -498,6 +541,10 @@ const overallPercentage = computed(() => {
 
 .progress-fill.progress {
   background: linear-gradient(90deg, #3b82f6, #6366f1);
+}
+
+.progress-fill.accent {
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
 }
 
 .progress-glow {

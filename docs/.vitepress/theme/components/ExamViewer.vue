@@ -27,20 +27,20 @@
         </button>
       </div>
 
-      <!-- 右侧辅助动作栏 (双轨制 PDF 与源码导出) -->
+      <!-- 右侧辅助动作栏 (多维试卷产物导出) -->
       <div class="toolbar-actions">
         <a
           :href="typstUrl"
-          download
+          :download="`${friendlyFileName}.typ`"
           class="action-btn typst-btn"
-          title="下载 Typst 试卷源码"
+          title="下载 Typst 试卷源码 (含年份卷名)"
         >
           📄 Typst 源码
         </a>
         <a
           v-if="hasPdf"
           :href="pdfUrl"
-          download
+          :download="`${friendlyFileName}.pdf`"
           class="action-btn download-btn"
           title="基于 Typst 引擎离线完整预编译，已内嵌思源宋体/黑体与数学符号矢量字库，适合印刷排版与离线永久归档"
         >
@@ -60,6 +60,15 @@
         >
           ⚡ 在线免字体快印
         </button>
+        <a
+          :href="upstreamUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="action-btn upstream-btn"
+          title="直达上游 deekur/gaokaomath 原始历史考据、扫描原件与 LaTeX 源码"
+        >
+          🏛️ 上游档案 ↗
+        </a>
       </div>
     </div>
 
@@ -435,6 +444,18 @@ const currentSectionName = computed<string>(() => {
     }
   }
   return '全国高考真题';
+});
+
+// 友好文件名规范 (含年份与卷名，例如: 2026年_北京卷_高考数学)
+const friendlyFileName = computed(() => {
+  const title = manifestData.value?.title || `${props.paperYear}年_${props.paperSlug}`;
+  const safeName = title.replace(/[\\/:*?"<>|\s]+/g, '_');
+  return safeName;
+});
+
+// 上游历史考据与学术源直链
+const upstreamUrl = computed(() => {
+  return manifestData.value?.upstream?.url || `https://github.com/deekur/gaokaomath/tree/master/${props.paperYear}`;
 });
 
 // 资源基础 URL
@@ -1101,6 +1122,25 @@ onUnmounted(() => {
 }
 
 .instant-print-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+.upstream-btn {
+  display: inline-flex;
+  align-items: center;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.upstream-btn:hover {
   border-color: var(--vp-c-brand-1);
   color: var(--vp-c-brand-1);
 }
