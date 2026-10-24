@@ -102,17 +102,17 @@ $sin alpha + cos alpha =-p$，$sin alpha cos alpha =q$.
 $ p^2=( sin alpha + cos alpha )^2=1+2 sin alpha cos alpha =1+2 q $
 
 此外，$0< alpha <(pi)/(2)$ 给出
-$1< sin alpha + cos alpha \l e q s q r t(2)$，$0< sin alpha cos alpha \l e q(1)/(2)$.
+$1< sin alpha + cos alpha  <= s q r t(2)$，$0< sin alpha cos alpha  <= (1)/(2)$.
 因此必要条件为
-$1+2 q=p^2$，$-sqrt(2)\l e q p<-1$，$0<q\l e q(1)/(2)$.
+$1+2 q=p^2$，$-sqrt(2) <= p<-1$，$0<q <= (1)/(2)$.
 
-再证这些条件充分. 设 $s=-p$，则 $1<s\l e q s q r t(2)$，且由关系式 $q=(s^2-1)/(2)$. 原方程可写为
+再证这些条件充分. 设 $s=-p$，则 $1<s <= s q r t(2)$，且由关系式 $q=(s^2-1)/(2)$. 原方程可写为
 
 $ x^2-s x+q=0 $
 
 它的判别式为
 
-$ Delta =s^2-4 q=s^2-2(s^2-1)=2-s^2\g e q0 $
+$ Delta =s^2-4 q=s^2-2(s^2-1)=2-s^2 >= 0 $
 
 设两根为 $u$、$v$，则 $u+v=s>0$、$u v=q>0$，所以 $u$、$v$ 均为正数；又
 
@@ -121,7 +121,7 @@ $ u^2+v^2=(u+v)^2-2 u v=s^2-2 q=1 $
 故 $0<u<1$、$0<v<1$. 取锐角 $alpha$ 使 $sin alpha =u$，则 $cos alpha =sqrt(1-u^2)=v$，所以两根确为 $sin alpha$、$cos alpha$，即为直角三角形两个锐角的正弦.
 
 所以所求条件是
-$1+2 q=p^2$，$-sqrt(2)\l e q p<-1$，$0<q\l e q(1)/(2)$.
+$1+2 q=p^2$，$-sqrt(2) <= p<-1$，$0<q <= (1)/(2)$.
 ]
 
 #problem(7)[
@@ -269,16 +269,16 @@ $ lambda u_(1) u_2((1)/(b^2)-(1)/(a^2))=0 $
 由于 $a>b>0$，所以 $u_(1) u_2=0$. 因而矩形的两边分别平行于椭圆的两条坐标轴.
 
 设矩形的半长为 $x$，半宽为 $y$，则顶点 $(x,y)$ 在椭圆上，故
-$(x^2)/(a^2)+(y^2)/(b^2)=1$，$q q u a d y=(b)/(a)sqrt(a^2-x^2)$，$q q u a d 0\l e q x\l e q a$.
+$(x^2)/(a^2)+(y^2)/(b^2)=1$，$q q u a d y=(b)/(a)sqrt(a^2-x^2)$，$q q u a d 0 <= x <= a$.
 于是矩形面积为
 
 $ S(x)=4 x y=(4 b)/(a)x s q r t(a^2-x^2)=(4 b)/(a)sqrt(x^2(a^2-x^2)) $
 
 由算术几何平均不等式，
 
-$ sqrt(x^2(a^2-x^2))\l e q(x^2+a^2-x^2)/(2)=(a^2)/(2) $
+$ sqrt(x^2(a^2-x^2)) <= (x^2+a^2-x^2)/(2)=(a^2)/(2) $
 
-所以 $S(x)\l e q2 a b$. 当且仅当 $x^2=a^2-x^2$，即 $x=(sqrt(2))/(2)a$ 时取等号；此时
+所以 $S(x) <= 2 a b$. 当且仅当 $x^2=a^2-x^2$，即 $x=(sqrt(2))/(2)a$ 时取等号；此时
 $2 x=sqrt(2)a$，$2 y=sqrt(2)b$，$q q u a d S_( max )=2 a b$.
 因此，当内接矩形的长、宽分别为椭圆半长轴、半短轴的 $sqrt(2)$ 倍时，面积最大.
 ]

@@ -22,7 +22,7 @@
 ]
 
 #problem(2)[
-已知 $A = \{x | |2 x + 1| > 3\}$，$B = \{x | x^2 + x <= 6 \}$，则 $A inter B =$（ ）
+已知 $A = {x | |2 x + 1| > 3}$，$B = {x | x^2 + x <= 6 }$，则 $A inter B =$（ ）
   #choices([$[-3, -2) union (1, 2]$], [$[-3, -2) union (1, + oo )$], [$(-3, -2] union [1, 2)$], [$(- oo , -3] union (1, 2]$], cols: 2)
 ]
 
@@ -191,7 +191,7 @@ $z=-2 i$.
 #solution[
 设 $arrow(P A')=u a r r o w(P A)$，$arrow(P B')=v a r r o w(P B)$，$arrow(P C')=w a r r o w(P C)$，其中 $u$，$v$，$w>0$. 由四面体体积公式，
 
-$ V_(P-A B C)=(1)/(6)|\det(arrow(P A),arrow(P B),arrow(P C))| $
+$ V_(P-A B C)=(1)/(6)|det(arrow(P A),arrow(P B),arrow(P C))| $
 
 将 $arrow(P A')$，$arrow(P B')$，$arrow(P C')$ 分别代入同一体积公式，行列式的三列分别乘以 $u$，$v$，$w$，从而
 

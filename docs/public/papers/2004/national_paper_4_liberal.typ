@@ -11,14 +11,14 @@
 #part-header("单选题")
 
 #problem(1)[
-设集合 $U = \{0, 1, 2, 3, 4, 5\}$，集合 $M = \{0, 3, 5\}$，$N = \{1, 4, 5\}$，则 $M inter (\c o m p l e m e n t_U N) =$（ ）
-  #choices([$\{5\}$], [$\{0,3\}$], [$\{0, 2, 3, 5\}$], [$\{0, 1, 3, 4, 5\}$], cols: 2)
+设集合 $U = {0, 1, 2, 3, 4, 5}$，集合 $M = {0, 3, 5}$，$N = {1, 4, 5}$，则 $M inter (\c o m p l e m e n t_U N) =$（ ）
+  #choices([${5}$], [${0,3}$], [${0, 2, 3, 5}$], [${0, 1, 3, 4, 5}$], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-在全集 $U$ 中，$N$ 的补集为 $\c o m p l e m e n t_U N=\{0,2,3\}$，所以 $M inter (\c o m p l e m e n t_U N)=\{0,3\}$，故选 B.
+在全集 $U$ 中，$N$ 的补集为 $\c o m p l e m e n t_U N={0,2,3}$，所以 $M inter (\c o m p l e m e n t_U N)={0,3}$，故选 B.
 ]
 
 #problem(2)[
@@ -66,7 +66,7 @@
 ]
 
 #problem(6)[
-等差数列 $\{a_(n)\}$ 中，$a_(1) + a_(2) + a_(3) = -24$，$a_(18) + a_(19) + a_(20) = 78$，则此数列前 $20$ 项和等于（ ）
+等差数列 ${a_(n)}$ 中，$a_(1) + a_(2) + a_(3) = -24$，$a_(18) + a_(19) + a_(20) = 78$，则此数列前 $20$ 项和等于（ ）
   #choices([$160$], [$180$], [$200$], [$220$], cols: 4)
 ]
 
@@ -191,15 +191,15 @@ $(x - (1)/(sqrt(x)))^8$ 展开式中 $x^5$ 的系数为#blank(){}.
 ]
 
 #solution[
-因为 $alpha$ 是第二象限角，所以 $cos alpha <0$，从而 $cos alpha =-sqrt(1- sin ""^2 alpha)=-(1)/(4)$. 于是 $sin 2 alpha =2 sin alpha cos alpha =-(sqrt(15))/(8)$，$cos 2 alpha =1-2 sin ""^2 alpha =-(7)/(8)$，所以 $sin 2 alpha + cos 2 alpha +1=-(sqrt(15))/(8)-(7)/(8)+1=(1-sqrt(15))/(8)$. 另一方面，$sin ( alpha +(pi)/(4))=(sin alpha + cos alpha)/(sqrt(2))=(sqrt(15)-1)/(4 sqrt(2))$. 所以原式为 $(sqrt(15)-1)/(4 sqrt(2))\div(1-sqrt(15))/(8)=-sqrt(2)$.
+因为 $alpha$ 是第二象限角，所以 $cos alpha <0$，从而 $cos alpha =-sqrt(1- sin ""^2 alpha)=-(1)/(4)$. 于是 $sin 2 alpha =2 sin alpha cos alpha =-(sqrt(15))/(8)$，$cos 2 alpha =1-2 sin ""^2 alpha =-(7)/(8)$，所以 $sin 2 alpha + cos 2 alpha +1=-(sqrt(15))/(8)-(7)/(8)+1=(1-sqrt(15))/(8)$. 另一方面，$sin ( alpha +(pi)/(4))=(sin alpha + cos alpha)/(sqrt(2))=(sqrt(15)-1)/(4 sqrt(2))$. 所以原式为 $(sqrt(15)-1)/(4 sqrt(2))div(1-sqrt(15))/(8)=-sqrt(2)$.
 ]
 
 #problem(18)[
-已知数列 $\{a_(n)\}$ 为等比数列，$a_(2) = 6$，$a_(5) = 162$.
+已知数列 ${a_(n)}$ 为等比数列，$a_(2) = 6$，$a_(5) = 162$.
 
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 设 $S_(n)$ 是数列 $\{a_(n)\}$ 的前 $n$ 项，证明 $(S_(n){ dot } S_(n+2))/(S_(n+1)^(2)) <= 1$.
++ (1) 求数列 ${a_(n)}$ 的通项公式；
++ (2) 设 $S_(n)$ 是数列 ${a_(n)}$ 的前 $n$ 项，证明 $(S_(n){ dot } S_(n+2))/(S_(n+1)^(2)) <= 1$.
 ]
 
 #solution[

@@ -26,16 +26,16 @@ $ (a+ i ) i =a i -1 $
 ]
 
 #problem(2)[
-设 $M = \{1, 2\}$，$N = \{a^2\}$，则 “$a = 1$” 是 “$N subset.eq M$” 的（ ）
+设 $M = {1, 2}$，$N = {a^2}$，则 “$a = 1$” 是 “$N subset.eq M$” 的（ ）
   #choices([充分不必要条件], [必要不充分条件], [充分必要条件], [既不充分又不必要条件], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-当 $a=1$ 时，$N=\{1\}$，而 $1 in M$，所以 $N subset.eq M$，因此“$a=1$”是“$N subset.eq M$”的充分条件.
+当 $a=1$ 时，$N={1}$，而 $1 in M$，所以 $N subset.eq M$，因此“$a=1$”是“$N subset.eq M$”的充分条件.
 
-反之，$N subset.eq M$ 只说明 $a^2 in \{1,2\}$，例如 $a=-1$ 时也有 $N=\{1\} subset.eq M$，但 $a != 1$. 因此该条件不是必要条件，故选 A.
+反之，$N subset.eq M$ 只说明 $a^2 in {1,2}$，例如 $a=-1$ 时也有 $N={1} subset.eq M$，但 $a != 1$. 因此该条件不是必要条件，故选 A.
 ]
 
 #problem(3)[
@@ -230,7 +230,7 @@ $ A F=sqrt(3)-(sqrt(3))/(3)=(2 sqrt(3))/(3) $
 ]
 
 #problem(12)[
-设 $S_(n)$ 是等差数列 $\{a_(n)\}$（$n in bold(N)^(*)$）的前 $n$ 项和，且 $a_(1) = 1$，$a_(4) = 7$，则 $S_(5) =$#blank(){}.
+设 $S_(n)$ 是等差数列 ${a_(n)}$（$n in bold(N)^(*)$）的前 $n$ 项和，且 $a_(1) = 1$，$a_(4) = 7$，则 $S_(5) =$#blank(){}.
 ]
 
 #answer([25])
@@ -536,7 +536,7 @@ $ arrow(M D)\c d o t a r r o w(M E)=(64 t s(1+t s))/((4 t^2+1)(4 s^2+1))=0 $
 故 $M D bot M E$.
 + (4) 由行列式表示三角形面积，
 
-$ 2 S_1=|\det\b e g i n{p m a t r i x}t&t^2\\s&s^2\e n d{p m a t r i x}|=|t s(s-t)|=|s-t| $
+$ 2 S_1=|det\b e g i n{p m a t r i x}t&t^2\\s&s^2\e n d{p m a t r i x}|=|t s(s-t)|=|s-t| $
 
 将上面得到的两个向量代入三角形面积的行列式公式，得
 
@@ -559,7 +559,7 @@ $ (25+4 k^2)/(64)=(17)/(32) <=> k^2=(9)/(4) $
 已知函数 $f(x) = x^3$，$g(x) = x + sqrt(x)$.
 
 + (1) 求函数 $h(x) = f(x) - g(x)$ 的零点个数，并说明理由；
-+ (2) 设数列 $\{a_(n)\}$（$n in bold(N)^(*)$）满足 $a_(1) = a$（$a > 0$），$f(a_(n+1)) = g(a_(n))$，证明：存在常数 $M$，使得对于任意的 $n in bold(N)^(*)$，都有 $a_(n) <= M$.
++ (2) 设数列 ${a_(n)}$（$n in bold(N)^(*)$）满足 $a_(1) = a$（$a > 0$），$f(a_(n+1)) = g(a_(n))$，证明：存在常数 $M$，使得对于任意的 $n in bold(N)^(*)$，都有 $a_(n) <= M$.
 ]
 
 #solution[
@@ -579,7 +579,7 @@ $ a_(n+1)=(a_n+sqrt(a_n))^((1)/(3)) $
 令 $alpha =u_0^2$，则 $alpha ""^3= alpha +sqrt(alpha)$. 记 $T(x)=(x+sqrt(x))^((1)/(3))$（$x>0$）.
 函数 $T$ 在正半轴上单调递增，且 $T( alpha )= alpha$. 由第一问中 $h(x)$ 的符号可知，当 $x >= alpha$ 时 $x^3 >= x+sqrt(x)$，从而 $T(x) <= x$. 因此取
 
-$ M= max \{a, alpha \} $
+$ M= max {a, alpha } $
 
 则 $a_1 <= M$，并且由 $T$ 的单调性及 $M >= alpha$，有 $a_(n+1)=T(a_n) <= T(M) <= M$. 归纳可得，对任意 $n\i n b o l d(N)^*$，都有 $a_n <= M$.
 ]

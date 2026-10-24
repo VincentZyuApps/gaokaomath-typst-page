@@ -18,7 +18,7 @@
 #answer([A])
 
 #solution[
-正弦函数 $y=A sin ( omega x+ phi.alt )$ 的振幅为 $| A|$，周期为 $(2 pi)/(| omega |)$. 题中 $A=3$，$omega =(1)/(2)$，所以振幅为 $\l v e r t3|=3$，周期为
+正弦函数 $y=A sin ( omega x+ phi.alt )$ 的振幅为 $| A|$，周期为 $(2 pi)/(| omega |)$. 题中 $A=3$，$omega =(1)/(2)$，所以振幅为 $ | 3|=3$，周期为
 
 $ T=(2 pi)/(|(1)/(2)|)=4 pi $
 
@@ -26,7 +26,7 @@ $ T=(2 pi)/(|(1)/(2)|)=4 pi $
 ]
 
 #problem(2)[
-若 $S_n$ 是数列 $\{a_n\}$ 的前 $n$ 项和，且 $S_n=n^2$，则 $\{a_n\}$ 是（ ）
+若 $S_n$ 是数列 ${a_n}$ 的前 $n$ 项和，且 $S_n=n^2$，则 ${a_n}$ 是（ ）
   #choices([等比数列，但不是等差数列], [等差数列，但不是等比数列], [等差数列，而且也是等比数列], [既非等比数列又非等差数列], cols: 4)
 ]
 
@@ -282,7 +282,7 @@ $ tan \a r g z=(sqrt(6))/(sqrt(2))=sqrt(3) $
 
 所以在 $[0,2 pi )$ 内 $\a r g z=(pi)/(3)$. 又
 
-$ (1)/(z)=(\overline z)/(| z|^2)=(sqrt(2)-sqrt(6) i)/(8) $
+$ (1)/(z)=(overline(z))/(| z|^2)=(sqrt(2)-sqrt(6) i)/(8) $
 
 其辐角为 $-(pi)/(3)$，在 $[0,2 pi )$ 内表示为
 
@@ -327,19 +327,19 @@ $ E(X)=E(I_1)+E(I_2)+E(I_3)=3 times (2)/(5)=(6)/(5)=1.2 $
 ]
 
 #problem(16)[
-设 $\{a_n\}$ 是公比为 $q$ 的等比数列，$S_n$ 是它的前 $n$ 项和. 若 $| S_n|$ 是等差数列，则 $q=\f i l l i n b l a n k{}$.
+设 ${a_n}$ 是公比为 $q$ 的等比数列，$S_n$ 是它的前 $n$ 项和. 若 $| S_n|$ 是等差数列，则 $q=\f i l l i n b l a n k{}$.
 ]
 
 #answer([1])
 
 #solution[
-按等比数列的通常约定，首项 $a_1 != 0$，公比 $q != 0$. 记 $b_n=| S_n|$. 因为 $b_n >= 0$ 对一切正整数 $n$ 成立，若 $\{b_n\}$ 为等差数列，其公差不能小于 $0$.
+按等比数列的通常约定，首项 $a_1 != 0$，公比 $q != 0$. 记 $b_n=| S_n|$. 因为 $b_n >= 0$ 对一切正整数 $n$ 成立，若 ${b_n}$ 为等差数列，其公差不能小于 $0$.
 
 当 $q=1$ 时，$S_n=n a_1$，从而 $b_n=n| a_1|$，确为等差数列.
 
 下面说明其他非零的 $q$ 均不可能. 当 $q != 1$ 时，令 $C=|(a_1)/(1-q)|>0$，则
 
-$ b_n=C\l v e r t1-q^n| $
+$ b_n=C | 1-q^n| $
 
 若 $0<q<1$，则 $b_n=C(1-q^n)$，相邻两项之差为
 
@@ -376,7 +376,7 @@ $ \b e g i n{c a s e s} x-a>0,\\ x-a^2<0, \e n d{c a s e s} "或"\b e g i n{c a 
 
 因此不等式的解集为
 
-$ \b e g i n{c a s e s} \{x | a<x<a^2\},&a<0" 或 "a>1,\\ \{x | a^2<x<a\},&0<a<1,\\ emptyset ,&a=0" 或 "a=1. \e n d{c a s e s} $
+$ \b e g i n{c a s e s} {x | a<x<a^2},&a<0" 或 "a>1,\\ {x | a^2<x<a},&0<a<1,\\ emptyset ,&a=0" 或 "a=1. \e n d{c a s e s} $
 ]
 
 #problem(18)[
@@ -407,12 +407,12 @@ $P(A)=0.80$，$P(B)=0.90$，$P(C)=0.90$.
 $ P_1=P(A inter B inter C)=P(A)P(B)P(C)=0.80 times 0 .90 times 0 .90=0.648 $
 
 
-系统 $N_2$ 正常工作的事件为 $A inter (B union C)$. 其对立事件为 $\overline A union (\overline B inter \overline C)$，直接按独立性计算更方便：
+系统 $N_2$ 正常工作的事件为 $A inter (B union C)$. 其对立事件为 $overline(A) union (overline(B) inter overline(C))$，直接按独立性计算更方便：
 
-$ P_2=P(A)P(B union C)=P(A)[1-P(\overline B inter \overline C)] $
+$ P_2=P(A)P(B union C)=P(A)[1-P(overline(B) inter overline(C))] $
 
 又有
-$P(\overline B)=1-0.90=0.10$，$P(\overline C)=1-0.90=0.10$，
+$P(overline(B))=1-0.90=0.10$，$P(overline(C))=1-0.90=0.10$，
 所以
 
 $ P_2=0.80[1-0.10 times 0 .10]=0.80 times 0 .99=0.792 $
@@ -475,11 +475,11 @@ $ arrow(B E)\c d o t a r r o w(D E)=-(3 a^2)/(4)-(3 a^2)/(4)+(h_0^2)/(4)=(h_0^2-
 
 又有
 
-$ \l v e r t a r r o w(B E)|^2=\l v e r t a r r o w(D E)|^2 =(9 a^2)/(4)+(a^2)/(4)+(h_0^2)/(4)=(10 a^2+h_0^2)/(4) $
+$  |  a r r o w(B E)|^2= |  a r r o w(D E)|^2 =(9 a^2)/(4)+(a^2)/(4)+(h_0^2)/(4)=(10 a^2+h_0^2)/(4) $
 
 由数量积公式，
 
-$ cos \l a n g l e a r r o w(B E),arrow(D E) chevron.r =(arrow(B E){ dot }arrow(D E))/(\l v e r t a r r o w(B E)|\l v e r t a r r o w(D E)|)=(h_0^2-6 a^2)/(10 a^2+h_0^2) $
+$ cos \l a n g l e a r r o w(B E),arrow(D E) chevron.r =(arrow(B E){ dot }arrow(D E))/( |  a r r o w(B E)| |  a r r o w(D E)|)=(h_0^2-6 a^2)/(10 a^2+h_0^2) $
 + (2) 二面角的平面角所在的截面垂直于棱 $V C$，所以 $B E bot V C$，同时 $D E bot V C$. 由
 
 $ arrow(C V)=(a,-a,h_0) $

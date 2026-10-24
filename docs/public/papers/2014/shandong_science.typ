@@ -24,7 +24,7 @@ $(a+b i )^2=(2+ i )^2=4+4 i + i ""^2=3+4 i$，故选 D.
 ]
 
 #problem(2)[
-设集合 $A = \{x | |x - 1| < 2\}$，$B = \{y | y = 2^x, x in [0,2]\}$，则 $A inter B =$（ ）
+设集合 $A = {x | |x - 1| < 2}$，$B = {y | y = 2^x, x in [0,2]}$，则 $A inter B =$（ ）
   #choices([$[0,2]$], [$(1,3)$], [$[1,3)$], [$(1,4)$], cols: 4)
 ]
 
@@ -204,13 +204,13 @@ $ S_( triangle A B C)=(1)/(2)A B dot A C sin A =(1)/(2) dot (2)/(3) dot (1)/(2)=
 以 $P$ 为原点，记 $arrow(P A)=bold(a)$、$arrow(P B)=bold(b)$、$arrow(P C)=bold(c)$. 因为 $D$、$E$ 分别为 $P B$、$P C$ 的中点，所以
 $arrow(P D)=(1)/(2)bold(b)$、$arrow(P E)=(1)/(2)bold(c)$. 于是
 
-$ V_1=(1)/(6)|\det(bold(a)-(1)/(2)bold(b),(1)/(2)bold(b),(1)/(2)(bold(c)-bold(b)))| =(1)/(4) dot (1)/(6)|\det(bold(a)-(1)/(2)bold(b),bold(b),bold(c)-bold(b))| $
+$ V_1=(1)/(6)|det(bold(a)-(1)/(2)bold(b),(1)/(2)bold(b),(1)/(2)(bold(c)-bold(b)))| =(1)/(4) dot (1)/(6)|det(bold(a)-(1)/(2)bold(b),bold(b),bold(c)-bold(b))| $
 
 又因为行列式对各列具有线性性，且含有两列相同向量时值为零，所以
 
-$ \det(bold(a)-(1)/(2)bold(b),bold(b),bold(c)-bold(b)) =\det(bold(a),bold(b),bold(c)-bold(b))-(1)/(2)\det(bold(b),bold(b),bold(c)-bold(b)) =\det(bold(a),bold(b),bold(c))-\det(bold(a),bold(b),bold(b)) =\det(bold(a),bold(b),bold(c)) $
+$ det(bold(a)-(1)/(2)bold(b),bold(b),bold(c)-bold(b)) =det(bold(a),bold(b),bold(c)-bold(b))-(1)/(2)det(bold(b),bold(b),bold(c)-bold(b)) =det(bold(a),bold(b),bold(c))-det(bold(a),bold(b),bold(b)) =det(bold(a),bold(b),bold(c)) $
 
-因此 $V_1=(1)/(4) dot (1)/(6)|\det(bold(a),bold(b),bold(c))|=(1)/(4)V_2$，从而
+因此 $V_1=(1)/(4) dot (1)/(6)|det(bold(a),bold(b),bold(c))|=(1)/(4)V_2$，从而
 $(V_1)/(V_2)=(1)/(4)$.
 ]
 
@@ -373,11 +373,11 @@ $E( xi )=E(X+Y)=E(X)+E(Y)=(11)/(6)+(6)/(5)=(91)/(30)$.
 ]
 
 #problem(19)[
-已知等差数列 $\{a_(n)\}$ 的公差为 2，前 $n$ 项和为 $S_(n)$，且 $S_(1)$，$S_(2)$，$S_(4)$ 成等比数列.
+已知等差数列 ${a_(n)}$ 的公差为 2，前 $n$ 项和为 $S_(n)$，且 $S_(1)$，$S_(2)$，$S_(4)$ 成等比数列.
 
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 令 $b_n = (-1)^(n-1) (4 n)/(a_n a_(n+1))$，求数列 $\{b_n\}$ 的前 $n$ 项和 $T_n$.
++ (1) 求数列 ${a_(n)}$ 的通项公式；
++ (2) 令 $b_n = (-1)^(n-1) (4 n)/(a_n a_(n+1))$，求数列 ${b_n}$ 的前 $n$ 项和 $T_n$.
 ]
 
 #solution[
@@ -469,7 +469,7 @@ $ (y_E-y_A)/(x_E-x_A)=(-(2)/(t)-2 t)/((1)/(t^2)-t^2)=(2 t)/(t^2-1)=(y_A)/(x_A-1)
 所以直线 $A E$ 经过 $F=(1,0)$. 当 $t^2=1$ 时，$A$，$E$ 的横坐标同为 $1$，直线 $A E$ 为 $x=1$，仍经过 $F$. 故定点为 $(1,0)$.
 + (4) 对任意参数 $r$，$s$，$t$，三点 $P(r)$，$P(s)$，$P(t)$ 所成三角形的面积为
 
-$ (1)/(2)|\det\b e g i n{p m a t r i x}r^2-s^2&2(r-s)\\ r^2-t^2&2(r-t)\e n d{p m a t r i x}| =|(r-s)(r-t)(s-t)| $
+$ (1)/(2)|det\b e g i n{p m a t r i x}r^2-s^2&2(r-s)\\ r^2-t^2&2(r-t)\e n d{p m a t r i x}| =|(r-s)(r-t)(s-t)| $
 
 取 $A=P(t)$、$B=P(-t-(2)/(t))$、$E=P(-(1)/(t))$，得
 

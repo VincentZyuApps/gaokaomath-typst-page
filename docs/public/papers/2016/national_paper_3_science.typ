@@ -11,7 +11,7 @@
 #part-header("单选题")
 
 #problem(1)[
-设集合 $S=\{x | (x-2)(x-3) >= 0 \}$，$T=\{x | x>0\}$，则 $S inter T=$（ ）
+设集合 $S={x | (x-2)(x-3) >= 0 }$，$T={x | x>0}$，则 $S inter T=$（ ）
   #choices([$[2,3]$], [$(- oo ,2] union [3,+ oo )$], [$[3,+ oo )$], [$(0,2] union [3,+ oo )$], cols: 2)
 ]
 
@@ -22,14 +22,14 @@
 ]
 
 #problem(2)[
-若 $z=1+2 i$，则 $(4 i)/(z dot \overline z-1)=$（ ）
+若 $z=1+2 i$，则 $(4 i)/(z dot overline(z)-1)=$（ ）
   #choices([$1$], [$-1$], [$i$], [$- i$], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-因为 $\overline z=1-2 i$，所以 $z\overline z=(1+2 i )(1-2 i )=1+4=5$. 于是 $(4 i)/(z\overline z-1)=(4 i)/(5-1)= i$，故选 C.
+因为 $overline(z)=1-2 i$，所以 $z overline(z)=(1+2 i )(1-2 i )=1+4=5$. 于是 $(4 i)/(z overline(z)-1)=(4 i)/(5-1)= i$，故选 C.
 ]
 
 #problem(3)[
@@ -70,7 +70,7 @@
 #answer([A])
 
 #solution[
-由 $1+ tan ""^2 alpha =\sec^2 alpha$，得 $cos ""^2 alpha =(1)/(1+ tan ""^2 alpha)=(1)/(1+(9)/(16))=(16)/(25)$. 又 $sin 2 alpha =(2 tan alpha)/(1+ tan ""^2 alpha)=(2 dot (3)/(4))/(1+(9)/(16))=(24)/(25)$. 所以 $cos ""^2 alpha +2 sin 2 alpha =(16)/(25)+2 dot (24)/(25)=(64)/(25)$，故选 A.
+由 $1+ tan ""^2 alpha =sec^2 alpha$，得 $cos ""^2 alpha =(1)/(1+ tan ""^2 alpha)=(1)/(1+(9)/(16))=(16)/(25)$. 又 $sin 2 alpha =(2 tan alpha)/(1+ tan ""^2 alpha)=(2 dot (3)/(4))/(1+(9)/(16))=(24)/(25)$. 所以 $cos ""^2 alpha +2 sin 2 alpha =(16)/(25)+2 dot (24)/(25)=(64)/(25)$，故选 A.
 ]
 
 #problem(6)[
@@ -184,7 +184,7 @@ $ 2 S_"底"+2(3 times 3 +3 times 3 sqrt(5))=36+18+18 sqrt(5)=54+18 sqrt(5) $
 ]
 
 #problem(12)[
-定义“规范 $01$ 数列”$\{a_n\}$ 如下：$\{a_n\}$ 共有 $2 m$ 项，其中 $m$ 项为 $0$，$m$ 项为 $1$，且对任意 $k <= 2 m$，$a_1$，$a_2$，\dots，$a_k$ 中 $0$ 的个数不少于 $1$ 的个数. 若 $m=4$，则不同的“规范 $01$ 数列”共有（ ）
+定义“规范 $01$ 数列”${a_n}$ 如下：${a_n}$ 共有 $2 m$ 项，其中 $m$ 项为 $0$，$m$ 项为 $1$，且对任意 $k <= 2 m$，$a_1$，$a_2$，\dots，$a_k$ 中 $0$ 的个数不少于 $1$ 的个数. 若 $m=4$，则不同的“规范 $01$ 数列”共有（ ）
   #choices([$18$ 个], [$16$ 个], [$14$ 个], [$12$ 个], cols: 4)
 ]
 
@@ -243,10 +243,10 @@ $\b e g i n{c a s e s} x-y+1 >= 0 ,\\ x-2 y <= 0 ,\\ x+2 y-2 <= 0 \e n d{c a s e
 #part-header("解答题")
 
 #problem(17)[
-已知数列 $\{a_n\}$ 的前 $n$ 项和 $S_n=1+ lambda a_n$，其中 $lambda != 0$；
+已知数列 ${a_n}$ 的前 $n$ 项和 $S_n=1+ lambda a_n$，其中 $lambda != 0$；
 
 
-+ (1) 证明 $\{a_n\}$ 是等比数列，并求其通项公式；
++ (1) 证明 ${a_n}$ 是等比数列，并求其通项公式；
 + (2) 若 $S_5=(31)/(32)$，求 $lambda$.
 ]
 
@@ -259,7 +259,7 @@ $ 1+ lambda a_n=1+ lambda a_(n-1)+a_n $
 
 $ a_n=(lambda)/(lambda -1)a_(n-1) $
 
-所以 $\{a_n\}$ 是首项为 $(1)/(1- lambda)$、公比为 $(lambda)/(lambda -1)$ 的等比数列，通项为
+所以 ${a_n}$ 是首项为 $(1)/(1- lambda)$、公比为 $(lambda)/(lambda -1)$ 的等比数列，通项为
 
 $ a_n=(1)/(1- lambda)((lambda)/(lambda -1))^(n-1) $
 + (2) 令 $q=(lambda)/(lambda -1)$，由上式可得 $lambda a_5=-q^5$，故
@@ -419,7 +419,7 @@ $ B-(3 alpha -2)=((1- alpha )(23 alpha +1))/(8 alpha) >= 0 $
 $B-(3 alpha -2)=((1- alpha )(23 alpha +1))/(8 alpha) <= 0$，$3 alpha -2 >= alpha$.
 所以此时 $A=3 alpha -2$. 综合可得
 
-$ A=\b e g i n{c a s e s} 2-3 alpha ,&0< alpha <(1)/(5),\\[4 p t] (alpha ""^2+6 alpha +1)/(8 alpha),&(1)/(5) <= alpha <= 1 ,\\[8 p t] 3 alpha -2,& alpha >= 1 . \e n d{c a s e s} $
+$ A=\b e g i n{c a s e s} 2-3 alpha ,&0< alpha <(1)/(5),\$ 4 p t] (alpha ""^2+6 alpha +1)/(8 alpha),&(1)/(5) <= alpha <= 1 ,\\[8 p t] 3 alpha -2,& alpha >= 1 . \e n d{c a s e s} $
 + (3) 当 $0< alpha <(1)/(5)$ 时，由三角不等式
 
 $ |f'(x)| <= 2 alpha | sin 2 x|+(1- alpha )| sin x| <= 1 + alpha $

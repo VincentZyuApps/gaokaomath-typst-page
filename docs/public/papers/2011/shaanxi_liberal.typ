@@ -136,7 +136,7 @@ $8.5=(9+x_3)/(2)$，解得 $x_3=17-9=8$.
 ]
 
 #problem(8)[
-设集合 $M = \{y | y = | cos ""^2 x - sin ""^2 x|, x in RR \}$，$N = \{x | |(x)/(i)| < 1,\ i " 为虚数单位",\ x in RR \}$，则 $M inter N$ 为（ ）
+设集合 $M = {y | y = | cos ""^2 x - sin ""^2 x|, x in RR }$，$N = {x | |(x)/(i)| < 1,\ i " 为虚数单位",\ x in RR }$，则 $M inter N$ 为（ ）
   #choices([$(0,1)$], [$(0,1]$], [$[0,1)$], [$[0,1]$], cols: 4)
 ]
 
@@ -151,7 +151,7 @@ $ cos ""^(2) x- sin ""^(2) x= cos 2 x $
 
 $ |(x)/(i)|=(|x|)/(| i |)=|x| $
 
-于是 $N=\{x in RR | |x|<1\}=(-1,1)$. 最后
+于是 $N={x in RR | |x|<1}=(-1,1)$. 最后
 
 $ M inter N=[0,1) $
 
@@ -171,9 +171,9 @@ $ M inter N=[0,1) $
 #solution[
 设最小二乘回归直线为 $l:y=\h a t a+\h a t b x$. 正规方程中的截距关系为
 
-$ \h a t a=\overline y-\h a t b \overline x $
+$ \h a t a=overline(y)-\h a t b overline(x) $
 
-因此当 $x=\overline x$ 时，$l$ 上的纵坐标为 $\h a t a+\h a t b\overline x=\overline y$，即直线必过 $(\overline x,\overline y)$，选项 A 正确. 相关系数为
+因此当 $x=overline(x)$ 时，$l$ 上的纵坐标为 $\h a t a+\h a t b overline(x)=overline(y)$，即直线必过 $(overline(x),overline(y))$，选项 A 正确. 相关系数为
 
 $ r=(S_(x y))/(sqrt(S_(x x)S_(y y))) $
 
@@ -481,14 +481,7 @@ $ \b e g i n{a l i g n e d} sum_(k=1)^(n)|P_(k) Q_k|=sum_(k=1)^(n) e ""^(1-k)=1+
 如图，$A$ 地到火车站共有两条路径 $L_(1)$ 和 $L_(2)$，现随机抽取 $100$ 位从 $A$ 地到达火车站的人进行调查，调查结果如下：
 
 \begin{center}
-\begin{tabular}{c|ccccc}
-\hline
-所用时间（分钟） & $10 tilde 20$ & $20 tilde 30$ & $30 tilde 40$ & $40 tilde 50$ & $50 tilde 60$ \\
-\hline
-选择 $L_(1)$ 的人数 & $6$ & $12$ & $18$ & $12$ & $12$ \\
-选择 $L_(2)$ 的人数 & $0$ & $4$ & $16$ & $16$ & $4$ \\
-\hline
-\end{tabular}
+[（表格数据详见在线交互版）]
 \end{center}
 
 

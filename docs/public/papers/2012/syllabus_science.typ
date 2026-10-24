@@ -26,7 +26,7 @@ $ (-1+3 i)/(1+ i)=((-1+3 i )(1- i ))/((1+ i )(1- i ))=(2+4 i)/(2)=1+2 i $
 ]
 
 #problem(2)[
-已知集合 $A = \{1, 3, sqrt(m)\}$，$B = \{1, m\}$，$A union B = A$，则 $m =$（ ）
+已知集合 $A = {1, 3, sqrt(m)}$，$B = {1, m}$，$A union B = A$，则 $m =$（ ）
   #choices([$0$ 或 $sqrt(3)$], [$0$ 或 $3$], [$1$ 或 $sqrt(3)$], [$1$ 或 $3$], cols: 4)
 ]
 
@@ -38,7 +38,7 @@ $ (-1+3 i)/(1+ i)=((-1+3 i )(1- i ))/((1+ i )(1- i ))=(2+4 i)/(2)=1+2 i $
 $m^2=m$，$\L o n g r i g h t a r r o w$，$m(m-1)=0$.
 所以 $m=0$ 或 $m=1$. 按集合中所列三个元素互异的原题约定，$m=1$ 不作为本题选项情形，于是 $m=0$ 或 $3$，故选 B.
 
-严格按集合的字面定义，$m=1$ 时 $A=\{1,3\}$、$B=\{1\}$，原条件也成立；因此原题的选项依赖上述互异元素的命题约定.
+严格按集合的字面定义，$m=1$ 时 $A={1,3}$、$B={1}$，原条件也成立；因此原题的选项依赖上述互异元素的命题约定.
 ]
 
 #problem(3)[
@@ -89,7 +89,7 @@ $ d=(|-sqrt(2)(0-2)-sqrt(2) dot 0 +2 dot 0 |)/(sqrt((-sqrt(2))^2+(-sqrt(2))^2+2^
 ]
 
 #problem(5)[
-已知等差数列 $\{a_(n)\}$ 前 $n$ 项和为 $S_(n)$. $a_(5) = 5$，$S_(5) = 15$，则数列 $\{(1)/(a_n a_(n+1))\}$ 的前 $100$ 项和为（ ）
+已知等差数列 ${a_(n)}$ 前 $n$ 项和为 $S_(n)$. $a_(5) = 5$，$S_(5) = 15$，则数列 ${(1)/(a_n a_(n+1))}$ 的前 $100$ 项和为（ ）
   #choices([$(100)/(101)$], [$(99)/(101)$], [$(99)/(100)$], [$(101)/(100)$], cols: 4)
 ]
 
@@ -318,19 +318,19 @@ $ C_8^5=56 $
 #solution[
 设三棱柱的棱长为 $a>0$，并记
 $bold(u)=arrow(A B)$，$bold(v)=arrow(A C)$，$bold(w)=arrow(A A_(1))$. 由于底面为等边三角形，且题设中各棱长相等，有
-$\l v e r t b o l d(u)|=\l v e r t b o l d(v)|=\l v e r t b o l d(w)|=a$，$bold(u)\c d o t b o l d(v)=(a^(2))/(2)$. 由两个已知的 $60^( degree )$ 角，
+$ |  b o l d(u)|= |  b o l d(v)|= |  b o l d(w)|=a$，$bold(u)\c d o t b o l d(v)=(a^(2))/(2)$. 由两个已知的 $60^( degree )$ 角，
 $bold(u)\c d o t b o l d(w)=bold(v)\c d o t b o l d(w)=(a^(2))/(2)$.
 
 有
 $arrow(A B_(1))=bold(u)+bold(w)$，$arrow(B C_(1))=bold(v)+bold(w)-bold(u)$. 因而
-$\l v e r t a r r o w(A B_(1))|^(2)=\l v e r t b o l d(u)+bold(w)|^(2)=3 a^(2)$，$\l v e r t a r r o w(B C_(1))|^(2)=\l v e r t b o l d(v)+bold(w)-bold(u)|^(2)=2 a^(2)$.
+$ |  a r r o w(A B_(1))|^(2)= |  b o l d(u)+bold(w)|^(2)=3 a^(2)$，$ |  a r r o w(B C_(1))|^(2)= |  b o l d(v)+bold(w)-bold(u)|^(2)=2 a^(2)$.
 同时
 
 $ arrow(A B_(1))\c d o t a r r o w(B C_(1))=(bold(u)+bold(w)) dot (bold(v)+bold(w)-bold(u)) =bold(u)\c d o t b o l d(v)+bold(v)\c d o t b o l d(w)=a^(2) $
 
 设两异面直线所成的锐角为 $theta$，则取方向向量夹角的余弦的绝对值，故
 
-$ cos theta =(\l v e r t a r r o w(A B_(1))\c d o t a r r o w(B C_(1))|)/(\l v e r t a r r o w(A B_(1))|\l v e r t a r r o w(B C_(1))|)=(a^(2))/(a s q r t(3) dot a s q r t(2))=(sqrt(6))/(6) $
+$ cos theta =( |  a r r o w(A B_(1))\c d o t a r r o w(B C_(1))|)/( |  a r r o w(A B_(1))| |  a r r o w(B C_(1))|)=(a^(2))/(a s q r t(3) dot a s q r t(2))=(sqrt(6))/(6) $
 ]
 
 #part-header("解答题")
@@ -372,7 +372,7 @@ $bold(n)_(2)=arrow(P B)\t i m e s a r r o w(P C)=(-2 t,-2 sqrt(2),-2 sqrt(2)t)$.
 $-4 t^(2)+8=0$，结合 $t>0$ 得 $t=sqrt(2)$. 此时平面 $P B C$ 的一个法向量可取 $bold(n)=(sqrt(2),sqrt(2),2)$，而
 $arrow(P D)=(sqrt(2),-sqrt(2),-2)$. 设 $P D$ 与平面 $P B C$ 所成角为 $theta$，则
 
-$ sin theta =(\l v e r t a r r o w(P D){ dot }bold(n)|)/(\l v e r t a r r o w(P D)|\l v e r t b o l d(n)|)=(4)/(2 sqrt(2) dot 2 sqrt(2))=(1)/(2) $
+$ sin theta =( |  a r r o w(P D){ dot }bold(n)|)/( |  a r r o w(P D)| |  b o l d(n)|)=(4)/(2 sqrt(2) dot 2 sqrt(2))=(1)/(2) $
 
 由于 $0 <= theta <= (pi)/(2)$，所以 $theta =30^( degree )$.
 ]
@@ -419,7 +419,7 @@ $ l_t:y=2(t+1)x+1-t^2 $
 
 圆心为 $O(1,(1)/(2))$. 因为 $l_t$ 也是圆在 $A$ 处的切线，所以圆心到该直线的距离等于半径；先由半径方向与切线方向垂直可得
 
-$ (t-1, (t+1)^2-\t f r a c12) dot (1,2(t+1))=0 $
+$ (t-1, (t+1)^2- (1)/(2) ) dot (1,2(t+1))=0 $
 
 化简得 $2(t+1)^3-2=0$，所以 $t=0$，从而 $A=(0,1)$，$l:y=2 x+1$. 因此
 
@@ -443,10 +443,10 @@ $ d(D,l)=(|2 times 2 -(-1)+1|)/(sqrt(2^2+(-1)^2))=(6)/(sqrt(5))=(6 sqrt(5))/(5) 
 ]
 
 #problem(22)[
-函数 $f(x) = x^2 - 2 x - 3$. 定义数列 $\{x_n\}$ 如下： $x_1 = 2$，$x_(n+1)$ 是过两点 $P(4,5)$，$Q_n(x_n, f(x_n))$ 的直线 $P Q_n$ 与 $x$ 轴交点的横坐标.
+函数 $f(x) = x^2 - 2 x - 3$. 定义数列 ${x_n}$ 如下： $x_1 = 2$，$x_(n+1)$ 是过两点 $P(4,5)$，$Q_n(x_n, f(x_n))$ 的直线 $P Q_n$ 与 $x$ 轴交点的横坐标.
 
 + (1) 证明： $2 <= x_(n) < x_(n+1) < 3$.
-+ (2) 求数列 $\{x_(n)\}$ 的通项公式.
++ (2) 求数列 ${x_(n)}$ 的通项公式.
 ]
 
 #solution[

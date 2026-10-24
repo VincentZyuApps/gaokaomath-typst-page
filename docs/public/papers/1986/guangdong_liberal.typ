@@ -13,14 +13,14 @@
 #problem(1)[
 方程 $2^(2 x+1)-9 times 2 ""^(x)+4=0$ 的解集是（ ）
 
-    {$\{(1)/(2), 2\}$}
-  #choices([$\{2\}$], [$\{-1\}$], [$\{(1)/(2)\}$], [$\{-1, 2\}$], cols: 4)
+    {${(1)/(2), 2}$}
+  #choices([${2}$], [${-1}$], [${(1)/(2)}$], [${-1, 2}$], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-令 $t=2^x>0$，则原方程化为 $2 t^2-9 t+4=0$，即 $(2 t-1)(t-4)=0$. 所以 $t=(1)/(2)$ 或 $t=4$，从而 $x=-1$ 或 $x=2$. 因此解集为 $\{-1,2\}$，选 D.
+令 $t=2^x>0$，则原方程化为 $2 t^2-9 t+4=0$，即 $(2 t-1)(t-4)=0$. 所以 $t=(1)/(2)$ 或 $t=4$，从而 $x=-1$ 或 $x=2$. 因此解集为 ${-1,2}$，选 D.
 ]
 
 #problem(2)[
@@ -84,7 +84,7 @@ $ (x-y+2)(x+y)=0 $
 
 $ sin ""^2 alpha =(1- cos 2 alpha)/(2)=(1+(3)/(5))/(2)=(4)/(5) $
 
-因为 $alpha in [0,(pi)/(2)]$，故 $sin alpha \g e q0$，从而 $sin alpha =(2 sqrt(5))/(5)$. 因此选 A.
+因为 $alpha in [0,(pi)/(2)]$，故 $sin alpha  >= 0$，从而 $sin alpha =(2 sqrt(5))/(5)$. 因此选 A.
 ]
 
 #problem(6)[
@@ -99,7 +99,7 @@ $ sin ""^2 alpha =(1- cos 2 alpha)/(2)=(1+(3)/(5))/(2)=(4)/(5) $
 #solution[
 由排列、组合数定义，
 $A_m^3=m(m-1)(m-2)$，$6 C_m^4=6 dot (m(m-1)(m-2)(m-3))/(24)$.
-因题目要求 $m\g e q4$，约去 $m(m-1)(m-2)$，得 $1=(m-3)/(4)$，所以 $m=7$. 因此选 B.
+因题目要求 $m >= 4$，约去 $m(m-1)(m-2)$，得 $1=(m-3)/(4)$，所以 $m=7$. 因此选 B.
 ]
 
 #problem(7)[
@@ -116,16 +116,16 @@ $A_m^3=m(m-1)(m-2)$，$6 C_m^4=6 dot (m(m-1)(m-2)(m-3))/(24)$.
 ]
 
 #problem(8)[
-若 $A = \{x | |x - 1| < 2\}$，$B = \{x | (x - 2)/(x)> 0 \}$，则 $A inter B =$（ ）
+若 $A = {x | |x - 1| < 2}$，$B = {x | (x - 2)/(x)> 0 }$，则 $A inter B =$（ ）
 
-    {$\{x | 0 < x < 2\}$}
-  #choices([$\{x | -1 < x < 3\}$], [$\{x | x < 0 "\ 或\ "x > 2\}$], [$\{x | -1 < x < 0\}$], [$\{x | -1 < x < 0 "\ 或\ "2 < x < 3\}$], cols: 1)
+    {${x | 0 < x < 2}$}
+  #choices([${x | -1 < x < 3}$], [${x | x < 0 "\ 或\ "x > 2}$], [${x | -1 < x < 0}$], [${x | -1 < x < 0 "\ 或\ "2 < x < 3}$], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-由 $|x-1|<2$，得 $-1<x<3$. 又 $x\n e q0$，且
+由 $|x-1|<2$，得 $-1<x<3$. 又 $x != 0$，且
 
 $ (x-2)/(x)>0 $
 
@@ -152,8 +152,8 @@ $ C_8^2 C_7^3+C_8^3 C_7^2=28 dot 35 +56 dot 21 $
 #problem(10)[
 不等式 $(x^2 - x - 6)/(-x^2 - 1)> 0$ 的解集是（ ）
 
-    {$\{x | -3 < x < 2\}$}
-  #choices([$\{x | -2 < x < 3\}$], [$\{x | x < -2 "\ 或\ "x > 3\}$], [$\{x | -2 < x < + oo \}$], [$\{x | 3 < x < + oo \}$], cols: 2)
+    {${x | -3 < x < 2}$}
+  #choices([${x | -2 < x < 3}$], [${x | x < -2 "\ 或\ "x > 3}$], [${x | -2 < x < + oo }$], [${x | 3 < x < + oo }$], cols: 2)
 ]
 
 #answer([A])
@@ -277,7 +277,7 @@ $ 1+ sin 2 theta + cos 2 theta =2 cos theta ( sin theta + cos theta ) $
 #solution[
 因为
 $sqrt(1- cos ""^2 beta)=| sin beta |$，$sqrt(1- sin ""^2 beta)=| cos beta |$.
-在 $0\l e q beta <(pi)/(2)$ 内，$sin beta \g e q0$、$cos beta >0$，等式化为 $sin beta + cos beta = sin beta - cos beta$，因而要求 $cos beta =0$，该区间无解. 在 $(pi)/(2)\l e q beta \l e q pi$ 内，$sin beta \g e q0$、$cos beta \l e q0$，左边等于 $sin beta - cos beta$，所以整个区间都成立. 在 $pi < beta <(3 pi)/(2)$ 内，$sin beta <0$、$cos beta <0$，等式化为 $- sin beta - cos beta = sin beta - cos beta$，因而 $sin beta =0$，该开区间无解. $beta =(3 pi)/(2)$ 时左边为 $1$、右边为 $-1$，也不成立. 在 $(3 pi)/(2)< beta <2 pi$ 内，$sin beta <0$、$cos beta >0$，等式化为 $- sin beta + cos beta = sin beta - cos beta$，因而 $sin beta = cos beta$，与该区间的符号矛盾. 所以取值范围为 $[(pi)/(2), pi ]$，选 B.
+在 $0 <= beta <(pi)/(2)$ 内，$sin beta  >= 0$、$cos beta >0$，等式化为 $sin beta + cos beta = sin beta - cos beta$，因而要求 $cos beta =0$，该区间无解. 在 $(pi)/(2) <= beta  <= pi$ 内，$sin beta  >= 0$、$cos beta  <= 0$，左边等于 $sin beta - cos beta$，所以整个区间都成立. 在 $pi < beta <(3 pi)/(2)$ 内，$sin beta <0$、$cos beta <0$，等式化为 $- sin beta - cos beta = sin beta - cos beta$，因而 $sin beta =0$，该开区间无解. $beta =(3 pi)/(2)$ 时左边为 $1$、右边为 $-1$，也不成立. 在 $(3 pi)/(2)< beta <2 pi$ 内，$sin beta <0$、$cos beta >0$，等式化为 $- sin beta + cos beta = sin beta - cos beta$，因而 $sin beta = cos beta$，与该区间的符号矛盾. 所以取值范围为 $[(pi)/(2), pi ]$，选 B.
 ]
 
 #problem(18)[
@@ -307,7 +307,7 @@ $ cot (9 pi)/(8)=(1)/(sqrt(2)-1)=sqrt(2)+1 $
 #answer([B])
 
 #solution[
-令 $t= sin x$，则 $-1\l e q t\l e q1$，且 $cos ""^(2) x=1-t^2$. 原函数为
+令 $t= sin x$，则 $-1 <= t <= 1$，且 $cos ""^(2) x=1-t^2$. 原函数为
 
 $ y=-2(1-t^2)-2 t+(9)/(2)=2 t^2-2 t+(5)/(2)=2(t-(1)/(2))^2+2 $
 
@@ -324,7 +324,7 @@ $ y=-2(1-t^2)-2 t+(9)/(2)=2 t^2-2 t+(5)/(2)=2(t-(1)/(2))^2+2 $
 #answer([D])
 
 #solution[
-令 $u=(x+1)^2$，则 $u\g e q0$，且抛物线给出 $y=1-u$. 代入椭圆方程，得
+令 $u=(x+1)^2$，则 $u >= 0$，且抛物线给出 $y=1-u$. 代入椭圆方程，得
 $(u)/(4)+(1-u)^2=1$，$u(u-(7)/(4))=0$.
 当 $u=0$ 时，得到一个交点 $(-1,1)$；当 $u=(7)/(4)$ 时，$x+1= +- (sqrt(7))/(2)$，得到两个交点. 因此共有 $3$ 个交点，选 D.
 ]
@@ -343,7 +343,7 @@ $(u)/(4)+(1-u)^2=1$，$u(u-(7)/(4))=0$.
 
 $ sqrt((x+2)^2+y^2)=|x-2|+2 $
 
-若 $x\l e q2$，平方并化简得 $y^2+12 x-12=0$；若 $x>2$，则平方后得 $y^2+4 x+4=0$，与 $x>2$ 矛盾. 所以轨迹方程为 $y^2+12 x-12=0$，选 D.
+若 $x <= 2$，平方并化简得 $y^2+12 x-12=0$；若 $x>2$，则平方后得 $y^2+4 x+4=0$，与 $x>2$ 矛盾. 所以轨迹方程为 $y^2+12 x-12=0$，选 D.
 ]
 
 #problem(22)[
@@ -373,7 +373,7 @@ $ 1+(k+2)^2=1+k^2 $
 #answer([E])
 
 #solution[
-函数的导数为 $y'= cos x- sin x=sqrt(2) cos (x+(pi)/(4))$. 在 $x in [0,2 pi )$ 内，$y'\l e q0$ 的连续区间为 $[(pi)/(4),(5 pi)/(4)]$，且在内部除端点外严格小于零，所以函数在该区间上为减函数. 因此选取最后一个选项.
+函数的导数为 $y'= cos x- sin x=sqrt(2) cos (x+(pi)/(4))$. 在 $x in [0,2 pi )$ 内，$y' <= 0$ 的连续区间为 $[(pi)/(4),(5 pi)/(4)]$，且在内部除端点外严格小于零，所以函数在该区间上为减函数. 因此选取最后一个选项.
 ]
 
 #problem(24)[
@@ -410,10 +410,10 @@ $ P X^2=P H^2+H X^2 $
 $ d(P,L_i)^2=P H^2+d(H,L_i)^2 $
 
 因此题设等价于 $H$ 到三条边线段的距离相等. 下面排除最近点是端点的情形：若 $A$ 是 $A B$ 的最近点，记公共距离为 $r=H A$. 因为 $A in A C$，且 $d(H,A C)=r$，所以 $A$ 也是 $A C$ 的最近点，从而
-$(H-A) dot (B-A)\l e q0$，$(H-A) dot (C-A)\l e q0$.
-对 $B C$ 上任一点 $T$，可写成 $T=(1-t)B+t C$（$0\l e q t\l e q1$），于是
+$(H-A) dot (B-A) <= 0$，$(H-A) dot (C-A) <= 0$.
+对 $B C$ 上任一点 $T$，可写成 $T=(1-t)B+t C$（$0 <= t <= 1$），于是
 
-$ (H-A) dot (T-A)\l e q0 $
+$ (H-A) dot (T-A) <= 0 $
 
 且 $T != A$. 因而
 
@@ -531,7 +531,7 @@ $(sin 2 theta - cos 2 theta)/(1+ cos ""^2 theta)=((4)/(5)-(-(3)/(5)))/(1+(1)/(5)
 ]
 
 #problem(34)[
-若等差数列 $\{a_(n)\}$ 的公差为正数，且 $a_(3) dot a_(7) = -12$，$a_(4) + a_(6) = -4$，则前$20$项之和 $S_(20)$ 的值是#blank(){}.
+若等差数列 ${a_(n)}$ 的公差为正数，且 $a_(3) dot a_(7) = -12$，$a_(4) + a_(6) = -4$，则前$20$项之和 $S_(20)$ 的值是#blank(){}.
 ]
 
 #answer([$180$])
@@ -597,7 +597,7 @@ $ S_( triangle S D E)=(1)/(2)S D dot D E=(a)/(16)sqrt(8 b^2-2 a^2) $
 
 
 + (1) 把 $z$ 表示成三角形式；
-+ (2) 设数列 $\{b_n\}$ 的通项公式是 $b_n = |z^(n+1) - z^n|$，求和：$b_1 + b_2 + dots.c + b_n$.
++ (2) 设数列 ${b_n}$ 的通项公式是 $b_n = |z^(n+1) - z^n|$，求和：$b_1 + b_2 + dots.c + b_n$.
 ]
 
 #solution[
@@ -605,12 +605,12 @@ $ S_( triangle S D E)=(1)/(2)S D dot D E=(a)/(16)sqrt(8 b^2-2 a^2) $
 
 
 由于 $0< alpha < pi$，故 $sin (alpha)/(2)>0$，这就是 $z$ 的三角形式.
-+ (2) 由（1）知 $|z|=2 sin (alpha)/(2)$. 又 $b_n=|z^n(z-1)|=|z|^n|z-1|=2^n sin ""^n(alpha)/(2)$，因为 $|z-1|=sqrt(cos ""^2 alpha + sin ""^2 alpha)=1$. 因此，数列 $\{b_n\}$ 是以 $2 sin (alpha)/(2)$ 为首项和公比的等比数列. 于是
++ (2) 由（1）知 $|z|=2 sin (alpha)/(2)$. 又 $b_n=|z^n(z-1)|=|z|^n|z-1|=2^n sin ""^n(alpha)/(2)$，因为 $|z-1|=sqrt(cos ""^2 alpha + sin ""^2 alpha)=1$. 因此，数列 ${b_n}$ 是以 $2 sin (alpha)/(2)$ 为首项和公比的等比数列. 于是
 
-$ S_n=b_1+b_2+ dots.c +b_n= \b e g i n{c a s e s} n, & sin (alpha)/(2)=(1)/(2),\\[4 p t] 2 sin (alpha)/(2)(1-2^n sin ""^n(alpha)/(2))/(1-2 sin (alpha)/(2)), & sin (alpha)/(2) != (1)/(2). \e n d{c a s e s} $
+$ S_n=b_1+b_2+ dots.c +b_n= \b e g i n{c a s e s} n, & sin (alpha)/(2)=(1)/(2),\$ 4 p t] 2 sin (alpha)/(2)(1-2^n sin ""^n(alpha)/(2))/(1-2 sin (alpha)/(2)), & sin (alpha)/(2) != (1)/(2). \e n d{c a s e s} $
 
 
-$ "即"S_n= \b e g i n{c a s e s} n, & alpha =(pi)/(3),\\[4 p t] 2 sin (alpha)/(2)(1-2^n sin ""^n(alpha)/(2))/(1-2 sin (alpha)/(2)), & alpha != (pi)/(3),\ 0< alpha < pi . \e n d{c a s e s} $
+$ "即"S_n= \b e g i n{c a s e s} n, & alpha =(pi)/(3),\$ 4 p t] 2 sin (alpha)/(2)(1-2^n sin ""^n(alpha)/(2))/(1-2 sin (alpha)/(2)), & alpha != (pi)/(3),\ 0< alpha < pi . \e n d{c a s e s} $
 ]
 
 #problem(39)[

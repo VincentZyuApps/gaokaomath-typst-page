@@ -11,16 +11,16 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $A = \{x | |x| <= 2 , x in RR \}$，$B = \{x | sqrt(x) <= 4 , x in ZZ \}$，则 $A inter B =$（ ）
-  #choices([$(0,2)$], [$[0,2]$], [$\{0,2\}$], [$\{0,1,2\}$], cols: 4)
+已知集合 $A = {x | |x| <= 2 , x in RR }$，$B = {x | sqrt(x) <= 4 , x in ZZ }$，则 $A inter B =$（ ）
+  #choices([$(0,2)$], [$[0,2]$], [${0,2}$], [${0,1,2}$], cols: 4)
 ]
 
 #answer([D.])
 
 #solution[
-由 $sqrt(x)$ 有意义且 $sqrt(x) <= 4$，得 $0 <= x <= 16$. 结合 $x in ZZ$，有 $B=\{0,1,2,\l d o t s,16\}$. 又 $A=[-2,2]$，所以
+由 $sqrt(x)$ 有意义且 $sqrt(x) <= 4$，得 $0 <= x <= 16$. 结合 $x in ZZ$，有 $B={0,1,2,\l d o t s,16}$. 又 $A=[-2,2]$，所以
 
-$ A inter B=\{0,1,2\} $
+$ A inter B={0,1,2} $
 
 故选 D.
 ]
@@ -134,8 +134,8 @@ $ S=sum_(k=1)^(5)(1)/(k(k+1))=sum_(k=1)^(5)((1)/(k)-(1)/(k+1)) =1-(1)/(6)=(5)/(6
 ]
 
 #problem(8)[
-设偶函数 $f(x)$ 满足 $f(x) = x^3 - 8$（$x >= 0$），则 $\{x | f(x - 2) > 0\} =$（ ）
-  #choices([$\{x | x < -2 "或"x > 4\}$], [$\{x | x < 0 "或"x > 4\}$], [$\{x | x < 0 "或"x > 6\}$], [$\{x | x < -2 "或"x > 2\}$], cols: 2)
+设偶函数 $f(x)$ 满足 $f(x) = x^3 - 8$（$x >= 0$），则 ${x | f(x - 2) > 0} =$（ ）
+  #choices([${x | x < -2 "或"x > 4}$], [${x | x < 0 "或"x > 4}$], [${x | x < 0 "或"x > 6}$], [${x | x < -2 "或"x > 2}$], cols: 2)
 ]
 
 #answer([B.])
@@ -339,11 +339,11 @@ $ cos angle B A C =(A B^2+A C^2-B C^2)/(2 A B dot A C)=(6 t)/(12 t)=(1)/(2) $
 #part-header("解答题")
 
 #problem(17)[
-设数列 $\{a_(n)\}$ 满足 $a_(1) = 2$，$a_(n+1) - a_(n) = 3 dot 2 ""^(2 n-1)$.
+设数列 ${a_(n)}$ 满足 $a_(1) = 2$，$a_(n+1) - a_(n) = 3 dot 2 ""^(2 n-1)$.
 
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 令 $b_(n) = n a_(n)$，求数列 $\{b_(n)\}$ 的前 $n$ 项和 $S_(n)$.
++ (1) 求数列 ${a_(n)}$ 的通项公式；
++ (2) 令 $b_(n) = n a_(n)$，求数列 ${b_(n)}$ 的前 $n$ 项和 $S_(n)$.
 ]
 
 #solution[
@@ -356,21 +356,21 @@ $ a_n=a_1+sum_(k=1)^(n-1)(a_(k+1)-a_k) =2+sum_(k=1)^(n-1)3 dot 2 ""^(2 k-1) $
 $ a_n=2+(3)/(2)sum_(k=1)^(n-1)4^k =2+(3)/(2) dot (4(4^(n-1)-1))/(4-1)=2 dot 4 ""^(n-1)=2^(2 n-1) $
 
 因此数列的通项公式为 $a_n=2^(2 n-1)$.
-+ (2) 又 $b_n=n a_n=n2^(2 n-1)=(n4^n)/(2)$，于是
++ (2) 又 $b_n=n a_n=n dot 2^(2 n-1)=(n dot 4^n)/(2)$，于是
 
-$ S_n=(1)/(2)sum_(k=1)^(n)k4^k $
+$ S_n=(1)/(2)sum_(k=1)^(n)k dot 4^k $
 
-令 $T_n=sum_(k=1)^(n)k4^k$，则
+令 $T_n=sum_(k=1)^(n)k dot 4^k$，则
 
-$ 4 T_n=sum_(k=1)^(n)k4^(k+1)=sum_(k=2)^(n+1)(k-1)4^k $
+$ 4 T_n=sum_(k=1)^(n)k dot 4^(k+1)=sum_(k=2)^(n+1)(k-1)4^k $
 
 两式相减得
 
-$ 3 T_n=n4^(n+1)-sum_(k=1)^(n)4^k =n4^(n+1)-(4(4^n-1))/(3) $
+$ 3 T_n=n dot 4^(n+1)-sum_(k=1)^(n)4^k =n dot 4^(n+1)-(4(4^n-1))/(3) $
 
 从而
 $T_n=(4+(3 n-1)4^(n+1))/(9)$，$S_n=(2+2(3 n-1)4^n)/(9)$.
-所以 $\{b_n\}$ 的前 $n$ 项和为
+所以 ${b_n}$ 的前 $n$ 项和为
 
 $ S_n=(2((3 n-1)4^n+1))/(9) $
 ]
@@ -437,21 +437,7 @@ $ sin theta =(2 u v)/(2 u dot 2 sqrt(2)v)=(sqrt(2))/(4) $
 \small
 \setlength{\tabcolsep}{0.8em}
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{|c|c|c|}
-\hline
-\makebox[3.6cm][l]{%
-  \rule[-18.82pt]{0pt}{43.12pt}%
-  \smash{\rlap{\raisebox{1.05cm}{\hspace{-0.3cm}\rotatebox{-19.75}{\rule{4.49cm}{0.4pt}}}}}%
-  \rlap{\raisebox{0.74cm}{\hspace{2.6cm}性别}}%
-  \rlap{\raisebox{-0.4cm}{\hspace{0.12cm}是否需要志愿者}}%
-}
-& 男 & 女 \\
-\hline
-需要 & $40$ & $30$ \\
-\hline
-不需要 & $160$ & $270$ \\
-\hline
-\end{tabular}
+[（表格数据详见在线交互版）]
 \end{center}
 
 
@@ -462,11 +448,7 @@ $ sin theta =(2 u v)/(2 u dot 2 sqrt(2)v)=(sqrt(2))/(4) $
 
 附：
 \begin{center}
-\begin{tabular}{c|c c c}
-$P(K^2 >= k)$ & $0.050$ & $0.010$ & $0.001$ \\
-\hline
-$k$ & $3.841$ & $6.635$ & $10.828$
-\end{tabular}
+[（表格数据详见在线交互版）]
 \end{center}
 
 \begin{center}

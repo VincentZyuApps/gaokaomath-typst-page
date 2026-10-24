@@ -11,14 +11,14 @@
 #part-header("单选题")
 
 #problem(1)[
-设集合 $U= RR$，集合 $M=\{x | x>1\}$，$P=\{x | x^2>1\}$，则下列关系中正确的是（ ）
+设集合 $U= RR$，集合 $M={x | x>1}$，$P={x | x^2>1}$，则下列关系中正确的是（ ）
 
 B
   #choices([$M=P$], [$P not subset.eq M$], [$M not subset.eq P$], [$M inter P= RR$], cols: 2)
 ]
 
 #solution[
-由 $x^2>1$ 得 $x<-1$ 或 $x>1$，所以 $P=(- oo ,-1) union (1,+ oo )$，而 $M=(1,+ oo )$. 因此 $M subset.eq P$，但 $P not subset.eq M$，故选 B.
+由 $x^2>1$ 得 $x1$，所以 $P=(- oo ,-1) union (1,+ oo )$，而 $M=(1,+ oo )$. 因此 $M subset.eq P$，但 $P not subset.eq M$，故选 B.
 ]
 
 #problem(2)[
@@ -69,72 +69,8 @@ B
 对任意的锐角 $alpha$，$beta$，下列不等关系中正确的是（ ）
 
 D
-  #choices([$sin ( alpha + beta )> sin alpha + sin beta$], [$sin ( alpha + beta )> cos alpha + cos beta$], [$cos ( alpha + beta )< sin alpha + sin beta$], [$cos ( alpha + beta )< cos alpha + cos beta$], cols: 1)
-]
-
-#solution[
-因为 $alpha$，$beta$ 都是锐角，所以
-$sin ( alpha + beta )- sin alpha - sin beta = sin alpha ( cos beta -1)+ sin beta ( cos alpha -1)<0$，故 A 不成立.
-
-取 $alpha = beta =30^( degree )$，则 $sin ( alpha + beta )=(sqrt(3))/(2)<sqrt(3)= cos alpha + cos beta$，故 B 不成立. 取 $alpha = beta =15^( degree )$，则 $cos ( alpha + beta )=(sqrt(3))/(2)$，而 $sin alpha + sin beta =2 sin 15 ""^( degree )=(sqrt(6)-sqrt(2))/(2)<(sqrt(3))/(2)$，故 C 也不成立.
-
-另一方面，$cos alpha >0$，$cos beta >0$，且
-$cos ( alpha + beta )= cos alpha cos beta - sin alpha sin beta < cos alpha cos beta < cos alpha + cos beta$，所以 D 正确.
-]
-
-#problem(7)[
-在正四面体 $P-A B C$ 中，$D$，$E$，$F$ 分别是 $A B$，$B C$，$C A$ 的中点，下面四个结论中不成立的是（ ）
-
-C
-  #choices([$B C parallel$ 平面 $P D F$], [$D F bot$ 平面 $P A E$], [平面 $P D F$$bot$ 平面 $A B C$], [平面 $P A E$$bot$ 平面 $A B C$], cols: 2)
-]
-
-#solution[
-在正三角形 $A B C$ 中，$D$，$E$，$F$ 分别是 $A B$，$B C$，$C A$ 的中点，所以 $D F parallel B C$. 又 $P in.not$ 平面 $A B C$，而平面 $P D F$ 与平面 $A B C$ 的交线为 $D F$，故 $C in.not$ 平面 $P D F$. 因此 $B C parallel$ 平面 $P D F$，结论 A 成立.
-
-设 $O$ 是正三角形 $A B C$ 的中心. 因为 $A E bot B C$，且 $D F parallel B C$，所以 $D F bot A E$. 又正四面体的高 $P O bot$ 平面 $A B C$，且 $O in A E$，所以 $P O$ 在平面 $P A E$ 内. 令 $Q=A E inter D F$，过 $Q$ 作直线 $q parallel P O$，则 $q subset$ 平面 $P A E$，并且 $D F bot q$. 直线 $A E$ 与 $q$ 在 $Q$ 相交，故由直线与平面垂直的判定定理，$D F bot$ 平面 $P A E$，结论 B 成立. 又因为平面 $P A E$ 内的直线 $P O bot$ 平面 $A B C$，所以平面 $P A E bot$ 平面 $A B C$，结论 D 成立.
-
-验证结论 C 不成立. 取棱长为 $2$，建立直角坐标系，使 $B=(-1,0,0)$，$C=(1,0,0)$，$A=(0,sqrt(3),0)$，$P=(0,(sqrt(3))/(3),(2 sqrt(6))/(3))$. 则 $D=(-(1)/(2),(sqrt(3))/(2),0)$，$F=((1)/(2),(sqrt(3))/(2),0)$，从而 $arrow(D F)=(1,0,0)$，$arrow(D P)=((1)/(2),-(sqrt(3))/(6),(2 sqrt(6))/(3))$. 平面 $P D F$ 的一个法向量为 $arrow(D F)\t i m e s a r r o w(D P)=(0,-(2 sqrt(6))/(3),-(sqrt(3))/(6))$，它与平面 $A B C$ 的法向量 $(0,0,1)$ 的内积不为 $0$，故两平面不垂直. 因此不成立的是 C.
-]
-
-#problem(8)[
-五个工程队承建某项工程的 $5$ 个不同的子项目，每个工程队承建 $1$ 项，其中甲工程队不能承建 $1$ 号子项目，则不同的承建方案共有（ ）
-
-B
-  #choices([$C_4^1 C_4^4$种], [$C_4^1 A_4^4$种], [$C_4^4$种], [$A_4^4$种], cols: 4)
-]
-
-#solution[
-若不考虑限制条件，把 $5$ 个工程队分配给 $5$ 个不同子项目，共有 $5!=120$ 种方案. 甲工程队承建 $1$ 号子项目时，其他 $4$ 个工程队分配给其余 $4$ 个子项目，有 $4!=24$ 种方案. 因此符合条件的方案数为 $5!-4!=120-24=96$. 又 $C_4^1 A_4^4=4 times 24 =96$，故选 B.
-]
-
-#part-header("填空题")
-
-#problem(9)[
-抛物线 $y^2=4 x$ 的准线方程是#blank(){}，焦点坐标是#blank(){}.
-$x=-1$，$(1,0)$
-]
-
-#solution[
-抛物线的标准方程为 $y^2=4 p x$. 与 $y^2=4 x$ 比较得 $p=1$，所以准线方程为 $x=-p=-1$，焦点为 $(p,0)=(1,0)$.
-]
-
-#problem(10)[
-$(x-(1)/(x))^6$ 的展开式中的常数项是#blank(){}.（用数字作答）
-$-20$
-]
-
-#solution[
-展开式的通项为 $C_6^k x^(6-k)(-x^(-1))^k=C_6^k(-1)^k x^(6-2 k)$. 要得到常数项，必须有 $6-2 k=0$，即 $k=3$，所以常数项为 $C_6^3(-1)^3=-20$.
-]
-
-#problem(11)[
-函数 $f(x)=sqrt(x+1)+(1)/(2-x)$ 的定义域为#blank(){}.
-$[-1,2) union (2,+ oo )$
-]
-
-#solution[
-根式有意义要求 $x+1 >= 0$，即 $x >= -1$；分式有意义要求 $2-x\n e q0$，即 $x\n e q2$. 合并得定义域为 $[-1,2) union (2,+ oo )$.
+  #choices([$sin ( alpha + beta )> sin alpha + sin beta$], [$sin ( alpha + beta )> cos alpha + cos beta$], [$cos ( alpha + beta )0$，$cos beta >0$，且
+$cos ( alpha + beta )= cos alpha cos beta - sin alpha sin beta = 0$，即 $x >= -1$；分式有意义要求 $2-x != 0$，即 $x != 2$. 合并得定义域为 $[-1,2) union (2,+ oo )$.
 ]
 
 #problem(12)[
@@ -143,7 +79,7 @@ $sqrt(2)$
 ]
 
 #solution[
-由三角形内角和得 $angle B=180^( degree )-45^( degree )-75^( degree )=60^( degree )$. 由正弦定理，$(B C)/(sin 45 ""^( degree ))=(A C)/(sin 60 ""^( degree ))$，所以 $B C=sqrt(3) dot (sqrt(2))/(2)\div(sqrt(3))/(2)=sqrt(2)$.
+由三角形内角和得 $angle B=180^( degree )-45^( degree )-75^( degree )=60^( degree )$. 由正弦定理，$(B C)/(sin 45 ""^( degree ))=(A C)/(sin 60 ""^( degree ))$，所以 $B C=sqrt(3) dot (sqrt(2))/(2)div(sqrt(3))/(2)=sqrt(2)$.
 ]
 
 #problem(13)[
@@ -153,17 +89,9 @@ $sqrt(2)$
 \item $f(x_1+x_2)=f(x_1) dot f(x_2)$；
 \item $f(x_1 dot x_2)=f(x_1)+f(x_2)$；
 \item $(f(x_1)-f(x_2))/(x_1-x_2)>0$；
-\item $f((x_1+x_2)/(2))<(f(x_1)+f(x_2))/(2)$.
-\end{circlelist}
+\item $f((x_1+x_2)/(2))0$，右边为 $ lg 1  dot  lg 2 =0$. 结论 $"[2]"$ 成立，因为 $ lg (x_(1) x_2)= lg x _1+ lg x _2$.
 
-当 $f(x)=\l g x$ 时，上述结论中正确结论的序号是#blank(){}.
-$"[2]""[3]"$
-]
-
-#solution[
-因为 $f(x)=\l g x$ 的定义域为 $(0,+ oo )$. 结论 $"[1]"$ 一般不成立，例如取 $x_1=1$，$x_2=2$ 时，左边为 $\l g3>0$，右边为 $\l g1 dot \l g2=0$. 结论 $"[2]"$ 成立，因为 $\l g(x_(1) x_2)=\l g x_1+\l g x_2$.
-
-函数 $f(x)=\l g x$ 在 $(0,+ oo )$ 上单调递增，所以当 $x_1 != x_2$ 时，$(\l g x_1-\l g x_2)/(x_1-x_2)>0$，结论 $"[3]"$ 成立. 又因 $x_1$，$x_2$ 为正数且 $x_1 != x_2$，由算术—几何平均不等式得 $(x_1+x_2)/(2)>sqrt(x_(1) x_2)$，从而 $\l g((x_1+x_2)/(2))>\l g s q r t(x_(1) x_2)=(1)/(2)\l g(x_(1) x_2)=(\l g x_1+\l g x_2)/(2)$，结论 $"[4]"$ 的不等号方向相反. 因此正确结论的序号是 $"[2]"$、$"[3]"$.
+函数 $f(x)= lg x $ 在 $(0,+ oo )$ 上单调递增，所以当 $x_1 != x_2$ 时，$( lg x _1- lg x _2)/(x_1-x_2)>0$，结论 $"[3]"$ 成立. 又因 $x_1$，$x_2$ 为正数且 $x_1 != x_2$，由算术—几何平均不等式得 $(x_1+x_2)/(2)>sqrt(x_(1) x_2)$，从而 $ lg ((x_1+x_2)/(2))> lg s  q r t(x_(1) x_2)=(1)/(2) lg (x_(1) x_2)=( lg x _1+ lg x _2)/(2)$，结论 $"[4]"$ 的不等号方向相反. 因此正确结论的序号是 $"[2]"$、$"[3]"$.
 ]
 
 #problem(14)[
@@ -222,10 +150,10 @@ $65$，$20$
 ]
 
 #problem(17)[
-数列 $\{a_n\}$ 的前 $n$ 项和为 $S_n$，且 $a_1=1$，$a_(n+1)=(1)/(3)S_n$，$n=1$，$2$，$3$，$dots.c$，求：
+数列 ${a_n}$ 的前 $n$ 项和为 $S_n$，且 $a_1=1$，$a_(n+1)=(1)/(3)S_n$，$n=1$，$2$，$3$，$dots.c$，求：
 
 
-+ (1) $a_2$，$a_3$，$a_4$ 的值及数列 $\{a_n\}$ 的通项公式；
++ (1) $a_2$，$a_3$，$a_4$ 的值及数列 ${a_n}$ 的通项公式；
 + (2) $a_2+a_4+a_6+ dots.c +a_(2 n)$ 的值.
 ]
 
@@ -258,12 +186,7 @@ $65$，$20$
 ]
 
 #solution[
-+ (1) $f'(x)=-3 x^2+6 x+9=-3(x-3)(x+1)$. 当 $x<-1$ 或 $x>3$ 时，$f'(x)<0$，所以 $f(x)$ 的单调减区间为 $(- oo ,-1)$ 和 $(3,+ oo )$.
-+ (2) 在 $[-2,2]$ 上，$f(x)$ 在 $[-2,-1]$ 上递减，在 $[-1,2]$ 上递增，因此最大值取在端点. 又 $f(-2)=a+2$，$f(2)=a+22$，所以最大值为 $a+22=20$，得 $a=-2$. 最小值取在 $x=-1$，为 $f(-1)=1+3-9-2=-7$.
-]
-
-#problem(20)[
-如图，直线 $l_1:y=k x$（$k>0$）与直线 $l_2:y=-k x$ 之间的阴影区域（不含边界）记为 $W$，其左半部分记为 $W_1$，右半部分记为 $W_2$.
++ (1) $f'(x)=-3 x^2+6 x+9=-3(x-3)(x+1)$. 当 $x3$ 时，$f'(x)0$）与直线 $l_2:y=-k x$ 之间的阴影区域（不含边界）记为 $W$，其左半部分记为 $W_1$，右半部分记为 $W_2$.
 
 
 + (1) 分别用不等式组表示 $W_1$ 和 $W_2$；
@@ -276,14 +199,14 @@ $65$，$20$
 ]
 
 #solution[
-+ (1) 当 $x<0$ 时，$k x<y<-k x$，所以 $W_1=\{(x,y) | k x<y<-k x,\ x<0\}$；当 $x>0$ 时，$-k x<y<k x$，所以 $W_2=\{(x,y) | -k x<y<k x,\ x>0\}$.
++ (1) 当 $x0$ 时，$-k x0}$.
 + (2) 两直线的方程分别为 $k x-y=0$ 和 $k x+y=0$，所以点 $P(x,y)$ 到它们的距离之积为 $(|k x-y||k x+y|)/(k^2+1)$. 在区域 $W$ 内有 $y^2<k^(2) x^2$，从而 $k^(2) x^2-y^2=(k^2+1)d^2$，即轨迹 $C$ 的方程为 $k^(2) x^2-y^2-(k^2+1)d^2=0$.
-+ (3) 先设 $l$ 不是竖直直线，写成 $y=m x+b$. 因 $l$ 不过原点，$b\n e q0$；又因 $l$ 与双曲线 $C$ 有两个交点，$m != +- k$. 把 $y=m x+b$ 代入 $C$，交点横坐标 $x_1$，$x_2$ 是方程
++ (3) 先设 $l$ 不是竖直直线，写成 $y=m x+b$. 因 $l$ 不过原点，$b != 0$；又因 $l$ 与双曲线 $C$ 有两个交点，$m != +- k$. 把 $y=m x+b$ 代入 $C$，交点横坐标 $x_1$，$x_2$ 是方程
 $(k^2-m^2)x^2-2 m b x-[b^2+(k^2+1)d^2]=0$
 的两个根，所以 $x_1+x_2=(2 m b)/(k^2-m^2)$.
 
 直线 $l$ 与 $l_1$，$l_2$ 的交点横坐标分别为 $x_3=(b)/(k-m)$，$x_4=-(b)/(m+k)$，从而 $x_3+x_4=(2 m b)/(k^2-m^2)=x_1+x_2$. 由于四点都在直线 $l$ 上，$y_i=m x_i+b$，故 $y_1+y_2=m(x_1+x_2)+2 b=m(x_3+x_4)+2 b=y_3+y_4$. 于是两个三角形的三个顶点坐标和相同，且都含有顶点 $O$，所以它们的重心坐标分别为 $((x_1+x_2)/(3),(y_1+y_2)/(3))$ 和 $((x_3+x_4)/(3),(y_3+y_4)/(3))$，二者相同.
 
-若 $l$ 是竖直直线 $x=c$，因 $l$ 不过原点有 $c\n e q0$. 曲线 $C$ 与它的两个交点的纵坐标互为相反数，故 $y_1+y_2=0$；而 $M_3=(c,k c)$，$M_4=(c,-k c)$，也有 $y_3+y_4=0$，并且 $x_1+x_2=x_3+x_4=2 c$. 因此这时两个三角形的重心也重合.
+若 $l$ 是竖直直线 $x=c$，因 $l$ 不过原点有 $c != 0$. 曲线 $C$ 与它的两个交点的纵坐标互为相反数，故 $y_1+y_2=0$；而 $M_3=(c,k c)$，$M_4=(c,-k c)$，也有 $y_3+y_4=0$，并且 $x_1+x_2=x_3+x_4=2 c$. 因此这时两个三角形的重心也重合.
 ]
 

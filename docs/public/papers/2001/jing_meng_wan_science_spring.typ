@@ -11,7 +11,7 @@
 #part-header("单选题")
 
 #problem(1)[
-集合 $M = \{1, 2, 3, 4, 5\}$ 的子集个数是（$$）
+集合 $M = {1, 2, 3, 4, 5}$ 的子集个数是（$$）
   #choices([$32$], [$31$], [$16$], [$15$], cols: 4)
 ]
 
@@ -22,7 +22,7 @@
 ]
 
 #problem(2)[
-函数 $f(x)=a^x$（$a>0$，$a\n e q1$）对于任意的实数 $x$，$y$ 都有（$$）
+函数 $f(x)=a^x$（$a>0$，$a != 1$）对于任意的实数 $x$，$y$ 都有（$$）
   #choices([$f(x y) = f(x)f(y)$], [$f(x y) = f(x) + f(y)$], [$f(x + y) = f(x)f(y)$], [$f(x + y) = f(x) + f(y)$], cols: 2)
 ]
 
@@ -329,28 +329,28 @@ $ f(x_1)-f(x_2)=((x_1+a)(x_2+b)-(x_2+a)(x_1+b))/((x_1+b)(x_2+b))=((b-a)(x_1-x_2)
 ]
 
 #problem(18)[
-已知 $z^(7)=1$（$z\i n b o l d(C)$，$z\n e q1$）.
+已知 $z^(7)=1$（$z\i n b o l d(C)$，$z != 1$）.
 
 + (1) 证明 $1 + z + z^2 + z^3 + z^4 + z^5 + z^6 = 0$；
 + (2) 设 $z$ 的辐角为 $alpha$，求 $cos alpha + cos 2 alpha + cos 4 alpha$ 的值.
 ]
 
 #solution[
-由 $z^7=1$ 且 $z\n e q1$，有
+由 $z^7=1$ 且 $z != 1$，有
 
 $ 0=z^7-1=(z-1)(1+z+z^2+z^3+z^4+z^5+z^6) $
 
-因 $z-1\n e q0$，所以 $1+z+z^2+z^3+z^4+z^5+z^6=0$.
+因 $z-1 != 0$，所以 $1+z+z^2+z^3+z^4+z^5+z^6=0$.
 
 又因 $z$ 是单位复数，且 $\a r g z= alpha$，所以
 
 $ cos alpha + cos 2 alpha + cos 4 alpha =\m a t h o p{\r m R e}(z+z^2+z^4) $
 
-令 $T=z+z^2+z^4$. 由 $z^7=1$ 得 $\overline z=z^6$，于是
+令 $T=z+z^2+z^4$. 由 $z^7=1$ 得 $overline(z)=z^6$，于是
 
-$ \overline T=z^6+z^5+z^3 $
+$ overline(T)=z^6+z^5+z^3 $
 
-利用前一问结论，$T+\overline T=z+z^2+ dots.c +z^6=-1$. 因而 $2\m a t h o p{\r m R e}T=-1$，所求值为 $-(1)/(2)$.
+利用前一问结论，$T+overline(T)=z+z^2+ dots.c +z^6=-1$. 因而 $2\m a t h o p{\r m R e}T=-1$，所求值为 $-(1)/(2)$.
 ]
 
 #problem(19)[
@@ -398,7 +398,7 @@ $ V_(M A B C)=(1)/(3) dot (1)/(2)a c dot c sin theta cos theta =(a c^2 sin theta
 #problem(20)[
 在 $1$ 与 $2$ 之间插入 $n$ 个正数 $a_(1)$，$a_(2)$，$a_(3)$，$dots.c$，$a_(n)$，使这 $n+2$ 个数变成等比数列；又在 $1$ 与 $2$ 之间插入 $n$ 个正数 $b_(1)$，$b_(2)$，$b_(3)$，$dots.c$，$b_(n)$，使这 $n+2$ 个数成等差数列. 记 $A_(n) = a_(1)a_(2)a_(3) dots.c a_(n)$，$B_(n) = b_(1) + b_(2) + b_(3) + dots.c + b_(n)$.
 
-+ (1) 求数列 $\{A_(n)\}$ 和 $\{B_(n)\}$ 的通项；
++ (1) 求数列 ${A_(n)}$ 和 ${B_(n)}$ 的通项；
 + (2) 当 $n >= 7$ 时，比较 $A_(n)$ 与 $B_(n)$ 的大小，并证明你的结论.
 ]
 

@@ -63,7 +63,7 @@ $(V_("柱"))/(V_("球"))=((1)/(4) pi d^3)/((1)/(6) pi d^3)=(3)/(2)$.
 ]
 
 #problem(6)[
-在无穷等比数列 $\{a_n\}$ 中，$a_1 = 3 sqrt(3)$，$a_3 = sqrt(3)$. 则 $lim_(n -> oo )(a_1 + a_3 + a_5 + dots.c + a_(2 n-1)) =$#blank(){}.
+在无穷等比数列 ${a_n}$ 中，$a_1 = 3 sqrt(3)$，$a_3 = sqrt(3)$. 则 $lim_(n -> oo )(a_1 + a_3 + a_5 + dots.c + a_(2 n-1)) =$#blank(){}.
 ]
 
 #answer([$(9)/(2)sqrt(3)$])
@@ -121,19 +121,19 @@ $rho ""^2+8 rho cos theta =0$，即 $rho ( rho +8 cos theta )=0$. 其中 $rho =0
 #part-header("单选题")
 
 #problem(11)[
-若全集 $I = RR$，$A = \{x | sqrt(x + 1) <= 0 \}$，$B = \{x | \l g(x^2 - 2) = \l g x\}$，则 $A inter overline(B)$ 是（ ）
-  #choices([$\{2\}$], [$\{-1\}$], [$\{x | x <= -1\}$], [$emptyset$], cols: 2)
+若全集 $I = RR$，$A = {x | sqrt(x + 1) <= 0 }$，$B = {x | \l g(x^2 - 2) = \l g x}$，则 $A inter overline(B)$ 是（ ）
+  #choices([${2}$], [${-1}$], [${x | x <= -1}$], [$emptyset$], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-因为平方根非负，且定义域要求 $x+1 >= 0$，所以 $sqrt(x+1) <= 0$ 等价于 $sqrt(x+1)=0$，从而 $A=\{-1\}$. 对于 $B$，对数有意义要求 $x>0$ 且 $x^2-2>0$. 在此条件下
-$\l g(x^2-2)=\l g x <=> x^2-2=x <=> (x-2)(x+1)=0$. 结合 $x>sqrt(2)$，得 $B=\{2\}$. 因为 $-1\n e q2$，所以 $A inter \overline B=\{-1\}$，选 B.
+因为平方根非负，且定义域要求 $x+1 >= 0$，所以 $sqrt(x+1) <= 0$ 等价于 $sqrt(x+1)=0$，从而 $A={-1}$. 对于 $B$，对数有意义要求 $x>0$ 且 $x^2-2>0$. 在此条件下
+$\l g(x^2-2)=\l g x <=> x^2-2=x <=> (x-2)(x+1)=0$. 结合 $x>sqrt(2)$，得 $B={2}$. 因为 $-1 != 2$，所以 $A inter overline(B)={-1}$，选 B.
 ]
 
 #problem(12)[
-在等差数列 $\{a_n\}$ 中，若 $a_3 + a_4 + a_5 + a_6 + a_7 = 450$，则 $a_2 + a_8$ 的值等于（ ）
+在等差数列 ${a_n}$ 中，若 $a_3 + a_4 + a_5 + a_6 + a_7 = 450$，则 $a_2 + a_8$ 的值等于（ ）
   #choices([$45$], [$75$], [$180$], [$300$], cols: 4)
 ]
 
@@ -165,7 +165,7 @@ $c=sqrt(4^2-a^2-b^2)=sqrt(16-4-4)=2 sqrt(2)$. 所以长方体体积为 $a b c=8 
 #answer([C])
 
 #solution[
-函数 $y=x^(-1)=(1)/(x)$ 的定义域为 $x in RR \m a t h b i n{\b a c k s l a s h}\{0\}$，值域为 $y in RR \m a t h b i n{\b a c k s l a s h}\{0\}$. 当 $x>0$ 时 $y>0$，图象位于第一象限；当 $x<0$ 时 $y<0$，图象位于第三象限. 又因为 $x -> 0 ""^+$ 时 $y -> + oo$，$x -> 0 ""^-$ 时 $y -> - oo$，而 $x -> +- oo$ 时 $y -> 0$，所以 $x=0$ 和 $y=0$ 是两条渐近线，符合图 C.
+函数 $y=x^(-1)=(1)/(x)$ 的定义域为 $x in RR \m a t h b i n{\b a c k s l a s h}{0}$，值域为 $y in RR \m a t h b i n{\b a c k s l a s h}{0}$. 当 $x>0$ 时 $y>0$，图象位于第一象限；当 $x<0$ 时 $y<0$，图象位于第三象限. 又因为 $x -> 0 ""^+$ 时 $y -> + oo$，$x -> 0 ""^-$ 时 $y -> - oo$，而 $x -> +- oo$ 时 $y -> 0$，所以 $x=0$ 和 $y=0$ 是两条渐近线，符合图 C.
 ]
 
 #problem(15)[
@@ -299,7 +299,7 @@ $2^(\o d o t)$ 若 $-[( log _a x)^2 - 1] > 2 a - 1$，则 $( log _a x)^2 < 2(1 -
 
 综上，原不等式的解为
 
-$ \b e g i n{c a s e s} x > 0, & 0 < a < (1)/(2),\\[4 p t] 0 < x < (1)/(2)\ "或"\ (1)/(2)< x < 2\ "或"\ x > 2, & a = (1)/(2),\\[4 p t] 0 < x < a^(sqrt(2 a))\ "或"\ a^(sqrt(2(1 - a))) < x < a^(-sqrt(2(1 - a)))\ "或"\ x > a^(-sqrt(2 a)), & (1)/(2)< a < 1,\\[4 p t] 0 < x < a^(-sqrt(2 a))\ "或"\ x > a^(sqrt(2 a)), & a > 1. \e n d{c a s e s} $
+$ \b e g i n{c a s e s} x > 0, & 0 < a < (1)/(2),\$ 4 p t] 0 < x < (1)/(2)\ "或"\ (1)/(2)< x < 2\ "或"\ x > 2, & a = (1)/(2),\\[4 p t] 0 < x < a^(sqrt(2 a))\ "或"\ a^(sqrt(2(1 - a))) < x < a^(-sqrt(2(1 - a)))\ "或"\ x > a^(-sqrt(2 a)), & (1)/(2)< a < 1,\\[4 p t] 0 < x < a^(-sqrt(2 a))\ "或"\ x > a^(sqrt(2 a)), & a > 1. \e n d{c a s e s} $
 ]
 
 #problem(24)[
@@ -328,14 +328,14 @@ $H R=(H B dot D H)/(B D)=(sqrt(3))/(4)a$. 于是 $tan angle A R H=(A H)/(H R)=2$
 ]
 
 #solution[
-+ (1) 由题设辐角的定义，$z\n e q0$，可设 $z=r( cos theta + i sin theta )$，其中 $r>0$，$0 <= theta < pi$. 由 $|z- i |=1$ 得 $(r cos theta )^2+(r sin theta -1)^2=1$，即 $r^2-2 r sin theta =0$. 因为 $r>0$，所以 $r=2 sin theta$，从而 $0< theta < pi$. 进一步，
++ (1) 由题设辐角的定义，$z != 0$，可设 $z=r( cos theta + i sin theta )$，其中 $r>0$，$0 <= theta < pi$. 由 $|z- i |=1$ 得 $(r cos theta )^2+(r sin theta -1)^2=1$，即 $r^2-2 r sin theta =0$. 因为 $r>0$，所以 $r=2 sin theta$，从而 $0< theta < pi$. 进一步，
 $z- i =2 sin theta ( cos theta + i sin theta )- i = sin 2 theta - i cos 2 theta = cos (2 theta -(pi)/(2))+ i sin (2 theta -(pi)/(2))$.
 因此
-$z^2-z i =z(z- i )=2 sin theta [ cos (3 theta -(pi)/(2))+ i sin (3 theta -(pi)/(2))]$. 由于 $2 sin theta >0$，且 $|z- i |=1$，故 $z^2-z i \n e q0$，其辐角为 $(3 theta -(pi)/(2))+2 k pi$，其中 $k in ZZ$.
-+ (2) 【法一】设 $z=a+b i$，$omega =x+y i$. 由 $|z- i |=1$ 得 $a^2+b^2-2 b=0$. 因为 $omega \n e q2 i$ 时
+$z^2-z i =z(z- i )=2 sin theta [ cos (3 theta -(pi)/(2))+ i sin (3 theta -(pi)/(2))]$. 由于 $2 sin theta >0$，且 $|z- i |=1$，故 $z^2-z i  != 0$，其辐角为 $(3 theta -(pi)/(2))+2 k pi$，其中 $k in ZZ$.
++ (2) 【法一】设 $z=a+b i$，$omega =x+y i$. 由 $|z- i |=1$ 得 $a^2+b^2-2 b=0$. 因为 $omega  != 2 i$ 时
 $(omega)/(omega -2 i)=((x+y i )(x-(y-2) i ))/(x^2+(y-2)^2)=(x^2+y^2-2 y+2 x i)/(x^2+(y-2)^2)$，且
 $(z-2 i)/(z)=((a+(b-2) i )(a-b i ))/(a^2+b^2)=(a^2+b^2-2 b-2 a i)/(a^2+b^2)=(-2 a i)/(a^2+b^2)$. 令题设实数为 $u$，相乘后其虚部为
-$\o p e r a t o r n a m e{I m}u=-(2 a(x^2+y^2-2 y))/((x^2+(y-2)^2)(a^2+b^2))$. 由于 $z\n e q0$ 且 $z\n e q2 i$，圆 $a^2+(b-1)^2=1$ 上的点 $z$ 不在虚轴端点，故 $a\n e q0$. 因而 $\o p e r a t o r n a m e{I m}u=0$ 等价于 $x^2+y^2-2 y=0$，即 $x^2+(y-1)^2=1$. 还须排除使原式无意义的 $omega =2 i$，所以点 $Z$ 的集合是以 $(0,1)$ 为圆心、$1$ 为半径的圆，除去点 $(0,2)$.
+$\o p e r a t o r n a m e{I m}u=-(2 a(x^2+y^2-2 y))/((x^2+(y-2)^2)(a^2+b^2))$. 由于 $z != 0$ 且 $z != 2 i$，圆 $a^2+(b-1)^2=1$ 上的点 $z$ 不在虚轴端点，故 $a != 0$. 因而 $\o p e r a t o r n a m e{I m}u=0$ 等价于 $x^2+y^2-2 y=0$，即 $x^2+(y-1)^2=1$. 还须排除使原式无意义的 $omega =2 i$，所以点 $Z$ 的集合是以 $(0,1)$ 为圆心、$1$ 为半径的圆，除去点 $(0,2)$.
 
 【法二】设 $z = 2 sin theta ( cos theta + i sin theta )$（$0 < theta < (pi)/(2)$，或 $(pi)/(2)< theta < pi$），则 $z - 2 i = 2 cos theta [ cos ( theta - (pi)/(2)) + i sin ( theta - (pi)/(2))]$，
 $(z - 2 i)/(z)= cot theta [ cos (-(pi)/(2)) + i sin (-(pi)/(2))] = - i cot theta$.
@@ -359,7 +359,7 @@ $(z - 2 i)/(z)= cot theta [ cos (-(pi)/(2)) + i sin (-(pi)/(2))] = - i cot theta
 $P=(y_(2) B+y_(1) C)/(y_1+y_2)$，从而
 $y_0=(y_(2) y_1+y_(1) y_2)/(y_1+y_2)=(2 y_(1) y_2)/(y_1+y_2)$.
 
-过 $A(2,0)$ 的直线 $L$ 不能是竖直线或水平线，否则不可能与抛物线有两个相异交点，因此可设 $L:y=k(x-2)$，其中 $k\n e q0$. 由此 $x=(y+2 k)/(k)$. 代入 $y=x^2+2$，得
+过 $A(2,0)$ 的直线 $L$ 不能是竖直线或水平线，否则不可能与抛物线有两个相异交点，因此可设 $L:y=k(x-2)$，其中 $k != 0$. 由此 $x=(y+2 k)/(k)$. 代入 $y=x^2+2$，得
 $y=((y+2 k)/(k))^2+2$，即 $y^2+(4 k-k^2)y+6 k^2=0$. 因此 $y_1+y_2=k^2-4 k$，$y_(1) y_2=6 k^2$. 于是
 $(2)/(y_0)=(y_1+y_2)/(y_(1) y_2)=(k-4)/(6 k)$. 又 $k=(y_0)/(x_0-2)$，代入并约去正数 $y_0$，得 $4 x_0-y_0+4=0$.
 
@@ -367,9 +367,9 @@ $(2)/(y_0)=(y_1+y_2)/(y_(1) y_2)=(k-4)/(6 k)$. 又 $k=(y_0)/(x_0-2)$，代入并
 $12 X-3 Y-4=0$.
 
 直线 $L$ 与抛物线有两个相异交点，当且仅当
-$Delta =(4 k-k^2)^2-24 k^2>0$，即 $k^2[(k-4)^2-24]>0$. 结合 $k\n e q0$，得到 $k<4-2 sqrt(6)$ 或 $k>4+2 sqrt(6)$. 由
+$Delta =(4 k-k^2)^2-24 k^2>0$，即 $k^2[(k-4)^2-24]>0$. 结合 $k != 0$，得到 $k<4-2 sqrt(6)$ 或 $k>4+2 sqrt(6)$. 由
 $y_0=(12 k)/(k-4)=12+(48)/(k-4)$，前一段 $k$ 的取值给出 $12-4 sqrt(6)<y_0<12$，后一段给出 $12<y_0<12+4 sqrt(6)$. 端点对应重根而不取，$y_0=12$ 也不可能由有限的 $k$ 取得. 因而
-$4-(4)/(3)sqrt(6)<Y<4+(4)/(3)sqrt(6)$，且 $Y\n e q4$. 直线方程在 $Y=4$ 时给出 $X=(4)/(3)$，故轨迹是直线 $12 X-3 Y-4=0$ 上满足上述开区间条件的一段，并除去点 $((4)/(3),4)$.
+$4-(4)/(3)sqrt(6)<Y<4+(4)/(3)sqrt(6)$，且 $Y != 4$. 直线方程在 $Y=4$ 时给出 $X=(4)/(3)$，故轨迹是直线 $12 X-3 Y-4=0$ 上满足上述开区间条件的一段，并除去点 $((4)/(3),4)$.
 ]
 
 #problem(27)[
@@ -392,7 +392,7 @@ $c^2=a^2+b^2-2 a b cos theta =(a+b)^2-2 a b(1+ cos theta )$. 令 $x=(a+b)/(c)$�
 $(x^2-1)c^2=2 a b(1+ cos theta )$，即 $a b=((x^2-1)c^2)/(2(1+ cos theta ))$. 代入第一问的结果，得
 $T=(a b)/((a+b)c)=(x^2-1)/(2(1+ cos theta )x)=(1)/(2(1+ cos theta ))(x-(1)/(x))$.
 三角形不等式给出 $a+b>c$，故 $x>1$. 又由 $a b <= ((a+b)^2)/(4)$，有
-$c^2=(a+b)^2-2 a b(1+ cos theta ) >= (1- cos theta)/(2)(a+b)^2$. 因而 $x\l e q s l a n t s q r t((2)/(1- cos theta))$，等号当且仅当 $a=b$ 时成立. 当 $(a)/(b)$ 从极端不等逐渐趋于 $1$ 时，$x$ 连续地取遍该范围，所以函数定义域为
+$c^2=(a+b)^2-2 a b(1+ cos theta ) >= (1- cos theta)/(2)(a+b)^2$. 因而 $x <= s l a n t s q r t((2)/(1- cos theta))$，等号当且仅当 $a=b$ 时成立. 当 $(a)/(b)$ 从极端不等逐渐趋于 $1$ 时，$x$ 连续地取遍该范围，所以函数定义域为
 $(1,sqrt((2)/(1- cos theta))]$. 在此区间上
 $T'(x)=(1+x^(-2))/(2(1+ cos theta ))>0$，故 $T$ 单调递增，最大值在 $a=b$，即 $x=sqrt((2)/(1- cos theta))$ 时取得：
 $u=(sqrt(2))/(4 sqrt(1- cos theta))$.

@@ -15,7 +15,7 @@
 ]
 
 #solution[
-因为 $tan theta =sqrt(2)$，所以 $cos theta \n e q0$，且 $1- tan theta \n e q0$. 以 $cos theta$ 除分式的分子和分母，得
+因为 $tan theta =sqrt(2)$，所以 $cos theta  != 0$，且 $1- tan theta  != 0$. 以 $cos theta$ 除分式的分子和分母，得
 
 $ (cos theta + sin theta)/(cos theta - sin theta)=(1+ tan theta)/(1- tan theta)=(1+sqrt(2))/(1-sqrt(2))=(( 1+sqrt(2))^2)/(( 1-sqrt(2))( 1+sqrt(2))) $
 
@@ -88,42 +88,22 @@ $(A C)/(C D)=(C D)/(C B)$，$C D^2=A C dot C B =(4)/(5) dot (1)/(5)=(4)/(25)$.
 \scriptsize
 \setlength{\tabcolsep}{3pt}
 \renewcommand{\arraystretch}{1.1}
-\begin{tabular}{|c|cccccccccc|ccccccccc|}
-\hline
-\multicolumn{20}{|c|}{对数表} \\
-\hline
-$N$ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
-\hline
-23 & 3617 & 3636 & 3655 & 3674 & 3692 & 3711 & 3729 & 3747 & 3766 & 3784 & 2 & 4 & 6 & 7 & 9 & 11 & 13 & 15 & 17 \\
-24 & 3802 & 3820 & 3838 & 3856 & 3874 & 3892 & 3909 & 3927 & 3945 & 3962 & 2 & 4 & 5 & 7 & 9 & 11 & 12 & 14 & 16 \\
-25 & 3979 & 3997 & 4014 & 4031 & 4048 & 4065 & 4082 & 4099 & 4116 & 4133 & 2 & 3 & 5 & 7 & 9 & 10 & 12 & 14 & 15 \\
-\hline
-\end{tabular}
+[（表格数据详见在线交互版）]
 
 \vspace{0.8em}
 
-\begin{tabular}{|c|cccccccccc|ccccccccc|}
-\hline
-\multicolumn{20}{|c|}{反对数表} \\
-\hline
-$m$ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
-\hline
-.48 & 3020 & 3027 & 3034 & 3041 & 3048 & 3055 & 3062 & 3069 & 3076 & 3083 & 1 & 1 & 2 & 3 & 4 & 4 & 5 & 6 & 6 \\
-.49 & 3090 & 3097 & 3105 & 3112 & 3119 & 3126 & 3133 & 3141 & 3148 & 3155 & 1 & 1 & 2 & 3 & 4 & 4 & 5 & 6 & 6 \\
-.50 & 3162 & 3170 & 3177 & 3184 & 3192 & 3199 & 3206 & 3214 & 3221 & 3228 & 1 & 1 & 2 & 3 & 4 & 4 & 5 & 6 & 7 \\
-\hline
-\end{tabular}
+[（表格数据详见在线交互版）]
 \end{center}
 ]
 
 #solution[
 由对数表，在数表的第 $23$ 行、第 $2$ 列查得 $1.3655$，再由横向的平均差表查得第 $8$ 个平均差 $15$，所以
 
-$ \l g 23.28=1.3655+0.0015=1.3670 $
+$  lg 23 .28=1.3655+0.0015=1.3670 $
 
 于是
 
-$ \l g 23.28^(-1.1)=-1.1\l g 23.28=-1.1 times 1 .3670=-1.5037 =overline(2).4963 $
+$  lg 23 .28^(-1.1)=-1.1 lg 23 .28=-1.1 times 1 .3670=-1.5037 =overline(2).4963 $
 
 查反对数表，$.4963$ 在 $.49$ 行、第 $6$ 列的数为 $3133$，再加上第 $3$ 个平均差 $2$，得到 $3135$. 因而
 $10^(.4963) approx 3 .135$，$23.28^(-1.1)=10^(overline(2).4963) =10^(-2) times 10 ""^(.4963) approx 0 .03135$.
@@ -136,7 +116,7 @@ $10^(.4963) approx 3 .135$，$23.28^(-1.1)=10^(overline(2).4963) =10^(-2) times 
 #solution[
 【法一】
 
-$ sin 3 x- sin x+ cos 2 x=0 <=> 2 cos 2 x sin x+ cos 2 x=0 <=> cos 2 x( 2 sin x+1 )=0 $
+$ sin 3 x- sin x+ cos 2 x=0  2 cos 2 x sin x+ cos 2 x=0  cos 2 x( 2 sin x+1 )=0 $
 
 
 由 $cos 2 x=0$，得 $2 x=2 n pi +- (pi)/(2)$，所以 $x=n pi +- (pi)/(4)$.
@@ -147,7 +127,7 @@ $ sin 3 x- sin x+ cos 2 x=0 <=> 2 cos 2 x sin x+ cos 2 x=0 <=> cos 2 x( 2 sin x+
 
 【法二】
 
-$ \b e g i n{g a t h e r e d} sin 3 x- sin x+ cos 2 x =( 3 sin x-4 sin ""^(3) x )- sin x+( 1-2 sin ""^(2) x )=0\\ <=> 4 sin ""^(3) x+2 sin ""^(2) x-2 sin x-1 =( 2 sin x+1 )( 2 sin ""^(2) x-1 )=0 \e n d{g a t h e r e d} $
+$ \b e g i n{g a t h e r e d} sin 3 x- sin x+ cos 2 x =( 3 sin x-4 sin ""^(3) x )- sin x+( 1-2 sin ""^(2) x )=0\\  4 sin ""^(3) x+2 sin ""^(2) x-2 sin x-1 =( 2 sin x+1 )( 2 sin ""^(2) x-1 )=0 \e n d{g a t h e r e d} $
 
 
 由 $2 sin x+1=0$，得 $sin x=-(1)/(2)$，所以 $x=2 n pi -(pi)/(6)$，或 $x=( 2 n+1 ) pi +(pi)/(6)$.
@@ -169,15 +149,15 @@ $ \b e g i n{g a t h e r e d} sin 3 x- sin x+ cos 2 x =( 3 sin x-4 sin ""^(3) x 
 #solution[
 + (1) 从这六个数字中取出五个数字，共能排成 $A_6^5=6 times 5 times 4 times 3 times 2 =720$ 个五位数.
 + (2) 在所求的偶数中，末位必须取 $2$，$4$ 这两个数字中的一个，这有两种方法. 取定末位后，再从其余五个数字中任取四个，排成其他四位，这有 $A_5^4=5 times 4 times 3 times 2 =120$ 种方法. 因此，共有 $2 A_5^4=2 times 120 =240$ 个五位数是偶数.
-+ (3) 一个整数是不是 $3$ 的倍数，要看它的各位数字之和是不是 $3$ 的倍数. 这六个数字 $1$，$2$，$3$，$4$，$7$，$9$ 之和是 $26$. 取出五个数字时，若删去的数字为 $d$，则所取数字之和为 $26-d$. 要使 $26-d$ 是 $3$ 的倍数，必须有 $d\equiv2\p m o d3$. 在这六个数字中，只有 $2$ 满足这个条件，所以所取的五个数字必须是 $1$，$3$，$4$，$7$，$9$. 因此，共 $A_5^5=5!=120$ 个五位数是 $3$ 的倍数.
++ (3) 一个整数是不是 $3$ 的倍数，要看它的各位数字之和是不是 $3$ 的倍数. 这六个数字 $1$，$2$，$3$，$4$，$7$，$9$ 之和是 $26$. 取出五个数字时，若删去的数字为 $d$，则所取数字之和为 $26-d$. 要使 $26-d$ 是 $3$ 的倍数，必须有 $d equiv 2 plus.minus  o d3$. 在这六个数字中，只有 $2$ 满足这个条件，所以所取的五个数字必须是 $1$，$3$，$4$，$7$，$9$. 因此，共 $A_5^5=5!=120$ 个五位数是 $3$ 的倍数.
 ]
 
 #problem(8)[
-解方程组：$\b e g i n{c a s e s} x^2-2 x y-y^2=1,\\ sqrt(x y+3)=x \e n d{c a s e s}$（限定在实数范围内）.
+解方程组：$[（方程组详见交互版）]$（限定在实数范围内）.
 ]
 
 #solution[
-第二式要求 $x=sqrt(x y+3)\g e q0$. 对第二式平方，得到
+第二式要求 $x=sqrt(x y+3) >= 0$. 对第二式平方，得到
 $x y+3=x^2$，即 $x^2-x y=3$.
 将第一式乘以 $3$，再减去上式，得
 
@@ -185,7 +165,7 @@ $ 3 x^2-6 x y-3 y^2-(x^2-x y)=3-3 $
 
 即
 
-$ 2 x^2-5 x y-3 y^2=0 <=> (2 x+y)(x-3 y)=0 $
+$ 2 x^2-5 x y-3 y^2=0  (2 x+y)(x-3 y)=0 $
 
 
 当 $2 x+y=0$ 时，$y=-2 x$. 代入 $x^2-x y=3$，得
@@ -269,7 +249,7 @@ $ angle O B A+ angle O B C= angle A B V=2 theta $
 $tan theta =(O A)/(A B)=(1)/(r)$，$r= cot theta$.
 在直角三角形 $V A B$ 中，$A B=r$、$V B=l$，且 $angle A B V=2 theta$，所以
 $cos 2 theta =(A B)/(V B)=(r)/(l)$，$l=(r)/(cos 2 theta)=(cot theta)/(cos 2 theta)$.
-圆锥存在时 $0<2 theta <90^ degree$，故 $0< theta <45^ degree$，从而 $1- tan ""^2 theta >0$. 于是
+圆锥存在时 $00$. 于是
 
 $ l+r= cot theta ((1)/(cos 2 theta)+1) =(1)/(tan theta) dot (1+ cos 2 theta)/(cos 2 theta)=(1)/(tan theta) dot (2 cos ""^2 theta)/(cos ""^2 theta - sin ""^2 theta) $
 
@@ -285,7 +265,7 @@ $ T=(2 pi)/(tan ""^2 theta (1- tan ""^2 theta )) $
 
 $ T=(2 pi)/(tan ""^2 theta (1- tan ""^2 theta )) $
 
-在 $0< theta <45^ degree$ 内，令 $u= tan ""^2 theta$，则 $0<u<1$. 因为 $T>0$，要使 $T$ 最小，只需使
+在 $00$，要使 $T$ 最小，只需使
 
 $ u(1-u)=-u^2+u=-(u-(1)/(2))^2+(1)/(4) $
 
@@ -293,7 +273,7 @@ $ u(1-u)=-u^2+u=-(u-(1)/(2))^2+(1)/(4) $
 
 $ tan ""^2 theta =(1)/(2) $
 
-又 $0< theta <45^ degree$，所以 $tan theta >0$，从而
+又 $00$，从而
 
 $ theta = arctan (sqrt(2))/(2) $
 

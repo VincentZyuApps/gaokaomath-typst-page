@@ -11,14 +11,14 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $A=\{x | x<2\}$，$B=\{x | 3-2 x>0\}$，则（ ）
-  #choices([$A inter B=\{x | x<(3)/(2)\}$], [$A inter B= emptyset$], [$A union B=\{x | x<(3)/(2)\}$], [$A union B= RR$], cols: 2)
+已知集合 $A={x | x<2}$，$B={x | 3-2 x>0}$，则（ ）
+  #choices([$A inter B={x | x<(3)/(2)}$], [$A inter B= emptyset$], [$A union B={x | x<(3)/(2)}$], [$A union B= RR$], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由 $3-2 x>0$ 得 $x<(3)/(2)$，故 $B=\{x | x<(3)/(2)\}$.由于 $B subset A=\{x | x<2\}$，所以 $A inter B=B=\{x | x<(3)/(2)\}$，而 $A union B=A$.因此选 A.
+由 $3-2 x>0$ 得 $x<(3)/(2)$，故 $B={x | x<(3)/(2)}$.由于 $B subset A={x | x<2}$，所以 $A inter B=B={x | x<(3)/(2)}$，而 $A union B=A$.因此选 A.
 ]
 
 #problem(2)[
@@ -193,7 +193,7 @@ $bold(a)+bold(b)=(m-1,3)$.垂直条件给出 $(bold(a)+bold(b))\c d o t b o l d(
 #solution[
 设球 $O$ 的半径为 $R$，取 $S=(0,0,0)$、$C=(2 R,0,0)$.因为 $S C$ 是直径，$angle S A C= angle S B C=90^ degree$.又 $S A=A C$、$S B=B C$，所以可在互相垂直的两个平面内取 $A=(R,R,0)$、$B=(R,0,R)$，符号取反不影响体积.于是
 
-$ V_(S-A B C)=(1)/(6)|\det\b e g i n{p m a t r i x}R&R&0\\ R&0&R\\ 2 R&0&0\e n d{p m a t r i x}|=(R^3)/(3) $
+$ V_(S-A B C)=(1)/(6)|det\b e g i n{p m a t r i x}R&R&0\\ R&0&R\\ 2 R&0&0\e n d{p m a t r i x}|=(R^3)/(3) $
 
 由体积为 $9$ 得 $R=3$，故球 $O$ 的表面积为 $4 pi R^2=36 pi$.
 ]
@@ -201,10 +201,10 @@ $ V_(S-A B C)=(1)/(6)|\det\b e g i n{p m a t r i x}R&R&0\\ R&0&R\\ 2 R&0&0\e n d
 #part-header("解答题")
 
 #problem(17)[
-记 $S_n$ 为等比数列 $\{a_n\}$ 的前 $n$ 项和. 已知 $S_2=2$，$S_3=-6$.
+记 $S_n$ 为等比数列 ${a_n}$ 的前 $n$ 项和. 已知 $S_2=2$，$S_3=-6$.
 
 
-+ (1) 求 $\{a_n\}$ 的通项公式；
++ (1) 求 ${a_n}$ 的通项公式；
 + (2) 求 $S_n$，并判断 $S_(n+1)$，$S_n$，$S_(n+2)$ 是否成等差数列.
 ]
 

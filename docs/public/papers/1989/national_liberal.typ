@@ -11,17 +11,17 @@
 #part-header("单选题")
 
 #problem(1)[
-如果 $I = \{a, b, c, d, e\}$，$M = \{a, c, d\}$，$N = \{b, d, e\}$，其中 $I$ 是全集，那么 $overline(M) inter overline(N)$ 等于（$$）
-  #choices([$emptyset$], [$\{d\}$], [$\{a, c\}$], [$\{b, e\}$], cols: 4)
+如果 $I = {a, b, c, d, e}$，$M = {a, c, d}$，$N = {b, d, e}$，其中 $I$ 是全集，那么 $overline(M) inter overline(N)$ 等于（$$）
+  #choices([$emptyset$], [${d}$], [${a, c}$], [${b, e}$], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-因为 $I$ 是全集，所以 $overline(M)=I\m a t h b i n{\b a c k s l a s h}M=\{b,e\}$，$overline(N)=I\m a t h b i n{\b a c k s l a s h}N=\{a,c\}$. 因此
+因为 $I$ 是全集，所以 $overline(M)=I\m a t h b i n{\b a c k s l a s h}M={b,e}$，$overline(N)=I\m a t h b i n{\b a c k s l a s h}N={a,c}$. 因此
 
 
-$ overline(M)\c a p o v e r l i n e(N)=\{b,e\} inter \{a,c\}= emptyset $
+$ overline(M)\c a p o v e r l i n e(N)={b,e} inter {a,c}= emptyset $
 
 
 故选 A.
@@ -35,9 +35,9 @@ $ overline(M)\c a p o v e r l i n e(N)=\{b,e\} inter \{a,c\}= emptyset $
 #answer([D])
 
 #solution[
-选项 A 中，$sqrt(x^2)=|x|$，当 $x<0$ 时不等于 $x$. 选项 B 中，$(x^2)/(x)=x$ 只在 $x\n e q0$ 时成立，定义域不包括 $0$. 选项 C 中，$a^( log _a x)=x$ 的定义域为 $x>0$，也不是函数 $y=x$ 的定义域.
+选项 A 中，$sqrt(x^2)=|x|$，当 $x<0$ 时不等于 $x$. 选项 B 中，$(x^2)/(x)=x$ 只在 $x != 0$ 时成立，定义域不包括 $0$. 选项 C 中，$a^( log _a x)=x$ 的定义域为 $x>0$，也不是函数 $y=x$ 的定义域.
 
-对任意 $x in RR$，都有 $log _a a^x=x$，且 $a>0$，$a\n e q1$ 时该式有意义，因此选项 D 的函数与 $y=x$ 的图象相同.
+对任意 $x in RR$，都有 $log _a a^x=x$，且 $a>0$，$a != 1$ 时该式有意义，因此选项 D 的函数与 $y=x$ 的图象相同.
 ]
 
 #problem(3)[
@@ -64,7 +64,7 @@ $ pi r l= pi \c d o t s q r t(2)\c d o t s q r t(6)=2 sqrt(3) pi $
 ]
 
 #problem(4)[
-已知 $\{a_n\}$ 是等比数列，如果 $a_1 + a_2 = 12$，$a_2 + a_3 = -6$，且 $S_n = a_1 + a_2 + dots.c + a_n$，那么 $lim_(n -> oo ) S_n$ 的值等于（$$）
+已知 ${a_n}$ 是等比数列，如果 $a_1 + a_2 = 12$，$a_2 + a_3 = -6$，且 $S_n = a_1 + a_2 + dots.c + a_n$，那么 $lim_(n -> oo ) S_n$ 的值等于（$$）
   #choices([$8$], [$16$], [$32$], [$48$], cols: 4)
 ]
 
@@ -75,7 +75,7 @@ $ pi r l= pi \c d o t s q r t(2)\c d o t s q r t(6)=2 sqrt(3) pi $
 
 $a_1(1+q)=12$，$a_(1) q(1+q)=-6$.
 
-因为 $a_1(1+q)=12\n e q0$，两式相除得 $q=-(1)/(2)$. 于是 $|q|<1$，且
+因为 $a_1(1+q)=12 != 0$，两式相除得 $q=-(1)/(2)$. 于是 $|q|<1$，且
 
 
 $ a_1=(12)/(1+q)=(12)/(1-(1)/(2))=24 $
@@ -515,7 +515,7 @@ $x-a k>0$，$x^2-a^2>0$.
 $ 2 log _a(x-a k)= log _a(x^2-a^2) $
 
 
-由于 $a>0$ 且 $a\n e q1$，对数函数 $log _a x$ 是一一对应的，所以
+由于 $a>0$ 且 $a != 1$，对数函数 $log _a x$ 是一一对应的，所以
 
 
 $ (x-a k)^2=x^2-a^2 $
@@ -527,7 +527,7 @@ $ (x-a k)^2=x^2-a^2 $
 $ -2 a k x+a^(2) k^2=-a^2 $
 
 
-当 $k=0$ 时上式变为 $0=-a^2$，不可能. 当 $k\n e q0$ 时，
+当 $k=0$ 时上式变为 $0=-a^2$，不可能. 当 $k != 0$ 时，
 
 $x=(a(k^2+1))/(2 k)$，$x-a k=(a(1-k^2))/(2 k)$.
 

@@ -11,18 +11,18 @@
 #part-header("单选题")
 
 #problem(1)[
-设全集 $I = \{1, 2, 3, 4, 5, 6, 7\}$，集合 $A = \{1, 3, 5, 7\}$，$B = \{3, 5\}$，则（ ）
+设全集 $I = {1, 2, 3, 4, 5, 6, 7}$，集合 $A = {1, 3, 5, 7}$，$B = {3, 5}$，则（ ）
   #choices([$I = A union B$], [$I = overline(A) union B$], [$I = A union overline(B)$], [$I = overline(A) union overline(B)$], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-由全集 $I$ 可得 $overline(A)=\{2,4,6\}$，$overline(B)=\{1,2,4,6,7\}$. 因此
+由全集 $I$ 可得 $overline(A)={2,4,6}$，$overline(B)={1,2,4,6,7}$. 因此
 
-$ A\c u p o v e r l i n e(B)=\{1,3,5,7\} union \{1,2,4,6,7\}=I $
+$ A\c u p o v e r l i n e(B)={1,3,5,7} union {1,2,4,6,7}=I $
 
-而 $A union B=A != I$，$overline(A) union B=\{2,3,4,5,6\} != I$，$overline(A)\c u p o v e r l i n e(B)=\{1,2,4,6,7\} != I$，故选 C.
+而 $A union B=A != I$，$overline(A) union B={2,3,4,5,6} != I$，$overline(A)\c u p o v e r l i n e(B)={1,2,4,6,7} != I$，故选 C.
 ]
 
 #problem(2)[
@@ -38,7 +38,7 @@ $ A\c u p o v e r l i n e(B)=\{1,3,5,7\} union \{1,2,4,6,7\}=I $
 
 #problem(3)[
 若 $sin ""^2 x > cos ""^2 x$，则 $x$ 的取值范围是（ ）
-  #choices([$\{x | 2 k pi -(3)/(4) pi < x < 2 k pi +(1)/(4) pi ,k in ZZ \}$], [$\{x | 2 k pi +(1)/(4) pi < x < 2 k pi +(5)/(4) pi ,k in ZZ \}$], [$\{x | k pi -(1)/(4) pi < x < k pi + (1)/(4) pi ,k in ZZ \}$], [$\{x | k pi +(1)/(4) pi < x < k pi +(3)/(4) pi ,k in ZZ \}$], cols: 1)
+  #choices([${x | 2 k pi -(3)/(4) pi < x < 2 k pi +(1)/(4) pi ,k in ZZ }$], [${x | 2 k pi +(1)/(4) pi < x < 2 k pi +(5)/(4) pi ,k in ZZ }$], [${x | k pi -(1)/(4) pi < x < k pi + (1)/(4) pi ,k in ZZ }$], [${x | k pi +(1)/(4) pi < x < k pi +(3)/(4) pi ,k in ZZ }$], cols: 1)
 ]
 
 #answer([D])
@@ -223,7 +223,7 @@ $ V=(1)/(3) dot (a^2)/(2) dot (a)/(sqrt(2))=(sqrt(2))/(12)a^3 $
 ]
 
 #problem(13)[
-等差数列 $\{a_(n)\}$ 的前 $m$ 项和为 $30$，前 $2 m$ 项和为 $100$，则它的前 $3 m$ 项和为（ ）
+等差数列 ${a_(n)}$ 的前 $m$ 项和为 $30$，前 $2 m$ 项和为 $100$，则它的前 $3 m$ 项和为（ ）
   #choices([$130$], [$170$], [$210$], [$260$], cols: 4)
 ]
 
@@ -375,7 +375,7 @@ $ cos angle (A D,B F)=(arrow(A D){ dot }arrow(B F))/(|A D| |B F|)=((a^2)/(2))/(a
 ]
 
 #problem(21)[
-设等比数列 $\{a_(n)\}$ 的前 $n$ 项和为 $S_(n)$. 若 $S_(3) + S_(6) = 2 S_(9)$，求数列的公比 $q$.
+设等比数列 ${a_(n)}$ 的前 $n$ 项和为 $S_(n)$. 若 $S_(3) + S_(6) = 2 S_(9)$，求数列的公比 $q$.
 ]
 
 #solution[
@@ -385,7 +385,7 @@ $ S_n=(a_1(1-q^n))/(1-q) $
 
 代入题设并约去非零因子 $(a_1)/((1-q))$，得 $1-q^3+1-q^6=2(1-q^9)$，即 $q^3(2 q^6-q^3-1)=0$. 因 $q != 0$，且 $2 q^6-q^3-1=(2 q^3+1)(q^3-1)$，又 $q != 1$，所以 $q^3=-(1)/(2)$，故
 
-$ q=-\sqrt[3]{(1)/(2)}=-(root(3, 2))/(2) $
+$ q=-sqrt[3]{(1)/(2)}=-(root(3, 2))/(2) $
 ]
 
 #problem(22)[

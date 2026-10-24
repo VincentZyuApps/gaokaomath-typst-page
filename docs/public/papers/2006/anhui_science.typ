@@ -26,8 +26,8 @@ $ (1+sqrt(3){ i })/(sqrt(3)- i)=((1+sqrt(3){ i })(sqrt(3)+ i ))/((sqrt(3)- i )(s
 ]
 
 #problem(2)[
-设集合 $A = \{x | |x - 2| <= 2 , x in RR \}$，$B = \{y | y = -x^2, -1 <= x <= 2 \}$，则 $\c o m p l e m e n t_( RR )(A inter B)$ 等于（ ）
-  #choices([$RR$], [$\{x | x in RR ,x != 0\}$], [$\{0\}$], [$emptyset$], cols: 2)
+设集合 $A = {x | |x - 2| <= 2 , x in RR }$，$B = {y | y = -x^2, -1 <= x <= 2 }$，则 $\c o m p l e m e n t_( RR )(A inter B)$ 等于（ ）
+  #choices([$RR$], [${x | x in RR ,x != 0}$], [${0}$], [$emptyset$], cols: 2)
 ]
 
 #answer([B])
@@ -35,7 +35,7 @@ $ (1+sqrt(3){ i })/(sqrt(3)- i)=((1+sqrt(3){ i })(sqrt(3)+ i ))/((sqrt(3)- i )(s
 #solution[
 由 $|x-2| <= 2$，得 $0 <= x <= 4$，所以 $A=[0,4]$.
 又因为 $y=-x^2$，且 $-1 <= x <= 2$，函数值的最大值为 $0$，最小值为 $-4$，所以 $B=[-4,0]$.
-从而 $A inter B=\{0\}$，其在 $RR$ 中的补集为 $RR \m a t h b i n{\b a c k s l a s h}\{0\}$，因此选 B.
+从而 $A inter B={0}$，其在 $RR$ 中的补集为 $RR \m a t h b i n{\b a c k s l a s h}{0}$，因此选 B.
 ]
 
 #problem(3)[
@@ -378,7 +378,7 @@ $ d(A+bold(u)+bold(v)+bold(w))=1+2+4=7 $
 
 $ t+(1)/(t)=-(10)/(3) $
 
-因为 $tan alpha \n e q0$，两边同乘 $3 t$，得
+因为 $tan alpha  != 0$，两边同乘 $3 t$，得
 
 $ 3 t^2+10 t+3=0 $
 
@@ -397,7 +397,7 @@ $ 5 s^2+8 s c+11 c^2-8 =(5)/(2)(1- cos alpha )+4 sin alpha +(11)/(2)(1+ cos alph
 
 $ sqrt(2) sin ( alpha -(pi)/(2))=-sqrt(2) cos alpha $
 
-由于 $alpha in (3(pi)/(4), pi )$，有 $cos alpha \n e q0$，所以原式等于
+由于 $alpha in (3(pi)/(4), pi )$，有 $cos alpha  != 0$，所以原式等于
 
 $ -(3 cos alpha +4 sin alpha)/(sqrt(2) cos alpha)=-(3+4 tan alpha)/(sqrt(2))=-(3-(4)/(3))/(sqrt(2))=-(5 sqrt(2))/(6) $
 ]
@@ -513,11 +513,11 @@ $ g((1)/(k))=(1)/(k dot ((1)/(k)))+k dot (1)/(k)=2 $
 ]
 
 #problem(21)[
-数列 $\{a_(n)\}$ 的前 $n$ 项和为 $S_(n)$. 已知 $a_(1) = (1)/(2)$，$S_(n) = n^(2)a_(n) - n(n - 1)$，$n = 1$，$2$，$...$.
+数列 ${a_(n)}$ 的前 $n$ 项和为 $S_(n)$. 已知 $a_(1) = (1)/(2)$，$S_(n) = n^(2)a_(n) - n(n - 1)$，$n = 1$，$2$，$...$.
 
 
 + (1) 写出 $S_(n)$ 与 $S_(n-1)$ 的递推关系式（$n >= 2$）. 并求 $S_(n)$ 关于 $n$ 的表达式；
-+ (2) 设 $f_n(x) = (S_n)/(n)x^(n+1)$，$b_n = f_n'(p)$（$p in RR$），求数列 $\{b_n\}$ 的前 $n$ 项和 $T_n$.
++ (2) 设 $f_n(x) = (S_n)/(n)x^(n+1)$，$b_n = f_n'(p)$（$p in RR$），求数列 ${b_n}$ 的前 $n$ 项和 $T_n$.
 ]
 
 #solution[
@@ -550,7 +550,7 @@ $ f_n(x)=(S_n)/(n)x^(n+1)=(n)/(n+1)x^(n+1) $
 
 $ b_n=f_n'(p)=n p^n $
 
-于是 $T_n=sum_(k=1)^(n) k p^k$. 当 $p\n e q1$ 时，将等比数列求和式求导，或直接计算
+于是 $T_n=sum_(k=1)^(n) k p^k$. 当 $p != 1$ 时，将等比数列求和式求导，或直接计算
 
 $ (1-p)T_n =(p+2 p^2+ dots.c +n p^n) -(p^2+2 p^3+ dots.c +n p^(n+1)) =p+p^2+ dots.c +p^n-n p^(n+1) $
 

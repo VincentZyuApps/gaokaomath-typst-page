@@ -21,7 +21,7 @@
 ]
 
 #problem(2)[
-计算 $2( cos (pi)/(3)+ i sin (pi)/(3))^5\div sqrt(2)( cos (pi)/(6)+ i sin (pi)/(6))=$#blank(){}（$i$ 为虚数单位）.
+计算 $2( cos (pi)/(3)+ i sin (pi)/(3))^5div sqrt(2)( cos (pi)/(6)+ i sin (pi)/(6))=$#blank(){}（$i$ 为虚数单位）.
 ]
 
 #answer([$-sqrt(2) i$])
@@ -42,7 +42,7 @@ $ (2( cos (5 pi)/(3)+ i sin (5 pi)/(3)))/(sqrt(2)( cos (pi)/(6)+ i sin (pi)/(6))
 三角方程 $cos ( (x)/(2)+(pi)/(3))=-(1)/(2)$ 的解集是#blank(){}.
 ]
 
-#answer([$\{x | x=4 k pi +(2 pi)/(3)"\ 或\ "x=4 k pi -2 pi ,\ k in ZZ \}$])
+#answer([${x | x=4 k pi +(2 pi)/(3)"\ 或\ "x=4 k pi -2 pi ,\ k in ZZ }$])
 
 #solution[
 令 $t=(x)/(2)+(pi)/(3)$. 由 $cos t=-(1)/(2)$，得 $t=2 k pi +(2 pi)/(3)$ 或 $t=2 k pi -(2 pi)/(3)$，其中 $k in ZZ$. 因而分别有 $x=4 k pi +(2 pi)/(3)$ 或 $x=4 k pi -2 pi$，这就是所求解集.
@@ -65,7 +65,7 @@ $ (2( cos (5 pi)/(3)+ i sin (5 pi)/(3)))/(sqrt(2)( cos (pi)/(6)+ i sin (pi)/(6))
 #answer([$(- oo ,0)$])
 
 #solution[
-函数定义域为 $x\n e q0$，且 $y'=-(2)/(3)x^(-(5)/(3))$. 当 $x<0$ 时，$x^(-(5)/(3))<0$，故 $y'>0$；当 $x>0$ 时，$y'<0$. 因此函数的递增区间为 $(- oo ,0)$.
+函数定义域为 $x != 0$，且 $y'=-(2)/(3)x^(-(5)/(3))$. 当 $x<0$ 时，$x^(-(5)/(3))<0$，故 $y'>0$；当 $x>0$ 时，$y'<0$. 因此函数的递增区间为 $(- oo ,0)$.
 ]
 
 #problem(6)[
@@ -226,7 +226,7 @@ $ (2( cos (5 pi)/(3)+ i sin (5 pi)/(3)))/(sqrt(2)( cos (pi)/(6)+ i sin (pi)/(6))
 
 #problem(20)[
 下列参数方程（$t$ 是参数）中与方程 $y^2=x$ 表示同一曲线的是（ ）
-  #choices([$\{\b e g i n{a l i g n e d}x&=t,\\ y&=t^2\e n d{a l i g n e d}.$], [$\{\b e g i n{a l i g n e d}x&= sin ""^2 t,\\ y&= sin t\e n d{a l i g n e d}.$], [$\{\b e g i n{a l i g n e d}x&=t,\\ y&=sqrt(|t|)\e n d{a l i g n e d}.$], [$\{\b e g i n{a l i g n e d}x&=(1- cos 2 t)/(1+ cos 2 t),\\ y&= tan t\e n d{a l i g n e d}.$], cols: 1)
+  #choices([${\b e g i n{a l i g n e d}x&=t,\\ y&=t^2\e n d{a l i g n e d}.$], [${\b e g i n{a l i g n e d}x&= sin ""^2 t,\\ y&= sin t\e n d{a l i g n e d}.$], [${\b e g i n{a l i g n e d}x&=t,\\ y&=sqrt(|t|)\e n d{a l i g n e d}.$], [${\b e g i n{a l i g n e d}x&=(1- cos 2 t)/(1+ cos 2 t),\\ y&= tan t\e n d{a l i g n e d}.$], cols: 1)
 ]
 
 #answer([D])
@@ -250,7 +250,7 @@ $ (2( cos (5 pi)/(3)+ i sin (5 pi)/(3)))/(sqrt(2)( cos (pi)/(6)+ i sin (pi)/(6))
 ]
 
 #solution[
-解不等式组 $\{\b e g i n{a l i g n e d}2+ log _((1)/(2))x& >= 0 ,\\ tan x& >= 0 \e n d{a l i g n e d}.$. 由第一式得 $0<x <= 4$；由第二式得 $k pi <= x<k pi +(pi)/(2)$，$k in ZZ$. 所以函数 $y$ 的定义域为 $( 0,(pi)/(2)) union [ pi ,4]$.
+解不等式组 ${\b e g i n{a l i g n e d}2+ log _((1)/(2))x& >= 0 ,\\ tan x& >= 0 \e n d{a l i g n e d}.$. 由第一式得 $0<x <= 4$；由第二式得 $k pi <= x<k pi +(pi)/(2)$，$k in ZZ$. 所以函数 $y$ 的定义域为 $( 0,(pi)/(2)) union [ pi ,4]$.
 ]
 
 #problem(23)[
@@ -297,7 +297,7 @@ $ (A E)/(B F)=(sin alpha)/(sin beta) $
 ]
 
 #problem(26)[
-设复数集合 $M=\{z | |z-2+ i | <= 2 ,\ z in bold(C)\} inter \{z | |z-2- i |=|z-4+ i |,\ z in bold(C)\}$.
+设复数集合 $M={z | |z-2+ i | <= 2 ,\ z in bold(C)} inter {z | |z-2- i |=|z-4+ i |,\ z in bold(C)}$.
 
 + (1) 试在复平面内作出表示集合 $M$ 的图形，并说出图形的名称；
 + (2) 求集合 $M$ 中元素 $z$ 的辐角主值的范围；
@@ -307,7 +307,7 @@ $ (A E)/(B F)=(sin alpha)/(sin beta) $
 #solution[
 + (1) 设 $z=x+y i$，由题意得
 
-$ \{ \b e g i n{a l i g n e d} (x-2)^2+(y+1)^2& <= 4 ,\\ x-y&=3 \e n d{a l i g n e d} .% $
+$ { \b e g i n{a l i g n e d} (x-2)^2+(y+1)^2& <= 4 ,\\ x-y&=3 \e n d{a l i g n e d} .% $
 
 
 
@@ -315,12 +315,12 @@ $ \{ \b e g i n{a l i g n e d} (x-2)^2+(y+1)^2& <= 4 ,\\ x-y&=3 \e n d{a l i g n
 
 
 则集合 $M$ 的图形是图中直线段 $A B$.
-+ (2) 解方程组 $\{\b e g i n{a l i g n e d}(x-2)^2+(y+1)^2&=4,\\ x-y&=3\e n d{a l i g n e d}.$ 得 $A(2+sqrt(2),sqrt(2)-1)$，$B(2-sqrt(2),-sqrt(2)-1)$. 记点 $A$，$B$ 所对应的复数的辐角主值分别为 $theta _1$，$theta _2$，则 $theta _1= arctan (3 sqrt(2)-4)/(2)$，$theta _2=2 pi - arctan (3 sqrt(2)+4)/(2)$. 所以集合 $M$ 中元素 $z$ 的辐角主值的范围是 $[ 2 pi - arctan (3 sqrt(2)+4)/(2),2 pi ) union [ 0, arctan (3 sqrt(2)-4)/(2)]$.
-+ (3) $|O A|=sqrt(9+2 sqrt(2))$，$|O B|=sqrt(9-2 sqrt(2))$. 作 $O P bot A B$，垂足为 $P$. 由 $\{\b e g i n{a l i g n e d}x-y&=3,\\ x+y&=0\e n d{a l i g n e d}.$ 解得 $P( (3)/(2),-(3)/(2))$，$|O P|=(3 sqrt(2))/(2)$. 因为点 $P$ 在圆 $(x-2)^2+(y+1)^2=4$ 内，又 $|O A|>|O B|$，所以集合 $M$ 中元素 $z$ 的模的范围是 $[ (3 sqrt(2))/(2),sqrt(9+2 sqrt(2))]$.
++ (2) 解方程组 ${\b e g i n{a l i g n e d}(x-2)^2+(y+1)^2&=4,\\ x-y&=3\e n d{a l i g n e d}.$ 得 $A(2+sqrt(2),sqrt(2)-1)$，$B(2-sqrt(2),-sqrt(2)-1)$. 记点 $A$，$B$ 所对应的复数的辐角主值分别为 $theta _1$，$theta _2$，则 $theta _1= arctan (3 sqrt(2)-4)/(2)$，$theta _2=2 pi - arctan (3 sqrt(2)+4)/(2)$. 所以集合 $M$ 中元素 $z$ 的辐角主值的范围是 $[ 2 pi - arctan (3 sqrt(2)+4)/(2),2 pi ) union [ 0, arctan (3 sqrt(2)-4)/(2)]$.
++ (3) $|O A|=sqrt(9+2 sqrt(2))$，$|O B|=sqrt(9-2 sqrt(2))$. 作 $O P bot A B$，垂足为 $P$. 由 ${\b e g i n{a l i g n e d}x-y&=3,\\ x+y&=0\e n d{a l i g n e d}.$ 解得 $P( (3)/(2),-(3)/(2))$，$|O P|=(3 sqrt(2))/(2)$. 因为点 $P$ 在圆 $(x-2)^2+(y+1)^2=4$ 内，又 $|O A|>|O B|$，所以集合 $M$ 中元素 $z$ 的模的范围是 $[ (3 sqrt(2))/(2),sqrt(9+2 sqrt(2))]$.
 ]
 
 #problem(27)[
-已知等比数列 $\{a_n\}$ 的首项 $a_1>0$，公比 $q>-1$ 且 $q != 0$. 设数列 $\{b_n\}$ 的通项 $b_n=a_(n+1)+a_(n+2)$（$n in NN$），数列 $\{a_n\}$，$\{b_n\}$ 的前 $n$ 项的和分别记为 $A_n$，$B_n$. 试比较 $A_n$ 与 $B_n$ 的大小.
+已知等比数列 ${a_n}$ 的首项 $a_1>0$，公比 $q>-1$ 且 $q != 0$. 设数列 ${b_n}$ 的通项 $b_n=a_(n+1)+a_(n+2)$（$n in NN$），数列 ${a_n}$，${b_n}$ 的前 $n$ 项的和分别记为 $A_n$，$B_n$. 试比较 $A_n$ 与 $B_n$ 的大小.
 ]
 
 #solution[
@@ -335,7 +335,7 @@ $ \{ \b e g i n{a l i g n e d} (x-2)^2+(y+1)^2& <= 4 ,\\ x-y&=3 \e n d{a l i g n
 当 $q>(sqrt(5)-1)/(2)$ 时，$A_n<B_n$.
 
 【法二】因为 $b_n=a_(n+1)+a_(n+2)=a_1(1+q)q^n$，得 $(b_(n+1))/(b_n)=q$，$q != 0$，$n in NN$，
-因此数列 $\{b_n\}$ 也是等比数列.
+因此数列 ${b_n}$ 也是等比数列.
 
 当 $q=1$ 时，$A_n=n a_1$，$B_n=2 n a_1$，
 所以 $A_n<B_n$.

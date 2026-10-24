@@ -41,7 +41,7 @@
 ]
 
 #solution[
-按实数等差、等比中项的定义，有 $2 sin alpha = sin theta + cos theta$，且 $sin ""^(2) beta = sin theta cos theta$. 因为 $sin beta$ 是实数，题设遂保证 $sin theta cos theta \g e q0$，但不必预设 $sin beta$ 的正负. 将等差中项关系平方，利用 $sin ""^(2) theta + cos ""^(2) theta =1$，得 $4 sin ""^(2) alpha =( sin theta + cos theta )^(2)=1+2 sin theta cos theta =1+2 sin ""^(2) beta$. 因而 $4 sin ""^(2) alpha -2 sin ""^(2) beta =1$. 再利用 $sin ""^(2)u=(1- cos 2 u)/(2)$，左边化为 $2(1- cos 2 alpha )-(1- cos 2 beta )=1-2 cos 2 alpha + cos 2 beta$. 所以 $1-2 cos 2 alpha + cos 2 beta =1$，即 $2 cos 2 alpha = cos 2 beta$.
+按实数等差、等比中项的定义，有 $2 sin alpha = sin theta + cos theta$，且 $sin ""^(2) beta = sin theta cos theta$. 因为 $sin beta$ 是实数，题设遂保证 $sin theta cos theta  >= 0$，但不必预设 $sin beta$ 的正负. 将等差中项关系平方，利用 $sin ""^(2) theta + cos ""^(2) theta =1$，得 $4 sin ""^(2) alpha =( sin theta + cos theta )^(2)=1+2 sin theta cos theta =1+2 sin ""^(2) beta$. 因而 $4 sin ""^(2) alpha -2 sin ""^(2) beta =1$. 再利用 $sin ""^(2)u=(1- cos 2 u)/(2)$，左边化为 $2(1- cos 2 alpha )-(1- cos 2 beta )=1-2 cos 2 alpha + cos 2 beta$. 所以 $1-2 cos 2 alpha + cos 2 beta =1$，即 $2 cos 2 alpha = cos 2 beta$.
 ]
 
 #problem(4)[
@@ -62,20 +62,20 @@
 
 #solution[
 + (1) 由凸四边形的点序，交点 $P$ 在两线段 $A B$，$C D$ 的外侧时，点在两条直线上的次序只能是 $P"-"A"-"B$ 与 $P"-"D"-"C$，或 $P"-"B"-"A$ 与 $P"-"C"-"D$. 因而 $angle P A C$ 与 $angle P D B$ 相对于圆周角 $angle B A C$ 与 $angle C D B$，要么同时相等，要么同时为补角. 又 $angle B A C= angle C D B$，因为它们都是弦 $B C$ 所对的圆周角，所以 $angle P A C= angle P D B$. 同理，$angle P C A$ 与 $angle P B D$ 相对于圆周角 $angle D C A$ 与 $angle A B D$，也要么同时相等，要么同时为补角；而 $angle D C A= angle A B D$，因为它们都是弦 $A D$ 所对的圆周角，所以 $angle P C A= angle P B D$. 因而 $triangle P A C tilde triangle P D B$，对应关系为 $P\l e f t r i g h t a r r o w P$，$A\l e f t r i g h t a r r o w D$，$C\l e f t r i g h t a r r o w B$，从而 $(C A)/(B D)=(P C)/(P B)$. 交叉相乘，得 $P B dot C A=P C dot B D$.
-+ (2) 设角 $P$ 与角 $Q$ 的内角平分线分别为 $\e l l_(P)$ 与 $\e l l_(Q)$. 约定 $\o p e r a t o r n a m e{d i r}(X Y)$ 表示从 $X$ 指向 $Y$ 的射线方向角，并按 $360^( degree )$ 取模. 按圆周顺序设点 $A$，$B$，$C$，$D$ 对应的圆心角参数为 $a<b<c<d<a+360^( degree )$. 若圆上两点 $U$，$V$ 的参数满足 $u<v<u+360^( degree )$，则有向弦 $U V$ 的方向角为 $(u+v)/(2)+90^( degree )$，因为圆心到弦中点的半径方向为 $(u+v)/(2)$，且该半径垂直于弦. 因此 $\o p e r a t o r n a m e{d i r}(A B)=(a+b)/(2)+90^( degree )$，$\o p e r a t o r n a m e{d i r}(B C)=(b+c)/(2)+90^( degree )$，$\o p e r a t o r n a m e{d i r}(C D)=(c+d)/(2)+90^( degree )$，$\o p e r a t o r n a m e{d i r}(A D)=(a+d)/(2)+90^( degree )$. 从而 $\o p e r a t o r n a m e{d i r}(A B)+\o p e r a t o r n a m e{d i r}(C D)\equiv\o p e r a t o r n a m e{d i r}(B C)+\o p e r a t o r n a m e{d i r}(A D)\p m o d {360^( degree )}$.
++ (2) 设角 $P$ 与角 $Q$ 的内角平分线分别为 $\e l l_(P)$ 与 $\e l l_(Q)$. 约定 $\o p e r a t o r n a m e{d i r}(X Y)$ 表示从 $X$ 指向 $Y$ 的射线方向角，并按 $360^( degree )$ 取模. 按圆周顺序设点 $A$，$B$，$C$，$D$ 对应的圆心角参数为 $a<b<c<d<a+360^( degree )$. 若圆上两点 $U$，$V$ 的参数满足 $u<v<u+360^( degree )$，则有向弦 $U V$ 的方向角为 $(u+v)/(2)+90^( degree )$，因为圆心到弦中点的半径方向为 $(u+v)/(2)$，且该半径垂直于弦. 因此 $\o p e r a t o r n a m e{d i r}(A B)=(a+b)/(2)+90^( degree )$，$\o p e r a t o r n a m e{d i r}(B C)=(b+c)/(2)+90^( degree )$，$\o p e r a t o r n a m e{d i r}(C D)=(c+d)/(2)+90^( degree )$，$\o p e r a t o r n a m e{d i r}(A D)=(a+d)/(2)+90^( degree )$. 从而 $\o p e r a t o r n a m e{d i r}(A B)+\o p e r a t o r n a m e{d i r}(C D) equiv \o p e r a t o r n a m e{d i r}(B C)+\o p e r a t o r n a m e{d i r}(A D)\p m o d {360^( degree )}$.
 
 由于 $A B C D$ 为凸四边形，若 $P$ 在 $A B$ 的 $A$ 端外侧，则它在 $C D$ 的 $D$ 端外侧；若 $P$ 在 $A B$ 的 $B$ 端外侧，则它在 $C D$ 的 $C$ 端外侧. 因而射线 $P A$，$P D$ 相对于有向弦 $A B$，$C D$ 的方向恰有一个反向，所以
 
-$ \o p e r a t o r n a m e{d i r}(P A)+\o p e r a t o r n a m e{d i r}(P D)\equiv\o p e r a t o r n a m e{d i r}(A B)+\o p e r a t o r n a m e{d i r}(C D)+180^( degree )\p m o d {360^( degree )} $
+$ \o p e r a t o r n a m e{d i r}(P A)+\o p e r a t o r n a m e{d i r}(P D) equiv \o p e r a t o r n a m e{d i r}(A B)+\o p e r a t o r n a m e{d i r}(C D)+180^( degree )\p m o d {360^( degree )} $
 
 同理，若 $Q$ 在 $A D$ 的 $A$ 端外侧，则它在 $B C$ 的 $B$ 端外侧，反之亦然. 所以射线 $Q A$，$Q B$ 相对于有向弦 $A D$，$B C$ 的方向要么同时同向，要么同时反向，因而
 
-$ \o p e r a t o r n a m e{d i r}(Q A)+\o p e r a t o r n a m e{d i r}(Q B)\equiv\o p e r a t o r n a m e{d i r}(A D)+\o p e r a t o r n a m e{d i r}(B C)\p m o d {360^( degree )} $
+$ \o p e r a t o r n a m e{d i r}(Q A)+\o p e r a t o r n a m e{d i r}(Q B) equiv \o p e r a t o r n a m e{d i r}(A D)+\o p e r a t o r n a m e{d i r}(B C)\p m o d {360^( degree )} $
 
 结合前面的方向角关系，得到
 
-$ \o p e r a t o r n a m e{d i r}(P A)+\o p e r a t o r n a m e{d i r}(P D)\equiv\o p e r a t o r n a m e{d i r}(Q A)+\o p e r a t o r n a m e{d i r}(Q B)+180^( degree )\p m o d {360^( degree )} $
+$ \o p e r a t o r n a m e{d i r}(P A)+\o p e r a t o r n a m e{d i r}(P D) equiv \o p e r a t o r n a m e{d i r}(Q A)+\o p e r a t o r n a m e{d i r}(Q B)+180^( degree )\p m o d {360^( degree )} $
 
-若 $\o p e r a t o r n a m e{d i r}(\e l l_(P))$ 与 $\o p e r a t o r n a m e{d i r}(\e l l_(Q))$ 分别表示两条内角平分线的方向角，则内角平分线的方向满足 $2\o p e r a t o r n a m e{d i r}(\e l l_(P))\equiv\o p e r a t o r n a m e{d i r}(P A)+\o p e r a t o r n a m e{d i r}(P D)\p m o d {360^( degree )}$，以及 $2\o p e r a t o r n a m e{d i r}(\e l l_(Q))\equiv\o p e r a t o r n a m e{d i r}(Q A)+\o p e r a t o r n a m e{d i r}(Q B)\p m o d {360^( degree )}$. 因而 $2(\o p e r a t o r n a m e{d i r}(\e l l_(P))-\o p e r a t o r n a m e{d i r}(\e l l_(Q)))\equiv180^( degree )\p m o d {360^( degree )}$，即 $\o p e r a t o r n a m e{d i r}(\e l l_(P))-\o p e r a t o r n a m e{d i r}(\e l l_(Q))\equiv90^( degree )\p m o d {180^( degree )}$. 所以 $\e l l_(P)$ 与 $\e l l_(Q)$ 互相垂直.
+若 $\o p e r a t o r n a m e{d i r}(\e l l_(P))$ 与 $\o p e r a t o r n a m e{d i r}(\e l l_(Q))$ 分别表示两条内角平分线的方向角，则内角平分线的方向满足 $2\o p e r a t o r n a m e{d i r}(\e l l_(P)) equiv \o p e r a t o r n a m e{d i r}(P A)+\o p e r a t o r n a m e{d i r}(P D)\p m o d {360^( degree )}$，以及 $2\o p e r a t o r n a m e{d i r}(\e l l_(Q)) equiv \o p e r a t o r n a m e{d i r}(Q A)+\o p e r a t o r n a m e{d i r}(Q B)\p m o d {360^( degree )}$. 因而 $2(\o p e r a t o r n a m e{d i r}(\e l l_(P))-\o p e r a t o r n a m e{d i r}(\e l l_(Q))) equiv 180^( degree )\p m o d {360^( degree )}$，即 $\o p e r a t o r n a m e{d i r}(\e l l_(P))-\o p e r a t o r n a m e{d i r}(\e l l_(Q)) equiv 90^( degree )\p m o d {180^( degree )}$. 所以 $\e l l_(P)$ 与 $\e l l_(Q)$ 互相垂直.
 ]
 

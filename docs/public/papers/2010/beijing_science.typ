@@ -11,18 +11,18 @@
 #part-header("单选题")
 
 #problem(1)[
-集合 $P = \{x in ZZ | 0 <= x < 3\}$，$M = \{x in ZZ | x^2 <= 9 \}$，则 $P inter M =$（ ）
-  #choices([$\{1, 2\}$], [$\{0, 1, 2\}$], [$\{x | 0 <= x < 3\}$], [$\{x | 0 <= x <= 3 \}$], cols: 2)
+集合 $P = {x in ZZ | 0 <= x < 3}$，$M = {x in ZZ | x^2 <= 9 }$，则 $P inter M =$（ ）
+  #choices([${1, 2}$], [${0, 1, 2}$], [${x | 0 <= x < 3}$], [${x | 0 <= x <= 3 }$], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由 $0 <= x<3$ 且 $x in ZZ$，得 $P=\{0,1,2\}$. 又由 $x^(2) <= 9$ 且 $x in ZZ$，得 $M=\{-3,-2,-1,0,1,2,3\}$. 因此 $P inter M=\{0,1,2\}$，故选 B.
+由 $0 <= x<3$ 且 $x in ZZ$，得 $P={0,1,2}$. 又由 $x^(2) <= 9$ 且 $x in ZZ$，得 $M={-3,-2,-1,0,1,2,3}$. 因此 $P inter M={0,1,2}$，故选 B.
 ]
 
 #problem(2)[
-在等比数列 $\{a_(n)\}$ 中，$a_(1) = 1$，公比 $|q| != 1$. 若 $a_(m) = a_(1)a_(2)a_(3)a_(4)a_(5)$，则 $m =$（ ）
+在等比数列 ${a_(n)}$ 中，$a_(1) = 1$，公比 $|q| != 1$. 若 $a_(m) = a_(1)a_(2)a_(3)a_(4)a_(5)$，则 $m =$（ ）
   #choices([$9$], [$10$], [$11$], [$12$], cols: 4)
 ]
 
@@ -76,11 +76,11 @@ $bold(a)$，$bold(b)$ 为非零向量. “$bold(a) bot bold(b)$”是“函数 $
 #answer([B])
 
 #solution[
-展开数量积得 $f(x)=x^(2)bold(a)\c d o t b o l d(b)+x(bold(b)\c d o t b o l d(b)-bold(a)\c d o t b o l d(a))-bold(a)\c d o t b o l d(b)$. 若 $f(x)$ 是一次函数，二次项系数必须为零，所以 $bold(a)\c d o t b o l d(b)=0$，即 $bold(a)\p e r p b o l d(b)$，因此前者是后者的必要条件. 但 $bold(a)\p e r p b o l d(b)$ 时，若再有 $\l v e r t b o l d(a)|=\l v e r t b o l d(b)|$，则 $f(x)\equiv0$，不是一次函数，所以该条件不是充分条件. 故选 B.
+展开数量积得 $f(x)=x^(2)bold(a)\c d o t b o l d(b)+x(bold(b)\c d o t b o l d(b)-bold(a)\c d o t b o l d(a))-bold(a)\c d o t b o l d(b)$. 若 $f(x)$ 是一次函数，二次项系数必须为零，所以 $bold(a)\c d o t b o l d(b)=0$，即 $bold(a)\p e r p b o l d(b)$，因此前者是后者的必要条件. 但 $bold(a)\p e r p b o l d(b)$ 时，若再有 $\l v e r t b o l d(a)|=\l v e r t b o l d(b)|$，则 $f(x) equiv 0$，不是一次函数，所以该条件不是充分条件. 故选 B.
 ]
 
 #problem(7)[
-设不等式组 $\{\b e g i n{a l i g n e d}x+y-11& >= 0 ,\\ 3 x-y+3& >= 0 ,\\ 5 x-3 y+9& <= 0 \e n d{a l i g n e d}.$ 表示的平面区域为 $D$. 若指数函数 $y=a^(x)$ 的图象上存在区域 $D$ 内的点，则 $a$ 的取值范围是（ ）
+设不等式组 ${\b e g i n{a l i g n e d}x+y-11& >= 0 ,\\ 3 x-y+3& >= 0 ,\\ 5 x-3 y+9& <= 0 \e n d{a l i g n e d}.$ 表示的平面区域为 $D$. 若指数函数 $y=a^(x)$ 的图象上存在区域 $D$ 内的点，则 $a$ 的取值范围是（ ）
   #choices([$(1,3]$], [$[2,3]$], [$(1,2]$], [$[3, + oo )$], cols: 4)
 ]
 
@@ -104,7 +104,7 @@ $bold(a)$，$bold(b)$ 为非零向量. “$bold(a) bot bold(b)$”是“函数 $
 #solution[
 建立空间直角坐标系，令 $A(0,0,0)$，$B(2,0,0)$，$C(2,2,0)$，$D(0,2,0)$，$A_(1)(0,0,2)$，$B_(1)(2,0,2)$. 则可设 $E=(x,0,2)$，且由于 $E F=1$，有 $F=(x+\v a r e p s i l o n,0,2)$，其中 $\v a r e p s i l o n= +- 1$. 又 $D P=z$、$D Q=y$，故 $P=(0,2-z,0)$，$Q=(y,2,0)$.
 
-设四面体 $P E F Q$ 的体积为 $V$. 因为 $arrow(P E)=(x,z-2,2)$，$arrow(P F)-arrow(P E)=arrow(E F)=(\v a r e p s i l o n,0,0)$，$arrow(P Q)=(y,z,0)$，所以 $6 V=|\det(arrow(P E),arrow(E F),arrow(P Q))|=2 z$. 因此 $V=(z)/(3)$，只与 $z$ 有关，与 $x$，$y$ 无关，故选 D.
+设四面体 $P E F Q$ 的体积为 $V$. 因为 $arrow(P E)=(x,z-2,2)$，$arrow(P F)-arrow(P E)=arrow(E F)=(\v a r e p s i l o n,0,0)$，$arrow(P Q)=(y,z,0)$，所以 $6 V=|det(arrow(P E),arrow(E F),arrow(P Q))|=2 z$. 因此 $V=(z)/(3)$，只与 $z$ 有关，与 $x$，$y$ 无关，故选 D.
 ]
 
 #part-header("填空题")
@@ -225,7 +225,7 @@ $ g(t)=2(2 t^(2)-1)+(1-t^(2))-4 t=3 t^(2)-4 t-1=3(t-(2)/(3))^(2)-(7)/(3) $
 $ bold(n)=arrow(D B)\t i m e s a r r o w(D E)=(-sqrt(2),-sqrt(2),2) $
 
 而 $arrow(A F)=((1)/(sqrt(2)),(1)/(sqrt(2)),1)$，且 $arrow(A F)\c d o t b o l d(n)=-1-1+2=0$.
-又 $arrow(B A)\c d o t b o l d(n)=2\n e q0$，故 $A$ 不在平面 $B D E$ 内. 所以 $A F$ 的方向向量与平面 $B D E$ 的法向量垂直，且 $A F$ 不在平面 $B D E$ 内，即 $A F parallel$ 平面 $B D E$.
+又 $arrow(B A)\c d o t b o l d(n)=2 != 0$，故 $A$ 不在平面 $B D E$ 内. 所以 $A F$ 的方向向量与平面 $B D E$ 的法向量垂直，且 $A F$ 不在平面 $B D E$ 内，即 $A F parallel$ 平面 $B D E$.
 + (2) $arrow(C F)=(-(1)/(sqrt(2)),-(1)/(sqrt(2)),1)$，所以 $2 arrow(C F)=(-sqrt(2),-sqrt(2),2)=bold(n)$.
 因此 $C F$ 的方向向量平行于平面 $B D E$ 的法向量，从而 $C F bot$ 平面 $B D E$.
 + (3) 平面 $A B E$ 的一个法向量和平面 $D B E$ 的一个法向量分别可取 $bold(n)_(1)=arrow(A B)\t i m e s a r r o w(B E)=(0,-sqrt(2),2)$，$bold(n)_(2)=bold(n)=(-sqrt(2),-sqrt(2),2)$.
@@ -304,7 +304,7 @@ $f'(x)=(1)/(1+x)-1+k x=(x(k x+k-1))/(1+x)$.
 
 #solution[
 + (1) 由中心对称性，$B(1,-1)$. 设 $P(x,y)$，则直线 $A P$ 和 $B P$ 的斜率分别为 $(y-1)/(x+1)$ 和 $(y+1)/(x-1)$.
-由于斜率存在，必须有 $x != -1$ 且 $x\n e q1$. 由题意 $(y-1)/(x+1) dot (y+1)/(x-1)=-(1)/(3)$，化简得 $3(y^(2)-1)=-(x^(2)-1)$.
+由于斜率存在，必须有 $x != -1$ 且 $x != 1$. 由题意 $(y-1)/(x+1) dot (y+1)/(x-1)=-(1)/(3)$，化简得 $3(y^(2)-1)=-(x^(2)-1)$.
 所以动点 $P$ 的轨迹方程为 $x^(2)+3 y^(2)=4$，且 $x != +- 1$.
 + (2) 直线 $A P$ 与 $x=3$ 交于 $M$，直线 $B P$ 与 $x=3$ 交于 $N$，故
 $M(3,1+(4(y-1))/(x+1))=(3,(x+4 y-3)/(x+1))$，$N(3,-1+(2(y+1))/(x-1))=(3,(2 y-x+3)/(x-1))$.
@@ -312,7 +312,7 @@ $M(3,1+(4(y-1))/(x+1))=(3,(x+4 y-3)/(x+1))$，$N(3,-1+(2(y+1))/(x-1))=(3,(2 y-x+
 
 $ y_N-y_M=(2 y-x+3)/(x-1)-(x+4 y-3)/(x+1)=-(2(x-3)(x+y))/(x^(2)-1) $
 
-直线 $A B$ 的方程为 $x+y=0$，且轨迹与直线 $A B$ 的交点只有 $(1,-1)$ 和 $(-1,1)$，这两点因斜率不存在已被排除. 因此 $x+y\n e q0$.
+直线 $A B$ 的方程为 $x+y=0$，且轨迹与直线 $A B$ 的交点只有 $(1,-1)$ 和 $(-1,1)$，这两点因斜率不存在已被排除. 因此 $x+y != 0$.
 
 三角形 $P A B$ 的底边 $A B$ 长为 $2 sqrt(2)$，点 $P$ 到直线 $A B$ 的距离为 $(|x+y|)/(sqrt(2))$，所以 $S_( triangle P A B)=|x+y|$. 又因为 $M N$ 在直线 $x=3$ 上，点 $P$ 到该直线的距离为 $|x-3|$，故 $S_( triangle P M N)=(1)/(2)|x-3| |y_N-y_M|=((x-3)^(2)|x+y|)/(|x^(2)-1|)$. 令两面积相等并约去正数 $|x+y|$，得到 $(x-3)^(2)=|x^(2)-1|$.
 由轨迹方程知 $|x| <= 2$. 当 $|x| >= 1$ 时，
@@ -324,7 +324,7 @@ $ (x-3)^(2)=x^(2)-1\L o n g r i g h t a r r o w x^(2)-6 x+9=x^(2)-1\L o n g r i 
 ]
 
 #problem(20)[
-已知集合 $S_(n) = \{X | X = (x_(1), x_(2), \l d o t s, x_(n)), x_(i) in \{0, 1\}, i = 1, 2, dots.c , n\}$ （$n >= 2$），对于 $A = (a_(1), a_(2), dots.c , a_(n))$，$B = (b_(1), b_(2), dots.c , b_(n)) in S_(n)$，定义 $A$ 与 $B$ 的差为 $A - B = (|a_(1) - b_(1)|, |a_(2) - b_(2)|, dots.c , |a_(n) - b_(n)|)$； $A$ 与 $B$ 之间的距离为 $d(A, B) = sum_(i=1)^(n) |a_(i) - b_(i)|$.
+已知集合 $S_(n) = {X | X = (x_(1), x_(2), \l d o t s, x_(n)), x_(i) in {0, 1}, i = 1, 2, dots.c , n}$ （$n >= 2$），对于 $A = (a_(1), a_(2), dots.c , a_(n))$，$B = (b_(1), b_(2), dots.c , b_(n)) in S_(n)$，定义 $A$ 与 $B$ 的差为 $A - B = (|a_(1) - b_(1)|, |a_(2) - b_(2)|, dots.c , |a_(n) - b_(n)|)$； $A$ 与 $B$ 之间的距离为 $d(A, B) = sum_(i=1)^(n) |a_(i) - b_(i)|$.
 
 + (1) 证明： $forall A$，$B$，$C in S_n$，有 $A - B in S_n$，且 $d(A - C, B - C) = d(A, B)$；
 + (2) 证明： $forall A$，$B$，$C in S_n$，$d(A, B)$，$d(A, C)$，$d(B, C)$ 三个数中至少有一个是偶数；
@@ -333,11 +333,11 @@ $ (x-3)^(2)=x^(2)-1\L o n g r i g h t a r r o w x^(2)-6 x+9=x^(2)-1\L o n g r i 
 
 #solution[
 + (1) 设 $A=(a_(1),a_(2),\l d o t s,a_(n))$，$B=(b_(1),b_(2),\l d o t s,b_(n))$，$C=(c_(1),c_(2),\l d o t s,c_(n))$.
-由于 $a_i$，$b_i in \{0,1\}$，所以 $|a_i-b_i|$ 只能取 $0$ 或 $1$. 因此
+由于 $a_i$，$b_i in {0,1}$，所以 $|a_i-b_i|$ 只能取 $0$ 或 $1$. 因此
 
 $ A-B=(|a_(1)-b_(1)|,|a_(2)-b_(2)|,\l d o t s,|a_(n)-b_(n)|) in S_n $
 
-对每个 $i$，因为 $a_i$，$b_i$，$c_i in \{0,1\}$，有
+对每个 $i$，因为 $a_i$，$b_i$，$c_i in {0,1}$，有
 
 $ ||a_i-c_i|-|b_i-c_i||=|a_i-b_i| $
 
@@ -360,11 +360,11 @@ $ k_i(m-k_i)=(m^(2))/(4)-(k_i-(m)/(2))^(2) <= (m^(2))/(4) $
 
 可得所有无序元素对的距离总和满足
 
-$ sum_(\{A,B\} subset.eq P)d(A,B)=sum_(i=1)^(n)k_i(m-k_i) <= (n m^(2))/(4) $
+$ sum_({A,B} subset.eq P)d(A,B)=sum_(i=1)^(n)k_i(m-k_i) <= (n m^(2))/(4) $
 
 而 $P$ 中无序的两元素组共有 $C_m^2=(m(m-1))/(2)$ 个，所以
 
-$ overline(d)(P)=(sum_(\{A,B\}{ subset.eq } P)d(A,B))/(C_m^2) <= (n(m^(2))/(4))/(m((m-1))/(2))=(m n)/(2(m-1)) $
+$ overline(d)(P)=(sum_({A,B}{ subset.eq } P)d(A,B))/(C_m^2) <= (n(m^(2))/(4))/(m((m-1))/(2))=(m n)/(2(m-1)) $
 
 命题得证.
 ]

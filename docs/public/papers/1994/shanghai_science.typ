@@ -178,9 +178,9 @@ $cos 2 x+ cos (2 x+(pi)/(3))=2 cos (2 x+(pi)/(6)) cos (pi)/(6)$. 在原函数有
 #answer([D])
 
 #solution[
-由 $P subset Q$，直接得到 $P union Q=Q$，所以 A 正确. 对任意属于全集 $I$ 的元素，若它不属于 $P$，则属于 $\overline P$；若它属于 $P$，由 $P subset Q$ 可知它属于 $Q$，所以 $\overline P union Q=I$，B 正确.
+由 $P subset Q$，直接得到 $P union Q=Q$，所以 A 正确. 对任意属于全集 $I$ 的元素，若它不属于 $P$，则属于 $overline(P)$；若它属于 $P$，由 $P subset Q$ 可知它属于 $Q$，所以 $overline(P) union Q=I$，B 正确.
 
-又因为 $P subset Q$，集合 $P$ 与 $\overline Q$ 没有公共元素，故 $P inter \overline Q= emptyset$，C 正确. 由补集的包含关系 $\overline Q subset \overline P$，有 $\overline P inter \overline Q=\overline Q$，一般不等于 $\overline P$，所以错误的是 D.
+又因为 $P subset Q$，集合 $P$ 与 $overline(Q)$ 没有公共元素，故 $P inter overline(Q)= emptyset$，C 正确. 由补集的包含关系 $overline(Q) subset overline(P)$，有 $overline(P) inter overline(Q)=overline(Q)$，一般不等于 $overline(P)$，所以错误的是 D.
 ]
 
 #problem(16)[
@@ -421,12 +421,12 @@ $S(t_1) > (5)/(4) >= S(t_2)$.
 ]
 
 #problem(26)[
-已知数列 $\{a_n\}$ 满足条件：$a_1 = 1$，$a_2 = r$（$r > 0$），且 $\{a_n a_(n + 1)\}$ 是公比为 $q$（$q > 0$）的等比数列，设 $b_n = a_(2 n - 1) + a_(2 n)$（$n = 1$，$2$，$...$）.
+已知数列 ${a_n}$ 满足条件：$a_1 = 1$，$a_2 = r$（$r > 0$），且 ${a_n a_(n + 1)}$ 是公比为 $q$（$q > 0$）的等比数列，设 $b_n = a_(2 n - 1) + a_(2 n)$（$n = 1$，$2$，$...$）.
 
 
 + (1) 求出使不等式 $a_(n) a_(n + 1) + a_(n + 1)a_(n + 2) > a_(n + 2)a_(n + 3)$（$n in NN$）成立的 $q$ 的取值范围；
 + (2) 求 $b_n$ 和 $lim_(n -> oo )(1)/(S_n)$，其中 $S_n = b_1 + b_2 + dots.c + b_n$；
-+ (3) 设 $r = 2^(19.2) - 1$，$q = (1)/(2)$，求数列 $\{(log _2 b_(n + 1))/(log _2 b_n)\}$ 的最大项和最小项的值.
++ (3) 设 $r = 2^(19.2) - 1$，$q = (1)/(2)$，求数列 ${(log _2 b_(n + 1))/(log _2 b_n)}$ 的最大项和最小项的值.
 ]
 
 #solution[
@@ -443,7 +443,7 @@ $ a_(n+1)a_(n+2)=q(a_(n) a_(n+1)) $
 
 $ (b_(n + 1))/(b_n)= (a_(2 n + 1) + a_(2 n + 2))/(a_(2 n - 1) + a_(2 n))= (a_(2 n - 1){q} + a_(2 n)q)/(a_(2 n - 1) + a_(2 n))= q != 0 $
 
-又 $b_1 = 1 + r != 0$，所以 $\{b_n\}$ 是首项为 $1 + r$，公比为 $q$ 的等比数列，从而 $b_n = (1 + r)q^(n - 1)$.
+又 $b_1 = 1 + r != 0$，所以 ${b_n}$ 是首项为 $1 + r$，公比为 $q$ 的等比数列，从而 $b_n = (1 + r)q^(n - 1)$.
 
 当 $q = 1$ 时，
 $S_n = n(1 + r)$，$lim_(n -> oo )(1)/(S_n)= 0$.
@@ -491,6 +491,6 @@ $ 1 > c_n >= c_(20) = 1 + (1)/(20 - 20.2)= 1 - (1)/(0.2)= -4 $
 
 
 综合可知，对任意的自然数 $n$，有 $c_(20) <= c_n <= c_(21)$.
-故 $\{c_n\}$ 的最大项是 $c_(21) = 2.25$，最小项是 $c_(20) = -4$.
+故 ${c_n}$ 的最大项是 $c_(21) = 2.25$，最小项是 $c_(20) = -4$.
 ]
 

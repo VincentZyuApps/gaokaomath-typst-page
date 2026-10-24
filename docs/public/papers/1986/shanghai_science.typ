@@ -275,8 +275,8 @@ $arrow(F A_1)\c d o t a r r o w(F B_1)=4 c^2(1+t u)=0$，所以 $F A_1 bot F B_1
 ]
 
 #problem(20)[
-若全集 $I=\{(x,y) | x,y in RR \}$，$A=\{(x,y) | (y-3)/(x-2)=1,\ x,y in RR \}$，$B=\{(x,y) | y=x+1,\ x,y in RR \}$，则 $overline(A) inter B$ 是（ ）
-  #choices([$overline(A)$], [$B$], [$emptyset$], [$\{(2,3)\}$], cols: 4)
+若全集 $I={(x,y) | x,y in RR }$，$A={(x,y) | (y-3)/(x-2)=1,\ x,y in RR }$，$B={(x,y) | y=x+1,\ x,y in RR }$，则 $overline(A) inter B$ 是（ ）
+  #choices([$overline(A)$], [$B$], [$emptyset$], [${(2,3)}$], cols: 4)
 ]
 
 #answer([D])
@@ -284,10 +284,10 @@ $arrow(F A_1)\c d o t a r r o w(F B_1)=4 c^2(1+t u)=0$，所以 $F A_1 bot F B_1
 #solution[
 集合 $A$ 中的分式要求 $x != 2$.在此条件下，
 $(y-3)/(x-2)=1$ 等价于 $y-3=x-2$，即 $y=x+1$.因此
-$A=\{(x,y) | y=x+1,\ (x,y) != (2,3)\}$.
+$A={(x,y) | y=x+1,\ (x,y) != (2,3)}$.
 
-全集为 $I$，所以 $\overline A$ 由 $I$ 中不属于 $A$ 的点组成.与 $B$ 相交时，$B$ 上除去的只有 $A$ 中的点，唯一剩下的点为 $(2,3)$，故
-$\overline A inter B=\{(2,3)\}$，选 D.
+全集为 $I$，所以 $overline(A)$ 由 $I$ 中不属于 $A$ 的点组成.与 $B$ 相交时，$B$ 上除去的只有 $A$ 中的点，唯一剩下的点为 $(2,3)$，故
+$overline(A) inter B={(2,3)}$，选 D.
 ]
 
 #part-header("填空题")
@@ -414,11 +414,11 @@ $y+1=(3)/(4)(x-4)$，即 $y=(3)/(4)x-4$.令 $x=0$，得其在 $y$ 轴上的截�
 #part-header("解答题")
 
 #problem(31)[
-设数列 $\{a_n\}$ 的前 $n$ 项的和为 $S_n=n^2+2 n+4$（$n in ZZ ""^+$）.
+设数列 ${a_n}$ 的前 $n$ 项的和为 $S_n=n^2+2 n+4$（$n in ZZ ""^+$）.
 
 
 + (1) 写出这个数列的前三项 $a_1$，$a_2$，$a_3$；
-+ (2) 证明：数列 $\{a_n\}$ 除去首项后所成的数列 $a_2$，$a_3$，$a_4$，$dots.c$ 是等差数列.
++ (2) 证明：数列 ${a_n}$ 除去首项后所成的数列 $a_2$，$a_3$，$a_4$，$dots.c$ 是等差数列.
 ]
 
 #solution[

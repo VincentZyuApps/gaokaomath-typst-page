@@ -281,7 +281,7 @@ $ V_1:V_2=r_1^3:r_2^3=1:8 $
 
 #problem(22)[
 设全集 $U = RR$，下列集合运算结果为 $RR$ 的是（ ）
-  #choices([$ZZ union \c o m p l e m e n t_U NN$], [$NN inter \c o m p l e m e n t_U NN$], [$\c o m p l e m e n t_U (\c o m p l e m e n t_U \emptyset)$], [$\c o m p l e m e n t_U \{0\}$], cols: 1)
+  #choices([$ZZ union \c o m p l e m e n t_U NN$], [$NN inter \c o m p l e m e n t_U NN$], [$\c o m p l e m e n t_U (\c o m p l e m e n t_U emptyset)$], [$\c o m p l e m e n t_U {0}$], cols: 1)
 ]
 
 #answer([A])
@@ -291,7 +291,7 @@ $ V_1:V_2=r_1^3:r_2^3=1:8 $
 
 $ ZZ union \c o m p l e m e n t_( RR ) NN = RR $
 
-选项 B 的交集为空，选项 C 为 $\c o m p l e m e n t_( RR )(\c o m p l e m e n t_( RR )\emptyset)=\emptyset$，选项 D 为 $RR \s m a l l s e t m i n u s\{0\}$，均不等于 $RR$. 所以应选 A.
+选项 B 的交集为空，选项 C 为 $\c o m p l e m e n t_( RR )(\c o m p l e m e n t_( RR )emptyset)=emptyset$，选项 D 为 $RR \s m a l l s e t m i n u s{0}$，均不等于 $RR$. 所以应选 A.
 ]
 
 #problem(23)[
@@ -375,7 +375,7 @@ $ y=B F dot F P=(50-(5)/(4)x)x=-(5)/(4)x^2+50 x=-(5)/(4)(x-20)^2+500 <= 500 $
 ]
 
 #problem(27)[
-已知数列 $\{a_n\}$ 的前 $n$ 项和为 $S_n = -n^2 + n$，数列 $\{b_n\}$ 满足 $b_n = 2^(a_n)$，求 $\lim\l i m i t s_(n -> oo ) (b_1 + b_2 + dots.c + b_n)$.
+已知数列 ${a_n}$ 的前 $n$ 项和为 $S_n = -n^2 + n$，数列 ${b_n}$ 满足 $b_n = 2^(a_n)$，求 $\lim\l i m i t s_(n -> oo ) (b_1 + b_2 + dots.c + b_n)$.
 ]
 
 #solution[
@@ -383,7 +383,7 @@ $ y=B F dot F P=(50-(5)/(4)x)x=-(5)/(4)x^2+50 x=-(5)/(4)(x-20)^2+500 <= 500 $
 
 $ a_n=S_n-S_(n-1)=(-n^(2)+n)-(-(n-1)^(2)+(n-1))=-2 n+2 $
 
-且 $a_1=S_1=0$. 因此 $b_n=2^(a_n)=2^(-2 n+2)=((1)/(4))^(n-1)$. 所以数列 $\{b_n\}$ 是首项为 $1$，公比为 $(1)/(4)$ 的无穷等比数列，
+且 $a_1=S_1=0$. 因此 $b_n=2^(a_n)=2^(-2 n+2)=((1)/(4))^(n-1)$. 所以数列 ${b_n}$ 是首项为 $1$，公比为 $(1)/(4)$ 的无穷等比数列，
 $\lim\l i m i t s_(n -> oo )(b_1+b_2+ dots.c +b_n)=(1)/(1-(1)/(4))=(4)/(3)$.
 ]
 
@@ -433,7 +433,7 @@ $(u-t)+2 v=0$，$(v)/(2)=2 dot (t+u)/(2)$.
 ]
 
 #problem(30)[
-在平面直角坐标系 $x O y$ 中，点 $A$ 在 $y$ 轴正半轴上，点 $P_(n)$ 在 $x$ 轴上，其横坐标为 $x_(n)$，且 $\{x_(n)\}$ 是首项为 $1$，公比为 $2$ 的等比数列，记 $angle P_(n)A P_(n+1) = theta _(n)$，$n in NN ""^(*)$.
+在平面直角坐标系 $x O y$ 中，点 $A$ 在 $y$ 轴正半轴上，点 $P_(n)$ 在 $x$ 轴上，其横坐标为 $x_(n)$，且 ${x_(n)}$ 是首项为 $1$，公比为 $2$ 的等比数列，记 $angle P_(n)A P_(n+1) = theta _(n)$，$n in NN ""^(*)$.
 
 
 + (1) 若 $theta _(3)= arctan (1)/(3)$，求点 $A$ 的坐标；

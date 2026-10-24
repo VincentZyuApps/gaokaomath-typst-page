@@ -19,7 +19,7 @@ $log _(3)5 dot log _(5)9=(ln 5)/(ln 3) dot (ln 9)/(ln 5)=(ln 9)/(ln 3)=2$. 因�
 ]
 
 #problem(2)[
-设数列 $\{a_(n)\}$ 的首项 $a_(1) = 8$，且满足 $a_(n) = 2 a_(n-1)$（$n = 2$，$3$，$dots.c$），则 $a_(4)$ 的数值是#blank(){}.
+设数列 ${a_(n)}$ 的首项 $a_(1) = 8$，且满足 $a_(n) = 2 a_(n-1)$（$n = 2$，$3$，$dots.c$），则 $a_(4)$ 的数值是#blank(){}.
 $64$
 
 由递推关系逐项计算，$a_(2)=2 a_(1)=16$，$a_(3)=2 a_(2)=32$，$a_(4)=2 a_(3)=64$. 因此填 $64$.
@@ -129,9 +129,9 @@ $y-2=-3(x+2)$，即 $3 x+y+4=0$. 因此选 E.
 C
 
 因为 $sin (7 pi)/(8)= sin (pi)/(8)$，而 $(3 pi)/(8)>(pi)/(8)$ 且正弦函数在 $(0,(pi)/(2))$ 上递增，所以 $sin (3 pi)/(8)> sin (7 pi)/(8)$，第一项错.
-$cos (3 pi)/(8)>0> cos (7 pi)/(8)$，所以第二项错. 两个正弦值均为正，且 $sin (3 pi)/(8)> sin (7 pi)/(8)$，取倒数后不等号反向，得到 $\csc(3 pi)/(8)<\csc(7 pi)/(8)$，第三项对.
+$cos (3 pi)/(8)>0> cos (7 pi)/(8)$，所以第二项错. 两个正弦值均为正，且 $sin (3 pi)/(8)> sin (7 pi)/(8)$，取倒数后不等号反向，得到 $csc(3 pi)/(8)<csc(7 pi)/(8)$，第三项对.
 又 $cot (3 pi)/(8)>0> cot (7 pi)/(8)$，第四项错；$tan (3 pi)/(8)>0> tan (7 pi)/(8)$，第五项错. 故选第三项.
-  #choices([$sin (3 pi)/(8)< sin (7 pi)/(8)$], [$cos (3 pi)/(8)< cos (7 pi)/(8)$], [$\csc (3 pi)/(8)< \csc (7 pi)/(8)$], [$cot (3 pi)/(8)< cot (7 pi)/(8)$], cols: 1)
+  #choices([$sin (3 pi)/(8)< sin (7 pi)/(8)$], [$cos (3 pi)/(8)< cos (7 pi)/(8)$], [$csc (3 pi)/(8)< csc (7 pi)/(8)$], [$cot (3 pi)/(8)< cot (7 pi)/(8)$], cols: 1)
 ]
 
 #problem(15)[
@@ -166,13 +166,13 @@ C
 ]
 
 #problem(18)[
-设 $R = \{"实数"\}$，$M = \{"纯虚数"\}$，$C = \{"复数"\}$，其中 $C$ 是全集，则（ ）
+设 $R = {"实数"}$，$M = {"纯虚数"}$，$C = {"复数"}$，其中 $C$ 是全集，则（ ）
 
     {$C inter overline(R)= M$}
 A
 
-在全集 $C$ 中，$\overline R$ 是实数集 $R$ 的补集，因此任意复数必属于 $R$ 或 $\overline R$，且不可能同时属于二者，从而 $R union \overline R=C$，第一项正确. 对第二项，$\overline M union R$ 不包含非零纯虚数；对第三项，$M union R$ 不包含实部、虚部均非零的复数；对第四项，按本题“纯虚数”的定义，$M inter R= emptyset != \{0\}$；对第五项，$C inter \overline R=\overline R$ 是非实数复数集，不等于纯虚数集 $M$. 因此只有第一项正确，故选第一项.
-  #choices([$R union overline(R)= C$], [$overline(M) union R = C$], [$M union R = C$], [$M inter R = \{0\}$], cols: 2)
+在全集 $C$ 中，$overline(R)$ 是实数集 $R$ 的补集，因此任意复数必属于 $R$ 或 $overline(R)$，且不可能同时属于二者，从而 $R union overline(R)=C$，第一项正确. 对第二项，$overline(M) union R$ 不包含非零纯虚数；对第三项，$M union R$ 不包含实部、虚部均非零的复数；对第四项，按本题“纯虚数”的定义，$M inter R= emptyset != {0}$；对第五项，$C inter overline(R)=overline(R)$ 是非实数复数集，不等于纯虚数集 $M$. 因此只有第一项正确，故选第一项.
+  #choices([$R union overline(R)= C$], [$overline(M) union R = C$], [$M union R = C$], [$M inter R = {0}$], cols: 2)
 ]
 
 #problem(19)[
@@ -211,12 +211,12 @@ $k-(6-k)/(2)=(3 k-6)/(2)$. 常数项要求幂次为零，所以 $k=2$. 其系数
 #problem(22)[
 不等式 $|2 x-3|>3$ 的解集是（ ）
 
-    {$\{x | 0<x<3\}$}
+    {${x | 0<x<3}$}
 D
 
 绝对值不等式等价于
-$2 x-3>3$ 或 $2 x-3<-3$. 分别解得 $x>3$ 或 $x<0$，所以解集为 $\{x | x>3"或"x<0\}$，选 D.
-  #choices([$\{x | x>3\}$], [$\{x | x<0\}$], [$\{x | x>3 "且"x<0\}$], [$\{x | x>3"或"x<0\}$], cols: 2)
+$2 x-3>3$ 或 $2 x-3<-3$. 分别解得 $x>3$ 或 $x<0$，所以解集为 ${x | x>3"或"x<0}$，选 D.
+  #choices([${x | x>3}$], [${x | x<0}$], [${x | x>3 "且"x<0}$], [${x | x>3"或"x<0}$], cols: 2)
 ]
 
 #problem(23)[
@@ -355,9 +355,9 @@ $ tan angle C D E=(C E)/(E D)=(sqrt(2))/(2(sqrt(3))/(3))=(sqrt(6))/(2) $
 
 即 $tan alpha =(sqrt(6))/(2)$. 又 $alpha$ 为锐角，
 
-$ \sec alpha =sqrt(1+ tan ""^(2) alpha)=sqrt(1+(6)/(4))=(sqrt(10))/(2) $
+$ sec alpha =sqrt(1+ tan ""^(2) alpha)=sqrt(1+(6)/(4))=(sqrt(10))/(2) $
 
-$cos alpha =(1)/(\sec alpha)=(sqrt(10))/(5)$.
+$cos alpha =(1)/(sec alpha)=(sqrt(10))/(5)$.
 
 【法二】因为 $C E bot$ 侧面 $A B B_(1)A_(1)$，所以 $triangle C A B_(1)$ 在侧面上的射影是 $triangle E A B_(1)$. 设 $triangle C A B_(1)$ 的面积为 $S_(1)$，$triangle E A B_(1)$ 的面积为 $S_(2)$，则有 $S_(2)=S_(1) cos alpha$. 在 $R t triangle C B B_(1)$ 中，$B_(1)C=sqrt(B B_(1)^(2)+B C^(2))=sqrt(4^(2)+2^(2))=2 sqrt(5)$. 又 $A B_(1)=2 sqrt(6)$，$A C=2$，三角形 $C A B_(1)$ 的半周长为 $s=1+sqrt(5)+sqrt(6)$. 由海伦公式，$S_(1)^(2)=s(s-2)(s-2 sqrt(5))(s-2 sqrt(6))=(10+2 sqrt(30))(-10+2 sqrt(30))=20$，故 $S_(1)=2 sqrt(5)$. 另一方面，
 

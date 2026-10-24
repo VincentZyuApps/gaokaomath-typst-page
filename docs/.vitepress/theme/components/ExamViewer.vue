@@ -27,7 +27,7 @@
         </button>
       </div>
 
-      <!-- 右侧辅助动作栏 -->
+      <!-- 右侧辅助动作栏 (双轨制 PDF 与源码导出) -->
       <div class="toolbar-actions">
         <a
           :href="typstUrl"
@@ -42,17 +42,24 @@
           :href="pdfUrl"
           download
           class="action-btn download-btn"
-          title="下载 Typst 编译的 A4 打印版高清 PDF"
+          title="基于 Typst 引擎离线完整预编译，已内嵌思源宋体/黑体与数学符号矢量字库，适合印刷排版与离线永久归档"
         >
-          📥 下载打印版 PDF
+          🖨️ 离线预编译 PDF
         </a>
         <span
           v-else
           class="action-btn download-btn disabled"
-          title="上游排版校对中，可下载 Typst 源码一键编译"
+          title="离线高清产物校对生成中，可使用右侧在线免字体快印或下载 Typst 源码"
         >
-          📥 PDF 校对中
+          🖨️ 离线预编译中
         </span>
+        <button
+          class="action-btn instant-print-btn"
+          @click="handleInstantPrint"
+          title="无需下载任何外部字体，调用浏览器原生矢量打印引擎即刻生成/打印 A4 试卷"
+        >
+          ⚡ 在线免字体快印
+        </button>
       </div>
     </div>
 
@@ -556,10 +563,27 @@ function handleKeydown(e: KeyboardEvent) {
   }
 }
 
+// 浏览器原生矢量快印 (免外部字体，零网络加载)
+function handleInstantPrint() {
+  if (typeof window !== 'undefined') {
+    window.print();
+  }
+}
+
+// LaTeX \circled 序号宏映射为标准 Unicode 带圈数字 (彻底修复 KaTeX 红色报错)
+const CIRCLED_NUM_MAP: Record<string, string> = {
+  '1': '①', '2': '②', '3': '③', '4': '④', '5': '⑤',
+  '6': '⑥', '7': '⑦', '8': '⑧', '9': '⑨', '10': '⑩',
+  '11': '⑪', '12': '⑫', '13': '⑬', '14': '⑭', '15': '⑮'
+};
+
 // 原生交互文档辅助函数
 function cleanMathFormula(rawMath: string): string {
   // 将数学公式内部的连续下划线填空符如 _______ 或 _______ {} 替换为 KaTeX 标准下划线宏
-  return rawMath.replace(/_{2,}\s*(\{\s*\})?/g, '\\underline{\\hspace{2.5em}}');
+  let res = rawMath.replace(/_{2,}\s*(\{\s*\})?/g, '\\underline{\\hspace{2.5em}}');
+  // 公式内部 \circled 宏转换为 Unicode 带圈字符
+  res = res.replace(/\\circled\{?([0-9]+)\}?/g, (_, num) => CIRCLED_NUM_MAP[num] || `(${num})`);
+  return res;
 }
 
 function parseLatexTable(text: string): string {
@@ -630,6 +654,9 @@ function renderMath(text: string): string {
   s = s.replace(/\$((?:[^\$]|\\\$)*?\\begin\{(?:cases|matrix|pmatrix|vmatrix|bmatrix|aligned|array)\}(?:[^\$]|\\\$)*?\\end\{(?:cases|matrix|pmatrix|vmatrix|bmatrix|aligned|array)\}(?:[^\$]|\\\$)*?)\$/g, (_, mathContent) => {
     return `\n$$\n${mathContent.trim()}\n$$\n`;
   });
+
+  // 0.8 将题干与公式外的 \circled{1} / \circled1 宏统一转换为 Unicode 带圈数字 (消灭所有红字)
+  s = s.replace(/\\circled\{?([0-9]+)\}?/g, (_, num) => CIRCLED_NUM_MAP[num] || `(${num})`);
 
   // 1. 保护图片标签
   const imgPlaceholders: string[] = [];
@@ -1038,17 +1065,18 @@ onUnmounted(() => {
   padding: 5px 12px;
   font-size: 0.82rem;
   font-weight: 600;
-  background: #f0fdf4;
-  color: #16a34a;
-  border: 1px solid #bbf7d0;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border: 1px solid var(--vp-c-brand-1);
   border-radius: 6px;
   cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .toggle-sol-btn.active {
-  background: #16a34a;
+  background: var(--vp-c-brand-1);
   color: #fff;
-  border-color: #16a34a;
+  border-color: var(--vp-c-brand-1);
 }
 
 .toggle-sol-btn.disabled {
@@ -1056,6 +1084,25 @@ onUnmounted(() => {
   color: var(--vp-c-text-3);
   border-color: var(--vp-c-divider);
   cursor: not-allowed;
+}
+
+.instant-print-btn {
+  display: inline-flex;
+  align-items: center;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-border);
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.instant-print-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
 }
 
 .icon-btn {
@@ -1083,7 +1130,9 @@ onUnmounted(() => {
   width: 100%;
   height: 65vh;
   min-height: 480px;
-  background: #f8fafc;
+  background-color: var(--vp-c-bg-alt);
+  background-image: radial-gradient(var(--vp-c-divider) 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
   border: 1px solid var(--vp-c-divider);
   border-radius: 12px;
   overflow: hidden;
@@ -1556,5 +1605,48 @@ onUnmounted(() => {
   padding: 3rem 1rem;
   color: var(--vp-c-text-3);
   font-size: 0.9rem;
+}
+
+/* 浏览器原生矢量打印优化样式 (在线极速免字体版) */
+@media print {
+  :deep(.VPNav),
+  :deep(.VPSidebar),
+  :deep(.VPLocalNav),
+  :deep(.VPFooter),
+  .mode-toolbar,
+  .single-controls,
+  .question-matrix,
+  .view-hint,
+  .doc-tools,
+  .doc-solution-collapse,
+  .doc-sol-body {
+    display: none !important;
+  }
+
+  :deep(.VPDoc) {
+    padding: 0 !important;
+  }
+
+  .exam-viewer,
+  .continuous-view,
+  .continuous-paper-flow,
+  .doc-view {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background: transparent !important;
+  }
+
+  .continuous-prob-item,
+  .doc-problem-card {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    border-bottom: 1px dashed #ccc !important;
+    padding-bottom: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
 }
 </style>

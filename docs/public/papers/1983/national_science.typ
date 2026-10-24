@@ -117,12 +117,12 @@ $sin ( beta - phi.alt )= cos phi.alt sin beta - sin phi.alt cos beta$，$cos 2 p
 
 $ r^(2)=|z|^(2)=| cos t|+| sin t| $
 
-对非负数 $u=| cos t|$，$v=| sin t|$，由 $(u-v)^(2) >= 0$ 得 $u+v\l e q s l a n t s q r t(2(u^(2)+v^(2)))$. 因为 $u^(2)+v^(2)= cos ""^(2)t+ sin ""^(2)t=1$，所以 $r^(2)\l e q s l a n t s q r t(2)$，即 $r\l e q s l a n t r o o t(4, 2)$. 当且仅当 $| cos t|=| sin t|$ 时取等号.
+对非负数 $u=| cos t|$，$v=| sin t|$，由 $(u-v)^(2) >= 0$ 得 $u+v <= s l a n t s q r t(2(u^(2)+v^(2)))$. 因为 $u^(2)+v^(2)= cos ""^(2)t+ sin ""^(2)t=1$，所以 $r^(2) <= s l a n t s q r t(2)$，即 $r <= s l a n t r o o t(4, 2)$. 当且仅当 $| cos t|=| sin t|$ 时取等号.
 + (2) $z$ 的实部和虚部均非负，且不同时为零，因此其幅角主值满足 $0 <= theta <= (pi)/(2)$. 在此范围内，
 
-$ 0 <= theta <= (pi)/(4) <=> sqrt(| sin t|)\l e q s l a n t s q r t(| cos t|) <=> | sin t| <= | cos t| $
+$ 0 <= theta <= (pi)/(4) <=> sqrt(| sin t|) <= s l a n t s q r t(| cos t|) <=> | sin t| <= | cos t| $
 
-若 $cos t=0$，则 $| sin t|=1>| cos t|=0$，不满足上述不等式；若 $cos t\n e q0$，则
+若 $cos t=0$，则 $| sin t|=1>| cos t|=0$，不满足上述不等式；若 $cos t != 0$，则
 
 $ | sin t| <= | cos t| <=> | tan t| <= 1 $
 
@@ -179,10 +179,10 @@ $ (6)/(1+8 sin ""^(2) alpha)=2 <=> sin ""^(2) alpha =(1)/(4) $
 ]
 
 #problem(12)[
-已知数列 $\{a_(n)\}$ 的首项 $a_(1) = b$（$b != 0$），它的前 $n$ 项的和 $S_(n) = a_(1) + a_(2) + dots.c + a_(n)$（$n >= 1$），并且 $S_(1)$，$S_(2)$，$dots.c$，$S_(n)$，$dots.c$ 是一个等比数列，其公比为 $p$（$p != 0$，$|p| < 1$）.
+已知数列 ${a_(n)}$ 的首项 $a_(1) = b$（$b != 0$），它的前 $n$ 项的和 $S_(n) = a_(1) + a_(2) + dots.c + a_(n)$（$n >= 1$），并且 $S_(1)$，$S_(2)$，$dots.c$，$S_(n)$，$dots.c$ 是一个等比数列，其公比为 $p$（$p != 0$，$|p| < 1$）.
 
 
-+ (1) 证明：$a_(2)$，$a_(3)$，$dots.c$，$a_(n)$，$dots.c$（即 $\{a_(n)\}$ 从第二项起）是一个等比数列；
++ (1) 证明：$a_(2)$，$a_(3)$，$dots.c$，$a_(n)$，$dots.c$（即 ${a_(n)}$ 从第二项起）是一个等比数列；
 + (2) 设 $W_(n)=a_(1)S_(1)+a_(2)S_(2)+a_(3)S_(3)+ dots.c +a_(n)S_(n)$（$n >= 1$），求 $lim_(n -> oo )W_(n)$（用 $b$，$p$ 表示）.
 
 
@@ -191,7 +191,7 @@ $ (6)/(1+8 sin ""^(2) alpha)=2 <=> sin ""^(2) alpha =(1)/(4) $
 
 $ a_(n)=S_(n)-S_(n-1)=b p^(n-2)(p-1) $
 
-由于 $b\n e q0$、$p\n e q0$ 且 $|p|<1$，有 $p\n e q1$，所以 $(a_(n+1))/(a_(n))=p$. 因而 $a_(2)$，$a_(3)$，$\l d o t s$ 是公比为 $p$ 的等比数列.
+由于 $b != 0$、$p != 0$ 且 $|p|<1$，有 $p != 1$，所以 $(a_(n+1))/(a_(n))=p$. 因而 $a_(2)$，$a_(3)$，$\l d o t s$ 是公比为 $p$ 的等比数列.
 + (2) $a_(1)S_(1)=b^(2)$. 对 $k >= 2$，
 
 $ a_(k)S_(k)=b p^(k-2)(p-1) dot b p^(k-1)=b^(2)(p-1)p^(2 k-3) $

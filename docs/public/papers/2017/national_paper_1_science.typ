@@ -11,14 +11,14 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $A=\{x | x<1\}$，$B=\{x | 3^x<1\}$，则（ ）
-  #choices([$A inter B=\{x | x<0\}$], [$A union B= RR$], [$A union B=\{x | x>1\}$], [$A inter B= emptyset$], cols: 2)
+已知集合 $A={x | x<1}$，$B={x | 3^x<1}$，则（ ）
+  #choices([$A inter B={x | x<0}$], [$A union B= RR$], [$A union B={x | x>1}$], [$A inter B= emptyset$], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由 $3^x<1=3^0$，且底数 $3>1$，得 $x<0$，所以 $B=\{x | x<0\}$. 于是 $A inter B=\{x | x<0\}$，故选 A.
+由 $3^x<1=3^0$，且底数 $3>1$，得 $x<0$，所以 $B={x | x<0}$. 于是 $A inter B={x | x<0}$，故选 A.
 ]
 
 #problem(2)[
@@ -46,7 +46,7 @@ $ ((1)/(2) pi r^2)/((2 r)^2)=(pi)/(8) $
 \item $p_1$：若复数 $z$ 满足 $(1)/(z) in RR$，则 $z in RR$；
 \item $p_2$：若复数 $z$ 满足 $z^2 in RR$，则 $z in RR$；
 \item $p_3$：若复数 $z_1$，$z_2$ 满足 $z_(1) z_2 in RR$，则 $z_1=overline(z_2)$；
-\item $p_4$：若复数 $z in RR$，则 $\overline z in RR$.
+\item $p_4$：若复数 $z in RR$，则 $overline(z) in RR$.
 \end{circlelist}
 
 其中的真命题为（ ）
@@ -62,11 +62,11 @@ $ ((1)/(2) pi r^2)/((2 r)^2)=(pi)/(8) $
 
 对 $p_3$，取 $z_1=1$，$z_2=2$，则 $z_(1) z_2=2 in RR$，但 $z_1\n e o v e r l i n e(z_2)$，所以 $p_3$ 为假.
 
-对 $p_4$，若 $z in RR$，则 $\overline z=z in RR$，所以 $p_4$ 为真. 因此真命题为 $p_1$，$p_4$，故选 B.
+对 $p_4$，若 $z in RR$，则 $overline(z)=z in RR$，所以 $p_4$ 为真. 因此真命题为 $p_1$，$p_4$，故选 B.
 ]
 
 #problem(4)[
-记 $S_n$ 为等差数列 $\{a_n\}$ 的前 $n$ 项和. 若 $a_4+a_5=24$，$S_6=48$，则 $\{a_n\}$ 的公差为（ ）
+记 $S_n$ 为等差数列 ${a_n}$ 的前 $n$ 项和. 若 $a_4+a_5=24$，$S_6=48$，则 ${a_n}$ 的公差为（ ）
   #choices([$1$], [$2$], [$4$], [$8$], cols: 4)
 ]
 
@@ -563,7 +563,7 @@ $ d=(|3 cos theta +4 sin theta -a-4|)/(sqrt(17)) $
 
 因为 $3 cos theta +4 sin theta$ 的取值范围为 $[-5,5]$，所以分子绝对值的最大值为
 
-$ max \{|-5-a-4|,|5-a-4|\} =5+| a+4| $
+$ max {|-5-a-4|,|5-a-4|} =5+| a+4| $
 
 题设最大距离为 $sqrt(17)$，故
 

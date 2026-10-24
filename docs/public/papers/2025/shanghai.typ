@@ -11,13 +11,13 @@
 #part-header("填空题")
 
 #problem(1)[
-已知全集 $U = \{x | 2 <= x <= 5 , x in RR \}$，集合 $A = \{x | 2 <= x < 4, x in RR \}$，则 $overline(A)=$#blank(){}.
+已知全集 $U = {x | 2 <= x <= 5 , x in RR }$，集合 $A = {x | 2 <= x < 4, x in RR }$，则 $overline(A)=$#blank(){}.
 ]
 
-#answer([$overline(A)= \{x | 4 <= x <= 5 , x in RR \}=[4,5]$])
+#answer([$overline(A)= {x | 4 <= x <= 5 , x in RR }=[4,5]$])
 
 #solution[
-根据补集定义，$overline(A)= \{x | x in U, x in.not A\}$. 又 $U=\{x\m i d2 <= x <= 5 \}$，所以 $overline(A)=\{x\m i d4 <= x <= 5 \}$.
+根据补集定义，$overline(A)= {x | x in U, x in.not A}$. 又 $U={x mid 2  <= x <= 5 }$，所以 $overline(A)={x mid 4  <= x <= 5 }$.
 ]
 
 #problem(2)[
@@ -31,7 +31,7 @@
 ]
 
 #problem(3)[
-已知等差数列 $\{a_n\}$ 的首项 $a_1 = -3$，公差 $d = 2$，则该数列的前 $6$ 项和为#blank(){}.
+已知等差数列 ${a_n}$ 的首项 $a_1 = -3$，公差 $d = 2$，则该数列的前 $6$ 项和为#blank(){}.
 ]
 
 #answer([$12$])
@@ -154,7 +154,7 @@ $theta = arcsin (y)/(0.45) approx 12 .58^ degree$
 #answer([$(1,sqrt(5))$])
 
 #solution[
-由题设，$f(bold(a)\c d o t b o l d(b))$，$f(bold(b)\c d o t b o l d(c))$，$f(bold(c)\c d o t b o l d(a)) in \{-1,0,1\}$. 若三者都等于 $0$，则
+由题设，$f(bold(a)\c d o t b o l d(b))$，$f(bold(b)\c d o t b o l d(c))$，$f(bold(c)\c d o t b o l d(a)) in {-1,0,1}$. 若三者都等于 $0$，则
 $bold(a)\c d o t b o l d(b)=0$，$bold(b)\c d o t b o l d(c)=0$，$bold(c)\c d o t b o l d(a)=0$.
 这说明 $bold(a)$，$bold(b)$，$bold(c)$ 两两垂直. 但 $bold(a)$，$bold(b)$，$bold(c)$ 是平面内三个不同的单位向量，不可能两两垂直，矛盾.
 故 $f(bold(a)\c d o t b o l d(b))$，$f(bold(b)\c d o t b o l d(c))$，$f(bold(c)\c d o t b o l d(a))$ 必为 $-1$，$0$，$1$ 的一个排列. 不妨设
@@ -206,7 +206,7 @@ $a^s>a <=> a^(s-1)>1=a^0$
 ]
 
 #problem(16)[
-设 $lambda in RR$，数列 $\{a_n\}$，$\{b_n\}$，$\{c_n\}$ 的通项分别为 $a_n=10 n-9$，$b_n=2^n$，$c_n= lambda a_n+(1- lambda )b_n$. 若对任意 $lambda in [0,1]$，$a_n$，$b_n$，$c_n$ 均能作为三角形的三边长，则满足条件的正整数 $n$ 有（ ）
+设 $lambda in RR$，数列 ${a_n}$，${b_n}$，${c_n}$ 的通项分别为 $a_n=10 n-9$，$b_n=2^n$，$c_n= lambda a_n+(1- lambda )b_n$. 若对任意 $lambda in [0,1]$，$a_n$，$b_n$，$c_n$ 均能作为三角形的三边长，则满足条件的正整数 $n$ 有（ ）
   #choices([1个], [3个], [4个], [无穷多个], cols: 4)
 ]
 
@@ -216,7 +216,7 @@ $a^s>a <=> a^(s-1)>1=a^0$
 由
 $c_n= lambda a_n+(1- lambda )b_n$，$lambda in [0,1]$，
 可得
-$min \{a_n,b_n\} <= c_n <= max \{a_n,b_n\}<a_n+b_n$，
+$min {a_n,b_n} <= c_n <= max {a_n,b_n}<a_n+b_n$，
 因此对任意 $lambda in [0,1]$，都有 $c_n<a_n+b_n$.
 要使 $a_n$，$b_n$，$c_n$ 对任意 $lambda in [0,1]$ 都能构成三角形，只需再保证较大的那一边恒小于另外两边之和.
 
@@ -245,13 +245,7 @@ $2 b_n>a_n$
 2024 年巴黎奥运会，中国获得了男子 $4 times 100$ 米混合泳接力金牌，以下是历届奥运会男子 $4 times 100$ 米混合泳接力项目冠军成绩（单位：秒），数据按照升序排列.
 
 \begin{center}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-206.78 & 207.46 & 207.95 & 209.34 & 209.35 \\
-\hline
-210.68 & 213.73 & 214.84 & 216.93 & 216.93 \\
-\hline
-\end{tabular}
+[（表格数据详见在线交互版）]
 \end{center}
 
 
@@ -358,7 +352,7 @@ $sqrt(5)<a<sqrt(11)$
 ]
 
 #problem(21)[
-已知函数 $y=f(x)$ 定义域为 $RR$. 对于正实数 $a$，定义集合 $M_a=\{x | f(x+a)=f(x)\}$.
+已知函数 $y=f(x)$ 定义域为 $RR$. 对于正实数 $a$，定义集合 $M_a={x | f(x+a)=f(x)}$.
 
 + (1) 若 $f(x)= sin x$，判断 $(pi)/(3)$ 是否是 $M_( pi )$ 的元素，请说明理由；
 + (2) 若 $f(x)=x+2$（$x<0$），$f(0)=0$，且当 $x>0$ 时 $f(x)=sqrt(x)$，$M_a != emptyset$，求 $a$ 的取值范围；

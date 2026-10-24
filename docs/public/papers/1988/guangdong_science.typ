@@ -34,7 +34,7 @@
 
 #problem(3)[
 如果用 $C$，$RR$ 和 $I$ 分别表示复数集，实数集和纯虚数集，其中 $C$ 为全集，那么有（ ）
-  #choices([$C = RR union I$], [$RR inter I = \{0\}$], [$overline( RR )= C inter I$], [$RR inter I = emptyset$], cols: 2)
+  #choices([$C = RR union I$], [$RR inter I = {0}$], [$overline( RR )= C inter I$], [$RR inter I = emptyset$], cols: 2)
 ]
 
 #answer([D])
@@ -44,7 +44,7 @@
 ]
 
 #problem(4)[
-在等差数列 $\{a_n\}$ 中，已知前 $15$ 项之和 $S_(15) = 90$，那么 $a_8 =$（ ）
+在等差数列 ${a_n}$ 中，已知前 $15$ 项之和 $S_(15) = 90$，那么 $a_8 =$（ ）
   #choices([$3$], [$4$], [$6$], [$12$], cols: 4)
 ]
 
@@ -412,7 +412,7 @@ $ |F_(1) F_2|^2=100=d_1^2+d_2^2=|P F_1|^2+|P F_2|^2 $
 ]
 
 #solution[
-+ (1) 因为 $z u=[a^2(1- cos theta )-a sin theta ]+[a^2 sin theta +a(1- cos theta )] i$，而 $z u$ 是纯虚数，所以 $a^2 sin theta +a(1- cos theta )\n e q0$，$a^2(1- cos theta )-a sin theta =0$. 由前一式知 $a\n e q0$. 又因为 $0< theta <2 pi$，所以 $1- cos theta \n e q0$. 因此
++ (1) 因为 $z u=[a^2(1- cos theta )-a sin theta ]+[a^2 sin theta +a(1- cos theta )] i$，而 $z u$ 是纯虚数，所以 $a^2 sin theta +a(1- cos theta ) != 0$，$a^2(1- cos theta )-a sin theta =0$. 由前一式知 $a != 0$. 又因为 $0< theta <2 pi$，所以 $1- cos theta  != 0$. 因此
 
 $ a=(sin theta)/(1- cos theta)=(2 cos (theta)/(2) sin (theta)/(2))/(2 sin ""^2(theta)/(2))= cot (theta)/(2) $
 
@@ -425,7 +425,7 @@ $ tan (\a r g u)=(a)/(a^2)=(1)/(a)= tan (theta)/(2) $
 
 $ z+u=1- cos theta +a^2+(a+ sin theta ) i $
 
-记 $z+u=R+I i$，则 $R=1- cos theta +a^2>0$. 若 $omega =(z+u)^2$ 是正实数，则其虚部 $2 R I$ 必须为零；由 $R>0$ 得 $I=0$，即 $a+ sin theta =0$，所以 $a=- sin theta$. 但由上题已得 $a=(sin theta)/(1- cos theta)$，且 $sin theta \n e q0$. 因此 $- sin theta =(sin theta)/(1- cos theta)$，所以 $-1=(1)/(1- cos theta)$，解得 $cos theta =2$，这不可能. 因此 $omega$ 不能是正实数.
+记 $z+u=R+I i$，则 $R=1- cos theta +a^2>0$. 若 $omega =(z+u)^2$ 是正实数，则其虚部 $2 R I$ 必须为零；由 $R>0$ 得 $I=0$，即 $a+ sin theta =0$，所以 $a=- sin theta$. 但由上题已得 $a=(sin theta)/(1- cos theta)$，且 $sin theta  != 0$. 因此 $- sin theta =(sin theta)/(1- cos theta)$，所以 $-1=(1)/(1- cos theta)$，解得 $cos theta =2$，这不可能. 因此 $omega$ 不能是正实数.
 ]
 
 #problem(34)[
@@ -448,6 +448,6 @@ $ \b e g i n{g a t h e r e d} (1)/(2)[(2^n+2^(-n))-(a^n+a^(-n))]=(1)/(2(2 a)^n)[
 
 $ \b e g i n{g a t h e r e d} S_n<(1)/(2)(2+2^(-1))+(1)/(2)(2^2+2^(-2))+ dots.c +(1)/(2)(2^n+2^(-n)) \\ =(1)/(2)(2+2^2+ dots.c +2^n)+(1)/(2)(2^(-1)+2^(-2)+ dots.c +2^(-n)) \\ =2^n-1+(1)/(4)[(1-2^(-n))/(1-2^(-1))]=2^n-(1)/(2)(1+2^(-n)). \e n d{g a t h e r e d} $
 
-对任意自然数 $n >= 1$，都有 $2^(-n)\n e q1$，所以 $(1)/(2)(1+2^(-n))>sqrt(2^(-n))=((sqrt(2))/(2))^n$，于是 $2^n-(1)/(2)(1+2^(-n))<2^n-((sqrt(2))/(2))^n$. 故对任意自然数 $n >= 1$，都有 $S_n<2^n-((sqrt(2))/(2))^n$，即证.
+对任意自然数 $n >= 1$，都有 $2^(-n) != 1$，所以 $(1)/(2)(1+2^(-n))>sqrt(2^(-n))=((sqrt(2))/(2))^n$，于是 $2^n-(1)/(2)(1+2^(-n))<2^n-((sqrt(2))/(2))^n$. 故对任意自然数 $n >= 1$，都有 $S_n<2^n-((sqrt(2))/(2))^n$，即证.
 ]
 

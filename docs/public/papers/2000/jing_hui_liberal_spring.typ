@@ -22,14 +22,14 @@
 ]
 
 #problem(2)[
-设全集 $I=\{a,b,c,d,e\}$，集合 $M=\{a,c,d\}$，$N=\{b,d,e\}$，那么 $overline(M)\c a p o v e r l i n e(N)$ 是（$$）
-  #choices([$emptyset$], [$\{d\}$], [$\{a,c\}$], [$\{b,e\}$], cols: 4)
+设全集 $I={a,b,c,d,e}$，集合 $M={a,c,d}$，$N={b,d,e}$，那么 $overline(M)\c a p o v e r l i n e(N)$ 是（$$）
+  #choices([$emptyset$], [${d}$], [${a,c}$], [${b,e}$], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-全集为 $I$，所以 $overline(M)=\{b,e\}$，$overline(N)=\{a,c\}$. 两者没有公共元素，即 $overline(M)\c a p o v e r l i n e(N)= emptyset$，故选 A.
+全集为 $I$，所以 $overline(M)={b,e}$，$overline(N)={a,c}$. 两者没有公共元素，即 $overline(M)\c a p o v e r l i n e(N)= emptyset$，故选 A.
 ]
 
 #problem(3)[
@@ -84,7 +84,7 @@
 #answer([B])
 
 #solution[
-函数的定义域为 $x\n e q0$，且 $f(-x)=\l g|-x|=\l g|x|=f(x)$，所以它是偶函数. 在 $x<0$ 时，$f'(x)=(1)/(x ln 10)<0$，故函数在 $(- oo ,0)$ 上单调递减，选 B.
+函数的定义域为 $x != 0$，且 $f(-x)=\l g|-x|=\l g|x|=f(x)$，所以它是偶函数. 在 $x<0$ 时，$f'(x)=(1)/(x ln 10)<0$，故函数在 $(- oo ,0)$ 上单调递减，选 B.
 ]
 
 #problem(8)[
@@ -117,7 +117,7 @@
 #answer([A])
 
 #solution[
-由 $sin x+ cos x=sqrt(2) sin (x+(pi)/(4))$，可知 $-sqrt(2)\l e q sin x+ cos x\l e q s q r t(2)$. 当 $x+(pi)/(4)=(3 pi)/(2)+2 k pi$ 时，$sin x+ cos x=-sqrt(2)$，下界可以取得. 因而 $y= sin x+ cos x+2$ 的最小值为 $2-sqrt(2)$，故选 A.
+由 $sin x+ cos x=sqrt(2) sin (x+(pi)/(4))$，可知 $-sqrt(2) <= sin x+ cos x <= s q r t(2)$. 当 $x+(pi)/(4)=(3 pi)/(2)+2 k pi$ 时，$sin x+ cos x=-sqrt(2)$，下界可以取得. 因而 $y= sin x+ cos x+2$ 的最小值为 $2-sqrt(2)$，故选 A.
 ]
 
 #problem(11)[
@@ -141,14 +141,14 @@ $tan theta = tan ((pi)/(4)+(pi)/(6))=(1+(1)/(sqrt(3)))/(1-(1)/(sqrt(3)))=2+sqrt(
 
 #solution[
 因为 $alpha$，$beta$ 是钝角三角形的两个锐角，所以 $0< alpha + beta <(pi)/(2)$. 令 $s= alpha + beta$. 由正切和角公式，$tan s=(tan alpha + tan beta)/(1- tan alpha tan beta)>0$，故 $tan alpha tan beta <1$，选项 A 正确. 又
-$sin alpha + sin beta =2 sin (s)/(2) cos (alpha - beta)/(2)\l e q2 sin (s)/(2)<sqrt(2)$，选项 B 正确.
+$sin alpha + sin beta =2 sin (s)/(2) cos (alpha - beta)/(2) <= 2 sin (s)/(2)<sqrt(2)$，选项 B 正确.
 
-由于 $0\l e q| alpha - beta |<s$，有
-$cos alpha + cos beta =2 cos (s)/(2) cos (alpha - beta)/(2)\g e q2 cos ""^2(s)/(2)=1+ cos s>1$，选项 C 正确. 最后，令 $t= tan (s)/(2)$，则 $0<t<1$，且 $(1)/(2) tan s=(t)/(1-t^2)>t= tan (s)/(2)$，所以选项 D 的不等式错误，故选 D.
+由于 $0 <= | alpha - beta |<s$，有
+$cos alpha + cos beta =2 cos (s)/(2) cos (alpha - beta)/(2) >= 2 cos ""^2(s)/(2)=1+ cos s>1$，选项 C 正确. 最后，令 $t= tan (s)/(2)$，则 $0<t<1$，且 $(1)/(2) tan s=(t)/(1-t^2)>t= tan (s)/(2)$，所以选项 D 的不等式错误，故选 D.
 ]
 
 #problem(13)[
-已知等差数列 $\{a_n\}$ 满足 $a_1+a_2+a_3+ dots.c +a_(101)=0$，则有（$$）
+已知等差数列 ${a_n}$ 满足 $a_1+a_2+a_3+ dots.c +a_(101)=0$，则有（$$）
   #choices([$a_(1) + a_(101) > 0$], [$a_2 + a_(100) < 0$], [$a_(3) + a_(99) = 0$], [$a_(51) = 51$], cols: 2)
 ]
 
@@ -344,7 +344,7 @@ $ V=(1)/(3)S_( triangle A B C)h=(1)/(3) dot a^2 dot (sqrt(6))/(4)a=(sqrt(6))/(12
 ]
 
 #problem(22)[
-已知等差数列 $\{a_n\}$ 的公差和等比数列 $\{b_n\}$ 的公比相等，且都等于 $d$（$d>0$，$d\n e q1$），若 $a_1=b_1$，$a_3=3 b_3$，$a_5=5 b_5$，求 $a_n$，$b_n$.
+已知等差数列 ${a_n}$ 的公差和等比数列 ${b_n}$ 的公比相等，且都等于 $d$（$d>0$，$d != 1$），若 $a_1=b_1$，$a_3=3 b_3$，$a_5=5 b_5$，求 $a_n$，$b_n$.
 ]
 
 #solution[
@@ -352,7 +352,7 @@ $ V=(1)/(3)S_( triangle A B C)h=(1)/(3) dot a^2 dot (sqrt(6))/(4)a=(sqrt(6))/(12
 $a_n=A+(n-1)d$，$b_n=A d^(n-1)$.
 由已知条件
 $A+2 d=3 A d^2$，$A+4 d=5 A d^4$.
-若 $A=0$，第一式将推出 $d=0$，与 $d>0$ 矛盾，所以 $A\n e q0$. 由于 $d>0$，若 $3 d^2-1=0$ 或 $5 d^4-1=0$，原来的两式将分别推出 $0=2 d$ 或 $0=4 d$，均不可能. 因而两式可分别整理为
+若 $A=0$，第一式将推出 $d=0$，与 $d>0$ 矛盾，所以 $A != 0$. 由于 $d>0$，若 $3 d^2-1=0$ 或 $5 d^4-1=0$，原来的两式将分别推出 $0=2 d$ 或 $0=4 d$，均不可能. 因而两式可分别整理为
 $A=(2 d)/(3 d^2-1)$，$A=(4 d)/(5 d^4-1)$.
 于是
 
@@ -366,7 +366,7 @@ $ 5 d^4-1=2(3 d^2-1) $
 
 $ 5 d^4-6 d^2+1=0=(5 d^2-1)(d^2-1) $
 
-由于 $d>0$ 且 $d\n e q1$，所以 $d=(1)/(sqrt(5))$. 代入 $A+2 d=3 A d^2$，得
+由于 $d>0$ 且 $d != 1$，所以 $d=(1)/(sqrt(5))$. 代入 $A+2 d=3 A d^2$，得
 
 $ A+(2)/(sqrt(5))=(3)/(5)A $
 
@@ -384,7 +384,7 @@ $a_n=-sqrt(5)+(n-1)/(sqrt(5))=(n-6)/(sqrt(5))$，$b_n=-sqrt(5)((1)/(sqrt(5)))^(n
 #solution[
 设抛物线上的点用参数表示为
 $A=(p t^2,2 p t)$，$B=(p u^2,2 p u)$.
-由于 $A$，$B$ 都不是原点，故 $t\n e q0$，$u\n e q0$. 由 $O A bot O B$，得
+由于 $A$，$B$ 都不是原点，故 $t != 0$，$u != 0$. 由 $O A bot O B$，得
 
 $ arrow(O A)\c d o t a r r o w(O B)=p^(2) t^(2) u^2+4 p^(2) t u=p^(2) t u(t u+4)=0 $
 
@@ -412,7 +412,7 @@ $ x^2+y^2=(256 p^2+64 p^(2) s^2)/((s^2+4)^2)=(64 p^2)/(s^2+4)=4 p x $
 $ x^2+y^2-4 p x=0 $
 
 又因为 $p>0$，上式参数表示中的 $x=(16 p)/(s^2+4)>0$，故轨迹不包含原点. 反之，圆 $x^2+y^2=4 p x$ 上任意非原点的点都有 $x>0$，取 $s=-(2 y)/(x)$，则可取 $t$，$u$ 为方程 $z^2-s z-4=0$ 的两个实根，便能得到对应的点 $A$，$B$. 因此轨迹是
-$x^2+y^2-4 p x=0$，（$x\n e q0$）
+$x^2+y^2-4 p x=0$，（$x != 0$）
 即以 $(2 p,0)$ 为圆心、以 $2 p$ 为半径的圆去掉原点.
 ]
 

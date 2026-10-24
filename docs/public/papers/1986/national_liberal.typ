@@ -29,18 +29,18 @@
 #answer([C])
 
 #solution[
-由 $y=5^x+1$ 得 $y-1=5^x$. 因为 $5>0$ 且 $5\n e q1$，对两边取以 $5$ 为底的对数，得到 $x= log _5(y-1)$，并且原函数的值域为 $y>1$. 交换自变量与因变量的字母，反函数为 $y= log _5(x-1)$，其定义域为 $x>1$. 因此选 C.
+由 $y=5^x+1$ 得 $y-1=5^x$. 因为 $5>0$ 且 $5 != 1$，对两边取以 $5$ 为底的对数，得到 $x= log _5(y-1)$，并且原函数的值域为 $y>1$. 交换自变量与因变量的字母，反函数为 $y= log _5(x-1)$，其定义域为 $x>1$. 因此选 C.
 ]
 
 #problem(3)[
-已知全集 $I=\{1,2,3,4,5,6,7,8\}$，$A=\{3,4,5\}$，$B=\{1,3,6\}$，那么集合 $\{2,7,8\}$ 是（ ）
+已知全集 $I={1,2,3,4,5,6,7,8}$，$A={3,4,5}$，$B={1,3,6}$，那么集合 ${2,7,8}$ 是（ ）
   #choices([$A union B$], [$A inter B$], [$overline(A)\c u p o v e r l i n e(B)$], [$overline(A)\c a p o v e r l i n e(B)$], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-由补集定义，$overline(A)=I\m a t h b i n{\b a c k s l a s h}A=\{1,2,6,7,8\}$，$overline(B)=I\m a t h b i n{\b a c k s l a s h}B=\{2,4,5,7,8\}$. 因而 $overline(A)\c a p o v e r l i n e(B)=\{2,7,8\}$，所以选 D.
+由补集定义，$overline(A)=I\m a t h b i n{\b a c k s l a s h}A={1,2,6,7,8}$，$overline(B)=I\m a t h b i n{\b a c k s l a s h}B={2,4,5,7,8}$. 因而 $overline(A)\c a p o v e r l i n e(B)={2,7,8}$，所以选 D.
 ]
 
 #problem(4)[
@@ -260,7 +260,7 @@ $ a= sin A+ sin 3 A+ sin 5 A=(1+2 cos 2 A) sin 3 A $
 $ b= cos A+ cos 3 A+ cos 5 A=(1+2 cos 2 A) cos 3 A $
 
 
-当 $b\n e q0$ 时，由 $b=(1+2 cos 2 A) cos 3 A\n e q0$，可知 $cos 3 A\n e q0$，所以
+当 $b != 0$ 时，由 $b=(1+2 cos 2 A) cos 3 A != 0$，可知 $cos 3 A != 0$，所以
 
 
 $ tan 3 A=(sin 3 A)/(cos 3 A)=((1+2 cos 2 A) sin 3 A)/((1+2 cos 2 A) cos 3 A)=(a)/(b) $
@@ -271,10 +271,10 @@ $ a^2+b^2=(1+2 cos 2 A)^2( sin ""^2 3 A+ cos ""^2 3 A)=(1+2 cos 2 A)^2 $
 ]
 
 #problem(22)[
-已知数列 $\{a_n\}$，其中 $a_1 = (4)/(3)$，$a_2 = (13)/(9)$，且当 $n >= 3$ 时，$a_n - a_(n-1) = (1)/(3)(a_(n-1) - a_(n-2))$.
+已知数列 ${a_n}$，其中 $a_1 = (4)/(3)$，$a_2 = (13)/(9)$，且当 $n >= 3$ 时，$a_n - a_(n-1) = (1)/(3)(a_(n-1) - a_(n-2))$.
 
 
-+ (1) 求数列 $\{a_n\}$ 的通项公式；
++ (1) 求数列 ${a_n}$ 的通项公式；
 + (2) 求 $lim_(n -> oo ) a_n$.
 ]
 

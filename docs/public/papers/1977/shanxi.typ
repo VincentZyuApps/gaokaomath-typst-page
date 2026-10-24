@@ -15,8 +15,8 @@
 
 
 + (1) $(1)/(sqrt(2)+1)-(1)/(sqrt(2)-1)$；
-+ (2) $((a^2-b^2)^3)/(a^3+b^3)\div((b+a)^2)/(a^2-a b+b^2) times (1)/((b-a)^3)$；
-+ (3) $(2\l g 6-\l g 3)/(1+(1)/(2)\l g 0.36+(1)/(3)\l g 8)$；
++ (2) $((a^2-b^2)^3)/(a^3+b^3)div((b+a)^2)/(a^2-a b+b^2) times (1)/((b-a)^3)$；
++ (3) $(2 lg 6 - lg 3 )/(1+(1)/(2) lg 0 .36+(1)/(3) lg 8 )$；
 + (4) $(x^4+x^2+1)/(x^3-1)+(x(x-2)-2(x-2))/(x^2-3 x+2)$.
 ]
 
@@ -27,11 +27,11 @@ $ (1)/(sqrt(2)+1)-(1)/(sqrt(2)-1)=((sqrt(2)-1)-(sqrt(2)+1))/((sqrt(2)+1)(sqrt(2)
 + (2) 在实数范围内，原式有意义需要 $a^3+b^3 != 0$、$a^2-a b+b^2 != 0$、$((a+b)^2)/(a^2-a b+b^2) != 0$ 且 $a != b$. 又因为 $a^2-a b+b^2=(1)/(2)((a-b)^2+a^2+b^2)$，所以在这些条件下等价于 $a+b != 0$ 且 $a != b$. 利用 $a^2-b^2=(a+b)(a-b)$、$a^3+b^3=(a+b)(a^2-a b+b^2)$ 以及 $(b-a)^3=-(a-b)^3$，得
 
 $ ((a^2-b^2)^3)/(a^3+b^3) dot (a^2-a b+b^2)/((a+b)^2) dot (1)/((b-a)^3)=((a+b)^3(a-b)^3)/((a+b)(a^2-a b+b^2)) dot (a^2-a b+b^2)/((a+b)^2) dot (1)/(-(a-b)^3)=-1 $
-+ (3) 因为 $0.36=0.6^2$、$8=2^3$ 且 $1=\l g 10$，所以分子为 $2\l g6-\l g3=\l g(6^2)/(3)=\l g12$，分母为
++ (3) 因为 $0.36=0.6^2$、$8=2^3$ 且 $1= lg 10 $，所以分子为 $2 lg 6 - lg 3 = lg (6^2)/(3)= lg 12 $，分母为
 
-$ 1+(1)/(2)\l g0.36+(1)/(3)\l g8 =\l g10+\l g0.6+\l g2 =\l g(10 times 0 .6 times 2 )=\l g12 $
+$ 1+(1)/(2) lg 0 .36+(1)/(3) lg 8  = lg 10 + lg 0 .6+ lg 2  = lg (10 times 0 .6 times 2 )= lg 12  $
 
-因此原式 $=(\l g12)/(\l g12)=1$.
+因此原式 $=( lg 12 )/( lg 12 )=1$.
 + (4) 原式有意义时，$x^3-1 != 0$ 且 $x^2-3 x+2 != 0$，即 $x != 1$，$2$. 在此条件下，
 
 $ \b e g i n{g a t h e r e d} "原式"=((x^2+1)^2-x^2)/((x-1)(x^2+x+1))+((x-2)^2)/((x-2)(x-1))\\ =((x^2-x+1)(x^2+x+1))/((x-1)(x^2+x+1))+(x-2)/(x-1)=(x^2-x+1+x-2)/(x-1)\\ =(x^2-1)/(x-1)=x+1. \e n d{g a t h e r e d} $
@@ -42,21 +42,20 @@ $ \b e g i n{g a t h e r e d} "原式"=((x^2+1)^2-x^2)/((x-1)(x^2+x+1))+((x-2)^2
 
 
 + (1) 当 $a$，$b$，$c>0$ 时，求证：$log _a b dot log _b c dot log _c a=1$.
-+ (2) 已知 $y=\l g (1)/(1-sqrt(1-x))$，求定义域.
++ (2) 已知 $y= lg  (1)/(1-sqrt(1-x))$，求定义域.
 + (3) 汽车往返甲乙两地之间，上行速度为 $30" 公里/小时"$，下行速度为 $60" 公里/小时"$. 求往返平均速度.
 ]
 
 #solution[
 + (1) 题中三个对数有定义时，除 $a$，$b$，$c>0$ 外还需 $a$，$b$，$c != 1$. 在此条件下，换底公式给出
-$log _a b=(\l g b)/(\l g a)$，$log _b c=(\l g c)/(\l g b)$，$log _c a=(\l g a)/(\l g c)$. 因而
+$log _a b=( lg b )/( lg a )$，$log _b c=( lg c )/( lg b )$，$log _c a=( lg a )/( lg c )$. 因而
 
-$ log _a b dot log _b c dot log _c a =(\l g b)/(\l g a) dot (\l g c)/(\l g b) dot (\l g a)/(\l g c)=1 $
+$ log _a b dot log _b c dot log _c a =( lg b )/( lg a ) dot ( lg c )/( lg b ) dot ( lg a )/( lg c )=1 $
 + (2) 根式有意义且对数的真数为正，必须满足
 
-$ \b e g i n{c a s e s} 1-x >= 0 ,\\ (1)/(1-sqrt(1-x))>0. \e n d{c a s e s} $
+$ [（方程组详见交互版）] $
 
-由于分子为正，第二个条件等价于 $1-sqrt(1-x)>0$. 于是 $sqrt(1-x)<1$，从而 $x>0$，再与 $x <= 1$ 合并，得到定义域为 $0<x <= 1$.
-+ (3) 设甲、乙两地之间的距离为 $m" 公里"$，其中 $m>0$. 则上行和下行的路程都为 $m$，所用时间分别为 $t_1=(m)/(30)" 小时"$ 和 $t_2=(m)/(60)" 小时"$. 往返平均速度等于总路程除以总时间，所以
+由于分子为正，第二个条件等价于 $1-sqrt(1-x)>0$. 于是 $sqrt(1-x)0$，再与 $x 0$. 则上行和下行的路程都为 $m$，所用时间分别为 $t_1=(m)/(30)" 小时"$ 和 $t_2=(m)/(60)" 小时"$. 往返平均速度等于总路程除以总时间，所以
 
 $ overline(V)=(2 m)/(t_1+t_2)=(2 m)/((m)/(30)+(m)/(60))=(2 m)/((m)/(20))=40" 公里/小时" $
 
@@ -100,42 +99,7 @@ $ M N=(1)/(2)E C=(1)/(2)(E B+B C)=(1)/(2)(A D+B C) $
 
 $ S=(1)/(2)(6 d_1+8 d_2+10 d_3) >= (1)/(2)(6+8+10) rho =12 rho $
 
-所以 $rho <= (S)/(s)=2~d m$. 三角形的内切圆半径满足 $S=r s$，故 $r=(24)/(12)=2~d m$，此圆达到上述上界，因而它就是能剪出的最大圆材料.
-
-因此圆材料的面积为
-
-$ pi r^2 approx 3 .14 times 2 ""^2=12.56~d m^2 $
-
-答：剪得的最大圆材料的面积约为 $12.56~d m^2$.
-]
-
-#problem(5)[
-证明恒等式 $(1+ sin (180^ degree - alpha )- cos (180^ degree + alpha )+ sin 2 alpha)/(1- sin (180^ degree + alpha )+ cos ( alpha -360^ degree ))= sin alpha + cos alpha$.
-]
-
-#solution[
-在等式左边有意义的条件下，利用诱导公式
-$sin (180^ degree - alpha )= sin alpha$，$cos (180^ degree + alpha )=- cos alpha$，$sin (180^ degree + alpha )=- sin alpha$，$cos ( alpha -360^ degree )= cos alpha$，左边化为
-
-$ (1+ sin alpha + cos alpha + sin 2 alpha)/(1+ sin alpha + cos alpha) $
-
-令 $u= sin alpha + cos alpha$，则由 $sin ""^2 alpha + cos ""^2 alpha =1$ 和二倍角公式，$u^2=1+ sin 2 alpha$. 因而
-
-$ (1+ sin alpha + cos alpha + sin 2 alpha)/(1+ sin alpha + cos alpha)=(u^2+u)/(1+u)=(u(1+u))/(1+u)=u= sin alpha + cos alpha $
-
-这里分母有意义正好保证 $1+u != 0$，所以约分合法，恒等式得证.
-]
-
-#problem(6)[
-$triangle A B C$ 的三个内角是 $alpha$，$beta$，$gamma$，而 $tan alpha$，$tan beta$ 是方程 $x^2-5 x+6=0$ 的两个根. 求 $gamma$.
-]
-
-#solution[
-因式分解方程得 $x^2-5 x+6=(x-2)(x-3)=0$，所以 $tan alpha$ 和 $tan beta$ 分别为 $2$ 和 $3$，从而 $tan alpha + tan beta =5$，$tan alpha tan beta =6$. 由于三角形内角在 $0^ degree$ 与 $180^ degree$ 之间且正切值为正，$alpha$、$beta$ 都是锐角，故 $alpha + beta =180^ degree - gamma$. 于是
-
-$ tan gamma =- tan ( alpha + beta )=-(tan alpha + tan beta)/(1- tan alpha tan beta)=-(5)/(1-6)=1 $
-
-又 $0^ degree < gamma <180^ degree$，且 $tan gamma >0$，所以 $gamma$ 为锐角，得到 $gamma =45^ degree$.
+所以 $rho 0$，所以 $gamma$ 为锐角，得到 $gamma =45^ degree$.
 ]
 
 #problem(7)[

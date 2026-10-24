@@ -11,8 +11,8 @@
 #part-header("单选题")
 
 #problem(1)[
-已知全集 $U = RR$，$A = \{x | x <= 0 \}$，$B = \{x | x >= 1 \}$，则集合 $\c o m p l e m e n t_U (A union B) =$（ ）
-  #choices([$\{x | x >= 0 \}$], [$\{x | x <= 1 \}$], [$\{x | 0 <= x <= 1 \}$], [$\{x | 0 < x < 1\}$], cols: 2)
+已知全集 $U = RR$，$A = {x | x <= 0 }$，$B = {x | x >= 1 }$，则集合 $\c o m p l e m e n t_U (A union B) =$（ ）
+  #choices([${x | x >= 0 }$], [${x | x <= 1 }$], [${x | 0 <= x <= 1 }$], [${x | 0 < x < 1}$], cols: 2)
 ]
 
 #answer([D])
@@ -20,11 +20,11 @@
 #solution[
 因为
 
-$ A union B=\{x | x <= 0 " 或 "x >= 1 \} $
+$ A union B={x | x <= 0 " 或 "x >= 1 } $
 
 所以
 
-$ \c o m p l e m e n t_U(A union B)=\{x | 0<x<1\} $
+$ \c o m p l e m e n t_U(A union B)={x | 0<x<1} $
 
 故选 D.
 ]
@@ -80,7 +80,7 @@ $b= log _2(1)/(3)=- log _2 3<0$，$c= log _((1)/(2))(1)/(3)= log _2 3>1$
 #solution[
 命题 $p$ 不一定成立. 例如取
 $a=c=(1,0,0)$，$b=(0,0,1)$，
-则 $a dot b=b dot c=0$，但 $a dot c=1\n e q0$，所以 $p$ 为假.
+则 $a dot b=b dot c=0$，但 $a dot c=1 != 0$，所以 $p$ 为假.
 
 非零向量的平行关系具有传递性，因此由 $a parallel b$ 和 $b parallel c$ 可得 $a parallel c$，命题 $q$ 为真. 所以 $p\v e e q$ 为真，故选 A.
 ]
@@ -127,14 +127,14 @@ $ V=2 S=2(4-(pi)/(2))=8- pi $
 ]
 
 #problem(8)[
-设等差数列 $\{a_(n)\}$ 的公差为 $d$，若数列 $\{2^(a_(1)a_(n))\}$ 为递减数列，则（ ）
+设等差数列 ${a_(n)}$ 的公差为 $d$，若数列 ${2^(a_(1)a_(n))}$ 为递减数列，则（ ）
   #choices([$d < 0$], [$d > 0$], [$a_(1)d > 0$], [$a_(1)d < 0$], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-由等差数列的通项公式，$a_(n+1)-a_n=d$. 由于底数 $2>1$，数列 $\{2^(a_(1) a_n)\}$ 递减等价于指数数列 $\{a_(1) a_n\}$ 递减，即
+由等差数列的通项公式，$a_(n+1)-a_n=d$. 由于底数 $2>1$，数列 ${2^(a_(1) a_n)}$ 递减等价于指数数列 ${a_(1) a_n}$ 递减，即
 
 $ a_(1) a_(n+1)<a_(1) a_n $
 
@@ -241,14 +241,14 @@ $ |f(x)-f(y)| <= |f(x)-f(0)|+|f(1)-f(y)|<(1)/(2)x+(1)/(2)(1-y)=(1)/(2)(1-y+x) $
 
 因此
 
-$ |f(x)-f(y)|<(1)/(2) min \{y-x,1-y+x\} <= (1)/(4) $
+$ |f(x)-f(y)|<(1)/(2) min {y-x,1-y+x} <= (1)/(4) $
 
 若 $(x,y)=(0,1)$，则 $|f(x)-f(y)|=0<(1)/(4)$，所以结论对任意 $x<y$ 都成立.
 交换 $x$，$y$ 后结论对任意两个点都成立，所以 $k=(1)/(4)$ 可以满足条件.
 
 下面说明这个常数不能再减小. 对任意 $0<\v a r e p s i l o n<(1)/(2)$，令
 
-$ f_\v a r e p s i l o n(x)=((1)/(2)-\v a r e p s i l o n) min \{x,1-x\} $
+$ f_\v a r e p s i l o n(x)=((1)/(2)-\v a r e p s i l o n) min {x,1-x} $
 
 该函数满足 $f_\v a r e p s i l o n(0)=f_\v a r e p s i l o n(1)=0$，且其 Lipschitz 常数为 $(1)/(2)-\v a r e p s i l o n<(1)/(2)$，所以满足题设条件. 但
 
@@ -328,10 +328,10 @@ $ (8)/(5)(4 a^2-2 a b+4 b^2)-(2 a+b)^2=(3)/(5)(2 a-3 b)^2 >= 0 $
 
 由题设得
 
-$ |2 a+b|\l e q s l a n t s q r t((8 c)/(5)) $
+$ |2 a+b| <= s l a n t s q r t((8 c)/(5)) $
 
 且等号成立当且仅当 $2 a=3 b$. 因此在 $|2 a+b|$ 取得最大值时，可设
-$a=3 t$，$b=2 t$，$40 t^2=c$，$t\n e q0$.
+$a=3 t$，$b=2 t$，$40 t^2=c$，$t != 0$.
 此时
 
 $ (3)/(a)-(4)/(b)+(5)/(c)=(1)/(t)-(2)/(t)+(5)/(40 t^2)=-(1)/(t)+(1)/(8 t^2) $
@@ -354,7 +354,7 @@ $ (u^2)/(8)-u=(1)/(8)(u-4)^2-2 $
 ]
 
 #solution[
-因为 $\l v e r t a r r o w(B A)|=c$，$\l v e r t a r r o w(B C)|=a$，所以
+因为 $ |  a r r o w(B A)|=c$，$ |  a r r o w(B C)|=a$，所以
 
 $ arrow(B A)\c d o t a r r o w(B C)=a c cos B=(a c)/(3)=2 $
 
@@ -419,11 +419,7 @@ $ P(X=k)=C_3^k((3)/(5))^k((2)/(5))^(3-k) $
 
 因此 $X$ 的分布列为
 \begin{center}
-\begin{tabular}{c|cccc}
-$X$ & $0$ & $1$ & $2$ & $3$ \\
-\hline
-$P$ & $(8)/(125)$ & $(36)/(125)$ & $(54)/(125)$ & $(27)/(125)$
-\end{tabular}
+[（表格数据详见在线交互版）]
 \end{center}
 并且
 $E(X)=3 times (3)/(5)=(9)/(5)$，$D(X)=3 times (3)/(5) times (2)/(5)=(18)/(25)$.
@@ -458,10 +454,10 @@ $ bold(n)_1=arrow(B E)\t i m e s a r r o w(B F)=((3)/(4),-(sqrt(3))/(4),-(sqrt(3
 $ bold(n)_2=arrow(B C)\t i m e s a r r o w(B F)=(0,-sqrt(3),0) $
 
 于是
-$\l v e r t b o l d(n)_1|=\f r a c{sqrt(15)}4$，$\l v e r t b o l d(n)_2|=sqrt(3)$，$bold(n)_1\c d o t b o l d(n)_2=(3)/(4)$.
+$ |  b o l d(n)_1|=\f r a c{sqrt(15)}4$，$ |  b o l d(n)_2|=sqrt(3)$，$bold(n)_1\c d o t b o l d(n)_2=(3)/(4)$.
 因此
 
-$ cos theta =(bold(n)_1\c d o t b o l d(n)_2)/(\l v e r t b o l d(n)_1|\l v e r t b o l d(n)_2|)=(1)/(sqrt(5)) $
+$ cos theta =(bold(n)_1\c d o t b o l d(n)_2)/( |  b o l d(n)_1| |  b o l d(n)_2|)=(1)/(sqrt(5)) $
 
 从而
 
@@ -507,7 +503,7 @@ $ (2)/(a^2)-(2)/(b^2)=1 $
 代入 $b^2=2 a^2$，得 $a^2=1$，$b^2=2$，故
 $C_1\c o l o n x^2-(y^2)/(2)=1$.
 
-双曲线 $C_1$ 的焦点为 $(\p m s q r t(3),0)$. 设椭圆 $C_2$ 的方程为
+双曲线 $C_1$ 的焦点为 $( plus.minus  s q r t(3),0)$. 设椭圆 $C_2$ 的方程为
 
 $ (x^2)/(alpha ""^2)+(y^2)/(beta ""^2)=1 $
 
@@ -552,7 +548,7 @@ $ k=(2+3 sqrt(6))/(25)"或"k=-(2+sqrt(6)) $
 
 竖直直线 $x=sqrt(3)$ 与 $C_2$ 的交点为 $(sqrt(3),sqrt((3)/(2)))$，$(sqrt(3),-sqrt((3)/(2)))$，此时
 
-$ (P-A) dot (P-B)=(sqrt(2)-sqrt(3))^2+(sqrt(2)-sqrt((3)/(2)))(sqrt(2)+sqrt((3)/(2))) =(11)/(2)-2 sqrt(6)\n e q0 $
+$ (P-A) dot (P-B)=(sqrt(2)-sqrt(3))^2+(sqrt(2)-sqrt((3)/(2)))(sqrt(2)+sqrt((3)/(2))) =(11)/(2)-2 sqrt(6) != 0 $
 
 所以竖直直线不是所求直线. 因此
 $l\c o l o n y=(2+3 sqrt(6))/(25)(x-sqrt(3)) "或"y=-(2+sqrt(6))(x-sqrt(3))$.
@@ -699,7 +695,7 @@ $ rho (2 sin theta - cos theta )=(3)/(2) $
 #solution[
 + (1) 当 $x<1$ 时，$f(x)=1-x$，所以 $f(x) <= 1$ 等价于 $x >= 0$. 当 $x >= 1$ 时，$f(x)=3 x-3$，所以 $f(x) <= 1$ 等价于 $x <= (4)/(3)$. 因此
 
-$ M=[0,\t f r a c43] $
+$ M=[0, (4)/(3) ] $
 
 
 又

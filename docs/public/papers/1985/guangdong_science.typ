@@ -173,16 +173,16 @@ $lim_(n -> oo )(1+4+7+ dots.c +(3 n-2))/(n(n+1))$ 的值等于#blank(){}.
 ]
 
 #problem(15)[
-设集合 $C = \{$ 复数 $\}$， $R = \{$ 实数 $\}$， $M = \{$ 纯虚数 $\}$，其中 $C$ 为全集，则（ ）
+设集合 $C = {$ 复数 $}$， $R = {$ 实数 $}$， $M = {$ 纯虚数 $}$，其中 $C$ 为全集，则（ ）
 
     {$C inter overline(R)= M$}
-  #choices([$M union R = C$], [$overline(M) union R = C$], [$R union overline(R)= C$], [$M inter R = \{0\}$], cols: 2)
+  #choices([$M union R = C$], [$overline(M) union R = C$], [$R union overline(R)= C$], [$M inter R = {0}$], cols: 2)
 ]
 
 #answer([C.])
 
 #solution[
-在全集 $C$ 中，$overline(R)$ 是 $R$ 的补集，所以 $R\c u p o v e r l i n e(R)=C$，选项 C 正确.选项 A 不正确，例如 $1+ i$ 既不是实数也不是纯虚数；选项 B 不正确，例如非零纯虚数 $i$ 不属于 $\overline M union R$；选项 D 不正确，因为纯虚数的实部为零且虚部不为零，故 $M inter R= emptyset$；选项 E 不正确，因为 $C inter \overline R=\overline R$ 包含 $1+ i$，不等于 $M$.故选 C.
+在全集 $C$ 中，$overline(R)$ 是 $R$ 的补集，所以 $R\c u p o v e r l i n e(R)=C$，选项 C 正确.选项 A 不正确，例如 $1+ i$ 既不是实数也不是纯虚数；选项 B 不正确，例如非零纯虚数 $i$ 不属于 $overline(M) union R$；选项 D 不正确，因为纯虚数的实部为零且虚部不为零，故 $M inter R= emptyset$；选项 E 不正确，因为 $C inter overline(R)=overline(R)$ 包含 $1+ i$，不等于 $M$.故选 C.
 ]
 
 #problem(16)[
@@ -242,8 +242,8 @@ $tan (alpha)/(2)=(sin alpha)/(1+ cos alpha)=(-(3)/(5))/(1-(4)/(5))=-3$.故选 D.
 #problem(20)[
 方程 $sin 3 x - sin x = 0$ 的解集是（ ）
 
-    {$\{x | x = (k pi)/(2), k " 是整数"\}$}
-  #choices([$\{x | x = k pi , k " 是整数"\}$], [$\{x | x = (k pi)/(2)+ (pi)/(4), k " 是整数"\}$], [$\{x | x = k pi "\ 或\ "x = (k pi)/(2)+ (pi)/(4), k " 是整数"\}$], [$\{x | x = k pi + (pi)/(2), k " 是整数"\}$], cols: 1)
+    {${x | x = (k pi)/(2), k " 是整数"}$}
+  #choices([${x | x = k pi , k " 是整数"}$], [${x | x = (k pi)/(2)+ (pi)/(4), k " 是整数"}$], [${x | x = k pi "\ 或\ "x = (k pi)/(2)+ (pi)/(4), k " 是整数"}$], [${x | x = k pi + (pi)/(2), k " 是整数"}$], cols: 1)
 ]
 
 #answer([C.])
@@ -309,7 +309,7 @@ $(x+(1)/(sqrt(x)))^(6)$ 的展开式的常数项是（ ）
 ]
 
 #problem(25)[
-已知 $\{a_(n)\}$ 为等差数列，且有 $a_(2) + a_(3) + a_(10) + a_(11) = 48$，则 $a_(6) + a_(7) =$（ ）
+已知 ${a_(n)}$ 为等差数列，且有 $a_(2) + a_(3) + a_(10) + a_(11) = 48$，则 $a_(6) + a_(7) =$（ ）
 
     {$28$}
   #choices([$12$], [$16$], [$20$], [$24$], cols: 4)
@@ -351,7 +351,7 @@ $0=arrow(A B)\c d o t a r r o w(A C)=arrow(A'B)\c d o t a r r o w(A'C)+A A'^(2)$
 #problem(28)[
 和 $y$ 轴相切，且和半圆 $x^(2) + y^(2) = 4$（$0 <= x <= 2$）相内切的动圆圆心的轨迹方程是（ ）
 
-    {$y^(2)=2(x+1)$（$0<x\l e q1$）}
+    {$y^(2)=2(x+1)$（$0<x <= 1$）}
   #choices([$y^(2) = -4(x - 1)$（$0 < x <= 1$）], [$y^(2) = 4(x - 1)$（$0 < x <= 1$）], [$y^(2)=4(x+1)$（$0<x <= 1$）], [$y^(2)=-2(x-1)$（$0<x <= 1$）], cols: 1)
 ]
 
@@ -380,7 +380,7 @@ $0=arrow(A B)\c d o t a r r o w(A C)=arrow(A'B)\c d o t a r r o w(A'C)+A A'^(2)$
 #answer([E.])
 
 #solution[
-四个命题均不成立.命题（1）取直线 $b$ 上一点，过该点在垂直于 $b$ 的平面内作两条不平行直线 $a$，$c$，则 $a bot b$、$c bot b$，但 $a$ 不平行于 $c$.命题（2）取 $b$ 为 $z$ 轴，取 $a=\{(t,1,0) | t in RR \}$、$c=\{(t,2,0) | t in RR \}$.直线 $a$，$b$ 异面，直线 $b$，$c$ 也异面，但 $a parallel c$，故 $a$，$c$ 不是异面直线.命题（3）在平面 $z=0$ 内取两条互相平行而不同的直线 $a:y=0$、$c:y=1$，再取 $b:x=0$，则 $a$ 和 $b$ 相交，$b$ 和 $c$ 相交，而 $a$，$c$ 不相交.命题（4）取两个相交平面 $alpha :y=0$、$beta :x=0$，交线为 $b$（即 $z$ 轴）；在 $alpha$ 内取 $a=\{(t,0,1) | t in RR \}$，在 $beta$ 内取 $c=\{(0,t,2) | t in RR \}$，则 $a$，$c$ 异面.因此真命题个数为 $0$，故选 E.
+四个命题均不成立.命题（1）取直线 $b$ 上一点，过该点在垂直于 $b$ 的平面内作两条不平行直线 $a$，$c$，则 $a bot b$、$c bot b$，但 $a$ 不平行于 $c$.命题（2）取 $b$ 为 $z$ 轴，取 $a={(t,1,0) | t in RR }$、$c={(t,2,0) | t in RR }$.直线 $a$，$b$ 异面，直线 $b$，$c$ 也异面，但 $a parallel c$，故 $a$，$c$ 不是异面直线.命题（3）在平面 $z=0$ 内取两条互相平行而不同的直线 $a:y=0$、$c:y=1$，再取 $b:x=0$，则 $a$ 和 $b$ 相交，$b$ 和 $c$ 相交，而 $a$，$c$ 不相交.命题（4）取两个相交平面 $alpha :y=0$、$beta :x=0$，交线为 $b$（即 $z$ 轴）；在 $alpha$ 内取 $a={(t,0,1) | t in RR }$，在 $beta$ 内取 $c={(0,t,2) | t in RR }$，则 $a$，$c$ 异面.因此真命题个数为 $0$，故选 E.
 ]
 
 #problem(30)[
@@ -405,15 +405,15 @@ $0=arrow(A B)\c d o t a r r o w(A C)=arrow(A'B)\c d o t a r r o w(A'C)+A A'^(2)$
 #solution[
 证：当 $n=1$ 时，左边 $| sin theta |=$ 右边，所以原不等式成立.
 
-假设当 $n = k$（$k \g e q 1$）时，不等式成立，即
+假设当 $n = k$（$k  >= 1$）时，不等式成立，即
 $| sin k theta | <= k| sin theta |$.
 那么，当 $n=k+1$ 时，
 \examdisplaychain{
 |\sin(k+1)\theta|
 &=\left|\sin k\theta\cos\theta+\cos k\theta\sin\theta\right|\\
-&\leqslant\left|\sin k\theta\right|\left|\cos\theta\right|+\left|\cos k\theta\right|\left|\sin\theta\right|\\
-&\leqslant|\sin k\theta|+|\sin\theta|
-\leqslant k|\sin\theta|+|\sin\theta|
+& <= slant\left|\sin k\theta\right|\left|\cos\theta\right|+\left|\cos k\theta\right|\left|\sin\theta\right|\\
+& <= slant|\sin k\theta|+|\sin\theta|
+ <= slant k|\sin\theta|+|\sin\theta|
 =(k+1)\left|\sin\theta\right|
 }
 这就是说，原不等式对于 $n = k + 1$ 成立. 根据上述归纳步骤，原不等式对于任意自然数 $n$ 都成立.
@@ -448,7 +448,7 @@ $tan angle C D E=(C E)/(E D)=(sqrt(6))/(2)$.
 ]
 
 #problem(33)[
-设函数 $f(x)= log _(3)(x^(2)-4 m x+4 m^(2)+m+(1)/(m-1))$，其中 $m$ 是实数，又用 $M$ 表示集合 $\{m | m>1\}$.
+设函数 $f(x)= log _(3)(x^(2)-4 m x+4 m^(2)+m+(1)/(m-1))$，其中 $m$ 是实数，又用 $M$ 表示集合 ${m | m>1}$.
 
 
 + (1) 求证：当 $m in M$ 时，$f(x)$ 对所有实数 $x$ 都有意义；反之，如果 $f(x)$ 对所有实数 $x$ 都有意义，则 $m in M$.
@@ -512,13 +512,13 @@ y^{2}=6\left(x-\frac{3}{2}\right).}
 那么，曲线 $I$，$I I$ 有交点，当且仅当方程组有实数解 $x$，$y$. 将第二式代入第一式，整理得
 $x^(2)+(8-2 m)x+m^(2)-16=0$.
 又由于
-$x - (3)/(2)= (y^2)/(6)\g e q 0$，
+$x - (3)/(2)= (y^2)/(6) >= 0$，
 故方程组有实数解，当且仅当上式有不小于 $(3)/(2)$ 的实根.
 上式的两个根为
 $x_(1)=-(4-m)+2 sqrt(2(4-m))$，$x_(2)=-(4-m)-2 sqrt(2(4-m))$.
 可见，当且仅当 $4-m >= 0$ 时，$x_1$，$x_2$ 是实根，且这时 $x_2=-(4-m)-2 sqrt(2(4-m)) <= 0$.所以只能由 $x_1$ 满足 $x_1 >= (3)/(2)$，即 $m$ 满足不等式组
-\examdisplaycases{}{4-m\geqslant0,\\
--4+m+2\sqrt{2(4-m)}\geqslant\frac{3}{2}.}
+\examdisplaycases{}{4-m >= slant0,\\
+-4+m+2sqrt{2(4-m)} >= slant\frac{3}{2}.}
 令 $u=sqrt(2(4-m))$，则 $u >= 0$，且 $4-m=\f r a c{u^(2)}2$.第二个不等式化为 $-\f r a c{u^(2)}2+2 u >= (3)/(2)$，即 $u^(2)-4 u+3 <= 0$，所以 $1 <= u <= 3$.于是 $(1)/(2) <= 4 -m <= (9)/(2)$，即 $-(1)/(2) <= m <= (7)/(2)$.综合起来，当且仅当 $m in [-(1)/(2),(7)/(2)]$ 时，椭圆 $I$ 与抛物线 $I I$ 有交点.
 + (3) 因为椭圆 $I$ 中心的坐标为 $(m,0)$，所以曲线 $I$，$I I$ 的交点 $(x, y)$ 满足题设，等价于 $x$，$y$ 满足
 $x^(2) + y^(2) = (x - m)^(2) + y^(2)$，
@@ -551,7 +551,7 @@ $f(-1) = -1 + 5 + c = c + 4$，$f(1) = 1 - 5 + c = c - 4$.
 函数 $f(x)$ 的变化情况如下表所示：
 
 \examdisplayarray{}{c|ccccc}{
-x & (-\infty,-1) & -1 & (-1,1) & 1 & (1,+\infty) \\
+x & (-infinity,-1) & -1 & (-1,1) & 1 & (1,+infinity) \\
 \hline
 f'(x) & + & 0 & - & 0 & + \\
 \hline

@@ -22,14 +22,14 @@ $(1+5 i ) i$ 的虚部为（ ）
 ]
 
 #problem(2)[
-设全集 $U=\{x | x " 是小于9的正整数"\}$，集合 $A=\{1,3,5\}$，则 $\c o m p l e m e n t_U A$ 中元素个数为（ ）
+设全集 $U={x | x " 是小于9的正整数"}$，集合 $A={1,3,5}$，则 $\c o m p l e m e n t_U A$ 中元素个数为（ ）
   #choices([$0$], [$3$], [$5$], [$8$], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-因为 $U=\{1,2,3,4,5,6,7,8\}$，所以 $\c o m p l e m e n t_U A=\{2,4,6,7,8\}$，$\c o m p l e m e n t_U A$ 中的元素个数为5，故选：C.
+因为 $U={1,2,3,4,5,6,7,8}$，所以 $\c o m p l e m e n t_U A={2,4,6,7,8}$，$\c o m p l e m e n t_U A$ 中的元素个数为5，故选：C.
 ]
 
 #problem(3)[
@@ -59,51 +59,7 @@ $x-(pi)/(3)=k pi$，$k in ZZ$.
 ]
 
 #problem(5)[
-设 $f(x)$ 是定义在 $RR$ 上且周期为2的偶函数，当 $2 <= x <= 3$ 时，$f(x)=5-2 x$，则 $f(-(3)/(4))=$（ ）
-  #choices([$-(1)/(2)$], [$-(1)/(4)$], [$(1)/(4)$], [$(1)/(2)$], cols: 4)
-]
-
-#answer([A])
-
-#solution[
-根据题知 $f(x)=f(-x)$，$f(x+2)=f(x)$ 对一切 $x in RR$ 成立，于是
-$f(-(3)/(4))=f((3)/(4))=f((11)/(4))=5-2 times (11)/(4)=-(1)/(2)$，故选：A.
-]
-
-#problem(6)[
-帆船比赛中，运动员可借助风力计测定风速的大小与方向，测出的结果在航海学中称为视风风速，视风风速对应的向量是真风风速对应的向量与船行风速对应的向量之和，其中船行风速对应的向量与船速对应的向量大小相等，方向相反.
-图1给出了部分风力等级，名称与风速大小的对应关系.
-已知某帆船运动员在某时刻测得的视风风速对应的向量与船速对应的向量如图2所示（线段长度代表速度大小，单位：$m/s$），则该时刻的真风为（ ）
-
-\begin{center}
-\begin{tabular}{|c|c|c|}
-\hline
-级数 & 名称 & 风速大小（单位：$m/s$） \\
-\hline
-2 & 轻风 & $1.6 tilde 3 .3$ \\
-\hline
-3 & 微风 & $3.4 tilde 5 .4$ \\
-\hline
-4 & 和风 & $5.5 tilde 7 .9$ \\
-\hline
-5 & 劲风 & $8.0 tilde 10 .7$ \\
-\hline
-\end{tabular}
-\end{center}
-
-
-#align(center)[#image("/papers/2025/img/national_paper_1/q6_fig2.png", width: 6.0cm)]
-  #choices([轻风], [微风], [和风], [劲风], cols: 4)
-]
-
-#answer([A])
-
-#solution[
-由题意及图得，视风风速对应的向量为 $bold(n)=(0,2)-(3,3)=(-3,-1)$. 视风风速对应的向量，是真风风速对应的向量与船行风速对应的向量之和，船速方向和船行风速对应的向量方向相反. 设真风风速对应的向量为 $bold(n)_1$，船行风速对应的向量为 $bold(n)_2$，则 $bold(n)= bold(n)_1 + bold(n)_2$. 船行风速对应的向量为 $bold(n)_2=-[(3,3)-(2,0)]=(-1,-3)$，所以 $bold(n)_1=bold(n)-bold(n)_2=(-3,-1)-(-1,-3)=(-2,2)$. 从而 $|bold(n)_1|=sqrt((-2)^2+2^2)=2 sqrt(2) approx 2 .828$，所以由表得，真风风速为轻风. 故选：A.
-]
-
-#problem(7)[
-若圆 $x^2 + (y+2)^2 = r^2$（$r>0$）上到直线 $y = sqrt(3)x + 2$ 的距离为1的点有且仅有2个，则 $r$ 的取值范围是（ ）
+设 $f(x)$ 是定义在 $RR$ 上且周期为2的偶函数，当 $2 0$）上到直线 $y = sqrt(3)x + 2$ 的距离为1的点有且仅有2个，则 $r$ 的取值范围是（ ）
   #choices([$(0,1)$], [$(1,3)$], [$(3,+ oo )$], [$(0,+ oo )$], cols: 4)
 ]
 
@@ -243,11 +199,7 @@ $angle A D E= angle A F E=90^ degree$.
 又 $|A D| = |A F|$，$|A E| = |A E|$，所以 $triangle A D E \c o n g triangle A F E$，于是 $angle A E D = angle A E F$；再由 $|B P| = |B F|$，$|B E| = |B E|$，且 $angle B P E = angle B F E = 90^ degree$，所以 $triangle B P E \c o n g triangle B F E$，于是 $angle B E P = angle B E F$，$angle A E D + angle A E F + angle B E P + angle B E F = 180^ degree$.
 所以
 $angle A E F + angle B E F = 90^ degree$，
-即 $angle A E B = 90^ degree$. 因此 $A B$ 为 $triangle A B E$ 的斜边，$|A E| < |A B|$，故 B 错误.
-
-对于 C，若直线 $A B$ 的斜率为 $0$，则其方程为 $y=0$. 这时 $y^2=6 x$ 只对应一个交点 $(0,0)$，与直线 $A B$ 交抛物线于 $A$，$B$ 两点矛盾，所以直线 $A B$ 的斜率不为 $0$. 设直线 $A B$ 的方程为 $x = m y + (3)/(2)$，其中 $A(x_1, y_1)$，$B(x_2, y_2)$. 联立 $x = m y + (3)/(2)$ 与 $y^2 = 6 x$，得
-$y^2 - 6 m y - 9 = 0$.
-因为直线 $A B$ 与抛物线交于两个不同点，所以关于 $y$ 的方程有两个不同实根，从而 $Delta > 0$. 故 $y_1 + y_2 = 6 m$，$y_(1) y_2 = -9$. 又 $x_1 = m y_1 + (3)/(2)$，$x_2 = m y_2 + (3)/(2)$，所以
+即 $angle A E B = 90^ degree$. 因此 $A B$ 为 $triangle A B E$ 的斜边，$|A E|  0$. 故 $y_1 + y_2 = 6 m$，$y_(1) y_2 = -9$. 又 $x_1 = m y_1 + (3)/(2)$，$x_2 = m y_2 + (3)/(2)$，所以
 
 $ |A B|=x_1+x_2+p=m(y_1+y_2)+3+3=6 m^2+6 >= 6 $
 
@@ -258,14 +210,14 @@ $(|A E|)/(|A B|)=(|A F|)/(|A E|)$
 即
 $|A E|^2=|A F| dot |A B|$
 将点 $A$ 与点 $B$ 互换后，仍可得 $|B E|^2 = |B F| dot |A B|$. 又
-\begin{align*}
-    |AF| \cdot |BF|
-    &=\left(x_1 + \frac{3}{2}\right)\left(x_2 + \frac{3}{2}\right) \\
+
+    |AF| dot |BF|
+    &=\left(x_1 +  (3)/(2) \right)\left(x_2 +  (3)/(2) \right) \\
     &=(my_1 + 3)(my_2 + 3) \\
     &=m^2 y_1 y_2 + 3m(y_1 + y_2) + 9 \\
     &=-9m^2 + 18m^2 + 9 \\
     &=9(m^2 + 1)
-\end{align*}
+
 并且 $|A B| = 6 m^2 + 6 = 6(m^2 + 1)$.
 所以 $|A E|^2 dot |B E|^2 = |B F| dot |A F| dot |A B|^2 = 9(m^2 + 1) times 36 (m^2 + 1)^2$.
 因此 $|A E| dot |B E| = 3(m^2 + 1)^((1)/(2)) times 6 (m^2 + 1) = 18(m^2 + 1)^((3)/(2)) >= 18$.
@@ -275,18 +227,13 @@ D 正确.
 
 【法二】对于 A，结论仍由抛物线定义直接得到.
 
-对于 B，仍过点 $B$ 作准线的垂线，交于点 $P$. 同方法一可得 $triangle A D E \c o n g triangle A F E$，于是 $angle A E F + angle B E F = 90^ degree$，即 $angle A E B = 90^ degree$. 因此 $|A E| < |A B|$，故 B 错误.
-对于 C，当直线 $A B$ 的斜率不存在时，$|A B| = 2 p = 6$.
+对于 B，仍过点 $B$ 作准线的垂线，交于点 $P$. 同方法一可得 $triangle A D E \c o n g triangle A F E$，于是 $angle A E F + angle B E F = 90^ degree$，即 $angle A E B = 90^ degree$. 因此 $|A E|  0$. 于是 $x_1 + x_2 = 3 + (6)/(k^2)$，$x_1 x_2 = (9)/(4)$，所以
 
-当直线 $A B$ 的斜率存在时，设直线 $A B$ 方程为 $y = k (x - (3)/(2))$，联立 $y = k (x - (3)/(2))$ 与 $y^2 = 6 x$，得
-$k^2 x^2 - (3 k^2 + 6)x + (9)/(4)k^2 = 0$
-因为直线 $A B$ 与抛物线交于两个不同点，所以关于 $x$ 的方程有两个不同实根，从而 $Delta > 0$. 于是 $x_1 + x_2 = 3 + (6)/(k^2)$，$x_1 x_2 = (9)/(4)$，所以
-\begin{align*}
-|AB| &= \sqrt{1 + k^2}|x_1 - x_2|\\
-&= \sqrt{1 + k^2} \times \sqrt{(x_1 + x_2)^2 - 4x_1 x_2}\\
-&= \sqrt{1 + k^2} \times \sqrt{\left(3 + \frac{6}{k^2}\right)^2 - 9}\\
-&= 6 \left(1 + \frac{1}{k^2}\right) > 6
-\end{align*}
+|AB| &= sqrt{1 + k^2}|x_1 - x_2|\\
+&= sqrt{1 + k^2} times sqrt{(x_1 + x_2)^2 - 4x_1 x_2}\\
+&= sqrt{1 + k^2} times sqrt{\left(3 +  (6)/(k^2) \right)^2 - 9}\\
+&= 6 \left(1 +  (1)/(k^2) \right) > 6
+
 综上，$|A B| >= 6$，C 正确.
 
 对于 D，在 $triangle A B E$ 与 $triangle A E F$ 中，$angle B A E = angle E A F$，所以 $triangle A B E tilde triangle A E F$，则
@@ -298,14 +245,14 @@ $|A B|=6$，$|A F|=|B F|=(1)/(2)|A B|=3$，
 所以
 $|A E| dot |B E|=18$
 当直线 $A B$ 的斜率存在时，
-\begin{align*}
-|AB| &= 6 \left(1 + \frac{1}{k^2}\right)\\
-|AF| \cdot |BF|
-&= \left(x_1 + \frac{3}{2}\right)\left(x_2 + \frac{3}{2}\right)\\
-&= x_1 x_2 + \frac{3}{2}(x_1 + x_2) + \frac{9}{4}\\
-&= \frac{9}{4} + \frac{3}{2}\left(3 + \frac{6}{k^2}\right) + \frac{9}{4}\\
-&= 9 \left(1 + \frac{1}{k^2}\right)
-\end{align*}
+
+|AB| &= 6 \left(1 +  (1)/(k^2) \right)\\
+|AF| dot |BF|
+&= \left(x_1 +  (3)/(2) \right)\left(x_2 +  (3)/(2) \right)\\
+&= x_1 x_2 +  (3)/(2) (x_1 + x_2) +  (9)/(4) \\
+&=  (9)/(4)  +  (3)/(2) \left(3 +  (6)/(k^2) \right) +  (9)/(4) \\
+&= 9 \left(1 +  (1)/(k^2) \right)
+
 于是 $|A E|^2 dot |B E|^2 = |B F| dot |A F| dot |A B|^2 = 9 (1 + (1)/(k^2)) times 36 (1 + (1)/(k^2))^2$.
 所以
 $|A E| dot |B E|=3 (1 + (1)/(k^2))^((1)/(2)) times 6 (1 + (1)/(k^2))=18 (1 + (1)/(k^2))^((3)/(2))>18$
@@ -326,16 +273,12 @@ $cos 2 A + cos 2 B + 2 sin C = 2$，由二倍角公式，$1 - 2 sin ""^2 A + 1 -
 
 【法一】分类讨论. 若 $A + B = (pi)/(2)$，则
 $cos B= sin ((pi)/(2)-B)= sin A$，$cos A= sin ((pi)/(2)-A)= sin B$，
-从而等式成立；若 $A + B < (pi)/(2)$，即 $A < (pi)/(2)- B$，由诱导公式和正弦函数的单调性得
-$sin A < cos B$，
-$sin B < cos A$，
-又 $sin A > 0$，$sin B > 0$，于是
-$sin A ( sin A - cos B) + sin B ( sin B - cos A) < 0$，
-与条件不符，则 $A + B < (pi)/(2)$ 不成立；若 $A + B > (pi)/(2)$，则
+从而等式成立；若 $A + B  0$，$sin B > 0$，于是
+$sin A ( sin A - cos B) + sin B ( sin B - cos A)  (pi)/(2)$，则
 $sin A > cos B$，$sin B > cos A$，
 $sin A ( sin A - cos B) + sin B ( sin B - cos A) > 0$，
 则 $A + B > (pi)/(2)$ 不成立.
-上面已经排除了 $A+B<(pi)/(2)$ 和 $A+B>(pi)/(2)$ 两种情形，所以只能有
+上面已经排除了 $A+B(pi)/(2)$ 两种情形，所以只能有
 $A + B = (pi)/(2)$，
 即 $C = (pi)/(2)$.
 
@@ -357,11 +300,7 @@ $A$，$B in (0, (pi)/(2))$
 $A > (pi)/(2)- B$
 $sin A > sin ((pi)/(2)- B) = cos B > 0$
 $sin C= sin ""^2 A+ sin ""^2 B> cos ""^2 B+ sin ""^2 B=1$
-与 $sin C <= 1$ 矛盾，故 $C in (0,(pi)/(2))$ 不成立，则 $C = (pi)/(2)$.
-
-方法三：结合射影定理（方法一改进）. 由 $sin C = sin ""^2 A + sin ""^2 B$，结合正弦定理可得 $c = a sin A + b sin B$，由射影定理可得 $c = a cos B + b cos A$. 于是 $a sin A + b sin B = a cos B + b cos A$，即 $a( sin A - cos B) + b( sin B - cos A) = 0$. 再按方法一中对 $A+B$ 与 $(pi)/(2)$ 的分类讨论，可推出 $A + B = (pi)/(2)$.
-
-方法四：和差化积（方法一改进）. 由 $a( sin A - cos B) + b( sin B - cos A) = 0$，由于 $a>0$，$b>0$，且 $a( sin A- cos B)+b( sin B- cos A)=0$，所以 $sin A- cos B$ 与 $sin B- cos A$ 不可能同时为正，也不可能同时为负，因此 $( sin A - cos B)( sin B - cos A) <= 0$. 展开可得 $sin A sin B - sin A cos A - cos B sin B + cos A cos B <= 0$，即 $cos (A - B) - (1)/(2)( sin 2 A + sin 2 B) <= 0$. 结合和差化积，$cos (A - B)(1 - sin (A + B)) <= 0$. 由上述分析，$A$，$B in (0,(pi)/(2))$，则 $A - B in (-(pi)/(2),(pi)/(2))$，所以 $cos (A - B) >= 0$，则 $1 - sin (A + B) <= 0$，即 $sin C >= 1$. 所以 $sin C = 1$，而 $C in (0, pi )$，在这个区间内满足 $sin C=1$ 的角只有 $C=(pi)/(2)$.
+与 $sin C 0$，$b>0$，且 $a( sin A- cos B)+b( sin B- cos A)=0$，所以 $sin A- cos B$ 与 $sin B- cos A$ 不可能同时为正，也不可能同时为负，因此 $( sin A - cos B)( sin B - cos A) = 0$，则 $1 - sin (A + B) = 1$. 所以 $sin C = 1$，而 $C in (0, pi )$，在这个区间内满足 $sin C=1$ 的角只有 $C=(pi)/(2)$.
 
 由
 $cos A cos B sin C = (1)/(4)= cos A cos B$
@@ -376,8 +315,8 @@ $sin B cos B= sin A cos A=(1)/(4)$，
 所以
 $sin 2 B=2 sin B cos B=(1)/(2)$.
 由于 $A+B=(pi)/(2)$，故
-$\{2 A,2 B\}=\{(pi)/(6),(5 pi)/(6)\}$，从而
-$\{A,B\}=\{(pi)/(12),(5 pi)/(12)\}$.
+${2 A,2 B}={(pi)/(6),(5 pi)/(6)}$，从而
+${A,B}={(pi)/(12),(5 pi)/(12)}$.
 由两角和公式
 $sin (pi)/(12)+ sin (5 pi)/(12)= (sqrt(6)- sqrt(2))/(4)+ (sqrt(6)+ sqrt(2))/(4)= (sqrt(6))/(2)$，
 故 C 正确.
@@ -436,20 +375,20 @@ $a=4$.
 #answer([2])
 
 #solution[
-【法一】设该等比数列为 $\{a_n\}$，$S_n$ 为前 $n$ 项和，则 $S_4=4$，$S_8=68$. 设公比为 $q$（$q>0$）.
-若 $q=1$，则 $S_4=4 a_1=4$，即 $a_1=1$，此时 $S_8=8 a_1=8\n e q68$，矛盾，故舍去. 当 $q\n e q1$ 时，$S_4 = (a_1(1-q^4))/(1-q)=4$，$S_8 = (a_1(1-q^8))/(1-q)=68$. 两式相除得 $(1-q^8)/(1-q^4)=(68)/(4)$. 即
+【法一】设该等比数列为 ${a_n}$，$S_n$ 为前 $n$ 项和，则 $S_4=4$，$S_8=68$. 设公比为 $q$（$q>0$）.
+若 $q=1$，则 $S_4=4 a_1=4$，即 $a_1=1$，此时 $S_8=8 a_1=8 != 68$，矛盾，故舍去. 当 $q != 1$ 时，$S_4 = (a_1(1-q^4))/(1-q)=4$，$S_8 = (a_1(1-q^8))/(1-q)=68$. 两式相除得 $(1-q^8)/(1-q^4)=(68)/(4)$. 即
 
 $ (1-q^4)(1+q^4)=17 => 1+q^4=17 => q=2 $
 
 故该等比数列公比为 2，答案为：2.
 
-【法二】设该等比数列为 $\{a_n\}$，$S_n$ 为前 $n$ 项和，则 $S_4=4$，$S_8=68$，设公比为 $q$（$q>0$），则 $S_4=a_1+a_2+a_3+a_4=4$. 又
+【法二】设该等比数列为 ${a_n}$，$S_n$ 为前 $n$ 项和，则 $S_4=4$，$S_8=68$，设公比为 $q$（$q>0$），则 $S_4=a_1+a_2+a_3+a_4=4$. 又
 
 $ S_8=a_1+a_2+a_3+a_4+a_5+a_6+a_7+a_8=(a_1+a_2+a_3+a_4)(1+q^4)=4(1+q^4)=68 $
 
 故 $q^4=16 => q=2$，故该等比数列公比为 2，答案为：2.
 
-方法三：设该等比数列为 $\{a_n\}$，$S_n$ 为前 $n$ 项和，则 $S_4=4$，$S_8=68$，设公比为 $q$（$q>0$）. 因为
+方法三：设该等比数列为 ${a_n}$，$S_n$ 为前 $n$ 项和，则 $S_4=4$，$S_8=68$，设公比为 $q$（$q>0$）. 因为
 
 $ S_8-S_4=a_5+a_6+a_7+a_8=(a_1+a_2+a_3+a_4)q^4=68-4=64 $
 
@@ -482,7 +421,7 @@ $ E(X)=1 dot P(X=1)+2 dot P(X=2)+3 dot P(X=3)=1 dot (5)/(125)+2 dot (12)/(25)+3 
 故答案为：$(61)/(25)$.
 
 【法二】依题意，设随机变量 $X_i$（$i=1$，$2$，$3$，$4$，$5$），其中
-$X_i= \b e g i n{c a s e s} 1, & "这3次选取中，球至少被取出一次",\\ 0, & "这3次选取中，球一次都没被取出". \e n d{c a s e s}$
+$X_i= [（方程组详见交互版）]$
 则 $X=sum_(i=1)^5 X_i$.
 由于 5 个球在“被取到至少一次”这一事件下地位完全相同，所以 $E(X_1)=E(X_2)= dots.c =E(X_5)$. 由期望的线性性质，得 $E(X)=E(sum_(i=1)^5 X_i)=sum_(i=1)^5 E(X_i)=5 E(X_i)$.
 
@@ -496,19 +435,7 @@ $X_i= \b e g i n{c a s e s} 1, & "这3次选取中，球至少被取出一次",\
 为研究某疾病与超声波检查结果的关系，从做过超声波检查的人群中随机调查了1000人，得到如下列联表：
 
 \begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-\multicolumn{1}{|c|}{组别} & \multicolumn{3}{c|}{超声波检查结果} \\
-\cline{2-4}
- & 正常 & 不正常 & 合计 \\
-\hline
-患该疾病 & 20 & 180 & 200 \\
-\hline
-未患该疾病 & 780 & 20 & 800 \\
-\hline
-合计 & 800 & 200 & 1000 \\
-\hline
-\end{tabular}
+[（表格数据详见在线交互版）]
 \end{center}
 
 
@@ -519,13 +446,7 @@ $X_i= \b e g i n{c a s e s} 1, & "这3次选取中，球至少被取出一次",\
 附：$chi ""^2 = (n(a d-b c)^2)/((a+b)(c+d)(a+c)(b+d))$
 
 \begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-$P( chi ""^2 >= k)$ & 0.050 & 0.010 & 0.001 \\
-\hline
-$k$ & 3.841 & 6.635 & 10.828 \\
-\hline
-\end{tabular}
+[（表格数据详见在线交互版）]
 \end{center}
 ]
 
@@ -540,24 +461,24 @@ $ chi ""^2=(1000 times (20 times 20 -780 times 180 )^2)/(800 times 200 times 800
 ]
 
 #problem(16)[
-设数列 $\{a_n\}$ 满足 $a_1 = 3$，$(a_(n+1))/(n)= (a_n)/(n+1)+ (1)/(n(n+1))$.
+设数列 ${a_n}$ 满足 $a_1 = 3$，$(a_(n+1))/(n)= (a_n)/(n+1)+ (1)/(n(n+1))$.
 
 
-+ (1) 证明：$\{n a_n\}$ 为等差数列；
++ (1) 证明：${n a_n}$ 为等差数列；
 + (2) 给定正整数 $m$，设函数 $f(x) = a_(1) x + a_(2) x^2 + dots.c + a_(m) x^m$，求 $f'(-2)$.
 ]
 
 #solution[
-+ (1) 由题意，$n in \m a t h b b{N}^*$，在数列 $\{a_n\}$ 中，$a_1 = 3$，$(a_(n+1))/(n)= (a_n)/(n+1)+ (1)/(n(n+1))$. 两边同乘 $n(n+1)$，得 $(n+1)a_(n+1) = n a_n + 1$，即 $(n+1)a_(n+1) - n a_n = 1$. 所以 $\{n a_n\}$ 是以 $a_1 = 3$ 为首项，$1$ 为公差的等差数列.
-+ (2) 由题意及（1）得，$n in \m a t h b b{N}^*$，在数列 $\{n a_n\}$ 中，首项为 $3$，公差为 $1$，所以 $n a_n = 3 + 1 times (n-1) = n+2$，即 $a_n = 1 + (2)/(n)$. 在 $f(x) = a_(1) x + a_(2) x^2 + dots.c + a_(m) x^m$ 中，$f(x) = 3 x + 2 x^2 + dots.c + (1 + (2)/(m))x^m$，所以 $f'(x) = 3 + 4 x + dots.c + (m+2)x^(m-1)$. 当 $x != 1$ 且 $x != 0$ 时，考虑 $x f'(x) = 3 x + 4 x^2 + dots.c + (m+2)x^m$. 则 $(1-x)f'(x)=3+x+x^2+ dots.c +x^(m-1)-(m+2)x^m=3+(x(1-x^(m-1)))/(1-x)-(m+2)x^m$，所以 $f'(x) = (3)/(1-x)+ (x(1-x^(m-1)))/((1-x)^2)- ((m+2)x^m)/(1-x)$.
++ (1) 由题意，$n in \m a t h b b{N}^*$，在数列 ${a_n}$ 中，$a_1 = 3$，$(a_(n+1))/(n)= (a_n)/(n+1)+ (1)/(n(n+1))$. 两边同乘 $n(n+1)$，得 $(n+1)a_(n+1) = n a_n + 1$，即 $(n+1)a_(n+1) - n a_n = 1$. 所以 ${n a_n}$ 是以 $a_1 = 3$ 为首项，$1$ 为公差的等差数列.
++ (2) 由题意及（1）得，$n in \m a t h b b{N}^*$，在数列 ${n a_n}$ 中，首项为 $3$，公差为 $1$，所以 $n a_n = 3 + 1 times (n-1) = n+2$，即 $a_n = 1 + (2)/(n)$. 在 $f(x) = a_(1) x + a_(2) x^2 + dots.c + a_(m) x^m$ 中，$f(x) = 3 x + 2 x^2 + dots.c + (1 + (2)/(m))x^m$，所以 $f'(x) = 3 + 4 x + dots.c + (m+2)x^(m-1)$. 当 $x != 1$ 且 $x != 0$ 时，考虑 $x f'(x) = 3 x + 4 x^2 + dots.c + (m+2)x^m$. 则 $(1-x)f'(x)=3+x+x^2+ dots.c +x^(m-1)-(m+2)x^m=3+(x(1-x^(m-1)))/(1-x)-(m+2)x^m$，所以 $f'(x) = (3)/(1-x)+ (x(1-x^(m-1)))/((1-x)^2)- ((m+2)x^m)/(1-x)$.
 于是
-\begin{align*}
+
 f'(-2)
-&= \frac{3}{1-(-2)} + \frac{-2[1-(-2)^{m-1}]}{[1-(-2)]^2} - \frac{(m+2)(-2)^m}{1-(-2)} \\
-&= 1 + \frac{-2[1-(-2)^{m-1}]}{9} - \frac{(m+2)(-2)^m}{3} \\
-&= 1 - \frac{2}{9} + \frac{(-2)^m}{9} - \frac{(m+2)(-2)^m}{3} \\
-&= \frac{7}{9} - \frac{(3m+7)(-2)^m}{9}
-\end{align*}
+&=  (3)/(1-(-2))  + \frac{-2[1-(-2)^{m-1}]}{[1-(-2)]^2} -  ((m+2)(-2)^m)/(1-(-2))  \\
+&= 1 + \frac{-2[1-(-2)^{m-1}]}{9} -  ((m+2)(-2)^m)/(3)  \\
+&= 1 -  (2)/(9)  +  ((-2)^m)/(9)  -  ((m+2)(-2)^m)/(3)  \\
+&=  (7)/(9)  -  ((3m+7)(-2)^m)/(9) 
+
 ]
 
 #problem(17)[
@@ -634,12 +555,12 @@ $ P O_1 = B O_1 = C O_1 = O_1 D = sqrt(3) $
 
 
 【法一】写出向量 $arrow(A C)= (sqrt(2),2,0)$，$arrow(P O)= (0,1,-sqrt(2))$，则
-\begin{align*}
+
 \cos\theta
-&= \frac{|\overrightarrow{AC}\cdot\overrightarrow{PO}|}{|\overrightarrow{AC}||\overrightarrow{PO}|}\\
-&= \frac{|0\cdot\sqrt{2}+1\cdot 2+(-\sqrt{2})\cdot 0|}{\sqrt{(\sqrt{2})^2+2^2+0^2}\cdot \sqrt{0^2+1^2+(-\sqrt{2})^2}}\\
-&= \frac{2}{\sqrt{6}\cdot\sqrt{3}}=\frac{\sqrt{2}}{3}
-\end{align*}
+&= \frac{|\overrightarrow{AC}dot\overrightarrow{PO}|}{|\overrightarrow{AC}||\overrightarrow{PO}|}\\
+&= \frac{|0\cdot sqrt{2}+1dot 2+(-sqrt{2})dot 0|}{sqrt{(sqrt{2})^2+2^2+0^2}dot sqrt{0^2+1^2+(-sqrt{2})^2}}\\
+&=  (2)/(sqrt{6) \cdot sqrt{3}}=\frac{sqrt{2}}{3}
+
 
 【法二】由几何知识得，$P O = sqrt(3)$，$A B bot A D$，$B C parallel A D$，所以 $A B bot B C$. 在 $R t triangle A B C$ 中，$A B = sqrt(2)$，$B C = 2$，故
 
@@ -687,7 +608,7 @@ $| cos angle P O C_1| = (sqrt(2))/(3)$.
 #solution[
 + (1) 下顶点 $A$ 在 $y$ 轴负半轴上，右顶点 $B$ 在 $x$ 轴正半轴上，所以
 
-$ \b e g i n{c a s e s} sqrt(a^2+b^2)=sqrt(10)\\ e=(c)/(a)=(2 sqrt(2))/(3)\\ c^2=a^2-b^2 \e n d{c a s e s} $
+$ [（方程组详见交互版）] $
 
 解得 $a^2=9$，$b^2=1$，$c^2=8$，故椭圆 $C$ 的标准方程为 $(x^2)/(9)+y^2=1$.
 + (2) \begin{enumerate}
@@ -701,27 +622,27 @@ $|A R| dot |A P|=3 => lambda (m^2+(n+1)^2)=3$，即 $lambda =(3)/(m^2+(n+1)^2)$�
 
 
 #align(center)[#image("/papers/2025/img/national_paper_1/q18_solution_fig1.png", width: 4.0cm)]
-+ (4) 因为 $k_(O R)=(n+2-m^2-n^2)/(m^2+(n+1)^2)\div(3 m)/(m^2+(n+1)^2)=(n+2-m^2-n^2)/(3 m)$，$k_(O P)=(n)/(m)$. 由 $k_(O R)=3 k_(O P)$，可得 $(3 n)/(m)=(n+2-m^2-n^2)/(3 m)$. 化简得 $m^2+n^2+8 n-2=0$，$m^2+(n+4)^2=18$（$m\n e q0$）.
++ (4) 因为 $k_(O R)=(n+2-m^2-n^2)/(m^2+(n+1)^2)div(3 m)/(m^2+(n+1)^2)=(n+2-m^2-n^2)/(3 m)$，$k_(O P)=(n)/(m)$. 由 $k_(O R)=3 k_(O P)$，可得 $(3 n)/(m)=(n+2-m^2-n^2)/(3 m)$. 化简得 $m^2+n^2+8 n-2=0$，$m^2+(n+4)^2=18$（$m != 0$）.
 所以点 $P$ 在以 $N(0,-4)$ 为圆心，$3 sqrt(2)$ 为半径的圆上（除去两个点），$|P Q|_( max )$ 为 $Q$ 到圆心 $N$ 的距离加上半径.
 
 【法一】设 $Q(3 cos theta , sin theta )$，则
-\begin{align*}
+
 |QN|^2&=(3\cos\theta)^2+(\sin\theta+4)^2\\
 &=9\cos^2\theta+\sin^2\theta+8\sin\theta+16\\
 &=8\cos^2\theta+1+8\sin\theta+16\\
 &=-8\sin^2\theta+8\sin\theta+25\\
 &\le 27
-\end{align*}
+
 当且仅当 $sin theta =(1)/(2)$ 时取等号. 此时可取的最远点 $P$ 不在 $y$ 轴上，所以 $|P Q|_( max )=sqrt(27)+3 sqrt(2)=3(sqrt(3)+sqrt(2))$.
 
 【法二】设 $Q(x_0,y_0)$，则 $(x_0^2)/(9)+y_0^2=1$，所以
-\begin{align*}
+
 |QN|^2&=x_0^2+(y_0+4)^2\\
 &=9-9y_0^2+y_0^2+8y_0+16\\
 &=-8y_0^2+8y_0+25\\
-&=-8\left(y_0-\frac{1}{2}\right)^2+27\\
+&=-8\left(y_0- (1)/(2) \right)^2+27\\
 &\le 27
-\end{align*}
+
 当且仅当 $y_0=(1)/(2)$ 时取等号. 此时可取的最远点 $P$ 不在 $y$ 轴上，故 $|P Q|_( max )=sqrt(27)+3 sqrt(2)=3(sqrt(3)+sqrt(2))$.
 
 \end{enumerate}
@@ -729,50 +650,14 @@ $|A R| dot |A P|=3 => lambda (m^2+(n+1)^2)=3$，即 $lambda =(3)/(m^2+(n+1)^2)$�
 
 #problem(19)[
 + (1) 设函数 $f(x) = 5 cos x - cos 5 x$，求 $f(x)$ 在 $[0, (pi)/(4)]$ 的最大值；
-+ (2) 给定 $theta in (0, pi )$ 和 $a in RR$，证明：存在 $y in [a - theta , a + theta ]$，使得 $cos y <= cos theta$；
-+ (3) 设 $b in RR$，若存在 $phi.alt in RR$ 使得 $5 cos x - cos (5 x + phi.alt ) <= b$ 对 $x in RR$ 恒成立，求 $b$ 的最小值.
-]
-
-#solution[
-+ (1) 【法一】$f'(x) = -5 sin x + 5 sin 5 x = 10 cos 3 x sin 2 x$. 因为 $x in [0, (pi)/(4)]$，故 $2 x in [0, (pi)/(2)]$，$sin 2 x >= 0$. 当 $0 < x < (pi)/(6)$ 时，$cos 3 x > 0$，所以 $f'(x) > 0$；当 $(pi)/(6)< x < (pi)/(4)$ 时，$cos 3 x < 0$，所以 $f'(x) < 0$. 所以 $f(x)$ 在 $(0, (pi)/(6)]$ 上增，在 $((pi)/(6), (pi)/(4))$ 上减. 故
-
-$ f_( max ) = f((pi)/(6)) = 5 cos (pi)/(6)- cos (5 pi)/(6)= 3 sqrt(3) $
-
-
-【法二】由上可得 $cos 5 x = cos (x + 4 x)= cos x cos 4 x- sin x sin 4 x$
-\begin{align*}
-\cos 5x &= \cos x (2\cos^2 2x - 1) - \sin x \cdot 2\sin 2x \cos 2x \\
-&= \cos x (2(2\cos^2 x - 1)^2 - 1) - \sin x \cdot 4 \sin x \cos x \cos 2x \\
-&= \cos x (8\cos^4 x - 8\cos^2 x + 1) - 4\cos x \cos 2x \sin^2 x \\
-&= \cos x\left(8\cos^4 x - 8\cos^2 x + 1\right) - 4\cos x(2\cos^2 x - 1)(1-\cos^2 x) \\
-&= 16\cos^5 x - 20\cos^3 x + 5\cos x
-\end{align*}
-\begin{align*}
-f(x) &= 5\cos x - \cos 5x \\
-&= 5\cos x - (16\cos^5 x - 20\cos^3 x + 5\cos x) \\
-&= 20\cos^3 x - 16\cos^5 x=4\cos^3 x(5 - 4\cos^2 x) \\
-&\le 4|\cos x|^3(5 - 4|\cos x|^2) \\
-&= 4|\cos x|^3(\sqrt{5} - 2|\cos x|)(\sqrt{5} + 2|\cos x|) \\
-&= \frac{32}{3}\left(|\cos x| \cdot |\cos x| \cdot |\cos x| \cdot \frac{\sqrt{15} + 3}{4}(\sqrt{5} - 2|\cos x|) \cdot \frac{\sqrt{15} - 3}{4}(\sqrt{5} + 2|\cos x|)\right) \\
-&\le \frac{32}{3}\left(\frac{1}{5}\left(|\cos x| + |\cos x| + |\cos x| + \frac{\sqrt{15} + 3}{4}(\sqrt{5} - 2|\cos x|) + \frac{\sqrt{15} - 3}{4}(\sqrt{5} + 2|\cos x|)\right)\right)^5 \\
-&= \frac{32}{3}\left(\frac{\sqrt{3}}{2}\right)^5 = 3\sqrt{3}
-\end{align*}
-这得到 $f(x) <= 3 sqrt(3)$，同时又有 $f((pi)/(6)) = 5 cos (pi)/(6)- cos (5 pi)/(6)= 3 sqrt(3)$，故 $f(x)$ 在 $[0, (pi)/(4)]$ 上的最大值为 $3 sqrt(3)$，在 $RR$ 上的最大值也是 $3 sqrt(3)$.
-+ (2) $cos y <= cos theta <=> y in [2 k pi + theta ,2(k+1) pi - theta ]$，$k in ZZ$. 若每个 $[2 k pi + theta ,2(k+1) pi - theta ]$ 与 $[a- theta ,a+ theta ]$ 交集都为空，则对每个 $k in ZZ$，必有 $2(k+1) pi - theta < a- theta$或$2 k pi + theta > a+ theta$. 即 $k < (a)/(2 pi)- 1$或$k > (a)/(2 pi)$. 但闭区间 $[(a)/(2 pi)-1,(a)/(2 pi)]$ 上必有一整数 $k$，该 $k$ 不满足上述条件，故矛盾. 故存在 $y in [a- theta ,a+ theta ]$，$cos y <= cos theta$.
-+ (3) 【法一】记 $h_ phi.alt (x)=5 cos x- cos (5 x+ phi.alt )$. 因为 $h_ phi.alt (x+2 pi )=h_ phi.alt (x)$，且 $phi.alt$ 可模 $2 pi$ 化到 $[0,2 pi ]$ 内，又有 $h_(2 pi - phi.alt )(x)=h_ phi.alt (-x)$，所以只需讨论 $x in [0,2 pi ]$，$phi.alt in [0, pi ]$ 的情况.
-
-当 $phi.alt = pi$ 时，$h_ phi.alt (x)=5 cos x- cos (5 x+ pi )=5 cos x+ cos 5 x <= 6$，且 $h_( pi )(0)=6$，故其最大值为 $6$.
-
-当 $phi.alt =0$ 时，$h_0(x)=5 cos x- cos 5 x$，$h_0'(x)=-5 sin x+5 sin 5 x=10 cos 3 x sin 2 x$，$x in (0,2 pi )$. $h_0'(x)=0 <=> x in \{(pi)/(6),(pi)/(2),(5 pi)/(6),(7 pi)/(6),(3 pi)/(2),(11 pi)/(6)\}$.
++ (2) 给定 $theta in (0, pi )$ 和 $a in RR$，证明：存在 $y in [a - theta , a + theta ]$，使得 $cos y = 0$. 当 $0  0$，所以 $f'(x) > 0$；当 $(pi)/(6) y in [2 k pi + theta ,2(k+1) pi - theta ]$，$k in ZZ$. 若每个 $[2 k pi + theta ,2(k+1) pi - theta ]$ 与 $[a- theta ,a+ theta ]$ 交集都为空，则对每个 $k in ZZ$，必有 $2(k+1) pi - theta  a+ theta$. 即 $k  (a)/(2 pi)$. 但闭区间 $[(a)/(2 pi)-1,(a)/(2 pi)]$ 上必有一整数 $k$，该 $k$ 不满足上述条件，故矛盾. 故存在 $y in [a- theta ,a+ theta ]$，$cos y  x in {(pi)/(6),(pi)/(2),(5 pi)/(6),(7 pi)/(6),(3 pi)/(2),(11 pi)/(6)}$.
 此时 $h_0\!((pi)/(6))=h_0\!((11 pi)/(6))=3 sqrt(3)$，$h_0\!((pi)/(2))=h_0\!((3 pi)/(2))=0$，$h_0\!((5 pi)/(6))=h_0\!((7 pi)/(6))=-3 sqrt(3)$，且 $h_0( pi )=-4$，$h_0(0)=h_0(2 pi )=4$.
 
 $ max _(x in [0,2 pi ])h_0(x)=h_0((pi)/(6))=h_0((11 pi)/(6))=3 sqrt(3) $
 
 
 当 $phi.alt in (0, pi )$，在（2）中取 $theta =(5 pi)/(6)$，则存在
-$y in [ phi.alt - theta , phi.alt + theta ]$，$cos y <= cos theta =-(sqrt(3))/(2)$.
-$x=(y- phi.alt)/(5) in [-(theta)/(5),(theta)/(5)]=[-(pi)/(6),(pi)/(6)]$，
-于是 $5 cos x >= (5 sqrt(3))/(2)$，从而
+$y in [ phi.alt - theta , phi.alt + theta ]$，$cos y = (5 sqrt(3))/(2)$，从而
 $5 cos x- cos (5 x+ phi.alt ) >= 3 sqrt(3)$.
 综上 $b >= 3 sqrt(3)$，可取 $x=(pi)/(6)$，$phi.alt =0$ 取到等号，故
 $b_( min )=3 sqrt(3)$
@@ -780,20 +665,10 @@ $b_( min )=3 sqrt(3)$
 【法二】
 $g_ phi.alt (x)=5 cos x- cos (5 x+ phi.alt )$.
 
-一方面，若存在 $phi.alt$ 使 $g_ phi.alt (x) <= b$ 对任意 $x$ 成立，则 $g_ phi.alt (x+ pi ) >= -b$，从而
-$|g_ phi.alt (x)| <= b$.
-故有 $b >= 0$. 设
+一方面，若存在 $phi.alt$ 使 $g_ phi.alt (x) = -b$，从而
+$|g_ phi.alt (x)| = 0$. 设
 $(phi.alt)/(6)-(pi)/(6)=m$，
-则由 $|g_ phi.alt (x)| <= b$ 得
-\begin{align*}
-b&\ge \left|g_\varphi\left(-\frac{\varphi}{6}+\frac{\pi}{6}\right)\right| =\left|6\cos\left(\frac{\varphi}{6}-\frac{\pi}{6}\right)\right| =6|\cos m|\\
-b&\ge \left|g_\varphi\left(-\frac{\varphi}{6}-\frac{\pi}{6}\right)\right| =\left|6\cos\left(\frac{\varphi}{6}+\frac{\pi}{6}\right)\right| =6\left|\cos\left(m+\frac{\pi}{3}\right)\right|\\
-b&\ge \left|g_\varphi\left(-\frac{\varphi}{6}+\frac{\pi}{2}\right)\right| =\left|6\sin\left(\frac{\varphi}{6}\right)\right| =6\left|\sin\left(m+\frac{\pi}{6}\right)\right|
-\end{align*}
-$| cos m|$，$| cos (m+(pi)/(3))|$，$| sin (m+(pi)/(6))| <= (b)/(6)$.
-再结合 $cos 2 x = 2 cos ""^2 x - 1$，得到
-$cos 2 m$，$\ cos (2 m+(2 pi)/(3))$，$\ cos (2 m-(2 pi)/(3)) <= 2 ((b)/(6))^2-1=(b^2)/(18)-1$.
-若 $b<3 sqrt(3)$，则上述三个余弦值都小于 $(1)/(2)$. 但三个角在单位圆上两两相差 $(2 pi)/(3)$，其中至少有一个角模 $2 pi$ 后落在 $[-(pi)/(3),(pi)/(3)]$ 内，对应的余弦值不小于 $(1)/(2)$，矛盾. 故 $b >= 3 sqrt(3)$.
+则由 $|g_ phi.alt (x)| = 3 sqrt(3)$.
 
 另一方面，若 $b=3 sqrt(3)$，由（1）知 $f(x) <= 3 sqrt(3)$，取 $phi.alt =0$ 时
 

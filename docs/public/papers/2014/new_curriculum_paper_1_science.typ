@@ -11,7 +11,7 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $A = \{x | x^2 - 2 x - 3 >= 0 \}$，$B = \{x | -2 <= x < 2\}$，则 $A inter B =$（ ）
+已知集合 $A = {x | x^2 - 2 x - 3 >= 0 }$，$B = {x | -2 <= x < 2}$，则 $A inter B =$（ ）
   #choices([$[-2, -1]$], [$[-1, 2)$], [$[-1, 1]$], [$[1,2)$], cols: 4)
 ]
 
@@ -345,18 +345,18 @@ $ S=(1)/(2)b c sin A=(sqrt(3))/(4)b c $
 
 $ 4=b^2+c^2-b c=(b-c)^2+b c >= b c $
 
-所以 $b c <= 4$，从而 $S\l e q s l a n t s q r t(3)$. 当 $b=c=2$ 时等号成立，
+所以 $b c <= 4$，从而 $S <= s l a n t s q r t(3)$. 当 $b=c=2$ 时等号成立，
 故面积的最大值为 $sqrt(3)$.
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知数列 $\{a_(n)\}$ 的前 $n$ 项和为 $S_(n)$，$a_(1) = 1$，$a_(n) != 0$，$a_(n)a_(n+1) = lambda S_(n) - 1$，其中 $lambda$ 为常数.
+已知数列 ${a_(n)}$ 的前 $n$ 项和为 $S_(n)$，$a_(1) = 1$，$a_(n) != 0$，$a_(n)a_(n+1) = lambda S_(n) - 1$，其中 $lambda$ 为常数.
 
 
 + (1) 证明：$a_(n+2)-a_(n)= lambda$；
-+ (2) 是否存在 $lambda$，使得 $\{a_(n)\}$ 为等差数列？并说明理由.
++ (2) 是否存在 $lambda$，使得 ${a_(n)}$ 为等差数列？并说明理由.
 ]
 
 #solution[
@@ -528,7 +528,7 @@ $ (t^2)/(4)+(k t-2)^2=1 $
 $ (1+4 k^2)t^2-16 k t+12=0 $
 
 设两个交点对应的参数为 $t_1$，$t_2$. 因为
-$\det(A+t_1(1,k),A+t_2(1,k))=2(t_2-t_1)$，所以
+$det(A+t_1(1,k),A+t_2(1,k))=2(t_2-t_1)$，所以
 
 $ S_( triangle O P Q)=|t_2-t_1| $
 
@@ -639,7 +639,7 @@ $triangle A D E$ 为等边三角形.
 + (1) 令 $x=2 cos theta$，$y=3 sin theta$，其中
 $0 <= theta <2 pi$，则
 
-$ \{ \b e g i n{a l i g n e d} x&=2 cos theta ,\\ y&=3 sin theta . \e n d{a l i g n e d} . $
+$ { \b e g i n{a l i g n e d} x&=2 cos theta ,\\ y&=3 sin theta . \e n d{a l i g n e d} . $
 
 是曲线 $C$ 的参数方程. 由直线的参数方程消去 $t$，得
 $t=x-2$，从而 $y=2-2(x-2)=6-2 x$，所以直线 $l$ 的普通方程为
@@ -681,7 +681,7 @@ $(2 sqrt(5))/(5)$.
 $ a+b=(a b)^((3)/(2)) $
 
 令 $t=sqrt(a b)>0$，则 $a+b=t^3$. 又由基本不等式
-$a+b >= 2 sqrt(a b)=2 t$，得 $t\g e q s l a n t s q r t(2)$. 因而
+$a+b >= 2 sqrt(a b)=2 t$，得 $t >= s l a n t s q r t(2)$. 因而
 
 $ a^3+b^3=(a+b)^3-3 a b(a+b)=t^9-3 t^5=t^5(t^4-3) $
 
@@ -689,7 +689,7 @@ $ a^3+b^3=(a+b)^3-3 a b(a+b)=t^9-3 t^5=t^5(t^4-3) $
 
 $ 3 t^4(3 t^4-5) $
 
-当 $t\g e q s l a n t s q r t(2)$ 时，$3 t^4-5 >= 7 >0$，所以该函数在
+当 $t >= s l a n t s q r t(2)$ 时，$3 t^4-5 >= 7 >0$，所以该函数在
 $[sqrt(2),+ oo )$ 上递增. 最小值在 $t=sqrt(2)$ 时取得，为
 
 $ (sqrt(2))^5((sqrt(2))^4-3)=4 sqrt(2) $

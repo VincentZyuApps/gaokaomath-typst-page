@@ -11,7 +11,7 @@
 #part-header("单选题")
 
 #problem(1)[
-在等比数列 $\{a_(n)\}$ 中，$a_(1) = 8$，$a_(4) = 64$，则公比 $q$ 为（$$）
+在等比数列 ${a_(n)}$ 中，$a_(1) = 8$，$a_(4) = 64$，则公比 $q$ 为（$$）
   #choices([$2$], [$3$], [$4$], [$8$], cols: 4)
 ]
 
@@ -22,14 +22,14 @@
 ]
 
 #problem(2)[
-设全集 $U = \{a, b, c, d\}$，$A = \{a, c\}$，$B = \{b\}$，则 $A inter (\c o m p l e m e n t_U B) =$（$$）
-  #choices([$emptyset$], [$\{a\}$], [$\{c\}$], [$\{a, c\}$], cols: 4)
+设全集 $U = {a, b, c, d}$，$A = {a, c}$，$B = {b}$，则 $A inter (\c o m p l e m e n t_U B) =$（$$）
+  #choices([$emptyset$], [${a}$], [${c}$], [${a, c}$], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-全集中除去 $B=\{b\}$ 后，$\c o m p l e m e n t_U B=\{a,c,d\}$. 因此 $A inter (\c o m p l e m e n t_U B)=\{a,c\}$，故选 D.
+全集中除去 $B={b}$ 后，$\c o m p l e m e n t_U B={a,c,d}$. 因此 $A inter (\c o m p l e m e n t_U B)={a,c}$，故选 D.
 ]
 
 #problem(3)[
@@ -136,7 +136,7 @@ $arrow(O C)=((2)/(7),-(4)/(21))$，故选 D.
 
 #solution[
 由等比中项关系，$(sqrt(3)b)^2=(1-a)(1+a)$，所以 $a^2+3 b^2=1$. 由柯西不等式，
-$a+3 b=a+sqrt(3)(sqrt(3)b)\l e q s l a n t s q r t(a^2+3 b^2)sqrt(1+3)=2$. 当 $a=(1)/(2)$，$b=(1)/(2)$ 时等号成立，故最大值为 $2$，选 B.
+$a+3 b=a+sqrt(3)(sqrt(3)b) <= s l a n t s q r t(a^2+3 b^2)sqrt(1+3)=2$. 当 $a=(1)/(2)$，$b=(1)/(2)$ 时等号成立，故最大值为 $2$，选 B.
 ]
 
 #problem(12)[
@@ -189,7 +189,7 @@ $a+3 b=a+sqrt(3)(sqrt(3)b)\l e q s l a n t s q r t(a^2+3 b^2)sqrt(1+3)=2$. 当 $
 #answer([$1+2 sqrt(2)$])
 
 #solution[
-根式有意义须满足 $x^2-2 x >= 0$ 和 $x^2-5 x+4 >= 0$，所以定义域为 $x <= 0$ 或 $x >= 4$. 当 $x <= 0$ 时，$x^2-5 x+4 >= 4$，从而 $f(x) >= 2 ""^2=4>1+2 sqrt(2)$. 当 $x >= 4$ 时，$sqrt(x^2-2 x)\g e q s l a n t s q r t(8)=2 sqrt(2)$，且 $2^(sqrt(x^2-5 x+4)) >= 1$，故 $f(x) >= 1 +2 sqrt(2)$. 在 $x=4$ 时等号成立，所以函数的最小值为 $1+2 sqrt(2)$.
+根式有意义须满足 $x^2-2 x >= 0$ 和 $x^2-5 x+4 >= 0$，所以定义域为 $x <= 0$ 或 $x >= 4$. 当 $x <= 0$ 时，$x^2-5 x+4 >= 4$，从而 $f(x) >= 2 ""^2=4>1+2 sqrt(2)$. 当 $x >= 4$ 时，$sqrt(x^2-2 x) >= s l a n t s q r t(8)=2 sqrt(2)$，且 $2^(sqrt(x^2-5 x+4)) >= 1$，故 $f(x) >= 1 +2 sqrt(2)$. 在 $x=4$ 时等号成立，所以函数的最小值为 $1+2 sqrt(2)$.
 ]
 
 #part-header("解答题")
@@ -216,7 +216,7 @@ $a+3 b=a+sqrt(3)(sqrt(3)b)\l e q s l a n t s q r t(a^2+3 b^2)sqrt(1+3)=2$. 当 $
 ]
 
 #solution[
-+ (1) 因为分母不能为零，且 $sin (x+(pi)/(2))= cos x$，所以 $cos x != 0$，从而定义域为 $\{x | x != (pi)/(2)+k pi ,\ k in ZZ \}$.
++ (1) 因为分母不能为零，且 $sin (x+(pi)/(2))= cos x$，所以 $cos x != 0$，从而定义域为 ${x | x != (pi)/(2)+k pi ,\ k in ZZ }$.
 + (2) 由 $alpha$ 在第一象限且 $cos alpha =(3)/(5)$，得 $sin alpha =(4)/(5)$. 又 $sqrt(2) cos (2 alpha -(pi)/(4))= cos 2 alpha + sin 2 alpha$，所以 $f( alpha )=(1+ cos 2 alpha + sin 2 alpha)/(cos alpha)=(1+ cos ""^2 alpha - sin ""^2 alpha +2 sin alpha cos alpha)/(cos alpha)=2( cos alpha + sin alpha )=(14)/(5)$.
 ]
 
@@ -264,15 +264,15 @@ $arrow(B_(1) E)=((16)/(25),0,-(12)/(25))$ 同时垂直于 $A_(1) D$ 和 $B_(1) C
 + (1) 抛物线 $y^2=8 x$ 与标准方程 $y^2=2 p x$ 比较得 $p=4$，所以焦点为 $F=(2,0)$，准线为 $l:x=-2$.
 + (2) 令 $t= tan alpha >0$，过焦点的直线为 $y=t(x-2)$. 它与抛物线的交点横坐标是方程 $t^2(x-2)^2=8 x$ 的两根，设为 $x_A$，$x_B$. 由韦达定理，$x_A+x_B=4+(8)/(t^2)$，故弦 $A B$ 的中点 $M$ 满足 $x_M=2+(4)/(t^2)$，且 $y_M=t(x_M-2)=(4)/(t)$.
 
-$A B$ 的斜率为 $t$，所以其垂直平分线过 $M$，斜率为 $-(1)/(t)$. 令该直线与 $x$ 轴交于 $P$，由 $y_P=0$ 得 $x_P=x_M+4=6+(4)/(t^2)$，从而 $| F P|=x_P-2=4+(4)/(t^2)=4\csc^2 alpha$. 因此 $| F P|-| F P| cos 2 alpha =4\csc^2 alpha (1- cos 2 alpha )=4\csc^2 alpha dot 2 sin ""^2 alpha =8$，为定值 $8$.
+$A B$ 的斜率为 $t$，所以其垂直平分线过 $M$，斜率为 $-(1)/(t)$. 令该直线与 $x$ 轴交于 $P$，由 $y_P=0$ 得 $x_P=x_M+4=6+(4)/(t^2)$，从而 $| F P|=x_P-2=4+(4)/(t^2)=4csc^2 alpha$. 因此 $| F P|-| F P| cos 2 alpha =4csc^2 alpha (1- cos 2 alpha )=4csc^2 alpha dot 2 sin ""^2 alpha =8$，为定值 $8$.
 ]
 
 #problem(22)[
-已知各项均为正数的数列 $\{a_(n)\}$ 的前 $n$ 项和 $S_(n)$ 满足 $S_(1) > 1$，且 $6 S_(n) = (a_(n) + 1)(a_(n) + 2)$，$n in NN _(+)$.
+已知各项均为正数的数列 ${a_(n)}$ 的前 $n$ 项和 $S_(n)$ 满足 $S_(1) > 1$，且 $6 S_(n) = (a_(n) + 1)(a_(n) + 2)$，$n in NN _(+)$.
 
 
-+ (1) 求 $\{a_(n)\}$ 的通项公式；
-+ (2) 设数列 $\{b_n\}$ 满足 $a_n(2^(b_n) - 1) = 1$，并记 $T_n$ 为 $\{b_n\}$ 的前 $n$ 项和，求证：$3 T_n + 1 > log _2(a_n + 3)$，$n in NN _(+)$.
++ (1) 求 ${a_(n)}$ 的通项公式；
++ (2) 设数列 ${b_n}$ 满足 $a_n(2^(b_n) - 1) = 1$，并记 $T_n$ 为 ${b_n}$ 的前 $n$ 项和，求证：$3 T_n + 1 > log _2(a_n + 3)$，$n in NN _(+)$.
 ]
 
 #solution[

@@ -18,7 +18,7 @@
 由正切的和角公式，且
 $1- tan alpha tan beta =1-(1)/(2) dot (1)/(3)=(5)/(6) != 0$，有
 
-$ tan ( alpha + beta ) =(tan alpha + tan beta)/(1- tan alpha tan beta)=((1)/(2)+(1)/(3))/(1-(1)/(6))=(5)/(6)\div(5)/(6)=1 $
+$ tan ( alpha + beta ) =(tan alpha + tan beta)/(1- tan alpha tan beta)=((1)/(2)+(1)/(3))/(1-(1)/(6))=(5)/(6)div(5)/(6)=1 $
 
 因为 $alpha$，$beta$ 均为锐角，所以 $0^ degree < alpha + beta <180^ degree$. 方程 $tan theta =1$ 的一般解为 $theta =45^ degree +180^ degree n$，其中 $n in ZZ$. 结合 $alpha + beta$ 的范围，只能取 $n=0$，故 $alpha + beta =45^ degree$.
 ]
@@ -38,7 +38,7 @@ $x=-(k+1)/(2(2 k-1))$，分别为 $5$ 和 $-(1)/(3)$，故所求为 $k=(3)/(7)$�
 ]
 
 #problem(3)[
-解方程：$\sqrt[3]{4 a^(3)+x}+\sqrt[3]{4 a^(3)-x}=2 a$.
+解方程：$sqrt[3]{4 a^(3)+x}+sqrt[3]{4 a^(3)-x}=2 a$.
 ]
 
 #solution[

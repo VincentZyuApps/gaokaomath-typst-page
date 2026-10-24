@@ -36,13 +36,13 @@ $ x-y=y-z $
 ]
 
 #problem(2)[
-化简： $(1)/(1-(1)/(1-(1)/(1-\csc^2 x)))$.
+化简： $(1)/(1-(1)/(1-(1)/(1-csc^2 x)))$.
 ]
 
 #solution[
-设 $u=\csc^(2) x$.
+设 $u=csc^(2) x$.
 首先确定原式的定义域. 必须有 $sin x != 0$，并且最内层分式的分母
-$1-\csc^(2) x != 0$，即 $u != 1$. 因为 $u=(1)/(sin ""^(2) x)\g e q1$，排除 $u=1$ 后有 $u>1$. 这两个条件等价于
+$1-csc^(2) x != 0$，即 $u != 1$. 因为 $u=(1)/(sin ""^(2) x) >= 1$，排除 $u=1$ 后有 $u>1$. 这两个条件等价于
 $x in.not (pi)/(2) ZZ$.
 
 在这个定义域内，先化简最内层的下一层分母：
@@ -57,9 +57,9 @@ $ 1-(1)/(1-(1)/(1-u))=1-(1)/((u)/((u-1)))=1-(u-1)/(u)=(1)/(u) $
 
 于是原式的值为
 
-$ (1)/((1)/(u))=u=\csc^(2) x $
+$ (1)/((1)/(u))=u=csc^(2) x $
 
-所以化简结果为 $\csc^(2) x$，但必须附带原式的定义域
+所以化简结果为 $csc^(2) x$，但必须附带原式的定义域
 $x in.not (pi)/(2) ZZ$
 （$ZZ$ 表示整数集）.
 ]
@@ -151,13 +151,13 @@ $ cot alpha + cot beta =(t)/(d)+(S-t)/(d)=(S)/(d) $
 $ d=(S)/(cot alpha + cot beta) $
 
 
-这里使用有向的水平分量，所以即使船的正射影落在线段 $A B$ 外，公式仍然成立. 船进入距海岸线不超过 $D$ 里的区域时应发出警告，即 $d\l e q D$. 又因为 $d>0$，所以 $cot alpha + cot beta =(S)/(d)>0$，代入上式得到
+这里使用有向的水平分量，所以即使船的正射影落在线段 $A B$ 外，公式仍然成立. 船进入距海岸线不超过 $D$ 里的区域时应发出警告，即 $d 0$，所以 $cot alpha + cot beta =(S)/(d)>0$，代入上式得到
 
-$ (S)/(cot alpha + cot beta)\l e q D <=> cot alpha + cot beta \g e q(S)/(D) $
+$ (S)/(cot alpha + cot beta)  cot alpha + cot beta  >= (S)/(D) $
 
 
 因此应满足的三角函数值不等式为
-$cot alpha + cot beta \g e q(S)/(D)$.
+$cot alpha + cot beta  >= (S)/(D)$.
 ]
 
 #problem(6)[
@@ -174,31 +174,27 @@ $ bold(a)\c d o t b o l d(b)=bold(b)\c d o t b o l d(c)=bold(c)\c d o t b o l d(
 在点 $A$ 处，$arrow(A B)=bold(b)-bold(a)$，$arrow(A C)=bold(c)-bold(a)$.
 于是
 
-$ arrow(A B)\c d o t a r r o w(A C)=(bold(b)-bold(a)) dot (bold(c)-bold(a)) =bold(b)\c d o t b o l d(c)-bold(b)\c d o t b o l d(a)-bold(a)\c d o t b o l d(c)+\l v e r t b o l d(a)|^2 =\l v e r t b o l d(a)|^2>0 $
+$ arrow(A B)\c d o t a r r o w(A C)=(bold(b)-bold(a)) dot (bold(c)-bold(a)) =bold(b)\c d o t b o l d(c)-bold(b)\c d o t b o l d(a)-bold(a)\c d o t b o l d(c)+ |  b o l d(a)|^2 = |  b o l d(a)|^2>0 $
 
 两条非零向量的内积为正，说明它们的夹角小于 $90^( degree )$，所以 $angle B A C$ 为锐角.
 
 在点 $B$ 处，$arrow(B A)=bold(a)-bold(b)$，$arrow(B C)=bold(c)-bold(b)$.
 因此
 
-$ arrow(B A)\c d o t a r r o w(B C)=(bold(a)-bold(b)) dot (bold(c)-bold(b)) =bold(a)\c d o t b o l d(c)-bold(a)\c d o t b o l d(b)-bold(b)\c d o t b o l d(c)+\l v e r t b o l d(b)|^2 =\l v e r t b o l d(b)|^2>0 $
+$ arrow(B A)\c d o t a r r o w(B C)=(bold(a)-bold(b)) dot (bold(c)-bold(b)) =bold(a)\c d o t b o l d(c)-bold(a)\c d o t b o l d(b)-bold(b)\c d o t b o l d(c)+ |  b o l d(b)|^2 = |  b o l d(b)|^2>0 $
 
 故 $angle A B C$ 为锐角.
 
 在点 $C$ 处，$arrow(C A)=bold(a)-bold(c)$，$arrow(C B)=bold(b)-bold(c)$.
 所以
 
-$ arrow(C A)\c d o t a r r o w(C B)=(bold(a)-bold(c)) dot (bold(b)-bold(c)) =bold(a)\c d o t b o l d(b)-bold(a)\c d o t b o l d(c)-bold(c)\c d o t b o l d(b)+\l v e r t b o l d(c)|^2 =\l v e r t b o l d(c)|^2>0 $
+$ arrow(C A)\c d o t a r r o w(C B)=(bold(a)-bold(c)) dot (bold(b)-bold(c)) =bold(a)\c d o t b o l d(b)-bold(a)\c d o t b o l d(c)-bold(c)\c d o t b o l d(b)+ |  b o l d(c)|^2 = |  b o l d(c)|^2>0 $
 
 故 $angle A C B$ 也为锐角. 于是 $triangle A B C$ 的三个内角均为锐角，故 $triangle A B C$ 是锐角三角形.
 ]
 
 #problem(7)[
-美国的物价从 1939 年的 $100$ 增加到四十年后 1979 年的 $500$，如果每年物价增长率相同，问每年增长百分之几？（注意：$x < 0.1$，可用：$ln (1+x) approx x$，取 $\l g 2 = 0.3$，$ln 10 = 2.3$）
-]
-
-#solution[
-设每年的物价增长率为 $x$. 因为物价逐年增长，所以 $x>0$. 经过四十年，物价满足
+美国的物价从 1939 年的 $100$ 增加到四十年后 1979 年的 $500$，如果每年物价增长率相同，问每年增长百分之几？（注意：$x 0$. 经过四十年，物价满足
 
 $ 100(1+x)^(40)=500 $
 
@@ -210,13 +206,13 @@ $ (1+x)^(40)=5 $
 
 $ 40 ln (1+x)= ln 5 $
 
-由换底关系 $ln a=(\l g a) ln 10$，以及题给的 $\l g2=0.3$，可得
+由换底关系 $ln a=( lg a ) ln 10$，以及题给的 $ lg 2 =0.3$，可得
 
 $ ln 2 =0.3 times 2 .3=0.69 $
 
-又因为 $\l g5=\l g10-\l g2=1-0.3=0.7$，所以
+又因为 $ lg 5 = lg 10 - lg 2 =1-0.3=0.7$，所以
 
-$ ln 5 =(\l g5) ln 10 =0.7 times 2 .3=1.61 $
+$ ln 5 =( lg 5 ) ln 10 =0.7 times 2 .3=1.61 $
 
 因此
 
@@ -288,17 +284,17 @@ $ (B F)/(A E)=((B D^2)/(B C))/((A D^2)/(A C))=((B D)/(A D))^2(A C)/(B C)=((B C^2
 ]
 
 #problem(9)[
-试问数列 $\l g 100$，$\l g (100 sin (pi)/(4))$，$\l g (100 sin ""^(2)(pi)/(4))$，$dots.c$，$\l g (100 sin ""^(n-1)(pi)/(4))$ 前多少项的和的值最大？并求这最大值. （$\l g 2 = 0.301$）
+试问数列 $ lg 100 $，$ lg  (100 sin (pi)/(4))$，$ lg  (100 sin ""^(2)(pi)/(4))$，$dots.c$，$ lg  (100 sin ""^(n-1)(pi)/(4))$ 前多少项的和的值最大？并求这最大值. （$ lg 2  = 0.301$）
 ]
 
 #solution[
-记第 $k$ 项为 $a_k$，其中 $k\g e q1$. 由于
+记第 $k$ 项为 $a_k$，其中 $k >= 1$. 由于
 
 $ sin (pi)/(4)=(sqrt(2))/(2)=2^(-(1)/(2)) $
 
-且 $\l g100=2$，所以
+且 $ lg 100 =2$，所以
 
-$ a_k=\l g(100( sin (pi)/(4))^(k-1)) =\l g(100 dot 2 ""^(-((k-1))/(2))) =2-(k-1)/(2)\l g2 =2-0.1505(k-1) $
+$ a_k= lg (100( sin (pi)/(4))^(k-1)) = lg (100 dot 2 ""^(-((k-1))/(2))) =2-(k-1)/(2) lg 2  =2-0.1505(k-1) $
 
 
 所以 $a_k$ 随 $k$ 增大而严格递减. 记前 $k$ 项的和为 $S_k$，则
@@ -310,68 +306,7 @@ $ S_(k+1)-S_k=a_(k+1)=2-0.1505 k $
 $ a_(14)=2-0.1505 times 13 =0.0435>0 $
 
 
-$ a_(15)=2-0.1505 times 14 =-0.107<0 $
-
-因此 $S_(14)-S_(13)=a_(14)>0$，而 $S_(15)-S_(14)=a_(15)<0$. 又因为所有 $a_k$ 递减，所以前 $14$ 项的加法过程一直增加到 $S_(14)$，从第 $15$ 项起继续加项都会使和减小，故最大值在前 $14$ 项处取得.
-
-前 $14$ 项构成首项为 $2$、第 $14$ 项为 $0.0435$ 的等差数列，故其和为
-
-$ S_(14)=(14(2+0.0435))/(2)=14.3045 $
-
-所以前 $14$ 项的和最大，最大值为 $14.3045$（按给定近似数据约为 $14.30$）.
-]
-
-#problem(10)[
-设等腰 $triangle O A B$ 的顶角为 $2 theta$，高为 $h$.
-
-
-+ (1) $triangle O A B$ 内有一动点 $P$，到三边 $O A$，$O B$，$A B$ 的距离分别为 $| P D|$，$| P F|$，$| P E|$，并且满足关系 $| P D| dot | P F| = | P E|^2$. 求 $P$ 点的轨迹；
-+ (2) 在上述轨迹中定出点 $P$ 的坐标，使得 $| P D| + | P E| = | P F|$.
-]
-
-#solution[
-+ (1) 取 $O$ 为原点，以高从 $O$ 指向边 $A B$ 的方向为 $x$ 轴正向，以垂直于高的方向为 $y$ 轴正向，并取 $A$ 位于 $x$ 轴上方. 由于顶角为 $2 theta$，有 $0< theta <90^( degree )$，于是
-$A=(h,h tan theta )$，$B=(h,-h tan theta )$.
-
-设 $P=(x,y)$. 因为 $P$ 在三角形内部，所以
-$0<x<h$，$-x tan theta <y<x tan theta$.
-三边所在直线分别为
-$O A: y=x tan theta$，$O B: y=-x tan theta$，$A B: x=h$.
-由点到直线的距离公式，且利用 $sqrt(1+ tan ""^2 theta)=(1)/(cos theta)$，可得
-
-$ | P D| =(x tan theta -y)/(sqrt(1+ tan ""^2 theta))=x sin theta -y cos theta $
-
-
-$ | P F| =(x tan theta +y)/(sqrt(1+ tan ""^2 theta))=x sin theta +y cos theta $
-
-并且
-
-$ | P E|=h-x $
-
-这些量在三角形内部均为正.
-
-代入 $| P D|| P F|=| P E|^2$，得到
-
-$ x^2 sin ""^2 theta -y^2 cos ""^2 theta =(h-x)^2 $
-
-展开右边并移项，得
-$c^2(x^2+y^2)-2 h x+h^2=0$，$c= cos theta$.
-将 $c$ 换回 $cos theta$，配方得
-
-$ (x-(h)/(cos ""^2 theta))^2+y^2 =((h sin theta)/(cos ""^2 theta))^2 $
-
-因此，满足距离乘积条件的点在上述圆上；但题目还要求 $P$ 位于三角形内部，所以实际轨迹是该圆满足
-$0<x<h$，$-x tan theta <y<x tan theta$
-的那一段（边界因 $P$ 在三角形内部而不取）.
-+ (2) 由 $| P D|+| P E|=| P F|$，有
-
-$ x sin theta -y cos theta +h-x=x sin theta +y cos theta $
-
-从而
-
-$ h-x=2 y cos theta $
-
-因为 $0<x<h$ 且 $cos theta >0$，所以 $y>0$.
+$ a_(15)=2-0.1505 times 14 =-0.1070$，而 $S_(15)-S_(14)=a_(15)0$，所以 $y>0$.
 
 把 $y cos theta =((h-x))/(2)$ 代入乘积条件的等价形式，得到
 
@@ -398,10 +333,6 @@ $ y=(h-x)/(2 cos theta)=(h tan theta)/(sqrt(5)+2 sin theta) $
 $ P=((sqrt(5){h})/(sqrt(5)+2 sin theta), (h tan theta)/(sqrt(5)+2 sin theta)) $
 
 
-最后验证位置条件：分母大于 $sqrt(5)$，所以 $0<x<h$，并且
-
-$ (y)/(x tan theta)=(1)/(sqrt(5))<1 $
-
-由于 $y>0$，故 $-x tan theta <y<x tan theta$，该点确实在三角形内部；代回上面的等式可知它也在第一问所得轨迹上.
+最后验证位置条件：分母大于 $sqrt(5)$，所以 $00$，故 $-x tan theta <y<x tan theta$，该点确实在三角形内部；代回上面的等式可知它也在第一问所得轨迹上.
 ]
 

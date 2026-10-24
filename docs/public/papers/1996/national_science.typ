@@ -11,14 +11,14 @@
 #part-header("单选题")
 
 #problem(1)[
-已知全集 $I = NN$，集合 $A = \{x | x = 2 n, n in NN \}$，$B = \{x | x = 4 n, n in NN \}$，则（ ）
+已知全集 $I = NN$，集合 $A = {x | x = 2 n, n in NN }$，$B = {x | x = 4 n, n in NN }$，则（ ）
   #choices([$I = A union B$], [$I = overline(A) union B$], [$I = A union overline(B)$], [$I = overline(A) union overline(B)$], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-因为 $B subset A$，对任意 $x in I$，若 $x in B$，则 $x in A$；若 $x in.not B$，则 $x in \overline B$. 因此 $I=A union \overline B$，故选 C.
+因为 $B subset A$，对任意 $x in I$，若 $x in B$，则 $x in A$；若 $x in.not B$，则 $x in overline(B)$. 因此 $I=A union overline(B)$，故选 C.
 ]
 
 #problem(2)[
@@ -34,7 +34,7 @@
 
 #problem(3)[
 若 $sin ""^2 x > cos ""^2 x$，则 $x$ 的取值范围是（ ）
-  #choices([$\{x | 2 k pi -(3)/(4) pi < x < 2 k pi +(1)/(4) pi ,k in ZZ \}$], [$\{x | 2 k pi +(1)/(4) pi < x < 2 k pi +(5)/(4) pi ,k in ZZ \}$], [$\{x | k pi -(1)/(4) pi < x < k pi + (1)/(4) pi ,k in ZZ \}$], [$\{x | k pi +(1)/(4) pi < x < k pi + (3)/(4) pi ,k in ZZ \}$], cols: 1)
+  #choices([${x | 2 k pi -(3)/(4) pi < x < 2 k pi +(1)/(4) pi ,k in ZZ }$], [${x | 2 k pi +(1)/(4) pi < x < 2 k pi +(5)/(4) pi ,k in ZZ }$], [${x | k pi -(1)/(4) pi < x < k pi + (1)/(4) pi ,k in ZZ }$], [${x | k pi +(1)/(4) pi < x < k pi + (3)/(4) pi ,k in ZZ }$], cols: 1)
 ]
 
 #answer([D])
@@ -156,14 +156,14 @@ $ V_(D-A B C)=(1)/(3) dot (a^2)/(2) dot (a)/(sqrt(2))=(sqrt(2))/(12)a^3 $
 ]
 
 #problem(10)[
-等比数列 $\{a_(n)\}$ 的首项 $a_1 = -1$，前 $n$ 项和为 $S_(n)$，若 $(S_(10))/(S_5)= (31)/(32)$，则 $lim_(n -> oo ) S_n$ 等于（ ）
+等比数列 ${a_(n)}$ 的首项 $a_1 = -1$，前 $n$ 项和为 $S_(n)$，若 $(S_(10))/(S_5)= (31)/(32)$，则 $lim_(n -> oo ) S_n$ 等于（ ）
   #choices([$(2)/(3)$], [$-(2)/(3)$], [$2$], [$-2$], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-设等比数列的公比为 $q$. 若 $q=1$，则 $(S_(10))/(S_5)=2$，与题设不符，所以 $q\n e q1$. 由等比数列求和公式，
+设等比数列的公比为 $q$. 若 $q=1$，则 $(S_(10))/(S_5)=2$，与题设不符，所以 $q != 1$. 由等比数列求和公式，
 
 $ (S_(10))/(S_5)=(a_1((1-q^(10)))/((1-q)))/(a_1((1-q^5))/((1-q)))=1+q^5=(31)/(32) $
 
@@ -198,7 +198,7 @@ $ ((x-1)^2)/(4)+(y^2)/(3)=1 $
 ]
 
 #problem(12)[
-等差数列 $\{a_(n)\}$ 的前 $m$ 项和为 $30$，前 $2 m$ 项和为 $100$，则它的前 $3 m$ 项和为（ ）
+等差数列 ${a_(n)}$ 的前 $m$ 项和为 $30$，前 $2 m$ 项和为 $100$，则它的前 $3 m$ 项和为（ ）
   #choices([$130$], [$170$], [$210$], [$260$], cols: 4)
 ]
 
@@ -379,7 +379,7 @@ $ cos theta =(|arrow(A D){ dot }arrow(B F)|)/(|A D| |B F|)=((a^2)/(2))/(a\c d o 
 ]
 
 #solution[
-对数的底数满足 $a>0$ 且 $a\n e q1$. 首先由真数为正，得
+对数的底数满足 $a>0$ 且 $a != 1$. 首先由真数为正，得
 
 $ 1-(1)/(x)>0 $
 
@@ -523,12 +523,12 @@ $l_i:y=k_i(x+sqrt(2))$，$k_(1) k_2=-1$.
 
 $ (k_i^2-1)t^2+2 sqrt(2)t-3=0 $
 
-要有两个不同交点，首先 $k_i^2\n e q1$，且判别式
+要有两个不同交点，首先 $k_i^2 != 1$，且判别式
 
 $ Delta _i=8+12(k_i^2-1)=4(3 k_i^2-1) $
 
 必须大于 $0$，所以 $k_i^2>(1)/(3)$. 对 $i=1$，$2$ 同时成立，再利用 $k_2^2=(1)/(k_1^2)$，得到
-$(1)/(3)<k_1^2<3$，$k_1^2\n e q1$.
+$(1)/(3)<k_1^2<3$，$k_1^2 != 1$.
 因此
 
 $ k_1 in (-sqrt(3),-1) union (-1,-(sqrt(3))/(3)) union ((sqrt(3))/(3),1) union (1,sqrt(3)) $

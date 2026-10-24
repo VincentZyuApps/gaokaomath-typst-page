@@ -206,7 +206,7 @@ $ R^2-u^2=2 $
 ]
 
 #problem(13)[
-若关于 $x$ 的不等式 $|a x - 2| < 3$ 的解集为 $\{x | -(5)/(3)< x < (1)/(3)\}$，则 $a =\f i l l i n b l a n k{}$.
+若关于 $x$ 的不等式 $|a x - 2| < 3$ 的解集为 ${x | -(5)/(3)< x < (1)/(3)}$，则 $a =\f i l l i n b l a n k{}$.
 $-3$
 
 由绝对值不等式得
@@ -270,17 +270,17 @@ $ arrow(O A)+arrow(O B)+arrow(O D)=(2,sqrt(3))+arrow(C D) $
 
 
 设事件 $E$ 为甲组研发成功，事件 $F$ 为乙组研发成功. 则
-$P(E)=(2)/(3)$，$P(\overline E)=(1)/(3)$，$P(F)=(3)/(5)$，$P(\overline F)=(2)/(5)$.
+$P(E)=(2)/(3)$，$P(overline(E))=(1)/(3)$，$P(F)=(3)/(5)$，$P(overline(F))=(2)/(5)$.
 由于两组研发相互独立，至少有一种新产品成功的对立事件是两种产品都失败，所以
 
-$ P(E union F)=1-P(\overline E inter \overline F)=1-(1)/(3) dot (2)/(5)=(13)/(15) $
+$ P(E union F)=1-P(overline(E) inter overline(F))=1-(1)/(3) dot (2)/(5)=(13)/(15) $
 
 
 设企业利润为随机变量 $X$，单位为万元. 两种产品的成败组合互斥且完备，故
 
-$ P(X=0)=P(\overline E inter \overline F)=(2)/(15) $
+$ P(X=0)=P(overline(E) inter overline(F))=(2)/(15) $
 
-$P(X=100)=P(\overline E inter F)=(3)/(15)$，$P(X=120)=P(E inter \overline F)=(4)/(15)$，$P(X=220)=P(E inter F)=(6)/(15)$.
+$P(X=100)=P(overline(E) inter F)=(3)/(15)$，$P(X=120)=P(E inter overline(F))=(4)/(15)$，$P(X=220)=P(E inter F)=(6)/(15)$.
 因此分布列为
 \begin{center}
 \begin{tabular}{c|cccc}
@@ -368,11 +368,11 @@ $ (|((sqrt(3))/(2),-(1)/(2),-(sqrt(3))/(4)) dot (-(sqrt(3))/(2),0,0)|)/(sqrt((3)
 ]
 
 #problem(20)[
-已知数列 $\{a_(n)\}$ 满足 $a_1 = 1$，$|a_(n + 1) - a_n| = p^n$，$n in NN ""^*$.
+已知数列 ${a_(n)}$ 满足 $a_1 = 1$，$|a_(n + 1) - a_n| = p^n$，$n in NN ""^*$.
 
 
-+ (1) 若 $\{a_n\}$ 是递增数列，且 $a_1$，$2 a_2$，$3 a_3$ 成等差数列，求 $p$ 的值；
-+ (2) 若 $p = (1)/(2)$，且 $\{a_(2 n-1)\}$ 是递增数列，$\{a_(2 n)\}$ 是递减数列，求数列 $\{a_n\}$ 的通项公式.
++ (1) 若 ${a_n}$ 是递增数列，且 $a_1$，$2 a_2$，$3 a_3$ 成等差数列，求 $p$ 的值；
++ (2) 若 $p = (1)/(2)$，且 ${a_(2 n-1)}$ 是递增数列，${a_(2 n)}$ 是递减数列，求数列 ${a_n}$ 的通项公式.
 
 
 因为 $p^n=|a_(n+1)-a_n| >= 0$ 对任意正整数 $n$ 成立，且第一问中的数列递增，所以 $p>0$. 于是
@@ -451,7 +451,7 @@ $ A B=| Delta x|sqrt(1+k^2)=(2 sqrt(2)(1+k^2))/(1+2 k^2) $
 
 四边形 $A P B Q$ 的两条对角线为 $A B$、$P Q$，且交点为 $M$. 因此用向量行列式计算面积，注意
 
-$ \det\b e g i n{p m a t r i x}1&k\\-2 k&1\e n d{p m a t r i x}=1+2 k^2 $
+$ det\b e g i n{p m a t r i x}1&k\\-2 k&1\e n d{p m a t r i x}=1+2 k^2 $
 
 得到
 

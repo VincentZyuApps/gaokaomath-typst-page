@@ -26,7 +26,7 @@ $ (a+b i )^2=(2- i )^2=4-4 i + i ""^2=3-4 i $
 ]
 
 #problem(2)[
-设集合 $A = \{x | x^2 - 2 x < 0\}$，$B = \{x | 1 <= x <= 4 \}$，则 $A inter B =$（ ）
+设集合 $A = {x | x^2 - 2 x < 0}$，$B = {x | 1 <= x <= 4 }$，则 $A inter B =$（ ）
   #choices([$(0,2]$], [$(1,2)$], [$[1, 2)$], [$(1,4)$], cols: 4)
 ]
 
@@ -290,13 +290,7 @@ $ y= +- (b)/(a)x= +- x $
 海关对同时从 $A$，$B$，$C$ 三个不同地区进口的某种商品进行抽样检测，从各地区进口此商品的数量（单位：$"件"$）如下表所示. 工作人员用分层抽样的方法从这些商品中共抽取 $6" 件"$样品进行检测.
 
 \begin{center}
-\begin{tabular}{c|c|c|c}
-\hline
-地区 & $A$ & $B$ & $C$ \\
-\hline
-数量 & 50 & 150 & 100 \\
-\hline
-\end{tabular}
+[（表格数据详见在线交互版）]
 \end{center}
 
 
@@ -383,16 +377,16 @@ $ arrow(C D)=arrow(B D)-arrow(B C)=bold(a)+bold(c)=arrow(B E) $
 
 所以 $B E parallel C D$. 又因为 $C D subset$ 平面 $P C D$，且 $A P bot$ 平面 $P C D$，故 $B E bot A P$.
 
-另一方面，$A B=B C$ 给出 $\l v e r t b o l d(a)|=\l v e r t b o l d(c)|$. 而
-$arrow(A C)=bold(c)-bold(a)$，$arrow(B E)\c d o t a r r o w(A C)=(bold(a)+bold(c)) dot (bold(c)-bold(a))=\l v e r t b o l d(c)|^(2)-\l v e r t b o l d(a)|^(2)=0$，
+另一方面，$A B=B C$ 给出 $ |  b o l d(a)|= |  b o l d(c)|$. 而
+$arrow(A C)=bold(c)-bold(a)$，$arrow(B E)\c d o t a r r o w(A C)=(bold(a)+bold(c)) dot (bold(c)-bold(a))= |  b o l d(c)|^(2)- |  b o l d(a)|^(2)=0$，
 所以 $B E bot A C$. 直线 $A P$，$A C$ 是平面 $P A C$ 内相交的两条直线，且 $B E$ 同时垂直于它们，因此 $B E bot$ 平面 $P A C$.
 ]
 
 #problem(19)[
-在等差数列 $\{a_(n)\}$ 中，已知公差 $d = 2$，$a_(2)$ 是 $a_(1)$ 与 $a_(4)$ 的等比中项.
+在等差数列 ${a_(n)}$ 中，已知公差 $d = 2$，$a_(2)$ 是 $a_(1)$ 与 $a_(4)$ 的等比中项.
 
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
++ (1) 求数列 ${a_(n)}$ 的通项公式；
 + (2) 设 $b_n = a_((n(n+1))/(2))$，记 $T_n = -b_1 + b_2 - b_3 + b_4 - dots.c + (-1)^n b_n$，求 $T_n$.
 ]
 
@@ -420,7 +414,7 @@ $ T_(2 m+1)=T_(2 m)-(2 m+1)(2 m+2)=-2(m+1)^(2) $
 
 所以
 
-$ T_(n)=\b e g i n{c a s e s} (n(n+2))/(2),&n=2 m,\\[6 p t] -\d f r a c{(n+1)^(2)}2,&n=2 m+1, \e n d{c a s e s} $
+$ T_(n)=\b e g i n{c a s e s} (n(n+2))/(2),&n=2 m,\$ 6 p t] -\d f r a c{(n+1)^(2)}2,&n=2 m+1, \e n d{c a s e s} $
 
 其中偶数情形 $m >= 1$，奇数情形 $m >= 0$.
 ]
@@ -491,7 +485,7 @@ $ sqrt(2((2 a)/(sqrt(5)))^(2))=(2 sqrt(2)a)/(sqrt(5)) $
 由题设 $(2 sqrt(2)a)/(sqrt(5))=\f r a c{4 sqrt(10)}5$，解得 $a=2$，从而 $b=1$. 因此椭圆方程为
 
 $ \f r a c{x^(2)}4+y^(2)=1 $
-+ (2) 由于 $A$，$B$ 不是椭圆的顶点，直线 $A B$ 既不垂直于 $x$ 轴，也不平行于 $x$ 轴. 设其斜率为 $t$，则 $t\n e q0$. 令 $A=(u,t u)$，则由 $A$ 在椭圆上知
++ (2) 由于 $A$，$B$ 不是椭圆的顶点，直线 $A B$ 既不垂直于 $x$ 轴，也不平行于 $x$ 轴. 设其斜率为 $t$，则 $t != 0$. 令 $A=(u,t u)$，则由 $A$ 在椭圆上知
 $\f r a c{u^(2)}4+t^(2)u^(2)=1$，$u^(2)=(4)/(1+4 t^(2))$.
 因为直线 $A B$ 过原点，椭圆关于原点对称，所以 $B=(-u,-t u)$.
 
@@ -536,7 +530,7 @@ $ k_(1)=-(1)/(2)k_(2) $
 故存在常数 $lambda =-(1)/(2)$，使得 $k_(1)= lambda k_(2)$.
 + (4) 由 $M=(3 u,0)$，$N=(0,-3 t(u)/(4))$，得
 
-$ S_( triangle O M N)=(1)/(2)\l v e r t3 u| dot |-(3 t u)/(4)| =(9)/(8)| t| u^(2)=(9)/(2) dot (| t|)/(1+4 t^(2)) $
+$ S_( triangle O M N)=(1)/(2) | 3 u| dot |-(3 t u)/(4)| =(9)/(8)| t| u^(2)=(9)/(2) dot (| t|)/(1+4 t^(2)) $
 
 令 $r=| t|>0$. 由 $A$，$B$ 不是椭圆顶点知 $t$ 不能为 $0$，所以 $r$ 的取值为全部正数. 因为
 

@@ -11,14 +11,14 @@
 #part-header("单选题")
 
 #problem(1)[
-设 $A=\{x | x=sqrt(5 k+1), k in NN \}$，$B=\{x | x <= 6 , x\i n b o l d(Q)\}$，则 $A inter B$ 等于（ ）
+设 $A={x | x=sqrt(5 k+1), k in NN }$，$B={x | x <= 6 , x\i n b o l d(Q)}$，则 $A inter B$ 等于（ ）
 
 \answer{D}
-  #choices([$\{1,4\}$], [$\{1,6\}$], [$\{4,6\}$], [$\{1,4,6\}$], cols: 4)
+  #choices([${1,4}$], [${1,6}$], [${4,6}$], [${1,4,6}$], cols: 4)
 ]
 
 #solution[
-因为 $x=sqrt(5 k+1)$ 为有理数，且 $5 k+1$ 是整数，所以 $x$ 必为整数. 又 $x >= 0$ 且 $x <= 6$，故先考察 $x=0$，$1$，$2$，$3$，$4$，$5$，$6$. 由 $k=((x^2-1))/(5) in NN$ 检验可得 $x=1$，$4$，$6$，而 $x=0$ 对应 $k=-(1)/(5) in.not NN$，从而 $A inter B=\{1,4,6\}$，故选 D.
+因为 $x=sqrt(5 k+1)$ 为有理数，且 $5 k+1$ 是整数，所以 $x$ 必为整数. 又 $x >= 0$ 且 $x <= 6$，故先考察 $x=0$，$1$，$2$，$3$，$4$，$5$，$6$. 由 $k=((x^2-1))/(5) in NN$ 检验可得 $x=1$，$4$，$6$，而 $x=0$ 对应 $k=-(1)/(5) in.not NN$，从而 $A inter B={1,4,6}$，故选 D.
 ]
 
 #problem(2)[
@@ -99,7 +99,7 @@ $(S_(E F G H))/(S_(A B C D))=((1)/(3))^2=(1)/(9)$，故选 C.
 #solution[
 由甲得 $bold(a) dot (bold(b)-bold(c))=0$. 若乙成立，即 $bold(b)=bold(c)$，则甲必成立，所以甲是乙的必要条件.
 
-但甲不一定推出乙. 例如取 $bold(a)=(1,0)$，$bold(b)=(0,1)$，$bold(c)=(0,2)$，则三个向量均非零，且 $bold(a)\c d o t b o l d(b)=bold(a)\c d o t b o l d(c)=0$，但 $bold(b)\n e q b o l d(c)$. 因此甲不是乙的充分条件，故选 B.
+但甲不一定推出乙. 例如取 $bold(a)=(1,0)$，$bold(b)=(0,1)$，$bold(c)=(0,2)$，则三个向量均非零，且 $bold(a)\c d o t b o l d(b)=bold(a)\c d o t b o l d(c)=0$，但 $bold(b) != b o l d(c)$. 因此甲不是乙的充分条件，故选 B.
 ]
 
 #problem(8)[
@@ -116,10 +116,10 @@ $f(x)=((x-2)^2+1)/(2(x-2))=(1)/(2)(t+(1)/(t))$.
 ]
 
 #problem(9)[
-设数列 $\{a_n\}$ 的前 $n$ 项和 $S_n=a[2-((1)/(2))^(n-1)]-b[2-(n+1)((1)/(2))^(n-1)]$（$n=1$，$2$，$dots.c$），其中 $a$，$b$ 是非零常数. 则存在数列 $\{x_n\}$，$\{y_n\}$ 使得（ ）
+设数列 ${a_n}$ 的前 $n$ 项和 $S_n=a[2-((1)/(2))^(n-1)]-b[2-(n+1)((1)/(2))^(n-1)]$（$n=1$，$2$，$dots.c$），其中 $a$，$b$ 是非零常数. 则存在数列 ${x_n}$，${y_n}$ 使得（ ）
 
 \answer{C}
-  #choices([$a_n=x_n+y_n$，其中 $\{x_n\}$ 为等差数列，$\{y_n\}$ 为等比数列], [$a_n=x_n+y_n$，其中 $\{x_n\}$ 和 $\{y_n\}$ 都为等差数列], [$a_n=x_n dot y_n$，其中 $\{x_n\}$ 为等差数列，$\{y_n\}$ 为等比数列], [$a_n=x_n dot y_n$，其中 $\{x_n\}$ 和 $\{y_n\}$ 都为等比数列], cols: 1)
+  #choices([$a_n=x_n+y_n$，其中 ${x_n}$ 为等差数列，${y_n}$ 为等比数列], [$a_n=x_n+y_n$，其中 ${x_n}$ 和 ${y_n}$ 都为等差数列], [$a_n=x_n dot y_n$，其中 ${x_n}$ 为等差数列，${y_n}$ 为等比数列], [$a_n=x_n dot y_n$，其中 ${x_n}$ 和 ${y_n}$ 都为等比数列], cols: 1)
 ]
 
 #solution[
@@ -144,7 +144,7 @@ $x_n=a+b-b n$，$y_n=((1)/(2))^(n-1)$，使 $a_n=x_(n) y_n$. 因此选 C.
 由 $1<(1)/(a)$ 得 $0<a<1$，由 $(1)/(a)<(1)/(b)$ 得 $b<a$，所以 $0<b<a<1$. 令 $u= log _a b$，由于 $ln b< ln a<0$，有 $u>1$，且
 $log _b a=(1)/(u) in (0,1)$.
 
-于是 $u>(1)/(u)$，故选项 A 正确；由 $u>0$ 且 $u\n e q1$，有 $u+(1)/(u)>2$，故选项 B 正确；又 $( log _b a)^2=(1)/(u^2)<1$，故选项 C 正确. 最后
+于是 $u>(1)/(u)$，故选项 A 正确；由 $u>0$ 且 $u != 1$，有 $u+(1)/(u)>2$，故选项 B 正确；又 $( log _b a)^2=(1)/(u^2)<1$，故选项 C 正确. 最后
 $| log _a b|+| log _b a|=u+(1)/(u)=| log _a b+ log _b a|$，不可能大于右端，故不正确的是 D.
 ]
 
@@ -234,9 +234,9 @@ $(80)/(n)=(1000)/(2400)=(5)/(12)$.
 ]
 
 #solution[
-命题 $"[1]"$ 把“$A not subset.eq B$”错误地表述成对任意 $x in A$ 都有 $x in.not B$. 例如取 $A=\{1,2\}$，$B=\{2\}$，则 $A not subset.eq B$ 为真，但 $2 in A inter B$，所以命题 $"[1]"$ 不是真命题. $A not subset.eq B$ 的正确含义只是存在至少一个 $x in A$ 不属于 $B$.
+命题 $"[1]"$ 把“$A not subset.eq B$”错误地表述成对任意 $x in A$ 都有 $x in.not B$. 例如取 $A={1,2}$，$B={2}$，则 $A not subset.eq B$ 为真，但 $2 in A inter B$，所以命题 $"[1]"$ 不是真命题. $A not subset.eq B$ 的正确含义只是存在至少一个 $x in A$ 不属于 $B$.
 
-命题 $"[2]"$ 也不正确. 例如 $A=\{1,2\}$，$B=\{2\}$ 时，$A not subset.eq B$，但 $A inter B=\{2\} != emptyset$. 命题 $"[3]"$ 不正确，例如 $A=\{1\}$，$B=\{1,2\}$ 时，$A not subset.eq B$ 为假，而 $A not \s u p s e t e q B$ 为真.
+命题 $"[2]"$ 也不正确. 例如 $A={1,2}$，$B={2}$ 时，$A not subset.eq B$，但 $A inter B={2} != emptyset$. 命题 $"[3]"$ 不正确，例如 $A={1}$，$B={1,2}$ 时，$A not subset.eq B$ 为假，而 $A not \s u p s e t e q B$ 为真.
 
 命题 $"[4]"$ 正是集合包含关系否定的定义：$A not subset.eq B$ 当且仅当存在 $x in A$ 使 $x in.not B$. 因此真命题的序号只有 $4$.
 ]
@@ -247,7 +247,7 @@ $(80)/(n)=(1000)/(2400)=(5)/(12)$.
 ]
 
 #solution[
-当 $alpha =(pi)/(2)$ 时，原方程左边为 $6$，不成立，故 $cos alpha \n e q0$. 原方程同除以 $cos ""^2 alpha$，得 $6 tan ""^2 alpha + tan alpha -2=0$，即 $(2 tan alpha -1)(3 tan alpha +2)=0$. 因为 $alpha in [(pi)/(2), pi ]$，所以 $tan alpha <= 0$，从而 $tan alpha =-(2)/(3)$. 又 $sin alpha >= 0$，$cos alpha <= 0$，故 $sin alpha =(2 sqrt(13))/(13)$，$cos alpha =-(3 sqrt(13))/(13)$. 于是 $sin 2 alpha =-(12)/(13)$，$cos 2 alpha =(5)/(13)$，所以 $sin (2 alpha +(pi)/(3))= sin 2 alpha cos (pi)/(3)+ cos 2 alpha sin (pi)/(3)=(5 sqrt(3)-12)/(26)$.
+当 $alpha =(pi)/(2)$ 时，原方程左边为 $6$，不成立，故 $cos alpha  != 0$. 原方程同除以 $cos ""^2 alpha$，得 $6 tan ""^2 alpha + tan alpha -2=0$，即 $(2 tan alpha -1)(3 tan alpha +2)=0$. 因为 $alpha in [(pi)/(2), pi ]$，所以 $tan alpha <= 0$，从而 $tan alpha =-(2)/(3)$. 又 $sin alpha >= 0$，$cos alpha <= 0$，故 $sin alpha =(2 sqrt(13))/(13)$，$cos alpha =-(3 sqrt(13))/(13)$. 于是 $sin 2 alpha =-(12)/(13)$，$cos 2 alpha =(5)/(13)$，所以 $sin (2 alpha +(pi)/(3))= sin 2 alpha cos (pi)/(3)+ cos 2 alpha sin (pi)/(3)=(5 sqrt(3)-12)/(26)$.
 ]
 
 #part-header("解答题")

@@ -12,7 +12,7 @@
 
 #problem(1)[
 不等式组 $\b e g i n{c a s e s} x^(2)-1<0,\\ x^(2)-3 x<0 \e n d{c a s e s}$ 的解集为（ ）
-  #choices([$\{x | -1<x<1\}$], [$\{x | 0<x<3\}$], [$\{x | 0<x<1\}$], [$\{x | -1<x<3\}$], cols: 2)
+  #choices([${x | -1<x<1}$], [${x | 0<x<3}$], [${x | 0<x<1}$], [${x | -1<x<3}$], cols: 2)
 ]
 
 #answer([C])
@@ -26,7 +26,7 @@
 
     {$\b e g i n{c a s e s} m parallel gamma ,\\ n parallel gamma \e n d{c a s e s} => m parallel n$}
     {$\b e g i n{c a s e s} m bot gamma ,\\ n bot gamma \e n d{c a s e s} => m parallel n$}
-  #choices([\(\begin{cases], [cases}\Rightarrow\alpha\parallel\beta\)], [\(\begin{cases], [cases}\Rightarrow l\perp\beta\)], cols: 1)
+  #choices([\(\begin{cases], [cases}\Rightarrow\alphaparallel\beta\)], [\(\begin{cases], [cases}\Rightarrow lperp\beta\)], cols: 1)
 ]
 
 #answer([D])
@@ -166,7 +166,7 @@ $ S=x y+2 x z+2 y z $
 
 由基本不等式，
 
-$ S >= 3 root(3, (x y)(2 x z)(2 y z))=3\sqrt[3]{4 x^(2)y^(2)z^(2)}=3 root(3, 64)=12 $
+$ S >= 3 root(3, (x y)(2 x z)(2 y z))=3sqrt[3]{4 x^(2)y^(2)z^(2)}=3 root(3, 64)=12 $
 
 当 $x y=2 x z=2 y z$ 时取等号，从而 $x=y=2 z$，结合 $x y z=4$ 得 $x=y=2$，$z=1$. 因此制作容积为 $4~m^(3)$ 的无盖水箱至少需要 $12~m^(2)$ 钢板.
 
@@ -350,7 +350,7 @@ $ x_(1)+x_(2)=(25-5 r_(A))/(4)+(25-5 r_(C))/(4)=(50-5(r_(A)+r_(C)))/(4)=8 $
 
 
 + (1) 写出 $x_(n)$ 与 $x_(n-1)$，$x_(n-2)$ 之间的关系式（$n >= 3$）；
-+ (2) 设 $a_(n)=x_(n+1)-x_(n)$，计算 $a_(1)$，$a_(2)$，$a_(3)$，由此推测数列 $\{a_(n)\}$ 的通项公式，并加以证明；
++ (2) 设 $a_(n)=x_(n+1)-x_(n)$，计算 $a_(1)$，$a_(2)$，$a_(3)$，由此推测数列 ${a_(n)}$ 的通项公式，并加以证明；
 + (3) 求 $\lim\l i m i t s_(n -> oo )x_(n)$.
 ]
 

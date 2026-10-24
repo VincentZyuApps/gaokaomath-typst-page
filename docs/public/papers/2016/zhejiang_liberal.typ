@@ -11,16 +11,16 @@
 #part-header("单选题")
 
 #problem(1)[
-已知全集 $U=\{1,2,3,4,5,6\}$，集合 $P=\{1,3,5\}$，$Q=\{1,2,4\}$，则 $(\c o m p l e m e n t_U P) union Q=$（ ）
-  #choices([$\{1\}$], [$\{3,5\}$], [$\{1,2,4,6\}$], [$\{1,2,3,4,5\}$], cols: 4)
+已知全集 $U={1,2,3,4,5,6}$，集合 $P={1,3,5}$，$Q={1,2,4}$，则 $(\c o m p l e m e n t_U P) union Q=$（ ）
+  #choices([${1}$], [${3,5}$], [${1,2,4,6}$], [${1,2,3,4,5}$], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-全集补集为 $\c o m p l e m e n t_U P=\{2,4,6\}$，因此
+全集补集为 $\c o m p l e m e n t_U P={2,4,6}$，因此
 
-$ (\c o m p l e m e n t_U P) union Q=\{2,4,6\} union \{1,2,4\}=\{1,2,4,6\} $
+$ (\c o m p l e m e n t_U P) union Q={2,4,6} union {1,2,4}={1,2,4,6} $
 
 故选 C.
 ]
@@ -44,12 +44,12 @@ $ (\c o m p l e m e n t_U P) union Q=\{2,4,6\} union \{1,2,4\}=\{1,2,4,6\} $
 #answer([D])
 
 #solution[
-令 $f(x)= sin x^2$. 有 $f(-x)= sin (-x)^2= sin x^2=f(x)$，所以图象关于 $y$ 轴对称；且 $f(0)=0$. 当 $0<x<sqrt(pi)$ 时，$0<x^2< pi$，从而 $f(x)>0$，并且在 $x=sqrt((pi)/(2))$ 时取得 $1$，在 $x=sqrt(pi)$ 时回到 $0$. 因此图象应关于 $y$ 轴对称，在原点处过原点并在两侧形成相同的正弦波形，故选 D.
+令 $f(x)= sin x^2$. 有 $f(-x)= sin (-x)^2= sin x^2=f(x)$，所以图象关于 $y$ 轴对称；且 $f(0)=0$. 当 $00$，并且在 $x=sqrt((pi)/(2))$ 时取得 $1$，在 $x=sqrt(pi)$ 时回到 $0$. 因此图象应关于 $y$ 轴对称，在原点处过原点并在两侧形成相同的正弦波形，故选 D.
 ]
 
 #problem(4)[
 若平面区域
-$\b e g i n{c a s e s} x+y-3 >= 0 ,\\ 2 x-y-3 <= 0 ,\\ x-2 y+3 >= 0 \e n d{c a s e s}$
+$[（方程组详见交互版）]$
 夹在两条斜率为 $1$ 的平行直线之间，则这两条平行直线间的距离的最小值是（ ）
   #choices([$(3 sqrt(5))/(5)$], [$sqrt(2)$], [$(3 sqrt(2))/(2)$], [$sqrt(5)$], cols: 2)
 ]
@@ -78,63 +78,36 @@ $ (|1-(-1)|)/(sqrt(1^2+(-1)^2))=sqrt(2) $
 
 #problem(5)[
 已知 $a$，$b>0$，且 $a != 1$，$b != 1$，若 $log _a b>1$，则（ ）
-  #choices([$(a-1)(b-1)<0$], [$(a-1)(a-b)>0$], [$(b-1)(b-a)<0$], [$(b-1)(b-a)>0$], cols: 4)
+  #choices([$(a-1)(b-1)0$], [$(b-1)(b-a)0$], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-若 $a>1$，则对数函数 $log _a x$ 递增，由 $log _a b> log _a a=1$ 得 $b>a>1$. 若 $0<a<1$，则对数函数递减，由 $log _a b> log _a a=1$ 得 $0<b<a<1$. 因此总有
-
-$ (b-1)(b-a)>0 $
+若 $a>1$，则对数函数 $log _a x$ 递增，由 $log _a b> log _a a=1$ 得 $b>a>1$. 若 $0 log _a a=1$ 得 $00 $
 
 故选 D.
 ]
 
 #problem(6)[
-已知函数 $f(x)=x^2+b x$，则“$b<0$”是“$f(f(x))$ 的最小值与 $f(x)$ 的最小值相等”的（ ）
-  #choices([\text{充分不必要条件}], [\text{必要不充分条件}], [\text{充分必要条件}], [\text{既不充分也不必要条件}], cols: 2)
-]
+已知函数 $f(x)=x^2+b x$，则“$b0$，而 $m= m)f(y)=m= min f(x) $
 
-#answer([A])
-
-#solution[
-记 $m= min f(x)=-(b^2)/(4)$，且
-
-$ f(x)=(x+(b)/(2))^2-(b^2)/(4), f( RR )=[m,+ oo ) $
-
-当 $b<0$ 时，二次函数 $f$ 的顶点横坐标 $-(b)/(2)>0$，而 $m<0$，所以顶点属于区间 $[m,+ oo )$. 于是
-
-$ min f(f(x))= min _(y >= m)f(y)=m= min f(x) $
-
-说明“$b<0$”是题述相等关系的充分条件.
-
-但取 $b=0$ 时，$f(x)=x^2$，从而 $min f(x)=0$，且 $f(f(x))=x^4$，也有 $min f(f(x))=0$，而此时 $b<0$ 不成立. 因此该条件不是必要条件，故选 A.
-]
-
-#problem(7)[
-已知函数 $f(x)$ 满足：$f(x) >= |x|$ 且 $f(x) >= 2 ""^x$，$x in RR$. 则（ ）
-  #choices([若 $f(a) <= |b|$，则 $a <= b$], [若 $f(a) <= 2 ""^b$，则 $a <= b$], [若 $f(a) >= |b|$，则 $a >= b$], [若 $f(a) >= 2 ""^b$，则 $a >= b$], cols: 2)
+说明“$b= |x|$ 且 $f(x) >= 2 ""^x$，$x in RR$. 则（ ）
+  #choices([若 $f(a) = |b|$，则 $a >= b$], [若 $f(a) >= 2 ""^b$，则 $a >= b$], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由 $f(a) >= 2 ""^a$，若 $f(a) <= 2 ""^b$，则
-
-$ 2^a <= f(a) <= 2 ""^b $
-
-由于指数函数 $2^x$ 在 $RR$ 上递增，所以 $a <= b$，故选项 B 正确.
-
-其余选项不能由条件推出. 例如取 $f(x)= max \{|x|,2^x\}$，令 $a=-1$，$b=-2$，则 $f(a)=1 <= |b|$，但 $a <= b$ 不成立，故 A 错误. 令 $a=0$，$b=1$，由 $f(0) >= 2 ""^0=1=|b|$，但 $a >= b$ 不成立，故 C 错误. 取满足条件的 $f(x)=|x|+2^x$，仍令 $a=0$，$b=1$，则 $f(a)=2=2^b$，但 $a >= b$ 不成立，故 D 错误.
+由 $f(a) >= 2 ""^a$，若 $f(a) = 2 ""^0=1=|b|$，但 $a >= b$ 不成立，故 C 错误. 取满足条件的 $f(x)=|x|+2^x$，仍令 $a=0$，$b=1$，则 $f(a)=2=2^b$，但 $a >= b$ 不成立，故 D 错误.
 ]
 
 #problem(8)[
-如图，点列 $\{A_n\}$，$\{B_n\}$ 分别在某锐角的两边上，且 $|A_(n) A_(n+1)|=|A_(n+1)A_(n+2)|$，$A_n != A_(n+2)$，$n in NN ""^*$，$|B_(n) B_(n+1)|=|B_(n+1)B_(n+2)|$，$B_n != B_(n+2)$，$n in NN ""^*$（$P != Q$ 表示点 $P$ 与点 $Q$ 不重合）. 若 $d_n=|A_(n) B_n|$，$S_n$ 为 $triangle A_(n) B_(n) B_(n+1)$ 的面积，则（ ）
+如图，点列 ${A_n}$，${B_n}$ 分别在某锐角的两边上，且 $|A_(n) A_(n+1)|=|A_(n+1)A_(n+2)|$，$A_n != A_(n+2)$，$n in NN ""^*$，$|B_(n) B_(n+1)|=|B_(n+1)B_(n+2)|$，$B_n != B_(n+2)$，$n in NN ""^*$（$P != Q$ 表示点 $P$ 与点 $Q$ 不重合）. 若 $d_n=|A_(n) B_n|$，$S_n$ 为 $triangle A_(n) B_(n) B_(n+1)$ 的面积，则（ ）
 
 
 #align(center)[#image("/papers/2016/img/zhejiang_liberal/q8_fig1.png", width: 5.2cm)]
-  #choices([$\{S_n\}$ 是等差数列], [$\{S_n^2\}$ 是等差数列], [$\{d_n\}$ 是等差数列], [$\{d_n^2\}$ 是等差数列], cols: 2)
+  #choices([${S_n}$ 是等差数列], [${S_n^2}$ 是等差数列], [${d_n}$ 是等差数列], [${d_n^2}$ 是等差数列], cols: 2)
 ]
 
 #answer([A])
@@ -144,13 +117,13 @@ $ 2^a <= f(a) <= 2 ""^b $
 
 $ x_(n+2)-x_(n+1)=x_(n+1)-x_n $
 
-因此 $\{x_n\}$ 为等差数列. 同理，$\{y_n\}$ 也是等差数列. 由于点列均在从 $O$ 出发的射线上且条件对所有正整数成立，两数列的公差均为正；设 $y_(n+1)-y_n=q>0$.
+因此 ${x_n}$ 为等差数列. 同理，${y_n}$ 也是等差数列. 由于点列均在从 $O$ 出发的射线上且条件对所有正整数成立，两数列的公差均为正；设 $y_(n+1)-y_n=q>0$.
 
 三角形 $A_(n) B_(n) B_(n+1)$ 的底边长为 $q$，点 $A_n$ 到直线 $O B_n$ 的距离为 $x_n sin theta$，故
 
 $ S_n=(1)/(2)q x_n sin theta $
 
-右端是等差数列的常数倍，所以 $\{S_n\}$ 是等差数列，故选 A.
+右端是等差数列的常数倍，所以 ${S_n}$ 是等差数列，故选 A.
 ]
 
 #part-header("填空题")
@@ -272,90 +245,7 @@ $r^2+(r+2)^2>4^2$，$r^2+4^2>(r+2)^2$.
 它们分别化为
 $r^2+2 r-6>0$，$\L o n g r i g h t a r r o w$，$r>sqrt(7)-1$
 以及
-$16>4 r+4$，$\L o n g r i g h t a r r o w$，$r<3$.
-第三个不等式自动成立. 因而
-
-$ |P F_1|+|P F_2|=2 r+2 in (2 sqrt(7),8) $
-
-端点分别对应直角三角形，不能取到，故取值范围为 $(2 sqrt(7),8)$.
-]
-
-#problem(14)[
-如图，已知平面四边形 $A B C D$，$A B=B C=3$，$C D=1$，$A D=sqrt(5)$，$angle A D C=90^ degree$，沿直线 $A C$ 将 $triangle A C D$ 翻折成 $triangle A C D'$，直线 $A C$ 与 $B D'$ 所成角的余弦的最大值是#blank(){}.
-
-
-#align(center)[#image("/papers/2016/img/zhejiang_liberal/q14_fig1.png", width: 4.2cm)]
-]
-
-#answer([$(sqrt(6))/(6)$])
-
-#solution[
-由 $A D=sqrt(5)$，$C D=1$，$angle A D C=90^ degree$，得 $A C=sqrt(6)$. 建立直角坐标系，令
-$A=(0,0,0)$，$C=(sqrt(6),0,0)$.
-由 $A B=B C=3$，可取
-
-$ B=((sqrt(6))/(2),-\f r a c{sqrt(30)}2,0) $
-
-设 $D=(u,v,0)$. 由 $A D^2=5$，$C D^2=1$ 得
-$u^2+v^2=5$，$(u-sqrt(6))^2+v^2=1$，
-解得 $u=(5)/(sqrt(6))$，$v=sqrt((5)/(6))$. 折叠后，设折叠角为 $theta$，则可写成
-$D'=((5)/(sqrt(6)),sqrt((5)/(6)) cos theta ,sqrt((5)/(6)) sin theta )$，$0 <= theta <= pi$.
-
-设直线 $A C$ 与 $B D'$ 所成的锐角为 $phi.alt$. 由于 $A C$ 为 $x$ 轴，
-
-$ cos phi.alt =(|(5)/(sqrt(6))-(sqrt(6))/(2)|)/(|B D'|)=(sqrt((2)/(3)))/(|B D'|) $
-
-并且
-
-$ |B D'|^2 =(2)/(3)+(sqrt((5)/(6)) cos theta +\f r a c{sqrt(30)}2)^2+(5)/(6) sin ""^2 theta $
-
-化简得
-
-$ |B D'|^2=9+5 cos theta $
-
-要使 $cos phi.alt$ 最大，只需使分母最小. 因为 $-1 <= cos theta <= 1$，故当 $cos theta =-1$ 时取得最大值，且
-
-$ cos phi.alt _( max )=(sqrt((2)/(3)))/(sqrt(9-5))=(sqrt(6))/(6) $
-]
-
-#problem(15)[
-已知平面向量 $bold(a)$，$bold(b)$，$|bold(a)|=1$，$|bold(b)|=2$，$bold(a)\c d o t b o l d(b)=1$，若 $bold(e)$ 为平面单位向量，则 $|bold(a)\c d o t b o l d(e)|+|bold(b)\c d o t b o l d(e)|$ 的最大值是#blank(){}.
-]
-
-#answer([$sqrt(7)$])
-
-#solution[
-对任意实数 $u$，$v$，有
-
-$ |u|+|v|= max _(\v a r e p s i l o n_1,\v a r e p s i l o n_2 in \{ +- 1 \}) (\v a r e p s i l o n_(1) u+\v a r e p s i l o n_(2) v) $
-
-因此
-
-$ |bold(a)\c d o t b o l d(e)|+|bold(b)\c d o t b o l d(e)| = max _(\v a r e p s i l o n_1,\v a r e p s i l o n_2 in \{ +- 1 \}) (\v a r e p s i l o n_1 bold(a)+\v a r e p s i l o n_2 bold(b))\c d o t b o l d(e) $
-
-对固定的符号组合，由柯西不等式及 $|bold(e)|=1$，上式最大值为 $|\v a r e p s i l o n_1 bold(a)+\v a r e p s i l o n_2 bold(b)|$. 于是总最大值为
-
-$ max \{|bold(a)+bold(b)|,|bold(a)-bold(b)|\} $
-
-由已知条件，
-$|bold(a)+bold(b)|^2=1^2+2^2+2 bold(a)\c d o t b o l d(b)=7$，$|bold(a)-bold(b)|^2=1^2+2^2-2 bold(a)\c d o t b o l d(b)=3$.
-故最大值为 $sqrt(7)$，并可取 $bold(e)$ 与 $bold(a)+bold(b)$ 同方向.
-]
-
-#part-header("解答题")
-
-#problem(16)[
-在 $triangle A B C$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，已知 $b+c=2 a cos B$.
-
-
-+ (1) 证明：$A=2 B$；
-+ (2) 若 $cos B=(2)/(3)$，求 $cos C$ 的值.
-]
-
-#solution[
-+ (1) 由正弦定理，设三角形 $A B C$ 的外接圆半径为 $R$，则
-$b+c=2 R( sin B+ sin C)$，$a=2 R sin A$.
-因此由已知条件得 $sin B+ sin C=2 sin A cos B$. 又因为 $b+c>0$，所以 $cos B>0$，从而 $B in (0,(pi)/(2))$. 由 $C= pi -A-B$，有 $sin C= sin (A+B)$，故
+$16>4 r+4$，$\L o n g r i g h t a r r o w$，$r0$，所以 $cos B>0$，从而 $B in (0,(pi)/(2))$. 由 $C= pi -A-B$，有 $sin C= sin (A+B)$，故
 
 $ sin A cos B+(1+ cos A) sin B=2 sin A cos B $
 
@@ -370,11 +260,11 @@ $ cos C=- cos 3 B=-(4 cos ""^(3) B-3 cos B) =-(4((2)/(3))^3-3 dot (2)/(3))=(22)/
 ]
 
 #problem(17)[
-设数列 $\{a_n\}$ 的前 $n$ 项和为 $S_n$，已知 $S_2=4$，$a_(n+1)=2 S_n+1$，$n in NN ""^*$.
+设数列 ${a_n}$ 的前 $n$ 项和为 $S_n$，已知 $S_2=4$，$a_(n+1)=2 S_n+1$，$n in NN ""^*$.
 
 
 + (1) 求通项公式 $a_n$；
-+ (2) 求数列 $\{|a_n-n-2|\}$ 的前 $n$ 项和.
++ (2) 求数列 ${|a_n-n-2|}$ 的前 $n$ 项和.
 ]
 
 #solution[
@@ -405,9 +295,9 @@ $ sum_(k=1)^(n)|a_k-k-2|=3+(3^n-9)/(2)-((n(n+1))/(2)+2 n-7) $
 
 $ sum_(k=1)^(n)|a_k-k-2|=(3^n-n^2-5 n+11)/(2) $
 
-综上，数列 $\{|a_n-n-2|\}$ 的前 $n$ 项和为
+综上，数列 ${|a_n-n-2|}$ 的前 $n$ 项和为
 
-$ sum_(k=1)^(n)|a_k-k-2|= \b e g i n{c a s e s} 2, & n=1,\\ 3, & n=2,\\ (3^n-n^2-5 n+11)/(2), & n >= 3 . \e n d{c a s e s} $
+$ sum_(k=1)^(n)|a_k-k-2|= [（方程组详见交互版）] $
 ]
 
 #problem(18)[
@@ -496,7 +386,7 @@ $ (u-1,-\t f r a c2 t) dot (t^2-1,2 t)=0 $
 
 $ m=(t^2(1+u))/(t^2+1)=(2 t^2)/(t^2-1) $
 
-令 $v=t^2$，则 $v>0$ 且 $v != 1$. 当 $0<v<1$ 时，$m=(2 v)/(v-1)$ 的取值范围为 $(- oo ,0)$；当 $v>1$ 时，$m=2+(2)/(v-1)$ 的取值范围为 $(2,+ oo )$. 因此 $M$ 的横坐标的取值范围为
+令 $v=t^2$，则 $v>0$ 且 $v != 1$. 当 $01$ 时，$m=2+(2)/(v-1)$ 的取值范围为 $(2,+ oo )$. 因此 $M$ 的横坐标的取值范围为
 
 $ (- oo ,0) union (2,+ oo ) $
 ]
@@ -506,11 +396,7 @@ $ (- oo ,0) union (2,+ oo ) $
 
 
 + (1) $f(x) >= 1 -x+x^2$；
-+ (2) $(3)/(4)<f(x) <= (3)/(2)$.
-]
-
-#solution[
-+ (1) 在 $x in [0,1]$ 时，$x+1>0$，于是
++ (2) $(3)/(4)0$，于是
 
 $ f(x)-(1-x+x^2)=x^3+(1)/(x+1)-1+x-x^2=(x^4)/(x+1) >= 0 $
 

@@ -31,13 +31,13 @@
 ]
 
 #problem(3)[
-圆锥曲线 $\b e g i n{c a s e s} x = 4 \sec theta + 1,\\ y = 3 tan theta , \e n d{c a s e s}$ 的焦点坐标是#blank(){}.
+圆锥曲线 $\b e g i n{c a s e s} x = 4 sec theta + 1,\\ y = 3 tan theta , \e n d{c a s e s}$ 的焦点坐标是#blank(){}.
 ]
 
 #answer([$(-4,0)\)，\((6,0)$])
 
 #solution[
-由 $x-1=4\sec theta$、$y=3 tan theta$，消去参数得 $((x-1)^2)/(16)-(y^2)/(9)=1$. 这是中心为 $(1,0)$ 的双曲线，其中 $a=4$、$b=3$，故 $c=sqrt(a^2+b^2)=5$. 两焦点为 $(1-5,0)=(-4,0)$ 和 $(1+5,0)=(6,0)$.
+由 $x-1=4sec theta$、$y=3 tan theta$，消去参数得 $((x-1)^2)/(16)-(y^2)/(9)=1$. 这是中心为 $(1,0)$ 的双曲线，其中 $a=4$、$b=3$，故 $c=sqrt(a^2+b^2)=5$. 两焦点为 $(1-5,0)=(-4,0)$ 和 $(1+5,0)=(6,0)$.
 ]
 
 #problem(4)[
@@ -125,13 +125,13 @@ $((1.09)/(1.0008))^n >= 2$. 由于 $(1.09)/(1.0008) approx 1 .08913>1$，左端�
 ]
 
 #problem(12)[
-在等差数列 $\{a_(n)\}$ 中，若 $a_(10) = 0$，则有等式 $a_(1) + a_(2) + dots.c + a_(n) = a_(1) + a_(2) + dots.c + a_(19-n)$（$n < 19$，$n in NN ""^*$）成立，类比上述性质，相应地：在等比数列 $\{b_(n)\}$ 中，若 $b_(9) = 1$，则有等式#blank(){}成立.
+在等差数列 ${a_(n)}$ 中，若 $a_(10) = 0$，则有等式 $a_(1) + a_(2) + dots.c + a_(n) = a_(1) + a_(2) + dots.c + a_(19-n)$（$n < 19$，$n in NN ""^*$）成立，类比上述性质，相应地：在等比数列 ${b_(n)}$ 中，若 $b_(9) = 1$，则有等式#blank(){}成立.
 ]
 
 #answer([$b_(1)b_(2) dots.c b_(n)=b_(1)b_(2) dots.c b_(17-n)\)，\(n<17\)，\(n in NN ""^*$])
 
 #solution[
-设等比数列首项为 $b_1$，公比为 $q$. 由 $b_9=b_(1) q^8=1$ 可知 $q\n e q0$，从而
+设等比数列首项为 $b_1$，公比为 $q$. 由 $b_9=b_(1) q^8=1$ 可知 $q != 0$，从而
 $b_1=q^(-8)$，且前 $n$ 项积为 $b_(1) b_2 dots.c b_n=b_1^(n) q^(1+2+ dots.c +(n-1))=q^(-8 n+(n(n-1))/(2))=q^((n(n-17))/(2))$. 同理，$b_(1) b_2 dots.c b_(17-n)=q^(((17-n)((17-n)-17))/(2))=q^((n(n-17))/(2))$. 因此对所有 $n<17$、$n in NN ""^*$，都有 $b_(1) b_2 dots.c b_n=b_(1) b_2 dots.c b_(17-n)$.
 ]
 
@@ -167,7 +167,7 @@ $z=3( cos (4 pi)/(5)+ i sin (4 pi)/(5))$. 又 $(6 pi)/(5)=2 pi -(4 pi)/(5)$，�
 ]
 
 #problem(15)[
-若集合 $S = \{y | y = 3^x, x in RR \}$，$T = \{y | y = x^2 - 1, x in RR \}$，则 $S inter T$ 是（ ）
+若集合 $S = {y | y = 3^x, x in RR }$，$T = {y | y = x^2 - 1, x in RR }$，则 $S inter T$ 是（ ）
   #choices([$S$], [$T$], [$emptyset$], [有限集], cols: 4)
 ]
 
@@ -179,7 +179,7 @@ $z=3( cos (4 pi)/(5)+ i sin (4 pi)/(5))$. 又 $(6 pi)/(5)=2 pi -(4 pi)/(5)$，�
 
 #problem(16)[
 下列命题中正确的命题是（ ）
-  #choices([若点 $P(a, 2 a)$（$a != 0$）为角 $alpha$ 终边上一点，则 $sin alpha = (2 sqrt(5))/(5)$], [同时满足 $sin alpha = (1)/(2)$，$cos alpha = (sqrt(3))/(2)$ 的角 $alpha$ 有且只有一个], [当 $|a| < 1$ 时，$tan ( arcsin a)$ 的值恒正], [三角方程 $tan (x + (pi)/(3)) = sqrt(3)$ 的解集为 $\{x | x = k pi , k in ZZ \}$], cols: 1)
+  #choices([若点 $P(a, 2 a)$（$a != 0$）为角 $alpha$ 终边上一点，则 $sin alpha = (2 sqrt(5))/(5)$], [同时满足 $sin alpha = (1)/(2)$，$cos alpha = (sqrt(3))/(2)$ 的角 $alpha$ 有且只有一个], [当 $|a| < 1$ 时，$tan ( arcsin a)$ 的值恒正], [三角方程 $tan (x + (pi)/(3)) = sqrt(3)$ 的解集为 ${x | x = k pi , k in ZZ }$], cols: 1)
 ]
 
 #answer([D])
@@ -254,7 +254,7 @@ $(sqrt((x-4)^2+16))/(v)=(17-x)/(2 v)$.
 
 + (1) 求点 $P_(n)$ 的纵坐标 $b_(n)$ 的表达式；
 + (2) 若对每个自然数 $n$，以 $b_(n)$，$b_(n+1)$，$b_(n+2)$ 为边长能构成一个三角形，求 $a$ 取值范围；
-+ (3) 设 $B_(n) = b_(1)b_(2) dots.c b_(n)$（$n in NN$），若 $a$ 取（2）中确定的范围内的最小整数，求数列 $\{B_(n)\}$ 的最大项的项数.
++ (3) 设 $B_(n) = b_(1)b_(2) dots.c b_(n)$（$n in NN$），若 $a$ 取（2）中确定的范围内的最小整数，求数列 ${B_(n)}$ 的最大项的项数.
 ]
 
 #solution[
@@ -277,8 +277,8 @@ $b_n=2000((a)/(10))^(n+(1)/(2))$，其中 $b_n>0$.
 ]
 
 #solution[
-+ (1) $overline(z_0)=1+m i$、$\overline z=x-y i$，所以
-$omega =(1+m i )(x-y i )=(x+m y)+(m x-y) i$. 因而 $x'=x+m y$、$y'=m x-y$. 又 $| omega |=|overline(z_0)| |\overline z|=sqrt(1+m^2)|z|=2|z|$，故 $1+m^2=4$. 由 $m>0$ 得 $m=sqrt(3)$，从而 $x'=x+sqrt(3)y$、$y'=sqrt(3)x-y$.
++ (1) $overline(z_0)=1+m i$、$overline(z)=x-y i$，所以
+$omega =(1+m i )(x-y i )=(x+m y)+(m x-y) i$. 因而 $x'=x+m y$、$y'=m x-y$. 又 $| omega |=|overline(z_0)| |overline(z)|=sqrt(1+m^2)|z|=2|z|$，故 $1+m^2=4$. 由 $m>0$ 得 $m=sqrt(3)$，从而 $x'=x+sqrt(3)y$、$y'=sqrt(3)x-y$.
 + (2) 设点 $P$ 的坐标为 $(t,t+1)$. 由上式，点 $Q$ 的坐标 $(X,Y)$ 满足 $X=(1+sqrt(3))t+sqrt(3)$、$Y=(sqrt(3)-1)t-1$. 消去 $t$，得到
 $Y=(2-sqrt(3))X+2-2 sqrt(3)$. 因此轨迹方程为 $y=(2-sqrt(3))x-2 sqrt(3)+2$.
 + (3) 设所求直线不是竖直直线，方程写为 $y=k x+b$. 对其上任意点，变换后有 $x'= (1+sqrt(3)k)x+sqrt(3)b$、$y'=(sqrt(3)-k)x-b$. 要使变换后的点仍在原直线上，对一切 $x$ 必须满足 $y'=k x'+b$，比较 $x$ 的系数和常数项，得

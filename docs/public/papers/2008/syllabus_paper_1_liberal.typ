@@ -12,7 +12,7 @@
 
 #problem(1)[
 函数 $y = sqrt(1 - x)+ sqrt(x)$ 的定义域为（ ）
-  #choices([$\{x | x <= 1 \}$], [$\{x | x >= 0 \}$], [$\{x | x >= 1 "或"x <= 0 \}$], [$\{x | 0 <= x <= 1 \}$], cols: 2)
+  #choices([${x | x <= 1 }$], [${x | x >= 0 }$], [${x | x >= 1 "或"x <= 0 }$], [${x | 0 <= x <= 1 }$], cols: 2)
 ]
 
 #answer([D])
@@ -109,7 +109,7 @@ $ f(-x)=- sin (-2 x)= sin 2 x=-f(x) $
 ]
 
 #problem(7)[
-已知等比数列 $\{a_(n)\}$ 满足 $a_(1) + a_(2) = 3$，$a_(2) + a_(3) = 6$，则 $a_(7) =$（ ）
+已知等比数列 ${a_(n)}$ 满足 $a_(1) + a_(2) = 3$，$a_(2) + a_(3) = 6$，则 $a_(7) =$（ ）
   #choices([$64$], [$81$], [$128$], [$243$], cols: 4)
 ]
 
@@ -224,15 +224,7 @@ $ sin theta =(A_(1) O)/(A B_1)=(s s q r t((2)/(3)))/(s s q r t(3))=(sqrt(2))/(3)
 将 $1$，$2$，$3$ 填入 $3 times 3$ 的方格中，要求每行，每列都没有重复数字，下面是一种填法，则不同的填写方法共有（ ）
 
 \begin{center}
-\begin{tabular}{|c|c|c|}
-\hline
-$1$ & $2$ & $3$ \\
-\hline
-$3$ & $1$ & $2$ \\
-\hline
-$2$ & $3$ & $1$ \\
-\hline
-\end{tabular}
+[（表格数据详见在线交互版）]
 \end{center}
   #choices([$6" 种"$], [$12" 种"$], [$24" 种"$], [$48" 种"$], cols: 4)
 ]
@@ -373,49 +365,43 @@ $arrow(A D)\c d o t a r r o w(C E)=1 times (-2)+sqrt(2)\t i m e s s q r t(2)+(-h
 
 设 $theta$ 为二面角 $C-A D-E$ 的大小，并取 $bold(d)=arrow(D A)=(-1,-sqrt(2),sqrt(3))$，$bold(u)=arrow(D C)=(0,-sqrt(2),0)$，$bold(v)=arrow(D E)=(-2,0,0)$. 将 $bold(u)$ 和 $bold(v)$ 分别投影到垂直于 $A D$ 的平面内，所得向量就是两个面的平面角的两条边.
 
-直接计算得 $\l v e r t b o l d(d)|^2=6$，$bold(u)\c d o t b o l d(d)=2$，$bold(v)\c d o t b o l d(d)=2$，$bold(u)\c d o t b o l d(v)=0$. 因此
-$bold(u)_( bot )=bold(u)-(bold(u){ dot }bold(d))/(\l v e r t b o l d(d)|^2)bold(d)=bold(u)-(1)/(3)bold(d)=((1)/(3),-(2 sqrt(2))/(3),-(sqrt(3))/(3))$，
-$bold(v)_( bot )=bold(v)-(bold(v){ dot }bold(d))/(\l v e r t b o l d(d)|^2)bold(d)=bold(v)-(1)/(3)bold(d)=(-(5)/(3),(sqrt(2))/(3),-(sqrt(3))/(3))$.
+直接计算得 $ |  b o l d(d)|^2=6$，$bold(u)\c d o t b o l d(d)=2$，$bold(v)\c d o t b o l d(d)=2$，$bold(u)\c d o t b o l d(v)=0$. 因此
+$bold(u)_( bot )=bold(u)-(bold(u){ dot }bold(d))/( |  b o l d(d)|^2)bold(d)=bold(u)-(1)/(3)bold(d)=((1)/(3),-(2 sqrt(2))/(3),-(sqrt(3))/(3))$，
+$bold(v)_( bot )=bold(v)-(bold(v){ dot }bold(d))/( |  b o l d(d)|^2)bold(d)=bold(v)-(1)/(3)bold(d)=(-(5)/(3),(sqrt(2))/(3),-(sqrt(3))/(3))$.
 从而
-$bold(u)_( bot )\c d o t b o l d(v)_( bot )=-(2)/(3)$，$\l v e r t b o l d(u)_( bot )|^2=(4)/(3)$，$\l v e r t b o l d(v)_( bot )|^2=(10)/(3)$.
+$bold(u)_( bot )\c d o t b o l d(v)_( bot )=-(2)/(3)$，$ |  b o l d(u)_( bot )|^2=(4)/(3)$，$ |  b o l d(v)_( bot )|^2=(10)/(3)$.
 于是
-$cos theta =(bold(u)_( bot )\c d o t b o l d(v)_( bot ))/(\l v e r t b o l d(u)_( bot )|\l v e r t b o l d(v)_( bot )|)=(-(2)/(3))/(sqrt((4)/(3))sqrt((10)/(3)))=-(1)/(sqrt(10))$.
+$cos theta =(bold(u)_( bot )\c d o t b o l d(v)_( bot ))/( |  b o l d(u)_( bot )| |  b o l d(v)_( bot )|)=(-(2)/(3))/(sqrt((4)/(3))sqrt((10)/(3)))=-(1)/(sqrt(10))$.
 故 $theta = arccos (-(1)/(sqrt(10)))$.
 ]
 
 #problem(19)[
-+ (1) 在数列 $\{a_(n)\}$ 中，$a_(1) = 1$，$a_(n+1) = 2 a_(n) + 2^(n)$. 设 $b_(n)=(a_(n))/(2^(n-1))$. 证明： 数列 $\{b_(n)\}$ 是等差数列；
-+ (2) 求数列 $\{a_(n)\}$ 的前 $n$ 项和 $S_(n)$.
++ (1) 在数列 ${a_(n)}$ 中，$a_(1) = 1$，$a_(n+1) = 2 a_(n) + 2^(n)$. 设 $b_(n)=(a_(n))/(2^(n-1))$. 证明： 数列 ${b_(n)}$ 是等差数列；
++ (2) 求数列 ${a_(n)}$ 的前 $n$ 项和 $S_(n)$.
 ]
 
 #solution[
 由递推式，
 $b_(n+1)=(a_(n+1))/(2^n)=(2 a_n+2^n)/(2^n)=(a_n)/(2^(n-1))+1=b_n+1$.
-所以 $b_(n+1)-b_n=1$，数列 $\{b_n\}$ 是公差为 $1$ 的等差数列. 又 $b_1=a_1=1$，故
+所以 $b_(n+1)-b_n=1$，数列 ${b_n}$ 是公差为 $1$ 的等差数列. 又 $b_1=a_1=1$，故
 $b_n=b_1+(n-1) times 1 =n$.
 从而
-$a_n=2^(n-1)b_n=n2^(n-1)$.
+$a_n=2^(n-1)b_n=n dot 2^(n-1)$.
 
 因此
-$S_n=sum_(k=1)^(n)k2^(k-1)$.
+$S_n=sum_(k=1)^(n)k dot 2^(k-1)$.
 将上式乘以 $2$，并作换指标变形，得
-$2 S_n=sum_(k=1)^(n)k2^k=sum_(k=2)^(n+1)(k-1)2^(k-1)=sum_(k=2)^(n)(k-1)2^(k-1)+n2^n$.
+$2 S_n=sum_(k=1)^(n)k dot 2^k=sum_(k=2)^(n+1)(k-1)2^(k-1)=sum_(k=2)^(n)(k-1)2^(k-1)+n dot 2^n$.
 于是
-$S_n=2 S_n-S_n=n2^n-1-sum_(k=2)^(n)2^(k-1)=n2^n-1-(2^n-2)=(n-1)2^n+1$.
-故数列 $\{a_n\}$ 的前 $n$ 项和为 $S_n=(n-1)2^n+1$.
+$S_n=2 S_n-S_n=n dot 2^n-1-sum_(k=2)^(n)2^(k-1)=n dot 2^n-1-(2^n-2)=(n-1)2^n+1$.
+故数列 ${a_n}$ 的前 $n$ 项和为 $S_n=(n-1)2^n+1$.
 ]
 
 #problem(20)[
 已知 $5" 只"$动物中有 $1" 只"$患有某种疾病，需要通过化验血液来确定患病的动物. 血液化验结果呈阳性的即为患病动物，呈阴性即没患病，下面是两种化验方案：
 
 \begin{center}
-\begin{tabular}{|c|p{0.68\linewidth}|}
-\hline
-方案甲： & 逐个化验，直到能确定患病动物为止. \\
-\hline
-方案乙： & 先任取 $3" 只"$，将它们的血液混在一起化验. 若结果呈阳性则表明患病动物为这 $3" 只"$中的 $1" 只"$，然后再逐个化验，直到能确定患病动物为止；若结果呈阴性则在另外 $2" 只"$中任取 $1" 只"$化验. \\
-\hline
-\end{tabular}
+[（表格数据详见在线交互版）]
 \end{center}
 
 求依方案甲所需化验次数不少于依方案乙所需化验次数的概率.
