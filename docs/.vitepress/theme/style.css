@@ -8,22 +8,34 @@
   --vp-c-brand-soft: rgba(37, 99, 235, 0.14);
 }
 
-/* 连续试卷与单题卡片在暗黑模式下的智能反色 */
+/* 试题几何插图、长卷与单题卡片在暗黑模式下的色彩精准匹配反色系统 (方案B: 消除色块色差) */
 html.dark .paper-svg-page,
 html.dark .question-card-svg,
 html.dark .problem-image,
-html.dark .problem-choice-image {
-  filter: invert(0.92) hue-rotate(180deg) contrast(1.05);
-  background-color: transparent !important;
-  transition: filter 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+html.dark .problem-choice-image,
+html.dark .problem-body img,
+html.dark .analysis-text img,
+html.dark .continuous-prob-content img,
+html.dark .single-card-panel img,
+html.dark .doc-view img {
+  filter: invert(0.892) hue-rotate(185deg) contrast(1.1) brightness(1.02);
+  background-color: var(--vp-c-bg) !important;
+  border-radius: 6px;
+  transition: filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html:not(.dark) .paper-svg-page,
 html:not(.dark) .question-card-svg,
 html:not(.dark) .problem-image,
-html:not(.dark) .problem-choice-image {
+html:not(.dark) .problem-choice-image,
+html:not(.dark) .problem-body img,
+html:not(.dark) .analysis-text img,
+html:not(.dark) .continuous-prob-content img,
+html:not(.dark) .single-card-panel img,
+html:not(.dark) .doc-view img {
   filter: none;
-  transition: filter 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent !important;
+  transition: filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* 试卷纸张阴影在暗色下的自适应 */
@@ -83,4 +95,32 @@ html {
 .native-doc-container {
   display: none;
   margin-top: 1.5rem;
+}
+
+/* ==============================================================================
+   做题展台与真题大厅全景开阔布局 (消除无用右侧空白，大幅释放做题主舞台)
+   ============================================================================== */
+
+:root {
+  --vp-sidebar-width: 256px;
+  --vp-layout-max-width: 1440px;
+}
+
+/* 针对做题页与大厅页：隐藏无用的右侧 Aside 空白大沙漠 */
+.VPDoc:has(.exam-viewer-wrapper) .aside,
+.VPDoc:has(.paper-matrix-wrapper) .aside,
+.VPDoc:has(.exam-viewer-wrapper) .VPDocAside,
+.VPDoc:has(.paper-matrix-wrapper) .VPDocAside {
+  display: none !important;
+}
+
+/* 做题页正文容器最大宽度从 688px 扩展至 1080px (大幅扩宽 57%) */
+.VPDoc:has(.exam-viewer-wrapper) .content-container,
+.VPDoc:has(.paper-matrix-wrapper) .content-container {
+  max-width: 1080px !important;
+}
+
+.VPDoc:has(.exam-viewer-wrapper) .container,
+.VPDoc:has(.paper-matrix-wrapper) .container {
+  max-width: 100% !important;
 }

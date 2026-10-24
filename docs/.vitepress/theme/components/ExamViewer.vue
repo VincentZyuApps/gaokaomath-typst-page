@@ -665,11 +665,29 @@ function parseLatexTable(text: string): string {
   return s;
 }
 
+const CIRCLED_NUM_LIST = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩'];
+
+function parseCircleList(text: string): string {
+  if (!text) return '';
+  return text.replace(/\\begin\{circlelist\}([\s\S]*?)\\end\{circlelist\}/g, (_, listContent) => {
+    const rawItems = listContent.split(/\\item\b/).map((i: string) => i.trim()).filter(Boolean);
+    if (rawItems.length === 0) return '';
+    const itemsHtml = rawItems.map((itemText: string, idx: number) => {
+      const numChar = CIRCLED_NUM_LIST[idx] || `(${idx + 1})`;
+      return `<div class="exam-circle-item"><span class="circle-badge">${numChar}</span><div class="circle-text">${itemText}</div></div>`;
+    }).join('');
+    return `<div class="exam-circle-list">${itemsHtml}</div>`;
+  });
+}
+
 function renderMath(text: string): string {
   if (!text) return '';
 
   // 0. 解析 LaTeX 表格环境为语义化 HTML Table
   let s = parseLatexTable(text);
+
+  // 0.3 解析 LaTeX circlelist 带圈列表环境
+  s = parseCircleList(s);
 
   // 0.5 智能公式升格: 将单美元符号 $...$ 内包裹的多行数学环境 (如 cases, matrix, pmatrix, aligned, array) 安全升格为块级公式 $$...$$
   s = s.replace(/\$((?:[^\$]|\\\$)*?\\begin\{(?:cases|matrix|pmatrix|vmatrix|bmatrix|aligned|array)\}(?:[^\$]|\\\$)*?\\end\{(?:cases|matrix|pmatrix|vmatrix|bmatrix|aligned|array)\}(?:[^\$]|\\\$)*?)\$/g, (_, mathContent) => {
@@ -746,6 +764,13 @@ function renderMath(text: string): string {
   // 3. 此时所有数学公式与图片均在占位符中受保护，可安全处理文本换行与文本填空线
   s = s.replace(/(_{2,})\s*\{\s*\}/g, '$1');
   s = s.replace(/\n\n+/g, '<br/><br/>').replace(/\n/g, '<br/>');
+
+  // 清洗 circle-list 与表格内部的冗余 br 标签
+  s = s.replace(/<div class="exam-circle-list">\s*<br\s*\/?>/gi, '<div class="exam-circle-list">');
+  s = s.replace(/<\/div>\s*<br\s*\/?>\s*<div class="exam-circle-item">/gi, '</div><div class="exam-circle-item">');
+  s = s.replace(/<\/div>\s*<br\s*\/?>\s*<\/div>/gi, '</div></div>');
+  s = s.replace(/<div class="exam-table-wrapper">\s*<br\s*\/?>/gi, '<div class="exam-table-wrapper">');
+  s = s.replace(/<\/table>\s*<br\s*\/?>\s*<\/div>/gi, '</table></div>');
 
   // 4. 安全无损还原数学公式 (保证 KaTeX 生成的 SVG 矢量 path 内部换行符完整不受污染)
   s = s.replace(/__MATH_PH_(\d+)__/g, (_, idx) => {
@@ -1024,8 +1049,8 @@ onUnmounted(() => {
   border: 1px solid var(--vp-c-divider);
   border-radius: 12px;
   padding: 1.8rem 2.2rem;
-  max-width: 760px;
-  width: 85vw;
+  max-width: 960px;
+  width: 90vw;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
   box-sizing: border-box;
   text-align: left;
@@ -1417,14 +1442,43 @@ onUnmounted(() => {
   object-fit: contain;
 }
 
-/* 表格样式支持 (LaTeX tabular 转换) */
+/* 表格样式支持 (LaTeX tabular 转换，支持小屏/大屏全览与左右平移滚动) */
 .problem-body :deep(.exam-table-wrapper),
 .analysis-text :deep(.exam-table-wrapper),
 .exam-table-wrapper {
-  margin: 1rem auto;
+  margin: 1.2rem 0;
+  width: 100%;
+  max-width: 100%;
   overflow-x: auto;
-  display: flex;
-  justify-content: center;
+  -webkit-overflow-scrolling: touch;
+  display: block;
+  padding-bottom: 8px;
+}
+
+.problem-body :deep(.exam-table-wrapper::-webkit-scrollbar),
+.analysis-text :deep(.exam-table-wrapper::-webkit-scrollbar),
+.exam-table-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+
+.problem-body :deep(.exam-table-wrapper::-webkit-scrollbar-track),
+.analysis-text :deep(.exam-table-wrapper::-webkit-scrollbar-track),
+.exam-table-wrapper::-webkit-scrollbar-track {
+  background: var(--vp-c-bg-soft);
+  border-radius: 3px;
+}
+
+.problem-body :deep(.exam-table-wrapper::-webkit-scrollbar-thumb),
+.analysis-text :deep(.exam-table-wrapper::-webkit-scrollbar-thumb),
+.exam-table-wrapper::-webkit-scrollbar-thumb {
+  background: var(--vp-c-divider);
+  border-radius: 3px;
+}
+
+.problem-body :deep(.exam-table-wrapper::-webkit-scrollbar-thumb:hover),
+.analysis-text :deep(.exam-table-wrapper::-webkit-scrollbar-thumb:hover),
+.exam-table-wrapper::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-text-3);
 }
 
 .problem-body :deep(.exam-table),
@@ -1467,10 +1521,47 @@ onUnmounted(() => {
 }
 
 .exam-table-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  width: 100%;
   margin: 0.8rem 0;
+}
+
+/* LaTeX circlelist 带圈列表样式 */
+.problem-body :deep(.exam-circle-list),
+.analysis-text :deep(.exam-circle-list),
+.exam-circle-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0.8rem 0;
+  padding: 0.6rem 0.8rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  border-left: 3px solid var(--vp-c-brand-1);
+}
+
+.problem-body :deep(.exam-circle-item),
+.analysis-text :deep(.exam-circle-item),
+.exam-circle-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  line-height: 1.7;
+}
+
+.problem-body :deep(.circle-badge),
+.analysis-text :deep(.circle-badge),
+.circle-badge {
+  font-weight: 700;
+  color: var(--vp-c-brand-1);
+  font-size: 1.05rem;
+  flex-shrink: 0;
+}
+
+.problem-body :deep(.circle-text),
+.analysis-text :deep(.circle-text),
+.circle-text {
+  flex: 1;
 }
 
 /* 选项列表: 固定单列流式排布 (一行一个选项，横向舒展自如) */
