@@ -136,8 +136,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: "本站试题基于开源社区数据整理，采用 CC BY 4.0 许可协议",
-      copyright: "Copyright © 1952-2026 Gaokao Math Modern Project"
+      message: "本站试题基于开源社区数据整理，采用 CC BY 4.0 许可协议"
     },
 
     docFooter: {
