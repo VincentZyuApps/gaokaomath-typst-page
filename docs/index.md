@@ -27,3 +27,7 @@ features:
     title: 开源与自动管道
     details: 基于 upstream 社区数据源自动化转换，支持本地快捷启动（暗示 1952 年份端口 61952）。
 ---
+
+<ClientOnly>
+  <HomeTelemetry />
+</ClientOnly>
