@@ -1,9 +1,9 @@
 # 高考数学沉浸式题库 & 现代化排版 (Gaokao Math Typst & Page)
 
-[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub_Pages-blue?logo=github)](https://vincentzyuapps.github.io/gaokaomath-typst-page/)
+[![GitHub Pages](https://img.shields.io/badge/Deploy_with-GitHub_Pages-blue?logo=github)](https://vincentzyuapps.github.io/gaokaomath-typst-page/)
 [![Typst](https://img.shields.io/badge/Rendered_with-Typst-239dad?logo=typst)](https://typst.app/)
 [![VitePress](https://img.shields.io/badge/Powered_by-VitePress-indigo?logo=vitepress)](https://vitepress.dev/)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License_is-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 跨越 1952 年统一高考至今的全国历年高考数学试题现代排版与沉浸式在线题库。
 
