@@ -640,12 +640,15 @@ function parseLatexTable(text: string): string {
         return bodyStr.replace(/\\hline/g, '').trim();
       }
 
-      let html = '<div class="exam-table-wrapper"><table class="exam-table">';
+      // 判断是否是包含子表格的排版型布局表格
+      const isLayoutTable = bodyStr.includes('<table') || bodyStr.includes('exam-table-wrapper');
+
+      let html = `<div class="exam-table-wrapper${isLayoutTable ? ' is-layout-table' : ''}"><table class="exam-table${isLayoutTable ? ' layout-table' : ''}">`;
       rawLines.forEach((line, rowIdx) => {
         const cells = line.split('&').map(c => c.trim());
         html += '<tr>';
         cells.forEach((cell, colIdx) => {
-          const tag = (rowIdx === 0 && !cell.includes('<table')) ? 'th' : 'td';
+          const tag = (rowIdx === 0 && !isLayoutTable && !cell.includes('<table')) ? 'th' : 'td';
           const align = colAligns[colIdx] || 'center';
           html += `<${tag} style="text-align:${align}">${cell}</${tag}>`;
         });
@@ -1526,6 +1529,40 @@ onUnmounted(() => {
   margin: 0.8rem 0;
 }
 
+/* 针对公式/子表格并排的排版型外层容器 (如北京卷 21 题 A1/A2 并排) */
+.problem-body :deep(.exam-table-wrapper.is-layout-table),
+.analysis-text :deep(.exam-table-wrapper.is-layout-table),
+.exam-table-wrapper.is-layout-table {
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.problem-body :deep(.exam-table.layout-table),
+.analysis-text :deep(.exam-table.layout-table),
+.exam-table.layout-table {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.problem-body :deep(.exam-table.layout-table > tr > td),
+.problem-body :deep(.exam-table.layout-table > tbody > tr > td),
+.analysis-text :deep(.exam-table.layout-table > tr > td),
+.analysis-text :deep(.exam-table.layout-table > tbody > tr > td),
+.exam-table.layout-table > tr > td,
+.exam-table.layout-table > tbody > tr > td {
+  border: none !important;
+  background: transparent !important;
+  padding: 6px 12px !important;
+  vertical-align: middle;
+}
+
+.problem-body :deep(.exam-table.layout-table tr:hover),
+.analysis-text :deep(.exam-table.layout-table tr:hover),
+.exam-table.layout-table tr:hover {
+  background: transparent !important;
+}
+
 /* LaTeX circlelist 带圈列表样式 */
 .problem-body :deep(.exam-circle-list),
 .analysis-text :deep(.exam-circle-list),
@@ -1736,6 +1773,78 @@ onUnmounted(() => {
   padding: 3rem 1rem;
   color: var(--vp-c-text-3);
   font-size: 0.9rem;
+}
+
+/* 移动端与平板设备响应式排版优化 */
+@media (max-width: 768px) {
+  .exam-viewer-wrapper {
+    margin: 0.5rem 0 1.5rem 0 !important;
+    gap: 0.8rem !important;
+  }
+
+  .continuous-paper-flow,
+  .doc-view {
+    padding: 1rem 0.6rem !important;
+    border-radius: 8px !important;
+  }
+
+  .single-card-panel {
+    padding: 0.8rem 0.6rem !important;
+    border-radius: 8px !important;
+  }
+
+  .continuous-prob-content,
+  .problem-body,
+  .analysis-text {
+    font-size: 0.95rem !important;
+    line-height: 1.65 !important;
+  }
+
+  .problem-card-header,
+  .continuous-card-header {
+    margin-bottom: 0.6rem !important;
+  }
+
+  .exam-table th,
+  .exam-table td {
+    padding: 6px 8px !important;
+    font-size: 0.88rem !important;
+  }
+}
+
+/* 窄屏手机 (<= 640px) 排版型并排表格自适应垂直堆叠 (消除横向截断) */
+@media (max-width: 640px) {
+  .problem-body :deep(.exam-table.layout-table),
+  .problem-body :deep(.exam-table.layout-table > tbody),
+  .problem-body :deep(.exam-table.layout-table > tr),
+  .problem-body :deep(.exam-table.layout-table > tbody > tr),
+  .analysis-text :deep(.exam-table.layout-table),
+  .analysis-text :deep(.exam-table.layout-table > tbody),
+  .analysis-text :deep(.exam-table.layout-table > tr),
+  .analysis-text :deep(.exam-table.layout-table > tbody > tr),
+  .exam-table.layout-table,
+  .exam-table.layout-table > tbody,
+  .exam-table.layout-table > tr,
+  .exam-table.layout-table > tbody > tr {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 14px;
+  }
+
+  .problem-body :deep(.exam-table.layout-table > tr > td),
+  .problem-body :deep(.exam-table.layout-table > tbody > tr > td),
+  .analysis-text :deep(.exam-table.layout-table > tr > td),
+  .analysis-text :deep(.exam-table.layout-table > tbody > tr > td),
+  .exam-table.layout-table > tr > td,
+  .exam-table.layout-table > tbody > tr > td {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0 !important;
+  }
 }
 
 /* 浏览器原生矢量打印优化样式 (在线极速免字体版) */
