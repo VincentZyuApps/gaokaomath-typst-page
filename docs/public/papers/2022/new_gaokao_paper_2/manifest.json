@@ -334,7 +334,7 @@
           "body": "曲线 $y=\\ln|x|$ 过坐标原点的两条切线的方程为 _______ {}， _______ {}.",
           "choices": [],
           "answer": "\\(y=\\frac{1}{\\mathrm{e}}x\\)，\\(y=-\\frac{1}{\\mathrm{e}}x\\)",
-          "solution": "设切点为 $(t,\\ln|t|)$，其中 $t\\ne0$. 曲线在该点处的切线为\r\n\n$$\ny-\\ln|t|=\\frac1t(x-t)=\\frac{x}{t}-1\n$$\n\r\n切线经过原点时，代入 $(0,0)$ 得 $\\ln|t|=1$，所以 $|t|=\\mathrm{e}$. 当 $t=\\mathrm{e}$ 时，切线为 $y=\\frac1\\mathrm{e} x$；当 $t=-\\mathrm{e}$ 时，切线为 $y=-\\frac1\\mathrm{e} x$.",
+          "solution": "设切点为 $(t,\\ln|t|)$，其中 $t\\ne0$. 曲线在该点处的切线为\r\n\n$$\ny-\\ln|t|=\\frac1t(x-t)=\\frac{x}{t}-1\n$$\n\r\n切线经过原点时，代入 $(0,0)$ 得 $\\ln|t|=1$，所以 $|t|=\\mathrm{e}$. 当 $t=\\mathrm{e}$ 时，切线为 $y=\\frac{1}{\\mathrm{e}} x$；当 $t=-\\mathrm{e}$ 时，切线为 $y=-\\frac{1}{\\mathrm{e}} x$.",
           "hasAnswer": true,
           "hasSolution": true
         },

@@ -46,7 +46,7 @@ B
 在正方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$P$ 为 $B_(1) D_1$ 的中点，则直线 $P B$ 与 $A D_1$ 所成的角为（ ）
 
 
-#align(center)[#image("/papers/2021/img/national_paper_B_science/q5_fig1.png", width: 6.1cm)]
+#align(center)[#image("/papers/2021/img/national_paper_b_science/q5_fig1.png", width: 6.1cm)]
 
 
 
@@ -85,7 +85,7 @@ B
 
 
 
-#align(center)[#image("/papers/2021/img/national_paper_B_science/q9_fig1.png", width: 5.2cm)]
+#align(center)[#image("/papers/2021/img/national_paper_b_science/q9_fig1.png", width: 5.2cm)]
 
 
 
@@ -142,7 +142,7 @@ B
 
 
 
-#align(center)[#image("/papers/2021/img/national_paper_B_science/q16_fig1.png", width: 8.2cm)]
+#align(center)[#image("/papers/2021/img/national_paper_b_science/q16_fig1.png", width: 8.2cm)]
 ]
 
 #answer([$"[2]""[5]"\) 或 \("[3]""[4]"$])
@@ -172,7 +172,7 @@ B
 
 
 
-#align(center)[#image("/papers/2021/img/national_paper_B_science/q18_fig1.png", width: 6.0cm)]
+#align(center)[#image("/papers/2021/img/national_paper_b_science/q18_fig1.png", width: 6.0cm)]
 ]
 
 #problem(19)[

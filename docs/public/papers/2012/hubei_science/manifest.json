@@ -250,7 +250,7 @@
             "$\\frac{1}{\\pi}$"
           ],
           "answer": "A",
-          "solution": "设 $OA=OB=R$. 扇形面积为 $S_0=\\frac14\\pi R^2$，每个半圆的半径为 $\\frac{R}{2}$. 两个半圆的圆心距为 $\\frac{R}{\\sqrt2}$，两圆交叠部分对应的两个圆心角均为 $\\frac{\\pi}{2}$，故交叠面积为 $S_I=2\\left(\\frac12\\left(\\frac R2\\right)^2\\frac\\pi2-\\frac12\\left(\\frac R2\\right)^2\\right)=\\frac{\\pi-2}{8}R^2$.\r\n\r\n阴影部分由两个半圆的交叠部分和扇形中两个半圆以外的部分组成. 由于两个半圆面积之和恰好等于扇形面积，阴影面积为 $2S_I=\\frac{\\pi-2}{4}R^2$. 因此所求概率为 $\\displaystyle\\frac{2S_I}{S_0}=\\frac{\\pi-2}{\\pi}=1-\\frac2\\pi$，故选 A.",
+          "solution": "设 $OA=OB=R$. 扇形面积为 $S_0=\\frac14\\pi R^2$，每个半圆的半径为 $\\frac{R}{2}$. 两个半圆的圆心距为 $\\frac{R}{\\sqrt2}$，两圆交叠部分对应的两个圆心角均为 $\\frac{\\pi}{2}$，故交叠面积为 $S_I=2\\left(\\frac12\\left(\\frac R2\\right)^2\\frac\\pi2-\\frac12\\left(\\frac R2\\right)^2\\right)=\\frac{\\pi-2}{8}R^2$.\r\n\r\n阴影部分由两个半圆的交叠部分和扇形中两个半圆以外的部分组成. 由于两个半圆面积之和恰好等于扇形面积，阴影面积为 $2S_I=\\frac{\\pi-2}{4}R^2$. 因此所求概率为 $\\displaystyle\\frac{2S_I}{S_0}=\\frac{\\pi-2}{\\pi}=1-\\frac{2}{\\pi}$，故选 A.",
           "hasAnswer": true,
           "hasSolution": true
         },
@@ -278,7 +278,7 @@
             "$d \\approx \\sqrt[3]{\\frac{21}{11}V}$"
           ],
           "answer": "D",
-          "solution": "球体积满足 $V=\\frac\\pi6d^3$，所以准确公式为 $d=\\sqrt[3]{\\frac6\\pi V}$. 用 $\\pi\\approx3.14159$ 得 $\\frac6\\pi\\approx1.90986$. 各选项的系数中，$\\frac{21}{11}\\approx1.90909$，$\\frac{300}{157}\\approx1.91083$，而 $2$ 与 $\\frac{16}{9}$ 更远离 $1.90986$. 进一步，$\\left|\\frac6\\pi-\\frac{21}{11}\\right|\\approx0.00077<0.00097\\approx\\left|\\frac{300}{157}-\\frac6\\pi\\right|$，故 $\\frac{21}{11}$ 最接近 $\\frac6\\pi$，相应公式最精确，故选 D.",
+          "solution": "球体积满足 $V=\\frac\\pi6d^3$，所以准确公式为 $d=\\sqrt[3]{\\frac{6}{\\pi} V}$. 用 $\\pi\\approx3.14159$ 得 $\\frac{6}{\\pi}\\approx1.90986$. 各选项的系数中，$\\frac{21}{11}\\approx1.90909$，$\\frac{300}{157}\\approx1.91083$，而 $2$ 与 $\\frac{16}{9}$ 更远离 $1.90986$. 进一步，$\\left|\\frac{6}{\\pi}-\\frac{21}{11}\\right|\\approx0.00077<0.00097\\approx\\left|\\frac{300}{157}-\\frac{6}{\\pi}\\right|$，故 $\\frac{21}{11}$ 最接近 $\\frac{6}{\\pi}$，相应公式最精确，故选 D.",
           "hasAnswer": true,
           "hasSolution": true
         }

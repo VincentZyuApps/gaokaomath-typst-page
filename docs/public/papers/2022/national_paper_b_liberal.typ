@@ -425,7 +425,7 @@ $2 a^2=b^2+c^2$.
 
 \begin{center}
 
-#align(center)[#image("/papers/2022/img/national_paper_B_liberal/q18_fig1.png", width: 6.8cm)]
+#align(center)[#image("/papers/2022/img/national_paper_b_liberal/q18_fig1.png", width: 6.8cm)]
 
 \end{center}
 
@@ -482,7 +482,7 @@ $E F=(B E dot D E)/(B D)=(sqrt(3))/(2)$.
 
 
 
-#align(center)[#image("/papers/2022/img/national_paper_B_liberal/q18_solution_fig1.png", width: 5.6cm)]
+#align(center)[#image("/papers/2022/img/national_paper_b_liberal/q18_solution_fig1.png", width: 5.6cm)]
 
 
 

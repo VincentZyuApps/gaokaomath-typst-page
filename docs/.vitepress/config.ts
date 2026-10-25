@@ -89,7 +89,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: "🎓",
+    logo: '/favicon.svg',
     // 开启本地即时搜索
     search: {
       provider: 'local',

@@ -338,7 +338,7 @@
           "body": "已知函数 $f(x) = x\\cos x - \\sin x$，$x \\in \\left[0, \\frac{\\pi}{2}\\right]$.\r\n\r\n\n(1) 求证：$f(x) \\le 0$.\n\n(2) 若 $a < \\frac{\\sin x}{x} < b$ 在 $\\left(0, \\frac{\\pi}{2}\\right)$ 上恒成立，求 $a$ 的最大值与 $b$ 的最小值.",
           "choices": [],
           "answer": "",
-          "solution": "(1) $f'(x)=\\cos x-x\\sin x-\\cos x=-x\\sin x\\leqslant0$（$0\\le x\\le\\frac\\pi2$），且在 $0<x<\\frac\\pi2$ 时 $f'(x)<0$. 所以 $f(x)$ 在该区间上递减，并且对 $x>0$ 有 $f(x)<f(0)=0$，从而 $f(x)\\leqslant0$.\n\n(2) 令 $g(x)=\\frac{\\sin x}{x}$，则 $g'(x)=\\frac{x\\cos x-\\sin x}{x^{2}}=\\frac{f(x)}{x^{2}}<0$（$0<x<\\frac\\pi2$），\r\n所以 $g(x)$ 在 $\\left(0,\\frac\\pi2\\right)$ 上严格递减. 于是\r\n又 $\\displaystyle\\lim_{x\\to0^+}g(x)=1$，$\\displaystyle\\lim_{x\\to(\\frac{\\pi}{2})^-}g(x)=\\frac2\\pi$，\r\n从而 $\\frac2\\pi<\\frac{\\sin x}{x}<1$. 因此 $a=\\frac2\\pi$ 时左侧严格不等式恒成立，且任何更大的 $a$ 都不可能成立；$b=1$ 时右侧严格不等式恒成立，且任何更小的 $b$ 都不可能成立. 故 $a$ 的最大值为 $\\frac2\\pi$，$b$ 的最小值为 $1$.",
+          "solution": "(1) $f'(x)=\\cos x-x\\sin x-\\cos x=-x\\sin x\\leqslant0$（$0\\le x\\le\\frac\\pi2$），且在 $0<x<\\frac\\pi2$ 时 $f'(x)<0$. 所以 $f(x)$ 在该区间上递减，并且对 $x>0$ 有 $f(x)<f(0)=0$，从而 $f(x)\\leqslant0$.\n\n(2) 令 $g(x)=\\frac{\\sin x}{x}$，则 $g'(x)=\\frac{x\\cos x-\\sin x}{x^{2}}=\\frac{f(x)}{x^{2}}<0$（$0<x<\\frac\\pi2$），\r\n所以 $g(x)$ 在 $\\left(0,\\frac\\pi2\\right)$ 上严格递减. 于是\r\n又 $\\displaystyle\\lim_{x\\to0^+}g(x)=1$，$\\displaystyle\\lim_{x\\to(\\frac{\\pi}{2})^-}g(x)=\\frac{2}{\\pi}$，\r\n从而 $\\frac{2}{\\pi}<\\frac{\\sin x}{x}<1$. 因此 $a=\\frac{2}{\\pi}$ 时左侧严格不等式恒成立，且任何更大的 $a$ 都不可能成立；$b=1$ 时右侧严格不等式恒成立，且任何更小的 $b$ 都不可能成立. 故 $a$ 的最大值为 $\\frac{2}{\\pi}$，$b$ 的最小值为 $1$.",
           "hasAnswer": false,
           "hasSolution": true
         },

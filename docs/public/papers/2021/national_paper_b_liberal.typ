@@ -120,7 +120,7 @@ $cos ""^2(pi)/(12)- cos ""^2(5 pi)/(12)=$（ ）
 以图"①"为正视图，在图"②"，"③"，"④"，\circled{5}中选两个分别作为侧视图和俯视图，组成某个三棱锥的三视图，则所选侧视图和俯视图的编号依次为#blank(){}（写出符合要求的一组答案即可）.
 
 
-#align(center)[#image("/papers/2021/img/national_paper_B_liberal/q16_fig1.png", width: 17cm)]
+#align(center)[#image("/papers/2021/img/national_paper_b_liberal/q16_fig1.png", width: 17cm)]
 ]
 
 #answer([$"[2]"\)\("[5]"$])
@@ -150,7 +150,7 @@ $cos ""^2(pi)/(12)- cos ""^2(5 pi)/(12)=$（ ）
 
 
 
-#align(center)[#image("/papers/2021/img/national_paper_B_liberal/q18_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2021/img/national_paper_b_liberal/q18_fig1.png", width: 42%)]
 ]
 
 #problem(19)[

@@ -61,13 +61,22 @@
           ⚡ 在线免字体快印
         </button>
         <a
-          :href="upstreamUrl"
+          :href="upstreamTexUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="action-btn tex-btn"
+          title="直达上游 DxAThing 团队高质量排版、校对与绘图的对应 .tex 源码"
+        >
+          📜 上游 LaTeX 源码 ↗
+        </a>
+        <a
+          :href="upstreamArchiveUrl"
           target="_blank"
           rel="noopener noreferrer"
           class="action-btn upstream-btn"
-          title="直达上游 deekur/gaokaomath 原始历史考据、扫描原件与 LaTeX 源码"
+          title="直达上游 deekur/gaokaomath 原始真题高清 PDF 与历史考据档案目录"
         >
-          🏛️ 上游档案 ↗
+          🏛️ 上游考据档案 ↗
         </a>
       </div>
     </div>
@@ -500,9 +509,16 @@ const friendlyFileName = computed(() => {
   return safeName;
 });
 
-// 上游历史考据与学术源直链
-const upstreamUrl = computed(() => {
-  return manifestData.value?.upstream?.url || `https://github.com/deekur/gaokaomath/tree/master/${props.paperYear}`;
+// 上游基石 A: DxAThing 的 LaTeX 源码直链 (100% 精确映射到该卷对应 .tex 文件)
+const upstreamTexUrl = computed(() => {
+  return `https://github.com/DxAThing/Gaokao-Math-Problems-Compilation/blob/main/content/${props.paperYear}/${props.paperSlug}.tex`;
+});
+
+// 上游基石 B: deekur 的历年高考考据与原始档案目录直链 (自动适配 普通高考 / 春季高考 目录)
+const upstreamArchiveUrl = computed(() => {
+  const isSpring = props.paperSlug.toLowerCase().includes('spring');
+  const category = isSpring ? '春季高考' : '普通高考';
+  return `https://github.com/deekur/gaokaomath/tree/main/${encodeURIComponent(category)}/${props.paperYear}`;
 });
 
 // 资源基础 URL
@@ -975,6 +991,69 @@ function toggleAllSolutions() {
   }
 }
 
+// URL 查询参数双向绑定 (支持自动化巡检直达与用户做题分享)
+function initUrlParams() {
+  if (typeof window === 'undefined') return;
+  const params = new URLSearchParams(window.location.search);
+
+  // 1. theme: dark / light
+  const theme = params.get('theme');
+  if (theme === 'dark') {
+    document.documentElement.classList.add('dark');
+  } else if (theme === 'light') {
+    document.documentElement.classList.remove('dark');
+  }
+
+  // 2. mode: continuous / single / doc
+  const mode = params.get('mode');
+  if (mode === 'continuous' || mode === 'single' || mode === 'doc') {
+    currentMode.value = mode;
+  }
+
+  // 3. q: 题号 (1-based)
+  const qStr = params.get('q');
+  if (qStr) {
+    const qNum = parseInt(qStr, 10);
+    if (!isNaN(qNum) && qNum >= 1) {
+      currentQIndex.value = qNum - 1;
+      setTimeout(() => {
+        scrollToQuestion(qNum);
+      }, 350);
+    }
+  }
+
+  // 4. sol: 是否展开解析 (1: 展开)
+  const sol = params.get('sol');
+  if (sol === '1' || sol === 'true') {
+    showSolution.value = true;
+    if (currentProblem.value) {
+      openSolutions.value.add(currentProblem.value.num);
+    }
+  }
+}
+
+function syncUrlParams() {
+  if (typeof window === 'undefined') return;
+  const params = new URLSearchParams(window.location.search);
+
+  params.set('mode', currentMode.value);
+  params.set('q', String(currentQuestionNum.value));
+
+  if (showSolution.value) {
+    params.set('sol', '1');
+  } else {
+    params.delete('sol');
+  }
+
+  const newSearch = params.toString();
+  const newUrl = `${window.location.pathname}${newSearch ? '?' + newSearch : ''}${window.location.hash}`;
+  window.history.replaceState(null, '', newUrl);
+}
+
+watch([currentMode, currentQIndex, showSolution], () => {
+  syncUrlParams();
+});
+
 function scrollToQuestion(qNum: number) {
   const el = document.getElementById(`problem-${qNum}`);
   if (el) {
@@ -984,6 +1063,7 @@ function scrollToQuestion(qNum: number) {
 
 onMounted(async () => {
   isMounted.value = true;
+  initUrlParams();
   window.addEventListener('keydown', handleKeydown);
 
   try {
@@ -992,6 +1072,17 @@ onMounted(async () => {
       manifestData.value = await res.json();
       if (manifestData.value?.pageCount !== undefined) pageCount.value = manifestData.value.pageCount;
       if (manifestData.value?.questions) totalQuestions.value = manifestData.value.questions.length;
+
+      // manifest 加载完毕后，如果 URL 中有 q 和 sol，再次确认展开对应大题
+      const params = new URLSearchParams(window.location.search);
+      const sol = params.get('sol');
+      const qStr = params.get('q');
+      if (sol === '1' || sol === 'true') {
+        const targetQ = qStr ? parseInt(qStr, 10) : currentQuestionNum.value;
+        if (!isNaN(targetQ)) {
+          openSolutions.value.add(targetQ);
+        }
+      }
     }
   } catch (e) {
     console.error('Failed to load paper manifest:', e);
@@ -1085,13 +1176,17 @@ onUnmounted(() => {
   transition: all 0.2s ease;
 }
 
-.typst-btn {
+.typst-btn,
+.tex-btn,
+.upstream-btn {
   background: var(--vp-c-bg);
   color: var(--vp-c-text-1) !important;
   border: 1px solid var(--vp-c-divider);
 }
 
-.typst-btn:hover {
+.typst-btn:hover,
+.tex-btn:hover,
+.upstream-btn:hover {
   border-color: var(--vp-c-brand-1);
   color: var(--vp-c-brand-1) !important;
 }

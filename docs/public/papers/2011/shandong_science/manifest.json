@@ -306,7 +306,7 @@
             "$C$，$D$ 不可能同时在线段 $AB$ 的延长线上"
           ],
           "answer": "D",
-          "solution": "设 $\\overrightarrow{AC}=\\lambda\\overrightarrow{AB}$、$\\overrightarrow{AD}=\\mu\\overrightarrow{AB}$. 由于四点两两不同，$\\lambda$、$\\mu$ 均不等于 $0$ 或 $1$. 由\r\n$\\dfrac1\\lambda+\\dfrac1\\mu=2$ 得\r\n$\\mu=\\dfrac{\\lambda}{2\\lambda-1}$，其中 $\\lambda\\ne\\frac12$.\r\n若 $C$ 是线段 $AB$ 的中点，则 $\\lambda=\\frac12$，代入原关系会得到 $\\frac1\\mu=0$，不可能；同理 $D$ 也不可能是中点，所以前两项均错误.\r\n若 $0<\\lambda<\\frac12$，则 $\\mu<0$；若 $\\frac12<\\lambda<1$，则 $\\mu=\\frac{\\lambda}{2\\lambda-1}>1$. 因而当 $C$ 在线段 $AB$ 上时，$D$ 在线段外，不能同时在线段上，第三项错误.\r\n若 $\\lambda<0$，则 $0<\\mu<\\frac12$；若 $\\lambda>1$，则 $\\frac12<\\mu<1$. 因而当 $C$ 在线段 $AB$ 的延长线上时，$D$ 反而在线段 $AB$ 内，二者不可能同时在延长线上. 故只有 D 正确，选 D.",
+          "solution": "设 $\\overrightarrow{AC}=\\lambda\\overrightarrow{AB}$、$\\overrightarrow{AD}=\\mu\\overrightarrow{AB}$. 由于四点两两不同，$\\lambda$、$\\mu$ 均不等于 $0$ 或 $1$. 由\r\n$\\dfrac1\\lambda+\\dfrac1\\mu=2$ 得\r\n$\\mu=\\dfrac{\\lambda}{2\\lambda-1}$，其中 $\\lambda\\ne\\frac12$.\r\n若 $C$ 是线段 $AB$ 的中点，则 $\\lambda=\\frac12$，代入原关系会得到 $\\frac{1}{\\mu}=0$，不可能；同理 $D$ 也不可能是中点，所以前两项均错误.\r\n若 $0<\\lambda<\\frac12$，则 $\\mu<0$；若 $\\frac12<\\lambda<1$，则 $\\mu=\\frac{\\lambda}{2\\lambda-1}>1$. 因而当 $C$ 在线段 $AB$ 上时，$D$ 在线段外，不能同时在线段上，第三项错误.\r\n若 $\\lambda<0$，则 $0<\\mu<\\frac12$；若 $\\lambda>1$，则 $\\frac12<\\mu<1$. 因而当 $C$ 在线段 $AB$ 的延长线上时，$D$ 反而在线段 $AB$ 内，二者不可能同时在延长线上. 故只有 D 正确，选 D.",
           "hasAnswer": true,
           "hasSolution": true
         }

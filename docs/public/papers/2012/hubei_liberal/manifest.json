@@ -278,7 +278,7 @@
             "$\\frac{2}{\\pi}$"
           ],
           "answer": "C",
-          "solution": "设 $OA=OB=r$. 两个半圆的半径均为 $\\frac{r}{2}$，它们的面积之和为\r\n\n$$\n2\\cdot\\frac12\\pi\\left(\\frac r2\\right)^{2}=\\frac{\\pi r^{2}}4\n$$\n\r\n恰好等于四分之一圆扇形的面积. 设两个半圆的重叠面积为 $I$，则扇形内不属于两个半圆的部分面积也为 $I$. 图中阴影由这两部分组成，阴影面积为 $2I$.\r\n\r\n两个半圆所在圆的半径为 $\\frac{r}{2}$，圆心距为 $\\frac{r}{\\sqrt2}$. 因此\r\n\n$$\nI=2\\left(\\frac r2\\right)^{2}\\arccos\\frac1{\\sqrt2}-\\frac12\\frac r{\\sqrt2}\\sqrt{r^{2}-\\frac{r^{2}}2}\r\n =r^{2}\\left(\\frac\\pi8-\\frac14\\right)\n$$\n\r\n扇形面积为 $\\pi \\frac{r^{2}}{4}$，故阴影概率为\r\n\n$$\n\\frac{2I}{\\pi \\frac{r^{2}}{4}}=\\frac{r^{2}\\frac{(\\pi-2)}{4}}{\\pi \\frac{r^{2}}{4}}=1-\\frac2\\pi\n$$\n\r\n故选 C.",
+          "solution": "设 $OA=OB=r$. 两个半圆的半径均为 $\\frac{r}{2}$，它们的面积之和为\r\n\n$$\n2\\cdot\\frac12\\pi\\left(\\frac r2\\right)^{2}=\\frac{\\pi r^{2}}4\n$$\n\r\n恰好等于四分之一圆扇形的面积. 设两个半圆的重叠面积为 $I$，则扇形内不属于两个半圆的部分面积也为 $I$. 图中阴影由这两部分组成，阴影面积为 $2I$.\r\n\r\n两个半圆所在圆的半径为 $\\frac{r}{2}$，圆心距为 $\\frac{r}{\\sqrt2}$. 因此\r\n\n$$\nI=2\\left(\\frac r2\\right)^{2}\\arccos\\frac1{\\sqrt2}-\\frac12\\frac r{\\sqrt2}\\sqrt{r^{2}-\\frac{r^{2}}2}\r\n =r^{2}\\left(\\frac\\pi8-\\frac14\\right)\n$$\n\r\n扇形面积为 $\\pi \\frac{r^{2}}{4}$，故阴影概率为\r\n\n$$\n\\frac{2I}{\\pi \\frac{r^{2}}{4}}=\\frac{r^{2}\\frac{(\\pi-2)}{4}}{\\pi \\frac{r^{2}}{4}}=1-\\frac{2}{\\pi}\n$$\n\r\n故选 C.",
           "hasAnswer": true,
           "hasSolution": true
         }
