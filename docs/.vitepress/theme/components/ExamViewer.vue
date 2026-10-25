@@ -1602,19 +1602,18 @@ onUnmounted(() => {
 .problem-body :deep(img) {
   display: block;
   margin: 14px auto;
-  max-width: 420px;
-  max-height: 340px;
+  max-width: 520px;
+  max-height: 380px;
   width: auto;
   height: auto;
   object-fit: contain;
   cursor: zoom-in;
   border-radius: 6px;
-  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.25s ease;
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1);
 }
 
 .problem-body :deep(img:hover) {
   transform: scale(1.02);
-  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.12));
 }
 
 /* 表格样式支持 (LaTeX tabular 转换，支持小屏/大屏全览与左右平移滚动) */
@@ -1929,19 +1928,18 @@ onUnmounted(() => {
 .analysis-text :deep(img) {
   display: block;
   margin: 14px auto;
-  max-width: 420px;
-  max-height: 340px;
+  max-width: 520px;
+  max-height: 380px;
   width: auto;
   height: auto;
   object-fit: contain;
   cursor: zoom-in;
   border-radius: 6px;
-  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.25s ease;
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1);
 }
 
 .analysis-text :deep(img:hover) {
   transform: scale(1.02);
-  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.12));
 }
 
 .no-sol-hint {
@@ -2029,14 +2027,14 @@ onUnmounted(() => {
   }
 }
 
-/* 全局试题几何插图高清模态放大画廊 (Lightbox) 样式 */
+/* 全局试题几何插图高清模态放大画廊 (Lightbox) 样式 (严格遵循 VitePress UI 规范) */
 .exam-image-lightbox-overlay {
   position: fixed;
   inset: 0;
   z-index: 999999;
-  background: rgba(15, 23, 42, 0.85);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: rgba(248, 250, 252, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -2044,6 +2042,10 @@ onUnmounted(() => {
   padding: 16px;
   user-select: none;
   animation: fadeInModal 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:global(html.dark) .exam-image-lightbox-overlay {
+  background: rgba(10, 10, 12, 0.88);
 }
 
 @keyframes fadeInModal {
@@ -2057,18 +2059,18 @@ onUnmounted(() => {
   align-items: center;
   width: 100%;
   max-width: 860px;
-  padding: 8px 16px;
-  background: rgba(30, 41, 59, 0.9);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px 18px;
+  background: var(--vp-c-bg-elv);
+  border: 1px solid var(--vp-c-divider);
   border-radius: 12px;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--vp-shadow-3);
   z-index: 10;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 12px;
 }
 
 .lightbox-title {
-  color: #f8fafc;
+  color: var(--vp-c-text-1);
   font-size: 0.92rem;
   font-weight: 600;
   display: flex;
@@ -2084,10 +2086,10 @@ onUnmounted(() => {
 }
 
 .lb-btn {
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #f1f5f9;
-  padding: 5px 12px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-1);
+  padding: 6px 14px;
   font-size: 0.82rem;
   font-weight: 500;
   border-radius: 6px;
@@ -2099,19 +2101,23 @@ onUnmounted(() => {
 }
 
 .lb-btn:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
   transform: translateY(-1px);
 }
 
 .lb-btn.close {
-  background: #ef4444;
-  border-color: #dc2626;
-  color: #ffffff;
+  background: rgba(239, 68, 68, 0.1);
+  border-color: rgba(239, 68, 68, 0.3);
+  color: #ef4444;
   font-weight: 600;
 }
 
 .lb-btn.close:hover {
-  background: #dc2626;
+  background: #ef4444;
+  border-color: #ef4444;
+  color: #ffffff;
 }
 
 .lightbox-stage {
@@ -2132,28 +2138,30 @@ onUnmounted(() => {
   object-fit: contain;
   transition: transform 0.12s ease-out;
   border-radius: 8px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--vp-shadow-4);
   will-change: transform;
 }
 
 .lightbox-footer-hint {
-  padding: 6px 16px;
-  background: rgba(15, 23, 42, 0.75);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 6px 18px;
+  background: var(--vp-c-bg-elv);
+  border: 1px solid var(--vp-c-divider);
   border-radius: 20px;
-  color: #94a3b8;
+  color: var(--vp-c-text-2);
   font-size: 0.82rem;
   margin-bottom: 6px;
   text-align: center;
+  box-shadow: var(--vp-shadow-1);
 }
 
 .lightbox-footer-hint kbd {
-  background: rgba(255, 255, 255, 0.18);
-  color: #f8fafc;
-  padding: 1px 6px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  padding: 2px 6px;
   border-radius: 4px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  font-family: monospace;
+  border: 1px solid var(--vp-c-divider);
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.75rem;
 }
 
 /* 浏览器原生矢量打印优化样式 (在线极速免字体版) */

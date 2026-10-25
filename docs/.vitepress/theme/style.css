@@ -50,12 +50,12 @@ html:not(.dark) .lightbox-image {
   .continuous-prob-content img,
   .single-card-panel img,
   .doc-view img {
-    max-width: 420px !important;
-    max-height: 340px !important;
+    max-width: 520px !important;
+    max-height: 380px !important;
     width: auto !important;
     height: auto !important;
     cursor: zoom-in !important;
-    transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1), filter 0.3s ease;
+    transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1);
   }
 
   .problem-image:hover,

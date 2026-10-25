@@ -37,7 +37,9 @@
           <!-- 顶部：图标、标题、徽标 -->
           <div class="card-head">
             <div class="head-title-wrap">
-              <span class="metric-icon">{{ item.icon }}</span>
+              <div class="metric-icon-box">
+                <span class="metric-icon">{{ item.icon }}</span>
+              </div>
               <span class="metric-name">{{ item.name }}</span>
             </div>
             <span class="metric-badge" :class="item.badgeType">
@@ -65,9 +67,7 @@
               class="progress-fill"
               :class="item.badgeType"
               :style="{ width: `${item.percentage}%` }"
-            >
-              <div class="progress-glow"></div>
-            </div>
+            ></div>
           </div>
         </div>
       </div>
@@ -248,10 +248,10 @@ const overallPercentage = computed(() => {
 
 .telemetry-container {
   background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
+  border: 1px solid var(--vp-c-divider);
   border-radius: 16px;
   padding: 32px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--vp-shadow-1);
   transition: border-color 0.25s, box-shadow 0.25s;
 }
 
@@ -273,9 +273,9 @@ const overallPercentage = computed(() => {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 4px 10px;
+  padding: 4px 12px;
   background: var(--vp-c-brand-soft);
-  border: 1px solid var(--vp-c-brand-1);
+  border: 1px solid var(--vp-c-brand-soft);
   border-radius: 20px;
   margin-bottom: 12px;
 }
@@ -285,20 +285,6 @@ const overallPercentage = computed(() => {
   height: 8px;
   border-radius: 50%;
   background-color: var(--vp-c-brand-1);
-  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
-  animation: telemetryPulse 2s infinite cubic-bezier(0.66, 0, 0, 1);
-}
-
-@keyframes telemetryPulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
-  }
-  70% {
-    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
-  }
 }
 
 .header-tag {
@@ -310,7 +296,7 @@ const overallPercentage = computed(() => {
 
 .telemetry-title {
   margin: 0 0 8px 0;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   color: var(--vp-c-text-1);
   line-height: 1.3;
@@ -329,12 +315,12 @@ const overallPercentage = computed(() => {
 }
 
 .overall-progress-card {
-  background: var(--vp-c-bg);
-  border: 1px solid var(--vp-c-border);
+  background: var(--vp-c-bg-elv);
+  border: 1px solid var(--vp-c-divider);
   padding: 16px 20px;
   border-radius: 12px;
   min-width: 200px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+  box-shadow: var(--vp-shadow-1);
 }
 
 .overall-info {
@@ -351,7 +337,7 @@ const overallPercentage = computed(() => {
 }
 
 .overall-value {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
   color: var(--vp-c-brand-1);
   font-family: var(--vp-font-family-mono);
@@ -366,12 +352,12 @@ const overallPercentage = computed(() => {
 
 .mini-bar-fill {
   height: 100%;
-  background: linear-gradient(90deg, #10b981, #059669);
+  background: var(--vp-c-brand-1);
   border-radius: 3px;
   transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* 3 × 3 九宫格网格布局 */
+/* 3 × 3 九宫格网格布局 (VitePress Features 风格) */
 .metrics-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -399,17 +385,17 @@ const overallPercentage = computed(() => {
 
 .metric-card {
   background: var(--vp-c-bg);
-  border: 1px solid var(--vp-c-border);
+  border: 1px solid var(--vp-c-divider);
   border-radius: 12px;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  transition: all 0.25s ease;
 }
 
 .metric-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--vp-shadow-2);
   border-color: var(--vp-c-brand-1);
 }
 
@@ -417,17 +403,28 @@ const overallPercentage = computed(() => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .head-title-wrap {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+}
+
+.metric-icon-box {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: var(--vp-c-default-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .metric-icon {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1;
 }
 
@@ -439,7 +436,7 @@ const overallPercentage = computed(() => {
 
 .metric-badge {
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 600;
   padding: 2px 8px;
   border-radius: 10px;
   letter-spacing: 0.3px;
@@ -447,25 +444,25 @@ const overallPercentage = computed(() => {
 
 .metric-badge.success {
   background: rgba(16, 185, 129, 0.12);
-  color: #059669;
-  border: 1px solid rgba(16, 185, 129, 0.3);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.25);
 }
 
 .metric-badge.progress {
-  background: rgba(59, 130, 246, 0.12);
-  color: #2563eb;
-  border: 1px solid rgba(59, 130, 246, 0.3);
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border: 1px solid var(--vp-c-brand-soft);
 }
 
 .metric-badge.accent {
   background: rgba(139, 92, 246, 0.12);
-  color: #7c3aed;
-  border: 1px solid rgba(139, 92, 246, 0.3);
+  color: #8b5cf6;
+  border: 1px solid rgba(139, 92, 246, 0.25);
 }
 
 .metric-desc {
   margin: 0 0 16px 0;
-  font-size: 12px;
+  font-size: 12.5px;
   color: var(--vp-c-text-2);
   line-height: 1.5;
   min-height: 36px;
@@ -485,7 +482,7 @@ const overallPercentage = computed(() => {
 }
 
 .count-current {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 800;
   color: var(--vp-c-text-1);
   font-family: var(--vp-font-family-mono);
@@ -493,13 +490,13 @@ const overallPercentage = computed(() => {
 }
 
 .count-divider {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--vp-c-text-3);
   font-weight: 500;
 }
 
 .count-target {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--vp-c-text-2);
   font-weight: 600;
   font-family: var(--vp-font-family-mono);
@@ -512,7 +509,7 @@ const overallPercentage = computed(() => {
 }
 
 .percentage-label {
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 700;
   font-family: var(--vp-font-family-mono);
   color: var(--vp-c-text-1);
@@ -521,54 +518,38 @@ const overallPercentage = computed(() => {
 /* 进度条槽位 */
 .progress-track {
   width: 100%;
-  height: 8px;
+  height: 6px;
   background: var(--vp-c-default-soft);
-  border-radius: 4px;
+  border-radius: 3px;
   overflow: hidden;
   position: relative;
 }
 
 .progress-fill {
   height: 100%;
-  border-radius: 4px;
-  position: relative;
+  border-radius: 3px;
   transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .progress-fill.success {
-  background: linear-gradient(90deg, #10b981, #059669);
+  background: #10b981;
 }
 
 .progress-fill.progress {
-  background: linear-gradient(90deg, #3b82f6, #6366f1);
+  background: var(--vp-c-brand-1);
 }
 
 .progress-fill.accent {
-  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  background: #8b5cf6;
 }
 
-.progress-glow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 100%);
-  animation: glowSlide 2.5s infinite;
-}
-
-@keyframes glowSlide {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
-}
-
-/* 底部操作区 */
+/* 底部操作区 (遵循 VitePress 标准 Pill 按钮规范) */
 .telemetry-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
-  border-top: 1px dashed var(--vp-c-border);
+  border-top: 1px dashed var(--vp-c-divider);
   gap: 16px;
   flex-wrap: wrap;
 }
@@ -587,10 +568,11 @@ const overallPercentage = computed(() => {
 .action-btn {
   display: inline-flex;
   align-items: center;
-  padding: 8px 16px;
-  font-size: 13px;
-  font-weight: 600;
-  border-radius: 8px;
+  padding: 0 18px;
+  line-height: 38px;
+  font-size: 13.5px;
+  font-weight: 500;
+  border-radius: 20px;
   text-decoration: none;
   transition: all 0.2s ease;
 }
@@ -598,21 +580,23 @@ const overallPercentage = computed(() => {
 .action-btn.primary {
   background: var(--vp-c-brand-1);
   color: #fff;
+  box-shadow: var(--vp-shadow-1);
 }
 
 .action-btn.primary:hover {
   background: var(--vp-c-brand-2);
-  color: #fff;
+  transform: translateY(-1px);
 }
 
 .action-btn.secondary {
-  background: var(--vp-c-bg);
-  border: 1px solid var(--vp-c-border);
+  background: var(--vp-c-bg-elv);
+  border: 1px solid var(--vp-c-divider);
   color: var(--vp-c-text-1);
 }
 
 .action-btn.secondary:hover {
   border-color: var(--vp-c-brand-1);
   color: var(--vp-c-brand-1);
+  transform: translateY(-1px);
 }
 </style>
