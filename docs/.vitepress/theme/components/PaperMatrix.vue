@@ -461,9 +461,12 @@ watch([searchQuery, selectedPeriod, selectedRegion, selectedCategory], () => {
   syncToUrl();
 });
 
-watch(() => route.path, () => {
-  syncFromUrl();
-});
+watch(
+  () => [route.path, typeof window !== 'undefined' ? window.location.search : ''],
+  () => {
+    syncFromUrl();
+  }
+);
 
 onMounted(async () => {
   syncFromUrl();

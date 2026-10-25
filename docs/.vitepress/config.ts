@@ -10,11 +10,11 @@ function getSidebarConfig() {
     text: "⏳ 高考历史分期 (5个时期)",
     collapsed: false,
     items: [
-      { text: "🌟 新高考改革 (2020~2026)", link: "/papers/?period=2020-2026" },
-      { text: "🏛️ 新课标·全国卷 (2010~2019)", link: "/papers/?period=2010-2019" },
-      { text: "⚡ 自主命题繁荣 (2000~2009)", link: "/papers/?period=2000-2009" },
-      { text: "📚 恢复高考推进 (1977~1999)", link: "/papers/?period=1977-1999" },
-      { text: "📜 建国初期统考 (1952~1965)", link: "/papers/?period=1952-1965" }
+      { text: "🌟 新高考改革 (2020~2026)", link: "/periods/2020-2026" },
+      { text: "🏛️ 新课标·全国卷 (2010~2019)", link: "/periods/2010-2019" },
+      { text: "⚡ 自主命题繁荣 (2000~2009)", link: "/periods/2000-2009" },
+      { text: "📚 恢复高考推进 (1977~1999)", link: "/periods/1977-1999" },
+      { text: "📜 建国初期统考 (1952~1965)", link: "/periods/1952-1965" }
     ]
   };
 
@@ -51,6 +51,11 @@ function getSidebarConfig() {
   }
 
   sidebar['/papers/'] = [
+    ...commonTopItems,
+    commonBottomItem
+  ];
+
+  sidebar['/periods/'] = [
     ...commonTopItems,
     commonBottomItem
   ];

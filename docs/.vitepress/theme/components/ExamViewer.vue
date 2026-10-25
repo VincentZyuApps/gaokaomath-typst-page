@@ -195,7 +195,8 @@
           class="panzoom-canvas"
           :style="{
             transform: `translate(${panX}px, ${panY}px) scale(${scale})`,
-            cursor: isPanning ? 'grabbing' : 'grab'
+            cursor: isPanning ? 'grabbing' : 'grab',
+            transition: isPanning ? 'none' : 'transform 0.28s cubic-bezier(0.2, 0, 0, 1)'
           }"
         >
           <!-- 纯矢量原生高精单题卡片 -->
@@ -218,14 +219,18 @@
               </div>
             </div>
 
-            <div v-show="showSolution" class="single-solution-container">
-              <div v-if="currentProblem.answer" class="answer-row">
-                <span class="answer-label">【参考答案】</span>
-                <span class="answer-val" v-html="renderMath(currentProblem.answer)"></span>
-              </div>
-              <div v-if="currentProblem.solution" class="analysis-box">
-                <div class="analysis-label">【详细解析】</div>
-                <div class="analysis-text" v-html="renderMath(currentProblem.solution)"></div>
+            <div class="single-solution-wrapper" :class="{ 'is-open': showSolution }">
+              <div class="single-solution-inner">
+                <div class="single-solution-container">
+                  <div v-if="currentProblem.answer" class="answer-row">
+                    <span class="answer-label">【参考答案】</span>
+                    <span class="answer-val" v-html="renderMath(currentProblem.answer)"></span>
+                  </div>
+                  <div v-if="currentProblem.solution" class="analysis-box">
+                    <div class="analysis-label">【详细解析】</div>
+                    <div class="analysis-text" v-html="renderMath(currentProblem.solution)"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -1512,8 +1517,8 @@ onUnmounted(() => {
 .panzoom-viewport {
   position: relative;
   width: 100%;
-  height: 65vh;
-  min-height: 480px;
+  height: 68vh;
+  min-height: 520px;
   background-color: var(--vp-c-bg-alt);
   background-image: radial-gradient(var(--vp-c-divider) 1.2px, transparent 1.2px);
   background-size: 20px 20px;
@@ -1521,16 +1526,40 @@ onUnmounted(() => {
   border-radius: 12px;
   overflow: hidden;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  padding: 2.2rem 1.2rem;
+  box-sizing: border-box;
 }
 
 .panzoom-canvas {
-  transform-origin: center center;
-  transition: transform 0.05s ease-out;
+  transform-origin: center top;
+  transition: transform 0.28s cubic-bezier(0.2, 0, 0, 1);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.single-solution-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.28s ease,
+              margin-top 0.35s ease;
+  opacity: 0;
+  margin-top: 0;
+}
+
+.single-solution-wrapper.is-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  margin-top: 1.5rem;
+}
+
+.single-solution-inner {
+  overflow: hidden;
+  min-height: 0;
 }
 
 .question-card-svg {
