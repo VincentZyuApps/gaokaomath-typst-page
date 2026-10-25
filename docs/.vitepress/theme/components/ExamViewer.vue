@@ -842,6 +842,62 @@ function parseLatexTable(text: string): string {
 
 const CIRCLED_NUM_LIST = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩'];
 
+function parseLatexEnumerateAndLists(text: string): string {
+  if (!text) return '';
+  let s = text;
+
+  // 1. 处理 \begin{enumerate} ... \end{enumerate}
+  s = s.replace(/\\begin\{enumerate\}([\s\S]*?)\\end\{enumerate\}/g, (_, content) => {
+    const trimmed = content.trim();
+    // 如果内容中已经自带题号如 (1), (2), (3), (i), (ii), 1., 2. 等，直接剥离外壳，平铺排版
+    if (/^\s*(?:\([0-9a-zA-Z一二三四五六七八九十ivxLCDM]+\)|[0-9a-zA-Z]+\.)/m.test(trimmed) || !trimmed.includes('\\item')) {
+      return `\n\n${trimmed}\n\n`;
+    }
+
+    // 如果包含 \item，按 \item 拆分为列表项
+    const rawItems = trimmed.split(/\\item\b/).map((i: string) => i.trim()).filter(Boolean);
+    if (rawItems.length === 0) return '';
+
+    const itemsHtml = rawItems.map((itemText: string, idx: number) => {
+      let label = `(${idx + 1})`;
+      let bodyText = itemText;
+      const customLabelMatch = itemText.match(/^\[(.*?)\]\s*([\s\S]*)$/);
+      if (customLabelMatch) {
+        label = customLabelMatch[1];
+        bodyText = customLabelMatch[2];
+      }
+      return `<div class="exam-enum-item"><span class="enum-badge">${label}</span><div class="enum-text">${bodyText}</div></div>`;
+    }).join('');
+
+    return `<div class="exam-enum-list">${itemsHtml}</div>`;
+  });
+
+  // 2. 处理 \begin{itemize} ... \end{itemize}
+  s = s.replace(/\\begin\{itemize\}([\s\S]*?)\\end\{itemize\}/g, (_, content) => {
+    const rawItems = content.trim().split(/\\item\b/).map((i: string) => i.trim()).filter(Boolean);
+    if (rawItems.length === 0) return content.trim();
+
+    const itemsHtml = rawItems.map((itemText: string) => {
+      return `<div class="exam-bullet-item"><span class="bullet-dot">•</span><div class="bullet-text">${itemText}</div></div>`;
+    }).join('');
+
+    return `<div class="exam-bullet-list">${itemsHtml}</div>`;
+  });
+
+  // 3. 移除残存的 minipage 及其参数，如 \begin{minipage}{\linewidth}
+  s = s.replace(/\\begin\{minipage\}(?:\[[^\]]*\])?(?:\{[^\}]*\})?/g, '');
+  s = s.replace(/\\end\{minipage\}/g, '');
+
+  // 4. 清理残余孤立的 \item
+  s = s.replace(/\\item\b(?:\s*\[(.*?)\])?/g, (_, label) => label ? `${label} ` : '• ');
+
+  // 5. 清理 LaTeX 排版指令
+  s = s.replace(/\\(centering|raggedright|raggedleft|normalsize|small|footnotesize|scriptsize|large|Large)\b/g, '');
+  s = s.replace(/\\setlength\s*\{[^\}]*\}\s*\{[^\}]*\}/g, '');
+
+  return s;
+}
+
 function parseCircleList(text: string): string {
   if (!text) return '';
   return text.replace(/\\begin\{circlelist\}([\s\S]*?)\\end\{circlelist\}/g, (_, listContent) => {
@@ -860,6 +916,9 @@ function renderMath(text: string): string {
 
   // 0. 解析 LaTeX 表格环境为语义化 HTML Table
   let s = parseLatexTable(text);
+
+  // 0.2 解析并平铺 LaTeX enumerate / itemize 列表环境与清理排版宏
+  s = parseLatexEnumerateAndLists(s);
 
   // 0.3 解析 LaTeX circlelist 带圈列表环境
   s = parseCircleList(s);
@@ -2163,5 +2222,37 @@ onUnmounted(() => {
     padding-bottom: 1rem !important;
     margin-bottom: 1rem !important;
   }
+}
+
+/* 枚举列表与无序列表样式 */
+.exam-enum-list,
+.exam-bullet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px 0;
+  padding-left: 8px;
+}
+.exam-enum-item,
+.exam-bullet-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.enum-badge {
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  flex-shrink: 0;
+}
+.bullet-dot {
+  color: var(--vp-c-brand-1);
+  font-size: 1.1rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.enum-text,
+.bullet-text {
+  flex: 1;
+  line-height: 1.6;
 }
 </style>
