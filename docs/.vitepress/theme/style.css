@@ -17,7 +17,8 @@ html.dark .problem-body img,
 html.dark .analysis-text img,
 html.dark .continuous-prob-content img,
 html.dark .single-card-panel img,
-html.dark .doc-view img {
+html.dark .doc-view img,
+html.dark .lightbox-image {
   filter: invert(1) brightness(0.95) contrast(1.1);
   mix-blend-mode: screen !important;
   background: transparent !important;
@@ -32,11 +33,57 @@ html:not(.dark) .problem-body img,
 html:not(.dark) .analysis-text img,
 html:not(.dark) .continuous-prob-content img,
 html:not(.dark) .single-card-panel img,
-html:not(.dark) .doc-view img {
+html:not(.dark) .doc-view img,
+html:not(.dark) .lightbox-image {
   filter: none;
   mix-blend-mode: multiply;
   background: transparent !important;
   transition: filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* PC 宽屏 (>= 769px) 题干与解析几何插图尺寸黄金比例放大，彻底告别局促感 */
+@media (min-width: 769px) {
+  .problem-image,
+  .problem-choice-image,
+  .problem-body img,
+  .analysis-text img,
+  .continuous-prob-content img,
+  .single-card-panel img,
+  .doc-view img {
+    max-width: 420px !important;
+    max-height: 340px !important;
+    width: auto !important;
+    height: auto !important;
+    cursor: zoom-in !important;
+    transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1), filter 0.3s ease;
+  }
+
+  .problem-image:hover,
+  .problem-choice-image:hover,
+  .problem-body img:hover,
+  .analysis-text img:hover,
+  .continuous-prob-content img:hover,
+  .single-card-panel img:hover,
+  .doc-view img:hover {
+    transform: scale(1.02);
+  }
+}
+
+/* 移动端 (<= 768px) 插图自适应保持 */
+@media (max-width: 768px) {
+  .problem-image,
+  .problem-choice-image,
+  .problem-body img,
+  .analysis-text img,
+  .continuous-prob-content img,
+  .single-card-panel img,
+  .doc-view img {
+    max-width: 100% !important;
+    max-height: 250px !important;
+    width: auto !important;
+    height: auto !important;
+    cursor: zoom-in !important;
+  }
 }
 
 /* 试卷纸张阴影在暗色下的自适应 */

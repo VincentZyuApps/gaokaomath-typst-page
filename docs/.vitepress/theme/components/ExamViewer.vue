@@ -1,5 +1,5 @@
 <template>
-  <div class="exam-viewer-wrapper">
+  <div class="exam-viewer-wrapper" @click="handleContainerClick">
     <!-- 顶部控制面板 -->
     <div class="viewer-toolbar">
       <!-- 视图模式分段控制器 (全库 777 套试卷全面点亮) -->
@@ -352,6 +352,53 @@
         <p>试卷加载中，请稍候...</p>
       </div>
     </div>
+
+    <!-- 全局试题插图高清放大模态画廊 (Lightbox) -->
+    <Teleport to="body" v-if="isMounted">
+      <Transition name="fade-modal">
+        <div
+          v-if="isImageModalOpen"
+          class="exam-image-lightbox-overlay"
+          @click="closeImageModal"
+        >
+          <!-- 顶部工具控制条 -->
+          <div class="lightbox-toolbar" @click.stop>
+            <span class="lightbox-title">🔍 几何插图高清检视</span>
+            <div class="lightbox-actions">
+              <button class="lb-btn" title="放大 (+)" @click="zoomInModal">➕ 放大</button>
+              <button class="lb-btn" title="缩小 (-)" @click="zoomOutModal">➖ 缩小</button>
+              <button class="lb-btn" title="旋转 90 度" @click="rotateModal">↻ 旋转</button>
+              <button class="lb-btn" title="恢复原始比例" @click="resetModalZoom">↺ 重置</button>
+              <button class="lb-btn close" title="关闭 (ESC)" @click="closeImageModal">✕ 退出</button>
+            </div>
+          </div>
+
+          <!-- 居中可缩放图片舞台 -->
+          <div
+            class="lightbox-stage"
+            @wheel.prevent="onModalWheel"
+            @mousedown="startModalPan"
+            @click.stop
+          >
+            <img
+              :src="modalImageSrc"
+              :alt="modalImageAlt || '试题插图高清放大预览'"
+              class="lightbox-image"
+              :style="{
+                transform: `translate(${modalPanX}px, ${modalPanY}px) scale(${modalScale}) rotate(${modalRotate}deg)`,
+                cursor: isModalPanning ? 'grabbing' : 'grab'
+              }"
+              @dragstart.prevent
+            />
+          </div>
+
+          <!-- 底部快捷操作提示 -->
+          <div class="lightbox-footer-hint" @click.stop>
+            <span>💡 提示：滚动鼠标滚轮可多级缩放，拖拽可平移检视细节，点击任意空白处或按 <kbd>ESC</kbd> 退出</span>
+          </div>
+        </div>
+      </Transition>
+    </Teleport>
   </div>
 </template>
 
@@ -564,8 +611,117 @@ function stopPan() {
   window.removeEventListener('mouseup', stopPan);
 }
 
+// 全局试题几何插图高清模态放大画廊 (Lightbox)
+const isMounted = ref<boolean>(false);
+const isImageModalOpen = ref<boolean>(false);
+const modalImageSrc = ref<string>('');
+const modalImageAlt = ref<string>('');
+const modalScale = ref<number>(1.25);
+const modalRotate = ref<number>(0);
+const modalPanX = ref<number>(0);
+const modalPanY = ref<number>(0);
+const isModalPanning = ref<boolean>(false);
+const modalStartPos = { x: 0, y: 0 };
+
+function openImageModal(src: string, alt: string = '') {
+  modalImageSrc.value = src;
+  modalImageAlt.value = alt;
+  modalScale.value = 1.25;
+  modalRotate.value = 0;
+  modalPanX.value = 0;
+  modalPanY.value = 0;
+  isImageModalOpen.value = true;
+  if (typeof document !== 'undefined') {
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+function closeImageModal() {
+  isImageModalOpen.value = false;
+  modalImageSrc.value = '';
+  isModalPanning.value = false;
+  if (typeof document !== 'undefined') {
+    document.body.style.overflow = '';
+  }
+}
+
+function zoomInModal() {
+  modalScale.value = Math.min(Number((modalScale.value + 0.25).toFixed(2)), 4.0);
+}
+
+function zoomOutModal() {
+  modalScale.value = Math.max(Number((modalScale.value - 0.25).toFixed(2)), 0.5);
+}
+
+function rotateModal() {
+  modalRotate.value = (modalRotate.value + 90) % 360;
+}
+
+function resetModalZoom() {
+  modalScale.value = 1.25;
+  modalRotate.value = 0;
+  modalPanX.value = 0;
+  modalPanY.value = 0;
+}
+
+function onModalWheel(e: WheelEvent) {
+  const delta = e.deltaY < 0 ? 0.15 : -0.15;
+  const newScale = Math.min(Math.max(modalScale.value + delta, 0.5), 4.0);
+  modalScale.value = Number(newScale.toFixed(2));
+}
+
+function startModalPan(e: MouseEvent) {
+  if (e.button !== 0) return;
+  isModalPanning.value = true;
+  modalStartPos.x = e.clientX - modalPanX.value;
+  modalStartPos.y = e.clientY - modalPanY.value;
+
+  window.addEventListener('mousemove', onModalPan);
+  window.addEventListener('mouseup', stopModalPan);
+}
+
+function onModalPan(e: MouseEvent) {
+  if (!isModalPanning.value) return;
+  modalPanX.value = e.clientX - modalStartPos.x;
+  modalPanY.value = e.clientY - modalStartPos.y;
+}
+
+function stopModalPan() {
+  isModalPanning.value = false;
+  window.removeEventListener('mousemove', onModalPan);
+  window.removeEventListener('mouseup', stopModalPan);
+}
+
+// 全局捕获试卷内容区域内所有几何插图的点击放大事件
+function handleContainerClick(e: MouseEvent) {
+  const target = e.target as HTMLElement | null;
+  if (!target) return;
+  if (target.tagName === 'IMG') {
+    const img = target as HTMLImageElement;
+    if (
+      img.classList.contains('problem-image') ||
+      img.classList.contains('problem-choice-image') ||
+      target.closest('.problem-body') ||
+      target.closest('.analysis-text') ||
+      target.closest('.continuous-prob-content') ||
+      target.closest('.choice-text') ||
+      target.closest('.doc-problem-card')
+    ) {
+      e.preventDefault();
+      e.stopPropagation();
+      openImageModal(img.src, img.alt);
+    }
+  }
+}
+
 // 键盘快捷键监听
 function handleKeydown(e: KeyboardEvent) {
+  // ESC 键优先关闭放大模态框
+  if (e.key === 'Escape' && isImageModalOpen.value) {
+    closeImageModal();
+    return;
+  }
+
   if (currentMode.value !== 'single') return;
   const target = e.target as HTMLElement | null;
   if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA')) return;
@@ -827,6 +983,7 @@ function scrollToQuestion(qNum: number) {
 }
 
 onMounted(async () => {
+  isMounted.value = true;
   window.addEventListener('keydown', handleKeydown);
 
   try {
@@ -845,6 +1002,11 @@ onUnmounted(() => {
   window.removeEventListener('keydown', handleKeydown);
   window.removeEventListener('mousemove', onPan);
   window.removeEventListener('mouseup', stopPan);
+  window.removeEventListener('mousemove', onModalPan);
+  window.removeEventListener('mouseup', stopModalPan);
+  if (typeof document !== 'undefined') {
+    document.body.style.overflow = '';
+  }
 });
 </script>
 
@@ -1439,10 +1601,20 @@ onUnmounted(() => {
 
 .problem-body :deep(img) {
   display: block;
-  margin: 10px auto;
-  max-width: 260px;
-  max-height: 220px;
+  margin: 14px auto;
+  max-width: 420px;
+  max-height: 340px;
+  width: auto;
+  height: auto;
   object-fit: contain;
+  cursor: zoom-in;
+  border-radius: 6px;
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.25s ease;
+}
+
+.problem-body :deep(img:hover) {
+  transform: scale(1.02);
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.12));
 }
 
 /* 表格样式支持 (LaTeX tabular 转换，支持小屏/大屏全览与左右平移滚动) */
@@ -1756,10 +1928,20 @@ onUnmounted(() => {
 
 .analysis-text :deep(img) {
   display: block;
-  margin: 10px auto;
-  max-width: 260px;
-  max-height: 220px;
+  margin: 14px auto;
+  max-width: 420px;
+  max-height: 340px;
+  width: auto;
+  height: auto;
   object-fit: contain;
+  cursor: zoom-in;
+  border-radius: 6px;
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.25s ease;
+}
+
+.analysis-text :deep(img:hover) {
+  transform: scale(1.02);
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.12));
 }
 
 .no-sol-hint {
@@ -1845,6 +2027,133 @@ onUnmounted(() => {
     width: 100% !important;
     padding: 0 !important;
   }
+}
+
+/* 全局试题几何插图高清模态放大画廊 (Lightbox) 样式 */
+.exam-image-lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  user-select: none;
+  animation: fadeInModal 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fadeInModal {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.lightbox-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 860px;
+  padding: 8px 16px;
+  background: rgba(30, 41, 59, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.lightbox-title {
+  color: #f8fafc;
+  font-size: 0.92rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.lightbox-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.lb-btn {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #f1f5f9;
+  padding: 5px 12px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.lb-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+.lb-btn.close {
+  background: #ef4444;
+  border-color: #dc2626;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.lb-btn.close:hover {
+  background: #dc2626;
+}
+
+.lightbox-stage {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  touch-action: none;
+}
+
+.lightbox-image {
+  max-width: 86vw;
+  max-height: 76vh;
+  object-fit: contain;
+  transition: transform 0.12s ease-out;
+  border-radius: 8px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  will-change: transform;
+}
+
+.lightbox-footer-hint {
+  padding: 6px 16px;
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  color: #94a3b8;
+  font-size: 0.82rem;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.lightbox-footer-hint kbd {
+  background: rgba(255, 255, 255, 0.18);
+  color: #f8fafc;
+  padding: 1px 6px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  font-family: monospace;
 }
 
 /* 浏览器原生矢量打印优化样式 (在线极速免字体版) */
