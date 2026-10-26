@@ -387,12 +387,12 @@
             </div>
           </div>
 
-          <!-- 居中可缩放图片舞台 -->
+          <!-- 居中可缩放图片舞台 (支持点击空白处退出与拖拽平移防误触) -->
           <div
             class="lightbox-stage"
             @wheel.prevent="onModalWheel"
             @mousedown="startModalPan"
-            @click.stop
+            @click="handleStageClick"
           >
             <img
               :src="modalImageSrc"
@@ -402,6 +402,7 @@
                 transform: `translate(${modalPanX}px, ${modalPanY}px) scale(${modalScale}) rotate(${modalRotate}deg)`,
                 cursor: isModalPanning ? 'grabbing' : 'grab'
               }"
+              @click.stop
               @dragstart.prevent
             />
           </div>
@@ -643,6 +644,8 @@ const modalPanX = ref<number>(0);
 const modalPanY = ref<number>(0);
 const isModalPanning = ref<boolean>(false);
 const modalStartPos = { x: 0, y: 0 };
+let modalMouseDownPos = { x: 0, y: 0 };
+let hasModalDragged = false;
 
 function openImageModal(src: string, alt: string = '') {
   modalImageSrc.value = src;
@@ -651,6 +654,7 @@ function openImageModal(src: string, alt: string = '') {
   modalRotate.value = 0;
   modalPanX.value = 0;
   modalPanY.value = 0;
+  hasModalDragged = false;
   isImageModalOpen.value = true;
   if (typeof document !== 'undefined') {
     document.body.style.overflow = 'hidden';
@@ -659,8 +663,8 @@ function openImageModal(src: string, alt: string = '') {
 
 function closeImageModal() {
   isImageModalOpen.value = false;
-  modalImageSrc.value = '';
   isModalPanning.value = false;
+  hasModalDragged = false;
   if (typeof document !== 'undefined') {
     document.body.style.overflow = '';
   }
@@ -694,6 +698,8 @@ function onModalWheel(e: WheelEvent) {
 function startModalPan(e: MouseEvent) {
   if (e.button !== 0) return;
   isModalPanning.value = true;
+  hasModalDragged = false;
+  modalMouseDownPos = { x: e.clientX, y: e.clientY };
   modalStartPos.x = e.clientX - modalPanX.value;
   modalStartPos.y = e.clientY - modalPanY.value;
 
@@ -703,6 +709,10 @@ function startModalPan(e: MouseEvent) {
 
 function onModalPan(e: MouseEvent) {
   if (!isModalPanning.value) return;
+  const dist = Math.hypot(e.clientX - modalMouseDownPos.x, e.clientY - modalMouseDownPos.y);
+  if (dist > 5) {
+    hasModalDragged = true;
+  }
   modalPanX.value = e.clientX - modalStartPos.x;
   modalPanY.value = e.clientY - modalStartPos.y;
 }
@@ -711,6 +721,18 @@ function stopModalPan() {
   isModalPanning.value = false;
   window.removeEventListener('mousemove', onModalPan);
   window.removeEventListener('mouseup', stopModalPan);
+}
+
+function handleStageClick(e: MouseEvent) {
+  // 如果刚才进行了拖拽平移操作，则忽略该次点击，防止误退
+  if (hasModalDragged) {
+    hasModalDragged = false;
+    return;
+  }
+  // 仅当点击在舞台空白区域（非图片本身）时触发退出
+  if (e.target === e.currentTarget) {
+    closeImageModal();
+  }
 }
 
 // 全局捕获试卷内容区域内所有几何插图的点击放大事件
@@ -739,6 +761,8 @@ function handleContainerClick(e: MouseEvent) {
 function handleKeydown(e: KeyboardEvent) {
   // ESC 键优先关闭放大模态框
   if (e.key === 'Escape' && isImageModalOpen.value) {
+    e.preventDefault();
+    e.stopPropagation();
     closeImageModal();
     return;
   }

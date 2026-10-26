@@ -200,7 +200,6 @@ html {
   align-items: center;
   padding: 16px;
   user-select: none;
-  animation: fadeInLightbox 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* 白天模式下：浅色通透毛玻璃 */
@@ -217,9 +216,30 @@ html.dark .exam-image-lightbox-overlay {
   -webkit-backdrop-filter: blur(20px);
 }
 
-@keyframes fadeInLightbox {
-  from { opacity: 0; transform: scale(0.98); }
-  to { opacity: 1; transform: scale(1); }
+/* Vue 模态框极速无感过渡动画 (140ms 高性能淡入淡出与微缩) */
+.fade-modal-enter-active,
+.fade-modal-leave-active {
+  transition: opacity 0.14s ease-out;
+}
+
+.fade-modal-enter-from,
+.fade-modal-leave-to {
+  opacity: 0;
+}
+
+.fade-modal-enter-active .lightbox-image,
+.fade-modal-leave-active .lightbox-image {
+  transition: transform 0.14s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.14s ease-out;
+}
+
+.fade-modal-enter-from .lightbox-image {
+  transform: scale(0.96);
+  opacity: 0;
+}
+
+.fade-modal-leave-to .lightbox-image {
+  transform: scale(0.96);
+  opacity: 0;
 }
 
 .lightbox-toolbar {
