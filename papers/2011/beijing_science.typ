@@ -46,7 +46,9 @@
 #problem(4)[
 执行如图所示的程序框图，输出的 #mi(`s`) 的值为（ ）
 
-[width=0.44\linewidth]img/2011/beijing_science/q4_fig1.png
+
+#align(center)[#image("/papers/2011/img/beijing_science/q4_fig1.png", width: 28%)]
+
   #choices([#mi(`-3`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{1}{3}`)], [#mi(`2`)], cols: 2)
 ]
 
@@ -70,7 +72,9 @@
 
 其中正确结论的序号是（ ）
 
-[width=0.82\linewidth]img/2011/beijing_science/q5_fig1.png
+
+#align(center)[#image("/papers/2011/img/beijing_science/q5_fig1.png", width: 28%)]
+
   #choices([#mi(`①②`)], [#mi(`②③`)], [#mi(`①③`)], [#mi(`①②③`)], cols: 4)
 ]
 
@@ -106,7 +110,9 @@
 #problem(7)[
 某四面体的三视图如图所示，该四面体四个面的面积中最大的是（ ）
 
-[width=0.52\linewidth]img/2011/beijing_science/q7_fig1.png
+
+#align(center)[#image("/papers/2011/img/beijing_science/q7_fig1.png", width: 28%)]
+
   #choices([#mi(`8`)], [#mi(`6\sqrt{2}`)], [#mi(`10`)], [#mi(`8\sqrt{2}`)], cols: 2)
 ]
 
@@ -255,7 +261,9 @@
 
 
 
-[width=0.5\linewidth]img/2011/beijing_science/q16_fig1.png
+
+#align(center)[#image("/papers/2011/img/beijing_science/q16_fig1.png", width: 28%)]
+
 
 
 + (1) 

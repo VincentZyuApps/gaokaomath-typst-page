@@ -224,7 +224,9 @@
 #problem(18)[
 在正方体 #mi(`A_{1}B_{1}C_{1}D_{1}-ABCD`) 中，#mi(`M`)，#mi(`N`) 分别为棱 #mi(`A_{1}A`) 和棱 #mi(`B_{1}B`) 的中点（如图）. 若 #mi(`\theta`) 为直线 #mi(`CM`) 与 #mi(`D_{1}N`) 所成的角，则 #mi(`\sin \theta`) 的值为（ ）
 
-[width=0.42\linewidth]img/1993/national_liberal/q18_fig1.png
+
+#align(center)[#image("/papers/1993/img/national_liberal/q18_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{1}{9}`)], [#mi(`\frac{2}{3}`)], [#mi(`\frac{2\sqrt{5}}{9}`)], [#mi(`\frac{4\sqrt{5}}{9}`)], cols: 2)
 ]
 
@@ -334,7 +336,9 @@
 
 
 
-[width=0.42\linewidth]img/1993/national_liberal/q27_fig1.png
+
+#align(center)[#image("/papers/1993/img/national_liberal/q27_fig1.png", width: 28%)]
+
 ]
 
 #solution[

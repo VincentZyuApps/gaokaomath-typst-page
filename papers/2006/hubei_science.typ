@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,127 +11,161 @@
 #part-header("单选题")
 
 #problem(1)[
-已知向量 $bold(a)= (sqrt(3), 1)$，$bold(b)$ 是不平行于 $x$ 轴的单位向量，且 $bold(a) dot bold(b)= sqrt(3)$，则 $bold(b)=$（ ）
-  #choices([$((sqrt(3))/(2), (1)/(2))$], [$((1)/(2), (sqrt(3))/(2))$], [$((1)/(4), (3 sqrt(3))/(4))$], [$(1,0)$], cols: 2)
+已知向量 #mi(`\mathbf{a}= (\sqrt{3}, 1)`)，#mi(`\mathbf{b}`) 是不平行于 #mi(`x`) 轴的单位向量，且 #mi(`\mathbf{a}\cdot \mathbf{b}= \sqrt{3}`)，则 #mi(`\mathbf{b}=`)（ ）
+  #choices([#mi(`\left(\frac{\sqrt{3}}{2}, \frac{1}{2}\right)`)], [#mi(`\left(\frac{1}{2}, \frac{\sqrt{3}}{2}\right)`)], [#mi(`\left(\frac{1}{4}, \frac{3\sqrt{3}}{4}\right)`)], [#mi(`\left(1,0\right)`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-设 $bold(b)=(u,v)$. 由 $bold(b)$ 是单位向量，得 $u^(2)+v^(2)=1$；由数量积条件，得 $sqrt(3)u+v=sqrt(3)$，即 $v=sqrt(3)(1-u)$. 代入单位向量条件，得到
+设 #mi(`\mathbf{b}=(u,v)`). 由 #mi(`\mathbf{b}`) 是单位向量，得 #mi(`u^{2}+v^{2}=1`)；由数量积条件，得 #mi(`\sqrt{3}u+v=\sqrt{3}`)，即 #mi(`v=\sqrt{3}(1-u)`). 代入单位向量条件，得到
 
-$ u^(2)+3(1-u)^(2)=1 <=> 2 u^(2)-3 u+1=0 <=> u=1" 或 "u=(1)/(2) $
 
-当 $u=1$ 时 $v=0$，与 $bold(b)$ 不平行于 $x$ 轴矛盾；所以 $u=(1)/(2)$，$v=(sqrt(3))/(2)$，故选 B.
+#align(center)[#mitex(`
+u^{2}+3(1-u)^{2}=1\Longleftrightarrow 2u^{2}-3u+1=0\Longleftrightarrow u=1\text{ \text{或} }u=\frac{1}{2}
+`)]
+
+
+当 #mi(`u=1`) 时 #mi(`v=0`)，与 #mi(`\mathbf{b}`) 不平行于 #mi(`x`) 轴矛盾；所以 #mi(`u=\frac{1}{2}`)，#mi(`v=\frac{\sqrt{3}}{2}`)，故选 B.
 ]
 
 #problem(2)[
-若互相不等的实数 $a$，$b$，$c$ 成等差数列，$c$，$a$，$b$ 成等比数列，且 $a + 3 b + c = 10$，则 $a =$（ ）
-  #choices([$4$], [$2$], [$-2$], [$-4$], cols: 4)
+若互相不等的实数 #mi(`a`)，#mi(`b`)，#mi(`c`) 成等差数列，#mi(`c`)，#mi(`a`)，#mi(`b`) 成等比数列，且 #mi(`a + 3b + c = 10`)，则 #mi(`a =`)（ ）
+  #choices([#mi(`4`)], [#mi(`2`)], [#mi(`-2`)], [#mi(`-4`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-设等差数列的公差为 $d$. 由 $a+3 b+c=10$ 及 $a+c=2 b$，得 $5 b=10$，所以 $b=2$，且 $c=4-a$. 由于 $c$，$a$，$b$ 成等比数列，中项的平方等于两端项的积，故
+设等差数列的公差为 #mi(`d`). 由 #mi(`a+3b+c=10`) 及 #mi(`a+c=2b`)，得 #mi(`5b=10`)，所以 #mi(`b=2`)，且 #mi(`c=4-a`). 由于 #mi(`c`)，#mi(`a`)，#mi(`b`) 成等比数列，中项的平方等于两端项的积，故
 
-$ a^(2)=b c=2(4-a) <=> (a+4)(a-2)=0 $
 
-若 $a=2$，则 $a=b=c=2$，与三个实数互不相等矛盾；因此 $a=-4$，故选 D.
+#align(center)[#mitex(`
+a^{2}=bc=2(4-a)\Longleftrightarrow (a+4)(a-2)=0
+`)]
+
+
+若 #mi(`a=2`)，则 #mi(`a=b=c=2`)，与三个实数互不相等矛盾；因此 #mi(`a=-4`)，故选 D.
 ]
 
 #problem(3)[
-$triangle A B C$ 的内角 $A$ 满足 $sin 2 A = (2)/(3)$，则 $sin A + cos A =$（ ）
-  #choices([$(sqrt(15))/(3)$], [$-(sqrt(15))/(3)$], [$(5)/(3)$], [$-(5)/(3)$], cols: 2)
+#mi(`\triangle ABC`) 的内角 #mi(`A`) 满足 #mi(`\sin 2A = \frac{2}{3}`)，则 #mi(`\sin A + \cos A =`)（ ）
+  #choices([#mi(`\frac{\sqrt{15}}{3}`)], [#mi(`-\frac{\sqrt{15}}{3}`)], [#mi(`\frac{5}{3}`)], [#mi(`-\frac{5}{3}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-三角形内角满足 $0<A< pi$. 由 $sin 2 A=(2)/(3)$，有
+三角形内角满足 #mi(`0<A<\pi`). 由 #mi(`\sin 2A=\frac{2}{3}`)，有
 
-$ ( sin A+ cos A)^(2)= sin ""^(2)A+ cos ""^(2)A+2 sin A cos A=1+ sin 2 A=(5)/(3) $
 
-又因为 $0<A< pi$ 且 $sin 2 A>0$，所以 $0<A<(pi)/(2)$，从而 $sin A+ cos A>0$. 因而 $sin A+ cos A=sqrt((5)/(3))=(sqrt(15))/(3)$，故选 A.
+#align(center)[#mitex(`
+(\sin A+\cos A)^{2}=\sin^{2}A+\cos^{2}A+2\sin A\cos A=1+\sin 2A=\frac{5}{3}
+`)]
+
+
+又因为 #mi(`0<A<\pi`) 且 #mi(`\sin 2A>0`)，所以 #mi(`0<A<\frac{\pi}{2}`)，从而 #mi(`\sin A+\cos A>0`). 因而 #mi(`\sin A+\cos A=\sqrt{\frac{5}{3}}=\frac{\sqrt{15}}{3}`)，故选 A.
 ]
 
 #problem(4)[
-设 $f(x) = \l g (2 + x)/(2 - x)$，则 $f((x)/(2)) + f((2)/(x))$ 的定义域为（ ）
-  #choices([$(-4,0) union (0,4)$], [$(-4,-1) union (1,4)$], [$(-2,-1) union (1,2)$], [$(-4,-2) union (2,4)$], cols: 2)
+设 #mi(`f(x) = \lg \frac{2 + x}{2 - x}`)，则 #mi(`f\left(\frac{x}{2}\right) + f\left(\frac{2}{x}\right)`) 的定义域为（ ）
+  #choices([#mi(`(-4,0)\cup(0,4)`)], [#mi(`(-4,-1)\cup(1,4)`)], [#mi(`(-2,-1)\cup(1,2)`)], [#mi(`(-4,-2)\cup(2,4)`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-对 $f((x)/(2))$，真数为 $(4+x)/(4-x)$，要求 $-4<x<4$. 对 $f((2)/(x))$，先要求 $x != 0$，且真数
+对 #mi(`f\left(\frac{x}{2}\right)`)，真数为 #mi(`\frac{4+x}{4-x}`)，要求 #mi(`-4<x<4`). 对 #mi(`f\left(\frac{2}{x}\right)`)，先要求 #mi(`x\ne0`)，且真数
 
-$ (2+(2)/(x))/(2-(2)/(x))=(x+1)/(x-1)>0 $
 
-符号分析得 $x<-1$ 或 $x>1$. 与 $(-4,4)$ 取交集，函数的定义域为 $(-4,-1) union (1,4)$，故选 B.
+#align(center)[#mitex(`
+\frac{2+\frac{2}{x}}{2-\frac{2}{x}}=\frac{x+1}{x-1}>0
+`)]
+
+
+符号分析得 #mi(`x<-1`) 或 #mi(`x>1`). 与 #mi(`(-4,4)`) 取交集，函数的定义域为 #mi(`(-4,-1)\cup(1,4)`)，故选 B.
 ]
 
 #problem(5)[
-在 $(sqrt(x)- (1)/(root(3, x)))^(24)$ 的展开式中，$x$ 的幂的指数是整数的项共有（ ）
-  #choices([$3$项], [$4$项], [$5$项], [$9$项], cols: 4)
+在 #mi(`\left(\sqrt{x}- \frac{1}{\sqrt[3]{x}}\right)^{24}`) 的展开式中，#mi(`x`) 的幂的指数是整数的项共有（ ）
+  #choices([#mi(`3`) 项], [#mi(`4`) 项], [#mi(`5`) 项], [#mi(`9`) 项], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
 展开式的通项可写为
-$C_(24)^(k)(sqrt(x))^(24-k)(-(1)/(root(3, x)))^(k)$，$k=0$，$1$，$\l d o t s$，$24$.
-其中 $x$ 的幂的指数为
 
-$ (24-k)/(2)-(k)/(3)=12-(5 k)/(6) $
+#mi(`\mathrm{C}_{24}^{k}(\sqrt{x})^{24-k}\left(-\frac{1}{\sqrt[3]{x}}\right)^{k}`)，#mi(`k=0`)，#mi(`1`)，#mi(`\ldots`)，#mi(`24`).
 
-该指数为整数当且仅当 $6 | 5 k$，由于 $5$ 与 $6$ 互质，必须有 $6 | k$. 在 $0 <= k <= 24$ 中，$k=0$，$6$，$12$，$18$，$24$，所以共有 $5$ 项，故选 C.
+其中 #mi(`x`) 的幂的指数为
+
+
+#align(center)[#mitex(`
+\frac{24-k}{2}-\frac{k}{3}=12-\frac{5k}{6}
+`)]
+
+
+该指数为整数当且仅当 #mi(`6\mid 5k`)，由于 #mi(`5`) 与 #mi(`6`) 互质，必须有 #mi(`6\mid k`). 在 #mi(`0\le k\leqslant24`) 中，#mi(`k=0`)，#mi(`6`)，#mi(`12`)，#mi(`18`)，#mi(`24`)，所以共有 #mi(`5`) 项，故选 C.
 ]
 
 #problem(6)[
-关于直线 $m$，$n$ 与平面 $alpha$，$beta$，有以下四个命题：
-\begin{circlelist}
-\item 若 $m parallel alpha$，$n parallel beta$ 且 $alpha parallel beta$，则 $m parallel n$；
-\item 若 $m bot alpha$，$n bot beta$ 且 $alpha bot beta$，则 $m bot n$；
-\item 若 $m bot alpha$，$n parallel beta$ 且 $alpha parallel beta$，则 $m bot n$；
-\item 若 $m parallel alpha$，$n bot beta$ 且 $alpha bot beta$，则 $m parallel n$.
-\end{circlelist}
+关于直线 #mi(`m`)，#mi(`n`) 与平面 #mi(`\alpha`)，#mi(`\beta`)，有以下四个命题：
+
+
++ (1) 若 #mi(`m \parallel \alpha`)，#mi(`n \parallel \beta`) 且 #mi(`\alpha \parallel \beta`)，则 #mi(`m \parallel n`)；
++ (2) 若 #mi(`m \perp \alpha`)，#mi(`n \perp \beta`) 且 #mi(`\alpha \perp \beta`)，则 #mi(`m \perp n`)；
++ (3) 若 #mi(`m \perp \alpha`)，#mi(`n \parallel \beta`) 且 #mi(`\alpha \parallel \beta`)，则 #mi(`m \perp n`)；
++ (4) 若 #mi(`m \parallel \alpha`)，#mi(`n \perp \beta`) 且 #mi(`\alpha \perp \beta`)，则 #mi(`m \parallel n`).
+
+
+
 其中真命题的序号是（ ）
-  #choices(["①""②"], ["③""④"], ["①""④"], ["②""③"], cols: 4)
+  #choices([①②], [③④], [①④], [②③], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-命题$"[1]"$不成立：在互相平行的两个平面内，分别取方向不同的两条直线，它们不一定平行. 命题$"[2]"$成立，因为 $m$ 与 $n$ 的方向分别是平面 $alpha$ 与 $beta$ 的法向方向，而 $alpha bot beta$ 时两平面的法向方向互相垂直，所以 $m bot n$. 命题$"[3]"$成立：$m bot alpha$，而 $n parallel beta parallel alpha$，故 $m bot n$. 命题$"[4]"$不成立：$n bot beta$ 只说明 $n$ 的方向平行于平面 $alpha$ 的某一方向，不能推出它与任意给定的 $m parallel alpha$ 平行. 因而真命题为$"[2]""[3]"$，选 D.
+命题#mi(`①`) 不成立：在互相平行的两个平面内，分别取方向不同的两条直线，它们不一定平行. 命题#mi(`②`) 成立，因为 #mi(`m`) 与 #mi(`n`) 的方向分别是平面 #mi(`\alpha`) 与 #mi(`\beta`) 的法向方向，而 #mi(`\alpha\perp\beta`) 时两平面的法向方向互相垂直，所以 #mi(`m\perp n`). 命题#mi(`③`) 成立：#mi(`m\perp\alpha`)，而 #mi(`n\parallel\beta\parallel\alpha`)，故 #mi(`m\perp n`). 命题#mi(`④`) 不成立：#mi(`n\perp\beta`) 只说明 #mi(`n`) 的方向平行于平面 #mi(`\alpha`) 的某一方向，不能推出它与任意给定的 #mi(`m\parallel\alpha`) 平行. 因而真命题为#mi(`②③`)，选 D.
 ]
 
 #problem(7)[
-设过点 $P(x, y)$ 的直线分别与 $x$ 轴的正半轴和 $y$ 轴的正半轴交于 $A$，$B$ 两点，点 $Q$ 与点 $P$ 关于 $y$ 轴对称，$O$ 为坐标原点，若 $arrow(B P)= 2 arrow(P A)$ 且 $arrow(O Q) dot arrow(A B)= 1$，则点 $P$ 的轨迹方程是（ ）
-  #choices([$3 x^(2) + (3)/(2)y^(2) = 1$（$x > 0$，$y > 0$）], [$3 x^(2) - (3)/(2)y^(2) = 1$（$x > 0$，$y > 0$）], [$(3)/(2)x^(2) - 3 y^(2) = 1$（$x > 0$，$y > 0$）], [$(3)/(2)x^(2) + 3 y^(2) = 1$（$x > 0$，$y > 0$）], cols: 1)
+设过点 #mi(`P(x, y)`) 的直线分别与 #mi(`x`) 轴的正半轴和 #mi(`y`) 轴的正半轴交于 #mi(`A`)，#mi(`B`) 两点，点 #mi(`Q`) 与点 #mi(`P`) 关于 #mi(`y`) 轴对称，#mi(`O`) 为坐标原点，若 #mi(`\overrightarrow{BP}= 2\overrightarrow{PA}`) 且 #mi(`\overrightarrow{OQ}\cdot \overrightarrow{AB}= 1`)，则点 #mi(`P`) 的轨迹方程是（ ）
+  #choices([#mi(`3x^{2}+ \frac{3}{2}y^{2}= 1`)（#mi(`x > 0`)，#mi(`y > 0`)）], [#mi(`3x^{2}- \frac{3}{2}y^{2}= 1`)（#mi(`x > 0`)，#mi(`y > 0`)）], [#mi(`\frac{3}{2}x^{2}- 3y^{2}= 1`)（#mi(`x > 0`)，#mi(`y > 0`)）], [#mi(`\frac{3}{2}x^{2}+ 3y^{2}= 1`)（#mi(`x > 0`)，#mi(`y > 0`)）], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-设 $A=(u,0)$，$B=(0,v)$，其中 $u$，$v>0$. 由 $arrow(B P)=2 arrow(P A)$，得 $P-B=2(A-P)$，即 $3 P=2 A+B$. 因而 $P=((2 u)/(3),(v)/(3))$，所以 $u=(3 x)/(2)$，$v=3 y$. 又 $Q=(-x,y)$，从而
-$arrow(A B)=(-(3 x)/(2),3 y)$，$arrow(O Q)=(-x,y)$.
+设 #mi(`A=(u,0)`)，#mi(`B=(0,v)`)，其中 #mi(`u`)，#mi(`v>0`). 由 #mi(`\overrightarrow{BP}=2\overrightarrow{PA}`)，得 #mi(`P-B=2(A-P)`)，即 #mi(`3P=2A+B`). 因而 #mi(`P=\left(\frac{2u}{3},\frac{v}{3}\right)`)，所以 #mi(`u=\frac{3x}{2}`)，#mi(`v=3y`). 又 #mi(`Q=(-x,y)`)，从而
+
+#mi(`\overrightarrow{AB}=\left(-\frac{3x}{2},3y\right)`)，#mi(`\overrightarrow{OQ}=(-x,y)`).
+
 代入数量积条件，得
 
-$ 1=arrow(O Q)\c d o t a r r o w(A B)=(3)/(2)x^(2)+3 y^(2) $
 
-由于 $u$，$v>0$，有 $x>0$，$y>0$，故轨迹方程为 $(3)/(2)x^(2)+3 y^(2)=1$，选 D.
+#align(center)[#mitex(`
+1=\overrightarrow{OQ}\cdot\overrightarrow{AB}=\frac{3}{2}x^{2}+3y^{2}
+`)]
+
+
+由于 #mi(`u`)，#mi(`v>0`)，有 #mi(`x>0`)，#mi(`y>0`)，故轨迹方程为 #mi(`\frac{3}{2}x^{2}+3y^{2}=1`)，选 D.
 ]
 
 #problem(8)[
-有限集合 $S$ 中元素的个数记作 $\o p e r a t o r n a m e{c a r d}(S)$. 设 $A$，$B$ 都为有限集合，给出下列命题：
-\begin{circlelist}
-\item $A inter B = emptyset$ 的充要条件是 $\o p e r a t o r n a m e{c a r d}(A union B) = \o p e r a t o r n a m e{c a r d}(A) + \o p e r a t o r n a m e{c a r d}(B)$；
-\item $A subset.eq B$ 的必要条件是 $\o p e r a t o r n a m e{c a r d}(A) <= \o p e r a t o r n a m e{c a r d}(B)$；
-\item $A subset.eq.not B$ 的充分条件是 $\o p e r a t o r n a m e{c a r d}(A) <= \o p e r a t o r n a m e{c a r d}(B)$；
-\item $A = B$ 的充要条件是 $\o p e r a t o r n a m e{c a r d}(A) = \o p e r a t o r n a m e{c a r d}(B)$.
-\end{circlelist}
+有限集合 #mi(`S`) 中元素的个数记作 #mi(`\operatorname{card}(S)`). 设 #mi(`A`)，#mi(`B`) 都为有限集合，给出下列命题：
+
+
++ (1) #mi(`A \cap B = \varnothing`) 的充要条件是 #mi(`\operatorname{card}(A \cup B) = \operatorname{card}(A) + \operatorname{card}(B)`)；
++ (2) #mi(`A \subseteq B`) 的必要条件是 #mi(`\operatorname{card}(A) \le \operatorname{card}(B)`)；
++ (3) #mi(`A \nsubseteq B`) 的充分条件是 #mi(`\operatorname{card}(A) \le \operatorname{card}(B)`)；
++ (4) #mi(`A = B`) 的充要条件是 #mi(`\operatorname{card}(A) = \operatorname{card}(B)`).
+
+
+
 其中真命题的序号是（ ）
-  #choices(["③""④"], ["①""②"], ["①""④"], ["②""③"], cols: 4)
+  #choices([③④], [①②], [①④], [②③], cols: 4)
 ]
 
 #answer([B])
@@ -139,48 +173,57 @@ $ 1=arrow(O Q)\c d o t a r r o w(A B)=(3)/(2)x^(2)+3 y^(2) $
 #solution[
 有限集合满足容斥公式
 
-$ \o p e r a t o r n a m e{c a r d}(A union B)=\o p e r a t o r n a m e{c a r d}(A)+\o p e r a t o r n a m e{c a r d}(B)-\o p e r a t o r n a m e{c a r d}(A inter B) $
 
-所以命题$"[1]"$正确. 若 $A subset.eq B$，则 $B$ 包含 $A$ 的全部元素，故必有 $\o p e r a t o r n a m e{c a r d}(A) <= \o p e r a t o r n a m e{c a r d}(B)$，命题$"[2]"$正确. 命题$"[3]"$不正确，例如 $A=\{1\}$，$B=\{1,2\}$ 时基数不等式成立，但 $A subset.eq B$. 命题$"[4]"$不正确，例如 $A=\{1\}$，$B=\{2\}$ 时两集合基数相等但不相等. 因此真命题为$"[1]""[2]"$，按原题选项顺序选 B.
+#align(center)[#mitex(`
+\operatorname{card}(A\cup B)=\operatorname{card}(A)+\operatorname{card}(B)-\operatorname{card}(A\cap B)
+`)]
+
+
+所以命题#mi(`①`) 正确. 若 #mi(`A\subseteq B`)，则 #mi(`B`) 包含 #mi(`A`) 的全部元素，故必有 #mi(`\operatorname{card}(A)\le\operatorname{card}(B)`)，命题#mi(`②`) 正确. 命题#mi(`③`) 不正确，例如 #mi(`A=\{1\}`)，#mi(`B=\{1,2\}`) 时基数不等式成立，但 #mi(`A\subseteq B`). 命题#mi(`④`) 不正确，例如 #mi(`A=\{1\}`)，#mi(`B=\{2\}`) 时两集合基数相等但不相等. 因此真命题为#mi(`①②`)，按原题选项顺序选 B.
 ]
 
 #problem(9)[
-已知平面区域 $D$ 由以 $A(1,3)$，$B(5,2)$，$C(3,1)$ 为顶点的三角形内部和边界组成. 若在区域 $D$ 上有无穷多个点 $(x, y)$ 可使目标函数 $z = x + m y$ 取得最小值，则 $m =$（ ）
-  #choices([$-2$], [$-1$], [$1$], [$4$], cols: 4)
+已知平面区域 #mi(`D`) 由以 #mi(`A(1,3)`)，#mi(`B(5,2)`)，#mi(`C(3,1)`) 为顶点的三角形内部和边界组成. 若在区域 #mi(`D`) 上有无穷多个点 #mi(`(x, y)`) 可使目标函数 #mi(`z = x + my`) 取得最小值，则 #mi(`m =`)（ ）
+  #choices([#mi(`-2`)], [#mi(`-1`)], [#mi(`1`)], [#mi(`4`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-目标函数的等值线为 $x+m y="常数"$. 要使最小值在三角形的一条边上有无穷多个取得，等值线必须与该边平行. 三条边的方向向量可分别取
-$arrow(A B)=(4,-1)$，$arrow(B C)=(-2,-1)$，$arrow(C A)=(-2,2)$.
-目标函数的梯度为 $(1,m)$，因此分别得到 $m=4$，$-2$，$1$. 逐一比较顶点处的函数值：当 $m=-2$ 时，$z(A)=-5$，$z(B)=1$，$z(C)=1$，边 $B C$ 上取得的是最大值；当 $m=4$ 时，$z(A)=z(B)=13$，$z(C)=7$，边 $A B$ 上取得的是最大值；当 $m=1$ 时，$z(A)=z(C)=4$，$z(B)=7$，边 $C A$ 上的所有点都取得最小值. 所以 $m=1$，选 C.
+目标函数的等值线为 #mi(`x+my=\text{\text{常数}}`). 要使最小值在三角形的一条边上有无穷多个取得，等值线必须与该边平行. 三条边的方向向量可分别取
+
+#mi(`\overrightarrow{AB}=(4,-1)`)，#mi(`\overrightarrow{BC}=(-2,-1)`)，#mi(`\overrightarrow{CA}=(-2,2)`).
+
+目标函数的梯度为 #mi(`(1,m)`)，因此分别得到 #mi(`m=4`)，#mi(`-2`)，#mi(`1`). 逐一比较顶点处的函数值：当 #mi(`m=-2`) 时，#mi(`z(A)=-5`)，#mi(`z(B)=1`)，#mi(`z(C)=1`)，边 #mi(`BC`) 上取得的是最大值；当 #mi(`m=4`) 时，#mi(`z(A)=z(B)=13`)，#mi(`z(C)=7`)，边 #mi(`AB`) 上取得的是最大值；当 #mi(`m=1`) 时，#mi(`z(A)=z(C)=4`)，#mi(`z(B)=7`)，边 #mi(`CA`) 上的所有点都取得最小值. 所以 #mi(`m=1`)，选 C.
 ]
 
 #problem(10)[
-关于 $x$ 的方程 $(x^(2) - 1)^(2) - |x^(2) - 1| + k = 0$，给出下列四个命题：
-\begin{circlelist}
-\item 存在实数 $k$，使得方程恰有 $2$ 个不同的实根；
-\item 存在实数 $k$，使得方程恰有 $4$ 个不同的实根；
-\item 存在实数 $k$，使得方程恰有 $5$ 个不同的实根；
-\item 存在实数 $k$，使得方程恰有 $8$ 个不同的实根.
-\end{circlelist}
+关于 #mi(`x`) 的方程 #mi(`(x^{2}- 1)^{2}- |x^{2}- 1| + k = 0`)，给出下列四个命题：
+
+
++ (1) 存在实数 #mi(`k`)，使得方程恰有 #mi(`2`) 个不同的实根；
++ (2) 存在实数 #mi(`k`)，使得方程恰有 #mi(`4`) 个不同的实根；
++ (3) 存在实数 #mi(`k`)，使得方程恰有 #mi(`5`) 个不同的实根；
++ (4) 存在实数 #mi(`k`)，使得方程恰有 #mi(`8`) 个不同的实根.
+
+
+
 其中假命题的个数是（ ）
-  #choices([$0$], [$1$], [$2$], [$3$], cols: 4)
+  #choices([#mi(`0`)], [#mi(`1`)], [#mi(`2`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-令 $t=|x^(2)-1|$，则 $t >= 0$，原方程化为 $t^(2)-t+k=0$. 对固定的 $t$，方程 $|x^(2)-1|=t$ 的实根数为：$t=0$ 时为 $2$ 个；$0<t<1$ 时由 $x^(2)=1-t$ 或 $x^(2)=1+t$ 得 $4$ 个；$t=1$ 时为 $x=0$，$\p m s q r t(2)$，共 $3$ 个；$t>1$ 时只有 $x^(2)=1+t$，为 $2$ 个.
+令 #mi(`t=|x^{2}-1|`)，则 #mi(`t\geqslant0`)，原方程化为 #mi(`t^{2}-t+k=0`). 对固定的 #mi(`t`)，方程 #mi(`|x^{2}-1|=t`) 的实根数为：#mi(`t=0`) 时为 #mi(`2`) 个；#mi(`0<t<1`) 时由 #mi(`x^{2}=1-t`) 或 #mi(`x^{2}=1+t`) 得 #mi(`4`) 个；#mi(`t=1`) 时为 #mi(`x=0`)，#mi(`\pm\sqrt{2}`)，共 #mi(`3`) 个；#mi(`t>1`) 时只有 #mi(`x^{2}=1+t`)，为 #mi(`2`) 个.
 
-取 $k=-1$，二次方程的唯一非负根为 $t=(1+sqrt(5))/(2)>1$，原方程有 $2$ 个根；取 $k=(1)/(4)$，有重根 $t=(1)/(2)$，原方程有 $4$ 个根；取 $k=0$，有 $t=0$，$1$，原方程有 $2+3=5$ 个根；取 $k=(6)/(25)$，有两个根 $t=(2)/(5)$，$(3)/(5)$，每个都在 $(0,1)$ 内，原方程有 $4+4=8$ 个根. 四个命题均为真，假命题的个数为 $0$，选 A.
+取 #mi(`k=-1`)，二次方程的唯一非负根为 #mi(`t=\frac{1+\sqrt{5}}{2}>1`)，原方程有 #mi(`2`) 个根；取 #mi(`k=\frac{1}{4}`)，有重根 #mi(`t=\frac{1}{2}`)，原方程有 #mi(`4`) 个根；取 #mi(`k=0`)，有 #mi(`t=0`)，#mi(`1`)，原方程有 #mi(`2+3=5`) 个根；取 #mi(`k=\frac{6}{25}`)，有两个根 #mi(`t=\frac{2}{5}`)，#mi(`\frac{3}{5}`)，每个都在 #mi(`(0,1)`) 内，原方程有 #mi(`4+4=8`) 个根. 四个命题均为真，假命题的个数为 #mi(`0`)，选 A.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-设 $x$，$y$ 为实数，且 $(x)/(1 - i)+ (y)/(1 - 2 i)= (5)/(1 - 3 i)$，则 $x + y =$#blank(){}.
+设 #mi(`x`)，#mi(`y`) 为实数，且 #mi(`\frac{x}{1 - \mathrm{i}}+ \frac{y}{1 - 2\mathrm{i}}= \frac{5}{1 - 3\mathrm{i}}`)，则 #mi(`x + y =`)\underline{\hspace{2.5em}}.
 ]
 
 #answer([4])
@@ -188,318 +231,268 @@ $arrow(A B)=(4,-1)$，$arrow(B C)=(-2,-1)$，$arrow(C A)=(-2,2)$.
 #solution[
 将各分式有理化，原等式化为
 
-$ (x)/(2)(1+ i )+(y)/(5)(1+2 i )=(1)/(2)(1+3 i ) $
+
+#align(center)[#mitex(`
+\frac{x}{2}(1+\mathrm{i})+\frac{y}{5}(1+2\mathrm{i})=\frac{1}{2}(1+3\mathrm{i})
+`)]
+
 
 比较实部和虚部，得到
-$(x)/(2)+(y)/(5)=(1)/(2)$，$(x)/(2)+(2 y)/(5)=(3)/(2)$.
-两式相减得 $y=5$，再代入第一式得 $x=-1$，所以 $x+y=4$.
+
+#mi(`\frac{x}{2}+\frac{y}{5}=\frac{1}{2}`)，#mi(`\frac{x}{2}+\frac{2y}{5}=\frac{3}{2}`).
+
+两式相减得 #mi(`y=5`)，再代入第一式得 #mi(`x=-1`)，所以 #mi(`x+y=4`).
 ]
 
 #problem(12)[
-接种某疫苗后，出现发热反应的概率为 $0.80$，现有 $5$ 人接种该疫苗，至少有 $3$ 人出现发热反应的概率为#blank(){}. （精确到 $0.01$）
+接种某疫苗后，出现发热反应的概率为 #mi(`0.80`)，现有 #mi(`5`) 人接种该疫苗，至少有 #mi(`3`) 人出现发热反应的概率为\underline{\hspace{2.5em}}. （精确到 #mi(`0.01`)）
 ]
 
 #answer([0.94])
 
 #solution[
-按各人的反应相互独立，设出现发热反应的人数为 $X$，则 $X tilde B(5,0.8)$. 所求概率为
+按各人的反应相互独立，设出现发热反应的人数为 #mi(`X`)，则 #mi(`X\sim B(5,0.8)`). 所求概率为
 
-$ P(X >= 3 )=C_(5)^(3)(0.8)^(3)(0.2)^(2)+C_(5)^(4)(0.8)^(4)(0.2)+(0.8)^(5) =0.2048+0.4096+0.32768=0.94208 $
 
-精确到 $0.01$ 得 $0.94$.
+#align(center)[#mitex(`
+P(X\geqslant3)=\mathrm{C}_{5}^{3}(0.8)^{3}(0.2)^{2}+\mathrm{C}_{5}^{4}(0.8)^{4}(0.2)+(0.8)^{5}=0.2048+0.4096+0.32768=0.94208
+`)]
+
+
+精确到 #mi(`0.01`) 得 #mi(`0.94`).
 ]
 
 #problem(13)[
-已知直线 $5 x + 12 y + a = 0$ 与圆 $x^(2) - 2 x + y^(2) = 0$ 相切，则 $a$ 的值为#blank(){}.
+已知直线 #mi(`5x + 12y + a = 0`) 与圆 #mi(`x^{2}- 2x + y^{2}= 0`) 相切，则 #mi(`a`) 的值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-18\) 或 \(8$])
+#answer([#mi(`-18`) 或 #mi(`8`)])
 
 #solution[
 将圆方程配方，得
 
-$ (x-1)^(2)+y^(2)=1 $
 
-所以圆心为 $(1,0)$，半径为 $1$. 由直线与圆相切，圆心到直线的距离等于半径，即
+#align(center)[#mitex(`
+(x-1)^{2}+y^{2}=1
+`)]
 
-$ (|5+a|)/(sqrt(5^(2)+12^(2)))=1 <=> |a+5|=13 $
 
-因此 $a=8$ 或 $a=-18$.
+所以圆心为 #mi(`(1,0)`)，半径为 #mi(`1`). 由直线与圆相切，圆心到直线的距离等于半径，即
+
+
+#align(center)[#mitex(`
+\frac{|5+a|}{\sqrt{5^{2}+12^{2}}}=1\Longleftrightarrow |a+5|=13
+`)]
+
+
+因此 #mi(`a=8`) 或 #mi(`a=-18`).
 ]
 
 #problem(14)[
-某工程队有 $6$ 项工程需要先后单独完成，其中工程乙必须在工程甲完成后才能进行，工程丙必须在工程乙完成后才能进行，又工程丁必须在工程丙完成后立即进行. 那么安排这 $6$ 项工程的不同排法种数是#blank(){}. （用数字作答）
+某工程队有 #mi(`6`) 项工程需要先后单独完成，其中工程乙必须在工程甲完成后才能进行，工程丙必须在工程乙完成后才能进行，又工程丁必须在工程丙完成后立即进行. 那么安排这 #mi(`6`) 项工程的不同排法种数是\underline{\hspace{2.5em}}. （用数字作答）
 ]
 
 #answer([20])
 
 #solution[
-将工程丙和必须紧接其后的工程丁看作一个整体 $"丙丁"$. 于是需要排列的五个对象为甲、乙、$"丙丁"$ 以及另外两项工程，并且甲、乙、$"丙丁"$ 的先后顺序必须固定为甲、乙、$"丙丁"$. 先从五个位置中选出这三个对象的位置，再安排另外两项工程，排法数为
+将工程丙和必须紧接其后的工程丁看作一个整体 #mi(`\text{\text{丙丁}}`). 于是需要排列的五个对象为甲、乙、#mi(`\text{\text{丙丁}}`) 以及另外两项工程，并且甲、乙、#mi(`\text{\text{丙丁}}`) 的先后顺序必须固定为甲、乙、#mi(`\text{\text{丙丁}}`). 先从五个位置中选出这三个对象的位置，再安排另外两项工程，排法数为
 
-$ C_(5)^(3) times 2 !=20 $
 
-因此不同排法种数为 $20$.
+#align(center)[#mitex(`
+\mathrm{C}_{5}^{3}\times 2!=20
+`)]
+
+
+因此不同排法种数为 #mi(`20`).
 ]
 
 #problem(15)[
-将杨辉三角中的每一个数 $C_n^r$ 都换成分数 $(1)/((n + 1)C_n^r)$，得到一个如图所示的分数三角形，称为莱布尼茨三角形.
+将杨辉三角中的每一个数 #mi(`\mathrm{C}_{n}^{r}`) 都换成分数 #mi(`\frac{1}{(n + 1)\mathrm{C}_{n}^{r}}`)，得到一个如图所示的分数三角形，称为莱布尼茨三角形.
 
-\begin{center}
-\begin{tabular}{ccccccccccccc}
-&&&&&&$(1)/(1)$&&&&&&\\
-&&&&&$(1)/(2)$&&$(1)/(2)$&&&&&\\
-&&&&$(1)/(3)$&&$(1)/(6)$&&$(1)/(3)$&&&&\\
-&&&$(1)/(4)$&&$(1)/(12)$&&$(1)/(12)$&&$(1)/(4)$&&&\\
-&&$(1)/(5)$&&$(1)/(20)$&&$(1)/(30)$&&$(1)/(20)$&&$(1)/(5)$&&\\
-&$(1)/(6)$&&$(1)/(30)$&&$(1)/(60)$&&$(1)/(60)$&&$(1)/(30)$&&$(1)/(6)$&\\
-$(1)/(7)$&&$(1)/(42)$&&$(1)/(105)$&&$(1)/(140)$&&$(1)/(105)$&&$(1)/(42)$&&$(1)/(7)$\\
-\multicolumn{13}{c}{$dots.c dots.c$}
-\end{tabular}
-\end{center}
+&&&&&&#mi(`\displaystyle\frac{1}{1}`)&&&&&&\\
 
-从莱布尼茨三角形可看出 $(1)/((n + 1)C_n^(r))+ (1)/((n + 1)C_n^(x))= (1)/(n C_(n - 1)^(r))$，其中 $x =$#blank(){}，令 $a_n = (1)/(3)+ (1)/(12)+ dots.c + (1)/(n C_(n - 1)^(2))+ (1)/((n + 1)C_n^(2))$，则 $\lim\l i m i t s_(n -> oo ) a_n =$#blank(){}.
+&&&&&#mi(`\displaystyle\frac{1}{2}`)&&#mi(`\displaystyle\frac{1}{2}`)&&&&&\\
+
+&&&&#mi(`\displaystyle\frac{1}{3}`)&&#mi(`\displaystyle\frac{1}{6}`)&&#mi(`\displaystyle\frac{1}{3}`)&&&&\\
+
+&&&#mi(`\displaystyle\frac{1}{4}`)&&#mi(`\displaystyle\frac{1}{12}`)&&#mi(`\displaystyle\frac{1}{12}`)&&#mi(`\displaystyle\frac{1}{4}`)&&&\\
+
+&&#mi(`\displaystyle\frac{1}{5}`)&&#mi(`\displaystyle\frac{1}{20}`)&&#mi(`\displaystyle\frac{1}{30}`)&&#mi(`\displaystyle\frac{1}{20}`)&&#mi(`\displaystyle\frac{1}{5}`)&&\\
+
+&#mi(`\displaystyle\frac{1}{6}`)&&#mi(`\displaystyle\frac{1}{30}`)&&#mi(`\displaystyle\frac{1}{60}`)&&#mi(`\displaystyle\frac{1}{60}`)&&#mi(`\displaystyle\frac{1}{30}`)&&#mi(`\displaystyle\frac{1}{6}`)&\\
+
+#mi(`\displaystyle\frac{1}{7}`)&&#mi(`\displaystyle\frac{1}{42}`)&&#mi(`\displaystyle\frac{1}{105}`)&&#mi(`\displaystyle\frac{1}{140}`)&&#mi(`\displaystyle\frac{1}{105}`)&&#mi(`\displaystyle\frac{1}{42}`)&&#mi(`\displaystyle\frac{1}{7}`)\\
+
+\multicolumn{13}{c}{$\cdots\cdots$}
+
+从莱布尼茨三角形可看出 #mi(`\frac{1}{(n + 1)\mathrm{C}_{n}^{r}}+ \frac{1}{(n + 1)\mathrm{C}_{n}^{x}}= \frac{1}{n\mathrm{C}_{n - 1}^{r}}`)，其中 #mi(`x =`)\underline{\hspace{2.5em}}，令 #mi(`a_{n} = \frac{1}{3}+ \frac{1}{12}+ \cdots + \frac{1}{n\mathrm{C}_{n - 1}^{2}}+ \frac{1}{(n + 1)\mathrm{C}_{n}^{2}}`)，则 #mi(`\lim\limits_{n\to \infty}a_{n} =`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$r+1\)，\((1)/(2)$])
+#answer([#mi(`r+1`)，#mi(`\frac{1}{2}`)])
 
 #solution[
-莱布尼茨三角形中同一行相邻两项之和等于上一行夹在它们正上方的项，因此右边一项的组合数下标比左边一项大 $1$，故 $x=r+1$.
+莱布尼茨三角形中同一行相邻两项之和等于上一行夹在它们正上方的项，因此右边一项的组合数下标比左边一项大 #mi(`1`)，故 #mi(`x=r+1`).
 
 由组合数的对称性，给出的和可写为
 
-$ a_n=sum_(j=2)^(n)(1)/((j+1)C_(j)^(2)) $
 
-又 $C_j^2=(j(j-1))/(2)$，所以
+#align(center)[#mitex(`
+a_{n}=\sum_{j=2}^{n}\frac{1}{(j+1)\mathrm{C}_{j}^{2}}
+`)]
 
-$ (1)/((j+1)C_j^2)=(2)/(j(j-1)(j+1))=(1)/(j(j-1))-(1)/(j(j+1)) $
+
+又 #mi(`\mathrm{C}_{j}^{2}=\frac{j(j-1)}{2}`)，所以
+
+
+#align(center)[#mitex(`
+\frac{1}{(j+1)\mathrm{C}_{j}^{2}}=\frac{2}{j(j-1)(j+1)}=\frac{1}{j(j-1)}-\frac{1}{j(j+1)}
+`)]
+
 
 从而
 
-$ a_n=sum_(j=2)^(n)((1)/(j(j-1))-(1)/(j(j+1)))=(1)/(2)-(1)/(n(n+1)) $
 
-令 $n -> oo$，得到 $\lim\l i m i t s_(n -> oo )a_n=(1)/(2)$.
+#align(center)[#mitex(`
+a_{n}=\sum_{j=2}^{n}\left(\frac{1}{j(j-1)}-\frac{1}{j(j+1)}\right)=\frac{1}{2}-\frac{1}{n(n+1)}
+`)]
+
+
+令 #mi(`n\to\infty`)，得到 #mi(`\lim\limits_{n\to\infty}a_{n}=\frac{1}{2}`).
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-设函数 $f(x) = bold(a) dot (bold(b)+ bold(c))$，其中向量 $bold(a)= ( sin x, - cos x)$，$bold(b)= ( sin x, -3 cos x)$，$bold(c)= (- cos x, sin x)$，$x in RR$.
+设函数 #mi(`f(x) = \mathbf{a}\cdot (\mathbf{b}+ \mathbf{c})`)，其中向量 #mi(`\mathbf{a}= (\sin x, -\cos x)`)，#mi(`\mathbf{b}= (\sin x, -3\cos x)`)，#mi(`\mathbf{c}= (-\cos x, \sin x)`)，#mi(`x \in \mathbb{R}`).
 
 
-+ (1) 求函数 $f(x)$ 的最大值和最小正周期；
-+ (2) 将函数 $f(x)$ 的图像按向量 $bold(d)$ 平移，使平移后得到的图像关于坐标原点成中心对称，求长度最小的 $bold(d)$.
++ (1)
 ]
 
 #solution[
-+ (1) 由向量的坐标及数量积定义，
-
-$ f(x)=( sin x,- cos x) dot ( sin x- cos x, sin x-3 cos x) = sin ""^(2)x+3 cos ""^(2)x-2 sin x cos x $
-
-又
-
-$ f(x)=2+ cos 2 x- sin 2 x=2+sqrt(2) cos (2 x+(pi)/(4)) $
-
-因此 $f(x)$ 的最大值为 $2+sqrt(2)$，且因角频率为 $2$，最小正周期为 $pi$.
-+ (2) 设平移向量为 $bold(d)=(h,k)$. 平移后的图像是函数
-
-$ g(x)=f(x-h)+k=2+k+sqrt(2) cos (2 x-2 h+(pi)/(4)) $
-
-的图像. 图像关于坐标原点中心对称，当且仅当 $g$ 是奇函数. 由 $g(x)+g(-x)\equiv0$，常数项和余弦项的系数分别必须满足
-$k=-2$，$cos (-2 h+(pi)/(4))=0$.
-所以
-$h=-(pi)/(8)-( e l l pi)/(2)$，$k=-2$，$\e l l in ZZ$.
-在这些向量中，$h$ 的绝对值最小时取 $\e l l=0$，故长度最小的平移向量为 $bold(d)=(-(pi)/(8),-2)$.
++ (1)
 ]
 
 #problem(17)[
-已知二次函数 $y = f(x)$ 的图象经过坐标原点，其导函数为 $f'(x) = 6 x - 2$，数列 $\{a_n\}$ 的前 $n$ 项和为 $S_n$，点 $(n, S_n)$（$n in NN ""^*$）均在函数 $y = f(x)$ 的图象上.
+已知二次函数 #mi(`y = f(x)`) 的图象经过坐标原点，其导函数为 #mi(`f'(x) = 6x - 2`)，数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)，点 #mi(`(n, S_{n})`)（#mi(`n \in \mathbb{N}^{*}`)）均在函数 #mi(`y = f(x)`) 的图象上.
 
 
-+ (1) 求数列 $\{a_n\}$ 的通项公式；
-+ (2) 设 $b_n = (3)/(a_n a_(n+1))$，$T_n$ 是数列 $\{b_n\}$ 的前 $n$ 项和，求使得 $T_n < (m)/(20)$ 对所有 $n in NN ""^*$ 都成立的最小正整数 $m$.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $f'(x)=6 x-2$，积分得 $f(x)=3 x^(2)-2 x+C$. 因为图像经过原点，$f(0)=0$，所以 $C=0$，即 $f(x)=3 x^(2)-2 x$. 由点 $(n,S_n)$ 在图像上，得
-
-$ S_n=f(n)=3 n^(2)-2 n $
-
-当 $n=1$ 时，$a_1=S_1=1=6 times 1 -5$. 当 $n >= 2$ 时，
-
-$ a_n=S_n-S_(n-1)=3 n^(2)-2 n-(3(n-1)^(2)-2(n-1))=6 n-5 $
-
-故数列通项为 $a_n=6 n-5$（$n in NN ""^*$）.
-+ (2) 由通项公式，
-
-$ b_n=(3)/((6 n-5)(6 n+1))=(1)/(2)((1)/(6 n-5)-(1)/(6 n+1)) $
-
-因此
-
-$ T_n=sum_(j=1)^(n)b_j=(1)/(2)(1-(1)/(6 n+1))<(1)/(2) $
-
-取 $m=10$ 时，$(m)/(20)=(1)/(2)$，不等式对所有正整数 $n$ 成立. 若 $m <= 9$，则 $(m)/(20)<(1)/(2)$，而 $T_n -> (1)/(2)$，故对充分大的 $n$ 有 $T_n>(m)/(20)$，不满足条件. 所以最小正整数为 $m=10$.
++ (1)
 ]
 
 #problem(18)[
-如图，在棱长为 $1$ 的正方体 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 中，$P$ 是侧棱 $CC_(1)$ 上的一点，$C P = m$.
+如图，在棱长为 #mi(`1`) 的正方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`P`) 是侧棱 #mi(`CC_{1}`) 上的一点，#mi(`CP = m`).
 
 
-+ (1) 试确定 $m$，使直线 $A P$ 与平面 $B D D_(1)B_(1)$ 所成角的正切值为 $3 sqrt(2)$；
-+ (2) 在线段 $A_(1)C_(1)$ 上是否存在一个定点 $Q$，使得对任意的 $m$，$D_(1)Q$ 在平面 $A P D_(1)$ 上的射影垂直于 $A P$，并证明你的结论.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2006/img/hubei_science/q18_fig1.png", width: 38%)]
+
+#align(center)[#image("/papers/2006/img/hubei_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
 取空间直角坐标系，使
-$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$
-$A_(1)=(0,0,1)$，$B_(1)=(1,0,1)$，$C_(1)=(1,1,1)$，$D_(1)=(0,1,1)$.
-于是 $P=(1,1,m)$，其中 $0 <= m <= 1$，且 $arrow(A P)=(1,1,m)$. 平面 $B D D_(1)B_(1)$ 的方程为 $x+y=1$，法向量可取 $bold(n)=(1,1,0)$. 设直线 $A P$ 与该平面所成的角为 $theta$，则
-$sin theta =(|arrow(A P){ dot }bold(n)|)/(|arrow(A P)| |bold(n)|)=(sqrt(2))/(sqrt(m^(2)+2))$，$cos theta =(m)/(sqrt(m^(2)+2))$.
-当正切值为有限数时 $m>0$，所以 $tan theta =(sqrt(2))/(m)$. 由题意 $(sqrt(2))/(m)=3 sqrt(2)$，得 $m=(1)/(3)$.
 
-再设 $Q$ 在线段 $A_(1)C_(1)$ 上，写成 $Q=(t,t,1)$，其中 $0 <= t <= 1$. 则
-$arrow(D_(1)Q)=(t,t-1,0)$，$arrow(A P)=(1,1,m)$.
-设 $arrow(D_(1)Q)$ 在平面 $A P D_(1)$ 上的射影为 $bold(w)$，并令 $bold(u)=arrow(D_(1)Q)-bold(w)$. 则 $bold(u)$ 垂直于平面 $A P D_(1)$，而 $arrow(A P)$ 在该平面内，所以
+#mi(`A=(0,0,0)`)，#mi(`B=(1,0,0)`)，#mi(`C=(1,1,0)`)，#mi(`D=(0,1,0)`)
 
-$ bold(w)\c d o t a r r o w(A P)=arrow(D_(1)Q)\c d o t a r r o w(A P)=t+(t-1)=2 t-1 $
+#mi(`A_{1}=(0,0,1)`)，#mi(`B_{1}=(1,0,1)`)，#mi(`C_{1}=(1,1,1)`)，#mi(`D_{1}=(0,1,1)`).
 
-因此投影垂直于 $A P$ 当且仅当 $2 t-1=0$，即 $t=(1)/(2)$. 这与 $m$ 无关，故存在唯一这样的定点，且它是线段 $A_(1)C_(1)$ 的中点.
+于是 #mi(`P=(1,1,m)`)，其中 #mi(`0\le m\leqslant1`)，且 #mi(`\overrightarrow{AP}=(1,1,m)`). 平面 #mi(`BDD_{1}B_{1}`) 的方程为 #mi(`x+y=1`)，法向量可取 #mi(`\mathbf{n}=(1,1,0)`). 设直线 #mi(`AP`) 与该平面所成的角为 #mi(`\theta`)，则
+
+#mi(`\sin\theta=\frac{|\overrightarrow{AP}\cdot\mathbf{n}|}{|\overrightarrow{AP}|\,|\mathbf{n}|}=\frac{\sqrt{2}}{\sqrt{m^{2}+2}}`)，#mi(`\cos\theta=\frac{m}{\sqrt{m^{2}+2}}`).
+
+当正切值为有限数时 #mi(`m>0`)，所以 #mi(`\tan\theta=\frac{\sqrt{2}}{m}`). 由题意 #mi(`\frac{\sqrt{2}}{m}=3\sqrt{2}`)，得 #mi(`m=\frac{1}{3}`).
+
+再设 #mi(`Q`) 在线段 #mi(`A_{1}C_{1}`) 上，写成 #mi(`Q=(t,t,1)`)，其中 #mi(`0\le t\leqslant1`). 则
+
+#mi(`\overrightarrow{D_{1}Q}=(t,t-1,0)`)，#mi(`\overrightarrow{AP}=(1,1,m)`).
+
+设 #mi(`\overrightarrow{D_{1}Q}`) 在平面 #mi(`APD_{1}`) 上的射影为 #mi(`\mathbf{w}`)，并令 #mi(`\mathbf{u}=\overrightarrow{D_{1}Q}-\mathbf{w}`). 则 #mi(`\mathbf{u}`) 垂直于平面 #mi(`APD_{1}`)，而 #mi(`\overrightarrow{AP}`) 在该平面内，所以
+
+
+#align(center)[#mitex(`
+\mathbf{w}\cdot\overrightarrow{AP}=\overrightarrow{D_{1}Q}\cdot\overrightarrow{AP}=t+(t-1)=2t-1
+`)]
+
+
+因此投影垂直于 #mi(`AP`) 当且仅当 #mi(`2t-1=0`)，即 #mi(`t=\frac{1}{2}`). 这与 #mi(`m`) 无关，故存在唯一这样的定点，且它是线段 #mi(`A_{1}C_{1}`) 的中点.
 ]
 
 #problem(19)[
-在某校举行的数学竞赛中，全体参赛学生的竞赛成绩近似服从正态分布 $N(70,100)$. 已知成绩在 $90$ 分以上（含 $90$ 分）的学生有 $12$ 名.
+在某校举行的数学竞赛中，全体参赛学生的竞赛成绩近似服从正态分布 #mi(`N(70,100)`). 已知成绩在 #mi(`90`) 分以上（含 #mi(`90`) 分）的学生有 #mi(`12`) 名.
 
 
-+ (1) 试问此次参赛学生总数约为多少人？
-+ (2) 若该校计划奖励竞赛成绩排在前 $50$ 名的学生，试问设奖的分数线约为多少分？
++ (1) 
 
 
-\begin{center}
+
 \small
-\begin{tabular}{c|ccccc}
-$x_0$ & 0 & 1 & 2 & 3 & 4 \\
+
+#mi(`x_{0}`) & 0 & 1 & 2 & 3 & 4 \\
+
 \hline
+
 1.2 & 0.8849 & 0.8869 & 0.8888 & 0.8907 & 0.8925 \\
+
 1.3 & 0.9032 & 0.9049 & 0.9066 & 0.9082 & 0.9099 \\
+
 1.4 & 0.9192 & 0.9207 & 0.9222 & 0.9236 & 0.9251 \\
+
 1.9 & 0.9713 & 0.9719 & 0.9726 & 0.9732 & 0.9738 \\
+
 2.0 & 0.9772 & 0.9778 & 0.9783 & 0.9788 & 0.9793 \\
+
 2.1 & 0.9821 & 0.9826 & 0.9830 & 0.9834 & 0.9838
-\end{tabular}
 
 \vspace{0.4em}
 
-\begin{tabular}{c|ccccc}
-$x_0$ & 5 & 6 & 7 & 8 & 9 \\
+#mi(`x_{0}`) & 5 & 6 & 7 & 8 & 9 \\
+
 \hline
+
 1.2 & 0.8944 & 0.8962 & 0.8980 & 0.8997 & 0.9015 \\
+
 1.3 & 0.9115 & 0.9131 & 0.9147 & 0.9162 & 0.9177 \\
+
 1.4 & 0.9265 & 0.9278 & 0.9292 & 0.9306 & 0.9319 \\
+
 1.9 & 0.9744 & 0.9750 & 0.9756 & 0.9762 & 0.9767 \\
+
 2.0 & 0.9798 & 0.9803 & 0.9808 & 0.9812 & 0.9817 \\
+
 2.1 & 0.9842 & 0.9846 & 0.9850 & 0.9854 & 0.9857
-\end{tabular}
-\end{center}
 ]
 
 #solution[
-+ (1) 设参赛学生的成绩为 $X$，则 $X tilde N(70,100)$，标准差为 $10$. 令 $Z=(X-70)/(10)$，则 $Z tilde N(0,1)$. 由标准正态分布表，
-
-$ P(X >= 90 )=P(Z >= 2 )=1- Phi (2)=1-0.9772=0.0228 $
-
-若参赛学生总数为 $N$，则 $0.0228 N approx 12$，所以
-
-$ N approx (12)/(0.0228) approx 526 $
-
-故参赛学生总数约为 $526$ 人.
-+ (2) 设奖励分数线为 $x$ 分，则成绩不低于该分数线的学生约占 $(50)/(526) approx 0 .0951$. 因而
-
-$ P(X <= x) approx 1 -0.0951=0.9049 $
-
-所以 $Phi ((x-70)/(10))=0.9049$. 查表得 $(x-70)/(10) approx 1 .31$，从而 $x approx 70 +10 times 1 .31=83.1$. 故设奖分数线约为 $83.1$ 分.
++ (1)
 ]
 
 #problem(20)[
-设 $A$，$B$ 分别为椭圆 $(x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > 0$，$b > 0$）的左，右顶点，椭圆长半轴的长等于焦距，且 $x = 4$ 为它的右准线.
+设 #mi(`A`)，#mi(`B`) 分别为椭圆 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > 0`)，#mi(`b > 0`)）的左，右顶点，椭圆长半轴的长等于焦距，且 #mi(`x = 4`) 为它的右准线.
 
 
-+ (1) 求椭圆的方程；
-+ (2) 设 $P$ 为右准线上不同于点 $(4,0)$ 的任意一点，若直线 $A P$，$B P$ 分别与椭圆相交于异于 $A$，$B$ 的点 $M$，$N$，证明点 $B$ 在以 $M N$ 为直径的圆内.
++ (1)
 ]
 
 #solution[
-+ (1) 设椭圆的半焦距为 $c$，则焦点为 $( +- c,0)$，右准线方程为 $x=(a^(2))/(c)$. 题设“长半轴的长等于焦距”给出 $a=2 c$，又由右准线为 $x=4$ 得
-$(a^(2))/(c)=4$，$a=2 c$.
-于是 $4 c=4$，从而 $c=1$，$a=2$. 再由 $b^(2)=a^(2)-c^(2)$，得 $b^(2)=3$. 所以椭圆方程为
-
-$ (x^(2))/(4)+(y^(2))/(3)=1 $
-+ (2) 由上问，$A=(-2,0)$，$B=(2,0)$. 设 $P=(4,t)$，因 $P != (4,0)$，有 $t != 0$. 记 $r=(t)/(6)$，则直线 $A P$ 的方程为 $y=r(x+2)$，直线 $B P$ 的方程为 $y=3 r(x-2)$.
-
-设 $M$ 是直线 $A P$ 与椭圆除 $A$ 外的交点. 将 $y=r(x+2)$ 代入椭圆方程，得
-
-$ (x^(2))/(4)+(r^(2)(x+2)^(2))/(3)-1=0 <=> (x+2)[((1)/(4)+(r^(2))/(3))(x+2)-1]=0 $
-
-除去对应于 $A$ 的根，得到
-$x_M+2=(12)/(3+4 r^(2))$，$y_M=(12 r)/(3+4 r^(2))$.
-因此
-
-$ arrow(B M)=(4 r)/(3+4 r^(2))(-4 r,3) $
-
-
-令 $v=x-2$，将 $y=3 r v$ 代入椭圆方程，得
-
-$ ((v+2)^(2))/(4)+3 r^(2)v^(2)-1=0 <=> v[((1)/(4)+3 r^(2))v+1]=0 $
-
-其中 $v=0$ 对应于 $B$，除去该根后
-$x_N-2=-(4)/(1+12 r^(2))$，$y_N=-(12 r)/(1+12 r^(2))$，
-从而
-
-$ arrow(B N)=-(4)/(1+12 r^(2))(1,3 r) $
-
-于是
-
-$ arrow(B M)\c d o t a r r o w(B N)=-(80 r^(2))/((3+4 r^(2))(1+12 r^(2)))<0 $
-
-所以 $angle M B N>90^( degree )$. 根据圆的直径所对的圆周角为直角及其内外判定，点 $B$ 在以 $M N$ 为直径的圆内.
++ (1)
 ]
 
 #problem(21)[
-设 $x = 3$ 是函数 $f(x) = (x^2 + a x + b) e ""^(3 - x)$（$x in RR$）的一个极值点.
+设 #mi(`x = 3`) 是函数 #mi(`f(x) = (x^{2} + ax + b)\mathrm{e}^{3 - x}`)（#mi(`x \in \mathbb{R}`)）的一个极值点.
 
 
-+ (1) 求 $a$ 与 $b$ 的关系式（用 $a$ 表示 $b$），并求 $f(x)$ 的单调区间；
-+ (2) 设 $a > 0$，$g(x) = (a^2 + (25)/(4)) e ""^x$. 若存在 $xi _1$，$xi _2 in [0,4]$ 使得 $|f( xi _1) - g( xi _2)| < 1$ 成立，求 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 求导得
-
-$ f'(x)=(2 x+a-(x^(2)+a x+b)) e ""^(3-x) $
-
-因为 $x=3$ 是极值点，必有 $f'(3)=0$，所以
-
-$ (6+a-(9+3 a+b)) e ""^(0)=0 <=> b=-3-2 a $
-
-代回并因式分解，得
-
-$ f'(x)=(-x^(2)+(2-a)x+3+3 a) e ""^(3-x)=(3-x)(x+a+1) e ""^(3-x) $
-
-若 $a=-4$，则两个零点重合，且 $f'(x)=-(x-3)^(2) e ""^(3-x) <= 0$，函数在 $x=3$ 两侧均不改变单调性，不是极值点. 因此 $a != -4$.
-
-当 $a>-4$ 时，$-a-1<3$，由导数符号得 $f(x)$ 在 $(- oo ,-a-1)$ 上单调递减，在 $(-a-1,3)$ 上单调递增，在 $(3,+ oo )$ 上单调递减. 当 $a<-4$ 时，$3<-a-1$，所以 $f(x)$ 在 $(- oo ,3)$ 上单调递减，在 $(3,-a-1)$ 上单调递增，在 $(-a-1,+ oo )$ 上单调递减.
-+ (2) 现有 $a>0$，属于 $a>-4$ 的情形. 因而 $f$ 在 $[0,3]$ 上递增，在 $[3,4]$ 上递减. 由 $b=-3-2 a$，
-$f(0)=(-3-2 a) e ""^(3)<0$，$f(3)=a+6$，$f(4)=(13+2 a)/(e)$.
-并且
-
-$ e (a+6)-(13+2 a)=( e -2)a+6 e -13>0 $
-
-所以 $f(4)<f(3)$，从而 $f([0,4])=[f(0),a+6]$. 另一方面，$g(x)=(a^(2)+(25)/(4)) e ""^(x)$ 在 $[0,4]$ 上递增，其最小值为 $g(0)=a^(2)+(25)/(4)$. 因为 $f(0)<0<g(0)$，两值域中能使距离小于 $1$ 的最小可能距离由 $f(3)$ 与 $g(0)$ 决定，故存在 $xi _1$，$xi _2 in [0,4]$ 使 $|f( xi _1)-g( xi _2)|<1$ 当且仅当
-
-$ g(0)-f(3)<1 <=> a^(2)+(25)/(4)-(a+6)<1 <=> (a-(1)/(2))^(2)<1 $
-
-结合 $a>0$，得到 $0<a<(3)/(2)$.
++ (1)
 ]
 

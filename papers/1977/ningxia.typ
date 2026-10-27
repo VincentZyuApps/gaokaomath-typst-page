@@ -118,7 +118,9 @@ S=\frac{1}{2}\frac{1-\left(\frac{1}{2}\right)^{10}}{1-\frac{1}{2}}=1-\frac{1}{2^
 #problem(10)[
 已知：在 #mi(`\triangle ABC`) 中，#mi(`\angle B=60^{\circ}`)，#mi(`AD`) 垂直于 #mi(`BC`)，#mi(`AD=3`)，#mi(`AC=5`)，求：#mi(`BC`)，#mi(`AB`).
 
-[max width=0.38\linewidth]img/1977/ningxia/q10_fig1.png
+
+#align(center)[#image("/papers/1977/img/ningxia/q10_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -144,7 +146,9 @@ AB=\sqrt{AD^{2}+BD^{2}}=\sqrt{3^{2}+\left(\sqrt{3}\right)^{2}}=\sqrt{12}=2\sqrt{
 #problem(11)[
 在 #mi(`\triangle ABC`) 中，已知：#mi(`a=\sqrt{2}`)，#mi(`A=45^{\circ}`)，#mi(`B=60^{\circ}`)，求 #mi(`C`)，#mi(`b`)，#mi(`c`) 及面积 #mi(`\triangle ABC`).
 
-[max width=0.34\linewidth]img/1977/ningxia/q11_fig1.png
+
+#align(center)[#image("/papers/1977/img/ningxia/q11_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -229,7 +233,9 @@ R^{2}=OP^{2}=\left(2-1\right)^{2}+\left(-1+2\right)^{2}=2
 #problem(13)[
 已知圆内接三角形 #mi(`ABC`)，#mi(`AB`)，#mi(`BC`) 上的高 #mi(`CE`)，#mi(`AD`) 相交于 #mi(`H`)，#mi(`AD`) 延长线与 #mi(`\widehat{BC}`) 交于 #mi(`F`). 求证：#mi(`HD=FD`).
 
-[max width=0.38\linewidth]img/1977/ningxia/q13_fig1.png
+
+#align(center)[#image("/papers/1977/img/ningxia/q13_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -243,7 +249,9 @@ R^{2}=OP^{2}=\left(2-1\right)^{2}+\left(-1+2\right)^{2}=2
 #problem(14)[
 用 #mi(`6\text{ \text{米}}`) 长的条形木料做如图的矩形窗框（包括中间的两个横档），问窗框的长，宽尺寸如何选择，窗框的面积最大？
 
-[max width=0.22\linewidth]img/1977/ningxia/q14_fig1.png
+
+#align(center)[#image("/papers/1977/img/ningxia/q14_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -290,7 +298,9 @@ y=\frac{3-\frac{3}{2}}{2}=\frac{3}{4}\text{ \text{米}}
 
 
 
-[max width=0.38\linewidth]img/1977/ningxia/q15_fig1.png
+
+#align(center)[#image("/papers/1977/img/ningxia/q15_fig1.png", width: 28%)]
+
 ]
 
 #solution[

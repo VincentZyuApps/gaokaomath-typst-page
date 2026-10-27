@@ -97,7 +97,7 @@
 ]
 
 #problem(7)[
-#mi(`4\text{ \text{张}}`)卡片上分别写有数字 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，从这 #mi(`4\text{ \text{张}}`)卡片中随机抽取 #mi(`2\text{ \text{张}}`)，则取出的 #mi(`2\text{ \text{张}}`)卡片上的数字之和为奇数的概率为（ ）
+#mi(`4\text{ \text{张}}`) 卡片上分别写有数字 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，从这 #mi(`4\text{ \text{张}}`) 卡片中随机抽取 #mi(`2\text{ \text{张}}`)，则取出的 #mi(`2\text{ \text{张}}`) 卡片上的数字之和为奇数的概率为（ ）
   #choices([#mi(`\frac{1}{3}`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{2}{3}`)], [#mi(`\frac{3}{4}`)], cols: 2)
 ]
 
@@ -123,7 +123,7 @@
 ]
 
 #problem(9)[
-一生产过程有 #mi(`4\text{ \text{道}}`)工序，每道工序需要安排一人照看. 现从甲，乙，丙等 #mi(`6\text{ \text{名}}`)工人中安排 #mi(`4\text{ \text{人}}`)分别照看一道工序，第一道工序只能从甲，乙两工人中安排 #mi(`1\text{ \text{人}}`)，第四道工序只能从甲，丙两工人中安排 #mi(`1\text{ \text{人}}`)，则不同的安排方案共有（ ）
+一生产过程有 #mi(`4\text{ \text{道}}`) 工序，每道工序需要安排一人照看. 现从甲，乙，丙等 #mi(`6\text{ \text{名}}`) 工人中安排 #mi(`4\text{ \text{人}}`) 分别照看一道工序，第一道工序只能从甲，乙两工人中安排 #mi(`1\text{ \text{人}}`)，第四道工序只能从甲，丙两工人中安排 #mi(`1\text{ \text{人}}`)，则不同的安排方案共有（ ）
   #choices([#mi(`24\text{ \text{种}}`)], [#mi(`36\text{ \text{种}}`)], [#mi(`48\text{ \text{种}}`)], [#mi(`72\text{ \text{种}}`)], cols: 2)
 ]
 
@@ -262,7 +262,7 @@
 ]
 
 #problem(18)[
-某批发市场对某种商品的周销售量（单位：吨）进行统计，最近 #mi(`100\text{ \text{周}}`)的统计结果如下表所示：
+某批发市场对某种商品的周销售量（单位：吨）进行统计，最近 #mi(`100\text{ \text{周}}`) 的统计结果如下表所示：
 
 周销售量 & #mi(`2`) & #mi(`3`) & #mi(`4`) \\
 
@@ -287,7 +287,9 @@
 
 
 
-[max width=0.34\linewidth]img/2008/liaoning_science/q19_fig1.png
+
+#align(center)[#image("/papers/2008/img/liaoning_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

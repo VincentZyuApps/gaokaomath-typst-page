@@ -1,8 +1,143 @@
 {
-  "title": "2002年普通高等学校招生全国统一考试",
-  "subtitle": "2002年大纲卷（理）",
   "year": "2002",
   "slug": "syllabus_science",
+  "title": "2002年大纲卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$\\sqrt{3}$"
           ],
           "answer": "A",
-          "solution": "<p>圆心为 $(1,0)$，直线可化为 $\\sqrt{3}x-3y=0$. 因此圆心到该直线的距离为</p><p>$\\displaystyle\\frac{|\\sqrt{3}|}{\\sqrt{(\\sqrt{3})^{2}+(-3)^{2}}}=\\frac{1}{2}$. 故选 A.</p>"
+          "solution": "<p>圆心为 $(1,0)$，直线可化为 $\\sqrt{3}x-3y=0$. 因此圆心到该直线的距离为</p><p>$\\displaystyle\\frac{|\\sqrt{3}|}{\\sqrt{(\\sqrt{3})^{2}+(-3)^{2}}}=\\frac{1}{2}$. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$1$"
           ],
           "answer": "C",
-          "solution": "<p>因为 $\\displaystyle\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i}=\\cos\\frac{\\pi}{3}+\\mathrm{i}\\sin\\frac{\\pi}{3}$，所以由棣莫弗定理，</p><p>$\\displaystyle\\left(\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i}\\right)^{3}=\\cos\\pi+\\mathrm{i}\\sin\\pi=-1$. 故选 C.</p>"
+          "solution": "<p>因为 $\\displaystyle\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i}=\\cos\\frac{\\pi}{3}+\\mathrm{i}\\sin\\frac{\\pi}{3}$，所以由棣莫弗定理，</p><p>$\\displaystyle\\left(\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i}\\right)^{3}=\\cos\\pi+\\mathrm{i}\\sin\\pi=-1$. 故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$\\{x\\mid x < 1 \\text{ 且 }x\\neq -1\\}$"
           ],
           "answer": "D",
-          "solution": "当 $x\\geqslant0$ 时，原不等式化为 $(1+x)(1-x)>0$，故 $0\\le x<1$. 当 $x<0$ 时，$|x|=-x$，原不等式化为 $(1+x)^{2}>0$，故 $x<0$ 且 $x\\neq-1$. 合并得解集为 $\\{x\\mid x<1\\text{ 且 }x\\neq-1\\}$，故选 D."
+          "solution": "当 $x\\geqslant0$ 时，原不等式化为 $(1+x)(1-x)>0$，故 $0\\le x<1$. 当 $x<0$ 时，$|x|=-x$，原不等式化为 $(1+x)^{2}>0$，故 $x<0$ 且 $x\\neq-1$. 合并得解集为 $\\{x\\mid x<1\\text{ 且 }x\\neq-1\\}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$\\left(\\frac{\\pi}{4}, \\pi\\right) \\cup \\left(\\frac{5\\pi}{4}, \\frac{3\\pi}{2}\\right)$"
           ],
           "answer": "C",
-          "solution": "由 $\\sin x-\\cos x=\\sqrt{2}\\sin\\left(x-\\frac{\\pi}{4}\\right)$，原不等式等价于 $\\sin\\left(x-\\frac{\\pi}{4}\\right)>0$. 在 $0<x<2\\pi$ 内，正弦值为正的部分为 $\\frac{\\pi}{4}<x<\\frac{5\\pi}{4}$，故选 C."
+          "solution": "由 $\\sin x-\\cos x=\\sqrt{2}\\sin\\left(x-\\frac{\\pi}{4}\\right)$，原不等式等价于 $\\sin\\left(x-\\frac{\\pi}{4}\\right)>0$. 在 $0<x<2\\pi$ 内，正弦值为正的部分为 $\\frac{\\pi}{4}<x<\\frac{5\\pi}{4}$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "$M \\cap N = \\varnothing$"
           ],
           "answer": "B",
-          "solution": "集合 $M$ 中的元素可写成 $\\displaystyle\\frac{2k+1}{4}$，而集合 $N$ 中的元素可写成 $\\displaystyle\\frac{k+2}{4}$. 对任意 $k\\in\\mathbb{Z}$，取 $l=2k-1\\in\\mathbb{Z}$，则 $\\displaystyle\\frac{2k+1}{4}=\\frac{l+2}{4}\\in N$，所以 $M\\subseteq N$. 例如 $0=\\frac{-2+2}{4}\\in N$ 但 $0\\notin M$，故不是相等关系，选 B."
+          "solution": "集合 $M$ 中的元素可写成 $\\displaystyle\\frac{2k+1}{4}$，而集合 $N$ 中的元素可写成 $\\displaystyle\\frac{k+2}{4}$. 对任意 $k\\in\\mathbb{Z}$，取 $l=2k-1\\in\\mathbb{Z}$，则 $\\displaystyle\\frac{2k+1}{4}=\\frac{l+2}{4}\\in N$，所以 $M\\subseteq N$. 例如 $0=\\frac{-2+2}{4}\\in N$ 但 $0\\notin M$，故不是相等关系，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$2$"
           ],
           "answer": "B",
-          "solution": "<p>曲线上点的坐标为 $(t^{2},2t)$，所以它到 $P(1,0)$ 的距离的平方为</p><p>$\\displaystyle(t^{2}-1)^{2}+(2t)^{2}=t^{4}+2t^{2}+1=(t^{2}+1)^{2}$. 因为 $t^{2}+1>0$，距离为 $t^{2}+1\\geqslant1$，且在 $t=0$ 时取到，故最短距离为 $1$，选 B.</p>"
+          "solution": "<p>曲线上点的坐标为 $(t^{2},2t)$，所以它到 $P(1,0)$ 的距离的平方为</p><p>$\\displaystyle(t^{2}-1)^{2}+(2t)^{2}=t^{4}+2t^{2}+1=(t^{2}+1)^{2}$. 因为 $t^{2}+1>0$，距离为 $t^{2}+1\\geqslant1$，且在 $t=0$ 时取到，故最短距离为 $1$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$-\\frac{3}{5}$"
           ],
           "answer": "C",
-          "solution": "<p>设圆锥和半球的公共底面半径为 $r$，圆锥高为 $h$. 由体积相等，</p><p>$\\displaystyle\\frac{1}{3}\\pi r^{2}h=\\frac{2}{3}\\pi r^{3}$，得 $h=2r$. 轴截面为腰长 $\\sqrt{r^{2}+h^{2}}=\\sqrt{5}r$、底边长 $2r$ 的等腰三角形. 设其顶角为 $\\theta$，由余弦定理，</p><p>$\\displaystyle\\cos\\theta=\\frac{(\\sqrt{5}r)^{2}+(\\sqrt{5}r)^{2}-(2r)^{2}}{2(\\sqrt{5}r)^{2}}=\\frac{3}{5}$. 故选 C.</p>"
+          "solution": "<p>设圆锥和半球的公共底面半径为 $r$，圆锥高为 $h$. 由体积相等，</p><p>$\\displaystyle\\frac{1}{3}\\pi r^{2}h=\\frac{2}{3}\\pi r^{3}$，得 $h=2r$. 轴截面为腰长 $\\sqrt{r^{2}+h^{2}}=\\sqrt{5}r$、底边长 $2r$ 的等腰三角形. 设其顶角为 $\\theta$，由余弦定理，</p><p>$\\displaystyle\\cos\\theta=\\frac{(\\sqrt{5}r)^{2}+(\\sqrt{5}r)^{2}-(2r)^{2}}{2(\\sqrt{5}r)^{2}}=\\frac{3}{5}$. 故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$30^{\\circ}$"
           ],
           "answer": "B",
-          "solution": "<p>建立直角坐标系，使正六边形底面位于 $z=0$ 平面，并取</p><p>$\\displaystyle A=(1,0,0)$，$\\ B=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$\\ C=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$\\ D=(-1,0,0)$，$\\ E=\\left(-\\frac{1}{2},-\\frac{\\sqrt{3}}{2},0\\right)$. 侧棱方向为 $(0,0,\\sqrt{2})$，于是</p><p>$\\displaystyle\\overrightarrow{DE_1}=\\left(\\frac{1}{2},-\\frac{\\sqrt{3}}{2},\\sqrt{2}\\right)$，</p><p>$\\displaystyle\\overrightarrow{BC_1}=\\left(-1,0,\\sqrt{2}\\right)$. 因而</p><p>$\\displaystyle\\overrightarrow{DE_1}\\cdot\\overrightarrow{BC_1}=\\frac{3}{2}$，且 $\\left|\\overrightarrow{DE_1}\\right|=\\left|\\overrightarrow{BC_1}\\right|=\\sqrt{3}$. 若所成的角为 $\\theta$，则 $\\cos\\theta=\\frac{1}{2}$，故 $\\theta=60^{\\circ}$，选 B.</p>"
+          "solution": "<p>建立直角坐标系，使正六边形底面位于 $z=0$ 平面，并取</p><p>$\\displaystyle A=(1,0,0)$，$\\ B=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$\\ C=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$\\ D=(-1,0,0)$，$\\ E=\\left(-\\frac{1}{2},-\\frac{\\sqrt{3}}{2},0\\right)$. 侧棱方向为 $(0,0,\\sqrt{2})$，于是</p><p>$\\displaystyle\\overrightarrow{DE_1}=\\left(\\frac{1}{2},-\\frac{\\sqrt{3}}{2},\\sqrt{2}\\right)$，</p><p>$\\displaystyle\\overrightarrow{BC_1}=\\left(-1,0,\\sqrt{2}\\right)$. 因而</p><p>$\\displaystyle\\overrightarrow{DE_1}\\cdot\\overrightarrow{BC_1}=\\frac{3}{2}$，且 $\\left|\\overrightarrow{DE_1}\\right|=\\left|\\overrightarrow{BC_1}\\right|=\\sqrt{3}$. 若所成的角为 $\\theta$，则 $\\cos\\theta=\\frac{1}{2}$，故 $\\theta=60^{\\circ}$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,19 +264,23 @@
             "$b < 0$"
           ],
           "answer": "A",
-          "solution": "函数在 $[0,+\\infty)$ 上的导数为 $y'=2x+b$. 若 $b\\geqslant0$，则对所有 $x\\geqslant0$ 有 $y'\\geqslant0$，函数在该区间上单调递增. 若 $b<0$，令 $x_{0}=-\\frac{b}{2}>0$，则当 $0\\le x<x_{0}$ 时有 $y'<0$，当 $x>x_{0}$ 时有 $y'>0$，函数先减后增，因而既不是单调递增函数，也不是单调递减函数. 所以充要条件为 $b\\geqslant0$，选 A."
+          "solution": "函数在 $[0,+\\infty)$ 上的导数为 $y'=2x+b$. 若 $b\\geqslant0$，则对所有 $x\\geqslant0$ 有 $y'\\geqslant0$，函数在该区间上单调递增. 若 $b<0$，令 $x_{0}=-\\frac{b}{2}>0$，则当 $0\\le x<x_{0}$ 时有 $y'<0$，当 $x>x_{0}$ 时有 $y'>0$，函数先减后增，因而既不是单调递增函数，也不是单调递减函数. 所以充要条件为 $b\\geqslant0$，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "函数 $y = 1 - \\frac{1}{x - 1}$ 的图象是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_science/q10_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_science/q10_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_science/q10_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_science/q10_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2002/img/syllabus_science/q10_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2002/img/syllabus_science/q10_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2002/img/syllabus_science/q10_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2002/img/syllabus_science/q10_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "B",
-          "solution": "函数满足 $\\displaystyle(x-1)(y-1)=-1$，所以图象的两条渐近线为 $x=1$ 和 $y=1$. 当 $x<1$ 时，$y-1=-\\frac{1}{x-1}>0$，故图象在直线 $x=1$ 左侧且位于 $y=1$ 上方；当 $x>1$ 时，图象在 $y=1$ 下方. 与选项图形比较可知应选 B."
+          "solution": "函数满足 $\\displaystyle(x-1)(y-1)=-1$，所以图象的两条渐近线为 $x=1$ 和 $y=1$. 当 $x<1$ 时，$y-1=-\\frac{1}{x-1}>0$，故图象在直线 $x=1$ 左侧且位于 $y=1$ 上方；当 $x>1$ 时，图象在 $y=1$ 下方. 与选项图形比较可知应选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +292,9 @@
             "$20$ 种"
           ],
           "answer": "B",
-          "solution": "正方体的三个相对面共有 $3$ 对. 先选定一对不相邻的相对面，再从其余 $4$ 个面中选取第三个面，共有 $3\\times4=12$ 种. 一个三面组合不可能同时含有两对相对面，所以没有重复计数，故选 B."
+          "solution": "正方体的三个相对面共有 $3$ 对. 先选定一对不相邻的相对面，再从其余 $4$ 个面中选取第三个面，共有 $3\\times4=12$ 种. 一个三面组合不可能同时含有两对相对面，所以没有重复计数，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +306,9 @@
             "$135000\\text{ 亿元}$"
           ],
           "answer": "C",
-          "solution": "<p>以 $2001$ 年末国内生产总值为基数，经过 $2002$ 年至 $2005$ 年共四次增长后，$2005$ 年末的国内生产总值为</p><p>$\\displaystyle 95933(1+7.3\\%)^{4}=95933(1.073)^{4}$. 又 $1.073^{2}=1.151329$，所以 $1.073^{4}\\approx1.32556$，从而 $95933(1.073)^{4}\\approx127165$（亿元），约为 $127000$ 亿元，故选 C.</p>"
+          "solution": "<p>以 $2001$ 年末国内生产总值为基数，经过 $2002$ 年至 $2005$ 年共四次增长后，$2005$ 年末的国内生产总值为</p><p>$\\displaystyle 95933(1+7.3\\%)^{4}=95933(1.073)^{4}$. 又 $1.073^{2}=1.151329$，所以 $1.073^{4}\\approx1.32556$，从而 $95933(1.073)^{4}\\approx127165$（亿元），约为 $127000$ 亿元，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +318,38 @@
         {
           "num": 13,
           "body": "函数 $y = a^{x}$ 在 $[0,1]$ 上的最大值与最小值之和为 3，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "2",
-          "solution": "指数函数的底数满足 $a>0$ 且 $a\\neq1$. 当 $a>1$ 时，$y=a^{x}$ 在 $[0,1]$ 上递增，最小值为 $a^{0}=1$，最大值为 $a^{1}=a$，故 $a+1=3$，得 $a=2$. 当 $0<a<1$ 时，函数在 $[0,1]$ 上递减，最大值与最小值之和为 $1+a<2$，不可能等于 $3$. 因此 $a=2$."
+          "solution": "指数函数的底数满足 $a>0$ 且 $a\\neq1$. 当 $a>1$ 时，$y=a^{x}$ 在 $[0,1]$ 上递增，最小值为 $a^{0}=1$，最大值为 $a^{1}=a$，故 $a+1=3$，得 $a=2$. 当 $0<a<1$ 时，函数在 $[0,1]$ 上递减，最大值与最小值之和为 $1+a<2$，不可能等于 $3$. 因此 $a=2$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "椭圆 $5x^{2}+ ky^{2}= 5$ 的一个焦点是 $(0,2)$，那么 $k =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "1",
-          "solution": "将椭圆方程化为 $\\displaystyle\\frac{x^{2}}{1}+\\frac{y^{2}}{\\frac{5}{k}}=1$. 焦点在 $y$ 轴上，故长半轴平方为 $\\displaystyle a^{2}=\\frac{5}{k}$，短半轴平方为 $b^{2}=1$. 由焦点为 $(0,2)$，有 $c=2$，从而 $c^{2}=a^{2}-b^{2}$，即 $4=\\frac{5}{k}-1$. 解得 $k=1$."
+          "solution": "将椭圆方程化为 $\\displaystyle\\frac{x^{2}}{1}+\\frac{y^{2}}{\\frac{5}{k}}=1$. 焦点在 $y$ 轴上，故长半轴平方为 $\\displaystyle a^{2}=\\frac{5}{k}$，短半轴平方为 $b^{2}=1$. 由焦点为 $(0,2)$，有 $c=2$，从而 $c^{2}=a^{2}-b^{2}$，即 $4=\\frac{5}{k}-1$. 解得 $k=1$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "$(x^{2}+ 1)(x - 2)^{7}$ 展开式中 $x^{3}$ 的系数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "1008",
-          "solution": "<p>要得到 $x^{3}$ 项，只有两种取法：从 $x^{2}(x-2)^{7}$ 中取 $(x-2)^{7}$ 的一次项，贡献 $\\displaystyle x^{2}\\cdot\\mathrm{C}_{7}^{1}x(-2)^{6}$；从 $(x-2)^{7}$ 中直接取三次项. 因此系数为</p><p>$\\displaystyle\\mathrm{C}_{7}^{1}(-2)^{6}+\\mathrm{C}_{7}^{3}(-2)^{4}=7\\times64+35\\times16=1008$.</p>"
+          "solution": "<p>要得到 $x^{3}$ 项，只有两种取法：从 $x^{2}(x-2)^{7}$ 中取 $(x-2)^{7}$ 的一次项，贡献 $\\displaystyle x^{2}\\cdot\\mathrm{C}_{7}^{1}x(-2)^{6}$；从 $(x-2)^{7}$ 中直接取三次项. 因此系数为</p><p>$\\displaystyle\\mathrm{C}_{7}^{1}(-2)^{6}+\\mathrm{C}_{7}^{3}(-2)^{4}=7\\times64+35\\times16=1008$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "已知 $f(x)=\\frac{x^{2}}{1+x^{2}}$，那么 $f(1)+f(2)+f\\left(\\frac{1}{2}\\right)+f(3)+f\\left(\\frac{1}{3}\\right)+f(4)+f\\left(\\frac{1}{4}\\right)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{7}{2}$",
-          "solution": "<p>对任意非零 $x$，有</p><p>$\\displaystyle f(x)+f\\left(\\frac{1}{x}\\right)=\\frac{x^{2}}{1+x^{2}}+\\frac{\\frac{1}{x^{2}}}{1+\\frac{1}{x^{2}}}=\\frac{x^{2}}{1+x^{2}}+\\frac{1}{1+x^{2}}=1$. 所以 $f(2)+f\\left(\\frac{1}{2}\\right)=1$，$f(3)+f\\left(\\frac{1}{3}\\right)=1$，$f(4)+f\\left(\\frac{1}{4}\\right)=1$，且 $f(1)=\\frac{1}{2}$. 原式为 $1+1+1+\\frac{1}{2}=\\frac{7}{2}$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{7}{2}\\)",
+          "solution": "<p>对任意非零 $x$，有</p><p>$\\displaystyle f(x)+f\\left(\\frac{1}{x}\\right)=\\frac{x^{2}}{1+x^{2}}+\\frac{\\frac{1}{x^{2}}}{1+\\frac{1}{x^{2}}}=\\frac{x^{2}}{1+x^{2}}+\\frac{1}{1+x^{2}}=1$. 所以 $f(2)+f\\left(\\frac{1}{2}\\right)=1$，$f(3)+f\\left(\\frac{1}{3}\\right)=1$，$f(4)+f\\left(\\frac{1}{4}\\right)=1$，且 $f(1)=\\frac{1}{2}$. 原式为 $1+1+1+\\frac{1}{2}=\\frac{7}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "已知 $\\sin^{2} 2\\alpha + \\sin 2\\alpha \\cos \\alpha - \\cos 2\\alpha = 1$（$\\alpha \\in \\left(0, \\frac{\\pi}{2}\\right)$），求 $\\sin \\alpha$，$\\tan \\alpha$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>令 $s=\\sin\\alpha$，$c=\\cos\\alpha$. 因为 $0<\\alpha<\\frac{\\pi}{2}$，所以 $0<s<1$ 且 $c>0$. 利用 $\\sin2\\alpha=2sc$、$\\cos2\\alpha=c^{2}-s^{2}$ 和 $c^{2}=1-s^{2}$，原等式化为</p><p>$\\displaystyle4s^{2}(1-s^{2})+2s(1-s^{2})-(1-2s^{2})=1$，即 $\\displaystyle2s^{4}+s^{3}-3s^{2}-s+1=0$. 因式分解得 $\\displaystyle(2s-1)(s+1)^{2}(s-1)=0$. 结合 $0<s<1$，得 $s=\\frac{1}{2}$，从而 $c=\\frac{\\sqrt{3}}{2}$，所以 $\\sin\\alpha=\\frac{1}{2}$，$\\tan\\alpha=\\frac{s}{c}=\\frac{\\sqrt{3}}{3}$.</p>"
+          "solution": "<p>令 $s=\\sin\\alpha$，$c=\\cos\\alpha$. 因为 $0<\\alpha<\\frac{\\pi}{2}$，所以 $0<s<1$ 且 $c>0$. 利用 $\\sin2\\alpha=2sc$、$\\cos2\\alpha=c^{2}-s^{2}$ 和 $c^{2}=1-s^{2}$，原等式化为</p><p>$\\displaystyle4s^{2}(1-s^{2})+2s(1-s^{2})-(1-2s^{2})=1$，即 $\\displaystyle2s^{4}+s^{3}-3s^{2}-s+1=0$. 因式分解得 $\\displaystyle(2s-1)(s+1)^{2}(s-1)=0$. 结合 $0<s<1$，得 $s=\\frac{1}{2}$，从而 $c=\\frac{\\sqrt{3}}{2}$，所以 $\\sin\\alpha=\\frac{1}{2}$，$\\tan\\alpha=\\frac{s}{c}=\\frac{\\sqrt{3}}{3}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>正方形 $ABCD$，$ABEF$ 的边长都是 $1$，而且平面 $ABCD$，$ABEF$ 互相垂直. 点 $M$ 在 $AC$ 上移动，点 $N$ 在 $BF$ 上移动，若 $CM = BN = a$（$0 < a < \\sqrt{2}$）.</p><ol class=\"enumerate\"><li><p>求 $MN$ 的长；</p></li><li><p>$a$ 为何值时，$MN$ 的长最小；</p></li><li><p>当 $MN$ 的长最小时，求面 $MNA$ 与面 $MNB$ 所成二面角 $\\alpha$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>正方形 $ABCD$，$ABEF$ 的边长都是 $1$，而且平面 $ABCD$，$ABEF$ 互相垂直. 点 $M$ 在 $AC$ 上移动，点 $N$ 在 $BF$ 上移动，若 $CM = BN = a$（$0 < a < \\sqrt{2}$）.</p><ol class=\"enumerate\"><li><p>求 $MN$ 的长；</p></li><li><p>$a$ 为何值时，$MN$ 的长最小；</p></li><li><p>当 $MN$ 的长最小时，求面 $MNA$ 与面 $MNB$ 所成二面角 $\\alpha$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2002/img/syllabus_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取 $A$ 为原点，令 $AB$、$AD$、$AF$ 分别为 $x$、$y$、$z$ 轴正向，则 $B(1,0,0)$、$C(1,1,0)$、$D(0,1,0)$、$F(0,0,1)$、$E(1,0,1)$. 因为 $AC=BF=\\sqrt{2}$，且 $CM=BN=a$，所以 $\\displaystyle M\\left(1-\\frac{a}{\\sqrt{2}},1-\\frac{a}{\\sqrt{2}},0\\right)$，$\\displaystyle N\\left(1-\\frac{a}{\\sqrt{2}},0,\\frac{a}{\\sqrt{2}}\\right)$. 因而</p><p>$\\displaystyle MN^{2}=\\left(1-\\frac{a}{\\sqrt{2}}\\right)^{2}+\\left(\\frac{a}{\\sqrt{2}}\\right)^{2}=a^{2}-\\sqrt{2}a+1=\\left(a-\\frac{\\sqrt{2}}{2}\\right)^{2}+\\frac{1}{2}$，故 $\\displaystyle MN=\\sqrt{\\left(a-\\frac{\\sqrt{2}}{2}\\right)^{2}+\\frac{1}{2}}$.</p></li><li><p>由上式，$\\displaystyle\\left(a-\\frac{\\sqrt{2}}{2}\\right)^{2}\\geqslant0$，所以当 $\\displaystyle a=\\frac{\\sqrt{2}}{2}$ 时，$MN$ 取得最小值 $\\displaystyle\\frac{\\sqrt{2}}{2}$.</p></li><li><p>当 $\\displaystyle a=\\frac{\\sqrt{2}}{2}$ 时，$M\\left(\\frac{1}{2},\\frac{1}{2},0\\right)$，$N\\left(\\frac{1}{2},0,\\frac{1}{2}\\right)$. 设 $H$ 为 $MN$ 的中点，则 $H\\left(\\frac{1}{2},\\frac{1}{4},\\frac{1}{4}\\right)$. 由坐标直接计算，$\\overrightarrow{MN}=(0,-\\frac{1}{2},\\frac{1}{2})$、$\\overrightarrow{HA}=(-\\frac{1}{2},-\\frac{1}{4},-\\frac{1}{4})$、$\\overrightarrow{HB}=(\\frac{1}{2},-\\frac{1}{4},-\\frac{1}{4})$，于是 $\\overrightarrow{HA}\\cdot\\overrightarrow{MN}=\\overrightarrow{HB}\\cdot\\overrightarrow{MN}=0$. 因而 $HA\\perp MN$、$HB\\perp MN$，且 $\\angle AHB$ 是所求二面角的平面角. 又 $\\displaystyle HA^{2}=HB^{2}=\\frac{3}{8}$，$AB=1$，由余弦定理，</p><p>$\\displaystyle\\cos\\alpha=\\cos\\angle AHB=\\frac{HA^{2}+HB^{2}-AB^{2}}{2HA\\cdot HB}=\\frac{\\frac{3}{8}+\\frac{3}{8}-1}{2\\cdot\\frac{3}{8}}=-\\frac{1}{3}$. 因此 $\\displaystyle\\alpha=\\arccos\\left(-\\frac{1}{3}\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取 $A$ 为原点，令 $AB$、$AD$、$AF$ 分别为 $x$、$y$、$z$ 轴正向，则 $B(1,0,0)$、$C(1,1,0)$、$D(0,1,0)$、$F(0,0,1)$、$E(1,0,1)$. 因为 $AC=BF=\\sqrt{2}$，且 $CM=BN=a$，所以 $\\displaystyle M\\left(1-\\frac{a}{\\sqrt{2}},1-\\frac{a}{\\sqrt{2}},0\\right)$，$\\displaystyle N\\left(1-\\frac{a}{\\sqrt{2}},0,\\frac{a}{\\sqrt{2}}\\right)$. 因而</p><p>$\\displaystyle MN^{2}=\\left(1-\\frac{a}{\\sqrt{2}}\\right)^{2}+\\left(\\frac{a}{\\sqrt{2}}\\right)^{2}=a^{2}-\\sqrt{2}a+1=\\left(a-\\frac{\\sqrt{2}}{2}\\right)^{2}+\\frac{1}{2}$，故 $\\displaystyle MN=\\sqrt{\\left(a-\\frac{\\sqrt{2}}{2}\\right)^{2}+\\frac{1}{2}}$.</p></li><li><p>由上式，$\\displaystyle\\left(a-\\frac{\\sqrt{2}}{2}\\right)^{2}\\geqslant0$，所以当 $\\displaystyle a=\\frac{\\sqrt{2}}{2}$ 时，$MN$ 取得最小值 $\\displaystyle\\frac{\\sqrt{2}}{2}$.</p></li><li><p>当 $\\displaystyle a=\\frac{\\sqrt{2}}{2}$ 时，$M\\left(\\frac{1}{2},\\frac{1}{2},0\\right)$，$N\\left(\\frac{1}{2},0,\\frac{1}{2}\\right)$. 设 $H$ 为 $MN$ 的中点，则 $H\\left(\\frac{1}{2},\\frac{1}{4},\\frac{1}{4}\\right)$. 由坐标直接计算，$\\overrightarrow{MN}=(0,-\\frac{1}{2},\\frac{1}{2})$、$\\overrightarrow{HA}=(-\\frac{1}{2},-\\frac{1}{4},-\\frac{1}{4})$、$\\overrightarrow{HB}=(\\frac{1}{2},-\\frac{1}{4},-\\frac{1}{4})$，于是 $\\overrightarrow{HA}\\cdot\\overrightarrow{MN}=\\overrightarrow{HB}\\cdot\\overrightarrow{MN}=0$. 因而 $HA\\perp MN$、$HB\\perp MN$，且 $\\angle AHB$ 是所求二面角的平面角. 又 $\\displaystyle HA^{2}=HB^{2}=\\frac{3}{8}$，$AB=1$，由余弦定理，</p><p>$\\displaystyle\\cos\\alpha=\\cos\\angle AHB=\\frac{HA^{2}+HB^{2}-AB^{2}}{2HA\\cdot HB}=\\frac{\\frac{3}{8}+\\frac{3}{8}-1}{2\\cdot\\frac{3}{8}}=-\\frac{1}{3}$. 因此 $\\displaystyle\\alpha=\\arccos\\left(-\\frac{1}{3}\\right)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "设点 $P$ 到点 $(-1,0)$，$(1,0)$ 距离之差为 $2m$，到 $x$ 轴、$y$ 轴的距离之比为 2，求 $m$ 的取值范围.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设 $P(x,y)$，则到 $x$ 轴、$y$ 轴的距离分别为 $|y|$、$|x|$. 由题意，$\\displaystyle\\frac{|y|}{|x|}=2$，所以 $y=\\pm2x$，且 $x\\neq0$. 于是 $P$ 不在两焦点 $(-1,0)$、$(1,0)$ 的连线上，故两焦点到 $P$ 的距离之差的绝对值严格小于焦点间距离 $2$，从而 $0<|m|<1$.</p><p>记 $d_{1}=\\sqrt{(x+1)^{2}+y^{2}}$、$d_{2}=\\sqrt{(x-1)^{2}+y^{2}}$. 由题意 $|d_{1}-d_{2}|=2|m|$，所以以 $(-1,0)$、$(1,0)$ 为焦点的双曲线的实半轴为 $|m|$，焦半距为 $1$，虚半轴平方为 $1-m^{2}$. 因而 $P$ 满足双曲线方程 $\\displaystyle\\frac{x^{2}}{m^{2}}-\\frac{y^{2}}{1-m^{2}}=1$. 代入 $y^{2}=4x^{2}$，得</p><p>$\\displaystyle x^{2}\\left(\\frac{1}{m^{2}}-\\frac{4}{1-m^{2}}\\right)=1$，即 $\\displaystyle x^{2}=\\frac{m^{2}(1-m^{2})}{1-5m^{2}}$. 因为 $x^{2}>0$、$0<m^{2}<1$，所以必须有 $1-5m^{2}>0$，即 $0<m^{2}<\\frac{1}{5}$.</p><p>反之，若 $0<m^{2}<\\frac{1}{5}$，则上式给出正数 $x^{2}$，取任意满足该式的非零 $x$，再取 $y=2x$ 或 $y=-2x$，所得点满足距离比条件和双曲线方程，因而满足原距离差条件. 所以 $m$ 的取值范围为 $\\displaystyle\\left(-\\frac{\\sqrt{5}}{5},0\\right)\\cup\\left(0,\\frac{\\sqrt{5}}{5}\\right)$.</p>"
+          "solution": "<p>设 $P(x,y)$，则到 $x$ 轴、$y$ 轴的距离分别为 $|y|$、$|x|$. 由题意，$\\displaystyle\\frac{|y|}{|x|}=2$，所以 $y=\\pm2x$，且 $x\\neq0$. 于是 $P$ 不在两焦点 $(-1,0)$、$(1,0)$ 的连线上，故两焦点到 $P$ 的距离之差的绝对值严格小于焦点间距离 $2$，从而 $0<|m|<1$.</p><p>记 $d_{1}=\\sqrt{(x+1)^{2}+y^{2}}$、$d_{2}=\\sqrt{(x-1)^{2}+y^{2}}$. 由题意 $|d_{1}-d_{2}|=2|m|$，所以以 $(-1,0)$、$(1,0)$ 为焦点的双曲线的实半轴为 $|m|$，焦半距为 $1$，虚半轴平方为 $1-m^{2}$. 因而 $P$ 满足双曲线方程 $\\displaystyle\\frac{x^{2}}{m^{2}}-\\frac{y^{2}}{1-m^{2}}=1$. 代入 $y^{2}=4x^{2}$，得</p><p>$\\displaystyle x^{2}\\left(\\frac{1}{m^{2}}-\\frac{4}{1-m^{2}}\\right)=1$，即 $\\displaystyle x^{2}=\\frac{m^{2}(1-m^{2})}{1-5m^{2}}$. 因为 $x^{2}>0$、$0<m^{2}<1$，所以必须有 $1-5m^{2}>0$，即 $0<m^{2}<\\frac{1}{5}$.</p><p>反之，若 $0<m^{2}<\\frac{1}{5}$，则上式给出正数 $x^{2}$，取任意满足该式的非零 $x$，再取 $y=2x$ 或 $y=-2x$，所得点满足距离比条件和双曲线方程，因而满足原距离差条件. 所以 $m$ 的取值范围为 $\\displaystyle\\left(-\\frac{\\sqrt{5}}{5},0\\right)\\cup\\left(0,\\frac{\\sqrt{5}}{5}\\right)$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "某城市 $2001\\text{ 年}$末汽车保有量为 $30\\text{ 万辆}$，预计此后每年报废上一年末汽车保有量的 $6\\%$，并且每年新增汽车数量相同. 为保护城市环境，要求该城市汽车保有量不超过 $60\\text{ 万辆}$，那么每年新增汽车数量不应超过多少辆？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>以万辆为单位，设每年新增汽车数量为 $x$（$x\\geqslant0$），记 $u_{n}$ 为第 $n$ 年末汽车保有量，其中 $u_{0}=30$. 由每年报废上一年末保有量的 $6\\%$，得 $\\displaystyle u_{n+1}=0.94u_{n}+x$. 令 $\\displaystyle L=\\frac{x}{1-0.94}=\\frac{x}{0.06}$，则</p><p>$\\displaystyle u_{n+1}-L=0.94(u_{n}-L)$，所以 $\\displaystyle u_{n}=L+(30-L)0.94^{n}$.</p><p>当 $0\\le x\\leqslant1.8$ 时，$L\\leqslant30$，于是 $\\displaystyle u_{n}=L+(30-L)0.94^{n}\\le L+(30-L)=30$. 当 $1.8<x\\leqslant3.6$ 时，$30<L\\leqslant60$，且 $30-L<0$，所以 $u_{n}<L\\leqslant60$，并且保有量随 $n$ 增加而递增，始终不超过 $60$.</p><p>反之，若 $x>3.6$，则 $L>60$，且 $u_{n}=L+(30-L)0.94^{n}$ 递增并趋于 $L>60$. 因为数列收敛到大于 $60$ 的数，所以存在某个 $n$ 使 $u_{n}>60$，不能满足题设要求. 因此 $x\\leqslant3.6$ 万辆，即每年新增汽车数量不应超过 $36000$ 辆.</p>"
+          "solution": "<p>以万辆为单位，设每年新增汽车数量为 $x$（$x\\geqslant0$），记 $u_{n}$ 为第 $n$ 年末汽车保有量，其中 $u_{0}=30$. 由每年报废上一年末保有量的 $6\\%$，得 $\\displaystyle u_{n+1}=0.94u_{n}+x$. 令 $\\displaystyle L=\\frac{x}{1-0.94}=\\frac{x}{0.06}$，则</p><p>$\\displaystyle u_{n+1}-L=0.94(u_{n}-L)$，所以 $\\displaystyle u_{n}=L+(30-L)0.94^{n}$.</p><p>当 $0\\le x\\leqslant1.8$ 时，$L\\leqslant30$，于是 $\\displaystyle u_{n}=L+(30-L)0.94^{n}\\le L+(30-L)=30$. 当 $1.8<x\\leqslant3.6$ 时，$30<L\\leqslant60$，且 $30-L<0$，所以 $u_{n}<L\\leqslant60$，并且保有量随 $n$ 增加而递增，始终不超过 $60$.</p><p>反之，若 $x>3.6$，则 $L>60$，且 $u_{n}=L+(30-L)0.94^{n}$ 递增并趋于 $L>60$. 因为数列收敛到大于 $60$ 的数，所以存在某个 $n$ 使 $u_{n}>60$，不能满足题设要求. 因此 $x\\leqslant3.6$ 万辆，即每年新增汽车数量不应超过 $36000$ 辆.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>设 $a$ 为实数，函数 $f(x) = x^{2}+ |x - a| + 1$（$x \\in \\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的奇偶性；</p></li><li><p>求 $f(x)$ 的最小值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $f(0)=|a|+1>0$，所以 $f(x)$ 不可能是奇函数. 当 $a=0$ 时，$f(-x)=x^{2}+|-x|+1=f(x)$，故为偶函数. 若 $a\\neq0$，取 $x=a$，则 $f(a)=a^{2}+1$，而 $f(-a)=a^{2}+2|a|+1\\neq f(a)$，故不是偶函数. 所以当且仅当 $a=0$ 时为偶函数，其他情形既非奇函数也非偶函数.</p></li><li><p>按 $x$ 与 $a$ 的大小去掉绝对值符号：当 $x\\le a$ 时，</p><p>$\\displaystyle f(x)=x^{2}-x+a+1=\\left(x-\\frac{1}{2}\\right)^{2}+a+\\frac{3}{4}$；当 $x\\ge a$ 时，</p><p>$\\displaystyle f(x)=x^{2}+x-a+1=\\left(x+\\frac{1}{2}\\right)^{2}-a+\\frac{3}{4}$.</p><p>在区间 $(-\\infty,a]$ 上，第一段平方项的顶点为 $x=\\frac{1}{2}$：若 $a\\le\\frac{1}{2}$，该段最小值在 $x=a$ 处取得，为 $a^{2}+1$；若 $a>\\frac{1}{2}$，该段最小值在 $x=\\frac{1}{2}$ 处取得，为 $a+\\frac{3}{4}$. 在区间 $[a,+\\infty)$ 上，第二段平方项的顶点为 $x=-\\frac{1}{2}$：若 $a\\le-\\frac{1}{2}$，该段最小值在 $x=-\\frac{1}{2}$ 处取得，为 $\\frac{3}{4}-a$；若 $a>-\\frac{1}{2}$，该段最小值在 $x=a$ 处取得，为 $a^{2}+1$.</p><p>当 $a\\le-\\frac{1}{2}$ 时，$\\displaystyle a^{2}+1-\\left(\\frac{3}{4}-a\\right)=\\left(a+\\frac{1}{2}\\right)^{2}\\geqslant0$，故全局最小值为 $\\frac{3}{4}-a$. 当 $-\\frac{1}{2}<a\\le\\frac{1}{2}$ 时，两段的最小值都在连接点 $x=a$ 处取得，故全局最小值为 $a^{2}+1$. 当 $a>\\frac{1}{2}$ 时，$\\displaystyle a^{2}+1-\\left(a+\\frac{3}{4}\\right)=\\left(a-\\frac{1}{2}\\right)^{2}\\geqslant0$，故全局最小值为 $a+\\frac{3}{4}$. 因此</p><p>$\\displaystyle\\min_{x\\in\\mathbb{R}}f(x)=\\begin{cases}\\frac{3}{4}-a,&a\\le-\\frac{1}{2},\\\\  a^{2}+1,&-\\frac{1}{2}<a\\le\\frac{1}{2},\\\\  a+\\frac{3}{4},&a>\\frac{1}{2}.\\end{cases}$</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $f(0)=|a|+1>0$，所以 $f(x)$ 不可能是奇函数. 当 $a=0$ 时，$f(-x)=x^{2}+|-x|+1=f(x)$，故为偶函数. 若 $a\\neq0$，取 $x=a$，则 $f(a)=a^{2}+1$，而 $f(-a)=a^{2}+2|a|+1\\neq f(a)$，故不是偶函数. 所以当且仅当 $a=0$ 时为偶函数，其他情形既非奇函数也非偶函数.</p></li><li><p>按 $x$ 与 $a$ 的大小去掉绝对值符号：当 $x\\le a$ 时，</p><p>$\\displaystyle f(x)=x^{2}-x+a+1=\\left(x-\\frac{1}{2}\\right)^{2}+a+\\frac{3}{4}$；当 $x\\ge a$ 时，</p><p>$\\displaystyle f(x)=x^{2}+x-a+1=\\left(x+\\frac{1}{2}\\right)^{2}-a+\\frac{3}{4}$.</p><p>在区间 $(-\\infty,a]$ 上，第一段平方项的顶点为 $x=\\frac{1}{2}$：若 $a\\le\\frac{1}{2}$，该段最小值在 $x=a$ 处取得，为 $a^{2}+1$；若 $a>\\frac{1}{2}$，该段最小值在 $x=\\frac{1}{2}$ 处取得，为 $a+\\frac{3}{4}$. 在区间 $[a,+\\infty)$ 上，第二段平方项的顶点为 $x=-\\frac{1}{2}$：若 $a\\le-\\frac{1}{2}$，该段最小值在 $x=-\\frac{1}{2}$ 处取得，为 $\\frac{3}{4}-a$；若 $a>-\\frac{1}{2}$，该段最小值在 $x=a$ 处取得，为 $a^{2}+1$.</p><p>当 $a\\le-\\frac{1}{2}$ 时，$\\displaystyle a^{2}+1-\\left(\\frac{3}{4}-a\\right)=\\left(a+\\frac{1}{2}\\right)^{2}\\geqslant0$，故全局最小值为 $\\frac{3}{4}-a$. 当 $-\\frac{1}{2}<a\\le\\frac{1}{2}$ 时，两段的最小值都在连接点 $x=a$ 处取得，故全局最小值为 $a^{2}+1$. 当 $a>\\frac{1}{2}$ 时，$\\displaystyle a^{2}+1-\\left(a+\\frac{3}{4}\\right)=\\left(a-\\frac{1}{2}\\right)^{2}\\geqslant0$，故全局最小值为 $a+\\frac{3}{4}$. 因此</p><p>$\\displaystyle\\min_{x\\in\\mathbb{R}}f(x)=\\begin{cases}\\frac{3}{4}-a,&a\\le-\\frac{1}{2},\\\\  a^{2}+1,&-\\frac{1}{2}<a\\le\\frac{1}{2},\\\\  a+\\frac{3}{4},&a>\\frac{1}{2}.\\end{cases}$</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>设数列 $\\{a_{n}\\}$ 满足： $a_{n + 1}= a_{n}^{2} - n a_{n} + 1$（$n = 1$，$2$，$3$，$\\dots$）.</p><ol class=\"enumerate\"><li><p>当 $a_{1}= 2$ 时，求 $a_{2}$，$a_{3}$，$a_{4}$ 并由此猜测 $a_{n}$ 的一个通项公式；</p></li><li><p>当 $a_{1}\\ge 3$ 时，证明对所有的 $n \\ge 1$，有</p><p></p><ol class=\"enumerate\"><li><p>$a_{n}\\ge n + 2$；</p></li><li><p>$\\frac{1}{1 + a_{1}}+\\frac{1}{1 + a_{2}}+\\frac{1}{1 + a_{3}}+\\dots +\\frac{1}{1 + a_{n}}\\le \\frac{1}{2}$.</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由递推式，$\\displaystyle a_{2}=2^{2}-1\\cdot2+1=3$，$\\displaystyle a_{3}=3^{2}-2\\cdot3+1=4$，$\\displaystyle a_{4}=4^{2}-3\\cdot4+1=5$. 由此猜测 $a_{n}=n+1$. 下面用数学归纳法验证：当 $n=1$ 时，$a_{1}=2=1+1$；若 $a_{n}=n+1$，则由递推式</p><p>$\\displaystyle a_{n+1}=a_{n}^{2}-na_{n}+1=(n+1)^{2}-n(n+1)+1=n+2=(n+1)+1$. 因而对所有 $n\\geqslant1$，$a_{n}=n+1$.</p></li><li><p>先证明 $a_{n}\\ge n+2$. 当 $n=1$ 时，题设给出 $a_{1}\\geqslant3=1+2$. 若 $a_{n}\\ge n+2$，则 $a_{n}-n\\geqslant2$，从而</p><p>$\\displaystyle a_{n+1}=a_{n}(a_{n}-n)+1\\geqslant2a_{n}+1\\geqslant2(n+2)+1\\ge n+3$. 由数学归纳法，$a_{n}\\ge n+2$ 对所有 $n\\geqslant1$ 成立.</p><p>由上面的不等式，对每个 $n\\geqslant1$ 都有 $a_{n}-n\\geqslant2$，所以 $\\displaystyle a_{n+1}=a_{n}(a_{n}-n)+1\\geqslant2a_{n}+1$. 因而</p><p>$\\displaystyle 1+a_{n+1}\\geqslant2(1+a_{n})$，即 $\\displaystyle\\frac{1}{1+a_{n+1}}\\le\\frac{1}{2(1+a_{n})}$. 逐次迭代得到，对每个 $k\\geqslant1$，</p><p>$\\displaystyle\\frac{1}{1+a_{k}}\\le\\frac{1}{2^{k-1}(1+a_{1})}$. 于是</p><p>$\\displaystyle\\sum_{k=1}^{n}\\frac{1}{1+a_{k}}\\le\\frac{1}{1+a_{1}}\\sum_{k=1}^{n}\\frac{1}{2^{k-1}}=\\frac{2}{1+a_{1}}\\left(1-\\frac{1}{2^{n}}\\right)\\le\\frac{2}{1+a_{1}}\\le\\frac{1}{2}$，其中最后一个不等式用了 $a_{1}\\geqslant3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由递推式，$\\displaystyle a_{2}=2^{2}-1\\cdot2+1=3$，$\\displaystyle a_{3}=3^{2}-2\\cdot3+1=4$，$\\displaystyle a_{4}=4^{2}-3\\cdot4+1=5$. 由此猜测 $a_{n}=n+1$. 下面用数学归纳法验证：当 $n=1$ 时，$a_{1}=2=1+1$；若 $a_{n}=n+1$，则由递推式</p><p>$\\displaystyle a_{n+1}=a_{n}^{2}-na_{n}+1=(n+1)^{2}-n(n+1)+1=n+2=(n+1)+1$. 因而对所有 $n\\geqslant1$，$a_{n}=n+1$.</p></li><li><p>先证明 $a_{n}\\ge n+2$. 当 $n=1$ 时，题设给出 $a_{1}\\geqslant3=1+2$. 若 $a_{n}\\ge n+2$，则 $a_{n}-n\\geqslant2$，从而</p><p>$\\displaystyle a_{n+1}=a_{n}(a_{n}-n)+1\\geqslant2a_{n}+1\\geqslant2(n+2)+1\\ge n+3$. 由数学归纳法，$a_{n}\\ge n+2$ 对所有 $n\\geqslant1$ 成立.</p><p>由上面的不等式，对每个 $n\\geqslant1$ 都有 $a_{n}-n\\geqslant2$，所以 $\\displaystyle a_{n+1}=a_{n}(a_{n}-n)+1\\geqslant2a_{n}+1$. 因而</p><p>$\\displaystyle 1+a_{n+1}\\geqslant2(1+a_{n})$，即 $\\displaystyle\\frac{1}{1+a_{n+1}}\\le\\frac{1}{2(1+a_{n})}$. 逐次迭代得到，对每个 $k\\geqslant1$，</p><p>$\\displaystyle\\frac{1}{1+a_{k}}\\le\\frac{1}{2^{k-1}(1+a_{1})}$. 于是</p><p>$\\displaystyle\\sum_{k=1}^{n}\\frac{1}{1+a_{k}}\\le\\frac{1}{1+a_{1}}\\sum_{k=1}^{n}\\frac{1}{2^{k-1}}=\\frac{2}{1+a_{1}}\\left(1-\\frac{1}{2^{n}}\\right)\\le\\frac{2}{1+a_{1}}\\le\\frac{1}{2}$，其中最后一个不等式用了 $a_{1}\\geqslant3$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

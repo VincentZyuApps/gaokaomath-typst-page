@@ -1,8 +1,137 @@
 {
-  "title": "2015年普通高等学校招生全国统一考试",
-  "subtitle": "2015年四川卷（文）",
   "year": "2015",
   "slug": "sichuan_liberal",
+  "title": "2015年四川卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +146,9 @@
             "$\\{x\\mid 2 < x < 3\\}$"
           ],
           "answer": "A",
-          "solution": "<p>由并集的定义，属于 $A\\cup B$ 的实数应属于 $A$ 或属于 $B$. 两个开区间有公共部分，且左端点为 $-1$，右端点为 $3$，所以</p>\n$$\nA\\cup B=(-1,3)=\\{x\\mid -1<x<3\\}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>由并集的定义，属于 $A\\cup B$ 的实数应属于 $A$ 或属于 $B$. 两个开区间有公共部分，且左端点为 $-1$，右端点为 $3$，所以</p>\n$$\nA\\cup B=(-1,3)=\\{x\\mid -1<x<3\\}\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +160,9 @@
             "$6$"
           ],
           "answer": "B",
-          "solution": "<p>两个向量共线，当且仅当它们的对应坐标行列式为零，因此</p>\n$$\n2\\times 6-4x=0\n$$\n<p>解得 $x=3$，故选 B.</p>"
+          "solution": "<p>两个向量共线，当且仅当它们的对应坐标行列式为零，因此</p>\n$$\n2\\times 6-4x=0\n$$\n<p>解得 $x=3$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +174,9 @@
             "随机数法"
           ],
           "answer": "C",
-          "solution": "题目要比较三个年级的学生视力，三个年级分别构成不同的层，并且要求按人数比例从各层抽取学生. 先分层，再按比例抽样，正是分层抽样法，故选 C."
+          "solution": "题目要比较三个年级的学生视力，三个年级分别构成不同的层，并且要求按人数比例从各层抽取学生. 先分层，再按比例抽样，正是分层抽样法，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +188,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>因为底数 $2>1$，函数 $y=\\log_{2}x$ 在 $(0,+\\infty)$ 上单调递增.</p><p>若 $a>b>1$，则</p>\n$$\n\\log_{2}a>\\log_{2}b>\\log_{2}1=0\n$$\n<p>反过来，若 $\\log_{2}a>\\log_{2}b>0$，由单调性得 $a>b$，又由 $\\log_{2}b>\\log_{2}1$ 得 $b>1$，从而 $a>b>1$. 两组条件互相推出，故选 A.</p>"
+          "solution": "<p>因为底数 $2>1$，函数 $y=\\log_{2}x$ 在 $(0,+\\infty)$ 上单调递增.</p><p>若 $a>b>1$，则</p>\n$$\n\\log_{2}a>\\log_{2}b>\\log_{2}1=0\n$$\n<p>反过来，若 $\\log_{2}a>\\log_{2}b>0$，由单调性得 $a>b$，又由 $\\log_{2}b>\\log_{2}1$ 得 $b>1$，从而 $a>b>1$. 两组条件互相推出，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +202,9 @@
             "$y = \\sin x + \\cos x$"
           ],
           "answer": "B",
-          "solution": "<p>选项 A 中</p>\n$$\n\\sin\\left(2x+\\frac{\\pi}{2}\\right)=\\cos 2x\n$$\n<p>虽然最小正周期为 $\\pi$，但它是偶函数，不是奇函数.</p><p>选项 B 中</p>\n$$\n\\cos\\left(2x+\\frac{\\pi}{2}\\right)=-\\sin 2x\n$$\n<p>所以它是奇函数，且最小正周期为 $\\pi$. 选项 C 在 $x=0$ 时函数值为 $1$，不是奇函数；选项 D 的最小正周期为 $2\\pi$，也不符合题意. 因此选 B.</p>"
+          "solution": "<p>选项 A 中</p>\n$$\n\\sin\\left(2x+\\frac{\\pi}{2}\\right)=\\cos 2x\n$$\n<p>虽然最小正周期为 $\\pi$，但它是偶函数，不是奇函数.</p><p>选项 B 中</p>\n$$\n\\cos\\left(2x+\\frac{\\pi}{2}\\right)=-\\sin 2x\n$$\n<p>所以它是奇函数，且最小正周期为 $\\pi$. 选项 C 在 $x=0$ 时函数值为 $1$，不是奇函数；选项 D 的最小正周期为 $2\\pi$，也不符合题意. 因此选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +216,9 @@
             "$\\frac{1}{2}$"
           ],
           "answer": "D",
-          "solution": "<p>程序开始时 $k=1$. 每次循环先执行 $k=k+1$，再判断 $k>4$. 因此依次得到 $k=2$，$3$，$4$ 时均返回循环，得到 $k=5$ 时满足 $k>4$，停止循环并输出</p>\n$$\nS=\\sin\\frac{5\\pi}{6}=\\frac{1}{2}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>程序开始时 $k=1$. 每次循环先执行 $k=k+1$，再判断 $k>4$. 因此依次得到 $k=2$，$3$，$4$ 时均返回循环，得到 $k=5$ 时满足 $k>4$，停止循环并输出</p>\n$$\nS=\\sin\\frac{5\\pi}{6}=\\frac{1}{2}\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +230,9 @@
             "$4 \\sqrt{3}$"
           ],
           "answer": "D",
-          "solution": "<p>双曲线可写为</p>\n$$\n\\frac{x^{2}}{1^{2}}-\\frac{y^{2}}{(\\sqrt{3})^{2}}=1\n$$\n<p>所以 $a=1$，$b=\\sqrt{3}$，焦半距</p>\n$$\nc=\\sqrt{a^{2}+b^{2}}=2\n$$\n<p>右焦点为 $(2,0)$，过该点且垂直于 $x$ 轴的直线为 $x=2$. 双曲线的两条渐近线为 $y=\\pm\\sqrt{3}x$，与 $x=2$ 的交点纵坐标分别为 $2\\sqrt{3}$ 和 $-2\\sqrt{3}$，故</p>\n$$\n|AB|=2\\sqrt{3}-(-2\\sqrt{3})=4\\sqrt{3}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>双曲线可写为</p>\n$$\n\\frac{x^{2}}{1^{2}}-\\frac{y^{2}}{(\\sqrt{3})^{2}}=1\n$$\n<p>所以 $a=1$，$b=\\sqrt{3}$，焦半距</p>\n$$\nc=\\sqrt{a^{2}+b^{2}}=2\n$$\n<p>右焦点为 $(2,0)$，过该点且垂直于 $x$ 轴的直线为 $x=2$. 双曲线的两条渐近线为 $y=\\pm\\sqrt{3}x$，与 $x=2$ 的交点纵坐标分别为 $2\\sqrt{3}$ 和 $-2\\sqrt{3}$，故</p>\n$$\n|AB|=2\\sqrt{3}-(-2\\sqrt{3})=4\\sqrt{3}\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +244,9 @@
             "$28\\text{ 小时}$"
           ],
           "answer": "C",
-          "solution": "<p>由 $y=\\mathrm{e}^{kx+b}$ 以及已知条件，得</p><p>$\\mathrm{e}^{b}=192$，$\\mathrm{e}^{22k+b}=48$.</p><p>两式相除得 $\\mathrm{e}^{22k}=\\frac{1}{4}$. 于是</p>\n$$\n\\mathrm{e}^{11k}=\\sqrt{\\mathrm{e}^{22k}}=\\frac{1}{2}\n$$\n<p>因此</p>\n$$\ny(33)=\\mathrm{e}^{33k+b}=\\mathrm{e}^{22k+b}\\mathrm{e}^{11k}=48\\times\\frac{1}{2}=24\n$$\n<p>故选 C.</p>"
+          "solution": "<p>由 $y=\\mathrm{e}^{kx+b}$ 以及已知条件，得</p><p>$\\mathrm{e}^{b}=192$，$\\mathrm{e}^{22k+b}=48$.</p><p>两式相除得 $\\mathrm{e}^{22k}=\\frac{1}{4}$. 于是</p>\n$$\n\\mathrm{e}^{11k}=\\sqrt{\\mathrm{e}^{22k}}=\\frac{1}{2}\n$$\n<p>因此</p>\n$$\ny(33)=\\mathrm{e}^{33k+b}=\\mathrm{e}^{22k+b}\\mathrm{e}^{11k}=48\\times\\frac{1}{2}=24\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +258,9 @@
             "$16$"
           ],
           "answer": "A",
-          "solution": "<p>三个约束边界的交点分别为</p><p>由 $2x+y=10$，$x+y=6$ 得 $(x,y)=(4,2)$；</p><p>由 $x+2y=14$，$x+y=6$ 得 $(x,y)=(-2,8)$；</p><p>由 $2x+y=10$，$x+2y=14$ 得 $(x,y)=(2,6)$.</p><p>可行域是以这三个点为顶点的三角形. 分别在三条边上考察 $xy$.</p><p>在 $x+y=6$ 上，$-2\\le x\\leqslant4$，有</p>\n$$\nxy=x(6-x)=9-(x-3)^{2}\\leqslant9\n$$\n<p>在 $2x+y=10$ 上，$2\\le x\\leqslant4$，有</p>\n$$\nxy=x(10-2x)=\\frac{25}{2}-2\\left(x-\\frac{5}{2}\\right)^{2}\\le\\frac{25}{2}\n$$\n<p>在 $x+2y=14$ 上，$-2\\le x\\leqslant2$，有</p>\n$$\nxy=\\frac{x(14-x)}{2}=\\frac{49}{2}-\\frac{1}{2}(x-7)^{2}\\leqslant12\n$$\n<p>由于 $xy$ 在可行域内部可导，若在内部取得极值，必须有</p><p>$\\frac{\\partial(xy)}{\\partial x}=y=0$，$\\frac{\\partial(xy)}{\\partial y}=x=0$，</p><p>即极值点只能是 $(0,0)$，但 $(0,0)$ 不满足 $x+y\\geqslant6$. 因此只需比较三条边上的最大值，所以 $xy$ 的最大值为 $\\frac{25}{2}$，故选 A.</p>"
+          "solution": "<p>三个约束边界的交点分别为</p><p>由 $2x+y=10$，$x+y=6$ 得 $(x,y)=(4,2)$；</p><p>由 $x+2y=14$，$x+y=6$ 得 $(x,y)=(-2,8)$；</p><p>由 $2x+y=10$，$x+2y=14$ 得 $(x,y)=(2,6)$.</p><p>可行域是以这三个点为顶点的三角形. 分别在三条边上考察 $xy$.</p><p>在 $x+y=6$ 上，$-2\\le x\\leqslant4$，有</p>\n$$\nxy=x(6-x)=9-(x-3)^{2}\\leqslant9\n$$\n<p>在 $2x+y=10$ 上，$2\\le x\\leqslant4$，有</p>\n$$\nxy=x(10-2x)=\\frac{25}{2}-2\\left(x-\\frac{5}{2}\\right)^{2}\\le\\frac{25}{2}\n$$\n<p>在 $x+2y=14$ 上，$-2\\le x\\leqslant2$，有</p>\n$$\nxy=\\frac{x(14-x)}{2}=\\frac{49}{2}-\\frac{1}{2}(x-7)^{2}\\leqslant12\n$$\n<p>由于 $xy$ 在可行域内部可导，若在内部取得极值，必须有</p><p>$\\frac{\\partial(xy)}{\\partial x}=y=0$，$\\frac{\\partial(xy)}{\\partial y}=x=0$，</p><p>即极值点只能是 $(0,0)$，但 $(0,0)$ 不满足 $x+y\\geqslant6$. 因此只需比较三条边上的最大值，所以 $xy$ 的最大值为 $\\frac{25}{2}$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +272,9 @@
             "$(2, 4)$"
           ],
           "answer": "D",
-          "solution": "<p>先考虑非竖直弦. 设抛物线上的两交点对应的参数为 $t_{1}$，$t_{2}$，则</p><p>$A=(t_{1}^{2},2t_{1})$，$B=(t_{2}^{2},2t_{2})$.</p><p>记 $s=t_{1}+t_{2}$，$q=t_{1}t_{2}$. 当 $s\\neq0$ 时，弦 $AB$ 的方程为</p>\n$$\nsy=2x+2q\n$$\n<p>其中点 $M$ 为</p>\n$$\nM=\\left(\\frac{s^{2}}{2}-q,s\\right)\n$$\n<p>圆心为 $O_{0}=(5,0)$，弦的方向向量可取 $(s,2)$. 直线在 $M$ 处与圆相切，等价于</p>\n$$\n\\overrightarrow{O_0M}\\cdot(s,2)=0\n$$\n<p>代入 $M$ 得</p>\n$$\ns\\left(\\frac{s^{2}}{2}-q-5\\right)+2s=0\n$$\n<p>由于 $s\\neq0$，所以 $q=\\frac{s^{2}}{2}-3$，从而 $M=(3,s)$. 因此</p>\n$$\nr^{2}=|O_{0}M|^{2}=(3-5)^{2}+s^{2}=4+s^{2}\n$$\n<p>两交点不同的条件为</p>\n$$\n(t_{1}-t_{2})^{2}=s^{2}-4q=12-s^{2}>0\n$$\n<p>再结合 $s\\neq0$，可知非竖直切线存在当且仅当 $2<r<4$，且此时 $s=\\pm\\sqrt{r^{2}-4}$，对应两条直线.</p><p>还要考虑竖直弦 $x=c$. 它与抛物线有两个不同交点的条件是 $c>0$，其中点为 $(c,0)$. 直线 $x=c$ 在该点与圆相切，当且仅当</p>\n$$\n|c-5|=r\n$$\n<p>当 $0<r<5$ 时，$c=5-r$ 与 $c=5+r$ 均为正，故有两条竖直切线；当 $r\\geqslant5$ 时，只有 $c=5+r>0$ 对应一条竖直切线. 结合非竖直切线仅在 $2<r<4$ 时有两条，可知总直线数为 $4$ 当且仅当 $2<r<4$. 所以</p>\n$$\nr\\in(2,4)\n$$\n<p>故选 D.</p>"
+          "solution": "<p>先考虑非竖直弦. 设抛物线上的两交点对应的参数为 $t_{1}$，$t_{2}$，则</p><p>$A=(t_{1}^{2},2t_{1})$，$B=(t_{2}^{2},2t_{2})$.</p><p>记 $s=t_{1}+t_{2}$，$q=t_{1}t_{2}$. 当 $s\\neq0$ 时，弦 $AB$ 的方程为</p>\n$$\nsy=2x+2q\n$$\n<p>其中点 $M$ 为</p>\n$$\nM=\\left(\\frac{s^{2}}{2}-q,s\\right)\n$$\n<p>圆心为 $O_{0}=(5,0)$，弦的方向向量可取 $(s,2)$. 直线在 $M$ 处与圆相切，等价于</p>\n$$\n\\overrightarrow{O_0M}\\cdot(s,2)=0\n$$\n<p>代入 $M$ 得</p>\n$$\ns\\left(\\frac{s^{2}}{2}-q-5\\right)+2s=0\n$$\n<p>由于 $s\\neq0$，所以 $q=\\frac{s^{2}}{2}-3$，从而 $M=(3,s)$. 因此</p>\n$$\nr^{2}=|O_{0}M|^{2}=(3-5)^{2}+s^{2}=4+s^{2}\n$$\n<p>两交点不同的条件为</p>\n$$\n(t_{1}-t_{2})^{2}=s^{2}-4q=12-s^{2}>0\n$$\n<p>再结合 $s\\neq0$，可知非竖直切线存在当且仅当 $2<r<4$，且此时 $s=\\pm\\sqrt{r^{2}-4}$，对应两条直线.</p><p>还要考虑竖直弦 $x=c$. 它与抛物线有两个不同交点的条件是 $c>0$，其中点为 $(c,0)$. 直线 $x=c$ 在该点与圆相切，当且仅当</p>\n$$\n|c-5|=r\n$$\n<p>当 $0<r<5$ 时，$c=5-r$ 与 $c=5+r$ 均为正，故有两条竖直切线；当 $r\\geqslant5$ 时，只有 $c=5+r>0$ 对应一条竖直切线. 结合非竖直切线仅在 $2<r<4$ 时有两条，可知总直线数为 $4$ 当且仅当 $2<r<4$. 所以</p>\n$$\nr\\in(2,4)\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,37 +284,47 @@
         {
           "num": 11,
           "body": "设 $\\mathrm{i}$ 是虚数单位，则复数 $\\mathrm{i}- \\frac{1}{\\mathrm{i}}=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$2\\mathrm{i}$",
-          "solution": "<p>由 $\\mathrm{i}^{2}=-1$ 得</p>\n$$\n\\frac{1}{\\mathrm{i}}=\\frac{\\mathrm{i}}{\\mathrm{i}^{2}}=-\\mathrm{i}\n$$\n<p>所以</p>\n$$\n\\mathrm{i}-\\frac{1}{\\mathrm{i}}=\\mathrm{i}-(-\\mathrm{i})=2\\mathrm{i}\n$$"
+          "choices": [],
+          "answer": "\\(2\\mathrm{i}\\)",
+          "solution": "<p>由 $\\mathrm{i}^{2}=-1$ 得</p>\n$$\n\\frac{1}{\\mathrm{i}}=\\frac{\\mathrm{i}}{\\mathrm{i}^{2}}=-\\mathrm{i}\n$$\n<p>所以</p>\n$$\n\\mathrm{i}-\\frac{1}{\\mathrm{i}}=\\mathrm{i}-(-\\mathrm{i})=2\\mathrm{i}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "$\\lg 0.01 + \\log_{2} 16$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$2$",
-          "solution": "<p>因为 $0.01=10^{-2}$，所以 $\\lg0.01=-2$；又因为 $16=2^{4}$，所以 $\\log_{2} 16=4$. 因此</p>\n$$\n\\lg0.01+\\log_{2} 16=-2+4=2\n$$"
+          "choices": [],
+          "answer": "\\(2\\)",
+          "solution": "<p>因为 $0.01=10^{-2}$，所以 $\\lg0.01=-2$；又因为 $16=2^{4}$，所以 $\\log_{2} 16=4$. 因此</p>\n$$\n\\lg0.01+\\log_{2} 16=-2+4=2\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "已知 $\\sin \\alpha + 2\\cos \\alpha = 0$，则 $2\\sin \\alpha \\cos \\alpha - \\cos^{2} \\alpha$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-1$",
-          "solution": "<p>由 $\\sin\\alpha+2\\cos\\alpha=0$ 可知 $\\cos\\alpha\\neq0$，并且</p>\n$$\n\\sin\\alpha=-2\\cos\\alpha\n$$\n<p>代入 $\\sin^{2}\\alpha+\\cos^{2}\\alpha=1$，得</p><p>$4\\cos^{2}\\alpha+\\cos^{2}\\alpha=1$，$\\cos^{2}\\alpha=\\frac{1}{5}$.</p><p>所以</p>\n$$\n2\\sin\\alpha\\cos\\alpha-\\cos^{2}\\alpha  =2(-2\\cos\\alpha)\\cos\\alpha-\\cos^{2}\\alpha  =-5\\cos^{2}\\alpha=-1\n$$"
+          "choices": [],
+          "answer": "\\(-1\\)",
+          "solution": "<p>由 $\\sin\\alpha+2\\cos\\alpha=0$ 可知 $\\cos\\alpha\\neq0$，并且</p>\n$$\n\\sin\\alpha=-2\\cos\\alpha\n$$\n<p>代入 $\\sin^{2}\\alpha+\\cos^{2}\\alpha=1$，得</p><p>$4\\cos^{2}\\alpha+\\cos^{2}\\alpha=1$，$\\cos^{2}\\alpha=\\frac{1}{5}$.</p><p>所以</p>\n$$\n2\\sin\\alpha\\cos\\alpha-\\cos^{2}\\alpha  =2(-2\\cos\\alpha)\\cos\\alpha-\\cos^{2}\\alpha  =-5\\cos^{2}\\alpha=-1\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "在三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$\\angle BAC = 90^{\\circ}$，其正视图和侧视图都是边长为 $1$ 的正方形，俯视图是直角边长为 $1$ 的等腰直角三角形. 设点 $M$，$N$，$P$ 分别是棱 $AB$，$BC$，$B_{1}C_{1}$ 的中点，则三棱锥 $P - A_{1}MN$ 的体积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{1}{24}$",
-          "solution": "<p>由三个视图可建立直角坐标系，使</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$C=(0,1,0)$，</p><p>$A_{1}=(0,0,1)$，$B_{1}=(1,0,1)$，$C_{1}=(0,1,1)$.</p><p>这时底面 $ABC$ 是直角边长为 $1$ 的等腰直角三角形，棱柱高为 $1$，与三个视图的条件一致.</p><p>由中点公式，</p><p>$M=\\left(\\frac{1}{2},0,0\\right)$，$N=\\left(\\frac{1}{2},\\frac{1}{2},0\\right)$，$P=\\left(\\frac{1}{2},\\frac{1}{2},1\\right)$.</p><p>于是</p><p>$\\overrightarrow{A_1M}=\\left(\\frac{1}{2},0,-1\\right)$，$\\overrightarrow{A_1N}=\\left(\\frac{1}{2},\\frac{1}{2},-1\\right)$，$\\overrightarrow{A_1P}=\\left(\\frac{1}{2},\\frac{1}{2},0\\right)$.</p><p>计算混合积得</p>\n$$\n\\left|\\overrightarrow{A_1M}\\cdot  \\left(\\overrightarrow{A_1N}\\times\\overrightarrow{A_1P}\\right)\\right|=\\frac{1}{4}\n$$\n<p>因此三棱锥的体积为</p>\n$$\nV=\\frac{1}{6}\\times\\frac{1}{4}=\\frac{1}{24}\n$$"
+          "choices": [],
+          "answer": "\\(\\dfrac{1}{24}\\)",
+          "solution": "<p>由三个视图可建立直角坐标系，使</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$C=(0,1,0)$，</p><p>$A_{1}=(0,0,1)$，$B_{1}=(1,0,1)$，$C_{1}=(0,1,1)$.</p><p>这时底面 $ABC$ 是直角边长为 $1$ 的等腰直角三角形，棱柱高为 $1$，与三个视图的条件一致.</p><p>由中点公式，</p><p>$M=\\left(\\frac{1}{2},0,0\\right)$，$N=\\left(\\frac{1}{2},\\frac{1}{2},0\\right)$，$P=\\left(\\frac{1}{2},\\frac{1}{2},1\\right)$.</p><p>于是</p><p>$\\overrightarrow{A_1M}=\\left(\\frac{1}{2},0,-1\\right)$，$\\overrightarrow{A_1N}=\\left(\\frac{1}{2},\\frac{1}{2},-1\\right)$，$\\overrightarrow{A_1P}=\\left(\\frac{1}{2},\\frac{1}{2},0\\right)$.</p><p>计算混合积得</p>\n$$\n\\left|\\overrightarrow{A_1M}\\cdot  \\left(\\overrightarrow{A_1N}\\times\\overrightarrow{A_1P}\\right)\\right|=\\frac{1}{4}\n$$\n<p>因此三棱锥的体积为</p>\n$$\nV=\\frac{1}{6}\\times\\frac{1}{4}=\\frac{1}{24}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "<p>已知函数 $f(x) = 2^{x}$，$g(x) = x^{2} + ax$（其中 $a \\in \\mathbb{R}$）. 对于不相等的实数 $x_{1}$，$x_{2}$，设 $m = \\frac{f(x_{1}) - f(x_{2})}{x_{1} - x_{2}}$，$n = \\frac{g(x_{1}) - g(x_{2})}{x_{1} - x_{2}}$，现有如下命题：</p><ol class=\"enumerate\"><li><p>对于任意不相等的实数 $x_{1}$，$x_{2}$，都有 $m > 0$；</p></li><li><p>对于任意的 $a$ 及任意不相等的实数 $x_{1}$，$x_{2}$，都有 $n > 0$；</p></li><li><p>对于任意的 $a$，存在不相等的实数 $x_{1}$，$x_{2}$，使得 $m = n$；</p></li><li><p>对于任意的 $a$，存在不相等的实数 $x_{1}$，$x_{2}$，使得 $m = -n$.</p></li></ol><p>其中的真命题有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>（写出所有真命题的序号）.</p>",
-          "choices": null,
-          "answer": "$①④$",
-          "solution": "<p>由指数函数 $f(x)=2^{x}$ 在 $\\mathbb{R}$ 上严格递增，任取 $x_{1}\\neq x_{2}$ 都有</p>\n$$\nm=\\frac{2^{x_1}-2^{x_2}}{x_{1}-x_{2}}>0\n$$\n<p>所以命题 $①$ 正确.</p><p>又</p>\n$$\nn=\\frac{x_{1}^{2}-x_{2}^{2}+a(x_{1}-x_{2})}{x_{1}-x_{2}}=x_{1}+x_{2}+a\n$$\n<p>取 $a=0$，$x_{1}=-2$，$x_{2}=-1$，则 $n=-3<0$，所以命题 $②$ 错误.</p><p>对于命题 $③$，令</p>\n$$\nh_{a}(x)=x^{2}+ax-2^{x}\n$$\n<p>等式 $m=n$ 等价于 $h_{a}(x_{1})=h_{a}(x_{2})$. 函数</p>\n$$\nq(x)=2x-(\\ln2)2^{x}\n$$\n<p>连续，且当 $x\\to-\\infty$ 或 $x\\to+\\infty$ 时都趋于 $-\\infty$，故它有有限最大值 $M$. 取 $a<-M$，则</p>\n$$\nh_{a}'(x)=2x+a-(\\ln2)2^{x}=q(x)+a<0\n$$\n<p>此时 $h_{a}$ 严格递减，不可能存在不相等的 $x_{1}$，$x_{2}$ 使 $h_{a}(x_{1})=h_{a}(x_{2})$，所以命题 $③$ 错误.</p><p>对于命题 $④$，令</p>\n$$\nH_{a}(x)=x^{2}+ax+2^{x}\n$$\n<p>等式 $m=-n$ 等价于 $H_{a}(x_{1})=H_{a}(x_{2})$. 而</p>\n$$\nH_{a}''(x)=2+(\\ln2)^{2} 2^{x}>0\n$$\n<p>同时 $H_{a}'(x)\\to-\\infty$（$x\\to-\\infty$），$H_{a}'(x)\\to+\\infty$（$x\\to+\\infty$），所以 $H_{a}'$ 有唯一零点，$H_{a}$ 先减后增并有唯一最小值. 又 $H_{a}(x)\\to+\\infty$（$x\\to-\\infty$ 或 $x\\to+\\infty$），故取大于该最小值的函数值，由连续性可在最小值两侧找到两个不相等的自变量取得同一函数值，命题 $④$ 正确.</p><p>所以真命题的序号为 $①$、$④$.</p>"
+          "choices": [],
+          "answer": "\\(①④\\)",
+          "solution": "<p>由指数函数 $f(x)=2^{x}$ 在 $\\mathbb{R}$ 上严格递增，任取 $x_{1}\\neq x_{2}$ 都有</p>\n$$\nm=\\frac{2^{x_1}-2^{x_2}}{x_{1}-x_{2}}>0\n$$\n<p>所以命题 $①$ 正确.</p><p>又</p>\n$$\nn=\\frac{x_{1}^{2}-x_{2}^{2}+a(x_{1}-x_{2})}{x_{1}-x_{2}}=x_{1}+x_{2}+a\n$$\n<p>取 $a=0$，$x_{1}=-2$，$x_{2}=-1$，则 $n=-3<0$，所以命题 $②$ 错误.</p><p>对于命题 $③$，令</p>\n$$\nh_{a}(x)=x^{2}+ax-2^{x}\n$$\n<p>等式 $m=n$ 等价于 $h_{a}(x_{1})=h_{a}(x_{2})$. 函数</p>\n$$\nq(x)=2x-(\\ln2)2^{x}\n$$\n<p>连续，且当 $x\\to-\\infty$ 或 $x\\to+\\infty$ 时都趋于 $-\\infty$，故它有有限最大值 $M$. 取 $a<-M$，则</p>\n$$\nh_{a}'(x)=2x+a-(\\ln2)2^{x}=q(x)+a<0\n$$\n<p>此时 $h_{a}$ 严格递减，不可能存在不相等的 $x_{1}$，$x_{2}$ 使 $h_{a}(x_{1})=h_{a}(x_{2})$，所以命题 $③$ 错误.</p><p>对于命题 $④$，令</p>\n$$\nH_{a}(x)=x^{2}+ax+2^{x}\n$$\n<p>等式 $m=-n$ 等价于 $H_{a}(x_{1})=H_{a}(x_{2})$. 而</p>\n$$\nH_{a}''(x)=2+(\\ln2)^{2} 2^{x}>0\n$$\n<p>同时 $H_{a}'(x)\\to-\\infty$（$x\\to-\\infty$），$H_{a}'(x)\\to+\\infty$（$x\\to+\\infty$），所以 $H_{a}'$ 有唯一零点，$H_{a}$ 先减后增并有唯一最小值. 又 $H_{a}(x)\\to+\\infty$（$x\\to-\\infty$ 或 $x\\to+\\infty$），故取大于该最小值的函数值，由连续性可在最小值两侧找到两个不相等的自变量取得同一函数值，命题 $④$ 正确.</p><p>所以真命题的序号为 $①$、$④$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -175,44 +334,56 @@
         {
           "num": 16,
           "body": "<p>设数列 $\\{a_{n}\\}$（$n = 1$，$2$，$3$，$\\cdots$）的前 $n$ 项和 $S_{n}$ 满足 $S_{n} = 2a_{n} - a_{1}$，且 $a_{1}$，$a_{2} + 1$，$a_{3}$ 成等差数列.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>记数列 $\\left\\{\\frac{1}{a_{n}}\\right\\}$ 的前 $n$ 项和为 $T_{n}$，求 $T_{n}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $n\\geqslant2$ 时，由 $S_{n}=2a_{n}-a_{1}$ 和 $S_{n-1}=2a_{n-1}-a_{1}$ 相减，得</p>\n$$\na_{n}=S_{n}-S_{n-1}=2a_{n}-2a_{n-1}\n$$\n<p>所以 $a_{n}=2a_{n-1}$. 因此数列从第二项起满足相邻两项的比为 $2$，即</p><p>$a_{2}=2a_{1}$，$a_{3}=4a_{1}$.</p><p>由 $a_{1}$，$a_{2}+1$，$a_{3}$ 成等差数列，得</p>\n$$\n2(a_{2}+1)=a_{1}+a_{3}\n$$\n<p>代入上式，得 $2(2a_{1}+1)=a_{1}+4a_{1}$，从而 $a_{1}=2$. 故</p>\n$$\na_{n}=2\\cdot2^{n-1}=2^{n}\n$$\n</li><li><p>于是</p>\n$$\nT_{n}=\\sum_{k=1}^{n}\\frac{1}{a_{k}}=\\sum_{k=1}^{n}\\frac{1}{2^{k}}=\\frac{1}{2}\\cdot\\frac{1-(\\frac{1}{2})^{n}}{1-\\frac{1}{2}}=1-\\frac{1}{2^{n}}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $n\\geqslant2$ 时，由 $S_{n}=2a_{n}-a_{1}$ 和 $S_{n-1}=2a_{n-1}-a_{1}$ 相减，得</p>\n$$\na_{n}=S_{n}-S_{n-1}=2a_{n}-2a_{n-1}\n$$\n<p>所以 $a_{n}=2a_{n-1}$. 因此数列从第二项起满足相邻两项的比为 $2$，即</p><p>$a_{2}=2a_{1}$，$a_{3}=4a_{1}$.</p><p>由 $a_{1}$，$a_{2}+1$，$a_{3}$ 成等差数列，得</p>\n$$\n2(a_{2}+1)=a_{1}+a_{3}\n$$\n<p>代入上式，得 $2(2a_{1}+1)=a_{1}+4a_{1}$，从而 $a_{1}=2$. 故</p>\n$$\na_{n}=2\\cdot2^{n-1}=2^{n}\n$$\n</li><li><p>于是</p>\n$$\nT_{n}=\\sum_{k=1}^{n}\\frac{1}{a_{k}}=\\sum_{k=1}^{n}\\frac{1}{2^{k}}=\\frac{1}{2}\\cdot\\frac{1-(\\frac{1}{2})^{n}}{1-\\frac{1}{2}}=1-\\frac{1}{2^{n}}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>一辆小客车上有 $5$ 个座位，其座位号为 $1$，$2$，$3$，$4$，$5$. 乘客 $P_{1}$，$P_{2}$，$P_{3}$，$P_{4}$，$P_{5}$ 的座位号分别为 $1$，$2$，$3$，$4$，$5$，他们按照座位号从小到大的顺序先后上车. 乘客 $P_{1}$ 因身体原因没有坐自己的 $1$ 号座位，这时司机要求余下的乘客按以下规则就座：如果自己的座位空着，就只能坐自己的座位；如果自己的座位已有乘客就座，就在这 $5$ 个座位的剩余空位中任意选择座位.</p><ol class=\"enumerate\"><li><p>若乘客 $P_{1}$ 坐到了 $3$ 号座位，其他乘客按规则就座，则此时共有 $4$ 种坐法. 下表给出了其中两种坐法，请填入余下两种坐法（将乘客就座的座位号填入表中空格处）：</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>乘客 </td><td style=\"text-align: center; border-right: 1px solid\"> $P_{1}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $P_{2}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $P_{3}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $P_{4}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $P_{5}$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>座位号 </td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br><span class=\"macro macro-cline\"></span>2-6<br></td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br><span class=\"macro macro-cline\"></span>2-6<br></td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br><span class=\"macro macro-cline\"></span>2-6<br></td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p></li><li><p>若乘客 $P_{1}$ 坐到了 $2$ 号座位，其他乘客按规则就座，求乘客 $P_{5}$ 坐到 $5$ 号座位的概率.</p></li></ol>",
-          "choices": null,
+          "body": "<p>一辆小客车上有 $5$ 个座位，其座位号为 $1$，$2$，$3$，$4$，$5$. 乘客 $P_{1}$，$P_{2}$，$P_{3}$，$P_{4}$，$P_{5}$ 的座位号分别为 $1$，$2$，$3$，$4$，$5$，他们按照座位号从小到大的顺序先后上车. 乘客 $P_{1}$ 因身体原因没有坐自己的 $1$ 号座位，这时司机要求余下的乘客按以下规则就座：如果自己的座位空着，就只能坐自己的座位；如果自己的座位已有乘客就座，就在这 $5$ 个座位的剩余空位中任意选择座位.</p><ol class=\"enumerate\"><li><p>若乘客 $P_{1}$ 坐到了 $3$ 号座位，其他乘客按规则就座，则此时共有 $4$ 种坐法. 下表给出了其中两种坐法，请填入余下两种坐法（将乘客就座的座位号填入表中空格处）：</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">乘客 </td><td style=\"text-align: center; border-right: 1px solid\"> $P_{1}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $P_{2}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $P_{3}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $P_{4}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $P_{5}$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">座位号 </td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><span class=\"macro macro-cline\"></span>2-6</td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><span class=\"macro macro-cline\"></span>2-6</td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><span class=\"macro macro-cline\"></span>2-6</td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr></tbody></table></center><p></p></li><li><p>若乘客 $P_{1}$ 坐到了 $2$ 号座位，其他乘客按规则就座，求乘客 $P_{5}$ 坐到 $5$ 号座位的概率.</p></li></ol>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>按 $P_{1}$，$P_{2}$，$P_{3}$，$P_{4}$，$P_{5}$ 的顺序记录座位号. 已知 $P_{1}$ 坐在 $3$ 号，$P_{2}$ 的 $2$ 号座位空着，所以 $P_{2}$ 只能坐 $2$ 号.</p><p>若 $P_{3}$ 坐 $1$ 号，则 $P_{4}$，$P_{5}$ 只能依次坐 $4,5$ 号，得到已给坐法 $(3,2,1,4,5)$. 若 $P_{3}$ 坐 $4$ 号，剩余座位为 $1,5$，$P_{4}$ 可坐 $1$ 号或 $5$ 号，分别得到</p><p>$(3,2,4,1,5)$，$(3,2,4,5,1)$.</p><p>若 $P_{3}$ 坐 $5$ 号，则 $P_{4}$ 的 $4$ 号座位空着，只能坐 $4$ 号，得到</p>\n$$\n(3,2,5,4,1)\n$$\n<p>所以余下两种坐法为 $(3,2,4,1,5)$ 和 $(3,2,5,4,1)$.</p></li><li><p>若 $P_{1}$ 坐 $2$ 号，按照规则可得到全部八种合法坐法：</p><p>$(2,1,3,4,5)$，$(2,3,1,4,5)$，$(2,3,4,1,5)$，$(2,3,4,5,1)$，</p><p>$(2,3,5,4,1)$，$(2,4,3,1,5)$，$(2,4,3,5,1)$，$(2,5,3,4,1)$.</p><p>按题意，每当乘客需要在多个空位中选择时，各空位等可能. $P_{2}$ 可在 $1$、$3$、$4$、$5$ 号座位中等可能选择.</p><p>若 $P_{2}$ 坐 $1$ 号，则 $P_{3}$，$P_{4}$，$P_{5}$ 依次坐 $3$，$4$，$5$ 号，条件概率为 $1$. 若 $P_{2}$ 坐 $3$ 号，则 $P_{3}$ 可等可能坐 $1$、$4$、$5$ 号；三种情形下 $P_{5}$ 坐 $5$ 号的条件概率分别为 $1$、$\\frac{1}{2}$、$0$，故该分支的条件概率为</p>\n$$\n\\frac{1}{3}\\left(1+\\frac{1}{2}+0\\right)=\\frac{1}{2}\n$$\n<p>若 $P_{2}$ 坐 $4$ 号，则 $P_{3}$ 只能坐 $3$ 号，随后 $P_{4}$ 在 $1$、$5$ 号中等可能选择，故该分支的条件概率为 $\\frac{1}{2}$. 若 $P_{2}$ 坐 $5$ 号，则 $P_{5}$ 只能坐 $1$ 号，条件概率为 $0$. 因此</p>\n$$\nP(P_{5}\\text{ 坐到 }5\\text{ 号})=\\frac{1}{4}\\left(1+\\frac{1}{2}+\\frac{1}{2}+0\\right)=\\frac{1}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>按 $P_{1}$，$P_{2}$，$P_{3}$，$P_{4}$，$P_{5}$ 的顺序记录座位号. 已知 $P_{1}$ 坐在 $3$ 号，$P_{2}$ 的 $2$ 号座位空着，所以 $P_{2}$ 只能坐 $2$ 号.</p><p>若 $P_{3}$ 坐 $1$ 号，则 $P_{4}$，$P_{5}$ 只能依次坐 $4,5$ 号，得到已给坐法 $(3,2,1,4,5)$. 若 $P_{3}$ 坐 $4$ 号，剩余座位为 $1,5$，$P_{4}$ 可坐 $1$ 号或 $5$ 号，分别得到</p><p>$(3,2,4,1,5)$，$(3,2,4,5,1)$.</p><p>若 $P_{3}$ 坐 $5$ 号，则 $P_{4}$ 的 $4$ 号座位空着，只能坐 $4$ 号，得到</p>\n$$\n(3,2,5,4,1)\n$$\n<p>所以余下两种坐法为 $(3,2,4,1,5)$ 和 $(3,2,5,4,1)$.</p></li><li><p>若 $P_{1}$ 坐 $2$ 号，按照规则可得到全部八种合法坐法：</p><p>$(2,1,3,4,5)$，$(2,3,1,4,5)$，$(2,3,4,1,5)$，$(2,3,4,5,1)$，</p><p>$(2,3,5,4,1)$，$(2,4,3,1,5)$，$(2,4,3,5,1)$，$(2,5,3,4,1)$.</p><p>按题意，每当乘客需要在多个空位中选择时，各空位等可能. $P_{2}$ 可在 $1$、$3$、$4$、$5$ 号座位中等可能选择.</p><p>若 $P_{2}$ 坐 $1$ 号，则 $P_{3}$，$P_{4}$，$P_{5}$ 依次坐 $3$，$4$，$5$ 号，条件概率为 $1$. 若 $P_{2}$ 坐 $3$ 号，则 $P_{3}$ 可等可能坐 $1$、$4$、$5$ 号；三种情形下 $P_{5}$ 坐 $5$ 号的条件概率分别为 $1$、$\\frac{1}{2}$、$0$，故该分支的条件概率为</p>\n$$\n\\frac{1}{3}\\left(1+\\frac{1}{2}+0\\right)=\\frac{1}{2}\n$$\n<p>若 $P_{2}$ 坐 $4$ 号，则 $P_{3}$ 只能坐 $3$ 号，随后 $P_{4}$ 在 $1$、$5$ 号中等可能选择，故该分支的条件概率为 $\\frac{1}{2}$. 若 $P_{2}$ 坐 $5$ 号，则 $P_{5}$ 只能坐 $1$ 号，条件概率为 $0$. 因此</p>\n$$\nP(P_{5}\\text{ 坐到 }5\\text{ 号})=\\frac{1}{4}\\left(1+\\frac{1}{2}+\\frac{1}{2}+0\\right)=\\frac{1}{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>一个正方体的平面展开图及该正方体的直观图的示意图如图所示.</p><ol class=\"enumerate\"><li><p>请将字母 $F$，$G$，$H$ 标记在正方体相应的顶点处（不需说明理由）；</p></li><li><p>判断平面 $BEG$ 与平面 $ACH$ 的位置关系，并证明你的结论；</p></li><li><p>证明：直线 $DF \\perp$ 平面 $BEG$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>一个正方体的平面展开图及该正方体的直观图的示意图如图所示.</p><ol class=\"enumerate\"><li><p>请将字母 $F$，$G$，$H$ 标记在正方体相应的顶点处（不需说明理由）；</p></li><li><p>判断平面 $BEG$ 与平面 $ACH$ 的位置关系，并证明你的结论；</p></li><li><p>证明：直线 $DF \\perp$ 平面 $BEG$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2015/img/sichuan_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由展开图折叠可知，$F$，$G$，$H$ 分别是正方体的前右上、后右上、后左上顶点. 取正方体棱长为 $1$，建立直角坐标系，令</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$，</p><p>$E=(0,0,1)$，$F=(1,0,1)$，$G=(1,1,1)$，$H=(0,1,1)$.</p><p>因此 $F=(1,0,1)$，$G=(1,1,1)$，$H=(0,1,1)$.</p></li><li><p>在平面 $BEG$ 内取相交的两条直线 $BE$，$BG$，则</p><p>$\\overrightarrow{BE}=(-1,0,1)$，$\\overrightarrow{BG}=(0,1,1)$.</p><p>在平面 $ACH$ 内取相交的两条直线 $AC$，$AH$，则</p><p>$\\overrightarrow{AC}=(1,1,0)$，$\\overrightarrow{AH}=(0,1,1)$.</p><p>计算两个平面的法向量：</p>\n$$\n\\overrightarrow{BE}\\times\\overrightarrow{BG}=(-1,1,-1)\n$$\n\n$$\n\\overrightarrow{AC}\\times\\overrightarrow{AH}=(1,-1,1)\n$$\n<p>两法向量互为相反向量，所以两平面平行. 又平面 $BEG$ 的方程可写为 $x-y+z=1$，点 $A$ 不满足该方程，故两平面不重合，从而</p>\n$$\n\\text{平面 }BEG\\parallel\\text{平面 }ACH\n$$\n</li><li>\n$$\n\\overrightarrow{DF}=(1,-1,1)\n$$\n<p>它与平面 $BEG$ 内两条相交直线的方向向量满足</p><p>$\\overrightarrow{DF}\\cdot\\overrightarrow{BE}=0$，$\\overrightarrow{DF}\\cdot\\overrightarrow{BG}=0$.</p><p>所以 $DF$ 垂直于平面 $BEG$ 内两条相交直线，故</p>\n$$\nDF\\perp\\text{平面 }BEG\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由展开图折叠可知，$F$，$G$，$H$ 分别是正方体的前右上、后右上、后左上顶点. 取正方体棱长为 $1$，建立直角坐标系，令</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$，</p><p>$E=(0,0,1)$，$F=(1,0,1)$，$G=(1,1,1)$，$H=(0,1,1)$.</p><p>因此 $F=(1,0,1)$，$G=(1,1,1)$，$H=(0,1,1)$.</p></li><li><p>在平面 $BEG$ 内取相交的两条直线 $BE$，$BG$，则</p><p>$\\overrightarrow{BE}=(-1,0,1)$，$\\overrightarrow{BG}=(0,1,1)$.</p><p>在平面 $ACH$ 内取相交的两条直线 $AC$，$AH$，则</p><p>$\\overrightarrow{AC}=(1,1,0)$，$\\overrightarrow{AH}=(0,1,1)$.</p><p>计算两个平面的法向量：</p>\n$$\n\\overrightarrow{BE}\\times\\overrightarrow{BG}=(-1,1,-1)\n$$\n\n$$\n\\overrightarrow{AC}\\times\\overrightarrow{AH}=(1,-1,1)\n$$\n<p>两法向量互为相反向量，所以两平面平行. 又平面 $BEG$ 的方程可写为 $x-y+z=1$，点 $A$ 不满足该方程，故两平面不重合，从而</p>\n$$\n\\text{平面 }BEG\\parallel\\text{平面 }ACH\n$$\n</li><li>\n$$\n\\overrightarrow{DF}=(1,-1,1)\n$$\n<p>它与平面 $BEG$ 内两条相交直线的方向向量满足</p><p>$\\overrightarrow{DF}\\cdot\\overrightarrow{BE}=0$，$\\overrightarrow{DF}\\cdot\\overrightarrow{BG}=0$.</p><p>所以 $DF$ 垂直于平面 $BEG$ 内两条相交直线，故</p>\n$$\nDF\\perp\\text{平面 }BEG\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知 $A$，$B$，$C$ 为 $\\triangle ABC$ 的内角，$\\tan A$，$\\tan B$ 是关于 $x$ 的方程 $x^{2}+ \\sqrt{3}px - p + 1 = 0$（$p \\in \\mathbb{R}$）的两个实根.</p><ol class=\"enumerate\"><li><p>求 $C$ 的大小；</p></li><li><p>若 $AB = 3$，$AC = \\sqrt{6}$，求 $p$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设方程的两个实根分别为 $u=\\tan A$，$v=\\tan B$. 由韦达定理，</p><p>$u+v=-\\sqrt{3}p$，$uv=1-p$.</p><p>因方程有两个实根，不能有 $p=0$，故</p>\n$$\n\\tan(A+B)=\\frac{u+v}{1-uv}=\\frac{-\\sqrt{3}p}{1-(1-p)}=-\\sqrt{3}\n$$\n<p>又 $0<A+B<\\pi$，且 $A+B=\\pi-C$，所以 $A+B$ 位于第二象限，得到 $A+B=\\frac{2\\pi}{3}$，从而</p>\n$$\nC=\\frac{\\pi}{3}=60^{\\circ}\n$$\n</li><li><p>由正弦定理，</p>\n$$\n\\frac{AB}{\\sin C}=\\frac{AC}{\\sin B}\n$$\n<p>所以</p>\n$$\n\\sin B=\\frac{AC\\sin C}{AB}=\\frac{\\sqrt{6}\\cdot(\\frac{\\sqrt{3}}{2})}{3}=\\frac{\\sqrt{2}}{2}\n$$\n<p>由于 $A+B=120^{\\circ}$，故 $0<B<120^{\\circ}$，只能取 $B=45^{\\circ}$，从而 $A=75^{\\circ}$. 因此</p><p>$u=\\tan75^{\\circ}=2+\\sqrt{3}$，$v=\\tan45^{\\circ}=1$.</p><p>代入根的和，得</p><p>$3+\\sqrt{3}=-\\sqrt{3}p$，$p=-1-\\sqrt{3}$.</p><p>并且 $(2+\\sqrt{3})\\cdot1=1-p$，与根的积相符.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设方程的两个实根分别为 $u=\\tan A$，$v=\\tan B$. 由韦达定理，</p><p>$u+v=-\\sqrt{3}p$，$uv=1-p$.</p><p>因方程有两个实根，不能有 $p=0$，故</p>\n$$\n\\tan(A+B)=\\frac{u+v}{1-uv}=\\frac{-\\sqrt{3}p}{1-(1-p)}=-\\sqrt{3}\n$$\n<p>又 $0<A+B<\\pi$，且 $A+B=\\pi-C$，所以 $A+B$ 位于第二象限，得到 $A+B=\\frac{2\\pi}{3}$，从而</p>\n$$\nC=\\frac{\\pi}{3}=60^{\\circ}\n$$\n</li><li><p>由正弦定理，</p>\n$$\n\\frac{AB}{\\sin C}=\\frac{AC}{\\sin B}\n$$\n<p>所以</p>\n$$\n\\sin B=\\frac{AC\\sin C}{AB}=\\frac{\\sqrt{6}\\cdot(\\frac{\\sqrt{3}}{2})}{3}=\\frac{\\sqrt{2}}{2}\n$$\n<p>由于 $A+B=120^{\\circ}$，故 $0<B<120^{\\circ}$，只能取 $B=45^{\\circ}$，从而 $A=75^{\\circ}$. 因此</p><p>$u=\\tan75^{\\circ}=2+\\sqrt{3}$，$v=\\tan45^{\\circ}=1$.</p><p>代入根的和，得</p><p>$3+\\sqrt{3}=-\\sqrt{3}p$，$p=-1-\\sqrt{3}$.</p><p>并且 $(2+\\sqrt{3})\\cdot1=1-p$，与根的积相符.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，椭圆 $E: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的离心率是 $\\frac{\\sqrt{2}}{2}$，点 $P(0,1)$ 在短轴 $CD$ 上，且 $\\overline{PC}\\cdot \\overline{PD}= -1$.</p><ol class=\"enumerate\"><li><p>求椭圆 $E$ 的方程；</p></li><li><p>设 $O$ 为坐标原点，过点 $P$ 的动直线与椭圆交于 $A$，$B$ 两点. 是否存在常数 $\\lambda$，使得 $\\overrightarrow{OA}\\cdot \\overrightarrow{OB}+ \\lambda \\overrightarrow{PA}\\cdot \\overrightarrow{PB}$ 为定值？若存在，求 $\\lambda$ 的值；若不存在，请说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，椭圆 $E: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的离心率是 $\\frac{\\sqrt{2}}{2}$，点 $P(0,1)$ 在短轴 $CD$ 上，且 $\\overline{PC}\\cdot \\overline{PD}= -1$.</p><ol class=\"enumerate\"><li><p>求椭圆 $E$ 的方程；</p></li><li><p>设 $O$ 为坐标原点，过点 $P$ 的动直线与椭圆交于 $A$，$B$ 两点. 是否存在常数 $\\lambda$，使得 $\\overrightarrow{OA}\\cdot \\overrightarrow{OB}+ \\lambda \\overrightarrow{PA}\\cdot \\overrightarrow{PB}$ 为定值？若存在，求 $\\lambda$ 的值；若不存在，请说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2015/img/sichuan_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>短轴端点为 $C=(0,-b)$，$D=(0,b)$. 由于 $P=(0,1)$ 且有向线段乘积为负，$P$ 在 $C$，$D$ 之间，因此</p><p>$\\overline{PC}=-(b+1)$，$\\overline{PD}=b-1$.</p><p>由 $\\overline{PC}\\cdot\\overline{PD}=-1$，得</p><p>$1-b^{2}=-1$，$b^{2}=2$.</p><p>又椭圆离心率满足</p>\n$$\n\\frac{c^{2}}{a^{2}}=1-\\frac{b^{2}}{a^{2}}=\\frac{1}{2}\n$$\n<p>所以 $a^{2}=2b^{2}=4$. 故椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1\n$$\n</li><li><p>先考虑非竖直的过点 $P$ 的直线，设其方程为 $y=kx+1$. 设交点 $A$，$B$ 的横坐标分别为 $x_{1}$，$x_{2}$，则代入椭圆方程得</p>\n$$\n(1+2k^{2})x^{2}+4kx-2=0\n$$\n<p>记 $q=1+2k^{2}$，由韦达定理</p><p>$x_{1}+x_{2}=-\\frac{4k}{q}$，$x_{1}x_{2}=-\\frac{2}{q}$.</p><p>于是</p>\n$$\n\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(1+k^{2})x_{1}x_{2}=-\\frac{2(1+k^{2})}{q}\n$$\n<p>以及</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=x_{1}x_{2}+(kx_{1}+1)(kx_{2}+1)  =1-\\frac{2+6k^{2}}{q}\n$$\n<p>因此当 $\\lambda=1$ 时，</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}+\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=1-\\frac{(2+6k^{2})+2(1+k^{2})}{1+2k^{2}}=-3\n$$\n<p>与 $k$ 无关.</p><p>对于一般的 $\\lambda$，上述计算给出</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}+\\lambda\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=1-\\frac{(2+2\\lambda)+(6+2\\lambda)k^{2}}{1+2k^{2}}\n$$\n<p>若该式对所有非竖直直线均为定值，则分式必须与 $k$ 无关，因此</p>\n$$\n6+2\\lambda=2(2+2\\lambda)\n$$\n<p>解得 $\\lambda=1$. 此时定值为 $-3$.</p><p>还需验证竖直直线 $x=0$. 此时交点为 $(0,\\sqrt{2})$，$(0,-\\sqrt{2})$，有</p><p>$\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=-2$，$\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(\\sqrt{2}-1)(-\\sqrt{2}-1)=-1$，</p><p>两者之和仍为 $-3$. 所以存在 $\\lambda=1$，定值为 $-3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>短轴端点为 $C=(0,-b)$，$D=(0,b)$. 由于 $P=(0,1)$ 且有向线段乘积为负，$P$ 在 $C$，$D$ 之间，因此</p><p>$\\overline{PC}=-(b+1)$，$\\overline{PD}=b-1$.</p><p>由 $\\overline{PC}\\cdot\\overline{PD}=-1$，得</p><p>$1-b^{2}=-1$，$b^{2}=2$.</p><p>又椭圆离心率满足</p>\n$$\n\\frac{c^{2}}{a^{2}}=1-\\frac{b^{2}}{a^{2}}=\\frac{1}{2}\n$$\n<p>所以 $a^{2}=2b^{2}=4$. 故椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1\n$$\n</li><li><p>先考虑非竖直的过点 $P$ 的直线，设其方程为 $y=kx+1$. 设交点 $A$，$B$ 的横坐标分别为 $x_{1}$，$x_{2}$，则代入椭圆方程得</p>\n$$\n(1+2k^{2})x^{2}+4kx-2=0\n$$\n<p>记 $q=1+2k^{2}$，由韦达定理</p><p>$x_{1}+x_{2}=-\\frac{4k}{q}$，$x_{1}x_{2}=-\\frac{2}{q}$.</p><p>于是</p>\n$$\n\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(1+k^{2})x_{1}x_{2}=-\\frac{2(1+k^{2})}{q}\n$$\n<p>以及</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=x_{1}x_{2}+(kx_{1}+1)(kx_{2}+1)  =1-\\frac{2+6k^{2}}{q}\n$$\n<p>因此当 $\\lambda=1$ 时，</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}+\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=1-\\frac{(2+6k^{2})+2(1+k^{2})}{1+2k^{2}}=-3\n$$\n<p>与 $k$ 无关.</p><p>对于一般的 $\\lambda$，上述计算给出</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}+\\lambda\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=1-\\frac{(2+2\\lambda)+(6+2\\lambda)k^{2}}{1+2k^{2}}\n$$\n<p>若该式对所有非竖直直线均为定值，则分式必须与 $k$ 无关，因此</p>\n$$\n6+2\\lambda=2(2+2\\lambda)\n$$\n<p>解得 $\\lambda=1$. 此时定值为 $-3$.</p><p>还需验证竖直直线 $x=0$. 此时交点为 $(0,\\sqrt{2})$，$(0,-\\sqrt{2})$，有</p><p>$\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=-2$，$\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(\\sqrt{2}-1)(-\\sqrt{2}-1)=-1$，</p><p>两者之和仍为 $-3$. 所以存在 $\\lambda=1$，定值为 $-3$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知函数 $f(x) = -2x\\ln x + x^{2} - 2ax + a^{2}$，其中 $a > 0$.</p><ol class=\"enumerate\"><li><p>设 $g(x)$ 是 $f(x)$ 的导函数，讨论 $g(x)$ 的单调性；</p></li><li><p>证明：存在 $a \\in (0,1)$，使得 $f(x) \\ge 0$ 恒成立，且 $f(x) = 0$ 在区间 $(1, +\\infty)$ 内有唯一解.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>0$，且</p>\n$$\ng(x)=f'(x)=2x-2\\ln x-2a-2\n$$\n<p>进一步有</p>\n$$\ng'(x)=2-\\frac{2}{x}=\\frac{2(x-1)}{x}\n$$\n<p>所以当 $0<x<1$ 时，$g'(x)<0$，$g(x)$ 单调递减；当 $x>1$ 时，$g'(x)>0$，$g(x)$ 单调递增.</p></li><li><p>为证明第二问，令 $x>1$ 时</p>\n$$\n\\phi(x)=x-\\sqrt{2x\\ln x}\n$$\n<p>令 $h(x)=x-2\\ln x$. 当 $1<x<2$ 时，$h'(x)=1-\\frac{2}{x}<0$；当 $x>2$ 时，$h'(x)>0$，且</p>\n$$\nh(2)=2-2\\ln2>0\n$$\n<p>所以 $h(x)>0$，即 $x>2\\ln x$，从而 $\\phi(x)>0$. 令 $u=\\ln x$，则</p>\n$$\nR(u)=\\frac{2\\mathrm{e}^{u} u}{(u+1)^{2}}\n$$\n<p>有</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}u}\\ln R(u)  =1+\\frac{1}{u}-\\frac{2}{u+1}=\\frac{u^{2}+1}{u(u+1)}>0\n$$\n<p>因此 $R(u)$ 在 $u>0$ 上严格递增，且</p><p>$\\lim_{u\\to0^+}R(u)=0$，$\\lim_{u\\to+\\infty}R(u)=+\\infty$.</p><p>于是存在唯一的 $u_{0}>0$ 使 $R(u_{0})=1$. 令 $x_{0}=\\mathrm{e}^{u_0}$，则</p>\n$$\n2x_{0}\\ln x_{0}=(\\ln x_{0}+1)^{2}\n$$\n<p>又</p>\n$$\n\\phi'(x)=1-\\frac{\\ln x+1}{\\sqrt{2x\\ln x}}\n$$\n<p>所以 $\\phi'(x)<0$（$1<x<x_{0}$），$\\phi'(x)>0$（$x>x_{0}$）. 于是 $\\phi$ 在 $x_{0}$ 处取得唯一最小值. 又</p>\n$$\n\\lim_{x\\to1^+}\\phi(x)=1\n$$\n<p>且 $\\phi$ 在 $1$ 的右侧先下降，所以 $0<\\phi(x_{0})<1$. 令</p>\n$$\na_{0}=\\phi(x_{0})\n$$\n<p>便有 $a_{0}\\in(0,1)$.</p><p>对 $0<x\\leqslant1$，有</p>\n$$\nf(x)=(x-a_{0})^{2}-2x\\ln x\\geqslant0\n$$\n<p>其中 $0<x<1$ 时 $-2x\\ln x>0$，而 $x=1$ 时 $f(1)=(1-a_{0})^{2}>0$.</p><p>对 $x>1$，由于 $x-a_{0}>0$，有</p>\n$$\nf(x)\\geqslant0  \\Longleftrightarrow  x-a_{0}\\ge\\sqrt{2x\\ln x}\\Longleftrightarrow  a_{0}\\le\\phi(x)\n$$\n<p>由 $a_{0}$ 是 $\\phi$ 的唯一最小值，以上不等式对所有 $x>1$ 成立，且等号只在 $x=x_{0}$ 时成立. 因此 $f(x)\\geqslant0$ 恒成立，且 $f(x)=0$ 在 $(1,+\\infty)$ 内有唯一解 $x_{0}$. 这就证明了存在所需的 $a\\in(0,1)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>0$，且</p>\n$$\ng(x)=f'(x)=2x-2\\ln x-2a-2\n$$\n<p>进一步有</p>\n$$\ng'(x)=2-\\frac{2}{x}=\\frac{2(x-1)}{x}\n$$\n<p>所以当 $0<x<1$ 时，$g'(x)<0$，$g(x)$ 单调递减；当 $x>1$ 时，$g'(x)>0$，$g(x)$ 单调递增.</p></li><li><p>为证明第二问，令 $x>1$ 时</p>\n$$\n\\phi(x)=x-\\sqrt{2x\\ln x}\n$$\n<p>令 $h(x)=x-2\\ln x$. 当 $1<x<2$ 时，$h'(x)=1-\\frac{2}{x}<0$；当 $x>2$ 时，$h'(x)>0$，且</p>\n$$\nh(2)=2-2\\ln2>0\n$$\n<p>所以 $h(x)>0$，即 $x>2\\ln x$，从而 $\\phi(x)>0$. 令 $u=\\ln x$，则</p>\n$$\nR(u)=\\frac{2\\mathrm{e}^{u} u}{(u+1)^{2}}\n$$\n<p>有</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}u}\\ln R(u)  =1+\\frac{1}{u}-\\frac{2}{u+1}=\\frac{u^{2}+1}{u(u+1)}>0\n$$\n<p>因此 $R(u)$ 在 $u>0$ 上严格递增，且</p><p>$\\lim_{u\\to0^+}R(u)=0$，$\\lim_{u\\to+\\infty}R(u)=+\\infty$.</p><p>于是存在唯一的 $u_{0}>0$ 使 $R(u_{0})=1$. 令 $x_{0}=\\mathrm{e}^{u_0}$，则</p>\n$$\n2x_{0}\\ln x_{0}=(\\ln x_{0}+1)^{2}\n$$\n<p>又</p>\n$$\n\\phi'(x)=1-\\frac{\\ln x+1}{\\sqrt{2x\\ln x}}\n$$\n<p>所以 $\\phi'(x)<0$（$1<x<x_{0}$），$\\phi'(x)>0$（$x>x_{0}$）. 于是 $\\phi$ 在 $x_{0}$ 处取得唯一最小值. 又</p>\n$$\n\\lim_{x\\to1^+}\\phi(x)=1\n$$\n<p>且 $\\phi$ 在 $1$ 的右侧先下降，所以 $0<\\phi(x_{0})<1$. 令</p>\n$$\na_{0}=\\phi(x_{0})\n$$\n<p>便有 $a_{0}\\in(0,1)$.</p><p>对 $0<x\\leqslant1$，有</p>\n$$\nf(x)=(x-a_{0})^{2}-2x\\ln x\\geqslant0\n$$\n<p>其中 $0<x<1$ 时 $-2x\\ln x>0$，而 $x=1$ 时 $f(1)=(1-a_{0})^{2}>0$.</p><p>对 $x>1$，由于 $x-a_{0}>0$，有</p>\n$$\nf(x)\\geqslant0  \\Longleftrightarrow  x-a_{0}\\ge\\sqrt{2x\\ln x}\\Longleftrightarrow  a_{0}\\le\\phi(x)\n$$\n<p>由 $a_{0}$ 是 $\\phi$ 的唯一最小值，以上不等式对所有 $x>1$ 成立，且等号只在 $x=x_{0}$ 时成立. 因此 $f(x)\\geqslant0$ 恒成立，且 $f(x)=0$ 在 $(1,+\\infty)$ 内有唯一解 $x_{0}$. 这就证明了存在所需的 $a\\in(0,1)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

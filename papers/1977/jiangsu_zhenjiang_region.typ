@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,95 +11,68 @@
 #part-header("解答题")
 
 #problem(1)[
-+ (1) 计算：$(-1)^4 - 8 times (-1(1)/(2))^3 + 20.1\div(-0.1^2)$.
-+ (2) $(1)/(2 sqrt(2))-(2 sqrt(3))/(3-sqrt(3))-(1)/(2)(sqrt((1)/(2))-sqrt(12))$.
-+ (3) $\l g 1-\l g 0.001+ log _(2)(-2)^4+ log _(3)sqrt(3)$.
-+ (4) 当 $a=sqrt(10.1)$，$b=8$ 时，求式子 $((a^((1)/(2))b^(-1))^3 sqrt(a b^((2)/(3))))/(a^(2) b^(-4))$ 的值.
++ (1) 
++ (2) 
++ (3)
 ]
 
 #solution[
-+ (1) 因为 $(-1)^4=1$，$-1(1)/(2)=-(3)/(2)$，$(-1(1)/(2))^3=-(27)/(8)$，且 $-0.1^2=-0.01$，所以原式
-
-$ =1-8 times (-(27)/(8))+20.1\div(-0.01)=1+27-2010=-1982 $
-+ (2) 分别有理化分母并化简根式：
-
-$ (1)/(2 sqrt(2))=(sqrt(2))/(2 times 2)=(sqrt(2))/(4) $
-
-
-$ (2 sqrt(3))/(3-sqrt(3))=(2 sqrt(3){}(3+sqrt(3)))/((3-sqrt(3))(3+sqrt(3)))=(6 sqrt(3)+6)/(6)=sqrt(3)+1 $
-
-
-$ (1)/(2)(sqrt((1)/(2))-sqrt(12))=(1)/(2)((sqrt(2))/(2)-2 sqrt(3))=(sqrt(2))/(4)-sqrt(3) $
-
-因此原式
-
-$ =(sqrt(2))/(4)-(sqrt(3)+1)-((sqrt(2))/(4)-sqrt(3))=-1 $
-+ (3) 因为 $\l g1=0$，$0.001=10^(-3)$，$(-2)^4=16$，且 $sqrt(3)=3^((1)/(2))$，所以原式
-
-$ =0-(-3)+4+(1)/(2)=(15)/(2) $
-+ (4) 由 $a>0$，$b>0$，有
-
-$ (a^((1)/(2))b^(-1))^3 sqrt(a b^((2)/(3)))=a^((3)/(2))b^(-3) dot a^((1)/(2))b^((1)/(3))=a^(2) b^(-(8)/(3)) $
-
-所以原式
-
-$ =(a^(2) b^(-(8)/(3)))/(a^(2) b^(-4))=b^((4)/(3))=8^((4)/(3))=(2^3)^((4)/(3))=16 $
++ (1) 
++ (2) 
++ (3)
 ]
 
 #problem(2)[
-+ (1) 求 $sin 75 ""^ degree +(1)/(2) cos (-585^ degree ) dot tan 240 ""^ degree$ 的值.
-+ (2) 证明 $(2)/(tan x+ cot x)=( sin x+ cos x)^2-1$.
++ (1)
 ]
 
 #solution[
-+ (1) 由诱导公式，$-585^ degree +720^ degree =135^ degree$，所以 $cos (-585^ degree )= cos 135 ""^ degree =-(sqrt(2))/(2)$；又 $240^ degree -180^ degree =60^ degree$，所以 $tan 240 ""^ degree = tan 60 ""^ degree =sqrt(3)$. 由和角公式，$sin 75 ""^ degree = sin (45^ degree +30^ degree )=(sqrt(2))/(2) dot (sqrt(3))/(2)+(sqrt(2))/(2) dot (1)/(2)=(sqrt(6)+sqrt(2))/(4)$. 因此
-
-$ sin 75 ""^ degree +(1)/(2) cos (-585^ degree ) tan 240 ""^ degree =(sqrt(6)+sqrt(2))/(4)+(1)/(2)(-(sqrt(2))/(2))sqrt(3)=(sqrt(2))/(4) $
-+ (2) 在等式两边有意义的条件 $sin x != 0$，$cos x != 0$ 下，左边
-
-$ (2)/(tan x+ cot x)=(2)/((sin x)/(cos x)+(cos x)/(sin x))=(2 sin x cos x)/(sin ""^(2) x+ cos ""^(2) x)=2 sin x cos x $
-
-右边
-
-$ ( sin x+ cos x)^2-1= sin ""^(2) x+2 sin x cos x+ cos ""^(2) x-1=2 sin x cos x $
-
-所以 $(2)/(tan x+ cot x)=( sin x+ cos x)^2-1$.
++ (1)
 ]
 
 #problem(3)[
-解方程 $(x-1)/(x^2+4 x+3)-(2)/(x^2-1)=0$.
+解方程 #mi(`\dfrac{x-1}{x^2+4x+3}-\dfrac{2}{x^2-1}=0`).
 ]
 
 #solution[
-由分式有意义可知 $x^2+4 x+3 != 0$，$x^2-1 != 0$，即 $x != -3$，$-1$，$1$. 在此条件下，原方程化为
-
-$ (x-1)/((x+1)(x+3))-(2)/((x-1)(x+1))=0 $
+由分式有意义可知 #mi(`x^{2}+4x+3\ne0`)，#mi(`x^{2}-1\ne0`)，即 #mi(`x\ne-3`)，#mi(`-1`)，#mi(`1`). 在此条件下，原方程化为
 
 
-$ ((x-1)^2-2(x+3))/((x-1)(x+1)(x+3))=0 $
+#align(center)[#mitex(`
+\frac{x-1}{(x+1)(x+3)}-\frac{2}{(x-1)(x+1)}=0
+`)]
 
-因此 $(x-1)^2-2(x+3)=0$，即 $x^2-4 x-5=0$，所以 $(x-5)(x+1)=0$，得 $x=5$ 或 $x=-1$. 其中 $x=-1$ 不满足原分式有意义的条件；代入 $x=5$ 时，原式为
 
-$ (5-1)/(5^2+4 times 5 +3)-(2)/(5^2-1)=(4)/(48)-(2)/(24)=0 $
 
-所以原方程的解为 $x=5$.
+#align(center)[#mitex(`
+\frac{(x-1)^{2}-2(x+3)}{(x-1)(x+1)(x+3)}=0
+`)]
+
+
+因此 #mi(`(x-1)^{2}-2(x+3)=0`)，即 #mi(`x^{2}-4x-5=0`)，所以 #mi(`(x-5)(x+1)=0`)，得 #mi(`x=5`) 或 #mi(`x=-1`). 其中 #mi(`x=-1`) 不满足原分式有意义的条件；代入 #mi(`x=5`) 时，原式为
+
+
+#align(center)[#mitex(`
+\frac{5-1}{5^{2}+4\times5+3}-\frac{2}{5^{2}-1}=\frac{4}{48}-\frac{2}{24}=0
+`)]
+
+
+所以原方程的解为 #mi(`x=5`).
 ]
 
 #problem(4)[
-求下列各函数的定义域（自变量 $x$ 的取值范围）：
+求下列各函数的定义域（自变量 #mi(`x`) 的取值范围）：
 
 
-+ (1) $y=-x+3$.
-+ (2) $y=(1)/(x^2+2 x-3)$.
-+ (3) $y=sqrt(-2 x+10)$.
-+ (4) $y=\l g(-x^2+5 x-4)$.
++ (1) 
++ (2) 
++ (3)
 ]
 
 #solution[
-+ (1) 一次函数对任意实数 $x$ 都有意义，所以定义域为 $RR$.
-+ (2) 分母不能为零，故 $x^2+2 x-3=(x-1)(x+3) != 0$，所以定义域为 $\{x in RR | x != -3,\ x != 1 \}$.
-+ (3) 被开方数须满足 $-2 x+10 >= 0$，解得 $x <= 5$，所以定义域为 $(- oo ,5]$.
-+ (4) 对数的真数须满足 $-x^2+5 x-4>0$，即 $x^2-5 x+4<0$，所以 $(x-1)(x-4)<0$. 该二次式开口向上，乘积在两个根 $1$ 和 $4$ 之间为负，故 $1<x<4$，定义域为 $(1,4)$.
++ (1) 
++ (2) 
++ (3)
 ]
 
 #problem(5)[
@@ -107,101 +80,146 @@ $ (5-1)/(5^2+4 times 5 +3)-(2)/(5^2-1)=(4)/(48)-(2)/(24)=0 $
 ]
 
 #solution[
-设圆外一点为 $P$，两条割线分别交圆于 $A$，$B$ 和 $C$，$D$，其中点的次序为 $P$，$A$，$B$ 和 $P$，$C$，$D$. 连接 $A D$ 和 $B C$. 因为 $P A$、$P B$ 在同一直线上，$P C$、$P D$ 在同一直线上，所以 $angle A P D= angle C P B$.
+设圆外一点为 #mi(`P`)，两条割线分别交圆于 #mi(`A`)，#mi(`B`) 和 #mi(`C`)，#mi(`D`)，其中点的次序为 #mi(`P`)，#mi(`A`)，#mi(`B`) 和 #mi(`P`)，#mi(`C`)，#mi(`D`). 连接 #mi(`AD`) 和 #mi(`BC`). 因为 #mi(`PA`)、#mi(`PB`) 在同一直线上，#mi(`PC`)、#mi(`PD`) 在同一直线上，所以 #mi(`\angle APD=\angle CPB`).
 
-又因为 $angle B A D$ 和 $angle B C D$ 都是圆周角，且所对的弦都是 $B D$，所以 $angle B A D= angle B C D$. 射线 $A P$ 与 $A B$ 反向，射线 $C P$ 与 $C D$ 反向，因此
-$angle P A D+ angle B A D=180^ degree$，$angle P C B+ angle B C D=180^ degree$，从而 $angle P A D= angle P C B$. 因此 $triangle P A D tilde triangle P C B$，从而
+又因为 #mi(`\angle BAD`) 和 #mi(`\angle BCD`) 都是圆周角，且所对的弦都是 #mi(`BD`)，所以 #mi(`\angle BAD=\angle BCD`). 射线 #mi(`AP`) 与 #mi(`AB`) 反向，射线 #mi(`CP`) 与 #mi(`CD`) 反向，因此
 
-$ (P A)/(P C)=(P D)/(P B) $
+#mi(`\angle PAD+\angle BAD=180^{\circ}`)，#mi(`\angle PCB+\angle BCD=180^{\circ}`)，从而 #mi(`\angle PAD=\angle PCB`). 因此 #mi(`\triangle PAD\sim\triangle PCB`)，从而
 
-即 $P A dot P B=P C dot P D$. 这就证明了一条割线与其圆外部分的乘积等于另一条割线与其圆外部分的乘积.
+
+#align(center)[#mitex(`
+\frac{PA}{PC}=\frac{PD}{PB}
+`)]
+
+
+即 #mi(`PA\cdot PB=PC\cdot PD`). 这就证明了一条割线与其圆外部分的乘积等于另一条割线与其圆外部分的乘积.
 ]
 
 #problem(6)[
-为了测量底部不能直接到达的高塔 $A B$ 的高，在地面上引一条基线 $C D=60 ~m$（$B$，$C$，$D$ 不在一直线上），今测得 $angle A C B=30^ degree$，$angle B C D=75^ degree$，$angle B D C=45^ degree$，求 $A B$.
+为了测量底部不能直接到达的高塔 #mi(`AB`) 的高，在地面上引一条基线 #mi(`CD=60 \mathrm{~m}`)（#mi(`B`)，#mi(`C`)，#mi(`D`) 不在一直线上），今测得 #mi(`\angle ACB=30^{\circ}`)，#mi(`\angle BCD=75^{\circ}`)，#mi(`\angle BDC=45^{\circ}`)，求 #mi(`AB`).
 
 
+#align(center)[#image("/papers/1977/img/jiangsu_zhenjiang_region/q6_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/1977/img/jiangsu_zhenjiang_region/q6_fig1.png", width: 6.2cm)]
 ]
 
 #solution[
-在 $triangle B C D$ 中，$angle C B D=180^ degree -75^ degree -45^ degree =60^ degree$. 由正弦定理，
+在 #mi(`\triangle BCD`) 中，#mi(`\angle CBD=180^{\circ}-75^{\circ}-45^{\circ}=60^{\circ}`). 由正弦定理，
 
-$ (B C)/(sin 45 ""^ degree)=(C D)/(sin 60 ""^ degree) $
+
+#align(center)[#mitex(`
+\frac{BC}{\sin45^{\circ}}=\frac{CD}{\sin60^{\circ}}
+`)]
+
 
 所以
 
-$ B C=60 times (sin 45 ""^ degree)/(sin 60 ""^ degree)=60 times ((sqrt(2))/(2))/((sqrt(3))/(2))=20 sqrt(6)\ ~m $
 
-高塔 $A B$ 垂直于地面，故 $A B bot B C$，$triangle A B C$ 是直角三角形. 由 $angle A C B=30^ degree$，得
-$tan 30 ""^ degree =(A B)/(B C)$，$A B=B C tan 30 ""^ degree =20 sqrt(6) times (sqrt(3))/(3)=20 sqrt(2)\ ~m$.
-因此高塔 $A B$ 的高为 $20 sqrt(2)\ ~m$.
+#align(center)[#mitex(`
+BC=60\times\frac{\sin45^{\circ}}{\sin60^{\circ}}=60\times\frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{3}}{2}}=20\sqrt{6}\ \mathrm{~m}
+`)]
+
+
+高塔 #mi(`AB`) 垂直于地面，故 #mi(`AB\perp BC`)，#mi(`\triangle ABC`) 是直角三角形. 由 #mi(`\angle ACB=30^{\circ}`)，得
+
+#mi(`\tan30^{\circ}=\frac{AB}{BC}`)，#mi(`AB=BC\tan30^{\circ}=20\sqrt{6}\times\frac{\sqrt{3}}{3}=20\sqrt{2}\ \mathrm{~m}`).
+
+因此高塔 #mi(`AB`) 的高为 #mi(`20\sqrt{2}\ \mathrm{~m}`).
 ]
 
 #problem(7)[
-+ (1) 画出抛物线 $y=x^2+2$ 的图象，并写出它的顶点坐标，对称轴的方程和极值.
-+ (2) 如果上述抛物线的顶点作为新的坐标原点 $O_1$，把它的对称轴作为新的纵轴 $O_(1) Y_1$，求这抛物线在新的直角坐标系 $X_(1) O_(1) Y_1$ 中的方程，并写出它的准线方程和焦点坐标.
++ (1)
 ]
 
 #solution[
-+ (1) 将函数配方，得 $y=x^2+2=(x-0)^2+2$. 所以抛物线的顶点坐标为 $(0,2)$，对称轴方程为 $x=0$，开口向上，极小值为 $2$，没有最大值. 作图时可取 $x=-2$，$-1$，$0$，$1$，$2$，分别得到 $y=6$，$3$，$2$，$3$，$6$，描出这些点并关于直线 $x=0$ 对称地用平滑曲线连接，即得所求图象.
-+ (2) 设新坐标系中的坐标为 $(x_1,y_1)$. 新原点 $O_1$ 是原点 $O$ 沿 $y$ 轴正方向平移 $2$ 个单位得到的，且新坐标轴与原坐标轴方向相同，因此任一点满足 $x=x_1$，$y=y_1+2$. 代入原方程得
-$y_1+2=x_1^2+2$，$y_1=x_1^2$.
-即新坐标系中的抛物线方程为 $x_1^2=y_1$. 对于标准形式 $x_1^2=4 p y_1$，参数 $p$ 表示顶点到焦点的距离；比较系数得 $4 p=1$，所以 $p=(1)/(4)$. 抛物线开口向上，故焦点在 $O_(1) Y_1$ 正半轴上，焦点坐标为 $(0,(1)/(4))$，准线为焦点关于顶点的对称直线，方程为 $y_1=-(1)/(4)$.
++ (1)
 ]
 
 #problem(8)[
-某工厂四年来的产量，第一年到第三年的产量是按等差数列增长的，三年的总产量共 $1500" 吨"$，第二年到第四年的产量是按等比数列增长的，这三年的产量共 $1820" 吨"$. 求每年的产量各是多少吨？
+某工厂四年来的产量，第一年到第三年的产量是按等差数列增长的，三年的总产量共 #mi(`1500\text{ \text{吨}}`)，第二年到第四年的产量是按等比数列增长的，这三年的产量共 #mi(`1820\text{ \text{吨}}`). 求每年的产量各是多少吨？
 ]
 
 #solution[
-设四年的产量依次为 $a_1$，$a_2$，$a_3$，$a_4$，第一年至第三年构成等差数列，公差为 $d$. 由等差数列的性质，$a_1+a_2+a_3=3 a_2$，所以
-$a_2=(1500)/(3)=500$，$a_1=500-d$，$a_3=500+d$.
-设第二年至第四年的等比数列公比为 $q$. 由于产量为正且按增长的等比数列变化，$q>0$，于是 $a_3=500 q$，$a_4=500 q^2$. 由三年的总产量得
+设四年的产量依次为 #mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`a_{3}`)，#mi(`a_{4}`)，第一年至第三年构成等差数列，公差为 #mi(`d`). 由等差数列的性质，#mi(`a_{1}+a_{2}+a_{3}=3a_{2}`)，所以
 
-$ 500+500 q+500 q^2=1820 $
+#mi(`a_{2}=\frac{1500}{3}=500`)，#mi(`a_{1}=500-d`)，#mi(`a_{3}=500+d`).
+
+设第二年至第四年的等比数列公比为 #mi(`q`). 由于产量为正且按增长的等比数列变化，#mi(`q>0`)，于是 #mi(`a_{3}=500q`)，#mi(`a_{4}=500q^{2}`). 由三年的总产量得
+
+
+#align(center)[#mitex(`
+500+500q+500q^{2}=1820
+`)]
+
 
 即
 
-$ 25 q^2+25 q-66=0 $
+
+#align(center)[#mitex(`
+25q^{2}+25q-66=0
+`)]
+
 
 解得
 
-$ q=(-25\p m s q r t(25^2+4 times 25 times 66))/(50)=(-25 +- 85)/(50) $
 
-因为 $q>0$，所以 $q=(6)/(5)$. 因此 $a_3=600$，$a_4=720$，再由 $a_3=500+d$ 得 $d=100$，从而 $a_1=400$. 经检验，$400+500+600=1500$，$500+600+720=1820$，故四年的产量依次为 $400" 吨"$，$500" 吨"$，$600" 吨"$，$720" 吨"$.
+#align(center)[#mitex(`
+q=\frac{-25\pm\sqrt{25^2+4\times25\times66}}{50}=\frac{-25\pm85}{50}
+`)]
+
+
+因为 #mi(`q>0`)，所以 #mi(`q=\frac{6}{5}`). 因此 #mi(`a_{3}=600`)，#mi(`a_{4}=720`)，再由 #mi(`a_{3}=500+d`) 得 #mi(`d=100`)，从而 #mi(`a_{1}=400`). 经检验，#mi(`400+500+600=1500`)，#mi(`500+600+720=1820`)，故四年的产量依次为 #mi(`400\text{ \text{吨}}`)，#mi(`500\text{ \text{吨}}`)，#mi(`600\text{ \text{吨}}`)，#mi(`720\text{ \text{吨}}`).
 ]
 
 #problem(9)[
-三角形 $A B C$ 中，$A E$ 和 $B D$ 相交于 $G$（如图），已知 $A D:D C=3:1$，$B G=G D$，求 $(A G)/(G E)$.
+三角形 #mi(`ABC`) 中，#mi(`AE`) 和 #mi(`BD`) 相交于 #mi(`G`)（如图），已知 #mi(`AD:DC=3:1`)，#mi(`BG=GD`)，求 #mi(`\dfrac{AG}{GE}`).
 
 
+#align(center)[#image("/papers/1977/img/jiangsu_zhenjiang_region/q9_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/1977/img/jiangsu_zhenjiang_region/q9_fig1.png", width: 6.2cm)]
 ]
 
 #solution[
-设 $arrow(A B)=bold(b)$，$arrow(A C)=bold(c)$. 由 $A D:D C=3:1$，得
+设 #mi(`\overrightarrow{AB}=\mathbf{b}`)，#mi(`\overrightarrow{AC}=\mathbf{c}`). 由 #mi(`AD:DC=3:1`)，得
 
-$ arrow(A D)=(3)/(4)arrow(A C)=(3)/(4)bold(c) $
 
-又因为 $B G=G D$，所以 $G$ 是 $B D$ 的中点，从而
+#align(center)[#mitex(`
+\overrightarrow{AD}=\frac{3}{4}\overrightarrow{AC}=\frac{3}{4}\mathbf{c}
+`)]
 
-$ arrow(A G)=(1)/(2)(arrow(A B)+arrow(A D))=(1)/(2)bold(b)+(3)/(8)bold(c) $
 
-设 $(A G)/(G E)=r$. 由于 $A$，$G$，$E$ 共线且 $G$ 在 $A$，$E$ 之间，有
+又因为 #mi(`BG=GD`)，所以 #mi(`G`) 是 #mi(`BD`) 的中点，从而
 
-$ arrow(A E)=(1+(1)/(r))arrow(A G)=(1+(1)/(r))((1)/(2)bold(b)+(3)/(8)bold(c)) $
 
-另一方面，点 $E$ 在 $B C$ 上，可设 $0< lambda <1$，使得
+#align(center)[#mitex(`
+\overrightarrow{AG}=\frac{1}{2}\left(\overrightarrow{AB}+\overrightarrow{AD}\right)=\frac{1}{2}\mathbf{b}+\frac{3}{8}\mathbf{c}
+`)]
 
-$ arrow(A E)=(1- lambda )bold(b)+\l a m b d a b o l d(c) $
 
-比较 $bold(b)$ 和 $bold(c)$ 的系数并相加，得
+设 #mi(`\dfrac{AG}{GE}=r`). 由于 #mi(`A`)，#mi(`G`)，#mi(`E`) 共线且 #mi(`G`) 在 #mi(`A`)，#mi(`E`) 之间，有
 
-$ 1=(1+(1)/(r))((1)/(2)+(3)/(8))=(7)/(8)(1+(1)/(r)) $
 
-所以 $1+(1)/(r)=(8)/(7)$，即 $r=7$. 因此 $(A G)/(G E)=7$.
+#align(center)[#mitex(`
+\overrightarrow{AE}=\left(1+\frac{1}{r}\right)\overrightarrow{AG}=\left(1+\frac{1}{r}\right)\left(\frac{1}{2}\mathbf{b}+\frac{3}{8}\mathbf{c}\right)
+`)]
+
+
+另一方面，点 #mi(`E`) 在 #mi(`BC`) 上，可设 #mi(`0<\lambda<1`)，使得
+
+
+#align(center)[#mitex(`
+\overrightarrow{AE}=(1-\lambda)\mathbf{b}+\lambda\mathbf{c}
+`)]
+
+
+比较 #mi(`\mathbf{b}`) 和 #mi(`\mathbf{c}`) 的系数并相加，得
+
+
+#align(center)[#mitex(`
+1=\left(1+\frac{1}{r}\right)\left(\frac{1}{2}+\frac{3}{8}\right)=\frac{7}{8}\left(1+\frac{1}{r}\right)
+`)]
+
+
+所以 #mi(`1+\frac{1}{r}=\frac{8}{7}`)，即 #mi(`r=7`). 因此 #mi(`\dfrac{AG}{GE}=7`).
 ]
 

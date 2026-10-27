@@ -102,7 +102,9 @@
 #problem(6)[
 小波一星期的总开支分布如图 1 所示，一星期的食品开支如图 2 所示，则小波一星期的鸡蛋开支占总开支的百分比为（ ）
 
-[max width=0.92\linewidth]img/2012/jiangxi_liberal/q6_fig1.png
+
+#align(center)[#image("/papers/2012/img/jiangxi_liberal/q6_fig1.png", width: 28%)]
+
   #choices([#mi(`30\%`)], [#mi(`10\%`)], [#mi(`3\%`)], [不能确定], cols: 4)
 ]
 
@@ -121,7 +123,9 @@
 #problem(7)[
 若一个几何体的三视图如图所示，则此几何体的体积为（ ）
 
-[max width=0.62\linewidth]img/2012/jiangxi_liberal/q7_fig1.png
+
+#align(center)[#image("/papers/2012/img/jiangxi_liberal/q7_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{11}{2}`)], [#mi(`5`)], [#mi(`\frac{9}{2}`)], [#mi(`4`)], cols: 2)
 ]
 
@@ -186,8 +190,18 @@
 #problem(10)[
 如图，#mi(`|OA| = 2 \mathrm{~m}`)，#mi(`|OB| = 1 \mathrm{~m}`)，#mi(`OA`) 与 #mi(`OB`) 的夹角为 #mi(`\frac{\pi}{6}`)，以 #mi(`A`) 为圆心，#mi(`AB`) 为半径作圆弧 #mi(`BDC`) 与线段 #mi(`OA`) 的延长线交于点 #mi(`C`). 甲、乙两质点同时从点 #mi(`O`) 出发，甲先以速率 #mi(`1 \mathrm{~m/s}`) 沿线段 #mi(`OB`) 行至点 #mi(`B`)，再以速率 #mi(`3 \mathrm{~m/s}`) 沿圆弧 #mi(`BDC`) 行至点 #mi(`C`) 后停止；乙以速率 #mi(`2 \mathrm{~m/s}`) 沿线段 #mi(`OA`) 行至点 #mi(`A`) 后停止. 设 #mi(`t`) 时刻甲、乙两点连线与它们经过的路径所围成图形的面积为 #mi(`S(t)`)（#mi(`S(0)=0`)），则函数 #mi(`y = S(t)`) 的图象大致是（ ）
 
-[width=0.55\linewidth]img/2012/jiangxi_liberal/q10_fig2.png
-  #choices([[width=0.15\paperwidth]img/2012/jiangxi_liberal/q10_optA.png], [[width=0.15\paperwidth]img/2012/jiangxi_liberal/q10_optB.png], [[width=0.15\paperwidth]img/2012/jiangxi_liberal/q10_optC.png], [[width=0.15\paperwidth]img/2012/jiangxi_liberal/q10_optD.png], cols: 1)
+
+#align(center)[#image("/papers/2012/img/jiangxi_liberal/q10_fig2.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2012/img/jiangxi_liberal/q10_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/jiangxi_liberal/q10_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/jiangxi_liberal/q10_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/jiangxi_liberal/q10_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
@@ -354,7 +368,9 @@ S_{5}=1+(-2)+(-2)^{2}+(-2)^{3}+(-2)^{4}  =\frac{1-(-2)^{5}}{1-(-2)}=11
 
 
 
-[max width=0.40\linewidth]img/2012/jiangxi_liberal/q18_fig1.png
+
+#align(center)[#image("/papers/2012/img/jiangxi_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -369,7 +385,9 @@ S_{5}=1+(-2)+(-2)^{2}+(-2)^{3}+(-2)^{4}  =\frac{1-(-2)^{5}}{1-(-2)}=11
 
 
 
-[max width=0.86\linewidth]img/2012/jiangxi_liberal/q19_fig1.png
+
+#align(center)[#image("/papers/2012/img/jiangxi_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

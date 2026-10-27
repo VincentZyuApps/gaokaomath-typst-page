@@ -1,8 +1,149 @@
 {
-  "title": "2011年普通高等学校招生全国统一考试",
-  "subtitle": "2011年上海卷（秋理）",
   "year": "2011",
   "slug": "shanghai_science",
+  "title": "2011年上海卷（秋理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "填空题",
@@ -10,100 +151,128 @@
         {
           "num": 1,
           "body": "函数 $f(x) = \\frac{1}{x - 2}$ 的反函数为 $f^{-1}(x) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{1}{x}+2$",
-          "solution": "设 $y=f(x)=\\dfrac{1}{x-2}$，则 $y(x-2)=1$，从而 $x=2+\\dfrac{1}{y}$. 交换 $x$，$y$ 得 $f^{-1}(x)=2+\\dfrac{1}{x}$，其中 $x\\ne0$."
+          "choices": [],
+          "answer": "\\(\\frac{1}{x}+2\\)",
+          "solution": "设 $y=f(x)=\\dfrac{1}{x-2}$，则 $y(x-2)=1$，从而 $x=2+\\dfrac{1}{y}$. 交换 $x$，$y$ 得 $f^{-1}(x)=2+\\dfrac{1}{x}$，其中 $x\\ne0$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "若全集 $U = \\mathbb{R}$，集合 $A = \\{x \\mid x \\ge 1\\} \\cup \\{x \\mid x \\le 0\\}$，则 $\\complement_{U} A =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$(0,1)$",
-          "solution": "集合 $A$ 包含所有满足 $x\\leqslant0$ 或 $x\\geqslant1$ 的实数，因此在全集 $\\mathbb{R}$ 中不属于 $A$ 的数恰好满足 $0<x<1$. 所以 $\\complement_{U} A=(0,1)$."
+          "choices": [],
+          "answer": "\\((0,1)\\)",
+          "solution": "集合 $A$ 包含所有满足 $x\\leqslant0$ 或 $x\\geqslant1$ 的实数，因此在全集 $\\mathbb{R}$ 中不属于 $A$ 的数恰好满足 $0<x<1$. 所以 $\\complement_{U} A=(0,1)$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "设 $m$ 为常数，若点 $F(0,5)$ 是双曲线 $\\frac{y^{2}}{m}- \\frac{x^{2}}{9}= 1$ 的一个焦点，则 $m =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
+          "choices": [],
           "answer": "16",
-          "solution": "由于双曲线的焦点在 $y$ 轴上，必须有 $m>0$，且其标准形式中的 $a^{2}=m$，$b^{2}=9$. 双曲线焦半距满足 $c^{2}=a^{2}+b^{2}$，而焦点 $F(0,5)$ 给出 $c=5$. 因而 $m+9=25$，解得 $m=16$."
+          "solution": "由于双曲线的焦点在 $y$ 轴上，必须有 $m>0$，且其标准形式中的 $a^{2}=m$，$b^{2}=9$. 双曲线焦半距满足 $c^{2}=a^{2}+b^{2}$，而焦点 $F(0,5)$ 给出 $c=5$. 因而 $m+9=25$，解得 $m=16$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "不等式 $\\frac{x + 1}{x}\\le 3$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$x<0$ 或 $x\\ge\\frac{1}{2}$",
-          "solution": "<p>定义域要求 $x\\ne0$. 移项通分得</p>\n$$\n\\frac{x+1}{x}-3=\\frac{1-2x}{x}\\leqslant0\n$$\n<p>即 $\\dfrac{2x-1}{x}\\geqslant0$. 临界点为 $0$ 和 $\\dfrac{1}{2}$，作符号判断可知在 $(-\\infty,0)$ 和 $[\\frac{1}{2},+\\infty)$ 上成立，故解集为 $(-\\infty,0)\\cup[\\frac{1}{2},+\\infty)$.</p>"
+          "choices": [],
+          "answer": "\\(x<0\\) 或 \\(x\\ge\\frac{1}{2}\\)",
+          "solution": "<p>定义域要求 $x\\ne0$. 移项通分得</p>\n$$\n\\frac{x+1}{x}-3=\\frac{1-2x}{x}\\leqslant0\n$$\n<p>即 $\\dfrac{2x-1}{x}\\geqslant0$. 临界点为 $0$ 和 $\\dfrac{1}{2}$，作符号判断可知在 $(-\\infty,0)$ 和 $[\\frac{1}{2},+\\infty)$ 上成立，故解集为 $(-\\infty,0)\\cup[\\frac{1}{2},+\\infty)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "在极坐标系中，直线 $\\rho(2\\cos \\theta + \\sin \\theta) = 2$ 与直线 $\\rho\\cos \\theta = 1$ 的夹角大小为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （结果用反三角函数值表示）",
-          "choices": null,
-          "answer": "$\\arctan\\frac{1}{2}$",
-          "solution": "利用 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，两条直线分别化为 $2x+y=2$ 和 $x=1$. 第一条直线的斜率为 $-2$，第二条为竖直直线，因此两直线的锐角夹角 $\\varphi$ 满足 $\\tan\\varphi=\\dfrac{1}{2}$. 所以 $\\varphi=\\arctan\\dfrac{1}{2}$."
+          "choices": [],
+          "answer": "\\(\\arctan\\frac{1}{2}\\)",
+          "solution": "利用 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，两条直线分别化为 $2x+y=2$ 和 $x=1$. 第一条直线的斜率为 $-2$，第二条为竖直直线，因此两直线的锐角夹角 $\\varphi$ 满足 $\\tan\\varphi=\\dfrac{1}{2}$. 所以 $\\varphi=\\arctan\\dfrac{1}{2}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "在相距 2 千米的 $A$，$B$ 两点处测量目标 $C$，若 $\\angle CAB = 75^{\\circ}$，$\\angle CBA = 60^{\\circ}$，则 $A$，$C$ 两点之间的距离为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">千米</span></span>.",
-          "choices": null,
-          "answer": "$\\sqrt{6}$",
-          "solution": "<p>在三角形 $ABC$ 中，$\\angle ACB=180^{\\circ}-75^{\\circ}-60^{\\circ}=45^{\\circ}$. 由正弦定理，</p>\n$$\n\\frac{AC}{\\sin60^{\\circ}}=\\frac{AB}{\\sin45^{\\circ}}=\\frac{2}{\\sin45^{\\circ}}\n$$\n<p>因此 $AC=2\\dfrac{\\frac{\\sqrt{3}}{2}}{\\frac{\\sqrt{2}}{2}}=\\sqrt{6}$ 千米.</p>"
+          "choices": [],
+          "answer": "\\(\\sqrt{6}\\)",
+          "solution": "<p>在三角形 $ABC$ 中，$\\angle ACB=180^{\\circ}-75^{\\circ}-60^{\\circ}=45^{\\circ}$. 由正弦定理，</p>\n$$\n\\frac{AC}{\\sin60^{\\circ}}=\\frac{AB}{\\sin45^{\\circ}}=\\frac{2}{\\sin45^{\\circ}}\n$$\n<p>因此 $AC=2\\dfrac{\\frac{\\sqrt{3}}{2}}{\\frac{\\sqrt{2}}{2}}=\\sqrt{6}$ 千米.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "若圆锥的侧面积为 $2\\pi$，底面积为 $\\pi$，则该圆锥的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{\\pi\\sqrt{3}}{3}$",
-          "solution": "设圆锥底面半径为 $r$，母线长为 $l$，高为 $h$. 由 $\\pi r^{2}=\\pi$ 得 $r=1$，再由侧面积 $\\pi rl=2\\pi$ 得 $l=2$. 在轴截面的直角三角形中，$h^{2}+r^{2}=l^{2}$，所以 $h=\\sqrt{3}$. 因而体积为 $V=\\dfrac{1}{3}\\pi r^{2}h=\\dfrac{\\pi\\sqrt{3}}{3}$."
+          "choices": [],
+          "answer": "\\(\\frac{\\pi\\sqrt{3}}{3}\\)",
+          "solution": "设圆锥底面半径为 $r$，母线长为 $l$，高为 $h$. 由 $\\pi r^{2}=\\pi$ 得 $r=1$，再由侧面积 $\\pi rl=2\\pi$ 得 $l=2$. 在轴截面的直角三角形中，$h^{2}+r^{2}=l^{2}$，所以 $h=\\sqrt{3}$. 因而体积为 $V=\\dfrac{1}{3}\\pi r^{2}h=\\dfrac{\\pi\\sqrt{3}}{3}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "函数 $y = \\sin \\left(\\frac{\\pi}{2}+ x\\right) \\cos \\left(\\frac{\\pi}{6}- x\\right)$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{2+\\sqrt{3}}{4}$",
-          "solution": "<p>由诱导公式 $\\sin(\\frac{\\pi}{2}+x)=\\cos x$，并利用积化和差公式，</p>\n$$\ny=\\cos x\\cos\\left(\\frac{\\pi}{6}-x\\right)=\\frac{1}{2}\\left[\\cos\\left(2x-\\frac{\\pi}{6}\\right)+\\cos\\frac{\\pi}{6}\\right]  =\\frac{1}{2}\\cos\\left(2x-\\frac{\\pi}{6}\\right)+\\frac{\\sqrt{3}}{4}\n$$\n<p>因为余弦函数的最大值为 $1$，所以 $y_{\\max}=\\dfrac{1}{2}+\\dfrac{\\sqrt{3}}{4}=\\dfrac{2+\\sqrt{3}}{4}$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{2+\\sqrt{3}}{4}\\)",
+          "solution": "<p>由诱导公式 $\\sin(\\frac{\\pi}{2}+x)=\\cos x$，并利用积化和差公式，</p>\n$$\ny=\\cos x\\cos\\left(\\frac{\\pi}{6}-x\\right)=\\frac{1}{2}\\left[\\cos\\left(2x-\\frac{\\pi}{6}\\right)+\\cos\\frac{\\pi}{6}\\right]  =\\frac{1}{2}\\cos\\left(2x-\\frac{\\pi}{6}\\right)+\\frac{\\sqrt{3}}{4}\n$$\n<p>因为余弦函数的最大值为 $1$，所以 $y_{\\max}=\\dfrac{1}{2}+\\dfrac{\\sqrt{3}}{4}=\\dfrac{2+\\sqrt{3}}{4}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
-          "body": "<p>马老师从课本上抄录一个随机变量 $\\xi$ 的概率分布列如下表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$X$ </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$P(\\xi=x)$ </td><td style=\"text-align: center; border-right: 1px solid\"> ? </td><td style=\"text-align: center; border-right: 1px solid\"> ! </td><td style=\"text-align: center; border-right: 1px solid\"> ? </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>请小牛同学计算 $\\xi$ 的数学期望，尽管“!”处无法完全看清，且两个“?”处字迹模糊，但能肯定这两个“?”处的数值相同. 据此，小牛给出了正确答案 $E(\\xi)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
+          "body": "<p>马老师从课本上抄录一个随机变量 $\\xi$ 的概率分布列如下表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$X$ </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$P(\\xi=x)$ </td><td style=\"text-align: center; border-right: 1px solid\"> ? </td><td style=\"text-align: center; border-right: 1px solid\"> ! </td><td style=\"text-align: center; border-right: 1px solid\"> ? </td></tr></tbody></table></center><p>请小牛同学计算 $\\xi$ 的数学期望，尽管“!”处无法完全看清，且两个“?”处字迹模糊，但能肯定这两个“?”处的数值相同. 据此，小牛给出了正确答案 $E(\\xi)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": [],
           "answer": "2",
-          "solution": "<p>设 $P(\\xi=1)=P(\\xi=3)=p$，$P(\\xi=2)=q$. 概率分布列满足 $2p+q=1$，且</p>\n$$\nE(\\xi)=1\\cdot p+2\\cdot q+3\\cdot p=4p+2q=2(2p+q)=2\n$$\n<p>因此无论“!”处的具体概率是多少，数学期望都等于 $2$.</p>"
+          "solution": "<p>设 $P(\\xi=1)=P(\\xi=3)=p$，$P(\\xi=2)=q$. 概率分布列满足 $2p+q=1$，且</p>\n$$\nE(\\xi)=1\\cdot p+2\\cdot q+3\\cdot p=4p+2q=2(2p+q)=2\n$$\n<p>因此无论“!”处的具体概率是多少，数学期望都等于 $2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "行列式 $\\begin{vmatrix}a & b\\\\ c & d\\end{vmatrix}$ （$a$，$b$，$c$，$d\\in \\{-1,1,2\\}$）所有可能的值中，最大的是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "6",
-          "solution": "行列式的值为 $ad-bc$. 因为 $a$，$d\\leqslant2$，所以 $ad\\leqslant4$；又因为 $b$，$c\\in\\{-1,1,2\\}$，有 $bc\\ge-2$. 因而 $ad-bc\\leqslant4-(-2)=6$. 取 $a=d=2$，$b=2$，$c=-1$ 时行列式等于 $4-(-2)=6$，故最大值为 $6$."
+          "solution": "行列式的值为 $ad-bc$. 因为 $a$，$d\\leqslant2$，所以 $ad\\leqslant4$；又因为 $b$，$c\\in\\{-1,1,2\\}$，有 $bc\\ge-2$. 因而 $ad-bc\\leqslant4-(-2)=6$. 取 $a=d=2$，$b=2$，$c=-1$ 时行列式等于 $4-(-2)=6$，故最大值为 $6$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "在正三角形 $ABC$ 中，$D$ 是 $BC$ 上的点. 若 $AB = 3$，$BD = 1$，则 $\\overrightarrow{AB}\\cdot \\overrightarrow{AD}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{15}{2}$",
-          "solution": "<p>由向量加法，$\\overrightarrow{AD}=\\overrightarrow{AB}+\\overrightarrow{BD}$. 正三角形的内角为 $60^{\\circ}$，而 $\\overrightarrow{AB}$ 与 $\\overrightarrow{BD}$ 的夹角为 $120^{\\circ}$. 所以</p>\n$$\n\\overrightarrow{AB}\\cdot\\overrightarrow{AD}=\\overrightarrow{AB}\\cdot\\left(\\overrightarrow{AB}+\\overrightarrow{BD}\\right)=|AB|^{2}+|AB||BD|\\cos120^{\\circ}=9+3\\cdot1\\cdot\\left(-\\frac{1}{2}\\right)=\\frac{15}{2}\n$$"
+          "choices": [],
+          "answer": "\\(\\frac{15}{2}\\)",
+          "solution": "<p>由向量加法，$\\overrightarrow{AD}=\\overrightarrow{AB}+\\overrightarrow{BD}$. 正三角形的内角为 $60^{\\circ}$，而 $\\overrightarrow{AB}$ 与 $\\overrightarrow{BD}$ 的夹角为 $120^{\\circ}$. 所以</p>\n$$\n\\overrightarrow{AB}\\cdot\\overrightarrow{AD}=\\overrightarrow{AB}\\cdot\\left(\\overrightarrow{AB}+\\overrightarrow{BD}\\right)=|AB|^{2}+|AB||BD|\\cos120^{\\circ}=9+3\\cdot1\\cdot\\left(-\\frac{1}{2}\\right)=\\frac{15}{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "随机抽取的 9 位同学中，至少有 2 位同学在同一月份出生的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （默认每个月的天数相同，结果精确到 0.001）",
-          "choices": null,
+          "choices": [],
           "answer": "0.985",
-          "solution": "<p>考虑对立事件“9 位同学的出生月份各不相同”. 9 位同学的出生月份共有 $12^{9}$ 种等可能结果，而各不相同的结果数为 $12\\cdot11\\cdot10\\cdots4$. 因此所求概率为</p>\n$$\n1-\\frac{12\\cdot11\\cdot10\\cdots4}{12^{9}}=0.984527\\cdots\n$$\n<p>精确到 $0.001$ 得 $0.985$.</p>"
+          "solution": "<p>考虑对立事件“9 位同学的出生月份各不相同”. 9 位同学的出生月份共有 $12^{9}$ 种等可能结果，而各不相同的结果数为 $12\\cdot11\\cdot10\\cdots4$. 因此所求概率为</p>\n$$\n1-\\frac{12\\cdot11\\cdot10\\cdots4}{12^{9}}=0.984527\\cdots\n$$\n<p>精确到 $0.001$ 得 $0.985$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "设 $g(x)$ 是定义在 $\\mathbb{R}$ 上，以 1 为周期的函数，若函数 $f(x) = x + g(x)$ 在区间 $[3,4]$ 上的值域为 $[-2,5]$，则 $f(x)$ 在区间 $[-10,10]$ 上的值域为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$[-15,11]$",
-          "solution": "由 $g(x+1)=g(x)$，可得 $f(x+1)=f(x)+1$. 对任意整数 $k$，当 $x\\in[3,4]$ 时，$f(x+k)=f(x)+k$，所以 $f$ 在 $[3+k,4+k]$ 上的值域为 $[-2+k,5+k]$. 取 $k=-13$，$-12$，$\\ldots$，$6$，这些区间覆盖 $[-10,10]$，对应的值域区间依次相邻重叠，最小值为 $-2-13=-15$，最大值为 $5+6=11$. 故所求值域为 $[-15,11]$."
+          "choices": [],
+          "answer": "\\([-15,11]\\)",
+          "solution": "由 $g(x+1)=g(x)$，可得 $f(x+1)=f(x)+1$. 对任意整数 $k$，当 $x\\in[3,4]$ 时，$f(x+k)=f(x)+k$，所以 $f$ 在 $[3+k,4+k]$ 上的值域为 $[-2+k,5+k]$. 取 $k=-13$，$-12$，$\\ldots$，$6$，这些区间覆盖 $[-10,10]$，对应的值域区间依次相邻重叠，最小值为 $-2-13=-15$，最大值为 $5+6=11$. 故所求值域为 $[-15,11]$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知点 $O(0,0)$，$Q_{0}(0,1)$ 和点 $R_{0}(3,1)$，记 $Q_{0}R_{0}$ 的中点为 $P_{1}$，取 $Q_{0}P_{1}$ 和 $P_{1}R_{0}$ 中的一条，记其端点为 $Q_{1}$，$R_{1}$，使之满足 $(|OQ_{1}| - 2)(|OR_{1}| - 2) < 0$，记 $Q_{1}R_{1}$ 的中点为 $P_{2}$，取 $Q_{1}P_{2}$ 和 $P_{2}R_{1}$ 中的一条，记其端点为 $Q_{2}$，$R_{2}$，使之满足 $(|OQ_{2}| - 2)(|OR_{2}| - 2) < 0$. 依次下去，得到 $P_{1}$，$P_{2}$，$\\cdots$，$P_{n}$，$\\cdots$，则 $\\lim\\limits_{n \\to \\infty}\\left|Q_{0}P_{n}\\right| =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\sqrt{3}$",
-          "solution": "<p>有 $P_{1}=(\\frac{3}{2},1)$，故 $|OP_{1}|=\\frac{\\sqrt{13}}{2}<2$，而 $|OR_{0}|=\\sqrt{10}>2$. 因此第一次只能取线段 $P_{1}R_{0}$. 此后每次都在当前端点分属圆 $|OP|<2$ 和 $|OP|>2$ 的线段中继续二等分，所以所得点列是在线段 $P_{1}R_{0}$ 上对圆 $|OP|=2$ 的二分逼近.</p><p>线段 $P_{1}R_{0}$ 位于直线 $y=1$ 上，且在相关部分横坐标为正. 直线 $y=1$ 与圆 $x^{2}+y^{2}=4$ 的交点满足 $x^{2}+1=4$，故分界点为 $T(\\sqrt{3},1)$. 二分逼近给出 $P_{n}\\to T$，从而</p>\n$$\n\\lim_{n\\to\\infty}|Q_{0}P_{n}|=|Q_{0}T|=\\sqrt{3}\n$$"
+          "choices": [],
+          "answer": "\\(\\sqrt{3}\\)",
+          "solution": "<p>有 $P_{1}=(\\frac{3}{2},1)$，故 $|OP_{1}|=\\frac{\\sqrt{13}}{2}<2$，而 $|OR_{0}|=\\sqrt{10}>2$. 因此第一次只能取线段 $P_{1}R_{0}$. 此后每次都在当前端点分属圆 $|OP|<2$ 和 $|OP|>2$ 的线段中继续二等分，所以所得点列是在线段 $P_{1}R_{0}$ 上对圆 $|OP|=2$ 的二分逼近.</p><p>线段 $P_{1}R_{0}$ 位于直线 $y=1$ 上，且在相关部分横坐标为正. 直线 $y=1$ 与圆 $x^{2}+y^{2}=4$ 的交点满足 $x^{2}+1=4$，故分界点为 $T(\\sqrt{3},1)$. 二分逼近给出 $P_{n}\\to T$，从而</p>\n$$\n\\lim_{n\\to\\infty}|Q_{0}P_{n}|=|Q_{0}T|=\\sqrt{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -120,7 +289,9 @@
             "$\\frac{b}{a}+ \\frac{a}{b}\\ge 2$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $ab>0$，所以 $a$，$b$ 同号. 选项 A 在 $a=b$ 时取等号，不满足严格不等式；选项 B、C 在 $a<0$，$b<0$ 时左侧分别为负数，不能恒成立. 对选项 D，$\\dfrac{b}{a}>0$，$\\dfrac{a}{b}>0$，且两者乘积为 $1$，由基本不等式得</p>\n$$\n\\frac{b}{a}+\\frac{a}{b}\\geqslant2\\sqrt{\\frac{b}{a}\\cdot\\frac{a}{b}}=2\n$$\n<p>因此选 D.</p>"
+          "solution": "<p>因为 $ab>0$，所以 $a$，$b$ 同号. 选项 A 在 $a=b$ 时取等号，不满足严格不等式；选项 B、C 在 $a<0$，$b<0$ 时左侧分别为负数，不能恒成立. 对选项 D，$\\dfrac{b}{a}>0$，$\\dfrac{a}{b}>0$，且两者乘积为 $1$，由基本不等式得</p>\n$$\n\\frac{b}{a}+\\frac{a}{b}\\geqslant2\\sqrt{\\frac{b}{a}\\cdot\\frac{a}{b}}=2\n$$\n<p>因此选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
@@ -132,7 +303,9 @@
             "$y = \\cos x$"
           ],
           "answer": "A",
-          "solution": "选项 A 的定义域为 $x\\ne0$，且 $\\ln\\dfrac1{|{-x}|}=\\ln\\dfrac1{|x|}$，所以它是偶函数. 当 $x>0$ 时，$\\ln\\dfrac{1}{x}=-\\ln x$，其导数为 $-\\dfrac{1}{x}<0$，故在 $(0,+\\infty)$ 上单调递减. 选项 B 为奇函数，选项 C 在正半轴上递增，选项 D 在整个正半轴上不单调，因此选 A."
+          "solution": "选项 A 的定义域为 $x\\ne0$，且 $\\ln\\dfrac1{|{-x}|}=\\ln\\dfrac1{|x|}$，所以它是偶函数. 当 $x>0$ 时，$\\ln\\dfrac{1}{x}=-\\ln x$，其导数为 $-\\dfrac{1}{x}<0$，故在 $(0,+\\infty)$ 上单调递减. 选项 B 为奇函数，选项 C 在正半轴上递增，选项 D 在整个正半轴上不单调，因此选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 17,
@@ -144,7 +317,9 @@
             "$10$"
           ],
           "answer": "B",
-          "solution": "<p>设各点的位置向量分别为 $\\mathbf{a}_{1}$，$\\mathbf{a}_{2}$，$\\mathbf{a}_{3}$，$\\mathbf{a}_{4}$，$\\mathbf{a}_{5}$，点 $M$ 的位置向量为 $\\mathbf{m}$. 由 $\\overrightarrow{MA_i}=\\mathbf{a}_{i}-\\mathbf{m}$，原式等价于</p>\n$$\n\\sum_{i=1}^{5}(\\mathbf{a}_{i}-\\mathbf{m})=\\mathbf{0}\n$$\n<p>即 $5\\mathbf{m}=\\mathbf{a}_{1}+\\mathbf{a}_{2}+\\mathbf{a}_{3}+\\mathbf{a}_{4}+\\mathbf{a}_{5}$. 因而 $\\mathbf{m}$ 唯一确定，恰有一个点 $M$，所以选 B.</p>"
+          "solution": "<p>设各点的位置向量分别为 $\\mathbf{a}_{1}$，$\\mathbf{a}_{2}$，$\\mathbf{a}_{3}$，$\\mathbf{a}_{4}$，$\\mathbf{a}_{5}$，点 $M$ 的位置向量为 $\\mathbf{m}$. 由 $\\overrightarrow{MA_i}=\\mathbf{a}_{i}-\\mathbf{m}$，原式等价于</p>\n$$\n\\sum_{i=1}^{5}(\\mathbf{a}_{i}-\\mathbf{m})=\\mathbf{0}\n$$\n<p>即 $5\\mathbf{m}=\\mathbf{a}_{1}+\\mathbf{a}_{2}+\\mathbf{a}_{3}+\\mathbf{a}_{4}+\\mathbf{a}_{5}$. 因而 $\\mathbf{m}$ 唯一确定，恰有一个点 $M$，所以选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 18,
@@ -156,7 +331,9 @@
             "$\\{a_{1}, a_{3}, \\cdots, a_{2n-1}, \\cdots\\}$ 和 $\\{a_{2}, a_{4}, \\cdots, a_{2n}, \\cdots\\}$ 均是等比数列，且公比相同"
           ],
           "answer": "D",
-          "solution": "<p>由矩形面积定义，$A_{i}=a_{i} a_{i+1}$. 若 $\\{A_{i}\\}$ 为等比数列，设公比为 $q>0$，则</p>\n$$\n\\frac{A_{i+1}}{A_{i}}=\\frac{a_{i+1}a_{i+2}}{a_{i} a_{i+1}}=\\frac{a_{i+2}}{a_{i}}=q\n$$\n<p>因此奇数项子列和偶数项子列分别都为等比数列，且公比都为 $q$. 反过来，若两条子列均为等比数列且公比相同为 $q$，则 $a_{i+2}=q a_{i}$，从而 $\\frac{A_{i+1}}{A_{i}}=q$，所以 $\\{A_{i}\\}$ 为等比数列. 故充要条件为 D.</p>"
+          "solution": "<p>由矩形面积定义，$A_{i}=a_{i} a_{i+1}$. 若 $\\{A_{i}\\}$ 为等比数列，设公比为 $q>0$，则</p>\n$$\n\\frac{A_{i+1}}{A_{i}}=\\frac{a_{i+1}a_{i+2}}{a_{i} a_{i+1}}=\\frac{a_{i+2}}{a_{i}}=q\n$$\n<p>因此奇数项子列和偶数项子列分别都为等比数列，且公比都为 $q$. 反过来，若两条子列均为等比数列且公比相同为 $q$，则 $a_{i+2}=q a_{i}$，从而 $\\frac{A_{i+1}}{A_{i}}=q$，所以 $\\{A_{i}\\}$ 为等比数列. 故充要条件为 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -166,37 +343,47 @@
         {
           "num": 19,
           "body": "已知复数 $z_{1}$ 满足 $(z_{1} - 2)(1 + \\mathrm{i}) = 1 - \\mathrm{i}$（$\\mathrm{i}$ 为虚数单位），复数 $z_{2}$ 的虚部为 2，且 $z_{1} \\cdot z_{2}$ 是实数，求 $z_{2}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由题设</p>\n$$\nz_{1}-2=\\frac{1-\\mathrm{i}}{1+\\mathrm{i}}=\\frac{(1-\\mathrm{i})^{2}}{(1+\\mathrm{i})(1-\\mathrm{i})}=-\\mathrm{i}\n$$\n<p>所以 $z_{1}=2-\\mathrm{i}$. 设 $z_{2}=u+2\\mathrm{i}$，其中 $u\\in\\mathbb{R}$，则</p>\n$$\nz_{1}z_{2}=(2-\\mathrm{i})(u+2\\mathrm{i})=(2u+2)+(4-u)\\mathrm{i}\n$$\n<p>因为该复数为实数，所以虚部 $4-u=0$，得 $u=4$. 因此 $z_{2}=4+2\\mathrm{i}$.</p>"
+          "solution": "<p>由题设</p>\n$$\nz_{1}-2=\\frac{1-\\mathrm{i}}{1+\\mathrm{i}}=\\frac{(1-\\mathrm{i})^{2}}{(1+\\mathrm{i})(1-\\mathrm{i})}=-\\mathrm{i}\n$$\n<p>所以 $z_{1}=2-\\mathrm{i}$. 设 $z_{2}=u+2\\mathrm{i}$，其中 $u\\in\\mathbb{R}$，则</p>\n$$\nz_{1}z_{2}=(2-\\mathrm{i})(u+2\\mathrm{i})=(2u+2)+(4-u)\\mathrm{i}\n$$\n<p>因为该复数为实数，所以虚部 $4-u=0$，得 $u=4$. 因此 $z_{2}=4+2\\mathrm{i}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知函数 $f(x) = a \\cdot 2^{x}+ b \\cdot 3^{x}$，其中常数 $a$，$b$ 满足 $a \\cdot b \\neq 0$.</p><ol class=\"enumerate\"><li><p>若 $a \\cdot b > 0$，判断函数 $f(x)$ 的单调性；</p></li><li><p>若 $a \\cdot b < 0$，求 $f(x+1) > f(x)$ 时的 $x$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a>0$，$b>0$ 时，$2^{x}$，$3^{x}$ 都在 $\\mathbb{R}$ 上递增，正系数倍仍递增，故 $f(x)$ 在 $\\mathbb{R}$ 上单调递增. 当 $a<0$，$b<0$ 时，两个正指数函数分别乘以负数后都递减，故 $f(x)$ 在 $\\mathbb{R}$ 上单调递减.</p></li><li>\n$$\nf(x+1)-f(x)=a2^{x}+2b3^{x}\n$$\n<p>由于 $2^{x}>0$，不等式等价于 $a+2b(\\frac{3}{2})^{x}>0$. 若 $a<0<b$，则 $(\\frac{3}{2})^{x}> -\\frac{a}{2b}>0$，所以 $x>\\log_{\\frac{3}{2}}\\left(-\\frac{a}{2b}\\right)$. 若 $b<0<a$，则 $(\\frac{3}{2})^{x}< -\\frac{a}{2b}$，所以 $x<\\log_{\\frac{3}{2}}\\left(-\\frac{a}{2b}\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a>0$，$b>0$ 时，$2^{x}$，$3^{x}$ 都在 $\\mathbb{R}$ 上递增，正系数倍仍递增，故 $f(x)$ 在 $\\mathbb{R}$ 上单调递增. 当 $a<0$，$b<0$ 时，两个正指数函数分别乘以负数后都递减，故 $f(x)$ 在 $\\mathbb{R}$ 上单调递减.</p></li><li>\n$$\nf(x+1)-f(x)=a2^{x}+2b3^{x}\n$$\n<p>由于 $2^{x}>0$，不等式等价于 $a+2b(\\frac{3}{2})^{x}>0$. 若 $a<0<b$，则 $(\\frac{3}{2})^{x}> -\\frac{a}{2b}>0$，所以 $x>\\log_{\\frac{3}{2}}\\left(-\\frac{a}{2b}\\right)$. 若 $b<0<a$，则 $(\\frac{3}{2})^{x}< -\\frac{a}{2b}$，所以 $x<\\log_{\\frac{3}{2}}\\left(-\\frac{a}{2b}\\right)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
-          "body": "<p>已知 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 是底面边长为 1 的正四棱柱，$O_{1}$ 为 $A_{1}C_{1}$ 与 $B_{1}D_{1}$ 的交点.</p><ol class=\"enumerate\"><li><p>设 $AB_{1}$ 与底面 $A_{1}B_{1}C_{1}D_{1}$ 所成角的大小为 $\\alpha$，二面角 $A - B_{1}D_{1}- A_{1}$ 的大小为 $\\beta$. 求证：$\\tan \\beta = \\sqrt{2}\\tan \\alpha$；</p></li><li><p>若点 $C$ 到平面 $AB_{1}D_{1}$ 的距离为 $\\frac{4}{3}$，求正四棱柱 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的高.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>已知 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 是底面边长为 1 的正四棱柱，$O_{1}$ 为 $A_{1}C_{1}$ 与 $B_{1}D_{1}$ 的交点.</p><ol class=\"enumerate\"><li><p>设 $AB_{1}$ 与底面 $A_{1}B_{1}C_{1}D_{1}$ 所成角的大小为 $\\alpha$，二面角 $A - B_{1}D_{1}- A_{1}$ 的大小为 $\\beta$. 求证：$\\tan \\beta = \\sqrt{2}\\tan \\alpha$；</p></li><li><p>若点 $C$ 到平面 $AB_{1}D_{1}$ 的距离为 $\\frac{4}{3}$，求正四棱柱 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的高.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/shanghai_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>设正四棱柱的高为 $h>0$，建立直角坐标系：$A_{1}=(0,0,0)$，$B_{1}=(1,0,0)$，$C_{1}=(1,1,0)$，$D_{1}=(0,1,0)$，$A=(0,0,h)$，$C=(1,1,h)$.</p><ol class=\"enumerate\"><li><p>线段 $AB_{1}$ 在底面上的射影为 $A_{1}B_{1}$，故 $\\tan\\alpha=\\dfrac{AA_1}{A_1B_1}=h$. 因为 $O_{1}$ 是正方形对角线的交点，$A O_{1}\\perp B_{1}D_{1}$，且 $A_{1}O_{1}\\perp B_{1}D_{1}$，所以二面角的平面角为 $\\angle AO_{1}A_{1}$. 又 $A_{1}O_{1}=\\dfrac{\\sqrt{2}}{2}$，故</p>\n$$\n\\tan\\beta=\\frac{AA_{1}}{A_{1}O_{1}}=\\sqrt{2}h=\\sqrt{2}\\tan\\alpha\n$$\n</li><li><p>由三点 $A$，$B_{1}$，$D_{1}$ 可得平面 $AB_{1}D_{1}$ 的方程为 $hx+hy+z-h=0$. 因而点 $C$ 到该平面的距离为</p>\n$$\n\\frac{|h+h+h-h|}{\\sqrt{h^{2}+h^{2}+1}}=\\frac{2h}{\\sqrt{2h^{2}+1}}\n$$\n<p>由题设 $\\dfrac{2h}{\\sqrt{2h^{2}+1}}=\\dfrac{4}{3}$，且 $h>0$，平方并整理得 $36h^{2}=16(2h^{2}+1)$，即 $h^{2}=4$. 所以正四棱柱的高为 $h=2$.</p></li></ol>"
+          "solution": "<p>设正四棱柱的高为 $h>0$，建立直角坐标系：$A_{1}=(0,0,0)$，$B_{1}=(1,0,0)$，$C_{1}=(1,1,0)$，$D_{1}=(0,1,0)$，$A=(0,0,h)$，$C=(1,1,h)$.</p><ol class=\"enumerate\"><li><p>线段 $AB_{1}$ 在底面上的射影为 $A_{1}B_{1}$，故 $\\tan\\alpha=\\dfrac{AA_1}{A_1B_1}=h$. 因为 $O_{1}$ 是正方形对角线的交点，$A O_{1}\\perp B_{1}D_{1}$，且 $A_{1}O_{1}\\perp B_{1}D_{1}$，所以二面角的平面角为 $\\angle AO_{1}A_{1}$. 又 $A_{1}O_{1}=\\dfrac{\\sqrt{2}}{2}$，故</p>\n$$\n\\tan\\beta=\\frac{AA_{1}}{A_{1}O_{1}}=\\sqrt{2}h=\\sqrt{2}\\tan\\alpha\n$$\n</li><li><p>由三点 $A$，$B_{1}$，$D_{1}$ 可得平面 $AB_{1}D_{1}$ 的方程为 $hx+hy+z-h=0$. 因而点 $C$ 到该平面的距离为</p>\n$$\n\\frac{|h+h+h-h|}{\\sqrt{h^{2}+h^{2}+1}}=\\frac{2h}{\\sqrt{2h^{2}+1}}\n$$\n<p>由题设 $\\dfrac{2h}{\\sqrt{2h^{2}+1}}=\\dfrac{4}{3}$，且 $h>0$，平方并整理得 $36h^{2}=16(2h^{2}+1)$，即 $h^{2}=4$. 所以正四棱柱的高为 $h=2$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知数列 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的通项公式分别为 $a_{n} = 3n + 6$，$b_{n} = 2n + 7$ （$n \\in \\mathbf{N}^{*}$），将集合 $\\{x \\mid x = a_{n}, n \\in \\mathbf{N}^{*}\\} \\cup \\{x \\mid x = b_{n}, n \\in \\mathbf{N}^{*}\\}$ 中的元素从小到大依次排列，构成数列 $c_{1}$，$c_{2}$，$c_{3}$，$c_{4}$，$\\cdots$，$c_{n}$，$\\cdots$.</p><ol class=\"enumerate\"><li><p>求 $c_{1}$，$c_{2}$，$c_{3}$，$c_{4}$；</p></li><li><p>求证：在数列 $\\{a_{n}\\}$ 中，但不在数列 $\\{b_{n}\\}$ 中的项恰为 $a_{2}$，$a_{4}$，$\\cdots$，$a_{2n}$，$\\cdots$；</p></li><li><p>求数列 $\\{c_{n}\\}$ 的通项公式.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$a_{1}=9$，$a_{2}=12$，$b_{1}=9$，$b_{2}=11$，$b_{3}=13$. 合并集合时重复的 $9$ 只保留一次，所以 $c_{1}=9$，$c_{2}=11$，$c_{3}=12$，$c_{4}=13$.</p></li><li><p>若 $a_{n}$ 也是 $\\{b_{n}\\}$ 中的项，则存在 $m\\in\\mathbb{N}^{*}$ 使</p>\n$$\n3n+6=2m+7\n$$\n<p>即 $m=\\dfrac{3n-1}{2}$. 当 $n=2k+1$ 为奇数时，$m=3k+1\\in\\mathbb{N}^{*}$，所以 $a_{2k+1}=b_{3k+1}$. 当 $n=2k$ 为偶数时，$\\dfrac{3n-1}{2}=3k-\\dfrac{1}{2}$ 不是整数，故 $a_{2k}$ 不在 $\\{b_{n}\\}$ 中. 因而所求各项恰为 $a_{2}$，$a_{4}$，$\\ldots$，$a_{2k}$，$\\ldots$.</p></li><li><p>由上一步，奇数项 $a_{2k-1}=6k+3$ 与 $b_{3k-2}=6k+3$ 重合，偶数项 $a_{2k}=6k+6$ 不重合. 另外</p><p>$b_{3k-1}=6k+5$，$b_{3k}=6k+7$.</p><p>所以每四个相邻的不同元素依次为 $6k+3<6k+5<6k+6<6k+7$，从而</p>\n$$\nc_{n}=\\begin{cases}6k+3,&n=4k-3,\\\\  6k+5,&n=4k-2,\\\\  6k+6,&n=4k-1,\\\\  6k+7,&n=4k,\\end{cases}\\qquad k\\in\\mathbb{N}^{*}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$a_{1}=9$，$a_{2}=12$，$b_{1}=9$，$b_{2}=11$，$b_{3}=13$. 合并集合时重复的 $9$ 只保留一次，所以 $c_{1}=9$，$c_{2}=11$，$c_{3}=12$，$c_{4}=13$.</p></li><li><p>若 $a_{n}$ 也是 $\\{b_{n}\\}$ 中的项，则存在 $m\\in\\mathbb{N}^{*}$ 使</p>\n$$\n3n+6=2m+7\n$$\n<p>即 $m=\\dfrac{3n-1}{2}$. 当 $n=2k+1$ 为奇数时，$m=3k+1\\in\\mathbb{N}^{*}$，所以 $a_{2k+1}=b_{3k+1}$. 当 $n=2k$ 为偶数时，$\\dfrac{3n-1}{2}=3k-\\dfrac{1}{2}$ 不是整数，故 $a_{2k}$ 不在 $\\{b_{n}\\}$ 中. 因而所求各项恰为 $a_{2}$，$a_{4}$，$\\ldots$，$a_{2k}$，$\\ldots$.</p></li><li><p>由上一步，奇数项 $a_{2k-1}=6k+3$ 与 $b_{3k-2}=6k+3$ 重合，偶数项 $a_{2k}=6k+6$ 不重合. 另外</p><p>$b_{3k-1}=6k+5$，$b_{3k}=6k+7$.</p><p>所以每四个相邻的不同元素依次为 $6k+3<6k+5<6k+6<6k+7$，从而</p>\n$$\nc_{n}=\\begin{cases}6k+3,&n=4k-3,\\\\  6k+5,&n=4k-2,\\\\  6k+6,&n=4k-1,\\\\  6k+7,&n=4k,\\end{cases}\\qquad k\\in\\mathbb{N}^{*}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "<p>已知平面上的线段 $l$ 及点 $P$，在 $l$ 上任取一点 $Q$，线段 $PQ$ 长度的最小值称为点 $P$ 到线段 $l$ 的距离，记作 $d(P, l)$.</p><ol class=\"enumerate\"><li><p>求点 $P(1,1)$ 到线段 $l: x - y - 3 = 0$（$3 \\le x \\le 5$）的距离 $d(P, l)$；</p></li><li><p>设 $l$ 是长为 2 的线段，求点的集合 $D = \\{P \\mid d(P, l) \\le 1\\}$ 所表示的图形面积；</p></li><li><p>写出到两条线段 $l_{1}$，$l_{2}$ 距离相等的点的集合 $\\Omega = \\{P \\mid d(P, l_{1}) = d(P, l_{2})\\}$，其中 $l_{1} = AB$，$l_{2} = CD$，$A$，$B$，$C$，$D$ 是下列三组点中的一组.</p><p></p><ol class=\"enumerate\"><li><p>$A(1,3)$，$B(1,0)$，$C(-1,3)$，$D(-1,0)$.</p></li><li><p>$A(1,3)$，$B(1,0)$，$C(-1,3)$，$D(-1,-2)$.</p></li><li><p>$A(0,1)$，$B(0,0)$，$C(0,0)$，$D(2,0)$.</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>线段上的点可写为 $Q=(x,x-3)$，其中 $3\\le x\\leqslant5$. 因而</p>\n$$\n|PQ|^{2}=(x-1)^{2}+(x-4)^{2}\n$$\n<p>其导数为 $4x-10>0$（当 $x\\geqslant3$），所以最小值在 $x=3$ 处取得. 此时 $Q=(3,0)$，故 $d(P,l)=\\sqrt{(3-1)^{2}+(0-1)^{2}}=\\sqrt{5}$.</p></li><li><p>将线段平移不影响面积. 以线段为中心线，距离不超过 $1$ 的点集由一个长为 $2$、宽为 $2$ 的矩形和两个半径为 $1$ 的半圆组成. 因而图形面积为 $2\\times2+\\pi\\times1^{2}=4+\\pi$.</p></li><li><p>对每一组点按纵坐标区间分段比较到两条线段的距离.</p><p>第一组中，两条线段分别为 $x=1$ 与 $x=-1$，且纵坐标范围相同，关于 $y$ 轴对称. 对任意点 $(x,y)$，两距离相等当且仅当 $x=0$，所以</p>\n$$\n\\Omega=\\{(x,y)\\mid x=0\\}\n$$\n<p>第二组中，当 $y\\geqslant0$ 时，两条线段的垂足或相应端点具有相同纵坐标，距离相等给出 $x=0$. 当 $-2\\le y<0$ 时，到第一条线段的最近点为 $B=(1,0)$，到第二条线段的最近点为 $(-1,y)$，故</p>\n$$\n(x-1)^{2}+y^{2}=(x+1)^{2}\n$$\n<p>即 $y^{2}=4x$. 当 $y<-2$ 时，最近点分别为 $B=(1,0)$ 和 $D=(-1,-2)$，故</p>\n$$\n(x-1)^{2}+y^{2}=(x+1)^{2}+(y+2)^{2}\n$$\n<p>即 $x+y+1=0$. 因此</p>\n$$\n\\Omega=\\{(x,y)\\mid x=0, y\\geqslant0\\}\\cup\\{(x,y)\\mid y^{2}=4x, -2\\le y<0\\}\\cup\\{(x,y)\\mid x+y+1=0, x>1\\}\n$$\n<p>第三组中，$l_{1}$ 是 $y$ 轴上从 $(0,0)$ 到 $(0,1)$ 的线段，$l_{2}$ 是 $x$ 轴上从 $(0,0)$ 到 $(2,0)$ 的线段. 当 $x\\leqslant0$，$y\\leqslant0$ 时，两条线段的最近点都是原点，故这一象限部分全部满足条件. 当 $0<x\\leqslant1$ 且两点的垂足在线段内部时，距离分别为 $x$ 和 $y$，得到 $y=x$. 当 $1<x\\leqslant2$ 且第一条线段的最近点为 $(0,1)$、第二条线段的垂足在线段内部时，</p>\n$$\nx^{2}+(y-1)^{2}=y^{2}\n$$\n<p>即 $x^{2}=2y-1$. 当 $x>2$ 且两条线段的最近点分别为 $(0,1)$ 和 $(2,0)$ 时，</p>\n$$\nx^{2}+(y-1)^{2}=(x-2)^{2}+y^{2}\n$$\n<p>即 $4x-2y-3=0$. 综上</p>\n$$\n\\begin{gathered}\\Omega=\\{(x,y)\\mid x\\leqslant0, y\\leqslant0\\}\\cup\\{(x,y)\\mid y=x, 0<x\\leqslant1\\}\\\\\n\n\\cup\\{(x,y)\\mid x^2=2y-1, 1<x\\leqslant2\\}\\cup\\{(x,y)\\mid 4x-2y-3=0, x>2\\}.\\end{gathered}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>线段上的点可写为 $Q=(x,x-3)$，其中 $3\\le x\\leqslant5$. 因而</p>\n$$\n|PQ|^{2}=(x-1)^{2}+(x-4)^{2}\n$$\n<p>其导数为 $4x-10>0$（当 $x\\geqslant3$），所以最小值在 $x=3$ 处取得. 此时 $Q=(3,0)$，故 $d(P,l)=\\sqrt{(3-1)^{2}+(0-1)^{2}}=\\sqrt{5}$.</p></li><li><p>将线段平移不影响面积. 以线段为中心线，距离不超过 $1$ 的点集由一个长为 $2$、宽为 $2$ 的矩形和两个半径为 $1$ 的半圆组成. 因而图形面积为 $2\\times2+\\pi\\times1^{2}=4+\\pi$.</p></li><li><p>对每一组点按纵坐标区间分段比较到两条线段的距离.</p><p>第一组中，两条线段分别为 $x=1$ 与 $x=-1$，且纵坐标范围相同，关于 $y$ 轴对称. 对任意点 $(x,y)$，两距离相等当且仅当 $x=0$，所以</p>\n$$\n\\Omega=\\{(x,y)\\mid x=0\\}\n$$\n<p>第二组中，当 $y\\geqslant0$ 时，两条线段的垂足或相应端点具有相同纵坐标，距离相等给出 $x=0$. 当 $-2\\le y<0$ 时，到第一条线段的最近点为 $B=(1,0)$，到第二条线段的最近点为 $(-1,y)$，故</p>\n$$\n(x-1)^{2}+y^{2}=(x+1)^{2}\n$$\n<p>即 $y^{2}=4x$. 当 $y<-2$ 时，最近点分别为 $B=(1,0)$ 和 $D=(-1,-2)$，故</p>\n$$\n(x-1)^{2}+y^{2}=(x+1)^{2}+(y+2)^{2}\n$$\n<p>即 $x+y+1=0$. 因此</p>\n$$\n\\Omega=\\{(x,y)\\mid x=0, y\\geqslant0\\}\\cup\\{(x,y)\\mid y^{2}=4x, -2\\le y<0\\}\\cup\\{(x,y)\\mid x+y+1=0, x>1\\}\n$$\n<p>第三组中，$l_{1}$ 是 $y$ 轴上从 $(0,0)$ 到 $(0,1)$ 的线段，$l_{2}$ 是 $x$ 轴上从 $(0,0)$ 到 $(2,0)$ 的线段. 当 $x\\leqslant0$，$y\\leqslant0$ 时，两条线段的最近点都是原点，故这一象限部分全部满足条件. 当 $0<x\\leqslant1$ 且两点的垂足在线段内部时，距离分别为 $x$ 和 $y$，得到 $y=x$. 当 $1<x\\leqslant2$ 且第一条线段的最近点为 $(0,1)$、第二条线段的垂足在线段内部时，</p>\n$$\nx^{2}+(y-1)^{2}=y^{2}\n$$\n<p>即 $x^{2}=2y-1$. 当 $x>2$ 且两条线段的最近点分别为 $(0,1)$ 和 $(2,0)$ 时，</p>\n$$\nx^{2}+(y-1)^{2}=(x-2)^{2}+y^{2}\n$$\n<p>即 $4x-2y-3=0$. 综上</p>\n$$\n\\begin{gathered}\\Omega=\\{(x,y)\\mid x\\leqslant0, y\\leqslant0\\}\\cup\\{(x,y)\\mid y=x, 0<x\\leqslant1\\}\\\\\n\n\\cup\\{(x,y)\\mid x^2=2y-1, 1<x\\leqslant2\\}\\cup\\{(x,y)\\mid 4x-2y-3=0, x>2\\}.\\end{gathered}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -65,7 +65,9 @@
 #problem(5)[
 如图是一个算法的流程图，则输出的 #mi(`n`) 的值是\underline{\hspace{2.5em}}.
 
-[max width=0.34\linewidth]img/2013/jiangsu/q5_fig1.png
+
+#align(center)[#image("/papers/2013/img/jiangsu/q5_fig1.png", width: 28%)]
+
 ]
 
 #answer([3])
@@ -77,7 +79,7 @@
 #problem(6)[
 抽样统计甲，乙两位射击运动员的 #mi(`5`) 次训练成绩（单位：环），结果如下：
 
-\renewcommand{\arraystretch}{1.15}
+
 
 \hline
 
@@ -119,7 +121,9 @@
 #problem(8)[
 如图，在三棱柱 #mi(`A_{1}B_{1}C_{1}-ABC`) 中，#mi(`D`)，#mi(`E`)，#mi(`F`) 分别是 #mi(`AB`)，#mi(`AC`)，#mi(`AA_{1}`) 的中点. 设三棱锥 #mi(`F-ADE`) 的体积为 #mi(`V_{1}`)，三棱柱 #mi(`A_{1}B_{1}C_{1}-ABC`) 的体积为 #mi(`V_{2}`)，则 #mi(`V_{1}:V_{2}=\underline{\hspace{2.5em}}{}`).
 
-[max width=0.42\linewidth]img/2013/jiangsu/q8_fig1.png
+
+#align(center)[#image("/papers/2013/img/jiangsu/q8_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`1:24`)])
@@ -261,7 +265,9 @@ PA^{2}=(x-a)^{2}+\left(\frac{1}{x}-a\right)^{2}=x^{2}+\frac{1}{x^{2}}-2a\left(x+
 
 
 
-[max width=0.42\linewidth]img/2013/jiangsu/q16_fig1.png
+
+#align(center)[#image("/papers/2013/img/jiangsu/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -276,7 +282,9 @@ PA^{2}=(x-a)^{2}+\left(\frac{1}{x}-a\right)^{2}=x^{2}+\frac{1}{x^{2}}-2a\left(x+
 
 
 
-[max width=0.42\linewidth]img/2013/jiangsu/q17_fig1.png
+
+#align(center)[#image("/papers/2013/img/jiangsu/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -292,7 +300,9 @@ PA^{2}=(x-a)^{2}+\left(\frac{1}{x}-a\right)^{2}=x^{2}+\frac{1}{x^{2}}-2a\left(x+
 
 
 
-[max width=0.42\linewidth]img/2013/jiangsu/q18_fig1.png
+
+#align(center)[#image("/papers/2013/img/jiangsu/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -340,7 +350,9 @@ PA^{2}=(x-a)^{2}+\left(\frac{1}{x}-a\right)^{2}=x^{2}+\frac{1}{x^{2}}-2a\left(x+
 #problem(21)[
 如图，#mi(`AB`) 和 #mi(`BC`) 分别与圆 #mi(`O`) 相切于点 #mi(`D`)，#mi(`C`)，#mi(`AC`) 经过圆心 #mi(`O`)，且 #mi(`BC=2OC`). 求证：#mi(`AC=2AD`).
 
-[max width=0.42\linewidth]img/2013/jiangsu/q21_fig1.png
+
+#align(center)[#image("/papers/2013/img/jiangsu/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -405,7 +417,9 @@ PA^{2}=(x-a)^{2}+\left(\frac{1}{x}-a\right)^{2}=x^{2}+\frac{1}{x^{2}}-2a\left(x+
 
 
 
-[max width=0.42\linewidth]img/2013/jiangsu/q22_fig1.png
+
+#align(center)[#image("/papers/2013/img/jiangsu/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[

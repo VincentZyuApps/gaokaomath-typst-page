@@ -1,8 +1,143 @@
 {
-  "title": "2005年普通高等学校招生全国统一考试",
-  "subtitle": "2005年福建卷（文）",
   "year": "2005",
   "slug": "fujian_liberal",
+  "title": "2005年福建卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$\\{0,1,2\\}$"
           ],
           "answer": "D",
-          "solution": "<p>由 $\\lvert x-1\\rvert\\leqslant1$，得</p><p>$-1\\le x-1\\leqslant1$，所以 $0\\le x\\leqslant2$，即</p><p>$P=[0,2]$. 又 $Q=\\mathbb{N}$，而本题约定 $0\\in\\mathbb{N}$，因此 $P$ 中的自然数只有</p><p>$0$，$1$，$2$，从而 $P\\cap Q=\\{0,1,2\\}$. 故选 D.</p>"
+          "solution": "<p>由 $\\lvert x-1\\rvert\\leqslant1$，得</p><p>$-1\\le x-1\\leqslant1$，所以 $0\\le x\\leqslant2$，即</p><p>$P=[0,2]$. 又 $Q=\\mathbb{N}$，而本题约定 $0\\in\\mathbb{N}$，因此 $P$ 中的自然数只有</p><p>$0$，$1$，$2$，从而 $P\\cap Q=\\{0,1,2\\}$. 故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$\\left\\{x\\mid x > -\\frac{1}{3}\\right\\}$"
           ],
           "answer": "A",
-          "solution": "<p>分式有意义的条件是 $3x+1\\neq0$，即 $x\\neq-\\frac{1}{3}$. 分子</p><p>$2x-1$ 的零点为 $x=\\frac{1}{2}$，所以两个临界点按从小到大排列为</p><p>$-\\frac{1}{3}$，$\\frac{1}{2}$. 在区间</p><p>$\\left(-\\infty,-\\frac{1}{3}\\right)$，$\\left(-\\frac{1}{3},\\frac{1}{2}\\right)$，</p><p>$\\left(\\frac{1}{2},+\\infty\\right)$ 内分别取 $x=-1$，$x=0$，$x=1$，</p><p>分式的符号依次为正、负、正. 由于不等式是严格不等式，$x=-\\frac{1}{3}$</p><p>和 $x=\\frac{1}{2}$ 均不能取，因此解集为</p><p>$\\left\\{x\\mid x< -\\frac{1}{3}\\text{ 或 }x>\\frac{1}{2}\\right\\}$. 故选 A.</p>"
+          "solution": "<p>分式有意义的条件是 $3x+1\\neq0$，即 $x\\neq-\\frac{1}{3}$. 分子</p><p>$2x-1$ 的零点为 $x=\\frac{1}{2}$，所以两个临界点按从小到大排列为</p><p>$-\\frac{1}{3}$，$\\frac{1}{2}$. 在区间</p><p>$\\left(-\\infty,-\\frac{1}{3}\\right)$，$\\left(-\\frac{1}{3},\\frac{1}{2}\\right)$，</p><p>$\\left(\\frac{1}{2},+\\infty\\right)$ 内分别取 $x=-1$，$x=0$，$x=1$，</p><p>分式的符号依次为正、负、正. 由于不等式是严格不等式，$x=-\\frac{1}{3}$</p><p>和 $x=\\frac{1}{2}$ 均不能取，因此解集为</p><p>$\\left\\{x\\mid x< -\\frac{1}{3}\\text{ 或 }x>\\frac{1}{2}\\right\\}$. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$64$"
           ],
           "answer": "A",
-          "solution": "<p>设等差数列的公差为 $d$. 等差数列中，等距离两项的和等于中间项的两倍，</p><p>所以 $a_{7}+a_{9}=2a_{8}=16$，从而 $a_{8}=8$. 由通项关系</p><p>$a_{8}-a_{4}=(8-4)d$，得</p><p>$d=\\frac{8-1}{4}=\\frac{7}{4}$. 因而</p><p>$a_{12}=a_{4}+(12-4)d=1+8\\times\\frac{7}{4}=15$. 故选 A.</p>"
+          "solution": "<p>设等差数列的公差为 $d$. 等差数列中，等距离两项的和等于中间项的两倍，</p><p>所以 $a_{7}+a_{9}=2a_{8}=16$，从而 $a_{8}=8$. 由通项关系</p><p>$a_{8}-a_{4}=(8-4)d$，得</p><p>$d=\\frac{8-1}{4}=\\frac{7}{4}$. 因而</p><p>$a_{12}=a_{4}+(12-4)d=1+8\\times\\frac{7}{4}=15$. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$\\left[\\frac{\\pi}{2}, \\pi\\right]$"
           ],
           "answer": "C",
-          "solution": "<p>函数的导数为 $y'=-2\\sin2x$. 当 $0<x<\\frac{\\pi}{2}$ 时，</p><p>$0<2x<\\pi$，所以 $\\sin2x>0$，从而 $y'<0$. 由导数符号可知，</p><p>函数在 $\\left[0,\\frac{\\pi}{2}\\right]$ 上是减函数.</p><p>再检验其余选项：在 $\\left(-\\frac{\\pi}{4},0\\right)$ 内，$\\sin2x<0$，</p><p>所以函数递增；在 $\\left(\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right)$ 内，</p><p>$\\sin2x$ 在 $x=\\frac{\\pi}{2}$ 两侧符号相反，函数先减后增；在</p><p>$\\left(\\frac{\\pi}{2},\\pi\\right)$ 内，$\\sin2x<0$，函数递增. 因此只有选项 C 正确.</p>"
+          "solution": "<p>函数的导数为 $y'=-2\\sin2x$. 当 $0<x<\\frac{\\pi}{2}$ 时，</p><p>$0<2x<\\pi$，所以 $\\sin2x>0$，从而 $y'<0$. 由导数符号可知，</p><p>函数在 $\\left[0,\\frac{\\pi}{2}\\right]$ 上是减函数.</p><p>再检验其余选项：在 $\\left(-\\frac{\\pi}{4},0\\right)$ 内，$\\sin2x<0$，</p><p>所以函数递增；在 $\\left(\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right)$ 内，</p><p>$\\sin2x$ 在 $x=\\frac{\\pi}{2}$ 两侧符号相反，函数先减后增；在</p><p>$\\left(\\frac{\\pi}{2},\\pi\\right)$ 内，$\\sin2x<0$，函数递增. 因此只有选项 C 正确.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,11 +208,13 @@
             "当 $0 < x \\le 2$ 时，$x - \\frac{1}{x}$ 无最大值"
           ],
           "answer": "B",
-          "solution": "<p>对选项 B，令 $t=\\sqrt{x}$，则 $t>0$. 因为</p><p>$t+\\frac{1}{t}-2=\\frac{(t-1)^{2}}{t}\\geqslant0$，所以</p><p>$\\sqrt{x}+\\frac{1}{\\sqrt{x}}=t+\\frac{1}{t}\\geqslant2$. 当且仅当</p><p>$t=1$，即 $x=1$ 时取等号，故选项 B 正确.</p><p>选项 A 不恒成立：取 $\\lg x=-1$，即 $x=10^{-1}>0$，则</p><p>$\\lg x+\\frac{1}{\\lg x}=-1-1=-2<2$. 对选项 C，令</p><p>$h(x)=x+\\frac{1}{x}$，则在 $x\\geqslant2$ 时</p><p>$h'(x)=1-\\frac{1}{x^{2}}>0$，所以最小值在 $x=2$ 处取得，为</p><p>$h(2)=\\frac{5}{2}$，不是 2. 对选项 D，令</p><p>$r(x)=x-\\frac{1}{x}$，则 $r'(x)=1+\\frac{1}{x^{2}}>0$，</p><p>所以在 $0<x\\leqslant2$ 上最大值在 $x=2$ 处取得，为 $r(2)=\\frac{3}{2}$，</p><p>并非无最大值.</p>"
+          "solution": "<p>对选项 B，令 $t=\\sqrt{x}$，则 $t>0$. 因为</p><p>$t+\\frac{1}{t}-2=\\frac{(t-1)^{2}}{t}\\geqslant0$，所以</p><p>$\\sqrt{x}+\\frac{1}{\\sqrt{x}}=t+\\frac{1}{t}\\geqslant2$. 当且仅当</p><p>$t=1$，即 $x=1$ 时取等号，故选项 B 正确.</p><p>选项 A 不恒成立：取 $\\lg x=-1$，即 $x=10^{-1}>0$，则</p><p>$\\lg x+\\frac{1}{\\lg x}=-1-1=-2<2$. 对选项 C，令</p><p>$h(x)=x+\\frac{1}{x}$，则在 $x\\geqslant2$ 时</p><p>$h'(x)=1-\\frac{1}{x^{2}}>0$，所以最小值在 $x=2$ 处取得，为</p><p>$h(2)=\\frac{5}{2}$，不是 2. 对选项 D，令</p><p>$r(x)=x-\\frac{1}{x}$，则 $r'(x)=1+\\frac{1}{x^{2}}>0$，</p><p>所以在 $0<x\\leqslant2$ 上最大值在 $x=2$ 处取得，为 $r(2)=\\frac{3}{2}$，</p><p>并非无最大值.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
-          "body": "<p>若函数 $f(x) = a^{x - b}$ 的图象如图，其中 $a$，$b$ 为常数，则下列结论正确的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>若函数 $f(x) = a^{x - b}$ 的图象如图，其中 $a$，$b$ 为常数，则下列结论正确的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/fujian_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$a > 1$，$b < 0$",
             "$a > 1$，$b > 0$",
@@ -77,7 +222,9 @@
             "$0 < a < 1$，$b < 0$"
           ],
           "answer": "D",
-          "solution": "<p>指数函数 $y=a^{x-b}$ 的定义要求 $a>0$ 且 $a\\neq1$. 图象从左向右递减，</p><p>因此 $0<a<1$. 又因为 $f(b)=a^{b-b}=1$，所以图象与直线 $y=1$ 的</p><p>交点横坐标就是 $b$. 由题图可见该交点位于 $y$ 轴左侧，因此 $b<0$. 故选 D.</p>"
+          "solution": "<p>指数函数 $y=a^{x-b}$ 的定义要求 $a>0$ 且 $a\\neq1$. 图象从左向右递减，</p><p>因此 $0<a<1$. 又因为 $f(b)=a^{b-b}=1$，所以图象与直线 $y=1$ 的</p><p>交点横坐标就是 $b$. 由题图可见该交点位于 $y$ 轴左侧，因此 $b<0$. 故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$3$"
           ],
           "answer": "C",
-          "solution": "<p>命题一不成立. 例如取平面 $\\alpha$ 内两条相交直线的平行线，所得两条直线都平行于</p><p>$\\alpha$，但彼此相交，因此不能推出 $m\\parallel n$.</p><p>命题二成立. 因为 $n\\perp\\alpha$，所以 $n$ 垂直于平面 $\\alpha$ 内的每一条直线.</p><p>由 $m\\parallel\\alpha$，可在平面 $\\alpha$ 内作直线 $m'$，使 $m'\\parallel m$.</p><p>于是 $n\\perp m'$. 两条平行直线与同一直线所成的角相等，所以 $n\\perp m$.</p><p>命题三成立. 由 $m\\perp\\alpha$，直线 $m$ 的方向垂直于平面 $\\alpha$. 又由</p><p>$m\\parallel\\beta$，可在平面 $\\beta$ 内作直线 $m'\\parallel m$，从而</p><p>$m'\\perp\\alpha$. 平面 $\\beta$ 含有一条垂直于平面 $\\alpha$ 的直线，故</p><p>$\\alpha\\perp\\beta$. 因此真命题有 $2$ 个，选 C.</p>"
+          "solution": "<p>命题一不成立. 例如取平面 $\\alpha$ 内两条相交直线的平行线，所得两条直线都平行于</p><p>$\\alpha$，但彼此相交，因此不能推出 $m\\parallel n$.</p><p>命题二成立. 因为 $n\\perp\\alpha$，所以 $n$ 垂直于平面 $\\alpha$ 内的每一条直线.</p><p>由 $m\\parallel\\alpha$，可在平面 $\\alpha$ 内作直线 $m'$，使 $m'\\parallel m$.</p><p>于是 $n\\perp m'$. 两条平行直线与同一直线所成的角相等，所以 $n\\perp m$.</p><p>命题三成立. 由 $m\\perp\\alpha$，直线 $m$ 的方向垂直于平面 $\\alpha$. 又由</p><p>$m\\parallel\\beta$，可在平面 $\\beta$ 内作直线 $m'\\parallel m$，从而</p><p>$m'\\perp\\alpha$. 平面 $\\beta$ 含有一条垂直于平面 $\\alpha$ 的直线，故</p><p>$\\alpha\\perp\\beta$. 因此真命题有 $2$ 个，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "B",
-          "solution": "<p>命题 $q:ab\\neq0$ 等价于 $a\\neq0$ 且 $b\\neq0$. 因此由 $q$ 一定能推出</p><p>$p:a\\neq0$，所以 $p$ 是 $q$ 的必要条件. 但反过来不成立：取</p><p>$a=1$，$b=0$，则 $p$ 成立而 $ab=0$，所以 $q$ 不成立. 故 $p$ 不是</p><p>$q$ 的充分条件，选 B.</p>"
+          "solution": "<p>命题 $q:ab\\neq0$ 等价于 $a\\neq0$ 且 $b\\neq0$. 因此由 $q$ 一定能推出</p><p>$p:a\\neq0$，所以 $p$ 是 $q$ 的必要条件. 但反过来不成立：取</p><p>$a=1$，$b=0$，则 $p$ 成立而 $ab=0$，所以 $q$ 不成立. 故 $p$ 不是</p><p>$q$ 的充分条件，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +264,9 @@
             "$5$"
           ],
           "answer": "C",
-          "solution": "<p>设 $|PA|=r$. 由 $|PA|-|PB|=3$，得 $|PB|=r-3$，所以必有</p><p>$r\\geqslant3$. 另一方面，由三角不等式</p><p>$|PA|+|PB|\\ge|AB|=4$，代入上式得</p><p>$r+(r-3)\\geqslant4$，即 $2r\\geqslant7$，从而</p><p>$r\\ge\\frac{7}{2}$.</p><p>当 $P$ 取在线段 $AB$ 上，并满足 $|PA|=\\frac{7}{2}$，$|PB|=\\frac{1}{2}$ 时，</p><p>有 $|PA|+|PB|=|AB|$ 且 $|PA|-|PB|=3$，所以题设条件满足. 下界可以取得，</p><p>故 $|PA|$ 的最小值为 $\\frac{7}{2}$，选 C.</p>"
+          "solution": "<p>设 $|PA|=r$. 由 $|PA|-|PB|=3$，得 $|PB|=r-3$，所以必有</p><p>$r\\geqslant3$. 另一方面，由三角不等式</p><p>$|PA|+|PB|\\ge|AB|=4$，代入上式得</p><p>$r+(r-3)\\geqslant4$，即 $2r\\geqslant7$，从而</p><p>$r\\ge\\frac{7}{2}$.</p><p>当 $P$ 取在线段 $AB$ 上，并满足 $|PA|=\\frac{7}{2}$，$|PB|=\\frac{1}{2}$ 时，</p><p>有 $|PA|+|PB|=|AB|$ 且 $|PA|-|PB|=3$，所以题设条件满足. 下界可以取得，</p><p>故 $|PA|$ 的最小值为 $\\frac{7}{2}$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,11 +278,13 @@
             "$96$ 种"
           ],
           "answer": "B",
-          "solution": "<p>巴黎的游览者不能是甲或乙，只能从其余 $4$ 人中选取，因此有 $4$ 种选法.</p><p>选定巴黎游览者后，还剩 $5$ 人. 从这 $5$ 人中选出分别去伦敦、悉尼、莫斯科的</p><p>$3$ 人并安排城市，等价于从 $5$ 人中取 $3$ 人排列，方法数为</p><p>$\\mathrm{A}_{5}^{3}=5\\times4\\times3=60$. 因而总方案数为</p><p>$4\\mathrm{A}_{5}^{3}=4\\times60=240$，故选 B.</p>"
+          "solution": "<p>巴黎的游览者不能是甲或乙，只能从其余 $4$ 人中选取，因此有 $4$ 种选法.</p><p>选定巴黎游览者后，还剩 $5$ 人. 从这 $5$ 人中选出分别去伦敦、悉尼、莫斯科的</p><p>$3$ 人并安排城市，等价于从 $5$ 人中取 $3$ 人排列，方法数为</p><p>$\\mathrm{A}_{5}^{3}=5\\times4\\times3=60$. 因而总方案数为</p><p>$4\\mathrm{A}_{5}^{3}=4\\times60=240$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
-          "body": "<p>如图，长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，$AA_{1}= AB = 2$，$AD = 1$，点 $E$，$F$，$G$ 分别是 $DD_{1}$，$AB$，$CC_{1}$ 的中点，则异面直线 $A_{1}E$ 与 $GF$ 所成的角是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，$AA_{1}= AB = 2$，$AD = 1$，点 $E$，$F$，$G$ 分别是 $DD_{1}$，$AB$，$CC_{1}$ 的中点，则异面直线 $A_{1}E$ 与 $GF$ 所成的角是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/fujian_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\arccos \\frac{\\sqrt{15}}{5}$",
             "$\\frac{\\pi}{4}$",
@@ -137,7 +292,9 @@
             "$\\frac{\\pi}{2}$"
           ],
           "answer": "D",
-          "solution": "<p>建立空间直角坐标系，令 $A(0,0,0)$，$B(2,0,0)$，$D(0,1,0)$，</p><p>$A_{1}(0,0,2)$. 于是 $C(2,1,0)$，并由中点公式得到</p><p>$E(0,1,1)$，$F(1,0,0)$，$G(2,1,1)$.</p><p>因此可取两异面直线的方向向量为</p><p>$\\overrightarrow{A_{1}E}=(0,1,-1)$ 和 $\\overrightarrow{GF}=(-1,-1,-1)$. 计算得</p><p>$\\overrightarrow{A_{1}E}\\cdot\\overrightarrow{GF}=0\\times(-1)+1\\times(-1)+(-1)\\times(-1)=0$.</p><p>所以两直线的方向垂直，异面直线 $A_{1}E$ 与 $GF$ 所成的角为</p><p>$\\frac{\\pi}{2}$，选 D.</p>"
+          "solution": "<p>建立空间直角坐标系，令 $A(0,0,0)$，$B(2,0,0)$，$D(0,1,0)$，</p><p>$A_{1}(0,0,2)$. 于是 $C(2,1,0)$，并由中点公式得到</p><p>$E(0,1,1)$，$F(1,0,0)$，$G(2,1,1)$.</p><p>因此可取两异面直线的方向向量为</p><p>$\\overrightarrow{A_{1}E}=(0,1,-1)$ 和 $\\overrightarrow{GF}=(-1,-1,-1)$. 计算得</p><p>$\\overrightarrow{A_{1}E}\\cdot\\overrightarrow{GF}=0\\times(-1)+1\\times(-1)+(-1)\\times(-1)=0$.</p><p>所以两直线的方向垂直，异面直线 $A_{1}E$ 与 $GF$ 所成的角为</p><p>$\\frac{\\pi}{2}$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +306,9 @@
             "$2$"
           ],
           "answer": "B",
-          "solution": "<p>由 $f(2)=0$ 及偶性，得 $f(-2)=f(2)=0$. 因为周期为 $3$，所以</p><p>$f(1)=f(-2)=0$，再由周期性得 $f(4)=f(1)=0$，同时</p><p>$f(5)=f(2)=0$. 这四个数互不相同且都在 $(0,6)$ 内，因此零点个数至少为</p><p>$4$.</p><p>下面构造一个恰好只有这四个零点的函数. 令</p><p>$f(x)=\\cos\\frac{2\\pi x}{3}+\\frac{1}{2}$. 该函数为偶函数，且</p><p>$f(x+3)=f(x)$，所以以 $3$ 为周期；并且</p><p>$f(2)=\\cos\\frac{4\\pi}{3}+\\frac{1}{2}=0$. 其零点满足</p><p>$\\cos\\frac{2\\pi x}{3}=-\\frac{1}{2}$，即</p><p>$x=1+3k$ 或 $x=2+3k$，其中 $k\\in\\mathbb{Z}$. 在 $(0,6)$ 内零点恰为</p><p>$1$，$2$，$4$，$5$，共 $4$ 个. 因而最小值为 $4$，选 B.</p>"
+          "solution": "<p>由 $f(2)=0$ 及偶性，得 $f(-2)=f(2)=0$. 因为周期为 $3$，所以</p><p>$f(1)=f(-2)=0$，再由周期性得 $f(4)=f(1)=0$，同时</p><p>$f(5)=f(2)=0$. 这四个数互不相同且都在 $(0,6)$ 内，因此零点个数至少为</p><p>$4$.</p><p>下面构造一个恰好只有这四个零点的函数. 令</p><p>$f(x)=\\cos\\frac{2\\pi x}{3}+\\frac{1}{2}$. 该函数为偶函数，且</p><p>$f(x+3)=f(x)$，所以以 $3$ 为周期；并且</p><p>$f(2)=\\cos\\frac{4\\pi}{3}+\\frac{1}{2}=0$. 其零点满足</p><p>$\\cos\\frac{2\\pi x}{3}=-\\frac{1}{2}$，即</p><p>$x=1+3k$ 或 $x=2+3k$，其中 $k\\in\\mathbb{Z}$. 在 $(0,6)$ 内零点恰为</p><p>$1$，$2$，$4$，$5$，共 $4$ 个. 因而最小值为 $4$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +318,38 @@
         {
           "num": 13,
           "body": "$\\left(2\\sqrt{x}-\\frac{1}{x}\\right)^{6}$ 展开式中的常数项是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "240",
-          "solution": "<p>在二项式定理中，取 $\\left(-\\frac{1}{x}\\right)^{k}$ 的项时，通项为</p><p>$\\mathrm{C}_{6}^{k}(2\\sqrt{x})^{6-k}\\left(-\\frac{1}{x}\\right)^{k}=\\mathrm{C}_{6}^{k}2^{6-k}(-1)^{k} x^{\\frac{6-k}{2}-k}=\\mathrm{C}_{6}^{k}2^{6-k}(-1)^{k} x^{3-\\frac{3k}{2}}$，$k=0$，$1$，$\\ldots$，$6$.</p><p>常数项的幂次必须为零，因此 $3-\\frac{3k}{2}=0$，解得 $k=2$. 代入通项，</p><p>常数项为 $\\mathrm{C}_{6}^{2}2^{4}(-1)^{2}=15\\times16=240$.</p>"
+          "solution": "<p>在二项式定理中，取 $\\left(-\\frac{1}{x}\\right)^{k}$ 的项时，通项为</p><p>$\\mathrm{C}_{6}^{k}(2\\sqrt{x})^{6-k}\\left(-\\frac{1}{x}\\right)^{k}=\\mathrm{C}_{6}^{k}2^{6-k}(-1)^{k} x^{\\frac{6-k}{2}-k}=\\mathrm{C}_{6}^{k}2^{6-k}(-1)^{k} x^{3-\\frac{3k}{2}}$，$k=0$，$1$，$\\ldots$，$6$.</p><p>常数项的幂次必须为零，因此 $3-\\frac{3k}{2}=0$，解得 $k=2$. 代入通项，</p><p>常数项为 $\\mathrm{C}_{6}^{2}2^{4}(-1)^{2}=15\\times16=240$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "在 $\\triangle ABC$ 中，$\\angle C = 90^{\\circ}$，$\\overrightarrow{AB}= (k,1)$，$\\overrightarrow{AC}= (2,3)$，则 $k$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "5",
-          "solution": "<p>因为 $\\angle C=90^{\\circ}$，所以 $\\overrightarrow{CA}\\perp\\overrightarrow{CB}$，即</p><p>$\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=0$. 由向量加法，</p><p>$\\overrightarrow{CA}=-\\overrightarrow{AC}=(-2,-3)$，而</p><p>$\\overrightarrow{CB}=\\overrightarrow{AB}-\\overrightarrow{AC}=(k-2,-2)$. 因而</p>\n$$\n\\left(-2,-3\\right)\\cdot(k-2,-2)=-2(k-2)+6=-2k+10=0\n$$\n<p>解得 $k=5$.</p>"
+          "solution": "<p>因为 $\\angle C=90^{\\circ}$，所以 $\\overrightarrow{CA}\\perp\\overrightarrow{CB}$，即</p><p>$\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=0$. 由向量加法，</p><p>$\\overrightarrow{CA}=-\\overrightarrow{AC}=(-2,-3)$，而</p><p>$\\overrightarrow{CB}=\\overrightarrow{AB}-\\overrightarrow{AC}=(k-2,-2)$. 因而</p>\n$$\n\\left(-2,-3\\right)\\cdot(k-2,-2)=-2(k-2)+6=-2k+10=0\n$$\n<p>解得 $k=5$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "非负实数 $x$，$y$ 满足 $\\begin{cases}2x + y \\le 0,\\\\  x + y - 3 \\le 0,\\end{cases}$ 则 $x + 3y$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "0",
-          "solution": "<p>因为 $x\\geqslant0$，$y\\geqslant0$，所以 $2x+y\\geqslant0$. 结合条件</p><p>$2x+y\\leqslant0$，可知 $2x+y=0$. 两项 $2x$ 与 $y$ 都是非负数，</p><p>它们的和为零只能分别为零，因此 $x=0$，$y=0$. 代入第二个不等式得</p><p>$0+0-3=-3\\leqslant0$，所以该点确实可行. 此时</p><p>$x+3y=0$，可行域只有这一点，故最大值为 $0$.</p>"
+          "solution": "<p>因为 $x\\geqslant0$，$y\\geqslant0$，所以 $2x+y\\geqslant0$. 结合条件</p><p>$2x+y\\leqslant0$，可知 $2x+y=0$. 两项 $2x$ 与 $y$ 都是非负数，</p><p>它们的和为零只能分别为零，因此 $x=0$，$y=0$. 代入第二个不等式得</p><p>$0+0-3=-3\\leqslant0$，所以该点确实可行. 此时</p><p>$x+3y=0$，可行域只有这一点，故最大值为 $0$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "把下面不完整的命题补充完整，并使之成为真命题：若函数 $f(x)=3+\\log_{2}x$ 的图象与 $g(x)$ 的图象关于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 对称，则函数 $g(x)=\\underline{\\hspace{2.5em}}{}$. 注：填上你认为可以成为真命题的一件情形即可，不必考虑所有可能的情形.",
-          "choices": null,
-          "answer": "$x$ 轴；$g(x)=-3-\\log_{2}x$",
-          "solution": "<p>取对称轴为 $x$ 轴. 图象上任意一点 $(x,f(x))$ 关于 $x$ 轴的对称点为</p><p>$(x,-f(x))$，所以对应函数满足 $g(x)=-f(x)$. 由于</p><p>$f(x)=3+\\log_{2}x$ 的定义域为 $x>0$，故</p><p>$g(x)=-(3+\\log_{2}x)=-3-\\log_{2}x$，$x>0$.</p><p>因此可填“$x$ 轴”和 $g(x)=-3-\\log_{2}x$，该命题成为真命题.</p>"
+          "choices": [],
+          "answer": "\\(x\\) 轴；\\(g(x)=-3-\\log_{2}x\\)",
+          "solution": "<p>取对称轴为 $x$ 轴. 图象上任意一点 $(x,f(x))$ 关于 $x$ 轴的对称点为</p><p>$(x,-f(x))$，所以对应函数满足 $g(x)=-f(x)$. 由于</p><p>$f(x)=3+\\log_{2}x$ 的定义域为 $x>0$，故</p><p>$g(x)=-(3+\\log_{2}x)=-3-\\log_{2}x$，$x>0$.</p><p>因此可填“$x$ 轴”和 $g(x)=-3-\\log_{2}x$，该命题成为真命题.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "<p>已知 $-\\frac{\\pi}{2}< x < 0$，$\\sin x + \\cos x = \\frac{1}{5}$.</p><ol class=\"enumerate\"><li><p>求 $\\sin x - \\cos x$ 的值；</p></li><li><p>求 $\\frac{\\sin 2x + 2\\sin^{2}x}{1 - \\tan x}$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记 $s=\\sin x$，$c=\\cos x$. 因为 $-\\frac{\\pi}{2}<x<0$，所以</p><p>$s<0$，$c>0$，且 $s^{2}+c^{2}=1$. 由 $s+c=\\frac{1}{5}$，有</p>\n$$\n(s+c)^{2}=s^{2}+c^{2}+2sc=\\frac{1}{25}\n$$\n<p>从而 $2sc=\\frac{1}{25}-1=-\\frac{24}{25}$，即</p><p>$sc=-\\frac{12}{25}$. 因此</p>\n$$\n(s-c)^{2}=s^{2}+c^{2}-2sc=1+\\frac{24}{25}=\\frac{49}{25}\n$$\n<p>又因 $s<0<c$，所以 $s-c<0$，故 $s-c=-\\frac{7}{5}$. 因而</p><p>$\\sin x-\\cos x=-\\frac{7}{5}$.</p></li><li><p>先化简分子. 由 $\\sin2x=2sc$ 和 $s+c=\\frac{1}{5}$，得</p>\n$$\n\\sin2x+2\\sin^{2}x=2sc+2s^{2}=2s(s+c)=\\frac{2s}{5}\n$$\n<p>又因为 $c>0$，所以 $1-\\tan x$ 有意义，并且</p>\n$$\n1-\\tan x=1-\\frac{s}{c}=\\frac{c-s}{c}=\\frac{\\frac{7}{5}}{c}=\\frac{7}{5c}\n$$\n<p>于是</p>\n$$\n\\frac{\\sin2x+2\\sin^{2}x}{1-\\tan x}=\\frac{2s}{5}\\cdot\\frac{5c}{7}=\\frac{2sc}{7}=\\frac{2}{7}\\left(-\\frac{12}{25}\\right)  =-\\frac{24}{175}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记 $s=\\sin x$，$c=\\cos x$. 因为 $-\\frac{\\pi}{2}<x<0$，所以</p><p>$s<0$，$c>0$，且 $s^{2}+c^{2}=1$. 由 $s+c=\\frac{1}{5}$，有</p>\n$$\n(s+c)^{2}=s^{2}+c^{2}+2sc=\\frac{1}{25}\n$$\n<p>从而 $2sc=\\frac{1}{25}-1=-\\frac{24}{25}$，即</p><p>$sc=-\\frac{12}{25}$. 因此</p>\n$$\n(s-c)^{2}=s^{2}+c^{2}-2sc=1+\\frac{24}{25}=\\frac{49}{25}\n$$\n<p>又因 $s<0<c$，所以 $s-c<0$，故 $s-c=-\\frac{7}{5}$. 因而</p><p>$\\sin x-\\cos x=-\\frac{7}{5}$.</p></li><li><p>先化简分子. 由 $\\sin2x=2sc$ 和 $s+c=\\frac{1}{5}$，得</p>\n$$\n\\sin2x+2\\sin^{2}x=2sc+2s^{2}=2s(s+c)=\\frac{2s}{5}\n$$\n<p>又因为 $c>0$，所以 $1-\\tan x$ 有意义，并且</p>\n$$\n1-\\tan x=1-\\frac{s}{c}=\\frac{c-s}{c}=\\frac{\\frac{7}{5}}{c}=\\frac{7}{5c}\n$$\n<p>于是</p>\n$$\n\\frac{\\sin2x+2\\sin^{2}x}{1-\\tan x}=\\frac{2s}{5}\\cdot\\frac{5c}{7}=\\frac{2sc}{7}=\\frac{2}{7}\\left(-\\frac{12}{25}\\right)  =-\\frac{24}{175}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>甲，乙两人在罚球线投球命中的概率分别为 $\\frac{1}{2}$ 与 $\\frac{2}{5}$，投中得 1 分，投不中得 0 分.</p><ol class=\"enumerate\"><li><p>甲，乙两人在罚球线各投球一次，求两人得分之和 $\\xi$ 的数学期望；</p></li><li><p>甲，乙两人在罚球线各投球二次，求这四次投球中至少一次命中的概率.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设甲、乙各投一次所得分数分别为 $X$，$Y$，则 $\\xi=X+Y$. 甲投中和乙投中的概率分别为</p><p>$\\frac{1}{2}$ 和 $\\frac{2}{5}$，所以</p>\n$$\nP(\\xi=0)=\\frac{1}{2}\\cdot\\frac{3}{5}=\\frac{3}{10}\n$$\n\n$$\nP(\\xi=2)=\\frac{1}{2}\\cdot\\frac{2}{5}=\\frac{1}{5}\n$$\n<p>而恰有一人投中的事件由“甲中乙不中”和“甲不中乙中”组成，故</p>\n$$\nP(\\xi=1)=\\frac{1}{2}\\cdot\\frac{3}{5}+\\frac{1}{2}\\cdot\\frac{2}{5}=\\frac{1}{2}\n$$\n<p>因此</p>\n$$\nE(\\xi)=0\\cdot\\frac{3}{10}+1\\cdot\\frac{1}{2}+2\\cdot\\frac{1}{5}=\\frac{9}{10}\n$$\n</li><li><p>各次投球相互独立. 甲两次均未命中的概率为</p><p>$\\left(1-\\frac{1}{2}\\right)^{2}=\\frac{1}{4}$，乙两次均未命中的概率为</p><p>$\\left(1-\\frac{2}{5}\\right)^{2}=\\frac{9}{25}$. 因而四次投球均未命中的概率为</p>\n$$\n\\frac{1}{4}\\cdot\\frac{9}{25}=\\frac{9}{100}\n$$\n<p>所求事件是“至少一次命中”，与“四次均未命中”互为对立事件，所以所求概率为</p>\n$$\n1-\\frac{9}{100}=\\frac{91}{100}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设甲、乙各投一次所得分数分别为 $X$，$Y$，则 $\\xi=X+Y$. 甲投中和乙投中的概率分别为</p><p>$\\frac{1}{2}$ 和 $\\frac{2}{5}$，所以</p>\n$$\nP(\\xi=0)=\\frac{1}{2}\\cdot\\frac{3}{5}=\\frac{3}{10}\n$$\n\n$$\nP(\\xi=2)=\\frac{1}{2}\\cdot\\frac{2}{5}=\\frac{1}{5}\n$$\n<p>而恰有一人投中的事件由“甲中乙不中”和“甲不中乙中”组成，故</p>\n$$\nP(\\xi=1)=\\frac{1}{2}\\cdot\\frac{3}{5}+\\frac{1}{2}\\cdot\\frac{2}{5}=\\frac{1}{2}\n$$\n<p>因此</p>\n$$\nE(\\xi)=0\\cdot\\frac{3}{10}+1\\cdot\\frac{1}{2}+2\\cdot\\frac{1}{5}=\\frac{9}{10}\n$$\n</li><li><p>各次投球相互独立. 甲两次均未命中的概率为</p><p>$\\left(1-\\frac{1}{2}\\right)^{2}=\\frac{1}{4}$，乙两次均未命中的概率为</p><p>$\\left(1-\\frac{2}{5}\\right)^{2}=\\frac{9}{25}$. 因而四次投球均未命中的概率为</p>\n$$\n\\frac{1}{4}\\cdot\\frac{9}{25}=\\frac{9}{100}\n$$\n<p>所求事件是“至少一次命中”，与“四次均未命中”互为对立事件，所以所求概率为</p>\n$$\n1-\\frac{9}{100}=\\frac{91}{100}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知 $\\{a_{n}\\}$ 是公比为 $q$ 的等比数列，且 $a_{1}$，$a_{3}$，$a_{2}$ 成等差数列.</p><ol class=\"enumerate\"><li><p>求 $q$ 的值；</p></li><li><p>设 $\\{b_{n}\\}$ 是以 2 为首项，$q$ 为公差的等差数列，其前 $n$ 项和为 $S_{n}$，当 $n \\ge 2$ 时，比较 $S_{n}$ 与 $b_{n}$ 的大小，并说明理由.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由等比数列的通项关系，$a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$. 因为 $a_{1}$，$a_{3}$，$a_{2}$</p><p>成等差数列，且中间项是 $a_{3}$，所以</p>\n$$\n2a_{3}=a_{1}+a_{2}\n$$\n<p>代入 $a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$，得</p><p>$a_{1}(2q^{2}-q-1)=0$. 等比数列的首项不能为零，所以 $a_{1}\\ne0$，从而</p>\n$$\n2q^{2}-q-1=(2q+1)(q-1)=0\n$$\n<p>所以 $q=1$ 或 $q=-\\frac{1}{2}$.</p></li><li><p>等差数列 $\\{b_{n}\\}$ 的首项为 $2$，公差为 $q$，故</p><p>$b_{n}=2+(n-1)q$，且</p><p>$S_{n}=\\frac{n}{2}\\left[2b_{1}+(n-1)q\\right]  =\\frac{n}{2}\\left[4+(n-1)q\\right]$.</p><p>当 $q=1$ 时，$b_{n}=n+1$，$S_{n}=\\frac{n(n+3)}{2}$，因此</p>\n$$\nS_{n}-b_{n}=\\frac{n(n+3)}{2}-(n+1)=\\frac{(n-1)(n+2)}{2}>0\n$$\n<p>对一切 $n\\geqslant2$ 成立，所以 $S_{n}>b_{n}$.</p><p>当 $q=-\\frac{1}{2}$ 时，$b_{n}=2-\\frac{n-1}{2}=\\frac{5-n}{2}$，且</p><p>$S_{n}=\\frac{n(9-n)}{4}$. 因而</p>\n$$\nS_{n}-b_{n}=\\frac{n(9-n)}{4}-\\frac{5-n}{2}=\\frac{(n-1)(10-n)}{4}\n$$\n<p>当 $n\\geqslant2$ 时，$n-1>0$，所以差值的符号由 $10-n$ 决定. 因此</p><p>当 $2\\le n\\leqslant9$ 时 $S_{n}>b_{n}$，当 $n=10$ 时 $S_{n}=b_{n}$，</p><p>当 $n\\geqslant11$ 时 $S_{n}<b_{n}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由等比数列的通项关系，$a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$. 因为 $a_{1}$，$a_{3}$，$a_{2}$</p><p>成等差数列，且中间项是 $a_{3}$，所以</p>\n$$\n2a_{3}=a_{1}+a_{2}\n$$\n<p>代入 $a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$，得</p><p>$a_{1}(2q^{2}-q-1)=0$. 等比数列的首项不能为零，所以 $a_{1}\\ne0$，从而</p>\n$$\n2q^{2}-q-1=(2q+1)(q-1)=0\n$$\n<p>所以 $q=1$ 或 $q=-\\frac{1}{2}$.</p></li><li><p>等差数列 $\\{b_{n}\\}$ 的首项为 $2$，公差为 $q$，故</p><p>$b_{n}=2+(n-1)q$，且</p><p>$S_{n}=\\frac{n}{2}\\left[2b_{1}+(n-1)q\\right]  =\\frac{n}{2}\\left[4+(n-1)q\\right]$.</p><p>当 $q=1$ 时，$b_{n}=n+1$，$S_{n}=\\frac{n(n+3)}{2}$，因此</p>\n$$\nS_{n}-b_{n}=\\frac{n(n+3)}{2}-(n+1)=\\frac{(n-1)(n+2)}{2}>0\n$$\n<p>对一切 $n\\geqslant2$ 成立，所以 $S_{n}>b_{n}$.</p><p>当 $q=-\\frac{1}{2}$ 时，$b_{n}=2-\\frac{n-1}{2}=\\frac{5-n}{2}$，且</p><p>$S_{n}=\\frac{n(9-n)}{4}$. 因而</p>\n$$\nS_{n}-b_{n}=\\frac{n(9-n)}{4}-\\frac{5-n}{2}=\\frac{(n-1)(10-n)}{4}\n$$\n<p>当 $n\\geqslant2$ 时，$n-1>0$，所以差值的符号由 $10-n$ 决定. 因此</p><p>当 $2\\le n\\leqslant9$ 时 $S_{n}>b_{n}$，当 $n=10$ 时 $S_{n}=b_{n}$，</p><p>当 $n\\geqslant11$ 时 $S_{n}<b_{n}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知函数 $f(x) = x^{3} + bx^{2} + ax + d$ 的图象过点 $P(0,2)$，且在点 $M(-1, f(-1))$ 处的切线方程为 $6x - y + 7 = 0$.</p><ol class=\"enumerate\"><li><p>求函数 $y = f(x)$ 的解析式；</p></li><li><p>求函数 $y = f(x)$ 的单调区间.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为图象过点 $P(0,2)$，所以 $f(0)=d=2$. 切线方程</p><p>$6x-y+7=0$ 可写成 $y=6x+7$. 点 $M$ 的横坐标为 $-1$，所以</p><p>$f(-1)=6(-1)+7=1$，且切线斜率给出 $f'(-1)=6$. 另一方面，</p><p>$f(-1)=-1+b-a+d$，$f'(x)=3x^{2}+2bx+a$，</p><p>所以</p><p>$-1+b-a+2=1$，$3-2b+a=6$.</p><p>即 $b-a=0$，$a-2b=3$. 由 $a=b$ 代入第二式得 $-b=3$，</p><p>从而 $a=b=-3$. 因此</p>\n$$\nf(x)=x^{3}-3x^{2}-3x+2\n$$\n</li><li><p>对上式求导，得</p>\n$$\nf'(x)=3x^{2}-6x-3=3\\left[(x-1)^{2}-2\\right]\n$$\n<p>令 $f'(x)=0$，得 $x=1-\\sqrt{2}$ 或 $x=1+\\sqrt{2}$. 因为</p><p>$f'(x)$ 是开口向上的二次函数，所以</p>\n$$\nf'(x)>0 \\text{当 }x<1-\\sqrt{2}\\text{ 或 }x>1+\\sqrt{2}\n$$\n\n$$\nf'(x)<0 \\text{当 }1-\\sqrt{2}<x<1+\\sqrt{2}\n$$\n<p>所以函数在 $(-\\infty,1-\\sqrt{2})$ 和 $(1+\\sqrt{2},+\\infty)$ 上单调递增，</p><p>在 $(1-\\sqrt{2},1+\\sqrt{2})$ 上单调递减.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为图象过点 $P(0,2)$，所以 $f(0)=d=2$. 切线方程</p><p>$6x-y+7=0$ 可写成 $y=6x+7$. 点 $M$ 的横坐标为 $-1$，所以</p><p>$f(-1)=6(-1)+7=1$，且切线斜率给出 $f'(-1)=6$. 另一方面，</p><p>$f(-1)=-1+b-a+d$，$f'(x)=3x^{2}+2bx+a$，</p><p>所以</p><p>$-1+b-a+2=1$，$3-2b+a=6$.</p><p>即 $b-a=0$，$a-2b=3$. 由 $a=b$ 代入第二式得 $-b=3$，</p><p>从而 $a=b=-3$. 因此</p>\n$$\nf(x)=x^{3}-3x^{2}-3x+2\n$$\n</li><li><p>对上式求导，得</p>\n$$\nf'(x)=3x^{2}-6x-3=3\\left[(x-1)^{2}-2\\right]\n$$\n<p>令 $f'(x)=0$，得 $x=1-\\sqrt{2}$ 或 $x=1+\\sqrt{2}$. 因为</p><p>$f'(x)$ 是开口向上的二次函数，所以</p>\n$$\nf'(x)>0 \\text{当 }x<1-\\sqrt{2}\\text{ 或 }x>1+\\sqrt{2}\n$$\n\n$$\nf'(x)<0 \\text{当 }1-\\sqrt{2}<x<1+\\sqrt{2}\n$$\n<p>所以函数在 $(-\\infty,1-\\sqrt{2})$ 和 $(1+\\sqrt{2},+\\infty)$ 上单调递增，</p><p>在 $(1-\\sqrt{2},1+\\sqrt{2})$ 上单调递减.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
-          "body": "<p>如图，直二面角 $D - AB - E$ 中，四边形 $ABCD$ 是边长为 2 的正方形，$AE = EB$，$F$ 为 $CE$ 上的点，且 $BF \\perp$ 平面 $ACE$.</p><ol class=\"enumerate\"><li><p>求证 $AE \\perp$ 平面 $BCE$；</p></li><li><p>求二面角 $B - AC - E$ 的大小；</p></li><li><p>求点 $D$ 到平面 $ACE$ 的距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，直二面角 $D - AB - E$ 中，四边形 $ABCD$ 是边长为 2 的正方形，$AE = EB$，$F$ 为 $CE$ 上的点，且 $BF \\perp$ 平面 $ACE$.</p><ol class=\"enumerate\"><li><p>求证 $AE \\perp$ 平面 $BCE$；</p></li><li><p>求二面角 $B - AC - E$ 的大小；</p></li><li><p>求点 $D$ 到平面 $ACE$ 的距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/fujian_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取空间直角坐标系，使正方形 $ABCD$ 所在平面为 $y=0$，且平面 $ABE$</p><p>所在的另一面为 $z=0$. 令</p><p>$A(0,0,0)$，$B(2,0,0)$，$C(2,0,2)$，$D(0,0,2)$.</p><p>由 $AE=EB$ 可知 $E$ 在 $AB$ 的垂直平分面内，又因 $E\\in z=0$，</p><p>故可设 $E(1,t,0)$.</p><p>设 $F=C+\\lambda(E-C)$. 则</p><p>$F=(2-\\lambda,\\lambda t,2-2\\lambda)$，$\\overrightarrow{BF}=(-\\lambda,\\lambda t,2-2\\lambda)$.</p><p>又</p><p>$\\overrightarrow{AC}=(2,0,2)$，$\\overrightarrow{AE}=(1,t,0)$. 由</p><p>$BF\\perp$ 平面 $ACE$，向量 $\\overrightarrow{BF}$ 必垂直于该平面内相交的两条直线</p><p>$AC$，$AE$，所以</p>\n$$\n\\begin{cases}\\overrightarrow{BF}\\cdot\\overrightarrow{AC}=4-6\\lambda=0,\\\\  \\lambda(t^{2}-1)=0\\end{cases}\n$$\n<p>第一式给出 $\\lambda=\\frac{2}{3}$，因而 $\\lambda\\ne0$，第二式给出</p><p>$t^{2}=1$. 改变 $y$ 轴方向可将 $t=-1$ 化为 $t=1$，以下取</p><p>$E(1,1,0)$. 此时</p><p>$\\overrightarrow{AE}=(1,1,0)$，$\\overrightarrow{BE}=(-1,1,0)$，$\\overrightarrow{CE}=(-1,1,-2)$.</p><p>直接计算得</p><p>$\\overrightarrow{AE}\\cdot\\overrightarrow{BE}=0$，</p><p>$\\overrightarrow{AE}\\cdot\\overrightarrow{CE}=0$. 直线 $BE$ 与 $CE$ 在点</p><p>$E$ 相交且都在平面 $BCE$ 内，所以由直线垂直平面的判定定理，</p><p>$AE\\perp$ 平面 $BCE$.</p></li><li><p>平面 $ABC$ 即 $y=0$，可取其法向量</p><p>$\\mathbf{n}_{1}=(0,1,0)$. 平面 $ACE$ 的两条相交方向向量为</p><p>$\\overrightarrow{AC}=(2,0,2)$ 和 $\\overrightarrow{AE}=(1,1,0)$，故可取法向量</p>\n$$\n\\mathbf{n}_{2}=\\overrightarrow{AC}\\times\\overrightarrow{AE}=(-2,2,2)\n$$\n<p>设二面角 $B-AC-E$ 的平面角为 $\\theta$. 取两法向量的夹角的锐角，得</p>\n$$\n\\cos\\theta  =\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{2}{1\\cdot2\\sqrt{3}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>所以二面角 $B-AC-E$ 的大小为 $\\arccos\\frac{\\sqrt{3}}{3}$.</p></li><li><p>由法向量 $(-2,2,2)$，且平面 $ACE$ 经过原点 $A$，可得平面方程</p><p>$-2x+2y+2z=0$，即 $-x+y+z=0$. 因而点 $D(0,0,2)$ 到该平面的距离为</p>\n$$\n\\frac{\\lvert-0+0+2\\rvert}{\\sqrt{(-1)^{2}+1^{2}+1^{2}}}=\\frac{2}{\\sqrt{3}}=\\frac{2\\sqrt{3}}{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取空间直角坐标系，使正方形 $ABCD$ 所在平面为 $y=0$，且平面 $ABE$</p><p>所在的另一面为 $z=0$. 令</p><p>$A(0,0,0)$，$B(2,0,0)$，$C(2,0,2)$，$D(0,0,2)$.</p><p>由 $AE=EB$ 可知 $E$ 在 $AB$ 的垂直平分面内，又因 $E\\in z=0$，</p><p>故可设 $E(1,t,0)$.</p><p>设 $F=C+\\lambda(E-C)$. 则</p><p>$F=(2-\\lambda,\\lambda t,2-2\\lambda)$，$\\overrightarrow{BF}=(-\\lambda,\\lambda t,2-2\\lambda)$.</p><p>又</p><p>$\\overrightarrow{AC}=(2,0,2)$，$\\overrightarrow{AE}=(1,t,0)$. 由</p><p>$BF\\perp$ 平面 $ACE$，向量 $\\overrightarrow{BF}$ 必垂直于该平面内相交的两条直线</p><p>$AC$，$AE$，所以</p>\n$$\n\\begin{cases}\\overrightarrow{BF}\\cdot\\overrightarrow{AC}=4-6\\lambda=0,\\\\  \\lambda(t^{2}-1)=0\\end{cases}\n$$\n<p>第一式给出 $\\lambda=\\frac{2}{3}$，因而 $\\lambda\\ne0$，第二式给出</p><p>$t^{2}=1$. 改变 $y$ 轴方向可将 $t=-1$ 化为 $t=1$，以下取</p><p>$E(1,1,0)$. 此时</p><p>$\\overrightarrow{AE}=(1,1,0)$，$\\overrightarrow{BE}=(-1,1,0)$，$\\overrightarrow{CE}=(-1,1,-2)$.</p><p>直接计算得</p><p>$\\overrightarrow{AE}\\cdot\\overrightarrow{BE}=0$，</p><p>$\\overrightarrow{AE}\\cdot\\overrightarrow{CE}=0$. 直线 $BE$ 与 $CE$ 在点</p><p>$E$ 相交且都在平面 $BCE$ 内，所以由直线垂直平面的判定定理，</p><p>$AE\\perp$ 平面 $BCE$.</p></li><li><p>平面 $ABC$ 即 $y=0$，可取其法向量</p><p>$\\mathbf{n}_{1}=(0,1,0)$. 平面 $ACE$ 的两条相交方向向量为</p><p>$\\overrightarrow{AC}=(2,0,2)$ 和 $\\overrightarrow{AE}=(1,1,0)$，故可取法向量</p>\n$$\n\\mathbf{n}_{2}=\\overrightarrow{AC}\\times\\overrightarrow{AE}=(-2,2,2)\n$$\n<p>设二面角 $B-AC-E$ 的平面角为 $\\theta$. 取两法向量的夹角的锐角，得</p>\n$$\n\\cos\\theta  =\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{2}{1\\cdot2\\sqrt{3}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>所以二面角 $B-AC-E$ 的大小为 $\\arccos\\frac{\\sqrt{3}}{3}$.</p></li><li><p>由法向量 $(-2,2,2)$，且平面 $ACE$ 经过原点 $A$，可得平面方程</p><p>$-2x+2y+2z=0$，即 $-x+y+z=0$. 因而点 $D(0,0,2)$ 到该平面的距离为</p>\n$$\n\\frac{\\lvert-0+0+2\\rvert}{\\sqrt{(-1)^{2}+1^{2}+1^{2}}}=\\frac{2}{\\sqrt{3}}=\\frac{2\\sqrt{3}}{3}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知方向向量为 $\\mathbf{v}= (1, \\sqrt{3})$ 的直线 $l$ 过点 $(0, -2\\sqrt{3})$ 和椭圆 $C: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的焦点，且椭圆 $C$ 的中心关于直线 $l$ 的对称点在椭圆 $C$ 的右准线上.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>是否存在过点 $E(-2,0)$ 的直线 $m$ 交椭圆 $C$ 于点 $M$，$N$，满足 $\\overrightarrow{OM}\\cdot \\overrightarrow{ON}= \\frac{4}{3}\\sqrt{6}\\cot \\angle MON \\neq 0$（$O$ 为原点）. 若存在，求直线 $m$ 的方程；若不存在，请说明理由.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由方向向量 $\\mathbf{v}=(1,\\sqrt{3})$ 和所过点 $(0,-2\\sqrt{3})$，直线 $l$ 的方程为</p>\n$$\ny=\\sqrt{3}x-2\\sqrt{3}\n$$\n<p>它与 $x$ 轴交于 $(2,0)$. 椭圆的焦点在 $x$ 轴上，且直线 $l$ 经过一个焦点，</p><p>所以该焦点为 $(2,0)$，从而 $c=2$. 将直线改写为</p>\n$$\n\\sqrt{3}x-y-2\\sqrt{3}=0\n$$\n<p>设原点为 $O$. 由点到直线的垂足公式，$O$ 在该直线上的垂足为</p>\n$$\nH=\\left(\\frac{3}{2},-\\frac{\\sqrt{3}}{2}\\right)\n$$\n<p>因此 $O$ 关于 $l$ 的对称点为</p>\n$$\nO'=2H=\\left(3,-\\sqrt{3}\\right)\n$$\n<p>椭圆的右准线方程为 $x=\\frac{a^{2}}{c}=\\frac{a^{2}}{2}$. 因为 $O'$ 在右准线上，</p><p>$\\frac{a^{2}}{2}=3$，所以 $a^{2}=6$. 再由 $c^{2}=a^{2}-b^{2}$，得</p><p>$b^{2}=6-4=2$. 故椭圆方程为</p>\n$$\n\\frac{x^{2}}{6}+\\frac{y^{2}}{2}=1\n$$\n</li><li><p>记 $K=\\frac{4}{3}\\sqrt{6}$，$\\theta=\\angle MON$，并令</p><p>$D=\\overrightarrow{OM}\\cdot\\overrightarrow{ON}$，$\\Delta=\\left|\\det\\left(\\overrightarrow{OM},\\overrightarrow{ON}\\right)\\right|$.</p><p>因题设要求 $D\\neq0$，且</p><p>$\\cot\\theta=\\frac{D}{\\Delta}$，原条件等价于</p><p>$D=K\\frac{D}{\\Delta}$，$D\\neq0$，</p><p>所以必须且只需满足 $\\Delta=K$.</p><p>先考虑非竖直直线. 设其斜率为 $k$，由于直线经过 $E(-2,0)$，其方程为</p><p>$y=k(x+2)$. 令</p><p>$x=-2+t$，$y=kt$.</p><p>代入椭圆方程，得</p>\n$$\n(1+3k^{2})t^{2}-4t-2=0\n$$\n<p>设两个交点对应的根为 $t_{1}$，$t_{2}$. 该二次方程的判别式为</p><p>$16+8(1+3k^{2})=24(1+k^{2})>0$，所以确有两个不同交点，且</p>\n$$\n|t_{1}-t_{2}|=\\frac{2\\sqrt{6}\\sqrt{1+k^{2}}}{1+3k^{2}}\n$$\n<p>取方向向量 $\\mathbf{u}=(1,k)$，则</p><p>$M=E+t_{1}\\mathbf{u}$，$N=E+t_{2}\\mathbf{u}$. 因此</p>\n$$\n\\Delta=|t_{1}-t_{2}|\\left|\\det(E,\\mathbf{u})\\right|  =\\frac{4\\sqrt{6}|k|\\sqrt{1+k^2}}{1+3k^{2}}\n$$\n<p>令 $\\Delta=K$，约去正数 $4\\sqrt{6}$，得到</p>\n$$\n3|k|\\sqrt{1+k^{2}}=1+3k^{2}\n$$\n<p>两边均非负，平方后有</p>\n$$\n9k^{2}(1+k^{2})=(1+3k^{2})^{2}\n$$\n<p>化简为 $3k^{2}=1$，所以</p><p>$k=\\pm\\frac{\\sqrt{3}}{3}$. 还需检验题设中的非零条件. 由韦达定理，</p><p>$t_{1}+t_{2}=\\frac{4}{1+3k^{2}}$，$t_{1}t_{2}=-\\frac{2}{1+3k^{2}}$.</p><p>利用 $E=(-2,0)$，$\\mathbf{u}=(1,k)$，可得</p>\n$$\nD=\\left(E+t_{1}\\mathbf{u}\\right)\\cdot\\left(E+t_{2}\\mathbf{u}\\right)  =4-2(t_{1}+t_{2})+(1+k^{2})t_{1}t_{2}  =\\frac{10k^{2}-6}{1+3k^{2}}\n$$\n<p>当 $k^{2}=\\frac{1}{3}$ 时，$D=-\\frac{4}{3}\\neq0$，所以两条非竖直直线均满足题设条件.</p><p>再考虑竖直直线 $x=-2$. 代入椭圆方程，得到</p><p>$y^{2}=\\frac{2}{3}$，所以交点为</p><p>$M\\left(-2,\\sqrt{\\frac{2}{3}}\\right)$，$N\\left(-2,-\\sqrt{\\frac{2}{3}}\\right)$.</p><p>此时</p>\n$$\nD=\\left(-2,\\sqrt{\\frac{2}{3}}\\right)\\cdot  \\left(-2,-\\sqrt{\\frac{2}{3}}\\right)  =4-\\frac{2}{3}=\\frac{10}{3}\\neq0\n$$\n<p>且</p>\n$$\n\\Delta=\\left|\\det\\left(  \\left(-2,\\sqrt{\\frac{2}{3}}\\right),  \\left(-2,-\\sqrt{\\frac{2}{3}}\\right)\\right)\\right|  =4\\sqrt{\\frac{2}{3}}=\\frac{4\\sqrt{6}}{3}=K\n$$\n<p>所以竖直直线也满足题设条件.</p><p>因此存在这样的直线 $m$，其方程为</p><p>$x=-2$，$y=\\frac{\\sqrt{3}}{3}(x+2)$，$y=-\\frac{\\sqrt{3}}{3}(x+2)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由方向向量 $\\mathbf{v}=(1,\\sqrt{3})$ 和所过点 $(0,-2\\sqrt{3})$，直线 $l$ 的方程为</p>\n$$\ny=\\sqrt{3}x-2\\sqrt{3}\n$$\n<p>它与 $x$ 轴交于 $(2,0)$. 椭圆的焦点在 $x$ 轴上，且直线 $l$ 经过一个焦点，</p><p>所以该焦点为 $(2,0)$，从而 $c=2$. 将直线改写为</p>\n$$\n\\sqrt{3}x-y-2\\sqrt{3}=0\n$$\n<p>设原点为 $O$. 由点到直线的垂足公式，$O$ 在该直线上的垂足为</p>\n$$\nH=\\left(\\frac{3}{2},-\\frac{\\sqrt{3}}{2}\\right)\n$$\n<p>因此 $O$ 关于 $l$ 的对称点为</p>\n$$\nO'=2H=\\left(3,-\\sqrt{3}\\right)\n$$\n<p>椭圆的右准线方程为 $x=\\frac{a^{2}}{c}=\\frac{a^{2}}{2}$. 因为 $O'$ 在右准线上，</p><p>$\\frac{a^{2}}{2}=3$，所以 $a^{2}=6$. 再由 $c^{2}=a^{2}-b^{2}$，得</p><p>$b^{2}=6-4=2$. 故椭圆方程为</p>\n$$\n\\frac{x^{2}}{6}+\\frac{y^{2}}{2}=1\n$$\n</li><li><p>记 $K=\\frac{4}{3}\\sqrt{6}$，$\\theta=\\angle MON$，并令</p><p>$D=\\overrightarrow{OM}\\cdot\\overrightarrow{ON}$，$\\Delta=\\left|\\det\\left(\\overrightarrow{OM},\\overrightarrow{ON}\\right)\\right|$.</p><p>因题设要求 $D\\neq0$，且</p><p>$\\cot\\theta=\\frac{D}{\\Delta}$，原条件等价于</p><p>$D=K\\frac{D}{\\Delta}$，$D\\neq0$，</p><p>所以必须且只需满足 $\\Delta=K$.</p><p>先考虑非竖直直线. 设其斜率为 $k$，由于直线经过 $E(-2,0)$，其方程为</p><p>$y=k(x+2)$. 令</p><p>$x=-2+t$，$y=kt$.</p><p>代入椭圆方程，得</p>\n$$\n(1+3k^{2})t^{2}-4t-2=0\n$$\n<p>设两个交点对应的根为 $t_{1}$，$t_{2}$. 该二次方程的判别式为</p><p>$16+8(1+3k^{2})=24(1+k^{2})>0$，所以确有两个不同交点，且</p>\n$$\n|t_{1}-t_{2}|=\\frac{2\\sqrt{6}\\sqrt{1+k^{2}}}{1+3k^{2}}\n$$\n<p>取方向向量 $\\mathbf{u}=(1,k)$，则</p><p>$M=E+t_{1}\\mathbf{u}$，$N=E+t_{2}\\mathbf{u}$. 因此</p>\n$$\n\\Delta=|t_{1}-t_{2}|\\left|\\det(E,\\mathbf{u})\\right|  =\\frac{4\\sqrt{6}|k|\\sqrt{1+k^2}}{1+3k^{2}}\n$$\n<p>令 $\\Delta=K$，约去正数 $4\\sqrt{6}$，得到</p>\n$$\n3|k|\\sqrt{1+k^{2}}=1+3k^{2}\n$$\n<p>两边均非负，平方后有</p>\n$$\n9k^{2}(1+k^{2})=(1+3k^{2})^{2}\n$$\n<p>化简为 $3k^{2}=1$，所以</p><p>$k=\\pm\\frac{\\sqrt{3}}{3}$. 还需检验题设中的非零条件. 由韦达定理，</p><p>$t_{1}+t_{2}=\\frac{4}{1+3k^{2}}$，$t_{1}t_{2}=-\\frac{2}{1+3k^{2}}$.</p><p>利用 $E=(-2,0)$，$\\mathbf{u}=(1,k)$，可得</p>\n$$\nD=\\left(E+t_{1}\\mathbf{u}\\right)\\cdot\\left(E+t_{2}\\mathbf{u}\\right)  =4-2(t_{1}+t_{2})+(1+k^{2})t_{1}t_{2}  =\\frac{10k^{2}-6}{1+3k^{2}}\n$$\n<p>当 $k^{2}=\\frac{1}{3}$ 时，$D=-\\frac{4}{3}\\neq0$，所以两条非竖直直线均满足题设条件.</p><p>再考虑竖直直线 $x=-2$. 代入椭圆方程，得到</p><p>$y^{2}=\\frac{2}{3}$，所以交点为</p><p>$M\\left(-2,\\sqrt{\\frac{2}{3}}\\right)$，$N\\left(-2,-\\sqrt{\\frac{2}{3}}\\right)$.</p><p>此时</p>\n$$\nD=\\left(-2,\\sqrt{\\frac{2}{3}}\\right)\\cdot  \\left(-2,-\\sqrt{\\frac{2}{3}}\\right)  =4-\\frac{2}{3}=\\frac{10}{3}\\neq0\n$$\n<p>且</p>\n$$\n\\Delta=\\left|\\det\\left(  \\left(-2,\\sqrt{\\frac{2}{3}}\\right),  \\left(-2,-\\sqrt{\\frac{2}{3}}\\right)\\right)\\right|  =4\\sqrt{\\frac{2}{3}}=\\frac{4\\sqrt{6}}{3}=K\n$$\n<p>所以竖直直线也满足题设条件.</p><p>因此存在这样的直线 $m$，其方程为</p><p>$x=-2$，$y=\\frac{\\sqrt{3}}{3}(x+2)$，$y=-\\frac{\\sqrt{3}}{3}(x+2)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

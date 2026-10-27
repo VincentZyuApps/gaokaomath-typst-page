@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,265 +11,241 @@
 #part-header("单选题")
 
 #problem(1)[
-设全集 $U = \{x in NN ""^* | x < 6\}$，集合 $A = \{1, 3\}$，$B = \{3, 5\}$，则 $\c o m p l e m e n t_U( A union B ) =$（ ）
-
+设全集 #mi(`U = \{x \in \mathbb{N}^{*} \mid x < 6\}`)，集合 #mi(`A = \{1, 3\}`)，#mi(`B = \{3, 5\}`)，则 #mi(`\complement_{U}\left( A \cup B \right) =`)（ ）
 
 C
 
-由 $x in NN ""^*$ 且 $x<6$，得 $U=\{1,2,3,4,5\}$. 又 $A union B=\{1,3,5\}$，所以 $\c o m p l e m e n t_U(A union B)=\{2,4\}$. 故选 C.
-  #choices([$\{1, 4\}$], [$\{1, 5\}$], [$\{2, 4\}$], [$\{2,5\}$], cols: 4)
+由 #mi(`x\in\mathbb{N}^{*}`) 且 #mi(`x<6`)，得 #mi(`U=\{1,2,3,4,5\}`). 又 #mi(`A\cup B=\{1,3,5\}`)，所以 #mi(`\complement_{U}\left(A\cup B\right)=\{2,4\}`). 故选 C.
+  #choices([#mi(`\{1, 4\}`)], [#mi(`\{1, 5\}`)], [#mi(`\{2, 4\}`)], [#mi(`\{2,5\}`)], cols: 4)
 ]
 
 #problem(2)[
-不等式 $(x - 3)/(x + 2)< 0$ 的解集为（ ）
-
+不等式 #mi(`\frac{x - 3}{x + 2}< 0`) 的解集为（ ）
 
 A
 
-不等式有意义要求 $x != -2$. 当 $x<-2$ 时，$x-3<0$、$x+2<0$，分式为正；当 $-2<x<3$ 时，$x-3<0$、$x+2>0$，分式为负；当 $x>3$ 时，分式为正. 因而解集为 $(-2,3)$，故选 A.
-  #choices([$\{x | -2 < x < 3\}$], [$\{x | x < -2\}$], [$\{x | x < -2 " 或 "x > 3\}$], [$\{x | x > 3\}$], cols: 2)
+不等式有意义要求 #mi(`x\ne-2`). 当 #mi(`x<-2`) 时，#mi(`x-3<0`)、#mi(`x+2<0`)，分式为正；当 #mi(`-2<x<3`) 时，#mi(`x-3<0`)、#mi(`x+2>0`)，分式为负；当 #mi(`x>3`) 时，分式为正. 因而解集为 #mi(`(-2,3)`)，故选 A.
+  #choices([#mi(`\{x \mid -2 < x < 3\}`)], [#mi(`\{x \mid x < -2\}`)], [#mi(`\{x \mid x < -2 \text{ \text{或} }x > 3\}`)], [#mi(`\{x \mid x > 3\}`)], cols: 1)
 ]
 
 #problem(3)[
-已知 $sin alpha = (2)/(3)$，则 $cos ( pi - 2 alpha ) =$（ ）
-
+已知 #mi(`\sin \alpha = \frac{2}{3}`)，则 #mi(`\cos\left(\pi - 2\alpha\right) =`)（ ）
 
 B
 
-由诱导公式和二倍角公式，$cos ( pi -2 alpha )=- cos 2 alpha =-(1-2 sin ""^2 alpha )=-(1-2 dot (4)/(9))=-(1)/(9)$. 故选 B.
-  #choices([$-(sqrt(5))/(3)$], [$-(1)/(9)$], [$(1)/(9)$], [$(sqrt(5))/(3)$], cols: 2)
+由诱导公式和二倍角公式，#mi(`\cos\left(\pi-2\alpha\right)=-\cos 2\alpha=-(1-2\sin^{2}\alpha)=-(1-2\cdot\frac{4}{9})=-\frac{1}{9}`). 故选 B.
+  #choices([#mi(`-\frac{\sqrt{5}}{3}`)], [#mi(`-\frac{1}{9}`)], [#mi(`\frac{1}{9}`)], [#mi(`\frac{\sqrt{5}}{3}`)], cols: 2)
 ]
 
 #problem(4)[
-函数 $y = 1 + ln (x - 1)$（$x > 1$）的反函数是（ ）
-
+函数 #mi(`y = 1 + \ln\left(x - 1\right)`)（#mi(`x > 1`)）的反函数是（ ）
 
 D
 
-由 $y=1+ ln (x-1)$ 得 $y-1= ln (x-1)$，从而 $x= e ""^(y-1)+1$. 原函数的值域为 $RR$，交换 $x$，$y$ 后反函数为 $y= e ""^(x-1)+1$，且反函数的定义域为 $x in RR$. 故选 D.
-  #choices([$y = e ""^(x + 1) - 1$（$x > 0$）], [$y = e ""^(x - 1) + 1$（$x > 0$）], [$y = e ""^(x + 1) - 1$（$x in RR$）], [$y = e ""^(x - 1) + 1$（$x in RR$）], cols: 1)
+由 #mi(`y=1+\ln\left(x-1\right)`) 得 #mi(`y-1=\ln\left(x-1\right)`)，从而 #mi(`x=\mathrm{e}^{y-1}+1`). 原函数的值域为 #mi(`\mathbb{R}`)，交换 #mi(`x`)，#mi(`y`) 后反函数为 #mi(`y=\mathrm{e}^{x-1}+1`)，且反函数的定义域为 #mi(`x\in\mathbb{R}`). 故选 D.
+  #choices([#mi(`y = \mathrm{e}^{x + 1}- 1`)（#mi(`x > 0`)）], [#mi(`y = \mathrm{e}^{x - 1}+ 1`)（#mi(`x > 0`)）], [#mi(`y = \mathrm{e}^{x + 1}- 1`)（#mi(`x \in \mathbb{R}`)）], [#mi(`y = \mathrm{e}^{x - 1}+ 1`)（#mi(`x \in \mathbb{R}`)）], cols: 1)
 ]
 
 #problem(5)[
-若变量 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} x >= -1,\\ y >= x,\\ 3 x + 2 y <= 5 , \e n d{c a s e s}$ 则 $z = 2 x + y$ 的最大值为（ ）
-
+若变量 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}x \ge -1,\\  y \ge x,\\  3x + 2y \le 5,\end{cases}`) 则 #mi(`z = 2x + y`) 的最大值为（ ）
 
 C
 
-由约束条件，$x <= y <= (5-3 x)/(2)$，并且可行域要求 $-1 <= x <= 1$. 对固定的 $x$，目标函数 $z=2 x+y$ 随 $y$ 增大而增大，因此 $z <= 2 x+(5-3 x)/(2)=(x+5)/(2) <= 3$. 当 $x=1$，$y=1$ 时三个约束均满足，且 $z=3$，所以最大值为 $3$. 故选 C.
-  #choices([$1$], [$2$], [$3$], [$4$], cols: 4)
+由约束条件，#mi(`x\le y\le\frac{5-3x}{2}`)，并且可行域要求 #mi(`-1\le x\leqslant1`). 对固定的 #mi(`x`)，目标函数 #mi(`z=2x+y`) 随 #mi(`y`) 增大而增大，因此 #mi(`z\leqslant2x+\frac{5-3x}{2}=\frac{x+5}{2}\leqslant3`). 当 #mi(`x=1`)，#mi(`y=1`) 时三个约束均满足，且 #mi(`z=3`)，所以最大值为 #mi(`3`). 故选 C.
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`3`)], [#mi(`4`)], cols: 4)
 ]
 
 #problem(6)[
-如果等差数列 $\{a_(n)\}$ 中，$a_(3) + a_(4) + a_(5) = 12$，那么 $a_(1) + a_(2) + dots.c + a_(7) =$（ ）
-
+如果等差数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{3}+ a_{4}+ a_{5}= 12`)，那么 #mi(`a_{1}+ a_{2}+ \cdots + a_{7}=`)（ ）
 
 C
 
-等差数列中 $a_3+a_5=2 a_4$，所以 $a_3+a_4+a_5=3 a_4=12$，得 $a_4=4$. 又 $a_1+a_7=a_2+a_6=a_3+a_5=2 a_4$，故 $a_1+a_2+ dots.c +a_7=7 a_4=28$. 故选 C.
-  #choices([$14$], [$21$], [$28$], [$35$], cols: 4)
+等差数列中 #mi(`a_{3}+a_{5}=2a_{4}`)，所以 #mi(`a_{3}+a_{4}+a_{5}=3a_{4}=12`)，得 #mi(`a_{4}=4`). 又 #mi(`a_{1}+a_{7}=a_{2}+a_{6}=a_{3}+a_{5}=2a_{4}`)，故 #mi(`a_{1}+a_{2}+\cdots+a_{7}=7a_{4}=28`). 故选 C.
+  #choices([#mi(`14`)], [#mi(`21`)], [#mi(`28`)], [#mi(`35`)], cols: 4)
 ]
 
 #problem(7)[
-若曲线 $y = x^(2) + a x + b$ 在点 $(0, b)$ 处的切线方程是 $x - y + 1 = 0$，则（ ）
-
+若曲线 #mi(`y = x^{2}+ ax + b`) 在点 #mi(`(0, b)`) 处的切线方程是 #mi(`x - y + 1 = 0`)，则（ ）
 
 A
 
-切点为 $(0,b)$，代入直线 $x-y+1=0$ 得 $b=1$. 曲线的导数为 $y'=2 x+a$，所以在 $x=0$ 处的切线斜率为 $a$. 直线 $x-y+1=0$ 即 $y=x+1$，斜率为 $1$，从而 $a=1$. 故选 A.
-  #choices([$a = 1$，$b = 1$], [$a = -1$，$b = 1$], [$a = 1$，$b = -1$], [$a = -1$，$b = -1$], cols: 2)
+切点为 #mi(`(0,b)`)，代入直线 #mi(`x-y+1=0`) 得 #mi(`b=1`). 曲线的导数为 #mi(`y'=2x+a`)，所以在 #mi(`x=0`) 处的切线斜率为 #mi(`a`). 直线 #mi(`x-y+1=0`) 即 #mi(`y=x+1`)，斜率为 #mi(`1`)，从而 #mi(`a=1`). 故选 A.
+  #choices([#mi(`a = 1`)，#mi(`b = 1`)], [#mi(`a = -1`)，#mi(`b = 1`)], [#mi(`a = 1`)，#mi(`b = -1`)], [#mi(`a = -1`)，#mi(`b = -1`)], cols: 2)
 ]
 
 #problem(8)[
-在三棱锥 $S - A B C$ 中，底面 $A B C$ 为边长等于 $2$ 的等边三角形，$S A$ 垂直于底面 $A B C$，$S A = 3$，那么直线 $A B$ 与平面 $S B C$ 所成角的正弦值为（ ）
-
+在三棱锥 #mi(`S - ABC`) 中，底面 #mi(`ABC`) 为边长等于 #mi(`2`) 的等边三角形，#mi(`SA`) 垂直于底面 #mi(`ABC`)，#mi(`SA = 3`)，那么直线 #mi(`AB`) 与平面 #mi(`SBC`) 所成角的正弦值为（ ）
 
 D
 
-取 $A=(0,0,0)$，$B=(2,0,0)$，$C=(1,sqrt(3),0)$，$S=(0,0,3)$. 则平面 $S B C$ 的两个方向向量可取 $arrow(S B)=(2,0,-3)$ 和 $arrow(S C)=(1,sqrt(3),-3)$，其法向量可取 $bold(n)=arrow(S B)\t i m e s a r r o w(S C)=(3 sqrt(3),3,2 sqrt(3))$. 直线 $A B$ 的方向向量为 $arrow(A B)=(2,0,0)$. 若直线 $A B$ 与平面 $S B C$ 所成的角为 $theta$，则 $sin theta =(|arrow(A B){ dot }bold(n)|)/(|arrow(A B)| |bold(n)|)=(6 sqrt(3))/(2 dot 4 sqrt(3))=(3)/(4)$. 故选 D.
-  #choices([$(sqrt(3))/(4)$], [$(sqrt(5))/(4)$], [$(sqrt(7))/(4)$], [$(3)/(4)$], cols: 4)
+取 #mi(`A=(0,0,0)`)，#mi(`B=(2,0,0)`)，#mi(`C=(1,\sqrt{3},0)`)，#mi(`S=(0,0,3)`). 则平面 #mi(`SBC`) 的两个方向向量可取 #mi(`\overrightarrow{SB}=(2,0,-3)`) 和 #mi(`\overrightarrow{SC}=(1,\sqrt{3},-3)`)，其法向量可取 #mi(`\mathbf{n}=\overrightarrow{SB}\times\overrightarrow{SC}=(3\sqrt{3},3,2\sqrt{3})`). 直线 #mi(`AB`) 的方向向量为 #mi(`\overrightarrow{AB}=(2,0,0)`). 若直线 #mi(`AB`) 与平面 #mi(`SBC`) 所成的角为 #mi(`\theta`)，则 #mi(`\sin\theta=\frac{|\overrightarrow{AB}\cdot\mathbf{n}|}{|\overrightarrow{AB}|\,|\mathbf{n}|}=\frac{6\sqrt{3}}{2\cdot4\sqrt{3}}=\frac{3}{4}`). 故选 D.
+  #choices([#mi(`\frac{\sqrt{3}}{4}`)], [#mi(`\frac{\sqrt{5}}{4}`)], [#mi(`\frac{\sqrt{7}}{4}`)], [#mi(`\frac{3}{4}`)], cols: 2)
 ]
 
 #problem(9)[
-将标号为 $1$，$2$，$3$，$4$，$5$，$6$ 的 $6$ 张卡片放入 $3$ 个不同的信封中，若每个信封放 $2$ 张，其中标号为 $1$，$2$ 的卡片放入同一信封，则不同的放法共有（ ）
-
+将标号为 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`)，#mi(`6`) 的 #mi(`6`) 张卡片放入 #mi(`3`) 个不同的信封中，若每个信封放 #mi(`2`) 张，其中标号为 #mi(`1`)，#mi(`2`) 的卡片放入同一信封，则不同的放法共有（ ）
 
 B
 
-先从 $3$ 个不同信封中选出一个放置卡片 $1,2$，有 $3$ 种选法. 剩下的 $4$ 张卡片放入剩下的两个有标号信封中，每个放 $2$ 张；选定其中一个信封所放的 $2$ 张即可，故有 $C_4^2=6$ 种. 因此总放法数为 $3 C_4^2=18$，故选 B.
-  #choices([$12" 种"$], [$18" 种"$], [$36" 种"$], [$54" 种"$], cols: 4)
+先从 #mi(`3`) 个不同信封中选出一个放置卡片 #mi(`1,2`)，有 #mi(`3`) 种选法. 剩下的 #mi(`4`) 张卡片放入剩下的两个有标号信封中，每个放 #mi(`2`) 张；选定其中一个信封所放的 #mi(`2`) 张即可，故有 #mi(`\mathrm{C}_{4}^{2}=6`) 种. 因此总放法数为 #mi(`3\mathrm{C}_{4}^{2}=18`)，故选 B.
+  #choices([#mi(`12\text{ \text{种}}`)], [#mi(`18\text{ \text{种}}`)], [#mi(`36\text{ \text{种}}`)], [#mi(`54\text{ \text{种}}`)], cols: 2)
 ]
 
 #problem(10)[
-$triangle A B C$ 中，点 $D$ 在边 $A B$ 上，$C D$ 平分 $angle A C B$. 若 $arrow(C B)= bold(a)$，$arrow(C A)= bold(b)$，$|bold(a)| = 1$，$|bold(b)| = 2$，则 $arrow(C D)=$（ ）
-
+#mi(`\triangle ABC`) 中，点 #mi(`D`) 在边 #mi(`AB`) 上，#mi(`CD`) 平分 #mi(`\angle ACB`). 若 #mi(`\overrightarrow{CB}= \mathbf{a}`)，#mi(`\overrightarrow{CA}= \mathbf{b}`)，#mi(`|\mathbf{a}| = 1`)，#mi(`|\mathbf{b}| = 2`)，则 #mi(`\overrightarrow{CD}=`)（ ）
 
 B
 
-由角平分线定理，$(A D)/(D B)=(A C)/(C B)=(|bold(b)|)/(|bold(a)|)=2$，所以 $arrow(A D)=(2)/(3)arrow(A B)$. 又 $arrow(A B)=arrow(C B)-arrow(C A)=bold(a)-bold(b)$，于是 $arrow(C D)=arrow(C A)+arrow(A D)=bold(b)+(2)/(3)(bold(a)-bold(b))=(2)/(3)bold(a)+(1)/(3)bold(b)$. 故选 B.
-  #choices([$(1)/(3)bold(a)+ (2)/(3)bold(b)$], [$(2)/(3)bold(a)+ (1)/(3)bold(b)$], [$(3)/(5)bold(a)+ (4)/(5)bold(b)$], [$(4)/(5)bold(a)+ (3)/(5)bold(b)$], cols: 1)
+由角平分线定理，#mi(`\frac{AD}{DB}=\frac{AC}{CB}=\frac{|\mathbf{b}|}{|\mathbf{a}|}=2`)，所以 #mi(`\overrightarrow{AD}=\frac{2}{3}\overrightarrow{AB}`). 又 #mi(`\overrightarrow{AB}=\overrightarrow{CB}-\overrightarrow{CA}=\mathbf{a}-\mathbf{b}`)，于是 #mi(`\overrightarrow{CD}=\overrightarrow{CA}+\overrightarrow{AD}=\mathbf{b}+\frac{2}{3}(\mathbf{a}-\mathbf{b})=\frac{2}{3}\mathbf{a}+\frac{1}{3}\mathbf{b}`). 故选 B.
+  #choices([#mi(`\frac{1}{3}\mathbf{a}+ \frac{2}{3}\mathbf{b}`)], [#mi(`\frac{2}{3}\mathbf{a}+ \frac{1}{3}\mathbf{b}`)], [#mi(`\frac{3}{5}\mathbf{a}+ \frac{4}{5}\mathbf{b}`)], [#mi(`\frac{4}{5}\mathbf{a}+ \frac{3}{5}\mathbf{b}`)], cols: 1)
 ]
 
 #problem(11)[
-与正方体 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 的三条棱 $A B$，$CC_(1)$，$A_(1)D_(1)$ 所在直线的距离相等的点（ ）
-
+与正方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 的三条棱 #mi(`AB`)，#mi(`CC_{1}`)，#mi(`A_{1}D_{1}`) 所在直线的距离相等的点（ ）
 
 D
 
-不妨设正方体棱长为 $1$，建立空间直角坐标系：$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$，$A_1=(0,0,1)$，$B_1=(1,0,1)$，$C_1=(1,1,1)$，$D_1=(0,1,1)$. 在线段 $B_(1) D$ 上任取一点 $P=(1-t,t,1-t)$，其中 $0 <= t <= 1$.
+不妨设正方体棱长为 #mi(`1`)，建立空间直角坐标系：#mi(`A=(0,0,0)`)，#mi(`B=(1,0,0)`)，#mi(`C=(1,1,0)`)，#mi(`D=(0,1,0)`)，#mi(`A_{1}=(0,0,1)`)，#mi(`B_{1}=(1,0,1)`)，#mi(`C_{1}=(1,1,1)`)，#mi(`D_{1}=(0,1,1)`). 在线段 #mi(`B_{1}D`) 上任取一点 #mi(`P=(1-t,t,1-t)`)，其中 #mi(`0\le t\leqslant1`).
 
-点 $P$ 到直线 $A B$ 的距离为 $sqrt(t^2+(1-t)^2)$. 点 $P$ 到直线 $CC_1$ 的距离为 $sqrt(t^2+(1-t)^2)$. 点 $P$ 到直线 $A_(1) D_1$ 的距离也为 $sqrt(t^2+(1-t)^2)$. 因而线段 $B_(1) D$ 上每一点都满足题设条件，满足条件的点有无数个. 故选 D.
-  #choices([有且只有 $1" 个"$], [有且只有 $2" 个"$], [有且只有 $3" 个"$], [有无数个], cols: 4)
+点 #mi(`P`) 到直线 #mi(`AB`) 的距离为 #mi(`\sqrt{t^{2}+(1-t)^{2}}`). 点 #mi(`P`) 到直线 #mi(`CC_{1}`) 的距离为 #mi(`\sqrt{t^{2}+(1-t)^{2}}`). 点 #mi(`P`) 到直线 #mi(`A_{1}D_{1}`) 的距离也为 #mi(`\sqrt{t^{2}+(1-t)^{2}}`). 因而线段 #mi(`B_{1}D`) 上每一点都满足题设条件，满足条件的点有无数个. 故选 D.
+  #choices([有且只有 #mi(`1\text{ \text{个}}`)], [有且只有 #mi(`2\text{ \text{个}}`)], [有且只有 #mi(`3\text{ \text{个}}`)], [有无数个], cols: 2)
 ]
 
 #problem(12)[
-已知椭圆 $C: (x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > b > 0$）的离心率为 $(sqrt(3))/(2)$，过右焦点 $F$ 且斜率为 $k$（$k > 0$）的直线与 $C$ 相交于 $A$，$B$ 两点. 若 $arrow(A F)= 3 arrow(F B)$，则 $k =$（ ）
-
+已知椭圆 #mi(`C: \frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)）的离心率为 #mi(`\frac{\sqrt{3}}{2}`)，过右焦点 #mi(`F`) 且斜率为 #mi(`k`)（#mi(`k > 0`)）的直线与 #mi(`C`) 相交于 #mi(`A`)，#mi(`B`) 两点. 若 #mi(`\overrightarrow{AF}= 3\overrightarrow{FB}`)，则 #mi(`k =`)（ ）
 
 B
 
-设椭圆焦距为 $2 c$. 由离心率 $(c)/(a)=(sqrt(3))/(2)$，得 $c=(sqrt(3))/(2)a$，从而 $b^2=a^2-c^2=(a^2)/(4)$，椭圆方程可写为 $x^2+4 y^2=a^2$. 右焦点为 $F=(c,0)$，设直线与椭圆的交点 $B$ 为 $B=(c+t,k t)$. 由 $arrow(A F)=3 arrow(F B)$，得 $A=(c-3 t,-3 k t)$，且 $t != 0$.
+设椭圆焦距为 #mi(`2c`). 由离心率 #mi(`\frac{c}{a}=\frac{\sqrt{3}}{2}`)，得 #mi(`c=\frac{\sqrt{3}}{2}a`)，从而 #mi(`b^{2}=a^{2}-c^{2}=\frac{a^{2}}{4}`)，椭圆方程可写为 #mi(`x^{2}+4y^{2}=a^{2}`). 右焦点为 #mi(`F=(c,0)`)，设直线与椭圆的交点 #mi(`B`) 为 #mi(`B=(c+t,kt)`). 由 #mi(`\overrightarrow{AF}=3\overrightarrow{FB}`)，得 #mi(`A=(c-3t,-3kt)`)，且 #mi(`t\ne0`).
 
-将 $A$，$B$ 代入椭圆方程并相减，得 $(c-3 t)^2+36 k^(2) t^2-(c+t)^2-4 k^(2) t^2=0$，即 $t=(c)/(1+4 k^2)$. 再将 $B$ 代入椭圆方程，得 $c^2+2 c t+(1+4 k^2)t^2=a^2$. 令 $q=1+4 k^2$，代入 $c^2=(3)/(4)a^2$ 和 $t=(c)/(q)$，得到 $(3)/(4)a^2(1+(3)/(q))=a^2$，所以 $1+(3)/(q)=(4)/(3)$，即 $q=9$. 因而 $1+4 k^2=9$，又 $k>0$，得 $k=sqrt(2)$. 故选 B.
-  #choices([$1$], [$sqrt(2)$], [$sqrt(3)$], [$2$], cols: 4)
+将 #mi(`A`)，#mi(`B`) 代入椭圆方程并相减，得 #mi(`(c-3t)^{2}+36k^{2}t^{2}-(c+t)^{2}-4k^{2}t^{2}=0`)，即 #mi(`t=\frac{c}{1+4k^{2}}`). 再将 #mi(`B`) 代入椭圆方程，得 #mi(`c^{2}+2ct+(1+4k^{2})t^{2}=a^{2}`). 令 #mi(`q=1+4k^{2}`)，代入 #mi(`c^{2}=\frac{3}{4}a^{2}`) 和 #mi(`t=\frac{c}{q}`)，得到 #mi(`\frac{3}{4}a^{2}\left(1+\frac{3}{q}\right)=a^{2}`)，所以 #mi(`1+\frac{3}{q}=\frac{4}{3}`)，即 #mi(`q=9`). 因而 #mi(`1+4k^{2}=9`)，又 #mi(`k>0`)，得 #mi(`k=\sqrt{2}`). 故选 B.
+  #choices([#mi(`1`)], [#mi(`\sqrt{2}`)], [#mi(`\sqrt{3}`)], [#mi(`2`)], cols: 4)
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-已知 $alpha$ 是第二象限的角，$tan alpha = -(1)/(2)$，则 $cos alpha =\f i l l i n b l a n k{}$.
+已知 #mi(`\alpha`) 是第二象限的角，#mi(`\tan \alpha = -\frac{1}{2}`)，则 #mi(`\cos \alpha =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$-(2 sqrt(5))/(5)$])
+#answer([#mi(`-\frac{2\sqrt{5}}{5}`)])
 
 #solution[
-因 $alpha$ 是第二象限角，故 $cos alpha <0$. 由 $tan alpha =-(1)/(2)$，可设 $sin alpha =-(1)/(2) cos alpha$. 代入 $sin ""^2 alpha + cos ""^2 alpha =1$，得 $(1)/(4) cos ""^2 alpha + cos ""^2 alpha =1$，即 $cos ""^2 alpha =(4)/(5)$. 取第二象限对应的负值，得 $cos alpha =-(2 sqrt(5))/(5)$.
+因 #mi(`\alpha`) 是第二象限角，故 #mi(`\cos\alpha<0`). 由 #mi(`\tan\alpha=-\frac{1}{2}`)，可设 #mi(`\sin\alpha=-\frac{1}{2}\cos\alpha`). 代入 #mi(`\sin^{2}\alpha+\cos^{2}\alpha=1`)，得 #mi(`\frac{1}{4}\cos^{2}\alpha+\cos^{2}\alpha=1`)，即 #mi(`\cos^{2}\alpha=\frac{4}{5}`). 取第二象限对应的负值，得 #mi(`\cos\alpha=-\frac{2\sqrt{5}}{5}`).
 ]
 
 #problem(14)[
-$(x + (1)/(x))^9$ 的展开式中 $x^3$ 的系数是#blank(){}.
+#mi(`\left(x + \frac{1}{x}\right)^{9}`) 的展开式中 #mi(`x^{3}`) 的系数是\underline{\hspace{2.5em}}.
 ]
 
 #answer([84])
 
 #solution[
-展开式通项为 $T_(r+1)=C_9^r x^(9-r)((1)/(x))^r=C_9^r x^(9-2 r)$. 要得到 $x^3$，应有 $9-2 r=3$，解得 $r=3$. 因而 $x^3$ 的系数为 $C_9^3=84$.
+展开式通项为 #mi(`T_{r+1}=\mathrm{C}_{9}^{r} x^{9-r}\left(\frac{1}{x}\right)^{r}=\mathrm{C}_{9}^{r} x^{9-2r}`). 要得到 #mi(`x^{3}`)，应有 #mi(`9-2r=3`)，解得 #mi(`r=3`). 因而 #mi(`x^{3}`) 的系数为 #mi(`\mathrm{C}_{9}^{3}=84`).
 ]
 
 #problem(15)[
-已知抛物线 $C: y^(2) = 2 p x$ （$p > 0$）的准线为 $l$，过 $M(1,0)$ 且斜率为 $sqrt(3)$ 的直线与 $l$ 相交于点 $A$，与 $C$ 的一个交点为 $B$. 若 $arrow(A M)= arrow(M B)$，则 $p =\f i l l i n b l a n k{}$.
+已知抛物线 #mi(`C: y^{2}= 2px`) （#mi(`p > 0`)）的准线为 #mi(`l`)，过 #mi(`M(1,0)`) 且斜率为 #mi(`\sqrt{3}`) 的直线与 #mi(`l`) 相交于点 #mi(`A`)，与 #mi(`C`) 的一个交点为 #mi(`B`). 若 #mi(`\overrightarrow{AM}= \overrightarrow{MB}`)，则 #mi(`p =\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([2])
 
 #solution[
-抛物线 $y^2=2 p x$ 的准线为 $x=-(p)/(2)$. 过 $M=(1,0)$ 且斜率为 $sqrt(3)$ 的直线为 $y=sqrt(3)(x-1)$，所以 $A=(-(p)/(2),-sqrt(3)((p)/(2)+1))$. 由 $arrow(A M)=arrow(M B)$，点 $M$ 是 $A B$ 的中点，故 $B=2 M-A=(2+(p)/(2),sqrt(3)((p)/(2)+1))$.
+抛物线 #mi(`y^{2}=2px`) 的准线为 #mi(`x=-\frac{p}{2}`). 过 #mi(`M=(1,0)`) 且斜率为 #mi(`\sqrt{3}`) 的直线为 #mi(`y=\sqrt{3}(x-1)`)，所以 #mi(`A=\left(-\frac{p}{2},-\sqrt{3}\left(\frac{p}{2}+1\right)\right)`). 由 #mi(`\overrightarrow{AM}=\overrightarrow{MB}`)，点 #mi(`M`) 是 #mi(`AB`) 的中点，故 #mi(`B=2M-A=\left(2+\frac{p}{2},\sqrt{3}\left(\frac{p}{2}+1\right)\right)`).
 
-把 $B$ 代入抛物线方程，得 $3((p)/(2)+1)^2=2 p(2+(p)/(2))$，即 $3(p+2)^2=4 p(p+4)$. 化简得 $p^2+4 p-12=0$，所以 $p=2$ 或 $p=-6$. 由 $p>0$，得 $p=2$.
+把 #mi(`B`) 代入抛物线方程，得 #mi(`3\left(\frac{p}{2}+1\right)^{2}=2p\left(2+\frac{p}{2}\right)`)，即 #mi(`3(p+2)^{2}=4p(p+4)`). 化简得 #mi(`p^{2}+4p-12=0`)，所以 #mi(`p=2`) 或 #mi(`p=-6`). 由 #mi(`p>0`)，得 #mi(`p=2`).
 ]
 
 #problem(16)[
-已知球 $O$ 的半径为 $4$，圆 $M$ 与圆 $N$ 为该球的两个小圆，$A B$ 为圆 $M$ 与圆 $N$ 的公共弦，$A B = 4$. 若 $O M = O N = 3$，则两圆圆心的距离 $M N =\f i l l i n b l a n k{}$.
+已知球 #mi(`O`) 的半径为 #mi(`4`)，圆 #mi(`M`) 与圆 #mi(`N`) 为该球的两个小圆，#mi(`AB`) 为圆 #mi(`M`) 与圆 #mi(`N`) 的公共弦，#mi(`AB = 4`). 若 #mi(`OM = ON = 3`)，则两圆圆心的距离 #mi(`MN =\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([3])
 
 #solution[
-设 $P$ 为公共弦 $A B$ 的中点. 因为球半径为 $4$，且 $O M=O N=3$，所以小圆 $M$，$N$ 的半径均为 $sqrt(4^2-3^2)=sqrt(7)$. 于是 $M P=N P=sqrt(7-2^2)=sqrt(3)$. 又 $O P bot A B$，所以 $O P=sqrt(4^2-2^2)=2 sqrt(3)$.
+设 #mi(`P`) 为公共弦 #mi(`AB`) 的中点. 因为球半径为 #mi(`4`)，且 #mi(`OM=ON=3`)，所以小圆 #mi(`M`)，#mi(`N`) 的半径均为 #mi(`\sqrt{4^{2}-3^{2}}=\sqrt{7}`). 于是 #mi(`MP=NP=\sqrt{7-2^{2}}=\sqrt{3}`). 又 #mi(`OP\perp AB`)，所以 #mi(`OP=\sqrt{4^{2}-2^{2}}=2\sqrt{3}`).
 
-点 $O$，$M$，$N$，$P$ 共面，且 $O M bot M P$. 在直角三角形 $O M P$ 中，设从 $M$ 到 $O P$ 的高为 $h$，由面积相等得 $(1)/(2)O M dot M P=(1)/(2)O P dot h$，所以 $h=(3\c d o t s q r t(3))/(2 sqrt(3))=(3)/(2)$. 由于 $O M=O N$ 且 $M P=N P$，直线 $O P$ 是 $M N$ 的垂直平分线，故 $M N=2 h=3$.
+点 #mi(`O`)，#mi(`M`)，#mi(`N`)，#mi(`P`) 共面，且 #mi(`OM\perp MP`). 在直角三角形 #mi(`OMP`) 中，设从 #mi(`M`) 到 #mi(`OP`) 的高为 #mi(`h`)，由面积相等得 #mi(`\frac{1}{2}OM\cdot MP=\frac{1}{2}OP\cdot h`)，所以 #mi(`h=\frac{3\cdot\sqrt{3}}{2\sqrt{3}}=\frac{3}{2}`). 由于 #mi(`OM=ON`) 且 #mi(`MP=NP`)，直线 #mi(`OP`) 是 #mi(`MN`) 的垂直平分线，故 #mi(`MN=2h=3`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-$triangle A B C$ 中，$D$ 为边 $B C$ 上的一点，$B D = 33$，$sin B = (5)/(13)$，$cos angle A D C = (3)/(5)$，求 $A D$.
+#mi(`\triangle ABC`) 中，#mi(`D`) 为边 #mi(`BC`) 上的一点，#mi(`BD = 33`)，#mi(`\sin B = \frac{5}{13}`)，#mi(`\cos \angle ADC = \frac{3}{5}`)，求 #mi(`AD`).
 ]
 
 #solution[
-由 $cos angle A D C=(3)/(5)>0$，知 $angle A D C$ 为锐角，故 $sin angle A D C=(4)/(5)$. 又因 $D$ 在 $B C$ 上，三角形 $A B D$ 中 $angle B A D= angle A D C-B$. 由 $sin B=(5)/(13)$ 且 $B< angle A D C<(pi)/(2)$，得 $cos B=(12)/(13)$. 因而 $sin angle B A D= sin ( angle A D C-B)=(4)/(5) dot (12)/(13)-(3)/(5) dot (5)/(13)=(33)/(65)$.
+由 #mi(`\cos\angle ADC=\frac{3}{5}>0`)，知 #mi(`\angle ADC`) 为锐角，故 #mi(`\sin\angle ADC=\frac{4}{5}`). 又因 #mi(`D`) 在 #mi(`BC`) 上，三角形 #mi(`ABD`) 中 #mi(`\angle BAD=\angle ADC-B`). 由 #mi(`\sin B=\frac{5}{13}`) 且 #mi(`B<\angle ADC<\frac{\pi}{2}`)，得 #mi(`\cos B=\frac{12}{13}`). 因而 #mi(`\sin\angle BAD=\sin\left(\angle ADC-B\right)=\frac{4}{5}\cdot\frac{12}{13}-\frac{3}{5}\cdot\frac{5}{13}=\frac{33}{65}`).
 
-在三角形 $A B D$ 中应用正弦定理，得 $(A D)/(sin B)=(B D)/(sin angle B A D)$，所以 $A D=33 dot (5)/(13) dot (65)/(33)=25$.
+在三角形 #mi(`ABD`) 中应用正弦定理，得 #mi(`\frac{AD}{\sin B}=\frac{BD}{\sin\angle BAD}`)，所以 #mi(`AD=33\cdot\frac{5}{13}\cdot\frac{65}{33}=25`).
 ]
 
 #problem(18)[
-已知 $\{a_(n)\}$ 是各项均为正数的等比数列，且 $a_(1) + a_(2) = 2((1)/(a_(1))+ (1)/(a_(2)))$，$a_(3) + a_(4) + a_(5) = 64((1)/(a_(3))+ (1)/(a_(4))+ (1)/(a_(5)))$.
+已知 #mi(`\{a_{n}\}`) 是各项均为正数的等比数列，且 #mi(`a_{1}+ a_{2}= 2\left(\frac{1}{a_{1}}+ \frac{1}{a_{2}}\right)`)，#mi(`a_{3}+ a_{4}+ a_{5}= 64\left(\frac{1}{a_{3}}+ \frac{1}{a_{4}}+ \frac{1}{a_{5}}\right)`).
 
 
-+ (1) 求 $\{a_(n)\}$ 的通项公式；
-+ (2) 设 $b_n = (a_n + (1)/(a_n))^2$，求数列 $\{b_n\}$ 的前 $n$ 项和 $T_n$.
++ (1)
 ]
 
 #solution[
-+ (1) 设首项为 $a_1=u>0$，公比为 $q>0$. 由第一组条件，$u(1+q)=2((1)/(u)+(1)/(u q))=(2(1+q))/(u q)$，从而 $u^(2) q=2$. 由第二组条件，$u q^2(1+q+q^2)=64 dot (1+q+q^2)/(u q^4)$，因 $1+q+q^2>0$，得 $u^(2) q^6=64$，即 $u q^3=8$. 联立 $u^(2) q=2$ 与 $u q^3=8$，可得 $q^5=32$. 由于 $q>0$，所以 $q=2$，再得 $u=1$. 因而 $a_n=2^(n-1)$.
-+ (2) 由 $a_n=2^(n-1)$，$b_n=(2^(n-1)+2^(1-n))^2=4^(n-1)+2+4^(1-n)$. 所以前 $n$ 项和为 $T_n=sum_(k=1)^(n)4^(k-1)+2 n+sum_(k=1)^(n)4^(1-k)=(4^n-1)/(3)+2 n+(4)/(3)(1-4^(-n))$.
++ (1)
 ]
 
 #problem(19)[
-如图，直三棱柱 $A B C - A_(1)B_(1)C_(1)$ 中，$A C = B C$，$A A_(1) = A B$，$D$ 为 $B B_(1)$ 的中点，$E$ 为 $A B_(1)$ 上的一点，$A E = 3 E B_(1)$.
+如图，直三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中，#mi(`AC = BC`)，#mi(`AA_{1}= AB`)，#mi(`D`) 为 #mi(`BB_{1}`) 的中点，#mi(`E`) 为 #mi(`AB_{1}`) 上的一点，#mi(`AE = 3EB_{1}`).
 
 
-+ (1) 证明：$D E$ 为异面直线 $A B_(1)$ 与 $C D$ 的公垂线.
-+ (2) 设异面直线 $A B_(1)$ 与 $C D$ 的夹角为 $45^( degree )$，求二面角 $A_(1)-A C_(1)-B_(1)$ 的大小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2010/img/syllabus_paper_2_liberal/q19_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2010/img/syllabus_paper_2_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设 $A B=s>0$，建立直角坐标系：$A=(0,0,0)$，$B=(s,0,0)$，$C=((s)/(2),h,0)$，$A_1=(0,0,s)$，$B_1=(s,0,s)$，$C_1=((s)/(2),h,s)$. 由 $D$ 为 $B B_1$ 的中点及 $A E=3 E B_1$，得 $D=(s,0,(s)/(2))$，$E=((3 s)/(4),0,(3 s)/(4))$. 因而 $arrow(D E)=(-(s)/(4),0,(s)/(4))$，$arrow(A B_1)=(s,0,s)$，两者内积为 $0$，所以 $D E bot A B_1$. 又 $arrow(D C)=(-(s)/(2),h,-(s)/(2))$，有 $arrow(D E)\c d o t a r r o w(D C)=0$，所以 $D E bot C D$. 直线 $D E$ 分别在 $E$，$D$ 处与 $A B_1$，$C D$ 相交，故 $D E$ 是两异面直线的公垂线.
-+ (2) 取 $arrow(A B_1)=(s,0,s)$，$arrow(D C)=(-(s)/(2),h,-(s)/(2))$. 由两直线夹角为 $45^ degree$，$(s^2)/(s s q r t(2)sqrt((s^2)/(2)+h^2))= cos 45 ""^ degree =(1)/(sqrt(2))$，得 $h^2=(s^2)/(2)$.
-
-平面 $A_(1) A C_1$ 和 $A C_(1) B_1$ 的法向量可分别取 $bold(n)_1=(-sqrt(2),1,0)$ 与 $bold(n)_2=(sqrt(2),1,-sqrt(2))$. 设二面角为 $theta$，则取其锐角，有 $cos theta =(|bold(n)_1\c d o t b o l d(n)_2|)/(|bold(n)_1| |bold(n)_2|)=(1)/(sqrt(15))$. 所以 $sin theta =sqrt((14)/(15))$，从而 $tan theta =sqrt(14)$，即二面角的大小为 $\a r c t a n s q r t(14)$.
++ (1)
 ]
 
 #problem(20)[
-如图，由 $M$ 到 $N$ 的电路中有 $4$ 个组件，分别标为 $T_(1)$，$T_(2)$，$T_(3)$，$T_(4)$，电流能通过 $T_(1)$，$T_(2)$，$T_(3)$ 的概率都是 $p$，电流能通过 $T_(4)$ 的概率是 $0.9$. 电流能否通过各组件相互独立. 已知 $T_(1)$，$T_(2)$，$T_(3)$ 中至少有一个能通过电流的概率为 $0.999$.
+如图，由 #mi(`M`) 到 #mi(`N`) 的电路中有 #mi(`4`) 个组件，分别标为 #mi(`T_{1}`)，#mi(`T_{2}`)，#mi(`T_{3}`)，#mi(`T_{4}`)，电流能通过 #mi(`T_{1}`)，#mi(`T_{2}`)，#mi(`T_{3}`) 的概率都是 #mi(`p`)，电流能通过 #mi(`T_{4}`) 的概率是 #mi(`0.9`). 电流能否通过各组件相互独立. 已知 #mi(`T_{1}`)，#mi(`T_{2}`)，#mi(`T_{3}`) 中至少有一个能通过电流的概率为 #mi(`0.999`).
 
 
-+ (1) 求 $p$；
-+ (2) 求电流能在 $M$ 与 $N$ 之间通过的概率.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2010/img/syllabus_paper_2_liberal/q20_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2010/img/syllabus_paper_2_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设事件 $A_i$ 表示电流能通过 $T_i$. 由独立性，$T_1$，$T_2$，$T_3$ 均不能通过的概率为 $(1-p)^3$. 因题设至少一个能通过的概率为 $0.999$，有 $(1-p)^3=1-0.999=0.001$. 因 $0 <= p <= 1$，得 $1-p=0.1$，所以 $p=0.9$.
-+ (2) 从电路图看，电流通过 $M$，$N$ 的事件为：$T_4$ 能通过，或 $T_4$ 不能通过且 $T_3$ 能通过并且 $T_1$，$T_2$ 中至少一个能通过. 这些情形互斥，因此所求概率为 $0.9+0.1 dot 0 .9[1-(1-0.9)^2]=0.9+0.1 dot 0 .9 dot 0 .99=0.9891$.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = x^3 - 3 a x^2 + 3 x + 1$.
+已知函数 #mi(`f(x) = x^{3} - 3ax^{2} + 3x + 1`).
 
 
-+ (1) 设 $a = 2$，求 $f(x)$ 的单调区间；
-+ (2) 设 $f(x)$ 在区间 $(2,3)$ 中至少有一个极值点，求 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a=2$ 时，$f'(x)=3 x^2-12 x+3=3(x^2-4 x+1)$. 方程 $f'(x)=0$ 的根为 $x=2-sqrt(3)$ 和 $x=2+sqrt(3)$. 因二次项系数为正，$f'(x)>0$ 在两根外侧成立，$f'(x)<0$ 在两根之间成立. 所以增区间为 $(- oo ,2-sqrt(3))$ 和 $(2+sqrt(3),+ oo )$，减区间为 $(2-sqrt(3),2+sqrt(3))$.
-+ (2) $f'(x)=3(x^2-2 a x+1)$. 极值点必须是导数变号的零点. 对 $x in (2,3)$，方程 $f'(x)=0$ 等价于 $a=(x^2+1)/(2 x)=(1)/(2)(x+(1)/(x))$. 函数 $g(x)=(1)/(2)(x+(1)/(x))$ 在 $(2,3)$ 上递增，因为 $g'(x)=(x^2-1)/(2 x^2)>0$. 因而存在 $x in (2,3)$ 使 $f'(x)=0$ 的充要条件为 $g(2)<a<g(3)$，即 $(5)/(4)<a<(5)/(3)$. 此时 $x>2>1$，另一个根为 $(1)/(x)$，两根不重合，导数确实变号，故该条件正好保证区间内至少有一个极值点.
++ (1)
 ]
 
 #part-header("选考题：解答题")
 
 #problem(22)[
-已知斜率为 $1$ 的直线 $l$ 与双曲线 $C: (x^(2))/(a^(2))- (y^(2))/(b^(2))= 1$（$a > 0$，$b > 0$）相交于 $B$，$D$ 两点，且 $B D$ 的中点为 $M(1,3)$.
+已知斜率为 #mi(`1`) 的直线 #mi(`l`) 与双曲线 #mi(`C: \frac{x^{2}}{a^{2}}- \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > 0`)，#mi(`b > 0`)）相交于 #mi(`B`)，#mi(`D`) 两点，且 #mi(`BD`) 的中点为 #mi(`M(1,3)`).
 
 
-+ (1) 求 $C$ 的离心率；
-+ (2) 设 $C$ 的右顶点为 $A$，右焦点为 $F$，$|D F| dot |B F| = 17$，证明：过 $A$，$B$，$D$ 三点的圆与 $x$ 轴相切.
++ (1)
 ]
 
 #solution[
-+ (1) 直线 $l$ 过 $M(1,3)$ 且斜率为 $1$，所以 $l$ 的方程为 $y=x+2$. 设 $B$，$D$ 的横坐标为 $x_1$，$x_2$，将直线方程代入双曲线方程，得 $(b^2-a^2)x^2-4 a^(2) x-a^(2) b^2-4 a^2=0$. 因 $M$ 是 $B D$ 的中点，$x_1+x_2=2$. 由韦达定理，$x_1+x_2=(4 a^2)/(b^2-a^2)=2$，所以 $b^2=3 a^2$. 双曲线的焦半距满足 $c^2=a^2+b^2=4 a^2$，故离心率 $e=(c)/(a)=2$.
-+ (2) 由 $b^2=3 a^2$，双曲线方程等价于 $3 x^2-y^2=3 a^2$. 设 $B=(1+t,3+t)$，$D=(1-t,3-t)$，其中 $t>0$. 将 $y=x+2$ 代入 $3 x^2-y^2=3 a^2$，得 $2 x^2-4 x-4=3 a^2$，再令 $x=1 +- t$，得到 $t^2=(3(a^2+2))/(2)$.
-
-右焦点为 $F=(2 a,0)$. 记 $d_+^2=|B F|^2$，$d_-^2=|D F|^2$，则 $d_+^2=(1+t-2 a)^2+(3+t)^2$，$d_-^2=(1-t-2 a)^2+(3-t)^2$. 令 $K=7 a^2-4 a+16$，由上式和 $2 t^2=3 a^2+6$ 得 $d_+^2=K+4(2-a)t$，$d_-^2=K-4(2-a)t$. 因而 $(|B F| |D F|)^2=K^2-16(2-a)^(2) t^2=25 a^4+40 a^3+96 a^2+64 a+64$.
-
-由题设 $|B F| |D F|=17$，得到 $25 a^4+40 a^3+96 a^2+64 a-225=0$，即 $(a-1)(25 a^3+65 a^2+161 a+225)=0$. 因 $a>0$，括号内三次式为正，故 $a=1$. 此时右顶点 $A=(1,0)$，而 $M=(1,3)$. 由于 $B D$ 的斜率为 $1$，$A M$ 为竖直线，故 $A M bot B D$. 又 $M$ 是 $B D$ 的中点，所以 $A$ 在 $B D$ 的垂直平分线上，即 $A B=A D$. 因而过 $A$，$B$，$D$ 的圆的圆心在直线 $A M$ 上，圆心与 $A$ 的连线垂直于 $x$ 轴，所以该圆在 $A$ 处与 $x$ 轴相切.
++ (1)
 ]
 

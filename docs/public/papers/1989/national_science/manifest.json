@@ -1,8 +1,155 @@
 {
-  "title": "1989年普通高等学校招生全国统一考试",
-  "subtitle": "1989年全国卷（理）",
   "year": "1989",
   "slug": "national_science",
+  "title": "1989年全国卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 24,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +164,9 @@
             "$\\{b, e\\}$"
           ],
           "answer": "A",
-          "solution": "由补集的定义，$\\overline{M}=\\{b,e\\}$，$\\overline{N}=\\{a,c\\}$. 这两个集合没有公共元素，所以 $\\overline{M}\\cap\\overline{N}=\\varnothing$，故选 A."
+          "solution": "由补集的定义，$\\overline{M}=\\{b,e\\}$，$\\overline{N}=\\{a,c\\}$. 这两个集合没有公共元素，所以 $\\overline{M}\\cap\\overline{N}=\\varnothing$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +178,9 @@
             "$y = \\log_{a} a^{x}$（其中 $a > 0$，$a \\neq 1$）"
           ],
           "answer": "D",
-          "solution": "函数 $y=x$ 的定义域是 $\\mathbb{R}$，且对每个实数 $x$ 的函数值都等于 $x$. 逐项检查：A 中 $\\sqrt{x^{2}}=|x|$，当 $x<0$ 时 $|x|=-x\\neq x$；B 中 $\\frac{x^{2}}{x}=x$ 只在 $x\\neq0$ 时有意义，缺少 $x=0$ 处的点；C 中 $\\log_{a} x$ 要求 $x>0$，所以该式的定义域不是 $\\mathbb{R}$，虽然在定义域内值为 $x$. D 中 $a>0$ 且 $a\\neq1$，对任意 $x\\in\\mathbb{R}$，$a^{x}>0$，从而 $\\log_{a} a^{x}=x$，定义域和函数值都与 $y=x$ 相同，故选 D."
+          "solution": "函数 $y=x$ 的定义域是 $\\mathbb{R}$，且对每个实数 $x$ 的函数值都等于 $x$. 逐项检查：A 中 $\\sqrt{x^{2}}=|x|$，当 $x<0$ 时 $|x|=-x\\neq x$；B 中 $\\frac{x^{2}}{x}=x$ 只在 $x\\neq0$ 时有意义，缺少 $x=0$ 处的点；C 中 $\\log_{a} x$ 要求 $x>0$，所以该式的定义域不是 $\\mathbb{R}$，虽然在定义域内值为 $x$. D 中 $a>0$ 且 $a\\neq1$，对任意 $x\\in\\mathbb{R}$，$a^{x}>0$，从而 $\\log_{a} a^{x}=x$，定义域和函数值都与 $y=x$ 相同，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +192,9 @@
             "$4\\sqrt{2}\\pi$"
           ],
           "answer": "C",
-          "solution": "<p>圆锥的轴截面是直角三角形，其两条直角边分别为底面半径 $r=\\sqrt{2}$ 和高 $h=2$，母线长为</p>\n$$\nl=\\sqrt{r^{2}+h^{2}}=\\sqrt{(\\sqrt{2})^{2}+2^{2}}=\\sqrt{6}\n$$\n<p>圆锥侧面积公式为 $S=\\pi r l$，代入得 $S=\\pi\\cdot\\sqrt{2}\\cdot\\sqrt{6}=2\\sqrt{3}\\pi$，故选 C.</p>"
+          "solution": "<p>圆锥的轴截面是直角三角形，其两条直角边分别为底面半径 $r=\\sqrt{2}$ 和高 $h=2$，母线长为</p>\n$$\nl=\\sqrt{r^{2}+h^{2}}=\\sqrt{(\\sqrt{2})^{2}+2^{2}}=\\sqrt{6}\n$$\n<p>圆锥侧面积公式为 $S=\\pi r l$，代入得 $S=\\pi\\cdot\\sqrt{2}\\cdot\\sqrt{6}=2\\sqrt{3}\\pi$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +206,9 @@
             "$-\\frac{\\sqrt{10}}{5}$"
           ],
           "answer": "A",
-          "solution": "<p>设 $\\alpha=\\arcsin\\frac{4}{5}$. 因为 $\\frac{4}{5}\\in(0,1)$，所以 $\\alpha\\in(0,\\frac{\\pi}{2})$，并且</p>\n$$\n\\cos\\alpha=\\sqrt{1-\\sin^{2}\\alpha}=\\sqrt{1-\\frac{16}{25}}=\\frac{3}{5}\n$$\n<p>由反正弦函数的奇偶性和反余弦函数的值域 $[0,\\pi]$，有 $\\arcsin(-\\frac{4}{5})=-\\alpha$，$\\arccos(-\\frac{3}{5})=\\pi-\\alpha$. 因而括号内的角为 $-\\alpha-(\\pi-\\alpha)=-\\pi$，所以</p>\n$$\n\\cos\\left[\\arcsin\\left(-\\frac{4}{5}\\right)-\\arccos\\left(-\\frac{3}{5}\\right)\\right]=\\cos(-\\pi)=-1\n$$\n<p>故选 A.</p>"
+          "solution": "<p>设 $\\alpha=\\arcsin\\frac{4}{5}$. 因为 $\\frac{4}{5}\\in(0,1)$，所以 $\\alpha\\in(0,\\frac{\\pi}{2})$，并且</p>\n$$\n\\cos\\alpha=\\sqrt{1-\\sin^{2}\\alpha}=\\sqrt{1-\\frac{16}{25}}=\\frac{3}{5}\n$$\n<p>由反正弦函数的奇偶性和反余弦函数的值域 $[0,\\pi]$，有 $\\arcsin(-\\frac{4}{5})=-\\alpha$，$\\arccos(-\\frac{3}{5})=\\pi-\\alpha$. 因而括号内的角为 $-\\alpha-(\\pi-\\alpha)=-\\pi$，所以</p>\n$$\n\\cos\\left[\\arcsin\\left(-\\frac{4}{5}\\right)-\\arccos\\left(-\\frac{3}{5}\\right)\\right]=\\cos(-\\pi)=-1\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +220,9 @@
             "$48$"
           ],
           "answer": "B",
-          "solution": "<p>设等比数列的公比为 $q$. 由 $a_{j+1}=qa_{j}$，有</p>\n$$\na_{2}+a_{3}+a_{4}=q(a_{1}+a_{2}+a_{3})\n$$\n<p>题设两式中的首项和不为零，所以</p>\n$$\nq=\\frac{a_{2}+a_{3}+a_{4}}{a_{1}+a_{2}+a_{3}}=\\frac{-9}{18}=-\\frac{1}{2}\n$$\n<p>又</p>\n$$\n18=a_{1}(1+q+q^{2})=a_{1}\\left(1-\\frac{1}{2}+\\frac{1}{4}\\right)=\\frac{3}{4}a_{1}\n$$\n<p>从而 $a_{1}=24$. 由于 $|q|=\\frac{1}{2}<1$，无穷等比级数收敛，且其和为</p>\n$$\n\\lim_{n\\to\\infty}S_{n}=\\frac{a_{1}}{1-q}=\\frac{24}{1+\\frac{1}{2}}=16\n$$\n<p>故选 B.</p>"
+          "solution": "<p>设等比数列的公比为 $q$. 由 $a_{j+1}=qa_{j}$，有</p>\n$$\na_{2}+a_{3}+a_{4}=q(a_{1}+a_{2}+a_{3})\n$$\n<p>题设两式中的首项和不为零，所以</p>\n$$\nq=\\frac{a_{2}+a_{3}+a_{4}}{a_{1}+a_{2}+a_{3}}=\\frac{-9}{18}=-\\frac{1}{2}\n$$\n<p>又</p>\n$$\n18=a_{1}(1+q+q^{2})=a_{1}\\left(1-\\frac{1}{2}+\\frac{1}{4}\\right)=\\frac{3}{4}a_{1}\n$$\n<p>从而 $a_{1}=24$. 由于 $|q|=\\frac{1}{2}<1$，无穷等比级数收敛，且其和为</p>\n$$\n\\lim_{n\\to\\infty}S_{n}=\\frac{a_{1}}{1-q}=\\frac{24}{1+\\frac{1}{2}}=16\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +234,9 @@
             "$\\frac{\\sqrt{15}}{5}$"
           ],
           "answer": "C",
-          "solution": "<p>由 $\\frac{5\\pi}{2}<\\theta<3\\pi$，减去 $2\\pi$ 得 $\\frac{\\pi}{2}<\\theta-2\\pi<\\pi$，故 $\\theta$ 的终边在第三象限，$\\cos\\theta<0$. 因此</p>\n$$\n\\cos\\theta=-|\\cos\\theta|=-\\frac{1}{5}\n$$\n<p>同时 $\\frac{5\\pi}{4}<\\frac{\\theta}{2}<\\frac{3\\pi}{2}$，所以 $\\frac{\\theta}{2}$ 的终边也在第三象限，$\\sin(\\frac{\\theta}{2})<0$. 由半角公式，</p>\n$$\n\\sin^{2}\\frac{\\theta}{2}=\\frac{1-\\cos\\theta}{2}=\\frac{1+\\frac{1}{5}}{2}=\\frac{3}{5}\n$$\n<p>结合正负号得 $\\sin\\frac{\\theta}{2}=-\\sqrt{\\frac{3}{5}}=-\\frac{\\sqrt{15}}{5}$，故选 C.</p>"
+          "solution": "<p>由 $\\frac{5\\pi}{2}<\\theta<3\\pi$，减去 $2\\pi$ 得 $\\frac{\\pi}{2}<\\theta-2\\pi<\\pi$，故 $\\theta$ 的终边在第三象限，$\\cos\\theta<0$. 因此</p>\n$$\n\\cos\\theta=-|\\cos\\theta|=-\\frac{1}{5}\n$$\n<p>同时 $\\frac{5\\pi}{4}<\\frac{\\theta}{2}<\\frac{3\\pi}{2}$，所以 $\\frac{\\theta}{2}$ 的终边也在第三象限，$\\sin(\\frac{\\theta}{2})<0$. 由半角公式，</p>\n$$\n\\sin^{2}\\frac{\\theta}{2}=\\frac{1-\\cos\\theta}{2}=\\frac{1+\\frac{1}{5}}{2}=\\frac{3}{5}\n$$\n<p>结合正负号得 $\\sin\\frac{\\theta}{2}=-\\sqrt{\\frac{3}{5}}=-\\frac{\\sqrt{15}}{5}$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +248,9 @@
             "$\\frac{3}{4}+ \\mathrm{i}$"
           ],
           "answer": "D",
-          "solution": "<p>设 $z=x+y\\mathrm{i}$，其中 $x$，$y\\in\\mathbb{R}$，则 $|z|=\\sqrt{x^{2}+y^{2}}$. 比较等式两边的实部和虚部，得到</p><p>$x+|z|=2$，$y=1$.</p><p>令 $r=|z|\\geqslant0$，则 $r=2-x$，并且由 $y=1$ 得 $r^{2}=x^{2}+1$. 因而</p>\n$$\n(2-x)^{2}=x^{2}+1\n$$\n<p>解得 $4-4x=1$，即 $x=\\frac{3}{4}$. 再由 $r=2-x$ 得 $r=\\frac{5}{4}\\geqslant0$，并且 $\\sqrt{(\\frac{3}{4})^{2}+1}=\\frac{5}{4}$，所以这个模长条件确实满足. 因此 $z=\\frac{3}{4}+\\mathrm{i}$，故选 D.</p>"
+          "solution": "<p>设 $z=x+y\\mathrm{i}$，其中 $x$，$y\\in\\mathbb{R}$，则 $|z|=\\sqrt{x^{2}+y^{2}}$. 比较等式两边的实部和虚部，得到</p><p>$x+|z|=2$，$y=1$.</p><p>令 $r=|z|\\geqslant0$，则 $r=2-x$，并且由 $y=1$ 得 $r^{2}=x^{2}+1$. 因而</p>\n$$\n(2-x)^{2}=x^{2}+1\n$$\n<p>解得 $4-4x=1$，即 $x=\\frac{3}{4}$. 再由 $r=2-x$ 得 $r=\\frac{5}{4}\\geqslant0$，并且 $\\sqrt{(\\frac{3}{4})^{2}+1}=\\frac{5}{4}$，所以这个模长条件确实满足. 因此 $z=\\frac{3}{4}+\\mathrm{i}$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +262,9 @@
             "$5$"
           ],
           "answer": "B",
-          "solution": "<p>设球的半径为 $R$，球心到面积为 $5\\pi$ 和 $8\\pi$ 的截面的距离分别为 $d_{5}$ 和 $d_{8}$. 球被距球心为 $d$ 的平面截得的圆半径满足 $r^{2}=R^{2}-d^{2}$，所以由截面面积公式，</p><p>$d_{5}^{2}=R^{2}-5$，$d_{8}^{2}=R^{2}-8$.</p><p>面积为 $8\\pi$ 的截面半径较大，故它更靠近球心；又因两平面在球心同一侧且相距为 $1$，所以 $d_{5}=d_{8}+1$. 于是</p>\n$$\n\\sqrt{R^{2}-5}-\\sqrt{R^{2}-8}=1\n$$\n<p>令 $u=\\sqrt{R^{2}-8}=d_{8}\\geqslant0$，则 $\\sqrt{u^{2}+3}=u+1$. 两边平方后得 $u^{2}+3=u^{2}+2u+1$，所以 $u=1$. 因而 $R^{2}-8=u^{2}=1$，即 $R=3$，故选 B.</p>"
+          "solution": "<p>设球的半径为 $R$，球心到面积为 $5\\pi$ 和 $8\\pi$ 的截面的距离分别为 $d_{5}$ 和 $d_{8}$. 球被距球心为 $d$ 的平面截得的圆半径满足 $r^{2}=R^{2}-d^{2}$，所以由截面面积公式，</p><p>$d_{5}^{2}=R^{2}-5$，$d_{8}^{2}=R^{2}-8$.</p><p>面积为 $8\\pi$ 的截面半径较大，故它更靠近球心；又因两平面在球心同一侧且相距为 $1$，所以 $d_{5}=d_{8}+1$. 于是</p>\n$$\n\\sqrt{R^{2}-5}-\\sqrt{R^{2}-8}=1\n$$\n<p>令 $u=\\sqrt{R^{2}-8}=d_{8}\\geqslant0$，则 $\\sqrt{u^{2}+3}=u+1$. 两边平方后得 $u^{2}+3=u^{2}+2u+1$，所以 $u=1$. 因而 $R^{2}-8=u^{2}=1$，即 $R=3$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +276,9 @@
             "$2\\sqrt{3}$"
           ],
           "answer": "C",
-          "solution": "<p>极坐标中 $x=\\rho\\cos\\theta$，而题设分母满足 $3-2\\cos\\theta\\geqslant1>0$，所以 $\\rho>0$. 将题设方程改写为</p>\n$$\n3\\rho-2\\rho\\cos\\theta=5\n$$\n<p>即 $3\\rho-2x=5$，所以 $3\\rho=5+2x>0$. 两边平方不会引入符号上的额外条件，再利用 $\\rho^{2}=x^{2}+y^{2}$，有</p>\n$$\n9(x^{2}+y^{2})=(5+2x)^{2}\n$$\n<p>整理得 $5x^{2}+9y^{2}-20x-25=0$. 配方：</p>\n$$\n5(x-2)^{2}+9y^{2}=45\n$$\n<p>即</p>\n$$\n\\frac{(x-2)^{2}}{9}+\\frac{y^{2}}{5}=1\n$$\n<p>因此椭圆的长半轴为 $3$，短半轴为 $\\sqrt{5}$，短轴长为 $2\\sqrt{5}$，故选 C.</p>"
+          "solution": "<p>极坐标中 $x=\\rho\\cos\\theta$，而题设分母满足 $3-2\\cos\\theta\\geqslant1>0$，所以 $\\rho>0$. 将题设方程改写为</p>\n$$\n3\\rho-2\\rho\\cos\\theta=5\n$$\n<p>即 $3\\rho-2x=5$，所以 $3\\rho=5+2x>0$. 两边平方不会引入符号上的额外条件，再利用 $\\rho^{2}=x^{2}+y^{2}$，有</p>\n$$\n9(x^{2}+y^{2})=(5+2x)^{2}\n$$\n<p>整理得 $5x^{2}+9y^{2}-20x-25=0$. 配方：</p>\n$$\n5(x-2)^{2}+9y^{2}=45\n$$\n<p>即</p>\n$$\n\\frac{(x-2)^{2}}{9}+\\frac{y^{2}}{5}=1\n$$\n<p>因此椭圆的长半轴为 $3$，短半轴为 $\\sqrt{5}$，短轴长为 $2\\sqrt{5}$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +290,9 @@
             "$\\frac{32}{5}$"
           ],
           "answer": "D",
-          "solution": "<p>双曲线的标准式中 $a=8$，$b=6$，所以焦半距</p>\n$$\nc=\\sqrt{a^{2}+b^{2}}=\\sqrt{64+36}=10\n$$\n<p>离心率为 $e=\\frac{c}{a}=\\frac{5}{4}$，右准线方程为 $x=\\frac{a}{e}$. 题设中的点 $P$ 必在右支上：左支上的点满足 $x\\le-8$，而右焦点为 $(10,0)$，故其到右焦点的距离至少为 $10-(-8)=18$，不可能等于 $8$. 对右支上的点，双曲线的焦点—准线定义给出 $PF=e\\cdot d$，其中 $d$ 是点 $P$ 到右准线的距离. 因而</p>\n$$\nd=\\frac{PF}{e}=\\frac{8}{\\frac{5}{4}}=\\frac{32}{5}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>双曲线的标准式中 $a=8$，$b=6$，所以焦半距</p>\n$$\nc=\\sqrt{a^{2}+b^{2}}=\\sqrt{64+36}=10\n$$\n<p>离心率为 $e=\\frac{c}{a}=\\frac{5}{4}$，右准线方程为 $x=\\frac{a}{e}$. 题设中的点 $P$ 必在右支上：左支上的点满足 $x\\le-8$，而右焦点为 $(10,0)$，故其到右焦点的距离至少为 $10-(-8)=18$，不可能等于 $8$. 对右支上的点，双曲线的焦点—准线定义给出 $PF=e\\cdot d$，其中 $d$ 是点 $P$ 到右准线的距离. 因而</p>\n$$\nd=\\frac{PF}{e}=\\frac{8}{\\frac{5}{4}}=\\frac{32}{5}\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +304,9 @@
             "在区间 $(0,2)$ 上是增函数"
           ],
           "answer": "A",
-          "solution": "<p>先化简复合函数：</p>\n$$\ng(x)=8+2(2-x^{2})-(2-x^{2})^{2}=8+2x^{2}-x^{4}\n$$\n<p>求导得 $g'(x)=4x-4x^{3}=4x(1-x^{2})$. 在 $(-1,0)$ 上，$x<0$ 且 $1-x^{2}>0$，所以 $g'(x)<0$，故选项 A 的函数单调递减. 在 $(0,1)$ 上 $g'(x)>0$，故选项 B 错误. 在 $(-2,-1)$ 上 $g'(x)>0$，在 $(-1,0)$ 上 $g'(x)<0$，所以 $(-2,0)$ 上不是增函数；在 $(0,1)$ 上 $g'(x)>0$，在 $(1,2)$ 上 $g'(x)<0$，所以 $(0,2)$ 上也不是增函数. 因此只有选项 A 正确.</p>"
+          "solution": "<p>先化简复合函数：</p>\n$$\ng(x)=8+2(2-x^{2})-(2-x^{2})^{2}=8+2x^{2}-x^{4}\n$$\n<p>求导得 $g'(x)=4x-4x^{3}=4x(1-x^{2})$. 在 $(-1,0)$ 上，$x<0$ 且 $1-x^{2}>0$，所以 $g'(x)<0$，故选项 A 的函数单调递减. 在 $(0,1)$ 上 $g'(x)>0$，故选项 B 错误. 在 $(-2,-1)$ 上 $g'(x)>0$，在 $(-1,0)$ 上 $g'(x)<0$，所以 $(-2,0)$ 上不是增函数；在 $(0,1)$ 上 $g'(x)>0$，在 $(1,2)$ 上 $g'(x)<0$，所以 $(0,2)$ 上也不是增函数. 因此只有选项 A 正确.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +318,9 @@
             "$24\\text{ 个}$"
           ],
           "answer": "C",
-          "solution": "五位数小于 $50000$，所以首位只能从 $1$，$2$，$3$，$4$ 中取；偶数的末位只能从 $2,4$ 中取，且各位数字不能重复. 若首位为 $1$ 或 $3$，首位有 $2$ 种选法，末位有 $2$ 种选法，确定首末位后中间三位恰好排列剩下的三个数字，有 $3!=6$ 种，因此有 $2\\cdot2\\cdot3!=24$ 个. 若首位为 $2$ 或 $4$，末位只能取另一个偶数，首位有 $2$ 种选法，末位有 $1$ 种选法，中间三位仍有 $3!$ 种，因此有 $2\\cdot1\\cdot3!=12$ 个. 两类互不重复，故总数为 $24+12=36$，所以选 C."
+          "solution": "五位数小于 $50000$，所以首位只能从 $1$，$2$，$3$，$4$ 中取；偶数的末位只能从 $2,4$ 中取，且各位数字不能重复. 若首位为 $1$ 或 $3$，首位有 $2$ 种选法，末位有 $2$ 种选法，确定首末位后中间三位恰好排列剩下的三个数字，有 $3!=6$ 种，因此有 $2\\cdot2\\cdot3!=24$ 个. 若首位为 $2$ 或 $4$，末位只能取另一个偶数，首位有 $2$ 种选法，末位有 $1$ 种选法，中间三位仍有 $3!$ 种，因此有 $2\\cdot1\\cdot3!=12$ 个. 两类互不重复，故总数为 $24+12=36$，所以选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,44 +330,56 @@
         {
           "num": 13,
           "body": "方程 $\\sin x - \\sqrt{3}\\cos x = \\sqrt{2}$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$x = \\frac{7\\pi}{12}+ 2k\\pi$ 或 $x = \\frac{13\\pi}{12}+ 2k\\pi$，$k \\in \\mathbb{Z}$",
-          "solution": "<p>由正弦差角公式，</p>\n$$\n\\sin x-\\sqrt{3}\\cos x=2\\sin\\left(x-\\frac{\\pi}{3}\\right)\n$$\n<p>因此原方程等价于</p>\n$$\n\\sin\\left(x-\\frac{\\pi}{3}\\right)=\\frac{\\sqrt{2}}{2}\n$$\n<p>正弦值为 $\\frac{\\sqrt{2}}{2}$ 的角满足</p><p>$x-\\frac{\\pi}{3}=\\frac{\\pi}{4}+2k\\pi \\text{或}  x-\\frac{\\pi}{3}=\\frac{3\\pi}{4}+2k\\pi$，$k\\in\\mathbb{Z}$.</p><p>分别加上 $\\frac{\\pi}{3}$，得到 $x=\\frac{7\\pi}{12}+2k\\pi$ 或 $x=\\frac{13\\pi}{12}+2k\\pi$，其中 $k\\in\\mathbb{Z}$.</p>"
+          "choices": [],
+          "answer": "\\(x = \\frac{7\\pi}{12} + 2k\\pi\\) 或 \\(x = \\frac{13\\pi}{12} + 2k\\pi\\)，\\(k \\in \\mathbb{Z}\\)",
+          "solution": "<p>由正弦差角公式，</p>\n$$\n\\sin x-\\sqrt{3}\\cos x=2\\sin\\left(x-\\frac{\\pi}{3}\\right)\n$$\n<p>因此原方程等价于</p>\n$$\n\\sin\\left(x-\\frac{\\pi}{3}\\right)=\\frac{\\sqrt{2}}{2}\n$$\n<p>正弦值为 $\\frac{\\sqrt{2}}{2}$ 的角满足</p><p>$x-\\frac{\\pi}{3}=\\frac{\\pi}{4}+2k\\pi \\text{或}  x-\\frac{\\pi}{3}=\\frac{3\\pi}{4}+2k\\pi$，$k\\in\\mathbb{Z}$.</p><p>分别加上 $\\frac{\\pi}{3}$，得到 $x=\\frac{7\\pi}{12}+2k\\pi$ 或 $x=\\frac{13\\pi}{12}+2k\\pi$，其中 $k\\in\\mathbb{Z}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "不等式 $|x^{2} - 3x| > 4$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(-\\infty,-1) \\cup (4,+\\infty)$",
-          "solution": "<p>由 $|u|>4\\iff u>4$ 或 $u<-4$，原不等式等价于</p>\n$$\nx^{2}-3x>4 \\text{或}  x^{2}-3x<-4\n$$\n<p>第一种情况为</p>\n$$\nx^{2}-3x-4>0\\iff (x-4)(x+1)>0\n$$\n<p>所以 $x<-1$ 或 $x>4$. 第二种情况为 $x^{2}-3x+4<0$，其判别式 $\\Delta=(-3)^{2}-4\\cdot1\\cdot4=-7<0$，且二次项系数为正，所以该二次式恒正，不产生实数解. 因此原不等式的解集为 $(-\\infty,-1)\\cup(4,+\\infty)$.</p>"
+          "choices": [],
+          "answer": "\\((-\\infty,-1) \\cup (4,+\\infty)\\)",
+          "solution": "<p>由 $|u|>4\\iff u>4$ 或 $u<-4$，原不等式等价于</p>\n$$\nx^{2}-3x>4 \\text{或}  x^{2}-3x<-4\n$$\n<p>第一种情况为</p>\n$$\nx^{2}-3x-4>0\\iff (x-4)(x+1)>0\n$$\n<p>所以 $x<-1$ 或 $x>4$. 第二种情况为 $x^{2}-3x+4<0$，其判别式 $\\Delta=(-3)^{2}-4\\cdot1\\cdot4=-7<0$，且二次项系数为正，所以该二次式恒正，不产生实数解. 因此原不等式的解集为 $(-\\infty,-1)\\cup(4,+\\infty)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "函数 $y = \\frac{\\mathrm{e}^{x} - 1}{\\mathrm{e}^{x} + 1}$ 的反函数的定义域是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(-1,1)$",
-          "solution": "<p>令 $t=\\mathrm{e}^{x}$，则 $t>0$，且 $y=\\frac{t-1}{t+1}$. 因为 $t+1>0$，有 $t-1<t+1$，所以 $y<1$；又 $t-1>-(t+1)$，所以 $y>-1$. 故函数值必属于 $(-1,1)$. 另外直接求导得</p>\n$$\ny'=\\frac{\\mathrm{e}^{x}(\\mathrm{e}^{x}+1)-(\\mathrm{e}^{x}-1)\\mathrm{e}^{x}}{(\\mathrm{e}^{x}+1)^{2}}=\\frac{2\\mathrm{e}^{x}}{(\\mathrm{e}^{x}+1)^{2}}>0\n$$\n<p>所以原函数在 $\\mathbb{R}$ 上严格递增，从而存在反函数. 为说明值域没有遗漏，取任意 $y\\in(-1,1)$，由</p>\n$$\ny=\\frac{t-1}{t+1}\n$$\n<p>移项得 $y(t+1)=t-1$，即 $t(1-y)=1+y$，从而</p>\n$$\nt=\\frac{1+y}{1-y}>0\n$$\n<p>于是存在 $x=\\ln\\frac{1+y}{1-y}$，使原函数值等于给定的 $y$. 所以原函数的值域恰为 $(-1,1)$，反函数的定义域为 $(-1,1)$.</p>"
+          "choices": [],
+          "answer": "\\((-1,1)\\)",
+          "solution": "<p>令 $t=\\mathrm{e}^{x}$，则 $t>0$，且 $y=\\frac{t-1}{t+1}$. 因为 $t+1>0$，有 $t-1<t+1$，所以 $y<1$；又 $t-1>-(t+1)$，所以 $y>-1$. 故函数值必属于 $(-1,1)$. 另外直接求导得</p>\n$$\ny'=\\frac{\\mathrm{e}^{x}(\\mathrm{e}^{x}+1)-(\\mathrm{e}^{x}-1)\\mathrm{e}^{x}}{(\\mathrm{e}^{x}+1)^{2}}=\\frac{2\\mathrm{e}^{x}}{(\\mathrm{e}^{x}+1)^{2}}>0\n$$\n<p>所以原函数在 $\\mathbb{R}$ 上严格递增，从而存在反函数. 为说明值域没有遗漏，取任意 $y\\in(-1,1)$，由</p>\n$$\ny=\\frac{t-1}{t+1}\n$$\n<p>移项得 $y(t+1)=t-1$，即 $t(1-y)=1+y$，从而</p>\n$$\nt=\\frac{1+y}{1-y}>0\n$$\n<p>于是存在 $x=\\ln\\frac{1+y}{1-y}$，使原函数值等于给定的 $y$. 所以原函数的值域恰为 $(-1,1)$，反函数的定义域为 $(-1,1)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "已知 $(1 - 2x)^{7} = a_{0} + a_{1}x + a_{2}x^{2} + \\cdots + a_{7}x^{7}$，那么 $a_{1} + a_{2} + \\cdots + a_{7} =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-2$",
-          "solution": "<p>把 $x=1$ 代入题设展开式，得到</p>\n$$\na_{0}+a_{1}+\\cdots+a_{7}=(1-2)^{7}=-1\n$$\n<p>再把 $x=0$ 代入，得 $a_{0}=(1-0)^{7}=1$. 因此</p>\n$$\na_{1}+a_{2}+\\cdots+a_{7}=(a_{0}+a_{1}+\\cdots+a_{7})-a_{0}=-1-1=-2\n$$"
+          "choices": [],
+          "answer": "\\(-2\\)",
+          "solution": "<p>把 $x=1$ 代入题设展开式，得到</p>\n$$\na_{0}+a_{1}+\\cdots+a_{7}=(1-2)^{7}=-1\n$$\n<p>再把 $x=0$ 代入，得 $a_{0}=(1-0)^{7}=1$. 因此</p>\n$$\na_{1}+a_{2}+\\cdots+a_{7}=(a_{0}+a_{1}+\\cdots+a_{7})-a_{0}=-1-1=-2\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "已知 $A$ 和 $B$ 是两个命题，如果 $A$ 是 $B$ 的充分条件，那么 $B$ 是 $A$ 的<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>条件；$\\overline{A}$ 是 $\\overline{B}$ 的<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>条件.",
-          "choices": null,
+          "choices": [],
           "answer": "必要；必要",
-          "solution": "“$A$ 是 $B$ 的充分条件”表示 $A\\Rightarrow B$. 按定义，命题 $C$ 是命题 $D$ 的必要条件，表示 $D\\Rightarrow C$，所以由 $A\\Rightarrow B$ 可知 $B$ 是 $A$ 的必要条件. 对原蕴含关系取逆否命题，得到 $\\overline{B}\\Rightarrow\\overline{A}$，这正表示 $\\overline{A}$ 是 $\\overline{B}$ 的必要条件. 因而两个空均填“必要”."
+          "solution": "“$A$ 是 $B$ 的充分条件”表示 $A\\Rightarrow B$. 按定义，命题 $C$ 是命题 $D$ 的必要条件，表示 $D\\Rightarrow C$，所以由 $A\\Rightarrow B$ 可知 $B$ 是 $A$ 的必要条件. 对原蕴含关系取逆否命题，得到 $\\overline{B}\\Rightarrow\\overline{A}$，这正表示 $\\overline{A}$ 是 $\\overline{B}$ 的必要条件. 因而两个空均填“必要”.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，已知圆柱的底面半径是 $3$，高是 $4$，$A$，$B$ 两点分别在两底面的圆周上，并且 $AB = 5$，那么直线 $AB$ 与轴 $OO'$ 之间的距离等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{3\\sqrt{3}}{2}$",
-          "solution": "<p>把 $A$，$B$ 沿轴方向投影到同一个水平面，记所得点为 $A_{0}$，$B_{0}$，并记轴 $OO'$ 在该水平面上的投影点为 $O_{0}$. 则 $O_{0}A_{0}=O_{0}B_{0}=3$. 由于两底面间的高为 $4$，有</p>\n$$\nA_{0}B_{0}^{2}=AB^{2}-4^{2}=5^{2}-4^{2}=9\n$$\n<p>所以 $A_{0}B_{0}=3$. 设直线 $AB$ 上一点的高度参数为 $s$，其水平投影为 $A_{0}+s\\overrightarrow{A_0B_0}$. 与该点等高的轴上点可以取为同一高度的点，因此该点到轴的距离等于其水平投影到 $O_{0}$ 的距离；取所有 $s$ 的最小值，直线 $AB$ 与轴的距离就是直线 $A_{0}B_{0}$ 到 $O_{0}$ 的距离. 在等腰三角形 $O_{0}A_{0}B_{0}$ 中，腰长为 $3$，底边长为 $3$，从 $O_{0}$ 到直线 $A_{0}B_{0}$ 的距离为</p>\n$$\n\\sqrt{3^{2}-\\left(\\frac{3}{2}\\right)^{2}}=\\frac{3\\sqrt{3}}{2}\n$$\n<p>所以所求距离为 $\\frac{3\\sqrt{3}}{2}$.</p>"
+          "body": "<p>如图，已知圆柱的底面半径是 $3$，高是 $4$，$A$，$B$ 两点分别在两底面的圆周上，并且 $AB = 5$，那么直线 $AB$ 与轴 $OO'$ 之间的距离等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1989/img/national_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{3\\sqrt{3}}{2}\\)",
+          "solution": "<p>把 $A$，$B$ 沿轴方向投影到同一个水平面，记所得点为 $A_{0}$，$B_{0}$，并记轴 $OO'$ 在该水平面上的投影点为 $O_{0}$. 则 $O_{0}A_{0}=O_{0}B_{0}=3$. 由于两底面间的高为 $4$，有</p>\n$$\nA_{0}B_{0}^{2}=AB^{2}-4^{2}=5^{2}-4^{2}=9\n$$\n<p>所以 $A_{0}B_{0}=3$. 设直线 $AB$ 上一点的高度参数为 $s$，其水平投影为 $A_{0}+s\\overrightarrow{A_0B_0}$. 与该点等高的轴上点可以取为同一高度的点，因此该点到轴的距离等于其水平投影到 $O_{0}$ 的距离；取所有 $s$ 的最小值，直线 $AB$ 与轴的距离就是直线 $A_{0}B_{0}$ 到 $O_{0}$ 的距离. 在等腰三角形 $O_{0}A_{0}B_{0}$ 中，腰长为 $3$，底边长为 $3$，从 $O_{0}$ 到直线 $A_{0}B_{0}$ 的距离为</p>\n$$\n\\sqrt{3^{2}-\\left(\\frac{3}{2}\\right)^{2}}=\\frac{3\\sqrt{3}}{2}\n$$\n<p>所以所求距离为 $\\frac{3\\sqrt{3}}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -206,44 +389,56 @@
         {
           "num": 19,
           "body": "证明：$\\tan \\frac{3x}{2}- \\tan \\frac{x}{2}= \\frac{2\\sin x}{\\cos x + \\cos 2x}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>当且仅当 $\\cos\\frac{3x}{2}\\neq0$ 且 $\\cos\\frac{x}{2}\\neq0$ 时，左边有意义. 在此条件下</p>\n$$\n\\cos\\frac{3x}{2}\\cos\\frac{x}{2}=\\frac{1}{2}\\left(\\cos 2x+\\cos x\\right)\\neq0\n$$\n<p>所以右边也有意义. 利用正切差角公式和积化和差公式，有</p>\n$$\n\\tan \\frac{3x}{2}- \\tan \\frac{x}{2}= \\frac{\\sin\\left(\\frac{3x}{2}-\\frac{x}{2}\\right)}{\\cos\\frac{3x}{2}\\cos\\frac{x}{2}}= \\frac{\\sin x}{\\dfrac{1}{2}\\left(\\cos 2x+\\cos x\\right)}= \\frac{2\\sin x}{\\cos x+\\cos 2x}\n$$\n<p>这就证明了等式在其定义域内成立.</p>"
+          "solution": "<p>当且仅当 $\\cos\\frac{3x}{2}\\neq0$ 且 $\\cos\\frac{x}{2}\\neq0$ 时，左边有意义. 在此条件下</p>\n$$\n\\cos\\frac{3x}{2}\\cos\\frac{x}{2}=\\frac{1}{2}\\left(\\cos 2x+\\cos x\\right)\\neq0\n$$\n<p>所以右边也有意义. 利用正切差角公式和积化和差公式，有</p>\n$$\n\\tan \\frac{3x}{2}- \\tan \\frac{x}{2}= \\frac{\\sin\\left(\\frac{3x}{2}-\\frac{x}{2}\\right)}{\\cos\\frac{3x}{2}\\cos\\frac{x}{2}}= \\frac{\\sin x}{\\dfrac{1}{2}\\left(\\cos 2x+\\cos x\\right)}= \\frac{2\\sin x}{\\cos x+\\cos 2x}\n$$\n<p>这就证明了等式在其定义域内成立.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，在平行六面体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，已知 $AB = 5$，$AD = 4$，$AA_{1} = 3$，$AB \\perp AD$，$\\angle A_{1}AB = \\angle A_{1}AD = \\frac{\\pi}{3}$.</p><ol class=\"enumerate\"><li><p>求证：顶点 $A_{1}$ 在底面 $ABCD$ 的射影 $O$ 在 $\\angle BAD$ 的平分线上；</p></li><li><p>求这个平行六面体的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在平行六面体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，已知 $AB = 5$，$AD = 4$，$AA_{1} = 3$，$AB \\perp AD$，$\\angle A_{1}AB = \\angle A_{1}AD = \\frac{\\pi}{3}$.</p><ol class=\"enumerate\"><li><p>求证：顶点 $A_{1}$ 在底面 $ABCD$ 的射影 $O$ 在 $\\angle BAD$ 的平分线上；</p></li><li><p>求这个平行六面体的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1989/img/national_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $O$ 为 $A_{1}$ 在底面 $ABCD$ 上的射影. 由于 $AB\\perp AD$，把 $AO$ 在 $AB$、$AD$ 两个方向上的分量分别记为 $u$、$v$. 因为 $A_{1}O\\perp$ 底面，$AA_{1}$ 在底面内的正投影就是 $AO$，所以</p><p>$u=AA_{1}\\cos\\angle A_{1}AB=3\\cos\\frac{\\pi}{3}=\\frac{3}{2}$，$v=AA_{1}\\cos\\angle A_{1}AD=3\\cos\\frac{\\pi}{3}=\\frac{3}{2}$.</p><p>又有 $0<u=\\frac{3}{2}<5=AB$，$0<v=\\frac{3}{2}<4=AD$，故 $O$ 位于直角 $\\angle BAD$ 的内部. 在直角中，内部角平分线上的点到两条直角边的分量相等；这里 $u=v$，所以 $O$ 在 $\\angle BAD$ 的平分线上.</p></li><li><p>因为 $AB\\perp AD$，由勾股定理</p>\n$$\nAO^{2}=u^{2}+v^{2}=\\frac{9}{2}\n$$\n<p>又因为 $A_{1}O\\perp$ 底面而 $AO$ 在底面内，三角形 $AA_{1}O$ 在 $O$ 处为直角，所以</p><p>$A_{1}O^{2}=AA_{1}^{2}-AO^{2}=9-\\frac{9}{2}=\\frac{9}{2}$，$A_{1}O=\\frac{3}{\\sqrt{2}}$.</p><p>底面 $ABCD$ 是矩形，面积为 $AB\\cdot AD=5\\times4=20$，且 $A_{1}O$ 是平行六面体到底面 $ABCD$ 的高，故体积为</p>\n$$\nV=20\\times\\frac{3}{\\sqrt{2}}=30\\sqrt{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $O$ 为 $A_{1}$ 在底面 $ABCD$ 上的射影. 由于 $AB\\perp AD$，把 $AO$ 在 $AB$、$AD$ 两个方向上的分量分别记为 $u$、$v$. 因为 $A_{1}O\\perp$ 底面，$AA_{1}$ 在底面内的正投影就是 $AO$，所以</p><p>$u=AA_{1}\\cos\\angle A_{1}AB=3\\cos\\frac{\\pi}{3}=\\frac{3}{2}$，$v=AA_{1}\\cos\\angle A_{1}AD=3\\cos\\frac{\\pi}{3}=\\frac{3}{2}$.</p><p>又有 $0<u=\\frac{3}{2}<5=AB$，$0<v=\\frac{3}{2}<4=AD$，故 $O$ 位于直角 $\\angle BAD$ 的内部. 在直角中，内部角平分线上的点到两条直角边的分量相等；这里 $u=v$，所以 $O$ 在 $\\angle BAD$ 的平分线上.</p></li><li><p>因为 $AB\\perp AD$，由勾股定理</p>\n$$\nAO^{2}=u^{2}+v^{2}=\\frac{9}{2}\n$$\n<p>又因为 $A_{1}O\\perp$ 底面而 $AO$ 在底面内，三角形 $AA_{1}O$ 在 $O$ 处为直角，所以</p><p>$A_{1}O^{2}=AA_{1}^{2}-AO^{2}=9-\\frac{9}{2}=\\frac{9}{2}$，$A_{1}O=\\frac{3}{\\sqrt{2}}$.</p><p>底面 $ABCD$ 是矩形，面积为 $AB\\cdot AD=5\\times4=20$，且 $A_{1}O$ 是平行六面体到底面 $ABCD$ 的高，故体积为</p>\n$$\nV=20\\times\\frac{3}{\\sqrt{2}}=30\\sqrt{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "自点 $A(-3,3)$ 发出的光线 $L$ 射到 $x$ 轴上，被 $x$ 轴反射，其反射光线所在直线与圆 $x^{2} + y^{2} - 4x - 4y + 7 = 0$ 相切，求光线 $L$ 所在直线的方程.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将点 $A(-3,3)$ 关于 $x$ 轴对称，得到 $A'(-3,-3)$. 反射定律可用对称变换表示：反射光线所在直线关于 $x$ 轴反射后，必须经过 $A'$，并且仍与给定圆相切. 先将圆的方程配方：</p>\n$$\n(x-2)^{2}+(y-2)^{2}=1\n$$\n<p>所以圆心为 $C(2,2)$，半径为 $1$.</p><p>过 $A'$ 的竖直直线为 $x=-3$，它到圆心的距离为 $5\\neq1$，不是切线. 因此其余切线可设斜率为 $m$，方程为 $y+3=m(x+3)$，即 $mx-y+3m-3=0$. 切线的充要条件是圆心到直线的距离等于半径，故</p>\n$$\n\\frac{|2m-2+3m-3|}{\\sqrt{m^{2}+1}}=1\n$$\n<p>平方并整理，得 $25(m-1)^{2}=m^{2}+1$，即</p>\n$$\n12m^{2}-25m+12=0\n$$\n<p>其判别式为 $625-576=49$，所以</p>\n$$\nm=\\frac{4}{3} \\text{或}  m=\\frac{3}{4}\n$$\n<p>令候选反射光线与 $x$ 轴的交点为 $Q$. 令 $y=0$，由 $y+3=m(x+3)$ 得</p>\n$$\nQ=\\left(\\frac{3}{m}-3,0\\right)\n$$\n<p>当 $m=\\frac{4}{3}$ 和 $m=\\frac{3}{4}$ 时，分别有 $Q=\\left(-\\frac{3}{4},0\\right)$ 和 $Q=(1,0)$，两点的横坐标都大于 $-3$，所以入射光线可以从 $A$ 射到 $Q$. 还需确认从 $Q$ 出发的射线确实朝向切点. 对直线 $mx-y+3m-3=0$，圆心 $C$ 到该直线的垂足为</p>\n$$\nT=C-\\frac{5(m-1)}{m^{2}+1}(m,-1)\n$$\n<p>代入两种斜率，得切点分别为 $T=\\left(\\frac{6}{5},\\frac{13}{5}\\right)$ 和 $T=\\left(\\frac{13}{5},\\frac{6}{5}\\right)$. 两个切点的横坐标都大于相应 $Q$ 的横坐标，且纵坐标为正，所以它们都位于从 $Q$ 沿斜率 $m$ 的正向射线上，两个候选都符合光线方向. 关于 $x$ 轴反射回去后，原光线所在直线经过 $A(-3,3)$，斜率分别为 $-\\frac{4}{3}$、$-\\frac{3}{4}$. 因此</p>\n$$\ny-3=-\\frac{4}{3}(x+3) \\text{或}  y-3=-\\frac{3}{4}(x+3)\n$$\n<p>即所求直线方程为 $4x+3y+3=0$ 或 $3x+4y-3=0$.</p>"
+          "solution": "<p>将点 $A(-3,3)$ 关于 $x$ 轴对称，得到 $A'(-3,-3)$. 反射定律可用对称变换表示：反射光线所在直线关于 $x$ 轴反射后，必须经过 $A'$，并且仍与给定圆相切. 先将圆的方程配方：</p>\n$$\n(x-2)^{2}+(y-2)^{2}=1\n$$\n<p>所以圆心为 $C(2,2)$，半径为 $1$.</p><p>过 $A'$ 的竖直直线为 $x=-3$，它到圆心的距离为 $5\\neq1$，不是切线. 因此其余切线可设斜率为 $m$，方程为 $y+3=m(x+3)$，即 $mx-y+3m-3=0$. 切线的充要条件是圆心到直线的距离等于半径，故</p>\n$$\n\\frac{|2m-2+3m-3|}{\\sqrt{m^{2}+1}}=1\n$$\n<p>平方并整理，得 $25(m-1)^{2}=m^{2}+1$，即</p>\n$$\n12m^{2}-25m+12=0\n$$\n<p>其判别式为 $625-576=49$，所以</p>\n$$\nm=\\frac{4}{3} \\text{或}  m=\\frac{3}{4}\n$$\n<p>令候选反射光线与 $x$ 轴的交点为 $Q$. 令 $y=0$，由 $y+3=m(x+3)$ 得</p>\n$$\nQ=\\left(\\frac{3}{m}-3,0\\right)\n$$\n<p>当 $m=\\frac{4}{3}$ 和 $m=\\frac{3}{4}$ 时，分别有 $Q=\\left(-\\frac{3}{4},0\\right)$ 和 $Q=(1,0)$，两点的横坐标都大于 $-3$，所以入射光线可以从 $A$ 射到 $Q$. 还需确认从 $Q$ 出发的射线确实朝向切点. 对直线 $mx-y+3m-3=0$，圆心 $C$ 到该直线的垂足为</p>\n$$\nT=C-\\frac{5(m-1)}{m^{2}+1}(m,-1)\n$$\n<p>代入两种斜率，得切点分别为 $T=\\left(\\frac{6}{5},\\frac{13}{5}\\right)$ 和 $T=\\left(\\frac{13}{5},\\frac{6}{5}\\right)$. 两个切点的横坐标都大于相应 $Q$ 的横坐标，且纵坐标为正，所以它们都位于从 $Q$ 沿斜率 $m$ 的正向射线上，两个候选都符合光线方向. 关于 $x$ 轴反射回去后，原光线所在直线经过 $A(-3,3)$，斜率分别为 $-\\frac{4}{3}$、$-\\frac{3}{4}$. 因此</p>\n$$\ny-3=-\\frac{4}{3}(x+3) \\text{或}  y-3=-\\frac{3}{4}(x+3)\n$$\n<p>即所求直线方程为 $4x+3y+3=0$ 或 $3x+4y-3=0$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "已知 $a > 0$，$a \\neq 1$，试求使方程 $\\log_{a}(x - ak) = \\log_{a^2}(x^{2} - a^{2})$ 有解的 $k$ 的取值范围.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由对数的定义域，必须有</p><p>$x-ak>0$，$x^{2}-a^{2}>0$.</p><p>又因为 $a>0$ 且 $a\\neq1$，所以 $a^{2}>0$ 且 $a^{2}\\neq1$，两个对数的底均合法，并且</p>\n$$\n\\log_{a^2}(x^{2}-a^{2})=\\frac{1}{2}\\log_{a}(x^{2}-a^{2})=\\log_{a}\\sqrt{x^{2}-a^{2}}\n$$\n<p>由于 $\\log_{a} x$ 在正数范围内是一一对应的，原方程等价于</p>\n$$\nx-ak=\\sqrt{x^{2}-a^{2}}\n$$\n<p>右边为正，且左边由定义域也为正，所以平方是等价变形，得</p>\n$$\n(x-ak)^{2}=x^{2}-a^{2}\n$$\n<p>从而 $2akx=a^{2}(k^{2}+1)$. 当 $k=0$ 时该等式变为 $0=a^{2}$，不可能；当 $k\\neq0$ 时，解得</p><p>$x=\\frac{a(k^{2}+1)}{2k}$，$x-ak=\\frac{a(1-k^{2})}{2k}$.</p><p>要使 $x-ak>0$，由于 $a>0$，必须有</p>\n$$\n\\frac{1-k^{2}}{k}>0\n$$\n<p>即 $k<-1$ 或 $0<k<1$. 对这些 $k$，上式给出的 $x-ak$ 为正，且由平方等式有 $x^{2}-a^{2}=(x-ak)^{2}>0$，所以两个定义域条件同时满足. 因此 $k$ 的取值范围为</p>\n$$\nk\\in(-\\infty,-1)\\cup(0,1)\n$$"
+          "solution": "<p>由对数的定义域，必须有</p><p>$x-ak>0$，$x^{2}-a^{2}>0$.</p><p>又因为 $a>0$ 且 $a\\neq1$，所以 $a^{2}>0$ 且 $a^{2}\\neq1$，两个对数的底均合法，并且</p>\n$$\n\\log_{a^2}(x^{2}-a^{2})=\\frac{1}{2}\\log_{a}(x^{2}-a^{2})=\\log_{a}\\sqrt{x^{2}-a^{2}}\n$$\n<p>由于 $\\log_{a} x$ 在正数范围内是一一对应的，原方程等价于</p>\n$$\nx-ak=\\sqrt{x^{2}-a^{2}}\n$$\n<p>右边为正，且左边由定义域也为正，所以平方是等价变形，得</p>\n$$\n(x-ak)^{2}=x^{2}-a^{2}\n$$\n<p>从而 $2akx=a^{2}(k^{2}+1)$. 当 $k=0$ 时该等式变为 $0=a^{2}$，不可能；当 $k\\neq0$ 时，解得</p><p>$x=\\frac{a(k^{2}+1)}{2k}$，$x-ak=\\frac{a(1-k^{2})}{2k}$.</p><p>要使 $x-ak>0$，由于 $a>0$，必须有</p>\n$$\n\\frac{1-k^{2}}{k}>0\n$$\n<p>即 $k<-1$ 或 $0<k<1$. 对这些 $k$，上式给出的 $x-ak$ 为正，且由平方等式有 $x^{2}-a^{2}=(x-ak)^{2}>0$，所以两个定义域条件同时满足. 因此 $k$ 的取值范围为</p>\n$$\nk\\in(-\\infty,-1)\\cup(0,1)\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "是否存在常数 $a$，$b$，$c$ 使得等式 $1 \\cdot 2^{2} + 2 \\cdot 3^{2} + \\cdots + n(n + 1)^{2} = \\frac{n(n + 1)}{12}(an^{2} + bn + c)$ 对一切自然数 $n$ 都成立？并证明你的结论.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将左端逐项展开：</p>\n$$\n\\sum_{j=1}^{n}j(j+1)^{2}=\\sum_{j=1}^{n}(j^{3}+2j^{2}+j)\n$$\n<p>由幂和公式</p><p>$\\sum_{j=1}^{n}j^{3}=\\left(\\frac{n(n+1)}{2}\\right)^{2}$，$\\sum_{j=1}^{n}j^{2}=\\frac{n(n+1)(2n+1)}{6}$，$\\sum_{j=1}^{n}j=\\frac{n(n+1)}{2}$，</p><p>所以</p>\n$$\n\\sum_{j=1}^{n}j(j+1)^{2}=\\left(\\frac{n(n+1)}{2}\\right)^{2}+2\\cdot\\frac{n(n+1)(2n+1)}{6}+\\frac{n(n+1)}{2}\n$$\n<p>提取公因式 $\\frac{n(n+1)}{12}$，得到</p>\n$$\n\\sum_{j=1}^{n}j(j+1)^{2}=\\frac{n(n+1)}{12}\\left(3n(n+1)+4(2n+1)+6\\right)\n$$\n<p>括号内展开为</p>\n$$\n3n(n+1)+4(2n+1)+6=3n^{2}+11n+10\n$$\n<p>于是</p>\n$$\n\\sum_{j=1}^{n}j(j+1)^{2}=\\frac{n(n+1)}{12}\\left(3n^{2}+11n+10\\right)\n$$\n<p>因此取</p><p>$a=3$，$b=11$，$c=10$.</p><p>这组常数确实使原等式对每个自然数 $n$ 成立. 反过来，若另有常数 $a$，$b$，$c$ 使原等式对一切自然数成立，则对所有正整数 $n$ 都成立. 因为 $n(n+1)\\neq0$，可约去 $\\frac{n(n+1)}{12}$，得到</p>\n$$\nan^{2}+bn+c=3n^{2}+11n+10\n$$\n<p>对所有正整数 $n$ 成立，即</p>\n$$\n(a-3)n^{2}+(b-11)n+(c-10)=0\n$$\n<p>对所有正整数 $n$ 成立. 左边是次数不超过 $2$ 的多项式，却有无穷多个根，只能是零多项式，所以</p><p>$a=3$，$b=11$，$c=10$.</p><p>所以存在这样的常数，且唯一为 $a=3$，$b=11$，$c=10$.</p>"
+          "solution": "<p>将左端逐项展开：</p>\n$$\n\\sum_{j=1}^{n}j(j+1)^{2}=\\sum_{j=1}^{n}(j^{3}+2j^{2}+j)\n$$\n<p>由幂和公式</p><p>$\\sum_{j=1}^{n}j^{3}=\\left(\\frac{n(n+1)}{2}\\right)^{2}$，$\\sum_{j=1}^{n}j^{2}=\\frac{n(n+1)(2n+1)}{6}$，$\\sum_{j=1}^{n}j=\\frac{n(n+1)}{2}$，</p><p>所以</p>\n$$\n\\sum_{j=1}^{n}j(j+1)^{2}=\\left(\\frac{n(n+1)}{2}\\right)^{2}+2\\cdot\\frac{n(n+1)(2n+1)}{6}+\\frac{n(n+1)}{2}\n$$\n<p>提取公因式 $\\frac{n(n+1)}{12}$，得到</p>\n$$\n\\sum_{j=1}^{n}j(j+1)^{2}=\\frac{n(n+1)}{12}\\left(3n(n+1)+4(2n+1)+6\\right)\n$$\n<p>括号内展开为</p>\n$$\n3n(n+1)+4(2n+1)+6=3n^{2}+11n+10\n$$\n<p>于是</p>\n$$\n\\sum_{j=1}^{n}j(j+1)^{2}=\\frac{n(n+1)}{12}\\left(3n^{2}+11n+10\\right)\n$$\n<p>因此取</p><p>$a=3$，$b=11$，$c=10$.</p><p>这组常数确实使原等式对每个自然数 $n$ 成立. 反过来，若另有常数 $a$，$b$，$c$ 使原等式对一切自然数成立，则对所有正整数 $n$ 都成立. 因为 $n(n+1)\\neq0$，可约去 $\\frac{n(n+1)}{12}$，得到</p>\n$$\nan^{2}+bn+c=3n^{2}+11n+10\n$$\n<p>对所有正整数 $n$ 成立，即</p>\n$$\n(a-3)n^{2}+(b-11)n+(c-10)=0\n$$\n<p>对所有正整数 $n$ 成立. 左边是次数不超过 $2$ 的多项式，却有无穷多个根，只能是零多项式，所以</p><p>$a=3$，$b=11$，$c=10$.</p><p>所以存在这样的常数，且唯一为 $a=3$，$b=11$，$c=10$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 24,
           "body": "<p>设 $f(x)$ 是定义在区间 $(-\\infty, +\\infty)$ 上以 $2$ 为周期的函数，对 $k \\in \\mathbb{Z}$，用 $I_{k}$ 表示区间 $(2k - 1, 2k + 1]$，已知当 $x \\in I_{0}$ 时，$f(x) = x^{2}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 在 $I_{k}$ 上的解析表达式；</p></li><li><p>对自然数 $k$，求集合 $M_{k} = \\left\\{ a \\mid \\text{使方程 }f(x) = ax \\text{ 在 }I_{k} \\text{ 上有两个不等的实根}\\right\\}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x\\in I_{k}=(2k-1,2k+1]$ 时，减去 $2k$ 得 $x-2k\\in(-1,1]=I_{0}$. 由周期性 $f(x)=f(x-2k)$，再利用 $f(t)=t^{2}$（$t\\in I_{0}$），可得</p><p>$f(x)=(x-2k)^{2}$，$x\\in I_{k}$.</p></li><li><p>先按通常约定的正自然数 $k=1$，$2$，$\\ldots$ 讨论. 令 $t=x-2k$，则 $t\\in(-1,1]$，且 $x=2k+t>0$. 因而当 $a<0$ 时，方程左边 $t^{2}\\geqslant0$，右边 $a(2k+t)<0$，没有实根；当 $a=0$ 时方程化为 $t^{2}=0$，只有一个实根. 对 $a>0$，方程 $f(x)=ax$ 等价于</p>\n$$\nt^{2}=a(2k+t),\\qquad\\text{即}\\qquad a=h(t):=\\frac{t^{2}}{2k+t}\n$$\n<p>在 $(-1,1]$ 上分母 $2k+t\\geqslant2k-1>0$，并且</p>\n$$\nh'(t)=\\frac{t(4k+t)}{(2k+t)^{2}}\n$$\n<p>因为 $k\\geqslant1$，所以 $4k+t>0$，从而 $h(t)$ 在 $(-1,0)$ 上递减，在 $(0,1]$ 上递增. 并且</p><p>$\\lim_{t\\to-1^+}h(t)=\\frac{1}{2k-1}$，$h(0)=0$，$h(1)=\\frac{1}{2k+1}$.</p><p>因为 $t=-1$ 不在区间内而 $t=1$ 在区间内，负半段 $t\\in(-1,0)$ 给出值域 $\\left(0,\\frac{1}{2k-1}\\right)$，正半段 $t\\in(0,1]$ 给出值域 $\\left(0,\\frac{1}{2k+1}\\right]$. 对同一个 $a>0$，两个值域的交集分别在负、正两段各给出一个根，且两根不相等；反之，若 $a$ 不在交集中，就不可能在两段各有一个根. 因此方程有两个不等的实根，当且仅当</p>\n$$\n0<a\\le\\frac{1}{2k+1}\n$$\n<p>所以</p>\n$$\nM_{k}=\\left(0,\\frac{1}{2k+1}\\right]\n$$\n<p>若采用把 $0$ 也列入自然数的约定，则 $k=0$ 时 $I_{0}=(-1,1]$，方程为 $t^{2}=at$. 其根为 $t=0$ 和 $t=a$，当且仅当 $a\\in(-1,0)\\cup(0,1]$ 时两根都在 $I_{0}$ 且不相等，故此时另有 $M_{0}=(-1,0)\\cup(0,1]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x\\in I_{k}=(2k-1,2k+1]$ 时，减去 $2k$ 得 $x-2k\\in(-1,1]=I_{0}$. 由周期性 $f(x)=f(x-2k)$，再利用 $f(t)=t^{2}$（$t\\in I_{0}$），可得</p><p>$f(x)=(x-2k)^{2}$，$x\\in I_{k}$.</p></li><li><p>先按通常约定的正自然数 $k=1$，$2$，$\\ldots$ 讨论. 令 $t=x-2k$，则 $t\\in(-1,1]$，且 $x=2k+t>0$. 因而当 $a<0$ 时，方程左边 $t^{2}\\geqslant0$，右边 $a(2k+t)<0$，没有实根；当 $a=0$ 时方程化为 $t^{2}=0$，只有一个实根. 对 $a>0$，方程 $f(x)=ax$ 等价于</p>\n$$\nt^{2}=a(2k+t),\\qquad\\text{即}\\qquad a=h(t):=\\frac{t^{2}}{2k+t}\n$$\n<p>在 $(-1,1]$ 上分母 $2k+t\\geqslant2k-1>0$，并且</p>\n$$\nh'(t)=\\frac{t(4k+t)}{(2k+t)^{2}}\n$$\n<p>因为 $k\\geqslant1$，所以 $4k+t>0$，从而 $h(t)$ 在 $(-1,0)$ 上递减，在 $(0,1]$ 上递增. 并且</p><p>$\\lim_{t\\to-1^+}h(t)=\\frac{1}{2k-1}$，$h(0)=0$，$h(1)=\\frac{1}{2k+1}$.</p><p>因为 $t=-1$ 不在区间内而 $t=1$ 在区间内，负半段 $t\\in(-1,0)$ 给出值域 $\\left(0,\\frac{1}{2k-1}\\right)$，正半段 $t\\in(0,1]$ 给出值域 $\\left(0,\\frac{1}{2k+1}\\right]$. 对同一个 $a>0$，两个值域的交集分别在负、正两段各给出一个根，且两根不相等；反之，若 $a$ 不在交集中，就不可能在两段各有一个根. 因此方程有两个不等的实根，当且仅当</p>\n$$\n0<a\\le\\frac{1}{2k+1}\n$$\n<p>所以</p>\n$$\nM_{k}=\\left(0,\\frac{1}{2k+1}\\right]\n$$\n<p>若采用把 $0$ 也列入自然数的约定，则 $k=0$ 时 $I_{0}=(-1,1]$，方程为 $t^{2}=at$. 其根为 $t=0$ 和 $t=a$，当且仅当 $a\\in(-1,0)\\cup(0,1]$ 时两根都在 $I_{0}$ 且不相等，故此时另有 $M_{0}=(-1,0)\\cup(0,1]$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

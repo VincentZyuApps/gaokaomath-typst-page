@@ -37,7 +37,9 @@
 #problem(2)[
 如图，#mi(`AB`) 是 #mi(`\odot O`) 的直径，#mi(`AC`) 是 #mi(`\odot O`) 的切线，连接 #mi(`BC`) 与 #mi(`\odot O`) 相交于 #mi(`D`) 点，而且 #mi(`\angle ABC=45^{\circ}`). 求证 #mi(`BD=DC`).
 
-[max width=4.8cm]img/1977/qinghai/q2_fig1.png
+
+#align(center)[#image("/papers/1977/img/qinghai/q2_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -77,7 +79,9 @@
 #problem(3)[
 已知长方体 #mi(`ABCD-A'B'C'D'`) 的对角线 #mi(`AC'`) 与 #mi(`A'C`) 的夹角 #mi(`\angle AOC=120^{\circ}`)，底面边长 #mi(`AB=4\mathrm{~cm}`)，#mi(`BC=3\mathrm{~cm}`). 求此长方体的体积.
 
-[max width=5.8cm]img/1977/qinghai/q3_fig1.png
+
+#align(center)[#image("/papers/1977/img/qinghai/q3_fig1.png", width: 28%)]
+
 ]
 
 #solution[

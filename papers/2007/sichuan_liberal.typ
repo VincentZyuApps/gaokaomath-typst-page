@@ -31,7 +31,15 @@ M\cup N=\{3,4,5,6,7,8\}
 
 #problem(2)[
 函数 #mi(`f(x) = 1 + \log_{2} x`) 与 #mi(`g(x) = 2^{-x + 1}`) 在同一直角坐标系下的图象大致是（ ）
-  #choices([[width=0.15\paperwidth]img/2007/sichuan_liberal/q2_optA.png], [[width=0.15\paperwidth]img/2007/sichuan_liberal/q2_optB.png], [[width=0.15\paperwidth]img/2007/sichuan_liberal/q2_optC.png], [[width=0.15\paperwidth]img/2007/sichuan_liberal/q2_optD.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2007/img/sichuan_liberal/q2_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2007/img/sichuan_liberal/q2_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2007/img/sichuan_liberal/q2_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2007/img/sichuan_liberal/q2_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([C])
@@ -62,7 +70,9 @@ M\cup N=\{3,4,5,6,7,8\}
 #problem(4)[
 如图， #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 为正方体，下面结论错误的是（ ）
 
-[float=inline,max width=4.6cm]img/2007/sichuan_liberal/q4_fig1.png
+
+#align(center)[#image("/papers/2007/img/sichuan_liberal/q4_fig1.png", width: 28%)]
+
 
 \FloatBarrier
   #choices([#mi(`BD \parallel`) 平面 #mi(`CB_{1}D_{1}`)], [#mi(`AC_{1}\perp BD`)], [#mi(`AC_{1}\perp`) 平面 #mi(`CB_{1}D_{1}`)], [异面直线 #mi(`AD`) 与 #mi(`CB_{1}`) 角为 #mi(`60^{\circ}`)], cols: 1)
@@ -128,7 +138,9 @@ x^{2}-2\sqrt{6}x+6+\frac{x^{2}}{2}-2=4
 #problem(6)[
 设球 #mi(`O`) 的半径是 #mi(`1`)，#mi(`A`)，#mi(`B`)，#mi(`C`) 是球面上三点. 已知 #mi(`A`) 到 #mi(`B`)，#mi(`C`) 两点的球面距离都是 #mi(`\frac{\pi}{2}`)，且二面角 #mi(`B - OA - C`) 的大小为 #mi(`\frac{\pi}{3}`)，则从 #mi(`A`) 点沿球面经 #mi(`B`)，#mi(`C`) 两点再回到 #mi(`A`) 点的最短距离是（ ）
 
-[max width=6.0cm]img/2007/sichuan_liberal/q6_fig1.png
+
+#align(center)[#image("/papers/2007/img/sichuan_liberal/q6_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{7\pi}{6}`)], [#mi(`\frac{5\pi}{4}`)], [#mi(`\frac{4\pi}{3}`)], [#mi(`\frac{3\pi}{2}`)], cols: 2)
 ]
 
@@ -304,7 +316,9 @@ t^{4}-6t^{2}-t+6=(t-1)(t+2)(t^{2}-t-3)=0
 #problem(12)[
 如图，#mi(`l_{1}`)，#mi(`l_{2}`)，#mi(`l_{3}`) 是同一平面内的三条平行直线，#mi(`l_{1}`) 与 #mi(`l_{2}`) 间的距离是 #mi(`1`)，#mi(`l_{2}`) 与 #mi(`l_{3}`) 间的距离是 #mi(`2`)，正三角形 #mi(`ABC`) 的三顶点分别在 #mi(`l_{1}`)，#mi(`l_{2}`)，#mi(`l_{3}`) 上，则 #mi(`\triangle ABC`) 的边长是（ ）
 
-[max width=0.54\linewidth]img/2007/sichuan_liberal/q12_fig1.png
+
+#align(center)[#image("/papers/2007/img/sichuan_liberal/q12_fig1.png", width: 28%)]
+
   #choices([#mi(`2\sqrt{3}`)], [#mi(`\frac{4\sqrt{6}}{3}`)], [#mi(`\frac{3 - \sqrt{7}}{4}`)], [#mi(`\frac{2 - \sqrt{21}}{3}`)], cols: 2)
 ]
 
@@ -399,7 +413,9 @@ n-8=0
 #problem(14)[
 如图，在正三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中，侧棱长为 #mi(`\sqrt{2}`)，底面三角形的边长为 1，则 #mi(`BC_{1}`) 与侧面 #mi(`ACC_{1}A_{1}`) 所成的角是\underline{\hspace{2.5em}}.
 
-[max width=6.0cm]img/2007/sichuan_liberal/q14_fig1.png
+
+#align(center)[#image("/papers/2007/img/sichuan_liberal/q14_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`\dfrac{\pi}{6}`)])
@@ -556,7 +572,9 @@ y=3\sin\left(2\left(x-\frac{\pi}{6}\right)+\frac{\pi}{3}\right)=3\sin2x
 
 
 
-[max width=6.0cm]img/2007/sichuan_liberal/q19_fig1.png
+
+#align(center)[#image("/papers/2007/img/sichuan_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

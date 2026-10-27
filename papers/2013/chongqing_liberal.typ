@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,491 +11,532 @@
 #part-header("单选题")
 
 #problem(1)[
-已知全集 $U = \{1, 2, 3, 4\}$，集合 $A = \{1, 2\}$，$B = \{2, 3\}$，则 $\c o m p l e m e n t_U (A union B) =$（ ）
+已知全集 #mi(`U = \{1, 2, 3, 4\}`)，集合 #mi(`A = \{1, 2\}`)，#mi(`B = \{2, 3\}`)，则 #mi(`\complement_{U} (A \cup B) =`)（ ）
 
 D
+
 先求并集：
 
-$ A union B=\{1,2\} union \{2,3\}=\{1,2,3\} $
+
+#align(center)[#mitex(`
+A\cup B=\{1,2\}\cup\{2,3\}=\{1,2,3\}
+`)]
+
 
 补集中的元素属于全集而不属于这个并集，因此
 
-$ \c o m p l e m e n t_U(A union B)=\{4\} $
+
+#align(center)[#mitex(`
+\complement_{U}(A\cup B)=\{4\}
+`)]
+
 
 所以选 D.
-  #choices([$\{1,3,4\}$], [$\{3,4\}$], [$\{3\}$], [$\{4\}$], cols: 4)
+  #choices([#mi(`\{1,3,4\}`)], [#mi(`\{3,4\}`)], [#mi(`\{3\}`)], [#mi(`\{4\}`)], cols: 2)
 ]
 
 #problem(2)[
-命题“对任意 $x in RR$，都有 $x^2 >= 0$”的否定为（ ）
+命题“对任意 #mi(`x \in \mathbb{R}`)，都有 #mi(`x^{2} \ge 0`)”的否定为（ ）
 
 A
-全称命题“对任意实数 $x$，都有 $x^2 >= 0$”的否定是把“任意”改为“存在”，并把不等号改为严格相反的不等号，即
-存在 $x_0 in RR$，使得 $x_0^2<0$.
+
+全称命题“对任意实数 #mi(`x`)，都有 #mi(`x^{2}\geqslant0`)”的否定是把“任意”改为“存在”，并把不等号改为严格相反的不等号，即
+
+存在 #mi(`x_{0}\in\mathbb{R}`)，使得 #mi(`x_{0}^{2}<0`).
+
 这正是选项 A.
-  #choices([存在 $x_0 in RR$，使得 $x_0^2 < 0$], [不存在 $x in RR$，使得 $x^2 < 0$], [存在 $x_0 in RR$，使得 $x_0^2 >= 0$], [对任意 $x in RR$，都有 $x^2 < 0$], cols: 2)
+  #choices([存在 #mi(`x_{0} \in \mathbb{R}`)，使得 #mi(`x_{0}^{2} < 0`)], [不存在 #mi(`x \in \mathbb{R}`)，使得 #mi(`x^{2} < 0`)], [存在 #mi(`x_{0} \in \mathbb{R}`)，使得 #mi(`x_{0}^{2} \ge 0`)], [对任意 #mi(`x \in \mathbb{R}`)，都有 #mi(`x^{2} < 0`)], cols: 1)
 ]
 
 #problem(3)[
-函数 $y = (1)/(log _2(x - 2))$ 的定义域是（ ）
+函数 #mi(`y = \frac{1}{\log_{2}(x - 2)}`) 的定义域是（ ）
 
 C
-对数的真数必须为正，且分母不能为零，所以
-$x-2>0$，$log _2(x-2)\n e q0$.
-第一条件给出 $x>2$，第二条件给出 $x-2\n e q1$，即 $x\n e q3$. 因此定义域为
 
-$ (2,3) union (3,+ oo ) $
+对数的真数必须为正，且分母不能为零，所以
+
+#mi(`x-2>0`)，#mi(`\log_{2}(x-2)\neq0`).
+
+第一条件给出 #mi(`x>2`)，第二条件给出 #mi(`x-2\neq1`)，即 #mi(`x\neq3`). 因此定义域为
+
+
+#align(center)[#mitex(`
+(2,3)\cup(3,+\infty)
+`)]
+
 
 选 C.
-  #choices([$(- oo , 2)$], [$(2, + oo )$], [$(2,3) union (3, + oo )$], [$(2,4) union (4, + oo )$], cols: 2)
+  #choices([#mi(`(-\infty, 2)`)], [#mi(`(2, +\infty)`)], [#mi(`(2,3)\cup (3, + \infty)`)], [#mi(`(2,4)\cup (4, + \infty)`)], cols: 2)
 ]
 
 #problem(4)[
-设 $P$ 是圆 $(x - 3)^2 + (y + 1)^2 = 4$ 上的动点，$Q$ 是直线 $x = -3$ 上的动点，则 $|P Q|$ 的最小值为（ ）
+设 #mi(`P`) 是圆 #mi(`(x - 3)^{2} + (y + 1)^{2} = 4`) 上的动点，#mi(`Q`) 是直线 #mi(`x = -3`) 上的动点，则 #mi(`|PQ|`) 的最小值为（ ）
 
 B
-圆心为 $C(3,-1)$，半径为 $2$. 圆心到直线 $x=-3$ 的距离为
 
-$ |3-(-3)|=6 $
+圆心为 #mi(`C(3,-1)`)，半径为 #mi(`2`). 圆心到直线 #mi(`x=-3`) 的距离为
 
-点 $P$ 在圆上运动时，到该直线的最小距离等于圆心到直线的距离减去半径，即
 
-$ 6-2=4 $
+#align(center)[#mitex(`
+|3-(-3)|=6
+`)]
 
-取圆心与直线同侧且沿水平半径的圆上点即可达到该距离，所以最小值为 $4$，选 B.
-  #choices([$6$], [$4$], [$3$], [$2$], cols: 4)
+
+点 #mi(`P`) 在圆上运动时，到该直线的最小距离等于圆心到直线的距离减去半径，即
+
+
+#align(center)[#mitex(`
+6-2=4
+`)]
+
+
+取圆心与直线同侧且沿水平半径的圆上点即可达到该距离，所以最小值为 #mi(`4`)，选 B.
+  #choices([#mi(`6`)], [#mi(`4`)], [#mi(`3`)], [#mi(`2`)], cols: 4)
 ]
 
 #problem(5)[
-执行如图所示的程序框图，则输出的 $k$ 的值是（ ）
+执行如图所示的程序框图，则输出的 #mi(`k`) 的值是（ ）
 
-\texfigure[max width=0.42\linewidth]{img_repaint/2013/chongqing_liberal/q5_fig1.tex}
+\texfigure[max width=0.42\linewidth]img_repaint/2013/chongqing_liberal/q5_fig1.tex
 
 C
-程序开始时 $k=1$，$s=1$. 每次先执行
 
-$ s\l e f t a r r o w s+(k-1)^2 $
+程序开始时 #mi(`k=1`)，#mi(`s=1`). 每次先执行
 
-再判断 $s>15$；若否，则令 $k\l e f t a r r o w k+1$ 后继续循环. 因此各次判断前的 $s$ 依次为
-$1$，$2$，$6$，$15$，$31$.
-前四次均不满足 $s>15$，第五次满足，且此时 $k=5$. 所以输出 $k=5$，选 C.
-  #choices([$3$], [$4$], [$5$], [$6$], cols: 4)
+
+#align(center)[#mitex(`
+s\leftarrow s+(k-1)^{2}
+`)]
+
+
+再判断 #mi(`s>15`)；若否，则令 #mi(`k\leftarrow k+1`) 后继续循环. 因此各次判断前的 #mi(`s`) 依次为
+
+#mi(`1`)，#mi(`2`)，#mi(`6`)，#mi(`15`)，#mi(`31`).
+
+前四次均不满足 #mi(`s>15`)，第五次满足，且此时 #mi(`k=5`). 所以输出 #mi(`k=5`)，选 C.
+  #choices([#mi(`3`)], [#mi(`4`)], [#mi(`5`)], [#mi(`6`)], cols: 4)
 ]
 
 #problem(6)[
-如图是某公司 $10" 个"$销售店某月销售某产品数量（单位：台）的茎叶图，则数据落在区间 $[22,30)$ 内的频率为（ ）
+如图是某公司 #mi(`10\text{ \text{个}}`) 销售店某月销售某产品数量（单位：台）的茎叶图，则数据落在区间 #mi(`[22,30)`) 内的频率为（ ）
 
-\begin{center}
-\begin{tabular}{c|l}
-1 & $8\;9$ \\
-2 & $1\;2\;2\;7\;9$ \\
-3 & $0\;0\;3$
-\end{tabular}
-\end{center}
+1 & #mi(`8\;9`) \\
+
+2 & #mi(`1\;2\;2\;7\;9`) \\
+
+3 & #mi(`0\;0\;3`)
 
 B
-由茎叶图，10 个数据为
-$18$，$19$，$21$，$22$，$22$，$27$，$29$，$30$，$30$，$33$.
-区间 $[22,30)$ 包含 $22$，$22$，$27$，$29$，共 $4$ 个数据；$30$ 不属于该区间. 因此频率为
 
-$ (4)/(10)=0.4 $
+由茎叶图，10 个数据为
+
+#mi(`18`)，#mi(`19`)，#mi(`21`)，#mi(`22`)，#mi(`22`)，#mi(`27`)，#mi(`29`)，#mi(`30`)，#mi(`30`)，#mi(`33`).
+
+区间 #mi(`[22,30)`) 包含 #mi(`22`)，#mi(`22`)，#mi(`27`)，#mi(`29`)，共 #mi(`4`) 个数据；#mi(`30`) 不属于该区间. 因此频率为
+
+
+#align(center)[#mitex(`
+\frac{4}{10}=0.4
+`)]
+
 
 所以选 B.
-  #choices([$0.2$], [$0.4$], [$0.5$], [$0.6$], cols: 4)
+  #choices([#mi(`0.2`)], [#mi(`0.4`)], [#mi(`0.5`)], [#mi(`0.6`)], cols: 4)
 ]
 
 #problem(7)[
-关于 $x$ 的不等式 $x^(2) - 2 a x - 8 a^(2) < 0$ （$a > 0$）的解集为 $(x_(1), x_(2))$，且 $x_(2) - x_(1) = 15$，则 $a =$（ ）
+关于 #mi(`x`) 的不等式 #mi(`x^{2}- 2ax - 8a^{2}< 0`) （#mi(`a > 0`)）的解集为 #mi(`(x_{1}, x_{2})`)，且 #mi(`x_{2}- x_{1}= 15`)，则 #mi(`a =`)（ ）
 
 A
-因 $a>0$，不等式左侧可因式分解为
 
-$ x^2-2 a x-8 a^2=(x-4 a)(x+2 a) $
+因 #mi(`a>0`)，不等式左侧可因式分解为
 
-故解集为 $(-2 a,4 a)$，从而
 
-$ x_2-x_1=4 a-(-2 a)=6 a=15 $
+#align(center)[#mitex(`
+x^{2}-2ax-8a^{2}=(x-4a)(x+2a)
+`)]
 
-解得 $a=(5)/(2)$，选 A.
-  #choices([$(5)/(2)$], [$(7)/(2)$], [$(15)/(4)$], [$(15)/(2)$], cols: 4)
+
+故解集为 #mi(`(-2a,4a)`)，从而
+
+
+#align(center)[#mitex(`
+x_{2}-x_{1}=4a-(-2a)=6a=15
+`)]
+
+
+解得 #mi(`a=\frac{5}{2}`)，选 A.
+  #choices([#mi(`\frac{5}{2}`)], [#mi(`\frac{7}{2}`)], [#mi(`\frac{15}{4}`)], [#mi(`\frac{15}{2}`)], cols: 2)
 ]
 
 #problem(8)[
 某几何体的三视图如图所示，则该几何体的表面积为
 
 
-#align(center)[#image("/papers/2013/img/chongqing_liberal/q8_fig1.png", width: 82%)]
+#align(center)[#image("/papers/2013/img/chongqing_liberal/q8_fig1.png", width: 28%)]
 
 
 （ ）
 
 D
-由三视图可还原出一个直四棱柱，其底面是高为 $4$、上底为 $2$、下底为 $8$ 的等腰梯形，棱柱的高为 $10$. 梯形两腰的水平投影均为
 
-$ (8-2)/(2)=3 $
+由三视图可还原出一个直四棱柱，其底面是高为 #mi(`4`)、上底为 #mi(`2`)、下底为 #mi(`8`) 的等腰梯形，棱柱的高为 #mi(`10`). 梯形两腰的水平投影均为
+
+
+#align(center)[#mitex(`
+\frac{8-2}{2}=3
+`)]
+
 
 所以腰长为
 
-$ sqrt(4^2+3^2)=5 $
+
+#align(center)[#mitex(`
+\sqrt{4^{2}+3^{2}}=5
+`)]
+
 
 底面梯形面积为
 
-$ (2+8)/(2) times 4 =20 $
+
+#align(center)[#mitex(`
+\frac{2+8}{2}\times4=20
+`)]
+
 
 四个侧面的面积和为
 
-$ 10(2+8+5+5)=200 $
+
+#align(center)[#mitex(`
+10(2+8+5+5)=200
+`)]
+
 
 因此几何体的表面积为
 
-$ 2 times 20 +200=240 $
+
+#align(center)[#mitex(`
+2\times20+200=240
+`)]
+
 
 选 D.
-  #choices([$180$], [$200$], [$220$], [$240$], cols: 4)
+  #choices([#mi(`180`)], [#mi(`200`)], [#mi(`220`)], [#mi(`240`)], cols: 4)
 ]
 
 #problem(9)[
-已知函数 $f(x) = a x^3 + b sin x + 4$ （$a$，$b in RR$），$f(\l g ( log _2 10)) = 5$，则 $f(\l g (\l g 2)) =$（ ）
+已知函数 #mi(`f(x) = ax^{3} + b\sin x + 4`) （#mi(`a`)，#mi(`b \in \mathbb{R}`)），#mi(`f(\lg (\log_{2} 10)) = 5`)，则 #mi(`f(\lg (\lg 2)) =`)（ ）
 
 C
+
 令
 
-$ t=\l g( log _2 10) $
 
-由于 $log _2 10=(1)/(\l g2)$，有
+#align(center)[#mitex(`
+t=\lg(\log_{2} 10)
+`)]
 
-$ t=\l g((1)/(\l g2))=-\l g(\l g2) $
 
-函数中的 $a x^3$ 和 $b sin x$ 都是奇函数，常数项为 $4$，所以对任意 $x$ 有
+由于 #mi(`\log_{2} 10=\frac{1}{\lg2}`)，有
 
-$ f(x)+f(-x)=8 $
 
-题设给出 $f(t)=5$，而所求量为 $f(\l g(\l g2))=f(-t)$，故
+#align(center)[#mitex(`
+t=\lg\left(\frac{1}{\lg2}\right)=-\lg(\lg2)
+`)]
 
-$ f(-t)=8-f(t)=8-5=3 $
+
+函数中的 #mi(`ax^{3}`) 和 #mi(`b\sin x`) 都是奇函数，常数项为 #mi(`4`)，所以对任意 #mi(`x`) 有
+
+
+#align(center)[#mitex(`
+f(x)+f(-x)=8
+`)]
+
+
+题设给出 #mi(`f(t)=5`)，而所求量为 #mi(`f(\lg(\lg2))=f(-t)`)，故
+
+
+#align(center)[#mitex(`
+f(-t)=8-f(t)=8-5=3
+`)]
+
 
 所以选 C.
-  #choices([$-5$], [$-1$], [$3$], [$4$], cols: 4)
+  #choices([#mi(`-5`)], [#mi(`-1`)], [#mi(`3`)], [#mi(`4`)], cols: 4)
 ]
 
 #problem(10)[
-设双曲线 $C$ 的中心为点 $O$，若有且只有一对相交于点 $O$，所成的角为 $60^( degree )$ 的直线 $A_(1)B_(1)$ 和 $A_(2)B_(2)$，使 $|A_(1)B_(1)| = |A_(2)B_(2)|$，其中 $A_(1)$，$B_(1)$ 和 $A_(2)$，$B_(2)$ 分别是这对直线与双曲线 $C$ 的交点，则该双曲线的离心率的取值范围是（ ）
+设双曲线 #mi(`C`) 的中心为点 #mi(`O`)，若有且只有一对相交于点 #mi(`O`)，所成的角为 #mi(`60^{\circ}`) 的直线 #mi(`A_{1}B_{1}`) 和 #mi(`A_{2}B_{2}`)，使 #mi(`|A_{1}B_{1}| = |A_{2}B_{2}|`)，其中 #mi(`A_{1}`)，#mi(`B_{1}`) 和 #mi(`A_{2}`)，#mi(`B_{2}`) 分别是这对直线与双曲线 #mi(`C`) 的交点，则该双曲线的离心率的取值范围是（ ）
 
 A
-取坐标轴沿双曲线的实轴、虚轴，则可设
-$(x^2)/(a^2)-(y^2)/(b^2)=1$，$e^2=1+(b^2)/(a^2)$.
-过原点、方向角为 $theta$ 的直线上的点可写为
 
-$ (x,y)= rho ( cos theta , sin theta ) $
+取坐标轴沿双曲线的实轴、虚轴，则可设
+
+#mi(`\frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1`)，#mi(`e^{2}=1+\frac{b^{2}}{a^{2}}`).
+
+过原点、方向角为 #mi(`\theta`) 的直线上的点可写为
+
+
+#align(center)[#mitex(`
+(x,y)=\rho(\cos\theta,\sin\theta)
+`)]
+
 
 它与双曲线相交的条件为
 
-$ rho ""^2((cos ""^2 theta)/(a^2)-(sin ""^2 theta)/(b^2))=1 $
 
-且弦长为 $2| rho |$. 两条方向相差 $(pi)/(3)$ 的直线弦长相等，当且仅当
+#align(center)[#mitex(`
+\rho^{2}\left(\frac{\cos^{2}\theta}{a^{2}}-\frac{\sin^{2}\theta}{b^{2}}\right)=1
+`)]
 
-$ (cos ""^2 theta)/(a^2)-(sin ""^2 theta)/(b^2)=(cos ""^2( theta +(pi)/(3)))/(a^2)-(sin ""^2( theta +(pi)/(3)))/(b^2) $
+
+且弦长为 #mi(`2|\rho|`). 两条方向相差 #mi(`\frac{\pi}{3}`) 的直线弦长相等，当且仅当
+
+
+#align(center)[#mitex(`
+\frac{\cos^{2}\theta}{a^{2}}-\frac{\sin^{2}\theta}{b^{2}}=\frac{\cos^{2}(\theta+\frac{\pi}{3})}{a^{2}}-\frac{\sin^{2}(\theta+\frac{\pi}{3})}{b^{2}}
+`)]
+
 
 整理得
 
-$ ((1)/(a^2)+(1)/(b^2)) [ cos ""^2 theta - cos ""^2( theta +(pi)/(3))]=0 $
+
+#align(center)[#mitex(`
+\left(\frac{1}{a^{2}}+\frac{1}{b^{2}}\right)  \left[\cos^{2}\theta-\cos^{2}\left(\theta+\frac{\pi}{3}\right)\right]=0
+`)]
+
 
 故候选的两对直线分别可取方向角
-$(-(pi)/(6),(pi)/(6))$，$((pi)/(3),(2 pi)/(3))$.
+
+#mi(`\left(-\frac{\pi}{6},\frac{\pi}{6}\right)`)，#mi(`\left(\frac{\pi}{3},\frac{2\pi}{3}\right)`).
+
 第一对为割线的条件是
 
-$ (3)/(4 a^2)-(1)/(4 b^2)>0 <=> (b^2)/(a^2)>(1)/(3) <=> e>(2 sqrt(3))/(3) $
+
+#align(center)[#mitex(`
+\frac{3}{4a^{2}}-\frac{1}{4b^{2}}>0  \iff \frac{b^{2}}{a^{2}}>\frac{1}{3}\iff e>\frac{2\sqrt{3}}{3}
+`)]
+
 
 第二对为割线的条件是
 
-$ (1)/(4 a^2)-(3)/(4 b^2)>0 <=> (b^2)/(a^2)>3 <=> e>2 $
 
-因此当 $(2 sqrt(3))/(3)<e <= 2$ 时恰有第一对；$e>2$ 时两对均存在，而 $e=(2 sqrt(3))/(3)$ 或更小时第一对也不是有限割线. 故离心率范围为
+#align(center)[#mitex(`
+\frac{1}{4a^{2}}-\frac{3}{4b^{2}}>0  \iff \frac{b^{2}}{a^{2}}>3  \iff e>2
+`)]
 
-$ ((2 sqrt(3))/(3),2] $
+
+因此当 #mi(`\frac{2\sqrt{3}}{3}<e\leqslant2`) 时恰有第一对；#mi(`e>2`) 时两对均存在，而 #mi(`e=\frac{2\sqrt{3}}{3}`) 或更小时第一对也不是有限割线. 故离心率范围为
+
+
+#align(center)[#mitex(`
+\left(\frac{2\sqrt{3}}{3},2\right]
+`)]
+
 
 选 A.
-  #choices([$((2 sqrt(3))/(3),2]$], [$[(2 sqrt(3))/(3),2)$], [$((2 sqrt(3))/(3),+ oo )$], [$[(2 sqrt(3))/(3),+ oo )$], cols: 2)
+  #choices([#mi(`\left(\frac{2\sqrt{3}}{3},2\right]`)], [#mi(`\left[\frac{2\sqrt{3}}{3},2\right)`)], [#mi(`\left(\frac{2\sqrt{3}}{3},+\infty\right)`)], [#mi(`\left[\frac{2\sqrt{3}}{3},+\infty\right)`)], cols: 1)
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-设复数 $z = 1 + 2 i$ （$i$ 是虚数单位），则 $|z| =\f i l l i n b l a n k{}$.
-$sqrt(5)$
+设复数 #mi(`z = 1 + 2\mathrm{i}`) （#mi(`\mathrm{i}`) 是虚数单位），则 #mi(`|z| =\underline{\hspace{2.5em}}{}`).
+
+#mi(`\sqrt{5}`)
+
 复数的模为实部与虚部平方和的平方根，因此
 
-$ |z|=|1+2 i |=sqrt(1^2+2^2)=sqrt(5) $
+
+#align(center)[#mitex(`
+|z|=|1+2\mathrm{i}|=\sqrt{1^{2}+2^{2}}=\sqrt{5}
+`)]
 ]
 
 #problem(12)[
-若 $2$，$a$，$b$，$c$，$9$ 成等差数列，则 $c - a =\f i l l i n b l a n k{}$.
-$(7)/(2)$
-设等差数列的公差为 $d$. 由首项和末项得
-$2+4 d=9$，$d=(7)/(4)$.
+若 #mi(`2`)，#mi(`a`)，#mi(`b`)，#mi(`c`)，#mi(`9`) 成等差数列，则 #mi(`c - a =\underline{\hspace{2.5em}}{}`).
+
+#mi(`\frac{7}{2}`)
+
+设等差数列的公差为 #mi(`d`). 由首项和末项得
+
+#mi(`2+4d=9`)，#mi(`d=\frac{7}{4}`).
+
 于是
-$a=2+d$，$c=2+3 d$，
+
+#mi(`a=2+d`)，#mi(`c=2+3d`)，
+
 从而
 
-$ c-a=2 d=(7)/(2) $
+
+#align(center)[#mitex(`
+c-a=2d=\frac{7}{2}
+`)]
 ]
 
 #problem(13)[
-若甲，乙，丙三人随机地站成一排，则甲，乙两人相邻而站的概率为#blank(){}.
-$(2)/(3)$
-三人的全排列共有 $3!=6$ 种. 把甲、乙看成一个整体时，整体与丙有 $2!$ 种排法，甲、乙在整体内还有 $2!$ 种次序，所以甲乙相邻的排法有
+若甲，乙，丙三人随机地站成一排，则甲，乙两人相邻而站的概率为\underline{\hspace{2.5em}}.
 
-$ 2! times 2 !=4 $
+#mi(`\frac{2}{3}`)
+
+三人的全排列共有 #mi(`3!=6`) 种. 把甲、乙看成一个整体时，整体与丙有 #mi(`2!`) 种排法，甲、乙在整体内还有 #mi(`2!`) 种次序，所以甲乙相邻的排法有
+
+
+#align(center)[#mitex(`
+2!\times2!=4
+`)]
+
 
 种. 因此所求概率为
 
-$ (4)/(6)=(2)/(3) $
+
+#align(center)[#mitex(`
+\frac{4}{6}=\frac{2}{3}
+`)]
 ]
 
 #problem(14)[
-在 $O A$ 为边，$O B$ 为对角线的矩形中，已知 $arrow(O A)= (-3, 1)$，$arrow(O B)= (-2, k)$，则实数 $k =$#blank(){}.
-$4$
-矩形中 $O A bot A B$，且
+在 #mi(`OA`) 为边，#mi(`OB`) 为对角线的矩形中，已知 #mi(`\overrightarrow{OA}= (-3, 1)`)，#mi(`\overrightarrow{OB}= (-2, k)`)，则实数 #mi(`k =`)\underline{\hspace{2.5em}}.
 
-$ arrow(A B)=arrow(O B)-arrow(O A)=(1,k-1) $
+#mi(`4`)
+
+矩形中 #mi(`OA\perp AB`)，且
+
+
+#align(center)[#mitex(`
+\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}=(1,k-1)
+`)]
+
 
 因此
 
-$ arrow(O A)\c d o t a r r o w(A B)=(-3,1) dot (1,k-1)=-3+k-1=0 $
 
-解得 $k=4$.
+#align(center)[#mitex(`
+\overrightarrow{OA}\cdot\overrightarrow{AB}=(-3,1)\cdot(1,k-1)=-3+k-1=0
+`)]
+
+
+解得 #mi(`k=4`).
 ]
 
 #problem(15)[
-设 $0 <= alpha <= pi$，不等式 $8 x^(2) - (8 sin alpha )x + cos 2 alpha >= 0$ 对 $x in RR$ 恒成立，则 $alpha$ 的取值范围为#blank(){}.
-$[0,(pi)/(6)] union [(5 pi)/(6), pi ]$
-关于 $x$ 的二次式首项系数 $8>0$，要对任意实数 $x$ 非负，充要条件是判别式不大于零，即
+设 #mi(`0 \le \alpha \le \pi`)，不等式 #mi(`8x^{2}- (8\sin \alpha)x + \cos 2\alpha \ge 0`) 对 #mi(`x \in \mathbb{R}`) 恒成立，则 #mi(`\alpha`) 的取值范围为\underline{\hspace{2.5em}}.
 
-$ Delta =(-8 sin alpha )^2-4 dot 8 cos 2 alpha <= 0 $
+#mi(`\left[0,\frac{\pi}{6}\right]\cup\left[\frac{5\pi}{6},\pi\right]`)
+
+关于 #mi(`x`) 的二次式首项系数 #mi(`8>0`)，要对任意实数 #mi(`x`) 非负，充要条件是判别式不大于零，即
+
+
+#align(center)[#mitex(`
+\Delta=(-8\sin\alpha)^{2}-4\cdot8\cos2\alpha\leqslant0
+`)]
+
 
 化简得
 
-$ 2 sin ""^2 alpha - cos 2 alpha <= 0 $
 
-利用 $cos 2 alpha =1-2 sin ""^2 alpha$，得到
-$4 sin ""^2 alpha -1 <= 0$，$| sin alpha | <= (1)/(2)$.
-在 $0 <= alpha <= pi$ 上，$sin alpha >= 0$，所以
+#align(center)[#mitex(`
+2\sin^{2}\alpha-\cos2\alpha\leqslant0
+`)]
 
-$ alpha in [0,(pi)/(6)] union [(5 pi)/(6), pi ] $
+
+利用 #mi(`\cos2\alpha=1-2\sin^{2}\alpha`)，得到
+
+#mi(`4\sin^{2}\alpha-1\leqslant0`)，#mi(`|\sin\alpha|\le\frac{1}{2}`).
+
+在 #mi(`0\le\alpha\le\pi`) 上，#mi(`\sin\alpha\geqslant0`)，所以
+
+
+#align(center)[#mitex(`
+\alpha\in\left[0,\frac{\pi}{6}\right]\cup\left[\frac{5\pi}{6},\pi\right]
+`)]
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-设数列 $\{a_(n)\}$ 满足：$a_(1) = 1$，$a_(n+1) = 3 a_(n)$，$n in NN ""^*$.
-
-+ (1) 求 $\{a_(n)\}$ 的通项公式及前 $n$ 项和 $S_(n)$；
-+ (2) 已知 $\{b_(n)\}$ 是等差数列，$T_(n)$ 为其前 $n$ 项和，且 $b_(1)=a_(2)$，$b_(3)=a_(1)+a_(2)+a_(3)$，求 $T_(20)$.
+设数列 #mi(`\{a_{n}\}`) 满足：#mi(`a_{1}= 1`)，#mi(`a_{n+1}= 3a_{n}`)，#mi(`n \in \mathbb{N}^{*}`).
 
 
-+ (1) 由递推关系，每增加一个下标就乘以 $3$，且 $a_1=1$，所以
++ (1) 
 
-$ a_n=a_1 dot 3 ""^(n-1)=3^(n-1) $
 
-这是首项为 $1$、公比为 $3$ 的等比数列，故前 $n$ 项和为
 
-$ S_n=(a_1(3^n-1))/(3-1)=(3^n-1)/(2) $
-+ (2) 由第（1）问
-$a_2=3$，$a_1+a_2+a_3=1+3+9=13$.
-因此 $b_1=3$，$b_3=13$. 设等差数列 $\{b_n\}$ 的公差为 $d$，则
-$b_3=b_1+2 d$，$\L o n g r i g h t a r r o w$，$13=3+2 d$，$d=5$.
-所以
 
-$ T_(20)=(20)/(2)(2 b_1+19 d) =10(6+95)=1010 $
++ (1)
 ]
 
 #problem(17)[
-从某居民区随机抽取 $10" 个"$家庭，获得第 $i$ 个家庭的月收入 $x_(i)$ （单位：$"千元"$）与月储蓄 $y_(i)$ （单位：$"千元"$）的数据资料，算得 $sum_(i=1)^(10) x_(i) = 80$，$sum_(i=1)^(10) y_(i) = 20$，$sum_(i=1)^(10) x_(i)y_(i) = 184$，$sum_(i=1)^(10) x_(i)^(2) = 720$.
+从某居民区随机抽取 #mi(`10\text{ \text{个}}`) 家庭，获得第 #mi(`i`) 个家庭的月收入 #mi(`x_{i}`) （单位：#mi(`\text{\text{千元}}`)）与月储蓄 #mi(`y_{i}`) （单位：#mi(`\text{\text{千元}}`)）的数据资料，算得 #mi(`\sum_{i=1}^{10}x_{i}= 80`)，#mi(`\sum_{i=1}^{10}y_{i}= 20`)，#mi(`\sum_{i=1}^{10}x_{i}y_{i}= 184`)，#mi(`\sum_{i=1}^{10}x_{i}^{2}= 720`).
 
-+ (1) 求家庭的月储蓄 $y$ 对月收入 $x$ 的线性回归方程 $y = b x + a$；
-+ (2) 判断变量 $x$ 与 $y$ 之间是正相关还是负相关；
-+ (3) 若该居民区某家庭月收入为 $7" 千元"$，预测该家庭的月储蓄.
 
-附：线性回归方程 $y = b x + a$ 中， $b = (sum_(i=1)^(n) x_(i)y_(i) - n o v e r l i n e(x)overline(y))/(sum_(i=1)^(n) x_(i)^(2) - n o v e r l i n e(x)^(2))$，$a = overline(y)- b o v e r l i n e(x)$，
-其中 $overline(x)$，$overline(y)$ 为样本平均值，线性回归方程也可写为 $\h a t{y} = \h a t{b}x + \h a t{a}$.
++ (1) 
++ (2) 
 
-+ (1) 样本平均值为
-$overline(x)=(80)/(10)=8$，$overline(y)=(20)/(10)=2$.
-代入题给公式，回归系数
 
-$ b=(184-10 times 8 times 2)/(720-10 times 8 ""^2)=(24)/(80)=(3)/(10) $
 
-于是
+附：线性回归方程 #mi(`y = bx + a`) 中， #mi(`b = \frac{\sum_{i=1}^{n}x_{i}y_{i}- n\overline{x}\,\overline{y}}{\sum_{i=1}^{n}x_{i}^{2}- n\overline{x}^{2}}`)，#mi(`a = \overline{y}- b\overline{x}`)，
 
-$ a=\overline y-b\overline x=2-(3)/(10) times 8 =-(2)/(5) $
+其中 #mi(`\overline{x}`)，#mi(`\overline{y}`) 为样本平均值，线性回归方程也可写为 #mi(`\hat{y}= \hat{b}x + \hat{a}`).
 
-线性回归方程为
 
-$ \h a t y=(3)/(10)x-(2)/(5) $
-+ (2) 回归系数 $b=(3)/(10)>0$，所以 $x$ 与 $y$ 正相关.
-+ (3) 当 $x=7$ 时，预测值为
-
-$ \h a t y=(3)/(10) times 7 -(2)/(5)=(17)/(10)=1.7 $
-
-故预测该家庭月储蓄为 $1.7$ 千元.
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-在 $triangle A B C$ 中，内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，且 $a^2 = b^2 + c^2 + sqrt(3)b c$.
-
-+ (1) 求 $A$；
-+ (2) 设 $a = sqrt(3)$，$S$ 为 $triangle A B C$ 的面积，求 $S + 3 cos B cos C$ 的最大值. 并指出此时 $B$ 的值.
+在 #mi(`\triangle ABC`) 中，内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 的对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，且 #mi(`a^{2} = b^{2} + c^{2} + \sqrt{3}bc`).
 
 
-+ (1) 由余弦定理
-
-$ a^2=b^2+c^2-2 b c cos A $
-
-与题设比较可得
-$-2 b c cos A=sqrt(3)b c$，$cos A=-(sqrt(3))/(2)$.
-因为 $0<A< pi$，所以
-
-$ A=(5 pi)/(6) $
-+ (2) 由三角形内角和
-
-$ B+C= pi -A=(pi)/(6) $
-
-又由正弦定理及 $a=sqrt(3)$、$sin A=(1)/(2)$，有
-$b=2 sqrt(3) sin B$，$c=2 sqrt(3) sin C$.
-令 $t=B-C$，则 $-(pi)/(6)<t<(pi)/(6)$，并且
-
-$ sin B sin C=(cos t- cos (B+C))/(2)=\f r a c{ cos t-(sqrt(3))/(2)}2 $
++ (1) 
 
 
-$ cos B cos C=(cos t+ cos (B+C))/(2)=\f r a c{ cos t+(sqrt(3))/(2)}2 $
 
-三角形面积为
 
-$ S=(1)/(2)b c sin A =(1)/(4)b c =3 sin B sin C $
-
-所以
-
-$ S+3 cos B cos C =3 sin B sin C+3 cos B cos C =3 cos (B-C)=3 cos t <= 3 $
-
-当且仅当 $t=0$，即 $B=C$ 时取等号. 此时
-
-$ B=C=(B+C)/(2)=(\p)/(i){12} $
-
-故最大值为 $3$，且此时 $B=(\p)/(i){12}$.
++ (1)
 ]
 
 #problem(19)[
-如图，四棱锥 $P - A B C D$ 中，$P A bot$ 底面 $A B C D$，$P A = 2 sqrt(3)$，$B C = C D = 2$，$angle A C B = angle A C D = (pi)/(3)$.
-
-+ (1) 求证： $B D bot$ 平面 PAC；
-+ (2) 若侧棱 $P C$ 上的点 $F$ 满足 $P F = 7 F C$，求三棱锥 $P - B D F$ 的体积.
+如图，四棱锥 #mi(`P - ABCD`) 中，#mi(`PA \perp`) 底面 #mi(`ABCD`)，#mi(`PA = 2\sqrt{3}`)，#mi(`BC = CD = 2`)，#mi(`\angle ACB = \angle ACD = \frac{\pi}{3}`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2013/img/chongqing_liberal/q19_fig1.png", width: 42%)]
 
 
-+ (1) 在等腰三角形 $B C D$ 中，$B C=C D$，且 $A C$ 平分顶角 $angle B C D$，所以
 
-$ A C bot B D $
+#align(center)[#image("/papers/2013/img/chongqing_liberal/q19_fig1.png", width: 28%)]
 
-又因为 $P A bot$ 底面 $A B C D$，而 $B D$ 在底面内，所以 $B D bot P A$. 直线 $A C$ 与 $P A$ 都在平面 $P A C$ 内，且相交于 $A$. 因为 $B D$ 垂直于这两条相交直线，所以 $B D bot$ 平面 $P A C$.
-+ (2) 建立空间直角坐标系：取 $C$ 为原点，$x$ 轴沿 $C A$，$y$ 轴沿底面内垂直于 $C A$ 的方向，$z$ 轴沿 $A P$. 设 $A C=m$，则可取
-$C=(0,0,0)$，$A=(m,0,0)$，$B=(1,sqrt(3),0)$，$D=(1,-sqrt(3),0)$，$P=(m,0,2 sqrt(3))$.
-其中 $B$，$D$ 的坐标来自 $B C=C D=2$ 及 $angle A C B= angle A C D=(pi)/(3)$.
 
-由 $P F=7 F C$，得 $P F:P C=7:8$，所以
 
-$ arrow(P F)=(7)/(8)arrow(P C) $
-
-于是
-
-$ V_(P-B D F) =(1)/(6) dot (7)/(8)|\det\b e g i n{p m a t r i x} 1-m&sqrt(3)&-2 sqrt(3)\\ 1-m&-sqrt(3)&-2 sqrt(3)\\ -m&0&-2 sqrt(3)\e n d{p m a t r i x}| =(1)/(6) dot (7)/(8) times 12 =(7)/(4) $
-
-故三棱锥 $P-B D F$ 的体积为 $(7)/(4)$.
++ (1)
 ]
 
 #problem(20)[
-某村庄拟修建一个无盖的圆柱形蓄水池（不计厚度）. 设该蓄水池的底面半径为 $r" 米"$，高为 $h" 米"$，体积为 $V" 立方米"$. 假设建造成本仅与表面积有关，侧面的建造成本为 $100" 元/平方米"$，底面的建造成本为 $160" 元/平方米"$，该蓄水池的总建造成本为 $12000 pi " 元"$（$pi$ 为圆周率）.
-
-+ (1) 将 $V$ 表示成 $r$ 的函数 $V(r)$，并求该函数的定义域.
-+ (2) 讨论函数 $V(r)$ 的单调性，并确定 $r$ 和 $h$ 为何值时该蓄水池的体积最大.
+某村庄拟修建一个无盖的圆柱形蓄水池（不计厚度）. 设该蓄水池的底面半径为 #mi(`r\text{ \text{米}}`)，高为 #mi(`h\text{ \text{米}}`)，体积为 #mi(`V\text{ \text{立方米}}`). 假设建造成本仅与表面积有关，侧面的建造成本为 #mi(`100\text{ \text{元}/\text{平方米}}`)，底面的建造成本为 #mi(`160\text{ \text{元}/\text{平方米}}`)，该蓄水池的总建造成本为 #mi(`12000\pi\text{ \text{元}}`)（#mi(`\pi`) 为圆周率）.
 
 
-+ (1) 无盖圆柱的侧面积为 $2 pi r h$，底面积为 $pi r^2$，故成本条件为
++ (1) 
 
-$ 100 dot 2 pi r h+160 pi r^2=12000 pi $
 
-约去 $40 pi$，得
-$5 r h+4 r^2=300$，$h=(300-4 r^2)/(5 r)=(60)/(r)-(4)/(5)r$.
-因为 $r>0$ 且水池高度必须为正，需有
 
-$ 0<r<5 sqrt(3) $
 
-又 $V= pi r^(2) h$，所以
-$V(r)= pi (60 r-(4)/(5)r^3)$，$0<r<5 sqrt(3)$.
-+ (2) 求导得
-
-$ V'(r)= pi (60-(12)/(5)r^2) =(12 pi)/(5)(25-r^2) $
-
-在 $(0,5)$ 上，$V'(r)>0$，所以 $V(r)$ 递增；在 $(5,5 sqrt(3))$ 上，$V'(r)<0$，所以 $V(r)$ 递减. 因此最大值在 $r=5$ 处取得. 代入高度公式：
-
-$ h=(60)/(5)-(4)/(5) times 5 =8 $
-
-故体积最大时 $r=5$ 米、$h=8$ 米.
++ (1)
 ]
 
 #problem(21)[
-如图，椭圆的中心为原点 $O$，长轴在 $x$ 轴上，离心率 $e = (sqrt(2))/(2)$，过左焦点 $F_(1)$ 作 $x$ 轴的垂线交椭圆于 $A$，$A'$ 两点，$|A A'| = 4$.
+如图，椭圆的中心为原点 #mi(`O`)，长轴在 #mi(`x`) 轴上，离心率 #mi(`e = \frac{\sqrt{2}}{2}`)，过左焦点 #mi(`F_{1}`) 作 #mi(`x`) 轴的垂线交椭圆于 #mi(`A`)，#mi(`A'`) 两点，#mi(`|AA'| = 4`).
 
 
-+ (1) 求该椭圆的标准方程；
-+ (2) 取平行于 $y$ 轴的直线与椭圆相交于不同的两点 $P$，$P'$，过 $P$，$P'$ 作圆心为 $Q$ 的圆，使椭圆上的其余点均在圆 $Q$ 外，求 $triangle P P'Q$ 的面积 $S$ 的最大值，并写出对应的圆 $Q$ 的标准方程.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2013/img/chongqing_liberal/q21_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2013/img/chongqing_liberal/q21_fig1.png", width: 28%)]
 
 
-+ (1) 设椭圆的标准方程为
-$(x^2)/(a^2)+(y^2)/(b^2)=1$，（$a>b>0$）
-焦距的一半为 $c$，则
-$c^2=a^2-b^2$，$e=(c)/(a)=(sqrt(2))/(2)$.
-所以 $c^2=(a^2)/(2)$，从而 $b^2=(a^2)/(2)$. 左焦点为 $(-c,0)$，过它的竖直弦的两个端点纵坐标为 $+- 2$，故代入椭圆方程得
 
-$ (c^2)/(a^2)+(4)/(b^2)=1 $
-
-由 $(c^2)/(a^2)=(1)/(2)$ 得 $(4)/(b^2)=(1)/(2)$，即 $b^2=8$，进而 $a^2=16$. 因此椭圆的标准方程为
-
-$ (x^2)/(16)+(y^2)/(8)=1 $
-+ (2) 设竖直弦所在直线为 $x=t$，其端点为 $P=(t,y_0)$、$P'=(t,-y_0)$. 由椭圆方程
-$y_0^2=8-(t^2)/(2)$，$|t|<4$.
-圆心 $Q$ 必在弦 $P P'$ 的垂直平分线上，而所有椭圆上其余点在圆外，意味着 $P$，$P'$ 是椭圆上到 $Q$ 的最近点. 故可设 $Q=(q,0)$，并令椭圆点为 $(x,y)$，则其到 $Q$ 的距离平方为
-
-$ (x-q)^2+y^2 =(x^2)/(2)-2 q x+q^2+8 $
-
-由于最近点的横坐标 $t$ 在区间 $(-4,4)$ 内，二次式在 $x=t$ 处取最小值，故
-
-$ t=2 q $
-
-于是 $|q|<2$，且
-
-$ y_0^2=8-2 q^2 $
-
-三角形 $P P'Q$ 的底为 $2|y_0|$，高为 $|q-t|=|q|$，所以
-
-$ S=|q|sqrt(8-2 q^2) $
-
-令 $u=q^2$，则 $0 <= u<4$，并且
-
-$ S^2=u(8-2 u)=8-2(u-2)^2 <= 8 $
-
-故 $S$ 的最大值为 $2 sqrt(2)$，当且仅当 $q^2=2$，即 $q=\p m s q r t(2)$ 时取得. 此时圆的半径平方为
-
-$ Q P^2=(t-q)^2+y_0^2=q^2+4=6 $
-
-因此对应的圆为
-
-$ (x-sqrt(2))^2+y^2=6 "或"(x+sqrt(2))^2+y^2=6 $
++ (1)
 ]
 

@@ -1,8 +1,131 @@
 {
-  "title": "2013年普通高等学校招生全国统一考试",
-  "subtitle": "2013年天津卷（文）",
   "year": "2013",
   "slug": "tianjin_liberal",
+  "title": "2013年天津卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$[-2, 1]$"
           ],
           "answer": "D",
-          "solution": "<p>由 $|x|\\le 2$ 得 $-2\\le x\\le 2$，再与 $x\\le 1$ 取公共部分，得</p><p>$A\\cap B=[-2,1]$，故选 D.</p>"
+          "solution": "<p>由 $|x|\\le 2$ 得 $-2\\le x\\le 2$，再与 $x\\le 1$ 取公共部分，得</p><p>$A\\cap B=[-2,1]$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,11 +154,13 @@
             "2"
           ],
           "answer": "A",
-          "solution": "<p>约束条件等价于 $y\\ge 6-3x$，$y\\ge x-2$，$y\\le 3$. 三条边界直线的交点分别为：</p><p>$y=3$ 与 $y=6-3x$ 交于 $(1,3)$，$y=3$ 与 $y=x-2$ 交于 $(5,3)$，而 $y=6-3x$ 与 $y=x-2$ 交于 $(2,0)$. 因此可行域的三个顶点为</p><p>$(1,3)$，$(5,3)$，$(2,0)$. 目标函数在这三个顶点处分别为</p><p>$1$，$-7$，$-4$. 因此 $z$ 的最小值为 $-7$，故选 A.</p>"
+          "solution": "<p>约束条件等价于 $y\\ge 6-3x$，$y\\ge x-2$，$y\\le 3$. 三条边界直线的交点分别为：</p><p>$y=3$ 与 $y=6-3x$ 交于 $(1,3)$，$y=3$ 与 $y=x-2$ 交于 $(5,3)$，而 $y=6-3x$ 与 $y=x-2$ 交于 $(2,0)$. 因此可行域的三个顶点为</p><p>$(1,3)$，$(5,3)$，$(2,0)$. 目标函数在这三个顶点处分别为</p><p>$1$，$-7$，$-4$. 因此 $z$ 的最小值为 $-7$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
-          "body": "<p>阅读如图所示的程序框图，运行相应的程序，则输出 $n$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>阅读如图所示的程序框图，运行相应的程序，则输出 $n$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/tianjin_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "7",
             "6",
@@ -41,7 +168,9 @@
             "4"
           ],
           "answer": "D",
-          "solution": "<p>初始时 $n=1$，$S=0$. 每次先作 $S\\leftarrow S+(-1)^{n} n$，再判断是否有 $S\\ge 2$. 逐次计算如下：</p><p>当 $n=1$ 时，$S=-1$；当 $n=2$ 时，$S=1$；当 $n=3$ 时，$S=-2$；当 $n=4$ 时，$S=2$. 此时满足判断条件，输出 $n=4$，故选 D.</p>"
+          "solution": "<p>初始时 $n=1$，$S=0$. 每次先作 $S\\leftarrow S+(-1)^{n} n$，再判断是否有 $S\\ge 2$. 逐次计算如下：</p><p>当 $n=1$ 时，$S=-1$；当 $n=2$ 时，$S=1$；当 $n=3$ 时，$S=-2$；当 $n=4$ 时，$S=2$. 此时满足判断条件，输出 $n=4$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +182,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>若 $(a-b)a^{2}<0$，则必有 $a\\neq 0$，从而 $a^{2}>0$. 因此只能是 $a-b<0$，即 $a<b$，所以该条件是 $a<b$ 的充分条件.</p><p>反之，取 $a=0$，$b=1$，虽有 $a<b$，但 $(a-b)a^{2}=0$ 不小于 $0$，故不是必要条件. 因此选 A.</p>"
+          "solution": "<p>若 $(a-b)a^{2}<0$，则必有 $a\\neq 0$，从而 $a^{2}>0$. 因此只能是 $a-b<0$，即 $a<b$，所以该条件是 $a<b$ 的充分条件.</p><p>反之，取 $a=0$，$b=1$，虽有 $a<b$，但 $(a-b)a^{2}=0$ 不小于 $0$，故不是必要条件. 因此选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +196,9 @@
             "$\\frac{1}{2}$"
           ],
           "answer": "C",
-          "solution": "<p>圆心为 $C(1,0)$，且 $CP=\\sqrt{(2-1)^{2}+2^{2}}=\\sqrt{5}$，所以 $P$ 在圆上. 过圆上点 $P$ 的切线与半径 $CP$ 垂直.</p><p>半径 $CP$ 的斜率为 $2$，故切线斜率为 $-\\frac{1}{2}$. 直线 $ax-y+1=0$ 的斜率为 $a$，它与切线垂直，所以</p><p>$a\\cdot\\left(-\\frac{1}{2}\\right)=-1$，解得 $a=2$，故选 C.</p>"
+          "solution": "<p>圆心为 $C(1,0)$，且 $CP=\\sqrt{(2-1)^{2}+2^{2}}=\\sqrt{5}$，所以 $P$ 在圆上. 过圆上点 $P$ 的切线与半径 $CP$ 垂直.</p><p>半径 $CP$ 的斜率为 $2$，故切线斜率为 $-\\frac{1}{2}$. 直线 $ax-y+1=0$ 的斜率为 $a$，它与切线垂直，所以</p><p>$a\\cdot\\left(-\\frac{1}{2}\\right)=-1$，解得 $a=2$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +210,9 @@
             "0"
           ],
           "answer": "B",
-          "solution": "<p>令 $t=2x-\\frac{\\pi}{4}$. 当 $x\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，</p><p>$t\\in\\left[-\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right]$. 在此区间内，</p><p>$\\sin t$ 的导数为 $\\cos t$，唯一驻点为 $t=\\frac{\\pi}{2}$，且 $\\sin t$ 在</p><p>$\\left[-\\frac{\\pi}{4},\\frac{\\pi}{2}\\right]$ 上递增、在</p><p>$\\left[\\frac{\\pi}{2},\\frac{3\\pi}{4}\\right]$ 上递减. 因此比较两个端点和驻点的函数值，得</p>\n$$\n\\min f(x)=\\sin\\left(-\\frac{\\pi}{4}\\right)=-\\frac{\\sqrt{2}}{2}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>令 $t=2x-\\frac{\\pi}{4}$. 当 $x\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，</p><p>$t\\in\\left[-\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right]$. 在此区间内，</p><p>$\\sin t$ 的导数为 $\\cos t$，唯一驻点为 $t=\\frac{\\pi}{2}$，且 $\\sin t$ 在</p><p>$\\left[-\\frac{\\pi}{4},\\frac{\\pi}{2}\\right]$ 上递增、在</p><p>$\\left[\\frac{\\pi}{2},\\frac{3\\pi}{4}\\right]$ 上递减. 因此比较两个端点和驻点的函数值，得</p>\n$$\n\\min f(x)=\\sin\\left(-\\frac{\\pi}{4}\\right)=-\\frac{\\sqrt{2}}{2}\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +224,9 @@
             "$(0,2]$"
           ],
           "answer": "C",
-          "solution": "<p>由于 $a>0$，令 $t=\\log_{2}a$，则 $\\log_{\\frac{1}{2}}a=-t$. 利用 $f$ 为偶函数，原不等式化为</p><p>$2f(t)\\le 2f(1)$，即 $f(|t|)\\le f(1)$.</p><p>由 $f$ 在 $[0,+\\infty)$ 上单调递增，得 $|t|\\le 1$，于是</p><p>$-1\\le\\log_{2}a\\le 1$. 因而 $\\frac{1}{2}\\le a\\le 2$，故选 C.</p>"
+          "solution": "<p>由于 $a>0$，令 $t=\\log_{2}a$，则 $\\log_{\\frac{1}{2}}a=-t$. 利用 $f$ 为偶函数，原不等式化为</p><p>$2f(t)\\le 2f(1)$，即 $f(|t|)\\le f(1)$.</p><p>由 $f$ 在 $[0,+\\infty)$ 上单调递增，得 $|t|\\le 1$，于是</p><p>$-1\\le\\log_{2}a\\le 1$. 因而 $\\frac{1}{2}\\le a\\le 2$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +238,9 @@
             "$f(b) < g(a) < 0$"
           ],
           "answer": "A",
-          "solution": "<p>因为 $f'(x)=\\mathrm{e}^{x}+1>0$，所以 $f$ 在 $\\mathbb{R}$ 上单调递增. 又 $f(0)=-1<0$，$f(1)=\\mathrm{e}-1>0$，故由 $f(a)=0$ 得 $0<a<1$.</p><p>因为 $g'(x)=\\frac{1}{x}+2x>0$（$x>0$），所以 $g$ 在 $(0,+\\infty)$ 上单调递增. 又 $g(1)=-2<0$，$g(2)=\\ln 2+1>0$，故由 $g(b)=0$ 得 $1<b<2$.</p><p>由 $0<a<1$ 得 $\\ln a<0$ 且 $a^{2}<1$，所以 $g(a)=\\ln a+a^{2}-3<0$. 由 $b>1$ 及 $f$ 的单调性，得 $f(b)>f(1)>0$. 因此 $g(a)<0<f(b)$，故选 A.</p>"
+          "solution": "<p>因为 $f'(x)=\\mathrm{e}^{x}+1>0$，所以 $f$ 在 $\\mathbb{R}$ 上单调递增. 又 $f(0)=-1<0$，$f(1)=\\mathrm{e}-1>0$，故由 $f(a)=0$ 得 $0<a<1$.</p><p>因为 $g'(x)=\\frac{1}{x}+2x>0$（$x>0$），所以 $g$ 在 $(0,+\\infty)$ 上单调递增. 又 $g(1)=-2<0$，$g(2)=\\ln 2+1>0$，故由 $g(b)=0$ 得 $1<b<2$.</p><p>由 $0<a<1$ 得 $\\ln a<0$ 且 $a^{2}<1$，所以 $g(a)=\\ln a+a^{2}-3<0$. 由 $b>1$ 及 $f$ 的单调性，得 $f(b)>f(1)>0$. 因此 $g(a)<0<f(b)$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -111,44 +250,56 @@
         {
           "num": 9,
           "body": "$\\mathrm{i}$ 是虚数单位，复数 $(3+\\mathrm{i})(1-2\\mathrm{i})=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$5-5\\mathrm{i}$",
-          "solution": "<p>利用 $\\mathrm{i}^{2}=-1$，有</p>\n$$\n(3+\\mathrm{i})(1-2\\mathrm{i})=3-6\\mathrm{i}+\\mathrm{i}-2\\mathrm{i}^{2}=3-5\\mathrm{i}+2=5-5\\mathrm{i}\n$$\n<p>所以填 $5-5\\mathrm{i}$.</p>"
+          "choices": [],
+          "answer": "\\(5-5\\mathrm{i}\\)",
+          "solution": "<p>利用 $\\mathrm{i}^{2}=-1$，有</p>\n$$\n(3+\\mathrm{i})(1-2\\mathrm{i})=3-6\\mathrm{i}+\\mathrm{i}-2\\mathrm{i}^{2}=3-5\\mathrm{i}+2=5-5\\mathrm{i}\n$$\n<p>所以填 $5-5\\mathrm{i}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "已知一个正方体的所有顶点在一个球面上，若球的体积为 $\\frac{9\\pi}{2}$，则正方体的棱长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\sqrt{3}$",
-          "solution": "<p>设球的半径为 $R$. 由球的体积得</p><p>$\\frac{4}{3}\\pi R^{3}=\\frac{9\\pi}{2}$，所以 $R=\\frac{3}{2}$.</p><p>正方体的体对角线等于外接球的直径 $2R=3$. 设正方体棱长为 $l$，则</p><p>$l\\sqrt{3}=3$，解得 $l=\\sqrt{3}$. 所以填 $\\sqrt{3}$.</p>"
+          "choices": [],
+          "answer": "\\(\\sqrt{3}\\)",
+          "solution": "<p>设球的半径为 $R$. 由球的体积得</p><p>$\\frac{4}{3}\\pi R^{3}=\\frac{9\\pi}{2}$，所以 $R=\\frac{3}{2}$.</p><p>正方体的体对角线等于外接球的直径 $2R=3$. 设正方体棱长为 $l$，则</p><p>$l\\sqrt{3}=3$，解得 $l=\\sqrt{3}$. 所以填 $\\sqrt{3}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "已知抛物线 $y^{2}= 8x$ 的准线过双曲线 $\\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$ （$a > 0$，$b > 0$）的一个焦点，且双曲线的离心率为 2，则该双曲线的方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$x^{2}-\\frac{y^{2}}{3}=1$",
-          "solution": "<p>抛物线 $y^{2}=8x$ 可写为 $y^{2}=4px$，故 $p=2$，其准线为 $x=-2$. 设双曲线焦半距为 $c$，则一个焦点在准线上给出 $c=2$.</p><p>由离心率 $e=\\frac{c}{a}=2$，得 $a=1$. 又 $c^{2}=a^{2}+b^{2}$，所以 $b^{2}=4-1=3$. 因此双曲线方程为</p><p>$\\frac{x^{2}}{1^{2}}-\\frac{y^{2}}{3}=1$，即 $x^{2}-\\frac{y^{2}}{3}=1$.</p>"
+          "choices": [],
+          "answer": "\\(x^2-\\frac{y^2}{3}=1\\)",
+          "solution": "<p>抛物线 $y^{2}=8x$ 可写为 $y^{2}=4px$，故 $p=2$，其准线为 $x=-2$. 设双曲线焦半距为 $c$，则一个焦点在准线上给出 $c=2$.</p><p>由离心率 $e=\\frac{c}{a}=2$，得 $a=1$. 又 $c^{2}=a^{2}+b^{2}$，所以 $b^{2}=4-1=3$. 因此双曲线方程为</p><p>$\\frac{x^{2}}{1^{2}}-\\frac{y^{2}}{3}=1$，即 $x^{2}-\\frac{y^{2}}{3}=1$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "在平行四边形 $ABCD$ 中，$AD = 1$，$\\angle BAD = 60^{\\circ}$，$E$ 为 $CD$ 的中点. 若 $\\overrightarrow{AC}\\cdot \\overrightarrow{BE}= 1$，则 $AB$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{1}{2}$",
-          "solution": "<p>设 $\\overrightarrow{AB}=\\mathbf{u}$，$\\overrightarrow{AD}=\\mathbf{v}$，则</p><p>$|\\mathbf{v}|=1$，$|\\mathbf{u}|=AB$，且 $\\mathbf{u}\\cdot\\mathbf{v}=\\frac{1}{2}|\\mathbf{u}|$.</p><p>取 $A$ 为原点，则 $C$ 的位置向量为 $\\mathbf{u}+\\mathbf{v}$，而 $E$ 为 $CD$ 的中点，所以</p><p>$\\overrightarrow{BE}=\\mathbf{v}-\\frac{1}{2}\\mathbf{u}$. 因而</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{BE}=(\\mathbf{u}+\\mathbf{v})\\cdot\\left(\\mathbf{v}-\\frac{1}{2}\\mathbf{u}\\right)  =1+\\frac{1}{4}|\\mathbf{u}|-\\frac{1}{2}|\\mathbf{u}|^{2}\n$$\n<p>令 $t=|\\mathbf{u}|>0$，由题设得</p><p>$1+\\frac{t}{4}-\\frac{t^{2}}{2}=1$，即 $t(1-2t)=0$. 因为 $t>0$，所以 $AB=t=\\frac{1}{2}$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{1}{2}\\)",
+          "solution": "<p>设 $\\overrightarrow{AB}=\\mathbf{u}$，$\\overrightarrow{AD}=\\mathbf{v}$，则</p><p>$|\\mathbf{v}|=1$，$|\\mathbf{u}|=AB$，且 $\\mathbf{u}\\cdot\\mathbf{v}=\\frac{1}{2}|\\mathbf{u}|$.</p><p>取 $A$ 为原点，则 $C$ 的位置向量为 $\\mathbf{u}+\\mathbf{v}$，而 $E$ 为 $CD$ 的中点，所以</p><p>$\\overrightarrow{BE}=\\mathbf{v}-\\frac{1}{2}\\mathbf{u}$. 因而</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{BE}=(\\mathbf{u}+\\mathbf{v})\\cdot\\left(\\mathbf{v}-\\frac{1}{2}\\mathbf{u}\\right)  =1+\\frac{1}{4}|\\mathbf{u}|-\\frac{1}{2}|\\mathbf{u}|^{2}\n$$\n<p>令 $t=|\\mathbf{u}|>0$，由题设得</p><p>$1+\\frac{t}{4}-\\frac{t^{2}}{2}=1$，即 $t(1-2t)=0$. 因为 $t>0$，所以 $AB=t=\\frac{1}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
-          "body": "<p>如图，在圆内接梯形 $ABCD$ 中，$AB \\parallel DC$，过点 $A$ 作圆的切线与 $CB$ 的延长线交于点 $E$. 若 $AB = AD = 5$，$BE = 4$，则弦 $BD$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{15}{2}$",
-          "solution": "<p>因为圆内接梯形的两底平行，所以它是等腰梯形，从而 $BC=AD=5$. 又 $C$，$B$，$E$ 共线且 $BE=4$，故 $CE=9$.</p><p>由切线与割线定理，$EA^{2}=EB\\cdot EC=4\\cdot 9=36$，所以 $EA=6$. 在 $\\triangle ABE$ 中，由余弦定理</p>\n$$\n\\cos\\angle ABE=\\frac{AB^{2}+BE^{2}-AE^{2}}{2\\cdot AB\\cdot BE}=\\frac{25+16-36}{40}=\\frac{1}{8}\n$$\n<p>由于 $BE$ 是 $BC$ 的反向延长线，$\\angle ABE=\\pi-\\angle ABC$，故 $\\cos\\angle ABC=-\\frac{1}{8}$.</p><p>又由 $AB\\parallel DC$ 及四边形 $ABCD$ 圆内接，有 $\\angle DAB=\\angle ABC$，所以 $\\cos\\angle DAB=-\\frac{1}{8}$. 在等腰三角形 $\\triangle ABD$ 中，$AB=AD=5$，从而</p>\n$$\nBD^{2}=AB^{2}+AD^{2}-2AB\\cdot AD\\cos\\angle DAB  =25+25-50\\left(-\\frac{1}{8}\\right)=\\frac{225}{4}\n$$\n<p>因此 $BD=\\frac{15}{2}$.</p>"
+          "body": "<p>如图，在圆内接梯形 $ABCD$ 中，$AB \\parallel DC$，过点 $A$ 作圆的切线与 $CB$ 的延长线交于点 $E$. 若 $AB = AD = 5$，$BE = 4$，则弦 $BD$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/tianjin_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{15}{2}\\)",
+          "solution": "<p>因为圆内接梯形的两底平行，所以它是等腰梯形，从而 $BC=AD=5$. 又 $C$，$B$，$E$ 共线且 $BE=4$，故 $CE=9$.</p><p>由切线与割线定理，$EA^{2}=EB\\cdot EC=4\\cdot 9=36$，所以 $EA=6$. 在 $\\triangle ABE$ 中，由余弦定理</p>\n$$\n\\cos\\angle ABE=\\frac{AB^{2}+BE^{2}-AE^{2}}{2\\cdot AB\\cdot BE}=\\frac{25+16-36}{40}=\\frac{1}{8}\n$$\n<p>由于 $BE$ 是 $BC$ 的反向延长线，$\\angle ABE=\\pi-\\angle ABC$，故 $\\cos\\angle ABC=-\\frac{1}{8}$.</p><p>又由 $AB\\parallel DC$ 及四边形 $ABCD$ 圆内接，有 $\\angle DAB=\\angle ABC$，所以 $\\cos\\angle DAB=-\\frac{1}{8}$. 在等腰三角形 $\\triangle ABD$ 中，$AB=AD=5$，从而</p>\n$$\nBD^{2}=AB^{2}+AD^{2}-2AB\\cdot AD\\cos\\angle DAB  =25+25-50\\left(-\\frac{1}{8}\\right)=\\frac{225}{4}\n$$\n<p>因此 $BD=\\frac{15}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "设 $a + b = 2$，$b > 0$，则 $\\frac{1}{2|a|}+ \\frac{|a|}{b}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{3}{4}$",
-          "solution": "<p>因为分母中有 $|a|$，所以 $a\\neq 0$. 分两种情况讨论.</p><p>当 $a<0$ 时，令 $x=|a|=-a>0$，则 $b=x+2$，且</p>\n$$\n\\frac{1}{2|a|}+\\frac{|a|}{b}-\\frac{3}{4}=\\frac{1}{2x}+\\frac{x}{x+2}-\\frac{3}{4}=\\frac{(x-2)^{2}}{4x(x+2)}\\ge 0\n$$\n<p>等号在 $x=2$，即 $a=-2$，$b=4$ 时取得.</p><p>当 $a>0$ 时，令 $x=a$，则 $0<x<2$，$b=2-x$，并且</p>\n$$\n\\frac{1}{2|a|}+\\frac{|a|}{b}-\\frac{5}{4}=\\frac{1}{2x}+\\frac{x}{2-x}-\\frac{5}{4}=\\frac{(3x-2)^{2}}{4x(2-x)}\\ge 0\n$$\n<p>此时原式最小为 $\\frac{5}{4}>\\frac{3}{4}$. 综上，原式的最小值为 $\\frac{3}{4}$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{3}{4}\\)",
+          "solution": "<p>因为分母中有 $|a|$，所以 $a\\neq 0$. 分两种情况讨论.</p><p>当 $a<0$ 时，令 $x=|a|=-a>0$，则 $b=x+2$，且</p>\n$$\n\\frac{1}{2|a|}+\\frac{|a|}{b}-\\frac{3}{4}=\\frac{1}{2x}+\\frac{x}{x+2}-\\frac{3}{4}=\\frac{(x-2)^{2}}{4x(x+2)}\\ge 0\n$$\n<p>等号在 $x=2$，即 $a=-2$，$b=4$ 时取得.</p><p>当 $a>0$ 时，令 $x=a$，则 $0<x<2$，$b=2-x$，并且</p>\n$$\n\\frac{1}{2|a|}+\\frac{|a|}{b}-\\frac{5}{4}=\\frac{1}{2x}+\\frac{x}{2-x}-\\frac{5}{4}=\\frac{(3x-2)^{2}}{4x(2-x)}\\ge 0\n$$\n<p>此时原式最小为 $\\frac{5}{4}>\\frac{3}{4}$. 综上，原式的最小值为 $\\frac{3}{4}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -157,45 +308,57 @@
       "problems": [
         {
           "num": 15,
-          "body": "<p>某产品的三个质量指标分别为 $x$，$y$，$z$，用综合指标 $S = x + y + z$ 评价该产品的等级. 若 $S \\le 4$，则该产品为一等品. 现从一批该产品中，随机抽取 $10$ 件产品作为样本，其质量指标列表如下：</p><center class=\"center\"><span class=\"macro macro-begingroup\"></span><br><br><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1.2</span></span><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>产品编号 </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{1}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{2}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{3}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{4}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{5}$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>质量指标 $(x,y,z)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(1,1,2)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(2,1,1)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(2,2,2)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(1,1,1)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(1,2,1)$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>产品编号 </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{6}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{7}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{8}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{9}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{10}$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>质量指标 $(x,y,z)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(1,2,2)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(2,1,1)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(2,2,1)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(1,1,1)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(2,1,2)$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table><br><span class=\"macro macro-endgroup\"></span></center><ol class=\"enumerate\"><li><p>利用上表提供的样本数据估计出该批产品的一等品率；</p></li><li><p>在该样本的一等品中，随机抽取 $2$ 件产品.</p><p></p><ol class=\"enumerate\"><li><p>用产品编号列出所有可能的结果；</p></li><li><p>设事件 $B$ 为“在取出的 $2$ 件产品中，每件产品的综合指标 $S$ 都等于 $4$”，求事件 $B$ 发生的概率.</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "body": "<p>某产品的三个质量指标分别为 $x$，$y$，$z$，用综合指标 $S = x + y + z$ 评价该产品的等级. 若 $S \\le 4$，则该产品为一等品. 现从一批该产品中，随机抽取 $10$ 件产品作为样本，其质量指标列表如下：</p><center class=\"center\"><span class=\"macro macro-begingroup\"></span><br><br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">产品编号 </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{1}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{2}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{3}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{4}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{5}$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">质量指标 $(x,y,z)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(1,1,2)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(2,1,1)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(2,2,2)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(1,1,1)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(1,2,1)$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">产品编号 </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{6}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{7}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{8}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{9}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{10}$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">质量指标 $(x,y,z)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(1,2,2)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(2,1,1)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(2,2,1)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(1,1,1)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $(2,1,2)$ </td></tr></tbody></table><br><span class=\"macro macro-endgroup\"></span></center><ol class=\"enumerate\"><li><p>利用上表提供的样本数据估计出该批产品的一等品率；</p></li><li><p>在该样本的一等品中，随机抽取 $2$ 件产品.</p><p></p><ol class=\"enumerate\"><li><p>用产品编号列出所有可能的结果；</p></li><li><p>设事件 $B$ 为“在取出的 $2$ 件产品中，每件产品的综合指标 $S$ 都等于 $4$”，求事件 $B$ 发生的概率.</p></li></ol><p></p></li></ol>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>逐件计算综合指标 $S=x+y+z$，得到</p><p>$S_{A_1}=4$，$S_{A_2}=4$，$S_{A_3}=6$，$S_{A_4}=3$，$S_{A_5}=4$，$S_{A_6}=5$，$S_{A_7}=4$，$S_{A_8}=5$，$S_{A_9}=3$，$S_{A_{10}}=5$.</p><p>其中 $S\\le 4$ 的产品为 $A_{1}$，$A_{2}$，$A_{4}$，$A_{5}$，$A_{7}$，$A_{9}$，共有 $6$ 件. 因此用样本一等品数估计该批产品的一等品率为</p><p>$\\frac{6}{10}=0.6$.</p></li><li><p>在样本的一等品中共有 $6$ 件，任取 $2$ 件且不计顺序，所有可能结果为</p><p>$\\{A_{1},A_{2}\\}$，$\\{A_{1},A_{4}\\}$，$\\{A_{1},A_{5}\\}$，$\\{A_{1},A_{7}\\}$，$\\{A_{1},A_{9}\\}$，$\\{A_{2},A_{4}\\}$，$\\{A_{2},A_{5}\\}$，$\\{A_{2},A_{7}\\}$，$\\{A_{2},A_{9}\\}$，$\\{A_{4},A_{5}\\}$，$\\{A_{4},A_{7}\\}$，$\\{A_{4},A_{9}\\}$，$\\{A_{5},A_{7}\\}$，$\\{A_{5},A_{9}\\}$，$\\{A_{7},A_{9}\\}$.</p><p></p><ol class=\"enumerate\"><li><p>以上 $15$ 个无序二元集合就是所有可能结果.</p></li><li><p>综合指标等于 $4$ 的一等品为 $A_{1}$，$A_{2}$，$A_{5}$，$A_{7}$，所以事件 $B$ 包含 $\\mathrm{C}_{4}^{2}=6$ 个结果，而所有结果共有 $\\mathrm{C}_{6}^{2}=15$ 个. 因此</p><p>$P(B)=\\frac{\\mathrm{C}_{4}^{2}}{\\mathrm{C}_{6}^{2}}=\\frac{6}{15}=\\frac{2}{5}$.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>逐件计算综合指标 $S=x+y+z$，得到</p><p>$S_{A_1}=4$，$S_{A_2}=4$，$S_{A_3}=6$，$S_{A_4}=3$，$S_{A_5}=4$，$S_{A_6}=5$，$S_{A_7}=4$，$S_{A_8}=5$，$S_{A_9}=3$，$S_{A_{10}}=5$.</p><p>其中 $S\\le 4$ 的产品为 $A_{1}$，$A_{2}$，$A_{4}$，$A_{5}$，$A_{7}$，$A_{9}$，共有 $6$ 件. 因此用样本一等品数估计该批产品的一等品率为</p><p>$\\frac{6}{10}=0.6$.</p></li><li><p>在样本的一等品中共有 $6$ 件，任取 $2$ 件且不计顺序，所有可能结果为</p><p>$\\{A_{1},A_{2}\\}$，$\\{A_{1},A_{4}\\}$，$\\{A_{1},A_{5}\\}$，$\\{A_{1},A_{7}\\}$，$\\{A_{1},A_{9}\\}$，$\\{A_{2},A_{4}\\}$，$\\{A_{2},A_{5}\\}$，$\\{A_{2},A_{7}\\}$，$\\{A_{2},A_{9}\\}$，$\\{A_{4},A_{5}\\}$，$\\{A_{4},A_{7}\\}$，$\\{A_{4},A_{9}\\}$，$\\{A_{5},A_{7}\\}$，$\\{A_{5},A_{9}\\}$，$\\{A_{7},A_{9}\\}$.</p><p></p><ol class=\"enumerate\"><li><p>以上 $15$ 个无序二元集合就是所有可能结果.</p></li><li><p>综合指标等于 $4$ 的一等品为 $A_{1}$，$A_{2}$，$A_{5}$，$A_{7}$，所以事件 $B$ 包含 $\\mathrm{C}_{4}^{2}=6$ 个结果，而所有结果共有 $\\mathrm{C}_{6}^{2}=15$ 个. 因此</p><p>$P(B)=\\frac{\\mathrm{C}_{4}^{2}}{\\mathrm{C}_{6}^{2}}=\\frac{6}{15}=\\frac{2}{5}$.</p></li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别是 $a$，$b$，$c$，已知 $b \\sin A = 3c \\sin B$，$a = 3$，$\\cos B = \\frac{2}{3}$.</p><ol class=\"enumerate\"><li><p>求 $b$ 的值；</p></li><li><p>求 $\\sin\\left(2B-\\frac{\\pi}{3}\\right)$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$，所以 $b\\sin A=a\\sin B$. 结合题设 $b\\sin A=3c\\sin B$，且 $\\sin B>0$，得 $a=3c$. 因为 $a=3$，所以 $c=1$.</p><p>由余弦定理及 $\\cos B=\\frac{2}{3}$，有</p>\n$$\nb^{2}=a^{2}+c^{2}-2ac\\cos B=3^{2}+1^{2}-2\\cdot3\\cdot1\\cdot\\frac{2}{3}=6\n$$\n<p>由于 $b>0$，故 $b=\\sqrt{6}$.</p></li><li><p>因为 $B$ 是三角形内角，所以 $\\sin B=\\sqrt{1-\\cos^{2}B}=\\frac{\\sqrt{5}}{3}$. 于是</p><p>$\\sin 2B=2\\sin B\\cos B=\\frac{4\\sqrt{5}}{9}$，$\\cos 2B=2\\cos^{2}B-1=-\\frac{1}{9}$. 因此</p>\n$$\n\\sin\\left(2B-\\frac{\\pi}{3}\\right)  =\\sin 2B\\cos\\frac{\\pi}{3}-\\cos 2B\\sin\\frac{\\pi}{3}=\\frac{4\\sqrt{5}}{9}\\cdot\\frac{1}{2}+\\frac{1}{9}\\cdot\\frac{\\sqrt{3}}{2}=\\frac{4\\sqrt{5}+\\sqrt{3}}{18}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$，所以 $b\\sin A=a\\sin B$. 结合题设 $b\\sin A=3c\\sin B$，且 $\\sin B>0$，得 $a=3c$. 因为 $a=3$，所以 $c=1$.</p><p>由余弦定理及 $\\cos B=\\frac{2}{3}$，有</p>\n$$\nb^{2}=a^{2}+c^{2}-2ac\\cos B=3^{2}+1^{2}-2\\cdot3\\cdot1\\cdot\\frac{2}{3}=6\n$$\n<p>由于 $b>0$，故 $b=\\sqrt{6}$.</p></li><li><p>因为 $B$ 是三角形内角，所以 $\\sin B=\\sqrt{1-\\cos^{2}B}=\\frac{\\sqrt{5}}{3}$. 于是</p><p>$\\sin 2B=2\\sin B\\cos B=\\frac{4\\sqrt{5}}{9}$，$\\cos 2B=2\\cos^{2}B-1=-\\frac{1}{9}$. 因此</p>\n$$\n\\sin\\left(2B-\\frac{\\pi}{3}\\right)  =\\sin 2B\\cos\\frac{\\pi}{3}-\\cos 2B\\sin\\frac{\\pi}{3}=\\frac{4\\sqrt{5}}{9}\\cdot\\frac{1}{2}+\\frac{1}{9}\\cdot\\frac{\\sqrt{3}}{2}=\\frac{4\\sqrt{5}+\\sqrt{3}}{18}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图，三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，侧棱 $A_{1}A \\perp$ 底面 $ABC$，且各棱长均相等，$D$，$E$，$F$ 分别为棱 $AB$，$BC$，$A_{1}C_{1}$ 的中点.</p><ol class=\"enumerate\"><li><p>证明 $EF \\parallel$ 平面 $A_{1}CD$；</p></li><li><p>证明平面 $A_{1}CD \\perp$ 平面 $A_{1}ABB_{1}$；</p></li><li><p>求直线 $BC$ 与平面 $A_{1}CD$ 所成角的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，侧棱 $A_{1}A \\perp$ 底面 $ABC$，且各棱长均相等，$D$，$E$，$F$ 分别为棱 $AB$，$BC$，$A_{1}C_{1}$ 的中点.</p><ol class=\"enumerate\"><li><p>证明 $EF \\parallel$ 平面 $A_{1}CD$；</p></li><li><p>证明平面 $A_{1}CD \\perp$ 平面 $A_{1}ABB_{1}$；</p></li><li><p>求直线 $BC$ 与平面 $A_{1}CD$ 所成角的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/tianjin_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>因三棱柱的各棱长均相等，底面 $ABC$ 为边长相等的等边三角形. 设各棱长为 $l>0$，建立空间直角坐标系，使</p><p>$A(0,0,0)$，$B(l,0,0)$，$C\\left(\\frac{l}{2},\\frac{\\sqrt{3}l}{2},0\\right)$，$A_{1}(0,0,l)$.</p><p>则</p><p>$D\\left(\\frac{l}{2},0,0\\right)$，$E\\left(\\frac{3l}{4},\\frac{\\sqrt{3}l}{4},0\\right)$，$F\\left(\\frac{l}{4},\\frac{\\sqrt{3}l}{4},l\\right)$.</p><ol class=\"enumerate\"><li><p>平面 $A_{1}CD$ 经过 $A_{1}$，$C$，$D$，其方程为 $2x+z=l$，故可取法向量 $\\mathbf{n}=(2,0,1)$. 又</p><p>$\\overrightarrow{EF}=\\left(-\\frac{l}{2},0,l\\right)$，从而 $\\overrightarrow{EF}\\cdot\\mathbf{n}=0$. 另外点 $E$ 不在平面 $A_{1}CD$ 上，因此 $EF\\parallel$ 平面 $A_{1}CD$.</p></li><li><p>平面 $A_{1}ABB_{1}$ 的方程为 $y=0$，可取法向量 $\\mathbf{m}=(0,1,0)$. 因为 $\\mathbf{n}\\cdot\\mathbf{m}=0$，所以两平面的法向量垂直，故平面 $A_{1}CD\\perp$ 平面 $A_{1}ABB_{1}$.</p></li><li><p>设直线 $BC$ 与平面 $A_{1}CD$ 所成的角为 $\\theta$. 取直线 $BC$ 的单位方向向量</p><p>$\\mathbf{v}=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，则</p>\n$$\n\\sin\\theta=\\frac{|\\mathbf{v}\\cdot\\mathbf{n}|}{|\\mathbf{v}|\\,|\\mathbf{n}|}=\\frac{1}{\\sqrt{5}}=\\frac{\\sqrt{5}}{5}\n$$\n</li></ol>"
+          "solution": "<p>因三棱柱的各棱长均相等，底面 $ABC$ 为边长相等的等边三角形. 设各棱长为 $l>0$，建立空间直角坐标系，使</p><p>$A(0,0,0)$，$B(l,0,0)$，$C\\left(\\frac{l}{2},\\frac{\\sqrt{3}l}{2},0\\right)$，$A_{1}(0,0,l)$.</p><p>则</p><p>$D\\left(\\frac{l}{2},0,0\\right)$，$E\\left(\\frac{3l}{4},\\frac{\\sqrt{3}l}{4},0\\right)$，$F\\left(\\frac{l}{4},\\frac{\\sqrt{3}l}{4},l\\right)$.</p><ol class=\"enumerate\"><li><p>平面 $A_{1}CD$ 经过 $A_{1}$，$C$，$D$，其方程为 $2x+z=l$，故可取法向量 $\\mathbf{n}=(2,0,1)$. 又</p><p>$\\overrightarrow{EF}=\\left(-\\frac{l}{2},0,l\\right)$，从而 $\\overrightarrow{EF}\\cdot\\mathbf{n}=0$. 另外点 $E$ 不在平面 $A_{1}CD$ 上，因此 $EF\\parallel$ 平面 $A_{1}CD$.</p></li><li><p>平面 $A_{1}ABB_{1}$ 的方程为 $y=0$，可取法向量 $\\mathbf{m}=(0,1,0)$. 因为 $\\mathbf{n}\\cdot\\mathbf{m}=0$，所以两平面的法向量垂直，故平面 $A_{1}CD\\perp$ 平面 $A_{1}ABB_{1}$.</p></li><li><p>设直线 $BC$ 与平面 $A_{1}CD$ 所成的角为 $\\theta$. 取直线 $BC$ 的单位方向向量</p><p>$\\mathbf{v}=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，则</p>\n$$\n\\sin\\theta=\\frac{|\\mathbf{v}\\cdot\\mathbf{n}|}{|\\mathbf{v}|\\,|\\mathbf{n}|}=\\frac{1}{\\sqrt{5}}=\\frac{\\sqrt{5}}{5}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>设椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ （$a > b > 0$）的左焦点为 $F$，离心率为 $\\frac{\\sqrt{3}}{3}$，过点 $F$ 且与 $x$ 轴垂直的直线被椭圆截得的线段长为 $\\frac{4\\sqrt{3}}{3}$.</p><ol class=\"enumerate\"><li><p>求椭圆的方程；</p></li><li><p>设 $A$，$B$ 分别为椭圆的左，右顶点，过点 $F$ 且斜率为 $k$ 的直线与椭圆交于 $C$，$D$ 两点. 若 $\\overrightarrow{AC}\\cdot \\overrightarrow{DB}+ \\overrightarrow{AD}\\cdot \\overrightarrow{CB}= 8$，求 $k$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆焦半距为 $c$，则 $\\frac{c}{a}=\\frac{\\sqrt{3}}{3}$，即 $c^{2}=\\frac{a^{2}}{3}$. 过左焦点的竖直线为 $x=-c$，代入椭圆方程，所得弦长为</p>\n$$\n2b\\sqrt{1-\\frac{c^{2}}{a^{2}}}=2b\\sqrt{\\frac{2}{3}}=\\frac{4\\sqrt{3}}{3}\n$$\n<p>故 $b^{2}=2$. 又 $b^{2}=a^{2}-c^{2}=\\frac{2a^{2}}{3}$，所以 $a^{2}=3$，进而 $c=1$. 椭圆方程为</p><p>$\\frac{x^{2}}{3}+\\frac{y^{2}}{2}=1$.</p></li><li><p>此时 $A(-\\sqrt{3},0)$，$B(\\sqrt{3},0)$，$F(-1,0)$. 设</p><p>$C(x_{1},y_{1})$，$D(x_{2},y_{2})$，则直线 $CD$ 的方程为 $y=k(x+1)$. 与椭圆联立，得</p>\n$$\n(2+3k^{2})x^{2}+6k^{2}x+3k^{2}-6=0\n$$\n<p>所以</p><p>$x_{1}+x_{2}=-\\frac{6k^{2}}{2+3k^{2}}$，$x_{1}x_{2}=\\frac{3k^{2}-6}{2+3k^{2}}$.</p><p>又 $y_{i}=k(x_{i}+1)$，故</p>\n$$\ny_{1}y_{2}=k^{2}(x_{1}+1)(x_{2}+1)=-\\frac{4k^{2}}{2+3k^{2}}\n$$\n<p>由向量坐标表示，</p><p>$\\overrightarrow{AC}=\\left(x_{1}+\\sqrt{3},y_{1}\\right)$，$\\overrightarrow{DB}=\\left(\\sqrt{3}-x_{2},-y_{2}\\right)$</p><p>$\\overrightarrow{AD}=\\left(x_{2}+\\sqrt{3},y_{2}\\right)$，$\\overrightarrow{CB}=\\left(\\sqrt{3}-x_{1},-y_{1}\\right)$.</p><p>因此题设左端为</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{DB}+\\overrightarrow{AD}\\cdot\\overrightarrow{CB}=2\\left(3-x_{1}x_{2}-y_{1}y_{2}\\right)\n$$\n<p>代入 $x_{1}x_{2}$ 和 $y_{1}y_{2}$ 的值，得</p>\n$$\n2\\left(3-\\frac{3k^{2}-6}{2+3k^{2}}+\\frac{4k^{2}}{2+3k^{2}}\\right)  =\\frac{24+20k^{2}}{2+3k^{2}}\n$$\n<p>令其等于 $8$，得 $24+20k^{2}=16+24k^{2}$，即 $k^{2}=2$. 因此 $k=\\pm\\sqrt{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆焦半距为 $c$，则 $\\frac{c}{a}=\\frac{\\sqrt{3}}{3}$，即 $c^{2}=\\frac{a^{2}}{3}$. 过左焦点的竖直线为 $x=-c$，代入椭圆方程，所得弦长为</p>\n$$\n2b\\sqrt{1-\\frac{c^{2}}{a^{2}}}=2b\\sqrt{\\frac{2}{3}}=\\frac{4\\sqrt{3}}{3}\n$$\n<p>故 $b^{2}=2$. 又 $b^{2}=a^{2}-c^{2}=\\frac{2a^{2}}{3}$，所以 $a^{2}=3$，进而 $c=1$. 椭圆方程为</p><p>$\\frac{x^{2}}{3}+\\frac{y^{2}}{2}=1$.</p></li><li><p>此时 $A(-\\sqrt{3},0)$，$B(\\sqrt{3},0)$，$F(-1,0)$. 设</p><p>$C(x_{1},y_{1})$，$D(x_{2},y_{2})$，则直线 $CD$ 的方程为 $y=k(x+1)$. 与椭圆联立，得</p>\n$$\n(2+3k^{2})x^{2}+6k^{2}x+3k^{2}-6=0\n$$\n<p>所以</p><p>$x_{1}+x_{2}=-\\frac{6k^{2}}{2+3k^{2}}$，$x_{1}x_{2}=\\frac{3k^{2}-6}{2+3k^{2}}$.</p><p>又 $y_{i}=k(x_{i}+1)$，故</p>\n$$\ny_{1}y_{2}=k^{2}(x_{1}+1)(x_{2}+1)=-\\frac{4k^{2}}{2+3k^{2}}\n$$\n<p>由向量坐标表示，</p><p>$\\overrightarrow{AC}=\\left(x_{1}+\\sqrt{3},y_{1}\\right)$，$\\overrightarrow{DB}=\\left(\\sqrt{3}-x_{2},-y_{2}\\right)$</p><p>$\\overrightarrow{AD}=\\left(x_{2}+\\sqrt{3},y_{2}\\right)$，$\\overrightarrow{CB}=\\left(\\sqrt{3}-x_{1},-y_{1}\\right)$.</p><p>因此题设左端为</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{DB}+\\overrightarrow{AD}\\cdot\\overrightarrow{CB}=2\\left(3-x_{1}x_{2}-y_{1}y_{2}\\right)\n$$\n<p>代入 $x_{1}x_{2}$ 和 $y_{1}y_{2}$ 的值，得</p>\n$$\n2\\left(3-\\frac{3k^{2}-6}{2+3k^{2}}+\\frac{4k^{2}}{2+3k^{2}}\\right)  =\\frac{24+20k^{2}}{2+3k^{2}}\n$$\n<p>令其等于 $8$，得 $24+20k^{2}=16+24k^{2}$，即 $k^{2}=2$. 因此 $k=\\pm\\sqrt{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知首项为 $\\frac{3}{2}$ 的等比数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$ （$n \\in \\mathbf{N}^{*}$），且 $-2S_{2}$，$S_{3}$，$4S_{4}$ 成等差数列.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>证明 $S_{n}+ \\frac{1}{S_{n}}\\le \\frac{13}{6}$ （$n \\in \\mathbf{N}^{*}$）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设等比数列的公比为 $q$，由等差数列条件得</p>\n$$\nS_{3}-(-2S_{2})=4S_{4}-S_{3}\n$$\n<p>即 $S_{3}+S_{2}=2S_{4}$. 代入</p><p>$S_{2}=\\frac{3}{2}(1+q)$，$S_{3}=\\frac{3}{2}(1+q+q^{2})$，$S_{4}=\\frac{3}{2}(1+q+q^{2}+q^{3})$，得</p><p>$q^{2}(1+2q)=0$. 等比数列的公比不为零，故 $q=-\\frac{1}{2}$，从而</p>\n$$\na_{n}=\\frac{3}{2}\\left(-\\frac{1}{2}\\right)^{n-1}\n$$\n<p>又</p>\n$$\nS_{n}=\\frac{a_{1}(1-q^{n})}{1-q}=1-\\left(-\\frac{1}{2}\\right)^{n}\n$$\n<p>当 $n\\in\\mathbb{N}^{*}$ 时，$-\\frac{1}{2}\\le\\left(-\\frac{1}{2}\\right)^{n}\\le\\frac{1}{4}$，所以 $\\frac{3}{4}\\le S_{n}\\le\\frac{3}{2}$. 特别地 $S_{n}>0$，且</p>\n$$\n\\frac{13}{6}-S_{n}-\\frac{1}{S_{n}}=-\\frac{(3S_{n}-2)(2S_{n}-3)}{6S_{n}}\\ge 0\n$$\n<p>因为 $S_{n}\\in\\left[\\frac{3}{4},\\frac{3}{2}\\right]\\subset\\left[\\frac{2}{3},\\frac{3}{2}\\right]$. 因此</p><p>$S_{n}+\\frac{1}{S_{n}}\\le\\frac{13}{6}$.</p>"
+          "solution": "<p>设等比数列的公比为 $q$，由等差数列条件得</p>\n$$\nS_{3}-(-2S_{2})=4S_{4}-S_{3}\n$$\n<p>即 $S_{3}+S_{2}=2S_{4}$. 代入</p><p>$S_{2}=\\frac{3}{2}(1+q)$，$S_{3}=\\frac{3}{2}(1+q+q^{2})$，$S_{4}=\\frac{3}{2}(1+q+q^{2}+q^{3})$，得</p><p>$q^{2}(1+2q)=0$. 等比数列的公比不为零，故 $q=-\\frac{1}{2}$，从而</p>\n$$\na_{n}=\\frac{3}{2}\\left(-\\frac{1}{2}\\right)^{n-1}\n$$\n<p>又</p>\n$$\nS_{n}=\\frac{a_{1}(1-q^{n})}{1-q}=1-\\left(-\\frac{1}{2}\\right)^{n}\n$$\n<p>当 $n\\in\\mathbb{N}^{*}$ 时，$-\\frac{1}{2}\\le\\left(-\\frac{1}{2}\\right)^{n}\\le\\frac{1}{4}$，所以 $\\frac{3}{4}\\le S_{n}\\le\\frac{3}{2}$. 特别地 $S_{n}>0$，且</p>\n$$\n\\frac{13}{6}-S_{n}-\\frac{1}{S_{n}}=-\\frac{(3S_{n}-2)(2S_{n}-3)}{6S_{n}}\\ge 0\n$$\n<p>因为 $S_{n}\\in\\left[\\frac{3}{4},\\frac{3}{2}\\right]\\subset\\left[\\frac{2}{3},\\frac{3}{2}\\right]$. 因此</p><p>$S_{n}+\\frac{1}{S_{n}}\\le\\frac{13}{6}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>设 $a \\in [-2,0]$，已知函数 $f(x) = \\begin{cases}x^{3} - (a + 5)x,&x \\le 0,\\\\  x^{3} - \\frac{a + 3}{2}x^{2} + ax,&x > 0.\\end{cases}$</p><ol class=\"enumerate\"><li><p>证明： $f(x)$ 在区间 $(-1,1)$ 内单调递减，在区间 $(1,+\\infty)$ 内单调递增；</p></li><li><p>设曲线 $y = f(x)$ 在点 $P_{i}(x_{i}, f(x_{i}))$ （$i = 1$，$2$，$3$） 处的切线相互平行，且 $x_{1}x_{2}x_{3}\\neq 0$，证明：$x_{1}+ x_{2}+ x_{3}> -\\frac{1}{3}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>记</p><p>$f_{1}(x)=x^{3}-(a+5)x$，（$x\\leqslant0$），$f_{2}(x)=x^{3}-\\frac{a+3}{2}x^{2}+ax$，（$x>0$）.</p><ol class=\"enumerate\"><li><p>当 $-1<x<0$ 时，</p><p>$f_{1}'(x)=3x^{2}-(a+5)<3-(a+5)\\leqslant0$，且不等号严格成立；所以 $f_{1}$ 在 $(-1,0)$ 内单调递减.</p><p>当 $x>0$ 时，</p>\n$$\nf_{2}'(x)=3x^{2}-(a+3)x+a=(3x-a)(x-1)\n$$\n<p>由于 $a\\leqslant0$，当 $0<x<1$ 时 $3x-a>0$，$x-1<0$，所以 $f_{2}'(x)<0$；当 $x>1$ 时两个因子均为正，所以 $f_{2}'(x)>0$. 又当 $-1<x<0$ 时，$f_{1}(x)>f_{1}(0)=0$，当 $0<x<1$ 时，$f_{2}(x)<f_{2}(0)=0$，故跨过 $x=0$ 仍保持严格递减. 因此 $f(x)$ 在 $(-1,1)$ 内单调递减，在 $(1,+\\infty)$ 内单调递增.</p></li><li><p>设三条切线的公共斜率为 $m$. 因为 $x_{i}\\neq0$，且</p><p>$f_{1}''(x)=6x<0$（$x<0$），所以方程 $f_{1}'(x)=m$ 在</p><p>$(-\\infty,0)$ 内至多有一个解；方程 $f_{2}'(x)=m$ 是关于 $x$ 的二次方程，在</p><p>$(0,+\\infty)$ 内至多有两个解. 所以不妨设</p><p>$x_{1}<0<x_{2}<x_{3}$. 其中 $x_{2}$，$x_{3}$ 是方程</p>\n$$\n3x^{2}-(a+3)x+a-m=0\n$$\n<p>的两个正根，故</p><p>$x_{2}+x_{3}=\\frac{a+3}{3}$，$\\frac{a-m}{3}=x_{2}x_{3}>0$.</p><p>于是 $m<a$. 又 $x_{1}$ 满足 $3x_{1}^{2}-(a+5)=m$，所以</p>\n$$\n3x_{1}^{2}=m+a+5<2a+5\n$$\n<p>从而</p>\n$$\nx_{1}> -\\sqrt{\\frac{2a+5}{3}}\n$$\n<p>对 $a\\in[-2,0]$，有</p>\n$$\n\\frac{(a+4)^{2}}{9}-\\frac{2a+5}{3}=\\frac{(a+1)^{2}}{9}\\geqslant0\n$$\n<p>且 $a+4>0$，所以 $\\sqrt{\\frac{2a+5}{3}}\\le\\frac{a+4}{3}$. 因此</p>\n$$\nx_{1}+x_{2}+x_{3}> -\\frac{a+4}{3}+\\frac{a+3}{3}=-\\frac{1}{3}\n$$\n</li></ol>"
+          "solution": "<p>记</p><p>$f_{1}(x)=x^{3}-(a+5)x$，（$x\\leqslant0$），$f_{2}(x)=x^{3}-\\frac{a+3}{2}x^{2}+ax$，（$x>0$）.</p><ol class=\"enumerate\"><li><p>当 $-1<x<0$ 时，</p><p>$f_{1}'(x)=3x^{2}-(a+5)<3-(a+5)\\leqslant0$，且不等号严格成立；所以 $f_{1}$ 在 $(-1,0)$ 内单调递减.</p><p>当 $x>0$ 时，</p>\n$$\nf_{2}'(x)=3x^{2}-(a+3)x+a=(3x-a)(x-1)\n$$\n<p>由于 $a\\leqslant0$，当 $0<x<1$ 时 $3x-a>0$，$x-1<0$，所以 $f_{2}'(x)<0$；当 $x>1$ 时两个因子均为正，所以 $f_{2}'(x)>0$. 又当 $-1<x<0$ 时，$f_{1}(x)>f_{1}(0)=0$，当 $0<x<1$ 时，$f_{2}(x)<f_{2}(0)=0$，故跨过 $x=0$ 仍保持严格递减. 因此 $f(x)$ 在 $(-1,1)$ 内单调递减，在 $(1,+\\infty)$ 内单调递增.</p></li><li><p>设三条切线的公共斜率为 $m$. 因为 $x_{i}\\neq0$，且</p><p>$f_{1}''(x)=6x<0$（$x<0$），所以方程 $f_{1}'(x)=m$ 在</p><p>$(-\\infty,0)$ 内至多有一个解；方程 $f_{2}'(x)=m$ 是关于 $x$ 的二次方程，在</p><p>$(0,+\\infty)$ 内至多有两个解. 所以不妨设</p><p>$x_{1}<0<x_{2}<x_{3}$. 其中 $x_{2}$，$x_{3}$ 是方程</p>\n$$\n3x^{2}-(a+3)x+a-m=0\n$$\n<p>的两个正根，故</p><p>$x_{2}+x_{3}=\\frac{a+3}{3}$，$\\frac{a-m}{3}=x_{2}x_{3}>0$.</p><p>于是 $m<a$. 又 $x_{1}$ 满足 $3x_{1}^{2}-(a+5)=m$，所以</p>\n$$\n3x_{1}^{2}=m+a+5<2a+5\n$$\n<p>从而</p>\n$$\nx_{1}> -\\sqrt{\\frac{2a+5}{3}}\n$$\n<p>对 $a\\in[-2,0]$，有</p>\n$$\n\\frac{(a+4)^{2}}{9}-\\frac{2a+5}{3}=\\frac{(a+1)^{2}}{9}\\geqslant0\n$$\n<p>且 $a+4>0$，所以 $\\sqrt{\\frac{2a+5}{3}}\\le\\frac{a+4}{3}$. 因此</p>\n$$\nx_{1}+x_{2}+x_{3}> -\\frac{a+4}{3}+\\frac{a+3}{3}=-\\frac{1}{3}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

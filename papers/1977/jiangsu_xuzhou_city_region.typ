@@ -97,7 +97,9 @@
 #problem(6)[
 一船在 #mi(`A`) 点测得灯塔 #mi(`C`) 在其北偏东 #mi(`45^{\circ}`) 的方向，此船以每小时 #mi(`18\text{ \text{海里}}`) 的速度向南航行半小时至 #mi(`B`) 后，又测得灯塔在其北偏东 #mi(`15^{\circ}`) 的方向，求此时船与灯塔的距离 #mi(`BC`).
 
-[max width=6.0cm]img/1977/jiangsu_xuzhou_city_region/q6_fig1.png
+
+#align(center)[#image("/papers/1977/img/jiangsu_xuzhou_city_region/q6_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -130,7 +132,9 @@ BC=9\times\frac{\sin135^{\circ}}{\sin30^{\circ}}=9\times\frac{\frac{\sqrt{2}}{2}
 #problem(7)[
 某生产队准备在一边靠墙的地方建一个长方形的猪圈，现有一堆旧砖，可以垒成 #mi(`20\mathrm{~m}`) 长的围墙（门在内）. 问应怎样选取猪圈的宽才能使垒成的猪圈面积最大？最大面积是多少？
 
-[max width=6.2cm]img/1977/jiangsu_xuzhou_city_region/q7_fig1.png
+
+#align(center)[#image("/papers/1977/img/jiangsu_xuzhou_city_region/q7_fig1.png", width: 28%)]
+
 ]
 
 #solution[

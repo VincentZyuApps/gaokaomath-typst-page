@@ -1,8 +1,143 @@
 {
-  "title": "2001年普通高等学校招生全国统一考试",
-  "subtitle": "2001年京蒙皖卷（春文）",
   "year": "2001",
   "slug": "jing_meng_wan_liberal_spring",
+  "title": "2001年京蒙皖卷（春文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$15$"
           ],
           "answer": "A",
-          "solution": "<p>集合 $M$ 有 $5$ 个元素. 对于 $M$ 中的每一个元素，选入子集或不选入子集各有 $2$ 种选择，且这些选择彼此独立，因此子集总数为</p>\n$$\n2^{5}=32\n$$\n<p>所以选 A.</p>"
+          "solution": "<p>集合 $M$ 有 $5$ 个元素. 对于 $M$ 中的每一个元素，选入子集或不选入子集各有 $2$ 种选择，且这些选择彼此独立，因此子集总数为</p>\n$$\n2^{5}=32\n$$\n<p>所以选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$f(x + y) = f(x) + f(y)$"
           ],
           "answer": "C",
-          "solution": "由指数运算法则，$f(x+y)=a^{x+y}=a^{x} a^{y}=f(x)f(y)$，所以第三个选项正确. 例如取 $x=y=0$，第二个和第四个选项都变成 $1=2$，不成立；而第一个选项要求对任意 $x$，$y$ 有 $a^{xy}=a^{x+y}$，取 $x=2$，$y=3$ 得 $a^{6}=a^{5}$，这与 $a\\neq1$ 矛盾. 因此正确选项为第三个选项."
+          "solution": "由指数运算法则，$f(x+y)=a^{x+y}=a^{x} a^{y}=f(x)f(y)$，所以第三个选项正确. 例如取 $x=y=0$，第二个和第四个选项都变成 $1=2$，不成立；而第一个选项要求对任意 $x$，$y$ 有 $a^{xy}=a^{x+y}$，取 $x=2$，$y=3$ 得 $a^{6}=a^{5}$，这与 $a\\neq1$ 矛盾. 因此正确选项为第三个选项.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$\\frac{1}{4}$"
           ],
           "answer": "D",
-          "solution": "$$\n\\frac{\\mathrm{C}_{2n}^{n}}{\\mathrm{C}_{2n+2}^{n+1}}=\\frac{\\dfrac{(2n)!}{(n!)^2}}{\\dfrac{(2n+2)!}{((n+1)!)^2}}=\\frac{(n+1)^{2}}{(2n+2)(2n+1)}=\\frac{n+1}{2(2n+1)}\n$$\n<p>令 $n\\to\\infty$，得</p>\n$$\n\\lim_{n\\to\\infty}\\frac{n+1}{2(2n+1)}=\\frac{1}{4}\n$$\n<p>所以选 D.</p>"
+          "solution": "$$\n\\frac{\\mathrm{C}_{2n}^{n}}{\\mathrm{C}_{2n+2}^{n+1}}=\\frac{\\dfrac{(2n)!}{(n!)^2}}{\\dfrac{(2n+2)!}{((n+1)!)^2}}=\\frac{(n+1)^{2}}{(2n+2)(2n+1)}=\\frac{n+1}{2(2n+1)}\n$$\n<p>令 $n\\to\\infty$，得</p>\n$$\n\\lim_{n\\to\\infty}\\frac{n+1}{2(2n+1)}=\\frac{1}{4}\n$$\n<p>所以选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$y = 1 - x^{2}$（$0 \\le x \\le 1$）"
           ],
           "answer": "C",
-          "solution": "<p>原函数满足 $y=-\\sqrt{1-x}$，所以 $y\\leqslant0$. 交换 $x$，$y$ 得</p>\n$$\nx=-\\sqrt{1-y}\n$$\n<p>从而 $x\\leqslant0$，并且平方后有 $x^{2}=1-y$，即 $y=1-x^{2}$. 因此反函数为 $y=1-x^{2}$（$x\\leqslant0$），选 C.</p>"
+          "solution": "<p>原函数满足 $y=-\\sqrt{1-x}$，所以 $y\\leqslant0$. 交换 $x$，$y$ 得</p>\n$$\nx=-\\sqrt{1-y}\n$$\n<p>从而 $x\\leqslant0$，并且平方后有 $x^{2}=1-y$，即 $y=1-x^{2}$. 因此反函数为 $y=1-x^{2}$（$x\\leqslant0$），选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "$16$"
           ],
           "answer": "A",
-          "solution": "<p>椭圆的长半轴为 $4$，所以椭圆上任意一点 $P$ 都满足</p>\n$$\n|PF_{1}|+|PF_{2}|=2\\times4=8\n$$\n<p>点 $F_{2}$ 在椭圆内部，且在弦 $AB$ 上，所以 $|AF_{2}|+|BF_{2}|=|AB|=5$. 因而</p>\n$$\n|AF_{1}|+|BF_{1}|  =(8-|AF_{2}|)+(8-|BF_{2}|)  =16-5=11\n$$\n<p>所以选 A.</p>"
+          "solution": "<p>椭圆的长半轴为 $4$，所以椭圆上任意一点 $P$ 都满足</p>\n$$\n|PF_{1}|+|PF_{2}|=2\\times4=8\n$$\n<p>点 $F_{2}$ 在椭圆内部，且在弦 $AB$ 上，所以 $|AF_{2}|+|BF_{2}|=|AB|=5$. 因而</p>\n$$\n|AF_{1}|+|BF_{1}|  =(8-|AF_{2}|)+(8-|BF_{2}|)  =16-5=11\n$$\n<p>所以选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "双曲线"
           ],
           "answer": "B",
-          "solution": "<p>设 $P=(1,t)$，则 $\\overrightarrow{OP}=(1,t)$. 等腰直角三角形的另一直角边与 $OP$ 垂直且等长，所以 $Q$ 有两种位置：</p>\n$$\nQ=(-t,1) \\text{或}  Q=(t,-1)\n$$\n<p>因此 $Q$ 的纵坐标只能是 $1$ 或 $-1$，其轨迹是两条平行直线 $y=1$ 与 $y=-1$，选 B.</p>"
+          "solution": "<p>设 $P=(1,t)$，则 $\\overrightarrow{OP}=(1,t)$. 等腰直角三角形的另一直角边与 $OP$ 垂直且等长，所以 $Q$ 有两种位置：</p>\n$$\nQ=(-t,1) \\text{或}  Q=(t,-1)\n$$\n<p>因此 $Q$ 的纵坐标只能是 $1$ 或 $-1$，其轨迹是两条平行直线 $y=1$ 与 $y=-1$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$\\frac{1}{2}$"
           ],
           "answer": "D",
-          "solution": "<p>由 $f(x^{6})=\\log_{2}x$ 可知对数的自变量满足 $x>0$. 要求 $f(8)$，令 $x^{6}=8=2^{3}$，得 $x=2^{\\frac{1}{2}}=\\sqrt{2}$. 所以</p>\n$$\nf(8)=\\log_{2}\\sqrt{2}=\\frac{1}{2}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>由 $f(x^{6})=\\log_{2}x$ 可知对数的自变量满足 $x>0$. 要求 $f(8)$，令 $x^{6}=8=2^{3}$，得 $x=2^{\\frac{1}{2}}=\\sqrt{2}$. 所以</p>\n$$\nf(8)=\\log_{2}\\sqrt{2}=\\frac{1}{2}\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "第四象限"
           ],
           "answer": "B",
-          "solution": "<p>因为 $\\triangle ABC$ 是锐角三角形，所以 $A+B=\\pi-C>\\frac{\\pi}{2}$. 又 $A$，$B$ 均为锐角，故</p>\n$$\nA>\\frac{\\pi}{2}-B\n$$\n<p>从而 $\\sin A>\\sin\\left(\\frac{\\pi}{2}-B\\right)=\\cos B$，于是点 $P$ 的横坐标 $\\cos B-\\sin A<0$. 同理，</p>\n$$\nB>\\frac{\\pi}{2}-A\n$$\n<p>给出 $\\sin B>\\sin\\left(\\frac{\\pi}{2}-A\\right)=\\cos A$，所以纵坐标 $\\sin B-\\cos A>0$. 因此 $P$ 在第二象限，选 B.</p>"
+          "solution": "<p>因为 $\\triangle ABC$ 是锐角三角形，所以 $A+B=\\pi-C>\\frac{\\pi}{2}$. 又 $A$，$B$ 均为锐角，故</p>\n$$\nA>\\frac{\\pi}{2}-B\n$$\n<p>从而 $\\sin A>\\sin\\left(\\frac{\\pi}{2}-B\\right)=\\cos B$，于是点 $P$ 的横坐标 $\\cos B-\\sin A<0$. 同理，</p>\n$$\nB>\\frac{\\pi}{2}-A\n$$\n<p>给出 $\\sin B>\\sin\\left(\\frac{\\pi}{2}-A\\right)=\\cos A$，所以纵坐标 $\\sin B-\\cos A>0$. 因此 $P$ 在第二象限，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +264,9 @@
             "$90^{\\circ}$"
           ],
           "answer": "C",
-          "solution": "<p>设圆锥的母线长为 $l$，底面半径为 $r$，轴截面中两条母线的夹角为 $2\\alpha$，其中 $0<\\alpha<\\dfrac{\\pi}{2}$. 在轴截面中，</p>\n$$\nr=l\\sin\\alpha\n$$\n<p>圆锥侧面展开后是半径为 $l$ 的扇形，其弧长等于圆锥底面周长. 因而扇形圆心角为</p>\n$$\n\\frac{2\\pi r}{l}=2\\pi\\sin\\alpha\n$$\n<p>题设展开图是半圆，所以扇形圆心角为 $\\pi$，从而</p><p>$2\\pi\\sin\\alpha=\\pi$，$\\sin\\alpha=\\frac{1}{2}$.</p><p>由于 $0<\\alpha<\\dfrac{\\pi}{2}$，得 $\\alpha=30^{\\circ}$. 因此圆锥轴截面中两条母线的夹角为</p>\n$$\n2\\alpha=60^{\\circ}\n$$\n<p>所以选 C.</p>"
+          "solution": "<p>设圆锥的母线长为 $l$，底面半径为 $r$，轴截面中两条母线的夹角为 $2\\alpha$，其中 $0<\\alpha<\\dfrac{\\pi}{2}$. 在轴截面中，</p>\n$$\nr=l\\sin\\alpha\n$$\n<p>圆锥侧面展开后是半径为 $l$ 的扇形，其弧长等于圆锥底面周长. 因而扇形圆心角为</p>\n$$\n\\frac{2\\pi r}{l}=2\\pi\\sin\\alpha\n$$\n<p>题设展开图是半圆，所以扇形圆心角为 $\\pi$，从而</p><p>$2\\pi\\sin\\alpha=\\pi$，$\\sin\\alpha=\\frac{1}{2}$.</p><p>由于 $0<\\alpha<\\dfrac{\\pi}{2}$，得 $\\alpha=30^{\\circ}$. 因此圆锥轴截面中两条母线的夹角为</p>\n$$\n2\\alpha=60^{\\circ}\n$$\n<p>所以选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,11 +278,13 @@
             "$2\\sqrt[4]{3}$"
           ],
           "answer": "B",
-          "solution": "<p>因为 $3^{a}>0$，$3^{b}>0$，由基本不等式得</p>\n$$\n3^{a}+3^{b}\\geqslant2\\sqrt{3^{a}3^{b}}=2\\sqrt{3^{a+b}}=2\\sqrt{3^{2}}=6\n$$\n<p>当且仅当 $3^{a}=3^{b}$，即 $a=b$ 时等号成立；结合 $a+b=2$，得 $a=b=1$. 所以最小值为 $6$，选 B.</p>"
+          "solution": "<p>因为 $3^{a}>0$，$3^{b}>0$，由基本不等式得</p>\n$$\n3^{a}+3^{b}\\geqslant2\\sqrt{3^{a}3^{b}}=2\\sqrt{3^{a+b}}=2\\sqrt{3^{2}}=6\n$$\n<p>当且仅当 $3^{a}=3^{b}$，即 $a=b$ 时等号成立；结合 $a+b=2$，得 $a=b=1$. 所以最小值为 $6$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
-          "body": "<p>如图是正方体的平面展开图.</p><p>在这个正方体中，</p><ol class=\"enumerate\"><li><p>$BM$ 与 $ED$ 平行；</p></li><li><p>$CN$ 与 $BE$ 是异面直线；</p></li><li><p>$CN$ 与 $BM$ 成 $60^{\\circ}$ 角；</p></li><li><p>$DM$ 与 $BN$ 垂直.</p></li></ol><p>以上四个命题中，正确命题的序号是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jing_meng_wan_liberal_spring/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图是正方体的平面展开图.</p><p>在这个正方体中，</p><ol class=\"enumerate\"><li><p>$BM$ 与 $ED$ 平行；</p></li><li><p>$CN$ 与 $BE$ 是异面直线；</p></li><li><p>$CN$ 与 $BM$ 成 $60^{\\circ}$ 角；</p></li><li><p>$DM$ 与 $BN$ 垂直.</p></li></ol><p>以上四个命题中，正确命题的序号是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/jing_meng_wan_liberal_spring/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$①②③$",
             "$②④$",
@@ -137,7 +292,9 @@
             "$②③④$"
           ],
           "answer": "C",
-          "solution": "<p>将正方体棱长取为 $1$，把图中中间的正方形 $ABCD$ 置于平面 $z=0$，折叠后可取</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$</p><p>$E=(0,0,1)$，$F=(1,0,1)$，$M=(1,1,1)$，$N=(0,1,1)$，</p><p>于是</p><p>$\\overrightarrow{BM}=(0,1,1)$，$\\overrightarrow{ED}=(0,1,-1)$，</p><p>二者不平行，所以命题$①$错误. 又</p>\n$$\n\\overrightarrow{CN}=(-1,0,1)=\\overrightarrow{BE}\n$$\n<p>所以 $CN\\parallel BE$，命题$②$错误.</p><p>由</p>\n$$\n\\frac{\\overrightarrow{CN}\\cdot\\overrightarrow{BM}}{|\\overrightarrow{CN}|\\,|\\overrightarrow{BM}|}=\\frac{1}{\\sqrt{2}\\sqrt{2}}=\\frac{1}{2}\n$$\n<p>得 $CN$ 与 $BM$ 所成的角为 $60^{\\circ}$，命题$③$正确. 最后</p><p>$\\overrightarrow{DM}=(1,0,1)$，$\\overrightarrow{BN}=(-1,1,1)$，</p><p>且 $\\overrightarrow{DM}\\cdot\\overrightarrow{BN}=0$，所以 $DM$ 与 $BN$ 所成的角为 $90^{\\circ}$，命题$④$正确. 因此正确命题为$③④$，选 C.</p>"
+          "solution": "<p>将正方体棱长取为 $1$，把图中中间的正方形 $ABCD$ 置于平面 $z=0$，折叠后可取</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$</p><p>$E=(0,0,1)$，$F=(1,0,1)$，$M=(1,1,1)$，$N=(0,1,1)$，</p><p>于是</p><p>$\\overrightarrow{BM}=(0,1,1)$，$\\overrightarrow{ED}=(0,1,-1)$，</p><p>二者不平行，所以命题$①$错误. 又</p>\n$$\n\\overrightarrow{CN}=(-1,0,1)=\\overrightarrow{BE}\n$$\n<p>所以 $CN\\parallel BE$，命题$②$错误.</p><p>由</p>\n$$\n\\frac{\\overrightarrow{CN}\\cdot\\overrightarrow{BM}}{|\\overrightarrow{CN}|\\,|\\overrightarrow{BM}|}=\\frac{1}{\\sqrt{2}\\sqrt{2}}=\\frac{1}{2}\n$$\n<p>得 $CN$ 与 $BM$ 所成的角为 $60^{\\circ}$，命题$③$正确. 最后</p><p>$\\overrightarrow{DM}=(1,0,1)$，$\\overrightarrow{BN}=(-1,1,1)$，</p><p>且 $\\overrightarrow{DM}\\cdot\\overrightarrow{BN}=0$，所以 $DM$ 与 $BN$ 所成的角为 $90^{\\circ}$，命题$④$正确. 因此正确命题为$③④$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +306,9 @@
             "$8\\text{ 月}$，$9\\text{ 月}$"
           ],
           "answer": "C",
-          "solution": "<p>记第 $n$ 个月的需求量为 $T_{n}$. 由累计需求量的定义，</p><p>$T_{n}=S_{n}-S_{n-1}$，（$n=1,2,\\ldots,12$）</p><p>其中 $S_{0}=0$. 由题设</p>\n$$\nS_{n}=\\frac{n}{90}(21n-n^{2}-5)=\\frac{-n^{3}+21n^{2}-5n}{90}\n$$\n<p>于是</p>\n$$\n\\begin{gathered}T_n\n\n=\\frac{-n^{3}+21n^{2}-5n}{90}\n\n-\\frac{-(n-1)^{3}+21(n-1)^{2}-5(n-1)}{90}\\\\\n\n=\\frac{-3n^{2}+45n-27}{90}\n\n=\\frac{-n^{2}+15n-9}{30}.\\end{gathered}\n$$\n<p>要求月需求量超过 $1.5$ 万件，即</p>\n$$\n\\frac{-n^{2}+15n-9}{30}>1.5=\\frac{45}{30}\n$$\n<p>所以</p>\n$$\n-n^{2}+15n-9>45  \\iff n^{2}-15n+54<0  \\iff 6<n<9\n$$\n<p>在 $n=1$，$2$，$\\ldots$，$12$ 中，满足条件的月份编号为 $n=7$，$8$，即 7 月和 8 月.</p><p>所以选 C.</p>"
+          "solution": "<p>记第 $n$ 个月的需求量为 $T_{n}$. 由累计需求量的定义，</p><p>$T_{n}=S_{n}-S_{n-1}$，（$n=1,2,\\ldots,12$）</p><p>其中 $S_{0}=0$. 由题设</p>\n$$\nS_{n}=\\frac{n}{90}(21n-n^{2}-5)=\\frac{-n^{3}+21n^{2}-5n}{90}\n$$\n<p>于是</p>\n$$\n\\begin{gathered}T_n\n\n=\\frac{-n^{3}+21n^{2}-5n}{90}\n\n-\\frac{-(n-1)^{3}+21(n-1)^{2}-5(n-1)}{90}\\\\\n\n=\\frac{-3n^{2}+45n-27}{90}\n\n=\\frac{-n^{2}+15n-9}{30}.\\end{gathered}\n$$\n<p>要求月需求量超过 $1.5$ 万件，即</p>\n$$\n\\frac{-n^{2}+15n-9}{30}>1.5=\\frac{45}{30}\n$$\n<p>所以</p>\n$$\n-n^{2}+15n-9>45  \\iff n^{2}-15n+54<0  \\iff 6<n<9\n$$\n<p>在 $n=1$，$2$，$\\ldots$，$12$ 中，满足条件的月份编号为 $n=7$，$8$，即 7 月和 8 月.</p><p>所以选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +318,38 @@
         {
           "num": 13,
           "body": "已知球内接正方体的表面积为 $S$，那么球体积等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{\\pi S\\sqrt{2S}}{24}$",
-          "solution": "<p>设正方体棱长为 $a$. 由正方体表面积为 $S$，有</p><p>$6a^{2}=S$，$a=\\sqrt{\\frac{S}{6}}$</p><p>球内接正方体时，正方体的体对角线就是球的直径，因此球半径为</p>\n$$\nR=\\frac{\\sqrt{3} a}{2}\n$$\n<p>所以球体积为</p>\n$$\nV=\\frac{4}{3}\\pi R^{3}  =\\frac{4}{3}\\pi\\left(\\frac{\\sqrt{3} a}{2}\\right)^{3}  =\\frac{\\pi\\sqrt{3}}{2}a^{3}\n$$\n<p>代入 $a=\\sqrt{\\frac{S}{6}}$，得</p>\n$$\nV=\\frac{\\pi\\sqrt{3}}{2}\\left(\\frac{S}{6}\\right)^{\\frac{3}{2}}=\\frac{\\pi S\\sqrt{2S}}{24}\n$$"
+          "choices": [],
+          "answer": "\\(\\dfrac{\\pi S\\sqrt{2S}}{24}\\)",
+          "solution": "<p>设正方体棱长为 $a$. 由正方体表面积为 $S$，有</p><p>$6a^{2}=S$，$a=\\sqrt{\\frac{S}{6}}$</p><p>球内接正方体时，正方体的体对角线就是球的直径，因此球半径为</p>\n$$\nR=\\frac{\\sqrt{3} a}{2}\n$$\n<p>所以球体积为</p>\n$$\nV=\\frac{4}{3}\\pi R^{3}  =\\frac{4}{3}\\pi\\left(\\frac{\\sqrt{3} a}{2}\\right)^{3}  =\\frac{\\pi\\sqrt{3}}{2}a^{3}\n$$\n<p>代入 $a=\\sqrt{\\frac{S}{6}}$，得</p>\n$$\nV=\\frac{\\pi\\sqrt{3}}{2}\\left(\\frac{S}{6}\\right)^{\\frac{3}{2}}=\\frac{\\pi S\\sqrt{2S}}{24}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "椭圆 $x^{2}+ 4y^{2}= 4$ 长轴上一个顶点为 $A$，以 $A$ 为直角顶点作一个内接于椭圆的等腰直角三角形，该三角形的面积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{16}{25}$",
-          "solution": "<p>不妨取长轴顶点 $A=(2,0)$. 设等腰直角三角形的两条直角边向量分别为</p><p>$\\mathbf{u}=r(\\cos\\varphi,\\sin\\varphi)$，$\\mathbf{v}=r(-\\sin\\varphi,\\cos\\varphi)$</p><p>其中 $r>0$，这样两向量等长且互相垂直. 因为 $A+\\mathbf{u}$，$A+\\mathbf{v}$ 都在椭圆上，分别代入 $x^{2}+4y^{2}=4$，得到</p><p>$r=-\\frac{4\\cos\\varphi}{\\cos^{2}\\varphi+4\\sin^{2}\\varphi}$，$r=\\frac{4\\sin\\varphi}{\\sin^{2}\\varphi+4\\cos^{2}\\varphi}$</p><p>消去 $r$，并整理得</p>\n$$\n(\\cos\\varphi+\\sin\\varphi)\\bigl(4\\cos^{2}\\varphi-3\\sin\\varphi\\cos\\varphi+4\\sin^{2}\\varphi\\bigr)=0\n$$\n<p>第二个因子为</p><p>$4\\cos^{2}\\varphi-3\\sin\\varphi\\cos\\varphi+4\\sin^{2}\\varphi  =4-3\\sin\\varphi\\cos\\varphi$. 由于</p><p>$\\sin\\varphi\\cos\\varphi\\le\\frac{1}{2}$，该因子不小于</p><p>$4-\\frac{3}{2}=\\frac{5}{2}>0$，所以 $\\sin\\varphi=-\\cos\\varphi$. 由 $r>0$ 取 $\\cos\\varphi=-\\frac{1}{\\sqrt{2}}$，于是</p>\n$$\nr=\\frac{4\\sqrt{2}}{5}\n$$\n<p>等腰直角三角形的面积为两直角边乘积的一半，因此</p>\n$$\nS=\\frac{1}{2}r^{2}=\\frac{1}{2}\\left(\\frac{4\\sqrt{2}}{5}\\right)^{2}=\\frac{16}{25}\n$$"
+          "choices": [],
+          "answer": "\\(\\dfrac{16}{25}\\)",
+          "solution": "<p>不妨取长轴顶点 $A=(2,0)$. 设等腰直角三角形的两条直角边向量分别为</p><p>$\\mathbf{u}=r(\\cos\\varphi,\\sin\\varphi)$，$\\mathbf{v}=r(-\\sin\\varphi,\\cos\\varphi)$</p><p>其中 $r>0$，这样两向量等长且互相垂直. 因为 $A+\\mathbf{u}$，$A+\\mathbf{v}$ 都在椭圆上，分别代入 $x^{2}+4y^{2}=4$，得到</p><p>$r=-\\frac{4\\cos\\varphi}{\\cos^{2}\\varphi+4\\sin^{2}\\varphi}$，$r=\\frac{4\\sin\\varphi}{\\sin^{2}\\varphi+4\\cos^{2}\\varphi}$</p><p>消去 $r$，并整理得</p>\n$$\n(\\cos\\varphi+\\sin\\varphi)\\bigl(4\\cos^{2}\\varphi-3\\sin\\varphi\\cos\\varphi+4\\sin^{2}\\varphi\\bigr)=0\n$$\n<p>第二个因子为</p><p>$4\\cos^{2}\\varphi-3\\sin\\varphi\\cos\\varphi+4\\sin^{2}\\varphi  =4-3\\sin\\varphi\\cos\\varphi$. 由于</p><p>$\\sin\\varphi\\cos\\varphi\\le\\frac{1}{2}$，该因子不小于</p><p>$4-\\frac{3}{2}=\\frac{5}{2}>0$，所以 $\\sin\\varphi=-\\cos\\varphi$. 由 $r>0$ 取 $\\cos\\varphi=-\\frac{1}{\\sqrt{2}}$，于是</p>\n$$\nr=\\frac{4\\sqrt{2}}{5}\n$$\n<p>等腰直角三角形的面积为两直角边乘积的一半，因此</p>\n$$\nS=\\frac{1}{2}r^{2}=\\frac{1}{2}\\left(\\frac{4\\sqrt{2}}{5}\\right)^{2}=\\frac{16}{25}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "已知 $\\sin^{2}\\alpha + \\sin^{2}\\beta + \\sin^{2}\\gamma = 1$（$\\alpha$，$\\beta$，$\\gamma$ 均为锐角），那么 $\\cos \\alpha \\cos \\beta \\cos \\gamma$ 的最大值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{2\\sqrt{6}}{9}$",
-          "solution": "<p>令 $u=\\sin^{2}\\alpha$，$v=\\sin^{2}\\beta$，$w=\\sin^{2}\\gamma$，则 $u$，$v$，$w>0$ 且 $u+v+w=1$. 因为三个角都是锐角，$\\cos\\alpha$，$\\cos\\beta$，$\\cos\\gamma$ 均为正，所以</p>\n$$\n(\\cos\\alpha\\cos\\beta\\cos\\gamma)^{2}=(1-u)(1-v)(1-w)\n$$\n<p>又</p>\n$$\n(1-u)+(1-v)+(1-w)=2\n$$\n<p>由基本不等式得</p>\n$$\n(1-u)(1-v)(1-w)\\le\\left(\\frac{2}{3}\\right)^{3}=\\frac{8}{27}\n$$\n<p>等号当且仅当 $1-u=1-v=1-w=\\frac{2}{3}$，即 $u=v=w=\\frac{1}{3}$. 这时可取三个锐角使 $\\sin^{2}\\alpha=\\sin^{2}\\beta=\\sin^{2}\\gamma=\\frac{1}{3}$，条件确实能够达到. 因此</p>\n$$\n\\cos\\alpha\\cos\\beta\\cos\\gamma\\le\\sqrt{\\frac{8}{27}}=\\frac{2\\sqrt{6}}{9}\n$$\n<p>最大值为 $\\dfrac{2\\sqrt{6}}{9}$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{2\\sqrt{6}}{9}\\)",
+          "solution": "<p>令 $u=\\sin^{2}\\alpha$，$v=\\sin^{2}\\beta$，$w=\\sin^{2}\\gamma$，则 $u$，$v$，$w>0$ 且 $u+v+w=1$. 因为三个角都是锐角，$\\cos\\alpha$，$\\cos\\beta$，$\\cos\\gamma$ 均为正，所以</p>\n$$\n(\\cos\\alpha\\cos\\beta\\cos\\gamma)^{2}=(1-u)(1-v)(1-w)\n$$\n<p>又</p>\n$$\n(1-u)+(1-v)+(1-w)=2\n$$\n<p>由基本不等式得</p>\n$$\n(1-u)(1-v)(1-w)\\le\\left(\\frac{2}{3}\\right)^{3}=\\frac{8}{27}\n$$\n<p>等号当且仅当 $1-u=1-v=1-w=\\frac{2}{3}$，即 $u=v=w=\\frac{1}{3}$. 这时可取三个锐角使 $\\sin^{2}\\alpha=\\sin^{2}\\beta=\\sin^{2}\\gamma=\\frac{1}{3}$，条件确实能够达到. 因此</p>\n$$\n\\cos\\alpha\\cos\\beta\\cos\\gamma\\le\\sqrt{\\frac{8}{27}}=\\frac{2\\sqrt{6}}{9}\n$$\n<p>最大值为 $\\dfrac{2\\sqrt{6}}{9}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>已知 $m$，$n$ 是直线，$\\alpha$，$\\beta$，$\\gamma$ 是平面，给出下列命题：</p><ol class=\"enumerate\"><li><p>若 $\\alpha \\perp \\beta$，$\\alpha \\cap \\beta = m$，$n \\perp m$，则 $n \\perp \\alpha$ 或 $n \\perp \\beta$；</p></li><li><p>若 $\\alpha \\parallel \\beta$，$\\alpha \\cap \\gamma = m$，$\\beta \\cap \\gamma = n$，则 $m \\parallel n$；</p></li><li><p>若 $m$ 不垂直于 $\\alpha$，则 $m$ 不可能垂直于 $\\alpha$ 内的无数条直线；</p></li><li><p>若 $\\alpha \\cap \\beta = m$，$n \\parallel m$，且 $n \\not\\subset \\alpha$，$n \\not\\subset \\beta$，则 $n \\parallel \\alpha$ 且 $n \\parallel \\beta$.</p></li></ol><p>其中正确的命题的序号是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
-          "answer": "$②$，$④$",
-          "solution": "<p>逐一判断四个命题.</p><p>对于命题$①$，取 $\\alpha$ 为 $xy$ 平面，$\\beta$ 为 $xz$ 平面，则 $\\alpha\\perp\\beta$，且交线 $m$ 为 $x$ 轴. 取方向向量为 $(0,1,1)$ 的直线 $n$，则 $n\\perp m$，但 $n$ 的方向既不垂直于 $\\alpha$（不平行于 $(0,0,1)$），也不垂直于 $\\beta$（不平行于 $(0,1,0)$）. 所以命题$①$错误.</p><p>命题$②$中，$m$ 与 $n$ 都在平面 $\\gamma$ 内. 若 $m$ 与 $n$ 相交，则交点同时属于平行的两个平面 $\\alpha$、$\\beta$，这与 $\\alpha\\parallel\\beta$ 矛盾；而 $m$ 与 $n$ 不可能重合，因为重合直线将同时属于 $\\alpha$ 与 $\\beta$. 因此 $m$，$n$ 是同一平面内的两条不相交直线，故 $m\\parallel n$，命题$②$正确.</p><p>命题$③$错误. 例如取 $\\alpha$ 为 $xy$ 平面，取 $m$ 为其中的 $x$ 轴. 显然 $m$ 不垂直于 $\\alpha$. 对于任意实数 $t$，平面 $\\alpha$ 内过点 $(t,0,0)$ 且平行于 $y$ 轴的直线都与 $m$ 垂直，这样的直线有无数条.</p><p>对于命题$④$，$m=\\alpha\\cap\\beta$，且 $n\\parallel m$，所以 $n$ 的方向平行于平面 $\\alpha$ 和 $\\beta$. 若 $n$ 与 $\\alpha$ 相交，则因 $n$ 的方向平行于 $\\alpha$，必有 $n\\subset\\alpha$，这与题设矛盾；故 $n$ 与 $\\alpha$ 不相交，从而 $n\\parallel\\alpha$. 同理 $n\\parallel\\beta$. 命题$④$正确.</p><p>因此正确的命题为$②$、$④$.</p>"
+          "choices": [],
+          "answer": "\\(②\\)，\\(④\\)",
+          "solution": "<p>逐一判断四个命题.</p><p>对于命题$①$，取 $\\alpha$ 为 $xy$ 平面，$\\beta$ 为 $xz$ 平面，则 $\\alpha\\perp\\beta$，且交线 $m$ 为 $x$ 轴. 取方向向量为 $(0,1,1)$ 的直线 $n$，则 $n\\perp m$，但 $n$ 的方向既不垂直于 $\\alpha$（不平行于 $(0,0,1)$），也不垂直于 $\\beta$（不平行于 $(0,1,0)$）. 所以命题$①$错误.</p><p>命题$②$中，$m$ 与 $n$ 都在平面 $\\gamma$ 内. 若 $m$ 与 $n$ 相交，则交点同时属于平行的两个平面 $\\alpha$、$\\beta$，这与 $\\alpha\\parallel\\beta$ 矛盾；而 $m$ 与 $n$ 不可能重合，因为重合直线将同时属于 $\\alpha$ 与 $\\beta$. 因此 $m$，$n$ 是同一平面内的两条不相交直线，故 $m\\parallel n$，命题$②$正确.</p><p>命题$③$错误. 例如取 $\\alpha$ 为 $xy$ 平面，取 $m$ 为其中的 $x$ 轴. 显然 $m$ 不垂直于 $\\alpha$. 对于任意实数 $t$，平面 $\\alpha$ 内过点 $(t,0,0)$ 且平行于 $y$ 轴的直线都与 $m$ 垂直，这样的直线有无数条.</p><p>对于命题$④$，$m=\\alpha\\cap\\beta$，且 $n\\parallel m$，所以 $n$ 的方向平行于平面 $\\alpha$ 和 $\\beta$. 若 $n$ 与 $\\alpha$ 相交，则因 $n$ 的方向平行于 $\\alpha$，必有 $n\\subset\\alpha$，这与题设矛盾；故 $n$ 与 $\\alpha$ 不相交，从而 $n\\parallel\\alpha$. 同理 $n\\parallel\\beta$. 命题$④$正确.</p><p>因此正确的命题为$②$、$④$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "方程 $2x^{2}+ mx + n = 0$ 有实根，且 $2$，$m$，$n$ 为等差数列的前三项. 求该等差数列公差 $d$ 的取值范围.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为 $2$，$m$，$n$ 是等差数列的前三项，所以</p>\n$$\nm-2=n-m\n$$\n<p>从而 $n=2m-2$. 方程 $2x^{2}+mx+n=0$ 有实根的充要条件是判别式不小于零，即</p>\n$$\n\\Delta=m^{2}-8n=m^{2}-8(2m-2)=m^{2}-16m+16\\geqslant0\n$$\n<p>解这个不等式：</p>\n$$\nm\\leqslant8-4\\sqrt{3} \\text{或}  m\\geqslant8+4\\sqrt{3}\n$$\n<p>又公差 $d=m-2$，所以</p>\n$$\nd\\leqslant6-4\\sqrt{3} \\text{或}  d\\geqslant6+4\\sqrt{3}\n$$\n<p>故公差 $d$ 的取值范围为</p>\n$$\n\\left(-\\infty,6-4\\sqrt{3}\\right]\\cup\\left[6+4\\sqrt{3},+\\infty\\right)\n$$"
+          "solution": "<p>因为 $2$，$m$，$n$ 是等差数列的前三项，所以</p>\n$$\nm-2=n-m\n$$\n<p>从而 $n=2m-2$. 方程 $2x^{2}+mx+n=0$ 有实根的充要条件是判别式不小于零，即</p>\n$$\n\\Delta=m^{2}-8n=m^{2}-8(2m-2)=m^{2}-16m+16\\geqslant0\n$$\n<p>解这个不等式：</p>\n$$\nm\\leqslant8-4\\sqrt{3} \\text{或}  m\\geqslant8+4\\sqrt{3}\n$$\n<p>又公差 $d=m-2$，所以</p>\n$$\nd\\leqslant6-4\\sqrt{3} \\text{或}  d\\geqslant6+4\\sqrt{3}\n$$\n<p>故公差 $d$ 的取值范围为</p>\n$$\n\\left(-\\infty,6-4\\sqrt{3}\\right]\\cup\\left[6+4\\sqrt{3},+\\infty\\right)\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "设函数 $f(x) = \\frac{x + a}{x + b}$（$a > b > 0$），求 $f(x)$ 的单调区间，并证明 $f(x)$ 在其单调区间上的单调性.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>函数定义域为 $\\mathbb{R}\\smallsetminus\\{-b\\}$，分成区间 $(-\\infty,-b)$ 和 $(-b,+\\infty)$. 任取定义域内的 $x_{1}<x_{2}$，有</p>\n$$\nf(x_{1})-f(x_{2})  =\\frac{(x_{1}+a)(x_{2}+b)-(x_{2}+a)(x_{1}+b)}{(x_{1}+b)(x_{2}+b)}=\\frac{(a-b)(x_{2}-x_{1})}{(x_{1}+b)(x_{2}+b)}\n$$\n<p>因为 $a>b$，所以 $a-b>0$. 当 $x_{1}<x_{2}<-b$ 时，$x_{1}+b$ 与 $x_{2}+b$ 都为负数，分母乘积为正，故 $f(x_{1})-f(x_{2})>0$. 当 $-b<x_{1}<x_{2}$ 时，分母乘积同样为正，也有 $f(x_{1})-f(x_{2})>0$. 因此 $f(x)$ 在 $(-\\infty,-b)$ 和 $(-b,+\\infty)$ 上都严格单调递减.</p>"
+          "solution": "<p>函数定义域为 $\\mathbb{R}\\smallsetminus\\{-b\\}$，分成区间 $(-\\infty,-b)$ 和 $(-b,+\\infty)$. 任取定义域内的 $x_{1}<x_{2}$，有</p>\n$$\nf(x_{1})-f(x_{2})  =\\frac{(x_{1}+a)(x_{2}+b)-(x_{2}+a)(x_{1}+b)}{(x_{1}+b)(x_{2}+b)}=\\frac{(a-b)(x_{2}-x_{1})}{(x_{1}+b)(x_{2}+b)}\n$$\n<p>因为 $a>b$，所以 $a-b>0$. 当 $x_{1}<x_{2}<-b$ 时，$x_{1}+b$ 与 $x_{2}+b$ 都为负数，分母乘积为正，故 $f(x_{1})-f(x_{2})>0$. 当 $-b<x_{1}<x_{2}$ 时，分母乘积同样为正，也有 $f(x_{1})-f(x_{2})>0$. 因此 $f(x)$ 在 $(-\\infty,-b)$ 和 $(-b,+\\infty)$ 上都严格单调递减.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知 $z^{7}= 1$（$z \\in \\mathbf{C}$，$z \\neq 1$）.</p><ol class=\"enumerate\"><li><p>证明 $1 + z + z^{2}+ z^{3}+ z^{4}+ z^{5}+ z^{6}= 0$；</p></li><li><p>设 $z$ 的辐角为 $\\alpha$，求 $\\cos \\alpha + \\cos 2\\alpha + \\cos 4\\alpha$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由等比数列求和公式，</p>\n$$\n1+z+z^{2}+z^{3}+z^{4}+z^{5}+z^{6}=\\frac{z^{7}-1}{z-1}\n$$\n<p>已知 $z^{7}=1$，且 $z\\neq1$，所以分子为零而分母不为零，从而</p>\n$$\n1+z+z^{2}+z^{3}+z^{4}+z^{5}+z^{6}=0\n$$\n</li><li><p>由 $z^{7}=1$ 得 $|z|^{7}=1$，所以 $|z|=1$. 设 $z$ 的辐角为 $\\alpha$，则 $z=\\cos\\alpha+\\mathrm{i}\\sin\\alpha$，且 $7\\alpha=2k\\pi$，其中 $k\\in\\mathbb{Z}$. 因此对 $j=1$，$2$，$3$，有</p>\n$$\n\\cos\\left((7-j)\\alpha\\right)=\\cos\\left(2k\\pi-j\\alpha\\right)=\\cos(j\\alpha)\n$$\n<p>于是 $\\cos6\\alpha=\\cos\\alpha$，$\\cos5\\alpha=\\cos2\\alpha$，$\\cos4\\alpha=\\cos3\\alpha$.</p><p>对第一问的等式取实部，得到</p>\n$$\n1+\\cos\\alpha+\\cos2\\alpha+\\cos3\\alpha+\\cos4\\alpha+\\cos5\\alpha+\\cos6\\alpha=0\n$$\n<p>代入上述三组相等关系，得</p>\n$$\n1+2\\left(\\cos\\alpha+\\cos2\\alpha+\\cos4\\alpha\\right)=0\n$$\n<p>所以</p>\n$$\n\\cos\\alpha+\\cos2\\alpha+\\cos4\\alpha=-\\frac{1}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由等比数列求和公式，</p>\n$$\n1+z+z^{2}+z^{3}+z^{4}+z^{5}+z^{6}=\\frac{z^{7}-1}{z-1}\n$$\n<p>已知 $z^{7}=1$，且 $z\\neq1$，所以分子为零而分母不为零，从而</p>\n$$\n1+z+z^{2}+z^{3}+z^{4}+z^{5}+z^{6}=0\n$$\n</li><li><p>由 $z^{7}=1$ 得 $|z|^{7}=1$，所以 $|z|=1$. 设 $z$ 的辐角为 $\\alpha$，则 $z=\\cos\\alpha+\\mathrm{i}\\sin\\alpha$，且 $7\\alpha=2k\\pi$，其中 $k\\in\\mathbb{Z}$. 因此对 $j=1$，$2$，$3$，有</p>\n$$\n\\cos\\left((7-j)\\alpha\\right)=\\cos\\left(2k\\pi-j\\alpha\\right)=\\cos(j\\alpha)\n$$\n<p>于是 $\\cos6\\alpha=\\cos\\alpha$，$\\cos5\\alpha=\\cos2\\alpha$，$\\cos4\\alpha=\\cos3\\alpha$.</p><p>对第一问的等式取实部，得到</p>\n$$\n1+\\cos\\alpha+\\cos2\\alpha+\\cos3\\alpha+\\cos4\\alpha+\\cos5\\alpha+\\cos6\\alpha=0\n$$\n<p>代入上述三组相等关系，得</p>\n$$\n1+2\\left(\\cos\\alpha+\\cos2\\alpha+\\cos4\\alpha\\right)=0\n$$\n<p>所以</p>\n$$\n\\cos\\alpha+\\cos2\\alpha+\\cos4\\alpha=-\\frac{1}{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>已知 $VC$ 是 $\\triangle ABC$ 所在平面的一条斜线，点 $N$ 是 $V$ 在平面 $ABC$ 上的射影，且在 $\\triangle ABC$ 的高 $CD$ 上. $AB = a$，$VC$ 与 $AB$ 之间的距离为 $h$，点 $M \\in VC$.</p><ol class=\"enumerate\"><li><p>证明 $\\angle MDC$ 是二面角 $M - AB - C$ 的平面角；</p></li><li><p>当 $\\angle MDC = \\angle CVN$ 时，证明 $VC \\perp$ 平面 $AMB$；</p></li><li><p>若 $\\angle MDC = \\angle CVN = \\theta$（$0 < \\theta < \\frac{\\pi}{2}$），求四面体 $MABC$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jing_meng_wan_liberal_spring/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>已知 $VC$ 是 $\\triangle ABC$ 所在平面的一条斜线，点 $N$ 是 $V$ 在平面 $ABC$ 上的射影，且在 $\\triangle ABC$ 的高 $CD$ 上. $AB = a$，$VC$ 与 $AB$ 之间的距离为 $h$，点 $M \\in VC$.</p><ol class=\"enumerate\"><li><p>证明 $\\angle MDC$ 是二面角 $M - AB - C$ 的平面角；</p></li><li><p>当 $\\angle MDC = \\angle CVN$ 时，证明 $VC \\perp$ 平面 $AMB$；</p></li><li><p>若 $\\angle MDC = \\angle CVN = \\theta$（$0 < \\theta < \\frac{\\pi}{2}$），求四面体 $MABC$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/jing_meng_wan_liberal_spring/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $\\Pi$ 为过 $V$，$C$，$N$ 的平面. 因为 $VN\\perp$ 平面 $ABC$，且 $AB\\perp CD$，所以直线 $AB$ 垂直于平面 $\\Pi$. 平面 $\\Pi$ 与平面 $MAB$ 的交线为 $DM$，与平面 $ABC$ 的交线为 $DC$，而这两条交线都过 $D$，故 $\\angle MDC$ 正是二面角 $M-AB-C$ 的平面角.</p></li><li><p>为证明第二问，建立直角坐标系：取 $D$ 为原点，$AB$ 为 $x$ 轴，平面 $\\Pi$ 为 $yz$ 平面，并令</p><p>$A=(-u,0,0)$，$B=(v,0,0)$，$C=(0,c,0)$，$N=(0,n,0)$，$V=(0,n,w)$，</p><p>其中 $u$，$v$，$c$，$w>0$. 设 $M=(0,r,s)$. 记 $\\theta=\\angle MDC=\\angle CVN$. 由 $\\angle MDC=\\theta$ 得</p>\n$$\n\\frac{s}{r}=\\tan\\theta\n$$\n<p>在直角三角形 $CVN$ 中，$\\angle CVN=\\theta$，所以</p>\n$$\n\\frac{c-n}{w}=\\tan\\theta\n$$\n<p>于是 $n-c=-w\\tan\\theta$. 取 $VC$ 的方向向量 $\\mathbf{u}=(0,n-c,w)$，则</p><p>$\\overrightarrow{AM}=(u,r,s)$，$\\overrightarrow{BM}=(-v,r,s)$，</p><p>从而</p>\n$$\n\\mathbf{u}\\cdot\\overrightarrow{AM}=(n-c)r+ws  =-wr\\tan\\theta+ws=0\n$$\n\n$$\n\\mathbf{u}\\cdot\\overrightarrow{BM}=(n-c)r+ws=0\n$$\n<p>因此 $VC\\perp AM$，且 $VC\\perp BM$. 直线 $AM$，$BM$ 相交于 $M$，所以 $VC\\perp$ 平面 $AMB$.</p></li><li><p>再求第三问. 在平面 $\\Pi$ 内，设 $K$ 是 $M$ 在 $DC$ 上的正投影. 则 $MK$ 是点 $M$ 到平面 $ABC$ 的距离. 由 $\\angle MDC=\\theta$，有</p>\n$$\n\\frac{MK}{DK}=\\tan\\theta\n$$\n<p>又因为 $M$ 在 $VC$ 上，且直线 $VC$ 与竖直方向 $VN$ 的夹角为 $\\theta$，所以</p>\n$$\n\\frac{MK}{CK}=\\cot\\theta\n$$\n<p>设 $CD=c$，则 $DK+CK=DC=c$. 联立上面两式，得</p><p>$DK=c\\cos^{2}\\theta$，$MK=c\\sin\\theta\\cos\\theta$，</p><p>由于平面 $\\Pi\\perp AB$，直线 $AB$ 与 $VC$ 的距离等于点 $D$ 到直线 $VC$ 的距离. 直线 $VC$ 与 $DC$ 的夹角为 $\\frac{\\pi}{2}-\\theta$，所以</p><p>$h=CD\\sin\\left(\\frac{\\pi}{2}-\\theta\\right)=c\\cos\\theta$，$c=\\frac{h}{\\cos\\theta}$，</p><p>四面体 $MABC$ 的底面取 $\\triangle ABC$，其面积为 $\\frac{1}{2}ac$，高为 $MK$，故</p>\n$$\nV_{MABC}=\\frac{1}{3}\\cdot\\frac{1}{2}ac\\cdot MK  =\\frac{ac^{2}\\sin\\theta\\cos\\theta}{6}=\\frac{ah^{2}\\tan\\theta}{6}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $\\Pi$ 为过 $V$，$C$，$N$ 的平面. 因为 $VN\\perp$ 平面 $ABC$，且 $AB\\perp CD$，所以直线 $AB$ 垂直于平面 $\\Pi$. 平面 $\\Pi$ 与平面 $MAB$ 的交线为 $DM$，与平面 $ABC$ 的交线为 $DC$，而这两条交线都过 $D$，故 $\\angle MDC$ 正是二面角 $M-AB-C$ 的平面角.</p></li><li><p>为证明第二问，建立直角坐标系：取 $D$ 为原点，$AB$ 为 $x$ 轴，平面 $\\Pi$ 为 $yz$ 平面，并令</p><p>$A=(-u,0,0)$，$B=(v,0,0)$，$C=(0,c,0)$，$N=(0,n,0)$，$V=(0,n,w)$，</p><p>其中 $u$，$v$，$c$，$w>0$. 设 $M=(0,r,s)$. 记 $\\theta=\\angle MDC=\\angle CVN$. 由 $\\angle MDC=\\theta$ 得</p>\n$$\n\\frac{s}{r}=\\tan\\theta\n$$\n<p>在直角三角形 $CVN$ 中，$\\angle CVN=\\theta$，所以</p>\n$$\n\\frac{c-n}{w}=\\tan\\theta\n$$\n<p>于是 $n-c=-w\\tan\\theta$. 取 $VC$ 的方向向量 $\\mathbf{u}=(0,n-c,w)$，则</p><p>$\\overrightarrow{AM}=(u,r,s)$，$\\overrightarrow{BM}=(-v,r,s)$，</p><p>从而</p>\n$$\n\\mathbf{u}\\cdot\\overrightarrow{AM}=(n-c)r+ws  =-wr\\tan\\theta+ws=0\n$$\n\n$$\n\\mathbf{u}\\cdot\\overrightarrow{BM}=(n-c)r+ws=0\n$$\n<p>因此 $VC\\perp AM$，且 $VC\\perp BM$. 直线 $AM$，$BM$ 相交于 $M$，所以 $VC\\perp$ 平面 $AMB$.</p></li><li><p>再求第三问. 在平面 $\\Pi$ 内，设 $K$ 是 $M$ 在 $DC$ 上的正投影. 则 $MK$ 是点 $M$ 到平面 $ABC$ 的距离. 由 $\\angle MDC=\\theta$，有</p>\n$$\n\\frac{MK}{DK}=\\tan\\theta\n$$\n<p>又因为 $M$ 在 $VC$ 上，且直线 $VC$ 与竖直方向 $VN$ 的夹角为 $\\theta$，所以</p>\n$$\n\\frac{MK}{CK}=\\cot\\theta\n$$\n<p>设 $CD=c$，则 $DK+CK=DC=c$. 联立上面两式，得</p><p>$DK=c\\cos^{2}\\theta$，$MK=c\\sin\\theta\\cos\\theta$，</p><p>由于平面 $\\Pi\\perp AB$，直线 $AB$ 与 $VC$ 的距离等于点 $D$ 到直线 $VC$ 的距离. 直线 $VC$ 与 $DC$ 的夹角为 $\\frac{\\pi}{2}-\\theta$，所以</p><p>$h=CD\\sin\\left(\\frac{\\pi}{2}-\\theta\\right)=c\\cos\\theta$，$c=\\frac{h}{\\cos\\theta}$，</p><p>四面体 $MABC$ 的底面取 $\\triangle ABC$，其面积为 $\\frac{1}{2}ac$，高为 $MK$，故</p>\n$$\nV_{MABC}=\\frac{1}{3}\\cdot\\frac{1}{2}ac\\cdot MK  =\\frac{ac^{2}\\sin\\theta\\cos\\theta}{6}=\\frac{ah^{2}\\tan\\theta}{6}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>某摩托车生产企业，上年度生产摩托车的投入成本为 $1\\text{ 万元/辆}$，出厂价为 $1.2\\text{ 万元/辆}$，年销售量为 $1000\\text{ 辆}$. 本年度为适应市场需求，计划提高产品档次，适度增加投入成本. 若每辆车投入成本增加的比例为 $x$（$0 < x < 1$），则出厂价相应提高的比例为 $0.75x$. 同时预计年销售量增加的比例为 $0.6x$. 已知年利润 $=(\\text{出厂价}- \\text{投入成本}) \\times \\text{年销售量}$.</p><ol class=\"enumerate\"><li><p>写出本年度预计的年利润 $y$ 与投入成本增加的比例 $x$ 的关系式；</p></li><li><p>为使本年度的年利润比上年有所增加，问投入成本增加的比例 $x$ 应在什么范围内？</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>每辆车本年度的投入成本为 $1+x$ 万元，出厂价为</p>\n$$\n1.2(1+0.75x)=1.2+0.9x\n$$\n<p>万元，年销售量为 $1000(1+0.6x)$ 辆. 所以每辆车的利润为</p>\n$$\n(1.2+0.9x)-(1+x)=0.2-0.1x\n$$\n<p>万元，从而本年度预计年利润为</p>\n$$\ny=(0.2-0.1x)\\cdot1000(1+0.6x)  =(-100x+200)(1+0.6x)  =-60x^{2}+20x+200\n$$\n<p>其中 $0<x<1$.</p></li><li><p>上年度年利润为</p>\n$$\n(1.2-1)\\times1000=200\n$$\n<p>万元. 要使本年度利润增加，需要</p>\n$$\n-60x^{2}+20x+200>200\n$$\n<p>即</p>\n$$\n20x(1-3x)>0\n$$\n<p>结合 $0<x<1$，得到 $0<x<\\dfrac{1}{3}$. 因此投入成本增加的比例应满足</p>\n$$\n0<x<\\frac{1}{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>每辆车本年度的投入成本为 $1+x$ 万元，出厂价为</p>\n$$\n1.2(1+0.75x)=1.2+0.9x\n$$\n<p>万元，年销售量为 $1000(1+0.6x)$ 辆. 所以每辆车的利润为</p>\n$$\n(1.2+0.9x)-(1+x)=0.2-0.1x\n$$\n<p>万元，从而本年度预计年利润为</p>\n$$\ny=(0.2-0.1x)\\cdot1000(1+0.6x)  =(-100x+200)(1+0.6x)  =-60x^{2}+20x+200\n$$\n<p>其中 $0<x<1$.</p></li><li><p>上年度年利润为</p>\n$$\n(1.2-1)\\times1000=200\n$$\n<p>万元. 要使本年度利润增加，需要</p>\n$$\n-60x^{2}+20x+200>200\n$$\n<p>即</p>\n$$\n20x(1-3x)>0\n$$\n<p>结合 $0<x<1$，得到 $0<x<\\dfrac{1}{3}$. 因此投入成本增加的比例应满足</p>\n$$\n0<x<\\frac{1}{3}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知抛物线 $y^{2}= 2px$（$p > 0$）. 过动点 $M(a, 0)$ 且斜率为 1 的直线 $l$ 与该抛物线交于不同的两点 $A$，$B$.</p><ol class=\"enumerate\"><li><p>若 $\\left|AB\\right| \\le 2p$，求 $a$ 的取值范围；</p></li><li><p>若线段 $AB$ 的垂直平分线交 $AB$ 于点 $Q$，交 $x$ 轴于点 $N$，试求 $\\mathrm{Rt}\\triangle\\mathrm{MNQ}$ 的面积.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>直线 $l$ 过 $M(a,0)$ 且斜率为 $1$，所以方程为</p>\n$$\ny=x-a,\\qquad\\text{即}\\qquad x=y+a\n$$\n<p>将其代入抛物线方程，得</p>\n$$\ny^{2}=2p(y+a)\n$$\n<p>即</p>\n$$\ny^{2}-2py-2pa=0\n$$\n<p>设交点 $A$，$B$ 的纵坐标分别为 $y_{1}$，$y_{2}$. 因为 $A$，$B$ 是两个不同的交点，所以</p>\n$$\n\\Delta=(-2p)^{2}-4(-2pa)=4p(p+2a)>0\n$$\n<p>从而 $a>-\\dfrac{p}{2}$. 由根的差的绝对值，</p>\n$$\n|y_{1}-y_{2}|=\\sqrt{\\Delta}=2\\sqrt{p(p+2a)}\n$$\n<p>直线 $l$ 的斜率为 $1$，故 $|x_{1}-x_{2}|=|y_{1}-y_{2}|$，于是</p>\n$$\n|AB|=\\sqrt{(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}}=\\sqrt{2}\\,|y_{1}-y_{2}|  =2\\sqrt{2p(p+2a)}\n$$\n<p>若 $|AB|\\leqslant2p$，则</p>\n$$\n2\\sqrt{2p(p+2a)}\\leqslant2p\n$$\n<p>两边均为非负数，平方并除以 $4p$ 得</p>\n$$\n2(p+2a)\\le p\n$$\n<p>即 $a\\le-\\dfrac{p}{4}$. 与 $a>-\\dfrac{p}{2}$ 合并，得到</p>\n$$\n-\\frac{p}{2}<a\\le-\\frac{p}{4}\n$$\n<p>这就是第一问的取值范围.</p><p>由韦达定理，$y_{1}+y_{2}=2p$，所以弦 $AB$ 的中点为</p>\n$$\nQ=\\left(a+\\frac{y_{1}+y_{2}}{2},\\frac{y_{1}+y_{2}}{2}\\right)=(a+p,p)\n$$\n<p>由于 $AB$ 的斜率为 $1$，其垂直平分线斜率为 $-1$，且过 $Q$，方程为</p>\n$$\ny-p=-(x-a-p)\n$$\n<p>即 $y=-x+a+2p$. 令 $y=0$，得到</p>\n$$\nN=(a+2p,0)\n$$\n<p>而 $M=(a,0)$，所以 $|MN|=2p$，点 $Q$ 到 $x$ 轴的距离为 $p$. 因此</p>\n$$\nS_{\\triangle MNQ}=\\frac{1}{2}\\cdot2p\\cdot p=p^{2}\n$$\n<p>故 $\\mathrm{Rt}\\triangle MNQ$ 的面积为 $p^{2}$.</p>"
+          "solution": "<p>直线 $l$ 过 $M(a,0)$ 且斜率为 $1$，所以方程为</p>\n$$\ny=x-a,\\qquad\\text{即}\\qquad x=y+a\n$$\n<p>将其代入抛物线方程，得</p>\n$$\ny^{2}=2p(y+a)\n$$\n<p>即</p>\n$$\ny^{2}-2py-2pa=0\n$$\n<p>设交点 $A$，$B$ 的纵坐标分别为 $y_{1}$，$y_{2}$. 因为 $A$，$B$ 是两个不同的交点，所以</p>\n$$\n\\Delta=(-2p)^{2}-4(-2pa)=4p(p+2a)>0\n$$\n<p>从而 $a>-\\dfrac{p}{2}$. 由根的差的绝对值，</p>\n$$\n|y_{1}-y_{2}|=\\sqrt{\\Delta}=2\\sqrt{p(p+2a)}\n$$\n<p>直线 $l$ 的斜率为 $1$，故 $|x_{1}-x_{2}|=|y_{1}-y_{2}|$，于是</p>\n$$\n|AB|=\\sqrt{(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}}=\\sqrt{2}\\,|y_{1}-y_{2}|  =2\\sqrt{2p(p+2a)}\n$$\n<p>若 $|AB|\\leqslant2p$，则</p>\n$$\n2\\sqrt{2p(p+2a)}\\leqslant2p\n$$\n<p>两边均为非负数，平方并除以 $4p$ 得</p>\n$$\n2(p+2a)\\le p\n$$\n<p>即 $a\\le-\\dfrac{p}{4}$. 与 $a>-\\dfrac{p}{2}$ 合并，得到</p>\n$$\n-\\frac{p}{2}<a\\le-\\frac{p}{4}\n$$\n<p>这就是第一问的取值范围.</p><p>由韦达定理，$y_{1}+y_{2}=2p$，所以弦 $AB$ 的中点为</p>\n$$\nQ=\\left(a+\\frac{y_{1}+y_{2}}{2},\\frac{y_{1}+y_{2}}{2}\\right)=(a+p,p)\n$$\n<p>由于 $AB$ 的斜率为 $1$，其垂直平分线斜率为 $-1$，且过 $Q$，方程为</p>\n$$\ny-p=-(x-a-p)\n$$\n<p>即 $y=-x+a+2p$. 令 $y=0$，得到</p>\n$$\nN=(a+2p,0)\n$$\n<p>而 $M=(a,0)$，所以 $|MN|=2p$，点 $Q$ 到 $x$ 轴的距离为 $p$. 因此</p>\n$$\nS_{\\triangle MNQ}=\\frac{1}{2}\\cdot2p\\cdot p=p^{2}\n$$\n<p>故 $\\mathrm{Rt}\\triangle MNQ$ 的面积为 $p^{2}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

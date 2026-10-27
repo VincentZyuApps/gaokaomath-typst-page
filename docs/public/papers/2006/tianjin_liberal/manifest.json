@@ -1,8 +1,143 @@
 {
-  "title": "2006年普通高等学校招生全国统一考试",
-  "subtitle": "2006年天津卷（文）",
   "year": "2006",
   "slug": "tianjin_liberal",
+  "title": "2006年天津卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$\\{x\\mid 1\\le x\\le 2\\}$"
           ],
           "answer": "A",
-          "solution": "由 $\\lvert x\\rvert\\leqslant2$ 得 $-2\\le x\\leqslant2$，所以 $B=\\{x\\mid -2\\le x\\leqslant2\\}$. 与 $A=\\{x\\mid -3\\le x\\leqslant1\\}$ 取交集，得 $A\\cap B=\\{x\\mid -2\\le x\\leqslant1\\}$. 因此选 A."
+          "solution": "由 $\\lvert x\\rvert\\leqslant2$ 得 $-2\\le x\\leqslant2$，所以 $B=\\{x\\mid -2\\le x\\leqslant2\\}$. 与 $A=\\{x\\mid -3\\le x\\leqslant1\\}$ 取交集，得 $A\\cap B=\\{x\\mid -2\\le x\\leqslant1\\}$. 因此选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$48$"
           ],
           "answer": "B",
-          "solution": "设等差数列的公差为 $d$. 由等差数列中间项的性质，$a_{1}+a_{3}+a_{5}=3a_{3}=9$，所以 $a_{3}=3$. 又 $a_{6}=a_{3}+3d=9$，得 $d=2$，从而 $a_{1}=a_{3}-2d=-1$. 因此前 $6$ 项和为 $S_{6}=\\dfrac{6(a_1+a_6)}{2}=3\\times8=24$，故选 B."
+          "solution": "设等差数列的公差为 $d$. 由等差数列中间项的性质，$a_{1}+a_{3}+a_{5}=3a_{3}=9$，所以 $a_{3}=3$. 又 $a_{6}=a_{3}+3d=9$，得 $d=2$，从而 $a_{1}=a_{3}-2d=-1$. 因此前 $6$ 项和为 $S_{6}=\\dfrac{6(a_1+a_6)}{2}=3\\times8=24$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$9$"
           ],
           "answer": "B",
-          "solution": "约束区域的边界直线为 $y=x$，$y=2-x$ 和 $y=3x-6$. 三条边界直线两两相交得到的点分别为 $(1,1)$，$(2,0)$ 和 $(3,3)$，这三点均满足全部约束条件；又由 $y\\le x$ 与 $y\\geqslant2-x$ 得 $x\\geqslant1$，由 $y\\le x$ 与 $y\\geqslant3x-6$ 得 $x\\leqslant3$，所以可行域就是以这三点为顶点的三角形. 线性目标函数在多边形可行域上的最小值在顶点处取得. 计算得 $z(1,1)=3$，$z(2,0)=4$，$z(3,3)=9$，故最小值为 $3$，选 B."
+          "solution": "约束区域的边界直线为 $y=x$，$y=2-x$ 和 $y=3x-6$. 三条边界直线两两相交得到的点分别为 $(1,1)$，$(2,0)$ 和 $(3,3)$，这三点均满足全部约束条件；又由 $y\\le x$ 与 $y\\geqslant2-x$ 得 $x\\geqslant1$，由 $y\\le x$ 与 $y\\geqslant3x-6$ 得 $x\\leqslant3$，所以可行域就是以这三点为顶点的三角形. 线性目标函数在多边形可行域上的最小值在顶点处取得. 计算得 $z(1,1)=3$，$z(2,0)=4$，$z(3,3)=9$，故最小值为 $3$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$R < P < Q$"
           ],
           "answer": "A",
-          "solution": "因为 $3>2>1$，所以 $P=\\log_{2} 3>1$. 又因为 $1<2<3$，所以 $0<Q=\\log_{3} 2<1$，从而 $R=\\log_{2} Q<0$. 因此 $R<Q<P$，故选 A."
+          "solution": "因为 $3>2>1$，所以 $P=\\log_{2} 3>1$. 又因为 $1<2<3$，所以 $0<Q=\\log_{3} 2<1$，从而 $R=\\log_{2} Q<0$. 因此 $R<Q<P$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "C",
-          "solution": "在区间 $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ 内，函数 $y=\\tan x$ 的导数为 $y'=\\sec^{2}x>0$，所以它在该区间上严格递增. 因而 $\\alpha<\\beta$ 当且仅当 $\\tan\\alpha<\\tan\\beta$，故这是充分必要条件，选 C."
+          "solution": "在区间 $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ 内，函数 $y=\\tan x$ 的导数为 $y'=\\sec^{2}x>0$，所以它在该区间上严格递增. 因而 $\\alpha<\\beta$ 当且仅当 $\\tan\\alpha<\\tan\\beta$，故这是充分必要条件，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$y = -\\sqrt{x^{2} - 2x}$（$x > 2$）"
           ],
           "answer": "D",
-          "solution": "原函数的定义域为 $x<0$，且 $y=\\sqrt{x^{2}+1}+1>2$. 由 $y-1=\\sqrt{x^{2}+1}$ 得 $x^{2}=(y-1)^{2}-1=y^{2}-2y$. 因为原定义域要求 $x<0$，所以 $x=-\\sqrt{y^{2}-2y}$，其中 $y>2$. 交换 $x$ 与 $y$，反函数为 $y=-\\sqrt{x^{2}-2x}$，定义域为 $x>2$，故选 D."
+          "solution": "原函数的定义域为 $x<0$，且 $y=\\sqrt{x^{2}+1}+1>2$. 由 $y-1=\\sqrt{x^{2}+1}$ 得 $x^{2}=(y-1)^{2}-1=y^{2}-2y$. 因为原定义域要求 $x<0$，所以 $x=-\\sqrt{y^{2}-2y}$，其中 $y>2$. 交换 $x$ 与 $y$，反函数为 $y=-\\sqrt{x^{2}-2x}$，定义域为 $x>2$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$3$个"
           ],
           "answer": "B",
-          "solution": "命题$①$不成立：取 $\\gamma$ 为水平面，取 $\\alpha$，$\\beta$ 为两个互不垂直的竖直平面，则二者都垂直于 $\\gamma$，但 $\\alpha$ 与 $\\beta$ 不垂直. 命题$②$成立，因为一个平面若垂直于某平面，也垂直于与该平面平行的任一平面，所以由 $\\alpha\\perp\\gamma$ 和 $\\beta\\parallel\\gamma$ 得 $\\alpha\\perp\\beta$. 命题$③$不成立：若一条直线同时垂直于两个平面，则这两个平面的法向量都与该直线平行，因而两个平面平行；在它们互不重合时不可能互相垂直. 所以只有命题$②$正确，结论有 $1$ 个，选 B."
+          "solution": "命题$①$不成立：取 $\\gamma$ 为水平面，取 $\\alpha$，$\\beta$ 为两个互不垂直的竖直平面，则二者都垂直于 $\\gamma$，但 $\\alpha$ 与 $\\beta$ 不垂直. 命题$②$成立，因为一个平面若垂直于某平面，也垂直于与该平面平行的任一平面，所以由 $\\alpha\\perp\\gamma$ 和 $\\beta\\parallel\\gamma$ 得 $\\alpha\\perp\\beta$. 命题$③$不成立：若一条直线同时垂直于两个平面，则这两个平面的法向量都与该直线平行，因而两个平面平行；在它们互不重合时不可能互相垂直. 所以只有命题$②$正确，结论有 $1$ 个，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$\\frac{(x + 1)^{2}}{5}+ y^{2} = 1$"
           ],
           "answer": "D",
-          "solution": "椭圆中心为 $(-1,0)$，焦点为 $(-3,0)$，所以焦距参数 $c=2$，长轴在 $x$ 轴上. 设长半轴为 $a$，则左焦点对应的准线为 $x=-1-\\dfrac{a^2}{c}=-1-\\dfrac{a^2}{2}$. 由题设 $-1-\\dfrac{a^2}{2}=-\\dfrac{7}{2}$，得 $a^{2}=5$. 再由 $b^{2}=a^{2}-c^{2}=5-4=1$，所以椭圆方程为 $\\dfrac{(x+1)^2}{5}+y^{2}=1$，故选 D."
+          "solution": "椭圆中心为 $(-1,0)$，焦点为 $(-3,0)$，所以焦距参数 $c=2$，长轴在 $x$ 轴上. 设长半轴为 $a$，则左焦点对应的准线为 $x=-1-\\dfrac{a^2}{c}=-1-\\dfrac{a^2}{2}$. 由题设 $-1-\\dfrac{a^2}{2}=-\\dfrac{7}{2}$，得 $a^{2}=5$. 再由 $b^{2}=a^{2}-c^{2}=5-4=1$，所以椭圆方程为 $\\dfrac{(x+1)^2}{5}+y^{2}=1$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +264,9 @@
             "奇函数且它的图象关于点 $(\\pi, 0)$ 对称"
           ],
           "answer": "D",
-          "solution": "<p>图象关于直线 $x=\\dfrac{\\pi}{4}$ 对称，等价于对任意 $x$，有 $f\\left(\\dfrac{\\pi}{2}-x\\right)=f(x)$. 代入函数式得 $a\\cos x-b\\sin x=a\\sin x-b\\cos x$. 令 $x=0$，得到 $a=-b$，所以 $b=-a$，从而 $f(x)=a(\\sin x+\\cos x)$. 因此</p>\n$$\nf\\left(\\frac{3\\pi}{4}-x\\right)=a\\left(\\sin\\left(\\frac{3\\pi}{4}-x\\right)+\\cos\\left(\\frac{3\\pi}{4}-x\\right)\\right)=\\sqrt{2}a\\sin x\n$$\n<p>记此函数为 $g(x)$，则 $g(-x)=-g(x)$，所以它是奇函数；又 $g(2\\pi-x)=-g(x)$，故其图象关于点 $(\\pi,0)$ 对称. 选 D.</p>"
+          "solution": "<p>图象关于直线 $x=\\dfrac{\\pi}{4}$ 对称，等价于对任意 $x$，有 $f\\left(\\dfrac{\\pi}{2}-x\\right)=f(x)$. 代入函数式得 $a\\cos x-b\\sin x=a\\sin x-b\\cos x$. 令 $x=0$，得到 $a=-b$，所以 $b=-a$，从而 $f(x)=a(\\sin x+\\cos x)$. 因此</p>\n$$\nf\\left(\\frac{3\\pi}{4}-x\\right)=a\\left(\\sin\\left(\\frac{3\\pi}{4}-x\\right)+\\cos\\left(\\frac{3\\pi}{4}-x\\right)\\right)=\\sqrt{2}a\\sin x\n$$\n<p>记此函数为 $g(x)$，则 $g(-x)=-g(x)$，所以它是奇函数；又 $g(2\\pi-x)=-g(x)$，故其图象关于点 $(\\pi,0)$ 对称. 选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +278,9 @@
             "$\\left[\\frac{3}{2}, +\\infty\\right)$"
           ],
           "answer": "B",
-          "solution": "<p>求导得 $f'(x)=a^{x}\\ln a\\left(2a^{x}-3a^{2}-1\\right)$. 当 $0<a<1$ 时，$\\ln a<0$，且 $a^{x}$ 在 $[0,+\\infty)$ 上的最大值为 $1$. 因而要使 $f'(x)\\geqslant0$ 对所有 $x\\geqslant0$ 成立，需且只需 $2-(3a^{2}+1)\\leqslant0$，即 $a\\ge\\dfrac{\\sqrt{3}}{3}$. 结合 $0<a<1$，得到 $a\\in\\left[\\dfrac{\\sqrt{3}}{3},1\\right)$.</p><p>当 $a>1$ 时，$\\ln a>0$，且 $a^{x}\\geqslant1$，要使导数恒非负需 $2-(3a^{2}+1)\\geqslant0$，即 $a\\le\\dfrac{\\sqrt{3}}{3}$，这与 $a>1$ 矛盾. 所以实数 $a$ 的取值范围为 $\\left[\\dfrac{\\sqrt{3}}{3},1\\right)$，选 B.</p>"
+          "solution": "<p>求导得 $f'(x)=a^{x}\\ln a\\left(2a^{x}-3a^{2}-1\\right)$. 当 $0<a<1$ 时，$\\ln a<0$，且 $a^{x}$ 在 $[0,+\\infty)$ 上的最大值为 $1$. 因而要使 $f'(x)\\geqslant0$ 对所有 $x\\geqslant0$ 成立，需且只需 $2-(3a^{2}+1)\\leqslant0$，即 $a\\ge\\dfrac{\\sqrt{3}}{3}$. 结合 $0<a<1$，得到 $a\\in\\left[\\dfrac{\\sqrt{3}}{3},1\\right)$.</p><p>当 $a>1$ 时，$\\ln a>0$，且 $a^{x}\\geqslant1$，要使导数恒非负需 $2-(3a^{2}+1)\\geqslant0$，即 $a\\le\\dfrac{\\sqrt{3}}{3}$，这与 $a>1$ 矛盾. 所以实数 $a$ 的取值范围为 $\\left[\\dfrac{\\sqrt{3}}{3},1\\right)$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,44 +290,56 @@
         {
           "num": 11,
           "body": "$\\left(x + \\frac{1}{\\sqrt{x}}\\right)^{7}$ 的二项展开式中 $x$ 的系数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（用数字作答）",
-          "choices": null,
-          "answer": "$35$",
-          "solution": "展开式的第 $k+1$ 项为 $\\mathrm{C}_{7}^{k} x^{7-k}\\left(x^{-\\frac{1}{2}}\\right)^{k}=\\mathrm{C}_{7}^{k} x^{7-\\frac{3k}{2}}$，其中 $k=0$，$1$，$\\dots$，$7$. 要得到 $x$ 的一次项，需满足 $7-\\dfrac{3k}{2}=1$，解得 $k=4$. 因此所求系数为 $\\mathrm{C}_{7}^{4}=35$."
+          "choices": [],
+          "answer": "\\(35\\)",
+          "solution": "展开式的第 $k+1$ 项为 $\\mathrm{C}_{7}^{k} x^{7-k}\\left(x^{-\\frac{1}{2}}\\right)^{k}=\\mathrm{C}_{7}^{k} x^{7-\\frac{3k}{2}}$，其中 $k=0$，$1$，$\\dots$，$7$. 要得到 $x$ 的一次项，需满足 $7-\\dfrac{3k}{2}=1$，解得 $k=4$. 因此所求系数为 $\\mathrm{C}_{7}^{4}=35$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "设向量 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $\\theta$，且 $\\mathbf{a}= (3, 3)$，$2\\mathbf{b}- \\mathbf{a}= (-1, 1)$，则 $\\cos \\theta =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\dfrac{3\\sqrt{10}}{10}$",
-          "solution": "由 $2\\mathbf{b}-\\mathbf{a}=(-1,1)$ 和 $\\mathbf{a}=(3,3)$，得 $2\\mathbf{b}=(2,4)$，所以 $\\mathbf{b}=(1,2)$. 于是 $\\mathbf{a}\\cdot\\mathbf{b}=3\\times1+3\\times2=9$，$\\lvert\\mathbf{a}\\rvert=\\sqrt{3^{2}+3^{2}}=3\\sqrt{2}$，$\\lvert\\mathbf{b}\\rvert=\\sqrt{1^{2}+2^{2}}=\\sqrt{5}$. 根据数量积公式，$\\cos\\theta=\\dfrac{\\mathbf{a}\\cdot\\mathbf{b}}{\\lvert\\mathbf{a}\\rvert\\lvert\\mathbf{b}\\rvert}=\\dfrac{9}{3\\sqrt{10}}=\\dfrac{3\\sqrt{10}}{10}$."
+          "choices": [],
+          "answer": "\\(\\dfrac{3\\sqrt{10}}{10}\\)",
+          "solution": "由 $2\\mathbf{b}-\\mathbf{a}=(-1,1)$ 和 $\\mathbf{a}=(3,3)$，得 $2\\mathbf{b}=(2,4)$，所以 $\\mathbf{b}=(1,2)$. 于是 $\\mathbf{a}\\cdot\\mathbf{b}=3\\times1+3\\times2=9$，$\\lvert\\mathbf{a}\\rvert=\\sqrt{3^{2}+3^{2}}=3\\sqrt{2}$，$\\lvert\\mathbf{b}\\rvert=\\sqrt{1^{2}+2^{2}}=\\sqrt{5}$. 根据数量积公式，$\\cos\\theta=\\dfrac{\\mathbf{a}\\cdot\\mathbf{b}}{\\lvert\\mathbf{a}\\rvert\\lvert\\mathbf{b}\\rvert}=\\dfrac{9}{3\\sqrt{10}}=\\dfrac{3\\sqrt{10}}{10}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
-          "body": "<p>如图，在正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB = 1$. 若二面角 $C - AB - C_{1}$ 的大小为 $60^{\\circ}$，则点 $C$ 到平面 $ABC_{1}$ 的距离为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\dfrac{3}{4}$",
-          "solution": "<p>建立直角坐标系，令 $A=(0,0,0)$，$B=(1,0,0)$，$C=\\left(\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2},0\\right)$，并设正三棱柱的高为 $h$，则 $C_{1}=\\left(\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2},h\\right)$. 平面 $ABC$ 的一个法向量为 $\\mathbf{n}_{1}=(0,0,1)$，平面 $ABC_{1}$ 的一个法向量可取 $\\mathbf{n}_{2}=\\left(0,-h,\\dfrac{\\sqrt{3}}{2}\\right)$. 二面角 $C-AB-C_{1}$ 是这两个平面的锐角，故</p>\n$$\n\\cos60^{\\circ}=\\frac{\\lvert\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}\\rvert}{\\lvert\\mathbf{n}_{1}\\rvert\\lvert\\mathbf{n}_{2}\\rvert}=\\frac{\\frac{\\sqrt{3}}{2}}{\\sqrt{h^{2}+\\frac{3}{4}}}\n$$\n<p>由此得 $h^{2}=\\dfrac{9}{4}$，所以 $h=\\dfrac{3}{2}$. 平面 $ABC_{1}$ 的方程为 $-hy+\\dfrac{\\sqrt{3}}{2}z=0$，于是点 $C$ 到该平面的距离为</p>\n$$\n\\frac{\\left|-h\\dfrac{\\sqrt{3}}{2}\\right|}{\\sqrt{h^{2}+\\frac{3}{4}}}=\\frac{(\\frac{3}{2})(\\frac{\\sqrt{3}}{2})}{\\sqrt{3}}=\\frac{3}{4}\n$$\n<p>故所求距离为 $\\dfrac{3}{4}$.</p>"
+          "body": "<p>如图，在正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB = 1$. 若二面角 $C - AB - C_{1}$ 的大小为 $60^{\\circ}$，则点 $C$ 到平面 $ABC_{1}$ 的距离为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/tianjin_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\dfrac{3}{4}\\)",
+          "solution": "<p>建立直角坐标系，令 $A=(0,0,0)$，$B=(1,0,0)$，$C=\\left(\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2},0\\right)$，并设正三棱柱的高为 $h$，则 $C_{1}=\\left(\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2},h\\right)$. 平面 $ABC$ 的一个法向量为 $\\mathbf{n}_{1}=(0,0,1)$，平面 $ABC_{1}$ 的一个法向量可取 $\\mathbf{n}_{2}=\\left(0,-h,\\dfrac{\\sqrt{3}}{2}\\right)$. 二面角 $C-AB-C_{1}$ 是这两个平面的锐角，故</p>\n$$\n\\cos60^{\\circ}=\\frac{\\lvert\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}\\rvert}{\\lvert\\mathbf{n}_{1}\\rvert\\lvert\\mathbf{n}_{2}\\rvert}=\\frac{\\frac{\\sqrt{3}}{2}}{\\sqrt{h^{2}+\\frac{3}{4}}}\n$$\n<p>由此得 $h^{2}=\\dfrac{9}{4}$，所以 $h=\\dfrac{3}{2}$. 平面 $ABC_{1}$ 的方程为 $-hy+\\dfrac{\\sqrt{3}}{2}z=0$，于是点 $C$ 到该平面的距离为</p>\n$$\n\\frac{\\left|-h\\dfrac{\\sqrt{3}}{2}\\right|}{\\sqrt{h^{2}+\\frac{3}{4}}}=\\frac{(\\frac{3}{2})(\\frac{\\sqrt{3}}{2})}{\\sqrt{3}}=\\frac{3}{4}\n$$\n<p>故所求距离为 $\\dfrac{3}{4}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "若半径为 $1$ 的圆分别与 $y$ 轴的正半轴和射线 $y = \\frac{\\sqrt{3}}{3}x$（$x \\ge 0$）相切，则这个圆的方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(x-1)^{2}+(y-\\sqrt{3})^{2}=1$",
-          "solution": "<p>设圆心为 $T(u,v)$. 圆与 $y$ 轴的正半轴相切，故 $\\lvert u\\rvert=1$ 且 $v>0$. 射线所在直线为 $x-\\sqrt{3}y=0$，圆心到该直线的距离为半径 $1$，所以 $\\lvert u-\\sqrt{3}v\\rvert=2$.</p><p>若 $u=1$，结合 $v>0$ 可得 $v=\\sqrt{3}$. 若 $u=-1$，结合 $v>0$ 得 $v=\\dfrac1{\\sqrt{3}}$，但此时圆心到射线方向单位向量 $\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{1}{2}\\right)$ 的有向投影为 $(-1,\\frac{1}{\\sqrt{3}})\\cdot(\\frac{\\sqrt{3}}{2},\\frac{1}{2})=-\\frac{\\sqrt{3}}{3}<0$，垂足落在射线的反向延长线上，不符合相切于该射线的条件. 因而圆心只能是 $(1,\\sqrt{3})$，圆的方程为 $(x-1)^{2}+(y-\\sqrt{3})^{2}=1$.</p>"
+          "choices": [],
+          "answer": "\\((x-1)^2+(y-\\sqrt{3})^2=1\\)",
+          "solution": "<p>设圆心为 $T(u,v)$. 圆与 $y$ 轴的正半轴相切，故 $\\lvert u\\rvert=1$ 且 $v>0$. 射线所在直线为 $x-\\sqrt{3}y=0$，圆心到该直线的距离为半径 $1$，所以 $\\lvert u-\\sqrt{3}v\\rvert=2$.</p><p>若 $u=1$，结合 $v>0$ 可得 $v=\\sqrt{3}$. 若 $u=-1$，结合 $v>0$ 得 $v=\\dfrac1{\\sqrt{3}}$，但此时圆心到射线方向单位向量 $\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{1}{2}\\right)$ 的有向投影为 $(-1,\\frac{1}{\\sqrt{3}})\\cdot(\\frac{\\sqrt{3}}{2},\\frac{1}{2})=-\\frac{\\sqrt{3}}{3}<0$，垂足落在射线的反向延长线上，不符合相切于该射线的条件. 因而圆心只能是 $(1,\\sqrt{3})$，圆的方程为 $(x-1)^{2}+(y-\\sqrt{3})^{2}=1$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "某公司一年购买某种货物 $400\\text{ 吨}$，每次都购买 $x\\text{ 吨}$，运费为 $4\\text{ 万元/次}$，一年的总存储费用为 $4x\\text{ 万元}$，要使一年的总运费与总存储费用之和最小，则 $x=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{吨}$.",
-          "choices": null,
-          "answer": "$20$",
-          "solution": "取货量须满足 $x>0$，一年需要购买 $\\dfrac{400}{x}$ 次，所以一年的总运费与总存储费用之和为 $T(x)=4\\cdot\\dfrac{400}{x}+4x=\\dfrac{1600}{x}+4x$. 由基本不等式，$T(x)\\geqslant2\\sqrt{\\dfrac{1600}{x}\\cdot4x}=160$，当且仅当 $\\dfrac{1600}{x}=4x$ 时取等号. 因为 $x>0$，解得 $x=20$，故每次购买 $20\\text{ 吨}$ 时总费用最小."
+          "choices": [],
+          "answer": "\\(20\\)",
+          "solution": "取货量须满足 $x>0$，一年需要购买 $\\dfrac{400}{x}$ 次，所以一年的总运费与总存储费用之和为 $T(x)=4\\cdot\\dfrac{400}{x}+4x=\\dfrac{1600}{x}+4x$. 由基本不等式，$T(x)\\geqslant2\\sqrt{\\dfrac{1600}{x}\\cdot4x}=160$，当且仅当 $\\dfrac{1600}{x}=4x$ 时取等号. 因为 $x>0$，解得 $x=20$，故每次购买 $20\\text{ 吨}$ 时总费用最小.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "用数字 $0$，$1$，$2$，$3$，$4$ 组成没有重复数字的五位数，则其中数字 $1$，$2$ 相邻的偶数有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{个}$.（用数字作答）",
-          "choices": null,
-          "answer": "$24$",
-          "solution": "<p>五位数必须使用这五个数字各一次，且末位只能是 $0$，$2$ 或 $4$. 将相邻的 $1$，$2$ 看作一个整体时，该整体有 $12$ 和 $21$ 两种排列.</p><p>末位为 $0$ 时，前四位由 $12$（或 $21$）、$3$、$4$ 排列，共有 $2\\times3!=12$ 个. 末位为 $2$ 时，为保证 $1$，$2$ 相邻，第四位必须为 $1$，前三位排列 $0$，$3$，$4$，且首位不能为 $0$，共有 $3!-2!=4$ 个. 末位为 $4$ 时，前四位的排列中相邻的 $1$，$2$ 共有 $2\\times3!=12$ 个，其中首位为 $0$ 的有 $2\\times2!=4$ 个，所以有 $8$ 个.</p><p>因此满足条件的五位数共有 $12+4+8=24$ 个.</p>"
+          "choices": [],
+          "answer": "\\(24\\)",
+          "solution": "<p>五位数必须使用这五个数字各一次，且末位只能是 $0$，$2$ 或 $4$. 将相邻的 $1$，$2$ 看作一个整体时，该整体有 $12$ 和 $21$ 两种排列.</p><p>末位为 $0$ 时，前四位由 $12$（或 $21$）、$3$、$4$ 排列，共有 $2\\times3!=12$ 个. 末位为 $2$ 时，为保证 $1$，$2$ 相邻，第四位必须为 $1$，前三位排列 $0$，$3$，$4$，且首位不能为 $0$，共有 $3!-2!=4$ 个. 末位为 $4$ 时，前四位的排列中相邻的 $1$，$2$ 共有 $2\\times3!=12$ 个，其中首位为 $0$ 的有 $2\\times2!=4$ 个，所以有 $8$ 个.</p><p>因此满足条件的五位数共有 $12+4+8=24$ 个.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -182,44 +349,56 @@
         {
           "num": 17,
           "body": "已知 $\\tan \\alpha + \\cot \\alpha = \\frac{5}{2}$，$\\alpha \\in \\left(\\frac{\\pi}{4}, \\frac{\\pi}{2}\\right)$，求 $\\cos 2\\alpha$ 和 $\\sin\\left(2\\alpha + \\frac{\\pi}{4}\\right)$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>令 $t=\\tan\\alpha$. 因为 $\\alpha\\in\\left(\\frac{\\pi}{4},\\frac{\\pi}{2}\\right)$，所以 $t>1$，且 $\\cot\\alpha=\\frac{1}{t}$. 由已知得</p>\n$$\nt+\\frac{1}{t}=\\frac{5}{2}\\Longrightarrow 2t^{2}-5t+2=0\\Longrightarrow (2t-1)(t-2)=0\n$$\n<p>结合 $t>1$，可得 $t=2$. 因此 $\\cos 2\\alpha=\\frac{1-t^{2}}{1+t^{2}}=-\\frac{3}{5}$，且</p><p>$\\sin 2\\alpha=\\frac{2t}{1+t^{2}}=\\frac{4}{5}$.</p><p>所以</p>\n$$\n\\sin\\left(2\\alpha+\\frac{\\pi}{4}\\right)=\\sin 2\\alpha\\cos\\frac{\\pi}{4}+\\cos 2\\alpha\\sin\\frac{\\pi}{4}=\\frac{4}{5}\\cdot\\frac{\\sqrt{2}}{2}-\\frac{3}{5}\\cdot\\frac{\\sqrt{2}}{2}=\\frac{\\sqrt{2}}{10}\n$$"
+          "solution": "<p>令 $t=\\tan\\alpha$. 因为 $\\alpha\\in\\left(\\frac{\\pi}{4},\\frac{\\pi}{2}\\right)$，所以 $t>1$，且 $\\cot\\alpha=\\frac{1}{t}$. 由已知得</p>\n$$\nt+\\frac{1}{t}=\\frac{5}{2}\\Longrightarrow 2t^{2}-5t+2=0\\Longrightarrow (2t-1)(t-2)=0\n$$\n<p>结合 $t>1$，可得 $t=2$. 因此 $\\cos 2\\alpha=\\frac{1-t^{2}}{1+t^{2}}=-\\frac{3}{5}$，且</p><p>$\\sin 2\\alpha=\\frac{2t}{1+t^{2}}=\\frac{4}{5}$.</p><p>所以</p>\n$$\n\\sin\\left(2\\alpha+\\frac{\\pi}{4}\\right)=\\sin 2\\alpha\\cos\\frac{\\pi}{4}+\\cos 2\\alpha\\sin\\frac{\\pi}{4}=\\frac{4}{5}\\cdot\\frac{\\sqrt{2}}{2}-\\frac{3}{5}\\cdot\\frac{\\sqrt{2}}{2}=\\frac{\\sqrt{2}}{10}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>甲，乙两台机床相互没有影响地生产某种产品，甲机床产品的正品率是 $0.9$，乙机床产品的正品率是 $0.95$.</p><ol class=\"enumerate\"><li><p>从甲机床生产的产品中任取 $3$ 件，求其中恰有 $2$ 件正品的概率（用数字作答）；</p></li><li><p>从甲，乙两台机床生产的产品中各任取 $1$ 件，求其中至少有 $1$ 件正品的概率（用数字作答）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>甲机床生产的产品中，正品率为 $0.9$，次品率为 $1-0.9=0.1$. 由于各件产品相互独立，恰有 $2$ 件正品的概率为</p><p>$\\mathrm{C}_{3}^{2}(0.9)^{2}(0.1)=3\\times 0.81\\times 0.1=0.243$.</p></li><li><p>两台机床各取出的产品相互独立，至少有 $1$ 件正品的对立事件是两件都是次品. 因此所求概率为</p><p>$1-(1-0.9)(1-0.95)=1-0.1\\times 0.05=0.995$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>甲机床生产的产品中，正品率为 $0.9$，次品率为 $1-0.9=0.1$. 由于各件产品相互独立，恰有 $2$ 件正品的概率为</p><p>$\\mathrm{C}_{3}^{2}(0.9)^{2}(0.1)=3\\times 0.81\\times 0.1=0.243$.</p></li><li><p>两台机床各取出的产品相互独立，至少有 $1$ 件正品的对立事件是两件都是次品. 因此所求概率为</p><p>$1-(1-0.9)(1-0.95)=1-0.1\\times 0.05=0.995$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>如图，在五面体 $ABCDEF$ 中，点 $O$ 是矩形 $ABCD$ 的对角线的交点，面 $CDE$ 是等边三角形，棱 $EF \\parallel BC$ 且 $EF = \\frac{1}{2}BC$.</p><ol class=\"enumerate\"><li><p>证明：$FO \\parallel$ 平面 $CDE$；</p></li><li><p>设 $BC = \\sqrt{3}CD$，证明：$EO \\perp$ 平面 $CDF$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在五面体 $ABCDEF$ 中，点 $O$ 是矩形 $ABCD$ 的对角线的交点，面 $CDE$ 是等边三角形，棱 $EF \\parallel BC$ 且 $EF = \\frac{1}{2}BC$.</p><ol class=\"enumerate\"><li><p>证明：$FO \\parallel$ 平面 $CDE$；</p></li><li><p>设 $BC = \\sqrt{3}CD$，证明：$EO \\perp$ 平面 $CDF$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/tianjin_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>取 $M$ 为 $CD$ 的中点，连接 $OM$、$EM$、$FM$. 因为 $ABCD$ 是矩形，且 $O$ 是其对角线的交点，所以 $OM\\parallel BC$，$OM=\\dfrac{1}{2}BC$. 又由已知 $EF\\parallel BC$，$EF=\\dfrac{1}{2}BC$，可得 $EF\\parallel MO$ 且 $EF=MO$. 因此四边形 $EFOM$ 是平行四边形.</p><ol class=\"enumerate\"><li><p>由平行四边形的对边平行，得 $FO\\parallel EM$. 直线 $EM$ 在平面 $CDE$ 内. 又因为平面 $ABCD$ 与平面 $CDE$ 的交线为 $CD$，而 $O\\notin CD$，所以 $O\\notin$ 平面 $CDE$. 因而 $FO$ 不在平面 $CDE$ 内，从而 $FO\\parallel$ 平面 $CDE$.</p></li><li><p>在等边三角形 $CDE$ 中，$EM\\perp CD$，且 $EM=\\dfrac{\\sqrt{3}}{2}CD$. 由 $BC=\\sqrt{3}CD$ 及 $EF=\\dfrac{1}{2}BC$，得</p>\n$$\nEF=\\frac{\\sqrt{3}}{2}CD=EM\n$$\n<p>所以平行四边形 $EFOM$ 是菱形，设其两条对角线的交点为 $P$，则 $P\\in EO\\cap FM$，且 $EO\\perp FM$.</p><p>矩形的邻边垂直，且 $OM\\parallel BC$，所以 $CD\\perp OM$. 又 $CD\\perp EM$，而 $OM$ 与 $EM$ 是平面 $EOM$ 内相交的两条直线，故 $CD\\perp$ 平面 $EOM$. 因而 $CD\\perp EO$. 又 $FM\\perp EO$，且 $CD$ 与 $FM$ 在点 $M$ 相交，二者同在平面 $CDF$ 内，所以 $EO\\perp$ 平面 $CDF$.</p></li></ol>"
+          "solution": "<p>取 $M$ 为 $CD$ 的中点，连接 $OM$、$EM$、$FM$. 因为 $ABCD$ 是矩形，且 $O$ 是其对角线的交点，所以 $OM\\parallel BC$，$OM=\\dfrac{1}{2}BC$. 又由已知 $EF\\parallel BC$，$EF=\\dfrac{1}{2}BC$，可得 $EF\\parallel MO$ 且 $EF=MO$. 因此四边形 $EFOM$ 是平行四边形.</p><ol class=\"enumerate\"><li><p>由平行四边形的对边平行，得 $FO\\parallel EM$. 直线 $EM$ 在平面 $CDE$ 内. 又因为平面 $ABCD$ 与平面 $CDE$ 的交线为 $CD$，而 $O\\notin CD$，所以 $O\\notin$ 平面 $CDE$. 因而 $FO$ 不在平面 $CDE$ 内，从而 $FO\\parallel$ 平面 $CDE$.</p></li><li><p>在等边三角形 $CDE$ 中，$EM\\perp CD$，且 $EM=\\dfrac{\\sqrt{3}}{2}CD$. 由 $BC=\\sqrt{3}CD$ 及 $EF=\\dfrac{1}{2}BC$，得</p>\n$$\nEF=\\frac{\\sqrt{3}}{2}CD=EM\n$$\n<p>所以平行四边形 $EFOM$ 是菱形，设其两条对角线的交点为 $P$，则 $P\\in EO\\cap FM$，且 $EO\\perp FM$.</p><p>矩形的邻边垂直，且 $OM\\parallel BC$，所以 $CD\\perp OM$. 又 $CD\\perp EM$，而 $OM$ 与 $EM$ 是平面 $EOM$ 内相交的两条直线，故 $CD\\perp$ 平面 $EOM$. 因而 $CD\\perp EO$. 又 $FM\\perp EO$，且 $CD$ 与 $FM$ 在点 $M$ 相交，二者同在平面 $CDF$ 内，所以 $EO\\perp$ 平面 $CDF$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知函数 $f(x) = 4x^{3}- 3x^{2}\\cos \\theta + \\frac{1}{32}$，其中 $x \\in \\mathbb{R}$，$\\theta$ 为参数，且 $0 \\le \\theta \\le \\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>当 $\\cos\\theta = 0$ 时，判断函数 $f(x)$ 是否有极值；</p></li><li><p>要使函数 $f(x)$ 的极小值大于零，求参数 $\\theta$ 的取值范围；</p></li><li><p>若对（2）中所求的取值范围内的任意参数 $\\theta$，函数 $f(x)$ 在区间 $(2a - 1, a)$ 内都是增函数，求实数 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $\\cos\\theta=0$ 时，$f(x)=4x^{3}+\\frac{1}{32}$，它在 $\\mathbb{R}$ 上为增函数，因此没有极值.</p></li><li><p>记 $c=\\cos\\theta$，则 $0\\le c\\le 1$，且 $f'(x)=12x^{2}-6cx=6x(2x-c)$.</p><p>当 $c>0$ 时，$f'(x)$ 在 $(-\\infty,0)$ 和 $\\left(\\frac{c}{2},+\\infty\\right)$ 上为正，在 $\\left(0,\\frac{c}{2}\\right)$ 上为负，所以函数在 $x=\\frac{c}{2}$ 处取得极小值. 该极小值为</p><p>$f\\left(\\frac{c}{2}\\right)=4\\left(\\frac{c}{2}\\right)^{3}-3\\left(\\frac{c}{2}\\right)^{2}c+\\frac{1}{32}=\\frac{1}{32}-\\frac{c^{3}}{4}$.</p><p>要使极小值大于零，需满足 $c>0$ 且</p><p>$\\frac{1}{32}-\\frac{c^{3}}{4}>0\\Longleftrightarrow c<\\frac{1}{2}$.</p><p>结合 $0\\le\\theta\\le\\frac{\\pi}{2}$，可得</p><p>$\\frac{\\pi}{3}<\\theta<\\frac{\\pi}{2}$.</p></li><li><p>由（2）知，对任意所取参数，$c\\in\\left(0,\\frac{1}{2}\\right)$. 对固定的 $c$，有 $f'(x)<0$ 当且仅当 $0<x<\\frac{c}{2}$，而在 $x<0$ 或 $x>\\frac{c}{2}$ 时 $f'(x)>0$. 因而区间 $I=(2a-1,a)$ 对每一个这样的参数都满足函数递增，当且仅当 $I$ 不与任意一个区间 $\\left(0,\\frac{c}{2}\\right)$ 相交. 又因为</p>\n$$\n\\bigcup_{0<c<\\frac{1}{2}}\\left(0,\\frac{c}{2}\\right)=\\left(0,\\frac{1}{4}\\right)\n$$\n<p>所以非空区间 $I$ 不能含有 $\\left(0,\\frac{1}{4}\\right)$ 中的点. 由于 $I$ 是连通区间，它必须完全落在 $(-\\infty,0]$ 或 $[\\frac{1}{4},+\\infty)$ 内. 前一种情形给出 $a\\leqslant0$. 后一种情形给出 $2a-1\\ge\\frac{1}{4}$，即 $a\\ge\\frac{5}{8}$，同时区间非空要求 $2a-1<a$，即 $a<1$. 反之，这两组条件分别使 $I$ 落在导数为正的区域内，对每个 $c\\in\\left(0,\\frac{1}{2}\\right)$ 都成立. 因而</p><p>$a\\in\\left(-\\infty,0\\right]\\cup\\left[\\frac{5}{8},1\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $\\cos\\theta=0$ 时，$f(x)=4x^{3}+\\frac{1}{32}$，它在 $\\mathbb{R}$ 上为增函数，因此没有极值.</p></li><li><p>记 $c=\\cos\\theta$，则 $0\\le c\\le 1$，且 $f'(x)=12x^{2}-6cx=6x(2x-c)$.</p><p>当 $c>0$ 时，$f'(x)$ 在 $(-\\infty,0)$ 和 $\\left(\\frac{c}{2},+\\infty\\right)$ 上为正，在 $\\left(0,\\frac{c}{2}\\right)$ 上为负，所以函数在 $x=\\frac{c}{2}$ 处取得极小值. 该极小值为</p><p>$f\\left(\\frac{c}{2}\\right)=4\\left(\\frac{c}{2}\\right)^{3}-3\\left(\\frac{c}{2}\\right)^{2}c+\\frac{1}{32}=\\frac{1}{32}-\\frac{c^{3}}{4}$.</p><p>要使极小值大于零，需满足 $c>0$ 且</p><p>$\\frac{1}{32}-\\frac{c^{3}}{4}>0\\Longleftrightarrow c<\\frac{1}{2}$.</p><p>结合 $0\\le\\theta\\le\\frac{\\pi}{2}$，可得</p><p>$\\frac{\\pi}{3}<\\theta<\\frac{\\pi}{2}$.</p></li><li><p>由（2）知，对任意所取参数，$c\\in\\left(0,\\frac{1}{2}\\right)$. 对固定的 $c$，有 $f'(x)<0$ 当且仅当 $0<x<\\frac{c}{2}$，而在 $x<0$ 或 $x>\\frac{c}{2}$ 时 $f'(x)>0$. 因而区间 $I=(2a-1,a)$ 对每一个这样的参数都满足函数递增，当且仅当 $I$ 不与任意一个区间 $\\left(0,\\frac{c}{2}\\right)$ 相交. 又因为</p>\n$$\n\\bigcup_{0<c<\\frac{1}{2}}\\left(0,\\frac{c}{2}\\right)=\\left(0,\\frac{1}{4}\\right)\n$$\n<p>所以非空区间 $I$ 不能含有 $\\left(0,\\frac{1}{4}\\right)$ 中的点. 由于 $I$ 是连通区间，它必须完全落在 $(-\\infty,0]$ 或 $[\\frac{1}{4},+\\infty)$ 内. 前一种情形给出 $a\\leqslant0$. 后一种情形给出 $2a-1\\ge\\frac{1}{4}$，即 $a\\ge\\frac{5}{8}$，同时区间非空要求 $2a-1<a$，即 $a<1$. 反之，这两组条件分别使 $I$ 落在导数为正的区域内，对每个 $c\\in\\left(0,\\frac{1}{2}\\right)$ 都成立. 因而</p><p>$a\\in\\left(-\\infty,0\\right]\\cup\\left[\\frac{5}{8},1\\right)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知数列 $\\{x_{n}\\}$ 满足 $x_{1} = x_{2} = 1$，并且 $\\frac{x_{n+1}}{x_{n}}= \\lambda \\frac{x_{n}}{x_{n-1}}$（$\\lambda$ 为非零参数，$n = 2$，$3$，$4$，$\\dots$）.</p><ol class=\"enumerate\"><li><p>若 $x_{1}$，$x_{3}$，$x_{5}$ 成等比数列，求参数 $\\lambda$ 的值；</p></li><li><p>设 $0 < \\lambda < 1$，常数 $k \\in \\mathbb{N}^{*}$ 且 $k \\ge 3$，证明：$\\frac{x_{1+k}}{x_{1}}+ \\frac{x_{2+k}}{x_{2}}+ \\cdots + \\frac{x_{n+k}}{x_{n}}< \\frac{\\lambda^{k}}{1 - \\lambda^{k}}$（$n \\in \\mathbb{N}^{*}$）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由 $x_{1}=x_{2}=1\\ne0$ 且 $\\lambda\\ne0$，根据递推关系可知数列各项均不为零. 令</p><p>$r_{n}=\\frac{x_{n+1}}{x_{n}}$，（$n\\in\\mathbb{N}^{*}$）.</p><p>则 $r_{1}=1$，并且对 $n\\geqslant2$，有</p>\n$$\nr_{n}=\\frac{x_{n+1}}{x_{n}}=\\lambda\\frac{x_{n}}{x_{n-1}}=\\lambda r_{n-1}\n$$\n<p>所以 $r_{n}=\\lambda^{n-1}$，从而</p><p>$x_{n}=x_{1}r_{1}r_{2}\\cdots r_{n-1}=\\lambda^{\\frac{(n-1)(n-2)}{2}}$.</p><ol class=\"enumerate\"><li><p>由上式得 $x_{1}=1$，$x_{3}=\\lambda$，$x_{5}=\\lambda^{6}$. 三项成等比数列，当且仅当</p>\n$$\nx_{3}^{2}=x_{1}x_{5}\\Longrightarrow \\lambda^{2}=\\lambda^{6}\\Longrightarrow \\lambda^{4}=1\n$$\n<p>因为 $\\lambda$ 为非零实数，所以 $\\lambda=1$ 或 $\\lambda=-1$.</p></li><li><p>对任意 $j\\in\\mathbb{N}^{*}$，有</p>\n$$\n\\frac{x_{j+k}}{x_{j}}=\\lambda^{\\frac{(j+k-1)(j+k-2)-(j-1)(j-2)}{2}}=\\lambda^{kj+\\frac{k(k-3)}{2}}\n$$\n<p>因此</p>\n$$\n\\begin{gathered}\\sum_{j=1}^{n}\\frac{x_{j+k}}{x_{j}}\n\n=\\sum_{j=1}^{n}\\lambda^{kj+\\frac{k(k-3)}{2}}\n\n=\\lambda^{\\frac{k(k-1)}{2}}\\left(1+\\lambda^{k}+\\lambda^{2k}+\\cdots+\\lambda^{(n-1)k}\\right)\\\\\n\n=\\frac{\\lambda^{\\frac{k(k-1)}{2}}\\left(1-\\lambda^{kn}\\right)}{1-\\lambda^{k}}\\end{gathered}\n$$\n<p>因为 $0<\\lambda<1$ 且 $k\\geqslant3$，所以 $\\frac{k(k-1)}{2}\\ge k$，从而 $\\lambda^{\\frac{k(k-1)}{2}}\\le\\lambda^{k}$，又 $0<1-\\lambda^{kn}<1$. 因此</p>\n$$\n\\sum_{j=1}^{n}\\frac{x_{j+k}}{x_{j}}<\\frac{\\lambda^{k}}{1-\\lambda^{k}}\n$$\n</li></ol>"
+          "solution": "<p>由 $x_{1}=x_{2}=1\\ne0$ 且 $\\lambda\\ne0$，根据递推关系可知数列各项均不为零. 令</p><p>$r_{n}=\\frac{x_{n+1}}{x_{n}}$，（$n\\in\\mathbb{N}^{*}$）.</p><p>则 $r_{1}=1$，并且对 $n\\geqslant2$，有</p>\n$$\nr_{n}=\\frac{x_{n+1}}{x_{n}}=\\lambda\\frac{x_{n}}{x_{n-1}}=\\lambda r_{n-1}\n$$\n<p>所以 $r_{n}=\\lambda^{n-1}$，从而</p><p>$x_{n}=x_{1}r_{1}r_{2}\\cdots r_{n-1}=\\lambda^{\\frac{(n-1)(n-2)}{2}}$.</p><ol class=\"enumerate\"><li><p>由上式得 $x_{1}=1$，$x_{3}=\\lambda$，$x_{5}=\\lambda^{6}$. 三项成等比数列，当且仅当</p>\n$$\nx_{3}^{2}=x_{1}x_{5}\\Longrightarrow \\lambda^{2}=\\lambda^{6}\\Longrightarrow \\lambda^{4}=1\n$$\n<p>因为 $\\lambda$ 为非零实数，所以 $\\lambda=1$ 或 $\\lambda=-1$.</p></li><li><p>对任意 $j\\in\\mathbb{N}^{*}$，有</p>\n$$\n\\frac{x_{j+k}}{x_{j}}=\\lambda^{\\frac{(j+k-1)(j+k-2)-(j-1)(j-2)}{2}}=\\lambda^{kj+\\frac{k(k-3)}{2}}\n$$\n<p>因此</p>\n$$\n\\begin{gathered}\\sum_{j=1}^{n}\\frac{x_{j+k}}{x_{j}}\n\n=\\sum_{j=1}^{n}\\lambda^{kj+\\frac{k(k-3)}{2}}\n\n=\\lambda^{\\frac{k(k-1)}{2}}\\left(1+\\lambda^{k}+\\lambda^{2k}+\\cdots+\\lambda^{(n-1)k}\\right)\\\\\n\n=\\frac{\\lambda^{\\frac{k(k-1)}{2}}\\left(1-\\lambda^{kn}\\right)}{1-\\lambda^{k}}\\end{gathered}\n$$\n<p>因为 $0<\\lambda<1$ 且 $k\\geqslant3$，所以 $\\frac{k(k-1)}{2}\\ge k$，从而 $\\lambda^{\\frac{k(k-1)}{2}}\\le\\lambda^{k}$，又 $0<1-\\lambda^{kn}<1$. 因此</p>\n$$\n\\sum_{j=1}^{n}\\frac{x_{j+k}}{x_{j}}<\\frac{\\lambda^{k}}{1-\\lambda^{k}}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
-          "body": "<p>如图，双曲线 $\\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$（$a > 0$，$b > 0$）的离心率为 $\\frac{\\sqrt{5}}{2}$，$F_{1}$，$F_{2}$ 分别为左，右焦点，$M$ 为左准线与渐近线在第二象限内的交点，且 $\\overrightarrow{F_1M}\\cdot \\overrightarrow{F_2M}= -\\frac{1}{4}$.</p><ol class=\"enumerate\"><li><p>求双曲线的方程；</p></li><li><p>设 $A(m,0)$ 和 $B\\left(\\frac{1}{m},0\\right)$（$0 < m < 1$）是 $x$ 轴上的两点，过点 $A$ 作斜率不为 $0$ 的直线 $l$，使得 $l$ 交双曲线于 $C$，$D$ 两点，作直线 $BC$ 交双曲线于另一点 $E$. 证明：直线 $DE$ 垂直于 $x$ 轴.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，双曲线 $\\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$（$a > 0$，$b > 0$）的离心率为 $\\frac{\\sqrt{5}}{2}$，$F_{1}$，$F_{2}$ 分别为左，右焦点，$M$ 为左准线与渐近线在第二象限内的交点，且 $\\overrightarrow{F_1M}\\cdot \\overrightarrow{F_2M}= -\\frac{1}{4}$.</p><ol class=\"enumerate\"><li><p>求双曲线的方程；</p></li><li><p>设 $A(m,0)$ 和 $B\\left(\\frac{1}{m},0\\right)$（$0 < m < 1$）是 $x$ 轴上的两点，过点 $A$ 作斜率不为 $0$ 的直线 $l$，使得 $l$ 交双曲线于 $C$，$D$ 两点，作直线 $BC$ 交双曲线于另一点 $E$. 证明：直线 $DE$ 垂直于 $x$ 轴.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/tianjin_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设双曲线的半焦距为 $c$，则</p><p>$c^{2}=a^{2}+b^{2}$，$\\frac{c}{a}=\\frac{\\sqrt{5}}{2}$.</p><p>所以</p><p>$c^{2}=\\frac{5}{4}a^{2}$，$b^{2}=c^{2}-a^{2}=\\frac{1}{4}a^{2}$.</p><p>左准线方程为 $x=-\\frac{a^{2}}{c}$，渐近线方程为 $y=\\pm\\frac{b}{a}x=\\pm\\frac{x}{2}$. 因为 $M$ 在第二象限，所以</p><p>$M\\left(-\\frac{a^{2}}{c},\\frac{a^{2}}{2c}\\right)$，$F_{1}(-c,0)$，$F_{2}(c,0)$.</p><p>于是</p><p>$\\overrightarrow{F_1M}=\\left(\\frac{c^{2}-a^{2}}{c},\\frac{a^{2}}{2c}\\right)$，</p><p>$\\overrightarrow{F_2M}=\\left(-\\frac{a^{2}+c^{2}}{c},\\frac{a^{2}}{2c}\\right)$.</p><p>由 $c^{2}=\\frac{5}{4}a^{2}$ 得</p>\n$$\n\\overrightarrow{F_1M}\\cdot\\overrightarrow{F_2M}=-\\frac{c^{4}-a^{4}}{c^{2}}+\\frac{a^{4}}{4c^{2}}=-\\frac{5a^{4}}{16c^{2}}=-\\frac{a^{2}}{4}\n$$\n<p>结合题设 $\\overrightarrow{F_1M}\\cdot\\overrightarrow{F_2M}=-\\frac{1}{4}$，可得 $a^{2}=1$. 因为 $a>0$，所以 $a=1$，$b=\\frac{1}{2}$. 双曲线方程为</p>\n$$\nx^{2}-4y^{2}=1\n$$\n</li><li><p>由（1）知双曲线为 $x^{2}-4y^{2}=1$. 设直线 $l$ 的斜率为 $r$，令</p><p>$C=(u,r(u-m))$，$D=(v,r(v-m))$.</p><p>其中 $u$，$v$ 是方程</p>\n$$\nx^{2}-4r^{2}(x-m)^{2}=1\n$$\n<p>的两个不同实根. 因为直线与双曲线有两个不同的有限交点，所以 $4r^{2}\\ne1$. 由韦达定理，</p>\n$$\nu+v=\\frac{8mr^{2}}{4r^{2}-1}\n$$\n<p>设直线 $BC$ 的斜率为 $s$，则</p><p>若 $u=\\frac{1}{m}$，由点 $C$ 在双曲线上可得</p><p>$4r^{2}=\\frac{m^{-2}-1}{(m^{-1}-m)^{2}}=\\frac{1}{1-m^{2}}$.</p><p>于是</p><p>$u+v=\\frac{8mr^{2}}{4r^{2}-1}=\\frac{2}{m}=2u$，即 $v=u$，这与 $C$，$D$ 是两个不同交点矛盾. 所以 $u\\ne\\frac{1}{m}$. 因而</p><p>$s=\\frac{r(u-m)}{u-\\frac{1}{m}}$.</p><p>点 $E$ 的横坐标记为 $w$. 由点 $C$ 在双曲线上，</p><p>$4r^{2}=\\frac{u^{2}-1}{(u-m)^{2}}$.</p><p>从而</p>\n$$\n4s^{2}=\\frac{4r^{2}(u-m)^{2}}{(u-\\frac{1}{m})^{2}}=\\frac{m^{2}(u^{2}-1)}{(mu-1)^{2}}\n$$\n<p>且</p>\n$$\n4s^{2}-1=\\frac{2mu-m^{2}-1}{(mu-1)^{2}}\n$$\n<p>因为直线 $BC$ 与双曲线有两个不同的有限交点 $C$，$E$，所以 $4s^{2}\\ne1$. 直线 $BC$ 与双曲线的两个交点横坐标为 $u$，$w$，仍由韦达定理得</p><p>$u+w=\\frac{8\\frac{s^{2}}{m}}{4s^{2}-1}=\\frac{2m(u^{2}-1)}{2mu-m^{2}-1}$.</p><p>另一方面，由 $4r^{2}=\\frac{u^{2}-1}{(u-m)^{2}}$ 可得</p><p>$4r^{2}-1=\\frac{2mu-m^{2}-1}{(u-m)^{2}}$.</p><p>所以</p>\n$$\nu+v=\\frac{8mr^{2}}{4r^{2}-1}=\\frac{2m(u^{2}-1)}{2mu-m^{2}-1}=u+w\n$$\n<p>于是 $v=w$，即 $x_{D}=x_{E}$. 若 $D=E$，则直线 $BC$ 经过 $C$，$D$，从而与直线 $l=CD$ 重合，导致 $B\\in l$，这与直线 $l$ 斜率不为零矛盾. 因此 $D\\ne E$，直线 $DE$ 为竖直直线，故 $DE\\perp x$ 轴.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设双曲线的半焦距为 $c$，则</p><p>$c^{2}=a^{2}+b^{2}$，$\\frac{c}{a}=\\frac{\\sqrt{5}}{2}$.</p><p>所以</p><p>$c^{2}=\\frac{5}{4}a^{2}$，$b^{2}=c^{2}-a^{2}=\\frac{1}{4}a^{2}$.</p><p>左准线方程为 $x=-\\frac{a^{2}}{c}$，渐近线方程为 $y=\\pm\\frac{b}{a}x=\\pm\\frac{x}{2}$. 因为 $M$ 在第二象限，所以</p><p>$M\\left(-\\frac{a^{2}}{c},\\frac{a^{2}}{2c}\\right)$，$F_{1}(-c,0)$，$F_{2}(c,0)$.</p><p>于是</p><p>$\\overrightarrow{F_1M}=\\left(\\frac{c^{2}-a^{2}}{c},\\frac{a^{2}}{2c}\\right)$，</p><p>$\\overrightarrow{F_2M}=\\left(-\\frac{a^{2}+c^{2}}{c},\\frac{a^{2}}{2c}\\right)$.</p><p>由 $c^{2}=\\frac{5}{4}a^{2}$ 得</p>\n$$\n\\overrightarrow{F_1M}\\cdot\\overrightarrow{F_2M}=-\\frac{c^{4}-a^{4}}{c^{2}}+\\frac{a^{4}}{4c^{2}}=-\\frac{5a^{4}}{16c^{2}}=-\\frac{a^{2}}{4}\n$$\n<p>结合题设 $\\overrightarrow{F_1M}\\cdot\\overrightarrow{F_2M}=-\\frac{1}{4}$，可得 $a^{2}=1$. 因为 $a>0$，所以 $a=1$，$b=\\frac{1}{2}$. 双曲线方程为</p>\n$$\nx^{2}-4y^{2}=1\n$$\n</li><li><p>由（1）知双曲线为 $x^{2}-4y^{2}=1$. 设直线 $l$ 的斜率为 $r$，令</p><p>$C=(u,r(u-m))$，$D=(v,r(v-m))$.</p><p>其中 $u$，$v$ 是方程</p>\n$$\nx^{2}-4r^{2}(x-m)^{2}=1\n$$\n<p>的两个不同实根. 因为直线与双曲线有两个不同的有限交点，所以 $4r^{2}\\ne1$. 由韦达定理，</p>\n$$\nu+v=\\frac{8mr^{2}}{4r^{2}-1}\n$$\n<p>设直线 $BC$ 的斜率为 $s$，则</p><p>若 $u=\\frac{1}{m}$，由点 $C$ 在双曲线上可得</p><p>$4r^{2}=\\frac{m^{-2}-1}{(m^{-1}-m)^{2}}=\\frac{1}{1-m^{2}}$.</p><p>于是</p><p>$u+v=\\frac{8mr^{2}}{4r^{2}-1}=\\frac{2}{m}=2u$，即 $v=u$，这与 $C$，$D$ 是两个不同交点矛盾. 所以 $u\\ne\\frac{1}{m}$. 因而</p><p>$s=\\frac{r(u-m)}{u-\\frac{1}{m}}$.</p><p>点 $E$ 的横坐标记为 $w$. 由点 $C$ 在双曲线上，</p><p>$4r^{2}=\\frac{u^{2}-1}{(u-m)^{2}}$.</p><p>从而</p>\n$$\n4s^{2}=\\frac{4r^{2}(u-m)^{2}}{(u-\\frac{1}{m})^{2}}=\\frac{m^{2}(u^{2}-1)}{(mu-1)^{2}}\n$$\n<p>且</p>\n$$\n4s^{2}-1=\\frac{2mu-m^{2}-1}{(mu-1)^{2}}\n$$\n<p>因为直线 $BC$ 与双曲线有两个不同的有限交点 $C$，$E$，所以 $4s^{2}\\ne1$. 直线 $BC$ 与双曲线的两个交点横坐标为 $u$，$w$，仍由韦达定理得</p><p>$u+w=\\frac{8\\frac{s^{2}}{m}}{4s^{2}-1}=\\frac{2m(u^{2}-1)}{2mu-m^{2}-1}$.</p><p>另一方面，由 $4r^{2}=\\frac{u^{2}-1}{(u-m)^{2}}$ 可得</p><p>$4r^{2}-1=\\frac{2mu-m^{2}-1}{(u-m)^{2}}$.</p><p>所以</p>\n$$\nu+v=\\frac{8mr^{2}}{4r^{2}-1}=\\frac{2m(u^{2}-1)}{2mu-m^{2}-1}=u+w\n$$\n<p>于是 $v=w$，即 $x_{D}=x_{E}$. 若 $D=E$，则直线 $BC$ 经过 $C$，$D$，从而与直线 $l=CD$ 重合，导致 $B\\in l$，这与直线 $l$ 斜率不为零矛盾. 因此 $D\\ne E$，直线 $DE$ 为竖直直线，故 $DE\\perp x$ 轴.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

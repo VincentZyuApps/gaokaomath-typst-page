@@ -1,5 +1,4 @@
-#import "@preview/mitex:0.2.5": *
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -12,53 +11,62 @@
 #part-header("单选题")
 
 #problem(1)[
-定义集合运算：$A\o d o t B=\{z | z=x y(x+y),\ x in A,\ y in B\}$，设集合$A=\{0,1\}$，$B=\{2,3\}$，则集合$A\o d o t B$的所有元素之和为（ ）
-  #choices([$0$], [$6$], [$12$], [$18$], cols: 4)
+定义集合运算：#mi(`A\odot B=\{z\mid z=xy(x+y),\ x\in A,\ y\in B\}`)，设集合#mi(`A=\{0,1\}`)，#mi(`B=\{2,3\}`)，则集合#mi(`A\odot B`) 的所有元素之和为（ ）
+  #choices([#mi(`0`)], [#mi(`6`)], [#mi(`12`)], [#mi(`18`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-当$x=0$时，$z=0$；当$x=1$时，分别取$y=2$，$3$，得到$z=1 dot 2 (1+2)=6$和$z=1 dot 3 (1+3)=12$. 因此$A\o d o t B=\{0,6,12\}$，所有元素之和为$0+6+12=18$，故选 D.
+当#mi(`x=0`) 时，#mi(`z=0`)；当#mi(`x=1`) 时，分别取#mi(`y=2`)，#mi(`3`)，得到#mi(`z=1\cdot2(1+2)=6`) 和#mi(`z=1\cdot3(1+3)=12`). 因此#mi(`A\odot B=\{0,6,12\}`)，所有元素之和为#mi(`0+6+12=18`)，故选 D.
 ]
 
 #problem(2)[
-函数$y=1+a^x$（$0<a<1$）的反函数的图象大致是（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2006/img/shandong_science/q2_choice_a.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2006/img/shandong_science/q2_choice_b.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2006/img/shandong_science/q2_choice_c.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2006/img/shandong_science/q2_choice_d.png", height: 100%, fit: "contain")]]], cols: 2)
+函数#mi(`y=1+a^{x}`)（#mi(`0<a<1`)）的反函数的图象大致是（ ）
+  #choices([
+#align(center)[#image("/papers/2006/img/shandong_science/q2_choice_a.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2006/img/shandong_science/q2_choice_b.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2006/img/shandong_science/q2_choice_c.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2006/img/shandong_science/q2_choice_d.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由$0<a<1$，函数$y=1+a^x$单调递减，值域为$(1,+ oo )$，且图象经过点$(0,2)$. 反函数的图象是原函数图象关于直线$y=x$的对称图象，所以反函数的定义域为$(1,+ oo )$，并经过点$(2,0)$，同时仍然单调递减. 当$x -> 1 ""^+$时，反函数值趋于$+ oo$，故其图象具有竖直渐近线$x=1$，并经过$(2,0)$，符合选项 A.
+由#mi(`0<a<1`)，函数#mi(`y=1+a^{x}`) 单调递减，值域为#mi(`(1,+\infty)`)，且图象经过点#mi(`(0,2)`). 反函数的图象是原函数图象关于直线#mi(`y=x`) 的对称图象，所以反函数的定义域为#mi(`(1,+\infty)`)，并经过点#mi(`(2,0)`)，同时仍然单调递减. 当#mi(`x\to1^{+}`) 时，反函数值趋于#mi(`+\infty`)，故其图象具有竖直渐近线#mi(`x=1`)，并经过#mi(`(2,0)`)，符合选项 A.
 ]
 
 #problem(3)[
-设$f(x)=\b e g i n{c a s e s} 2 e ""^(x-1),&x<2,\\ log _3(x^2-1),&x >= 2 , \e n d{c a s e s}$ 则不等式$f(x)>2$的解集为（ ）
-  #choices([$(1,2) union (3,+ oo )$], [$(sqrt(10),+ oo )$], [$(1,2) union (sqrt(10),+ oo )$], [$(1,2)$], cols: 2)
+设#mi(`f(x)=\begin{cases}2\mathrm{e}^{x-1},&x<2,\\  \log_{3}(x^{2}-1),&x\geqslant2,\end{cases}`) 则不等式#mi(`f(x)>2`) 的解集为（ ）
+  #choices([#mi(`(1,2)\cup(3,+\infty)`)], [#mi(`(\sqrt{10},+\infty)`)], [#mi(`(1,2)\cup(\sqrt{10},+\infty)`)], [#mi(`(1,2)`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-当$x<2$时，$2 e ""^(x-1)>2$等价于$e ""^(x-1)>1$，即$x>1$，所以这一段的解为$(1,2)$. 当$x >= 2$时，$log _3(x^2-1)>2$等价于$x^2-1>3^2$，即$x^2>10$. 结合$x >= 2$，得到$x>sqrt(10)$. 因此原不等式的解集为$(1,2) union (sqrt(10),+ oo )$，故选 C.
+当#mi(`x<2`) 时，#mi(`2\mathrm{e}^{x-1}>2`) 等价于#mi(`\mathrm{e}^{x-1}>1`)，即#mi(`x>1`)，所以这一段的解为#mi(`(1,2)`). 当#mi(`x\geqslant2`) 时，#mi(`\log_{3}(x^{2}-1)>2`) 等价于#mi(`x^{2}-1>3^{2}`)，即#mi(`x^{2}>10`). 结合#mi(`x\geqslant2`)，得到#mi(`x>\sqrt{10}`). 因此原不等式的解集为#mi(`(1,2)\cup(\sqrt{10},+\infty)`)，故选 C.
 ]
 
 #problem(4)[
-在$triangle A B C$中，角$A$，$B$，$C$的对边分别为$a$，$b$，$c$，已知$A=(pi)/(3)$，$a=sqrt(3)$，$b=1$，则$c=$（ ）
-  #choices([$1$], [$2$], [$sqrt(3)-1$], [$sqrt(3)$], cols: 4)
+在#mi(`\triangle ABC`) 中，角#mi(`A`)，#mi(`B`)，#mi(`C`) 的对边分别为#mi(`a`)，#mi(`b`)，#mi(`c`)，已知#mi(`A=\dfrac{\pi}{3}`)，#mi(`a=\sqrt{3}`)，#mi(`b=1`)，则#mi(`c=`)（ ）
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`\sqrt{3}-1`)], [#mi(`\sqrt{3}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由余弦定理，$a^2=b^2+c^2-2 b c cos A$. 代入$a=sqrt(3)$，$b=1$，$A=(pi)/(3)$，得$3=1+c^2-c$，
-即$c^2-c-2=0$，所以$c=2$或$c=-1$. 因为边长$c>0$，故$c=2$，选 B.
+由余弦定理，#mi(`a^{2}=b^{2}+c^{2}-2bc\cos A`). 代入#mi(`a=\sqrt{3}`)，#mi(`b=1`)，#mi(`A=\dfrac{\pi}{3}`)，得#mi(`3=1+c^{2}-c`)，
+
+即#mi(`c^{2}-c-2=0`)，所以#mi(`c=2`) 或#mi(`c=-1`). 因为边长#mi(`c>0`)，故#mi(`c=2`)，选 B.
 ]
 
 #problem(5)[
-设向量$bold(a)=(1,-3)$，$bold(b)=(-2,4)$，$bold(c)=(-1,-2)$. 若表示向量$4 bold(a)$，$4 bold(b)-2 bold(c)$，$2(bold(a)-bold(c))$，$bold(d)$的有向线段首尾相接能构成四边形，则向量$bold(d)$为（ ）
-  #choices([$(2,6)$], [$(-2,6)$], [$(2,-6)$], [$(-2,-6)$], cols: 4)
+设向量#mi(`\mathbf{a}=(1,-3)`)，#mi(`\mathbf{b}=(-2,4)`)，#mi(`\mathbf{c}=(-1,-2)`). 若表示向量#mi(`4\mathbf{a}`)，#mi(`4\mathbf{b}-2\mathbf{c}`)，#mi(`2(\mathbf{a}-\mathbf{c})`)，#mi(`\mathbf{d}`) 的有向线段首尾相接能构成四边形，则向量#mi(`\mathbf{d}`) 为（ ）
+  #choices([#mi(`(2,6)`)], [#mi(`(-2,6)`)], [#mi(`(2,-6)`)], [#mi(`(-2,-6)`)], cols: 4)
 ]
 
 #answer([D])
@@ -66,134 +74,184 @@
 #solution[
 四条有向线段首尾相接构成封闭四边形时，沿四条有向线段走一周，位移和为零向量，因此
 
-$ bold(d)=-4 bold(a)-(4 bold(b)-2 bold(c))-2(bold(a)-bold(c)) =-6 bold(a)-4 bold(b)+4 bold(c) $
+
+#align(center)[#mitex(`
+\mathbf{d}=-4\mathbf{a}-(4\mathbf{b}-2\mathbf{c})-2(\mathbf{a}-\mathbf{c})  =-6\mathbf{a}-4\mathbf{b}+4\mathbf{c}
+`)]
+
 
 由题面给出的坐标，
-$-6 bold(a)=(-6,18)$，$-4 bold(b)=(8,-16)$，$4 bold(c)=(-4,-8)$，从而$bold(d)=(-6,18)+(8,-16)+(-4,-8)=(-2,-6)$，故选 D.
+
+#mi(`-6\mathbf{a}=(-6,18)`)，#mi(`-4\mathbf{b}=(8,-16)`)，#mi(`4\mathbf{c}=(-4,-8)`)，从而#mi(`\mathbf{d}=(-6,18)+(8,-16)+(-4,-8)=(-2,-6)`)，故选 D.
 ]
 
 #problem(6)[
-已知定义在$RR$上的奇函数$f(x)$满足$f(x+2)=-f(x)$，则$f(6)$的值为（ ）
-  #choices([$-1$], [$0$], [$1$], [$2$], cols: 4)
+已知定义在#mi(`\mathbb{R}`) 上的奇函数#mi(`f(x)`) 满足#mi(`f(x+2)=-f(x)`)，则#mi(`f(6)`) 的值为（ ）
+  #choices([#mi(`-1`)], [#mi(`0`)], [#mi(`1`)], [#mi(`2`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由$f(x+2)=-f(x)$，依次取$x=4$，$2$，$0$，得
+由#mi(`f(x+2)=-f(x)`)，依次取#mi(`x=4`)，#mi(`2`)，#mi(`0`)，得
 
-$ f(6)=-f(4)=f(2)=-f(0) $
 
-奇函数满足$f(0)=0$，所以$f(6)=0$，故选 B.
+#align(center)[#mitex(`
+f(6)=-f(4)=f(2)=-f(0)
+`)]
+
+
+奇函数满足#mi(`f(0)=0`)，所以#mi(`f(6)=0`)，故选 B.
 ]
 
 #problem(7)[
-在给定椭圆中，过焦点且垂直于长轴的弦长为$sqrt(2)$，焦点到相应准线的距离为$1$，则该椭圆的离心率为（ ）
-  #choices([$sqrt(2)$], [$(sqrt(2))/(2)$], [$(1)/(2)$], [$(sqrt(3))/(2)$], cols: 4)
+在给定椭圆中，过焦点且垂直于长轴的弦长为#mi(`\sqrt{2}`)，焦点到相应准线的距离为#mi(`1`)，则该椭圆的离心率为（ ）
+  #choices([#mi(`\sqrt{2}`)], [#mi(`\dfrac{\sqrt{2}}{2}`)], [#mi(`\dfrac{1}{2}`)], [#mi(`\dfrac{\sqrt{3}}{2}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-设椭圆的长半轴、短半轴和半焦距分别为$a$，$b$，$c$，则$c^2=a^2-b^2$. 过焦点且垂直于长轴的弦为通径，所以
-$(2 b^2)/(a)=sqrt(2)$，且$(b^2)/(c)=1$.
-由第二式得$b^2=c$，再由第一式得$c=(a)/(sqrt(2))$. 代入$c^2=a^2-b^2$，得到
-$(a^2)/(2)=a^2-(a)/(sqrt(2))$，
-所以$a=sqrt(2)$，$c=1$. 因而离心率
+设椭圆的长半轴、短半轴和半焦距分别为#mi(`a`)，#mi(`b`)，#mi(`c`)，则#mi(`c^{2}=a^{2}-b^{2}`). 过焦点且垂直于长轴的弦为通径，所以
 
-$ e=(c)/(a)=(1)/(sqrt(2))=(sqrt(2))/(2) $
+#mi(`\dfrac{2b^2}{a}=\sqrt{2}`)，且#mi(`\dfrac{b^2}{c}=1`).
+
+由第二式得#mi(`b^{2}=c`)，再由第一式得#mi(`c=\dfrac{a}{\sqrt{2}}`). 代入#mi(`c^{2}=a^{2}-b^{2}`)，得到
+
+#mi(`\dfrac{a^2}{2}=a^{2}-\dfrac{a}{\sqrt{2}}`)，
+
+所以#mi(`a=\sqrt{2}`)，#mi(`c=1`). 因而离心率
+
+
+#align(center)[#mitex(`
+e=\frac{c}{a}=\frac{1}{\sqrt{2}}=\frac{\sqrt{2}}{2}
+`)]
+
 
 故选 B.
 ]
 
 #problem(8)[
-设$p:x^2-x-20>0$，$q:(1-x^2)/(|x|-2)<0$，则$p$是$q$的（ ）
+设#mi(`p:x^{2}-x-20>0`)，#mi(`q:\dfrac{1-x^2}{|x|-2}<0`)，则#mi(`p`) 是#mi(`q`) 的（ ）
   #choices([充分不必要条件], [必要不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-因为$x^2-x-20=(x-5)(x+4)$，
-所以$p$的解集为$(- oo ,-4) union (5,+ oo )$. 令$t=|x|$，则$(1-x^2)/(|x|-2)=(1-t^2)/(t-2)$.
-当$0 <= t<1$时，分子为正、分母为负，分式小于$0$；当$1<t<2$时，分子、分母均为负，分式大于$0$；当$t>2$时，分子为负、分母为正，分式小于$0$. 另外$t=1$使分子为$0$，$t=2$使分母为$0$，均不满足不等式. 因此$q$的解集为$(- oo ,-2) union (-1,1) union (2,+ oo )$.
-由$(- oo ,-4) union (5,+ oo ) subset (- oo ,-2) union (2,+ oo )$，可知$p$是$q$的充分条件；例如$x=0$满足$q$而不满足$p$，所以$p$不是$q$的必要条件. 因此$p$是$q$的充分不必要条件，故选 A.
+因为#mi(`x^{2}-x-20=(x-5)(x+4)`)，
+
+所以#mi(`p`) 的解集为#mi(`(-\infty,-4)\cup(5,+\infty)`). 令#mi(`t=|x|`)，则#mi(`\dfrac{1-x^2}{|x|-2}=\dfrac{1-t^2}{t-2}`).
+
+当#mi(`0\le t<1`) 时，分子为正、分母为负，分式小于#mi(`0`)；当#mi(`1<t<2`) 时，分子、分母均为负，分式大于#mi(`0`)；当#mi(`t>2`) 时，分子为负、分母为正，分式小于#mi(`0`). 另外#mi(`t=1`) 使分子为#mi(`0`)，#mi(`t=2`) 使分母为#mi(`0`)，均不满足不等式. 因此#mi(`q`) 的解集为#mi(`(-\infty,-2)\cup(-1,1)\cup(2,+\infty)`).
+
+由#mi(`(-\infty,-4)\cup(5,+\infty)\subset(-\infty,-2)\cup(2,+\infty)`)，可知#mi(`p`) 是#mi(`q`) 的充分条件；例如#mi(`x=0`) 满足#mi(`q`) 而不满足#mi(`p`)，所以#mi(`p`) 不是#mi(`q`) 的必要条件. 因此#mi(`p`) 是#mi(`q`) 的充分不必要条件，故选 A.
 ]
 
 #problem(9)[
-已知集合$A=\{5\}$，$B=\{1,2\}$，$C=\{1,3,4\}$，从这三个集合各取一个元素构成空间直角坐标系中点的坐标，则确定的不同点的个数为（ ）
-  #choices([$33$], [$34$], [$35$], [$36$], cols: 4)
+已知集合#mi(`A=\{5\}`)，#mi(`B=\{1,2\}`)，#mi(`C=\{1,3,4\}`)，从这三个集合各取一个元素构成空间直角坐标系中点的坐标，则确定的不同点的个数为（ ）
+  #choices([#mi(`33`)], [#mi(`34`)], [#mi(`35`)], [#mi(`36`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-先从$A$，$B$，$C$中各取一个数.若$B$取$1$，$C$取$1$，所得数字为$5$，$1$，$1$，将它们安排到三个坐标位置有$(3!)/(2!)=3$种不同点. 其余五种取法所得三个数字互不相同，每种都有$3!=6$种安排方法. 因此不同点的个数为
-$3+5 times 6 =33$，
+先从#mi(`A`)，#mi(`B`)，#mi(`C`) 中各取一个数.若#mi(`B`) 取#mi(`1`)，#mi(`C`) 取#mi(`1`)，所得数字为#mi(`5`)，#mi(`1`)，#mi(`1`)，将它们安排到三个坐标位置有#mi(`\dfrac{3!}{2!}=3`) 种不同点. 其余五种取法所得三个数字互不相同，每种都有#mi(`3!=6`) 种安排方法. 因此不同点的个数为
+
+#mi(`3+5\times6=33`)，
+
 故选 A.
 ]
 
 #problem(10)[
-已知$(x^(3)-(i)/(sqrt(x)))^n$的展开式中第三项与第五项的系数之比为$-(3)/(14)$，其中$i ""^2=-1$，则展开式中常数项是（ ）
-  #choices([$-45 i$], [$45 i$], [$-45$], [$45$], cols: 4)
+已知#mi(`\left(x^{3}-\dfrac{\mathrm{i}}{\sqrt{x}}\right)^{n}`) 的展开式中第三项与第五项的系数之比为#mi(`-\dfrac{3}{14}`)，其中#mi(`\mathrm{i}^{2}=-1`)，则展开式中常数项是（ ）
+  #choices([#mi(`-45\mathrm{i}`)], [#mi(`45\mathrm{i}`)], [#mi(`-45`)], [#mi(`45`)], cols: 2)
 ]
 
-#answer([不存在常数项（$x^0$的系数为$0$），四个选项均不正确.])
+#answer([不存在常数项（#mi(`x^{0}`) 的系数为#mi(`0`)），四个选项均不正确.])
 
 #solution[
-在实数范围内，根式和分母要求$x>0$. 二项式展开的通项为
+在实数范围内，根式和分母要求#mi(`x>0`). 二项式展开的通项为
 
-$ T_(r+1)=C_n^r(- i )^r x^(3(n-r)-(r)/(2)) =C_n^r(- i )^r x^(3 n-(7)/(2)r) $
 
-第三项和第五项分别对应$r=2$，$4$，其系数之比为
+#align(center)[#mitex(`
+T_{r+1}=\mathrm{C}_{n}^{r}(-\mathrm{i})^{r} x^{3(n-r)-\frac{r}{2}}=\mathrm{C}_{n}^{r}(-\mathrm{i})^{r} x^{3n-\frac{7}{2}r}
+`)]
 
-$ (C_n^2(- i )^2)/(C_n^4(- i )^4)=-(C_n^2)/(C_n^4)=-(3)/(14) $
+
+第三项和第五项分别对应#mi(`r=2`)，#mi(`4`)，其系数之比为
+
+
+#align(center)[#mitex(`
+\frac{\mathrm{C}_{n}^{2}(-\mathrm{i})^{2}}{\mathrm{C}_{n}^{4}(-\mathrm{i})^{4}}=-\frac{\mathrm{C}_{n}^{2}}{\mathrm{C}_{n}^{4}}=-\frac{3}{14}
+`)]
+
 
 因此
 
-$ (C_n^2)/(C_n^4)=(3)/(14)\L o n g r i g h t a r r o w (12)/((n-2)(n-3))=(3)/(14)\L o n g r i g h t a r r o w (n-2)(n-3)=56 $
 
-整理为$n^2-5 n-50=0$，所以$n=10$或$n=-5$. 由于第三项和第五项存在，$n >= 4$，故$n=10$.
+#align(center)[#mitex(`
+\frac{\mathrm{C}_{n}^{2}}{\mathrm{C}_{n}^{4}}=\frac{3}{14}\Longrightarrow  \frac{12}{(n-2)(n-3)}=\frac{3}{14}\Longrightarrow (n-2)(n-3)=56
+`)]
+
+
+整理为#mi(`n^{2}-5n-50=0`)，所以#mi(`n=10`) 或#mi(`n=-5`). 由于第三项和第五项存在，#mi(`n\geqslant4`)，故#mi(`n=10`).
+
 此时常数项应满足
 
-$ 3 n-(7)/(2)r=0 \L o n g r i g h t a r r o w r=(6 n)/(7)=(60)/(7) $
 
-但二项式展开中的项指标$r$必须是整数，且$0 <= r <= 10$，所以没有任何一项的$x$的指数为$0$. 再令$t=sqrt(x)>0$，则$(x^3-(i)/(sqrt(x)))^(10)=t^(-10)(t^7- i )^(10)$，其各项的$t$的指数为$60-7 r$，也没有$0$，与上述结果一致. 因此展开式不存在常数项，即$x^0$的系数为$0$，题面给出的四个选项均不正确.
+#align(center)[#mitex(`
+3n-\frac{7}{2}r=0  \Longrightarrow r=\frac{6n}{7}=\frac{60}{7}
+`)]
+
+
+但二项式展开中的项指标#mi(`r`) 必须是整数，且#mi(`0\le r\leqslant10`)，所以没有任何一项的#mi(`x`) 的指数为#mi(`0`). 再令#mi(`t=\sqrt{x}>0`)，则#mi(`\left(x^{3}-\dfrac{\mathrm{i}}{\sqrt{x}}\right)^{10}=t^{-10}\left(t^{7}-\mathrm{i}\right)^{10}`)，其各项的#mi(`t`) 的指数为#mi(`60-7r`)，也没有#mi(`0`)，与上述结果一致. 因此展开式不存在常数项，即#mi(`x^{0}`) 的系数为#mi(`0`)，题面给出的四个选项均不正确.
 ]
 
 #problem(11)[
-某公司招收男职员$x$名，女职员$y$名，$x$和$y$须满足约束条件
-$\b e g i n{c a s e s} 5 x-11 y >= -22,\\ 2 x+3 y >= 9 ,\\ 2 x <= 11 \e n d{c a s e s}$，则$z=10 x+10 y$的最大值是（ ）
-  #choices([$80$], [$85$], [$90$], [$95$], cols: 4)
+某公司招收男职员#mi(`x`) 名，女职员#mi(`y`) 名，#mi(`x`) 和#mi(`y`) 须满足约束条件
+
+#mi(`\begin{cases}5x-11y\ge-22,\\  2x+3y\geqslant9,\\  2x\leqslant11\end{cases}`)，则#mi(`z=10x+10y`) 的最大值是（ ）
+  #choices([#mi(`80`)], [#mi(`85`)], [#mi(`90`)], [#mi(`95`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-因为$x$，$y$表示人数，所以为非负整数. 由$2 x <= 11$，得$x <= 5$. 又由第一条约束，
-$11 y <= 5 x+22 <= 47$，故$y <= 4$. 因而$z=10(x+y) <= 10 (5+4)=90$.
-取$x=5$，$y=4$时，三条约束分别成立，且$z=90$，所以最大值为$90$，故选 C.
+因为#mi(`x`)，#mi(`y`) 表示人数，所以为非负整数. 由#mi(`2x\leqslant11`)，得#mi(`x\leqslant5`). 又由第一条约束，
+
+#mi(`11y\leqslant5x+22\leqslant47`)，故#mi(`y\leqslant4`). 因而#mi(`z=10(x+y)\leqslant10(5+4)=90`).
+
+取#mi(`x=5`)，#mi(`y=4`) 时，三条约束分别成立，且#mi(`z=90`)，所以最大值为#mi(`90`)，故选 C.
 ]
 
 #problem(12)[
-如图，在等腰梯形$A B C D$中，$A B=2 D C=2$，$angle D A B=60^ degree$，$E$为$A B$的中点，将$triangle A D E$与$triangle B E C$分别沿$E D$，$E C$向上折起，使$A$，$B$重合于点$P$，则三棱锥$P-D C E$的外接球的体积为（ ）
+如图，在等腰梯形#mi(`ABCD`) 中，#mi(`AB=2DC=2`)，#mi(`\angle DAB=60^{\circ}`)，#mi(`E`) 为#mi(`AB`) 的中点，将#mi(`\triangle ADE`) 与#mi(`\triangle BEC`) 分别沿#mi(`ED`)，#mi(`EC`) 向上折起，使#mi(`A`)，#mi(`B`) 重合于点#mi(`P`)，则三棱锥#mi(`P-DCE`) 的外接球的体积为（ ）
 
 
-#align(center)[#image("/papers/2006/img/shandong_science/q12_fig1.png", width: 5.8cm)]
-  #choices([$(4 sqrt(3){ pi })/(27)$], [$(sqrt(6){ pi })/(2)$], [$(sqrt(6){ pi })/(8)$], [$(sqrt(6){ pi })/(24)$], cols: 2)
+#align(center)[#image("/papers/2006/img/shandong_science/q12_fig1.png", width: 28%)]
+
+  #choices([#mi(`\dfrac{4\sqrt{3}\pi}{27}`)], [#mi(`\dfrac{\sqrt{6}\pi}{2}`)], [#mi(`\dfrac{\sqrt{6}\pi}{8}`)], [#mi(`\dfrac{\sqrt{6}\pi}{24}`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-由$A B=2$，$D C=1$，且梯形为等腰梯形，过$D$，$C$分别向$A B$作垂线，则每侧的水平差为$(1)/(2)$. 由$angle D A B=60^ degree$，得
-$A D=B C=((1)/(2))/(cos 60 ""^ degree)=1$.
-又$A E=B E=1$，由余弦定理
-$D E^2=A D^2+A E^2-2 dot A D dot A E cos 60 ""^ degree =1$，同理$C E=1$. 所以折叠前$triangle A D E$和$triangle B E C$都是边长为$1$的等边三角形，且$D C=D E=C E=1$.
+由#mi(`AB=2`)，#mi(`DC=1`)，且梯形为等腰梯形，过#mi(`D`)，#mi(`C`) 分别向#mi(`AB`) 作垂线，则每侧的水平差为#mi(`\dfrac{1}{2}`). 由#mi(`\angle DAB=60^{\circ}`)，得
 
-折叠后，长度保持不变，且$A$，$B$重合于$P$，从而$P D=P E=P C=1$. 因此$P-D C E$的六条棱均为$1$，是正四面体. 正四面体棱长为$1$时，外接球半径为$R=(sqrt(6))/(4)$，故外接球体积为
+#mi(`AD=BC=\dfrac{\frac{1}{2}}{\cos60^\circ}=1`).
 
-$ (4)/(3) pi R^3 =(4)/(3) pi ((sqrt(6))/(4))^3 =(sqrt(6) pi)/(8) $
+又#mi(`AE=BE=1`)，由余弦定理
+
+#mi(`DE^{2}=AD^{2}+AE^{2}-2\cdot AD\cdot AE\cos60^{\circ}=1`)，同理#mi(`CE=1`). 所以折叠前#mi(`\triangle ADE`) 和#mi(`\triangle BEC`) 都是边长为#mi(`1`) 的等边三角形，且#mi(`DC=DE=CE=1`).
+
+折叠后，长度保持不变，且#mi(`A`)，#mi(`B`) 重合于#mi(`P`)，从而#mi(`PD=PE=PC=1`). 因此#mi(`P-DCE`) 的六条棱均为#mi(`1`)，是正四面体. 正四面体棱长为#mi(`1`) 时，外接球半径为#mi(`R=\dfrac{\sqrt{6}}{4}`)，故外接球体积为
+
+
+#align(center)[#mitex(`
+\frac{4}{3}\pi R^{3}  =\frac{4}{3}\pi\left(\frac{\sqrt{6}}{4}\right)^{3}  =\frac{\sqrt{6}\pi}{8}
+`)]
+
 
 故选 C.
 ]
@@ -201,231 +259,201 @@ $ (4)/(3) pi R^3 =(4)/(3) pi ((sqrt(6))/(4))^3 =(sqrt(6) pi)/(8) $
 #part-header("填空题")
 
 #problem(13)[
-若$lim_(n -> oo )(1)/(sqrt(n)(sqrt(n+a)-sqrt(n)))=1$，则常数$a=$#blank(){}.
+若#mi(`\displaystyle\lim_{n\to\infty}\dfrac{1}{\sqrt{n}\left(\sqrt{n+a}-\sqrt{n}\right)}=1`)，则常数#mi(`a=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-由于分母含有$a$，必有$a != 0$. 有理化分母，得
+由于分母含有#mi(`a`)，必有#mi(`a\ne0`). 有理化分母，得
 
-$ (1)/(sqrt(n)(sqrt(n+a)-sqrt(n)))=(sqrt(n+a)+sqrt(n))/(a s q r t(n))=(sqrt(1+(a)/(n))+1)/(a) $
 
-令$n -> oo$，极限为$(2)/(a)$. 由题设$(2)/(a)=1$，所以$a=2$.
+#align(center)[#mitex(`
+\frac{1}{\sqrt{n}\left(\sqrt{n+a}-\sqrt{n}\right)}=\frac{\sqrt{n+a}+\sqrt{n}}{a\sqrt{n}}=\frac{\sqrt{1+\frac{a}{n}}+1}{a}
+`)]
+
+
+令#mi(`n\to\infty`)，极限为#mi(`\dfrac{2}{a}`). 由题设#mi(`\dfrac{2}{a}=1`)，所以#mi(`a=2`).
 ]
 
 #problem(14)[
-已知抛物线$y^2=4 x$，过点$P(4,0)$的直线与抛物线相交于$A(x_1,y_1)$，$B(x_2,y_2)$两点，则$y_1^2+y_2^2$的最小值是#blank(){}.
+已知抛物线#mi(`y^{2}=4x`)，过点#mi(`P(4,0)`) 的直线与抛物线相交于#mi(`A(x_{1},y_{1})`)，#mi(`B(x_{2},y_{2})`) 两点，则#mi(`y_{1}^{2}+y_{2}^{2}`) 的最小值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$32$])
+#answer([#mi(`32`)])
 
 #solution[
-直线$y=0$只与抛物线交于顶点，不能给出两个交点，故所考虑的直线均可写成$x=4+k y$. 代入$y^2=4 x$，得
-$y^2-4 k y-16=0$.
-其两个根为$y_1$，$y_2$，所以
-$y_1+y_2=4 k$，$y_(1) y_2=-16$.
+直线#mi(`y=0`) 只与抛物线交于顶点，不能给出两个交点，故所考虑的直线均可写成#mi(`x=4+ky`). 代入#mi(`y^{2}=4x`)，得
+
+#mi(`y^{2}-4ky-16=0`).
+
+其两个根为#mi(`y_{1}`)，#mi(`y_{2}`)，所以
+
+#mi(`y_{1}+y_{2}=4k`)，#mi(`y_{1}y_{2}=-16`).
+
 因此
 
-$ y_1^2+y_2^2=(y_1+y_2)^2-2 y_(1) y_2 =16 k^2+32 >= 32 $
 
-当$k=0$时，直线为$x=4$，与抛物线交于$(4,4)$，$(4,-4)$，等号成立，故最小值为$32$.
+#align(center)[#mitex(`
+y_{1}^{2}+y_{2}^{2}=(y_{1}+y_{2})^{2}-2y_{1}y_{2}  =16k^{2}+32\geqslant32
+`)]
+
+
+当#mi(`k=0`) 时，直线为#mi(`x=4`)，与抛物线交于#mi(`(4,4)`)，#mi(`(4,-4)`)，等号成立，故最小值为#mi(`32`).
 ]
 
 #problem(15)[
-如图，已知在正三棱柱$A B C-A_(1) B_(1) C_1$的所有棱长都相等，$D$是$A_(1) C_1$的中点，则直线$A D$与平面$B_(1) D C$所成角的正弦值为#blank(){}.
+如图，已知在正三棱柱#mi(`ABC-A_{1}B_{1}C_{1}`) 的所有棱长都相等，#mi(`D`) 是#mi(`A_{1}C_{1}`) 的中点，则直线#mi(`AD`) 与平面#mi(`B_{1}DC`) 所成角的正弦值为\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2006/img/shandong_science/q15_fig1.png", width: 5.8cm)]
+#align(center)[#image("/papers/2006/img/shandong_science/q15_fig1.png", width: 28%)]
+
 ]
 
-#answer([$(4)/(5)$])
+#answer([#mi(`\dfrac{4}{5}`)])
 
 #solution[
-设棱长为$1$，建立空间直角坐标系，取$A=(0,0,0)$，$B=(1,0,0)$，$C=((1)/(2),(sqrt(3))/(2),0)$，$A_1=(0,0,1)$，$B_1=(1,0,1)$，$C_1=((1)/(2),(sqrt(3))/(2),1)$. 于是$D=((1)/(4),(sqrt(3))/(4),1)$，$arrow(A D)=((1)/(4),(sqrt(3))/(4),1)$.
+设棱长为#mi(`1`)，建立空间直角坐标系，取#mi(`A=(0,0,0)`)，#mi(`B=(1,0,0)`)，#mi(`C=\left(\dfrac{1}{2},\dfrac{\sqrt{3}}{2},0\right)`)，#mi(`A_{1}=(0,0,1)`)，#mi(`B_{1}=(1,0,1)`)，#mi(`C_{1}=\left(\dfrac{1}{2},\dfrac{\sqrt{3}}{2},1\right)`). 于是#mi(`D=\left(\dfrac{1}{4},\dfrac{\sqrt{3}}{4},1\right)`)，#mi(`\overrightarrow{AD}=\left(\dfrac{1}{4},\dfrac{\sqrt{3}}{4},1\right)`).
 
-取平面$B_(1) D C$内的两个方向向量$arrow(C B_1)=((1)/(2),-(sqrt(3))/(2),1)$，$arrow(C D)=(-(1)/(4),-(sqrt(3))/(4),1)$. 它们的一个法向量可取$bold(n)=(sqrt(3),3,sqrt(3))$，
-且$|bold(n)|=sqrt(15)$，$|arrow(A D)|=(sqrt(5))/(2)$，$arrow(A D)\c d o t b o l d(n)=2 sqrt(3)$. 设直线$A D$与平面$B_(1) D C$所成角为$theta$，则
+取平面#mi(`B_{1}DC`) 内的两个方向向量#mi(`\overrightarrow{CB_1}=\left(\dfrac{1}{2},-\dfrac{\sqrt{3}}{2},1\right)`)，#mi(`\overrightarrow{CD}=\left(-\dfrac{1}{4},-\dfrac{\sqrt{3}}{4},1\right)`). 它们的一个法向量可取#mi(`\mathbf{n}=\left(\sqrt{3},3,\sqrt{3}\right)`)，
 
-$ sin theta =(|arrow(A D){ dot }bold(n)|)/(|arrow(A D)| |bold(n)|)=(2 sqrt(3))/((sqrt(5))/(2)sqrt(15))=(4)/(5) $
+且#mi(`|\mathbf{n}|=\sqrt{15}`)，#mi(`|\overrightarrow{AD}|=\dfrac{\sqrt{5}}{2}`)，#mi(`\overrightarrow{AD}\cdot\mathbf{n}=2\sqrt{3}`). 设直线#mi(`AD`) 与平面#mi(`B_{1}DC`) 所成角为#mi(`\theta`)，则
+
+
+#align(center)[#mitex(`
+\sin\theta=\frac{|\overrightarrow{AD}\cdot\mathbf{n}|}{|\overrightarrow{AD}|\,|\mathbf{n}|}=\frac{2\sqrt{3}}{\frac{\sqrt{5}}{2}\sqrt{15}}=\frac{4}{5}
+`)]
 ]
 
 #problem(16)[
-下列四个命题中，真命题的序号有#blank(){}.（写出所有真命题的序号）
-
-\begin{circlelist}
-\item 将函数$y=|x+1|$的图象按向量$bold(v)=(-1,0)$平移，得到的图象对应的函数表达式为$y=|x|$；
-\item 圆$x^2+y^2+4 x+2 y+1=0$与直线$y=(1)/(2)x$相交，所得弦长为$2$；
-\item 若$sin ( alpha + beta )=(1)/(2)$，$sin ( alpha - beta )=(1)/(3)$，则$tan alpha cot beta =5$；
-\item 如图，已知正方体$A B C D-A_(1) B_(1) C_(1) D_1$，$P$为底面$A B C D$内一动点，$P$到平面$A A_(1) D_(1) D$的距离与到直线$CC_1$的距离相等，则$P$点的轨迹是抛物线的一部分.
-\end{circlelist}
+下列四个命题中，真命题的序号有\underline{\hspace{2.5em}}.（写出所有真命题的序号）
 
 
-#align(center)[#image("/papers/2006/img/shandong_science/q16_fig1.png", width: 5.8cm)]
++ (1) 将函数#mi(`y=|x+1|`) 的图象按向量#mi(`\mathbf{v}=(-1,0)`) 平移，得到的图象对应的函数表达式为#mi(`y=|x|`)；
++ (2) 圆#mi(`x^{2}+y^{2}+4x+2y+1=0`) 与直线#mi(`y=\dfrac{1}{2}x`) 相交，所得弦长为#mi(`2`)；
++ (3) 若#mi(`\sin(\alpha+\beta)=\dfrac{1}{2}`)，#mi(`\sin(\alpha-\beta)=\dfrac{1}{3}`)，则#mi(`\tan\alpha\cot\beta=5`)；
++ (4) 如图，已知正方体#mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`)，#mi(`P`) 为底面#mi(`ABCD`) 内一动点，#mi(`P`) 到平面#mi(`AA_{1}D_{1}D`) 的距离与到直线#mi(`CC_{1}`) 的距离相等，则#mi(`P`) 点的轨迹是抛物线的一部分.
+
+
+
+
+#align(center)[#image("/papers/2006/img/shandong_science/q16_fig1.png", width: 28%)]
+
 ]
 
-#answer([$"[3]"\)、\("[4]"$])
+#answer([#mi(`③`)、#mi(`④`)])
 
 #solution[
-命题$"[1]"$中，图象向量平移$(-1,0)$后，点$(u,|u+1|)$变为$(u-1,|u+1|)$，令$x=u-1$，新函数为$y=|x+2|$，不是$y=|x|$，所以命题$"[1]"$是假命题.
+命题#mi(`①`) 中，图象向量平移#mi(`(-1,0)`) 后，点#mi(`(u,|u+1|)`) 变为#mi(`(u-1,|u+1|)`)，令#mi(`x=u-1`)，新函数为#mi(`y=|x+2|`)，不是#mi(`y=|x|`)，所以命题#mi(`①`) 是假命题.
 
-命题$"[2]"$中，圆可化为$(x+2)^2+(y+1)^2=4$，
-圆心为$(-2,-1)$，半径为$2$. 圆心满足$y=(1)/(2)x$，所以该直线过圆心，所得弦为直径，长度为$4$，不是$2$，故命题$"[2]"$是假命题.
+命题#mi(`②`) 中，圆可化为#mi(`(x+2)^{2}+(y+1)^{2}=4`)，
 
-命题$"[3]"$中，
-$2 sin alpha cos beta = sin ( alpha + beta )+ sin ( alpha - beta )=(5)/(6)$，
-$2 cos alpha sin beta = sin ( alpha + beta )- sin ( alpha - beta )=(1)/(6)$.
-因此$tan alpha cot beta =(sin alpha cos beta)/(cos alpha sin beta)=((5)/(12))/((1)/(12))=5$，
-故命题$"[3]"$是真命题.
+圆心为#mi(`(-2,-1)`)，半径为#mi(`2`). 圆心满足#mi(`y=\dfrac{1}{2}x`)，所以该直线过圆心，所得弦为直径，长度为#mi(`4`)，不是#mi(`2`)，故命题#mi(`②`) 是假命题.
 
-设正方体棱长为$a$，取底面坐标$A=(0,0)$，$B=(a,0)$，$C=(a,a)$，$D=(0,a)$，令$P=(x,y)$. 点$P$到平面$A A_(1) D_(1) D$的距离为$x$，到直线$CC_1$的距离为$sqrt((x-a)^2+(y-a)^2)$. 相等时
+命题#mi(`③`) 中，
 
-$ x^2=(x-a)^2+(y-a)^2 <=> (y-a)^2=2 a x-a^2 $
+#mi(`2\sin\alpha\cos\beta=\sin(\alpha+\beta)+\sin(\alpha-\beta)=\dfrac{5}{6}`)，
 
-这是抛物线方程的一部分，故命题$"[4]"$是真命题. 所以真命题的序号为$"[3]"$，$"[4]"$.
+#mi(`2\cos\alpha\sin\beta=\sin(\alpha+\beta)-\sin(\alpha-\beta)=\dfrac{1}{6}`).
+
+因此#mi(`\tan\alpha\cot\beta=\dfrac{\sin\alpha\cos\beta}{\cos\alpha\sin\beta}=\dfrac{\frac{5}{12}}{\frac{1}{12}}=5`)，
+
+故命题#mi(`③`) 是真命题.
+
+设正方体棱长为#mi(`a`)，取底面坐标#mi(`A=(0,0)`)，#mi(`B=(a,0)`)，#mi(`C=(a,a)`)，#mi(`D=(0,a)`)，令#mi(`P=(x,y)`). 点#mi(`P`) 到平面#mi(`AA_{1}D_{1}D`) 的距离为#mi(`x`)，到直线#mi(`CC_{1}`) 的距离为#mi(`\sqrt{(x-a)^{2}+(y-a)^{2}}`). 相等时
+
+
+#align(center)[#mitex(`
+x^{2}=(x-a)^{2}+(y-a)^{2}  \Longleftrightarrow  (y-a)^{2}=2ax-a^{2}
+`)]
+
+
+这是抛物线方程的一部分，故命题#mi(`④`) 是真命题. 所以真命题的序号为#mi(`③`)，#mi(`④`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知函数$f(x)=A sin ""^2( omega x+ phi.alt )$（$A>0$，$omega >0$，$0< phi.alt <(pi)/(2)$），且$y=f(x)$的最大值为$2$，其图象相邻两对称轴间的距离为$2$，并过点$(1,2)$.
+已知函数#mi(`f(x)=A\sin^{2}(\omega x+\varphi)`)（#mi(`A>0`)，#mi(`\omega>0`)，#mi(`0<\varphi<\dfrac{\pi}{2}`)），且#mi(`y=f(x)`) 的最大值为#mi(`2`)，其图象相邻两对称轴间的距离为#mi(`2`)，并过点#mi(`(1,2)`).
 
 
-+ (1) 求$phi.alt$；
-+ (2) 计算$f(1)+f(2)+ dots.c +f(2008)$.
++ (1)
 ]
 
 #solution[
-+ (1) 因为$sin ""^2$的最大值为$1$，所以$A=2$. 函数$sin ""^2 t$的相邻对称轴对应的自变量之差为$(pi)/(2)$，故$(pi)/(2 omega)=2$，
-从而$omega =(pi)/(4)$. 又$f(1)=2$，所以
-$2 sin ""^2((pi)/(4)+ phi.alt )=2$，
-即$sin ""^2((pi)/(4)+ phi.alt )=1$. 由$0< phi.alt <(pi)/(2)$，有$(pi)/(4)+ phi.alt in ((pi)/(4),(3 pi)/(4))$，故
-$phi.alt =(pi)/(4)$.
-+ (2) 由上面的参数，$f(k)=2 sin ""^2(((k+1) pi)/(4))$. 所以$f(1)=2$，$f(2)=1$，$f(3)=0$，$f(4)=1$，且每四项循环一次. 因为$2008=4 times 502$，故$f(1)+f(2)+ dots.c +f(2008)=502(2+1+0+1)=2008$.
++ (1)
 ]
 
 #problem(18)[
-设函数$f(x)=a x-(a+1) ln (x+1)$，其中$a >= -1$，求$f(x)$的单调区间.
+设函数#mi(`f(x)=ax-(a+1)\ln(x+1)`)，其中#mi(`a\ge-1`)，求#mi(`f(x)`) 的单调区间.
 ]
 
 #solution[
-函数定义域为$(-1,+ oo )$，且$f'(x)=a-(a+1)/(x+1)=(a x-1)/(x+1)$.
-当$-1 <= a <= 0$时，对任意$x>-1$，都有$a x-1<0$，而$x+1>0$，所以$f'(x)<0$，函数在$(-1,+ oo )$上单调递减.
+函数定义域为#mi(`(-1,+\infty)`)，且#mi(`f'(x)=a-\dfrac{a+1}{x+1}=\dfrac{ax-1}{x+1}`).
 
-当$a>0$时，$f'(x)=0$的唯一解为$x=(1)/(a)$，并且在$(-1,(1)/(a))$上$f'(x)<0$，在$((1)/(a),+ oo )$上$f'(x)>0$.
-因此当$a>0$时，函数在$(-1,(1)/(a))$上单调递减，在$((1)/(a),+ oo )$上单调递增.
+当#mi(`-1\le a\leqslant0`) 时，对任意#mi(`x>-1`)，都有#mi(`ax-1<0`)，而#mi(`x+1>0`)，所以#mi(`f'(x)<0`)，函数在#mi(`(-1,+\infty)`) 上单调递减.
+
+当#mi(`a>0`) 时，#mi(`f'(x)=0`) 的唯一解为#mi(`x=\dfrac{1}{a}`)，并且在#mi(`\left(-1,\dfrac{1}{a}\right)`) 上#mi(`f'(x)<0`)，在#mi(`\left(\dfrac{1}{a},+\infty\right)`) 上#mi(`f'(x)>0`).
+
+因此当#mi(`a>0`) 时，函数在#mi(`\left(-1,\dfrac{1}{a}\right)`) 上单调递减，在#mi(`\left(\dfrac{1}{a},+\infty\right)`) 上单调递增.
 ]
 
 #problem(19)[
-如图，已知平面$A_(1) B_(1) C_1$平行于三棱锥$V-A B C$的底面$A B C$，等边$triangle A B_(1) C$所在平面与底面$A B C$垂直，且$angle A C B=90^ degree$，设$A C=2 a$，$B C=a$.
+如图，已知平面#mi(`A_{1}B_{1}C_{1}`) 平行于三棱锥#mi(`V-ABC`) 的底面#mi(`ABC`)，等边#mi(`\triangle AB_{1}C`) 所在平面与底面#mi(`ABC`) 垂直，且#mi(`\angle ACB=90^{\circ}`)，设#mi(`AC=2a`)，#mi(`BC=a`).
 
 
-+ (1) 求证直线$B_(1) C_1$是异面直线$A B_1$与$A_(1) C_1$的公垂线；
-+ (2) 求点$A$到平面$V B C$的距离；
-+ (3) 求二面角$A-V B-C$的大小.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2006/img/shandong_science/q19_fig1.png", width: 5.8cm)]
+
+#align(center)[#image("/papers/2006/img/shandong_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-建立直角坐标系，令$C=(0,0,0)$，$A=(2 a,0,0)$，$B=(0,a,0)$. 因为$triangle A B_(1) C$为边长$2 a$的等边三角形，且其所在平面垂直于底面，所以可取$B_1=(a,0,sqrt(3)a)$.
+建立直角坐标系，令#mi(`C=(0,0,0)`)，#mi(`A=(2a,0,0)`)，#mi(`B=(0,a,0)`). 因为#mi(`\triangle AB_{1}C`) 为边长#mi(`2a`) 的等边三角形，且其所在平面垂直于底面，所以可取#mi(`B_{1}=(a,0,\sqrt{3}a)`).
 
 
-+ (1) 由$A_(1) B_(1) C_1 parallel A B C$，得
-$B_(1) C_1 parallel B C$，$A_(1) C_1 parallel A C$.
-又
-$arrow(A B_1)=(-a,0,sqrt(3)a)$，$arrow(B C)=(0,-a,0)$，
-所以$A B_1 bot B C$，从而$A B_1 bot B_(1) C_1$. 由于$A C bot B C$，又有$A_(1) C_1 bot B_(1) C_1$. 直线$B_(1) C_1$分别在$B_1$，$C_1$处与$A B_1$，$A_(1) C_1$相交，因此它是这两条异面直线的公垂线.
-+ (2) 因为$B_1$在棱$V B$上，平面$V B C$就是平面$B_(1) B C$. 由$C$，$B$，$B_1$三点坐标，平面$V B C$的方程为
-$z=sqrt(3)x$.
-点$A=(2 a,0,0)$到该平面的距离为
-$(|sqrt(3) dot 2 a-0|)/(sqrt((sqrt(3))^2+(-1)^2))=sqrt(3)a$.
-+ (3) 平面$A V B$就是平面$A B B_1$，平面$B V C$就是平面$B B_(1) C$. 取这两个平面的法向量
-
-$ bold(n)_1=arrow(B A)\t i m e s a r r o w(B B_1)=a^2(-sqrt(3),-2 sqrt(3),-1) $
-
-
-$ bold(n)_2=arrow(B C)\t i m e s a r r o w(B B_1)=a^2(-sqrt(3),0,1) $
-
-于是$|bold(n)_1|=4 a^2$，$|bold(n)_2|=2 a^2$，$bold(n)_1\c d o t b o l d(n)_2=2 a^4$.
-设二面角$A-V B-C$为$theta$，则
-
-$ cos theta =(|bold(n)_1\c d o t b o l d(n)_2|)/(|bold(n)_1| |bold(n)_2|)=(1)/(4) $
-
-故二面角的大小为$arccos (1)/(4)$.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-袋中装有标有数字$1$，$2$，$3$，$4$，$5$的小球各$2$个，从袋中任取$3$个小球，按$3$个小球上最大数字的$9$倍计分，每小球被取出的可能性都相等，用$xi$表示取出的$3$个小球上的最大数字，求：
+袋中装有标有数字#mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`) 的小球各#mi(`2`) 个，从袋中任取#mi(`3`) 个小球，按#mi(`3`) 个小球上最大数字的#mi(`9`) 倍计分，每小球被取出的可能性都相等，用#mi(`\xi`) 表示取出的#mi(`3`) 个小球上的最大数字，求：
 
 
-+ (1) 取出的$3$个小球上的数字互不相同的概率；
-+ (2) 随机变量$xi$的概率分布和数学期望；
-+ (3) 计分介于$20$分到$40$分之间的概率.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 总的取法数为$C_(10)^(3)=120$. 数字互不相同时，先从$5$个数字中选$3$个，再从每个数字的$2$个小球中各取$1$个，取法数为$C_(5)^(3) dot 2 ""^3=80$.
-所以所求概率为$(80)/(120)=(2)/(3)$.
-+ (2) 最大数字为$k$时，先从标号不超过$k$的$2 k$个球中取$3$个，再排除全部来自前$k-1$个数字的取法，取法数为$C_(2 k)^(3)-C_(2 k-2)^(3)$. 因而随机变量$xi$的概率分布为：$P( xi =1)=0$，$P( xi =2)=(1)/(30)$，$P( xi =3)=(2)/(15)$，$P( xi =4)=(3)/(10)$，$P( xi =5)=(8)/(15)$.
-并且
-
-$ E( xi ) =2 dot (1)/(30)+3 dot (2)/(15)+4 dot (3)/(10)+5 dot (8)/(15)=(13)/(3) $
-+ (3) 得分为$9 xi$. 由于$20<9 xi <40$时$xi =3$，$4$，所求概率为$P( xi =3)+P( xi =4)=(2)/(15)+(3)/(10)=(13)/(30)$.
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-双曲线$C$与椭圆$(x^2)/(8)+(y^2)/(4)=1$有相同的焦点，直线$y=sqrt(3)x$为$C$的一条渐近线.
+双曲线#mi(`C`) 与椭圆#mi(`\dfrac{x^2}{8}+\dfrac{y^2}{4}=1`) 有相同的焦点，直线#mi(`y=\sqrt{3}x`) 为#mi(`C`) 的一条渐近线.
 
 
-+ (1) 求双曲线$C$的方程；
-+ (2) 过点$P(0,4)$的直线$l$，交双曲线$C$于$A$，$B$两点，交$x$轴于$Q$点（$Q$点与$C$的顶点不重合）. 当$arrow(P Q)= lambda _1 arrow(Q A)= lambda _2 arrow(Q B)$，且$lambda _1+ lambda _2=-(8)/(3)$时，求$Q$点的坐标.
++ (1)
 ]
 
 #solution[
-+ (1) 椭圆的焦半距满足
-$c^2=8-4=4$，
-所以双曲线的半焦距为$c=2$. 设双曲线方程为$(x^2)/(a^2)-(y^2)/(b^2)=1$，则
-$a^2+b^2=c^2=4$. 渐近线斜率为$(b)/(a)=sqrt(3)$，所以$b^2=3 a^2$. 因而$4 a^2=4$，即$a=1$，$b^2=3$. 双曲线方程为$x^2-(y^2)/(3)=1$.
-+ (2) 设$Q=(q,0)$. 因为直线过$P=(0,4)$，其上任一点可表示为
-
-$ (x,y)=Q+t a r r o w(P Q)=(q(1+t),-4 t) $
-
-其中$t=0$对应$Q$，$t=-1$对应$P$. 设$A$，$B$对应的参数分别为$t_1$，$t_2$. 由$arrow(P Q)= lambda _1 arrow(Q A)= lambda _2 arrow(Q B)$，得
-$t_1=(1)/(lambda _1)$，$t_2=(1)/(lambda _2)$.
-将参数式代入双曲线方程，得$q^2(1+t)^2-(16 t^2)/(3)=1$，即
-
-$ (q^2-(16)/(3))t^2+2 q^(2) t+q^2-1=0 $
-
-因$Q$点不与双曲线的顶点重合，$q^2 != 1$；又直线与双曲线有两个交点，故二次项系数不能为$0$，即$q^2 != (16)/(3)$，可以使用韦达定理，
-$t_1+t_2=-(2 q^2)/(q^2-(16)/(3))$，$t_(1) t_2=(q^2-1)/(q^2-(16)/(3))$.
-因此$lambda _1+ lambda _2=(1)/(t_1)+(1)/(t_2)=(t_1+t_2)/(t_(1) t_2)=-(2 q^2)/(q^2-1)$.
-由题设
-
-$ -(2 q^2)/(q^2-1)=-(8)/(3) $
-
-解得$q^2=4$，故$q= +- 2$. 当$q^2=4$时，上述关于$t$的方程为$-(4)/(3)t^2+8 t+3=0$，其判别式为$80>0$，且两根乘积为$-(9)/(4) != 0$，所以这两个$q$值确实都对应直线与双曲线的两个不同交点，且不经过顶点. 因此$Q=(2,0)$或$Q=(-2,0)$.
++ (1)
 ]
 
 #problem(22)[
-已知$a_1=2$，点$(a_n,a_(n+1))$在函数$f(x)=x^2+2 x$的图象上，其中$n=1$，$2$，$3$，$dots.c$.
+已知#mi(`a_{1}=2`)，点#mi(`(a_{n},a_{n+1})`) 在函数#mi(`f(x)=x^{2}+2x`) 的图象上，其中#mi(`n=1`)，#mi(`2`)，#mi(`3`)，#mi(`\cdots`).
 
 
-+ (1) 证明数列$\{\l g(1+a_n)\}$是等比数列；
-+ (2) 设$T_n=(1+a_1)(1+a_2) dots.c (1+a_n)$，求$T_n$及数列$\{a_n\}$的通项；
-+ (3) 记$b_n=(1)/(a_n)+(1)/(a_n+2)$，求数列$\{b_n\}$的前$n$项和$S_n$，并证明$S_n+(2)/(3 T_n-1)=1$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 由点$(a_n,a_(n+1))$在函数图象上，$a_(n+1)=a_n^2+2 a_n$. 于是$1+a_(n+1)=(1+a_n)^2$.
-由$a_1=2>0$以及递推式$a_(n+1)=a_n(a_n+2)$可归纳证明$a_n>0$：若$a_n>0$，则$a_(n+1)=a_n(a_n+2)>0$. 所以所有$1+a_n>0$，可以取常用对数，并由$1+a_(n+1)=(1+a_n)^2$得到$\l g(1+a_(n+1))=2\l g(1+a_n)$.
-故数列$\{\l g(1+a_n)\}$是首项$\l g 3$、公比$2$的等比数列.
-+ (2) 由上一问，$\l g(1+a_n)=2^(n-1)\l g 3$，所以$1+a_n=3^(2^(n-1))$，$a_n=3^(2^(n-1))-1$.
-进一步，
-
-$ T_n=prod_(k=1)^(n)3^(2^(k-1)) =3^(1+2+ dots.c +2^(n-1)) =3^(2^n-1) $
-+ (3) 由递推关系$a_(n+1)=a_n(a_n+2)$，有$b_n=(1)/(a_n)+(1)/(a_n+2)=(2(a_n+1))/(a_n(a_n+2))=2((1)/(a_n)-(1)/(a_(n+1)))$. 所以$S_n=sum_(k=1)^(n)b_k=(2)/(a_1)-(2)/(a_(n+1))=1-(2)/(a_(n+1))$. 另一方面，$3 T_n-1=3^(2^n)-1=a_(n+1)$. 故$S_n+(2)/(3 T_n-1)=1-(2)/(a_(n+1))+(2)/(a_(n+1))=1$.
++ (1) 
++ (2)
 ]
 

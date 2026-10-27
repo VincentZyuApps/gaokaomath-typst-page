@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,313 +11,321 @@
 #part-header("单选题")
 
 #problem(1)[
-$i (2+3 i )=$（ ）.
-  #choices([$3-2 i$], [$3+2 i$], [$-3-2 i$], [$-3+2 i$], cols: 4)
+#mi(`\mathrm{i}(2+3\mathrm{i})=`)（ ）.
+  #choices([#mi(`3-2\mathrm{i}`)], [#mi(`3+2\mathrm{i}`)], [#mi(`-3-2\mathrm{i}`)], [#mi(`-3+2\mathrm{i}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-$i (2+3 i )=2 i +3 i ""^2=2 i -3=-3+2 i$，故选 D.
+#mi(`\mathrm{i}(2+3\mathrm{i})=2\mathrm{i}+3\mathrm{i}^{2}=2\mathrm{i}-3=-3+2\mathrm{i}`)，故选 D.
 ]
 
 #problem(2)[
-已知集合 $A=\{1,3,5,7\}$，$B=\{2,3,4,5\}$，则 $A inter B=$（ ）.
-  #choices([$\{3\}$], [$\{5\}$], [$\{3,5\}$], [$\{1,2,3,4,5,7\}$], cols: 2)
+已知集合 #mi(`A=\{1,3,5,7\}`)，#mi(`B=\{2,3,4,5\}`)，则 #mi(`A\cap B=`)（ ）.
+  #choices([#mi(`\{3\}`)], [#mi(`\{5\}`)], [#mi(`\{3,5\}`)], [#mi(`\{1,2,3,4,5,7\}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-集合 $A$ 与集合 $B$ 的公共元素为 $3$ 和 $5$，所以 $A inter B=\{3,5\}$，故选 C.
+集合 #mi(`A`) 与集合 #mi(`B`) 的公共元素为 #mi(`3`) 和 #mi(`5`)，所以 #mi(`A\cap B=\{3,5\}`)，故选 C.
 ]
 
 #problem(3)[
-函数 $f(x)=(e ""^x- e ""^(-x))/(x^2)$ 的图象大致为（ ）.
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2018/img/national_paper_2_liberal/q3_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2018/img/national_paper_2_liberal/q3_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2018/img/national_paper_2_liberal/q3_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2018/img/national_paper_2_liberal/q3_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+函数 #mi(`f(x)=\dfrac{\mathrm{e}^x-\mathrm{e}^{-x}}{x^2}`) 的图象大致为（ ）.
+  #choices([
+#align(center)[#image("/papers/2018/img/national_paper_2_liberal/q3_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2018/img/national_paper_2_liberal/q3_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2018/img/national_paper_2_liberal/q3_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2018/img/national_paper_2_liberal/q3_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-函数的定义域为 $x != 0$，且 $f(-x)=-f(x)$，所以其图象关于原点对称. 当 $x -> 0 ""^+$ 时，$e ""^x- e ""^(-x) tilde 2 x$，从而 $f(x) tilde (2)/(x) -> + oo$；当 $x -> 0 ""^-$ 时，$f(x) -> - oo$. 又当 $x -> + oo$ 时，$f(x) -> + oo$，当 $x -> - oo$ 时，$f(x) -> - oo$. 因此右支在第一象限，左支在第三象限，且两支关于原点对称，符合图象 $B$，故选 B.
+函数的定义域为 #mi(`x\ne0`)，且 #mi(`f(-x)=-f(x)`)，所以其图象关于原点对称. 当 #mi(`x\to0^{+}`) 时，#mi(`\mathrm{e}^{x}-\mathrm{e}^{-x}\sim2x`)，从而 #mi(`f(x)\sim\frac{2}{x}\to+\infty`)；当 #mi(`x\to0^{-}`) 时，#mi(`f(x)\to-\infty`). 又当 #mi(`x\to+\infty`) 时，#mi(`f(x)\to+\infty`)，当 #mi(`x\to-\infty`) 时，#mi(`f(x)\to-\infty`). 因此右支在第一象限，左支在第三象限，且两支关于原点对称，符合图象 #mi(`B`)，故选 B.
 ]
 
 #problem(4)[
-已知向量 $bold(a)$，$bold(b)$ 满足 $| bold(a)|=1$，$bold(a)\c d o t b o l d(b)=-1$，则 $bold(a) dot (2 bold(a)-bold(b))=$（ ）.
-  #choices([$4$], [$3$], [$2$], [$0$], cols: 4)
+已知向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 满足 #mi(`\lvert \mathbf{a}\rvert=1`)，#mi(`\mathbf{a}\cdot\mathbf{b}=-1`)，则 #mi(`\mathbf{a}\cdot(2\mathbf{a}-\mathbf{b})=`)（ ）.
+  #choices([#mi(`4`)], [#mi(`3`)], [#mi(`2`)], [#mi(`0`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由 $\l v e r t b o l d(a)|=1$ 得 $bold(a)\c d o t b o l d(a)=1$，所以
-$bold(a) dot (2 bold(a)-bold(b))=2 bold(a)\c d o t b o l d(a)-bold(a)\c d o t b o l d(b)=2-(-1)=3$，故选 B.
+由 #mi(`\lvert\mathbf{a}\rvert=1`) 得 #mi(`\mathbf{a}\cdot\mathbf{a}=1`)，所以
+
+#mi(`\mathbf{a}\cdot(2\mathbf{a}-\mathbf{b})=2\mathbf{a}\cdot\mathbf{a}-\mathbf{a}\cdot\mathbf{b}=2-(-1)=3`)，故选 B.
 ]
 
 #problem(5)[
 从 2 名男同学和 3 名女同学中任选 2 人参加社区服务，则选中的 2 人都是女同学的概率为（ ）.
-  #choices([$0.6$], [$0.5$], [$0.4$], [$0.3$], cols: 4)
+  #choices([#mi(`0.6`)], [#mi(`0.5`)], [#mi(`0.4`)], [#mi(`0.3`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-从 $5$ 名同学中任选 $2$ 人共有 $C_5^2=10$ 种选法，其中选中的 $2$ 人都是女同学有 $C_3^2=3$ 种选法. 因此所求概率为 $(C_3^2)/(C_5^2)=(3)/(10)=0.3$，故选 D.
+从 #mi(`5`) 名同学中任选 #mi(`2`) 人共有 #mi(`\mathrm{C}_{5}^{2}=10`) 种选法，其中选中的 #mi(`2`) 人都是女同学有 #mi(`\mathrm{C}_{3}^{2}=3`) 种选法. 因此所求概率为 #mi(`\dfrac{\mathrm{C}_3^2}{\mathrm{C}_5^2}=\dfrac3{10}=0.3`)，故选 D.
 ]
 
 #problem(6)[
-双曲线 $(x^2)/(a^2)-(y^2)/(b^2)=1$（$a>0$，$b>0$）的离心率为 $sqrt(3)$，则其渐近线方程为（ ）.
-  #choices([$y=\p m s q r t(2)x$], [$y=\p m s q r t(3)x$], [$y= +- (sqrt(2))/(2)x$], [$y= +- (sqrt(3))/(2)x$], cols: 2)
+双曲线 #mi(`\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1`)（#mi(`a>0`)，#mi(`b>0`)）的离心率为 #mi(`\sqrt{3}`)，则其渐近线方程为（ ）.
+  #choices([#mi(`y=\pm\sqrt{2}\,x`)], [#mi(`y=\pm\sqrt{3}\,x`)], [#mi(`y=\pm\dfrac{\sqrt{2}}{2}x`)], [#mi(`y=\pm\dfrac{\sqrt{3}}{2}x`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-双曲线的离心率满足 $e^2=1+(b^2)/(a^2)$，所以 $3=1+(b^2)/(a^2)$，即 $(b)/(a)=sqrt(2)$. 其渐近线方程为 $y= +- (b)/(a)x=\p m s q r t(2)x$，故选 A.
+双曲线的离心率满足 #mi(`e^{2}=1+\dfrac{b^2}{a^2}`)，所以 #mi(`3=1+\dfrac{b^2}{a^2}`)，即 #mi(`\dfrac{b}{a}=\sqrt{2}`). 其渐近线方程为 #mi(`y=\pm\dfrac{b}{a}x=\pm\sqrt{2}\,x`)，故选 A.
 ]
 
 #problem(7)[
-在 $triangle A B C$ 中，$cos (C)/(2)=(sqrt(5))/(5)$，$B C=1$，$A C=5$，则 $A B=$（ ）.
-  #choices([$4 sqrt(2)$], [$sqrt(30)$], [$sqrt(29)$], [$2 sqrt(5)$], cols: 4)
+在 #mi(`\triangle ABC`) 中，#mi(`\cos\dfrac{C}{2}=\dfrac{\sqrt{5}}{5}`)，#mi(`BC=1`)，#mi(`AC=5`)，则 #mi(`AB=`)（ ）.
+  #choices([#mi(`4\sqrt{2}`)], [#mi(`\sqrt{30}`)], [#mi(`\sqrt{29}`)], [#mi(`2\sqrt{5}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由半角公式得 $cos C=2 cos ""^2(C)/(2)-1=2 dot (1)/(5)-1=-(3)/(5)$. 由余弦定理，
-$A B^2=A C^2+B C^2-2 dot A C dot B C cos C=25+1-2 dot 5 dot 1 dot (-(3)/(5))=32$，所以 $A B=4 sqrt(2)$，故选 A.
+由半角公式得 #mi(`\cos C=2\cos^{2}\dfrac{C}{2}-1=2\cdot\dfrac{1}{5}-1=-\dfrac{3}{5}`). 由余弦定理，
+
+#mi(`AB^{2}=AC^{2}+BC^{2}-2\cdot AC\cdot BC\cos C=25+1-2\cdot5\cdot1\cdot\left(-\dfrac{3}{5}\right)=32`)，所以 #mi(`AB=4\sqrt{2}`)，故选 A.
 ]
 
 #problem(8)[
-为计算 $S=1-(1)/(2)+(1)/(3)-(1)/(4)+ dots.c +(1)/(99)-(1)/(100)$，设计了如图的程序框图，则在空白框中应填入（ ）.
+为计算 #mi(`S=1-\dfrac{1}{2}+\dfrac{1}{3}-\dfrac{1}{4}+\cdots+\dfrac1{99}-\dfrac1{100}`)，设计了如图的程序框图，则在空白框中应填入（ ）.
 
 
-#align(center)[#image("/papers/2018/img/national_paper_2_liberal/q8_fig1.png", width: 65%)]
-  #choices([$i=i+1$], [$i=i+2$], [$i=i+3$], [$i=i+4$], cols: 4)
+#align(center)[#image("/papers/2018/img/national_paper_2_liberal/q8_fig1.png", width: 28%)]
+
+  #choices([#mi(`i=i+1`)], [#mi(`i=i+2`)], [#mi(`i=i+3`)], [#mi(`i=i+4`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-程序开始时 $i=1$，每次循环依次把 $(1)/(i)$ 和 $(1)/((i+1))$ 加入 $N$ 与 $T$，这一次循环对应级数中的相邻两项. 为了依次取到 $1$，$3$，$5$，$\l d o t s$，$99$，循环结束后应使 $i$ 增加 $2$，即填入 $i=i+2$，故选 B.
+程序开始时 #mi(`i=1`)，每次循环依次把 #mi(`\frac{1}{i}`) 和 #mi(`\frac{1}{(i+1)}`) 加入 #mi(`N`) 与 #mi(`T`)，这一次循环对应级数中的相邻两项. 为了依次取到 #mi(`1`)，#mi(`3`)，#mi(`5`)，#mi(`\ldots`)，#mi(`99`)，循环结束后应使 #mi(`i`) 增加 #mi(`2`)，即填入 #mi(`i=i+2`)，故选 B.
 ]
 
 #problem(9)[
-在正方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$E$ 为棱 $CC_1$ 的中点，则异面直线 $A E$ 与 $C D$ 所成角的正切值为（ ）.
-  #choices([$(sqrt(2))/(2)$], [$(sqrt(3))/(2)$], [$(sqrt(5))/(2)$], [$(sqrt(7))/(2)$], cols: 4)
+在正方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`E`) 为棱 #mi(`CC_{1}`) 的中点，则异面直线 #mi(`AE`) 与 #mi(`CD`) 所成角的正切值为（ ）.
+  #choices([#mi(`\dfrac{\sqrt{2}}{2}`)], [#mi(`\dfrac{\sqrt{3}}{2}`)], [#mi(`\dfrac{\sqrt{5}}{2}`)], [#mi(`\dfrac{\sqrt{7}}{2}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设正方体棱长为 $1$，建立直角坐标系，取 $A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$，则 $E=(1,1,\t f r a c12)$. 取 $C D$ 的方向向量 $bold(v)=(1,0,0)$，取 $A E$ 的方向向量 $bold(u)=(1,1,\t f r a c12)$. 设两异面直线所成的锐角为 $theta$，则
-$cos theta =(\l v e r t b o l d(u)\c d o t b o l d(v)|)/(\l v e r t b o l d(u)|\l v e r t b o l d(v)|)=(1)/(sqrt(1+1+\t f r a c14))=(2)/(3)$. 因此 $tan theta =sqrt((1)/(cos ""^2 theta)-1)=sqrt((9)/(4)-1)=(sqrt(5))/(2)$，故选 C.
+设正方体棱长为 #mi(`1`)，建立直角坐标系，取 #mi(`A=(0,0,0)`)，#mi(`B=(1,0,0)`)，#mi(`C=(1,1,0)`)，#mi(`D=(0,1,0)`)，则 #mi(`E=(1,1,\tfrac12)`). 取 #mi(`CD`) 的方向向量 #mi(`\mathbf{v}=(1,0,0)`)，取 #mi(`AE`) 的方向向量 #mi(`\mathbf{u}=(1,1,\tfrac12)`). 设两异面直线所成的锐角为 #mi(`\theta`)，则
+
+#mi(`\cos\theta=\dfrac{\lvert\mathbf{u}\cdot\mathbf{v}\rvert}{\lvert\mathbf{u}\rvert\lvert\mathbf{v}\rvert}=\dfrac1{\sqrt{1+1+\tfrac14}}=\dfrac{2}{3}`). 因此 #mi(`\tan\theta=\sqrt{\dfrac1{\cos^2\theta}-1}=\sqrt{\dfrac{9}{4}-1}=\dfrac{\sqrt{5}}{2}`)，故选 C.
 ]
 
 #problem(10)[
-若 $f(x)= cos x- sin x$ 在 $[0,a]$ 是减函数，则 $a$ 的最大值是（ ）.
-  #choices([$(pi)/(4)$], [$(pi)/(2)$], [$(3 pi)/(4)$], [$pi$], cols: 4)
+若 #mi(`f(x)=\cos x-\sin x`) 在 #mi(`[0,a]`) 是减函数，则 #mi(`a`) 的最大值是（ ）.
+  #choices([#mi(`\dfrac{\pi}{4}`)], [#mi(`\dfrac{\pi}{2}`)], [#mi(`\dfrac{3\pi}{4}`)], [#mi(`\pi`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-$f'(x)=- sin x- cos x=-sqrt(2) sin (x+(pi)/(4))$. 要使 $f(x)$ 在 $[0,a]$ 上为减函数，需要在该区间内有 $f'(x) <= 0$，即 $sin (x+(pi)/(4)) >= 0$. 从 $x=0$ 开始，这一条件首次失效的端点为 $x+(pi)/(4)= pi$，所以 $a=(3 pi)/(4)$，故选 C.
+#mi(`f'(x)=-\sin x-\cos x=-\sqrt{2}\sin\left(x+\dfrac\pi4\right)`). 要使 #mi(`f(x)`) 在 #mi(`[0,a]`) 上为减函数，需要在该区间内有 #mi(`f'(x)\le0`)，即 #mi(`\sin\left(x+\dfrac\pi4\right)\ge0`). 从 #mi(`x=0`) 开始，这一条件首次失效的端点为 #mi(`x+\dfrac\pi4=\pi`)，所以 #mi(`a=\dfrac{3\pi}{4}`)，故选 C.
 ]
 
 #problem(11)[
-已知 $F_1$，$F_2$ 是椭圆 $C$ 的两个焦点，$P$ 是 $C$ 上的一点，若 $P F_1 bot P F_2$，且 $angle P F_(2) F_1=60^ degree$，则 $C$ 的离心率为（ ）.
-  #choices([$1-(sqrt(3))/(2)$], [$2-sqrt(3)$], [$(sqrt(3)-1)/(2)$], [$sqrt(3)-1$], cols: 2)
+已知 #mi(`F_{1}`)，#mi(`F_{2}`) 是椭圆 #mi(`C`) 的两个焦点，#mi(`P`) 是 #mi(`C`) 上的一点，若 #mi(`PF_{1}\perp PF_{2}`)，且 #mi(`\angle PF_{2}F_{1}=60^{\circ}`)，则 #mi(`C`) 的离心率为（ ）.
+  #choices([#mi(`1-\dfrac{\sqrt{3}}{2}`)], [#mi(`2-\sqrt{3}`)], [#mi(`\dfrac{\sqrt{3}-1}{2}`)], [#mi(`\sqrt{3}-1`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-在直角三角形 $P F_(1) F_2$ 中，$angle P F_(2) F_1=60^ degree$，因此另一个锐角为 $30^ degree$. 设椭圆焦距的一半为 $c$，则 $F_(1) F_2=2 c$ 为斜边，从而 $P F_2=c$，$P F_1=sqrt(3)c$. 由椭圆定义，$P F_1+P F_2=2 a$，所以 $2 a=(sqrt(3)+1)c$，进而 $e=(c)/(a)=(2)/(sqrt(3)+1)=sqrt(3)-1$，故选 D.
+在直角三角形 #mi(`PF_{1}F_{2}`) 中，#mi(`\angle PF_{2}F_{1}=60^{\circ}`)，因此另一个锐角为 #mi(`30^{\circ}`). 设椭圆焦距的一半为 #mi(`c`)，则 #mi(`F_{1}F_{2}=2c`) 为斜边，从而 #mi(`PF_{2}=c`)，#mi(`PF_{1}=\sqrt{3}c`). 由椭圆定义，#mi(`PF_{1}+PF_{2}=2a`)，所以 #mi(`2a=(\sqrt{3}+1)c`)，进而 #mi(`e=\dfrac{c}{a}=\dfrac2{\sqrt{3}+1}=\sqrt{3}-1`)，故选 D.
 ]
 
 #problem(12)[
-已知 $f(x)$ 是定义域为 $(- oo ,+ oo )$ 的奇函数，满足 $f(1-x)=f(1+x)$. 若 $f(1)=2$，则 $f(1)+f(2)+f(3)+ dots.c +f(50)=$（ ）.
-  #choices([$-50$], [$0$], [$2$], [$50$], cols: 4)
+已知 #mi(`f(x)`) 是定义域为 #mi(`(-\infty,+\infty)`) 的奇函数，满足 #mi(`f(1-x)=f(1+x)`). 若 #mi(`f(1)=2`)，则 #mi(`f(1)+f(2)+f(3)+\cdots+f(50)=`)（ ）.
+  #choices([#mi(`-50`)], [#mi(`0`)], [#mi(`2`)], [#mi(`50`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-令题设等式中的变量为 $x$，并令 $u=1-x$，则 $f(u)=f(2-u)$. 由奇函数性质，$f(2-u)=-f(u-2)$，所以 $f(u)=-f(u-2)$，即 $f(u+2)=-f(u)$. 又由 $f(1)=2$ 得 $f(3)=-2$，并且取题设等式中的 $x=1$ 得 $f(0)=f(2)$，而奇函数满足 $f(0)=0$，故 $f(2)=0$. 于是偶数项均为 $0$，奇数项满足 $f(4 k+1)=2$，$f(4 k+3)=-2$. 在 $1$ 至 $50$ 中，形如 $4 k+1$ 的奇数有 $13$ 个，形如 $4 k+3$ 的奇数有 $12$ 个，因此原式为 $13 dot 2 -12 dot 2 =2$，故选 C.
+令题设等式中的变量为 #mi(`x`)，并令 #mi(`u=1-x`)，则 #mi(`f(u)=f(2-u)`). 由奇函数性质，#mi(`f(2-u)=-f(u-2)`)，所以 #mi(`f(u)=-f(u-2)`)，即 #mi(`f(u+2)=-f(u)`). 又由 #mi(`f(1)=2`) 得 #mi(`f(3)=-2`)，并且取题设等式中的 #mi(`x=1`) 得 #mi(`f(0)=f(2)`)，而奇函数满足 #mi(`f(0)=0`)，故 #mi(`f(2)=0`). 于是偶数项均为 #mi(`0`)，奇数项满足 #mi(`f(4k+1)=2`)，#mi(`f(4k+3)=-2`). 在 #mi(`1`) 至 #mi(`50`) 中，形如 #mi(`4k+1`) 的奇数有 #mi(`13`) 个，形如 #mi(`4k+3`) 的奇数有 #mi(`12`) 个，因此原式为 #mi(`13\cdot2-12\cdot2=2`)，故选 C.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-曲线 $y=2 ln x$ 在点 $(1,0)$ 处的切线方程为#blank(){}.
+曲线 #mi(`y=2\ln x`) 在点 #mi(`(1,0)`) 处的切线方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$y=2 x-2$])
+#answer([#mi(`y=2x-2`)])
 
 #solution[
-函数 $y=2 ln x$ 的导数为 $y'=(2)/(x)$，所以在 $x=1$ 处的切线斜率为 $2$. 由点斜式，切线方程为 $y-0=2(x-1)$，即 $y=2 x-2$.
+函数 #mi(`y=2\ln x`) 的导数为 #mi(`y'=\dfrac{2}{x}`)，所以在 #mi(`x=1`) 处的切线斜率为 #mi(`2`). 由点斜式，切线方程为 #mi(`y-0=2(x-1)`)，即 #mi(`y=2x-2`).
 ]
 
 #problem(14)[
-若变量 $x$，$y$ 满足约束条件
-$\b e g i n{c a s e s} x+2 y-5 >= 0 ,\\ x-2 y+3 >= 0 ,\\ x-5 <= 0 \e n d{c a s e s}$
-则 $z=x+y$ 的最大值为#blank(){}.
+若变量 #mi(`x`)，#mi(`y`) 满足约束条件
+
+#mi(`\begin{cases}x+2y-5\ge0,\\  x-2y+3\ge0,\\  x-5\le0\end{cases}`)
+
+则 #mi(`z=x+y`) 的最大值为\underline{\hspace{2.5em}}.
 ]
 
 #answer([9])
 
 #solution[
-由约束条件得 $y >= (5-x)/(2)$，$y <= (x+3)/(2)$，且 $x <= 5$. 因此可行域存在时还需 $x >= 1$. 对任意固定的 $x$，由于目标函数 $z=x+y$ 随 $y$ 增大而增大，故在 $y=(x+3)/(2)$ 处取得该 $x$ 对应的最大值，并且
-$z <= x+(x+3)/(2)=(3)/(2)x+(3)/(2) <= (3)/(2) dot 5 +(3)/(2)=9$. 当 $x=5$，$y=4$ 时满足约束条件且 $z=9$，所以最大值为 $9$.
+由约束条件得 #mi(`y\ge\dfrac{5-x}{2}`)，#mi(`y\le\dfrac{x+3}{2}`)，且 #mi(`x\le5`). 因此可行域存在时还需 #mi(`x\ge1`). 对任意固定的 #mi(`x`)，由于目标函数 #mi(`z=x+y`) 随 #mi(`y`) 增大而增大，故在 #mi(`y=\dfrac{x+3}{2}`) 处取得该 #mi(`x`) 对应的最大值，并且
+
+#mi(`z\le x+\dfrac{x+3}{2}=\dfrac{3}{2}x+\dfrac{3}{2}\le\dfrac{3}{2}\cdot5+\dfrac{3}{2}=9`). 当 #mi(`x=5`)，#mi(`y=4`) 时满足约束条件且 #mi(`z=9`)，所以最大值为 #mi(`9`).
 ]
 
 #problem(15)[
-已知 $tan ( alpha -(5 pi)/(4))=(1)/(5)$，则 $tan alpha =\f i l l i n b l a n k{}$.
+已知 #mi(`\tan\left(\alpha-\dfrac{5\pi}{4}\right)=\dfrac{1}{5}`)，则 #mi(`\tan\alpha=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(3)/(2)$])
+#answer([#mi(`\dfrac{3}{2}`)])
 
 #solution[
-设 $t= tan alpha$. 因为 $tan (5 pi)/(4)=1$，由正切的差角公式得
-$(t-1)/(1+t)=(1)/(5)$，所以 $5 t-5=1+t$，解得 $t=(3)/(2)$. 因此 $tan alpha =(3)/(2)$.
+设 #mi(`t=\tan\alpha`). 因为 #mi(`\tan\dfrac{5\pi}{4}=1`)，由正切的差角公式得
+
+#mi(`\dfrac{t-1}{1+t}=\dfrac{1}{5}`)，所以 #mi(`5t-5=1+t`)，解得 #mi(`t=\dfrac{3}{2}`). 因此 #mi(`\tan\alpha=\dfrac{3}{2}`).
 ]
 
 #problem(16)[
-已知圆锥的顶点为 $S$，母线 $S A$，$S B$ 互相垂直，$S A$ 与圆锥底面所成角为 $30^ degree$，若 $triangle S A B$ 的面积为 $8$，则该圆锥的体积为#blank(){}.
+已知圆锥的顶点为 #mi(`S`)，母线 #mi(`SA`)，#mi(`SB`) 互相垂直，#mi(`SA`) 与圆锥底面所成角为 #mi(`30^{\circ}`)，若 #mi(`\triangle SAB`) 的面积为 #mi(`8`)，则该圆锥的体积为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$8 pi$])
+#answer([#mi(`8\pi`)])
 
 #solution[
-圆锥的母线长度相等，所以 $S A=S B$. 由 $triangle S A B$ 的面积为 $8$，且 $S A bot S B$，得 $(1)/(2)S A dot S B=8$，从而 $S A^2=16$，即 $S A=S B=4$. 圆锥的高为 $h=S A sin 30 ""^ degree =2$，底面半径为 $r=S A cos 30 ""^ degree =2 sqrt(3)$. 因此圆锥体积为 $V=(1)/(3) pi r^(2) h=(1)/(3) pi dot 12 dot 2 =8 pi$.
+圆锥的母线长度相等，所以 #mi(`SA=SB`). 由 #mi(`\triangle SAB`) 的面积为 #mi(`8`)，且 #mi(`SA\perp SB`)，得 #mi(`\dfrac{1}{2}SA\cdot SB=8`)，从而 #mi(`SA^{2}=16`)，即 #mi(`SA=SB=4`). 圆锥的高为 #mi(`h=SA\sin30^{\circ}=2`)，底面半径为 #mi(`r=SA\cos30^{\circ}=2\sqrt{3}`). 因此圆锥体积为 #mi(`V=\dfrac{1}{3}\pi r^{2}h=\dfrac{1}{3}\pi\cdot12\cdot2=8\pi`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-记 $S_n$ 为等差数列 $\{a_n\}$ 的前 $n$ 项和，已知 $a_1=-7$，$S_3=-15$.
+记 #mi(`S_{n}`) 为等差数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和，已知 #mi(`a_{1}=-7`)，#mi(`S_{3}=-15`).
 
 
-+ (1) 求 $\{a_n\}$ 的通项公式；
-+ (2) 求 $S_n$，并求 $S_n$ 的最小值.
++ (1)
 ]
 
 #solution[
-+ (1) 设等差数列 $\{a_n\}$ 的公差为 $d$. 由 $S_3=(3)/(2)(a_1+a_3)$ 及 $a_3=a_1+2 d$，得
-$-15=(3)/(2)(-7-7+2 d)=3(d-7)$，所以 $d=2$. 因此 $a_n=a_1+(n-1)d=-7+2(n-1)=2 n-9$.
-+ (2) $S_n=(n)/(2)(a_1+a_n)=(n)/(2)(-7+2 n-9)=n(n-8)=(n-4)^2-16$. 由于 $n$ 为正整数，当 $n=4$ 时取得最小值，最小值为 $-16$.
++ (1)
 ]
 
 #problem(18)[
-如图是某地区 2000 年至 2016 年环境基础设施投资额 $y$（单位：亿元）的折线图.
+如图是某地区 2000 年至 2016 年环境基础设施投资额 #mi(`y`)（单位：亿元）的折线图.
 
-为了预测该地区 2018 年的环境基础设施投资额，建立了 $y$ 与时间变量 $t$ 的两个线性回归模型.
-
-\begin{circlelist}
-\item 根据 2000 年至 2016 年的数据（时间变量 $t$ 的值依次为 $1$，$2$，$dots.c$，$17$）建立模型：$\h a t y=-30.4+13.5 t$；
-\item 根据 2010 年至 2016 年的数据（时间变量 $t$ 的值依次为 $1$，$2$，$dots.c$，$7$）建立模型：$\h a t y=99+17.5 t$.
-\end{circlelist}
+为了预测该地区 2018 年的环境基础设施投资额，建立了 #mi(`y`) 与时间变量 #mi(`t`) 的两个线性回归模型.
 
 
-+ (1) 分别利用这两个模型，求该地区 2018 年的环境基础设施投资额的预测值；
-+ (2) 你认为用哪个模型得到的预测值更可靠？并说明理由.
++ (1) 根据 2000 年至 2016 年的数据（时间变量 #mi(`t`) 的值依次为 #mi(`1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`17`)）建立模型：#mi(`\hat y=-30.4+13.5t`)；
++ (2) 根据 2010 年至 2016 年的数据（时间变量 #mi(`t`) 的值依次为 #mi(`1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`7`)）建立模型：#mi(`\hat y=99+17.5t`).
+
+
+
+
++ (1) 
+
 
 
 \begingroup
+
 \setlength{\leftskip}{0pt}%
 
-#align(center)[#image("/papers/2018/img/national_paper_2_liberal/q18_fig1.png", width: 88%)]
+
+#align(center)[#image("/papers/2018/img/national_paper_2_liberal/q18_fig1.png", width: 28%)]
+
 
 \endgroup
 ]
 
 #solution[
-+ (1) 在第一个模型中，2000 年对应 $t=1$，所以 2018 年对应 $t=19$，预测值为 $\h a t y=-30.4+13.5 times 19 =226.1$（亿元）. 在第二个模型中，2010 年对应 $t=1$，所以 2018 年对应 $t=9$，预测值为 $\h a t y=99+17.5 times 9 =256.5$（亿元）.
-+ (2) 第二个模型更可靠. 因为 2000 年至 2009 年的投资额增长较为缓慢，而 2010 年以后增长明显加快，近年的数据更能反映 2018 年附近的变化趋势；第二个模型只利用 2010 年至 2016 年的数据建立，受早期低增长数据的影响较小.
++ (1)
 ]
 
 #problem(19)[
-如图，在三棱锥 $P-A B C$ 中，$A B=B C=2 sqrt(2)$，$P A=P B=P C=A C=4$，$O$ 为 $A C$ 的中点.
+如图，在三棱锥 #mi(`P-ABC`) 中，#mi(`AB=BC=2\sqrt{2}`)，#mi(`PA=PB=PC=AC=4`)，#mi(`O`) 为 #mi(`AC`) 的中点.
 
 
-+ (1) 证明：$P O bot$ 平面 $A B C$；
-+ (2) 若点 $M$ 在棱 $B C$ 上，且 $M C=2 M B$，求点 $C$ 到平面 $P O M$ 的距离.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2018/img/national_paper_2_liberal/q19_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2018/img/national_paper_2_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 因为 $P A=P C$，且 $O$ 是 $A C$ 的中点，所以 $P O bot A C$. 又 $A B=B C=2 sqrt(2)$，$A C=4$，满足 $A B^2+B C^2=A C^2$，故 $triangle A B C$ 在 $B$ 处为直角三角形，且斜边中线 $B O=(1)/(2)A C=2$. 在直角三角形 $P A O$ 中，$P O^2=P A^2-A O^2=4^2-2^2=12$. 于是 $P O^2+B O^2=12+4=16=P B^2$，所以 $P O bot B O$. 直线 $A C$ 与 $B O$ 在平面 $A B C$ 内相交，且 $P O$ 同时垂直于它们，因此 $P O bot$ 平面 $A B C$.
-+ (2) 取 $O$ 为原点，令 $A C$ 在 $x$ 轴上，建立空间直角坐标系，可取 $A=(-2,0,0)$，$C=(2,0,0)$，$B=(0,2,0)$，$P=(0,0,2 sqrt(3))$. 由 $M C=2 M B$ 及 $B C=2 sqrt(2)$，得 $M B=(1)/(3)B C$，所以 $M=(2)/(3)B+(1)/(3)C=((2)/(3),(4)/(3),0)$. 平面 $P O M$ 过原点，且其在底面内的方向为 $O M$，故其方程为 $2 x-y=0$. 于是点 $C=(2,0,0)$ 到平面 $P O M$ 的距离为
-$d=(\l v e r t2 dot 2 -0|)/(sqrt(2^2+(-1)^2))=(4)/(sqrt(5))=(4 sqrt(5))/(5)$.
++ (1)
 ]
 
 #problem(20)[
-设抛物线 $C:y^2=4 x$ 的焦点为 $F$，过 $F$ 且斜率为 $k$（$k>0$）的直线 $l$ 与 $C$ 交于 $A$，$B$ 两点，$| A B|=8$.
+设抛物线 #mi(`C:y^{2}=4x`) 的焦点为 #mi(`F`)，过 #mi(`F`) 且斜率为 #mi(`k`)（#mi(`k>0`)）的直线 #mi(`l`) 与 #mi(`C`) 交于 #mi(`A`)，#mi(`B`) 两点，#mi(`\lvert AB\rvert=8`).
 
 
-+ (1) 求 $l$ 的方程；
-+ (2) 求过点 $A$，$B$ 且与 $C$ 的准线相切的圆的方程.
++ (1)
 ]
 
 #solution[
-+ (1) 抛物线 $y^2=4 x$ 的焦点为 $F=(1,0)$，所以直线 $l$ 的方程为 $y=k(x-1)$，其中 $k>0$. 设 $l$ 与抛物线交点的横坐标为 $x_1$，$x_2$，代入得 $k^2(x-1)^2=4 x$，即 $k^(2) x^2-(2 k^2+4)x+k^2=0$. 因此 $x_1+x_2=2+(4)/(k^2)$，$x_(1) x_2=1$，从而
-$| x_1-x_2|=sqrt((x_1+x_2)^2-4 x_(1) x_2)=(4 sqrt(1+k^2))/(k^2)$. 由于两点在斜率为 $k$ 的直线上，$| A B|=| x_1-x_2\r v e r t s q r t(1+k^2)=(4(1+k^2))/(k^2)=8$，所以 $k^2=1$. 由 $k>0$ 得 $k=1$，故 $l:y=x-1$.
-+ (2) 由 $y=x-1$ 与 $y^2=4 x$ 联立，得 $(x-1)^2=4 x$，即 $x^2-6 x+1=0$，所以两交点可写为 $A=(3+2 sqrt(2),2+2 sqrt(2))$，$B=(3-2 sqrt(2),2-2 sqrt(2))$. 弦 $A B$ 的中点为 $(3,2)$，其垂直平分线为 $y=-x+5$. 设所求圆的圆心为 $D=(m,5-m)$，半径为 $r$. 弦长为 $8$，故圆心到弦的垂距为 $sqrt(2)| m-3|$，由勾股定理得 $r^2=4^2+2(m-3)^2$. 抛物线的准线为 $x=-1$，圆与准线相切，所以 $r=| m+1|$. 于是
-$(m+1)^2=16+2(m-3)^2$，解得 $m=3$ 或 $m=11$. 当 $m=3$ 时，$D=(3,2)$，$r=4$，圆方程为 $(x-3)^2+(y-2)^2=16$；当 $m=11$ 时，$D=(11,-6)$，$r=12$，圆方程为 $(x-11)^2+(y+6)^2=144$. 因此所求圆有上述两个.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x)=(1)/(3)x^3-a(x^2+x+1)$.
+已知函数 #mi(`f(x)=\dfrac{1}{3}x^{3}-a(x^{2}+x+1)`).
 
 
-+ (1) 若 $a=3$，求 $f(x)$ 的单调区间；
-+ (2) 证明：$f(x)$ 只有一个零点.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a=3$ 时，$f(x)=(1)/(3)x^3-3 x^2-3 x-3$，所以 $f'(x)=x^2-6 x-3$. 令 $f'(x)=0$，得 $x=3 +- 2 sqrt(3)$. 因为二次函数 $x^2-6 x-3$ 的开口向上，所以 $f'(x)>0$ 在 $(- oo ,3-2 sqrt(3))$ 和 $(3+2 sqrt(3),+ oo )$ 上成立，$f'(x)<0$ 在 $(3-2 sqrt(3),3+2 sqrt(3))$ 上成立. 因此 $f(x)$ 的单调递增区间为 $(- oo ,3-2 sqrt(3))$ 和 $(3+2 sqrt(3),+ oo )$，单调递减区间为 $(3-2 sqrt(3),3+2 sqrt(3))$.
-+ (2) 因为 $x^2+x+1=(x+(1)/(2))^2+(3)/(4)>0$，所以 $f(x)=0$ 等价于
-$a=(x^3)/(3(x^2+x+1))$. 设 $g(x)=(x^3)/(3(x^2+x+1))$，则
-$g'(x)=(x^2(x^2+2 x+3))/(3(x^2+x+1)^2)=(x^2((x+1)^2+2))/(3(x^2+x+1)^2) >= 0$，且只有 $x=0$ 时 $g'(x)=0$. 对任意 $x_1<x_2$，由导数的连续性，
-$g(x_2)-g(x_1)=integral_(x_1)^(x_2)g'(x) d x>0$，因为 $g'(x)$ 在该区间上非负且不可能恒为零，所以 $g(x)$ 在 $RR$ 上严格递增. 又
-$g(x)=(x)/(3) dot (x^2)/(x^2+x+1)$，从而 $g(x) -> - oo$（$x -> - oo$），$g(x) -> + oo$（$x -> + oo$）. 因此对任意给定的实数 $a$，由连续函数的介值性，方程 $g(x)=a$ 至少有一个实数解；由严格递增性，至多有一个实数解. 所以方程 $g(x)=a$，也就是 $f(x)=0$，有且只有一个实数解，即 $f(x)$ 只有一个零点.
++ (1)
 ]
 
 #part-header("选考题：解答题")
 
 #problem(22)[
-在直角坐标系 $x O y$ 中，曲线 $C$ 的参数方程为
-$\b e g i n{c a s e s} x=2 cos theta ,\\ y=4 sin theta \e n d{c a s e s}$
-（$theta$ 为参数），直线 $l$ 的参数方程为
-$\b e g i n{c a s e s} x=1+t cos alpha ,\\ y=2+t sin alpha \e n d{c a s e s}$
-（$t$ 为参数）.
+在直角坐标系 #mi(`xOy`) 中，曲线 #mi(`C`) 的参数方程为
+
+#mi(`\begin{cases}x=2\cos\theta,\\
+
+y=4\sin\theta\end{cases}`)
+
+（#mi(`\theta`) 为参数），直线 #mi(`l`) 的参数方程为
+
+#mi(`\begin{cases}x=1+t\cos\alpha,\\
+
+y=2+t\sin\alpha\end{cases}`)
+
+（#mi(`t`) 为参数）.
 
 
-+ (1) 求 $C$ 和 $l$ 的直角坐标方程；
-+ (2) 若曲线 $C$ 截直线 $l$ 所得线段的中点坐标为 $(1,2)$，求 $l$ 的斜率.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $x=2 cos theta$，$y=4 sin theta$，得 $cos theta =(x)/(2)$，$sin theta =(y)/(4)$. 利用 $sin ""^2 theta + cos ""^2 theta =1$，可得曲线 $C$ 的直角坐标方程为 $(x^2)/(4)+(y^2)/(16)=1$. 由直线 $l$ 的参数方程得 $x-1=t cos alpha$，$y-2=t sin alpha$，消去参数 $t$ 可得 $l$ 的方程为 $(x-1) sin alpha -(y-2) cos alpha =0$.
-+ (2) 将直线参数方程代入椭圆方程，记 $c= cos alpha$，$s= sin alpha$，得
-$((1+t c)^2)/(4)+((2+t s)^2)/(16)=1$，即 $(4 c^2+s^2)t^2+(8 c+4 s)t-8=0$. 若所得弦的中点为 $(1,2)$，则对应的两个参数根关于 $t=0$ 对称，故根的和为零，从而 $8 c+4 s=0$，即 $2 cos alpha + sin alpha =0$. 因 $cos alpha != 0$，直线 $l$ 的斜率为 $tan alpha =-2$.
++ (1)
 ]
 
 #problem(23)[
-设函数 $f(x)=5-| x+a|-| x-2|$.
+设函数 #mi(`f(x)=5-\lvert x+a\rvert-\lvert x-2\rvert`).
 
 
-+ (1) 当 $a=1$ 时，求不等式 $f(x) >= 0$ 的解集；
-+ (2) 若 $f(x) <= 1$，求 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a=1$ 时，不等式化为 $| x+1|+| x-2| <= 5$. 当 $x <= -1$ 时，左边为 $-2 x+1$，解得 $x >= -2$；当 $-1 <= x <= 2$ 时，左边恒为 $3$，恒满足不等式；当 $x >= 2$ 时，左边为 $2 x-1$，解得 $x <= 3$. 所以解集为 $[-2,3]$.
-+ (2) $f(x) <= 1$ 等价于 $| x+a|+| x-2| >= 4$. 由三角不等式，$| x+a|+| x-2| >= | a+2|$，并且当 $x$ 位于 $-a$ 与 $2$ 之间时等号成立，所以左边关于 $x$ 的最小值为 $| a+2|$. 因此要使不等式对任意实数 $x$ 成立，必须且只需 $| a+2| >= 4$，即 $a <= -6$ 或 $a >= 2$.
++ (1)
 ]
 

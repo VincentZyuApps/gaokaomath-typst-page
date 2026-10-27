@@ -132,14 +132,26 @@
 ]
 
 #problem(10)[
-用#mi(`0`)，#mi(`1`)，#mi(`2`)，#mi(`3`)这四个数字，组成个位数不为#mi(`1`)的没有重复数字的四位数，共有（ ）
-  #choices([#mi(`16`)个], [#mi(`14`)个], [#mi(`12`)个], [#mi(`10`)个], cols: 4)
+用#mi(`0`)，#mi(`1`)，#mi(`2`)，#mi(`3`) 这四个数字，组成个位数不为#mi(`1`) 的没有重复数字的四位数，共有（ ）
+  #choices([#mi(`16`) 个], [#mi(`14`) 个], [#mi(`12`) 个], [#mi(`10`) 个], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
 按个位数字分类计数. 个位为 #mi(`0`) 时，首位可从 #mi(`1`)，#mi(`2`)，#mi(`3`) 中选取，另外两位排列，故有 #mi(`3\cdot2=6`) 个；个位为 #mi(`2`) 时，首位只能从 #mi(`1,3`) 中选取，另外两位排列，故有 #mi(`2\cdot2=4`) 个；个位为 #mi(`3`) 时，首位可从 #mi(`1,2`) 中选取，另外两位排列，故有 #mi(`2\cdot2=4`) 个. 总数为 #mi(`6+4+4=14`)，故选 B.
+]
+
+#problem(11)[
+设 #mi(`f(x)=\frac{2x+1}{4x+3}`)（#mi(`x\in\mathbb{R}`)，#mi(`x\neq-\frac{3}{4}`)），则 #mi(`f^{-1}(2)=`)（ ）
+]
+
+#answer([A])
+
+#solution[
+由 #mi(`f^{-1}(2)=x`) 等价于 #mi(`f(x)=2`)，所以
+
+#mi(`\frac{2x+1}{4x+3}=2`). 由于 #mi(`x\neq-\frac{3}{4}`)，交叉相乘得 #mi(`2x+1=8x+6`)，即 #mi(`x=-\frac{5}{6}`)，故选 A.
 ]
 
 #problem(12)[
@@ -288,7 +300,15 @@
 
 #problem(22)[
 若动点 #mi(`P`) 的横坐标 #mi(`x`) 和纵坐标 #mi(`y`)，使得 #mi(`\lg y`)，#mi(`\lg|x|`)，#mi(`\lg\left(\frac{y-x}{2}\right)`) 成等差数列，则动点 #mi(`P`) 的轨迹的图形是（ ）
-  #choices([[width=0.15\paperwidth]img/1987/guangdong_science/q22_optA.png], [[width=0.15\paperwidth]img/1987/guangdong_science/q22_optB.png], [[width=0.15\paperwidth]img/1987/guangdong_science/q22_optC.png], [[width=0.15\paperwidth]img/1987/guangdong_science/q22_optD.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/1987/img/guangdong_science/q22_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1987/img/guangdong_science/q22_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1987/img/guangdong_science/q22_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1987/img/guangdong_science/q22_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([C])
@@ -416,7 +436,9 @@
 
 
 
-[max width=0.5\linewidth]img/1987/guangdong_science/q31_fig1.png
+
+#align(center)[#image("/papers/1987/img/guangdong_science/q31_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -442,7 +464,9 @@
 ]
 
 #solution[
-[max width=0.42\linewidth]img/1987/guangdong_science/q33_solution_fig1.png
+
+#align(center)[#image("/papers/1987/img/guangdong_science/q33_solution_fig1.png", width: 28%)]
+ 
 
 
 + (1)

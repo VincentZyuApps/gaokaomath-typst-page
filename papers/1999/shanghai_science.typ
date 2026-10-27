@@ -249,6 +249,8 @@ V=\frac{1}{3}\cdot\frac{\sqrt{3}}{4}\cdot\frac{\sqrt{33}}{3}=\frac{\sqrt{11}}{12
 #problem(14)[
 下列以 #mi(`t`) 为参数的参数方程所表示的曲线中，与方程 #mi(`xy = 1`) 所表示的曲线完全一致的是（ ）
 
+\endcases\)}
+
 #mi(`\begin{cases}x = |t| \\  y = \frac{1}{|t|}\end{cases}`)
 
 #mi(`\begin{cases}x = \cos t \\
@@ -258,7 +260,6 @@ y = \sec t\end{cases}`)
 #mi(`\begin{cases}x = \tan t \\
 
 y = \cot t\end{cases}`)
-  #choices([\(\begin{cases], [\frac{1}{2}], [-\frac{1}{2}], [cases}\)], cols: 4)
 ]
 
 #answer([D])
@@ -425,7 +426,9 @@ y = \cot t\end{cases}`)
 
 
 
-[float=inline,max width=0.78\linewidth]img/1999/shanghai_science/q20_fig1.png
+
+#align(center)[#image("/papers/1999/img/shanghai_science/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -433,9 +436,13 @@ y = \cot t\end{cases}`)
 
 
 
-[max width=0.55\linewidth]img/1999/shanghai_science/q20_solution_fig1.png
+ 
+#align(center)[#image("/papers/1999/img/shanghai_science/q20_solution_fig1.png", width: 28%)]
+ 
 
-[max width=0.55\linewidth]img/1999/shanghai_science/q20_solution_fig2.png
+ 
+#align(center)[#image("/papers/1999/img/shanghai_science/q20_solution_fig2.png", width: 28%)]
+
 ]
 
 #problem(21)[
@@ -447,13 +454,17 @@ y = \cot t\end{cases}`)
 
 
 
-[float=inline,max width=0.90\linewidth]img/1999/shanghai_science/q21_problem_fig1.png
+
+#align(center)[#image("/papers/1999/img/shanghai_science/q21_problem_fig1.png", width: 28%)]
+
 
 \FloatBarrier
 ]
 
 #solution[
-[max width=0.38\linewidth]img/1999/shanghai_science/q21_solution_fig1.png
+
+#align(center)[#image("/papers/1999/img/shanghai_science/q21_solution_fig1.png", width: 28%)]
+ 
 
 
 + (1) 

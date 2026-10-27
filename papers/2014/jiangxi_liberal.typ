@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,408 +11,394 @@
 #part-header("单选题")
 
 #problem(1)[
-若复数 $z$ 满足 $z(1 + i ) = 2 i$ （$i$ 为虚数单位），则 $|z| =$（ ）
-  #choices([$1$], [$2$], [$sqrt(2)$], [$sqrt(3)$], cols: 4)
+若复数 #mi(`z`) 满足 #mi(`z(1 + \mathrm{i}) = 2\mathrm{i}`) （#mi(`\mathrm{i}`) 为虚数单位），则 #mi(`|z| =`)（ ）
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`\sqrt{2}`)], [#mi(`\sqrt{3}`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由复数模的乘法性质，$| z|| 1+ i |=| 2 i |$. 又 $| 1+ i |=sqrt(1^2+1^2)=sqrt(2)$，$| 2 i |=2$，所以 $| z\r v e r t s q r t(2)=2$，即 $| z|=sqrt(2)$. 因此选 C.
+由复数模的乘法性质，#mi(`\lvert z\rvert\lvert 1+\mathrm{i}\rvert=\lvert 2\mathrm{i}\rvert`). 又 #mi(`\lvert 1+\mathrm{i}\rvert=\sqrt{1^{2}+1^{2}}=\sqrt{2}`)，#mi(`\lvert 2\mathrm{i}\rvert=2`)，所以 #mi(`\lvert z\rvert\sqrt{2}=2`)，即 #mi(`\lvert z\rvert=\sqrt{2}`). 因此选 C.
 ]
 
 #problem(2)[
-设全集为 $RR$，集合 $A = \{x | x^2 - 9 < 0\}$，$B = \{x | -1 < x <= 5 \}$，则 $A inter (\c o m p l e m e n t_( RR ) B) =$（ ）
-  #choices([$(-3,0)$], [$(-3, -1)$], [$(-3, -1]$], [$(-3, 3)$], cols: 4)
+设全集为 #mi(`\mathbb{R}`)，集合 #mi(`A = \{x \mid x^{2} - 9 < 0\}`)，#mi(`B = \{x \mid -1 < x \le 5\}`)，则 #mi(`A \cap (\complement_{\mathbb{R}}B) =`)（ ）
+  #choices([#mi(`(-3,0)`)], [#mi(`(-3, -1)`)], [#mi(`(-3, -1]`)], [#mi(`(-3, 3)`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由 $x^2-9<0$ 得 $(x-3)(x+3)<0$，所以 $-3<x<3$，即 $A=(-3,3)$. 又 $-1<x <= 5$，故 $B=(-1,5]$，从而 $\c o m p l e m e n t_( RR )B=(- oo ,-1] union (5,+ oo )$. 因此
-$A inter (\c o m p l e m e n t_( RR )B)=(-3,3) inter ((- oo ,-1] union (5,+ oo ))=(-3,-1]$. 故选 C.
+由 #mi(`x^{2}-9<0`) 得 #mi(`(x-3)(x+3)<0`)，所以 #mi(`-3<x<3`)，即 #mi(`A=(-3,3)`). 又 #mi(`-1<x\leqslant5`)，故 #mi(`B=(-1,5]`)，从而 #mi(`\complement_{\mathbb{R}}B=(-\infty,-1]\cup(5,+\infty)`). 因此
+
+#mi(`A\cap(\complement_{\mathbb{R}}B)=(-3,3)\cap\bigl((-\infty,-1]\cup(5,+\infty)\bigr)=(-3,-1]`). 故选 C.
 ]
 
 #problem(3)[
 掷两颗均匀的骰子，则点数之和为 5 的概率等于（ ）
-  #choices([$(1)/(18)$], [$(1)/(9)$], [$(1)/(6)$], [$(1)/(12)$], cols: 4)
+  #choices([#mi(`\frac{1}{18}`)], [#mi(`\frac{1}{9}`)], [#mi(`\frac{1}{6}`)], [#mi(`\frac{1}{12}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-两颗骰子的结果用有序数对表示，共有 $6 times 6 =36$ 个等可能的基本事件. 点数之和为 5 的结果为 $(1,4)$、$(2,3)$、$(3,2)$、$(4,1)$，共有 4 个. 所以所求概率为 $(4)/(36)=(1)/(9)$，故选 B.
+两颗骰子的结果用有序数对表示，共有 #mi(`6\times6=36`) 个等可能的基本事件. 点数之和为 5 的结果为 #mi(`(1,4)`)、#mi(`(2,3)`)、#mi(`(3,2)`)、#mi(`(4,1)`)，共有 4 个. 所以所求概率为 #mi(`\dfrac{4}{36}=\dfrac{1}{9}`)，故选 B.
 ]
 
 #problem(4)[
-已知函数 $f(x) = \b e g i n{c a s e s} a dot 2 ""^x, & x >= 0 ,\\ 2^(-x), & x < 0, \e n d{c a s e s}$（$a in RR$），若 $f[f(-1)] = 1$，则 $a =$（ ）
-  #choices([$(1)/(4)$], [$(1)/(2)$], [$1$], [$2$], cols: 4)
+已知函数 #mi(`f(x) = \begin{cases}a \cdot 2^{x},&x \ge 0,\\  2^{-x},&x < 0,\end{cases}`)（#mi(`a \in \mathbb{R}`)），若 #mi(`f[f(-1)] = 1`)，则 #mi(`a =`)（ ）
+  #choices([#mi(`\frac{1}{4}`)], [#mi(`\frac{1}{2}`)], [#mi(`1`)], [#mi(`2`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-因为 $-1<0$，所以由第二段定义得 $f(-1)=2^(-(-1))=2$. 又 $f(-1)=2 >= 0$，由第一段定义得 $f[f(-1)]=f(2)=a dot 2 ""^2=4 a$. 由题设 $4 a=1$，得 $a=(1)/(4)$，故选 A.
+因为 #mi(`-1<0`)，所以由第二段定义得 #mi(`f(-1)=2^{-(-1)}=2`). 又 #mi(`f(-1)=2\geqslant0`)，由第一段定义得 #mi(`f[f(-1)]=f(2)=a\cdot2^{2}=4a`). 由题设 #mi(`4a=1`)，得 #mi(`a=\dfrac{1}{4}`)，故选 A.
 ]
 
 #problem(5)[
-在 $triangle A B C$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，若 $3 a = 2 b$，则 $(2 sin ""^2 B - sin ""^2 A)/(sin ""^2 A)$ 的值为（ ）
-  #choices([$-(1)/(9)$], [$(1)/(3)$], [$1$], [$(7)/(2)$], cols: 4)
+在 #mi(`\triangle ABC`) 中，内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对的边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，若 #mi(`3a = 2b`)，则 #mi(`\frac{2\sin^{2} B - \sin^{2} A}{\sin^{2} A}`) 的值为（ ）
+  #choices([#mi(`-\frac{1}{9}`)], [#mi(`\frac{1}{3}`)], [#mi(`1`)], [#mi(`\frac{7}{2}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由正弦定理，$(a)/(sin A)=(b)/(sin B)$，所以 $(sin B)/(sin A)=(b)/(a)$. 由 $3 a=2 b$ 得 $(b)/(a)=(3)/(2)$，从而 $sin ""^(2) B=(9)/(4) sin ""^(2) A$. 因此
-$(2 sin ""^(2) B- sin ""^(2) A)/(sin ""^(2) A)=2 times (9)/(4)-1=(7)/(2)$. 故选 D.
+由正弦定理，#mi(`\dfrac{a}{\sin A}=\dfrac{b}{\sin B}`)，所以 #mi(`\dfrac{\sin B}{\sin A}=\dfrac{b}{a}`). 由 #mi(`3a=2b`) 得 #mi(`\dfrac{b}{a}=\dfrac{3}{2}`)，从而 #mi(`\sin^{2}B=\dfrac{9}{4}\sin^{2}A`). 因此
+
+#mi(`\dfrac{2\sin^2B-\sin^2A}{\sin^2A}=2\times\dfrac{9}{4}-1=\dfrac{7}{2}`). 故选 D.
 ]
 
 #problem(6)[
 下列叙述中正确的是（ ）
-  #choices([若 $a in RR$，$b in RR$，$c in RR$，则“$a x^2 + b x + c >= 0$”的充分条件是“$b^2 - 4 a c <= 0$”], [若 $a in RR$，$b in RR$，$c in RR$，则“$a b^2 > c b^2$”的充要条件是“$a > c$”], [命题“对任意 $x in RR$，有 $x^2 >= 0$”的否定是“存在 $x in RR$，有 $x^2 >= 0$”], [$l$ 是一条直线，$alpha$，$beta$ 是两个不同的平面，若 $l bot alpha$，$l bot beta$，则 $alpha parallel beta$], cols: 1)
+  #choices([若 #mi(`a\in\mathbb{R}`)，#mi(`b\in\mathbb{R}`)，#mi(`c\in\mathbb{R}`)，则“#mi(`ax^{2} + bx + c \ge 0`)”的充分条件是“#mi(`b^{2} - 4ac \le 0`)”], [若 #mi(`a\in\mathbb{R}`)，#mi(`b\in\mathbb{R}`)，#mi(`c\in\mathbb{R}`)，则“#mi(`ab^{2} > cb^{2}`)”的充要条件是“#mi(`a > c`)”], [命题“对任意 #mi(`x \in \mathbb{R}`)，有 #mi(`x^{2} \ge 0`)”的否定是“存在 #mi(`x \in \mathbb{R}`)，有 #mi(`x^{2} \ge 0`)”], [#mi(`l`) 是一条直线，#mi(`\alpha`)，#mi(`\beta`) 是两个不同的平面，若 #mi(`l \perp \alpha`)，#mi(`l \perp \beta`)，则 #mi(`\alpha \parallel \beta`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-选项 A 不正确. 取 $a=-1$，$b=0$，$c=-1$，则 $b^2-4 a c=-4 <= 0$，但 $a x^2+b x+c=-x^2-1<0$，所以判别式条件不是该不等式恒成立的充分条件.
+选项 A 不正确. 取 #mi(`a=-1`)，#mi(`b=0`)，#mi(`c=-1`)，则 #mi(`b^{2}-4ac=-4\leqslant0`)，但 #mi(`ax^{2}+bx+c=-x^{2}-1<0`)，所以判别式条件不是该不等式恒成立的充分条件.
 
-选项 B 不正确. 取 $b=0$，$a=1$，$c=0$，则 $a>c$ 成立，而 $a b^2>c b^2$ 化为 $0>0$，不成立，所以二者不可能等价.
+选项 B 不正确. 取 #mi(`b=0`)，#mi(`a=1`)，#mi(`c=0`)，则 #mi(`a>c`) 成立，而 #mi(`ab^{2}>cb^{2}`) 化为 #mi(`0>0`)，不成立，所以二者不可能等价.
 
-选项 C 不正确. 全称命题“对任意 $x in RR$，有 $x^2 >= 0$”的否定应为“存在 $x in RR$，有 $x^2<0$”，题中把不等号方向写反了.
+选项 C 不正确. 全称命题“对任意 #mi(`x\in\mathbb{R}`)，有 #mi(`x^{2}\geqslant0`)”的否定应为“存在 #mi(`x\in\mathbb{R}`)，有 #mi(`x^{2}<0`)”，题中把不等号方向写反了.
 
-选项 D 正确. 直线 $l bot alpha$ 且 $l bot beta$，所以 $alpha$、$beta$ 的法向方向都与 $l$ 平行，从而两平面的法向方向平行. 两平面又不重合，故 $alpha parallel beta$. 因此选 D.
+选项 D 正确. 直线 #mi(`l\perp\alpha`) 且 #mi(`l\perp\beta`)，所以 #mi(`\alpha`)、#mi(`\beta`) 的法向方向都与 #mi(`l`) 平行，从而两平面的法向方向平行. 两平面又不重合，故 #mi(`\alpha\parallel\beta`). 因此选 D.
 ]
 
 #problem(7)[
 某人研究中学生的性别与成绩，视力，智商，阅读量这4个变量之间的关系，随机抽查了52名中学生，得到统计数据如表1至表4，则与性别有关联的可能性最大的变量是（ ）
 
-\begin{center}
 \setlength{\tabcolsep}{4pt}
-\renewcommand{\arraystretch}{1.1}
-\begin{tabular}{@{}c@{\hspace{1em}}c@{}}
-\begin{minipage}[t]{0.46\linewidth}
+
 \centering
-\begin{tabular}{c|ccc}
+
 \multicolumn{1}{c|}{性别} & \multicolumn{3}{c}{成绩} \\
+
 \hline
- & 不及格 & 及格 & 总计 \\
+
+& 不及格 & 及格 & 总计 \\
+
 \hline
+
 男 & 6 & 14 & 20 \\
+
 女 & 10 & 22 & 32 \\
+
 总计 & 16 & 36 & 52 \\
+
 \hline
-\end{tabular}
 
 成绩
-\end{minipage}
+
 &
-\begin{minipage}[t]{0.46\linewidth}
+
 \centering
-\begin{tabular}{c|ccc}
+
 \multicolumn{1}{c|}{性别} & \multicolumn{3}{c}{视力} \\
+
 \hline
- & 好 & 差 & 总计 \\
+
+& 好 & 差 & 总计 \\
+
 \hline
+
 男 & 4 & 16 & 20 \\
+
 女 & 12 & 20 & 32 \\
+
 总计 & 16 & 36 & 52 \\
+
 \hline
-\end{tabular}
 
 视力
-\end{minipage}
+
 \\
-\begin{minipage}[t]{0.46\linewidth}
+
 \centering
-\begin{tabular}{c|ccc}
+
 \multicolumn{1}{c|}{性别} & \multicolumn{3}{c}{智商} \\
+
 \hline
- & 偏高 & 正常 & 总计 \\
+
+& 偏高 & 正常 & 总计 \\
+
 \hline
+
 男 & 8 & 12 & 20 \\
+
 女 & 8 & 24 & 32 \\
+
 总计 & 16 & 36 & 52 \\
+
 \hline
-\end{tabular}
 
 智商
-\end{minipage}
+
 &
-\begin{minipage}[t]{0.46\linewidth}
+
 \centering
-\begin{tabular}{c|ccc}
+
 \multicolumn{1}{c|}{性别} & \multicolumn{3}{c}{阅读量} \\
+
 \hline
- & 丰富 & 不丰富 & 总计 \\
+
+& 丰富 & 不丰富 & 总计 \\
+
 \hline
+
 男 & 14 & 6 & 20 \\
+
 女 & 2 & 30 & 32 \\
+
 总计 & 16 & 36 & 52 \\
+
 \hline
-\end{tabular}
 
 阅读量
-\end{minipage}
-\end{tabular}
-\end{center}
   #choices([成绩], [视力], [智商], [阅读量], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-对一个 $2 times 2$ 列联表，记四个格子的频数为 $a$，$b$，$c$，$d$，则独立性检验统计量为
-$chi ""^2=(n(a d-b c)^2)/((a+b)(c+d)(a+c)(b+d))$. 统计量越大，说明关联性越强.
+对一个 #mi(`2\times2`) 列联表，记四个格子的频数为 #mi(`a`)，#mi(`b`)，#mi(`c`)，#mi(`d`)，则独立性检验统计量为
 
-四张表的总人数以及行、列边际总数都相同，故分母 $(a+b)(c+d)(a+c)(b+d)$ 以及 $n$ 均相同，只需比较 $| a d-b c|$. 四张表依次得到
-$\l v e r t6 times 22 -14 times 10 |=8$，$\l v e r t4 times 20 -16 times 12 |=112$，$\l v e r t8 times 24 -12 times 8 |=96$，$\l v e r t14 times 30 -6 times 2 |=408$. 最大值对应阅读量，所以选 D.
+#mi(`\chi^{2}=\dfrac{n(ad-bc)^2}{(a+b)(c+d)(a+c)(b+d)}`). 统计量越大，说明关联性越强.
+
+四张表的总人数以及行、列边际总数都相同，故分母 #mi(`(a+b)(c+d)(a+c)(b+d)`) 以及 #mi(`n`) 均相同，只需比较 #mi(`\lvert ad-bc\rvert`). 四张表依次得到
+
+#mi(`\lvert6\times22-14\times10\rvert=8`)，#mi(`\lvert4\times20-16\times12\rvert=112`)，#mi(`\lvert8\times24-12\times8\rvert=96`)，#mi(`\lvert14\times30-6\times2\rvert=408`). 最大值对应阅读量，所以选 D.
 ]
 
 #problem(8)[
 阅读如下程序框图，运行相应的程序，则程序运行后输出的结果为（ ）
 
-\texfigure[max width=0.8\linewidth]{img_repaint/2014/jiangxi_liberal/q8_fig1.tex}
-  #choices([$7$], [$9$], [$10$], [$11$], cols: 4)
+\texfigure[max width=0.8\linewidth]img_repaint/2014/jiangxi_liberal/q8_fig1.tex
+  #choices([#mi(`7`)], [#mi(`9`)], [#mi(`10`)], [#mi(`11`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-初始时 $i=1$，$S=0$. 第 $k$ 次循环所加的项依次为 $\l g(1)/(3)$，$\l g(3)/(5)$，$\l d o t s$，$\l g(2 k-1)/(2 k+1)$，所以循环 $k$ 次后
-$S=\l g(1)/(3)+\l g(3)/(5)+ dots.c +\l g(2 k-1)/(2 k+1)=\l g(1)/(2 k+1)$.
+初始时 #mi(`i=1`)，#mi(`S=0`). 第 #mi(`k`) 次循环所加的项依次为 #mi(`\lg\dfrac{1}{3}`)，#mi(`\lg\dfrac{3}{5}`)，#mi(`\ldots`)，#mi(`\lg\dfrac{2k-1}{2k+1}`)，所以循环 #mi(`k`) 次后
 
-当第 4 次循环使用 $i=7$ 时，$S=\l g(1)/(9)>-1$，不满足输出条件，随后 $i$ 增加到 9. 第 5 次循环使用 $i=9$ 后，$S=\l g(1)/(11)<-1$，满足条件并输出当前的 $i=9$. 故选 B.
+#mi(`S=\lg\dfrac{1}{3}+\lg\dfrac{3}{5}+\cdots+\lg\dfrac{2k-1}{2k+1}=\lg\dfrac1{2k+1}`).
+
+当第 4 次循环使用 #mi(`i=7`) 时，#mi(`S=\lg\dfrac{1}{9}>-1`)，不满足输出条件，随后 #mi(`i`) 增加到 9. 第 5 次循环使用 #mi(`i=9`) 后，#mi(`S=\lg\dfrac1{11}<-1`)，满足条件并输出当前的 #mi(`i=9`). 故选 B.
 ]
 
 #problem(9)[
-过双曲线 $C: (x^2)/(a^2)- (y^2)/(b^2)= 1$ 的右顶点作 $x$ 轴的垂线与 $C$ 的一条渐近线相交于 $A$. 若以 $C$ 的右焦点为圆心，半径为 4 的圆经过 $A$，$O$ 两点 （$O$ 为坐标原点），则双曲线 $C$ 的方程为（ ）
-  #choices([$(x^2)/(4)-(y^2)/(12)= 1$], [$(x^2)/(7)-(y^2)/(9)= 1$], [$(x^2)/(8)-(y^2)/(8)= 1$], [$(x^2)/(12)-(y^2)/(4)= 1$], cols: 2)
+过双曲线 #mi(`C: \frac{x^{2}}{a^{2}}- \frac{y^{2}}{b^{2}}= 1`) 的右顶点作 #mi(`x`) 轴的垂线与 #mi(`C`) 的一条渐近线相交于 #mi(`A`). 若以 #mi(`C`) 的右焦点为圆心，半径为 4 的圆经过 #mi(`A`)，#mi(`O`) 两点 （#mi(`O`) 为坐标原点），则双曲线 #mi(`C`) 的方程为（ ）
+  #choices([#mi(`\frac{x^{2}}{4}-\frac{y^{2}}{12}= 1`)], [#mi(`\frac{x^{2}}{7}-\frac{y^{2}}{9}= 1`)], [#mi(`\frac{x^{2}}{8}-\frac{y^{2}}{8}= 1`)], [#mi(`\frac{x^{2}}{12}-\frac{y^{2}}{4}= 1`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-设双曲线的右焦点为 $F(c,0)$，则 $c^2=a^2+b^2$. 以 $F$ 为圆心、半径为 4 的圆经过原点 $O$，所以 $c=F O=4$，从而 $a^2+b^2=16$.
+设双曲线的右焦点为 #mi(`F(c,0)`)，则 #mi(`c^{2}=a^{2}+b^{2}`). 以 #mi(`F`) 为圆心、半径为 4 的圆经过原点 #mi(`O`)，所以 #mi(`c=FO=4`)，从而 #mi(`a^{2}+b^{2}=16`).
 
-双曲线的右顶点为 $(a,0)$，其渐近线可取 $y=(b)/(a)x$. 直线 $x=a$ 与该渐近线交于 $A(a,b)$. 因为 $A$ 也在圆上，所以
-$(a-4)^2+b^2=16$.
-将 $a^2+b^2=16$ 代入并相减，得 $a^2-8 a+16+b^2-(a^2+b^2)=0$，即 $16-8 a=0$，所以 $a=2$，进而 $b^2=16-a^2=12$. 故双曲线方程为 $(x^2)/(4)-(y^2)/(12)=1$，选 A.
+双曲线的右顶点为 #mi(`(a,0)`)，其渐近线可取 #mi(`y=\dfrac{b}{a}x`). 直线 #mi(`x=a`) 与该渐近线交于 #mi(`A(a,b)`). 因为 #mi(`A`) 也在圆上，所以
+
+#mi(`(a-4)^{2}+b^{2}=16`).
+
+将 #mi(`a^{2}+b^{2}=16`) 代入并相减，得 #mi(`a^{2}-8a+16+b^{2}-(a^{2}+b^{2})=0`)，即 #mi(`16-8a=0`)，所以 #mi(`a=2`)，进而 #mi(`b^{2}=16-a^{2}=12`). 故双曲线方程为 #mi(`\dfrac{x^2}{4}-\dfrac{y^2}{12}=1`)，选 A.
 ]
 
 #problem(10)[
-在同一直角坐标系中，函数 $y = a x^(2) - x + (a)/(2)$ 与 $y = a^(2)x^(3) - 2 a x^(2) + x + a$ （$a in RR$） 的图象不可能的是（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2014/img/jiangxi_liberal/q10_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2014/img/jiangxi_liberal/q10_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2014/img/jiangxi_liberal/q10_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2014/img/jiangxi_liberal/q10_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+在同一直角坐标系中，函数 #mi(`y = ax^{2}- x + \frac{a}{2}`) 与 #mi(`y = a^{2}x^{3}- 2ax^{2}+ x + a`) （#mi(`a \in \mathbb{R}`)） 的图象不可能的是（ ）
+  #choices([
+#align(center)[#image("/papers/2014/img/jiangxi_liberal/q10_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2014/img/jiangxi_liberal/q10_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2014/img/jiangxi_liberal/q10_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2014/img/jiangxi_liberal/q10_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-记第二个函数为 $y_2=a^(2) x^3-2 a x^2+x+a$. 当 $a != 0$ 时，
-$y_2'=3 a^(2) x^2-4 a x+1=(a x-1)(3 a x-1)$，所以两个极值点的横坐标为 $(1)/(a)$ 和 $(1)/(3 a)$. 这两个数同号，故第二个函数的两个极值点必在 $y$ 轴的同一侧.
+记第二个函数为 #mi(`y_{2}=a^{2}x^{3}-2ax^{2}+x+a`). 当 #mi(`a\ne0`) 时，
 
-三次函数图象中两个极值点分别位于 $y$ 轴两侧，与上述结论矛盾，因此该图象不可能. 另外，当 $a=0$ 时两函数分别为 $y=-x$ 和 $y=x$，可得到选项 D 所示的情形. 故选 B.
+#mi(`y_{2}'=3a^{2}x^{2}-4ax+1=(ax-1)(3ax-1)`)，所以两个极值点的横坐标为 #mi(`\dfrac{1}{a}`) 和 #mi(`\dfrac1{3a}`). 这两个数同号，故第二个函数的两个极值点必在 #mi(`y`) 轴的同一侧.
+
+三次函数图象中两个极值点分别位于 #mi(`y`) 轴两侧，与上述结论矛盾，因此该图象不可能. 另外，当 #mi(`a=0`) 时两函数分别为 #mi(`y=-x`) 和 #mi(`y=x`)，可得到选项 D 所示的情形. 故选 B.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-若曲线 $y = x ln x$ 上点 $P$ 处的切线平行于直线 $2 x - y + 1 = 0$，则点 $P$ 的坐标是#blank(){}.
+若曲线 #mi(`y = x \ln x`) 上点 #mi(`P`) 处的切线平行于直线 #mi(`2x - y + 1 = 0`)，则点 #mi(`P`) 的坐标是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$( e , e )$])
+#answer([#mi(`\left(\mathrm{e},\mathrm{e}\right)`)])
 
 #solution[
-曲线的定义域为 $x>0$. 对 $y=x ln x$ 求导，得 $y'= ln x+1$. 直线 $2 x-y+1=0$ 化为 $y=2 x+1$，斜率为 2. 由切线平行，得 $ln x+1=2$，所以 $x= e$. 代入曲线方程得 $y= e ln e = e$，故 $P$ 的坐标为 $( e , e )$.
+曲线的定义域为 #mi(`x>0`). 对 #mi(`y=x\ln x`) 求导，得 #mi(`y'=\ln x+1`). 直线 #mi(`2x-y+1=0`) 化为 #mi(`y=2x+1`)，斜率为 2. 由切线平行，得 #mi(`\ln x+1=2`)，所以 #mi(`x=\mathrm{e}`). 代入曲线方程得 #mi(`y=\mathrm{e}\ln\mathrm{e}=\mathrm{e}`)，故 #mi(`P`) 的坐标为 #mi(`\left(\mathrm{e},\mathrm{e}\right)`).
 ]
 
 #problem(12)[
-已知单位向量 $bold(e)_1$ 与 $bold(e)_2$ 的夹角为 $alpha$，且 $cos alpha = (1)/(3)$，向量 $bold(a)= 3 bold(e)_1 - 2 bold(e)_2$，则 $|bold(a)| =$#blank(){}.
+已知单位向量 #mi(`\mathbf{e}_{1}`) 与 #mi(`\mathbf{e}_{2}`) 的夹角为 #mi(`\alpha`)，且 #mi(`\cos \alpha = \frac{1}{3}`)，向量 #mi(`\mathbf{a}= 3\mathbf{e}_{1} - 2\mathbf{e}_{2}`)，则 #mi(`|\mathbf{a}| =`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$3$])
+#answer([#mi(`3`)])
 
 #solution[
-因为 $bold(e)_1$、$bold(e)_2$ 是单位向量，所以 $\l v e r t b o l d(e)_1|=\l v e r t b o l d(e)_2|=1$，且 $bold(e)_1\m a t h b i n{ dot }bold(e)_2= cos alpha =(1)/(3)$. 由向量模长平方公式，
-$\l v e r t b o l d(a)|^2=\l v e r t3 bold(e)_1-2 bold(e)_2|^2=9\l v e r t b o l d(e)_1|^2+4\l v e r t b o l d(e)_2|^2-12 bold(e)_1\m a t h b i n{ dot }bold(e)_2=9+4-12 times (1)/(3)=9$. 因为模长非负，故 $\l v e r t b o l d(a)|=3$.
+因为 #mi(`\mathbf{e}_{1}`)、#mi(`\mathbf{e}_{2}`) 是单位向量，所以 #mi(`\lvert\mathbf{e}_{1}\rvert=\lvert\mathbf{e}_{2}\rvert=1`)，且 #mi(`\mathbf{e}_{1}\mathbin{\cdot}\mathbf{e}_{2}=\cos\alpha=\dfrac{1}{3}`). 由向量模长平方公式，
+
+#mi(`\lvert\mathbf{a}\rvert^{2}=\lvert3\mathbf{e}_{1}-2\mathbf{e}_{2}\rvert^{2}=9\lvert\mathbf{e}_{1}\rvert^{2}+4\lvert\mathbf{e}_{2}\rvert^{2}-12\mathbf{e}_{1}\mathbin{\cdot}\mathbf{e}_{2}=9+4-12\times\dfrac{1}{3}=9`). 因为模长非负，故 #mi(`\lvert\mathbf{a}\rvert=3`).
 ]
 
 #problem(13)[
-在等差数列 $\{a_(n)\}$ 中，$a_(1) = 7$，公差为 $d$，前 $n$ 项和为 $S_(n)$，当且仅当 $n = 8$ 时 $S_(n)$ 取最大值，则 $d$ 的取值范围为#blank(){}.
+在等差数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{1}= 7`)，公差为 #mi(`d`)，前 #mi(`n`) 项和为 #mi(`S_{n}`)，当且仅当 #mi(`n = 8`) 时 #mi(`S_{n}`) 取最大值，则 #mi(`d`) 的取值范围为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(-1,-(7)/(8))$])
+#answer([#mi(`\left(-1,-\frac{7}{8}\right)`)])
 
 #solution[
-因为 $S_n-S_(n-1)=a_n$，要使 $S_8$ 严格大于相邻的前后两项，必须有 $a_8=S_8-S_7>0$ 且 $a_9=S_9-S_8<0$. 又 $a_n=7+(n-1)d$，所以
-$7+7 d>0$，$7+8 d<0$，即 $-1<d<-(7)/(8)$.
+因为 #mi(`S_{n}-S_{n-1}=a_{n}`)，要使 #mi(`S_{8}`) 严格大于相邻的前后两项，必须有 #mi(`a_{8}=S_{8}-S_{7}>0`) 且 #mi(`a_{9}=S_{9}-S_{8}<0`). 又 #mi(`a_{n}=7+(n-1)d`)，所以
 
-反过来，若 $-1<d<-(7)/(8)$，则 $d<0$，数列 $\{a_n\}$ 递减，且 $a_8>0$，$a_9<0$. 因而 $a_1$，$\l d o t s$，$a_8>0$，$a_9$，$a_(10)$，$\l d o t s<0$，所以 $S_n$ 先增后减，在 $n=8$ 时取得唯一最大值. 当 $d=-1$ 或 $d=-(7)/(8)$ 时，分别有 $a_8=0$ 或 $a_9=0$，会出现相邻两项和相等，不符合“当且仅当”. 故 $d in (-1,-(7)/(8))$.
+#mi(`7+7d>0`)，#mi(`7+8d<0`)，即 #mi(`-1<d<-\dfrac{7}{8}`).
+
+反过来，若 #mi(`-1<d<-\dfrac{7}{8}`)，则 #mi(`d<0`)，数列 #mi(`\{a_{n}\}`) 递减，且 #mi(`a_{8}>0`)，#mi(`a_{9}<0`). 因而 #mi(`a_{1}`)，#mi(`\ldots`)，#mi(`a_{8}>0`)，#mi(`a_{9}`)，#mi(`a_{10}`)，#mi(`\ldots<0`)，所以 #mi(`S_{n}`) 先增后减，在 #mi(`n=8`) 时取得唯一最大值. 当 #mi(`d=-1`) 或 #mi(`d=-\dfrac{7}{8}`) 时，分别有 #mi(`a_{8}=0`) 或 #mi(`a_{9}=0`)，会出现相邻两项和相等，不符合“当且仅当”. 故 #mi(`d\in\left(-1,-\dfrac{7}{8}\right)`).
 ]
 
 #problem(14)[
-设椭圆 $C: (x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > b > 0$） 的左右焦点为 $F_1$，$F_2$，过 $F_2$ 作 $x$ 轴的垂线与 $C$ 交于 $A$，$B$ 两点，$F_(1) B$ 与 $y$ 轴交于点 $D$，若 $A D bot F_(1) B$，则椭圆 $C$ 的离心率等于#blank(){}.
+设椭圆 #mi(`C: \frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)） 的左右焦点为 #mi(`F_{1}`)，#mi(`F_{2}`)，过 #mi(`F_{2}`) 作 #mi(`x`) 轴的垂线与 #mi(`C`) 交于 #mi(`A`)，#mi(`B`) 两点，#mi(`F_{1}B`) 与 #mi(`y`) 轴交于点 #mi(`D`)，若 #mi(`AD \perp F_{1}B`)，则椭圆 #mi(`C`) 的离心率等于\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(sqrt(3))/(3)$])
+#answer([#mi(`\frac{\sqrt{3}}{3}`)])
 
 #solution[
-设椭圆焦距的一半为 $c$，则 $c^2=a^2-b^2$，离心率为 $e=(c)/(a)$. 取 $F_1=(-c,0)$，$F_2=(c,0)$. 过 $F_2$ 的垂线为 $x=c$，代入椭圆方程得
-$(c^2)/(a^2)+(y^2)/(b^2)=1$，所以 $y^2=(b^4)/(a^2)$. 记 $q=(b^2)/(a)>0$，则 $A=(c,q)$，$B=(c,-q)$.
+设椭圆焦距的一半为 #mi(`c`)，则 #mi(`c^{2}=a^{2}-b^{2}`)，离心率为 #mi(`e=\dfrac{c}{a}`). 取 #mi(`F_{1}=(-c,0)`)，#mi(`F_{2}=(c,0)`). 过 #mi(`F_{2}`) 的垂线为 #mi(`x=c`)，代入椭圆方程得
 
-直线 $F_(1) B$ 与 $y$ 轴交于 $D(0,-(q)/(2))$. 因而可取
-$arrow(D A)=(c,(3 q)/(2))$，$arrow(F_(1) B)=(2 c,-q)$. 由 $A D bot F_(1) B$，得
-$arrow(D A)\m a t h b i n{ dot }arrow(F_(1) B)=2 c^2-(3)/(2)q^2=0$，即 $4 c^2=3 q^2$.
+#mi(`\dfrac{c^2}{a^2}+\dfrac{y^2}{b^2}=1`)，所以 #mi(`y^{2}=\dfrac{b^4}{a^2}`). 记 #mi(`q=\dfrac{b^2}{a}>0`)，则 #mi(`A=(c,q)`)，#mi(`B=(c,-q)`).
 
-又 $c=a e$，且 $q=(b^2)/(a)=a(1-e^2)$，所以 $4 e^2=3(1-e^2)^2$. 令 $u=e^2$，得 $3 u^2-10 u+3=0$，即 $u=3$ 或 $u=(1)/(3)$. 因为 $0<e<1$，只能取 $e^2=(1)/(3)$，故 $e=(sqrt(3))/(3)$.
+直线 #mi(`F_{1}B`) 与 #mi(`y`) 轴交于 #mi(`D\left(0,-\dfrac{q}{2}\right)`). 因而可取
+
+#mi(`\overrightarrow{DA}=\left(c,\dfrac{3q}{2}\right)`)，#mi(`\overrightarrow{F_1B}=(2c,-q)`). 由 #mi(`AD\perp F_{1}B`)，得
+
+#mi(`\overrightarrow{DA}\mathbin{\cdot}\overrightarrow{F_1B}=2c^{2}-\dfrac{3}{2}q^{2}=0`)，即 #mi(`4c^{2}=3q^{2}`).
+
+又 #mi(`c=ae`)，且 #mi(`q=\dfrac{b^2}{a}=a(1-e^{2})`)，所以 #mi(`4e^{2}=3(1-e^{2})^{2}`). 令 #mi(`u=e^{2}`)，得 #mi(`3u^{2}-10u+3=0`)，即 #mi(`u=3`) 或 #mi(`u=\dfrac{1}{3}`). 因为 #mi(`0<e<1`)，只能取 #mi(`e^{2}=\dfrac{1}{3}`)，故 #mi(`e=\dfrac{\sqrt{3}}{3}`).
 ]
 
 #problem(15)[
-已知 $x in RR$，$y in RR$. 若 $|x| + |y| + |x - 1| + |y - 1| <= 2$，则 $x + y$ 的取值范围为#blank(){}.
+已知 #mi(`x\in\mathbb{R}`)，#mi(`y\in\mathbb{R}`). 若 #mi(`|x| + |y| + |x - 1| + |y - 1| \le 2`)，则 #mi(`x + y`) 的取值范围为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[0,2]$])
+#answer([#mi(`[0,2]`)])
 
 #solution[
-由三角不等式，$| x|+| x-1| >= | x-(x-1)|=1$，且等号当且仅当 $x in [0,1]$. 同理，$| y|+| y-1| >= 1$，且等号当且仅当 $y in [0,1]$. 题设左端至少为 2，而又不超过 2，所以两部分都必须取等号，从而 $0 <= x <= 1$，$0 <= y <= 1$. 因此 $0 <= x+y <= 2$.
+由三角不等式，#mi(`\lvert x\rvert+\lvert x-1\rvert\ge\lvert x-(x-1)\rvert=1`)，且等号当且仅当 #mi(`x\in[0,1]`). 同理，#mi(`\lvert y\rvert+\lvert y-1\rvert\geqslant1`)，且等号当且仅当 #mi(`y\in[0,1]`). 题设左端至少为 2，而又不超过 2，所以两部分都必须取等号，从而 #mi(`0\le x\leqslant1`)，#mi(`0\le y\leqslant1`). 因此 #mi(`0\le x+y\leqslant2`).
 
-反过来，对任意 $t in [0,2]$，取 $x=y=(t)/(2)$，则 $x$，$y in [0,1]$，题设不等式成立且 $x+y=t$. 所以 $x+y$ 的取值范围为 $[0,2]$.
+反过来，对任意 #mi(`t\in[0,2]`)，取 #mi(`x=y=\dfrac{t}{2}`)，则 #mi(`x`)，#mi(`y\in[0,1]`)，题设不等式成立且 #mi(`x+y=t`). 所以 #mi(`x+y`) 的取值范围为 #mi(`[0,2]`).
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-已知函数 $f(x) = (a + 2 cos ""^2 x) cos (2 x + theta )$ 为奇函数，且 $f((pi)/(4)) = 0$，其中 $a in RR$，$theta in (0, pi )$.
+已知函数 #mi(`f(x) = (a + 2\cos^{2} x)\cos (2x + \theta)`) 为奇函数，且 #mi(`f\left(\frac{\pi}{4}\right) = 0`)，其中 #mi(`a \in \mathbb{R}`)，#mi(`\theta \in (0, \pi)`).
 
-+ (1) 求 $a$，$theta$ 的值；
-+ (2) 若 $f((alpha)/(4)) = -(2)/(5)$，$alpha in ((pi)/(2), pi )$，求 $sin ( alpha + (pi)/(3))$ 的值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $f(x)$ 是奇函数，所以对任意 $x$ 都有 $f(x)+f(-x)=0$. 由 $cos (2 x+ theta )+ cos ( theta -2 x)=2 cos theta cos 2 x$，得
-$f(x)+f(-x)=2(a+2 cos ""^(2) x) cos theta cos 2 x$.
-
-上式对任意 $x$ 恒为 0，而 $(a+2 cos ""^(2) x) cos 2 x$ 不恒为 0. 事实上，当 $a != -2$ 时取 $x=0$，当 $a=-2$ 时取 $x=(pi)/(6)$，均可使该因子非 0. 因此 $cos theta =0$. 结合 $theta in (0, pi )$，得 $theta =(pi)/(2)$.
-
-此时 $f((pi)/(4))=(a+1) cos pi =-(a+1)=0$，所以 $a=-1$. 于是
-$f(x)=(-1+2 cos ""^(2) x) cos (2 x+(pi)/(2))=- cos 2 x sin 2 x=-(1)/(2) sin 4 x$.
-+ (2) 由上式以及题设，$-(1)/(2) sin alpha =f((alpha)/(4))=-(2)/(5)$，所以 $sin alpha =(4)/(5)$. 由于 $alpha in ((pi)/(2), pi )$，有 $cos alpha =-(3)/(5)$. 因此
-$sin ( alpha +(pi)/(3))= sin alpha cos (pi)/(3)+ cos alpha sin (pi)/(3)=(4)/(5) dot (1)/(2)-(3)/(5) dot (sqrt(3))/(2)=(4-3 sqrt(3))/(10)$.
++ (1)
 ]
 
 #problem(17)[
-已知数列 $\{a_(n)\}$ 的前 $n$ 项和 $S_(n) = (3 n^(2) - n)/(2)$，$n in NN ""^*$.
+已知数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和 #mi(`S_{n}= \frac{3n^{2}- n}{2}`)，#mi(`n \in \mathbb{N}^{*}`).
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 证明：对任意 $n > 1$，都有 $m in NN ""^*$，使得 $a_1$，$a_n$，$a_m$ 成等比数列.
+
++ (1)
 ]
 
 #solution[
-+ (1) 当 $n >= 2$ 时，
-$a_n=S_n-S_(n-1)=(3 n^2-n-(3(n-1)^2-(n-1)))/(2)=3 n-2$. 又 $a_1=S_1=(3-1)/(2)=1=3 times 1 -2$，所以对任意 $n in NN ""^*$，都有 $a_n=3 n-2$.
-+ (2) 对任意 $n>1$，取 $m=3 n^2-4 n+2=n(3 n-4)+2$. 因为 $n >= 2$，所以 $m in NN ""^*$. 由通项公式，$a_1=1$，$a_n=3 n-2$，且
-$a_m=3 m-2=9 n^2-12 n+4=(3 n-2)^2=a_n^2$.
-因此 $a_n^2=a_(1) a_m$，且三项均为正数，故 $a_1$，$a_n$，$a_m$ 成等比数列.
++ (1)
 ]
 
 #problem(18)[
-已知函数 $f(x) = (4 x^(2) + 4 a x + a^(2))sqrt(x)$，其中 $a < 0$.
+已知函数 #mi(`f(x) = (4x^{2}+ 4ax + a^{2})\sqrt{x}`)，其中 #mi(`a < 0`).
 
-+ (1) 当 $a = -4$ 时，求 $f(x)$ 的单调递增区间；
-+ (2) 若 $f(x)$ 在区间 $[1,4]$ 上的最小值为 8，求 $a$ 的值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a=-4$ 时，$f(x)=(2 x-4)^2 sqrt(x)$，定义域为 $x >= 0$. 对 $x>0$ 求导，得
-$f'(x)=(20 x^2-48 x+16)/(2 sqrt(x))=(2(5 x-2)(x-2))/(sqrt(x))$.
-
-因此 $f'(x)>0$ 在 $0<x<(2)/(5)$ 和 $x>2$ 时成立，$f'(x)<0$ 在 $(2)/(5)<x<2$ 时成立. 函数在 $x=0$ 连续且 $f(0)=0$，所以单调递增区间为 $[0,(2)/(5)]$ 和 $[2,+ oo )$.
-+ (2) 将函数写成 $f(x)=(2 x+a)^2 sqrt(x)$. 对 $x>0$ 求导，得
-$f'(x)=((2 x+a)(10 x+a))/(2 sqrt(x))$.
-
-由于 $a<0$，两个驻点为 $-(a)/(10)$ 和 $-(a)/(2)$，且 $-(a)/(10)<-(a)/(2)$. 分情况讨论如下.
-
-当 $-8 <= a <= -2$ 时，$-(a)/(2) in [1,4]$，而 $f(-(a)/(2))=0$，故最小值不可能为 8.
-
-当 $-2<a<0$ 时，两个驻点均小于 1，$f$ 在 $[1,4]$ 上递增，最小值为 $f(1)=(a+2)^2<4$，不符合题意.
-
-当 $-10<a<-8$ 时，$-(a)/(10)<1<4<-(a)/(2)$，所以 $f$ 在 $[1,4]$ 上递减，最小值为 $f(4)=2(a+8)^2<8$. 当 $a=-10$ 时，同样有 $f$ 在 $[1,4]$ 上递减，且 $f(4)=2(-2)^2=8$.
-
-当 $a<-10$ 时，$-(a)/(10)>1$，而 $-(a)/(2)>5$. 若 $-(a)/(10) in (1,4)$，该点使导数由正变负，是区间内的极大值；若 $-(a)/(10) >= 4$，则函数在 $[1,4]$ 上单调递增. 因而两种情况下最小值都只能在端点取得. 但 $f(1)=(a+2)^2>64$，$f(4)=2(a+8)^2>8$，所以最小值大于 8.
-
-综上，$a=-10$.
++ (1)
 ]
 
 #problem(19)[
-如图，三棱柱 $A B C - A_(1)B_(1)C_(1)$ 中，$A A_(1) bot B C$，$A_(1)B bot B B_(1)$.
-
-+ (1) 求证：$A_(1)C bot CC_(1)$；
-+ (2) 若 $A B = 2$，$A C = sqrt(3)$，$B C = sqrt(7)$，问 $A A_(1)$ 为何值时，三棱柱 $A B C-A_(1)B_(1)C_(1)$ 体积最大，并求此最大值.
+如图，三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中，#mi(`AA_{1}\perp BC`)，#mi(`A_{1}B \perp BB_{1}`).
 
 
-#align(center)[#image("/papers/2014/img/jiangxi_liberal/q19_fig1.png", width: 72%)]
++ (1) 
+
+
+
+
+#align(center)[#image("/papers/2014/img/jiangxi_liberal/q19_fig1.png", width: 28%)]
+
 
 \FloatBarrier
 ]
 
 #solution[
-+ (1) 设 $bold(v)=arrow(A A_1)=arrow(B B_1)=arrow(CC_1)$，$bold(b)=arrow(A B)$，$bold(c)=arrow(A C)$. 则 $arrow(B C)=bold(c)-bold(b)$，$arrow(A_(1) B)=bold(b)-bold(v)$. 由 $A A_1 bot B C$ 和 $A_(1) B bot B B_1$，分别得到 $bold(v)\m a t h b i n{ dot }(bold(c)-bold(b))=0$ 和 $(bold(b)-bold(v))\m a t h b i n{ dot }bold(v)=0$. 因而 $bold(v)\m a t h b i n{ dot }bold(c)=bold(v)\m a t h b i n{ dot }bold(b)=|bold(v)|^2$. 又 $arrow(A_(1) C)=bold(c)-bold(v)$，$arrow(CC_1)=bold(v)$，所以
-$arrow(A_(1) C)\m a t h b i n{ dot }arrow(CC_1)=(bold(c)-bold(v))\m a t h b i n{ dot }bold(v)=0$，即 $A_(1) C bot CC_1$.
-+ (2) 因为 $A B^2+A C^2=2^2+(sqrt(3))^2=7=B C^2$，所以 $triangle A B C$ 在 $A$ 处为直角三角形，底面积为 $(1)/(2)A B dot A C=sqrt(3)$. 取 $A=(0,0,0)$，$B=(2,0,0)$，$C=(0,sqrt(3),0)$，设 $bold(v)=(r,s,t)$，并记 $h=A A_1=|bold(v)|$.
-
-由 $A A_1 bot B C$，有 $(r,s,t)\m a t h b i n{ dot }(-2,sqrt(3),0)=0$，即 $s=(2 r)/(sqrt(3))$. 由 $A_(1) B bot B B_1$，有 $(2-r,-s,-t)\m a t h b i n{ dot }(r,s,t)=0$，即 $2 r=h^2$. 因而 $r=(h^2)/(2)$，$s=(h^2)/(sqrt(3))$，从而
-$t^2=h^2-r^2-s^2=h^2-(7 h^4)/(12)=h^2(1-(7 h^2)/(12))$.
-
-三棱柱两底面间的距离为 $| t|$，所以体积 $V=sqrt(3)| t|$，进而 $V^2=3 h^2-(7)/(4)h^4$. 令 $u=h^2$，则
-$V^2=3 u-(7)/(4)u^2=(9)/(7)-(7)/(4)(u-(6)/(7))^2 <= (9)/(7)$.
-当且仅当 $u=(6)/(7)$，即 $A A_1=sqrt((6)/(7))$ 时取等号，此时 $V_( max )=(3)/(sqrt(7))$.
++ (1)
 ]
 
 #problem(20)[
-如图，已知抛物线 $C: x^2 = 4 y$，过点 $M(0,2)$ 任作一直线与 $C$ 相交于 $A$，$B$ 两点，过点 $B$ 作 $y$ 轴的平行线与直线 $A O$ 相交于点 $D$ （$O$ 为坐标原点）.
-
-+ (1) 证明：动点 $D$ 在定直线上；
-+ (2) 作 $C$ 的任意一条切线 $l$（不含 $x$ 轴）与直线 $y = 2$ 相交于点 $N_(1)$；与第一问中的定直线相交于点 $N_(2)$，证明：$|M N_(2)|^(2) - |M N_(1)|^(2)$ 为定值，并求此定值.
+如图，已知抛物线 #mi(`C: x^{2} = 4y`)，过点 #mi(`M(0,2)`) 任作一直线与 #mi(`C`) 相交于 #mi(`A`)，#mi(`B`) 两点，过点 #mi(`B`) 作 #mi(`y`) 轴的平行线与直线 #mi(`AO`) 相交于点 #mi(`D`) （#mi(`O`) 为坐标原点）.
 
 
-#align(center)[#image("/papers/2014/img/jiangxi_liberal/q20_fig1.png", width: 62%)]
++ (1) 
+
+
+
+
+#align(center)[#image("/papers/2014/img/jiangxi_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 抛物线 $x^2=4 y$ 上的点可参数化为 $P(t)=(2 t,t^2)$. 设 $A=P(u)$，$B=P(v)$. 过 $A$，$B$ 的直线斜率为
-$(v^2-u^2)/(2 v-2 u)=(u+v)/(2)$，故其方程为 $y=(u+v)/(2)x-u v$. 该直线过 $M(0,2)$，所以 $-u v=2$，即 $u v=-2$.
-
-直线 $A O$ 的斜率为 $(u^2)/(2 u)=(u)/(2)$，方程为 $y=(u)/(2)x$. 过 $B$ 作的竖线为 $x=2 v$，代入得 $D=(2 v,u v)=(2 v,-2)$. 因而动点 $D$ 始终在定直线 $y=-2$ 上.
-+ (2) 设切线 $l$ 为抛物线在参数 $t$ 处的切线. 由于 $l$ 不含 $x$ 轴，$t != 0$. 由切线斜率可得切线方程为 $y=t x-t^2$.
-
-令 $y=2$，得 $N_1=((t^2+2)/(t),2)=(t+(2)/(t),2)$. 令 $y=-2$，得 $N_2=((t^2-2)/(t),-2)=(t-(2)/(t),-2)$. 因为 $M=(0,2)$，所以
-$|M N_1|^2=(t+(2)/(t))^2$，$|M N_2|^2=(t-(2)/(t))^2+4^2$.
-
-于是
-$|M N_2|^2-|M N_1|^2=(t-(2)/(t))^2+16-(t+(2)/(t))^2=8$. 所以所求定值为 8.
++ (1)
 ]
 
 #problem(21)[
-将连续正整数 $1$，$2$，$dots.c$，$n$ （$n in NN ""^*$） 从小到大排列构成一个数 $123 dots.c n$，$F(n)$ 为这个数的位数 （如 $n = 12$ 时，此数为 $123456789101112$，共有 15 个数字，$F(12) = 15$），现从这个数中随机取一个数字，$p(n)$ 为恰好取到 0 的概率.
+将连续正整数 #mi(`1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`n`) （#mi(`n \in \mathbb{N}^{*}`)） 从小到大排列构成一个数 #mi(`123\cdots n`)，#mi(`F(n)`) 为这个数的位数 （如 #mi(`n = 12`) 时，此数为 #mi(`123456789101112`)，共有 15 个数字，#mi(`F(12) = 15`)），现从这个数中随机取一个数字，#mi(`p(n)`) 为恰好取到 0 的概率.
 
-+ (1) 求 $p(100)$；
-+ (2) 当 $n <= 2014$ 时，求 $F(n)$ 的表达式；
-+ (3) 令 $g(n)$ 为这个数中数字 0 的个数，$f(n)$ 为这个数中数字 9 的个数，$h(n) = f(n) - g(n)$，$S = \{n | h(n) = 1, n <= 100 , n in NN ""^*\}$，求当 $n in S$ 时 $p(n)$ 的最大值.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 从 1 到 100 连接成的数中，数字 0 在 $10$，$20$，$\l d o t s$，$90$ 中各出现 1 次，在 $100$ 中出现 2 次，所以共有 $9+2=11$ 个数字 0. 又
-$F(100)=9+90 times 2 +3=192$，故 $p(100)=(11)/(192)$.
-+ (2) 当 $1 <= n <= 9$ 时，全部是 1 位数，所以 $F(n)=n$. 当 $10 <= n <= 99$ 时，前面有 9 个 1 位数和 $n-9$ 个 2 位数，所以 $F(n)=9+2(n-9)=2 n-9$. 当 $100 <= n <= 999$ 时，前面共有 $9+90 times 2 =189$ 位，另有 $n-99$ 个 3 位数，所以 $F(n)=189+3(n-99)=3 n-108$. 当 $1000 <= n <= 2014$ 时，前面共有 $9+90 times 2 +900 times 3 =2889$ 位，另有 $n-999$ 个 4 位数，所以 $F(n)=2889+4(n-999)=4 n-1107$. 因而
-$F(n)=\b e g i n{c a s e s} n,&1 <= n <= 9 ,\\ 2 n-9,&10 <= n <= 99 ,\\ 3 n-108,&100 <= n <= 999 ,\\ 4 n-1107,&1000 <= n <= 2014 . \e n d{c a s e s}$
-+ (3) 当 $n <= 9$ 时，只有 $n=9$ 使 $h(n)=1$. 对 $10 <= n <= 99$，写成 $n=10 k+r$，其中 $1 <= k <= 9$，$0 <= r <= 9$.
-
-从 1 到 9 的数字中，9 比 0 多 1 个. 对每个完整的十位组 $10 j$，$\l d o t s$，$10 j+9$（$1 <= j <= 8$），个位数字 0 和 9 各出现 1 次，净贡献为 0. 因此在 $n=10 k+r$ 且 $1 <= k <= 8$ 时，当前十位组先加入一个 0；当 $r=0$，$1$，$\l d o t s$，$8$ 时，$h(n)=0$，当 $r=9$ 时再加入一个 9，$h(n)=1$. 当 $k=9$ 时，$h(90)=1$，每加入 $91$，$\l d o t s$，$98$ 中的一个数就增加 1 个数字 9，而 $h(99)=11$. 所以
-$S=\{9,19,29,39,49,59,69,79,89,90\}$.
-
-对 $n=10 k+9$（$1 <= k <= 8$），数字 0 恰在 $10$，$20$，$\l d o t s$，$10 k$ 中出现，所以 $g(n)=k$，且 $F(n)=20 k+9$. 从而 $p(n)=(k)/(20 k+9)$. 并且
-$(k+1)/(20 k+29)-(k)/(20 k+9)=(9)/((20 k+29)(20 k+9))>0$，所以这些候选数中的最大值为 $p(89)=(8)/(169)$.
-
-另有 $g(90)=9$，$F(90)=171$，故 $p(90)=(9)/(171)=(1)/(19)>(8)/(169)$，而 $p(9)=0$. 因此当 $n in S$ 时，$p(n)$ 的最大值为 $(1)/(19)$.
++ (1) 
++ (2)
 ]
 

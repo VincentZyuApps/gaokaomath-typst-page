@@ -56,7 +56,9 @@
 #problem(4)[
 如图，正方形 #mi(`ABCD`) 的边长为 #mi(`1`)，延长 #mi(`BA`) 至 #mi(`E`)，使 #mi(`AE=1`)，连接 #mi(`EC`)，#mi(`ED`)，则 #mi(`\sin \angle CED =`)（ ）
 
-[max width=0.42\linewidth]img/2012/sichuan_science/q4_fig1.png
+
+#align(center)[#image("/papers/2012/img/sichuan_science/q4_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{3\sqrt{10}}{10}`)], [#mi(`\frac{\sqrt{10}}{10}`)], [#mi(`\frac{\sqrt{5}}{10}`)], [#mi(`\frac{\sqrt{5}}{15}`)], cols: 2)
 ]
 
@@ -78,7 +80,15 @@
 
 #problem(5)[
 函数 #mi(`y = a^{x} - \frac{1}{a}`)（#mi(`a > 0`)，#mi(`a \neq 1`)）的图象可能是（ ）
-  #choices([[width=0.15\paperwidth]img/2012/sichuan_science/q5_choice_a.png], [[width=0.15\paperwidth]img/2012/sichuan_science/q5_choice_b.png], [[width=0.15\paperwidth]img/2012/sichuan_science/q5_choice_c.png], [[width=0.15\paperwidth]img/2012/sichuan_science/q5_choice_d.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2012/img/sichuan_science/q5_choice_a.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/sichuan_science/q5_choice_b.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/sichuan_science/q5_choice_c.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/sichuan_science/q5_choice_d.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D])
@@ -180,7 +190,9 @@
 #problem(10)[
 如图，半径为 #mi(`R`) 的半球 #mi(`O`) 的底面圆 #mi(`O`) 在平面 #mi(`\alpha`) 内，过点 #mi(`O`) 作平面 #mi(`\alpha`) 的垂线交半球面于点 #mi(`A`)，过圆 #mi(`O`) 的直径 #mi(`CD`) 作与平面 #mi(`\alpha`) 成 #mi(`45^{\circ}`) 角的平面与半球面相交，所得交线上到平面 #mi(`\alpha`) 的距离最大的点为 #mi(`B`)，该交线上的一点 #mi(`P`) 满足 #mi(`\angle BOP = 60^{\circ}`)，则 #mi(`A`)，#mi(`P`) 两点间的球面距离为（ ）
 
-[max width=0.42\linewidth]img/2012/sichuan_science/q10_fig1.png
+
+#align(center)[#image("/papers/2012/img/sichuan_science/q10_fig1.png", width: 28%)]
+
   #choices([#mi(`R\arccos\frac{\sqrt{2}}{4}`)], [#mi(`\frac{\pi R}{4}`)], [#mi(`R\arccos \frac{\sqrt{3}}{3}`)], [#mi(`\frac{\pi R}{3}`)], cols: 1)
 ]
 
@@ -297,7 +309,9 @@ y=\frac{b^{2}}{a}x^{2}+\frac{c}{a}
 #problem(14)[
 如图，在正方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`M`)，#mi(`N`) 分别是 #mi(`CD`)，#mi(`CC_{1}`) 的中点，则异面直线 #mi(`A_{1}M`) 与 #mi(`DN`) 所成角的大小是\underline{\hspace{2.5em}}.
 
-[max width=0.42\linewidth]img/2012/sichuan_science/q14_fig1.png
+
+#align(center)[#image("/papers/2012/img/sichuan_science/q14_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`90^{\circ}`)])
@@ -331,7 +345,7 @@ y=\frac{b^{2}}{a}x^{2}+\frac{c}{a}
 
 #mi(`L=4+m+\sqrt{3}\sqrt{4-m^{2}}`)，#mi(`-2\le m\leqslant2`).
 
-在内点处求导，#mi(`L'=1-\dfrac{\sqrt{3m}}{\sqrt{4-m^{2}}}`). 令 #mi(`L'=0`)，得 #mi(`m=1`)；端点处周长分别为 #mi(`2`) 和 #mi(`6`)，而 #mi(`L(1)=5+3=8`)，故最大值在 #mi(`m=1`) 取得. 此时 #mi(`A`)、#mi(`B`) 的纵坐标为 #mi(`\pm\dfrac{3}{2}`)，所以
+在内点处求导，#mi(`L'=1-\dfrac{\sqrt{3}m}{\sqrt{4-m^{2}}}`). 令 #mi(`L'=0`)，得 #mi(`m=1`)；端点处周长分别为 #mi(`2`) 和 #mi(`6`)，而 #mi(`L(1)=5+3=8`)，故最大值在 #mi(`m=1`) 取得. 此时 #mi(`A`)、#mi(`B`) 的纵坐标为 #mi(`\pm\dfrac{3}{2}`)，所以
 
 
 #align(center)[#mitex(`
@@ -406,7 +420,9 @@ S_{\triangle FAB}=\frac{1}{2}\cdot3\cdot2=3
 
 
 
-[max width=0.42\linewidth]img/2012/sichuan_science/q18_fig1.png
+
+#align(center)[#image("/papers/2012/img/sichuan_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -421,17 +437,19 @@ S_{\triangle FAB}=\frac{1}{2}\cdot3\cdot2=3
 
 
 
-[max width=0.42\linewidth]img/2012/sichuan_science/q19_fig1.png
+
+#align(center)[#image("/papers/2012/img/sichuan_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
 设正三角形 #mi(`ABC`) 的边长为 #mi(`l`)，建立直角坐标系，使
 
-#mi(`A=(0,0,0)`)，#mi(`B=(l,0,0)`)，#mi(`C=\left(\frac{l}{2},\frac{\sqrt{3l}}{2},0\right)`).
+#mi(`A=(0,0,0)`)，#mi(`B=(l,0,0)`)，#mi(`C=\left(\frac{l}{2},\frac{\sqrt{3}l}{2},0\right)`).
 
 平面 #mi(`PAB`) 与平面 #mi(`ABC`) 垂直，且三角形 #mi(`PAB`) 在平面 #mi(`PAB`) 内满足 #mi(`\angle APB=90^{\circ}`)、#mi(`\angle PAB=60^{\circ}`)，故
 
-#mi(`AP=\dfrac{l}{2}`)，从而可取 #mi(`P=(\frac{l}{4},0,\frac{\sqrt{3l}}{4})`).
+#mi(`AP=\dfrac{l}{2}`)，从而可取 #mi(`P=(\frac{l}{4},0,\frac{\sqrt{3}l}{4})`).
 
 
 + (1)
@@ -456,7 +474,9 @@ S_{\triangle FAB}=\frac{1}{2}\cdot3\cdot2=3
 
 
 
-[max width=0.42\linewidth]img/2012/sichuan_science/q21_fig1.png
+
+#align(center)[#image("/papers/2012/img/sichuan_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

@@ -180,8 +180,18 @@ z=x+2(-x)=-x
 #problem(8)[
 如图，动点 #mi(`P`) 在正方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 的对角线 #mi(`BD_{1}`) 上. 过点 #mi(`P`) 作垂直于平面 #mi(`BB_{1}D_{1}D`) 的直线，与正方体表面相交于 #mi(`MN`). 设 #mi(`BP = x`)，#mi(`MN = y`)，则函数 #mi(`y = f(x)`) 的图象大致是（ ）
 
-[max width=0.42\linewidth]img/2008/beijing_liberal/q8_fig1.png
-  #choices([[width=0.15\paperwidth]img/2008/beijing_liberal/q8_optA.png], [[width=0.15\paperwidth]img/2008/beijing_liberal/q8_optB.png], [[width=0.15\paperwidth]img/2008/beijing_liberal/q8_optC.png], [[width=0.15\paperwidth]img/2008/beijing_liberal/q8_optD.png], cols: 1)
+
+#align(center)[#image("/papers/2008/img/beijing_liberal/q8_fig1.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2008/img/beijing_liberal/q8_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2008/img/beijing_liberal/q8_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2008/img/beijing_liberal/q8_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2008/img/beijing_liberal/q8_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B.])
@@ -286,7 +296,9 @@ P+s(1,1,0)=(1-t+s,t+s,t)
 #problem(13)[
 如图，函数 #mi(`f(x)`) 的图象是折线段 #mi(`ABC`)，其中 #mi(`A`)，#mi(`B`)，#mi(`C`) 的坐标分别为 #mi(`(0,4)`)，#mi(`(2,0)`)，#mi(`(6,4)`)，则 #mi(`f(f(0)) =`)\underline{\hspace{2.5em}}；函数 #mi(`f(x)`) 在 #mi(`x = 1`) 处的导数 #mi(`f'(1) =`)\underline{\hspace{2.5em}}.
 
-[max width=0.42\linewidth]img/2008/beijing_liberal/q13_fig1.png
+
+#align(center)[#image("/papers/2008/img/beijing_liberal/q13_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`2`)，#mi(`-2`).])
@@ -380,7 +392,9 @@ f'(x)=2x+\sin x
 
 
 
-[max width=0.42\linewidth]img/2008/beijing_liberal/q16_fig1.png
+
+#align(center)[#image("/papers/2008/img/beijing_liberal/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[

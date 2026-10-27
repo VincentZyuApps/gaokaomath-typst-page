@@ -1906,6 +1906,39 @@ onUnmounted(() => {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
+/* @unified-latex 输出的 table.tabular 统一样式 */
+.problem-body :deep(table.tabular),
+.analysis-text :deep(table.tabular),
+table.tabular {
+  border-collapse: collapse !important;
+  margin: 0.8rem auto;
+  font-size: 0.95rem;
+  color: var(--vp-c-text-1);
+}
+
+.problem-body :deep(table.tabular td),
+.problem-body :deep(table.tabular th),
+.analysis-text :deep(table.tabular td),
+.analysis-text :deep(table.tabular th),
+table.tabular td,
+table.tabular th {
+  padding: 6px 14px;
+  vertical-align: middle;
+}
+
+/* 当单元格声明了边框时，统一补齐上下横线并匹配主题边框颜色 */
+.problem-body :deep(table.tabular td[style*="border"]),
+.problem-body :deep(table.tabular th[style*="border"]),
+.analysis-text :deep(table.tabular td[style*="border"]),
+.analysis-text :deep(table.tabular th[style*="border"]),
+table.tabular td[style*="border"],
+table.tabular th[style*="border"] {
+  border-top: 1px solid var(--vp-c-divider, rgba(120, 120, 120, 0.35)) !important;
+  border-bottom: 1px solid var(--vp-c-divider, rgba(120, 120, 120, 0.35)) !important;
+  border-left-color: var(--vp-c-divider, rgba(120, 120, 120, 0.35)) !important;
+  border-right-color: var(--vp-c-divider, rgba(120, 120, 120, 0.35)) !important;
+}
+
 .problem-body :deep(.exam-table th),
 .analysis-text :deep(.exam-table th),
 .exam-table th {

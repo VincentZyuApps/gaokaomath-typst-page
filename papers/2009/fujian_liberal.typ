@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,306 +11,305 @@
 #part-header("单选题")
 
 #problem(1)[
-若集合 $A = \{x | x > 0\}$，$B = \{x | x < 3\}$，则 $A inter B$ 等于（ ）
-  #choices([$\{x | x < 0\}$], [$\{x | 0 < x < 3\}$], [$\{x | x > 3\}$], [$RR$], cols: 2)
+若集合 #mi(`A = \{x \mid x > 0\}`)，#mi(`B = \{x \mid x < 3\}`)，则 #mi(`A \cap B`) 等于（ ）
+  #choices([#mi(`\{x\mid x < 0\}`)], [#mi(`\{x\mid 0 < x < 3\}`)], [#mi(`\{x\mid x > 3\}`)], [#mi(`\mathbb{R}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由集合定义，元素 $x$ 属于 $A inter B$ 当且仅当同时满足 $x>0$ 和 $x<3$，所以 $A inter B=\{x | 0<x<3\}$，故选 B.
+由集合定义，元素 #mi(`x`) 属于 #mi(`A\cap B`) 当且仅当同时满足 #mi(`x>0`) 和 #mi(`x<3`)，所以 #mi(`A\cap B=\{x\mid 0<x<3\}`)，故选 B.
 ]
 
 #problem(2)[
-下列函数中，与函数 $y = (1)/(sqrt(x))$ 有相同定义域的是（ ）
-  #choices([$f(x) = ln x$], [$f(x) = (1)/(x)$], [$f(x) = |x|$], [$f(x) = e ""^(x)$], cols: 2)
+下列函数中，与函数 #mi(`y = \frac{1}{\sqrt{x}}`) 有相同定义域的是（ ）
+  #choices([#mi(`f(x) = \ln x`)], [#mi(`f(x) = \frac{1}{x}`)], [#mi(`f(x) = |x|`)], [#mi(`f(x) = \mathrm{e}^{x}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-函数 $y=(1)/(sqrt(x))$ 有意义必须满足 $x>0$，所以其定义域为 $(0,+ oo )$. 四个选项中，只有 $f(x)= ln x$ 的定义域也是 $(0,+ oo )$，故选 A.
+函数 #mi(`y=\frac{1}{\sqrt{x}}`) 有意义必须满足 #mi(`x>0`)，所以其定义域为 #mi(`(0,+\infty)`). 四个选项中，只有 #mi(`f(x)=\ln x`) 的定义域也是 #mi(`(0,+\infty)`)，故选 A.
 ]
 
 #problem(3)[
-一个容量为 $100$ 的样本，其数据的分组与各组的频数如下表
+一个容量为 #mi(`100`) 的样本，其数据的分组与各组的频数如下表
 
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
-组别 & $(0,10]$ & $(10,20]$ & $(20,30)$ & $(30,40)$ & $(40,50]$ & $(50,60]$ & $(60,70]$ \\
-\hline
-频数 & $12$ & $13$ & $24$ & $15$ & $16$ & $13$ & $7$ \\
-\hline
-\end{tabular}
-\end{center}
 
-则样本数据落在 $(10,40)$ 上的频率为（ ）
-  #choices([$0.13$], [$0.39$], [$0.52$], [$0.64$], cols: 4)
+组别 & #mi(`(0,10]`) & #mi(`(10,20]`) & #mi(`(20,30)`) & #mi(`(30,40)`) & #mi(`(40,50]`) & #mi(`(50,60]`) & #mi(`(60,70]`) \\
+
+\hline
+
+频数 & #mi(`12`) & #mi(`13`) & #mi(`24`) & #mi(`15`) & #mi(`16`) & #mi(`13`) & #mi(`7`) \\
+
+\hline
+
+则样本数据落在 #mi(`(10,40)`) 上的频率为（ ）
+  #choices([#mi(`0.13`)], [#mi(`0.39`)], [#mi(`0.52`)], [#mi(`0.64`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-落入区间 $(10,40)$ 的为 $(10,20]$、$(20,30)$、$(30,40)$ 三组，其频数之和为 $13+24+15=52$，所以所求频率为 $(52)/(100)=0.52$. 故选 C.
+落入区间 #mi(`(10,40)`) 的为 #mi(`(10,20]`)、#mi(`(20,30)`)、#mi(`(30,40)`) 三组，其频数之和为 #mi(`13+24+15=52`)，所以所求频率为 #mi(`\dfrac{52}{100}=0.52`). 故选 C.
 ]
 
 #problem(4)[
-若双曲线 $(x^2)/(a^2)-(y^2)/(3^2)= 1$ （$a > 0$）的离心率为2，则 $a$ 等于（ ）
-  #choices([$2$], [$sqrt(3)$], [$(3)/(2)$], [$1$], cols: 4)
+若双曲线 #mi(`\frac{x^{2}}{a^{2}}-\frac{y^{2}}{3^{2}}= 1`) （#mi(`a > 0`)）的离心率为2，则 #mi(`a`) 等于（ ）
+  #choices([#mi(`2`)], [#mi(`\sqrt{3}`)], [#mi(`\frac{3}{2}`)], [#mi(`1`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-双曲线的实半轴长为 $a$，虚半轴长为 $3$，焦半距满足 $c^2=a^2+3^2=a^2+9$. 由离心率 $e=(c)/(a)=2$，得 $c=2 a$，从而 $4 a^2=a^2+9$，即 $a^2=3$. 因为 $a>0$，所以 $a=sqrt(3)$，故选 B.
+双曲线的实半轴长为 #mi(`a`)，虚半轴长为 #mi(`3`)，焦半距满足 #mi(`c^{2}=a^{2}+3^{2}=a^{2}+9`). 由离心率 #mi(`e=\frac{c}{a}=2`)，得 #mi(`c=2a`)，从而 #mi(`4a^{2}=a^{2}+9`)，即 #mi(`a^{2}=3`). 因为 #mi(`a>0`)，所以 #mi(`a=\sqrt{3}`)，故选 B.
 ]
 
 #problem(5)[
-如图，某几何体的正视图与侧视图都是边长为 1 的正方形，且体积为 $(1)/(2)$. 则该几何体的俯视图可以是（ ）
+如图，某几何体的正视图与侧视图都是边长为 1 的正方形，且体积为 #mi(`\frac{1}{2}`). 则该几何体的俯视图可以是（ ）
 
 
-#align(center)[#image("/papers/2009/img/fujian_liberal/q5_condition.png", width: 88%)]
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/fujian_liberal/q5_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/fujian_liberal/q5_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/fujian_liberal/q5_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/fujian_liberal/q5_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+#align(center)[#image("/papers/2009/img/fujian_liberal/q5_condition.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2009/img/fujian_liberal/q5_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/fujian_liberal/q5_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/fujian_liberal/q5_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/fujian_liberal/q5_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-按四个候选俯视图分别还原为高为 $1$ 的柱体：选项 A 对应立方体，体积为 $1$；选项 B 对应底面直径为 $1$ 的圆柱，体积为 $(pi)/(4)$；选项 C 对应底面直角边长均为 $1$ 的直三棱柱，体积为 $(1)/(2)$；选项 D 对应底面半径为 $1$ 的四分之一圆柱，体积为 $(pi)/(4)$. 这些柱体的正视图和侧视图都可以是边长为 $1$ 的正方形，只有选项 C 的体积符合题设，故选 C.
+按四个候选俯视图分别还原为高为 #mi(`1`) 的柱体：选项 A 对应立方体，体积为 #mi(`1`)；选项 B 对应底面直径为 #mi(`1`) 的圆柱，体积为 #mi(`\frac{\pi}{4}`)；选项 C 对应底面直角边长均为 #mi(`1`) 的直三棱柱，体积为 #mi(`\frac{1}{2}`)；选项 D 对应底面半径为 #mi(`1`) 的四分之一圆柱，体积为 #mi(`\frac{\pi}{4}`). 这些柱体的正视图和侧视图都可以是边长为 #mi(`1`) 的正方形，只有选项 C 的体积符合题设，故选 C.
 ]
 
 #problem(6)[
 阅读如图所示的程序框图，运行相应的程序，输出的结果是（ ）
 
 
-#align(center)[#image("/papers/2009/img/fujian_liberal/q6_fig1.png", width: 32%)]
-  #choices([$1$], [$2$], [$3$], [$4$], cols: 4)
+#align(center)[#image("/papers/2009/img/fujian_liberal/q6_fig1.png", width: 28%)]
+
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`3`)], [#mi(`4`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-程序开始时 $S=2$，$n=1$. 第一次循环后 $S=(1)/(1-2)=-1$，$n=2$；第二次循环后 $S=(1)/(1-(-1))=(1)/(2)$，$n=3$；第三次循环后 $S=(1)/(1-(1)/(2))=2$，$n=4$. 此时满足判断条件 $S=2$，程序输出 $n=4$，故选 D.
+程序开始时 #mi(`S=2`)，#mi(`n=1`). 第一次循环后 #mi(`S=\frac{1}{1-2}=-1`)，#mi(`n=2`)；第二次循环后 #mi(`S=\frac{1}{1-(-1)}=\frac{1}{2}`)，#mi(`n=3`)；第三次循环后 #mi(`S=\frac{1}{1-\frac{1}{2}}=2`)，#mi(`n=4`). 此时满足判断条件 #mi(`S=2`)，程序输出 #mi(`n=4`)，故选 D.
 ]
 
 #problem(7)[
-已知锐角 $triangle A B C$ 的面积为 $3 sqrt(3)$，$B C = 4$，$C A = 3$，则角 $C$ 的大小为（ ）
-  #choices([$75^( degree )$], [$60^( degree )$], [$45^( degree )$], [$30^( degree )$], cols: 4)
+已知锐角 #mi(`\triangle ABC`) 的面积为 #mi(`3\sqrt{3}`)，#mi(`BC = 4`)，#mi(`CA = 3`)，则角 #mi(`C`) 的大小为（ ）
+  #choices([#mi(`75^{\circ}`)], [#mi(`60^{\circ}`)], [#mi(`45^{\circ}`)], [#mi(`30^{\circ}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由三角形面积公式，$[A B C]=(1)/(2)B C dot C A sin C$，所以 $3 sqrt(3)=(1)/(2) times 4 times 3 sin C=6 sin C$，从而 $sin C=(sqrt(3))/(2)$. 由于三角形 $A B C$ 是锐角三角形，故 $C=60^( degree )$，选 B.
+由三角形面积公式，#mi(`[ABC]=\frac{1}{2}BC\cdot CA\sin C`)，所以 #mi(`3\sqrt{3}=\frac{1}{2}\times4\times3\sin C=6\sin C`)，从而 #mi(`\sin C=\frac{\sqrt{3}}{2}`). 由于三角形 #mi(`ABC`) 是锐角三角形，故 #mi(`C=60^{\circ}`)，选 B.
 ]
 
 #problem(8)[
-定义在 $RR$ 上的偶函数 $f(x)$ 的部分图象如图所示，则在 $(-2,0)$ 上，下列函数中与 $f(x)$ 的单调性不同的是（ ）
+定义在 #mi(`\mathbb{R}`) 上的偶函数 #mi(`f(x)`) 的部分图象如图所示，则在 #mi(`(-2,0)`) 上，下列函数中与 #mi(`f(x)`) 的单调性不同的是（ ）
 
 
-#align(center)[#image("/papers/2009/img/fujian_liberal/q8_fig1.png", width: 34%)]
+#align(center)[#image("/papers/2009/img/fujian_liberal/q8_fig1.png", width: 28%)]
 
 
-    {$y = \b e g i n{c a s e s} e ""^x, & x >= 0 ,\\ e ""^(-x), & x < 0. \e n d{c a s e s}$}
-  #choices([$y = x^(2) + 1$], [$y = |x| + 1$], [\( y = \begin{cases], [cases} \)], cols: 2)
+\endcases \)}
+
+#mi(`y = \begin{cases}\mathrm{e}^{x},&x \ge 0,\\  \mathrm{e}^{-x},&x < 0.\end{cases}`)
 ]
 
 #answer([C])
 
 #solution[
-由图可知，$f(x)$ 在 $[0,2)$ 上单调递增. 又因为 $f$ 是偶函数，在 $(-2,0)$ 上有 $f(x)=f(|x|)=f(-x)$，而 $-x$ 随 $x$ 增大而减小，所以 $f(x)$ 在 $(-2,0)$ 上单调递减. 选项 A 中 $y=x^2+1$ 在该区间上的导数 $2 x<0$，选项 B 中 $y=|x|+1=-x+1$ 单调递减，选项 C 在该区间上为 $y=x^3+1$，导数 $3 x^2>0$，单调递增，选项 D 在该区间上为 $y= e ""^(-x)$，导数 $- e ""^(-x)<0$，单调递减. 因此单调性不同的是 C.
+由图可知，#mi(`f(x)`) 在 #mi(`[0,2)`) 上单调递增. 又因为 #mi(`f`) 是偶函数，在 #mi(`(-2,0)`) 上有 #mi(`f(x)=f(|x|)=f(-x)`)，而 #mi(`-x`) 随 #mi(`x`) 增大而减小，所以 #mi(`f(x)`) 在 #mi(`(-2,0)`) 上单调递减. 选项 A 中 #mi(`y=x^{2}+1`) 在该区间上的导数 #mi(`2x<0`)，选项 B 中 #mi(`y=|x|+1=-x+1`) 单调递减，选项 C 在该区间上为 #mi(`y=x^{3}+1`)，导数 #mi(`3x^{2}>0`)，单调递增，选项 D 在该区间上为 #mi(`y=\mathrm{e}^{-x}`)，导数 #mi(`-\mathrm{e}^{-x}<0`)，单调递减. 因此单调性不同的是 C.
 ]
 
 #problem(9)[
-在平面直角坐标系中，若不等式组 $\b e g i n{c a s e s} x+y-1& >= 0 ,\\ x-1& <= 0 ,\\ a x-y+1& >= 0 , \e n d{c a s e s}$（$a$ 为常数）所表示的平面区域的面积等于 $2$，则 $a$ 的值为（ ）
-  #choices([$-5$], [$1$], [$2$], [$3$], cols: 4)
+在平面直角坐标系中，若不等式组 #mi(`\begin{cases}x+y-1&\geqslant0,\\  x-1&\leqslant0,\\  ax-y+1&\geqslant0,\end{cases}`)（#mi(`a`) 为常数）所表示的平面区域的面积等于 #mi(`2`)，则 #mi(`a`) 的值为（ ）
+  #choices([#mi(`-5`)], [#mi(`1`)], [#mi(`2`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-前两条不等式给出 $y >= 1 -x$ 和 $x <= 1$，第三条给出 $y <= a x+1$. 要使区域有有限的正面积，必须有 $a>-1$. 此时两条斜边 $y=1-x$ 与 $y=a x+1$ 的交点为 $(0,1)$，它们分别与 $x=1$ 交于 $(1,0)$ 和 $(1,a+1)$，所以区域的横坐标范围为 $0 <= x <= 1$. 在横坐标为 $x$ 处，区域的纵向长度为 $(a x+1)-(1-x)=(a+1)x$，所以面积为 $\i n t_0^1(a+1)x d x=(a+1)/(2)$. 由题意 $(a+1)/(2)=2$，得 $a=3$. 当 $a=-1$ 时区域退化，当 $a<-1$ 时区域向左无界，均不符合面积为 $2$，故选 D.
+前两条不等式给出 #mi(`y\geqslant1-x`) 和 #mi(`x\leqslant1`)，第三条给出 #mi(`y\le ax+1`). 要使区域有有限的正面积，必须有 #mi(`a>-1`). 此时两条斜边 #mi(`y=1-x`) 与 #mi(`y=ax+1`) 的交点为 #mi(`(0,1)`)，它们分别与 #mi(`x=1`) 交于 #mi(`(1,0)`) 和 #mi(`(1,a+1)`)，所以区域的横坐标范围为 #mi(`0\le x\leqslant1`). 在横坐标为 #mi(`x`) 处，区域的纵向长度为 #mi(`(ax+1)-(1-x)=(a+1)x`)，所以面积为 #mi(`\int_{0}^{1}(a+1)x\,\mathrm{d}x=\frac{a+1}{2}`). 由题意 #mi(`\frac{a+1}{2}=2`)，得 #mi(`a=3`). 当 #mi(`a=-1`) 时区域退化，当 #mi(`a<-1`) 时区域向左无界，均不符合面积为 #mi(`2`)，故选 D.
 ]
 
 #problem(10)[
-设 $m$，$n$ 是平面 $alpha$ 内的两条不同直线，$l_(1)$，$l_(2)$ 是平面 $beta$ 内的两条相交直线，则 $alpha parallel beta$ 的一个充分而不必要条件是（ ）
-  #choices([$m parallel beta$ 且 $l_(1) parallel alpha$], [$m parallel l_(1)$ 且 $n parallel l_(2)$], [$m parallel beta$ 且 $n parallel beta$], [$m parallel beta$ 且 $n parallel l_(2)$], cols: 1)
+设 #mi(`m`)，#mi(`n`) 是平面 #mi(`\alpha`) 内的两条不同直线，#mi(`l_{1}`)，#mi(`l_{2}`) 是平面 #mi(`\beta`) 内的两条相交直线，则 #mi(`\alpha \parallel \beta`) 的一个充分而不必要条件是（ ）
+  #choices([#mi(`m \parallel \beta`) 且 #mi(`l_{1}\parallel \alpha`)], [#mi(`m \parallel l_{1}`) 且 #mi(`n \parallel l_{2}`)], [#mi(`m \parallel \beta`) 且 #mi(`n \parallel \beta`)], [#mi(`m \parallel \beta`) 且 #mi(`n \parallel l_{2}`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-选项 B 中，$m parallel l_1$，$n parallel l_2$. 因为 $l_1$ 与 $l_2$ 相交，所以它们不平行，从而 $m$ 与 $n$ 也不平行；因此 $m$，$n$ 的方向可以确定平面 $alpha$. 同理，$l_1$，$l_2$ 的方向可以确定平面 $beta$. 两平面中分别有两条相交直线，且对应直线互相平行，所以两平面平行，即 $alpha parallel beta$. 但平面平行并不要求所取的 $m$，$n$ 必须分别平行于指定的 $l_1$，$l_2$，例如在 $alpha parallel beta$ 时另取一条不平行于 $l_1$ 的 $m$，条件 B 就不成立，故该条件不是必要条件，选 B.
+选项 B 中，#mi(`m\parallel l_{1}`)，#mi(`n\parallel l_{2}`). 因为 #mi(`l_{1}`) 与 #mi(`l_{2}`) 相交，所以它们不平行，从而 #mi(`m`) 与 #mi(`n`) 也不平行；因此 #mi(`m`)，#mi(`n`) 的方向可以确定平面 #mi(`\alpha`). 同理，#mi(`l_{1}`)，#mi(`l_{2}`) 的方向可以确定平面 #mi(`\beta`). 两平面中分别有两条相交直线，且对应直线互相平行，所以两平面平行，即 #mi(`\alpha\parallel\beta`). 但平面平行并不要求所取的 #mi(`m`)，#mi(`n`) 必须分别平行于指定的 #mi(`l_{1}`)，#mi(`l_{2}`)，例如在 #mi(`\alpha\parallel\beta`) 时另取一条不平行于 #mi(`l_{1}`) 的 #mi(`m`)，条件 B 就不成立，故该条件不是必要条件，选 B.
 ]
 
 #problem(11)[
-函数 $f(x)$ 的零点与 $g(x) = 4^x + 2 x - 2$ 的零点之差的绝对值不超过 $0.25$，则 $f(x)$ 可以是（ ）
-  #choices([$f(x) = 4 x - 1$], [$f(x) = (x - 1)^(2)$], [$f(x) = e ""^(x) - 1$], [$f(x) = ln (x - (1)/(2))$], cols: 2)
+函数 #mi(`f(x)`) 的零点与 #mi(`g(x) = 4^{x} + 2x - 2`) 的零点之差的绝对值不超过 #mi(`0.25`)，则 #mi(`f(x)`) 可以是（ ）
+  #choices([#mi(`f(x) = 4x - 1`)], [#mi(`f(x) = (x - 1)^{2}`)], [#mi(`f(x) = \mathrm{e}^{x}- 1`)], [#mi(`f(x) = \ln \left(x - \frac{1}{2}\right)`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-令 $g(x)=4^x+2 x-2$. 因为 $g'(x)=4^x ln 4 +2>0$，所以 $g$ 只有一个零点，记为 $xi$. 又 $g((1)/(4))=sqrt(2)-(3)/(2)<0$，且 $g((1)/(3))=root(3, 4)-(4)/(3)>0$，其中 $sqrt(2)<(3)/(2)$，$4>((4)/(3))^3$，所以 $(1)/(4)< xi <(1)/(3)$.
+令 #mi(`g(x)=4^{x}+2x-2`). 因为 #mi(`g'(x)=4^{x}\ln4+2>0`)，所以 #mi(`g`) 只有一个零点，记为 #mi(`\xi`). 又 #mi(`g\left(\frac{1}{4}\right)=\sqrt{2}-\frac{3}{2}<0`)，且 #mi(`g\left(\frac{1}{3}\right)=\sqrt[3]{4}-\frac{4}{3}>0`)，其中 #mi(`\sqrt{2}<\frac{3}{2}`)，#mi(`4>\left(\frac{4}{3}\right)^{3}`)，所以 #mi(`\frac{1}{4}<\xi<\frac{1}{3}`).
 
-选项 A 的零点为 $(1)/(4)$，且 $| xi -(1)/(4)|<(1)/(12)<(1)/(4)$. 选项 B 的零点为 $1$，与 $xi$ 的距离大于 $(2)/(3)$；选项 C 的零点为 $0$，且 $xi >(1)/(4)$；选项 D 的零点为 $(3)/(2)$，与 $xi$ 的距离也大于 $(1)/(4)$. 因此只有 A 满足条件，故选 A.
+选项 A 的零点为 #mi(`\frac{1}{4}`)，且 #mi(`\left|\xi-\frac{1}{4}\right|<\frac{1}{12}<\frac{1}{4}`). 选项 B 的零点为 #mi(`1`)，与 #mi(`\xi`) 的距离大于 #mi(`\frac{2}{3}`)；选项 C 的零点为 #mi(`0`)，且 #mi(`\xi>\frac{1}{4}`)；选项 D 的零点为 #mi(`\frac{3}{2}`)，与 #mi(`\xi`) 的距离也大于 #mi(`\frac{1}{4}`). 因此只有 A 满足条件，故选 A.
 ]
 
 #problem(12)[
-设 $bold(a)$，$bold(b)$，$bold(c)$ 为同一平面内具有相同起点的任意三个非零向量，且满足 $bold(a)$ 与 $bold(b)$ 不共线，$bold(a) bot bold(c)$，$|bold(a)| = |bold(c)|$，则 $|bold(b) dot bold(c)|$ 的值一定等于（ ）
-  #choices([以 $bold(a)$，$bold(b)$ 为邻边的平行四边形的面积], [以 $bold(b)$，$bold(c)$ 为邻边的平行四边形的面积], [以 $bold(a)$，$bold(b)$ 为两边的三角形面积], [以 $bold(b)$，$bold(c)$ 为两边的三角形面积], cols: 1)
+设 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`)，#mi(`\mathbf{c}`) 为同一平面内具有相同起点的任意三个非零向量，且满足 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 不共线，#mi(`\mathbf{a}\perp \mathbf{c}`)，#mi(`|\mathbf{a}| = |\mathbf{c}|`)，则 #mi(`|\mathbf{b}\cdot \mathbf{c}|`) 的值一定等于（ ）
+  #choices([以 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 为邻边的平行四边形的面积], [以 #mi(`\mathbf{b}`)，#mi(`\mathbf{c}`) 为邻边的平行四边形的面积], [以 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 为两边的三角形面积], [以 #mi(`\mathbf{b}`)，#mi(`\mathbf{c}`) 为两边的三角形面积], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-设 $bold(a)$ 与 $bold(b)$ 的夹角为 $theta$. 因为 $bold(a)\p e r p b o l d(c)$ 且 $|bold(a)|=|bold(c)|$，在同一平面内有 $| cos angle (bold(b),bold(c))|=| sin theta |$. 因而 $|bold(b)\c d o t b o l d(c)|=|bold(b)| |bold(c)|| cos angle (bold(b),bold(c))|=|bold(b)| |bold(a)| | sin theta |$，这正是以 $bold(a)$，$bold(b)$ 为邻边的平行四边形面积，故选 A.
+设 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角为 #mi(`\theta`). 因为 #mi(`\mathbf{a}\perp\mathbf{c}`) 且 #mi(`|\mathbf{a}|=|\mathbf{c}|`)，在同一平面内有 #mi(`\left|\cos\angle(\mathbf{b},\mathbf{c})\right|=|\sin\theta|`). 因而 #mi(`|\mathbf{b}\cdot\mathbf{c}|=|\mathbf{b}|\,|\mathbf{c}|\left|\cos\angle(\mathbf{b},\mathbf{c})\right|=|\mathbf{b}|\,|\mathbf{a}|\,|\sin\theta|`)，这正是以 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 为邻边的平行四边形面积，故选 A.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-复数 $i ""^2 (1 + i )$ 的实部是#blank(){}.
+复数 #mi(`\mathrm{i}^{2} (1 + \mathrm{i})`) 的实部是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-1$])
+#answer([#mi(`-1`)])
 
 #solution[
-因为 $i ""^2=-1$，所以 $i ""^2(1+ i )=-(1+ i )=-1- i$，其实部为 $-1$.
+因为 #mi(`\mathrm{i}^{2}=-1`)，所以 #mi(`\mathrm{i}^{2}(1+\mathrm{i})=-(1+\mathrm{i})=-1-\mathrm{i}`)，其实部为 #mi(`-1`).
 ]
 
 #problem(14)[
-点 $A$ 为周长等于 $3$ 的圆周上的一个定点. 若在该圆周上随机取一点 $B$，则劣弧 $\w i d e h a t{A B}$ 的长度小于 $1$ 的概率为#blank(){}.
+点 #mi(`A`) 为周长等于 #mi(`3`) 的圆周上的一个定点. 若在该圆周上随机取一点 #mi(`B`)，则劣弧 #mi(`\widehat{AB}`) 的长度小于 #mi(`1`) 的概率为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(2)/(3)$])
+#answer([#mi(`\frac{2}{3}`)])
 
 #solution[
-从点 $A$ 出发，沿圆周向两个方向各取长度为 $1$ 的弧，所得两段弧上的点都满足劣弧 $\w i d e h a t{A B}$ 的长度小于 $1$. 因为圆周长为 $3$，且 $1<(3)/(2)$，这两段弧不重叠，端点是否取到不影响概率，所以有利弧长为 $2$. 因此所求概率为 $(2)/(3)$.
+从点 #mi(`A`) 出发，沿圆周向两个方向各取长度为 #mi(`1`) 的弧，所得两段弧上的点都满足劣弧 #mi(`\widehat{AB}`) 的长度小于 #mi(`1`). 因为圆周长为 #mi(`3`)，且 #mi(`1<\frac{3}{2}`)，这两段弧不重叠，端点是否取到不影响概率，所以有利弧长为 #mi(`2`). 因此所求概率为 #mi(`\frac{2}{3}`).
 ]
 
 #problem(15)[
-若曲线 $f(x) = a x^2 + ln x$ 存在垂直于 $y$ 轴的切线，则实数 $a$ 的取值范围是#blank(){}.
+若曲线 #mi(`f(x) = a x^{2} + \ln x`) 存在垂直于 #mi(`y`) 轴的切线，则实数 #mi(`a`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(- oo ,0)$])
+#answer([#mi(`(-\infty,0)`)])
 
 #solution[
-曲线的定义域为 $x>0$，切线垂直于 $y$ 轴即切线水平，因此需要存在 $x>0$ 使 $f'(x)=0$. 由 $f'(x)=2 a x+(1)/(x)$，得 $2 a x^2+1=0$. 当且仅当 $a<0$ 时，该方程有正根 $x=(1)/(sqrt(-2 a))$，所以 $a$ 的取值范围为 $(- oo ,0)$.
+曲线的定义域为 #mi(`x>0`)，切线垂直于 #mi(`y`) 轴即切线水平，因此需要存在 #mi(`x>0`) 使 #mi(`f'(x)=0`). 由 #mi(`f'(x)=2ax+\frac{1}{x}`)，得 #mi(`2ax^{2}+1=0`). 当且仅当 #mi(`a<0`) 时，该方程有正根 #mi(`x=\frac{1}{\sqrt{-2a}}`)，所以 #mi(`a`) 的取值范围为 #mi(`(-\infty,0)`).
 ]
 
 #problem(16)[
 五位同学围成一圈依次循环报数，规定：
 
-\begin{circlelist}
-\item 第一位同学首次报出的数为 $1$，第二位同学首次报出的数也为 $1$，之后每位同学所报出的数都是前两位同学所报出的数之和.
-\item 若报出的数为 $3$ 的倍数，则报该次的同学需拍手一次.
-\end{circlelist}
 
-当第 $30$ 个数被报出时，五位同学拍手的总次数为#blank(){}.
++ (1) 第一位同学首次报出的数为 #mi(`1`)，第二位同学首次报出的数也为 #mi(`1`)，之后每位同学所报出的数都是前两位同学所报出的数之和.
++ (2) 若报出的数为 #mi(`3`) 的倍数，则报该次的同学需拍手一次.
+
+
+
+当第 #mi(`30`) 个数被报出时，五位同学拍手的总次数为\underline{\hspace{2.5em}}.
 ]
 
 #answer([7])
 
 #solution[
-记所报数列为 $u_1$，$u_2$，$\l d o t s$，则 $u_1=u_2=1$，且 $u_n=u_(n-1)+u_(n-2)$. 对 $3$ 取模，前八项依次为 $1$，$1$，$2$，$0$，$2$，$2$，$1$，$0$，并且第九、十项又依次为 $1,1$，所以由递推关系可知此后每八项重复这一周期. 因此每八个数中有两个 $3$ 的倍数，分别对应周期中的第 $4$ 个和第 $8$ 个数. 前 $30$ 个数中有三个完整周期和余下六项，所以拍手次数为 $3 times 2 +1=7$.
+记所报数列为 #mi(`u_{1}`)，#mi(`u_{2}`)，#mi(`\ldots`)，则 #mi(`u_{1}=u_{2}=1`)，且 #mi(`u_{n}=u_{n-1}+u_{n-2}`). 对 #mi(`3`) 取模，前八项依次为 #mi(`1`)，#mi(`1`)，#mi(`2`)，#mi(`0`)，#mi(`2`)，#mi(`2`)，#mi(`1`)，#mi(`0`)，并且第九、十项又依次为 #mi(`1,1`)，所以由递推关系可知此后每八项重复这一周期. 因此每八个数中有两个 #mi(`3`) 的倍数，分别对应周期中的第 #mi(`4`) 个和第 #mi(`8`) 个数. 前 #mi(`30`) 个数中有三个完整周期和余下六项，所以拍手次数为 #mi(`3\times2+1=7`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-等比数列 $\{a_(n)\}$ 中，已知 $a_(1) = 2$，$a_(4) = 16$.
+等比数列 #mi(`\{a_{n}\}`) 中，已知 #mi(`a_{1}= 2`)，#mi(`a_{4}= 16`).
 
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 若 $a_(3)$，$a_(5)$ 分别为等差数列 $\{b_(n)\}$ 的第 3 项和第 5 项，试求数列 $\{b_(n)\}$ 的通项公式及前 $n$ 项和 $S_(n)$.
++ (1)
 ]
 
 #solution[
-+ (1) 设等比数列 $\{a_n\}$ 的公比为 $q$. 由 $a_4=a_(1) q^3$ 得 $2 q^3=16$，所以 $q=2$，从而数列的通项公式为 $a_n=2 dot 2 ""^(n-1)=2^n$.
-+ (2) 由（1）得 $a_3=8$，$a_5=32$. 设等差数列 $\{b_n\}$ 的公差为 $d$，则 $b_3=8$，$b_5=32$，所以 $2 d=b_5-b_3=24$，即 $d=12$，进而 $b_1=b_3-2 d=8-24=-16$. 因此 $b_n=b_1+(n-1)d=-16+12(n-1)=12 n-28$，前 $n$ 项和为 $S_n=(n)/(2)(2 b_1+(n-1)d)=(n)/(2)(-32+12 n-12)=2 n(3 n-11)$.
++ (1)
 ]
 
 #problem(18)[
-袋中有大小、形状相同的红、黑球各一个，现一次有放回地随机摸取 $3$ 次，每次摸取一个球.
+袋中有大小、形状相同的红、黑球各一个，现一次有放回地随机摸取 #mi(`3`) 次，每次摸取一个球.
 
 
-+ (1) 试问：一共有多少种不同的结果？ 请列出所有可能的结果；
-+ (2) 若摸到红球时得 $2$ 分，摸到黑球时得 $1$ 分，求 $3$ 次摸球所得总分为 $5$ 的概率.
++ (1)
 ]
 
 #solution[
-+ (1) 每次摸球后都放回，且每次都有红、黑两种结果，所以按三次摸球的先后顺序记录时，共有 $2^3=8$ 种不同结果，分别为（红，红，红）、（红，红，黑）、（红，黑，红）、（黑，红，红）、（红，黑，黑）、（黑，红，黑）、（黑，黑，红）、（黑，黑，黑）.
-+ (2) 设三次摸球中摸到红球的次数为 $r$，则总分为 $2 r+(3-r)=r+3$. 当总分为 $5$ 时，$r=2$，故有利结果为（红，红，黑）、（红，黑，红）、（黑，红，红），共 $3$ 种. 八种结果等可能，因此所求概率为 $(3)/(8)$.
++ (1)
 ]
 
 #problem(19)[
-已知函数 $f(x) = sin ( omega x + phi.alt )$，其中 $omega > 0$，$| phi.alt | < (pi)/(2)$.
+已知函数 #mi(`f(x) = \sin (\omega x + \varphi)`)，其中 #mi(`\omega > 0`)，#mi(`|\varphi| < \frac{\pi}{2}`).
 
 
-+ (1) 若 $cos (pi)/(4) cos phi.alt - sin (3 pi)/(4) sin phi.alt =0$，求 $phi.alt$ 的值；
-+ (2) 在上一小问的条件下，若函数 $f(x)$ 的图象的相邻两条对称轴之间的距离等于 $(pi)/(3)$，求函数 $f(x)$ 的解析式；并求最小正实数 $m$，使得函数 $f(x)$ 的图象左平移 $m$ 个单位所对应的函数是偶函数.
++ (1)
 ]
 
 #solution[
-+ (1) 由题设，$cos (pi)/(4)= sin (3 pi)/(4)=(sqrt(2))/(2)$，所以原等式化为 $(sqrt(2))/(2)( cos phi.alt - sin phi.alt )=0$，即 $tan phi.alt =1$. 又因为 $| phi.alt |<(pi)/(2)$，故 $phi.alt =(pi)/(4)$.
-+ (2) 正弦函数图象相邻两条对称轴之间的距离为半个周期，即 $(pi)/(omega)$. 由 $(pi)/(omega)=(pi)/(3)$ 得 $omega =3$，所以 $f(x)= sin (3 x+(pi)/(4))$. 左平移 $m$ 个单位后，对应函数为 $g(x)=f(x+m)= sin (3 x+3 m+(pi)/(4))$. 将其展开为 $g(x)= sin (3 m+(pi)/(4)) cos 3 x+ cos (3 m+(pi)/(4)) sin 3 x$. 因为 $cos 3 x$ 是偶函数而 $sin 3 x$ 是奇函数，所以必须有 $cos (3 m+(pi)/(4))=0$，即 $3 m+(pi)/(4)=(pi)/(2)+k pi$，其中 $k in ZZ$. 因而 $m=(pi)/(12)+(k pi)/(3)$. 满足 $m>0$ 的最小值为 $m=(pi)/(12)$.
++ (1)
 ]
 
 #problem(20)[
-如图，平行四边形 $A B C D$ 中，$angle D A B = 60^( degree )$，$A B = 2$，$A D = 4$. 将 $triangle C B D$ 沿 $B D$ 折起到 $triangle E B D$ 的位置，使平面 $E D B bot$ 平面 $A B D$.
+如图，平行四边形 #mi(`ABCD`) 中，#mi(`\angle DAB = 60^{\circ}`)，#mi(`AB = 2`)，#mi(`AD = 4`). 将 #mi(`\triangle CBD`) 沿 #mi(`BD`) 折起到 #mi(`\triangle EBD`) 的位置，使平面 #mi(`EDB \perp`) 平面 #mi(`ABD`).
 
 
-+ (1) 求证：$A B bot D E$；
-+ (2) 求三棱锥 $E-A B D$ 的侧面积.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2009/img/fujian_liberal/q20_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2009/img/fujian_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由平行四边形得 $C D parallel A B$，又 $arrow(B D)=arrow(A D)-arrow(A B)$. 因此 $arrow(A B)\c d o t a r r o w(B D)=arrow(A B)\c d o t a r r o w(A D)-|arrow(A B)|^2=2 times 4 cos 60 ""^( degree )-2^2=0$，从而 $A B bot B D$，并且 $C D bot B D$. 折叠不改变三角形的边长，所以 $E D=C D=A B=2$，$E B=C B=A D=4$. 在原平面内，$B D^2=A B^2+A D^2-2 A B dot A D cos 60 ""^( degree )=12$，于是 $E D^2+B D^2=4+12=16=E B^2$，故 $E D bot B D$. 因为平面 $E D B bot$ 平面 $A B D$，且两平面的交线为 $B D$，所以 $E D bot$ 平面 $A B D$，从而 $A B bot D E$.
-+ (2) 由 $A B bot B D$ 且两平面互相垂直，得 $A B bot$ 平面 $E D B$，所以 $A B bot E B$. 三棱锥的三个侧面面积分别为 $[E A B]=(1)/(2)A B dot E B=4$，$[E A D]=(1)/(2)A D dot E D=4$，$[E B D]=(1)/(2)B D dot E D=(1)/(2) times 2 sqrt(3) times 2 =2 sqrt(3)$. 因此三棱锥 $E-A B D$ 的侧面积为 $4+4+2 sqrt(3)=8+2 sqrt(3)$.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = (1)/(3)x^3 + a x^2 + b x$，且 $f'(-1) = 0$.
+已知函数 #mi(`f(x) = \frac{1}{3}x^{3} + ax^{2} + bx`)，且 #mi(`f'(-1) = 0`).
 
 
-+ (1) 试用含 $a$ 的代数式表示 $b$；
-+ (2) 求 $f(x)$ 的单调区间；
-+ (3) 令 $a = -1$，设函数 $f(x)$ 在 $x_(1)$，$x_(2)$（$x_(1) < x_(2)$）处取得极值，记点 $M(x_(1), f(x_(1)))$，$N(x_(2), f(x_(2)))$. 证明：线段 $M N$ 与曲线 $f(x)$ 存在异于 $M$，$N$ 的公共点.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 由 $f'(x)=x^2+2 a x+b$ 及 $f'(-1)=0$，得 $1-2 a+b=0$，所以 $b=2 a-1$.
-+ (2) 代入上式，得 $f'(x)=x^2+2 a x+2 a-1=(x+1)(x+2 a-1)$，其两个零点为 $-1$ 和 $1-2 a$. 当 $a<1$ 时，$-1<1-2 a$，故 $f(x)$ 在 $(- oo ,-1)$ 和 $(1-2 a,+ oo )$ 上单调递增，在 $(-1,1-2 a)$ 上单调递减；当 $a=1$ 时，$f'(x)=(x+1)^2 >= 0$，故 $f(x)$ 在 $RR$ 上单调递增；当 $a>1$ 时，$1-2 a<-1$，故 $f(x)$ 在 $(- oo ,1-2 a)$ 和 $(-1,+ oo )$ 上单调递增，在 $(1-2 a,-1)$ 上单调递减.
-+ (3) 当 $a=-1$ 时，由（1）得 $b=-3$，于是 $f(x)=(1)/(3)x^3-x^2-3 x$，且 $f'(x)=(x+1)(x-3)$. 因此 $x_1=-1$，$x_2=3$，并且 $M(-1,(5)/(3))$，$N(3,-9)$. 直线 $M N$ 的斜率为 $(-9-(5)/(3))/(3-(-1))=-(8)/(3)$，所以其方程为 $y=-(8)/(3)x-1$. 联立曲线方程与直线方程，得 $(1)/(3)x^3-x^2-3 x=-(8)/(3)x-1$，即 $x^3-3 x^2-x+3=(x+1)(x-1)(x-3)=0$. 除去对应 $M$，$N$ 的根 $-1$，$3$，还得到 $x=1$，且 $1 in (-1,3)$，所以曲线与线段 $M N$ 的公共点 $(1,-(11)/(3))$ 异于 $M$，$N$.
++ (1) 
++ (2)
 ]
 
 #problem(22)[
-已知直线 $x - 2 y + 2 = 0$ 经过椭圆 $C: (x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > b > 0$）的左顶点 $A$ 和上顶点 $D$，椭圆 $C$ 的右顶点为 $B$，点 $S$ 是椭圆 $C$ 上位于 $x$ 轴上方的动点，直线 $A S$，$B S$ 与直线 $l: x = (10)/(3)$ 分别交于 $M$，$N$ 两点.
+已知直线 #mi(`x - 2y + 2 = 0`) 经过椭圆 #mi(`C: \frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)）的左顶点 #mi(`A`) 和上顶点 #mi(`D`)，椭圆 #mi(`C`) 的右顶点为 #mi(`B`)，点 #mi(`S`) 是椭圆 #mi(`C`) 上位于 #mi(`x`) 轴上方的动点，直线 #mi(`AS`)，#mi(`BS`) 与直线 #mi(`l: x = \frac{10}{3}`) 分别交于 #mi(`M`)，#mi(`N`) 两点.
 
 
-+ (1) 求椭圆 $C$ 的方程；
-+ (2) 求线段 $M N$ 的长度的最小值；
-+ (3) 当线段 $M N$ 的长度最小时，在椭圆 $C$ 上是否存在这样的点 $T$，使得 $triangle T S B$ 的面积为 $(1)/(5)$？ 若存在，确定点 $T$ 的个数. 若不存在，说明理由.
++ (1) 
++ (2) 
 
 
 
 
-#align(center)[#image("/papers/2009/img/fujian_liberal/q22_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2009/img/fujian_liberal/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 左顶点为 $A(-a,0)$，上顶点为 $D(0,b)$. 因为这两个点都在直线 $x-2 y+2=0$ 上，代入 $A$ 得 $-a+2=0$，所以 $a=2$；代入 $D$ 得 $-2 b+2=0$，所以 $b=1$. 因此椭圆 $C$ 的方程为 $(x^2)/(4)+y^2=1$，且 $A(-2,0)$，$B(2,0)$.
-+ (2) 设 $S(x,y)$，则 $-2<x<2$，$y>0$，且 $x^2+4 y^2=4$. 直线 $A S$ 与 $x=(10)/(3)$ 的交点纵坐标为 $(16 y)/(3(x+2))$，直线 $B S$ 与该直线的交点纵坐标为 $(4 y)/(3(x-2))$. 由于 $x-2<0$，前者大于后者，所以 $M N=(16 y)/(3(x+2))-(4 y)/(3(x-2))=(4 y(10-3 x))/(3(4-x^2))=(10-3 x)/(3 y)$.
-
-令 $x=2 cos theta$，$y= sin theta$，其中 $0< theta < pi$. 则 $M N=(2)/(3) dot (5-3 cos theta)/(sin theta)$. 记 $h( theta )=(5-3 cos theta)/(sin theta)$，则 $h'( theta )=(3-5 cos theta)/(sin ""^2 theta)$. 当 $cos theta <(3)/(5)$ 时，$h'( theta )>0$；当 $cos theta >(3)/(5)$ 时，$h'( theta )<0$. 因此当 $cos theta =(3)/(5)$，即 $sin theta =(4)/(5)$ 时，$M N$ 取得最小值，此时 $S((6)/(5),(4)/(5))$，且 $M N_( min )=(10-3 times (6)/(5))/(3 times (4)/(5))=(8)/(3)$.
-+ (3) 在上述最小情形下，设椭圆上的点 $T(u,v)$. 由 $B(2,0)$，$S((6)/(5),(4)/(5))$，得 $[ triangle T S B]=(1)/(2)|(-(4)/(5))v-(4)/(5)(u-2)|=(2)/(5)|2-u-v|$. 令其等于 $(1)/(5)$，得到 $u+v=(3)/(2)$ 或 $u+v=(5)/(2)$.
-
-对椭圆上任意点，令 $u=2 cos t$，$v= sin t$，则 $u+v=2 cos t+ sin t\l e q s l a n t s q r t(5)<(5)/(2)$，所以直线 $u+v=(5)/(2)$ 与椭圆没有公共点. 对直线 $u+v=(3)/(2)$，代入椭圆方程得 $(u^2)/(4)+((3)/(2)-u)^2=1$，即 $5 u^2-12 u+5=0$，从而 $u=(6\p m s q r t(11))/(5)$，对应 $v=(3 -+ 2 sqrt(11))/(10)$. 这给出椭圆上的两个不同点，因此存在这样的点 $T$，共有 $2$ 个.
++ (1) 
++ (2)
 ]
 

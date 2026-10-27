@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,46 +11,62 @@
 #part-header("单选题")
 
 #problem(1)[
-若集合 $M = \{x | (x + 4)(x + 1) = 0\}$，$N = \{x | (x - 4)(x - 1) = 0\}$，则 $M inter N =$（ ）
-  #choices([$\{1, 4\}$], [$\{-1,-4\}$], [$\{0\}$], [$emptyset$], cols: 4)
+若集合 #mi(`M = \{x \mid (x + 4)(x + 1) = 0\}`)，#mi(`N = \{x \mid (x - 4)(x - 1) = 0\}`)，则 #mi(`M \cap N =`)（ ）
+  #choices([#mi(`\{1, 4\}`)], [#mi(`\{-1,-4\}`)], [#mi(`\{0\}`)], [#mi(`\varnothing`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由 $(x+4)(x+1)=0$，得
+由 #mi(`(x+4)(x+1)=0`)，得
 
-$ M=\{-4,-1\} $
 
-由 $(x-4)(x-1)=0$，得
+#align(center)[#mitex(`
+M=\{-4,-1\}
+`)]
 
-$ N=\{4,1\} $
 
-两集合没有公共元素，所以 $M inter N= emptyset$，故选 D.
+由 #mi(`(x-4)(x-1)=0`)，得
+
+
+#align(center)[#mitex(`
+N=\{4,1\}
+`)]
+
+
+两集合没有公共元素，所以 #mi(`M\cap N=\varnothing`)，故选 D.
 ]
 
 #problem(2)[
-若复数 $z = i (3 - 2 i )$（$i$ 是虚数单位），则 $overline(z)=$（ ）
-  #choices([$2 - 3 i$], [$2 + 3 i$], [$3 + 2 i$], [$3 - 2 i$], cols: 4)
+若复数 #mi(`z = \mathrm{i}(3 - 2\mathrm{i})`)（#mi(`\mathrm{i}`) 是虚数单位），则 #mi(`\overline{z}=`)（ ）
+  #choices([#mi(`2 - 3\mathrm{i}`)], [#mi(`2 + 3\mathrm{i}`)], [#mi(`3 + 2\mathrm{i}`)], [#mi(`3 - 2\mathrm{i}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-利用 $i ""^2=-1$，有
+利用 #mi(`\mathrm{i}^{2}=-1`)，有
 
-$ z= i (3-2 i )=3 i -2 i ""^2=2+3 i $
+
+#align(center)[#mitex(`
+z=\mathrm{i}(3-2\mathrm{i})=3\mathrm{i}-2\mathrm{i}^{2}=2+3\mathrm{i}
+`)]
+
 
 因此
 
-$ \overline z=2-3 i $
+
+#align(center)[#mitex(`
+\overline z=2-3\mathrm{i}
+`)]
+
 
 故选 A.
 ]
 
 #problem(3)[
 下列函数中，既不是奇函数，也不是偶函数的是（ ）
-  #choices([$y = sqrt(1 + x^2)$], [$y = x + (1)/(x)$], [$y = 2^x + (1)/(2^x)$], [$y = x + e ""^(x)$], cols: 2)
+  #choices([#mi(`y = \sqrt{1 + x^{2}}`)], [#mi(`y = x + \frac{1}{x}`)], [#mi(`y = 2^{x} + \frac{1}{2^{x}}`)], [#mi(`y = x + \mathrm{e}^{x}`)], cols: 1)
 ]
 
 #answer([D])
@@ -58,101 +74,131 @@ $ \overline z=2-3 i $
 #solution[
 逐项判断函数的定义域及奇偶性：
 
-+ (1) 对 $f(x)=sqrt(1+x^2)$，有 $f(-x)=f(x)$，所以它是偶函数；
-+ (2) 对 $f(x)=x+(1)/(x)$，定义域为 $\{x in RR | x != 0 \}$，且 $f(-x)=-f(x)$，所以它是奇函数；
-+ (3) 对 $f(x)=2^x+(1)/(2^x)$，有 $f(-x)=2^(-x)+2^x=f(x)$，所以它是偶函数；
-+ (4) 对 $f(x)=x+ e ""^x$，有 $f(1)=1+ e$，而 $f(-1)=-1+ e ""^(-1)$，既不相等也不互为相反数，所以它既不是奇函数，也不是偶函数.
+
++ (1) 
++ (2) 
++ (3) 
+
+
 
 故选 D.
 ]
 
 #problem(4)[
-袋中共有 $15$ 个除了颜色外完全相同的球，其中有 $10$ 个白球，$5$ 个红球. 从袋中任取 $2$ 个球，所取的 $2$ 个球中恰有 $1$ 个白球，$1$ 个红球的概率为（ ）
-  #choices([$(5)/(21)$], [$(10)/(21)$], [$(11)/(21)$], [$1$], cols: 4)
+袋中共有 #mi(`15`) 个除了颜色外完全相同的球，其中有 #mi(`10`) 个白球，#mi(`5`) 个红球. 从袋中任取 #mi(`2`) 个球，所取的 #mi(`2`) 个球中恰有 #mi(`1`) 个白球，#mi(`1`) 个红球的概率为（ ）
+  #choices([#mi(`\frac{5}{21}`)], [#mi(`\frac{10}{21}`)], [#mi(`\frac{11}{21}`)], [#mi(`1`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-从 $15$ 个球中任取 $2$ 个球的基本事件总数为 $C_(15)^(2)$，其中恰有一个白球和一个红球的事件数为 $C_(10)^(1)C_(5)^(1)$. 因而所求概率为
+从 #mi(`15`) 个球中任取 #mi(`2`) 个球的基本事件总数为 #mi(`\mathrm{C}_{15}^{2}`)，其中恰有一个白球和一个红球的事件数为 #mi(`\mathrm{C}_{10}^{1}\mathrm{C}_{5}^{1}`). 因而所求概率为
 
-$ P=(C_(10)^(1)C_(5)^(1))/(C_(15)^(2))=(50)/(105)=(10)/(21) $
+
+#align(center)[#mitex(`
+P=\frac{\mathrm{C}_{10}^{1}\mathrm{C}_{5}^{1}}{\mathrm{C}_{15}^{2}}=\frac{50}{105}=\frac{10}{21}
+`)]
+
 
 故选 B.
 ]
 
 #problem(5)[
-平行于直线 $2 x + y + 1 = 0$ 且与圆 $x^(2) + y^(2) = 5$ 相切的直线的方程是（ ）
-  #choices([$2 x + y + 5 = 0$ 或 $2 x + y - 5 = 0$], [$2 x + y + sqrt(5)= 0$ 或 $2 x + y - sqrt(5)= 0$], [$2 x - y + 5 = 0$ 或 $2 x - y - 5 = 0$], [$2 x - y + sqrt(5)= 0$ 或 $2 x - y - sqrt(5)= 0$], cols: 1)
+平行于直线 #mi(`2x + y + 1 = 0`) 且与圆 #mi(`x^{2}+ y^{2}= 5`) 相切的直线的方程是（ ）
+  #choices([#mi(`2x + y + 5 = 0`) 或 #mi(`2x + y - 5 = 0`)], [#mi(`2x + y + \sqrt{5}= 0`) 或 #mi(`2x + y - \sqrt{5}= 0`)], [#mi(`2x - y + 5 = 0`) 或 #mi(`2x - y - 5 = 0`)], [#mi(`2x - y + \sqrt{5}= 0`) 或 #mi(`2x - y - \sqrt{5}= 0`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-设所求直线为 $2 x+y+c=0$，其与圆心 $O(0,0)$ 的距离等于圆的半径 $sqrt(5)$. 因此
+设所求直线为 #mi(`2x+y+c=0`)，其与圆心 #mi(`O(0,0)`) 的距离等于圆的半径 #mi(`\sqrt{5}`). 因此
 
-$ (|c|)/(sqrt(2^2+1^2))=sqrt(5) $
 
-即 $|c|=5$. 所以切线为 $2 x+y+5=0$ 或 $2 x+y-5=0$.
+#align(center)[#mitex(`
+\frac{|c|}{\sqrt{2^{2}+1^{2}}}=\sqrt{5}
+`)]
+
+
+即 #mi(`|c|=5`). 所以切线为 #mi(`2x+y+5=0`) 或 #mi(`2x+y-5=0`).
+
 故选 A.
 ]
 
 #problem(6)[
-若变量 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} 4 x + 5 y >= 8 ,\\ 1 <= x <= 3 ,\\ 0 <= y <= 2 , \e n d{c a s e s}$ 则 $z = 3 x + 2 y$ 的最小值为（ ）
-  #choices([$4$], [$(23)/(5)$], [$6$], [$(31)/(5)$], cols: 4)
+若变量 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}4x + 5y \ge 8,\\  1 \le x \le 3,\\  0 \le y \le 2,\end{cases}`) 则 #mi(`z = 3x + 2y`) 的最小值为（ ）
+  #choices([#mi(`4`)], [#mi(`\frac{23}{5}`)], [#mi(`6`)], [#mi(`\frac{31}{5}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
 可行域由题中不等式确定，其边界交点为
-$(1,(4)/(5))$，$(1,2)$，$(3,2)$，$(3,0)$，$(2,0)$.
-线性目标函数只需在各顶点处比较. 在 $(1,(4)/(5))$、$(1,2)$、$(3,2)$、$(3,0)$、$(2,0)$ 处，$z$ 的值分别为 $(23)/(5)$、$7$、$13$、$9$、$6$.
-所以 $z$ 的最小值为 $(23)/(5)$，故选 B.
+
+#mi(`\left(1,\frac{4}{5}\right)`)，#mi(`(1,2)`)，#mi(`(3,2)`)，#mi(`(3,0)`)，#mi(`(2,0)`).
+
+线性目标函数只需在各顶点处比较. 在 #mi(`\left(1,\frac{4}{5}\right)`)、#mi(`(1,2)`)、#mi(`(3,2)`)、#mi(`(3,0)`)、#mi(`(2,0)`) 处，#mi(`z`) 的值分别为 #mi(`\frac{23}{5}`)、#mi(`7`)、#mi(`13`)、#mi(`9`)、#mi(`6`).
+
+所以 #mi(`z`) 的最小值为 #mi(`\dfrac{23}{5}`)，故选 B.
 ]
 
 #problem(7)[
-已知双曲线 $C: (x^(2))/(a^(2))- (y^(2))/(b^(2))= 1$ 的离心率 $e = (5)/(4)$，且其右焦点为 $F_(2)(5,0)$，则双曲线 $C$ 的方程为（ ）
-  #choices([$(x^2)/(4)-(y^2)/(3)= 1$], [$(x^2)/(9)-(y^2)/(16)= 1$], [$(x^2)/(16)-(y^2)/(9)= 1$], [$(x^2)/(3)-(y^2)/(4)= 1$], cols: 2)
+已知双曲线 #mi(`C: \frac{x^{2}}{a^{2}}- \frac{y^{2}}{b^{2}}= 1`) 的离心率 #mi(`e = \frac{5}{4}`)，且其右焦点为 #mi(`F_{2}(5,0)`)，则双曲线 #mi(`C`) 的方程为（ ）
+  #choices([#mi(`\frac{x^{2}}{4}-\frac{y^{2}}{3}= 1`)], [#mi(`\frac{x^{2}}{9}-\frac{y^{2}}{16}= 1`)], [#mi(`\frac{x^{2}}{16}-\frac{y^{2}}{9}= 1`)], [#mi(`\frac{x^{2}}{3}-\frac{y^{2}}{4}= 1`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-双曲线的离心率满足 $e=(c)/(a)$，右焦点为 $(c,0)=(5,0)$，故 $c=5$. 由
+双曲线的离心率满足 #mi(`e=\dfrac{c}{a}`)，右焦点为 #mi(`(c,0)=(5,0)`)，故 #mi(`c=5`). 由
 
-$ (c)/(a)=(5)/(4) $
 
-得 $a=4$. 又因为 $c^2=a^2+b^2$，所以
+#align(center)[#mitex(`
+\frac{c}{a}=\frac{5}{4}
+`)]
 
-$ b^2=25-16=9 $
+
+得 #mi(`a=4`). 又因为 #mi(`c^{2}=a^{2}+b^{2}`)，所以
+
+
+#align(center)[#mitex(`
+b^{2}=25-16=9
+`)]
+
 
 因此双曲线方程为
 
-$ (x^2)/(16)-(y^2)/(9)=1 $
+
+#align(center)[#mitex(`
+\frac{x^{2}}{16}-\frac{y^{2}}{9}=1
+`)]
+
 
 故选 C.
 ]
 
 #problem(8)[
-若空间中 $n$ 个不同的点两两距离都相等，则正整数 $n$ 的取值（ ）
-  #choices([至多等于 $3$], [至多等于 $4$], [等于 $5$], [大于 $5$], cols: 4)
+若空间中 #mi(`n`) 个不同的点两两距离都相等，则正整数 #mi(`n`) 的取值（ ）
+  #choices([至多等于 #mi(`3`)], [至多等于 #mi(`4`)], [等于 #mi(`5`)], [大于 #mi(`5`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-当 $n=1$ 时没有需要比较的点对，条件成立. 以下设 $n >= 2$，任取其中一点作为基点，连接其余各点得到向量 $bold(v)_1$，$\l d o t s$，$bold(v)_(n-1)$. 设所有点之间的距离为 $d>0$，则
-$|bold(v)_i|=d$，$|bold(v)_i-bold(v)_j|=d$，（$i != j$）.
+当 #mi(`n=1`) 时没有需要比较的点对，条件成立. 以下设 #mi(`n\geqslant2`)，任取其中一点作为基点，连接其余各点得到向量 #mi(`\mathbf{v}_{1}`)，#mi(`\ldots`)，#mi(`\mathbf{v}_{n-1}`). 设所有点之间的距离为 #mi(`d>0`)，则
+
+#mi(`|\mathbf{v}_{i}|=d`)，#mi(`|\mathbf{v}_{i}-\mathbf{v}_{j}|=d`)，（#mi(`i\ne j`)）.
+
 由平方展开得
-$bold(v)_i\c d o t b o l d(v)_j =(|bold(v)_i|^2+|bold(v)_j|^2-|bold(v)_i-bold(v)_j|^2)/(2)=(d^2)/(2)$，（$i != j$）.
-这些向量的 Gram 矩阵对角线元素为 $d^2$，非对角线元素为 $(d^2)/(2)$，其特征值为 $(d^2)/(2)$（重数 $n-2$）和 $n(d^2)/(2)$，均为正，所以这些向量线性无关. 在三维空间中因而有 $n-1 <= 3$，即 $n <= 4$. 正四面体的四个顶点可以达到 $n=4$，所以 $n$ 至多等于 $4$，故选 B.
+
+#mi(`\mathbf{v}_{i}\cdot\mathbf{v}_{j} =\frac{|\mathbf{v}_{i}|^{2}+|\mathbf{v}_{j}|^{2}-|\mathbf{v}_{i}-\mathbf{v}_{j}|^{2}}{2}=\frac{d^{2}}{2}`)，（#mi(`i\ne j`)）.
+
+这些向量的 Gram 矩阵对角线元素为 #mi(`d^{2}`)，非对角线元素为 #mi(`\frac{d^{2}}{2}`)，其特征值为 #mi(`\frac{d^{2}}{2}`)（重数 #mi(`n-2`)）和 #mi(`n\frac{d^{2}}{2}`)，均为正，所以这些向量线性无关. 在三维空间中因而有 #mi(`n-1\leqslant3`)，即 #mi(`n\leqslant4`). 正四面体的四个顶点可以达到 #mi(`n=4`)，所以 #mi(`n`) 至多等于 #mi(`4`)，故选 B.
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-在 $(sqrt(x)- 1)^4$ 的展开式中，$x$ 的系数为#blank(){}.
+在 #mi(`(\sqrt{x}- 1)^{4}`) 的展开式中，#mi(`x`) 的系数为\underline{\hspace{2.5em}}.
 ]
 
 #answer([6])
@@ -160,13 +206,17 @@ $bold(v)_i\c d o t b o l d(v)_j =(|bold(v)_i|^2+|bold(v)_j|^2-|bold(v)_i-bold(v)
 #solution[
 展开得
 
-$ (sqrt(x)-1)^4=x^2-4 x s q r t(x)+6 x-4 sqrt(x)+1 $
 
-其中含 $x$ 的项为 $6 x$，所以 $x$ 的系数为 $6$.
+#align(center)[#mitex(`
+(\sqrt{x}-1)^{4}=x^{2}-4x\sqrt{x}+6x-4\sqrt{x}+1
+`)]
+
+
+其中含 #mi(`x`) 的项为 #mi(`6x`)，所以 #mi(`x`) 的系数为 #mi(`6`).
 ]
 
 #problem(10)[
-在等差数列 $\{a_n\}$ 中，若 $a_3 + a_4 + a_5 + a_6 + a_7 = 25$，则 $a_2 + a_8 =$#blank(){}.
+在等差数列 #mi(`\{a_{n}\}`) 中，若 #mi(`a_{3} + a_{4} + a_{5} + a_{6} + a_{7} = 25`)，则 #mi(`a_{2} + a_{8} =`)\underline{\hspace{2.5em}}.
 ]
 
 #answer([10])
@@ -174,15 +224,22 @@ $ (sqrt(x)-1)^4=x^2-4 x s q r t(x)+6 x-4 sqrt(x)+1 $
 #solution[
 等差数列中五项和的平均数等于中间项，因此
 
-$ 5 a_5=a_3+a_4+a_5+a_6+a_7=25 $
 
-得 $a_5=5$. 又因为等差数列中等距两项之和等于中间项的两倍，所以
+#align(center)[#mitex(`
+5a_{5}=a_{3}+a_{4}+a_{5}+a_{6}+a_{7}=25
+`)]
 
-$ a_2+a_8=2 a_5=10 $
+
+得 #mi(`a_{5}=5`). 又因为等差数列中等距两项之和等于中间项的两倍，所以
+
+
+#align(center)[#mitex(`
+a_{2}+a_{8}=2a_{5}=10
+`)]
 ]
 
 #problem(11)[
-设 $triangle A B C$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 若 $a = sqrt(3)$，$sin B = (1)/(2)$，$C = (pi)/(6)$，则 $b =$#blank(){}.
+设 #mi(`\triangle ABC`) 的内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 的对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`). 若 #mi(`a = \sqrt{3}`)，#mi(`\sin B = \frac{1}{2}`)，#mi(`C = \frac{\pi}{6}`)，则 #mi(`b =`)\underline{\hspace{2.5em}}.
 ]
 
 #answer([1])
@@ -190,19 +247,30 @@ $ a_2+a_8=2 a_5=10 $
 #solution[
 由正弦定理，
 
-$ (b)/(sin B)=(a)/(sin A) $
 
-已知 $sin B=(1)/(2)$，故 $B=(pi)/(6)$ 或 $B=(5 pi)/(6)$. 若 $B=(5 pi)/(6)$，则因 $C=(pi)/(6)$，有 $A=0$，不能构成三角形，所以 $B=(pi)/(6)$，进而
+#align(center)[#mitex(`
+\frac{b}{\sin B}=\frac{a}{\sin A}
+`)]
 
-$ A= pi -B-C=(2 pi)/(3) $
+
+已知 #mi(`\sin B=\dfrac{1}{2}`)，故 #mi(`B=\dfrac\pi6`) 或 #mi(`B=\dfrac{5\pi}6`). 若 #mi(`B=\dfrac{5\pi}6`)，则因 #mi(`C=\dfrac\pi6`)，有 #mi(`A=0`)，不能构成三角形，所以 #mi(`B=\dfrac\pi6`)，进而
+
+
+#align(center)[#mitex(`
+A=\pi-B-C=\frac{2\pi}{3}
+`)]
+
 
 于是
 
-$ b=(a sin B)/(sin A)=(sqrt(3) dot (1)/(2))/((sqrt(3))/(2))=1 $
+
+#align(center)[#mitex(`
+b=\frac{a\sin B}{\sin A}=\frac{\sqrt{3}\cdot\frac{1}{2}}{\frac{\sqrt{3}}{2}}=1
+`)]
 ]
 
 #problem(12)[
-某高三毕业班有 $40$ 人，同学之间两两彼此给对方仅写一条毕业留言，那么全班共写了#blank(){} 条毕业留言. （用数字作答）
+某高三毕业班有 #mi(`40`) 人，同学之间两两彼此给对方仅写一条毕业留言，那么全班共写了\underline{\hspace{2.5em}} 条毕业留言. （用数字作答）
 ]
 
 #answer([1560])
@@ -210,396 +278,256 @@ $ b=(a sin B)/(sin A)=(sqrt(3) dot (1)/(2))/((sqrt(3))/(2))=1 $
 #solution[
 任意两位同学之间有两个有序留言方向，所以全班留言条数为
 
-$ 2 C_(40)^(2)=40 times 39 =1560 $
+
+#align(center)[#mitex(`
+2\mathrm{C}_{40}^{2}=40\times39=1560
+`)]
 ]
 
 #problem(13)[
-已知随机变量 $X$ 服从二项分布 $B(n,p)$，若 $E(X)=30$，$D(X)=20$，则 $p =\f i l l i n b l a n k{}$.
+已知随机变量 #mi(`X`) 服从二项分布 #mi(`B(n,p)`)，若 #mi(`E(X)=30`)，#mi(`D(X)=20`)，则 #mi(`p =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(1)/(3)$])
+#answer([#mi(`\frac{1}{3}`)])
 
 #solution[
 二项分布满足
-$E(X)=n p=30$，$D(X)=n p(1-p)=20$.
+
+#mi(`E(X)=np=30`)，#mi(`D(X)=np(1-p)=20`).
+
 两式相除得
 
-$ 1-p=(20)/(30)=(2)/(3) $
+
+#align(center)[#mitex(`
+1-p=\frac{20}{30}=\frac{2}{3}
+`)]
+
 
 所以
 
-$ p=(1)/(3) $
+
+#align(center)[#mitex(`
+p=\frac{1}{3}
+`)]
 ]
 
 #part-header("选考题：填空题")
 
 #problem(14)[
-已知直线 $l$ 的极坐标方程为 $2 rho sin ( theta -(pi)/(4))=sqrt(2)$，点 $A$ 的极坐标为 $A(2 sqrt(2),(7 pi)/(4))$，则点 $A$ 到直线 $l$ 的距离为#blank(){}.
+已知直线 #mi(`l`) 的极坐标方程为 #mi(`2\rho\sin\left(\theta-\frac{\pi}{4}\right)=\sqrt{2}`)，点 #mi(`A`) 的极坐标为 #mi(`A\left(2\sqrt{2},\frac{7\pi}{4}\right)`)，则点 #mi(`A`) 到直线 #mi(`l`) 的距离为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(5 sqrt(2))/(2)$])
+#answer([#mi(`\frac{5\sqrt{2}}{2}`)])
 
 #solution[
-由极坐标与直角坐标的关系 $x= rho cos theta$，$y= rho sin theta$，原直线方程化为
+由极坐标与直角坐标的关系 #mi(`x=\rho\cos\theta`)，#mi(`y=\rho\sin\theta`)，原直线方程化为
 
-$ 2 rho sin ( theta -(pi)/(4)) =sqrt(2) rho sin theta -sqrt(2) rho cos theta =sqrt(2)(y-x)=sqrt(2) $
 
-因此直线 $l$ 的直角坐标方程为
+#align(center)[#mitex(`
+2\rho\sin\left(\theta-\frac{\pi}{4}\right)  =\sqrt{2}\rho\sin\theta-\sqrt{2}\rho\cos\theta  =\sqrt{2}(y-x)=\sqrt{2}
+`)]
 
-$ x-y+1=0 $
 
-点 $A(2 sqrt(2),(7 pi)/(4))$ 的直角坐标为
+因此直线 #mi(`l`) 的直角坐标方程为
 
-$ (2 sqrt(2) cos (7 pi)/(4),2 sqrt(2) sin (7 pi)/(4))=(2,-2) $
+
+#align(center)[#mitex(`
+x-y+1=0
+`)]
+
+
+点 #mi(`A\left(2\sqrt{2},\frac{7\pi}{4}\right)`) 的直角坐标为
+
+
+#align(center)[#mitex(`
+\left(2\sqrt{2}\cos\frac{7\pi}{4},2\sqrt{2}\sin\frac{7\pi}{4}\right)=(2,-2)
+`)]
+
 
 故点到直线的距离为
 
-$ (|2-(-2)+1|)/(sqrt(1^2+(-1)^2))=(5 sqrt(2))/(2) $
+
+#align(center)[#mitex(`
+\frac{|2-(-2)+1|}{\sqrt{1^{2}+(-1)^{2}}}=\frac{5\sqrt{2}}{2}
+`)]
 ]
 
 #problem(15)[
-如图，已知 $A B$ 是圆 $O$ 的直径，$A B = 4$，$E C$ 是圆 $O$ 的切线，切点为 $C$，$B C = 1$. 过圆心 $O$ 作 $B C$ 的平行线，分别交 $E C$ 和 $A C$ 于点 $D$ 和点 $P$.
-则 $O D =$#blank(){}.
+如图，已知 #mi(`AB`) 是圆 #mi(`O`) 的直径，#mi(`AB = 4`)，#mi(`EC`) 是圆 #mi(`O`) 的切线，切点为 #mi(`C`)，#mi(`BC = 1`). 过圆心 #mi(`O`) 作 #mi(`BC`) 的平行线，分别交 #mi(`EC`) 和 #mi(`AC`) 于点 #mi(`D`) 和点 #mi(`P`).
 
-\begin{center}
+则 #mi(`OD =`)\underline{\hspace{2.5em}}.
 
-#align(center)[#image("/papers/2015/img/guangdong_science/q15_fig1.png", width: 44%)]
 
-\end{center}
+#align(center)[#image("/papers/2015/img/guangdong_science/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([8])
 
 #solution[
-设圆心为 $O$，则半径 $O C=2$. 取 $O$ 为原点，令
-$bold(v)=arrow(C B)$，$|bold(v)|=B C=1$.
-由于 $A B$ 是直径，$|arrow(O B)|=|arrow(O C)|=2$，且
-$bold(v)=arrow(O B)-arrow(O C)$. 由 $|bold(v)|=1$ 得
-$|arrow(O B)-arrow(O C)|^2=1$，$|arrow(O B)|=|arrow(O C)|=2$.
+设圆心为 #mi(`O`)，则半径 #mi(`OC=2`). 取 #mi(`O`) 为原点，令
+
+#mi(`\mathbf{v}=\overrightarrow{CB}`)，#mi(`|\mathbf{v}|=BC=1`).
+
+由于 #mi(`AB`) 是直径，#mi(`|\overrightarrow{OB}|=|\overrightarrow{OC}|=2`)，且
+
+#mi(`\mathbf{v}=\overrightarrow{OB}-\overrightarrow{OC}`). 由 #mi(`|\mathbf{v}|=1`) 得
+
+#mi(`|\overrightarrow{OB}-\overrightarrow{OC}|^{2}=1`)，#mi(`|\overrightarrow{OB}|=|\overrightarrow{OC}|=2`).
+
 展开得
 
-$ arrow(O C)\c d o t a r r o w(O B)=(4+4-1)/(2)=(7)/(2) $
+
+#align(center)[#mitex(`
+\overrightarrow{OC}\cdot\overrightarrow{OB}=\frac{4+4-1}{2}=\frac{7}{2}
+`)]
+
 
 所以
 
-$ arrow(O C)\c d o t b o l d(v) =arrow(O C) dot (arrow(O B)-arrow(O C)) =(7)/(2)-4=-(1)/(2) $
 
-设 $arrow(O D)=t b o l d(v)$. 由于 $D$ 在切线 $E C$ 上，且切线方程的向量形式为 $arrow(O C)\c d o t a r r o w(O X)=4$，故
-$t(-(1)/(2))=4$，$t=-8$.
+#align(center)[#mitex(`
+\overrightarrow{OC}\cdot\mathbf{v}  =\overrightarrow{OC}\cdot(\overrightarrow{OB}-\overrightarrow{OC})  =\frac{7}{2}-4=-\frac{1}{2}
+`)]
+
+
+设 #mi(`\overrightarrow{OD}=t\mathbf{v}`). 由于 #mi(`D`) 在切线 #mi(`EC`) 上，且切线方程的向量形式为 #mi(`\overrightarrow{OC}\cdot\overrightarrow{OX}=4`)，故
+
+#mi(`t\left(-\frac{1}{2}\right)=4`)，#mi(`t=-8`).
+
 于是
 
-$ O D=|t| dot |bold(v)|=8 $
+
+#align(center)[#mitex(`
+OD=|t|\cdot|\mathbf{v}|=8
+`)]
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-在平面直角坐标系 $x O y$ 中，已知向量 $bold(m)= ((sqrt(2))/(2), -(sqrt(2))/(2))$，$bold(n)= ( sin x, cos x)$，$x in (0, (pi)/(2))$.
+在平面直角坐标系 #mi(`xOy`) 中，已知向量 #mi(`\mathbf{m}= \left(\frac{\sqrt{2}}{2}, -\frac{\sqrt{2}}{2}\right)`)，#mi(`\mathbf{n}= (\sin x, \cos x)`)，#mi(`x \in \left(0, \frac{\pi}{2}\right)`).
 
 
-+ (1) 若 $bold(m) bot bold(n)$，求 $tan x$ 的值；
-+ (2) 若 $bold(m)$ 与 $bold(n)$ 的夹角为 $(pi)/(3)$，求 $x$ 的值.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $bold(m)\p e r p b o l d(n)$，得
-
-$ bold(m)\c d o t b o l d(n) =(sqrt(2))/(2) sin x-(sqrt(2))/(2) cos x=0 $
-
-所以 $sin x= cos x$. 由于 $x in (0,(pi)/(2))$，两者均非零，故
-
-$ tan x=1 $
-+ (2) 两向量的模均为 $1$，所以由夹角公式
-
-$ bold(m)\c d o t b o l d(n)=|bold(m)| dot |bold(n)| cos (pi)/(3)=(1)/(2) $
-
-于是
-$(sqrt(2))/(2)( sin x- cos x)=(1)/(2)$，$sin x- cos x=(sqrt(2))/(2)$.
-利用 $sin x- cos x=sqrt(2) sin (x-(pi)/(4))$，得
-
-$ sin (x-(pi)/(4))=(1)/(2) $
-
-又 $x-(pi)/(4) in (-(pi)/(4),(pi)/(4))$，在此区间内只有
-$x-(pi)/(4)=(pi)/(6)$，故
-
-$ x=(5 pi)/(12) $
++ (1)
 ]
 
 #problem(17)[
-某工厂 $36$ 名工人的年龄数据如下表.
+某工厂 #mi(`36`) 名工人的年龄数据如下表.
 
-\begin{center}
 \footnotesize
-\renewcommand{\arraystretch}{1.15}
-\begin{tabular}{|c|c|c|c|c|c|c|c|}
+
 \hline
+
 工人编号 & 年龄 & 工人编号 & 年龄 & 工人编号 & 年龄 & 工人编号 & 年龄 \\
+
 \hline
+
 1 & 40 & 10 & 36 & 19 & 27 & 28 & 34 \\
+
 \hline
+
 2 & 44 & 11 & 31 & 20 & 43 & 29 & 39 \\
+
 \hline
+
 3 & 40 & 12 & 38 & 21 & 41 & 30 & 43 \\
+
 \hline
+
 4 & 41 & 13 & 39 & 22 & 37 & 31 & 38 \\
+
 \hline
+
 5 & 33 & 14 & 43 & 23 & 34 & 32 & 42 \\
+
 \hline
+
 6 & 40 & 15 & 45 & 24 & 42 & 33 & 53 \\
+
 \hline
+
 7 & 45 & 16 & 39 & 25 & 37 & 34 & 37 \\
+
 \hline
+
 8 & 42 & 17 & 38 & 26 & 44 & 35 & 49 \\
+
 \hline
+
 9 & 43 & 18 & 36 & 27 & 42 & 36 & 39 \\
+
 \hline
-\end{tabular}
-\end{center}
 
 
-+ (1) 用系统抽样法从 $36$ 名工人中抽取容量为 $9$ 的样本，且在第一分段里用随机抽样法抽到的年龄数据为 $44$，列出样本的年龄数据；
-+ (2) 计算（1）中样本的均值 $overline(x)$ 和方差 $s^2$；
-+ (3) $36$ 名工人中年龄在 $overline(x)- s$ 与 $overline(x)+ s$ 之间有多少人？所占的百分比是多少（精确到 $0.01\%$）？
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 将 $36$ 名工人等分为 $9$ 个分段，每段 $4$ 人. 第一分段抽到第 $2$ 号工人后，系统抽样的编号为
-$2$，$6$，$10$，$14$，$18$，$22$，$26$，$30$，$34$.
-查表得到样本年龄数据为
-$44$，$40$，$36$，$43$，$36$，$37$，$44$，$43$，$37$.
-+ (2) 样本均值为
-
-$ overline(x)=(44+40+36+43+36+37+44+43+37)/(9)=40 $
-
-各数据与均值的差为 $4$，$0$，$-4$，$3$，$-4$，$-3$，$4$，$3$，$-3$，故
-
-$ s^2=(1)/(9)(4^2+0^2+(-4)^2+3^2+(-4)^2+(-3)^2 +4^2+3^2+(-3)^2)=(100)/(9) $
-+ (3) $s=(10)/(3)$，$overline(x)-s=(110)/(3)$，$overline(x)+s=(130)/(3)$.
-所以年龄在该区间内的整数年龄为 $37$，$38$，$39$，$40$，$41$，$42$，$43$. 由表统计各年龄人数分别为
-$3$，$3$，$4$，$3$，$2$，$4$，$4$
-合计 $23$ 人. 所占百分比为
-
-$ (23)/(36) times 100 \%=63.888\l d o t s\% approx 63 .89\% $
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-如图，三角形 $P D C$ 所在的平面与长方形 $A B C D$ 所在的平面垂直，$P D = P C = 4$，$A B = 6$，$B C = 3$. 点 $E$ 是 $C D$ 边的中点，点 $F$，$G$ 分别在线段 $A B$，$B C$ 上，且 $A F = 2 F B$，$C G = 2 G B$.
+如图，三角形 #mi(`PDC`) 所在的平面与长方形 #mi(`ABCD`) 所在的平面垂直，#mi(`PD = PC = 4`)，#mi(`AB = 6`)，#mi(`BC = 3`). 点 #mi(`E`) 是 #mi(`CD`) 边的中点，点 #mi(`F`)，#mi(`G`) 分别在线段 #mi(`AB`)，#mi(`BC`) 上，且 #mi(`AF = 2FB`)，#mi(`CG = 2GB`).
 
 
-+ (1) 证明：$P E bot F G$；
-+ (2) 求二面角 $P - A D - C$ 的正切值；
-+ (3) 求直线 $P A$ 与直线 $F G$ 所成角的余弦值.
++ (1) 
++ (2) 
 
 
-\begin{center}
 
-#align(center)[#image("/papers/2015/img/guangdong_science/q18_fig1.png", width: 56%)]
 
-\end{center}
+#align(center)[#image("/papers/2015/img/guangdong_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 建立空间直角坐标系，取
-$A(0,0,0)$，$B(6,0,0)$，$C(6,3,0)$，$D(0,3,0)$.
-在等腰三角形 $P D C$ 中，$E$ 为 $C D$ 的中点，所以
-$D E=C E=3$，$P E=sqrt(P D^2-D E^2)=sqrt(7)$.
-又因平面 $P D C$ 垂直于底面，$P E$ 垂直于底面，故可取
-$E(3,3,0)$，$P(3,3,sqrt(7))$.
-由 $A F=2 F B$ 和 $A B=6$，得 $A F=4$，故 $F(4,0,0)$. 由 $C G=2 G B$ 和 $B C=3$，得 $G B=1$，故 $G(6,1,0)$. 因而
-$arrow(P E)=(0,0,-sqrt(7))$，$arrow(F G)=(2,1,0)$，
-从而
-
-$ arrow(P E)\c d o t a r r o w(F G)=0 $
-
-所以 $P E bot F G$.
-+ (2) 平面 $A D C$ 就是 $z=0$ 平面. 取平面 $P A D$ 内的两个向量
-$arrow(A D)=(0,3,0)$，$arrow(A P)=(3,3,sqrt(7))$.
-其法向量可取
-
-$ bold(n)_1=arrow(A D)\t i m e s a r r o w(A P)=(3 sqrt(7),0,-9) $
-
-平面 $A D C$ 的法向量取 $bold(n)_2=(0,0,1)$. 二面角的平面角为锐角，故
-
-$ cos alpha =(|bold(n)_1\c d o t b o l d(n)_2|)/(|bold(n)_1| dot |bold(n)_2|)=(9)/(sqrt((3 sqrt(7))^2+9^2))=(3)/(4) $
-
-因此
-
-$ tan alpha =(sqrt(1-((3)/(4))^2))/((3)/(4))=(sqrt(7))/(3) $
-+ (3) $arrow(P A)=(-3,-3,-sqrt(7))$，$arrow(F G)=(2,1,0)$.
-直线所成的锐角记为 $beta$，则
-
-$ cos beta =(|arrow(P A){ dot }arrow(F G)|)/(|arrow(P A)| dot |arrow(F G)|)=(|-9|)/(5 sqrt(5))=(9 sqrt(5))/(25) $
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-设 $a > 1$，函数 $f(x) = (1 + x^2) e ""^x - a$.
+设 #mi(`a > 1`)，函数 #mi(`f(x) = (1 + x^{2})\mathrm{e}^{x} - a`).
 
 
-+ (1) 求 $f(x)$ 的单调区间；
-+ (2) 证明：$f(x)$ 在 $(- oo , + oo )$ 上仅有一个零点；
-+ (3) 若曲线 $y = f(x)$ 在点 $P$ 处的切线与 $x$ 轴平行，且在点 $M(m, n)$ 处的切线与直线 $O P$ 平行（$O$ 是坐标原点），证明：$m <= \sqrt[3]{a - (2)/(e)} - 1$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) $ f'(x)=(1+x^2) e ""^x+2 x e ""^x =(x+1)^2 e ""^x >= 0 $
-
-除 $x=-1$ 外导数均为正，且任意非退化区间上导数不恒为零，所以 $f(x)$ 在 $RR$ 上单调递增.
-+ (2) 当 $x -> - oo$ 时，$(1+x^2) e ""^x -> 0$，从而
-
-$ lim_(x -> - oo )f(x)=-a<0 $
-
-又 $f(0)=1-a<0$，而当 $x -> + oo$ 时，$f(x) -> + oo$. 因此由连续函数零点存在定理，$f(x)$ 至少有一个零点；由（1）的严格单调性，$f(x)$ 至多有一个零点. 所以它在 $(- oo ,+ oo )$ 上仅有一个零点.
-+ (3) 设曲线在 $P(p,f(p))$ 处的切线与 $x$ 轴平行，则
-
-$ f'(p)=(p+1)^2 e ""^p=0 $
-
-故 $p=-1$，从而
-
-$ P(-1,(2)/(e)-a) $
-
-令 $c=a-(2)/(e)$. 因为 $a>1>(2)/(e)$，所以 $c>0$，且直线 $O P$ 的斜率为
-
-$ ((2)/(e)-a)/(-1)=c $
-
-在 $M(m,n)$ 处的切线与 $O P$ 平行，故
-
-$ (m+1)^2 e ""^m=c $
-
-令 $t=m+1$. 若 $t <= 0$，则 $t <= c^((1)/(3))$ 立即成立. 若 $t>0$，由 $ln t <= t-1$ 得 $e ""^(t-1) >= t$，于是
-
-$ c=t^2 e ""^(t-1) >= t^3 $
-
-所以 $t <= c^((1)/(3))$，即
-
-$ m <= \sqrt[3]{a-(2)/(e)}-1 $
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-已知过原点的动直线 $l$ 与圆 $C_1: x^2 + y^2 - 6 x + 5 = 0$ 相交于不同的两点 $A$，$B$.
+已知过原点的动直线 #mi(`l`) 与圆 #mi(`C_{1}: x^{2} + y^{2} - 6x + 5 = 0`) 相交于不同的两点 #mi(`A`)，#mi(`B`).
 
 
-+ (1) 求圆 $C_1$ 的圆心坐标；
-+ (2) 求线段 $A B$ 的中点 $M$ 的轨迹 $C$ 的方程；
-+ (3) 是否存在实数 $k$，使得直线 $L: y = k(x - 4)$ 与曲线 C 只有一个交点？若存在，求出 $k$ 的取值范围；若不存在，说明理由.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 配方得
-
-$ x^2+y^2-6 x+5=(x-3)^2+y^2-4 $
-
-所以圆心为 $C_1(3,0)$，半径为 $2$.
-+ (2) 设 $M$ 为弦 $A B$ 的中点. 半径 $C_(1) M$ 垂直于弦 $A B$，而 $O$，$M$，$A$，$B$ 共线，所以 $C_(1) M bot O M$. 因此 $M$ 在以 $O C_1$ 为直径的圆上，该圆方程为
-
-$ (x-(3)/(2))^2+y^2=((3)/(2))^2 $
-
-即
-
-$ C:x^2+y^2-3 x=0 $
-
-若动直线写成 $y=t x$，则其到 $C_1(3,0)$ 的距离必须小于半径 $2$，故
-
-$ (3|t|)/(sqrt(1+t^2))<2 $
-
-又垂足 $M$ 的坐标为
-
-$ M((3)/(1+t^2),(3 t)/(1+t^2)) $
-
-于是 $x in ((5)/(3),3]$，所以轨迹还应取该范围内的圆弧.
-+ (3) 直线 $L:y=k(x-4)$ 恒过 $T(4,0)$. 先考虑它与圆 $C$ 相切的情形. 圆 $C$ 的圆心为 $O'((3)/(2),0)$，半径为 $(3)/(2)$，而 $L$ 的一般式为
-
-$ k x-y-4 k=0 $
-
-相切条件为
-
-$ (|(3)/(2)k-4 k|)/(sqrt(k^2+1))=(3)/(2) $
-
-即 $(5|k|)/(2 sqrt(k^2+1))=(3)/(2)$，解得
-
-$ k= +- (3)/(4) $
-
-再考虑割线与上述轨迹弧只有一个公共点的情形. 由对称性只需令 $s=|k| >= 0$，考察下半圆弧. 对 $x in ((5)/(3),3]$，该弧上点的纵坐标满足
-
-$ (|y|)/(4-x)=h(x):=(sqrt(x(3-x)))/(4-x) $
-
-令 $g(x)=h^2(x)=(x(3-x))/((4-x)^2)$，则
-
-$ g'(x)=(12-5 x)/((4-x)^3) $
-
-所以 $h(x)$ 在 $((5)/(3),(12)/(5))$ 上递增，在 $((12)/(5),3]$ 上递减，并且
-$lim_(x -> (5)/(3)+)h(x)=(2 sqrt(5))/(7)$，$h((12)/(5))=(3)/(4)$，$h(3)=0$.
-注意左端点不属于轨迹弧，而右端点 $(3,0)$ 属于轨迹弧. 当 $s=(2 sqrt(5))/(7)$ 时，直线还经过左端点对应的整圆交点，但联立方程的另一个根为
-
-$ x=(64)/(23) in ((5)/(3),3] $
-
-故此时轨迹弧上仍恰有一个交点. 因而割线与轨迹弧恰有一个公共点当且仅当
-$0 <= s <= (2 sqrt(5))/(7)$ 或 $s=(3)/(4)$.
-由 $k$ 关于原点对称，合并相切情形得
-
-$ k in [-(2 sqrt(5))/(7),(2 sqrt(5))/(7)] union \{-(3)/(4),(3)/(4)\} $
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-数列 $\{a_n\}$ 满足 $a_1 + 2 a_2 + dots.c + n a_n = 4 - (n + 2)/(2^(n - 1))$，$n in NN ""^*$.
+数列 #mi(`\{a_{n}\}`) 满足 #mi(`a_{1} + 2a_{2} + \cdots + na_{n} = 4 - \frac{n + 2}{2^{n - 1}}`)，#mi(`n \in \mathbb{N}^{*}`).
 
 
-+ (1) 求 $a_3$ 的值；
-+ (2) 求数列 $\{a_n\}$ 的前 $n$ 项和 $T_n$；
-+ (3) 令 $b_1 = a_1$，$b_n = (T_(n - 1))/(n)+ (1 + (1)/(2)+ (1)/(3)+ dots.c + (1)/(n)) a_n$（$n >= 2$），证明：数列 $\{b_n\}$ 的前 $n$ 项和 $S_n$ 满足 $S_n < 2 + 2 ln n$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 令
-
-$ U_n=a_1+2 a_2+ dots.c +n a_n=4-(n+2)/(2^(n-1)) $
-
-由 $U_1=1$ 得 $a_1=1$，由 $U_2=2$ 得 $a_2=(1)/(2)$，由
-
-$ U_3=4-(5)/(4)=(11)/(4) $
-
-得
-$a_1+2 a_2+3 a_3=(11)/(4)$，$a_3=(1)/(4)$.
-+ (2) 当 $n >= 2$ 时，作相邻两式相减：
-
-$ n a_n=U_n-U_(n-1) =(n+1)/(2^(n-2))-(n+2)/(2^(n-1))=(n)/(2^(n-1)) $
-
-所以 $a_n=2^(1-n)$，且该式对 $n=1$ 也成立. 因而
-
-$ T_n=sum_(j=1)^(n) 2^(1-j)=2-2^(1-n)=2-(1)/(2^(n-1)) $
-+ (3) 记
-
-$ H_n=1+(1)/(2)+ dots.c +(1)/(n) $
-
-由上式，当 $n >= 2$ 时
-
-$ b_n=\f r a c{T_(n-1)}n+H_(n) a_n =(2)/(n)+2^(1-n)(H_n-(2)/(n)) $
-
-令
-
-$ C_n=sum_(j=2)^(n) 2^(1-j)(H_j-(2)/(j)) $
-
-由于 $H_j-(2)/(j)>0$，故 $C_n>0$. 又利用级数恒等式
-
-$ sum_(j=1)^( oo )(H_j)/(2^j)=2 ln 2 $
-
-可得
-$sum_(j=2)^( oo )2^(1-j)H_j=4 ln 2 -1$，$sum_(j=2)^( oo )\f r a c{2^(2-j)}j=4 ln 2 -2$.
-所以
-
-$ 0<C_n<sum_(j=2)^( oo )2^(1-j)(H_j-(2)/(j))=1 $
-
-其中恒等式可由
-
-$ sum_(j=1)^( oo )H_(j) x^j =(1)/(1-x)sum_(r=1)^( oo )(x^r)/(r)=-(ln (1-x))/(1-x) $
-
-在 $x=(1)/(2)$ 处取得. 因而当 $n >= 2$ 时
-
-$ S_n=1+sum_(j=2)^n b_j =1+2 sum_(j=2)^n(1)/(j)+C_n =2 H_n-1+C_n<2 H_n $
-
-又因 $(1)/(x)$ 在 $[1,+ oo )$ 上递减，
-
-$ H_n=1+sum_(j=2)^n(1)/(j)<1+\i n t_1^n(1)/(x)\m a t h r m d x =1+ ln n $
-
-所以 $S_n<2+2 ln n$. 当 $n=1$ 时 $S_1=b_1=a_1=1<2$，结论同样成立.
++ (1) 
++ (2)
 ]
 

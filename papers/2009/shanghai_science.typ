@@ -59,7 +59,9 @@ C_{11}=(-1)^{1+1}\begin{vmatrix}x&3\\8&9\end{vmatrix}=9x-24
 #problem(4)[
 某算法的程序框图如图所示，则输出量 #mi(`y`) 与输入量 #mi(`x`) 满足的关系式是\underline{\hspace{2.5em}}.
 
-[max width=0.36\linewidth]img/2009/shanghai_science/q4_fig1.png
+
+#align(center)[#image("/papers/2009/img/shanghai_science/q4_fig1.png", width: 28%)]
+
 ]
 
 #answer([#align(center)[#mitex(`
@@ -78,7 +80,9 @@ y=\begin{cases}2^{x},&x\le 1,\\  x-2,&x>1.\end{cases}
 #problem(5)[
 如图，若正四棱柱 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 的底面边长为 #mi(`2`)，高为 #mi(`4`)，则异面直线 #mi(`BD_{1}`) 与 #mi(`AD`) 所成角的大小是\underline{\hspace{2.5em}}. （结果用反三角函数表示）
 
-[max width=0.30\linewidth]img/2009/shanghai_science/q5_fig1.png
+
+#align(center)[#image("/papers/2009/img/shanghai_science/q5_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`\arctan\sqrt{5}`).])
@@ -424,7 +428,9 @@ H'(t)=2t-\frac{2(20-t)}{9}=\frac{20(t-2)}{9}>0
 #problem(18)[
 过圆 #mi(`C: (x - 1)^{2} + (y - 1)^{2} = 1`) 的圆心作直线分别交 #mi(`x`)，#mi(`y`) 正半轴于点 #mi(`A`)，#mi(`B`)，#mi(`\triangle AOB`) 被圆分成四部分（如图），若这四部分图形面积满足 #mi(`S_{\mathrm{I}}+ S_{\mathrm{IV}}= S_{\mathrm{II}}+ S_{\mathrm{III}}`)，则直线 #mi(`AB`) 有（ ）
 
-[max width=0.42\linewidth]img/2009/shanghai_science/q18_fig1.png
+
+#align(center)[#image("/papers/2009/img/shanghai_science/q18_fig1.png", width: 28%)]
+
   #choices([#mi(`0`) 条], [#mi(`1`) 条], [#mi(`2`) 条], [#mi(`3`) 条], cols: 4)
 ]
 
@@ -509,7 +515,9 @@ G(t)=S_{\mathrm{I}}-S_{\mathrm{III}}=\frac{1}{2}\left(t-\frac{1}{t}-\arctan t+\a
 #problem(19)[
 如图，在直三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中，#mi(`AA_{1} = BC = AB = 2`)，#mi(`AB \perp BC`)，求二面角 #mi(`B_{1} - A_{1}C - C_{1}`) 的大小.
 
-[max width=0.45\linewidth]img/2009/shanghai_science/q19_fig1.png
+
+#align(center)[#image("/papers/2009/img/shanghai_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

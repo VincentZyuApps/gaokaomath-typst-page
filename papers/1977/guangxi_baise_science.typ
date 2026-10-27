@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,186 +11,231 @@
 #part-header("解答题")
 
 #problem(1)[
-求函数 $y=(2 sqrt(5-x))/(sqrt(x-3))$ 的定义域.
+求函数 #mi(`y=\dfrac{2\sqrt{5-x}}{\sqrt{x-3}}`) 的定义域.
 ]
 
 #solution[
-要使分子中的根式有意义，必须有 $5-x >= 0$，所以 $x <= 5$. 分母中的根式既要有意义又不能为零，因此必须有 $x-3>0$，所以 $x>3$. 两个条件合并得 $3<x <= 5$，故函数的定义域为 $(3,5]$.
+要使分子中的根式有意义，必须有 #mi(`5-x\geqslant0`)，所以 #mi(`x\leqslant5`). 分母中的根式既要有意义又不能为零，因此必须有 #mi(`x-3>0`)，所以 #mi(`x>3`). 两个条件合并得 #mi(`3<x\leqslant5`)，故函数的定义域为 #mi(`\left(3,5\right]`).
 ]
 
 #problem(2)[
-计算 $(-(1)/(2))^(-3)+32^((2)/(5))+5^0-3^(-2)$.
+计算 #mi(`\left(-\dfrac{1}{2}\right)^{-3}+32^{\frac{2}{5}}+5^{0}-3^{-2}`).
 ]
 
 #solution[
-负整数指数表示相应正整数次幂的倒数，且 $32=2^5$，所以
+负整数指数表示相应正整数次幂的倒数，且 #mi(`32=2^{5}`)，所以
 
-$ (-(1)/(2))^(-3)+32^((2)/(5))+5^0-3^(-2)=(-2)^3+(2^5)^((2)/(5))+1-(1)/(3^2)=-8+4+1-(1)/(9)=-(28)/(9) $
+
+#align(center)[#mitex(`
+\left(-\dfrac{1}{2}\right)^{-3}+32^{\frac{2}{5}}+5^{0}-3^{-2}=(-2)^{3}+\left(2^{5}\right)^{\frac{2}{5}}+1-\dfrac{1}{3^2}=-8+4+1-\dfrac{1}{9}=-\dfrac{28}{9}
+`)]
 ]
 
 #problem(3)[
-求 $sin ""^2 60^ degree + cot 45^ degree +(3)/(4) tan ""^2 30^ degree - cos 60 ""^ degree$ 的值.
+求 #mi(`\sin^{2} 60^{\circ}+\cot45^{\circ}+\dfrac{3}{4}\tan^{2} 30^{\circ}-\cos60^{\circ}`) 的值.
 ]
 
 #solution[
-由特殊角三角函数值 $sin 60 ""^ degree =(sqrt(3))/(2)$，$cot 45^ degree =1$，$tan 30 ""^ degree =(sqrt(3))/(3)$，$cos 60 ""^ degree =(1)/(2)$，原式为
+由特殊角三角函数值 #mi(`\sin60^{\circ}=\dfrac{\sqrt{3}}{2}`)，#mi(`\cot45^{\circ}=1`)，#mi(`\tan30^{\circ}=\dfrac{\sqrt{3}}{3}`)，#mi(`\cos60^{\circ}=\dfrac{1}{2}`)，原式为
 
-$ ((sqrt(3))/(2))^2+1+(3)/(4)((sqrt(3))/(3))^2-(1)/(2)=(3)/(4)+1+(1)/(4)-(1)/(2)=(3)/(2) $
+
+#align(center)[#mitex(`
+\left(\dfrac{\sqrt{3}}{2}\right)^{2}+1+\dfrac{3}{4}\left(\dfrac{\sqrt{3}}{3}\right)^{2}-\dfrac{1}{2}=\dfrac{3}{4}+1+\dfrac{1}{4}-\dfrac{1}{2}=\dfrac{3}{2}
+`)]
 ]
 
 #problem(4)[
-$log _2 sqrt(8)=x$. 求 $x$.
+#mi(`\log_{2}\sqrt{8}=x`). 求 #mi(`x`).
 ]
 
 #solution[
-由对数的定义，$log _2 sqrt(8)=x$ 等价于 $2^x=sqrt(8)$. 又因为 $sqrt(8)=sqrt(2^3)=2^((3)/(2))$，所以 $2^x=2^((3)/(2))$. 底数 $2$ 大于 $0$ 且不等于 $1$，幂函数的值相等时指数相等，故 $x=(3)/(2)$.
+由对数的定义，#mi(`\log_{2}\sqrt{8}=x`) 等价于 #mi(`2^{x}=\sqrt{8}`). 又因为 #mi(`\sqrt{8}=\sqrt{2^{3}}=2^{\frac{3}{2}}`)，所以 #mi(`2^{x}=2^{\frac{3}{2}}`). 底数 #mi(`2`) 大于 #mi(`0`) 且不等于 #mi(`1`)，幂函数的值相等时指数相等，故 #mi(`x=\dfrac{3}{2}`).
 ]
 
 #problem(5)[
-已知直线过 $(3,1)$ 和 $(-6,4)$ 两点.
+已知直线过 #mi(`(3,1)`) 和 #mi(`(-6,4)`) 两点.
 
 
-+ (1) 求出这直线方程.
-+ (2) 求它的斜率和 $y$ 轴上的截距.
-+ (3) 这函数是上升或下降.
-+ (4) 求过 $(0,-5)$ 和这直线平行的直线方程.
++ (1) 
++ (2) 
++ (3)
 ]
 
 #solution[
-+ (1) 设直线方程为 $y=k x+b$. 将两点坐标代入，得到
-
-$ \b e g i n{c a s e s} 1=3 k+b,\\ 4=-6 k+b. \e n d{c a s e s} $
-
-两式相减得 $3=-9 k$，所以 $k=-(1)/(3)$. 代回 $1=3 k+b$，得 $b=2$. 因而直线方程为 $y=-(1)/(3)x+2$，化为一般式为 $x+3 y-6=0$.
-+ (2) 由直线的斜截式 $y=k x+b$ 可知，斜率为 $k=-(1)/(3)$，$y$ 轴上的截距为 $b=2$.
-+ (3) 因为斜率 $k=-(1)/(3)<0$，所以函数 $y=-(1)/(3)x+2$ 随 $x$ 增大而减小，是下降函数.
-+ (4) 平行直线的斜率相等，所以所求直线的斜率仍为 $-(1)/(3)$. 设其方程为 $y=-(1)/(3)x+b_1$，代入点 $(0,-5)$ 得 $-5=b_1$. 因而所求直线为 $y=-(1)/(3)x-5$，化为一般式为 $x+3 y+15=0$.
++ (1) 
++ (2) 
++ (3)
 ]
 
 #problem(6)[
-已知圆 $O$ 中两弦 $A B$，$C D$ 相交于 $E$.
+已知圆 #mi(`O`) 中两弦 #mi(`AB`)，#mi(`CD`) 相交于 #mi(`E`).
 
 
-+ (1) 证明 $A E dot B E=C E dot D E$.
-+ (2) 当 $C D$ 为直径 $2 R$，$A B bot C D$ 时，证明 $B E^2=C E(2 R-C E)$.
++ (1) 
 
 
 
-#align(center)[#image("/papers/1977/img/guangxi_baise_science/q6_fig1.png", width: 34%)]
+
+#align(center)[#image("/papers/1977/img/guangxi_baise_science/q6_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 连接 $A C$、$B D$. 因为 $A$、$E$、$B$ 共线，$C$、$E$、$D$ 共线，所以 $angle A E C= angle D E B$ 是对顶角. 又因为 $A$、$B$、$C$、$D$ 在同一圆上，$angle A C E= angle A C D$ 与 $angle D B E= angle D B A$ 都对着弦 $A D$，故 $angle A C E= angle D B E$. 因此 $triangle A E C tilde triangle D E B$，从而
-
-$ (A E)/(D E)=(C E)/(B E) $
-
-交叉相乘得 $A E dot B E=C E dot D E$.
-+ (2) 因为 $C D$ 是过圆心 $O$ 的直径，且 $A B bot C D$，所以过圆心的垂线平分弦 $A B$. 交点 $E$ 是弦 $A B$ 的中点，故 $A E=B E$. 又 $C$、$E$、$D$ 依次在直径上，且 $C D=2 R$，所以 $D E=C D-C E=2 R-C E$. 将这两个关系代入第一问的结论，得
-
-$ B E^2=A E dot B E=C E dot D E=C E(2 R-C E) $
++ (1)
 ]
 
 #problem(7)[
-一船往返于 $48" 公里"$ 的两地，共航行 $10" 小时"$，已知水流速度是 $2" 公里/小时"$，求这轮船在静水中航行的速度.
+一船往返于 #mi(`48\text{ \text{公里}}`) 的两地，共航行 #mi(`10\text{ \text{小时}}`)，已知水流速度是 #mi(`2\text{ \text{公里}/\text{小时}}`)，求这轮船在静水中航行的速度.
 ]
 
 #solution[
-设轮船在静水中的速度为 $x" 公里/小时"$. 轮船逆水航行时速度为 $x-2" 公里/小时"$，必须有 $x>2$；顺水航行时速度为 $x+2" 公里/小时"$. 因此往返所用时间满足
+设轮船在静水中的速度为 #mi(`x\text{ \text{公里}/\text{小时}}`). 轮船逆水航行时速度为 #mi(`x-2\text{ \text{公里}/\text{小时}}`)，必须有 #mi(`x>2`)；顺水航行时速度为 #mi(`x+2\text{ \text{公里}/\text{小时}}`). 因此往返所用时间满足
 
-$ (48)/(x+2)+(48)/(x-2)=10 $
 
-由 $x>2$ 可知 $(x+2)(x-2) != 0$，两边同乘该因式，得
+#align(center)[#mitex(`
+\dfrac{48}{x+2}+\dfrac{48}{x-2}=10
+`)]
 
-$ 48(x-2)+48(x+2)=10(x+2)(x-2) $
 
-整理得 $5 x^2-48 x-20=0$. 因为
+由 #mi(`x>2`) 可知 #mi(`(x+2)(x-2)\ne0`)，两边同乘该因式，得
 
-$ 5 x^2-48 x-20=(5 x+2)(x-10) $
 
-所以 $x=10$ 或 $x=-(2)/(5)$. 其中 $x=-(2)/(5)$ 不满足速度必须为正且 $x>2$ 的实际条件，舍去；$x=10$ 代回原方程成立. 故轮船在静水中的速度为 $10" 公里/小时"$.
+#align(center)[#mitex(`
+48(x-2)+48(x+2)=10(x+2)(x-2)
+`)]
+
+
+整理得 #mi(`5x^{2}-48x-20=0`). 因为
+
+
+#align(center)[#mitex(`
+5x^{2}-48x-20=(5x+2)(x-10)
+`)]
+
+
+所以 #mi(`x=10`) 或 #mi(`x=-\dfrac{2}{5}`). 其中 #mi(`x=-\dfrac{2}{5}`) 不满足速度必须为正且 #mi(`x>2`) 的实际条件，舍去；#mi(`x=10`) 代回原方程成立. 故轮船在静水中的速度为 #mi(`10\text{ \text{公里}/\text{小时}}`).
 ]
 
 #problem(8)[
-已知 $A$，$B$，$C$ 是 $triangle A B C$ 的三个内角，求证 $a=b cos C+c cos B$，$b=c cos A+a cos C$，$c=a cos B+b cos A$.
+已知 #mi(`A`)，#mi(`B`)，#mi(`C`) 是 #mi(`\triangle ABC`) 的三个内角，求证 #mi(`a=b\cos C+c\cos B`)，#mi(`b=c\cos A+a\cos C`)，#mi(`c=a\cos B+b\cos A`).
 
 
-#align(center)[#image("/papers/1977/img/guangxi_baise_science/q8_fig1.png", width: 34%)]
+#align(center)[#image("/papers/1977/img/guangxi_baise_science/q8_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-作高 $A D bot B C$，必要时将边延长. 在直角三角形 $A B D$ 和 $A C D$ 中，边 $A B=c$ 在 $B C$ 方向上的投影为 $c cos B$，边 $A C=b$ 在 $B C$ 方向上的投影为 $b cos C$. 因此
-
-$ a=B C=c cos B+b cos C=b cos C+c cos B $
+作高 #mi(`AD\perp BC`)，必要时将边延长. 在直角三角形 #mi(`ABD`) 和 #mi(`ACD`) 中，边 #mi(`AB=c`) 在 #mi(`BC`) 方向上的投影为 #mi(`c\cos B`)，边 #mi(`AC=b`) 在 #mi(`BC`) 方向上的投影为 #mi(`b\cos C`). 因此
 
 
-作高 $B E bot A C$，必要时将边延长. 边 $A B=c$ 在 $A C$ 方向上的投影为 $c cos A$，边 $B C=a$ 在 $A C$ 方向上的投影为 $a cos C$，所以
+#align(center)[#mitex(`
+a=BC=c\cos B+b\cos C=b\cos C+c\cos B
+`)]
 
-$ b=A C=c cos A+a cos C $
+
+作高 #mi(`BE\perp AC`)，必要时将边延长. 边 #mi(`AB=c`) 在 #mi(`AC`) 方向上的投影为 #mi(`c\cos A`)，边 #mi(`BC=a`) 在 #mi(`AC`) 方向上的投影为 #mi(`a\cos C`)，所以
 
 
-作高 $C F bot A B$，必要时将边延长. 边 $A C=b$ 在 $A B$ 方向上的投影为 $b cos A$，边 $B C=a$ 在 $A B$ 方向上的投影为 $a cos B$，所以
+#align(center)[#mitex(`
+b=AC=c\cos A+a\cos C
+`)]
 
-$ c=A B=b cos A+a cos B=a cos B+b cos A $
+
+作高 #mi(`CF\perp AB`)，必要时将边延长. 边 #mi(`AC=b`) 在 #mi(`AB`) 方向上的投影为 #mi(`b\cos A`)，边 #mi(`BC=a`) 在 #mi(`AB`) 方向上的投影为 #mi(`a\cos B`)，所以
+
+
+#align(center)[#mitex(`
+c=AB=b\cos A+a\cos B=a\cos B+b\cos A
+`)]
 ]
 
 #problem(9)[
-当 $a$，$b$，$c$ 为实数时，求证方程 $x^2-(a+b)x+(a b-c^2)=0$ 有两个实数根，并求出两个根相等的条件.
+当 #mi(`a`)，#mi(`b`)，#mi(`c`) 为实数时，求证方程 #mi(`x^{2}-(a+b)x+(ab-c^{2})=0`) 有两个实数根，并求出两个根相等的条件.
 ]
 
 #solution[
-该方程是一元二次方程，二次项系数为 $1$. 它的判别式为
+该方程是一元二次方程，二次项系数为 #mi(`1`). 它的判别式为
 
-$ Delta =[-(a+b)]^2-4(a b-c^2)=a^2+2 a b+b^2-4 a b+4 c^2=(a-b)^2+4 c^2 $
 
-因为 $a$、$b$、$c$ 都是实数，$(a-b)^2 >= 0$ 且 $4 c^2 >= 0$，所以 $Delta >= 0$. 由一元二次方程根的判别式判定，该方程有两个实数根（重根按两个根计）.
+#align(center)[#mitex(`
+\Delta=\left[-(a+b)\right]^{2}-4\left(ab-c^{2}\right)=a^{2}+2ab+b^{2}-4ab+4c^{2}=(a-b)^{2}+4c^{2}
+`)]
 
-两个根相等当且仅当 $Delta =0$. 两个非负数之和为零，当且仅当它们都为零，因此 $(a-b)^2=0$，$4 c^2=0$，这等价于 $a=b$，$c=0$. 此时重根为 $x=(a+b)/(2)=a$.
+
+因为 #mi(`a`)、#mi(`b`)、#mi(`c`) 都是实数，#mi(`(a-b)^{2}\geqslant0`) 且 #mi(`4c^{2}\geqslant0`)，所以 #mi(`\Delta\geqslant0`). 由一元二次方程根的判别式判定，该方程有两个实数根（重根按两个根计）.
+
+两个根相等当且仅当 #mi(`\Delta=0`). 两个非负数之和为零，当且仅当它们都为零，因此 #mi(`(a-b)^{2}=0`)，#mi(`4c^{2}=0`)，这等价于 #mi(`a=b`)，#mi(`c=0`). 此时重根为 #mi(`x=\dfrac{a+b}{2}=a`).
 ]
 
 #part-header("选作题")
 
 #problem(10)[
-已知 $2\l g(x-2 y)=\l g x+\l g y$. 求 $x:y$.
+已知 #mi(`2\lg(x-2y)=\lg x+\lg y`). 求 #mi(`x:y`).
 ]
 
 #solution[
-原方程有意义的必要条件是 $x>0$，$y>0$，$x-2 y>0$. 在这些条件下，利用对数的运算性质，原方程可化为
+原方程有意义的必要条件是 #mi(`x>0`)，#mi(`y>0`)，#mi(`x-2y>0`). 在这些条件下，利用对数的运算性质，原方程可化为
 
-$ \l g(x-2 y)^2=\l g x+\l g y=\l g(x y) $
+
+#align(center)[#mitex(`
+\lg\left(x-2y\right)^{2}=\lg x+\lg y=\lg(xy)
+`)]
+
 
 因为常用对数函数在正数上是单调函数，所以
 
-$ (x-2 y)^2=x y $
 
-展开并移项，得 $x^2-5 x y+4 y^2=0$，即
+#align(center)[#mitex(`
+\left(x-2y\right)^{2}=xy
+`)]
 
-$ (x-y)(x-4 y)=0 $
 
-故可能有 $x=y$ 或 $x=4 y$. 但由原方程的定义域条件 $x-2 y>0$，可得 $(x)/(y)>2$，所以 $x=y$ 不符合条件；而 $x=4 y$ 满足 $x>0$、$y>0$ 且 $x-2 y=2 y>0$. 因此 $(x)/(y)=4$，即 $x:y=4:1$.
+展开并移项，得 #mi(`x^{2}-5xy+4y^{2}=0`)，即
+
+
+#align(center)[#mitex(`
+(x-y)(x-4y)=0
+`)]
+
+
+故可能有 #mi(`x=y`) 或 #mi(`x=4y`). 但由原方程的定义域条件 #mi(`x-2y>0`)，可得 #mi(`\dfrac{x}{y}>2`)，所以 #mi(`x=y`) 不符合条件；而 #mi(`x=4y`) 满足 #mi(`x>0`)、#mi(`y>0`) 且 #mi(`x-2y=2y>0`). 因此 #mi(`\dfrac{x}{y}=4`)，即 #mi(`x:y=4:1`).
 ]
 
 #problem(11)[
-求内接于半径为 $10" 厘米"$，圆心角为 $120^ degree$ 的弓形的正方形的边长.
+求内接于半径为 #mi(`10\text{ \text{厘米}}`)，圆心角为 #mi(`120^{\circ}`) 的弓形的正方形的边长.
 
 
-#align(center)[#image("/papers/1977/img/guangxi_baise_science/q11_fig1.png", width: 42%)]
+#align(center)[#image("/papers/1977/img/guangxi_baise_science/q11_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设图中正方形为 $C D E F$，其边长为 $x" 厘米"$. 作半径 $O P bot F E$，令 $N=O P inter F E$，$M=O P inter A B$. 由于过圆心的半径垂直于弦 $F E$，所以 $N$ 是弦 $F E$ 的中点；又因为 $O P bot A B$，所以 $M$ 是弦 $A B$ 的中点，且 $O P$ 平分圆心角 $angle A O B$. 因此 $angle B O M=(1)/(2) angle A O B=60^ degree$.
+设图中正方形为 #mi(`CDEF`)，其边长为 #mi(`x\text{ \text{厘米}}`). 作半径 #mi(`OP\perp FE`)，令 #mi(`N=OP\cap FE`)，#mi(`M=OP\cap AB`). 由于过圆心的半径垂直于弦 #mi(`FE`)，所以 #mi(`N`) 是弦 #mi(`FE`) 的中点；又因为 #mi(`OP\perp AB`)，所以 #mi(`M`) 是弦 #mi(`AB`) 的中点，且 #mi(`OP`) 平分圆心角 #mi(`\angle AOB`). 因此 #mi(`\angle BOM=\dfrac{1}{2}\angle AOB=60^{\circ}`).
 
-在直角三角形 $O M B$ 中，$O B=10" 厘米"$，所以
+在直角三角形 #mi(`OMB`) 中，#mi(`OB=10\text{ \text{厘米}}`)，所以
 
-$ O M=O B cos 60 ""^ degree =10 times (1)/(2)=5" 厘米" $
 
-正方形的高为边长，故 $M N=x$，而 $N$ 是正方形上边 $F E$ 的中点，故 $N E=(x)/(2)$. 又 $O N=O M+M N=5+x$. 在直角三角形 $O N E$ 中，斜边 $O E$ 是圆的半径，故 $O E=10" 厘米"$，由勾股定理得
+#align(center)[#mitex(`
+OM=OB\cos60^{\circ}=10\times\dfrac{1}{2}=5\text{ \text{厘米}}
+`)]
 
-$ (5+x)^2+((x)/(2))^2=10^2 $
 
-展开并化简，得到 $x^2+8 x-60=0$. 解得
+正方形的高为边长，故 #mi(`MN=x`)，而 #mi(`N`) 是正方形上边 #mi(`FE`) 的中点，故 #mi(`NE=\dfrac{x}{2}`). 又 #mi(`ON=OM+MN=5+x`). 在直角三角形 #mi(`ONE`) 中，斜边 #mi(`OE`) 是圆的半径，故 #mi(`OE=10\text{ \text{厘米}}`)，由勾股定理得
 
-$ x=(-8\p m s q r t(8^2+240))/(2)=(-8 +- 4 sqrt(19))/(2)=-4 +- 2 sqrt(19) $
 
-边长必须为正，所以舍去 $-4-2 sqrt(19)$，取 $x=2 sqrt(19)-4" 厘米"$. 数值上 $2 sqrt(19)-4 approx 4 .72$，故正方形的边长约为 $4.7" 厘米"$.
+#align(center)[#mitex(`
+(5+x)^{2}+\left(\dfrac{x}{2}\right)^{2}=10^{2}
+`)]
+
+
+展开并化简，得到 #mi(`x^{2}+8x-60=0`). 解得
+
+
+#align(center)[#mitex(`
+x=\dfrac{-8\pm\sqrt{8^{2}+240}}{2}=\dfrac{-8\pm4\sqrt{19}}{2}=-4\pm2\sqrt{19}
+`)]
+
+
+边长必须为正，所以舍去 #mi(`-4-2\sqrt{19}`)，取 #mi(`x=2\sqrt{19}-4\text{ \text{厘米}}`). 数值上 #mi(`2\sqrt{19}-4\approx4.72`)，故正方形的边长约为 #mi(`4.7\text{ \text{厘米}}`).
 ]
 

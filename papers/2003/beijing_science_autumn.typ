@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,256 +11,288 @@
 #part-header("单选题")
 
 #problem(1)[
-设集合 $A=\{x | x^2-1>0\}$，$B=\{x | log _2 x>0\}$，$A inter B$ 等于（ ）
+设集合 #mi(`A=\{x\mid x^{2}-1>0\}`)，#mi(`B=\{x\mid \log_{2} x>0\}`)，#mi(`A\cap B`) 等于（ ）
 
-\answer{A}
+\answerA
 
-由 $x^2-1>0$ 得 $x<-1$ 或 $x>1$，所以 $A=(- oo ,-1) union (1,+ oo )$. 又因为底数 $2>1$，$log _(2) x>0$ 等价于 $x>1$，故 $B=(1,+ oo )$. 因此 $A inter B=(1,+ oo )=\{x | x>1\}$，应选 A.
-  #choices([$\{x | x>1\}$], [$\{x | x>0\}$], [$\{x | x<-1\}$], [$\{x | x<-1"\ 或\ "x>1\}$], cols: 2)
+由 #mi(`x^{2}-1>0`) 得 #mi(`x<-1`) 或 #mi(`x>1`)，所以 #mi(`A=(-\infty,-1)\cup(1,+\infty)`). 又因为底数 #mi(`2>1`)，#mi(`\log_{2}x>0`) 等价于 #mi(`x>1`)，故 #mi(`B=(1,+\infty)`). 因此 #mi(`A\cap B=(1,+\infty)=\{x\mid x>1\}`)，应选 A.
+  #choices([#mi(`\{x\mid x>1\}`)], [#mi(`\{x\mid x>0\}`)], [#mi(`\{x\mid x<-1\}`)], [#mi(`\{x\mid x<-1\text{\ \text{或}\ }x>1\}`)], cols: 1)
 ]
 
 #problem(2)[
-设 $y_1=4^(0.9)$，$y_2=8^(0.44)$，$y_3=((1)/(2))^(-1.5)$，则（ ）
+设 #mi(`y_{1}=4^{0.9}`)，#mi(`y_{2}=8^{0.44}`)，#mi(`y_{3}=\left(\frac{1}{2}\right)^{-1.5}`)，则（ ）
 
-\answer{D}
+\answerD
 
-把各数化为底数为 $2$ 的幂，有 $y_1=4^(0.9)=2^(1.8)$，$y_2=8^(0.44)=2^(1.32)$，$y_3=((1)/(2))^(-1.5)=2^(1.5)$. 由于 $2>1$，且 $1.8>1.5>1.32$，所以 $y_1>y_3>y_2$，应选 D.
-  #choices([$y_3>y_1>y_2$], [$y_2>y_1>y_3$], [$y_1>y_2>y_3$], [$y_1>y_3>y_2$], cols: 4)
+把各数化为底数为 #mi(`2`) 的幂，有 #mi(`y_{1}=4^{0.9}=2^{1.8}`)，#mi(`y_{2}=8^{0.44}=2^{1.32}`)，#mi(`y_{3}=\left(\frac{1}{2}\right)^{-1.5}=2^{1.5}`). 由于 #mi(`2>1`)，且 #mi(`1.8>1.5>1.32`)，所以 #mi(`y_{1}>y_{3}>y_{2}`)，应选 D.
+  #choices([#mi(`y_{3}>y_{1}>y_{2}`)], [#mi(`y_{2}>y_{1}>y_{3}`)], [#mi(`y_{1}>y_{2}>y_{3}`)], [#mi(`y_{1}>y_{3}>y_{2}`)], cols: 2)
 ]
 
 #problem(3)[
-“$cos 2 alpha =-(sqrt(3))/(2)$”是“$alpha =k pi +(5 pi)/(12)$，$k in ZZ$”的（ ）
+“#mi(`\cos 2\alpha=-\frac{\sqrt{3}}{2}`)”是“#mi(`\alpha=k\pi+\frac{5\pi}{12}`)，#mi(`k\in\mathbb{Z}`)”的（ ）
 
-\answer{A}
+\answerA
 
-由 $cos 2 alpha =-(sqrt(3))/(2)$，得 $2 alpha =(5 pi)/(6)+2 k pi$ 或 $2 alpha =(7 pi)/(6)+2 k pi$，其中 $k in ZZ$. 因此 $alpha =(5 pi)/(12)+k pi$ 或 $alpha =(7 pi)/(12)+k pi$. 后一个条件“$alpha =k pi +(5 pi)/(12)$”能推出前一个等式，但前一个等式还包含 $alpha =k pi +(7 pi)/(12)$ 的情形，所以它是必要非充分条件，应选 A.
+由 #mi(`\cos 2\alpha=-\frac{\sqrt{3}}{2}`)，得 #mi(`2\alpha=\frac{5\pi}{6}+2k\pi`) 或 #mi(`2\alpha=\frac{7\pi}{6}+2k\pi`)，其中 #mi(`k\in\mathbb{Z}`). 因此 #mi(`\alpha=\frac{5\pi}{12}+k\pi`) 或 #mi(`\alpha=\frac{7\pi}{12}+k\pi`). 后一个条件“#mi(`\alpha=k\pi+\frac{5\pi}{12}`)”能推出前一个等式，但前一个等式还包含 #mi(`\alpha=k\pi+\frac{7\pi}{12}`) 的情形，所以它是必要非充分条件，应选 A.
   #choices([必要非充分条件], [充分非必要条件], [充分必要条件], [既非充分又非必要条件], cols: 4)
 ]
 
 #problem(4)[
-已知 $alpha$，$beta$ 是平面，$m$，$n$ 是直线. 下列命题中不正确的是（ ）
+已知 #mi(`\alpha`)，#mi(`\beta`) 是平面，#mi(`m`)，#mi(`n`) 是直线. 下列命题中不正确的是（ ）
 
-\answer{B}
+\answerB
 
-若 $m parallel n$ 且 $m bot alpha$，则与 $m$ 平行的直线 $n$ 也垂直于平面 $alpha$，所以命题 A 正确. 若两平面都垂直于同一直线 $m$，则它们的法向方向相同，从而 $alpha parallel beta$，命题 C 正确. 若 $m bot alpha$ 且 $m subset beta$，平面 $beta$ 内有一条直线垂直于平面 $alpha$，所以 $alpha bot beta$，命题 D 正确.
+若 #mi(`m\parallel n`) 且 #mi(`m\perp\alpha`)，则与 #mi(`m`) 平行的直线 #mi(`n`) 也垂直于平面 #mi(`\alpha`)，所以命题 A 正确. 若两平面都垂直于同一直线 #mi(`m`)，则它们的法向方向相同，从而 #mi(`\alpha\parallel\beta`)，命题 C 正确. 若 #mi(`m\perp\alpha`) 且 #mi(`m\subset\beta`)，平面 #mi(`\beta`) 内有一条直线垂直于平面 #mi(`\alpha`)，所以 #mi(`\alpha\perp\beta`)，命题 D 正确.
 
-命题 B 不成立：例如取 $alpha$ 为平面 $z=0$，$beta$ 为平面 $y=0$，则 $n= alpha inter beta$ 为 $x$ 轴；再取直线 $m\c o l o n y=x$，$\ z=1$，则 $m parallel alpha$，但 $m parallel.not n$. 因此不正确的是 B.
-  #choices([若 $m parallel n$，$m bot alpha$，则 $n bot alpha$], [若 $m parallel alpha$，$alpha inter beta =n$，则 $m parallel n$], [若 $m bot alpha$，$m bot beta$，则 $alpha parallel beta$], [若 $m bot alpha$，$m subset beta$，则 $alpha bot beta$], cols: 1)
+命题 B 不成立：例如取 #mi(`\alpha`) 为平面 #mi(`z=0`)，#mi(`\beta`) 为平面 #mi(`y=0`)，则 #mi(`n=\alpha\cap\beta`) 为 #mi(`x`) 轴；再取直线 #mi(`m\colon y=x`)，#mi(`\ z=1`)，则 #mi(`m\parallel\alpha`)，但 #mi(`m\not\parallel n`). 因此不正确的是 B.
+  #choices([若 #mi(`m\parallel n`)，#mi(`m\perp\alpha`)，则 #mi(`n\perp\alpha`)], [若 #mi(`m\parallel\alpha`)，#mi(`\alpha\cap\beta=n`)，则 #mi(`m\parallel n`)], [若 #mi(`m\perp\alpha`)，#mi(`m\perp\beta`)，则 #mi(`\alpha\parallel\beta`)], [若 #mi(`m\perp\alpha`)，#mi(`m\subset\beta`)，则 #mi(`\alpha\perp\beta`)], cols: 1)
 ]
 
 #problem(5)[
-极坐标方程 $rho ""^2 cos 2 theta -2 rho cos theta =1$ 表示的曲线是（ ）
+极坐标方程 #mi(`\rho^{2}\cos 2\theta-2\rho\cos\theta=1`) 表示的曲线是（ ）
 
-\answer{D}
+\answerD
 
-令 $x= rho cos theta$，$y= rho sin theta$，则 $rho ""^2 cos 2 theta =x^2-y^2$，且 $rho cos theta =x$. 原方程化为 $x^2-y^2-2 x=1$，即 $(x-1)^2-y^2=2$. 这是以 $(1,0)$ 为中心、实轴平行于 $x$ 轴的双曲线，应选 D.
+令 #mi(`x=\rho\cos\theta`)，#mi(`y=\rho\sin\theta`)，则 #mi(`\rho^{2}\cos2\theta=x^{2}-y^{2}`)，且 #mi(`\rho\cos\theta=x`). 原方程化为 #mi(`x^{2}-y^{2}-2x=1`)，即 #mi(`(x-1)^{2}-y^{2}=2`). 这是以 #mi(`(1,0)`) 为中心、实轴平行于 #mi(`x`) 轴的双曲线，应选 D.
   #choices([圆], [椭圆], [抛物线], [双曲线], cols: 4)
 ]
 
 #problem(6)[
-若 $z in \m a t h b b{C}$ 且 $|z+2-2 i |=1$，则 $|z-2-2 i |$ 的最小值是（ ）
+若 #mi(`z\in\mathbb{C}`) 且 #mi(`|z+2-2\mathrm{i}|=1`)，则 #mi(`|z-2-2\mathrm{i}|`) 的最小值是（ ）
 
-\answer{B}
+\answerB
 
-令 $w=z+2-2 i$，则 $| w|=1$，并且 $z-2-2 i =w-4$. 由三角不等式的逆不等式，$| z-2-2 i |=| w-4| >= |\l v e r t4|-| w||=3$. 取 $w=1$ 时等号成立，所以所求最小值为 $3$，应选 B.
-  #choices([$2$], [$3$], [$4$], [$5$], cols: 4)
+令 #mi(`w=z+2-2\mathrm{i}`)，则 #mi(`\lvert w\rvert=1`)，并且 #mi(`z-2-2\mathrm{i}=w-4`). 由三角不等式的逆不等式，#mi(`\lvert z-2-2\mathrm{i}\rvert=\lvert w-4\rvert\ge\bigl|\lvert4\rvert-\lvert w\rvert\bigr|=3`). 取 #mi(`w=1`) 时等号成立，所以所求最小值为 #mi(`3`)，应选 B.
+  #choices([#mi(`2`)], [#mi(`3`)], [#mi(`4`)], [#mi(`5`)], cols: 4)
 ]
 
 #problem(7)[
-如果圆台的母线与底面成 $60^( degree )$ 角，那么这个圆台的侧面积与轴截面面积的比为（ ）
+如果圆台的母线与底面成 #mi(`60^{\circ}`) 角，那么这个圆台的侧面积与轴截面面积的比为（ ）
 
-\answer{C}
+\answerC
 
-设圆台上、下底面的半径分别为 $R$、$r_0$，母线长为 $\e l l$，高为 $h$. 母线与底面成 $60^( degree )$ 角，所以 $h=\e l l sin 60 ""^( degree )$. 圆台的侧面积为 $S_1= pi (R+r_0)\e l l$，轴截面是高为 $h$、两底边长分别为 $2 R$、$2 r_0$ 的等腰梯形，故其面积为 $S_2=(R+r_0)h$. 因此
+设圆台上、下底面的半径分别为 #mi(`R`)、#mi(`r_{0}`)，母线长为 #mi(`\ell`)，高为 #mi(`h`). 母线与底面成 #mi(`60^{\circ}`) 角，所以 #mi(`h=\ell\sin60^{\circ}`). 圆台的侧面积为 #mi(`S_{1}=\pi(R+r_{0})\ell`)，轴截面是高为 #mi(`h`)、两底边长分别为 #mi(`2R`)、#mi(`2r_{0}`) 的等腰梯形，故其面积为 #mi(`S_{2}=(R+r_{0})h`). 因此
 
-$ (S_1)/(S_2)=(pi e l l)/(h)=(pi)/(sin 60 ""^( degree ))=(2 sqrt(3))/(3) pi $
+
+#align(center)[#mitex(`
+\frac{S_{1}}{S_{2}}=\frac{\pi\ell}{h}=\frac{\pi}{\sin60^{\circ}}=\frac{2\sqrt{3}}{3}\pi
+`)]
+
 
 所以应选 C.
-  #choices([$2 pi$], [$(3)/(2) pi$], [$(2 sqrt(3))/(3) pi$], [$(1)/(2) pi$], cols: 2)
+  #choices([#mi(`2\pi`)], [#mi(`\frac{3}{2}\pi`)], [#mi(`\frac{2\sqrt{3}}{3}\pi`)], [#mi(`\frac{1}{2}\pi`)], cols: 2)
 ]
 
 #problem(8)[
-从黄瓜，白菜，油菜，扁豆 $4" 种"$蔬菜品种中选出 $3" 种"$，分别种在不同土质的三块土地上，其中黄瓜必须种植，不同的种植方法共有（ ）
+从黄瓜，白菜，油菜，扁豆 #mi(`4\text{ \text{种}}`) 蔬菜品种中选出 #mi(`3\text{ \text{种}}`)，分别种在不同土质的三块土地上，其中黄瓜必须种植，不同的种植方法共有（ ）
 
-\answer{B}
+\answerB
 
-黄瓜必须选取，再从白菜、油菜、扁豆中选取 $2$ 种，有 $C_3^2=3$ 种选法. 选定 $3$ 种后，将它们分别种在三块不同土质的土地上，有 $A_3^3=3!=6$ 种安排. 因此不同种植方法共有 $3 times 6 =18$ 种，应选 B.
-  #choices([$24" 种"$], [$18" 种"$], [$12" 种"$], [$6" 种"$], cols: 4)
+黄瓜必须选取，再从白菜、油菜、扁豆中选取 #mi(`2`) 种，有 #mi(`\mathrm{C}_{3}^{2}=3`) 种选法. 选定 #mi(`3`) 种后，将它们分别种在三块不同土质的土地上，有 #mi(`\mathrm{A}_{3}^{3}=3!=6`) 种安排. 因此不同种植方法共有 #mi(`3\times6=18`) 种，应选 B.
+  #choices([#mi(`24\text{ \text{种}}`)], [#mi(`18\text{ \text{种}}`)], [#mi(`12\text{ \text{种}}`)], [#mi(`6\text{ \text{种}}`)], cols: 2)
 ]
 
 #problem(9)[
-若数列 $\{a_n\}$ 的通项公式是
-$a_n=(3^(-n)+2^(-n)+(-1)^n(3^(-n)-2^(-n)))/(2)$（$n=1$，$2$，$...$），则 $lim_(n -> oo )(a_1+a_2+ dots.c +a_n)$ 等于（ ）
+若数列 #mi(`\{a_{n}\}`) 的通项公式是
 
-\answer{C}
+#mi(`a_{n}=\frac{3^{-n}+2^{-n}+(-1)^{n}\left(3^{-n}-2^{-n}\right)}{2}`)（#mi(`n=1`)，#mi(`2`)，#mi(`\dots`)），则 #mi(`\displaystyle\lim_{n\to\infty}(a_{1}+a_{2}+\cdots+a_{n})`) 等于（ ）
 
-当 $n$ 为奇数时，$(-1)^n=-1$，所以 $a_n=2^(-n)$；当 $n$ 为偶数时，$(-1)^n=1$，所以 $a_n=3^(-n)$. 因此
+\answerC
 
-$ lim_(n -> oo )sum_(j=1)^(n)a_j =((1)/(2))/(1-(1)/(4))+((1)/(9))/(1-(1)/(9))=(2)/(3)+(1)/(8)=(19)/(24) $
+当 #mi(`n`) 为奇数时，#mi(`(-1)^{n}=-1`)，所以 #mi(`a_{n}=2^{-n}`)；当 #mi(`n`) 为偶数时，#mi(`(-1)^{n}=1`)，所以 #mi(`a_{n}=3^{-n}`). 因此
+
+
+#align(center)[#mitex(`
+\lim_{n\to\infty}\sum_{j=1}^{n}a_{j}  =\frac{\frac{1}{2}}{1-\frac{1}{4}}+\frac{\frac{1}{9}}{1-\frac{1}{9}}=\frac{2}{3}+\frac{1}{8}=\frac{19}{24}
+`)]
+
 
 故应选 C.
-  #choices([$(11)/(24)$], [$(17)/(24)$], [$(19)/(24)$], [$(25)/(24)$], cols: 4)
+  #choices([#mi(`\frac{11}{24}`)], [#mi(`\frac{17}{24}`)], [#mi(`\frac{19}{24}`)], [#mi(`\frac{25}{24}`)], cols: 2)
 ]
 
 #problem(10)[
-某班试用电子投票系统选举班干部候选人. 全班 $k" 名"$同学都有选举权和被选举权，他们的编号分别为 $1$，$2$，$...$，$k$. 规定：同意按“1”，不同意（含弃权）按“0”，令
-$a_(i j)=\b e g i n{c a s e s} 1, & "第\ "i"\ 号同学同意第 "j"\ 号同学当选",\\ 0, & "第\ "i"\ 号同学不同意第 "j"\ 号同学当选", \e n d{c a s e s}$
-其中 $i=1$，$2$，$...$，$k$，且 $j=1$，$2$，$...$，$k$，则同时同意第 $1$，$2$ 号同学当选的人数为（ ）
+某班试用电子投票系统选举班干部候选人. 全班 #mi(`k\text{ \text{名}}`) 同学都有选举权和被选举权，他们的编号分别为 #mi(`1`)，#mi(`2`)，#mi(`\dots`)，#mi(`k`). 规定：同意按“1”，不同意（含弃权）按“0”，令
 
-\answer{C}
+#mi(`a_{ij}=\begin{cases}1, & \text{\text{第}\ }i\text{\ \text{号同学同意第} }j\text{\ \text{号同学当选}},\\
 
-对固定的第 $i$ 号同学，$a_(i 1)a_(i 2)=1$ 当且仅当他同时同意第 $1$、$2$ 号同学当选，否则该乘积为 $0$. 所以把所有同学的这一指标相加，所得人数为
+0, & \text{\text{第}\ }i\text{\ \text{号同学不同意第} }j\text{\ \text{号同学当选}},\end{cases}`)
 
-$ sum_(i=1)^(k)a_(i 1)a_(i 2)=a_(11)a_(12)+a_(21)a_(22)+ dots.c +a_(k 1)a_(k 2) $
+其中 #mi(`i=1`)，#mi(`2`)，#mi(`\dots`)，#mi(`k`)，且 #mi(`j=1`)，#mi(`2`)，#mi(`\dots`)，#mi(`k`)，则同时同意第 #mi(`1`)，#mi(`2`) 号同学当选的人数为（ ）
+
+\answerC
+
+对固定的第 #mi(`i`) 号同学，#mi(`a_{i1}a_{i2}=1`) 当且仅当他同时同意第 #mi(`1`)、#mi(`2`) 号同学当选，否则该乘积为 #mi(`0`). 所以把所有同学的这一指标相加，所得人数为
+
+
+#align(center)[#mitex(`
+\sum_{i=1}^{k}a_{i1}a_{i2}=a_{11}a_{12}+a_{21}a_{22}+\cdots+a_{k1}a_{k2}
+`)]
+
 
 因此应选 C.
-  #choices([$a_(11)+a_(12)+ dots.c +a_(1 k)+a_(21)+a_(22)+ dots.c +a_(2 k)$], [$a_(11)+a_(21)+ dots.c +a_(1 k)+a_(12)+a_(22)+ dots.c +a_(k 2)$], [$a_(11)a_(12)+a_(21)a_(22)+ dots.c +a_(k 1)a_(k 2)$], [$a_(11)a_(21)+a_(12)a_(22)+ dots.c +a_(1 k)a_(2 k)$], cols: 1)
+  #choices([#mi(`a_{11}+a_{12}+\cdots+a_{1k}+a_{21}+a_{22}+\cdots+a_{2k}`)], [#mi(`a_{11}+a_{21}+\cdots+a_{1k}+a_{12}+a_{22}+\cdots+a_{k2}`)], [#mi(`a_{11}a_{12}+a_{21}a_{22}+\cdots+a_{k1}a_{k2}`)], [#mi(`a_{11}a_{21}+a_{12}a_{22}+\cdots+a_{1k}a_{2k}`)], cols: 1)
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-函数 $f(x)=\l g(1+x^2)$，$g(x)= \b e g i n{c a s e s} x+2, & x<-1,\\ 0, & |x| <= 1 ,\\ -x+2, & x>1, \e n d{c a s e s}$
-$h(x)= tan 2 x$ 中，#blank(){} 是偶函数.
-\answer{$f(x)$，$g(x)$}
+函数 #mi(`f(x)=\lg(1+x^{2})`)，#mi(`g(x)=  \begin{cases}x+2,&x<-1,\\  0,&|x|\le 1,\\  -x+2,&x>1,\end{cases}`)
 
-对任意定义域内的 $x$，有 $f(-x)=\l g(1+(-x)^2)=\l g(1+x^2)=f(x)$，所以 $f$ 是偶函数. 对 $g$ 分段考察：当 $x>1$ 时，$g(x)=-x+2$，且 $-x<-1$，故 $g(-x)=(-x)+2=-x+2=g(x)$；当 $x<-1$ 时，$-x>1$，故 $g(-x)=-(-x)+2=x+2=g(x)$；当 $| x| <= 1$ 时，$| -x| <= 1$，从而 $g(-x)=g(x)=0$. 所以 $g$ 也是偶函数.
+#mi(`h(x)=\tan 2x`) 中，\underline{\hspace{2.5em}} 是偶函数.
 
-函数 $h$ 的定义域为 $\{x | cos 2 x != 0 \}$，关于原点对称；在该定义域内，$h(-x)= tan (-2 x)=- tan 2 x=-h(x)$，所以 $h$ 是奇函数而不是偶函数. 因此填 $f(x)$、$g(x)$.
+\answer#mi(`f(x)`)，#mi(`g(x)`)
+
+对任意定义域内的 #mi(`x`)，有 #mi(`f(-x)=\lg(1+(-x)^{2})=\lg(1+x^{2})=f(x)`)，所以 #mi(`f`) 是偶函数. 对 #mi(`g`) 分段考察：当 #mi(`x>1`) 时，#mi(`g(x)=-x+2`)，且 #mi(`-x<-1`)，故 #mi(`g(-x)=(-x)+2=-x+2=g(x)`)；当 #mi(`x<-1`) 时，#mi(`-x>1`)，故 #mi(`g(-x)=-(-x)+2=x+2=g(x)`)；当 #mi(`\lvert x\rvert\leqslant1`) 时，#mi(`\lvert -x\rvert\leqslant1`)，从而 #mi(`g(-x)=g(x)=0`). 所以 #mi(`g`) 也是偶函数.
+
+函数 #mi(`h`) 的定义域为 #mi(`\{x\mid \cos2x\ne0\}`)，关于原点对称；在该定义域内，#mi(`h(-x)=\tan(-2x)=-\tan2x=-h(x)`)，所以 #mi(`h`) 是奇函数而不是偶函数. 因此填 #mi(`f(x)`)、#mi(`g(x)`).
 ]
 
 #problem(12)[
-以双曲线 $(x^2)/(16)-(y^2)/(9)=1$ 右顶点为顶点，左焦点为焦点的抛物线的方程是#blank(){}.
-\answer{$y^2=-36(x-4)$}
+以双曲线 #mi(`\frac{x^{2}}{16}-\frac{y^{2}}{9}=1`) 右顶点为顶点，左焦点为焦点的抛物线的方程是\underline{\hspace{2.5em}}.
 
-双曲线的半长轴为 $4$，半短轴为 $3$，所以半焦距为 $c=sqrt(4^2+3^2)=5$. 因而双曲线的右顶点为 $V(4,0)$，左焦点为 $F(-5,0)$. 设所求抛物线的标准方程为 $y^2=4 p(x-4)$，则其焦点为 $(4+p,0)$. 由 $4+p=-5$ 得 $p=-9$，所以所求抛物线的方程为 $y^2=-36(x-4)$.
+\answer#mi(`y^{2}=-36(x-4)`)
+
+双曲线的半长轴为 #mi(`4`)，半短轴为 #mi(`3`)，所以半焦距为 #mi(`c=\sqrt{4^{2}+3^{2}}=5`). 因而双曲线的右顶点为 #mi(`V(4,0)`)，左焦点为 #mi(`F(-5,0)`). 设所求抛物线的标准方程为 #mi(`y^{2}=4p(x-4)`)，则其焦点为 #mi(`(4+p,0)`). 由 #mi(`4+p=-5`) 得 #mi(`p=-9`)，所以所求抛物线的方程为 #mi(`y^{2}=-36(x-4)`).
 ]
 
 #problem(13)[
-如图，已知底面半径为 $r$ 的圆柱被一个平面所截，剩下部分母线长的最大值为 $a$，最小值为 $b$，那么圆柱被截后剩下部分的体积是#blank(){}.
+如图，已知底面半径为 #mi(`r`) 的圆柱被一个平面所截，剩下部分母线长的最大值为 #mi(`a`)，最小值为 #mi(`b`)，那么圆柱被截后剩下部分的体积是\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2003/img/beijing_science_autumn/q13_fig1.png", width: 6.0cm)]
+#align(center)[#image("/papers/2003/img/beijing_science_autumn/q13_fig1.png", width: 28%)]
 
-\answer{$(1)/(2) pi r^(2)(a+b)$}
 
-取圆柱底面为 $D=\{(x,y) | x^2+y^2 <= r^2\}$，以底面为 $z=0$. 截平面下方剩余部分在底面点 $(x,y)$ 处的母线长度可写成一次函数 $\e l l(x,y)=u x+v y+w$. 若 $(u,v) != (0,0)$，则一次函数在圆盘 $D$ 上的最大值和最小值分别在一对相反点 $(x_0,y_0)$、$(-x_0,-y_0)$ 处取得，因此 $a=\e l l(x_0,y_0)$，$b=\e l l(-x_0,-y_0)$，从而 $a+b=2 w$；若 $u=v=0$，则 $\e l l$ 为常数，结论同样成立.
+\answer#mi(`\frac{1}{2}\pi r^{2}(a+b)`)
+
+取圆柱底面为 #mi(`D=\{(x,y)\mid x^{2}+y^{2}\le r^{2}\}`)，以底面为 #mi(`z=0`). 截平面下方剩余部分在底面点 #mi(`(x,y)`) 处的母线长度可写成一次函数 #mi(`\ell(x,y)=ux+vy+w`). 若 #mi(`(u,v)\ne(0,0)`)，则一次函数在圆盘 #mi(`D`) 上的最大值和最小值分别在一对相反点 #mi(`(x_{0},y_{0})`)、#mi(`(-x_{0},-y_{0})`) 处取得，因此 #mi(`a=\ell(x_{0},y_{0})`)，#mi(`b=\ell(-x_{0},-y_{0})`)，从而 #mi(`a+b=2w`)；若 #mi(`u=v=0`)，则 #mi(`\ell`) 为常数，结论同样成立.
 
 所以剩余部分的体积为
 
-$ V=\i i n t_D\e l l(x,y) d x d y =u\i i n t_(D) x d x d y +v\i i n t_(D) y d x d y +w\i i n t_D d x d y $
 
-前两个积分因圆盘关于原点对称而为 $0$，最后一个积分为 $w pi r^2$，故 $V=w pi r^2=(1)/(2) pi r^2(a+b)$.
+#align(center)[#mitex(`
+V=\iint_{D}\ell(x,y)\,\mathrm{d}x\,\mathrm{d}y  =u\iint_{D}x\,\mathrm{d}x\,\mathrm{d}y  +v\iint_{D}y\,\mathrm{d}x\,\mathrm{d}y  +w\iint_{D}\mathrm{d}x\,\mathrm{d}y
+`)]
+
+
+前两个积分因圆盘关于原点对称而为 #mi(`0`)，最后一个积分为 #mi(`w\pi r^{2}`)，故 #mi(`V=w\pi r^{2}=\frac{1}{2}\pi r^{2}(a+b)`).
 ]
 
 #problem(14)[
-将长度为 1 的铁丝分成两段，分别围成一个正方形和一个圆形，要使正方形与圆的面积之和最小，正方形的周长应为#blank(){}.
-\answer{$(4)/(4+ pi)$}
+将长度为 1 的铁丝分成两段，分别围成一个正方形和一个圆形，要使正方形与圆的面积之和最小，正方形的周长应为\underline{\hspace{2.5em}}.
 
-设正方形的周长为 $x$，则圆的周长为 $1-x$，其中 $0<x<1$. 正方形和圆的面积之和为
+\answer#mi(`\frac{4}{4+\pi}`)
 
-$ S(x)=(x^2)/(16)+((1-x)^2)/(4 pi) $
+设正方形的周长为 #mi(`x`)，则圆的周长为 #mi(`1-x`)，其中 #mi(`0<x<1`). 正方形和圆的面积之和为
 
-求导得 $S'(x)=(x)/(8)-(1-x)/(2 pi)$，令 $S'(x)=0$，得到 $pi x=4(1-x)$，即 $x=(4)/(4+ pi)$. 又 $S''(x)=(1)/(8)+(1)/(2 pi)>0$，所以此时面积之和取得最小值. 因此正方形的周长为 $(4)/(4+ pi)$.
+
+#align(center)[#mitex(`
+S(x)=\frac{x^{2}}{16}+\frac{(1-x)^{2}}{4\pi}
+`)]
+
+
+求导得 #mi(`S'(x)=\frac{x}{8}-\frac{1-x}{2\pi}`)，令 #mi(`S'(x)=0`)，得到 #mi(`\pi x=4(1-x)`)，即 #mi(`x=\frac{4}{4+\pi}`). 又 #mi(`S''(x)=\frac{1}{8}+\frac{1}{2\pi}>0`)，所以此时面积之和取得最小值. 因此正方形的周长为 #mi(`\frac{4}{4+\pi}`).
 ]
 
 #part-header("解答题")
 
 #problem(15)[
-已知函数 $f(x)= cos ""^(4)x-2 sin x cos x- sin ""^(4)x$.
-
-+ (1) 求 $f(x)$ 的最小正周期；
-+ (2) 若 $x in [0,(pi)/(2)]$，求 $f(x)$ 的最大值，最小值.
+已知函数 #mi(`f(x)=\cos^{4}x-2\sin x\cos x-\sin^{4}x`).
 
 
++ (1) 
 
-+ (1) 由 $cos ""^(4) x- sin ""^(4) x=( cos ""^(2) x- sin ""^(2) x)( cos ""^(2) x+ sin ""^(2) x)= cos 2 x$，且 $2 sin x cos x= sin 2 x$，得 $f(x)= cos 2 x- sin 2 x=sqrt(2) cos (2 x+(pi)/(4))$. 因为自变量 $x$ 的系数为 $2$，所以 $f(x)$ 的最小正周期为 $T=(2 pi)/(2)= pi$.
-+ (2) 令 $t=2 x$，则 $t in [0, pi ]$，并设 $phi.alt (t)= cos t- sin t$，于是 $f(x)= phi.alt (t)$. 有 $phi.alt '(t)=- sin t- cos t$，在区间 $[0, pi ]$ 内令 $phi.alt '(t)=0$，得 $t=(3 pi)/(4)$. 比较端点和驻点的函数值：$phi.alt (0)=1$，$phi.alt ((3 pi)/(4))=-sqrt(2)$，$phi.alt ( pi )=-1$. 因而当 $t=0$，即 $x=0$ 时，$f(x)$ 取得最大值 $1$；当 $t=(3 pi)/(4)$，即 $x=(3 pi)/(8)$ 时，$f(x)$ 取得最小值 $-sqrt(2)$.
+
+
+
++ (1)
 ]
 
 #problem(16)[
-已知数列 $\{a_n\}$ 是等差数列，且 $a_1=2$，$a_1+a_2+a_3=12$.
-
-+ (1) 求数列 $\{a_n\}$ 的通项公式；
-+ (2) 令 $b_n=a_(n) x^n$（$x in RR$）. 求数列 $\{b_n\}$ 前 $n$ 项和的公式.
+已知数列 #mi(`\{a_{n}\}`) 是等差数列，且 #mi(`a_{1}=2`)，#mi(`a_{1}+a_{2}+a_{3}=12`).
 
 
++ (1) 
 
-+ (1) 设等差数列的公差为 $d$，则 $a_2=2+d$，$a_3=2+2 d$. 由 $a_1+a_2+a_3=12$ 得 $2+(2+d)+(2+2 d)=12$，即 $6+3 d=12$，所以 $d=2$. 因此 $a_n=a_1+(n-1)d=2+2(n-1)=2 n$.
-+ (2) 由上一问 $b_n=2 n x^n$. 设前 $n$ 项和为 $S_n$，则 $S_n=2 x+4 x^2+ dots.c +2 n x^n$. 当 $x != 1$ 时，将等式两边乘以 $x$，得 $x S_n=2 x^2+4 x^3+ dots.c +2 n x^(n+1)$，两式相减可得 $(1-x)S_n=2(x+x^2+ dots.c +x^n-n x^(n+1))$. 又 $x+x^2+ dots.c +x^n=(x(1-x^n))/(1-x)$，所以 $S_n=(2[x-(n+1)x^(n+1)+n x^(n+2)])/((1-x)^2)$. 当 $x=1$ 时，$S_n=2(1+2+ dots.c +n)=n(n+1)$. 因而前 $n$ 项和为
 
-$ S_n=\b e g i n{c a s e s} (2[x-(n+1)x^(n+1)+n x^(n+2)])/((1-x)^2), & x != 1 ,\\ n(n+1), & x=1. \e n d{c a s e s} $
+
+
++ (1)
 ]
 
 #problem(17)[
-如图，正三棱柱 $A B C-A_(1) B_(1) C_1$ 的底面边长为 $3$，侧棱 $A A_1=(3 sqrt(3))/(2)$，$D$ 是 $C B$ 延长线上一点，且 $B D=B C$.
+如图，正三棱柱 #mi(`ABC-A_{1}B_{1}C_{1}`) 的底面边长为 #mi(`3`)，侧棱 #mi(`AA_{1}=\frac{3\sqrt{3}}{2}`)，#mi(`D`) 是 #mi(`CB`) 延长线上一点，且 #mi(`BD=BC`).
 
 
-+ (1) 求证：直线 $B C_1 parallel$ 平面 $A B_(1) D$；
-+ (2) 求二面角 $B_1-A D-B$ 的大小；
-+ (3) 求三棱锥 $C_1-A B B_1$ 的体积.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2003/img/beijing_science_autumn/q17_fig1.png", width: 4.8cm)]
 
-令 $h=(3 sqrt(3))/(2)$，建立直角坐标系，使 $B(0,0,0)$，$C(3,0,0)$，$A((3)/(2),h,0)$，且棱柱沿 $z$ 轴方向延伸. 由 $C$，$B$，$D$ 依次在同一直线上且 $B D=B C=3$，得 $D(-3,0,0)$，又 $B_1(0,0,h)$，$C_1(3,0,h)$.
+#align(center)[#image("/papers/2003/img/beijing_science_autumn/q17_fig1.png", width: 28%)]
 
-+ (1) 由坐标直接得到 $arrow(B C_1)=(3,0,h)=arrow(D B_1)$. 直线 $D B_1$ 在平面 $A B_(1) D$ 内，且平面 $A B_(1) D$ 的方程为 $h(x+3)-(9)/(2)y-3 z=0$，点 $B$ 不在此平面内. 因此 $B C_1 parallel D B_1$，且 $B C_1$ 平行于平面 $A B_(1) D$.
-+ (2) 平面 $A D B$ 是底面所在的平面，其一个法向量为 $bold(n)_2=(0,0,1)$. 平面 $A D B_1$ 内取 $arrow(D A)=((9)/(2),h,0)$，$arrow(D B_1)=(3,0,h)$，于是其一个法向量为 $bold(n)_1=arrow(D A)\t i m e s a r r o w(D B_1)=(h^2,-(9)/(2)h,-3 h)$. 代入 $h=(3 sqrt(3))/(2)$ 得 $\l V e r t b o l d(n)_1||=9 sqrt(3)$，且 $\l v e r t b o l d(n)_1\c d o t b o l d(n)_2|=3 h=(9 sqrt(3))/(2)$. 设二面角 $B_1-A D-B$ 的平面角为 $theta$，则 $cos theta =(\l v e r t b o l d(n)_1\c d o t b o l d(n)_2|)/(\l V e r t b o l d(n)_1||\l V e r t b o l d(n)_2||)=(1)/(2)$，所以 $theta =60^( degree )$.
-+ (3) 三角形 $A B B_1$ 是直角三角形，故 $S_( triangle A B B_1)=(1)/(2) dot A B dot B B_1=(1)/(2) dot 3 dot h=(9 sqrt(3))/(4)$. 平面 $A B B_1$ 是过 $A B$ 的竖直平面，点 $C_1$ 到该平面的距离等于底面内点 $C$ 到边 $A B$ 的距离，即正三角形 $A B C$ 的高 $h$. 因此三棱锥 $C_1-A B B_1$ 的体积为 $V=(1)/(3)S_( triangle A B B_1)h=(1)/(3) dot (9 sqrt(3))/(4) dot (3 sqrt(3))/(2)=(27)/(8)$.
+
+令 #mi(`h=\frac{3\sqrt{3}}{2}`)，建立直角坐标系，使 #mi(`B(0,0,0)`)，#mi(`C(3,0,0)`)，#mi(`A(\frac{3}{2},h,0)`)，且棱柱沿 #mi(`z`) 轴方向延伸. 由 #mi(`C`)，#mi(`B`)，#mi(`D`) 依次在同一直线上且 #mi(`BD=BC=3`)，得 #mi(`D(-3,0,0)`)，又 #mi(`B_{1}(0,0,h)`)，#mi(`C_{1}(3,0,h)`).
+
+
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-如图，椭圆的长轴 $A_(1) A_2$ 与 $x$ 轴平行，短轴 $B_(1) B_2$ 在 $y$ 轴上，中心为 $M(0,r)$（$b>r>0$）.
+如图，椭圆的长轴 #mi(`A_{1}A_{2}`) 与 #mi(`x`) 轴平行，短轴 #mi(`B_{1}B_{2}`) 在 #mi(`y`) 轴上，中心为 #mi(`M(0,r)`)（#mi(`b>r>0`)）.
 
 
-+ (1) 写出椭圆的方程，求椭圆的焦点坐标及离心率；
-+ (2) 直线 $y=k_(1) x$ 交椭圆于两点 $C(x_1,y_1)$，$D(x_2,y_2)$（$y_2>0$）；直线 $y=k_(2) x$ 交椭圆于两点 $G(x_3,y_3)$，$H(x_4,y_4)$（$y_4>0$）. 求证：$(k_(1) x_(1) x_2)/(x_1+x_2)=(k_(2) x_(3) x_4)/(x_3+x_4)$；
-+ (3) 对于前一问中的 $C$，$D$，$G$，$H$，设 $C H$ 交 $x$ 轴于点 $P$，$G D$ 交 $x$ 轴于点 $Q$. 求证：$|O P|=|O Q|$.（证明过程不考虑 $C H$ 或 $G D$ 垂直于 $x$ 轴的情形）
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2003/img/beijing_science_autumn/q18_fig1.png", width: 4.5cm)]
+
+#align(center)[#image("/papers/2003/img/beijing_science_autumn/q18_fig1.png", width: 28%)]
 
 
-+ (1) 由长轴、短轴的方向知 $a>b$，结合题设 $b>r>0$，故 $a>b>r>0$. 椭圆中心为 $M(0,r)$，半长轴为 $a$，半短轴为 $b$，所以方程为 $(x^2)/(a^2)+((y-r)^2)/(b^2)=1$. 设 $c=sqrt(a^2-b^2)$，则两个焦点为 $F_1(-c,r)$、$F_2(c,r)$，离心率为 $e=(c)/(a)=\f r a c{sqrt(a^2-b^2)}a$.
-+ (2) 对任意斜率为 $k$ 的直线 $y=k x$，代入椭圆方程并整理，得 $(b^2+a^(2) k^2)x^2-2 a^(2) r k x+a^2(r^2-b^2)=0$. 由于 $y_2=k_(1) x_2>0$、$y_4=k_(2) x_4>0$，有 $k_1 != 0$、$k_2 != 0$，下列分式均有意义. 当 $k=k_1$ 时，由韦达定理有 $x_1+x_2=(2 a^(2) r k_1)/(b^2+a^(2) k_1^2)$，$x_(1) x_2=(a^2(r^2-b^2))/(b^2+a^(2) k_1^2)$，从而 $(k_(1) x_(1) x_2)/(x_1+x_2)=(r^2-b^2)/(2 r)$. 当 $k=k_2$ 时，同一方程给出 $x_3+x_4=(2 a^(2) r k_2)/(b^2+a^(2) k_2^2)$，$x_(3) x_4=(a^2(r^2-b^2))/(b^2+a^(2) k_2^2)$，从而 $(k_(2) x_(3) x_4)/(x_3+x_4)=(r^2-b^2)/(2 r)$. 因此 $(k_(1) x_(1) x_2)/(x_1+x_2)=(k_(2) x_(3) x_4)/(x_3+x_4)$.
-+ (3) 设 $P=(p,0)$，$Q=(q,0)$. 由两点式求直线 $C H$ 与 $x$ 轴交点的横坐标，得 $p=(x_(1) y_4-x_(4) y_1)/(y_4-y_1)=(x_(1) x_4(k_2-k_1))/(k_(2) x_4-k_(1) x_1)$. 由于 $D$，$Q$，$G$ 三点共线，有 $(x_2-q)/(x_3-q)=(y_2)/(y_3)=(k_(1) x_2)/(k_(2) x_3)$，解得 $q=(x_(3) y_2-x_(2) y_3)/(y_2-y_3)=(x_(2) x_3(k_1-k_2))/(k_(1) x_2-k_(2) x_3)$. 由上一问的等式可得 $k_(1) x_(1) x_2(x_3+x_4)=k_(2) x_(3) x_4(x_1+x_2)$，整理为 $(x_(1) x_4)/(k_(2) x_4-k_(1) x_1)=(x_(2) x_3)/(k_(1) x_2-k_(2) x_3)$. 结合 $p$ 与 $q$ 的表达式，得到 $p=-q$，所以 $| O P|=| O Q|$.
+
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-有三个新兴城镇，分别位于 $A$，$B$，$C$ 三点处，且 $A B=A C=a$，$B C=2 b$. 今计划合建一个中心医院，为同时方便三镇，准备建在 $B C$ 的垂直平分线上的 $P$ 点处.（建立坐标系如图）
+有三个新兴城镇，分别位于 #mi(`A`)，#mi(`B`)，#mi(`C`) 三点处，且 #mi(`AB=AC=a`)，#mi(`BC=2b`). 今计划合建一个中心医院，为同时方便三镇，准备建在 #mi(`BC`) 的垂直平分线上的 #mi(`P`) 点处.（建立坐标系如图）
 
 
-+ (1) 若希望点 $P$ 到三镇距离的平方和为最小，点 $P$ 应位于何处？
-+ (2) 若希望点 $P$ 到三镇的最远距离为最小，点 $P$ 应位于何处？
++ (1) 
 
 
 
-#align(center)[#image("/papers/2003/img/beijing_science_autumn/q19_fig1.png", width: 6.0cm)]
 
-由三角形的非退化性有 $a>b>0$. 设 $h=sqrt(a^2-b^2)>0$，则由题设可取 $A(0,h)$，$B(-b,0)$，$C(b,0)$，并设 $P(0,t)$.
+#align(center)[#image("/papers/2003/img/beijing_science_autumn/q19_fig1.png", width: 28%)]
 
-+ (1) 点 $P$ 到三镇距离的平方和为 $L(t)=(t-h)^2+(t^2+b^2)+(t^2+b^2)=3 t^2-2 h t+h^2+2 b^2=3(t-(h)/(3))^2+(2 h^2)/(3)+2 b^2$. 因此当 $t=(h)/(3)$ 时平方和最小，即 $P$ 位于 $A O$ 上且 $O P=(h)/(3)=\f r a c{sqrt(a^2-b^2)}3$.
-+ (2) 记点 $P$ 到三镇的最远距离为 $F(t)= max \{|t-h|,sqrt(t^2+b^2)\}$. 当 $t<0$ 时，$|t-h|>h$ 且 $sqrt(t^2+b^2)>b$，故不可能优于 $t=0$；当 $t>h$ 时，两项均随 $t$ 增大而增大，故最优点在 $[0,h]$ 内. 在 $[0,h]$ 上，$h-t$ 单调递减，$sqrt(t^2+b^2)$ 单调递增，二者相等的条件为 $(h-t)^2=t^2+b^2$，即 $t=(h^2-b^2)/(2 h)$. 若 $h\l e q b$，该值不为正，且在 $[0,h]$ 上始终有 $h-t\l e q s q r t(t^2+b^2)$，所以 $F(t)$ 在 $t=0$ 时最小，$P=O$. 若 $h>b$，令 $t_0=(h^2-b^2)/(2 h)$，则 $0<t_0<h$，在 $0\l e q t\l e q t_0$ 时 $F(t)=h-t$ 递减，在 $t_0\l e q t\l e q h$ 时 $F(t)=sqrt(t^2+b^2)$ 递增，故最小点为 $P(0,t_0)$. 由于 $h^2=a^2-b^2$，这等价于：当 $a^2\l e q2 b^2$ 时 $P=O$；当 $a^2>2 b^2$ 时 $P$ 位于 $A O$ 上，且 $O P=(a^2-2 b^2)/(2 sqrt(a^2-b^2))$.
+
+由三角形的非退化性有 #mi(`a>b>0`). 设 #mi(`h=\sqrt{a^{2}-b^{2}}>0`)，则由题设可取 #mi(`A(0,h)`)，#mi(`B(-b,0)`)，#mi(`C(b,0)`)，并设 #mi(`P(0,t)`).
+
+
++ (1)
 ]
 
 #problem(20)[
-设 $y=f(x)$ 是定义在区间 $[-1,1]$ 上的函数，且满足条件：
-\begin{circlelist}
-\item $f(-1)=f(1)=0$；
-\item 对任意的 $u$，$v in [-1,1]$，都有 $|f(u)-f(v)| <= |u-v|$.
-\end{circlelist}
+设 #mi(`y=f(x)`) 是定义在区间 #mi(`[-1,1]`) 上的函数，且满足条件：
 
-+ (1) 证明：对任意的 $x in [-1,1]$，$x-1 <= f(x) <= 1 -x$；
-+ (2) 证明：对任意的 $u$，$v in [-1,1]$，$|f(u)-f(v)| <= 1$；
-+ (3) 在区间 $[-1,1]$ 上是否存在满足题设条件的奇函数 $y=f(x)$，且使得 $\b e g i n{c a s e s} |f(u)-f(v)|<|u-v|, & u,v in [0,(1)/(2)],\\ |f(u)-f(v)|=|u-v|, & u,v in [(1)/(2),1], \e n d{c a s e s}$ 若存在，请举一例；若不存在，请说明理由.
+
++ (1) #mi(`f(-1)=f(1)=0`)；
++ (2) 对任意的 #mi(`u`)，#mi(`v\in[-1,1]`)，都有 #mi(`|f(u)-f(v)|\le |u-v|`).
 
 
 
-+ (1) 由题设 $f(1)=0$，对任意 $x in [-1,1]$，有 $| f(x)|=| f(x)-f(1)| <= | x-1|=1-x$. 因此 $-(1-x)\l e q f(x)\l e q1-x$，即 $x-1\l e q f(x)\l e q1-x$.
-+ (2) 不妨设 $u\l e q v$，令 $d=v-u$，则 $0\l e q d\l e q2$. 由题设直接得到 $| f(u)-f(v)|\l e q d$. 另一方面，利用 $f(-1)=f(1)=0$ 以及 Lipschitz 条件，有 $| f(u)-f(v)|\l e q| f(u)-f(-1)|+| f(1)-f(v)|\l e q(u+1)+(1-v)=2-d$. 所以 $| f(u)-f(v)|\l e q min \{d,2-d\}\l e q1$.
-+ (3) 若存在这样的奇函数，则由奇性知 $f(0)=0$. 在第二个条件中取 $u=(1)/(2)$，$v=1$，结合 $f(1)=0$ 得 $| f((1)/(2))|=(1)/(2)$. 但在第一个条件中取 $u=0$，$v=(1)/(2)$，则应有 $| f((1)/(2))-f(0)|<(1)/(2)$，即 $| f((1)/(2))|<(1)/(2)$，矛盾. 因此不存在满足条件的函数.
+
++ (1) 
++ (2) 
+
+
+
+
++ (1) 
++ (2)
 ]
 

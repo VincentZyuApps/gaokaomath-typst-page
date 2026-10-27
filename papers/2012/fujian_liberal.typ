@@ -217,7 +217,9 @@
 #problem(16)[
 某地区规划道路建设，考虑道路铺设方案；方案设计图中，点表示城市，两点之间连线表示两城市间可铺设道路，连线上数据表示两城市间铺设道路的费用；要求从任一城市都能到达其余各城市，并且铺设道路的总费用最小；例如：在三个城市道路设计中，若城市间可铺设道路的线路图如图 1，则最优设计方案如图 2；此时铺设道路的最小总费用为 10. 现给出该地区可铺设道路的线路图如图 3，则铺设道路的最小总费用为\underline{\hspace{2.5em}}.
 
-[max width=0.72\linewidth]img/2012/fujian_liberal/q16_fig1.png
+
+#align(center)[#image("/papers/2012/img/fujian_liberal/q16_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`16`)])
@@ -262,7 +264,9 @@
 
 
 
-[max width=0.42\linewidth]img/2012/fujian_liberal/q19_fig1.png
+
+#align(center)[#image("/papers/2012/img/fujian_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -297,7 +301,9 @@
 
 
 
-[max width=0.42\linewidth]img/2012/fujian_liberal/q21_fig1.png
+
+#align(center)[#image("/papers/2012/img/fujian_liberal/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

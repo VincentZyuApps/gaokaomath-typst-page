@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,156 +11,151 @@
 #part-header("试题部分")
 
 #problem(1)[
-+ (1) 利用对数性质，计算 $\l g^(2)5+\l g2 dot \l g50$. （注）$\l g$ 是以 $10$ 为底的对数 $log _(10)$ 的记号.
-+ (2) 设 $m$ 是实数，求证方程 $2 x^(2)-(4 m-1)x-m^(2)-m=0$ 的两个根必定都是实数.
-+ (3) 设 $M$ 是 $triangle A B C$ 的边 $A C$ 的中点，过 $M$ 作直线交 $A B$ 直线于 $E$，过 $B$ 作直线平行于 $M E$ 交 $A C$ 直线于 $F$. 求证 $triangle A E F$ 的面积等于 $triangle A B C$ 的面积的一半.
-+ (4) 一个三角形三边的长分别是 $3" 尺"$，$4" 尺"$ 及 $sqrt(37)" 尺"$. 求这个三角形的最大角的度数.
-+ (5) 设 $tan alpha$ 与 $tan beta$ 是方程 $x^(2)+6 x+7=0$ 的两个根，求证 $sin ( alpha + beta )= cos ( alpha + beta )$.
++ (1) 
++ (2) 
++ (3) 
++ (4)
 ]
 
 #solution[
-+ (1) 由 $\l g(2 dot 5 )=\l g10=1$，得 $\l g2+\l g5=1$，所以 $\l g2=1-\l g5$. 又因为 $50=10 dot 5$，所以 $\l g50=\l g10+\l g5=1+\l g5$. 代入原式，得
-
-$ \l g^(2)5+\l g2 dot \l g50=\l g^(2)5+(1-\l g5)(1+\l g5)=1 $
-
-因此原式的值为 $1$.
-+ (2) 方程的二次项系数为 $2$，不为零. 其判别式为
-
-$ Delta =(4 m-1)^(2)-4 dot 2 dot [-(m^(2)+m)]=(4 m-1)^(2)+8(m^(2)+m)=24 m^(2)+1 $
-
-因为 $m$ 是实数，所以 $m^(2)\g e q0$，从而 $Delta =24 m^(2)+1>0$. 因此该方程有两个互不相等的实数根，结论得证.
-+ (3) 取直角坐标系，并以 $A(C)/(2)$ 为长度单位，使 $A=(0,0)$，$C=(2,0)$，于是 $M=(1,0)$. 设 $B=(u,v)$，其中 $v != 0$. 因为 $E$ 在直线 $A B$ 上，可设 $E=(t u,t v)$. 这里 $t != 0$，否则 $E=A$，直线 $M E$ 与 $A C$ 重合，过 $B$ 作的平行线不与 $A C$ 相交，构造不成立.
-
-由 $M$，$E$ 两点坐标，得 $arrow(M E)=(t u-1,t v)$. 直线 $B F$ 与 $M E$ 平行，所以直线 $B F$ 上的点可表示为
-
-$ B+\l a m b d a a r r o w(M E)=(u+ lambda (t u-1),v+ lambda t v) $
-
-由于 $F$ 在直线 $A C$ 上，其纵坐标为零，故 $v+ lambda t v=0$. 因为 $v != 0$ 且 $t != 0$，所以 $lambda =-t^(-1)$，从而
-
-$ F=(u-(t u-1)/(t),0)=(t^(-1),0) $
-
-于是
-
-$ S_( triangle A E F)=(1)/(2)|\det\b e g i n{p m a t r i x}t u&t v\\ t^(-1)&0\e n d{p m a t r i x}|=(|v|)/(2) $
-
-另一方面，$C=(2,0)$，所以
-
-$ S_( triangle A B C)=(1)/(2)|\det\b e g i n{p m a t r i x}u&v\\ 2&0\e n d{p m a t r i x}|=|v| $
-
-因此 $S_( triangle A E F)=(1)/(2)S_( triangle A B C)$，结论得证.
-+ (4) 因为 $sqrt(37)>4>3$，所以最大角 $theta$ 的对边为 $sqrt(37)$. 由余弦定理，
-
-$ 37=3^(2)+4^(2)-2 dot 3 dot 4 cos theta $
-
-即 $cos theta =-(1)/(2)$. 三角形内角满足 $0^( degree )< theta <180^( degree )$，故 $theta =120^( degree )$.
-+ (5) 由韦达定理，$tan alpha + tan beta =-6$，$tan alpha dot tan beta =7$. 题设说明 $tan alpha$、$tan beta$ 有定义，且 $1- tan alpha tan beta =1-7=-6 != 0$，所以正切和角公式适用. 因而
-
-$ tan ( alpha + beta )=(tan alpha + tan beta)/(1- tan alpha tan beta)=(-6)/(-6)=1 $
-
-又因 $cos ( alpha + beta ) != 0$，故
-
-$ (sin ( alpha + beta ))/(cos ( alpha + beta ))=1 $
-
-从而 $sin ( alpha + beta )= cos ( alpha + beta )$，结论得证.
++ (1) 
++ (2) 
++ (3) 
++ (4)
 ]
 
 #problem(2)[
-解联立方程 $\b e g i n{c a s e s} 7 sqrt(x+y)-x-y=12,\\ x^(2)+y^(2)=136. \e n d{c a s e s}$
+解联立方程 #mi(`\begin{cases}7\sqrt{x+y}-x-y=12,\\  x^{2}+y^{2}=136.\end{cases}`)
 ]
 
 #solution[
-由根式有意义知 $x+y\g e q0$. 令 $u=sqrt(x+y)$，则 $u\g e q0$，且第一个方程化为 $7 u-u^(2)=12$，即
-$u^(2)-7 u+12=0$，$(u-3)(u-4)=0$，
-所以 $u=3$ 或 $u=4$，从而 $x+y=9$ 或 $x+y=16$.
+由根式有意义知 #mi(`x+y\geq0`). 令 #mi(`u=\sqrt{x+y}`)，则 #mi(`u\geq0`)，且第一个方程化为 #mi(`7u-u^{2}=12`)，即
+
+#mi(`u^{2}-7u+12=0`)，#mi(`\left(u-3\right)\left(u-4\right)=0`)，
+
+所以 #mi(`u=3`) 或 #mi(`u=4`)，从而 #mi(`x+y=9`) 或 #mi(`x+y=16`).
 
 又因为
 
-$ 2(x^(2)+y^(2))-(x+y)^(2)=x^(2)-2 x y+y^(2)=(x-y)^(2) $
 
-所以可在两种情形下分别求出 $x-y$，再利用 $x=((x+y)+(x-y))/(2)$，$y=((x+y)-(x-y))/(2)$ 求出 $x$，$y$.
+#align(center)[#mitex(`
+2\left(x^{2}+y^{2}\right)-\left(x+y\right)^{2}=x^{2}-2xy+y^{2}=\left(x-y\right)^{2}
+`)]
 
-当 $x+y=9$ 时，
 
-$ (x-y)^(2)=2 dot 136 -9^(2)=191 $
+所以可在两种情形下分别求出 #mi(`x-y`)，再利用 #mi(`x=\frac{(x+y)+(x-y)}{2}`)，#mi(`y=\frac{(x+y)-(x-y)}{2}`) 求出 #mi(`x`)，#mi(`y`).
 
-所以 $x-y=\p m s q r t(191)$. 当 $x-y=sqrt(191)$ 时，
-$x=(9+sqrt(191))/(2)$，$y=(9-sqrt(191))/(2)$
-当 $x-y=-sqrt(191)$ 时，
-$x=(9-sqrt(191))/(2)$，$y=(9+sqrt(191))/(2)$
+当 #mi(`x+y=9`) 时，
 
-当 $x+y=16$ 时，
 
-$ (x-y)^(2)=2 dot 136 -16^(2)=16 $
+#align(center)[#mitex(`
+\left(x-y\right)^{2}=2\cdot136-9^{2}=191
+`)]
 
-所以 $x-y= +- 4$. 当 $x-y=4$ 时，$x=10$，$y=6$；当 $x-y=-4$ 时，$x=6$，$y=10$.
 
-这四组数都满足 $x+y\g e q0$，并且由构造满足 $x+y=9$ 或 $x+y=16$ 以及 $x^(2)+y^(2)=136$. 代回第一个方程，分别得到 $7 dot 3 -9=12$ 或 $7 dot 4 -16=12$. 因此原联立方程的解为
+所以 #mi(`x-y=\pm\sqrt{191}`). 当 #mi(`x-y=\sqrt{191}`) 时，
 
-$ \{ ((9+sqrt(191))/(2),(9-sqrt(191))/(2)), ((9-sqrt(191))/(2),(9+sqrt(191))/(2)), (10,6),(6,10) \} $
+#mi(`x=\frac{9+\sqrt{191}}{2}`)，#mi(`y=\frac{9-\sqrt{191}}{2}`)
+
+当 #mi(`x-y=-\sqrt{191}`) 时，
+
+#mi(`x=\frac{9-\sqrt{191}}{2}`)，#mi(`y=\frac{9+\sqrt{191}}{2}`)
+
+当 #mi(`x+y=16`) 时，
+
+
+#align(center)[#mitex(`
+\left(x-y\right)^{2}=2\cdot136-16^{2}=16
+`)]
+
+
+所以 #mi(`x-y=\pm4`). 当 #mi(`x-y=4`) 时，#mi(`x=10`)，#mi(`y=6`)；当 #mi(`x-y=-4`) 时，#mi(`x=6`)，#mi(`y=10`).
+
+这四组数都满足 #mi(`x+y\geq0`)，并且由构造满足 #mi(`x+y=9`) 或 #mi(`x+y=16`) 以及 #mi(`x^{2}+y^{2}=136`). 代回第一个方程，分别得到 #mi(`7\cdot3-9=12`) 或 #mi(`7\cdot4-16=12`). 因此原联立方程的解为
+
+
+#align(center)[#mitex(`
+\left\{  \left(\frac{9+\sqrt{191}}{2},\frac{9-\sqrt{191}}{2}\right),  \left(\frac{9-\sqrt{191}}{2},\frac{9+\sqrt{191}}{2}\right),  (10,6),(6,10)  \right\}
+`)]
 ]
 
 #problem(3)[
-设 $P$ 是等边三角形 $A B C$ 外接圆弧 $\m y a r c{B C}$（不含 $A$）上的一点，求证 $P A^(2)=A B^(2)+P B dot P C$.
+设 #mi(`P`) 是等边三角形 #mi(`ABC`) 外接圆弧 #mi(`\overset{\frown}{BC}`)（不含 #mi(`A`)）上的一点，求证 #mi(`PA^{2}=AB^{2}+PB\cdot PC`).
 ]
 
 #solution[
-设直线 $A P$ 与 $B C$ 相交于 $M$. 因为 $P$ 在弧 $B C$（不含 $A$）上，$M$ 在线段 $B C$ 上，且 $A M+M P=A P$.
+设直线 #mi(`AP`) 与 #mi(`BC`) 相交于 #mi(`M`). 因为 #mi(`P`) 在弧 #mi(`BC`)（不含 #mi(`A`)）上，#mi(`M`) 在线段 #mi(`BC`) 上，且 #mi(`AM+MP=AP`).
 
 \begingroup
 
-
-#align(center)[#image("/papers/1956/img/national/q3_solution_fig1.png", width: 4.4cm)]
+ 
+#align(center)[#image("/papers/1956/img/national/q3_solution_fig1.png", width: 28%)]
+ 
 
 \endgroup
 
-由于 $A$，$B$，$P$，$C$ 四点共圆，$angle A P B= angle A C B= angle A B M$，又因 $A$，$P$，$M$ 三点共线，$angle P A B= angle M A B$. 所以 $triangle A P B tilde triangle A M B$，从而
-
-$ A P dot A M=A B^(2) $
+由于 #mi(`A`)，#mi(`B`)，#mi(`P`)，#mi(`C`) 四点共圆，#mi(`\angle APB=\angle ACB=\angle ABM`)，又因 #mi(`A`)，#mi(`P`)，#mi(`M`) 三点共线，#mi(`\angle PAB=\angle MAB`). 所以 #mi(`\triangle APB\sim\triangle AMB`)，从而
 
 
-等边三角形的内角均为 $60^( degree )$. 由圆周角定理，$angle A P C= angle B P A=60^( degree )$. 因为 $P$，$M$，$A$ 三点共线，所以 $angle A P C= angle B P M$；又因为 $A$，$B$，$P$，$C$ 四点共圆，$angle P A C= angle P B C$，而 $B$，$M$，$C$ 三点共线，故 $angle P A C= angle P B M$. 因此 $triangle A P C tilde triangle B P M$，从而
+#align(center)[#mitex(`
+AP\cdot AM=AB^{2}
+`)]
 
-$ A P dot M P=P B dot P C $
+
+等边三角形的内角均为 #mi(`60^{\circ}`). 由圆周角定理，#mi(`\angle APC=\angle BPA=60^{\circ}`). 因为 #mi(`P`)，#mi(`M`)，#mi(`A`) 三点共线，所以 #mi(`\angle APC=\angle BPM`)；又因为 #mi(`A`)，#mi(`B`)，#mi(`P`)，#mi(`C`) 四点共圆，#mi(`\angle PAC=\angle PBC`)，而 #mi(`B`)，#mi(`M`)，#mi(`C`) 三点共线，故 #mi(`\angle PAC=\angle PBM`). 因此 #mi(`\triangle APC\sim\triangle BPM`)，从而
 
 
-将两式相加，得 $A P dot A M+A P dot M P=A B^(2)+P B dot P C$. 由 $A M+M P=A P$，左边等于 $A P^(2)$，所以 $P A^(2)=A B^(2)+P B dot P C$，结论得证.
+#align(center)[#mitex(`
+AP\cdot MP=PB\cdot PC
+`)]
+
+
+将两式相加，得 #mi(`AP\cdot AM+AP\cdot MP=AB^{2}+PB\cdot PC`). 由 #mi(`AM+MP=AP`)，左边等于 #mi(`AP^{2}`)，所以 #mi(`PA^{2}=AB^{2}+PB\cdot PC`)，结论得证.
 ]
 
 #problem(4)[
-有一四棱柱体，底面 $A B C D$ 为菱形，$angle A'A B= angle A'A D$（如图），求证平面 $A'A C C'$ 垂直于底面 $A B C D$.
+有一四棱柱体，底面 #mi(`ABCD`) 为菱形，#mi(`\angle A'AB=\angle A'AD`)（如图），求证平面 #mi(`A'ACC'`) 垂直于底面 #mi(`ABCD`).
 
 
-#align(center)[#image("/papers/1956/img/national/q4_fig1.png", width: 4.8cm)]
+#align(center)[#image("/papers/1956/img/national/q4_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设 $A C$ 与 $B D$ 交于 $O$. 因为 $A B C D$ 是菱形，所以两条对角线互相垂直且互相平分，故 $A O bot B D$，且 $O$ 是 $B D$ 的中点.
+设 #mi(`AC`) 与 #mi(`BD`) 交于 #mi(`O`). 因为 #mi(`ABCD`) 是菱形，所以两条对角线互相垂直且互相平分，故 #mi(`AO\perp BD`)，且 #mi(`O`) 是 #mi(`BD`) 的中点.
 
 \begingroup
 
-
-#align(center)[#image("/papers/1956/img/national/q4_solution_fig1.png", width: 4.4cm)]
+ 
+#align(center)[#image("/papers/1956/img/national/q4_solution_fig1.png", width: 28%)]
+ 
 
 \endgroup
 
-因为 $A B=A D$，$A'A$ 是公共边，且 $angle A'A B= angle A'A D$，所以由边角边可知 $triangle A'A B\c o n g triangle A'A D$，从而 $A'B=A'D$. 因此 $triangle A'B D$ 是等腰三角形. 又因为 $O$ 是 $B D$ 的中点，所以等腰三角形的中线 $A'O$ 同时是高，即 $A'O bot B D$.
+因为 #mi(`AB=AD`)，#mi(`A'A`) 是公共边，且 #mi(`\angle A'AB=\angle A'AD`)，所以由边角边可知 #mi(`\triangle A'AB\cong\triangle A'AD`)，从而 #mi(`A'B=A'D`). 因此 #mi(`\triangle A'BD`) 是等腰三角形. 又因为 #mi(`O`) 是 #mi(`BD`) 的中点，所以等腰三角形的中线 #mi(`A'O`) 同时是高，即 #mi(`A'O\perp BD`).
 
-直线 $A O$ 与 $A'O$ 都在平面 $A'A C C'$ 内，且相交于 $O$，并且都垂直于直线 $B D$，所以由直线与平面垂直的判定定理，$B D$ 垂直于平面 $A'A C C'$. 由于 $B D$ 在底面 $A B C D$ 内，且底面 $A B C D$ 含有直线 $B D$，由平面与平面垂直的判定定理，平面 $A'A C C'$ 垂直于底面 $A B C D$，结论得证.
+直线 #mi(`AO`) 与 #mi(`A'O`) 都在平面 #mi(`A'ACC'`) 内，且相交于 #mi(`O`)，并且都垂直于直线 #mi(`BD`)，所以由直线与平面垂直的判定定理，#mi(`BD`) 垂直于平面 #mi(`A'ACC'`). 由于 #mi(`BD`) 在底面 #mi(`ABCD`) 内，且底面 #mi(`ABCD`) 含有直线 #mi(`BD`)，由平面与平面垂直的判定定理，平面 #mi(`A'ACC'`) 垂直于底面 #mi(`ABCD`)，结论得证.
 ]
 
 #problem(5)[
-若三角形的三个角成等差级数，则其中一定有一个角是 $60^( degree )$；若这样的三角形的三边又成等比级数，则三个角都是 $60^( degree )$，试证明之.
+若三角形的三个角成等差级数，则其中一定有一个角是 #mi(`60^{\circ}`)；若这样的三角形的三边又成等比级数，则三个角都是 #mi(`60^{\circ}`)，试证明之.
 ]
 
 #solution[
-将三角形的三个角按从大到小记为 $A$，$B$，$C$. 因为它们成等差数列，所以 $A+C=2 B$. 又因为三角形内角和为 $A+B+C=180^( degree )$，两式相减得 $3 B=180^( degree )$，所以 $B=60^( degree )$. 这证明了三个角中一定有一个是 $60^( degree )$.
+将三角形的三个角按从大到小记为 #mi(`A`)，#mi(`B`)，#mi(`C`). 因为它们成等差数列，所以 #mi(`A+C=2B`). 又因为三角形内角和为 #mi(`A+B+C=180^{\circ}`)，两式相减得 #mi(`3B=180^{\circ}`)，所以 #mi(`B=60^{\circ}`). 这证明了三个角中一定有一个是 #mi(`60^{\circ}`).
 
-再按从小到大排列三边，设它们为 $a$，$a q$，$a q^(2)$，其中 $a>0$，$q\g e q1$. 三角形中边长大小规律与其对角大小规律相同，因此中间边 $a q$ 所对的角正是中间角 $B=60^( degree )$. 对该角应用余弦定理，得
+再按从小到大排列三边，设它们为 #mi(`a`)，#mi(`aq`)，#mi(`aq^{2}`)，其中 #mi(`a>0`)，#mi(`q\geq1`). 三角形中边长大小规律与其对角大小规律相同，因此中间边 #mi(`aq`) 所对的角正是中间角 #mi(`B=60^{\circ}`). 对该角应用余弦定理，得
 
-$ (a q)^(2)=a^(2)+(a q^(2))^(2)-2 a dot a q^(2) cos 60 ""^( degree )=a^(2)+a^(2)q^(4)-a^(2)q^(2) $
 
-由于 $a>0$，两边除以 $a^(2)$，得 $q^(2)=1+q^(4)-q^(2)$，即
-$q^(4)-2 q^(2)+1=0$，$(q^(2)-1)^(2)=0$，
-所以 $q^(2)=1$. 结合 $q\g e q1$，得 $q=1$，三边相等. 因此三角形为等边三角形，三个角都是 $60^( degree )$，结论得证.
+#align(center)[#mitex(`
+(aq)^{2}=a^{2}+(aq^{2})^{2}-2a\cdot aq^{2}\cos60^{\circ}=a^{2}+a^{2}q^{4}-a^{2}q^{2}
+`)]
+
+
+由于 #mi(`a>0`)，两边除以 #mi(`a^{2}`)，得 #mi(`q^{2}=1+q^{4}-q^{2}`)，即
+
+#mi(`q^{4}-2q^{2}+1=0`)，#mi(`\left(q^{2}-1\right)^{2}=0`)，
+
+所以 #mi(`q^{2}=1`). 结合 #mi(`q\geq1`)，得 #mi(`q=1`)，三边相等. 因此三角形为等边三角形，三个角都是 #mi(`60^{\circ}`)，结论得证.
 ]
 

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,342 +11,325 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $A=\{-2,-1,0,1,2\}$，$B=\{x | 0 <= x<(5)/(2)\}$，则 $A inter B=$（ ）
-  #choices([$\{0,1,2\}$], [$\{-2,-1,0\}$], [$\{0,1\}$], [$\{1,2\}$], cols: 4)
+已知集合 #mi(`A=\{-2,-1,0,1,2\}`)，#mi(`B=\{x\mid 0\le x<\dfrac{5}{2}\}`)，则 #mi(`A\cap B=`)（ ）
+  #choices([#mi(`\{0,1,2\}`)], [#mi(`\{-2,-1,0\}`)], [#mi(`\{0,1\}`)], [#mi(`\{1,2\}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由 $B=\{x | 0 <= x<2.5\}$ 可知 $B$ 中元素为 $0 <= x<2.5$ 的实数. 在 $A=\{-2,-1,0,1,2\}$ 中满足该条件的有 $0$，$1$，$2$，所以 $A inter B=\{0,1,2\}$，答案为 A.
+由 #mi(`B=\{x\mid 0\le x<2.5\}`) 可知 #mi(`B`) 中元素为 #mi(`0\le x<2.5`) 的实数. 在 #mi(`A=\{-2,-1,0,1,2\}`) 中满足该条件的有 #mi(`0`)，#mi(`1`)，#mi(`2`)，所以 #mi(`A\cap B=\{0,1,2\}`)，答案为 A.
 ]
 
 #problem(2)[
-某社区通过公益讲座以普及社区居民的垃圾分类知识. 为了解讲座效果，随机抽取 $10$ 位社区居民，让他们在讲座前和讲座后各回答一份垃圾分类知识问卷，这 $10$ 位社区居民在讲座前和讲座后问卷答题的正确率如下图：
+某社区通过公益讲座以普及社区居民的垃圾分类知识. 为了解讲座效果，随机抽取 #mi(`10`) 位社区居民，让他们在讲座前和讲座后各回答一份垃圾分类知识问卷，这 #mi(`10`) 位社区居民在讲座前和讲座后问卷答题的正确率如下图：
 
 
-#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q2_fig1.png", width: 6.0cm)]
+#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q2_fig1.png", width: 28%)]
 
 
 则（ ）
-  #choices([讲座前问卷答题的正确率的中位数小于 $70\%$], [讲座后问卷答题的正确率的平均数大于 $85\%$], [讲座前问卷答题的正确率的标准差小于讲座后正确率的标准差], [讲座后问卷答题的正确率的极差大于讲座前正确率的极差], cols: 2)
+  #choices([讲座前问卷答题的正确率的中位数小于 #mi(`70\%`)], [讲座后问卷答题的正确率的平均数大于 #mi(`85\%`)], [讲座前问卷答题的正确率的标准差小于讲座后正确率的标准差], [讲座后问卷答题的正确率的极差大于讲座前正确率的极差], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由图读取数据：讲座前（$*$）的正确率依次为 $65$，$60$，$70$，$60$，$65$，$75$，$90$，$85$，$80$，$95$；讲座后（$\b u l l e t$）的正确率依次为 $90$，$85$，$80$，$90$，$85$，$85$，$95$，$100$，$85$，$100$.
+由图读取数据：讲座前（#mi(`*`)）的正确率依次为 #mi(`65`)，#mi(`60`)，#mi(`70`)，#mi(`60`)，#mi(`65`)，#mi(`75`)，#mi(`90`)，#mi(`85`)，#mi(`80`)，#mi(`95`)；讲座后（#mi(`\bullet`)）的正确率依次为 #mi(`90`)，#mi(`85`)，#mi(`80`)，#mi(`90`)，#mi(`85`)，#mi(`85`)，#mi(`95`)，#mi(`100`)，#mi(`85`)，#mi(`100`).
 
-讲座后正确率的平均数为 $(90+85+80+90+85+85+95+100+85+100)/(10)=89.5>85$，B 正确. 讲座前正确率从小到大排列为 $60$，$60$，$65$，$65$，$70$，$75$，$80$，$85$，$90$，$95$，中位数为 $72.5>70$，A 错误. 讲座前数据较为分散，其标准差大于讲座后数据，C 错误. 讲座前极差为 $95-60=35$，讲座后极差为 $100-80=20$，前者更大，D 错误. 答案为 B.
+讲座后正确率的平均数为 #mi(`\dfrac{90+85+80+90+85+85+95+100+85+100}{10}=89.5>85`)，B 正确. 讲座前正确率从小到大排列为 #mi(`60`)，#mi(`60`)，#mi(`65`)，#mi(`65`)，#mi(`70`)，#mi(`75`)，#mi(`80`)，#mi(`85`)，#mi(`90`)，#mi(`95`)，中位数为 #mi(`72.5>70`)，A 错误. 讲座前数据较为分散，其标准差大于讲座后数据，C 错误. 讲座前极差为 #mi(`95-60=35`)，讲座后极差为 #mi(`100-80=20`)，前者更大，D 错误. 答案为 B.
 ]
 
 #problem(3)[
-若 $z=1+ i$，则 $| i z+3 overline(z)|=$（ ）
-  #choices([$4 sqrt(5)$], [$4 sqrt(2)$], [$2 sqrt(5)$], [$2 sqrt(2)$], cols: 4)
+若 #mi(`z=1+\mathrm{i}`)，则 #mi(`\left|\mathrm{i}z+3\overline{z}\right|=`)（ ）
+  #choices([#mi(`4\sqrt{5}`)], [#mi(`4\sqrt{2}`)], [#mi(`2\sqrt{5}`)], [#mi(`2\sqrt{2}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-因为 $overline(z)=1- i$，所以 $i z+3 overline(z)= i (1+ i )+3(1- i )=-1+ i +3-3 i =2-2 i$，故 $| i z+3 overline(z)|=sqrt(2^2+(-2)^2)=2 sqrt(2)$，答案为 D.
+因为 #mi(`\overline{z}=1-\mathrm{i}`)，所以 #mi(`\mathrm{i}z+3\overline{z}=\mathrm{i}(1+\mathrm{i})+3(1-\mathrm{i})=-1+\mathrm{i}+3-3\mathrm{i}=2-2\mathrm{i}`)，故 #mi(`\left|\mathrm{i}z+3\overline{z}\right|=\sqrt{2^{2}+(-2)^{2}}=2\sqrt{2}`)，答案为 D.
 ]
 
 #problem(4)[
-如图，网格纸上绘制的是一个多面体的三视图，网格小正方形的边长为 $1$，则该多面体的体积为（ ）
+如图，网格纸上绘制的是一个多面体的三视图，网格小正方形的边长为 #mi(`1`)，则该多面体的体积为（ ）
 
 
+#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q4_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q4_fig1.png", width: 6.0cm)]
   #choices([8], [12], [16], [20], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由正视图知该多面体是底面为直角梯形的直棱柱，该梯形上、下底边长分别为 $2$ 和 $4$，高为 $2$，其面积为 $(2+4)/(2) times 2 =6$；由侧视图知其高为 $2$. 所以该多面体的体积为 $6 times 2 =12$，答案为 B.
+由正视图知该多面体是底面为直角梯形的直棱柱，该梯形上、下底边长分别为 #mi(`2`) 和 #mi(`4`)，高为 #mi(`2`)，其面积为 #mi(`\dfrac{2+4}{2}\times2=6`)；由侧视图知其高为 #mi(`2`). 所以该多面体的体积为 #mi(`6\times2=12`)，答案为 B.
 ]
 
 #problem(5)[
-将函数 $f(x)= sin ( omega x+(pi)/(3))$（$omega >0$）的图像向左平移 $(pi)/(2)$ 个单位长度后得到曲线 $C$，若 $C$ 关于 $y$ 轴对称，则 $omega$ 的最小值是（ ）
-  #choices([$(1)/(6)$], [$(1)/(4)$], [$(1)/(3)$], [$(1)/(2)$], cols: 4)
+将函数 #mi(`f(x)=\sin\left(\omega x+\dfrac{\pi}{3}\right)`)（#mi(`\omega>0`)）的图像向左平移 #mi(`\dfrac{\pi}{2}`) 个单位长度后得到曲线 #mi(`C`)，若 #mi(`C`) 关于 #mi(`y`) 轴对称，则 #mi(`\omega`) 的最小值是（ ）
+  #choices([#mi(`\dfrac{1}{6}`)], [#mi(`\dfrac{1}{4}`)], [#mi(`\dfrac{1}{3}`)], [#mi(`\dfrac{1}{2}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-图像向左平移 $(pi)/(2)$ 个单位长度后得到曲线 $C:y= sin ( omega x+(omega pi)/(2)+(pi)/(3))$. 曲线 $C$ 关于 $y$ 轴对称，说明它是偶函数，所以 $(omega pi)/(2)+(pi)/(3)=(pi)/(2)+k pi$（$k in ZZ$），解得 $omega =(1)/(3)+2 k$. 又 $omega >0$，取 $k=0$ 得 $omega$ 的最小值为 $(1)/(3)$，答案为 C.
+图像向左平移 #mi(`\dfrac{\pi}{2}`) 个单位长度后得到曲线 #mi(`C:y=\sin\left(\omega x+\dfrac{\omega\pi}{2}+\dfrac{\pi}{3}\right)`). 曲线 #mi(`C`) 关于 #mi(`y`) 轴对称，说明它是偶函数，所以 #mi(`\dfrac{\omega\pi}{2}+\dfrac{\pi}{3}=\dfrac{\pi}{2}+k\pi`)（#mi(`k\in\mathbb{Z}`)），解得 #mi(`\omega=\dfrac{1}{3}+2k`). 又 #mi(`\omega>0`)，取 #mi(`k=0`) 得 #mi(`\omega`) 的最小值为 #mi(`\dfrac{1}{3}`)，答案为 C.
 ]
 
 #problem(6)[
-从分别写有 $1$，$2$，$3$，$4$，$5$，$6$ 的 $6$ 张卡片中无放回随机抽取 $2$ 张，则抽到的 $2$ 张卡片上的数字之积是 $4$ 的倍数的概率为（ ）
-  #choices([$(1)/(5)$], [$(1)/(3)$], [$(2)/(5)$], [$(2)/(3)$], cols: 4)
+从分别写有 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`)，#mi(`6`) 的 #mi(`6`) 张卡片中无放回随机抽取 #mi(`2`) 张，则抽到的 #mi(`2`) 张卡片上的数字之积是 #mi(`4`) 的倍数的概率为（ ）
+  #choices([#mi(`\dfrac{1}{5}`)], [#mi(`\dfrac{1}{3}`)], [#mi(`\dfrac{2}{5}`)], [#mi(`\dfrac{2}{3}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-从 $6$ 张卡片中抽取 $2$ 张共有 $C_6^2=15$ 种等可能结果. 两数之积为 $4$ 的倍数，可分为两类：含有 $4$ 的抽取，此时 $4$ 与其余 $5$ 个数中任意一个的积都是 $4$ 的倍数，共 $5$ 种；不含有 $4$ 时，只有同时抽到 $2$ 和 $6$，其积 $12$ 为 $4$ 的倍数，共 $1$ 种. 所以所求概率为 $(5+1)/(15)=(2)/(5)$，答案为 C.
+从 #mi(`6`) 张卡片中抽取 #mi(`2`) 张共有 #mi(`\mathrm{C}_{6}^{2}=15`) 种等可能结果. 两数之积为 #mi(`4`) 的倍数，可分为两类：含有 #mi(`4`) 的抽取，此时 #mi(`4`) 与其余 #mi(`5`) 个数中任意一个的积都是 #mi(`4`) 的倍数，共 #mi(`5`) 种；不含有 #mi(`4`) 时，只有同时抽到 #mi(`2`) 和 #mi(`6`)，其积 #mi(`12`) 为 #mi(`4`) 的倍数，共 #mi(`1`) 种. 所以所求概率为 #mi(`\dfrac{5+1}{15}=\dfrac{2}{5}`)，答案为 C.
 ]
 
 #problem(7)[
-函数 $y=(3^x-3^(-x)) cos x$ 在区间 $[-(pi)/(2),(pi)/(2)]$ 的图象大致为（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2022/img/national_paper_a_liberal/q7_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2022/img/national_paper_a_liberal/q7_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2022/img/national_paper_a_liberal/q7_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2022/img/national_paper_a_liberal/q7_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+函数 #mi(`y=\left(3^{x}-3^{-x}\right)\cos x`) 在区间 #mi(`\left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]`) 的图象大致为（ ）
+  #choices([
+#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q7_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q7_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q7_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q7_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-记 $g(x)=3^x-3^(-x)$，它是奇函数且在 $RR$ 上单调递增；$cos x$ 是偶函数，在 $[-(pi)/(2),(pi)/(2)]$ 上非负. 所以原函数是奇函数，图象关于原点对称，且当 $x=0$ 时 $y=0$. 当 $x>0$ 且较小时，$g(x)>0$，$cos x>0$，函数值为正；当 $x -> (pi)/(2)$ 时 $cos x -> 0$，函数值趋于 $0$. 符合这些特征的只有选项 A，答案为 A.
+记 #mi(`g(x)=3^{x}-3^{-x}`)，它是奇函数且在 #mi(`\mathbb{R}`) 上单调递增；#mi(`\cos x`) 是偶函数，在 #mi(`\left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]`) 上非负. 所以原函数是奇函数，图象关于原点对称，且当 #mi(`x=0`) 时 #mi(`y=0`). 当 #mi(`x>0`) 且较小时，#mi(`g(x)>0`)，#mi(`\cos x>0`)，函数值为正；当 #mi(`x\to\dfrac{\pi}{2}`) 时 #mi(`\cos x\to0`)，函数值趋于 #mi(`0`). 符合这些特征的只有选项 A，答案为 A.
 ]
 
 #problem(8)[
-当 $x=1$ 时，函数 $f(x)=a ln x+(b)/(x)$ 取得最大值 $-2$，则 $f'(2)=$（ ）
-  #choices([$-1$], [$-(1)/(2)$], [$(1)/(2)$], [1], cols: 4)
+当 #mi(`x=1`) 时，函数 #mi(`f(x)=a\ln x+\dfrac{b}{x}`) 取得最大值 #mi(`-2`)，则 #mi(`f'(2)=`)（ ）
+  #choices([#mi(`-1`)], [#mi(`-\dfrac{1}{2}`)], [#mi(`\dfrac{1}{2}`)], [1], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-$f'(x)=(a)/(x)-(b)/(x^2)$. 由 $x=1$ 是极大值点且 $f(1)=-2$ 得 $f(1)=b=-2$，$f'(1)=a-b=0$，所以 $a=b=-2$. 于是 $f'(x)=-(2)/(x)+(2)/(x^2)$，$f'(2)=-1+(1)/(2)=-(1)/(2)$，答案为 B.
+#mi(`f'(x)=\dfrac{a}{x}-\dfrac b{x^2}`). 由 #mi(`x=1`) 是极大值点且 #mi(`f(1)=-2`) 得 #mi(`f(1)=b=-2`)，#mi(`f'(1)=a-b=0`)，所以 #mi(`a=b=-2`). 于是 #mi(`f'(x)=-\dfrac{2}{x}+\dfrac2{x^2}`)，#mi(`f'(2)=-1+\dfrac{1}{2}=-\dfrac{1}{2}`)，答案为 B.
 ]
 
 #problem(9)[
-在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，已知 $B_(1) D$ 与平面 $A B C D$ 和平面 $A A_(1) B_(1) B$ 所成的角均为 $30^ degree$，则（ ）
+在长方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，已知 #mi(`B_{1}D`) 与平面 #mi(`ABCD`) 和平面 #mi(`AA_{1}B_{1}B`) 所成的角均为 #mi(`30^{\circ}`)，则（ ）
 
 
-#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q9_fig1.png", width: 6.0cm)]
-  #choices([$A B=2 A D$], [$A B$ 与平面 $A B_(1) C_(1) D$ 所成的角为 $30^ degree$], [$A C=C B_1$], [$B_(1) D$ 与平面 $B B_(1) C_(1) C$ 所成的角为 $45^ degree$], cols: 1)
+#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q9_fig1.png", width: 28%)]
+
+  #choices([#mi(`AB=2AD`)], [#mi(`AB`) 与平面 #mi(`AB_{1}C_{1}D`) 所成的角为 #mi(`30^{\circ}`)], [#mi(`AC=CB_{1}`)], [#mi(`B_{1}D`) 与平面 #mi(`BB_{1}C_{1}C`) 所成的角为 #mi(`45^{\circ}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-设 $A B=a$，$A D=b$，$A A_1=c$. $B_(1) D$ 与平面 $A B C D$ 所成角为 $angle B_(1) D B$，所以 $tan angle B_(1) D B=(c)/(B D)=(c)/(sqrt(a^2+b^2))= tan 30 ""^ degree$，得 $a^2+b^2=3 c^2$. 又 $B_(1) D$ 与平面 $A A_(1) B_(1) B$ 所成角的正弦为 $(b)/(sqrt(a^2+b^2+c^2))=(1)/(2)$，得 $a^2+c^2=3 b^2$. 两式相减得 $b^2-c^2=3 c^2-3 b^2$，即 $b=c$，从而 $a^2=2 c^2$，即 $a=sqrt(2)c$，$b=c$.
+设 #mi(`AB=a`)，#mi(`AD=b`)，#mi(`AA_{1}=c`). #mi(`B_{1}D`) 与平面 #mi(`ABCD`) 所成角为 #mi(`\angle B_{1}DB`)，所以 #mi(`\tan\angle B_{1}DB=\dfrac{c}{BD}=\dfrac{c}{\sqrt{a^{2}+b^{2}}}=\tan30^{\circ}`)，得 #mi(`a^{2}+b^{2}=3c^{2}`). 又 #mi(`B_{1}D`) 与平面 #mi(`AA_{1}B_{1}B`) 所成角的正弦为 #mi(`\dfrac{b}{\sqrt{a^{2}+b^{2}+c^{2}}}=\dfrac{1}{2}`)，得 #mi(`a^{2}+c^{2}=3b^{2}`). 两式相减得 #mi(`b^{2}-c^{2}=3c^{2}-3b^{2}`)，即 #mi(`b=c`)，从而 #mi(`a^{2}=2c^{2}`)，即 #mi(`a=\sqrt{2}c`)，#mi(`b=c`).
 
-于是 $A B=sqrt(2)c$，$A D=c$，$A B=sqrt(2)A D != 2 A D$，A 错误；$A B$ 与平面 $A B_(1) C_(1) D$ 所成角的正弦为 $(c)/(sqrt(a^2+c^2))=(c)/(sqrt(3)c)=(sqrt(3))/(3) != sin 30 ""^ degree$，B 错误；$A C=sqrt(a^2+b^2)=sqrt(3)c$，$C B_1=sqrt(b^2+c^2)=sqrt(2)c$，二者不等，C 错误；$B_(1) D$ 与平面 $B B_(1) C_(1) C$ 所成角的正弦为 $(A B)/(B_(1) D)=(sqrt(2)c)/(2 c)=(sqrt(2))/(2)$，所以所成角为 $45^ degree$，D 正确. 答案为 D.
+于是 #mi(`AB=\sqrt{2}c`)，#mi(`AD=c`)，#mi(`AB=\sqrt{2}AD\ne2AD`)，A 错误；#mi(`AB`) 与平面 #mi(`AB_{1}C_{1}D`) 所成角的正弦为 #mi(`\dfrac{c}{\sqrt{a^{2}+c^{2}}}=\dfrac{c}{\sqrt{3}c}=\dfrac{\sqrt{3}}3\ne\sin30^{\circ}`)，B 错误；#mi(`AC=\sqrt{a^{2}+b^{2}}=\sqrt{3}c`)，#mi(`CB_{1}=\sqrt{b^{2}+c^{2}}=\sqrt{2}c`)，二者不等，C 错误；#mi(`B_{1}D`) 与平面 #mi(`BB_{1}C_{1}C`) 所成角的正弦为 #mi(`\dfrac{AB}{B_1D}=\dfrac{\sqrt{2}c}{2c}=\dfrac{\sqrt{2}}2`)，所以所成角为 #mi(`45^{\circ}`)，D 正确. 答案为 D.
 ]
 
 #problem(10)[
-甲，乙两个圆锥的母线长相等，侧面展开图的圆心角之和为 $2 pi$，侧面积分别为 $S_("甲")$ 和 $S_("乙")$，体积分别为 $V_("甲")$ 和 $V_("乙")$. 若 $(S_("甲"))/(S_("乙"))=2$，则 $(V_("甲"))/(V_("乙"))=$（ ）
-  #choices([$sqrt(5)$], [$2 sqrt(2)$], [$sqrt(10)$], [$(5 sqrt(10))/(4)$], cols: 2)
+甲，乙两个圆锥的母线长相等，侧面展开图的圆心角之和为 #mi(`2\pi`)，侧面积分别为 #mi(`S_{\text{\text{甲}}}`) 和 #mi(`S_{\text{\text{乙}}}`)，体积分别为 #mi(`V_{\text{\text{甲}}}`) 和 #mi(`V_{\text{\text{乙}}}`). 若 #mi(`\dfrac{S_{\text{\text{甲}}}}{S_{\text{\text{乙}}}}=2`)，则 #mi(`\dfrac{V_{\text{\text{甲}}}}{V_{\text{\text{乙}}}}=`)（ ）
+  #choices([#mi(`\sqrt{5}`)], [#mi(`2\sqrt{2}`)], [#mi(`\sqrt{10}`)], [#mi(`\dfrac{5\sqrt{10}}{4}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设两圆锥母线长均为 $l$，底面半径分别为 $r_1$，$r_2$. 侧面积 $S= pi r l$，由 $(S_("甲"))/(S_("乙"))=2$ 得 $r_1=2 r_2$. 侧面展开图圆心角为 $(2 pi r)/(l)$，由圆心角之和为 $2 pi$ 得 $(2 pi r_1)/(l)+(2 pi r_2)/(l)=2 pi$，即 $r_1+r_2=l$，所以 $l=3 r_2$.
+设两圆锥母线长均为 #mi(`l`)，底面半径分别为 #mi(`r_{1}`)，#mi(`r_{2}`). 侧面积 #mi(`S=\pi rl`)，由 #mi(`\dfrac{S_{\text{\text{甲}}}}{S_{\text{\text{乙}}}}=2`) 得 #mi(`r_{1}=2r_{2}`). 侧面展开图圆心角为 #mi(`\dfrac{2\pi r}{l}`)，由圆心角之和为 #mi(`2\pi`) 得 #mi(`\dfrac{2\pi r_1}{l}+\dfrac{2\pi r_2}{l}=2\pi`)，即 #mi(`r_{1}+r_{2}=l`)，所以 #mi(`l=3r_{2}`).
 
-两圆锥的高分别为 $h_1=sqrt(l^2-r_1^2)=sqrt(9-4)r_2=sqrt(5)r_2$，$h_2=sqrt(l^2-r_2^2)=sqrt(9-1)r_2=2 sqrt(2)r_2$. 体积 $V=(1)/(3) pi r^(2) h$，所以 $(V_("甲"))/(V_("乙"))=(r_1^(2) h_1)/(r_2^(2) h_2)=(4 sqrt(5))/(2 sqrt(2))=sqrt(10)$，答案为 C.
+两圆锥的高分别为 #mi(`h_{1}=\sqrt{l^{2}-r_{1}^{2}}=\sqrt{9-4}\,r_{2}=\sqrt{5}\,r_{2}`)，#mi(`h_{2}=\sqrt{l^{2}-r_{2}^{2}}=\sqrt{9-1}\,r_{2}=2\sqrt{2}\,r_{2}`). 体积 #mi(`V=\dfrac{1}{3}\pi r^{2}h`)，所以 #mi(`\dfrac{V_{\text{\text{甲}}}}{V_{\text{\text{乙}}}}=\dfrac{r_1^2h_1}{r_2^2h_2}=\dfrac{4\sqrt{5}}{2\sqrt{2}}=\sqrt{10}`)，答案为 C.
 ]
 
 #problem(11)[
-已知椭圆 $C:(x^2)/(a^2)+(y^2)/(b^2)=1$（$a>b>0$）的离心率为 $(1)/(3)$，$A_1$，$A_2$ 分别为 $C$ 的左，右顶点，$B$ 为 $C$ 的上顶点. 若 $arrow(B A_1)\c d o t a r r o w(B A_2)=-1$，则 $C$ 的方程为（ ）
-  #choices([$(x^2)/(18)+(y^2)/(16)=1$], [$(x^2)/(9)+(y^2)/(8)=1$], [$(x^2)/(3)+(y^2)/(2)=1$], [$(x^2)/(2)+y^2=1$], cols: 2)
+已知椭圆 #mi(`C:\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1`)（#mi(`a>b>0`)）的离心率为 #mi(`\dfrac{1}{3}`)，#mi(`A_{1}`)，#mi(`A_{2}`) 分别为 #mi(`C`) 的左，右顶点，#mi(`B`) 为 #mi(`C`) 的上顶点. 若 #mi(`\overrightarrow{BA_1}\cdot\overrightarrow{BA_2}=-1`)，则 #mi(`C`) 的方程为（ ）
+  #choices([#mi(`\dfrac{x^2}{18}+\dfrac{y^2}{16}=1`)], [#mi(`\dfrac{x^2}{9}+\dfrac{y^2}{8}=1`)], [#mi(`\dfrac{x^2}{3}+\dfrac{y^2}{2}=1`)], [#mi(`\dfrac{x^2}{2}+y^{2}=1`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-$A_1(-a,0)$，$A_2(a,0)$，$B(0,b)$，所以 $arrow(B A_1)=(-a,-b)$，$arrow(B A_2)=(a,-b)$，$arrow(B A_1)\c d o t a r r o w(B A_2)=-a^2+b^2=-1$，即 $a^2-b^2=1$. 又离心率 $e=(c)/(a)=(1)/(3)$，所以 $c^2=(a^2)/(9)$，$b^2=a^2-c^2=(8 a^2)/(9)$. 代入 $a^2-b^2=1$ 得 $a^2-(8 a^2)/(9)=(a^2)/(9)=1$，所以 $a^2=9$，$b^2=8$，椭圆方程为 $(x^2)/(9)+(y^2)/(8)=1$，答案为 B.
+#mi(`A_{1}(-a,0)`)，#mi(`A_{2}(a,0)`)，#mi(`B(0,b)`)，所以 #mi(`\overrightarrow{BA_1}=(-a,-b)`)，#mi(`\overrightarrow{BA_2}=(a,-b)`)，#mi(`\overrightarrow{BA_1}\cdot\overrightarrow{BA_2}=-a^{2}+b^{2}=-1`)，即 #mi(`a^{2}-b^{2}=1`). 又离心率 #mi(`e=\dfrac{c}{a}=\dfrac{1}{3}`)，所以 #mi(`c^{2}=\dfrac{a^2}9`)，#mi(`b^{2}=a^{2}-c^{2}=\dfrac{8a^2}9`). 代入 #mi(`a^{2}-b^{2}=1`) 得 #mi(`a^{2}-\dfrac{8a^2}9=\dfrac{a^2}9=1`)，所以 #mi(`a^{2}=9`)，#mi(`b^{2}=8`)，椭圆方程为 #mi(`\dfrac{x^2}9+\dfrac{y^2}8=1`)，答案为 B.
 ]
 
 #problem(12)[
-已知 $9^m=10$，$a=10^m-11$，$b=8^m-9$，则（ ）
-  #choices([$a>0>b$], [$a>b>0$], [$b>a>0$], [$b>0>a$], cols: 4)
+已知 #mi(`9^{m}=10`)，#mi(`a=10^{m}-11`)，#mi(`b=8^{m}-9`)，则（ ）
+  #choices([#mi(`a>0>b`)], [#mi(`a>b>0`)], [#mi(`b>a>0`)], [#mi(`b>0>a`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-由 $9^m=10$ 得 $m= log _(9)10=(ln 10)/(ln 9)>1$.
+由 #mi(`9^{m}=10`) 得 #mi(`m=\log_{9}10=\dfrac{\ln10}{\ln9}>1`).
 
-先判断 $a=10^m-11$ 的符号. $a>0$ 等价于 $10^m>11$，即 $m> log _(10)11=(ln 11)/(ln 10)$，也即 $(ln 10)/(ln 9)>(ln 11)/(ln 10)$，等价于 $( ln 10 )^2> ln 9 ln 11$. 而 $ln 9 ln 11 =( ln 10 + ln (9)/(10))( ln 10 + ln (11)/(10))=( ln 10 )^2+ ln 10 ( ln (9)/(10)+ ln (11)/(10))+ ln (9)/(10) ln (11)/(10)$. 因为 $ln (9)/(10)<0$，$ln (11)/(10)>0$ 且 $ln (9)/(10)+ ln (11)/(10)= ln (99)/(100)<0$，所以 $ln 9 ln 11 <( ln 10 )^2$，从而 $a>0$.
+先判断 #mi(`a=10^{m}-11`) 的符号. #mi(`a>0`) 等价于 #mi(`10^{m}>11`)，即 #mi(`m>\log_{10}11=\dfrac{\ln11}{\ln10}`)，也即 #mi(`\dfrac{\ln10}{\ln9}>\dfrac{\ln11}{\ln10}`)，等价于 #mi(`(\ln10)^{2}>\ln9\ln11`). 而 #mi(`\ln9\ln11=\left(\ln10+\ln\dfrac9{10}\right)\left(\ln10+\ln\dfrac{11}{10}\right)=(\ln10)^{2}+\ln10\left(\ln\dfrac9{10}+\ln\dfrac{11}{10}\right)+\ln\dfrac9{10}\ln\dfrac{11}{10}`). 因为 #mi(`\ln\dfrac9{10}<0`)，#mi(`\ln\dfrac{11}{10}>0`) 且 #mi(`\ln\dfrac9{10}+\ln\dfrac{11}{10}=\ln\dfrac{99}{100}<0`)，所以 #mi(`\ln9\ln11<(\ln10)^{2}`)，从而 #mi(`a>0`).
 
-再判断 $b=8^m-9$ 的符号. $b<0$ 等价于 $8^m<9$，即 $m< log _8 9=(ln 9)/(ln 8)$，也即 $(ln 10)/(ln 9)<(ln 9)/(ln 8)$，等价于 $ln 10 ln 8 <( ln 9 )^2$. 而 $ln 10 ln 8 =( ln 9 + ln (10)/(9))( ln 9 + ln (8)/(9))=( ln 9 )^2+ ln 9 ( ln (10)/(9)+ ln (8)/(9))+ ln (10)/(9) ln (8)/(9)$. 因为 $ln (10)/(9)>0$，$ln (8)/(9)<0$ 且 $ln (10)/(9)+ ln (8)/(9)= ln (80)/(81)<0$，所以 $ln 10 ln 8 <( ln 9 )^2$，从而 $b<0$.
+再判断 #mi(`b=8^{m}-9`) 的符号. #mi(`b<0`) 等价于 #mi(`8^{m}<9`)，即 #mi(`m<\log_{8} 9=\dfrac{\ln9}{\ln8}`)，也即 #mi(`\dfrac{\ln10}{\ln9}<\dfrac{\ln9}{\ln8}`)，等价于 #mi(`\ln10\ln8<(\ln9)^{2}`). 而 #mi(`\ln10\ln8=\left(\ln9+\ln\dfrac{10}{9}\right)\left(\ln9+\ln\dfrac{8}{9}\right)=(\ln9)^{2}+\ln9\left(\ln\dfrac{10}{9}+\ln\dfrac{8}{9}\right)+\ln\dfrac{10}{9}\ln\dfrac{8}{9}`). 因为 #mi(`\ln\dfrac{10}{9}>0`)，#mi(`\ln\dfrac{8}{9}<0`) 且 #mi(`\ln\dfrac{10}{9}+\ln\dfrac{8}{9}=\ln\dfrac{80}{81}<0`)，所以 #mi(`\ln10\ln8<(\ln9)^{2}`)，从而 #mi(`b<0`).
 
-因此 $a>0>b$，答案为 A.
+因此 #mi(`a>0>b`)，答案为 A.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-已知向量 $bold(a)=(m,3)$，$bold(b)=(1,m+1)$. 若 $bold(a)\p e r p b o l d(b)$，则 $m=$#blank(){}.
+已知向量 #mi(`\mathbf{a}=\left(m,3\right)`)，#mi(`\mathbf{b}=\left(1,m+1\right)`). 若 #mi(`\mathbf{a}\perp\mathbf{b}`)，则 #mi(`m=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-(3)/(4)$])
+#answer([#mi(`-\dfrac{3}{4}`)])
 
 #solution[
-由 $bold(a)\p e r p b o l d(b)$ 得 $bold(a)\c d o t b o l d(b)=m+3(m+1)=4 m+3=0$，解得 $m=-(3)/(4)$.
+由 #mi(`\mathbf{a}\perp\mathbf{b}`) 得 #mi(`\mathbf{a}\cdot\mathbf{b}=m+3(m+1)=4m+3=0`)，解得 #mi(`m=-\dfrac{3}{4}`).
 ]
 
 #problem(14)[
-设圆 $M$ 的圆心在直线 $2 x+y-1=0$ 上，点 $(3,0)$ 和 $(0,1)$ 均在圆 $M$ 上，则圆 $M$ 的方程为#blank(){}.
+设圆 #mi(`M`) 的圆心在直线 #mi(`2x+y-1=0`) 上，点 #mi(`\left(3,0\right)`) 和 #mi(`\left(0,1\right)`) 均在圆 #mi(`M`) 上，则圆 #mi(`M`) 的方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(x-1)^2+(y+1)^2=5$])
+#answer([#mi(`(x-1)^{2}+(y+1)^{2}=5`)])
 
 #solution[
-设圆心 $M(h,k)$，由圆心在直线上得 $2 h+k=1$. 由点 $(3,0)$ 和 $(0,1)$ 在圆上得 $(h-3)^2+k^2=h^2+(k-1)^2$，化简得 $3 h-k=4$. 联立解得 $h=1$，$k=-1$. 半径平方 $r^2=(1-3)^2+(-1)^2=5$，所以圆 $M$ 的方程为 $(x-1)^2+(y+1)^2=5$.
+设圆心 #mi(`M(h,k)`)，由圆心在直线上得 #mi(`2h+k=1`). 由点 #mi(`(3,0)`) 和 #mi(`(0,1)`) 在圆上得 #mi(`(h-3)^{2}+k^{2}=h^{2}+(k-1)^{2}`)，化简得 #mi(`3h-k=4`). 联立解得 #mi(`h=1`)，#mi(`k=-1`). 半径平方 #mi(`r^{2}=(1-3)^{2}+(-1)^{2}=5`)，所以圆 #mi(`M`) 的方程为 #mi(`(x-1)^{2}+(y+1)^{2}=5`).
 ]
 
 #problem(15)[
-记双曲线 $C:(x^2)/(a^2)-(y^2)/(b^2)=1$（$a>0$，$b>0$）的离心率为 $e$，写出满足条件“直线 $y=2 x$ 与 $C$ 无公共点”的 $e$ 的一个值#blank(){}.
+记双曲线 #mi(`C:\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1`)（#mi(`a>0`)，#mi(`b>0`)）的离心率为 #mi(`e`)，写出满足条件“直线 #mi(`y=2x`) 与 #mi(`C`) 无公共点”的 #mi(`e`) 的一个值\underline{\hspace{2.5em}}.
 ]
 
 #answer([2])
 
 #solution[
-将 $y=2 x$ 代入双曲线方程得 $((1)/(a^2)-(4)/(b^2))x^2=1$，它与双曲线无公共点当且仅当 $(1)/(a^2)-(4)/(b^2) <= 0$，即 $(b)/(a) <= 2$. 于是 $e=(c)/(a)=sqrt(1+((b)/(a))^2)\l e s q r t(5)$，又 $e>1$，故 $e$ 可取 $(1,sqrt(5)]$ 内的任意值，例如 $2$.
+将 #mi(`y=2x`) 代入双曲线方程得 #mi(`\left(\dfrac1{a^2}-\dfrac4{b^2}\right)x^{2}=1`)，它与双曲线无公共点当且仅当 #mi(`\dfrac1{a^2}-\dfrac4{b^2}\le0`)，即 #mi(`\dfrac{b}{a}\le2`). 于是 #mi(`e=\dfrac{c}{a}=\sqrt{1+\left(\dfrac{b}{a}\right)^{2}}\le\sqrt{5}`)，又 #mi(`e>1`)，故 #mi(`e`) 可取 #mi(`(1,\sqrt{5}]`) 内的任意值，例如 #mi(`2`).
 ]
 
 #problem(16)[
-已知 $triangle A B C$ 中，点 $D$ 在边 $B C$ 上，$angle A D B=120^ degree$，$A D=2$，且 $C D=2 B D$. 当 $(A C)/(A B)$ 取得最小值时，$B D=$#blank(){}.
+已知 #mi(`\triangle ABC`) 中，点 #mi(`D`) 在边 #mi(`BC`) 上，#mi(`\angle ADB=120^{\circ}`)，#mi(`AD=2`)，且 #mi(`CD=2BD`). 当 #mi(`\dfrac{AC}{AB}`) 取得最小值时，#mi(`BD=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$sqrt(3)-1$])
+#answer([#mi(`\sqrt{3}-1`)])
 
 #solution[
-设 $B D=x>0$，则 $C D=2 x$，且 $angle A D C=180^ degree - angle A D B=60^ degree$. 在 $triangle A B D$ 中，$A B^2=A D^2+B D^2-2 dot A D dot B D cos 120 ""^ degree =4+x^2+2 x$；在 $triangle A D C$ 中，$A C^2=A D^2+C D^2-2 dot A D dot C D cos 60 ""^ degree =4+4 x^2-4 x$. 所以 $((A C)/(A B))^2=(4 x^2-4 x+4)/(x^2+2 x+4)$.
+设 #mi(`BD=x>0`)，则 #mi(`CD=2x`)，且 #mi(`\angle ADC=180^{\circ}-\angle ADB=60^{\circ}`). 在 #mi(`\triangle ABD`) 中，#mi(`AB^{2}=AD^{2}+BD^{2}-2\cdot AD\cdot BD\cos120^{\circ}=4+x^{2}+2x`)；在 #mi(`\triangle ADC`) 中，#mi(`AC^{2}=AD^{2}+CD^{2}-2\cdot AD\cdot CD\cos60^{\circ}=4+4x^{2}-4x`). 所以 #mi(`\left(\dfrac{AC}{AB}\right)^{2}=\dfrac{4x^2-4x+4}{x^2+2x+4}`).
 
-令 $g(x)=(4 x^2-4 x+4)/(x^2+2 x+4)$，由 $g'(x)=0$ 得 $(8 x-4)(x^2+2 x+4)-(4 x^2-4 x+4)(2 x+2)=0$，化简得 $12 x^2+24 x-24=0$，即 $x^2+2 x-2=0$，解得 $x=sqrt(3)-1$（舍去负值）. 此时取得最小值，所以 $B D=sqrt(3)-1$.
+令 #mi(`g(x)=\dfrac{4x^2-4x+4}{x^2+2x+4}`)，由 #mi(`g'(x)=0`) 得 #mi(`(8x-4)(x^{2}+2x+4)-(4x^{2}-4x+4)(2x+2)=0`)，化简得 #mi(`12x^{2}+24x-24=0`)，即 #mi(`x^{2}+2x-2=0`)，解得 #mi(`x=\sqrt{3}-1`)（舍去负值）. 此时取得最小值，所以 #mi(`BD=\sqrt{3}-1`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-甲，乙两城之间的长途客车均由 $A$ 和 $B$ 两家公司运营，为了解这两家公司长途客车的运行情况，随机调查了甲，乙两城之间的 $500$ 个班次，得到下面列联表：
+甲，乙两城之间的长途客车均由 #mi(`A`) 和 #mi(`B`) 两家公司运营，为了解这两家公司长途客车的运行情况，随机调查了甲，乙两城之间的 #mi(`500`) 个班次，得到下面列联表：
 
-\begin{center}
-\begin{tabular}{c c c}
 \hline
+
 & 准点班次数 & 未准点班次数 \\
+
 \hline
-$A$ & 240 & 20 \\
-$B$ & 210 & 30 \\
+
+#mi(`A`) & 240 & 20 \\
+
+#mi(`B`) & 210 & 30 \\
+
 \hline
-\end{tabular}
-\end{center}
 
 
-+ (1) 根据上表，分别估计这两家公司甲，乙两城之间的长途客车准点的概率；
-+ (2) 能否有 $90\%$ 的把握认为甲，乙两城之间的长途客车是否准点与客车所属公司有关？
++ (1) 
 
 
-附：$K^2=(n(a d-b c)^2)/((a+b)(c+d)(a+c)(b+d))$
 
-\begin{center}
-\begin{tabular}{c c c c}
+附：#mi(`K^{2}=\dfrac{n\left(ad-bc\right)^2}{\left(a+b\right)\left(c+d\right)\left(a+c\right)\left(b+d\right)}`)
+
 \hline
-$P(K^2 >= k)$ & 0.100 & 0.050 & 0.010 \\
+
+#mi(`P\left(K^{2}\ge k\right)`) & 0.100 & 0.050 & 0.010 \\
+
 \hline
-$k$ & 2.706 & 3.841 & 6.635 \\
+
+#mi(`k`) & 2.706 & 3.841 & 6.635 \\
+
 \hline
-\end{tabular}
-\end{center}
 ]
 
 #solution[
-+ (1) 公司 $A$ 共调查 $240+20=260$ 个班次，其中准点 $240$ 个，准点概率的估计值为 $(240)/(260)=(12)/(13)$；公司 $B$ 共调查 $210+30=240$ 个班次，其中准点 $210$ 个，准点概率的估计值为 $(210)/(240)=(7)/(8)$.
-+ (2) 由列联表，$a=240$，$b=20$，$c=210$，$d=30$，$n=500$，所以
-$K^2=(500 times (240 times 30 -20 times 210 )^2)/(260 times 240 times 450 times 50)=(500 times 3000 ""^2)/(1404000000) approx 3 .205$. 因为 $3.205>2.706$，所以有 $90\%$ 的把握认为长途客车是否准点与客车所属公司有关.
++ (1)
 ]
 
 #problem(18)[
-记 $S_n$ 为数列 $\{a_n\}$ 的前 $n$ 项和. 已知 $(2 S_n)/(n)+n=2 a_n+1$.
+记 #mi(`S_{n}`) 为数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和. 已知 #mi(`\dfrac{2S_n}{n}+n=2a_{n}+1`).
 
 
-+ (1) 证明：$\{a_n\}$ 是等差数列；
-+ (2) 若 $a_4$，$a_7$，$a_9$ 成等比数列，求 $S_n$ 的最小值.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $(2 S_n)/(n)+n=2 a_n+1$ 得 $2 S_n=2 n a_n+n-n^2$. 当 $n >= 2$ 时，写出 $n-1$ 的情形 $2 S_(n-1)=2(n-1)a_(n-1)+(n-1)-(n-1)^2$，两式相减得 $2 a_n=2 n a_n-2(n-1)a_(n-1)-2 n+2$，即 $2(n-1)(a_n-a_(n-1))=2(n-1)$. 因为 $n >= 2$，所以 $a_n-a_(n-1)=1$，故 $\{a_n\}$ 是公差为 $1$ 的等差数列.
-+ (2) 设 $a_1=t$，则 $a_n=t+n-1$. 由 $a_4$，$a_7$，$a_9$ 成等比数列得 $a_7^2=a_(4) a_9$，即 $(t+6)^2=(t+3)(t+8)$，化简得 $12 t+36=11 t+24$，解得 $t=-12$. 所以 $a_n=n-13$，从而 $S_n=(n(a_1+a_n))/(2)=(n(n-25))/(2)=(1)/(2)(n^2-25 n)$. 当 $n=12$ 或 $n=13$ 时 $S_n$ 取最小值 $(1)/(2) times (144-300)=-78$.
++ (1)
 ]
 
 #problem(19)[
-小明同学参加综合实践活动，设计了一个封闭的包装盒，包装盒如图所示：底面 $A B C D$ 是边长为 $8~c m$ 的正方形，$triangle E A B$，$triangle F B C$，$triangle G C D$，$triangle H D A$ 均为正三角形，且它们所在的平面都与平面 $A B C D$ 垂直.
+小明同学参加综合实践活动，设计了一个封闭的包装盒，包装盒如图所示：底面 #mi(`ABCD`) 是边长为 #mi(`8\mathrm{~cm}`) 的正方形，#mi(`\triangle EAB`)，#mi(`\triangle FBC`)，#mi(`\triangle GCD`)，#mi(`\triangle HDA`) 均为正三角形，且它们所在的平面都与平面 #mi(`ABCD`) 垂直.
 
 
-+ (1) 证明：$E F parallel$ 平面 $A B C D$；
-+ (2) 求该包装盒的容积（不计包装盒材料的厚度）.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q19_fig1.png", width: 6.0cm)]
+
+#align(center)[#image("/papers/2022/img/national_paper_a_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 因为 $triangle E A B$ 为正三角形且所在平面垂直于平面 $A B C D$，设 $M$ 为 $A B$ 的中点，则 $E M bot A B$，从而 $E M bot$ 平面 $A B C D$，且 $E M=(sqrt(3))/(2) times 8 =4 sqrt(3)$. 同理 $F$，$G$，$H$ 分别到对应边的中点 $N$，$P$，$Q$ 的垂线段都垂直于平面 $A B C D$，长度均为 $4 sqrt(3)$. 于是 $E$，$F$，$G$，$H$ 到平面 $A B C D$ 的距离相等，所以 $E F$ 与平面 $A B C D$ 平行，即 $E F parallel$ 平面 $A B C D$.
-+ (2) 建立空间直角坐标系，取 $A(0,0,0)$，$B(8,0,0)$，$C(8,8,0)$，$D(0,8,0)$. 由第（1）问，$E$，$F$，$G$，$H$ 分别在各边中点正上方，高度为 $h=4 sqrt(3)$，即 $E(4,0,h)$，$F(8,4,h)$，$G(4,8,h)$，$H(0,4,h)$. 该包装盒可看作以正方形 $A B C D$ 为底、高为 $h$ 的正四棱柱，在四个角上各去掉一个全等的三棱锥.
-
-以角点 $A$ 处为例，去掉的三棱锥以 $A(0,0,0)$ 为顶点，底面为等腰直角三角形，两条直角边长均为 $4$，面积为 $(1)/(2) times 4 times 4 =8$，该三棱锥的高为 $h$. 所以每个三棱锥的体积为 $(1)/(3) times 8 times h=(8 h)/(3)$，四个角共去掉 $(32 h)/(3)$.
-
-正四棱柱的体积为 $8^(2) h=64 h$，所以包装盒的容积为 $64 h-(32 h)/(3)=(160 h)/(3)=(160)/(3) times 4 sqrt(3)=(640 sqrt(3))/(3)~c m^3$.
++ (1)
 ]
 
 #problem(20)[
-已知函数 $f(x)=x^3-x$，$g(x)=x^2+a$，曲线 $y=f(x)$ 在点 $(x_1,f(x_1))$ 处的切线也是曲线 $y=g(x)$ 的切线.
+已知函数 #mi(`f(x)=x^{3}-x`)，#mi(`g(x)=x^{2}+a`)，曲线 #mi(`y=f(x)`) 在点 #mi(`\left(x_{1},f(x_{1})\right)`) 处的切线也是曲线 #mi(`y=g(x)`) 的切线.
 
 
-+ (1) 若 $x_1=-1$，求 $a$；
-+ (2) 求 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) $f'(x)=3 x^2-1$，当 $x_1=-1$ 时 $f(-1)=0$，$f'(-1)=2$，切线方程为 $y=2(x+1)=2 x+2$. 该直线与 $y=g(x)$ 相切，设切点横坐标为 $x_0$，则 $g'(x_0)=2 x_0=2$，所以 $x_0=1$. 由切点在切线上得 $g(1)=1+a=2 times 1 +2=4$，所以 $a=3$.
-+ (2) 曲线 $y=f(x)$ 在 $x_1$ 处的切线为 $y-(x_1^3-x_1)=(3 x_1^2-1)(x-x_1)$，即 $y=(3 x_1^2-1)x-2 x_1^3$. 它与 $y=x^2+a$ 相切，则方程 $x^2+a=(3 x_1^2-1)x-2 x_1^3$ 有唯一解，即 $x^2-(3 x_1^2-1)x+(a+2 x_1^3)=0$ 的判别式为零：$(3 x_1^2-1)^2-4(a+2 x_1^3)=0$，解得 $a=((3 x_1^2-1)^2-8 x_1^3)/(4)=(9 x_1^4-8 x_1^3-6 x_1^2+1)/(4)$.
-
-令 $phi.alt (t)=9 t^4-8 t^3-6 t^2+1$，则 $phi.alt '(t)=12 t(3 t+1)(t-1)$. 由 $phi.alt '(t)$ 的符号可知 $phi.alt (t)$ 在 $t=-1$ 附近递减、在 $t=-(1)/(3)$ 处取局部极小值 $(20)/(27)$、在 $t=0$ 处取局部极大值 $1$、在 $t=1$ 处取全局最小值 $-4$，且当 $t -> +- oo$ 时 $phi.alt (t) -> + oo$. 所以 $phi.alt (t) >= -4$，从而 $a >= (-4)/(4)=-1$，即 $a$ 的取值范围为 $[-1,+ oo )$.
++ (1)
 ]
 
 #problem(21)[
-设抛物线 $C:y^2=2 p x$（$p>0$）的焦点为 $F$，点 $D(p,0)$，过 $F$ 的直线交 $C$ 于 $M$，$N$ 两点. 当直线 $M D$ 垂直于 $x$ 轴时，$| M F|=3$.
+设抛物线 #mi(`C:y^{2}=2px`)（#mi(`p>0`)）的焦点为 #mi(`F`)，点 #mi(`D\left(p,0\right)`)，过 #mi(`F`) 的直线交 #mi(`C`) 于 #mi(`M`)，#mi(`N`) 两点. 当直线 #mi(`MD`) 垂直于 #mi(`x`) 轴时，#mi(`\lvert MF\rvert=3`).
 
 
-+ (1) 求 $C$ 的方程；
-+ (2) 设直线 $M D$，$N D$ 与 $C$ 的另一个交点分别为 $A$，$B$，记直线 $M N$，$A B$ 的倾斜角分别为 $alpha$，$beta$. 当 $alpha - beta$ 取得最大值时，求直线 $A B$ 的方程.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $| M F|=3$，当 $M D bot x$ 轴时 $M$ 的横坐标为 $p$，代入 $y^2=2 p x$ 得 $M(p,\p m s q r t(2)p)$. 焦点 $F((p)/(2),0)$，所以 $| M F|=sqrt((p-(p)/(2))^2+2 p^2)=(3)/(2)p=3$，解得 $p=2$. 故 $C$ 的方程为 $y^2=4 x$.
-+ (2) 抛物线 $y^2=4 x$ 上的点可记为 $(t^2,2 t)$. 设 $M=(t_1^2,2 t_1)$，$N=(t_2^2,2 t_2)$. 因为弦 $M N$ 过焦点 $F(1,0)$，所以 $t_(1) t_2=-1$. 又点 $D(2,0)$，过 $D$ 的弦两端参数之积为 $-2$，故 $A$ 对应参数 $t_A=-(2)/(t_1)$，$B$ 对应参数 $t_B=-(2)/(t_2)=2 t_1$. 记 $u=t_1$，则 $t_2=-(1)/(u)$.
-
-直线 $M N$ 的斜率 $tan alpha =(2 t_1-2 t_2)/(t_1^2-t_2^2)=(2)/(t_1+t_2)=(2 u)/(u^2-1)$，直线 $A B$ 的斜率 $tan beta =(2)/(t_A+t_B)=(2)/(2 u-(2)/(u))=(u)/(u^2-1)$. 因而
-$tan ( alpha - beta )=(tan alpha - tan beta)/(1+ tan alpha tan beta)=((u)/(u^2-1))/(1+(2 u^2)/((u^2-1)^2))=(u(u^2-1))/(u^4+1)$.
-
-令 $w=u-(1)/(u)$，则 $w in RR$，且 $tan ( alpha - beta )=(w)/(w^2+2) <= (sqrt(2))/(4)$，当且仅当 $w=sqrt(2)$ 时取等号，此时 $alpha - beta$ 最大. 由 $u-(1)/(u)=sqrt(2)$ 得 $u^2-sqrt(2)u-1=0$. 直线 $A B$ 的斜率 $=(1)/(w)=(1)/(sqrt(2))$，且 $B=(4 u^2,4 u)$ 满足 $4 u^2=sqrt(2) dot 4 u+4$，故 $A B$ 的方程为 $x=sqrt(2)y+4$（即 $y=(sqrt(2))/(2)x-2 sqrt(2)$）.
++ (1)
 ]
 
 #part-header("选考题：解答题")
 
 #problem(22)[
-在直角坐标系 $x O y$ 中，曲线 $C_1$ 的参数方程为 $x=(2+t)/(6)$，$y=sqrt(t)$（$t$ 为参数）；曲线 $C_2$ 的参数方程为 $x=-(2+s)/(6)$，$y=-sqrt(s)$（$s$ 为参数）.
+在直角坐标系 #mi(`xOy`) 中，曲线 #mi(`C_{1}`) 的参数方程为 #mi(`x=\dfrac{2+t}{6}`)，#mi(`y=\sqrt{t}`)（#mi(`t`) 为参数）；曲线 #mi(`C_{2}`) 的参数方程为 #mi(`x=-\dfrac{2+s}{6}`)，#mi(`y=-\sqrt{s}`)（#mi(`s`) 为参数）.
 
 
-+ (1) 写出 $C_1$ 的普通方程；
-+ (2) 以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系，曲线 $C_3$ 的极坐标方程为 $2 cos theta - sin theta =0$，求 $C_3$ 与 $C_1$ 交点的直角坐标，及 $C_3$ 与 $C_2$ 交点的直角坐标.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $y=sqrt(t)$ 得 $t=y^2$（$y >= 0$），代入 $x=(2+t)/(6)$ 得 $x=(2+y^2)/(6)$，所以 $C_1$ 的普通方程为 $y^2=6 x-2$（$y >= 0$）.
-+ (2) 曲线 $C_2$ 中 $y=-sqrt(s) <= 0$，由 $s=y^2$ 得 $x=-(2+y^2)/(6)$，即 $y^2=-6 x-2$（$y <= 0$）. 极坐标方程 $2 cos theta - sin theta =0$ 化为直角坐标方程 $2 x-y=0$，即 $y=2 x$.
-
-将 $y=2 x$ 代入 $y^2=6 x-2$ 得 $4 x^2-6 x+2=0$，即 $2 x^2-3 x+1=0$，解得 $x=1$ 或 $x=(1)/(2)$，对应交点 $((1)/(2),1)$，$(1,2)$，均满足 $y >= 0$，故 $C_3$ 与 $C_1$ 的交点为 $((1)/(2),1)$，$(1,2)$. 将 $y=2 x$ 代入 $y^2=-6 x-2$ 得 $4 x^2+6 x+2=0$，即 $2 x^2+3 x+1=0$，解得 $x=-(1)/(2)$ 或 $x=-1$，对应交点 $(-(1)/(2),-1)$，$(-1,-2)$，均满足 $y <= 0$，故 $C_3$ 与 $C_2$ 的交点为 $(-(1)/(2),-1)$，$(-1,-2)$.
++ (1)
 ]
 
 #problem(23)[
-已知 $a$，$b$，$c$ 均为正数，且 $a^2+b^2+4 c^2=3$，证明：
+已知 #mi(`a`)，#mi(`b`)，#mi(`c`) 均为正数，且 #mi(`a^{2}+b^{2}+4c^{2}=3`)，证明：
 
 
-+ (1) $a+b+2 c <= 3$；
-+ (2) 若 $b=2 c$，则 $(1)/(a)+(1)/(c) >= 3$.
++ (1)
 ]
 
 #solution[
-+ (1) 由柯西不等式，$(a+b+2 c)^2 <= (1+1+1)(a^2+b^2+4 c^2)=3 times 3 =9$，所以 $a+b+2 c <= 3$.
-+ (2) 因为 $b=2 c$，所以 $a^2+b^2+4 c^2=a^2+8 c^2=3$. 由基本不等式，
-$(1)/(a)+(1)/(c)=(1)/(a)+(1)/(2 c)+(1)/(2 c) >= 3 \sqrt[3]{(1)/(a dot 2 c dot 2 c)}=3\sqrt[3]{(1)/(4 a c^2)}$.
-又 $3=a^2+8 c^2=a^2+4 c^2+4 c^2 >= 3 root(3, a^2 dot 4 c^2 dot 4 c^2)=3 root(3, 16 a^(2) c^4)$，所以 $16 a^(2) c^4 <= 1$，即 $a c^2 <= (1)/(4)$. 于是 $(1)/(a)+(1)/(c) >= 3 \sqrt[3]{(1)/(4 a c^2)} >= 3 \sqrt[3]{(1)/(4 times (1)/(4))}=3$，命题得证.
++ (1)
 ]
 

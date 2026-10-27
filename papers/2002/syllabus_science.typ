@@ -129,7 +129,15 @@
 
 #problem(10)[
 函数 #mi(`y = 1 - \frac{1}{x - 1}`) 的图象是（ ）
-  #choices([[width=0.15\paperwidth]img/2002/syllabus_science/q10_optA.png], [[width=0.15\paperwidth]img/2002/syllabus_science/q10_optB.png], [[width=0.15\paperwidth]img/2002/syllabus_science/q10_optC.png], [[width=0.15\paperwidth]img/2002/syllabus_science/q10_optD.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2002/img/syllabus_science/q10_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2002/img/syllabus_science/q10_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2002/img/syllabus_science/q10_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2002/img/syllabus_science/q10_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B])
@@ -150,7 +158,7 @@
 ]
 
 #problem(12)[
-据 #mi(`2002\text{ \text{年}}`) #mi(`3\text{ \text{月}}`) #mi(`5\text{ \text{日}}`)九届人大五次会议《政府工作报告》：“#mi(`2001\text{ \text{年}}`)国内生产总值达到 #mi(`95933\text{ \text{亿元}}`)，比上年增长 #mi(`7.3\%`)”，如果“十·五”期间（#mi(`2001\text{ \text{年}}`)－#mi(`2005\text{ \text{年}}`)）每年的国内生产总值都按此年增长率增长，那么到“十·五”末我国国内年生产总值约为（ ）
+据 #mi(`2002\text{ \text{年}}`) #mi(`3\text{ \text{月}}`) #mi(`5\text{ \text{日}}`) 九届人大五次会议《政府工作报告》：“#mi(`2001\text{ \text{年}}`) 国内生产总值达到 #mi(`95933\text{ \text{亿元}}`)，比上年增长 #mi(`7.3\%`)”，如果“十·五”期间（#mi(`2001\text{ \text{年}}`)－#mi(`2005\text{ \text{年}}`)）每年的国内生产总值都按此年增长率增长，那么到“十·五”末我国国内年生产总值约为（ ）
   #choices([#mi(`115000\text{ \text{亿元}}`)], [#mi(`120000\text{ \text{亿元}}`)], [#mi(`127000\text{ \text{亿元}}`)], [#mi(`135000\text{ \text{亿元}}`)], cols: 2)
 ]
 
@@ -229,7 +237,9 @@
 
 
 
-[max width=0.36\linewidth]img/2002/syllabus_science/q18_fig1.png
+
+#align(center)[#image("/papers/2002/img/syllabus_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -252,7 +262,7 @@
 ]
 
 #problem(20)[
-某城市 #mi(`2001\text{ \text{年}}`)末汽车保有量为 #mi(`30\text{ \text{万辆}}`)，预计此后每年报废上一年末汽车保有量的 #mi(`6\%`)，并且每年新增汽车数量相同. 为保护城市环境，要求该城市汽车保有量不超过 #mi(`60\text{ \text{万辆}}`)，那么每年新增汽车数量不应超过多少辆？
+某城市 #mi(`2001\text{ \text{年}}`) 末汽车保有量为 #mi(`30\text{ \text{万辆}}`)，预计此后每年报废上一年末汽车保有量的 #mi(`6\%`)，并且每年新增汽车数量相同. 为保护城市环境，要求该城市汽车保有量不超过 #mi(`60\text{ \text{万辆}}`)，那么每年新增汽车数量不应超过多少辆？
 ]
 
 #solution[

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,162 +11,160 @@
 #part-header("单选题")
 
 #problem(1)[
-若 $cos theta > 0$，$sin 2 theta < 0$，则角 $theta$ 的终边所在象限是（ ）
+若 #mi(`\cos \theta > 0`)，#mi(`\sin 2\theta < 0`)，则角 #mi(`\theta`) 的终边所在象限是（ ）
   #choices([第一象限], [第二象限], [第三象限], [第四象限], cols: 4)
 ]
 
 #problem(2)[
-对于 $0 < a < 1$，给出下列四个不等式：
+对于 #mi(`0 < a < 1`)，给出下列四个不等式：
 
-\begin{circlelist}
-\item $log _a(1 + a) < log _a(1 + (1)/(a))$；
-\item $log _a(1 + a) > log _a(1 + (1)/(a))$；
-\item $a^(1 + a) < a^(1 + (1)/(a))$；
-\item $a^(1 + a) > a^(1 + (1)/(a))$.
-\end{circlelist}
+
++ (1) #mi(`\log_{a}(1 + a) < \log_{a}\left(1 + \frac{1}{a}\right)`)；
++ (2) #mi(`\log_{a}(1 + a) > \log_{a}\left(1 + \frac{1}{a}\right)`)；
++ (3) #mi(`a^{1 + a}< a^{1 + \frac{1}{a}}`)；
++ (4) #mi(`a^{1 + a}> a^{1 + \frac{1}{a}}`).
+
+
 
 其中成立的是（ ）
-  #choices(["①"与"③"], ["①"与"④"], ["②"与"③"], ["②"与"④"], cols: 4)
+  #choices([①与③], [①与④], [②与③], [②与④], cols: 4)
 ]
 
 #problem(3)[
-已知 $alpha$，$beta$ 是不同的两个平面，直线 $a subset alpha$，直线 $b subset beta$，命题 $p$：$a$ 与 $b$ 无公共点；命题 $q$：$alpha parallel beta$，则 $p$ 是 $q$ 的（ ）
+已知 #mi(`\alpha`)，#mi(`\beta`) 是不同的两个平面，直线 #mi(`a \subset \alpha`)，直线 #mi(`b \subset \beta`)，命题 #mi(`p`)：#mi(`a`) 与 #mi(`b`) 无公共点；命题 #mi(`q`)：#mi(`\alpha \parallel \beta`)，则 #mi(`p`) 是 #mi(`q`) 的（ ）
   #choices([充分而不必要的条件], [必要而不充分的条件], [充要条件], [既不充分也不必要的条件], cols: 4)
 ]
 
 #problem(4)[
-设复数 $z$ 满足 $(1 - z)/(1 + z)= i$，则 $|1 + z| =$（ ）
-  #choices([$0$], [$1$], [$sqrt(2)$], [$2$], cols: 4)
+设复数 #mi(`z`) 满足 #mi(`\frac{1 - z}{1 + z}= \mathrm{i}`)，则 #mi(`|1 + z| =`)（ ）
+  #choices([#mi(`0`)], [#mi(`1`)], [#mi(`\sqrt{2}`)], [#mi(`2`)], cols: 4)
 ]
 
 #problem(5)[
-甲，乙两人独立地解同一问题，甲解决这个问题的概率是 $p_(1)$，乙解决这个问题的概率是 $p_(2)$，那么恰好有 $1$ 人解决这个问题的概率是（ ）
-  #choices([$p_(1)p_(2)$], [$p_1(1 - p_2) + p_2(1 - p_1)$], [$1 - p_(1)p_(2)$], [$1 - (1 - p_1)(1 - p_2)$], cols: 2)
+甲，乙两人独立地解同一问题，甲解决这个问题的概率是 #mi(`p_{1}`)，乙解决这个问题的概率是 #mi(`p_{2}`)，那么恰好有 #mi(`1`) 人解决这个问题的概率是（ ）
+  #choices([#mi(`p_{1}p_{2}`)], [#mi(`p_{1}(1 - p_{2}) + p_{2}(1 - p_{1})`)], [#mi(`1 - p_{1}p_{2}`)], [#mi(`1 - (1 - p_{1})(1 - p_{2})`)], cols: 1)
 ]
 
 #problem(6)[
-已知点 $A(-2,0)$，$B(3,0)$，动点 $P(x, y)$ 满足 $arrow(P A) dot arrow(P B)= x^2$，则点 $P$ 的轨迹是（ ）
+已知点 #mi(`A(-2,0)`)，#mi(`B(3,0)`)，动点 #mi(`P(x, y)`) 满足 #mi(`\overrightarrow{PA}\cdot \overrightarrow{PB}= x^{2}`)，则点 #mi(`P`) 的轨迹是（ ）
   #choices([圆], [椭圆], [双曲线], [抛物线], cols: 4)
 ]
 
 #problem(7)[
-已知函数 $f(x) = sin ( pi x - (pi)/(2)) - 1$，则下列命题正确的是（ ）
-  #choices([$f(x)$ 是周期为$1$的奇函数], [$f(x)$ 是周期为$2$的偶函数], [$f(x)$ 是周期为$1$的非奇非偶函数], [$f(x)$ 是周期为$2$的非奇非偶函数], cols: 2)
+已知函数 #mi(`f(x) = \sin \left( \pi x - \frac{\pi}{2}\right) - 1`)，则下列命题正确的是（ ）
+  #choices([#mi(`f(x)`) 是周期为#mi(`1`) 的奇函数], [#mi(`f(x)`) 是周期为#mi(`2`) 的偶函数], [#mi(`f(x)`) 是周期为#mi(`1`) 的非奇非偶函数], [#mi(`f(x)`) 是周期为#mi(`2`) 的非奇非偶函数], cols: 1)
 ]
 
 #problem(8)[
-已知随机变量 $xi$ 的概率分布如下：
+已知随机变量 #mi(`\xi`) 的概率分布如下：
 
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-$xi$ & $1$ & $2$ & $3$ & $4$ & $5$ & $6$ & $7$ & $8$ & $9$ & $10$ \\
-\hline
-$P$ & $(2)/(3)$ & $(2)/(3^2)$ & $(2)/(3^3)$ & $(2)/(3^4)$ & $(2)/(3^5)$ & $(2)/(3^6)$ & $(2)/(3^7)$ & $(2)/(3^8)$ & $(2)/(3^9)$ & $m$ \\
-\hline
-\end{tabular}
-\end{center}
 
-则 $P( xi = 10) =$（ ）
-  #choices([$(2)/(3^9)$], [$(2)/(3^(10))$], [$(1)/(3^9)$], [$(1)/(3^(10))$], cols: 4)
+#mi(`\xi`) & #mi(`1`) & #mi(`2`) & #mi(`3`) & #mi(`4`) & #mi(`5`) & #mi(`6`) & #mi(`7`) & #mi(`8`) & #mi(`9`) & #mi(`10`) \\
+
+\hline
+
+#mi(`P`) & #mi(`\frac{2}{3}`) & #mi(`\frac{2}{3^{2}}`) & #mi(`\frac{2}{3^{3}}`) & #mi(`\frac{2}{3^{4}}`) & #mi(`\frac{2}{3^{5}}`) & #mi(`\frac{2}{3^{6}}`) & #mi(`\frac{2}{3^{7}}`) & #mi(`\frac{2}{3^{8}}`) & #mi(`\frac{2}{3^{9}}`) & #mi(`m`) \\
+
+\hline
+
+则 #mi(`P(\xi = 10) =`)（ ）
+  #choices([#mi(`\frac{2}{3^{9}}`)], [#mi(`\frac{2}{3^{10}}`)], [#mi(`\frac{1}{3^{9}}`)], [#mi(`\frac{1}{3^{10}}`)], cols: 2)
 ]
 
 #problem(9)[
-已知点 $F_(1)(-sqrt(2),0)$，$F_(2)(sqrt(2),0)$. 动点 $P$ 满足 $|P F_(2)| - |P F_(1)| = 2$. 当点 $P$ 的纵坐标是 $(1)/(2)$ 时，点 $P$ 到坐标原点的距离是（ ）
-  #choices([$(sqrt(6))/(2)$], [$(3)/(2)$], [$sqrt(3)$], [$2$], cols: 4)
+已知点 #mi(`F_{1}(-\sqrt{2},0)`)，#mi(`F_{2}(\sqrt{2},0)`). 动点 #mi(`P`) 满足 #mi(`|PF_{2}| - |PF_{1}| = 2`). 当点 #mi(`P`) 的纵坐标是 #mi(`\frac{1}{2}`) 时，点 #mi(`P`) 到坐标原点的距离是（ ）
+  #choices([#mi(`\frac{\sqrt{6}}{2}`)], [#mi(`\frac{3}{2}`)], [#mi(`\sqrt{3}`)], [#mi(`2`)], cols: 2)
 ]
 
 #problem(10)[
-设 $A$，$B$，$C$，$D$ 是球面上的四个点，且在同一平面内，$A B = B C = C D = D A = 3$，球心到该平面的距离是球半径的一半，则球的体积是（ ）
-  #choices([$8 sqrt(6) pi$], [$64 sqrt(6) pi$], [$24 sqrt(2) pi$], [$72 sqrt(2) pi$], cols: 4)
+设 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 是球面上的四个点，且在同一平面内，#mi(`AB = BC = CD = DA = 3`)，球心到该平面的距离是球半径的一半，则球的体积是（ ）
+  #choices([#mi(`8\sqrt{6}\pi`)], [#mi(`64\sqrt{6}\pi`)], [#mi(`24\sqrt{2}\pi`)], [#mi(`72\sqrt{2}\pi`)], cols: 2)
 ]
 
 #problem(11)[
-若函数 $f(x) = sin ( omega x + phi.alt )$ 的图象（部分）如图所示，则 $omega$ 和 $phi.alt$ 的取值（ ）
+若函数 #mi(`f(x) = \sin (\omega x + \varphi)`) 的图象（部分）如图所示，则 #mi(`\omega`) 和 #mi(`\varphi`) 的取值（ ）
 
 
+#align(center)[#image("/papers/2004/img/liaoning/q11_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/2004/img/liaoning/q11_fig1.png", width: 78%)]
-  #choices([$omega = 1$，$phi.alt = (pi)/(3)$], [$omega = 1$，$phi.alt = -(pi)/(3)$], [$omega = (1)/(2)$，$phi.alt = (pi)/(6)$], [$omega = (1)/(2)$，$phi.alt = -(pi)/(6)$], cols: 1)
+  #choices([#mi(`\omega = 1`)，#mi(`\varphi = \frac{\pi}{3}`)], [#mi(`\omega = 1`)，#mi(`\varphi = -\frac{\pi}{3}`)], [#mi(`\omega = \frac{1}{2}`)，#mi(`\varphi = \frac{\pi}{6}`)], [#mi(`\omega = \frac{1}{2}`)，#mi(`\varphi = -\frac{\pi}{6}`)], cols: 1)
 ]
 
 #problem(12)[
-有两排座位，前排 $11$ 个座位，后排 $12$ 个座位，现安排 $2$ 人就座，规定前排中间的 $3$ 个座位不能坐，并且这 $2$ 人不左右相邻，那么不同排法的种数是（ ）
-  #choices([$234$], [$346$], [$350$], [$363$], cols: 4)
+有两排座位，前排 #mi(`11`) 个座位，后排 #mi(`12`) 个座位，现安排 #mi(`2`) 人就座，规定前排中间的 #mi(`3`) 个座位不能坐，并且这 #mi(`2`) 人不左右相邻，那么不同排法的种数是（ ）
+  #choices([#mi(`234`)], [#mi(`346`)], [#mi(`350`)], [#mi(`363`)], cols: 4)
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-若经过点 $P(-1,0)$ 的直线与圆 $x^(2) + y^(2) + 4 x - 2 y + 3 = 0$ 相切，则此直线在 $y$ 轴上的截距是#blank(){}.
+若经过点 #mi(`P(-1,0)`) 的直线与圆 #mi(`x^{2}+ y^{2}+ 4x - 2y + 3 = 0`) 相切，则此直线在 #mi(`y`) 轴上的截距是\underline{\hspace{2.5em}}.
 ]
 
 #problem(14)[
-$lim_(x -> pi )((x - pi ) cos x)/(sqrt(x)- sqrt(pi))=$#blank(){}.
+#mi(`\displaystyle\lim_{x\to \pi}\frac{(x - \pi)\cos x}{\sqrt{x} - \sqrt{\pi}}=`)\underline{\hspace{2.5em}}.
 ]
 
 #problem(15)[
-如图，四棱柱 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 的底面 $A B C D$ 为正方形，侧棱与底面边长均为 $2 a$，且 $angle A_(1)A D = angle A_(1)A B = 60^( degree )$，则侧棱 $A A_(1)$ 和截面 $B_(1)D_(1)D B$ 的距离是#blank(){}.
+如图，四棱柱 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 的底面 #mi(`ABCD`) 为正方形，侧棱与底面边长均为 #mi(`2a`)，且 #mi(`\angle A_{1}AD = \angle A_{1}AB = 60^{\circ}`)，则侧棱 #mi(`AA_{1}`) 和截面 #mi(`B_{1}D_{1}DB`) 的距离是\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2004/img/liaoning/q15_fig1.png", width: 52%)]
+#align(center)[#image("/papers/2004/img/liaoning/q15_fig1.png", width: 28%)]
+
 ]
 
 #problem(16)[
-口袋内装有 $10$ 个相同的球，其中 $5$ 个球标有数字 $0$，$5$ 个球标有数字 $1$，若从袋中摸出 $5$ 个球，那么摸出的 $5$ 个球所标数字之和小于 $2$ 或大于 $3$ 的概率是#blank(){}.（以数值作答）
+口袋内装有 #mi(`10`) 个相同的球，其中 #mi(`5`) 个球标有数字 #mi(`0`)，#mi(`5`) 个球标有数字 #mi(`1`)，若从袋中摸出 #mi(`5`) 个球，那么摸出的 #mi(`5`) 个球所标数字之和小于 #mi(`2`) 或大于 #mi(`3`) 的概率是\underline{\hspace{2.5em}}.（以数值作答）
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知四棱锥 $P - A B C D$，底面 $A B C D$ 是菱形，$angle D A B = 60^( degree )$，$P D bot$ 平面 $A B C D$，$P D = A D$，点 $E$ 为 $A B$ 中点，点 $F$ 为 $P D$ 中点.
+已知四棱锥 #mi(`P - ABCD`)，底面 #mi(`ABCD`) 是菱形，#mi(`\angle DAB = 60^{\circ}`)，#mi(`PD \perp`) 平面 #mi(`ABCD`)，#mi(`PD = AD`)，点 #mi(`E`) 为 #mi(`AB`) 中点，点 #mi(`F`) 为 #mi(`PD`) 中点.
 
 
-+ (1) 证明：平面 $P E D bot$ 平面 $P A B$；
-+ (2) 求二面角 $P - A B - F$ 的平面角的余弦值.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2004/img/liaoning/q17_fig1.png", width: 56%)]
+
+#align(center)[#image("/papers/2004/img/liaoning/q17_fig1.png", width: 28%)]
+
 ]
 
 #problem(18)[
-设全集 $U = RR$.
+设全集 #mi(`U = \mathbb{R}`).
 
 
-+ (1) 解关于 $x$ 的不等式 $|x - 1| + a - 1 > 0$（$a in RR$）；
-+ (2) 记 $A$ 为（1）中不等式的解集，集合 $B = \{x | sin ( pi x - (pi)/(3)) + sqrt(3) cos ( pi x - (pi)/(3)) = 0 \}$，若 $(\c o m p l e m e n t_U A) inter B$ 恰有 $3$ 个元素，求 $a$ 的取值范围.
++ (1)
 ]
 
 #problem(19)[
-设椭圆方程为 $x^(2) + (y^(2))/(4)= 1$，过点 $M(0,1)$ 的直线 $l$ 交椭圆于点 $A$，$B$，$O$ 是坐标原点，点 $P$ 满足 $arrow(O P)= (1)/(2)( arrow(O A)+ arrow(O B))$，点 $N$ 的坐标为 $((1)/(2), (1)/(2))$，当 $l$ 绕点 $M$ 旋转时，求：
+设椭圆方程为 #mi(`x^{2}+ \frac{y^{2}}{4}= 1`)，过点 #mi(`M(0,1)`) 的直线 #mi(`l`) 交椭圆于点 #mi(`A`)，#mi(`B`)，#mi(`O`) 是坐标原点，点 #mi(`P`) 满足 #mi(`\overrightarrow{OP}= \frac{1}{2}\left( \overrightarrow{OA}+ \overrightarrow{OB}\right)`)，点 #mi(`N`) 的坐标为 #mi(`\left(\frac{1}{2}, \frac{1}{2}\right)`)，当 #mi(`l`) 绕点 #mi(`M`) 旋转时，求：
 
 
-+ (1) 动点 $P$ 的轨迹方程；
-+ (2) $|arrow(N P)|$ 的最小值与最大值.
++ (1)
 ]
 
 #problem(20)[
-甲方是一农场，乙方是一工厂，由于乙方生产须占用甲方的资源，因此甲方有权向乙方索赔以弥补经济损失并获得一定净收入，在乙方不赔付甲方的情况下，乙方的年利润 $x$（元）与年产量 $t$（吨）满足函数关系 $x = 2000 sqrt(t)$. 若乙方每生产一吨产品必须赔付甲方 $s$ 元（以下称 $s$ 为赔付价格）.
+甲方是一农场，乙方是一工厂，由于乙方生产须占用甲方的资源，因此甲方有权向乙方索赔以弥补经济损失并获得一定净收入，在乙方不赔付甲方的情况下，乙方的年利润 #mi(`x`)（元）与年产量 #mi(`t`)（吨）满足函数关系 #mi(`x = 2000\sqrt{t}`). 若乙方每生产一吨产品必须赔付甲方 #mi(`s`) 元（以下称 #mi(`s`) 为赔付价格）.
 
 
-+ (1) 将乙方的年利润 $w$（元）表示为年产量 $t$（吨）的函数，并求出乙方获得最大利润的年产量；
-+ (2) 甲方每年受乙方生产影响的经济损失金额 $y = 0.002 t^2$（元），在乙方按照获得最大利润的产量进行生产的前提下，甲方要在索赔中获得最大净收入，应向乙方要求的赔付价格 $s$ 是多少.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x)=a x-(3)/(2)x^(2)$ 的最大值不大于 $(1)/(6)$，又当 $x in [(1)/(4), (1)/(2)]$ 时，$f(x) >= (1)/(8)$.
+已知函数 #mi(`f(x)=ax-\frac{3}{2}x^{2}`) 的最大值不大于 #mi(`\frac{1}{6}`)，又当 #mi(`x \in \left[\frac{1}{4}, \frac{1}{2}\right]`) 时，#mi(`f(x) \ge \frac{1}{8}`).
 
 
-+ (1) 求 $a$ 的值；
-+ (2) 设 $0 < a_1 < (1)/(2)$，$a_(n+1) = f(a_n)$，$n in NN ""^*$. 证明 $a_n < (1)/(n+1)$.
++ (1)
 ]
 
 #problem(22)[
-已知函数 $f(x) = ln ( e ""^x + a)$（$a > 0$）.
+已知函数 #mi(`f(x) = \ln(\mathrm{e}^{x} + a)`)（#mi(`a > 0`)）.
 
 
-+ (1) 求函数 $y = f(x)$ 的反函数 $y = f^(-1)(x)$ 及 $f(x)$ 的导数 $f'(x)$；
-+ (2) 假设对任意 $x in [ ln (3 a), ln (4 a)]$，不等式 $|m - f^(-1)(x)| + ln (f'(x)) < 0$ 成立，求实数 $m$ 的取值范围.
++ (1)
 ]
 

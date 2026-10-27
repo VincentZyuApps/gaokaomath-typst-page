@@ -1,8 +1,65 @@
 {
-  "title": "1977年普通高等学校招生全国统一考试",
-  "subtitle": "1977年广西百色卷（文）",
   "year": "1977",
   "slug": "guangxi_baise_liberal",
+  "title": "1977年广西百色卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "解答题",
@@ -10,65 +67,83 @@
         {
           "num": 1,
           "body": "计算：$-3.5-\\left[2\\frac{3}{7}-\\left(-3\\frac{3}{14}-3\\frac{5}{14}\\right)\\right]$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>先计算括号内的两个带分数，得</p><p>$-3\\frac{3}{14}-3\\frac{5}{14}=-6\\frac{4}{7}$，从而</p><p>$2\\frac{3}{7}-(-6\\frac{4}{7})=9$. 因此</p>\n$$\n-3.5-\\left[2\\frac{3}{7}-\\left(-3\\frac{3}{14}-3\\frac{5}{14}\\right)\\right]  =-3.5-\\left(2\\frac{3}{7}+6\\frac{4}{7}\\right)  =-3.5-9=-12.5\n$$"
+          "solution": "<p>先计算括号内的两个带分数，得</p><p>$-3\\frac{3}{14}-3\\frac{5}{14}=-6\\frac{4}{7}$，从而</p><p>$2\\frac{3}{7}-(-6\\frac{4}{7})=9$. 因此</p>\n$$\n-3.5-\\left[2\\frac{3}{7}-\\left(-3\\frac{3}{14}-3\\frac{5}{14}\\right)\\right]  =-3.5-\\left(2\\frac{3}{7}+6\\frac{4}{7}\\right)  =-3.5-9=-12.5\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "当 $|m|=|n|$ 时，能肯定 $m=n$ 吗？为什么？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>不能. 由 $|m|=|n|$ 可得 $m^{2}=n^{2}$，从而</p><p>$(m-n)(m+n)=0$，所以可能有 $m=n$，也可能有 $m=-n$. 例如取</p><p>$m=1$，$n=-1$，则 $|m|=|n|=1$，但 $m\\ne n$. 因此仅由</p><p>$|m|=|n|$ 不能肯定 $m=n$.</p>"
+          "solution": "<p>不能. 由 $|m|=|n|$ 可得 $m^{2}=n^{2}$，从而</p><p>$(m-n)(m+n)=0$，所以可能有 $m=n$，也可能有 $m=-n$. 例如取</p><p>$m=1$，$n=-1$，则 $|m|=|n|=1$，但 $m\\ne n$. 因此仅由</p><p>$|m|=|n|$ 不能肯定 $m=n$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "当 $a=1\\frac{1}{2}$ 时，求 $a+\\frac{1-2a+a^{2}}{a-1}$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由题设 $a=1\\frac{1}{2}=\\frac{3}{2}$，所以 $a-1\\ne0$，原式中的分式有意义. 又</p>\n$$\na+\\frac{1-2a+a^{2}}{a-1}=a+\\frac{(a-1)^{2}}{a-1}=a+(a-1)=2a-1\n$$\n<p>代入 $a=\\frac{3}{2}$，得 $2a-1=2\\times\\frac{3}{2}-1=2$.</p>"
+          "solution": "<p>由题设 $a=1\\frac{1}{2}=\\frac{3}{2}$，所以 $a-1\\ne0$，原式中的分式有意义. 又</p>\n$$\na+\\frac{1-2a+a^{2}}{a-1}=a+\\frac{(a-1)^{2}}{a-1}=a+(a-1)=2a-1\n$$\n<p>代入 $a=\\frac{3}{2}$，得 $2a-1=2\\times\\frac{3}{2}-1=2$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "已知 $\\log_{x}32=5$. 求 $x$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>对数的底数必须满足 $x>0$ 且 $x\\ne1$. 由对数定义，</p><p>$\\log_{x}32=5$ 等价于 $x^{5}=32=2^{5}$. 实数范围内五次方函数严格递增，</p><p>所以 $x=2$，且该值满足对数底数的条件.</p>"
+          "solution": "<p>对数的底数必须满足 $x>0$ 且 $x\\ne1$. 由对数定义，</p><p>$\\log_{x}32=5$ 等价于 $x^{5}=32=2^{5}$. 实数范围内五次方函数严格递增，</p><p>所以 $x=2$，且该值满足对数底数的条件.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "<p>分解下列各式的因式：</p><ol class=\"enumerate\"><li><p>$(x-2)(x^{2}-3)+(x-2)^{2}-(x-2)(2x-3)$；</p></li><li><p>$bc^{2}+a^{2}c+ab^{2}-a^{2}b-ac^{2}-b^{2}c$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>原式中各项都有公因式 $x-2$，因此</p>\n$$\n(x-2)(x^{2}-3)+(x-2)^{2}-(x-2)(2x-3)  =(x-2)\\left[(x^{2}-3)+(x-2)-(2x-3)\\right]  =(x-2)(x^{2}-x-2)\n$$\n\n$$\n=(x-2)(x-2)(x+1)=(x-2)^{2}(x+1)\n$$\n</li><li><p>设原式为 $E$. 按含有 $c^{2}$、$c$ 和常数项分组，得</p>\n$$\nE=c^{2}(b-a)+c(a^{2}-b^{2})+ab(b-a)  =(b-a)\\left[c^{2}-c(a+b)+ab\\right]\n$$\n<p>括号内的二次式可分解为</p><p>$c^{2}-c(a+b)+ab=(c-a)(c-b)$，所以</p>\n$$\nE=(b-a)(c-a)(c-b)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>原式中各项都有公因式 $x-2$，因此</p>\n$$\n(x-2)(x^{2}-3)+(x-2)^{2}-(x-2)(2x-3)  =(x-2)\\left[(x^{2}-3)+(x-2)-(2x-3)\\right]  =(x-2)(x^{2}-x-2)\n$$\n\n$$\n=(x-2)(x-2)(x+1)=(x-2)^{2}(x+1)\n$$\n</li><li><p>设原式为 $E$. 按含有 $c^{2}$、$c$ 和常数项分组，得</p>\n$$\nE=c^{2}(b-a)+c(a^{2}-b^{2})+ab(b-a)  =(b-a)\\left[c^{2}-c(a+b)+ab\\right]\n$$\n<p>括号内的二次式可分解为</p><p>$c^{2}-c(a+b)+ab=(c-a)(c-b)$，所以</p>\n$$\nE=(b-a)(c-a)(c-b)\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
-          "body": "<p>已知 $AD$ 和 $BE$ 分别是 $\\triangle ABC$ 的 $BC$ 和 $AC$ 边上的高，延长 $AD$ 交外接圆于 $F$，求证 $\\angle EBC=\\angle FBC$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangxi_baise_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>已知 $AD$ 和 $BE$ 分别是 $\\triangle ABC$ 的 $BC$ 和 $AC$ 边上的高，延长 $AD$ 交外接圆于 $F$，求证 $\\angle EBC=\\angle FBC$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/guangxi_baise_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>在 $\\triangle BEC$ 和 $\\triangle ADC$ 中，$BE\\perp AC$，$AD\\perp BC$，所以</p><p>$\\angle BEC=\\angle ADC=90^{\\circ}$. 又因为 $E$ 在 $AC$ 上、$D$ 在 $BC$ 上，</p><p>所以 $\\angle BCE=\\angle ACD$. 因此</p><p>$\\triangle BEC\\sim\\triangle ADC$，对应关系为 $B\\leftrightarrow A$，</p><p>$E\\leftrightarrow D$，$C\\leftrightarrow C$，从而</p><p>$\\angle EBC=\\angle DAC$.</p><p>由构造知 $A$，$D$，$F$ 三点共线，且射线 $AD$ 与射线 $AF$ 同向，所以</p><p>$\\angle DAC=\\angle FAC$. 又因为 $A$，$B$，$C$，$F$ 在同一圆上，</p><p>$\\angle FAC$ 与 $\\angle FBC$ 都是所对弦 $FC$ 所对的圆周角，故</p><p>$\\angle FAC=\\angle FBC$. 因而 $\\angle EBC=\\angle FBC$.</p>"
+          "solution": "<p>在 $\\triangle BEC$ 和 $\\triangle ADC$ 中，$BE\\perp AC$，$AD\\perp BC$，所以</p><p>$\\angle BEC=\\angle ADC=90^{\\circ}$. 又因为 $E$ 在 $AC$ 上、$D$ 在 $BC$ 上，</p><p>所以 $\\angle BCE=\\angle ACD$. 因此</p><p>$\\triangle BEC\\sim\\triangle ADC$，对应关系为 $B\\leftrightarrow A$，</p><p>$E\\leftrightarrow D$，$C\\leftrightarrow C$，从而</p><p>$\\angle EBC=\\angle DAC$.</p><p>由构造知 $A$，$D$，$F$ 三点共线，且射线 $AD$ 与射线 $AF$ 同向，所以</p><p>$\\angle DAC=\\angle FAC$. 又因为 $A$，$B$，$C$，$F$ 在同一圆上，</p><p>$\\angle FAC$ 与 $\\angle FBC$ 都是所对弦 $FC$ 所对的圆周角，故</p><p>$\\angle FAC=\\angle FBC$. 因而 $\\angle EBC=\\angle FBC$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "红星农场一块地，用一台拖拉机来耕 $6\\text{ 天}$，完成一半，后来加入了另一台新式拖拉机，两台合耕 $2\\text{ 天}$ 就耕完余下的地，新式拖拉机单独耕这块地要几天？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设整块地的工作量为 $1$. 旧式拖拉机 $6\\text{ 天}$ 完成了 $\\frac{1}{2}$，</p><p>所以它每天完成的工作量为 $\\frac{\\frac{1}{2}}{6}=\\frac{1}{12}$. 设新式拖拉机单独完成整块地需要</p><p>$x\\text{ 天}$，则它每天完成的工作量为 $\\frac{1}{x}$，其中 $x>0$.</p><p>两台拖拉机合耕 $2\\text{ 天}$ 完成余下的 $\\frac{1}{2}$，故</p>\n$$\n2\\left(\\frac{1}{12}+\\frac{1}{x}\\right)=\\frac{1}{2}\n$$\n<p>解得 $\\frac{1}{12}+\\frac{1}{x}=\\frac{1}{4}$，所以 $\\frac{1}{x}=\\frac{1}{6}$，</p><p>从而 $x=6$. 因此新式拖拉机单独耕完这块地需要 $6\\text{ 天}$.</p>"
+          "solution": "<p>设整块地的工作量为 $1$. 旧式拖拉机 $6\\text{ 天}$ 完成了 $\\frac{1}{2}$，</p><p>所以它每天完成的工作量为 $\\frac{\\frac{1}{2}}{6}=\\frac{1}{12}$. 设新式拖拉机单独完成整块地需要</p><p>$x\\text{ 天}$，则它每天完成的工作量为 $\\frac{1}{x}$，其中 $x>0$.</p><p>两台拖拉机合耕 $2\\text{ 天}$ 完成余下的 $\\frac{1}{2}$，故</p>\n$$\n2\\left(\\frac{1}{12}+\\frac{1}{x}\\right)=\\frac{1}{2}\n$$\n<p>解得 $\\frac{1}{12}+\\frac{1}{x}=\\frac{1}{4}$，所以 $\\frac{1}{x}=\\frac{1}{6}$，</p><p>从而 $x=6$. 因此新式拖拉机单独耕完这块地需要 $6\\text{ 天}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "曙光人民公社养鸡场，准备在鸡舍后面开辟一个矩形养鸡场，现仓库里有 $38\\text{ 米}$ 长的铁丝网，问鸡场的长和宽各是多少米？才能使鸡场的面积最大？（靠鸡舍一边不围网）",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设鸡场的宽为 $x\\text{ 米}$. 由于靠鸡舍的一边不围网，需要围成两条宽和一条长，</p><p>所以鸡场的长为 $38-2x\\text{ 米}$. 长、宽都为正数，故 $0<x<19$.</p><p>设鸡场面积为 $S\\text{ 平方米}$，则</p>\n$$\nS=x(38-2x)=-2x^{2}+38x=-2\\left(x-\\frac{19}{2}\\right)^{2}+\\frac{361}{2}\n$$\n<p>由于平方项不小于零，$S\\le\\frac{361}{2}$，且当</p><p>$x=\\frac{19}{2}=9.5$ 时等号成立. 此时鸡场的长为</p><p>$38-2\\times9.5=19\\text{ 米}$. 因此鸡场的宽为 $9.5\\text{ 米}$、长为</p><p>$19\\text{ 米}$ 时面积最大.</p>"
+          "solution": "<p>设鸡场的宽为 $x\\text{ 米}$. 由于靠鸡舍的一边不围网，需要围成两条宽和一条长，</p><p>所以鸡场的长为 $38-2x\\text{ 米}$. 长、宽都为正数，故 $0<x<19$.</p><p>设鸡场面积为 $S\\text{ 平方米}$，则</p>\n$$\nS=x(38-2x)=-2x^{2}+38x=-2\\left(x-\\frac{19}{2}\\right)^{2}+\\frac{361}{2}\n$$\n<p>由于平方项不小于零，$S\\le\\frac{361}{2}$，且当</p><p>$x=\\frac{19}{2}=9.5$ 时等号成立. 此时鸡场的长为</p><p>$38-2\\times9.5=19\\text{ 米}$. 因此鸡场的宽为 $9.5\\text{ 米}$、长为</p><p>$19\\text{ 米}$ 时面积最大.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "已知一个动点 $P(x,y)$ 到两定点 $A(1,3)$ 和 $B(-3,5)$ 的距离相等，求这动点的轨迹方程.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由距离相等，得</p>\n$$\n\\sqrt{(x-1)^{2}+(y-3)^{2}}=\\sqrt{(x+3)^{2}+(y-5)^{2}}\n$$\n<p>两边都是非负数，所以平方不会引入增根，从而</p>\n$$\n(x-1)^{2}+(y-3)^{2}=(x+3)^{2}+(y-5)^{2}\n$$\n<p>展开并消去两边的 $x^{2}$ 和 $y^{2}$，得</p>\n$$\nx^{2}-2x+1+y^{2}-6y+9=x^{2}+6x+9+y^{2}-10y+25\n$$\n<p>即 $-8x+4y-24=0$，化简为 $2x-y+6=0$.</p><p>反过来，任意满足 $2x-y+6=0$ 的点都满足上述两个距离平方相等；由于距离非负，</p><p>两个距离也相等. 因此所求动点的轨迹方程为 $2x-y+6=0$.</p>"
+          "solution": "<p>由距离相等，得</p>\n$$\n\\sqrt{(x-1)^{2}+(y-3)^{2}}=\\sqrt{(x+3)^{2}+(y-5)^{2}}\n$$\n<p>两边都是非负数，所以平方不会引入增根，从而</p>\n$$\n(x-1)^{2}+(y-3)^{2}=(x+3)^{2}+(y-5)^{2}\n$$\n<p>展开并消去两边的 $x^{2}$ 和 $y^{2}$，得</p>\n$$\nx^{2}-2x+1+y^{2}-6y+9=x^{2}+6x+9+y^{2}-10y+25\n$$\n<p>即 $-8x+4y-24=0$，化简为 $2x-y+6=0$.</p><p>反过来，任意满足 $2x-y+6=0$ 的点都满足上述两个距离平方相等；由于距离非负，</p><p>两个距离也相等. 因此所求动点的轨迹方程为 $2x-y+6=0$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

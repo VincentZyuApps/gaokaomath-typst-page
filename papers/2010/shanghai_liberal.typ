@@ -125,7 +125,9 @@
 #problem(11)[
 2010 年上海世博会园区每天 9：00 开园，20：00 停止入园. 在右边的框图中，#mi(`S`) 表示上海世博会官方网站在每个整点报道的入园总人数，#mi(`a`) 表示整点报道前 1 个小时内入园人数. 则空白的执行框内应填入\underline{\hspace{2.5em}}.
 
-[max width=0.42\linewidth]img/2010/shanghai_liberal/q11_fig1.png
+
+#align(center)[#image("/papers/2010/img/shanghai_liberal/q11_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`S\leftarrow S+a`)])
@@ -277,7 +279,9 @@
 
 
 
-[max width=0.38\linewidth]img/2010/shanghai_liberal/q20_fig1.png
+
+#align(center)[#image("/papers/2010/img/shanghai_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[

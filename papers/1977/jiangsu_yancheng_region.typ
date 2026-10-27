@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -14,155 +14,186 @@
 计算：
 
 
-+ (1) $(-1)^3-[(-(1)/(2))^2+4^(-(1)/(2))]\div((2)/(3))^(-2)+((2)/(9))^0$.
-+ (2) $log _2(1)/(2)+ log _3 sqrt(3)+\l g 0.01+\l g 100$.
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $4^(-(1)/(2))=(1)/(sqrt(4))=(1)/(2)$，$((2)/(9))^0=1$，且 $((2)/(3))^(-2)=((3)/(2))^2=(9)/(4)$，所以
-
-$ (-1)^3-[(-(1)/(2))^2+4^(-(1)/(2))]\div((2)/(3))^(-2)+((2)/(9))^0 =-1-((1)/(4)+(1)/(2))\div(9)/(4)+1 =-1-(3)/(4) times (4)/(9)+1=-(1)/(3) $
-+ (2) $log _2(1)/(2)=-1$，$log _3 sqrt(3)=(1)/(2)$，$\l g0.01=\l g10^(-2)=-2$，$\l g100=2$，所以原式
-
-$ =-1+(1)/(2)-2+2=-(1)/(2) $
++ (1)
 ]
 
 #problem(2)[
-已知函数 $y=sqrt(12-x)+sqrt(2 x+10)$.
+已知函数 #mi(`y=\sqrt{12-x}+\sqrt{2x+10}`).
 
 
-+ (1) 求自变量 $x$ 的取值范围.
-+ (2) 求当 $x=4$ 时函数 $y$ 的值.
++ (1)
 ]
 
 #solution[
-+ (1) 要使函数有意义，必须有 $12-x >= 0$ 且 $2 x+10 >= 0$，即 $x <= 12$ 且 $x >= -5$，所以自变量 $x$ 的取值范围是 $[-5,12]$.
-+ (2) 当 $x=4$ 时，$y=sqrt(8)+sqrt(18)=2 sqrt(2)+3 sqrt(2)=5 sqrt(2)$.
++ (1)
 ]
 
 #problem(3)[
-$m$ 为何值时，方程 $x^2-2 x+m=0$ 有两个相等的实数根？并求出它的根.
+#mi(`m`) 为何值时，方程 #mi(`x^{2}-2x+m=0`) 有两个相等的实数根？并求出它的根.
 ]
 
 #solution[
 二次方程有两个相等的实数根，当且仅当判别式为零. 因此
 
-$ Delta =(-2)^2-4 m=4-4 m=0 $
 
-解得 $m=1$. 此时方程为 $x^2-2 x+1=0$，即 $(x-1)^2=0$，所以它的两个相等的实数根都是 $x=1$.
+#align(center)[#mitex(`
+\Delta=(-2)^{2}-4m=4-4m=0
+`)]
+
+
+解得 #mi(`m=1`). 此时方程为 #mi(`x^{2}-2x+1=0`)，即 #mi(`(x-1)^{2}=0`)，所以它的两个相等的实数根都是 #mi(`x=1`).
 ]
 
 #problem(4)[
-从 $\o d o t O$ 外一点 $A$ 作 $\o d o t O$ 的两条切线 $A C$，$A D$，$C$，$D$ 为切点，连接 $C O$ 并延长交 $A D$ 的延长线于 $B$. 若 $A D=4~c m$，$D B=5~c m$，求 $\o d o t O$ 的面积（$pi$ 不必取近似值）.
+从 #mi(`\odot O`) 外一点 #mi(`A`) 作 #mi(`\odot O`) 的两条切线 #mi(`AC`)，#mi(`AD`)，#mi(`C`)，#mi(`D`) 为切点，连接 #mi(`CO`) 并延长交 #mi(`AD`) 的延长线于 #mi(`B`). 若 #mi(`AD=4\mathrm{~cm}`)，#mi(`DB=5\mathrm{~cm}`)，求 #mi(`\odot O`) 的面积（#mi(`\pi`) 不必取近似值）.
 
 
+#align(center)[#image("/papers/1977/img/jiangsu_yancheng_region/q4_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/1977/img/jiangsu_yancheng_region/q4_fig1.png", width: 6.2cm)]
 
 \FloatBarrier
 ]
 
 #solution[
-设圆的半径为 $r$. 以切点 $D$ 为原点，直线 $A D$ 为 $x$ 轴建立直角坐标系，则由半径垂直于切线可设 $D=(0,0)$，$O=(0,r)$，$A=(-4,0)$，$B=(5,0)$.
-设 $C=(u,v)$. 因为 $C$ 在圆上，所以
+设圆的半径为 #mi(`r`). 以切点 #mi(`D`) 为原点，直线 #mi(`AD`) 为 #mi(`x`) 轴建立直角坐标系，则由半径垂直于切线可设 #mi(`D=(0,0)`)，#mi(`O=(0,r)`)，#mi(`A=(-4,0)`)，#mi(`B=(5,0)`).
 
-$ u^2+(v-r)^2=r^2 "即"u^2+v^2-2 r v=0 $
+设 #mi(`C=(u,v)`). 因为 #mi(`C`) 在圆上，所以
 
-又因为 $A C$ 是圆的切线，故 $A C bot O C$，从而
 
-$ (-4-u,-v) dot (u,v-r)=0 $
+#align(center)[#mitex(`
+u^{2}+(v-r)^{2}=r^{2}\quad\text{\text{即}}\quad u^{2}+v^{2}-2rv=0
+`)]
 
-结合 $u^2+v^2=2 r v$，上式化为 $4 u+r v=0$，即 $u=-(r v)/(4)$. 代入圆的方程，并注意 $C != D$，得
 
-$ v((r^2+16)/(16)v-2 r)=0 $
+又因为 #mi(`AC`) 是圆的切线，故 #mi(`AC\perp OC`)，从而
 
-因 $C != D$，有 $v\n e q0$，故 $v=(32 r)/(r^2+16)$，再由 $u=-(r v)/(4)$ 得 $u=-(8 r^2)/(r^2+16)$.
-由于 $B$，$O$，$C$ 三点共线，直线 $B O$ 的斜率为 $-(r)/(5)$，所以
 
-$ v=-(r)/(5)(u-5)=(r)/(5)(5-u) $
+#align(center)[#mitex(`
+(-4-u,-v)\cdot(u,v-r)=0
+`)]
 
-代入 $u$，$v$ 的表达式并约去 $r>0$，可得
 
-$ (32)/(r^2+16)=(1)/(5)(5+(8 r^2)/(r^2+16)) $
+结合 #mi(`u^{2}+v^{2}=2rv`)，上式化为 #mi(`4u+rv=0`)，即 #mi(`u=-\frac{rv}{4}`). 代入圆的方程，并注意 #mi(`C\neq D`)，得
 
-即 $160=5(r^2+16)+8 r^2=13 r^2+80$，因此 $r^2=(80)/(13)$. 所以圆的面积为
 
-$ pi r^2=(80 pi)/(13)~c m^2 $
+#align(center)[#mitex(`
+v\left(\frac{r^{2}+16}{16}v-2r\right)=0
+`)]
+
+
+因 #mi(`C\neq D`)，有 #mi(`v\neq0`)，故 #mi(`v=\frac{32r}{r^{2}+16}`)，再由 #mi(`u=-\frac{rv}{4}`) 得 #mi(`u=-\frac{8r^{2}}{r^{2}+16}`).
+
+由于 #mi(`B`)，#mi(`O`)，#mi(`C`) 三点共线，直线 #mi(`BO`) 的斜率为 #mi(`-\frac{r}{5}`)，所以
+
+
+#align(center)[#mitex(`
+v=-\frac{r}{5}(u-5)=\frac{r}{5}(5-u)
+`)]
+
+
+代入 #mi(`u`)，#mi(`v`) 的表达式并约去 #mi(`r>0`)，可得
+
+
+#align(center)[#mitex(`
+\frac{32}{r^{2}+16}=\frac{1}{5}\left(5+\frac{8r^{2}}{r^{2}+16}\right)
+`)]
+
+
+即 #mi(`160=5(r^{2}+16)+8r^{2}=13r^{2}+80`)，因此 #mi(`r^{2}=\frac{80}{13}`). 所以圆的面积为
+
+
+#align(center)[#mitex(`
+\pi r^{2}=\frac{80\pi}{13}\mathrm{~cm}^{2}
+`)]
 ]
 
 #problem(5)[
-求以双曲线 $3 x^2-2 y^2=6$ 的顶点为焦点，焦点为顶点的椭圆的方程.
+求以双曲线 #mi(`3x^{2}-2y^{2}=6`) 的顶点为焦点，焦点为顶点的椭圆的方程.
 ]
 
 #solution[
-将双曲线方程化为标准形式，得 $(x^2)/(2)-(y^2)/(3)=1$. 因此双曲线的顶点为 $(\p m s q r t(2),0)$，焦点为 $(\p m s q r t(5),0)$，因为其焦半距的平方为 $2+3=5$.
+将双曲线方程化为标准形式，得 #mi(`\frac{x^{2}}{2}-\frac{y^{2}}{3}=1`). 因此双曲线的顶点为 #mi(`(\pm\sqrt{2},0)`)，焦点为 #mi(`(\pm\sqrt{5},0)`)，因为其焦半距的平方为 #mi(`2+3=5`).
 
-所求椭圆以双曲线的焦点为顶点，所以椭圆的长半轴为 $a=sqrt(5)$；以双曲线的顶点为焦点，所以椭圆的焦半距为 $c=sqrt(2)$. 对椭圆有 $b^2=a^2-c^2$，从而 $b^2=5-2=3$. 因此所求椭圆的方程为
+所求椭圆以双曲线的焦点为顶点，所以椭圆的长半轴为 #mi(`a=\sqrt{5}`)；以双曲线的顶点为焦点，所以椭圆的焦半距为 #mi(`c=\sqrt{2}`). 对椭圆有 #mi(`b^{2}=a^{2}-c^{2}`)，从而 #mi(`b^{2}=5-2=3`). 因此所求椭圆的方程为
 
-$ (x^2)/(5)+(y^2)/(3)=1 $
+
+#align(center)[#mitex(`
+\frac{x^{2}}{5}+\frac{y^{2}}{3}=1
+`)]
 ]
 
 #problem(6)[
-若 $sin alpha$，$cos alpha$，$tan alpha$ 成等比数列，求证：$( sin alpha + cos alpha + tan alpha )( sin alpha - cos alpha + tan alpha )=(1)/(cos ""^2 alpha)$.
+若 #mi(`\sin\alpha`)，#mi(`\cos\alpha`)，#mi(`\tan\alpha`) 成等比数列，求证：#mi(`\left(\sin\alpha+\cos\alpha+\tan\alpha\right)\left(\sin\alpha-\cos\alpha+\tan\alpha\right)=\frac{1}{\cos^{2}\alpha}`).
 ]
 
 #solution[
-因为 $tan alpha$ 有定义，所以 $cos alpha \n e q0$. 三个数 $sin alpha$，$cos alpha$，$tan alpha$ 成等比数列，故中间项的平方等于两端项的积，即
+因为 #mi(`\tan\alpha`) 有定义，所以 #mi(`\cos\alpha\neq0`). 三个数 #mi(`\sin\alpha`)，#mi(`\cos\alpha`)，#mi(`\tan\alpha`) 成等比数列，故中间项的平方等于两端项的积，即
 
-$ cos ""^2 alpha = sin alpha tan alpha $
+
+#align(center)[#mitex(`
+\cos^{2}\alpha=\sin\alpha\tan\alpha
+`)]
+
 
 于是
 
-$ \b e g i n{g a t h e r e d} ( sin alpha + cos alpha + tan alpha )( sin alpha - cos alpha + tan alpha )\\ =( sin alpha + tan alpha )^2- cos ""^2 alpha = sin ""^2 alpha +2 sin alpha tan alpha + tan ""^2 alpha - cos ""^2 alpha \\ = sin ""^2 alpha + cos ""^2 alpha + tan ""^2 alpha =1+ tan ""^2 alpha =(1)/(cos ""^2 alpha). \e n d{g a t h e r e d} $
+
+#align(center)[#mitex(`
+\begin{gathered}\left(\sin\alpha+\cos\alpha+\tan\alpha\right)\left(\sin\alpha-\cos\alpha+\tan\alpha\right)\\
+
+=\left(\sin\alpha+\tan\alpha\right)^2-\cos^2\alpha
+
+=\sin^2\alpha+2\sin\alpha\tan\alpha+\tan^2\alpha-\cos^2\alpha\\
+
+=\sin^2\alpha+\cos^2\alpha+\tan^2\alpha
+
+=1+\tan^2\alpha=\frac{1}{\cos^{2}\alpha}.\end{gathered}
+`)]
+
 
 所以原等式成立.
 ]
 
 #problem(7)[
-在边长为 $1$ 的正方形 $A B C D$ 内，作内接正方形 $A_(1) B_(1) C_(1) D_1$.
+在边长为 #mi(`1`) 的正方形 #mi(`ABCD`) 内，作内接正方形 #mi(`A_{1}B_{1}C_{1}D_{1}`).
 
 
-+ (1) 在什么情况下，正方形 $A_(1) B_(1) C_(1) D_1$ 的面积最小？最小值是多少？
-+ (2) 在正方形 $A_(1) B_(1) C_(1) D_1$ 内，再作面积最小的内接正方形 $A_(2) B_(2) C_(2) D_2$，$\l d o t s$，如果继续下去，求第 $n$ 个面积最小的内接正方形的面积.
-+ (3) 这样无限制地作下去，可以得到一系列的内接正方形，求它们的面积之和.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/1977/img/jiangsu_yancheng_region/q7_fig1.png", width: 6.2cm)]
+
+#align(center)[#image("/papers/1977/img/jiangsu_yancheng_region/q7_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设正方形 $A B C D$ 的顶点坐标为 $B=(0,0)$，$C=(1,0)$，$D=(1,1)$，$A=(0,1)$. 设 $A_1=(0,x)$，$B_1=(y,0)$，其中 $0 <= x$，$y <= 1$. 则
-
-$ arrow(A_(1) B_1)=(y,-x) $
-
-由于 $A_(1) B_(1) C_(1) D_1$ 是正方形，$arrow(B_(1) C_1)$ 是 $arrow(A_(1) B_1)$ 逆时针旋转 $90^ degree$ 所得，故 $arrow(B_(1) C_1)=(x,y)$. 又因为 $C_1$ 在直线 $C D$ 上，其横坐标为 $1$，所以 $x+y=1$.
-
-内接正方形的面积等于边长的平方，因此
-
-$ S_1=A_(1) B_1^2=x^2+y^2=((x+y)^2+(x-y)^2)/(2)=(1+(x-y)^2)/(2) >= (1)/(2) $
-
-当且仅当 $x=y=(1)/(2)$ 时取等号，此时四个顶点分别是外正方形四边的中点，且最小面积为 $(1)/(2)$.
-+ (2) 设某一个正方形的面积为 $S$. 由第（1）问，对它作出的面积最小的内接正方形面积为 $(S)/(2)$. 外正方形 $A B C D$ 的面积为 $1$，故第 $n$ 个面积最小的内接正方形面积为
-$S_n=((1)/(2))^n$，$n >= 1$.
-+ (3) 这些正方形的面积构成首项为 $(1)/(2)$、公比为 $(1)/(2)$ 的无穷等比数列，所以面积之和为
-
-$ sum_(n=1)^( oo )S_n=((1)/(2))/(1-(1)/(2))=1 $
++ (1) 
++ (2)
 ]
 
 #problem(8)[
-在 $triangle A B C$ 中，最大角是最小角 $C$ 的二倍，其三边 $a$，$b$，$c$ 成等差数列，求证：这个三角形是锐角三角形.
+在 #mi(`\triangle ABC`) 中，最大角是最小角 #mi(`C`) 的二倍，其三边 #mi(`a`)，#mi(`b`)，#mi(`c`) 成等差数列，求证：这个三角形是锐角三角形.
 ]
 
 #solution[
-设最小角 $C= gamma$. 由题意，最大角为 $2 gamma$，第三个角为 $pi -3 gamma$. 因为 $gamma$ 是最小角，且 $2 gamma$ 是最大角，所以
+设最小角 #mi(`C=\gamma`). 由题意，最大角为 #mi(`2\gamma`)，第三个角为 #mi(`\pi-3\gamma`). 因为 #mi(`\gamma`) 是最小角，且 #mi(`2\gamma`) 是最大角，所以
 
-$ gamma <= pi -3 gamma <= 2 gamma $
 
-由左边不等式得 $gamma <= (pi)/(4)$.
+#align(center)[#mitex(`
+\gamma\le\pi-3\gamma\leqslant2\gamma
+`)]
 
-若 $gamma =(pi)/(4)$，则三角形的三个角为 $(pi)/(4)$，$(pi)/(4)$，$(pi)/(2)$. 由正弦定理，与前两个相等角对应的两边相等，而与 $(pi)/(2)$ 对应的边较长，因此三边中有两个相等且另一个较大. 三个数成等差数列时，若其中两个数相等，则公差必须为零，三个数应全部相等，矛盾. 所以 $gamma <(pi)/(4)$.
 
-因此最大角 $2 gamma <(pi)/(2)$，三角形的三个内角都小于 $(pi)/(2)$，所以这个三角形是锐角三角形.
+由左边不等式得 #mi(`\gamma\le\frac{\pi}{4}`).
+
+若 #mi(`\gamma=\frac{\pi}{4}`)，则三角形的三个角为 #mi(`\frac{\pi}{4}`)，#mi(`\frac{\pi}{4}`)，#mi(`\frac{\pi}{2}`). 由正弦定理，与前两个相等角对应的两边相等，而与 #mi(`\frac{\pi}{2}`) 对应的边较长，因此三边中有两个相等且另一个较大. 三个数成等差数列时，若其中两个数相等，则公差必须为零，三个数应全部相等，矛盾. 所以 #mi(`\gamma<\frac{\pi}{4}`).
+
+因此最大角 #mi(`2\gamma<\frac{\pi}{2}`)，三角形的三个内角都小于 #mi(`\frac{\pi}{2}`)，所以这个三角形是锐角三角形.
 ]
 

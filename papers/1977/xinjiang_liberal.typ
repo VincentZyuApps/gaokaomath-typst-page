@@ -1,5 +1,4 @@
-#import "@preview/mitex:0.2.5": *
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -12,95 +11,94 @@
 #part-header("解答题")
 
 #problem(1)[
-解方程：$(x-1)/(x+1)-(5)/(1-x)=(4)/(x^2-1)$.
+解方程：#mi(`\frac{x-1}{x+1}-\frac{5}{1-x}=\frac{4}{x^{2}-1}`).
 ]
 
 #solution[
-由分母不为零，得 $x != -1$，$x != 1$，所以原方程的定义域为 $x != +- 1$. 在此条件下，两边同乘 $x^2-1$，得 $(x-1)^2+5(x+1)=4$，即 $x^2-2 x+1+5 x+5=4$，整理得 $x^2+3 x+2=0$，所以 $(x+1)(x+2)=0$，从而 $x=-1$ 或 $x=-2$.
+由分母不为零，得 #mi(`x\ne -1`)，#mi(`x\ne 1`)，所以原方程的定义域为 #mi(`x\ne\pm1`). 在此条件下，两边同乘 #mi(`x^{2}-1`)，得 #mi(`\left(x-1\right)^{2}+5\left(x+1\right)=4`)，即 #mi(`x^{2}-2x+1+5x+5=4`)，整理得 #mi(`x^{2}+3x+2=0`)，所以 #mi(`\left(x+1\right)\left(x+2\right)=0`)，从而 #mi(`x=-1`) 或 #mi(`x=-2`).
 
-其中 $x=-1$ 不在原方程的定义域内，应舍去. 代入检验 $x=-2$：左边为 $3-(5)/(3)=(4)/(3)$，右边为 $(4)/(3)$，等式成立. 因此原方程的解为 $x=-2$.
+其中 #mi(`x=-1`) 不在原方程的定义域内，应舍去. 代入检验 #mi(`x=-2`)：左边为 #mi(`3-\frac{5}{3}=\frac{4}{3}`)，右边为 #mi(`\frac{4}{3}`)，等式成立. 因此原方程的解为 #mi(`x=-2`).
 ]
 
 #problem(2)[
-红心大队贫下中农坚决顶住“四人帮”对农业学大寨运动的干扰和破坏，积极发展养猪事业，1974年底全大队养猪$200" "头""$，到1976年底发展到$1200" "头""$，求平均每年的增长率，（精确到$1\%$）.
+红心大队贫下中农坚决顶住“四人帮”对农业学大寨运动的干扰和破坏，积极发展养猪事业，1974年底全大队养猪#mi(`200\text{ \text{头}}`)，到1976年底发展到#mi(`1200\text{ \text{头}}`)，求平均每年的增长率，（精确到#mi(`1\%`)）.
 ]
 
 #solution[
-设平均每年的增长率为 $x$. 增长率不能为负，因此 $x\g e q 0$. 从 1974 年底到 1976 年底经过两年，按每年增长率均为 $x$ 计算，猪数满足 $1200=200(1+x)^2$，约去 $200$ 得 $(1+x)^2=6$. 由于 $1+x>0$，所以只能取正平方根，得到 $1+x=sqrt(6)$，即 $x=sqrt(6)-1$.
+设平均每年的增长率为 #mi(`x`). 增长率不能为负，因此 #mi(`x\geq0`). 从 1974 年底到 1976 年底经过两年，按每年增长率均为 #mi(`x`) 计算，猪数满足 #mi(`1200=200\left(1+x\right)^{2}`)，约去 #mi(`200`) 得 #mi(`\left(1+x\right)^{2}=6`). 由于 #mi(`1+x>0`)，所以只能取正平方根，得到 #mi(`1+x=\sqrt{6}`)，即 #mi(`x=\sqrt{6}-1`).
 
-计算得 $sqrt(6) approx 2 .44949$，故 $x approx 1 .44949=144.949\%$. 精确到 $1\%$ 为 $145\%$.
+计算得 #mi(`\sqrt{6}\approx2.44949`)，故 #mi(`x\approx1.44949=144.949\%`). 精确到 #mi(`1\%`) 为 #mi(`145\%`).
 
-答：平均每年的增长率为 $145\%$.
+答：平均每年的增长率为 #mi(`145\%`).
 ]
 
 #problem(3)[
 计算：
 
 
-+ (1) 化简：$((3)/(4)( a b )^(-(1)/(3))( (4)/(9)a^(4) b^((2)/(3)) )^((1)/(2)))/(2 a^3 sqrt(a^2))$.
-+ (2) 已知 $\l g 2=0.3010$，求 $\l g sqrt(800)$.
++ (1)
 ]
 
 #solution[
-+ (1) 按题目中分数指数幂的通常定义，取 $a>0$，$b>0$，于是 $sqrt(a^2)=a$. 利用幂的运算性质，$(a b)^(-(1)/(3))=a^(-(1)/(3))b^(-(1)/(3))$，且 $((4)/(9)a^(4) b^((2)/(3)))^((1)/(2))=(2)/(3)a^(2) b^((1)/(3))$. 因此原式的系数为 $(3)/(4) times (2)/(3)div 2 =(1)/(4)$，$a$ 的指数为 $-(1)/(3)+2-3-1=-(7)/(3)$，$b$ 的指数为 $-(1)/(3)+(1)/(3)=0$，从而原式为 $(1)/(4)a^(-(7)/(3))=(1)/(4 a^((7)/(3)))=(root(3, a^2))/(4 a^3)$.
-+ (2) 因为 $800=2^3 times 10 ""^2$，所以 $\l g s q r t(800)=(1)/(2)\l g 800=(1)/(2)\l g(2^3 times 10 ""^2)=(3)/(2)\l g 2+\l g 10=(3)/(2) times 0 .3010+1=1.4515$.
++ (1)
 ]
 
 #problem(4)[
 求证：四边形对边中点的连线互相平分.
 
 
-#align(center)[#image("/papers/1977/img/xinjiang_liberal/q4_fig1.png", width: 36%)]
+#align(center)[#image("/papers/1977/img/xinjiang_liberal/q4_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-连接 $B D$. 因为 $M$，$N$ 分别是 $B C$，$C D$ 的中点，所以在 $triangle B C D$ 中，依据中位线定理有 $M N parallel B D$，且 $M N=(1)/(2)B D$. 因为 $F$，$E$ 分别是 $A B$，$A D$ 的中点，所以在 $triangle B A D$ 中，依据中位线定理有 $F E parallel B D$，且 $F E=(1)/(2)B D$. 于是 $M N parallel F E$，且 $M N=F E$. 四边形 $F M N E$ 的一组对边 $M N$ 和 $F E$ 平行且相等，因此 $F M N E$ 是平行四边形. 平行四边形的对角线 $F N$ 与 $M E$ 互相平分，所以 $E M$ 与 $F N$ 互相平分，命题得证.
+连接 #mi(`BD`). 因为 #mi(`M`)，#mi(`N`) 分别是 #mi(`BC`)，#mi(`CD`) 的中点，所以在 #mi(`\triangle BCD`) 中，依据中位线定理有 #mi(`MN\parallel BD`)，且 #mi(`MN=\frac{1}{2}BD`). 因为 #mi(`F`)，#mi(`E`) 分别是 #mi(`AB`)，#mi(`AD`) 的中点，所以在 #mi(`\triangle BAD`) 中，依据中位线定理有 #mi(`FE\parallel BD`)，且 #mi(`FE=\frac{1}{2}BD`). 于是 #mi(`MN\parallel FE`)，且 #mi(`MN=FE`). 四边形 #mi(`FMNE`) 的一组对边 #mi(`MN`) 和 #mi(`FE`) 平行且相等，因此 #mi(`FMNE`) 是平行四边形. 平行四边形的对角线 #mi(`FN`) 与 #mi(`ME`) 互相平分，所以 #mi(`EM`) 与 #mi(`FN`) 互相平分，命题得证.
 ]
 
 #problem(5)[
-解方程组 $\b e g i n{c a s e s} 2 x-3 y=9\\ 3 x+4 y=5 \e n d{c a s e s}$
+解方程组 #mi(`\begin{cases}2x-3y=9\\  3x+4y=5\end{cases}`)
 ]
 
 #solution[
-将第一个方程乘以 $3$，得到 $6 x-9 y=27$；将第二个方程乘以 $2$，得到 $6 x+8 y=10$. 两式相减，得 $-17 y=17$，所以 $y=-1$. 代入第一个方程，得 $2 x-3(-1)=9$，即 $2 x=6$，所以 $x=3$.
+将第一个方程乘以 #mi(`3`)，得到 #mi(`6x-9y=27`)；将第二个方程乘以 #mi(`2`)，得到 #mi(`6x+8y=10`). 两式相减，得 #mi(`-17y=17`)，所以 #mi(`y=-1`). 代入第一个方程，得 #mi(`2x-3\left(-1\right)=9`)，即 #mi(`2x=6`)，所以 #mi(`x=3`).
 
-回代检验：$2 times 3 -3 times (-1)=9$，$3 times 3 +4 times (-1)=5$，两式均成立. 因此方程组的解为 $x=3$，$y=-1$.
+回代检验：#mi(`2\times3-3\times\left(-1\right)=9`)，#mi(`3\times3+4\times\left(-1\right)=5`)，两式均成立. 因此方程组的解为 #mi(`x=3`)，#mi(`y=-1`).
 ]
 
 #problem(6)[
-红升人民公社小水库拦水坝的横断面为梯形，坝顶宽$2.5" "米""$，坝高$4" "米""$，迎水坡，背水坡与水平面的夹角分别是 $30^ degree$ 和 $45^ degree$，求坝底的宽（精确到$0.1" "米""$）.
+红升人民公社小水库拦水坝的横断面为梯形，坝顶宽#mi(`2.5\text{ \text{米}}`)，坝高#mi(`4\text{ \text{米}}`)，迎水坡，背水坡与水平面的夹角分别是 #mi(`30^{\circ}`) 和 #mi(`45^{\circ}`)，求坝底的宽（精确到#mi(`0.1\text{ \text{米}}`)）.
 ]
 
 #solution[
-分别由 $A$，$D$ 作 $A E bot B C$，$D F bot B C$. 则 $A E$ 和 $D F$ 都是梯形的高，所以 $A E=D F=4" "米""$.
+分别由 #mi(`A`)，#mi(`D`) 作 #mi(`AE\perp BC`)，#mi(`DF\perp BC`). 则 #mi(`AE`) 和 #mi(`DF`) 都是梯形的高，所以 #mi(`AE=DF=4\text{ \text{米}}`).
 
+ 
+#align(center)[#image("/papers/1977/img/xinjiang_liberal/q6_fig1.png", width: 28%)]
+ 
 
-#align(center)[#image("/papers/1977/img/xinjiang_liberal/q6_fig1.png", width: 64%)]
+在直角三角形 #mi(`ABE`) 中，#mi(`\angle ABE=30^{\circ}`)，故 #mi(`\tan30^{\circ}=\frac{AE}{BE}`)，所以 #mi(`BE=\frac{4}{\tan30^{\circ}}=4\sqrt{3}\text{ \text{米}}`). 在直角三角形 #mi(`DCF`) 中，#mi(`\angle DCF=45^{\circ}`)，故 #mi(`\tan45^{\circ}=\frac{DF}{CF}=1`)，所以 #mi(`CF=DF=4\text{ \text{米}}`). 又因为 #mi(`AE\perp BC`)，#mi(`DF\perp BC`)，所以 #mi(`AE\parallel DF`)；结合 #mi(`AD\parallel BC`) 及 #mi(`EF\subset BC`)，可知四边形 #mi(`AEFD`) 是矩形，从而 #mi(`EF=AD=2.5\text{ \text{米}}`). 于是 #mi(`BC=BE+EF+FC=4\sqrt{3}+2.5+4\approx13.428\text{ \text{米}}`).
 
+精确到 #mi(`0.1\text{ \text{米}}`)，得 #mi(`BC\approx13.4\text{ \text{米}}`).
 
-在直角三角形 $A B E$ 中，$angle A B E=30^ degree$，故 $tan 30 ""^ degree =(A E)/(B E)$，所以 $B E=(4)/(tan 30 ""^ degree)=4 sqrt(3)" "米""$. 在直角三角形 $D C F$ 中，$angle D C F=45^ degree$，故 $tan 45 ""^ degree =(D F)/(C F)=1$，所以 $C F=D F=4" "米""$. 又因为 $A E bot B C$，$D F bot B C$，所以 $A E parallel D F$；结合 $A D parallel B C$ 及 $E F subset B C$，可知四边形 $A E F D$ 是矩形，从而 $E F=A D=2.5" "米""$. 于是 $B C=B E+E F+F C=4 sqrt(3)+2.5+4 approx 13 .428" "米""$.
-
-精确到 $0.1" "米""$，得 $B C approx 13 .4" "米""$.
-
-答：坝底宽为 $13.4" "米""$.
+答：坝底宽为 #mi(`13.4\text{ \text{米}}`).
 ]
 
 #problem(7)[
-已知直线过 $A( 2,-5 )$ 和 $B( -3,0 )$ 两点.
+已知直线过 #mi(`A\left( 2,-5 \right)`) 和 #mi(`B\left( -3,0 \right)`) 两点.
 
 
-+ (1) 求此直线方程；
-+ (2) 指出直线的斜率 $K$；
-+ (3) 求直线与 $O X$ 轴正方向的夹角 $alpha$.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/1977/img/xinjiang_liberal/q7_fig1.png", width: 38%)]
+
+#align(center)[#image("/papers/1977/img/xinjiang_liberal/q7_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由两点式，直线满足 $(y-0)/(-5-0)=(x-(-3))/(2-(-3))$，即 $5 y=-5 x-15$，所以直线方程为 $y=-x-3$.
-+ (2) 由斜率定义，$K=(-5-0)/(2-(-3))=-1$，所以直线的斜率为 $K=-1$.
-+ (3) 由直线的斜率定义，直线与 $O X$ 轴正方向的倾角 $alpha$ 满足 $tan alpha =K=-1$，且 $0^ degree \l e q alpha <180^ degree$. 由于直线斜率为负，倾角为钝角，故 $alpha =135^ degree$.
++ (1) 
++ (2)
 ]
 

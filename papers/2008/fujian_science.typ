@@ -76,7 +76,9 @@ B
 #problem(6)[
 如图，在长方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`AB = BC = 2`)，#mi(`AA_{1}= 1`)，则 #mi(`BC_{1}`) 与平面 #mi(`BB_{1}D_{1}D`) 所成角的正弦值为（ ）
 
-[max width=0.42\linewidth]img/2008/fujian_science/q6_fig1.png
+
+#align(center)[#image("/papers/2008/img/fujian_science/q6_fig1.png", width: 28%)]
+
 
 D
 
@@ -180,12 +182,22 @@ d_{1}-d_{2}=2a
 #problem(12)[
 已知函数 #mi(`y = f(x)`)，#mi(`y = g(x)`) 的导函数的图象如下图，那么 #mi(`y = f(x)`)，#mi(`y = g(x)`) 的图象可能是（ ）
 
-[max width=0.88\linewidth]img/2008/fujian_science/q12_fig1.png
+
+#align(center)[#image("/papers/2008/img/fujian_science/q12_fig1.png", width: 28%)]
+
 
 D
 
 由导函数图象可见，在 #mi(`x_{0}`) 左侧有 #mi(`f'(x)>g'(x)`)，在 #mi(`x_{0}`) 右侧有 #mi(`f'(x)<g'(x)`)，且 #mi(`f'(x)`) 递减、#mi(`g'(x)`) 递增. 因此 #mi(`f(x)-g(x)`) 先增后减，在 #mi(`x_{0}`) 处取得极大值；同时 #mi(`f`) 的图象应向下弯，#mi(`g`) 的图象应向上弯. 四个选项中只有 D 的相对位置和弯曲方向同时满足这些条件，故选 D.
-  #choices([[width=0.15\paperwidth]img/2008/fujian_science/q12_optA.png], [[width=0.15\paperwidth]img/2008/fujian_science/q12_optB.png], [[width=0.15\paperwidth]img/2008/fujian_science/q12_optC.png], [[width=0.15\paperwidth]img/2008/fujian_science/q12_optD.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2008/img/fujian_science/q12_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2008/img/fujian_science/q12_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2008/img/fujian_science/q12_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2008/img/fujian_science/q12_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #part-header("填空题")
@@ -319,7 +331,9 @@ P_{p}=\{r+s\sqrt{p}\mid r,s\in\mathbf{Q}\}
 
 
 
-[max width=0.36\linewidth]img/2008/fujian_science/q18_fig1.png
+
+#align(center)[#image("/papers/2008/img/fujian_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -360,7 +374,9 @@ P_{p}=\{r+s\sqrt{p}\mid r,s\in\mathbf{Q}\}
 
 
 
-[max width=0.34\linewidth]img/2008/fujian_science/q21_fig1.png
+
+#align(center)[#image("/papers/2008/img/fujian_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

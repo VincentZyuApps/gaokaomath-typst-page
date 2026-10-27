@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,63 +11,61 @@
 #part-header("单选题")
 
 #problem(1)[
-设集合 $A=\{x | 1 <= x <= 3 \}$，$B=\{x | 2<x<4\}$，则 $A union B$ 等于（ ）
-  #choices([$\{x | 2<x <= 3 \}$], [$\{x | 2 <= x <= 3 \}$], [$\{x | 1 <= x<4\}$], [$\{x | 1<x<4\}$], cols: 2)
+设集合 #mi(`A=\{x\mid 1\le x\le 3\}`)，#mi(`B=\{x\mid 2<x<4\}`)，则 #mi(`A\cup B`) 等于（ ）
+  #choices([#mi(`\{x\mid 2<x\le 3\}`)], [#mi(`\{x\mid 2\le x\le 3\}`)], [#mi(`\{x\mid 1\le x<4\}`)], [#mi(`\{x\mid 1<x<4\}`)], cols: 2)
 ]
 
 #answer([C])
 
 #problem(2)[
-$(2- i)/(1+2 i)$ 等于（ ）
-  #choices([$1$], [$-1$], [$i$], [$- i$], cols: 4)
+#mi(`\dfrac{2-\mathrm{i}}{1+2\mathrm{i}}`) 等于（ ）
+  #choices([#mi(`1`)], [#mi(`-1`)], [#mi(`\mathrm{i}`)], [#mi(`-\mathrm{i}`)], cols: 2)
 ]
 
 #answer([D])
 
 #problem(3)[
-$6$ 名同学到甲，乙，丙三个场馆做志愿者，每名同学只去 $1$ 个场馆，甲场馆安排 $1$ 名，乙场馆安排 $2$ 名，丙场馆安排 $3$ 名，则不同的安排方法共有（ ）
-  #choices([$120$ 种], [$90$ 种], [$60$ 种], [$30$ 种], cols: 4)
+#mi(`6`) 名同学到甲，乙，丙三个场馆做志愿者，每名同学只去 #mi(`1`) 个场馆，甲场馆安排 #mi(`1`) 名，乙场馆安排 #mi(`2`) 名，丙场馆安排 #mi(`3`) 名，则不同的安排方法共有（ ）
+  #choices([#mi(`120`) 种], [#mi(`90`) 种], [#mi(`60`) 种], [#mi(`30`) 种], cols: 4)
 ]
 
 #answer([C])
 
 #problem(4)[
-日晷是中国古代用来测定时间的仪器，利用与晷面垂直的晷针投射到晷面的影子来测定时间. 把地球看成一个球（球心记为 $O$），地球上一点 $A$ 的纬度是指 $O A$ 与地球赤道所在平面所成角，点 $A$ 处的水平面是指过点 $A$ 且与 $O A$ 垂直的平面. 在点 $A$ 处放置一个日晷，若晷面与赤道所在平面平行，点 $A$ 处的纬度为北纬 $40^ degree$，则晷针与点 $A$ 处的水平面所成角为（ ）
+日晷是中国古代用来测定时间的仪器，利用与晷面垂直的晷针投射到晷面的影子来测定时间. 把地球看成一个球（球心记为 #mi(`O`)），地球上一点 #mi(`A`) 的纬度是指 #mi(`OA`) 与地球赤道所在平面所成角，点 #mi(`A`) 处的水平面是指过点 #mi(`A`) 且与 #mi(`OA`) 垂直的平面. 在点 #mi(`A`) 处放置一个日晷，若晷面与赤道所在平面平行，点 #mi(`A`) 处的纬度为北纬 #mi(`40^{\circ}`)，则晷针与点 #mi(`A`) 处的水平面所成角为（ ）
 
-\begin{center}
 
-#align(center)[#image("/papers/2020/img/new_gaokao_paper_1/q4_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2020/img/new_gaokao_paper_1/q4_fig1.png", width: 28%)]
 
-\end{center}
-  #choices([$20^ degree$], [$40^ degree$], [$50^ degree$], [$90^ degree$], cols: 4)
+  #choices([#mi(`20^{\circ}`)], [#mi(`40^{\circ}`)], [#mi(`50^{\circ}`)], [#mi(`90^{\circ}`)], cols: 2)
 ]
 
 #answer([B])
 
 #problem(5)[
-某中学的学生积极参加体育锻炼，其中有 $96\%$ 的学生喜欢足球或游泳，$60\%$ 的学生喜欢足球，$82\%$ 的学生喜欢游泳，则该中学既喜欢足球又喜欢游泳的学生数占该校学生总数的比例是（ ）
+某中学的学生积极参加体育锻炼，其中有 #mi(`96\%`) 的学生喜欢足球或游泳，#mi(`60\%`) 的学生喜欢足球，#mi(`82\%`) 的学生喜欢游泳，则该中学既喜欢足球又喜欢游泳的学生数占该校学生总数的比例是（ ）
   #choices([62\%], [56\%], [46\%], [42\%], cols: 4)
 ]
 
 #answer([C])
 
 #problem(6)[
-基本再生数 $R_0$ 与世代间隔 $T$ 是新冠肺炎的流行病学基本参数. 基本再生数指一个感染者传染的平均人数，世代间隔指相邻两代间传染所需的平均时间. 在新冠肺炎疫情初始阶段，可以用指数模型：$I(t)= e ""^(r t)$ 描述累计感染病例数 $I(t)$ 随时间 $t$（单位：天）的变化规律，指数增长率 $r$ 与 $R_0$，$T$ 近似满足 $R_0=1+r T$. 有学者基于已有数据估计出 $R_0=3.28$，$T=6$. 据此，在新冠肺炎疫情初始阶段，累计感染病例数增加 1 倍需要的时间约为（$ln 2 approx 0 .69$）（ ）
-  #choices([$1.2$ 天], [$1.8$ 天], [$2.5$ 天], [$3.5$ 天], cols: 4)
+基本再生数 #mi(`R_{0}`) 与世代间隔 #mi(`T`) 是新冠肺炎的流行病学基本参数. 基本再生数指一个感染者传染的平均人数，世代间隔指相邻两代间传染所需的平均时间. 在新冠肺炎疫情初始阶段，可以用指数模型：#mi(`I(t)=\mathrm{e}^{rt}`) 描述累计感染病例数 #mi(`I(t)`) 随时间 #mi(`t`)（单位：天）的变化规律，指数增长率 #mi(`r`) 与 #mi(`R_{0}`)，#mi(`T`) 近似满足 #mi(`R_{0}=1+rT`). 有学者基于已有数据估计出 #mi(`R_{0}=3.28`)，#mi(`T=6`). 据此，在新冠肺炎疫情初始阶段，累计感染病例数增加 1 倍需要的时间约为（#mi(`\ln 2\approx 0.69`)）（ ）
+  #choices([#mi(`1.2`) 天], [#mi(`1.8`) 天], [#mi(`2.5`) 天], [#mi(`3.5`) 天], cols: 4)
 ]
 
 #answer([B])
 
 #problem(7)[
-已知 $P$ 是边长为 2 的正六边形 $A B C D E F$ 内的一点，则 $arrow(A P)\c d o t a r r o w(A B)$ 的取值范围是（ ）
-  #choices([$( -2,6 )$], [$( -6,2 )$], [$( -2,4 )$], [$( -4,6 )$], cols: 4)
+已知 #mi(`P`) 是边长为 2 的正六边形 #mi(`ABCDEF`) 内的一点，则 #mi(`\overrightarrow{AP}\cdot\overrightarrow{AB}`) 的取值范围是（ ）
+  #choices([#mi(`\left( -2,6 \right)`)], [#mi(`\left( -6,2 \right)`)], [#mi(`\left( -2,4 \right)`)], [#mi(`\left( -4,6 \right)`)], cols: 2)
 ]
 
 #answer([A])
 
 #problem(8)[
-若定义在 $RR$ 上的奇函数 $f(x)$ 在 $(- oo ,0)$ 上单调递减，且 $f(2)=0$，则满足 $x f(x-1) >= 0$ 的 $x$ 的取值范围是（ ）
-  #choices([$[ -1,1] union [3,+ oo )$], [$[ -3,-1] union [0,1]$], [$[ -1,0] union [1,+ oo )$], [$[ -1,0] union [1,3]$], cols: 2)
+若定义在 #mi(`\mathbb{R}`) 上的奇函数 #mi(`f(x)`) 在 #mi(`(-\infty,0)`) 上单调递减，且 #mi(`f(2)=0`)，则满足 #mi(`xf(x-1)\ge 0`) 的 #mi(`x`) 的取值范围是（ ）
+  #choices([#mi(`[ -1,1]\cup[3,+\infty)`)], [#mi(`[ -3,-1]\cup[0,1]`)], [#mi(`[ -1,0]\cup[1,+\infty)`)], [#mi(`[ -1,0]\cup[1,3]`)], cols: 2)
 ]
 
 #answer([D])
@@ -75,35 +73,33 @@ $6$ 名同学到甲，乙，丙三个场馆做志愿者，每名同学只去 $1$
 #part-header("多选题")
 
 #problem(9)[
-已知曲线 $C:m x^2+n y^2=1$. （ ）
-  #choices([若 $m>n>0$，则 $C$ 是椭圆，其焦点在 $y$ 轴上], [若 $m=n>0$，则 $C$ 是圆，其半径为 $sqrt(n)$], [若 $m n<0$，则 $C$ 是双曲线，其渐近线方程为 $y=\p m s q r t(-(m)/(n))x$], [若 $m=0$，$n>0$，则 $C$ 是两条直线], cols: 1)
+已知曲线 #mi(`C:mx^{2}+ny^{2}=1`). （ ）
+  #choices([若 #mi(`m>n>0`)，则 #mi(`C`) 是椭圆，其焦点在 #mi(`y`) 轴上], [若 #mi(`m=n>0`)，则 #mi(`C`) 是圆，其半径为 #mi(`\sqrt{n}`)], [若 #mi(`mn<0`)，则 #mi(`C`) 是双曲线，其渐近线方程为 #mi(`y=\pm\sqrt{-\dfrac{m}{n}}x`)], [若 #mi(`m=0`)，#mi(`n>0`)，则 #mi(`C`) 是两条直线], cols: 1)
 ]
 
 #answer([ACD])
 
 #problem(10)[
-如图是函数 $y= sin ( omega x+ phi.alt )$ 的部分图象，则 $sin ( omega x+ phi.alt )$ 等于（ ）
+如图是函数 #mi(`y=\sin(\omega x+\varphi)`) 的部分图象，则 #mi(`\sin(\omega x+\varphi)`) 等于（ ）
 
-\begin{center}
 
-#align(center)[#image("/papers/2020/img/new_gaokao_paper_1/q10_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2020/img/new_gaokao_paper_1/q10_fig1.png", width: 28%)]
 
-\end{center}
-  #choices([$sin ( x+(pi)/(3))$], [$sin ( (pi)/(3)-2 x )$], [$cos ( 2 x+(pi)/(6))$], [$cos ( (5 pi)/(6)-2 x )$], cols: 2)
+  #choices([#mi(`\sin\left( x+\dfrac{\pi}{3}\right)`)], [#mi(`\sin\left( \dfrac{\pi}{3}-2x \right)`)], [#mi(`\cos\left( 2x+\dfrac{\pi}{6}\right)`)], [#mi(`\cos\left( \dfrac{5\pi}{6}-2x \right)`)], cols: 1)
 ]
 
 #answer([BC])
 
 #problem(11)[
-已知 $a>0$，$b>0$，且 $a+b=1$，则（ ）
-  #choices([$a^2+b^2 >= (1)/(2)$], [$2^(a-b)>(1)/(2)$], [$log _2 a+ log _2 b >= -2$], [$sqrt(a)+sqrt(b)\l e s q r t(2)$], cols: 1)
+已知 #mi(`a>0`)，#mi(`b>0`)，且 #mi(`a+b=1`)，则（ ）
+  #choices([#mi(`a^{2}+b^{2}\ge\dfrac{1}{2}`)], [#mi(`2^{a-b}>\dfrac{1}{2}`)], [#mi(`\log_{2} a+\log_{2} b\ge -2`)], [#mi(`\sqrt{a}+\sqrt{b}\le\sqrt{2}`)], cols: 1)
 ]
 
 #answer([ABD])
 
 #problem(12)[
-信息熵是信息论中的一个重要概念. 设随机变量 $X$ 所有可能的取值为 $1$，$2$，$dots.c$，$n$，且 $P(X=i)=p_i>0$（$i=1$，$2$，$dots.c$，$n$），$sum_(i=1)^(n)p_i=1$，定义 $X$ 的信息熵 $H(X)=-sum_(i=1)^(n)p_i log _2 p_i$. （ ）
-  #choices([若 $n=1$，则 $H(X)=0$], [若 $n=2$，则 $H(X)$ 随着 $p_1$ 的增大而增大], [若 $p_i=(1)/(n)$（$i=1$，$2$，$dots.c$，$n$），则 $H(X)$ 随着 $n$ 的增大而增大], [若 $n=2 m$，随机变量 $Y$ 所有可能的取值为 $1$，$2$，$dots.c$，$m$，且 $P(Y=j)=p_j+p_(2 m+1-j)$（$j=1$，$2$，$dots.c$，$m$），则 $H(X) <= H(Y)$], cols: 1)
+信息熵是信息论中的一个重要概念. 设随机变量 #mi(`X`) 所有可能的取值为 #mi(`1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`n`)，且 #mi(`P(X=i)=p_{i}>0`)（#mi(`i=1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`n`)），#mi(`\sum_{i=1}^{n}p_{i}=1`)，定义 #mi(`X`) 的信息熵 #mi(`H(X)=-\sum_{i=1}^{n}p_{i}\log_{2} p_{i}`). （ ）
+  #choices([若 #mi(`n=1`)，则 #mi(`H(X)=0`)], [若 #mi(`n=2`)，则 #mi(`H(X)`) 随着 #mi(`p_{1}`) 的增大而增大], [若 #mi(`p_{i}=\dfrac{1}{n}`)（#mi(`i=1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`n`)），则 #mi(`H(X)`) 随着 #mi(`n`) 的增大而增大], [若 #mi(`n=2m`)，随机变量 #mi(`Y`) 所有可能的取值为 #mi(`1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`m`)，且 #mi(`P(Y=j)=p_{j}+p_{2m+1-j}`)（#mi(`j=1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`m`)），则 #mi(`H(X)\le H(Y)`)], cols: 1)
 ]
 
 #answer([AC])
@@ -111,162 +107,140 @@ $6$ 名同学到甲，乙，丙三个场馆做志愿者，每名同学只去 $1$
 #part-header("填空题")
 
 #problem(13)[
-斜率为 $sqrt(3)$ 的直线过抛物线 $C:y^2=4 x$ 的焦点，且与 $C$ 交于 $A$，$B$ 两点，则 $|A B|=\f i l l i n b l a n k{}$.
+斜率为 #mi(`\sqrt{3}`) 的直线过抛物线 #mi(`C:y^{2}=4x`) 的焦点，且与 #mi(`C`) 交于 #mi(`A`)，#mi(`B`) 两点，则 #mi(`|AB|=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(16)/(3)$])
+#answer([#mi(`\dfrac{16}{3}`)])
 
 #problem(14)[
-将数列 $\{2 n-1\}$ 与 $\{3 n-2\}$ 的公共项从小到大排列得到数列 $\{a_n\}$，则 $\{a_n\}$ 的前 $n$ 项和为#blank(){}.
+将数列 #mi(`\{2n-1\}`) 与 #mi(`\{3n-2\}`) 的公共项从小到大排列得到数列 #mi(`\{a_{n}\}`)，则 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$3 n^2-2 n$])
+#answer([#mi(`3n^{2}-2n`)])
 
 #problem(15)[
-某中学开展劳动实习，学生加工制作零件，零件的截面如图所示. $O$ 为圆孔及轮廓圆弧 $A B$ 所在圆的圆心，$A$ 是圆弧 $A B$ 与直线 $A G$ 的切点，$B$ 是圆弧 $A B$ 与直线 $B C$ 的切点，四边形 $D E F G$ 为矩形，$B C bot D G$，垂足为 $C$，$tan angle O D C=(3)/(5)$，$B H parallel D G$，$E F=12 ~c m$，$D E=2 ~c m$，$A$ 到直线 $D E$ 和 $E F$ 的距离均为 $7 ~c m$，圆孔半径为 $1 ~c m$，则图中阴影部分的面积为#blank(){}\ $c m^2$.
+某中学开展劳动实习，学生加工制作零件，零件的截面如图所示. #mi(`O`) 为圆孔及轮廓圆弧 #mi(`AB`) 所在圆的圆心，#mi(`A`) 是圆弧 #mi(`AB`) 与直线 #mi(`AG`) 的切点，#mi(`B`) 是圆弧 #mi(`AB`) 与直线 #mi(`BC`) 的切点，四边形 #mi(`DEFG`) 为矩形，#mi(`BC\perp DG`)，垂足为 #mi(`C`)，#mi(`\tan\angle ODC=\dfrac{3}{5}`)，#mi(`BH\parallel DG`)，#mi(`EF=12 \mathrm{~cm}`)，#mi(`DE=2 \mathrm{~cm}`)，#mi(`A`) 到直线 #mi(`DE`) 和 #mi(`EF`) 的距离均为 #mi(`7 \mathrm{~cm}`)，圆孔半径为 #mi(`1 \mathrm{~cm}`)，则图中阴影部分的面积为\underline{\hspace{2.5em}}\ #mi(`\mathrm{cm}^{2}`).
 
 
+#align(center)[#image("/papers/2020/img/new_gaokao_paper_1/q15_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/2020/img/new_gaokao_paper_1/q15_fig1.png", width: 12.0cm)]
 ]
 
-#answer([$(5 pi)/(2)+4$])
+#answer([#mi(`\dfrac{5\pi}{2}+4`)])
 
 #problem(16)[
-已知直四棱柱 $A B C D-A_(1) B_(1) C_(1) D_1$ 的棱长均为 2，$angle B A D=60^ degree$. 以 $D_1$ 为球心，$sqrt(5)$ 为半径的球面与侧面 $B C C_(1) B_1$ 的交线长为#blank(){}.
+已知直四棱柱 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 的棱长均为 2，#mi(`\angle BAD=60^{\circ}`). 以 #mi(`D_{1}`) 为球心，#mi(`\sqrt{5}`) 为半径的球面与侧面 #mi(`BCC_{1}B_{1}`) 的交线长为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(sqrt(2))/(2) pi$])
+#answer([#mi(`\dfrac{\sqrt{2}}{2}\pi`)])
 
 #part-header("解答题")
 
 #problem(17)[
 在条件
-\begin{circlelist}
-\item $a c=sqrt(3)$，
-\item $c sin A=3$，
-\item $c=sqrt(3)b$
-\end{circlelist}
-这三个条件中任选一个，补充在下面问题中，若问题中的三角形存在，求 $c$ 的值；若问题中的三角形不存在，说明理由.
 
-问题：是否存在 $triangle A B C$，它的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，且 $sin A=sqrt(3) sin B$，$C=(pi)/(6)$，#blank(){}？
+
++ (1) #mi(`ac=\sqrt{3}`)，
++ (2) #mi(`c\sin A=3`)，
++ (3) #mi(`c=\sqrt{3}b`)
+
+
+
+这三个条件中任选一个，补充在下面问题中，若问题中的三角形存在，求 #mi(`c`) 的值；若问题中的三角形不存在，说明理由.
+
+问题：是否存在 #mi(`\triangle ABC`)，它的内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 的对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，且 #mi(`\sin A=\sqrt{3}\sin B`)，#mi(`C=\dfrac{\pi}{6}`)，\underline{\hspace{2.5em}}？
 ]
 
 #solution[
-由 $sin A=sqrt(3) sin B$ 及正弦定理得 $a=sqrt(3)b$. 又 $C=(pi)/(6)$，由余弦定理得 $c^2=a^2+b^2-2 a b cos C=3 b^2+b^2-2\c d o t s q r t(3)b dot b dot (sqrt(3))/(2)=b^2$，所以 $c=b$.
-选择条件"①"$a c=sqrt(3)$：由 $a=sqrt(3)b$ 得 $a c=sqrt(3)b c=sqrt(3)c^2=sqrt(3)$，所以 $c=1$，此时三角形存在.
-选择条件"②"$c sin A=3$：由正弦定理得 $sin A=(a sin C)/(c)=(a)/(2 c)$，代入得 $c dot (a)/(2 c)=(a)/(2)=3$，所以 $a=6$，从而 $b=(a)/(sqrt(3))=2 sqrt(3)$. 由余弦定理 $c^2=a^2+b^2-2 a b cos C=36+12-36=12$，所以 $c=2 sqrt(3)$，此时三角形存在.
-选择条件"③"$c=sqrt(3)b$：由 $c=b$ 得 $b=sqrt(3)b$，即 $b=0$，与 $b>0$ 矛盾，所以三角形不存在.
+由 #mi(`\sin A=\sqrt{3}\sin B`) 及正弦定理得 #mi(`a=\sqrt{3}b`). 又 #mi(`C=\dfrac{\pi}{6}`)，由余弦定理得 #mi(`c^{2}=a^{2}+b^{2}-2ab\cos C=3b^{2}+b^{2}-2\cdot\sqrt{3}b\cdot b\cdot\dfrac{\sqrt{3}}{2}=b^{2}`)，所以 #mi(`c=b`).
+
+选择条件①#mi(`ac=\sqrt{3}`)：由 #mi(`a=\sqrt{3}b`) 得 #mi(`ac=\sqrt{3}bc=\sqrt{3}c^{2}=\sqrt{3}`)，所以 #mi(`c=1`)，此时三角形存在.
+
+选择条件②#mi(`c\sin A=3`)：由正弦定理得 #mi(`\sin A=\dfrac{a\sin C}{c}=\dfrac{a}{2c}`)，代入得 #mi(`c\cdot\dfrac{a}{2c}=\dfrac{a}{2}=3`)，所以 #mi(`a=6`)，从而 #mi(`b=\dfrac a{\sqrt{3}}=2\sqrt{3}`). 由余弦定理 #mi(`c^{2}=a^{2}+b^{2}-2ab\cos C=36+12-36=12`)，所以 #mi(`c=2\sqrt{3}`)，此时三角形存在.
+
+选择条件③#mi(`c=\sqrt{3}b`)：由 #mi(`c=b`) 得 #mi(`b=\sqrt{3}b`)，即 #mi(`b=0`)，与 #mi(`b>0`) 矛盾，所以三角形不存在.
 ]
 
 #problem(18)[
-已知公比大于 1 的等比数列 $\{a_n\}$ 满足 $a_2+a_4=20$，$a_3=8$.
+已知公比大于 1 的等比数列 #mi(`\{a_{n}\}`) 满足 #mi(`a_{2}+a_{4}=20`)，#mi(`a_{3}=8`).
 
 
-+ (1) 求 $\{a_n\}$ 的通项公式；
-+ (2) 记 $b_m$ 为 $\{a_n\}$ 在区间 $(0,m]$（$m in NN ""^*$）中的项的个数，求数列 $\{b_m\}$ 的前 100 项和 $S_(100)$.
++ (1)
 ]
 
 #solution[
-+ (1) 设等比数列 $\{a_n\}$ 的首项为 $a_1$，公比为 $q$（$q>1$）. 由 $a_3=8$ 得 $a_(1) q^2=8$，由 $a_2+a_4=20$ 得 $a_(1) q+a_(1) q^3=20$. 两式相除得 $(q+q^3)/(q^2)=(20)/(8)=(5)/(2)$，即 $2 q^2-5 q+2=0$，解得 $q=2$ 或 $q=(1)/(2)$. 因为 $q>1$，所以 $q=2$，从而 $a_1=2$，故 $a_n=2^n$.
-+ (2) 由 $a_n=2^n$ 知 $b_m$ 等于满足 $2^n <= m$ 的正整数 $n$ 的个数，即 $b_m$ 为不超过 $log _(2) m$ 的最大整数. 于是 $b_1=0$；当 $m=2$，$3$ 时 $b_m=1$；当 $m=4$，$5$，$6$，$7$ 时 $b_m=2$；当 $m=8$ 至 $15$ 时 $b_m=3$；当 $m=16$ 至 $31$ 时 $b_m=4$；当 $m=32$ 至 $63$ 时 $b_m=5$；当 $m=64$ 至 $100$ 时 $b_m=6$. 所以 $S_(100)=0 times 1 +1 times 2 +2 times 4 +3 times 8 +4 times 16 +5 times 32 +6 times 37 =2+8+24+64+160+222=480$.
++ (1)
 ]
 
 #problem(19)[
-为加强环境保护，治理空气污染，环境监测部门对某市空气质量进行调研，随机抽查了 $100$ 天空气中的 $P M_(2.5)$ 和 $S O_2$ 浓度（单位：$\m u g/m^3$），得下表：
+为加强环境保护，治理空气污染，环境监测部门对某市空气质量进行调研，随机抽查了 #mi(`100`) 天空气中的 #mi(`\mathrm{PM}_{2.5}`) 和 #mi(`\mathrm{SO}_{2}`) 浓度（单位：#mi(`\mu\mathrm{g}/\mathrm{m}^{3}`)），得下表：
 
-\begin{center}
-\begin{tabular}{c|ccc}
-$P M_(2.5)\b a c k s l a s h S O_2$ & $[0,50]$ & $(50,150]$ & $(150,475]$ \\
+#mi(`\mathrm{PM}_{2.5}\backslash\mathrm{SO}_{2}`) & #mi(`[0,50]`) & #mi(`(50,150]`) & #mi(`(150,475]`) \\
+
 \hline
-$[0,35]$ & 32 & 18 & 4 \\
-$(35,75]$ & 6 & 8 & 12 \\
-$(75,115]$ & 3 & 7 & 10 \\
-\end{tabular}
-\end{center}
+
+#mi(`[0,35]`) & 32 & 18 & 4 \\
+
+#mi(`(35,75]`) & 6 & 8 & 12 \\
+
+#mi(`(75,115]`) & 3 & 7 & 10 \\
 
 
-+ (1) 估计事件“该市一天空气中 $P M_(2.5)$ 浓度不超过 75，且 $S O_2$ 浓度不超过 150”的概率；
-+ (2) 根据所给数据，完成下面的 $2 times 2$ 列联表：
++ (1) 
++ (2) 
 
-\begin{center}
-\begin{tabular}{c|cc}
-$P M_(2.5)\b a c k s l a s h S O_2$ & $[0,150]$ & $(150,475]$ \\
+
+
+附：#mi(`K^{2}=\dfrac{n(ad-bc)^2}{(a+b)(c+d)(a+c)(b+d)}`).
+
+#mi(`P(K^{2}\ge k)`) & 0.050 & 0.010 & 0.001 \\
+
 \hline
-$[0,75]$ & & \\
-$(75,115]$ & & \\
-\end{tabular}
-\end{center}
-+ (3) 根据（2）中的列联表，判断是否有 99\% 的把握认为该市一天空气中 $P M_(2.5)$ 浓度与 $S O_2$ 浓度有关？
 
-
-附：$K^2=(n(a d-b c)^2)/((a+b)(c+d)(a+c)(b+d))$.
-
-\begin{center}
-\begin{tabular}{c|ccc}
-$P(K^2 >= k)$ & 0.050 & 0.010 & 0.001 \\
-\hline
-$k$ & 3.841 & 6.635 & 10.828 \\
-\end{tabular}
-\end{center}
+#mi(`k`) & 3.841 & 6.635 & 10.828 \\
 ]
 
 #solution[
-+ (1) 由表中数据，$P M_(2.5)$ 浓度不超过 $75$ 且 $S O_2$ 浓度不超过 $150$ 的天数为 $32+18+6+8=64$，所以所求概率的估计值为 $(64)/(100)=0.64$.
-+ (2) 由所给数据，$2 times 2$ 列联表为
-
-\begin{center}
-\begin{tabular}{c|cc}
-$P M_(2.5)\b a c k s l a s h S O_2$ & $[0,150]$ & $(150,475]$ \\
-\hline
-$[0,75]$ & 64 & 16 \\
-$(75,115]$ & 10 & 10
-\end{tabular}
-\end{center}
-+ (3) 将列联表数据代入公式，得 $K^2=(100 times (64 times 10 -16 times 10 )^2)/((64+16)(10+10)(64+10)(16+10))=(100 times 480 ""^2)/(80 times 20 times 74 times 26) approx 7 .484$. 因为 $7.484>6.635$，所以有 $99\%$ 的把握认为该市一天空气中 $P M_(2.5)$ 浓度与 $S O_2$ 浓度有关.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-如图，四棱锥 $P-A B C D$ 的底面为正方形，$P D bot$底面 $A B C D$. 设平面 $P A D$ 与平面 $P B C$ 的交线为 $l$.
+如图，四棱锥 #mi(`P-ABCD`) 的底面为正方形，#mi(`PD\perp`) 底面 #mi(`ABCD`). 设平面 #mi(`PAD`) 与平面 #mi(`PBC`) 的交线为 #mi(`l`).
 
 
-+ (1) 证明：$l bot$平面 $P D C$；
-+ (2) 已知 $P D=A D=1$，$Q$ 为 $l$ 上的点，求 $P B$ 与平面 $Q C D$ 所成角的正弦值的最大值.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2020/img/new_gaokao_paper_1/q20_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2020/img/new_gaokao_paper_1/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 因为四边形 $A B C D$ 为正方形，所以 $A D parallel B C$. 又 $B C subset$ 平面 $P B C$，$A D not subset$ 平面 $P B C$，所以 $A D parallel$ 平面 $P B C$. 因为 $A D subset$ 平面 $P A D$，且平面 $P A D$ 与平面 $P B C$ 的交线为 $l$，所以 $A D parallel l$. 因为 $P D bot$ 底面 $A B C D$，所以 $P D bot A D$；又 $A D bot C D$，$P D inter C D=D$，所以 $A D bot$ 平面 $P D C$. 因为 $l parallel A D$，所以 $l bot$ 平面 $P D C$.
-+ (2) 由 $P D bot$ 底面 $A B C D$，以 $D$ 为原点，$arrow(D A)$，$arrow(D C)$，$arrow(D P)$ 的方向分别为 $x$，$y$，$z$ 轴正方向建立空间直角坐标系，则 $D(0,0,0)$，$A(1,0,0)$，$C(0,1,0)$，$B(1,1,0)$，$P(0,0,1)$. 由（1）知 $l$ 过点 $P$ 且平行于 $A D$，设 $Q(t,0,1)$. 则 $arrow(P B)=(1,1,-1)$，$|arrow(P B)|=sqrt(3)$. 设平面 $Q C D$ 的法向量为 $bold(n)=(x,y,z)$，由 $arrow(D C)=(0,1,0)$，$arrow(D Q)=(t,0,1)$ 得 $y=0$，$t x+z=0$，取 $bold(n)=(1,0,-t)$. 设 $P B$ 与平面 $Q C D$ 所成的角为 $theta$，则 $sin theta =(|arrow(P B){ dot }bold(n)|)/(|arrow(P B)| |bold(n)|)=(|1+t|)/(sqrt(3)sqrt(1+t^2))$. 因为 $(1+t)^2 <= 2 (1+t^2)$，即 $(t-1)^2 >= 0$ 恒成立，所以 $(|1+t|)/(sqrt(1+t^2))\l e s q r t(2)$，从而 $sin theta <= (sqrt(2))/(sqrt(3))=(sqrt(6))/(3)$，当 $t=1$ 时取到等号. 故 $P B$ 与平面 $Q C D$ 所成角的正弦值的最大值为 $(sqrt(6))/(3)$.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x)=a e ""^(x-1)- ln x+ ln a$.
+已知函数 #mi(`f(x)=a\mathrm{e}^{x-1}-\ln x+\ln a`).
 
 
-+ (1) 当 $a= e$ 时，求曲线 $y=f(x)$ 在点 $( 1,f(1) )$ 处的切线与两坐标轴围成的三角形的面积；
-+ (2) 若 $f(x) >= 1$，求 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a= e$ 时，$f(x)= e dot e ""^(x-1)- ln x+ ln e = e ""^x- ln x+1$，所以 $f(1)= e +1$. 又 $f'(x)= e ""^x-(1)/(x)$，所以 $f'(1)= e -1$，曲线在点 $(1, e +1)$ 处的切线方程为 $y-( e +1)=( e -1)(x-1)$. 令 $y=0$ 得 $x=-(2)/(e -1)$，令 $x=0$ 得 $y=2$，所以该切线与两坐标轴围成的三角形的面积为 $(1)/(2) times (2)/(e -1) times 2 =(2)/(e -1)$.
-+ (2) 若 $a >= 1$，则 $a e ""^(x-1) >= e ""^(x-1)$ 且 $ln a >= 0$，所以 $f(x) >= e ""^(x-1)- ln x$. 记 $h(x)= e ""^(x-1)- ln x$，则 $h'(x)= e ""^(x-1)-(1)/(x)$，$h''(x)= e ""^(x-1)+(1)/(x^2)>0$，所以 $h'(x)$ 在 $(0,+ oo )$ 上单调递增. 又 $h'(1)=0$，所以当 $0<x<1$ 时 $h'(x)<0$，当 $x>1$ 时 $h'(x)>0$，即 $h(x)$ 在 $(0,1)$ 上单调递减，在 $(1,+ oo )$ 上单调递增，故 $h(x) >= h(1)=1$. 从而 $f(x) >= 1$，即 $a >= 1$ 满足题意.
-若 $f(x) >= 1$ 对任意 $x>0$ 恒成立，取 $x=1$ 得 $f(1)=a+ ln a >= 1$. 记 $phi.alt (a)=a+ ln a$（$a>0$），则 $phi.alt '(a)=1+(1)/(a)>0$，$phi.alt (a)$ 单调递增，且 $phi.alt (1)=1$，所以 $a >= 1$. 综上，$a$ 的取值范围为 $[1,+ oo )$.
++ (1)
 ]
 
 #problem(22)[
-已知椭圆 $C:(x^2)/(a^2)+(y^2)/(b^2)=1$（$a>b>0$）的离心率为 $(sqrt(2))/(2)$，且过点 $A( 2,1 )$.
+已知椭圆 #mi(`C:\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1`)（#mi(`a>b>0`)）的离心率为 #mi(`\dfrac{\sqrt{2}}{2}`)，且过点 #mi(`A\left( 2,1 \right)`).
 
 
-+ (1) 求 $C$ 的方程；
-+ (2) 点 $M$，$N$ 在 $C$ 上，且 $A M bot A N$，$A D bot M N$，$D$ 为垂足. 证明：存在定点 $Q$，使得 $|D Q|$ 为定值.
++ (1)
 ]
 
 #solution[
-+ (1) 由离心率 $(c)/(a)=(sqrt(2))/(2)$ 得 $c^2=(1)/(2)a^2$，所以 $b^2=a^2-c^2=(1)/(2)a^2$. 将 $A(2,1)$ 代入椭圆方程得 $(4)/(a^2)+(1)/(b^2)=1$，即 $(4)/(a^2)+(2)/(a^2)=1$，所以 $a^2=6$，$b^2=3$，故 $C$ 的方程为 $(x^2)/(6)+(y^2)/(3)=1$.
-+ (2) 由（1）知 $C:x^2+2 y^2=6$. 设 $M(x_1,y_1)$，$N(x_2,y_2)$，直线 $M N$ 的方程为 $y=k x+m$. 将 $y=k x+m$ 代入椭圆方程得 $(1+2 k^2)x^2+4 k m x+2 m^2-6=0$，所以 $x_1+x_2=-(4 k m)/(1+2 k^2)$，$x_(1) x_2=(2 m^2-6)/(1+2 k^2)$. 由 $A M bot A N$ 得 $(x_1-2)(x_2-2)+(y_1-1)(y_2-1)=0$，即 $(1+k^2)x_(1) x_2+(k(m-1)-2)(x_1+x_2)+(m-1)^2+4=0$. 将根与系数的关系代入并整理，得 $3 m^2+(8 k-2)m+4 k^2-1=0$，即 $(3 m+2 k+1)(m+2 k-1)=0$. 若 $m=1-2 k$，则直线 $M N$ 过点 $A(2,1)$，此时 $M$，$N$，$A$ 中必有两个点重合，与 $A M bot A N$ 矛盾，舍去；所以 $m=-(2 k+1)/(3)$，即直线 $M N$ 恒过定点 $P((2)/(3),-(1)/(3))$. 因为 $A D bot M N$，$D$ 为垂足，所以 $angle A D P=90^ degree$，点 $D$ 在以 $A P$ 为直径的圆上. 取 $Q$ 为 $A P$ 的中点，则 $Q((4)/(3),(1)/(3))$，且 $|D Q|=(1)/(2)|A P|=(1)/(2)sqrt((2-(2)/(3))^2+(1+(1)/(3))^2)=(1)/(2) times (4 sqrt(2))/(3)=(2 sqrt(2))/(3)$. 故存在定点 $Q((4)/(3),(1)/(3))$，使得 $|D Q|$ 为定值 $(2 sqrt(2))/(3)$.
++ (1)
 ]
 

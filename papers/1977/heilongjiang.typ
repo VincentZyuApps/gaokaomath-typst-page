@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -14,290 +14,297 @@
 解答下列各题.
 
 
-+ (1) 解方程：$sqrt(3 x+4)=4$.
-+ (2) 解不等式：$|x|<5$.
-+ (3) 已知正三角形的外接圆半径为 $6 sqrt(3)~c m$，求它的边长.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 根式有意义要求 $3 x+4 >= 0$. 在此条件下，方程两边都是非负数，所以平方不改变方程的等价性：
-    
-$ 3 x+4=4^2=16 $
-
-    解得 $x=4$. 代回原方程，左边为 $sqrt(3 times 4 +4)=sqrt(16)=4$，满足原方程，故解为 $x=4$.
-+ (2) 因为 $5>0$，绝对值不等式的定义给出
-    
-$ |x|<5 <=> -5<x<5 $
-
-    所以不等式的解集为 $(-5,5)$.
-+ (3) 设正三角形的边长为 $a$，高为 $h$. 高平分底边，在所得直角三角形中由勾股定理得
-$h^2=a^2-((a)/(2))^2=(3 a^2)/(4)$，$h=(sqrt(3))/(2)a$.
-    正三角形的外心、重心和内心重合，且外心把中线按顶点到外心为中线长的 $(2)/(3)$ 分割，因此外接圆半径
-    
-$ R=(2)/(3)h=(a)/(sqrt(3)) $
-
-    代入 $R=6 sqrt(3)~c m$，得
-    
-$ a=R s q r t(3)=6 sqrt(3)\t i m e s s q r t(3)=18~c m $
-
-    所以正三角形的边长为 $18~c m$.
++ (1) 
++ (2)
 ]
 
 #problem(2)[
 计算下列各题.
 
 
-+ (1) $sqrt(m^2-2 m a+a^2)$.
-+ (2) $cos 78 ""^ degree dot cos 3 ""^ degree + cos 12 ""^ degree dot sin 3 ""^ degree$.
-+ (3) $arcsin ( cos (pi)/(6))$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 先把被开方数配方：
-    
-$ m^2-2 m a+a^2=(m-a)^2 $
-
-    算术平方根取非负值，而 $sqrt(u^2)=|u|$，所以
-    
-$ sqrt(m^2-2 m a+a^2)=sqrt((m-a)^2)=|m-a| $
-+ (2) 利用余函数关系 $cos 78 ""^ degree = sin 12 ""^ degree$，原式化为
-    
-$ sin 12 ""^ degree cos 3 ""^ degree + cos 12 ""^ degree sin 3 ""^ degree = sin 15 ""^ degree $
-
-    再用 $15^ degree =45^ degree -30^ degree$ 及正弦差角公式，得
-    
-$ sin 15 ""^ degree = sin 45 ""^ degree cos 30 ""^ degree - cos 45 ""^ degree sin 30 ""^ degree =(sqrt(2))/(2) dot (sqrt(3))/(2)-(sqrt(2))/(2) dot (1)/(2)=(sqrt(6)-sqrt(2))/(4) $
-+ (3) 先求括号内的值：
-    
-$ cos (pi)/(6)=(sqrt(3))/(2)= sin (pi)/(3) $
-
-    反正弦函数的值域规定为 $[-(pi)/(2),(pi)/(2)]$，而 $(pi)/(3)$ 在这个区间内，因此主值确定为
-    
-$ arcsin ( cos (pi)/(6))= arcsin ( sin (pi)/(3))=(pi)/(3) $
++ (1) 
++ (2)
 ]
 
 #problem(3)[
 解下列各题.
 
 
-+ (1) 解方程：$3^(x+1)-9^((x)/(2))=18$.
-+ (2) 求数列 $2$，$4$，$8$，$16$，$dots.c$ 前十项的和.
++ (1)
 ]
 
 #solution[
-+ (1) 对任意实数 $x$，由于底数为正，指数运算满足
-    
-$ 9^((x)/(2))=(3^2)^((x)/(2))=3^x $
-
-    原方程化为
-    
-$ 3 dot 3 ""^x-3^x=18 <=> 2 dot 3 ""^x=18 <=> 3^x=9=3^2 $
-
-    因为底数 $3>0$ 且 $3 != 1$，指数函数 $3^x$ 是一一对应的，所以 $x=2$. 代回原方程可得 $27-9=18$，故解为 $x=2$.
-+ (2) 数列的相邻两项之比都是 $2$，所以它是首项 $a_1=2$、公比 $q=2$ 的等比数列. 因为 $q != 1$，前十项和为
-    
-$ S_(10)=a_1(q^(10)-1)/(q-1)=2(2^(10)-1)/(2-1)=2(1024-1)=2046 $
-
-    所以前十项的和为 $2046$.
++ (1)
 ]
 
 #problem(4)[
 解下列各题.
 
 
-+ (1) 圆锥的高为 $6 ~c m$，母线和底面半径成 $30^ degree$ 角，求它的侧面积.
-+ (2) 求过点 $(1,4)$ 且与直线 $2 x-5 y+3=0$ 垂直的直线方程.
++ (1)
 ]
 
 #solution[
-+ (1) 设圆锥的母线长为 $l$，底面半径为 $r$. 作圆锥的轴截面，得到一个直角三角形，其中高为 $6~c m$，斜边为母线 $l$，且母线与底面半径的夹角为 $30^ degree$. 因而
-$sin 30 ""^ degree =(6)/(l)$，$l=(6)/((1)/(2))=12~c m$.
-    同一个直角三角形中，底面半径是夹角 $30^ degree$ 的邻边，所以
-    
-$ r=l cos 30 ""^ degree =12 times (sqrt(3))/(2)=6 sqrt(3)~c m $
-
-    圆锥侧面积等于底面圆周长乘母线的一半，即
-    
-$ S_("侧")=(1)/(2)(2 pi r)l= pi r l = pi times 6 sqrt(3) times 12 =72 sqrt(3) pi ~c m^2 $
-+ (2) 将已知直线化为斜截式：
-    
-$ 2 x-5 y+3=0 <=> y=(2)/(5)x+(3)/(5) $
-
-    所以其斜率为 $(2)/(5)$. 垂直直线的斜率为负倒数 $-(5)/(2)$. 过点 $(1,4)$ 的所求直线由点斜式给出
-    
-$ y-4=-(5)/(2)(x-1) $
-
-    两边乘以 $2$ 并整理，得到
-    
-$ 2 y-8=-5 x+5 <=> 5 x+2 y-13=0 $
-
-    因此所求直线方程为 $5 x+2 y-13=0$.
++ (1)
 ]
 
 #problem(5)[
-如果 $triangle A B C$ 的 $angle A$ 的平分线交 $B C$ 于 $D$，交它的外接圆于 $E$，那么 $A B dot A C=A D dot A E$.
+如果 #mi(`\triangle ABC`) 的 #mi(`\angle A`) 的平分线交 #mi(`BC`) 于 #mi(`D`)，交它的外接圆于 #mi(`E`)，那么 #mi(`AB\cdot AC=AD\cdot AE`).
 
 
-#align(center)[#image("/papers/1977/img/heilongjiang/q5_fig1.png", width: 4.8cm)]
+#align(center)[#image("/papers/1977/img/heilongjiang/q5_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-因为角平分线交边 $B C$ 于 $D$，又交外接圆于 $E$，所以 $A$，$D$，$E$ 三点共线，且 $D$ 在 $B C$ 上. 由 $A D$ 平分 $angle B A C$，并注意到射线 $A E$ 与射线 $A D$ 重合，有
+因为角平分线交边 #mi(`BC`) 于 #mi(`D`)，又交外接圆于 #mi(`E`)，所以 #mi(`A`)，#mi(`D`)，#mi(`E`) 三点共线，且 #mi(`D`) 在 #mi(`BC`) 上. 由 #mi(`AD`) 平分 #mi(`\angle BAC`)，并注意到射线 #mi(`AE`) 与射线 #mi(`AD`) 重合，有
 
-$ angle B A D= angle D A C= angle E A C $
 
-另一方面，$D$ 在 $B C$ 上，所以 $angle A B D= angle A B C$. 点 $A$，$B$，$C$，$E$ 共圆，$angle A B C$ 与 $angle A E C$ 都是弦 $A C$ 所对的圆周角，故
+#align(center)[#mitex(`
+\angle BAD=\angle DAC=\angle EAC
+`)]
 
-$ angle A B D= angle A E C $
+
+另一方面，#mi(`D`) 在 #mi(`BC`) 上，所以 #mi(`\angle ABD=\angle ABC`). 点 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`E`) 共圆，#mi(`\angle ABC`) 与 #mi(`\angle AEC`) 都是弦 #mi(`AC`) 所对的圆周角，故
+
+
+#align(center)[#mitex(`
+\angle ABD=\angle AEC
+`)]
+
 
 于是由两个角分别相等，得到
 
-$ triangle A B D tilde triangle A E C $
 
-其中对应关系为 $A\l e f t r i g h t a r r o w A$、$B\l e f t r i g h t a r r o w E$、$D\l e f t r i g h t a r r o w C$. 因此对应边成比例：
+#align(center)[#mitex(`
+\triangle ABD\sim\triangle AEC
+`)]
 
-$ (A D)/(A C)=(A B)/(A E) $
+
+其中对应关系为 #mi(`A\leftrightarrow A`)、#mi(`B\leftrightarrow E`)、#mi(`D\leftrightarrow C`). 因此对应边成比例：
+
+
+#align(center)[#mitex(`
+\frac{AD}{AC}=\frac{AB}{AE}
+`)]
+
 
 交叉相乘即得
 
-$ A D dot A E=A B dot A C $
 
-即 $A B dot A C=A D dot A E$，结论成立.
+#align(center)[#mitex(`
+AD\cdot AE=AB\cdot AC
+`)]
+
+
+即 #mi(`AB\cdot AC=AD\cdot AE`)，结论成立.
 ]
 
 #problem(6)[
-前进大队响应毛主席关于“绿化祖国”的伟大号召，$1975$ 年造林 $200" 亩"$，又知 $1975$ 年至 $1977$ 年这三年内共造林 $728" 亩"$，求后两年造林面积的年平均增长率是多少？
+前进大队响应毛主席关于“绿化祖国”的伟大号召，#mi(`1975`) 年造林 #mi(`200\text{ \text{亩}}`)，又知 #mi(`1975`) 年至 #mi(`1977`) 年这三年内共造林 #mi(`728\text{ \text{亩}}`)，求后两年造林面积的年平均增长率是多少？
 ]
 
 #solution[
-设后两年造林面积的年平均增长率为 $r$，则每年相对于上一年的增长倍数为 $q=1+r$. 由于造林面积为正，必须有 $q>0$. 于是
-$S_(1975)=200$，$S_(1976)=200 q$，$S_(1977)=200 q^2$.
+设后两年造林面积的年平均增长率为 #mi(`r`)，则每年相对于上一年的增长倍数为 #mi(`q=1+r`). 由于造林面积为正，必须有 #mi(`q>0`). 于是
+
+#mi(`S_{1975}=200`)，#mi(`S_{1976}=200q`)，#mi(`S_{1977}=200q^{2}`).
+
 由三年总面积得
 
 
-$ 200+200 q+200 q^2=728 <=> q^2+q+1=(728)/(200)=(91)/(25) $
+#align(center)[#mitex(`
+200+200q+200q^{2}=728  \Longleftrightarrow q^{2}+q+1=\frac{728}{200}=\frac{91}{25}
+`)]
 
 
-移项得 $q^2+q-(66)/(25)=0$. 用求根公式解得
+移项得 #mi(`q^{2}+q-\frac{66}{25}=0`). 用求根公式解得
 
 
-
-$ q=(-1\p m s q r t(1+(264)/(25)))/(2)=(-1 +- (17)/(5))/(2) $
-
-
-所以 $q=(6)/(5)$ 或 $q=-(11)/(5)$. 由 $q>0$ 舍去负值，故 $q=(6)/(5)$，从而
+#align(center)[#mitex(`
+q=\frac{-1\pm\sqrt{1+\frac{264}{25}}}{2}=\frac{-1\pm\frac{17}{5}}{2}
+`)]
 
 
-$ r=q-1=(6)/(5)-1=(1)/(5)=20\% $
+所以 #mi(`q=\frac{6}{5}`) 或 #mi(`q=-\frac{11}{5}`). 由 #mi(`q>0`) 舍去负值，故 #mi(`q=\frac{6}{5}`)，从而
 
 
-所以后两年造林面积的年平均增长率为 $20\%$.
+#align(center)[#mitex(`
+r=q-1=\frac{6}{5}-1=\frac{1}{5}=20\%
+`)]
+
+
+所以后两年造林面积的年平均增长率为 #mi(`20\%`).
 ]
 
 #problem(7)[
-解方程：$\l g(2^x+2 x-16)=x(1-\l g 5)$.
+解方程：#mi(`\lg\left(2^{x}+2x-16\right)=x\left(1-\lg 5\right)`).
 ]
 
 #solution[
-常用对数的真数必须为正，因此原方程的定义域先要求 $2^x+2 x-16>0$. 又因为 $1=\l g10$，所以右端可以化为
+常用对数的真数必须为正，因此原方程的定义域先要求 #mi(`2^{x}+2x-16>0`). 又因为 #mi(`1=\lg10`)，所以右端可以化为
 
 
-$ x(1-\l g5)=x(\l g10-\l g5)=x\l g2=\l g(2^x) $
+#align(center)[#mitex(`
+x(1-\lg5)=x(\lg10-\lg5)=x\lg2=\lg(2^{x})
+`)]
 
 
-注意到 $2^x>0$，在原方程的定义域内两边都是有意义的常用对数，故原方程等价于
+注意到 #mi(`2^{x}>0`)，在原方程的定义域内两边都是有意义的常用对数，故原方程等价于
 
-$ \l g(2^x+2 x-16)=\l g(2^x) $
+
+#align(center)[#mitex(`
+\lg\left(2^{x}+2x-16\right)=\lg(2^{x})
+`)]
+
 
 常用对数函数在正数范围内是单调函数，从而真数相等：
 
 
-$ 2^x+2 x-16=2^x $
+#align(center)[#mitex(`
+2^{x}+2x-16=2^{x}
+`)]
 
 
-于是 $2 x-16=0$，解得 $x=8$. 检验定义域：
+于是 #mi(`2x-16=0`)，解得 #mi(`x=8`). 检验定义域：
 
-$ 2^8+2 times 8 -16=256>0 $
 
-所以 $x=8$ 确实是原方程的解，且没有其他解.
+#align(center)[#mitex(`
+2^{8}+2\times8-16=256>0
+`)]
+
+
+所以 #mi(`x=8`) 确实是原方程的解，且没有其他解.
 ]
 
 #problem(8)[
-已知三角形的三边成等差数列，周长为 $36 ~c m$，面积为 $54 ~c m^2$，求三边的长.
+已知三角形的三边成等差数列，周长为 #mi(`36 \mathrm{~cm}`)，面积为 #mi(`54 \mathrm{~cm}^{2}`)，求三边的长.
 ]
 
 #solution[
-设三边按从小到大的顺序为 $12-d$、$12$、$12+d$，其中 $d >= 0$. 这是因为三边和为 $36$，等差数列的中项等于平均数 $(36)/(3)=12$. 三角形的最大边小于另外两边之和，故
-
-$ 12+d<(12-d)+12 <=> d<6 $
-
-半周长为 $s=18$. 根据海伦公式，
+设三边按从小到大的顺序为 #mi(`12-d`)、#mi(`12`)、#mi(`12+d`)，其中 #mi(`d\geqslant0`). 这是因为三边和为 #mi(`36`)，等差数列的中项等于平均数 #mi(`\frac{36}{3}=12`). 三角形的最大边小于另外两边之和，故
 
 
-$ 54^2=18[18-(12-d)](18-12)[18-(12+d)] =18(6+d) dot 6 dot (6-d)=108(36-d^2) $
+#align(center)[#mitex(`
+12+d<(12-d)+12\Longleftrightarrow d<6
+`)]
+
+
+半周长为 #mi(`s=18`). 根据海伦公式，
+
+
+#align(center)[#mitex(`
+54^{2}=18\left[18-(12-d)\right](18-12)\left[18-(12+d)\right]  =18(6+d)\cdot6\cdot(6-d)=108(36-d^{2})
+`)]
 
 
 因此
 
-$ 2916=108(36-d^2) <=> d^2=9 $
 
-结合 $d >= 0$，得 $d=3$. 所以三边分别为
-$12-3=9~c m$，$12~c m$，$12+3=15~c m$.
-最后，$9+12>15$，且代入海伦公式得到面积 $54~c m^2$，满足题设，故答案成立.
+#align(center)[#mitex(`
+2916=108(36-d^{2})\Longleftrightarrow d^{2}=9
+`)]
+
+
+结合 #mi(`d\geqslant0`)，得 #mi(`d=3`). 所以三边分别为
+
+#mi(`12-3=9\mathrm{~cm}`)，#mi(`12\mathrm{~cm}`)，#mi(`12+3=15\mathrm{~cm}`).
+
+最后，#mi(`9+12>15`)，且代入海伦公式得到面积 #mi(`54\mathrm{~cm}^{2}`)，满足题设，故答案成立.
 ]
 
 #part-header("附加题")
 
 #problem(9)[
-如图，$A P$ 表示发动机的连杆，$O A$ 表示它的曲柄. 当 $A$ 在圆上作圆周运动时，$P$ 在 $x$ 轴上作直线运动，求 $P$ 点的横坐标. 为什么当 $alpha$ 是直角时，$angle P$ 是最大？
+如图，#mi(`AP`) 表示发动机的连杆，#mi(`OA`) 表示它的曲柄. 当 #mi(`A`) 在圆上作圆周运动时，#mi(`P`) 在 #mi(`x`) 轴上作直线运动，求 #mi(`P`) 点的横坐标. 为什么当 #mi(`\alpha`) 是直角时，#mi(`\angle P`) 是最大？
 
 
-#align(center)[#image("/papers/1977/img/heilongjiang/q9_fig1.png", width: 6.4cm)]
+#align(center)[#image("/papers/1977/img/heilongjiang/q9_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-取 $O$ 为原点，题图中的 $x$ 轴为横轴. 设连杆长 $A P=l$，曲柄长 $O A=R$，并设 $P$ 点横坐标为 $p$，于是 $P=(p,0)$. 由 $angle A O P= alpha$ 及 $O A=R$，点 $A$ 的坐标为
+取 #mi(`O`) 为原点，题图中的 #mi(`x`) 轴为横轴. 设连杆长 #mi(`AP=l`)，曲柄长 #mi(`OA=R`)，并设 #mi(`P`) 点横坐标为 #mi(`p`)，于是 #mi(`P=\left(p,0\right)`). 由 #mi(`\angle AOP=\alpha`) 及 #mi(`OA=R`)，点 #mi(`A`) 的坐标为
 
-$ A=(R cos alpha ,R sin alpha ) $
+
+#align(center)[#mitex(`
+A=\left(R\cos\alpha,R\sin\alpha\right)
+`)]
+
 
 由两点间距离公式，
 
-$ l^2=A P^2=(p-R cos alpha )^2+R^2 sin ""^2 alpha $
+
+#align(center)[#mitex(`
+l^{2}=AP^{2}=\left(p-R\cos\alpha\right)^{2}+R^{2}\sin^{2}\alpha
+`)]
+
 
 移项得
 
-$ (p-R cos alpha )^2=l^2-R^2 sin ""^2 alpha $
 
-题图取的是连杆在曲柄右侧的分支，即 $p-R cos alpha >= 0$，所以
+#align(center)[#mitex(`
+\left(p-R\cos\alpha\right)^{2}=l^{2}-R^{2}\sin^{2}\alpha
+`)]
 
-$ p=R cos alpha +sqrt(l^2-R^2 sin ""^2 alpha) $
 
-这个位置存在的必要条件是 $l^2-R^2 sin ""^2 alpha >= 0$，因此上式就是 $P$ 点的横坐标.
+题图取的是连杆在曲柄右侧的分支，即 #mi(`p-R\cos\alpha\geqslant0`)，所以
 
-再说明角 $P$ 的最大性. 设 $theta = angle A P O$，这正是题目所记的 $angle P$. 在三角形 $A O P$ 中，边 $O A=R$ 对应角 $theta$，边 $A P=l$ 对应角 $alpha$，由正弦定理得
-$(sin theta)/(R)=(sin alpha)/(l)$，$sin theta =(R)/(l) sin alpha$.
-由所取分支 $p-R cos alpha >= 0$. 在点 $P$ 处用向量内积或余弦定理可得
 
-$ cos theta =(p-R cos alpha)/(l) >= 0 $
+#align(center)[#mitex(`
+p=R\cos\alpha+\sqrt{l^{2}-R^{2}\sin^{2}\alpha}
+`)]
 
-所以 $0 <= theta <= (pi)/(2)$，在此范围内 $theta$ 随 $sin theta$ 单调增加. 当题设机构可以取到 $alpha =(pi)/(2)$ 时，$0 <= alpha <= pi$ 范围内有 $sin alpha <= 1$，且等号仅在 $alpha =(pi)/(2)$ 时成立. 因而 $sin theta$，以及 $theta = angle P$，在 $alpha$ 为直角时取得最大值.
+
+这个位置存在的必要条件是 #mi(`l^{2}-R^{2}\sin^{2}\alpha\geqslant0`)，因此上式就是 #mi(`P`) 点的横坐标.
+
+再说明角 #mi(`P`) 的最大性. 设 #mi(`\theta=\angle APO`)，这正是题目所记的 #mi(`\angle P`). 在三角形 #mi(`AOP`) 中，边 #mi(`OA=R`) 对应角 #mi(`\theta`)，边 #mi(`AP=l`) 对应角 #mi(`\alpha`)，由正弦定理得
+
+#mi(`\frac{\sin\theta}{R}=\frac{\sin\alpha}{l}`)，#mi(`\sin\theta=\frac{R}{l}\sin\alpha`).
+
+由所取分支 #mi(`p-R\cos\alpha\geqslant0`). 在点 #mi(`P`) 处用向量内积或余弦定理可得
+
+
+#align(center)[#mitex(`
+\cos\theta=\frac{p-R\cos\alpha}{l}\geqslant0
+`)]
+
+
+所以 #mi(`0\le\theta\le\frac{\pi}{2}`)，在此范围内 #mi(`\theta`) 随 #mi(`\sin\theta`) 单调增加. 当题设机构可以取到 #mi(`\alpha=\frac{\pi}{2}`) 时，#mi(`0\le\alpha\le\pi`) 范围内有 #mi(`\sin\alpha\leqslant1`)，且等号仅在 #mi(`\alpha=\frac{\pi}{2}`) 时成立. 因而 #mi(`\sin\theta`)，以及 #mi(`\theta=\angle P`)，在 #mi(`\alpha`) 为直角时取得最大值.
 ]
 
 #part-header("参考题")
 
 #problem(10)[
-求曲线 $y= sin x$ 在 $[0, pi ]$ 上的曲边梯形绕 $x$ 轴旋转一周所形成的旋转体的体积.
+求曲线 #mi(`y=\sin x`) 在 #mi(`\left[0,\pi\right]`) 上的曲边梯形绕 #mi(`x`) 轴旋转一周所形成的旋转体的体积.
 ]
 
 #solution[
-在 $[0, pi ]$ 上有 $sin x >= 0$，所以曲边梯形绕 $x$ 轴旋转时，位置 $x$ 处的截面是半径为 $sin x$ 的圆，面积为 $pi sin ""^(2) x$. 由圆盘法，旋转体体积为
+在 #mi(`\left[0,\pi\right]`) 上有 #mi(`\sin x\geqslant0`)，所以曲边梯形绕 #mi(`x`) 轴旋转时，位置 #mi(`x`) 处的截面是半径为 #mi(`\sin x`) 的圆，面积为 #mi(`\pi\sin^{2}x`). 由圆盘法，旋转体体积为
 
-$ V= pi \i n t_0^ pi sin ""^(2) x d x $
 
-利用半角恒等式 $sin ""^(2) x=(1- cos 2 x)/(2)$，有
+#align(center)[#mitex(`
+V=\pi\int_{0}^{\pi}\sin^{2}x\,\mathrm{d}x
+`)]
 
-$ V= pi \i n t_0^ pi (1- cos 2 x)/(2)d x = pi [(x)/(2)-(sin 2 x)/(4)]_(0)^( pi ) = pi ((pi)/(2)-0)=(pi ""^2)/(2) $
 
-所以旋转体的体积为 $(pi ""^2)/(2)$.
+利用半角恒等式 #mi(`\sin^{2}x=\frac{1-\cos2x}{2}`)，有
+
+
+#align(center)[#mitex(`
+V=\pi\int_{0}^{\pi}\frac{1-\cos2x}{2}\,\mathrm{d}x  =\pi\left[\frac{x}{2}-\frac{\sin2x}{4}\right]_{0}^{\pi}=\pi\left(\frac{\pi}{2}-0\right)=\frac{\pi^{2}}{2}
+`)]
+
+
+所以旋转体的体积为 #mi(`\frac{\pi^{2}}{2}`).
 ]
 

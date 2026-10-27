@@ -137,7 +137,9 @@ a^{2}+\frac{1}{a^{2}}-a-\frac{1}{a}=t^{2}-t-2=(t-2)(t+1)\geqslant0
 #problem(9)[
 两个相同的正四棱锥组成如图所示的几何体，可放入棱长为 #mi(`1`) 的正方体内，使正四棱锥的底面 #mi(`ABCD`) 与正方体的某一个平面平行，且各顶点均在正方体的面上，则这样的几何体体积的可能值有（ ）
 
-[max width=0.78\linewidth]img/2006/jiangsu/q9_fig1.png
+
+#align(center)[#image("/papers/2006/img/jiangsu/q9_fig1.png", width: 28%)]
+
   #choices([#mi(`1`) 个], [#mi(`2`) 个], [#mi(`3`) 个], [无穷多个], cols: 4)
 ]
 
@@ -164,7 +166,9 @@ V=2\times\frac{1}{3}s^{2}\times\frac{1}{2}=\frac{s^{2}}{3}=\frac{1}{6\cos^{2}\th
 #problem(10)[
 图中有一个信号源和五个接收器. 接收器与信号源在同一个串联线路中时，就能接收到信号，否则就不能接收到信号. 若将图中左端的六个接线点随机地平均分成三组. 将右端的六个接线点也随机地平均分成三组，再把所有六组中每组的两个接线点用导线连接，则这五个接收器能同时接收到信号的概率是（ ）
 
-[max width=0.42\linewidth]img/2006/jiangsu/q10_fig1.png
+
+#align(center)[#image("/papers/2006/img/jiangsu/q10_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{4}{45}`)], [#mi(`\frac{1}{36}`)], [#mi(`\frac{4}{15}`)], [#mi(`\frac{8}{15}`)], cols: 2)
 ]
 
@@ -316,7 +320,9 @@ x+\frac{1}{x}+6>0\quad\Longleftrightarrow\quad x^{2}+6x+1<0
 #problem(18)[
 请您设计一个帐篷. 它下部的形状是高为 #mi(`1\mathrm{~m}`) 的正六棱柱，上部的形状是侧棱长为 #mi(`3\mathrm{~m}`) 的正六棱锥（如图所示）. 试问当帐篷的顶点 #mi(`O`) 到底面中心 #mi(`O_{1}`) 的距离为多少时，帐篷的体积最大？
 
-[max width=0.42\linewidth]img/2006/jiangsu/q18_fig1.png
+
+#align(center)[#image("/papers/2006/img/jiangsu/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -340,7 +346,9 @@ x+\frac{1}{x}+6>0\quad\Longleftrightarrow\quad x^{2}+6x+1<0
 
 
 
-[max width=0.54\linewidth]img/2006/jiangsu/q19_fig1.png
+
+#align(center)[#image("/papers/2006/img/jiangsu/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

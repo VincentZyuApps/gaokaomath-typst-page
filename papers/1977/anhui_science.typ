@@ -37,7 +37,9 @@
 
 
 
-[width=5.6cm]img/1977/anhui_science/q2_fig1.png
+
+#align(center)[#image("/papers/1977/img/anhui_science/q2_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -50,7 +52,9 @@
 
 
 
-[width=3.2cm]img/1977/anhui_science/q3_fig1.png
+
+#align(center)[#image("/papers/1977/img/anhui_science/q3_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -141,7 +145,9 @@
 
 这是以原点为中心、在新坐标轴方向上的椭圆，半长轴为 #mi(`4`)，半短轴为 #mi(`3`). 由于 #mi(`x'`) 轴与原坐标系的直线 #mi(`y=x`) 重合，#mi(`y'`) 轴与直线 #mi(`y=-x`) 重合，所以原坐标系中的图形是沿两条互相垂直的对角线方向伸长的椭圆，其图象如下：
 
-[width=7.2cm]img/1977/anhui_science/q7_solution_fig1.png
+ 
+#align(center)[#image("/papers/1977/img/anhui_science/q7_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(8)[
@@ -159,7 +165,9 @@
 
 （注：三种方法是指每种方法各以代数，三角，几何知识为主来证明.）
 
-[width=4.8cm]img/1977/anhui_science/q9_fig1.png
+
+#align(center)[#image("/papers/1977/img/anhui_science/q9_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -203,7 +211,9 @@
 
 法二：延长 #mi(`DA`) 到 #mi(`A'`)，使 #mi(`AA'=a`)，过 #mi(`A'`) 作 #mi(`A'B'\parallel AB`)，并令它与 #mi(`BC`) 的延长线交于 #mi(`B'`). 在 #mi(`A'B'`) 上取点 #mi(`B_{2}'`)，使 #mi(`A'B_{2}'=2\sqrt{3}a`)，连接 #mi(`DB_{2}'`) 和 #mi(`B_{2}'B`)，如图所示：
 
-[width=4.8cm]img/1977/anhui_science/q9_solution_fig1.png
+ 
+#align(center)[#image("/papers/1977/img/anhui_science/q9_solution_fig1.png", width: 28%)]
+ 
 
 在直角三角形 #mi(`B_{1}AA_{1}`) 和 #mi(`DA'B_{2}'`) 中，#mi(`DA'=6a`)，且
 

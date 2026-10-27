@@ -1,8 +1,149 @@
 {
-  "title": "2018年普通高等学校招生全国统一考试",
-  "subtitle": "2018年全国I卷（理）",
   "year": "2018",
   "slug": "national_paper_1_science",
+  "title": "2018年全国I卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +158,9 @@
             "$\\sqrt{2}$"
           ],
           "answer": "C",
-          "solution": "<p>由分母的共轭复数化简，得</p>\n$$\nz=\\frac{(1-\\mathrm{i})(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}+2\\mathrm{i}=\\frac{(1-\\mathrm{i})^{2}}{1-\\mathrm{i}^{2}}+2\\mathrm{i}=\\frac{-2\\mathrm{i}}{2}+2\\mathrm{i}=\\mathrm{i}\n$$\n<p>因此 $\\lvert z\\rvert=\\lvert\\mathrm{i}\\rvert=1$，故选 C.</p>"
+          "solution": "<p>由分母的共轭复数化简，得</p>\n$$\nz=\\frac{(1-\\mathrm{i})(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}+2\\mathrm{i}=\\frac{(1-\\mathrm{i})^{2}}{1-\\mathrm{i}^{2}}+2\\mathrm{i}=\\frac{-2\\mathrm{i}}{2}+2\\mathrm{i}=\\mathrm{i}\n$$\n<p>因此 $\\lvert z\\rvert=\\lvert\\mathrm{i}\\rvert=1$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +172,9 @@
             "$\\{x\\mid x\\le-1\\}\\cup\\{x\\mid x\\ge2\\}$"
           ],
           "answer": "B",
-          "solution": "<p>因为</p>\n$$\nx^{2}-x-2=(x+1)(x-2)\n$$\n<p>所以不等式 $(x+1)(x-2)>0$ 的解集为</p><p>$A=(-\\infty,-1)\\cup(2,+\\infty)$.</p><p>补集中的端点 $-1$ 和 $2$ 都应包含，故</p>\n$$\n\\complement_{\\mathbb{R}}A=[-1,2]=\\{x\\mid -1\\le x\\le 2\\}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>因为</p>\n$$\nx^{2}-x-2=(x+1)(x-2)\n$$\n<p>所以不等式 $(x+1)(x-2)>0$ 的解集为</p><p>$A=(-\\infty,-1)\\cup(2,+\\infty)$.</p><p>补集中的端点 $-1$ 和 $2$ 都应包含，故</p>\n$$\n\\complement_{\\mathbb{R}}A=[-1,2]=\\{x\\mid -1\\le x\\le 2\\}\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +186,9 @@
             "新农村建设后，养殖收入与第三产业收入的总和超过了经济收入的一半"
           ],
           "answer": "A",
-          "solution": "<p>设建设前农村经济收入总额为 $T$，则建设后总额为 $2T$. 由两个饼图可知，建设前四类收入分别为</p><p>$0.60T$、$0.30T$、$0.04T$、$0.06T$，建设后四类收入分别为</p><p>$0.37\\times2T=0.74T$、$0.30\\times2T=0.60T$、$0.05\\times2T=0.10T$、$0.28\\times2T=0.56T$.</p><p>因此，种植收入从 $0.60T$ 增至 $0.74T$，没有减少，选项 A 错误. 其他收入从 $0.04T$ 增至 $0.10T$，增加为原来的 $2.5$ 倍，增加了一倍以上；养殖收入从 $0.30T$ 增至 $0.60T$，恰好增加一倍；建设后养殖收入与第三产业收入之和为 $0.60T+0.56T=1.16T$，而建设后总收入为 $2T$，故其占比为 $1.16\\frac{T}{(2T)}=0.58>0.5$. 所以不正确的是 A.</p>"
+          "solution": "<p>设建设前农村经济收入总额为 $T$，则建设后总额为 $2T$. 由两个饼图可知，建设前四类收入分别为</p><p>$0.60T$、$0.30T$、$0.04T$、$0.06T$，建设后四类收入分别为</p><p>$0.37\\times2T=0.74T$、$0.30\\times2T=0.60T$、$0.05\\times2T=0.10T$、$0.28\\times2T=0.56T$.</p><p>因此，种植收入从 $0.60T$ 增至 $0.74T$，没有减少，选项 A 错误. 其他收入从 $0.04T$ 增至 $0.10T$，增加为原来的 $2.5$ 倍，增加了一倍以上；养殖收入从 $0.30T$ 增至 $0.60T$，恰好增加一倍；建设后养殖收入与第三产业收入之和为 $0.60T+0.56T=1.16T$，而建设后总收入为 $2T$，故其占比为 $1.16\\frac{T}{(2T)}=0.58>0.5$. 所以不正确的是 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +200,9 @@
             "$12$"
           ],
           "answer": "B",
-          "solution": "<p>设等差数列的公差为 $d$，则</p><p>$a_{2}=2+d$、$a_{3}=2+2d$、$a_{4}=2+3d$.</p><p>于是</p><p>$S_{2}=4+d$、$S_{3}=6+3d$、$S_{4}=8+6d$.</p><p>代入题设关系，得</p>\n$$\n3(6+3d)=(4+d)+(8+6d)\n$$\n<p>即 $18+9d=12+7d$，所以 $d=-3$.</p><p>因此</p>\n$$\na_{5}=a_{1}+4d=2+4(-3)=-10\n$$\n<p>故选 B.</p>"
+          "solution": "<p>设等差数列的公差为 $d$，则</p><p>$a_{2}=2+d$、$a_{3}=2+2d$、$a_{4}=2+3d$.</p><p>于是</p><p>$S_{2}=4+d$、$S_{3}=6+3d$、$S_{4}=8+6d$.</p><p>代入题设关系，得</p>\n$$\n3(6+3d)=(4+d)+(8+6d)\n$$\n<p>即 $18+9d=12+7d$，所以 $d=-3$.</p><p>因此</p>\n$$\na_{5}=a_{1}+4d=2+4(-3)=-10\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +214,9 @@
             "$y=x$"
           ],
           "answer": "D",
-          "solution": "<p>奇函数满足 $f(-x)=-f(x)$. 由题设函数式分别计算得</p><p>$f(-x)=-x^{3}+(a-1)x^{2}-ax$，$-f(x)=-x^{3}-(a-1)x^{2}-ax$.</p><p>两式对任意 $x$ 相等，因此 $a-1=-(a-1)$，即 $a=1$. 此时</p><p>$f(x)=x^{3}+x$，从而 $f'(x)=3x^{2}+1$.</p><p>又 $f(0)=0$，切点确为 $(0,0)$，切线斜率为 $f'(0)=1$. 因而切线方程为 $y=x$，故选 D.</p>"
+          "solution": "<p>奇函数满足 $f(-x)=-f(x)$. 由题设函数式分别计算得</p><p>$f(-x)=-x^{3}+(a-1)x^{2}-ax$，$-f(x)=-x^{3}-(a-1)x^{2}-ax$.</p><p>两式对任意 $x$ 相等，因此 $a-1=-(a-1)$，即 $a=1$. 此时</p><p>$f(x)=x^{3}+x$，从而 $f'(x)=3x^{2}+1$.</p><p>又 $f(0)=0$，切点确为 $(0,0)$，切线斜率为 $f'(0)=1$. 因而切线方程为 $y=x$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,11 +228,13 @@
             "$\\frac{1}{4}\\overrightarrow{AB}+\\frac{3}{4}\\overrightarrow{AC}$"
           ],
           "answer": "A",
-          "solution": "<p>设 $\\overrightarrow{AB}=\\mathbf{b}$，$\\overrightarrow{AC}=\\mathbf{c}$，并以 $A$ 为起点表示各点位置向量. 因为 $D$ 是 $BC$ 的中点，所以</p>\n$$\n\\overrightarrow{AD}=\\frac{\\overrightarrow{AB}+\\overrightarrow{AC}}{2}=\\frac{\\mathbf{b}+\\mathbf{c}}{2}\n$$\n<p>又因为 $E$ 是 $AD$ 的中点，故</p>\n$$\n\\overrightarrow{AE}=\\frac{1}{2}\\overrightarrow{AD}=\\frac{\\mathbf{b}+\\mathbf{c}}{4}\n$$\n<p>于是按首尾相接法，</p>\n$$\n\\overrightarrow{EB}=\\overrightarrow{AB}-\\overrightarrow{AE}=\\mathbf{b}-\\frac{\\mathbf{b}+\\mathbf{c}}{4}=\\frac{3}{4}\\mathbf{b}-\\frac{1}{4}\\mathbf{c}  =\\frac{3}{4}\\overrightarrow{AB}-\\frac{1}{4}\\overrightarrow{AC}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>设 $\\overrightarrow{AB}=\\mathbf{b}$，$\\overrightarrow{AC}=\\mathbf{c}$，并以 $A$ 为起点表示各点位置向量. 因为 $D$ 是 $BC$ 的中点，所以</p>\n$$\n\\overrightarrow{AD}=\\frac{\\overrightarrow{AB}+\\overrightarrow{AC}}{2}=\\frac{\\mathbf{b}+\\mathbf{c}}{2}\n$$\n<p>又因为 $E$ 是 $AD$ 的中点，故</p>\n$$\n\\overrightarrow{AE}=\\frac{1}{2}\\overrightarrow{AD}=\\frac{\\mathbf{b}+\\mathbf{c}}{4}\n$$\n<p>于是按首尾相接法，</p>\n$$\n\\overrightarrow{EB}=\\overrightarrow{AB}-\\overrightarrow{AE}=\\mathbf{b}-\\frac{\\mathbf{b}+\\mathbf{c}}{4}=\\frac{3}{4}\\mathbf{b}-\\frac{1}{4}\\mathbf{c}  =\\frac{3}{4}\\overrightarrow{AB}-\\frac{1}{4}\\overrightarrow{AC}\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
-          "body": "<p>某圆柱的高为 $2$，底面周长为 $16$，其三视图如图. 圆柱表面上的点 $M$ 在正视图上的对应点为 $A$，圆柱表面上的点 $N$ 在左视图上的对应点为 $B$，则在此圆柱侧面上，从 $M$ 到 $N$ 的路径中，最短路径的长度为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>某圆柱的高为 $2$，底面周长为 $16$，其三视图如图. 圆柱表面上的点 $M$ 在正视图上的对应点为 $A$，圆柱表面上的点 $N$ 在左视图上的对应点为 $B$，则在此圆柱侧面上，从 $M$ 到 $N$ 的路径中，最短路径的长度为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/national_paper_1_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$2\\sqrt{17}$",
             "$2\\sqrt{5}$",
@@ -89,7 +242,9 @@
             "$2$"
           ],
           "answer": "B",
-          "solution": "<p>把圆柱侧面沿一条母线剪开并展开，所得矩形的一边长为圆柱高 $2$，另一边长为底面周长 $16$. 由正视图中 $A$ 与左视图中 $B$ 的相对位置可知，$M$ 与 $N$ 在底面圆周方向相差四分之一周，因此展开后两点的水平距离为 $16\\div4=4$，竖直距离为圆柱高 $2$.</p><p>侧面上的曲线展开后仍保持长度不变，而平面上两点间的最短线段是直线段，所以从 $M$ 到 $N$ 的最短路径长度为</p>\n$$\n\\sqrt{4^{2}+2^{2}}=\\sqrt{20}=2\\sqrt{5}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>把圆柱侧面沿一条母线剪开并展开，所得矩形的一边长为圆柱高 $2$，另一边长为底面周长 $16$. 由正视图中 $A$ 与左视图中 $B$ 的相对位置可知，$M$ 与 $N$ 在底面圆周方向相差四分之一周，因此展开后两点的水平距离为 $16\\div4=4$，竖直距离为圆柱高 $2$.</p><p>侧面上的曲线展开后仍保持长度不变，而平面上两点间的最短线段是直线段，所以从 $M$ 到 $N$ 的最短路径长度为</p>\n$$\n\\sqrt{4^{2}+2^{2}}=\\sqrt{20}=2\\sqrt{5}\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +256,9 @@
             "$8$"
           ],
           "answer": "D",
-          "solution": "<p>由 $y^{2}=4x$ 可知抛物线参数 $p=1$，所以焦点为 $F=(1,0)$. 过 $(-2,0)$ 且斜率为 $\\dfrac{2}{3}$ 的直线为 $y=\\dfrac{2}{3}(x+2)$. 代入抛物线方程，得</p>\n$$\n\\frac{4}{9}(x+2)^{2}=4x   \\Longleftrightarrow   x^{2}-5x+4=0   \\Longleftrightarrow   (x-1)(x-4)=0\n$$\n<p>因此两个交点的横坐标分别为 $1$ 和 $4$，代回直线方程得到纵坐标分别为 $2$ 和 $4$. 不妨设 $M=(1,2)$、$N=(4,4)$，则 $\\overrightarrow{FM}=(0,2)$、$\\overrightarrow{FN}=(3,4)$. 于是</p>\n$$\n\\overrightarrow{FM}\\cdot\\overrightarrow{FN}=0\\times3+2\\times4=8\n$$\n<p>故选 D.</p>"
+          "solution": "<p>由 $y^{2}=4x$ 可知抛物线参数 $p=1$，所以焦点为 $F=(1,0)$. 过 $(-2,0)$ 且斜率为 $\\dfrac{2}{3}$ 的直线为 $y=\\dfrac{2}{3}(x+2)$. 代入抛物线方程，得</p>\n$$\n\\frac{4}{9}(x+2)^{2}=4x   \\Longleftrightarrow   x^{2}-5x+4=0   \\Longleftrightarrow   (x-1)(x-4)=0\n$$\n<p>因此两个交点的横坐标分别为 $1$ 和 $4$，代回直线方程得到纵坐标分别为 $2$ 和 $4$. 不妨设 $M=(1,2)$、$N=(4,4)$，则 $\\overrightarrow{FM}=(0,2)$、$\\overrightarrow{FN}=(3,4)$. 于是</p>\n$$\n\\overrightarrow{FM}\\cdot\\overrightarrow{FN}=0\\times3+2\\times4=8\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,11 +270,13 @@
             "$[1,+\\infty)$"
           ],
           "answer": "C",
-          "solution": "<p>函数 $g$ 可写为</p>\n$$\ng(x)=  \\begin{cases}\\mathrm{e}^{x}+x+a,&x\\le0,\\\\  \\ln x+x+a,&x>0.\\end{cases}\n$$\n<p>在 $(-\\infty,0]$ 上，$g'(x)=\\mathrm{e}^{x}+1>0$，所以左支严格递增. 又有 $\\displaystyle\\lim_{x\\to-\\infty}g(x)=-\\infty$，且 $g(0)=a+1$. 因此左支有一个零点当且仅当 $g(0)\\ge0$，即 $a\\ge-1$；当 $a=-1$ 时零点是端点 $x=0$.</p><p>在 $(0,+\\infty)$ 上，$g'(x)=\\dfrac{1}{x}+1>0$，且 $\\displaystyle\\lim_{x\\to0^+}g(x)=-\\infty$、$\\displaystyle\\lim_{x\\to+\\infty}g(x)=+\\infty$. 由连续性和严格单调性，右支对任意 $a$ 恰有一个零点，且该零点不等于 $0$. 所以 $g(x)$ 恰有两个零点的充要条件是左支也有一个零点，即 $a\\ge-1$. 故选 C.</p>"
+          "solution": "<p>函数 $g$ 可写为</p>\n$$\ng(x)=  \\begin{cases}\\mathrm{e}^{x}+x+a,&x\\le0,\\\\  \\ln x+x+a,&x>0.\\end{cases}\n$$\n<p>在 $(-\\infty,0]$ 上，$g'(x)=\\mathrm{e}^{x}+1>0$，所以左支严格递增. 又有 $\\displaystyle\\lim_{x\\to-\\infty}g(x)=-\\infty$，且 $g(0)=a+1$. 因此左支有一个零点当且仅当 $g(0)\\ge0$，即 $a\\ge-1$；当 $a=-1$ 时零点是端点 $x=0$.</p><p>在 $(0,+\\infty)$ 上，$g'(x)=\\dfrac{1}{x}+1>0$，且 $\\displaystyle\\lim_{x\\to0^+}g(x)=-\\infty$、$\\displaystyle\\lim_{x\\to+\\infty}g(x)=+\\infty$. 由连续性和严格单调性，右支对任意 $a$ 恰有一个零点，且该零点不等于 $0$. 所以 $g(x)$ 恰有两个零点的充要条件是左支也有一个零点，即 $a\\ge-1$. 故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
-          "body": "<p>如图来自古希腊数学家希波克拉底所研究的几何图形. 此图由三个半圆构成，三个半圆的直径分别为直角三角形 $ABC$ 的斜边 $BC$，直角边 $AB$，$AC$. $\\triangle ABC$ 的三边所围成的区域记为 $I$，黑色部分记为 $II$，其余部分记为 $III$. 在整个图形中随机取一点，此点取自 $I$，$II$，$III$ 的概率分别记为 $p_{1}$，$p_{2}$，$p_{3}$，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图来自古希腊数学家希波克拉底所研究的几何图形. 此图由三个半圆构成，三个半圆的直径分别为直角三角形 $ABC$ 的斜边 $BC$，直角边 $AB$，$AC$. $\\triangle ABC$ 的三边所围成的区域记为 $I$，黑色部分记为 $II$，其余部分记为 $III$. 在整个图形中随机取一点，此点取自 $I$，$II$，$III$ 的概率分别记为 $p_{1}$，$p_{2}$，$p_{3}$，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/national_paper_1_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$p_{1}=p_{2}$",
             "$p_{1}=p_{3}$",
@@ -125,7 +284,9 @@
             "$p_{1}=p_{2}+p_{3}$"
           ],
           "answer": "A",
-          "solution": "<p>设以 $BC$、$AB$、$AC$ 为直径的半圆面积分别为 $S_{BC}$、$S_{AB}$、$S_{AC}$. 半圆面积与直径的平方成正比，而直角三角形满足 $BC^{2}=AB^{2}+AC^{2}$，所以</p>\n$$\nS_{BC}=S_{AB}+S_{AC}\n$$\n<p>根据图中的分区，斜边 $BC$ 上的半圆由区域 $\\mathrm{I}$ 和区域 $\\mathrm{III}$ 组成，另两个半圆合起来由区域 $\\mathrm{II}$ 和区域 $\\mathrm{III}$ 组成，故 $S_{BC}=S_{I}+S_{III}$，$S_{AB}+S_{AC}=S_{II}+S_{III}$. 将两式与面积关系结合，得 $S_{I}=S_{II}$. 在同一个图形中等可能地取点时，落入各区域的概率等于该区域面积除以总面积，因此 $p_{1}=p_{2}$. 故选 A.</p>"
+          "solution": "<p>设以 $BC$、$AB$、$AC$ 为直径的半圆面积分别为 $S_{BC}$、$S_{AB}$、$S_{AC}$. 半圆面积与直径的平方成正比，而直角三角形满足 $BC^{2}=AB^{2}+AC^{2}$，所以</p>\n$$\nS_{BC}=S_{AB}+S_{AC}\n$$\n<p>根据图中的分区，斜边 $BC$ 上的半圆由区域 $\\mathrm{I}$ 和区域 $\\mathrm{III}$ 组成，另两个半圆合起来由区域 $\\mathrm{II}$ 和区域 $\\mathrm{III}$ 组成，故 $S_{BC}=S_{I}+S_{III}$，$S_{AB}+S_{AC}=S_{II}+S_{III}$. 将两式与面积关系结合，得 $S_{I}=S_{II}$. 在同一个图形中等可能地取点时，落入各区域的概率等于该区域面积除以总面积，因此 $p_{1}=p_{2}$. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +298,9 @@
             "$4$"
           ],
           "answer": "B",
-          "solution": "<p>双曲线的半实轴平方为 $3$，半虚轴平方为 $1$，所以两条渐近线为 $y=\\pm\\dfrac{x}{\\sqrt{3}}$，右焦点为 $F=(2,0)$. 设</p><p>$M=\\left(u,\\frac{u}{\\sqrt{3}}\\right)$，$N=\\left(v,-\\frac{v}{\\sqrt{3}}\\right)$.</p><p>直线 $MN$ 在 $x$ 轴上的截距为 $2$，由截距公式</p>\n$$\n\\frac{2uv}{u+v}=2\n$$\n<p>故 $uv=u+v$.</p><p>若直角在 $O$，则 $\\overrightarrow{OM}\\cdot\\overrightarrow{ON}=uv\\left(1-\\dfrac{1}{3}\\right)$. 这里 $u$，$v\\ne0$，故该内积不为零，直角不在 $O$，只能在 $M$ 或 $N$.</p><p>若直角在 $M$，则</p>\n$$\n\\overrightarrow{MO}\\cdot\\overrightarrow{MN}=0   \\Longleftrightarrow   v=2u\n$$\n<p>代入 $uv=u+v$，得 $2u^{2}=3u$. 因 $u\\ne0$，所以 $u=\\dfrac{3}{2}$、$v=3$. 若直角在 $N$，交换 $u$，$v$ 可得 $u=3$、$v=\\dfrac{3}{2}$.</p><p>两种情形的距离相同，且</p>\n$$\n\\lvert MN\\rvert^{2}=(u-v)^{2}+\\frac{(u+v)^{2}}{3}=\\left(\\frac{3}{2}\\right)^{2}+\\frac{\\left(\\frac{9}{2}\\right)^{2}}{3}=9\n$$\n<p>因此 $\\lvert MN\\rvert=3$，故选 B.</p>"
+          "solution": "<p>双曲线的半实轴平方为 $3$，半虚轴平方为 $1$，所以两条渐近线为 $y=\\pm\\dfrac{x}{\\sqrt{3}}$，右焦点为 $F=(2,0)$. 设</p><p>$M=\\left(u,\\frac{u}{\\sqrt{3}}\\right)$，$N=\\left(v,-\\frac{v}{\\sqrt{3}}\\right)$.</p><p>直线 $MN$ 在 $x$ 轴上的截距为 $2$，由截距公式</p>\n$$\n\\frac{2uv}{u+v}=2\n$$\n<p>故 $uv=u+v$.</p><p>若直角在 $O$，则 $\\overrightarrow{OM}\\cdot\\overrightarrow{ON}=uv\\left(1-\\dfrac{1}{3}\\right)$. 这里 $u$，$v\\ne0$，故该内积不为零，直角不在 $O$，只能在 $M$ 或 $N$.</p><p>若直角在 $M$，则</p>\n$$\n\\overrightarrow{MO}\\cdot\\overrightarrow{MN}=0   \\Longleftrightarrow   v=2u\n$$\n<p>代入 $uv=u+v$，得 $2u^{2}=3u$. 因 $u\\ne0$，所以 $u=\\dfrac{3}{2}$、$v=3$. 若直角在 $N$，交换 $u$，$v$ 可得 $u=3$、$v=\\dfrac{3}{2}$.</p><p>两种情形的距离相同，且</p>\n$$\n\\lvert MN\\rvert^{2}=(u-v)^{2}+\\frac{(u+v)^{2}}{3}=\\left(\\frac{3}{2}\\right)^{2}+\\frac{\\left(\\frac{9}{2}\\right)^{2}}{3}=9\n$$\n<p>因此 $\\lvert MN\\rvert=3$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +312,9 @@
             "$\\frac{\\sqrt{3}}{2}$"
           ],
           "answer": "A",
-          "solution": "<p>取正方体的三组棱方向为坐标轴方向，设平面 $\\alpha$ 的法向量为 $\\mathbf{n}=(n_{1},n_{2},n_{3})$. 直线与平面的夹角的正弦等于法向量在该直线方向上的投影绝对值除以 $\\lvert\\mathbf{n}\\rvert$，故题设等价于</p>\n$$\n\\frac{|n_{1}|}{|\\mathbf{n}|}=\\frac{|n_{2}|}{|\\mathbf{n}|}=\\frac{|n_{3}|}{|\\mathbf{n}|}\n$$\n<p>所以三个分量的绝对值相等. 对坐标轴作适当对称变换不改变正方体和截面面积，故可设平行于 $\\alpha$ 的截面平面为 $x+y+z=s$，其中 $0\\le s\\le3$.</p><p>当 $0\\le s\\le1$ 时，截面顶点为 $(s,0,0)$、$(0,s,0)$、$(0,0,s)$，是边长 $s\\sqrt{2}$ 的等边三角形，面积为 $A(s)=\\dfrac{\\sqrt{3}}{2}s^{2}$. 当 $1\\le s\\le2$ 时，截面是大三角形去掉三个边长为 $(s-1)\\sqrt{2}$ 的等边角三角形，故</p>\n$$\nA(s)=\\frac{\\sqrt{3}}{2}\\bigl[s^{2}-3(s-1)^{2}\\bigr]\n$$\n<p>当 $2\\le s\\le3$ 时，关于正方体中心作中心对称可得 $A(s)=A(3-s)$，因此只需研究前两个区间. 在 $[1,2]$ 上 $A'(s)=\\dfrac{\\sqrt{3}}{2}(-4s+6)$，所以该区间的最大值在 $s=\\dfrac{3}{2}$ 取得；比较端点可知它也大于 $[0,1]$ 上的最大值. 于是</p>\n$$\nA\\left(\\frac{3}{2}\\right)=\\frac{\\sqrt{3}}{2}\\left[\\frac{9}{4}-3\\left(\\frac{1}{2}\\right)^{2}\\right]=\\frac{3\\sqrt{3}}{4}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>取正方体的三组棱方向为坐标轴方向，设平面 $\\alpha$ 的法向量为 $\\mathbf{n}=(n_{1},n_{2},n_{3})$. 直线与平面的夹角的正弦等于法向量在该直线方向上的投影绝对值除以 $\\lvert\\mathbf{n}\\rvert$，故题设等价于</p>\n$$\n\\frac{|n_{1}|}{|\\mathbf{n}|}=\\frac{|n_{2}|}{|\\mathbf{n}|}=\\frac{|n_{3}|}{|\\mathbf{n}|}\n$$\n<p>所以三个分量的绝对值相等. 对坐标轴作适当对称变换不改变正方体和截面面积，故可设平行于 $\\alpha$ 的截面平面为 $x+y+z=s$，其中 $0\\le s\\le3$.</p><p>当 $0\\le s\\le1$ 时，截面顶点为 $(s,0,0)$、$(0,s,0)$、$(0,0,s)$，是边长 $s\\sqrt{2}$ 的等边三角形，面积为 $A(s)=\\dfrac{\\sqrt{3}}{2}s^{2}$. 当 $1\\le s\\le2$ 时，截面是大三角形去掉三个边长为 $(s-1)\\sqrt{2}$ 的等边角三角形，故</p>\n$$\nA(s)=\\frac{\\sqrt{3}}{2}\\bigl[s^{2}-3(s-1)^{2}\\bigr]\n$$\n<p>当 $2\\le s\\le3$ 时，关于正方体中心作中心对称可得 $A(s)=A(3-s)$，因此只需研究前两个区间. 在 $[1,2]$ 上 $A'(s)=\\dfrac{\\sqrt{3}}{2}(-4s+6)$，所以该区间的最大值在 $s=\\dfrac{3}{2}$ 取得；比较端点可知它也大于 $[0,1]$ 上的最大值. 于是</p>\n$$\nA\\left(\\frac{3}{2}\\right)=\\frac{\\sqrt{3}}{2}\\left[\\frac{9}{4}-3\\left(\\frac{1}{2}\\right)^{2}\\right]=\\frac{3\\sqrt{3}}{4}\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +324,38 @@
         {
           "num": 13,
           "body": "若 $x$，$y$ 满足约束条件 $\\begin{cases}x-2y-2\\le0,\\\\  x-y+1\\ge0,\\\\  y\\le0\\end{cases}$，则 $z=3x+2y$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "6",
-          "solution": "<p>由约束条件得 $x\\le2y+2$，且 $x\\ge y-1$、$y\\le0$. 对固定的 $y$，目标函数 $z=3x+2y$ 随 $x$ 增大，所以要使 $z$ 最大，应取上界 $x=2y+2$. 该上界与下界有公共可行点的条件为 $y-1\\le2y+2$，即 $y\\ge-3$，故可行的 $y$ 满足 $-3\\le y\\le0$.</p><p>代入 $x=2y+2$，得 $z=3(2y+2)+2y=8y+6$. 在 $[-3,0]$ 上该式随 $y$ 增大而增大，因此最大值在 $y=0$ 时取得，此时 $x=2$，且三条约束均满足. 所以最大值为 $6$.</p>"
+          "solution": "<p>由约束条件得 $x\\le2y+2$，且 $x\\ge y-1$、$y\\le0$. 对固定的 $y$，目标函数 $z=3x+2y$ 随 $x$ 增大，所以要使 $z$ 最大，应取上界 $x=2y+2$. 该上界与下界有公共可行点的条件为 $y-1\\le2y+2$，即 $y\\ge-3$，故可行的 $y$ 满足 $-3\\le y\\le0$.</p><p>代入 $x=2y+2$，得 $z=3(2y+2)+2y=8y+6$. 在 $[-3,0]$ 上该式随 $y$ 增大而增大，因此最大值在 $y=0$ 时取得，此时 $x=2$，且三条约束均满足. 所以最大值为 $6$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "记 $S_{n}$ 为数列 $\\{a_{n}\\}$ 的前 $n$ 项和. 若 $S_{n}=2a_{n}+1$，则 $S_{6}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "-63",
-          "solution": "<p>当 $n=1$ 时，$S_{1}=a_{1}=2a_{1}+1$，所以 $a_{1}=-1$，即 $S_{1}=-1$. 对 $n\\ge2$，由 $a_{n}=S_{n}-S_{n-1}$ 及题设得</p>\n$$\nS_{n}=2(S_{n}-S_{n-1})+1\n$$\n<p>从而</p>\n$$\nS_{n}=2S_{n-1}-1\n$$\n<p>令 $T_{n}=S_{n}-1$，则 $T_{n}=2T_{n-1}$，且 $T_{1}=-2$. 因此</p><p>$T_{6}=-2\\cdot2^{5}=-64$，$S_{6}=T_{6}+1=-63$.</p>"
+          "solution": "<p>当 $n=1$ 时，$S_{1}=a_{1}=2a_{1}+1$，所以 $a_{1}=-1$，即 $S_{1}=-1$. 对 $n\\ge2$，由 $a_{n}=S_{n}-S_{n-1}$ 及题设得</p>\n$$\nS_{n}=2(S_{n}-S_{n-1})+1\n$$\n<p>从而</p>\n$$\nS_{n}=2S_{n-1}-1\n$$\n<p>令 $T_{n}=S_{n}-1$，则 $T_{n}=2T_{n-1}$，且 $T_{1}=-2$. 因此</p><p>$T_{6}=-2\\cdot2^{5}=-64$，$S_{6}=T_{6}+1=-63$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "从 $2\\text{ 位}$ 女生，$4\\text{ 位}$ 男生中选 $3\\text{ 人}$ 参加科技比赛，且至少有 $1\\text{ 位}$ 女生入选，则不同的选法共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{种}$.",
-          "choices": null,
+          "choices": [],
           "answer": "16",
-          "solution": "<p>按入选女生人数分类：</p>\n$$\n\\mathrm{C}_{2}^{1}\\mathrm{C}_{4}^{2}+\\mathrm{C}_{2}^{2}\\mathrm{C}_{4}^{1}  =2\\times6+1\\times4=16\n$$\n<p>因此不同的选法共有 $16$ 种.</p>"
+          "solution": "<p>按入选女生人数分类：</p>\n$$\n\\mathrm{C}_{2}^{1}\\mathrm{C}_{4}^{2}+\\mathrm{C}_{2}^{2}\\mathrm{C}_{4}^{1}  =2\\times6+1\\times4=16\n$$\n<p>因此不同的选法共有 $16$ 种.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "已知函数 $f(x)=2\\sin x+\\sin2x$，则 $f(x)$ 的最小值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-\\dfrac{3\\sqrt{3}}{2}$",
-          "solution": "<p>令 $c=\\cos x$，则</p>\n$$\nf'(x)=2\\cos x+2\\cos2x  =2\\bigl(c+2c^{2}-1\\bigr)=2(2c-1)(c+1)\n$$\n<p>所以极值点满足 $\\cos x=\\dfrac{1}{2}$ 或 $\\cos x=-1$. 当 $\\cos x=\\dfrac{1}{2}$ 时，$\\sin x=\\pm\\dfrac{\\sqrt{3}}{2}$，且</p>\n$$\nf(x)=2\\sin x+2\\sin x\\cos x=3\\sin x\n$$\n<p>其最小值为 $-\\dfrac{3\\sqrt{3}}{2}$. 当 $\\cos x=-1$ 时，$\\sin x=0$，函数值为 $0$. 因此 $f(x)$ 的最小值为</p>\n$$\n-\\frac{3\\sqrt{3}}{2}\n$$"
+          "choices": [],
+          "answer": "\\(-\\dfrac{3\\sqrt{3}}{2}\\)",
+          "solution": "<p>令 $c=\\cos x$，则</p>\n$$\nf'(x)=2\\cos x+2\\cos2x  =2\\bigl(c+2c^{2}-1\\bigr)=2(2c-1)(c+1)\n$$\n<p>所以极值点满足 $\\cos x=\\dfrac{1}{2}$ 或 $\\cos x=-1$. 当 $\\cos x=\\dfrac{1}{2}$ 时，$\\sin x=\\pm\\dfrac{\\sqrt{3}}{2}$，且</p>\n$$\nf(x)=2\\sin x+2\\sin x\\cos x=3\\sin x\n$$\n<p>其最小值为 $-\\dfrac{3\\sqrt{3}}{2}$. 当 $\\cos x=-1$ 时，$\\sin x=0$，函数值为 $0$. 因此 $f(x)$ 的最小值为</p>\n$$\n-\\frac{3\\sqrt{3}}{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,37 +365,47 @@
         {
           "num": 17,
           "body": "<p>在平面四边形 $ABCD$ 中，$\\angle ADC=90^{\\circ}$，$\\angle A=45^{\\circ}$，$AB=2$，$BD=5$.</p><ol class=\"enumerate\"><li><p>求 $\\cos\\angle ADB$；</p></li><li><p>若 $DC=2\\sqrt{2}$，求 $BC$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由题意，$\\angle DAB=45^{\\circ}$. 在 $\\triangle ABD$ 中，由正弦定理得</p>\n$$\n\\frac{AB}{\\sin\\angle ADB}=\\frac{BD}{\\sin\\angle DAB}\n$$\n<p>所以 $\\sin\\angle ADB=\\dfrac{2\\sin45^\\circ}{5}=\\dfrac{\\sqrt{2}}{5}$. 又因为 $BD>AB$，所以 $\\angle ADB<\\angle DAB=45^{\\circ}$，从而</p>\n$$\n\\cos\\angle ADB=\\sqrt{1-\\sin^{2}\\angle ADB}=\\sqrt{1-\\frac{2}{25}}=\\frac{\\sqrt{23}}{5}\n$$\n</li><li><p>因为 $\\angle ADC=90^{\\circ}$，所以 $\\angle BDC=90^{\\circ}-\\angle ADB$，从而</p>\n$$\n\\cos\\angle BDC=\\sin\\angle ADB=\\frac{\\sqrt{2}}{5}\n$$\n<p>在 $\\triangle BDC$ 中，由余弦定理得</p>\n$$\nBC^{2}=BD^{2}+DC^{2}-2\\cdot BD\\cdot DC\\cos\\angle BDC  =25+8-2\\cdot5\\cdot2\\sqrt{2}\\cdot\\frac{\\sqrt{2}}{5}=25\n$$\n<p>因为 $BC>0$，所以 $BC=5$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由题意，$\\angle DAB=45^{\\circ}$. 在 $\\triangle ABD$ 中，由正弦定理得</p>\n$$\n\\frac{AB}{\\sin\\angle ADB}=\\frac{BD}{\\sin\\angle DAB}\n$$\n<p>所以 $\\sin\\angle ADB=\\dfrac{2\\sin45^\\circ}{5}=\\dfrac{\\sqrt{2}}{5}$. 又因为 $BD>AB$，所以 $\\angle ADB<\\angle DAB=45^{\\circ}$，从而</p>\n$$\n\\cos\\angle ADB=\\sqrt{1-\\sin^{2}\\angle ADB}=\\sqrt{1-\\frac{2}{25}}=\\frac{\\sqrt{23}}{5}\n$$\n</li><li><p>因为 $\\angle ADC=90^{\\circ}$，所以 $\\angle BDC=90^{\\circ}-\\angle ADB$，从而</p>\n$$\n\\cos\\angle BDC=\\sin\\angle ADB=\\frac{\\sqrt{2}}{5}\n$$\n<p>在 $\\triangle BDC$ 中，由余弦定理得</p>\n$$\nBC^{2}=BD^{2}+DC^{2}-2\\cdot BD\\cdot DC\\cos\\angle BDC  =25+8-2\\cdot5\\cdot2\\sqrt{2}\\cdot\\frac{\\sqrt{2}}{5}=25\n$$\n<p>因为 $BC>0$，所以 $BC=5$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，四边形 $ABCD$ 为正方形，$E$，$F$ 分别为 $AD$，$BC$ 的中点，以 $DF$ 为折痕把 $\\triangle DFC$ 折起，使点 $C$ 到达点 $P$ 的位置，且 $PF\\perp BF$.</p><ol class=\"enumerate\"><li><p>证明：平面 $PEF\\perp$ 平面 $ABFD$；</p></li><li><p>求 $DP$ 与平面 $ABFD$ 所成角的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，四边形 $ABCD$ 为正方形，$E$，$F$ 分别为 $AD$，$BC$ 的中点，以 $DF$ 为折痕把 $\\triangle DFC$ 折起，使点 $C$ 到达点 $P$ 的位置，且 $PF\\perp BF$.</p><ol class=\"enumerate\"><li><p>证明：平面 $PEF\\perp$ 平面 $ABFD$；</p></li><li><p>求 $DP$ 与平面 $ABFD$ 所成角的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/national_paper_1_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为四边形 $ABCD$ 为正方形，且 $E$，$F$ 分别为 $AD$，$BC$ 的中点，所以 $EF\\parallel AB$，而 $AB\\perp BF$，从而 $EF\\perp BF$. 题设又给出 $PF\\perp BF$. 直线 $PF$ 与 $EF$ 相交于 $F$，且都在平面 $PEF$ 内，所以 $BF\\perp$ 平面 $PEF$. 又因为 $BF\\subset$ 平面 $ABFD$，故平面 $PEF\\perp$ 平面 $ABFD$.</p></li><li><p>取 $BF=1$ 为长度单位，则正方形边长为 $2$，且 $CF=1$. 折叠过程中点 $D$，$F$ 不动，点 $C$ 到达点 $P$，所以 $DP=DC=2$，$PF=CF=1$.</p><p>由（1）知平面 $PEF\\perp$ 平面 $ABFD$，而 $DE\\subset$ 平面 $ABFD$，$DE\\perp EF$，所以 $DE\\perp$ 平面 $PEF$，即 $DE\\perp PE$. 又 $DE=\\dfrac{AD}{2}=1$，在直角三角形 $DPE$ 中，</p>\n$$\nPE=\\sqrt{DP^{2}-DE^{2}}=\\sqrt{2^{2}-1^{2}}=\\sqrt{3}\n$$\n<p>由于 $PE^{2}+PF^{2}=3+1=4=EF^{2}$，所以 $\\angle EPF=90^{\\circ}$. 设 $PH\\perp EF$，垂足为 $H$，则 $PH$ 是直角三角形 $PEF$ 斜边 $EF$ 上的高，故</p><p>$PH=\\frac{PE\\cdot PF}{EF}=\\frac{\\sqrt{3}}{2}$，$EH=\\frac{PE^{2}}{EF}=\\frac{3}{2}$，$HF=\\frac{PF^{2}}{EF}=\\frac{1}{2}$.</p><p>以 $H$ 为原点，取 $\\overrightarrow{FB}$ 方向为 $x$ 轴正方向，取 $\\overrightarrow{HF}$ 方向为 $y$ 轴正方向，取垂直于平面 $ABFD$ 且指向 $P$ 的方向为 $z$ 轴正方向，则</p>\n$$\nD\\left(-1,-\\frac{3}{2},0\\right)\n$$\n<p>且 $P\\left(0,0,\\frac{\\sqrt{3}}{2}\\right)$. 因此</p>\n$$\n\\overrightarrow{DP}=\\left(1,\\frac{3}{2},\\frac{\\sqrt{3}}{2}\\right)\n$$\n<p>且 $|DP|=2$.</p><p>平面 $ABFD$ 的一个单位法向量为 $\\mathbf{n}=(0,0,1)$. 设 $DP$ 与平面 $ABFD$ 所成的角为 $\\theta$，则</p>\n$$\n\\sin\\theta=\\frac{|\\overrightarrow{DP}\\cdot\\mathbf{n}|}{|DP|}=\\frac{\\frac{\\sqrt{3}}{2}}{2}=\\frac{\\sqrt{3}}{4}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为四边形 $ABCD$ 为正方形，且 $E$，$F$ 分别为 $AD$，$BC$ 的中点，所以 $EF\\parallel AB$，而 $AB\\perp BF$，从而 $EF\\perp BF$. 题设又给出 $PF\\perp BF$. 直线 $PF$ 与 $EF$ 相交于 $F$，且都在平面 $PEF$ 内，所以 $BF\\perp$ 平面 $PEF$. 又因为 $BF\\subset$ 平面 $ABFD$，故平面 $PEF\\perp$ 平面 $ABFD$.</p></li><li><p>取 $BF=1$ 为长度单位，则正方形边长为 $2$，且 $CF=1$. 折叠过程中点 $D$，$F$ 不动，点 $C$ 到达点 $P$，所以 $DP=DC=2$，$PF=CF=1$.</p><p>由（1）知平面 $PEF\\perp$ 平面 $ABFD$，而 $DE\\subset$ 平面 $ABFD$，$DE\\perp EF$，所以 $DE\\perp$ 平面 $PEF$，即 $DE\\perp PE$. 又 $DE=\\dfrac{AD}{2}=1$，在直角三角形 $DPE$ 中，</p>\n$$\nPE=\\sqrt{DP^{2}-DE^{2}}=\\sqrt{2^{2}-1^{2}}=\\sqrt{3}\n$$\n<p>由于 $PE^{2}+PF^{2}=3+1=4=EF^{2}$，所以 $\\angle EPF=90^{\\circ}$. 设 $PH\\perp EF$，垂足为 $H$，则 $PH$ 是直角三角形 $PEF$ 斜边 $EF$ 上的高，故</p><p>$PH=\\frac{PE\\cdot PF}{EF}=\\frac{\\sqrt{3}}{2}$，$EH=\\frac{PE^{2}}{EF}=\\frac{3}{2}$，$HF=\\frac{PF^{2}}{EF}=\\frac{1}{2}$.</p><p>以 $H$ 为原点，取 $\\overrightarrow{FB}$ 方向为 $x$ 轴正方向，取 $\\overrightarrow{HF}$ 方向为 $y$ 轴正方向，取垂直于平面 $ABFD$ 且指向 $P$ 的方向为 $z$ 轴正方向，则</p>\n$$\nD\\left(-1,-\\frac{3}{2},0\\right)\n$$\n<p>且 $P\\left(0,0,\\frac{\\sqrt{3}}{2}\\right)$. 因此</p>\n$$\n\\overrightarrow{DP}=\\left(1,\\frac{3}{2},\\frac{\\sqrt{3}}{2}\\right)\n$$\n<p>且 $|DP|=2$.</p><p>平面 $ABFD$ 的一个单位法向量为 $\\mathbf{n}=(0,0,1)$. 设 $DP$ 与平面 $ABFD$ 所成的角为 $\\theta$，则</p>\n$$\n\\sin\\theta=\\frac{|\\overrightarrow{DP}\\cdot\\mathbf{n}|}{|DP|}=\\frac{\\frac{\\sqrt{3}}{2}}{2}=\\frac{\\sqrt{3}}{4}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>设椭圆 $C:\\frac{x^{2}}{2}+y^{2}=1$ 的右焦点为 $F$，过 $F$ 的直线 $l$ 与 $C$ 交于 $A$，$B$ 两点，点 $M$ 的坐标为 $(2,0)$.</p><ol class=\"enumerate\"><li><p>当 $l$ 与 $x$ 轴垂直时，求直线 $AM$ 的方程；</p></li><li><p>设 $O$ 为坐标原点，证明：$\\angle OMA=\\angle OMB$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>椭圆的长半轴平方为 $2$，短半轴平方为 $1$，所以焦距的一半为 $c=\\sqrt{2-1}=1$，从而右焦点为 $F=(1,0)$. 当直线 $l$ 与 $x$ 轴垂直时，$l$ 的方程为 $x=1$. 代入椭圆方程得</p>\n$$\n\\frac{1}{2}+y^{2}=1\n$$\n<p>所以 $A$，$B$ 为 $\\left(1,\\dfrac{\\sqrt{2}}{2}\\right)$，$\\left(1,-\\dfrac{\\sqrt{2}}{2}\\right)$. 因此直线 $AM$ 的方程有两种可能：</p>\n$$\ny=-\\frac{\\sqrt{2}}{2}(x-2) \\text{或}  y=\\frac{\\sqrt{2}}{2}(x-2)\n$$\n</li><li><p>先考虑直线 $l$ 为 $x$ 轴的情形，此时 $A$，$B$ 都在 $x$ 轴上，所以 $\\angle OMA=\\angle OMB=0^{\\circ}$.</p><p>当 $l$ 与 $x$ 轴垂直时，由第（1）问可知，直线 $AM$，$BM$ 的斜率绝对值相等，且 $M$，$O$ 的连线为水平线，所以 $\\angle OMA=\\angle OMB$.</p><p>下面设 $l$ 既不与 $x$ 轴重合，也不与其垂直，记其斜率为 $k$，则 $k\\ne0$，且 $l$ 的方程为 $y=k(x-1)$. 设 $A$，$B$ 的横坐标分别为 $x_{1}$，$x_{2}$，则 $x_{1}$，$x_{2}$ 是方程</p>\n$$\n\\frac{x^{2}}{2}+k^{2}(x-1)^{2}=1\n$$\n<p>的两个根，即</p>\n$$\n(1+2k^{2})x^{2}-4k^{2}x+2k^{2}-2=0\n$$\n<p>由韦达定理得</p><p>$x_{1}+x_{2}=\\frac{4k^{2}}{1+2k^{2}}$，$x_{1}x_{2}=\\frac{2k^{2}-2}{1+2k^{2}}$.</p><p>因为椭圆上点的横坐标满足 $|x_{i}|\\le\\sqrt{2}<2$，所以直线 $MA$，$MB$ 的斜率分别为</p><p>$m_{1}=\\frac{k(x_{1}-1)}{x_{1}-2}$，$m_{2}=\\frac{k(x_{2}-1)}{x_{2}-2}$.</p><p>于是</p>\n$$\nm_{1}+m_{2}=\\frac{k\\left[(x_{1}-1)(x_{2}-2)+(x_{2}-1)(x_{1}-2)\\right]}{(x_{1}-2)(x_{2}-2)}\n$$\n<p>其中</p>\n$$\n\\begin{aligned}&(x_{1}-1)(x_{2}-2)+(x_{2}-1)(x_{1}-2)\\\\&=2x_{1}x_{2}-3(x_{1}+x_{2})+4\\\\&=\\frac{4k^2-4-12k^2+4+8k^2}{1+2k^2}=0.\\end{aligned}\n$$\n<p>故 $m_{1}=-m_{2}$. 又因为 $x_{1}<2$，$x_{2}<2$，射线 $MA$，$MB$ 都指向左侧，因而它们与射线 $MO$ 所成角的正切值分别为 $|m_{1}|$，$|m_{2}|$. 由 $|m_{1}|=|m_{2}|$，得 $\\angle OMA=\\angle OMB$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>椭圆的长半轴平方为 $2$，短半轴平方为 $1$，所以焦距的一半为 $c=\\sqrt{2-1}=1$，从而右焦点为 $F=(1,0)$. 当直线 $l$ 与 $x$ 轴垂直时，$l$ 的方程为 $x=1$. 代入椭圆方程得</p>\n$$\n\\frac{1}{2}+y^{2}=1\n$$\n<p>所以 $A$，$B$ 为 $\\left(1,\\dfrac{\\sqrt{2}}{2}\\right)$，$\\left(1,-\\dfrac{\\sqrt{2}}{2}\\right)$. 因此直线 $AM$ 的方程有两种可能：</p>\n$$\ny=-\\frac{\\sqrt{2}}{2}(x-2) \\text{或}  y=\\frac{\\sqrt{2}}{2}(x-2)\n$$\n</li><li><p>先考虑直线 $l$ 为 $x$ 轴的情形，此时 $A$，$B$ 都在 $x$ 轴上，所以 $\\angle OMA=\\angle OMB=0^{\\circ}$.</p><p>当 $l$ 与 $x$ 轴垂直时，由第（1）问可知，直线 $AM$，$BM$ 的斜率绝对值相等，且 $M$，$O$ 的连线为水平线，所以 $\\angle OMA=\\angle OMB$.</p><p>下面设 $l$ 既不与 $x$ 轴重合，也不与其垂直，记其斜率为 $k$，则 $k\\ne0$，且 $l$ 的方程为 $y=k(x-1)$. 设 $A$，$B$ 的横坐标分别为 $x_{1}$，$x_{2}$，则 $x_{1}$，$x_{2}$ 是方程</p>\n$$\n\\frac{x^{2}}{2}+k^{2}(x-1)^{2}=1\n$$\n<p>的两个根，即</p>\n$$\n(1+2k^{2})x^{2}-4k^{2}x+2k^{2}-2=0\n$$\n<p>由韦达定理得</p><p>$x_{1}+x_{2}=\\frac{4k^{2}}{1+2k^{2}}$，$x_{1}x_{2}=\\frac{2k^{2}-2}{1+2k^{2}}$.</p><p>因为椭圆上点的横坐标满足 $|x_{i}|\\le\\sqrt{2}<2$，所以直线 $MA$，$MB$ 的斜率分别为</p><p>$m_{1}=\\frac{k(x_{1}-1)}{x_{1}-2}$，$m_{2}=\\frac{k(x_{2}-1)}{x_{2}-2}$.</p><p>于是</p>\n$$\nm_{1}+m_{2}=\\frac{k\\left[(x_{1}-1)(x_{2}-2)+(x_{2}-1)(x_{1}-2)\\right]}{(x_{1}-2)(x_{2}-2)}\n$$\n<p>其中</p>\n$$\n\\begin{aligned}&(x_{1}-1)(x_{2}-2)+(x_{2}-1)(x_{1}-2)\\\\&=2x_{1}x_{2}-3(x_{1}+x_{2})+4\\\\&=\\frac{4k^2-4-12k^2+4+8k^2}{1+2k^2}=0.\\end{aligned}\n$$\n<p>故 $m_{1}=-m_{2}$. 又因为 $x_{1}<2$，$x_{2}<2$，射线 $MA$，$MB$ 都指向左侧，因而它们与射线 $MO$ 所成角的正切值分别为 $|m_{1}|$，$|m_{2}|$. 由 $|m_{1}|=|m_{2}|$，得 $\\angle OMA=\\angle OMB$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>某工厂的某种产品成箱包装，每箱 $200\\text{ 件}$，每一箱产品在交付用户之前要对产品作检验，如检验出不合格品，则更换为合格品. 检验时，先从这箱产品中任取 $20\\text{ 件}$ 作检验，再根据检验结果决定是否对余下的所有产品作检验. 设每件产品为不合格品的概率都为 $p$（$0<p<1$），且各件产品是否为不合格品相互独立.</p><ol class=\"enumerate\"><li><p>记 $20\\text{ 件}$ 产品中恰有 $2\\text{ 件}$ 不合格品的概率为 $f(p)$，求 $f(p)$ 的最大值点 $p_{0}$；</p></li><li><p>现对一箱产品检验了 $20\\text{ 件}$，结果恰有 $2\\text{ 件}$ 不合格品，以（1）中确定的 $p_{0}$ 作为 $p$ 的值. 已知每件产品的检验费用为 $2\\text{ 元}$，若有不合格品进入用户手中，则工厂要对每件不合格品支付 $25\\text{ 元}$ 的赔偿费用.</p><p></p><ol class=\"enumerate\"><li><p>若不对该箱余下的产品作检验，这一箱产品的检验费用与赔偿费用的和记为 $X$，求 $EX$；</p></li><li><p>以检验费用与赔偿费用和的期望值为决策依据，是否该对这箱余下的所有产品作检验？</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>令前 $20\\text{ 件}$ 产品中不合格品的件数为随机变量，则恰有 $2\\text{ 件}$ 不合格品的概率为</p>\n$$\nf(p)=\\mathrm{C}_{20}^{2}p^{2}(1-p)^{18}\n$$\n<p>对 $f(p)$ 求导，得</p>\n$$\nf'(p)=\\mathrm{C}_{20}^{2}p(1-p)^{17}\\left[2(1-p)-18p\\right]=2\\mathrm{C}_{20}^{2}p(1-p)^{17}(1-10p)\n$$\n<p>当 $0<p<\\dfrac1{10}$ 时，$f'(p)>0$；当 $\\dfrac1{10}<p<1$ 时，$f'(p)<0$. 所以 $f(p)$ 先增后减，最大值点为</p>\n$$\np_{0}=\\frac{1}{10}\n$$\n</li><li><p>由（1）知 $p=p_{0}=\\dfrac1{10}$.</p><p></p><ol class=\"enumerate\"><li><p>设余下的 $180\\text{ 件}$ 产品中不合格品的件数为随机变量 $Y$，则</p>\n$$\nY\\sim B\\left(180,\\frac{1}{10}\\right)\n$$\n<p>且 $EY=180\\times\\frac{1}{10}=18$.</p><p>若不检验余下产品，前 $20\\text{ 件}$ 的检验费用为 $20\\times2=40\\text{ 元}$，余下产品中每件不合格品产生 $25\\text{ 元}$ 的赔偿费用，因此</p>\n$$\nX=40+25Y\n$$\n<p>从而</p>\n$$\nEX=40+25EY=40+25\\times18=490\\text{ 元}\n$$\n</li><li><p>若检验余下的全部 $180\\text{ 件}$ 产品，则整箱产品共检验 $200\\text{ 件}$，检验费用为</p>\n$$\n200\\times2=400\\text{ 元}\n$$\n<p>检验出的不合格品会被更换为合格品，所以不会产生赔偿费用. 因为 $400<490$，所以应该对这箱产品余下的所有产品作检验.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>令前 $20\\text{ 件}$ 产品中不合格品的件数为随机变量，则恰有 $2\\text{ 件}$ 不合格品的概率为</p>\n$$\nf(p)=\\mathrm{C}_{20}^{2}p^{2}(1-p)^{18}\n$$\n<p>对 $f(p)$ 求导，得</p>\n$$\nf'(p)=\\mathrm{C}_{20}^{2}p(1-p)^{17}\\left[2(1-p)-18p\\right]=2\\mathrm{C}_{20}^{2}p(1-p)^{17}(1-10p)\n$$\n<p>当 $0<p<\\dfrac1{10}$ 时，$f'(p)>0$；当 $\\dfrac1{10}<p<1$ 时，$f'(p)<0$. 所以 $f(p)$ 先增后减，最大值点为</p>\n$$\np_{0}=\\frac{1}{10}\n$$\n</li><li><p>由（1）知 $p=p_{0}=\\dfrac1{10}$.</p><p></p><ol class=\"enumerate\"><li><p>设余下的 $180\\text{ 件}$ 产品中不合格品的件数为随机变量 $Y$，则</p>\n$$\nY\\sim B\\left(180,\\frac{1}{10}\\right)\n$$\n<p>且 $EY=180\\times\\frac{1}{10}=18$.</p><p>若不检验余下产品，前 $20\\text{ 件}$ 的检验费用为 $20\\times2=40\\text{ 元}$，余下产品中每件不合格品产生 $25\\text{ 元}$ 的赔偿费用，因此</p>\n$$\nX=40+25Y\n$$\n<p>从而</p>\n$$\nEX=40+25EY=40+25\\times18=490\\text{ 元}\n$$\n</li><li><p>若检验余下的全部 $180\\text{ 件}$ 产品，则整箱产品共检验 $200\\text{ 件}$，检验费用为</p>\n$$\n200\\times2=400\\text{ 元}\n$$\n<p>检验出的不合格品会被更换为合格品，所以不会产生赔偿费用. 因为 $400<490$，所以应该对这箱产品余下的所有产品作检验.</p></li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知函数 $f(x)=\\frac{1}{x}-x+a\\ln x$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>若 $f(x)$ 存在两个极值点 $x_{1}$，$x_{2}$，证明：$\\dfrac{f(x_1)-f(x_2)}{x_1-x_2}<a-2$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=-\\frac{1}{x^{2}}-1+\\frac{a}{x}=\\frac{-x^{2}+ax-1}{x^{2}}=-\\frac{x^{2}-ax+1}{x^{2}}\n$$\n<p>当 $a\\le2$ 时，$x^{2}-ax+1\\ge0$，所以 $f'(x)\\le0$，函数 $f(x)$ 在 $(0,+\\infty)$ 上单调递减. 当 $a=2$ 时，$f'(1)=0$，但导数在其余点均为负，函数仍在整个定义域上单调递减.</p><p>当 $a>2$ 时，令 $f'(x)=0$，得</p>\n$$\nx^{2}-ax+1=0\n$$\n<p>记</p><p>$\\alpha=\\frac{a-\\sqrt{a^{2}-4}}{2}$，$\\beta=\\frac{a+\\sqrt{a^{2}-4}}{2}$.</p><p>则 $0<\\alpha<\\beta$，且 $\\alpha\\beta=1$. 因为</p>\n$$\n-x^{2}+ax-1=-(x-\\alpha)(x-\\beta)\n$$\n<p>所以 $f(x)$ 在 $(0,\\alpha)$ 上单调递减，在 $(\\alpha,\\beta)$ 上单调递增，在 $(\\beta,+\\infty)$ 上单调递减.</p></li><li><p>函数有两个极值点时必有 $a>2$. 不妨设两个极值点满足 $0<x_{1}<x_{2}$，由它们是方程 $x^{2}-ax+1=0$ 的两个根，得</p>\n$$\nx_{1}+x_{2}=a\n$$\n<p>且 $x_{1}x_{2}=1$.</p><p>特别地，令 $t=x_{2}$，则 $t>1$，且 $x_{1}=\\dfrac{1}{t}$. 由函数表达式得</p>\n$$\n\\begin{aligned}\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}\n\n&=\\frac{\\dfrac1{x_1}-\\dfrac1{x_2}-(x_{1}-x_{2})+a\\ln\\dfrac{x_1}{x_2}}{x_{1}-x_{2}}\\\\\n\n&=-2+a\\frac{\\ln\\dfrac{x_2}{x_1}}{x_{2}-x_{1}}\\\\\n\n&=-2+a\\frac{2\\ln t}{t-\\dfrac{1}{t}}.\\end{aligned}\n$$\n<p>设 $h(t)=t-\\dfrac{1}{t}-2\\ln t$，则</p><p>$h'(t)=1+\\frac{1}{t^{2}}-\\frac{2}{t}=\\frac{(t-1)^{2}}{t^{2}}>0$（$t>1$），</p><p>且 $h(1)=0$.</p><p>所以当 $t>1$ 时，$2\\ln t<t-\\dfrac{1}{t}$，即</p>\n$$\n\\frac{2\\ln t}{t-\\dfrac{1}{t}}<1\n$$\n<p>又因为 $a>2>0$，从而</p>\n$$\n\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}=-2+a\\frac{2\\ln t}{t-\\dfrac{1}{t}}<a-2\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=-\\frac{1}{x^{2}}-1+\\frac{a}{x}=\\frac{-x^{2}+ax-1}{x^{2}}=-\\frac{x^{2}-ax+1}{x^{2}}\n$$\n<p>当 $a\\le2$ 时，$x^{2}-ax+1\\ge0$，所以 $f'(x)\\le0$，函数 $f(x)$ 在 $(0,+\\infty)$ 上单调递减. 当 $a=2$ 时，$f'(1)=0$，但导数在其余点均为负，函数仍在整个定义域上单调递减.</p><p>当 $a>2$ 时，令 $f'(x)=0$，得</p>\n$$\nx^{2}-ax+1=0\n$$\n<p>记</p><p>$\\alpha=\\frac{a-\\sqrt{a^{2}-4}}{2}$，$\\beta=\\frac{a+\\sqrt{a^{2}-4}}{2}$.</p><p>则 $0<\\alpha<\\beta$，且 $\\alpha\\beta=1$. 因为</p>\n$$\n-x^{2}+ax-1=-(x-\\alpha)(x-\\beta)\n$$\n<p>所以 $f(x)$ 在 $(0,\\alpha)$ 上单调递减，在 $(\\alpha,\\beta)$ 上单调递增，在 $(\\beta,+\\infty)$ 上单调递减.</p></li><li><p>函数有两个极值点时必有 $a>2$. 不妨设两个极值点满足 $0<x_{1}<x_{2}$，由它们是方程 $x^{2}-ax+1=0$ 的两个根，得</p>\n$$\nx_{1}+x_{2}=a\n$$\n<p>且 $x_{1}x_{2}=1$.</p><p>特别地，令 $t=x_{2}$，则 $t>1$，且 $x_{1}=\\dfrac{1}{t}$. 由函数表达式得</p>\n$$\n\\begin{aligned}\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}\n\n&=\\frac{\\dfrac1{x_1}-\\dfrac1{x_2}-(x_{1}-x_{2})+a\\ln\\dfrac{x_1}{x_2}}{x_{1}-x_{2}}\\\\\n\n&=-2+a\\frac{\\ln\\dfrac{x_2}{x_1}}{x_{2}-x_{1}}\\\\\n\n&=-2+a\\frac{2\\ln t}{t-\\dfrac{1}{t}}.\\end{aligned}\n$$\n<p>设 $h(t)=t-\\dfrac{1}{t}-2\\ln t$，则</p><p>$h'(t)=1+\\frac{1}{t^{2}}-\\frac{2}{t}=\\frac{(t-1)^{2}}{t^{2}}>0$（$t>1$），</p><p>且 $h(1)=0$.</p><p>所以当 $t>1$ 时，$2\\ln t<t-\\dfrac{1}{t}$，即</p>\n$$\n\\frac{2\\ln t}{t-\\dfrac{1}{t}}<1\n$$\n<p>又因为 $a>2>0$，从而</p>\n$$\n\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}=-2+a\\frac{2\\ln t}{t-\\dfrac{1}{t}}<a-2\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -232,16 +415,20 @@
         {
           "num": 22,
           "body": "<p>在直角坐标系 $xOy$ 中，曲线 $C_{1}$ 的方程为 $y=k\\lvert x\\rvert+2$. 以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系，曲线 $C_{2}$ 的极坐标方程为 $\\rho^{2}+2\\rho\\cos\\theta-3=0$.</p><ol class=\"enumerate\"><li><p>求 $C_{2}$ 的直角坐标方程；</p></li><li><p>若 $C_{1}$ 与 $C_{2}$ 有且仅有三个公共点，求 $C_{1}$ 的方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由极坐标与直角坐标的关系 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，$\\rho^{2}=x^{2}+y^{2}$，原方程化为</p>\n$$\nx^{2}+y^{2}+2x-3=0\n$$\n<p>即</p>\n$$\n(x+1)^{2}+y^{2}=4\n$$\n</li><li><p>曲线 $C_{2}$ 是圆心为 $G=(-1,0)$，半径为 $2$ 的圆. 若 $k>0$，则 $C_{1}$ 上的点满足 $y\\ge2$，且等号只在 $x=0$ 处取得；圆 $C_{2}$ 的最高点为 $(-1,2)$，所以此时没有公共点. 若 $k=0$，则 $C_{1}$ 为直线 $y=2$，与圆有两个公共点. 这两种情形都不满足恰有三个公共点，故必须有 $k<0$.</p><p>当 $k<0$ 时，先看 $C_{1}$ 的左侧射线 $x\\le0$，其方程为 $y=-kx+2$. 联立圆的方程，得</p>\n$$\n(1+k^{2})x^{2}+(2-4k)x+1=0\n$$\n<p>由于</p>\n$$\n\\Delta=(2-4k)^{2}-4(1+k^{2})=4k(3k-4)>0\n$$\n<p>且两根之和为 $-\\dfrac{2-4k}{1+k^2}<0$，两根之积为 $\\dfrac1{1+k^2}>0$，所以两根均为负数. 因此左侧射线与圆恰有两个公共点. 右侧射线在 $x=0$ 与 $x\\to+\\infty$ 时均在圆外，故一个交点对应相切、两个对应相交；总数为3时必相切.</p><p>当 $x\\ge0$ 时，$C_{1}$ 的右侧射线为 $y=kx+2$，其所在直线可写为 $kx-y+2=0$. 圆心到该直线的距离等于半径，故</p>\n$$\n\\frac{|2-k|}{\\sqrt{1+k^{2}}}=2\n$$\n<p>因为 $k<0$，所以 $2-k>0$，从而</p>\n$$\n(2-k)^{2}=4(1+k^{2})\n$$\n<p>解得 $k=0$ 或 $k=-\\dfrac{4}{3}$. 结合 $k<0$，得 $k=-\\dfrac{4}{3}$. 此时切点为 $\\left(\\dfrac{3}{5},\\dfrac{6}{5}\\right)$，确实在右侧射线上.</p><p>因此两条射线一共恰有三个公共点，故 $C_{1}$ 的方程为</p>\n$$\ny=-\\frac{4}{3}|x|+2\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由极坐标与直角坐标的关系 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，$\\rho^{2}=x^{2}+y^{2}$，原方程化为</p>\n$$\nx^{2}+y^{2}+2x-3=0\n$$\n<p>即</p>\n$$\n(x+1)^{2}+y^{2}=4\n$$\n</li><li><p>曲线 $C_{2}$ 是圆心为 $G=(-1,0)$，半径为 $2$ 的圆. 若 $k>0$，则 $C_{1}$ 上的点满足 $y\\ge2$，且等号只在 $x=0$ 处取得；圆 $C_{2}$ 的最高点为 $(-1,2)$，所以此时没有公共点. 若 $k=0$，则 $C_{1}$ 为直线 $y=2$，与圆有两个公共点. 这两种情形都不满足恰有三个公共点，故必须有 $k<0$.</p><p>当 $k<0$ 时，先看 $C_{1}$ 的左侧射线 $x\\le0$，其方程为 $y=-kx+2$. 联立圆的方程，得</p>\n$$\n(1+k^{2})x^{2}+(2-4k)x+1=0\n$$\n<p>由于</p>\n$$\n\\Delta=(2-4k)^{2}-4(1+k^{2})=4k(3k-4)>0\n$$\n<p>且两根之和为 $-\\dfrac{2-4k}{1+k^2}<0$，两根之积为 $\\dfrac1{1+k^2}>0$，所以两根均为负数. 因此左侧射线与圆恰有两个公共点. 右侧射线在 $x=0$ 与 $x\\to+\\infty$ 时均在圆外，故一个交点对应相切、两个对应相交；总数为3时必相切.</p><p>当 $x\\ge0$ 时，$C_{1}$ 的右侧射线为 $y=kx+2$，其所在直线可写为 $kx-y+2=0$. 圆心到该直线的距离等于半径，故</p>\n$$\n\\frac{|2-k|}{\\sqrt{1+k^{2}}}=2\n$$\n<p>因为 $k<0$，所以 $2-k>0$，从而</p>\n$$\n(2-k)^{2}=4(1+k^{2})\n$$\n<p>解得 $k=0$ 或 $k=-\\dfrac{4}{3}$. 结合 $k<0$，得 $k=-\\dfrac{4}{3}$. 此时切点为 $\\left(\\dfrac{3}{5},\\dfrac{6}{5}\\right)$，确实在右侧射线上.</p><p>因此两条射线一共恰有三个公共点，故 $C_{1}$ 的方程为</p>\n$$\ny=-\\frac{4}{3}|x|+2\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "<p>已知 $f(x)=\\lvert x+1\\rvert-\\lvert ax-1\\rvert$.</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，求不等式 $f(x)>1$ 的解集；</p></li><li><p>若 $x\\in(0,1)$ 时不等式 $f(x)>x$ 成立，求 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，$f(x)=|x+1|-|x-1|$. 分三种情况讨论：</p>\n$$\nf(x)=  \\begin{cases}-2,&x<-1\\\\  2x,&-1\\le x<1\\\\  2,&x\\ge1\\end{cases}\n$$\n<p>当 $x<-1$ 时，$f(x)=-2$，不满足 $f(x)>1$；当 $-1\\le x<1$ 时，$f(x)>1$ 等价于 $2x>1$，即 $x>\\dfrac{1}{2}$；当 $x\\ge1$ 时，$f(x)=2>1$. 因此不等式的解集为</p>\n$$\n\\left(\\frac{1}{2},+\\infty\\right)\n$$\n</li><li><p>因为 $x\\in(0,1)$，所以 $|x+1|=x+1$. 不等式 $f(x)>x$ 等价于</p>\n$$\nx+1-|ax-1|>x\n$$\n<p>即</p>\n$$\n|ax-1|<1\n$$\n<p>这又等价于</p>\n$$\n-1<ax-1<1\n$$\n<p>即</p>\n$$\n0<ax<2\n$$\n<p>要使上式对一切 $x\\in(0,1)$ 成立，首先必须有 $a>0$. 当 $a>0$ 时，$0<ax$ 对所有 $x\\in(0,1)$ 自动成立；而 $ax<2$ 对所有 $x<1$ 成立的充要条件是 $a\\le2$. 其中 $a=2$ 时有 $2x<2$，仍对所有 $x\\in(0,1)$ 成立. 因此 $a$ 的取值范围为</p>\n$$\n(0,2]\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，$f(x)=|x+1|-|x-1|$. 分三种情况讨论：</p>\n$$\nf(x)=  \\begin{cases}-2,&x<-1\\\\  2x,&-1\\le x<1\\\\  2,&x\\ge1\\end{cases}\n$$\n<p>当 $x<-1$ 时，$f(x)=-2$，不满足 $f(x)>1$；当 $-1\\le x<1$ 时，$f(x)>1$ 等价于 $2x>1$，即 $x>\\dfrac{1}{2}$；当 $x\\ge1$ 时，$f(x)=2>1$. 因此不等式的解集为</p>\n$$\n\\left(\\frac{1}{2},+\\infty\\right)\n$$\n</li><li><p>因为 $x\\in(0,1)$，所以 $|x+1|=x+1$. 不等式 $f(x)>x$ 等价于</p>\n$$\nx+1-|ax-1|>x\n$$\n<p>即</p>\n$$\n|ax-1|<1\n$$\n<p>这又等价于</p>\n$$\n-1<ax-1<1\n$$\n<p>即</p>\n$$\n0<ax<2\n$$\n<p>要使上式对一切 $x\\in(0,1)$ 成立，首先必须有 $a>0$. 当 $a>0$ 时，$0<ax$ 对所有 $x\\in(0,1)$ 自动成立；而 $ax<2$ 对所有 $x<1$ 成立的充要条件是 $a\\le2$. 其中 $a=2$ 时有 $2x<2$，仍对所有 $x\\in(0,1)$ 成立. 因此 $a$ 的取值范围为</p>\n$$\n(0,2]\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -12,7 +12,7 @@
 
 #problem(1)[
 样本数据 #mi(`2`)，#mi(`8`)，#mi(`14`)，#mi(`16`)，#mi(`20`) 的平均数为（ ）
-  #choices([#mi(`8`)], [#mi(`9`)], [#mi(`12`)], [#mi(`18`)], cols: 2)
+  #choices([#mi(`8`)], [#mi(`9`)], [#mi(`12`)], [#mi(`18`)], cols: 4)
 ]
 
 #answer([C])
@@ -99,7 +99,7 @@
 
 #problem(6)[
 设抛物线 #mi(`C:y^{2}=2px`)（#mi(`p>0`)）的焦点为 #mi(`F`)，点 #mi(`A`) 在 #mi(`C`) 上，过 #mi(`A`) 作 #mi(`C`) 的准线的垂线，垂足为 #mi(`B`). 若直线 #mi(`BF`) 的方程为 #mi(`y=-2x+2`)，则 #mi(`|AF|=`)（ ）
-  #choices([#mi(`3`)], [#mi(`4`)], [#mi(`5`)], [#mi(`6`)], cols: 2)
+  #choices([#mi(`3`)], [#mi(`4`)], [#mi(`5`)], [#mi(`6`)], cols: 4)
 ]
 
 #answer([C])
@@ -111,7 +111,9 @@
 
 其准线方程为 #mi(`x=-1`).
 
-[max width=3.8cm]img/2025/national_paper_2/q6_solution_fig1.png
+ 
+#align(center)[#image("/papers/2025/img/national_paper_2/q6_solution_fig1.png", width: 28%)]
+ 
 
 因为点 #mi(`B`) 在准线 #mi(`x=-1`) 上，又点 #mi(`B`) 在直线 #mi(`BF:y=-2x+2`) 上，所以
 
@@ -136,7 +138,7 @@
 
 #problem(7)[
 记 #mi(`S_{n}`) 为等差数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和，若 #mi(`S_{3}=6`)，#mi(`S_{5}=-5`)，则 #mi(`S_{6}=`)（ ）
-  #choices([#mi(`-20`)], [#mi(`-15`)], [#mi(`-10`)], [#mi(`-5`)], cols: 2)
+  #choices([#mi(`-20`)], [#mi(`-15`)], [#mi(`-10`)], [#mi(`-5`)], cols: 4)
 ]
 
 #answer([B])
@@ -225,7 +227,7 @@ S_{5}=\frac{a_{1}(1-q^{5})}{1-q}=\frac{4\left(1-\frac{1}{32}\right)}{1-\frac{1}{
 
 #problem(10)[
 已知 #mi(`f(x)`) 是定义在 #mi(`\mathbb{R}`) 上的奇函数，且当 #mi(`x>0`) 时，#mi(`f(x)=(x^{2}-3)\mathrm{e}^{x}+2`)，则（ ）
-  #choices([#mi(`f(0)=0`)], [当 #mi(`x<0`) 时，#mi(`f(x)=-(x^{2}-3)\mathrm{e}^{-x}-2`)], [#mi(`f(x)\ge 2`) 当且仅当 #mi(`x\ge \sqrt{3}`)], [#mi(`x=-1`) 是 #mi(`f(x)`) 的极大值点], cols: 2)
+  #choices([#mi(`f(0)=0`)], [当 #mi(`x<0`) 时，#mi(`f(x)=-(x^{2}-3)\mathrm{e}^{-x}-2`)], [#mi(`f(x)\ge 2`) 当且仅当 #mi(`x\ge \sqrt{3}`)], [#mi(`x=-1`) 是 #mi(`f(x)`) 的极大值点], cols: 1)
 ]
 
 #answer([ABD])
@@ -266,7 +268,7 @@ D：当 #mi(`x<0`) 时，
 
 #problem(11)[
 双曲线 #mi(`C:\frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1`)（#mi(`a>0`)，#mi(`b>0`)）的左，右焦点分别是 #mi(`F_{1}`)，#mi(`F_{2}`)，左，右顶点分别为 #mi(`A_{1}`)，#mi(`A_{2}`). 以 #mi(`F_{1}F_{2}`) 为直径的圆与 #mi(`C`) 的一条渐近线交于 #mi(`M`)，#mi(`N`) 两点，且 #mi(`\angle NA_{1}M=\frac{5\pi}{6}`)，则（ ）
-  #choices([#mi(`\angle A_{1}MA_{2}=\frac{\pi}{6}`)], [#mi(`|MA_{1}|=2|MA_{2}|`)], [#mi(`C`) 的离心率为 #mi(`\sqrt{13}`)], [当 #mi(`a=\sqrt{2}`) 时，四边形 #mi(`NA_{1}MA_{2}`) 的面积为 #mi(`8\sqrt{3}`)], cols: 2)
+  #choices([#mi(`\angle A_{1}MA_{2}=\frac{\pi}{6}`)], [#mi(`|MA_{1}|=2|MA_{2}|`)], [#mi(`C`) 的离心率为 #mi(`\sqrt{13}`)], [当 #mi(`a=\sqrt{2}`) 时，四边形 #mi(`NA_{1}MA_{2}`) 的面积为 #mi(`8\sqrt{3}`)], cols: 1)
 ]
 
 #answer([ACD])
@@ -274,7 +276,9 @@ D：当 #mi(`x<0`) 时，
 #solution[
 不妨设所取渐近线为 #mi(`y=\frac{b}{a}x`)，且 #mi(`M`) 在第一象限，#mi(`N`) 在第三象限.
 
-[max width=3.8cm]img/2025/national_paper_2/q11_solution_fig1.png
+ 
+#align(center)[#image("/papers/2025/img/national_paper_2/q11_solution_fig1.png", width: 28%)]
+ 
 
 由双曲线的中心对称性，四边形 #mi(`A_{1}MA_{2}N`) 是平行四边形，所以
 
@@ -286,7 +290,9 @@ D：当 #mi(`x<0`) 时，
 
 故 A 正确.
 
-[max width=3.6cm]img/2025/national_paper_2/q11_solution_fig2.png
+ 
+#align(center)[#image("/papers/2025/img/national_paper_2/q11_solution_fig2.png", width: 28%)]
+ 
 
 设 #mi(`O`) 为原点. 因为 #mi(`M`) 在以 #mi(`F_{1}F_{2}`) 为直径的圆上，所以 #mi(`|OM|=c`). 由渐近线方程和圆的方程可得 #mi(`M`) 的横坐标等于 #mi(`a`)，故 #mi(`|MA_{2}|=b`). 又在直角三角形 #mi(`A_{1}A_{2}M`) 中，由 #mi(`\angle A_{1}MA_{2}=\frac{\pi}{6}`) 得
 
@@ -310,7 +316,7 @@ C 正确.
 
 四边形 #mi(`NA_{1}MA_{2}`) 为平行四边形，其面积为
 
-#mi(`2S_{\triangle MA_1A_2}=2\times \frac{1}{2}\times 2\sqrt{2} \times 2\sqrt{6}=8\sqrt{3}`)，
+#mi(`2S_{\triangle MA_1A_2}=2\times \frac{1}{2}\times 2\sqrt{2}\times 2\sqrt{6}=8\sqrt{3}`)，
 
 故 D 正确. 故选：ACD.
 ]
@@ -386,7 +392,9 @@ C 正确.
 
 又 #mi(`r<4`)，故 #mi(`r=2.5`). 故答案为：#mi(`2.5`).
 
-[max width=4.2cm]img/2025/national_paper_2/q14_fig1.png
+ 
+#align(center)[#image("/papers/2025/img/national_paper_2/q14_fig1.png", width: 28%)]
+
 ]
 
 #part-header("解答题")
@@ -423,7 +431,9 @@ C 正确.
 
 
 
-[max width=6.0cm]img/2025/national_paper_2/q17_fig1.png
+
+#align(center)[#image("/papers/2025/img/national_paper_2/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[

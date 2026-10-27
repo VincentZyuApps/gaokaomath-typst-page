@@ -171,7 +171,9 @@
 #problem(15)[
 《九章算术》中，称底面为矩形而有一侧棱垂直于底面的四棱锥为阳马. 设 #mi(`AA_{1}`) 是正六棱柱的一条侧棱，如图，若阳马以该正六棱柱的顶点为顶点，以 #mi(`AA_{1}`) 为底面矩形的一边，则这样的阳马的个数是（ ）
 
-[max width=6.0cm]img/2018/shanghai/q15_fig1.png
+
+#align(center)[#image("/papers/2018/img/shanghai/q15_fig1.png", width: 28%)]
+
   #choices([#mi(`4`)], [#mi(`8`)], [#mi(`12`)], [#mi(`16`)], cols: 4)
 ]
 
@@ -208,7 +210,9 @@
 
 
 
-[max width=6.0cm]img/2018/shanghai/q17_fig1.png
+
+#align(center)[#image("/papers/2018/img/shanghai/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[

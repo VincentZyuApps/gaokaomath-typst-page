@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,8 +11,8 @@
 #part-header("单选题")
 
 #problem(1)[
-$i$ 是虚数单位，$(i)/(1+ i)=$（ ）
-  #choices([$(1)/(2)+(1)/(2) i$], [$-(1)/(2)+(1)/(2) i$], [$(1)/(2)-(1)/(2) i$], [$-(1)/(2)-(1)/(2) i$], cols: 2)
+#mi(`\mathrm{i}`) 是虚数单位，#mi(`\frac{\mathrm{i}}{1+\mathrm{i}}=`)（ ）
+  #choices([#mi(`\frac{1}{2}+\frac{1}{2}\mathrm{i}`)], [#mi(`-\frac{1}{2}+\frac{1}{2}\mathrm{i}`)], [#mi(`\frac{1}{2}-\frac{1}{2}\mathrm{i}`)], [#mi(`-\frac{1}{2}-\frac{1}{2}\mathrm{i}`)], cols: 1)
 ]
 
 #answer([A])
@@ -20,505 +20,502 @@ $i$ 是虚数单位，$(i)/(1+ i)=$（ ）
 #solution[
 有理化分母得
 
-$ (i)/(1+ i)=(i (1- i ))/((1+ i )(1- i ))=(1+ i)/(2)=(1)/(2)+(1)/(2) i $
+
+#align(center)[#mitex(`
+\frac{\mathrm{i}}{1+\mathrm{i}}=\frac{\mathrm{i}(1-\mathrm{i})}{(1+\mathrm{i})(1-\mathrm{i})}=\frac{1+\mathrm{i}}{2}=\frac{1}{2}+\frac{1}{2}\mathrm{i}
+`)]
+
 
 故选 A.
 ]
 
 #problem(2)[
-如果双曲线的两个焦点分别为 $F_(1)(-3,0)$，$F_(2)(3,0)$，一条渐近线方程为 $y=sqrt(2)x$，那么它的两条渐近线间的距离是（ ）
-  #choices([$6 sqrt(3)$], [$4$], [$2$], [$1$], cols: 4)
+如果双曲线的两个焦点分别为 #mi(`F_{1}(-3,0)`)，#mi(`F_{2}(3,0)`)，一条渐近线方程为 #mi(`y=\sqrt{2}x`)，那么它的两条渐近线间的距离是（ ）
+  #choices([#mi(`6\sqrt{3}`)], [#mi(`4`)], [#mi(`2`)], [#mi(`1`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-原试卷题干写作“两条渐近线间的距离”，但双曲线的两条渐近线相交，按字面不能得到选项中的非零值；结合参考答案中的第三项，以下按题意为“两条准线间的距离”求解. 设双曲线的标准方程为 $(x^(2))/(a^(2))-(y^(2))/(b^(2))=1$，焦点在 $x$ 轴上，则其渐近线为 $y= +- (b)/(a)x$. 由题意，$(b)/(a)=sqrt(2)$，又焦半距为 $c=3$，所以 $b^(2)=2 a^(2)$，$a^(2)+b^(2)=c^(2)=9$.
-从而 $a^(2)=3$，$b^(2)=6$. 双曲线的离心率为 $e=(c)/(a)$，两条准线为 $x=(a)/(e)=(a^(2))/(c)=1$ 和 $x=-(a)/(e)=-(a^(2))/(c)=-1$，故两条准线间的距离为 $2$. 因此选 C.
+原试卷题干写作“两条渐近线间的距离”，但双曲线的两条渐近线相交，按字面不能得到选项中的非零值；结合参考答案中的第三项，以下按题意为“两条准线间的距离”求解. 设双曲线的标准方程为 #mi(`\dfrac{x^{2}}{a^{2}}-\dfrac{y^{2}}{b^{2}}=1`)，焦点在 #mi(`x`) 轴上，则其渐近线为 #mi(`y=\pm\dfrac{b}{a}x`). 由题意，#mi(`\dfrac{b}{a}=\sqrt{2}`)，又焦半距为 #mi(`c=3`)，所以 #mi(`b^{2}=2a^{2}`)，#mi(`a^{2}+b^{2}=c^{2}=9`).
+
+从而 #mi(`a^{2}=3`)，#mi(`b^{2}=6`). 双曲线的离心率为 #mi(`e=\dfrac{c}{a}`)，两条准线为 #mi(`x=\dfrac{a}{e}=\dfrac{a^{2}}{c}=1`) 和 #mi(`x=-\dfrac{a}{e}=-\dfrac{a^{2}}{c}=-1`)，故两条准线间的距离为 #mi(`2`). 因此选 C.
 ]
 
 #problem(3)[
-设变量 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} y <= x,\\ x+y >= 2 ,\\ y >= 3 x-6, \e n d{c a s e s}$ 则目标函数 $z=2 x+y$ 的最小值为（ ）
-  #choices([$2$], [$3$], [$4$], [$9$], cols: 4)
+设变量 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}y\le x,\\  x+y\ge 2,\\  y\ge 3x-6,\end{cases}`) 则目标函数 #mi(`z=2x+y`) 的最小值为（ ）
+  #choices([#mi(`2`)], [#mi(`3`)], [#mi(`4`)], [#mi(`9`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由 $x+y >= 2$ 与 $y <= x$ 得 $x >= 1$，由 $y >= 3 x-6$ 与 $y <= x$ 得 $x <= 3$，故可行域为有界多边形. 其顶点由三条边界直线 $y=x$，$x+y=2$，$y=3 x-6$ 两两相交得到，分别为 $(1,1)$，$(2,0)$，$(3,3)$，且这三个点都满足约束条件. 目标函数 $z=2 x+y$ 在三点处的值分别为 $3$，$4$，$9$，所以最小值为 $3$. 故选 B.
+由 #mi(`x+y\geqslant2`) 与 #mi(`y\le x`) 得 #mi(`x\geqslant1`)，由 #mi(`y\geqslant3x-6`) 与 #mi(`y\le x`) 得 #mi(`x\leqslant3`)，故可行域为有界多边形. 其顶点由三条边界直线 #mi(`y=x`)，#mi(`x+y=2`)，#mi(`y=3x-6`) 两两相交得到，分别为 #mi(`(1,1)`)，#mi(`(2,0)`)，#mi(`(3,3)`)，且这三个点都满足约束条件. 目标函数 #mi(`z=2x+y`) 在三点处的值分别为 #mi(`3`)，#mi(`4`)，#mi(`9`)，所以最小值为 #mi(`3`). 故选 B.
 ]
 
 #problem(4)[
-设集合 $M=\{x | 0<x <= 3 \}$，$N=\{x | 0<x <= 2 \}$，那么“$a in M$”是“$a in N$”的（ ）
+设集合 #mi(`M=\{x\mid 0<x\le 3\}`)，#mi(`N=\{x\mid 0<x\le 2\}`)，那么“#mi(`a\in M`)”是“#mi(`a\in N`)”的（ ）
   #choices([充分而不必要条件], [必要而不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-因为 $N=(0,2] subset M=(0,3]$，所以 $a in N$ 能推出 $a in M$，但 $a in M$ 不能推出 $a in N$，例如 $a=(5)/(2)$ 时结论不成立. 因而“$a in M$”是“$a in N$”的必要而不充分条件，故选 B.
+因为 #mi(`N=(0,2]\subset M=(0,3]`)，所以 #mi(`a\in N`) 能推出 #mi(`a\in M`)，但 #mi(`a\in M`) 不能推出 #mi(`a\in N`)，例如 #mi(`a=\dfrac{5}{2}`) 时结论不成立. 因而“#mi(`a\in M`)”是“#mi(`a\in N`)”的必要而不充分条件，故选 B.
 ]
 
 #problem(5)[
-将 $4$ 个颜色互不相同的球全部放入编号为 $1$ 和 $2$ 的两个盒子里，使得放入每个盒子里的球的个数不小于该盒子的编号，则不同的放球方法有（ ）
-  #choices([$10$ 种], [$20$ 种], [$36$ 种], [$52$ 种], cols: 4)
+将 #mi(`4`) 个颜色互不相同的球全部放入编号为 #mi(`1`) 和 #mi(`2`) 的两个盒子里，使得放入每个盒子里的球的个数不小于该盒子的编号，则不同的放球方法有（ ）
+  #choices([#mi(`10`) 种], [#mi(`20`) 种], [#mi(`36`) 种], [#mi(`52`) 种], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-设放入编号为 $2$ 的盒子的球数为 $k$. 由题意，$k >= 2$，且另一个盒子至少有 $1$ 个球，所以 $k$ 只能取 $2$ 或 $3$. 于是放球方法数为
+设放入编号为 #mi(`2`) 的盒子的球数为 #mi(`k`). 由题意，#mi(`k\geqslant2`)，且另一个盒子至少有 #mi(`1`) 个球，所以 #mi(`k`) 只能取 #mi(`2`) 或 #mi(`3`). 于是放球方法数为
 
-$ C_(4)^(2)+C_(4)^(3)=6+4=10 $
+
+#align(center)[#mitex(`
+\mathrm{C}_{4}^{2}+\mathrm{C}_{4}^{3}=6+4=10
+`)]
+
 
 故选 A.
 ]
 
 #problem(6)[
-设 $m$，$n$ 是两条不同的直线，$alpha$，$beta$ 是两个不同的平面. 考查下列命题，其中正确的命题是（ ）
-  #choices([$m bot alpha , n subset beta , m bot n => alpha bot beta$], [$alpha parallel beta$，$m bot alpha$，$n parallel beta => m bot n$], [$alpha bot beta$，$m bot alpha$，$n parallel beta => m bot n$], [$alpha bot beta$，$alpha inter beta =m$，$n bot m => n bot beta$], cols: 1)
+设 #mi(`m`)，#mi(`n`) 是两条不同的直线，#mi(`\alpha`)，#mi(`\beta`) 是两个不同的平面. 考查下列命题，其中正确的命题是（ ）
+  #choices([#mi(`m\perp\alpha, n\subset\beta, m\perp n \Rightarrow \alpha\perp\beta`)], [#mi(`\alpha\parallel\beta`)，#mi(`m\perp\alpha`)，#mi(`n\parallel\beta \Rightarrow m\perp n`)], [#mi(`\alpha\perp\beta`)，#mi(`m\perp\alpha`)，#mi(`n\parallel\beta \Rightarrow m\perp n`)], [#mi(`\alpha\perp\beta`)，#mi(`\alpha\cap\beta=m`)，#mi(`n\perp m \Rightarrow n\perp\beta`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-若 $alpha parallel beta$，直线 $m bot alpha$，则 $m$ 也垂直于平面 $beta$. 又 $n parallel beta$，所以 $n$ 的方向与平面 $beta$ 内某条直线的方向相同，从而 $m bot n$. 因此命题 B 正确，故选 B.
+若 #mi(`\alpha\parallel\beta`)，直线 #mi(`m\perp\alpha`)，则 #mi(`m`) 也垂直于平面 #mi(`\beta`). 又 #mi(`n\parallel\beta`)，所以 #mi(`n`) 的方向与平面 #mi(`\beta`) 内某条直线的方向相同，从而 #mi(`m\perp n`). 因此命题 B 正确，故选 B.
 ]
 
 #problem(7)[
-已知数列 $\{a_(n)\}$，$\{b_(n)\}$ 都是公差为 $1$ 的等差数列，其首项分别为 $a_(1)$，$b_(1)$，且 $a_(1)+b_(1)=5$，$a_(1)$，$b_(1) in NN ""^(*)$. 设 $C_(n)=a_(b_(n))$（$n in NN ""^(*)$），则数列 $\{C_(n)\}$ 的前 $10$ 项和等于（ ）
-  #choices([$55$], [$70$], [$85$], [$100$], cols: 4)
+已知数列 #mi(`\{a_{n}\}`)，#mi(`\{b_{n}\}`) 都是公差为 #mi(`1`) 的等差数列，其首项分别为 #mi(`a_{1}`)，#mi(`b_{1}`)，且 #mi(`a_{1}+b_{1}=5`)，#mi(`a_{1}`)，#mi(`b_{1}\in\mathbb{N}^{*}`). 设 #mi(`C_{n}=a_{b_{n}}`)（#mi(`n\in\mathbb{N}^{*}`)），则数列 #mi(`\{C_{n}\}`) 的前 #mi(`10`) 项和等于（ ）
+  #choices([#mi(`55`)], [#mi(`70`)], [#mi(`85`)], [#mi(`100`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由两数列的公差都为 $1$，有
-$a_(k)=a_(1)+k-1$，$b_(n)=b_(1)+n-1$.
+由两数列的公差都为 #mi(`1`)，有
+
+#mi(`a_{k}=a_{1}+k-1`)，#mi(`b_{n}=b_{1}+n-1`).
+
 因此
 
-$ C_(n)=a_(b_(n))=a_(1)+b_(n)-1=a_(1)+b_(1)+n-2=n+3 $
 
-所以前 $10$ 项和为
+#align(center)[#mitex(`
+C_{n}=a_{b_{n}}=a_{1}+b_{n}-1=a_{1}+b_{1}+n-2=n+3
+`)]
 
-$ sum_(n=1)^(10)C_(n)=sum_(n=1)^(10)(n+3)=((4+13) dot 10)/(2)=85 $
+
+所以前 #mi(`10`) 项和为
+
+
+#align(center)[#mitex(`
+\sum_{n=1}^{10}C_{n}=\sum_{n=1}^{10}(n+3)=\frac{(4+13)\cdot10}{2}=85
+`)]
+
 
 故选 C.
 ]
 
 #problem(8)[
-已知函数 $f(x)=a sin x-b cos x$（$a$，$b$ 为常数，$a != 0$，$x in RR$）在 $x=(pi)/(4)$ 处取得最小值，则函数 $y=f((3 pi)/(4)-x)$ 是（ ）
-  #choices([偶函数且它的图象关于点 $( pi ,0)$ 对称], [偶函数且它的图象关于点 $((3 pi)/(2),0)$ 对称], [奇函数且它的图象关于点 $((3 pi)/(2),0)$ 对称], [奇函数且它的图象关于点 $( pi ,0)$ 对称], cols: 1)
+已知函数 #mi(`f(x)=a\sin x-b\cos x`)（#mi(`a`)，#mi(`b`) 为常数，#mi(`a\neq 0`)，#mi(`x\in\mathbb{R}`)）在 #mi(`x=\frac{\pi}{4}`) 处取得最小值，则函数 #mi(`y=f\left(\frac{3\pi}{4}-x\right)`) 是（ ）
+  #choices([偶函数且它的图象关于点 #mi(`(\pi,0)`) 对称], [偶函数且它的图象关于点 #mi(`\left(\frac{3\pi}{2},0\right)`) 对称], [奇函数且它的图象关于点 #mi(`\left(\frac{3\pi}{2},0\right)`) 对称], [奇函数且它的图象关于点 #mi(`(\pi,0)`) 对称], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-令 $t=x-(pi)/(4)$，则
+令 #mi(`t=x-\dfrac{\pi}{4}`)，则
 
-$ f((pi)/(4)+t)=(a-b)/(sqrt(2)) cos t+(a+b)/(sqrt(2)) sin t $
 
-由于 $t=0$ 是上述函数的最小值点，其导数在 $t=0$ 处为零，所以 $(a+b)/(sqrt(2))=0$，即 $b=-a$. 又因 $a\n e q0$，且 $t=0$ 处取得的是最小值，故 $(a-b)/(sqrt(2))=sqrt(2)a<0$. 设 $R=sqrt(a^(2)+b^(2))>0$，于是
+#align(center)[#mitex(`
+f\left(\frac{\pi}{4}+t\right)=\frac{a-b}{\sqrt{2}}\cos t+\frac{a+b}{\sqrt{2}}\sin t
+`)]
 
-$ f((pi)/(4)+t)=-R cos t $
 
-令 $h(x)=f((3 pi)/(4)-x)$，则
+由于 #mi(`t=0`) 是上述函数的最小值点，其导数在 #mi(`t=0`) 处为零，所以 #mi(`\dfrac{a+b}{\sqrt{2}}=0`)，即 #mi(`b=-a`). 又因 #mi(`a\neq0`)，且 #mi(`t=0`) 处取得的是最小值，故 #mi(`\dfrac{a-b}{\sqrt{2}}=\sqrt{2}a<0`). 设 #mi(`R=\sqrt{a^{2}+b^{2}}>0`)，于是
 
-$ h(x)=-R cos ((pi)/(2)-x)=-R sin x $
 
-所以 $h(-x)=-h(x)$，它是奇函数；又 $h(2 pi -x)=-h(x)$，故其图象关于点 $( pi ,0)$ 对称. 因此选 D.
+#align(center)[#mitex(`
+f\left(\frac{\pi}{4}+t\right)=-R\cos t
+`)]
+
+
+令 #mi(`h(x)=f\left(\dfrac{3\pi}{4}-x\right)`)，则
+
+
+#align(center)[#mitex(`
+h(x)=-R\cos\left(\frac{\pi}{2}-x\right)=-R\sin x
+`)]
+
+
+所以 #mi(`h(-x)=-h(x)`)，它是奇函数；又 #mi(`h(2\pi-x)=-h(x)`)，故其图象关于点 #mi(`(\pi,0)`) 对称. 因此选 D.
 ]
 
 #problem(9)[
-函数 $f(x)$ 的定义域为开区间 $(a,b)$，导函数 $f'(x)$ 在 $(a,b)$ 内的图像如图所示，则函数 $f(x)$ 在开区间 $(a,b)$ 内有极小值点（ ）
+函数 #mi(`f(x)`) 的定义域为开区间 #mi(`(a,b)`)，导函数 #mi(`f'(x)`) 在 #mi(`(a,b)`) 内的图像如图所示，则函数 #mi(`f(x)`) 在开区间 #mi(`(a,b)`) 内有极小值点（ ）
 
 
-#align(center)[#image("/papers/2006/img/tianjin_science/q9_fig1.png", width: 60%)]
-  #choices([$1$ 个], [$2$ 个], [$3$ 个], [$4$ 个], cols: 4)
+#align(center)[#image("/papers/2006/img/tianjin_science/q9_fig1.png", width: 28%)]
+
+  #choices([#mi(`1`) 个], [#mi(`2`) 个], [#mi(`3`) 个], [#mi(`4`) 个], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-从图象看，$f'(x)$ 在定义域内共有四处零点：除原点外的三处零点分别由正变负、由负变正、由正变负；原点处虽为零点，但两侧均为正，符号没有改变. 函数取得极小值的条件是导数由负变正，因此只有第二处零点对应极小值点，共 $1$ 个. 故选 A.
+从图象看，#mi(`f'(x)`) 在定义域内共有四处零点：除原点外的三处零点分别由正变负、由负变正、由正变负；原点处虽为零点，但两侧均为正，符号没有改变. 函数取得极小值的条件是导数由负变正，因此只有第二处零点对应极小值点，共 #mi(`1`) 个. 故选 A.
 ]
 
 #problem(10)[
-已知函数 $y=f(x)$ 的图象与函数 $y=a^(x)$（$a>0$ 且 $a != 1$）的图象关于直线 $y=x$ 对称，记 $g(x)=f(x)[f(x)+f(2)-1]$. 若 $y=g(x)$ 在区间 $[(1)/(2),2]$ 上是增函数，则实数 $a$ 的取值范围是（ ）
-  #choices([$[2,+ oo )$], [$(0,1) union (1,2)$], [$[(1)/(2),1)$], [$(0,(1)/(2)]$], cols: 2)
+已知函数 #mi(`y=f(x)`) 的图象与函数 #mi(`y=a^{x}`)（#mi(`a>0`) 且 #mi(`a\neq 1`)）的图象关于直线 #mi(`y=x`) 对称，记 #mi(`g(x)=f(x)[f(x)+f(2)-1]`). 若 #mi(`y=g(x)`) 在区间 #mi(`\left[\frac{1}{2},2\right]`) 上是增函数，则实数 #mi(`a`) 的取值范围是（ ）
+  #choices([#mi(`\left[2,+\infty\right)`)], [#mi(`(0,1)\cup(1,2)`)], [#mi(`\left[\frac{1}{2},1\right)`)], [#mi(`\left(0,\frac{1}{2}\right]`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-由反函数关系，$f(x)= log _(a)x$. 令 $q= log _(a)2$，则
+由反函数关系，#mi(`f(x)=\log_{a}x`). 令 #mi(`q=\log_{a}2`)，则
 
-$ g'(x)=(1)/(x ln a)(2 log _(a)x+ log _(a)2-1) $
 
-当 $a>1$ 时，$ln a>0$，而在 $x=(1)/(2)$ 处括号内的值为 $-q-1<0$，故在区间左端附近 $g'(x)<0$，不可能为增函数.
+#align(center)[#mitex(`
+g'(x)=\frac{1}{x\ln a}\left(2\log_{a}x+\log_{a}2-1\right)
+`)]
 
-当 $0<a<1$ 时，$ln a<0$，所以要使 $g$ 在 $[(1)/(2),2]$ 上递增，需使
 
-$ 2 log _(a)x+q-1 <= 0 $
+当 #mi(`a>1`) 时，#mi(`\ln a>0`)，而在 #mi(`x=\dfrac{1}{2}`) 处括号内的值为 #mi(`-q-1<0`)，故在区间左端附近 #mi(`g'(x)<0`)，不可能为增函数.
 
-因为 $log _(a)x$ 在该区间上递减，括号内的最大值在 $x=(1)/(2)$ 处取得，故条件等价于 $-q-1 <= 0$，即 $q >= -1$. 由 $q=(ln 2)/(ln a)$ 且 $0<a<1$，得到 $0<a <= (1)/(2)$. 因此选 D.
+当 #mi(`0<a<1`) 时，#mi(`\ln a<0`)，所以要使 #mi(`g`) 在 #mi(`\left[\dfrac{1}{2},2\right]`) 上递增，需使
+
+
+#align(center)[#mitex(`
+2\log_{a}x+q-1\leqslant0
+`)]
+
+
+因为 #mi(`\log_{a}x`) 在该区间上递减，括号内的最大值在 #mi(`x=\dfrac{1}{2}`) 处取得，故条件等价于 #mi(`-q-1\leqslant0`)，即 #mi(`q\ge-1`). 由 #mi(`q=\dfrac{\ln2}{\ln a}`) 且 #mi(`0<a<1`)，得到 #mi(`0<a\le\dfrac{1}{2}`). 因此选 D.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-$(2 x+(1)/(sqrt(x)))^(7)$ 的二项展开式中 $x$ 的系数是#blank(){}. （用数字作答）
+#mi(`\left(2x+\frac{1}{\sqrt{x}}\right)^{7}`) 的二项展开式中 #mi(`x`) 的系数是\underline{\hspace{2.5em}}. （用数字作答）
 ]
 
-#answer([$280$])
+#answer([#mi(`280`)])
 
 #solution[
 展开式的通项为
 
-$ C_(7)^(k)(2 x)^(k)(x^(-(1)/(2)))^(7-k)=C_(7)^(k)2^(k)x^((3 k-7)/(2)) $
 
-令 $(3 k-7)/(2)=1$，得 $k=3$，所以 $x$ 的系数为
+#align(center)[#mitex(`
+\mathrm{C}_{7}^{k}(2x)^{k}\left(x^{-\frac{1}{2}}\right)^{7-k}=\mathrm{C}_{7}^{k}2^{k}x^{\frac{3k-7}{2}}
+`)]
 
-$ C_(7)^(3)2^(3)=35 dot 8 =280 $
+
+令 #mi(`\dfrac{3k-7}{2}=1`)，得 #mi(`k=3`)，所以 #mi(`x`) 的系数为
+
+
+#align(center)[#mitex(`
+\mathrm{C}_{7}^{3}2^{3}=35\cdot8=280
+`)]
 ]
 
 #problem(12)[
-设向量 $bold(a)$ 与 $bold(b)$ 的夹角为 $theta$，且 $bold(a)=(3,3)$，$2 bold(b)-bold(a)=(-1,1)$，则 $cos theta =$#blank(){}.
+设向量 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角为 #mi(`\theta`)，且 #mi(`\mathbf{a}=(3,3)`)，#mi(`2\mathbf{b}-\mathbf{a}=(-1,1)`)，则 #mi(`\cos\theta=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3 sqrt(10))/(10)$])
+#answer([#mi(`\frac{3\sqrt{10}}{10}`)])
 
 #solution[
-由 $2 bold(b)-bold(a)=(-1,1)$ 和 $bold(a)=(3,3)$，得
+由 #mi(`2\mathbf{b}-\mathbf{a}=(-1,1)`) 和 #mi(`\mathbf{a}=(3,3)`)，得
 
-$ 2 bold(b)=(2,4) $
 
-所以 $bold(b)=(1,2)$. 于是
+#align(center)[#mitex(`
+2\mathbf{b}=(2,4)
+`)]
 
-$ bold(a)\c d o t b o l d(b)=3 dot 1 +3 dot 2 =9 $
 
-又 $|bold(a)|=3 sqrt(2)$，$|bold(b)|=sqrt(5)$.
+所以 #mi(`\mathbf{b}=(1,2)`). 于是
+
+
+#align(center)[#mitex(`
+\mathbf{a}\cdot\mathbf{b}=3\cdot1+3\cdot2=9
+`)]
+
+
+又 #mi(`|\mathbf{a}|=3\sqrt{2}`)，#mi(`|\mathbf{b}|=\sqrt{5}`).
+
 因此
 
-$ cos theta =(bold(a){ dot }bold(b))/(|bold(a)| |bold(b)|)=(9)/(3 sqrt(10))=(3 sqrt(10))/(10) $
+
+#align(center)[#mitex(`
+\cos\theta=\frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}|\,|\mathbf{b}|}=\frac{9}{3\sqrt{10}}=\frac{3\sqrt{10}}{10}
+`)]
 ]
 
 #problem(13)[
-如图，在正三棱柱 $A B C-A_(1)B_(1)C_(1)$ 中，$A B=1$. 若二面角 $C-A B-C_(1)$ 的大小为 $60^( degree )$，则点 $C$ 到平面 $A B C_(1)$ 的距离为#blank(){}.
+如图，在正三棱柱 #mi(`ABC-A_{1}B_{1}C_{1}`) 中，#mi(`AB=1`). 若二面角 #mi(`C-AB-C_{1}`) 的大小为 #mi(`60^{\circ}`)，则点 #mi(`C`) 到平面 #mi(`ABC_{1}`) 的距离为\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2006/img/tianjin_science/q13_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2006/img/tianjin_science/q13_fig1.png", width: 28%)]
+
 
 \FloatBarrier
 ]
 
-#answer([$(3)/(4)$])
+#answer([#mi(`\frac{3}{4}`)])
 
 #solution[
-建立直角坐标系，取 $A B$ 为 $x$ 轴，令底面 $A B C$ 在 $x O y$ 平面内，设棱柱的高为 $h$，则可取
-$A=(0,0,0)$，$B=(1,0,0)$，$C=((1)/(2),(sqrt(3))/(2),0)$，$C_(1)=((1)/(2),(sqrt(3))/(2),h)$.
-设 $M$ 为 $A B$ 的中点. 在过 $M$ 且垂直于 $A B$ 的截面内，二面角 $C-A B-C_(1)$ 就是直线 $C M$ 与直线 $C_(1)M$ 的夹角，所以
+建立直角坐标系，取 #mi(`AB`) 为 #mi(`x`) 轴，令底面 #mi(`ABC`) 在 #mi(`xOy`) 平面内，设棱柱的高为 #mi(`h`)，则可取
 
-$ cos 60 ""^( degree )=((sqrt(3))/(2))/(sqrt((3)/(4)+h^(2))) $
+#mi(`A=(0,0,0)`)，#mi(`B=(1,0,0)`)，#mi(`C=\left(\frac{1}{2},\frac{\sqrt{3}}{2},0\right)`)，#mi(`C_{1}=\left(\frac{1}{2},\frac{\sqrt{3}}{2},h\right)`).
 
-由此得 $h=(3)/(2)$. 平面 $A B C_(1)$ 的方程为
+设 #mi(`M`) 为 #mi(`AB`) 的中点. 在过 #mi(`M`) 且垂直于 #mi(`AB`) 的截面内，二面角 #mi(`C-AB-C_{1}`) 就是直线 #mi(`CM`) 与直线 #mi(`C_{1}M`) 的夹角，所以
 
-$ 3 y-sqrt(3)z=0 $
 
-所以点 $C$ 到该平面的距离为
+#align(center)[#mitex(`
+\cos60^{\circ}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{\frac{3}{4}+h^{2}}}
+`)]
 
-$ (|3 dot (sqrt(3))/(2)-sqrt(3) dot 0 |)/(sqrt(3^(2)+(-sqrt(3))^(2)))=(3)/(4) $
+
+由此得 #mi(`h=\dfrac{3}{2}`). 平面 #mi(`ABC_{1}`) 的方程为
+
+
+#align(center)[#mitex(`
+3y-\sqrt{3}z=0
+`)]
+
+
+所以点 #mi(`C`) 到该平面的距离为
+
+
+#align(center)[#mitex(`
+\frac{\left|3\cdot\frac{\sqrt{3}}{2}-\sqrt{3}\cdot0\right|}{\sqrt{3^{2}+\left(-\sqrt{3}\right)^{2}}}=\frac{3}{4}
+`)]
 ]
 
 #problem(14)[
-设直线 $a x-y+3=0$ 与圆 $(x-1)^2+(y-2)^2=4$ 相交于 $A$，$B$ 两点，且弦 $A B$ 的长为 $2 sqrt(3)$，则 $a=$#blank(){}.
+设直线 #mi(`ax-y+3=0`) 与圆 #mi(`(x-1)^{2}+(y-2)^{2}=4`) 相交于 #mi(`A`)，#mi(`B`) 两点，且弦 #mi(`AB`) 的长为 #mi(`2\sqrt{3}`)，则 #mi(`a=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$0$])
+#answer([#mi(`0`)])
 
 #solution[
-圆心为 $O(1,2)$，半径为 $2$. 弦长为 $2 sqrt(3)$，所以圆心到弦所在直线的距离为
+圆心为 #mi(`O(1,2)`)，半径为 #mi(`2`). 弦长为 #mi(`2\sqrt{3}`)，所以圆心到弦所在直线的距离为
 
-$ d=sqrt(2^(2)-((2 sqrt(3))/(2))^(2))=1 $
 
-直线 $a x-y+3=0$ 到圆心的距离也应为 $1$，故
+#align(center)[#mitex(`
+d=\sqrt{2^{2}-\left(\frac{2\sqrt{3}}{2}\right)^{2}}=1
+`)]
 
-$ (|a-2+3|)/(sqrt(a^(2)+1))=1 $
 
-两边平方得 $(a+1)^(2)=a^(2)+1$，从而 $a=0$.
+直线 #mi(`ax-y+3=0`) 到圆心的距离也应为 #mi(`1`)，故
+
+
+#align(center)[#mitex(`
+\frac{|a-2+3|}{\sqrt{a^{2}+1}}=1
+`)]
+
+
+两边平方得 #mi(`(a+1)^{2}=a^{2}+1`)，从而 #mi(`a=0`).
 ]
 
 #problem(15)[
-某公司一年购买某种货物 $400" 吨"$，每次都购买 $x" 吨"$，运费为 $4" 万元/次"$，一年的总存储费用为 $4 x" 万元"$，要使一年的总运费与总存储费用之和最小，则 $x=$#blank(){}$"吨"$.
+某公司一年购买某种货物 #mi(`400\text{ \text{吨}}`)，每次都购买 #mi(`x\text{ \text{吨}}`)，运费为 #mi(`4\text{ \text{万元}/\text{次}}`)，一年的总存储费用为 #mi(`4x\text{ \text{万元}}`)，要使一年的总运费与总存储费用之和最小，则 #mi(`x=`)\underline{\hspace{2.5em}}#mi(`\text{\text{吨}}`).
 ]
 
-#answer([$20$])
+#answer([#mi(`20`)])
 
 #solution[
-一年购买次数为 $(400)/(x)$，所以一年总运费与总存储费用之和为
-$T(x)=4 dot (400)/(x)+4 x=(1600)/(x)+4 x$，$x>0$.
+一年购买次数为 #mi(`\dfrac{400}{x}`)，所以一年总运费与总存储费用之和为
+
+#mi(`T(x)=4\cdot\frac{400}{x}+4x=\frac{1600}{x}+4x`)，#mi(`x>0`).
+
 由基本不等式，
 
-$ T(x)=(1600)/(x)+4 x >= 2 sqrt((1600)/(x) dot 4 x)=160 $
 
-等号成立当且仅当 $(1600)/(x)=4 x$，即 $x=20$. 因此总费用最小时 $x=20$ 吨.
+#align(center)[#mitex(`
+T(x)=\frac{1600}{x}+4x\geqslant2\sqrt{\frac{1600}{x}\cdot4x}=160
+`)]
+
+
+等号成立当且仅当 #mi(`\dfrac{1600}{x}=4x`)，即 #mi(`x=20`). 因此总费用最小时 #mi(`x=20`) 吨.
 ]
 
 #problem(16)[
-设函数 $f(x)=(1)/(x+1)$，点 $A_(0)$ 表示坐标原点，点 $A_(n)(n,f(n))$（$n in NN ""^(*)$）. 若向量 $bold(a)_(n)=arrow(A_(0)A_(1))+arrow(A_(1)A_(2))+ dots.c +arrow(A_(n-1)A_(n))$，$theta _(n)$ 是 $bold(a)_(n)$ 与 $bold(i)$ 的夹角（其中 $bold(i)=(1,0)$），设 $S_(n)= tan theta _(1)+ tan theta _(2)+ dots.c + tan theta _(n)$，则 $lim_(n -> oo )S_(n)=$#blank(){}.
+设函数 #mi(`f(x)=\frac{1}{x+1}`)，点 #mi(`A_{0}`) 表示坐标原点，点 #mi(`A_{n}(n,f(n))`)（#mi(`n\in\mathbb{N}^{*}`)）. 若向量 #mi(`\mathbf{a}_{n}=\overrightarrow{A_{0}A_{1}}+\overrightarrow{A_{1}A_{2}}+\cdots+\overrightarrow{A_{n-1}A_{n}}`)，#mi(`\theta_{n}`) 是 #mi(`\mathbf{a}_{n}`) 与 #mi(`\mathbf{i}`) 的夹角（其中 #mi(`\mathbf{i}=(1,0)`)），设 #mi(`S_{n}=\tan\theta_{1}+\tan\theta_{2}+\cdots+\tan\theta_{n}`)，则 #mi(`\displaystyle\lim_{n\to\infty}S_{n}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #solution[
 向量首尾相接后中间项相消，故
 
-$ bold(a)_(n)=arrow(A_(0)A_(n))=(n,(1)/(n+1)) $
 
-由于 $bold(i)=(1,0)$，且 $bold(a)_(n)$ 的横坐标为正，有
+#align(center)[#mitex(`
+\mathbf{a}_{n}=\overrightarrow{A_{0}A_{n}}=\left(n,\frac{1}{n+1}\right)
+`)]
 
-$ tan theta _(n)=((1)/(n+1))/(n)=(1)/(n(n+1))=(1)/(n)-(1)/(n+1) $
+
+由于 #mi(`\mathbf{i}=(1,0)`)，且 #mi(`\mathbf{a}_{n}`) 的横坐标为正，有
+
+
+#align(center)[#mitex(`
+\tan\theta_{n}=\frac{\frac{1}{n+1}}{n}=\frac{1}{n(n+1)}=\frac{1}{n}-\frac{1}{n+1}
+`)]
+
 
 于是
 
-$ S_(n)=sum_(k=1)^(n)((1)/(k)-(1)/(k+1))=1-(1)/(n+1) $
 
-从而 $lim_(n -> oo )S_(n)=1$.
+#align(center)[#mitex(`
+S_{n}=\sum_{k=1}^{n}\left(\frac{1}{k}-\frac{1}{k+1}\right)=1-\frac{1}{n+1}
+`)]
+
+
+从而 #mi(`\displaystyle\lim_{n\to\infty}S_{n}=1`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-如图，在 $triangle A B C$ 中，$A C=2$，$B C=1$，$cos C=(3)/(4)$.
+如图，在 #mi(`\triangle ABC`) 中，#mi(`AC=2`)，#mi(`BC=1`)，#mi(`\cos C=\frac{3}{4}`).
 
 
-+ (1) 求 $A B$ 的值；
-+ (2) 求 $sin (2 A+C)$ 的值.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2006/img/tianjin_science/q17_fig1.png", width: 34%)]
+
+#align(center)[#image("/papers/2006/img/tianjin_science/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由余弦定理，
-
-$ A B^(2)=A C^(2)+B C^(2)-2 A C dot B C cos C=2^(2)+1^(2)-2 dot 2 dot 1 dot (3)/(4)=2 $
-
-所以 $A B=sqrt(2)$.
-+ (2) 由三角形内角和，$2 A+C= pi +A-B$，从而
-
-$ sin (2 A+C)=- sin (A-B)= sin (B-A) $
-
-再次由余弦定理，
-
-$ cos A=(A B^(2)+A C^(2)-B C^(2))/(2 A B dot A C)=(5 sqrt(2))/(8) $
-
-由余弦定理，$cos B=(A B^(2)+B C^(2)-A C^(2))/(2 A B dot B C)=(2+1-4)/(2 sqrt(2))=-(sqrt(2))/(4)$.
-由于 $A$，$B$ 是三角形内角，故
-
-$ sin A=sqrt(1- cos ""^(2)A)=(sqrt(14))/(8) $
-
-同样由 $B$ 是三角形内角，$sin B>0$，所以 $sin B=sqrt(1- cos ""^(2)B)=sqrt(1-(1)/(8))=(sqrt(14))/(4)$.
-因此
-
-$ sin (B-A)= sin B cos A- cos B sin A=(3 sqrt(7))/(8) $
-
-所以 $sin (2 A+C)=(3 sqrt(7))/(8)$.
++ (1)
 ]
 
 #problem(18)[
-某射手进行射击训练，假设每次射击击中目标的概率为 $(3)/(5)$，且每次射击的结果互不影响.
+某射手进行射击训练，假设每次射击击中目标的概率为 #mi(`\frac{3}{5}`)，且每次射击的结果互不影响.
 
 
-+ (1) 求射手在 $3$ 次射击中，至少有两次连续击中目标的概率（用数字作答）；
-+ (2) 求射手第 $3$ 次击中目标时，恰好射击了 $4$ 次的概率（用数字作答）；
-+ (3) 设随机变量 $xi$ 表示射手第 $3$ 次击中目标时已射击的次数，求 $xi$ 的分布列.
++ (1) 
++ (2)
 ]
 
 #solution[
-记击中目标为 $H$，未击中目标为 $M$，则 $P(H)=(3)/(5)$，$P(M)=(2)/(5)$.
+记击中目标为 #mi(`H`)，未击中目标为 #mi(`M`)，则 #mi(`P(H)=\dfrac{3}{5}`)，#mi(`P(M)=\dfrac{2}{5}`).
 
-+ (1) 在三次射击中至少有两次连续击中，可能的结果为 $H H H$，$H H M$，$M H H$，故所求概率为
 
-$ P(H H H)+P(H H M)+P(M H H)=((3)/(5))^(3)+2((3)/(5))^(2)(2)/(5)=(63)/(125) $
-+ (2) 第四次射击恰好是第 $3$ 次击中，等价于前 $3$ 次中恰有 $2$ 次击中且第 $4$ 次击中，因此概率为
-
-$ C_(3)^(2)((3)/(5))^(2)(2)/(5) dot (3)/(5)=(162)/(625) $
-+ (3) 当 $k=3$，$4$，$dots.c$ 时，事件 $\{ xi =k\}$ 表示前 $k-1$ 次中恰有 $2$ 次击中，第 $k$ 次击中，所以
-
-$ P( xi =k)=C_(k-1)^(2)((3)/(5))^(3)((2)/(5))^(k-3) $
-
-因此 $xi$ 的分布列可写为
-\begin{center}
-\begin{tabular}{c|c}
-\hline
-$xi$ & $3$，$4$，$5$，$dots.c$ \\
-\hline
-$P$ & $C_(k-1)^(2)((3)/(5))^(3)((2)/(5))^(k-3)$（$k=3,4,5, dots.c$） \\
-\hline
-\end{tabular}
-\end{center}
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-如图，在五面体 $A B C D E F$ 中，点 $O$ 是矩形 $A B C D$ 的对角线的交点，面 $C D E$ 是等边三角形，棱 $E F parallel B C$ 且 $E F=(1)/(2)B C$.
+如图，在五面体 #mi(`ABCDEF`) 中，点 #mi(`O`) 是矩形 #mi(`ABCD`) 的对角线的交点，面 #mi(`CDE`) 是等边三角形，棱 #mi(`EF\parallel BC`) 且 #mi(`EF=\frac{1}{2}BC`).
 
 
-+ (1) 证明：$F O parallel$ 平面 $C D E$；
-+ (2) 设 $B C=sqrt(3)C D$，证明：$E O bot$ 平面 $C D F$.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2006/img/tianjin_science/q19_fig1.png", width: 55%)]
+
+#align(center)[#image("/papers/2006/img/tianjin_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-取 $D$ 为原点，记
-$bold(u)=arrow(D C)=arrow(A B)$，$bold(v)=arrow(B C)$，$bold(w)=arrow(D E)$.
-因为 $A B C D$ 是矩形，所以 $bold(u)\p e r p b o l d(v)$. 又因为 $C D E$ 是等边三角形，所以
-$|bold(w)|=|bold(u)|$，$|bold(w)-bold(u)|=|bold(u)|$，
-从而 $bold(u)\c d o t b o l d(w)=(1)/(2)|bold(u)|^(2)$. 由图中棱的方向，$arrow(F E)=(1)/(2)bold(v)$，于是
-$arrow(D F)=bold(w)-(1)/(2)bold(v)$，$arrow(D O)=(1)/(2)(bold(u)-bold(v))$.
+取 #mi(`D`) 为原点，记
 
-+ (1) 有
+#mi(`\mathbf{u}=\overrightarrow{DC}=\overrightarrow{AB}`)，#mi(`\mathbf{v}=\overrightarrow{BC}`)，#mi(`\mathbf{w}=\overrightarrow{DE}`).
 
-$ arrow(F O)=arrow(D O)-arrow(D F)=(1)/(2)bold(u)-bold(w) $
+因为 #mi(`ABCD`) 是矩形，所以 #mi(`\mathbf{u}\perp\mathbf{v}`). 又因为 #mi(`CDE`) 是等边三角形，所以
 
-因为 $bold(u)$ 和 $bold(w)$ 都是平面 $C D E$ 内的方向向量，且五面体非退化给出 $F in.not$ 平面 $C D E$，所以 $F O parallel$ 平面 $C D E$.
-+ (2) 由 $B C=sqrt(3)C D$，得 $|bold(v)|^(2)=3|bold(u)|^(2)$. 又
+#mi(`|\mathbf{w}|=|\mathbf{u}|`)，#mi(`|\mathbf{w}-\mathbf{u}|=|\mathbf{u}|`)，
 
-$ arrow(O E)=bold(w)-(1)/(2)(bold(u)-bold(v))=bold(w)-(1)/(2)bold(u)+(1)/(2)bold(v) $
+从而 #mi(`\mathbf{u}\cdot\mathbf{w}=\dfrac{1}{2}|\mathbf{u}|^{2}`). 由图中棱的方向，#mi(`\overrightarrow{FE}=\dfrac{1}{2}\mathbf{v}`)，于是
 
-先有
+#mi(`\overrightarrow{DF}=\mathbf{w}-\frac{1}{2}\mathbf{v}`)，#mi(`\overrightarrow{DO}=\frac{1}{2}(\mathbf{u}-\mathbf{v})`).
 
-$ arrow(O E)\c d o t b o l d(u)=bold(w)\c d o t b o l d(u)-(1)/(2)|bold(u)|^(2)+(1)/(2)bold(v)\c d o t b o l d(u)=0 $
 
-所以 $O E bot C D$. 再计算
-
-$ \b e g i n{a l i g n e d} arrow(O E)\c d o t a r r o w(D F)&=(bold(w)-(1)/(2)bold(u)+(1)/(2)bold(v)) dot (bold(w)-(1)/(2)bold(v))\\ &=|bold(w)|^(2)-(1)/(2)bold(u)\c d o t b o l d(w)-(1)/(4)|bold(v)|^(2)\\ &=|bold(u)|^(2)-(1)/(4)|bold(u)|^(2)-(1)/(4)|bold(v)|^(2)=0. \e n d{a l i g n e d} $
-
-所以 $O E bot D F$. 直线 $C D$ 与 $D F$ 在平面 $C D F$ 内相交，故 $E O bot$ 平面 $C D F$.
++ (1)
 ]
 
 #problem(20)[
-已知函数 $f(x)=4 x^(3)-3 x^(2) cos theta +(3)/(16) cos theta$，其中 $x in RR$，$theta$ 为参数，且 $0 <= theta <2 pi$.
+已知函数 #mi(`f(x)=4x^{3}-3x^{2}\cos\theta+\frac{3}{16}\cos\theta`)，其中 #mi(`x\in\mathbb{R}`)，#mi(`\theta`) 为参数，且 #mi(`0\le\theta<2\pi`).
 
 
-+ (1) 当 $cos theta =0$ 时，判断函数 $f(x)$ 是否有极值；
-+ (2) 要使函数 $f(x)$ 的极小值大于零，求参数 $theta$ 的取值范围；
-+ (3) 若对（2）中所求的取值范围内的任意参数 $theta$，函数 $f(x)$ 在区间 $(2 a-1,a)$ 内都是增函数，求实数 $a$ 的取值范围.
++ (1) 
++ (2)
 ]
 
 #solution[
-记 $c= cos theta$，则
-
-$ f'(x)=12 x^(2)-6 c x=6 x(2 x-c) $
+记 #mi(`c=\cos\theta`)，则
 
 
-+ (1) 当 $c=0$ 时，$f(x)=4 x^(3)$，且 $f'(x)=12 x^(2) >= 0$. 函数在整个实数范围内单调递增，虽然 $f'(0)=0$，但导数没有由正变负或由负变正，故函数没有极值.
-+ (2) 当 $c<0$ 时，$x=0$ 是极小值点，但 $f(0)=(3 c)/(16)<0$，不符合题意. 当 $c>0$ 时，$x=0$ 是极大值点，$x=(c)/(2)$ 是极小值点，且
+#align(center)[#mitex(`
+f'(x)=12x^{2}-6cx=6x(2x-c)
+`)]
 
-$ f((c)/(2))=4((c)/(2))^(3)-3((c)/(2))^(2)c+(3 c)/(16)=(c(3-4 c^(2)))/(16) $
 
-要使极小值大于零，需且只需 $0<c<(sqrt(3))/(2)$. 结合 $0 <= theta <2 pi$，得
 
-$ theta in ((pi)/(6),(pi)/(2)) union ((3 pi)/(2),(11 pi)/(6)) $
-+ (3) 对上述范围内的 $theta$，有 $0<c<(sqrt(3))/(2)$，所以 $f'(x)>0$ 的区间为 $(- oo ,0)$ 和 $((c)/(2),+ oo )$. 先注意区间 $(2 a-1,a)$ 非空，必须有 $a<1$. 若 $a <= 0$，该区间完全包含在 $(- oo ,0)$ 内，条件成立；若 $a>0$，该区间含有正数，不可能对所有参数都落在 $(- oo ,0)$ 内，因此必须对所有 $0<c<(sqrt(3))/(2)$ 有 $2 a-1 >= (c)/(2)$.
-第二种情形等价于 $2 a-1 >= (sqrt(3))/(4)$，并且区间非空要求 $a<1$. 因此
-
-$ a in (- oo ,0] union [(1)/(2)+(sqrt(3))/(8),1) $
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-已知数列 $\{x_(n)\}$，$\{y_(n)\}$ 满足 $x_(1)=x_(2)=1$，$y_(1)=y_(2)=2$，并且 $(x_(n+1))/(x_n)= lambda (x_n)/(x_(n-1))$，$(y_(n+1))/(y_n) >= lambda (y_n)/(y_(n-1))$（$lambda$ 为非零参数，$n=2$，$3$，$4$，$dots.c$）.
+已知数列 #mi(`\{x_{n}\}`)，#mi(`\{y_{n}\}`) 满足 #mi(`x_{1}=x_{2}=1`)，#mi(`y_{1}=y_{2}=2`)，并且 #mi(`\frac{x_{n+1}}{x_{n}}=\lambda\frac{x_{n}}{x_{n-1}}`)，#mi(`\frac{y_{n+1}}{y_{n}}\ge\lambda\frac{y_{n}}{y_{n-1}}`)（#mi(`\lambda`) 为非零参数，#mi(`n=2`)，#mi(`3`)，#mi(`4`)，#mi(`\cdots`)）.
 
 
-+ (1) 若 $x_(1)$，$x_(3)$，$x_(5)$ 成等比数列，求参数 $lambda$ 的值；
-+ (2) 当 $lambda >0$ 时，证明：$(x_(n+1))/(y_(n+1)) <= (x_n)/(y_n)$（$n in NN ""^(*)$）；
-+ (3) 当 $lambda >1$，证明：$(x_(1)-y_(1))/(x_(2)-y_(2))+(x_(2)-y_(2))/(x_(3)-y_(3))+ dots.c +(x_(n)-y_(n))/(x_(n+1)-y_(n+1))<(lambda)/(lambda -1)$（$n in NN ""^(*)$）.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 由递推关系逐项计算得 $x_(3)= lambda$，$x_(4)= lambda ""^(3)$，$x_(5)= lambda ""^(6)$. 因为 $x_(1)$，$x_(3)$，$x_(5)$ 成等比数列，所以 $x_(3)^(2)=x_(1)x_(5)$，即 $lambda ""^(2)= lambda ""^(6)$.
-又 $lambda \n e q0$，故 $lambda = +- 1$.
-+ (2) 当 $n=1$ 时，$(x_(2))/(y_(2))=(x_(1))/(y_(1))=(1)/(2)$. 对 $n >= 2$，令 $r_(n)=(x_(n))/(x_(n-1))$，$s_(n)=(y_(n))/(y_(n-1))$. 由 $r_(2)=1$ 及递推式，
-得 $r_(n)= lambda ""^(n-2)$，$(x_(n+1))/(x_(n))= lambda ""^(n-1)$.
-当 $lambda >0$ 时，$s_(2)=1$，且 $s_(3) >= lambda = lambda ""^(2-1)$. 若对某个 $n >= 2$ 有 $s_(n) >= lambda ""^(n-2)$，则 $s_(n+1) >= lambda s_(n) >= lambda ""^(n-1)$. 由数学归纳法，$s_(n+1) >= lambda ""^(n-1)$ 对所有 $n >= 2$ 成立. 因为各项均为正数，所以
-
-$ (x_(n+1))/(y_(n+1))=(x_(n))/(y_(n)) dot ((x_(n+1))/(x_(n)))/((y_(n+1))/(y_(n))) <= (x_(n))/(y_(n)) $
-+ (3) 当 $lambda >1$ 时，$x_n>0$，$y_n>0$. 又 $(x_(1))/(y_(1))=(x_(2))/(y_(2))=(1)/(2)$，由（2）有 $(x_(n))/(y_(n)) <= (1)/(2)$，所以 $y_(n) >= 2 x_(n)>x_(n)$. 令 $d_(n)=y_(n)-x_(n)>0$，则 $d_(1)=d_(2)=1$，且对 $n >= 2$，
-有 $y_(n+1) >= lambda ""^(n-1)y_(n)$，$x_(n+1)= lambda ""^(n-1)x_(n)$，
-从而
-
-$ d_(n+1) >= lambda ""^(n-1)d_(n) $
-
-因此
-$(x_(n)-y_(n))/(x_(n+1)-y_(n+1))=(d_(n))/(d_(n+1)) <= (1)/(lambda ""^(n-1))$，（$n >= 2$）.
-当 $n=1$ 时，该比值为 $(d_(1))/(d_(2))=1$，同样不超过 $(1)/(lambda ""^(0))$. 因此相加得到
-
-$ sum_(k=1)^(n)(x_(k)-y_(k))/(x_(k+1)-y_(k+1))\l e q s l a n t s u m_(k=1)^(n)(1)/(lambda ""^(k-1))=(lambda (1- lambda ""^(-n)))/(lambda -1)<(lambda)/(lambda -1) $
++ (1) 
++ (2)
 ]
 
 #problem(22)[
-如图，以椭圆 $(x^2)/(a^2)+(y^2)/(b^2)=1$（$a>b>0$）的中心 $O$ 为圆心，分别以 $a$ 和 $b$ 为半径作大圆和小圆. 过椭圆右焦点 $F(c,0)$（$c>b$）作垂直于 $x$ 轴的直线交大圆于第一象限内的点 $A$. 连结 $O A$ 交小圆于点 $B$. 设直线 $B F$ 是小圆的切线.
+如图，以椭圆 #mi(`\frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1`)（#mi(`a>b>0`)）的中心 #mi(`O`) 为圆心，分别以 #mi(`a`) 和 #mi(`b`) 为半径作大圆和小圆. 过椭圆右焦点 #mi(`F(c,0)`)（#mi(`c>b`)）作垂直于 #mi(`x`) 轴的直线交大圆于第一象限内的点 #mi(`A`). 连结 #mi(`OA`) 交小圆于点 #mi(`B`). 设直线 #mi(`BF`) 是小圆的切线.
 
 
-+ (1) 证明 $c^2=a b$，并求直线 $B F$ 与 $y$ 轴的交点 $M$ 的坐标；
-+ (2) 设直线 $B F$ 交椭圆于 $P$，$Q$ 两点，证明：$arrow(O P)\c d o t a r r o w(O Q)=(1)/(2)b^2$.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2006/img/tianjin_science/q22_fig1.png", width: 55%)]
+
+#align(center)[#image("/papers/2006/img/tianjin_science/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-椭圆的焦点满足 $c^(2)=a^(2)-b^(2)$. 直线 $x=c$ 与大圆 $x^(2)+y^(2)=a^(2)$ 在第一象限的交点为
-
-$ A=(c,b) $
-
-因为 $c^(2)+b^(2)=a^(2)$. 又 $O A=a$，而 $B$ 在射线 $O A$ 上且在半径为 $b$ 的小圆上，所以
-
-$ B=(b)/(a)A=((b c)/(a),(b^(2))/(a)) $
+椭圆的焦点满足 #mi(`c^{2}=a^{2}-b^{2}`). 直线 #mi(`x=c`) 与大圆 #mi(`x^{2}+y^{2}=a^{2}`) 在第一象限的交点为
 
 
-+ (1) 直线 $B F$ 是小圆在 $B$ 处的切线，因此 $O B bot B F$，即
+#align(center)[#mitex(`
+A=(c,b)
+`)]
 
-$ arrow(O B)\c d o t a r r o w(F B)=0 $
 
-等价地，$B dot (F-B)=0$，所以 $B dot F=|B|^(2)=b^(2)$. 代入坐标得
+因为 #mi(`c^{2}+b^{2}=a^{2}`). 又 #mi(`OA=a`)，而 #mi(`B`) 在射线 #mi(`OA`) 上且在半径为 #mi(`b`) 的小圆上，所以
 
-$ (b c)/(a) dot c=b^(2) $
 
-从而 $c^(2)=a b$.
+#align(center)[#mitex(`
+B=\frac{b}{a}A=\left(\frac{bc}{a},\frac{b^{2}}{a}\right)
+`)]
 
-小圆在 $B(x_(B),y_(B))$ 处的切线方程为 $x_(B)x+y_(B)y=b^(2)$，代入 $B$ 的坐标并约去 $(b)/(a)$，得
 
-$ c x+b y=a b=c^(2) $
 
-令 $x=0$，得到直线与 $y$ 轴的交点为 $M=(0,a)$.
-+ (2) 令椭圆上 $P$，$Q$ 的坐标分别为 $(x_(1),y_(1))$，$(x_(2),y_(2))$，并作变换 $u=(x)/(a)$，$v=(y)/(b)$.
-则 $P$，$Q$ 对应于单位圆 $u^(2)+v^(2)=1$ 上的两点，直线 $B F$ 变为
-
-$ alpha u+ beta v=1 $
-
-其中 $alpha =(c)/(b)$，$beta =(b)/(a)$.
-令 $t=(b)/(a)$，由 $c^(2)=a b$ 和 $c^(2)=a^(2)-b^(2)$ 得 $t^(2)+t-1=0$. 因而
-
-$ alpha ""^(2)+ beta ""^(2)=(1)/(t)+t^(2)=2 $
-
-直线 $alpha u+ beta v=1$ 到原点的距离为 $(1)/(sqrt(2))$，其垂足为 $((alpha)/(2),(beta)/(2))$. 方向向量 $(- beta , alpha )$ 的长度为 $sqrt(2)$，故单位圆上该弦的两个端点分别为 $((alpha + beta)/(2),(beta - alpha)/(2))$ 和 $((alpha - beta)/(2),(beta + alpha)/(2))$.
-所以
-
-$ u_(1)u_(2)=(alpha ""^(2)- beta ""^(2))/(4) $
-
-由上面两点的纵坐标分别为 $(beta - alpha)/(2)$ 和 $(beta + alpha)/(2)$，有 $v_(1)v_(2)=(( beta - alpha )( beta + alpha ))/(4)=(beta ""^(2)- alpha ""^(2))/(4)$.
-于是
-
-$ arrow(O P)\c d o t a r r o w(O Q)=x_(1)x_(2)+y_(1)y_(2)=(a^(2)-b^(2))(alpha ""^(2)- beta ""^(2))/(4) $
-
-又 $alpha ""^(2)- beta ""^(2)=(1)/(t)-t^(2)=2 t$，且 $c^(2)=a^(2)t$，故
-
-$ arrow(O P)\c d o t a r r o w(O Q)=(c^(2){t})/(2)=(a^(2){t}^(2))/(2)=(b^(2))/(2) $
++ (1)
 ]
 

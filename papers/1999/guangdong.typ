@@ -13,7 +13,9 @@
 #problem(1)[
 如图，#mi(`I`) 是全集，#mi(`M`)，#mi(`P`)，#mi(`S`) 是 #mi(`I`) 的 #mi(`3`) 个子集，则阴影部分所表示的集合是（ ）
 
-[max width=0.36\linewidth]img/1999/guangdong/q1_fig1.png
+
+#align(center)[#image("/papers/1999/img/guangdong/q1_fig1.png", width: 28%)]
+
   #choices([#mi(`(M\cap P)\cap S`)], [#mi(`(M\cap P)\cup S`)], [#mi(`(M\cap P)\cap \overline{S}`)], [#mi(`(M\cap P)\cup \overline{S}`)], cols: 1)
 ]
 
@@ -194,7 +196,9 @@ d=\frac{2\sqrt{3}}{\sqrt{(\sqrt{3})^{2}+1^{2}}}=\sqrt{3}
 #problem(10)[
 如图，在多面体 #mi(`ABCDEF`) 中，已知面 #mi(`ABCD`) 是边长为 #mi(`3`) 的正方形，#mi(`EF\parallel AB`)，#mi(`EF=\frac{3}{2}`)，#mi(`EF`) 与面 #mi(`AC`) 的距离为 #mi(`2`)，则该多面体的体积为（ ）
 
-[max width=0.40\linewidth]img/1999/guangdong/q10_fig1.png
+
+#align(center)[#image("/papers/1999/img/guangdong/q10_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{9}{2}`)], [#mi(`5`)], [#mi(`6`)], [#mi(`\frac{15}{2}`)], cols: 2)
 ]
 
@@ -427,7 +431,9 @@ y&=\tan(\theta-\arg z)=\frac{\tan\theta-\frac{2}{3}\tan\theta}{1+\frac{2}{3}\tan
 
 
 
-[max width=0.40\linewidth]img/1999/guangdong/q19_fig1.png
+
+#align(center)[#image("/papers/1999/img/guangdong/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -453,7 +459,9 @@ y&=\tan(\theta-\arg z)=\frac{\tan\theta-\frac{2}{3}\tan\theta}{1+\frac{2}{3}\tan
 
 \hline
 
-[max width=0.48\linewidth]img/1999/guangdong/q20_fig1.png
+
+#align(center)[#image("/papers/1999/img/guangdong/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -476,7 +484,9 @@ y&=\tan(\theta-\arg z)=\frac{\tan\theta-\frac{2}{3}\tan\theta}{1+\frac{2}{3}\tan
 #problem(22)[
 如图，给出定点 #mi(`A(a,0)`)（#mi(`a>0`)，#mi(`a\neq 1`)）和直线 #mi(`l:x=-1`). #mi(`B`) 是直线 #mi(`l`) 上的动点，#mi(`\angle BOA`) 的角平分线交 #mi(`AB`) 于点 #mi(`C`). 求点 #mi(`C`) 的轨迹方程，并讨论方程表示的曲线类型与 #mi(`a`) 值的关系.
 
-[max width=0.40\linewidth]img/1999/guangdong/q22_fig1.png
+
+#align(center)[#image("/papers/1999/img/guangdong/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[

@@ -33,7 +33,9 @@
 #problem(2)[
 围一矩形场地，一边利用房屋的墙，其他三边用 #mi(`L\text{ \text{米}}`) 的篱笆围成，问怎样围才能使面积最大？最大面积是多少？
 
-[max width=6.0cm]img/1977/hubei/q2_fig1.png
+
+#align(center)[#image("/papers/1977/img/hubei/q2_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -98,7 +100,9 @@ y=\sqrt{3}\cos2x+\sin2x=2\left(\frac{\sqrt{3}}{2}\cos2x+\frac{1}{2}\sin2x\right)
 
 \hline
 
-[max width=6.4cm]img/1977/hubei/q5_solution_fig1.png
+ 
+#align(center)[#image("/papers/1977/img/hubei/q5_solution_fig1.png", width: 28%)]
+
 ]
 
 #part-header("参考题")

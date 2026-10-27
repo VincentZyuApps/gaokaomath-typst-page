@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,202 +11,232 @@
 #part-header("填空题")
 
 #problem(1)[
-已知全集 $U = \{x | 2 <= x <= 5 , x in RR \}$，集合 $A = \{x | 2 <= x < 4, x in RR \}$，则 $overline(A)=$#blank(){}.
+已知全集 #mi(`U = \{x \mid 2 \le x \le 5, x \in \mathbb{R}\}`)，集合 #mi(`A = \{x \mid 2 \le x < 4, x \in \mathbb{R}\}`)，则 #mi(`\bar{A}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$overline(A)= \{x | 4 <= x <= 5 , x in RR \}=[4,5]$])
+#answer([#mi(`\bar{A}= \{x \mid 4 \le x \le 5, x \in \mathbb{R}\}=[4,5]`)])
 
 #solution[
-根据补集定义，$overline(A)= \{x | x in U, x in.not A\}$. 又 $U=\{x\m i d2 <= x <= 5 \}$，所以 $overline(A)=\{x\m i d4 <= x <= 5 \}$.
+根据补集定义，#mi(`\bar{A}= \{x \mid x \in U, x \notin A\}`). 又 #mi(`U=\{x\mid2\le x\le5\}`)，所以 #mi(`\bar{A}=\{x\mid4\le x\le5\}`).
 ]
 
 #problem(2)[
-设 $x in RR$，不等式 $(x-1)/(x-3)<0$ 的解集为#blank(){}.
+设 #mi(`x\in\mathbb{R}`)，不等式 #mi(`\frac{x-1}{x-3}<0`) 的解集为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1,3)$])
+#answer([#mi(`(1,3)`)])
 
 #solution[
-由 $(x-1)/(x-3)<0$，得 $1<x<3$.
+由 #mi(`\frac{x-1}{x-3}<0`)，得 #mi(`1<x<3`).
 ]
 
 #problem(3)[
-已知等差数列 $\{a_n\}$ 的首项 $a_1 = -3$，公差 $d = 2$，则该数列的前 $6$ 项和为#blank(){}.
+已知等差数列 #mi(`\{a_{n}\}`) 的首项 #mi(`a_{1} = -3`)，公差 #mi(`d = 2`)，则该数列的前 #mi(`6`) 项和为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$12$])
+#answer([#mi(`12`)])
 
 #solution[
-由等差数列求和公式，$S_6 = (6(a_1+a_6))/(2)=3(a_1+a_6)$，其中 $a_6=a_1+5 d=7$，故 $S_6=3(-3+7)=12$.
+由等差数列求和公式，#mi(`S_{6} = \frac{6(a_{1}+a_{6})}{2}=3(a_{1}+a_{6})`)，其中 #mi(`a_{6}=a_{1}+5d=7`)，故 #mi(`S_{6}=3(-3+7)=12`).
 ]
 
 #problem(4)[
-在二项式 $(2 x-1)^5$ 的展开式中，$x^3$ 的系数为#blank(){}.
+在二项式 #mi(`(2x-1)^{5}`) 的展开式中，#mi(`x^{3}`) 的系数为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$80$])
+#answer([#mi(`80`)])
 
 #solution[
-二项式 $(2 x-1)^5$ 中 $x^3$ 的系数对应 $r=2$，$T_(3)=C_5^2(2)^3(-1)^2=80$.
+二项式 #mi(`(2x-1)^{5}`) 中 #mi(`x^{3}`) 的系数对应 #mi(`r=2`)，#mi(`\mathrm{T}_{3}=\mathrm{C}_{5}^{2}(2)^{3}(-1)^{2}=80`).
 ]
 
 #problem(5)[
-函数 $y= cos x$ 在 $[-(pi)/(2),(pi)/(4)]$ 上的值域为#blank(){}.
+函数 #mi(`y=\cos x`) 在 #mi(`[-\frac{\pi}{2},\frac{\pi}{4}]`) 上的值域为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[0,1]$])
+#answer([#mi(`[0,1]`)])
 
 #solution[
-函数 $y= cos x$ 在 $[-(pi)/(2),0]$ 上递增，在 $[0,(pi)/(4)]$ 上递减. 并且 $y(-(pi)/(2))=0$，$y(0)=1$，$y((pi)/(4))=(sqrt(2))/(2)$. 故值域为 $[0,1]$.
+函数 #mi(`y=\cos x`) 在 #mi(`[-\frac{\pi}{2},0]`) 上递增，在 #mi(`[0,\frac{\pi}{4}]`) 上递减. 并且 #mi(`y(-\frac{\pi}{2})=0`)，#mi(`y(0)=1`)，#mi(`y(\frac{\pi}{4})=\frac{\sqrt{2}}{2}`). 故值域为 #mi(`[0,1]`).
 ]
 
 #problem(6)[
-已知随机变量 $X$ 的分布为
-$\b e g i n{p m a t r i x}5&6&7\\0.2&0.3&0.5\e n d{p m a t r i x}$，则期望 $E(X)=$#blank(){}.
+已知随机变量 #mi(`X`) 的分布为
+
+#mi(`\begin{pmatrix}5&6&7\\0.2&0.3&0.5\end{pmatrix}`)，则期望 #mi(`E(X)=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$6.3$])
+#answer([#mi(`6.3`)])
 
 #solution[
-由题意，$E(X)=5 times 0 .2+6 times 0 .3+7 times 0 .5=1+1.8+3.5=6.3$.
+由题意，#mi(`E(X)=5\times0.2+6\times0.3+7\times0.5=1+1.8+3.5=6.3`).
 ]
 
 #problem(7)[
-如图，在正四棱柱 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$A C=4 sqrt(2)$，$B D_1=9$，则该正四棱柱的体积为#blank(){}.
+如图，在正四棱柱 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`AC=4\sqrt{2}`)，#mi(`BD_{1}=9`)，则该正四棱柱的体积为\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2025/img/shanghai/q7_fig1.png", width: 6.0cm)]
+#align(center)[#image("/papers/2025/img/shanghai/q7_fig1.png", width: 28%)]
+
 ]
 
-#answer([$112$])
+#answer([#mi(`112`)])
 
 #solution[
-因为 $A C=4 sqrt(2)$，且 $A B C D$ 为正方形，所以 $B A=4$，从而 $B D=4 sqrt(2)$. 又 $B D_1=9$，所以 $B B_1^2+B D^2=9^2$，得 $B B_1=7$. 底面积为 $B A dot B C=16$，体积 $=16 times 7 =112$.
+因为 #mi(`AC=4\sqrt{2}`)，且 #mi(`ABCD`) 为正方形，所以 #mi(`BA=4`)，从而 #mi(`BD=4\sqrt{2}`). 又 #mi(`BD_{1}=9`)，所以 #mi(`BB_{1}^{2}+BD^{2}=9^{2}`)，得 #mi(`BB_{1}=7`). 底面积为 #mi(`BA\cdot BC=16`)，体积 #mi(`=16\times7=112`).
 ]
 
 #problem(8)[
-设 $a$，$b>0$，若 $a+(1)/(b)=1$，则 $b+(1)/(a)$ 的最小值为#blank(){}.
+设 #mi(`a`)，#mi(`b>0`)，若 #mi(`a+\frac{1}{b}=1`)，则 #mi(`b+\frac{1}{a}`) 的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$4$])
+#answer([#mi(`4`)])
 
 #solution[
-由题设 $a+(1)/(b)=1$，得 $0<a<1$，且 $b=(1)/(1-a)$. 因此
-$b+(1)/(a)=(1)/(1-a)+(1)/(a)=(1)/(a(1-a)) >= 4$.
-当 $a=(1)/(2)$，$b=2$ 时取等号，故最小值为4.
+由题设 #mi(`a+\frac{1}{b}=1`)，得 #mi(`0<a<1`)，且 #mi(`b=\frac{1}{1-a}`). 因此
+
+#mi(`b+\frac{1}{a}=\frac{1}{1-a}+\frac{1}{a}=\frac{1}{a(1-a)}\ge4`).
+
+当 #mi(`a=\frac{1}{2}`)，#mi(`b=2`) 时取等号，故最小值为4.
 ]
 
 #problem(9)[
-$4$ 个家长和 $2$ 个儿童去郊游爬山，$6$ 个人需要排成一条队列，要求队列的头和尾均是家长，则不同的排列个数有#blank(){}.
+#mi(`4`) 个家长和 #mi(`2`) 个儿童去郊游爬山，#mi(`6`) 个人需要排成一条队列，要求队列的头和尾均是家长，则不同的排列个数有\underline{\hspace{2.5em}}.
 ]
 
-#answer([$288$])
+#answer([#mi(`288`)])
 
 #solution[
-先安排首尾两位家长，有 $A_4^2=12$ 种；再安排中间 $4$ 人，有 $A_4^4=24$ 种，故共 $12 times 24 =288$ 种.
+先安排首尾两位家长，有 #mi(`\mathrm{A}_{4}^{2}=12`) 种；再安排中间 #mi(`4`) 人，有 #mi(`\mathrm{A}_{4}^{4}=24`) 种，故共 #mi(`12\times24=288`) 种.
 ]
 
 #problem(10)[
-$i$ 为虚数单位，若复数 $z$ 满足 $z^2=(\b a r z)^2$，且 $|z| <= 1$，则 $|z-2-3 i |$ 的最小值是#blank(){}.
+#mi(`i`) 为虚数单位，若复数 #mi(`z`) 满足 #mi(`z^{2}=(\bar z)^{2}`)，且 #mi(`|z|\le1`)，则 #mi(`|z-2-3\mathrm{i}|`) 的最小值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2 sqrt(2)$])
+#answer([#mi(`2\sqrt{2}`)])
 
 #solution[
-设 $z=a+b i$（$a$，$b in RR$），则 $\b a r z=a-b i$. 由
-$z^2=a^2+2 a b i -b^2$，$(\b a r z)^2=a^2-2 a b i -b^2$，
-可得 $4 a b i =0$，所以 $a b=0$.
-因此 $a=0$ 或 $b=0$，即复数 $z$ 对应的点 $Z(a,b)$ 在线段 $[-1,1]$ 的实轴部分或线段 $[-1,1]$ 的虚轴部分上.
+设 #mi(`z=a+b\mathrm{i}`)（#mi(`a`)，#mi(`b\in\mathbb{R}`)），则 #mi(`\bar z=a-b\mathrm{i}`). 由
 
-设 $E(2,3)$，则 $|z-2-3 i |=|Z E|$.
+#mi(`z^{2}=a^{2}+2ab\mathrm{i}-b^{2}`)，#mi(`(\bar z)^{2}=a^{2}-2ab\mathrm{i}-b^{2}`)，
 
-当 $b=0$ 时，$|Z E|^2=(a-2)^2+9$（$a in [-1,1]$）. 因为 $a <= 1$，所以当 $a=1$ 时取最小值，此时 $|Z E|_( min )=sqrt((1-2)^2+9)=sqrt(10)$.
+可得 #mi(`4ab\mathrm{i}=0`)，所以 #mi(`ab=0`).
 
-当 $a=0$ 时，$|Z E|^2=4+(b-3)^2$（$b in [-1,1]$）. 因为 $b <= 1$，所以当 $b=1$ 时取最小值，此时
-$|Z E|_( min )=sqrt(4+(1-3)^2)=2 sqrt(2)$
-比较 $sqrt(10)$ 与 $2 sqrt(2)$，得 $2 sqrt(2)<sqrt(10)$.
-故 $|z-2-3 i |$ 的最小值为 $2 sqrt(2)$.
+因此 #mi(`a=0`) 或 #mi(`b=0`)，即复数 #mi(`z`) 对应的点 #mi(`Z(a,b)`) 在线段 #mi(`[-1,1]`) 的实轴部分或线段 #mi(`[-1,1]`) 的虚轴部分上.
+
+设 #mi(`E(2,3)`)，则 #mi(`|z-2-3\mathrm{i}|=|ZE|`).
+
+当 #mi(`b=0`) 时，#mi(`|ZE|^{2}=(a-2)^{2}+9`)（#mi(`a\in[-1,1]`)）. 因为 #mi(`a\le1`)，所以当 #mi(`a=1`) 时取最小值，此时 #mi(`|ZE|_{\min}=\sqrt{(1-2)^{2}+9}=\sqrt{10}`).
+
+当 #mi(`a=0`) 时，#mi(`|ZE|^{2}=4+(b-3)^{2}`)（#mi(`b\in[-1,1]`)）. 因为 #mi(`b\le1`)，所以当 #mi(`b=1`) 时取最小值，此时
+
+#mi(`|ZE|_{\min}=\sqrt{4+(1-3)^{2}}=2\sqrt{2}`)
+
+比较 #mi(`\sqrt{10}`) 与 #mi(`2\sqrt{2}`)，得 #mi(`2\sqrt{2}<\sqrt{10}`).
+
+故 #mi(`|z-2-3\mathrm{i}|`) 的最小值为 #mi(`2\sqrt{2}`).
 ]
 
 #problem(11)[
-小申同学观察发现，生活中有时候影子可以完全投射在斜面上. 某斜面上有两根长为 $1$ 米且垂直于水平面放置的杆子，与斜面的接触点分别为 $A$，$B$，它们在阳光的照射下呈现出影子，阳光可视为平行光，其中 $A$ 处杆子的影子在水平面上，长度为 $0.4$ 米，$B$ 处杆子的影子完全在斜面上，长度为 $0.45$ 米. 则斜面的坡角 $theta =$#blank(){}（结果精确到 $0.01^ degree$）.
+小申同学观察发现，生活中有时候影子可以完全投射在斜面上. 某斜面上有两根长为 #mi(`1`) 米且垂直于水平面放置的杆子，与斜面的接触点分别为 #mi(`A`)，#mi(`B`)，它们在阳光的照射下呈现出影子，阳光可视为平行光，其中 #mi(`A`) 处杆子的影子在水平面上，长度为 #mi(`0.4`) 米，#mi(`B`) 处杆子的影子完全在斜面上，长度为 #mi(`0.45`) 米. 则斜面的坡角 #mi(`\theta=`)\underline{\hspace{2.5em}}（结果精确到 #mi(`0.01^{\circ}`)）.
 
 
-#align(center)[#image("/papers/2025/img/shanghai/q11_fig1.png", width: 6.0cm)]
+#align(center)[#image("/papers/2025/img/shanghai/q11_fig1.png", width: 28%)]
+
 ]
 
-#answer([$12.58^ degree$])
+#answer([#mi(`12.58^{\circ}`)])
 
 #solution[
-先由 $A$ 点杆子算出太阳光线与水平面的夹角 $x$，有 $tan x=(1)/(0.4)=2.5$.
-在包含 $B$ 点杆子和阳光方向的竖直截面内，设 $C$ 为 $B$ 点杆顶，$E$ 为影子在斜面上的终点，过 $E$ 作水平线交 $B$ 点杆所在竖线于 $D$. 设 $B D=y$，则 $C D=1+y$，且 $angle C E D=x$，所以 $E D=(1+y)/(2.5)$.
-由 $C E=0.45$ 及勾股定理得
-$y^2+((1+y)/(2.5))^2=0.45^2$
-解得 $y approx 0 .098$.
+先由 #mi(`A`) 点杆子算出太阳光线与水平面的夹角 #mi(`x`)，有 #mi(`\tan x=\frac{1}{0.4}=2.5`).
+
+在包含 #mi(`B`) 点杆子和阳光方向的竖直截面内，设 #mi(`C`) 为 #mi(`B`) 点杆顶，#mi(`E`) 为影子在斜面上的终点，过 #mi(`E`) 作水平线交 #mi(`B`) 点杆所在竖线于 #mi(`D`). 设 #mi(`BD=y`)，则 #mi(`CD=1+y`)，且 #mi(`\angle CED=x`)，所以 #mi(`ED=\frac{1+y}{2.5}`).
+
+由 #mi(`CE=0.45`) 及勾股定理得
+
+#mi(`y^{2}+\left(\frac{1+y}{2.5}\right)^{2}=0.45^{2}`)
+
+解得 #mi(`y\approx0.098`).
+
 故
-$theta = arcsin (y)/(0.45) approx 12 .58^ degree$
+
+#mi(`\theta=\arcsin\frac{y}{0.45}\approx12.58^{\circ}`)
 ]
 
 #problem(12)[
-已知函数 $f(x)$ 满足：当 $x>0$ 时 $f(x)=1$，当 $x=0$ 时 $f(x)=0$，当 $x<0$ 时 $f(x)=-1$. $bold(a)$，$bold(b)$，$bold(c)$ 分别为平面内三个不同的单位向量. 若 $f(bold(a)\c d o t b o l d(b))+f(bold(b)\c d o t b o l d(c))+f(bold(c)\c d o t b o l d(a))=0$，则 $|bold(a)+bold(b)+bold(c)|$ 的可取值范围是#blank(){}.
+已知函数 #mi(`f(x)`) 满足：当 #mi(`x>0`) 时 #mi(`f(x)=1`)，当 #mi(`x=0`) 时 #mi(`f(x)=0`)，当 #mi(`x<0`) 时 #mi(`f(x)=-1`). #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`)，#mi(`\mathbf{c}`) 分别为平面内三个不同的单位向量. 若 #mi(`f(\mathbf{a}\cdot\mathbf{b})+f(\mathbf{b}\cdot\mathbf{c})+f(\mathbf{c}\cdot\mathbf{a})=0`)，则 #mi(`|\mathbf{a}+\mathbf{b}+\mathbf{c}|`) 的可取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1,sqrt(5))$])
+#answer([#mi(`(1,\sqrt{5})`)])
 
 #solution[
-由题设，$f(bold(a)\c d o t b o l d(b))$，$f(bold(b)\c d o t b o l d(c))$，$f(bold(c)\c d o t b o l d(a)) in \{-1,0,1\}$. 若三者都等于 $0$，则
-$bold(a)\c d o t b o l d(b)=0$，$bold(b)\c d o t b o l d(c)=0$，$bold(c)\c d o t b o l d(a)=0$.
-这说明 $bold(a)$，$bold(b)$，$bold(c)$ 两两垂直. 但 $bold(a)$，$bold(b)$，$bold(c)$ 是平面内三个不同的单位向量，不可能两两垂直，矛盾.
-故 $f(bold(a)\c d o t b o l d(b))$，$f(bold(b)\c d o t b o l d(c))$，$f(bold(c)\c d o t b o l d(a))$ 必为 $-1$，$0$，$1$ 的一个排列. 不妨设
-$f(bold(a)\c d o t b o l d(b))=1$，$f(bold(b)\c d o t b o l d(c))=0$，$f(bold(c)\c d o t b o l d(a))=-1$.
+由题设，#mi(`f(\mathbf{a}\cdot\mathbf{b})`)，#mi(`f(\mathbf{b}\cdot\mathbf{c})`)，#mi(`f(\mathbf{c}\cdot\mathbf{a})\in\{-1,0,1\}`). 若三者都等于 #mi(`0`)，则
+
+#mi(`\mathbf{a}\cdot\mathbf{b}=0`)，#mi(`\mathbf{b}\cdot\mathbf{c}=0`)，#mi(`\mathbf{c}\cdot\mathbf{a}=0`).
+
+这说明 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`)，#mi(`\mathbf{c}`) 两两垂直. 但 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`)，#mi(`\mathbf{c}`) 是平面内三个不同的单位向量，不可能两两垂直，矛盾.
+
+故 #mi(`f(\mathbf{a}\cdot\mathbf{b})`)，#mi(`f(\mathbf{b}\cdot\mathbf{c})`)，#mi(`f(\mathbf{c}\cdot\mathbf{a})`) 必为 #mi(`-1`)，#mi(`0`)，#mi(`1`) 的一个排列. 不妨设
+
+#mi(`f(\mathbf{a}\cdot\mathbf{b})=1`)，#mi(`f(\mathbf{b}\cdot\mathbf{c})=0`)，#mi(`f(\mathbf{c}\cdot\mathbf{a})=-1`).
+
 则
-$bold(a)\c d o t b o l d(b)>0$，$bold(b)\c d o t b o l d(c)=0$，$bold(c)\c d o t b o l d(a)<0$.
-不妨设 $bold(b)=(1,0)$，$bold(c)=(0,1)$，$bold(a)=( cos theta , sin theta )$，则 $theta in (3(pi)/(2),2 pi )$. 此时
-$|bold(a)+bold(b)+bold(c)|=sqrt((1+ cos theta )^2+(1+ sin theta )^2)=sqrt(3+2 sqrt(2) sin ( theta +(pi)/(4)))$
-又有 $sin ( theta +(pi)/(4)) in (-1,(sqrt(2))/(2))$，故
-$|bold(a)+bold(b)+bold(c)| in (1,sqrt(5))$
+
+#mi(`\mathbf{a}\cdot\mathbf{b}>0`)，#mi(`\mathbf{b}\cdot\mathbf{c}=0`)，#mi(`\mathbf{c}\cdot\mathbf{a}<0`).
+
+不妨设 #mi(`\mathbf{b}=(1,0)`)，#mi(`\mathbf{c}=(0,1)`)，#mi(`\mathbf{a}=(\cos\theta,\sin\theta)`)，则 #mi(`\theta\in(3\frac{\pi}{2},2\pi)`). 此时
+
+#mi(`|\mathbf{a}+\mathbf{b}+\mathbf{c}|=\sqrt{(1+\cos\theta)^{2}+(1+\sin\theta)^{2}}=\sqrt{3+2\sqrt{2}\sin\left(\theta+\frac{\pi}{4}\right)}`)
+
+又有 #mi(`\sin\left(\theta+\frac{\pi}{4}\right)\in\left(-1,\frac{\sqrt{2}}{2}\right)`)，故
+
+#mi(`|\mathbf{a}+\mathbf{b}+\mathbf{c}|\in(1,\sqrt{5})`)
 ]
 
 #part-header("单选题")
 
 #problem(13)[
-已知事件 $A$，$B$ 相互独立，若 $P(A)=P(B)=(1)/(2)$，则 $P(A inter B)$ 的值为（ ）
-  #choices([$0$], [$(1)/(4)$], [$(1)/(2)$], [$1$], cols: 4)
+已知事件 #mi(`A`)，#mi(`B`) 相互独立，若 #mi(`P(A)=P(B)=\frac{1}{2}`)，则 #mi(`P(A\cap B)`) 的值为（ ）
+  #choices([#mi(`0`)], [#mi(`\frac{1}{4}`)], [#mi(`\frac{1}{2}`)], [#mi(`1`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-因为 $A$，$B$ 相互独立，所以 $P(A inter B)=P(A)P(B)=(1)/(2) times (1)/(2)=(1)/(4)$. 故选 B.
+因为 #mi(`A`)，#mi(`B`) 相互独立，所以 #mi(`P(A\cap B)=P(A)P(B)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}`). 故选 B.
 ]
 
 #problem(14)[
-已知 $a>0$ 且 $a != 1$，$s in RR$，下列各项中，能推出 $a^s>a$ 的是（ ）
-  #choices([$a>1$ 且 $s>0$], [$a>1$ 且 $s<0$], [$0<a<1$ 且 $s>0$], [$0<a<1$ 且 $s<0$], cols: 4)
+已知 #mi(`a>0`) 且 #mi(`a\ne1`)，#mi(`s\in\mathbb{R}`)，下列各项中，能推出 #mi(`a^{s}>a`) 的是（ ）
+  #choices([#mi(`a>1`) 且 #mi(`s>0`)], [#mi(`a>1`) 且 #mi(`s<0`)], [#mi(`0<a<1`) 且 #mi(`s>0`)], [#mi(`0<a<1`) 且 #mi(`s<0`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
 因为
-$a^s>a <=> a^(s-1)>1=a^0$
-若 $0<a<1$，$a^x$ 在 $RR$ 上严格减函数，因此要使 $a^(s-1)>1$ 需 $s-1<0$. 故 $s<1$. 又 $0<a<1$ 时 $a^0=1$ 为最大值，故该条件与 $a in (0,1)$，$s<0$ 对应的 D 正确.
+
+#mi(`a^{s}>a\iff a^{s-1}>1=a^{0}`)
+
+若 #mi(`0<a<1`)，#mi(`a^{x}`) 在 #mi(`\mathbb{R}`) 上严格减函数，因此要使 #mi(`a^{s-1}>1`) 需 #mi(`s-1<0`). 故 #mi(`s<1`). 又 #mi(`0<a<1`) 时 #mi(`a^{0}=1`) 为最大值，故该条件与 #mi(`a\in(0,1)`)，#mi(`s<0`) 对应的 D 正确.
 ]
 
 #problem(15)[
-已知 $A(0,1)$，$B(1,2)$，$C$ 在 $Gamma :x^2-y^2=1$（$x >= 1$，$y >= 0$） 上，则 $triangle A B C$ 的面积（ ）
+已知 #mi(`A(0,1)`)，#mi(`B(1,2)`)，#mi(`C`) 在 #mi(`\Gamma:x^{2}-y^{2}=1`)（#mi(`x\ge1`)，#mi(`y\ge0`)） 上，则 #mi(`\triangle ABC`) 的面积（ ）
   #choices([有最大值，但没有最小值], [没有最大值，但有最小值], [既有最大值，也有最小值], [既没有最大值，也没有最小值], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-设 $C(a,b) in Gamma$，则 $a=sqrt(b^2+1)$，$A B: y=x-1$. $triangle A B C$ 的高为 $h=(|a-b+1|)/(sqrt(2))$.
-设 $f(b)=sqrt(b^2+1)-b$（$b >= 0$），则 $h=(1)/(sqrt(2))f(b)$，且 $f'(b)=(b)/(sqrt(b^2+1))-1<0$，故 $h$ 最大于 $b=0$，无最小值，故面积有最大值而无最小值.
+设 #mi(`C(a,b)\in\Gamma`)，则 #mi(`a=\sqrt{b^{2}+1}`)，#mi(`AB: y=x-1`). #mi(`\triangle ABC`) 的高为 #mi(`h=\frac{|a-b+1|}{\sqrt{2}}`).
+
+设 #mi(`f(b)=\sqrt{b^{2}+1}-b`)（#mi(`b\ge0`)），则 #mi(`h=\frac{1}{\sqrt{2}}f(b)`)，且 #mi(`f'(b)=\frac{b}{\sqrt{b^{2}+1}}-1<0`)，故 #mi(`h`) 最大于 #mi(`b=0`)，无最小值，故面积有最大值而无最小值.
 ]
 
 #problem(16)[
-设 $lambda in RR$，数列 $\{a_n\}$，$\{b_n\}$，$\{c_n\}$ 的通项分别为 $a_n=10 n-9$，$b_n=2^n$，$c_n= lambda a_n+(1- lambda )b_n$. 若对任意 $lambda in [0,1]$，$a_n$，$b_n$，$c_n$ 均能作为三角形的三边长，则满足条件的正整数 $n$ 有（ ）
+设 #mi(`\lambda\in\mathbb{R}`)，数列 #mi(`\{a_{n}\}`)，#mi(`\{b_{n}\}`)，#mi(`\{c_{n}\}`) 的通项分别为 #mi(`a_{n}=10n-9`)，#mi(`b_{n}=2^{n}`)，#mi(`c_{n}=\lambda a_{n}+(1-\lambda)b_{n}`). 若对任意 #mi(`\lambda\in[0,1]`)，#mi(`a_{n}`)，#mi(`b_{n}`)，#mi(`c_{n}`) 均能作为三角形的三边长，则满足条件的正整数 #mi(`n`) 有（ ）
   #choices([1个], [3个], [4个], [无穷多个], cols: 4)
 ]
 
@@ -214,189 +244,120 @@ $a^s>a <=> a^(s-1)>1=a^0$
 
 #solution[
 由
-$c_n= lambda a_n+(1- lambda )b_n$，$lambda in [0,1]$，
-可得
-$min \{a_n,b_n\} <= c_n <= max \{a_n,b_n\}<a_n+b_n$，
-因此对任意 $lambda in [0,1]$，都有 $c_n<a_n+b_n$.
-要使 $a_n$，$b_n$，$c_n$ 对任意 $lambda in [0,1]$ 都能构成三角形，只需再保证较大的那一边恒小于另外两边之和.
 
-令 $f(x)=2^x-10 x+9$，则 $f'(x)=2^x ln 2 -10$. 因为 $f'(x)$ 单调递增，且 $f'(3)<0$，$f'(4)>0$，
-所以存在 $x_0 in (3,4)$，使得 $f'(x_0)=0$. 于是 $f(x)$ 先减后增，至多有两个零点.
-又 $f(1)>0$，$f(2)<0$，$f(5)<0$，$f(6)>0$，所以 $f(x)$ 恰有两个零点，分别位于 $(1,2)$ 与 $(5,6)$ 内. 于是对正整数 $n$，有
-$10 n-9 <= 2 ""^n <=> n=1 "\ 或\ "n >= 6$
-$10 n-9 >= 2 ""^n <=> n=2,3,4,5$
+#mi(`c_{n}=\lambda a_{n}+(1-\lambda)b_{n}`)，#mi(`\lambda\in[0,1]`)，
+
+可得
+
+#mi(`\min\{a_{n},b_{n}\}\le c_{n}\le \max\{a_{n},b_{n}\}<a_{n}+b_{n}`)，
+
+因此对任意 #mi(`\lambda\in[0,1]`)，都有 #mi(`c_{n}<a_{n}+b_{n}`).
+
+要使 #mi(`a_{n}`)，#mi(`b_{n}`)，#mi(`c_{n}`) 对任意 #mi(`\lambda\in[0,1]`) 都能构成三角形，只需再保证较大的那一边恒小于另外两边之和.
+
+令 #mi(`f(x)=2^{x}-10x+9`)，则 #mi(`f'(x)=2^{x}\ln2-10`). 因为 #mi(`f'(x)`) 单调递增，且 #mi(`f'(3)<0`)，#mi(`f'(4)>0`)，
+
+所以存在 #mi(`x_{0}\in(3,4)`)，使得 #mi(`f'(x_{0})=0`). 于是 #mi(`f(x)`) 先减后增，至多有两个零点.
+
+又 #mi(`f(1)>0`)，#mi(`f(2)<0`)，#mi(`f(5)<0`)，#mi(`f(6)>0`)，所以 #mi(`f(x)`) 恰有两个零点，分别位于 #mi(`(1,2)`) 与 #mi(`(5,6)`) 内. 于是对正整数 #mi(`n`)，有
+
+#mi(`10n-9\le 2^{n} \iff n=1 \text{\ \text{或}\ }n\ge 6`)
+
+#mi(`10n-9\ge 2^{n} \iff n=2,3,4,5`)
 
 分两类讨论.
 
-当 $a_n <= b_n$ 时，即 $n=1$ 或 $n >= 6$，有 $a_n <= c_n <= b_n$. 此时要构成三角形，只需 $a_n+c_n>b_n$ 对任意 $c_n$ 成立. 因为 $c_n$ 的最小值为 $a_n$，所以只需
-$2 a_n>b_n$
-即 $2(10 n-9)>2^n$. 与 $a_n <= b_n$ 合并，只有 $n=6$ 满足条件.
+当 #mi(`a_{n}\le b_{n}`) 时，即 #mi(`n=1`) 或 #mi(`n\ge 6`)，有 #mi(`a_{n}\le c_{n}\le b_{n}`). 此时要构成三角形，只需 #mi(`a_{n}+c_{n}>b_{n}`) 对任意 #mi(`c_{n}`) 成立. 因为 #mi(`c_{n}`) 的最小值为 #mi(`a_{n}`)，所以只需
 
-当 $a_n >= b_n$ 时，即 $n=2$，$3$，$4$，$5$，有 $b_n <= c_n <= a_n$. 此时要构成三角形，只需 $b_n+c_n>a_n$ 对任意 $c_n$ 成立. 因为 $c_n$ 的最小值为 $b_n$，所以只需
-$2 b_n>a_n$
-即 $2^(n+1)>10 n-9$. 在 $n=2$，$3$，$4$，$5$ 中，满足该不等式的只有 $n=4$，$\ 5$.
+#mi(`2a_{n}>b_{n}`)
 
-综上，满足条件的正整数 $n$ 为 $4$，$5$，$6$，共有 $3$ 个，故选 B.
+即 #mi(`2(10n-9)>2^{n}`). 与 #mi(`a_{n}\le b_{n}`) 合并，只有 #mi(`n=6`) 满足条件.
+
+当 #mi(`a_{n}\ge b_{n}`) 时，即 #mi(`n=2`)，#mi(`3`)，#mi(`4`)，#mi(`5`)，有 #mi(`b_{n}\le c_{n}\le a_{n}`). 此时要构成三角形，只需 #mi(`b_{n}+c_{n}>a_{n}`) 对任意 #mi(`c_{n}`) 成立. 因为 #mi(`c_{n}`) 的最小值为 #mi(`b_{n}`)，所以只需
+
+#mi(`2b_{n}>a_{n}`)
+
+即 #mi(`2^{n+1}>10n-9`). 在 #mi(`n=2`)，#mi(`3`)，#mi(`4`)，#mi(`5`) 中，满足该不等式的只有 #mi(`n=4`)，#mi(`\ 5`).
+
+综上，满足条件的正整数 #mi(`n`) 为 #mi(`4`)，#mi(`5`)，#mi(`6`)，共有 #mi(`3`) 个，故选 B.
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-2024 年巴黎奥运会，中国获得了男子 $4 times 100$ 米混合泳接力金牌，以下是历届奥运会男子 $4 times 100$ 米混合泳接力项目冠军成绩（单位：秒），数据按照升序排列.
+2024 年巴黎奥运会，中国获得了男子 #mi(`4\times100`) 米混合泳接力金牌，以下是历届奥运会男子 #mi(`4\times100`) 米混合泳接力项目冠军成绩（单位：秒），数据按照升序排列.
 
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|}
 \hline
+
 206.78 & 207.46 & 207.95 & 209.34 & 209.35 \\
+
 \hline
+
 210.68 & 213.73 & 214.84 & 216.93 & 216.93 \\
+
 \hline
-\end{tabular}
-\end{center}
 
 
-+ (1) 求这组数据的极差与中位数；
-+ (2) 从这 10 个数据中任选 3 个，求恰有 2 个数据大于 $211$ 的概率；
-+ (3) 若比赛成绩 $y$ 关于年份 $x$ 的回归方程为 $y=-0.311 x+\h a t b$，年份 $x$ 的平均数为 $2006$，预测 $2028$ 年男子 $4 times 100$ 米混合泳接力项目冠军队的成绩（精确到 $0.01$ 秒）.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 数据的最小值为 $206.78$，最大值为 $216.93$，故极差 $216.93-206.78=10.15$；中间两数为 $209.35,210.68$，中位数为 $(209.35+210.68)/(2)=210.015$.
-+ (2) 设恰有 2 个数据大于 $211$，事件 $A$. 则从 $4$ 个大于 $211$ 的数中选两个，且从剩下 $6$ 个中选一个：
-$P(A)=(C_4^2 C_6^1)/(C_(10)^3)=(36)/(120)=(3)/(10)$.
-+ (3) 先求样本均值
-
-$ \b e g i n{a l i g n e d} \b a r y &=(206.78+207.46+207.95+209.34+209.35)/(10)\\ & +(210.68+213.73+214.84+216.93+216.93)/(10)=211.399. \e n d{a l i g n e d} $
-
-由 $(\b a r x,\b a r y)=(2006,211.399)$ 在回归线上，得 $\h a t b=835.265$，故回归方程为
-$y=-0.311 x+835.265$
-代入 $x=2028$，得
-$y=-0.311 times 2028 +835.265 =204.557 approx 204 .56$
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-如图，$P$ 是圆锥顶点，$O$ 为底面圆心，$A B$ 为底面直径，且 $A B=2$.
-
-+ (1) 若直线 $P A$ 与圆锥底面所成角为 $(pi)/(3)$，求圆锥侧面积；
-+ (2) 已知 $Q$ 是母线 $P A$ 中点，点 $C$，$D$ 在底面圆周上，且弧 $A C$ 长为 $(pi)/(3)$，$C D parallel A B$. 设点 $T$ 在线段 $O C$ 上，证明 $Q T parallel P B D$ 所在平面.
+如图，#mi(`P`) 是圆锥顶点，#mi(`O`) 为底面圆心，#mi(`AB`) 为底面直径，且 #mi(`AB=2`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2025/img/shanghai/q18_fig1.png", width: 6.0cm)]
+
+
+
+#align(center)[#image("/papers/2025/img/shanghai/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由 $angle P A B=(pi)/(3)$，轴截面 $triangle A B P$ 为等边三角形，所以 $P A=A B=2$. 底面半径 $r=1$，故母线 $=2$. 侧面积 $S= pi r l=2 pi$.
-+ (2) 在三角形 $P A B$ 中，$Q$ 与 $O$ 分别是 $P A$ 与 $A B$ 的中点，所以
-$Q O parallel P B$.
-又 $A B bot A O$ 且 $A B parallel C D$. 设 $angle A O C=(pi)/(3)$，则 $C D=1$，且
-$O C parallel B D$.
-由于 $Q O$，$O C$ 是平面 $Pi _(Q O C)$ 内的两条相交直线，$P B$，$B D$ 是平面 $Pi _(P B D)$ 内的两条相交直线，且
-$Q O parallel P B$，$O C parallel B D$，
-所以
-$Pi _(Q O C) parallel Pi _(P B D)$.
-又 $T in O C$，故 $Q T subset Pi _(Q O C)$，从而
-$Q T parallel Pi _(P B D)$.
++ (1)
 ]
 
 #problem(19)[
-已知 $f(x)=x^2-(m+2)x+m ln x$，$m in RR$.
+已知 #mi(`f(x)=x^{2}-(m+2)x+m\ln x`)，#mi(`m\in\mathbb{R}`).
 
-+ (1) 若 $f(1)=0$，求不等式 $f(x) <= x^2-1$ 的解集；
-+ (2) 若 $f(x)$ 在 $(0,+ oo )$ 上存在极大值，求 $m$ 的取值范围.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由 $f(1)=0$ 得 $m=-1$，故
-$f(x)=x^2-x- ln x$.
-则
-$f(x) <= x^2-1 <=> x+ ln x >= 1$
-设 $s(x)=x+ ln x$，$x>0$，$s'(x)=1+(1)/(x)>0$，故 $s$ 在 $(0,+ oo )$ 上增，且 $s(1)=1$，解集为 $[1,+ oo )$.
-+ (2) 由
-
-$ f'(x)=2 x-m-2+(m)/(x)=(2 x^2-(m+2)x+m)/(x)=((2 x-m)(x-1))/(x) $
-
-
-当 $m <= 0$ 时，$(m)/(2) <= 0$，在 $x>0$ 上只有零点 $x=1$. 当 $x in (0,1)$ 时 $f'(x)<0$，当 $x in (1,+ oo )$ 时 $f'(x)>0$，故 $x=1$ 为极小值点，不符合题意.
-
-当 $0<m<2$ 时，$0<(m)/(2)<1$. 当 $x in (0,(m)/(2)) union (1,+ oo )$ 时 $f'(x)>0$，当 $x in ((m)/(2),1)$ 时 $f'(x)<0$，故 $x=(m)/(2)$ 为极大值点，符合题意.
-
-当 $m=2$ 时，$f'(x)=(2(x-1)^2)/(x) >= 0$，故 $f(x)$ 无极大值点，不符合题意.
-
-当 $m>2$ 时，$(m)/(2)>1$. 当 $x in (0,1) union ((m)/(2),+ oo )$ 时 $f'(x)>0$，当 $x in (1,(m)/(2))$ 时 $f'(x)<0$，故 $x=1$ 为极大值点，符合题意.
-
-综上，$m$ 的取值范围为 $m>0$ 且 $m != 2$.
++ (1)
 ]
 
 #problem(20)[
-已知椭圆 $Gamma :(x^2)/(a^2)+(y^2)/(5)=1$（$a>sqrt(5)$），$M(0,m)$（$m>0$），$A$ 为 $Gamma$ 的右顶点.
+已知椭圆 #mi(`\Gamma:\frac{x^{2}}{a^{2}}+\frac{y^{2}}{5}=1`)（#mi(`a>\sqrt{5}`)），#mi(`M(0,m)`)（#mi(`m>0`)），#mi(`A`) 为 #mi(`\Gamma`) 的右顶点.
 
-+ (1) 若 $Gamma$ 的焦点为 $(2,0)$，求离心率 $e$；
-+ (2) 若 $a=4$，且 $Gamma$ 上存在一点 $P$ 满足 $arrow(P A)=2 arrow(M P)$，求 $m$；
-+ (3) 若线段 $A M$ 的中垂线 $l$ 的斜率为2， $l$ 与 $Gamma$ 交于 $C$，$D$，且 $angle C M D$ 为钝角，求 $a$ 的取值范围.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 由 $b^2=5$，焦点 $( +- c,0)$ 有 $c=2$，所以 $a=sqrt(c^2+b^2)=sqrt(9)=3$，故 $e=(c)/(a)=(2)/(3)$.
-+ (2) 此时 $A(4,0)$，设 $P(x_P,y_P)$. 由 $arrow(P A)=2 arrow(M P)$ 得
-$4-x_P=2 x_P$，$-y_P=2(y_P-m)$.
-所以 $x_P=(4)/(3)$，$y_P=(2 m)/(3)$. 代入椭圆方程 $(x^2)/(16)+(y^2)/(5)=1$ 得 $(1)/(9)+(4 m^2)/(45)=1$，故 $m=sqrt(10)$.
-+ (3) 由 $l$ 为 $A M$ 的中垂线且斜率为 $2$，知 $A M$ 的斜率为 $-(1)/(2)$. 又 $k_(A M)=(m-0)/(0-a)=-(m)/(a)$，故 $m=(a)/(2)$. 于是 $A M$ 的中点为 $((a)/(2),(a)/(4))$，直线 $l$ 的方程为 $y-(a)/(4)=2(x-(a)/(2))$，即 $y=2 x-(3 a)/(4)$.
-联立
-$\b e g i n{c a s e s} (x^2)/(a^2)+(y^2)/(5)=1,\\ y=2 x-(3 a)/(4), \e n d{c a s e s}$
-得
-$(4 a^2+5)x^2-3 a^(3) x+(9 a^4-80 a^2)/(16)=0$.
-设两交点横坐标为 $x_1$，$x_2$，则由韦达定理可得
-$x_1+x_2=(3 a^3)/(4 a^2+5)$，$x_(1) x_2=(a^2(9 a^2-80))/(16(4 a^2+5))$.
-又 $M(0,(a)/(2))$，且 $y_i=2 x_i-(3 a)/(4)$（$i=1$，$2$）. $angle C M D$ 为钝角当且仅当 $arrow(M C)\c d o t a r r o w(M D)<0$，即 $x_(1) x_2+(y_1-(a)/(2))(y_2-(a)/(2))<0$.
-代入 $y_i=2 x_i-(3 a)/(4)$ 得
-$5 x_(1) x_2-(5 a)/(2)(x_1+x_2)+(25 a^2)/(16)<0$
-再代入韦达定理，化简得
-$(25 a^2(a^2-11))/(16(4 a^2+5))<0$
-因为 $a>sqrt(5)$，所以 $16(4 a^2+5)>0$，从而 $a^2<11$. 再结合 $a>sqrt(5)$，得
-$sqrt(5)<a<sqrt(11)$
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-已知函数 $y=f(x)$ 定义域为 $RR$. 对于正实数 $a$，定义集合 $M_a=\{x | f(x+a)=f(x)\}$.
+已知函数 #mi(`y=f(x)`) 定义域为 #mi(`\mathbb{R}`). 对于正实数 #mi(`a`)，定义集合 #mi(`M_{a}=\{x\mid f(x+a)=f(x)\}`).
 
-+ (1) 若 $f(x)= sin x$，判断 $(pi)/(3)$ 是否是 $M_( pi )$ 的元素，请说明理由；
-+ (2) 若 $f(x)=x+2$（$x<0$），$f(0)=0$，且当 $x>0$ 时 $f(x)=sqrt(x)$，$M_a != emptyset$，求 $a$ 的取值范围；
-+ (3) 若 $y=f(x)$ 是偶函数，当 $x in (0,1]$ 时 $f(x)=1-x$，且对任意 $a in (0,2)$，有 $M_a subset M_2$. 写出 $f(x)$ 在 $x in (1,2)$ 的解析式，并证明：对任意实数 $c$，函数 $f(x)-c$ 在 $[-3,3]$ 上至多有9个零点.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 计算得 $f((pi)/(3))= sin (pi)/(3)=(sqrt(3))/(2)$，且 $f((pi)/(3)+ pi )=- sin (pi)/(3)=-(sqrt(3))/(2)$. 所以 $(pi)/(3) in.not M_( pi )$.
-+ (2) 取 $x_0 in M_a$，则 $f(x_0+a)=f(x_0)$ 且 $a>0$.
-
-若 $x_0<0$ 且 $x_0+a<0$，则 $f(x_0+a)=x_0+a+2 != x_0+2=f(x_0)$，矛盾；若 $x_0 >= 0$，则 $x_0+a>0$，从而 $f(x_0+a)=sqrt(x_0+a)\n e s q r t(x_0)=f(x_0)$，也矛盾.
-
-故必有 $x_0<0 <= x_0+a$. 于是 $x_0+2=sqrt(x_0+a)$.
-
-因为 $-2 <= x_0<0$，所以
-$a=(x_0+2)^2-x_0=(x_0+(3)/(2))^2+(7)/(4) in [(7)/(4),4)$，
-故 $a in [(7)/(4),4)$.
-+ (3) 任取 $x_0 in (1,2)$，则 $x_0-2 in (-1,0)$. 由于 $f$ 为偶函数，$f(x_0-2)=f(2-x_0)$. 又 $(2-x_0)-(x_0-2)=4-2 x_0 in (0,2)$，所以 $x_0-2 in M_(4-2 x_0) subset M_2$，从而
-
-$ f(x_0)=f(x_0-2)=f(2-x_0)=1-(2-x_0)=x_0-1 $
-
-故当 $x in (1,2)$ 时，$f(x)=x-1$.
-当 $s in (0,1)$ 时，$1-s in (0,1)$，$1+s in (1,2)$，于是 $f(1-s)=1-(1-s)=s$，$f(1+s)=(1+s)-1=s$. 故 $1-s in M_(2 s) subset M_2$，从而 $f(3-s)=f(1-s)=s$. 由于 $3-s in (2,3)$，所以当 $x in (2,3)$ 时，$f(x)=3-x$.
-
-再由偶性可得
-$f(x)=x+1$，$x in (-1,0)$，$f(x)=-x-1$，$x in (-2,-1)$，$f(x)=x+3$，$x in (-3,-2)$.
-
-设 $f(-3)=n$. 若 $n in (0,1)$，则 $-3+n in (-3,-2)$，从而 $f(-3+n)=(-3+n)+3=n=f(-3)$，故 $-3 in M_n subset M_2$，于是 $f(-1)=f(-3)=n$.
-但由偶性及 $f(1)=0$，得 $f(-1)=0$，矛盾. 所以 $f(-3) in.not (0,1)$. 再由偶性，得 $f(3) in.not (0,1)$.
-
-令 $f(x)-c=0$，即 $f(x)=c$.
-
-若 $c in.not (0,1)$，则六个开区间
-$(-3,-2)$，$(-2,-1)$，$(-1,0)$，$(0,1)$，$(1,2)$，$(2,3)$
-内均无零点，此时零点只可能出现在 $-3$，$-2$，$0$，$2$，$3$ 这 5 个点上；特别地，当 $c=0$ 时，又有 $x= +- 1$ 两个零点，所以此时零点至多有 7 个.
-
-若 $0<c<1$，则上述 6 个开区间内各至多有 1 个零点；又 $f( +- 3 ) in.not (0,1)$，所以只可能在 $-2$，$0$，$2$ 这 3 个点处再出现零点，从而零点总数不超过 $6+3=9$.
-
-综上，函数 $f(x)-c$ 在 $[-3,3]$ 上至多有 9 个零点.
++ (1) 
++ (2)
 ]
 

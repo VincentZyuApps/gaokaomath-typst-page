@@ -249,7 +249,9 @@ f(x+2)=f\bigl(2-(x+2)\bigr)=f(-x)=-f(x)
 #problem(10)[
 过正方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 的顶点 #mi(`A`) 作直线 #mi(`l`)，使 #mi(`l`) 与棱 #mi(`AB`)，#mi(`AD`)，#mi(`AA_{1}`) 所成的角都相等，这样的直线 #mi(`l`) 可以作（ ）
 
-[max width=0.42\linewidth]img/2010/jiangxi_science/q10_fig1.png
+
+#align(center)[#image("/papers/2010/img/jiangxi_science/q10_fig1.png", width: 28%)]
+
   #choices([1 条], [2 条], [3 条], [4 条], cols: 4)
 ]
 
@@ -313,8 +315,18 @@ p_{2}=1-\left(\frac{49}{50}\right)^{5}
 #problem(12)[
 如图，一个正五角星薄片（其对称轴与水面垂直）匀速地升出水面，记 #mi(`t`) 时刻五角星露出水面部分的图形面积为 #mi(`S(t)`)（#mi(`S(0)=0`)），则导函数 #mi(`y = S'(t)`) 的图象大致为（ ）
 
-[max width=0.5\linewidth]img/2010/jiangxi_science/q12_fig1.png
-  #choices([[width=0.15\paperwidth]img/2010/jiangxi_science/q12_optA.png], [[width=0.15\paperwidth]img/2010/jiangxi_science/q12_optB.png], [[width=0.15\paperwidth]img/2010/jiangxi_science/q12_optC.png], [[width=0.15\paperwidth]img/2010/jiangxi_science/q12_optD.png], cols: 1)
+
+#align(center)[#image("/papers/2010/img/jiangxi_science/q12_fig1.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2010/img/jiangxi_science/q12_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/jiangxi_science/q12_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/jiangxi_science/q12_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/jiangxi_science/q12_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
@@ -390,7 +402,9 @@ AF^{2}=(x_{0}-6)^{2}+y_{0}^{2}  =(x_{0}-6)^{2}+8x_{0}^{2}-32  =(3x_{0}-2)^{2}
 #problem(16)[
 如图，在三棱锥 #mi(`O - ABC`) 中，三条棱 #mi(`OA`)，#mi(`OB`)，#mi(`OC`) 两两垂直，且 #mi(`OA > OB > OC`)，分别经过三条棱 #mi(`OA`)，#mi(`OB`)，#mi(`OC`) 作一个截面平分三棱锥的体积，截面面积依次为 #mi(`S_{1}`)，#mi(`S_{2}`)，#mi(`S_{3}`)，则 #mi(`S_{1}`)，#mi(`S_{2}`)，#mi(`S_{3}`) 的大小关系为\underline{\hspace{2.5em}}.
 
-[max width=0.45\linewidth]img/2010/jiangxi_science/q16_fig1.png
+
+#align(center)[#image("/papers/2010/img/jiangxi_science/q16_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`S_{3} < S_{2} < S_{1}`)])
@@ -490,7 +504,9 @@ f'(x)=\frac{1}{x}-\frac{1}{2-x}+a
 
 
 
-[max width=0.45\linewidth]img/2010/jiangxi_science/q20_fig1.png
+
+#align(center)[#image("/papers/2010/img/jiangxi_science/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -512,7 +528,9 @@ f'(x)=\frac{1}{x}-\frac{1}{2-x}+a
 
 
 
-[max width=0.42\linewidth]img/2010/jiangxi_science/q21_fig1.png
+
+#align(center)[#image("/papers/2010/img/jiangxi_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

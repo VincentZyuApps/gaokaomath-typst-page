@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -12,119 +12,138 @@
 
 #problem(1)[
 设集合
-$A=\{x | x >= 1 \}$，$B=\{x | -1<x<2\}$，则
-$A inter B=$（ ）
-  #choices([$\{x | x>-1\}$], [$\{x | x >= 1 \}$], [$\{x | -1<x<1\}$], [$\{x | 1 <= x<2\}$], cols: 2)
+
+#mi(`A=\{x\mid x\ge 1\}`)，#mi(`B=\{x\mid -1<x<2\}`)，则
+
+#mi(`A\cap B=`)（ ）
+  #choices([#mi(`\{x\mid x>-1\}`)], [#mi(`\{x\mid x\ge 1\}`)], [#mi(`\{x\mid -1<x<1\}`)], [#mi(`\{x\mid 1\le x<2\}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由交集的定义，元素 $x$ 必须同时满足 $x\g e q1$ 与 $-1<x<2$，所以 $A inter B=\{x\m i d1\l e q x<2\}$，答案为 D.
+由交集的定义，元素 #mi(`x`) 必须同时满足 #mi(`x\geq1`) 与 #mi(`-1<x<2`)，所以 #mi(`A\cap B=\{x\mid1\leq x<2\}`)，答案为 D.
 ]
 
 #problem(2)[
-已知 $a in RR$，$(1+a i ) i =3+ i$（$i$ 为虚数单位），则
-$a=$（ ）
-  #choices([$-1$], [$1$], [$-3$], [$3$], cols: 4)
+已知 #mi(`a\in\mathbb{R}`)，#mi(`(1+a\mathrm{i})\mathrm{i}=3+\mathrm{i}`)（#mi(`\mathrm{i}`) 为虚数单位），则
+
+#mi(`a=`)（ ）
+  #choices([#mi(`-1`)], [#mi(`1`)], [#mi(`-3`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由复数运算，$(1+a i ) i = i +a i ""^(2)=-a+ i$. 与 $3+ i$ 比较实部，得 $-a=3$，所以 $a=-3$，答案为 C.
+由复数运算，#mi(`(1+a\mathrm{i})\mathrm{i}=\mathrm{i}+a\mathrm{i}^{2}=-a+\mathrm{i}`). 与 #mi(`3+\mathrm{i}`) 比较实部，得 #mi(`-a=3`)，所以 #mi(`a=-3`)，答案为 C.
 ]
 
 #problem(3)[
-已知非零向量 $bold(a)$，$bold(b)$，$bold(c)$，则“$bold(a)\c d o t b o l d(c)=bold(b)\c d o t b o l d(c)$”是“$bold(a)=bold(b)$”的（ ）
+已知非零向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`)，#mi(`\mathbf{c}`)，则“#mi(`\mathbf{a}\cdot\mathbf{c}=\mathbf{b}\cdot\mathbf{c}`)”是“#mi(`\mathbf{a}=\mathbf{b}`)”的（ ）
   #choices([充分不必要条件], [必要不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-若 $bold(a)=bold(b)$，则两边分别与 $bold(c)$ 作数量积，必有 $bold(a)\c d o t b o l d(c)=bold(b)\c d o t b o l d(c)$，所以前者是后者的必要条件. 但由数量积相等只能得到 $(bold(a)-bold(b))\c d o t b o l d(c)=0$，并不能推出 $bold(a)-bold(b)=bold(0)$. 例如取 $bold(c)=(1,0)$，$bold(a)=(0,1)$，$bold(b)=(0,2)$，两向量均非零且数量积相等，但 $bold(a)\n e b o l d(b)$. 因此这是必要不充分条件，答案为 B.
+若 #mi(`\mathbf{a}=\mathbf{b}`)，则两边分别与 #mi(`\mathbf{c}`) 作数量积，必有 #mi(`\mathbf{a}\cdot\mathbf{c}=\mathbf{b}\cdot\mathbf{c}`)，所以前者是后者的必要条件. 但由数量积相等只能得到 #mi(`(\mathbf{a}-\mathbf{b})\cdot\mathbf{c}=0`)，并不能推出 #mi(`\mathbf{a}-\mathbf{b}=\mathbf{0}`). 例如取 #mi(`\mathbf{c}=(1,0)`)，#mi(`\mathbf{a}=(0,1)`)，#mi(`\mathbf{b}=(0,2)`)，两向量均非零且数量积相等，但 #mi(`\mathbf{a}\ne\mathbf{b}`). 因此这是必要不充分条件，答案为 B.
 ]
 
 #problem(4)[
-某几何体的三视图如图所示（单位：$c m$），则该几何体的体积（单位：$c m^3$）是（ ）
+某几何体的三视图如图所示（单位：#mi(`\mathrm{cm}`)），则该几何体的体积（单位：#mi(`\mathrm{cm}^{3}`)）是（ ）
 
 
-#align(center)[#image("/papers/2021/img/zhejiang/q4_fig1.png", width: 6.0cm)]
-  #choices([$(3)/(2)$], [$3$], [$(3 sqrt(2))/(2)$], [$3 sqrt(2)$], cols: 2)
+#align(center)[#image("/papers/2021/img/zhejiang/q4_fig1.png", width: 28%)]
+
+  #choices([#mi(`\frac{3}{2}`)], [#mi(`3`)], [#mi(`\frac{3\sqrt{2}}{2}`)], [#mi(`3\sqrt{2}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由正视图和侧视图可知，几何体的高为 $1$，且底面在两个水平方向上的投影长度均为 $2$. 结合俯视图可还原出该几何体是高为 $1$ 的直棱柱，底面为等腰梯形；俯视图给出该梯形的两底分别为 $1$，$2$，两底间的距离为 $1$. 因而底面面积为 $(1+2)/(2) times 1 =(3)/(2)$，几何体体积为 $(3)/(2) times 1 =(3)/(2)$，答案为 A.
+由正视图和侧视图可知，几何体的高为 #mi(`1`)，且底面在两个水平方向上的投影长度均为 #mi(`2`). 结合俯视图可还原出该几何体是高为 #mi(`1`) 的直棱柱，底面为等腰梯形；俯视图给出该梯形的两底分别为 #mi(`1`)，#mi(`2`)，两底间的距离为 #mi(`1`). 因而底面面积为 #mi(`\dfrac{1+2}{2}\times1=\dfrac{3}{2}`)，几何体体积为 #mi(`\dfrac{3}{2}\times1=\dfrac{3}{2}`)，答案为 A.
 ]
 
 #problem(5)[
-若实数 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} x+1 >= 0 \\ x-y <= 0 \\ 2 x+3 y-1 <= 0 \e n d{c a s e s}$，则 $z=x-(1)/(2)y$ 的最小值是（ ）
-  #choices([$-2$], [$-(3)/(2)$], [$-(1)/(2)$], [$(1)/(10)$], cols: 4)
+若实数 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}x+1\ge 0\\  x-y\le 0\\  2x+3y-1\le 0\end{cases}`)，则 #mi(`z=x-\frac{1}{2}y`) 的最小值是（ ）
+  #choices([#mi(`-2`)], [#mi(`-\frac{3}{2}`)], [#mi(`-\frac{1}{2}`)], [#mi(`\frac{1}{10}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-约束条件等价于 $x\g e q-1$，$y\g e q x$，$y\l e q(1-2 x)/(3)$. 可行域的顶点为 $(-1,-1)$，$(-1,1)$，以及直线 $y=x$ 与 $2 x+3 y=1$ 的交点 $((1)/(5),(1)/(5))$. 线性函数在多边形可行域的顶点处取得最小值，且
-$z(-1,-1)=-(1)/(2)$，$z(-1,1)=-(3)/(2)$，$z((1)/(5),(1)/(5))=(1)/(10)$. 因此最小值为 $-(3)/(2)$，答案为 B.
+约束条件等价于 #mi(`x\geq-1`)，#mi(`y\geq x`)，#mi(`y\leq\dfrac{1-2x}{3}`). 可行域的顶点为 #mi(`(-1,-1)`)，#mi(`(-1,1)`)，以及直线 #mi(`y=x`) 与 #mi(`2x+3y=1`) 的交点 #mi(`\left(\dfrac{1}{5},\dfrac{1}{5}\right)`). 线性函数在多边形可行域的顶点处取得最小值，且
+
+#mi(`z(-1,-1)=-\dfrac{1}{2}`)，#mi(`z(-1,1)=-\dfrac{3}{2}`)，#mi(`z\left(\dfrac{1}{5},\dfrac{1}{5}\right)=\dfrac1{10}`). 因此最小值为 #mi(`-\dfrac{3}{2}`)，答案为 B.
 ]
 
 #problem(6)[
 如图，已知正方体
-$A B C D-A_(1)B_(1)C_(1)D_(1)$，
-$M$，$N$ 分别是 $A_(1)D$，$D_(1)B$ 的中点，则（ ）
+
+#mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`)，
+
+#mi(`M`)，#mi(`N`) 分别是 #mi(`A_{1}D`)，#mi(`D_{1}B`) 的中点，则（ ）
 
 
-#align(center)[#image("/papers/2021/img/zhejiang/q6_fig1.png", width: 6.0cm)]
-  #choices([直线 $A_(1)D$ 与直线 $D_(1)B$ 垂直，直线 $M N parallel$ 平面 $A B C D$], [直线 $A_(1)D$ 与直线 $D_(1)B$ 平行，直线 $M N bot$ 平面 $B D D_(1)B_(1)$], [直线 $A_(1)D$ 与直线 $D_(1)B$ 相交，直线 $M N parallel$ 平面 $A B C D$], [直线 $A_(1)D$ 与直线 $D_(1)B$ 异面，直线 $M N bot$ 平面 $B D D_(1)B_(1)$], cols: 1)
+#align(center)[#image("/papers/2021/img/zhejiang/q6_fig1.png", width: 28%)]
+
+  #choices([直线 #mi(`A_{1}D`) 与直线 #mi(`D_{1}B`) 垂直，直线 #mi(`MN\parallel`) 平面 #mi(`ABCD`)], [直线 #mi(`A_{1}D`) 与直线 #mi(`D_{1}B`) 平行，直线 #mi(`MN\perp`) 平面 #mi(`BDD_{1}B_{1}`)], [直线 #mi(`A_{1}D`) 与直线 #mi(`D_{1}B`) 相交，直线 #mi(`MN\parallel`) 平面 #mi(`ABCD`)], [直线 #mi(`A_{1}D`) 与直线 #mi(`D_{1}B`) 异面，直线 #mi(`MN\perp`) 平面 #mi(`BDD_{1}B_{1}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-建立直角坐标系，令正方体棱长为 $1$，取
-$A(0,0,0)$，$B(1,0,0)$，$D(0,1,0)$，$A_(1)(0,0,1)$. 则 $D_(1)(0,1,1)$，且
-$arrow(A_(1)D)=(0,1,-1)$，$arrow(D_(1)B)=(1,-1,-1)$，从而 $arrow(A_(1)D)\c d o t a r r o w(D_(1)B)=0$，两直线垂直. 又
-$M(0,(1)/(2),(1)/(2))$，$N((1)/(2),(1)/(2),(1)/(2))$，所以 $arrow(M N)=((1)/(2),0,0) parallel A B$. 由于 $A B$ 在平面 $A B C D$ 内，故 $M N parallel$ 平面 $A B C D$，答案为 A.
+建立直角坐标系，令正方体棱长为 #mi(`1`)，取
+
+#mi(`A(0,0,0)`)，#mi(`B(1,0,0)`)，#mi(`D(0,1,0)`)，#mi(`A_{1}(0,0,1)`). 则 #mi(`D_{1}(0,1,1)`)，且
+
+#mi(`\overrightarrow{A_{1}D}=(0,1,-1)`)，#mi(`\overrightarrow{D_{1}B}=(1,-1,-1)`)，从而 #mi(`\overrightarrow{A_{1}D}\cdot\overrightarrow{D_{1}B}=0`)，两直线垂直. 又
+
+#mi(`M\left(0,\dfrac{1}{2},\dfrac{1}{2}\right)`)，#mi(`N\left(\dfrac{1}{2},\dfrac{1}{2},\dfrac{1}{2}\right)`)，所以 #mi(`\overrightarrow{MN}=\left(\dfrac{1}{2},0,0\right)\parallel AB`). 由于 #mi(`AB`) 在平面 #mi(`ABCD`) 内，故 #mi(`MN\parallel`) 平面 #mi(`ABCD`)，答案为 A.
 ]
 
 #problem(7)[
 已知函数
-$f(x)=x^(2)+(1)/(4)$，$g(x)= sin x$，则图象为如图的函数可能是（ ）
+
+#mi(`f(x)=x^{2}+\frac{1}{4}`)，#mi(`g(x)=\sin x`)，则图象为如图的函数可能是（ ）
 
 
-#align(center)[#image("/papers/2021/img/zhejiang/q7_fig1.png", width: 6.0cm)]
-  #choices([$y=f(x)+g(x)-(1)/(4)$], [$y=f(x)-g(x)-(1)/(4)$], [$y=f(x)g(x)$], [$y=(g(x))/(f(x))$], cols: 2)
+#align(center)[#image("/papers/2021/img/zhejiang/q7_fig1.png", width: 28%)]
+
+  #choices([#mi(`y=f(x)+g(x)-\frac{1}{4}`)], [#mi(`y=f(x)-g(x)-\frac{1}{4}`)], [#mi(`y=f(x)g(x)`)], [#mi(`y=\dfrac{g(x)}{f(x)}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-因为 $f(x)=x^(2)+(1)/(4)>0$，所以选项 A，B 中的函数 $f(x) +- g(x)-(1)/(4)=x^(2) +- sin x$ 在 $|x|$ 足够大时趋于正无穷，不符合图象两端趋近于 $0$ 的特征. 选项 C 的函数 $f(x)g(x)=(x^(2)+(1)/(4)) sin x$ 振幅随 $|x|$ 增大而增大，也不符合图象. 选项 D 的函数 $(g(x))/(f(x))=(sin x)/(x^(2)+(1)/(4))$ 是奇函数，在 $x=0$ 处过原点，且当 $|x| -> + oo$ 时趋于 $0$，与图象特征相符，答案为 D.
+因为 #mi(`f(x)=x^{2}+\dfrac{1}{4}>0`)，所以选项 A，B 中的函数 #mi(`f(x)\pm g(x)-\dfrac{1}{4}=x^{2}\pm\sin x`) 在 #mi(`|x|`) 足够大时趋于正无穷，不符合图象两端趋近于 #mi(`0`) 的特征. 选项 C 的函数 #mi(`f(x)g(x)=\left(x^{2}+\dfrac{1}{4}\right)\sin x`) 振幅随 #mi(`|x|`) 增大而增大，也不符合图象. 选项 D 的函数 #mi(`\dfrac{g(x)}{f(x)}=\dfrac{\sin x}{x^{2}+\frac{1}{4}}`) 是奇函数，在 #mi(`x=0`) 处过原点，且当 #mi(`|x|\to+\infty`) 时趋于 #mi(`0`)，与图象特征相符，答案为 D.
 ]
 
 #problem(8)[
-已知 $alpha$，$beta$，$gamma$ 是互不相同的锐角，则在
-$sin alpha cos beta$，$sin beta cos gamma$，$sin gamma cos alpha$
-三个值中，大于 $(1)/(2)$ 的个数的最大值是（ ）
-  #choices([$0$], [$1$], [$2$], [$3$], cols: 4)
+已知 #mi(`\alpha`)，#mi(`\beta`)，#mi(`\gamma`) 是互不相同的锐角，则在
+
+#mi(`\sin\alpha\cos\beta`)，#mi(`\sin\beta\cos\gamma`)，#mi(`\sin\gamma\cos\alpha`)
+
+三个值中，大于 #mi(`\frac{1}{2}`) 的个数的最大值是（ ）
+  #choices([#mi(`0`)], [#mi(`1`)], [#mi(`2`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-若 $sin alpha cos beta >(1)/(2)$，则不能有 $alpha \l e q beta$，因为此时
-$sin alpha cos beta \l e q sin alpha cos alpha =(1)/(2) sin 2 alpha \l e q(1)/(2)$. 所以该不等式成立必有 $alpha > beta$. 同理，三个值分别大于 $(1)/(2)$ 时，必须分别有 $alpha > beta$，$beta > gamma$，$gamma > alpha$，三者不可能同时成立，故个数至多为 $2$. 取 $alpha =50^( degree )$，$beta =40^( degree )$，$gamma =30^( degree )$，则
-$sin 50 ""^( degree ) cos 40 ""^( degree )>(1)/(2)$，$sin 40 ""^( degree ) cos 30 ""^( degree )>(1)/(2)$，而 $sin 30 ""^( degree ) cos 50 ""^( degree )<(1)/(2)$，个数可以达到 $2$. 所以最大值为 $2$，答案为 C.
+若 #mi(`\sin\alpha\cos\beta>\dfrac{1}{2}`)，则不能有 #mi(`\alpha\leq\beta`)，因为此时
+
+#mi(`\sin\alpha\cos\beta\leq\sin\alpha\cos\alpha=\dfrac{1}{2}\sin2\alpha\leq\dfrac{1}{2}`). 所以该不等式成立必有 #mi(`\alpha>\beta`). 同理，三个值分别大于 #mi(`\dfrac{1}{2}`) 时，必须分别有 #mi(`\alpha>\beta`)，#mi(`\beta>\gamma`)，#mi(`\gamma>\alpha`)，三者不可能同时成立，故个数至多为 #mi(`2`). 取 #mi(`\alpha=50^{\circ}`)，#mi(`\beta=40^{\circ}`)，#mi(`\gamma=30^{\circ}`)，则
+
+#mi(`\sin50^{\circ}\cos40^{\circ}>\dfrac{1}{2}`)，#mi(`\sin40^{\circ}\cos30^{\circ}>\dfrac{1}{2}`)，而 #mi(`\sin30^{\circ}\cos50^{\circ}<\dfrac{1}{2}`)，个数可以达到 #mi(`2`). 所以最大值为 #mi(`2`)，答案为 C.
 ]
 
 #problem(9)[
-已知 $a$，$b in RR$，$a b>0$，函数
-$f(x)=a x^(2)+b$（$x in RR$）. 若
-$f(s-t)$，$f(s)$，$f(s+t)$ 成等比数列，则平面上点 $(s,t)$ 的轨迹是（ ）
+已知 #mi(`a`)，#mi(`b\in\mathbb{R}`)，#mi(`ab>0`)，函数
+
+#mi(`f(x)=ax^{2}+b`)（#mi(`x\in\mathbb{R}`)）. 若
+
+#mi(`f(s-t)`)，#mi(`f(s)`)，#mi(`f(s+t)`) 成等比数列，则平面上点 #mi(`(s,t)`) 的轨迹是（ ）
   #choices([直线和圆], [直线和椭圆], [直线和双曲线], [直线和抛物线], cols: 4)
 ]
 
@@ -132,288 +151,275 @@ $f(s-t)$，$f(s)$，$f(s+t)$ 成等比数列，则平面上点 $(s,t)$ 的轨迹
 
 #solution[
 等比数列的中项平方等于两端项之积，因此
-$f(s)^(2)=f(s-t)f(s+t)$. 代入 $f(x)=a x^(2)+b$，得
-$(a s^(2)+b)^(2)=(a(s-t)^(2)+b)(a(s+t)^(2)+b)$. 将右边写成平方差，化简为
-$t^(2)[a(t^(2)-2 s^(2))+2 b]=0$. 因而轨迹由直线 $t=0$ 与曲线 $2 s^(2)-t^(2)=(2 b)/(a)$ 组成. 因为 $a b>0$，所以 $(b)/(a)>0$，后者是双曲线，答案为 C.
+
+#mi(`f(s)^{2}=f(s-t)f(s+t)`). 代入 #mi(`f(x)=ax^{2}+b`)，得
+
+#mi(`(as^{2}+b)^{2}=\bigl(a(s-t)^{2}+b\bigr)\bigl(a(s+t)^{2}+b\bigr)`). 将右边写成平方差，化简为
+
+#mi(`t^{2}\bigl[a(t^{2}-2s^{2})+2b\bigr]=0`). 因而轨迹由直线 #mi(`t=0`) 与曲线 #mi(`2s^{2}-t^{2}=\dfrac{2b}{a}`) 组成. 因为 #mi(`ab>0`)，所以 #mi(`\dfrac{b}{a}>0`)，后者是双曲线，答案为 C.
 ]
 
 #problem(10)[
-已知数列 $\{a_n\}$ 满足
-$a_1=1$，$a_(n+1)=(a_n)/(1+sqrt(a_n))$（$n in NN ""^*$），
-记数列前 $n$ 项和为 $S_n$. 则（ ）
-  #choices([$(1)/(2)<S_(100)<3$], [$3<S_(100)<4$], [$4<S_(100)<(9)/(2)$], [$(9)/(2)<S_(100)<5$], cols: 2)
+已知数列 #mi(`\{a_{n}\}`) 满足
+
+#mi(`a_{1}=1`)，#mi(`a_{n+1}=\dfrac{a_n}{1+\sqrt{a_{n}}}`)（#mi(`n\in\mathbb{N}^{*}`)），
+
+记数列前 #mi(`n`) 项和为 #mi(`S_{n}`). 则（ ）
+  #choices([#mi(`\frac{1}{2}<S_{100}<3`)], [#mi(`3<S_{100}<4`)], [#mi(`4<S_{100}<\frac{9}{2}`)], [#mi(`\frac{9}{2}<S_{100}<5`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-令 $x_n=sqrt(a_n)>0$，则
-$x_(n+1)=(x_n)/(sqrt(1+x_n))<x_n$. 数列 $\{x_n\}$ 单调递减且有极限；若极限为 $L$，由递推式有 $L=(L)/(sqrt(1+L))$，故 $L=0$. 又
-$a_n=x_n^(2)=sqrt(1+x_n)(sqrt(1+x_n)+1)(x_n-x_(n+1))$.
+令 #mi(`x_{n}=\sqrt{a_{n}}>0`)，则
 
-由 $x_1=1$，$x_2=(1)/(sqrt(2))$ 及递推式，得
-$x_3=sqrt((1)/((2+sqrt(2))))$，从而 $0.54<x_3<0.543$. 函数 $h(x)=(x)/(sqrt(1+x))$ 在 $x>0$ 时递增，故
-$h(0.54)<x_4=h(x_3)<h(0.543)$，直接平方比较可得 $0.43<x_4<0.44$，进而 $x_5=h(x_4)<h(0.44)<0.37$. 因而
-$S_4=1+(1)/(2)+x_3^(2)+x_4^(2)<1+(1)/(2)+0.543^(2)+0.44^(2)<2$. 当 $n\g e q5$ 时，$x_n<0.37$，所以
-$sqrt(1+x_n)(sqrt(1+x_n)+1)<sqrt(1.37)(sqrt(1.37)+1)<2.55$. 于是利用 $x_n -> 0$，有
-$sum_(n=5)^( oo )a_n<2.55 sum_(n=5)^( oo )(x_n-x_(n+1))=2.55 x_5<2.55 times 0 .37<1$. 因此 $S_(100)<S_( oo )<2+1=3$. 另一方面 $S_(100)>a_1+a_2=1+(1)/(2)>(1)/(2)$，故 $(1)/(2)<S_(100)<3$，答案为 A.
+#mi(`x_{n+1}=\dfrac{x_n}{\sqrt{1+x_{n}}}<x_{n}`). 数列 #mi(`\{x_{n}\}`) 单调递减且有极限；若极限为 #mi(`L`)，由递推式有 #mi(`L=\dfrac{L}{\sqrt{1+L}}`)，故 #mi(`L=0`). 又
+
+#mi(`a_{n}=x_{n}^{2}=\sqrt{1+x_{n}}\bigl(\sqrt{1+x_{n}}+1\bigr)(x_{n}-x_{n+1})`).
+
+由 #mi(`x_{1}=1`)，#mi(`x_{2}=\frac{1}{\sqrt{2}}`) 及递推式，得
+
+#mi(`x_{3}=\sqrt{\frac{1}{(2+\sqrt{2})}}`)，从而 #mi(`0.54<x_{3}<0.543`). 函数 #mi(`h(x)=\frac{x}{\sqrt{1+x}}`) 在 #mi(`x>0`) 时递增，故
+
+#mi(`h(0.54)<x_{4}=h(x_{3})<h(0.543)`)，直接平方比较可得 #mi(`0.43<x_{4}<0.44`)，进而 #mi(`x_{5}=h(x_{4})<h(0.44)<0.37`). 因而
+
+#mi(`S_{4}=1+\dfrac{1}{2}+x_{3}^{2}+x_{4}^{2}<1+\dfrac{1}{2}+0.543^{2}+0.44^{2}<2`). 当 #mi(`n\geq5`) 时，#mi(`x_{n}<0.37`)，所以
+
+#mi(`\sqrt{1+x_{n}}\bigl(\sqrt{1+x_{n}}+1\bigr)<\sqrt{1.37}(\sqrt{1.37}+1)<2.55`). 于是利用 #mi(`x_{n}\to0`)，有
+
+#mi(`\displaystyle\sum_{n=5}^{\infty}a_{n}<2.55\sum_{n=5}^{\infty}(x_{n}-x_{n+1})=2.55x_{5}<2.55\times0.37<1`). 因此 #mi(`S_{100}<S_{\infty}<2+1=3`). 另一方面 #mi(`S_{100}>a_{1}+a_{2}=1+\dfrac{1}{2}>\dfrac{1}{2}`)，故 #mi(`\dfrac{1}{2}<S_{100}<3`)，答案为 A.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
 我国古代数学家赵爽用弦图给出了勾股定理的证明. 弦图是由四个全等的直角三角形和中间的一个小正方形拼成的大正方形（如图所示）.
-若直角三角形直角边分别为 $3$ 与 $4$，记大正方形面积为 $S_1$，小正方形面积为 $S_2$，则 $(S_1)/(S_2)=\f i l l i n b l a n k{}$.
+
+若直角三角形直角边分别为 #mi(`3`) 与 #mi(`4`)，记大正方形面积为 #mi(`S_{1}`)，小正方形面积为 #mi(`S_{2}`)，则 #mi(`\frac{S_{1}}{S_{2}}=\underline{\hspace{2.5em}}{}`).
 
 
-#align(center)[#image("/papers/2021/img/zhejiang/q11_fig1.png", width: 4.8cm)]
+#align(center)[#image("/papers/2021/img/zhejiang/q11_fig1.png", width: 28%)]
+
 ]
 
 #answer([25])
 
 #solution[
-直角三角形的斜边长为 $sqrt(3^(2)+4^(2))=5$，所以大正方形的边长为 $5$，$S_(1)=25$. 弦图中间小正方形的边长为两条直角边之差 $4-3=1$，所以 $S_(2)=1$. 因此 $(S_(1))/(S_(2))=25$.
+直角三角形的斜边长为 #mi(`\sqrt{3^{2}+4^{2}}=5`)，所以大正方形的边长为 #mi(`5`)，#mi(`S_{1}=25`). 弦图中间小正方形的边长为两条直角边之差 #mi(`4-3=1`)，所以 #mi(`S_{2}=1`). 因此 #mi(`\dfrac{S_{1}}{S_{2}}=25`).
 ]
 
 #problem(12)[
-已知 $a in RR$，函数 $f(x)=\b e g i n{c a s e s} x^(2)-4,&x>2,\\ |x-3|+a,&x <= 2 , \e n d{c a s e s}$ 若 $f[f(sqrt(6))]=3$，则 $a=\f i l l i n b l a n k{}$.
+已知 #mi(`a\in\mathbb{R}`)，函数 #mi(`f(x)=\begin{cases}x^{2}-4,&x>2,\\  |x-3|+a,&x\le 2,\end{cases}`) 若 #mi(`f\left[f(\sqrt{6})\right]=3`)，则 #mi(`a=\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([2])
 
 #solution[
-因为 $sqrt(6)>2$，所以 $f(sqrt(6))=(sqrt(6))^(2)-4=2$. 又 $2\l e q2$，故 $f(f(sqrt(6)))=f(2)=|2-3|+a=1+a$. 由题设 $1+a=3$，解得 $a=2$.
+因为 #mi(`\sqrt{6}>2`)，所以 #mi(`f(\sqrt{6})=(\sqrt{6})^{2}-4=2`). 又 #mi(`2\leq2`)，故 #mi(`f(f(\sqrt{6}))=f(2)=|2-3|+a=1+a`). 由题设 #mi(`1+a=3`)，解得 #mi(`a=2`).
 ]
 
 #problem(13)[
 已知
-$(x-1)^3+(x+1)^4=x^4+a_(1) x^3+a_(2) x^2+a_(3) x+a_4$，则
-$a_1=\f i l l i n b l a n k{}$，
-$a_2+a_3+a_4=\f i l l i n b l a n k{}$.
+
+#mi(`(x-1)^{3}+(x+1)^{4}=x^{4}+a_{1}x^{3}+a_{2}x^{2}+a_{3}x+a_{4}`)，则
+
+#mi(`a_{1}=\underline{\hspace{2.5em}}{}`)，
+
+#mi(`a_{2}+a_{3}+a_{4}=\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([5，10])
 
 #solution[
-展开得 $(x-1)^(3)=x^(3)-3 x^(2)+3 x-1$，$(x+1)^(4)=x^(4)+4 x^(3)+6 x^(2)+4 x+1$. 相加可得
-$x^(4)+5 x^(3)+3 x^(2)+7 x$. 所以 $a_(1)=5$，$a_(2)=3$，$a_(3)=7$，$a_(4)=0$，从而 $a_(2)+a_(3)+a_(4)=10$.
+展开得 #mi(`(x-1)^{3}=x^{3}-3x^{2}+3x-1`)，#mi(`(x+1)^{4}=x^{4}+4x^{3}+6x^{2}+4x+1`). 相加可得
+
+#mi(`x^{4}+5x^{3}+3x^{2}+7x`). 所以 #mi(`a_{1}=5`)，#mi(`a_{2}=3`)，#mi(`a_{3}=7`)，#mi(`a_{4}=0`)，从而 #mi(`a_{2}+a_{3}+a_{4}=10`).
 ]
 
 #problem(14)[
-在 $triangle A B C$ 中，$angle B=60^ degree$，$A B=2$，$M$ 是 $B C$ 中点，$A M=2 sqrt(3)$，则
-$A C=\f i l l i n b l a n k{}$，$cos angle M A C=\f i l l i n b l a n k{}$.
+在 #mi(`\triangle ABC`) 中，#mi(`\angle B=60^{\circ}`)，#mi(`AB=2`)，#mi(`M`) 是 #mi(`BC`) 中点，#mi(`AM=2\sqrt{3}`)，则
+
+#mi(`AC=\underline{\hspace{2.5em}}{}`)，#mi(`\cos\angle MAC=\underline{\hspace{2.5em}}{}`).
 
 
-#align(center)[#image("/papers/2021/img/zhejiang/q14_fig1.png", width: 4.7cm)]
+#align(center)[#image("/papers/2021/img/zhejiang/q14_fig1.png", width: 28%)]
+
 ]
 
-#answer([$2 sqrt(13)\)，\((2 sqrt(39))/(13)$])
+#answer([#mi(`2\sqrt{13}`)，#mi(`\dfrac{2\sqrt{39}}{13}`)])
 
 #solution[
-设 $B M=M C=x>0$. 在三角形 $A B M$ 中，$angle A B M=60^( degree )$，由余弦定理得
-$A M^(2)=A B^(2)+B M^(2)-2 A B dot B M cos 60 ""^( degree )$，即 $12=4+x^(2)-2 x$. 因而 $x^(2)-2 x-8=0$，解得 $x=4$，所以 $B C=8$.
-在三角形 $A B C$ 中再次使用余弦定理，得
-$A C^(2)=A B^(2)+B C^(2)-2 A B dot B C cos 60 ""^( degree )=4+64-16=52$，故 $A C=2 sqrt(13)$.
-在三角形 $A M C$ 中，$A M=2 sqrt(3)$，$M C=4$，$A C=2 sqrt(13)$，所以
-$cos angle M A C=(A M^(2)+A C^(2)-M C^(2))/(2 A M dot A C)=(12+52-16)/(2 dot 2 sqrt(3) dot 2 sqrt(13))=(2 sqrt(39))/(13)$.
+设 #mi(`BM=MC=x>0`). 在三角形 #mi(`ABM`) 中，#mi(`\angle ABM=60^{\circ}`)，由余弦定理得
+
+#mi(`AM^{2}=AB^{2}+BM^{2}-2AB\cdot BM\cos60^{\circ}`)，即 #mi(`12=4+x^{2}-2x`). 因而 #mi(`x^{2}-2x-8=0`)，解得 #mi(`x=4`)，所以 #mi(`BC=8`).
+
+在三角形 #mi(`ABC`) 中再次使用余弦定理，得
+
+#mi(`AC^{2}=AB^{2}+BC^{2}-2AB\cdot BC\cos60^{\circ}=4+64-16=52`)，故 #mi(`AC=2\sqrt{13}`).
+
+在三角形 #mi(`AMC`) 中，#mi(`AM=2\sqrt{3}`)，#mi(`MC=4`)，#mi(`AC=2\sqrt{13}`)，所以
+
+#mi(`\cos\angle MAC=\dfrac{AM^{2}+AC^{2}-MC^{2}}{2AM\cdot AC}=\dfrac{12+52-16}{2\cdot2\sqrt{3}\cdot2\sqrt{13}}=\dfrac{2\sqrt{39}}{13}`).
 ]
 
 #problem(15)[
-袋中有 $4$ 个红球，$m$ 个黄球，$n$ 个绿球，现从中任取两球，记取出的红球数为 $xi$.
-若取出的两个球都是红球概率为 $(1)/(6)$，
-一红一黄概率为 $(1)/(3)$，则
-$m-n=\f i l l i n b l a n k{}$，$E( xi )=\f i l l i n b l a n k{}$.
+袋中有 #mi(`4`) 个红球，#mi(`m`) 个黄球，#mi(`n`) 个绿球，现从中任取两球，记取出的红球数为 #mi(`\xi`).
+
+若取出的两个球都是红球概率为 #mi(`\frac{1}{6}`)，
+
+一红一黄概率为 #mi(`\frac{1}{3}`)，则
+
+#mi(`m-n=\underline{\hspace{2.5em}}{}`)，#mi(`E(\xi)=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([1，$(8)/(9)$])
+#answer([1，#mi(`\dfrac{8}{9}`)])
 
 #solution[
-设球的总数为 $N=4+m+n$. 由两个红球的概率，得
-$(C_(4)^(2))/(C_(N)^(2))=(1)/(6)$，即 $(6)/(N((N-1))/(2))=(1)/(6)$，所以 $N(N-1)=72$. 因为 $N>4$，故 $N=9$.
+设球的总数为 #mi(`N=4+m+n`). 由两个红球的概率，得
+
+#mi(`\dfrac{\mathrm{C}_{4}^{2}}{\mathrm{C}_{N}^{2}}=\dfrac{1}{6}`)，即 #mi(`\dfrac6{N\frac{(N-1)}{2}}=\dfrac{1}{6}`)，所以 #mi(`N(N-1)=72`). 因为 #mi(`N>4`)，故 #mi(`N=9`).
+
 一红一黄的概率为
-$(4 m)/(C_(9)^(2))=(1)/(3)$，所以 $(4 m)/(36)=(1)/(3)$，得 $m=3$，进而 $n=9-4-3=2$. 因此 $m-n=1$.
-每次抽取中抽到红球的概率为 $(4)/(9)$，抽取两球时红球数的期望为
-$E( xi )=2 dot (4)/(9)=(8)/(9)$.
+
+#mi(`\dfrac{4m}{\mathrm{C}_{9}^{2}}=\dfrac{1}{3}`)，所以 #mi(`\dfrac{4m}{36}=\dfrac{1}{3}`)，得 #mi(`m=3`)，进而 #mi(`n=9-4-3=2`). 因此 #mi(`m-n=1`).
+
+每次抽取中抽到红球的概率为 #mi(`\dfrac{4}{9}`)，抽取两球时红球数的期望为
+
+#mi(`E(\xi)=2\cdot\dfrac{4}{9}=\dfrac{8}{9}`).
 ]
 
 #problem(16)[
-已知椭圆 $(x^2)/(a^2)+(y^2)/(b^2)=1$（$a>b>0$），焦点为
-$F_1(-c,0)$，$F_2(c,0)$（$c>0$）.
-若过 $F_1$ 的直线和圆
-$(x-(c)/(2))^2+y^2=c^2$ 相切，与椭圆在第一象限交于点 $P$，且 $P F_2 bot x$ 轴，
-则该直线斜率为 $\f i l l i n b l a n k{}$，椭圆的离心率为 $\f i l l i n b l a n k{}$.
+已知椭圆 #mi(`\frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1`)（#mi(`a>b>0`)），焦点为
+
+#mi(`F_{1}(-c,0)`)，#mi(`F_{2}(c,0)`)（#mi(`c>0`)）.
+
+若过 #mi(`F_{1}`) 的直线和圆
+
+#mi(`(x-\frac{c}{2})^{2}+y^{2}=c^{2}`) 相切，与椭圆在第一象限交于点 #mi(`P`)，且 #mi(`PF_{2}\perp x`) 轴，
+
+则该直线斜率为 #mi(`\underline{\hspace{2.5em}}{}`)，椭圆的离心率为 #mi(`\underline{\hspace{2.5em}}{}`).
 
 
-#align(center)[#image("/papers/2021/img/zhejiang/q16_fig1.png", width: 5cm)]
+#align(center)[#image("/papers/2021/img/zhejiang/q16_fig1.png", width: 28%)]
+
 ]
 
-#answer([$(2 sqrt(5))/(5)\)，\((sqrt(5))/(5)$])
+#answer([#mi(`\dfrac{2\sqrt{5}}{5}`)，#mi(`\dfrac{\sqrt{5}}{5}`)])
 
 #solution[
-设过 $F_(1)(-c,0)$ 的直线斜率为 $k$. 因为交点 $P$ 在第一象限，取 $k>0$，直线方程为 $y=k(x+c)$. 圆心为 $((c)/(2),0)$，圆半径为 $c$，由圆心到切线的距离等于半径，得
-$(|k dot (c)/(2)+k c|)/(sqrt(k^(2)+1))=c$，即 $(3 k)/(2 sqrt(k^(2)+1))=1$. 解得 $5 k^(2)=4$，所以 $k=(2 sqrt(5))/(5)$.
-又 $P F_(2) bot x$ 轴，故 $P$ 的横坐标为 $c$. 代入直线方程，得 $P(c,(4 c)/(sqrt(5)))$. 由椭圆方程及 $b^(2)=a^(2)-c^(2)$，有
-$(c^(2))/(a^(2))+(16(c^(2))/(5))/(a^(2)-c^(2))=1$. 令 $e^(2)=(c^(2))/(a^(2))$，则
-$e^(2)+(16 e^(2))/(5(1-e^(2)))=1$，化简得 $5 e^(4)-26 e^(2)+5=0$. 因为 $0<e<1$，取 $e^(2)=(1)/(5)$，所以椭圆离心率为 $e=(sqrt(5))/(5)$.
+设过 #mi(`F_{1}(-c,0)`) 的直线斜率为 #mi(`k`). 因为交点 #mi(`P`) 在第一象限，取 #mi(`k>0`)，直线方程为 #mi(`y=k(x+c)`). 圆心为 #mi(`\left(\dfrac{c}{2},0\right)`)，圆半径为 #mi(`c`)，由圆心到切线的距离等于半径，得
+
+#mi(`\dfrac{\left|k\cdot\dfrac{c}{2}+kc\right|}{\sqrt{k^{2}+1}}=c`)，即 #mi(`\dfrac{3k}{2\sqrt{k^{2}+1}}=1`). 解得 #mi(`5k^{2}=4`)，所以 #mi(`k=\dfrac{2\sqrt{5}}{5}`).
+
+又 #mi(`PF_{2}\perp x`) 轴，故 #mi(`P`) 的横坐标为 #mi(`c`). 代入直线方程，得 #mi(`P\left(c,\dfrac{4c}{\sqrt{5}}\right)`). 由椭圆方程及 #mi(`b^{2}=a^{2}-c^{2}`)，有
+
+#mi(`\dfrac{c^{2}}{a^{2}}+\dfrac{16\frac{c^{2}}{5}}{a^{2}-c^{2}}=1`). 令 #mi(`e^{2}=\dfrac{c^{2}}{a^{2}}`)，则
+
+#mi(`e^{2}+\dfrac{16e^{2}}{5(1-e^{2})}=1`)，化简得 #mi(`5e^{4}-26e^{2}+5=0`). 因为 #mi(`0<e<1`)，取 #mi(`e^{2}=\dfrac{1}{5}`)，所以椭圆离心率为 #mi(`e=\dfrac{\sqrt{5}}{5}`).
 ]
 
 #problem(17)[
-已知平面向量 $bold(a)$，$bold(b)$，$bold(c)$（$bold(c)\n e b o l d(0)$）
-满足 $|bold(a)|=1$，$|bold(b)|=2$，$bold(a)\c d o t b o l d(b)=0$ 且 $(bold(a)-bold(b))\c d o t b o l d(c)=0$.
-记向量 $bold(d)$ 在 $bold(a)$，$bold(b)$ 方向上的投影分别为 $x$，$y$，
-$bold(d)-bold(a)$ 在 $bold(c)$ 方向上的投影为 $z$，则
-$x^2+y^2+z^2$ 的最小值为 $\f i l l i n b l a n k{}$.
+已知平面向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`)，#mi(`\mathbf{c}`)（#mi(`\mathbf{c}\ne\mathbf{0}`)）
+
+满足 #mi(`|\mathbf{a}|=1`)，#mi(`|\mathbf{b}|=2`)，#mi(`\mathbf{a}\cdot\mathbf{b}=0`) 且 #mi(`(\mathbf{a}-\mathbf{b})\cdot\mathbf{c}=0`).
+
+记向量 #mi(`\mathbf{d}`) 在 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 方向上的投影分别为 #mi(`x`)，#mi(`y`)，
+
+#mi(`\mathbf{d}-\mathbf{a}`) 在 #mi(`\mathbf{c}`) 方向上的投影为 #mi(`z`)，则
+
+#mi(`x^{2}+y^{2}+z^{2}`) 的最小值为 #mi(`\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(2)/(5)$])
+#answer([#mi(`\dfrac{2}{5}`)])
 
 #solution[
-令 $bold(e)_(1)=bold(a)$，$bold(e)_(2)=(1)/(2)bold(b)$，则 $bold(e)_(1)$，$bold(e)_(2)$ 是一组正交单位向量. 条件 $(bold(a)-bold(b))\c d o t b o l d(c)=0$ 表明 $bold(c)$ 的方向垂直于 $bold(e)_(1)-2 bold(e)_(2)$，故其单位方向向量可取 $(2 bold(e)_(1)+bold(e)_(2))/(sqrt(5))$，取相反方向只会使投影 $z$ 变号，不影响 $z^(2)$.
-设 $bold(d)$ 在 $bold(e)_(1)$，$bold(e)_(2)$ 方向上的投影分别为 $x$，$y$，则 $bold(d)=x b o l d(e)_(1)+y b o l d(e)_(2)$. 因而
-$z=(2(x-1)+y)/(sqrt(5))$，从而
-$x^(2)+y^(2)+z^(2)=x^(2)+y^(2)+\d f r a c{(2 x+y-2)^(2)}5$.
-令 $u=x-(2)/(5)$，$v=y-(1)/(5)$，配方得
-$x^(2)+y^(2)+z^(2)=(2)/(5)+u^(2)+v^(2)+\d f r a c{(2 u+v)^(2)}5\g e q(2)/(5)$. 当 $u=v=0$，即 $x=(2)/(5)$，$y=(1)/(5)$ 时等号成立，所以最小值为 $(2)/(5)$.
+令 #mi(`\mathbf{e}_{1}=\mathbf{a}`)，#mi(`\mathbf{e}_{2}=\dfrac{1}{2}\mathbf{b}`)，则 #mi(`\mathbf{e}_{1}`)，#mi(`\mathbf{e}_{2}`) 是一组正交单位向量. 条件 #mi(`(\mathbf{a}-\mathbf{b})\cdot\mathbf{c}=0`) 表明 #mi(`\mathbf{c}`) 的方向垂直于 #mi(`\mathbf{e}_{1}-2\mathbf{e}_{2}`)，故其单位方向向量可取 #mi(`\dfrac{2\mathbf{e}_{1}+\mathbf{e}_{2}}{\sqrt{5}}`)，取相反方向只会使投影 #mi(`z`) 变号，不影响 #mi(`z^{2}`).
+
+设 #mi(`\mathbf{d}`) 在 #mi(`\mathbf{e}_{1}`)，#mi(`\mathbf{e}_{2}`) 方向上的投影分别为 #mi(`x`)，#mi(`y`)，则 #mi(`\mathbf{d}=x\mathbf{e}_{1}+y\mathbf{e}_{2}`). 因而
+
+#mi(`z=\dfrac{2(x-1)+y}{\sqrt{5}}`)，从而
+
+#mi(`x^{2}+y^{2}+z^{2}=x^{2}+y^{2}+\dfrac{(2x+y-2)^{2}}5`).
+
+令 #mi(`u=x-\dfrac{2}{5}`)，#mi(`v=y-\dfrac{1}{5}`)，配方得
+
+#mi(`x^{2}+y^{2}+z^{2}=\dfrac{2}{5}+u^{2}+v^{2}+\dfrac{(2u+v)^{2}}5\geq\dfrac{2}{5}`). 当 #mi(`u=v=0`)，即 #mi(`x=\dfrac{2}{5}`)，#mi(`y=\dfrac{1}{5}`) 时等号成立，所以最小值为 #mi(`\dfrac{2}{5}`).
 ]
 
 #part-header("解答题")
 
 #problem(18)[
-设函数 $f(x)= sin x+ cos x$（$x in RR$）.
+设函数 #mi(`f(x)=\sin x+\cos x`)（#mi(`x\in\mathbb{R}`)）.
 
 
-+ (1) 求函数 $y=[f(x+\t f r a c{ pi }{2})]^2$ 的最小正周期；
-+ (2) 求函数 $y=f(x)f(x-\t f r a c{ pi }{4})$ 在 $[0,(pi)/(2)]$ 上的最大值.
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $f(x+(pi)/(2))= sin (x+(pi)/(2))+ cos (x+(pi)/(2))= cos x- sin x$，所以
-$y=( cos x- sin x)^(2)=1- sin 2 x$. 该函数含有非零的 $sin 2 x$ 项，故其最小正周期为 $pi$.
-+ (2) $f(x-(pi)/(4))= sin (x-(pi)/(4))+ cos (x-(pi)/(4))=sqrt(2) sin x$. 因此
-$y=sqrt(2) sin x( sin x+ cos x)=(sqrt(2))/(2)(1- cos 2 x+ sin 2 x)$.
-又 $sin 2 x- cos 2 x=sqrt(2) sin (2 x-(pi)/(4))$，当 $x in [0,(pi)/(2)]$ 时，$2 x-(pi)/(4) in [-(pi)/(4),(3 pi)/(4)]$，其中包含正弦函数取最大值 $1$ 的点 $x=(3 pi)/(8)$. 所以
-$y_( max )=(sqrt(2))/(2)(1+sqrt(2))=1+(sqrt(2))/(2)$.
++ (1)
 ]
 
 #problem(19)[
-如图，在四棱锥 $P-A B C D$ 中，底面 $A B C D$ 为平行四边形，$angle A B C=120^ degree$，
-$A B=1$，$B C=4$，$P A=sqrt(15)$.
-设 $M$，$N$ 分别为 $B C$，$P C$ 中点，$P D bot D C$，$P M bot M D$.
+如图，在四棱锥 #mi(`P-ABCD`) 中，底面 #mi(`ABCD`) 为平行四边形，#mi(`\angle ABC=120^{\circ}`)，
+
+#mi(`AB=1`)，#mi(`BC=4`)，#mi(`PA=\sqrt{15}`).
+
+设 #mi(`M`)，#mi(`N`) 分别为 #mi(`BC`)，#mi(`PC`) 中点，#mi(`PD\perp DC`)，#mi(`PM\perp MD`).
 
 
-+ (1) 证明：$A B bot P M$；
-+ (2) 求直线 $A N$ 与平面 $P D M$ 所成角的正弦值.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2021/img/zhejiang/q19_fig1.png", width: 6.0cm)]
+
+#align(center)[#image("/papers/2021/img/zhejiang/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 建立空间直角坐标系，取 $A$ 为原点，并令
-$A(0,0,0)$，$B(1,0,0)$，$C(3,2 sqrt(3),0)$，$D(2,2 sqrt(3),0)$. 这里 $arrow(A B)=(1,0,0)$，$arrow(B C)=(2,2 sqrt(3),0)$，且 $angle A B C=120^( degree )$.
-设 $P=(x,y,z)$. 因为 $D C parallel A B$，由 $P D bot D C$ 得
-$(P-D) dot (1,0,0)=0$，所以 $x=2$. 又 $M$ 是 $B C$ 的中点，故 $M=(2,sqrt(3),0)$，$D-M=(0,sqrt(3),0)$. 由 $P M bot M D$ 得
-$(P-M) dot (D-M)=0$，从而 $y=sqrt(3)$. 再由 $P A=sqrt(15)$，得 $4+3+z^(2)=15$，即 $z^(2)=8$.
-于是 $arrow(P M)=(0,0,-z)$，而 $arrow(A B)=(1,0,0)$，故 $A B bot P M$.
-+ (2) $N$ 是 $P C$ 的中点，所以
-$N=((5)/(2),(3 sqrt(3))/(2),(z)/(2))$，从而 $arrow(A N)=N$，且
-$|A N|^(2)=(25)/(4)+(27)/(4)+\d f r a c{z^(2)}4=15$.
-平面 $P D M$ 内有方向向量 $arrow(P M)=(0,0,-z)$ 与 $arrow(M D)=(0,sqrt(3),0)$，故其一个法向量为 $bold(n)=(1,0,0)$. 设直线 $A N$ 与平面 $P D M$ 所成的角为 $theta$，则
-$sin theta =(|arrow(A N){ dot }bold(n)|)/(|A N||bold(n)|)=((5)/(2))/(sqrt(15))=\d f r a c{sqrt(15)}6$.
++ (1)
 ]
 
 #problem(20)[
-已知数列 $\{a_n\}$ 前 $n$ 项和为 $S_n$，$a_1=-(9)/(4)$，且
-$4 S_(n+1)=3 S_n-9$.
+已知数列 #mi(`\{a_{n}\}`) 前 #mi(`n`) 项和为 #mi(`S_{n}`)，#mi(`a_{1}=-\frac{9}{4}`)，且
+
+#mi(`4S_{n+1}=3S_{n}-9`).
 
 
-+ (1) 求数列 $\{a_n\}$ 的通项；
-+ (2) 设 $\{b_n\}$ 满足
-$3 b_n+(n-4)a_n=0$（$n in NN ""^*$），记其前 $n$ 项和为 $T_n$. 若
-$T_n <= lambda b_n$ 对任意 $n in NN ""^*$ 恒成立，求 $lambda$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 对 $n\g e q2$，题设递推式分别写为
-$4 S_(n+1)=3 S_n-9$，$4 S_n=3 S_(n-1)-9$. 两式相减得 $4 a_(n+1)=3 a_n$. 又 $a_1=-(9)/(4)$，所以 $\{a_n\}$ 是首项为 $-(9)/(4)$，公比为 $(3)/(4)$ 的等比数列，故
-$a_n=-(9)/(4)((3)/(4))^(n-1)=-3((3)/(4))^n$.
-+ (2) 由 $3 b_n+(n-4)a_n=0$ 及上式，得
-$b_n=-(n-4)/(3)a_n=(n-4)((3)/(4))^n$. 令 $r=(3)/(4)$，则
-$T_n=sum_(k=1)^(n)(k-4)r^k$. 由于
-$sum_(k=1)^( oo )(k-4)r^k=(r)/((1-r)^2)-(4 r)/(1-r)=12-12=0$，并且
-$sum_(k=n+1)^( oo )(k-4)r^k=r^(n+1)((n-3)/(1-r)+(r)/((1-r)^2))=4 n r^(n+1)$，所以 $T_n=-4 n r^(n+1)=-3 n r^n$.
-因此题设不等式等价于
-$-3 n r^n\l e q lambda (n-4)r^n$，即 $-3 n\l e q lambda (n-4)$.
-当 $n=4$ 时不等式显然成立；当 $n=1$，$2$，$3$ 时因 $n-4<0$，分别得到 $lambda \l e q1$，$lambda \l e q3$，$lambda \l e q9$，合并为 $lambda \l e q1$. 当 $n>4$ 时，得到
-$lambda \g e q-(3 n)/(n-4)=-3-(12)/(n-4)$. 对所有 $n>4$ 恒成立的充要条件为 $lambda \g e q-3$. 所以 $lambda$ 的取值范围为 $[-3,1]$.
++ (1)
 ]
 
 #problem(21)[
-如图，已知 $F$ 是抛物线 $y^2=2 p x$（$p>0$）的焦点，$M$ 为该抛物线准线与 $x$ 轴交点，且 $|M F|=2$.
+如图，已知 #mi(`F`) 是抛物线 #mi(`y^{2}=2px`)（#mi(`p>0`)）的焦点，#mi(`M`) 为该抛物线准线与 #mi(`x`) 轴交点，且 #mi(`|MF|=2`).
 
 
-+ (1) 求抛物线方程；
-+ (2) 设过 $F$ 的直线交抛物线于 $A$，$B$，斜率为 $2$ 的直线 $l$ 与直线 $M A$，$M B$，$A B$，$x$ 轴依次交于 $P$，$Q$，$R$，$N$，且 $|R N|^2=|P N| dot |Q N|$，求直线 $l$ 在 $x$ 轴上的截距的范围.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2021/img/zhejiang/q21_fig1.png", width: 6.0cm)]
+
+#align(center)[#image("/papers/2021/img/zhejiang/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 抛物线 $y^(2)=2 p x$ 的焦点为 $F((p)/(2),0)$，准线为 $x=-(p)/(2)$，所以 $M(-(p)/(2),0)$. 因而 $|M F|=p=2$，故抛物线方程为 $y^(2)=4 x$.
-+ (2) 先考虑过 $F(1,0)$ 的非竖直直线. 抛物线可参数表示为 $(u^(2),2 u)$. 设
-$A=(u^(2),2 u)$，$B=((1)/(u^(2)),-(2)/(u))$，则连接 $A$，$B$ 的直线过 $F$，且 $u != 0$. 设直线 $l$ 在 $x$ 轴上的截距为 $t$，则 $l$ 的方程为 $y=2(x-t)$.
-记 $P$，$Q$，$R$ 的横坐标分别为 $p_1$，$q_1$，$r_1$，并令
-$D_1=u^(2)-u+1$，$D_2=u^(2)+u+1$，$E=u^(2)-u-1$. 由直线 $M A$，$M B$ 的斜率分别为 $(2 u)/(u^(2)+1)$，$-(2 u)/(u^(2)+1)$，联立其与 $l$ 的方程，得
-$p_1=(t(u^(2)+1)+u)/(D_1)$，$q_1=(t(u^(2)+1)-u)/(D_2)$，所以
-$p_1-t=(u(t+1))/(D_1)$，$q_1-t=-(u(t+1))/(D_2)$.
-又 $A B$ 的方程为 $2 x-(u-(1)/(u))y-2=0$，与 $l$ 联立得
-$r_1=(t(u^(2)-1)-u)/(E)$，所以 $r_1-t=(u(t-1))/(E)$. 当 $E=0$ 时 $A B parallel l$，点 $R$ 不存在，故 $E != 0$.
-由于 $l$ 的方向向量为 $(1,2)$，同一直线上两点的距离等于其横坐标差的绝对值乘以 $sqrt(5)$. 将上述三个差代入条件 $|R N|^(2)=|P N| dot |Q N|$，约去公共因子，得
-$(u^(2)-u+1)(u^(2)+u+1)(t-1)^(2)=(u^(2)-u-1)^(2)(t+1)^(2)$.
-注意到
-$4(u^(2)-u+1)(u^(2)+u+1)-3(u^(2)-u-1)^(2)=(u^(2)+3 u-1)^(2)\g e q0$，故
-$((t-1)^(2))/((t+1)^(2))\l e q(4)/(3)$. 这等价于 $t^(2)+14 t+1\g e q0$，即
-$t\l e q-7-4 sqrt(3)$ 或 $t\g e q-7+4 sqrt(3)$.
-反过来，函数
-$phi (u)=((u^(2)-u-1)^(2))/((u^(2)-u+1)(u^(2)+u+1))$ 连续，且在区间 $[\d f r a c{-3+sqrt(13)}2,(1+sqrt(5))/(2)]$ 上分别取得 $(4)/(3)$ 与 $0$，所以能取得 $0$ 到 $(4)/(3)$ 之间的所有值. 因此只要 $t != 1$ 且满足上述不等式，就能选择合适的 $u$ 使距离条件成立. $t=1$ 时距离等式会迫使 $E=0$，但此时 $A B parallel l$，不产生交点 $R$，故应排除 $t=1$.
-若过 $F$ 的直线为竖直线 $x=1$，则 $A(1,2)$，$B(1,-2)$，从而 $M A$ 与 $M B$ 的方程分别为 $y=x+1$，$y=-x-1$. 与 $l$ 联立可得 $P$，$Q$，$R$，$N$ 的横坐标分别为 $1+2 t$，$(2 t-1)/(3)$，$1$，$t$. 距离条件给出 $3(t-1)^(2)=(t+1)^(2)$，即 $t=2\p m s q r t(3)$，这两个值已经包含在前述范围内.
-综上，直线 $l$ 在 $x$ 轴上的截距范围为
-$(- oo ,-7-4 sqrt(3)] union [-7+4 sqrt(3),1) union (1,+ oo )$.
++ (1)
 ]
 
 #problem(22)[
-设 $a$，$b in RR$，且 $a>1$，函数 $f(x)=a^x-b x+ e ""^2$（$x in RR$）.
+设 #mi(`a`)，#mi(`b\in\mathbb{R}`)，且 #mi(`a>1`)，函数 #mi(`f(x)=a^{x}-bx+\mathrm{e}^{2}`)（#mi(`x\in\mathbb{R}`)）.
 
 
-+ (1) 求函数 $f(x)$ 的单调区间；
-+ (2) 若对任意 $b>2 e ""^2$，函数 $f(x)$ 有两个不同零点，求 $a$ 的取值范围；
-+ (3) 当 $a= e$ 时，证明：对任意 $b> e ""^4$，函数 $f(x)$ 有两个不同零点 $x_1$，$x_2$，使 $x_2>(b ln b)/(2 e ""^2)x_1+(e ""^2)/(b)$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 令 $L= ln a>0$，则
-$f'(x)=a^(x) ln a-b=a^(x)L-b$.
-当 $b\l e q0$ 时，$f'(x)>0$ 对任意 $x$ 成立，所以 $f(x)$ 在 $RR$ 上单调递增.
-当 $b>0$ 时，$f'(x)=0$ 的唯一解为 $x_0=(ln ((b)/(L)))/(L)$. 因为 $a^(x)L$ 随 $x$ 严格递增，所以 $f(x)$ 在 $(- oo ,(ln ((b)/(L)))/(L))$ 上单调递减，在 $((ln ((b)/(L)))/(L),+ oo )$ 上单调递增.
-+ (2) 当 $b>2 e ""^2$ 时，$f(x) -> + oo$（$x -> - oo$ 或 $x -> + oo$），所以由第一问，函数有两个不同零点的充要条件是其唯一极小值小于 $0$. 在极小值点 $x_0=(ln ((b)/(L)))/(L)$ 处，$a^(x_0)=(b)/(L)$，故
-$f(x_0)=(b(1- ln ((b)/(L)))+ e ""^(2) L)/(L)$.
-记 $Phi _L(b)=b(1- ln ((b)/(L)))+ e ""^(2) L$. 若题设对任意 $b>2 e ""^2$ 成立，由连续性必有 $Phi _L(2 e ""^2)\l e q0$. 计算得
-$Phi _L(2 e ""^2)= e ""^2(L+2 ln L-2-2 ln 2 )$.
-函数 $L+2 ln L$ 在 $L>0$ 上严格递增，且在 $L=2$ 时值为 $2+2 ln 2$，所以必有 $L\l e q2$.
-反之若 $0<L\l e q2$，则对 $b>2 e ""^2$ 有 $b>L$，且
-$Phi _L'(b)=- ln ((b)/(L))<0$. 因而
-$Phi _L(b)< Phi _L(2 e ""^2)\l e q0$，从而 $f(x_0)<0$，函数有两个不同零点. 所以 $0< ln a\l e q2$，即 $1<a\l e q e ""^2$.
-+ (3) 此时 $f(x)= e ""^x-b x+ e ""^2$，且 $b> e ""^4>2 e ""^2$，由第二问知 $f$ 有两个不同零点，记为 $x_1<x_2$. 又
-$f(0)=1+ e ""^2>0$，$f(1)= e -b+ e ""^2<0$，所以 $0<x_1<1$. 由 $f(x_1)=0$，得
-$b x_1= e ""^(x_1)+ e ""^2< e + e ""^2$，即 $x_1<(e + e ""^2)/(b)$.
-函数的极小值点为 $ln b$，并且
-$f( ln b)=b-b ln b+ e ""^2<0$，所以较大的零点满足 $x_2> ln b$.
-另一方面，由 $b> e ""^4$ 得
-$(e -1)/(2 e) ln b-(e ""^2)/(b)>(2( e -1))/(e)- e ""^(-2)>0$. 因而
-$(b ln b)/(2 e ""^2)x_1+(e ""^2)/(b)<(e + e ""^2)/(2 e ""^2) ln b+(e ""^2)/(b)< ln b<x_2$，即
-$x_2>(b ln b)/(2 e ""^2)x_1+(e ""^2)/(b)$.
++ (1) 
++ (2)
 ]
 

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,50 +11,66 @@
 #part-header("单选题")
 
 #problem(1)[
-集合 $A = \{0, 2, a\}$，$B = \{1, a^2\}$. 若 $A union B = \{0, 1, 2, 4, 16\}$，则 $a$ 的值为（ ）
-  #choices([$0$], [$1$], [$2$], [$4$], cols: 4)
+集合 #mi(`A = \{0, 2, a\}`)，#mi(`B = \{1, a^{2}\}`). 若 #mi(`A \cup B = \{0, 1, 2, 4, 16\}`)，则 #mi(`a`) 的值为（ ）
+  #choices([#mi(`0`)], [#mi(`1`)], [#mi(`2`)], [#mi(`4`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-并集中的元素必须来自 $0$，$1$，$2$，$a$，$a^2$. 已知 $0$，$1$，$2$ 已出现，而并集中还需出现且只出现 $4$，$16$，因此
+并集中的元素必须来自 #mi(`0`)，#mi(`1`)，#mi(`2`)，#mi(`a`)，#mi(`a^{2}`). 已知 #mi(`0`)，#mi(`1`)，#mi(`2`) 已出现，而并集中还需出现且只出现 #mi(`4`)，#mi(`16`)，因此
 
-$ \{a,a^2\}=\{4,16\} $
 
-若 $a=4$，则 $a^2=16$，满足条件；若 $a=16$，则 $a^2=256$，不满足条件. 所以 $a=4$，选择 D.
+#align(center)[#mitex(`
+\{a,a^{2}\}=\{4,16\}
+`)]
+
+
+若 #mi(`a=4`)，则 #mi(`a^{2}=16`)，满足条件；若 #mi(`a=16`)，则 #mi(`a^{2}=256`)，不满足条件. 所以 #mi(`a=4`)，选择 D.
 ]
 
 #problem(2)[
-复数 $(3 - i)/(1 - i)$ 等于（ ）
-  #choices([$1 + 2 i$], [$1 - 2 i$], [$2 + i$], [$2 - i$], cols: 4)
+复数 #mi(`\frac{3 - \mathrm{i}}{1 - \mathrm{i}}`) 等于（ ）
+  #choices([#mi(`1 + 2\mathrm{i}`)], [#mi(`1 - 2\mathrm{i}`)], [#mi(`2 + \mathrm{i}`)], [#mi(`2 - \mathrm{i}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-分子、分母同乘以分母的共轭复数 $1+ i$，得
+分子、分母同乘以分母的共轭复数 #mi(`1+\mathrm{i}`)，得
 
-$ (3- i)/(1- i)=((3- i )(1+ i ))/((1- i )(1+ i ))=(4+2 i)/(2)=2+ i $
+
+#align(center)[#mitex(`
+\frac{3-\mathrm{i}}{1-\mathrm{i}}=\frac{(3-\mathrm{i})(1+\mathrm{i})}{(1-\mathrm{i})(1+\mathrm{i})}=\frac{4+2\mathrm{i}}{2}=2+\mathrm{i}
+`)]
+
 
 因此选择 C.
 ]
 
 #problem(3)[
-将函数 $y = sin 2 x$ 的图象向左平移 $(pi)/(4)$ 个单位，再向上平移 $1$ 个单位，所得图象的函数解析式是（ ）
-  #choices([$y = cos 2 x$], [$y = 2 cos ""^2 x$], [$y = 1 + sin (2 x + (pi)/(4))$], [$y = 2 sin ""^2 x$], cols: 2)
+将函数 #mi(`y = \sin 2x`) 的图象向左平移 #mi(`\frac{\pi}{4}`) 个单位，再向上平移 #mi(`1`) 个单位，所得图象的函数解析式是（ ）
+  #choices([#mi(`y = \cos 2x`)], [#mi(`y = 2\cos^{2} x`)], [#mi(`y = 1 + \sin \left(2x + \frac{\pi}{4}\right)`)], [#mi(`y = 2\sin^{2} x`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-函数图象向左平移 $(pi)/(4)$ 个单位后，横坐标 $x$ 应替换为 $x+(pi)/(4)$，所以得到
+函数图象向左平移 #mi(`\frac{\pi}{4}`) 个单位后，横坐标 #mi(`x`) 应替换为 #mi(`x+\frac{\pi}{4}`)，所以得到
 
-$ y= sin (2 x+(pi)/(2))= cos 2 x $
 
-再向上平移 $1$ 个单位，得到
+#align(center)[#mitex(`
+y=\sin\left(2x+\frac{\pi}{2}\right)=\cos2x
+`)]
 
-$ y=1+ cos 2 x=2 cos ""^(2) x $
+
+再向上平移 #mi(`1`) 个单位，得到
+
+
+#align(center)[#mitex(`
+y=1+\cos2x=2\cos^{2}x
+`)]
+
 
 因此选择 B.
 ]
@@ -63,25 +79,32 @@ $ y=1+ cos 2 x=2 cos ""^(2) x $
 一空间几何体的三视图如图所示，则该几何体的体积为（ ）
 
 
-#align(center)[#image("/papers/2009/img/shandong_liberal/q4_fig1.png", width: 56%)]
-  #choices([$2 pi + 2 sqrt(3)$], [$4 pi + 2 sqrt(3)$], [$2 pi + (2 sqrt(3))/(3)$], [$4 pi + (2 sqrt(3))/(3)$], cols: 2)
+#align(center)[#image("/papers/2009/img/shandong_liberal/q4_fig1.png", width: 28%)]
+
+  #choices([#mi(`2\pi + 2\sqrt{3}`)], [#mi(`4\pi + 2\sqrt{3}`)], [#mi(`2\pi + \frac{2\sqrt{3}}{3}`)], [#mi(`4\pi + \frac{2\sqrt{3}}{3}`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-由三视图可知，该几何体由一个底面半径为 $1$、高为 $2$ 的圆柱和一个四棱锥组成. 四棱锥的底面正方形内接于直径为 $2$ 的圆，其对角线为 $2$，故底面边长为 $sqrt(2)$，底面积为 $2$. 四棱锥的侧棱长为 $2$，从顶点向底面对角线的交点作高，得
+由三视图可知，该几何体由一个底面半径为 #mi(`1`)、高为 #mi(`2`) 的圆柱和一个四棱锥组成. 四棱锥的底面正方形内接于直径为 #mi(`2`) 的圆，其对角线为 #mi(`2`)，故底面边长为 #mi(`\sqrt{2}`)，底面积为 #mi(`2`). 四棱锥的侧棱长为 #mi(`2`)，从顶点向底面对角线的交点作高，得
 
-$ h=sqrt(2^2-1^2)=sqrt(3) $
+
+#align(center)[#mitex(`
+h=\sqrt{2^{2}-1^{2}}=\sqrt{3}
+`)]
+
 
 所以圆柱和四棱锥的体积分别为
-$V_1= pi dot 1 ""^2 dot 2 =2 pi$，$V_2=(1)/(3) dot 2 \c d o t s q r t(3)=(2 sqrt(3))/(3)$.
-故总体积为 $2 pi +(2 sqrt(3))/(3)$，选择 C.
+
+#mi(`V_{1}=\pi\cdot1^{2}\cdot2=2\pi`)，#mi(`V_{2}=\frac{1}{3}\cdot2\cdot\sqrt{3}=\frac{2\sqrt{3}}{3}`).
+
+故总体积为 #mi(`2\pi+\frac{2\sqrt{3}}{3}`)，选择 C.
 ]
 
 #problem(5)[
-在 $RR$ 上定义运算 $\o d o t: a \o d o t b = a b + 2 a + b$，则满足 $x \o d o t (x - 2) < 0$ 的实数 $x$ 的取值范围为（ ）
-  #choices([$(0,2)$], [$(-2,1)$], [$(- oo , -2) union (1, + oo )$], [$(-1, 2)$], cols: 2)
+在 #mi(`\mathbb{R}`) 上定义运算 #mi(`\odot: a \odot b = ab + 2a + b`)，则满足 #mi(`x \odot (x - 2) < 0`) 的实数 #mi(`x`) 的取值范围为（ ）
+  #choices([#mi(`(0,2)`)], [#mi(`(-2,1)`)], [#mi(`(- \infty, -2) \cup (1, +\infty)`)], [#mi(`(-1, 2)`)], cols: 1)
 ]
 
 #answer([B])
@@ -89,134 +112,192 @@ $V_1= pi dot 1 ""^2 dot 2 =2 pi$，$V_2=(1)/(3) dot 2 \c d o t s q r t(3)=(2 sqr
 #solution[
 根据新运算的定义，
 
-$ x\o d o t(x-2)=x(x-2)+2 x+(x-2)=x^2+x-2=(x+2)(x-1) $
+
+#align(center)[#mitex(`
+x\odot(x-2)=x(x-2)+2x+(x-2)=x^{2}+x-2=(x+2)(x-1)
+`)]
+
 
 因此
 
-$ (x+2)(x-1)<0 $
 
-的解在两个根 $-2$，$1$ 之间，即 $-2<x<1$. 所以选择 B.
+#align(center)[#mitex(`
+(x+2)(x-1)<0
+`)]
+
+
+的解在两个根 #mi(`-2`)，#mi(`1`) 之间，即 #mi(`-2<x<1`). 所以选择 B.
 ]
 
 #problem(6)[
-函数 $y = (e ""^x + e ""^(-x))/(e ""^x - e ""^(-x))$ 的图象大致为（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/shandong_liberal/q6_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/shandong_liberal/q6_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/shandong_liberal/q6_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/shandong_liberal/q6_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+函数 #mi(`y = \frac{\mathrm{e}^{x} + \mathrm{e}^{-x}}{\mathrm{e}^{x} - \mathrm{e}^{-x}}`) 的图象大致为（ ）
+  #choices([
+#align(center)[#image("/papers/2009/img/shandong_liberal/q6_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/shandong_liberal/q6_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/shandong_liberal/q6_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/shandong_liberal/q6_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-函数的定义域为 $x != 0$. 当 $x -> 0 ""^+$ 时，分母趋于 $0^+$，函数值趋于 $+ oo$；当 $x -> 0 ""^-$ 时，分母趋于 $0^-$，函数值趋于 $- oo$. 又
-$lim_(x -> + oo )(e ""^x+ e ""^(-x))/(e ""^x- e ""^(-x))=1$，$lim_(x -> - oo )(e ""^x+ e ""^(-x))/(e ""^x- e ""^(-x))=-1$.
-此外，对 $x != 0$ 求导得
+函数的定义域为 #mi(`x\ne0`). 当 #mi(`x\to0^{+}`) 时，分母趋于 #mi(`0^{+}`)，函数值趋于 #mi(`+\infty`)；当 #mi(`x\to0^{-}`) 时，分母趋于 #mi(`0^{-}`)，函数值趋于 #mi(`-\infty`). 又
 
-$ y'=(e ""^x( e ""^x- e ""^(-x))-( e ""^x+ e ""^(-x)) e ""^x)/(( e ""^x- e ""^(-x))^2)=-(2)/(( e ""^x- e ""^(-x))^2)<0 $
+#mi(`\lim_{x\to+\infty}\frac{\mathrm{e}^{x}+\mathrm{e}^{-x}}{\mathrm{e}^{x}-\mathrm{e}^{-x}}=1`)，#mi(`\lim_{x\to-\infty}\frac{\mathrm{e}^{x}+\mathrm{e}^{-x}}{\mathrm{e}^{x}-\mathrm{e}^{-x}}=-1`).
 
-所以图象在两支上均递减，且具有竖直渐近线 $x=0$，右支在 $y=1$ 上方趋近于 $1$，左支在 $y=-1$ 下方趋近于 $-1$. 与图 A 相符，选择 A.
+此外，对 #mi(`x\ne0`) 求导得
+
+
+#align(center)[#mitex(`
+y'=\frac{\mathrm{e}^{x}(\mathrm{e}^{x}-\mathrm{e}^{-x})-(\mathrm{e}^{x}+\mathrm{e}^{-x})\mathrm{e}^{x}}{(\mathrm{e}^{x}-\mathrm{e}^{-x})^{2}}=-\frac{2}{(\mathrm{e}^{x}-\mathrm{e}^{-x})^{2}}<0
+`)]
+
+
+所以图象在两支上均递减，且具有竖直渐近线 #mi(`x=0`)，右支在 #mi(`y=1`) 上方趋近于 #mi(`1`)，左支在 #mi(`y=-1`) 下方趋近于 #mi(`-1`). 与图 A 相符，选择 A.
 ]
 
 #problem(7)[
-定义在 $RR$ 上的函数 $f(x)$ 满足 $f(x) = \b e g i n{c a s e s} log _2(4 - x), & x <= 0 ,\\ f(x - 1) - f(x - 2), & x > 0. \e n d{c a s e s}$ 则 $f(3)$ 的值为（ ）
-  #choices([$-1$], [$-2$], [$1$], [$2$], cols: 4)
+定义在 #mi(`\mathbb{R}`) 上的函数 #mi(`f(x)`) 满足 #mi(`f(x) = \begin{cases}\log_{2}(4 - x),&x \le 0,\\  f(x - 1) - f(x - 2),&x > 0.\end{cases}`) 则 #mi(`f(3)`) 的值为（ ）
+  #choices([#mi(`-1`)], [#mi(`-2`)], [#mi(`1`)], [#mi(`2`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由递推式分别取 $x=1$，$2$，$3$，有
-$f(1)=f(0)-f(-1)$，$f(2)=f(1)-f(0)$，$f(3)=f(2)-f(1)$.
+由递推式分别取 #mi(`x=1`)，#mi(`2`)，#mi(`3`)，有
+
+#mi(`f(1)=f(0)-f(-1)`)，#mi(`f(2)=f(1)-f(0)`)，#mi(`f(3)=f(2)-f(1)`).
+
 于是
 
-$ f(3)=(f(1)-f(0))-f(1)=-f(0) $
 
-由 $f(0)= log _2 4=2$，得 $f(3)=-2$，选择 B.
+#align(center)[#mitex(`
+f(3)=\bigl(f(1)-f(0)\bigr)-f(1)=-f(0)
+`)]
+
+
+由 #mi(`f(0)=\log_{2} 4=2`)，得 #mi(`f(3)=-2`)，选择 B.
 ]
 
 #problem(8)[
-设 $P$ 是 $triangle A B C$ 所在平面内的一点，$arrow(B C)+ arrow(B A)= 2 arrow(B P)$，则（ ）
-  #choices([$arrow(P A)+arrow(P B)= 0$], [$arrow(P B)+arrow(P C)= 0$], [$arrow(P C)+arrow(P A)= 0$], [$arrow(P A)+arrow(P B)+arrow(P C)= 0$], cols: 1)
+设 #mi(`P`) 是 #mi(`\triangle ABC`) 所在平面内的一点，#mi(`\overrightarrow{BC}+ \overrightarrow{BA}= 2\overrightarrow{BP}`)，则（ ）
+  #choices([#mi(`\overrightarrow{PA}+\overrightarrow{PB}= 0`)], [#mi(`\overrightarrow{PB}+\overrightarrow{PC}= 0`)], [#mi(`\overrightarrow{PC}+\overrightarrow{PA}= 0`)], [#mi(`\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC}= 0`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-设点 $A$，$B$，$C$，$P$ 的位置向量分别为 $bold(a)$，$bold(b)$，$bold(c)$，$bold(p)$. 由题设
+设点 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`P`) 的位置向量分别为 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`)，#mi(`\mathbf{c}`)，#mi(`\mathbf{p}`). 由题设
 
-$ arrow(B C)+arrow(B A)=(bold(c)-bold(b))+(bold(a)-bold(b))=2(bold(p)-bold(b)) $
 
-化简为 $bold(a)+bold(c)=2 bold(p)$，因此 $P$ 是线段 $A C$ 的中点. 所以
+#align(center)[#mitex(`
+\overrightarrow{BC}+\overrightarrow{BA}=(\mathbf{c}-\mathbf{b})+(\mathbf{a}-\mathbf{b})=2(\mathbf{p}-\mathbf{b})
+`)]
 
-$ arrow(P C)+arrow(P A)=(bold(c)-bold(p))+(bold(a)-bold(p))=bold(a)+bold(c)-2 bold(p)=0 $
+
+化简为 #mi(`\mathbf{a}+\mathbf{c}=2\mathbf{p}`)，因此 #mi(`P`) 是线段 #mi(`AC`) 的中点. 所以
+
+
+#align(center)[#mitex(`
+\overrightarrow{PC}+\overrightarrow{PA}=(\mathbf{c}-\mathbf{p})+(\mathbf{a}-\mathbf{p})=\mathbf{a}+\mathbf{c}-2\mathbf{p}=0
+`)]
+
 
 因此选择 C.
 ]
 
 #problem(9)[
-已知 $alpha$，$beta$ 表示两个不同的平面，$m$ 为平面 $alpha$ 内的一条直线，则“$alpha bot beta$”是“$m bot beta$”的（ ）
+已知 #mi(`\alpha`)，#mi(`\beta`) 表示两个不同的平面，#mi(`m`) 为平面 #mi(`\alpha`) 内的一条直线，则“#mi(`\alpha \perp \beta`)”是“#mi(`m \perp \beta`)”的（ ）
   #choices([充分不必要条件], [必要不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-若 $m bot beta$，而 $m subset alpha$，则平面 $alpha$ 内含有一条垂直于平面 $beta$ 的直线，根据两平面垂直的判定定理，$alpha bot beta$. 因此“$alpha bot beta$”是“$m bot beta$”的必要条件.
+若 #mi(`m\perp\beta`)，而 #mi(`m\subset\alpha`)，则平面 #mi(`\alpha`) 内含有一条垂直于平面 #mi(`\beta`) 的直线，根据两平面垂直的判定定理，#mi(`\alpha\perp\beta`). 因此“#mi(`\alpha\perp\beta`)”是“#mi(`m\perp\beta`)”的必要条件.
 
-反之，$alpha bot beta$ 时，平面 $alpha$ 内只有特定方向的直线垂直于 $beta$，任意给定的直线 $m subset alpha$ 不一定具有该方向，所以不是充分条件. 因此选择 B.
+反之，#mi(`\alpha\perp\beta`) 时，平面 #mi(`\alpha`) 内只有特定方向的直线垂直于 #mi(`\beta`)，任意给定的直线 #mi(`m\subset\alpha`) 不一定具有该方向，所以不是充分条件. 因此选择 B.
 ]
 
 #problem(10)[
-设斜率为 $2$ 的直线 $l$ 过抛物线 $y^(2) = a x$（$a != 0$）的焦点 $F$，且和 $y$ 轴交于点 $A$. 若 $triangle O A F$（$O$ 为坐标原点）的面积为 $4$，则抛物线方程为（ ）
-  #choices([$y^(2) = +- 4 x$], [$y^(2) = +- 8 x$], [$y^(2) = 4 x$], [$y^(2) = 8 x$], cols: 2)
+设斜率为 #mi(`2`) 的直线 #mi(`l`) 过抛物线 #mi(`y^{2}= ax`)（#mi(`a \neq 0`)）的焦点 #mi(`F`)，且和 #mi(`y`) 轴交于点 #mi(`A`). 若 #mi(`\triangle OAF`)（#mi(`O`) 为坐标原点）的面积为 #mi(`4`)，则抛物线方程为（ ）
+  #choices([#mi(`y^{2}= \pm 4x`)], [#mi(`y^{2}= \pm 8x`)], [#mi(`y^{2}= 4x`)], [#mi(`y^{2}= 8x`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-设抛物线 $y^2=a x$ 的标准参数为 $p$，则 $a=4 p$，焦点为 $F(p,0)$. 斜率为 $2$ 且过 $F$ 的直线为 $y=2(x-p)$，它与 $y$ 轴交于 $A(0,-2 p)$. 因此 $O A=2| p|$，$O F=| p|$，且 $O A bot O F$，从而
+设抛物线 #mi(`y^{2}=ax`) 的标准参数为 #mi(`p`)，则 #mi(`a=4p`)，焦点为 #mi(`F(p,0)`). 斜率为 #mi(`2`) 且过 #mi(`F`) 的直线为 #mi(`y=2(x-p)`)，它与 #mi(`y`) 轴交于 #mi(`A(0,-2p)`). 因此 #mi(`OA=2\lvert p\rvert`)，#mi(`OF=\lvert p\rvert`)，且 #mi(`OA\perp OF`)，从而
 
-$ S_( triangle O A F)=(1)/(2) dot O A dot O F=p^2=4 $
 
-所以 $p= +- 2$，即 $a= +- 8$. 抛物线方程为 $y^2= +- 8 x$，选择 B.
+#align(center)[#mitex(`
+S_{\triangle OAF}=\frac{1}{2}\cdot OA\cdot OF=p^{2}=4
+`)]
+
+
+所以 #mi(`p=\pm2`)，即 #mi(`a=\pm8`). 抛物线方程为 #mi(`y^{2}=\pm8x`)，选择 B.
 ]
 
 #problem(11)[
-在区间 $[-(pi)/(2), (pi)/(2)]$ 上随机取一个数 $x$，$cos x$ 的值介于 $0$ 到 $(1)/(2)$ 之间的概率为（ ）
-  #choices([$(1)/(3)$], [$(2)/(pi)$], [$(1)/(2)$], [$(2)/(3)$], cols: 4)
+在区间 #mi(`\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]`) 上随机取一个数 #mi(`x`)，#mi(`\cos x`) 的值介于 #mi(`0`) 到 #mi(`\frac{1}{2}`) 之间的概率为（ ）
+  #choices([#mi(`\frac{1}{3}`)], [#mi(`\frac{2}{\pi}`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{2}{3}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-在区间 $[-(pi)/(2),(pi)/(2)]$ 内，$cos x >= 0$. 条件 $0 <= cos x <= (1)/(2)$ 等价于
+在区间 #mi(`\left[-\frac{\pi}{2},\frac{\pi}{2}\right]`) 内，#mi(`\cos x\geqslant0`). 条件 #mi(`0\le\cos x\le\frac{1}{2}`) 等价于
 
-$ | x| >= (pi)/(3) $
+
+#align(center)[#mitex(`
+\lvert x\rvert\ge\frac{\pi}{3}
+`)]
+
 
 所以满足条件的区间为
 
-$ [-(pi)/(2),-(pi)/(3)] union [(pi)/(3),(pi)/(2)] $
 
-其长度为 $(pi)/(3)$，原区间长度为 $pi$，故所求概率为
+#align(center)[#mitex(`
+\left[-\frac{\pi}{2},-\frac{\pi}{3}\right]\cup\left[\frac{\pi}{3},\frac{\pi}{2}\right]
+`)]
 
-$ ((pi)/(3))/(pi)=(1)/(3) $
+
+其长度为 #mi(`\frac{\pi}{3}`)，原区间长度为 #mi(`\pi`)，故所求概率为
+
+
+#align(center)[#mitex(`
+\frac{\frac{\pi}{3}}{\pi}=\frac{1}{3}
+`)]
+
 
 因此选择 A.
 ]
 
 #problem(12)[
-已知定义在 $RR$ 上的奇函数 $f(x)$ 满足 $f(x - 4) = -f(x)$. 且在区间 $[0,2]$ 上是增函数，则（ ）
-  #choices([$f(-25) < f(11) < f(80)$], [$f(80) < f(11) < f(-25)$], [$f(11) < f(80) < f(-25)$], [$f(-25) < f(80) < f(11)$], cols: 2)
+已知定义在 #mi(`\mathbb{R}`) 上的奇函数 #mi(`f(x)`) 满足 #mi(`f(x - 4) = -f(x)`). 且在区间 #mi(`[0,2]`) 上是增函数，则（ ）
+  #choices([#mi(`f(-25) < f(11) < f(80)`)], [#mi(`f(80) < f(11) < f(-25)`)], [#mi(`f(11) < f(80) < f(-25)`)], [#mi(`f(-25) < f(80) < f(11)`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由奇函数性质，$f(0)=0$. 由题设 $f(x-4)=-f(x)$，令 $x$ 替换为 $x+4$，得 $f(x+4)=-f(x)$，从而 $f(x+8)=f(x)$.
+由奇函数性质，#mi(`f(0)=0`). 由题设 #mi(`f(x-4)=-f(x)`)，令 #mi(`x`) 替换为 #mi(`x+4`)，得 #mi(`f(x+4)=-f(x)`)，从而 #mi(`f(x+8)=f(x)`).
 
 利用周期性和反周期关系，
-$f(-25)=f(-1)=-f(1)$，$f(11)=f(3)=f(1)$，$f(80)=f(0)=0$.
-由于 $f$ 在 $[0,2]$ 上递增，$f(1)>f(0)=0$，所以
 
-$ f(-25)=-f(1)<f(80)=0<f(11)=f(1) $
+#mi(`f(-25)=f(-1)=-f(1)`)，#mi(`f(11)=f(3)=f(1)`)，#mi(`f(80)=f(0)=0`).
+
+由于 #mi(`f`) 在 #mi(`[0,2]`) 上递增，#mi(`f(1)>f(0)=0`)，所以
+
+
+#align(center)[#mitex(`
+f(-25)=-f(1)<f(80)=0<f(11)=f(1)
+`)]
+
 
 因此选择 D.
 ]
@@ -224,267 +305,211 @@ $ f(-25)=-f(1)<f(80)=0<f(11)=f(1) $
 #part-header("填空题")
 
 #problem(13)[
-在等差数列 $\{a_(n)\}$ 中，$a_(3) = 7$，$a_(5) = a_(2) + 6$，则 $a_(6) =$#blank(){}.
+在等差数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{3}= 7`)，#mi(`a_{5}= a_{2}+ 6`)，则 #mi(`a_{6}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$13$.])
+#answer([#mi(`13`).])
 
 #solution[
-设等差数列的公差为 $d$. 由
+设等差数列的公差为 #mi(`d`). 由
 
-$ a_5-a_2=3 d=6 $
 
-得 $d=2$. 因而
+#align(center)[#mitex(`
+a_{5}-a_{2}=3d=6
+`)]
 
-$ a_6=a_3+3 d=7+3 times 2 =13 $
 
-所以填 $13$.
+得 #mi(`d=2`). 因而
+
+
+#align(center)[#mitex(`
+a_{6}=a_{3}+3d=7+3\times2=13
+`)]
+
+
+所以填 #mi(`13`).
 ]
 
 #problem(14)[
-若函数 $f(x) = a^x - x - a$（$a > 0$ 且 $a != 1$）有两个零点，则实数 $a$ 的取值范围是#blank(){}.
+若函数 #mi(`f(x) = a^{x} - x - a`)（#mi(`a > 0`) 且 #mi(`a \neq 1`)）有两个零点，则实数 #mi(`a`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$a > 1$.])
+#answer([#mi(`a > 1`).])
 
 #solution[
-令 $f(x)=a^x-x-a$. 当 $0<a<1$ 时，
+令 #mi(`f(x)=a^{x}-x-a`). 当 #mi(`0<a<1`) 时，
 
-$ f'(x)=a^x ln a-1<0 $
 
-所以 $f$ 在 $RR$ 上严格递减，至多有一个零点.
+#align(center)[#mitex(`
+f'(x)=a^{x}\ln a-1<0
+`)]
 
-当 $a>1$ 时，$f$ 连续，且
-$f(0)=1-a<0$，$lim_(x -> - oo )f(x)=+ oo$，$lim_(x -> + oo )f(x)=+ oo$.
-因此在 $0$ 的左右两侧各有一个零点. 又
 
-$ f''(x)=a^x( ln a)^2>0 $
+所以 #mi(`f`) 在 #mi(`\mathbb{R}`) 上严格递减，至多有一个零点.
 
-函数严格凸，故零点不超过两个，恰有两个零点. 所以 $a$ 的取值范围为 $a>1$.
+当 #mi(`a>1`) 时，#mi(`f`) 连续，且
+
+#mi(`f(0)=1-a<0`)，#mi(`\lim_{x\to-\infty}f(x)=+\infty`)，#mi(`\lim_{x\to+\infty}f(x)=+\infty`).
+
+因此在 #mi(`0`) 的左右两侧各有一个零点. 又
+
+
+#align(center)[#mitex(`
+f''(x)=a^{x}(\ln a)^{2}>0
+`)]
+
+
+函数严格凸，故零点不超过两个，恰有两个零点. 所以 #mi(`a`) 的取值范围为 #mi(`a>1`).
 ]
 
 #problem(15)[
-执行如图的程序框图，输出的 $T =$#blank(){}.
+执行如图的程序框图，输出的 #mi(`T =`)\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2009/img/shandong_liberal/q15_fig1.png", width: 62%)]
+#align(center)[#image("/papers/2009/img/shandong_liberal/q15_fig1.png", width: 28%)]
+
 ]
 
-#answer([$30$.])
+#answer([#mi(`30`).])
 
 #solution[
-按程序逐次执行. 初始 $S=0$，$T=0$，$n=0$，因为 $T>S$ 不成立，执行一次循环后
+按程序逐次执行. 初始 #mi(`S=0`)，#mi(`T=0`)，#mi(`n=0`)，因为 #mi(`T>S`) 不成立，执行一次循环后
 
-$ (S,n,T)=(5,2,2) $
+
+#align(center)[#mitex(`
+(S,n,T)=(5,2,2)
+`)]
+
 
 继续执行得到
-$(S,n,T)=(10,4,6)$，$(15,6,12)$，$(20,8,20)$，$(25,10,30)$.
-此时 $T=30>S=25$，程序输出 $T=30$.
+
+#mi(`(S,n,T)=(10,4,6)`)，#mi(`(15,6,12)`)，#mi(`(20,8,20)`)，#mi(`(25,10,30)`).
+
+此时 #mi(`T=30>S=25`)，程序输出 #mi(`T=30`).
 ]
 
 #problem(16)[
-某公司租赁甲，乙两种设备生产 $A$，$B$ 两类产品，甲种设备每天能生产 $A$ 类产品 $5$ 件和 $B$ 类产品 $10$ 件，乙种设备每天能生产 $A$ 类产品 $6$ 件和 $B$ 类产品 $20$ 件. 已知设备甲每天的租赁费为 $200$ 元，设备乙每天的租赁费为 $300$ 元. 现该公司至少要生产 $A$ 类产品 $50$ 件，$B$ 类产品 $140$ 件，所需租赁费最少为#blank(){}\text{元}.
+某公司租赁甲，乙两种设备生产 #mi(`A`)，#mi(`B`) 两类产品，甲种设备每天能生产 #mi(`A`) 类产品 #mi(`5`) 件和 #mi(`B`) 类产品 #mi(`10`) 件，乙种设备每天能生产 #mi(`A`) 类产品 #mi(`6`) 件和 #mi(`B`) 类产品 #mi(`20`) 件. 已知设备甲每天的租赁费为 #mi(`200`) 元，设备乙每天的租赁费为 #mi(`300`) 元. 现该公司至少要生产 #mi(`A`) 类产品 #mi(`50`) 件，#mi(`B`) 类产品 #mi(`140`) 件，所需租赁费最少为\underline{\hspace{2.5em}}\text{元}.
 ]
 
-#answer([$2300$.])
+#answer([#mi(`2300`).])
 
 #solution[
-设租赁甲、乙两种设备的天数分别为 $x$，$y$，则 $x$，$y >= 0$，并满足
-$5 x+6 y >= 50$，$10 x+20 y >= 140$
+设租赁甲、乙两种设备的天数分别为 #mi(`x`)，#mi(`y`)，则 #mi(`x`)，#mi(`y\geqslant0`)，并满足
+
+#mi(`5x+6y\geqslant50`)，#mi(`10x+20y\geqslant140`)
+
 即
-$5 x+6 y >= 50$，$x+2 y >= 14$.
-租赁费为 $200 x+300 y=100(2 x+3 y)$. 注意到
 
-$ 2 x+3 y=(1)/(4)(5 x+6 y)+(3)/(4)(x+2 y) >= (1)/(4) times 50 +(3)/(4) times 14 =23 $
+#mi(`5x+6y\geqslant50`)，#mi(`x+2y\geqslant14`).
 
-所以租赁费至少为 $100 times 23 =2300$ 元. 取 $x=4$，$y=5$ 时，$5 x+6 y=50$，$x+2 y=14$，同时达到两项产量要求，且租赁费为 $200 times 4 +300 times 5 =2300$ 元.
-故最少租赁费为 $2300$ 元.
+租赁费为 #mi(`200x+300y=100(2x+3y)`). 注意到
+
+
+#align(center)[#mitex(`
+2x+3y=\frac{1}{4}(5x+6y)+\frac{3}{4}(x+2y)  \ge\frac{1}{4}\times50+\frac{3}{4}\times14=23
+`)]
+
+
+所以租赁费至少为 #mi(`100\times23=2300`) 元. 取 #mi(`x=4`)，#mi(`y=5`) 时，#mi(`5x+6y=50`)，#mi(`x+2y=14`)，同时达到两项产量要求，且租赁费为 #mi(`200\times4+300\times5=2300`) 元.
+
+故最少租赁费为 #mi(`2300`) 元.
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知函数 $f(x) = 2 sin x cos ""^2(phi.alt)/(2)+ cos x sin phi.alt - sin x$（$0 < phi.alt < pi$）在 $x = pi$ 处取最小值.
+已知函数 #mi(`f(x) = 2\sin x\cos^{2}\frac{\varphi}{2}+ \cos x\sin \varphi - \sin x`)（#mi(`0 < \varphi < \pi`)）在 #mi(`x = \pi`) 处取最小值.
 
 
-+ (1) 求 $phi.alt$ 的值.
-+ (2) 在 $triangle A B C$ 中，$a$，$b$，$c$ 分别是角 $A$，$B$，$C$ 的对边. 已知 $a = 1$，$b = sqrt(2)$，$f(A) = (sqrt(3))/(2)$，求角 $C$.
++ (1)
 ]
 
 #solution[
-+ (1) 由二倍角公式，得
-
-$ f(x)=(1+ cos phi.alt ) sin x+ sin phi.alt cos x- sin x= sin (x+ phi.alt ) $
-
-函数 $sin (x+ phi.alt )$ 的最小值为 $-1$. 因为在 $x= pi$ 处取得最小值，所以 $sin ( pi + phi.alt )=-1$. 又 $0< phi.alt < pi$，故 $pi + phi.alt in ( pi ,2 pi )$，从而 $pi + phi.alt =(3 pi)/(2)$，即 $phi.alt =(pi)/(2)$.
-+ (2) 由上问，$f(x)= sin (x+(pi)/(2))= cos x$. 因为 $0<A< pi$，且 $f(A)=(sqrt(3))/(2)$，所以 $cos A=(sqrt(3))/(2)$，得 $A=(pi)/(6)$.
-
-由正弦定理，$(b)/(sin B)=(a)/(sin A)$，所以 $sin B=(b sin A)/(a)=sqrt(2) dot (1)/(2)=(sqrt(2))/(2)$. 因此 $B=(pi)/(4)$ 或 $B=(3 pi)/(4)$，相应地
-
-$ C= pi -A-B=(7 pi)/(12)"或"C=(pi)/(12) $
-
-故 $C=(pi)/(12)$ 或 $(7 pi)/(12)$.
++ (1)
 ]
 
 #problem(18)[
-如图，在直四棱柱 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 中，底面 $A B C D$ 为等腰梯形，$A B parallel C D$，$A B = 4$，$B C = C D = 2$，$A A_(1) = 2$，$E$，$E_(1)$ 分别是棱 $A D$，$A A_(1)$ 的中点.
+如图，在直四棱柱 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 中，底面 #mi(`ABCD`) 为等腰梯形，#mi(`AB \parallel CD`)，#mi(`AB = 4`)，#mi(`BC = CD = 2`)，#mi(`AA_{1}= 2`)，#mi(`E`)，#mi(`E_{1}`) 分别是棱 #mi(`AD`)，#mi(`AA_{1}`) 的中点.
 
 
-+ (1) 设 $F$ 是棱 $A B$ 的中点，证明：直线 $E E_(1) parallel$ 平面 $F C C_(1)$；
-+ (2) 证明：平面 $D_(1)A C bot$ 平面 $B B_(1)C_(1)C$.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2009/img/shandong_liberal/q18_fig1.png", width: 52%)]
+
+#align(center)[#image("/papers/2009/img/shandong_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设等腰梯形的两底边分别位于平面直角坐标系的同一水平线上，取 $A(0,0,0)$，$B(4,0,0)$，$D(1,sqrt(3),0)$，$C(3,sqrt(3),0)$，并令竖直方向为第三坐标轴. 这是因为等腰梯形的两腰长为 $2$，两底边长度之差为 $2$，故其高为 $sqrt(2^(2)-1^(2))=sqrt(3)$. 于是 $A_(1)(0,0,2)$，$B_(1)(4,0,2)$，$C_(1)(3,sqrt(3),2)$，$D_(1)(1,sqrt(3),2)$，且 $E((1)/(2),(sqrt(3))/(2),0)$，$E_(1)(0,0,1)$，$F(2,0,0)$.
+设等腰梯形的两底边分别位于平面直角坐标系的同一水平线上，取 #mi(`A(0,0,0)`)，#mi(`B(4,0,0)`)，#mi(`D(1,\sqrt{3},0)`)，#mi(`C(3,\sqrt{3},0)`)，并令竖直方向为第三坐标轴. 这是因为等腰梯形的两腰长为 #mi(`2`)，两底边长度之差为 #mi(`2`)，故其高为 #mi(`\sqrt{2^{2}-1^{2}}=\sqrt{3}`). 于是 #mi(`A_{1}(0,0,2)`)，#mi(`B_{1}(4,0,2)`)，#mi(`C_{1}(3,\sqrt{3},2)`)，#mi(`D_{1}(1,\sqrt{3},2)`)，且 #mi(`E\left(\frac{1}{2},\frac{\sqrt{3}}{2},0\right)`)，#mi(`E_{1}(0,0,1)`)，#mi(`F(2,0,0)`).
 
 
-+ (1) 有 $arrow(F C)=(1,sqrt(3),0)$，$arrow(F C_(1))=(1,sqrt(3),2)$，$arrow(E E_(1))=(-(1)/(2),-(sqrt(3))/(2),1)$. 直接计算得
-
-$ arrow(E E_(1))=-arrow(F C)+(1)/(2)arrow(F C_(1)) $
-
-所以直线 $E E_(1)$ 的方向向量是平面 $F C C_(1)$ 内两个相交向量的线性组合，故 $E E_(1)$ 的方向平行于平面 $F C C_(1)$. 另外，平面 $F C C_(1)$ 的一个法向量为 $arrow(F C)\t i m e s a r r o w(F C_(1))=2(sqrt(3),-1,0)$，而 $arrow(F E)=(-(3)/(2),(sqrt(3))/(2),0)$ 与该法向量的内积为 $-4 sqrt(3) != 0$，所以 $E in.not "平面 "F C C_(1)$. 因此直线 $E E_(1) parallel$ 平面 $F C C_(1)$.
-+ (2) 取平面 $D_(1)A C$ 内的两个相交向量 $arrow(A C)=(3,sqrt(3),0)$，$arrow(A D_(1))=(1,sqrt(3),2)$，则该平面的一个法向量为
-
-$ bold(n)_(1)=arrow(A C)\t i m e s a r r o w(A D_(1))=2(sqrt(3),-3,sqrt(3)) $
-
-平面 $B B_(1)C_(1)C$ 内的两个相交向量可取 $arrow(B C)=(-1,sqrt(3),0)$，$arrow(B B_(1))=(0,0,2)$，故其一个法向量为
-
-$ bold(n)_(2)=arrow(B C)\t i m e s a r r o w(B B_(1))=2(sqrt(3),1,0) $
-
-于是 $bold(n)_(1)\c d o t b o l d(n)_(2)=4(3-3)=0$. 两平面的法向量互相垂直，所以平面 $D_(1)A C bot$ 平面 $B B_(1)C_(1)C$.
++ (1)
 ]
 
 #problem(19)[
-一汽车厂生产 $A$，$B$，$C$ 三类轿车，每类轿车均有舒适型和标准型两种型号，某月的产量如下表（单位：辆）：
+一汽车厂生产 #mi(`A`)，#mi(`B`)，#mi(`C`) 三类轿车，每类轿车均有舒适型和标准型两种型号，某月的产量如下表（单位：辆）：
 
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
 \hline
-& 轿车 $A$ & 轿车 $B$ & 轿车 $C$ \\
-\hline
-舒适型 & $100$ & $150$ & $z$ \\
-\hline
-标准型 & $300$ & $450$ & $600$ \\
-\hline
-\end{tabular}
-\end{center}
 
-按类型分层抽样的方法在这个月生产的轿车中抽取 $50$ 辆，其中有 A 类轿车 $10$ 辆.
+& 轿车 #mi(`A`) & 轿车 #mi(`B`) & 轿车 #mi(`C`) \\
+
+\hline
+
+舒适型 & #mi(`100`) & #mi(`150`) & #mi(`z`) \\
+
+\hline
+
+标准型 & #mi(`300`) & #mi(`450`) & #mi(`600`) \\
+
+\hline
+
+按类型分层抽样的方法在这个月生产的轿车中抽取 #mi(`50`) 辆，其中有 A 类轿车 #mi(`10`) 辆.
 
 
-+ (1) 求 $z$ 的值.
-+ (2) 用分层抽样的方法在 C 类轿车中抽取一个容量为 $5$ 的样本. 将该样本看成一个总体，从中任取 $2$ 辆，求至少有 $1$ 辆舒适型轿车的概率.
-+ (3) 用随机抽样的方法从 B 类舒适型轿车中抽取 $8$ 辆，经检测它们的得分如下：$9.4$，$8.6$，$9.2$，$9.6$，$8.7$，$9.3$，$9.0$，$8.2$. 把这 $8$ 辆轿车的得分看作一个总体，从中任取一个数，求该数与样本平均数之差的绝对值不超过 $0.5$ 的概率.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) A 类轿车共有 $100+300=400$ 辆，B 类轿车共有 $150+450=600$ 辆，全部轿车共有 $1600+z$ 辆. 由分层抽样的比例相同，得
-
-$ (400)/(1600+z)=(10)/(50)=(1)/(5) $
-
-解得 $z=400$.
-+ (2) C 类轿车共有 $400+600=1000$ 辆，其中舒适型轿车有 $400$ 辆，标准型轿车有 $600$ 辆. 按比例抽取容量为 $5$ 的样本，样本中舒适型轿车有 $5 dot (400)/(1000)=2$ 辆，标准型轿车有 $3$ 辆. 从这 $5$ 辆中任取 $2$ 辆，至少有 $1$ 辆舒适型轿车的概率为
-
-$ 1-(C_(3)^(2))/(C_(5)^(2))=1-(3)/(10)=(7)/(10) $
-+ (3) 这 $8$ 辆轿车的得分总和为 $9.4+8.6+9.2+9.6+8.7+9.3+9.0+8.2=72$，所以样本平均数为 $\b a r x=(72)/(8)=9$. 满足 $| x-\b a r x| <= 0 .5$ 的得分应在区间 $[8.5,9.5]$ 内，其中有 $9.4$，$8.6$，$9.2$，$8.7$，$9.3$，$9.0$，共 $6$ 个. 因而所求概率为 $(6)/(8)=(3)/(4)$.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-等比数列 $\{a_(n)\}$ 的前 $n$ 项和为 $S_(n)$. 已知对任意的 $n in bold(N)^(*)$，点 $(n, S_(n))$ 均在函数 $y = b^(x) + r$（$b > 0$ 且 $b != 1$，$b$，$r$ 均为常数）的图象上.
+等比数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`). 已知对任意的 #mi(`n \in \mathbf{N}^{*}`)，点 #mi(`(n, S_{n})`) 均在函数 #mi(`y = b^{x}+ r`)（#mi(`b > 0`) 且 #mi(`b \neq 1`)，#mi(`b`)，#mi(`r`) 均为常数）的图象上.
 
 
-+ (1) 求 $r$ 的值.
-+ (2) 当 $b = 2$ 时，记 $b_(n) = (n + 1)/(4 a_(n))$（$n in bold(N)^(*)$），求数列 $\{b_(n)\}$ 的前 $n$ 项和 $T_(n)$.
++ (1)
 ]
 
 #solution[
-+ (1) 对 $n >= 2$，由 $S_n=b^n+r$ 得 $a_n=S_n-S_(n-1)=b^(n-1)(b-1)$. 特别地，$a_2=b(b-1)$，$a_3=b^2(b-1)$，所以等比数列的公比为 $(a_3)/(a_2)=b$. 又 $a_1=S_1=b+r$，故
-$a_2=b a_1$，$\L o n g r i g h t a r r o w$，$b(b-1)=b(b+r)$.
-因为 $b>0$，所以 $r=-1$.
-+ (2) 当 $b=2$ 时，$S_n=2^n-1$. 因而 $a_1=S_1=1$，且对 $n >= 2$，$a_n=S_n-S_(n-1)=2^(n-1)$，即对任意 $n\i n b o l d(N)^*$，$a_n=2^(n-1)$. 所以
-
-$ b_n=(n+1)/(4 a_n)=(n+1)/(2^(n+1)) $
-
-于是
-
-$ T_n=sum_(k=1)^(n)(k+1)/(2^(k+1))=sum_(k=1)^(n)(k)/(2^(k+1))+sum_(k=1)^(n)(1)/(2^(k+1))=1-(n+2)/(2^(n+1))+(1)/(2)-(1)/(2^(n+1))=(3)/(2)-(n+3)/(2^(n+1)) $
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = (1)/(3)a x^3 + b x^2 + x + 3$，其中 $a != 0$.
+已知函数 #mi(`f(x) = \frac{1}{3}ax^{3} + bx^{2} + x + 3`)，其中 #mi(`a \neq 0`).
 
 
-+ (1) 当 $a$，$b$ 满足什么条件时，$f(x)$ 取得极值？
-+ (2) 已知 $a > 0$，且 $f(x)$ 在区间 $(0,1]$ 上单调递增，试用 $a$ 表示出 $b$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $f'(x)=a x^2+2 b x+1$，得 $f'(x)=0$ 的判别式为 $Delta =(2 b)^2-4 a=4(b^2-a)$. 当 $b^2-a>0$ 时，$f'(x)=0$ 有两个不相等的实根，且导函数在两根之间、之外符号不同，故 $f(x)$ 有极大值和极小值. 当 $b^2-a <= 0$ 时，导函数没有两个不相等的实根，符号不发生由正到负或由负到正的变化，故 $f(x)$ 不取得极值. 因此所求条件为 $b^2>a$.
-+ (2) 记 $g(x)=f'(x)=a x^2+2 b x+1$. 函数在 $(0,1]$ 上单调递增，当且仅当 $g(x) >= 0$（$0<x<1$）. 因为 $a>0$ 且 $g(0)=1>0$，只需讨论二次函数顶点在区间右侧还是区间内部.
-
-当 $b >= -a$ 时，顶点横坐标 $-(b)/(a) <= 1$，在顶点位于正半轴的情形下，$g(x)$ 的最小值为 $1-(b^2)/(a)$，故需有 $b >= -sqrt(a)$；而 $b >= 0$ 时该条件也自动满足.
-
-当 $b<-a$ 时，顶点横坐标大于 $1$，所以 $g(x)$ 在 $(0,1]$ 上递减，最小值为 $g(1)=a+2 b+1$，从而需有 $b >= -(a+1)/(2)$. 结合两种情形，并注意到当 $0<a<1$ 时 $(a+1)/(2)\g e q s l a n t s q r t(a)$，当 $a >= 1$ 时第二种情形不能产生更严格的范围，得
-
-$ b in \b e g i n{c a s e s} [-(a+1)/(2),+ oo ),&0<a<1,\\ [-sqrt(a),+ oo ),&a >= 1 . \e n d{c a s e s} $
-
-等号情形下导函数至多在一个点为零，函数仍在该区间上单调递增.
++ (1)
 ]
 
 #problem(22)[
-设 $m in RR$，在平面直角坐标系中，已知向量 $bold(a)= (m x, y + 1)$，向量 $bold(b)= (x, y - 1)$，$bold(a) bot bold(b)$，动点 $M(x, y)$ 的轨迹为 $E$.
+设 #mi(`m \in \mathbb{R}`)，在平面直角坐标系中，已知向量 #mi(`\mathbf{a}= (mx, y + 1)`)，向量 #mi(`\mathbf{b}= (x, y - 1)`)，#mi(`\mathbf{a}\perp \mathbf{b}`)，动点 #mi(`M(x, y)`) 的轨迹为 #mi(`E`).
 
 
-+ (1) 求轨迹 $E$ 的方程，并说明该方程所表示曲线的形状.
-+ (2) 已知 $m = (1)/(4)$，证明：存在圆心在原点的圆，使得该圆的任意一条切线与轨迹 $E$ 恒有两个交点 $A$，$B$，且 $O A bot O B$（$O$ 为坐标原点），并求出该圆的方程.
-+ (3) 已知 $m = (1)/(4)$，设直线 $l$ 与圆 $C: x^2 + y^2 = R^2$（$1 < R < 2$）相切于 $A_1$，且 $l$ 与轨迹 $E$ 只有一个公共点 $B_1$，当 $R$ 为何值时，$| A_(1) B_1|$ 取得最大值？并求最大值.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 由 $bold(a)\p e r p b o l d(b)$，得
-
-$ bold(a)\c d o t b o l d(b)=m x^2+(y+1)(y-1)=0 $
-
-即轨迹 $E$ 的方程为 $m x^2+y^2=1$. 当 $m>0$ 时，这是以原点为中心的椭圆；当 $m=0$ 时，这是两条平行直线 $y=1$ 和 $y=-1$；当 $m<0$ 时，方程可写为 $y^2-| m| x^2=1$，表示焦点在 $y$ 轴上的双曲线.
-+ (2) 当 $m=(1)/(4)$ 时，轨迹为椭圆 $(x^2)/(4)+y^2=1$. 设圆的半径为 $rho$，取该圆任意一条切线，写成
-$u x+v y= rho$，$u^2+v^2=1$.
-令切点到原点的垂足为 $H= rho (u,v)$，取直线方向向量 $(-v,u)$，则直线上的点可表示为
-
-$ (x,y)=( rho u-t v, rho v+t u) $
-
-将其代入椭圆方程，得关于 $t$ 的二次方程
-
-$ (u^2+(v^2)/(4))t^2+(3)/(2) rho u v t+ rho ""^2((u^2)/(4)+v^2)-1=0 $
-
-记两个交点对应的参数为 $t_1$，$t_2$. 对应点的向量内积为
-
-$ arrow(O P_1)\c d o t a r r o w(O P_2)= rho ""^2+t_(1) t_2 $
-
-若令 $rho ""^2=(4)/(5)$，则由 $u^2+v^2=1$ 有
-
-$ rho ""^2((u^2)/(4)+v^2)-1=- rho ""^2(u^2+(v^2)/(4)) $
-
-由韦达定理，$t_(1) t_2=- rho ""^2$，因而 $arrow(O P_1)\c d o t a r r o w(O P_2)=0$，即 $O P_1 bot O P_2$. 同时该二次方程的判别式为
-
-$ ((3)/(2) rho u v)^2+4 rho ""^2(u^2+(v^2)/(4))^2>0 $
-
-所以每条切线与椭圆有两个不同交点. 因此所求圆为
-
-$ x^2+y^2=(4)/(5) $
-+ (3) 直线 $l$ 与椭圆只有一个公共点，所以 $l$ 是椭圆的切线. 仍将其写成 $u x+v y=R$，其中 $u^2+v^2=1$，且切点 $A_1=R(u,v)$. 椭圆 $(x^2)/(4)+y^2=1$ 在法向量 $(u,v)$ 方向的支撑函数为 $sqrt(4 u^2+v^2)$，故切线条件为
-$R=sqrt(4 u^2+v^2)$，$R^2=1+3 u^2$.
-因此 $u^2=(R^2-1)/(3)$，$v^2=(4-R^2)/(3)$. 椭圆在该切线上的切点为 $B_1=((4 u)/(R),(v)/(R))$. 所以
-
-$ | A_(1) B_1|^2=((R^2-4)^(2) u^2+(R^2-1)^(2) v^2)/(R^2)=((R^2-1)(4-R^2))/(R^2) $
-
-令 $t=R^2$，则 $1<t<4$，且
-
-$ | A_(1) B_1|^2=((t-1)(4-t))/(t)=5-t-(4)/(t) $
-
-其导数为 $-1+(4)/(t^2)$，在 $1<t<4$ 内令导数为零，得 $t=2$. 此时函数先增后减，故 $| A_(1) B_1|^2$ 的最大值为 $1$，从而当 $R=sqrt(2)$ 时，$| A_(1) B_1|$ 取得最大值，最大值为 $1$.
++ (1) 
++ (2)
 ]
 

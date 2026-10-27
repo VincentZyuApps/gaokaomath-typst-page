@@ -1,18 +1,149 @@
 {
-  "title": "2009年普通高等学校招生全国统一考试",
-  "subtitle": "2009年广东卷（文）",
   "year": "2009",
   "slug": "guangdong_liberal",
+  "title": "2009年广东卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "<p>已知全集 $U = \\mathbb{R}$，则正确表示集合 $M = \\{-1, 0, 1\\}$ 和 $N = \\{x \\mid x^{2} + x = 0\\}$ 关系的韦恩（Venn）图是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q1_options.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>已知全集 $U = \\mathbb{R}$，则正确表示集合 $M = \\{-1, 0, 1\\}$ 和 $N = \\{x \\mid x^{2} + x = 0\\}$ 关系的韦恩（Venn）图是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/guangdong_liberal/q1_options.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "B",
-          "solution": "由 $x^{2}+x=x(x+1)=0$，得 $N=\\{-1,0\\}$. 因为 $M=\\{-1,0,1\\}$，所以 $N\\subset M$，且 $1\\in M$ 而 $1\\notin N$. 因此 $N$ 应位于 $M$ 的内部，故选 B."
+          "solution": "由 $x^{2}+x=x(x+1)=0$，得 $N=\\{-1,0\\}$. 因为 $M=\\{-1,0,1\\}$，所以 $N\\subset M$，且 $1\\in M$ 而 $1\\notin N$. 因此 $N$ 应位于 $M$ 的内部，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -24,7 +155,9 @@
             "$n = 5$"
           ],
           "answer": "C",
-          "solution": "虚数单位的幂以 $4$ 为周期，且 $\\mathrm{i}^{2}=-1$，$\\mathrm{i}^{3}=-\\mathrm{i}$，$\\mathrm{i}^{4}=1$，$\\mathrm{i}^{5}=\\mathrm{i}$. 给出的四个取值中只有 $n=4$ 时 $\\mathrm{i}^{n}=1$，故选 C."
+          "solution": "虚数单位的幂以 $4$ 为周期，且 $\\mathrm{i}^{2}=-1$，$\\mathrm{i}^{3}=-\\mathrm{i}$，$\\mathrm{i}^{4}=1$，$\\mathrm{i}^{5}=\\mathrm{i}$. 给出的四个取值中只有 $n=4$ 时 $\\mathrm{i}^{n}=1$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -36,7 +169,9 @@
             "平行于第二、四象限的角平分线"
           ],
           "answer": "C",
-          "solution": "$\\mathbf{a}+\\mathbf{b}=(x-x,1+x^{2})=(0,1+x^{2})$. 由于 $1+x^{2}>0$，该向量非零且横坐标为 $0$，所以它平行于 $y$ 轴，故选 C."
+          "solution": "$\\mathbf{a}+\\mathbf{b}=(x-x,1+x^{2})=(0,1+x^{2})$. 由于 $1+x^{2}>0$，该向量非零且横坐标为 $0$，所以它平行于 $y$ 轴，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -48,7 +183,9 @@
             "$2^{x - 2}$"
           ],
           "answer": "A",
-          "solution": "函数 $y=a^{x}$ 的反函数为 $f(x)=\\log_{a} x$. 由 $f(2)=1$，得 $\\log_{a}2=1$，从而 $a=2$. 因此 $f(x)=\\log_{2}x$，故选 A."
+          "solution": "函数 $y=a^{x}$ 的反函数为 $f(x)=\\log_{a} x$. 由 $f(2)=1$，得 $\\log_{a}2=1$，从而 $a=2$. 因此 $f(x)=\\log_{2}x$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -60,7 +197,9 @@
             "$2$"
           ],
           "answer": "B",
-          "solution": "<p>设等比数列的首项为 $a_{1}$，公比为 $q$. 由题意，$q>0$，且 $a_{2}=a_{1}q=1$. 又</p><p>$a_{3}a_{9}=(a_{1}q^{2})(a_{1}q^{8})=a_{1}^{2}q^{10}$，$2a_{5}^{2}=2(a_{1}q^{4})^{2}=2a_{1}^{2}q^{8}$.</p><p>因为 $a_{1}\\ne0$，所以 $q^{2}=2$. 结合 $q>0$，得 $q=\\sqrt{2}$，从而 $a_{1}=\\frac{1}{q}=\\frac{\\sqrt{2}}{2}$，故选 B.</p>"
+          "solution": "<p>设等比数列的首项为 $a_{1}$，公比为 $q$. 由题意，$q>0$，且 $a_{2}=a_{1}q=1$. 又</p><p>$a_{3}a_{9}=(a_{1}q^{2})(a_{1}q^{8})=a_{1}^{2}q^{10}$，$2a_{5}^{2}=2(a_{1}q^{4})^{2}=2a_{1}^{2}q^{8}$.</p><p>因为 $a_{1}\\ne0$，所以 $q^{2}=2$. 结合 $q>0$，得 $q=\\sqrt{2}$，从而 $a_{1}=\\frac{1}{q}=\\frac{\\sqrt{2}}{2}$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -72,7 +211,9 @@
             "②和④"
           ],
           "answer": "D",
-          "solution": "<p>命题$①$不成立. 例如取平面 $\\alpha\\colon z=0$ 和平面 $\\beta\\colon y=0$，在 $\\alpha$ 内取直线 $l_{1}\\colon y=1$，$z=0$ 和 $l_{2}\\colon y=2$，$z=0$. 两条直线都不与 $\\beta$ 相交，因而都平行于 $\\beta$，但 $\\alpha$ 与 $\\beta$ 相交，不能推出两平面平行. 该命题缺少“两条直线相交”的条件.</p><p>命题$②$成立. 若平面 $\\alpha$ 经过直线 $l$，且 $l\\perp\\beta$，那么平面 $\\alpha$ 中有一条直线垂直于平面 $\\beta$. 由两平面垂直的判定定理，得 $\\alpha\\perp\\beta$.</p><p>命题$③$不成立. 例如取 $z$ 轴为公共直线，取 $x$ 轴和 $y$ 轴为另外两条直线；两轴都垂直于 $z$ 轴，但 $x$ 轴与 $y$ 轴相交而不平行.</p><p>命题$④$成立. 设两平面的交线为 $l$，其中一个平面内的直线为 $m$. 两平面垂直时，该平面内垂直于另一个平面的直线必垂直于交线 $l$；因此若 $m$ 不垂直于 $l$，则 $m$ 不可能垂直于另一个平面. 所以真命题为 $②$ 和 $④$，故选 D.</p>"
+          "solution": "<p>命题$①$不成立. 例如取平面 $\\alpha\\colon z=0$ 和平面 $\\beta\\colon y=0$，在 $\\alpha$ 内取直线 $l_{1}\\colon y=1$，$z=0$ 和 $l_{2}\\colon y=2$，$z=0$. 两条直线都不与 $\\beta$ 相交，因而都平行于 $\\beta$，但 $\\alpha$ 与 $\\beta$ 相交，不能推出两平面平行. 该命题缺少“两条直线相交”的条件.</p><p>命题$②$成立. 若平面 $\\alpha$ 经过直线 $l$，且 $l\\perp\\beta$，那么平面 $\\alpha$ 中有一条直线垂直于平面 $\\beta$. 由两平面垂直的判定定理，得 $\\alpha\\perp\\beta$.</p><p>命题$③$不成立. 例如取 $z$ 轴为公共直线，取 $x$ 轴和 $y$ 轴为另外两条直线；两轴都垂直于 $z$ 轴，但 $x$ 轴与 $y$ 轴相交而不平行.</p><p>命题$④$成立. 设两平面的交线为 $l$，其中一个平面内的直线为 $m$. 两平面垂直时，该平面内垂直于另一个平面的直线必垂直于交线 $l$；因此若 $m$ 不垂直于 $l$，则 $m$ 不可能垂直于另一个平面. 所以真命题为 $②$ 和 $④$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -84,7 +225,9 @@
             "$\\sqrt{6}-\\sqrt{2}$"
           ],
           "answer": "A",
-          "solution": "<p>因为 $a=c$，所以 $\\angle A=\\angle C=75^{\\circ}$，从而 $\\angle B=180^{\\circ}-75^{\\circ}-75^{\\circ}=30^{\\circ}$. 由正弦定理，</p><p>$\\frac{b}{\\sin30^{\\circ}}=\\frac{a}{\\sin75^{\\circ}}$.</p><p>又 $a=\\sqrt{6}+\\sqrt{2}=4\\sin75^{\\circ}$，所以 $b=4\\sin75^{\\circ}\\cdot\\frac{\\sin30^{\\circ}}{\\sin75^{\\circ}}=2$，故选 A.</p>"
+          "solution": "<p>因为 $a=c$，所以 $\\angle A=\\angle C=75^{\\circ}$，从而 $\\angle B=180^{\\circ}-75^{\\circ}-75^{\\circ}=30^{\\circ}$. 由正弦定理，</p><p>$\\frac{b}{\\sin30^{\\circ}}=\\frac{a}{\\sin75^{\\circ}}$.</p><p>又 $a=\\sqrt{6}+\\sqrt{2}=4\\sin75^{\\circ}$，所以 $b=4\\sin75^{\\circ}\\cdot\\frac{\\sin30^{\\circ}}{\\sin75^{\\circ}}=2$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -96,7 +239,9 @@
             "$(2, +\\infty)$"
           ],
           "answer": "D",
-          "solution": "<p>$f(x)=(x-3)\\mathrm{e}^{x}$，所以</p><p>$f'(x)=\\mathrm{e}^{x}+(x-3)\\mathrm{e}^{x}=(x-2)\\mathrm{e}^{x}$.</p><p>由于 $\\mathrm{e}^{x}>0$，当 $x>2$ 时 $f'(x)>0$，函数单调递增，故选 $(2,+\\infty)$，即 D.</p>"
+          "solution": "<p>$f(x)=(x-3)\\mathrm{e}^{x}$，所以</p><p>$f'(x)=\\mathrm{e}^{x}+(x-3)\\mathrm{e}^{x}=(x-2)\\mathrm{e}^{x}$.</p><p>由于 $\\mathrm{e}^{x}>0$，当 $x>2$ 时 $f'(x)>0$，函数单调递增，故选 $(2,+\\infty)$，即 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -108,11 +253,13 @@
             "最小正周期为 $\\frac{\\pi}{2}$ 的偶函数"
           ],
           "answer": "A",
-          "solution": "<p>利用 $2\\cos^{2}u-1=\\cos2u$，得</p><p>$y=\\cos\\left(2x-\\frac{\\pi}{2}\\right)=\\sin2x$.</p><p>函数 $\\sin2x$ 是奇函数，且最小正周期为 $\\pi$，故选 A.</p>"
+          "solution": "<p>利用 $2\\cos^{2}u-1=\\cos2u$，得</p><p>$y=\\cos\\left(2x-\\frac{\\pi}{2}\\right)=\\sin2x$.</p><p>函数 $\\sin2x$ 是奇函数，且最小正周期为 $\\pi$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
-          "body": "<p>广州 2010 年亚运会火炬传递在 $A$，$B$，$C$，$D$，$E$ 五个城市之间进行，各城市之间的距离（单位：百公里）见下表. 若以 $A$ 为起点，$E$ 为终点，每个城市经过且只经过一次，那么火炬传递的最短路线距离是（ ）</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td><td style=\"text-align: center; border-right: 1px solid\"> $A$ </td><td style=\"text-align: center; border-right: 1px solid\"> $B$ </td><td style=\"text-align: center; border-right: 1px solid\"> $C$ </td><td style=\"text-align: center; border-right: 1px solid\"> $D$ </td><td style=\"text-align: center; border-right: 1px solid\"> $E$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$A$ </td><td style=\"text-align: center; border-right: 1px solid\"> 0 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 6 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$B$ </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 0 </td><td style=\"text-align: center; border-right: 1px solid\"> 7 </td><td style=\"text-align: center; border-right: 1px solid\"> 6 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$C$ </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center; border-right: 1px solid\"> 7 </td><td style=\"text-align: center; border-right: 1px solid\"> 0 </td><td style=\"text-align: center; border-right: 1px solid\"> 9 </td><td style=\"text-align: center; border-right: 1px solid\"> 8.6 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$D$ </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 6 </td><td style=\"text-align: center; border-right: 1px solid\"> 9 </td><td style=\"text-align: center; border-right: 1px solid\"> 0 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$E$ </td><td style=\"text-align: center; border-right: 1px solid\"> 6 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 8.6 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 0 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center>",
+          "body": "<p>广州 2010 年亚运会火炬传递在 $A$，$B$，$C$，$D$，$E$ 五个城市之间进行，各城市之间的距离（单位：百公里）见下表. 若以 $A$ 为起点，$E$ 为终点，每个城市经过且只经过一次，那么火炬传递的最短路线距离是（ ）</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"></td><td style=\"text-align: center; border-right: 1px solid\"> $A$ </td><td style=\"text-align: center; border-right: 1px solid\"> $B$ </td><td style=\"text-align: center; border-right: 1px solid\"> $C$ </td><td style=\"text-align: center; border-right: 1px solid\"> $D$ </td><td style=\"text-align: center; border-right: 1px solid\"> $E$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$A$ </td><td style=\"text-align: center; border-right: 1px solid\"> 0 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 6 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$B$ </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 0 </td><td style=\"text-align: center; border-right: 1px solid\"> 7 </td><td style=\"text-align: center; border-right: 1px solid\"> 6 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$C$ </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center; border-right: 1px solid\"> 7 </td><td style=\"text-align: center; border-right: 1px solid\"> 0 </td><td style=\"text-align: center; border-right: 1px solid\"> 9 </td><td style=\"text-align: center; border-right: 1px solid\"> 8.6 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$D$ </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 6 </td><td style=\"text-align: center; border-right: 1px solid\"> 9 </td><td style=\"text-align: center; border-right: 1px solid\"> 0 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$E$ </td><td style=\"text-align: center; border-right: 1px solid\"> 6 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 8.6 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 0 </td></tr></tbody></table></center>",
           "choices": [
             "$20.6$",
             "$21$",
@@ -120,7 +267,9 @@
             "$23$"
           ],
           "answer": "B",
-          "solution": "<p>从 $A$ 到 $E$ 需依次经过 $B$，$C$，$D$ 的某一种排列. 六条路线的长度分别为</p><p>$A\\to B\\to C\\to D\\to E$：$5+7+9+5=26$，</p><p>$A\\to B\\to D\\to C\\to E$：$5+6+9+8.6=28.6$，</p><p>$A\\to C\\to B\\to D\\to E$：$4+7+6+5=22$，</p><p>$A\\to C\\to D\\to B\\to E$：$4+9+6+2=21$，</p><p>$A\\to D\\to B\\to C\\to E$：$5+6+7+8.6=26.6$，</p><p>$A\\to D\\to C\\to B\\to E$：$5+9+7+2=23$.</p><p>最短长度为 $21$，故选 B.</p>"
+          "solution": "<p>从 $A$ 到 $E$ 需依次经过 $B$，$C$，$D$ 的某一种排列. 六条路线的长度分别为</p><p>$A\\to B\\to C\\to D\\to E$：$5+7+9+5=26$，</p><p>$A\\to B\\to D\\to C\\to E$：$5+6+9+8.6=28.6$，</p><p>$A\\to C\\to B\\to D\\to E$：$4+7+6+5=22$，</p><p>$A\\to C\\to D\\to B\\to E$：$4+9+6+2=21$，</p><p>$A\\to D\\to B\\to C\\to E$：$5+6+7+8.6=26.6$，</p><p>$A\\to D\\to C\\to B\\to E$：$5+9+7+2=23$.</p><p>最短长度为 $21$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -129,38 +278,48 @@
       "problems": [
         {
           "num": 11,
-          "body": "<p>某篮球队 6 名主力队员在最近三场比赛中投进的三分球个数如下表所示：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>队员 $i$ </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 6 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>三分球个数 </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{1}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{2}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{3}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{4}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{5}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{6}$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>如图是统计该 6 名队员在最近三场比赛中投进的三分球总数的程序框图，则图中判断框应填<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>，输出的 $s=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（注：框图中的赋值符号“=”也可以写成“←”或“：=”）</p><p><span class=\"macro macro-begingroup\"></span></p><p><span class=\"macro macro-problemresetlayout\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
-          "choices": null,
-          "answer": "<p>$i\\le 6$，</p><p>$a_{1}+a_{2}+a_{3}+a_{4}+a_{5}+a_{6}$</p>",
-          "solution": "<p>程序初始化为 $s=0$，$i=1$. 第一次到达判断框时尚未执行 $i=i+1$，若判断为“是”，就把 $a_{i}$ 加入 $s$，再执行 $i=i+1$ 返回判断框. 为了依次累加 $a_{1}$，$a_{2}$，$\\ldots$，$a_{6}$，判断框在 $i=1$，$2$，$\\ldots$，$6$ 时都应为“是”，在 $i=7$ 时应为“否”，故判断条件为 $i\\leqslant6$.</p><p>循环中的累加过程为</p><p>$s=0+a_{1}$，$s=a_{1}+a_{2}$，$\\ldots$，$s=a_{1}+a_{2}+a_{3}+a_{4}+a_{5}+a_{6}$. 因而输出的 $s=a_{1}+a_{2}+a_{3}+a_{4}+a_{5}+a_{6}$，两个空依次为 $i\\leqslant6$ 和 $a_{1}+a_{2}+a_{3}+a_{4}+a_{5}+a_{6}$.</p>"
+          "body": "<p>某篮球队 6 名主力队员在最近三场比赛中投进的三分球个数如下表所示：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">队员 $i$ </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 6 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">三分球个数 </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{1}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{2}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{3}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{4}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{5}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $a_{6}$ </td></tr></tbody></table></center><p>如图是统计该 6 名队员在最近三场比赛中投进的三分球总数的程序框图，则图中判断框应填<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>，输出的 $s=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（注：框图中的赋值符号“=”也可以写成“←”或“：=”）</p><p><span class=\"macro macro-begingroup\"></span></p><p><span class=\"macro macro-problemresetlayout\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/guangdong_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
+          "choices": [],
+          "answer": "\\(i\\le 6\\)，\r\n\r\n\\(a_1+a_2+a_3+a_4+a_5+a_6\\)",
+          "solution": "<p>程序初始化为 $s=0$，$i=1$. 第一次到达判断框时尚未执行 $i=i+1$，若判断为“是”，就把 $a_{i}$ 加入 $s$，再执行 $i=i+1$ 返回判断框. 为了依次累加 $a_{1}$，$a_{2}$，$\\ldots$，$a_{6}$，判断框在 $i=1$，$2$，$\\ldots$，$6$ 时都应为“是”，在 $i=7$ 时应为“否”，故判断条件为 $i\\leqslant6$.</p><p>循环中的累加过程为</p><p>$s=0+a_{1}$，$s=a_{1}+a_{2}$，$\\ldots$，$s=a_{1}+a_{2}+a_{3}+a_{4}+a_{5}+a_{6}$. 因而输出的 $s=a_{1}+a_{2}+a_{3}+a_{4}+a_{5}+a_{6}$，两个空依次为 $i\\leqslant6$ 和 $a_{1}+a_{2}+a_{3}+a_{4}+a_{5}+a_{6}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
-          "body": "<p>某单位 200 名职工的年龄分布情况如图，现要从中抽取 40 名职工作样本.</p><p>用系统抽样法，将全体职工随机按 $1 \\sim 200$ 编号，并按编号顺序平均分为 40 组（$1 \\sim 5$ 号，$6 \\sim 10$ 号，$\\cdots$，$196 \\sim 200$ 号）. 若第 5 组抽出的号码为 22，则第 8 组抽出的号码应是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. 若用分层抽样方法，则 $40\\text{ 岁}$以下年龄段应抽取<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>人.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>某单位 200 名职工的年龄分布情况如图，现要从中抽取 40 名职工作样本.</p><p>用系统抽样法，将全体职工随机按 $1 \\sim 200$ 编号，并按编号顺序平均分为 40 组（$1 \\sim 5$ 号，$6 \\sim 10$ 号，$\\cdots$，$196 \\sim 200$ 号）. 若第 5 组抽出的号码为 22，则第 8 组抽出的号码应是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. 若用分层抽样方法，则 $40\\text{ 岁}$以下年龄段应抽取<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>人.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/guangdong_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "37，20",
-          "solution": "<p>每组有 $200\\div40=5$ 个编号. 第 $5$ 组的编号为 $21\\sim25$，其中抽出的号码为 $22$，即抽取的是该组的第 $2$ 个号码. 系统抽样中各组抽取相同位置的号码，因此第 $8$ 组抽出的号码为</p><p>$22+(8-5)\\times5=37$.</p><p>由年龄分布图知，$40\\text{ 岁}$以下职工占 $50\\%$. 按分层抽样方法，抽取的 $40$ 人中该年龄段应有</p><p>$40\\times50\\%=20$ 人.</p>"
+          "solution": "<p>每组有 $200\\div40=5$ 个编号. 第 $5$ 组的编号为 $21\\sim25$，其中抽出的号码为 $22$，即抽取的是该组的第 $2$ 个号码. 系统抽样中各组抽取相同位置的号码，因此第 $8$ 组抽出的号码为</p><p>$22+(8-5)\\times5=37$.</p><p>由年龄分布图知，$40\\text{ 岁}$以下职工占 $50\\%$. 按分层抽样方法，抽取的 $40$ 人中该年龄段应有</p><p>$40\\times50\\%=20$ 人.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "以点 $(2,-1)$ 为圆心且与直线 $x + y = 6$ 相切的圆的方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(x-2)^{2}+(y+1)^{2}=\\frac{25}{2}$",
-          "solution": "<p>圆心为 $P(2,-1)$，圆心到直线 $x+y-6=0$ 的距离为</p><p>$r=\\frac{|2+(-1)-6|}{\\sqrt{1^{2}+1^{2}}}=\\frac{5}{\\sqrt{2}}$.</p><p>由于圆与该直线相切，半径就是这个距离，所以 $r^{2}=\\frac{25}{2}$. 因此圆的方程为</p><p>$(x-2)^{2}+(y+1)^{2}=\\frac{25}{2}$.</p>"
+          "choices": [],
+          "answer": "\\((x-2)^2+(y+1)^2=\\frac{25}{2}\\)",
+          "solution": "<p>圆心为 $P(2,-1)$，圆心到直线 $x+y-6=0$ 的距离为</p><p>$r=\\frac{|2+(-1)-6|}{\\sqrt{1^{2}+1^{2}}}=\\frac{5}{\\sqrt{2}}$.</p><p>由于圆与该直线相切，半径就是这个距离，所以 $r^{2}=\\frac{25}{2}$. 因此圆的方程为</p><p>$(x-2)^{2}+(y+1)^{2}=\\frac{25}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "若直线 $\\begin{cases}x = 1 - 2t,\\\\  y = 2 + 3t,\\end{cases}$（$t$ 为参数）与直线 $4x + ky = 1$ 垂直，则常数 $k =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-6$",
-          "solution": "<p>参数方程中的直线方向向量为 $\\mathbf{v}_{1}=(-2,3)$. 直线 $4x+ky=1$ 的一个方向向量为 $\\mathbf{v}_{2}=(k,-4)$. 两直线垂直，所以</p><p>$\\mathbf{v}_{1}\\cdot\\mathbf{v}_{2}=(-2)k+3(-4)=-2k-12=0$.</p><p>解得 $k=-6$.</p>"
+          "choices": [],
+          "answer": "\\(-6\\)",
+          "solution": "<p>参数方程中的直线方向向量为 $\\mathbf{v}_{1}=(-2,3)$. 直线 $4x+ky=1$ 的一个方向向量为 $\\mathbf{v}_{2}=(k,-4)$. 两直线垂直，所以</p><p>$\\mathbf{v}_{1}\\cdot\\mathbf{v}_{2}=(-2)k+3(-4)=-2k-12=0$.</p><p>解得 $k=-6$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
-          "body": "<p>如图，点 $A$，$B$，$C$ 是圆 $O$ 上的点，且 $AB = 4$，$\\angle ACB = 30^{\\circ}$，则圆 $O$ 的面积等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$16\\pi$",
-          "solution": "<p>圆周角 $\\angle ACB=30^{\\circ}$ 所对的圆心角为 $60^{\\circ}$. 设圆 $O$ 的半径为 $R$，则弦长公式给出</p><p>$AB=2R\\sin30^{\\circ}$.</p><p>代入 $AB=4$，得 $4=2R\\cdot\\frac{1}{2}$，所以 $R=4$. 因此圆 $O$ 的面积为 $\\pi R^{2}=16\\pi$.</p>"
+          "body": "<p>如图，点 $A$，$B$，$C$ 是圆 $O$ 上的点，且 $AB = 4$，$\\angle ACB = 30^{\\circ}$，则圆 $O$ 的面积等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/guangdong_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(16\\pi\\)",
+          "solution": "<p>圆周角 $\\angle ACB=30^{\\circ}$ 所对的圆心角为 $60^{\\circ}$. 设圆 $O$ 的半径为 $R$，则弦长公式给出</p><p>$AB=2R\\sin30^{\\circ}$.</p><p>代入 $AB=4$，得 $4=2R\\cdot\\frac{1}{2}$，所以 $R=4$. 因此圆 $O$ 的面积为 $\\pi R^{2}=16\\pi$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -170,44 +329,56 @@
         {
           "num": 16,
           "body": "<p>已知向量 $\\mathbf{a}= (\\sin\\theta, -2)$ 与 $\\mathbf{b}= (1, \\cos\\theta)$ 互相垂直，其中 $\\theta \\in \\left(0, \\frac{\\pi}{2}\\right)$.</p><ol class=\"enumerate\"><li><p>求 $\\sin\\theta\\cos\\theta$ 的值；</p></li><li><p>若 $5\\cos(\\theta - \\varphi) = 3\\sqrt{5}\\cos\\varphi$，$0 < \\varphi < \\frac{\\pi}{2}$，求 $\\cos\\varphi$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\mathbf{a}$ 与 $\\mathbf{b}$ 互相垂直，所以</p><p>$\\mathbf{a}\\cdot\\mathbf{b}=\\sin\\theta-2\\cos\\theta=0$，即 $\\sin\\theta=2\\cos\\theta$. 又因为 $\\theta\\in\\left(0,\\frac{\\pi}{2}\\right)$，所以 $\\sin\\theta>0$，$\\cos\\theta>0$，且</p><p>$\\sin^{2}\\theta+\\cos^{2}\\theta=1$. 代入 $\\sin\\theta=2\\cos\\theta$，得 $5\\cos^{2}\\theta=1$. 因此</p><p>$\\cos\\theta=\\frac{1}{\\sqrt{5}}=\\frac{\\sqrt{5}}{5}$，$\\sin\\theta=\\frac{2}{\\sqrt{5}}=\\frac{2\\sqrt{5}}{5}$，从而 $\\sin\\theta\\cos\\theta=\\frac{2}{5}$.</p></li><li><p>由 $5\\cos(\\theta-\\varphi)=3\\sqrt{5}\\cos\\varphi$ 及余弦差公式，得</p><p>$5(\\cos\\theta\\cos\\varphi+\\sin\\theta\\sin\\varphi)=3\\sqrt{5}\\cos\\varphi$. 代入上一问的结果，得</p><p>$\\sqrt{5}\\cos\\varphi+2\\sqrt{5}\\sin\\varphi=3\\sqrt{5}\\cos\\varphi$，从而 $\\sin\\varphi=\\cos\\varphi$. 由于 $0<\\varphi<\\frac{\\pi}{2}$，所以 $\\varphi=\\frac{\\pi}{4}$，故</p><p>$\\cos\\varphi=\\frac{\\sqrt{2}}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\mathbf{a}$ 与 $\\mathbf{b}$ 互相垂直，所以</p><p>$\\mathbf{a}\\cdot\\mathbf{b}=\\sin\\theta-2\\cos\\theta=0$，即 $\\sin\\theta=2\\cos\\theta$. 又因为 $\\theta\\in\\left(0,\\frac{\\pi}{2}\\right)$，所以 $\\sin\\theta>0$，$\\cos\\theta>0$，且</p><p>$\\sin^{2}\\theta+\\cos^{2}\\theta=1$. 代入 $\\sin\\theta=2\\cos\\theta$，得 $5\\cos^{2}\\theta=1$. 因此</p><p>$\\cos\\theta=\\frac{1}{\\sqrt{5}}=\\frac{\\sqrt{5}}{5}$，$\\sin\\theta=\\frac{2}{\\sqrt{5}}=\\frac{2\\sqrt{5}}{5}$，从而 $\\sin\\theta\\cos\\theta=\\frac{2}{5}$.</p></li><li><p>由 $5\\cos(\\theta-\\varphi)=3\\sqrt{5}\\cos\\varphi$ 及余弦差公式，得</p><p>$5(\\cos\\theta\\cos\\varphi+\\sin\\theta\\sin\\varphi)=3\\sqrt{5}\\cos\\varphi$. 代入上一问的结果，得</p><p>$\\sqrt{5}\\cos\\varphi+2\\sqrt{5}\\sin\\varphi=3\\sqrt{5}\\cos\\varphi$，从而 $\\sin\\varphi=\\cos\\varphi$. 由于 $0<\\varphi<\\frac{\\pi}{2}$，所以 $\\varphi=\\frac{\\pi}{4}$，故</p><p>$\\cos\\varphi=\\frac{\\sqrt{2}}{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>某高速公路收费站入口处的安全标识墩如图 1 所示. 墩的上半部分是正四棱锥 $P-EFGH$，下半部分是长方体 $ABCD-EFGH$. 图 2，图 3 分别是该标识墩的正（主）视图和俯视图（单位：$\\mathrm{~cm}$）.</p><ol class=\"enumerate\"><li><p>请画出该安全标识墩的侧（左）视图；</p></li><li><p>求该安全标识墩的体积；</p></li><li><p>证明：直线 $BD \\perp$ 平面 $PEG$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>某高速公路收费站入口处的安全标识墩如图 1 所示. 墩的上半部分是正四棱锥 $P-EFGH$，下半部分是长方体 $ABCD-EFGH$. 图 2，图 3 分别是该标识墩的正（主）视图和俯视图（单位：$\\mathrm{~cm}$）.</p><ol class=\"enumerate\"><li><p>请画出该安全标识墩的侧（左）视图；</p></li><li><p>求该安全标识墩的体积；</p></li><li><p>证明：直线 $BD \\perp$ 平面 $PEG$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/guangdong_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正视图和俯视图可知，底部是底边长 $40\\mathrm{~cm}$、高 $20\\mathrm{~cm}$ 的矩形，上部正四棱锥的底边长为 $40\\mathrm{~cm}$，高为 $60\\mathrm{~cm}$. 正四棱锥的顶点在正方形底面的中心正上方，所以从左侧投影时，顶点仍落在底边中点的正上方. 因此侧视图是一个底边长 $40\\mathrm{~cm}$、高 $20\\mathrm{~cm}$ 的矩形，其上叠加一个底边长 $40\\mathrm{~cm}$、高 $60\\mathrm{~cm}$ 的等腰三角形.</p></li><li><p>长方体的体积为</p><p>$V_{1}=40\\times40\\times20=32000\\mathrm{~cm}^{3}$. 正四棱锥的体积为</p><p>$V_{2}=\\frac{1}{3}\\times40\\times40\\times60=32000\\mathrm{~cm}^{3}$. 因此标识墩的体积为</p><p>$V=V_{1}+V_{2}=64000\\mathrm{~cm}^{3}$.</p></li><li><p>设 $O$ 为正方形 $EFGH$ 的中心，则 $O$ 是对角线 $EG$ 与 $FH$ 的交点. 因为 $P-EFGH$ 是正四棱锥，故 $PO\\perp$ 平面 $EFGH$，从而 $PO\\perp FH$. 又正方形的两条对角线互相垂直，所以 $EG\\perp FH$. 直线 $PO$ 与 $EG$ 是平面 $PEG$ 内相交的两条直线，且 $FH$ 同时垂直于它们，因此 $FH\\perp$ 平面 $PEG$. 上、下两个正方形平行且对应边方向相同，故 $BD\\parallel FH$，于是 $BD\\perp$ 平面 $PEG$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正视图和俯视图可知，底部是底边长 $40\\mathrm{~cm}$、高 $20\\mathrm{~cm}$ 的矩形，上部正四棱锥的底边长为 $40\\mathrm{~cm}$，高为 $60\\mathrm{~cm}$. 正四棱锥的顶点在正方形底面的中心正上方，所以从左侧投影时，顶点仍落在底边中点的正上方. 因此侧视图是一个底边长 $40\\mathrm{~cm}$、高 $20\\mathrm{~cm}$ 的矩形，其上叠加一个底边长 $40\\mathrm{~cm}$、高 $60\\mathrm{~cm}$ 的等腰三角形.</p></li><li><p>长方体的体积为</p><p>$V_{1}=40\\times40\\times20=32000\\mathrm{~cm}^{3}$. 正四棱锥的体积为</p><p>$V_{2}=\\frac{1}{3}\\times40\\times40\\times60=32000\\mathrm{~cm}^{3}$. 因此标识墩的体积为</p><p>$V=V_{1}+V_{2}=64000\\mathrm{~cm}^{3}$.</p></li><li><p>设 $O$ 为正方形 $EFGH$ 的中心，则 $O$ 是对角线 $EG$ 与 $FH$ 的交点. 因为 $P-EFGH$ 是正四棱锥，故 $PO\\perp$ 平面 $EFGH$，从而 $PO\\perp FH$. 又正方形的两条对角线互相垂直，所以 $EG\\perp FH$. 直线 $PO$ 与 $EG$ 是平面 $PEG$ 内相交的两条直线，且 $FH$ 同时垂直于它们，因此 $FH\\perp$ 平面 $PEG$. 上、下两个正方形平行且对应边方向相同，故 $BD\\parallel FH$，于是 $BD\\perp$ 平面 $PEG$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>随机抽取某中学甲，乙两班各 10 名同学，测量他们的身高（单位：$\\mathrm{~cm}$），获得身高数据的茎叶图如图.</p><ol class=\"enumerate\"><li><p>根据茎叶图判断哪个班的平均身高较高；</p></li><li><p>计算甲班的样本方差；</p></li><li><p>现从乙班这 10 名同学中随机抽取两名身高不低于 $173 \\mathrm{~cm}$ 的同学，求身高为 $176 \\mathrm{~cm}$ 的同学被抽中的概率.</p></li></ol><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: right; border-right: 1px solid\">甲班 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td> 乙班 </td></tr><tr><td style=\"text-align: right; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: right; border-right: 1px solid\"><br>$2$ </td><td style=\"text-align: center; border-right: 1px solid\"> 18 </td><td> $1$ </td></tr><tr><td style=\"text-align: right; border-right: 1px solid\"><br>$9$，$9$，$1$，$0$ </td><td style=\"text-align: center; border-right: 1px solid\"> 17 </td><td> $0$，$3$，$6$，$8$，$9$ </td></tr><tr><td style=\"text-align: right; border-right: 1px solid\"><br>$8$，$8$，$3$，$2$ </td><td style=\"text-align: center; border-right: 1px solid\"> 16 </td><td> $2$，$5$，$8$ </td></tr><tr><td style=\"text-align: right; border-right: 1px solid\"><br>$8$ </td><td style=\"text-align: center; border-right: 1px solid\"> 15 </td><td> $9$</td></tr></tbody></table></center>",
-          "choices": null,
+          "body": "<p>随机抽取某中学甲，乙两班各 10 名同学，测量他们的身高（单位：$\\mathrm{~cm}$），获得身高数据的茎叶图如图.</p><ol class=\"enumerate\"><li><p>根据茎叶图判断哪个班的平均身高较高；</p></li><li><p>计算甲班的样本方差；</p></li><li><p>现从乙班这 10 名同学中随机抽取两名身高不低于 $173 \\mathrm{~cm}$ 的同学，求身高为 $176 \\mathrm{~cm}$ 的同学被抽中的概率.</p></li></ol><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: right; border-right: 1px solid\">甲班 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td> 乙班 </td></tr><tr><td style=\"text-align: right; border-right: 1px solid\">$2$ </td><td style=\"text-align: center; border-right: 1px solid\"> 18 </td><td> $1$ </td></tr><tr><td style=\"text-align: right; border-right: 1px solid\">$9$，$9$，$1$，$0$ </td><td style=\"text-align: center; border-right: 1px solid\"> 17 </td><td> $0$，$3$，$6$，$8$，$9$ </td></tr><tr><td style=\"text-align: right; border-right: 1px solid\">$8$，$8$，$3$，$2$ </td><td style=\"text-align: center; border-right: 1px solid\"> 16 </td><td> $2$，$5$，$8$ </td></tr><tr><td style=\"text-align: right; border-right: 1px solid\">$8$ </td><td style=\"text-align: center; border-right: 1px solid\"> 15 </td><td> $9$</td></tr></tbody></table></center>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由茎叶图，甲班的身高数据为 $182$，$179$，$179$，$171$，$170$，$168$，$168$，$163$，$162$，$158$，其平均数为</p><p>$\\bar{x}_{\\text{甲}}=\\frac{1700}{10}=170$. 乙班的身高数据为 $181$，$179$，$178$，$176$，$173$，$170$，$168$，$165$，$162$，$159$，其平均数为</p><p>$\\bar{x}_{\\text{乙}}=\\frac{1711}{10}=171.1$. 因为 $171.1>170$，所以乙班的平均身高较高.</p></li><li><p>甲班的样本方差为</p>\n$$\ns^{2}=\\frac{1}{10}\\bigl[12^{2}+9^{2}+9^{2}+1^{2}+0^{2}+2^{2}+2^{2}+7^{2}+8^{2}+12^{2}\\bigr]  =\\frac{572}{10}=57.2\n$$\n</li><li><p>乙班身高不低于 $173 \\mathrm{~cm}$ 的同学有 $173$，$176$，$178$，$179$，$181$，共 $5$ 人. 任取其中 $2$ 人，所有等可能的取法共有 $\\mathrm{C}_{5}^{2}$ 种；含有身高 $176 \\mathrm{~cm}$ 同学的取法共有 $\\mathrm{C}_{4}^{1}$ 种. 因此所求概率为</p><p>$\\frac{\\mathrm{C}_{4}^{1}}{\\mathrm{C}_{5}^{2}}=\\frac{4}{10}=\\frac{2}{5}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由茎叶图，甲班的身高数据为 $182$，$179$，$179$，$171$，$170$，$168$，$168$，$163$，$162$，$158$，其平均数为</p><p>$\\bar{x}_{\\text{甲}}=\\frac{1700}{10}=170$. 乙班的身高数据为 $181$，$179$，$178$，$176$，$173$，$170$，$168$，$165$，$162$，$159$，其平均数为</p><p>$\\bar{x}_{\\text{乙}}=\\frac{1711}{10}=171.1$. 因为 $171.1>170$，所以乙班的平均身高较高.</p></li><li><p>甲班的样本方差为</p>\n$$\ns^{2}=\\frac{1}{10}\\bigl[12^{2}+9^{2}+9^{2}+1^{2}+0^{2}+2^{2}+2^{2}+7^{2}+8^{2}+12^{2}\\bigr]  =\\frac{572}{10}=57.2\n$$\n</li><li><p>乙班身高不低于 $173 \\mathrm{~cm}$ 的同学有 $173$，$176$，$178$，$179$，$181$，共 $5$ 人. 任取其中 $2$ 人，所有等可能的取法共有 $\\mathrm{C}_{5}^{2}$ 种；含有身高 $176 \\mathrm{~cm}$ 同学的取法共有 $\\mathrm{C}_{4}^{1}$ 种. 因此所求概率为</p><p>$\\frac{\\mathrm{C}_{4}^{1}}{\\mathrm{C}_{5}^{2}}=\\frac{4}{10}=\\frac{2}{5}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知椭圆 $G$ 的中心在坐标原点，长轴在 $x$ 轴上，离心率为 $\\frac{\\sqrt{3}}{2}$，两个焦点分别为 $F_{1}$ 和 $F_{2}$，椭圆 $G$ 上一点到 $F_{1}$ 和 $F_{2}$ 的距离之和为 12. 圆 $C_{k}: x^{2}+ y^{2}+ 2kx - 4y - 21 = 0$（$k \\in \\mathbb{R}$）的圆心为点 $A_{k}$.</p><ol class=\"enumerate\"><li><p>求椭圆 $G$ 的方程；</p></li><li><p>求 $\\triangle A_{k}F_{1}F_{2}$ 面积；</p></li><li><p>问是否存在圆 $C_{k}$ 包围椭圆 $G$？请说明理由.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆 $G$ 的长半轴、短半轴和半焦距分别为 $a$，$b$，$c$. 由椭圆定义，椭圆上一点到两个焦点的距离之和为 $2a$，所以 $2a=12$，得 $a=6$. 又由离心率 $e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，得 $c=3\\sqrt{3}$. 在椭圆中 $b^{2}=a^{2}-c^{2}$，所以 $b^{2}=36-27=9$. 由于长轴在 $x$ 轴上，椭圆方程为</p><p>$\\displaystyle\\frac{x^{2}}{36}+\\frac{y^{2}}{9}=1$.</p></li><li><p>将圆 $C_{k}$ 的方程配方，得 $(x+k)^{2}+(y-2)^{2}=k^{2}+25$，</p><p>所以圆心 $A_{k}=(-k,2)$，焦点 $F_{1}$，$F_{2}$ 在 $x$ 轴上，且 $F_{1}F_{2}=2c=6\\sqrt{3}$. 三角形 $A_{k}F_{1}F_{2}$ 的底边为 $F_{1}F_{2}$，高为点 $A_{k}$ 到 $x$ 轴的距离 $2$，故</p><p>$\\left[ \\triangle A_{k}F_{1}F_{2}\\right]=\\frac{1}{2}\\times6\\sqrt{3}\\times2=6\\sqrt{3}$.</p></li><li><p>若圆 $C_{k}$ 包围椭圆 $G$，则椭圆的两个顶点 $(6,0)$，$(-6,0)$ 都在圆内或圆上. 由圆的方程，点 $(6,0)$ 到圆心 $A_{k}$ 的距离平方为 $(k+6)^{2}+4$，于是</p><p>$(k+6)^{2}+4\\leq k^{2}+25$，即 $k\\leq-\\frac{5}{4}$. 同理，点 $(-6,0)$ 到圆心的距离平方为 $(k-6)^{2}+4$，从而</p><p>$(k-6)^{2}+4\\leq k^{2}+25$，即 $k\\geq\\frac{5}{4}$. 两个条件不能同时成立，所以不存在这样的圆 $C_{k}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆 $G$ 的长半轴、短半轴和半焦距分别为 $a$，$b$，$c$. 由椭圆定义，椭圆上一点到两个焦点的距离之和为 $2a$，所以 $2a=12$，得 $a=6$. 又由离心率 $e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，得 $c=3\\sqrt{3}$. 在椭圆中 $b^{2}=a^{2}-c^{2}$，所以 $b^{2}=36-27=9$. 由于长轴在 $x$ 轴上，椭圆方程为</p><p>$\\displaystyle\\frac{x^{2}}{36}+\\frac{y^{2}}{9}=1$.</p></li><li><p>将圆 $C_{k}$ 的方程配方，得 $(x+k)^{2}+(y-2)^{2}=k^{2}+25$，</p><p>所以圆心 $A_{k}=(-k,2)$，焦点 $F_{1}$，$F_{2}$ 在 $x$ 轴上，且 $F_{1}F_{2}=2c=6\\sqrt{3}$. 三角形 $A_{k}F_{1}F_{2}$ 的底边为 $F_{1}F_{2}$，高为点 $A_{k}$ 到 $x$ 轴的距离 $2$，故</p><p>$\\left[ \\triangle A_{k}F_{1}F_{2}\\right]=\\frac{1}{2}\\times6\\sqrt{3}\\times2=6\\sqrt{3}$.</p></li><li><p>若圆 $C_{k}$ 包围椭圆 $G$，则椭圆的两个顶点 $(6,0)$，$(-6,0)$ 都在圆内或圆上. 由圆的方程，点 $(6,0)$ 到圆心 $A_{k}$ 的距离平方为 $(k+6)^{2}+4$，于是</p><p>$(k+6)^{2}+4\\leq k^{2}+25$，即 $k\\leq-\\frac{5}{4}$. 同理，点 $(-6,0)$ 到圆心的距离平方为 $(k-6)^{2}+4$，从而</p><p>$(k-6)^{2}+4\\leq k^{2}+25$，即 $k\\geq\\frac{5}{4}$. 两个条件不能同时成立，所以不存在这样的圆 $C_{k}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知点 $\\left(1, \\frac{1}{3}\\right)$ 是函数 $f(x) = a^{x}$（$a > 0$，$a \\neq 1$）的图象上一点. 等比数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $f(n) - c$. 数列 $\\{b_{n}\\}$（$b_{n} > 0$）的首项为 $c$，且前 $n$ 项和 $S_{n}$ 满足 $S_{n} - S_{n-1}= \\sqrt{S_{n}}+ \\sqrt{S_{n-1}}$（$n \\ge 2$）.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>若数列 $\\left\\{\\frac{1}{b_{n} b_{n+1}}\\right\\}$ 的前 $n$ 项和为 $T_{n}$，问满足 $T_{n} > \\frac{1000}{2009}$ 的最小正整数 $n$ 是多少？</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为点 $\\left(1,\\frac{1}{3}\\right)$ 在 $y=a^{x}$ 的图象上，所以 $a=\\frac{1}{3}$，即 $f(n)=\\left(\\frac{1}{3}\\right)^{n}$. 对 $n\\geq2$，由前 $n$ 项和相减，得</p><p>$a_{n}=(f(n)-c)-(f(n-1)-c)=\\left(\\frac{1}{3}\\right)^{n}-\\left(\\frac{1}{3}\\right)^{n-1}=-\\frac{2}{3^{n}}$. 因此 $a_{2}=-\\frac{2}{9}$. 另一方面 $a_{1}=f(1)-c=\\frac{1}{3}-c$，而等比数列公比为 $\\frac{1}{3}$，所以 $a_{2}=\\frac{1}{3}a_{1}$，从而 $a_{1}=-\\frac{2}{3}$，解得 $c=1$.</p><p>因此 $a_{n}=-\\frac{2}{3^{n}}$（$n\\geqslant1$）. 又 $b_{1}=c=1$，所以 $S_{1}=1$. 对 $n\\geq2$，由 $b_{n}=S_{n}-S_{n-1}$ 及题设 $S_{n}-S_{n-1}=\\sqrt{S_{n}}+\\sqrt{S_{n-1}}$，得</p><p>令 $u_{n}=\\sqrt{S_{n}}$，则 $u_{n}>0$，且</p><p>$(u_{n}-u_{n-1})(u_{n}+u_{n-1})=u_{n}+u_{n-1}$. 因为 $u_{n}+u_{n-1}>0$，所以 $u_{n}-u_{n-1}=1$. 由 $u_{1}=1$，归纳得 $u_{n}=n$，即 $S_{n}=n^{2}$. 因此</p><p>$b_{n}=S_{n}-S_{n-1}=n^{2}-(n-1)^{2}=2n-1$.</p></li><li><p>由上一问，$b_{n}=2n-1$，所以</p>\n$$\nT_{n}=\\sum_{k=1}^{n}\\frac{1}{(2k-1)(2k+1)}=\\frac{1}{2}\\sum_{k=1}^{n}\\left(\\frac{1}{2k-1}-\\frac{1}{2k+1}\\right)  =\\frac{1}{2}\\left(1-\\frac{1}{2n+1}\\right)=\\frac{n}{2n+1}\n$$\n<p>题设不等式等价于</p><p>$\\frac{n}{2n+1}>\\frac{1000}{2009}$. 由于分母均为正，交叉相乘得 $2009n>2000n+1000$，即 $9n>1000$，所以 $n>\\frac{1000}{9}$. 满足条件的最小正整数为 $n=112$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为点 $\\left(1,\\frac{1}{3}\\right)$ 在 $y=a^{x}$ 的图象上，所以 $a=\\frac{1}{3}$，即 $f(n)=\\left(\\frac{1}{3}\\right)^{n}$. 对 $n\\geq2$，由前 $n$ 项和相减，得</p><p>$a_{n}=(f(n)-c)-(f(n-1)-c)=\\left(\\frac{1}{3}\\right)^{n}-\\left(\\frac{1}{3}\\right)^{n-1}=-\\frac{2}{3^{n}}$. 因此 $a_{2}=-\\frac{2}{9}$. 另一方面 $a_{1}=f(1)-c=\\frac{1}{3}-c$，而等比数列公比为 $\\frac{1}{3}$，所以 $a_{2}=\\frac{1}{3}a_{1}$，从而 $a_{1}=-\\frac{2}{3}$，解得 $c=1$.</p><p>因此 $a_{n}=-\\frac{2}{3^{n}}$（$n\\geqslant1$）. 又 $b_{1}=c=1$，所以 $S_{1}=1$. 对 $n\\geq2$，由 $b_{n}=S_{n}-S_{n-1}$ 及题设 $S_{n}-S_{n-1}=\\sqrt{S_{n}}+\\sqrt{S_{n-1}}$，得</p><p>令 $u_{n}=\\sqrt{S_{n}}$，则 $u_{n}>0$，且</p><p>$(u_{n}-u_{n-1})(u_{n}+u_{n-1})=u_{n}+u_{n-1}$. 因为 $u_{n}+u_{n-1}>0$，所以 $u_{n}-u_{n-1}=1$. 由 $u_{1}=1$，归纳得 $u_{n}=n$，即 $S_{n}=n^{2}$. 因此</p><p>$b_{n}=S_{n}-S_{n-1}=n^{2}-(n-1)^{2}=2n-1$.</p></li><li><p>由上一问，$b_{n}=2n-1$，所以</p>\n$$\nT_{n}=\\sum_{k=1}^{n}\\frac{1}{(2k-1)(2k+1)}=\\frac{1}{2}\\sum_{k=1}^{n}\\left(\\frac{1}{2k-1}-\\frac{1}{2k+1}\\right)  =\\frac{1}{2}\\left(1-\\frac{1}{2n+1}\\right)=\\frac{n}{2n+1}\n$$\n<p>题设不等式等价于</p><p>$\\frac{n}{2n+1}>\\frac{1000}{2009}$. 由于分母均为正，交叉相乘得 $2009n>2000n+1000$，即 $9n>1000$，所以 $n>\\frac{1000}{9}$. 满足条件的最小正整数为 $n=112$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知二次函数 $y = g(x)$ 的导函数的图象与直线 $y = 2x$ 平行，且 $y = g(x)$ 在 $x = -1$ 处取得极小值 $m - 1$（$m \\neq 0$）. 设 $f(x) = \\frac{g(x)}{x}$.</p><ol class=\"enumerate\"><li><p>若曲线 $y = f(x)$ 上的点 $P$ 到点 $Q(0,2)$ 的距离的最小值为 $\\sqrt{2}$，求 $m$ 的值；</p></li><li><p>$k$（$k \\in \\mathbb{R}$）如何取值时，函数 $y = f(x) - kx$ 存在零点，并求出零点.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $g'(x)$ 的图象与 $y=2x$ 平行，所以可设 $g'(x)=2x+b$. 又 $g(x)$ 在 $x=-1$ 处取得极小值，故 $g'(-1)=0$，从而 $b=2$. 积分得 $g(x)=x^{2}+2x+c$. 由 $g(-1)=m-1$，得 $c=m$，所以</p><p>$g(x)=x^{2}+2x+m$，$f(x)=\\frac{g(x)}{x}=x+2+\\frac{m}{x}$，其中 $x\\ne0$.</p><p>点 $P(x,f(x))$ 到 $Q(0,2)$ 的距离平方为</p>\n$$\nd^{2}=x^{2}+\\left(f(x)-2\\right)^{2}=x^{2}+\\left(x+\\frac{m}{x}\\right)^{2}  =2x^{2}+2m+\\frac{m^{2}}{x^{2}}\n$$\n<p>令 $u=x^{2}>0$，则</p><p>$d^{2}=2u+2m+\\frac{m^{2}}{u}$. 由基本不等式，</p><p>$2u+\\frac{m^{2}}{u}\\geq2\\sqrt{2m^{2}}=2\\sqrt{2}|m|$，当 $u=\\frac{|m|}{\\sqrt{2}}$ 时等号成立，所以</p><p>$d_{\\min}^{2}=2m+2\\sqrt{2}|m|$. 题设 $d_{\\min}=\\sqrt{2}$，故</p><p>$m+\\sqrt{2}|m|=1$.</p><p>当 $m>0$ 时，$m(1+\\sqrt{2})=1$，得 $m=\\sqrt{2}-1$；当 $m<0$ 时，$m(1-\\sqrt{2})=1$，得 $m=-\\sqrt{2}-1$.</p></li><li><p>由 $f(x)-kx=0$ 且 $x\\ne0$，得 $(1-k)x^{2}+2x+m=0$.</p><p>当 $k=1$ 时，方程化为 $2x+m=0$，由于 $m\\ne0$，唯一零点为 $x=-\\frac{m}{2}$. 当 $k\\ne1$ 时，判别式为</p><p>$\\Delta=4-4m(1-k)=4[1-m(1-k)]$. 因而有零点的充要条件是</p><p>$1-m(1-k)\\geqslant0$，零点为</p><p>$\\displaystyle x=\\frac{1\\pm\\sqrt{1-m(1-k)}}{k-1}$. 因为 $m\\ne0$，这些根不可能为 $0$，均满足 $x\\ne0$；等号成立时两个根重合为 $x=-m$.</p><p>结合第一问的结果，当 $m=\\sqrt{2}-1>0$ 时，条件化为 $k\\geqslant1-\\frac{1}{m}=-\\sqrt{2}$；当 $m=-\\sqrt{2}-1<0$ 时，条件化为 $k\\leqslant1-\\frac{1}{m}=\\sqrt{2}$. 因此，$m=\\sqrt{2}-1$ 时取 $k\\ge-\\sqrt{2}$，$m=-\\sqrt{2}-1$ 时取 $k\\le\\sqrt{2}$；不满足对应条件时不存在零点.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $g'(x)$ 的图象与 $y=2x$ 平行，所以可设 $g'(x)=2x+b$. 又 $g(x)$ 在 $x=-1$ 处取得极小值，故 $g'(-1)=0$，从而 $b=2$. 积分得 $g(x)=x^{2}+2x+c$. 由 $g(-1)=m-1$，得 $c=m$，所以</p><p>$g(x)=x^{2}+2x+m$，$f(x)=\\frac{g(x)}{x}=x+2+\\frac{m}{x}$，其中 $x\\ne0$.</p><p>点 $P(x,f(x))$ 到 $Q(0,2)$ 的距离平方为</p>\n$$\nd^{2}=x^{2}+\\left(f(x)-2\\right)^{2}=x^{2}+\\left(x+\\frac{m}{x}\\right)^{2}  =2x^{2}+2m+\\frac{m^{2}}{x^{2}}\n$$\n<p>令 $u=x^{2}>0$，则</p><p>$d^{2}=2u+2m+\\frac{m^{2}}{u}$. 由基本不等式，</p><p>$2u+\\frac{m^{2}}{u}\\geq2\\sqrt{2m^{2}}=2\\sqrt{2}|m|$，当 $u=\\frac{|m|}{\\sqrt{2}}$ 时等号成立，所以</p><p>$d_{\\min}^{2}=2m+2\\sqrt{2}|m|$. 题设 $d_{\\min}=\\sqrt{2}$，故</p><p>$m+\\sqrt{2}|m|=1$.</p><p>当 $m>0$ 时，$m(1+\\sqrt{2})=1$，得 $m=\\sqrt{2}-1$；当 $m<0$ 时，$m(1-\\sqrt{2})=1$，得 $m=-\\sqrt{2}-1$.</p></li><li><p>由 $f(x)-kx=0$ 且 $x\\ne0$，得 $(1-k)x^{2}+2x+m=0$.</p><p>当 $k=1$ 时，方程化为 $2x+m=0$，由于 $m\\ne0$，唯一零点为 $x=-\\frac{m}{2}$. 当 $k\\ne1$ 时，判别式为</p><p>$\\Delta=4-4m(1-k)=4[1-m(1-k)]$. 因而有零点的充要条件是</p><p>$1-m(1-k)\\geqslant0$，零点为</p><p>$\\displaystyle x=\\frac{1\\pm\\sqrt{1-m(1-k)}}{k-1}$. 因为 $m\\ne0$，这些根不可能为 $0$，均满足 $x\\ne0$；等号成立时两个根重合为 $x=-m$.</p><p>结合第一问的结果，当 $m=\\sqrt{2}-1>0$ 时，条件化为 $k\\geqslant1-\\frac{1}{m}=-\\sqrt{2}$；当 $m=-\\sqrt{2}-1<0$ 时，条件化为 $k\\leqslant1-\\frac{1}{m}=\\sqrt{2}$. 因此，$m=\\sqrt{2}-1$ 时取 $k\\ge-\\sqrt{2}$，$m=-\\sqrt{2}-1$ 时取 $k\\le\\sqrt{2}$；不满足对应条件时不存在零点.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

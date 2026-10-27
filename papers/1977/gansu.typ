@@ -43,7 +43,9 @@
 #problem(3)[
 #mi(`AD`) 是 #mi(`\triangle ABC`) 外接圆的直径，#mi(`AD=6`)，#mi(`\angle DAC=\angle ABC`)，求 #mi(`AC`)（精确到 #mi(`0.01`)）.
 
-[width=0.36\linewidth]img/1977/gansu/q3_fig1.png
+
+#align(center)[#image("/papers/1977/img/gansu/q3_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -61,7 +63,9 @@ AC=AD\sin45^{\circ}=6\cdot\frac{\sqrt{2}}{2}=3\sqrt{2}\approx4.2426
 #problem(4)[
 在 #mi(`\triangle ABC`) 中，#mi(`\angle A=30^{\circ}`)，#mi(`\angle B-\angle C=60^{\circ}`)，#mi(`BC=2`)，求 #mi(`AC`)（用根式表示）.
 
-[max width=0.52\linewidth]img/1977/gansu/q4_fig1.png
+
+#align(center)[#image("/papers/1977/img/gansu/q4_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -105,7 +109,9 @@ AC=AD\sin45^{\circ}=6\cdot\frac{\sqrt{2}}{2}=3\sqrt{2}\approx4.2426
 #problem(6)[
 右图的二视图表示什么形体？用直径为 #mi(`40\text{ \text{毫米}}`) 的圆柱形钢材锻压这样一个工件，需截取多长一段钢材？
 
-[max width=0.44\linewidth]img/1977/gansu/q6_fig1.png
+
+#align(center)[#image("/papers/1977/img/gansu/q6_fig1.png", width: 28%)]
+
 ]
 
 #solution[

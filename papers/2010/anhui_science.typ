@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,8 +11,8 @@
 #part-header("单选题")
 
 #problem(1)[
-$i$ 是虚数单位，$(i)/(sqrt(3)+ 3 i)=$（ ）
-  #choices([$(1)/(4)- (sqrt(3))/(12) i$], [$(1)/(4)+ (sqrt(3))/(12) i$], [$(1)/(2)+ (sqrt(3))/(6) i$], [$(1)/(2)- (sqrt(3))/(6) i$], cols: 2)
+#mi(`\mathrm{i}`) 是虚数单位，#mi(`\frac{\mathrm{i}}{\sqrt{3} + 3\mathrm{i}}=`)（ ）
+  #choices([#mi(`\frac{1}{4}- \frac{\sqrt{3}}{12}\mathrm{i}`)], [#mi(`\frac{1}{4}+ \frac{\sqrt{3}}{12}\mathrm{i}`)], [#mi(`\frac{1}{2}+ \frac{\sqrt{3}}{6}\mathrm{i}`)], [#mi(`\frac{1}{2}- \frac{\sqrt{3}}{6}\mathrm{i}`)], cols: 1)
 ]
 
 #answer([B])
@@ -20,65 +20,87 @@ $i$ 是虚数单位，$(i)/(sqrt(3)+ 3 i)=$（ ）
 #solution[
 将分子、分母同乘以分母的共轭复数，得
 
-$ (i)/(sqrt(3)+3 i)=(i (sqrt(3)-3 i ))/((sqrt(3)+3 i )(sqrt(3)-3 i ))=(3+sqrt(3){ i })/(12)=(1)/(4)+(sqrt(3))/(12) i $
+
+#align(center)[#mitex(`
+\frac{\mathrm{i}}{\sqrt{3}+3\mathrm{i}}=\frac{\mathrm{i}(\sqrt{3}-3\mathrm{i})}{(\sqrt{3}+3\mathrm{i})(\sqrt{3}-3\mathrm{i})}=\frac{3+\sqrt{3}\mathrm{i}}{12}=\frac{1}{4}+\frac{\sqrt{3}}{12}\mathrm{i}
+`)]
+
 
 因此选 B.
 ]
 
 #problem(2)[
-若集合 $A = \{x | log _((1)/(2)) x >= (1)/(2)\}$，则 $\c o m p l e m e n t_( RR ) A =$（ ）
-  #choices([$(- oo , 0] union ((sqrt(2))/(2), + oo )$], [$((sqrt(2))/(2), + oo )$], [$(- oo , 0] union [(sqrt(2))/(2), + oo )$], [$[(sqrt(2))/(2), + oo )$], cols: 1)
+若集合 #mi(`A = \left\{x \mid \log_{\frac{1}{2}}x \ge \frac{1}{2}\right\}`)，则 #mi(`\complement_{\mathbb{R}}A =`)（ ）
+  #choices([#mi(`(-\infty, 0] \cup \left(\frac{\sqrt{2}}{2}, +\infty\right)`)], [#mi(`\left(\frac{\sqrt{2}}{2}, +\infty\right)`)], [#mi(`(-\infty, 0] \cup \left[\frac{\sqrt{2}}{2}, +\infty\right)`)], [#mi(`\left[\frac{\sqrt{2}}{2}, +\infty\right)`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-对数的定义域要求 $x>0$. 因为底数 $(1)/(2)$ 在 $0$ 与 $1$ 之间，故不等号方向改变，
+对数的定义域要求 #mi(`x>0`). 因为底数 #mi(`\frac{1}{2}`) 在 #mi(`0`) 与 #mi(`1`) 之间，故不等号方向改变，
 
-$ log _((1)/(2))x >= (1)/(2) <=> 0<x <= ((1)/(2))^((1)/(2))=(sqrt(2))/(2) $
 
-所以 $A=(0,(sqrt(2))/(2)]$，从而
+#align(center)[#mitex(`
+\log_{\frac{1}{2}}x\ge\frac{1}{2}\Longleftrightarrow  0<x\le\left(\frac{1}{2}\right)^{\frac{1}{2}}=\frac{\sqrt{2}}{2}
+`)]
 
-$ \c o m p l e m e n t_( RR )A=(- oo ,0] union ((sqrt(2))/(2),+ oo ) $
+
+所以 #mi(`A=(0,\frac{\sqrt{2}}{2}]`)，从而
+
+
+#align(center)[#mitex(`
+\complement_{\mathbb{R}}A=(-\infty,0]\cup\left(\frac{\sqrt{2}}{2},+\infty\right)
+`)]
+
 
 因此选 A.
 ]
 
 #problem(3)[
-设向量 $bold(a)= (1,0)$，$bold(b)= ((1)/(2), (1)/(2))$，则下列结论中正确的是（ ）
-  #choices([$|bold(a)| = |bold(b)|$], [$bold(a) dot bold(b)= (sqrt(2))/(2)$], [$bold(a)- bold(b)$ 与 $bold(b)$ 垂直], [$bold(a) parallel bold(b)$], cols: 1)
+设向量 #mi(`\mathbf{a}= (1,0)`)，#mi(`\mathbf{b}= \left(\frac{1}{2}, \frac{1}{2}\right)`)，则下列结论中正确的是（ ）
+  #choices([#mi(`|\mathbf{a}| = |\mathbf{b}|`)], [#mi(`\mathbf{a}\cdot \mathbf{b}= \frac{\sqrt{2}}{2}`)], [#mi(`\mathbf{a}- \mathbf{b}`) 与 #mi(`\mathbf{b}`) 垂直], [#mi(`\mathbf{a}\parallel \mathbf{b}`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
 由题设
-$|bold(a)|=sqrt(1^2+0^2)=1$，$|bold(b)|=sqrt(((1)/(2))^2+((1)/(2))^2)=(sqrt(2))/(2)$，
+
+#mi(`|\mathbf{a}|=\sqrt{1^{2}+0^{2}}=1`)，#mi(`|\mathbf{b}|=\sqrt{\left(\frac{1}{2}\right)^{2}+\left(\frac{1}{2}\right)^{2}}=\frac{\sqrt{2}}{2}`)，
+
 故选项 A 错误. 又
 
-$ bold(a)\c d o t b o l d(b)=1 dot (1)/(2)+0 dot (1)/(2)=(1)/(2) != (sqrt(2))/(2) $
+
+#align(center)[#mitex(`
+\mathbf{a}\cdot\mathbf{b}=1\cdot\frac{1}{2}+0\cdot\frac{1}{2}=\frac{1}{2}\neq\frac{\sqrt{2}}{2}
+`)]
+
 
 故选项 B 错误. 此外
-$bold(a)-bold(b)=((1)/(2),-(1)/(2))$，$(bold(a)-bold(b))\c d o t b o l d(b)=(1)/(4)-(1)/(4)=0$，
-所以 $bold(a)-bold(b)$ 与 $bold(b)$ 垂直. 两向量的对应坐标不成比例，故不平行，选 C.
+
+#mi(`\mathbf{a}-\mathbf{b}=\left(\frac{1}{2},-\frac{1}{2}\right)`)，#mi(`(\mathbf{a}-\mathbf{b})\cdot\mathbf{b}=\frac{1}{4}-\frac{1}{4}=0`)，
+
+所以 #mi(`\mathbf{a}-\mathbf{b}`) 与 #mi(`\mathbf{b}`) 垂直. 两向量的对应坐标不成比例，故不平行，选 C.
 ]
 
 #problem(4)[
-若 $f(x)$ 是 $RR$ 上周期为 5 的奇函数，且满足 $f(1) = 1$，$f(2) = 2$，则 $f(3) - f(4) =$（ ）
-  #choices([$-1$], [$1$], [$-2$], [$2$], cols: 4)
+若 #mi(`f(x)`) 是 #mi(`\mathbb{R}`) 上周期为 5 的奇函数，且满足 #mi(`f(1) = 1`)，#mi(`f(2) = 2`)，则 #mi(`f(3) - f(4) =`)（ ）
+  #choices([#mi(`-1`)], [#mi(`1`)], [#mi(`-2`)], [#mi(`2`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-由周期性，$f(3)=f(-2)$，$f(4)=f(-1)$. 又 $f$ 为奇函数，所以
-$f(3)=f(-2)=-f(2)=-2$，$f(4)=f(-1)=-f(1)=-1$.
-因此 $f(3)-f(4)=-2-(-1)=-1$，故选 A.
+由周期性，#mi(`f(3)=f(-2)`)，#mi(`f(4)=f(-1)`). 又 #mi(`f`) 为奇函数，所以
+
+#mi(`f(3)=f(-2)=-f(2)=-2`)，#mi(`f(4)=f(-1)=-f(1)=-1`).
+
+因此 #mi(`f(3)-f(4)=-2-(-1)=-1`)，故选 A.
 ]
 
 #problem(5)[
-双曲线方程为 $x^(2) - 2 y^(2) = 1$，则它的右焦点坐标为（ ）
-  #choices([$((sqrt(2))/(2), 0)$], [$((sqrt(5))/(2), 0)$], [$((sqrt(6))/(2), 0)$], [$(sqrt(3),0)$], cols: 2)
+双曲线方程为 #mi(`x^{2}- 2y^{2}= 1`)，则它的右焦点坐标为（ ）
+  #choices([#mi(`\left(\frac{\sqrt{2}}{2}, 0\right)`)], [#mi(`\left(\frac{\sqrt{5}}{2}, 0\right)`)], [#mi(`\left(\frac{\sqrt{6}}{2}, 0\right)`)], [#mi(`(\sqrt{3},0)`)], cols: 1)
 ]
 
 #answer([C])
@@ -86,122 +108,188 @@ $f(3)=f(-2)=-f(2)=-2$，$f(4)=f(-1)=-f(1)=-1$.
 #solution[
 将双曲线方程化为标准形式：
 
-$ (x^2)/(1^2)-(y^2)/(((sqrt(2))/(2))^2)=1 $
 
-因此 $a^2=1$，$b^2=(1)/(2)$. 双曲线的焦半距满足
-$c^2=a^2+b^2=1+(1)/(2)=(3)/(2)$，$c=(sqrt(6))/(2)$.
-右焦点为 $((sqrt(6))/(2),0)$，故选 C.
+#align(center)[#mitex(`
+\frac{x^{2}}{1^{2}}-\frac{y^{2}}{\left(\frac{\sqrt{2}}{2}\right)^{2}}=1
+`)]
+
+
+因此 #mi(`a^{2}=1`)，#mi(`b^{2}=\frac{1}{2}`). 双曲线的焦半距满足
+
+#mi(`c^{2}=a^{2}+b^{2}=1+\frac{1}{2}=\frac{3}{2}`)，#mi(`c=\frac{\sqrt{6}}{2}`).
+
+右焦点为 #mi(`\left(\frac{\sqrt{6}}{2},0\right)`)，故选 C.
 ]
 
 #problem(6)[
-设 $a b c > 0$，二次函数 $f(x) = a x^2 + b x + c$ 的图象可能是（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2010/img/anhui_science/q6_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2010/img/anhui_science/q6_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2010/img/anhui_science/q6_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2010/img/anhui_science/q6_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+设 #mi(`abc > 0`)，二次函数 #mi(`f(x) = ax^{2} + bx + c`) 的图象可能是（ ）
+  #choices([
+#align(center)[#image("/papers/2010/img/anhui_science/q6_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/anhui_science/q6_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/anhui_science/q6_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/anhui_science/q6_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由 $a b c>0$，且 $a$，$b$，$c$ 均非零，需结合图象开口方向、$y$ 轴截距和对称轴位置判断.
+由 #mi(`abc>0`)，且 #mi(`a`)，#mi(`b`)，#mi(`c`) 均非零，需结合图象开口方向、#mi(`y`) 轴截距和对称轴位置判断.
 
-选项 A 中 $a<0$，$c<0$，若 $a b c>0$，则必须有 $b>0$，此时对称轴
-$x=-(b)/(2 a)>0$，与选项 A 的对称轴在 $y$ 轴左侧矛盾. 选项 B 中 $a<0$，$c>0$，故必须 $b<0$，从而 $x=-(b)/(2 a)<0$，与选项 B 的对称轴在 $y$ 轴右侧矛盾. 选项 C 中 $a>0$，$c<0$，故必须 $b<0$，从而对称轴应在 $y$ 轴右侧，与选项 C 矛盾.
+选项 A 中 #mi(`a<0`)，#mi(`c<0`)，若 #mi(`abc>0`)，则必须有 #mi(`b>0`)，此时对称轴
 
-选项 D 中 $a>0$，$c<0$，$b<0$，所以 $a b c>0$，且其开口、截距和对称轴位置均相符. 因此选 D.
+#mi(`x=-\frac{b}{2a}>0`)，与选项 A 的对称轴在 #mi(`y`) 轴左侧矛盾. 选项 B 中 #mi(`a<0`)，#mi(`c>0`)，故必须 #mi(`b<0`)，从而 #mi(`x=-\frac{b}{2a}<0`)，与选项 B 的对称轴在 #mi(`y`) 轴右侧矛盾. 选项 C 中 #mi(`a>0`)，#mi(`c<0`)，故必须 #mi(`b<0`)，从而对称轴应在 #mi(`y`) 轴右侧，与选项 C 矛盾.
+
+选项 D 中 #mi(`a>0`)，#mi(`c<0`)，#mi(`b<0`)，所以 #mi(`abc>0`)，且其开口、截距和对称轴位置均相符. 因此选 D.
 ]
 
 #problem(7)[
-设曲线 $C$ 的参数方程为 $\b e g i n{c a s e s} x = 2 + 3 cos theta ,\\ y = -1 + 3 sin theta , \e n d{c a s e s}$ （$theta$ 为参数），直线 $l$ 的方程为 $x - 3 y + 2 = 0$，则曲线 $C$ 上到直线 $l$ 的距离为 $(7 sqrt(10))/(10)$ 的点的个数为（ ）
-  #choices([$1$], [$2$], [$3$], [$4$], cols: 4)
+设曲线 #mi(`C`) 的参数方程为 #mi(`\begin{cases}x = 2 + 3\cos \theta,\\
+
+y = -1 + 3\sin \theta,\end{cases}`) （#mi(`\theta`) 为参数），直线 #mi(`l`) 的方程为 #mi(`x - 3y + 2 = 0`)，则曲线 #mi(`C`) 上到直线 #mi(`l`) 的距离为 #mi(`\frac{7\sqrt{10}}{10}`) 的点的个数为（ ）
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`3`)], [#mi(`4`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-曲线 $C$ 上点的坐标满足
-$x=2+3 cos theta$，$y=-1+3 sin theta$.
-代入直线 $l$ 的左端，得
+曲线 #mi(`C`) 上点的坐标满足
 
-$ x-3 y+2=7+3 cos theta -9 sin theta $
+#mi(`x=2+3\cos\theta`)，#mi(`y=-1+3\sin\theta`).
 
-点到直线 $l$ 的距离为 $(7 sqrt(10))/(10)=(7)/(sqrt(10))$，所以
+代入直线 #mi(`l`) 的左端，得
 
-$ |7+3 cos theta -9 sin theta |=7 $
+
+#align(center)[#mitex(`
+x-3y+2=7+3\cos\theta-9\sin\theta
+`)]
+
+
+点到直线 #mi(`l`) 的距离为 #mi(`\frac{7\sqrt{10}}{10}=\frac{7}{\sqrt{10}}`)，所以
+
+
+#align(center)[#mitex(`
+\left|7+3\cos\theta-9\sin\theta\right|=7
+`)]
+
 
 于是有
 
-$ 3 cos theta -9 sin theta =0 "或"3 cos theta -9 sin theta =-14 $
+
+#align(center)[#mitex(`
+3\cos\theta-9\sin\theta=0  \quad\text{\text{或}}\quad  3\cos\theta-9\sin\theta=-14
+`)]
+
 
 而
 
-$ |3 cos theta -9 sin theta |\l e q s l a n t s q r t(3^2+(-9)^2)=3 sqrt(10)<14 $
 
-第二种情况无解. 第一种情况化为 $tan theta =(1)/(3)$，在一个周期内有两个不同的参数值，且对应两个不同的圆上点. 所以点的个数为 $2$，选 B.
+#align(center)[#mitex(`
+\left|3\cos\theta-9\sin\theta\right|\le\sqrt{3^{2}+(-9)^{2}}=3\sqrt{10}<14
+`)]
+
+
+第二种情况无解. 第一种情况化为 #mi(`\tan\theta=\frac{1}{3}`)，在一个周期内有两个不同的参数值，且对应两个不同的圆上点. 所以点的个数为 #mi(`2`)，选 B.
 ]
 
 #problem(8)[
 一个几何体的三视图如图，该几何体的表面积为（ ）
 
 
-#align(center)[#image("/papers/2010/img/anhui_science/q8_fig1.png", width: 74%)]
-  #choices([$280$], [$292$], [$360$], [$372$], cols: 4)
+#align(center)[#image("/papers/2010/img/anhui_science/q8_fig1.png", width: 28%)]
+
+  #choices([#mi(`280`)], [#mi(`292`)], [#mi(`360`)], [#mi(`372`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由三视图可知，下面的长方体长为 $8=6+1+1$，宽为 $10=6+2+2$，高为 $2$；上面的长方体长为 $6$，宽为 $2$，高为 $8$. 两个长方体的接触面为 $6 times 2$.
+由三视图可知，下面的长方体长为 #mi(`8=6+1+1`)，宽为 #mi(`10=6+2+2`)，高为 #mi(`2`)；上面的长方体长为 #mi(`6`)，宽为 #mi(`2`)，高为 #mi(`8`). 两个长方体的接触面为 #mi(`6\times2`).
 
-接触面面积为 $6 times 2 =12$. 下面长方体可见的表面积为
+接触面面积为 #mi(`6\times2=12`). 下面长方体可见的表面积为
 
-$ 2(8 times 10 +8 times 2 +10 times 2 )-6 times 2 =220 $
+
+#align(center)[#mitex(`
+2(8\times10+8\times2+10\times2)-6\times2=220
+`)]
+
 
 上面长方体露出的表面积包括四个侧面和上底面，等于
 
-$ 2(6+2) times 8 +6 times 2 =140 $
 
-所以几何体的表面积为 $220+140=360$，故选 C.
+#align(center)[#mitex(`
+2(6+2)\times8+6\times2=140
+`)]
+
+
+所以几何体的表面积为 #mi(`220+140=360`)，故选 C.
 ]
 
 #problem(9)[
-动点 $A(x, y)$ 在圆 $x^2 + y^2 = 1$ 上绕坐标原点沿逆时针方向匀速旋转，$12" 秒"$旋转一周. 已知时间 $t = 0$ 时，点 $A$ 的坐标是 $((1)/(2), (sqrt(3))/(2))$，则当 $0 <= t <= 12$ 时，动点 $A$ 的纵坐标 $y$ 关于 $t$（单位：秒）的函数的单调递增区间是（ ）
-  #choices([$[0,1]$], [$[1,7]$], [$[7,12]$], [$[0,1]$ 和 $[7,12]$], cols: 2)
+动点 #mi(`A(x, y)`) 在圆 #mi(`x^{2} + y^{2} = 1`) 上绕坐标原点沿逆时针方向匀速旋转，#mi(`12\text{ \text{秒}}`) 旋转一周. 已知时间 #mi(`t = 0`) 时，点 #mi(`A`) 的坐标是 #mi(`\left(\frac{1}{2}, \frac{\sqrt{3}}{2}\right)`)，则当 #mi(`0 \le t \le 12`) 时，动点 #mi(`A`) 的纵坐标 #mi(`y`) 关于 #mi(`t`)（单位：秒）的函数的单调递增区间是（ ）
+  #choices([#mi(`[0,1]`)], [#mi(`[1,7]`)], [#mi(`[7,12]`)], [#mi(`[0,1]`) 和 #mi(`[7,12]`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-初始时点 $A$ 的极角为 $(pi)/(3)$，每秒转过的角为
+初始时点 #mi(`A`) 的极角为 #mi(`\frac{\pi}{3}`)，每秒转过的角为
 
-$ omega =(2 pi)/(12)=(pi)/(6) $
+
+#align(center)[#mitex(`
+\omega=\frac{2\pi}{12}=\frac{\pi}{6}
+`)]
+
 
 所以
-$y= sin ((pi)/(3)+(pi)/(6)t)$，$0 <= t <= 12$.
+
+#mi(`y=\sin\left(\frac{\pi}{3}+\frac{\pi}{6}t\right)`)，#mi(`0\le t\leqslant12`).
+
 其导数为
 
-$ y'=(pi)/(6) cos ((pi)/(3)+(pi)/(6)t) $
 
-因此 $y$ 单调递增当且仅当余弦值为正. 在 $0 <= t <= 12$ 内，这给出
+#align(center)[#mitex(`
+y'=\frac{\pi}{6}\cos\left(\frac{\pi}{3}+\frac{\pi}{6}t\right)
+`)]
 
-$ 0 <= t <= 1 "或"7 <= t <= 12 $
+
+因此 #mi(`y`) 单调递增当且仅当余弦值为正. 在 #mi(`0\le t\leqslant12`) 内，这给出
+
+
+#align(center)[#mitex(`
+0\le t\leqslant1\quad\text{\text{或}}\quad 7\le t\leqslant12
+`)]
+
 
 故选 D.
 ]
 
 #problem(10)[
-设 $\{a_(n)\}$ 是任意等比数列，它的前 $n$ 项和，前 $2 n$ 项和与前 $3 n$ 项和分别为 $X$，$Y$，$Z$，则下列等式中恒成立的是（ ）
-  #choices([$X + Z = 2 Y$], [$Y(Y - X) = Z(Z - X)$], [$Y^(2) = X Z$], [$Y(Y - X) = X(Z - X)$], cols: 2)
+设 #mi(`\{a_{n}\}`) 是任意等比数列，它的前 #mi(`n`) 项和，前 #mi(`2n`) 项和与前 #mi(`3n`) 项和分别为 #mi(`X`)，#mi(`Y`)，#mi(`Z`)，则下列等式中恒成立的是（ ）
+  #choices([#mi(`X + Z = 2Y`)], [#mi(`Y(Y - X) = Z(Z - X)`)], [#mi(`Y^{2}= XZ`)], [#mi(`Y(Y - X) = X(Z - X)`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-设等比数列的公比为 $q$，令第一组 $n$ 项的和为 $X$. 第二组 $n$ 项是第一组各项的 $q^n$ 倍，第三组 $n$ 项是第一组各项的 $q^(2 n)$ 倍，因此
-$Y=X(1+q^n)$，$Z=X(1+q^n+q^(2 n))$.
+设等比数列的公比为 #mi(`q`)，令第一组 #mi(`n`) 项的和为 #mi(`X`). 第二组 #mi(`n`) 项是第一组各项的 #mi(`q^{n}`) 倍，第三组 #mi(`n`) 项是第一组各项的 #mi(`q^{2n}`) 倍，因此
+
+#mi(`Y=X(1+q^{n})`)，#mi(`Z=X(1+q^{n}+q^{2n})`).
+
 于是
-$Y-X=X q^n$，$Z-X=X q^n(1+q^n)$.
+
+#mi(`Y-X=Xq^{n}`)，#mi(`Z-X=Xq^{n}(1+q^{n})`).
+
 从而
 
-$ Y(Y-X)=X(1+q^n) dot X q^n =X dot X q^n(1+q^n)=X(Z-X) $
+
+#align(center)[#mitex(`
+Y(Y-X)=X(1+q^{n})\cdot Xq^{n}  =X\cdot Xq^{n}(1+q^{n})=X(Z-X)
+`)]
+
 
 所以恒成立的等式为 D.
 ]
@@ -209,341 +297,260 @@ $ Y(Y-X)=X(1+q^n) dot X q^n =X dot X q^n(1+q^n)=X(Z-X) $
 #part-header("填空题")
 
 #problem(11)[
-命题“对任何 $x in RR$，$|x - 2| + |x - 4| > 3$”的否定是#blank(){}.
+命题“对任何 #mi(`x \in \mathbb{R}`)，#mi(`|x - 2| + |x - 4| > 3`)”的否定是\underline{\hspace{2.5em}}.
 ]
 
-#answer([存在 $x in RR$，使得 $|x - 2| + |x - 4| <= 3$])
+#answer([存在 #mi(`x \in \mathbb{R}`)，使得 #mi(`|x - 2| + |x - 4| \le 3`)])
 
 #solution[
-原命题是全称命题，对任意 $x in RR$ 有 $|x-2|+|x-4|>3$. 否定全称量词要改为存在量词，同时将 $>3$ 否定为 $<= 3$. 因此否定为：存在 $x in RR$，使得
+原命题是全称命题，对任意 #mi(`x\in\mathbb{R}`) 有 #mi(`|x-2|+|x-4|>3`). 否定全称量词要改为存在量词，同时将 #mi(`>3`) 否定为 #mi(`\leqslant3`). 因此否定为：存在 #mi(`x\in\mathbb{R}`)，使得
 
-$ |x-2|+|x-4| <= 3 $
+
+#align(center)[#mitex(`
+|x-2|+|x-4|\leqslant3
+`)]
 ]
 
 #problem(12)[
-$((x)/(sqrt(y))- (y)/(sqrt(x)))^(6)$ 的展开式中，$x^(3)$ 的系数等于#blank(){}.
+#mi(`\left(\frac{x}{\sqrt{y}}- \frac{y}{\sqrt{x}}\right)^{6}`) 的展开式中，#mi(`x^{3}`) 的系数等于\underline{\hspace{2.5em}}.
 ]
 
-#answer([$15$])
+#answer([#mi(`15`)])
 
 #solution[
-根式在分母中，所以 $x>0$，$y>0$. 按二项式定理展开，通项为
+根式在分母中，所以 #mi(`x>0`)，#mi(`y>0`). 按二项式定理展开，通项为
 
-$ C_6^k((x)/(sqrt(y)))^(6-k) (-(y)/(sqrt(x)))^k =(-1)^k C_6^k x^(6-(3 k)/(2))y^(-3+(3 k)/(2)) $
 
-要使 $x$ 的指数为 $3$，必须有
+#align(center)[#mitex(`
+\mathrm{C}_{6}^{k}\left(\frac{x}{\sqrt{y}}\right)^{6-k}\left(-\frac{y}{\sqrt{x}}\right)^{k}  =(-1)^{k}\mathrm{C}_{6}^{k} x^{6-\frac{3k}{2}}y^{-3+\frac{3k}{2}}
+`)]
 
-$ 6-(3 k)/(2)=3\L o n g r i g h t a r r o w k=2 $
 
-此时 $y$ 的指数为 $0$，所以 $x^3$ 的系数为
+要使 #mi(`x`) 的指数为 #mi(`3`)，必须有
 
-$ (-1)^2 C_6^2=15 $
+
+#align(center)[#mitex(`
+6-\frac{3k}{2}=3\Longrightarrow k=2
+`)]
+
+
+此时 #mi(`y`) 的指数为 #mi(`0`)，所以 #mi(`x^{3}`) 的系数为
+
+
+#align(center)[#mitex(`
+(-1)^{2}\mathrm{C}_{6}^{2}=15
+`)]
 ]
 
 #problem(13)[
-设 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} 2 x - y + 2 >= 0 ,\\ 8 x - y - 4 <= 0 ,\\ x >= 0 ,\\ y >= 0 \e n d{c a s e s}$，
-若目标函数 $z = a b x + y$（$a > 0$，$b > 0$）的最大值为 $8$，则 $a + b$ 的最小值为#blank(){}.
+设 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}2x - y + 2 \ge 0,\\  8x - y - 4 \le 0,\\  x \ge 0,\\  y \ge 0\end{cases}`)，
+
+若目标函数 #mi(`z = abx + y`)（#mi(`a > 0`)，#mi(`b > 0`)）的最大值为 #mi(`8`)，则 #mi(`a + b`) 的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$4$])
+#answer([#mi(`4`)])
 
 #solution[
 约束条件等价于
-$y <= 2 x+2$，$y >= 8 x-4$，$x >= 0$，$y >= 0$.
-可行域的顶点为 $(0,0)$、$((1)/(2),0)$、$(1,4)$、$(0,2)$. 令 $p=a b>0$，在这些顶点处目标函数 $z=p x+y$ 的值分别为
-$0$，$(p)/(2)$，$p+4$，$2$.
-因为 $p>0$，最大值为 $p+4$. 由最大值为 $8$，得 $p=4$，即 $a b=4$. 再由算术—几何平均不等式，
 
-$ a+b >= 2 sqrt(a b)=4 $
+#mi(`y\leqslant2x+2`)，#mi(`y\geqslant8x-4`)，#mi(`x\geqslant0`)，#mi(`y\geqslant0`).
 
-且当 $a=b=2$ 时取等号. 所以 $a+b$ 的最小值为 $4$.
+可行域的顶点为 #mi(`(0,0)`)、#mi(`(\frac{1}{2},0)`)、#mi(`(1,4)`)、#mi(`(0,2)`). 令 #mi(`p=ab>0`)，在这些顶点处目标函数 #mi(`z=px+y`) 的值分别为
+
+#mi(`0`)，#mi(`\frac{p}{2}`)，#mi(`p+4`)，#mi(`2`).
+
+因为 #mi(`p>0`)，最大值为 #mi(`p+4`). 由最大值为 #mi(`8`)，得 #mi(`p=4`)，即 #mi(`ab=4`). 再由算术—几何平均不等式，
+
+
+#align(center)[#mitex(`
+a+b\geqslant2\sqrt{ab}=4
+`)]
+
+
+且当 #mi(`a=b=2`) 时取等号. 所以 #mi(`a+b`) 的最小值为 #mi(`4`).
 ]
 
 #problem(14)[
-如图所示，程序框图（算法流程图）的输出值 $x =$#blank(){}.
+如图所示，程序框图（算法流程图）的输出值 #mi(`x =`)\underline{\hspace{2.5em}}.
 
-\texfigure[max width=0.28\linewidth]{img_repaint/2010/anhui_science/q14_fig1.tex}
+\texfigure[max width=0.28\linewidth]img_repaint/2010/anhui_science/q14_fig1.tex
 ]
 
-#answer([$12$])
+#answer([#mi(`12`)])
 
 #solution[
-程序开始时 $x=1$. 逐次沿流程图执行：$1$ 是奇数，变为 $2$；$2$ 不是奇数，变为 $4$，且 $4 not >8$，再加 $1$ 变为 $5$；$5$ 是奇数，变为 $6$；$6$ 不是奇数，变为 $8$，且 $8 not >8$，再加 $1$ 变为 $9$；$9$ 是奇数，变为 $10$；$10$ 不是奇数，变为 $12$，此时 $12>8$，输出 $12$.
+程序开始时 #mi(`x=1`). 逐次沿流程图执行：#mi(`1`) 是奇数，变为 #mi(`2`)；#mi(`2`) 不是奇数，变为 #mi(`4`)，且 #mi(`4\not>8`)，再加 #mi(`1`) 变为 #mi(`5`)；#mi(`5`) 是奇数，变为 #mi(`6`)；#mi(`6`) 不是奇数，变为 #mi(`8`)，且 #mi(`8\not>8`)，再加 #mi(`1`) 变为 #mi(`9`)；#mi(`9`) 是奇数，变为 #mi(`10`)；#mi(`10`) 不是奇数，变为 #mi(`12`)，此时 #mi(`12>8`)，输出 #mi(`12`).
 ]
 
 #problem(15)[
-甲罐中有 $5$ 个红球，$2$ 个白球和 $3$ 个黑球，乙罐中有 $4$ 个红球，$3$ 个白球和 $3$ 个黑球，先从甲罐中随机取出一球放入乙罐，分别以 $A_1$，$A_2$ 和 $A_3$ 表示由甲罐取出的球是红球，白球和黑球的事件，再从乙罐中随机取出一球，以 $B$ 表示由乙罐取出的球是红球的事件，则下列命题中正确的是#blank(){}.
+甲罐中有 #mi(`5`) 个红球，#mi(`2`) 个白球和 #mi(`3`) 个黑球，乙罐中有 #mi(`4`) 个红球，#mi(`3`) 个白球和 #mi(`3`) 个黑球，先从甲罐中随机取出一球放入乙罐，分别以 #mi(`A_{1}`)，#mi(`A_{2}`) 和 #mi(`A_{3}`) 表示由甲罐取出的球是红球，白球和黑球的事件，再从乙罐中随机取出一球，以 #mi(`B`) 表示由乙罐取出的球是红球的事件，则下列命题中正确的是\underline{\hspace{2.5em}}.
 
-\begin{circlelist}
-\item $P(B)=(2)/(5)$；
-\item $P(B | A_1)=(5)/(11)$；
-\item 事件 $B$ 与事件 $A_1$ 相互独立；
-\item $A_1$，$A_2$，$A_3$ 是两两互斥的事件；
-\item $P(B)$ 的值不能确定，因为它与 $A_1$，$A_2$，$A_3$ 中究竟哪一个发生有关.
-\end{circlelist}
+
++ (1) #mi(`P(B)=\frac{2}{5}`)；
++ (2) #mi(`P(B \mid A_{1})=\frac{5}{11}`)；
++ (3) 事件 #mi(`B`) 与事件 #mi(`A_{1}`) 相互独立；
++ (4) #mi(`A_{1}`)，#mi(`A_{2}`)，#mi(`A_{3}`) 是两两互斥的事件；
++ (5) #mi(`P(B)`) 的值不能确定，因为它与 #mi(`A_{1}`)，#mi(`A_{2}`)，#mi(`A_{3}`) 中究竟哪一个发生有关.
 ]
 
-#answer([$"[2]""[4]"$])
+#answer([#mi(`②④`)])
 
 #solution[
-三个事件 $A_1$，$A_2$，$A_3$ 分别表示从甲罐取出红球、白球、黑球，因此
-$P(A_1)=(5)/(10)=(1)/(2)$，$P(A_2)=(2)/(10)=(1)/(5)$，$P(A_3)=(3)/(10)$.
-若发生 $A_1$，乙罐中有 $5$ 个红球，共 $11$ 个球，所以
+三个事件 #mi(`A_{1}`)，#mi(`A_{2}`)，#mi(`A_{3}`) 分别表示从甲罐取出红球、白球、黑球，因此
 
-$ P(B | A_1)=(5)/(11) $
+#mi(`P(A_{1})=\frac{5}{10}=\frac{1}{2}`)，#mi(`P(A_{2})=\frac{2}{10}=\frac{1}{5}`)，#mi(`P(A_{3})=\frac{3}{10}`).
 
-若发生 $A_2$ 或 $A_3$，乙罐中均有 $4$ 个红球，共 $11$ 个球，所以
+若发生 #mi(`A_{1}`)，乙罐中有 #mi(`5`) 个红球，共 #mi(`11`) 个球，所以
 
-$ P(B | A_2)=P(B | A_3)=(4)/(11) $
+
+#align(center)[#mitex(`
+P(B\mid A_{1})=\frac{5}{11}
+`)]
+
+
+若发生 #mi(`A_{2}`) 或 #mi(`A_{3}`)，乙罐中均有 #mi(`4`) 个红球，共 #mi(`11`) 个球，所以
+
+
+#align(center)[#mitex(`
+P(B\mid A_{2})=P(B\mid A_{3})=\frac{4}{11}
+`)]
+
 
 由全概率公式，
 
-$ P(B)=(1)/(2) dot (5)/(11)+(1)/(5) dot (4)/(11)+(3)/(10) dot (4)/(11)=(9)/(22) $
 
-故结论 "①" 错误，结论 "②" 正确. 又
-$P(B inter A_1)=P(A_1)P(B | A_1)=(5)/(22)$，$P(B)P(A_1)=(9)/(44)$，
-二者不相等，所以 $B$ 与 $A_1$ 不独立，结论 "③" 错误. $A_1$，$A_2$，$A_3$ 分别对应一次取球的三种互不相容结果，任意两个不能同时发生，故结论 "④" 正确. $P(B)$ 已由全概率公式唯一确定，故结论 \circled{5} 错误. 所有正确结论的序号为 $"[2]"$，$"[4]"$.
+#align(center)[#mitex(`
+P(B)=\frac{1}{2}\cdot\frac{5}{11}+\frac{1}{5}\cdot\frac{4}{11}+\frac{3}{10}\cdot\frac{4}{11}=\frac{9}{22}
+`)]
+
+
+故结论 ① 错误，结论 ② 正确. 又
+
+#mi(`P(B\cap A_{1})=P(A_{1})P(B\mid A_{1})=\frac{5}{22}`)，#mi(`P(B)P(A_{1})=\frac{9}{44}`)，
+
+二者不相等，所以 #mi(`B`) 与 #mi(`A_{1}`) 不独立，结论 ③ 错误. #mi(`A_{1}`)，#mi(`A_{2}`)，#mi(`A_{3}`) 分别对应一次取球的三种互不相容结果，任意两个不能同时发生，故结论 ④ 正确. #mi(`P(B)`) 已由全概率公式唯一确定，故结论 ⑤ 错误. 所有正确结论的序号为 #mi(`②`)，#mi(`④`).
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-设 $triangle A B C$ 是锐角三角形，$a$，$b$，$c$ 分别是内角 $A$，$B$，$C$ 所对边长，并且 $sin ""^(2) A = sin ((pi)/(3)+ B) sin ((pi)/(3)- B) + sin ""^(2) B$.
+设 #mi(`\triangle ABC`) 是锐角三角形，#mi(`a`)，#mi(`b`)，#mi(`c`) 分别是内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对边长，并且 #mi(`\sin^{2}A = \sin \left(\frac{\pi}{3}+ B\right) \sin \left(\frac{\pi}{3}- B\right) + \sin^{2}B`).
 
 
-+ (1) 求角 $A$ 的值；
-+ (2) 若 $arrow(A B) dot arrow(A C)= 12$，$a = 2 sqrt(7)$，求 $b$，$c$（其中 $b < c$）.
++ (1)
 ]
 
 #solution[
-+ (1) 利用公式 $sin (u+v) sin (u-v)= sin ""^(2) u- sin ""^(2) v$，原等式右端为
-
-$ sin ""^2(pi)/(3)- sin ""^(2) B+ sin ""^(2) B=(3)/(4) $
-
-所以 $sin ""^(2) A=(3)/(4)$. 因为三角形为锐角三角形，$0<A<(pi)/(2)$，故
-
-$ A=(pi)/(3) $
-+ (2) 向量 $arrow(A B)$ 与 $arrow(A C)$ 的夹角为 $A$，且 $|arrow(A B)|=c$，$|arrow(A C)|=b$，所以
-
-$ 12=arrow(A B)\c d o t a r r o w(A C)=b c cos A=(b c)/(2) $
-
-从而 $b c=24$. 由余弦定理，
-
-$ a^2=b^2+c^2-2 b c cos A=b^2+c^2-24 $
-
-代入 $a=2 sqrt(7)$，得 $b^2+c^2=52$. 因此
-
-$ (b+c)^2=b^2+c^2+2 b c=52+48=100 $
-
-由于 $b$，$c>0$，有 $b+c=10$. 所以 $b$，$c$ 是方程
-
-$ u^2-10 u+24=0 $
-
-的两个根，即 $u=4$ 或 $u=6$. 结合 $b<c$，得 $b=4$，$c=6$.
++ (1)
 ]
 
 #problem(17)[
-设 $a$ 为实数，函数 $f(x) = e ""^(x) - 2 x + 2 a$，$x in RR$.
+设 #mi(`a`) 为实数，函数 #mi(`f(x) = \mathrm{e}^{x}- 2x + 2a`)，#mi(`x \in \mathbb{R}`).
 
 
-+ (1) 求 $f(x)$ 的单调区间与极值；
-+ (2) 求证：当 $a > ln 2 - 1$ 且 $x > 0$ 时，$e ""^(x) > x^(2) - 2 a x + 1$.
++ (1)
 ]
 
 #solution[
-+ (1) $ f'(x)= e ""^x-2 $
-
-当 $x< ln 2$ 时，$f'(x)<0$；当 $x> ln 2$ 时，$f'(x)>0$. 所以 $f(x)$ 在 $(- oo , ln 2 )$ 上单调递减，在 $( ln 2 ,+ oo )$ 上单调递增，并在 $x= ln 2$ 处取得极小值
-
-$ f( ln 2 )=2-2 ln 2 +2 a=2(1- ln 2 +a) $
-
-又因为 $x -> - oo$ 时 $-2 x -> + oo$，$x -> + oo$ 时 $e ""^x -> + oo$，所以 $f(x)$ 无极大值.
-+ (2) 令
-
-$ g(x)= e ""^x-x^2+2 a x-1 $
-
-则
-
-$ g'(x)= e ""^x-2 x+2 a=f(x) $
-
-由第（1）问，$f(x)$ 的最小值为 $2(1- ln 2 +a)>0$，所以 $g'(x)>0$ 对一切 $x in RR$ 成立，$g$ 在 $RR$ 上单调递增. 当 $x>0$ 时，
-
-$ g(x)>g(0)=1-0+0-1=0 $
-
-于是 $e ""^x-x^2+2 a x-1>0$，即
-
-$ e ""^x>x^2-2 a x+1 $
++ (1)
 ]
 
 #problem(18)[
-如图，在多面体 $A B C D E F$ 中，四边形 $A B C D$ 是正方形，$E F parallel A B$，$E F bot F B$，$A B = 2 E F$，$angle B F C = 90^ degree$，$B F = F C$，$H$ 为 $B C$ 的中点.
+如图，在多面体 #mi(`ABCDEF`) 中，四边形 #mi(`ABCD`) 是正方形，#mi(`EF \parallel AB`)，#mi(`EF \perp FB`)，#mi(`AB = 2EF`)，#mi(`\angle BFC = 90^{\circ}`)，#mi(`BF = FC`)，#mi(`H`) 为 #mi(`BC`) 的中点.
 
 
-+ (1) 求证： $F H parallel$ 平面 $E D B$；
-+ (2) 求证： $A C bot$ 平面 $E D B$；
-+ (3) 求二面角 $B - D E - C$ 的大小.
++ (1) 
++ (2) 
 
 
 
 
-#align(center)[#image("/papers/2010/img/anhui_science/q18_fig1.png", width: 58%)]
+#align(center)[#image("/papers/2010/img/anhui_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 不妨取 $E F=1$，则 $A B=2$. 建立空间直角坐标系，使
-$A(0,0,0)$，$B(2,0,0)$，$C(2,2,0)$，$D(0,2,0)$.
-由 $E F parallel A B$，可设 $E(r,s,t)$，$F(r+1,s,t)$. 条件 $E F bot F B$ 给出
-
-$ (F-E) dot (B-F)=(1,0,0) dot (1-r,-s,-t)=0 $
-
-所以 $r=1$. 又 $B F=F C$ 给出
-
-$ s^2+t^2=(2-s)^2+t^2 $
-
-从而 $s=1$. 再由 $angle B F C=90^ degree$，
-
-$ (B-F) dot (C-F)=(0,-1,-t) dot (0,1,-t)=-1+t^2=0 $
-
-因为 $F$ 在正方形所在平面的上方，$t=1$. 因此
-$E(1,1,1)$，$F(2,1,1)$，$H(2,1,0)$.
-平面 $E D B$ 的一个法向量为
-
-$ arrow(B D)\t i m e s a r r o w(B E)=(-2,2,0) times (-1,1,1)=(2,2,0) $
-
-而 $arrow(F H)=(0,0,-1)$ 与该法向量的数量积为 $0$，且直线 $F H$ 上各点满足 $x+y=3$，平面 $E D B$ 的方程为 $x+y=2$，二者不相交. 所以 $F H parallel$ 平面 $E D B$.
-+ (2) 又
-
-$ arrow(A C)=(2,2,0) $
-
-与平面 $E D B$ 的法向量平行，所以 $A C bot$ 平面 $E D B$.
-+ (3) 平面 $B D E$ 的一个法向量可取 $bold(n)_1=(1,1,0)$，平面 $C D E$ 的一个法向量可取
-
-$ bold(n)_2=arrow(C D)\t i m e s a r r o w(C E)=(-2,0,0) times (-1,-1,1)=(0,2,2) $
-
-故二面角 $B-D E-C$ 的平面角 $phi.alt$ 满足
-
-$ cos phi.alt =(bold(n)_1 dot (0,1,1))/(|bold(n)_1|sqrt(1^2+1^2))=(1)/(2) $
-
-取二面角的锐角，得 $phi.alt =60^ degree$.
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-如图，已知椭圆 $E$ 经过点 $A(2,3)$，对称轴为坐标轴，焦点 $F_(1)$，$F_(2)$ 在 $x$ 轴上，离心率 $e = (1)/(2)$.
+如图，已知椭圆 #mi(`E`) 经过点 #mi(`A(2,3)`)，对称轴为坐标轴，焦点 #mi(`F_{1}`)，#mi(`F_{2}`) 在 #mi(`x`) 轴上，离心率 #mi(`e = \frac{1}{2}`).
 
 
-+ (1) 求椭圆 $E$ 的方程；
-+ (2) 求 $angle F_(1)A F_(2)$ 的角平分线所在直线 $l$ 的方程；
-+ (3) 在椭圆 $E$ 上是否存在关于直线 $l$ 对称的相异两点？ 若存在，请找出；若不存在，说明理由.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2010/img/anhui_science/q19_fig1.png", width: 44%)]
+
+#align(center)[#image("/papers/2010/img/anhui_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设椭圆方程为
-$(x^2)/(a^2)+(y^2)/(b^2)=1$（$a>b>0$），
-焦距的一半为 $c$. 由离心率 $e=(c)/(a)=(1)/(2)$，得 $c=(a)/(2)$，从而
-
-$ b^2=a^2-c^2=(3 a^2)/(4) $
-
-将 $A(2,3)$ 代入，得
-$(4)/(a^2)+(9)/(3(a^2)/(4))=1 \L o n g r i g h t a r r o w (16)/(a^2)=1 \L o n g r i g h t a r r o w a^2=16$，$b^2=12$.
-所以椭圆方程为
-
-$ (x^2)/(16)+(y^2)/(12)=1 $
-+ (2) 由 $c=2$，得 $F_1(-2,0)$，$F_2(2,0)$. 直线 $A F_1$ 和 $A F_2$ 的方程分别为
-$3 x-4 y+6=0$，$x-2=0$.
-角平分线上的点到这两条直线的距离相等. 取经过椭圆内部的内角平分线，满足
-
-$ (3 x-4 y+6)/(5)=-(x-2) $
-
-化简得
-
-$ l\c o l o n 2 x-y-1=0 $
-+ (3) 假设存在椭圆上关于 $l$ 对称的相异两点 $P$，$Q$. 设它们的中点为 $M(u,v)$. 因为 $l$ 是线段 $P Q$ 的垂直平分线，所以 $M in l$，且可设
-$P=M+t(2,-1)$，$Q=M-t(2,-1)$，$t\n e q0$.
-将 $P$，$Q$ 代入椭圆方程并相减，得
-
-$ (u)/(2)t-(v)/(3)t=0 $
-
-所以 $3 u-2 v=0$. 又 $M in l$，即 $v=2 u-1$，联立得 $M=(2,3)=A$.
-
-$ ((u+2 t)^2)/(16)+((v-t)^2)/(12)=(u^2)/(16)+(v^2)/(12)+t((u)/(4)-(v)/(6)) +t^2((1)/(4)+(1)/(12)) $
-
-在 $M=(2,3)$ 时，中间一次项为 $0$，且 $M$ 在椭圆上，所以右端等于
-
-$ 1+(t^2)/(3)>1 $
-
-这与 $P$ 在椭圆上要求左端等于 $1$ 矛盾. 因此不存在关于 $l$ 对称的相异两点.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-设数列 $a_(1)$，$a_(2)$，$dots.c$，$a_(n)$，$dots.c$ 中的每一项都不为 $0$. 证明： $\{a_(n)\}$ 为等差数列的充分必要条件是：对任何 $n in NN ""^(+)$，都有 $(1)/(a_(1) a_(2))+ (1)/(a_(2) a_(3))+ dots.c + (1)/(a_(n) a_(n+1))= (n)/(a_(1) a_(n+1))$.
+设数列 #mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`\cdots`)，#mi(`a_{n}`)，#mi(`\cdots`) 中的每一项都不为 #mi(`0`). 证明： #mi(`\{a_{n}\}`) 为等差数列的充分必要条件是：对任何 #mi(`n \in \mathbb{N}^{+}`)，都有 #mi(`\frac{1}{a_{1}a_{2}}+ \frac{1}{a_{2}a_{3}}+ \cdots + \frac{1}{a_{n}a_{n+1}}= \frac{n}{a_{1}a_{n+1}}`).
 ]
 
 #solution[
-先证充分性. 若 $\{a_n\}$ 为等差数列，设公差为 $d$. 当 $d\n e q0$ 时，
+先证充分性. 若 #mi(`\{a_{n}\}`) 为等差数列，设公差为 #mi(`d`). 当 #mi(`d\neq0`) 时，
 
-$ (1)/(a_k a_(k+1))=(1)/(d)((1)/(a_k)-(1)/(a_(k+1))) $
+
+#align(center)[#mitex(`
+\frac{1}{a_{k} a_{k+1}}=\frac{1}{d}\left(\frac{1}{a_{k}}-\frac{1}{a_{k+1}}\right)
+`)]
+
 
 于是
 
-$ sum_(k=1)^(n)(1)/(a_k a_(k+1))=(1)/(d)((1)/(a_1)-(1)/(a_(n+1))) =(a_(n+1)-a_1)/(d a_(1) a_(n+1))=(n)/(a_(1) a_(n+1)) $
 
-当 $d=0$ 时，所有项都等于非零常数 $a_1$，等式两边均为 $(n)/(a_1^2)$，结论同样成立.
+#align(center)[#mitex(`
+\sum_{k=1}^{n}\frac{1}{a_{k} a_{k+1}}=\frac{1}{d}\left(\frac{1}{a_{1}}-\frac{1}{a_{n+1}}\right)  =\frac{a_{n+1}-a_{1}}{d a_{1}a_{n+1}}=\frac{n}{a_{1}a_{n+1}}
+`)]
 
-再证必要性. 设题中等式对任意 $n in NN ""^+$ 成立. 对 $n >= 2$，用第 $n$ 个等式减去第 $n-1$ 个等式，得
 
-$ (1)/(a_(n) a_(n+1))=(n)/(a_(1) a_(n+1))-(n-1)/(a_(1) a_n) $
+当 #mi(`d=0`) 时，所有项都等于非零常数 #mi(`a_{1}`)，等式两边均为 #mi(`\frac{n}{a_{1}^{2}}`)，结论同样成立.
 
-由于各项均不为 $0$，两边同乘 $a_(1) a_(n) a_(n+1)$，得
-$a_1=n a_n-(n-1)a_(n+1)$，$a_(n+1)=(n a_n-a_1)/(n-1)$.
-令 $d=a_2-a_1$. 当 $n=2$ 时，递推式给出 $a_3=2 a_2-a_1=a_1+2 d$. 若 $a_n=a_1+(n-1)d$，则
+再证必要性. 设题中等式对任意 #mi(`n\in\mathbb{N}^{+}`) 成立. 对 #mi(`n\geqslant2`)，用第 #mi(`n`) 个等式减去第 #mi(`n-1`) 个等式，得
 
-$ a_(n+1) =(n[a_1+(n-1)d]-a_1)/(n-1)=a_1+n d $
 
-由数学归纳法，$a_n=a_1+(n-1)d$ 对所有 $n in NN ""^+$ 成立，故 $\{a_n\}$ 为等差数列.
+#align(center)[#mitex(`
+\frac{1}{a_{n}a_{n+1}}=\frac{n}{a_{1}a_{n+1}}-\frac{n-1}{a_{1}a_{n}}
+`)]
+
+
+由于各项均不为 #mi(`0`)，两边同乘 #mi(`a_{1}a_{n}a_{n+1}`)，得
+
+#mi(`a_{1}=na_{n}-(n-1)a_{n+1}`)，#mi(`a_{n+1}=\frac{na_{n}-a_{1}}{n-1}`).
+
+令 #mi(`d=a_{2}-a_{1}`). 当 #mi(`n=2`) 时，递推式给出 #mi(`a_{3}=2a_{2}-a_{1}=a_{1}+2d`). 若 #mi(`a_{n}=a_{1}+(n-1)d`)，则
+
+
+#align(center)[#mitex(`
+a_{n+1}=\frac{n[a_{1}+(n-1)d]-a_{1}}{n-1}=a_{1}+nd
+`)]
+
+
+由数学归纳法，#mi(`a_{n}=a_{1}+(n-1)d`) 对所有 #mi(`n\in\mathbb{N}^{+}`) 成立，故 #mi(`\{a_{n}\}`) 为等差数列.
 ]
 
 #problem(21)[
-品酒师需定期接受酒味鉴别功能测试，一般通常采用的测试方法如下：拿出 $n$ 瓶外观相同但品质不同的酒让其品尝，要求其按品质优劣为它们排序；经过一段时间，等其记忆淡忘之后，再让其品尝这 $n$ 瓶酒，并重新按品质优劣为它们排序，这称为一轮测试. 根据一轮测试中的两次排序的偏离程度的高低为其评分.
+品酒师需定期接受酒味鉴别功能测试，一般通常采用的测试方法如下：拿出 #mi(`n`) 瓶外观相同但品质不同的酒让其品尝，要求其按品质优劣为它们排序；经过一段时间，等其记忆淡忘之后，再让其品尝这 #mi(`n`) 瓶酒，并重新按品质优劣为它们排序，这称为一轮测试. 根据一轮测试中的两次排序的偏离程度的高低为其评分.
 
-现设 $n = 4$，分别以 $a_(1)$，$a_(2)$，$a_(3)$，$a_(4)$ 表示第一次排序时被排为 $1$，$2$，$3$，$4$ 的四种酒在第二次排序时的序号，并令 $X = |1 - a_(1)| + |2 - a_(2)| + |3 - a_(3)| + |4 - a_(4)|$，则 $X$ 是对两次排序的偏离程度的一种描述.
+现设 #mi(`n = 4`)，分别以 #mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`a_{3}`)，#mi(`a_{4}`) 表示第一次排序时被排为 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`) 的四种酒在第二次排序时的序号，并令 #mi(`X = |1 - a_{1}| + |2 - a_{2}| + |3 - a_{3}| + |4 - a_{4}|`)，则 #mi(`X`) 是对两次排序的偏离程度的一种描述.
 
 
-+ (1) 写出 $X$ 的可能值集合；
-+ (2) 假设 $a_(1)$，$a_(2)$，$a_(3)$，$a_(4)$ 等可能地为 $1$，$2$，$3$，$4$ 的各种排列，求 $X$ 的分布列；
-+ (3) 某品酒师在相继进行的三轮测试中，都有 $X <= 2$，
-\begin{enumerate}
-+ (4) 试按（2）中的结果，计算出现这种现象的概率 （假定各轮测试相互独立）；
-+ (5) 你认为该品酒师的酒味鉴别功能如何？ 说明理由.
-
-\end{enumerate}
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 对任意排列，$|i-a_i|\equiv i-a_i\p m o d 2$. 因为 $sum_(i=1)^(4)i=sum_(i=1)^(4)a_i=10$，所以 $X$ 必为偶数. 又 $0 <= X <= 8$，并且下列排列分别给出 $0$，$2$，$4$，$6$，$8$，所以
-
-$ X" 的可能值集合为 "\{0,2,4,6,8\} $
-+ (2) 逐一计算 $24$ 个排列的偏离值，可按 $X$ 分组如下：
-当 $X=0$ 时，排列为 $(1,2,3,4)$.
-当 $X=2$ 时，排列为 $(1,2,4,3)$、$(1,3,2,4)$、$(2,1,3,4)$.
-当 $X=4$ 时，排列为 $(1,3,4,2)$、$(1,4,2,3)$、$(1,4,3,2)$、$(2,1,4,3)$、$(2,3,1,4)$、$(3,1,2,4)$、$(3,2,1,4)$.
-当 $X=6$ 时，排列为 $(2,3,4,1)$、$(2,4,1,3)$、$(2,4,3,1)$、$(3,1,4,2)$、$(3,2,4,1)$、$(4,1,2,3)$、$(4,1,3,2)$、$(4,2,1,3)$、$(4,2,3,1)$.
-当 $X=8$ 时，排列为 $(3,4,1,2)$、$(3,4,2,1)$、$(4,3,1,2)$、$(4,3,2,1)$.
-因此
-$P(X=0)=(1)/(24)$，$P(X=2)=(3)/(24)$，$P(X=4)=(7)/(24)$，$P(X=6)=(9)/(24)$，$P(X=8)=(4)/(24)$.
-+ (3) \begin{enumerate}
-+ (4) 一轮测试中 $X <= 2$ 的概率为
-
-$ P(X <= 2 )=P(X=0)+P(X=2)=(1+3)/(24)=(1)/(6) $
-
-三轮相互独立，所以三轮均满足 $X <= 2$ 的概率为
-
-$ ((1)/(6))^3=(1)/(216) $
-+ (5) 若第二次排序完全随机，这种三轮结果出现的概率仅为 $(1)/(216) approx 0 .0046$，概率很小，因此可认为该品酒师具有较好的酒味鉴别功能；这说明测试结果支持其排序能力较强，但不能仅凭三轮测试作绝对结论.
-
-\end{enumerate}
++ (1) 
++ (2)
 ]
 

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,172 +11,192 @@
 #part-header("单选题")
 
 #problem(1)[
-若集合 $M = \{x | |x| <= 2 \}$，$N = \{x | x^2 - 3 x = 0\}$，则 $M inter N =$（ ）
-  #choices([$\{3\}$], [$\{0\}$], [$\{0,2\}$], [$\{0,3\}$], cols: 4)
+若集合 #mi(`M = \{x \mid |x| \le 2\}`)，#mi(`N = \{x \mid x^{2} - 3x = 0\}`)，则 #mi(`M \cap N =`)（ ）
+  #choices([#mi(`\{3\}`)], [#mi(`\{0\}`)], [#mi(`\{0,2\}`)], [#mi(`\{0,3\}`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由 $x^2-3 x=x(x-3)$，得 $N=\{0,3\}$. 又由 $|x| <= 2$ 得 $M=[-2,2]$，所以 $3 in.not M$，而 $0 in M$. 因此 $M inter N=\{0\}$，故选 B.
+由 #mi(`x^{2}-3x=x(x-3)`)，得 #mi(`N=\{0,3\}`). 又由 #mi(`|x|\leqslant2`) 得 #mi(`M=[-2,2]`)，所以 #mi(`3\notin M`)，而 #mi(`0\in M`). 因此 #mi(`M\cap N=\{0\}`)，故选 B.
 ]
 
 #problem(2)[
-若 $(a - 2 i ) i = b - i$，其中 $a$，$b in RR$，$i$ 是虚数单位，则 $a^2 + b^2 =$（ ）
-  #choices([$0$], [$2$], [$(3)/(2)$], [$5$], cols: 4)
+若 #mi(`(a - 2\mathrm{i})\mathrm{i}= b - \mathrm{i}`)，其中 #mi(`a`)，#mi(`b \in \mathbb{R}`)，#mi(`\mathrm{i}`) 是虚数单位，则 #mi(`a^{2} + b^{2} =`)（ ）
+  #choices([#mi(`0`)], [#mi(`2`)], [#mi(`\frac{3}{2}`)], [#mi(`5`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-利用 $i ""^2=-1$，将等式左边化为 $(a-2 i ) i =a i -2 i ""^2=2+a i$. 与右边 $b- i =b-1 i$ 比较实部和虚部，得到 $b=2$，$a=-1$. 因此 $a^2+b^2=(-1)^2+2^2=5$，故选 D.
+利用 #mi(`\mathrm{i}^{2}=-1`)，将等式左边化为 #mi(`(a-2\mathrm{i})\mathrm{i}=a\mathrm{i}-2\mathrm{i}^{2}=2+a\mathrm{i}`). 与右边 #mi(`b-\mathrm{i}=b-1\mathrm{i}`) 比较实部和虚部，得到 #mi(`b=2`)，#mi(`a=-1`). 因此 #mi(`a^{2}+b^{2}=(-1)^{2}+2^{2}=5`)，故选 D.
 ]
 
 #problem(3)[
-$lim_(x -> -3)(x + 3)/(x^2 - 9)=$（ ）
-  #choices([$-(1)/(6)$], [$0$], [$(1)/(6)$], [$(1)/(3)$], cols: 4)
+#mi(`\displaystyle\lim_{x\to -3}\frac{x + 3}{x^{2} - 9}=`)（ ）
+  #choices([#mi(`-\frac{1}{6}`)], [#mi(`0`)], [#mi(`\frac{1}{6}`)], [#mi(`\frac{1}{3}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-当 $x != -3$ 时，$x^2-9=(x+3)(x-3)$，所以 $(x+3)/(x^2-9)=(1)/(x-3)$. 在 $x -> -3$ 时，分母 $x-3 -> -6$，从而原极限为 $-(1)/(6)$，故选 A.
+当 #mi(`x\ne-3`) 时，#mi(`x^{2}-9=(x+3)(x-3)`)，所以 #mi(`\frac{x+3}{x^{2}-9}=\frac{1}{x-3}`). 在 #mi(`x\to-3`) 时，分母 #mi(`x-3\to-6`)，从而原极限为 #mi(`-\frac{1}{6}`)，故选 A.
 ]
 
 #problem(4)[
-已知高为 $3$ 的直棱柱 $A B C - A'B'C'$ 的底面是边长为 $1$ 的正三角形（如图所示），则三棱锥 $B' - A B C$ 的体积为（ ）
+已知高为 #mi(`3`) 的直棱柱 #mi(`ABC - A'B'C'`) 的底面是边长为 #mi(`1`) 的正三角形（如图所示），则三棱锥 #mi(`B' - ABC`) 的体积为（ ）
 
 
-#align(center)[#image("/papers/2005/img/guangdong/q4_fig1.png", width: 34%)]
-  #choices([$(1)/(4)$], [$(1)/(2)$], [$(sqrt(3))/(6)$], [$(sqrt(3))/(4)$], cols: 4)
+#align(center)[#image("/papers/2005/img/guangdong/q4_fig1.png", width: 28%)]
+
+  #choices([#mi(`\frac{1}{4}`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{\sqrt{3}}{6}`)], [#mi(`\frac{\sqrt{3}}{4}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-正三角形 $A B C$ 的面积为 $S_(A B C)=(sqrt(3))/(4) times 1 ""^2=(sqrt(3))/(4)$. 直棱柱的侧棱 $B B'$ 垂直于底面 $A B C$，且 $B B'=3$，所以点 $B'$ 到平面 $A B C$ 的距离为 $3$. 因此三棱锥 $B'-A B C$ 的体积为
+正三角形 #mi(`ABC`) 的面积为 #mi(`S_{ABC}=\frac{\sqrt{3}}{4}\times1^{2}=\frac{\sqrt{3}}{4}`). 直棱柱的侧棱 #mi(`BB'`) 垂直于底面 #mi(`ABC`)，且 #mi(`BB'=3`)，所以点 #mi(`B'`) 到平面 #mi(`ABC`) 的距离为 #mi(`3`). 因此三棱锥 #mi(`B'-ABC`) 的体积为
 
-$ V=(1)/(3)S_(A B C) dot B B'=(1)/(3) dot (sqrt(3))/(4) dot 3 =(sqrt(3))/(4) $
+
+#align(center)[#mitex(`
+V=\frac{1}{3}S_{ABC}\cdot BB'=\frac{1}{3}\cdot\frac{\sqrt{3}}{4}\cdot3=\frac{\sqrt{3}}{4}
+`)]
+
 
 故选 D.
 ]
 
 #problem(5)[
-若焦点在 $x$ 轴上的椭圆 $(x^2)/(2)+ (y^2)/(m)= 1$ 的离心率为 $(1)/(2)$，则 $m =$（ ）
-  #choices([$sqrt(3)$], [$(3)/(2)$], [$(8)/(3)$], [$(2)/(3)$], cols: 4)
+若焦点在 #mi(`x`) 轴上的椭圆 #mi(`\frac{x^{2}}{2}+ \frac{y^{2}}{m}= 1`) 的离心率为 #mi(`\frac{1}{2}`)，则 #mi(`m =`)（ ）
+  #choices([#mi(`\sqrt{3}`)], [#mi(`\frac{3}{2}`)], [#mi(`\frac{8}{3}`)], [#mi(`\frac{2}{3}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由于焦点在 $x$ 轴上，椭圆的长半轴平方为 $a^2=2$，短半轴平方为 $b^2=m$，且焦半距满足 $c^2=a^2-b^2=2-m$. 由离心率 $e=(c)/(a)=(1)/(2)$，得 $(2-m)/(2)=e^2=(1)/(4)$. 所以 $2-m=(1)/(2)$，即 $m=(3)/(2)$，故选 B.
+由于焦点在 #mi(`x`) 轴上，椭圆的长半轴平方为 #mi(`a^{2}=2`)，短半轴平方为 #mi(`b^{2}=m`)，且焦半距满足 #mi(`c^{2}=a^{2}-b^{2}=2-m`). 由离心率 #mi(`e=\frac{c}{a}=\frac{1}{2}`)，得 #mi(`\frac{2-m}{2}=e^{2}=\frac{1}{4}`). 所以 #mi(`2-m=\frac{1}{2}`)，即 #mi(`m=\frac{3}{2}`)，故选 B.
 ]
 
 #problem(6)[
-函数 $f(x) = x^3 - 3 x^2 + 1$ 是减函数的区间为（ ）
-  #choices([$(2, + oo )$], [$(- oo , 2)$], [$(- oo , 0)$], [$(0,2)$], cols: 4)
+函数 #mi(`f(x) = x^{3} - 3x^{2} + 1`) 是减函数的区间为（ ）
+  #choices([#mi(`(2, +\infty)`)], [#mi(`(-\infty, 2)`)], [#mi(`(- \infty, 0)`)], [#mi(`(0,2)`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-函数的导数为 $f'(x)=3 x^2-6 x=3 x(x-2)$. 当 $x<0$ 或 $x>2$ 时，$f'(x)>0$；当 $0<x<2$ 时，$f'(x)<0$. 因此 $f(x)$ 在 $(0,2)$ 上是减函数，故选 D.
+函数的导数为 #mi(`f'(x)=3x^{2}-6x=3x(x-2)`). 当 #mi(`x<0`) 或 #mi(`x>2`) 时，#mi(`f'(x)>0`)；当 #mi(`0<x<2`) 时，#mi(`f'(x)<0`). 因此 #mi(`f(x)`) 在 #mi(`(0,2)`) 上是减函数，故选 D.
 ]
 
 #problem(7)[
-给出下列关于互不相同的直线 $m$，$l$，$n$ 和平面 $alpha$，$beta$ 的四个命题：
+给出下列关于互不相同的直线 #mi(`m`)，#mi(`l`)，#mi(`n`) 和平面 #mi(`\alpha`)，#mi(`\beta`) 的四个命题：
 
-\begin{circlelist}
-\item 若 $m subset alpha$，$l inter alpha = A$，$A in.not m$，则 $l$ 与 $m$ 不共面；
-\item 若 $m$，$l$ 是异面直线，$l parallel alpha$，$m parallel alpha$，且 $n bot l$，$n bot m$，则 $n bot alpha$；
-\item 若 $l parallel alpha$，$m parallel beta$，$alpha parallel beta$，则 $l parallel m$；
-\item 若 $l subset alpha$，$m subset alpha$，$l inter m = A$，$l parallel beta$，$m parallel beta$，则 $alpha parallel beta$.
-\end{circlelist}
+
++ (1) 若 #mi(`m \subset \alpha`)，#mi(`l \cap \alpha = A`)，#mi(`A \notin m`)，则 #mi(`l`) 与 #mi(`m`) 不共面；
++ (2) 若 #mi(`m`)，#mi(`l`) 是异面直线，#mi(`l \parallel \alpha`)，#mi(`m \parallel \alpha`)，且 #mi(`n \perp l`)，#mi(`n \perp m`)，则 #mi(`n \perp \alpha`)；
++ (3) 若 #mi(`l \parallel \alpha`)，#mi(`m \parallel \beta`)，#mi(`\alpha \parallel \beta`)，则 #mi(`l \parallel m`)；
++ (4) 若 #mi(`l \subset \alpha`)，#mi(`m \subset \alpha`)，#mi(`l \cap m = A`)，#mi(`l \parallel \beta`)，#mi(`m \parallel \beta`)，则 #mi(`\alpha \parallel \beta`).
+
+
+
 其中为假命题的是（ ）
-  #choices(["①"], ["②"], ["③"], ["④"], cols: 4)
+  #choices([①], [②], [③], [④], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-对于第一条命题，若 $l$ 与 $m$ 共面，设它们所在的平面为 $gamma$. 由于 $m subset alpha$，且 $l inter alpha =A$，所以 $A in gamma inter alpha$，又 $A in.not m$. 平面 $alpha$ 中的直线 $m$ 与不在 $m$ 上的点 $A$ 唯一确定平面 $alpha$，从而 $gamma = alpha$，这将导致 $l subset alpha$，与 $l inter alpha =A$ 矛盾. 因此第一条命题正确.
+对于第一条命题，若 #mi(`l`) 与 #mi(`m`) 共面，设它们所在的平面为 #mi(`\gamma`). 由于 #mi(`m\subset\alpha`)，且 #mi(`l\cap\alpha=A`)，所以 #mi(`A\in\gamma\cap\alpha`)，又 #mi(`A\notin m`). 平面 #mi(`\alpha`) 中的直线 #mi(`m`) 与不在 #mi(`m`) 上的点 #mi(`A`) 唯一确定平面 #mi(`\alpha`)，从而 #mi(`\gamma=\alpha`)，这将导致 #mi(`l\subset\alpha`)，与 #mi(`l\cap\alpha=A`) 矛盾. 因此第一条命题正确.
 
-对于第二条命题，异面直线 $l$，$m$ 的方向不共线，且它们都平行于平面 $alpha$. 直线 $n$ 同时垂直于 $l$ 和 $m$，所以 $n$ 的方向垂直于平面 $alpha$ 内两个不共线的方向，故 $n bot alpha$，第二条命题正确.
+对于第二条命题，异面直线 #mi(`l`)，#mi(`m`) 的方向不共线，且它们都平行于平面 #mi(`\alpha`). 直线 #mi(`n`) 同时垂直于 #mi(`l`) 和 #mi(`m`)，所以 #mi(`n`) 的方向垂直于平面 #mi(`\alpha`) 内两个不共线的方向，故 #mi(`n\perp\alpha`)，第二条命题正确.
 
-第三条命题不成立. 例如取两个互相平行的水平面 $alpha$，$beta$，在平行于它们的方向中分别取互相垂直的直线 $l$，$m$，则 $l parallel alpha$，$m parallel beta$，但 $l$ 与 $m$ 不平行. 因此第三条命题是假命题.
+第三条命题不成立. 例如取两个互相平行的水平面 #mi(`\alpha`)，#mi(`\beta`)，在平行于它们的方向中分别取互相垂直的直线 #mi(`l`)，#mi(`m`)，则 #mi(`l\parallel\alpha`)，#mi(`m\parallel\beta`)，但 #mi(`l`) 与 #mi(`m`) 不平行. 因此第三条命题是假命题.
 
-对于第四条命题，直线 $l$，$m$ 在平面 $alpha$ 内相交，且两条直线都平行于平面 $beta$. 平面 $alpha$ 由这两条相交直线确定，它的两个相交方向都平行于平面 $beta$，所以 $alpha parallel beta$，第四条命题正确. 故选 C.
+对于第四条命题，直线 #mi(`l`)，#mi(`m`) 在平面 #mi(`\alpha`) 内相交，且两条直线都平行于平面 #mi(`\beta`). 平面 #mi(`\alpha`) 由这两条相交直线确定，它的两个相交方向都平行于平面 #mi(`\beta`)，所以 #mi(`\alpha\parallel\beta`)，第四条命题正确. 故选 C.
 ]
 
 #problem(8)[
-先后抛掷两枚均匀的正方体骰子（它们的六个面分别标有点数 $1$，$2$，$3$，$4$，$5$，$6$），骰子朝上的面的点数分别为 $X$，$Y$，则 $log _(2 X)Y = 1$ 的概率为（ ）
-  #choices([$(1)/(6)$], [$(5)/(36)$], [$(1)/(12)$], [$(1)/(2)$], cols: 4)
+先后抛掷两枚均匀的正方体骰子（它们的六个面分别标有点数 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`)，#mi(`6`)），骰子朝上的面的点数分别为 #mi(`X`)，#mi(`Y`)，则 #mi(`\log_{2X}Y = 1`) 的概率为（ ）
+  #choices([#mi(`\frac{1}{6}`)], [#mi(`\frac{5}{36}`)], [#mi(`\frac{1}{12}`)], [#mi(`\frac{1}{2}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-两枚骰子的结果 $(X,Y)$ 共有 $6 times 6 =36$ 个，且等可能. 因为 $X in \{1,2,3,4,5,6\}$，所以 $2 X>1$，对数底数均符合要求. 由 $log _(2 X)Y=1$，得 $Y=2 X$. 在 $1 <= Y <= 6$ 的限制下，只有 $X=1$，$2$，$3$ 可行，对应结果为 $(1,2)$，$(2,4)$，$(3,6)$，共有 $3$ 个. 因此所求概率为 $(3)/(36)=(1)/(12)$，故选 C.
+两枚骰子的结果 #mi(`(X,Y)`) 共有 #mi(`6\times6=36`) 个，且等可能. 因为 #mi(`X\in\{1,2,3,4,5,6\}`)，所以 #mi(`2X>1`)，对数底数均符合要求. 由 #mi(`\log_{2X}Y=1`)，得 #mi(`Y=2X`). 在 #mi(`1\le Y\leqslant6`) 的限制下，只有 #mi(`X=1`)，#mi(`2`)，#mi(`3`) 可行，对应结果为 #mi(`(1,2)`)，#mi(`(2,4)`)，#mi(`(3,6)`)，共有 #mi(`3`) 个. 因此所求概率为 #mi(`\frac{3}{36}=\frac{1}{12}`)，故选 C.
 ]
 
 #problem(9)[
-在同一平面直角坐标系中，函数 $y = f(x)$ 和 $y = g(x)$ 的图象关于直线 $y = x$ 对称. 现将 $y = g(x)$ 的图象沿 $x$ 轴向左平移 2 个单位，再沿 $y$ 轴向上平移 1 个单位，所得的图象是由两条线段组成的折线（如图所示），则函数 $f(x)$ 的表达式为（ ）
+在同一平面直角坐标系中，函数 #mi(`y = f(x)`) 和 #mi(`y = g(x)`) 的图象关于直线 #mi(`y = x`) 对称. 现将 #mi(`y = g(x)`) 的图象沿 #mi(`x`) 轴向左平移 2 个单位，再沿 #mi(`y`) 轴向上平移 1 个单位，所得的图象是由两条线段组成的折线（如图所示），则函数 #mi(`f(x)`) 的表达式为（ ）
 
 
-#align(center)[#image("/papers/2005/img/guangdong/q9_fig1.png", width: 38%)]
+#align(center)[#image("/papers/2005/img/guangdong/q9_fig1.png", width: 28%)]
 
 
-2x - 2, & -1\leqslant x\leqslant 0,\\
-\frac{x}{2} -2, & 0 < x\leqslant 2.
-\end{cases}\)}
-    {$f(x) = \b e g i n{c a s e s} 2 x - 2, & 1 <= x <= 2 ,\\ (x)/(2)+1, & 2 < x <= 4 . \e n d{c a s e s}$}
-    {$f(x) = \b e g i n{c a s e s} 2 x - 6, & 1 <= x <= 2 ,\\ (x)/(2)-3, & 2 < x <= 4 . \e n d{c a s e s}$}
-  #choices([\(f(x) = \begin{cases], [x}{2], [cases}\)], [\(f(x) = \begin{cases], cols: 2)
+\endcases\)}
+
+#mi(`f(x) = \begin{cases}2x - 2,&-1\le x\le 0,\\  \frac{x}{2}-2,&0 < x\le 2.\end{cases}`)
+
+#mi(`f(x) = \begin{cases}2x - 2,&1\le x\le 2,\\  \frac{x}{2}+1,&2 < x\le 4.\end{cases}`)
+
+#mi(`f(x) = \begin{cases}2x - 6,&1\le x\le 2,\\  \frac{x}{2}-3,&2 < x\le 4.\end{cases}`)
 ]
 
 #answer([A])
 
 #solution[
-记平移后的函数为 $h$. 由图可读出，平移后的折线经过 $(-2,0)$，$(0,1)$，$(1,3)$，所以
+记平移后的函数为 #mi(`h`). 由图可读出，平移后的折线经过 #mi(`(-2,0)`)，#mi(`(0,1)`)，#mi(`(1,3)`)，所以
 
-$ h(x)= \b e g i n{c a s e s} (x)/(2)+1,&-2 <= x <= 0 ,\\ 2 x+1,&0<x <= 1 \e n d{c a s e s} $
 
-平移关系为 $h(x)=g(x+2)+1$，故
+#align(center)[#mitex(`
+h(x)=  \begin{cases}\frac{x}{2}+1,&-2\le x\leqslant0,\\  2x+1,&0<x\leqslant1\end{cases}
+`)]
 
-$ g(x)=h(x-2)-1= \b e g i n{c a s e s} (x)/(2)-1,&0 <= x <= 2 ,\\ 2 x-4,&2<x <= 3 \e n d{c a s e s} $
 
-两图象关于 $y=x$ 对称，所以 $f$ 是 $g$ 的反函数. 对第一段 $y=(x)/(2)-1$ 解得 $x=2 y+2$，其值域为 $[-1,0]$；对第二段 $y=2 x-4$ 解得 $x=(y)/(2)+2$，其值域为 $(0,2]$. 将反函数的自变量仍记为 $x$，得到
+平移关系为 #mi(`h(x)=g(x+2)+1`)，故
 
-$ f(x)= \b e g i n{c a s e s} 2 x+2,&-1 <= x <= 0 ,\\ (x)/(2)+2,&0<x <= 2 \e n d{c a s e s} $
+
+#align(center)[#mitex(`
+g(x)=h(x-2)-1=  \begin{cases}\frac{x}{2}-1,&0\le x\leqslant2,\\  2x-4,&2<x\leqslant3\end{cases}
+`)]
+
+
+两图象关于 #mi(`y=x`) 对称，所以 #mi(`f`) 是 #mi(`g`) 的反函数. 对第一段 #mi(`y=\frac{x}{2}-1`) 解得 #mi(`x=2y+2`)，其值域为 #mi(`[-1,0]`)；对第二段 #mi(`y=2x-4`) 解得 #mi(`x=\frac{y}{2}+2`)，其值域为 #mi(`(0,2]`). 将反函数的自变量仍记为 #mi(`x`)，得到
+
+
+#align(center)[#mitex(`
+f(x)=  \begin{cases}2x+2,&-1\le x\leqslant0,\\  \frac{x}{2}+2,&0<x\leqslant2\end{cases}
+`)]
+
 
 故选 A.
 ]
 
 #problem(10)[
-已知数列 $\{x_(n)\}$ 满足 $x_(2) = (x_(1))/(2)$，$x_(n) = (1)/(2)(x_(n - 1) + x_(n - 2))$，$n = 3$，$4$，$...$. 若 $lim_(n -> oo ) x_(n) = 2$，则 $x_(1) =$（ ）
-  #choices([$(3)/(2)$], [$3$], [$4$], [$5$], cols: 4)
+已知数列 #mi(`\{x_{n}\}`) 满足 #mi(`x_{2}= \frac{x_{1}}{2}`)，#mi(`x_{n}= \frac{1}{2}(x_{n - 1}+ x_{n - 2})`)，#mi(`n = 3`)，#mi(`4`)，#mi(`\dots`). 若 #mi(`\displaystyle\lim_{n \to \infty}x_{n}= 2`)，则 #mi(`x_{1}=`)（ ）
+  #choices([#mi(`\frac{3}{2}`)], [#mi(`3`)], [#mi(`4`)], [#mi(`5`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-将递推式写为 $2 x_n-x_(n-1)-x_(n-2)=0$，其特征方程为 $2 r^2-r-1=0$，即 $(2 r+1)(r-1)=0$. 因此数列的一般项可写为 $x_n=A+B(-(1)/(2))^(n-1)$，其中 $A$，$B$ 为常数. 由 $x_2=(x_1)/(2)$ 得 $A-(B)/(2)=(A+B)/(2)$，从而 $A=2 B$. 又因为 $(-(1)/(2))^(n-1) -> 0$，所以 $lim_(n -> oo )x_n=A=2$，进而 $B=1$. 于是 $x_1=A+B=3$，故选 B.
+将递推式写为 #mi(`2x_{n}-x_{n-1}-x_{n-2}=0`)，其特征方程为 #mi(`2r^{2}-r-1=0`)，即 #mi(`(2r+1)(r-1)=0`). 因此数列的一般项可写为 #mi(`x_{n}=A+B\left(-\frac{1}{2}\right)^{n-1}`)，其中 #mi(`A`)，#mi(`B`) 为常数. 由 #mi(`x_{2}=\frac{x_{1}}{2}`) 得 #mi(`A-\frac{B}{2}=\frac{A+B}{2}`)，从而 #mi(`A=2B`). 又因为 #mi(`\left(-\frac{1}{2}\right)^{n-1}\to0`)，所以 #mi(`\lim_{n\to\infty}x_{n}=A=2`)，进而 #mi(`B=1`). 于是 #mi(`x_{1}=A+B=3`)，故选 B.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-函数 $f(x)=(1)/(sqrt(1- e ""^x))$ 的定义域是#blank(){}.
+函数 #mi(`f(x)=\frac{1}{\sqrt{1-\mathrm{e}^{x}}}`) 的定义域是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(- oo ,0)$])
+#answer([#mi(`(- \infty,0)`)])
 
 #solution[
-由于根式在分母中，必须满足 $1- e ""^x>0$，不能取等号. 于是 $e ""^x<1= e ""^0$，由指数函数的单调性得 $x<0$. 因此定义域为 $(- oo ,0)$.
+由于根式在分母中，必须满足 #mi(`1-\mathrm{e}^{x}>0`)，不能取等号. 于是 #mi(`\mathrm{e}^{x}<1=\mathrm{e}^{0}`)，由指数函数的单调性得 #mi(`x<0`). 因此定义域为 #mi(`(-\infty,0)`).
 ]
 
 #problem(12)[
-已知向量 $bold(a)= (2,3)$，$bold(b)= (x,6)$，且 $bold(a) parallel bold(b)$，则 $x =\f i l l i n b l a n k{}$.
+已知向量 #mi(`\mathbf{a}= (2,3)`)，#mi(`\mathbf{b}= (x,6)`)，且 #mi(`\mathbf{a}\parallel \mathbf{b}`)，则 #mi(`x =\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([4])
@@ -184,242 +204,129 @@ $ f(x)= \b e g i n{c a s e s} 2 x+2,&-1 <= x <= 0 ,\\ (x)/(2)+2,&0<x <= 2 \e n d
 #solution[
 两向量平行时对应坐标的行列式为零，因此
 
-$ \b e g i n{v m a t r i x}2&3\\x&6\e n d{v m a t r i x}=2 times 6 -3 x=0 $
 
-解得 $x=4$.
+#align(center)[#mitex(`
+\begin{vmatrix}2&3\\x&6\end{vmatrix}=2\times6-3x=0
+`)]
+
+
+解得 #mi(`x=4`).
 ]
 
 #problem(13)[
-已知 $(x cos theta + 1)^5$ 的展开式中 $x^2$ 的系数与 $(x + (5)/(4))^4$ 的展开式中 $x^3$ 的系数相等，则 $cos theta =\f i l l i n b l a n k{}$.
+已知 #mi(`(x\cos \theta + 1)^{5}`) 的展开式中 #mi(`x^{2}`) 的系数与 #mi(`\left(x + \frac{5}{4}\right)^{4}`) 的展开式中 #mi(`x^{3}`) 的系数相等，则 #mi(`\cos \theta =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$+- (sqrt(2))/(2)$])
+#answer([#mi(`\pm\frac{\sqrt{2}}{2}`)])
 
 #solution[
-在 $(x cos theta +1)^5$ 中，$x^2$ 项由五个因式中选出两个 $x cos theta$ 相乘得到，其系数为 $C_5^2 cos ""^2 theta =10 cos ""^2 theta$. 在 $(x+(5)/(4))^4$ 中，$x^3$ 项由三个 $x$ 和一个常数项相乘得到，其系数为 $C_4^3 dot (5)/(4)=5$. 由题意 $10 cos ""^2 theta =5$，得 $cos ""^2 theta =(1)/(2)$，所以 $cos theta = +- (sqrt(2))/(2)$.
+在 #mi(`(x\cos\theta+1)^{5}`) 中，#mi(`x^{2}`) 项由五个因式中选出两个 #mi(`x\cos\theta`) 相乘得到，其系数为 #mi(`\mathrm{C}_{5}^{2}\cos^{2}\theta=10\cos^{2}\theta`). 在 #mi(`\left(x+\frac{5}{4}\right)^{4}`) 中，#mi(`x^{3}`) 项由三个 #mi(`x`) 和一个常数项相乘得到，其系数为 #mi(`\mathrm{C}_{4}^{3}\cdot\frac{5}{4}=5`). 由题意 #mi(`10\cos^{2}\theta=5`)，得 #mi(`\cos^{2}\theta=\frac{1}{2}`)，所以 #mi(`\cos\theta=\pm\frac{\sqrt{2}}{2}`).
 ]
 
 #problem(14)[
-设平面内有 $n$ 条直线（$n >= 3$），其中有且仅有两条直线互相平行，任意三条直线不过同一点. 若用 $f(n)$ 表示这 $n$ 条直线交点的个数，则 $f(4)=$#blank(){}；当 $n>4$ 时，$f(n)=$#blank(){}（用 $n$ 表示）.
+设平面内有 #mi(`n`) 条直线（#mi(`n \ge 3`)），其中有且仅有两条直线互相平行，任意三条直线不过同一点. 若用 #mi(`f(n)`) 表示这 #mi(`n`) 条直线交点的个数，则 #mi(`f(4)=`)\underline{\hspace{2.5em}}；当 #mi(`n>4`) 时，#mi(`f(n)=`)\underline{\hspace{2.5em}}（用 #mi(`n`) 表示）.
 ]
 
-#answer([5；$(n(n-1))/(2)-1$])
+#answer([5；#mi(`\frac{n(n-1)}{2}-1`)])
 
 #solution[
-任取两条不平行的直线，它们有且只有一个交点；又因为任意三条直线不过同一点，所以不同直线对产生的交点彼此不同. 总的直线对数为 $C_n^2=(n(n-1))/(2)$，其中恰有一对平行直线不产生交点，因此 $f(n)=C_n^2-1=(n(n-1))/(2)-1$. 对 $n=4$ 代入得 $f(4)=(4 times 3)/(2)-1=5$.
+任取两条不平行的直线，它们有且只有一个交点；又因为任意三条直线不过同一点，所以不同直线对产生的交点彼此不同. 总的直线对数为 #mi(`\mathrm{C}_{n}^{2}=\frac{n(n-1)}{2}`)，其中恰有一对平行直线不产生交点，因此 #mi(`f(n)=\mathrm{C}_{n}^{2}-1=\frac{n(n-1)}{2}-1`). 对 #mi(`n=4`) 代入得 #mi(`f(4)=\frac{4\times3}{2}-1=5`).
 ]
 
 #part-header("解答题")
 
 #problem(15)[
-化简 $f(x) = cos ( (6 k + 1)/(3) pi + 2 x ) + cos ( (6 k - 1)/(3) pi - 2 x ) + 2 sqrt(3) sin ( (pi)/(3)+ 2 x )$（$x in RR$，$k in ZZ$），并求函数 $f(x)$ 的值域和最小正周期.
+化简 #mi(`f(x) = \cos\left( \frac{6k + 1}{3}\pi + 2x \right) + \cos\left( \frac{6k - 1}{3}\pi - 2x \right) + 2\sqrt{3}\sin\left( \frac{\pi}{3}+ 2x \right)`)（#mi(`x \in \mathbb{R}`)，#mi(`k \in \mathbb{Z}`)），并求函数 #mi(`f(x)`) 的值域和最小正周期.
 ]
 
 #solution[
-因为 $k in ZZ$，所以
-$cos ((6 k+1)/(3) pi +2 x)= cos ((pi)/(3)+2 x)$，
-$cos ((6 k-1)/(3) pi -2 x)= cos ((pi)/(3)+2 x)$.
+因为 #mi(`k \in \mathbb{Z}`)，所以
+
+#mi(`\cos\left(\frac{6k+1}{3}\pi+2x\right)=\cos\left(\frac{\pi}{3}+2x\right)`)，
+
+#mi(`\cos\left(\frac{6k-1}{3}\pi-2x\right)=\cos\left(\frac{\pi}{3}+2x\right)`).
+
 于是
 
-$ f(x)=2 cos ((pi)/(3)+2 x)+2 sqrt(3) sin ((pi)/(3)+2 x) =4 sin ((pi)/(2)+2 x)=4 cos 2 x $
 
-因此 $f(x)$ 的值域为 $[-4,4]$，最小正周期为 $pi$.
+#align(center)[#mitex(`
+f(x)=2\cos\left(\frac{\pi}{3}+2x\right)+2\sqrt{3}\sin\left(\frac{\pi}{3}+2x\right)  =4\sin\left(\frac{\pi}{2}+2x\right)=4\cos 2x
+`)]
+
+
+因此 #mi(`f(x)`) 的值域为 #mi(`[-4,4]`)，最小正周期为 #mi(`\pi`).
 ]
 
 #problem(16)[
-如图所示，在四面体 $P-A B C$ 中，已知 $P A = B C = 6$，$P C = A B = 10$，$A C = 8$，$P B = 2 sqrt(34)$. $F$ 是线段 $P B$ 上一点，$C F = (15)/(17)sqrt(34)$，点 $E$ 在线段 $A B$ 上，且 $E F bot P B$.
+如图所示，在四面体 #mi(`P-ABC`) 中，已知 #mi(`PA = BC = 6`)，#mi(`PC = AB = 10`)，#mi(`AC = 8`)，#mi(`PB = 2\sqrt{34}`). #mi(`F`) 是线段 #mi(`PB`) 上一点，#mi(`CF = \frac{15}{17}\sqrt{34}`)，点 #mi(`E`) 在线段 #mi(`AB`) 上，且 #mi(`EF \perp PB`).
 
 
-+ (1) 证明：$P B bot$ 平面 $C E F$；
-+ (2) 求二面角 $B-C E-F$ 的大小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2005/img/guangdong/q16_fig1.png", width: 36%)]
+
+#align(center)[#image("/papers/2005/img/guangdong/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 建立空间直角坐标系，使 $B$ 为原点，$x$ 轴正向为 $arrow(B P)$，且 $A$ 在 $x O y$ 平面内，于是 $P=(2 sqrt(34),0,0)$. 由
-
-$ P A^2+A B^2=6^2+10^2=136=P B^2 $
-
-知 $triangle P A B$ 在 $A$ 处为直角三角形. 因此由投影关系，$x_A=(P B^2+A B^2-P A^2)/(2 P B)=(50)/(sqrt(34))$，$y_A=sqrt(A B^2-x_A^2)=(15 sqrt(34))/(17)$.
-取 $A$ 在 $x O y$ 平面的正侧，则
-
-$ A=((50)/(sqrt(34)),(15 sqrt(34))/(17),0) $
-
-同理，
-
-$ x_C=(P B^2+B C^2-P C^2)/(2 P B)=(18)/(sqrt(34)) $
-
-又由 $A B^2+B C^2-A C^2=2 arrow(B A)\c d o t a r r o w(B C)$，得
-
-$ arrow(B A)\c d o t a r r o w(B C)=(10^2+6^2-8^2)/(2)=36 $
-
-令 $C=(x_C,y_C,z_C)$，则
-
-$ y_C=(36-x_(A) x_C)/(y_A)=(36-(50)/(sqrt(34))(18)/(sqrt(34)))/((15 sqrt(34))/(17))=(27 sqrt(34))/(85) $
-
-并且
-
-$ z_C=sqrt(B C^2-x_C^2-y_C^2)=sqrt(36-((18)/(sqrt(34)))^2-((27 sqrt(34))/(85))^2)=(24)/(5) $
-
-取 $C$ 在 $x O y$ 平面的正侧，可得
-
-$ C=((18)/(sqrt(34)),(27 sqrt(34))/(85),(24)/(5)) $
-
-
-设 $E= lambda A$，其中 $0 <= lambda <= 1$. 因为 $E in A B$，$F in P B$，且 $E F bot P B$，所以
-$E=( lambda (50)/(sqrt(34)), lambda (15 sqrt(34))/(17),0)$，$F=( lambda (50)/(sqrt(34)),0,0)$.
-由 $C F=(15)/(17)sqrt(34)$，有
-
-$ (450)/(17)=36-2 lambda (18)/(sqrt(34))(50)/(sqrt(34))+ lambda ""^2((50)/(sqrt(34)))^2 $
-
-即
-
-$ 1250 lambda ""^2-900 lambda +162=2(25 lambda -9)^2=0 $
-
-故 $lambda =(9)/(25)$，从而
-
-$ x_F=(9)/(25) dot (50)/(sqrt(34))=(18)/(sqrt(34))=x_C $
-
-所以 $C F bot P B$. 又已知 $E F bot P B$，而 $C F$、$E F$ 是平面 $C E F$ 内相交的两条直线，故
-
-$ P B bot "平面 "C E F $
-+ (2) 由 $lambda =(9)/(25)$，
-$E=((18)/(sqrt(34)),(27 sqrt(34))/(85),0)$，$F=((18)/(sqrt(34)),0,0)$.
-直线 $C E$ 平行于 $z$ 轴，因此 $B E bot C E$，$E F bot C E$. 设二面角 $B-C E-F$ 为 $theta$，则其平面角为 $angle B E F$，于是
-
-$ cos theta =(E F)/(B E)=((27 sqrt(34))/(85))/(sqrt(((18)/(sqrt(34)))^2+((27 sqrt(34))/(85))^2))=((27 sqrt(34))/(85))/((306)/(85))=(3)/(sqrt(34)) $
-
-所以二面角 $B-C E-F$ 的大小为 $arccos (3)/(sqrt(34))$.
++ (1)
 ]
 
 #problem(17)[
-在平面直角坐标系 $x O y$ 中，抛物线 $y = x^2$ 上异于坐标原点 $O$ 的两不同动点 $A$，$B$ 满足 $A O bot B O$（如图所示）.
+在平面直角坐标系 #mi(`xOy`) 中，抛物线 #mi(`y = x^{2}`) 上异于坐标原点 #mi(`O`) 的两不同动点 #mi(`A`)，#mi(`B`) 满足 #mi(`AO \perp BO`)（如图所示）.
 
 
-+ (1) 求 $triangle A O B$ 的重心 $G$（即三角形三条中线的交点）的轨迹方程；
-+ (2) $triangle A O B$ 的面积是否存在最小值？若存在，请求出最小值；若不存在，请说明理由.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2005/img/guangdong/q17_fig1.png", width: 34%)]
+
+#align(center)[#image("/papers/2005/img/guangdong/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设 $A=(a,a^2)$，$B=(b,b^2)$. 因为 $A$，$B$ 异于 $O$，所以 $a != 0$，$b != 0$. 由 $A O bot B O$，得
-
-$ (a,a^2) dot (b,b^2)=a b+a^(2) b^2=a b(1+a b)=0 $
-
-因此 $a b=-1$，即 $b=-(1)/(a)$.
-
-设三角形 $A O B$ 的重心为 $G=(u,v)$，则
-$3 u=a+b=a-(1)/(a)$. 另外，
-
-$ 3 v=a^2+b^2=a^2+(1)/(a^2)=(a-(1)/(a))^2+2=9 u^2+2 $
-
-所以重心 $G$ 的轨迹方程为
-
-$ v=3 u^2+(2)/(3) $
-
-又因为方程 $a-(1)/(a)=3 u$ 对任意 $u in RR$ 都有非零实根 $a$，故轨迹中的 $u$ 可以取遍 $RR$. 将坐标变量仍记为 $x$，$y$，轨迹方程为
-
-$ y=3 x^2+(2)/(3) $
-+ (2) 三角形 $A O B$ 的面积为
-
-$ S_( triangle A O B)=(1)/(2)|\det\b e g i n{p m a t r i x}a&a^2\\b&b^2\e n d{p m a t r i x}| =(1)/(2)|a b^2-a^(2) b| =(1)/(2)|a b(b-a)| =(1)/(2)|a-b| =(1)/(2)|a+(1)/(a)| $
-
-由
-
-$ (a+(1)/(a))^2=a^2+2+(1)/(a^2) >= 4 $
-
-得 $S_( triangle A O B) >= 1$. 当 $a^2=1$ 时等号成立，此时 $b=-(1)/(a)$，且 $A$、$B$ 确为两不同点. 因此面积存在最小值，最小值为 $1$.
++ (1)
 ]
 
 #problem(18)[
-箱中装有大小相同的黄，白两种颜色的乒乓球，黄，白乒乓球的数量比为 $s:t$. 现从箱中每次任意取出一个球，若取出的是黄球则结束，若取出的是白球，则将其放回箱中，并继续从箱中任意取出一个球，但取球的次数最多不超过 $n$ 次，以 $xi$ 表示取球结束时已取到白球的次数.
+箱中装有大小相同的黄，白两种颜色的乒乓球，黄，白乒乓球的数量比为 #mi(`s:t`). 现从箱中每次任意取出一个球，若取出的是黄球则结束，若取出的是白球，则将其放回箱中，并继续从箱中任意取出一个球，但取球的次数最多不超过 #mi(`n`) 次，以 #mi(`\xi`) 表示取球结束时已取到白球的次数.
 
-+ (1) 求 $xi$ 的分布列；
-+ (2) 求 $xi$ 的数学期望.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设
-$p=P("取到黄球")=(s)/(s+t)$，$q=P("取到白球")=(t)/(s+t)$.
-每次取到白球后都放回，因此各次取球相互独立. 若 $0 <= k <= n-1$，则 $xi =k$ 表示前 $k$ 次取到白球，第 $k+1$ 次取到黄球；若 $xi =n$，则表示前 $n$ 次全部取到白球. 因此
-
-$ P( xi =k)= \b e g i n{c a s e s} q^(k) p=((t)/(s+t))^k(s)/(s+t),&0 <= k <= n-1,\\ q^n=((t)/(s+t))^n,&k=n \e n d{c a s e s} $
-+ (2) 对取值为非负整数的随机变量使用尾和公式. 对 $1 <= j <= n$，事件 $\{ xi >= j\}$ 等价于前 $j$ 次都取到白球，所以
-
-$ E( xi )=sum_(j=1)^(n)P( xi >= j)=sum_(j=1)^(n)q^j =(q(1-q^n))/(1-q)=(t)/(s)(1-((t)/(s+t))^n) $
++ (1)
 ]
 
 #problem(19)[
-设函数 $f(x)$ 在 $(- oo , + oo )$ 上满足 $f(2 - x) = f(2 + x)$，$f(7 - x) = f(7 + x)$，且在闭区间 $[0,7]$ 上，只有 $f(1) = f(3) = 0$.
+设函数 #mi(`f(x)`) 在 #mi(`(-\infty, +\infty)`) 上满足 #mi(`f(2 - x) = f(2 + x)`)，#mi(`f(7 - x) = f(7 + x)`)，且在闭区间 #mi(`[0,7]`) 上，只有 #mi(`f(1) = f(3) = 0`).
 
-+ (1) 试判断函数 $y = f(x)$ 的奇偶性；
-+ (2) 试求方程 $f(x) = 0$ 在闭区间 $[-2005, 2005]$ 上的根的个数，并证明你的结论.
+
++ (1)
 ]
 
 #solution[
-+ (1) 将题设中的两个对称关系分别改写为
-$f(x)=f(4-x)$，$f(x)=f(14-x)$.
-于是
-
-$ f(x)=f(4-x)=f(14-(4-x))=f(x+10) $
-
-所以 $10$ 是函数 $f(x)$ 的一个周期.
-
-若 $f(x)$ 是偶函数，则由 $f(1)=0$ 得 $f(-1)=0$. 利用周期性，$f(9)=f(-1)=0$，再由关于 $x=7$ 对称的关系得 $f(5)=f(9)=0$，这与 $[0,7]$ 上只有 $1$，$3$ 是零点矛盾. 因此 $f(x)$ 不是偶函数.
-
-若 $f(x)$ 是奇函数，则 $f(0)=0$，从而 $f(10)=0$. 再由关于 $x=7$ 对称的关系得 $f(4)=f(10)=0$，同样与题设矛盾. 因此 $f(x)$ 不是奇函数. 故 $f(x)$ 既不是奇函数，也不是偶函数.
-+ (2) 在区间 $[7,10]$ 上，若 $x$ 是零点，则 $14-x in [4,7]$，且 $f(x)=f(14-x)$. 由题设，$[4,7]$ 内没有零点，所以 $[0,10)$ 内的零点恰为 $1$，$3$. 结合周期性，方程 $f(x)=0$ 的全部实根为
-$x=10 k+1 "或"x=10 k+3$，$k in ZZ$
-在 $[-2005,2005]$ 内，
-$-2005 <= 10 k+1 <= 2005$，$\L o n g r i g h t a r r o w$，$-200 <= k <= 200$
-以及
-$-2005 <= 10 k+3 <= 2005$，$\L o n g r i g h t a r r o w$，$-200 <= k <= 200$.
-两类根不可能相等，因为 $10 k+1=10 l+3$ 将推出 $10(k-l)=2$. 每类根各有 $401$ 个，所以根的个数为 $401+401=802$.
++ (1)
 ]
 
 #problem(20)[
-在平面直角坐标系中，已知矩形 $A B C D$ 的长为 $2$，宽为 $1$，$A B$，$A D$ 边分别在 $x$ 轴，$y$ 轴的正半轴上，$A$ 点与坐标原点重合（如图所示）. 将矩形折叠，使 $A$ 点落在线段 $D C$ 上.
+在平面直角坐标系中，已知矩形 #mi(`ABCD`) 的长为 #mi(`2`)，宽为 #mi(`1`)，#mi(`AB`)，#mi(`AD`) 边分别在 #mi(`x`) 轴，#mi(`y`) 轴的正半轴上，#mi(`A`) 点与坐标原点重合（如图所示）. 将矩形折叠，使 #mi(`A`) 点落在线段 #mi(`DC`) 上.
 
 
-+ (1) 若折痕所在直线的斜率为 $k$，试写出折痕所在直线的方程；
-+ (2) 求折痕的长的最大值.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2005/img/guangdong/q20_fig1.png", width: 34%)]
+
+#align(center)[#image("/papers/2005/img/guangdong/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设折叠后 $A$ 落在线段 $D C$ 上的点为 $A'=(r,1)$，其中 $0 <= r <= 2$. 折痕是线段 $A A'$ 的垂直平分线，因此折痕的斜率为 $-r$. 若折痕斜率为 $k$，则 $r=-k$，从而
-$-2 <= k <= 0$.
-折痕经过 $A A'$ 的中点 $(-(k)/(2),(1)/(2))$，故其方程为
-$y-(1)/(2)=k(x+(k)/(2))$，即 $y=k x+(1+k^2)/(2)$.
-+ (2) 令 $t=-k$，则 $0 <= t <= 2$，折痕方程为
-$y=-t x+(1+t^2)/(2)$.
-记折痕在矩形内的长度为 $L(t)$. 当 $0 <= t <= 2 -sqrt(3)$ 时，折痕与两条竖边相交；当 $2-sqrt(3) <= t <= 1$ 时，折痕与左边和下边相交；当 $1 <= t <= 2$ 时，折痕与上边和下边相交. 因此
-当 $t>0$ 时，由 $y=0$ 得 $x_0=(1+t^2)/(2 t)$，由 $y=1$ 得 $x_1=(t^2-1)/(2 t)$，并且 $y(0)=(1+t^2)/(2)$. 当 $t=0$ 时，折痕为 $y=(1)/(2)$，直接归入第一种情形.
-其中 $x_0=2$ 的有效解为 $t=2-sqrt(3)$，$y(0)=1$ 的有效解为 $t=1$，这正是上述三种交点情形的分界.
-
-$ L(t)= \b e g i n{c a s e s} 2 sqrt(1+t^2),&0 <= t <= 2 -sqrt(3),\\ ((1+t^2)^((3)/(2)))/(2 t),&2-sqrt(3) <= t <= 1 ,\\ (sqrt(1+t^2))/(t),&1 <= t <= 2 \e n d{c a s e s} $
-
-第一段在区间上递增，第三段递减；第二段的导数为
-
-$ L'(t)=(sqrt(1+t^2)(2 t^2-1))/(2 t^2) $
-
-所以第二段在两个端点处取得最大值. 比较端点值，
-
-$ L(2-sqrt(3))=4 sqrt(2-sqrt(3))>sqrt(2)=L(1) $
-
-故折痕长的最大值为
-
-$ 4 sqrt(2-sqrt(3))=2 sqrt(6)-2 sqrt(2) $
-
-此时 $t=2-sqrt(3)$，即折痕斜率 $k=sqrt(3)-2$.
++ (1)
 ]
 

@@ -1,5 +1,4 @@
-#import "@preview/mitex:0.2.5": *
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -12,430 +11,412 @@
 #part-header("单选题")
 
 #problem(1)[
-设 $i$ 是虚数单位，则复数 $(1 - i )(1 + 2 i ) =$（ ）
-
+设 #mi(`i`) 是虚数单位，则复数 #mi(`(1 - \mathrm{i})(1 + 2\mathrm{i}) =`)（ ）
 
 C
 
-利用 $i ""^2=-1$，直接展开得
+利用 #mi(`\mathrm{i}^{2}=-1`)，直接展开得
 
-$ (1- i )(1+2 i )=1+2 i - i -2 i ""^2=1+ i +2=3+ i $
+
+#align(center)[#mitex(`
+(1-\mathrm{i})(1+2\mathrm{i})=1+2\mathrm{i}-\mathrm{i}-2\mathrm{i}^{2}=1+\mathrm{i}+2=3+\mathrm{i}
+`)]
+
 
 所以应选 C.
-  #choices([$3 + 3 i$], [$-1 + 3 i$], [$3 + i$], [$-1 + i$], cols: 4)
+  #choices([#mi(`3 + 3\mathrm{i}`)], [#mi(`-1 + 3\mathrm{i}`)], [#mi(`3 + \mathrm{i}`)], [#mi(`-1 + \mathrm{i}`)], cols: 2)
 ]
 
 #problem(2)[
-设全集 $U = \{1, 2, 3, 4, 5, 6\}$，$A = \{1, 2\}$，$B = \{2, 3, 4\}$，则 $A inter (\c o m p l e m e n t_U B) =$（ ）
-
+设全集 #mi(`U = \{1, 2, 3, 4, 5, 6\}`)，#mi(`A = \{1, 2\}`)，#mi(`B = \{2, 3, 4\}`)，则 #mi(`A \cap (\complement_{U} B) =`)（ ）
 
 B
 
-在全集 $U$ 中去掉集合 $B$ 的元素，得到 $\c o m p l e m e n t_U B=\{1,5,6\}$. 因而
+在全集 #mi(`U`) 中去掉集合 #mi(`B`) 的元素，得到 #mi(`\complement_{U} B=\{1,5,6\}`). 因而
 
-$ A inter (\c o m p l e m e n t_U B)=\{1,2\} inter \{1,5,6\}=\{1\} $
+
+#align(center)[#mitex(`
+A\cap(\complement_{U} B)=\{1,2\}\cap\{1,5,6\}=\{1\}
+`)]
+
 
 所以应选 B.
-  #choices([$\{1, 2, 5, 6\}$], [$\{1\}$], [$\{2\}$], [$\{1, 2, 3, 4\}$], cols: 2)
+  #choices([#mi(`\{1, 2, 5, 6\}`)], [#mi(`\{1\}`)], [#mi(`\{2\}`)], [#mi(`\{1, 2, 3, 4\}`)], cols: 2)
 ]
 
 #problem(3)[
-设 $p: x < 3$，$q: -1 < x < 3$，则 $p$ 是 $q$ 成立的（ ）
-
+设 #mi(`p: x < 3`)，#mi(`q: -1 < x < 3`)，则 #mi(`p`) 是 #mi(`q`) 成立的（ ）
 
 C
 
-若 $q$ 成立，则 $-1<x<3$，必有 $p$ 成立，因此 $p$ 是 $q$ 成立的必要条件. 但 $p$ 成立不一定有 $q$ 成立，例如 $x=-2$ 时 $p$ 成立而 $q$ 不成立，所以 $p$ 不是充分条件. 因此 $p$ 是 $q$ 成立的必要不充分条件，应选 C.
+若 #mi(`q`) 成立，则 #mi(`-1<x<3`)，必有 #mi(`p`) 成立，因此 #mi(`p`) 是 #mi(`q`) 成立的必要条件. 但 #mi(`p`) 成立不一定有 #mi(`q`) 成立，例如 #mi(`x=-2`) 时 #mi(`p`) 成立而 #mi(`q`) 不成立，所以 #mi(`p`) 不是充分条件. 因此 #mi(`p`) 是 #mi(`q`) 成立的必要不充分条件，应选 C.
   #choices([充分必要条件], [充分不必要条件], [必要不充分条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #problem(4)[
 下列函数中，既是偶函数又存在零点的是（ ）
 
-
 A
 
-函数 $y= cos x$ 的定义域为 $RR$，且 $cos (-x)= cos x$，所以它是偶函数；又 $cos (pi)/(2)=0$，所以它存在零点. 函数 $y= sin x$ 满足 $sin (-x)=- sin x$，是奇函数；函数 $y= ln x$ 的定义域为 $(0,+ oo )$，不是关于原点对称的集合，不是偶函数；函数 $y=x^2+1$ 虽为偶函数，但对任意实数 $x$ 都有 $x^2+1>0$，没有零点. 所以应选 A.
-  #choices([$y = cos x$], [$y = sin x$], [$y = ln x$], [$y = x^(2) + 1$], cols: 4)
+函数 #mi(`y=\cos x`) 的定义域为 #mi(`\mathbb{R}`)，且 #mi(`\cos(-x)=\cos x`)，所以它是偶函数；又 #mi(`\cos\frac{\pi}{2}=0`)，所以它存在零点. 函数 #mi(`y=\sin x`) 满足 #mi(`\sin(-x)=-\sin x`)，是奇函数；函数 #mi(`y=\ln x`) 的定义域为 #mi(`(0,+\infty)`)，不是关于原点对称的集合，不是偶函数；函数 #mi(`y=x^{2}+1`) 虽为偶函数，但对任意实数 #mi(`x`) 都有 #mi(`x^{2}+1>0`)，没有零点. 所以应选 A.
+  #choices([#mi(`y = \cos x`)], [#mi(`y = \sin x`)], [#mi(`y = \ln x`)], [#mi(`y = x^{2}+ 1`)], cols: 2)
 ]
 
 #problem(5)[
-已知 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} x - y >= 0 ,\\ x + y - 4 <= 0 ,\\ y >= 1 , \e n d{c a s e s}$，则 $z = -2 x + y$ 的最大值是（ ）
+已知 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}x - y \ge 0,\\
 
+x + y - 4 \le 0,\\
+
+y \ge 1,\end{cases}`)，则 #mi(`z = -2x + y`) 的最大值是（ ）
 
 A
 
-由约束条件得 $x >= y$ 且 $y >= 1$. 因为 $z=-2 x+y$，对固定的 $y$，当 $x$ 取允许的最小值时 $z$ 最大；而 $x >= y$，所以
+由约束条件得 #mi(`x\ge y`) 且 #mi(`y\geqslant1`). 因为 #mi(`z=-2x+y`)，对固定的 #mi(`y`)，当 #mi(`x`) 取允许的最小值时 #mi(`z`) 最大；而 #mi(`x\ge y`)，所以
 
-$ z=-2 x+y <= -2 y+y=-y <= -1 $
 
-取 $x=y=1$ 时，三个约束条件分别取值为 $0$、$-2$、$1$，均满足，且 $z=-1$. 因而最大值为 $-1$，应选 A.
-  #choices([$-1$], [$-2$], [$-5$], [1], cols: 4)
+#align(center)[#mitex(`
+z=-2x+y\le-2y+y=-y\le-1
+`)]
+
+
+取 #mi(`x=y=1`) 时，三个约束条件分别取值为 #mi(`0`)、#mi(`-2`)、#mi(`1`)，均满足，且 #mi(`z=-1`). 因而最大值为 #mi(`-1`)，应选 A.
+  #choices([#mi(`-1`)], [#mi(`-2`)], [#mi(`-5`)], [1], cols: 4)
 ]
 
 #problem(6)[
-下列双曲线中，渐近线方程为 $y = +- 2 x$ 的是（ ）
-
+下列双曲线中，渐近线方程为 #mi(`y = \pm 2x`) 的是（ ）
 
 A
 
-双曲线 $(x^2)/(a^2)-(y^2)/(b^2)=1$ 的渐近线为 $y= +- (b)/(a)x$. 选项 A 可写成 $(x^2)/(1^2)-(y^2)/(2^2)=1$，其渐近线为 $y= +- 2 x$. 其余选项对应的 $(b)/(a)$ 分别为 $(1)/(2)$、$sqrt(2)$、$(1)/(sqrt(2))$，均不等于 $2$. 所以应选 A.
-  #choices([$x^(2) - (y^(2))/(4)= 1$], [$(x^2)/(4)- y^2 = 1$], [$x^(2) - (y^(2))/(2)= 1$], [$(x^2)/(2)- y^2 = 1$], cols: 2)
+双曲线 #mi(`\frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1`) 的渐近线为 #mi(`y=\pm\frac{b}{a}x`). 选项 A 可写成 #mi(`\frac{x^{2}}{1^{2}}-\frac{y^{2}}{2^{2}}=1`)，其渐近线为 #mi(`y=\pm2x`). 其余选项对应的 #mi(`\frac{b}{a}`) 分别为 #mi(`\frac{1}{2}`)、#mi(`\sqrt{2}`)、#mi(`\frac{1}{\sqrt{2}}`)，均不等于 #mi(`2`). 所以应选 A.
+  #choices([#mi(`x^{2}- \frac{y^{2}}{4}= 1`)], [#mi(`\frac{x^{2}}{4}- y^{2} = 1`)], [#mi(`x^{2}- \frac{y^{2}}{2}= 1`)], [#mi(`\frac{x^{2}}{2}- y^{2} = 1`)], cols: 1)
 ]
 
 #problem(7)[
-执行如图所示的程序框图（算法流程图），输出的 $n$ 为（ ）
+执行如图所示的程序框图（算法流程图），输出的 #mi(`n`) 为（ ）
 
-\texfigure[max width=0.52\linewidth]{img_repaint/2015/anhui_liberal/q7_fig1.tex}
-
+\texfigure[max width=0.52\linewidth]img_repaint/2015/anhui_liberal/q7_fig1.tex
 
 B
 
-程序开始时 $a=1$，$n=1$. 第一次判断中，$|1-1.414|=0.414 >= 0 .005$，所以更新得 $a=1+(1)/(1+1)=1.5$，并令 $n=2$.
+程序开始时 #mi(`a=1`)，#mi(`n=1`). 第一次判断中，#mi(`|1-1.414|=0.414\geqslant0.005`)，所以更新得 #mi(`a=1+\frac{1}{1+1}=1.5`)，并令 #mi(`n=2`).
 
-第二次判断中，$|1.5-1.414|=0.086 >= 0 .005$，所以更新得 $a=1+(1)/(1+1.5)=1.4$，并令 $n=3$.
+第二次判断中，#mi(`|1.5-1.414|=0.086\geqslant0.005`)，所以更新得 #mi(`a=1+\frac{1}{1+1.5}=1.4`)，并令 #mi(`n=3`).
 
-第三次判断中，$|1.4-1.414|=0.014 >= 0 .005$，所以更新得 $a=1+(1)/(1+1.4)=1+(5)/(12)=(17)/(12)$，并令 $n=4$.
+第三次判断中，#mi(`|1.4-1.414|=0.014\geqslant0.005`)，所以更新得 #mi(`a=1+\frac{1}{1+1.4}=1+\frac{5}{12}=\frac{17}{12}`)，并令 #mi(`n=4`).
 
 此时
 
-$ |(17)/(12)-1.414|=|(17)/(12)-(707)/(500)|=(1)/(375)<0.005 $
 
-满足停止条件，程序输出 $n=4$. 所以应选 B.
-  #choices([$3$], [$4$], [$5$], [$6$], cols: 4)
+#align(center)[#mitex(`
+\left|\frac{17}{12}-1.414\right|=\left|\frac{17}{12}-\frac{707}{500}\right|=\frac{1}{375}<0.005
+`)]
+
+
+满足停止条件，程序输出 #mi(`n=4`). 所以应选 B.
+  #choices([#mi(`3`)], [#mi(`4`)], [#mi(`5`)], [#mi(`6`)], cols: 4)
 ]
 
 #problem(8)[
-直线 $3 x + 4 y = b$ 与圆 $x^(2) + y^(2) - 2 x - 2 y + 1 = 0$ 相切，则 $b$ 的值是（ ）
-
+直线 #mi(`3x + 4y = b`) 与圆 #mi(`x^{2}+ y^{2}- 2x - 2y + 1 = 0`) 相切，则 #mi(`b`) 的值是（ ）
 
 D
 
 将圆的方程配方，得
 
-$ (x-1)^2+(y-1)^2=1 $
 
-所以圆心为 $(1,1)$，半径为 $1$. 圆心到直线 $3 x+4 y-b=0$ 的距离为
+#align(center)[#mitex(`
+(x-1)^{2}+(y-1)^{2}=1
+`)]
 
-$ (|3 dot 1 +4 dot 1 -b|)/(sqrt(3^2+4^2))=(|7-b|)/(5) $
 
-相切时该距离等于半径，故 $|7-b|=5$，从而 $b=2$ 或 $b=12$. 所以应选 D.
-  #choices([$-2$ 或 $12$], [$2$ 或 $-12$], [$-2$ 或 $-12$], [$2$ 或 $12$], cols: 4)
+所以圆心为 #mi(`(1,1)`)，半径为 #mi(`1`). 圆心到直线 #mi(`3x+4y-b=0`) 的距离为
+
+
+#align(center)[#mitex(`
+\frac{|3\cdot1+4\cdot1-b|}{\sqrt{3^{2}+4^{2}}}=\frac{|7-b|}{5}
+`)]
+
+
+相切时该距离等于半径，故 #mi(`|7-b|=5`)，从而 #mi(`b=2`) 或 #mi(`b=12`). 所以应选 D.
+  #choices([#mi(`-2`) 或 #mi(`12`)], [#mi(`2`) 或 #mi(`-12`)], [#mi(`-2`) 或 #mi(`-12`)], [#mi(`2`) 或 #mi(`12`)], cols: 2)
 ]
 
 #problem(9)[
 一个四面体的三视图如图所示，则该四面体的表面积是（ ）
 
 
-#align(center)[#image("/papers/2015/img/anhui_liberal/q9_fig1.png", width: 52%)]
-
+#align(center)[#image("/papers/2015/img/anhui_liberal/q9_fig1.png", width: 28%)]
 
 
 B
 
 根据三视图建立直角坐标系，可取四面体的四个顶点为
-$A=(-1,0,0)$、$B=(1,0,0)$、$C=(0,1,0)$、$P=(0,0,1)$.
-在正视图中，$A$，$B$ 的投影为底边两端，$P$ 的投影为顶点，$C$ 的投影为底边中点；在侧视图中，$A$，$B$ 的投影重合，$C$ 与该投影的水平距离为 $1$，$P$ 与该投影的竖直距离为 $1$；俯视图也与上述坐标投影一致，因此该坐标模型与三视图一致.
 
-由坐标可得 $A B=2$，且 $A C=B C=A P=B P=C P=sqrt(2)$. 三角形 $A B C$ 和 $P A B$ 的底边都为 $2$，对应高都为 $1$，所以
+#mi(`A=(-1,0,0)`)、#mi(`B=(1,0,0)`)、#mi(`C=(0,1,0)`)、#mi(`P=(0,0,1)`).
 
-$ S_(A B C)=S_(P A B)=(1)/(2) times 2 times 1 =1 $
+在正视图中，#mi(`A`)，#mi(`B`) 的投影为底边两端，#mi(`P`) 的投影为顶点，#mi(`C`) 的投影为底边中点；在侧视图中，#mi(`A`)，#mi(`B`) 的投影重合，#mi(`C`) 与该投影的水平距离为 #mi(`1`)，#mi(`P`) 与该投影的竖直距离为 #mi(`1`)；俯视图也与上述坐标投影一致，因此该坐标模型与三视图一致.
 
-三角形 $P A C$ 和 $P B C$ 的三边都为 $sqrt(2)$，均为等边三角形，故
+由坐标可得 #mi(`AB=2`)，且 #mi(`AC=BC=AP=BP=CP=\sqrt{2}`). 三角形 #mi(`ABC`) 和 #mi(`PAB`) 的底边都为 #mi(`2`)，对应高都为 #mi(`1`)，所以
 
-$ S_(P A C)=S_(P B C)=(sqrt(3))/(4)(sqrt(2))^2=(sqrt(3))/(2) $
+
+#align(center)[#mitex(`
+S_{ABC}=S_{PAB}=\frac{1}{2}\times2\times1=1
+`)]
+
+
+三角形 #mi(`PAC`) 和 #mi(`PBC`) 的三边都为 #mi(`\sqrt{2}`)，均为等边三角形，故
+
+
+#align(center)[#mitex(`
+S_{PAC}=S_{PBC}=\frac{\sqrt{3}}{4}(\sqrt{2})^{2}=\frac{\sqrt{3}}{2}
+`)]
+
 
 所以四面体的表面积为
 
-$ S=1+1+(sqrt(3))/(2)+(sqrt(3))/(2)=2+sqrt(3) $
+
+#align(center)[#mitex(`
+S=1+1+\frac{\sqrt{3}}{2}+\frac{\sqrt{3}}{2}=2+\sqrt{3}
+`)]
+
 
 因此应选 B.
-  #choices([$1 + sqrt(3)$], [$2 + sqrt(3)$], [$1 + 2 sqrt(2)$], [$2 sqrt(2)$], cols: 4)
+  #choices([#mi(`1 + \sqrt{3}`)], [#mi(`2 + \sqrt{3}`)], [#mi(`1 + 2\sqrt{2}`)], [#mi(`2\sqrt{2}`)], cols: 2)
 ]
 
 #problem(10)[
-函数 $f(x) = a x^3 + b x^2 + c x + d$ 的图象如图所示，则下列结论成立的是（ ）
+函数 #mi(`f(x) = ax^{3} + bx^{2} + cx + d`) 的图象如图所示，则下列结论成立的是（ ）
 
 
-#align(center)[#image("/papers/2015/img/anhui_liberal/q10_fig1.png", width: 42%)]
-
+#align(center)[#image("/papers/2015/img/anhui_liberal/q10_fig1.png", width: 28%)]
 
 
 A
 
-由图象右端向上，知三次项系数 $a>0$. 设两个极值点的横坐标为 $x_1$、$x_2$，由图可知 $0<x_1<x_2$. 因为
+由图象右端向上，知三次项系数 #mi(`a>0`). 设两个极值点的横坐标为 #mi(`x_{1}`)、#mi(`x_{2}`)，由图可知 #mi(`0<x_{1}<x_{2}`). 因为
 
-$ f'(x)=3 a x^2+2 b x+c $
 
-且 $x_1$，$x_2$ 是方程 $f'(x)=0$ 的两个根，所以
+#align(center)[#mitex(`
+f'(x)=3ax^{2}+2bx+c
+`)]
 
-$ x_1+x_2=-(2 b)/(3 a)>0 $
 
-结合 $a>0$，得 $b<0$. 图象在 $x=0$ 处递增，所以 $c=f'(0)>0$；又图象与 $y$ 轴的交点在 $x$ 轴上方，所以 $d=f(0)>0$. 因此只有选项 A 成立.
-  #choices([$a > 0$，$b < 0$，$c > 0$，$d > 0$], [$a > 0$，$b < 0$，$c < 0$，$d > 0$], [$a < 0$，$b < 0$，$c > 0$，$d > 0$], [$a > 0$，$b > 0$，$c > 0$，$d < 0$], cols: 1)
+且 #mi(`x_{1}`)，#mi(`x_{2}`) 是方程 #mi(`f'(x)=0`) 的两个根，所以
+
+
+#align(center)[#mitex(`
+x_{1}+x_{2}=-\frac{2b}{3a}>0
+`)]
+
+
+结合 #mi(`a>0`)，得 #mi(`b<0`). 图象在 #mi(`x=0`) 处递增，所以 #mi(`c=f'(0)>0`)；又图象与 #mi(`y`) 轴的交点在 #mi(`x`) 轴上方，所以 #mi(`d=f(0)>0`). 因此只有选项 A 成立.
+  #choices([#mi(`a > 0`)，#mi(`b < 0`)，#mi(`c > 0`)，#mi(`d > 0`)], [#mi(`a > 0`)，#mi(`b < 0`)，#mi(`c < 0`)，#mi(`d > 0`)], [#mi(`a < 0`)，#mi(`b < 0`)，#mi(`c > 0`)，#mi(`d > 0`)], [#mi(`a > 0`)，#mi(`b > 0`)，#mi(`c > 0`)，#mi(`d < 0`)], cols: 1)
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-计算： $\l g(5)/(2)+2\l g 2-((1)/(2))^(-1)=$#blank(){}.
+计算： #mi(`\lg\frac{5}{2}+2\lg2-\left(\frac{1}{2}\right)^{-1}=`)\underline{\hspace{2.5em}}.
 
-$-1$
+#mi(`-1`)
 
 由对数运算性质，
 
-$ \l g(5)/(2)+2\l g 2=\l g(5)/(2)+\l g 4=\l g 10=1 $
 
-又 $((1)/(2))^(-1)=2$，所以原式的值为 $1-2=-1$.
+#align(center)[#mitex(`
+\lg\frac{5}{2}+2\lg2=\lg\frac{5}{2}+\lg4=\lg10=1
+`)]
+
+
+又 #mi(`\left(\frac{1}{2}\right)^{-1}=2`)，所以原式的值为 #mi(`1-2=-1`).
 ]
 
 #problem(12)[
-在 $triangle A B C$ 中，$A B = sqrt(6)$，$angle A = 75^( degree )$，$angle B = 45^( degree )$，则 $A C =$#blank(){}.
+在 #mi(`\triangle ABC`) 中，#mi(`AB = \sqrt{6}`)，#mi(`\angle A = 75^{\circ}`)，#mi(`\angle B = 45^{\circ}`)，则 #mi(`AC =`)\underline{\hspace{2.5em}}.
 
-$2$
+#mi(`2`)
 
-三角形内角和给出 $angle C=180^( degree )-75^( degree )-45^( degree )=60^( degree )$. 由正弦定理，
+三角形内角和给出 #mi(`\angle C=180^{\circ}-75^{\circ}-45^{\circ}=60^{\circ}`). 由正弦定理，
 
-$ (A C)/(sin 45 ""^( degree ))=(A B)/(sin 60 ""^( degree )) $
+
+#align(center)[#mitex(`
+\frac{AC}{\sin45^{\circ}}=\frac{AB}{\sin60^{\circ}}
+`)]
+
 
 所以
 
-$ A C=sqrt(6)(sin 45 ""^( degree ))/(sin 60 ""^( degree ))=sqrt(6)((sqrt(2))/(2))/((sqrt(3))/(2))=2 $
+
+#align(center)[#mitex(`
+AC=\sqrt{6}\frac{\sin45^{\circ}}{\sin60^{\circ}}=\sqrt{6}\frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{3}}{2}}=2
+`)]
 ]
 
 #problem(13)[
-已知数列 $\{a_(n)\}$ 中，$a_(1)=1$，$a_(n)=a_(n-1)+(1)/(2)$（$n >= 2$），则数列 $\{a_(n)\}$ 的前 $9$ 项和等于#blank(){}.
+已知数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{1}=1`)，#mi(`a_{n}=a_{n-1}+\frac{1}{2}`)（#mi(`n\geqslant2`)），则数列 #mi(`\{a_{n}\}`) 的前 #mi(`9`) 项和等于\underline{\hspace{2.5em}}.
 
-$27$
+#mi(`27`)
 
-由递推式可知 $a_n-a_(n-1)=(1)/(2)$，所以 $\{a_n\}$ 是首项为 $1$、公差为 $(1)/(2)$ 的等差数列. 因而
+由递推式可知 #mi(`a_{n}-a_{n-1}=\frac{1}{2}`)，所以 #mi(`\{a_{n}\}`) 是首项为 #mi(`1`)、公差为 #mi(`\frac{1}{2}`) 的等差数列. 因而
 
-$ a_n=1+(n-1)(1)/(2)=(n+1)/(2) $
 
-特别地，$a_9=5$. 于是前 $9$ 项和为
+#align(center)[#mitex(`
+a_{n}=1+(n-1)\frac{1}{2}=\frac{n+1}{2}
+`)]
 
-$ S_9=(9(a_1+a_9))/(2)=(9(1+5))/(2)=27 $
+
+特别地，#mi(`a_{9}=5`). 于是前 #mi(`9`) 项和为
+
+
+#align(center)[#mitex(`
+S_{9}=\frac{9(a_{1}+a_{9})}{2}=\frac{9(1+5)}{2}=27
+`)]
 ]
 
 #problem(14)[
-在平面直角坐标系 $x O y$ 中，若直线 $y = 2 a$ 与函数 $y = |x - a| - 1$ 的图象只有一个交点，则 $a$ 的值为#blank(){}.
+在平面直角坐标系 #mi(`xOy`) 中，若直线 #mi(`y = 2a`) 与函数 #mi(`y = |x - a| - 1`) 的图象只有一个交点，则 #mi(`a`) 的值为\underline{\hspace{2.5em}}.
 
-$-(1)/(2)$
+#mi(`-\frac{1}{2}`)
 
 联立直线与函数图象的方程，得
 
-$ 2 a=|x-a|-1 $
 
-即 $|x-a|=2 a+1$. 若 $2 a+1>0$，则 $x-a= +- (2 a+1)$，有两个不同的交点；若 $2 a+1<0$，则绝对值方程无解；只有 $2 a+1=0$ 时，方程有唯一解 $x=a$. 因此
+#align(center)[#mitex(`
+2a=|x-a|-1
+`)]
 
-$ a=-(1)/(2) $
+
+即 #mi(`|x-a|=2a+1`). 若 #mi(`2a+1>0`)，则 #mi(`x-a=\pm(2a+1)`)，有两个不同的交点；若 #mi(`2a+1<0`)，则绝对值方程无解；只有 #mi(`2a+1=0`) 时，方程有唯一解 #mi(`x=a`). 因此
+
+
+#align(center)[#mitex(`
+a=-\frac{1}{2}
+`)]
 ]
 
 #problem(15)[
-$triangle A B C$ 是边长为 $2$ 的等边三角形，已知向量 $bold(a)$，$bold(b)$ 满足 $arrow(A B)= 2 bold(a)$，$arrow(A C)= 2 bold(a)+ bold(b)$. 则下列结论中正确的是#blank(){}. （写出所有正确结论的序号）
+#mi(`\triangle ABC`) 是边长为 #mi(`2`) 的等边三角形，已知向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 满足 #mi(`\overrightarrow{AB}= 2\mathbf{a}`)，#mi(`\overrightarrow{AC}= 2\mathbf{a}+ \mathbf{b}`). 则下列结论中正确的是\underline{\hspace{2.5em}}. （写出所有正确结论的序号）
 
-\begin{circlelist}
-\item $bold(a)$ 为单位向量；
-\item $bold(b)$ 为单位向量；
-\item $bold(a)\p e r p b o l d(b)$；
-\item $bold(b)\p a r a l l e l a r r o w(B C)$；
-\item $(4 bold(a)+bold(b))\p e r p a r r o w(B C)$.
-\end{circlelist}
 
-$"[1]""[4]""[5]"$
++ (1) #mi(`\mathbf{a}`) 为单位向量；
++ (2) #mi(`\mathbf{b}`) 为单位向量；
++ (3) #mi(`\mathbf{a}\perp\mathbf{b}`)；
++ (4) #mi(`\mathbf{b}\parallel\overrightarrow{BC}`)；
++ (5) #mi(`\left(4\mathbf{a}+\mathbf{b}\right)\perp\overrightarrow{BC}`).
 
-因为 $A B C$ 是边长为 $2$ 的等边三角形，所以 $|arrow(A B)|=|arrow(A C)|=|arrow(B C)|=2$. 由 $arrow(A B)=2 bold(a)$，得 $|bold(a)|=1$，结论$"[1]"$正确.
+
+
+#mi(`①④⑤`)
+
+因为 #mi(`ABC`) 是边长为 #mi(`2`) 的等边三角形，所以 #mi(`|\overrightarrow{AB}|=|\overrightarrow{AC}|=|\overrightarrow{BC}|=2`). 由 #mi(`\overrightarrow{AB}=2\mathbf{a}`)，得 #mi(`|\mathbf{a}|=1`)，结论#mi(`①`) 正确.
 
 又
 
-$ arrow(B C)=arrow(A C)-arrow(A B)=bold(b) $
 
-所以 $|bold(b)|=2$，结论$"[2]"$错误，且 $bold(b)\p a r a l l e l a r r o w(B C)$，结论$"[4]"$正确.
+#align(center)[#mitex(`
+\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}=\mathbf{b}
+`)]
 
-由 $|2 bold(a)+bold(b)|=|arrow(A C)|=2$，平方得
 
-$ 4|bold(a)|^2+4 bold(a)\c d o t b o l d(b)+|bold(b)|^2=4 $
+所以 #mi(`|\mathbf{b}|=2`)，结论#mi(`②`) 错误，且 #mi(`\mathbf{b}\parallel\overrightarrow{BC}`)，结论#mi(`④`) 正确.
 
-代入 $|bold(a)|=1$、$|bold(b)|=2$，得到 $bold(a)\c d o t b o l d(b)=-1 != 0$，所以结论$"[3]"$错误. 最后
+由 #mi(`|2\mathbf{a}+\mathbf{b}|=|\overrightarrow{AC}|=2`)，平方得
 
-$ (4 bold(a)+bold(b))\c d o t a r r o w(B C)=(4 bold(a)+bold(b))\c d o t b o l d(b) =4(-1)+2^2=0 $
 
-故结论$"[5]"$正确. 所有正确结论的序号为 $"[1]"$、$"[4]"$、$"[5]"$.
+#align(center)[#mitex(`
+4|\mathbf{a}|^{2}+4\mathbf{a}\cdot\mathbf{b}+|\mathbf{b}|^{2}=4
+`)]
+
+
+代入 #mi(`|\mathbf{a}|=1`)、#mi(`|\mathbf{b}|=2`)，得到 #mi(`\mathbf{a}\cdot\mathbf{b}=-1\ne0`)，所以结论#mi(`③`) 错误. 最后
+
+
+#align(center)[#mitex(`
+\left(4\mathbf{a}+\mathbf{b}\right)\cdot\overrightarrow{BC}=\left(4\mathbf{a}+\mathbf{b}\right)\cdot\mathbf{b}  =4(-1)+2^{2}=0
+`)]
+
+
+故结论#mi(`⑤`) 正确. 所有正确结论的序号为 #mi(`①`)、#mi(`④`)、#mi(`⑤`).
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-已知函数 $f(x) = ( sin x + cos x)^2 + cos 2 x$.
+已知函数 #mi(`f(x) = (\sin x + \cos x)^{2} + \cos 2x`).
 
-+ (1) 求 $f(x)$ 最小正周期；
-+ (2) 求 $f(x)$ 在区间 $[0, (pi)/(2)]$ 上的最大值和最小值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 利用二倍角公式，
-
-$ ( sin x+ cos x)^2= sin ""^(2) x+2 sin x cos x+ cos ""^(2) x=1+ sin 2 x $
-
-因此
-
-$ f(x)=1+ sin 2 x+ cos 2 x=1+sqrt(2) sin (2 x+(pi)/(4)) $
-
-正弦函数的最小正周期为 $2 pi$，故上式中因变量的系数为 $2$，从而 $f(x)$ 的最小正周期为 $T=(2 pi)/(2)= pi$.
-+ (2) 当 $x in [0,(pi)/(2)]$ 时，令 $t=2 x+(pi)/(4)$，则 $t in [(pi)/(4),(5 pi)/(4)]$. 在此区间内，正弦函数的最大值为 $1$，在 $t=(pi)/(2)$，即 $x=(pi)/(8)$ 时取得；最小值为 $-(sqrt(2))/(2)$，在 $t=(5 pi)/(4)$，即 $x=(pi)/(2)$ 时取得. 所以 $f_( max )=1+sqrt(2)$，且
-
-$ f_( min )=1+sqrt(2)(-(sqrt(2))/(2))=0 $
++ (1)
 ]
 
 #problem(17)[
-某企业为了了解下属某部门对本企业职工的服务情况，随机访问 $50" "名""$ 职工，根据这 $50" "名""$ 职工对该部门的评分，绘制频率分布直方图（如图所示），其中样本数据分组区间为：$[40,50)$，$[50,60)$，…，$[80,90)$，$[90,100]$.
+某企业为了了解下属某部门对本企业职工的服务情况，随机访问 #mi(`50\text{ \text{名}}`) 职工，根据这 #mi(`50\text{ \text{名}}`) 职工对该部门的评分，绘制频率分布直方图（如图所示），其中样本数据分组区间为：#mi(`\left[40,50\right)`)，#mi(`\left[50,60\right)`)，…，#mi(`\left[80,90\right)`)，#mi(`\left[90,100\right]`).
 
 
-+ (1) 求频率分布直方图中 $a$ 的值；
-+ (2) 估计该企业的职工对该部门评分不低于 $80$ 的概率；
-+ (3) 从评分在 $[40,60)$ 的受访职工中，随机抽取 $2" "人""$，求此 $2$ 人评分都在 $[40,50)$ 的概率.
++ (1) 
++ (2) 
 
 
-\texfigure[float=inline,max width=0.42\linewidth]{img_repaint/2015/anhui_liberal/q17_fig1.tex}
+
+\texfigure[float=inline,max width=0.42\linewidth]img_repaint/2015/anhui_liberal/q17_fig1.tex
 ]
 
 #solution[
-+ (1) 每个小矩形的面积表示该组频率，所有组频率之和为 $1$. 组距为 $10$，故
-
-$ 10(0.004+a+0.022+0.028+0.022+0.018)=1 $
-
-解得 $a=0.006$.
-+ (2) 评分不低于 $80$ 的频率为
-
-$ 10 times 0 .022+10 times 0 .018=0.4 $
-
-因此估计该企业职工评分不低于 $80$ 的概率为 $0.4$.
-+ (3) 评分在 $[40,50)$ 内的职工人数为 $50 times 10 times 0 .004=2$，评分在 $[50,60)$ 内的职工人数为 $50 times 10 times 0 .006=3$. 因此评分在 $[40,60)$ 内共有 $5$ 人. 从这 $5$ 人中抽取 $2$ 人，所有等可能的结果数为 $C_5^2$，其中两人都来自 $[40,50)$ 的结果数为 $C_2^2$. 所求概率为
-
-$ P=(C_2^2)/(C_5^2)=(1)/(10) $
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-已知数列 $\{a_(n)\}$ 是递增的等比数列，且 $a_(1) + a_(4) = 9$，$a_(2)a_(3) = 8$.
+已知数列 #mi(`\{a_{n}\}`) 是递增的等比数列，且 #mi(`a_{1}+ a_{4}= 9`)，#mi(`a_{2}a_{3}= 8`).
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 设 $S_(n)$ 为数列 $\{a_(n)\}$ 的前 $n$ 项和，$b_(n) = (a_(n+1))/(S_(n) S_(n+1))$，求数列 $\{b_(n)\}$ 的前 $n$ 项和 $T_(n)$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设等比数列的公比为 $q$. 由等比数列性质，
-
-$ a_(2) a_3=a_(1) q dot a_(1) q^2=a_1^(2) q^3=a_(1) a_4=8 $
-
-因此 $a_1$ 和 $a_4$ 是方程
-
-$ t^2-(a_1+a_4)t+a_(1) a_4=t^2-9 t+8=0 $
-
-的两个根，解得 $\{a_1,a_4\}=\{1,8\}$. 数列递增，所以 $a_1<a_4$，从而 $a_1=1$、$a_4=8$. 于是 $q^3=(a_4)/(a_1)=8$，得到 $q=2$，故
-
-$ a_n=a_(1) q^(n-1)=2^(n-1) $
-+ (2) 由通项公式，
-
-$ S_n=1+2+ dots.c +2^(n-1)=2^n-1 $
-
-又因为 $a_(n+1)=S_(n+1)-S_n$，所以
-
-$ b_n=(S_(n+1)-S_n)/(S_(n) S_(n+1))=(1)/(S_n)-(1)/(S_(n+1)) $
-
-裂项相消得
-
-$ T_n=sum_(k=1)^n b_k =((1)/(S_1)-(1)/(S_2))+ dots.c +((1)/(S_n)-(1)/(S_(n+1))) =1-(1)/(S_(n+1))=1-(1)/(2^(n+1)-1) $
++ (1)
 ]
 
 #problem(19)[
-如图，三棱锥 $P-A B C$ 中，$P A bot$ 平面 $A B C$，$P A = 1$，$A B = 1$，$A C = 2$，$angle B A C = 60^ degree$.
-
-+ (1) 求三棱锥 $P-A B C$ 的体积；
-+ (2) 证明：在线段 $P C$ 上存在点 $M$，使得 $A C bot B M$，并求 $(P M)/(M C)$ 的值.
+如图，三棱锥 #mi(`P-ABC`) 中，#mi(`PA \perp`) 平面 #mi(`ABC`)，#mi(`PA = 1`)，#mi(`AB = 1`)，#mi(`AC = 2`)，#mi(`\angle BAC = 60^{\circ}`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2015/img/anhui_liberal/q19_fig1.png", width: 42%)]
+
+
+
+#align(center)[#image("/papers/2015/img/anhui_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 底面三角形 $A B C$ 的面积为
-
-$ S_( triangle A B C)=(1)/(2) times A B times A C times sin angle B A C =(1)/(2) times 1 times 2 times sin 60 ""^ degree =(sqrt(3))/(2) $
-
-由 $P A bot$ 平面 $A B C$，知 $P A=1$ 是三棱锥的高，所以
-
-$ V=(1)/(3)S_( triangle A B C) dot P A=(1)/(3) times (sqrt(3))/(2) times 1 =(sqrt(3))/(6) $
-+ (2) 建立空间直角坐标系，取 $A$ 为原点，$A C$ 所在直线为 $x$ 轴，平面 $A B C$ 为 $x O y$ 平面，且 $P$ 在 $z$ 轴正半轴上. 则
-
-$ C=(2,0,0) $
-
-并且 $P=(0,0,1)$.
-由 $A B=1$、$angle B A C=60^ degree$，可取
-
-$ B=((1)/(2),(sqrt(3))/(2),0) $
-
-设 $M$ 在线段 $P C$ 上，令 $t=(P M)/(P C)$，则 $0\l e q t\l e q 1$，且
-
-$ M=P+t(C-P)=(2 t,0,1-t) $
-
-于是 $arrow(A C)=(2,0,0)$，
-$arrow(B M)=(2 t-(1)/(2),-(sqrt(3))/(2),1-t)$.
-因此
-
-$ arrow(A C)\c d o t a r r o w(B M)=2(2 t-(1)/(2))=4 t-1 $
-
-取 $t=(1)/(4)$，则 $M$ 在线段 $P C$ 上且 $arrow(A C)\c d o t a r r o w(B M)=0$，所以 $A C bot B M$. 此时
-
-$ (P M)/(M C)=(t)/(1-t)=((1)/(4))/((3)/(4))=(1)/(3) $
++ (1)
 ]
 
 #problem(20)[
-设椭圆 $E$ 的方程为 $(x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > b > 0$），点 $O$ 为坐标原点，点 $A$ 的坐标为 $(a, 0)$，点 $B$ 的坐标为 $(0, b)$，点 $M$ 在线段 $A B$ 上，满足 $|B M| = 2|M A|$，直线 $O M$ 的斜率为 $(sqrt(5))/(10)$.
+设椭圆 #mi(`E`) 的方程为 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)），点 #mi(`O`) 为坐标原点，点 #mi(`A`) 的坐标为 #mi(`(a, 0)`)，点 #mi(`B`) 的坐标为 #mi(`(0, b)`)，点 #mi(`M`) 在线段 #mi(`AB`) 上，满足 #mi(`|BM| = 2|MA|`)，直线 #mi(`OM`) 的斜率为 #mi(`\frac{\sqrt{5}}{10}`).
 
-+ (1) 求 $E$ 的离心率 $e$；
-+ (2) 设点 $C$ 的坐标为 $(0, -b)$，$N$ 为线段 $A C$ 的中点，证明：$M N bot A B$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $|B M|=2|M A|$，所以 $A M:M B=1:2$. 由内分点公式，
-
-$ M=A+(1)/(3)(B-A)=((2 a)/(3),(b)/(3)) $
-
-故直线 $O M$ 的斜率为 $((b)/(3))/(2(a)/(3))=(b)/(2 a)$. 由题意
-$(b)/(2 a)=(sqrt(5))/(10)$，$(b)/(a)=(sqrt(5))/(5)$，$(b^2)/(a^2)=(1)/(5)$.
-椭圆的半焦距满足 $c^2=a^2-b^2$，所以
-
-$ e=(c)/(a)=sqrt(1-(b^2)/(a^2))=sqrt(1-(1)/(5))=(2 sqrt(5))/(5) $
-+ (2) 由 $C=(0,-b)$ 且 $N$ 为 $A C$ 的中点，得
-
-$ N=((a)/(2),-(b)/(2)) $
-
-因此 $arrow(M N)=N-M=(-(a)/(6),-(5 b)/(6))$.
-又 $arrow(A B)=B-A=(-a,b)$. 因而
-
-$ arrow(M N)\c d o t a r r o w(A B)=(a^2)/(6)-(5 b^2)/(6)=(a^2-5 b^2)/(6)=0 $
-
-其中最后一步使用了 $b^2=(a^2)/(5)$. 所以 $M N bot A B$.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = (a x)/((x + r)^2)$（$a > 0$，$r > 0$）.
+已知函数 #mi(`f(x) = \frac{ax}{(x + r)^{2}}`)（#mi(`a > 0`)，#mi(`r > 0`)）.
 
-+ (1) 求 $f(x)$ 的定义域，并讨论 $f(x)$ 的单调性；
-+ (2) 若 $(a)/(r)= 400$，求 $f(x)$ 在 $(0, + oo )$ 内的极值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 分母不能为零，所以定义域为 $RR \s e t m i n u s\{-r\}=(- oo ,-r) union (-r,+ oo )$. 求导得
-
-$ f'(x)=(a(x+r)^2-2 a x(x+r))/((x+r)^4)=(a(r-x))/((x+r)^3) $
-
-因为 $a>0$，分类讨论符号：当 $x in (- oo ,-r)$ 时，$r-x>0$、$(x+r)^3<0$，故 $f'(x)<0$；当 $x in (-r,r)$ 时，二者均为正，故 $f'(x)>0$；当 $x in (r,+ oo )$ 时，$r-x<0$、$(x+r)^3>0$，故 $f'(x)<0$. 因此 $f(x)$ 在 $(- oo ,-r)$ 和 $(r,+ oo )$ 上单调递减，在 $(-r,r)$ 上单调递增.
-+ (2) 在 $(0,+ oo )$ 内，函数在 $(0,r)$ 上递增，在 $(r,+ oo )$ 上递减，所以在 $x=r$ 处取得极大值. 该极大值为
-
-$ f(r)=(a r)/((2 r)^2)=(a)/(4 r)=(1)/(4)(a)/(r)=100 $
-
-又因为 $x -> 0 ""^+$ 或 $x -> + oo$ 时 $f(x) -> 0$，但 $0 in.not (0,+ oo )$，所以在该开区间内没有最小值.
++ (1)
 ]
 

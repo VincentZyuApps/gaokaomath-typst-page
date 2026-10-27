@@ -1,8 +1,143 @@
 {
-  "title": "2004年普通高等学校招生全国统一考试",
-  "subtitle": "2004年福建卷（文）",
   "year": "2004",
   "slug": "fujian_liberal",
+  "title": "2004年福建卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$\\varnothing$"
           ],
           "answer": "A",
-          "solution": "<p>先求交集：$A\\cap B=\\{3,5\\}$. 补集是相对于全集 $U$ 的；从全集中除去交集中的元素，得到</p><p>$\\complement_{U}(A\\cap B)=\\{1,2,4\\}$，故选 A.</p>"
+          "solution": "<p>先求交集：$A\\cap B=\\{3,5\\}$. 补集是相对于全集 $U$ 的；从全集中除去交集中的元素，得到</p><p>$\\complement_{U}(A\\cap B)=\\{1,2,4\\}$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$\\frac{4\\sqrt{3}}{3}$"
           ],
           "answer": "C",
-          "solution": "<p>因为 $15^{\\circ}$ 的正弦、余弦均非零，所以</p>\n$$\n\\tan15^{\\circ}+\\cot15^{\\circ}=\\frac{\\sin15^{\\circ}}{\\cos15^{\\circ}}+\\frac{\\cos15^{\\circ}}{\\sin15^{\\circ}}=\\frac{1}{\\sin15^{\\circ}\\cos15^{\\circ}}\n$$\n<p>又 $2\\sin15^{\\circ}\\cos15^{\\circ}=\\sin30^{\\circ}=\\frac{1}{2}$，故</p><p>$\\sin15^{\\circ}\\cos15^{\\circ}=\\frac{1}{4}$，从而原式为 $4$，故选 C.</p>"
+          "solution": "<p>因为 $15^{\\circ}$ 的正弦、余弦均非零，所以</p>\n$$\n\\tan15^{\\circ}+\\cot15^{\\circ}=\\frac{\\sin15^{\\circ}}{\\cos15^{\\circ}}+\\frac{\\cos15^{\\circ}}{\\sin15^{\\circ}}=\\frac{1}{\\sin15^{\\circ}\\cos15^{\\circ}}\n$$\n<p>又 $2\\sin15^{\\circ}\\cos15^{\\circ}=\\sin30^{\\circ}=\\frac{1}{2}$，故</p><p>$\\sin15^{\\circ}\\cos15^{\\circ}=\\frac{1}{4}$，从而原式为 $4$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$p$ 假 $q$ 真"
           ],
           "answer": "A",
-          "solution": "<p>取 $a=\\frac{3}{5}$，$b=-\\frac{3}{5}$，则 $|a|+|b|=\\frac{6}{5}>1$，但 $|a+b|=0$，所以条件 $|a|+|b|>1$ 不能推出 $|a+b|>1$，命题 $p$ 为假.</p><p>对任意 $x\\in\\mathbb{R}$，都有 $|x-1|\\geq0$，所以 $\\sqrt{|x-1|}$ 有意义，函数 $y=\\sqrt{|x-1|}-2$ 的定义域是 $\\mathbb{R}$，不是题中给出的 $(-\\infty,-1]\\cup[3,+\\infty)$，故命题 $q$ 也为假. 因此“$p$ 或 $q$”为假，故选 A.</p>"
+          "solution": "<p>取 $a=\\frac{3}{5}$，$b=-\\frac{3}{5}$，则 $|a|+|b|=\\frac{6}{5}>1$，但 $|a+b|=0$，所以条件 $|a|+|b|>1$ 不能推出 $|a+b|>1$，命题 $p$ 为假.</p><p>对任意 $x\\in\\mathbb{R}$，都有 $|x-1|\\geq0$，所以 $\\sqrt{|x-1|}$ 有意义，函数 $y=\\sqrt{|x-1|}-2$ 的定义域是 $\\mathbb{R}$，不是题中给出的 $(-\\infty,-1]\\cup[3,+\\infty)$，故命题 $q$ 也为假. 因此“$p$ 或 $q$”为假，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$\\frac{\\sqrt{3}}{2}$"
           ],
           "answer": "B",
-          "solution": "<p>设椭圆方程为 $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$，其中半焦距为 $c$，则 $b^{2}=a^{2}-c^{2}$. 取 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，过 $F_{1}$ 且垂直于长轴的直线为 $x=-c$. 代入椭圆方程，交点 $A$，$B$ 的纵坐标满足</p><p>$\\frac{c^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$，$y^{2}=\\frac{b^{2}(a^{2}-c^{2})}{a^{2}}=\\frac{b^{4}}{a^{2}}$.</p><p>因此 $AB=\\frac{2b^{2}}{a}$，且由对称性知 $F_{1}$ 是线段 $AB$ 的中点.</p><p>三角形 $ABF_{2}$ 是正三角形，故从顶点 $F_{2}$ 到边 $AB$ 的高为 $F_{1}F_{2}=2c$，同时等于 $\\frac{\\sqrt{3}}{2}AB$. 于是</p>\n$$\n2c=\\frac{\\sqrt{3}b^{2}}{a}=\\sqrt{3}\\frac{a^{2}-c^{2}}{a}\n$$\n<p>令离心率 $e=\\frac{c}{a}$，得到 $2e=\\sqrt{3}(1-e^{2})$，即</p><p>$\\sqrt{3}e^{2}+2e-\\sqrt{3}=0$. 解得 $e=\\frac{\\sqrt{3}}{3}$ 或 $e=-\\sqrt{3}$，因 $e>0$，所以 $e=\\frac{\\sqrt{3}}{3}$，故选 B.</p>"
+          "solution": "<p>设椭圆方程为 $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$，其中半焦距为 $c$，则 $b^{2}=a^{2}-c^{2}$. 取 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，过 $F_{1}$ 且垂直于长轴的直线为 $x=-c$. 代入椭圆方程，交点 $A$，$B$ 的纵坐标满足</p><p>$\\frac{c^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$，$y^{2}=\\frac{b^{2}(a^{2}-c^{2})}{a^{2}}=\\frac{b^{4}}{a^{2}}$.</p><p>因此 $AB=\\frac{2b^{2}}{a}$，且由对称性知 $F_{1}$ 是线段 $AB$ 的中点.</p><p>三角形 $ABF_{2}$ 是正三角形，故从顶点 $F_{2}$ 到边 $AB$ 的高为 $F_{1}F_{2}=2c$，同时等于 $\\frac{\\sqrt{3}}{2}AB$. 于是</p>\n$$\n2c=\\frac{\\sqrt{3}b^{2}}{a}=\\sqrt{3}\\frac{a^{2}-c^{2}}{a}\n$$\n<p>令离心率 $e=\\frac{c}{a}$，得到 $2e=\\sqrt{3}(1-e^{2})$，即</p><p>$\\sqrt{3}e^{2}+2e-\\sqrt{3}=0$. 解得 $e=\\frac{\\sqrt{3}}{3}$ 或 $e=-\\sqrt{3}$，因 $e>0$，所以 $e=\\frac{\\sqrt{3}}{3}$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "$\\frac{1}{2}$"
           ],
           "answer": "A",
-          "solution": "<p>设首项为 $a_{1}$，公差为 $d$. 由题设分母不为零，且</p>\n$$\n\\frac{a_{5}}{a_{3}}=\\frac{a_{1}+4d}{a_{1}+2d}=\\frac{5}{9}\n$$\n<p>得 $9a_{1}+36d=5a_{1}+10d$，即 $2a_{1}+13d=0$. 若 $d=0$，则题设比值为 $1$，矛盾，所以 $d\\neq0$.</p><p>等差数列前 $n$ 项和为 $S_{n}=\\frac{n}{2}[2a_{1}+(n-1)d]=n\\left(a_{1}+\\frac{n-1}{2}d\\right)$，故</p>\n$$\n\\frac{S_{9}}{S_{5}}=\\frac{9(a_{1}+4d)}{5(a_{1}+2d)}=\\frac{9}{5}\\cdot\\frac{5}{9}=1\n$$\n<p>因此选 A.</p>"
+          "solution": "<p>设首项为 $a_{1}$，公差为 $d$. 由题设分母不为零，且</p>\n$$\n\\frac{a_{5}}{a_{3}}=\\frac{a_{1}+4d}{a_{1}+2d}=\\frac{5}{9}\n$$\n<p>得 $9a_{1}+36d=5a_{1}+10d$，即 $2a_{1}+13d=0$. 若 $d=0$，则题设比值为 $1$，矛盾，所以 $d\\neq0$.</p><p>等差数列前 $n$ 项和为 $S_{n}=\\frac{n}{2}[2a_{1}+(n-1)d]=n\\left(a_{1}+\\frac{n-1}{2}d\\right)$，故</p>\n$$\n\\frac{S_{9}}{S_{5}}=\\frac{9(a_{1}+4d)}{5(a_{1}+2d)}=\\frac{9}{5}\\cdot\\frac{5}{9}=1\n$$\n<p>因此选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,19 +222,23 @@
             "$3$"
           ],
           "answer": "B",
-          "solution": "<p>第一个命题不一定成立. 例如取 $\\alpha:z=0$，令 $m$ 为 $x$ 轴，令 $n$ 过点 $(0,0,1)$ 且方向向量为 $(1,1,0)$. 则 $n\\parallel\\alpha$，但 $m$ 与 $n$ 方向不相同且不相交，二者异面，所以 $m\\parallel n$ 不成立.</p><p>第二个命题也不一定成立. 取 $\\alpha:z=0$，$\\beta:y=0$，二者相交于 $x$ 轴；令 $m$ 为过 $(0,1,1)$、方向向量为 $(1,0,0)$ 的直线. 此时 $m$ 同时平行于 $\\alpha$ 和 $\\beta$，但 $\\alpha$ 与 $\\beta$ 相交，故不能推出 $\\alpha\\parallel\\beta$.</p><p>第三个命题不一定成立. 仍取 $\\alpha:z=0$，$\\beta:y=0$，则 $n=\\alpha\\cap\\beta$ 为 $x$ 轴. 令 $m$ 为平面 $\\alpha$ 内与 $n$ 平行且不同于 $n$ 的直线，例如 $y=1$，$z=0$. 此时 $m\\parallel n$，但 $m\\subset\\alpha$，不称为 $m\\parallel\\alpha$，故结论不成立.</p><p>第四个命题成立. 同一直线垂直于两个平面，说明两个平面的法向方向都与该直线平行，因而两个平面的法向量平行. 两个平面又不重合，所以它们平行. 故只有一个真命题，选 B.</p>"
+          "solution": "<p>第一个命题不一定成立. 例如取 $\\alpha:z=0$，令 $m$ 为 $x$ 轴，令 $n$ 过点 $(0,0,1)$ 且方向向量为 $(1,1,0)$. 则 $n\\parallel\\alpha$，但 $m$ 与 $n$ 方向不相同且不相交，二者异面，所以 $m\\parallel n$ 不成立.</p><p>第二个命题也不一定成立. 取 $\\alpha:z=0$，$\\beta:y=0$，二者相交于 $x$ 轴；令 $m$ 为过 $(0,1,1)$、方向向量为 $(1,0,0)$ 的直线. 此时 $m$ 同时平行于 $\\alpha$ 和 $\\beta$，但 $\\alpha$ 与 $\\beta$ 相交，故不能推出 $\\alpha\\parallel\\beta$.</p><p>第三个命题不一定成立. 仍取 $\\alpha:z=0$，$\\beta:y=0$，则 $n=\\alpha\\cap\\beta$ 为 $x$ 轴. 令 $m$ 为平面 $\\alpha$ 内与 $n$ 平行且不同于 $n$ 的直线，例如 $y=1$，$z=0$. 此时 $m\\parallel n$，但 $m\\subset\\alpha$，不称为 $m\\parallel\\alpha$，故结论不成立.</p><p>第四个命题成立. 同一直线垂直于两个平面，说明两个平面的法向方向都与该直线平行，因而两个平面的法向量平行. 两个平面又不重合，所以它们平行. 故只有一个真命题，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "已知函数 $y = \\log_{2}x$ 的反函数是 $y = f^{-1}(x)$，则函数 $y = f^{-1}(1 - x)$ 的图象是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/fujian_liberal/q7_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/fujian_liberal/q7_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/fujian_liberal/q7_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/fujian_liberal/q7_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/fujian_liberal/q7_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/fujian_liberal/q7_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/fujian_liberal/q7_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/fujian_liberal/q7_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "C",
-          "solution": "<p>函数 $y=\\log_{2}x$ 的反函数为 $y=f^{-1}(x)=2^{x}$，所以</p>\n$$\ny=f^{-1}(1-x)=2^{1-x}=2\\left(\\frac{1}{2}\\right)^{x}\n$$\n<p>底数 $\\frac{1}{2}\\in(0,1)$，故该函数在 $\\mathbb{R}$ 上单调递减；又 $x=0$ 时 $y=2$，所以图象过 $(0,2)$，并以 $x$ 轴为水平渐近线. 符合这些特征的图象是选项 C，故选 C.</p>"
+          "solution": "<p>函数 $y=\\log_{2}x$ 的反函数为 $y=f^{-1}(x)=2^{x}$，所以</p>\n$$\ny=f^{-1}(1-x)=2^{1-x}=2\\left(\\frac{1}{2}\\right)^{x}\n$$\n<p>底数 $\\frac{1}{2}\\in(0,1)$，故该函数在 $\\mathbb{R}$ 上单调递减；又 $x=0$ 时 $y=2$，所以图象过 $(0,2)$，并以 $x$ 轴为水平渐近线. 符合这些特征的图象是选项 C，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$\\frac{5\\pi}{6}$"
           ],
           "answer": "B",
-          "solution": "<p>由垂直条件和向量数量积的定义，得</p><p>$(\\mathbf{a}-2\\mathbf{b})\\cdot\\mathbf{a}=0$，$(\\mathbf{b}-2\\mathbf{a})\\cdot\\mathbf{b}=0$.</p><p>即</p><p>$|\\mathbf{a}|^{2}=2\\mathbf{a}\\cdot\\mathbf{b}$，$|\\mathbf{b}|^{2}=2\\mathbf{a}\\cdot\\mathbf{b}$.</p><p>于是 $|\\mathbf{a}|=|\\mathbf{b}|\\neq0$，并且</p><p>$\\mathbf{a}\\cdot\\mathbf{b}=\\frac{1}{2}|\\mathbf{a}|^{2}>0$. 若夹角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{a}\\cdot\\mathbf{b}}{|\\mathbf{a}||\\mathbf{b}|}=\\frac{\\frac{1}{2}|\\mathbf{a}|^{2}}{|\\mathbf{a}|^{2}}=\\frac{1}{2}\n$$\n<p>由于 $0\\leq\\theta\\leq\\pi$，可得 $\\theta=\\frac{\\pi}{3}$，故选 B.</p>"
+          "solution": "<p>由垂直条件和向量数量积的定义，得</p><p>$(\\mathbf{a}-2\\mathbf{b})\\cdot\\mathbf{a}=0$，$(\\mathbf{b}-2\\mathbf{a})\\cdot\\mathbf{b}=0$.</p><p>即</p><p>$|\\mathbf{a}|^{2}=2\\mathbf{a}\\cdot\\mathbf{b}$，$|\\mathbf{b}|^{2}=2\\mathbf{a}\\cdot\\mathbf{b}$.</p><p>于是 $|\\mathbf{a}|=|\\mathbf{b}|\\neq0$，并且</p><p>$\\mathbf{a}\\cdot\\mathbf{b}=\\frac{1}{2}|\\mathbf{a}|^{2}>0$. 若夹角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{a}\\cdot\\mathbf{b}}{|\\mathbf{a}||\\mathbf{b}|}=\\frac{\\frac{1}{2}|\\mathbf{a}|^{2}}{|\\mathbf{a}|^{2}}=\\frac{1}{2}\n$$\n<p>由于 $0\\leq\\theta\\leq\\pi$，可得 $\\theta=\\frac{\\pi}{3}$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,11 +264,13 @@
             "$1$ 或 $2^{8}$"
           ],
           "answer": "C",
-          "solution": "<p>展开式通项为</p><p>$\\mathrm{C}_{8}^{k} x^{8-k}\\left(-\\frac{a}{x}\\right)^{k} =\\mathrm{C}_{8}^{k}(-a)^{k} x^{8-2k}$，$k=0$，$1$，$\\ldots$，$8$.</p><p>常数项要求 $8-2k=0$，故只能取 $k=4$. 于是</p><p>$\\mathrm{C}_{8}^{4}a^{4}=1120$，即 $70a^{4}=1120$，所以 $a^{4}=16$，实数 $a$ 只能为 $2$ 或 $-2$.</p><p>多项式各项系数的和等于令 $x=1$ 时的值，因此系数和为 $(1-a)^{8}$. 当 $a=2$ 时为 $1$，当 $a=-2$ 时为 $3^{8}$，故选 C.</p>"
+          "solution": "<p>展开式通项为</p><p>$\\mathrm{C}_{8}^{k} x^{8-k}\\left(-\\frac{a}{x}\\right)^{k} =\\mathrm{C}_{8}^{k}(-a)^{k} x^{8-2k}$，$k=0$，$1$，$\\ldots$，$8$.</p><p>常数项要求 $8-2k=0$，故只能取 $k=4$. 于是</p><p>$\\mathrm{C}_{8}^{4}a^{4}=1120$，即 $70a^{4}=1120$，所以 $a^{4}=16$，实数 $a$ 只能为 $2$ 或 $-2$.</p><p>多项式各项系数的和等于令 $x=1$ 时的值，因此系数和为 $(1-a)^{8}$. 当 $a=2$ 时为 $1$，当 $a=-2$ 时为 $3^{8}$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
-          "body": "<p>如图，$A$，$B$，$C$ 是表面积为 $48\\pi$ 的球面上三点，$AB = 2$，$BC = 4$，$\\angle ABC = 60^{\\circ}$，$O$ 为球心，则直线 $OA$ 与截面 $ABC$ 所成的角是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，$A$，$B$，$C$ 是表面积为 $48\\pi$ 的球面上三点，$AB = 2$，$BC = 4$，$\\angle ABC = 60^{\\circ}$，$O$ 为球心，则直线 $OA$ 与截面 $ABC$ 所成的角是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/fujian_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\arcsin \\frac{\\sqrt{3}}{6}$",
             "$\\arccos \\frac{\\sqrt{3}}{6}$",
@@ -125,7 +278,9 @@
             "$\\arccos \\frac{\\sqrt{3}}{3}$"
           ],
           "answer": "D",
-          "solution": "<p>设球半径为 $R$. 由球的表面积得</p><p>$4\\pi R^{2}=48\\pi$，所以 $R=2\\sqrt{3}$.</p><p>在 $\\triangle ABC$ 中，由余弦定理</p>\n$$\nAC^{2}=AB^{2}+BC^{2}-2\\cdot AB\\cdot BC\\cos60^{\\circ}=2^{2}+4^{2}-2\\cdot2\\cdot4\\cdot\\frac{1}{2}=12\n$$\n<p>所以 $AC=2\\sqrt{3}$. 设三角形 $ABC$ 的外接圆半径为 $r$，由正弦定理</p>\n$$\nr=\\frac{AC}{2\\sin\\angle ABC}=\\frac{2\\sqrt{3}}{2\\sin60^{\\circ}}=2\n$$\n<p>球心 $O$ 到平面 $ABC$ 的垂足 $H$ 是该外接圆圆心，因此 $HA=r=2$.</p><p>设直线 $OA$ 与平面 $ABC$ 所成的角为 $\\theta$. 在直角三角形 $OHA$ 中，$OA=R=2\\sqrt{3}$，且 $HA$ 是 $OA$ 在平面内的投影，故</p>\n$$\n\\cos\\theta=\\frac{HA}{OA}=\\frac{2}{2\\sqrt{3}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>所以 $\\theta=\\arccos\\frac{\\sqrt{3}}{3}$，故选 D.</p>"
+          "solution": "<p>设球半径为 $R$. 由球的表面积得</p><p>$4\\pi R^{2}=48\\pi$，所以 $R=2\\sqrt{3}$.</p><p>在 $\\triangle ABC$ 中，由余弦定理</p>\n$$\nAC^{2}=AB^{2}+BC^{2}-2\\cdot AB\\cdot BC\\cos60^{\\circ}=2^{2}+4^{2}-2\\cdot2\\cdot4\\cdot\\frac{1}{2}=12\n$$\n<p>所以 $AC=2\\sqrt{3}$. 设三角形 $ABC$ 的外接圆半径为 $r$，由正弦定理</p>\n$$\nr=\\frac{AC}{2\\sin\\angle ABC}=\\frac{2\\sqrt{3}}{2\\sin60^{\\circ}}=2\n$$\n<p>球心 $O$ 到平面 $ABC$ 的垂足 $H$ 是该外接圆圆心，因此 $HA=r=2$.</p><p>设直线 $OA$ 与平面 $ABC$ 所成的角为 $\\theta$. 在直角三角形 $OHA$ 中，$OA=R=2\\sqrt{3}$，且 $HA$ 是 $OA$ 在平面内的投影，故</p>\n$$\n\\cos\\theta=\\frac{HA}{OA}=\\frac{2}{2\\sqrt{3}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>所以 $\\theta=\\arccos\\frac{\\sqrt{3}}{3}$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,19 +292,23 @@
             "$f\\left(\\sin \\frac{3}{2}\\right) > f\\left(\\cos \\frac{3}{2}\\right)$"
           ],
           "answer": "C",
-          "solution": "<p>令 $|t|\\leq1$. 由偶性，$f(t)=f(|t|)=f(-|t|)$；再由周期为 $2$，有</p><p>$f(-|t|)=f(2-|t|)=f(4-|t|)$，其中 $4-|t|\\in[3,4]$. 利用已知函数值，得到</p>\n$$\nf(t)=f(4-|t|)=(4-|t|)-2=2-|t|\n$$\n<p>因为 $0<\\frac{1}{2}<\\frac{\\pi}{4}$，所以 $\\sin\\frac{1}{2}<\\cos\\frac{1}{2}$，从而 $f(\\sin\\frac{1}{2})>f(\\cos\\frac{1}{2})$，A 错. 又 $\\frac{\\pi}{3}>\\frac{\\pi}{4}$，故 $\\sin\\frac{\\pi}{3}>\\cos\\frac{\\pi}{3}$，所以 B 中不等号方向相反，B 错. 由于 $\\frac{\\pi}{4}<1<\\frac{\\pi}{2}$，有 $\\sin1>\\cos1$，从而</p><p>$f(\\sin1)=2-\\sin1<2-\\cos1=f(\\cos1)$，C 对. 最后 $\\frac{\\pi}{4}<\\frac{3}{2}<\\frac{\\pi}{2}$，有 $\\sin\\frac{3}{2}>\\cos\\frac{3}{2}$，故 D 错. 因此选 C.</p>"
+          "solution": "<p>令 $|t|\\leq1$. 由偶性，$f(t)=f(|t|)=f(-|t|)$；再由周期为 $2$，有</p><p>$f(-|t|)=f(2-|t|)=f(4-|t|)$，其中 $4-|t|\\in[3,4]$. 利用已知函数值，得到</p>\n$$\nf(t)=f(4-|t|)=(4-|t|)-2=2-|t|\n$$\n<p>因为 $0<\\frac{1}{2}<\\frac{\\pi}{4}$，所以 $\\sin\\frac{1}{2}<\\cos\\frac{1}{2}$，从而 $f(\\sin\\frac{1}{2})>f(\\cos\\frac{1}{2})$，A 错. 又 $\\frac{\\pi}{3}>\\frac{\\pi}{4}$，故 $\\sin\\frac{\\pi}{3}>\\cos\\frac{\\pi}{3}$，所以 B 中不等号方向相反，B 错. 由于 $\\frac{\\pi}{4}<1<\\frac{\\pi}{2}$，有 $\\sin1>\\cos1$，从而</p><p>$f(\\sin1)=2-\\sin1<2-\\cos1=f(\\cos1)$，C 对. 最后 $\\frac{\\pi}{4}<\\frac{3}{2}<\\frac{\\pi}{2}$，有 $\\sin\\frac{3}{2}>\\cos\\frac{3}{2}$，故 D 错. 因此选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
-          "body": "<p>如图，$B$ 地在 $A$ 地的正东方向 $4\\mathrm{~km}$ 处，$C$ 地在 $B$ 地的北偏东 $30^{\\circ}$ 方向 $2\\mathrm{~km}$ 处，河流的某岸 $PQ$（曲线）上任意一点到 $A$ 的距离比到 $B$ 的距离远 $2\\mathrm{~km}$. 现要在曲线 $PQ$ 上选一处 $M$ 建一座码头，向 $B$，$C$ 两地转运货物. 经测算，从 $M$ 到 $B$，$C$ 两地修建公路的费用分别是 $a\\text{ 万元}/\\mathrm{km}$，$2a\\text{ 万元}/\\mathrm{km}$，那么修建这两条公路的总费用最低是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，$B$ 地在 $A$ 地的正东方向 $4\\mathrm{~km}$ 处，$C$ 地在 $B$ 地的北偏东 $30^{\\circ}$ 方向 $2\\mathrm{~km}$ 处，河流的某岸 $PQ$（曲线）上任意一点到 $A$ 的距离比到 $B$ 的距离远 $2\\mathrm{~km}$. 现要在曲线 $PQ$ 上选一处 $M$ 建一座码头，向 $B$，$C$ 两地转运货物. 经测算，从 $M$ 到 $B$，$C$ 两地修建公路的费用分别是 $a\\text{ 万元}/\\mathrm{km}$，$2a\\text{ 万元}/\\mathrm{km}$，那么修建这两条公路的总费用最低是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/fujian_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$(\\sqrt{7}+ 1)a\\text{ 万元}$",
             "$(2\\sqrt{7}- 2)a\\text{ 万元}$",
             "$2\\sqrt{7}a\\text{ 万元}$",
             "$(\\sqrt{7}- 1)a\\text{ 万元}$"
           ],
-          "answer": "四个选项均错误；最低总费用为 $5a\\text{ 万元}$.",
-          "solution": "<p>取 $A(0,0)$，$B(4,0)$，令正东方向为 $x$ 轴正向、正北方向为 $y$ 轴正向. 因为 $BC=2$，且 $BC$ 为北偏东 $30^{\\circ}$ 方向，所以 $C(4+2\\sin30^{\\circ},2\\cos30^{\\circ})$，即 $C(5,\\sqrt{3})$.</p><p>河岸上的点 $M$ 满足 $MA-MB=2$. 以 $AB$ 的中点为原点，令 $r=x-2$，则由双曲线定义，$M$ 在以 $A$，$B$ 为焦点、实半轴长为 $1$ 的右支上，故</p><p>$\\frac{r^{2}}{1^{2}}-\\frac{y^{2}}{3}=1$，$r\\geq1$，$y^{2}=3(r^{2}-1)$.</p><p>这里 $x=r+2$. 于是</p>\n$$\nMB^{2}=(x-4)^{2}+y^{2}=(r-2)^{2}+3(r^{2}-1)=(2r-1)^{2}\n$$\n<p>因 $r\\geq1$，所以 $MB=2r-1$.</p><p>修路的单位费用为正，故 $a>0$. 公路总费用除以 $a$ 后为</p><p>$MB+2MC$. 又</p>\n$$\nMC^{2}=(x-5)^{2}+(y-\\sqrt{3})^{2}=(r-3)^{2}+(y-\\sqrt{3})^{2}\n$$\n<p>当 $1\\leq r<3$ 时，距离不小于横坐标差的绝对值，故 $MC\\geq3-r$，从而</p>\n$$\nMB+2MC\\geq(2r-1)+2(3-r)=5\n$$\n<p>当 $r\\geq3$ 时，$MC\\geq0$，故</p><p>$MB+2MC\\geq MB=2r-1\\geq5$，因此总费用至少为 $5a$.</p><p>当 $r=\\sqrt{2}$，$y=\\sqrt{3}$ 时，点 $M(2+\\sqrt{2},\\sqrt{3})$ 在上述双曲线上，且 $M$，$C$ 同高，所以 $MC=3-r$. 此时</p>\n$$\nMB+2MC=(2\\sqrt{2}-1)+2(3-\\sqrt{2})=5\n$$\n<p>达到下界. 回代得 $MA=2\\sqrt{2}+1$，$MB=2\\sqrt{2}-1$，所以 $MA-MB=2$，且 $MC=3-\\sqrt{2}>0$，满足原题条件. 在 $1\\leq r<3$ 时，等号要求 $y=\\sqrt{3}$，结合 $y^{2}=3(r^{2}-1)$ 得 $r=\\sqrt{2}$；在 $r\\geq3$ 时，等号要求 $r=3$ 且 $MC=0$，即 $M=C$，但 $C$ 不在双曲线上，故不能取等号. 因而最低总费用为 $5a\\text{ 万元}$，且仅在 $M(2+\\sqrt{2},\\sqrt{3})$ 时取到.</p><p>由于 $\\frac{5}{2}<\\sqrt{7}<3$，有 $\\frac{7}{2}<\\sqrt{7}+1<4$，$3<2\\sqrt{7}-2<4$，$5<2\\sqrt{7}<6$，$\\frac{3}{2}<\\sqrt{7}-1<2$. 四个选项的系数均不等于 $5$，而 $a>0$，故四个选项均错误，无正确选项.</p>"
+          "answer": "四个选项均错误；最低总费用为 \\(5a\\text{ 万元}\\).",
+          "solution": "<p>取 $A(0,0)$，$B(4,0)$，令正东方向为 $x$ 轴正向、正北方向为 $y$ 轴正向. 因为 $BC=2$，且 $BC$ 为北偏东 $30^{\\circ}$ 方向，所以 $C(4+2\\sin30^{\\circ},2\\cos30^{\\circ})$，即 $C(5,\\sqrt{3})$.</p><p>河岸上的点 $M$ 满足 $MA-MB=2$. 以 $AB$ 的中点为原点，令 $r=x-2$，则由双曲线定义，$M$ 在以 $A$，$B$ 为焦点、实半轴长为 $1$ 的右支上，故</p><p>$\\frac{r^{2}}{1^{2}}-\\frac{y^{2}}{3}=1$，$r\\geq1$，$y^{2}=3(r^{2}-1)$.</p><p>这里 $x=r+2$. 于是</p>\n$$\nMB^{2}=(x-4)^{2}+y^{2}=(r-2)^{2}+3(r^{2}-1)=(2r-1)^{2}\n$$\n<p>因 $r\\geq1$，所以 $MB=2r-1$.</p><p>修路的单位费用为正，故 $a>0$. 公路总费用除以 $a$ 后为</p><p>$MB+2MC$. 又</p>\n$$\nMC^{2}=(x-5)^{2}+(y-\\sqrt{3})^{2}=(r-3)^{2}+(y-\\sqrt{3})^{2}\n$$\n<p>当 $1\\leq r<3$ 时，距离不小于横坐标差的绝对值，故 $MC\\geq3-r$，从而</p>\n$$\nMB+2MC\\geq(2r-1)+2(3-r)=5\n$$\n<p>当 $r\\geq3$ 时，$MC\\geq0$，故</p><p>$MB+2MC\\geq MB=2r-1\\geq5$，因此总费用至少为 $5a$.</p><p>当 $r=\\sqrt{2}$，$y=\\sqrt{3}$ 时，点 $M(2+\\sqrt{2},\\sqrt{3})$ 在上述双曲线上，且 $M$，$C$ 同高，所以 $MC=3-r$. 此时</p>\n$$\nMB+2MC=(2\\sqrt{2}-1)+2(3-\\sqrt{2})=5\n$$\n<p>达到下界. 回代得 $MA=2\\sqrt{2}+1$，$MB=2\\sqrt{2}-1$，所以 $MA-MB=2$，且 $MC=3-\\sqrt{2}>0$，满足原题条件. 在 $1\\leq r<3$ 时，等号要求 $y=\\sqrt{3}$，结合 $y^{2}=3(r^{2}-1)$ 得 $r=\\sqrt{2}$；在 $r\\geq3$ 时，等号要求 $r=3$ 且 $MC=0$，即 $M=C$，但 $C$ 不在双曲线上，故不能取等号. 因而最低总费用为 $5a\\text{ 万元}$，且仅在 $M(2+\\sqrt{2},\\sqrt{3})$ 时取到.</p><p>由于 $\\frac{5}{2}<\\sqrt{7}<3$，有 $\\frac{7}{2}<\\sqrt{7}+1<4$，$3<2\\sqrt{7}-2<4$，$5<2\\sqrt{7}<6$，$\\frac{3}{2}<\\sqrt{7}-1<2$. 四个选项的系数均不等于 $5$，而 $a>0$，故四个选项均错误，无正确选项.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +318,38 @@
         {
           "num": 13,
           "body": "直线 $x + 2y = 0$ 被曲线 $x^{2}+ y^{2}- 6x - 2y - 15 = 0$ 所截得的弦长等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$4\\sqrt{5}$",
-          "solution": "<p>将曲线方程配方，得</p>\n$$\nx^{2}-6x+y^{2}-2y-15=0   \\Longleftrightarrow   (x-3)^{2}+(y-1)^{2}=25\n$$\n<p>所以圆心为 $O_{1}=(3,1)$，半径为 $R=5$. 圆心到直线 $x+2y=0$ 的距离为</p>\n$$\nd=\\frac{|3+2\\cdot1|}{\\sqrt{1^{2}+2^{2}}}=\\sqrt{5}<5\n$$\n<p>因此该直线确实与圆相交，弦长为</p>\n$$\n2\\sqrt{R^{2}-d^{2}}=2\\sqrt{25-5}=2\\sqrt{20}=4\\sqrt{5}\n$$"
+          "choices": [],
+          "answer": "\\(4\\sqrt{5}\\)",
+          "solution": "<p>将曲线方程配方，得</p>\n$$\nx^{2}-6x+y^{2}-2y-15=0   \\Longleftrightarrow   (x-3)^{2}+(y-1)^{2}=25\n$$\n<p>所以圆心为 $O_{1}=(3,1)$，半径为 $R=5$. 圆心到直线 $x+2y=0$ 的距离为</p>\n$$\nd=\\frac{|3+2\\cdot1|}{\\sqrt{1^{2}+2^{2}}}=\\sqrt{5}<5\n$$\n<p>因此该直线确实与圆相交，弦长为</p>\n$$\n2\\sqrt{R^{2}-d^{2}}=2\\sqrt{25-5}=2\\sqrt{20}=4\\sqrt{5}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "设函数 $f(x) = \\begin{cases}\\frac{1}{2}x - 1, & \\text{（x \\ge 0）} ,\\\\\n\n\\frac{1}{x}, & \\text{（x < 0）} .\\end{cases}$ 若 $f(a) > a$，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(-\\infty,-1)$",
-          "solution": "<p>按分段点 $0$ 分类讨论.</p><p>当 $a\\geq0$ 时，$f(a)=\\frac{1}{2}a-1$，所以</p>\n$$\nf(a)>a \\Longleftrightarrow  \\frac{1}{2}a-1>a   \\Longleftrightarrow  a<-2\n$$\n<p>这与 $a\\geq0$ 矛盾，故这一段没有解.</p><p>当 $a<0$ 时，$f(a)=\\frac{1}{a}$. 由于乘以负数 $a$ 时不等号方向改变，</p>\n$$\n\\frac{1}{a}>a \\Longleftrightarrow  1<a^{2}\n$$\n<p>结合 $a<0$，得到 $a<-1$. 端点 $a=-1$ 只能得到等号，不满足严格不等式. 故实数 $a$ 的取值范围为 $(-\\infty,-1)$.</p>"
+          "choices": [],
+          "answer": "\\((-\\infty,-1)\\)",
+          "solution": "<p>按分段点 $0$ 分类讨论.</p><p>当 $a\\geq0$ 时，$f(a)=\\frac{1}{2}a-1$，所以</p>\n$$\nf(a)>a \\Longleftrightarrow  \\frac{1}{2}a-1>a   \\Longleftrightarrow  a<-2\n$$\n<p>这与 $a\\geq0$ 矛盾，故这一段没有解.</p><p>当 $a<0$ 时，$f(a)=\\frac{1}{a}$. 由于乘以负数 $a$ 时不等号方向改变，</p>\n$$\n\\frac{1}{a}>a \\Longleftrightarrow  1<a^{2}\n$$\n<p>结合 $a<0$，得到 $a<-1$. 端点 $a=-1$ 只能得到等号，不满足严格不等式. 故实数 $a$ 的取值范围为 $(-\\infty,-1)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "一个总体中有 $100$ 个个体，随机编号 $0$，$1$，$2$，$\\dots$，$99$，依编号顺序平均分成 $10$ 个小组，组号依次为 $1$，$2$，$3$，$\\dots$，$10$，现用系统抽样方法抽取一个容量为 $10$ 的样本. 规定如果在第 $1$ 组随机抽取的号码为 $m$，那么在第 $k$ 组中抽取的号码个位数字与 $m + k$ 的个位数字相同. 若 $m = 6$，则在第 $7$ 组中抽取的号码是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "63",
-          "solution": "<p>每组有 $10$ 个连续编号，第 $7$ 组的编号为 $60$，$61$，$\\ldots$，$69$. 题设规定第 $k$ 组抽取号码的个位数字与 $m+k$ 的个位数字相同. 取 $k=7$，且 $m=6$，则</p><p>$m+k=6+7=13$，其个位数字为 $3$. 因此第 $7$ 组抽取的号码是 $63$.</p>"
+          "solution": "<p>每组有 $10$ 个连续编号，第 $7$ 组的编号为 $60$，$61$，$\\ldots$，$69$. 题设规定第 $k$ 组抽取号码的个位数字与 $m+k$ 的个位数字相同. 取 $k=7$，且 $m=6$，则</p><p>$m+k=6+7=13$，其个位数字为 $3$. 因此第 $7$ 组抽取的号码是 $63$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
-          "body": "<p>如图，将边长为 $1$ 的正六边形铁皮的六个角各切去一个全等的四边形，再沿虚线折起，做成一个无盖的正六棱柱容器. 当这个正六棱柱容器的底面边长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 时，其容积最大.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{2}{3}$",
-          "solution": "<p>设折成的正六棱柱底面边长为 $x$. 由图形实际存在，$0<x<1$. 原正六边形与折成的底面六边形对应边平行；正六边形边长每减少 $1-x$，相邻对应平行边的距离为 $\\frac{\\sqrt{3}}{2}(1-x)$，故棱柱高为</p>\n$$\nh=\\frac{\\sqrt{3}}{2}(1-x)\n$$\n<p>边长为 $x$ 的正六边形面积为六个正三角形面积之和，即</p>\n$$\nS=6\\cdot\\frac{\\sqrt{3}}{4}x^{2}=\\frac{3\\sqrt{3}}{2}x^{2}\n$$\n<p>所以容积函数为</p>\n$$\nV(x)=Sh=\\frac{3\\sqrt{3}}{2}x^{2}\\cdot\\frac{\\sqrt{3}}{2}(1-x)  =\\frac{9}{4}x^{2}(1-x)\n$$\n<p>求导得</p>\n$$\nV'(x)=\\frac{9}{4}(2x-3x^{2})=\\frac{9}{4}x(2-3x)\n$$\n<p>在 $0<x<1$ 内，$V'(x)>0$ 当 $0<x<\\frac{2}{3}$，$V'(x)<0$ 当 $\\frac{2}{3}<x<1$. 因此容积先增后减，在 $x=\\frac{2}{3}$ 时取得最大值. 填 $\\frac{2}{3}$.</p>"
+          "body": "<p>如图，将边长为 $1$ 的正六边形铁皮的六个角各切去一个全等的四边形，再沿虚线折起，做成一个无盖的正六棱柱容器. 当这个正六棱柱容器的底面边长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 时，其容积最大.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/fujian_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{2}{3}\\)",
+          "solution": "<p>设折成的正六棱柱底面边长为 $x$. 由图形实际存在，$0<x<1$. 原正六边形与折成的底面六边形对应边平行；正六边形边长每减少 $1-x$，相邻对应平行边的距离为 $\\frac{\\sqrt{3}}{2}(1-x)$，故棱柱高为</p>\n$$\nh=\\frac{\\sqrt{3}}{2}(1-x)\n$$\n<p>边长为 $x$ 的正六边形面积为六个正三角形面积之和，即</p>\n$$\nS=6\\cdot\\frac{\\sqrt{3}}{4}x^{2}=\\frac{3\\sqrt{3}}{2}x^{2}\n$$\n<p>所以容积函数为</p>\n$$\nV(x)=Sh=\\frac{3\\sqrt{3}}{2}x^{2}\\cdot\\frac{\\sqrt{3}}{2}(1-x)  =\\frac{9}{4}x^{2}(1-x)\n$$\n<p>求导得</p>\n$$\nV'(x)=\\frac{9}{4}(2x-3x^{2})=\\frac{9}{4}x(2-3x)\n$$\n<p>在 $0<x<1$ 内，$V'(x)>0$ 当 $0<x<\\frac{2}{3}$，$V'(x)<0$ 当 $\\frac{2}{3}<x<1$. 因此容积先增后减，在 $x=\\frac{2}{3}$ 时取得最大值. 填 $\\frac{2}{3}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "<p>设函数 $f(x) = \\mathbf{a}\\cdot \\mathbf{b}$，其中向量 $\\mathbf{a}= (2\\cos x, 1)$，$\\mathbf{b}= (\\cos x, \\sqrt{3}\\sin 2x)$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>若 $f(x) = 1 - \\sqrt{3}$ 且 $x \\in \\left[-\\frac{\\pi}{3}, \\frac{\\pi}{3}\\right]$，求 $x$；</p></li><li><p>若函数 $y = 2\\sin 2x$ 的图象按向量 $\\mathbf{c}= (m, n)$（$|m| < \\frac{\\pi}{2}$）平移后得到函数 $y = f(x)$ 的图象，求实数 $m$，$n$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由点积公式，</p>\n$$\nf(x)=2\\cos^{2}x+\\sqrt{3}\\sin2x  =1+\\cos2x+\\sqrt{3}\\sin2x  =1+2\\sin\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n<ol class=\"enumerate\"><li><p>当 $f(x)=1-\\sqrt{3}$ 时，</p>\n$$\n\\sin\\left(2x+\\frac{\\pi}{6}\\right)=-\\frac{\\sqrt{3}}{2}\n$$\n<p>由 $x\\in\\left[-\\frac{\\pi}{3},\\frac{\\pi}{3}\\right]$，可知</p>\n$$\n2x+\\frac{\\pi}{6}\\in\\left[-\\frac{\\pi}{2},\\frac{5\\pi}{6}\\right]\n$$\n<p>在此区间内，正弦值为 $-\\frac{\\sqrt{3}}{2}$ 的唯一角是 $-\\frac{\\pi}{3}$，故</p><p>$2x+\\frac{\\pi}{6}=-\\frac{\\pi}{3}$，$x=-\\frac{\\pi}{4}$.</p></li><li><p>将函数 $y=2\\sin2x$ 按向量 $(m,n)$ 平移后，横坐标为 $x$ 的点来自原图象横坐标 $x-m$ 的点，所以新图象方程为</p>\n$$\ny=2\\sin\\bigl(2(x-m)\\bigr)+n  =2\\sin(2x-2m)+n\n$$\n<p>要与 $f(x)=1+2\\sin(2x+\\frac{\\pi}{6})$ 恒相同，比较中线得 $n=1$，比较相位得</p>\n$$\n-2m\\equiv\\frac{\\pi}{6}\\pmod{2\\pi}\n$$\n<p>因此 $m=-\\frac{\\pi}{12}-k\\pi$，其中 $k\\in\\mathbb{Z}$. 条件 $|m|<\\frac{\\pi}{2}$ 只允许 $k=0$，故 $m=-\\frac{\\pi}{12}$，$n=1$.</p></li></ol>"
+          "solution": "<p>由点积公式，</p>\n$$\nf(x)=2\\cos^{2}x+\\sqrt{3}\\sin2x  =1+\\cos2x+\\sqrt{3}\\sin2x  =1+2\\sin\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n<ol class=\"enumerate\"><li><p>当 $f(x)=1-\\sqrt{3}$ 时，</p>\n$$\n\\sin\\left(2x+\\frac{\\pi}{6}\\right)=-\\frac{\\sqrt{3}}{2}\n$$\n<p>由 $x\\in\\left[-\\frac{\\pi}{3},\\frac{\\pi}{3}\\right]$，可知</p>\n$$\n2x+\\frac{\\pi}{6}\\in\\left[-\\frac{\\pi}{2},\\frac{5\\pi}{6}\\right]\n$$\n<p>在此区间内，正弦值为 $-\\frac{\\sqrt{3}}{2}$ 的唯一角是 $-\\frac{\\pi}{3}$，故</p><p>$2x+\\frac{\\pi}{6}=-\\frac{\\pi}{3}$，$x=-\\frac{\\pi}{4}$.</p></li><li><p>将函数 $y=2\\sin2x$ 按向量 $(m,n)$ 平移后，横坐标为 $x$ 的点来自原图象横坐标 $x-m$ 的点，所以新图象方程为</p>\n$$\ny=2\\sin\\bigl(2(x-m)\\bigr)+n  =2\\sin(2x-2m)+n\n$$\n<p>要与 $f(x)=1+2\\sin(2x+\\frac{\\pi}{6})$ 恒相同，比较中线得 $n=1$，比较相位得</p>\n$$\n-2m\\equiv\\frac{\\pi}{6}\\pmod{2\\pi}\n$$\n<p>因此 $m=-\\frac{\\pi}{12}-k\\pi$，其中 $k\\in\\mathbb{Z}$. 条件 $|m|<\\frac{\\pi}{2}$ 只允许 $k=0$，故 $m=-\\frac{\\pi}{12}$，$n=1$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>甲，乙两人参加一次英语口语考试，已知在备选的 $10$ 道试题中，甲能答对其中的 $6$ 题，乙能答对其中的 $8$ 题. 规定每次考试都从备选题中随机抽出 $3$ 题进行测试，至少答对 $2$ 题才算合格.</p><ol class=\"enumerate\"><li><p>求甲，乙两人考试合格的概率；</p></li><li><p>求甲，乙两人至少有一人考试合格的概率.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>每人的试题都从 $10$ 道题中抽取 $3$ 道，等可能的抽法总数为 $\\mathrm{C}_{10}^{3}=120$. 甲答对至少 $2$ 题包括答对恰好 $2$ 题和恰好 $3$ 题两种情况，因此</p>\n$$\nP(\\text{甲合格})  =\\frac{\\mathrm{C}_{6}^{2}\\mathrm{C}_{4}^{1}+\\mathrm{C}_{6}^{3}}{\\mathrm{C}_{10}^{3}}=\\frac{15\\cdot4+20}{120}=\\frac{2}{3}\n$$\n<p>乙能答对 $8$ 道、答错 $2$ 道，同理</p>\n$$\nP(\\text{乙合格})  =\\frac{\\mathrm{C}_{8}^{2}\\mathrm{C}_{2}^{1}+\\mathrm{C}_{8}^{3}}{\\mathrm{C}_{10}^{3}}=\\frac{28\\cdot2+56}{120}=\\frac{14}{15}\n$$\n</li><li><p>两人的试题分别随机抽取，所以两人的合格事件相互独立. 两人都不合格的概率为</p>\n$$\n\\left(1-\\frac{2}{3}\\right)\\left(1-\\frac{14}{15}\\right)  =\\frac{1}{3}\\cdot\\frac{1}{15}=\\frac{1}{45}\n$$\n<p>故至少一人合格的概率为</p>\n$$\n1-\\frac{1}{45}=\\frac{44}{45}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>每人的试题都从 $10$ 道题中抽取 $3$ 道，等可能的抽法总数为 $\\mathrm{C}_{10}^{3}=120$. 甲答对至少 $2$ 题包括答对恰好 $2$ 题和恰好 $3$ 题两种情况，因此</p>\n$$\nP(\\text{甲合格})  =\\frac{\\mathrm{C}_{6}^{2}\\mathrm{C}_{4}^{1}+\\mathrm{C}_{6}^{3}}{\\mathrm{C}_{10}^{3}}=\\frac{15\\cdot4+20}{120}=\\frac{2}{3}\n$$\n<p>乙能答对 $8$ 道、答错 $2$ 道，同理</p>\n$$\nP(\\text{乙合格})  =\\frac{\\mathrm{C}_{8}^{2}\\mathrm{C}_{2}^{1}+\\mathrm{C}_{8}^{3}}{\\mathrm{C}_{10}^{3}}=\\frac{28\\cdot2+56}{120}=\\frac{14}{15}\n$$\n</li><li><p>两人的试题分别随机抽取，所以两人的合格事件相互独立. 两人都不合格的概率为</p>\n$$\n\\left(1-\\frac{2}{3}\\right)\\left(1-\\frac{14}{15}\\right)  =\\frac{1}{3}\\cdot\\frac{1}{15}=\\frac{1}{45}\n$$\n<p>故至少一人合格的概率为</p>\n$$\n1-\\frac{1}{45}=\\frac{44}{45}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>在三棱锥 $S - ABC$ 中，$\\triangle ABC$ 是边长为 $4$ 的正三角形，平面 $SAC \\perp$ 平面 $ABC$，$SA = SC = 2\\sqrt{2}$，$M$ 为 $AB$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$AC \\perp SB$；</p></li><li><p>求二面角 $S - CM - B$ 的大小；</p></li><li><p>求点 $B$ 到平面 $SCM$ 的距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>在三棱锥 $S - ABC$ 中，$\\triangle ABC$ 是边长为 $4$ 的正三角形，平面 $SAC \\perp$ 平面 $ABC$，$SA = SC = 2\\sqrt{2}$，$M$ 为 $AB$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$AC \\perp SB$；</p></li><li><p>求二面角 $S - CM - B$ 的大小；</p></li><li><p>求点 $B$ 到平面 $SCM$ 的距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/fujian_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>建立空间直角坐标系，取</p><p>$A=(0,0,0)$，$C=(4,0,0)$，$B=(2,2\\sqrt{3},0)$.</p><p>于是平面 $ABC$ 是 $z=0$. 平面 $SAC$ 与平面 $ABC$ 垂直，且包含 $AC$，可取为 $y=0$. 由 $SA=SC$，点 $S$ 在 $AC$ 的中垂面内；结合 $S\\in\\{y=0\\}$，可设 $S=(2,0,h)$. 由 $SA=2\\sqrt{2}$，得</p><p>$(2-0)^{2}+h^{2}=8$，$h^{2}=4$.</p><p>取图示方向 $h=2$，所以 $S=(2,0,2)$. 又 $M$ 是 $AB$ 的中点，故 $M=(1,\\sqrt{3},0)$.</p><ol class=\"enumerate\"><li><p>$\\overrightarrow{AC}=(4,0,0)$，$\\overrightarrow{SB}=B-S=(0,2\\sqrt{3},-2)$. 因此</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{SB}=4\\cdot0+0\\cdot2\\sqrt{3}+0\\cdot(-2)=0\n$$\n<p>所以 $AC\\perp SB$.</p></li><li><p>取 $C$ 为棱 $CM$ 上的点，把 $\\overrightarrow{CS}$，$\\overrightarrow{CB}$ 分别正投影到过 $C$ 且垂直于 $CM$ 的平面内. 先有</p><p>$\\overrightarrow{CM}=(-3,\\sqrt{3},0)$，$\\overrightarrow{CS}=(-2,0,2)$，$\\overrightarrow{CB}=(-2,2\\sqrt{3},0)$，$|\\overrightarrow{CM}|^{2}=12$.</p><p>计算得 $\\overrightarrow{CS}\\cdot\\overrightarrow{CM}=6$，$\\overrightarrow{CB}\\cdot\\overrightarrow{CM}=12$，故两条投影向量分别为</p>\n$$\n\\overrightarrow{u}=\\overrightarrow{CS}-\\frac{6}{12}\\overrightarrow{CM}=\\left(-\\frac{1}{2},-\\frac{\\sqrt{3}}{2},2\\right)\n$$\n\n$$\n\\overrightarrow{v}=\\overrightarrow{CB}-\\frac{12}{12}\\overrightarrow{CM}=(1,\\sqrt{3},0)\n$$\n<p>它们分别位于半平面 $SCM$ 和 $BCM$ 内，且都垂直于棱 $CM$，所以 $\\angle(\\overrightarrow u,\\overrightarrow v)$ 是所求二面角的平面角. 又</p><p>$\\overrightarrow u\\cdot\\overrightarrow v=-2$，$|\\overrightarrow u|=\\sqrt{5}$，$|\\overrightarrow v|=2$.</p><p>设二面角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{-2}{2\\sqrt{5}}=-\\frac{1}{\\sqrt{5}}\n$$\n<p>因此 $\\theta=\\arccos\\left(-\\frac{1}{\\sqrt{5}}\\right)=\\pi-\\arctan 2$.</p></li><li><p>由</p>\n$$\n\\overrightarrow{CM}\\times\\overrightarrow{CS}=(2\\sqrt{3},6,2\\sqrt{3})\n$$\n<p>可取平面 $SCM$ 的法向量为 $\\mathbf{n}=(\\sqrt{3},3,\\sqrt{3})$. 平面过点 $C=(4,0,0)$，故其方程为</p>\n$$\n\\sqrt{3}(x-4)+3y+\\sqrt{3}z=0\n$$\n<p>即 $x+\\sqrt{3}y+z-4=0$. 点 $B=(2,2\\sqrt{3},0)$ 到此平面的距离为</p>\n$$\n\\frac{|2+\\sqrt{3}\\cdot2\\sqrt{3}+0-4|}{\\sqrt{1+3+1}}=\\frac{4}{\\sqrt{5}}=\\frac{4\\sqrt{5}}{5}\n$$\n</li></ol>"
+          "solution": "<p>建立空间直角坐标系，取</p><p>$A=(0,0,0)$，$C=(4,0,0)$，$B=(2,2\\sqrt{3},0)$.</p><p>于是平面 $ABC$ 是 $z=0$. 平面 $SAC$ 与平面 $ABC$ 垂直，且包含 $AC$，可取为 $y=0$. 由 $SA=SC$，点 $S$ 在 $AC$ 的中垂面内；结合 $S\\in\\{y=0\\}$，可设 $S=(2,0,h)$. 由 $SA=2\\sqrt{2}$，得</p><p>$(2-0)^{2}+h^{2}=8$，$h^{2}=4$.</p><p>取图示方向 $h=2$，所以 $S=(2,0,2)$. 又 $M$ 是 $AB$ 的中点，故 $M=(1,\\sqrt{3},0)$.</p><ol class=\"enumerate\"><li><p>$\\overrightarrow{AC}=(4,0,0)$，$\\overrightarrow{SB}=B-S=(0,2\\sqrt{3},-2)$. 因此</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{SB}=4\\cdot0+0\\cdot2\\sqrt{3}+0\\cdot(-2)=0\n$$\n<p>所以 $AC\\perp SB$.</p></li><li><p>取 $C$ 为棱 $CM$ 上的点，把 $\\overrightarrow{CS}$，$\\overrightarrow{CB}$ 分别正投影到过 $C$ 且垂直于 $CM$ 的平面内. 先有</p><p>$\\overrightarrow{CM}=(-3,\\sqrt{3},0)$，$\\overrightarrow{CS}=(-2,0,2)$，$\\overrightarrow{CB}=(-2,2\\sqrt{3},0)$，$|\\overrightarrow{CM}|^{2}=12$.</p><p>计算得 $\\overrightarrow{CS}\\cdot\\overrightarrow{CM}=6$，$\\overrightarrow{CB}\\cdot\\overrightarrow{CM}=12$，故两条投影向量分别为</p>\n$$\n\\overrightarrow{u}=\\overrightarrow{CS}-\\frac{6}{12}\\overrightarrow{CM}=\\left(-\\frac{1}{2},-\\frac{\\sqrt{3}}{2},2\\right)\n$$\n\n$$\n\\overrightarrow{v}=\\overrightarrow{CB}-\\frac{12}{12}\\overrightarrow{CM}=(1,\\sqrt{3},0)\n$$\n<p>它们分别位于半平面 $SCM$ 和 $BCM$ 内，且都垂直于棱 $CM$，所以 $\\angle(\\overrightarrow u,\\overrightarrow v)$ 是所求二面角的平面角. 又</p><p>$\\overrightarrow u\\cdot\\overrightarrow v=-2$，$|\\overrightarrow u|=\\sqrt{5}$，$|\\overrightarrow v|=2$.</p><p>设二面角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{-2}{2\\sqrt{5}}=-\\frac{1}{\\sqrt{5}}\n$$\n<p>因此 $\\theta=\\arccos\\left(-\\frac{1}{\\sqrt{5}}\\right)=\\pi-\\arctan 2$.</p></li><li><p>由</p>\n$$\n\\overrightarrow{CM}\\times\\overrightarrow{CS}=(2\\sqrt{3},6,2\\sqrt{3})\n$$\n<p>可取平面 $SCM$ 的法向量为 $\\mathbf{n}=(\\sqrt{3},3,\\sqrt{3})$. 平面过点 $C=(4,0,0)$，故其方程为</p>\n$$\n\\sqrt{3}(x-4)+3y+\\sqrt{3}z=0\n$$\n<p>即 $x+\\sqrt{3}y+z-4=0$. 点 $B=(2,2\\sqrt{3},0)$ 到此平面的距离为</p>\n$$\n\\frac{|2+\\sqrt{3}\\cdot2\\sqrt{3}+0-4|}{\\sqrt{1+3+1}}=\\frac{4}{\\sqrt{5}}=\\frac{4\\sqrt{5}}{5}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>某企业 $2003$ 年的纯利润为 $500\\text{ 万元}$，因设备老化等原因，企业的生产能力将逐年下降. 若不能进行技术改造，预测从今年起每年比上一年纯利润减少 $20\\text{ 万元}$，今年初该企业一次性投入资金 $600\\text{ 万元}$ 进行技术改造，预测在未扣除技术改造资金的情况下，第 $n$ 年（今年为第一年）的利润为 $500\\left(1 + \\frac{1}{2^{n}}\\right)\\text{ 万元}$（$n$ 为正整数）.</p><ol class=\"enumerate\"><li><p>设从今年起的前 $n$ 年，若该企业不进行技术改造的累计纯利润为 $A_{n}\\text{ 万元}$，进行技术改造后的累计纯利润为 $B_{n}\\text{ 万元}$（须扣除技术改造资金），求 $A_{n}$，$B_{n}$ 的表达式；</p></li><li><p>依上述预测，从今年起该企业至少经过多少年，进行技术改造后的累计纯利润超过不进行技术改造的累计纯利润？</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>若不进行技术改造，第 $k$ 年的纯利润比第 1 年少 $20(k-1)$ 万元，即为 $500-20(k-1)$ 万元. 因此</p>\n$$\nA_{n}=\\sum_{k=1}^{n}[500-20(k-1)]  =500n-20\\cdot\\frac{n(n-1)}{2}  =510n-10n^{2}\n$$\n<p>进行技术改造后，第 $k$ 年的利润为 $500(1+2^{-k})$ 万元，且今年年初一次性扣除 $600$ 万元，所以</p>\n$$\nB_{n}=\\sum_{k=1}^{n}500\\left(1+\\frac{1}{2^{k}}\\right)-600  =500n+500\\sum_{k=1}^{n}\\frac{1}{2^{k}}-600\n$$\n<p>又</p>\n$$\nB_{n}=500n+500(1-2^{-n})-600  =500n-100-\\frac{500}{2^{n}}\n$$\n</li><li><p>令 $D_{n}=B_{n}-A_{n}$，则</p>\n$$\nD_{n}=10n^{2}-10n-100-\\frac{500}{2^{n}}\n$$\n<p>对正整数 $n$，</p>\n$$\nD_{n+1}-D_{n}=20n+\\frac{250}{2^{n}}>0\n$$\n<p>所以 $\\{D_{n}\\}$ 严格递增. 计算相邻两项得</p>\n$$\nD_{4}=10\\cdot4^{2}-10\\cdot4-100-\\frac{500}{2^{4}}<0\n$$\n\n$$\nD_{5}=10\\cdot5^{2}-10\\cdot5-100-\\frac{500}{2^{5}}>0\n$$\n<p>因 $D_{n}$ 递增，最小的满足 $D_{n}>0$ 的正整数是 $n=5$. 所以至少经过 $5$ 年，技术改造后的累计纯利润才超过不进行技术改造的累计纯利润.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>若不进行技术改造，第 $k$ 年的纯利润比第 1 年少 $20(k-1)$ 万元，即为 $500-20(k-1)$ 万元. 因此</p>\n$$\nA_{n}=\\sum_{k=1}^{n}[500-20(k-1)]  =500n-20\\cdot\\frac{n(n-1)}{2}  =510n-10n^{2}\n$$\n<p>进行技术改造后，第 $k$ 年的利润为 $500(1+2^{-k})$ 万元，且今年年初一次性扣除 $600$ 万元，所以</p>\n$$\nB_{n}=\\sum_{k=1}^{n}500\\left(1+\\frac{1}{2^{k}}\\right)-600  =500n+500\\sum_{k=1}^{n}\\frac{1}{2^{k}}-600\n$$\n<p>又</p>\n$$\nB_{n}=500n+500(1-2^{-n})-600  =500n-100-\\frac{500}{2^{n}}\n$$\n</li><li><p>令 $D_{n}=B_{n}-A_{n}$，则</p>\n$$\nD_{n}=10n^{2}-10n-100-\\frac{500}{2^{n}}\n$$\n<p>对正整数 $n$，</p>\n$$\nD_{n+1}-D_{n}=20n+\\frac{250}{2^{n}}>0\n$$\n<p>所以 $\\{D_{n}\\}$ 严格递增. 计算相邻两项得</p>\n$$\nD_{4}=10\\cdot4^{2}-10\\cdot4-100-\\frac{500}{2^{4}}<0\n$$\n\n$$\nD_{5}=10\\cdot5^{2}-10\\cdot5-100-\\frac{500}{2^{5}}>0\n$$\n<p>因 $D_{n}$ 递增，最小的满足 $D_{n}>0$ 的正整数是 $n=5$. 所以至少经过 $5$ 年，技术改造后的累计纯利润才超过不进行技术改造的累计纯利润.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
-          "body": "<p>如图，$P$ 是抛物线 $C: y = \\frac{1}{2}x^{2}$ 上一点，直线 $l$ 过点 $P$ 且与抛物线 $C$ 在点 $P$ 的切线垂直，$l$ 与抛物线 $C$ 相交于另一点 $Q$.</p><ol class=\"enumerate\"><li><p>当点 $P$ 的横坐标为 $2$ 时，求直线 $l$ 的方程；</p></li><li><p>当点 $P$ 在抛物线 $C$ 上移动时，求线段 $PQ$ 中点 $M$ 的轨迹方程，并求点 $M$ 到 $x$ 轴的最短距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，$P$ 是抛物线 $C: y = \\frac{1}{2}x^{2}$ 上一点，直线 $l$ 过点 $P$ 且与抛物线 $C$ 在点 $P$ 的切线垂直，$l$ 与抛物线 $C$ 相交于另一点 $Q$.</p><ol class=\"enumerate\"><li><p>当点 $P$ 的横坐标为 $2$ 时，求直线 $l$ 的方程；</p></li><li><p>当点 $P$ 在抛物线 $C$ 上移动时，求线段 $PQ$ 中点 $M$ 的轨迹方程，并求点 $M$ 到 $x$ 轴的最短距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/fujian_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>设 $P=(p,\\frac{1}{2}p^{2})$. 当 $p=0$ 时，抛物线在原点处的切线为 $x$ 轴，过原点的垂线为 $x=0$，它与抛物线没有另一个交点，因此题设有另一交点 $Q$ 时必有 $p\\neq0$.</p><p>由 $y=\\frac{1}{2}x^{2}$ 得 $y'=x$，所以在 $P$ 处的切线斜率为 $p$，直线 $l$ 的斜率为 $-\\frac{1}{p}$，故</p>\n$$\ny-\\frac{1}{2}p^{2}=-\\frac{1}{p}(x-p)\n$$\n<ol class=\"enumerate\"><li><p>当 $p=2$ 时，$P=(2,2)$，代入直线方程得</p>\n$$\ny-2=-\\frac{1}{2}(x-2)\n$$\n<p>整理为 $x+2y-6=0$.</p></li><li><p>设 $Q=(q,\\frac{1}{2}q^{2})$. 将直线方程与抛物线方程联立，得</p><p>$\\frac{1}{2}x^{2}=-\\frac{1}{p}x+1+\\frac{1}{2}p^{2}$，$px^{2}+2x-p(p^{2}+2)=0$.</p><p>其中一个根是 $p$，由韦达定理，另一个根满足</p><p>$p+q=-\\frac{2}{p}$，$q=-p-\\frac{2}{p}$.</p><p>设 $M=(X,Y)$，则</p>\n$$\nX=\\frac{p+q}{2}=-\\frac{1}{p}\n$$\n<p>且</p>\n$$\nY=\\frac{\\frac{1}{2}p^{2}+\\frac{1}{2}q^{2}}{2}=\\frac{p^{2}+q^{2}}{4}=\\frac{1}{2}p^{2}+1+\\frac{1}{p^{2}}\n$$\n<p>由 $X=-\\frac{1}{p}\\neq0$，有 $p^{2}=\\frac{1}{X^{2}}$，$\\frac{1}{p^{2}}=X^{2}$，所以中点轨迹为</p><p>$Y=X^{2}+1+\\frac{1}{2X^{2}}$，$X\\neq0$.</p><p>令 $u=X^{2}>0$，则</p>\n$$\nY=1+u+\\frac{1}{2u}\\geq1+2\\sqrt{\\frac{u}{2u}}=1+\\sqrt{2}\n$$\n<p>其中等号当且仅当 $u=\\frac{1}{2u}$，即 $X^{2}=\\frac{1}{\\sqrt{2}}$. 由于轨迹上 $Y>0$，点 $M$ 到 $x$ 轴的距离就是 $Y$，所以最短距离为 $1+\\sqrt{2}$.</p></li></ol>"
+          "solution": "<p>设 $P=(p,\\frac{1}{2}p^{2})$. 当 $p=0$ 时，抛物线在原点处的切线为 $x$ 轴，过原点的垂线为 $x=0$，它与抛物线没有另一个交点，因此题设有另一交点 $Q$ 时必有 $p\\neq0$.</p><p>由 $y=\\frac{1}{2}x^{2}$ 得 $y'=x$，所以在 $P$ 处的切线斜率为 $p$，直线 $l$ 的斜率为 $-\\frac{1}{p}$，故</p>\n$$\ny-\\frac{1}{2}p^{2}=-\\frac{1}{p}(x-p)\n$$\n<ol class=\"enumerate\"><li><p>当 $p=2$ 时，$P=(2,2)$，代入直线方程得</p>\n$$\ny-2=-\\frac{1}{2}(x-2)\n$$\n<p>整理为 $x+2y-6=0$.</p></li><li><p>设 $Q=(q,\\frac{1}{2}q^{2})$. 将直线方程与抛物线方程联立，得</p><p>$\\frac{1}{2}x^{2}=-\\frac{1}{p}x+1+\\frac{1}{2}p^{2}$，$px^{2}+2x-p(p^{2}+2)=0$.</p><p>其中一个根是 $p$，由韦达定理，另一个根满足</p><p>$p+q=-\\frac{2}{p}$，$q=-p-\\frac{2}{p}$.</p><p>设 $M=(X,Y)$，则</p>\n$$\nX=\\frac{p+q}{2}=-\\frac{1}{p}\n$$\n<p>且</p>\n$$\nY=\\frac{\\frac{1}{2}p^{2}+\\frac{1}{2}q^{2}}{2}=\\frac{p^{2}+q^{2}}{4}=\\frac{1}{2}p^{2}+1+\\frac{1}{p^{2}}\n$$\n<p>由 $X=-\\frac{1}{p}\\neq0$，有 $p^{2}=\\frac{1}{X^{2}}$，$\\frac{1}{p^{2}}=X^{2}$，所以中点轨迹为</p><p>$Y=X^{2}+1+\\frac{1}{2X^{2}}$，$X\\neq0$.</p><p>令 $u=X^{2}>0$，则</p>\n$$\nY=1+u+\\frac{1}{2u}\\geq1+2\\sqrt{\\frac{u}{2u}}=1+\\sqrt{2}\n$$\n<p>其中等号当且仅当 $u=\\frac{1}{2u}$，即 $X^{2}=\\frac{1}{\\sqrt{2}}$. 由于轨迹上 $Y>0$，点 $M$ 到 $x$ 轴的距离就是 $Y$，所以最短距离为 $1+\\sqrt{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知 $f(x) = 4x + ax^{2} - \\frac{2}{3}x^{3}$（$x \\in \\mathbb{R}$）在区间 $[-1,1]$ 上是增函数.</p><ol class=\"enumerate\"><li><p>求实数 $a$ 的值组成的集合 $A$；</p></li><li><p>设关于 $x$ 的方程 $f(x) = 2x + \\frac{1}{3}x^{3}$ 的两个非零实根为 $x_{1}$，$x_{2}$. 试问：是否存在实数 $m$，使得不等式 $m^{2} + tm + 1 \\ge |x_{1} - x_{2}|$ 对任意 $a \\in A$ 及 $t \\in [-1,1]$ 恒成立？若存在，求 $m$ 的取值范围；若不存在，请说明理由.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>先求导：</p>\n$$\nf'(x)=4+2ax-2x^{2}\n$$\n<p>因为 $f$ 在闭区间上可导，$f$ 为增函数等价于 $f'(x)\\geq0$ 对所有 $x\\in[-1,1]$ 成立. 对 $x\\in(0,1]$，不等式化为</p>\n$$\n4+2ax-2x^{2}\\geq0   \\Longleftrightarrow   a\\geq x-\\frac{2}{x}\n$$\n<p>函数 $x-\\frac{2}{x}$ 在 $(0,1]$ 上的导数为 $1+\\frac{2}{x^{2}}>0$，故其最大值为在 $x=1$ 处的 $-1$，从而需要 $a\\geq-1$.</p><p>对 $x\\in[-1,0)$，除以负数 $x$ 后不等号方向改变，得</p>\n$$\na\\leq x-\\frac{2}{x}\n$$\n<p>同一函数在 $[-1,0)$ 上递增，其最小值为在 $x=-1$ 处的 $1$，从而需要 $a\\leq1$. 在 $x=0$ 处 $f'(0)=4>0$，不产生额外限制. 因此</p>\n$$\nA=[-1,1]\n$$\n</li><li><p>原方程等价于</p>\n$$\n4x+ax^{2}-\\frac{2}{3}x^{3}=2x+\\frac{1}{3}x^{3}   \\Longleftrightarrow   x(2+ax-x^{2})=0\n$$\n<p>除去非零根 $x=0$，两个根满足</p>\n$$\nx^{2}-ax-2=0\n$$\n<p>其判别式为 $a^{2}+8>0$，所以两个非零实根为</p><p>$x_{1}=\\frac{a+\\sqrt{a^{2}+8}}{2}$，$x_{2}=\\frac{a-\\sqrt{a^{2}+8}}{2}$，</p><p>从而</p>\n$$\n|x_{1}-x_{2}|=\\sqrt{a^{2}+8}\n$$\n<p>当 $a\\in[-1,1]$ 时，$a^{2}\\leq1$，故 $|x_{1}-x_{2}|\\leq3$，且在 $a=\\pm1$ 时取得最大值 $3$.</p><p>固定 $m$，当 $t\\in[-1,1]$ 变化时，线性式 $tm$ 的最小值为 $-|m|$，所以</p>\n$$\n\\min_{-1\\leq t\\leq1}(m^{2}+tm+1)=m^{2}+1-|m|\n$$\n<p>要使不等式对所有 $a\\in A$ 和 $t\\in[-1,1]$ 恒成立，充要条件是</p>\n$$\nm^{2}+1-|m|\\geq3\n$$\n<p>令 $u=|m|\\geq0$，则</p>\n$$\nu^{2}-u-2=(u-2)(u+1)\\geq0\n$$\n<p>由于 $u+1>0$，得 $u\\geq2$. 因此这样的实数存在，且</p>\n$$\nm\\in(-\\infty,-2]\\cup[2,+\\infty)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>先求导：</p>\n$$\nf'(x)=4+2ax-2x^{2}\n$$\n<p>因为 $f$ 在闭区间上可导，$f$ 为增函数等价于 $f'(x)\\geq0$ 对所有 $x\\in[-1,1]$ 成立. 对 $x\\in(0,1]$，不等式化为</p>\n$$\n4+2ax-2x^{2}\\geq0   \\Longleftrightarrow   a\\geq x-\\frac{2}{x}\n$$\n<p>函数 $x-\\frac{2}{x}$ 在 $(0,1]$ 上的导数为 $1+\\frac{2}{x^{2}}>0$，故其最大值为在 $x=1$ 处的 $-1$，从而需要 $a\\geq-1$.</p><p>对 $x\\in[-1,0)$，除以负数 $x$ 后不等号方向改变，得</p>\n$$\na\\leq x-\\frac{2}{x}\n$$\n<p>同一函数在 $[-1,0)$ 上递增，其最小值为在 $x=-1$ 处的 $1$，从而需要 $a\\leq1$. 在 $x=0$ 处 $f'(0)=4>0$，不产生额外限制. 因此</p>\n$$\nA=[-1,1]\n$$\n</li><li><p>原方程等价于</p>\n$$\n4x+ax^{2}-\\frac{2}{3}x^{3}=2x+\\frac{1}{3}x^{3}   \\Longleftrightarrow   x(2+ax-x^{2})=0\n$$\n<p>除去非零根 $x=0$，两个根满足</p>\n$$\nx^{2}-ax-2=0\n$$\n<p>其判别式为 $a^{2}+8>0$，所以两个非零实根为</p><p>$x_{1}=\\frac{a+\\sqrt{a^{2}+8}}{2}$，$x_{2}=\\frac{a-\\sqrt{a^{2}+8}}{2}$，</p><p>从而</p>\n$$\n|x_{1}-x_{2}|=\\sqrt{a^{2}+8}\n$$\n<p>当 $a\\in[-1,1]$ 时，$a^{2}\\leq1$，故 $|x_{1}-x_{2}|\\leq3$，且在 $a=\\pm1$ 时取得最大值 $3$.</p><p>固定 $m$，当 $t\\in[-1,1]$ 变化时，线性式 $tm$ 的最小值为 $-|m|$，所以</p>\n$$\n\\min_{-1\\leq t\\leq1}(m^{2}+tm+1)=m^{2}+1-|m|\n$$\n<p>要使不等式对所有 $a\\in A$ 和 $t\\in[-1,1]$ 恒成立，充要条件是</p>\n$$\nm^{2}+1-|m|\\geq3\n$$\n<p>令 $u=|m|\\geq0$，则</p>\n$$\nu^{2}-u-2=(u-2)(u+1)\\geq0\n$$\n<p>由于 $u+1>0$，得 $u\\geq2$. 因此这样的实数存在，且</p>\n$$\nm\\in(-\\infty,-2]\\cup[2,+\\infty)\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

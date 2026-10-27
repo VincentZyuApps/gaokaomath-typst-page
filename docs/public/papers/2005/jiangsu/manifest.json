@@ -1,8 +1,149 @@
 {
-  "title": "2005年普通高等学校招生全国统一考试",
-  "subtitle": "2005年江苏卷",
   "year": "2005",
   "slug": "jiangsu",
+  "title": "2005年江苏卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +158,9 @@
             "$\\{1,2,3,4\\}$"
           ],
           "answer": "D",
-          "solution": "<p>由 $A=\\{1,2\\}$，$B=\\{1,2,3\\}$ 可知 $A\\subset B$，因此 $A\\cap B=A=\\{1,2\\}$. 再与 $C=\\{2,3,4\\}$ 求并集，得到</p><p>$\\left(A\\cap B\\right)\\cup C=\\{1,2\\}\\cup\\{2,3,4\\}=\\{1,2,3,4\\}$.</p><p>所以应选 D.</p>"
+          "solution": "<p>由 $A=\\{1,2\\}$，$B=\\{1,2,3\\}$ 可知 $A\\subset B$，因此 $A\\cap B=A=\\{1,2\\}$. 再与 $C=\\{2,3,4\\}$ 求并集，得到</p><p>$\\left(A\\cap B\\right)\\cup C=\\{1,2\\}\\cup\\{2,3,4\\}=\\{1,2,3,4\\}$.</p><p>所以应选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +172,9 @@
             "$y=\\log_{2}\\frac{2}{3 - x}$"
           ],
           "answer": "A",
-          "solution": "<p>由 $y=2^{1-x}+3$，先移项得 $y-3=2^{1-x}>0$，所以原函数的值域为 $y>3$. 对等式两边取以 $2$ 为底的对数，得</p><p>$\\log_{2}(y-3)=1-x$，从而 $x=1-\\log_{2}(y-3)=\\log_{2}\\dfrac{2}{y-3}$.</p><p>交换自变量与因变量的记号，并由反函数定义域为 $x>3$，得到反函数 $y=\\log_{2}\\dfrac{2}{x-3}$. 所以应选 A.</p>"
+          "solution": "<p>由 $y=2^{1-x}+3$，先移项得 $y-3=2^{1-x}>0$，所以原函数的值域为 $y>3$. 对等式两边取以 $2$ 为底的对数，得</p><p>$\\log_{2}(y-3)=1-x$，从而 $x=1-\\log_{2}(y-3)=\\log_{2}\\dfrac{2}{y-3}$.</p><p>交换自变量与因变量的记号，并由反函数定义域为 $x>3$，得到反函数 $y=\\log_{2}\\dfrac{2}{x-3}$. 所以应选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +186,9 @@
             "$189$"
           ],
           "answer": "C",
-          "solution": "<p>设等比数列的公比为 $q$. 由 $a_{1}=3$ 和前三项的和为 $21$，有</p><p>$3+3q+3q^{2}=21$，即 $q^{2}+q-6=0$，所以 $q=2$ 或 $q=-3$.</p><p>因为数列各项均为正数，公比不能为负数，故 $q=2$. 于是 $a_{3}=3q^{2}=12$，$a_{4}=3q^{3}=24$，$a_{5}=3q^{4}=48$，从而</p><p>$a_{3}+a_{4}+a_{5}=12+24+48=84$.</p><p>所以应选 C.</p>"
+          "solution": "<p>设等比数列的公比为 $q$. 由 $a_{1}=3$ 和前三项的和为 $21$，有</p><p>$3+3q+3q^{2}=21$，即 $q^{2}+q-6=0$，所以 $q=2$ 或 $q=-3$.</p><p>因为数列各项均为正数，公比不能为负数，故 $q=2$. 于是 $a_{3}=3q^{2}=12$，$a_{4}=3q^{3}=24$，$a_{5}=3q^{4}=48$，从而</p><p>$a_{3}+a_{4}+a_{5}=12+24+48=84$.</p><p>所以应选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +200,9 @@
             "$\\sqrt{3}$"
           ],
           "answer": "B",
-          "solution": "<p>建立直角坐标系，使 $A=(0,0,0)$，$B=(2,0,0)$，$C=(1,\\sqrt{3},0)$，且棱柱的高沿 $z$ 轴，故 $A_{1}=(0,0,1)$. 于是</p><p>$\\overrightarrow{A_1B}=(2,0,-1)$，$\\overrightarrow{A_1C}=(1,\\sqrt{3},-1)$.</p><p>平面 $A_{1}BC$ 的一个法向量为</p><p>$\\overrightarrow{A_1B}\\times\\overrightarrow{A_1C}=(\\sqrt{3},1,2\\sqrt{3})$.</p><p>又 $\\overrightarrow{A_1A}=(0,0,-1)$，所以点 $A$ 到平面 $A_{1}BC$ 的距离为</p><p>$\\dfrac{\\left|\\overrightarrow{A_1A}\\cdot(\\sqrt{3},1,2\\sqrt{3})\\right|}{\\sqrt{(\\sqrt{3})^{2}+1^{2}+(2\\sqrt{3})^{2}}}=\\dfrac{2\\sqrt{3}}{4}=\\dfrac{\\sqrt{3}}{2}$.</p><p>所以应选 B.</p>"
+          "solution": "<p>建立直角坐标系，使 $A=(0,0,0)$，$B=(2,0,0)$，$C=(1,\\sqrt{3},0)$，且棱柱的高沿 $z$ 轴，故 $A_{1}=(0,0,1)$. 于是</p><p>$\\overrightarrow{A_1B}=(2,0,-1)$，$\\overrightarrow{A_1C}=(1,\\sqrt{3},-1)$.</p><p>平面 $A_{1}BC$ 的一个法向量为</p><p>$\\overrightarrow{A_1B}\\times\\overrightarrow{A_1C}=(\\sqrt{3},1,2\\sqrt{3})$.</p><p>又 $\\overrightarrow{A_1A}=(0,0,-1)$，所以点 $A$ 到平面 $A_{1}BC$ 的距离为</p><p>$\\dfrac{\\left|\\overrightarrow{A_1A}\\cdot(\\sqrt{3},1,2\\sqrt{3})\\right|}{\\sqrt{(\\sqrt{3})^{2}+1^{2}+(2\\sqrt{3})^{2}}}=\\dfrac{2\\sqrt{3}}{4}=\\dfrac{\\sqrt{3}}{2}$.</p><p>所以应选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +214,9 @@
             "$6\\sin \\left(B + \\frac{\\pi}{6}\\right) + 3$"
           ],
           "answer": "D",
-          "solution": "<p>在 $\\triangle ABC$ 中，令 $a=BC=3$，$b=CA$，$c=AB$. 由正弦定理，</p><p>$\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}=\\dfrac{3}{\\sin(\\frac{\\pi}{3})}$，所以 $b=2\\sqrt{3}\\sin B$.</p><p>又 $A+B+C=\\pi$，故 $C=\\dfrac{2\\pi}{3}-B$. 同理，</p><p>$c=\\dfrac{3\\sin C}{\\sin(\\frac{\\pi}{3})}=2\\sqrt{3}\\sin\\left(\\dfrac{2\\pi}{3}-B\\right)=2\\sqrt{3}\\sin\\left(B+\\dfrac{\\pi}{3}\\right)$.</p><p>因此周长为</p><p>$a+b+c=3+2\\sqrt{3}\\left[\\sin B+\\sin\\left(B+\\dfrac{\\pi}{3}\\right)\\right]$.</p><p>利用和差化积公式，</p><p>$\\sin B+\\sin\\left(B+\\dfrac{\\pi}{3}\\right)=2\\sin\\left(B+\\dfrac{\\pi}{6}\\right)\\cos\\dfrac{\\pi}{6}=\\sqrt{3}\\sin\\left(B+\\dfrac{\\pi}{6}\\right)$.</p><p>所以周长为 $6\\sin\\left(B+\\dfrac{\\pi}{6}\\right)+3$，应选 D.</p>"
+          "solution": "<p>在 $\\triangle ABC$ 中，令 $a=BC=3$，$b=CA$，$c=AB$. 由正弦定理，</p><p>$\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}=\\dfrac{3}{\\sin(\\frac{\\pi}{3})}$，所以 $b=2\\sqrt{3}\\sin B$.</p><p>又 $A+B+C=\\pi$，故 $C=\\dfrac{2\\pi}{3}-B$. 同理，</p><p>$c=\\dfrac{3\\sin C}{\\sin(\\frac{\\pi}{3})}=2\\sqrt{3}\\sin\\left(\\dfrac{2\\pi}{3}-B\\right)=2\\sqrt{3}\\sin\\left(B+\\dfrac{\\pi}{3}\\right)$.</p><p>因此周长为</p><p>$a+b+c=3+2\\sqrt{3}\\left[\\sin B+\\sin\\left(B+\\dfrac{\\pi}{3}\\right)\\right]$.</p><p>利用和差化积公式，</p><p>$\\sin B+\\sin\\left(B+\\dfrac{\\pi}{3}\\right)=2\\sin\\left(B+\\dfrac{\\pi}{6}\\right)\\cos\\dfrac{\\pi}{6}=\\sqrt{3}\\sin\\left(B+\\dfrac{\\pi}{6}\\right)$.</p><p>所以周长为 $6\\sin\\left(B+\\dfrac{\\pi}{6}\\right)+3$，应选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +228,9 @@
             "$0$"
           ],
           "answer": "B",
-          "solution": "<p>将抛物线写成标准形式 $x^{2}=4py$. 由 $y=4x^{2}$ 得 $x^{2}=\\dfrac{1}{4}y$，所以 $4p=\\dfrac{1}{4}$，即 $p=\\dfrac1{16}$. 因此焦点为 $F\\left(0,\\dfrac1{16}\\right)$，准线为 $y=-\\dfrac1{16}$.</p><p>设 $M=(x,y)$. 由抛物线的定义，$MF$ 等于点 $M$ 到准线的距离. 由于 $y=4x^{2}\\geqslant0$，点 $M$ 到准线的距离为 $y+\\dfrac1{16}$. 题设 $MF=1$，故</p><p>$1=y+\\dfrac1{16}$，从而 $y=\\dfrac{15}{16}$.</p><p>所以应选 B.</p>"
+          "solution": "<p>将抛物线写成标准形式 $x^{2}=4py$. 由 $y=4x^{2}$ 得 $x^{2}=\\dfrac{1}{4}y$，所以 $4p=\\dfrac{1}{4}$，即 $p=\\dfrac1{16}$. 因此焦点为 $F\\left(0,\\dfrac1{16}\\right)$，准线为 $y=-\\dfrac1{16}$.</p><p>设 $M=(x,y)$. 由抛物线的定义，$MF$ 等于点 $M$ 到准线的距离. 由于 $y=4x^{2}\\geqslant0$，点 $M$ 到准线的距离为 $y+\\dfrac1{16}$. 题设 $MF=1$，故</p><p>$1=y+\\dfrac1{16}$，从而 $y=\\dfrac{15}{16}$.</p><p>所以应选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +242,9 @@
             "$9.5, 0.016$"
           ],
           "answer": "D",
-          "solution": "<p>最高分为 $9.9$，最低分为 $8.4$. 去掉这两项后，剩余数据为 $9.4$，$9.4$，$9.4$，$9.6$，$9.7$，共有 $5$ 个数.</p><p>它们的平均值为</p><p>$\\overline{x}=\\dfrac{3\\times9.4+9.6+9.7}{5}=\\dfrac{47.5}{5}=9.5$.</p><p>按总体方差的定义，方差为</p><p>$\\dfrac{3(9.4-9.5)^2+(9.6-9.5)^2+(9.7-9.5)^2}{5}=\\dfrac{3\\times0.01+0.01+0.04}{5}=0.016$.</p><p>所以应选 D.</p>"
+          "solution": "<p>最高分为 $9.9$，最低分为 $8.4$. 去掉这两项后，剩余数据为 $9.4$，$9.4$，$9.4$，$9.6$，$9.7$，共有 $5$ 个数.</p><p>它们的平均值为</p><p>$\\overline{x}=\\dfrac{3\\times9.4+9.6+9.7}{5}=\\dfrac{47.5}{5}=9.5$.</p><p>按总体方差的定义，方差为</p><p>$\\dfrac{3(9.4-9.5)^2+(9.6-9.5)^2+(9.7-9.5)^2}{5}=\\dfrac{3\\times0.01+0.01+0.04}{5}=0.016$.</p><p>所以应选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +256,9 @@
             "$4$"
           ],
           "answer": "B",
-          "solution": "<p>命题 $①$ 不成立. 例如令 $\\gamma$ 为水平面，令 $\\alpha$，$\\beta$ 为两个相交的竖直平面. 两个竖直平面都垂直于水平面，但它们彼此相交，不能推出 $\\alpha\\parallel\\beta$.</p><p>命题 $②$ 不成立. 取 $\\alpha$ 为平面 $z=0$，$\\beta$ 为平面 $y=0$. 在 $\\alpha$ 内取直线 $m\\colon y=1$，$z=0$ 和 $n\\colon y=2$，$z=0$，则 $m$，$n$ 都与 $\\beta$ 平行，而 $\\alpha$ 与 $\\beta$ 相交于直线 $y=0$，$z=0$，所以不能推出 $\\alpha\\parallel\\beta$.</p><p>命题 $③$ 成立. 若 $\\alpha\\parallel\\beta$，则 $\\alpha$ 内任一直线都不可能与 $\\beta$ 相交. 因为 $l\\subset\\alpha$，所以 $l\\parallel\\beta$.</p><p>命题 $④$ 成立. 由 $l\\subset\\alpha$，$l\\parallel\\gamma$，且 $n=\\alpha\\cap\\gamma$，可知 $l\\parallel n$. 同理，由 $l\\subset\\beta$，$l\\parallel\\gamma$，且 $m=\\beta\\cap\\gamma$，可知 $l\\parallel m$. 两条都与 $l$ 平行的直线互相平行，因此 $m\\parallel n$.</p><p>只有命题 $③$，$④$ 正确，真命题有 $2$ 个，所以应选 B.</p>"
+          "solution": "<p>命题 $①$ 不成立. 例如令 $\\gamma$ 为水平面，令 $\\alpha$，$\\beta$ 为两个相交的竖直平面. 两个竖直平面都垂直于水平面，但它们彼此相交，不能推出 $\\alpha\\parallel\\beta$.</p><p>命题 $②$ 不成立. 取 $\\alpha$ 为平面 $z=0$，$\\beta$ 为平面 $y=0$. 在 $\\alpha$ 内取直线 $m\\colon y=1$，$z=0$ 和 $n\\colon y=2$，$z=0$，则 $m$，$n$ 都与 $\\beta$ 平行，而 $\\alpha$ 与 $\\beta$ 相交于直线 $y=0$，$z=0$，所以不能推出 $\\alpha\\parallel\\beta$.</p><p>命题 $③$ 成立. 若 $\\alpha\\parallel\\beta$，则 $\\alpha$ 内任一直线都不可能与 $\\beta$ 相交. 因为 $l\\subset\\alpha$，所以 $l\\parallel\\beta$.</p><p>命题 $④$ 成立. 由 $l\\subset\\alpha$，$l\\parallel\\gamma$，且 $n=\\alpha\\cap\\gamma$，可知 $l\\parallel n$. 同理，由 $l\\subset\\beta$，$l\\parallel\\gamma$，且 $m=\\beta\\cap\\gamma$，可知 $l\\parallel m$. 两条都与 $l$ 平行的直线互相平行，因此 $m\\parallel n$.</p><p>只有命题 $③$，$④$ 正确，真命题有 $2$ 个，所以应选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +270,9 @@
             "$80$"
           ],
           "answer": "C",
-          "solution": "<p>由二项式定理，</p><p>$(x+2)^{5}=\\displaystyle\\sum_{k=0}^{5}\\mathrm{C}_{5}^{k}x^{k}2^{5-k}$.</p><p>因此 $x^{k}$ 的系数为 $\\mathrm{C}_{5}^{k}2^{5-k}$. 分别代入 $k=1$，$2$，$3$，$4$，$5$，所得系数为</p><p>$\\mathrm{C}_{5}^{1}2^{4}=80$，$\\mathrm{C}_{5}^{2}2^{3}=80$，$\\mathrm{C}_{5}^{3}2^{2}=40$，$\\mathrm{C}_{5}^{4}2=10$，$\\mathrm{C}_{5}^{5}=1$.</p><p>选项中的 $10$，$40$，$80$ 均出现，而 $50$ 没有出现，所以应选 C.</p>"
+          "solution": "<p>由二项式定理，</p><p>$(x+2)^{5}=\\displaystyle\\sum_{k=0}^{5}\\mathrm{C}_{5}^{k}x^{k}2^{5-k}$.</p><p>因此 $x^{k}$ 的系数为 $\\mathrm{C}_{5}^{k}2^{5-k}$. 分别代入 $k=1$，$2$，$3$，$4$，$5$，所得系数为</p><p>$\\mathrm{C}_{5}^{1}2^{4}=80$，$\\mathrm{C}_{5}^{2}2^{3}=80$，$\\mathrm{C}_{5}^{3}2^{2}=40$，$\\mathrm{C}_{5}^{4}2=10$，$\\mathrm{C}_{5}^{5}=1$.</p><p>选项中的 $10$，$40$，$80$ 均出现，而 $50$ 没有出现，所以应选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +284,9 @@
             "$\\displaystyle \\frac{7}{9}$"
           ],
           "answer": "A",
-          "solution": "<p>令 $t=\\dfrac{\\pi}{6}-\\alpha$，则 $\\sin t=\\dfrac{1}{3}$，且 $\\alpha=\\dfrac{\\pi}{6}-t$. 因而</p><p>$\\dfrac{2\\pi}{3}+2\\alpha=\\dfrac{2\\pi}{3}+2\\left(\\dfrac{\\pi}{6}-t\\right)=\\pi-2t$.</p><p>利用 $\\cos(\\pi-u)=-\\cos u$ 和二倍角公式，得到</p><p>$\\cos\\left(\\dfrac{2\\pi}{3}+2\\alpha\\right)=\\cos(\\pi-2t)=-\\cos2t=-\\left(1-2\\sin^{2}t\\right)=-1+\\dfrac{2}{9}=-\\dfrac{7}{9}$.</p><p>所以应选 A.</p>"
+          "solution": "<p>令 $t=\\dfrac{\\pi}{6}-\\alpha$，则 $\\sin t=\\dfrac{1}{3}$，且 $\\alpha=\\dfrac{\\pi}{6}-t$. 因而</p><p>$\\dfrac{2\\pi}{3}+2\\alpha=\\dfrac{2\\pi}{3}+2\\left(\\dfrac{\\pi}{6}-t\\right)=\\pi-2t$.</p><p>利用 $\\cos(\\pi-u)=-\\cos u$ 和二倍角公式，得到</p><p>$\\cos\\left(\\dfrac{2\\pi}{3}+2\\alpha\\right)=\\cos(\\pi-2t)=-\\cos2t=-\\left(1-2\\sin^{2}t\\right)=-1+\\dfrac{2}{9}=-\\dfrac{7}{9}$.</p><p>所以应选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +298,9 @@
             "$\\frac{1}{2}$"
           ],
           "answer": "A",
-          "solution": "<p>设椭圆的半长轴为 $a$，焦距的一半为 $c$，离心率为 $e=\\dfrac{c}{a}$. 左准线方程为 $x=-\\dfrac{a}{e}$. 由 $P(-3,1)$ 在左准线上，得</p><p>$\\dfrac{a}{e}=3$，即 $a=3e$，从而 $c=ae=3e^{2}$.</p><p>入射光线从 $P$ 沿方向向量 $(2,-5)$ 前进，可写为 $P+t(2,-5)$. 与 $y=-2$ 相交时，</p><p>$1-5t=-2$，所以 $t=\\dfrac{3}{5}$，交点为</p><p>$Q=(-3,1)+\\dfrac{3}{5}(2,-5)=\\left(-\\dfrac{9}{5},-2\\right)$.</p><p>水平直线反射保持横向分量不变、使竖直分量变号，因此反射光线的方向向量为 $(2,5)$. 从 $Q$ 到 $y=0$ 需要参数 $s=\\dfrac{2}{5}$，对应点的横坐标为</p><p>$-\\dfrac{9}{5}+2\\times\\dfrac{2}{5}=-1$.</p><p>所以反射光线经过 $(-1,0)$. 该点是椭圆左焦点 $(-c,0)$，故 $c=1$. 代入 $c=3e^{2}$，得 $3e^{2}=1$，又 $e>0$，所以 $e=\\dfrac{\\sqrt{3}}{3}$.</p><p>因此应选 A.</p>"
+          "solution": "<p>设椭圆的半长轴为 $a$，焦距的一半为 $c$，离心率为 $e=\\dfrac{c}{a}$. 左准线方程为 $x=-\\dfrac{a}{e}$. 由 $P(-3,1)$ 在左准线上，得</p><p>$\\dfrac{a}{e}=3$，即 $a=3e$，从而 $c=ae=3e^{2}$.</p><p>入射光线从 $P$ 沿方向向量 $(2,-5)$ 前进，可写为 $P+t(2,-5)$. 与 $y=-2$ 相交时，</p><p>$1-5t=-2$，所以 $t=\\dfrac{3}{5}$，交点为</p><p>$Q=(-3,1)+\\dfrac{3}{5}(2,-5)=\\left(-\\dfrac{9}{5},-2\\right)$.</p><p>水平直线反射保持横向分量不变、使竖直分量变号，因此反射光线的方向向量为 $(2,5)$. 从 $Q$ 到 $y=0$ 需要参数 $s=\\dfrac{2}{5}$，对应点的横坐标为</p><p>$-\\dfrac{9}{5}+2\\times\\dfrac{2}{5}=-1$.</p><p>所以反射光线经过 $(-1,0)$. 该点是椭圆左焦点 $(-c,0)$，故 $c=1$. 代入 $c=3e^{2}$，得 $3e^{2}=1$，又 $e>0$，所以 $e=\\dfrac{\\sqrt{3}}{3}$.</p><p>因此应选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +312,9 @@
             "$0$"
           ],
           "answer": "B",
-          "solution": "<p>设四棱锥底面为 $ABCD$，顶点为 $S$. 同一仓库中的任意两条棱都没有公共顶点；若同一仓库中有三条棱，则这三条棱需要六个互不相同的顶点，但四棱锥只有五个顶点，所以每个仓库至多放两条棱. 四条侧棱 $SA$，$SB$，$SC$，$SD$ 两两有公共顶点，因此同一仓库中至多放一条侧棱. 另一方面，底面四条棱构成一个四边形，能同仓存放的两条底面棱只能是对边.</p><p>共有 $8$ 条棱和 $4$ 个仓库. 由于每个仓库最多容纳两条棱，安全存放时每个仓库恰好容纳两条棱；又四条侧棱必须分别进入四个不同仓库，所以每个仓库恰好含一条侧棱和一条底面棱.</p><p>两条棱没有公共顶点时才可同仓，因而底面棱的安全配对为</p><p>$AB$ 可与 $SC$，$SD$ 配对，$BC$ 可与 $SD$，$SA$ 配对，$CD$ 可与 $SA$，$SB$ 配对，$DA$ 可与 $SB$，$SC$ 配对.</p><p>要使四条底面棱分别与四条侧棱配成安全对，只有两种完全配法：</p><p>$AB\\text{-}SC$，$\\ BC\\text{-}SD$，$\\ CD\\text{-}SA$，$\\ DA\\text{-}SB$，或 $AB\\text{-}SD$，$\\ BC\\text{-}SA$，$\\ CD\\text{-}SB$，$\\ DA\\text{-}SC$.</p><p>每一种配法得到的四个安全对还可以任意放入四个有编号的仓库，有 $4!$ 种. 所以总方法数为 $2\\times4!=48$，应选 B.</p>"
+          "solution": "<p>设四棱锥底面为 $ABCD$，顶点为 $S$. 同一仓库中的任意两条棱都没有公共顶点；若同一仓库中有三条棱，则这三条棱需要六个互不相同的顶点，但四棱锥只有五个顶点，所以每个仓库至多放两条棱. 四条侧棱 $SA$，$SB$，$SC$，$SD$ 两两有公共顶点，因此同一仓库中至多放一条侧棱. 另一方面，底面四条棱构成一个四边形，能同仓存放的两条底面棱只能是对边.</p><p>共有 $8$ 条棱和 $4$ 个仓库. 由于每个仓库最多容纳两条棱，安全存放时每个仓库恰好容纳两条棱；又四条侧棱必须分别进入四个不同仓库，所以每个仓库恰好含一条侧棱和一条底面棱.</p><p>两条棱没有公共顶点时才可同仓，因而底面棱的安全配对为</p><p>$AB$ 可与 $SC$，$SD$ 配对，$BC$ 可与 $SD$，$SA$ 配对，$CD$ 可与 $SA$，$SB$ 配对，$DA$ 可与 $SB$，$SC$ 配对.</p><p>要使四条底面棱分别与四条侧棱配成安全对，只有两种完全配法：</p><p>$AB\\text{-}SC$，$\\ BC\\text{-}SD$，$\\ CD\\text{-}SA$，$\\ DA\\text{-}SB$，或 $AB\\text{-}SD$，$\\ BC\\text{-}SA$，$\\ CD\\text{-}SB$，$\\ DA\\text{-}SC$.</p><p>每一种配法得到的四个安全对还可以任意放入四个有编号的仓库，有 $4!$ 种. 所以总方法数为 $2\\times4!=48$，应选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,44 +324,56 @@
         {
           "num": 13,
           "body": "命题“若 $a > b$，则 $2^{a} > 2^{b} - 1$”的否命题为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "若 $a\\le b$，则 $2^{a}\\leqslant2^{b}-1$",
-          "solution": "<p>令 $p$ 表示条件 $a>b$，令 $q$ 表示结论 $2^{a}>2^{b}-1$. 原命题是“若 $p$，则 $q$”的形式.</p><p>否命题的形式是“若 $\\lnot p$，则 $\\lnot q$”. 因为 $\\lnot p$ 为 $a\\le b$，而严格不等式 $2^{a}>2^{b}-1$ 的否定为 $2^{a}\\leqslant2^{b}-1$，所以否命题为“若 $a\\le b$，则 $2^{a}\\leqslant2^{b}-1$”.</p>"
+          "choices": [],
+          "answer": "若 \\(a\\le b\\)，则 \\(2^a\\leqslant2^b-1\\)",
+          "solution": "<p>令 $p$ 表示条件 $a>b$，令 $q$ 表示结论 $2^{a}>2^{b}-1$. 原命题是“若 $p$，则 $q$”的形式.</p><p>否命题的形式是“若 $\\lnot p$，则 $\\lnot q$”. 因为 $\\lnot p$ 为 $a\\le b$，而严格不等式 $2^{a}>2^{b}-1$ 的否定为 $2^{a}\\leqslant2^{b}-1$，所以否命题为“若 $a\\le b$，则 $2^{a}\\leqslant2^{b}-1$”.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "曲线 $y = x^{3}+ x + 1$ 在点 $(1,3)$ 处的切线方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$4x-y-1=0$",
-          "solution": "<p>设 $f(x)=x^{3}+x+1$. 则 $f'(x)=3x^{2}+1$，所以在 $x=1$ 处的切线斜率为 $f'(1)=4$. 题设点为 $(1,3)$，由点斜式得切线方程</p><p>$y-3=4(x-1)$.</p><p>整理为 $4x-y-1=0$.</p>"
+          "choices": [],
+          "answer": "\\(4x-y-1=0\\)",
+          "solution": "<p>设 $f(x)=x^{3}+x+1$. 则 $f'(x)=3x^{2}+1$，所以在 $x=1$ 处的切线斜率为 $f'(1)=4$. 题设点为 $(1,3)$，由点斜式得切线方程</p><p>$y-3=4(x-1)$.</p><p>整理为 $4x-y-1=0$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "函数 $y = \\sqrt{\\log_{0.5}(4x^{2} - 3x)}$ 的定义域为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\left[-\\frac{1}{4},0\\right)\\cup\\left(\\frac{3}{4},1\\right]$",
-          "solution": "<p>要使根式有意义，必须满足</p><p>$\\log_{0.5}(4x^{2}-3x)\\geqslant0$.</p><p>由于对数真数必须为正，且底数 $0.5\\in(0,1)$，函数 $\\log_{0.5}u$ 在 $u>0$ 时递减，并且 $\\log_{0.5}u\\geqslant0$ 等价于 $0<u\\leqslant1$. 所以需要同时满足</p><p>$0<4x^{2}-3x\\leqslant1$.</p><p>其中，$4x^{2}-3x=x(4x-3)>0$ 给出 $x<0$ 或 $x>\\dfrac{3}{4}$. 另一方面，</p><p>$4x^{2}-3x\\leqslant1\\iff4x^{2}-3x-1\\leqslant0\\iff(4x+1)(x-1)\\leqslant0$，</p><p>所以 $-\\dfrac{1}{4}\\le x\\leqslant1$. 取两组条件的交集，定义域为 $\\left[-\\dfrac{1}{4},0\\right)\\cup\\left(\\dfrac{3}{4},1\\right]$.</p>"
+          "choices": [],
+          "answer": "\\(\\left[-\\frac{1}{4},0\\right)\\cup\\left(\\frac{3}{4},1\\right]\\)",
+          "solution": "<p>要使根式有意义，必须满足</p><p>$\\log_{0.5}(4x^{2}-3x)\\geqslant0$.</p><p>由于对数真数必须为正，且底数 $0.5\\in(0,1)$，函数 $\\log_{0.5}u$ 在 $u>0$ 时递减，并且 $\\log_{0.5}u\\geqslant0$ 等价于 $0<u\\leqslant1$. 所以需要同时满足</p><p>$0<4x^{2}-3x\\leqslant1$.</p><p>其中，$4x^{2}-3x=x(4x-3)>0$ 给出 $x<0$ 或 $x>\\dfrac{3}{4}$. 另一方面，</p><p>$4x^{2}-3x\\leqslant1\\iff4x^{2}-3x-1\\leqslant0\\iff(4x+1)(x-1)\\leqslant0$，</p><p>所以 $-\\dfrac{1}{4}\\le x\\leqslant1$. 取两组条件的交集，定义域为 $\\left[-\\dfrac{1}{4},0\\right)\\cup\\left(\\dfrac{3}{4},1\\right]$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "若 $3^{a}= 0.618$，$a \\in [k,k+1), k \\in \\mathbb{Z}$，则 $k =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-1$",
-          "solution": "<p>因为 $3^{x}$ 的底数大于 $1$，所以它在 $\\mathbb{R}$ 上严格递增. 又</p><p>$3^{-1}=\\dfrac{1}{3}<0.618<1=3^{0}$，</p><p>从而 $-1<a<0$. 这个开区间包含在且只包含在半开区间 $[-1,0)$ 中. 因此题设中的整数 $k$ 为 $-1$.</p>"
+          "choices": [],
+          "answer": "\\(-1\\)",
+          "solution": "<p>因为 $3^{x}$ 的底数大于 $1$，所以它在 $\\mathbb{R}$ 上严格递增. 又</p><p>$3^{-1}=\\dfrac{1}{3}<0.618<1=3^{0}$，</p><p>从而 $-1<a<0$. 这个开区间包含在且只包含在半开区间 $[-1,0)$ 中. 因此题设中的整数 $k$ 为 $-1$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "已知 $a$，$b$ 为常数，若 $f(x) = x^{2}+ 4x + 3$，$f(ax + b) = x^{2}+ 10x + 24$，则 $5a - b =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$2$",
-          "solution": "<p>将 $ax+b$ 代入 $f(x)=x^{2}+4x+3$，得</p><p>$f(ax+b)=(ax+b)^{2}+4(ax+b)+3=a^{2}x^{2}+(2ab+4a)x+(b^{2}+4b+3)$.</p><p>与 $x^{2}+10x+24$ 比较同次幂系数，得到</p><p>$a^{2}=1$，$2a(b+2)=10$，$b^{2}+4b+3=24$.</p><p>由 $a^{2}=1$，分两种情况：</p><p>当 $a=1$ 时，$2(b+2)=10$，所以 $b=3$，且 $b^{2}+4b+3=24$ 成立；</p><p>当 $a=-1$ 时，$-2(b+2)=10$，所以 $b=-7$，且 $b^{2}+4b+3=24$ 也成立.</p><p>两种情形中，$5a-b$ 分别为 $5-3=2$ 和 $-5-(-7)=2$. 所以所求值为 $2$.</p>"
+          "choices": [],
+          "answer": "\\(2\\)",
+          "solution": "<p>将 $ax+b$ 代入 $f(x)=x^{2}+4x+3$，得</p><p>$f(ax+b)=(ax+b)^{2}+4(ax+b)+3=a^{2}x^{2}+(2ab+4a)x+(b^{2}+4b+3)$.</p><p>与 $x^{2}+10x+24$ 比较同次幂系数，得到</p><p>$a^{2}=1$，$2a(b+2)=10$，$b^{2}+4b+3=24$.</p><p>由 $a^{2}=1$，分两种情况：</p><p>当 $a=1$ 时，$2(b+2)=10$，所以 $b=3$，且 $b^{2}+4b+3=24$ 成立；</p><p>当 $a=-1$ 时，$-2(b+2)=10$，所以 $b=-7$，且 $b^{2}+4b+3=24$ 也成立.</p><p>两种情形中，$5a-b$ 分别为 $5-3=2$ 和 $-5-(-7)=2$. 所以所求值为 $2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "在 $\\triangle ABC$ 中，$O$ 为中线 $AM$ 上的一个动点，若 $AM = 2$，则 $\\overrightarrow{OA}\\cdot (\\overrightarrow{OB}+ \\overrightarrow{OC})$ 的最小值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-2$",
-          "solution": "<p>因为 $M$ 是边 $BC$ 的中点，取 $M$ 为原点，设 $\\overrightarrow{MA}=\\mathbf{u}$，$\\overrightarrow{MB}=\\mathbf{v}$，则 $\\overrightarrow{MC}=-\\mathbf{v}$，且 $|\\mathbf{u}|=AM=2$.</p><p>设动点 $O$ 在线段 $AM$ 上，令 $\\overrightarrow{MO}=t\\mathbf{u}$，其中 $0\\le t\\leqslant1$. 则</p><p>$\\overrightarrow{OA}=(1-t)\\mathbf{u}$，$\\overrightarrow{OB}=\\mathbf{v}-t\\mathbf{u}$，$\\overrightarrow{OC}=-\\mathbf{v}-t\\mathbf{u}$.</p><p>因此 $\\overrightarrow{OB}+\\overrightarrow{OC}=-2t\\mathbf{u}$，所求数量为</p><p>$\\overrightarrow{OA}\\cdot(\\overrightarrow{OB}+\\overrightarrow{OC})=(1-t)\\mathbf{u}\\cdot(-2t\\mathbf{u})=-2t(1-t)|\\mathbf{u}|^{2}=-8t(1-t)$.</p><p>因为 $0\\le t\\leqslant1$，有 $t(1-t)\\le\\dfrac{1}{4}$，且等号在 $t=\\dfrac{1}{2}$ 时成立. 所以所求最小值为 $-8\\times\\dfrac{1}{4}=-2$.</p>"
+          "choices": [],
+          "answer": "\\(-2\\)",
+          "solution": "<p>因为 $M$ 是边 $BC$ 的中点，取 $M$ 为原点，设 $\\overrightarrow{MA}=\\mathbf{u}$，$\\overrightarrow{MB}=\\mathbf{v}$，则 $\\overrightarrow{MC}=-\\mathbf{v}$，且 $|\\mathbf{u}|=AM=2$.</p><p>设动点 $O$ 在线段 $AM$ 上，令 $\\overrightarrow{MO}=t\\mathbf{u}$，其中 $0\\le t\\leqslant1$. 则</p><p>$\\overrightarrow{OA}=(1-t)\\mathbf{u}$，$\\overrightarrow{OB}=\\mathbf{v}-t\\mathbf{u}$，$\\overrightarrow{OC}=-\\mathbf{v}-t\\mathbf{u}$.</p><p>因此 $\\overrightarrow{OB}+\\overrightarrow{OC}=-2t\\mathbf{u}$，所求数量为</p><p>$\\overrightarrow{OA}\\cdot(\\overrightarrow{OB}+\\overrightarrow{OC})=(1-t)\\mathbf{u}\\cdot(-2t\\mathbf{u})=-2t(1-t)|\\mathbf{u}|^{2}=-8t(1-t)$.</p><p>因为 $0\\le t\\leqslant1$，有 $t(1-t)\\le\\dfrac{1}{4}$，且等号在 $t=\\dfrac{1}{2}$ 时成立. 所以所求最小值为 $-8\\times\\dfrac{1}{4}=-2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -205,38 +382,48 @@
       "problems": [
         {
           "num": 19,
-          "body": "<p>如图，圆 $O_{1}$ 与圆 $O_{2}$ 的半径都是 $1$，$O_{1}O_{2}= 4$，过动点 $P$ 分别作圆 $O_{1}$，圆 $O_{2}$ 的切线 $PM$，$PN$（$M$，$N$ 分别为切点），使得 $PM = \\sqrt{2}PN$. 试建立适当的坐标系，并求动点 $P$ 的轨迹方程.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，圆 $O_{1}$ 与圆 $O_{2}$ 的半径都是 $1$，$O_{1}O_{2}= 4$，过动点 $P$ 分别作圆 $O_{1}$，圆 $O_{2}$ 的切线 $PM$，$PN$（$M$，$N$ 分别为切点），使得 $PM = \\sqrt{2}PN$. 试建立适当的坐标系，并求动点 $P$ 的轨迹方程.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/jiangsu/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>取 $O_{1}O_{2}$ 的中点 $O$ 为原点，令 $O_{1}O_{2}$ 所在直线为 $x$ 轴，建立平面直角坐标系. 因为 $O_{1}O_{2}=4$，所以 $O_{1}=(-2,0)$，$O_{2}=(2,0)$. 设动点 $P=(x,y)$.</p><p>由切线长定理，</p><p>$PM^{2}=PO_{1}^{2}-1=(x+2)^{2}+y^{2}-1$，</p><p>$PN^{2}=PO_{2}^{2}-1=(x-2)^{2}+y^{2}-1$.</p><p>题设 $PM=\\sqrt{2}PN$，两边平方后得到</p><p>$(x+2)^{2}+y^{2}-1=2\\left[(x-2)^{2}+y^{2}-1\\right]$.</p><p>展开并移项，得 $x^{2}-12x+y^{2}+3=0$，配方为</p><p>$(x-6)^{2}+y^{2}=33$.</p><p>记该圆的圆心为 $O'=(6,0)$. 反过来，若 $P$ 在该圆上，则 $PO'=\\sqrt{33}$，且 $O'O_{2}=4$，$O'O_{1}=8$. 由三角不等式，</p><p>$PO_{2}\\ge O'O_{2}-PO'=\\sqrt{33}-4>1$，$PO_{1}\\ge O'O_{1}-PO'=8-\\sqrt{33}>1$，</p><p>所以 $P$ 在两个半径为 $1$ 的圆外，所需切线确实存在. 因此动点 $P$ 的轨迹方程为 $(x-6)^{2}+y^{2}=33$.</p>"
+          "solution": "<p>取 $O_{1}O_{2}$ 的中点 $O$ 为原点，令 $O_{1}O_{2}$ 所在直线为 $x$ 轴，建立平面直角坐标系. 因为 $O_{1}O_{2}=4$，所以 $O_{1}=(-2,0)$，$O_{2}=(2,0)$. 设动点 $P=(x,y)$.</p><p>由切线长定理，</p><p>$PM^{2}=PO_{1}^{2}-1=(x+2)^{2}+y^{2}-1$，</p><p>$PN^{2}=PO_{2}^{2}-1=(x-2)^{2}+y^{2}-1$.</p><p>题设 $PM=\\sqrt{2}PN$，两边平方后得到</p><p>$(x+2)^{2}+y^{2}-1=2\\left[(x-2)^{2}+y^{2}-1\\right]$.</p><p>展开并移项，得 $x^{2}-12x+y^{2}+3=0$，配方为</p><p>$(x-6)^{2}+y^{2}=33$.</p><p>记该圆的圆心为 $O'=(6,0)$. 反过来，若 $P$ 在该圆上，则 $PO'=\\sqrt{33}$，且 $O'O_{2}=4$，$O'O_{1}=8$. 由三角不等式，</p><p>$PO_{2}\\ge O'O_{2}-PO'=\\sqrt{33}-4>1$，$PO_{1}\\ge O'O_{1}-PO'=8-\\sqrt{33}>1$，</p><p>所以 $P$ 在两个半径为 $1$ 的圆外，所需切线确实存在. 因此动点 $P$ 的轨迹方程为 $(x-6)^{2}+y^{2}=33$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>甲，乙两人各射击一次，击中目标的概率分别是 $\\frac{2}{3}$ 和 $\\frac{3}{4}$. 假设两人射击是否击中目标，相互之间没有影响；每次射击是否击中目标，相互之间没有影响.</p><ol class=\"enumerate\"><li><p>求甲射击 $4$ 次，至少 $1$ 次未击中目标的概率；</p></li><li><p>求两人各射击 $4$ 次，甲恰好击中目标 $2$ 次且乙恰好击中目标 $3$ 次的概率；</p></li><li><p>假设某人连续 $2$ 次未击中目标，则停止射击. 问：乙恰好射击 $5$ 次后，被中止射击的概率是多少？</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>甲四次射击全部击中的概率为 $\\left(\\dfrac{2}{3}\\right)^{4}$. “至少一次未击中”是“全部击中”的对立事件，所以所求概率为</p><p>$1-\\left(\\dfrac{2}{3}\\right)^{4}=1-\\dfrac{16}{81}=\\dfrac{65}{81}$.</p></li><li><p>甲恰好击中 $2$ 次的概率为</p><p>$\\mathrm{C}_{4}^{2}\\left(\\dfrac{2}{3}\\right)^{2}\\left(1-\\dfrac{2}{3}\\right)^{2}=6\\times\\dfrac{4}{9}\\times\\dfrac{1}{9}=\\dfrac{8}{27}$.</p><p>乙恰好击中 $3$ 次的概率为</p><p>$\\mathrm{C}_{4}^{3}\\left(\\dfrac{3}{4}\\right)^{3}\\left(1-\\dfrac{3}{4}\\right)=4\\times\\dfrac{27}{64}\\times\\dfrac{1}{4}=\\dfrac{27}{64}$.</p><p>甲与乙的射击结果相互独立，因此所求概率为</p><p>$\\dfrac{8}{27}\\times\\dfrac{27}{64}=\\dfrac{1}{8}$.</p></li><li><p>乙恰好在第 $5$ 次射击后被中止，必须满足第 $4$，$5$ 次均未击中；为了不在第 $4$ 次就停止，第 $3$ 次必须击中；为了不在第 $2$ 次就停止，前两次不能同时未击中. 这些条件合起来的概率为</p><p>$\\left[1-\\left(\\dfrac{1}{4}\\right)^{2}\\right]\\times\\dfrac{3}{4}\\times\\dfrac{1}{4}\\times\\dfrac{1}{4}=\\dfrac{15}{16}\\times\\dfrac{3}{4}\\times\\dfrac1{16}=\\dfrac{45}{1024}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>甲四次射击全部击中的概率为 $\\left(\\dfrac{2}{3}\\right)^{4}$. “至少一次未击中”是“全部击中”的对立事件，所以所求概率为</p><p>$1-\\left(\\dfrac{2}{3}\\right)^{4}=1-\\dfrac{16}{81}=\\dfrac{65}{81}$.</p></li><li><p>甲恰好击中 $2$ 次的概率为</p><p>$\\mathrm{C}_{4}^{2}\\left(\\dfrac{2}{3}\\right)^{2}\\left(1-\\dfrac{2}{3}\\right)^{2}=6\\times\\dfrac{4}{9}\\times\\dfrac{1}{9}=\\dfrac{8}{27}$.</p><p>乙恰好击中 $3$ 次的概率为</p><p>$\\mathrm{C}_{4}^{3}\\left(\\dfrac{3}{4}\\right)^{3}\\left(1-\\dfrac{3}{4}\\right)=4\\times\\dfrac{27}{64}\\times\\dfrac{1}{4}=\\dfrac{27}{64}$.</p><p>甲与乙的射击结果相互独立，因此所求概率为</p><p>$\\dfrac{8}{27}\\times\\dfrac{27}{64}=\\dfrac{1}{8}$.</p></li><li><p>乙恰好在第 $5$ 次射击后被中止，必须满足第 $4$，$5$ 次均未击中；为了不在第 $4$ 次就停止，第 $3$ 次必须击中；为了不在第 $2$ 次就停止，前两次不能同时未击中. 这些条件合起来的概率为</p><p>$\\left[1-\\left(\\dfrac{1}{4}\\right)^{2}\\right]\\times\\dfrac{3}{4}\\times\\dfrac{1}{4}\\times\\dfrac{1}{4}=\\dfrac{15}{16}\\times\\dfrac{3}{4}\\times\\dfrac1{16}=\\dfrac{45}{1024}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
-          "body": "<p>如图，在五棱锥 $S-ABCDE$ 中，$SA \\perp$ 底面 $ABCDE$，$SA = AB = AE = 2$，$BC = DE = \\sqrt{3}$，$\\angle BAE = \\angle BCD = \\angle CDE = 120^{\\circ}$.</p><ol class=\"enumerate\"><li><p>求异面直线 $CD$ 与 $SB$ 所成的角（用反三角函数值表示）；</p></li><li><p>证明：$BC \\perp$ 平面 $SAB$；</p></li><li><p>用反三角函数值表示二面角 $B-SC-D$ 的大小（本小问不必写出解答过程）.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在五棱锥 $S-ABCDE$ 中，$SA \\perp$ 底面 $ABCDE$，$SA = AB = AE = 2$，$BC = DE = \\sqrt{3}$，$\\angle BAE = \\angle BCD = \\angle CDE = 120^{\\circ}$.</p><ol class=\"enumerate\"><li><p>求异面直线 $CD$ 与 $SB$ 所成的角（用反三角函数值表示）；</p></li><li><p>证明：$BC \\perp$ 平面 $SAB$；</p></li><li><p>用反三角函数值表示二面角 $B-SC-D$ 的大小（本小问不必写出解答过程）.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/jiangsu/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>延长 $BC$，$ED$，使它们相交于 $F$. 因为 $CF$ 与 $CB$ 方向相反，$DF$ 与 $DE$ 方向相反，所以</p><p>$\\angle DCF=180^{\\circ}-\\angle BCD=60^{\\circ}$，$\\angle CDF=180^{\\circ}-\\angle CDE=60^{\\circ}$.</p><p>于是 $\\triangle CDF$ 的两个角为 $60^{\\circ}$，它是正三角形，故 $CF=DF$. 又因为 $B$，$C$，$F$ 与 $E$，$D$，$F$ 分别共线，且 $BC=DE$，所以 $BF=EF$. 此外，$\\angle BFE=\\angle CFD=60^{\\circ}$，故 $\\triangle BFE$ 也是正三角形，从而 $BF=EF=BE$.</p><p>在等腰三角形 $ABE$ 中，$AB=AE=2$，且 $\\angle BAE=120^{\\circ}$. 由余弦定理，</p><p>$BE^{2}=AB^{2}+AE^{2}-2AB\\cdot AE\\cos120^{\\circ}=4+4+4=12$，</p><p>所以 $BE=2\\sqrt{3}$. 因而 $BF=EF=BE=2\\sqrt{3}$，且 $\\triangle BFE$ 为正三角形. 于是 $\\angle FBE=\\angle FCD=60^{\\circ}$，又 $BF$ 与 $CF$ 共线，所以 $BE\\parallel CD$.</p><p>因此异面直线 $CD$ 与 $SB$ 所成的角等于直线 $BE$ 与 $SB$ 所成的锐角 $\\angle SBE$. 因为 $SA\\perp$ 底面，$SA=AB=AE=2$，所以</p><p>$SB=\\sqrt{SA^{2}+AB^{2}}=2\\sqrt{2}$，$SE=\\sqrt{SA^{2}+AE^{2}}=2\\sqrt{2}$.</p><p>在 $\\triangle SBE$ 中，$BE=2\\sqrt{3}$，由余弦定理，</p><p>$\\cos\\angle SBE=\\dfrac{SB^2+BE^2-SE^2}{2SB\\cdot BE}=\\dfrac{8+12-8}{2\\cdot2\\sqrt{2}\\cdot2\\sqrt{3}}=\\dfrac{\\sqrt{6}}{4}$.</p><p>所以所求角为 $\\arccos\\dfrac{\\sqrt{6}}{4}$.</p></li><li><p>由 $AB=AE$ 和 $\\angle BAE=120^{\\circ}$，得等腰三角形 $ABE$ 的底角 $\\angle ABE=30^{\\circ}$. 又 $BF$ 与 $BC$ 同向，且 $\\triangle BFE$ 为正三角形，所以 $\\angle EBC=\\angle FBE=60^{\\circ}$. 因此</p><p>$\\angle ABC=\\angle ABE+\\angle EBC=30^{\\circ}+60^{\\circ}=90^{\\circ}$，</p><p>即 $BC\\perp AB$. 又因为 $SA\\perp$ 底面 $ABCDE$，而 $BC$ 在底面内，所以 $BC\\perp SA$. 直线 $AB$，$SA$ 是平面 $SAB$ 内相交的两条直线，故 $BC\\perp$ 平面 $SAB$.</p></li><li><p>令 $r=\\sqrt{3}$，取底面为 $z=0$ 平面，建立直角坐标系</p><p>$A=(0,0,0)$，$S=(0,0,2)$，$B=(2,0,0)$，$C=(2,r,0)$，$D=\\left(\\dfrac{1}{2},\\dfrac{3r}{2},0\\right)$，$E=(-1,r,0)$.</p><p>这些坐标满足 $AB=AE=2$，$BC=DE=r$，以及三个给定的 $120^{\\circ}$ 角，因此可用于计算二面角. 在平面 $BSC$ 和平面 $DSC$ 中，分别取相交向量 $\\overrightarrow{SC}$，$\\overrightarrow{SB}$ 与 $\\overrightarrow{SC}$，$\\overrightarrow{SD}$，则两平面的法向量可分别取为</p><p>$\\mathbf{n}_{1}=\\overrightarrow{SC}\\times\\overrightarrow{SB}=(-2r,0,-2r)$，</p><p>$\\mathbf{n}_{2}=\\overrightarrow{SC}\\times\\overrightarrow{SD}=\\left(r,3,\\dfrac{5r}{2}\\right)$.</p><p>这两个法向量分别对应二面角两侧指向 $B$，$D$ 的半平面，所以它们的夹角就是所求二面角 $\\theta$. 计算得</p><p>$\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=-21$，$|\\mathbf{n}_{1}|=2\\sqrt{6}$，$|\\mathbf{n}_{2}|=\\dfrac{\\sqrt{123}}{2}$.</p><p>于是</p><p>$\\cos\\theta=\\dfrac{\\mathbf{n}_1\\cdot\\mathbf{n}_2}{|\\mathbf{n}_1||\\mathbf{n}_2|}=-\\dfrac{21}{3\\sqrt{82}}=-\\dfrac{7\\sqrt{82}}{82}$.</p><p>所以 $\\theta=\\arccos\\left(-\\dfrac{7\\sqrt{82}}{82}\\right)=\\pi-\\arccos\\dfrac{7\\sqrt{82}}{82}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>延长 $BC$，$ED$，使它们相交于 $F$. 因为 $CF$ 与 $CB$ 方向相反，$DF$ 与 $DE$ 方向相反，所以</p><p>$\\angle DCF=180^{\\circ}-\\angle BCD=60^{\\circ}$，$\\angle CDF=180^{\\circ}-\\angle CDE=60^{\\circ}$.</p><p>于是 $\\triangle CDF$ 的两个角为 $60^{\\circ}$，它是正三角形，故 $CF=DF$. 又因为 $B$，$C$，$F$ 与 $E$，$D$，$F$ 分别共线，且 $BC=DE$，所以 $BF=EF$. 此外，$\\angle BFE=\\angle CFD=60^{\\circ}$，故 $\\triangle BFE$ 也是正三角形，从而 $BF=EF=BE$.</p><p>在等腰三角形 $ABE$ 中，$AB=AE=2$，且 $\\angle BAE=120^{\\circ}$. 由余弦定理，</p><p>$BE^{2}=AB^{2}+AE^{2}-2AB\\cdot AE\\cos120^{\\circ}=4+4+4=12$，</p><p>所以 $BE=2\\sqrt{3}$. 因而 $BF=EF=BE=2\\sqrt{3}$，且 $\\triangle BFE$ 为正三角形. 于是 $\\angle FBE=\\angle FCD=60^{\\circ}$，又 $BF$ 与 $CF$ 共线，所以 $BE\\parallel CD$.</p><p>因此异面直线 $CD$ 与 $SB$ 所成的角等于直线 $BE$ 与 $SB$ 所成的锐角 $\\angle SBE$. 因为 $SA\\perp$ 底面，$SA=AB=AE=2$，所以</p><p>$SB=\\sqrt{SA^{2}+AB^{2}}=2\\sqrt{2}$，$SE=\\sqrt{SA^{2}+AE^{2}}=2\\sqrt{2}$.</p><p>在 $\\triangle SBE$ 中，$BE=2\\sqrt{3}$，由余弦定理，</p><p>$\\cos\\angle SBE=\\dfrac{SB^2+BE^2-SE^2}{2SB\\cdot BE}=\\dfrac{8+12-8}{2\\cdot2\\sqrt{2}\\cdot2\\sqrt{3}}=\\dfrac{\\sqrt{6}}{4}$.</p><p>所以所求角为 $\\arccos\\dfrac{\\sqrt{6}}{4}$.</p></li><li><p>由 $AB=AE$ 和 $\\angle BAE=120^{\\circ}$，得等腰三角形 $ABE$ 的底角 $\\angle ABE=30^{\\circ}$. 又 $BF$ 与 $BC$ 同向，且 $\\triangle BFE$ 为正三角形，所以 $\\angle EBC=\\angle FBE=60^{\\circ}$. 因此</p><p>$\\angle ABC=\\angle ABE+\\angle EBC=30^{\\circ}+60^{\\circ}=90^{\\circ}$，</p><p>即 $BC\\perp AB$. 又因为 $SA\\perp$ 底面 $ABCDE$，而 $BC$ 在底面内，所以 $BC\\perp SA$. 直线 $AB$，$SA$ 是平面 $SAB$ 内相交的两条直线，故 $BC\\perp$ 平面 $SAB$.</p></li><li><p>令 $r=\\sqrt{3}$，取底面为 $z=0$ 平面，建立直角坐标系</p><p>$A=(0,0,0)$，$S=(0,0,2)$，$B=(2,0,0)$，$C=(2,r,0)$，$D=\\left(\\dfrac{1}{2},\\dfrac{3r}{2},0\\right)$，$E=(-1,r,0)$.</p><p>这些坐标满足 $AB=AE=2$，$BC=DE=r$，以及三个给定的 $120^{\\circ}$ 角，因此可用于计算二面角. 在平面 $BSC$ 和平面 $DSC$ 中，分别取相交向量 $\\overrightarrow{SC}$，$\\overrightarrow{SB}$ 与 $\\overrightarrow{SC}$，$\\overrightarrow{SD}$，则两平面的法向量可分别取为</p><p>$\\mathbf{n}_{1}=\\overrightarrow{SC}\\times\\overrightarrow{SB}=(-2r,0,-2r)$，</p><p>$\\mathbf{n}_{2}=\\overrightarrow{SC}\\times\\overrightarrow{SD}=\\left(r,3,\\dfrac{5r}{2}\\right)$.</p><p>这两个法向量分别对应二面角两侧指向 $B$，$D$ 的半平面，所以它们的夹角就是所求二面角 $\\theta$. 计算得</p><p>$\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=-21$，$|\\mathbf{n}_{1}|=2\\sqrt{6}$，$|\\mathbf{n}_{2}|=\\dfrac{\\sqrt{123}}{2}$.</p><p>于是</p><p>$\\cos\\theta=\\dfrac{\\mathbf{n}_1\\cdot\\mathbf{n}_2}{|\\mathbf{n}_1||\\mathbf{n}_2|}=-\\dfrac{21}{3\\sqrt{82}}=-\\dfrac{7\\sqrt{82}}{82}$.</p><p>所以 $\\theta=\\arccos\\left(-\\dfrac{7\\sqrt{82}}{82}\\right)=\\pi-\\arccos\\dfrac{7\\sqrt{82}}{82}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知 $a \\in \\mathbb{R}$，函数 $f(x) = x^{2} |x - a|$.</p><ol class=\"enumerate\"><li><p>当 $a = 2$ 时，求 $f(x) = x$ 使成立的 $x$ 的集合；</p></li><li><p>求函数 $y = f(x)$ 在区间 $[1,2]$ 上的最小值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x<2$ 时，$|x-2|=2-x$，方程化为</p><p>$x^{2}(2-x)=x\\iff x\\left[x(2-x)-1\\right]=0\\iff -x(x-1)^{2}=0$.</p><p>所以得到 $x=0$ 或 $x=1$，这两个解都满足 $x<2$.</p><p>当 $x\\geqslant2$ 时，$|x-2|=x-2$，方程化为 $x^{2}(x-2)=x$. 因为此时 $x>0$，可除以 $x$，得到 $x^{2}-2x-1=0$，所以 $x=1\\pm\\sqrt{2}$. 其中只有 $1+\\sqrt{2}\\geqslant2$，故所求解集为 $\\{0,1,1+\\sqrt{2}\\}$.</p></li><li><p>记 $[1,2]$ 上的最小值为 $m$. 由于 $x\\in[1,2]$，按参数 $a$ 的位置分类.</p><p>当 $a\\leqslant1$ 时，$x-a\\geqslant0$，所以 $f(x)=x^{3}-ax^{2}$，且</p><p>$f'(x)=x(3x-2a)\\geqslant1\\times(3-2a)>0$.</p><p>因此 $f$ 在 $[1,2]$ 上递增，最小值为 $f(1)=1-a$.</p><p>当 $1<a\\leqslant2$ 时，点 $x=a$ 属于 $[1,2]$，且 $f(a)=a^{2}|a-a|=0$. 又 $f(x)\\geqslant0$，故最小值为 $0$.</p><p>当 $a>2$ 时，$x-a<0$，所以 $f(x)=ax^{2}-x^{3}$，且</p><p>$f'(x)=x(2a-3x)$.</p><p>若 $a\\geqslant3$，则对 $x\\in[1,2]$ 有 $2a-3x\\geqslant2a-6\\geqslant0$，所以 $f$ 递增，最小值为 $f(1)=a-1$.</p><p>若 $2<a<3$，则 $\\dfrac{2a}{3}\\in(1,2)$，函数在 $\\left[1,\\dfrac{2a}{3}\\right]$ 上递增，在 $\\left[\\dfrac{2a}{3},2\\right]$ 上递减. 因此最小值只能在两个端点处取得. 计算</p><p>$f(1)=a-1$，$f(2)=4(a-2)$.</p><p>比较两者，$4(a-2)\\le a-1\\iff a\\le\\dfrac{7}{3}$. 因此在 $2<a<3$ 时，$a\\le\\dfrac{7}{3}$ 取 $f(2)$，而 $a>\\dfrac{7}{3}$ 取 $f(1)$. 与前面的情形合并，所求最小值为</p><p><span class=\"macro macro-examdisplaycases\"></span>m =<br>1-a, & a<span class=\"macro macro-le\"></span> 1,<br class=\"linebreak\"><br>0, & 1<a<span class=\"macro macro-le\"></span> 2,<br class=\"linebreak\"><br>4(a-2), & 2<a<span class=\"macro macro-le\"></span> <span class=\"macro macro-dfrac\"></span>73,<br class=\"linebreak\"><br>a-1, & a><span class=\"macro macro-dfrac\"></span>73.<br></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x<2$ 时，$|x-2|=2-x$，方程化为</p><p>$x^{2}(2-x)=x\\iff x\\left[x(2-x)-1\\right]=0\\iff -x(x-1)^{2}=0$.</p><p>所以得到 $x=0$ 或 $x=1$，这两个解都满足 $x<2$.</p><p>当 $x\\geqslant2$ 时，$|x-2|=x-2$，方程化为 $x^{2}(x-2)=x$. 因为此时 $x>0$，可除以 $x$，得到 $x^{2}-2x-1=0$，所以 $x=1\\pm\\sqrt{2}$. 其中只有 $1+\\sqrt{2}\\geqslant2$，故所求解集为 $\\{0,1,1+\\sqrt{2}\\}$.</p></li><li><p>记 $[1,2]$ 上的最小值为 $m$. 由于 $x\\in[1,2]$，按参数 $a$ 的位置分类.</p><p>当 $a\\leqslant1$ 时，$x-a\\geqslant0$，所以 $f(x)=x^{3}-ax^{2}$，且</p><p>$f'(x)=x(3x-2a)\\geqslant1\\times(3-2a)>0$.</p><p>因此 $f$ 在 $[1,2]$ 上递增，最小值为 $f(1)=1-a$.</p><p>当 $1<a\\leqslant2$ 时，点 $x=a$ 属于 $[1,2]$，且 $f(a)=a^{2}|a-a|=0$. 又 $f(x)\\geqslant0$，故最小值为 $0$.</p><p>当 $a>2$ 时，$x-a<0$，所以 $f(x)=ax^{2}-x^{3}$，且</p><p>$f'(x)=x(2a-3x)$.</p><p>若 $a\\geqslant3$，则对 $x\\in[1,2]$ 有 $2a-3x\\geqslant2a-6\\geqslant0$，所以 $f$ 递增，最小值为 $f(1)=a-1$.</p><p>若 $2<a<3$，则 $\\dfrac{2a}{3}\\in(1,2)$，函数在 $\\left[1,\\dfrac{2a}{3}\\right]$ 上递增，在 $\\left[\\dfrac{2a}{3},2\\right]$ 上递减. 因此最小值只能在两个端点处取得. 计算</p><p>$f(1)=a-1$，$f(2)=4(a-2)$.</p><p>比较两者，$4(a-2)\\le a-1\\iff a\\le\\dfrac{7}{3}$. 因此在 $2<a<3$ 时，$a\\le\\dfrac{7}{3}$ 取 $f(2)$，而 $a>\\dfrac{7}{3}$ 取 $f(1)$. 与前面的情形合并，所求最小值为</p><p><span class=\"macro macro-examdisplaycases\"></span>m =<br>1-a, & a<span class=\"macro macro-le\"></span> 1,<br class=\"linebreak\"><br>0, & 1<a<span class=\"macro macro-le\"></span> 2,<br class=\"linebreak\"><br>4(a-2), & 2<a<span class=\"macro macro-le\"></span> <span class=\"macro macro-dfrac\"></span>73,<br class=\"linebreak\"><br>a-1, & a><span class=\"macro macro-dfrac\"></span>73.<br></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，已知 $a_{1} = 1$，$a_{2} = 6$，$a_{3} = 11$，且 $(5n - 8)S_{n+1}- (5n + 2)S_{n} = An + B$，$n = 1$，$2$，$3$，$\\cdots$，其中 $A$，$B$ 为常数.</p><ol class=\"enumerate\"><li><p>求 $A$ 与 $B$ 的值；</p></li><li><p>证明数列 $\\{a_{n}\\}$ 为等差数列；</p></li><li><p>证明不等式 $\\sqrt{5a_{mn}}- \\sqrt{a_{m} a_{n}}> 1$ 对任何正整数 $m$，$n$ 都成立.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由已知首三项，</p><p>$S_{1}=a_{1}=1$，$S_{2}=a_{1}+a_{2}=7$，$S_{3}=a_{1}+a_{2}+a_{3}=18$.</p><p>在题设关系中取 $n=1$，得到</p><p>$(5-8)S_{2}-(5+2)S_{1}=A+B\\iff-3\\times7-7\\times1=A+B$，</p><p>即 $A+B=-28$. 取 $n=2$，得到</p><p>$(10-8)S_{3}-(10+2)S_{2}=2A+B\\iff2\\times18-12\\times7=2A+B$，</p><p>即 $2A+B=-48$. 两式相减得 $A=-20$，再代回得 $B=-8$.</p></li><li><p>由第一问，题设关系化为</p><p>$(5n-8)S_{n+1}-(5n+2)S_{n}=-20n-8$.</p><p>把其中的 $n$ 换成 $n+1$，得到</p><p>$(5n-3)S_{n+2}-(5n+7)S_{n+1}=-20n-28$.</p><p>用这个等式减去原等式，消去右端的含 $n$ 一次项，得</p><p>$(5n-3)S_{n+2}-(10n-1)S_{n+1}+(5n+2)S_{n}=-20$.</p><p>再把这个等式中的 $n$ 换成 $n+1$，并减去上式，得到</p><p>$(5n+2)S_{n+3}-(15n+6)S_{n+2}+(15n+6)S_{n+1}-(5n+2)S_{n}=0$.</p><p>注意到 $15n+6=3(5n+2)$，并用</p><p>$S_{n+1}=S_{n}+a_{n+1}$，$S_{n+2}=S_{n}+a_{n+1}+a_{n+2}$，$S_{n+3}=S_{n}+a_{n+1}+a_{n+2}+a_{n+3}$，</p><p>上式中关于 $S_{n}$ 的项相互抵消，剩下</p><p>$(5n+2)(a_{n+3}-2a_{n+2}+a_{n+1})=0$.</p><p>由于 $n\\geqslant1$ 时 $5n+2\\neq0$，所以</p><p>$a_{n+3}-a_{n+2}=a_{n+2}-a_{n+1}$.</p><p>这说明从第二项开始相邻两项的差相等. 又 $a_{2}-a_{1}=5$，$a_{3}-a_{2}=5$，故数列 $\\{a_{n}\\}$ 为公差 $5$ 的等差数列，通项为</p><p>$a_{n}=a_{1}+(n-1)\\times5=5n-4$.</p></li><li><p>由上一问，</p><p>$a_{mn}=5mn-4$，$a_{m}=5m-4$，$a_{n}=5n-4$.</p><p>令 $X=5a_{mn}=25mn-20$，$Y=a_{m}a_{n}=(5m-4)(5n-4)=25mn-20m-20n+16$. 因为 $m$，$n$ 是正整数，所以 $a_{m}$，$a_{n}>0$，从而 $Y>0$. 直接计算得</p><p>$X-Y-1=20m+20n-37$.</p><p>由基本不等式，</p><p>$2\\sqrt{Y}=2\\sqrt{a_{m}a_{n}}\\le a_{m}+a_{n}=5m+5n-8$.</p><p>又因为 $m$，$n\\geqslant1$，</p><p>$(20m+20n-37)-(5m+5n-8)=15m+15n-29\\geqslant1>0$，</p><p>所以 $2\\sqrt{Y}<20m+20n-37=X-Y-1$. 因而</p><p>$X>Y+1+2\\sqrt{Y}=(\\sqrt{Y}+1)^{2}$.</p><p>由于 $X>0$ 且 $Y>0$，两边开平方得 $\\sqrt{X}>\\sqrt{Y}+1$，即</p><p>$\\sqrt{5a_{mn}}-\\sqrt{a_{m}a_{n}}>1$.</p><p>这对任意正整数 $m$，$n$ 均成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由已知首三项，</p><p>$S_{1}=a_{1}=1$，$S_{2}=a_{1}+a_{2}=7$，$S_{3}=a_{1}+a_{2}+a_{3}=18$.</p><p>在题设关系中取 $n=1$，得到</p><p>$(5-8)S_{2}-(5+2)S_{1}=A+B\\iff-3\\times7-7\\times1=A+B$，</p><p>即 $A+B=-28$. 取 $n=2$，得到</p><p>$(10-8)S_{3}-(10+2)S_{2}=2A+B\\iff2\\times18-12\\times7=2A+B$，</p><p>即 $2A+B=-48$. 两式相减得 $A=-20$，再代回得 $B=-8$.</p></li><li><p>由第一问，题设关系化为</p><p>$(5n-8)S_{n+1}-(5n+2)S_{n}=-20n-8$.</p><p>把其中的 $n$ 换成 $n+1$，得到</p><p>$(5n-3)S_{n+2}-(5n+7)S_{n+1}=-20n-28$.</p><p>用这个等式减去原等式，消去右端的含 $n$ 一次项，得</p><p>$(5n-3)S_{n+2}-(10n-1)S_{n+1}+(5n+2)S_{n}=-20$.</p><p>再把这个等式中的 $n$ 换成 $n+1$，并减去上式，得到</p><p>$(5n+2)S_{n+3}-(15n+6)S_{n+2}+(15n+6)S_{n+1}-(5n+2)S_{n}=0$.</p><p>注意到 $15n+6=3(5n+2)$，并用</p><p>$S_{n+1}=S_{n}+a_{n+1}$，$S_{n+2}=S_{n}+a_{n+1}+a_{n+2}$，$S_{n+3}=S_{n}+a_{n+1}+a_{n+2}+a_{n+3}$，</p><p>上式中关于 $S_{n}$ 的项相互抵消，剩下</p><p>$(5n+2)(a_{n+3}-2a_{n+2}+a_{n+1})=0$.</p><p>由于 $n\\geqslant1$ 时 $5n+2\\neq0$，所以</p><p>$a_{n+3}-a_{n+2}=a_{n+2}-a_{n+1}$.</p><p>这说明从第二项开始相邻两项的差相等. 又 $a_{2}-a_{1}=5$，$a_{3}-a_{2}=5$，故数列 $\\{a_{n}\\}$ 为公差 $5$ 的等差数列，通项为</p><p>$a_{n}=a_{1}+(n-1)\\times5=5n-4$.</p></li><li><p>由上一问，</p><p>$a_{mn}=5mn-4$，$a_{m}=5m-4$，$a_{n}=5n-4$.</p><p>令 $X=5a_{mn}=25mn-20$，$Y=a_{m}a_{n}=(5m-4)(5n-4)=25mn-20m-20n+16$. 因为 $m$，$n$ 是正整数，所以 $a_{m}$，$a_{n}>0$，从而 $Y>0$. 直接计算得</p><p>$X-Y-1=20m+20n-37$.</p><p>由基本不等式，</p><p>$2\\sqrt{Y}=2\\sqrt{a_{m}a_{n}}\\le a_{m}+a_{n}=5m+5n-8$.</p><p>又因为 $m$，$n\\geqslant1$，</p><p>$(20m+20n-37)-(5m+5n-8)=15m+15n-29\\geqslant1>0$，</p><p>所以 $2\\sqrt{Y}<20m+20n-37=X-Y-1$. 因而</p><p>$X>Y+1+2\\sqrt{Y}=(\\sqrt{Y}+1)^{2}$.</p><p>由于 $X>0$ 且 $Y>0$，两边开平方得 $\\sqrt{X}>\\sqrt{Y}+1$，即</p><p>$\\sqrt{5a_{mn}}-\\sqrt{a_{m}a_{n}}>1$.</p><p>这对任意正整数 $m$，$n$ 均成立.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

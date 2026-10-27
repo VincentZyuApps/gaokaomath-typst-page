@@ -87,6 +87,9 @@ export function normalizeLatexSnippet(tex: string): string {
   s = s.replace(/\\athrm\b/g, '\\mathrm');
   s = s.replace(/\\expandafter\\def\\csname[^\n]+/g, '');
   s = s.replace(/\\multirow[0-9*]*\{/g, '');
+  // 清理排版控制宏 (如 \renewcommand{\arraystretch}{...})
+  s = s.replace(/\\renewcommand\s*(?:\{[^{}]*\}|\\[a-zA-Z]+)\s*(?:\{[^{}]*\}|[0-9.]+)/g, '');
+  s = s.replace(/\\arraystretch\b/g, '');
   // 清理 minipage 环境
   s = s.replace(/\\begin\{minipage\}(?:\[[^\]]*\])?(?:\{[^\}]*\})?/g, '');
   s = s.replace(/\\end\{minipage\}/g, '');
@@ -174,9 +177,22 @@ export function processTextForWebMarkdown(text: string, imgPrefix: string = "./i
       return `<div align="center"><img class="${cls}" src="${imgPrefix}${cleanImgName}" style="${style}" /></div>`;
     });
 
+    html = html.replace(/<span class="macro macro-renewcommand">[\s\S]*?<\/span>/gi, '');
     html = html.replace(/\\renewcommand\{[^}]+\}\{[^}]+\}/g, '');
     html = html.replace(/\\cline\{[^}]+\}/g, '');
     html = html.replace(/\\quad/g, ' ');
+
+    // 清理表格中由 \hline 转译产生的全空 tr 或伪空白行
+    html = html.replace(/<tr>\s*<\/tr>/gi, '');
+    const emptyRowRegex = /<tr>(?:\s*<td[^>]*>\s*(?:<br\s*\/?>)?\s*<\/td>\s*)+<\/tr>/gi;
+    while (emptyRowRegex.test(html)) {
+      html = html.replace(emptyRowRegex, '');
+    }
+    // 清理单元格首尾冗余换行
+    html = html.replace(/(<td[^>]*>)\s*<br\s*\/?>/gi, '$1');
+    html = html.replace(/<br\s*\/?>\s*(<\/td>)/gi, '$1');
+    // 清除居中环境开头的空换行
+    html = html.replace(/(<center[^>]*>)\s*<br\s*\/?>/gi, '$1');
     // 缝合被美元符号截断的 cases 多分支条件
     html = html.replace(/&(?:s*\$)?s*（(?:s*\$)?([\s\S]*?)(?:s*\$)?s*）(?:s*\$)?/g, (m, p1) => '& \\text{（' + p1.replace(/\$/g, '').trim() + '）}');
     html = decodeMathEntities(html);

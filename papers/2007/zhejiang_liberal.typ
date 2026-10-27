@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,386 +11,277 @@
 #part-header("单选题")
 
 #problem(1)[
-设全集 $U=\{1, 3, 5, 6, 8\}$，$A=\{1, 6\}$，$B=\{5, 6, 8\}$，则 $(\c o m p l e m e n t_U A) inter B=$（ ）
-  #choices([$\{6\}$], [$\{5, 8\}$], [$\{6, 8\}$], [$\{3, 5, 6, 8\}$], cols: 2)
+设全集 #mi(`U=\{1, 3, 5, 6, 8\}`)，#mi(`A=\{1, 6\}`)，#mi(`B=\{5, 6, 8\}`)，则 #mi(`\left(\complement_{U} A\right)\cap B=`)（ ）
+  #choices([#mi(`\{6\}`)], [#mi(`\{5, 8\}`)], [#mi(`\{6, 8\}`)], [#mi(`\{3, 5, 6, 8\}`)], cols: 2)
 ]
 
 #solution[
-由全集和集合 $A$ 可得 $\c o m p l e m e n t_U A=\{3,5,8\}$. 因此 $(\c o m p l e m e n t_U A) inter B=\{3,5,8\} inter \{5,6,8\}=\{5,8\}$，故选 B.
+由全集和集合 #mi(`A`) 可得 #mi(`\complement_{U} A=\{3,5,8\}`). 因此 #mi(`\left(\complement_{U} A\right)\cap B=\{3,5,8\}\cap\{5,6,8\}=\{5,8\}`)，故选 B.
 ]
 
 #problem(2)[
-已知 $cos ((pi)/(2)+ phi.alt )=(sqrt(3))/(2)$，且 $| phi.alt |<(pi)/(2)$，则 $tan phi.alt =$（ ）
-  #choices([$-(sqrt(3))/(3)$], [$(sqrt(3))/(3)$], [$-sqrt(3)$], [$sqrt(3)$], cols: 2)
+已知 #mi(`\cos\left(\frac{\pi}{2}+\varphi\right)=\frac{\sqrt{3}}{2}`)，且 #mi(`\left|\varphi\right|<\frac{\pi}{2}`)，则 #mi(`\tan\varphi=`)（ ）
+  #choices([#mi(`-\frac{\sqrt{3}}{3}`)], [#mi(`\frac{\sqrt{3}}{3}`)], [#mi(`-\sqrt{3}`)], [#mi(`\sqrt{3}`)], cols: 2)
 ]
 
 #solution[
-由 $cos ((pi)/(2)+ phi.alt )=- sin phi.alt$，得 $sin phi.alt =-(sqrt(3))/(2)$. 又因 $| phi.alt |<(pi)/(2)$，所以 $cos phi.alt >0$，从而 $cos phi.alt =(1)/(2)$. 因此 $tan phi.alt =(sin phi.alt)/(cos phi.alt)=-sqrt(3)$，故选 C.
+由 #mi(`\cos\left(\frac{\pi}{2}+\varphi\right)=-\sin\varphi`)，得 #mi(`\sin\varphi=-\frac{\sqrt{3}}{2}`). 又因 #mi(`\left|\varphi\right|<\frac{\pi}{2}`)，所以 #mi(`\cos\varphi>0`)，从而 #mi(`\cos\varphi=\frac{1}{2}`). 因此 #mi(`\tan\varphi=\frac{\sin\varphi}{\cos\varphi}=-\sqrt{3}`)，故选 C.
 ]
 
 #problem(3)[
-“$x>1$” 是 “$x^2>x$” 的（ ）
+“#mi(`x>1`)” 是 “#mi(`x^{2}>x`)” 的（ ）
   #choices([充分而不必要条件], [必要而不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #solution[
-若 $x>1$，则 $x(x-1)>0$，即 $x^2>x$，所以 $x>1$ 是 $x^2>x$ 的充分条件. 反之，$x^2>x$ 等价于 $x(x-1)>0$，解得 $x<0$ 或 $x>1$. 例如 $x=-1$ 时 $x^2>x$ 成立而 $x>1$ 不成立，因此不是必要条件，故选 A.
+若 #mi(`x>1`)，则 #mi(`x(x-1)>0`)，即 #mi(`x^{2}>x`)，所以 #mi(`x>1`) 是 #mi(`x^{2}>x`) 的充分条件. 反之，#mi(`x^{2}>x`) 等价于 #mi(`x(x-1)>0`)，解得 #mi(`x<0`) 或 #mi(`x>1`). 例如 #mi(`x=-1`) 时 #mi(`x^{2}>x`) 成立而 #mi(`x>1`) 不成立，因此不是必要条件，故选 A.
 ]
 
 #problem(4)[
-直线 $x - 2 y + 1 = 0$ 关于直线 $x = 1$ 对称的直线方程是（ ）
-  #choices([$x + 2 y - 1 = 0$], [$2 x + y - 1 = 0$], [$2 x + y - 3 = 0$], [$x + 2 y - 3 = 0$], cols: 2)
+直线 #mi(`x - 2y + 1 = 0`) 关于直线 #mi(`x = 1`) 对称的直线方程是（ ）
+  #choices([#mi(`x + 2y - 1 = 0`)], [#mi(`2x + y - 1 = 0`)], [#mi(`2x + y - 3 = 0`)], [#mi(`x + 2y - 3 = 0`)], cols: 2)
 ]
 
 #solution[
-设原直线上的点为 $(x,y)$，关于直线 $x=1$ 对称后的点为 $(X,Y)$. 由轴对称关系，$X=2-x$，$Y=y$，即 $x=2-X$，$y=Y$. 代入原直线方程得 $(2-X)-2 Y+1=0$，化简为 $X+2 Y-3=0$. 将 $X$，$Y$ 仍记为 $x$，$y$，所求直线为 $x+2 y-3=0$，故选 D.
+设原直线上的点为 #mi(`(x,y)`)，关于直线 #mi(`x=1`) 对称后的点为 #mi(`(X,Y)`). 由轴对称关系，#mi(`X=2-x`)，#mi(`Y=y`)，即 #mi(`x=2-X`)，#mi(`y=Y`). 代入原直线方程得 #mi(`(2-X)-2Y+1=0`)，化简为 #mi(`X+2Y-3=0`). 将 #mi(`X`)，#mi(`Y`) 仍记为 #mi(`x`)，#mi(`y`)，所求直线为 #mi(`x+2y-3=0`)，故选 D.
 ]
 
 #problem(5)[
-要在边长为 $16" 米"$ 的正方形草坪上安装喷水龙头，使整个草坪都能喷洒到水. 假设每个喷水龙头的喷洒范围都是半径为 $6" 米"$ 的圆面，则需安装这种喷水龙头的个数最少是（ ）
+要在边长为 #mi(`16\text{ \text{米}}`) 的正方形草坪上安装喷水龙头，使整个草坪都能喷洒到水. 假设每个喷水龙头的喷洒范围都是半径为 #mi(`6\text{ \text{米}}`) 的圆面，则需安装这种喷水龙头的个数最少是（ ）
 
 
-#align(center)[#image("/papers/2007/img/zhejiang_liberal/q5_fig1.png", width: 44%)]
-  #choices([$6$], [$5$], [$4$], [$3$], cols: 4)
+#align(center)[#image("/papers/2007/img/zhejiang_liberal/q5_fig1.png", width: 28%)]
+
+  #choices([#mi(`6`)], [#mi(`5`)], [#mi(`4`)], [#mi(`3`)], cols: 4)
 ]
 
 #solution[
-正方形的四个顶点中，任意两个不同顶点的距离至少为 $16$，而一个半径为 $6$ 的圆的直径为 $12$，所以一个喷水范围不可能同时覆盖两个顶点. 四个顶点都必须被覆盖，故喷水龙头至少需要 $4$ 个.
+正方形的四个顶点中，任意两个不同顶点的距离至少为 #mi(`16`)，而一个半径为 #mi(`6`) 的圆的直径为 #mi(`12`)，所以一个喷水范围不可能同时覆盖两个顶点. 四个顶点都必须被覆盖，故喷水龙头至少需要 #mi(`4`) 个.
 
-将正方形看作四个边长为 $8$ 的小正方形，并在它们的中心分别安装喷水龙头. 每个小正方形内任一点到其中心的距离不超过 $4 sqrt(2)<6$，所以四个喷水范围能够覆盖整个草坪. 因而最少需要 $4$ 个，故选 C.
+将正方形看作四个边长为 #mi(`8`) 的小正方形，并在它们的中心分别安装喷水龙头. 每个小正方形内任一点到其中心的距离不超过 #mi(`4\sqrt{2}<6`)，所以四个喷水范围能够覆盖整个草坪. 因而最少需要 #mi(`4`) 个，故选 C.
 ]
 
 #problem(6)[
-$(sqrt(x)- (1)/(x))^9$ 展开式中的常数项是（ ）
-  #choices([$-36$], [$36$], [$-84$], [$84$], cols: 4)
+#mi(`\left(\sqrt{x}- \frac{1}{x}\right)^{9}`) 展开式中的常数项是（ ）
+  #choices([#mi(`-36`)], [#mi(`36`)], [#mi(`-84`)], [#mi(`84`)], cols: 4)
 ]
 
 #solution[
-展开式的通项为 $C_9^k(sqrt(x))^(9-k)(-(1)/(x))^k=(-1)^k C_9^k x^((9-3 k)/(2))$，其中 $k=0$，$1$，$\l d o t s$，$9$. 常数项要求 $(9-3 k)/(2)=0$，所以 $k=3$. 因而常数项为 $(-1)^3 C_9^3=-84$，故选 C.
+展开式的通项为 #mi(`\mathrm{C}_{9}^{k}\left(\sqrt{x}\right)^{9-k}\left(-\frac{1}{x}\right)^{k}=(-1)^{k}\mathrm{C}_{9}^{k} x^{\frac{9-3k}{2}}`)，其中 #mi(`k=0`)，#mi(`1`)，#mi(`\ldots`)，#mi(`9`). 常数项要求 #mi(`\frac{9-3k}{2}=0`)，所以 #mi(`k=3`). 因而常数项为 #mi(`(-1)^{3}\mathrm{C}_{9}^{3}=-84`)，故选 C.
 ]
 
 #problem(7)[
-若 $P$ 是两条异面直线 $l$，$m$ 外的任意一点，则（ ）
-  #choices([过点 $P$ 有且仅有一条直线与 $l$，$m$ 都平行], [过点 $P$ 有且仅有一条直线与 $l$，$m$ 都垂直], [过点 $P$ 有且仅有一条直线与 $l$，$m$ 都相交], [过点 $P$ 有且仅有一条直线与 $l$，$m$ 都异面], cols: 2)
+若 #mi(`P`) 是两条异面直线 #mi(`l`)，#mi(`m`) 外的任意一点，则（ ）
+  #choices([过点 #mi(`P`) 有且仅有一条直线与 #mi(`l`)，#mi(`m`) 都平行], [过点 #mi(`P`) 有且仅有一条直线与 #mi(`l`)，#mi(`m`) 都垂直], [过点 #mi(`P`) 有且仅有一条直线与 #mi(`l`)，#mi(`m`) 都相交], [过点 #mi(`P`) 有且仅有一条直线与 #mi(`l`)，#mi(`m`) 都异面], cols: 1)
 ]
 
 #solution[
-设异面直线 $l$，$m$ 的方向向量分别为非共线向量 $bold(u)$，$bold(v)$. 则 $bold(u)\t i m e s b o l d(v)$ 同时垂直于 $bold(u)$ 和 $bold(v)$. 所有同时垂直于 $bold(u)$，$bold(v)$ 的非零向量都与 $bold(u)\t i m e s b o l d(v)$ 平行，因此过点 $P$ 且方向为 $bold(u)\t i m e s b o l d(v)$ 的直线唯一，并且与 $l$，$m$ 都垂直，故选 B.
+设异面直线 #mi(`l`)，#mi(`m`) 的方向向量分别为非共线向量 #mi(`\mathbf{u}`)，#mi(`\mathbf{v}`). 则 #mi(`\mathbf{u}\times\mathbf{v}`) 同时垂直于 #mi(`\mathbf{u}`) 和 #mi(`\mathbf{v}`). 所有同时垂直于 #mi(`\mathbf{u}`)，#mi(`\mathbf{v}`) 的非零向量都与 #mi(`\mathbf{u}\times\mathbf{v}`) 平行，因此过点 #mi(`P`) 且方向为 #mi(`\mathbf{u}\times\mathbf{v}`) 的直线唯一，并且与 #mi(`l`)，#mi(`m`) 都垂直，故选 B.
 ]
 
 #problem(8)[
-甲，乙两人进行乒乓球比赛，比赛规则为“$3$ 局 $2$ 胜”，即以先赢 $2$ 局者为胜. 根据经验，每局比赛中甲获胜的概率为 $0.6$，则本次比赛甲获胜的概率是（ ）
-  #choices([$0.216$], [$0.36$], [$0.432$], [$0.648$], cols: 4)
+甲，乙两人进行乒乓球比赛，比赛规则为“#mi(`3`) 局 #mi(`2`) 胜”，即以先赢 #mi(`2`) 局者为胜. 根据经验，每局比赛中甲获胜的概率为 #mi(`0.6`)，则本次比赛甲获胜的概率是（ ）
+  #choices([#mi(`0.216`)], [#mi(`0.36`)], [#mi(`0.432`)], [#mi(`0.648`)], cols: 4)
 ]
 
 #solution[
-甲获胜的比赛过程只有三种：前两局连胜，或前两局一胜一负且第三局获胜. 因而甲获胜的概率为 $0.6^2+2 times 0 .6 times 0 .4 times 0 .6=0.36+0.288=0.648$，故选 D.
+甲获胜的比赛过程只有三种：前两局连胜，或前两局一胜一负且第三局获胜. 因而甲获胜的概率为 #mi(`0.6^{2}+2\times0.6\times0.4\times0.6=0.36+0.288=0.648`)，故选 D.
 ]
 
 #problem(9)[
-若非零向量 $bold(a)$，$bold(b)$ 满足 $|bold(a)- bold(b)| = |bold(b)|$，则（ ）
-  #choices([$|2 bold(b)| > |bold(a)- 2 bold(b)|$], [$|2 bold(b)| < |bold(a)- 2 bold(b)|$], [$|2 bold(a)| > |2 bold(a)- bold(b)|$], [$|2 bold(a)| < |2 bold(a)- bold(b)|$], cols: 1)
+若非零向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 满足 #mi(`\left|\mathbf{a}- \mathbf{b}\right| = \left|\mathbf{b}\right|`)，则（ ）
+  #choices([#mi(`\left|2\mathbf{b}\right| > \left|\mathbf{a}- 2\mathbf{b}\right|`)], [#mi(`\left|2\mathbf{b}\right| < \left|\mathbf{a}- 2\mathbf{b}\right|`)], [#mi(`\left|2\mathbf{a}\right| > \left|2\mathbf{a}- \mathbf{b}\right|`)], [#mi(`\left|2\mathbf{a}\right| < \left|2\mathbf{a}- \mathbf{b}\right|`)], cols: 1)
 ]
 
 #solution[
 将条件两边平方，得
 
-$ |bold(a)|^2-2 bold(a)\c d o t b o l d(b)+|bold(b)|^2=|bold(b)|^2 $
 
-所以 $2 bold(a)\c d o t b o l d(b)=|bold(a)|^2$. 于是
+#align(center)[#mitex(`
+\left|\mathbf{a}\right|^{2}-2\mathbf{a}\cdot\mathbf{b}+\left|\mathbf{b}\right|^{2}=\left|\mathbf{b}\right|^{2}
+`)]
 
-$ |2 bold(b)|^2-|bold(a)-2 bold(b)|^2=4|bold(b)|^2-(|bold(a)|^2-4 bold(a)\c d o t b o l d(b)+4|bold(b)|^2)=4 bold(a)\c d o t b o l d(b)-|bold(a)|^2=|bold(a)|^2>0 $
 
-因此 $|2 bold(b)|>|bold(a)-2 bold(b)|$，故选 A.
+所以 #mi(`2\mathbf{a}\cdot\mathbf{b}=\left|\mathbf{a}\right|^{2}`). 于是
+
+
+#align(center)[#mitex(`
+\left|2\mathbf{b}\right|^{2}-\left|\mathbf{a}-2\mathbf{b}\right|^{2}=4\left|\mathbf{b}\right|^{2}-\left(\left|\mathbf{a}\right|^{2}-4\mathbf{a}\cdot\mathbf{b}+4\left|\mathbf{b}\right|^{2}\right)=4\mathbf{a}\cdot\mathbf{b}-\left|\mathbf{a}\right|^{2}=\left|\mathbf{a}\right|^{2}>0
+`)]
+
+
+因此 #mi(`\left|2\mathbf{b}\right|>\left|\mathbf{a}-2\mathbf{b}\right|`)，故选 A.
 ]
 
 #problem(10)[
-已知双曲线 $(x^2)/(a^2)- (y^2)/(b^2)= 1$（$a>0$，$b>0$）的左，右焦点分别为 $F_1$，$F_2$，$P$ 是准线上一点，且 $P F_1 bot P F_2$，$|P F_1| dot |P F_2| = 4 a b$，则双曲线的离心率是（ ）
-  #choices([$sqrt(2)$], [$sqrt(3)$], [$2$], [$3$], cols: 4)
+已知双曲线 #mi(`\frac{x^{2}}{a^{2}}- \frac{y^{2}}{b^{2}}= 1`)（#mi(`a>0`)，#mi(`b>0`)）的左，右焦点分别为 #mi(`F_{1}`)，#mi(`F_{2}`)，#mi(`P`) 是准线上一点，且 #mi(`PF_{1} \perp PF_{2}`)，#mi(`\left|PF_{1}\right| \cdot \left|PF_{2}\right| = 4ab`)，则双曲线的离心率是（ ）
+  #choices([#mi(`\sqrt{2}`)], [#mi(`\sqrt{3}`)], [#mi(`2`)], [#mi(`3`)], cols: 4)
 ]
 
 #solution[
-设双曲线的焦距参数为 $c$，则 $c^2=a^2+b^2$，离心率为 $e=(c)/(a)$. 由对称性，只需设 $P$ 在右准线 $x=(a^2)/(c)$ 上，记 $P((a^2)/(c),t)$. 令 $F_1=(-c,0)$，$F_2=(c,0)$，则
-$arrow(P F_1)=(-c-(a^2)/(c),-t)$，$arrow(P F_2)=(c-(a^2)/(c),-t)$.
-由 $P F_1 bot P F_2$，得
+设双曲线的焦距参数为 #mi(`c`)，则 #mi(`c^{2}=a^{2}+b^{2}`)，离心率为 #mi(`e=\frac{c}{a}`). 由对称性，只需设 #mi(`P`) 在右准线 #mi(`x=\frac{a^{2}}{c}`) 上，记 #mi(`P\left(\frac{a^{2}}{c},t\right)`). 令 #mi(`F_{1}=(-c,0)`)，#mi(`F_{2}=(c,0)`)，则
 
-$ 0=arrow(P F_1)\c d o t a r r o w(P F_2)=-(c^2-(a^4)/(c^2))+t^2 $
+#mi(`\overrightarrow{PF_1}=\left(-c-\frac{a^{2}}{c},-t\right)`)，#mi(`\overrightarrow{PF_2}=\left(c-\frac{a^{2}}{c},-t\right)`).
 
-所以 $t^2=(b^2(c^2+a^2))/(c^2)$. 代入两段距离，得
-$|P F_1|^2=2(c^2+a^2)$，$|P F_2|^2=2 b^2$.
-因此 $|P F_1||P F_2|=2 b s q r t(c^2+a^2)=4 a b$，从而 $c^2+a^2=4 a^2$. 于是 $c^2=3 a^2$，故 $e=sqrt(3)$，选 B.
+由 #mi(`PF_{1}\perp PF_{2}`)，得
+
+
+#align(center)[#mitex(`
+0=\overrightarrow{PF_1}\cdot\overrightarrow{PF_2}=-\left(c^{2}-\frac{a^{4}}{c^{2}}\right)+t^{2}
+`)]
+
+
+所以 #mi(`t^{2}=\frac{b^{2}(c^{2}+a^{2})}{c^{2}}`). 代入两段距离，得
+
+#mi(`\left|PF_{1}\right|^{2}=2(c^{2}+a^{2})`)，#mi(`\left|PF_{2}\right|^{2}=2b^{2}`).
+
+因此 #mi(`\left|PF_{1}\right|\left|PF_{2}\right|=2b\sqrt{c^{2}+a^{2}}=4ab`)，从而 #mi(`c^{2}+a^{2}=4a^{2}`). 于是 #mi(`c^{2}=3a^{2}`)，故 #mi(`e=\sqrt{3}`)，选 B.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-函数 $y=(x^2)/(x^2+1)$（$x in RR$）的值域是#blank(){}.
+函数 #mi(`y=\frac{x^{2}}{x^{2}+1}`)（#mi(`x\in\mathbb{R}`)）的值域是\underline{\hspace{2.5em}}.
 ]
 
 #solution[
-令 $t=x^2$，则 $t >= 0$，且 $y=(t)/(t+1)$. 因为 $t+1>0$，所以 $y >= 0$，又有 $y=1-(1)/(t+1)<1$. 反过来，对于任意 $y_0 in [0,1)$，取 $t=(y_0)/(1-y_0) >= 0$，再取 $x=sqrt(t)$，就有 $(x^2)/(x^2+1)=y_0$. 因此值域为 $[0,1)$.
+令 #mi(`t=x^{2}`)，则 #mi(`t\geqslant0`)，且 #mi(`y=\frac{t}{t+1}`). 因为 #mi(`t+1>0`)，所以 #mi(`y\geqslant0`)，又有 #mi(`y=1-\frac{1}{t+1}<1`). 反过来，对于任意 #mi(`y_{0}\in[0,1)`)，取 #mi(`t=\frac{y_{0}}{1-y_{0}}\geqslant0`)，再取 #mi(`x=\sqrt{t}`)，就有 #mi(`\frac{x^{2}}{x^{2}+1}=y_{0}`). 因此值域为 #mi(`[0,1)`).
 ]
 
 #problem(12)[
-若 $sin theta + cos theta = (1)/(5)$，则 $sin 2 theta$ 的值是#blank(){}.
+若 #mi(`\sin \theta + \cos \theta = \frac{1}{5}`)，则 #mi(`\sin 2\theta`) 的值是\underline{\hspace{2.5em}}.
 ]
 
 #solution[
-两边平方，得 $sin ""^2 theta +2 sin theta cos theta + cos ""^2 theta =(1)/(25)$. 利用 $sin ""^2 theta + cos ""^2 theta =1$ 及 $2 sin theta cos theta = sin 2 theta$，可得 $1+ sin 2 theta =(1)/(25)$，所以 $sin 2 theta =-(24)/(25)$.
+两边平方，得 #mi(`\sin^{2}\theta+2\sin\theta\cos\theta+\cos^{2}\theta=\frac{1}{25}`). 利用 #mi(`\sin^{2}\theta+\cos^{2}\theta=1`) 及 #mi(`2\sin\theta\cos\theta=\sin2\theta`)，可得 #mi(`1+\sin2\theta=\frac{1}{25}`)，所以 #mi(`\sin2\theta=-\frac{24}{25}`).
 ]
 
 #problem(13)[
-某校有学生 $2000" 人"$，其中高三学生 $500" 人"$. 为了解学生的身体素质情况，采用按年级分层抽样的方法，从该校学生中抽取一个 $200" 人"$ 的样本. 则样本中高三学生的人数为#blank(){}.
+某校有学生 #mi(`2000\text{ \text{人}}`)，其中高三学生 #mi(`500\text{ \text{人}}`). 为了解学生的身体素质情况，采用按年级分层抽样的方法，从该校学生中抽取一个 #mi(`200\text{ \text{人}}`) 的样本. 则样本中高三学生的人数为\underline{\hspace{2.5em}}.
 ]
 
 #solution[
-按年级分层并按各年级人数比例抽样，所以样本中高三学生人数为 $200 times (500)/(2000)=50$.
+按年级分层并按各年级人数比例抽样，所以样本中高三学生人数为 #mi(`200\times\frac{500}{2000}=50`).
 ]
 
 #problem(14)[
-$z = 2 x + y$ 中的 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} x - 2 y + 5 >= 0 ,\\ 3 - x >= 0 ,\\ x + y >= 0 , \e n d{c a s e s}$ 则 $z$ 的最小值是#blank(){}.
+#mi(`z = 2x + y`) 中的 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}x - 2y + 5 \ge 0,\\  3 - x \ge 0,\\  x + y \ge 0,\end{cases}`) 则 #mi(`z`) 的最小值是\underline{\hspace{2.5em}}.
 ]
 
 #solution[
-由 $x+y >= 0$ 得 $y >= -x$，所以 $z=2 x+y >= x$. 又由 $x-2 y+5 >= 0$ 和 $y >= -x$，得 $x-2 y+5 <= x+2 x+5=3 x+5$，从而 $3 x+5 >= 0$，即 $x >= -(5)/(3)$. 因此 $z >= -(5)/(3)$.
+由 #mi(`x+y\geqslant0`) 得 #mi(`y\ge-x`)，所以 #mi(`z=2x+y\ge x`). 又由 #mi(`x-2y+5\geqslant0`) 和 #mi(`y\ge-x`)，得 #mi(`x-2y+5\le x+2x+5=3x+5`)，从而 #mi(`3x+5\geqslant0`)，即 #mi(`x\ge-\frac{5}{3}`). 因此 #mi(`z\ge-\frac{5}{3}`).
 
-当 $x=-(5)/(3)$，$y=(5)/(3)$ 时，三个约束分别成立，且 $x+y=0$，所以 $z=2(-(5)/(3))+(5)/(3)=-(5)/(3)$. 故最小值为 $-(5)/(3)$.
+当 #mi(`x=-\frac{5}{3}`)，#mi(`y=\frac{5}{3}`) 时，三个约束分别成立，且 #mi(`x+y=0`)，所以 #mi(`z=2\left(-\frac{5}{3}\right)+\frac{5}{3}=-\frac{5}{3}`). 故最小值为 #mi(`-\frac{5}{3}`).
 ]
 
 #problem(15)[
-曲线 $y = x^3 - 2 x^2 - 4 x + 2$ 在点 $(1,-3)$ 处的切线方程是#blank(){}.
+曲线 #mi(`y = x^{3} - 2x^{2} - 4x + 2`) 在点 #mi(`\left(1,-3\right)`) 处的切线方程是\underline{\hspace{2.5em}}.
 ]
 
 #solution[
-设 $f(x)=x^3-2 x^2-4 x+2$，则 $f'(x)=3 x^2-4 x-4$，所以 $f'(1)=-5$. 切线经过 $(1,-3)$，故方程为 $y+3=-5(x-1)$，即 $5 x+y-2=0$.
+设 #mi(`f(x)=x^{3}-2x^{2}-4x+2`)，则 #mi(`f'(x)=3x^{2}-4x-4`)，所以 #mi(`f'(1)=-5`). 切线经过 #mi(`(1,-3)`)，故方程为 #mi(`y+3=-5(x-1)`)，即 #mi(`5x+y-2=0`).
 ]
 
 #problem(16)[
-某书店有 $11$ 种杂志，$2" 元"$ $1" 本"$的 $8$ 种，$1" 元"$ $1" 本"$的 $3$ 种. 小张用 $10" 元"$钱买杂志（每种至多买一本，$10" 元"$钱刚好用完），则不同买法的种数是#blank(){}.（用数字作答）
+某书店有 #mi(`11`) 种杂志，#mi(`2\text{ \text{元}}`) #mi(`1\text{ \text{本}}`) 的 #mi(`8`) 种，#mi(`1\text{ \text{元}}`) #mi(`1\text{ \text{本}}`) 的 #mi(`3`) 种. 小张用 #mi(`10\text{ \text{元}}`) 钱买杂志（每种至多买一本，#mi(`10\text{ \text{元}}`) 钱刚好用完），则不同买法的种数是\underline{\hspace{2.5em}}.（用数字作答）
 ]
 
 #solution[
-设购买 $2$ 元杂志 $r$ 种，购买 $1$ 元杂志 $s$ 种，则 $2 r+s=10$，且 $0 <= r <= 8$，$0 <= s <= 3$. 因而只有 $(r,s)=(4,2)$ 或 $(5,0)$. 相应的买法数为
+设购买 #mi(`2`) 元杂志 #mi(`r`) 种，购买 #mi(`1`) 元杂志 #mi(`s`) 种，则 #mi(`2r+s=10`)，且 #mi(`0\le r\leqslant8`)，#mi(`0\le s\leqslant3`). 因而只有 #mi(`(r,s)=(4,2)`) 或 #mi(`(5,0)`). 相应的买法数为
 
-$ C_8^4 C_3^2+C_8^5 C_3^0=70 times 3 +56=266 $
 
-所以不同买法的种数为 $266$.
+#align(center)[#mitex(`
+\mathrm{C}_{8}^{4}\mathrm{C}_{3}^{2}+\mathrm{C}_{8}^{5}\mathrm{C}_{3}^{0}=70\times3+56=266
+`)]
+
+
+所以不同买法的种数为 #mi(`266`).
 ]
 
 #problem(17)[
-已知点 $O$ 在二面角 $alpha - A B - beta$ 的棱上，点 $P$ 在 $alpha$ 内，且 $angle P O B = 45^( degree )$. 若对于 $beta$ 内异于 $O$ 的任意一点 $Q$，都有 $angle P O Q >= 45 ""^( degree )$，则二面角 $alpha - A B - beta$ 的大小是#blank(){}.
+已知点 #mi(`O`) 在二面角 #mi(`\alpha - AB - \beta`) 的棱上，点 #mi(`P`) 在 #mi(`\alpha`) 内，且 #mi(`\angle POB = 45^{\circ}`). 若对于 #mi(`\beta`) 内异于 #mi(`O`) 的任意一点 #mi(`Q`)，都有 #mi(`\angle POQ \ge 45^{\circ}`)，则二面角 #mi(`\alpha - AB - \beta`) 的大小是\underline{\hspace{2.5em}}.
 ]
 
 #solution[
-取 $A B$ 为 $x$ 轴，取 $alpha$ 为 $x y$ 平面，并设二面角 $alpha -A B- beta$ 的大小为 $omega$. 由 $angle P O B=45^( degree )$，可在适当取向下写成 $arrow(O P)=r((1)/(sqrt(2)),(1)/(sqrt(2)),0)$，其中 $r>0$.
+取 #mi(`AB`) 为 #mi(`x`) 轴，取 #mi(`\alpha`) 为 #mi(`xy`) 平面，并设二面角 #mi(`\alpha-AB-\beta`) 的大小为 #mi(`\omega`). 由 #mi(`\angle POB=45^{\circ}`)，可在适当取向下写成 #mi(`\overrightarrow{OP}=r\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}},0\right)`)，其中 #mi(`r>0`).
 
-平面 $beta$ 内从点 $O$ 出发的单位方向向量可写为 $( cos t, sin t cos omega , sin t sin omega )$. 因而 $arrow(O P)$ 与该方向向量的内积为 $(r)/(sqrt(2))( cos t+ sin t cos omega )$. 当 $t$ 变化时，其最大值为 $(r)/(sqrt(2))sqrt(1+ cos ""^2 omega)$，所以 $beta$ 内射线与 $O P$ 的最小夹角 $gamma$ 满足
+平面 #mi(`\beta`) 内从点 #mi(`O`) 出发的单位方向向量可写为 #mi(`\left(\cos t,\sin t\cos\omega,\sin t\sin\omega\right)`). 因而 #mi(`\overrightarrow{OP}`) 与该方向向量的内积为 #mi(`\frac{r}{\sqrt{2}}(\cos t+\sin t\cos\omega)`). 当 #mi(`t`) 变化时，其最大值为 #mi(`\frac{r}{\sqrt{2}}\sqrt{1+\cos^{2}\omega}`)，所以 #mi(`\beta`) 内射线与 #mi(`OP`) 的最小夹角 #mi(`\gamma`) 满足
 
-$ cos gamma =(sqrt(1+ cos ""^2 omega))/(sqrt(2)) $
 
-题设对任意 $Q$ 都有 $angle P O Q >= 45 ""^( degree )$，即 $gamma >= 45 ""^( degree )$. 由于余弦函数在 $[0, pi ]$ 上单调递减，得 $(sqrt(1+ cos ""^2 omega))/(sqrt(2)) <= (1)/(sqrt(2))$，从而 $cos omega =0$. 因此 $omega =90^( degree )$.
+#align(center)[#mitex(`
+\cos\gamma=\frac{\sqrt{1+\cos^{2}\omega}}{\sqrt{2}}
+`)]
+
+
+题设对任意 #mi(`Q`) 都有 #mi(`\angle POQ\geqslant45^{\circ}`)，即 #mi(`\gamma\geqslant45^{\circ}`). 由于余弦函数在 #mi(`[0,\pi]`) 上单调递减，得 #mi(`\frac{\sqrt{1+\cos^{2}\omega}}{\sqrt{2}}\le\frac{1}{\sqrt{2}}`)，从而 #mi(`\cos\omega=0`). 因此 #mi(`\omega=90^{\circ}`).
 ]
 
 #part-header("解答题")
 
 #problem(18)[
-已知 $triangle A B C$ 的周长为 $sqrt(2)+ 1$，且 $sin A + sin B = sqrt(2) sin C$.
+已知 #mi(`\triangle ABC`) 的周长为 #mi(`\sqrt{2}+ 1`)，且 #mi(`\sin A + \sin B = \sqrt{2}\sin C`).
 
 
-+ (1) 求边 $A B$ 的长；
-+ (2) 若 $triangle A B C$ 的面积为 $(1)/(6) sin C$，求角 $C$ 的度数.
++ (1)
 ]
 
 #solution[
-+ (1) 设 $B C=a$，$C A=b$，$A B=c$，外接圆半径为 $R$. 由正弦定理，$a=2 R sin A$，$b=2 R sin B$，$c=2 R sin C$，所以由题意得
-
-$ a+b=sqrt(2)c $
-
-又因为三角形的周长为 $sqrt(2)+1$，所以
-
-$ (sqrt(2)+1)c=a+b+c=sqrt(2)+1 $
-
-从而 $c=1$，即 $A B=1$.
-+ (2) 由三角形面积公式及 $0<C< pi$，得
-
-$ (1)/(2)a b sin C=(1)/(6) sin C $
-
-所以 $a b=(1)/(3)$. 又由（1）知 $a+b=sqrt(2)$，故
-
-$ a^2+b^2=(a+b)^2-2 a b=2-(2)/(3)=(4)/(3) $
-
-在 $triangle A B C$ 中，由余弦定理，
-
-$ cos C=(a^2+b^2-c^2)/(2 a b)=((4)/(3)-1)/((2)/(3))=(1)/(2) $
-
-因为 $0<C< pi$，所以 $C=60^( degree )$.
++ (1)
 ]
 
 #problem(19)[
-已知数列 $\{a_(n)\}$ 中的相邻两项 $a_(2 k-1)$，$a_(2 k)$ 是关于 $x$ 的方程 $x^2 - (3 k + 2^k)x + 3 k dot 2 ""^k = 0$ 的两个根，且 $a_(2 k-1) <= a_(2 k)$（$k=1$，$2$，$3$，$dots.c$）.
+已知数列 #mi(`\{a_{n}\}`) 中的相邻两项 #mi(`a_{2k-1}`)，#mi(`a_{2k}`) 是关于 #mi(`x`) 的方程 #mi(`x^{2} - (3k + 2^{k})x + 3k \cdot 2^{k} = 0`) 的两个根，且 #mi(`a_{2k-1}\le a_{2k}`)（#mi(`k=1`)，#mi(`2`)，#mi(`3`)，#mi(`\cdots`)）.
 
 
-+ (1) 求 $a_(1)$，$a_(3)$，$a_(5)$，$a_(7)$ 及 $a_(2 n)$（$n >= 4$）（不必证明）；
-+ (2) 求数列 $\{a_(n)\}$ 的前 $2 n$ 项和 $S_(2 n)$.
++ (1)
 ]
 
 #solution[
-+ (1) 对任意正整数 $k$，有
-
-$ x^2-(3 k+2^k)x+3 k dot 2 ""^k=(x-3 k)(x-2^k) $
-
-所以 $a_(2 k-1)$，$a_(2 k)$ 是 $3 k$，$2^k$ 中较小者和较大者.
-当 $k=1$ 时，$a_1=2$，$a_2=3$；当 $k=2$ 时，$a_3=4$，$a_4=6$；当 $k=3$ 时，$a_5=8$，$a_6=9$；当 $k=4$ 时，$a_7=12$，$a_8=16$.
-因此 $a_1=2$，$a_3=4$，$a_5=8$，$a_7=12$.
-当 $n=4$ 时，$2^n=16>12=3 n$. 若 $2^n>3 n$，则因 $n >= 4$，有 $2^(n+1)>6 n>3(n+1)$，故对 $n >= 4$ 恒有 $2^n>3 n$，从而
-
-$ a_(2 n)=2^n $
-+ (2) 每一对相邻项的和等于方程两根之和，因此
-
-$ S_(2 n)=sum_(k=1)^(n)(a_(2 k-1)+a_(2 k))=sum_(k=1)^(n)(3 k+2^k) $
-
-又
-
-$ S_(2 n)=3 dot (n(n+1))/(2)+2^(n+1)-2=(3 n(n+1))/(2)+2^(n+1)-2 $
++ (1)
 ]
 
 #problem(20)[
-在如图所示的几何体中，$E A bot$ 平面 $A B C$，$D B bot$ 平面 $A B C$，$A C bot B C$，且 $A C = B C = B D = 2 A E$，$M$ 是 $A B$ 的中点.
-
-+ (1) 求证 $C M bot E M$；
-+ (2) 求 $D E$ 与平面 $E M C$ 所成角的正切值.
+在如图所示的几何体中，#mi(`EA \perp`) 平面 #mi(`ABC`)，#mi(`DB \perp`) 平面 #mi(`ABC`)，#mi(`AC \perp BC`)，且 #mi(`AC = BC = BD = 2AE`)，#mi(`M`) 是 #mi(`AB`) 的中点.
 
 
++ (1) 
 
-#align(center)[#image("/papers/2007/img/zhejiang_liberal/q20_fig1.png", width: 6.0cm)]
+
+
+
+#align(center)[#image("/papers/2007/img/zhejiang_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 建立如图所示的直角坐标系，使平面 $A B C$ 为 $z=0$，并取 $C(0,0,0)$，$A(2,0,0)$，$B(0,2,0)$.
-由 $A C=B C=B D=2 A E$，可令 $A E=1$，于是
-$E(2,0,1)$，$D(0,2,2)$，$M(1,1,0)$.
-因此 $arrow(C M)=(1,1,0)$，$arrow(E M)=(-1,1,-1)$，
-从而
-
-$ arrow(C M)\c d o t a r r o w(E M)=1 times (-1)+1 times 1 +0 times (-1)=0 $
-
-所以 $C M bot E M$.
-+ (2) 设直线 $D E$ 与平面 $E M C$ 所成的角为 $theta$. 取直线 $D E$ 的方向向量以及平面 $E M C$ 的一个法向量分别为
-$bold(d)=arrow(D E)=(2,-2,-1)$，$bold(n)=arrow(C M)\t i m e s a r r o w(E M)=(-1,1,2)$.
-于是
-$|bold(d)|=3$，$|bold(n)|=sqrt(6)$，$|bold(d)\c d o t b o l d(n)|=6$.
-由直线与平面所成角的定义，
-
-$ sin theta =(|bold(d){ dot }bold(n)|)/(|bold(d)| |bold(n)|)=(6)/(3 sqrt(6))=(sqrt(6))/(3) $
-
-因此 $cos theta =sqrt(1-(6)/(9))=(1)/(sqrt(3))$，故
-
-$ tan theta =(sin theta)/(cos theta)=sqrt(2) $
++ (1)
 ]
 
 #problem(21)[
-如图，直线 $y = k x + b$ 与椭圆 $(x^2)/(4)+ y^2 = 1$ 交于 $A$，$B$ 两点，记 $triangle A O B$ 的面积为 $S$.
-
-+ (1) 求在 $k = 0$，$0 < b < 1$ 的条件下，$S$ 的最大值；
-+ (2) 当 $|A B|=2$，$S=1$ 时，求直线 $A B$ 的方程.
+如图，直线 #mi(`y = kx + b`) 与椭圆 #mi(`\frac{x^{2}}{4}+ y^{2} = 1`) 交于 #mi(`A`)，#mi(`B`) 两点，记 #mi(`\triangle AOB`) 的面积为 #mi(`S`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2007/img/zhejiang_liberal/q21_fig1.png", width: 6.2cm)]
+
+
+
+#align(center)[#image("/papers/2007/img/zhejiang_liberal/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 当 $k=0$ 时，直线为 $y=b$. 由椭圆方程得交点的横坐标为 $x= +- 2 sqrt(1-b^2)$，所以
-
-$ |A B|=4 sqrt(1-b^2) $
-
-三角形 $A O B$ 的高为 $b$，故
-
-$ S=(1)/(2) dot 4 sqrt(1-b^2) dot b=2 b s q r t(1-b^2) $
-
-因为 $0<b<1$，有
-
-$ S^2=4 b^2(1-b^2) <= 1 $
-
-当且仅当 $b^2=1-b^2$，即 $b=(sqrt(2))/(2)$ 时取等号. 所以 $S$ 的最大值为 $1$.
-+ (2) 直线 $y=k x+b$ 到原点的距离为 $(|b|)/(sqrt(1+k^2))$. 由 $|A B|=2$ 和 $S=1$，得
-
-$ (1)/(2)|A B| dot (|b|)/(sqrt(1+k^2))=1 $
-
-即
-
-$ b^2=k^2+1 $
-
-将直线方程代入椭圆方程，得交点横坐标满足
-
-$ (k^2+(1)/(4))x^2+2 k b x+b^2-1=0 $
-
-设此方程的两根为 $x_1$，$x_2$，则
-
-$ |A B|=|x_1-x_2|sqrt(1+k^2) $
-
-且其判别式为
-
-$ Delta =(2 k b)^2-4(k^2+(1)/(4))(b^2-1)=4 k^2+1-b^2 $
-
-所以
-
-$ |A B|=(sqrt(4 k^2+1-b^2){\sqrt}{1+k^2})/(k^2+(1)/(4)) $
-
-代入 $b^2=k^2+1$ 及 $|A B|=2$，得
-
-$ 2=(sqrt(3 k^2){\sqrt}{1+k^2})/(k^2+(1)/(4)) $
-
-两边平方并整理，得
-$3 k^2(1+k^2)=4(k^2+(1)/(4))^2$，$(k^2-(1)/(2))^2=0$.
-因此 $k= +- (sqrt(2))/(2)$，且 $b=\p m s q r t((3)/(2))= +- (sqrt(6))/(2)$. 这些取值均满足原条件，故直线 $A B$ 为
-
-$ y= +- (sqrt(2))/(2)x +- (sqrt(6))/(2) $
-
-其中两个符号相互独立.
++ (1)
 ]
 
 #problem(22)[
-已知 $f(x) = |x^2 - 1| + x^2 + k x$.
+已知 #mi(`f(x) = |x^{2} - 1| + x^{2} + kx`).
 
 
-+ (1) 若 $k = 2$，求方程 $f(x) = 0$ 的解；
-+ (2) 若关于 $x$ 的方程 $f(x) = 0$ 在 $(0,2)$ 上有两个解 $x_(1)$，$x_(2)$，求 $k$ 的取值范围，并证明 $(1)/(x_1)+ (1)/(x_2)< 4$.
++ (1)
 ]
 
 #solution[
-+ (1) 由绝对值的定义，
-
-$ f(x)= \b e g i n{c a s e s} 2 x^2+k x-1,& |x| >= 1 ,\\ 1+k x,& |x|<1. \e n d{c a s e s} $
-
-当 $k=2$ 时，在 $|x| >= 1$ 上，方程 $f(x)=0$ 化为
-
-$ 2 x^2+2 x-1=0 $
-
-解得 $x=(-1\p m s q r t(3))/(2)$. 其中 $(-1-sqrt(3))/(2) <= -1$，而 $(-1+sqrt(3))/(2) in (0,1)$，故前者符合本段定义域.
-在 $|x|<1$ 上，方程化为 $1+2 x=0$，解得 $x=-(1)/(2)$，符合本段定义域. 所以方程的解为
-
-$ x=-(1+sqrt(3))/(2)"或"x=-(1)/(2) $
-+ (2) 记
-
-$ q(x)=2 x^2+k x-1 $
-
-在区间 $(0,2)$ 中还需检查边界点 $x=1$. 若 $x=1$ 是方程的解，则 $f(1)=1+k=0$，即 $k=-1$. 此时在 $0<x<1$ 时 $f(x)=1-x>0$，在 $1<x<2$ 时 $f(x)=2 x^2-x-1=(2 x+1)(x-1)>0$，所以 $(0,2)$ 中只有一个解 $x=1$，不能满足有两个解.
-在 $0<x<1$ 时，方程 $f(x)=0$ 为 $1+k x=0$，其解为 $x=-(1)/(k)$. 该解属于 $(0,1)$ 的充要条件是 $k<-1$.
-
-在 $1<x<2$ 时，方程为 $q(x)=0$. 因为 $q(0)=-1<0$，且二次方程 $q(x)=0$ 的两根之积为 $-(1)/(2)<0$，所以它恰有一个正根. 这个正根属于 $(1,2)$ 的充要条件是
-$q(1)=k+1<0$，$q(2)=2 k+7>0$
-即 $-(7)/(2)<k<-1$. 在这个范围内，$0<x<1$ 和 $1<x<2$ 各有一个解，所以方程在 $(0,2)$ 上有两个解；反之若有两个解，也必须分别来自这两个区间，故
-
-$ -(7)/(2)<k<-1 $
-
-
-不妨设 $x_1 in (0,1)$，$x_2 in (1,2)$. 由前面的方程，
-$x_1=-(1)/(k)$，$2 x_2^2+k x_2-1=0$.
-由第二式除以 $x_2>0$，得 $(1)/(x_2)=k+2 x_2$. 因而
-
-$ (1)/(x_1)+(1)/(x_2)=-k+k+2 x_2=2 x_2<4 $
-
-结论得证.
++ (1)
 ]
 

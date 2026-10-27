@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,163 +11,148 @@
 #part-header("解答题")
 
 #problem(1)[
-+ (1) 计算：$[((1)/(2)-(1)/(3))(-(3)/(2))-(-1+(1)/(3)) times (-(3)/(4))]\div(3)/(2)$.
-+ (2) 某生产队去年养猪 $96" 头"$，今年养猪 $120" 头"$，问今年比去年增加百分之几？计划明年比今年多养 $40\%$，明年养猪几头？
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $(1)/(2)-(1)/(3)=(1)/(6)$，所以 $((1)/(2)-(1)/(3))(-(3)/(2))=-(1)/(4)$. 又因为 $-1+(1)/(3)=-(2)/(3)$，所以 $(-1+(1)/(3))(-(3)/(4))=(1)/(2)$. 因此原式为
-
-$ (-(1)/(4)-(1)/(2))\div(3)/(2)=-(3)/(4) times (2)/(3)=-(1)/(2) $
-+ (2) 今年比去年增加的数量为 $120-96=24" 头"$，所以增加的百分数为
-$(24)/(96) times 100 \%=25\%$.
-明年比今年多养 $40\%$，因此明年养猪
-$120(1+40\%)=120 times 1 .4=168" 头"$.
++ (1)
 ]
 
 #problem(2)[
-在 $triangle A B C$ 中，$angle C$ 的平分线交 $A B$ 于 $D$，过 $D$ 作 $B C$ 的平行线交 $A C$ 于 $E$，已知 $B C=a$，$A C=b$，求 $D E$ 的长.
+在 #mi(`\triangle ABC`) 中，#mi(`\angle C`) 的平分线交 #mi(`AB`) 于 #mi(`D`)，过 #mi(`D`) 作 #mi(`BC`) 的平行线交 #mi(`AC`) 于 #mi(`E`)，已知 #mi(`BC=a`)，#mi(`AC=b`)，求 #mi(`DE`) 的长.
 
 
-#align(center)[#image("/papers/1977/img/shanghai_liberal/q2_fig1.png", width: 35%)]
+#align(center)[#image("/papers/1977/img/shanghai_liberal/q2_fig1.png", width: 28%)]
+
 ]
 
 #solution[
 由角平分线定理，
-$(A D)/(D B)=(A C)/(C B)=(b)/(a)$，从而
-$(A D)/(A B)=(b)/(a+b)$，因为 $A B=A D+D B$.
-又因为 $D E parallel B C$，所以 $triangle A D E tilde triangle A B C$，从而
-$(D E)/(B C)=(A D)/(A B)=(b)/(a+b)$.
-代入 $B C=a$，得 $D E=(a b)/(a+b)$.
+
+#mi(`\dfrac{AD}{DB}=\dfrac{AC}{CB}=\dfrac{b}{a}`)，从而
+
+#mi(`\dfrac{AD}{AB}=\dfrac{b}{a+b}`)，因为 #mi(`AB=AD+DB`).
+
+又因为 #mi(`DE\parallel BC`)，所以 #mi(`\triangle ADE\sim\triangle ABC`)，从而
+
+#mi(`\dfrac{DE}{BC}=\dfrac{AD}{AB}=\dfrac{b}{a+b}`).
+
+代入 #mi(`BC=a`)，得 #mi(`DE=\dfrac{ab}{a+b}`).
 ]
 
 #problem(3)[
-+ (1) 化简：$((a)/(a+b)-(a^2)/(a^2+2 a b+b^2))\div((a)/(a+b)-(a^2)/(a^2-b^2))$.
-+ (2) 解不等式：$(2 x-1)/(3)>(3 x-1)/(2)-4$.
-+ (3) 解方程：$(4)/(x+3)-(1)/(x-3)=1-(2 x)/(x^2-9)$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 原式有意义需满足 $a+b != 0$、$a^2-b^2 != 0$，且除数不为零；由于 $a^2-b^2=(a+b)(a-b)$，这些条件等价于 $a+b != 0$、$a-b != 0$，并且 $a b != 0$. 先化简被除数：
-
-$ (a)/(a+b)-(a^2)/((a+b)^2)=(a(a+b)-a^2)/((a+b)^2)=(a b)/((a+b)^2) $
-
-再化简除数：
-
-$ (a)/(a+b)-(a^2)/(a^2-b^2)=(a(a-b)-a^2)/((a+b)(a-b))=-(a b)/((a+b)(a-b)) $
-
-因此原式为
-
-$ (a b)/((a+b)^2)\div(-(a b)/((a+b)(a-b))) =-(a-b)/(a+b)=(b-a)/(a+b) $
-+ (2) 不等式两边同乘正数 $6$，得
-$2(2 x-1)>3(3 x-1)-24$，即 $4 x-2>9 x-27$.
-移项得 $25>5 x$，所以 $x<5$.
-+ (3) 原方程有意义的条件是 $x != 3$ 且 $x != -3$.
-因为 $x^2-9=(x+3)(x-3)$，原方程左边为
-
-$ (4(x-3)-(x+3))/(x^2-9)=(3 x-15)/(x^2-9) $
-
-右边为
-
-$ 1-(2 x)/(x^2-9)=(x^2-2 x-9)/(x^2-9) $
-
-分母不为零，所以比较分子，得
-$3 x-15=x^2-2 x-9$，即
-$x^2-5 x+6=0$，于是 $(x-2)(x-3)=0$.
-所以 $x=2$ 或 $x=3$，但 $x=3$ 不符合原方程的定义域；代回 $x=2$ 验算，原方程左边为
-$(4)/(5)-(1)/(-1)=(9)/(5)$，右边为
-$1-(4)/(-5)=(9)/(5)$，等式成立，故 $x=2$.
++ (1) 
++ (2)
 ]
 
 #problem(4)[
-+ (1) 计算：$(sin 225 ""^ degree + tan 330 ""^ degree)/(cos (-120^ degree ))$.
-+ (2) 求证：$tan x+ cot x=(2)/(sin 2 x)$.
-+ (3) $triangle A B C$ 中，$angle A=45^ degree$，$angle B=75^ degree$，$A B=12$，求 $B C$ 的长.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) $sin 225 ""^ degree =-(sqrt(2))/(2)$，$tan 330 ""^ degree =-(sqrt(3))/(3)$，且
-$cos (-120^ degree )= cos 120 ""^ degree =-(1)/(2)$.
-因此原式为
-
-$ (-(sqrt(2))/(2)-(sqrt(3))/(3))/(-(1)/(2))=sqrt(2)+(2 sqrt(3))/(3)=(3 sqrt(2)+2 sqrt(3))/(3) $
-+ (2) 在等式两边有意义时，$sin x != 0$ 且 $cos x != 0$. 此时
-
-$ tan x+ cot x =(sin x)/(cos x)+(cos x)/(sin x)=(sin ""^(2) x+ cos ""^(2) x)/(sin x cos x)=(1)/(sin x cos x)=(2)/(2 sin x cos x)=(2)/(sin 2 x) $
-
-故等式成立.
-+ (3) 三角形的第三个内角为 $angle C=180^ degree -45^ degree -75^ degree =60^ degree$.
-由正弦定理，
-$(B C)/(sin 45 ""^ degree)=(A B)/(sin 60 ""^ degree)$，所以
-
-$ B C=12 times (sin 45 ""^ degree)/(sin 60 ""^ degree)=12 times ((sqrt(2))/(2))/((sqrt(3))/(2))=4 sqrt(6) $
++ (1) 
++ (2)
 ]
 
 #problem(5)[
-六角螺帽尺寸如图，求它的体积（精确的 $1 ~m m^3$）.
+六角螺帽尺寸如图，求它的体积（精确的 #mi(`1 \mathrm{~mm}^{3}`)）.
 
-\begin{center}
 
-#align(center)[#image("/papers/1977/img/shanghai_liberal/q5_fig1.png", width: 4.9cm)]
+#align(center)[#image("/papers/1977/img/shanghai_liberal/q5_fig1.png", width: 28%)]
 
-\end{center}
 ]
 
 #solution[
-由图知，正六边形的边长为 $20 ~m m$，圆孔的直径为 $20 ~m m$，螺帽的高为 $10 ~m m$.
-正六边形可分成六个边长为 $20 ~m m$ 的正三角形，所以其底面积为
+由图知，正六边形的边长为 #mi(`20 \mathrm{~mm}`)，圆孔的直径为 #mi(`20 \mathrm{~mm}`)，螺帽的高为 #mi(`10 \mathrm{~mm}`).
 
-$ S_1=6 times (sqrt(3))/(4) times 20 ""^2=600 sqrt(3)~m m^2 $
+正六边形可分成六个边长为 #mi(`20 \mathrm{~mm}`) 的正三角形，所以其底面积为
 
-圆孔半径为 $10 ~m m$，其面积为
 
-$ S_2= pi times 10 ""^2=100 pi ~m m^2 $
+#align(center)[#mitex(`
+S_{1}=6\times\frac{\sqrt{3}}{4}\times20^{2}=600\sqrt{3}\mathrm{~mm}^{2}
+`)]
+
+
+圆孔半径为 #mi(`10 \mathrm{~mm}`)，其面积为
+
+
+#align(center)[#mitex(`
+S_{2}=\pi\times10^{2}=100\pi\mathrm{~mm}^{2}
+`)]
+
 
 因此螺帽的体积为
 
-$ V=(S_1-S_2) times 10 =(600 sqrt(3)-100 pi ) times 10 =(6 sqrt(3)- pi ) times 10 ""^3~m m^3 $
 
-取 $sqrt(3) approx 1 .7320508$，$pi approx 3 .1415926$，得
-$V approx 7250 .712~m m^3$，所以精确到 $1 ~m m^3$ 为 $7251 ~m m^3$.
+#align(center)[#mitex(`
+V=(S_{1}-S_{2})\times10  =(600\sqrt{3}-100\pi)\times10  =(6\sqrt{3}-\pi)\times10^{3}\mathrm{~mm}^{3}
+`)]
+
+
+取 #mi(`\sqrt{3}\approx1.7320508`)，#mi(`\pi\approx3.1415926`)，得
+
+#mi(`V\approx7250.712\mathrm{~mm}^{3}`)，所以精确到 #mi(`1 \mathrm{~mm}^{3}`) 为 #mi(`7251 \mathrm{~mm}^{3}`).
 ]
 
 #problem(6)[
-求直线 $x+sqrt(3)y+3 sqrt(3)=0$ 的斜率和倾角，并画出它的图形.
+求直线 #mi(`x+\sqrt{3}y+3\sqrt{3}=0`) 的斜率和倾角，并画出它的图形.
 ]
 
 #solution[
 将直线方程化为斜截式，得
-$y=-(sqrt(3))/(3)x-3$，所以斜率为 $k=-(sqrt(3))/(3)$.
-设倾角为 $theta$，则 $0^ degree \l e q theta <180^ degree$ 且 $tan theta =k$.
-因为 $tan 150 ""^ degree =-(sqrt(3))/(3)$，所以倾角为 $theta =150^ degree$.
-当 $y=0$ 时，得 $x=-3 sqrt(3)$，直线过点 $(-3 sqrt(3),0)$；当 $x=0$ 时，得 $y=-3$，直线过点 $(0,-3)$. 在坐标系中描出这两个点并作直线，即得所求图形.
+
+#mi(`y=-\dfrac{\sqrt{3}}{3}x-3`)，所以斜率为 #mi(`k=-\dfrac{\sqrt{3}}{3}`).
+
+设倾角为 #mi(`\theta`)，则 #mi(`0^{\circ}\leq\theta<180^{\circ}`) 且 #mi(`\tan\theta=k`).
+
+因为 #mi(`\tan150^{\circ}=-\dfrac{\sqrt{3}}{3}`)，所以倾角为 #mi(`\theta=150^{\circ}`).
+
+当 #mi(`y=0`) 时，得 #mi(`x=-3\sqrt{3}`)，直线过点 #mi(`(-3\sqrt{3},0)`)；当 #mi(`x=0`) 时，得 #mi(`y=-3`)，直线过点 #mi(`(0,-3)`). 在坐标系中描出这两个点并作直线，即得所求图形.
 ]
 
 #problem(7)[
-当 $x$ 为何值时，函数 $y=x^2-8 x+5$ 的值最小，并求出这个最小值.
+当 #mi(`x`) 为何值时，函数 #mi(`y=x^{2}-8x+5`) 的值最小，并求出这个最小值.
 ]
 
 #solution[
 配方得
 
-$ y=x^2-8 x+5=(x^2-8 x+16)-11=(x-4)^2-11 $
 
-因为 $(x-4)^2\g e q0$，所以当且仅当 $x=4$ 时，$y$ 取得最小值，最小值为 $-11$.
+#align(center)[#mitex(`
+y=x^{2}-8x+5=(x^{2}-8x+16)-11=(x-4)^{2}-11
+`)]
+
+
+因为 #mi(`(x-4)^{2}\geq0`)，所以当且仅当 #mi(`x=4`) 时，#mi(`y`) 取得最小值，最小值为 #mi(`-11`).
 ]
 
 #problem(8)[
-将浓度为 $96\%$ 和 $36\%$ 的甲、乙两种硫酸配制成浓度为 $70\%$ 的硫酸 $600" 升"$，问应从甲、乙两种硫酸中各取多少升.
+将浓度为 #mi(`96\%`) 和 #mi(`36\%`) 的甲、乙两种硫酸配制成浓度为 #mi(`70\%`) 的硫酸 #mi(`600\text{ \text{升}}`)，问应从甲、乙两种硫酸中各取多少升.
 ]
 
 #solution[
-设应取甲种硫酸 $x" 升"$，乙种硫酸 $y" 升"$，则
+设应取甲种硫酸 #mi(`x\text{ \text{升}}`)，乙种硫酸 #mi(`y\text{ \text{升}}`)，则
 
-$ x+y=600 $
 
-由纯硫酸的量守恒，得 $0.96 x+0.36 y=0.70 times 600 =420$. 由 $y=600-x$，代入上式得
-$0.96 x+0.36(600-x)=420$，即
-$0.60 x=204$，所以 $x=340$.
-于是 $y=600-340=260$.
-故应取甲种硫酸 $340" 升"$，乙种硫酸 $260" 升"$.
+#align(center)[#mitex(`
+x+y=600
+`)]
+
+
+由纯硫酸的量守恒，得 #mi(`0.96x+0.36y=0.70\times600=420`). 由 #mi(`y=600-x`)，代入上式得
+
+#mi(`0.96x+0.36(600-x)=420`)，即
+
+#mi(`0.60x=204`)，所以 #mi(`x=340`).
+
+于是 #mi(`y=600-340=260`).
+
+故应取甲种硫酸 #mi(`340\text{ \text{升}}`)，乙种硫酸 #mi(`260\text{ \text{升}}`).
 ]
 

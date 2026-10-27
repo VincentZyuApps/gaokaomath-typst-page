@@ -1,8 +1,89 @@
 {
-  "title": "1983年普通高等学校招生全国统一考试",
-  "subtitle": "1983年全国卷（文）",
   "year": "1983",
   "slug": "national_liberal",
+  "title": "1983年全国卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +98,9 @@
             "关于 $y$ 轴对称"
           ],
           "answer": "D",
-          "solution": "令 $f(x)=|x|$. 绝对值对任意实数均有定义，所以定义域为 $\\mathbb{R}$. 对任意 $x\\in\\mathbb{R}$，有 $f(-x)=|-x|=|x|=f(x)$，因此 $f$ 是偶函数，偶函数的图象关于 $y$ 轴对称. 例如图象上的点 $(1,1)$ 与 $(-1,1)$ 关于 $y$ 轴对称，而 $(1,1)$ 关于 $x$ 轴的对称点 $(1,-1)$ 不在图象上，所以只有选项 D 正确."
+          "solution": "令 $f(x)=|x|$. 绝对值对任意实数均有定义，所以定义域为 $\\mathbb{R}$. 对任意 $x\\in\\mathbb{R}$，有 $f(-x)=|-x|=|x|=f(x)$，因此 $f$ 是偶函数，偶函数的图象关于 $y$ 轴对称. 例如图象上的点 $(1,1)$ 与 $(-1,1)$ 关于 $y$ 轴对称，而 $(1,1)$ 关于 $x$ 轴的对称点 $(1,-1)$ 不在图象上，所以只有选项 D 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +112,9 @@
             "$x$ 轴的正半轴上"
           ],
           "answer": "A",
-          "solution": "原方程可写成 $x^{2}=-y$. 抛物线的标准方程为 $x^{2}=4py$，其中焦点坐标为 $(0,p)$. 对比系数得到 $4p=-1$，所以 $p=-\\dfrac{1}{4}$，焦点为 $\\left(0,-\\dfrac{1}{4}\\right)$. 该点的横坐标为 $0$，纵坐标为负数，故焦点位于 $y$ 轴的负半轴上，只有选项 A 正确."
+          "solution": "原方程可写成 $x^{2}=-y$. 抛物线的标准方程为 $x^{2}=4py$，其中焦点坐标为 $(0,p)$. 对比系数得到 $4p=-1$，所以 $p=-\\dfrac{1}{4}$，焦点为 $\\left(0,-\\dfrac{1}{4}\\right)$. 该点的横坐标为 $0$，纵坐标为负数，故焦点位于 $y$ 轴的负半轴上，只有选项 A 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +126,9 @@
             "不在同一平面内的两条直线"
           ],
           "answer": "D",
-          "solution": "空间中两条直线若在同一平面内，则它们相交或平行；若不在同一平面内，则既不相交也不平行，这种两条直线定义为异面直线. 选项 A 只说明两直线不相交，其中包括同一平面内的平行直线；选项 B 只说明各自可位于两个不同平面内，不能排除两直线还共面；选项 C 中两直线也可能相交，因而都不是充分条件. 只有选项 D 直接给出“不在同一平面内”，所以正确选项为 D."
+          "solution": "空间中两条直线若在同一平面内，则它们相交或平行；若不在同一平面内，则既不相交也不平行，这种两条直线定义为异面直线. 选项 A 只说明两直线不相交，其中包括同一平面内的平行直线；选项 B 只说明各自可位于两个不同平面内，不能排除两直线还共面；选项 C 中两直线也可能相交，因而都不是充分条件. 只有选项 D 直接给出“不在同一平面内”，所以正确选项为 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +140,9 @@
             "$-\\sqrt{\\frac{1 - \\cos\\alpha}{2}}$"
           ],
           "answer": "C",
-          "solution": "由 $180^{\\circ}<\\alpha<360^{\\circ}$ 得 $90^{\\circ}<\\dfrac{\\alpha}{2}<180^{\\circ}$，所以 $\\cos\\dfrac{\\alpha}{2}<0$. 半角公式给出 $\\cos^{2}\\dfrac{\\alpha}{2}=\\dfrac{1+\\cos\\alpha}{2}$. 开平方时必须根据 $\\dfrac{\\alpha}{2}$ 所在的第二象限选负号，故 $\\cos\\dfrac{\\alpha}{2}=-\\sqrt{\\dfrac{1+\\cos\\alpha}{2}}$. 因此正确选项为 C."
+          "solution": "由 $180^{\\circ}<\\alpha<360^{\\circ}$ 得 $90^{\\circ}<\\dfrac{\\alpha}{2}<180^{\\circ}$，所以 $\\cos\\dfrac{\\alpha}{2}<0$. 半角公式给出 $\\cos^{2}\\dfrac{\\alpha}{2}=\\dfrac{1+\\cos\\alpha}{2}$. 开平方时必须根据 $\\dfrac{\\alpha}{2}$ 所在的第二象限选负号，故 $\\cos\\dfrac{\\alpha}{2}=-\\sqrt{\\dfrac{1+\\cos\\alpha}{2}}$. 因此正确选项为 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +154,9 @@
             "$\\log_{2}0.3 < 2^{0.3}< 0.3^{2}$"
           ],
           "answer": "C",
-          "solution": "因为 $0<0.3<1$，且底数 $2>1$，对数函数 $\\log_{2} x$ 在正数范围内递增，并且 $\\log_{2} 1=0$，所以 $\\log_{2} 0.3<0$. 另一方面，$0.3^{2}=0.09>0$. 又因为 $0.3>0$，而 $2^{x}$ 的底数大于 $1$，所以 $2^{0.3}>2^{0}=1>0.09$. 于是 $\\log_{2} 0.3<0.3^{2}<2^{0.3}$，正确选项为 C."
+          "solution": "因为 $0<0.3<1$，且底数 $2>1$，对数函数 $\\log_{2} x$ 在正数范围内递增，并且 $\\log_{2} 1=0$，所以 $\\log_{2} 0.3<0$. 另一方面，$0.3^{2}=0.09>0$. 又因为 $0.3>0$，而 $2^{x}$ 的底数大于 $1$，所以 $2^{0.3}>2^{0}=1>0.09$. 于是 $\\log_{2} 0.3<0.3^{2}<2^{0.3}$，正确选项为 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -74,59 +165,75 @@
       "problems": [
         {
           "num": 6,
-          "body": "<p>在平面直角坐标系内，表中的方程表示什么图形？画出这些图形.</p><center class=\"center\"><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1.15</span></span><br><span class=\"macro macro-setlength\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\tabcolsep</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">4pt</span></span><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br><span class=\"latex-box\" style=\"display: inline-block;\">方程</span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"latex-box\" style=\"display: inline-block;\">$x^{2}+y^{2}=2x$</span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"latex-box\" style=\"display: inline-block;\">$x^{2}-y^{2}=0$</span> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br><span class=\"latex-box\" style=\"display: inline-block;\">图形名称</span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"latex-box\" style=\"display: inline-block;\"></span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"latex-box\" style=\"display: inline-block;\"></span> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br><span class=\"macro macro-parbox\"><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">4.6cm</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">2.1cm</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\centering 图形</span></span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"macro macro-parbox\"><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">4.6cm</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">5.0cm</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\"></span></span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"macro macro-parbox\"><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">4.6cm</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">5.0cm</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\"></span></span> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center>",
-          "choices": null,
+          "body": "<p>在平面直角坐标系内，表中的方程表示什么图形？画出这些图形.</p><center class=\"center\"><span class=\"macro macro-setlength\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\tabcolsep</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">4pt</span></span><br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><span class=\"latex-box\" style=\"display: inline-block;\">方程</span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"latex-box\" style=\"display: inline-block;\">$x^{2}+y^{2}=2x$</span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"latex-box\" style=\"display: inline-block;\">$x^{2}-y^{2}=0$</span> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><span class=\"latex-box\" style=\"display: inline-block;\">图形名称</span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"latex-box\" style=\"display: inline-block;\"></span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"latex-box\" style=\"display: inline-block;\"></span> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><span class=\"macro macro-parbox\"><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">4.6cm</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">2.1cm</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\centering 图形</span></span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"macro macro-parbox\"><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">4.6cm</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">5.0cm</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\"></span></span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"macro macro-parbox\"><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">4.6cm</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">5.0cm</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\"></span></span> </td></tr></tbody></table></center>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将方程移项并配方，得 $x^{2}-2x+y^{2}=0$，即 $\\left(x-1\\right)^{2}+y^{2}=1$. 这表示圆，圆心为 $\\left(1,0\\right)$，半径为 $1$. 它与 $x$ 轴交于 $\\left(0,0\\right)$ 和 $\\left(2,0\\right)$，与直线 $x=1$ 交于 $\\left(1,1\\right)$ 和 $\\left(1,-1\\right)$. 以 $\\left(1,0\\right)$ 为圆心、$1$ 为半径，经过上述四点画圆即可.</p></li><li><p>因为 $x^{2}-y^{2}=\\left(x-y\\right)\\left(x+y\\right)=0$，所以 $x-y=0$ 或 $x+y=0$，即图形由两条直线 $y=x$ 和 $y=-x$ 组成. 两直线都经过原点；第一条还经过 $\\left(1,1\\right)$ 和 $\\left(-1,-1\\right)$，第二条还经过 $\\left(1,-1\\right)$ 和 $\\left(-1,1\\right)$. 分别连接这些点，即得所要求的两条相交直线.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将方程移项并配方，得 $x^{2}-2x+y^{2}=0$，即 $\\left(x-1\\right)^{2}+y^{2}=1$. 这表示圆，圆心为 $\\left(1,0\\right)$，半径为 $1$. 它与 $x$ 轴交于 $\\left(0,0\\right)$ 和 $\\left(2,0\\right)$，与直线 $x=1$ 交于 $\\left(1,1\\right)$ 和 $\\left(1,-1\\right)$. 以 $\\left(1,0\\right)$ 为圆心、$1$ 为半径，经过上述四点画圆即可.</p></li><li><p>因为 $x^{2}-y^{2}=\\left(x-y\\right)\\left(x+y\\right)=0$，所以 $x-y=0$ 或 $x+y=0$，即图形由两条直线 $y=x$ 和 $y=-x$ 组成. 两直线都经过原点；第一条还经过 $\\left(1,1\\right)$ 和 $\\left(-1,-1\\right)$，第二条还经过 $\\left(1,-1\\right)$ 和 $\\left(-1,1\\right)$. 分别连接这些点，即得所要求的两条相交直线.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "<ol class=\"enumerate\"><li><p>求函数 $y = \\sqrt{x + 5}\\log_{2}\\left(36 - x^{2}\\right)$ 的定义域.</p></li><li><p>一个小组共有 $10$ 名同学，其中 $4$ 名是女同学，$6$ 名是男同学. 要从小组内选出 $3$ 名代表，其中至少有 $1$ 名女同学，求一共有多少种选法.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>根式有意义的必要条件是 $x+5\\geq0$，因此 $x\\geq-5$. 对数的底数为 $2$，满足 $2>0$ 且 $2\\ne1$；其真数还必须为正，所以 $36-x^{2}>0$. 因式分解得 $(6-x)(6+x)>0$，从而 $-6<x<6$. 两个定义条件取交集，得到 $x\\in\\left[-5,6\\right)$，所以函数的定义域为 $\\left[-5,6\\right)$.</p></li><li><p>先计算所有从 $10$ 名同学中选出 $3$ 名的选法数，再排除没有女同学的情形. 总选法数为 $\\mathrm{C}_{10}^{3}=\\dfrac{10\\cdot9\\cdot8}{3\\cdot2\\cdot1}=120$. 没有女同学时，必须从 $6$ 名男同学中选出 $3$ 名，选法数为 $\\mathrm{C}_{6}^{3}=\\dfrac{6\\cdot5\\cdot4}{3\\cdot2\\cdot1}=20$. 因此至少有 $1$ 名女同学的选法数为 $\\mathrm{C}_{10}^{3}-\\mathrm{C}_{6}^{3}=120-20=100$，共有 $100$ 种.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>根式有意义的必要条件是 $x+5\\geq0$，因此 $x\\geq-5$. 对数的底数为 $2$，满足 $2>0$ 且 $2\\ne1$；其真数还必须为正，所以 $36-x^{2}>0$. 因式分解得 $(6-x)(6+x)>0$，从而 $-6<x<6$. 两个定义条件取交集，得到 $x\\in\\left[-5,6\\right)$，所以函数的定义域为 $\\left[-5,6\\right)$.</p></li><li><p>先计算所有从 $10$ 名同学中选出 $3$ 名的选法数，再排除没有女同学的情形. 总选法数为 $\\mathrm{C}_{10}^{3}=\\dfrac{10\\cdot9\\cdot8}{3\\cdot2\\cdot1}=120$. 没有女同学时，必须从 $6$ 名男同学中选出 $3$ 名，选法数为 $\\mathrm{C}_{6}^{3}=\\dfrac{6\\cdot5\\cdot4}{3\\cdot2\\cdot1}=20$. 因此至少有 $1$ 名女同学的选法数为 $\\mathrm{C}_{10}^{3}-\\mathrm{C}_{6}^{3}=120-20=100$，共有 $100$ 种.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "已知复数 $z = \\cos \\alpha + \\mathrm{i}\\sin \\alpha$，求证：$z^{3} + \\frac{1}{z^{3}}= 2\\cos 3\\alpha$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由 $\\left|z\\right|^{2}=\\cos^{2}\\alpha+\\sin^{2}\\alpha=1$，可知 $z\\ne0$，所以 $z^{-1}$ 有意义. 直接相乘可得 $(\\cos\\alpha+\\mathrm{i}\\sin\\alpha)(\\cos\\alpha-\\mathrm{i}\\sin\\alpha)=\\cos^{2}\\alpha+\\sin^{2}\\alpha=1$，故 $\\dfrac{1}{z}=\\cos\\alpha-\\mathrm{i}\\sin\\alpha$.</p><p>由棣莫弗定理，$z^{3}=\\left(\\cos\\alpha+\\mathrm{i}\\sin\\alpha\\right)^{3}=\\cos3\\alpha+\\mathrm{i}\\sin3\\alpha$. 同理，$\\dfrac1{z^3}=\\left(\\dfrac{1}{z}\\right)^{3}=\\left(\\cos\\alpha-\\mathrm{i}\\sin\\alpha\\right)^{3}=\\cos3\\alpha-\\mathrm{i}\\sin3\\alpha$. 两式相加，虚部相消，得到 $z^{3}+\\dfrac1{z^3}=\\left(\\cos3\\alpha+\\mathrm{i}\\sin3\\alpha\\right)+\\left(\\cos3\\alpha-\\mathrm{i}\\sin3\\alpha\\right)=2\\cos3\\alpha$. 因此等式得证.</p>"
+          "solution": "<p>由 $\\left|z\\right|^{2}=\\cos^{2}\\alpha+\\sin^{2}\\alpha=1$，可知 $z\\ne0$，所以 $z^{-1}$ 有意义. 直接相乘可得 $(\\cos\\alpha+\\mathrm{i}\\sin\\alpha)(\\cos\\alpha-\\mathrm{i}\\sin\\alpha)=\\cos^{2}\\alpha+\\sin^{2}\\alpha=1$，故 $\\dfrac{1}{z}=\\cos\\alpha-\\mathrm{i}\\sin\\alpha$.</p><p>由棣莫弗定理，$z^{3}=\\left(\\cos\\alpha+\\mathrm{i}\\sin\\alpha\\right)^{3}=\\cos3\\alpha+\\mathrm{i}\\sin3\\alpha$. 同理，$\\dfrac1{z^3}=\\left(\\dfrac{1}{z}\\right)^{3}=\\left(\\cos\\alpha-\\mathrm{i}\\sin\\alpha\\right)^{3}=\\cos3\\alpha-\\mathrm{i}\\sin3\\alpha$. 两式相加，虚部相消，得到 $z^{3}+\\dfrac1{z^3}=\\left(\\cos3\\alpha+\\mathrm{i}\\sin3\\alpha\\right)+\\left(\\cos3\\alpha-\\mathrm{i}\\sin3\\alpha\\right)=2\\cos3\\alpha$. 因此等式得证.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 9,
-          "body": "<p>在圆心为 $O$，半径为常数 $R$ 的半圆板内画内接矩形（如图），当矩形的长和宽各取多少时，矩形的面积最大？求出这个最大面积.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
-          "choices": null,
+          "body": "<p>在圆心为 $O$，半径为常数 $R$ 的半圆板内画内接矩形（如图），当矩形的长和宽各取多少时，矩形的面积最大？求出这个最大面积.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1983/img/national_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
+          "choices": [],
           "answer": "",
-          "solution": "设矩形上边的两个端点在坐标系中的横坐标分别为 $u$，$v$，它们的纵坐标同为 $y$. 因为这两个点都在圆 $x^{2}+y^{2}=R^{2}$ 上，所以 $u^{2}+y^{2}=v^{2}+y^{2}=R^{2}$，从而 $u^{2}=v^{2}$. 矩形有正的长时 $u\\ne v$，故 $u=-v$. 因而矩形关于半圆的对称轴对称. 令矩形在直径上的半边长为 $x=|u|$，高为 $y$，则 $x^{2}+y^{2}=R^{2}$. 矩形的长为 $2x$，宽为 $y$，面积为 $S=2xy$. 对正数 $x$，$y$，由 $(x-y)^{2}\\geq0$ 得 $x^{2}+y^{2}\\geq2xy$，于是 $S=2xy\\leq x^{2}+y^{2}=R^{2}$. 等号成立当且仅当 $x=y$. 联立 $x=y$ 与 $x^{2}+y^{2}=R^{2}$，得 $2x^{2}=R^{2}$，所以 $x=y=\\dfrac{R}{\\sqrt{2}}$. 因此矩形的长为 $2x=\\sqrt{2}R$，宽为 $y=\\dfrac{R}{\\sqrt{2}}=\\dfrac{\\sqrt{2}}{2}R$，最大面积为 $R^{2}$. 退化情形的面积为 $0$，小于上述面积，故该等号情形确实给出最大值."
+          "solution": "设矩形上边的两个端点在坐标系中的横坐标分别为 $u$，$v$，它们的纵坐标同为 $y$. 因为这两个点都在圆 $x^{2}+y^{2}=R^{2}$ 上，所以 $u^{2}+y^{2}=v^{2}+y^{2}=R^{2}$，从而 $u^{2}=v^{2}$. 矩形有正的长时 $u\\ne v$，故 $u=-v$. 因而矩形关于半圆的对称轴对称. 令矩形在直径上的半边长为 $x=|u|$，高为 $y$，则 $x^{2}+y^{2}=R^{2}$. 矩形的长为 $2x$，宽为 $y$，面积为 $S=2xy$. 对正数 $x$，$y$，由 $(x-y)^{2}\\geq0$ 得 $x^{2}+y^{2}\\geq2xy$，于是 $S=2xy\\leq x^{2}+y^{2}=R^{2}$. 等号成立当且仅当 $x=y$. 联立 $x=y$ 与 $x^{2}+y^{2}=R^{2}$，得 $2x^{2}=R^{2}$，所以 $x=y=\\dfrac{R}{\\sqrt{2}}$. 因此矩形的长为 $2x=\\sqrt{2}R$，宽为 $y=\\dfrac{R}{\\sqrt{2}}=\\dfrac{\\sqrt{2}}{2}R$，最大面积为 $R^{2}$. 退化情形的面积为 $0$，小于上述面积，故该等号情形确实给出最大值.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 10,
-          "body": "<p>如图，地平面上有一旗杆 $OP$，为了测得它的高度 $h$，在地面上选一基线 $AB$，$AB=20\\text{ 米}$，在 $A$ 点处测得 $P$ 点的仰角 $\\angle OAP=30^{\\circ}$，在 $B$ 点处测得 $P$ 点的仰角 $\\angle OBP=45^{\\circ}$，又测得 $\\angle AOB=60^{\\circ}$，求旗杆的高度 $h$（结果可以保留根号）.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
-          "choices": null,
+          "body": "<p>如图，地平面上有一旗杆 $OP$，为了测得它的高度 $h$，在地面上选一基线 $AB$，$AB=20\\text{ 米}$，在 $A$ 点处测得 $P$ 点的仰角 $\\angle OAP=30^{\\circ}$，在 $B$ 点处测得 $P$ 点的仰角 $\\angle OBP=45^{\\circ}$，又测得 $\\angle AOB=60^{\\circ}$，求旗杆的高度 $h$（结果可以保留根号）.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1983/img/national_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为旗杆竖直于地平面，所以 $OP\\perp$ 地平面，进而 $OP\\perp AO$ 且 $OP\\perp BO$. 因此 $\\triangle AOP$ 和 $\\triangle BOP$ 都是以 $O$ 为直角顶点的直角三角形.</p><p>在 $\\triangle AOP$ 中，仰角 $\\angle OAP=30^{\\circ}$，故 $\\tan30^{\\circ}=\\dfrac{OP}{AO}=\\dfrac{h}{AO}$. 由 $\\tan30^{\\circ}=\\dfrac1{\\sqrt{3}}$，得 $AO=\\sqrt{3}h$. 在 $\\triangle BOP$ 中，仰角 $\\angle OBP=45^{\\circ}$，所以 $\\tan45^{\\circ}=\\dfrac{OP}{BO}=\\dfrac{h}{BO}$. 由于 $\\tan45^{\\circ}=1$，得到 $BO=h$.</p><p>点 $A$，$O$，$B$ 在地平面内，且 $\\angle AOB=60^{\\circ}$. 在 $\\triangle AOB$ 中用余弦定理，$AB^{2}=AO^{2}+BO^{2}-2\\cdot AO\\cdot BO\\cos60^{\\circ}$. 代入 $AB=20$、$AO=\\sqrt{3}h$、$BO=h$，得 $400=3h^{2}+h^{2}-2\\cdot\\sqrt{3}h\\cdot h\\cdot\\dfrac{1}{2}=(4-\\sqrt{3})h^{2}$. 因为 $h>0$，且 $4-\\sqrt{3}>0$，所以 $h=\\dfrac{20}{\\sqrt{4-\\sqrt{3}}}\\mathrm{~m}$.</p>"
+          "solution": "<p>因为旗杆竖直于地平面，所以 $OP\\perp$ 地平面，进而 $OP\\perp AO$ 且 $OP\\perp BO$. 因此 $\\triangle AOP$ 和 $\\triangle BOP$ 都是以 $O$ 为直角顶点的直角三角形.</p><p>在 $\\triangle AOP$ 中，仰角 $\\angle OAP=30^{\\circ}$，故 $\\tan30^{\\circ}=\\dfrac{OP}{AO}=\\dfrac{h}{AO}$. 由 $\\tan30^{\\circ}=\\dfrac1{\\sqrt{3}}$，得 $AO=\\sqrt{3}h$. 在 $\\triangle BOP$ 中，仰角 $\\angle OBP=45^{\\circ}$，所以 $\\tan45^{\\circ}=\\dfrac{OP}{BO}=\\dfrac{h}{BO}$. 由于 $\\tan45^{\\circ}=1$，得到 $BO=h$.</p><p>点 $A$，$O$，$B$ 在地平面内，且 $\\angle AOB=60^{\\circ}$. 在 $\\triangle AOB$ 中用余弦定理，$AB^{2}=AO^{2}+BO^{2}-2\\cdot AO\\cdot BO\\cos60^{\\circ}$. 代入 $AB=20$、$AO=\\sqrt{3}h$、$BO=h$，得 $400=3h^{2}+h^{2}-2\\cdot\\sqrt{3}h\\cdot h\\cdot\\dfrac{1}{2}=(4-\\sqrt{3})h^{2}$. 因为 $h>0$，且 $4-\\sqrt{3}>0$，所以 $h=\\dfrac{20}{\\sqrt{4-\\sqrt{3}}}\\mathrm{~m}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 11,
-          "body": "<p>如图，已知一块直角三角形板 $ABC$ 的 $BC$ 边在平面 $\\alpha$ 内，$\\angle ABC=60^{\\circ}$，$\\angle ACB=30^{\\circ}$，$BC=24\\mathrm{~cm}$，$A$ 点在平面 $\\alpha$ 内的射影为 $N$，$AN=9\\mathrm{~cm}$. 求以 $A$ 为顶点的三棱锥 $A\\text{-}NBC$ 的体积（结果可以保留根号）.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
-          "choices": null,
+          "body": "<p>如图，已知一块直角三角形板 $ABC$ 的 $BC$ 边在平面 $\\alpha$ 内，$\\angle ABC=60^{\\circ}$，$\\angle ACB=30^{\\circ}$，$BC=24\\mathrm{~cm}$，$A$ 点在平面 $\\alpha$ 内的射影为 $N$，$AN=9\\mathrm{~cm}$. 求以 $A$ 为顶点的三棱锥 $A\\text{-}NBC$ 的体积（结果可以保留根号）.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1983/img/national_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>由 $\\angle ABC+\\angle ACB=60^{\\circ}+30^{\\circ}=90^{\\circ}$，可知 $\\angle BAC=90^{\\circ}$. 在直角三角形 $ABC$ 中，$BC=24\\mathrm{~cm}$ 为斜边，因此 $AB=BC\\cos60^{\\circ}=24\\cdot\\dfrac{1}{2}=12\\mathrm{~cm}$，$AC=BC\\sin60^{\\circ}=24\\cdot\\dfrac{\\sqrt{3}}{2}=12\\sqrt{3}\\mathrm{~cm}$.</p><p>因为 $N$ 是 $A$ 在平面 $\\alpha$ 内的射影，所以 $AN\\perp\\alpha$. 又 $B$，$C$，$N\\in\\alpha$，故 $AN\\perp NB$ 且 $AN\\perp NC$. 在两个直角三角形 $ANB$、$ANC$ 中，$NB^{2}=AB^{2}-AN^{2}=12^{2}-9^{2}=63$，$NC^{2}=AC^{2}-AN^{2}=\\left(12\\sqrt{3}\\right)^{2}-9^{2}=432-81=351$.</p><p>设 $\\theta=\\angle BNC$. 在 $\\triangle NBC$ 中由余弦定理，$BC^{2}=NB^{2}+NC^{2}-2\\cdot NB\\cdot NC\\cos\\theta$，所以 $NB\\cdot NC\\cos\\theta=\\dfrac{NB^2+NC^2-BC^2}{2}=\\dfrac{63+351-24^2}{2}=-81$. 三角形面积满足 $S_{\\triangle NBC}^{2}=\\dfrac{1}{4}NB^{2}NC^{2}\\sin^{2}\\theta=\\dfrac{1}{4}\\left(NB^{2}NC^{2}-\\left(NB\\cdot NC\\cos\\theta\\right)^{2}\\right)$. 代入上式得 $S_{\\triangle NBC}^{2}=\\dfrac{1}{4}\\left(63\\cdot351-81^{2}\\right)=3888=(36\\sqrt{3})^{2}$. 面积为正，所以 $S_{\\triangle NBC}=36\\sqrt{3}\\mathrm{~cm}^{2}$. 以 $\\triangle NBC$ 为底，三棱锥的高为 $AN=9\\mathrm{~cm}$，故 $V=\\dfrac{1}{3}S_{\\triangle NBC}\\cdot AN=\\dfrac{1}{3}\\cdot36\\sqrt{3}\\cdot9=108\\sqrt{3}\\mathrm{~cm}^{3}$.</p>"
+          "solution": "<p>由 $\\angle ABC+\\angle ACB=60^{\\circ}+30^{\\circ}=90^{\\circ}$，可知 $\\angle BAC=90^{\\circ}$. 在直角三角形 $ABC$ 中，$BC=24\\mathrm{~cm}$ 为斜边，因此 $AB=BC\\cos60^{\\circ}=24\\cdot\\dfrac{1}{2}=12\\mathrm{~cm}$，$AC=BC\\sin60^{\\circ}=24\\cdot\\dfrac{\\sqrt{3}}{2}=12\\sqrt{3}\\mathrm{~cm}$.</p><p>因为 $N$ 是 $A$ 在平面 $\\alpha$ 内的射影，所以 $AN\\perp\\alpha$. 又 $B$，$C$，$N\\in\\alpha$，故 $AN\\perp NB$ 且 $AN\\perp NC$. 在两个直角三角形 $ANB$、$ANC$ 中，$NB^{2}=AB^{2}-AN^{2}=12^{2}-9^{2}=63$，$NC^{2}=AC^{2}-AN^{2}=\\left(12\\sqrt{3}\\right)^{2}-9^{2}=432-81=351$.</p><p>设 $\\theta=\\angle BNC$. 在 $\\triangle NBC$ 中由余弦定理，$BC^{2}=NB^{2}+NC^{2}-2\\cdot NB\\cdot NC\\cos\\theta$，所以 $NB\\cdot NC\\cos\\theta=\\dfrac{NB^2+NC^2-BC^2}{2}=\\dfrac{63+351-24^2}{2}=-81$. 三角形面积满足 $S_{\\triangle NBC}^{2}=\\dfrac{1}{4}NB^{2}NC^{2}\\sin^{2}\\theta=\\dfrac{1}{4}\\left(NB^{2}NC^{2}-\\left(NB\\cdot NC\\cos\\theta\\right)^{2}\\right)$. 代入上式得 $S_{\\triangle NBC}^{2}=\\dfrac{1}{4}\\left(63\\cdot351-81^{2}\\right)=3888=(36\\sqrt{3})^{2}$. 面积为正，所以 $S_{\\triangle NBC}=36\\sqrt{3}\\mathrm{~cm}^{2}$. 以 $\\triangle NBC$ 为底，三棱锥的高为 $AN=9\\mathrm{~cm}$，故 $V=\\dfrac{1}{3}S_{\\triangle NBC}\\cdot AN=\\dfrac{1}{3}\\cdot36\\sqrt{3}\\cdot9=108\\sqrt{3}\\mathrm{~cm}^{3}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "一个等比数列有三项，如果把第二项加上 $4$，那么所得的三项就成为等差数列；如果再把这等差数列的第三项加上 $32$，那么所得的三项又成等比数列，求原来的等比数列.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设原等比数列的三项依次为 $a$，$b$，$c$. 若 $a=0$，则原等比数列的三项都为 $0$，第二项加 $4$ 后得到 $0$，$4$，$0$，不可能成为等差数列，因此 $a\\ne0$. 原三项成等比数列，故 $b^{2}=ac$. 第二项加 $4$ 后成等差数列，故</p><p>$2\\left(b+4\\right)=a+c$. 再把这个等差数列的第三项加上 $32$，得到的三项为 $a$，$b+4$，$c+32$，它们成等比数列，所以</p><p>$\\left(b+4\\right)^{2}=a\\left(c+32\\right)$.</p><p>由等差关系得 $c=2b+8-a$. 将其代入 $b^{2}=ac$，得</p><p>$b^{2}=a\\left(2b+8-a\\right)$. 另一方面，将 $\\left(b+4\\right)^{2}=a\\left(c+32\\right)$ 与 $b^{2}=ac$ 相减，左边为 $8b+16$，右边为 $32a$，故</p><p>$8b+16=32a$，即 $b=4a-2$. 再由 $c=2b+8-a$，得 $c=7a+4$.</p><p>代入 $b^{2}=ac$，得到</p><p>$\\left(4a-2\\right)^{2}=a\\left(7a+4\\right)$，即</p><p>$16a^{2}-16a+4=7a^{2}+4a$，所以 $9a^{2}-20a+4=0$. 解得</p><p>$a=\\dfrac{20\\pm\\sqrt{400-144}}{18}=\\dfrac{20\\pm16}{18}$，即 $a=2$ 或 $a=\\dfrac{2}{9}$.</p><p>当 $a=2$ 时，$b=4a-2=6$，$c=7a+4=18$. 原数列为 $2$，$6$，$18$；加 $4$ 后为 $2$，$10$，$18$，相邻两项差均为 $8$，再把第三项加 $32$ 后为 $2$，$10$，$50$，且 $10^{2}=2\\cdot50$，满足题设.</p><p>当 $a=\\dfrac{2}{9}$ 时，$b=4a-2=-\\dfrac{10}{9}$，$c=7a+4=\\dfrac{50}{9}$. 原数列为 $\\dfrac{2}{9}$，$-\\dfrac{10}{9}$，$\\dfrac{50}{9}$，相邻两项的比均为 $-5$；加 $4$ 后为 $\\dfrac{2}{9}$，$\\dfrac{26}{9}$，$\\dfrac{50}{9}$，相邻两项差均为 $\\dfrac{8}{3}$；再把第三项加 $32$ 后为 $\\dfrac{2}{9}$，$\\dfrac{26}{9}$，$\\dfrac{338}{9}$，且 $\\left(\\dfrac{26}{9}\\right)^{2}=\\dfrac{2}{9}\\cdot\\dfrac{338}{9}$，满足题设. 因此原等比数列为 $2$，$6$，$18$ 或 $\\dfrac{2}{9}$，$-\\dfrac{10}{9}$，$\\dfrac{50}{9}$.</p>"
+          "solution": "<p>设原等比数列的三项依次为 $a$，$b$，$c$. 若 $a=0$，则原等比数列的三项都为 $0$，第二项加 $4$ 后得到 $0$，$4$，$0$，不可能成为等差数列，因此 $a\\ne0$. 原三项成等比数列，故 $b^{2}=ac$. 第二项加 $4$ 后成等差数列，故</p><p>$2\\left(b+4\\right)=a+c$. 再把这个等差数列的第三项加上 $32$，得到的三项为 $a$，$b+4$，$c+32$，它们成等比数列，所以</p><p>$\\left(b+4\\right)^{2}=a\\left(c+32\\right)$.</p><p>由等差关系得 $c=2b+8-a$. 将其代入 $b^{2}=ac$，得</p><p>$b^{2}=a\\left(2b+8-a\\right)$. 另一方面，将 $\\left(b+4\\right)^{2}=a\\left(c+32\\right)$ 与 $b^{2}=ac$ 相减，左边为 $8b+16$，右边为 $32a$，故</p><p>$8b+16=32a$，即 $b=4a-2$. 再由 $c=2b+8-a$，得 $c=7a+4$.</p><p>代入 $b^{2}=ac$，得到</p><p>$\\left(4a-2\\right)^{2}=a\\left(7a+4\\right)$，即</p><p>$16a^{2}-16a+4=7a^{2}+4a$，所以 $9a^{2}-20a+4=0$. 解得</p><p>$a=\\dfrac{20\\pm\\sqrt{400-144}}{18}=\\dfrac{20\\pm16}{18}$，即 $a=2$ 或 $a=\\dfrac{2}{9}$.</p><p>当 $a=2$ 时，$b=4a-2=6$，$c=7a+4=18$. 原数列为 $2$，$6$，$18$；加 $4$ 后为 $2$，$10$，$18$，相邻两项差均为 $8$，再把第三项加 $32$ 后为 $2$，$10$，$50$，且 $10^{2}=2\\cdot50$，满足题设.</p><p>当 $a=\\dfrac{2}{9}$ 时，$b=4a-2=-\\dfrac{10}{9}$，$c=7a+4=\\dfrac{50}{9}$. 原数列为 $\\dfrac{2}{9}$，$-\\dfrac{10}{9}$，$\\dfrac{50}{9}$，相邻两项的比均为 $-5$；加 $4$ 后为 $\\dfrac{2}{9}$，$\\dfrac{26}{9}$，$\\dfrac{50}{9}$，相邻两项差均为 $\\dfrac{8}{3}$；再把第三项加 $32$ 后为 $\\dfrac{2}{9}$，$\\dfrac{26}{9}$，$\\dfrac{338}{9}$，且 $\\left(\\dfrac{26}{9}\\right)^{2}=\\dfrac{2}{9}\\cdot\\dfrac{338}{9}$，满足题设. 因此原等比数列为 $2$，$6$，$18$ 或 $\\dfrac{2}{9}$，$-\\dfrac{10}{9}$，$\\dfrac{50}{9}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 13,
-          "body": "<p>如图，已知两条直线 $L_{1}: 2x - 3y + 2 = 0$，$L_{2}: 3x - 2y + 3 = 0$. 有一动圆（圆心和半径都在变动）与 $L_{1}$，$L_{2}$ 都相交，并且 $L_{1}$，$L_{2}$ 被截在圆内的两条线段的长度分别是定值 $26$，$24$. 求圆心 $M$ 的轨迹方程，并说出轨迹的名称.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
-          "choices": null,
+          "body": "<p>如图，已知两条直线 $L_{1}: 2x - 3y + 2 = 0$，$L_{2}: 3x - 2y + 3 = 0$. 有一动圆（圆心和半径都在变动）与 $L_{1}$，$L_{2}$ 都相交，并且 $L_{1}$，$L_{2}$ 被截在圆内的两条线段的长度分别是定值 $26$，$24$. 求圆心 $M$ 的轨迹方程，并说出轨迹的名称.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1983/img/national_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>设动圆圆心为 $M\\left(x,y\\right)$，半径为 $r$，圆心到 $L_{1}$，$L_{2}$ 的距离分别为 $d_{1}$，$d_{2}$. 圆被一条直线截得的弦的中点到圆心的连线垂直于该直线. 因此，若弦长为 $26$，半弦长为 $13$，由直角三角形得 $r^{2}=d_{1}^{2}+13^{2}$；若弦长为 $24$，半弦长为 $12$，则 $r^{2}=d_{2}^{2}+12^{2}$. 两式相减，得到 $d_{2}^{2}-d_{1}^{2}=25$.</p><p>由点到直线的距离公式，$d_{1}^{2}=\\dfrac{\\left(2x-3y+2\\right)^2}{2^2+(-3)^2}=\\dfrac{\\left(2x-3y+2\\right)^2}{13}$，$d_{2}^{2}=\\dfrac{\\left(3x-2y+3\\right)^2}{3^2+(-2)^2}=\\dfrac{\\left(3x-2y+3\\right)^2}{13}$. 代入 $d_{2}^{2}-d_{1}^{2}=25$，得</p><p>$\\left(3x-2y+3\\right)^{2}-\\left(2x-3y+2\\right)^{2}=325$.</p><p>利用平方差公式，左边为下式.</p><p>$\\left[(3x-2y+3)-(2x-3y+2)\\right]\\left[(3x-2y+3)+(2x-3y+2)\\right]$</p><p>$=(x+y+1)(5x-5y+5)=5(x+y+1)(x-y+1)$.</p><p>因此 $5(x+y+1)(x-y+1)=325$，即</p><p>$(x+y+1)(x-y+1)=65$. 注意到</p><p>$(x+y+1)(x-y+1)=\\left((x+1)+y\\right)\\left((x+1)-y\\right)=(x+1)^{2}-y^{2}$，所以轨迹方程为</p><p>$(x+1)^{2}-y^{2}=65$.</p><p>还需验证没有增添无效点. 对方程上任意一点 $\\left(x,y\\right)$，令 $r^{2}=d_{1}^{2}+169$. 由已经得到的关系 $d_{2}^{2}-d_{1}^{2}=25$，有 $r^{2}=d_{2}^{2}+144$. 因而 $r^{2}-d_{1}^{2}=169>0$、$r^{2}-d_{2}^{2}=144>0$，圆确实分别与两条直线相交，且两条弦的长度分别为 $2\\sqrt{169}=26$ 和 $2\\sqrt{144}=24$. 所以轨迹没有多余点. 该方程表示以 $\\left(-1,0\\right)$ 为中心、实轴沿 $x$ 轴的双曲线.</p>"
+          "solution": "<p>设动圆圆心为 $M\\left(x,y\\right)$，半径为 $r$，圆心到 $L_{1}$，$L_{2}$ 的距离分别为 $d_{1}$，$d_{2}$. 圆被一条直线截得的弦的中点到圆心的连线垂直于该直线. 因此，若弦长为 $26$，半弦长为 $13$，由直角三角形得 $r^{2}=d_{1}^{2}+13^{2}$；若弦长为 $24$，半弦长为 $12$，则 $r^{2}=d_{2}^{2}+12^{2}$. 两式相减，得到 $d_{2}^{2}-d_{1}^{2}=25$.</p><p>由点到直线的距离公式，$d_{1}^{2}=\\dfrac{\\left(2x-3y+2\\right)^2}{2^2+(-3)^2}=\\dfrac{\\left(2x-3y+2\\right)^2}{13}$，$d_{2}^{2}=\\dfrac{\\left(3x-2y+3\\right)^2}{3^2+(-2)^2}=\\dfrac{\\left(3x-2y+3\\right)^2}{13}$. 代入 $d_{2}^{2}-d_{1}^{2}=25$，得</p><p>$\\left(3x-2y+3\\right)^{2}-\\left(2x-3y+2\\right)^{2}=325$.</p><p>利用平方差公式，左边为下式.</p><p>$\\left[(3x-2y+3)-(2x-3y+2)\\right]\\left[(3x-2y+3)+(2x-3y+2)\\right]$</p><p>$=(x+y+1)(5x-5y+5)=5(x+y+1)(x-y+1)$.</p><p>因此 $5(x+y+1)(x-y+1)=325$，即</p><p>$(x+y+1)(x-y+1)=65$. 注意到</p><p>$(x+y+1)(x-y+1)=\\left((x+1)+y\\right)\\left((x+1)-y\\right)=(x+1)^{2}-y^{2}$，所以轨迹方程为</p><p>$(x+1)^{2}-y^{2}=65$.</p><p>还需验证没有增添无效点. 对方程上任意一点 $\\left(x,y\\right)$，令 $r^{2}=d_{1}^{2}+169$. 由已经得到的关系 $d_{2}^{2}-d_{1}^{2}=25$，有 $r^{2}=d_{2}^{2}+144$. 因而 $r^{2}-d_{1}^{2}=169>0$、$r^{2}-d_{2}^{2}=144>0$，圆确实分别与两条直线相交，且两条弦的长度分别为 $2\\sqrt{169}=26$ 和 $2\\sqrt{144}=24$. 所以轨迹没有多余点. 该方程表示以 $\\left(-1,0\\right)$ 为中心、实轴沿 $x$ 轴的双曲线.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

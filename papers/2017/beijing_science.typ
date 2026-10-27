@@ -1,5 +1,4 @@
-#import "@preview/mitex:0.2.5": *
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -12,63 +11,77 @@
 #part-header("单选题")
 
 #problem(1)[
-若集合 $A=\{x | -2<x<1\}$，$B=\{x | x<-1" "或" "x>3\}$，则 $A inter B=$（ ）
-  #choices([$\{x | -2<x<-1\}$], [$\{x | -2<x<3\}$], [$\{x | -1<x<1\}$], [$\{x | 1<x<3\}$], cols: 2)
+若集合 #mi(`A=\{x\mid -2<x<1\}`)，#mi(`B=\{x\mid x<-1\text{ \text{或} }x>3\}`)，则 #mi(`A\cap B=`)（ ）
+  #choices([#mi(`\{x\mid -2<x<-1\}`)], [#mi(`\{x\mid -2<x<3\}`)], [#mi(`\{x\mid -1<x<1\}`)], [#mi(`\{x\mid 1<x<3\}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-若 $x in A inter B$，则 $-2<x<1$，且 $x<-1$ 或 $x>3$.由于 $x<1$，不可能有 $x>3$，所以必须满足 $-2<x<-1$.因此 $A inter B=\{x | -2<x<-1\}$，故选 A.
+若 #mi(`x\in A\cap B`)，则 #mi(`-2<x<1`)，且 #mi(`x<-1`) 或 #mi(`x>3`) .由于 #mi(`x<1`)，不可能有 #mi(`x>3`)，所以必须满足 #mi(`-2<x<-1`) .因此 #mi(`A\cap B=\{x\mid -2<x<-1\}`)，故选 A.
 ]
 
 #problem(2)[
-若复数 $(1- i )(a+ i )$ 在复平面内对应的点在第二象限，则实数 $a$ 的取值范围是（ ）
-  #choices([$(- oo ,1)$], [$(- oo ,-1)$], [$(1,+ oo )$], [$(-1,+ oo )$], cols: 4)
+若复数 #mi(`(1-\mathrm{i})(a+\mathrm{i})`) 在复平面内对应的点在第二象限，则实数 #mi(`a`) 的取值范围是（ ）
+  #choices([#mi(`(-\infty,1)`)], [#mi(`(-\infty,-1)`)], [#mi(`(1,+\infty)`)], [#mi(`(-1,+\infty)`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-$ (1- i )(a+ i )=a+ i -a i - i ""^2=(a+1)+(1-a) i $
+#align(center)[#mitex(`
+(1-\mathrm{i})(a+\mathrm{i})=a+\mathrm{i}-a\mathrm{i}-\mathrm{i}^{2}=(a+1)+(1-a)\mathrm{i}
+`)]
 
-复数对应的点在第二象限，当且仅当实部小于零、虚部大于零，即 $a+1<0$ 且 $1-a>0$.两者合并得 $a<-1$，故选 B.
+
+复数对应的点在第二象限，当且仅当实部小于零、虚部大于零，即 #mi(`a+1<0`) 且 #mi(`1-a>0`) .两者合并得 #mi(`a<-1`)，故选 B.
 ]
 
 #problem(3)[
-执行如图所示的程序框图，输出的 $S$ 值为（ ）
+执行如图所示的程序框图，输出的 #mi(`S`) 值为（ ）
 
 
-#align(center)[#image("/papers/2017/img/beijing_science/q3_fig1.png", width: 42%)]
-  #choices([$2$], [$(3)/(2)$], [$(5)/(3)$], [$(8)/(5)$], cols: 4)
+#align(center)[#image("/papers/2017/img/beijing_science/q3_fig1.png", width: 28%)]
+
+  #choices([#mi(`2`)], [#mi(`\dfrac{3}{2}`)], [#mi(`\dfrac{5}{3}`)], [#mi(`\dfrac{8}{5}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-程序开始时 $k=0$，$s=1$.每次先计算 $s\l e f t a r r o w(s+1)/(s)$，再令 $k\l e f t a r r o w k+1$，然后判断是否继续循环.因此各次循环后的数值为
-当 $k=0$ 时，计算得 $s=(1+1)/(1)=2$，随后 $k=1$；当 $k=1$ 时，计算得 $s=(2+1)/(2)=(3)/(2)$，随后 $k=2$；当 $k=2$ 时，计算得 $s=((3)/(2)+1)/((3)/(2))=(5)/(3)$，随后 $k=3$.
-此时 $k<3$ 不成立，输出 $s=(5)/(3)$，故选 C.
+程序开始时 #mi(`k=0`)，#mi(`s=1`) .每次先计算 #mi(`s\leftarrow\dfrac{s+1}{s}`)，再令 #mi(`k\leftarrow k+1`)，然后判断是否继续循环.因此各次循环后的数值为
+
+当 #mi(`k=0`) 时，计算得 #mi(`s=\frac{1+1}{1}=2`)，随后 #mi(`k=1`)；当 #mi(`k=1`) 时，计算得 #mi(`s=\frac{2+1}{2}=\frac{3}{2}`)，随后 #mi(`k=2`)；当 #mi(`k=2`) 时，计算得 #mi(`s=\frac{\frac{3}{2}+1}{\frac{3}{2}}=\frac{5}{3}`)，随后 #mi(`k=3`).
+
+此时 #mi(`k<3`) 不成立，输出 #mi(`s=\dfrac{5}{3}`)，故选 C.
 ]
 
 #problem(4)[
-若 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} x <= 3 ,\\ x+y >= 2 ,\\ y <= x, \e n d{c a s e s}$ 则 $x+2 y$ 的最大值为（ ）
-  #choices([$1$], [$3$], [$5$], [$9$], cols: 4)
+若 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}x\le 3,\\
+
+x+y\ge 2,\\
+
+y\le x,\end{cases}`) 则 #mi(`x+2y`) 的最大值为（ ）
+  #choices([#mi(`1`)], [#mi(`3`)], [#mi(`5`)], [#mi(`9`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-由 $y <= x$，得
+由 #mi(`y\le x`)，得
 
-$ x+2 y <= x+2 x=3 x $
 
-又由 $x <= 3$，得 $x+2 y <= 9$.当 $x=3$，$y=3$ 时，三个约束分别满足 $3 <= 3$、$3+3 >= 2$ 和 $3 <= 3$，且 $x+2 y=9$.所以最大值为 $9$，故选 D.
+#align(center)[#mitex(`
+x+2y\le x+2x=3x
+`)]
+
+
+又由 #mi(`x\le3`)，得 #mi(`x+2y\le9`) .当 #mi(`x=3`)，#mi(`y=3`) 时，三个约束分别满足 #mi(`3\le3`)、#mi(`3+3\ge2`) 和 #mi(`3\le3`)，且 #mi(`x+2y=9`) .所以最大值为 #mi(`9`)，故选 D.
 ]
 
 #problem(5)[
-已知函数 $f(x)=3^x-((1)/(3))^x$，则 $f(x)$（ ）
-  #choices([是奇函数，且在 $RR$ 上是增函数], [是偶函数，且在 $RR$ 上是增函数], [是奇函数，且在 $RR$ 上是减函数], [是偶函数，且在 $RR$ 上是减函数], cols: 2)
+已知函数 #mi(`f(x)=3^{x}-\left(\dfrac{1}{3}\right)^{x}`)，则 #mi(`f(x)`)（ ）
+  #choices([是奇函数，且在 #mi(`\mathbb{R}`) 上是增函数], [是偶函数，且在 #mi(`\mathbb{R}`) 上是增函数], [是奇函数，且在 #mi(`\mathbb{R}`) 上是减函数], [是偶函数，且在 #mi(`\mathbb{R}`) 上是减函数], cols: 1)
 ]
 
 #answer([A])
@@ -76,53 +89,70 @@ $ x+2 y <= x+2 x=3 x $
 #solution[
 因为
 
-$ f(-x)=3^(-x)-((1)/(3))^(-x)=3^(-x)-3^x=-f(x) $
 
-所以 $f(x)$ 是奇函数.又
+#align(center)[#mitex(`
+f(-x)=3^{-x}-\left(\frac{1}{3}\right)^{-x}=3^{-x}-3^{x}=-f(x)
+`)]
 
-$ f'(x)= ln 3 dot 3 ""^x+ ln 3 dot 3 ""^(-x)= ln 3 (3^x+3^(-x))>0 $
 
-所以 $f(x)$ 在 $RR$ 上是增函数，故选 A.
+所以 #mi(`f(x)`) 是奇函数.又
+
+
+#align(center)[#mitex(`
+f'(x)=\ln3\cdot3^{x}+\ln3\cdot3^{-x}=\ln3\left(3^{x}+3^{-x}\right)>0
+`)]
+
+
+所以 #mi(`f(x)`) 在 #mi(`\mathbb{R}`) 上是增函数，故选 A.
 ]
 
 #problem(6)[
-设 $bold(m)$，$bold(n)$ 为非零向量，则“存在负数 $lambda$，使得 $bold(m)=\l a m b d a b o l d(n)$”是“$bold(m) dot bold(n)<0$”的（ ）
+设 #mi(`\mathbf{m}`)，#mi(`\mathbf{n}`) 为非零向量，则“存在负数 #mi(`\lambda`)，使得 #mi(`\mathbf{m}=\lambda\mathbf{n}`)”是“#mi(`\mathbf{m}\cdot \mathbf{n}<0`)”的（ ）
   #choices([充分而不必要条件], [必要而不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-若存在负数 $lambda$ 使 $bold(m)=\l a m b d a b o l d(n)$，则
+若存在负数 #mi(`\lambda`) 使 #mi(`\mathbf{m}=\lambda\mathbf{n}`)，则
 
-$ bold(m)\c d o t b o l d(n)=\l a m b d a b o l d(n)\c d o t b o l d(n)= lambda \l V e r t b o l d(n)||^2<0 $
 
-所以该条件是 $bold(m)\c d o t b o l d(n)<0$ 的充分条件.反之，取 $bold(n)=(1,0)$，$bold(m)=(-1,1)$，有 $bold(m)\c d o t b o l d(n)=-1<0$，但 $bold(m)$ 不是 $bold(n)$ 的实数倍，故不是必要条件.因此选 A.
+#align(center)[#mitex(`
+\mathbf{m}\cdot\mathbf{n}=\lambda\mathbf{n}\cdot\mathbf{n}=\lambda\lVert\mathbf{n}\rVert^{2}<0
+`)]
+
+
+所以该条件是 #mi(`\mathbf{m}\cdot\mathbf{n}<0`) 的充分条件.反之，取 #mi(`\mathbf{n}=(1,0)`)，#mi(`\mathbf{m}=(-1,1)`)，有 #mi(`\mathbf{m}\cdot\mathbf{n}=-1<0`)，但 #mi(`\mathbf{m}`) 不是 #mi(`\mathbf{n}`) 的实数倍，故不是必要条件.因此选 A.
 ]
 
 #problem(7)[
 某四棱锥的三视图如图所示，则该四棱锥的最长棱的长度为（ ）
 
 
-#align(center)[#image("/papers/2017/img/beijing_science/q7_fig1.png", width: 38%)]
-  #choices([$3 sqrt(2)$], [$2 sqrt(3)$], [$2 sqrt(2)$], [$2$], cols: 4)
+#align(center)[#image("/papers/2017/img/beijing_science/q7_fig1.png", width: 28%)]
+
+  #choices([#mi(`3\sqrt{2}`)], [#mi(`2\sqrt{3}`)], [#mi(`2\sqrt{2}`)], [#mi(`2`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由三个视图还原可知，底面 $A B C D$ 是边长为 $2$ 的正方形，且顶点 $P$ 在 $C$ 的正上方，$P C bot$ 平面 $A B C D$，$P C=2$.因此 $A C=2 sqrt(2)$，在直角三角形 $P C A$ 中，
+由三个视图还原可知，底面 #mi(`ABCD`) 是边长为 #mi(`2`) 的正方形，且顶点 #mi(`P`) 在 #mi(`C`) 的正上方，#mi(`PC\perp`) 平面 #mi(`ABCD`)，#mi(`PC=2`) .因此 #mi(`AC=2\sqrt{2}`)，在直角三角形 #mi(`PCA`) 中，
 
-$ P A^2=P C^2+C A^2=2^2+(2 sqrt(2))^2=12 $
 
-所以 $P A=2 sqrt(3)$.其余底面棱长为 $2$，$P C=2$，$P B=P D=2 sqrt(2)$，故最长棱为 $P A$，选 B.
+#align(center)[#mitex(`
+PA^{2}=PC^{2}+CA^{2}=2^{2}+(2\sqrt{2})^{2}=12
+`)]
+
+
+所以 #mi(`PA=2\sqrt{3}`) .其余底面棱长为 #mi(`2`)，#mi(`PC=2`)，#mi(`PB=PD=2\sqrt{2}`)，故最长棱为 #mi(`PA`)，选 B.
 ]
 
 #problem(8)[
-根据有关资料，围棋状态空间复杂度的上限 $M$ 约为 $3^(361)$，而可观测宇宙中普通物质的原子总数 $N$ 约为 $10^(80)$，则下列各数中与 $(M)/(N)$ 最接近的是（ ）
+根据有关资料，围棋状态空间复杂度的上限 #mi(`M`) 约为 #mi(`3^{361}`)，而可观测宇宙中普通物质的原子总数 #mi(`N`) 约为 #mi(`10^{80}`)，则下列各数中与 #mi(`\dfrac{M}{N}`) 最接近的是（ ）
 
-（参考数据：$\l g 3 approx 0 .48$）
-  #choices([$10^(33)$], [$10^(53)$], [$10^(73)$], [$10^(93)$], cols: 4)
+（参考数据：#mi(`\lg 3\approx 0.48`)）
+  #choices([#mi(`10^{33}`)], [#mi(`10^{53}`)], [#mi(`10^{73}`)], [#mi(`10^{93}`)], cols: 4)
 ]
 
 #answer([D])
@@ -130,354 +160,250 @@ $ P A^2=P C^2+C A^2=2^2+(2 sqrt(2))^2=12 $
 #solution[
 取常用对数，有
 
-$ \l g(M)/(N)=361\l g 3-80 approx 361 times 0 .48-80=93.28 $
 
-所以 $(M)/(N)$ 约为 $10^(93.28)$，在所给各数中与 $10^(93)$ 最接近，故选 D.
+#align(center)[#mitex(`
+\lg\frac{M}{N}=361\lg3-80\approx361\times0.48-80=93.28
+`)]
+
+
+所以 #mi(`\dfrac{M}{N}`) 约为 #mi(`10^{93.28}`)，在所给各数中与 #mi(`10^{93}`) 最接近，故选 D.
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-若双曲线 $x^2-(y^2)/(m)=1$ 的离心率为 $sqrt(3)$，则实数 $m=\f i l l i n b l a n k{}$.
+若双曲线 #mi(`x^{2}-\dfrac{y^2}{m}=1`) 的离心率为 #mi(`\sqrt{3}`)，则实数 #mi(`m=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-双曲线的标准形式中 $a^2=1$，$b^2=m$，且 $c^2=a^2+b^2=1+m$.由离心率条件
+双曲线的标准形式中 #mi(`a^{2}=1`)，#mi(`b^{2}=m`)，且 #mi(`c^{2}=a^{2}+b^{2}=1+m`) .由离心率条件
 
-$ (c)/(a)=sqrt(3) $
 
-可得 $(c^2)/(a^2)=3$，即 $1+m=3$，所以 $m=2$.
+#align(center)[#mitex(`
+\frac{c}{a}=\sqrt{3}
+`)]
+
+
+可得 #mi(`\dfrac{c^2}{a^2}=3`)，即 #mi(`1+m=3`)，所以 #mi(`m=2`).
 ]
 
 #problem(10)[
-若等差数列 $\{a_n\}$ 和等比数列 $\{b_n\}$ 满足 $a_1=b_1=-1$，$a_4=b_4=8$，则 $(a_2)/(b_2)=\f i l l i n b l a n k{}$.
+若等差数列 #mi(`\{a_{n}\}`) 和等比数列 #mi(`\{b_{n}\}`) 满足 #mi(`a_{1}=b_{1}=-1`)，#mi(`a_{4}=b_{4}=8`)，则 #mi(`\dfrac{a_2}{b_2}=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #solution[
-设等差数列 $\{a_n\}$ 的公差为 $d$，则
+设等差数列 #mi(`\{a_{n}\}`) 的公差为 #mi(`d`)，则
 
-$ -1+3 d=8 $
 
-所以 $d=3$，从而 $a_2=-1+3=2$.设等比数列 $\{b_n\}$ 的公比为 $q$，则
+#align(center)[#mitex(`
+-1+3d=8
+`)]
 
-$ -1 dot q^3=8 $
 
-所以 $q=-2$，从而 $b_2=(-1)(-2)=2$.因此
+所以 #mi(`d=3`)，从而 #mi(`a_{2}=-1+3=2`) .设等比数列 #mi(`\{b_{n}\}`) 的公比为 #mi(`q`)，则
 
-$ (a_2)/(b_2)=(2)/(2)=1 $
+
+#align(center)[#mitex(`
+-1\cdot q^{3}=8
+`)]
+
+
+所以 #mi(`q=-2`)，从而 #mi(`b_{2}=(-1)(-2)=2`) .因此
+
+
+#align(center)[#mitex(`
+\frac{a_{2}}{b_{2}}=\frac{2}{2}=1
+`)]
 ]
 
 #problem(11)[
-在极坐标系中，点 $A$ 在圆 $rho ""^2-2 rho cos theta -4 rho sin theta +4=0$ 上，点 $P$ 的坐标为 $(1,0)$，则 $|A P|$ 的最小值为#blank(){}.
+在极坐标系中，点 #mi(`A`) 在圆 #mi(`\rho^{2}-2\rho\cos\theta-4\rho\sin\theta+4=0`) 上，点 #mi(`P`) 的坐标为 #mi(`(1,0)`)，则 #mi(`|AP|`) 的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #solution[
-利用 $x= rho cos theta$，$y= rho sin theta$，圆的方程化为
+利用 #mi(`x=\rho\cos\theta`)，#mi(`y=\rho\sin\theta`)，圆的方程化为
 
-$ x^2+y^2-2 x-4 y+4=0 $
+
+#align(center)[#mitex(`
+x^{2}+y^{2}-2x-4y+4=0
+`)]
+
 
 即
 
-$ (x-1)^2+(y-2)^2=1 $
 
-所以该圆的圆心为 $C=(1,2)$，半径为 $1$.点 $P$ 的直角坐标为 $(1,0)$，故 $|C P|=2$.点 $A$ 在圆上时，三角不等式给出 $|A P| >= |C P|-|C A|=2-1=1$，且当 $A$ 位于线段 $C P$ 上时取等号.因此 $|A P|$ 的最小值为 $1$.
+#align(center)[#mitex(`
+(x-1)^{2}+(y-2)^{2}=1
+`)]
+
+
+所以该圆的圆心为 #mi(`C=(1,2)`)，半径为 #mi(`1`) .点 #mi(`P`) 的直角坐标为 #mi(`(1,0)`)，故 #mi(`|CP|=2`) .点 #mi(`A`) 在圆上时，三角不等式给出 #mi(`|AP|\ge|CP|-|CA|=2-1=1`)，且当 #mi(`A`) 位于线段 #mi(`CP`) 上时取等号.因此 #mi(`|AP|`) 的最小值为 #mi(`1`).
 ]
 
 #problem(12)[
-在平面直角坐标系 $x O y$ 中，角 $alpha$ 与角 $beta$ 均以 $O x$ 为始边，它们的终边关于 $y$ 轴对称，若 $sin alpha =(1)/(3)$，则 $cos ( alpha - beta )=\f i l l i n b l a n k{}$.
+在平面直角坐标系 #mi(`xOy`) 中，角 #mi(`\alpha`) 与角 #mi(`\beta`) 均以 #mi(`Ox`) 为始边，它们的终边关于 #mi(`y`) 轴对称，若 #mi(`\sin\alpha=\dfrac{1}{3}`)，则 #mi(`\cos(\alpha-\beta)=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$-(7)/(9)$])
+#answer([#mi(`-\dfrac{7}{9}`)])
 
 #solution[
-终边关于 $y$ 轴对称，所以 $sin beta = sin alpha =(1)/(3)$，$cos beta =- cos alpha$.由同角关系，$cos ""^2 alpha =1-(1)/(9)=(8)/(9)$.于是
+终边关于 #mi(`y`) 轴对称，所以 #mi(`\sin\beta=\sin\alpha=\dfrac{1}{3}`)，#mi(`\cos\beta=-\cos\alpha`) .由同角关系，#mi(`\cos^{2}\alpha=1-\dfrac{1}{9}=\dfrac{8}{9}`) .于是
 
-$ cos ( alpha - beta )= cos alpha cos beta + sin alpha sin beta =- cos ""^2 alpha + sin ""^2 alpha =-(8)/(9)+(1)/(9)=-(7)/(9) $
+
+#align(center)[#mitex(`
+\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=-\cos^{2}\alpha+\sin^{2}\alpha=-\frac{8}{9}+\frac{1}{9}=-\frac{7}{9}
+`)]
 ]
 
 #problem(13)[
-能够说明“设 $a$，$b$，$c$ 是任意实数. 若 $a>b>c$，则 $a+b>c$”是假命题的一组整数 $a$，$b$，$c$ 的值依次为#blank(){}.
+能够说明“设 #mi(`a`)，#mi(`b`)，#mi(`c`) 是任意实数. 若 #mi(`a>b>c`)，则 #mi(`a+b>c`)”是假命题的一组整数 #mi(`a`)，#mi(`b`)，#mi(`c`) 的值依次为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-1\)，\(-2\)，\(-3$])
+#answer([#mi(`-1`)，#mi(`-2`)，#mi(`-3`)])
 
 #solution[
-取 $a=-1$，$b=-2$，$c=-3$，则 $a>b>c$ 成立，但
+取 #mi(`a=-1`)，#mi(`b=-2`)，#mi(`c=-3`)，则 #mi(`a>b>c`) 成立，但
 
-$ a+b=-1+(-2)=-3=c $
 
-不满足 $a+b>c$.因此这组整数可以说明原命题是假命题.
+#align(center)[#mitex(`
+a+b=-1+(-2)=-3=c
+`)]
+
+
+不满足 #mi(`a+b>c`) .因此这组整数可以说明原命题是假命题.
 ]
 
 #problem(14)[
-三名工人加工同一种零件，他们在一天中的工作情况如图所示，其中点 $A_i$ 的横，纵坐标分别为第 $i$ 名工人上午的工作时间和加工的零件数，点 $B_i$ 的横，纵坐标分别为第 $i$ 名工人下午的工作时间和加工的零件数，$i=1$，$2$，$3$.
+三名工人加工同一种零件，他们在一天中的工作情况如图所示，其中点 #mi(`A_{i}`) 的横，纵坐标分别为第 #mi(`i`) 名工人上午的工作时间和加工的零件数，点 #mi(`B_{i}`) 的横，纵坐标分别为第 #mi(`i`) 名工人下午的工作时间和加工的零件数，#mi(`i=1`)，#mi(`2`)，#mi(`3`).
 
 
-+ (1) 记 $Q_i$ 为第 $i$ 名工人在这一天中加工的零件总数，则 $Q_1$，$Q_2$，$Q_3$ 中最大的是#blank(){}；
-+ (2) 记 $p_i$ 为第 $i$ 名工人在这一天中平均每小时加工的零件数，则 $p_1$，$p_2$，$p_3$ 中最大的是#blank(){}.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2017/img/beijing_science/q14_fig1.png", width: 44%)]
+
+#align(center)[#image("/papers/2017/img/beijing_science/q14_fig1.png", width: 28%)]
+
 ]
 
-#answer([$Q_1\)，\(p_2$])
+#answer([#mi(`Q_{1}`)，#mi(`p_{2}`)])
 
 #solution[
-设线段 $A_(i) B_i$ 的中点为 $T_i$.若 $A_i=(u_i,v_i)$，$B_i=(s_i,t_i)$，则
+设线段 #mi(`A_{i}B_{i}`) 的中点为 #mi(`T_{i}`) .若 #mi(`A_{i}=(u_{i},v_{i})`)，#mi(`B_{i}=(s_{i},t_{i})`)，则
 
-$ Q_i=v_i+t_i=2 y_(T_i) $
 
-由图比较三个中点的纵坐标，$T_1$ 的纵坐标最大，所以 $Q_1$ 最大.
+#align(center)[#mitex(`
+Q_{i}=v_{i}+t_{i}=2y_{T_i}
+`)]
 
-又总工作时间为 $u_i+s_i=2 x_(T_i)$，故
 
-$ p_i=(Q_i)/(u_i+s_i)=(2 y_(T_i))/(2 x_(T_i))=(y_(T_i))/(x_(T_i)) $
+由图比较三个中点的纵坐标，#mi(`T_{1}`) 的纵坐标最大，所以 #mi(`Q_{1}`) 最大.
 
-因此 $p_i$ 等于射线 $O T_i$ 的斜率.由图可知射线 $O T_2$ 的斜率最大，所以 $p_2$ 最大.
+又总工作时间为 #mi(`u_{i}+s_{i}=2x_{T_i}`)，故
+
+
+#align(center)[#mitex(`
+p_{i}=\frac{Q_{i}}{u_{i}+s_{i}}=\frac{2y_{T_i}}{2x_{T_i}}=\frac{y_{T_i}}{x_{T_i}}
+`)]
+
+
+因此 #mi(`p_{i}`) 等于射线 #mi(`OT_{i}`) 的斜率.由图可知射线 #mi(`OT_{2}`) 的斜率最大，所以 #mi(`p_{2}`) 最大.
 ]
 
 #part-header("解答题")
 
 #problem(15)[
-在 $triangle A B C$ 中，$angle A=60^ degree$，$c=(3)/(7)a$.
+在 #mi(`\triangle ABC`) 中，#mi(`\angle A=60^{\circ}`)，#mi(`c=\dfrac{3}{7}a`).
 
 
-+ (1) 求 $sin C$ 的值；
-+ (2) 若 $a=7$，求 $triangle A B C$ 的面积.
++ (1)
 ]
 
 #solution[
-+ (1) 由正弦定理，
-
-$ (c)/(sin C)=(a)/(sin A) $
-
-所以
-
-$ sin C=(c)/(a) sin A=(3)/(7) dot (sqrt(3))/(2)=(3 sqrt(3))/(14) $
-+ (2) 当 $a=7$ 时，$c=3$.由 $c<a$ 以及三角形中大边对大角可知 $C<A=60^ degree$，所以
-
-$ cos C=sqrt(1- sin ""^(2) C)=sqrt(1-(27)/(196))=(13)/(14) $
-
-于是
-
-$ \b e g i n{a l i g n e d} sin B&= sin (180^ degree -A-C)= sin (A+C)\\ &= sin A cos C+ cos A sin C\\ &=(sqrt(3))/(2) dot (13)/(14)+(1)/(2) dot (3 sqrt(3))/(14)=(4 sqrt(3))/(7). \e n d{a l i g n e d} $
-
-因此
-
-$ S_( triangle A B C)=(1)/(2)a c sin B =(1)/(2) dot 7 dot 3 dot (4 sqrt(3))/(7)=6 sqrt(3) $
++ (1)
 ]
 
 #problem(16)[
-如图，在四棱锥 $P-A B C D$ 中，底面 $A B C D$ 为正方形，平面 $P A D bot$ 平面 $A B C D$，点 $M$ 在线段 $P B$ 上，$P D parallel$ 平面 $M A C$，$P A=P D=sqrt(6)$，$A B=4$.
+如图，在四棱锥 #mi(`P-ABCD`) 中，底面 #mi(`ABCD`) 为正方形，平面 #mi(`PAD\perp`) 平面 #mi(`ABCD`)，点 #mi(`M`) 在线段 #mi(`PB`) 上，#mi(`PD\parallel`) 平面 #mi(`MAC`)，#mi(`PA=PD=\sqrt{6}`)，#mi(`AB=4`).
 
 
-+ (1) 求证：$M$ 为 $P B$ 的中点；
-+ (2) 求二面角 $B-P D-A$ 的大小；
-+ (3) 求直线 $M C$ 与平面 $B D P$ 所成角的正弦值.
++ (1) 
++ (2) 
 
 
 
 
-#align(center)[#image("/papers/2017/img/beijing_science/q16_fig1.png", width: 52%)]
+#align(center)[#image("/papers/2017/img/beijing_science/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-建立空间直角坐标系如下：取 $A D$ 的中点 $G$ 为原点，以 $A D$ 方向、$A B$ 方向和垂直于底面的方向为三个坐标轴，并令
-$A=(-2,0,0)$，$D=(2,0,0)$，$B=(-2,4,0)$，$C=(2,4,0)$.
-由于 $P A=P D$，有 $P G bot A D$；又因平面 $P A D bot$ 平面 $A B C D$，所以 $P G bot$ 平面 $A B C D$.由 $P A^2=P G^2+A G^2$，得 $P G^2=6-4=2$，故可取 $P=(0,0,sqrt(2))$.
+建立空间直角坐标系如下：取 #mi(`AD`) 的中点 #mi(`G`) 为原点，以 #mi(`AD`) 方向、#mi(`AB`) 方向和垂直于底面的方向为三个坐标轴，并令
+
+#mi(`A=(-2,0,0)`)，#mi(`D=(2,0,0)`)，#mi(`B=(-2,4,0)`)，#mi(`C=(2,4,0)`).
+
+由于 #mi(`PA=PD`)，有 #mi(`PG\perp AD`)；又因平面 #mi(`PAD\perp`) 平面 #mi(`ABCD`)，所以 #mi(`PG\perp`) 平面 #mi(`ABCD`) .由 #mi(`PA^{2}=PG^{2}+AG^{2}`)，得 #mi(`PG^{2}=6-4=2`)，故可取 #mi(`P=(0,0,\sqrt{2})`).
 
 
-+ (1) 设 $O=A C inter B D$.正方形的对角线互相平分，所以 $O$ 是 $B D$ 的中点.平面 $P B D$ 与平面 $M A C$ 的交线为 $O M$.因为 $P D subset$ 平面 $P B D$，且 $P D parallel$ 平面 $M A C$，所以 $P D parallel O M$.在 $triangle P B D$ 中，$O$ 是 $B D$ 的中点，且过 $O$ 的直线 $O M$ 平行于 $P D$，由三角形中位线的逆定理，$M$ 是 $P B$ 的中点.
-+ (2) 由上问，
-
-$ M=(P+B)/(2)=(-1,2,(sqrt(2))/(2)) $
-
-平面 $P B D$ 内的两个方向向量可取
-$arrow(P D)=(2,0,-sqrt(2))$，$arrow(P B)=(-2,4,-sqrt(2))$.
-取其叉积的一个法向量
-
-$ bold(n)_1=(sqrt(2),sqrt(2),2) $
-
-平面 $P A D$ 的一个法向量为 $bold(n)_2=(0,1,0)$.因此两平面所成的锐角 $theta$ 满足
-
-$ cos theta =(|bold(n)_1\c d o t b o l d(n)_2|)/(\l V e r t b o l d(n)_1||\l V e r t b o l d(n)_2||)=(sqrt(2))/(2 sqrt(2))=(1)/(2) $
-
-故二面角 $B-P D-A$ 的大小为 $60^ degree$.
-+ (3) 直线 $M C$ 的一个方向向量为
-
-$ arrow(M C)=C-M=(3,2,-(sqrt(2))/(2)) $
-
-设直线 $M C$ 与平面 $B D P$ 所成的角为 $phi.alt$.利用直线与平面夹角和法向量的关系，
-
-$ sin phi.alt =(|arrow(M C){ dot }bold(n)_1|)/(\l V e r t a r r o w(M C)||\l V e r t b o l d(n)_1||) $
-
-其中
-$arrow(M C)\c d o t b o l d(n)_1=4 sqrt(2)$，$\l V e r t a r r o w(M C)||=sqrt(9+4+(1)/(2))=(3 sqrt(6))/(2)$，$\l V e r t b o l d(n)_1||=2 sqrt(2)$.
-所以
-
-$ sin phi.alt =(4 sqrt(2))/((3 sqrt(6))/(2) dot 2 sqrt(2))=(2 sqrt(6))/(9) $
++ (1) 
++ (2)
 ]
 
 #problem(17)[
-为了研究一种新药的疗效，选 $100$ 名患者随机分成两组，每组各 $50$ 名，一组服药，另一组不服药. 一段时间后，记录了两组患者的生理指标 $x$ 和 $y$ 的数据，并制成下图，其中“$*$”表示服药者，“+”表示未服药者.
+为了研究一种新药的疗效，选 #mi(`100`) 名患者随机分成两组，每组各 #mi(`50`) 名，一组服药，另一组不服药. 一段时间后，记录了两组患者的生理指标 #mi(`x`) 和 #mi(`y`) 的数据，并制成下图，其中“#mi(`*`)”表示服药者，“+”表示未服药者.
 
 
-+ (1) 从服药的 $50$ 名患者中随机选出一人，求此人指标 $y$ 的值小于 $60$ 的概率；
-+ (2) 从图中 $A$，$B$，$C$，$D$ 四人中随机选出两人，记 $xi$ 为选出的两人中指标 $x$ 的值大于 $1.7$ 的人数，求 $xi$ 的分布列和数学期望 $E( xi )$；
-+ (3) 试判断这 $100$ 名患者中服药者指标 $y$ 数据的方差与未服药者指标 $y$ 数据的方差的大小（只需写出结论）.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2017/img/beijing_science/q17_fig1.png", width: 70%)]
+
+#align(center)[#image("/papers/2017/img/beijing_science/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由散点图可数得服药者中指标 $y<60$ 的患者有 $15$ 名.因此所求概率为
-
-$ P=(15)/(50)=(3)/(10) $
-+ (2) 由图可知，$A$、$C$ 的指标 $x>1.7$，$B$、$D$ 的指标 $x<1.7$.从四人中任选两人的基本事件数为 $C_4^2=6$.所以
-
-$ P( xi =0)=(C_2^2)/(C_4^2)=(1)/(6) $
-
-因为只有选中 $B$，$D$ 时 $xi =0$；
-
-$ P( xi =2)=(C_2^2)/(C_4^2)=(1)/(6) $
-
-因为只有选中 $A$，$C$ 时 $xi =2$；
-
-$ P( xi =1)=(C_2^1 C_2^1)/(C_4^2)=(4)/(6)=(2)/(3) $
-
-因此 $xi$ 的分布列为
-$P( xi =0)=(1)/(6)$，$P( xi =1)=(2)/(3)$，$P( xi =2)=(1)/(6)$.
-其数学期望为
-
-$ E( xi )=0 dot (1)/(6)+1 dot (2)/(3)+2 dot (1)/(6)=1 $
-+ (3) 从散点图看，服药者的指标 $y$ 在纵轴方向上的分布比未服药者更分散，所以服药者指标 $y$ 数据的方差大于未服药者指标 $y$ 数据的方差.
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-已知抛物线 $C:y^2=2 p x$ 过点 $P(1,1)$. 过点 $(0,(1)/(2))$ 作直线 $l$ 与抛物线 $C$ 交于不同的两点 $M$，$N$，过点 $M$ 作 $x$ 轴的垂线分别与直线 $O P$，$O N$ 交于点 $A$，$B$，其中 $O$ 为原点.
+已知抛物线 #mi(`C:y^{2}=2px`) 过点 #mi(`P(1,1)`). 过点 #mi(`\left(0,\dfrac{1}{2}\right)`) 作直线 #mi(`l`) 与抛物线 #mi(`C`) 交于不同的两点 #mi(`M`)，#mi(`N`)，过点 #mi(`M`) 作 #mi(`x`) 轴的垂线分别与直线 #mi(`OP`)，#mi(`ON`) 交于点 #mi(`A`)，#mi(`B`)，其中 #mi(`O`) 为原点.
 
 
-+ (1) 求抛物线 $C$ 的方程，并求其焦点坐标和准线方程；
-+ (2) 求证：$A$ 为线段 $B M$ 的中点.
++ (1)
 ]
 
 #solution[
-+ (1) 将 $P(1,1)$ 代入 $y^2=2 p x$，得 $1=2 p$，所以 $p=(1)/(2)$，抛物线方程为 $y^2=x$.写成 $y^2=4 a x$ 的形式可得 $a=(1)/(4)$，所以焦点为 $((1)/(4),0)$，准线方程为 $x=-(1)/(4)$.
-+ (2) 直线 $l$ 不能是竖直线或水平线，否则不可能与抛物线有两个不同交点，故可设其方程为
-
-$ y=k x+(1)/(2) $
-
-其中 $k != 0$.设 $M=(x_1,y_1)$，$N=(x_2,y_2)$.由于 $x=y^2$，将直线方程改写为
-
-$ k y^2-y+(1)/(2)=0 $
-
-所以由韦达定理，
-$y_1+y_2=(1)/(k)$，$y_(1) y_2=(1)/(2 k)$，
-从而 $y_1+y_2=2 y_(1) y_2$，且 $y_2 != 0$.
-
-直线 $O P$ 的方程为 $y=x$，故过 $M$ 的竖线与 $O P$ 的交点为 $A=(x_1,x_1)$.又直线 $O N$ 的斜率为 $(y_2)/(x_2)=(1)/(y_2)$，所以
-
-$ B=(x_1,(x_1)/(y_2))=(x_1,(y_1^2)/(y_2)) $
-
-而
-
-$ y_1+(y_1^2)/(y_2)=(y_1(y_1+y_2))/(y_2)=2 y_1^2=2 x_1 $
-
-因此 $A$、$B$、$M$ 的横坐标相同，且 $A$ 的纵坐标是 $B$ 与 $M$ 的纵坐标的平均值，即 $A$ 为线段 $B M$ 的中点.
++ (1)
 ]
 
 #problem(19)[
-已知函数 $f(x)= e ""^x cos x-x$.
+已知函数 #mi(`f(x)=\mathrm{e}^{x}\cos x-x`).
 
 
-+ (1) 求曲线 $y=f(x)$ 在点 $(0,f(0))$ 处的切线方程；
-+ (2) 求函数 $f(x)$ 在区间 $[0,(pi)/(2)]$ 上的最大值和最小值.
++ (1)
 ]
 
 #solution[
-+ (1) $ f'(x)= e ""^x( cos x- sin x)-1 $
-
-所以 $f(0)=1$，$f'(0)=0$.切线过点 $(0,1)$，斜率为 $0$，故切线方程为 $y=1$.
-+ (2) 令
-
-$ g(x)=f'(x)= e ""^x( cos x- sin x)-1 $
-
-则
-
-$ g'(x)=-2 e ""^x sin x $
-
-当 $x in [0,(pi)/(2)]$ 时，$g'(x) <= 0$，所以 $g(x)$ 在该区间上单调递减.又 $g(0)=0$，故对该区间内的 $x$，有 $g(x) <= 0$，即 $f'(x) <= 0$.因此 $f(x)$ 在 $[0,(pi)/(2)]$ 上单调递减.
-
-所以最大值为
-
-$ f(0)=1 $
-
-最小值为
-
-$ f((pi)/(2))= e ""^((pi)/(2)) cos (pi)/(2)-(pi)/(2)=-(pi)/(2) $
++ (1)
 ]
 
 #problem(20)[
-设 $\{a_n\}$ 和 $\{b_n\}$ 是两个等差数列，记 $c_n= max \{b_1-a_(1) n,b_2-a_(2) n, ... ,b_n-a_(n) n\}$（$n=1$，$2$，$3$，$...$），其中 $max \{x_1,x_2, ... ,x_s\}$ 表示 $x_1$，$x_2$，$...$，$x_s$ 这 $s$ 个数中最大的数.
+设 #mi(`\{a_{n}\}`) 和 #mi(`\{b_{n}\}`) 是两个等差数列，记 #mi(`c_{n}=\max\{b_{1}-a_{1}n,b_{2}-a_{2}n,\dots,b_{n}-a_{n}n\}`)（#mi(`n=1`)，#mi(`2`)，#mi(`3`)，#mi(`\dots`)），其中 #mi(`\max\{x_{1},x_{2},\dots,x_{s}\}`) 表示 #mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\dots`)，#mi(`x_{s}`) 这 #mi(`s`) 个数中最大的数.
 
 
-+ (1) 若 $a_n=n$，$b_n=2 n-1$，求 $c_1$，$c_2$，$c_3$ 的值，并证明 $\{c_n\}$ 是等差数列；
-+ (2) 证明：或者对任意正数 $M$，存在正整数 $m$，当 $n >= m$ 时，$(c_n)/(n)>M$；或者存在正整数 $m$，使得 $c_m$，$c_(m+1)$，$c_(m+2)$，\dots 是等差数列.
++ (1)
 ]
 
 #solution[
-+ (1) 此时
-
-$ b_i-a_(i) n=(2 i-1)-in=1-n+(i-1)(2-n) $
-
-当 $n=1$ 时，$c_1=0$；当 $n=2$ 时，所有候选值均为 $-1$，所以 $c_2=-1$；当 $n >= 2$ 时，$2-n <= 0$，候选值随 $i$ 不增，最大值在 $i=1$ 处取得，故 $c_n=1-n$.特别地，$c_3=-2$.于是
-$c_1=0$，$c_2=-1$，$c_3=-2$，
-且对任意正整数 $n$，都有 $c_(n+1)-c_n=-1$，所以 $\{c_n\}$ 是等差数列.
-+ (2) 设 $\{a_n\}$、$\{b_n\}$ 的公差分别为 $d_a$、$d_b$.对固定的 $n$，记
-$t_(i,n)=b_i-a_(i) n$，（$1 <= i <= n$）.
-由等差数列通项公式，
-
-$ t_(i,n)=b_1-a_(1) n+(i-1)(d_b-n d_a) $
-
-因此，当 $d_b-n d_a <= 0$ 时，$c_n=t_(1,n)=b_1-a_(1) n$；当 $d_b-n d_a >= 0$ 时，$c_n=t_(n,n)=b_n-a_(n) n$.
-
-若 $d_a=0$，则 $d_b-n d_a=d_b$ 与 $n$ 无关.如果 $d_b <= 0$，则对所有 $n$，$c_n=b_1-a_(1) n$；如果 $d_b>0$，则对所有 $n$，$c_n=b_n-a_(1) n$.这两种情形中的 $c_n$ 都是关于 $n$ 的一次式，所以取 $m=1$ 即可.
-
-若 $d_a>0$，则存在正整数 $m$，使得当 $n >= m$ 时，$d_b-n d_a <= 0$.此时
-$c_n=b_1-a_(1) n$，（$n >= m$），
-所以 $c_m$，$c_(m+1)$，$...$ 是等差数列.
-
-若 $d_a<0$，则存在正整数 $m_0$，使得当 $n >= m_0$ 时，$d_b-n d_a>0$.此时
-
-$ \b e g i n{a l i g n e d} c_n&=b_n-a_(n) n\\ &=-d_(a) n^2+(d_b-a_1+d_a)n+b_1-d_b, \e n d{a l i g n e d} $
-
-从而
-$(c_n)/(n)=A n+B+(C)/(n)$，$A=-d_a>0$，$B=d_b-a_1+d_a$，$C=b_1-d_b$.
-现任取正数 $M$.若 $C >= 0$，取
-
-$ m= max \{m_0,\l f l o o r(M-B)/(A)\r f l o o r+1\}; $
-
-当 $n >= m$ 时，$(C)/(n) >= 0$，且
-
-$ (c_n)/(n) >= A n+B >= A m+B>M $
-
-若 $C<0$，取
-
-$ m= max \{m_0,\l f l o o r(M-B-C)/(A)\r f l o o r+1\} $
-
-当 $n >= m$ 时，因 $n >= 1$ 且 $C<0$，有 $(C)/(n) >= C$，故
-
-$ (c_n)/(n) >= A n+B+C >= A m+B+C>M $
-
-所以在 $d_a<0$ 时，第一种结论成立.综上，题述两个结论至少有一个成立.
++ (1)
 ]
 

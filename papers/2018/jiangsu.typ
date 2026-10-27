@@ -47,7 +47,9 @@
 #problem(4)[
 一个算法的伪代码如图所示，执行此算法，最后输出的 #mi(`S`) 的值为\underline{\hspace{2.5em}}.
 
-[width=6.0cm]img/2018/jiangsu/q4_fig1.png
+
+#align(center)[#image("/papers/2018/img/jiangsu/q4_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`8`)])
@@ -113,7 +115,9 @@
 #problem(10)[
 如图所示，正方体的棱长为 #mi(`2`)，以其所有面的中心为顶点的多面体的体积为\underline{\hspace{2.5em}}.
 
-[width=6.0cm]img/2018/jiangsu/q10_fig1.png
+
+#align(center)[#image("/papers/2018/img/jiangsu/q10_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`\frac{4}{3}`)])
@@ -135,7 +139,9 @@
 #problem(12)[
 在平面直角坐标系 #mi(`xOy`) 中，#mi(`A`) 为直线 #mi(`l:y=2x`) 上在第一象限内的点，#mi(`B(5,0)`)，以 #mi(`AB`) 为直径的圆 #mi(`C`) 与直线 #mi(`l`) 交于另一点 #mi(`D`). 若 #mi(`\overrightarrow{AB}\cdot\overrightarrow{CD}=0`)，则点 #mi(`A`) 的横坐标为\underline{\hspace{2.5em}}.
 
-[width=0.42\linewidth]img/2018/jiangsu/q12_fig1.png
+
+#align(center)[#image("/papers/2018/img/jiangsu/q12_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`3`)])
@@ -174,7 +180,9 @@
 
 
 
-[width=0.42\linewidth]img/2018/jiangsu/q15_fig2.png
+
+#align(center)[#image("/papers/2018/img/jiangsu/q15_fig2.png", width: 28%)]
+
 ]
 
 #solution[
@@ -200,7 +208,9 @@
 
 
 
-[width=0.58\linewidth]img/2018/jiangsu/q17_fig2.png
+
+#align(center)[#image("/papers/2018/img/jiangsu/q17_fig2.png", width: 28%)]
+
 ]
 
 #solution[
@@ -215,7 +225,9 @@
 
 
 
-[width=0.52\linewidth]img/2018/jiangsu/q18_fig1.png
+
+#align(center)[#image("/papers/2018/img/jiangsu/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -251,7 +263,9 @@
 #problem(21)[
 如图，圆 #mi(`O`) 的半径为 #mi(`2`)，#mi(`AB`) 为圆 #mi(`O`) 的直径，#mi(`P`) 为 #mi(`AB`) 延长线上一点，过 #mi(`P`) 作圆 #mi(`O`) 的切线，切点为 #mi(`C`). 若 #mi(`PC=2\sqrt{3}`)，求 #mi(`BC`) 的长.
 
-[width=0.48\linewidth]img/2018/jiangsu/q21_a_fig1.png
+
+#align(center)[#image("/papers/2018/img/jiangsu/q21_a_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -274,7 +288,7 @@
 ]
 
 #solution[
-直线方程化为 #mi(`\frac{x}{2}-\frac{\sqrt{3y}}{2}=2`) 即 #mi(`x-\sqrt{3}y-4=0`)；曲线方程两边同乘 #mi(`\rho`) 得 #mi(`x^{2}+y^{2}=4x`)，即圆心 #mi(`(2,0)`)、半径 #mi(`2`) 的圆. 圆心到直线的距离为 #mi(`\frac{|2-4|}{\sqrt{1+3}}=1`)，故弦长为 #mi(`2\sqrt{4-1}=2\sqrt{3}`).
+直线方程化为 #mi(`\frac{x}{2}-\frac{\sqrt{3}y}{2}=2`) 即 #mi(`x-\sqrt{3}y-4=0`)；曲线方程两边同乘 #mi(`\rho`) 得 #mi(`x^{2}+y^{2}=4x`)，即圆心 #mi(`(2,0)`)、半径 #mi(`2`) 的圆. 圆心到直线的距离为 #mi(`\frac{|2-4|}{\sqrt{1+3}}=1`)，故弦长为 #mi(`2\sqrt{4-1}=2\sqrt{3}`).
 ]
 
 #problem(24)[
@@ -293,7 +307,9 @@
 
 
 
-[width=0.56\linewidth]img/2018/jiangsu/q22_fig1.png
+
+#align(center)[#image("/papers/2018/img/jiangsu/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[

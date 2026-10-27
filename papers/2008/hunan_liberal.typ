@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,373 +11,406 @@
 #part-header("单选题")
 
 #problem(1)[
-已知 $U = \{2, 3, 4, 5, 6, 7\}$，$M = \{3, 4, 5, 7\}$，$N = \{2, 4, 5, 6\}$，则（ ）
+已知 #mi(`U = \{2, 3, 4, 5, 6, 7\}`)，#mi(`M = \{3, 4, 5, 7\}`)，#mi(`N = \{2, 4, 5, 6\}`)，则（ ）
 
-\answer{B}
+\answerB
 
 逐项计算可得
-$M inter N=\{4,5\}$，所以选项 A 错；又
-$M union N=\{2,3,4,5,6,7\}=U$，所以选项 B 正确. 此外，
-$\c o m p l e m e n t_U N=\{3,7\}$，故
-$(\c o m p l e m e n t_U N) union M=M != U$；
-$\c o m p l e m e n t_U M=\{2,6\}$，故
-$(\c o m p l e m e n t_U M) inter N=\{2,6\} != N$. 因此选 B.
-  #choices([$M inter N = \{4, 6\}$], [$M union N = U$], [$(\c o m p l e m e n t_U N) union M = U$], [$(\c o m p l e m e n t_U M) inter N = N$], cols: 1)
+
+#mi(`M\cap N=\{4,5\}`)，所以选项 A 错；又
+
+#mi(`M\cup N=\{2,3,4,5,6,7\}=U`)，所以选项 B 正确. 此外，
+
+#mi(`\complement_{U} N=\{3,7\}`)，故
+
+#mi(`(\complement_{U} N)\cup M=M\neq U`)；
+
+#mi(`\complement_{U} M=\{2,6\}`)，故
+
+#mi(`(\complement_{U} M)\cap N=\{2,6\}\neq N`). 因此选 B.
+  #choices([#mi(`M \cap N = \{4, 6\}`)], [#mi(`M \cup N = U`)], [#mi(`(\complement_{U} N) \cup M = U`)], [#mi(`(\complement_{U} M) \cap N = N`)], cols: 1)
 ]
 
 #problem(2)[
-“$|x-1|<2$”是“$x<3$”的（ ）
+“#mi(`|x-1|<2`)”是“#mi(`x<3`)”的（ ）
 
-\answer{A}
+\answerA
 
 由
-$|x-1|<2$ 得
-$-2<x-1<2$，即 $-1<x<3$，所以它能推出 $x<3$，是充分条件. 但取 $x=-2$，有 $x<3$ 而 $|x-1|=3 not <2$，故不是必要条件. 因此选 A.
+
+#mi(`|x-1|<2`) 得
+
+#mi(`-2<x-1<2`)，即 #mi(`-1<x<3`)，所以它能推出 #mi(`x<3`)，是充分条件. 但取 #mi(`x=-2`)，有 #mi(`x<3`) 而 #mi(`|x-1|=3\not<2`)，故不是必要条件. 因此选 A.
   #choices([充分不必要条件], [必要不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #problem(3)[
-已知变量 $x$，$y$ 满足 $\b e g i n{c a s e s} x >= 1 ,\\ y <= 2 ,\\ x - y <= 0 , \e n d{c a s e s}$ 则 $x + y$ 的最小值是（ ）
+已知变量 #mi(`x`)，#mi(`y`) 满足 #mi(`\begin{cases}x \ge 1,\\
 
-\answer{C}
+y \le 2,\\
 
-由 $x-y <= 0$ 得 $x <= y$. 因为 $x >= 1$，所以
-$x+y >= 2 x >= 2$. 当 $x=y=1$ 时，三个条件均成立，且 $x+y=2$，故最小值为 $2$. 因此选 C.
-  #choices([$4$], [$3$], [$2$], [$1$], cols: 4)
+x - y \le 0,\end{cases}`) 则 #mi(`x + y`) 的最小值是（ ）
+
+\answerC
+
+由 #mi(`x-y\leqslant0`) 得 #mi(`x\le y`). 因为 #mi(`x\geqslant1`)，所以
+
+#mi(`x+y\geqslant2x\geqslant2`). 当 #mi(`x=y=1`) 时，三个条件均成立，且 #mi(`x+y=2`)，故最小值为 #mi(`2`). 因此选 C.
+  #choices([#mi(`4`)], [#mi(`3`)], [#mi(`2`)], [#mi(`1`)], cols: 4)
 ]
 
 #problem(4)[
-函数 $f(x) = x^(2)$（$x <= 0$）的反函数是（ ）
+函数 #mi(`f(x) = x^{2}`)（#mi(`x \le 0`)）的反函数是（ ）
 
-\answer{B}
+\answerB
 
-函数 $f(x)=x^2$ 的定义域为 $(- oo ,0]$，值域为 $[0,+ oo )$. 令 $y=x^2$，且 $x <= 0$，则由 $x=-sqrt(y)$ 得反函数
-$f^(-1)(x)=-sqrt(x)$，定义域为 $x >= 0$. 因此选 B.
-  #choices([$f^(-1)(x) = sqrt(x)$（$x >= 0$）], [$f^(-1)(x) = -sqrt(x)$（$x >= 0$）], [$f^(-1)(x) = -sqrt(-x)$（$x <= 0$）], [$f^(-1)(x) = -x^(2)$（$x <= 0$）], cols: 1)
+函数 #mi(`f(x)=x^{2}`) 的定义域为 #mi(`(-\infty,0]`)，值域为 #mi(`[0,+\infty)`). 令 #mi(`y=x^{2}`)，且 #mi(`x\leqslant0`)，则由 #mi(`x=-\sqrt{y}`) 得反函数
+
+#mi(`f^{-1}(x)=-\sqrt{x}`)，定义域为 #mi(`x\geqslant0`). 因此选 B.
+  #choices([#mi(`f^{-1}(x) = \sqrt{x}`)（#mi(`x\ge 0`)）], [#mi(`f^{-1}(x) = -\sqrt{x}`)（#mi(`x\ge 0`)）], [#mi(`f^{-1}(x) = -\sqrt{-x}`)（#mi(`x\le 0`)）], [#mi(`f^{-1}(x) = -x^{2}`)（#mi(`x\le 0`)）], cols: 1)
 ]
 
 #problem(5)[
-已知直线 $m$，$n$ 和平面 $alpha$，$beta$ 满足 $m bot n$，$m bot alpha$，$alpha bot beta$，则（ ）
+已知直线 #mi(`m`)，#mi(`n`) 和平面 #mi(`\alpha`)，#mi(`\beta`) 满足 #mi(`m \perp n`)，#mi(`m \perp \alpha`)，#mi(`\alpha \perp \beta`)，则（ ）
 
-\answer{D}
+\answerD
 
-因为 $m bot alpha$，所以直线 $m$ 的方向是平面 $alpha$ 的法线方向. 又 $m bot n$，故直线 $n$ 的方向平行于平面 $alpha$. 直线 $n$ 若与平面 $alpha$ 有公共点，则 $n subset alpha$；否则 $n parallel alpha$. 因此选 D.
-  #choices([$n bot beta$], [$n parallel beta$，或 $n subset beta$], [$n bot alpha$], [$n parallel alpha$，或 $n subset alpha$], cols: 1)
+因为 #mi(`m\perp\alpha`)，所以直线 #mi(`m`) 的方向是平面 #mi(`\alpha`) 的法线方向. 又 #mi(`m\perp n`)，故直线 #mi(`n`) 的方向平行于平面 #mi(`\alpha`). 直线 #mi(`n`) 若与平面 #mi(`\alpha`) 有公共点，则 #mi(`n\subset\alpha`)；否则 #mi(`n\parallel\alpha`). 因此选 D.
+  #choices([#mi(`n \perp \beta`)], [#mi(`n \parallel \beta`)，或 #mi(`n \subset \beta`)], [#mi(`n \perp \alpha`)], [#mi(`n \parallel \alpha`)，或 #mi(`n \subset \alpha`)], cols: 1)
 ]
 
 #problem(6)[
 下面不等式成立的是（ ）
 
-\answer{A}
+\answerA
 
-由于底数都大于 $1$，有 $log _3 2<1$，且
-$1= log _2 2< log _2 3< log _2 5$. 合并得
-$log _3 2< log _2 3< log _2 5$，故选 A.
-  #choices([$log _3 2 < log _2 3 < log _2 5$], [$log _3 2 < log _2 5 < log _2 3$], [$log _2 3 < log _3 2 < log _2 5$], [$log _2 3 < log _2 5 < log _3 2$], cols: 1)
+由于底数都大于 #mi(`1`)，有 #mi(`\log_{3} 2<1`)，且
+
+#mi(`1=\log_{2} 2<\log_{2} 3<\log_{2} 5`). 合并得
+
+#mi(`\log_{3} 2<\log_{2} 3<\log_{2} 5`)，故选 A.
+  #choices([#mi(`\log_{3} 2 < \log_{2} 3 < \log_{2} 5`)], [#mi(`\log_{3} 2 < \log_{2} 5 < \log_{2} 3`)], [#mi(`\log_{2} 3 < \log_{3} 2 < \log_{2} 5`)], [#mi(`\log_{2} 3 < \log_{2} 5 < \log_{3} 2`)], cols: 1)
 ]
 
 #problem(7)[
-在 $triangle A B C$ 中，$A B = 3$，$A C = 2$，$B C = sqrt(10)$，则 $arrow(A B) dot arrow(A C)=$（ ）
+在 #mi(`\triangle ABC`) 中，#mi(`AB = 3`)，#mi(`AC = 2`)，#mi(`BC = \sqrt{10}`)，则 #mi(`\overrightarrow{AB}\cdot \overrightarrow{AC}=`)（ ）
 
-\answer{D}
+\answerD
 
 由余弦定理，
 
-$ B C^2=A B^2+A C^2-2 A B dot A C cos A $
 
-代入 $B C=sqrt(10)$，$A B=3$，$A C=2$，得
-$10=9+4-12 cos A$，所以 $cos A=(1)/(4)$. 因而
+#align(center)[#mitex(`
+BC^{2}=AB^{2}+AC^{2}-2AB\cdot AC\cos A
+`)]
 
-$ arrow(A B)\c d o t a r r o w(A C)=|A B| |A C| cos A =3 dot 2 dot (1)/(4)=(3)/(2) $
+
+代入 #mi(`BC=\sqrt{10}`)，#mi(`AB=3`)，#mi(`AC=2`)，得
+
+#mi(`10=9+4-12\cos A`)，所以 #mi(`\cos A=\frac{1}{4}`). 因而
+
+
+#align(center)[#mitex(`
+\overrightarrow{AB}\cdot\overrightarrow{AC}=|AB|\,|AC|\cos A  =3\cdot2\cdot\frac{1}{4}=\frac{3}{2}
+`)]
+
 
 故选 D.
-  #choices([$-(3)/(2)$], [$-(2)/(3)$], [$(2)/(3)$], [$(3)/(2)$], cols: 4)
+  #choices([#mi(`-\frac{3}{2}`)], [#mi(`-\frac{2}{3}`)], [#mi(`\frac{2}{3}`)], [#mi(`\frac{3}{2}`)], cols: 2)
 ]
 
 #problem(8)[
-某市拟从 $4$ 个重点项目和 $6$ 个一般项目中各选 $2$ 个项目作为本年度启动的项目，则重点项目 $A$ 和一般项目 $B$ 至少有一个被选中的不同选法种数是（ ）
+某市拟从 #mi(`4`) 个重点项目和 #mi(`6`) 个一般项目中各选 #mi(`2`) 个项目作为本年度启动的项目，则重点项目 #mi(`A`) 和一般项目 #mi(`B`) 至少有一个被选中的不同选法种数是（ ）
 
-\answer{C}
+\answerC
 
-全部选法共有 $C_4^2 C_6^2=6 times 15 =90$ 种. 若重点项目 $A$ 和一般项目 $B$ 均未被选，则从其余项目中选取的选法有
-$C_3^2 C_5^2=3 times 10 =30$ 种. 因而至少选中 $A$、$B$ 中一个的选法有
-$90-30=60$ 种，故选 C.
-  #choices([$15$], [$45$], [$60$], [$75$], cols: 4)
+全部选法共有 #mi(`\mathrm{C}_{4}^{2}\mathrm{C}_{6}^{2}=6\times15=90`) 种. 若重点项目 #mi(`A`) 和一般项目 #mi(`B`) 均未被选，则从其余项目中选取的选法有
+
+#mi(`\mathrm{C}_{3}^{2}\mathrm{C}_{5}^{2}=3\times10=30`) 种. 因而至少选中 #mi(`A`)、#mi(`B`) 中一个的选法有
+
+#mi(`90-30=60`) 种，故选 C.
+  #choices([#mi(`15`)], [#mi(`45`)], [#mi(`60`)], [#mi(`75`)], cols: 4)
 ]
 
 #problem(9)[
-长方体 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 的 $8$ 个顶点在同一个球面上，且 $A B = 2$，$A D = sqrt(3)$，$A A_(1) = 1$，则顶点 $A$，$B$ 间的球面距离是（ ）
+长方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 的 #mi(`8`) 个顶点在同一个球面上，且 #mi(`AB = 2`)，#mi(`AD = \sqrt{3}`)，#mi(`AA_{1}= 1`)，则顶点 #mi(`A`)，#mi(`B`) 间的球面距离是（ ）
 
-\answer{B}
+\answerB
 
 长方体的体对角线长为
 
-$ sqrt(A B^2+A D^2+A A_1^2)=sqrt(4+3+1)=2 sqrt(2) $
 
-球心是体对角线的中点，所以球半径为 $R=sqrt(2)$. 设球心为 $O$，则弦 $A B=2$ 对应的圆心角 $angle A O B= theta$ 满足
+#align(center)[#mitex(`
+\sqrt{AB^{2}+AD^{2}+AA_{1}^{2}}=\sqrt{4+3+1}=2\sqrt{2}
+`)]
 
-$ 2=2 R sin (theta)/(2)=2 sqrt(2) sin (theta)/(2) $
 
-取小于 $pi$ 的圆心角，得 $theta =(pi)/(2)$. 因此 $A$、$B$ 间的球面距离为
-$R theta =sqrt(2) dot (pi)/(2)=(sqrt(2) pi)/(2)$，故选 B.
-  #choices([$(sqrt(2){ pi })/(4)$], [$(sqrt(2){ pi })/(2)$], [$sqrt(2) pi$], [$2 sqrt(2) pi$], cols: 2)
+球心是体对角线的中点，所以球半径为 #mi(`R=\sqrt{2}`). 设球心为 #mi(`O`)，则弦 #mi(`AB=2`) 对应的圆心角 #mi(`\angle AOB=\theta`) 满足
+
+
+#align(center)[#mitex(`
+2=2R\sin\frac{\theta}{2}=2\sqrt{2}\sin\frac{\theta}{2}
+`)]
+
+
+取小于 #mi(`\pi`) 的圆心角，得 #mi(`\theta=\frac{\pi}{2}`). 因此 #mi(`A`)、#mi(`B`) 间的球面距离为
+
+#mi(`R\theta=\sqrt{2}\cdot\frac{\pi}{2}=\frac{\sqrt{2}\pi}{2}`)，故选 B.
+  #choices([#mi(`\frac{\sqrt{2}\pi}{4}`)], [#mi(`\frac{\sqrt{2}\pi}{2}`)], [#mi(`\sqrt{2}\pi`)], [#mi(`2\sqrt{2}\pi`)], cols: 2)
 ]
 
 #problem(10)[
-双曲线 $(x^2)/(a^2)- (y^2)/(b^2)= 1$（$a > 0$，$b > 0$）的右支上存在一点，它到右焦点及左准线的距离相等，则双曲线离心率的取值范围是（ ）
+双曲线 #mi(`\frac{x^{2}}{a^{2}}- \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > 0`)，#mi(`b > 0`)）的右支上存在一点，它到右焦点及左准线的距离相等，则双曲线离心率的取值范围是（ ）
 
-\answer{C}
+\answerC
 
-设双曲线的半焦距为 $c$，离心率为 $e=(c)/(a)>1$，则右焦点为 $F(c,0)$，左准线为 $x=-(a)/(e)$. 设右支上的点为 $P(x,y)$，则 $x >= a$，且
-$y^2=(b^2)/(a^2)(x^2-a^2)$，$c^2=a^2+b^2$.
+设双曲线的半焦距为 #mi(`c`)，离心率为 #mi(`e=\frac{c}{a}>1`)，则右焦点为 #mi(`F(c,0)`)，左准线为 #mi(`x=-\frac{a}{e}`). 设右支上的点为 #mi(`P(x,y)`)，则 #mi(`x\ge a`)，且
+
+#mi(`y^{2}=\frac{b^{2}}{a^{2}}(x^{2}-a^{2})`)，#mi(`c^{2}=a^{2}+b^{2}`).
+
 于是
 
-$ P F^2=(x-c)^2+y^2 =(c^2)/(a^2)x^2-2 c x+a^2 =(e x-a)^2 $
 
-由于 $x >= a$，所以 $P F=e x-a$. 点 $P$ 到左准线的距离为 $x+(a)/(e)$. 题设距离相等，故
-$e x-a=x+(a)/(e)$，$x=(a(e+1))/(e(e-1))$.
-右支上存在这样的点，当且仅当这个横坐标不小于顶点横坐标 $a$，即
+#align(center)[#mitex(`
+PF^{2}=(x-c)^{2}+y^{2}  =\frac{c^{2}}{a^{2}}x^{2}-2cx+a^{2}  =\left(ex-a\right)^{2}
+`)]
 
-$ (e+1)/(e(e-1)) >= 1 <=> e^2-2 e-1 <= 0 $
 
-结合 $e>1$，得 $1<e <= 1 +sqrt(2)$. 因此选 C.
-  #choices([$(1, sqrt(2)]$], [$[sqrt(2), + oo )$], [$(1, sqrt(2)+ 1]$], [$[sqrt(2)+ 1, + oo )$], cols: 2)
+由于 #mi(`x\ge a`)，所以 #mi(`PF=ex-a`). 点 #mi(`P`) 到左准线的距离为 #mi(`x+\frac{a}{e}`). 题设距离相等，故
+
+#mi(`ex-a=x+\frac{a}{e}`)，#mi(`x=\frac{a(e+1)}{e(e-1)}`).
+
+右支上存在这样的点，当且仅当这个横坐标不小于顶点横坐标 #mi(`a`)，即
+
+
+#align(center)[#mitex(`
+\frac{e+1}{e(e-1)}\geqslant1  \iff e^{2}-2e-1\leqslant0
+`)]
+
+
+结合 #mi(`e>1`)，得 #mi(`1<e\leqslant1+\sqrt{2}`). 因此选 C.
+  #choices([#mi(`(1, \sqrt{2}]`)], [#mi(`[\sqrt{2}, +\infty)`)], [#mi(`(1, \sqrt{2}+ 1]`)], [#mi(`[\sqrt{2}+ 1, +\infty)`)], cols: 2)
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-已知向量 $bold(a)= (1, sqrt(3))$，$bold(b)= (-2, 0)$，则 $|bold(a)+ bold(b)| =$#blank(){}.
-\answer{2}
+已知向量 #mi(`\mathbf{a}= (1, \sqrt{3})`)，#mi(`\mathbf{b}= (-2, 0)`)，则 #mi(`|\mathbf{a}+ \mathbf{b}| =`)\underline{\hspace{2.5em}}.
 
-$bold(a)+bold(b)=(-1,sqrt(3))$，所以
+\answer2
 
-$ |bold(a)+bold(b)|=sqrt((-1)^2+(sqrt(3))^2)=sqrt(4)=2 $
+#mi(`\mathbf{a}+\mathbf{b}=(-1,\sqrt{3})`)，所以
+
+
+#align(center)[#mitex(`
+|\mathbf{a}+\mathbf{b}|=\sqrt{(-1)^{2}+(\sqrt{3})^{2}}=\sqrt{4}=2
+`)]
 ]
 
 #problem(12)[
-从某地区 $15000$ 位老人中随机抽取 $500$ 人，其生活能否自理的情况如下表所示：
+从某地区 #mi(`15000`) 位老人中随机抽取 #mi(`500`) 人，其生活能否自理的情况如下表所示：
 
-\begin{center}
-\begin{tabular}{c|cc}
 \hline
+
 生活能否自理 & 男 & 女 \\
+
 \hline
-能 & $178$ & $278$ \\
-不能 & $23$ & $21$ \\
+
+能 & #mi(`178`) & #mi(`278`) \\
+
+不能 & #mi(`23`) & #mi(`21`) \\
+
 \hline
-\end{tabular}
-\end{center}
 
-则该地区生活不能自理的老人中男性比女性约多人#blank(){}.
-\answer{60}
+则该地区生活不能自理的老人中男性比女性约多人\underline{\hspace{2.5em}}.
 
-样本中生活不能自理的男性、女性人数分别为 $23$、$21$，男性比女性多 $2$ 人. 由样本估计总体，该地区相应人数之差约为
+\answer60
 
-$ 15000 times (23-21)/(500)=15000 times (2)/(500)=60 $
+样本中生活不能自理的男性、女性人数分别为 #mi(`23`)、#mi(`21`)，男性比女性多 #mi(`2`) 人. 由样本估计总体，该地区相应人数之差约为
 
-故约多 $60$ 人.
+
+#align(center)[#mitex(`
+15000\times\frac{23-21}{500}=15000\times\frac{2}{500}=60
+`)]
+
+
+故约多 #mi(`60`) 人.
 ]
 
 #problem(13)[
-记 $(2 x + (1)/(x))^(n)$ 的展开式中第 $m$ 项的系数为 $b_(m)$，若 $b_(3) = 2 b_(4)$，则 $n =$#blank(){}.
-\answer{5}
+记 #mi(`\left(2x + \frac{1}{x}\right)^{n}`) 的展开式中第 #mi(`m`) 项的系数为 #mi(`b_{m}`)，若 #mi(`b_{3}= 2b_{4}`)，则 #mi(`n =`)\underline{\hspace{2.5em}}.
 
-展开式的第 $r+1$ 项为
+\answer5
 
-$ C_n^r(2 x)^(n-r)((1)/(x))^r =C_n^(r) 2^(n-r)x^(n-2 r) $
+展开式的第 #mi(`r+1`) 项为
 
-因此 $b_3=C_n^2 2^(n-2)$，$b_4=C_n^3 2^(n-3)$. 由 $b_3=2 b_4$ 得
 
-$ C_n^2 2^(n-2)=2 C_n^3 2^(n-3) <=> C_n^2=C_n^3 $
+#align(center)[#mitex(`
+\mathrm{C}_{n}^{r}(2x)^{n-r}\left(\frac{1}{x}\right)^{r}  =\mathrm{C}_{n}^{r}2^{n-r}x^{n-2r}
+`)]
+
+
+因此 #mi(`b_{3}=\mathrm{C}_{n}^{2} 2^{n-2}`)，#mi(`b_{4}=\mathrm{C}_{n}^{3} 2^{n-3}`). 由 #mi(`b_{3}=2b_{4}`) 得
+
+
+#align(center)[#mitex(`
+\mathrm{C}_{n}^{2} 2^{n-2}=2\mathrm{C}_{n}^{3} 2^{n-3}\iff \mathrm{C}_{n}^{2}=\mathrm{C}_{n}^{3}
+`)]
+
 
 于是
 
-$ (n(n-1))/(2)=(n(n-1)(n-2))/(6) $
 
-从而 $n-2=3$，即 $n=5$.
+#align(center)[#mitex(`
+\frac{n(n-1)}{2}=\frac{n(n-1)(n-2)}{6}
+`)]
+
+
+从而 #mi(`n-2=3`)，即 #mi(`n=5`).
 ]
 
 #problem(14)[
-将圆 $x^(2) + y^(2) = 1$ 沿 $x$ 轴正向平移 $1$ 个单位后所得到圆 $C$，则圆 $C$ 的方程是#blank(){}；若过点 $(3,0)$ 的直线 $l$ 和圆 $C$ 相切，则直线 $l$ 的斜率为#blank(){}.
-\answer{$(x-1)^2+y^2=1$；$+- (sqrt(3))/(3)$}
+将圆 #mi(`x^{2}+ y^{2}= 1`) 沿 #mi(`x`) 轴正向平移 #mi(`1`) 个单位后所得到圆 #mi(`C`)，则圆 #mi(`C`) 的方程是\underline{\hspace{2.5em}}；若过点 #mi(`(3,0)`) 的直线 #mi(`l`) 和圆 #mi(`C`) 相切，则直线 #mi(`l`) 的斜率为\underline{\hspace{2.5em}}.
 
-圆沿 $x$ 轴正向平移 $1$ 个单位后，圆心由 $(0,0)$ 变为 $(1,0)$，半径不变，所以圆 $C$ 的方程为
-$(x-1)^2+y^2=1$. 过 $(3,0)$ 的竖直直线为 $x=3$，圆心到它的距离为 $2$，不是切线. 因此其余切线均可设为 $y=k(x-3)$，即
-$k x-y-3 k=0$. 直线与圆相切，当且仅当圆心到直线的距离等于半径：
+\answer#mi(`(x-1)^{2}+y^{2}=1`)；#mi(`\pm\frac{\sqrt{3}}{3}`)
 
-$ (|k-3 k|)/(sqrt(k^2+1))=1 <=> (2|k|)/(sqrt(k^2+1))=1 <=> k^2=(1)/(3) $
+圆沿 #mi(`x`) 轴正向平移 #mi(`1`) 个单位后，圆心由 #mi(`(0,0)`) 变为 #mi(`(1,0)`)，半径不变，所以圆 #mi(`C`) 的方程为
 
-故 $k= +- (sqrt(3))/(3)$.
+#mi(`(x-1)^{2}+y^{2}=1`). 过 #mi(`(3,0)`) 的竖直直线为 #mi(`x=3`)，圆心到它的距离为 #mi(`2`)，不是切线. 因此其余切线均可设为 #mi(`y=k(x-3)`)，即
+
+#mi(`kx-y-3k=0`). 直线与圆相切，当且仅当圆心到直线的距离等于半径：
+
+
+#align(center)[#mitex(`
+\frac{|k-3k|}{\sqrt{k^{2}+1}}=1  \iff \frac{2|k|}{\sqrt{k^{2}+1}}=1  \iff k^{2}=\frac{1}{3}
+`)]
+
+
+故 #mi(`k=\pm\frac{\sqrt{3}}{3}`).
 ]
 
 #problem(15)[
-设 $[x]$ 表示不超 $x$ 的最大整数（如 $[2] = 2$，$[(5)/(4)] = 1$）. 对于给定的 $n in bold(N)^*$，定义 $C_n^x = (n(n - 1) dots.c (n - [x] + 1))/(x(x - 1) dots.c (x - [x] + 1))$，$x in [1, + oo )$，则 $C_8^((3)/(2)) =$#blank(){}；当 $x in [2, 3)$ 时，函数 $C_8^x$ 的值域是#blank(){}.
-\answer{$(16)/(3)$；$((28)/(3),28]$}
+设 #mi(`[x]`) 表示不超 #mi(`x`) 的最大整数（如 #mi(`[2] = 2`)，#mi(`\left[\frac{5}{4}\right] = 1`)）. 对于给定的 #mi(`n \in \mathbf{N}^{*}`)，定义 #mi(`\mathrm{C}_{n}^{x} = \frac{n(n - 1) \cdots (n - [x] + 1)}{x(x - 1) \cdots (x - [x] + 1)}`)，#mi(`x \in [1, +\infty)`)，则 #mi(`\mathrm{C}_{8}^{\frac{3}{2}}=`)\underline{\hspace{2.5em}}；当 #mi(`x \in [2, 3)`) 时，函数 #mi(`\mathrm{C}_{8}^{x}`) 的值域是\underline{\hspace{2.5em}}.
 
-当 $x=(3)/(2)$ 时，$[x]=1$，所以
+\answer#mi(`\frac{16}{3}`)；#mi(`\left(\frac{28}{3},28\right]`)
 
-$ C_8^((3)/(2))=(8)/((3)/(2))=(16)/(3) $
+当 #mi(`x=\frac{3}{2}`) 时，#mi(`[x]=1`)，所以
 
-当 $x in [2,3)$ 时，$[x]=2$，于是
 
-$ C_8^x=(8 times 7)/(x(x-1))=(56)/(x(x-1)) $
+#align(center)[#mitex(`
+\mathrm{C}_{8}^{\frac{3}{2}}=\frac{8}{\frac{3}{2}}=\frac{16}{3}
+`)]
 
-函数 $x(x-1)$ 在 $[2,3)$ 上递增，取值范围为 $[2,6)$，因此
 
-$ C_8^x in ((56)/(6),(56)/(2)] =((28)/(3),28] $
+当 #mi(`x\in[2,3)`) 时，#mi(`[x]=2`)，于是
+
+
+#align(center)[#mitex(`
+\mathrm{C}_{8}^{x}=\frac{8\times7}{x(x-1)}=\frac{56}{x(x-1)}
+`)]
+
+
+函数 #mi(`x(x-1)`) 在 #mi(`[2,3)`) 上递增，取值范围为 #mi(`[2,6)`)，因此
+
+
+#align(center)[#mitex(`
+\mathrm{C}_{8}^{x}\in\left(\frac{56}{6},\frac{56}{2}\right]  =\left(\frac{28}{3},28\right]
+`)]
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-甲，乙，丙三人参加了一家公司的招聘面试，面试合格者可正式签约. 甲表示只要面试合格就签约. 乙，丙则约定：两人面试都合格就一同签约. 否则两人都不签约. 设每人面试合格的概率都是 $(1)/(2)$，且面试是否合格互不影响. 求：
-
-+ (1) 至少有 $1$ 人面试合格的概率；
-+ (2) 没有人签约的概率.
+甲，乙，丙三人参加了一家公司的招聘面试，面试合格者可正式签约. 甲表示只要面试合格就签约. 乙，丙则约定：两人面试都合格就一同签约. 否则两人都不签约. 设每人面试合格的概率都是 #mi(`\frac{1}{2}`)，且面试是否合格互不影响. 求：
 
 
++ (1) 
 
-+ (1) 三人均未面试合格的概率为 $((1)/(2))^3=(1)/(8)$，所以至少有 $1$ 人面试合格的概率为
-$1-(1)/(8)=(7)/(8)$.
-+ (2) 没有人签约时，甲必须面试不合格，且乙、丙不能同时面试合格. 由相互独立性，所求概率为
-$(1)/(2)[1-((1)/(2))^2]=(3)/(8)$.
+
+
+
++ (1)
 ]
 
 #problem(17)[
-已知函数 $f(x) = cos ""^2 (x)/(2)- sin ""^2 (x)/(2)+ sin x$.
-
-+ (1) 求函数 $f(x)$ 的最小正周期；
-+ (2) 当 $x_0 in (0, (pi)/(4))$ 且 $f(x_0) = (4 sqrt(2))/(5)$ 时，求 $f(x_0 + (pi)/(6))$ 的值.
+已知函数 #mi(`f(x) = \cos^{2} \frac{x}{2}- \sin^{2} \frac{x}{2}+ \sin x`).
 
 
-
-+ (1) 由 $cos ""^2(x)/(2)- sin ""^2(x)/(2)= cos x$，得
-$f(x)= cos x+ sin x=sqrt(2) sin (x+(pi)/(4))$，所以 $f(x)$ 的最小正周期为 $2 pi$.
-+ (2) 由已知条件，$cos x_0+ sin x_0=(4 sqrt(2))/(5)$. 于是
-$sin 2 x_0=( cos x_0+ sin x_0)^2-1=(7)/(25)$.
-因为 $0<2 x_0<(pi)/(2)$，所以 $cos 2 x_0=(24)/(25)$，从而 $cos x_0- sin x_0>0$. 又
-$( cos x_0- sin x_0)^2=1- sin 2 x_0=(18)/(25)$，故 $cos x_0- sin x_0=(3 sqrt(2))/(5)$.
-
-因此 $cos x_0=(7 sqrt(2))/(10)$，$sin x_0=(sqrt(2))/(10)$，所以
-
-$ f(x_0+(pi)/(6))= cos (x_0+(pi)/(6))+ sin (x_0+(pi)/(6)) $
++ (1) 
 
 
 
-$ f(x_0+(pi)/(6))=(sqrt(3))/(2)( cos x_0+ sin x_0)+(1)/(2)( cos x_0- sin x_0)=(4 sqrt(6)+3 sqrt(2))/(10) $
+
++ (1)
 ]
 
 #problem(18)[
-如图所示，四棱锥 $P-A B C D$ 的底面 $A B C D$ 是边长为 $1$ 的菱形，$angle B C D = 60^ degree$，$E$ 是 $C D$ 的中点，$P A bot$ 底面 $A B C D$，$P A = sqrt(3)$.
+如图所示，四棱锥 #mi(`P-ABCD`) 的底面 #mi(`ABCD`) 是边长为 #mi(`1`) 的菱形，#mi(`\angle BCD = 60^{\circ}`)，#mi(`E`) 是 #mi(`CD`) 的中点，#mi(`PA \perp`) 底面 #mi(`ABCD`)，#mi(`PA = \sqrt{3}`).
 
 
-+ (1) 证明：平面 $P B E bot$ 平面 $P A B$；
-+ (2) 求二面角 $A - B E - P$ 的大小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2008/img/hunan_liberal/q18_fig1.png", width: 34%)]
+
+#align(center)[#image("/papers/2008/img/hunan_liberal/q18_fig1.png", width: 28%)]
 
 
 建立如下一组空间直角坐标系，令
-$A(0,0,0)$，$B(1,0,0)$，$D((1)/(2),(sqrt(3))/(2),0)$，则
-$C((3)/(2),(sqrt(3))/(2),0)$. 由 $E$ 是 $C D$ 的中点以及 $P A bot$ 底面、$P A=sqrt(3)$，可取
-$E(1,(sqrt(3))/(2),0)$，$P(0,0,sqrt(3))$.
+
+#mi(`A\left(0,0,0\right)`)，#mi(`B\left(1,0,0\right)`)，#mi(`D\left(\frac{1}{2},\frac{\sqrt{3}}{2},0\right)`)，则
+
+#mi(`C\left(\frac{3}{2},\frac{\sqrt{3}}{2},0\right)`). 由 #mi(`E`) 是 #mi(`CD`) 的中点以及 #mi(`PA\perp`) 底面、#mi(`PA=\sqrt{3}`)，可取
+
+#mi(`E\left(1,\frac{\sqrt{3}}{2},0\right)`)，#mi(`P\left(0,0,\sqrt{3}\right)`).
 
 
-+ (1) 在平面 $P A B$ 内，$arrow(A B)=(1,0,0)$，$arrow(A P)=(0,0,sqrt(3))$，且
-$arrow(B E)=(0,(sqrt(3))/(2),0)$. 因为
-$arrow(B E)\c d o t a r r o w(A B)=0$，$arrow(B E)\c d o t a r r o w(A P)=0$，所以 $B E bot$ 平面 $P A B$.
-
-又因为 $B E subset$ 平面 $P B E$，所以平面 $P B E bot$ 平面 $P A B$.
-+ (2) 平面 $A B E$ 就是底面所在平面. 过棱 $B E$ 上的点 $B$，在平面 $A B E$ 内作 $B A$，在平面 $P B E$ 内作 $B P$. 由
-$arrow(B A)=(-1,0,0)$，$arrow(B P)=(-1,0,sqrt(3))$，得
-$arrow(B A)\c d o t a r r o w(B E)=0$，$arrow(B P)\c d o t a r r o w(B E)=0$，所以二面角 $A-B E-P$ 的平面角为 $angle A B P$.
-
-又 $|B A|=1$，$|B P|=2$，且 $arrow(B A)\c d o t a r r o w(B P)=1$，故
-$cos angle A B P=(1)/(1 dot 2)=(1)/(2)$. 因此二面角 $A-B E-P$ 的大小为 $(pi)/(3)=60^ degree$.
++ (1)
 ]
 
 #problem(19)[
-已知椭圆的中心在原点，一个焦点是 $F(2,0)$，且两条准线间的距离为 $lambda$（$lambda > 4$）.
-
-+ (1) 求椭圆的方程；
-+ (2) 若存在过点 $A(1,0)$ 的直线 $l$，使点 $F$ 关于直线 $l$ 的对称点在椭圆上，求 $lambda$ 的取值范围.
+已知椭圆的中心在原点，一个焦点是 #mi(`F(2,0)`)，且两条准线间的距离为 #mi(`\lambda`)（#mi(`\lambda > 4`)）.
 
 
-设椭圆的长半轴为 $a$，短半轴为 $b$，半焦距为 $c$，离心率为 $e$. 因为焦点为 $F(2,0)$，所以 $c=2$，且 $a^2-b^2=c^2=4$. 椭圆的两条准线分别为 $x=(a)/(e)$ 和 $x=-(a)/(e)$，故
-$lambda =(2 a)/(e)=(2 a^2)/(c)=a^2$. 从而 $a^2= lambda$，$b^2= lambda -4$.
++ (1) 
 
 
-+ (1) 椭圆的方程为
 
-$ (x^2)/(lambda)+(y^2)/(lambda -4)=1 $
-+ (2) 设点 $F$ 关于直线 $l$ 的对称点为 $F'$. 因为直线 $l$ 经过 $A$，反射保持点到 $A$ 的距离不变，所以 $A F'=A F=1$，即 $F'$ 在圆
-$(x-1)^2+y^2=1$ 上. 反过来，圆上任一点都可以取 $A F$ 与 $A F'$ 的角平分线作为反射轴（当 $F'=F$ 时取直线 $A F$），因此题设条件等价于该圆与椭圆有公共点.
+设椭圆的长半轴为 #mi(`a`)，短半轴为 #mi(`b`)，半焦距为 #mi(`c`)，离心率为 #mi(`e`). 因为焦点为 #mi(`F(2,0)`)，所以 #mi(`c=2`)，且 #mi(`a^{2}-b^{2}=c^{2}=4`). 椭圆的两条准线分别为 #mi(`x=\frac{a}{e}`) 和 #mi(`x=-\frac{a}{e}`)，故
 
-由圆的方程得 $y^2=2 x-x^2$，且 $0 <= x <= 2$. 代入椭圆方程，得
+#mi(`\lambda=\frac{2a}{e}=\frac{2a^{2}}{c}=a^{2}`). 从而 #mi(`a^{2}=\lambda`)，#mi(`b^{2}=\lambda-4`).
 
-$ (x^2)/(lambda)+(2 x-x^2)/(lambda -4)=1 $
 
-即 $4 x^2-2 lambda x+ lambda ( lambda -4)=0$. 该方程有实根的充要条件是
-
-$ Delta =4 lambda (16-3 lambda ) >= 0 $
-
-结合 $lambda >4$，可得 $4< lambda <= (16)/(3)$.
-
-还需验证此范围内的根确实给出圆上的点. 当 $4< lambda <= (16)/(3)$ 时，方程的根为
-$x=(lambda \p m s q r t(lambda (16-3 lambda )))/(4)$. 由 $lambda >4$ 可知较小的根大于 $0$，而
-$lambda (16-3 lambda ) <= (8- lambda )^2$，所以较大的根不超过 $2$. 因而至少有一个根属于 $[0,2]$，此时 $y^2=x(2-x) >= 0$，公共点确实存在.
++ (1)
 ]
 
 #problem(20)[
-数列 $\{a_(n)\}$ 满足 $a_1 = 1$，$a_2 = 2$，$a_(n+2) = (1 + cos ""^2(n pi)/(2))a_n + sin ""^2(n pi)/(2)$，$\ n = 1$，$2$，$3$，$...$.
-
-+ (1) 求 $a_(3)$，$a_(4)$，并求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 设 $S_(k) = a_(1) + a_(3) + ... + a_(2 k-1)$，$T_(k) = a_(2) + a_(4) + ... + a_(2 k)$，$W_(k) = (2 S_(k))/(2 + T_(k))$（$k in bold(N)^(*)$），求使 $W_(k) > 1$ 的所有 $k$ 的值，并说明理由.
+数列 #mi(`\{a_{n}\}`) 满足 #mi(`a_{1} = 1`)，#mi(`a_{2} = 2`)，#mi(`a_{n+2}= \left(1 + \cos^{2}\frac{n\pi}{2}\right)a_{n} + \sin^{2}\frac{n\pi}{2}`)，#mi(`\ n = 1`)，#mi(`2`)，#mi(`3`)，#mi(`\dots`).
 
 
-当 $n$ 为奇数时，$cos ""^2(n pi)/(2)=0$，$sin ""^2(n pi)/(2)=1$，递推式化为 $a_(n+2)=a_n+1$. 当 $n$ 为偶数时，$cos ""^2(n pi)/(2)=1$，$sin ""^2(n pi)/(2)=0$，递推式化为 $a_(n+2)=2 a_n$.
++ (1) 
 
 
-+ (1) 由上述两个递推关系，$a_3=a_1+1=2$，$a_4=2 a_2=4$. 对任意正整数 $r$，分别沿奇数项和偶数项递推，得
-$a_(2 r-1)=r$，$a_(2 r)=2^r$. 因此数列的通项公式为
 
-$ a_n= \b e g i n{c a s e s} (n+1)/(2),&n"为奇数",\\ 2^((n)/(2)),&n"为偶数". \e n d{c a s e s} $
-+ (2) 由奇数项和偶数项的通项公式，
-$S_k=1+2+ dots.c +k=(k(k+1))/(2)$，
-$T_k=2+2^2+ dots.c +2^k=2^(k+1)-2$. 所以
-$W_k=(k(k+1))/(2^(k+1))$.
+当 #mi(`n`) 为奇数时，#mi(`\cos^{2}\frac{n\pi}{2}=0`)，#mi(`\sin^{2}\frac{n\pi}{2}=1`)，递推式化为 #mi(`a_{n+2}=a_{n}+1`). 当 #mi(`n`) 为偶数时，#mi(`\cos^{2}\frac{n\pi}{2}=1`)，#mi(`\sin^{2}\frac{n\pi}{2}=0`)，递推式化为 #mi(`a_{n+2}=2a_{n}`).
 
-当 $k=1$ 时，$2^(k+1)=4>2=k(k+1)$；当 $k=2$ 时，$2^(k+1)=8>6=k(k+1)$. 若对某个 $k >= 2$ 有 $2^(k+1)>k(k+1)$，则
-$2^(k+2)>2 k(k+1) >= (k+1)(k+2)$，其中最后一个不等式等价于 $k >= 2$. 由归纳法，任意正整数 $k$ 都有 $2^(k+1)>k(k+1)$，故 $W_k<1$. 因此不存在使 $W_k>1$ 的正整数 $k$.
+
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = (1)/(4)x^4 + x^3 - (9)/(2)x^2 + c x$ 有三个极值点.
-
-+ (1) 证明： $-27 < c < 5;$
-+ (2) 若存在实数 $c$，使函数 $f(x)$ 在区间 $[a, a + 2]$ 上单调递减，求 $a$ 的取值范围.
+已知函数 #mi(`f(x) = \frac{1}{4}x^{4} + x^{3} - \frac{9}{2}x^{2} + cx`) 有三个极值点.
 
 
-记 $g(x)=f'(x)=x^3+3 x^2-9 x+c$，则
-$g'(x)=3(x+3)(x-1)$. 因此 $g(x)$ 在 $(- oo ,-3)$ 和 $(1,+ oo )$ 上递增，在 $(-3,1)$ 上递减，$x=-3$ 是极大值点，$x=1$ 是极小值点.
++ (1) 
 
 
-+ (1) 因为 $g(x)$ 是首项系数为正的三次函数，要有三个互不相同的实根，充要条件是极大值大于 $0$ 且极小值小于 $0$. 计算得
-$g(-3)=c+27$，$g(1)=c-5$. 所以 $c+27>0$，$c-5<0$，即
-$-27<c<5$.
-+ (2) 由第（1）问，所取的 $c$ 必须满足 $-27<c<5$. 令
-$h(x)=x^3+3 x^2-9 x$，则 $g(x)=h(x)+c$. 因为
-$h(x)-27=x^3+3 x^2-9 x-27=(x-3)(x+3)^2$，所以 $h(x)<27$ 当且仅当 $x<3$ 且 $x != -3$.
 
-若 $f(x)$ 在 $[a,a+2]$ 上单调递减，则区间内应有 $g(x) <= 0$. 由于 $c>-27$，有 $g(-3)=c+27>0$，并且当 $x >= 3$ 时 $h(x) >= 27$，从而 $g(x)>0$. 因此区间 $[a,a+2]$ 既不能包含 $-3$，又必须满足 $a+2<3$. 这给出
-$a<-5$ 或 $-3<a<1$.
+记 #mi(`g(x)=f'(x)=x^{3}+3x^{2}-9x+c`)，则
 
-反之，若 $a<-5$ 或 $-3<a<1$，则 $[a,a+2] subset (- oo ,3)$ 且不含 $-3$，从而在该区间上 $h(x)<27$. 令 $M= max _(x in [a,a+2])h(x)$，则 $M<27$，所以可以取
-$-27<c< min \{5,-M\}$. 此时 $c$ 满足第（1）问的条件，且对区间内任意 $x$ 有 $f'(x)=h(x)+c <= M+c<0$，故 $f(x)$ 在 $[a,a+2]$ 上单调递减.
+#mi(`g'(x)=3\left(x+3\right)\left(x-1\right)`). 因此 #mi(`g(x)`) 在 #mi(`(-\infty,-3)`) 和 #mi(`(1,+\infty)`) 上递增，在 #mi(`(-3,1)`) 上递减，#mi(`x=-3`) 是极大值点，#mi(`x=1`) 是极小值点.
 
-综上，$a$ 的取值范围为 $(- oo ,-5) union (-3,1)$.
+
++ (1)
 ]
 

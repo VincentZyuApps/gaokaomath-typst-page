@@ -208,7 +208,9 @@
 
 
 
-[max width=0.42\linewidth]img/2012/shanghai_liberal/q19_fig1.png
+
+#align(center)[#image("/papers/2012/img/shanghai_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -241,7 +243,9 @@
 
 
 
-[max width=0.42\linewidth]img/2012/shanghai_liberal/q21_fig1.png
+
+#align(center)[#image("/papers/2012/img/shanghai_liberal/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

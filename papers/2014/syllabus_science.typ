@@ -95,7 +95,7 @@ c=\tan35^{\circ}=\frac{\sin35^{\circ}}{\cos35^{\circ}}>\sin35^{\circ}=b
 ]
 
 #problem(5)[
-有 #mi(`6\text{ \text{名}}`)男医生，#mi(`5\text{ \text{名}}`)女医生，从中选出 #mi(`2\text{ \text{名}}`)男医生，#mi(`1\text{ \text{名}}`)女医生组成一个医疗小组，则不同的选法共有（ ）
+有 #mi(`6\text{ \text{名}}`) 男医生，#mi(`5\text{ \text{名}}`) 女医生，从中选出 #mi(`2\text{ \text{名}}`) 男医生，#mi(`1\text{ \text{名}}`) 女医生组成一个医疗小组，则不同的选法共有（ ）
 
 \answerC
 
@@ -481,7 +481,9 @@ B=180^{\circ}-(A+C)=135^{\circ}
 
 
 
-[max width=0.35\linewidth]img/2014/syllabus_science/q19_fig1.png
+
+#align(center)[#image("/papers/2014/img/syllabus_science/q19_fig1.png", width: 28%)]
+
 
 
 + (1)

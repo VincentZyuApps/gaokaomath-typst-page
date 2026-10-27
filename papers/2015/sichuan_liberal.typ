@@ -549,7 +549,9 @@ H_{a}''(x)=2+(\ln2)^{2} 2^{x}>0
 
 
 
-[max width=0.56\linewidth]img/2015/sichuan_liberal/q18_fig1.png
+
+#align(center)[#image("/papers/2015/img/sichuan_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -576,7 +578,9 @@ H_{a}''(x)=2+(\ln2)^{2} 2^{x}>0
 
 
 
-[max width=0.42\linewidth]img/2015/sichuan_liberal/q20_fig1.png
+
+#align(center)[#image("/papers/2015/img/sichuan_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[

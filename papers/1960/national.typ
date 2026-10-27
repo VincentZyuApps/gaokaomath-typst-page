@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,214 +11,231 @@
 #part-header("解答题")
 
 #problem(1)[
-+ (1) 解方程 $sqrt(2 x^(2)-5)-sqrt(5 x-7)=0$. （限定在实数范围内）
-+ (2) 有 $5$ 组篮球队，每组 $6$ 队. 首先每组中各队进行单循环比赛（即每两队比赛一次），然后各组的冠军再进行单循环比赛. 问先后共比赛多少次？
-+ (3) 求证等比数列的各项的对数组成等差数列. （这里所说的等比数列的各项都是正数）
-+ (4) 求使等式 $sqrt(1- sin ""^(2)(x)/(2))= cos (x)/(2)$ 成立的 $x$ 值的范围. （$x$ 是 $0^( degree )$ 到 $720^( degree )$ 的角）
-+ (5) 如图，用钢珠测量机件上一小孔的直径. 所用钢珠的中心是 $O$，直径是 $12" 毫米"$. 将钢珠放在这小孔上，测得钢珠上端 $D$ 到机件平面的距离 $C D$ 是 $9" 毫米"$. 求这小孔的直径 $A B$ 的长.
-+ (6) 四棱锥 $P-A B C D$ 的底面是一正方形. $P A$ 与底面垂直. 已知 $P A$ 是 $3" 厘米"$，$P$ 点到 $B C$ 的距离是 $5" 厘米"$. 求 $P C$ 的长.
++ (1) 
++ (2) 
++ (3) 
++ (4) 
++ (5) 
+
 
 
 \begingroup
-\def\theprobnum{5}%
 
-#align(center)[#image("/papers/1960/img/national/q5_fig1.png", width: 34%)]
+\def\theprobnum5%
+
+
+#align(center)[#image("/papers/1960/img/national/q5_fig1.png", width: 28%)]
+
 
 \endgroup
 ]
 
 #solution[
-+ (1) 先由两个平方根都有意义，得
-$2 x^(2)-5 >= 0$，$5 x-7 >= 0$.
-由第一式得 $x <= -sqrt((5)/(2))$ 或 $x\g e q s l a n t s q r t((5)/(2))$，由第二式得 $x >= (7)/(5)$. 两者合并为 $x\g e q s l a n t s q r t((5)/(2))$. 在这个定义域内，两边均为非负数，原方程等价于
-
-$ sqrt(2 x^(2)-5)=sqrt(5 x-7) <=> 2 x^(2)-5=5 x-7 $
-
-整理得 $2 x^(2)-5 x+2=0$，即 $(2 x-1)(x-2)=0$，所以候选值为 $x=(1)/(2)$ 或 $x=2$. 其中 $(1)/(2)$ 不在定义域内，舍去；代入 $x=2$ 时两被开方式均为 $3$，确实成立. 故 $x=2$.
-+ (2) 每组有 $6$ 队，任取其中两队比赛一次，所以每组比赛 $C_6^2=(6 dot 5)/(2)=15$ 次，五组共比赛 $5 C_6^2=5 times 15 =75$ 次. 五个小组冠军再进行单循环比赛，比赛次数为 $C_5^2=(5 dot 4)/(2)=10$ 次.
-因此先后共比赛 $75+10=85$ 次.
-+ (3) 设等比数列的首项为 $a>0$，公比为 $q>0$，则第 $k$ 项为 $a_k=a q^(k-1)$. 由于各项均为正数，对每个 $k$ 都有
-
-$ log a_k= log (a q^(k-1))= log a+(k-1) log q $
-
-于是相邻两项对数之差为
-
-$ log a_(k+1)- log a_k=( log a+k log q)-( log a+(k-1) log q)= log q $
-
-与 $k$ 无关. 因此各项的对数构成首项为 $log a$、公差为 $log q$ 的等差数列，命题得证.
-+ (4) 因为 $0^( degree ) <= x <= 720 ""^( degree )$，所以 $0^( degree ) <= (x)/(2) <= 360 ""^( degree )$. 原等式左边为
-
-$ sqrt(1- sin ""^(2)(x)/(2))=sqrt(cos ""^(2)(x)/(2))=| cos (x)/(2)| $
-
-故原等式成立当且仅当 $| cos (x)/(2)|= cos (x)/(2)$，也就是 $cos (x)/(2) >= 0$. 在 $[0^( degree ),360^( degree )]$ 内，这等价于
-
-$ 0^( degree ) <= (x)/(2) <= 90 ""^( degree ) "或"\q u a d270^( degree ) <= (x)/(2) <= 360 ""^( degree ) $
-
-所以 $0^( degree ) <= x <= 180 ""^( degree )$ 或 $540^( degree ) <= x <= 720 ""^( degree )$.
-+ (5) 解法一：设小孔直径 $A B=x" 毫米"$. 直径 $D E$ 垂直于弦 $A B$，所以它经过弦的中点 $C$，从而 $A C=(x)/(2)" 毫米"$. 又因为 $D E=12" 毫米"$、$C D=9" 毫米"$，所以
-
-$ C E=D E-C D=12-9=3" 毫米" $
-
-两条弦 $A B$、$D E$ 在圆内相交于 $C$，由相交弦定理，
-
-$ C A dot C B=C D dot C E $
-
-由于 $C A=C B=(x)/(2)$，得
-$((x)/(2))^2=9 times 3$，$x^2=108$.
-长度取正值，所以 $x=6 sqrt(3)" 毫米"$. 答：小孔的直径是 $6 sqrt(3)" 毫米"$.
-
-解法二：由 $O D=6" 毫米"$、$C D=9" 毫米"$，且图中 $C$ 在 $O$ 与 $E$ 的同一直线上，得
-
-$ O C=C D-O D=9-6=3" 毫米" $
-
-连接 $O A$. 因为 $O C bot A B$，且 $C$ 是弦 $A B$ 的中点，所以 $A C=(x)/(2)" 毫米"$. 在直角三角形 $O A C$ 中，
-$O A^2=O C^2+A C^2$，$6^2=3^2+((x)/(2))^2$.
-因此 $(x^2)/(4)=27$，长度取正值得 $x=6 sqrt(3)" 毫米"$. 答：小孔的直径是 $6 sqrt(3)" 毫米"$.
-+ (6) 由 $P A bot$ 平面 $A B C D$，知 $P A bot B C$. 又底面为正方形，故 $A B bot B C$. 直线 $P A$、$A B$ 相交并且都在平面 $P A B$ 内，因此由线面垂直判定的逆定理，$B C bot$ 平面 $P A B$，从而 $B C bot P B$. 所以点 $P$ 到直线 $B C$ 的距离为 $P B=5" 厘米"$.
-
-因为 $P A bot A B$，所以在直角三角形 $P A B$ 中，
-
-$ A B^2=P B^2-P A^2=5^2-3^2=16 $
-
-故 $A B=4" 厘米"$. 正方形 $A B C D$ 的边长相等，所以 $B C=4" 厘米"$. 在直角三角形 $P B C$ 中，
-
-$ P C^2=P B^2+B C^2=5^2+4^2=41 $
-
-因此 $P C=sqrt(41)" 厘米"$.
++ (1) 
++ (2) 
++ (3) 
++ (4) 
++ (5) 
 
 
 
-#align(center)[#image("/papers/1960/img/national/q6_solution_fig1.png", width: 34%)]
+ 
+#align(center)[#image("/papers/1960/img/national/q6_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(2)[
-有一直圆柱，高是 $20" 厘米"$，底面半径是 $5" 厘米"$. 它的一个内接长方体的体积是 $800" 立方厘米"$. 求这长方体的底面的长和宽.
+有一直圆柱，高是 #mi(`20\text{ \text{厘米}}`)，底面半径是 #mi(`5\text{ \text{厘米}}`). 它的一个内接长方体的体积是 #mi(`800\text{ \text{立方厘米}}`). 求这长方体的底面的长和宽.
 ]
 
 #solution[
-设内接长方体底面的长和宽分别为 $x" 厘米"$ 和 $y" 厘米"$，其中 $x>0$、$y>0$. 长方体底面是圆柱底面内接的矩形，矩形的四个顶点在圆周上，所以它的两条对角线都是圆柱底面的直径；因此对角线长为 $2 times 5 =10" 厘米"$，从而
+设内接长方体底面的长和宽分别为 #mi(`x\text{ \text{厘米}}`) 和 #mi(`y\text{ \text{厘米}}`)，其中 #mi(`x>0`)、#mi(`y>0`). 长方体底面是圆柱底面内接的矩形，矩形的四个顶点在圆周上，所以它的两条对角线都是圆柱底面的直径；因此对角线长为 #mi(`2\times5=10\text{ \text{厘米}}`)，从而
 
-$ \b e g i n{c a s e s} x^(2)+y^(2)=10^(2),\\ 20 x y=800 \e n d{c a s e s} $
 
-其中第二式来自长方体的高等于圆柱的高 $20" 厘米"$. 方程组化为
+#align(center)[#mitex(`
+\begin{cases}x^{2}+y^{2}=10^{2},\\  20xy=800\end{cases}
+`)]
 
-$ \b e g i n{c a s e s} x^(2)+y^(2)=100,\\ 2 x y=80 \e n d{c a s e s} $
+
+其中第二式来自长方体的高等于圆柱的高 #mi(`20\text{ \text{厘米}}`). 方程组化为
+
+
+#align(center)[#mitex(`
+\begin{cases}x^{2}+y^{2}=100,\\  2xy=80\end{cases}
+`)]
+
 
 两式相加、相减分别得
-$(x+y)^2=x^2+y^2+2 x y=100+80=180$，$(x-y)^2=x^2+y^2-2 x y=100-80=20$.
-因为 $x+y>0$，所以 $x+y=6 sqrt(5)$；又因为 $(x-y)^2=20$，所以 $x-y= +- 2 sqrt(5)$.
+
+#mi(`(x+y)^{2}=x^{2}+y^{2}+2xy=100+80=180`)，#mi(`(x-y)^{2}=x^{2}+y^{2}-2xy=100-80=20`).
+
+因为 #mi(`x+y>0`)，所以 #mi(`x+y=6\sqrt{5}`)；又因为 #mi(`(x-y)^{2}=20`)，所以 #mi(`x-y=\pm2\sqrt{5}`).
 
 分别解下面的两个方程组：
 
-$ \b e g i n{c a s e s} x+y=6 sqrt(5),\\ x-y=2 sqrt(5)\e n d{c a s e s} \b e g i n{c a s e s} x+y=6 sqrt(5),\\ x-y=-2 sqrt(5)\e n d{c a s e s} $
+
+#align(center)[#mitex(`
+\begin{cases}x+y=6\sqrt{5},\\
+
+x-y=2\sqrt{5}\end{cases}  \qquad  \begin{cases}x+y=6\sqrt{5},\\
+
+x-y=-2\sqrt{5}\end{cases}
+`)]
+
 
 分别解这两个方程组，得到
 
-$ \b e g i n{c a s e s} x_1=4 sqrt(5),\\ y_1=2 sqrt(5)\e n d{c a s e s} \b e g i n{c a s e s} x_2=2 sqrt(5),\\ y_2=4 sqrt(5)\e n d{c a s e s} $
 
-两者只交换长、宽位置，均满足原条件. 答：底面的长和宽分别是 $4 sqrt(5)" 厘米"$ 和 $2 sqrt(5)" 厘米"$.
+#align(center)[#mitex(`
+\begin{cases}x_{1}=4\sqrt{5},\\  y_{1}=2\sqrt{5}\end{cases}  \qquad  \begin{cases}x_{2}=2\sqrt{5},\\  y_{2}=4\sqrt{5}\end{cases}
+`)]
+
+
+两者只交换长、宽位置，均满足原条件. 答：底面的长和宽分别是 #mi(`4\sqrt{5}\text{ \text{厘米}}`) 和 #mi(`2\sqrt{5}\text{ \text{厘米}}`).
 ]
 
 #problem(3)[
-从一船上看到在它的南 $30^( degree )$ 东的海面上有一灯塔. 船以 $30" 浬/小时"$ 的速度向正东南方向航行半小时后，看到这个灯塔在船的正西方. 问这时船与灯塔的距离是多少？（精确到 $0.1" 浬"$）
+从一船上看到在它的南 #mi(`30^{\circ}`) 东的海面上有一灯塔. 船以 #mi(`30\text{ \text{浬}/\text{小时}}`) 的速度向正东南方向航行半小时后，看到这个灯塔在船的正西方. 问这时船与灯塔的距离是多少？（精确到 #mi(`0.1\text{ \text{浬}}`)）
 ]
 
 #solution[
-解法一：如图，$A$ 是原来船的位置，$B$ 是灯塔，$C$ 是航行半小时后船的位置. 船行驶的路程为
-
-$ A C=30 times (1)/(2)=15" 浬" $
-
-从 $A$ 看，$A B$ 为南偏东 $30^( degree )$ 的方向，$A C$ 为正东南方向，即南偏东 $45^( degree )$，所以 $angle B A C=45^( degree )-30^( degree )=15^( degree )$. 航行后灯塔在船的正西方，因此 $B C$ 为东西方向；在点 $B$ 处，$B A$ 指向北偏西 $30^( degree )$，故 $angle A B C=120^( degree )$. 由正弦定理，
-
-$ \b e g i n{g a t h e r e d} B C=(A C sin 15 ""^( degree ))/(sin 120 ""^( degree ))=(15 sin 15 ""^( degree ))/(sin 60 ""^( degree )),\\ sin 15 ""^( degree )= sin (45^( degree )-30^( degree ))= sin 45 ""^( degree ) cos 30 ""^( degree )- cos 45 ""^( degree ) sin 30 ""^( degree ),\\ B C=(15( sin 45 ""^( degree ){ cos }30^( degree )- cos 45 ""^( degree ) sin 30 ""^( degree )))/(sin 60 ""^( degree ))=(5 sqrt(2)(3-sqrt(3)))/(2) approx 4 .482. \e n d{g a t h e r e d} $
-
-按题意精确到 $0.1" 浬"$，得 $B C approx 4 .5" 浬"$. 答：这时船与灯塔的距离是 $4.5" 浬"$.
-
-#align(center)[#image("/papers/1960/img/national/q3_solution_fig1.png", width: 34%)]
+解法一：如图，#mi(`A`) 是原来船的位置，#mi(`B`) 是灯塔，#mi(`C`) 是航行半小时后船的位置. 船行驶的路程为
 
 
-解法二：过 $A$ 作 $A D bot B C$，与 $C B$ 的延长线交于 $D$. 因为 $A C$ 与正东南方向成 $45^( degree )$，三角形 $A D C$ 为等腰直角三角形，所以
-$A C=15" 浬"$，$D A=D C=A C sin 45 ""^( degree )=(15 sqrt(2))/(2)" 浬"$.
-又 $A B$ 为南偏东 $30^( degree )$，所以在直角三角形 $A D B$ 中，
+#align(center)[#mitex(`
+AC=30\times\frac{1}{2}=15\text{ \text{浬}}
+`)]
 
-$ D B=D A tan 30 ""^( degree )=(15 sqrt(2))/(2) times (sqrt(3))/(3)=(5 sqrt(6))/(2)" 浬" $
 
-由图中点的顺序，$B C=D C-D B$，故
+从 #mi(`A`) 看，#mi(`AB`) 为南偏东 #mi(`30^{\circ}`) 的方向，#mi(`AC`) 为正东南方向，即南偏东 #mi(`45^{\circ}`)，所以 #mi(`\angle BAC=45^{\circ}-30^{\circ}=15^{\circ}`). 航行后灯塔在船的正西方，因此 #mi(`BC`) 为东西方向；在点 #mi(`B`) 处，#mi(`BA`) 指向北偏西 #mi(`30^{\circ}`)，故 #mi(`\angle ABC=120^{\circ}`). 由正弦定理，
 
-$ B C=(15 sqrt(2))/(2)-(5 sqrt(6))/(2)=(5(3 sqrt(2)-sqrt(6)))/(2) approx 4 .482" 浬" approx 4 .5" 浬" $
 
-答：船与灯塔的距离是 $4.5" 浬"$.
+#align(center)[#mitex(`
+\begin{gathered}BC=\frac{AC\sin15^{\circ}}{\sin120^{\circ}}=\frac{15\sin15^{\circ}}{\sin60^{\circ}},\\
+
+\sin15^{\circ}=\sin(45^{\circ}-30^{\circ})=\sin45^{\circ}\cos30^{\circ}-\cos45^{\circ}\sin30^{\circ},\\
+
+BC=\frac{15(\sin45^{\circ}\cos30^{\circ}-\cos45^{\circ}\sin30^{\circ})}{\sin60^{\circ}}=\frac{5\sqrt{2}(3-\sqrt{3})}{2}\approx4.482.\end{gathered}
+`)]
+
+
+按题意精确到 #mi(`0.1\text{ \text{浬}}`)，得 #mi(`BC\approx4.5\text{ \text{浬}}`). 答：这时船与灯塔的距离是 #mi(`4.5\text{ \text{浬}}`).
+
+ 
+#align(center)[#image("/papers/1960/img/national/q3_solution_fig1.png", width: 28%)]
+ 
+
+解法二：过 #mi(`A`) 作 #mi(`AD\perp BC`)，与 #mi(`CB`) 的延长线交于 #mi(`D`). 因为 #mi(`AC`) 与正东南方向成 #mi(`45^{\circ}`)，三角形 #mi(`ADC`) 为等腰直角三角形，所以
+
+#mi(`AC=15\text{ \text{浬}}`)，#mi(`DA=DC=AC\sin45^{\circ}=\frac{15\sqrt{2}}{2}\text{ \text{浬}}`).
+
+又 #mi(`AB`) 为南偏东 #mi(`30^{\circ}`)，所以在直角三角形 #mi(`ADB`) 中，
+
+
+#align(center)[#mitex(`
+DB=DA\tan30^{\circ}=\frac{15\sqrt{2}}{2}\times\frac{\sqrt{3}}{3}=\frac{5\sqrt{6}}{2}\text{ \text{浬}}
+`)]
+
+
+由图中点的顺序，#mi(`BC=DC-DB`)，故
+
+
+#align(center)[#mitex(`
+BC=\frac{15\sqrt{2}}{2}-\frac{5\sqrt{6}}{2}=\frac{5(3\sqrt{2}-\sqrt{6})}{2}\approx4.482\text{ \text{浬}}\approx4.5\text{ \text{浬}}
+`)]
+
+
+答：船与灯塔的距离是 #mi(`4.5\text{ \text{浬}}`).
 ]
 
 #problem(4)[
-要在墙上开一矩形的大玻璃窗，周长限定为 $6" 米"$.
+要在墙上开一矩形的大玻璃窗，周长限定为 #mi(`6\text{ \text{米}}`).
 
 
-+ (1) 求以矩形的一条边长 $x$ 表示窗户的面积 $y$ 的函数式.
-+ (2) 求这函数图象的顶点的坐标，对称轴的方程.
-+ (3) 画出这函数的图象，并求出 $x$ 的允许值的范围.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 设矩形的另一条边长为 $z" 米"$. 由周长为 $6" 米"$，有 $2 x+2 z=6$，所以 $z=3-x$. 因而面积为
-
-$ y=x z=x(3-x)=-x^(2)+3 x $
-+ (2) 配方得
-
-$ y=-x^(2)+3 x=-(x^(2)-3 x+(9)/(4))+(9)/(4)=-(x-(3)/(2))^(2)+(9)/(4) $
-
-因此函数图象的顶点为 $((3)/(2),(9)/(4))$，对称轴方程为 $x=(3)/(2)$.
-+ (3) 由两条边长均为正数，得 $x>0$ 且 $z=3-x>0$，所以 $x$ 的允许值范围为 $0<x<3$. 图象是抛物线 $y=-x^(2)+3 x$ 在该区间内的部分；它与横轴的延长交于 $(0,0)$、$(3,0)$，顶点为 $((3)/(2),(9)/(4))$，开口向下，见图.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/1960/img/national/q4_solution_fig1.png", width: 36%)]
+ 
+#align(center)[#image("/papers/1960/img/national/q4_solution_fig1.png", width: 28%)]
+
 ]
 
 #part-header("选作题")
 
 #problem(5)[
-已知方程 $2 x^(2)-x dot 4 sin theta +3 cos theta =0$ 的两个根相等，且 $theta$ 为锐角，求 $theta$ 和这个方程的两个根.
+已知方程 #mi(`2x^{2}-x\cdot4\sin\theta+3\cos\theta=0`) 的两个根相等，且 #mi(`\theta`) 为锐角，求 #mi(`\theta`) 和这个方程的两个根.
 ]
 
 #solution[
-二次项系数为 $2\n e q0$，所以方程有两个相等的根当且仅当判别式为零. 因而
+二次项系数为 #mi(`2\neq0`)，所以方程有两个相等的根当且仅当判别式为零. 因而
 
-$ Delta =(-4 sin theta )^2-4 dot 2 dot 3 cos theta =0 $
 
-即 $2 sin ""^2 theta -3 cos theta =0$. 用 $sin ""^2 theta =1- cos ""^2 theta$ 化为
+#align(center)[#mitex(`
+\Delta=(-4\sin\theta)^{2}-4\cdot2\cdot3\cos\theta=0
+`)]
 
-$ 2 cos ""^2 theta +3 cos theta -2=0 <=> (2 cos theta -1)( cos theta +2)=0 $
 
-因 $-1< cos theta <1$，$cos theta +2=0$ 不可能；故 $cos theta =(1)/(2)$. 又 $theta$ 为锐角，所以 $theta =60^( degree )$.
+即 #mi(`2\sin^{2}\theta-3\cos\theta=0`). 用 #mi(`\sin^{2}\theta=1-\cos^{2}\theta`) 化为
+
+
+#align(center)[#mitex(`
+2\cos^{2}\theta+3\cos\theta-2=0  \Longleftrightarrow(2\cos\theta-1)(\cos\theta+2)=0
+`)]
+
+
+因 #mi(`-1<\cos\theta<1`)，#mi(`\cos\theta+2=0`) 不可能；故 #mi(`\cos\theta=\frac{1}{2}`). 又 #mi(`\theta`) 为锐角，所以 #mi(`\theta=60^{\circ}`).
 
 方程的重根为
 
-$ x_0=-(-4 sin theta)/(2 dot 2)= sin theta $
 
-所以 $x_0= sin 60 ""^( degree )=(sqrt(3))/(2)$. 答：$theta =60^( degree )$，方程的两个根都是 $(sqrt(3))/(2)$.
+#align(center)[#mitex(`
+x_{0}=-\frac{-4\sin\theta}{2\cdot2}=\sin\theta
+`)]
+
+
+所以 #mi(`x_{0}=\sin60^{\circ}=\frac{\sqrt{3}}{2}`). 答：#mi(`\theta=60^{\circ}`)，方程的两个根都是 #mi(`\frac{\sqrt{3}}{2}`).
 ]
 
 #problem(6)[
-$a$ 是什么实数的时候，下列方程组的解是正数：
-$\b e g i n{c a s e s} 2 x+a y=4,\\ x+4 y=8 \e n d{c a s e s}$
+#mi(`a`) 是什么实数的时候，下列方程组的解是正数：
+
+#mi(`\begin{cases}2x+ay=4,\\  x+4y=8\end{cases}`)
 ]
 
 #solution[
-先考察 $a=8$. 此时将第二式乘以 $2$ 得 $2 x+8 y=16$，而第一式为 $2 x+8 y=4$，两式矛盾，所以无解.
+先考察 #mi(`a=8`). 此时将第二式乘以 #mi(`2`) 得 #mi(`2x+8y=16`)，而第一式为 #mi(`2x+8y=4`)，两式矛盾，所以无解.
 
-当 $a\n e q8$ 时，将第二式乘以 $2$ 减去第一式，得
-$(8-a)y=12$，$y=(12)/(8-a)$.
+当 #mi(`a\neq8`) 时，将第二式乘以 #mi(`2`) 减去第一式，得
+
+#mi(`(8-a)y=12`)，#mi(`y=\frac{12}{8-a}`).
+
 再由第二式得
 
-$ x=8-4 y=8-(48)/(8-a)=(16-8 a)/(8-a)=(8(2-a))/(8-a) $
 
-因为 $12>0$，要使 $y>0$，必须且只须 $8-a>0$，即 $a<8$. 在此条件下分母 $8-a$ 为正，要使 $x>0$，必须且只须 $2-a>0$，即 $a<2$. 因此必要条件为 $a<2$.
+#align(center)[#mitex(`
+x=8-4y=8-\frac{48}{8-a}=\frac{16-8a}{8-a}=\frac{8(2-a)}{8-a}
+`)]
 
-反之，当 $a<2$ 时，$8-a>0$、$2-a>0$，上式给出的 $x$，$y$ 均为正数，且由消元过程满足原方程组. 所以充分性也成立，故解不等式组
 
-$ \b e g i n{c a s e s} 8-a>0,\\ 2-a>0 \e n d{c a s e s} $
+因为 #mi(`12>0`)，要使 #mi(`y>0`)，必须且只须 #mi(`8-a>0`)，即 #mi(`a<8`). 在此条件下分母 #mi(`8-a`) 为正，要使 #mi(`x>0`)，必须且只须 #mi(`2-a>0`)，即 #mi(`a<2`). 因此必要条件为 #mi(`a<2`).
 
-得 $a<2$. 因此，当且仅当 $a<2$ 时，原方程组的解是正数.
+反之，当 #mi(`a<2`) 时，#mi(`8-a>0`)、#mi(`2-a>0`)，上式给出的 #mi(`x`)，#mi(`y`) 均为正数，且由消元过程满足原方程组. 所以充分性也成立，故解不等式组
+
+
+#align(center)[#mitex(`
+\begin{cases}8-a>0,\\
+
+2-a>0\end{cases}
+`)]
+
+
+得 #mi(`a<2`). 因此，当且仅当 #mi(`a<2`) 时，原方程组的解是正数.
 ]
 

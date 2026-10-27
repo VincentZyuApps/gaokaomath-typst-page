@@ -1,5 +1,4 @@
-#import "@preview/mitex:0.2.5": *
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -12,100 +11,121 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $M = \{1, 2, 3\}$，$N = \{2, 3, 4\}$，则（ ）
-  #choices([$M subset.eq N$], [$N subset.eq M$], [$M inter N = \{2, 3\}$], [$M union N = \{1, 4\}$], cols: 2)
+已知集合 #mi(`M = \{1, 2, 3\}`)，#mi(`N = \{2, 3, 4\}`)，则（ ）
+  #choices([#mi(`M \subseteq N`)], [#mi(`N \subseteq M`)], [#mi(`M \cap N = \{2, 3\}`)], [#mi(`M \cup N = \{1, 4\}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-因为 $1 in M$ 且 $1 in.not N$，所以 $M not subset.eq N$；因为 $4 in N$ 且 $4 in.not M$，所以 $N not subset.eq M$.
+因为 #mi(`1\in M`) 且 #mi(`1\notin N`)，所以 #mi(`M\not\subseteq N`)；因为 #mi(`4\in N`) 且 #mi(`4\notin M`)，所以 #mi(`N\not\subseteq M`).
 
-由集合交集的定义，既属于 $M$ 又属于 $N$ 的元素是 $2,3$，所以
-$M inter N=\{2,3\}$. 又 $M union N=\{1,2,3,4\} != \{1,4\}$. 因此选 C.
+由集合交集的定义，既属于 #mi(`M`) 又属于 #mi(`N`) 的元素是 #mi(`2,3`)，所以
+
+#mi(`M\cap N=\{2,3\}`). 又 #mi(`M\cup N=\{1,2,3,4\}\ne\{1,4\}`). 因此选 C.
 ]
 
 #problem(2)[
 下列命题中是假命题的是（ ）
-  #choices([$forall x in RR ,2^(x - 1) > 0$], [$forall x in NN ""^(*)$，$(x - 1)^(2) > 0$], [$exists x in RR$，$\l g x < 1$], [$exists x in RR$，$tan x = 2$], cols: 1)
+  #choices([#mi(`\forall x\in \mathbb{R},2^{x - 1}> 0`)], [#mi(`\forall x\in\mathbb{N}^{*}`)，#mi(`(x - 1)^{2}> 0`)], [#mi(`\exists x\in \mathbb{R}`)，#mi(`\lg x < 1`)], [#mi(`\exists x\in \mathbb{R}`)，#mi(`\tan x = 2`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-选项 A 中，指数函数的值恒为正，所以对任意 $x in RR$，都有
-$2^(x-1)>0$，是真命题.
+选项 A 中，指数函数的值恒为正，所以对任意 #mi(`x\in\mathbb{R}`)，都有
 
-选项 B 中，取正整数 $x=1$，则 $(x-1)^2=0$，不满足严格不等式，所以该命题是假命题.
+#mi(`2^{x-1}>0`)，是真命题.
 
-选项 C 中，取 $x=1$，有 $\l g 1=0<1$，所以该存在性命题为真. 选项 D 中，取 $x= arctan 2$，有 $tan x=2$，所以该命题也为真. 因此选 B.
+选项 B 中，取正整数 #mi(`x=1`)，则 #mi(`(x-1)^{2}=0`)，不满足严格不等式，所以该命题是假命题.
+
+选项 C 中，取 #mi(`x=1`)，有 #mi(`\lg1=0<1`)，所以该存在性命题为真. 选项 D 中，取 #mi(`x=\arctan2`)，有 #mi(`\tan x=2`)，所以该命题也为真. 因此选 B.
 ]
 
 #problem(3)[
-极坐标方程 $rho = cos theta$ 和参数方程 $\b e g i n{c a s e s} x = -1 - t,\\ y = 2 + 3 t, \e n d{c a s e s}$（$t$ 为参数）所表示的图形分别是（ ）
+极坐标方程 #mi(`\rho = \cos \theta`) 和参数方程 #mi(`\begin{cases}x = -1 - t,\\  y = 2 + 3t,\end{cases}`)（#mi(`t`) 为参数）所表示的图形分别是（ ）
   #choices([圆，直线], [直线，圆], [圆，圆], [直线，直线], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-由 $x= rho cos theta$，$y= rho sin theta$，将 $rho = cos theta$ 两边乘以 $rho$，得
-$rho ""^2= rho cos theta =x$，即
-$x^2+y^2=x$，整理为
-$(x-(1)/(2))^2+y^2=(1)/(4)$，这是圆的方程.
+由 #mi(`x=\rho\cos\theta`)，#mi(`y=\rho\sin\theta`)，将 #mi(`\rho=\cos\theta`) 两边乘以 #mi(`\rho`)，得
 
-由参数方程 $t=-1-x$，代入 $y=2+3 t$，得
-$y=2+3(-1-x)=-1-3 x$，即 $3 x+y+1=0$，这是直线的方程. 因此选 A.
+#mi(`\rho^{2}=\rho\cos\theta=x`)，即
+
+#mi(`x^{2}+y^{2}=x`)，整理为
+
+#mi(`\left(x-\frac{1}{2}\right)^{2}+y^{2}=\frac{1}{4}`)，这是圆的方程.
+
+由参数方程 #mi(`t=-1-x`)，代入 #mi(`y=2+3t`)，得
+
+#mi(`y=2+3(-1-x)=-1-3x`)，即 #mi(`3x+y+1=0`)，这是直线的方程. 因此选 A.
 ]
 
 #problem(4)[
-在 $R t triangle A B C$ 中，$angle C = 90^( degree )$，$A C = 4$，则 $arrow(A B) dot arrow(A C)$ 等于（ ）
-  #choices([$-16$], [$-8$], [8], [16], cols: 4)
+在 #mi(`\mathrm{Rt}\triangle ABC`) 中，#mi(`\angle C = 90^{\circ}`)，#mi(`AC = 4`)，则 #mi(`\overrightarrow{AB}\cdot \overrightarrow{AC}`) 等于（ ）
+  #choices([#mi(`-16`)], [#mi(`-8`)], [8], [16], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-因为 $angle C=90^( degree )$，所以 $arrow(A C)\p e r p a r r o w(C B)$. 又
-$arrow(A B)=arrow(A C)+arrow(C B)$，从而
+因为 #mi(`\angle C=90^{\circ}`)，所以 #mi(`\overrightarrow{AC}\perp\overrightarrow{CB}`). 又
 
-$ arrow(A B)\c d o t a r r o w(A C)=(arrow(A C)+arrow(C B))\c d o t a r r o w(A C)=|arrow(A C)|^2+arrow(C B)\c d o t a r r o w(A C)=4^2+0=16 $
+#mi(`\overrightarrow{AB}=\overrightarrow{AC}+\overrightarrow{CB}`)，从而
+
+
+#align(center)[#mitex(`
+\overrightarrow{AB}\cdot\overrightarrow{AC}=(\overrightarrow{AC}+\overrightarrow{CB})\cdot\overrightarrow{AC}=|\overrightarrow{AC}|^{2}+\overrightarrow{CB}\cdot\overrightarrow{AC}=4^{2}+0=16
+`)]
+
 
 因此选 D.
 ]
 
 #problem(5)[
-$\i n t_2^4 (1)/(x)d x$ 等于（ ）
-  #choices([$-2 ln 2$], [$2 ln 2$], [$- ln 2$], [$ln 2$], cols: 4)
+#mi(`\int_{2}^{4} \frac{1}{x}\mathrm{d}x`) 等于（ ）
+  #choices([#mi(`-2\ln 2`)], [#mi(`2\ln 2`)], [#mi(`-\ln 2`)], [#mi(`\ln 2`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-在积分区间 $[2,4]$ 上，$x>0$，且 $integral (1)/(x)d x= ln x$. 因此
+在积分区间 #mi(`[2,4]`) 上，#mi(`x>0`)，且 #mi(`\displaystyle\int\frac{1}{x}\,\mathrm{d}x=\ln x`). 因此
 
-$ \i n t_2^4(1)/(x)d x =. ln x|_2^4 = ln 4 - ln 2 = ln 2 $
+
+#align(center)[#mitex(`
+\int_{2}^{4}\frac{1}{x}\,\mathrm{d}x  =\left.\ln x\right|_{2}^{4}  =\ln4-\ln2  =\ln2
+`)]
+
 
 所以选 D.
 ]
 
 #problem(6)[
-在 $triangle A B C$ 中，角 $A$，$B$，$C$ 所对的边长分别为 $a$，$b$，$c$，若 $angle C = 120^( degree )$，$c = sqrt(2)a$，则（ ）
-  #choices([$a > b$], [$a < b$], [$a = b$], [$a$ 与 $b$ 的大小关系不能确定], cols: 2)
+在 #mi(`\triangle ABC`) 中，角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对的边长分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，若 #mi(`\angle C = 120^{\circ}`)，#mi(`c = \sqrt{2}a`)，则（ ）
+  #choices([#mi(`a > b`)], [#mi(`a < b`)], [#mi(`a = b`)], [#mi(`a`) 与 #mi(`b`) 的大小关系不能确定], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由余弦定理以及 $cos 120 ""^( degree )=-(1)/(2)$，有
+由余弦定理以及 #mi(`\cos120^{\circ}=-\frac{1}{2}`)，有
 
-$ c^2=a^2+b^2-2 a b cos 120 ""^( degree )=a^2+b^2+a b $
 
-代入 $c=sqrt(2)a$，得 $2 a^2=a^2+b^2+a b$，即
-$b^2+a b-a^2=0$. 由于 $a$，$b>0$，令 $r=(b)/(a)>0$，则
-$r^2+r-1=0$，所以正根为 $r=(sqrt(5)-1)/(2)$.
+#align(center)[#mitex(`
+c^{2}=a^{2}+b^{2}-2ab\cos120^{\circ}=a^{2}+b^{2}+ab
+`)]
 
-因为 $0<(sqrt(5)-1)/(2)<1$，所以 $b<a$，即 $a>b$. 因此选 A.
+
+代入 #mi(`c=\sqrt{2}a`)，得 #mi(`2a^{2}=a^{2}+b^{2}+ab`)，即
+
+#mi(`b^{2}+ab-a^{2}=0`). 由于 #mi(`a`)，#mi(`b>0`)，令 #mi(`r=\frac{b}{a}>0`)，则
+
+#mi(`r^{2}+r-1=0`)，所以正根为 #mi(`r=\frac{\sqrt{5}-1}{2}`).
+
+因为 #mi(`0<\frac{\sqrt{5}-1}{2}<1`)，所以 #mi(`b<a`)，即 #mi(`a>b`). 因此选 A.
 ]
 
 #problem(7)[
@@ -116,346 +136,286 @@ $r^2+r-1=0$，所以正根为 $r=(sqrt(5)-1)/(2)$.
 #answer([B])
 
 #solution[
-每一位只能取 $0$ 或 $1$，共有 $2^4=16$ 个四位排列. 与 $0110$ 恰有 $k$ 个对应位置上的数字相同的排列，先选出这 $k$ 个位置，其余位置的数字被唯一确定为不同数字，故有 $C_4^k$ 个.
+每一位只能取 #mi(`0`) 或 #mi(`1`)，共有 #mi(`2^{4}=16`) 个四位排列. 与 #mi(`0110`) 恰有 #mi(`k`) 个对应位置上的数字相同的排列，先选出这 #mi(`k`) 个位置，其余位置的数字被唯一确定为不同数字，故有 #mi(`\mathrm{C}_{4}^{k}`) 个.
 
-“至多有两个对应位置上的数字相同”包含 $k=0$，$1$，$2$，所以信息个数为
+“至多有两个对应位置上的数字相同”包含 #mi(`k=0`)，#mi(`1`)，#mi(`2`)，所以信息个数为
 
-$ C_4^0+C_4^1+C_4^2=1+4+6=11 $
+
+#align(center)[#mitex(`
+\mathrm{C}_{4}^{0}+\mathrm{C}_{4}^{1}+\mathrm{C}_{4}^{2}=1+4+6=11
+`)]
+
 
 因此选 B.
 ]
 
 #problem(8)[
-用 $min \{a, b\}$ 表示 $a$，$b$ 两数中的最小值. 若函数 $f(x) = min \{|x|, |x + t|\}$ 的图象关于直线 $x = -(1)/(2)$ 对称，则 $t$ 的值为（ ）
-  #choices([$-2$], [2], [$-1$], [1], cols: 4)
+用 #mi(`\min \{a, b\}`) 表示 #mi(`a`)，#mi(`b`) 两数中的最小值. 若函数 #mi(`f(x) = \min \{|x|, |x + t|\}`) 的图象关于直线 #mi(`x = -\frac{1}{2}`) 对称，则 #mi(`t`) 的值为（ ）
+  #choices([#mi(`-2`)], [2], [#mi(`-1`)], [1], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-函数值非负，且 $f(x)=0$ 当且仅当 $x=0$ 或 $x=-t$. 若 $t=0$，零点集合只有 $\{0\}$，关于直线 $x=-(1)/(2)$ 的对称点 $-1$ 不是零点，故不可能.
+函数值非负，且 #mi(`f(x)=0`) 当且仅当 #mi(`x=0`) 或 #mi(`x=-t`). 若 #mi(`t=0`)，零点集合只有 #mi(`\{0\}`)，关于直线 #mi(`x=-\frac{1}{2}`) 的对称点 #mi(`-1`) 不是零点，故不可能.
 
-若 $t != 0$，两个不同零点在该对称变换下必须互相交换，因此 $0$ 的对称点 $-1$ 必须等于另一个零点 $-t$，从而 $t=1$. 反之，当 $t=1$ 时，令 $x=-(1)/(2)+u$，则
+若 #mi(`t\ne0`)，两个不同零点在该对称变换下必须互相交换，因此 #mi(`0`) 的对称点 #mi(`-1`) 必须等于另一个零点 #mi(`-t`)，从而 #mi(`t=1`). 反之，当 #mi(`t=1`) 时，令 #mi(`x=-\frac{1}{2}+u`)，则
 
-$ f(-(1)/(2)+u)= min \{|u-(1)/(2)|,|u+(1)/(2)|\} $
 
-将 $u$ 换成 $-u$ 后函数值不变，所以图象确实关于 $x=-(1)/(2)$ 对称. 因此选 D.
+#align(center)[#mitex(`
+f\left(-\frac{1}{2}+u\right)=\min\left\{\left|u-\frac{1}{2}\right|,\left|u+\frac{1}{2}\right|\right\}
+`)]
+
+
+将 #mi(`u`) 换成 #mi(`-u`) 后函数值不变，所以图象确实关于 #mi(`x=-\frac{1}{2}`) 对称. 因此选 D.
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-已知一种材料的最佳加入量在 $110 ~g$ 到 $210 ~g$ 之间. 若用 $0.618$ 法安排实验，则第一次试点的加入量可以是#blank(){}$g$.
+已知一种材料的最佳加入量在 #mi(`110 \mathrm{~g}`) 到 #mi(`210 \mathrm{~g}`) 之间. 若用 #mi(`0.618`) 法安排实验，则第一次试点的加入量可以是\underline{\hspace{2.5em}}#mi(`\mathrm{g}`).
 ]
 
-#answer([$171.8\) "或" \(148.2$])
+#answer([#mi(`171.8`) 或 #mi(`148.2`)])
 
 #solution[
-试验区间长度为 $210-110=100~g$. 按 $0.618$ 法，第一次试点取距某一端点为区间长度的 $0.618$ 倍，因而两个对称的可选试点分别为
-$110+0.618 times 100 =171.8~g$，$210-0.618 times 100 =148.2~g$.
-所以第一次试点的加入量可以是 $171.8~g$ 或 $148.2~g$.
+试验区间长度为 #mi(`210-110=100\mathrm{~g}`). 按 #mi(`0.618`) 法，第一次试点取距某一端点为区间长度的 #mi(`0.618`) 倍，因而两个对称的可选试点分别为
+
+#mi(`110+0.618\times100=171.8\mathrm{~g}`)，#mi(`210-0.618\times100=148.2\mathrm{~g}`).
+
+所以第一次试点的加入量可以是 #mi(`171.8\mathrm{~g}`) 或 #mi(`148.2\mathrm{~g}`).
 ]
 
 #problem(10)[
-如图所示，过 $\o d o t O$ 外一点 $P$ 作一条直线与 $\o d o t O$ 交于 $A$，$B$ 两点. 已知 $P A = 2$，点 $P$ 到 $\o d o t O$ 的切线长 $P T = 4$，则弦 $A B$ 的长为#blank(){}.
+如图所示，过 #mi(`\odot O`) 外一点 #mi(`P`) 作一条直线与 #mi(`\odot O`) 交于 #mi(`A`)，#mi(`B`) 两点. 已知 #mi(`PA = 2`)，点 #mi(`P`) 到 #mi(`\odot O`) 的切线长 #mi(`PT = 4`)，则弦 #mi(`AB`) 的长为\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2010/img/hunan_science/q10_fig1.png", width: 32%)]
+#align(center)[#image("/papers/2010/img/hunan_science/q10_fig1.png", width: 28%)]
+
 ]
 
 #answer([6])
 
 #solution[
 由点幂定理，切线长的平方等于割线两段的乘积，即
-$P T^2=P A dot P B$. 代入 $P T=4$，$P A=2$，得
-$16=2 P B$，所以 $P B=8$. 由于点的顺序为 $P$，$A$，$B$，有
-$A B=P B-P A=8-2=6$.
+
+#mi(`PT^{2}=PA\cdot PB`). 代入 #mi(`PT=4`)，#mi(`PA=2`)，得
+
+#mi(`16=2PB`)，所以 #mi(`PB=8`). 由于点的顺序为 #mi(`P`)，#mi(`A`)，#mi(`B`)，有
+
+#mi(`AB=PB-PA=8-2=6`).
 ]
 
 #problem(11)[
-在区间 $[-1, 2]$ 上随机取一个数 $x$，则 $|x| <= 1$ 的概率为#blank(){}.
+在区间 #mi(`[-1, 2]`) 上随机取一个数 #mi(`x`)，则 #mi(`|x| \le 1`) 的概率为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(2)/(3)$])
+#answer([#mi(`\frac{2}{3}`)])
 
 #solution[
-在区间 $[-1,2]$ 上随机取数，样本区间长度为 $3$. 满足 $|x| <= 1$ 的数构成区间 $[-1,1]$，其长度为 $2$. 端点对概率没有影响，因此所求概率为
+在区间 #mi(`[-1,2]`) 上随机取数，样本区间长度为 #mi(`3`). 满足 #mi(`|x|\leqslant1`) 的数构成区间 #mi(`[-1,1]`)，其长度为 #mi(`2`). 端点对概率没有影响，因此所求概率为
 
-$ P=(1-(-1))/(2-(-1))=(2)/(3) $
+
+#align(center)[#mitex(`
+P=\frac{1-(-1)}{2-(-1)}=\frac{2}{3}
+`)]
 ]
 
 #problem(12)[
-如图是求 $1^(2) + 2^(2) + 3^(2) + dots.c + 100^(2)$ 的值的程序框图，则正整数 $n =$#blank(){}.
+如图是求 #mi(`1^{2}+ 2^{2}+ 3^{2}+ \cdots + 100^{2}`) 的值的程序框图，则正整数 #mi(`n =`)\underline{\hspace{2.5em}}.
 
-\texfigure[max width=0.42\linewidth]{img_repaint/2010/hunan_science/q12_flowchart.tex}
+\texfigure[max width=0.42\linewidth]img_repaint/2010/hunan_science/q12_flowchart.tex
 ]
 
 #answer([100])
 
 #solution[
-程序开始时 $i=1$，每次先判断 $i <= n$，若成立则执行
-$s\l e f t a r r o w s+i^2$，再执行 $i\l e f t a r r o w i+1$，然后重新判断. 因此程序输出的数为
+程序开始时 #mi(`i=1`)，每次先判断 #mi(`i\le n`)，若成立则执行
 
-$ s=1^2+2^2+ dots.c +n^2 $
+#mi(`s\leftarrow s+i^{2}`)，再执行 #mi(`i\leftarrow i+1`)，然后重新判断. 因此程序输出的数为
 
-题目要求输出 $1^2+2^2+ dots.c +100^2$，故循环应恰好取到 $i=100$，从而 $n=100$.
+
+#align(center)[#mitex(`
+s=1^{2}+2^{2}+\cdots+n^{2}
+`)]
+
+
+题目要求输出 #mi(`1^{2}+2^{2}+\cdots+100^{2}`)，故循环应恰好取到 #mi(`i=100`)，从而 #mi(`n=100`).
 ]
 
 #problem(13)[
-图中的三个直角三角形是一个体积为 $20 ~c m^(3)$ 的几何体的三视图，则 $h =$#blank(){}$c m$.
+图中的三个直角三角形是一个体积为 #mi(`20 \mathrm{~cm}^{3}`) 的几何体的三视图，则 #mi(`h =`)\underline{\hspace{2.5em}}#mi(`\mathrm{cm}`).
 
 
-#align(center)[#image("/papers/2010/img/hunan_science/q13_fig1.png", width: 52%)]
+#align(center)[#image("/papers/2010/img/hunan_science/q13_fig1.png", width: 28%)]
+
 ]
 
 #answer([4])
 
 #solution[
-由三个视图可知，该几何体可看作由同一顶点引出的三条互相垂直的棱组成的四面体，其三条棱长分别为 $5~c m$、$6~c m$ 和 $h ~c m$. 因此体积为
+由三个视图可知，该几何体可看作由同一顶点引出的三条互相垂直的棱组成的四面体，其三条棱长分别为 #mi(`5\mathrm{~cm}`)、#mi(`6\mathrm{~cm}`) 和 #mi(`h \mathrm{~cm}`). 因此体积为
 
-$ V=(1)/(6) times 5 times 6 times h=5 h $
 
-由题设 $V=20 ~c m^(3)$，得 $5 h=20$，所以 $h=4 ~c m$.
+#align(center)[#mitex(`
+V=\frac{1}{6}\times5\times6\times h=5h
+`)]
+
+
+由题设 #mi(`V=20 \mathrm{~cm}^{3}`)，得 #mi(`5h=20`)，所以 #mi(`h=4 \mathrm{~cm}`).
 ]
 
 #problem(14)[
-过抛物线 $x^(2) = 2 p y$ （$p > 0$）的焦点作斜率为 1 的直线与该抛物线交于 $A$，$B$ 两点，$A$，$B$ 在 $x$ 轴上的正射影分别为 $D$，$C$. 若梯形 $A B C D$ 的面积为 $12 sqrt(2)$，则 $p =$#blank(){}.
+过抛物线 #mi(`x^{2}= 2py`) （#mi(`p > 0`)）的焦点作斜率为 1 的直线与该抛物线交于 #mi(`A`)，#mi(`B`) 两点，#mi(`A`)，#mi(`B`) 在 #mi(`x`) 轴上的正射影分别为 #mi(`D`)，#mi(`C`). 若梯形 #mi(`ABCD`) 的面积为 #mi(`12\sqrt{2}`)，则 #mi(`p =`)\underline{\hspace{2.5em}}.
 ]
 
 #answer([2])
 
 #solution[
-抛物线 $x^2=2 p y$ 的焦点为 $(0,(p)/(2))$，故过焦点且斜率为 $1$ 的直线为
-$y=x+(p)/(2)$. 与抛物线联立，得
+抛物线 #mi(`x^{2}=2py`) 的焦点为 #mi(`\left(0,\frac{p}{2}\right)`)，故过焦点且斜率为 #mi(`1`) 的直线为
 
-$ x^2=2 p(x+(p)/(2))=2 p x+p^2 $
+#mi(`y=x+\frac{p}{2}`). 与抛物线联立，得
 
-即 $x^2-2 p x-p^2=0$. 所以交点的横坐标为
-$x_A=p(1-sqrt(2))$，$x_B=p(1+sqrt(2))$，相应纵坐标为
-$y_A=p((3)/(2)-sqrt(2))$，$y_B=p((3)/(2)+sqrt(2))$.
-点 $D$，$C$ 分别是 $A$，$B$ 在 $x$ 轴上的正射影，故 $A D parallel B C$，且
-$A D=y_A$，$B C=y_B$，$D C=x_B-x_A=2 sqrt(2)p$.
-梯形 $A B C D$ 的面积为
 
-$ S=(A D+B C)/(2) dot D C =(3 p)/(2) dot 2 sqrt(2)p=3 sqrt(2)p^2 $
+#align(center)[#mitex(`
+x^{2}=2p\left(x+\frac{p}{2}\right)=2px+p^{2}
+`)]
 
-由 $S=12 sqrt(2)$ 且 $p>0$，得 $p^2=4$，所以 $p=2$.
+
+即 #mi(`x^{2}-2px-p^{2}=0`). 所以交点的横坐标为
+
+#mi(`x_{A}=p(1-\sqrt{2})`)，#mi(`x_{B}=p(1+\sqrt{2})`)，相应纵坐标为
+
+#mi(`y_{A}=p\left(\frac{3}{2}-\sqrt{2}\right)`)，#mi(`y_{B}=p\left(\frac{3}{2}+\sqrt{2}\right)`).
+
+点 #mi(`D`)，#mi(`C`) 分别是 #mi(`A`)，#mi(`B`) 在 #mi(`x`) 轴上的正射影，故 #mi(`AD\parallel BC`)，且
+
+#mi(`AD=y_{A}`)，#mi(`BC=y_{B}`)，#mi(`DC=x_{B}-x_{A}=2\sqrt{2}p`).
+
+梯形 #mi(`ABCD`) 的面积为
+
+
+#align(center)[#mitex(`
+S=\frac{AD+BC}{2}\cdot DC  =\frac{3p}{2}\cdot2\sqrt{2}p=3\sqrt{2}p^{2}
+`)]
+
+
+由 #mi(`S=12\sqrt{2}`) 且 #mi(`p>0`)，得 #mi(`p^{2}=4`)，所以 #mi(`p=2`).
 ]
 
 #problem(15)[
-若数列 $\{a_n\}$ 满足：对任意的 $n in NN ""^(*)$，只有有限个正整数 $m$ 使得 $a_m < n$ 成立. 记这样的 $m$ 的个数为 $(a_n)^*$，则得到一个新数列 $\{(a_n)^*\}$. 例如，若数列 $\{a_n\}$ 是 $1$，$2$，$3$，$dots.c$，$n$，$dots.c$，则数列 $\{(a_n)^*\}$ 是 $0$，$1$，$2$，$dots.c$，$n - 1$，$dots.c$. 已知对任意的 $n in NN ""^(*)$，$a_n = n^2$，则 $(a_5)^* =\f i l l i n b l a n k{}$，$((a_n)^*)^* =\f i l l i n b l a n k{}$.
+若数列 #mi(`\{a_{n}\}`) 满足：对任意的 #mi(`n \in \mathbb{N}^{*}`)，只有有限个正整数 #mi(`m`) 使得 #mi(`a_{m} < n`) 成立. 记这样的 #mi(`m`) 的个数为 #mi(`(a_{n})^{*}`)，则得到一个新数列 #mi(`\{(a_{n})^{*}\}`). 例如，若数列 #mi(`\{a_{n}\}`) 是 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`\cdots`)，#mi(`n`)，#mi(`\cdots`)，则数列 #mi(`\{(a_{n})^{*}\}`) 是 #mi(`0`)，#mi(`1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`n - 1`)，#mi(`\cdots`). 已知对任意的 #mi(`n \in \mathbb{N}^{*}`)，#mi(`a_{n} = n^{2}`)，则 #mi(`(a_{5})^{*} =\underline{\hspace{2.5em}}{}`)，#mi(`((a_{n})^{*})^{*} =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([2，$n^2$])
+#answer([2，#mi(`n^{2}`)])
 
 #solution[
-由定义，$(a_n)^*$ 是满足 $a_m<n$ 的正整数 $m$ 的个数. 已知 $a_m=m^2$，所以
+由定义，#mi(`(a_{n})^{*}`) 是满足 #mi(`a_{m}<n`) 的正整数 #mi(`m`) 的个数. 已知 #mi(`a_{m}=m^{2}`)，所以
 
-$ (a_n)^*=\#\{m in NN ""^*:m^2<n\}=\l f l o o r s q r t(n-1)\r f l o o r $
 
-当 $n=5$ 时，满足 $m^2<5$ 的正整数 $m$ 为 $1,2$，故 $(a_5)^*=2$.
+#align(center)[#mitex(`
+(a_{n})^{*}=\#\{m\in\mathbb{N}^{*}:m^{2}<n\}=\left\lfloor\sqrt{n-1}\right\rfloor
+`)]
 
-再记 $b_m=(a_m)^*=\l f l o o r s q r t(m-1)\r f l o o r$，则
 
-$ ((a_n)^*)^*=\#\{m in NN ""^*:b_m<n\} $
+当 #mi(`n=5`) 时，满足 #mi(`m^{2}<5`) 的正整数 #mi(`m`) 为 #mi(`1,2`)，故 #mi(`(a_{5})^{*}=2`).
 
-由 $\l f l o o r s q r t(m-1)\r f l o o r<n$ 等价于 $m-1<n^2$，且 $m$ 为正整数，得 $1 <= m <= n^2$. 所以共有 $n^2$ 个这样的 $m$，即
-$((a_n)^*)^*=n^2$.
+再记 #mi(`b_{m}=(a_{m})^{*}=\lfloor\sqrt{m-1}\rfloor`)，则
+
+
+#align(center)[#mitex(`
+((a_{n})^{*})^{*}=\#\{m\in\mathbb{N}^{*}:b_{m}<n\}
+`)]
+
+
+由 #mi(`\lfloor\sqrt{m-1}\rfloor<n`) 等价于 #mi(`m-1<n^{2}`)，且 #mi(`m`) 为正整数，得 #mi(`1\le m\le n^{2}`). 所以共有 #mi(`n^{2}`) 个这样的 #mi(`m`)，即
+
+#mi(`((a_{n})^{*})^{*}=n^{2}`).
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-已知函数 $f(x) = sqrt(3) sin 2 x - 2 sin ""^2 x$.
+已知函数 #mi(`f(x) = \sqrt{3}\sin 2x - 2\sin^{2} x`).
 
 
-+ (1) 求函数 $f(x)$ 的最大值；
-+ (2) 求函数 $f(x)$ 的零点的集合.
++ (1) 
 
 
 
-+ (1) 由 $2 sin ""^(2) x=1- cos 2 x$，得 $f(x)=sqrt(3) sin 2 x+ cos 2 x-1=2 sin (2 x+(pi)/(6))-1$. 因为 $-1 <= sin (2 x+(pi)/(6)) <= 1$，所以 $f(x) <= 1$，且当 $2 x+(pi)/(6)=(pi)/(2)+2 k pi$ 时取等号，其中 $k in ZZ$. 因此 $f(x)$ 的最大值为 $1$.
-+ (2) $f(x)=0$ 等价于 $sin (2 x+(pi)/(6))=(1)/(2)$. 所以 $2 x+(pi)/(6)=(pi)/(6)+2 k pi$ 或 $2 x+(pi)/(6)=(5 pi)/(6)+2 k pi$，其中 $k in ZZ$. 解得 $x=k pi$ 或 $x=k pi +(pi)/(3)$. 故零点集合为 $\{k pi | k in ZZ \} union \{k pi +(pi)/(3) | k in ZZ \}$.
+
++ (1)
 ]
 
 #problem(17)[
 如图，是某城市通过抽样得到的居民某年的月均用水量（单位：吨）的频率分布直方图.
 
 
-+ (1) 求直方图中 $x$ 的值；
-+ (2) 若将频率视为概率，从这个城市随机抽取 $3$ 位居民（看作有放回的抽样），求月均用水量在 $3$ 至 $4" "吨""$ 的居民数 $X$ 的分布列和数学期望.
++ (1) 
 
 
-\texfigure[max width=0.42\linewidth]{img_repaint/2010/hunan_science/q17_fig1.tex}
+
+\texfigure[max width=0.42\linewidth]img_repaint/2010/hunan_science/q17_fig1.tex
 
 
-+ (1) 由频率分布直方图中各组组距均为 $1$，各组频率之和为 $1$，得
-
-$ x+0.37+0.39+0.10+0.02=1 $
-
-所以 $x=0.12$.
-+ (2) 居民月均用水量在 $3$ 至 $4" "吨""$ 的概率为 $0.10$. 由于是有放回抽样，$3$ 位居民是否属于该类相互独立，所以 $X tilde B(3,0.10)$. 对 $k=0$，$1$，$2$，$3$，有
-
-$ P(X=k)=C_(3)^(k)(0.10)^k(0.90)^(3-k) $
-
-因此 $X$ 的分布列为
-\begin{center}
-\begin{tabular}{c|cccc}
-$X$ & $0$ & $1$ & $2$ & $3$ \\
-\hline
-$P$ & $0.729$ & $0.243$ & $0.027$ & $0.001$
-\end{tabular}
-\end{center}
-数学期望为 $E(X)=3 times 0 .10=0.3$.
++ (1)
 ]
 
 #problem(18)[
-如图所示，在正方体 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 中，$E$ 是棱 $D D_(1)$ 的中点.
+如图所示，在正方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`E`) 是棱 #mi(`DD_{1}`) 的中点.
 
 
-+ (1) 求直线 $B E$ 和平面 $A B B_(1)A_(1)$ 所成的角的正弦值；
-+ (2) 在棱 $C_(1)D_(1)$ 上是否存在一点 $F$，使 $B_(1)F parallel$ 平面 $A_(1)B E$？证明你的结论.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2010/img/hunan_science/q18_fig1.png", width: 38%)]
+
+#align(center)[#image("/papers/2010/img/hunan_science/q18_fig1.png", width: 28%)]
 
 
-设正方体的棱长为 $a$，以 $B$ 为原点，以 $B C$，$B A$，$B B_(1)$ 所在直线分别为三个坐标轴，则
+设正方体的棱长为 #mi(`a`)，以 #mi(`B`) 为原点，以 #mi(`BC`)，#mi(`BA`)，#mi(`BB_{1}`) 所在直线分别为三个坐标轴，则
 
-+ (1) 于是 $B=(0,0,0)$，$C=(a,0,0)$，$A=(0,a,0)$，$B_(1)=(0,0,a)$，$A_(1)=(0,a,a)$，$D=(a,a,0)$，$E=(a,a,(a)/(2))$. 直线 $B E$ 的方向向量可取 $bold(v)=(a,a,(a)/(2))$. 平面 $A B B_(1)A_(1)$ 的法向为 $x$ 轴方向，因此直线 $B E$ 与该平面所成的角为 $theta$ 时，
 
-$ sin theta =(|a|)/(sqrt(a^2+a^2+((a)/(2))^2))=(2)/(3) $
-+ (2) 设 $F$ 的坐标为 $(a,t,a)$，其中 $0 <= t <= a$. 有 $arrow(B A_(1))=(0,a,a)$，$arrow(B E)=(a,a,(a)/(2))$，$arrow(B_(1)F)=(a,t,0)$.
-取平面 $A_(1)B E$ 的一个法向量
-
-$ bold(n)=arrow(B A_(1))\t i m e s a r r o w(B E)=a^2(-(1)/(2),1,-1) $
-
-由于 $B$ 是平面 $A_(1)B E$ 上的点，且
-$arrow(B B_(1))\c d o t b o l d(n)=-a^3 != 0$，所以直线 $B_(1)F$ 不在该平面内. 因而要使 $B_(1)F parallel$ 平面 $A_(1)B E$，必须且只需其方向向量满足 $arrow(B_(1)F)\c d o t b o l d(n)=0$，即
-
-$ -(a^3)/(2)+a^(2) t=0 $
-
-从而 $t=(a)/(2)$. 因此存在这样的点 $F$，且 $F$ 是棱 $C_(1)D_(1)$ 的中点.
++ (1)
 ]
 
 #problem(19)[
-为了考察冰川的融化状况，一支科考队在某冰川上相距 $8 ~k m$ 的 $A$，$B$ 两点各建一个考察基地. 视冰川面为平面形，以过 $A$，$B$ 两点的直线为 $x$ 轴，线段 $A B$ 的垂直平分线为 $y$ 轴建立平面直角坐标系（如图）. 在直线 $x = 2$ 的右侧，考察范围为到点 $B$ 的距离不超过 $(6 sqrt(5))/(5)~k m$ 的区域. 在直线 $x = 2$ 的左侧，考察范围为到 $A$，$B$ 两点的距离之和不超过 $4 sqrt(5)~k m$ 的区域.
+为了考察冰川的融化状况，一支科考队在某冰川上相距 #mi(`8 \mathrm{~km}`) 的 #mi(`A`)，#mi(`B`) 两点各建一个考察基地. 视冰川面为平面形，以过 #mi(`A`)，#mi(`B`) 两点的直线为 #mi(`x`) 轴，线段 #mi(`AB`) 的垂直平分线为 #mi(`y`) 轴建立平面直角坐标系（如图）. 在直线 #mi(`x = 2`) 的右侧，考察范围为到点 #mi(`B`) 的距离不超过 #mi(`\frac{6\sqrt{5}}{5}\mathrm{~km}`) 的区域. 在直线 #mi(`x = 2`) 的左侧，考察范围为到 #mi(`A`)，#mi(`B`) 两点的距离之和不超过 #mi(`4\sqrt{5}\mathrm{~km}`) 的区域.
 
 
-+ (1) 求考察区域边界曲线的方程；
-+ (2) 如图所示，设线段 $P_(1)P_(2)$，$P_(2)P_(3)$ 是冰川的部分边界线（不考虑其他边界），当冰川融化时，边界线沿与其垂直的方向朝考察区域平行移动，第一年移动 $0.2 ~k m$，以后每年移动的距离为前一年的 2 倍. 求冰川边界线移动到考察区域所需的最短时间.
-
-
-
-#align(center)[#image("/papers/2010/img/hunan_science/q19_fig1.png", width: 46%)]
++ (1) 
 
 
 
-+ (1) 在直线 $x=2$ 的右侧，考察区域是以 $B(4,0)$ 为圆心、半径为 $(6 sqrt(5))/(5)$ 的圆的内部，因此其边界曲线为
-$C_(1):(x-4)^2+y^2=(36)/(5)$，$x >= 2$.
-在直线 $x=2$ 的左侧，考察区域边界是以 $A(-4,0)$，$B(4,0)$ 为焦点的椭圆. 设其长半轴为 $alpha$，半焦距为 $c_(0)$，则 $2 alpha =4 sqrt(5)$，$c_(0)=4$，从而 $alpha =2 sqrt(5)$，短半轴平方为 $alpha ""^2-c_(0)^2=4$. 所以另一段边界曲线为
-$C_(2):(x^2)/(20)+(y^2)/(4)=1$，$x<2$.
-+ (2) 直线段 $P_(1)P_(2)$ 的斜率为
 
-$ (6-(-1))/(-(8 sqrt(3))/(3)+5 sqrt(3))=sqrt(3) $
+#align(center)[#image("/papers/2010/img/hunan_science/q19_fig1.png", width: 28%)]
 
-故其所在直线方程为 $sqrt(3)x-y+14=0$. 对椭圆内部的点，有
 
-$ sqrt(3)x-y=2(sqrt(15)(x)/(2 sqrt(5))-(y)/(2)) >= -2 sqrt(15+1)=-8 $
 
-等号在 $(-(5 sqrt(3))/(2),(1)/(2))$ 处取得，且该点满足 $x<2$，属于考察区域边界. 所以从直线 $P_(1)P_(2)$ 沿法向朝考察区域移动，首次接触考察区域所需的距离为
-
-$ (14-8)/(sqrt(3^2+(-1)^2))=3" k m" $
-
-该椭圆边界点到原直线的垂足为 $(-4 sqrt(3),2)$，其纵坐标在 $[-1,6]$ 内，故垂足确在线段 $P_(1)P_(2)$ 上，以上距离确实是该线段的最小移动距离.
-直线段 $P_(2)P_(3)$ 所在直线为 $y=6$. 考察区域的最高点纵坐标为圆 $C_(1)$ 的最高点纵坐标 $(6 sqrt(5))/(5)$，所以该线段向下移动至考察区域至少需要
-
-$ 6-(6 sqrt(5))/(5)>3" k m" $
-
-圆的最高点横坐标为 $4$，位于线段 $P_(2)P_(3)$ 的横坐标范围内，所以这个距离也确实可以在该线段上取得.
-因此冰川边界线首次移动到考察区域时，所需移动距离为 $3" k m"$.
-
-设经过 $n$ 年移动的总距离为 $s_n$，则
-
-$ s_n=0.2(1+2+2^2+ dots.c +2^(n-1))=0.2(2^n-1) $
-
-有 $s_3=1.4<3$，$s_4=3$，故冰川边界线移动到考察区域所需的最短时间为 $4$ 年.
++ (1)
 ]
 
 #problem(20)[
-已知函数 $f(x) = x^2 + b x + c$ （$b$，$c in RR$），对任意的 $x in RR$，恒有 $f'(x) <= f(x)$.
+已知函数 #mi(`f(x) = x^{2} + bx + c`) （#mi(`b`)，#mi(`c \in \mathbb{R}`)），对任意的 #mi(`x \in \mathbb{R}`)，恒有 #mi(`f'(x) \le f(x)`).
 
 
-+ (1) 证明：当 $x >= 0$ 时，$f(x) <= (x + c)^2$；
-+ (2) 若对满足题设条件的任意 $b$，$c$，不等式 $f(c) - f(b) <= M (c^2 - b^2)$ 恒成立，求 $M$ 的最小值.
++ (1) 
 
 
 
-+ (1) 由题设，$f'(x)=2 x+b$，所以对任意 $x in RR$，有
 
-$ f(x)-f'(x)=x^2+(b-2)x+c-b >= 0 $
-
-这是关于 $x$ 的二次函数，故其判别式不大于 $0$，即
-
-$ (b-2)^2-4(c-b) <= 0 $
-
-整理得 $c >= (b^2)/(4)+1$. 当 $x >= 0$ 时，由 $c >= 1$ 以及
-
-$ 2 c-b >= (b^2)/(2)-b+2=(1)/(2)(b-1)^2+(3)/(2)>0 $
-
-可得
-
-$ (x+c)^2-f(x)=(2 c-b)x+c(c-1) >= 0 $
-
-因此 $f(x) <= (x+c)^2$.
-+ (2) 直接计算得
-
-$ f(c)-f(b)=c^2+b c-2 b^2 $
-
-取 $M=(3)/(2)$，则
-
-$ (3)/(2)(c^2-b^2)-(f(c)-f(b))=(1)/(2)(c-b)^2 >= 0 $
-
-所以 $M=(3)/(2)$ 时不等式对所有满足题设条件的 $b$，$c$ 恒成立.
-
-再取 $b=2$，$c=2+\v a r e p s i l o n$，其中 $\v a r e p s i l o n>0$. 此时 $c >= (b^2)/(4)+1$，且
-$(f(c)-f(b))/(c^2-b^2)=(c+4)/(c+2)=(6+\v a r e p s i l o n)/(4+\v a r e p s i l o n)\l o n g r i g h t a r r o w(3)/(2)$，$(\v a r e p s i l o n -> 0 ""^+)$.
-因此任何小于 $(3)/(2)$ 的数都不能使题设不等式恒成立，故 $M$ 的最小值为 $(3)/(2)$.
++ (1)
 ]
 
 #problem(21)[
-数列 $\{a_(n)\}$ （$n in NN ""^(*)$） 中， $a_1 = a$，$a_(n + 1)$ 是函数 $f_(n)(x) = (1)/(3)x^(3) - (1)/(2)(3 a_n + n^2)x^2 + 3 n^(2) a_(n) x$ 的极小值点.
+数列 #mi(`\{a_{n}\}`) （#mi(`n\in\mathbb{N}^{*}`)） 中， #mi(`a_{1} = a`)，#mi(`a_{n + 1}`) 是函数 #mi(`f_{n}(x) = \frac{1}{3}x^{3}- \frac{1}{2}(3a_{n} + n^{2})x^{2} + 3n^{2}a_{n}x`) 的极小值点.
 
 
-+ (1) 当 $a = 0$ 时，求通项 $a_(n)$；
-+ (2) 是否存在 $a$ 使数列 $\{a_(n)\}$ 是等比数列？若存在，求 $a$ 的取值范围；若不存在，请说明理由.
++ (1) 
 
 
 
-+ (1) 由
 
-$ f_n'(x)=x^2-(3 a_n+n^2)x+3 n^(2) a_n=(x-3 a_n)(x-n^2) $
-
-可知，当 $3 a_n<n^2$ 时，$x=n^2$ 是极小值点；当 $3 a_n>n^2$ 时，$x=3 a_n$ 是极小值点. 当 $3 a_n=n^2$ 时，导函数只有二重根，函数没有极小值点. 因此在数列有定义时，
-
-$ a_(n+1)= max \{3 a_n,n^2\} $
-
-当 $a=0$ 时，依次有
-$a_1=0$，$a_2=1$，$a_3=4$，$a_4=12$.
-对 $n >= 3$，有 $4 dot 3 ""^(n-2)>n^2$. 事实上，$n=3$ 时不等式成立；若 $n >= 3$，则左边每次乘以 $3$，而右边的增长倍数为 $((n+1)^2)/(n^2) <= (16)/(9)<3$，所以不等式对所有 $n >= 3$ 成立. 于是 $a_(n+1)=3 a_n$，从而
-$a_n=4 dot 3 ""^(n-3)$，$n >= 3$.
-+ (2) 若 $\{a_n\}$ 是等比数列，则由递推式知 $a_2>0$，$a_3>0$. 若 $a<0$，则 $(a_2)/(a_1)<0$，而 $(a_3)/(a_2)>0$，不可能等比；若 $a=0$，则第一问中的数列也不等比. 因此 $a>0$.
-
-当 $0<a<(1)/(3)$ 时，$a_2=1$，$a_3=4$. 若数列等比，则公比既为 $(a_2)/(a_1)=(1)/(a)$，又为 $(a_3)/(a_2)=4$，所以 $a=(1)/(4)$. 但此时 $a_4= max \{12,9\}=12$，而等比数列应有 $a_4=16$，矛盾. 当 $a=(1)/(3)$ 时，$3 a_1=1^2$，$f_1'(x)=(x-1)^2$，函数没有极小值点，数列不能按题意定义.
-
-当 $a>(1)/(3)$ 时，$a_2=3 a$. 若数列等比，则公比为 $3$，从而必须有 $a_3=9 a$. 当 $a<(4)/(9)$ 时，$a_3= max \{9 a,4\}=4\n e q 9 a$，矛盾；当 $a=(4)/(9)$ 时，$3 a_2=4=2^2$，此时 $f_2'(x)=(x-4)^2$，没有极小值点，数列不能按题意定义. 所以必要条件为 $a>(4)/(9)$.
-
-反之，若 $a>(4)/(9)$，则 $a_2=3 a$，且 $3 a>1$. 又 $9 a>4$. 因而
-$3^(1) a>1^2$，$3^(2) a>2^2$. 对 $n >= 2$，若 $3^(n) a>n^2$，则由 $3 n^2-(n+1)^2=2 n^2-2 n-1>0$，得 $3 n^2>(n+1)^2$. 又因 $3^(n+1)a>3 n^2$，所以 $3^(n+1)a>(n+1)^2$. 由数学归纳法，$3^(n) a>n^2$ 对所有 $n >= 1$ 成立，递推式始终取 $a_(n+1)=3 a_n$. 所以 $a_n=3^(n-1)a$ 是等比数列.
-
-综上，存在这样的 $a$，其取值范围为
-
-$ a in ((4)/(9),+ oo ) $
++ (1)
 ]
 

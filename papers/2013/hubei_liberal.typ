@@ -82,7 +82,15 @@
 
 #problem(5)[
 小明骑车上学，开始时匀速行驶，途中因交通堵塞停留了一段时间后，为了赶时间加快速度行驶，与以上事件吻合得最好的图象是（ ）
-  #choices([[width=0.15\paperwidth]img/2013/hubei_liberal/q5_choice_a.png], [[width=0.15\paperwidth]img/2013/hubei_liberal/q5_choice_b.png], [[width=0.15\paperwidth]img/2013/hubei_liberal/q5_choice_c.png], [[width=0.15\paperwidth]img/2013/hubei_liberal/q5_choice_d.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2013/img/hubei_liberal/q5_choice_a.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2013/img/hubei_liberal/q5_choice_b.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2013/img/hubei_liberal/q5_choice_c.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2013/img/hubei_liberal/q5_choice_d.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([C])
@@ -312,7 +320,9 @@ z_{2}=-z_{1}=-(2-3\mathrm{i})=-2+3\mathrm{i}
 #problem(13)[
 阅读如图所示的程序框图，运行相应的程序，若输入 #mi(`m`) 的值为 #mi(`2`)，则输出的结果 #mi(`i=`)\underline{\hspace{2.5em}}.
 
-[max width=0.48\linewidth]img/2013/hubei_liberal/q13_fig1.png
+
+#align(center)[#image("/papers/2013/img/hubei_liberal/q13_fig1.png", width: 28%)]
+
 ]
 
 #answer([4])
@@ -410,7 +420,9 @@ V=\frac{1}{3}\pi\cdot9\left(6^{2}+6\times10+10^{2}\right)=588\pi
 
 
 
-[max width=0.5\linewidth]img/2013/hubei_liberal/q17_fig1.png
+
+#align(center)[#image("/papers/2013/img/hubei_liberal/q17_fig1.png", width: 28%)]
+
 ]
 
 #answer([+ (1)])
@@ -531,7 +543,9 @@ S_{n}=1+2^{n}\geqslant2013\iff 2^{n}\geqslant2012
 
 
 
-[max width=0.56\linewidth]img/2013/hubei_liberal/q20_fig1.png
+
+#align(center)[#image("/papers/2013/img/hubei_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -557,7 +571,9 @@ S_{n}=1+2^{n}\geqslant2013\iff 2^{n}\geqslant2012
 
 
 
-[max width=0.48\linewidth]img/2013/hubei_liberal/q22_fig1.png
+
+#align(center)[#image("/papers/2013/img/hubei_liberal/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[

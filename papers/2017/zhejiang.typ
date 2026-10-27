@@ -51,7 +51,9 @@ e=\frac{c}{a}=\frac{\sqrt{5}}{3}
 #problem(3)[
 某几何体的三视图如图所示（单位：#mi(`\mathrm{cm}`)），则该几何体的体积（单位：#mi(`\mathrm{cm}^{3}`)）是（ ）
 
-[max width=0.30\textwidth]img/2017/zhejiang/q3_fig1.png
+
+#align(center)[#image("/papers/2017/img/zhejiang/q3_fig1.png", width: 28%)]
+
   #choices([#mi(`\dfrac{\pi}{2}+1`)], [#mi(`\dfrac{\pi}{2}+3`)], [#mi(`\dfrac{3\pi}{2}+1`)], [#mi(`\dfrac{3\pi}{2}+3`)], cols: 2)
 ]
 
@@ -177,8 +179,18 @@ S_{4}+S_{6}-2S_{5}=(4a_{1}+6d)+(6a_{1}+15d)-2(5a_{1}+10d)=d
 #problem(7)[
 函数 #mi(`y=f(x)`) 的导函数 #mi(`y=f'(x)`) 的图象如图所示，则函数 #mi(`y=f(x)`) 的图象可能是（ ）
 
-[max width=0.26\textwidth]img/2017/zhejiang/q7_fig1.png
-  #choices([[width=0.15\paperwidth]img/2017/zhejiang/q7_optA.png], [[width=0.15\paperwidth]img/2017/zhejiang/q7_optB.png], [[width=0.15\paperwidth]img/2017/zhejiang/q7_optC.png], [[width=0.15\paperwidth]img/2017/zhejiang/q7_optD.png], cols: 1)
+
+#align(center)[#image("/papers/2017/img/zhejiang/q7_fig1.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2017/img/zhejiang/q7_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2017/img/zhejiang/q7_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2017/img/zhejiang/q7_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2017/img/zhejiang/q7_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D])
@@ -229,7 +241,9 @@ D(\xi_{1})=h(p_{1})<h(p_{2})=D(\xi_{2})
 #problem(9)[
 如图，已知正四面体 #mi(`D-ABC`)（所有棱长均相等的三棱锥），#mi(`P`)，#mi(`Q`)，#mi(`R`) 分别为 #mi(`AB`)，#mi(`BC`)，#mi(`CA`) 上的点，#mi(`AP=PB`)，#mi(`\dfrac{BQ}{QC}=\dfrac{CR}{RA}=2`)，分别记二面角 #mi(`D-PR-Q`)，#mi(`D-PQ-R`)，#mi(`D-QR-P`) 的平面角为 #mi(`\alpha`)，#mi(`\beta`)，#mi(`\gamma`)，则（ ）
 
-[max width=0.27\textwidth]img/2017/zhejiang/q9_fig1.png
+
+#align(center)[#image("/papers/2017/img/zhejiang/q9_fig1.png", width: 28%)]
+
   #choices([#mi(`\gamma<\alpha<\beta`)], [#mi(`\alpha<\gamma<\beta`)], [#mi(`\alpha<\beta<\gamma`)], [#mi(`\beta<\gamma<\alpha`)], cols: 2)
 ]
 
@@ -296,7 +310,9 @@ D=\left(0,\frac{\sqrt{3}}{3},\frac{2\sqrt{6}}{3}\right)
 #problem(10)[
 如图，已知平面四边形 #mi(`ABCD`)，#mi(`AB\perp BC`)，#mi(`AB=BC=AD=2`)，#mi(`CD=3`)，#mi(`AC`) 与 #mi(`BD`) 交于点 #mi(`O`)，记 #mi(`I_{1}=\overrightarrow{OA}\cdot\overrightarrow{OB}`)，#mi(`I_{2}=\overrightarrow{OB}\cdot\overrightarrow{OC}`)，#mi(`I_{3}=\overrightarrow{OC}\cdot\overrightarrow{OD}`)，则（ ）
 
-[max width=0.27\textwidth]img/2017/zhejiang/q10_fig1.png
+
+#align(center)[#image("/papers/2017/img/zhejiang/q10_fig1.png", width: 28%)]
+
   #choices([#mi(`I_{1}<I_{2}<I_{3}`)], [#mi(`I_{1}<I_{3}<I_{2}`)], [#mi(`I_{3}<I_{1}<I_{2}`)], [#mi(`I_{2}<I_{1}<I_{3}`)], cols: 2)
 ]
 
@@ -623,7 +639,9 @@ a\in\left(-\infty,\frac{9}{2}\right]
 
 
 
-[max width=0.30\textwidth]img/2017/zhejiang/q19_fig1.png
+
+#align(center)[#image("/papers/2017/img/zhejiang/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -649,7 +667,9 @@ a\in\left(-\infty,\frac{9}{2}\right]
 
 
 
-[max width=0.30\textwidth]img/2017/zhejiang/q21_fig1.png
+
+#align(center)[#image("/papers/2017/img/zhejiang/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

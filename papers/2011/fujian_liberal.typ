@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,30 +11,30 @@
 #part-header("单选题")
 
 #problem(1)[
-若集合 $M = \{-1, 0, 1\}$，$N = \{0, 1, 2\}$，则 $M inter N$ 等于（ ）
-  #choices([$\{0, 1\}$], [$\{-1,0,1\}$], [$\{0,1,2\}$], [$\{-1,0,1,2\}$], cols: 4)
+若集合 #mi(`M = \{-1, 0, 1\}`)，#mi(`N = \{0, 1, 2\}`)，则 #mi(`M \cap N`) 等于（ ）
+  #choices([#mi(`\{0, 1\}`)], [#mi(`\{-1,0,1\}`)], [#mi(`\{0,1,2\}`)], [#mi(`\{-1,0,1,2\}`)], cols: 2)
 ]
 
 #solution[
-集合交集由同时属于两个集合的元素组成. 在 $M$ 与 $N$ 中共同出现的元素只有 $0$ 和 $1$，所以 $M inter N=\{0,1\}$. 因此选 A.
+集合交集由同时属于两个集合的元素组成. 在 #mi(`M`) 与 #mi(`N`) 中共同出现的元素只有 #mi(`0`) 和 #mi(`1`)，所以 #mi(`M\cap N=\{0,1\}`). 因此选 A.
 ]
 
 #problem(2)[
-$i$ 是虚数单位，$1 + i ""^(3)$ 等于（ ）
-  #choices([$i$], [$- i$], [$1 + i$], [$1 - i$], cols: 4)
+#mi(`\mathrm{i}`) 是虚数单位，#mi(`1 + \mathrm{i}^{3}`) 等于（ ）
+  #choices([#mi(`\mathrm{i}`)], [#mi(`-\mathrm{i}`)], [#mi(`1 + \mathrm{i}`)], [#mi(`1 - \mathrm{i}`)], cols: 2)
 ]
 
 #solution[
-由虚数单位的定义，$i ""^2=-1$，所以 $i ""^3= i ""^2 dot i =- i$. 因而 $1+ i ""^3=1- i$，因此选 D.
+由虚数单位的定义，#mi(`\mathrm{i}^{2}=-1`)，所以 #mi(`\mathrm{i}^{3}=\mathrm{i}^{2}\cdot\mathrm{i}=-\mathrm{i}`). 因而 #mi(`1+\mathrm{i}^{3}=1-\mathrm{i}`)，因此选 D.
 ]
 
 #problem(3)[
-若 $a in RR$，则“$a = 1$”是“$| a | = 1$”的（ ）
+若 #mi(`a \in \mathbb{R}`)，则“#mi(`a = 1`)”是“#mi(`\lvert a \rvert = 1`)”的（ ）
   #choices([充分而不必要条件], [必要而不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #solution[
-当 $a=1$ 时，$| a|=1$，所以“$a=1$”是“$| a|=1$”的充分条件. 但是 $| a|=1$ 时还可能有 $a=-1$，不能推出 $a=1$，所以它不是必要条件. 因此选 A.
+当 #mi(`a=1`) 时，#mi(`\lvert a\rvert=1`)，所以“#mi(`a=1`)”是“#mi(`\lvert a\rvert=1`)”的充分条件. 但是 #mi(`\lvert a\rvert=1`) 时还可能有 #mi(`a=-1`)，不能推出 #mi(`a=1`)，所以它不是必要条件. 因此选 A.
 ]
 
 #problem(4)[
@@ -43,158 +43,215 @@ $i$ 是虚数单位，$1 + i ""^(3)$ 等于（ ）
 ]
 
 #solution[
-分层抽样时，各层抽取人数与各层人数成比例. 设高二年级抽取 $n$ 名，则
+分层抽样时，各层抽取人数与各层人数成比例. 设高二年级抽取 #mi(`n`) 名，则
 
-$ (6)/(30)=(n)/(40) $
 
-解得 $n=8$，所以应抽取 8 名. 因此选 B.
+#align(center)[#mitex(`
+\frac{6}{30}=\frac{n}{40}
+`)]
+
+
+解得 #mi(`n=8`)，所以应抽取 8 名. 因此选 B.
 ]
 
 #problem(5)[
 阅读如图所示的程序框图，运行相应的程序，输出的结果是（ ）
 
-\texfigure[max width=0.34\linewidth]{img_repaint/2011/fujian_liberal/q5_fig1.tex}
+\texfigure[max width=0.34\linewidth]img_repaint/2011/fujian_liberal/q5_fig1.tex
   #choices([3], [11], [38], [123], cols: 4)
 ]
 
 #solution[
-程序开始时 $a=1$. 因为 $1<10$，执行 $a=a^2+2$，得到 $a=1^2+2=3$. 此时 $3<10$，再次执行更新，得到 $a=3^2+2=11$. 由于 $11<10$ 不成立，程序沿“否”分支输出 $a=11$. 因此选 B.
+程序开始时 #mi(`a=1`). 因为 #mi(`1<10`)，执行 #mi(`a=a^{2}+2`)，得到 #mi(`a=1^{2}+2=3`). 此时 #mi(`3<10`)，再次执行更新，得到 #mi(`a=3^{2}+2=11`). 由于 #mi(`11<10`) 不成立，程序沿“否”分支输出 #mi(`a=11`). 因此选 B.
 ]
 
 #problem(6)[
-若关于 $x$ 的方程 $x^(2) + m x + 1 = 0$ 有两个不相等的实数根，则实数 $m$ 的取值范围是（ ）
-  #choices([$(-1, 1)$], [$(-2, 2)$], [$(- oo , -2) union (2, + oo )$], [$(- oo , -1) union (1, + oo )$], cols: 2)
+若关于 #mi(`x`) 的方程 #mi(`x^{2}+ mx + 1 = 0`) 有两个不相等的实数根，则实数 #mi(`m`) 的取值范围是（ ）
+  #choices([#mi(`(-1, 1)`)], [#mi(`(-2, 2)`)], [#mi(`(- \infty, -2) \cup (2, +\infty)`)], [#mi(`(-\infty, -1) \cup (1, +\infty)`)], cols: 1)
 ]
 
 #solution[
-关于 $x$ 的一元二次方程有两个不相等的实数根，当且仅当判别式大于 $0$. 所以
+关于 #mi(`x`) 的一元二次方程有两个不相等的实数根，当且仅当判别式大于 #mi(`0`). 所以
 
-$ Delta =m^2-4>0 $
 
-即 $m^2>4$，从而 $m<-2$ 或 $m>2$. 因此取值范围为 $(- oo ,-2) union (2,+ oo )$，选 C.
+#align(center)[#mitex(`
+\Delta=m^{2}-4>0
+`)]
+
+
+即 #mi(`m^{2}>4`)，从而 #mi(`m<-2`) 或 #mi(`m>2`). 因此取值范围为 #mi(`(-\infty,-2)\cup(2,+\infty)`)，选 C.
 ]
 
 #problem(7)[
-如图，矩形 $A B C D$ 中，点 $E$ 为边 $C D$ 的中点，若在矩形 $A B C D$ 内部随机取一个点 $Q$，则点 $Q$ 取自 $triangle A B E$ 内部的概率等于（ ）
+如图，矩形 #mi(`ABCD`) 中，点 #mi(`E`) 为边 #mi(`CD`) 的中点，若在矩形 #mi(`ABCD`) 内部随机取一个点 #mi(`Q`)，则点 #mi(`Q`) 取自 #mi(`\triangle ABE`) 内部的概率等于（ ）
 
-\begin{center}
 
-#align(center)[#image("/papers/2011/img/fujian_liberal/q7_fig1.png", width: 34%)]
+#align(center)[#image("/papers/2011/img/fujian_liberal/q7_fig1.png", width: 28%)]
 
-\end{center}
-  #choices([$(1)/(4)$], [$(1)/(3)$], [$(1)/(2)$], [$(2)/(3)$], cols: 4)
+  #choices([#mi(`\frac{1}{4}`)], [#mi(`\frac{1}{3}`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{2}{3}`)], cols: 2)
 ]
 
 #solution[
-设矩形 $A B C D$ 的高为 $h$，则 $E$ 到边 $A B$ 的距离也是 $h$. 因为 $E$ 是 $C D$ 的中点，且 $A B=C D$，所以
+设矩形 #mi(`ABCD`) 的高为 #mi(`h`)，则 #mi(`E`) 到边 #mi(`AB`) 的距离也是 #mi(`h`). 因为 #mi(`E`) 是 #mi(`CD`) 的中点，且 #mi(`AB=CD`)，所以
 
-$ S_( triangle A B E)=(1)/(2)A B dot h=(1)/(2)S_(A B C D) $
 
-点 $Q$ 在矩形内均匀随机取出，所求概率等于面积之比，因此
+#align(center)[#mitex(`
+S_{\triangle ABE}=\frac{1}{2}AB\cdot h=\frac{1}{2}S_{ABCD}
+`)]
 
-$ P=(S_( triangle A B E))/(S_(A B C D))=(1)/(2) $
+
+点 #mi(`Q`) 在矩形内均匀随机取出，所求概率等于面积之比，因此
+
+
+#align(center)[#mitex(`
+P=\frac{S_{\triangle ABE}}{S_{ABCD}}=\frac{1}{2}
+`)]
+
 
 故选 C.
 ]
 
 #problem(8)[
-已知函数 $f(x) = \b e g i n{c a s e s} 2^x, & x > 0,\\ x + 1, & x <= 0 . \e n d{c a s e s}$ 若 $f(a) + f(1) = 0$，则实数 $a$ 的值等于（ ）
-  #choices([$-3$], [$-1$], [1], [3], cols: 4)
+已知函数 #mi(`f(x) = \begin{cases}2^{x},&x > 0,\\  x + 1,&x \le 0.\end{cases}`) 若 #mi(`f(a) + f(1) = 0`)，则实数 #mi(`a`) 的值等于（ ）
+  #choices([#mi(`-3`)], [#mi(`-1`)], [1], [3], cols: 4)
 ]
 
 #solution[
-由 $f(1)=2$，题设给出 $f(a)=-2$. 若 $a>0$，则 $f(a)=2^a>0$，不可能等于 $-2$，所以 $a <= 0$. 此时 $f(a)=a+1$，于是
+由 #mi(`f(1)=2`)，题设给出 #mi(`f(a)=-2`). 若 #mi(`a>0`)，则 #mi(`f(a)=2^{a}>0`)，不可能等于 #mi(`-2`)，所以 #mi(`a\leqslant0`). 此时 #mi(`f(a)=a+1`)，于是
 
-$ a+1=-2 $
 
-解得 $a=-3$. 因此选 A.
+#align(center)[#mitex(`
+a+1=-2
+`)]
+
+
+解得 #mi(`a=-3`). 因此选 A.
 ]
 
 #problem(9)[
-若 $alpha in (0, (pi)/(2))$，且 $sin ""^2 alpha + cos 2 alpha = (1)/(4)$，则 $tan alpha$ 的值等于（ ）
-  #choices([$(sqrt(2))/(2)$], [$(sqrt(3))/(3)$], [$sqrt(2)$], [$sqrt(3)$], cols: 4)
+若 #mi(`\alpha \in \left(0, \frac{\pi}{2}\right)`)，且 #mi(`\sin^{2}\alpha + \cos 2\alpha = \frac{1}{4}`)，则 #mi(`\tan \alpha`) 的值等于（ ）
+  #choices([#mi(`\frac{\sqrt{2}}{2}`)], [#mi(`\frac{\sqrt{3}}{3}`)], [#mi(`\sqrt{2}`)], [#mi(`\sqrt{3}`)], cols: 2)
 ]
 
 #solution[
-利用 $cos 2 alpha = cos ""^2 alpha - sin ""^2 alpha$，题设等式化为
+利用 #mi(`\cos2\alpha=\cos^{2}\alpha-\sin^{2}\alpha`)，题设等式化为
 
-$ sin ""^2 alpha + cos ""^2 alpha - sin ""^2 alpha = cos ""^2 alpha =(1)/(4) $
 
-由于 $alpha in (0,(pi)/(2))$，所以 $cos alpha =(1)/(2)$，$sin alpha =(sqrt(3))/(2)$. 因而
+#align(center)[#mitex(`
+\sin^{2}\alpha+\cos^{2}\alpha-\sin^{2}\alpha=\cos^{2}\alpha=\frac{1}{4}
+`)]
 
-$ tan alpha =(sin alpha)/(cos alpha)=sqrt(3) $
+
+由于 #mi(`\alpha\in\left(0,\frac{\pi}{2}\right)`)，所以 #mi(`\cos\alpha=\frac{1}{2}`)，#mi(`\sin\alpha=\frac{\sqrt{3}}{2}`). 因而
+
+
+#align(center)[#mitex(`
+\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\sqrt{3}
+`)]
+
 
 故选 D.
 ]
 
 #problem(10)[
-若 $a > 0$，$b > 0$，且函数 $f(x) = 4 x^3 - a x^2 - 2 b x + 2$ 在 $x = 1$ 处有极值，则 $a b$ 的最大值等于（ ）
+若 #mi(`a > 0`)，#mi(`b > 0`)，且函数 #mi(`f(x) = 4x^{3} - ax^{2} - 2bx + 2`) 在 #mi(`x = 1`) 处有极值，则 #mi(`ab`) 的最大值等于（ ）
   #choices([2], [3], [6], [9], cols: 4)
 ]
 
 #solution[
-函数在 $x=1$ 处有极值，必须满足 $f'(1)=0$. 由
+函数在 #mi(`x=1`) 处有极值，必须满足 #mi(`f'(1)=0`). 由
 
-$ f'(x)=12 x^2-2 a x-2 b $
+
+#align(center)[#mitex(`
+f'(x)=12x^{2}-2ax-2b
+`)]
+
 
 可得
 
-$ 12-2 a-2 b=0 $
 
-所以 $a+b=6$. 又因为 $a>0$，$b>0$，由基本不等式
+#align(center)[#mitex(`
+12-2a-2b=0
+`)]
 
-$ a b <= ((a+b)/(2))^2=9 $
 
-当且仅当 $a=b=3$ 时取等号；此时 $f'(x)=12(x-1)(x+(1)/(2))$，导数在 $x=1$ 两侧变号，确有极值. 因此 $a b$ 的最大值为 $9$，选 D.
+所以 #mi(`a+b=6`). 又因为 #mi(`a>0`)，#mi(`b>0`)，由基本不等式
+
+
+#align(center)[#mitex(`
+ab\le\left(\frac{a+b}{2}\right)^{2}=9
+`)]
+
+
+当且仅当 #mi(`a=b=3`) 时取等号；此时 #mi(`f'(x)=12(x-1)(x+\frac{1}{2})`)，导数在 #mi(`x=1`) 两侧变号，确有极值. 因此 #mi(`ab`) 的最大值为 #mi(`9`)，选 D.
 ]
 
 #problem(11)[
-设圆锥曲线 $Gamma$ 的两个焦点分别为 $F_(1)$，$F_(2)$. 若曲线 $Gamma$ 上存在点 $P$ 满足 $|P F_(1)|: |F_(1)F_(2)|: |P F_(2)| = 4:3:2$，则曲线 $Gamma$ 的离心率等于（ ）
-  #choices([$(1)/(2)$ 或 $(3)/(2)$], [$(2)/(3)$ 或 2], [$(1)/(2)$ 或 2], [$(2)/(3)$ 或 $(3)/(2)$], cols: 2)
+设圆锥曲线 #mi(`\Gamma`) 的两个焦点分别为 #mi(`F_{1}`)，#mi(`F_{2}`). 若曲线 #mi(`\Gamma`) 上存在点 #mi(`P`) 满足 #mi(`|PF_{1}|: |F_{1}F_{2}|: |PF_{2}| = 4:3:2`)，则曲线 #mi(`\Gamma`) 的离心率等于（ ）
+  #choices([#mi(`\frac{1}{2}`) 或 #mi(`\frac{3}{2}`)], [#mi(`\frac{2}{3}`) 或 2], [#mi(`\frac{1}{2}`) 或 2], [#mi(`\frac{2}{3}`) 或 #mi(`\frac{3}{2}`)], cols: 1)
 ]
 
 #solution[
-设比例中的公共正数因子为 $k$，则
-$|P F_1|=4 k$，$|F_(1) F_2|=3 k$，$|P F_2|=2 k$.
-若 $Gamma$ 是椭圆，则椭圆定义给出 $2 a=|P F_1|+|P F_2|=6 k$，而 $2 c=|F_(1) F_2|=3 k$. 所以
+设比例中的公共正数因子为 #mi(`k`)，则
 
-$ e=(c)/(a)=(3(k)/(2))/(3 k)=(1)/(2) $
+#mi(`|PF_{1}|=4k`)，#mi(`|F_{1}F_{2}|=3k`)，#mi(`|PF_{2}|=2k`).
 
-若 $Gamma$ 是双曲线，则双曲线定义给出 $2 a=||P F_1|-|P F_2||=2 k$，仍有 $c=3(k)/(2)$. 所以
+若 #mi(`\Gamma`) 是椭圆，则椭圆定义给出 #mi(`2a=|PF_{1}|+|PF_{2}|=6k`)，而 #mi(`2c=|F_{1}F_{2}|=3k`). 所以
 
-$ e=(c)/(a)=(3(k)/(2))/(k)=(3)/(2) $
 
-因此离心率为 $(1)/(2)$ 或 $(3)/(2)$，选 A.
+#align(center)[#mitex(`
+e=\frac{c}{a}=\frac{3\frac{k}{2}}{3k}=\frac{1}{2}
+`)]
+
+
+若 #mi(`\Gamma`) 是双曲线，则双曲线定义给出 #mi(`2a=\bigl||PF_{1}|-|PF_{2}|\bigr|=2k`)，仍有 #mi(`c=3\frac{k}{2}`). 所以
+
+
+#align(center)[#mitex(`
+e=\frac{c}{a}=\frac{3\frac{k}{2}}{k}=\frac{3}{2}
+`)]
+
+
+因此离心率为 #mi(`\frac{1}{2}`) 或 #mi(`\frac{3}{2}`)，选 A.
 ]
 
 #problem(12)[
-在整数集 $ZZ$ 中，被 5 除所得余数为 $k$ 的所有整数组成一个“类”，记为 $[k]$，即 $[k] = \{5 n + k | n in ZZ \}$，$k = 0$，$1$，$2$，$3$，$4$. 给出如下四个结论：
+在整数集 #mi(`\mathbb{Z}`) 中，被 5 除所得余数为 #mi(`k`) 的所有整数组成一个“类”，记为 #mi(`[k]`)，即 #mi(`[k] = \{5n + k \mid n \in \mathbb{Z}\}`)，#mi(`k = 0`)，#mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`). 给出如下四个结论：
 
-\begin{circlelist}
-\item $2011 in [1]$；
-\item $-3 in [3]$；
-\item $ZZ = [0] union [1] union [2] union [3] union [4]$；
-\item “整数 $a$，$b$ 属于同一‘类’”的充要条件是 “$a - b in [0]$”.
-\end{circlelist}
+
++ (1) #mi(`2011 \in [1]`)；
++ (2) #mi(`-3 \in [3]`)；
++ (3) #mi(`\mathbb{Z}= [0] \cup [1] \cup [2] \cup [3] \cup [4]`)；
++ (4) “整数 #mi(`a`)，#mi(`b`) 属于同一‘类’”的充要条件是 “#mi(`a - b \in [0]`)”.
+
+
 
 其中，正确结论的个数是（ ）
   #choices([1], [2], [3], [4], cols: 4)
 ]
 
 #solution[
-因为 $2011=5 dot 402 +1$，所以 $2011 in [1]$，结论 $"[1]"$ 正确. 又
+因为 #mi(`2011=5\cdot402+1`)，所以 #mi(`2011\in[1]`)，结论 #mi(`①`) 正确. 又
 
-$ -3=5 dot (-1)+2 $
 
-所以 $-3 in [2]$，不属于 $[3]$，结论 $"[2]"$ 错误.
+#align(center)[#mitex(`
+-3=5\cdot(-1)+2
+`)]
 
-任意整数除以 $5$ 的余数必为 $0$，$1$，$2$，$3$，$4$ 中的一个，因此
 
-$ ZZ =[0] union [1] union [2] union [3] union [4] $
+所以 #mi(`-3\in[2]`)，不属于 #mi(`[3]`)，结论 #mi(`②`) 错误.
 
-结论 $"[3]"$ 正确.
+任意整数除以 #mi(`5`) 的余数必为 #mi(`0`)，#mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`) 中的一个，因此
 
-若整数 $a$，$b$ 属于同一类，则存在 $n_1$，$n_2 in ZZ$ 及同一个 $k$，使 $a=5 n_1+k$，$b=5 n_2+k$，从而 $a-b=5(n_1-n_2) in [0]$. 反之，若 $a-b in [0]$，则 $a-b=5 n$，即 $a=b+5 n$，所以 $a$，$b$ 除以 $5$ 的余数相同，属于同一类. 因此结论 $"[4]"$ 正确.
+
+#align(center)[#mitex(`
+\mathbb{Z}=[0]\cup[1]\cup[2]\cup[3]\cup[4]
+`)]
+
+
+结论 #mi(`③`) 正确.
+
+若整数 #mi(`a`)，#mi(`b`) 属于同一类，则存在 #mi(`n_{1}`)，#mi(`n_{2}\in\mathbb{Z}`) 及同一个 #mi(`k`)，使 #mi(`a=5n_{1}+k`)，#mi(`b=5n_{2}+k`)，从而 #mi(`a-b=5(n_{1}-n_{2})\in[0]`). 反之，若 #mi(`a-b\in[0]`)，则 #mi(`a-b=5n`)，即 #mi(`a=b+5n`)，所以 #mi(`a`)，#mi(`b`) 除以 #mi(`5`) 的余数相同，属于同一类. 因此结论 #mi(`④`) 正确.
 
 正确结论有 3 个，故选 C.
 ]
@@ -202,252 +259,338 @@ $ ZZ =[0] union [1] union [2] union [3] union [4] $
 #part-header("填空题")
 
 #problem(13)[
-若向量 $bold(a)=(1,1)$，$bold(b)=(-1,2)$，则 $bold(a) dot bold(b)$ 等于#blank(){}.
+若向量 #mi(`\mathbf{a}=(1,1)`)，#mi(`\mathbf{b}=(-1,2)`)，则 #mi(`\mathbf{a}\cdot \mathbf{b}`) 等于\underline{\hspace{2.5em}}.
 ]
 
 #solution[
 向量点积按对应坐标相乘再相加，故
 
-$ bold(a)\c d o t b o l d(b)=1 dot (-1)+1 dot 2 =1 $
 
-所以填 $1$.
+#align(center)[#mitex(`
+\mathbf{a}\cdot\mathbf{b}=1\cdot(-1)+1\cdot2=1
+`)]
+
+
+所以填 #mi(`1`).
 ]
 
 #problem(14)[
-若 $triangle A B C$ 的面积为 $sqrt(3)$，$B C = 2$，$C = 60^( degree )$，则边 $A B$ 的长度等于#blank(){}.
+若 #mi(`\triangle ABC`) 的面积为 #mi(`\sqrt{3}`)，#mi(`BC = 2`)，#mi(`C = 60^{\circ}`)，则边 #mi(`AB`) 的长度等于\underline{\hspace{2.5em}}.
 ]
 
 #solution[
-设 $A C=x$. 由三角形面积公式，
+设 #mi(`AC=x`). 由三角形面积公式，
 
-$ sqrt(3)=(1)/(2) dot 2 dot x dot (sqrt(3))/(2) $
 
-所以 $x=A C=2$. 再由余弦定理，
+#align(center)[#mitex(`
+\sqrt{3}=\frac{1}{2}\cdot2\cdot x\cdot\frac{\sqrt{3}}{2}
+`)]
 
-$ A B^2=A C^2+B C^2-2 dot A C dot B C cos C=2^2+2^2-2 dot 2 dot 2 dot (1)/(2)=4 $
 
-因为边长为正，故 $A B=2$. 所以填 $2$.
+所以 #mi(`x=AC=2`). 再由余弦定理，
+
+
+#align(center)[#mitex(`
+AB^{2}=AC^{2}+BC^{2}-2\cdot AC\cdot BC\cos C=2^{2}+2^{2}-2\cdot2\cdot2\cdot\frac{1}{2}=4
+`)]
+
+
+因为边长为正，故 #mi(`AB=2`). 所以填 #mi(`2`).
 ]
 
 #problem(15)[
-如图，正方体 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 中，$A B = 2$，点 $E$ 为 $A D$ 的中点，点 $F$ 在 $C D$ 上，
+如图，正方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`AB = 2`)，点 #mi(`E`) 为 #mi(`AD`) 的中点，点 #mi(`F`) 在 #mi(`CD`) 上，
 
-若 $E F parallel$ 平面 $A B_(1)C$，则线段 $E F$ 的长度等于#blank(){}.
+若 #mi(`EF \parallel`) 平面 #mi(`AB_{1}C`)，则线段 #mi(`EF`) 的长度等于\underline{\hspace{2.5em}}.
 
-\begin{center}
 
-#align(center)[#image("/papers/2011/img/fujian_liberal/q15_fig1.png", width: 34%)]
+#align(center)[#image("/papers/2011/img/fujian_liberal/q15_fig1.png", width: 28%)]
 
-\end{center}
 ]
 
 #solution[
-建立直角坐标系，取 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,2,0)$，$C=(2,2,0)$，并令竖直向下的方向为第三坐标轴负方向，则 $B_1=(2,0,-2)$. 因为 $E$ 是 $A D$ 的中点，所以 $E=(0,1,0)$. 设 $F=(t,2,0)$，其中 $0 <= t <= 2$.
+建立直角坐标系，取 #mi(`A=(0,0,0)`)，#mi(`B=(2,0,0)`)，#mi(`D=(0,2,0)`)，#mi(`C=(2,2,0)`)，并令竖直向下的方向为第三坐标轴负方向，则 #mi(`B_{1}=(2,0,-2)`). 因为 #mi(`E`) 是 #mi(`AD`) 的中点，所以 #mi(`E=(0,1,0)`). 设 #mi(`F=(t,2,0)`)，其中 #mi(`0\le t\leqslant2`).
 
-平面 $A B_(1) C$ 内的两个方向向量可取 $arrow(A B_1)=(2,0,-2)$ 和 $arrow(A C)=(2,2,0)$. 取 $bold(n)=(1,-1,1)$，因为 $bold(n)\c d o t a r r o w(A B_1)=0$，$bold(n)\c d o t a r r o w(A C)=0$，所以 $bold(n)$ 是平面 $A B_(1) C$ 的一个法向量，平面 $A B_(1) C$ 的方程为 $x-y+z=0$. 又 $arrow(E F)=(t,1,0)$. 由 $E F parallel$ 平面 $A B_(1) C$，有 $arrow(E F)\c d o t b o l d(n)=0$，即 $t-1=0$，所以 $t=1$. 此时直线 $E F$ 上各点满足 $x-y+z=-1$，与平面 $A B_(1) C$ 无公共点，故平行关系成立. 因而
+平面 #mi(`AB_{1}C`) 内的两个方向向量可取 #mi(`\overrightarrow{AB_1}=(2,0,-2)`) 和 #mi(`\overrightarrow{AC}=(2,2,0)`). 取 #mi(`\mathbf{n}=(1,-1,1)`)，因为 #mi(`\mathbf{n}\cdot\overrightarrow{AB_1}=0`)，#mi(`\mathbf{n}\cdot\overrightarrow{AC}=0`)，所以 #mi(`\mathbf{n}`) 是平面 #mi(`AB_{1}C`) 的一个法向量，平面 #mi(`AB_{1}C`) 的方程为 #mi(`x-y+z=0`). 又 #mi(`\overrightarrow{EF}=(t,1,0)`). 由 #mi(`EF\parallel`) 平面 #mi(`AB_{1}C`)，有 #mi(`\overrightarrow{EF}\cdot\mathbf{n}=0`)，即 #mi(`t-1=0`)，所以 #mi(`t=1`). 此时直线 #mi(`EF`) 上各点满足 #mi(`x-y+z=-1`)，与平面 #mi(`AB_{1}C`) 无公共点，故平行关系成立. 因而
 
-$ E F=sqrt((1-0)^2+(2-1)^2)=sqrt(2) $
 
-所以填 $sqrt(2)$.
+#align(center)[#mitex(`
+EF=\sqrt{(1-0)^{2}+(2-1)^{2}}=\sqrt{2}
+`)]
+
+
+所以填 #mi(`\sqrt{2}`).
 ]
 
 #problem(16)[
-商家通常依据“乐观系数准则”确定商品销售价格，即根据商品的最低销售限价 $a$，最高销售限价 $b$（$b > a$）以及实数 $x$（$0 < x < 1$）确定实际销售价格 $c = a + x (b - a)$. 这里，$x$ 被称为乐观系数. 经验表明，最佳乐观系数 $x$ 恰好使得 $(c - a)$ 是 $(b - c)$ 和 $(b - a)$ 的等比中项. 据此可得，最佳乐观系数 $x$ 的值等于#blank(){}.
+商家通常依据“乐观系数准则”确定商品销售价格，即根据商品的最低销售限价 #mi(`a`)，最高销售限价 #mi(`b`)（#mi(`b > a`)）以及实数 #mi(`x`)（#mi(`0 < x < 1`)）确定实际销售价格 #mi(`c = a + x (b - a)`). 这里，#mi(`x`) 被称为乐观系数. 经验表明，最佳乐观系数 #mi(`x`) 恰好使得 #mi(`(c - a)`) 是 #mi(`(b - c)`) 和 #mi(`(b - a)`) 的等比中项. 据此可得，最佳乐观系数 #mi(`x`) 的值等于\underline{\hspace{2.5em}}.
 ]
 
 #solution[
-由 $c=a+x(b-a)$，得 $c-a=x(b-a)$，$b-c=(1-x)(b-a)$. 由于 $b-a>0$ 且 $0<x<1$，这三个量均为正数. “$c-a$ 是 $b-c$ 和 $b-a$ 的等比中项”意味着
+由 #mi(`c=a+x(b-a)`)，得 #mi(`c-a=x(b-a)`)，#mi(`b-c=(1-x)(b-a)`). 由于 #mi(`b-a>0`) 且 #mi(`0<x<1`)，这三个量均为正数. “#mi(`c-a`) 是 #mi(`b-c`) 和 #mi(`b-a`) 的等比中项”意味着
 
-$ (c-a)^2=(b-c)(b-a) $
 
-代入上式并约去正数 $(b-a)^2$，得 $x^2=1-x$，即 $x^2+x-1=0$. 解得
+#align(center)[#mitex(`
+(c-a)^{2}=(b-c)(b-a)
+`)]
 
-$ x=(-1\p m s q r t(5))/(2) $
 
-因为 $0<x<1$，只能取 $x=(sqrt(5)-1)/(2)$. 所以填 $(sqrt(5)-1)/(2)$.
+代入上式并约去正数 #mi(`(b-a)^{2}`)，得 #mi(`x^{2}=1-x`)，即 #mi(`x^{2}+x-1=0`). 解得
+
+
+#align(center)[#mitex(`
+x=\frac{-1\pm\sqrt{5}}{2}
+`)]
+
+
+因为 #mi(`0<x<1`)，只能取 #mi(`x=\frac{\sqrt{5}-1}{2}`). 所以填 #mi(`\frac{\sqrt{5}-1}{2}`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知等差数列 $\{a_(n)\}$ 中，$a_(1) = 1$，$a_(3) = -3$.
+已知等差数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{1}= 1`)，#mi(`a_{3}= -3`).
 
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 若数列 $\{a_(n)\}$ 的前 $k$ 项和 $S_(k) = -35$，求 $k$ 的值.
++ (1)
 ]
 
 #solution[
-设等差数列 $\{a_n\}$ 的公差为 $d$. 由 $a_3=a_1+2 d$，得 $-3=1+2 d$，所以 $d=-2$. 因而数列的通项为
-
-$ a_n=a_1+(n-1)d=1-2(n-1)=3-2 n $
+设等差数列 #mi(`\{a_{n}\}`) 的公差为 #mi(`d`). 由 #mi(`a_{3}=a_{1}+2d`)，得 #mi(`-3=1+2d`)，所以 #mi(`d=-2`). 因而数列的通项为
 
 
-前 $k$ 项和为
+#align(center)[#mitex(`
+a_{n}=a_{1}+(n-1)d=1-2(n-1)=3-2n
+`)]
 
-$ S_k=(k)/(2)(2 a_1+(k-1)d)=(k)/(2)(2-2(k-1))=k(2-k) $
 
-由 $S_k=-35$，得 $k(2-k)=-35$，即 $k^2-2 k-35=0$，所以 $(k-7)(k+5)=0$. 因为 $k$ 表示项数，$k$ 为正整数，故 $k=7$.
+前 #mi(`k`) 项和为
+
+
+#align(center)[#mitex(`
+S_{k}=\frac{k}{2}\bigl(2a_{1}+(k-1)d\bigr)=\frac{k}{2}\bigl(2-2(k-1)\bigr)=k(2-k)
+`)]
+
+
+由 #mi(`S_{k}=-35`)，得 #mi(`k(2-k)=-35`)，即 #mi(`k^{2}-2k-35=0`)，所以 #mi(`(k-7)(k+5)=0`). 因为 #mi(`k`) 表示项数，#mi(`k`) 为正整数，故 #mi(`k=7`).
 ]
 
 #problem(18)[
-如图，直线 $l$：$y = x + b$ 与抛物线 $C$：$x^2 = 4 y$ 相切于点 $A$.
+如图，直线 #mi(`l`)：#mi(`y = x + b`) 与抛物线 #mi(`C`)：#mi(`x^{2} = 4y`) 相切于点 #mi(`A`).
 
 
-+ (1) 求实数 $b$ 的值；
-+ (2) 求以点 $A$ 为圆心，且与抛物线 $C$ 的准线相切的圆的方程.
++ (1) 
 
 
-\begin{center}
 
 
-#align(center)[#image("/papers/2011/img/fujian_liberal/q18_fig1.png", width: 36%)]
+#align(center)[#image("/papers/2011/img/fujian_liberal/q18_fig1.png", width: 28%)]
 
-\end{center}
 ]
 
 #solution[
-将直线 $l:y=x+b$ 代入抛物线 $C:x^2=4 y$，得到
+将直线 #mi(`l:y=x+b`) 代入抛物线 #mi(`C:x^{2}=4y`)，得到
 
-$ x^2=4(x+b) $
 
-即 $x^2-4 x-4 b=0$. 直线与抛物线相切时，该方程有两个相等的根，因此
+#align(center)[#mitex(`
+x^{2}=4(x+b)
+`)]
 
-$ Delta =(-4)^2-4 dot 1 dot (-4 b)=16+16 b=0 $
 
-解得 $b=-1$. 此时相切点的横坐标为 $x=2$，代入 $y=x+b$ 得 $y=1$，所以 $A=(2,1)$.
+即 #mi(`x^{2}-4x-4b=0`). 直线与抛物线相切时，该方程有两个相等的根，因此
 
-将 $x^2=4 y$ 写成 $y=(1)/(4)x^2$，可知抛物线的准线为 $y=-1$. 以 $A$ 为圆心且与准线相切的圆，其半径等于点 $A$ 到直线 $y=-1$ 的距离，即 $r=1-(-1)=2$. 因此圆的方程为
 
-$ (x-2)^2+(y-1)^2=4 $
+#align(center)[#mitex(`
+\Delta=(-4)^{2}-4\cdot1\cdot(-4b)=16+16b=0
+`)]
+
+
+解得 #mi(`b=-1`). 此时相切点的横坐标为 #mi(`x=2`)，代入 #mi(`y=x+b`) 得 #mi(`y=1`)，所以 #mi(`A=(2,1)`).
+
+将 #mi(`x^{2}=4y`) 写成 #mi(`y=\frac{1}{4}x^{2}`)，可知抛物线的准线为 #mi(`y=-1`). 以 #mi(`A`) 为圆心且与准线相切的圆，其半径等于点 #mi(`A`) 到直线 #mi(`y=-1`) 的距离，即 #mi(`r=1-(-1)=2`). 因此圆的方程为
+
+
+#align(center)[#mitex(`
+(x-2)^{2}+(y-1)^{2}=4
+`)]
 ]
 
 #problem(19)[
-某日用品按行业质量标准分成五个等级. 等级系数 $X$ 依次为 $1$，$2$，$3$，$4$，$5$. 现从一批该日用品中随机抽取 20 件，对其等级系数进行统计分析，得到频率分布表如下：
+某日用品按行业质量标准分成五个等级. 等级系数 #mi(`X`) 依次为 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`). 现从一批该日用品中随机抽取 20 件，对其等级系数进行统计分析，得到频率分布表如下：
 
-\begin{center}
-\begin{tabular}{c|ccccc}
-$X$ & $1$ & $2$ & $3$ & $4$ & $5$ \\
+#mi(`X`) & #mi(`1`) & #mi(`2`) & #mi(`3`) & #mi(`4`) & #mi(`5`) \\
+
 \hline
-$f$ & $a$ & $0.2$ & $0.45$ & $b$ & $c$
-\end{tabular}
-\end{center}
+
+#mi(`f`) & #mi(`a`) & #mi(`0.2`) & #mi(`0.45`) & #mi(`b`) & #mi(`c`)
 
 
-+ (1) 若所抽取的 20 件日用品中，等级系数为 4 的恰有 3 件，等级系数为 5 的恰有 2 件，求 $a$，$b$，$c$ 的值；
-+ (2) 在上问的条件下，将等级系数为 4 的 3 件日用品记为 $x_(1)$，$x_(2)$，$x_(3)$，等级系数为 5 的 2 件日用品记为 $y_(1)$，$y_(2)$. 现从 $x_(1)$，$x_(2)$，$x_(3)$，$y_(1)$，$y_(2)$ 这 5 件日用品中任取两件（假定每件日用品被取出的可能性相同），写出所有可能的结果，并求这两件日用品的等级系数恰好相等的概率.
++ (1)
 ]
 
 #solution[
-频率之和为 $1$，所以
+频率之和为 #mi(`1`)，所以
 
-$ a+0.2+0.45+b+c=1 $
 
-即 $a+b+c=0.35$. 由于等级系数为 $4$ 的有 $3$ 件，故 $b=(3)/(20)=0.15$. 由于等级系数为 $5$ 的有 $2$ 件，故 $c=(2)/(20)=0.1$. 从而 $a=0.35-b-c=0.35-0.15-0.1=0.1$. 因此 $a=0.1$，$b=0.15$，$c=0.1$.
-从 $x_1$，$x_2$，$x_3$，$y_1$，$y_2$ 中任取两件，所有可能的结果为
-$(x_1,x_2)$，$(x_1,x_3)$，$(x_1,y_1)$，$(x_1,y_2)$，$(x_2,x_3)$，$(x_2,y_1)$，$(x_2,y_2)$
-$(x_3,y_1)$，$(x_3,y_2)$，$(y_1,y_2)$
-共 $C_5^2=10$ 种. 等级系数相等的结果为 $(x_1,x_2)$，$(x_1,x_3)$，$(x_2,x_3)$，$(y_1,y_2)$，共 $4$ 种. 所以所求概率为
+#align(center)[#mitex(`
+a+0.2+0.45+b+c=1
+`)]
 
-$ P=(4)/(10)=(2)/(5) $
+
+即 #mi(`a+b+c=0.35`). 由于等级系数为 #mi(`4`) 的有 #mi(`3`) 件，故 #mi(`b=\frac{3}{20}=0.15`). 由于等级系数为 #mi(`5`) 的有 #mi(`2`) 件，故 #mi(`c=\frac{2}{20}=0.1`). 从而 #mi(`a=0.35-b-c=0.35-0.15-0.1=0.1`). 因此 #mi(`a=0.1`)，#mi(`b=0.15`)，#mi(`c=0.1`).
+
+从 #mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`x_{3}`)，#mi(`y_{1}`)，#mi(`y_{2}`) 中任取两件，所有可能的结果为
+
+#mi(`\left(x_{1},x_{2}\right)`)，#mi(`\left(x_{1},x_{3}\right)`)，#mi(`\left(x_{1},y_{1}\right)`)，#mi(`\left(x_{1},y_{2}\right)`)，#mi(`\left(x_{2},x_{3}\right)`)，#mi(`\left(x_{2},y_{1}\right)`)，#mi(`\left(x_{2},y_{2}\right)`)
+
+#mi(`\left(x_{3},y_{1}\right)`)，#mi(`\left(x_{3},y_{2}\right)`)，#mi(`\left(y_{1},y_{2}\right)`)
+
+共 #mi(`\mathrm{C}_{5}^{2}=10`) 种. 等级系数相等的结果为 #mi(`\left(x_{1},x_{2}\right)`)，#mi(`\left(x_{1},x_{3}\right)`)，#mi(`\left(x_{2},x_{3}\right)`)，#mi(`\left(y_{1},y_{2}\right)`)，共 #mi(`4`) 种. 所以所求概率为
+
+
+#align(center)[#mitex(`
+P=\frac{4}{10}=\frac{2}{5}
+`)]
 ]
 
 #problem(20)[
-如图，四棱锥 $P - A B C D$ 中，$P A bot$ 底面 $A B C D$，$A B bot A D$，点 $E$ 在线段 $A D$ 上，且 $C E parallel A B$.
+如图，四棱锥 #mi(`P - ABCD`) 中，#mi(`PA \perp`) 底面 #mi(`ABCD`)，#mi(`AB \perp AD`)，点 #mi(`E`) 在线段 #mi(`AD`) 上，且 #mi(`CE \parallel AB`).
 
 
-+ (1) 求证：$C E bot$ 平面 $P A D$；
-+ (2) 若 $P A = A B = 1$，$A D = 3$，$C D = sqrt(2)$，$angle C D A = 45^( degree )$，求四棱锥 $P - A B C D$ 的体积.
++ (1) 
 
 
-\begin{center}
 
-#align(center)[#image("/papers/2011/img/fujian_liberal/q20_fig1.png", width: 36%)]
 
-\end{center}
+#align(center)[#image("/papers/2011/img/fujian_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-因为 $C E parallel A B$，且 $A B bot A D$，所以 $C E bot A D$. 又因为 $P A bot$ 底面 $A B C D$，所以 $P A bot C E$. 过 $E$ 作直线 $l parallel P A$，则 $l subset$ 平面 $P A D$，且 $l$ 与 $A D$ 相交于 $E$. 由于 $C E bot l$，又 $C E bot A D$，根据线面垂直的判定定理，得 $C E bot$ 平面 $P A D$.
+因为 #mi(`CE\parallel AB`)，且 #mi(`AB\perp AD`)，所以 #mi(`CE\perp AD`). 又因为 #mi(`PA\perp`) 底面 #mi(`ABCD`)，所以 #mi(`PA\perp CE`). 过 #mi(`E`) 作直线 #mi(`l\parallel PA`)，则 #mi(`l\subset`) 平面 #mi(`PAD`)，且 #mi(`l`) 与 #mi(`AD`) 相交于 #mi(`E`). 由于 #mi(`CE\perp l`)，又 #mi(`CE\perp AD`)，根据线面垂直的判定定理，得 #mi(`CE\perp`) 平面 #mi(`PAD`).
 
-建立底面直角坐标系，使 $A=(0,0)$，$D=(3,0)$，$B=(0,1)$. 设 $E=(u,0)$. 由 $C E parallel A B$，可设 $C=(u,v)$. 于是 $arrow(D C)=(u-3,v)$. 因为 $angle C D A=45^ degree$，且 $C D=sqrt(2)$，向量 $arrow(D C)$ 在 $arrow(D A)$ 方向上的投影长度为 $C D cos 45 ""^ degree =1$，所以 $3-u=1$，即 $u=2$. 再由 $C D=sqrt(2)$ 得 $v^2=1$. 取 $C$ 与 $B$ 在 $A D$ 的同侧，得到 $v=1$，即 $C=(2,1)$.
+建立底面直角坐标系，使 #mi(`A=(0,0)`)，#mi(`D=(3,0)`)，#mi(`B=(0,1)`). 设 #mi(`E=(u,0)`). 由 #mi(`CE\parallel AB`)，可设 #mi(`C=(u,v)`). 于是 #mi(`\overrightarrow{DC}=(u-3,v)`). 因为 #mi(`\angle CDA=45^{\circ}`)，且 #mi(`CD=\sqrt{2}`)，向量 #mi(`\overrightarrow{DC}`) 在 #mi(`\overrightarrow{DA}`) 方向上的投影长度为 #mi(`CD\cos45^{\circ}=1`)，所以 #mi(`3-u=1`)，即 #mi(`u=2`). 再由 #mi(`CD=\sqrt{2}`) 得 #mi(`v^{2}=1`). 取 #mi(`C`) 与 #mi(`B`) 在 #mi(`AD`) 的同侧，得到 #mi(`v=1`)，即 #mi(`C=(2,1)`).
 
-底面四边形可分为 $triangle A B D$ 和 $triangle B C D$. 因为 $A B bot A D$，
+底面四边形可分为 #mi(`\triangle ABD`) 和 #mi(`\triangle BCD`). 因为 #mi(`AB\perp AD`)，
 
-$ S_( triangle A B D)=(1)/(2) dot A B dot A D=(1)/(2) dot 1 dot 3 =(3)/(2) $
 
-由 $B=(0,1)$、$C=(2,1)$ 可知 $B C=2$，直线 $B C$ 的方程为 $y=1$，所以点 $D=(3,0)$ 到直线 $B C$ 的距离为 $1$. 又 $C D=sqrt(2)$，所以
+#align(center)[#mitex(`
+S_{\triangle ABD}=\frac{1}{2}\cdot AB\cdot AD=\frac{1}{2}\cdot1\cdot3=\frac{3}{2}
+`)]
 
-$ S_( triangle B C D)=(1)/(2) dot 2 dot 1 =1 $
 
-因此底面面积为 $S_(A B C D)=(3)/(2)+1=(5)/(2)$. 四棱锥的高为 $P A=1$，故体积
+由 #mi(`B=(0,1)`)、#mi(`C=(2,1)`) 可知 #mi(`BC=2`)，直线 #mi(`BC`) 的方程为 #mi(`y=1`)，所以点 #mi(`D=(3,0)`) 到直线 #mi(`BC`) 的距离为 #mi(`1`). 又 #mi(`CD=\sqrt{2}`)，所以
 
-$ V=(1)/(3)S_(A B C D) dot P A=(1)/(3) dot (5)/(2) dot 1 =(5)/(6) $
+
+#align(center)[#mitex(`
+S_{\triangle BCD}=\frac{1}{2}\cdot2\cdot1=1
+`)]
+
+
+因此底面面积为 #mi(`S_{ABCD}=\frac{3}{2}+1=\frac{5}{2}`). 四棱锥的高为 #mi(`PA=1`)，故体积
+
+
+#align(center)[#mitex(`
+V=\frac{1}{3}S_{ABCD}\cdot PA=\frac{1}{3}\cdot\frac{5}{2}\cdot1=\frac{5}{6}
+`)]
 ]
 
 #problem(21)[
-设函数 $f( theta ) = sqrt(3) sin theta + cos theta$，其中，角 $theta$ 的顶点与坐标原点重合，始边与 $x$ 轴非负半轴重合，终边经过点 $P(x, y)$，且 $0 <= theta <= pi$.
+设函数 #mi(`f(\theta) = \sqrt{3}\sin \theta + \cos \theta`)，其中，角 #mi(`\theta`) 的顶点与坐标原点重合，始边与 #mi(`x`) 轴非负半轴重合，终边经过点 #mi(`P(x, y)`)，且 #mi(`0 \le \theta \le \pi`).
 
 
-+ (1) 若点 $P$ 的坐标为 $((1)/(2), (sqrt(3))/(2))$，求 $f( theta )$ 的值；
-+ (2) 若点 $P(x, y)$ 为平面区域 $Omega$：$\b e g i n{c a s e s} x + y >= 1 ,\\ x <= 1 ,\\ y <= 1 \e n d{c a s e s}$ 上的一个动点，试确定角 $theta$ 的取值范围，并求函数 $f( theta )$ 的最小值和最大值.
++ (1)
 ]
 
 #solution[
-对于第一问，点 $P=((1)/(2),(sqrt(3))/(2))$ 在单位圆上，且位于第一象限，所以 $cos theta =(1)/(2)$，$sin theta =(sqrt(3))/(2)$，从而 $theta =(pi)/(3)$. 因此
-
-$ f( theta )=sqrt(3) dot (sqrt(3))/(2)+(1)/(2)=2 $
+对于第一问，点 #mi(`P=\left(\frac{1}{2},\frac{\sqrt{3}}{2}\right)`) 在单位圆上，且位于第一象限，所以 #mi(`\cos\theta=\frac{1}{2}`)，#mi(`\sin\theta=\frac{\sqrt{3}}{2}`)，从而 #mi(`\theta=\frac{\pi}{3}`). 因此
 
 
-对于第二问，由 $x+y >= 1$ 和 $y <= 1$ 可得 $x >= 0$，由 $x+y >= 1$ 和 $x <= 1$ 可得 $y >= 0$. 所以区域 $Omega$ 位于第一象限，其边界经过 $(1,0)$，$(0,1)$，$(1,1)$. 当 $0 <= theta <= (pi)/(4)$ 时，点 $(1, tan theta ) in Omega$；当 $(pi)/(4) <= theta <= (pi)/(2)$ 时，点 $( cot theta ,1) in Omega$. 因而从原点出发的射线与 $Omega$ 相交的角度恰为
+#align(center)[#mitex(`
+f(\theta)=\sqrt{3}\cdot\frac{\sqrt{3}}{2}+\frac{1}{2}=2
+`)]
 
-$ theta in [0,(pi)/(2)] $
+
+对于第二问，由 #mi(`x+y\geqslant1`) 和 #mi(`y\leqslant1`) 可得 #mi(`x\geqslant0`)，由 #mi(`x+y\geqslant1`) 和 #mi(`x\leqslant1`) 可得 #mi(`y\geqslant0`). 所以区域 #mi(`\Omega`) 位于第一象限，其边界经过 #mi(`(1,0)`)，#mi(`(0,1)`)，#mi(`(1,1)`). 当 #mi(`0\le\theta\le\frac{\pi}{4}`) 时，点 #mi(`(1,\tan\theta)\in\Omega`)；当 #mi(`\frac{\pi}{4}\le\theta\le\frac{\pi}{2}`) 时，点 #mi(`(\cot\theta,1)\in\Omega`). 因而从原点出发的射线与 #mi(`\Omega`) 相交的角度恰为
+
+
+#align(center)[#mitex(`
+\theta\in\left[0,\frac{\pi}{2}\right]
+`)]
+
 
 在此区间上，
 
-$ f'( theta )=sqrt(3) cos theta - sin theta $
 
-令 $f'( theta )=0$，得 $tan theta =sqrt(3)$，所以 $theta =(pi)/(3)$. 当 $0 <= theta <(pi)/(3)$ 时 $f'( theta )>0$，当 $(pi)/(3)< theta <= (pi)/(2)$ 时 $f'( theta )<0$. 因而最大值为
+#align(center)[#mitex(`
+f'(\theta)=\sqrt{3}\cos\theta-\sin\theta
+`)]
 
-$ f((pi)/(3))=2 $
 
-端点处 $f(0)=1$，$f((pi)/(2))=sqrt(3)$，所以最小值为 $1$.
+令 #mi(`f'(\theta)=0`)，得 #mi(`\tan\theta=\sqrt{3}`)，所以 #mi(`\theta=\frac{\pi}{3}`). 当 #mi(`0\le\theta<\frac{\pi}{3}`) 时 #mi(`f'(\theta)>0`)，当 #mi(`\frac{\pi}{3}<\theta\le\frac{\pi}{2}`) 时 #mi(`f'(\theta)<0`). 因而最大值为
+
+
+#align(center)[#mitex(`
+f\left(\frac{\pi}{3}\right)=2
+`)]
+
+
+端点处 #mi(`f(0)=1`)，#mi(`f\left(\frac{\pi}{2}\right)=\sqrt{3}`)，所以最小值为 #mi(`1`).
 ]
 
 #problem(22)[
-已知 $a$，$b$ 为常数，且 $a != 0$. 函数 $f(x) = -a x + b + a x ln x$，$f( e ) = 2$（$e = 2.71828 dots.c$ 是自然对数的底数）.
+已知 #mi(`a`)，#mi(`b`) 为常数，且 #mi(`a \neq 0`). 函数 #mi(`f(x) = -ax + b + ax \ln x`)，#mi(`f(\mathrm{e}) = 2`)（#mi(`\mathrm{e}= 2.71828 \cdots`) 是自然对数的底数）.
 
 
-+ (1) 求实数 $b$ 的值；
-+ (2) 求函数 $f(x)$ 的单调区间；
-+ (3) 当 $a = 1$ 时，是否同时存在实数 $m$ 和 $M$（$m < M$），使得对每一个 $t in [m, M]$，直线 $y = t$ 与曲线 $y = f(x)$（$x in [ (1)/(e), e ]$）都有公共点？若存在，求出最小的实数 $m$ 和最大的实数 $M$；若不存在，说明理由.
++ (1) 
++ (2)
 ]
 
 #solution[
-函数的定义域为 $x>0$. 将 $x= e$ 代入，因 $ln e =1$，得
+函数的定义域为 #mi(`x>0`). 将 #mi(`x=\mathrm{e}`) 代入，因 #mi(`\ln\mathrm{e}=1`)，得
 
-$ f( e )=-a e +b+a e ln e =-a e +b+a e =b $
 
-由 $f( e )=2$，得到 $b=2$.
+#align(center)[#mitex(`
+f(\mathrm{e})=-a\mathrm{e}+b+a\mathrm{e}\ln\mathrm{e}=-a\mathrm{e}+b+a\mathrm{e}=b
+`)]
 
-对 $f(x)$ 求导，得
 
-$ f'(x)=-a+a( ln x+1)=a ln x $
+由 #mi(`f(\mathrm{e})=2`)，得到 #mi(`b=2`).
 
-当 $a>0$ 时，$0<x<1$ 有 $ln x<0$，$x>1$ 有 $ln x>0$，所以 $f(x)$ 在 $(0,1)$ 上单调递减，在 $(1,+ oo )$ 上单调递增. 当 $a<0$ 时，导数符号相反，所以 $f(x)$ 在 $(0,1)$ 上单调递增，在 $(1,+ oo )$ 上单调递减.
+对 #mi(`f(x)`) 求导，得
 
-当 $a=1$ 时，$f(x)=-x+2+x ln x$. 在区间 $[(1)/(e), e ]$ 上，函数在 $x=1$ 处取得最小值
 
-$ f(1)=-1+2=1 $
+#align(center)[#mitex(`
+f'(x)=-a+a(\ln x+1)=a\ln x
+`)]
 
-函数在 $[1, e ]$ 上递增，且
 
-$ f( e )=2 $
+当 #mi(`a>0`) 时，#mi(`0<x<1`) 有 #mi(`\ln x<0`)，#mi(`x>1`) 有 #mi(`\ln x>0`)，所以 #mi(`f(x)`) 在 #mi(`(0,1)`) 上单调递减，在 #mi(`(1,+\infty)`) 上单调递增. 当 #mi(`a<0`) 时，导数符号相反，所以 #mi(`f(x)`) 在 #mi(`(0,1)`) 上单调递增，在 #mi(`(1,+\infty)`) 上单调递减.
 
-又在 $[(1)/(e),1]$ 上递减，且
+当 #mi(`a=1`) 时，#mi(`f(x)=-x+2+x\ln x`). 在区间 #mi(`\left[\frac{1}{\mathrm{e}},\mathrm{e}\right]`) 上，函数在 #mi(`x=1`) 处取得最小值
 
-$ f((1)/(e))=2-(2)/(e)<2 $
 
-所以区间上的最大值为 $2$. 函数连续，值域为 $[1,2]$，因此当且仅当 $t in [1,2]$ 时直线 $y=t$ 与曲线有公共点. 所以同时存在这样的 $m$，$M$，其最小值和最大值分别为 $m=1$，$M=2$.
+#align(center)[#mitex(`
+f(1)=-1+2=1
+`)]
+
+
+函数在 #mi(`[1,\mathrm{e}]`) 上递增，且
+
+
+#align(center)[#mitex(`
+f(\mathrm{e})=2
+`)]
+
+
+又在 #mi(`\left[\frac{1}{\mathrm{e}},1\right]`) 上递减，且
+
+
+#align(center)[#mitex(`
+f\left(\frac{1}{\mathrm{e}}\right)=2-\frac{2}{\mathrm{e}}<2
+`)]
+
+
+所以区间上的最大值为 #mi(`2`). 函数连续，值域为 #mi(`[1,2]`)，因此当且仅当 #mi(`t\in[1,2]`) 时直线 #mi(`y=t`) 与曲线有公共点. 所以同时存在这样的 #mi(`m`)，#mi(`M`)，其最小值和最大值分别为 #mi(`m=1`)，#mi(`M=2`).
 ]
 

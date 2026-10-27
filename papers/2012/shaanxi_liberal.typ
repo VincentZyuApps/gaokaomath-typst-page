@@ -71,7 +71,9 @@
 
 \centering
 
-[max width=0.46\linewidth]img/2012/shaanxi_liberal/q5_fig1.png
+
+#align(center)[#image("/papers/2012/img/shaanxi_liberal/q5_fig1.png", width: 28%)]
+
   #choices([#mi(`q = \frac{N}{M}`)], [#mi(`q = \frac{M}{N}`)], [#mi(`q = \frac{N}{M + N}`)], [#mi(`q = \frac{M}{M + N}`)], cols: 2)
 ]
 
@@ -108,8 +110,18 @@
 
 \centering
 
-[max width=0.92\linewidth]img/2012/shaanxi_liberal/q8_fig1.png
-  #choices([[width=0.15\paperwidth]img/2012/shaanxi_liberal/q8_optA.png], [[width=0.15\paperwidth]img/2012/shaanxi_liberal/q8_optB.png], [[width=0.15\paperwidth]img/2012/shaanxi_liberal/q8_optC.png], [[width=0.15\paperwidth]img/2012/shaanxi_liberal/q8_optD.png], cols: 1)
+
+#align(center)[#image("/papers/2012/img/shaanxi_liberal/q8_fig1.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2012/img/shaanxi_liberal/q8_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/shaanxi_liberal/q8_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/shaanxi_liberal/q8_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/shaanxi_liberal/q8_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B])
@@ -177,7 +189,9 @@
 
 \centering
 
-[max width=0.42\linewidth]img/2012/shaanxi_liberal/q14_fig1.png
+
+#align(center)[#image("/papers/2012/img/shaanxi_liberal/q14_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`2\sqrt{6}`)])
@@ -203,7 +217,9 @@
 
 \centering
 
-[max width=0.30\linewidth]img/2012/shaanxi_liberal/q15_fig1.png
+
+#align(center)[#image("/papers/2012/img/shaanxi_liberal/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`5`)])
@@ -256,7 +272,9 @@
 
 \centering
 
-[max width=0.52\linewidth]img/2012/shaanxi_liberal/q18_fig1.png
+
+#align(center)[#image("/papers/2012/img/shaanxi_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -273,7 +291,9 @@
 
 \centering
 
-[max width=0.72\linewidth]img/2012/shaanxi_liberal/q19_fig1.png
+
+#align(center)[#image("/papers/2012/img/shaanxi_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

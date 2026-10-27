@@ -96,7 +96,15 @@ a(a+d)(a+2d)=4a(8-a)=48
 
 #problem(5)[
 极坐标方程 #mi(`\rho = 2\sin \left(\theta + \frac{\pi}{4}\right)`) 的图形是（ ）
-  #choices([[width=0.15\paperwidth]img/2001/syllabus_science/q5_optA.png], [[width=0.15\paperwidth]img/2001/syllabus_science/q5_optB.png], [[width=0.15\paperwidth]img/2001/syllabus_science/q5_optC.png], [[width=0.15\paperwidth]img/2001/syllabus_science/q5_optD.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2001/img/syllabus_science/q5_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2001/img/syllabus_science/q5_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2001/img/syllabus_science/q5_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2001/img/syllabus_science/q5_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([C])
@@ -212,11 +220,11 @@ a=h(\alpha)<h(\beta)=b
 #solution[
 设正三棱柱的底面边长为 #mi(`s`)，高为 #mi(`h`). 由题意 #mi(`s=\sqrt{2}h`)，即 #mi(`h^{2}=\frac{s^{2}}{2}`). 取 #mi(`B`) 为原点，令
 
-#mi(`A=(s,0,0)`)，#mi(`C=\left(\frac{s}{2},\frac{\sqrt{3s}}{2},0\right)`)，#mi(`B_{1}=(0,0,h)`)
+#mi(`A=(s,0,0)`)，#mi(`C=\left(\frac{s}{2},\frac{\sqrt{3}s}{2},0\right)`)，#mi(`B_{1}=(0,0,h)`)
 
-则 #mi(`C_{1}=\left(\frac{s}{2},\frac{\sqrt{3s}}{2},h\right)`). 取两直线方向向量
+则 #mi(`C_{1}=\left(\frac{s}{2},\frac{\sqrt{3}s}{2},h\right)`). 取两直线方向向量
 
-#mi(`\overrightarrow{AB_1}=(-s,0,h)`)，#mi(`\overrightarrow{BC_1}=\left(\frac{s}{2},\frac{\sqrt{3s}}{2},h\right)`).
+#mi(`\overrightarrow{AB_1}=(-s,0,h)`)，#mi(`\overrightarrow{BC_1}=\left(\frac{s}{2},\frac{\sqrt{3}s}{2},h\right)`).
 
 它们的数量积为
 
@@ -280,7 +288,9 @@ h(x_{2})-h(x_{1})=\bigl(f(x_{2})-f(x_{1})\bigr)-\bigl(g(x_{2})-g(x_{1})\bigr)\le
 
 记三种盖法屋顶面积分别为 #mi(`P_{1}`)，#mi(`P_{2}`)，#mi(`P_{3}`). 若屋顶斜面与水平面所成的角都是 #mi(`\alpha`)，则（ ）
 
-[max width=0.70\linewidth]img/2001/syllabus_science/q11_fig1.png
+
+#align(center)[#image("/papers/2001/img/syllabus_science/q11_fig1.png", width: 28%)]
+
   #choices([#mi(`P_{3}> P_{2}> P_{1}`)], [#mi(`P_{3}> P_{2}= P_{1}`)], [#mi(`P_{3}= P_{2}> P_{1}`)], [#mi(`P_{3}= P_{2}= P_{1}`)], cols: 2)
 ]
 
@@ -305,7 +315,9 @@ P_{1}=P_{2}=P_{3}
 #problem(12)[
 如图，小圆圈表示网络的结点，结点之间的连线表示它们有网线相联. 连线标注的数字表示该段网线单位时间内可以通过的最大信息量. 现从结点 #mi(`A`) 向结点 #mi(`B`) 传递信息，信息可以分开沿不同的路线同时传递. 则单位时间内传递的最大信息量为（ ）
 
-[max width=6.4cm]img/2001/syllabus_science/q12_fig1.png
+
+#align(center)[#image("/papers/2001/img/syllabus_science/q12_fig1.png", width: 28%)]
+
   #choices([26], [24], [20], [19], cols: 4)
 ]
 
@@ -417,7 +429,9 @@ n(2n-2)=2n(n-1)
 
 
 
-[max width=6.4cm]img/2001/syllabus_science/q17_fig1.png
+
+#align(center)[#image("/papers/2001/img/syllabus_science/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[

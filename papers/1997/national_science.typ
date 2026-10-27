@@ -34,7 +34,15 @@
 
 #problem(3)[
 函数 #mi(`y = \tan \left(\frac{1}{2}x - \frac{\pi}{3}\right)`) 在一个周期内的图象是（#mi(`\quad`)）
-  #choices([[width=0.15\paperwidth]img/1997/national_science/q3_optA_clean.png], [[width=0.15\paperwidth]img/1997/national_science/q3_optB_clean.png], [[width=0.15\paperwidth]img/1997/national_science/q3_optC_clean.png], [[width=0.15\paperwidth]img/1997/national_science/q3_optD_clean.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/1997/img/national_science/q3_optA_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1997/img/national_science/q3_optB_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1997/img/national_science/q3_optC_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1997/img/national_science/q3_optD_clean.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
@@ -234,7 +242,7 @@ V=\frac{\pi h}{3}(R^{2}+Rr+r^{2})=\frac{\pi\sqrt{3}}{3}(4+2+1)=\frac{7\sqrt{3}\p
 
 
 其中成立的是（#mi(`\quad`)）
-  #choices([#mi(`①`)与#mi(`④`)], [#mi(`②`)与#mi(`③`)], [#mi(`①`)与#mi(`③`)], [#mi(`②`)与#mi(`④`)], cols: 2)
+  #choices([#mi(`①`) 与#mi(`④`)], [#mi(`②`) 与#mi(`③`)], [#mi(`①`) 与#mi(`③`)], [#mi(`②`) 与#mi(`④`)], cols: 2)
 ]
 
 #answer([C])
@@ -514,7 +522,9 @@ S_{n}\longrightarrow\frac{a_{1}}{1-p}+\frac{b_{1}}{1-q}>0
 
 
 
-[width=0.33\linewidth]img/1997/national_science/q23_fig1.png
+
+#align(center)[#image("/papers/1997/img/national_science/q23_fig1.png", width: 28%)]
+
 ]
 
 #solution[

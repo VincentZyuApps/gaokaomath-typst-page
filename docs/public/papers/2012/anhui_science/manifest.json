@@ -1,8 +1,137 @@
 {
-  "title": "2012年普通高等学校招生全国统一考试",
-  "subtitle": "2012年安徽卷（理）",
   "year": "2012",
   "slug": "anhui_science",
+  "title": "2012年安徽卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +146,9 @@
             "$2 + 2\\mathrm{i}$"
           ],
           "answer": "D",
-          "solution": "<p>由 $(z-\\mathrm{i})(2-\\mathrm{i})=5$，得</p><p>$z-\\mathrm{i}=\\dfrac{5}{2-\\mathrm{i}}=\\dfrac{5(2+\\mathrm{i})}{5}=2+\\mathrm{i}$，所以 $z=2+2\\mathrm{i}$. 故选 D.</p>"
+          "solution": "<p>由 $(z-\\mathrm{i})(2-\\mathrm{i})=5$，得</p><p>$z-\\mathrm{i}=\\dfrac{5}{2-\\mathrm{i}}=\\dfrac{5(2+\\mathrm{i})}{5}=2+\\mathrm{i}$，所以 $z=2+2\\mathrm{i}$. 故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,11 +160,13 @@
             "$f(x) = -x$"
           ],
           "answer": "C",
-          "solution": "逐项检验条件 $f(2x)=2f(x)$. 对于 $f(x)=|x|$，有 $f(2x)=|2x|=2|x|=2f(x)$；对于 $f(x)=x-|x|$，有 $f(2x)=2x-|2x|=2(x-|x|)=2f(x)$；对于 $f(x)=x+1$，有 $f(2x)=2x+1$，而 $2f(x)=2x+2$，二者不相等；对于 $f(x)=-x$，有 $f(2x)=-2x=2f(x)$. 因此不满足条件的是 C."
+          "solution": "逐项检验条件 $f(2x)=2f(x)$. 对于 $f(x)=|x|$，有 $f(2x)=|2x|=2|x|=2f(x)$；对于 $f(x)=x-|x|$，有 $f(2x)=2x-|2x|=2(x-|x|)=2f(x)$；对于 $f(x)=x+1$，有 $f(2x)=2x+1$，而 $2f(x)=2x+2$，二者不相等；对于 $f(x)=-x$，有 $f(2x)=-2x=2f(x)$. 因此不满足条件的是 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
-          "body": "<p>如图所示，程序框图（算法流程图）的输出结果是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图所示，程序框图（算法流程图）的输出结果是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/anhui_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "3",
             "4",
@@ -41,7 +174,9 @@
             "8"
           ],
           "answer": "B",
-          "solution": "程序开始时 $x=1$，$y=1$. 当 $x\\leqslant4$ 时执行 $x=2x$，$y=y+1$，依次得到 $(x,y)=(2,2)$、$(4,3)$、$(8,4)$. 此时 $x=8>4$，循环结束，输出 $y=4$，故选 B."
+          "solution": "程序开始时 $x=1$，$y=1$. 当 $x\\leqslant4$ 时执行 $x=2x$，$y=y+1$，依次得到 $(x,y)=(2,2)$、$(4,3)$、$(8,4)$. 此时 $x=8>4$，循环结束，输出 $y=4$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,11 +188,13 @@
             "7"
           ],
           "answer": "B",
-          "solution": "<p>设等比数列的首项为 $a_{1}$，公比为 $q=\\sqrt[3]{2}$. 由等比数列性质，</p><p>$a_{3}a_{11}=a_{1}^{2}q^{12}=16a_{1}^{2}=16$. 因各项为正数，得 $a_{1}=1$. 因此 $a_{16}=q^{15}=\\left(\\sqrt[3]{2}\\right)^{15}=2^{5}=32$，所以 $\\log_{2}a_{16}=5$，故选 B.</p>"
+          "solution": "<p>设等比数列的首项为 $a_{1}$，公比为 $q=\\sqrt[3]{2}$. 由等比数列性质，</p><p>$a_{3}a_{11}=a_{1}^{2}q^{12}=16a_{1}^{2}=16$. 因各项为正数，得 $a_{1}=1$. 因此 $a_{16}=q^{15}=\\left(\\sqrt[3]{2}\\right)^{15}=2^{5}=32$，所以 $\\log_{2}a_{16}=5$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
-          "body": "<p>甲，乙两人在一次射击比赛中各射靶 $5$ 次，两人成绩的条形统计图如图所示，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>甲，乙两人在一次射击比赛中各射靶 $5$ 次，两人成绩的条形统计图如图所示，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/anhui_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "甲的成绩的平均数小于乙的成绩的平均数",
             "甲的成绩的中位数等于乙的成绩的中位数",
@@ -65,7 +202,9 @@
             "甲的成绩的极差小于乙的成绩的极差"
           ],
           "answer": "原题图文矛盾，单选无唯一答案；按图面数据，A、C 均成立.",
-          "solution": "<p>甲组图中 $4$，$5$，$6$，$7$，$8$ 环的频数均为 $1$，乙组图中 $5$，$6$，$9$ 环的频数分别为 $3$，$1$，$2$. 因而乙组频数合计 $3+1+2=6$，与题干“各射靶 $5$ 次”矛盾，原题的全部条件不能同时满足.</p><p>按图面数据检验四个选项. 甲组平均数为 $\\dfrac{4+5+6+7+8}{5}=6$，中位数为 $6$，极差为 $8-4=4$，方差为</p>\n$$\n\\frac{(4-6)^{2}+(5-6)^{2}+(6-6)^{2}+(7-6)^{2}+(8-6)^{2}}{5}=\\frac{10}{5}=2\n$$\n<p>乙组按大小排列的成绩为 $5$，$5$，$5$，$6$，$9$，$9$，平均数为 $\\dfrac{3\\cdot5+6+2\\cdot9}{6}=\\dfrac{13}{2}$，中位数为 $\\dfrac{5+6}{2}=\\dfrac{11}{2}$，极差为 $9-5=4$，方差为</p>\n$$\n\\frac{3\\left(5-\\frac{13}{2}\\right)^{2}+\\left(6-\\frac{13}{2}\\right)^{2}+2\\left(9-\\frac{13}{2}\\right)^{2}}{6}=\\frac{39}{12}=\\frac{13}{4}\n$$\n<p>又由平方的平均数减去平均数的平方，可独立验得乙组方差为 $\\dfrac{3\\cdot25+36+2\\cdot81}{6}-\\left(\\dfrac{13}{2}\\right)^{2}=\\dfrac{91}{2}-\\dfrac{169}{4}=\\dfrac{13}{4}$.</p><p>因为 $6<\\dfrac{13}{2}$，A 成立；因为 $6\\ne\\dfrac{11}{2}$，B 不成立；因为 $2<\\dfrac{13}{4}$，C 成立；因为两组极差都为 $4$，D 不成立. 因此按原图 A、C 同时成立；连同题干次数与图面频数的矛盾，原题不能作为单选题唯一作答，不能仅保留 C 或擅自删去乙组的一个数据.</p>"
+          "solution": "<p>甲组图中 $4$，$5$，$6$，$7$，$8$ 环的频数均为 $1$，乙组图中 $5$，$6$，$9$ 环的频数分别为 $3$，$1$，$2$. 因而乙组频数合计 $3+1+2=6$，与题干“各射靶 $5$ 次”矛盾，原题的全部条件不能同时满足.</p><p>按图面数据检验四个选项. 甲组平均数为 $\\dfrac{4+5+6+7+8}{5}=6$，中位数为 $6$，极差为 $8-4=4$，方差为</p>\n$$\n\\frac{(4-6)^{2}+(5-6)^{2}+(6-6)^{2}+(7-6)^{2}+(8-6)^{2}}{5}=\\frac{10}{5}=2\n$$\n<p>乙组按大小排列的成绩为 $5$，$5$，$5$，$6$，$9$，$9$，平均数为 $\\dfrac{3\\cdot5+6+2\\cdot9}{6}=\\dfrac{13}{2}$，中位数为 $\\dfrac{5+6}{2}=\\dfrac{11}{2}$，极差为 $9-5=4$，方差为</p>\n$$\n\\frac{3\\left(5-\\frac{13}{2}\\right)^{2}+\\left(6-\\frac{13}{2}\\right)^{2}+2\\left(9-\\frac{13}{2}\\right)^{2}}{6}=\\frac{39}{12}=\\frac{13}{4}\n$$\n<p>又由平方的平均数减去平均数的平方，可独立验得乙组方差为 $\\dfrac{3\\cdot25+36+2\\cdot81}{6}-\\left(\\dfrac{13}{2}\\right)^{2}=\\dfrac{91}{2}-\\dfrac{169}{4}=\\dfrac{13}{4}$.</p><p>因为 $6<\\dfrac{13}{2}$，A 成立；因为 $6\\ne\\dfrac{11}{2}$，B 不成立；因为 $2<\\dfrac{13}{4}$，C 成立；因为两组极差都为 $4$，D 不成立. 因此按原图 A、C 同时成立；连同题干次数与图面频数的矛盾，原题不能作为单选题唯一作答，不能仅保留 C 或擅自删去乙组的一个数据.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +216,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>若 $\\alpha\\perp\\beta$，则平面 $\\beta$ 内垂直于交线 $m$ 的直线 $b$ 垂直于平面 $\\alpha$，从而 $b\\perp a$. 因此 $\\alpha\\perp\\beta$ 是 $a\\perp b$ 的充分条件.</p><p>反之，取 $a=m$，则由已知 $b\\perp m$ 可得 $a\\perp b$，但 $\\alpha$ 与 $\\beta$ 不一定垂直，所以它不是必要条件. 故选 A.</p>"
+          "solution": "<p>若 $\\alpha\\perp\\beta$，则平面 $\\beta$ 内垂直于交线 $m$ 的直线 $b$ 垂直于平面 $\\alpha$，从而 $b\\perp a$. 因此 $\\alpha\\perp\\beta$ 是 $a\\perp b$ 的充分条件.</p><p>反之，取 $a=m$，则由已知 $b\\perp m$ 可得 $a\\perp b$，但 $\\alpha$ 与 $\\beta$ 不一定垂直，所以它不是必要条件. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +230,9 @@
             "3"
           ],
           "answer": "D",
-          "solution": "将 $\\left(\\dfrac{1}{x^2}-1\\right)^{5}$ 展开时，乘以 $x^{2}$ 后的常数项来自 $\\left(\\dfrac{1}{x^2}\\right)^{1}$ 项，系数为 $\\mathrm{C}_{5}^{1}(-1)^{4}=5$；乘以 $2$ 后的常数项来自 $(-1)^{5}$，系数为 $-2$. 因此原式的常数项为 $5-2=3$，故选 D."
+          "solution": "将 $\\left(\\dfrac{1}{x^2}-1\\right)^{5}$ 展开时，乘以 $x^{2}$ 后的常数项来自 $\\left(\\dfrac{1}{x^2}\\right)^{1}$ 项，系数为 $\\mathrm{C}_{5}^{1}(-1)^{4}=5$；乘以 $2$ 后的常数项来自 $(-1)^{5}$，系数为 $-2$. 因此原式的常数项为 $5-2=3$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +244,9 @@
             "$(-4\\sqrt{6}, 2)$"
           ],
           "answer": "A",
-          "solution": "<p>旋转角为 $\\dfrac{3\\pi}{4}$，故</p><p>$Q=\\left(6\\cos\\dfrac{3\\pi}{4}-8\\sin\\dfrac{3\\pi}{4},6\\sin\\dfrac{3\\pi}{4}+8\\cos\\dfrac{3\\pi}{4}\\right)=(-7\\sqrt{2},-\\sqrt{2})$. 故选 A.</p>"
+          "solution": "<p>旋转角为 $\\dfrac{3\\pi}{4}$，故</p><p>$Q=\\left(6\\cos\\dfrac{3\\pi}{4}-8\\sin\\dfrac{3\\pi}{4},6\\sin\\dfrac{3\\pi}{4}+8\\cos\\dfrac{3\\pi}{4}\\right)=(-7\\sqrt{2},-\\sqrt{2})$. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +258,9 @@
             "$2 \\sqrt{2}$"
           ],
           "answer": "C",
-          "solution": "<p>抛物线 $y^{2}=4x$ 的焦点为 $F(1,0)$. 设抛物线上参数为 $t$ 的点为 $M_{t}(t^{2},2t)$. 对点 $A=M_{t_1}$，由焦点弦长公式 $|AF|=1+t_{1}^{2}=3$，得 $t_{1}^{2}=2$. 直线 $AB$ 过焦点时，三点 $F$，$M_{t_1}$，$M_{t_2}$ 共线，从行列式条件得</p>\n$$\n\\frac{2t_{1}}{t_{1}^{2}-1}=\\frac{2t_{2}}{t_{2}^{2}-1}\n$$\n<p>由 $t_{1}\\ne t_{2}$，交叉相乘得 $t_{1}t_{2}=-1$. 由 $t_{1}=\\pm\\sqrt{2}$，两种取值只使图形关于 $x$ 轴对称，三角形面积相同，故不妨取 $t_{1}=\\sqrt{2}$. 此时 $t_{2}=-\\dfrac{1}{\\sqrt{2}}$，从而 $A=(2,2\\sqrt{2})$，$B=\\left(\\dfrac{1}{2},-\\sqrt{2}\\right)$.</p><p>因此</p><p>$S_{\\triangle AOB}=\\dfrac{1}{2}\\left|x_{A}y_{B}-y_{A}x_{B}\\right|=\\dfrac{1}{2}\\left|-2\\sqrt{2}-\\sqrt{2}\\right|=\\dfrac{3\\sqrt{2}}{2}$，故选 C.</p>"
+          "solution": "<p>抛物线 $y^{2}=4x$ 的焦点为 $F(1,0)$. 设抛物线上参数为 $t$ 的点为 $M_{t}(t^{2},2t)$. 对点 $A=M_{t_1}$，由焦点弦长公式 $|AF|=1+t_{1}^{2}=3$，得 $t_{1}^{2}=2$. 直线 $AB$ 过焦点时，三点 $F$，$M_{t_1}$，$M_{t_2}$ 共线，从行列式条件得</p>\n$$\n\\frac{2t_{1}}{t_{1}^{2}-1}=\\frac{2t_{2}}{t_{2}^{2}-1}\n$$\n<p>由 $t_{1}\\ne t_{2}$，交叉相乘得 $t_{1}t_{2}=-1$. 由 $t_{1}=\\pm\\sqrt{2}$，两种取值只使图形关于 $x$ 轴对称，三角形面积相同，故不妨取 $t_{1}=\\sqrt{2}$. 此时 $t_{2}=-\\dfrac{1}{\\sqrt{2}}$，从而 $A=(2,2\\sqrt{2})$，$B=\\left(\\dfrac{1}{2},-\\sqrt{2}\\right)$.</p><p>因此</p><p>$S_{\\triangle AOB}=\\dfrac{1}{2}\\left|x_{A}y_{B}-y_{A}x_{B}\\right|=\\dfrac{1}{2}\\left|-2\\sqrt{2}-\\sqrt{2}\\right|=\\dfrac{3\\sqrt{2}}{2}$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +272,9 @@
             "2 或 4"
           ],
           "answer": "D",
-          "solution": "<p>把每位同学看作一个顶点，两位同学交换就在相应顶点间连一条边，则得到一个有 $6$ 个顶点、$13$ 条边的简单图. 每位同学收到的纪念品份数就是对应顶点的度数.</p><p>补图有 $\\mathrm{C}_{6}^{2}-13=15-13=2$ 条边. 在补图中，原图中度数为 $4$ 的顶点恰好是度数为 $1$ 的顶点. 两条边在补图中可能互不相邻，此时有 $4$ 个度数为 $1$ 的顶点；也可能有一个公共端点，此时有 $2$ 个度数为 $1$ 的顶点. 所以收到 $4$ 份纪念品的同学人数为 $2$ 或 $4$，故选 D.</p>"
+          "solution": "<p>把每位同学看作一个顶点，两位同学交换就在相应顶点间连一条边，则得到一个有 $6$ 个顶点、$13$ 条边的简单图. 每位同学收到的纪念品份数就是对应顶点的度数.</p><p>补图有 $\\mathrm{C}_{6}^{2}-13=15-13=2$ 条边. 在补图中，原图中度数为 $4$ 的顶点恰好是度数为 $1$ 的顶点. 两条边在补图中可能互不相邻，此时有 $4$ 个度数为 $1$ 的顶点；也可能有一个公共端点，此时有 $2$ 个度数为 $1$ 的顶点. 所以收到 $4$ 份纪念品的同学人数为 $2$ 或 $4$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,37 +284,47 @@
         {
           "num": 11,
           "body": "若 $x$，$y$ 满足约束条件 $\\begin{cases}x \\ge 0,\\\\  x + 2y \\ge 3,\\\\  2x + y \\le 3,\\end{cases}$ 则 $x - y$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$[-3,0]$",
-          "solution": "<p>由约束条件的边界直线得可行域的三个顶点：</p><p>$(0,\\tfrac32)$，$(0,3)$，$(1,1)$.</p><p>目标函数为 $x-y$，在多边形可行域上其最值出现在顶点处. 代入三个顶点，分别得到</p><p>$-\\tfrac32$，$-3$，$0$.</p><p>因此 $x-y$ 的取值范围是 $[-3,0]$.</p>"
+          "choices": [],
+          "answer": "\\([-3,0]\\)",
+          "solution": "<p>由约束条件的边界直线得可行域的三个顶点：</p><p>$(0,\\tfrac32)$，$(0,3)$，$(1,1)$.</p><p>目标函数为 $x-y$，在多边形可行域上其最值出现在顶点处. 代入三个顶点，分别得到</p><p>$-\\tfrac32$，$-3$，$0$.</p><p>因此 $x-y$ 的取值范围是 $[-3,0]$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
-          "body": "<p>某几何体的三视图如图所示，该几何体的表面积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>某几何体的三视图如图所示，该几何体的表面积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/anhui_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "92",
-          "solution": "<p>由三视图可知，该几何体是以图示梯形为底面的直棱柱. 梯形的两条平行边长分别为 $5$ 和 $2$，高为 $4$，斜边长为</p>\n$$\n\\sqrt{(5-2)^{2}+4^{2}}=5\n$$\n<p>所以梯形面积为</p>\n$$\nS_{\\text{底}}=\\frac{5+2}{2}\\cdot4=14\n$$\n<p>周长为 $5+2+5+4=16$. 由三视图可得棱柱的高为 $4$，故表面积为</p>\n$$\n2S_{\\text{底}}+16\\cdot4=2\\cdot14+64=92\n$$"
+          "solution": "<p>由三视图可知，该几何体是以图示梯形为底面的直棱柱. 梯形的两条平行边长分别为 $5$ 和 $2$，高为 $4$，斜边长为</p>\n$$\n\\sqrt{(5-2)^{2}+4^{2}}=5\n$$\n<p>所以梯形面积为</p>\n$$\nS_{\\text{底}}=\\frac{5+2}{2}\\cdot4=14\n$$\n<p>周长为 $5+2+5+4=16$. 由三视图可得棱柱的高为 $4$，故表面积为</p>\n$$\n2S_{\\text{底}}+16\\cdot4=2\\cdot14+64=92\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "在极坐标系中，圆 $\\rho = 4\\sin \\theta$ 的圆心到直线 $\\theta = \\frac{\\pi}{6}$（$\\rho \\in \\mathbb{R}$）的距离是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\sqrt{3}$",
-          "solution": "<p>将极坐标方程化为直角坐标方程：</p>\n$$\n\\rho=4\\sin\\theta  \\Longrightarrow \\rho^{2}=4\\rho\\sin\\theta  \\Longrightarrow x^{2}+y^{2}=4y\n$$\n<p>因此圆的方程为 $x^{2}+(y-2)^{2}=4$，圆心为 $O'(0,2)$. 直线 $\\theta=\\frac{\\pi}{6}$ 且 $\\rho\\in\\mathbb{R}$ 的方程为</p>\n$$\ny=\\frac{1}{\\sqrt{3}}x,\\qquad\\text{即 }x-\\sqrt{3}y=0\n$$\n<p>圆心到该直线的距离为</p>\n$$\n\\frac{|0-2\\sqrt{3}|}{\\sqrt{1+3}}=\\sqrt{3}\n$$"
+          "choices": [],
+          "answer": "\\(\\sqrt{3}\\)",
+          "solution": "<p>将极坐标方程化为直角坐标方程：</p>\n$$\n\\rho=4\\sin\\theta  \\Longrightarrow \\rho^{2}=4\\rho\\sin\\theta  \\Longrightarrow x^{2}+y^{2}=4y\n$$\n<p>因此圆的方程为 $x^{2}+(y-2)^{2}=4$，圆心为 $O'(0,2)$. 直线 $\\theta=\\frac{\\pi}{6}$ 且 $\\rho\\in\\mathbb{R}$ 的方程为</p>\n$$\ny=\\frac{1}{\\sqrt{3}}x,\\qquad\\text{即 }x-\\sqrt{3}y=0\n$$\n<p>圆心到该直线的距离为</p>\n$$\n\\frac{|0-2\\sqrt{3}|}{\\sqrt{1+3}}=\\sqrt{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "若平面向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $|2\\mathbf{a}- \\mathbf{b}| \\le 3$，则 $\\mathbf{a}\\cdot \\mathbf{b}$ 的最小值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-\\frac{9}{8}$",
-          "solution": "<p>令 $\\mathbf{u}=2\\mathbf{a}-\\mathbf{b}$，则 $|\\mathbf{u}|\\leqslant3$，且 $\\mathbf{b}=2\\mathbf{a}-\\mathbf{u}$. 于是</p><p>$\\mathbf{a}\\cdot\\mathbf{b}=2|\\mathbf{a}|^{2}-\\mathbf{a}\\cdot\\mathbf{u} \\geqslant2|\\mathbf{a}|^{2}-|\\mathbf{a}|\\,|\\mathbf{u}| \\geqslant2r^{2}-3r$，$r=|\\mathbf{a}|\\geqslant0$.</p><p>配方得</p>\n$$\n2r^{2}-3r=2\\left(r-\\frac{3}{4}\\right)^{2}-\\frac{9}{8}\\ge-\\frac{9}{8}\n$$\n<p>当 $\\mathbf{a}=(\\frac{3}{4},0)$，$\\mathbf{u}=(3,0)$，从而 $\\mathbf{b}=(-\\frac{3}{2},0)$ 时，条件成立且内积等于 $-\\frac{9}{8}$. 因此最小值为 $-\\frac{9}{8}$.</p>"
+          "choices": [],
+          "answer": "\\(-\\frac{9}{8}\\)",
+          "solution": "<p>令 $\\mathbf{u}=2\\mathbf{a}-\\mathbf{b}$，则 $|\\mathbf{u}|\\leqslant3$，且 $\\mathbf{b}=2\\mathbf{a}-\\mathbf{u}$. 于是</p><p>$\\mathbf{a}\\cdot\\mathbf{b}=2|\\mathbf{a}|^{2}-\\mathbf{a}\\cdot\\mathbf{u} \\geqslant2|\\mathbf{a}|^{2}-|\\mathbf{a}|\\,|\\mathbf{u}| \\geqslant2r^{2}-3r$，$r=|\\mathbf{a}|\\geqslant0$.</p><p>配方得</p>\n$$\n2r^{2}-3r=2\\left(r-\\frac{3}{4}\\right)^{2}-\\frac{9}{8}\\ge-\\frac{9}{8}\n$$\n<p>当 $\\mathbf{a}=(\\frac{3}{4},0)$，$\\mathbf{u}=(3,0)$，从而 $\\mathbf{b}=(-\\frac{3}{2},0)$ 时，条件成立且内积等于 $-\\frac{9}{8}$. 因此最小值为 $-\\frac{9}{8}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "<p>设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 所对边的长分别为 $a$，$b$，$c$，则下列命题正确的是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （写出所有正确命题的编号）</p><ol class=\"enumerate\"><li><p>若 $ab > c^{2}$，则 $C < \\frac{\\pi}{3}$.</p></li><li><p>若 $a + b > 2c$，则 $C < \\frac{\\pi}{3}$.</p></li><li><p>若 $a^{3} + b^{3} = c^{3}$，则 $C < \\frac{\\pi}{2}$.</p></li><li><p>若 $(a + b)c < 2ab$，则 $C > \\frac{\\pi}{2}$.</p></li><li><p>若 $(a^{2} + b^{2})c^{2} < 2a^{2}b^{2}$，则 $C > \\frac{\\pi}{3}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "1，2，3",
-          "solution": "<p>由余弦定理，</p>\n$$\n\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}\n$$\n<p>逐项判断.</p><ol class=\"enumerate\"><li><p>若 $ab>c^{2}$，则</p>\n$$\na^{2}+b^{2}-c^{2}>a^{2}+b^{2}-ab\\ge ab\n$$\n<p>故 $\\cos C>\\frac{1}{2}$，从而 $C<\\frac{\\pi}{3}$. 命题 1 正确.</p></li><li><p>若 $a+b>2c$，则 $c<\\frac{a+b}{2}$. 又</p>\n$$\n\\frac{(a+b)^{2}}{4}\\le a^{2}+b^{2}-ab\n$$\n<p>因为两边之差为 $\\frac{3}{4}(a-b)^{2}$. 因此</p>\n$$\nc^{2}<\\frac{(a+b)^{2}}{4}\\le a^{2}+b^{2}-ab\n$$\n<p>故 $\\cos C>\\frac{1}{2}$，从而 $C<\\frac{\\pi}{3}$. 命题 2 正确.</p></li><li><p>设 $p=\\frac{a^{2}}{a^{2}+b^{2}}$，$q=\\frac{b^{2}}{a^{2}+b^{2}}$，则 $p+q=1$，且 $p$，$q\\in(0,1)$. 所以</p>\n$$\np^{\\frac{3}{2}}+q^{\\frac{3}{2}}<p+q=1\n$$\n<p>由 $a^{3}+b^{3}=c^{3}$ 得</p>\n$$\nc^{3}=a^{3}+b^{3}<(a^{2}+b^{2})^{\\frac{3}{2}}\n$$\n<p>从而 $c^{2}<a^{2}+b^{2}$. 于是 $\\cos C>0$，即 $C<\\frac{\\pi}{2}$. 命题 3 正确.</p></li><li><p>取 $a=b=1$，$c=0.9$，三边能构成三角形，且 $(a+b)c=1.8<2=2ab$，但</p>\n$$\n\\cos C=\\frac{2-0.9^{2}}{2}>0\n$$\n<p>所以 $C<\\frac{\\pi}{2}$，不是 $C>\\frac{\\pi}{2}$. 命题 4 错误.</p></li><li><p>取 $a=b=1$，$c=\\frac{1}{2}$，则 $(a^{2}+b^{2})c^{2}=\\frac{1}{2}<2=2a^{2}b^{2}$，但</p>\n$$\n\\cos C=\\frac{2-\\frac{1}{4}}{2}>\\frac{1}{2}\n$$\n<p>所以 $C<\\frac{\\pi}{3}$，不是 $C>\\frac{\\pi}{3}$. 命题 5 错误.</p></li></ol><p>因此正确命题的编号为 1，2，3.</p>"
+          "solution": "<p>由余弦定理，</p>\n$$\n\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}\n$$\n<p>逐项判断.</p><ol class=\"enumerate\"><li><p>若 $ab>c^{2}$，则</p>\n$$\na^{2}+b^{2}-c^{2}>a^{2}+b^{2}-ab\\ge ab\n$$\n<p>故 $\\cos C>\\frac{1}{2}$，从而 $C<\\frac{\\pi}{3}$. 命题 1 正确.</p></li><li><p>若 $a+b>2c$，则 $c<\\frac{a+b}{2}$. 又</p>\n$$\n\\frac{(a+b)^{2}}{4}\\le a^{2}+b^{2}-ab\n$$\n<p>因为两边之差为 $\\frac{3}{4}(a-b)^{2}$. 因此</p>\n$$\nc^{2}<\\frac{(a+b)^{2}}{4}\\le a^{2}+b^{2}-ab\n$$\n<p>故 $\\cos C>\\frac{1}{2}$，从而 $C<\\frac{\\pi}{3}$. 命题 2 正确.</p></li><li><p>设 $p=\\frac{a^{2}}{a^{2}+b^{2}}$，$q=\\frac{b^{2}}{a^{2}+b^{2}}$，则 $p+q=1$，且 $p$，$q\\in(0,1)$. 所以</p>\n$$\np^{\\frac{3}{2}}+q^{\\frac{3}{2}}<p+q=1\n$$\n<p>由 $a^{3}+b^{3}=c^{3}$ 得</p>\n$$\nc^{3}=a^{3}+b^{3}<(a^{2}+b^{2})^{\\frac{3}{2}}\n$$\n<p>从而 $c^{2}<a^{2}+b^{2}$. 于是 $\\cos C>0$，即 $C<\\frac{\\pi}{2}$. 命题 3 正确.</p></li><li><p>取 $a=b=1$，$c=0.9$，三边能构成三角形，且 $(a+b)c=1.8<2=2ab$，但</p>\n$$\n\\cos C=\\frac{2-0.9^{2}}{2}>0\n$$\n<p>所以 $C<\\frac{\\pi}{2}$，不是 $C>\\frac{\\pi}{2}$. 命题 4 错误.</p></li><li><p>取 $a=b=1$，$c=\\frac{1}{2}$，则 $(a^{2}+b^{2})c^{2}=\\frac{1}{2}<2=2a^{2}b^{2}$，但</p>\n$$\n\\cos C=\\frac{2-\\frac{1}{4}}{2}>\\frac{1}{2}\n$$\n<p>所以 $C<\\frac{\\pi}{3}$，不是 $C>\\frac{\\pi}{3}$. 命题 5 错误.</p></li></ol><p>因此正确命题的编号为 1，2，3.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -175,44 +334,56 @@
         {
           "num": 16,
           "body": "<p>设函数 $f(x) = \\frac{\\sqrt{2}}{2}\\cos \\left(2x + \\frac{\\pi}{4}\\right) + \\sin^{2} x$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的最小正周期.</p></li><li><p>设函数 $g(x)$ 对任意 $x \\in \\mathbb{R}$，有 $g\\left(x + \\frac{\\pi}{2}\\right) = g(x)$，且当 $x \\in \\left[0, \\frac{\\pi}{2}\\right]$ 时，$g(x) = \\frac{1}{2}- f(x)$. 求 $g(x)$ 在区间 $[- \\pi, 0]$ 上的解析式.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>利用和差公式，</p><p>$\\frac{\\sqrt{2}}{2}\\cos\\left(2x+\\frac{\\pi}{4}\\right) =\\frac{1}{2}\\left(\\cos2x-\\sin2x\\right)$，$\\sin^{2}x=\\frac{1-\\cos2x}{2}$.</p><p>因此</p>\n$$\nf(x)=\\frac{1}{2}-\\frac{1}{2}\\sin2x\n$$\n<p>$\\sin2x$ 的最小正周期为 $\\pi$，所以 $f(x)$ 的最小正周期为 $T=\\pi$.</p></li><li><p>由 $g(x)=\\frac{1}{2}-f(x)$，当 $x\\in[0,\\frac{\\pi}{2}]$ 时，</p>\n$$\ng(x)=\\frac{1}{2}\\sin2x\n$$\n<p>对 $-\\pi\\le x<-\\frac{\\pi}{2}$，有 $x+\\pi\\in[0,\\frac{\\pi}{2})$，故</p>\n$$\ng(x)=g(x+\\pi)=\\frac{1}{2}\\sin(2x+2\\pi)=\\frac{1}{2}\\sin2x\n$$\n<p>对 $-\\frac{\\pi}{2}\\le x\\leqslant0$，有 $x+\\frac{\\pi}{2}\\in[0,\\frac{\\pi}{2}]$，故</p>\n$$\ng(x)=g\\left(x+\\frac{\\pi}{2}\\right)  =\\frac{1}{2}\\sin\\left(2x+\\pi\\right)  =-\\frac{1}{2}\\sin2x\n$$\n<p>所以</p>\n$$\ng(x)=  \\begin{cases}\\frac{1}{2}\\sin2x,&-\\pi\\le x<-\\frac{\\pi}{2},\\\\  -\\frac{1}{2}\\sin2x,&-\\frac{\\pi}{2}\\le x\\leqslant0.\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>利用和差公式，</p><p>$\\frac{\\sqrt{2}}{2}\\cos\\left(2x+\\frac{\\pi}{4}\\right) =\\frac{1}{2}\\left(\\cos2x-\\sin2x\\right)$，$\\sin^{2}x=\\frac{1-\\cos2x}{2}$.</p><p>因此</p>\n$$\nf(x)=\\frac{1}{2}-\\frac{1}{2}\\sin2x\n$$\n<p>$\\sin2x$ 的最小正周期为 $\\pi$，所以 $f(x)$ 的最小正周期为 $T=\\pi$.</p></li><li><p>由 $g(x)=\\frac{1}{2}-f(x)$，当 $x\\in[0,\\frac{\\pi}{2}]$ 时，</p>\n$$\ng(x)=\\frac{1}{2}\\sin2x\n$$\n<p>对 $-\\pi\\le x<-\\frac{\\pi}{2}$，有 $x+\\pi\\in[0,\\frac{\\pi}{2})$，故</p>\n$$\ng(x)=g(x+\\pi)=\\frac{1}{2}\\sin(2x+2\\pi)=\\frac{1}{2}\\sin2x\n$$\n<p>对 $-\\frac{\\pi}{2}\\le x\\leqslant0$，有 $x+\\frac{\\pi}{2}\\in[0,\\frac{\\pi}{2}]$，故</p>\n$$\ng(x)=g\\left(x+\\frac{\\pi}{2}\\right)  =\\frac{1}{2}\\sin\\left(2x+\\pi\\right)  =-\\frac{1}{2}\\sin2x\n$$\n<p>所以</p>\n$$\ng(x)=  \\begin{cases}\\frac{1}{2}\\sin2x,&-\\pi\\le x<-\\frac{\\pi}{2},\\\\  -\\frac{1}{2}\\sin2x,&-\\frac{\\pi}{2}\\le x\\leqslant0.\\end{cases}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "<p>某单位招聘面试，每次从试题库中随机调用一道试题，若调用的是 A 类型试题，则使用后该试题回库，并增补一道 A 类型试题和一道 B 类型试题入库，此次调题工作结束；若调用的是 B 类型试题，则使用后该试题回库，此次调题工作结束. 试题库中现共有 $n + m$ 道试题，其中有 $n$ 道 A 类型试题和 $m$ 道 B 类型试题，以 $X$ 表示两次调题工作完成后，试题库中 A 类试题的数量.</p><ol class=\"enumerate\"><li><p>求 $X = n + 2$ 的概率.</p></li><li><p>设 $m = n$，求 $X$ 的分布列和均值 （数学期望）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>第一次调用 A 类试题的概率为 $\\frac{n}{n+m}$. 第一次调用 A 后，库中 A 类试题数变为 $n+1$，总试题数变为 $n+m+2$，所以第二次仍调用 A 的条件概率为 $\\frac{n+1}{n+m+2}$. 两次都调用 A 时 $X=n+2$，故</p>\n$$\nP(X=n+2)=\\frac{n}{n+m}\\cdot\\frac{n+1}{n+m+2}\n$$\n</li><li><p>当 $m=n$ 时，第一次调用 A 或 B 的概率都为 $\\frac{1}{2}$. 若第一次调用 A，第二次调用 A 的概率为</p>\n$$\n\\frac{n+1}{2n+2}=\\frac{1}{2};\n$$\n<p>若第一次调用 B，第二次调用 A 的概率为</p>\n$$\n\\frac{n}{2n}=\\frac{1}{2}\n$$\n<p>因此两次调用中 A 的次数 $X-n$ 服从参数为 $2$，$\\frac{1}{2}$ 的二项分布，故</p>\n$$\n\\begin{cases}P(X=n)=\\frac{1}{4},\\\\\n\nP(X=n+1)=\\frac{1}{2},\\\\\n\nP(X=n+2)=\\frac{1}{4}.\\end{cases}\n$$\n<p>其均值为</p>\n$$\nE(X)=n\\cdot\\frac{1}{4}+(n+1)\\cdot\\frac{1}{2}+(n+2)\\cdot\\frac{1}{4}=n+1\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>第一次调用 A 类试题的概率为 $\\frac{n}{n+m}$. 第一次调用 A 后，库中 A 类试题数变为 $n+1$，总试题数变为 $n+m+2$，所以第二次仍调用 A 的条件概率为 $\\frac{n+1}{n+m+2}$. 两次都调用 A 时 $X=n+2$，故</p>\n$$\nP(X=n+2)=\\frac{n}{n+m}\\cdot\\frac{n+1}{n+m+2}\n$$\n</li><li><p>当 $m=n$ 时，第一次调用 A 或 B 的概率都为 $\\frac{1}{2}$. 若第一次调用 A，第二次调用 A 的概率为</p>\n$$\n\\frac{n+1}{2n+2}=\\frac{1}{2};\n$$\n<p>若第一次调用 B，第二次调用 A 的概率为</p>\n$$\n\\frac{n}{2n}=\\frac{1}{2}\n$$\n<p>因此两次调用中 A 的次数 $X-n$ 服从参数为 $2$，$\\frac{1}{2}$ 的二项分布，故</p>\n$$\n\\begin{cases}P(X=n)=\\frac{1}{4},\\\\\n\nP(X=n+1)=\\frac{1}{2},\\\\\n\nP(X=n+2)=\\frac{1}{4}.\\end{cases}\n$$\n<p>其均值为</p>\n$$\nE(X)=n\\cdot\\frac{1}{4}+(n+1)\\cdot\\frac{1}{2}+(n+2)\\cdot\\frac{1}{4}=n+1\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>平面图形 $ABB_{1}A_{1}C_{1}C$ 如图1所示，其中 $BB_{1}C_{1}C$ 是矩形，$BC = 2$，$BB_{1}= 4$，$AB = AC = \\sqrt{2}$，$A_{1}B_{1}= A_{1}C_{1}= \\sqrt{5}$. 现将该平面图形分别沿 $BC$ 和 $B_{1}C_{1}$ 折叠，使 $\\triangle ABC$ 与 $\\triangle A_{1}B_{1}C_{1}$ 所在平面都与平面 $BB_{1}C_{1}C$ 垂直，再分别连接 $A_{1}A$，$A_{1}B$，$A_{1}C_{1}$ 得到如图2所示的空间图形，对此空间图形解答下列问题.</p><ol class=\"enumerate\"><li><p>证明： $AA_{1}\\perp BC$.</p></li><li><p>求 $AA_{1}$ 的长.</p></li><li><p>求二面角 $A - BC - A_{1}$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>平面图形 $ABB_{1}A_{1}C_{1}C$ 如图1所示，其中 $BB_{1}C_{1}C$ 是矩形，$BC = 2$，$BB_{1}= 4$，$AB = AC = \\sqrt{2}$，$A_{1}B_{1}= A_{1}C_{1}= \\sqrt{5}$. 现将该平面图形分别沿 $BC$ 和 $B_{1}C_{1}$ 折叠，使 $\\triangle ABC$ 与 $\\triangle A_{1}B_{1}C_{1}$ 所在平面都与平面 $BB_{1}C_{1}C$ 垂直，再分别连接 $A_{1}A$，$A_{1}B$，$A_{1}C_{1}$ 得到如图2所示的空间图形，对此空间图形解答下列问题.</p><ol class=\"enumerate\"><li><p>证明： $AA_{1}\\perp BC$.</p></li><li><p>求 $AA_{1}$ 的长.</p></li><li><p>求二面角 $A - BC - A_{1}$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/anhui_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>建立直角坐标系，使矩形 $BB_{1}C_{1}C$ 在 $z=0$ 平面内，取</p><p>$B=(0,0,0)$，$C=(2,0,0)$，$B_{1}=(0,4,0)$，$C_{1}=(2,4,0)$.</p><p>按图2，折叠后 $A$ 与 $A_{1}$ 位于平面 $z=0$ 的两侧. 由 $AB=AC=\\sqrt{2}$，且三角形 $ABC$ 所在平面垂直于 $z=0$ 平面，可取</p>\n$$\nA=(1,0,1)\n$$\n<p>同理，由 $A_{1}B_{1}=A_{1}C_{1}=\\sqrt{5}$，并取与 $A$ 异侧的折叠位置</p>\n$$\nA_{1}=(1,4,-2)\n$$\n<p>于是</p><p>$\\overrightarrow{AA_{1}}=(0,4,-3)$，$\\overrightarrow{BC}=(2,0,0)$，</p><p>从而</p>\n$$\n\\overrightarrow{AA_{1}}\\cdot\\overrightarrow{BC}=0\n$$\n<p>因此 $AA_{1}\\perp BC$.</p></li><li>\n$$\nAA_{1}=\\sqrt{0^{2}+4^{2}+(-3)^{2}}=5\n$$\n</li><li><p>设 $D$ 为 $BC$ 的中点，则 $D=(1,0,0)$，且</p><p>$\\overrightarrow{DA}=(0,0,1)$，$\\overrightarrow{DA_{1}}=(0,4,-2)$.</p><p>这两条向量分别位于二面角的两个面内，且都垂直于棱 $BC$，所以二面角 $A-BC-A_{1}$ 的平面角余弦为</p>\n$$\n\\frac{\\overrightarrow{DA}\\cdot\\overrightarrow{DA_{1}}}{|\\overrightarrow{DA}|\\,|\\overrightarrow{DA_{1}}|}=\\frac{-2}{1\\cdot\\sqrt{20}}=-\\frac{\\sqrt{5}}{5}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>建立直角坐标系，使矩形 $BB_{1}C_{1}C$ 在 $z=0$ 平面内，取</p><p>$B=(0,0,0)$，$C=(2,0,0)$，$B_{1}=(0,4,0)$，$C_{1}=(2,4,0)$.</p><p>按图2，折叠后 $A$ 与 $A_{1}$ 位于平面 $z=0$ 的两侧. 由 $AB=AC=\\sqrt{2}$，且三角形 $ABC$ 所在平面垂直于 $z=0$ 平面，可取</p>\n$$\nA=(1,0,1)\n$$\n<p>同理，由 $A_{1}B_{1}=A_{1}C_{1}=\\sqrt{5}$，并取与 $A$ 异侧的折叠位置</p>\n$$\nA_{1}=(1,4,-2)\n$$\n<p>于是</p><p>$\\overrightarrow{AA_{1}}=(0,4,-3)$，$\\overrightarrow{BC}=(2,0,0)$，</p><p>从而</p>\n$$\n\\overrightarrow{AA_{1}}\\cdot\\overrightarrow{BC}=0\n$$\n<p>因此 $AA_{1}\\perp BC$.</p></li><li>\n$$\nAA_{1}=\\sqrt{0^{2}+4^{2}+(-3)^{2}}=5\n$$\n</li><li><p>设 $D$ 为 $BC$ 的中点，则 $D=(1,0,0)$，且</p><p>$\\overrightarrow{DA}=(0,0,1)$，$\\overrightarrow{DA_{1}}=(0,4,-2)$.</p><p>这两条向量分别位于二面角的两个面内，且都垂直于棱 $BC$，所以二面角 $A-BC-A_{1}$ 的平面角余弦为</p>\n$$\n\\frac{\\overrightarrow{DA}\\cdot\\overrightarrow{DA_{1}}}{|\\overrightarrow{DA}|\\,|\\overrightarrow{DA_{1}}|}=\\frac{-2}{1\\cdot\\sqrt{20}}=-\\frac{\\sqrt{5}}{5}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>设函数 $f(x) = a\\mathrm{e}^{x}+ \\frac{1}{a\\mathrm{e}^{x}}+ b$ （$a > 0$）.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 在 $[0, +\\infty)$ 内的最小值.</p></li><li><p>设曲线 $y = f(x)$ 在点 $(2, f(2))$ 处的切线方程为 $y = \\frac{3}{2}x$，求 $a$，$b$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>令 $t=a\\mathrm{e}^{x}$. 因为 $a>0$ 且 $x\\geqslant0$，所以 $t\\ge a$，并且</p>\n$$\nf(x)=t+\\frac{1}{t}+b\n$$\n<p>函数 $t+\\frac{1}{t}$ 的导数为 $1-\\frac{1}{t^{2}}$，故它在 $(0,1]$ 上递减，在 $[1,+\\infty)$ 上递增. 因此</p>\n$$\n\\min_{x\\in[0,+\\infty)}f(x)=  \\begin{cases}2+b,&0<a\\leqslant1,\\\\  a+\\dfrac{1}{a}+b,&a>1.\\end{cases}\n$$\n<p>当 $a=1$ 时两式相同，最小值在 $x=0$ 处取得；当 $0<a<1$ 时在 $t=1$，即 $x=\\ln\\frac{1}{a}$ 处取得.</p></li><li><p>因切线为 $y=\\frac{3}{2}x$，点 $(2,f(2))$ 在切线上，故</p>\n$$\nf(2)=3\n$$\n<p>又 $f'(x)=a\\mathrm{e}^{x}-\\frac{1}{a\\mathrm{e}^{x}}$，所以</p>\n$$\nf'(2)=\\frac{3}{2}\n$$\n<p>令 $t=a\\mathrm{e}^{2}>0$，则</p><p>$t+\\frac{1}{t}+b=3$，$t-\\frac{1}{t}=\\frac{3}{2}$.</p><p>由</p>\n$$\n\\left(t+\\frac{1}{t}\\right)^{2}  =\\left(t-\\frac{1}{t}\\right)^{2}+4  =\\frac{25}{4}\n$$\n<p>及 $t+\\frac{1}{t}>0$，得 $t+\\frac{1}{t}=\\frac{5}{2}$. 联立</p><p>$t+\\frac{1}{t}=\\frac{5}{2}$，$t-\\frac{1}{t}=\\frac{3}{2}$</p><p>得到 $t=2$，$\\frac{1}{t}=\\frac{1}{2}$. 从而</p><p>$a=\\frac{2}{\\mathrm{e}^{2}}$，$b=3-\\frac{5}{2}=\\frac{1}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>令 $t=a\\mathrm{e}^{x}$. 因为 $a>0$ 且 $x\\geqslant0$，所以 $t\\ge a$，并且</p>\n$$\nf(x)=t+\\frac{1}{t}+b\n$$\n<p>函数 $t+\\frac{1}{t}$ 的导数为 $1-\\frac{1}{t^{2}}$，故它在 $(0,1]$ 上递减，在 $[1,+\\infty)$ 上递增. 因此</p>\n$$\n\\min_{x\\in[0,+\\infty)}f(x)=  \\begin{cases}2+b,&0<a\\leqslant1,\\\\  a+\\dfrac{1}{a}+b,&a>1.\\end{cases}\n$$\n<p>当 $a=1$ 时两式相同，最小值在 $x=0$ 处取得；当 $0<a<1$ 时在 $t=1$，即 $x=\\ln\\frac{1}{a}$ 处取得.</p></li><li><p>因切线为 $y=\\frac{3}{2}x$，点 $(2,f(2))$ 在切线上，故</p>\n$$\nf(2)=3\n$$\n<p>又 $f'(x)=a\\mathrm{e}^{x}-\\frac{1}{a\\mathrm{e}^{x}}$，所以</p>\n$$\nf'(2)=\\frac{3}{2}\n$$\n<p>令 $t=a\\mathrm{e}^{2}>0$，则</p><p>$t+\\frac{1}{t}+b=3$，$t-\\frac{1}{t}=\\frac{3}{2}$.</p><p>由</p>\n$$\n\\left(t+\\frac{1}{t}\\right)^{2}  =\\left(t-\\frac{1}{t}\\right)^{2}+4  =\\frac{25}{4}\n$$\n<p>及 $t+\\frac{1}{t}>0$，得 $t+\\frac{1}{t}=\\frac{5}{2}$. 联立</p><p>$t+\\frac{1}{t}=\\frac{5}{2}$，$t-\\frac{1}{t}=\\frac{3}{2}$</p><p>得到 $t=2$，$\\frac{1}{t}=\\frac{1}{2}$. 从而</p><p>$a=\\frac{2}{\\mathrm{e}^{2}}$，$b=3-\\frac{5}{2}=\\frac{1}{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，点 $F_{1}(-c,0)$，$F_{2}(c,0)$ 分别是椭圆 $C:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$（$a>b>0$）的左、右焦点，过点 $F_{1}$ 作 $x$ 轴的垂线交椭圆 $C$ 的上半部分于点 $P$，过点 $F_{2}$ 作直线 $PF_{2}$ 的垂线交直线 $x=\\frac{a^{2}}{c}$ 于点 $Q$.</p><ol class=\"enumerate\"><li><p>如果点 $Q$ 的坐标是 $(4,4)$，求此时椭圆 $C$ 的方程.</p></li><li><p>证明：直线 $PQ$ 与椭圆 $C$ 只有一个交点.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，点 $F_{1}(-c,0)$，$F_{2}(c,0)$ 分别是椭圆 $C:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$（$a>b>0$）的左、右焦点，过点 $F_{1}$ 作 $x$ 轴的垂线交椭圆 $C$ 的上半部分于点 $P$，过点 $F_{2}$ 作直线 $PF_{2}$ 的垂线交直线 $x=\\frac{a^{2}}{c}$ 于点 $Q$.</p><ol class=\"enumerate\"><li><p>如果点 $Q$ 的坐标是 $(4,4)$，求此时椭圆 $C$ 的方程.</p></li><li><p>证明：直线 $PQ$ 与椭圆 $C$ 只有一个交点.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/anhui_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由于 $F_{1}$ 的横坐标为 $-c$，直线 $x=-c$ 与椭圆上半部分交于</p>\n$$\nP=\\left(-c,\\frac{b^{2}}{a}\\right)\n$$\n<p>直线 $PF_{2}$ 的斜率为</p>\n$$\n\\frac{\\frac{b^{2}}{a}-0}{-c-c}=-\\frac{b^{2}}{2ac}\n$$\n<p>所以过 $F_{2}$ 的垂线斜率为 $\\frac{2ac}{b^{2}}$. 与直线 $x=\\frac{a^{2}}{c}$ 相交时，</p>\n$$\ny=\\frac{2ac}{b^{2}}\\left(\\frac{a^{2}}{c}-c\\right)  =\\frac{2a(a^{2}-c^{2})}{b^{2}}=2a\n$$\n<p>其中用了 $a^{2}=b^{2}+c^{2}$. 因而</p>\n$$\nQ=\\left(\\frac{a^{2}}{c},2a\\right)\n$$\n<p>由 $Q=(4,4)$ 得 $2a=4$，即 $a=2$，且 $\\frac{a^{2}}{c}=4$，即 $c=1$. 所以</p>\n$$\nb^{2}=a^{2}-c^{2}=3\n$$\n<p>椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n</li><li><p>由</p><p>$P=\\left(-c,\\frac{b^{2}}{a}\\right)$，$Q=\\left(\\frac{a^{2}}{c},2a\\right)$</p><p>并利用 $a^{2}=b^{2}+c^{2}$，直线 $PQ$ 的斜率为</p>\n$$\n\\frac{2a-\\frac{b^2}{a}}{\\frac{a^{2}}{c}+c}=\\frac{\\frac{2a^{2}-b^{2}}{a}}{\\frac{a^{2}+c^{2}}{c}}=\\frac{c}{a}\n$$\n<p>故直线 $PQ$ 的方程为</p>\n$$\ny-\\frac{b^{2}}{a}=\\frac{c}{a}(x+c),  \\qquad\\text{即}\\qquad  ay=cx+a^{2}\n$$\n<p>将 $y=\\frac{cx+a^{2}}{a}$ 代入椭圆方程，得</p>\n$$\nb^{2}x^{2}+(cx+a^{2})^{2}=a^{2}b^{2}\n$$\n<p>整理并使用 $a^{2}=b^{2}+c^{2}$，有</p>\n$$\na^{2}x^{2}+2a^{2}cx+a^{4}-a^{2}b^{2}  =a^{2}(x+c)^{2}=0\n$$\n<p>因此 $x=-c$，代回直线方程得 $y=\\frac{b^{2}}{a}$，交点唯一且正是 $P$. 所以直线 $PQ$ 与椭圆 $C$ 只有一个交点.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由于 $F_{1}$ 的横坐标为 $-c$，直线 $x=-c$ 与椭圆上半部分交于</p>\n$$\nP=\\left(-c,\\frac{b^{2}}{a}\\right)\n$$\n<p>直线 $PF_{2}$ 的斜率为</p>\n$$\n\\frac{\\frac{b^{2}}{a}-0}{-c-c}=-\\frac{b^{2}}{2ac}\n$$\n<p>所以过 $F_{2}$ 的垂线斜率为 $\\frac{2ac}{b^{2}}$. 与直线 $x=\\frac{a^{2}}{c}$ 相交时，</p>\n$$\ny=\\frac{2ac}{b^{2}}\\left(\\frac{a^{2}}{c}-c\\right)  =\\frac{2a(a^{2}-c^{2})}{b^{2}}=2a\n$$\n<p>其中用了 $a^{2}=b^{2}+c^{2}$. 因而</p>\n$$\nQ=\\left(\\frac{a^{2}}{c},2a\\right)\n$$\n<p>由 $Q=(4,4)$ 得 $2a=4$，即 $a=2$，且 $\\frac{a^{2}}{c}=4$，即 $c=1$. 所以</p>\n$$\nb^{2}=a^{2}-c^{2}=3\n$$\n<p>椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n</li><li><p>由</p><p>$P=\\left(-c,\\frac{b^{2}}{a}\\right)$，$Q=\\left(\\frac{a^{2}}{c},2a\\right)$</p><p>并利用 $a^{2}=b^{2}+c^{2}$，直线 $PQ$ 的斜率为</p>\n$$\n\\frac{2a-\\frac{b^2}{a}}{\\frac{a^{2}}{c}+c}=\\frac{\\frac{2a^{2}-b^{2}}{a}}{\\frac{a^{2}+c^{2}}{c}}=\\frac{c}{a}\n$$\n<p>故直线 $PQ$ 的方程为</p>\n$$\ny-\\frac{b^{2}}{a}=\\frac{c}{a}(x+c),  \\qquad\\text{即}\\qquad  ay=cx+a^{2}\n$$\n<p>将 $y=\\frac{cx+a^{2}}{a}$ 代入椭圆方程，得</p>\n$$\nb^{2}x^{2}+(cx+a^{2})^{2}=a^{2}b^{2}\n$$\n<p>整理并使用 $a^{2}=b^{2}+c^{2}$，有</p>\n$$\na^{2}x^{2}+2a^{2}cx+a^{4}-a^{2}b^{2}  =a^{2}(x+c)^{2}=0\n$$\n<p>因此 $x=-c$，代回直线方程得 $y=\\frac{b^{2}}{a}$，交点唯一且正是 $P$. 所以直线 $PQ$ 与椭圆 $C$ 只有一个交点.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>数列 $\\{x_{n}\\}$ 满足 $x_{1}= 0$，$x_{n + 1}= -x_{n}^{2}+ x_{n}+ c$ （$n \\in \\mathbf{N}^{*}$）.</p><ol class=\"enumerate\"><li><p>证明： $\\{x_{n}\\}$ 是递减数列的充分必要条件是 $c < 0$.</p></li><li><p>求 $c$ 的取值范围，使 $\\{x_{n}\\}$ 是递增数列.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由递推式，</p>\n$$\nx_{n+1}-x_{n}=c-x_{n}^{2}\n$$\n<p>若 $c<0$，则对任意 $n$，都有 $x_{n+1}-x_{n}<0$，所以数列递减.</p><p>反之，若数列递减，则 $x_{2}<x_{1}=0$. 由 $x_{2}=c$，可得 $c<0$. 因此数列递减的充分必要条件是 $c<0$.</p></li><li><p>先证必要性. 若数列递增，则 $x_{2}=c>x_{1}=0$，故 $c>0$. 又因所有 $x_{n}\\geqslant0$，且</p>\n$$\nx_{n+1}>x_{n}\\Longrightarrow x_{n}^{2}<c\n$$\n<p>所以 $0\\le x_{n}<\\sqrt{c}$. 数列递增且有上界，故收敛. 设其极限为 $L$，由递推式的连续性，</p>\n$$\nL=-L^{2}+L+c\n$$\n<p>从而 $L=\\sqrt{c}$.</p><p>若 $c>\\frac{1}{4}$，则 $L>\\frac{1}{2}$. 因而存在 $N$，使 $x_{N}>\\frac{1}{2}$. 函数</p>\n$$\nh(t)=-t^{2}+t+c\n$$\n<p>在 $(\\frac{1}{2},+\\infty)$ 上严格递减. 但数列递增给出 $x_{N+1}>x_{N}>\\frac{1}{2}$，于是</p>\n$$\nx_{N+2}=h(x_{N+1})<h(x_{N})=x_{N+1}\n$$\n<p>矛盾. 所以 $c\\le\\frac{1}{4}$. 必要条件为 $0<c\\le\\frac{1}{4}$.</p><p>再证充分性. 令 $r=\\sqrt{c}$，则 $0<r\\le\\frac{1}{2}$. 用归纳法证明 $0\\le x_{n}<r$. 初始时 $x_{1}=0$. 若 $0\\le x_{n}<r$，则</p>\n$$\nx_{n+1}-x_{n}=c-x_{n}^{2}>0\n$$\n<p>此外，$h(t)=-t^{2}+t+c$ 在 $[0,r]$ 上递增，因为 $h'(t)=1-2t\\geqslant0$，故</p>\n$$\nx_{n+1}=h(x_{n})<h(r)=r\n$$\n<p>所以 $0\\le x_{n+1}<r$，归纳成立，并且每一步 $x_{n+1}>x_{n}$. 因此数列递增.</p>\n$$\n0<c\\le\\frac{1}{4}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由递推式，</p>\n$$\nx_{n+1}-x_{n}=c-x_{n}^{2}\n$$\n<p>若 $c<0$，则对任意 $n$，都有 $x_{n+1}-x_{n}<0$，所以数列递减.</p><p>反之，若数列递减，则 $x_{2}<x_{1}=0$. 由 $x_{2}=c$，可得 $c<0$. 因此数列递减的充分必要条件是 $c<0$.</p></li><li><p>先证必要性. 若数列递增，则 $x_{2}=c>x_{1}=0$，故 $c>0$. 又因所有 $x_{n}\\geqslant0$，且</p>\n$$\nx_{n+1}>x_{n}\\Longrightarrow x_{n}^{2}<c\n$$\n<p>所以 $0\\le x_{n}<\\sqrt{c}$. 数列递增且有上界，故收敛. 设其极限为 $L$，由递推式的连续性，</p>\n$$\nL=-L^{2}+L+c\n$$\n<p>从而 $L=\\sqrt{c}$.</p><p>若 $c>\\frac{1}{4}$，则 $L>\\frac{1}{2}$. 因而存在 $N$，使 $x_{N}>\\frac{1}{2}$. 函数</p>\n$$\nh(t)=-t^{2}+t+c\n$$\n<p>在 $(\\frac{1}{2},+\\infty)$ 上严格递减. 但数列递增给出 $x_{N+1}>x_{N}>\\frac{1}{2}$，于是</p>\n$$\nx_{N+2}=h(x_{N+1})<h(x_{N})=x_{N+1}\n$$\n<p>矛盾. 所以 $c\\le\\frac{1}{4}$. 必要条件为 $0<c\\le\\frac{1}{4}$.</p><p>再证充分性. 令 $r=\\sqrt{c}$，则 $0<r\\le\\frac{1}{2}$. 用归纳法证明 $0\\le x_{n}<r$. 初始时 $x_{1}=0$. 若 $0\\le x_{n}<r$，则</p>\n$$\nx_{n+1}-x_{n}=c-x_{n}^{2}>0\n$$\n<p>此外，$h(t)=-t^{2}+t+c$ 在 $[0,r]$ 上递增，因为 $h'(t)=1-2t\\geqslant0$，故</p>\n$$\nx_{n+1}=h(x_{n})<h(r)=r\n$$\n<p>所以 $0\\le x_{n+1}<r$，归纳成立，并且每一步 $x_{n+1}>x_{n}$. 因此数列递增.</p>\n$$\n0<c\\le\\frac{1}{4}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

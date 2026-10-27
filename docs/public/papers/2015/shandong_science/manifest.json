@@ -1,8 +1,137 @@
 {
-  "title": "2015年普通高等学校招生全国统一考试",
-  "subtitle": "2015年山东卷（理）",
   "year": "2015",
   "slug": "shandong_science",
+  "title": "2015年山东卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +146,9 @@
             "$(2,4)$"
           ],
           "answer": "C",
-          "solution": "<p>由</p>\n$$\nx^{2}-4x+3=(x-1)(x-3)<0\n$$\n<p>可得 $1<x<3$，所以 $A=(1,3)$. 又 $B=(2,4)$，因此</p>\n$$\nA\\cap B=(1,3)\\cap(2,4)=(2,3)\n$$\n<p>故选 C.</p>"
+          "solution": "<p>由</p>\n$$\nx^{2}-4x+3=(x-1)(x-3)<0\n$$\n<p>可得 $1<x<3$，所以 $A=(1,3)$. 又 $B=(2,4)$，因此</p>\n$$\nA\\cap B=(1,3)\\cap(2,4)=(2,3)\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +160,9 @@
             "$-1 + \\mathrm{i}$"
           ],
           "answer": "A",
-          "solution": "<p>由题设</p>\n$$\n\\frac{\\overline z}{1-\\mathrm{i}}=\\mathrm{i}\n$$\n<p>得</p>\n$$\n\\overline z=\\mathrm{i}(1-\\mathrm{i})=1+\\mathrm{i}\n$$\n<p>两边取共轭，得到 $z=1-\\mathrm{i}$. 故选 A.</p>"
+          "solution": "<p>由题设</p>\n$$\n\\frac{\\overline z}{1-\\mathrm{i}}=\\mathrm{i}\n$$\n<p>得</p>\n$$\n\\overline z=\\mathrm{i}(1-\\mathrm{i})=1+\\mathrm{i}\n$$\n<p>两边取共轭，得到 $z=1-\\mathrm{i}$. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +174,9 @@
             "向右平移 $\\frac{\\pi}{3}$ 个单位"
           ],
           "answer": "B",
-          "solution": "<p>将自变量提取系数 $4$，有</p>\n$$\n\\sin\\left(4x-\\frac{\\pi}{3}\\right)  =\\sin\\left(4\\left(x-\\frac{\\pi}{12}\\right)\\right)\n$$\n<p>因此这是将 $y=\\sin4x$ 的图象向右平移 $\\frac{\\pi}{12}$ 个单位得到的图象. 故选 B.</p>"
+          "solution": "<p>将自变量提取系数 $4$，有</p>\n$$\n\\sin\\left(4x-\\frac{\\pi}{3}\\right)  =\\sin\\left(4\\left(x-\\frac{\\pi}{12}\\right)\\right)\n$$\n<p>因此这是将 $y=\\sin4x$ 的图象向右平移 $\\frac{\\pi}{12}$ 个单位得到的图象. 故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +188,9 @@
             "$\\frac{3}{2}a^{2}$"
           ],
           "answer": "D",
-          "solution": "<p>以 $B$ 为原点，令 $\\overrightarrow{BC}=(a,0)$. 由菱形的边长和</p><p>$\\angle ABC=60^{\\circ}$，可取</p>\n$$\n\\overrightarrow{BA}=\\left(\\frac{a}{2},\\frac{\\sqrt{3}a}{2}\\right)\n$$\n<p>因为 $ABCD$ 是平行四边形，</p><p>$\\overrightarrow{BD}=\\overrightarrow{BA}+\\overrightarrow{BC}=\\left(\\frac{3a}{2},\\frac{\\sqrt{3}a}{2}\\right)$，$\\overrightarrow{CD}=\\overrightarrow{BA}=\\left(\\frac{a}{2},\\frac{\\sqrt{3}a}{2}\\right)$，</p><p>所以</p>\n$$\n\\overrightarrow{BD}\\cdot\\overrightarrow{CD}=\\frac{3a^{2}}{4}+\\frac{3a^{2}}{4}=\\frac{3}{2}a^{2}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>以 $B$ 为原点，令 $\\overrightarrow{BC}=(a,0)$. 由菱形的边长和</p><p>$\\angle ABC=60^{\\circ}$，可取</p>\n$$\n\\overrightarrow{BA}=\\left(\\frac{a}{2},\\frac{\\sqrt{3}a}{2}\\right)\n$$\n<p>因为 $ABCD$ 是平行四边形，</p><p>$\\overrightarrow{BD}=\\overrightarrow{BA}+\\overrightarrow{BC}=\\left(\\frac{3a}{2},\\frac{\\sqrt{3}a}{2}\\right)$，$\\overrightarrow{CD}=\\overrightarrow{BA}=\\left(\\frac{a}{2},\\frac{\\sqrt{3}a}{2}\\right)$，</p><p>所以</p>\n$$\n\\overrightarrow{BD}\\cdot\\overrightarrow{CD}=\\frac{3a^{2}}{4}+\\frac{3a^{2}}{4}=\\frac{3}{2}a^{2}\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +202,9 @@
             "$(1,5)$"
           ],
           "answer": "A",
-          "solution": "<p>按 $x=1$ 和 $x=5$ 分段讨论.</p><p>当 $x<1$ 时，</p>\n$$\n|x-1|-|x-5|=(1-x)-(5-x)=-4<2\n$$\n<p>故这一段全部满足不等式.</p><p>当 $1\\le x<5$ 时，</p>\n$$\n|x-1|-|x-5|=(x-1)-(5-x)=2x-6<2\n$$\n<p>即 $x<4$，得到 $1\\le x<4$.</p><p>当 $x\\geqslant5$ 时，左边为 $(x-1)-(x-5)=4$，不满足不等式.</p><p>合并得解集为 $(-\\infty,4)$，故选 A.</p>"
+          "solution": "<p>按 $x=1$ 和 $x=5$ 分段讨论.</p><p>当 $x<1$ 时，</p>\n$$\n|x-1|-|x-5|=(1-x)-(5-x)=-4<2\n$$\n<p>故这一段全部满足不等式.</p><p>当 $1\\le x<5$ 时，</p>\n$$\n|x-1|-|x-5|=(x-1)-(5-x)=2x-6<2\n$$\n<p>即 $x<4$，得到 $1\\le x<4$.</p><p>当 $x\\geqslant5$ 时，左边为 $(x-1)-(x-5)=4$，不满足不等式.</p><p>合并得解集为 $(-\\infty,4)$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +216,9 @@
             "$-3$"
           ],
           "answer": "B",
-          "solution": "<p>约束区域是三条边界直线围成的三角形，其顶点为</p><p>$(0,0)$，$(2,0)$，$(1,1)$.</p><p>目标函数 $z=ax+y$ 在闭三角形上的最大值在顶点处取得，三个顶点处的值分别为</p><p>$0$，$2a$，$a+1$.</p><p>逐项检验选项：当 $a=2$ 时，三值为 $0$，$4$，$3$，最大值为 $4$；当 $a=3$ 时最大值为 $6$；当 $a=-2$ 或 $a=-3$ 时最大值为 $0$.</p><p>所以 $a=2$，故选 B.</p>"
+          "solution": "<p>约束区域是三条边界直线围成的三角形，其顶点为</p><p>$(0,0)$，$(2,0)$，$(1,1)$.</p><p>目标函数 $z=ax+y$ 在闭三角形上的最大值在顶点处取得，三个顶点处的值分别为</p><p>$0$，$2a$，$a+1$.</p><p>逐项检验选项：当 $a=2$ 时，三值为 $0$，$4$，$3$，最大值为 $4$；当 $a=3$ 时最大值为 $6$；当 $a=-2$ 或 $a=-3$ 时最大值为 $0$.</p><p>所以 $a=2$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +230,9 @@
             "$2\\pi$"
           ],
           "answer": "C",
-          "solution": "<p>取 $AD$ 所在直线为 $x$ 轴，设</p><p>$A=(0,0)$，$D=(1,0)$，$B=(0,1)$，$C=(2,1)$.</p><p>旋转后，在 $0\\le x\\leqslant1$ 时截面是半径为 $1$ 的圆；在 $1\\le x\\leqslant2$ 时截面是外半径为 $1$、内半径为 $x-1$ 的圆环. 因此体积为</p>\n$$\nV=\\int_{0}^{1}\\pi dx+\\int_{1}^{2}\\pi\\left(1-(x-1)^{2}\\right)dx  =\\pi+\\pi\\left[x-\\frac{(x-1)^{3}}{3}\\right]_{1}^{2}  =\\pi+\\frac{2\\pi}{3}=\\frac{5\\pi}{3}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>取 $AD$ 所在直线为 $x$ 轴，设</p><p>$A=(0,0)$，$D=(1,0)$，$B=(0,1)$，$C=(2,1)$.</p><p>旋转后，在 $0\\le x\\leqslant1$ 时截面是半径为 $1$ 的圆；在 $1\\le x\\leqslant2$ 时截面是外半径为 $1$、内半径为 $x-1$ 的圆环. 因此体积为</p>\n$$\nV=\\int_{0}^{1}\\pi dx+\\int_{1}^{2}\\pi\\left(1-(x-1)^{2}\\right)dx  =\\pi+\\pi\\left[x-\\frac{(x-1)^{3}}{3}\\right]_{1}^{2}  =\\pi+\\frac{2\\pi}{3}=\\frac{5\\pi}{3}\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +244,9 @@
             "$31.74\\%$"
           ],
           "answer": "B",
-          "solution": "<p>令标准化变量 $Z=\\frac{\\xi}{3}$，则 $Z\\sim N(0,1)$. 题目所求为</p>\n$$\nP(3<\\xi<6)=P(1<Z<2)\n$$\n<p>由正态分布的对称性，</p>\n$$\nP(1<Z<2)=\\frac{1}{2}\\left(P(-2<Z<2)-P(-1<Z<1)\\right)  =\\frac{1}{2}(0.9544-0.6826)=0.1359\n$$\n<p>所以概率为 $13.59\\%$，故选 B.</p>"
+          "solution": "<p>令标准化变量 $Z=\\frac{\\xi}{3}$，则 $Z\\sim N(0,1)$. 题目所求为</p>\n$$\nP(3<\\xi<6)=P(1<Z<2)\n$$\n<p>由正态分布的对称性，</p>\n$$\nP(1<Z<2)=\\frac{1}{2}\\left(P(-2<Z<2)-P(-1<Z<1)\\right)  =\\frac{1}{2}(0.9544-0.6826)=0.1359\n$$\n<p>所以概率为 $13.59\\%$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +258,9 @@
             "$-\\frac{4}{3}$ 或 $-\\frac{3}{4}$"
           ],
           "answer": "D",
-          "solution": "<p>将入射点 $(-2,-3)$ 关于 $y$ 轴对称，得到 $(2,-3)$. 反射光线与入射点关于反射轴的对称点连线的斜率设为 $k$，则该直线可写为</p>\n$$\ny+3=k(x-2)\n$$\n<p>即</p>\n$$\nkx-y-2k-3=0\n$$\n<p>圆心为 $(-3,2)$，半径为 $1$. 相切条件是圆心到直线的距离等于 $1$，所以</p>\n$$\n\\frac{|k(-3)-2-2k-3|}{\\sqrt{k^{2}+1}}=1\n$$\n<p>化简得</p>\n$$\n25(k+1)^{2}=k^{2}+1  \\iff 12k^{2}+25k+12=0\n$$\n<p>解得</p>\n$$\nk=-\\frac{3}{4} \\text{或}  k=-\\frac{4}{3}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>将入射点 $(-2,-3)$ 关于 $y$ 轴对称，得到 $(2,-3)$. 反射光线与入射点关于反射轴的对称点连线的斜率设为 $k$，则该直线可写为</p>\n$$\ny+3=k(x-2)\n$$\n<p>即</p>\n$$\nkx-y-2k-3=0\n$$\n<p>圆心为 $(-3,2)$，半径为 $1$. 相切条件是圆心到直线的距离等于 $1$，所以</p>\n$$\n\\frac{|k(-3)-2-2k-3|}{\\sqrt{k^{2}+1}}=1\n$$\n<p>化简得</p>\n$$\n25(k+1)^{2}=k^{2}+1  \\iff 12k^{2}+25k+12=0\n$$\n<p>解得</p>\n$$\nk=-\\frac{3}{4} \\text{或}  k=-\\frac{4}{3}\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +272,9 @@
             "$[1,+\\infty)$"
           ],
           "answer": "C",
-          "solution": "<p>令 $t=f(a)$，原方程化为 $f(t)=2^{t}$.</p><p>当 $t<1$ 时，方程为 $3t-1=2^{t}$. 设</p>\n$$\ng(t)=3t-1-2^{t}\n$$\n<p>若 $t<1$，则</p>\n$$\ng'(t)=3-2^{t}\\ln2>3-2\\ln2>0\n$$\n<p>所以 $g(t)<g(1)=0$，该段没有解.</p><p>当 $t\\geqslant1$ 时，按函数定义 $f(t)=2^{t}$，方程恒成立. 因此只需 $f(a)\\geqslant1$.</p><p>若 $a<1$，则 $3a-1\\geqslant1$，即 $a\\ge\\frac{2}{3}$；若 $a\\geqslant1$，则 $f(a)=2^{a}\\geqslant2$，也满足条件. 故</p>\n$$\na\\in\\left[\\frac{2}{3},+\\infty\\right)\n$$\n<p>故选 C.</p>"
+          "solution": "<p>令 $t=f(a)$，原方程化为 $f(t)=2^{t}$.</p><p>当 $t<1$ 时，方程为 $3t-1=2^{t}$. 设</p>\n$$\ng(t)=3t-1-2^{t}\n$$\n<p>若 $t<1$，则</p>\n$$\ng'(t)=3-2^{t}\\ln2>3-2\\ln2>0\n$$\n<p>所以 $g(t)<g(1)=0$，该段没有解.</p><p>当 $t\\geqslant1$ 时，按函数定义 $f(t)=2^{t}$，方程恒成立. 因此只需 $f(a)\\geqslant1$.</p><p>若 $a<1$，则 $3a-1\\geqslant1$，即 $a\\ge\\frac{2}{3}$；若 $a\\geqslant1$，则 $f(a)=2^{a}\\geqslant2$，也满足条件. 故</p>\n$$\na\\in\\left[\\frac{2}{3},+\\infty\\right)\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,37 +284,47 @@
         {
           "num": 11,
           "body": "观察下列各式：$\\mathrm{C}_{1}^{0} = 4^{0}$；$\\mathrm{C}_{3}^{0} + \\mathrm{C}_{3}^{1} = 4^{1}$；$\\mathrm{C}_{5}^{0} + \\mathrm{C}_{5}^{1} + \\mathrm{C}_{5}^{2} = 4^{2}$；$\\mathrm{C}_{7}^{0} + \\mathrm{C}_{7}^{1} + \\mathrm{C}_{7}^{2} + \\mathrm{C}_{7}^{3} = 4^{3}$；$\\cdots$. 照此规律，当 $n \\in \\mathbb{N}^{*}$ 时，$\\mathrm{C}_{2n-1}^{0} + \\mathrm{C}_{2n-1}^{1} + \\mathrm{C}_{2n-1}^{2} + \\cdots + \\mathrm{C}_{2n-1}^{n-1}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$4^{n-1}$",
-          "solution": "<p>由于 $2n-1$ 是奇数，二项式系数满足</p>\n$$\n\\mathrm{C}_{2n-1}^{j}=\\mathrm{C}_{2n-1}^{2n-1-j}\n$$\n<p>因此前 $n$ 项恰好与后 $n$ 项两两对应，且没有中间项，故</p>\n$$\n\\mathrm{C}_{2n-1}^{0}+\\cdots+\\mathrm{C}_{2n-1}^{n-1}=\\frac{1}{2}\\sum_{j=0}^{2n-1}\\mathrm{C}_{2n-1}^{j}=\\frac{1}{2}(1+1)^{2n-1}=2^{2n-2}=4^{n-1}\n$$"
+          "choices": [],
+          "answer": "\\(4^{n-1}\\)",
+          "solution": "<p>由于 $2n-1$ 是奇数，二项式系数满足</p>\n$$\n\\mathrm{C}_{2n-1}^{j}=\\mathrm{C}_{2n-1}^{2n-1-j}\n$$\n<p>因此前 $n$ 项恰好与后 $n$ 项两两对应，且没有中间项，故</p>\n$$\n\\mathrm{C}_{2n-1}^{0}+\\cdots+\\mathrm{C}_{2n-1}^{n-1}=\\frac{1}{2}\\sum_{j=0}^{2n-1}\\mathrm{C}_{2n-1}^{j}=\\frac{1}{2}(1+1)^{2n-1}=2^{2n-2}=4^{n-1}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "若“$\\forall x \\in \\left[0,\\frac{\\pi}{4}\\right]$，$\\tan x \\le m$”是真命题，则实数 $m$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$1$",
-          "solution": "<p>在区间 $\\left[0,\\frac{\\pi}{4}\\right]$ 上，正切函数单调递增，所以</p>\n$$\n\\max_{x\\in[0,\\frac{\\pi}{4}]}\\tan x=\\tan\\frac{\\pi}{4}=1\n$$\n<p>因此不等式对所有给定 $x$ 成立的充要条件是 $m\\geqslant1$，最小值为 $1$.</p>"
+          "choices": [],
+          "answer": "\\(1\\)",
+          "solution": "<p>在区间 $\\left[0,\\frac{\\pi}{4}\\right]$ 上，正切函数单调递增，所以</p>\n$$\n\\max_{x\\in[0,\\frac{\\pi}{4}]}\\tan x=\\tan\\frac{\\pi}{4}=1\n$$\n<p>因此不等式对所有给定 $x$ 成立的充要条件是 $m\\geqslant1$，最小值为 $1$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "<p>执行如图所示的程序框图，输出的 $T$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.42<span class=\"macro macro-linewidth\"></span>]img_repaint/2015/shandong_science/q13_fig1.tex</p>",
-          "choices": null,
-          "answer": "$\\frac{11}{6}$",
-          "solution": "<p>由程序框图初始值 $n=1$，$T=1$. 第一次判断 $n<3$ 成立，执行</p>\n$$\nT\\leftarrow T+\\int_{0}^{1}x^{n} dx  =1+\\int_{0}^{1}x dx=1+\\frac{1}{2}\n$$\n<p>然后 $n$ 加 $1$ 变为 $2$. 第二次判断仍成立，执行</p>\n$$\nT\\leftarrow1+\\frac{1}{2}+\\int_{0}^{1}x^{2} dx  =1+\\frac{1}{2}+\\frac{1}{3}=\\frac{11}{6}\n$$\n<p>并将 $n$ 加 $1$ 变为 $3$. 此时 $n<3$ 不成立，程序输出</p>\n$$\nT=\\frac{11}{6}\n$$"
+          "choices": [],
+          "answer": "\\(\\frac{11}{6}\\)",
+          "solution": "<p>由程序框图初始值 $n=1$，$T=1$. 第一次判断 $n<3$ 成立，执行</p>\n$$\nT\\leftarrow T+\\int_{0}^{1}x^{n} dx  =1+\\int_{0}^{1}x dx=1+\\frac{1}{2}\n$$\n<p>然后 $n$ 加 $1$ 变为 $2$. 第二次判断仍成立，执行</p>\n$$\nT\\leftarrow1+\\frac{1}{2}+\\int_{0}^{1}x^{2} dx  =1+\\frac{1}{2}+\\frac{1}{3}=\\frac{11}{6}\n$$\n<p>并将 $n$ 加 $1$ 变为 $3$. 此时 $n<3$ 不成立，程序输出</p>\n$$\nT=\\frac{11}{6}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知函数 $f(x) = a^{x} + b$（$a > 0$，$a \\neq 1$）的定义域和值域都是 $[-1,0]$，则 $a + b =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-\\frac{3}{2}$",
-          "solution": "<p>在题设给定的定义域 $[-1,0]$ 上，先讨论 $a$ 的单调性.</p><p>若 $a>1$，函数递增，故值域端点应满足</p><p>$a^{-1}+b=-1$，$1+b=0$.</p><p>由第二式得 $b=-1$，代入第一式得到 $a^{-1}=0$，矛盾.</p><p>若 $0<a<1$，函数递减，故</p><p>$a^{-1}+b=0$，$1+b=-1$.</p><p>由第二式得 $b=-2$，再由第一式得 $a^{-1}=2$，即 $a=\\frac{1}{2}$. 因此</p>\n$$\na+b=\\frac{1}{2}-2=-\\frac{3}{2}\n$$"
+          "choices": [],
+          "answer": "\\(-\\frac{3}{2}\\)",
+          "solution": "<p>在题设给定的定义域 $[-1,0]$ 上，先讨论 $a$ 的单调性.</p><p>若 $a>1$，函数递增，故值域端点应满足</p><p>$a^{-1}+b=-1$，$1+b=0$.</p><p>由第二式得 $b=-1$，代入第一式得到 $a^{-1}=0$，矛盾.</p><p>若 $0<a<1$，函数递减，故</p><p>$a^{-1}+b=0$，$1+b=-1$.</p><p>由第二式得 $b=-2$，再由第一式得 $a^{-1}=2$，即 $a=\\frac{1}{2}$. 因此</p>\n$$\na+b=\\frac{1}{2}-2=-\\frac{3}{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "平面直角坐标系 $xOy$ 中，双曲线 $C_{1}: \\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$（$a > 0$，$b > 0$）的渐近线与抛物线 $C_{2}: x^{2} = 2py$（$p > 0$）交于 $O$，$A$，$B$. 若 $\\triangle OAB$ 的垂心为 $C_{2}$ 的焦点，则 $C_{1}$ 的离心率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{3}{2}$",
-          "solution": "<p>设双曲线渐近线 $y=\\pm\\frac{b}{a}x$ 的斜率绝对值为</p>\n$$\nr=\\frac{b}{a}>0\n$$\n<p>抛物线 $x^{2}=2py$ 与两条渐近线的交点为</p><p>$A=(2pr,2pr^{2})$，$B=(-2pr,2pr^{2})$，$O=(0,0)$.</p><p>抛物线焦点为 $F=(0,\\frac{p}{2})$. 因 $F$ 是三角形 $OAB$ 的垂心，所以 $AF\\perp OB$. 其中</p><p>$k_{OB}=-r$，$k_{AF}=\\frac{2pr^{2}-\\frac{p}{2}}{2pr}=\\frac{4r^{2}-1}{4r}$，</p><p>于是</p>\n$$\n-r\\cdot\\frac{4r^{2}-1}{4r}=-1  \\iff r^{2}=\\frac{5}{4}\n$$\n<p>双曲线离心率满足</p>\n$$\ne^{2}=1+\\frac{b^{2}}{a^{2}}=1+r^{2}=\\frac{9}{4}\n$$\n<p>所以 $e=\\frac{3}{2}$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{3}{2}\\)",
+          "solution": "<p>设双曲线渐近线 $y=\\pm\\frac{b}{a}x$ 的斜率绝对值为</p>\n$$\nr=\\frac{b}{a}>0\n$$\n<p>抛物线 $x^{2}=2py$ 与两条渐近线的交点为</p><p>$A=(2pr,2pr^{2})$，$B=(-2pr,2pr^{2})$，$O=(0,0)$.</p><p>抛物线焦点为 $F=(0,\\frac{p}{2})$. 因 $F$ 是三角形 $OAB$ 的垂心，所以 $AF\\perp OB$. 其中</p><p>$k_{OB}=-r$，$k_{AF}=\\frac{2pr^{2}-\\frac{p}{2}}{2pr}=\\frac{4r^{2}-1}{4r}$，</p><p>于是</p>\n$$\n-r\\cdot\\frac{4r^{2}-1}{4r}=-1  \\iff r^{2}=\\frac{5}{4}\n$$\n<p>双曲线离心率满足</p>\n$$\ne^{2}=1+\\frac{b^{2}}{a^{2}}=1+r^{2}=\\frac{9}{4}\n$$\n<p>所以 $e=\\frac{3}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -175,44 +334,56 @@
         {
           "num": 16,
           "body": "<p>设 $f(x) = \\sin x \\cos x - \\cos^{2}\\left(x + \\frac{\\pi}{4}\\right)$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>在锐角 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 若 $f\\left(\\frac{A}{2}\\right) = 0$，$a = 1$，求 $\\triangle ABC$ 面积的最大值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$\\sin x\\cos x=\\frac{1}{2}\\sin2x$，$\\cos^{2}\\left(x+\\frac{\\pi}{4}\\right)=\\frac{1}{2}(1-\\sin2x)$，</p><p>所以</p><p>$f(x)=\\sin2x-\\frac{1}{2}$，$f'(x)=2\\cos2x$.</p><p>当</p>\n$$\nk\\pi-\\frac{\\pi}{4}<x<k\\pi+\\frac{\\pi}{4}\n$$\n<p>时 $f'(x)>0$，当</p>\n$$\nk\\pi+\\frac{\\pi}{4}<x<k\\pi+\\frac{3\\pi}{4}\n$$\n<p>时 $f'(x)<0$. 因此递增区间可写为</p>\n$$\n\\left[k\\pi-\\frac{\\pi}{4},k\\pi+\\frac{\\pi}{4}\\right]\n$$\n<p>，递减区间可写为</p>\n$$\n\\left[k\\pi+\\frac{\\pi}{4},k\\pi+\\frac{3\\pi}{4}\\right]\n$$\n<p>，其中 $k\\in\\mathbb{Z}$.</p></li><li><p>由 $f\\left(\\frac{A}{2}\\right)=0$ 得</p>\n$$\n\\sin A-\\frac{1}{2}=0\n$$\n<p>因 $A$ 是锐角，所以 $A=\\frac{\\pi}{6}$，又已知 $a=1$. 由正弦定理</p><p>$b=2\\sin B$，$c=2\\sin C$，$B+C=\\frac{5\\pi}{6}$.</p><p>三角形面积为</p>\n$$\nS=\\frac{1}{2}bc\\sin A=\\sin B\\sin C\n$$\n<p>利用积化和差公式，</p>\n$$\nS=\\frac{\\cos(B-C)-\\cos(B+C)}{2}  =\\frac{\\cos(B-C)+\\frac{\\sqrt{3}}{2}}{2}  \\le\\frac{2+\\sqrt{3}}{4}\n$$\n<p>当 $B=C=\\frac{5\\pi}{12}$ 时等号成立，且三角形仍为锐角三角形. 因此面积最大值为</p>\n$$\n\\frac{2+\\sqrt{3}}{4}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$\\sin x\\cos x=\\frac{1}{2}\\sin2x$，$\\cos^{2}\\left(x+\\frac{\\pi}{4}\\right)=\\frac{1}{2}(1-\\sin2x)$，</p><p>所以</p><p>$f(x)=\\sin2x-\\frac{1}{2}$，$f'(x)=2\\cos2x$.</p><p>当</p>\n$$\nk\\pi-\\frac{\\pi}{4}<x<k\\pi+\\frac{\\pi}{4}\n$$\n<p>时 $f'(x)>0$，当</p>\n$$\nk\\pi+\\frac{\\pi}{4}<x<k\\pi+\\frac{3\\pi}{4}\n$$\n<p>时 $f'(x)<0$. 因此递增区间可写为</p>\n$$\n\\left[k\\pi-\\frac{\\pi}{4},k\\pi+\\frac{\\pi}{4}\\right]\n$$\n<p>，递减区间可写为</p>\n$$\n\\left[k\\pi+\\frac{\\pi}{4},k\\pi+\\frac{3\\pi}{4}\\right]\n$$\n<p>，其中 $k\\in\\mathbb{Z}$.</p></li><li><p>由 $f\\left(\\frac{A}{2}\\right)=0$ 得</p>\n$$\n\\sin A-\\frac{1}{2}=0\n$$\n<p>因 $A$ 是锐角，所以 $A=\\frac{\\pi}{6}$，又已知 $a=1$. 由正弦定理</p><p>$b=2\\sin B$，$c=2\\sin C$，$B+C=\\frac{5\\pi}{6}$.</p><p>三角形面积为</p>\n$$\nS=\\frac{1}{2}bc\\sin A=\\sin B\\sin C\n$$\n<p>利用积化和差公式，</p>\n$$\nS=\\frac{\\cos(B-C)-\\cos(B+C)}{2}  =\\frac{\\cos(B-C)+\\frac{\\sqrt{3}}{2}}{2}  \\le\\frac{2+\\sqrt{3}}{4}\n$$\n<p>当 $B=C=\\frac{5\\pi}{12}$ 时等号成立，且三角形仍为锐角三角形. 因此面积最大值为</p>\n$$\n\\frac{2+\\sqrt{3}}{4}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图，在三棱台 $DEF - ABC$ 中，$AB = 2DE$，$G$，$H$ 分别为 $AC$，$BC$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$BD \\parallel$ 平面 $FGH$；</p></li><li><p>若 $CF \\perp$ 平面 $ABC$，$AB \\perp BC$，$CF = DE$，$\\angle BAC = 45^{\\circ}$，求平面 $FGH$ 与平面 $ACFD$ 所成的角（锐角）的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在三棱台 $DEF - ABC$ 中，$AB = 2DE$，$G$，$H$ 分别为 $AC$，$BC$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$BD \\parallel$ 平面 $FGH$；</p></li><li><p>若 $CF \\perp$ 平面 $ABC$，$AB \\perp BC$，$CF = DE$，$\\angle BAC = 45^{\\circ}$，求平面 $FGH$ 与平面 $ACFD$ 所成的角（锐角）的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2015/img/shandong_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $A$ 为原点，记</p><p>$\\overrightarrow{AB}=\\mathbf{b}$，$\\overrightarrow{AC}=\\mathbf{c}$，$\\overrightarrow{AD}=\\mathbf{d}$.</p><p>由三棱台的对应边关系及 $AB=2DE$，顶面是底面的位似图形，位似比为 $\\frac{1}{2}$，故</p><p>$\\overrightarrow{AE}=\\mathbf{d}+\\frac{1}{2}\\mathbf{b}$，$\\overrightarrow{AF}=\\mathbf{d}+\\frac{1}{2}\\mathbf{c}$.</p><p>又 $G$，$H$ 分别为 $AC$，$BC$ 的中点，所以</p><p>$\\overrightarrow{AG}=\\frac{1}{2}\\mathbf{c}$，$\\overrightarrow{AH}=\\frac{1}{2}(\\mathbf{b}+\\mathbf{c})$，</p><p>于是</p><p>$\\overrightarrow{GH}=\\frac{1}{2}\\mathbf{b}$，$\\overrightarrow{GF}=\\mathbf{d}$.</p><p>平面 $FGH$ 的方向向量由 $\\mathbf{b}$，$\\mathbf{d}$ 张成，而</p>\n$$\n\\overrightarrow{BD}=\\mathbf{d}-\\mathbf{b}\n$$\n<p>也在这个方向平面内. 又因 $\\mathbf{b}$，$\\mathbf{c}$，$\\mathbf{d}$ 不共面，点 $B$ 不在平面 $FGH$，因此 $BD$ 平行于平面 $FGH$.</p></li><li><p>由已知条件可令 $AB=2$，建立直角坐标系</p><p>$A=(0,0,0)$，$B=(2,0,0)$，$C=(2,2,0)$，</p><p>并由 $CF\\perp$ 平面 $ABC$、$CF=DE=1$ 得</p><p>$D=(1,1,1)$，$E=(2,1,1)$，$F=(2,2,1)$，</p><p>同时</p><p>$G=(1,1,0)$，$H=(2,1,0)$.</p><p>平面 $FGH$ 的两个方向向量可取</p><p>$\\overrightarrow{GH}=(1,0,0)$，$\\overrightarrow{GF}=(1,1,1)$，</p><p>故其法向量可取</p>\n$$\n\\mathbf{n}_{1}=(0,-1,1)\n$$\n<p>平面 $ACFD$ 的两个方向向量可取</p><p>$\\overrightarrow{AC}=(2,2,0)$，$\\overrightarrow{AD}=(1,1,1)$，</p><p>故其法向量可取</p>\n$$\n\\mathbf{n}_{2}=(1,-1,0)\n$$\n<p>设两平面的锐角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{1}{\\sqrt{2}\\sqrt{2}}=\\frac{1}{2}\n$$\n<p>所以 $\\theta=60^{\\circ}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $A$ 为原点，记</p><p>$\\overrightarrow{AB}=\\mathbf{b}$，$\\overrightarrow{AC}=\\mathbf{c}$，$\\overrightarrow{AD}=\\mathbf{d}$.</p><p>由三棱台的对应边关系及 $AB=2DE$，顶面是底面的位似图形，位似比为 $\\frac{1}{2}$，故</p><p>$\\overrightarrow{AE}=\\mathbf{d}+\\frac{1}{2}\\mathbf{b}$，$\\overrightarrow{AF}=\\mathbf{d}+\\frac{1}{2}\\mathbf{c}$.</p><p>又 $G$，$H$ 分别为 $AC$，$BC$ 的中点，所以</p><p>$\\overrightarrow{AG}=\\frac{1}{2}\\mathbf{c}$，$\\overrightarrow{AH}=\\frac{1}{2}(\\mathbf{b}+\\mathbf{c})$，</p><p>于是</p><p>$\\overrightarrow{GH}=\\frac{1}{2}\\mathbf{b}$，$\\overrightarrow{GF}=\\mathbf{d}$.</p><p>平面 $FGH$ 的方向向量由 $\\mathbf{b}$，$\\mathbf{d}$ 张成，而</p>\n$$\n\\overrightarrow{BD}=\\mathbf{d}-\\mathbf{b}\n$$\n<p>也在这个方向平面内. 又因 $\\mathbf{b}$，$\\mathbf{c}$，$\\mathbf{d}$ 不共面，点 $B$ 不在平面 $FGH$，因此 $BD$ 平行于平面 $FGH$.</p></li><li><p>由已知条件可令 $AB=2$，建立直角坐标系</p><p>$A=(0,0,0)$，$B=(2,0,0)$，$C=(2,2,0)$，</p><p>并由 $CF\\perp$ 平面 $ABC$、$CF=DE=1$ 得</p><p>$D=(1,1,1)$，$E=(2,1,1)$，$F=(2,2,1)$，</p><p>同时</p><p>$G=(1,1,0)$，$H=(2,1,0)$.</p><p>平面 $FGH$ 的两个方向向量可取</p><p>$\\overrightarrow{GH}=(1,0,0)$，$\\overrightarrow{GF}=(1,1,1)$，</p><p>故其法向量可取</p>\n$$\n\\mathbf{n}_{1}=(0,-1,1)\n$$\n<p>平面 $ACFD$ 的两个方向向量可取</p><p>$\\overrightarrow{AC}=(2,2,0)$，$\\overrightarrow{AD}=(1,1,1)$，</p><p>故其法向量可取</p>\n$$\n\\mathbf{n}_{2}=(1,-1,0)\n$$\n<p>设两平面的锐角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{1}{\\sqrt{2}\\sqrt{2}}=\\frac{1}{2}\n$$\n<p>所以 $\\theta=60^{\\circ}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$. 已知 $2S_{n} = 3^{n} + 3$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若数列 $\\{b_{n}\\}$ 满足 $a_{n} b_{n} = \\log_{3} a_{n}$，求 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $2S_{1}=3+3=6$，得 $a_{1}=S_{1}=3$. 当 $n\\geqslant2$ 时，</p>\n$$\n2a_{n}=2(S_{n}-S_{n-1})  =(3^{n}+3)-(3^{n-1}+3)=2\\cdot3^{n-1}\n$$\n<p>所以当 $n\\geqslant2$ 时 $a_{n}=3^{n-1}$，又 $a_{1}=3$，故通项为</p>\n$$\na_{n}=\\begin{cases}3,&n=1,\\\\  3^{n-1},&n\\geqslant2.\\end{cases}\n$$\n</li><li><p>由 $a_{n}b_{n}=\\log_{3}a_{n}$，得</p>\n$$\nb_{1}=\\frac{\\log_{3}3}{3}=\\frac{1}{3}\n$$\n<p>当 $n\\geqslant2$ 时，</p>\n$$\nb_{n}=\\frac{\\log_{3}(3^{n-1})}{3^{n-1}}=\\frac{n-1}{3^{n-1}}\n$$\n<p>令 $m=n-1$，则</p>\n$$\nT_{n}=\\frac{1}{3}+\\sum_{j=1}^{m}\\frac{j}{3^{j}}\n$$\n<p>设 $U_{m}=\\sum_{j=1}^{m}\\frac{j}{3^{j}}$，则</p>\n$$\nU_{m}-\\frac{1}{3}U_{m}  =\\frac{1}{3}+\\sum_{j=2}^{m}\\frac{1}{3^{j}}-\\frac{m}{3^{m+1}}=\\frac{1}{2}\\left(1-\\frac{1}{3^{m}}\\right)-\\frac{m}{3^{m+1}}\n$$\n<p>从而</p>\n$$\nU_{m}=\\frac{3}{4}-\\frac{2m+3}{4\\cdot3^{m}}\n$$\n<p>代入 $m=n-1$，得到</p>\n$$\nT_{n}=\\frac{13}{12}-\\frac{2n+1}{4\\cdot3^{n-1}}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $2S_{1}=3+3=6$，得 $a_{1}=S_{1}=3$. 当 $n\\geqslant2$ 时，</p>\n$$\n2a_{n}=2(S_{n}-S_{n-1})  =(3^{n}+3)-(3^{n-1}+3)=2\\cdot3^{n-1}\n$$\n<p>所以当 $n\\geqslant2$ 时 $a_{n}=3^{n-1}$，又 $a_{1}=3$，故通项为</p>\n$$\na_{n}=\\begin{cases}3,&n=1,\\\\  3^{n-1},&n\\geqslant2.\\end{cases}\n$$\n</li><li><p>由 $a_{n}b_{n}=\\log_{3}a_{n}$，得</p>\n$$\nb_{1}=\\frac{\\log_{3}3}{3}=\\frac{1}{3}\n$$\n<p>当 $n\\geqslant2$ 时，</p>\n$$\nb_{n}=\\frac{\\log_{3}(3^{n-1})}{3^{n-1}}=\\frac{n-1}{3^{n-1}}\n$$\n<p>令 $m=n-1$，则</p>\n$$\nT_{n}=\\frac{1}{3}+\\sum_{j=1}^{m}\\frac{j}{3^{j}}\n$$\n<p>设 $U_{m}=\\sum_{j=1}^{m}\\frac{j}{3^{j}}$，则</p>\n$$\nU_{m}-\\frac{1}{3}U_{m}  =\\frac{1}{3}+\\sum_{j=2}^{m}\\frac{1}{3^{j}}-\\frac{m}{3^{m+1}}=\\frac{1}{2}\\left(1-\\frac{1}{3^{m}}\\right)-\\frac{m}{3^{m+1}}\n$$\n<p>从而</p>\n$$\nU_{m}=\\frac{3}{4}-\\frac{2m+3}{4\\cdot3^{m}}\n$$\n<p>代入 $m=n-1$，得到</p>\n$$\nT_{n}=\\frac{13}{12}-\\frac{2n+1}{4\\cdot3^{n-1}}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>设 $n$ 是一个三位正整数，且 $n$ 的个位数字大于十位数字，十位数字大于百位数字，则称 $n$ 为“三位递增数”（如 $137$，$359$，$567$ 等）. 在某次数学趣味活动中，每位参加者需从所有的“三位递增数”中随机抽取 $1$ 个数，且只能抽取一次. 得分规则如下：若抽取的“三位递增数”的三个数字之积不能被 $5$ 整除，参加者得 $0$ 分；若能被 $5$ 整除，但不能被 $10$ 整除，得 $-1$ 分；若能被 $10$ 整除，得 $1$ 分.</p><ol class=\"enumerate\"><li><p>写出所有个位数字是 $5$ 的“三位递增数”；</p></li><li><p>若甲参加活动，求甲得分 $X$ 的分布列和数学期望 $E(X)$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>个位数字为 $5$，且百位、十位均小于 $5$，从 $1$，$2$，$3$，$4$ 中选两个并按递增顺序排列，因此这些数为</p><p>$125$，$135$，$145$，$235$，$245$，$345$.</p></li><li><p>三位递增数由 $1$，$2$，$\\ldots$，$9$ 中任选三个数字组成，共有</p>\n$$\n\\mathrm{C}_{9}^{3}=84\n$$\n<p>个. 不被 $5$ 整除时不含数字 $5$，共有</p>\n$$\n\\mathrm{C}_{8}^{3}=56\n$$\n<p>个，所以 $P(X=0)=\\frac{56}{84}=\\frac{2}{3}$.</p><p>能被 $5$ 整除但不能被 $10$ 整除时，必须含 $5$ 且不含偶数，另外两个数字从 $1$，$3$，$7$，$9$ 中选取，共有</p>\n$$\n\\mathrm{C}_{4}^{2}=6\n$$\n<p>个，所以 $P(X=-1)=\\frac{6}{84}=\\frac{1}{14}$.</p><p>能被 $10$ 整除时，必须含 $5$ 且至少含一个偶数. 除 $5$ 外任选两个数字的 $\\mathrm{C}_{8}^{2}$ 种中，减去两数都为奇数的 $\\mathrm{C}_{4}^{2}$ 种，得到</p>\n$$\n\\mathrm{C}_{8}^{2}-\\mathrm{C}_{4}^{2}=22\n$$\n<p>个，所以 $P(X=1)=\\frac{22}{84}=\\frac{11}{42}$. 分布列为</p><p>$P(X=-1)=\\frac{1}{14}$，$P(X=0)=\\frac{2}{3}$，$P(X=1)=\\frac{11}{42}$.</p><p>数学期望为</p>\n$$\nE(X)=-1\\cdot\\frac{1}{14}+0\\cdot\\frac{2}{3}+1\\cdot\\frac{11}{42}=\\frac{4}{21}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>个位数字为 $5$，且百位、十位均小于 $5$，从 $1$，$2$，$3$，$4$ 中选两个并按递增顺序排列，因此这些数为</p><p>$125$，$135$，$145$，$235$，$245$，$345$.</p></li><li><p>三位递增数由 $1$，$2$，$\\ldots$，$9$ 中任选三个数字组成，共有</p>\n$$\n\\mathrm{C}_{9}^{3}=84\n$$\n<p>个. 不被 $5$ 整除时不含数字 $5$，共有</p>\n$$\n\\mathrm{C}_{8}^{3}=56\n$$\n<p>个，所以 $P(X=0)=\\frac{56}{84}=\\frac{2}{3}$.</p><p>能被 $5$ 整除但不能被 $10$ 整除时，必须含 $5$ 且不含偶数，另外两个数字从 $1$，$3$，$7$，$9$ 中选取，共有</p>\n$$\n\\mathrm{C}_{4}^{2}=6\n$$\n<p>个，所以 $P(X=-1)=\\frac{6}{84}=\\frac{1}{14}$.</p><p>能被 $10$ 整除时，必须含 $5$ 且至少含一个偶数. 除 $5$ 外任选两个数字的 $\\mathrm{C}_{8}^{2}$ 种中，减去两数都为奇数的 $\\mathrm{C}_{4}^{2}$ 种，得到</p>\n$$\n\\mathrm{C}_{8}^{2}-\\mathrm{C}_{4}^{2}=22\n$$\n<p>个，所以 $P(X=1)=\\frac{22}{84}=\\frac{11}{42}$. 分布列为</p><p>$P(X=-1)=\\frac{1}{14}$，$P(X=0)=\\frac{2}{3}$，$P(X=1)=\\frac{11}{42}$.</p><p>数学期望为</p>\n$$\nE(X)=-1\\cdot\\frac{1}{14}+0\\cdot\\frac{2}{3}+1\\cdot\\frac{11}{42}=\\frac{4}{21}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>平面直角坐标系 $xOy$ 中，已知椭圆 $C: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的离心率为 $\\frac{\\sqrt{3}}{2}$. 左、右焦点分别是 $F_{1}$，$F_{2}$. 以 $F_{1}$ 为圆心、以 $3$ 为半径的圆与以 $F_{2}$ 为圆心、以 $1$ 为半径的圆相交，且交点在椭圆 $C$ 上.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>设椭圆 $E: \\frac{x^{2}}{4a^{2}}+ \\frac{y^{2}}{4b^{2}}= 1$，$P$ 为椭圆 $C$ 上任意一点，过点 $P$ 的直线 $y = kx + m$ 交椭圆 $E$ 于 $A$，$B$ 两点，射线 $PO$ 交椭圆 $E$ 于点 $Q$.</p><p></p><ol class=\"enumerate\"><li><p>求 $\\frac{|OQ|}{|OP|}$ 的值；</p></li><li><p>求 $\\triangle ABQ$ 面积的最大值.</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设圆与椭圆的交点为 $R$. 由椭圆的焦点定义，</p>\n$$\nRF_{1}+RF_{2}=2a\n$$\n<p>又 $RF_{1}=3$，$RF_{2}=1$，所以 $2a=4$，即 $a=2$. 由离心率</p>\n$$\n\\frac{c}{a}=\\frac{\\sqrt{3}}{2}\n$$\n<p>得 $c=\\sqrt{3}$，从而</p>\n$$\nb^{2}=a^{2}-c^{2}=4-3=1\n$$\n<p>因此椭圆 $C$ 的方程为</p>\n$$\n\\frac{x^{2}}{4}+y^{2}=1\n$$\n</li><li><p></p><ol class=\"enumerate\"><li><p>椭圆 $E$ 的方程为 $\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1$，它是 $C$ 以原点为中心、长短轴均放大为原来的 $2$ 倍得到的椭圆. 若 $P=(x_{0},y_{0})$，则射线 $PO$ 上另一交点为</p>\n$$\nQ=(-2x_{0},-2y_{0})\n$$\n<p>所以</p>\n$$\n\\frac{|OQ|}{|OP|}=2\n$$\n</li><li><p>设 $u=1+4k^{2}$. 直线 $y=kx+m$ 与 $C$ 的交点条件给出</p>\n$$\nux^{2}+8kmx+4m^{2}-4=0\n$$\n<p>因为该直线经过 $P\\in C$，有</p>\n$$\n16(u-m^{2})\\geqslant0\n$$\n<p>故令 $t=\\frac{m^{2}}{u}$，则 $0\\le t\\leqslant1$.</p><p>直线与 $E$ 的交点横坐标满足</p>\n$$\nux^{2}+8kmx+4m^{2}-16=0\n$$\n<p>其判别式为 $16(4u-m^{2})$. 因此</p>\n$$\n|AB|=\\sqrt{1+k^{2}}\\frac{4\\sqrt{4u-m^{2}}}{u}\n$$\n<p>直线可写为 $kx-y+m=0$. 由于 $P$ 在直线上且 $Q=-2P$，代入可得 $Q$ 到该直线的距离为</p>\n$$\n\\frac{3|m|}{\\sqrt{1+k^{2}}}\n$$\n<p>所以</p>\n$$\nS_{\\triangle ABQ}=\\frac{1}{2}|AB|\\cdot d(Q,AB)  =\\frac{6|m|\\sqrt{4u-m^2}}{u}=6\\sqrt{t(4-t)}\n$$\n<p>因为</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}t}\\bigl(t(4-t)\\bigr)=4-2t>0\n$$\n<p>在 $0\\le t\\leqslant1$ 上成立，所以 $t(4-t)$ 递增，最大值在 $t=1$ 时取得，为</p>\n$$\nS_{\\triangle ABQ,\\max}=6\\sqrt{3}\n$$\n</li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设圆与椭圆的交点为 $R$. 由椭圆的焦点定义，</p>\n$$\nRF_{1}+RF_{2}=2a\n$$\n<p>又 $RF_{1}=3$，$RF_{2}=1$，所以 $2a=4$，即 $a=2$. 由离心率</p>\n$$\n\\frac{c}{a}=\\frac{\\sqrt{3}}{2}\n$$\n<p>得 $c=\\sqrt{3}$，从而</p>\n$$\nb^{2}=a^{2}-c^{2}=4-3=1\n$$\n<p>因此椭圆 $C$ 的方程为</p>\n$$\n\\frac{x^{2}}{4}+y^{2}=1\n$$\n</li><li><p></p><ol class=\"enumerate\"><li><p>椭圆 $E$ 的方程为 $\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1$，它是 $C$ 以原点为中心、长短轴均放大为原来的 $2$ 倍得到的椭圆. 若 $P=(x_{0},y_{0})$，则射线 $PO$ 上另一交点为</p>\n$$\nQ=(-2x_{0},-2y_{0})\n$$\n<p>所以</p>\n$$\n\\frac{|OQ|}{|OP|}=2\n$$\n</li><li><p>设 $u=1+4k^{2}$. 直线 $y=kx+m$ 与 $C$ 的交点条件给出</p>\n$$\nux^{2}+8kmx+4m^{2}-4=0\n$$\n<p>因为该直线经过 $P\\in C$，有</p>\n$$\n16(u-m^{2})\\geqslant0\n$$\n<p>故令 $t=\\frac{m^{2}}{u}$，则 $0\\le t\\leqslant1$.</p><p>直线与 $E$ 的交点横坐标满足</p>\n$$\nux^{2}+8kmx+4m^{2}-16=0\n$$\n<p>其判别式为 $16(4u-m^{2})$. 因此</p>\n$$\n|AB|=\\sqrt{1+k^{2}}\\frac{4\\sqrt{4u-m^{2}}}{u}\n$$\n<p>直线可写为 $kx-y+m=0$. 由于 $P$ 在直线上且 $Q=-2P$，代入可得 $Q$ 到该直线的距离为</p>\n$$\n\\frac{3|m|}{\\sqrt{1+k^{2}}}\n$$\n<p>所以</p>\n$$\nS_{\\triangle ABQ}=\\frac{1}{2}|AB|\\cdot d(Q,AB)  =\\frac{6|m|\\sqrt{4u-m^2}}{u}=6\\sqrt{t(4-t)}\n$$\n<p>因为</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}t}\\bigl(t(4-t)\\bigr)=4-2t>0\n$$\n<p>在 $0\\le t\\leqslant1$ 上成立，所以 $t(4-t)$ 递增，最大值在 $t=1$ 时取得，为</p>\n$$\nS_{\\triangle ABQ,\\max}=6\\sqrt{3}\n$$\n</li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>设函数 $f(x) = \\ln(x + 1) + a(x^{2} - x)$，其中 $a \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>讨论函数 $f(x)$ 极值点的个数，并说明理由；</p></li><li><p>若 $\\forall x > 0$，$f(x) \\ge 0$ 成立，求 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-1$，且</p><p>$f'(x)=\\frac{1}{x+1}+a(2x-1)=\\frac{g(x)}{x+1}$，$g(x)=2ax^{2}+ax+1-a$.</p><p>由于 $x+1>0$，$f'$ 与 $g$ 同号，且 $g(-1)=1$.</p><p>当 $a<0$ 时，$g$ 是开口向下的抛物线，且在 $x\\to+\\infty$ 时趋于负无穷，因此在定义域内恰有一个零点，$f'$ 由正变负，函数有一个极值点.</p><p>当 $a=0$ 时，$g(x)=1>0$，函数无极值点.</p><p>当 $0<a<\\frac{8}{9}$ 时，$g$ 的判别式为</p>\n$$\n\\Delta=a^{2}-8a(1-a)=a(9a-8)<0\n$$\n<p>且二次项系数为正，所以 $g(x)>0$，函数无极值点.</p><p>当 $a=\\frac{8}{9}$ 时，$g\\geqslant0$，虽在 $x=-\\frac{1}{4}$ 处为零，但不变号，函数仍无极值点.</p><p>当 $a>\\frac{8}{9}$ 时，$\\Delta>0$. 二次函数顶点横坐标为 $-\\frac{1}{4}>-1$，又 $g(-1)=1>0$，故 $g$ 在定义域内有两个零点，符号依次为正、负、正，函数有两个极值点.</p><p>综上，当 $a<0$ 时有一个极值点；当 $0\\le a\\le\\frac{8}{9}$ 时无极值点；当 $a>\\frac{8}{9}$ 时有两个极值点.</p></li><li><p>对 $0<x<1$，条件 $f(x)\\geqslant0$ 等价于</p>\n$$\na\\le\\frac{\\ln(1+x)}{x(1-x)}\n$$\n<p>令</p>\n$$\nh(x)=\\ln(1+x)-x(1-x)\n$$\n<p>则 $h(0)=0$，且</p>\n$$\nh'(x)=\\frac{x(1+2x)}{1+x}>0\n$$\n<p>所以 $\\ln(1+x)\\ge x(1-x)$，从而 $a\\leqslant1$ 时对 $0<x<1$ 成立. 另一方面</p>\n$$\n\\lim_{x\\to0^+}\\frac{\\ln(1+x)}{x(1-x)}=1\n$$\n<p>所以若 $a>1$，取充分小的正数 $x$ 即不满足条件，故必须 $a\\leqslant1$.</p><p>当 $x>1$ 时，若 $a<0$，则</p>\n$$\n\\frac{f(x)}{x^{2}}=\\frac{\\ln(1+x)}{x^{2}}+a\\left(1-\\frac{1}{x}\\right)\\longrightarrow a<0\n$$\n<p>故大 $x$ 时 $f(x)<0$，所以必须 $a\\geqslant0$. 若 $0\\le a\\leqslant1$，则 $x\\geqslant1$ 时两项均非负，结合前面的结论可知对一切 $x>0$ 都有 $f(x)\\geqslant0$. 因此</p>\n$$\na\\in[0,1]\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-1$，且</p><p>$f'(x)=\\frac{1}{x+1}+a(2x-1)=\\frac{g(x)}{x+1}$，$g(x)=2ax^{2}+ax+1-a$.</p><p>由于 $x+1>0$，$f'$ 与 $g$ 同号，且 $g(-1)=1$.</p><p>当 $a<0$ 时，$g$ 是开口向下的抛物线，且在 $x\\to+\\infty$ 时趋于负无穷，因此在定义域内恰有一个零点，$f'$ 由正变负，函数有一个极值点.</p><p>当 $a=0$ 时，$g(x)=1>0$，函数无极值点.</p><p>当 $0<a<\\frac{8}{9}$ 时，$g$ 的判别式为</p>\n$$\n\\Delta=a^{2}-8a(1-a)=a(9a-8)<0\n$$\n<p>且二次项系数为正，所以 $g(x)>0$，函数无极值点.</p><p>当 $a=\\frac{8}{9}$ 时，$g\\geqslant0$，虽在 $x=-\\frac{1}{4}$ 处为零，但不变号，函数仍无极值点.</p><p>当 $a>\\frac{8}{9}$ 时，$\\Delta>0$. 二次函数顶点横坐标为 $-\\frac{1}{4}>-1$，又 $g(-1)=1>0$，故 $g$ 在定义域内有两个零点，符号依次为正、负、正，函数有两个极值点.</p><p>综上，当 $a<0$ 时有一个极值点；当 $0\\le a\\le\\frac{8}{9}$ 时无极值点；当 $a>\\frac{8}{9}$ 时有两个极值点.</p></li><li><p>对 $0<x<1$，条件 $f(x)\\geqslant0$ 等价于</p>\n$$\na\\le\\frac{\\ln(1+x)}{x(1-x)}\n$$\n<p>令</p>\n$$\nh(x)=\\ln(1+x)-x(1-x)\n$$\n<p>则 $h(0)=0$，且</p>\n$$\nh'(x)=\\frac{x(1+2x)}{1+x}>0\n$$\n<p>所以 $\\ln(1+x)\\ge x(1-x)$，从而 $a\\leqslant1$ 时对 $0<x<1$ 成立. 另一方面</p>\n$$\n\\lim_{x\\to0^+}\\frac{\\ln(1+x)}{x(1-x)}=1\n$$\n<p>所以若 $a>1$，取充分小的正数 $x$ 即不满足条件，故必须 $a\\leqslant1$.</p><p>当 $x>1$ 时，若 $a<0$，则</p>\n$$\n\\frac{f(x)}{x^{2}}=\\frac{\\ln(1+x)}{x^{2}}+a\\left(1-\\frac{1}{x}\\right)\\longrightarrow a<0\n$$\n<p>故大 $x$ 时 $f(x)<0$，所以必须 $a\\geqslant0$. 若 $0\\le a\\leqslant1$，则 $x\\geqslant1$ 时两项均非负，结合前面的结论可知对一切 $x>0$ 都有 $f(x)\\geqslant0$. 因此</p>\n$$\na\\in[0,1]\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -1,8 +1,143 @@
 {
-  "title": "2008年普通高等学校招生全国统一考试",
-  "subtitle": "2008年大纲I卷（理）",
   "year": "2008",
   "slug": "syllabus_paper_1_science",
+  "title": "2008年大纲I卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,19 +152,23 @@
             "$\\{x\\mid 0\\le x\\le 1\\}$"
           ],
           "answer": "C",
-          "solution": "要使根式有意义，必须同时满足 $x(x-1)\\ge 0$ 和 $x\\ge 0$. 由 $x(x-1)\\ge 0$ 得 $x\\le 0$ 或 $x\\ge 1$，与 $x\\ge 0$ 取交集，得到 $x=0$ 或 $x\\ge 1$. 所以定义域为 $\\{x\\mid x\\ge 1\\}\\cup\\{0\\}$，故选 C."
+          "solution": "要使根式有意义，必须同时满足 $x(x-1)\\ge 0$ 和 $x\\ge 0$. 由 $x(x-1)\\ge 0$ 得 $x\\le 0$ 或 $x\\ge 1$，与 $x\\ge 0$ 取交集，得到 $x=0$ 或 $x\\ge 1$. 所以定义域为 $\\{x\\mid x\\ge 1\\}\\cup\\{0\\}$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "汽车经过启动，加速行驶，匀速行驶，减速行驶之后停车，若把这一过程中汽车的行驶路程 $s$ 看作时间 $t$ 的函数，其图象可能是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_paper_1_science/q2_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_paper_1_science/q2_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_paper_1_science/q2_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_paper_1_science/q2_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/syllabus_paper_1_science/q2_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/syllabus_paper_1_science/q2_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/syllabus_paper_1_science/q2_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2008/img/syllabus_paper_1_science/q2_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "设汽车的瞬时速度为 $v(t)=s'(t)$. 启动后加速行驶时，$v(t)$ 逐渐增大，故 $s(t)$ 的斜率逐渐增大；匀速行驶时，$v(t)$ 不变，故图象为斜率不变的上升直线；减速行驶时，$v(t)$ 逐渐减小到 $0$，故图象上升但斜率逐渐减小，最后汽车停车时斜率为 $0$. 四个图象中只有图 A 同时具有上述三段变化特征，故选 A."
+          "solution": "设汽车的瞬时速度为 $v(t)=s'(t)$. 启动后加速行驶时，$v(t)$ 逐渐增大，故 $s(t)$ 的斜率逐渐增大；匀速行驶时，$v(t)$ 不变，故图象为斜率不变的上升直线；减速行驶时，$v(t)$ 逐渐减小到 $0$，故图象上升但斜率逐渐减小，最后汽车停车时斜率为 $0$. 四个图象中只有图 A 同时具有上述三段变化特征，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$\\frac{1}{3}\\mathbf{b}+ \\frac{2}{3}\\mathbf{c}$"
           ],
           "answer": "A",
-          "solution": "<p>由 $\\overrightarrow{BD}=2\\overrightarrow{DC}$ 可知 $D$ 在线段 $BC$ 上，且 $BD:DC=2:1$，所以 $\\overrightarrow{BD}=\\frac{2}{3}\\overrightarrow{BC}$. 又 $\\overrightarrow{BC}=\\overrightarrow{AC}-\\overrightarrow{AB}=\\mathbf{b}-\\mathbf{c}$，因此</p>\n$$\n\\overrightarrow{AD}=\\overrightarrow{AB}+\\overrightarrow{BD}=\\mathbf{c}+\\frac{2}{3}(\\mathbf{b}-\\mathbf{c})=\\frac{2}{3}\\mathbf{b}+\\frac{1}{3}\\mathbf{c}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>由 $\\overrightarrow{BD}=2\\overrightarrow{DC}$ 可知 $D$ 在线段 $BC$ 上，且 $BD:DC=2:1$，所以 $\\overrightarrow{BD}=\\frac{2}{3}\\overrightarrow{BC}$. 又 $\\overrightarrow{BC}=\\overrightarrow{AC}-\\overrightarrow{AB}=\\mathbf{b}-\\mathbf{c}$，因此</p>\n$$\n\\overrightarrow{AD}=\\overrightarrow{AB}+\\overrightarrow{BD}=\\mathbf{c}+\\frac{2}{3}(\\mathbf{b}-\\mathbf{c})=\\frac{2}{3}\\mathbf{b}+\\frac{1}{3}\\mathbf{c}\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$-1$"
           ],
           "answer": "D",
-          "solution": "<p>展开得</p>\n$$\n(a+\\mathrm{i})^{2}\\mathrm{i}=(a^{2}-1+2a\\mathrm{i})\\mathrm{i}=-2a+(a^{2}-1)\\mathrm{i}\n$$\n<p>它为正实数，故虚部为 $0$，实部为正数，即 $a^{2}-1=0$ 且 $-2a>0$. 由此 $a=\\pm1$，再由 $-2a>0$ 得 $a=-1$，故选 D.</p>"
+          "solution": "<p>展开得</p>\n$$\n(a+\\mathrm{i})^{2}\\mathrm{i}=(a^{2}-1+2a\\mathrm{i})\\mathrm{i}=-2a+(a^{2}-1)\\mathrm{i}\n$$\n<p>它为正实数，故虚部为 $0$，实部为正数，即 $a^{2}-1=0$ 且 $-2a>0$. 由此 $a=\\pm1$，再由 $-2a>0$ 得 $a=-1$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "$23$"
           ],
           "answer": "C",
-          "solution": "<p>设等差数列的首项为 $a_{1}$，公差为 $d$. 由题意，</p><p>$a_{2}+a_{4}=2a_{1}+4d=4$，$a_{3}+a_{5}=2a_{1}+6d=10$.</p><p>两式相减得 $2d=6$，所以 $d=3$，再代入第一式得 $a_{1}=-4$. 因而</p>\n$$\nS_{10}=\\frac{10}{2}\\left(2a_{1}+9d\\right)=5(-8+27)=95\n$$\n<p>故选 C.</p>"
+          "solution": "<p>设等差数列的首项为 $a_{1}$，公差为 $d$. 由题意，</p><p>$a_{2}+a_{4}=2a_{1}+4d=4$，$a_{3}+a_{5}=2a_{1}+6d=10$.</p><p>两式相减得 $2d=6$，所以 $d=3$，再代入第一式得 $a_{1}=-4$. 因而</p>\n$$\nS_{10}=\\frac{10}{2}\\left(2a_{1}+9d\\right)=5(-8+27)=95\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$\\mathrm{e}^{2x + 2}$"
           ],
           "answer": "B",
-          "solution": "函数 $y=\\ln\\sqrt{x}+1=\\frac{1}{2}\\ln x+1$，其中 $x>0$. 设 $y=\\frac{1}{2}\\ln x+1$，则 $y-1=\\frac{1}{2}\\ln x$，从而 $x=\\mathrm{e}^{2y-2}$. 交换 $x$，$y$ 得其关于 $y=x$ 的对称图象为 $y=\\mathrm{e}^{2x-2}$. 题设图象为 $y=f(x-1)$，故 $f(x-1)=\\mathrm{e}^{2x-2}$. 令 $u=x-1$，得到 $f(u)=\\mathrm{e}^{2u}$，所以 $f(x)=\\mathrm{e}^{2x}$，故选 B."
+          "solution": "函数 $y=\\ln\\sqrt{x}+1=\\frac{1}{2}\\ln x+1$，其中 $x>0$. 设 $y=\\frac{1}{2}\\ln x+1$，则 $y-1=\\frac{1}{2}\\ln x$，从而 $x=\\mathrm{e}^{2y-2}$. 交换 $x$，$y$ 得其关于 $y=x$ 的对称图象为 $y=\\mathrm{e}^{2x-2}$. 题设图象为 $y=f(x-1)$，故 $f(x-1)=\\mathrm{e}^{2x-2}$. 令 $u=x-1$，得到 $f(u)=\\mathrm{e}^{2u}$，所以 $f(x)=\\mathrm{e}^{2x}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$-2$"
           ],
           "answer": "D",
-          "solution": "<p>由 $y=\\frac{x+1}{x-1}$ 得</p>\n$$\ny'=\\frac{(x-1)-(x+1)}{(x-1)^{2}}=-\\frac{2}{(x-1)^{2}}\n$$\n<p>所以曲线在 $(3,2)$ 处的切线斜率为 $-\\frac{1}{2}$. 直线 $ax+y+1=0$ 的斜率为 $-a$. 两直线垂直，故</p>\n$$\n\\left(-\\frac{1}{2}\\right)(-a)=-1\n$$\n<p>解得 $a=-2$，故选 D.</p>"
+          "solution": "<p>由 $y=\\frac{x+1}{x-1}$ 得</p>\n$$\ny'=\\frac{(x-1)-(x+1)}{(x-1)^{2}}=-\\frac{2}{(x-1)^{2}}\n$$\n<p>所以曲线在 $(3,2)$ 处的切线斜率为 $-\\frac{1}{2}$. 直线 $ax+y+1=0$ 的斜率为 $-a$. 两直线垂直，故</p>\n$$\n\\left(-\\frac{1}{2}\\right)(-a)=-1\n$$\n<p>解得 $a=-2$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "向右平移 $\\frac{5\\pi}{6}$ 个长度单位"
           ],
           "answer": "A",
-          "solution": "<p>利用诱导公式，</p>\n$$\n\\cos\\left(2x+\\frac{\\pi}{3}\\right)=\\sin\\left(\\frac{\\pi}{2}+2x+\\frac{\\pi}{3}\\right)=\\sin\\left(2x+\\frac{5\\pi}{6}\\right)\n$$\n<p>将 $y=\\sin 2x$ 的图象向左平移 $h$ 个长度单位后，函数变为 $y=\\sin 2(x+h)$. 令 $2h=\\frac{5\\pi}{6}$，得 $h=\\frac{5\\pi}{12}$，故选 A.</p>"
+          "solution": "<p>利用诱导公式，</p>\n$$\n\\cos\\left(2x+\\frac{\\pi}{3}\\right)=\\sin\\left(\\frac{\\pi}{2}+2x+\\frac{\\pi}{3}\\right)=\\sin\\left(2x+\\frac{5\\pi}{6}\\right)\n$$\n<p>将 $y=\\sin 2x$ 的图象向左平移 $h$ 个长度单位后，函数变为 $y=\\sin 2(x+h)$. 令 $2h=\\frac{5\\pi}{6}$，得 $h=\\frac{5\\pi}{12}$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +264,9 @@
             "$(-1,0)\\cup (0,1)$"
           ],
           "answer": "D",
-          "solution": "奇函数满足 $f(-x)=-f(x)$，所以原不等式等价于 $\\frac{2f(x)}{x}<0$，且 $x\\ne 0$. 由 $f$ 在 $(0,+\\infty)$ 上递增且 $f(1)=0$，可得 $f(x)<0$（$0<x<1$），$f(x)>0$（$x>1$）. 当 $-1<x<0$ 时，由奇性得 $f(x)>0$，故 $\\frac{f(x)}{x}<0$；当 $x<-1$ 时，$f(x)<0$，故 $\\frac{f(x)}{x}>0$. 综合得解集为 $(-1,0)\\cup(0,1)$，故选 D."
+          "solution": "奇函数满足 $f(-x)=-f(x)$，所以原不等式等价于 $\\frac{2f(x)}{x}<0$，且 $x\\ne 0$. 由 $f$ 在 $(0,+\\infty)$ 上递增且 $f(1)=0$，可得 $f(x)<0$（$0<x<1$），$f(x)>0$（$x>1$）. 当 $-1<x<0$ 时，由奇性得 $f(x)>0$，故 $\\frac{f(x)}{x}<0$；当 $x<-1$ 时，$f(x)<0$，故 $\\frac{f(x)}{x}>0$. 综合得解集为 $(-1,0)\\cup(0,1)$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +278,9 @@
             "$\\frac{1}{a^{2}}+ \\frac{1}{b^{2}}\\ge 1$"
           ],
           "answer": "D",
-          "solution": "<p>将 $M(\\cos\\alpha,\\sin\\alpha)$ 代入直线方程，得</p>\n$$\n\\frac{\\cos\\alpha}{a}+\\frac{\\sin\\alpha}{b}=1\n$$\n<p>由柯西不等式，</p>\n$$\n1=\\left(\\frac{\\cos\\alpha}{a}+\\frac{\\sin\\alpha}{b}\\right)^{2}  \\le(\\cos^{2}\\alpha+\\sin^{2}\\alpha)\\left(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}\\right)  =\\frac{1}{a^{2}}+\\frac{1}{b^{2}}\n$$\n<p>因此 $\\frac{1}{a^{2}}+\\frac{1}{b^{2}}\\ge 1$，故选 D.</p>"
+          "solution": "<p>将 $M(\\cos\\alpha,\\sin\\alpha)$ 代入直线方程，得</p>\n$$\n\\frac{\\cos\\alpha}{a}+\\frac{\\sin\\alpha}{b}=1\n$$\n<p>由柯西不等式，</p>\n$$\n1=\\left(\\frac{\\cos\\alpha}{a}+\\frac{\\sin\\alpha}{b}\\right)^{2}  \\le(\\cos^{2}\\alpha+\\sin^{2}\\alpha)\\left(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}\\right)  =\\frac{1}{a^{2}}+\\frac{1}{b^{2}}\n$$\n<p>因此 $\\frac{1}{a^{2}}+\\frac{1}{b^{2}}\\ge 1$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,11 +292,13 @@
             "$\\frac{2}{3}$"
           ],
           "answer": "B",
-          "solution": "<p>设等边三角形的边长为 $a$，建立空间直角坐标系，取 $A=(0,0,0)$，$B=(a,0,0)$，$C=\\left(\\frac{a}{2},\\frac{\\sqrt{3}a}{2},0\\right)$.</p><p>设 $\\triangle ABC$ 的中心为 $O$，则</p>\n$$\nO=\\left(\\frac{a}{2},\\frac{\\sqrt{3}a}{6},0\\right)\n$$\n<p>由题意，$A_{1}$ 在底面内的射影为 $O$，故可设 $A_{1}=(\\frac{a}{2},\\frac{\\sqrt{3}a}{6},h)$. 侧棱长等于 $a$，于是</p><p>$AA_{1}^{2}=\\frac{a^{2}}{4}+\\frac{a^{2}}{12}+h^{2}=a^{2}$，$h^{2}=\\frac{2a^{2}}{3}$.</p><p>三棱柱的侧棱互相平行且相等，所以</p>\n$$\nB_{1}=B+(A_{1}-A)=\\left(\\frac{3a}{2},\\frac{\\sqrt{3}a}{6},h\\right)\n$$\n<p>因此</p>\n$$\nAB_{1}^{2}=\\frac{9a^{2}}{4}+\\frac{a^{2}}{12}+\\frac{2a^{2}}{3}=3a^{2}\n$$\n<p>直线 $AB_{1}$ 与底面所成角的正弦等于其竖直方向分量与长度之比，故</p>\n$$\n\\sin\\theta=\\frac{h}{AB_{1}}=\\frac{\\sqrt{2}\\frac{a}{\\sqrt{3}}}{\\sqrt{3}a}=\\frac{\\sqrt{2}}{3}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>设等边三角形的边长为 $a$，建立空间直角坐标系，取 $A=(0,0,0)$，$B=(a,0,0)$，$C=\\left(\\frac{a}{2},\\frac{\\sqrt{3}a}{2},0\\right)$.</p><p>设 $\\triangle ABC$ 的中心为 $O$，则</p>\n$$\nO=\\left(\\frac{a}{2},\\frac{\\sqrt{3}a}{6},0\\right)\n$$\n<p>由题意，$A_{1}$ 在底面内的射影为 $O$，故可设 $A_{1}=(\\frac{a}{2},\\frac{\\sqrt{3}a}{6},h)$. 侧棱长等于 $a$，于是</p><p>$AA_{1}^{2}=\\frac{a^{2}}{4}+\\frac{a^{2}}{12}+h^{2}=a^{2}$，$h^{2}=\\frac{2a^{2}}{3}$.</p><p>三棱柱的侧棱互相平行且相等，所以</p>\n$$\nB_{1}=B+(A_{1}-A)=\\left(\\frac{3a}{2},\\frac{\\sqrt{3}a}{6},h\\right)\n$$\n<p>因此</p>\n$$\nAB_{1}^{2}=\\frac{9a^{2}}{4}+\\frac{a^{2}}{12}+\\frac{2a^{2}}{3}=3a^{2}\n$$\n<p>直线 $AB_{1}$ 与底面所成角的正弦等于其竖直方向分量与长度之比，故</p>\n$$\n\\sin\\theta=\\frac{h}{AB_{1}}=\\frac{\\sqrt{2}\\frac{a}{\\sqrt{3}}}{\\sqrt{3}a}=\\frac{\\sqrt{2}}{3}\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
-          "body": "<p>如图，一环形花坛分成 A，B，C，D 四块，现有 $4$ 种不同的花供选种，要求在每块里种 $1$ 种花，且相邻的 $2$ 块种不同的花，则不同的种法总数为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_paper_1_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，一环形花坛分成 A，B，C，D 四块，现有 $4$ 种不同的花供选种，要求在每块里种 $1$ 种花，且相邻的 $2$ 块种不同的花，则不同的种法总数为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/syllabus_paper_1_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$96$",
             "$84$",
@@ -149,7 +306,9 @@
             "$48$"
           ],
           "answer": "B",
-          "solution": "<p>先给区域 $A$ 选花，有 $4$ 种选法；给相邻区域 $B$ 选花，有 $3$ 种选法. 若 $C$ 与 $A$ 同色，则 $C$ 只有 $1$ 种选法，$D$ 有 $3$ 种选法；若 $C$ 与 $A$ 不同色，则 $C$ 有 $2$ 种选法，$D$ 需同时不同于 $A$，$C$，有 $2$ 种选法. 所以种法总数为</p>\n$$\n4\\times 3\\times(1\\times 3+2\\times 2)=84\n$$\n<p>故选 B.</p>"
+          "solution": "<p>先给区域 $A$ 选花，有 $4$ 种选法；给相邻区域 $B$ 选花，有 $3$ 种选法. 若 $C$ 与 $A$ 同色，则 $C$ 只有 $1$ 种选法，$D$ 有 $3$ 种选法；若 $C$ 与 $A$ 不同色，则 $C$ 有 $2$ 种选法，$D$ 需同时不同于 $A$，$C$，有 $2$ 种选法. 所以种法总数为</p>\n$$\n4\\times 3\\times(1\\times 3+2\\times 2)=84\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +318,38 @@
         {
           "num": 13,
           "body": "若 $x$，$y$ 满足约束条件 $\\begin{cases}x + y \\ge 0,\\\\\n\nx - y + 3 \\ge 0,\\\\\n\n0 \\le x \\le 3,\\end{cases}$ 则 $z = 2x - y$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "9",
-          "solution": "由约束条件 $x+y\\ge 0$ 得 $y\\ge -x$. 对于固定的 $x$，$z=2x-y$ 随 $y$ 减小而增大，因此取 $y=-x$ 时 $z$ 最大. 此时 $z=2x-(-x)=3x$，又 $0\\le x\\le 3$，故最大值在 $x=3$ 时取得，且 $y=-3$ 满足其余约束条件. 所以 $z_{\\max}=9$."
+          "solution": "由约束条件 $x+y\\ge 0$ 得 $y\\ge -x$. 对于固定的 $x$，$z=2x-y$ 随 $y$ 减小而增大，因此取 $y=-x$ 时 $z$ 最大. 此时 $z=2x-(-x)=3x$，又 $0\\le x\\le 3$，故最大值在 $x=3$ 时取得，且 $y=-3$ 满足其余约束条件. 所以 $z_{\\max}=9$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知抛物线 $y = ax^{2} - 1$ 的焦点是坐标原点，则以抛物线与两坐标轴的三个交点为顶点的三角形面积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "2",
-          "solution": "将抛物线方程改写为 $x^{2}=\\frac{1}{a}(y+1)$. 与标准方程 $x^{2}=4p(y+1)$ 比较，得 $4p=\\frac{1}{a}$. 抛物线顶点为 $(0,-1)$，焦点为 $(0,-1+p)$，题设焦点是原点，故 $p=1$，从而 $a=\\frac{1}{4}$. 因此抛物线与两坐标轴的交点为 $(0,-1)$、$(-2,0)$、$(2,0)$，所成三角形的底为 $4$，高为 $1$，面积为 $\\frac{1}{2}\\times4\\times1=2$."
+          "solution": "将抛物线方程改写为 $x^{2}=\\frac{1}{a}(y+1)$. 与标准方程 $x^{2}=4p(y+1)$ 比较，得 $4p=\\frac{1}{a}$. 抛物线顶点为 $(0,-1)$，焦点为 $(0,-1+p)$，题设焦点是原点，故 $p=1$，从而 $a=\\frac{1}{4}$. 因此抛物线与两坐标轴的交点为 $(0,-1)$、$(-2,0)$、$(2,0)$，所成三角形的底为 $4$，高为 $1$，面积为 $\\frac{1}{2}\\times4\\times1=2$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "在 $\\triangle ABC$ 中，$AB = BC$，$\\cos B = -\\frac{7}{18}$. 若以 $A$，$B$ 为焦点的椭圆经过点 $C$，则该椭圆的离心率 $e =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{3}{8}$",
-          "solution": "<p>设 $AB=BC=l$. 由余弦定理，</p>\n$$\nAC^{2}=AB^{2}+BC^{2}-2AB\\cdot BC\\cos B  =2l^{2}\\left(1+\\frac{7}{18}\\right)=\\frac{25l^{2}}{9}\n$$\n<p>所以 $AC=\\frac{5l}{3}$. 设椭圆的半长轴为 $A_{0}$，半焦距为 $c_{0}$. 由椭圆定义，$CA+CB=2A_{0}$，故</p><p>$2A_{0}=\\frac{5l}{3}+l=\\frac{8l}{3}$，$A_{0}=\\frac{4l}{3}$.</p><p>椭圆焦点为 $A$，$B$，所以 $2c_{0}=AB=l$，即 $c_{0}=\\frac{l}{2}$. 因此离心率为</p>\n$$\ne=\\frac{c_{0}}{A_{0}}=\\frac{\\frac{l}{2}}{4\\frac{l}{3}}=\\frac{3}{8}\n$$"
+          "choices": [],
+          "answer": "\\(\\frac{3}{8}\\)",
+          "solution": "<p>设 $AB=BC=l$. 由余弦定理，</p>\n$$\nAC^{2}=AB^{2}+BC^{2}-2AB\\cdot BC\\cos B  =2l^{2}\\left(1+\\frac{7}{18}\\right)=\\frac{25l^{2}}{9}\n$$\n<p>所以 $AC=\\frac{5l}{3}$. 设椭圆的半长轴为 $A_{0}$，半焦距为 $c_{0}$. 由椭圆定义，$CA+CB=2A_{0}$，故</p><p>$2A_{0}=\\frac{5l}{3}+l=\\frac{8l}{3}$，$A_{0}=\\frac{4l}{3}$.</p><p>椭圆焦点为 $A$，$B$，所以 $2c_{0}=AB=l$，即 $c_{0}=\\frac{l}{2}$. 因此离心率为</p>\n$$\ne=\\frac{c_{0}}{A_{0}}=\\frac{\\frac{l}{2}}{4\\frac{l}{3}}=\\frac{3}{8}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "等边三角形 $ABC$ 与正方形 $ABDE$ 有一公共边 $AB$，二面角 $C - AB - D$ 的余弦值为 $\\frac{\\sqrt{3}}{3}$，$M$，$N$ 分别是 $AC$，$BC$ 的中点，则 $EM$，$AN$ 所成角的余弦值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{1}{6}$",
-          "solution": "<p>不妨设 $AB=2$，建立空间直角坐标系，使正方形 $ABDE$ 位于 $xy$ 平面内：</p><p>取 $A=(0,0,0)$，$B=(2,0,0)$，$D=(2,2,0)$，$E=(0,2,0)$.</p><p>设 $C=(1,u,v)$. 由 $AC=BC=AB=2$，有 $u^{2}+v^{2}=3$. 平面 $ABC$ 内垂直于 $AB$ 的方向可取 $(0,u,v)$，正方形内垂直于 $AB$ 的方向为 $(0,1,0)$，故二面角条件给出</p>\n$$\n\\frac{u}{\\sqrt{u^{2}+v^{2}}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>从而 $u=1$，$v^{2}=2$. 取 $v=\\sqrt{2}$ 即可，另一种取向所得余弦相同. 因此</p><p>$M=\\left(\\frac{1}{2},\\frac{1}{2},\\frac{\\sqrt{2}}{2}\\right)$，$N=\\left(\\frac{3}{2},\\frac{1}{2},\\frac{\\sqrt{2}}{2}\\right)$.</p><p>于是</p><p>$\\overrightarrow{EM}=\\left(\\frac{1}{2},-\\frac{3}{2},\\frac{\\sqrt{2}}{2}\\right)$，$\\overrightarrow{AN}=\\left(\\frac{3}{2},\\frac{1}{2},\\frac{\\sqrt{2}}{2}\\right)$.</p><p>计算得</p><p>$\\overrightarrow{EM}\\cdot\\overrightarrow{AN}=\\frac{1}{2}$，$|\\overrightarrow{EM}|=|\\overrightarrow{AN}|=\\sqrt{3}$.</p><p>所以 $EM$，$AN$ 所成角的余弦值为</p>\n$$\n\\frac{\\overrightarrow{EM}\\cdot\\overrightarrow{AN}}{|\\overrightarrow{EM}||\\overrightarrow{AN}|}=\\frac{\\frac{1}{2}}{3}=\\frac{1}{6}\n$$"
+          "choices": [],
+          "answer": "\\(\\frac{1}{6}\\)",
+          "solution": "<p>不妨设 $AB=2$，建立空间直角坐标系，使正方形 $ABDE$ 位于 $xy$ 平面内：</p><p>取 $A=(0,0,0)$，$B=(2,0,0)$，$D=(2,2,0)$，$E=(0,2,0)$.</p><p>设 $C=(1,u,v)$. 由 $AC=BC=AB=2$，有 $u^{2}+v^{2}=3$. 平面 $ABC$ 内垂直于 $AB$ 的方向可取 $(0,u,v)$，正方形内垂直于 $AB$ 的方向为 $(0,1,0)$，故二面角条件给出</p>\n$$\n\\frac{u}{\\sqrt{u^{2}+v^{2}}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>从而 $u=1$，$v^{2}=2$. 取 $v=\\sqrt{2}$ 即可，另一种取向所得余弦相同. 因此</p><p>$M=\\left(\\frac{1}{2},\\frac{1}{2},\\frac{\\sqrt{2}}{2}\\right)$，$N=\\left(\\frac{3}{2},\\frac{1}{2},\\frac{\\sqrt{2}}{2}\\right)$.</p><p>于是</p><p>$\\overrightarrow{EM}=\\left(\\frac{1}{2},-\\frac{3}{2},\\frac{\\sqrt{2}}{2}\\right)$，$\\overrightarrow{AN}=\\left(\\frac{3}{2},\\frac{1}{2},\\frac{\\sqrt{2}}{2}\\right)$.</p><p>计算得</p><p>$\\overrightarrow{EM}\\cdot\\overrightarrow{AN}=\\frac{1}{2}$，$|\\overrightarrow{EM}|=|\\overrightarrow{AN}|=\\sqrt{3}$.</p><p>所以 $EM$，$AN$ 所成角的余弦值为</p>\n$$\n\\frac{\\overrightarrow{EM}\\cdot\\overrightarrow{AN}}{|\\overrightarrow{EM}||\\overrightarrow{AN}|}=\\frac{\\frac{1}{2}}{3}=\\frac{1}{6}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "<p>设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 所对的边长分别为 $a$，$b$，$c$，且 $a \\cos B - b \\cos A = \\frac{3}{5}c$.</p><ol class=\"enumerate\"><li><p>求 $\\tan A \\cot B$ 的值；</p></li><li><p>求 $\\tan (A - B)$ 的最大值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，存在正数 $k$ 使 $a=k\\sin A$，$b=k\\sin B$，$c=k\\sin C$. 代入已知等式并约去 $k$，得</p>\n$$\n\\sin A\\cos B-\\sin B\\cos A=\\frac{3}{5}\\sin C\n$$\n<p>又 $C=\\pi-(A+B)$，所以 $\\sin C=\\sin(A+B)$. 因而</p>\n$$\n\\sin A\\cos B-\\cos A\\sin B=\\frac{3}{5}\\left(\\sin A\\cos B+\\cos A\\sin B\\right)\n$$\n<p>整理得 $\\sin A\\cos B=4\\cos A\\sin B$. 由于 $\\sin A>0$，$\\sin B>0$，上式说明 $\\cos A$ 与 $\\cos B$ 同号；又 $A+B<\\pi$，所以 $A$，$B$ 均为锐角，从而可除以 $\\cos A\\cos B$，得到 $\\tan A=4\\tan B$，进而 $\\tan A\\cot B=4$.</p></li><li><p>令 $t=\\tan B>0$，则 $\\tan A=4t$. 于是</p>\n$$\n\\tan(A-B)=\\frac{\\tan A-\\tan B}{1+\\tan A\\tan B}=\\frac{3t}{1+4t^{2}}\n$$\n<p>由 $1+4t^{2}\\ge 4t$，得</p>\n$$\n\\tan(A-B)\\le\\frac{3t}{4t}=\\frac{3}{4}\n$$\n<p>当 $t=\\frac{1}{2}$ 时等号成立，此时 $A+B=\\frac{\\pi}{2}$，确能构成三角形. 所以 $\\tan(A-B)$ 的最大值为 $\\frac{3}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，存在正数 $k$ 使 $a=k\\sin A$，$b=k\\sin B$，$c=k\\sin C$. 代入已知等式并约去 $k$，得</p>\n$$\n\\sin A\\cos B-\\sin B\\cos A=\\frac{3}{5}\\sin C\n$$\n<p>又 $C=\\pi-(A+B)$，所以 $\\sin C=\\sin(A+B)$. 因而</p>\n$$\n\\sin A\\cos B-\\cos A\\sin B=\\frac{3}{5}\\left(\\sin A\\cos B+\\cos A\\sin B\\right)\n$$\n<p>整理得 $\\sin A\\cos B=4\\cos A\\sin B$. 由于 $\\sin A>0$，$\\sin B>0$，上式说明 $\\cos A$ 与 $\\cos B$ 同号；又 $A+B<\\pi$，所以 $A$，$B$ 均为锐角，从而可除以 $\\cos A\\cos B$，得到 $\\tan A=4\\tan B$，进而 $\\tan A\\cot B=4$.</p></li><li><p>令 $t=\\tan B>0$，则 $\\tan A=4t$. 于是</p>\n$$\n\\tan(A-B)=\\frac{\\tan A-\\tan B}{1+\\tan A\\tan B}=\\frac{3t}{1+4t^{2}}\n$$\n<p>由 $1+4t^{2}\\ge 4t$，得</p>\n$$\n\\tan(A-B)\\le\\frac{3t}{4t}=\\frac{3}{4}\n$$\n<p>当 $t=\\frac{1}{2}$ 时等号成立，此时 $A+B=\\frac{\\pi}{2}$，确能构成三角形. 所以 $\\tan(A-B)$ 的最大值为 $\\frac{3}{4}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>四棱锥 $A - BCDE$ 中，底面 $BCDE$ 为矩形，侧面 $ABC \\perp$ 底面 $BCDE$，$BC = 2$，$CD = \\sqrt{2}$，$AB = AC$.</p><ol class=\"enumerate\"><li><p>证明：$AD \\perp CE$；</p></li><li><p>设 $CE$ 与平面 $ABE$ 所成的角为 $45^{\\circ}$，求二面角 $C - AD - E$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_paper_1_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>四棱锥 $A - BCDE$ 中，底面 $BCDE$ 为矩形，侧面 $ABC \\perp$ 底面 $BCDE$，$BC = 2$，$CD = \\sqrt{2}$，$AB = AC$.</p><ol class=\"enumerate\"><li><p>证明：$AD \\perp CE$；</p></li><li><p>设 $CE$ 与平面 $ABE$ 所成的角为 $45^{\\circ}$，求二面角 $C - AD - E$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/syllabus_paper_1_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，取 $B=(0,0,0)$，$C=(2,0,0)$，$D=(2,\\sqrt{2},0)$，$E=(0,\\sqrt{2},0)$. 因平面 $ABC$ 垂直于底面且含有 $BC$，可设 $A=(x,0,h)$. 由 $AB=AC$，有</p>\n$$\nx^{2}+h^{2}=(x-2)^{2}+h^{2}\n$$\n<p>所以 $x=1$. 于是 $A=(1,0,h)$. 计算</p><p>$\\overrightarrow{AD}=(1,\\sqrt{2},-h)$，$\\overrightarrow{CE}=(-2,\\sqrt{2},0)$，</p><p>从而 $\\overrightarrow{AD}\\cdot\\overrightarrow{CE}=-2+2=0$，故 $AD\\perp CE$.</p></li><li><p>由 $\\overrightarrow{AB}=(-1,0,-h)$，$\\overrightarrow{BE}=(0,\\sqrt{2},0)$，可取平面 $ABE$ 的法向量</p>\n$$\n\\mathbf{n}=\\overrightarrow{AB}\\times\\overrightarrow{BE}=(h\\sqrt{2},0,-\\sqrt{2})\n$$\n<p>设 $CE$ 与平面 $ABE$ 所成的角为 $\\phi$，则</p>\n$$\n\\sin\\phi=\\frac{|\\overrightarrow{CE}\\cdot\\mathbf{n}|}{|\\overrightarrow{CE}||\\mathbf{n}|}=\\frac{2h\\sqrt{2}}{\\sqrt{6}\\sqrt{2h^{2}+2}}\n$$\n<p>代入 $\\phi=45^{\\circ}$，平方化简得</p>\n$$\n\\frac{2h^{2}}{3(h^{2}+1)}=\\frac{1}{2}\n$$\n<p>所以 $h^{2}=3$. 取 $h=\\sqrt{3}$，则</p><p>此时 $\\overrightarrow{AD}=(1,\\sqrt{2},-\\sqrt{3})$，</p><p>$\\overrightarrow{AC}=(1,0,-\\sqrt{3})$，</p><p>$\\overrightarrow{AE}=(-1,\\sqrt{2},-\\sqrt{3})$.</p><p>平面 $ACD$ 与平面 $AED$ 的法向量可分别取</p><p>$\\mathbf{n}_{1}=(\\sqrt{3},0,1)$，$\\mathbf{n}_{2}=(0,\\sqrt{3},\\sqrt{2})$.</p><p>设二面角 $C-AD-E$ 的平面角为 $\\theta$. 结合图形，二面角为钝角，且</p>\n$$\n\\cos\\theta=-\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=-\\frac{\\sqrt{2}}{2\\cdot\\sqrt{5}}=-\\frac{\\sqrt{10}}{10}\n$$\n<p>所以二面角 $C-AD-E$ 的大小为 $\\arccos\\left(-\\frac{\\sqrt{10}}{10}\\right)$（或 $\\pi-\\arccos\\frac{\\sqrt{10}}{10}$）.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，取 $B=(0,0,0)$，$C=(2,0,0)$，$D=(2,\\sqrt{2},0)$，$E=(0,\\sqrt{2},0)$. 因平面 $ABC$ 垂直于底面且含有 $BC$，可设 $A=(x,0,h)$. 由 $AB=AC$，有</p>\n$$\nx^{2}+h^{2}=(x-2)^{2}+h^{2}\n$$\n<p>所以 $x=1$. 于是 $A=(1,0,h)$. 计算</p><p>$\\overrightarrow{AD}=(1,\\sqrt{2},-h)$，$\\overrightarrow{CE}=(-2,\\sqrt{2},0)$，</p><p>从而 $\\overrightarrow{AD}\\cdot\\overrightarrow{CE}=-2+2=0$，故 $AD\\perp CE$.</p></li><li><p>由 $\\overrightarrow{AB}=(-1,0,-h)$，$\\overrightarrow{BE}=(0,\\sqrt{2},0)$，可取平面 $ABE$ 的法向量</p>\n$$\n\\mathbf{n}=\\overrightarrow{AB}\\times\\overrightarrow{BE}=(h\\sqrt{2},0,-\\sqrt{2})\n$$\n<p>设 $CE$ 与平面 $ABE$ 所成的角为 $\\phi$，则</p>\n$$\n\\sin\\phi=\\frac{|\\overrightarrow{CE}\\cdot\\mathbf{n}|}{|\\overrightarrow{CE}||\\mathbf{n}|}=\\frac{2h\\sqrt{2}}{\\sqrt{6}\\sqrt{2h^{2}+2}}\n$$\n<p>代入 $\\phi=45^{\\circ}$，平方化简得</p>\n$$\n\\frac{2h^{2}}{3(h^{2}+1)}=\\frac{1}{2}\n$$\n<p>所以 $h^{2}=3$. 取 $h=\\sqrt{3}$，则</p><p>此时 $\\overrightarrow{AD}=(1,\\sqrt{2},-\\sqrt{3})$，</p><p>$\\overrightarrow{AC}=(1,0,-\\sqrt{3})$，</p><p>$\\overrightarrow{AE}=(-1,\\sqrt{2},-\\sqrt{3})$.</p><p>平面 $ACD$ 与平面 $AED$ 的法向量可分别取</p><p>$\\mathbf{n}_{1}=(\\sqrt{3},0,1)$，$\\mathbf{n}_{2}=(0,\\sqrt{3},\\sqrt{2})$.</p><p>设二面角 $C-AD-E$ 的平面角为 $\\theta$. 结合图形，二面角为钝角，且</p>\n$$\n\\cos\\theta=-\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=-\\frac{\\sqrt{2}}{2\\cdot\\sqrt{5}}=-\\frac{\\sqrt{10}}{10}\n$$\n<p>所以二面角 $C-AD-E$ 的大小为 $\\arccos\\left(-\\frac{\\sqrt{10}}{10}\\right)$（或 $\\pi-\\arccos\\frac{\\sqrt{10}}{10}$）.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知函数 $f(x) = x^{3} + ax^{2} + x + 1$，$a \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>讨论函数 $f(x)$ 的单调区间；</p></li><li><p>设函数 $f(x)$ 在区间 $\\left(-\\frac{2}{3}, -\\frac{1}{3}\\right)$ 内是减函数，求 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $\\mathbb{R}$，且</p>\n$$\nf'(x)=3x^{2}+2ax+1\n$$\n<p>当 $a^{2}\\le 3$ 时，二次式 $3x^{2}+2ax+1\\ge 0$ 对一切 $x$ 成立，因此 $f(x)$ 在 $\\mathbb{R}$ 上为增函数.</p><p>当 $a^{2}>3$ 时，令</p><p>$x_{1}=\\frac{-a-\\sqrt{a^{2}-3}}{3}$，$x_{2}=\\frac{-a+\\sqrt{a^{2}-3}}{3}$，</p><p>则 $x_{1}<x_{2}$，且</p>\n$$\nf'(x)=3(x-x_{1})(x-x_{2})\n$$\n<p>所以 $f(x)$ 在 $(-\\infty,x_{1})$ 和 $(x_{2},+\\infty)$ 上为增函数，在 $(x_{1},x_{2})$ 上为减函数.</p></li><li><p>要使 $f(x)$ 在 $\\left(-\\frac{2}{3},-\\frac{1}{3}\\right)$ 内为减函数，需要 $f'(x)\\le 0$ 对该区间内一切 $x$ 成立，即</p>\n$$\n3x^{2}+2ax+1\\le 0\n$$\n<p>由于 $x<0$，这等价于</p>\n$$\na\\ge-\\frac{3x^{2}+1}{2x}\n$$\n<p>令 $g(x)=-\\frac{3x^{2}+1}{2x}=-\\frac{3}{2}x-\\frac{1}{2x}$. 在所考察区间内，$g(x)$ 的上确界为 $2$，因为当 $x\\to-\\frac{1}{3}^{-}$ 时 $g(x)\\to 2$，且 $g(x)<2$ 对区间内的 $x$ 成立. 所以必须有 $a\\geqslant2$. 反之，当 $a\\geqslant2$ 时，</p>\n$$\nf'(x)\\le 3x^{2}+4x+1=(3x+1)(x+1)<0\n$$\n<p>对 $-\\frac{2}{3}<x<-\\frac{1}{3}$ 成立，故条件也充分. 因此 $a$ 的取值范围为 $[2,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $\\mathbb{R}$，且</p>\n$$\nf'(x)=3x^{2}+2ax+1\n$$\n<p>当 $a^{2}\\le 3$ 时，二次式 $3x^{2}+2ax+1\\ge 0$ 对一切 $x$ 成立，因此 $f(x)$ 在 $\\mathbb{R}$ 上为增函数.</p><p>当 $a^{2}>3$ 时，令</p><p>$x_{1}=\\frac{-a-\\sqrt{a^{2}-3}}{3}$，$x_{2}=\\frac{-a+\\sqrt{a^{2}-3}}{3}$，</p><p>则 $x_{1}<x_{2}$，且</p>\n$$\nf'(x)=3(x-x_{1})(x-x_{2})\n$$\n<p>所以 $f(x)$ 在 $(-\\infty,x_{1})$ 和 $(x_{2},+\\infty)$ 上为增函数，在 $(x_{1},x_{2})$ 上为减函数.</p></li><li><p>要使 $f(x)$ 在 $\\left(-\\frac{2}{3},-\\frac{1}{3}\\right)$ 内为减函数，需要 $f'(x)\\le 0$ 对该区间内一切 $x$ 成立，即</p>\n$$\n3x^{2}+2ax+1\\le 0\n$$\n<p>由于 $x<0$，这等价于</p>\n$$\na\\ge-\\frac{3x^{2}+1}{2x}\n$$\n<p>令 $g(x)=-\\frac{3x^{2}+1}{2x}=-\\frac{3}{2}x-\\frac{1}{2x}$. 在所考察区间内，$g(x)$ 的上确界为 $2$，因为当 $x\\to-\\frac{1}{3}^{-}$ 时 $g(x)\\to 2$，且 $g(x)<2$ 对区间内的 $x$ 成立. 所以必须有 $a\\geqslant2$. 反之，当 $a\\geqslant2$ 时，</p>\n$$\nf'(x)\\le 3x^{2}+4x+1=(3x+1)(x+1)<0\n$$\n<p>对 $-\\frac{2}{3}<x<-\\frac{1}{3}$ 成立，故条件也充分. 因此 $a$ 的取值范围为 $[2,+\\infty)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知 $5$ 只动物中有 $1$ 只患有某种疾病，需要通过化验血液来确定患病的动物. 血液化验结果呈阳性的即为患病动物，呈阴性即没患病. 下面是两种化验方案：</p><p>方案甲：逐个化验，直到能确定患病动物为止.</p><p>方案乙：先任取 $3$ 只，将它们的血液混在一起化验. 若结果呈阳性则表明患病动物为这 $3$ 只中的 $1$ 只，然后再逐个化验，直到能确定患病动物为止；若结果呈阴性则在另外 $2$ 只中任取 $1$ 只化验.</p><ol class=\"enumerate\"><li><p>求依方案甲所需化验次数不少于依方案乙所需化验次数的概率；</p></li><li><p>$\\xi$ 表示依方案乙所需化验次数，求 $\\xi$ 的期望.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设方案甲所需化验次数为 $X$，方案乙所需化验次数为 $Y$. 方案甲按固定顺序逐只化验，患病动物在第 $1$，$2$，$3$ 个位置的概率均为 $\\frac{1}{5}$，所以</p><p>$P(X\\geqslant2)=1-\\frac{1}{5}=\\frac{4}{5}$，$P(X\\geqslant3)=1-\\frac{1}{5}-\\frac{1}{5}=\\frac{3}{5}$.</p><p>对方案乙，先取的三只中有患病动物的概率为 $\\frac{3}{5}$. 在这种情况下，若逐个化验时第一次就验出患病动物，方案乙共化验 $2$ 次，其概率为</p>\n$$\n\\frac{3}{5}\\times\\frac{1}{3}=\\frac{1}{5};\n$$\n<p>若第一次没有验出，则还需再化验一次，共化验 $3$ 次，其概率为 $\\frac{3}{5}\\times\\frac{2}{3}=\\frac{2}{5}$. 若混合化验呈阴性，概率为 $\\frac{2}{5}$，再从另外两只中任取一只化验后即可确定患病动物，所以共化验 $2$ 次. 因而</p><p>$P(Y=2)=\\frac{1}{5}+\\frac{2}{5}=\\frac{3}{5}$，$P(Y=3)=\\frac{2}{5}$.</p><p>按两种方案的随机选择独立处理，得</p>\n$$\nP(X\\ge Y)=P(Y=2)P(X\\geqslant2)+P(Y=3)P(X\\geqslant3)  =\\frac{3}{5}\\times\\frac{4}{5}+\\frac{2}{5}\\times\\frac{3}{5}=\\frac{18}{25}\n$$\n</li><li><p>由上面的分布，</p>\n$$\nE(\\xi)=2P(Y=2)+3P(Y=3)  =2\\times\\frac{3}{5}+3\\times\\frac{2}{5}=\\frac{12}{5}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设方案甲所需化验次数为 $X$，方案乙所需化验次数为 $Y$. 方案甲按固定顺序逐只化验，患病动物在第 $1$，$2$，$3$ 个位置的概率均为 $\\frac{1}{5}$，所以</p><p>$P(X\\geqslant2)=1-\\frac{1}{5}=\\frac{4}{5}$，$P(X\\geqslant3)=1-\\frac{1}{5}-\\frac{1}{5}=\\frac{3}{5}$.</p><p>对方案乙，先取的三只中有患病动物的概率为 $\\frac{3}{5}$. 在这种情况下，若逐个化验时第一次就验出患病动物，方案乙共化验 $2$ 次，其概率为</p>\n$$\n\\frac{3}{5}\\times\\frac{1}{3}=\\frac{1}{5};\n$$\n<p>若第一次没有验出，则还需再化验一次，共化验 $3$ 次，其概率为 $\\frac{3}{5}\\times\\frac{2}{3}=\\frac{2}{5}$. 若混合化验呈阴性，概率为 $\\frac{2}{5}$，再从另外两只中任取一只化验后即可确定患病动物，所以共化验 $2$ 次. 因而</p><p>$P(Y=2)=\\frac{1}{5}+\\frac{2}{5}=\\frac{3}{5}$，$P(Y=3)=\\frac{2}{5}$.</p><p>按两种方案的随机选择独立处理，得</p>\n$$\nP(X\\ge Y)=P(Y=2)P(X\\geqslant2)+P(Y=3)P(X\\geqslant3)  =\\frac{3}{5}\\times\\frac{4}{5}+\\frac{2}{5}\\times\\frac{3}{5}=\\frac{18}{25}\n$$\n</li><li><p>由上面的分布，</p>\n$$\nE(\\xi)=2P(Y=2)+3P(Y=3)  =2\\times\\frac{3}{5}+3\\times\\frac{2}{5}=\\frac{12}{5}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>双曲线的中心为原点 $O$，焦点在 $x$ 轴上，两条渐近线分别为 $l_{1}$，$l_{2}$，经过右焦点 $F$ 垂直于 $l_{1}$ 的直线分别交 $l_{1}$，$l_{2}$ 于 $A$，$B$ 两点. 已知 $\\left|\\overrightarrow{OA}\\right|$，$\\left|\\overrightarrow{AB}\\right|$，$\\left|\\overrightarrow{OB}\\right|$ 成等差数列，且 $\\overrightarrow{BF}$ 与 $\\overrightarrow{FA}$ 同向.</p><ol class=\"enumerate\"><li><p>求双曲线的离心率；</p></li><li><p>设 $AB$ 被双曲线所截得的线段的长为 $4$，求双曲线的方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设双曲线方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，其中 $a>0$，$b>0$，焦距参数满足 $c^{2}=a^{2}+b^{2}$. 令 $k=\\frac{b}{a}$，则两条渐近线为 $y=\\pm kx$. 由 $\\overrightarrow{BF}$ 与 $\\overrightarrow{FA}$ 同向可知 $F$ 在线段 $BA$ 之间，从而 $0<k<1$.</p><p>取 $l_{1}:y=kx$，过 $F=(c,0)$ 作其垂线，方程为 $y=-\\frac{x-c}{k}$. 它与 $l_{1}$，$l_{2}$ 的交点分别为</p><p>$A=\\left(\\frac{c}{1+k^{2}},\\frac{kc}{1+k^{2}}\\right)$，$B=\\left(\\frac{c}{1-k^{2}},-\\frac{kc}{1-k^{2}}\\right)$.</p><p>由 $c=a\\sqrt{1+k^{2}}$，可得</p><p>$|OA|=a$，$|OB|=\\frac{a(1+k^{2})}{1-k^{2}}$，$|AB|=\\frac{2ak}{1-k^{2}}$.</p><p>三者成等差数列，所以</p>\n$$\na+\\frac{a(1+k^{2})}{1-k^{2}}=2\\cdot\\frac{2ak}{1-k^{2}}\n$$\n<p>化简得 $k=\\frac{1}{2}$. 因而离心率为</p>\n$$\ne=\\frac{c}{a}=\\sqrt{1+k^{2}}=\\frac{\\sqrt{5}}{2}\n$$\n</li><li><p>由 $k=\\frac{1}{2}$，得 $b=\\frac{a}{2}$，$c=\\frac{\\sqrt{5}}{2}a$，且直线 $AB$ 的斜率为 $-\\frac{1}{k}=-2$. 因为它经过 $F=(c,0)$，故</p>\n$$\ny=-2(x-c)\n$$\n<p>将其代入双曲线方程 $x^{2}-4y^{2}=a^{2}$，得</p>\n$$\n15x^{2}-32cx+21a^{2}=0\n$$\n<p>设双曲线与直线 $AB$ 的两个交点横坐标为 $x_{1}$，$x_{2}$，则</p>\n$$\n|x_{1}-x_{2}|  =\\frac{\\sqrt{(32c)^{2}-4\\cdot15\\cdot21a^{2}}}{15}=\\frac{2\\sqrt{5}a}{15}\n$$\n<p>直线 $AB$ 的斜率为 $-2$，所以弦长为</p>\n$$\n\\sqrt{1+(-2)^{2}}|x_{1}-x_{2}|=\\sqrt{5}\\cdot\\frac{2\\sqrt{5}a}{15}=\\frac{2a}{3}\n$$\n<p>由弦长为 $4$ 得 $a=6$，从而 $b=3$. 所求双曲线方程为</p>\n$$\n\\frac{x^{2}}{36}-\\frac{y^{2}}{9}=1\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设双曲线方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，其中 $a>0$，$b>0$，焦距参数满足 $c^{2}=a^{2}+b^{2}$. 令 $k=\\frac{b}{a}$，则两条渐近线为 $y=\\pm kx$. 由 $\\overrightarrow{BF}$ 与 $\\overrightarrow{FA}$ 同向可知 $F$ 在线段 $BA$ 之间，从而 $0<k<1$.</p><p>取 $l_{1}:y=kx$，过 $F=(c,0)$ 作其垂线，方程为 $y=-\\frac{x-c}{k}$. 它与 $l_{1}$，$l_{2}$ 的交点分别为</p><p>$A=\\left(\\frac{c}{1+k^{2}},\\frac{kc}{1+k^{2}}\\right)$，$B=\\left(\\frac{c}{1-k^{2}},-\\frac{kc}{1-k^{2}}\\right)$.</p><p>由 $c=a\\sqrt{1+k^{2}}$，可得</p><p>$|OA|=a$，$|OB|=\\frac{a(1+k^{2})}{1-k^{2}}$，$|AB|=\\frac{2ak}{1-k^{2}}$.</p><p>三者成等差数列，所以</p>\n$$\na+\\frac{a(1+k^{2})}{1-k^{2}}=2\\cdot\\frac{2ak}{1-k^{2}}\n$$\n<p>化简得 $k=\\frac{1}{2}$. 因而离心率为</p>\n$$\ne=\\frac{c}{a}=\\sqrt{1+k^{2}}=\\frac{\\sqrt{5}}{2}\n$$\n</li><li><p>由 $k=\\frac{1}{2}$，得 $b=\\frac{a}{2}$，$c=\\frac{\\sqrt{5}}{2}a$，且直线 $AB$ 的斜率为 $-\\frac{1}{k}=-2$. 因为它经过 $F=(c,0)$，故</p>\n$$\ny=-2(x-c)\n$$\n<p>将其代入双曲线方程 $x^{2}-4y^{2}=a^{2}$，得</p>\n$$\n15x^{2}-32cx+21a^{2}=0\n$$\n<p>设双曲线与直线 $AB$ 的两个交点横坐标为 $x_{1}$，$x_{2}$，则</p>\n$$\n|x_{1}-x_{2}|  =\\frac{\\sqrt{(32c)^{2}-4\\cdot15\\cdot21a^{2}}}{15}=\\frac{2\\sqrt{5}a}{15}\n$$\n<p>直线 $AB$ 的斜率为 $-2$，所以弦长为</p>\n$$\n\\sqrt{1+(-2)^{2}}|x_{1}-x_{2}|=\\sqrt{5}\\cdot\\frac{2\\sqrt{5}a}{15}=\\frac{2a}{3}\n$$\n<p>由弦长为 $4$ 得 $a=6$，从而 $b=3$. 所求双曲线方程为</p>\n$$\n\\frac{x^{2}}{36}-\\frac{y^{2}}{9}=1\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>设函数 $f(x) = x - x \\ln x$. 数列 $\\{a_{n}\\}$ 满足 $0 < a_{1} < 1$，$a_{n+1}= f(a_{n})$.</p><ol class=\"enumerate\"><li><p>证明：函数 $f(x)$ 在区间 $(0, 1)$ 是增函数；</p></li><li><p>证明：$a_{n}<a_{n+1}<1$；</p></li><li><p>设 $b \\in (a_{1}, 1)$，整数 $k \\ge \\frac{a_{1} - b}{a_{1} \\ln b}$. 证明：$a_{k+1}> b$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在 $(0,1)$ 上，</p>\n$$\nf'(x)=1-(\\ln x+1)=-\\ln x>0\n$$\n<p>所以 $f(x)$ 在 $(0,1)$ 上为增函数.</p></li><li><p>对 $0<x<1$，有</p>\n$$\nf(x)-x=-x\\ln x>0\n$$\n<p>又由于 $f$ 在 $(0,1)$ 上递增，并且可连续延拓到 $x=1$ 且 $f(1)=1$，故 $f(x)<1$. 由 $0<a_{1}<1$，归纳可得：若 $0<a_{n}<1$，则</p><p>$a_{n+1}=f(a_{n})>a_{n}$，$a_{n+1}<1$.</p><p>因此对一切正整数 $n$，都有 $a_{n}<a_{n+1}<1$.</p></li><li><p>由 $a_{1}<b<1$ 可知</p>\n$$\n\\frac{a_{1}-b}{a_{1}\\ln b}>0\n$$\n<p>又因 $k$ 作为数列下标取正整数，故 $k\\geqslant1$. 反设 $a_{k+1}\\le b$. 由上一问，$a_{n}$ 递增，故 $a_{1}\\le a_{n}\\le b$（$1\\le n\\le k+1$），从而</p>\n$$\na_{n+1}-a_{n}=-a_{n}\\ln a_{n}\\ge-a_{1}\\ln b\n$$\n<p>当 $n=1$ 时因 $a_{1}<b$，不等式严格成立，所以</p>\n$$\na_{k+1}-a_{1}=\\sum_{n=1}^{k}(a_{n+1}-a_{n})>-ka_{1}\\ln b\n$$\n<p>由 $k\\ge\\frac{a_{1}-b}{a_{1}\\ln b}$ 且 $a_{1}\\ln b<0$，不等式乘以 $-a_{1}\\ln b>0$ 后得</p>\n$$\n-ka_{1}\\ln b\\ge b-a_{1}\n$$\n<p>于是 $a_{k+1}>a_{1}+b-a_{1}=b$，与反设矛盾. 因此 $a_{k+1}>b$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在 $(0,1)$ 上，</p>\n$$\nf'(x)=1-(\\ln x+1)=-\\ln x>0\n$$\n<p>所以 $f(x)$ 在 $(0,1)$ 上为增函数.</p></li><li><p>对 $0<x<1$，有</p>\n$$\nf(x)-x=-x\\ln x>0\n$$\n<p>又由于 $f$ 在 $(0,1)$ 上递增，并且可连续延拓到 $x=1$ 且 $f(1)=1$，故 $f(x)<1$. 由 $0<a_{1}<1$，归纳可得：若 $0<a_{n}<1$，则</p><p>$a_{n+1}=f(a_{n})>a_{n}$，$a_{n+1}<1$.</p><p>因此对一切正整数 $n$，都有 $a_{n}<a_{n+1}<1$.</p></li><li><p>由 $a_{1}<b<1$ 可知</p>\n$$\n\\frac{a_{1}-b}{a_{1}\\ln b}>0\n$$\n<p>又因 $k$ 作为数列下标取正整数，故 $k\\geqslant1$. 反设 $a_{k+1}\\le b$. 由上一问，$a_{n}$ 递增，故 $a_{1}\\le a_{n}\\le b$（$1\\le n\\le k+1$），从而</p>\n$$\na_{n+1}-a_{n}=-a_{n}\\ln a_{n}\\ge-a_{1}\\ln b\n$$\n<p>当 $n=1$ 时因 $a_{1}<b$，不等式严格成立，所以</p>\n$$\na_{k+1}-a_{1}=\\sum_{n=1}^{k}(a_{n+1}-a_{n})>-ka_{1}\\ln b\n$$\n<p>由 $k\\ge\\frac{a_{1}-b}{a_{1}\\ln b}$ 且 $a_{1}\\ln b<0$，不等式乘以 $-a_{1}\\ln b>0$ 后得</p>\n$$\n-ka_{1}\\ln b\\ge b-a_{1}\n$$\n<p>于是 $a_{k+1}>a_{1}+b-a_{1}=b$，与反设矛盾. 因此 $a_{k+1}>b$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

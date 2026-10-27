@@ -92,7 +92,9 @@
 #problem(6)[
 若将一个质点随机投入如图所示的长方形 #mi(`ABCD`) 中，其中 #mi(`AB = 2`)，#mi(`BC = 1`)，则质点落在以 #mi(`AB`) 为直径的半圆内的概率是（ ）
 
-[max width=0.32\linewidth]img/2014/liaoning_liberal/q6_fig1.png
+
+#align(center)[#image("/papers/2014/img/liaoning_liberal/q6_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{\pi}{2}`)], [#mi(`\frac{\pi}{4}`)], [#mi(`\frac{\pi}{6}`)], [#mi(`\frac{\pi}{8}`)], cols: 2)
 ]
 
@@ -129,7 +131,9 @@ S_{\text{\text{半圆}}}=\frac{1}{2}\pi\cdot1^{2}=\frac{\pi}{2}
 #problem(7)[
 某几何体三视图如图所示，则该几何体的体积为（ ）
 
-[max width=0.56\linewidth]img/2014/liaoning_liberal/q7_fig1.png
+
+#align(center)[#image("/papers/2014/img/liaoning_liberal/q7_fig1.png", width: 28%)]
+
   #choices([#mi(`8 - \frac{\pi}{4}`)], [#mi(`8 - \frac{\pi}{2}`)], [#mi(`8 - \pi`)], [#mi(`8 - 2\pi`)], cols: 2)
 ]
 
@@ -513,7 +517,9 @@ c=\sqrt{3^{2}-2^{2}}=\sqrt{5}
 
 
 
-[max width=0.34\linewidth]img/2014/liaoning_liberal/q19_fig1.png
+
+#align(center)[#image("/papers/2014/img/liaoning_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -535,7 +541,9 @@ c=\sqrt{3^{2}-2^{2}}=\sqrt{5}
 
 
 
-[max width=0.34\linewidth]img/2014/liaoning_liberal/q20_fig1.png
+
+#align(center)[#image("/papers/2014/img/liaoning_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -563,7 +571,9 @@ c=\sqrt{3^{2}-2^{2}}=\sqrt{5}
 
 
 
-[max width=0.34\linewidth]img/2014/liaoning_liberal/q22_fig1.png
+
+#align(center)[#image("/papers/2014/img/liaoning_liberal/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[

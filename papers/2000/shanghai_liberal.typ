@@ -291,7 +291,7 @@ P_{n}=b_{1}^{n}q^{\frac{n(n-1)}{2}}=q^{-8n+\frac{n(n-1)}{2}}=q^{\frac{n(n-17)}{2
 
 A. 点 #mi(`P(a,2a)`) 到原点的距离为 #mi(`\sqrt{5}|a|`)，故
 
-#mi(`\sin\alpha=\frac{2a}{\sqrt{5|a|}}`).
+#mi(`\sin\alpha=\frac{2a}{\sqrt{5}|a|}`).
 
 当 #mi(`a<0`) 时该值为负，不恒等于 #mi(`\dfrac{2\sqrt{5}}{5}`)，所以 A 错误.
 

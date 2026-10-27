@@ -174,8 +174,18 @@ f'(x)=2x-2-\frac{4}{x}=\frac{2(x-2)(x+1)}{x}
 #problem(10)[
 如图，一个直径为 1 的小圆沿着直径为 2 的大圆内壁逆时针方向滚动，#mi(`M`) 和 #mi(`N`) 是小圆的一条固定直径的两个端点. 那么，当小圆这样滚过大圆内壁一周，点 #mi(`M`)，#mi(`N`) 在大圆内所绘出的图形大致是（ ）
 
-[max width=0.34\linewidth]img/2011/jiangxi_science/q10_fig1.png
-  #choices([[width=0.15\paperwidth]img/2011/jiangxi_science/q10_optA.png], [[width=0.15\paperwidth]img/2011/jiangxi_science/q10_optB.png], [[width=0.15\paperwidth]img/2011/jiangxi_science/q10_optC.png], [[width=0.15\paperwidth]img/2011/jiangxi_science/q10_optD.png], cols: 1)
+
+#align(center)[#image("/papers/2011/img/jiangxi_science/q10_fig1.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2011/img/jiangxi_science/q10_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/jiangxi_science/q10_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/jiangxi_science/q10_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/jiangxi_science/q10_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
@@ -400,7 +410,9 @@ x+\frac{1}{2}y=1
 
 
 
-[max width=0.34\linewidth]img/2011/jiangxi_science/q21_fig1.png
+
+#align(center)[#image("/papers/2011/img/jiangxi_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

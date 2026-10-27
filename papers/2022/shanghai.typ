@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,136 +11,148 @@
 #part-header("填空题")
 
 #problem(1)[
-若复数 $z=1+ i$（其中 $i$ 为虚数单位），则 $2 z=\f i l l i n b l a n k{}$.
+若复数 #mi(`z=1+\mathrm{i}`)（其中 #mi(`\mathrm{i}`) 为虚数单位），则 #mi(`2z=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$2+2 i$])
+#answer([#mi(`2+2\mathrm{i}`)])
 
 #problem(2)[
-双曲线 $(x^2)/(9)-y^2=1$ 的实轴长为#blank(){}.
+双曲线 #mi(`\frac{x^{2}}{9}-y^{2}=1`) 的实轴长为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$6$])
+#answer([#mi(`6`)])
 
 #problem(3)[
-函数 $y= cos ""^(2) x- sin ""^(2) x+1$ 的最小正周期为#blank(){}.
+函数 #mi(`y=\cos^{2}x-\sin^{2}x+1`) 的最小正周期为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$pi$])
+#answer([#mi(`\pi`)])
 
 #problem(4)[
-设 $a$ 为常数，若行列式 $\b e g i n{v m a t r i x}a&1\\3&2\e n d{v m a t r i x}$ 的值与行列式 $\b e g i n{v m a t r i x}a&0\\4&1\e n d{v m a t r i x}$ 的值相等，则 $a=\f i l l i n b l a n k{}$.
+设 #mi(`a`) 为常数，若行列式 #mi(`\begin{vmatrix}a&1\\3&2\end{vmatrix}`) 的值与行列式 #mi(`\begin{vmatrix}a&0\\4&1\end{vmatrix}`) 的值相等，则 #mi(`a=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$3$])
+#answer([#mi(`3`)])
 
 #problem(5)[
-若圆柱的高为 $4$，底面积为 $9 pi$，则该圆柱的侧面积为#blank(){}.
+若圆柱的高为 #mi(`4`)，底面积为 #mi(`9\pi`)，则该圆柱的侧面积为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$24 pi$])
+#answer([#mi(`24\pi`)])
 
 #problem(6)[
-若实数 $x$，$y$ 满足 $x-y <= 0$，$x+y-1 >= 0$，则 $z=x+2 y$ 的最小值为#blank(){}.
+若实数 #mi(`x`)，#mi(`y`) 满足 #mi(`x-y\le0`)，#mi(`x+y-1\ge0`)，则 #mi(`z=x+2y`) 的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3)/(2)$])
+#answer([#mi(`\frac{3}{2}`)])
 
 #problem(7)[
-在 $(3+x)^n$ 的二项展开式中，若 $x^2$ 的系数是常数项的 $5$ 倍，则 $n=\f i l l i n b l a n k{}$.
+在 #mi(`(3+x)^{n}`) 的二项展开式中，若 #mi(`x^{2}`) 的系数是常数项的 #mi(`5`) 倍，则 #mi(`n=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$10$])
+#answer([#mi(`10`)])
 
 #problem(8)[
-已知 $f(x)$ 为奇函数，且 $f(x)=\b e g i n{c a s e s} a^(2) x-1, & x<0,\\ x+a, & x>0, \e n d{c a s e s}$ 则实数 $a=\f i l l i n b l a n k{}$.
+已知 #mi(`f(x)`) 为奇函数，且 #mi(`f(x)=\begin{cases}a^{2}x-1,&x<0,\\  x+a,&x>0,\end{cases}`) 则实数 #mi(`a=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #problem(9)[
-为了检测学生的身体素质指标，需从游泳类 $1$ 项，球类 $3$ 项，田径类 $4$ 项，共 $8$ 项项目中随机抽取 $4$ 项进行测试，每一类都被抽到的概率为#blank(){}（结果用最简分数表示）.
+为了检测学生的身体素质指标，需从游泳类 #mi(`1`) 项，球类 #mi(`3`) 项，田径类 #mi(`4`) 项，共 #mi(`8`) 项项目中随机抽取 #mi(`4`) 项进行测试，每一类都被抽到的概率为\underline{\hspace{2.5em}}（结果用最简分数表示）.
 ]
 
-#answer([$(3)/(7)$])
+#answer([#mi(`\frac{3}{7}`)])
 
 #problem(10)[
-已知等差数列 $\{a_n\}$ 的公差不为零，$S_n$ 为其前 $n$ 项和. 若 $S_5=0$，则 $S_1$，$S_2$，\ldots，$S_(100)$ 这 $100$ 个数中所有不同数值的个数为#blank(){}.
+已知等差数列 #mi(`\{a_{n}\}`) 的公差不为零，#mi(`S_{n}`) 为其前 #mi(`n`) 项和. 若 #mi(`S_{5}=0`)，则 #mi(`S_{1}`)，#mi(`S_{2}`)，\ldots，#mi(`S_{100}`) 这 #mi(`100`) 个数中所有不同数值的个数为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$98$])
+#answer([#mi(`98`)])
 
 #problem(11)[
-已知平面非零向量 $bold(a)$，$bold(b)$，$bold(c)$ 的模均为 $lambda$，若 $bold(a)\c d o t b o l d(b)=0$，$bold(a)\c d o t b o l d(c)=2$，$bold(b)\c d o t b o l d(c)=1$，则 $lambda =\f i l l i n b l a n k{}$.
+已知平面非零向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`)，#mi(`\mathbf{c}`) 的模均为 #mi(`\lambda`)，若 #mi(`\mathbf{a}\cdot\mathbf{b}=0`)，#mi(`\mathbf{a}\cdot\mathbf{c}=2`)，#mi(`\mathbf{b}\cdot\mathbf{c}=1`)，则 #mi(`\lambda=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$root(4, 5)$])
+#answer([#mi(`\sqrt[4]{5}`)])
 
 #problem(12)[
-设函数 $y=f(x)$，定义域为 $[0,+ oo )$，值域为 $A$，且对定义域中任意实数 $x$ 都成立 $f(x)=f((1)/(x+1))$. 若 $\{y | y=f(x),x in [0,a]\}=A$，则实数 $a$ 的取值范围是#blank(){}.
+设函数 #mi(`y=f(x)`)，定义域为 #mi(`[0,+\infty)`)，值域为 #mi(`A`)，且对定义域中任意实数 #mi(`x`) 都成立 #mi(`f(x)=f\left(\frac{1}{x+1}\right)`). 若 #mi(`\{y\mid y=f(x),x\in[0,a]\}=A`)，则实数 #mi(`a`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[(sqrt(5)-1)/(2),+ oo )$])
+#answer([#mi(`\left[\frac{\sqrt{5}-1}{2},+\infty\right)`)])
 
 #solution[
-令变换 $T(x)=(1)/(x+1)$. 方程 $T(x)=x$ 的非负解满足
+令变换 #mi(`T(x)=\dfrac1{x+1}`). 方程 #mi(`T(x)=x`) 的非负解满足
 
 
-$ x^2+x-1=0 $
+#align(center)[#mitex(`
+x^{2}+x-1=0
+`)]
 
 
 所以
 
 
-$ alpha =(sqrt(5)-1)/(2) $
+#align(center)[#mitex(`
+\alpha=\frac{\sqrt{5}-1}{2}
+`)]
 
 
-当 $x\g e q alpha$ 时，$T(x)=(1)/(x+1)\l e q(1)/(alpha +1)= alpha$，且 $T(x)>0$. 根据题设，$f(x)=f(T(x))$，因此定义域中任意 $x\g e q alpha$ 所对应的函数值，都能在区间 $[0, alpha ]$ 上取得. 区间 $[0, alpha ]$ 中的函数值本来就属于值域 $A$，故
+当 #mi(`x\geq\alpha`) 时，#mi(`T(x)=\dfrac1{x+1}\leq\dfrac1{\alpha+1}=\alpha`)，且 #mi(`T(x)>0`). 根据题设，#mi(`f(x)=f(T(x))`)，因此定义域中任意 #mi(`x\geq\alpha`) 所对应的函数值，都能在区间 #mi(`[0,\alpha]`) 上取得. 区间 #mi(`[0,\alpha]`) 中的函数值本来就属于值域 #mi(`A`)，故
 
 
-$ A=\{y | y=f(x),\ x in [0, alpha ]\} $
+#align(center)[#mitex(`
+A=\{y\mid y=f(x),\ x\in[0,\alpha]\}
+`)]
 
 
-要使区间 $[0,a]$ 取得值域 $A$ 中的全部函数值，必须且只需覆盖这个代表区间，即 $a\g e q alpha$. 因而
+要使区间 #mi(`[0,a]`) 取得值域 #mi(`A`) 中的全部函数值，必须且只需覆盖这个代表区间，即 #mi(`a\geq\alpha`). 因而
 
 
-$ a in [(sqrt(5)-1)/(2),+ oo ) $
+#align(center)[#mitex(`
+a\in\left[\frac{\sqrt{5}-1}{2},+\infty\right)
+`)]
 ]
 
 #part-header("单选题")
 
 #problem(13)[
-若集合 $A=[-1,2)$，$B= ZZ$，则 $A inter B=$（ ）
-  #choices([$\{-2,-1,0,1\}$], [$\{-1,0,1\}$], [$\{-1,0\}$], [$\{-1\}$], cols: 4)
+若集合 #mi(`A=[-1,2)`)，#mi(`B=\mathbb{Z}`)，则 #mi(`A\cap B=`)（ ）
+  #choices([#mi(`\{-2,-1,0,1\}`)], [#mi(`\{-1,0,1\}`)], [#mi(`\{-1,0\}`)], [#mi(`\{-1\}`)], cols: 2)
 ]
 
 #answer([B])
 
 #problem(14)[
-若实数 $a$，$b$ 满足 $a>b>0$，则下列不等式中，恒成立的是（ ）
-  #choices([$a+b>2 sqrt(a b)$], [$a+b<2 sqrt(a b)$], [$(a)/(2)+2 b>2 sqrt(a b)$], [$(a)/(2)+2 b<2 sqrt(a b)$], cols: 2)
+若实数 #mi(`a`)，#mi(`b`) 满足 #mi(`a>b>0`)，则下列不等式中，恒成立的是（ ）
+  #choices([#mi(`a+b>2\sqrt{ab}`)], [#mi(`a+b<2\sqrt{ab}`)], [#mi(`\frac{a}{2}+2b>2\sqrt{ab}`)], [#mi(`\frac{a}{2}+2b<2\sqrt{ab}`)], cols: 1)
 ]
 
 #answer([A])
 
 #problem(15)[
-如图，在正方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$P$，$Q$，$R$，$S$ 分别为棱 $A B$，$B C$，$B B_1$，$C D$ 的中点，连接 $A_(1) S$，$B_(1) D$. 对于空间任意两点 $M$，$N$，若线段 $M N$ 上不存在也在线段 $A_(1) S$，$B_(1) D$ 上的点，则称 $M$，$N$ 两点“可视”，则下列选项中与点 $D_1$“可视”的点为（ ）
+如图，在正方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`P`)，#mi(`Q`)，#mi(`R`)，#mi(`S`) 分别为棱 #mi(`AB`)，#mi(`BC`)，#mi(`BB_{1}`)，#mi(`CD`) 的中点，连接 #mi(`A_{1}S`)，#mi(`B_{1}D`). 对于空间任意两点 #mi(`M`)，#mi(`N`)，若线段 #mi(`MN`) 上不存在也在线段 #mi(`A_{1}S`)，#mi(`B_{1}D`) 上的点，则称 #mi(`M`)，#mi(`N`) 两点“可视”，则下列选项中与点 #mi(`D_{1}`)“可视”的点为（ ）
 
 
-#align(center)[#image("/papers/2022/img/shanghai/q15_fig1.png", width: 42%)]
-  #choices([点 $P$], [点 $B$], [点 $R$], [点 $Q$], cols: 4)
+#align(center)[#image("/papers/2022/img/shanghai/q15_fig1.png", width: 28%)]
+
+  #choices([点 #mi(`P`)], [点 #mi(`B`)], [点 #mi(`R`)], [点 #mi(`Q`)], cols: 4)
 ]
 
 #answer([D])
 
 #problem(16)[
-设 $Omega =\{(x,y) | (x-k)^2+(y-k^2)^2=4|k|,\ k in ZZ \}$，有结论：
-\begin{circlelist}
-\item 存在直线 $l$，使得 $Omega$ 中不存在点在 $l$ 上，但存在点在 $l$ 两侧；
-\item 存在直线 $l$，使得 $Omega$ 中存在无数个点在 $l$ 上.
-\end{circlelist}
+设 #mi(`\Omega=\{(x,y)\mid (x-k)^{2}+(y-k^{2})^{2}=4|k|,\ k\in\mathbb{Z}\}`)，有结论：
+
+
++ (1) 存在直线 #mi(`l`)，使得 #mi(`\Omega`) 中不存在点在 #mi(`l`) 上，但存在点在 #mi(`l`) 两侧；
++ (2) 存在直线 #mi(`l`)，使得 #mi(`\Omega`) 中存在无数个点在 #mi(`l`) 上.
+
+
+
 关于以上两个结论，正确的判断是（ ）
-  #choices([$"[1]"$成立，$"[2]"$成立], [$"[1]"$成立，$"[2]"$不成立], [$"[1]"$不成立，$"[2]"$成立], [$"[1]"$不成立，$"[2]"$不成立], cols: 2)
+  #choices([#mi(`①`) 成立，#mi(`②`) 成立], [#mi(`①`) 成立，#mi(`②`) 不成立], [#mi(`①`) 不成立，#mi(`②`) 成立], [#mi(`①`) 不成立，#mi(`②`) 不成立], cols: 2)
 ]
 
 #answer([B])
@@ -148,286 +160,73 @@ $ a in [(sqrt(5)-1)/(2),+ oo ) $
 #part-header("解答题")
 
 #problem(17)[
-如图，已知三棱锥 $P-A B C$，底面 $A B C$ 为等边三角形，$O$ 为 $A C$ 的中点，$A P=A C=2$，且 $P O bot$ 底面 $A B C$.
-
-+ (1) 求三棱锥 $P-A B C$ 的体积 $V$；
-+ (2) 若 $M$ 为 $B C$ 中点，求 $P M$ 与平面 $P A C$ 所成角的大小.
+如图，已知三棱锥 #mi(`P-ABC`)，底面 #mi(`ABC`) 为等边三角形，#mi(`O`) 为 #mi(`AC`) 的中点，#mi(`AP=AC=2`)，且 #mi(`PO\perp`) 底面 #mi(`ABC`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2022/img/shanghai/q17_fig1.png", width: 34%)]
+
+
+
+#align(center)[#image("/papers/2022/img/shanghai/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由 $O$ 为 $A C$ 的中点，得 $A O=1$. 又因为 $P O bot$ 底面 $A B C$，所以 $P O bot A O$. 在直角三角形 $A O P$ 中，
-
-$ P O=sqrt(A P^2-A O^2)=sqrt(2^2-1^2)=sqrt(3) $
-
-底面 $A B C$ 是边长为 $2$ 的等边三角形，所以
-
-$ S_( triangle A B C)=(sqrt(3))/(4) times 2 ""^2=sqrt(3) $
-
-因此三棱锥的体积为
-
-$ V=(1)/(3)S_( triangle A B C) dot P O=(1)/(3)\t i m e s s q r t(3)\t i m e s s q r t(3)=1 $
-+ (2) 以 $O$ 为原点，$A C$ 所在直线为 $x$ 轴，$P O$ 所在直线为 $z$ 轴建立空间直角坐标系，并取 $B$ 在 $y$ 轴正半轴上，则
-$A(-1,0,0)$，$C(1,0,0)$，$B(0,sqrt(3),0)$，$P(0,0,sqrt(3))$.
-由于 $M$ 为 $B C$ 的中点，得 $M((1)/(2),(sqrt(3))/(2),0)$. 平面 $P A C$ 的方程为 $y=0$，且
-$arrow(P M)=((1)/(2),(sqrt(3))/(2),-sqrt(3))$，$P M=sqrt((1)/(4)+(3)/(4)+3)=2$.
-设 $P M$ 与平面 $P A C$ 所成的角为 $alpha$，则
-
-$ sin alpha =(|(sqrt(3))/(2)|)/(P M)=(sqrt(3))/(4) $
-
-所以 $alpha = arcsin (sqrt(3))/(4)$.
++ (1)
 ]
 
 #problem(18)[
-设 $a$ 为常数，$f(x)= log _3(a+x)+ log _3(6-x)$.
+设 #mi(`a`) 为常数，#mi(`f(x)=\log_{3}(a+x)+\log_{3}(6-x)`).
 
-+ (1) 若将函数 $y=f(x)$ 的图像向下平移 $m$（$m>0$）个单位后，其图像经过 $(3,0)$，$(5,0)$ 两点，求实数 $a$ 和 $m$ 的值；
-+ (2) 若 $a>-3$ 且 $a != 0$，解不等式 $f(x) <= f(6-x)$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 函数图像向下平移 $m$ 个单位后为 $y=f(x)-m$. 该图像经过 $(3,0)$，$(5,0)$，所以 $f(3)=f(5)=m$. 由定义域可知 $a>-3$. 又
-$f(3)= log _3(3(a+3))$，$f(5)= log _3(a+5)$.
-由 $f(3)=f(5)$ 和对数函数的单调性，得
-
-$ 3(a+3)=a+5 $
-
-解得 $a=-2$. 于是
-
-$ m=f(5)= log _3(3)=1 $
-+ (2) 要使 $f(x)$ 与 $f(6-x)$ 同时有意义，需要
-$a+x>0$，$6-x>0$，$a+6-x>0$，$x>0$.
-因此
-
-$ x in ( max \{-a,0\}, min \{6,a+6\}) $
-
-在这个公共定义域内，由于底数 $3>1$，
-
-$ f(x) <= f(6-x) <=> (a+x)(6-x) <= x(a+6-x) <=> 6 a <= 2 a x $
-
-当 $a>0$ 时，公共定义域为 $(0,6)$，不等式等价于 $x >= 3$，故解集为 $[3,6)$.
-
-当 $-3<a<0$ 时，公共定义域为 $(-a,a+6)$，并且 $-a<3<a+6$. 不等式等价于 $x <= 3$，故解集为 $(-a,3]$.
-
-综上，原不等式的解集为
-
-$ \b e g i n{c a s e s} (-a,3],&-3<a<0,\\ [3,6),&a>0. \e n d{c a s e s} $
++ (1)
 ]
 
 #problem(19)[
-如图，$A D=B C=6$，$A B=20$，$angle D A B= angle A B C=120^ degree$，$O$ 为 $A B$ 中点，曲线 $C D$ 上任意一点到点 $O$ 的距离均相等，$P$，$M$，$Q$ 为曲线 $C D$ 上的点，且 $M O bot A B$，点 $P$ 与点 $Q$ 关于直线 $O M$ 对称.
-
-+ (1) 若点 $P$ 与点 $C$ 重合，求 $angle P O B$ 的大小；
-+ (2) 点 $P$ 在何位置时，五边形 $C P M Q D$ 的面积 $S$ 取到最大值，并求出该最大值.
+如图，#mi(`AD=BC=6`)，#mi(`AB=20`)，#mi(`\angle DAB=\angle ABC=120^{\circ}`)，#mi(`O`) 为 #mi(`AB`) 中点，曲线 #mi(`CD`) 上任意一点到点 #mi(`O`) 的距离均相等，#mi(`P`)，#mi(`M`)，#mi(`Q`) 为曲线 #mi(`CD`) 上的点，且 #mi(`MO\perp AB`)，点 #mi(`P`) 与点 #mi(`Q`) 关于直线 #mi(`OM`) 对称.
 
 
++ (1) 
 
-#align(center)[#image("/papers/2022/img/shanghai/q19_fig1.png", width: 58%)]
+
+
+
+#align(center)[#image("/papers/2022/img/shanghai/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 以 $O$ 为原点，$A B$ 所在直线为 $x$ 轴建立平面直角坐标系，取 $y$ 轴正方向指向曲线 $C D$ 一侧，则
-$A(-10,0)$，$B(10,0)$.
-由 $A D=6$ 及 $angle D A B=120^ degree$，得
-
-$ D(-10+6 cos 120 ""^ degree ,6 sin 120 ""^ degree )=(-13,3 sqrt(3)) $
-
-同理，由 $B C=6$ 及 $angle A B C=120^ degree$，得 $C=(13,3 sqrt(3))$. 因而
-
-$ O D=O C=sqrt(13^2+(3 sqrt(3))^2)=14 $
-
-若 $P$ 与 $C$ 重合，则 $P=(13,3 sqrt(3))$，所以
-
-$ cos angle P O B=(arrow(O P){ dot }arrow(O B))/(O P dot O B)=(13 times 10)/(14 times 10)=(13)/(14) $
-
-故 $angle P O B= arccos (13)/(14)$.
-+ (2) 由 $M O bot A B$ 及 $O M=14$，得 $M=(0,14)$. 设
-$h=3 sqrt(3)$，$P=(x,y)$，$Q=(-x,y)$，$y=sqrt(196-x^2)$
-其中 $0 <= x <= 13$. 按顶点 $C$，$P$，$M$，$Q$，$D$ 的顺序计算五边形面积，得
-
-$ S=13(y-h)+(14-h)x=13 sqrt(196-x^2)+(14-h)x-13 h $
-
-令 $k=14-h=14-3 sqrt(3)$. 因为 $x^2+y^2=196$，由柯西不等式，
-
-$ 13 y+k x <= 14 sqrt(13^2+k^2) $
-
-当且仅当 $(x,y)$ 与 $(k,13)$ 同方向时取等号. 注意到
-
-$ 13^2+k^2=169+(14-3 sqrt(3))^2=28(14-3 sqrt(3))=28 k $
-
-所以取最大值时
-$x^2=(14^(2) k^2)/(13^2+k^2)=7 k=98-21 sqrt(3)$，$y^2=196-x^2=98+21 sqrt(3)$.
-即点 $P$ 在所建坐标系中的位置为
-
-$ P(sqrt(98-21 sqrt(3)),sqrt(98+21 sqrt(3))) $
-
-点 $Q$ 为其关于 $O M$ 的对称点. 此时
-
-$ S_( max )=14 sqrt(169+k^2)-13 h=14 sqrt(28(14-3 sqrt(3)))-39 sqrt(3)=28 sqrt(98-21 sqrt(3))-39 sqrt(3) $
++ (1)
 ]
 
 #problem(20)[
-设椭圆 $Gamma :(x^2)/(a^2)+(y^2)/(b^2)=1$（$a>b>0$），$F_1(-sqrt(2),0)$，$F_2(sqrt(2),0)$ 为 $Gamma$ 的焦点，$A$ 为 $Gamma$ 的下顶点，$M$ 为直线 $l:x+y-4 sqrt(2)=0$ 上一点.
+设椭圆 #mi(`\Gamma:\frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1`)（#mi(`a>b>0`)），#mi(`F_{1}(-\sqrt{2},0)`)，#mi(`F_{2}(\sqrt{2},0)`) 为 #mi(`\Gamma`) 的焦点，#mi(`A`) 为 #mi(`\Gamma`) 的下顶点，#mi(`M`) 为直线 #mi(`l:x+y-4\sqrt{2}=0`) 上一点.
 
-+ (1) 若 $a=2$，且 $A M$ 的中点在 $x$ 轴上，求点 $M$ 的坐标；
-+ (2) 若直线 $l$ 与 $y$ 轴的交点为 $B$，直线 $A M$ 经过点 $F_2$，且在 $triangle A B M$ 中有一内角的余弦值为 $(3)/(5)$，求 $b$ 的值；
-+ (3) 若 $Gamma$ 上一点 $P$ 到 $l$ 的距离为 $d$，且 $|P F_1|+|P F_2|+d=6$，求 $d$ 的最小值.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 由焦点坐标可知椭圆的半焦距为 $c=sqrt(2)$，所以 $a^2-b^2=c^2=2$. 当 $a=2$ 时，$b=sqrt(2)$，从而 $A=(0,-sqrt(2))$. 设 $M=(x_M,y_M)$，由 $A M$ 的中点在 $x$ 轴上，得
-$(-sqrt(2)+y_M)/(2)=0$，$y_M=sqrt(2)$.
-又 $M in l$，所以
-$x_M+sqrt(2)=4 sqrt(2)$，$x_M=3 sqrt(2)$.
-故 $M=(3 sqrt(2),sqrt(2))$.
-+ (2) 直线 $l$ 与 $y$ 轴的交点为 $B=(0,4 sqrt(2))$. 令
-
-$ t=(b)/(sqrt(2))>0 $
-
-由于 $A=(0,-b)$，且直线 $A M$ 经过 $F_2=(sqrt(2),0)$，直线 $A M$ 的方程为
-
-$ y=t x-sqrt(2)t $
-
-联立 $x+y=4 sqrt(2)$，得
-
-$ M((sqrt(2)(4+t))/(1+t),(3 sqrt(2)t)/(1+t)) $
-
-直接由向量夹角公式，三角形 $A B M$ 的三个内角满足
-$cos angle B A M=(t)/(sqrt(1+t^2))$，$cos angle A B M=(1)/(sqrt(2))$，$cos angle A M B=(1-t)/(sqrt(2(1+t^2)))$.
-其中 $cos angle A B M != (3)/(5)$. 若 $cos angle B A M=(3)/(5)$，则
-$(t)/(sqrt(1+t^2))=(3)/(5)$，$t=(3)/(4)$，$b=(3 sqrt(2))/(4)$.
-若 $cos angle A M B=(3)/(5)$，则因右端为正数，先得 $t<1$. 再平方得
-$25(1-t)^2=18(1+t^2)$，$7 t^2-50 t+7=0$.
-所以 $t=7$ 或 $t=(1)/(7)$，结合 $t<1$ 得 $t=(1)/(7)$，从而 $b=(sqrt(2))/(7)$. 综上，
-
-$ b=(3 sqrt(2))/(4)"或"b=(sqrt(2))/(7) $
-+ (3) 椭圆的焦半距为 $sqrt(2)$，故椭圆上任意点 $P$ 都满足
-
-$ |P F_1|+|P F_2|=2 a $
-
-由 $d >= 0$ 及题设，得 $a <= 3$. 又 $b^2=a^2-2$，所以当 $a <= 3$ 时，椭圆上任意点均满足
-
-$ x+y\l e s q r t(a^2+b^2)=sqrt(2 a^2-2) <= 4 <4 sqrt(2) $
-
-因此点 $P$ 在线 $l$ 的下方，且
-
-$ d=(4 sqrt(2)-x-y)/(sqrt(2))=4-(x+y)/(sqrt(2)) $
-
-设 $P=(a cos theta ,b sin theta )$，由题设得
-
-$ 2 a+4-(a cos theta +b sin theta)/(sqrt(2))=6 $
-
-即
-
-$ a cos theta +b sin theta =2 sqrt(2)(a-1) $
-
-由柯西不等式，必须有
-
-$ 2 sqrt(2)(a-1)\l e s q r t(a^2+b^2)=sqrt(2 a^2-2) $
-
-由于 $a>sqrt(2)$，两边非负，平方并整理得
-$4(a-1)^2 <= a^2-1$，$(3 a-5)(a-1) <= 0$，
-从而 $a <= (5)/(3)$. 于是
-
-$ d=6-2 a >= 6 -2 times (5)/(3)=(8)/(3) $
-
-当 $a=(5)/(3)$，$b=(sqrt(7))/(3)$，并取 $( cos theta , sin theta )$ 与 $(a,b)$ 同方向时，柯西不等式取等号，题设条件可以实现. 因此
-
-$ d_( min )=(8)/(3) $
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-在数列 $\{a_n\}$ 中，$a_1=1$，$a_2=3$，对任意 $n in NN ""^*$ 且 $n >= 2$，均存在正整数 $i in [1,n-1]$，满足 $a_(n+1)=2 a_n-a_i$.
+在数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{1}=1`)，#mi(`a_{2}=3`)，对任意 #mi(`n\in\mathbb{N}^{*}`) 且 #mi(`n\ge2`)，均存在正整数 #mi(`i\in[1,n-1]`)，满足 #mi(`a_{n+1}=2a_{n}-a_{i}`).
 
-+ (1) 求 $a_4$ 所有可能的值；
-+ (2) 命题 $p$：若 $a_1$，$a_2$，\ldots，$a_8$ 成等差数列，则 $a_9<30$，证明 $p$ 是真命题，同时写出 $p$ 的逆命题 $q$，并判断命题 $q$ 是真命题还是假命题，说明理由；
-+ (3) 若 $a_(2 m)=3^m$（$m in NN ""^*$），求数列 $\{a_n\}$ 的通项公式.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 当 $n=2$ 时，$i=1$，所以
-
-$ a_3=2 a_2-a_1=2 times 3 -1=5 $
-
-当 $n=3$ 时，$i$ 可以取 $1$ 或 $2$，故
-
-$ a_4=2 a_3-a_i in \{2 times 5 -1,2 times 5 -3\}=\{9,7\} $
-
-所以 $a_4$ 的所有可能值为 $7$，$9$.
-+ (2) 若 $a_1$，$a_2$，$\l d o t s$，$a_8$ 成等差数列，则其公差为
-
-$ a_2-a_1=3-1=2 $
-
-从而 $a_n=2 n-1$，$1 <= n <= 8$. 由递推关系，在 $n=8$ 时存在 $i in [1,7]$，使得
-
-$ a_9=2 a_8-a_i=30-(2 i-1)=31-2 i <= 29 <30 $
-
-所以命题 $p$ 是真命题.
-
-命题 $p$ 的逆命题为
-
-“若 $a_9<30$，则 $a_1$，$a_2$，$\l d o t s$，$a_8$ 成等差数列.”
-
-该逆命题为假命题. 例如取
-$a_1=1$，$a_2=3$，$a_3=5$，$a_4=7$，$a_5=11$，$a_6=15$，$a_7=19$，$a_8=23$，$a_9=27$.
-这些数满足
-$a_3=2 a_2-a_1$，$a_4=2 a_3-a_2$，$a_5=2 a_4-a_2$
-$a_6=2 a_5-a_4$，$a_7=2 a_6-a_5$，$a_8=2 a_7-a_6$，$a_9=2 a_8-a_7$
-其中每一步所用下标均满足规定范围. 但 $a_4-a_3=2$，$a_5-a_4=4$，故前八项不成等差数列，而 $a_9=27<30$. 所以逆命题为假命题.
-将 $n >= 9$ 时的后续项定义为 $a_(n+1)=2 a_n-a_(n-1)$，则后续每一步取 $i=n-1$ 即满足题设递推条件，故上述前九项确实可以延拓为满足题设的数列.
-+ (3) 先证明数列严格递增. 已知 $a_1<a_2$. 若 $a_1<a_2< dots.c <a_n$，则对任意满足条件的 $i<n$，有 $a_i<a_n$，从而
-
-$ a_(n+1)=2 a_n-a_i>a_n $
-
-由数学归纳法，数列严格递增.
-
-记 $b_m=a_(2 m-1)$. 已知 $b_2=a_3=5=5 times 3 ""^0$. 下面用归纳法证明对 $m >= 2$，都有 $b_m=5 times 3 ""^(m-2)$.
-
-假设 $2 <= r<m$ 时结论成立. 在 $n=2 m-2$ 时，存在 $i in [1,2 m-3]$，使得
-
-$ b_m=a_(2 m-1)=2 a_(2 m-2)-a_i=2 times 3 ""^(m-1)-a_i $
-
-记 $x=a_i$. 再在 $n=2 m-1$ 时，由 $a_(2 m)=3^m$，存在 $j in [1,2 m-2]$，使得
-
-$ a_j=2 b_m-3^m=3^(m-1)-2 x $
-
-记 $y=a_j$，则
-
-$ 2 x+y=3^(m-1) $
-
-根据归纳假设，$x$，$y$ 均来自数值集合
-
-$ \{3^r:0 <= r <= m-1\} union \{5 times 3 ""^s:0 <= s <= m-3\} $
-
-逐类考察上式：若 $x$，$y$ 都是 $3$ 的幂，指数不同时除以较小的幂次后左端模 $3$ 为 $1$ 或 $2$，不可能等于右端；指数相同时只能有 $2 times 3 ""^r+3^r=3^(m-1)$，即 $r=m-2$. 若恰有一个数为 $5$ 乘以 $3$ 的幂，指数不同时同样模 $3$ 矛盾，指数相同时左端系数为 $7$ 或 $11$，也不可能是 $3$ 的幂. 若两个数都为 $5$ 乘以 $3$ 的幂，指数不同时模 $3$ 矛盾，指数相同时左端系数为 $15$，仍不可能是 $3$ 的幂. 因此只能有
-
-$ x=y=3^(m-2) $
-
-于是
-
-$ b_m=2 times 3 ""^(m-1)-3^(m-2)=5 times 3 ""^(m-2) $
-
-归纳得 $a_(2 m-1)=5 times 3 ""^(m-2)$（$m >= 2$）.
-
-因此数列通项为
-
-$ a_n=\b e g i n{c a s e s} 1,&n=1,\\ 3^m,&n=2 m,\ m in NN ""^*,\\ 5 times 3 ""^(m-2),&n=2 m-1,\ m >= 2 . \e n d{c a s e s} $
-
-最后验证该通项确实满足题设递推关系. 先有 $a_3=2 a_2-a_1=5$，且 $a_4=2 a_3-a_1=9=3^2$. 当 $m >= 3$ 时，取 $i=2 m-4$，则
-
-$ a_(2 m-1)=2 a_(2 m-2)-a_(2 m-4)=2 times 3 ""^(m-1)-3^(m-2)=5 times 3 ""^(m-2) $
-
-同样，当 $m >= 3$ 时，在 $n=2 m-1$ 的递推中取 $i=2 m-4$，有
-
-$ a_(2 m)=2 a_(2 m-1)-a_(2 m-4)=2 times 5 times 3 ""^(m-2)-3^(m-2)=3^m $
-
-当 $m >= 2$ 时，在 $n=2 m$ 的递推中取 $i=2 m-2$，有
-
-$ a_(2 m+1)=2 a_(2 m)-a_(2 m-2)=2 times 3 ""^m-3^(m-1)=5 times 3 ""^(m-1) $
-
-上述各式中所取下标均满足 $1 <= i <= n-1$，并覆盖 $n >= 2$ 的全部情形，因此该通项与题设递推关系一致.
++ (1) 
++ (2)
 ]
 

@@ -45,7 +45,7 @@
 ]
 
 #problem(4)[
-在#mi(`\triangle ABC`)中，若#mi(`\angle B=30^{\circ}`)，#mi(`AB=2\sqrt{3}`)，#mi(`AC=2`)，则#mi(`\triangle ABC`)的面积 #mi(`S`) 是\underline{\hspace{2.5em}}.
+在#mi(`\triangle ABC`) 中，若#mi(`\angle B=30^{\circ}`)，#mi(`AB=2\sqrt{3}`)，#mi(`AC=2`)，则#mi(`\triangle ABC`) 的面积 #mi(`S`) 是\underline{\hspace{2.5em}}.
 ]
 
 #answer([#mi(`2\sqrt{3}`) 或 #mi(`\sqrt{3}`)])
@@ -95,7 +95,9 @@
 
 现已知工程总时数为 #mi(`10\text{ \text{天}}`)，则工序 #mi(`c`) 所需工时为\underline{\hspace{2.5em}}.
 
-[max width=0.9\linewidth]img/1999/shanghai_liberal/q8_fig1.png
+
+#align(center)[#image("/papers/1999/img/shanghai_liberal/q8_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`4`)])
@@ -174,6 +176,8 @@
 #problem(14)[
 下列以 #mi(`t`) 为参数的参数方程所表示的曲线中，与方程 #mi(`xy = 1`) 所表示的曲线完全一致的是（ ）
 
+\endcases\)}
+
 #mi(`\begin{cases}x=|t|,\\  y=\frac{1}{|t|}\end{cases}`)
 
 #mi(`\begin{cases}x=\cos t,\\
@@ -183,7 +187,6 @@ y=\sec t\end{cases}`)
 #mi(`\begin{cases}x=\tan t,\\
 
 y=\cot t\end{cases}`)
-  #choices([\(\begin{cases], [\frac{1}{2}], [-\frac{1}{2}], [cases}\)], cols: 4)
 ]
 
 #answer([D])
@@ -281,7 +284,9 @@ y=\cot t\end{cases}`)
 
 
 
-[max width=0.36\linewidth]img/1999/shanghai_liberal/q20_fig1.png
+
+#align(center)[#image("/papers/1999/img/shanghai_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -297,7 +302,9 @@ y=\cot t\end{cases}`)
 
 
 
-[max width=0.56\linewidth]img/1999/shanghai_liberal/q21_fig1.png
+
+#align(center)[#image("/papers/1999/img/shanghai_liberal/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

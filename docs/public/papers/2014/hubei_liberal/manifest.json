@@ -1,8 +1,143 @@
 {
-  "title": "2014年普通高等学校招生全国统一考试",
-  "subtitle": "2014年湖北卷（文）",
   "year": "2014",
   "slug": "hubei_liberal",
+  "title": "2014年湖北卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$\\{2,5,7\\}$"
           ],
           "answer": "C",
-          "solution": "全集中的元素只有 $1$，$2$，$3$，$4$，$5$，$6$，$7$，去掉集合 $A$ 中的 $1$，$3$，$5$，$6$，得到 $\\complement_{U} A=\\{2,4,7\\}$. 因此选择 C."
+          "solution": "全集中的元素只有 $1$，$2$，$3$，$4$，$5$，$6$，$7$，去掉集合 $A$ 中的 $1$，$3$，$5$，$6$，得到 $\\complement_{U} A=\\{2,4,7\\}$. 因此选择 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$-\\mathrm{i}$"
           ],
           "answer": "B",
-          "solution": "<p>分子、分母同乘分母的共轭复数，得</p>\n$$\n\\frac{1-\\mathrm{i}}{1+\\mathrm{i}}=\\frac{(1-\\mathrm{i})^{2}}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac{-2\\mathrm{i}}{2}=-\\mathrm{i}\n$$\n<p>所以 $\\left(\\frac{1-\\mathrm{i}}{1+\\mathrm{i}}\\right)^{2}=(-\\mathrm{i})^{2}=-1$. 因此选择 B.</p>"
+          "solution": "<p>分子、分母同乘分母的共轭复数，得</p>\n$$\n\\frac{1-\\mathrm{i}}{1+\\mathrm{i}}=\\frac{(1-\\mathrm{i})^{2}}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac{-2\\mathrm{i}}{2}=-\\mathrm{i}\n$$\n<p>所以 $\\left(\\frac{1-\\mathrm{i}}{1+\\mathrm{i}}\\right)^{2}=(-\\mathrm{i})^{2}=-1$. 因此选择 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$\\exists x \\in \\mathbb{R}$，$x^{2} = x$"
           ],
           "answer": "D",
-          "solution": "全称命题“对所有 $x\\in\\mathbb{R}$，$x^{2}\\neq x$”的否定，要把“对所有”改为“存在”，并把“不等于”改为“等于”，因此否定为 $\\exists x\\in\\mathbb{R}$，$x^{2}=x$. 这正是选项 D."
+          "solution": "全称命题“对所有 $x\\in\\mathbb{R}$，$x^{2}\\neq x$”的否定，要把“对所有”改为“存在”，并把“不等于”改为“等于”，因此否定为 $\\exists x\\in\\mathbb{R}$，$x^{2}=x$. 这正是选项 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$8$"
           ],
           "answer": "C",
-          "solution": "<p>可行域由 $x\\geqslant0$、$y\\geqslant0$、$x+y\\leqslant4$、$x-y\\leqslant2$ 围成，其顶点为 $(0,0)$、$(2,0)$、$(3,1)$、$(0,4)$. 目标函数 $2x+y$ 是线性的，所以在多边形可行域上的最大值在顶点处取得. 逐点计算得对应的目标函数值分别为 $0$、$4$、$7$、$4$.</p><p>故最大值为 $7$，选择 C.</p>"
+          "solution": "<p>可行域由 $x\\geqslant0$、$y\\geqslant0$、$x+y\\leqslant4$、$x-y\\leqslant2$ 围成，其顶点为 $(0,0)$、$(2,0)$、$(3,1)$、$(0,4)$. 目标函数 $2x+y$ 是线性的，所以在多边形可行域上的最大值在顶点处取得. 逐点计算得对应的目标函数值分别为 $0$、$4$、$7$、$4$.</p><p>故最大值为 $7$，选择 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,11 +208,13 @@
             "$p_{3}< p_{1}< p_{2}$"
           ],
           "answer": "C",
-          "solution": "<p>两枚骰子的有序结果共有 $6\\times6=36$ 种，且等可能.</p><p>点数和不超过 $5$ 的结果数为 $1+2+3+4=10$，所以 $p_{1}=\\frac{10}{36}=\\frac{5}{18}$. 因而 $p_{2}=1-p_{1}=\\frac{13}{18}$.</p><p>点数和为偶数，当且仅当两枚骰子的点数同奇偶. 奇数、偶数各有 $3$ 个，因此结果数为 $3\\times3+3\\times3=18$，从而 $p_{3}=\\frac{18}{36}=\\frac{1}{2}=\\frac{9}{18}$. 因此 $p_{1}<p_{3}<p_{2}$，选择 C.</p>"
+          "solution": "<p>两枚骰子的有序结果共有 $6\\times6=36$ 种，且等可能.</p><p>点数和不超过 $5$ 的结果数为 $1+2+3+4=10$，所以 $p_{1}=\\frac{10}{36}=\\frac{5}{18}$. 因而 $p_{2}=1-p_{1}=\\frac{13}{18}$.</p><p>点数和为偶数，当且仅当两枚骰子的点数同奇偶. 奇数、偶数各有 $3$ 个，因此结果数为 $3\\times3+3\\times3=18$，从而 $p_{3}=\\frac{18}{36}=\\frac{1}{2}=\\frac{9}{18}$. 因此 $p_{1}<p_{3}<p_{2}$，选择 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
-          "body": "<p>根据如下样本数据</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$x$ </td><td style=\"text-align: center\"> 3 </td><td style=\"text-align: center\"> 4 </td><td style=\"text-align: center\"> 5 </td><td style=\"text-align: center\"> 6 </td><td style=\"text-align: center\"> 7 </td><td style=\"text-align: center\"> 8 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$y$ </td><td style=\"text-align: center\"> 4.0 </td><td style=\"text-align: center\"> 2.5 </td><td style=\"text-align: center\"> $-0.5$ </td><td style=\"text-align: center\"> 0.5 </td><td style=\"text-align: center\"> $-2.0$ </td><td style=\"text-align: center\"> $-3.0$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>得到的回归方程为 $\\hat{y}= bx + a$，则（ ）</p>",
+          "body": "<p>根据如下样本数据</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$x$ </td><td style=\"text-align: center\"> 3 </td><td style=\"text-align: center\"> 4 </td><td style=\"text-align: center\"> 5 </td><td style=\"text-align: center\"> 6 </td><td style=\"text-align: center\"> 7 </td><td style=\"text-align: center\"> 8 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$y$ </td><td style=\"text-align: center\"> 4.0 </td><td style=\"text-align: center\"> 2.5 </td><td style=\"text-align: center\"> $-0.5$ </td><td style=\"text-align: center\"> 0.5 </td><td style=\"text-align: center\"> $-2.0$ </td><td style=\"text-align: center\"> $-3.0$ </td></tr></tbody></table></center><p>得到的回归方程为 $\\hat{y}= bx + a$，则（ ）</p>",
           "choices": [
             "$a > 0$，$b < 0$",
             "$a > 0$，$b > 0$",
@@ -77,11 +222,13 @@
             "$a < 0$，$b > 0$"
           ],
           "answer": "A",
-          "solution": "<p>样本中 $\\bar{x}=\\frac{3+4+5+6+7+8}{6}=\\frac{11}{2}$，$\\bar{y}=\\frac{4.0+2.5-0.5+0.5-2.0-3.0}{6}=\\frac{1}{4}$.</p><p>回归方程 $\\hat y=bx+a$ 中</p>\n$$\nb=\\frac{\\sum_{i=1}^{6}(x_{i}-\\bar x)(y_{i}-\\bar y)}{\\sum_{i=1}^{6}(x_{i}-\\bar x)^{2}}\n$$\n<p>分母为</p>\n$$\n\\left(-\\frac{5}{2}\\right)^{2}+\\left(-\\frac{3}{2}\\right)^{2}+\\left(-\\frac{1}{2}\\right)^{2}+\\left(\\frac{1}{2}\\right)^{2}+\\left(\\frac{3}{2}\\right)^{2}+\\left(\\frac{5}{2}\\right)^{2}=\\frac{35}{2}>0\n$$\n<p>分子为</p>\n$$\n\\sum_{i=1}^{6}(x_{i}-\\bar x)(y_{i}-\\bar y)  =\\left(-\\frac{5}{2}\\right)\\frac{15}{4}+\\left(-\\frac{3}{2}\\right)\\frac{9}{4}+\\left(-\\frac{1}{2}\\right)\\left(-\\frac{3}{4}\\right)+\\frac{1}{2}\\cdot\\frac{1}{4}+\\frac{3}{2}\\left(-\\frac{9}{4}\\right)+\\frac{5}{2}\\left(-\\frac{13}{4}\\right)=-\\frac{95}{4}<0\n$$\n<p>所以 $b<0$. 又</p>\n$$\na=\\bar y-b\\bar x=\\frac{1}{4}-\\left(-\\frac{19}{14}\\right)\\frac{11}{2}=\\frac{54}{7}>0\n$$\n<p>因此选择 A.</p>"
+          "solution": "<p>样本中 $\\bar{x}=\\frac{3+4+5+6+7+8}{6}=\\frac{11}{2}$，$\\bar{y}=\\frac{4.0+2.5-0.5+0.5-2.0-3.0}{6}=\\frac{1}{4}$.</p><p>回归方程 $\\hat y=bx+a$ 中</p>\n$$\nb=\\frac{\\sum_{i=1}^{6}(x_{i}-\\bar x)(y_{i}-\\bar y)}{\\sum_{i=1}^{6}(x_{i}-\\bar x)^{2}}\n$$\n<p>分母为</p>\n$$\n\\left(-\\frac{5}{2}\\right)^{2}+\\left(-\\frac{3}{2}\\right)^{2}+\\left(-\\frac{1}{2}\\right)^{2}+\\left(\\frac{1}{2}\\right)^{2}+\\left(\\frac{3}{2}\\right)^{2}+\\left(\\frac{5}{2}\\right)^{2}=\\frac{35}{2}>0\n$$\n<p>分子为</p>\n$$\n\\sum_{i=1}^{6}(x_{i}-\\bar x)(y_{i}-\\bar y)  =\\left(-\\frac{5}{2}\\right)\\frac{15}{4}+\\left(-\\frac{3}{2}\\right)\\frac{9}{4}+\\left(-\\frac{1}{2}\\right)\\left(-\\frac{3}{4}\\right)+\\frac{1}{2}\\cdot\\frac{1}{4}+\\frac{3}{2}\\left(-\\frac{9}{4}\\right)+\\frac{5}{2}\\left(-\\frac{13}{4}\\right)=-\\frac{95}{4}<0\n$$\n<p>所以 $b<0$. 又</p>\n$$\na=\\bar y-b\\bar x=\\frac{1}{4}-\\left(-\\frac{19}{14}\\right)\\frac{11}{2}=\\frac{54}{7}>0\n$$\n<p>因此选择 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
-          "body": "<p>在如图所示的空间直角坐标系 $O-xyz$ 中，一个四面体的顶点坐标分别是 $(0,0,2)$，$(2,2,0)$，$(1,2,1)$，$(2,2,2)$. 给出编号为$①$、$②$、$③$、$④$的四个图，则该四面体的正视图和俯视图分别为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>在如图所示的空间直角坐标系 $O-xyz$ 中，一个四面体的顶点坐标分别是 $(0,0,2)$，$(2,2,0)$，$(1,2,1)$，$(2,2,2)$. 给出编号为$①$、$②$、$③$、$④$的四个图，则该四面体的正视图和俯视图分别为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/hubei_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$①$和$②$",
             "$③$和$①$",
@@ -89,7 +236,9 @@
             "$④$和$②$"
           ],
           "answer": "D",
-          "solution": "<p>正视图是沿 $x$ 轴方向投影到 $yOz$ 平面. 四个顶点的投影分别为 $A'(0,2)$、$B'(2,0)$、$C'(2,1)$、$D'(2,2)$.</p><p>因此外轮廓为由 $A'$、$D'$、$B'$ 构成的直角三角形，$C'$ 在 $B'D'$ 上，投影后的内部边线与图$④$相符，所以正视图为图$④$.</p><p>俯视图是沿 $z$ 轴方向投影到 $xOy$ 平面. 四个顶点的投影分别为 $A''(0,0)$、$B''(2,2)$、$C''(1,2)$、$D''(2,2)$.</p><p>其中 $B''$ 与 $D''$ 重合，外轮廓及重合点产生的边线与图$②$相符，所以俯视图为图$②$. 因此选择 D.</p>"
+          "solution": "<p>正视图是沿 $x$ 轴方向投影到 $yOz$ 平面. 四个顶点的投影分别为 $A'(0,2)$、$B'(2,0)$、$C'(2,1)$、$D'(2,2)$.</p><p>因此外轮廓为由 $A'$、$D'$、$B'$ 构成的直角三角形，$C'$ 在 $B'D'$ 上，投影后的内部边线与图$④$相符，所以正视图为图$④$.</p><p>俯视图是沿 $z$ 轴方向投影到 $xOy$ 平面. 四个顶点的投影分别为 $A''(0,0)$、$B''(2,2)$、$C''(1,2)$、$D''(2,2)$.</p><p>其中 $B''$ 与 $D''$ 重合，外轮廓及重合点产生的边线与图$②$相符，所以俯视图为图$②$. 因此选择 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$3$"
           ],
           "answer": "A",
-          "solution": "<p>方程可因式分解为 $t\\left(t\\cos\\theta+\\sin\\theta\\right)=0$.</p><p>双曲线方程要求 $\\sin\\theta\\neq0$ 且 $\\cos\\theta\\neq0$；又由于方程有两个不等实根，两个根为 $0$ 与 $-\\tan\\theta$. 不妨设 $a=0$，$b=-\\tan\\theta$，于是</p><p>$A=(0,0)$，$B=(-\\tan\\theta,\\tan^{2}\\theta)$.</p><p>直线 $AB$ 的方程为 $y=-x\\tan\\theta$.</p><p>双曲线的渐近线由 $\\frac{x^{2}}{\\cos^{2}\\theta}-\\frac{y^{2}}{\\sin^{2}\\theta}=0$ 得到，即 $y=\\pm x\\tan\\theta$. 所以直线 $AB$ 是双曲线的一条渐近线. 将 $y=-x\\tan\\theta$ 代入双曲线左端，得到 $0$，不可能等于 $1$，故二者没有公共点，选择 A.</p>"
+          "solution": "<p>方程可因式分解为 $t\\left(t\\cos\\theta+\\sin\\theta\\right)=0$.</p><p>双曲线方程要求 $\\sin\\theta\\neq0$ 且 $\\cos\\theta\\neq0$；又由于方程有两个不等实根，两个根为 $0$ 与 $-\\tan\\theta$. 不妨设 $a=0$，$b=-\\tan\\theta$，于是</p><p>$A=(0,0)$，$B=(-\\tan\\theta,\\tan^{2}\\theta)$.</p><p>直线 $AB$ 的方程为 $y=-x\\tan\\theta$.</p><p>双曲线的渐近线由 $\\frac{x^{2}}{\\cos^{2}\\theta}-\\frac{y^{2}}{\\sin^{2}\\theta}=0$ 得到，即 $y=\\pm x\\tan\\theta$. 所以直线 $AB$ 是双曲线的一条渐近线. 将 $y=-x\\tan\\theta$ 代入双曲线左端，得到 $0$，不可能等于 $1$，故二者没有公共点，选择 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +264,9 @@
             "$\\{-2 - \\sqrt{7}, 1, 3\\}$"
           ],
           "answer": "D",
-          "solution": "<p>当 $x\\geqslant0$ 时，</p>\n$$\ng(x)=x^{2}-3x-x+3=x^{2}-4x+3=(x-1)(x-3)\n$$\n<p>所以得到零点 $x=1$，$3$.</p><p>当 $x<0$ 时，由 $f$ 为奇函数，</p>\n$$\nf(x)=-f(-x)=-\\left[(-x)^{2}-3(-x)\\right]=-x^{2}-3x\n$$\n<p>于是 $g(x)=-x^{2}-3x-x+3=-x^{2}-4x+3$，即 $x^{2}+4x-3=0$. 解得 $x=-2\\pm\\sqrt{7}$，其中 $-2+\\sqrt{7}>0$ 不符合 $x<0$，只有 $-2-\\sqrt{7}$ 有效.</p><p>因此零点集合为 $\\{-2-\\sqrt{7},1,3\\}$，选择 D.</p>"
+          "solution": "<p>当 $x\\geqslant0$ 时，</p>\n$$\ng(x)=x^{2}-3x-x+3=x^{2}-4x+3=(x-1)(x-3)\n$$\n<p>所以得到零点 $x=1$，$3$.</p><p>当 $x<0$ 时，由 $f$ 为奇函数，</p>\n$$\nf(x)=-f(-x)=-\\left[(-x)^{2}-3(-x)\\right]=-x^{2}-3x\n$$\n<p>于是 $g(x)=-x^{2}-3x-x+3=-x^{2}-4x+3$，即 $x^{2}+4x-3=0$. 解得 $x=-2\\pm\\sqrt{7}$，其中 $-2+\\sqrt{7}>0$ 不符合 $x<0$，只有 $-2-\\sqrt{7}$ 有效.</p><p>因此零点集合为 $\\{-2-\\sqrt{7},1,3\\}$，选择 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +278,9 @@
             "$\\frac{355}{113}$"
           ],
           "answer": "B",
-          "solution": "<p>圆锥体积公式为 $V=\\frac{1}{3}\\pi r^{2}h$，底面周长满足 $L=2\\pi r$，所以 $r^{2}=\\frac{L^{2}}{4\\pi^{2}}$，$V=\\frac{L^{2}h}{12\\pi}$.</p><p>若把圆周率近似为 $\\pi_{0}$，则公式中的系数为 $\\frac{1}{(12\\pi_{0})}$. 由 $\\frac{1}{12\\pi_{0}}=\\frac{2}{75}$ 得 $75=24\\pi_{0}$，即 $\\pi_{0}=\\frac{25}{8}$. 因此选择 B.</p>"
+          "solution": "<p>圆锥体积公式为 $V=\\frac{1}{3}\\pi r^{2}h$，底面周长满足 $L=2\\pi r$，所以 $r^{2}=\\frac{L^{2}}{4\\pi^{2}}$，$V=\\frac{L^{2}h}{12\\pi}$.</p><p>若把圆周率近似为 $\\pi_{0}$，则公式中的系数为 $\\frac{1}{(12\\pi_{0})}$. 由 $\\frac{1}{12\\pi_{0}}=\\frac{2}{75}$ 得 $75=24\\pi_{0}$，即 $\\pi_{0}=\\frac{25}{8}$. 因此选择 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,51 +290,65 @@
         {
           "num": 11,
           "body": "甲、乙两套设备生产的同类型产品共 $4800\\text{ 件}$，采用分层抽样的方法从中抽取一个容量为 $80$ 的样本进行质量检测. 若样本中有 $50\\text{ 件}$ 产品由甲设备生产，则乙设备生产的产品总数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{件}$.",
-          "choices": null,
-          "answer": "$1800$",
-          "solution": "分层抽样中各层的抽取比例相同. 甲设备产品在样本中的比例为 $\\frac{50}{80}=\\frac{5}{8}$. 所以甲设备产品总数为 $4800\\times\\frac{5}{8}=3000$ 件，乙设备生产的产品总数为 $4800-3000=1800\\text{ 件}$."
+          "choices": [],
+          "answer": "\\(1800\\)",
+          "solution": "分层抽样中各层的抽取比例相同. 甲设备产品在样本中的比例为 $\\frac{50}{80}=\\frac{5}{8}$. 所以甲设备产品总数为 $4800\\times\\frac{5}{8}=3000$ 件，乙设备生产的产品总数为 $4800-3000=1800\\text{ 件}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "若向量 $\\overrightarrow{OA}= (1, -3)$，$\\left|\\overrightarrow{OA}\\right| = \\left|\\overrightarrow{OB}\\right|$，$\\overrightarrow{OA}\\cdot \\overrightarrow{OB}= 0$，则 $\\left|\\overrightarrow{AB}\\right| =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$2\\sqrt{5}$",
-          "solution": "<p>由 $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=0$，知 $OA\\perp OB$，所以三角形 $AOB$ 在 $O$ 处直角. 又 $|OA|=\\sqrt{1^{2}+(-3)^{2}}=\\sqrt{10}$，$|OB|=|OA|=\\sqrt{10}$.</p><p>由勾股定理，</p>\n$$\n|AB|=\\sqrt{|OA|^{2}+|OB|^{2}}=\\sqrt{10+10}=2\\sqrt{5}\n$$"
+          "choices": [],
+          "answer": "\\(2\\sqrt{5}\\)",
+          "solution": "<p>由 $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=0$，知 $OA\\perp OB$，所以三角形 $AOB$ 在 $O$ 处直角. 又 $|OA|=\\sqrt{1^{2}+(-3)^{2}}=\\sqrt{10}$，$|OB|=|OA|=\\sqrt{10}$.</p><p>由勾股定理，</p>\n$$\n|AB|=\\sqrt{|OA|^{2}+|OB|^{2}}=\\sqrt{10+10}=2\\sqrt{5}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，已知 $A = \\frac{\\pi}{6}$，$a = 1$，$b = \\sqrt{3}$，则 $B =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\frac{\\pi}{3}$ 或 $\\frac{2\\pi}{3}$",
-          "solution": "<p>由正弦定理，$\\frac{b}{\\sin B}=\\frac{a}{\\sin A}$.</p><p>所以</p>\n$$\n\\sin B=\\frac{b\\sin A}{a}=\\frac{\\sqrt{3}\\cdot\\frac{1}{2}}{1}=\\frac{\\sqrt{3}}{2}\n$$\n<p>三角形内角满足 $0<B<\\pi$，故 $B=\\frac{\\pi}{3}$ 或 $B=\\frac{2\\pi}{3}$.</p><p>两种取值分别使 $C=\\pi-A-B$ 等于 $\\frac{\\pi}{2}$ 或 $\\frac{\\pi}{6}$，均能构成三角形.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{\\pi}{3}\\) 或 \\(\\frac{2\\pi}{3}\\)",
+          "solution": "<p>由正弦定理，$\\frac{b}{\\sin B}=\\frac{a}{\\sin A}$.</p><p>所以</p>\n$$\n\\sin B=\\frac{b\\sin A}{a}=\\frac{\\sqrt{3}\\cdot\\frac{1}{2}}{1}=\\frac{\\sqrt{3}}{2}\n$$\n<p>三角形内角满足 $0<B<\\pi$，故 $B=\\frac{\\pi}{3}$ 或 $B=\\frac{2\\pi}{3}$.</p><p>两种取值分别使 $C=\\pi-A-B$ 等于 $\\frac{\\pi}{2}$ 或 $\\frac{\\pi}{6}$，均能构成三角形.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "<p>阅读如图所示的程序框图，运行相应的程序，若输入 $n$ 的值为 $9$，则输出 $S$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.42<span class=\"macro macro-linewidth\"></span>]img_repaint/2014/hubei_liberal/q14_fig1.tex</p>",
-          "choices": null,
-          "answer": "$1067$",
-          "solution": "<p>程序开始时 $k=1$、$S=0$. 每次循环先把 $2^{k}+k$ 加到 $S$，再令 $k$ 增加 $1$，当 $k>n$ 时输出.</p><p>因此 $n=9$ 时</p>\n$$\nS=\\sum_{k=1}^{9}(2^{k}+k)=(2^{1}+2^{2}+\\cdots+2^{9})+(1+2+\\cdots+9)\n$$\n<p>计算得 $2^{1}+\\cdots+2^{9}=2^{10}-2=1022$，$1+\\cdots+9=\\frac{9\\cdot10}{2}=45$，</p><p>所以 $S=1022+45=1067$.</p>"
+          "choices": [],
+          "answer": "\\(1067\\)",
+          "solution": "<p>程序开始时 $k=1$、$S=0$. 每次循环先把 $2^{k}+k$ 加到 $S$，再令 $k$ 增加 $1$，当 $k>n$ 时输出.</p><p>因此 $n=9$ 时</p>\n$$\nS=\\sum_{k=1}^{9}(2^{k}+k)=(2^{1}+2^{2}+\\cdots+2^{9})+(1+2+\\cdots+9)\n$$\n<p>计算得 $2^{1}+\\cdots+2^{9}=2^{10}-2=1022$，$1+\\cdots+9=\\frac{9\\cdot10}{2}=45$，</p><p>所以 $S=1022+45=1067$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
-          "body": "<p>如图所示，函数 $y = f(x)$ 的图象由两条射线和三条线段组成.</p><p>若 $\\forall x\\in \\mathbb{R}$，$f(x) > f(x - 1)$，则正实数 $a$ 的取值范围为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-problemresetlayout\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\left(0,\\frac{1}{6}\\right)$",
-          "solution": "<p>把横坐标按 $a$ 缩放，令 $t=\\frac{x}{a}$，$h=\\frac{1}{a}$，</p><p>并令 $f(x)=a\\varphi(t)$. 由图像可得</p>\n$$\n\\varphi(t)=  \\begin{cases}t+3,&t\\le-2,\\\\\n\n1,&-2\\le t\\le-1,\\\\\n\n-t,&-1\\le t\\leqslant1,\\\\\n\n-1,&1\\le t\\leqslant2,\\\\\n\nt-3,&t\\geqslant2\\end{cases}\n$$\n<p>题设 $f(x)>f(x-1)$ 对任意 $x$ 成立，等价于 $\\varphi(t)>\\varphi(t-h)$ 对任意 $t$ 成立.</p><p>令 $q(t)=\\varphi(t)-t$. 从上面的分段式可知 $-3\\le q(t)\\leqslant3$，所以当 $h>6$ 时，</p>\n$$\n\\varphi(t)-\\varphi(t-h)  =h+q(t)-q(t-h)\\ge h-6>0\n$$\n<p>因此 $h>6$ 时题设不等式对所有 $t$ 成立.</p><p>反之，若 $0<h\\leqslant2$，取 $t=-1+h$，则</p>\n$$\n\\varphi(t)=1-h<1=\\varphi(t-h)\n$$\n<p>若 $2<h\\leqslant6$，取 $t=-2+h$，则 $t-h=-2$. 当 $2<h\\leqslant4$ 时 $\\varphi(t)<1$，当 $4<h\\leqslant6$ 时 $\\varphi(t)=h-5\\leqslant1$，故均有 $\\varphi(t)\\le\\varphi(t-h)$. 因而必须 $h>6$.</p><p>于是 $\\frac{1}{a}>6\\Longleftrightarrow0<a<\\frac{1}{6}$.</p>"
+          "body": "<p>如图所示，函数 $y = f(x)$ 的图象由两条射线和三条线段组成.</p><p>若 $\\forall x\\in \\mathbb{R}$，$f(x) > f(x - 1)$，则正实数 $a$ 的取值范围为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-problemresetlayout\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/hubei_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\left(0,\\frac{1}{6}\\right)\\)",
+          "solution": "<p>把横坐标按 $a$ 缩放，令 $t=\\frac{x}{a}$，$h=\\frac{1}{a}$，</p><p>并令 $f(x)=a\\varphi(t)$. 由图像可得</p>\n$$\n\\varphi(t)=  \\begin{cases}t+3,&t\\le-2,\\\\\n\n1,&-2\\le t\\le-1,\\\\\n\n-t,&-1\\le t\\leqslant1,\\\\\n\n-1,&1\\le t\\leqslant2,\\\\\n\nt-3,&t\\geqslant2\\end{cases}\n$$\n<p>题设 $f(x)>f(x-1)$ 对任意 $x$ 成立，等价于 $\\varphi(t)>\\varphi(t-h)$ 对任意 $t$ 成立.</p><p>令 $q(t)=\\varphi(t)-t$. 从上面的分段式可知 $-3\\le q(t)\\leqslant3$，所以当 $h>6$ 时，</p>\n$$\n\\varphi(t)-\\varphi(t-h)  =h+q(t)-q(t-h)\\ge h-6>0\n$$\n<p>因此 $h>6$ 时题设不等式对所有 $t$ 成立.</p><p>反之，若 $0<h\\leqslant2$，取 $t=-1+h$，则</p>\n$$\n\\varphi(t)=1-h<1=\\varphi(t-h)\n$$\n<p>若 $2<h\\leqslant6$，取 $t=-2+h$，则 $t-h=-2$. 当 $2<h\\leqslant4$ 时 $\\varphi(t)<1$，当 $4<h\\leqslant6$ 时 $\\varphi(t)=h-5\\leqslant1$，故均有 $\\varphi(t)\\le\\varphi(t-h)$. 因而必须 $h>6$.</p><p>于是 $\\frac{1}{a}>6\\Longleftrightarrow0<a<\\frac{1}{6}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>某项研究表明：在考虑行车安全的情况下，某路段车流量 $F$（单位时间内经过测量点的车辆数，单位：$\\text{辆}/\\text{小时}$）与车流速度 $v$（假设车辆以相同速度 $v$ 行驶，单位：$\\text{米}/\\text{秒}$），平均车长 $l$（单位：$\\text{米}$）的值有关，其公式为 $F = \\frac{76000v}{v^{2} + 18v + 20l}$.</p><ol class=\"enumerate\"><li><p>如果不限定车型，$l = 6.05$，则最大车流量为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{辆}/\\text{小时}$；</p></li><li><p>如果限定车型，$l = 5$，则最大车流量比（1）中的最大车流量增加<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{辆}/\\text{小时}$.</p></li></ol>",
-          "choices": null,
-          "answer": "$1900$；$100$",
-          "solution": "<p>把 $l$ 看作常数，且 $v>0$. 对 $F(v)=\\frac{76000v}{v^{2}+18v+20l}$ 求导，得</p>\n$$\nF'(v)=\\frac{76000(20l-v^{2})}{(v^{2}+18v+20l)^{2}}\n$$\n<p>所以 $F(v)$ 在 $0<v<\\sqrt{20l}$ 时递增，在 $v>\\sqrt{20l}$ 时递减，最大值在 $v=\\sqrt{20l}$ 处取得. 最大值为 $F_{\\max}(l)=\\frac{76000}{18+2\\sqrt{20l}}$.</p><p>当 $l=6.05$ 时，$\\sqrt{20l}=\\sqrt{121}=11$，故 $F_{\\max}(6.05)=\\frac{76000}{18+22}=1900\\text{ 辆}/\\text{小时}$. 当 $l=5$ 时，$\\sqrt{20l}=10$，故 $F_{\\max}(5)=\\frac{76000}{18+20}=2000\\text{ 辆}/\\text{小时}$.</p><p>增加量为 $2000-1900=100\\text{ 辆}/\\text{小时}$.</p>"
+          "choices": [],
+          "answer": "\\(1900\\)；\\(100\\)",
+          "solution": "<p>把 $l$ 看作常数，且 $v>0$. 对 $F(v)=\\frac{76000v}{v^{2}+18v+20l}$ 求导，得</p>\n$$\nF'(v)=\\frac{76000(20l-v^{2})}{(v^{2}+18v+20l)^{2}}\n$$\n<p>所以 $F(v)$ 在 $0<v<\\sqrt{20l}$ 时递增，在 $v>\\sqrt{20l}$ 时递减，最大值在 $v=\\sqrt{20l}$ 处取得. 最大值为 $F_{\\max}(l)=\\frac{76000}{18+2\\sqrt{20l}}$.</p><p>当 $l=6.05$ 时，$\\sqrt{20l}=\\sqrt{121}=11$，故 $F_{\\max}(6.05)=\\frac{76000}{18+22}=1900\\text{ 辆}/\\text{小时}$. 当 $l=5$ 时，$\\sqrt{20l}=10$，故 $F_{\\max}(5)=\\frac{76000}{18+20}=2000\\text{ 辆}/\\text{小时}$.</p><p>增加量为 $2000-1900=100\\text{ 辆}/\\text{小时}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "<p>已知圆 $O: x^{2}+ y^{2}= 1$ 和点 $A(-2,0)$，若定点 $B(b,0)$ （$b \\neq -2$） 和常数 $\\lambda$ 满足：对圆 $O$ 上任意一点 $M$，都有 $|MB| = \\lambda |MA|$，则</p><ol class=\"enumerate\"><li><p>$b =\\underline{\\hspace{2.5em}}{}$；</p></li><li><p>$\\lambda =\\underline{\\hspace{2.5em}}{}$.</p></li></ol>",
-          "choices": null,
-          "answer": "$-\\frac{1}{2}$；$\\frac{1}{2}$",
-          "solution": "<p>设圆 $O$ 上任一点为 $M(x,y)$，则 $x^{2}+y^{2}=1$. 由题设 $|MB|=\\lambda|MA|$. 两边平方，得到 $(x-b)^{2}+y^{2}=\\lambda^{2}\\left((x+2)^{2}+y^{2}\\right)$. 利用 $x^{2}+y^{2}=1$ 化简为 $1-2bx+b^{2}=\\lambda^{2}(5+4x)$.</p><p>因为该等式对圆上任意 $M$ 都成立，比较 $x$ 的系数和常数项，得</p><p>$-2b=4\\lambda^{2}$，$1+b^{2}=5\\lambda^{2}$.</p><p>由第一式 $b=-2\\lambda^{2}$. 令 $s=\\lambda^{2}$，代入第二式得</p><p>$1+4s^{2}=5s$，即 $(4s-1)(s-1)=0$.</p><p>于是 $(b,\\lambda^{2})=(-2,1)$ 或 $(-\\frac{1}{2},\\frac{1}{4})$. 由题设 $b\\neq-2$，所以 $b=-\\frac{1}{2}$. 又距离比中的 $\\lambda$ 取非负值，故 $\\lambda=\\frac{1}{2}$.</p>"
+          "choices": [],
+          "answer": "\\(-\\frac{1}{2}\\)；\\(\\frac{1}{2}\\)",
+          "solution": "<p>设圆 $O$ 上任一点为 $M(x,y)$，则 $x^{2}+y^{2}=1$. 由题设 $|MB|=\\lambda|MA|$. 两边平方，得到 $(x-b)^{2}+y^{2}=\\lambda^{2}\\left((x+2)^{2}+y^{2}\\right)$. 利用 $x^{2}+y^{2}=1$ 化简为 $1-2bx+b^{2}=\\lambda^{2}(5+4x)$.</p><p>因为该等式对圆上任意 $M$ 都成立，比较 $x$ 的系数和常数项，得</p><p>$-2b=4\\lambda^{2}$，$1+b^{2}=5\\lambda^{2}$.</p><p>由第一式 $b=-2\\lambda^{2}$. 令 $s=\\lambda^{2}$，代入第二式得</p><p>$1+4s^{2}=5s$，即 $(4s-1)(s-1)=0$.</p><p>于是 $(b,\\lambda^{2})=(-2,1)$ 或 $(-\\frac{1}{2},\\frac{1}{4})$. 由题设 $b\\neq-2$，所以 $b=-\\frac{1}{2}$. 又距离比中的 $\\lambda$ 取非负值，故 $\\lambda=\\frac{1}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -189,37 +358,47 @@
         {
           "num": 18,
           "body": "<p>某实验室一天的温度（单位：$^{\\circ}\\mathrm{C}$）随时间 $t$（单位：$\\mathrm{h}$）的变化近似满足函数关系：$f(t)=10-\\sqrt{3}\\cos\\frac{\\pi}{12}t-\\sin\\frac{\\pi}{12}t$，$\\ t\\in[0,24)$.</p><ol class=\"enumerate\"><li><p>求实验室这一天上午 $8$ 时的温度；</p></li><li><p>求实验室这一天的最大温差.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $t=8$ 时，$\\frac{\\pi}{12}t=\\frac{2\\pi}{3}$，因此</p>\n$$\nf(8)=10-\\sqrt{3}\\cos\\frac{2\\pi}{3}-\\sin\\frac{2\\pi}{3}=10-\\sqrt{3}\\left(-\\frac{1}{2}\\right)-\\frac{\\sqrt{3}}{2}=10\n$$\n<p>所以实验室这一天上午 $8$ 时的温度为 $10^{\\circ}\\mathrm{C}$.</p></li><li><p>令 $u=\\frac{\\pi}{12}t$，则 $0\\le u<2\\pi$. 利用辅助角公式，得 $\\sqrt{3}\\cos u+\\sin u=2\\cos\\left(u-\\frac{\\pi}{6}\\right)$，从而 $f(t)=10-2\\cos\\left(u-\\frac{\\pi}{6}\\right)$.</p><p>当 $u=\\frac{\\pi}{6}$ 时，$\\cos\\left(u-\\frac{\\pi}{6}\\right)=1$，温度取得最小值 $8$；当 $u=\\frac{7\\pi}{6}$ 时，该余弦值为 $-1$，温度取得最大值 $12$. 两个取值都对应 $t\\in[0,24)$，所以最大温差为 $12-8=4^{\\circ}\\mathrm{C}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $t=8$ 时，$\\frac{\\pi}{12}t=\\frac{2\\pi}{3}$，因此</p>\n$$\nf(8)=10-\\sqrt{3}\\cos\\frac{2\\pi}{3}-\\sin\\frac{2\\pi}{3}=10-\\sqrt{3}\\left(-\\frac{1}{2}\\right)-\\frac{\\sqrt{3}}{2}=10\n$$\n<p>所以实验室这一天上午 $8$ 时的温度为 $10^{\\circ}\\mathrm{C}$.</p></li><li><p>令 $u=\\frac{\\pi}{12}t$，则 $0\\le u<2\\pi$. 利用辅助角公式，得 $\\sqrt{3}\\cos u+\\sin u=2\\cos\\left(u-\\frac{\\pi}{6}\\right)$，从而 $f(t)=10-2\\cos\\left(u-\\frac{\\pi}{6}\\right)$.</p><p>当 $u=\\frac{\\pi}{6}$ 时，$\\cos\\left(u-\\frac{\\pi}{6}\\right)=1$，温度取得最小值 $8$；当 $u=\\frac{7\\pi}{6}$ 时，该余弦值为 $-1$，温度取得最大值 $12$. 两个取值都对应 $t\\in[0,24)$，所以最大温差为 $12-8=4^{\\circ}\\mathrm{C}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知等差数列 $\\{a_{n}\\}$ 满足：$a_{1} = 2$，且 $a_{1}$，$a_{2}$，$a_{5}$ 成等比数列.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>记 $S_{n}$ 为数列 $\\{a_{n}\\}$ 的前 $n$ 项和，是否存在正整数 $n$，使得 $S_{n}> 60n + 800$？若存在，求出 $n$ 的最小值；若不存在，说明理由.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$，则 $a_{2}=2+d$，$a_{5}=2+4d$.</p><p>因为 $a_{1}$，$a_{2}$，$a_{5}$ 成等比数列，所以中间项的平方等于两边两项的积，即 $(2+d)^{2}=2(2+4d)$. 整理得 $d^{2}-4d=0$.</p><p>所以 $d=0$ 或 $d=4$. 因此数列的通项公式有两种可能：$a_{n}=2$，或 $a_{n}=2+4(n-1)=4n-2$.</p></li><li><p>当 $d=0$ 时，$S_{n}=2n$，而 $2n>60n+800$ 不可能成立.</p><p>当 $d=4$ 时，</p>\n$$\nS_{n}=\\frac{n\\left(a_{1}+a_{n}\\right)}{2}=\\frac{n\\left(2+4n-2\\right)}{2}=2n^{2}\n$$\n<p>于是</p>\n$$\nS_{n}>60n+800\\Longleftrightarrow 2n^{2}>60n+800  \\Longleftrightarrow n^{2}-30n-400>0  \\Longleftrightarrow (n-40)(n+10)>0\n$$\n<p>由于 $n$ 是正整数，所以必须有 $n>40$，最小值为 $n=41$. 因而当 $d=4$，即 $a_{n}=4n-2$ 时满足条件，且 $n$ 的最小值为 $41$；当 $d=0$ 时不存在这样的正整数 $n$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$，则 $a_{2}=2+d$，$a_{5}=2+4d$.</p><p>因为 $a_{1}$，$a_{2}$，$a_{5}$ 成等比数列，所以中间项的平方等于两边两项的积，即 $(2+d)^{2}=2(2+4d)$. 整理得 $d^{2}-4d=0$.</p><p>所以 $d=0$ 或 $d=4$. 因此数列的通项公式有两种可能：$a_{n}=2$，或 $a_{n}=2+4(n-1)=4n-2$.</p></li><li><p>当 $d=0$ 时，$S_{n}=2n$，而 $2n>60n+800$ 不可能成立.</p><p>当 $d=4$ 时，</p>\n$$\nS_{n}=\\frac{n\\left(a_{1}+a_{n}\\right)}{2}=\\frac{n\\left(2+4n-2\\right)}{2}=2n^{2}\n$$\n<p>于是</p>\n$$\nS_{n}>60n+800\\Longleftrightarrow 2n^{2}>60n+800  \\Longleftrightarrow n^{2}-30n-400>0  \\Longleftrightarrow (n-40)(n+10)>0\n$$\n<p>由于 $n$ 是正整数，所以必须有 $n>40$，最小值为 $n=41$. 因而当 $d=4$，即 $a_{n}=4n-2$ 时满足条件，且 $n$ 的最小值为 $41$；当 $d=0$ 时不存在这样的正整数 $n$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，在正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，$E$，$F$，$P$，$Q$，$M$，$N$ 分别是棱 $AB$，$AD$，$DD_{1}$，$BB_{1}$，$A_{1}B_{1}$，$A_{1}D_{1}$ 的中点. 求证：</p><ol class=\"enumerate\"><li><p>直线 $BC_{1}$ $\\parallel$ 平面 $EFPQ$；</p></li><li><p>直线 $AC_{1}$ $\\perp$ 平面 $PQMN$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，$E$，$F$，$P$，$Q$，$M$，$N$ 分别是棱 $AB$，$AD$，$DD_{1}$，$BB_{1}$，$A_{1}B_{1}$，$A_{1}D_{1}$ 的中点. 求证：</p><ol class=\"enumerate\"><li><p>直线 $BC_{1}$ $\\parallel$ 平面 $EFPQ$；</p></li><li><p>直线 $AC_{1}$ $\\perp$ 平面 $PQMN$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/hubei_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>设正方体的棱长为 $a$，建立空间直角坐标系，取</p><p>$A(0,0,0)$、$B(a,0,0)$、$D(0,a,0)$、$A_{1}(0,0,a)$.</p><p>于是 $E\\left(\\frac{a}{2},0,0\\right)$、$F\\left(0,\\frac{a}{2},0\\right)$、$P\\left(0,a,\\frac{a}{2}\\right)$、$Q\\left(a,0,\\frac{a}{2}\\right)$、$M\\left(\\frac{a}{2},0,a\\right)$、$N\\left(0,\\frac{a}{2},a\\right)$、$C_{1}(a,a,a)$.</p><ol class=\"enumerate\"><li><p>平面 $EFPQ$ 内两条相交直线的方向向量可取</p><p>$\\overrightarrow{EF}=\\left(-\\frac{a}{2},\\frac{a}{2},0\\right)$，$\\overrightarrow{EQ}=\\left(\\frac{a}{2},0,\\frac{a}{2}\\right)$.</p><p>它们的叉积为 $\\overrightarrow{EF}\\times\\overrightarrow{EQ}=\\frac{a^{2}}{4}(1,1,-1)$.</p><p>所以 $(1,1,-1)$ 是平面 $EFPQ$ 的一个法向量. 又</p><p>$\\overrightarrow{BC_1}=(0,a,a)$，$(1,1,-1)\\cdot\\overrightarrow{BC_1}=0$.</p><p>因此直线 $BC_{1}$ 的方向与平面 $EFPQ$ 平行. 平面 $EFPQ$ 的方程为 $x+y-z=\\frac{a}{2}$，而点 $B(a,0,0)$ 不在此平面上，所以 $BC_{1}\\parallel\\text{平面 }EFPQ$.</p></li><li><p>平面 $PQMN$ 内两条相交直线的方向向量可取</p><p>$\\overrightarrow{PQ}=(a,-a,0)$，$\\overrightarrow{PN}=\\left(0,-\\frac{a}{2},\\frac{a}{2}\\right)$.</p><p>于是 $\\overrightarrow{PQ}\\times\\overrightarrow{PN}=-\\frac{a^{2}}{2}(1,1,1)$.</p><p>所以 $(1,1,1)$ 是平面 $PQMN$ 的一个法向量. 而 $\\overrightarrow{AC_1}=(a,a,a)$ 与该法向量平行. 另外，平面 $PQMN$ 的方程为 $x+y+z=\\frac{3a}{2}$，直线 $AC_{1}$ 在点 $\\left(\\frac{a}{2},\\frac{a}{2},\\frac{a}{2}\\right)$ 处与该平面相交. 因此 $AC_{1}\\perp\\text{平面 }PQMN$.</p></li></ol>"
+          "solution": "<p>设正方体的棱长为 $a$，建立空间直角坐标系，取</p><p>$A(0,0,0)$、$B(a,0,0)$、$D(0,a,0)$、$A_{1}(0,0,a)$.</p><p>于是 $E\\left(\\frac{a}{2},0,0\\right)$、$F\\left(0,\\frac{a}{2},0\\right)$、$P\\left(0,a,\\frac{a}{2}\\right)$、$Q\\left(a,0,\\frac{a}{2}\\right)$、$M\\left(\\frac{a}{2},0,a\\right)$、$N\\left(0,\\frac{a}{2},a\\right)$、$C_{1}(a,a,a)$.</p><ol class=\"enumerate\"><li><p>平面 $EFPQ$ 内两条相交直线的方向向量可取</p><p>$\\overrightarrow{EF}=\\left(-\\frac{a}{2},\\frac{a}{2},0\\right)$，$\\overrightarrow{EQ}=\\left(\\frac{a}{2},0,\\frac{a}{2}\\right)$.</p><p>它们的叉积为 $\\overrightarrow{EF}\\times\\overrightarrow{EQ}=\\frac{a^{2}}{4}(1,1,-1)$.</p><p>所以 $(1,1,-1)$ 是平面 $EFPQ$ 的一个法向量. 又</p><p>$\\overrightarrow{BC_1}=(0,a,a)$，$(1,1,-1)\\cdot\\overrightarrow{BC_1}=0$.</p><p>因此直线 $BC_{1}$ 的方向与平面 $EFPQ$ 平行. 平面 $EFPQ$ 的方程为 $x+y-z=\\frac{a}{2}$，而点 $B(a,0,0)$ 不在此平面上，所以 $BC_{1}\\parallel\\text{平面 }EFPQ$.</p></li><li><p>平面 $PQMN$ 内两条相交直线的方向向量可取</p><p>$\\overrightarrow{PQ}=(a,-a,0)$，$\\overrightarrow{PN}=\\left(0,-\\frac{a}{2},\\frac{a}{2}\\right)$.</p><p>于是 $\\overrightarrow{PQ}\\times\\overrightarrow{PN}=-\\frac{a^{2}}{2}(1,1,1)$.</p><p>所以 $(1,1,1)$ 是平面 $PQMN$ 的一个法向量. 而 $\\overrightarrow{AC_1}=(a,a,a)$ 与该法向量平行. 另外，平面 $PQMN$ 的方程为 $x+y+z=\\frac{3a}{2}$，直线 $AC_{1}$ 在点 $\\left(\\frac{a}{2},\\frac{a}{2},\\frac{a}{2}\\right)$ 处与该平面相交. 因此 $AC_{1}\\perp\\text{平面 }PQMN$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>$\\pi$ 为圆周率，$\\mathrm{e}= 2.71828\\cdots$ 为自然对数的底数.</p><ol class=\"enumerate\"><li><p>求函数 $f(x) = \\frac{\\ln x}{x}$ 的单调区间；</p></li><li><p>求 $\\mathrm{e}^{3}$，$3^{\\mathrm{e}}$，$\\mathrm{e}^{\\pi}$，$\\pi^{\\mathrm{e}}$，$3^{\\pi}$，$\\pi^{3}$ 这 6 个数中的最大数与最小数.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $x>0$，且 $f'(x)=\\frac{1-\\ln x}{x^{2}}$.</p><p>因为 $x^{2}>0$，所以当 $0<x<\\mathrm{e}$ 时，$f'(x)>0$；当 $x=\\mathrm{e}$ 时，$f'(x)=0$；当 $x>\\mathrm{e}$ 时，$f'(x)<0$. 因此，$f(x)$ 在 $(0,\\mathrm{e})$ 上单调递增，在 $(\\mathrm{e},+\\infty)$ 上单调递减.</p></li><li><p>记 $\\varphi(x)=\\frac{\\ln x}{x}$. 由第（1）问，且 $\\mathrm{e}<3<\\pi$，有 $\\varphi(\\mathrm{e})>\\varphi(3)>\\varphi(\\pi)$. 其中 $\\varphi(\\mathrm{e})>\\varphi(3)$ 等价于 $\\mathrm{e}\\ln3<3$，于是 $\\ln\\left(3^{\\mathrm{e}}\\right)=\\mathrm{e}\\ln3<3=\\ln\\left(\\mathrm{e}^{3}\\right)$.</p><p>所以 $3^{\\mathrm{e}}<\\mathrm{e}^{3}$. 又因为 $3<\\pi$、$\\mathrm{e}<\\pi$，所以 $3^{\\mathrm{e}}<\\pi^{\\mathrm{e}}$，$3^{\\mathrm{e}}<3^{\\pi}$.</p><p>同时，由 $\\mathrm{e}\\ln3<3<\\pi$，有 $\\ln\\left(3^{\\mathrm{e}}\\right)<\\pi=\\ln\\left(\\mathrm{e}^{\\pi}\\right)$. 故 $3^{\\mathrm{e}}<\\mathrm{e}^{\\pi}$. 还由于 $\\mathrm{e}<3<\\pi$，有 $3^{\\mathrm{e}}<3^{3}<\\pi^{3}$.</p><p>因此 $3^{\\mathrm{e}}$ 小于题目中的另外五个数，是最小数.</p><p>由 $\\varphi(3)>\\varphi(\\pi)$，得</p>\n$$\n\\frac{\\ln3}{3}>\\frac{\\ln\\pi}{\\pi}\\Longleftrightarrow \\pi\\ln3>3\\ln\\pi  \\Longleftrightarrow 3^{\\pi}>\\pi^{3}\n$$\n<p>又因为 $\\mathrm{e}<3<\\pi$，所以 $\\mathrm{e}^{3}<\\pi^{3}<3^{\\pi}$，$\\pi^{\\mathrm{e}}<\\pi^{3}<3^{\\pi}$，</p><p>并且 $\\mathrm{e}^{\\pi}<3^{\\pi}$，$3^{\\mathrm{e}}<3^{\\pi}$. 所以 $3^{\\pi}$ 大于其余五个数，是最大数.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $x>0$，且 $f'(x)=\\frac{1-\\ln x}{x^{2}}$.</p><p>因为 $x^{2}>0$，所以当 $0<x<\\mathrm{e}$ 时，$f'(x)>0$；当 $x=\\mathrm{e}$ 时，$f'(x)=0$；当 $x>\\mathrm{e}$ 时，$f'(x)<0$. 因此，$f(x)$ 在 $(0,\\mathrm{e})$ 上单调递增，在 $(\\mathrm{e},+\\infty)$ 上单调递减.</p></li><li><p>记 $\\varphi(x)=\\frac{\\ln x}{x}$. 由第（1）问，且 $\\mathrm{e}<3<\\pi$，有 $\\varphi(\\mathrm{e})>\\varphi(3)>\\varphi(\\pi)$. 其中 $\\varphi(\\mathrm{e})>\\varphi(3)$ 等价于 $\\mathrm{e}\\ln3<3$，于是 $\\ln\\left(3^{\\mathrm{e}}\\right)=\\mathrm{e}\\ln3<3=\\ln\\left(\\mathrm{e}^{3}\\right)$.</p><p>所以 $3^{\\mathrm{e}}<\\mathrm{e}^{3}$. 又因为 $3<\\pi$、$\\mathrm{e}<\\pi$，所以 $3^{\\mathrm{e}}<\\pi^{\\mathrm{e}}$，$3^{\\mathrm{e}}<3^{\\pi}$.</p><p>同时，由 $\\mathrm{e}\\ln3<3<\\pi$，有 $\\ln\\left(3^{\\mathrm{e}}\\right)<\\pi=\\ln\\left(\\mathrm{e}^{\\pi}\\right)$. 故 $3^{\\mathrm{e}}<\\mathrm{e}^{\\pi}$. 还由于 $\\mathrm{e}<3<\\pi$，有 $3^{\\mathrm{e}}<3^{3}<\\pi^{3}$.</p><p>因此 $3^{\\mathrm{e}}$ 小于题目中的另外五个数，是最小数.</p><p>由 $\\varphi(3)>\\varphi(\\pi)$，得</p>\n$$\n\\frac{\\ln3}{3}>\\frac{\\ln\\pi}{\\pi}\\Longleftrightarrow \\pi\\ln3>3\\ln\\pi  \\Longleftrightarrow 3^{\\pi}>\\pi^{3}\n$$\n<p>又因为 $\\mathrm{e}<3<\\pi$，所以 $\\mathrm{e}^{3}<\\pi^{3}<3^{\\pi}$，$\\pi^{\\mathrm{e}}<\\pi^{3}<3^{\\pi}$，</p><p>并且 $\\mathrm{e}^{\\pi}<3^{\\pi}$，$3^{\\mathrm{e}}<3^{\\pi}$. 所以 $3^{\\pi}$ 大于其余五个数，是最大数.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>在平面直角坐标系 $xOy$ 中，点 $M$ 到点 $F(1,0)$ 的距离比它到 $y$ 轴的距离多 1，记点 $M$ 的轨迹为 $C$.</p><ol class=\"enumerate\"><li><p>求轨迹为 $C$ 的方程；</p></li><li><p>设斜率为 $k$ 的直线 $l$ 过定点 $P(-2,1)$，求直线 $l$ 与轨迹 $C$ 恰好有一个公共点，两个公共点，三个公共点时 $k$ 的相应取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设点 $M$ 的坐标为 $(x,y)$. 由题意 $\\sqrt{(x-1)^{2}+y^{2}}=|x|+1$. 两边均非负，平方并整理得 $(x-1)^{2}+y^{2}=(|x|+1)^{2}\\Longleftrightarrow y^{2}=2x+2|x|$.</p><p>当 $x\\geqslant0$ 时，$y^{2}=4x$；当 $x<0$ 时，$y=0$. 因此轨迹 $C$ 的方程可写为</p>\n$$\nC:\\begin{cases}y^{2}=4x,&x\\geqslant0,\\\\  y=0,&x\\leqslant0\\end{cases}\n$$\n<p>直线 $l$ 的方程为 $y-1=k(x+2)$.</p><p>先考察它与抛物线 $y^{2}=4x$ 的交点. 当 $k\\ne0$ 时，令 $x=\\frac{y^{2}}{4}$，代入直线方程，得 $ky^{2}-4y+8k+4=0$.</p><p>其判别式为</p>\n$$\n\\Delta=16-4k(8k+4)=16(1+k)(1-2k)\n$$\n<p>所以，当 $k<-1$ 或 $k>\\frac{1}{2}$ 时，抛物线交点数为 $0$；当 $k=-1$ 或 $k=\\frac{1}{2}$ 时，交点数为 $1$；当 $-1<k<\\frac{1}{2}$ 且 $k\\ne0$ 时，交点数为 $2$. 当 $k=0$ 时，直线为 $y=1$，与抛物线只有一个交点.</p><p>再考察它与射线 $y=0$，$x\\leqslant0$ 的交点. 当 $k\\ne0$ 时，令 $y=0$，得 $x=-2-\\frac{1}{k}$.</p><p>该点满足 $x\\leqslant0$ 当且仅当 $k>0$ 或 $k\\le-\\frac{1}{2}$；当 $k=0$ 时没有交点. 在 $k=-\\frac{1}{2}$ 时，射线交点为原点，而原点也是抛物线交点，需要只计一次.</p><p>综合两部分交点数，得到：</p>\n$$\n\\begin{cases}1,&k\\in(-\\infty,-1)\\cup\\{0\\}\\cup\\left(\\frac{1}{2},+\\infty\\right),\\\\\n\n2,&k\\in\\{-1\\}\\cup\\left[-\\frac{1}{2},0\\right)\\cup\\left\\{\\frac{1}{2}\\right\\},\\\\\n\n3,&k\\in\\left(-1,-\\frac{1}{2}\\right)\\cup\\left(0,\\frac{1}{2}\\right)\\end{cases}\n$$"
+          "solution": "<p>设点 $M$ 的坐标为 $(x,y)$. 由题意 $\\sqrt{(x-1)^{2}+y^{2}}=|x|+1$. 两边均非负，平方并整理得 $(x-1)^{2}+y^{2}=(|x|+1)^{2}\\Longleftrightarrow y^{2}=2x+2|x|$.</p><p>当 $x\\geqslant0$ 时，$y^{2}=4x$；当 $x<0$ 时，$y=0$. 因此轨迹 $C$ 的方程可写为</p>\n$$\nC:\\begin{cases}y^{2}=4x,&x\\geqslant0,\\\\  y=0,&x\\leqslant0\\end{cases}\n$$\n<p>直线 $l$ 的方程为 $y-1=k(x+2)$.</p><p>先考察它与抛物线 $y^{2}=4x$ 的交点. 当 $k\\ne0$ 时，令 $x=\\frac{y^{2}}{4}$，代入直线方程，得 $ky^{2}-4y+8k+4=0$.</p><p>其判别式为</p>\n$$\n\\Delta=16-4k(8k+4)=16(1+k)(1-2k)\n$$\n<p>所以，当 $k<-1$ 或 $k>\\frac{1}{2}$ 时，抛物线交点数为 $0$；当 $k=-1$ 或 $k=\\frac{1}{2}$ 时，交点数为 $1$；当 $-1<k<\\frac{1}{2}$ 且 $k\\ne0$ 时，交点数为 $2$. 当 $k=0$ 时，直线为 $y=1$，与抛物线只有一个交点.</p><p>再考察它与射线 $y=0$，$x\\leqslant0$ 的交点. 当 $k\\ne0$ 时，令 $y=0$，得 $x=-2-\\frac{1}{k}$.</p><p>该点满足 $x\\leqslant0$ 当且仅当 $k>0$ 或 $k\\le-\\frac{1}{2}$；当 $k=0$ 时没有交点. 在 $k=-\\frac{1}{2}$ 时，射线交点为原点，而原点也是抛物线交点，需要只计一次.</p><p>综合两部分交点数，得到：</p>\n$$\n\\begin{cases}1,&k\\in(-\\infty,-1)\\cup\\{0\\}\\cup\\left(\\frac{1}{2},+\\infty\\right),\\\\\n\n2,&k\\in\\{-1\\}\\cup\\left[-\\frac{1}{2},0\\right)\\cup\\left\\{\\frac{1}{2}\\right\\},\\\\\n\n3,&k\\in\\left(-1,-\\frac{1}{2}\\right)\\cup\\left(0,\\frac{1}{2}\\right)\\end{cases}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,322 +11,305 @@
 #part-header("单选题")
 
 #problem(1)[
-若 $U = \{1, 2, 3, 4\}$，$M = \{1, 2\}$，$N = \{2, 3\}$，则 $\c o m p l e m e n t_U(M union N)$ =（ ）
-  #choices([$\{1, 2, 3\}$], [$\{4\}$], [$\{1, 3, 4\}$], [$\{2\}$], cols: 4)
+若 #mi(`U = \{1, 2, 3, 4\}`)，#mi(`M = \{1, 2\}`)，#mi(`N = \{2, 3\}`)，则 #mi(`\complement_{U}(M \cup N)`) =（ ）
+  #choices([#mi(`\{1, 2, 3\}`)], [#mi(`\{4\}`)], [#mi(`\{1, 3, 4\}`)], [#mi(`\{2\}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由题意，$M union N=\{1,2,3\}$，所以全集 $U$ 中除去 $\{1,2,3\}$ 后剩余 $\{4\}$，即
-$\c o m p l e m e n t_U(M union N)=\{4\}$，故选 B.
+由题意，#mi(`M\cup N=\{1,2,3\}`)，所以全集 #mi(`U`) 中除去 #mi(`\{1,2,3\}`) 后剩余 #mi(`\{4\}`)，即
+
+#mi(`\complement_{U}(M\cup N)=\{4\}`)，故选 B.
 ]
 
 #problem(2)[
-直线 $y = 2$ 与直线 $x + y - 2 = 0$ 的夹角是（ ）
-  #choices([$(pi)/(4)$], [$(pi)/(3)$], [$(pi)/(2)$], [$(3 pi)/(4)$], cols: 4)
+直线 #mi(`y = 2`) 与直线 #mi(`x + y - 2 = 0`) 的夹角是（ ）
+  #choices([#mi(`\frac{\pi}{4}`)], [#mi(`\frac{\pi}{3}`)], [#mi(`\frac{\pi}{2}`)], [#mi(`\frac{3\pi}{4}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-直线 $y=2$ 的斜率为 $0$，直线 $x+y-2=0$ 化为 $y=-x+2$，斜率为 $-1$. 设两直线的夹角为 $theta$，则
-$tan theta =|(-1-0)/(1+(-1) dot 0)|=1$. 取两直线的锐角夹角，得 $theta =(pi)/(4)$，故选 A.
+直线 #mi(`y=2`) 的斜率为 #mi(`0`)，直线 #mi(`x+y-2=0`) 化为 #mi(`y=-x+2`)，斜率为 #mi(`-1`). 设两直线的夹角为 #mi(`\theta`)，则
+
+#mi(`\tan\theta=\left|\frac{-1-0}{1+(-1)\cdot0}\right|=1`). 取两直线的锐角夹角，得 #mi(`\theta=\frac{\pi}{4}`)，故选 A.
 ]
 
 #problem(3)[
-已知等差数列 $\{a_n\}$ 的公差为 $2$，若 $a_1$，$a_3$，$a_4$ 成等比数列，则 $a_2 =$（ ）
-  #choices([$-4$], [$-6$], [$-8$], [$-10$], cols: 4)
+已知等差数列 #mi(`\{a_{n}\}`) 的公差为 #mi(`2`)，若 #mi(`a_{1}`)，#mi(`a_{3}`)，#mi(`a_{4}`) 成等比数列，则 #mi(`a_{2} =`)（ ）
+  #choices([#mi(`-4`)], [#mi(`-6`)], [#mi(`-8`)], [#mi(`-10`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-设 $a_1=x$，则 $a_3=x+4$，$a_4=x+6$. 由于 $a_1$，$a_3$，$a_4$ 成等比数列，有
-$(x+4)^2=x(x+6)$，即 $x^2+8 x+16=x^2+6 x$，所以 $x=-8$. 因此 $a_2=a_1+2=-6$，故选 B.
+设 #mi(`a_{1}=x`)，则 #mi(`a_{3}=x+4`)，#mi(`a_{4}=x+6`). 由于 #mi(`a_{1}`)，#mi(`a_{3}`)，#mi(`a_{4}`) 成等比数列，有
+
+#mi(`(x+4)^{2}=x(x+6)`)，即 #mi(`x^{2}+8x+16=x^{2}+6x`)，所以 #mi(`x=-8`). 因此 #mi(`a_{2}=a_{1}+2=-6`)，故选 B.
 ]
 
 #problem(4)[
-已知向量 $bold(a)= (3, 4)$，$bold(b)= ( sin alpha , cos alpha )$，且 $bold(a) parallel bold(b)$，则 $tan alpha =$（ ）
-  #choices([$(3)/(4)$], [$-(3)/(4)$], [$(4)/(3)$], [$-(4)/(3)$], cols: 4)
+已知向量 #mi(`\mathbf{a}= (3, 4)`)，#mi(`\mathbf{b}= (\sin \alpha, \cos \alpha)`)，且 #mi(`\mathbf{a}\parallel \mathbf{b}`)，则 #mi(`\tan \alpha =`)（ ）
+  #choices([#mi(`\frac{3}{4}`)], [#mi(`-\frac{3}{4}`)], [#mi(`\frac{4}{3}`)], [#mi(`-\frac{4}{3}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-因为 $bold(a)\p a r a l l e l b o l d(b)$，所以两向量的行列式为零，即
-$3 cos alpha -4 sin alpha =0$. 若 $cos alpha =0$，上式不成立，故 $cos alpha \n e q0$，从而 $tan alpha =(3)/(4)$，故选 A.
+因为 #mi(`\mathbf{a}\parallel\mathbf{b}`)，所以两向量的行列式为零，即
+
+#mi(`3\cos\alpha-4\sin\alpha=0`). 若 #mi(`\cos\alpha=0`)，上式不成立，故 #mi(`\cos\alpha\neq0`)，从而 #mi(`\tan\alpha=\frac{3}{4}`)，故选 A.
 ]
 
 #problem(5)[
-点 $P$ 从 $(1, 0)$ 出发，沿单位圆 $x^(2) + y^(2) = 1$ 逆时针方向运动 $(2 pi)/(3)$ 弧长到达 $Q$ 点，则 $Q$ 的坐标为（ ）
-  #choices([$(-(1)/(2), (sqrt(3))/(2))$], [$(-(sqrt(3))/(2), -(1)/(2))$], [$(-(1)/(2), -(sqrt(3))/(2))$], [$(-(sqrt(3))/(2), (1)/(2))$], cols: 2)
+点 #mi(`P`) 从 #mi(`\left(1, 0\right)`) 出发，沿单位圆 #mi(`x^{2}+ y^{2}= 1`) 逆时针方向运动 #mi(`\frac{2\pi}{3}`) 弧长到达 #mi(`Q`) 点，则 #mi(`Q`) 的坐标为（ ）
+  #choices([#mi(`\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}\right)`)], [#mi(`\left(-\frac{\sqrt{3}}{2}, -\frac{1}{2}\right)`)], [#mi(`\left(-\frac{1}{2}, -\frac{\sqrt{3}}{2}\right)`)], [#mi(`\left(-\frac{\sqrt{3}}{2}, \frac{1}{2}\right)`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-单位圆的半径为 $1$，所以弧长 $(2 pi)/(3)$ 所对的圆心角为 $(2 pi)/(3)$. 点 $P$ 的极角为 $0$，逆时针转过该角后，点 $Q$ 的坐标为
-$( cos (2 pi)/(3), sin (2 pi)/(3))=(-(1)/(2),(sqrt(3))/(2))$，故选 A.
+单位圆的半径为 #mi(`1`)，所以弧长 #mi(`\frac{2\pi}{3}`) 所对的圆心角为 #mi(`\frac{2\pi}{3}`). 点 #mi(`P`) 的极角为 #mi(`0`)，逆时针转过该角后，点 #mi(`Q`) 的坐标为
+
+#mi(`\left(\cos\frac{2\pi}{3},\sin\frac{2\pi}{3}\right)=\left(-\frac{1}{2},\frac{\sqrt{3}}{2}\right)`)，故选 A.
 ]
 
 #problem(6)[
-曲线 $y^(2) = 4 x$ 关于直线 $x = 2$ 对称的曲线方程是（ ）
-  #choices([$y^(2) = 8 - 4 x$], [$y^(2) = 4 x - 8$], [$y^(2) = 16 - 4 x$], [$y^(2) = 4 x - 16$], cols: 2)
+曲线 #mi(`y^{2}= 4x`) 关于直线 #mi(`x = 2`) 对称的曲线方程是（ ）
+  #choices([#mi(`y^{2}= 8 - 4x`)], [#mi(`y^{2}= 4x - 8`)], [#mi(`y^{2}= 16 - 4x`)], [#mi(`y^{2}= 4x - 16`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设对称后的曲线上一点为 $(x,y)$，它关于直线 $x=2$ 的对称点为 $(4-x,y)$. 该对称点在原曲线 $y^2=4 x$ 上，所以
-$y^2=4(4-x)=16-4 x$，故选 C.
+设对称后的曲线上一点为 #mi(`(x,y)`)，它关于直线 #mi(`x=2`) 的对称点为 #mi(`(4-x,y)`). 该对称点在原曲线 #mi(`y^{2}=4x`) 上，所以
+
+#mi(`y^{2}=4(4-x)=16-4x`)，故选 C.
 ]
 
 #problem(7)[
-若 $(sqrt(x)+ (2)/(root(3, x)))^(n)$ 展开式中存在常数项，则 $n$ 的值可以是（ ）
-  #choices([$8$], [$9$], [$10$], [$12$], cols: 4)
+若 #mi(`\left(\sqrt{x}+ \frac{2}{\sqrt[3]{x}}\right)^{n}`) 展开式中存在常数项，则 #mi(`n`) 的值可以是（ ）
+  #choices([#mi(`8`)], [#mi(`9`)], [#mi(`10`)], [#mi(`12`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-在展开式中取 $k$ 个 $(2)/(root(3, x))$，取 $n-k$ 个 $sqrt(x)$，所得项的 $x$ 的指数为
-$(n-k)/(2)-(k)/(3)=(3 n-5 k)/(6)$. 该项为常数项当且仅当 $3 n-5 k=0$，即 $k=(3 n)/(5)$. 由于 $k$ 必须是整数且满足 $0 <= k <= n$，所以 $n$ 必须是 $5$ 的倍数. 给出的选项中只有 $n=10$ 满足，故选 C.
+在展开式中取 #mi(`k`) 个 #mi(`\frac{2}{\sqrt[3]{x}}`)，取 #mi(`n-k`) 个 #mi(`\sqrt{x}`)，所得项的 #mi(`x`) 的指数为
+
+#mi(`\frac{n-k}{2}-\frac{k}{3}=\frac{3n-5k}{6}`). 该项为常数项当且仅当 #mi(`3n-5k=0`)，即 #mi(`k=\frac{3n}{5}`). 由于 #mi(`k`) 必须是整数且满足 #mi(`0\le k\le n`)，所以 #mi(`n`) 必须是 #mi(`5`) 的倍数. 给出的选项中只有 #mi(`n=10`) 满足，故选 C.
 ]
 
 #problem(8)[
-在 $triangle A B C$ 中，“$A > 30^( degree )$”是“$sin A > (1)/(2)$”的（ ）
+在 #mi(`\triangle ABC`) 中，“#mi(`A > 30^{\circ}`)”是“#mi(`\sin A > \frac{1}{2}`)”的（ ）
   #choices([充分而不必要条件], [必要而不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-三角形内角满足 $0<A<180^( degree )$. 在此范围内，$sin A>(1)/(2)$ 等价于 $30^( degree )<A<150^( degree )$，因此必有 $A>30^( degree )$. 但 $A>30^( degree )$ 不一定推出 $A<150^( degree )$，例如 $A=160^( degree )$ 时 $sin A<(1)/(2)$. 所以“$A>30^( degree )$”是“$sin A>(1)/(2)$”的必要而不充分条件，故选 B.
+三角形内角满足 #mi(`0<A<180^{\circ}`). 在此范围内，#mi(`\sin A>\frac{1}{2}`) 等价于 #mi(`30^{\circ}<A<150^{\circ}`)，因此必有 #mi(`A>30^{\circ}`). 但 #mi(`A>30^{\circ}`) 不一定推出 #mi(`A<150^{\circ}`)，例如 #mi(`A=160^{\circ}`) 时 #mi(`\sin A<\frac{1}{2}`). 所以“#mi(`A>30^{\circ}`)”是“#mi(`\sin A>\frac{1}{2}`)”的必要而不充分条件，故选 B.
 ]
 
 #problem(9)[
-若函数 $f(x) = log _(a)(x + 1)$（$a > 0$，$a != 1$）的定义域和值域都是 $[0, 1]$，则 $a =$（ ）
-  #choices([$(1)/(3)$], [$sqrt(2)$], [$(sqrt(2))/(2)$], [$2$], cols: 4)
+若函数 #mi(`f(x) = \log_{a}(x + 1)`)（#mi(`a > 0`)，#mi(`a \neq 1`)）的定义域和值域都是 #mi(`[0, 1]`)，则 #mi(`a =`)（ ）
+  #choices([#mi(`\frac{1}{3}`)], [#mi(`\sqrt{2}`)], [#mi(`\frac{\sqrt{2}}{2}`)], [#mi(`2`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-函数的定义域被题设限定为 $[0,1]$. 当 $a>1$ 时，$f(x)= log _a(x+1)$ 在 $[0,1]$ 上递增，所以值域为 $[f(0),f(1)]=[0, log _(a) 2]$. 要使值域为 $[0,1]$，必须有 $log _(a) 2=1$，从而 $a=2$. 当 $0<a<1$ 时，$f(1)= log _(a) 2<0$，不可能得到值域 $[0,1]$，故选 D.
+函数的定义域被题设限定为 #mi(`[0,1]`). 当 #mi(`a>1`) 时，#mi(`f(x)=\log_{a}(x+1)`) 在 #mi(`[0,1]`) 上递增，所以值域为 #mi(`[f(0),f(1)]=[0,\log_{a}2]`). 要使值域为 #mi(`[0,1]`)，必须有 #mi(`\log_{a}2=1`)，从而 #mi(`a=2`). 当 #mi(`0<a<1`) 时，#mi(`f(1)=\log_{a}2<0`)，不可能得到值域 #mi(`[0,1]`)，故选 D.
 ]
 
 #problem(10)[
-如图，在正三棱柱 $A B C - A_(1)B_(1)C_(1)$ 中已知 $A B = 1$，$D$ 在棱 $B B_(1)$ 上，且 $B D = 1$，若 $A D$ 与平面 $A A_(1)C_(1)C$ 所成的角为 $alpha$，则 $alpha =$（ ）
+如图，在正三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中已知 #mi(`AB = 1`)，#mi(`D`) 在棱 #mi(`BB_{1}`) 上，且 #mi(`BD = 1`)，若 #mi(`AD`) 与平面 #mi(`AA_{1}C_{1}C`) 所成的角为 #mi(`\alpha`)，则 #mi(`\alpha =`)（ ）
 
 
-#align(center)[#image("/papers/2004/img/zhejiang_liberal/q10_fig1.png", width: 3.1cm)]
-  #choices([$(pi)/(3)$], [$(pi)/(4)$], [$arcsin (sqrt(10))/(4)$], [$arcsin (sqrt(6))/(4)$], cols: 2)
+#align(center)[#image("/papers/2004/img/zhejiang_liberal/q10_fig1.png", width: 28%)]
+
+  #choices([#mi(`\frac{\pi}{3}`)], [#mi(`\frac{\pi}{4}`)], [#mi(`\arcsin \frac{\sqrt{10}}{4}`)], [#mi(`\arcsin \frac{\sqrt{6}}{4}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
 取空间直角坐标系，使
-$A=(0,0,0)$，$B=(1,0,0)$，$C=((1)/(2),(sqrt(3))/(2),0)$，并令正三棱柱的侧棱方向为 $z$ 轴. 由 $B D=1$ 得 $D=(1,0,1)$. 平面 $A A_(1) C_(1) C$ 的一个单位法向量可取 $bold(n)=(-(sqrt(3))/(2),(1)/(2),0)$，而 $arrow(A D)=(1,0,1)$. 设直线 $A D$ 与该平面的夹角为 $alpha$，则
-$sin alpha =(|arrow(A D){ dot }bold(n)|)/(|arrow(A D)|)=((sqrt(3))/(2))/(sqrt(2))=(sqrt(6))/(4)$. 因而 $alpha = arcsin (sqrt(6))/(4)$，故选 D.
+
+#mi(`A=(0,0,0)`)，#mi(`B=(1,0,0)`)，#mi(`C=\left(\frac{1}{2},\frac{\sqrt{3}}{2},0\right)`)，并令正三棱柱的侧棱方向为 #mi(`z`) 轴. 由 #mi(`BD=1`) 得 #mi(`D=(1,0,1)`). 平面 #mi(`AA_{1}C_{1}C`) 的一个单位法向量可取 #mi(`\mathbf{n}=\left(-\frac{\sqrt{3}}{2},\frac{1}{2},0\right)`)，而 #mi(`\overrightarrow{AD}=(1,0,1)`). 设直线 #mi(`AD`) 与该平面的夹角为 #mi(`\alpha`)，则
+
+#mi(`\sin\alpha=\frac{|\overrightarrow{AD}\cdot\mathbf{n}|}{|\overrightarrow{AD}|}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{2}}=\frac{\sqrt{6}}{4}`). 因而 #mi(`\alpha=\arcsin\frac{\sqrt{6}}{4}`)，故选 D.
 ]
 
 #problem(11)[
-若椭圆 $(x^(2))/(a^(2))+ (y^(2))/(b^(2))= 1$（$a > b > 0$）的左、右焦点分别为 $F_1$，$F_2$，线段 $F_(1) F_2$ 被点 $((b)/(2), 0)$ 分成 $5:3$ 两段，则此椭圆的离心率为（ ）
-  #choices([$(16)/(17)$], [$(4 sqrt(17))/(17)$], [$(4)/(5)$], [$(2 sqrt(5))/(5)$], cols: 2)
+若椭圆 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)）的左、右焦点分别为 #mi(`F_{1}`)，#mi(`F_{2}`)，线段 #mi(`F_{1}F_{2}`) 被点 #mi(`\left(\frac{b}{2}, 0\right)`) 分成 #mi(`5:3`) 两段，则此椭圆的离心率为（ ）
+  #choices([#mi(`\frac{16}{17}`)], [#mi(`\frac{4\sqrt{17}}{17}`)], [#mi(`\frac{4}{5}`)], [#mi(`\frac{2\sqrt{5}}{5}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-设椭圆的焦点为 $F_1=(-c,0)$，$F_2=(c,0)$，其中 $c>0$. 记点 $R=((b)/(2),0)$. 由于 $R$ 把 $F_(1) F_2$ 分成较长的 $5$ 与较短的 $3$ 两段，有
-$(c+(b)/(2))/(c-(b)/(2))=(5)/(3)$. 解得 $c=2 b$. 又椭圆满足 $a^2=b^2+c^2$，所以 $a^2=5 b^2$，从而
-$e=(c)/(a)=(2 b)/(sqrt(5)b)=(2 sqrt(5))/(5)$，故选 D.
+设椭圆的焦点为 #mi(`F_{1}=(-c,0)`)，#mi(`F_{2}=(c,0)`)，其中 #mi(`c>0`). 记点 #mi(`R=\left(\frac{b}{2},0\right)`). 由于 #mi(`R`) 把 #mi(`F_{1}F_{2}`) 分成较长的 #mi(`5`) 与较短的 #mi(`3`) 两段，有
+
+#mi(`\frac{c+\frac{b}{2}}{c-\frac{b}{2}}=\frac{5}{3}`). 解得 #mi(`c=2b`). 又椭圆满足 #mi(`a^{2}=b^{2}+c^{2}`)，所以 #mi(`a^{2}=5b^{2}`)，从而
+
+#mi(`e=\frac{c}{a}=\frac{2b}{\sqrt{5}b}=\frac{2\sqrt{5}}{5}`)，故选 D.
 ]
 
 #problem(12)[
-若 $f(x)$ 和 $g(x)$ 都是定义在实数集 $RR$ 上的函数，且方程 $x - f[g(x)] = 0$ 有实数解，则 $g[f(x)]$ 不可能是（ ）
-  #choices([$x^(2) + x - (1)/(5)$], [$x^(2) + x + (1)/(5)$], [$x^(2) - (1)/(5)$], [$x^(2) + (1)/(5)$], cols: 2)
+若 #mi(`f(x)`) 和 #mi(`g(x)`) 都是定义在实数集 #mi(`\mathbb{R}`) 上的函数，且方程 #mi(`x - f[g(x)] = 0`) 有实数解，则 #mi(`g[f(x)]`) 不可能是（ ）
+  #choices([#mi(`x^{2}+ x - \frac{1}{5}`)], [#mi(`x^{2}+ x + \frac{1}{5}`)], [#mi(`x^{2}- \frac{1}{5}`)], [#mi(`x^{2}+ \frac{1}{5}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由方程 $x-f(g(x))=0$ 有实数解，存在实数 $x_0$ 使 $f(g(x_0))=x_0$. 令 $y_0=g(x_0)$，则
-$g(f(y_0))=g(x_0)=y_0$. 因此，函数 $g(f(x))$ 必须有实数不动点.
+由方程 #mi(`x-f(g(x))=0`) 有实数解，存在实数 #mi(`x_{0}`) 使 #mi(`f(g(x_{0}))=x_{0}`). 令 #mi(`y_{0}=g(x_{0})`)，则
 
-若选项 B 成立，则不动点方程为 $x^2+x+(1)/(5)=x$，即 $x^2+(1)/(5)=0$，没有实数解. 所以选项 B 不可能，故选 B.
+#mi(`g(f(y_{0}))=g(x_{0})=y_{0}`). 因此，函数 #mi(`g(f(x))`) 必须有实数不动点.
+
+若选项 B 成立，则不动点方程为 #mi(`x^{2}+x+\frac{1}{5}=x`)，即 #mi(`x^{2}+\frac{1}{5}=0`)，没有实数解. 所以选项 B 不可能，故选 B.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-已知 $f(x) = \b e g i n{c a s e s} 1, & x >= 0 ,\\ -1, & x < 0. \e n d{c a s e s}$ 则不等式 $x + (x + 2) dot f(x + 2) <= 5$ 的解集是#blank(){}.
+已知 #mi(`f(x) = \begin{cases}1,&x \ge 0,\\  -1,&x < 0.\end{cases}`) 则不等式 #mi(`x + (x + 2)\cdot f(x + 2) \le 5`) 的解集是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(- oo ,(3)/(2)]$])
+#answer([#mi(`\left(-\infty,\frac{3}{2}\right]`)])
 
 #solution[
-当 $x+2 >= 0$，即 $x >= -2$ 时，$f(x+2)=1$，原不等式化为 $2 x+2 <= 5$，所以 $-2 <= x <= (3)/(2)$. 当 $x+2<0$，即 $x<-2$ 时，$f(x+2)=-1$，原不等式化为 $x-(x+2)=-2 <= 5$，所以该情形下所有 $x<-2$ 都满足不等式. 合并两种情形，解集为 $(- oo ,(3)/(2)]$.
+当 #mi(`x+2\geqslant0`)，即 #mi(`x\ge-2`) 时，#mi(`f(x+2)=1`)，原不等式化为 #mi(`2x+2\leqslant5`)，所以 #mi(`-2\le x\le\frac{3}{2}`). 当 #mi(`x+2<0`)，即 #mi(`x<-2`) 时，#mi(`f(x+2)=-1`)，原不等式化为 #mi(`x-(x+2)=-2\leqslant5`)，所以该情形下所有 #mi(`x<-2`) 都满足不等式. 合并两种情形，解集为 #mi(`\left(-\infty,\frac{3}{2}\right]`).
 ]
 
 #problem(14)[
-已知平面上三点 $A$，$B$，$C$ 满足 $|arrow(A B)| = 3$，$|arrow(B C)| = 4$，$|arrow(C A)| = 5$，则 $arrow(A B)\c d o t a r r o w(B C)+ arrow(B C)\c d o t a r r o w(C A)+ arrow(C A)\c d o t a r r o w(A B)$ 的值等于#blank(){}.
+已知平面上三点 #mi(`A`)，#mi(`B`)，#mi(`C`) 满足 #mi(`\left|\overrightarrow{AB}\right| = 3`)，#mi(`\left|\overrightarrow{BC}\right| = 4`)，#mi(`\left|\overrightarrow{CA}\right| = 5`)，则 #mi(`\overrightarrow{AB}\cdot\overrightarrow{BC}+ \overrightarrow{BC}\cdot\overrightarrow{CA}+ \overrightarrow{CA}\cdot\overrightarrow{AB}`) 的值等于\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-25$])
+#answer([#mi(`-25`)])
 
 #solution[
 由三点首尾相接，有
-$arrow(A B)+arrow(B C)+arrow(C A)=bold(0)$. 两边平方得
-$0=|arrow(A B)|^2+|arrow(B C)|^2+|arrow(C A)|^2+2(arrow(A B)\c d o t a r r o w(B C)+arrow(B C)\c d o t a r r o w(C A)+arrow(C A)\c d o t a r r o w(A B))$.
+
+#mi(`\overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CA}=\mathbf{0}`). 两边平方得
+
+#mi(`0=|\overrightarrow{AB}|^{2}+|\overrightarrow{BC}|^{2}+|\overrightarrow{CA}|^{2}+2\left(\overrightarrow{AB}\cdot\overrightarrow{BC}+\overrightarrow{BC}\cdot\overrightarrow{CA}+\overrightarrow{CA}\cdot\overrightarrow{AB}\right)`).
+
 记
-$S=arrow(A B)\c d o t a r r o w(B C)+arrow(B C)\c d o t a r r o w(C A)+arrow(C A)\c d o t a r r o w(A B)$. 代入三条边长 $3$，$4$，$5$，得到
-$0=3^2+4^2+5^2+2 S=50+2 S$，所以 $S=-25$.
+
+#mi(`S=\overrightarrow{AB}\cdot\overrightarrow{BC}+\overrightarrow{BC}\cdot\overrightarrow{CA}+\overrightarrow{CA}\cdot\overrightarrow{AB}`). 代入三条边长 #mi(`3`)，#mi(`4`)，#mi(`5`)，得到
+
+#mi(`0=3^{2}+4^{2}+5^{2}+2S=50+2S`)，所以 #mi(`S=-25`).
 ]
 
 #problem(15)[
-已知平面 $alpha bot beta$，$alpha inter beta = l$，$P$ 是空间一点，且 $P$ 到 $alpha$，$beta$ 的距离分别是 $1$，$2$，则点 $P$ 到 $l$ 的距离为#blank(){}.
+已知平面 #mi(`\alpha \perp \beta`)，#mi(`\alpha \cap \beta = l`)，#mi(`P`) 是空间一点，且 #mi(`P`) 到 #mi(`\alpha`)，#mi(`\beta`) 的距离分别是 #mi(`1`)，#mi(`2`)，则点 #mi(`P`) 到 #mi(`l`) 的距离为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$sqrt(5)$])
+#answer([#mi(`\sqrt{5}`)])
 
 #solution[
-在过点 $P$ 且垂直于交线 $l$ 的平面内，平面 $alpha$ 与 $beta$ 截得两条互相垂直的直线，它们的交点为该截平面与 $l$ 的交点. 点 $P$ 到这两条直线的距离分别为 $1$，$2$，因此点 $P$ 到交点的距离为
-$sqrt(1^2+2^2)=sqrt(5)$.
+在过点 #mi(`P`) 且垂直于交线 #mi(`l`) 的平面内，平面 #mi(`\alpha`) 与 #mi(`\beta`) 截得两条互相垂直的直线，它们的交点为该截平面与 #mi(`l`) 的交点. 点 #mi(`P`) 到这两条直线的距离分别为 #mi(`1`)，#mi(`2`)，因此点 #mi(`P`) 到交点的距离为
+
+#mi(`\sqrt{1^{2}+2^{2}}=\sqrt{5}`).
 ]
 
 #problem(16)[
-设坐标平面内有一个质点从原点出发，沿 $x$ 轴跳动. 每次向正方向或负方向跳 $1$ 个单位，经过 $5$ 次跳动质点落在点 $(3, 0)$（允许重复过此点）处，则质点不同的运动方法共有#blank(){} 种.
+设坐标平面内有一个质点从原点出发，沿 #mi(`x`) 轴跳动. 每次向正方向或负方向跳 #mi(`1`) 个单位，经过 #mi(`5`) 次跳动质点落在点 #mi(`(3, 0)`)（允许重复过此点）处，则质点不同的运动方法共有\underline{\hspace{2.5em}} 种.
 ]
 
-#answer([$5$])
+#answer([#mi(`5`)])
 
 #solution[
-设向正方向跳了 $r$ 次，向负方向跳了 $5-r$ 次. 终点横坐标为 $3$，故
-$r-(5-r)=3$，解得 $r=4$. 只需从 $5$ 次跳动中选出其中一次向负方向跳，便确定一种运动方法，因此方法数为 $C_5^1=5$.
+设向正方向跳了 #mi(`r`) 次，向负方向跳了 #mi(`5-r`) 次. 终点横坐标为 #mi(`3`)，故
+
+#mi(`r-(5-r)=3`)，解得 #mi(`r=4`). 只需从 #mi(`5`) 次跳动中选出其中一次向负方向跳，便确定一种运动方法，因此方法数为 #mi(`\mathrm{C}_{5}^{1}=5`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知数列 $\{a_n\}$ 的前 $n$ 项和为 $S_n$，$S_n = (1)/(3)(a_n - 1)$（$n in NN ""^*$）.
+已知数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)，#mi(`S_{n} = \frac{1}{3}(a_{n} - 1)`)（#mi(`n \in \mathbb{N}^{*}`)）.
 
 
-+ (1) 求 $a_1$，$a_2$；
-+ (2) 求证数列 $\{a_n\}$ 是等比数列.
++ (1)
 ]
 
 #solution[
-+ (1) 取 $n=1$，由 $S_1=a_1$ 得 $a_1=(1)/(3)(a_1-1)$，所以 $a_1=-(1)/(2)$. 取 $n=2$，有 $a_1+a_2=(1)/(3)(a_2-1)$，代入 $a_1=-(1)/(2)$ 得 $a_2=(1)/(4)$.
-+ (2) 当 $n >= 2$ 时，将相邻两式相减，得
-$S_n-S_(n-1)=a_n=(1)/(3)(a_n-a_(n-1))$. 因而 $2 a_n=-a_(n-1)$，即 $a_n=-(1)/(2)a_(n-1)$. 因此从 $a_1=-(1)/(2)$ 出发，数列的每一项都是前一项的 $-(1)/(2)$ 倍，所以数列 $\{a_n\}$ 是等比数列，公比为 $-(1)/(2)$.
++ (1)
 ]
 
 #problem(18)[
-在 $triangle A B C$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，且 $cos A = (1)/(3)$.
+在 #mi(`\triangle ABC`) 中，角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对的边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，且 #mi(`\cos A = \frac{1}{3}`).
 
 
-+ (1) 求 $sin ""^(2)(B + C)/(2)+ cos 2 A$ 的值；
-+ (2) 若 $a = sqrt(3)$，求 $b c$ 的最大值.
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $B+C= pi -A$，所以
-$sin ""^2(B+C)/(2)= sin ""^2((pi)/(2)-(A)/(2))= cos ""^2(A)/(2)=(1+ cos A)/(2)=(2)/(3)$. 又 $cos 2 A=2 cos ""^(2) A-1=(2)/(9)-1=-(7)/(9)$，故
-$sin ""^2(B+C)/(2)+ cos 2 A=(2)/(3)-(7)/(9)=-(1)/(9)$.
-+ (2) 由余弦定理，$a^2=b^2+c^2-2 b c cos A=b^2+c^2-(2)/(3)b c$. 当 $a=sqrt(3)$ 时，
-$3=b^2+c^2-(2)/(3)b c >= 2 b c-(2)/(3)b c=(4)/(3)b c$，所以 $b c <= (9)/(4)$. 当 $b=c=(3)/(2)$ 时等号成立，且满足题设三角形条件，因此 $b c$ 的最大值为 $(9)/(4)$.
++ (1)
 ]
 
 #problem(19)[
-如图，已知正方形 $A B C D$ 和矩形 $A C E F$ 所在的平面互相垂直，$A B = sqrt(2)$，$A F = 1$，$M$ 是线段 $E F$ 的中点.
+如图，已知正方形 #mi(`ABCD`) 和矩形 #mi(`ACEF`) 所在的平面互相垂直，#mi(`AB = \sqrt{2}`)，#mi(`AF = 1`)，#mi(`M`) 是线段 #mi(`EF`) 的中点.
 
 
-+ (1) 求证：$A M parallel$ 平面 $B D E$；
-+ (2) 求证：$A M bot$ 平面 $B D F$；
-+ (3) 求二面角 $A - D F - B$ 的大小.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2004/img/zhejiang_liberal/q19_fig1.png", width: 4.0cm)]
+
+#align(center)[#image("/papers/2004/img/zhejiang_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-取空间直角坐标系，使正方形所在平面为 $z=0$，并设
-$A=(0,0,0)$，$B=(sqrt(2),0,0)$，$C=(sqrt(2),sqrt(2),0)$，$D=(0,sqrt(2),0)$. 由于矩形 $A C E F$ 与正方形所在平面垂直，且 $A F=1$，可取
-$E=(sqrt(2),sqrt(2),1)$，$F=(0,0,1)$，从而 $M=((sqrt(2))/(2),(sqrt(2))/(2),1)$.
+取空间直角坐标系，使正方形所在平面为 #mi(`z=0`)，并设
+
+#mi(`A=(0,0,0)`)，#mi(`B=(\sqrt{2},0,0)`)，#mi(`C=(\sqrt{2},\sqrt{2},0)`)，#mi(`D=(0,\sqrt{2},0)`). 由于矩形 #mi(`ACEF`) 与正方形所在平面垂直，且 #mi(`AF=1`)，可取
+
+#mi(`E=(\sqrt{2},\sqrt{2},1)`)，#mi(`F=(0,0,1)`)，从而 #mi(`M=\left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2},1\right)`).
 
 
-+ (1) $arrow(A M)=((sqrt(2))/(2),(sqrt(2))/(2),1)$. 平面 $B D E$ 内的两条相交直线可取 $B D$，$B E$，其方向向量为
-$arrow(B D)=(-sqrt(2),sqrt(2),0)$，$arrow(B E)=(0,sqrt(2),1)$. 因而平面 $B D E$ 的一个法向量为
-$arrow(B D)\t i m e s a r r o w(B E)=(sqrt(2),sqrt(2),-2)$. 计算得
-$arrow(A M) dot (sqrt(2),sqrt(2),-2)=1+1-2=0$. 又
-$(A-B) dot (sqrt(2),sqrt(2),-2)=-2\n e q0$，所以 $A$ 不在平面 $B D E$ 内，故 $A M parallel$ 平面 $B D E$.
-+ (2) 平面 $B D F$ 内的两条相交直线可取 $B D$，$B F$，其中 $arrow(B F)=(-sqrt(2),0,1)$. 因而平面 $B D F$ 的一个法向量为
-$arrow(B D)\t i m e s a r r o w(B F)=(sqrt(2),sqrt(2),2)=2 arrow(A M)$. 所以 $A M bot$ 平面 $B D F$.
-+ (3) 平面 $A D F$ 的一个法向量为 $(1,0,0)$，平面 $B D F$ 的一个法向量为 $(sqrt(2),sqrt(2),2)$. 设二面角 $A-D F-B$ 为 $theta$，则
-$cos theta =(|(1,0,0) dot (sqrt(2),sqrt(2),2)|)/(sqrt(2+2+4))=(1)/(2)$. 因而 $theta =(pi)/(3)$.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-某地区有 $5$ 个工厂，由于用电紧缺，规定每个工厂在一周内必须选择某一天停电（选哪一天是等可能的）. 假定工厂之间的选择互不影响.
+某地区有 #mi(`5`) 个工厂，由于用电紧缺，规定每个工厂在一周内必须选择某一天停电（选哪一天是等可能的）. 假定工厂之间的选择互不影响.
 
 
-+ (1) 求 $5$ 个工厂均选择星期日停电的概率；
-+ (2) 求至少有两个工厂选择同一天停电的概率.
++ (1)
 ]
 
 #solution[
-+ (1) 每个工厂有 $7$ 种等可能选择，所有选择的总数为 $7^5$. 其中五个工厂均选择星期日的选择只有一种，所以所求概率为 $(1)/(7^5)$.
-+ (2) 先求五个工厂选择不同日期的概率. 五个工厂依次选择不同日期的方案数为 $7 dot 6 dot 5 dot 4 dot 3$，所以至少有两个工厂选择同一天的概率为
-$1-(7 dot 6 dot 5 dot 4 dot 3)/(7^5)=1-(2520)/(16807)=(2041)/(2401)$.
++ (1)
 ]
 
 #problem(21)[
-已知 $a$ 为实数，$f(x) = (x^(2) - 4)(x - a)$.
+已知 #mi(`a`) 为实数，#mi(`f(x) = (x^{2}- 4)(x - a)`).
 
 
-+ (1) 求导数 $f'(x)$；
-+ (2) 若 $f'(-1) = 0$，求 $f(x)$ 在 $[-2, 2]$ 上的最大值和最小值；
-+ (3) 若 $f(x)$ 在 $(- oo , -2]$ 和 $[2, + oo )$ 上都是递增的，求 $a$ 的取值范围.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 展开得 $f(x)=x^3-a x^2-4 x+4 a$，所以 $f'(x)=3 x^2-2 a x-4$.
-+ (2) 由 $f'(-1)=0$，得 $3+2 a-4=0$，所以 $a=(1)/(2)$. 此时
-$f(x)=x^3-(1)/(2)x^2-4 x+2$，且 $f'(x)=3 x^2-x-4=(3 x-4)(x+1)$. 区间 $[-2,2]$ 内的可能极值点为 $-2$，$-1$，$(4)/(3)$，$2$. 逐一计算得
-$f(-2)=0$，$f(-1)=(9)/(2)$，$f((4)/(3))=-(50)/(27)$，$f(2)=0$. 因此最大值为 $(9)/(2)$，最小值为 $-(50)/(27)$.
-+ (3) 要使函数在给定两个区间上递增，需使 $f'(x)=3 x^2-2 a x-4 >= 0$ 对 $x <= -2$ 及 $x >= 2$ 均成立. 令
-$h(x)=(3 x^2-4)/(2 x)=(3)/(2)x-(2)/(x)$，则 $h'(x)=(3)/(2)+(2)/(x^2)>0$.
-
-当 $x >= 2$ 时，$f'(x) >= 0$ 等价于 $a <= h(x)$. 由于 $h$ 在 $[2,+ oo )$ 上递增，故只需 $a <= h(2)=2$. 当 $x <= -2$ 时，除以负数 $2 x$ 后不等号反向，$f'(x) >= 0$ 等价于 $a >= h(x)$. 由于 $h$ 在 $(- oo ,-2]$ 上递增，故只需 $a >= h(-2)=-2$. 综合得 $-2 <= a <= 2$.
++ (1) 
++ (2)
 ]
 
 #problem(22)[
-已知双曲线的中心在原点，右顶点为 $A(1, 0)$，点 $P$，$Q$ 在双曲线的右支上，点 $M(m, 0)$ 到直线 $A P$ 的距离为 $1$.
+已知双曲线的中心在原点，右顶点为 #mi(`A(1, 0)`)，点 #mi(`P`)，#mi(`Q`) 在双曲线的右支上，点 #mi(`M(m, 0)`) 到直线 #mi(`AP`) 的距离为 #mi(`1`).
 
 
-+ (1) 若直线 $A P$ 的斜率为 $k$，且 $|k| in [(sqrt(3))/(3), sqrt(3)]$，求实数 $m$ 的取值范围；
-+ (2) 当 $m = sqrt(2)+ 1$ 时，$triangle A P Q$ 的内心恰好是点 $M$，求此双曲线的方程.
++ (1)
 ]
 
 #solution[
-+ (1) 直线 $A P$ 的方程为 $y=k(x-1)$，即 $k x-y-k=0$. 点 $M(m,0)$ 到该直线的距离为
-$(|k||m-1|)/(sqrt(k^2+1))=1$，所以
-$|m-1|=(sqrt(k^2+1))/(|k|)=sqrt(1+(1)/(k^2))$.
-令 $t=|k|$，则 $t in [(sqrt(3))/(3),sqrt(3)]$，且 $sqrt(1+t^(-2))$ 随 $t$ 增大而减小. 因此
-$(2 sqrt(3))/(3) <= |m-1| <= 2$. 从而
-$m in [-1,1-(2 sqrt(3))/(3)] union [1+(2 sqrt(3))/(3),3]$.
-+ (2) 设双曲线方程为 $x^2-(y^2)/(b^2)=1$，其中 $b>0$. 因为 $M$ 是三角形 $A P Q$ 的内心，$A M$ 是顶点 $A$ 的角平分线. 又 $A$，$M$ 均在 $x$ 轴上，所以 $A P$，$A Q$ 关于 $x$ 轴对称. 双曲线也关于 $x$ 轴对称，故可设
-$P=(x_0,y_0)$，$Q=(x_0,-y_0)$，其中 $x_0>1$，$y_0>0$.
-
-$P Q$ 为直线 $x=x_0$. 由于 $M$ 是三角形 $A P Q$ 的内点，且 $A=(1,0)$，故 $1<m<x_0$. 内心到三边距离相等，点 $M$ 到直线 $A P$ 的距离为 $1$，所以 $x_0-m=1$，从而 $x_0=m+1=2+sqrt(2)$. 设直线 $A P$ 的斜率为正数 $k$，则
-$(k(m-1))/(sqrt(k^2+1))=1$. 代入 $m-1=sqrt(2)$，得 $(sqrt(2){k})/(sqrt(k^2+1))=1$，从而 $k^2=1$. 由于 $k>0$，故 $k=1$，进而 $y_0=k(x_0-1)=1+sqrt(2)$.
-
-把点 $P=(2+sqrt(2),1+sqrt(2))$ 代入双曲线，得
-$b^2=((1+sqrt(2))^2)/((2+sqrt(2))^2-1)=(3+2 sqrt(2))/(5+4 sqrt(2))=(1+2 sqrt(2))/(7)=(1)/(2 sqrt(2)-1)$. 因此双曲线方程为
-$x^2-(2 sqrt(2)-1)y^2=1$. 此时 $x_0>1$，且 $y_0>0$，故 $P$，$Q$ 确在该双曲线的右支上；由对称性，点 $M$ 到 $A P$，$A Q$，$P Q$ 的距离均为 $1$，条件相容.
++ (1)
 ]
 

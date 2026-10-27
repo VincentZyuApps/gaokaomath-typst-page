@@ -1,8 +1,131 @@
 {
-  "title": "2014年普通高等学校招生全国统一考试",
-  "subtitle": "2014年天津卷（理）",
   "year": "2014",
   "slug": "tianjin_science",
+  "title": "2014年天津卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$-\\frac{17}{7}+ \\frac{25}{7}\\mathrm{i}$"
           ],
           "answer": "A",
-          "solution": "<p>分子、分母同乘以分母的共轭复数，得</p>\n$$\n\\frac{7+\\mathrm{i}}{3+4\\mathrm{i}}=\\frac{(7+\\mathrm{i})(3-4\\mathrm{i})}{(3+4\\mathrm{i})(3-4\\mathrm{i})}=\\frac{25-25\\mathrm{i}}{25}=1-\\mathrm{i}\n$$\n<p>因此答案为 A.</p>"
+          "solution": "<p>分子、分母同乘以分母的共轭复数，得</p>\n$$\n\\frac{7+\\mathrm{i}}{3+4\\mathrm{i}}=\\frac{(7+\\mathrm{i})(3-4\\mathrm{i})}{(3+4\\mathrm{i})(3-4\\mathrm{i})}=\\frac{25-25\\mathrm{i}}{25}=1-\\mathrm{i}\n$$\n<p>因此答案为 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,11 +154,13 @@
             "$5$"
           ],
           "answer": "B",
-          "solution": "约束条件等价于 $x\\geqslant2-y$，$x\\le y+2$，$y\\geqslant1$. 对于固定的 $y$，目标函数 $z=x+2y$ 随 $x$ 增大而增大，所以取 $x=2-y$ 时 $z$ 最小. 此时 $z=2-y+2y=2+y\\geqslant3$. 当 $y=1$，$x=1$ 时各约束均成立，且 $z=3$，故最小值为 $3$，答案为 B."
+          "solution": "约束条件等价于 $x\\geqslant2-y$，$x\\le y+2$，$y\\geqslant1$. 对于固定的 $y$，目标函数 $z=x+2y$ 随 $x$ 增大而增大，所以取 $x=2-y$ 时 $z$ 最小. 此时 $z=2-y+2y=2+y\\geqslant3$. 当 $y=1$，$x=1$ 时各约束均成立，且 $z=3$，故最小值为 $3$，答案为 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
-          "body": "<p>阅读下面的程序框图，运行相应的程序，输出的 $S$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>阅读下面的程序框图，运行相应的程序，输出的 $S$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/tianjin_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$15$",
             "$105$",
@@ -41,7 +168,9 @@
             "$945$"
           ],
           "answer": "B",
-          "solution": "初始时 $S=1$，$i=1$. 第一次循环中 $T=2\\times1+1=3$，所以 $S=3$，随后 $i=2$；第二次循环中 $T=5$，所以 $S=15$，随后 $i=3$；第三次循环中 $T=7$，所以 $S=105$，随后 $i=4$. 此时满足 $i\\geqslant4$，程序输出 $S=105$，答案为 B."
+          "solution": "初始时 $S=1$，$i=1$. 第一次循环中 $T=2\\times1+1=3$，所以 $S=3$，随后 $i=2$；第二次循环中 $T=5$，所以 $S=15$，随后 $i=3$；第三次循环中 $T=7$，所以 $S=105$，随后 $i=4$. 此时满足 $i\\geqslant4$，程序输出 $S=105$，答案为 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +182,9 @@
             "$(-\\infty, -2)$"
           ],
           "answer": "D",
-          "solution": "由对数真数为正，得 $x^{2}-4>0$，所以定义域为 $(-\\infty,-2)\\cup(2,+\\infty)$. 因为底数 $\\frac{1}{2}$ 小于 $1$，函数 $y=\\log_{\\frac{1}{2}}u$ 是减函数；而 $u=x^{2}-4$ 在 $(-\\infty,-2)$ 上减，在 $(2,+\\infty)$ 上增. 因此复合函数在 $(-\\infty,-2)$ 上增，在 $(2,+\\infty)$ 上减，单调递增区间为 $(-\\infty,-2)$，答案为 D."
+          "solution": "由对数真数为正，得 $x^{2}-4>0$，所以定义域为 $(-\\infty,-2)\\cup(2,+\\infty)$. 因为底数 $\\frac{1}{2}$ 小于 $1$，函数 $y=\\log_{\\frac{1}{2}}u$ 是减函数；而 $u=x^{2}-4$ 在 $(-\\infty,-2)$ 上减，在 $(2,+\\infty)$ 上增. 因此复合函数在 $(-\\infty,-2)$ 上增，在 $(2,+\\infty)$ 上减，单调递增区间为 $(-\\infty,-2)$，答案为 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,11 +196,13 @@
             "$\\frac{3x^{2}}{100}- \\frac{3y^{2}}{25}= 1$"
           ],
           "answer": "A",
-          "solution": "双曲线的渐近线斜率为 $\\pm\\frac{b}{a}$. 由一条渐近线平行于 $y=2x+10$，得 $\\frac{b}{a}=2$，即 $b=2a$. 设半焦距为 $c$，则 $c^{2}=a^{2}+b^{2}=5a^{2}$. 双曲线的焦点为 $(\\pm c,0)$，在直线 $y=2x+10$ 上的焦点必须满足 $0=2x+10$，故该焦点为 $(-5,0)$，从而 $c=5$. 因此 $5a^{2}=25$，得 $a^{2}=5$，$b^{2}=20$. 双曲线方程为 $\\frac{x^{2}}{5}-\\frac{y^{2}}{20}=1$，答案为 A."
+          "solution": "双曲线的渐近线斜率为 $\\pm\\frac{b}{a}$. 由一条渐近线平行于 $y=2x+10$，得 $\\frac{b}{a}=2$，即 $b=2a$. 设半焦距为 $c$，则 $c^{2}=a^{2}+b^{2}=5a^{2}$. 双曲线的焦点为 $(\\pm c,0)$，在直线 $y=2x+10$ 上的焦点必须满足 $0=2x+10$，故该焦点为 $(-5,0)$，从而 $c=5$. 因此 $5a^{2}=25$，得 $a^{2}=5$，$b^{2}=20$. 双曲线方程为 $\\frac{x^{2}}{5}-\\frac{y^{2}}{20}=1$，答案为 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
-          "body": "<p>如图，$\\triangle ABC$ 是圆的内接三角形，$\\angle BAC$ 的平分线交圆于点 $D$，交 $BC$ 于 $E$，过点 $B$ 的圆的切线与 $AD$ 的延长线交于点 $F$，在上述条件下，给出下列四个结论：</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>$BD$ 平分 $\\angle CBF$；</p></li><li><p>$FB^{2}= FD \\cdot FA$；</p></li><li><p>$AE \\cdot CE = BE \\cdot DE$；</p></li><li><p>$AF \\cdot BD = AB \\cdot BF$.</p></li></ol><p>则所有正确结论的序号是（ ）</p>",
+          "body": "<p>如图，$\\triangle ABC$ 是圆的内接三角形，$\\angle BAC$ 的平分线交圆于点 $D$，交 $BC$ 于 $E$，过点 $B$ 的圆的切线与 $AD$ 的延长线交于点 $F$，在上述条件下，给出下列四个结论：</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/tianjin_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>$BD$ 平分 $\\angle CBF$；</p></li><li><p>$FB^{2}= FD \\cdot FA$；</p></li><li><p>$AE \\cdot CE = BE \\cdot DE$；</p></li><li><p>$AF \\cdot BD = AB \\cdot BF$.</p></li></ol><p>则所有正确结论的序号是（ ）</p>",
           "choices": [
             "①②",
             "③④",
@@ -77,7 +210,9 @@
             "①②④"
           ],
           "answer": "D",
-          "solution": "<p>令 $\\alpha=\\angle BAD=\\angle DAC$.</p><ol class=\"enumerate\"><li><p>由圆周角定理，$\\angle CBD=\\angle CAD=\\alpha$. 由切线与弦所夹的角等于弦所对的圆周角，$\\angle DBF=\\angle BAD=\\alpha$. 因而 $BD$ 平分 $\\angle CBF$.</p></li><li><p>直线 $FAD$ 是过点 $F$ 的割线，且 $FB$ 是切线. 由切割线定理，$FB^{2}=FA\\cdot FD$，所以结论 ② 正确.</p></li><li><p>$AD$ 与 $BC$ 交于 $E$，由相交弦定理，实际有 $AE\\cdot DE=BE\\cdot CE$，并非题给的 $AE\\cdot CE=BE\\cdot DE$. 例如在等边三角形的情形，$E$ 是 $BC$ 的中点，而 $D$ 是弧 $BC$ 的中点；若圆半径为 $R$，则 $AE=\\frac{3R}{2}$，$DE=\\frac{R}{2}$，且 $BE=CE$，故结论 ③ 不成立.</p></li><li><p>设 $\\delta=\\angle ADB$. 由切线与弦所夹的角定理，$\\sin\\angle ABF=\\sin\\delta$，又因 $A$，$D$，$F$ 共线，$\\angle BAF=\\angle BAD=\\alpha$. 在三角形 $ABF$ 和 $ABD$ 中分别使用正弦定理，得</p>\n$$\n\\frac{AF}{BF}=\\frac{\\sin\\angle ABF}{\\sin\\angle BAF}=\\frac{\\sin\\delta}{\\sin\\alpha}=\\frac{AB}{BD}\n$$\n<p>因此 $AF\\cdot BD=AB\\cdot BF$，结论 ④ 正确.</p></li></ol><p>正确结论为 ①②④，答案为 D.</p>"
+          "solution": "<p>令 $\\alpha=\\angle BAD=\\angle DAC$.</p><ol class=\"enumerate\"><li><p>由圆周角定理，$\\angle CBD=\\angle CAD=\\alpha$. 由切线与弦所夹的角等于弦所对的圆周角，$\\angle DBF=\\angle BAD=\\alpha$. 因而 $BD$ 平分 $\\angle CBF$.</p></li><li><p>直线 $FAD$ 是过点 $F$ 的割线，且 $FB$ 是切线. 由切割线定理，$FB^{2}=FA\\cdot FD$，所以结论 ② 正确.</p></li><li><p>$AD$ 与 $BC$ 交于 $E$，由相交弦定理，实际有 $AE\\cdot DE=BE\\cdot CE$，并非题给的 $AE\\cdot CE=BE\\cdot DE$. 例如在等边三角形的情形，$E$ 是 $BC$ 的中点，而 $D$ 是弧 $BC$ 的中点；若圆半径为 $R$，则 $AE=\\frac{3R}{2}$，$DE=\\frac{R}{2}$，且 $BE=CE$，故结论 ③ 不成立.</p></li><li><p>设 $\\delta=\\angle ADB$. 由切线与弦所夹的角定理，$\\sin\\angle ABF=\\sin\\delta$，又因 $A$，$D$，$F$ 共线，$\\angle BAF=\\angle BAD=\\alpha$. 在三角形 $ABF$ 和 $ABD$ 中分别使用正弦定理，得</p>\n$$\n\\frac{AF}{BF}=\\frac{\\sin\\angle ABF}{\\sin\\angle BAF}=\\frac{\\sin\\delta}{\\sin\\alpha}=\\frac{AB}{BD}\n$$\n<p>因此 $AF\\cdot BD=AB\\cdot BF$，结论 ④ 正确.</p></li></ol><p>正确结论为 ①②④，答案为 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +224,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "C",
-          "solution": "函数 $g(t)=t|t|$ 在 $[0,+\\infty)$ 上为 $t^{2}$，在 $(-\\infty,0)$ 上为 $-t^{2}$，两段都严格递增，且在 $0$ 处连续，因此 $g$ 在 $\\mathbb{R}$ 上严格递增. 所以 $a>b$ 当且仅当 $g(a)>g(b)$，即 $a|a|>b|b|$. 因而“$a>b$”是“$a|a|>b|b|$”的充要条件，答案为 C."
+          "solution": "函数 $g(t)=t|t|$ 在 $[0,+\\infty)$ 上为 $t^{2}$，在 $(-\\infty,0)$ 上为 $-t^{2}$，两段都严格递增，且在 $0$ 处连续，因此 $g$ 在 $\\mathbb{R}$ 上严格递增. 所以 $a>b$ 当且仅当 $g(a)>g(b)$，即 $a|a|>b|b|$. 因而“$a>b$”是“$a|a|>b|b|$”的充要条件，答案为 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +238,9 @@
             "$\\frac{7}{12}$"
           ],
           "answer": "C",
-          "solution": "<p>设 $\\mathbf{u}=\\overrightarrow{AB}$，$\\mathbf{v}=\\overrightarrow{AD}$. 由菱形边长和夹角，$\\mathbf{u}\\cdot\\mathbf{u}=\\mathbf{v}\\cdot\\mathbf{v}=4$，$\\mathbf{u}\\cdot\\mathbf{v}=4\\cos120^{\\circ}=-2$.</p><p>由点 $E$，$F$ 的位置关系，有 $\\overrightarrow{AE}=\\mathbf{u}+\\lambda\\mathbf{v}$，$\\overrightarrow{AF}=\\mathbf{v}+\\mu\\mathbf{u}$，$\\overrightarrow{CE}=(\\lambda-1)\\mathbf{v}$，$\\overrightarrow{CF}=(\\mu-1)\\mathbf{u}$. 因而两个数量积条件分别给出</p>\n$$\n4\\lambda+4\\mu-2\\lambda\\mu-2=1\n$$\n\n$$\n-2(\\lambda-1)(\\mu-1)=-\\frac{2}{3}\n$$\n<p>令 $s=\\lambda+\\mu$，$p=\\lambda\\mu$，上式化为 $4s-2p=3$，$p-s=-\\frac{2}{3}$. 两式联立消去 $p$，得</p>\n$$\ns=\\frac{5}{6}\n$$\n<p>进一步由 $p=s-\\frac{2}{3}=\\frac{1}{6}$，知 $\\lambda$，$\\mu$ 是方程</p>\n$$\nt^{2}-\\frac{5}{6}t+\\frac{1}{6}=0\n$$\n<p>的两个根，即 $\\lambda$，$\\mu$ 为 $\\frac{1}{2}$，$\\frac{1}{3}$（次序不定），均确实属于区间 $[0,1]$. 因而 $\\lambda+\\mu=\\frac{5}{6}$，答案为 C.</p>"
+          "solution": "<p>设 $\\mathbf{u}=\\overrightarrow{AB}$，$\\mathbf{v}=\\overrightarrow{AD}$. 由菱形边长和夹角，$\\mathbf{u}\\cdot\\mathbf{u}=\\mathbf{v}\\cdot\\mathbf{v}=4$，$\\mathbf{u}\\cdot\\mathbf{v}=4\\cos120^{\\circ}=-2$.</p><p>由点 $E$，$F$ 的位置关系，有 $\\overrightarrow{AE}=\\mathbf{u}+\\lambda\\mathbf{v}$，$\\overrightarrow{AF}=\\mathbf{v}+\\mu\\mathbf{u}$，$\\overrightarrow{CE}=(\\lambda-1)\\mathbf{v}$，$\\overrightarrow{CF}=(\\mu-1)\\mathbf{u}$. 因而两个数量积条件分别给出</p>\n$$\n4\\lambda+4\\mu-2\\lambda\\mu-2=1\n$$\n\n$$\n-2(\\lambda-1)(\\mu-1)=-\\frac{2}{3}\n$$\n<p>令 $s=\\lambda+\\mu$，$p=\\lambda\\mu$，上式化为 $4s-2p=3$，$p-s=-\\frac{2}{3}$. 两式联立消去 $p$，得</p>\n$$\ns=\\frac{5}{6}\n$$\n<p>进一步由 $p=s-\\frac{2}{3}=\\frac{1}{6}$，知 $\\lambda$，$\\mu$ 是方程</p>\n$$\nt^{2}-\\frac{5}{6}t+\\frac{1}{6}=0\n$$\n<p>的两个根，即 $\\lambda$，$\\mu$ 为 $\\frac{1}{2}$，$\\frac{1}{3}$（次序不定），均确实属于区间 $[0,1]$. 因而 $\\lambda+\\mu=\\frac{5}{6}$，答案为 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -111,44 +250,56 @@
         {
           "num": 9,
           "body": "某大学为了解在校本科生对参加某项社会实践活动的意向，拟采用分层抽样的方法，从该校四个年级的本科生中抽取一个容量为 $300$ 的样本进行调查. 已知该校一年级，二年级，三年级，四年级的本科生人数之比为 $4:5:5:6$，则应从一年级本科生中抽取<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 名学生.",
-          "choices": null,
-          "answer": "$60$",
-          "solution": "<p>四个年级本科生人数的总份数为 $4+5+5+6=20$. 按分层抽样，各年级抽取人数与该年级人数成正比，因此一年级应抽取</p>\n$$\n300\\times\\frac{4}{20}=60\n$$\n<p>名学生.</p>"
+          "choices": [],
+          "answer": "\\(60\\)",
+          "solution": "<p>四个年级本科生人数的总份数为 $4+5+5+6=20$. 按分层抽样，各年级抽取人数与该年级人数成正比，因此一年级应抽取</p>\n$$\n300\\times\\frac{4}{20}=60\n$$\n<p>名学生.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
-          "body": "<p>已知一个几何体的三视图如图所示（单位：$\\mathrm{m}$），则该几何体的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\mathrm{m}^{3}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{20\\pi}{3}$",
-          "solution": "<p>由正视图和侧视图可知，几何体下部是底面半径为 $1$，高为 $4$ 的圆柱，上部是底面半径为 $2$，高为 $2$ 的圆锥；俯视图中的外圆和内圆分别对应半径 $2$ 和半径 $1$. 因此几何体的体积为</p>\n$$\nV=\\pi\\cdot1^{2}\\cdot4+\\frac{1}{3}\\pi\\cdot2^{2}\\cdot2=4\\pi+\\frac{8\\pi}{3}=\\frac{20\\pi}{3}\\ \\mathrm{m}^{3}\n$$"
+          "body": "<p>已知一个几何体的三视图如图所示（单位：$\\mathrm{m}$），则该几何体的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\mathrm{m}^{3}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/tianjin_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{20\\pi}{3}\\)",
+          "solution": "<p>由正视图和侧视图可知，几何体下部是底面半径为 $1$，高为 $4$ 的圆柱，上部是底面半径为 $2$，高为 $2$ 的圆锥；俯视图中的外圆和内圆分别对应半径 $2$ 和半径 $1$. 因此几何体的体积为</p>\n$$\nV=\\pi\\cdot1^{2}\\cdot4+\\frac{1}{3}\\pi\\cdot2^{2}\\cdot2=4\\pi+\\frac{8\\pi}{3}=\\frac{20\\pi}{3}\\ \\mathrm{m}^{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "设 $\\{a_{n}\\}$ 是首项为 $a_{1}$，公差为 $-1$ 的等差数列，$S_{n}$ 为其前 $n$ 项和. 若 $S_{1}$，$S_{2}$，$S_{4}$ 成等比数列，则 $a_{1}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-\\frac{1}{2}$",
-          "solution": "<p>由等差数列通项公式，$a_{n}=a_{1}-(n-1)$. 所以</p><p>$S_{1}=a_{1}$，$S_{2}=a_{1}+(a_{1}-1)=2a_{1}-1$，$S_{4}=a_{1}+(a_{1}-1)+(a_{1}-2)+(a_{1}-3)=4a_{1}-6$. 由于 $S_{1}$，$S_{2}$，$S_{4}$ 成等比数列，有</p>\n$$\n(2a_{1}-1)^{2}=a_{1}(4a_{1}-6)\n$$\n<p>展开并化简得 $4a_{1}^{2}-4a_{1}+1=4a_{1}^{2}-6a_{1}$，所以 $2a_{1}+1=0$，即 $a_{1}=-\\frac{1}{2}$.</p>"
+          "choices": [],
+          "answer": "\\(-\\frac{1}{2}\\)",
+          "solution": "<p>由等差数列通项公式，$a_{n}=a_{1}-(n-1)$. 所以</p><p>$S_{1}=a_{1}$，$S_{2}=a_{1}+(a_{1}-1)=2a_{1}-1$，$S_{4}=a_{1}+(a_{1}-1)+(a_{1}-2)+(a_{1}-3)=4a_{1}-6$. 由于 $S_{1}$，$S_{2}$，$S_{4}$ 成等比数列，有</p>\n$$\n(2a_{1}-1)^{2}=a_{1}(4a_{1}-6)\n$$\n<p>展开并化简得 $4a_{1}^{2}-4a_{1}+1=4a_{1}^{2}-6a_{1}$，所以 $2a_{1}+1=0$，即 $a_{1}=-\\frac{1}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别是 $a$，$b$，$c$，已知 $b - c = \\frac{1}{4}a$，$2\\sin B = 3\\sin C$，则 $\\cos A$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-\\frac{1}{4}$",
-          "solution": "<p>由正弦定理，$\\frac{b}{c}=\\frac{\\sin B}{\\sin C}$. 由 $2\\sin B=3\\sin C$，得 $b:c=3:2$. 设 $b=3k$，$c=2k$，其中 $k>0$. 由 $b-c=\\frac{1}{4}a$，得 $k=\\frac{1}{4}a$，所以 $a=4k$. 于是</p>\n$$\n\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{(3k)^{2}+(2k)^{2}-(4k)^{2}}{2\\cdot3k\\cdot2k}=-\\frac{1}{4}\n$$\n<p>因此 $\\cos A=-\\frac{1}{4}$.</p>"
+          "choices": [],
+          "answer": "\\(-\\frac{1}{4}\\)",
+          "solution": "<p>由正弦定理，$\\frac{b}{c}=\\frac{\\sin B}{\\sin C}$. 由 $2\\sin B=3\\sin C$，得 $b:c=3:2$. 设 $b=3k$，$c=2k$，其中 $k>0$. 由 $b-c=\\frac{1}{4}a$，得 $k=\\frac{1}{4}a$，所以 $a=4k$. 于是</p>\n$$\n\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{(3k)^{2}+(2k)^{2}-(4k)^{2}}{2\\cdot3k\\cdot2k}=-\\frac{1}{4}\n$$\n<p>因此 $\\cos A=-\\frac{1}{4}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "在以 $O$ 为极点的极坐标系中，圆 $\\rho = 4 \\sin \\theta$ 和直线 $\\rho \\sin \\theta = a$ 相交于 $A$，$B$ 两点. 若 $\\triangle AOB$ 是等边三角形，则 $a$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$3$",
-          "solution": "<p>令 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$. 圆 $\\rho=4\\sin\\theta$ 化为 $x^{2}+y^{2}=4y$，直线 $\\rho\\sin\\theta=a$ 化为 $y=a$. 设两个交点为 $A=(-t,a)$，$B=(t,a)$，其中 $t>0$. 由交点在圆上，得</p>\n$$\nt^{2}+a^{2}=4a\n$$\n<p>三角形 $AOB$ 为等边三角形，所以 $OA^{2}=AB^{2}$，即</p>\n$$\nt^{2}+a^{2}=(2t)^{2}\n$$\n<p>从而 $a^{2}=3t^{2}$. 代入前式，得 $\\frac{4}{3}a^{2}=4a$，所以 $a=0$ 或 $a=3$. 当 $a=0$ 时 $t=0$，两个交点重合，不符合题意，故 $a=3$.</p>"
+          "choices": [],
+          "answer": "\\(3\\)",
+          "solution": "<p>令 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$. 圆 $\\rho=4\\sin\\theta$ 化为 $x^{2}+y^{2}=4y$，直线 $\\rho\\sin\\theta=a$ 化为 $y=a$. 设两个交点为 $A=(-t,a)$，$B=(t,a)$，其中 $t>0$. 由交点在圆上，得</p>\n$$\nt^{2}+a^{2}=4a\n$$\n<p>三角形 $AOB$ 为等边三角形，所以 $OA^{2}=AB^{2}$，即</p>\n$$\nt^{2}+a^{2}=(2t)^{2}\n$$\n<p>从而 $a^{2}=3t^{2}$. 代入前式，得 $\\frac{4}{3}a^{2}=4a$，所以 $a=0$ 或 $a=3$. 当 $a=0$ 时 $t=0$，两个交点重合，不符合题意，故 $a=3$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知函数 $f(x) = |x^{2} + 3x|$，$x \\in \\mathbb{R}$. 若方程 $f(x) - a|x - 1| = 0$ 恰有 4 个互异的实数根，则实数 $a$ 的取值范围为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(0,1)\\cup(9,+\\infty)$",
-          "solution": "<p>若方程有实数根，则左边的非负量 $|x^{2}+3x|$ 等于 $a|x-1|$，所以必须有 $a>0$；$a=0$ 时只有 $x=-3$，$0$ 两个根，$a<0$ 时无根. 对 $a>0$，两边平方不改变等价性，得</p>\n$$\n(x^{2}+3x)^{2}=a^{2}(x-1)^{2}\n$$\n<p>即</p>\n$$\nx^{2}+3x=a(x-1) \\text{或}  x^{2}+3x=-a(x-1)\n$$\n<p>这给出两个二次方程</p>\n$$\nx^{2}+(3-a)x+a=0\n$$\n\n$$\nx^{2}+(3+a)x-a=0\n$$\n<p>第二个方程的判别式为 $(3+a)^{2}+4a=(a+1)(a+9)>0$，恒有两个不相同的实根. 第一个方程的判别式为</p>\n$$\n(3-a)^{2}-4a=(a-1)(a-9)\n$$\n<p>要使它也有两个不相同的实根，需 $0<a<1$ 或 $a>9$. 两个二次方程不可能有公共根，因为公共根将同时满足 $a(x-1)=0$ 和 $x(x+3)=0$，而 $a>0$ 时这不可能. 因而恰有四个互异实根的充要条件为</p>\n$$\na\\in(0,1)\\cup(9,+\\infty)\n$$"
+          "choices": [],
+          "answer": "\\((0,1)\\cup(9,+\\infty)\\)",
+          "solution": "<p>若方程有实数根，则左边的非负量 $|x^{2}+3x|$ 等于 $a|x-1|$，所以必须有 $a>0$；$a=0$ 时只有 $x=-3$，$0$ 两个根，$a<0$ 时无根. 对 $a>0$，两边平方不改变等价性，得</p>\n$$\n(x^{2}+3x)^{2}=a^{2}(x-1)^{2}\n$$\n<p>即</p>\n$$\nx^{2}+3x=a(x-1) \\text{或}  x^{2}+3x=-a(x-1)\n$$\n<p>这给出两个二次方程</p>\n$$\nx^{2}+(3-a)x+a=0\n$$\n\n$$\nx^{2}+(3+a)x-a=0\n$$\n<p>第二个方程的判别式为 $(3+a)^{2}+4a=(a+1)(a+9)>0$，恒有两个不相同的实根. 第一个方程的判别式为</p>\n$$\n(3-a)^{2}-4a=(a-1)(a-9)\n$$\n<p>要使它也有两个不相同的实根，需 $0<a<1$ 或 $a>9$. 两个二次方程不可能有公共根，因为公共根将同时满足 $a(x-1)=0$ 和 $x(x+3)=0$，而 $a>0$ 时这不可能. 因而恰有四个互异实根的充要条件为</p>\n$$\na\\in(0,1)\\cup(9,+\\infty)\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -158,44 +309,56 @@
         {
           "num": 15,
           "body": "<p>已知函数 $f(x) = \\cos x \\cdot \\sin\\left(x + \\frac{\\pi}{3}\\right) - \\sqrt{3}\\cos^{2} x + \\frac{\\sqrt{3}}{4}$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的最小正周期；</p></li><li><p>求 $f(x)$ 在闭区间 $\\left[-\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right]$ 上的最大值和最小值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由和角公式及二倍角公式，</p>\n$$\n\\begin{gathered}f(x)=\\frac{1}{2}\\sin x\\cos x-\\frac{\\sqrt{3}}{2}\\cos^2x+\\frac{\\sqrt{3}}{4}\\\\\n\n=\\frac{1}{4}\\sin2x-\\frac{\\sqrt{3}}{4}\\cos2x\n\n=\\frac{1}{2}\\sin\\left(2x-\\frac{\\pi}{3}\\right).\\end{gathered}\n$$\n<p>因此 $f(x)$ 的最小正周期为 $\\pi$.</p><p>当 $x\\in\\left[-\\frac{\\pi}{4},\\frac{\\pi}{4}\\right]$ 时，令 $u=2x-\\frac{\\pi}{3}$，则 $u\\in\\left[-\\frac{\\pi}{2},\\frac{\\pi}{6}\\right]$. 在此区间上 $\\sin u$ 单调递增，所以当 $u=-\\frac{\\pi}{2}$，即 $x=-\\frac{\\pi}{4}$ 时，$f(x)$ 取得最小值 $-\\frac{1}{2}$；当 $u=\\frac{\\pi}{6}$，即 $x=\\frac{\\pi}{4}$ 时，$f(x)$ 取得最大值 $\\frac{1}{4}$.</p>"
+          "solution": "<p>由和角公式及二倍角公式，</p>\n$$\n\\begin{gathered}f(x)=\\frac{1}{2}\\sin x\\cos x-\\frac{\\sqrt{3}}{2}\\cos^2x+\\frac{\\sqrt{3}}{4}\\\\\n\n=\\frac{1}{4}\\sin2x-\\frac{\\sqrt{3}}{4}\\cos2x\n\n=\\frac{1}{2}\\sin\\left(2x-\\frac{\\pi}{3}\\right).\\end{gathered}\n$$\n<p>因此 $f(x)$ 的最小正周期为 $\\pi$.</p><p>当 $x\\in\\left[-\\frac{\\pi}{4},\\frac{\\pi}{4}\\right]$ 时，令 $u=2x-\\frac{\\pi}{3}$，则 $u\\in\\left[-\\frac{\\pi}{2},\\frac{\\pi}{6}\\right]$. 在此区间上 $\\sin u$ 单调递增，所以当 $u=-\\frac{\\pi}{2}$，即 $x=-\\frac{\\pi}{4}$ 时，$f(x)$ 取得最小值 $-\\frac{1}{2}$；当 $u=\\frac{\\pi}{6}$，即 $x=\\frac{\\pi}{4}$ 时，$f(x)$ 取得最大值 $\\frac{1}{4}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>某大学志愿者协会有 $6$ 名男同学，$4$ 名女同学. 在这 $10$ 名同学中，$3$ 名同学来自数学学院，其余 $7$ 名同学来自物理，化学等其他互不相同的七个学院. 现从这 $10$ 名同学中随机选取 $3$ 名同学，到希望小学进行支教活动（每位同学被选到的可能性相同）.</p><ol class=\"enumerate\"><li><p>求选出的 $3$ 名同学是来自互不相同学院的概率；</p></li><li><p>设 $X$ 为选出的 $3$ 名同学中女同学的人数，求随机变量 $X$ 的分布列和数学期望.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>从 $10$ 名同学中任选 $3$ 名，共有 $\\mathrm{C}_{10}^{3}$ 种等可能结果. 选出的同学来自互不相同学院，当且仅当选出的数学学院同学至多有 $1$ 名. 因而满足条件的选法有 $\\mathrm{C}_{7}^{3}+\\mathrm{C}_{3}^{1}\\mathrm{C}_{7}^{2}$ 种，所以所求概率为</p>\n$$\nP=\\frac{\\mathrm{C}_{7}^{3}+\\mathrm{C}_{3}^{1}\\mathrm{C}_{7}^{2}}{\\mathrm{C}_{10}^{3}}=\\frac{35+63}{120}=\\frac{49}{60}\n$$\n<p>设选出的 $3$ 名同学中女同学人数为 $X$. 对于 $k=0$，$1$，$2$，$3$，从 $4$ 名女同学中选出 $k$ 名、从 $6$ 名男同学中选出 $3-k$ 名，因此</p>\n$$\nP(X=k)=\\frac{\\mathrm{C}_{4}^{k}\\mathrm{C}_{6}^{3-k}}{\\mathrm{C}_{10}^{3}}\n$$\n<p>所以 $X$ 的分布列为</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$X$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P(X=k)$ </td><td style=\"text-align: center\"> $\\frac{1}{6}$ </td><td style=\"text-align: center\"> $\\frac{1}{2}$ </td><td style=\"text-align: center\"> $\\frac{3}{10}$ </td><td style=\"text-align: center\"> $\\frac{1}{30}$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>并且</p>\n$$\nE(X)=0\\cdot\\frac{1}{6}+1\\cdot\\frac{1}{2}+2\\cdot\\frac{3}{10}+3\\cdot\\frac{1}{30}=\\frac{6}{5}\n$$"
+          "solution": "<p>从 $10$ 名同学中任选 $3$ 名，共有 $\\mathrm{C}_{10}^{3}$ 种等可能结果. 选出的同学来自互不相同学院，当且仅当选出的数学学院同学至多有 $1$ 名. 因而满足条件的选法有 $\\mathrm{C}_{7}^{3}+\\mathrm{C}_{3}^{1}\\mathrm{C}_{7}^{2}$ 种，所以所求概率为</p>\n$$\nP=\\frac{\\mathrm{C}_{7}^{3}+\\mathrm{C}_{3}^{1}\\mathrm{C}_{7}^{2}}{\\mathrm{C}_{10}^{3}}=\\frac{35+63}{120}=\\frac{49}{60}\n$$\n<p>设选出的 $3$ 名同学中女同学人数为 $X$. 对于 $k=0$，$1$，$2$，$3$，从 $4$ 名女同学中选出 $k$ 名、从 $6$ 名男同学中选出 $3-k$ 名，因此</p>\n$$\nP(X=k)=\\frac{\\mathrm{C}_{4}^{k}\\mathrm{C}_{6}^{3-k}}{\\mathrm{C}_{10}^{3}}\n$$\n<p>所以 $X$ 的分布列为</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$P(X=k)$ </td><td style=\"text-align: center\"> $\\frac{1}{6}$ </td><td style=\"text-align: center\"> $\\frac{1}{2}$ </td><td style=\"text-align: center\"> $\\frac{3}{10}$ </td><td style=\"text-align: center\"> $\\frac{1}{30}$ </td></tr></tbody></table></center><p>并且</p>\n$$\nE(X)=0\\cdot\\frac{1}{6}+1\\cdot\\frac{1}{2}+2\\cdot\\frac{3}{10}+3\\cdot\\frac{1}{30}=\\frac{6}{5}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图，在四棱锥 $P - ABCD$ 中，$PA \\perp$ 底面 $ABCD$，$AD \\perp AB$，$AB \\parallel DC$，$AD = DC = AP = 2$，$AB = 1$，点 $E$ 为棱 $PC$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$BE \\perp DC$；</p></li><li><p>求直线 $BE$ 与平面 $PBD$ 所成角的正弦值；</p></li><li><p>若 $F$ 为棱 $PC$ 上一点，满足 $BF \\perp AC$，求二面角 $F - AB - P$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在四棱锥 $P - ABCD$ 中，$PA \\perp$ 底面 $ABCD$，$AD \\perp AB$，$AB \\parallel DC$，$AD = DC = AP = 2$，$AB = 1$，点 $E$ 为棱 $PC$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$BE \\perp DC$；</p></li><li><p>求直线 $BE$ 与平面 $PBD$ 所成角的正弦值；</p></li><li><p>若 $F$ 为棱 $PC$ 上一点，满足 $BF \\perp AC$，求二面角 $F - AB - P$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/tianjin_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>建立空间直角坐标系，取 $A$ 为原点，$AB$，$AD$，$AP$ 分别为 $x$ 轴，$y$ 轴，$z$ 轴正方向. 由题设可取 $A(0,0,0)$，$B(1,0,0)$，$D(0,2,0)$，$C(2,2,0)$，$P(0,0,2)$.</p><ol class=\"enumerate\"><li><p>因为 $E$ 是 $PC$ 的中点，所以 $E(1,1,1)$，从而 $\\overrightarrow{BE}=(0,1,1)$，$\\overrightarrow{DC}=(2,0,0)$. 于是 $\\overrightarrow{BE}\\cdot\\overrightarrow{DC}=0$，故 $BE\\perp DC$.</p></li><li><p>设直线 $BE$ 与平面 $PBD$ 所成的角为 $\\alpha$. 取平面 $PBD$ 内的两个方向向量 $\\overrightarrow{BD}=(-1,2,0)$，$\\overrightarrow{BP}=(-1,0,2)$. 于是平面 $PBD$ 的一个法向量为</p>\n$$\n\\mathbf{n}=\\overrightarrow{BD}\\times\\overrightarrow{BP}=(4,2,2)\n$$\n<p>直线 $BE$ 的方向向量为 $\\mathbf{v}=(0,1,1)$，因此</p>\n$$\n\\sin\\alpha=\\frac{|\\mathbf{v}\\cdot\\mathbf{n}|}{|\\mathbf{v}|\\,|\\mathbf{n}|}=\\frac{4}{\\sqrt{2}\\sqrt{24}}=\\frac{\\sqrt{3}}{3}\n$$\n</li><li><p>设 $F$ 为棱 $PC$ 上一点. 令 $F=P+t(C-P)$，其中 $0\\le t\\leqslant1$，则 $F(2t,2t,2-2t)$，$\\overrightarrow{BF}=(2t-1,2t,2-2t)$. 又 $\\overrightarrow{AC}=(2,2,0)$，由 $BF\\perp AC$ 得</p>\n$$\n\\overrightarrow{BF}\\cdot\\overrightarrow{AC}=2(2t-1)+4t=0\n$$\n<p>解得 $t=\\frac{1}{4}$，所以 $F\\left(\\frac{1}{2},\\frac{1}{2},\\frac{3}{2}\\right)$.</p><p>平面 $PAB$ 的一个法向量为 $\\mathbf{n}_{1}=(0,1,0)$，平面 $FAB$ 的一个法向量为</p>\n$$\n\\mathbf{n}_{2}=\\overrightarrow{AB}\\times\\overrightarrow{AF}=(0,-3,1)\n$$\n<p>设二面角 $F-AB-P$ 为 $\\beta$，则</p>\n$$\n\\cos\\beta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{3}{\\sqrt{10}}=\\frac{3\\sqrt{10}}{10}\n$$\n</li></ol>"
+          "solution": "<p>建立空间直角坐标系，取 $A$ 为原点，$AB$，$AD$，$AP$ 分别为 $x$ 轴，$y$ 轴，$z$ 轴正方向. 由题设可取 $A(0,0,0)$，$B(1,0,0)$，$D(0,2,0)$，$C(2,2,0)$，$P(0,0,2)$.</p><ol class=\"enumerate\"><li><p>因为 $E$ 是 $PC$ 的中点，所以 $E(1,1,1)$，从而 $\\overrightarrow{BE}=(0,1,1)$，$\\overrightarrow{DC}=(2,0,0)$. 于是 $\\overrightarrow{BE}\\cdot\\overrightarrow{DC}=0$，故 $BE\\perp DC$.</p></li><li><p>设直线 $BE$ 与平面 $PBD$ 所成的角为 $\\alpha$. 取平面 $PBD$ 内的两个方向向量 $\\overrightarrow{BD}=(-1,2,0)$，$\\overrightarrow{BP}=(-1,0,2)$. 于是平面 $PBD$ 的一个法向量为</p>\n$$\n\\mathbf{n}=\\overrightarrow{BD}\\times\\overrightarrow{BP}=(4,2,2)\n$$\n<p>直线 $BE$ 的方向向量为 $\\mathbf{v}=(0,1,1)$，因此</p>\n$$\n\\sin\\alpha=\\frac{|\\mathbf{v}\\cdot\\mathbf{n}|}{|\\mathbf{v}|\\,|\\mathbf{n}|}=\\frac{4}{\\sqrt{2}\\sqrt{24}}=\\frac{\\sqrt{3}}{3}\n$$\n</li><li><p>设 $F$ 为棱 $PC$ 上一点. 令 $F=P+t(C-P)$，其中 $0\\le t\\leqslant1$，则 $F(2t,2t,2-2t)$，$\\overrightarrow{BF}=(2t-1,2t,2-2t)$. 又 $\\overrightarrow{AC}=(2,2,0)$，由 $BF\\perp AC$ 得</p>\n$$\n\\overrightarrow{BF}\\cdot\\overrightarrow{AC}=2(2t-1)+4t=0\n$$\n<p>解得 $t=\\frac{1}{4}$，所以 $F\\left(\\frac{1}{2},\\frac{1}{2},\\frac{3}{2}\\right)$.</p><p>平面 $PAB$ 的一个法向量为 $\\mathbf{n}_{1}=(0,1,0)$，平面 $FAB$ 的一个法向量为</p>\n$$\n\\mathbf{n}_{2}=\\overrightarrow{AB}\\times\\overrightarrow{AF}=(0,-3,1)\n$$\n<p>设二面角 $F-AB-P$ 为 $\\beta$，则</p>\n$$\n\\cos\\beta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{3}{\\sqrt{10}}=\\frac{3\\sqrt{10}}{10}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>设椭圆 $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$（$a>b>0$）的左、右焦点分别为 $F_{1}$，$F_{2}$，右顶点为 $A$，上顶点为 $B$，已知 $|AB|=\\frac{\\sqrt{3}}{2}|F_{1}F_{2}|$.</p><ol class=\"enumerate\"><li><p>求椭圆的离心率；</p></li><li><p>设 $P$ 为椭圆上异于其顶点的一点，以线段 $PB$ 为直径的圆经过点 $F_{1}$，经过原点 $O$ 的直线 $l$ 与该圆相切. 求直线 $l$ 的斜率.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设椭圆的半焦距为 $c$，则 $c^{2}=a^{2}-b^{2}$，$|AB|=\\sqrt{a^{2}+b^{2}}$，$|F_{1}F_{2}|=2c$. 由题设，</p>\n$$\na^{2}+b^{2}=3c^{2}=3(a^{2}-b^{2})\n$$\n<p>所以 $a^{2}=2b^{2}$，从而 $c^{2}=b^{2}$，椭圆的离心率为</p>\n$$\ne=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}\n$$\n<p>为求直线 $l$ 的斜率，取 $c>0$，则 $a^{2}=2c^{2}$，$b^{2}=c^{2}$，可设 $F_{1}(-c,0)$，$B(0,c)$，$P(x,y)$. 由于以 $PB$ 为直径的圆经过 $F_{1}$，所以 $\\angle PF_{1}B=90^{\\circ}$，即</p>\n$$\n\\overrightarrow{F_1P}\\cdot\\overrightarrow{F_1B}=0\n$$\n<p>代入坐标得 $(x+c,y)\\cdot(c,c)=0$，即 $x+y+c=0$. 又因为 $P$ 在椭圆上，满足</p>\n$$\n\\frac{x^{2}}{2c^{2}}+\\frac{y^{2}}{c^{2}}=1\n$$\n<p>令 $X=\\frac{x}{c}$，$Y=\\frac{y}{c}$，则 $Y=-X-1$. 代入椭圆方程得</p>\n$$\n\\frac{X^{2}}{2}+(X+1)^{2}=1\n$$\n<p>所以 $X\\left(\\frac{3}{2}X+2\\right)=0$. 当 $X=0$ 时，$P=(0,-c)$ 是椭圆的顶点，不合题意；故 $X=-\\frac{4}{3}$，从而</p>\n$$\nP\\left(-\\frac{4c}{3},\\frac{c}{3}\\right)\n$$\n<p>设以 $PB$ 为直径的圆的圆心为 $G$，半径为 $r$. 则 $G\\left(-\\frac{2c}{3},\\frac{2c}{3}\\right)$，且 $r=\\frac{|PB|}{2}=\\frac{\\sqrt{5}c}{3}$. 直线 $l$ 经过原点，设其斜率为 $k$，则方程为 $y=kx$. 该直线与圆相切，当且仅当圆心到直线的距离等于半径，即</p>\n$$\n\\frac{2c|k+1|}{3\\sqrt{k^{2}+1}}=\\frac{\\sqrt{5}c}{3}\n$$\n<p>平方并化简，得</p><p>$4(k+1)^{2}=5(k^{2}+1)$，$k^{2}-8k+1=0$.</p><p>所以直线 $l$ 的斜率为</p>\n$$\nk=4\\pm\\sqrt{15}\n$$"
+          "solution": "<p>设椭圆的半焦距为 $c$，则 $c^{2}=a^{2}-b^{2}$，$|AB|=\\sqrt{a^{2}+b^{2}}$，$|F_{1}F_{2}|=2c$. 由题设，</p>\n$$\na^{2}+b^{2}=3c^{2}=3(a^{2}-b^{2})\n$$\n<p>所以 $a^{2}=2b^{2}$，从而 $c^{2}=b^{2}$，椭圆的离心率为</p>\n$$\ne=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}\n$$\n<p>为求直线 $l$ 的斜率，取 $c>0$，则 $a^{2}=2c^{2}$，$b^{2}=c^{2}$，可设 $F_{1}(-c,0)$，$B(0,c)$，$P(x,y)$. 由于以 $PB$ 为直径的圆经过 $F_{1}$，所以 $\\angle PF_{1}B=90^{\\circ}$，即</p>\n$$\n\\overrightarrow{F_1P}\\cdot\\overrightarrow{F_1B}=0\n$$\n<p>代入坐标得 $(x+c,y)\\cdot(c,c)=0$，即 $x+y+c=0$. 又因为 $P$ 在椭圆上，满足</p>\n$$\n\\frac{x^{2}}{2c^{2}}+\\frac{y^{2}}{c^{2}}=1\n$$\n<p>令 $X=\\frac{x}{c}$，$Y=\\frac{y}{c}$，则 $Y=-X-1$. 代入椭圆方程得</p>\n$$\n\\frac{X^{2}}{2}+(X+1)^{2}=1\n$$\n<p>所以 $X\\left(\\frac{3}{2}X+2\\right)=0$. 当 $X=0$ 时，$P=(0,-c)$ 是椭圆的顶点，不合题意；故 $X=-\\frac{4}{3}$，从而</p>\n$$\nP\\left(-\\frac{4c}{3},\\frac{c}{3}\\right)\n$$\n<p>设以 $PB$ 为直径的圆的圆心为 $G$，半径为 $r$. 则 $G\\left(-\\frac{2c}{3},\\frac{2c}{3}\\right)$，且 $r=\\frac{|PB|}{2}=\\frac{\\sqrt{5}c}{3}$. 直线 $l$ 经过原点，设其斜率为 $k$，则方程为 $y=kx$. 该直线与圆相切，当且仅当圆心到直线的距离等于半径，即</p>\n$$\n\\frac{2c|k+1|}{3\\sqrt{k^{2}+1}}=\\frac{\\sqrt{5}c}{3}\n$$\n<p>平方并化简，得</p><p>$4(k+1)^{2}=5(k^{2}+1)$，$k^{2}-8k+1=0$.</p><p>所以直线 $l$ 的斜率为</p>\n$$\nk=4\\pm\\sqrt{15}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知 $q$ 和 $n$ 均为给定的大于 $1$ 的自然数. 设集合 $M = \\{0, 1, 2, \\dots, q - 1\\}$，集合 $A = \\{x \\mid x = x_{1} + x_{2}q + \\dots + x_{n}q^{n-1}, x_{i} \\in M, i = 1, 2, \\dots, n\\}$.</p><ol class=\"enumerate\"><li><p>当 $q = 2$，$n = 3$ 时，用列举法表示集合 $A$；</p></li><li><p>设 $s$，$t \\in A$，$s = a_{1} + a_{2}q + \\cdots + a_{n}q^{n-1}$，$t = b_{1} + b_{2}q + \\cdots + b_{n}q^{n-1}$，其中 $a_{i}$，$b_{i} \\in M$，$i = 1$，$2$，$\\cdots$，$n$. 证明：若 $a_{n} < b_{n}$，则 $s < t$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $q=2$，$n=3$ 时，$x_{1}$，$x_{2}$，$x_{3}$ 均可取 $0$ 或 $1$，所以</p>\n$$\nA=\\{x_{1}+2x_{2}+4x_{3}\\mid x_{1},x_{2},x_{3}\\in\\{0,1\\}\\}=\\{0,1,2,3,4,5,6,7\\}\n$$\n</li><li><p>由 $a_{n}<b_{n}$ 且 $a_{n}$，$b_{n}\\in M$，有 $b_{n}-a_{n}\\geqslant1$. 于是</p>\n$$\n\\begin{gathered}t-s=(b_n-a_n)q^{n-1}+\\sum_{i=1}^{n-1}(b_i-a_i)q^{i-1}\\\\\n\n\\ge q^{n-1}-(q-1)\\sum_{i=1}^{n-1}q^{i-1}=q^{n-1}-(q^{n-1}-1)=1>0.\\end{gathered}\n$$\n<p>因此 $t-s>0$，即 $s<t$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $q=2$，$n=3$ 时，$x_{1}$，$x_{2}$，$x_{3}$ 均可取 $0$ 或 $1$，所以</p>\n$$\nA=\\{x_{1}+2x_{2}+4x_{3}\\mid x_{1},x_{2},x_{3}\\in\\{0,1\\}\\}=\\{0,1,2,3,4,5,6,7\\}\n$$\n</li><li><p>由 $a_{n}<b_{n}$ 且 $a_{n}$，$b_{n}\\in M$，有 $b_{n}-a_{n}\\geqslant1$. 于是</p>\n$$\n\\begin{gathered}t-s=(b_n-a_n)q^{n-1}+\\sum_{i=1}^{n-1}(b_i-a_i)q^{i-1}\\\\\n\n\\ge q^{n-1}-(q-1)\\sum_{i=1}^{n-1}q^{i-1}=q^{n-1}-(q^{n-1}-1)=1>0.\\end{gathered}\n$$\n<p>因此 $t-s>0$，即 $s<t$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知函数 $f(x)=x-a\\mathrm{e}^{x}$（$a\\in\\mathbb{R}$，$x\\in\\mathbb{R}$），已知函数 $y=f(x)$ 有两个零点 $x_{1}$，$x_{2}$，且 $x_{1}<x_{2}$.</p><ol class=\"enumerate\"><li><p>求 $a$ 的取值范围；</p></li><li><p>证明 $\\frac{x_{2}}{x_{1}}$ 随着 $a$ 的减小而增大；</p></li><li><p>证明 $x_{1}+x_{2}$ 随着 $a$ 的减小而增大.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>零点满足 $x-a\\mathrm{e}^{x}=0$，即 $a=x\\mathrm{e}^{-x}$. 若 $a<0$，则 $f'(x)=1-a\\mathrm{e}^{x}>0$，函数严格递增，只能有一个零点；若 $a=0$，则 $f(x)=x$，也只有一个零点. 因而要有两个零点，必须有 $a>0$，此时零点均为正数.</p><p>令 $g(x)=x\\mathrm{e}^{-x}$（$x>0$），则 $g'(x)=\\mathrm{e}^{-x}(1-x)$. 所以 $g(x)$ 在 $(0,1)$ 上递增，在 $(1,+\\infty)$ 上递减，且 $g(1)=\\frac{1}{\\mathrm{e}}$. 因此直线 $y=a$ 与曲线 $y=g(x)$ 有两个交点的充要条件是</p>\n$$\n0<a<\\frac{1}{\\mathrm{e}}\n$$\n<p>此时 $0<x_{1}<1<x_{2}$.</p><p>由 $x_{i}=a\\mathrm{e}^{x_i}$ 关于 $a$ 求导，得</p><p>$(1-x_{i})\\frac{\\mathrm{d}x_{i}}{\\mathrm{d} a}=\\mathrm{e}^{x_i}=\\frac{x_{i}}{a}$，$\\frac{\\mathrm{d}x_{i}}{\\mathrm{d} a}=\\frac{x_{i}}{a(1-x_{i})}$.</p><p>于是</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d} a}\\ln\\frac{x_{2}}{x_{1}}=\\frac{1}{a(1-x_{2})}-\\frac{1}{a(1-x_{1})}=\\frac{x_{2}-x_{1}}{a(1-x_{1})(1-x_{2})}<0\n$$\n<p>所以 $\\frac{x_{2}}{x_{1}}$ 随 $a$ 的增大而减小，等价地，随 $a$ 的减小而增大.</p><p>再设 $S=x_{1}+x_{2}$，则</p>\n$$\n\\frac{\\mathrm{d} S}{\\mathrm{d} a}=\\frac{x_{1}}{a(1-x_{1})}+\\frac{x_{2}}{a(1-x_{2})}=\\frac{x_{1}+x_{2}-2x_{1}x_{2}}{a(1-x_{1})(1-x_{2})}\n$$\n<p>由 $x_{1}\\mathrm{e}^{-x_1}=x_{2}\\mathrm{e}^{-x_2}$，可得 $\\ln\\frac{x_{2}}{x_{1}}=x_{2}-x_{1}$. 令 $u=\\frac{x_{2}}{x_{1}}>1$，则</p><p>$x_{1}=\\frac{\\ln u}{u-1}$，$x_{2}=\\frac{u\\ln u}{u-1}$.</p><p>又令 $\\varphi(u)=\\frac{u-u^{-1}}{2}-\\ln u$，则 $\\varphi(1)=0$，且</p><p>$\\varphi'(u)=\\frac{(u-1)^{2}}{2u^{2}}>0$，（$u>1$）.</p><p>故 $u-u^{-1}>2\\ln u$，从而</p>\n$$\nx_{1}+x_{2}-2x_{1}x_{2}=\\frac{\\ln u}{(u-1)^{2}}\\left(u^{2}-1-2u\\ln u\\right)>0\n$$\n<p>由于 $a>0$，$1-x_{1}>0$，$1-x_{2}<0$，所以 $\\frac{\\mathrm{d} S}{\\mathrm{d} a}<0$. 因此 $x_{1}+x_{2}$ 随 $a$ 的减小而增大.</p>"
+          "solution": "<p>零点满足 $x-a\\mathrm{e}^{x}=0$，即 $a=x\\mathrm{e}^{-x}$. 若 $a<0$，则 $f'(x)=1-a\\mathrm{e}^{x}>0$，函数严格递增，只能有一个零点；若 $a=0$，则 $f(x)=x$，也只有一个零点. 因而要有两个零点，必须有 $a>0$，此时零点均为正数.</p><p>令 $g(x)=x\\mathrm{e}^{-x}$（$x>0$），则 $g'(x)=\\mathrm{e}^{-x}(1-x)$. 所以 $g(x)$ 在 $(0,1)$ 上递增，在 $(1,+\\infty)$ 上递减，且 $g(1)=\\frac{1}{\\mathrm{e}}$. 因此直线 $y=a$ 与曲线 $y=g(x)$ 有两个交点的充要条件是</p>\n$$\n0<a<\\frac{1}{\\mathrm{e}}\n$$\n<p>此时 $0<x_{1}<1<x_{2}$.</p><p>由 $x_{i}=a\\mathrm{e}^{x_i}$ 关于 $a$ 求导，得</p><p>$(1-x_{i})\\frac{\\mathrm{d}x_{i}}{\\mathrm{d} a}=\\mathrm{e}^{x_i}=\\frac{x_{i}}{a}$，$\\frac{\\mathrm{d}x_{i}}{\\mathrm{d} a}=\\frac{x_{i}}{a(1-x_{i})}$.</p><p>于是</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d} a}\\ln\\frac{x_{2}}{x_{1}}=\\frac{1}{a(1-x_{2})}-\\frac{1}{a(1-x_{1})}=\\frac{x_{2}-x_{1}}{a(1-x_{1})(1-x_{2})}<0\n$$\n<p>所以 $\\frac{x_{2}}{x_{1}}$ 随 $a$ 的增大而减小，等价地，随 $a$ 的减小而增大.</p><p>再设 $S=x_{1}+x_{2}$，则</p>\n$$\n\\frac{\\mathrm{d} S}{\\mathrm{d} a}=\\frac{x_{1}}{a(1-x_{1})}+\\frac{x_{2}}{a(1-x_{2})}=\\frac{x_{1}+x_{2}-2x_{1}x_{2}}{a(1-x_{1})(1-x_{2})}\n$$\n<p>由 $x_{1}\\mathrm{e}^{-x_1}=x_{2}\\mathrm{e}^{-x_2}$，可得 $\\ln\\frac{x_{2}}{x_{1}}=x_{2}-x_{1}$. 令 $u=\\frac{x_{2}}{x_{1}}>1$，则</p><p>$x_{1}=\\frac{\\ln u}{u-1}$，$x_{2}=\\frac{u\\ln u}{u-1}$.</p><p>又令 $\\varphi(u)=\\frac{u-u^{-1}}{2}-\\ln u$，则 $\\varphi(1)=0$，且</p><p>$\\varphi'(u)=\\frac{(u-1)^{2}}{2u^{2}}>0$，（$u>1$）.</p><p>故 $u-u^{-1}>2\\ln u$，从而</p>\n$$\nx_{1}+x_{2}-2x_{1}x_{2}=\\frac{\\ln u}{(u-1)^{2}}\\left(u^{2}-1-2u\\ln u\\right)>0\n$$\n<p>由于 $a>0$，$1-x_{1}>0$，$1-x_{2}<0$，所以 $\\frac{\\mathrm{d} S}{\\mathrm{d} a}<0$. 因此 $x_{1}+x_{2}$ 随 $a$ 的减小而增大.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,221 +11,261 @@
 #part-header("填空题")
 
 #problem(1)[
-集合 $A=\{1,3\}$，$B=\{1,2,a\}$，若 $A subset.eq B$，则 $a=\f i l l i n b l a n k{}$.
+集合 #mi(`A=\{1,3\}`)，#mi(`B=\{1,2,a\}`)，若 #mi(`A\subseteq B`)，则 #mi(`a=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$3$])
+#answer([#mi(`3`)])
 
 #solution[
-因为 $3 in A$，且 $A subset.eq B$，所以 $3 in B$，故 $a=3$.
+因为 #mi(`3\in A`)，且 #mi(`A\subseteq B`)，所以 #mi(`3\in B`)，故 #mi(`a=3`).
 ]
 
 #problem(2)[
-不等式 $(1)/(x)>3$ 的解集为 $\f i l l i n b l a n k{}$.
+不等式 #mi(`\dfrac{1}{x}>3`) 的解集为 #mi(`\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(0,(1)/(3))$])
+#answer([#mi(`\left(0,\dfrac{1}{3}\right)`)])
 
 #solution[
-由 $(1)/(x)>3$ 得 $(1-3 x)/(x)>0$，则 $x(1-3 x)>0$，即 $x(3 x-1)<0$，解得 $0<x<(1)/(3)$，所以不等式的解集是 $(0,(1)/(3))$.
+由 #mi(`\dfrac{1}{x}>3`) 得 #mi(`\dfrac{1-3x}{x}>0`)，则 #mi(`x(1-3x)>0`)，即 #mi(`x(3x-1)<0`)，解得 #mi(`0<x<\dfrac{1}{3}`)，所以不等式的解集是 #mi(`\left(0,\dfrac{1}{3}\right)`).
 ]
 
 #problem(3)[
-函数 $y= tan 2 x$ 的最小正周期为 $\f i l l i n b l a n k{}$.
+函数 #mi(`y=\tan 2x`) 的最小正周期为 #mi(`\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(pi)/(2)$])
+#answer([#mi(`\dfrac{\pi}{2}`)])
 
 #solution[
-函数 $y= tan 2 x$ 的最小正周期为 $(pi)/(2)$.
+函数 #mi(`y=\tan 2x`) 的最小正周期为 #mi(`\dfrac{\pi}{2}`).
 ]
 
 #problem(4)[
-已知复数 $z$ 满足 $z+2\b a r z=6+ i$，则 $z$ 的实部为 $\f i l l i n b l a n k{}$.
+已知复数 #mi(`z`) 满足 #mi(`z+2\bar z=6+\mathrm{i}`)，则 #mi(`z`) 的实部为 #mi(`\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-设 $z=a+b i$，（$a$，$b in RR$）. 因为复数 $z$ 满足 $z+2\b a r z=6+ i$，所以 $3 a-b i =6+ i$，可得 $3 a=6$，$-b=1$，解得 $a=2$，$b=1$. 则 $z$ 的实部为 $2$.
+设 #mi(`z=a+b\mathrm{i}`)，（#mi(`a`)，#mi(`b\in\mathbb{R}`)）. 因为复数 #mi(`z`) 满足 #mi(`z+2\bar z=6+\mathrm{i}`)，所以 #mi(`3a-b\mathrm{i}=6+\mathrm{i}`)，可得 #mi(`3a=6`)，#mi(`-b=1`)，解得 #mi(`a=2`)，#mi(`b=1`). 则 #mi(`z`) 的实部为 #mi(`2`).
 ]
 
 #problem(5)[
-已知 $3 sin 2 x=2 sin x$，$x in (0, pi )$，则 $x=\f i l l i n b l a n k{}$.
+已知 #mi(`3\sin 2x=2\sin x`)，#mi(`x\in(0,\pi)`)，则 #mi(`x=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$arccos (1)/(3)$])
+#answer([#mi(`\arccos\dfrac{1}{3}`)])
 
 #solution[
-因为 $3 sin 2 x=2 sin x$，所以 $6 sin x cos x=2 sin x$. 因为 $x in (0, pi )$，所以 $sin x != 0$，从而 $cos x=(1)/(3)$，故 $x= arccos (1)/(3)$.
+因为 #mi(`3\sin 2x=2\sin x`)，所以 #mi(`6\sin x\cos x=2\sin x`). 因为 #mi(`x\in(0,\pi)`)，所以 #mi(`\sin x\ne0`)，从而 #mi(`\cos x=\dfrac{1}{3}`)，故 #mi(`x=\arccos\dfrac{1}{3}`).
 ]
 
 #problem(6)[
-若函数 $y=a dot 3 ""^x+(1)/(3^x)$ 为偶函数，则 $a=\f i l l i n b l a n k{}$.
+若函数 #mi(`y=a\cdot3^{x}+\dfrac{1}{3^x}`) 为偶函数，则 #mi(`a=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #solution[
-根据题意，函数 $f(x)=a dot 3 ""^x+(1)/(3^x)$ 为偶函数，则 $f(-x)=f(x)$，即 $a dot 3 ""^(-x)+(1)/(3^(-x))=a dot 3 ""^x+(1)/(3^x)$. 变形可得 $a(3^x-3^(-x))=3^x-3^(-x)$，必有 $a=1$.
+根据题意，函数 #mi(`f(x)=a\cdot3^{x}+\dfrac{1}{3^x}`) 为偶函数，则 #mi(`f(-x)=f(x)`)，即 #mi(`a\cdot3^{-x}+\dfrac{1}{3^{-x}}=a\cdot3^{x}+\dfrac{1}{3^x}`). 变形可得 #mi(`a(3^{x}-3^{-x})=3^{x}-3^{-x}`)，必有 #mi(`a=1`).
 ]
 
 #problem(7)[
-已知直线 $l_1:x+a y=1$，$l_2:a x+y=1$，若 $l_1 parallel l_2$，则 $l_1$ 与 $l_2$ 的距离为 $\f i l l i n b l a n k{}$.
+已知直线 #mi(`l_{1}:x+ay=1`)，#mi(`l_{2}:ax+y=1`)，若 #mi(`l_{1}\parallel l_{2}`)，则 #mi(`l_{1}`) 与 #mi(`l_{2}`) 的距离为 #mi(`\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$sqrt(2)$])
+#answer([#mi(`\sqrt{2}`)])
 
 #solution[
-直线 $l_1:x+a y=1$，$l_2:a x+y=1$. 当 $l_1 parallel l_2$ 时，$a^2-1=0$，解得 $a= +- 1$. 当 $a=1$ 时 $l_1$ 与 $l_2$ 重合，不满足题意；当 $a=-1$ 时 $l_1:x-y-1=0$，$l_2:x-y+1=0$，则 $l_1$ 与 $l_2$ 的距离为 $(|-1-1|)/(sqrt(1^2+(-1)^2))=sqrt(2)$.
+直线 #mi(`l_{1}:x+ay=1`)，#mi(`l_{2}:ax+y=1`). 当 #mi(`l_{1}\parallel l_{2}`) 时，#mi(`a^{2}-1=0`)，解得 #mi(`a=\pm1`). 当 #mi(`a=1`) 时 #mi(`l_{1}`) 与 #mi(`l_{2}`) 重合，不满足题意；当 #mi(`a=-1`) 时 #mi(`l_{1}:x-y-1=0`)，#mi(`l_{2}:x-y+1=0`)，则 #mi(`l_{1}`) 与 #mi(`l_{2}`) 的距离为 #mi(`\dfrac{|-1-1|}{\sqrt{1^{2}+(-1)^{2}}}=\sqrt{2}`).
 ]
 
 #problem(8)[
-已知二项式 $(2 x+sqrt(x))^5$，则展开式中 $x^3$ 的系数为 $\f i l l i n b l a n k{}$.
+已知二项式 #mi(`(2x+\sqrt{x})^{5}`)，则展开式中 #mi(`x^{3}`) 的系数为 #mi(`\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$10$])
+#answer([#mi(`10`)])
 
 #solution[
-由二项式展开式的通项，$T_(r+1)=C_5^r(2 x)^(5-r)(sqrt(x))^r=C_5^(r) 2^(5-r)x^(5-(r)/(2))$. 令 $5-(r)/(2)=3$，得 $r=4$，代入通项得 $C_5^4 2 x^3=10 x^3$，所以展开式中 $x^3$ 的系数为 $10$.
+由二项式展开式的通项，#mi(`T_{r+1}=\mathrm{C}_{5}^{r}(2x)^{5-r}(\sqrt{x})^{r}=\mathrm{C}_{5}^{r}2^{5-r}x^{5-\frac{r}{2}}`). 令 #mi(`5-\dfrac{r}{2}=3`)，得 #mi(`r=4`)，代入通项得 #mi(`\mathrm{C}_{5}^{4} 2x^{3}=10x^{3}`)，所以展开式中 #mi(`x^{3}`) 的系数为 #mi(`10`).
 ]
 
 #problem(9)[
-$triangle A B C$ 中，$D$ 是 $B C$ 中点，$A B=2$，$B C=3$，$A C=4$，则 $arrow(A D)\c d o t a r r o w(A B)=\f i l l i n b l a n k{}$.
+#mi(`\triangle ABC`) 中，#mi(`D`) 是 #mi(`BC`) 中点，#mi(`AB=2`)，#mi(`BC=3`)，#mi(`AC=4`)，则 #mi(`\overrightarrow{AD}\cdot\overrightarrow{AB}=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(19)/(4)$])
+#answer([#mi(`\dfrac{19}{4}`)])
 
 #solution[
-在 $triangle A B C$ 中，$A B=2$，$B C=3$，$A C=4$. 由余弦定理得 $cos angle B A C=(A B^2+A C^2-B C^2)/(2 A B dot A C)=(4+16-9)/(2 times 2 times 4)=(11)/(16)$，所以 $arrow(A B)\c d o t a r r o w(A C)=2 times 4 times (11)/(16)=(11)/(2)$. 又 $D$ 是 $B C$ 的中点，所以 $arrow(A D)=(1)/(2)(arrow(A B)+arrow(A C))$. 因此 $arrow(A D)\c d o t a r r o w(A B)=(1)/(2)(arrow(A B)^( 2)+arrow(A B)\c d o t a r r o w(A C))=(1)/(2)(4+(11)/(2))=(19)/(4)$.
+在 #mi(`\triangle ABC`) 中，#mi(`AB=2`)，#mi(`BC=3`)，#mi(`AC=4`). 由余弦定理得 #mi(`\cos\angle BAC=\dfrac{AB^2+AC^2-BC^2}{2AB\cdot AC}=\dfrac{4+16-9}{2\times2\times4}=\dfrac{11}{16}`)，所以 #mi(`\overrightarrow{AB}\cdot\overrightarrow{AC}=2\times4\times\dfrac{11}{16}=\dfrac{11}{2}`). 又 #mi(`D`) 是 #mi(`BC`) 的中点，所以 #mi(`\overrightarrow{AD}=\dfrac{1}{2}(\overrightarrow{AB}+\overrightarrow{AC})`). 因此 #mi(`\overrightarrow{AD}\cdot\overrightarrow{AB}=\dfrac{1}{2}(\overrightarrow{AB}^{\,2}+\overrightarrow{AB}\cdot\overrightarrow{AC})=\dfrac{1}{2}\left(4+\dfrac{11}{2}\right)=\dfrac{19}{4}`).
 ]
 
 #problem(10)[
-已知 $A=\{-3,-2,-1,0,1,2,3\}$，$a$，$b in A$，则 $|a|<|b|$ 的情况有 $\f i l l i n b l a n k{}$ 种.
+已知 #mi(`A=\{-3,-2,-1,0,1,2,3\}`)，#mi(`a`)，#mi(`b\in A`)，则 #mi(`|a|<|b|`) 的情况有 #mi(`\underline{\hspace{2.5em}}{}`) 种.
 ]
 
-#answer([$18$])
+#answer([#mi(`18`)])
 
 #solution[
-当 $a=-3$ 时，有 $0$ 种；当 $a=-2$ 时，有 $2$ 种；当 $a=-1$ 时，有 $4$ 种；当 $a=0$ 时，有 $6$ 种；当 $a=1$ 时，有 $4$ 种；当 $a=2$ 时，有 $2$ 种；当 $a=3$ 时，有 $0$ 种，故共有 $2+4+6+4+2=18$ 种.
+当 #mi(`a=-3`) 时，有 #mi(`0`) 种；当 #mi(`a=-2`) 时，有 #mi(`2`) 种；当 #mi(`a=-1`) 时，有 #mi(`4`) 种；当 #mi(`a=0`) 时，有 #mi(`6`) 种；当 #mi(`a=1`) 时，有 #mi(`4`) 种；当 #mi(`a=2`) 时，有 #mi(`2`) 种；当 #mi(`a=3`) 时，有 #mi(`0`) 种，故共有 #mi(`2+4+6+4+2=18`) 种.
 ]
 
 #problem(11)[
-已知 $A_1$，$A_2$，$A_3$，$A_4$，$A_5$ 五个点，满足 $arrow(A_(n) A_(n+1))\c d o t a r r o w(A_(n+1)A_(n+2))=0$ （$n=1$，$2$，$3$），$|A_(n) A_(n+1)| dot |A_(n+1)A_(n+2)|=n+1$ （$n=1$，$2$，$3$），则 $|A_(1) A_5|$ 的最小值为 $\f i l l i n b l a n k{}$.
+已知 #mi(`A_{1}`)，#mi(`A_{2}`)，#mi(`A_{3}`)，#mi(`A_{4}`)，#mi(`A_{5}`) 五个点，满足 #mi(`\overrightarrow{A_nA_{n+1}}\cdot\overrightarrow{A_{n+1}A_{n+2}}=0`) （#mi(`n=1`)，#mi(`2`)，#mi(`3`)），#mi(`|A_{n}A_{n+1}|\cdot|A_{n+1}A_{n+2}|=n+1`) （#mi(`n=1`)，#mi(`2`)，#mi(`3`)），则 #mi(`|A_{1}A_{5}|`) 的最小值为 #mi(`\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(sqrt(6))/(3)$])
+#answer([#mi(`\dfrac{\sqrt{6}}{3}`)])
 
 #solution[
-设 $|A_(1) A_2|=x$，则 $|A_(2) A_3|=(2)/(x)$，$|A_(3) A_4|=(3 x)/(2)$，$|A_(4) A_5|=(8)/(3 x)$. 设 $A_1(0,0)$，如图.
+设 #mi(`|A_{1}A_{2}|=x`)，则 #mi(`|A_{2}A_{3}|=\dfrac{2}{x}`)，#mi(`|A_{3}A_{4}|=\dfrac{3x}{2}`)，#mi(`|A_{4}A_{5}|=\dfrac{8}{3x}`). 设 #mi(`A_{1}(0,0)`)，如图.
 
+ 
+#align(center)[#image("/papers/2020/img/shanghai_spring/q11_solution_fig1.png", width: 28%)]
+ 
 
-#align(center)[#image("/papers/2020/img/shanghai_spring/q11_solution_fig1.png", width: 50%)]
-
-
-因为求 $|A_(1) A_5|$ 的最小值，所以可设 $A_2(x,0)$，$A_3(x,(2)/(x))$，$A_4(-(x)/(2),(2)/(x))$，$A_5(-(x)/(2),-(2)/(3 x))$. 因此 $|A_(1) A_5|^2=(-(x)/(2))^2+(-(2)/(3 x))^2=(x^2)/(4)+(4)/(9 x^2)\g e q(sqrt(6))/(3)^2$，当且仅当 $(x^2)/(4)=(4)/(9 x^2)$，即 $x=(2 sqrt(3))/(3)$ 时取等号，故 $|A_(1) A_5|$ 的最小值为 $(sqrt(6))/(3)$.
+因为求 #mi(`|A_{1}A_{5}|`) 的最小值，所以可设 #mi(`A_{2}(x,0)`)，#mi(`A_{3}\left(x,\dfrac{2}{x}\right)`)，#mi(`A_{4}\left(-\dfrac{x}{2},\dfrac{2}{x}\right)`)，#mi(`A_{5}\left(-\dfrac{x}{2},-\dfrac{2}{3x}\right)`). 因此 #mi(`|A_{1}A_{5}|^{2}=\left(-\dfrac{x}{2}\right)^{2}+\left(-\dfrac{2}{3x}\right)^{2}=\dfrac{x^2}{4}+\dfrac{4}{9x^2}\geq\dfrac{\sqrt{6}}{3}\,^{2}`)，当且仅当 #mi(`\dfrac{x^2}{4}=\dfrac{4}{9x^2}`)，即 #mi(`x=\dfrac{2\sqrt{3}}{3}`) 时取等号，故 #mi(`|A_{1}A_{5}|`) 的最小值为 #mi(`\dfrac{\sqrt{6}}{3}`).
 ]
 
 #problem(12)[
-已知 $f(x)=sqrt(x-1)$，其反函数为 $f^(-1)(x)$，若 $f^(-1)(x)-a=f(x+a)$ 有实数根，则 $a$ 的取值范围为 $\f i l l i n b l a n k{}$.
+已知 #mi(`f(x)=\sqrt{x-1}`)，其反函数为 #mi(`f^{-1}(x)`)，若 #mi(`f^{-1}(x)-a=f(x+a)`) 有实数根，则 #mi(`a`) 的取值范围为 #mi(`\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$[(3)/(4),+ oo )$])
+#answer([#mi(`\left[\dfrac{3}{4},+\infty\right)`)])
 
 #solution[
-因为 $y=f^(-1)(x)-a$ 与 $y=f(x+a)$ 互为反函数，又方程 $f^(-1)(x)-a=f(x+a)$ 有实数根，则函数 $y=f(x+a)$ 的图象与直线 $y=x$ 有交点. 所以 $sqrt(x+a-1)=x$ 有根，即 $a=x^2-x+1=(x-(1)/(2))^2+(3)/(4)$，故答案为 $[(3)/(4),+ oo )$.
+因为 #mi(`y=f^{-1}(x)-a`) 与 #mi(`y=f(x+a)`) 互为反函数，又方程 #mi(`f^{-1}(x)-a=f(x+a)`) 有实数根，则函数 #mi(`y=f(x+a)`) 的图象与直线 #mi(`y=x`) 有交点. 所以 #mi(`\sqrt{x+a-1}=x`) 有根，即 #mi(`a=x^{2}-x+1=\left(x-\dfrac{1}{2}\right)^{2}+\dfrac{3}{4}`)，故答案为 #mi(`\left[\dfrac{3}{4},+\infty\right)`).
 
+ 
+#align(center)[#image("/papers/2020/img/shanghai_spring/q12_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/2020/img/shanghai_spring/q12_fig1.png", width: 50%)]
 ]
 
 #part-header("单选题")
 
+#problem(13)[
+计算 #mi(`\displaystyle\lim_{n\to\infty}\dfrac{3^n+5^n}{3^{n-1}+5^{n-1}}=`)（ ）.
+]
+
+#answer([D])
+
+#solution[
+分子分母同时除以 #mi(`5^{n-1}`)，则 #mi(`\displaystyle\lim_{n\to\infty}\dfrac{3^n+5^n}{3^{n-1}+5^{n-1}}=\lim_{n\to\infty}\dfrac{3\left(\dfrac{3}{5}\right)^{n-1}+5}{\left(\dfrac{3}{5}\right)^{n-1}+1}=5`)，故选 D.
+]
+
+#problem(14)[
+“#mi(`\alpha=\beta`)”是“#mi(`\sin^{2}\alpha+\cos^{2}\beta=1`)”的（ ）.
+]
+
+#answer([A])
+
+#solution[
+若 #mi(`\alpha=\beta`)，则 #mi(`\sin^{2}\alpha+\cos^{2}\beta=\sin^{2}\alpha+\cos^{2}\alpha=1`)，所以“#mi(`\alpha=\beta`)”是“#mi(`\sin^{2}\alpha+\cos^{2}\beta=1`)”的充分条件. 若 #mi(`\sin^{2}\alpha+\cos^{2}\beta=1`)，则 #mi(`\sin^{2}\alpha=\sin^{2}\beta`)，不能推出 #mi(`\alpha=\beta`)，所以“#mi(`\alpha=\beta`)”不是“#mi(`\sin^{2}\alpha+\cos^{2}\beta=1`)”的必要条件.
+
+故“#mi(`\alpha=\beta`)”是“#mi(`\sin^{2}\alpha+\cos^{2}\beta=1`)”的充分非必要条件，故选 A.
+]
+
+#problem(15)[
+已知椭圆 #mi(`\dfrac{x^2}{2}+y^{2}=1`)，作垂直于 #mi(`x`) 轴的垂线交椭圆于 #mi(`A`)，#mi(`B`) 两点，作垂直于 #mi(`y`) 轴的垂线交椭圆于 #mi(`C`)，#mi(`D`) 两点，且 #mi(`AB=CD`)，两垂线相交于点 #mi(`P`)，则点 #mi(`P`) 的轨迹是（ ）.
+]
+
+#answer([B])
+
+#solution[
+由 #mi(`AB\leq2`)，得 #mi(`CD\leq2`)，判断轨迹为上下两部分，即为双曲线. 设 #mi(`A(m,t)`)，#mi(`D(t,n)`)，所以 #mi(`P(m,n)`). 因为 #mi(`\dfrac{m^2}{2}+t^{2}=1`)，#mi(`\dfrac{t^2}{2}+n^{2}=1`)，消去 #mi(`t`) 可得 #mi(`2n^{2}-\dfrac{m^2}{2}=1`)，故选 B.
+
+ 
+#align(center)[#image("/papers/2020/img/shanghai_spring/q15_fig1.png", width: 28%)]
+
+]
+
+#problem(16)[
+数列 #mi(`\{a_{n}\}`) 各项均为实数，对任意 #mi(`n\in\mathbb{N}^{*}`) 满足 #mi(`a_{n+3}=a_{n}`)，且行列式 #mi(`\begin{vmatrix}a_{n}&a_{n+1}\\a_{n+2}&a_{n+3}\end{vmatrix}=c`) 为定值，则下列选项中不可能的是（ ）.
+]
+
+#answer([B])
+
+#solution[
+行列式 #mi(`\begin{vmatrix}a_{n}&a_{n+1}\\a_{n+2}&a_{n+3}\end{vmatrix}=a_{n}a_{n+3}-a_{n+1}a_{n+2}=c`). 由于对任意 #mi(`n\in\mathbb{N}^{*}`) 满足 #mi(`a_{n+3}=a_{n}`)，所以
+
+
+#align(center)[#mitex(`
+\begin{cases}a_{n}^{2}-a_{n+1}a_{n+2}=c,\\  a_{n+1}^{2}-a_{n+2}a_{n+3}=c.\end{cases}
+`)]
+
+
+作差整理得：#mi(`a_{n+1}=a_{n}`)（常数列，#mi(`c=0`)），或 #mi(`a_{n}+a_{n+1}+a_{n+2}=0`). 当 #mi(`a_{n}+a_{n+1}+a_{n+2}=0`) 时，#mi(`a_{n+1}+a_{n+2}=-a_{n}`) 且 #mi(`a_{n+1}a_{n+2}=a_{n}^{2}-c`)，所以方程 #mi(`X^{2}+a_{n}X+a_{n}^{2}-c=0`) 有两根 #mi(`a_{n+1}`)，#mi(`a_{n+2}`)，从而 #mi(`\Delta=a_{n}^{2}-4(a_{n}^{2}-c)=4c-3a_{n}^{2}\geq0`). 因为 B 不可能，故选 B.
+]
+
 #part-header("解答题")
 
 #problem(17)[
-已知四棱锥 $P-A B C D$，底面 $A B C D$ 为正方形，边长为 $3$，$P D bot$ 平面 $A B C D$.
-
-+ (1) 若 $P C=5$，求四棱锥 $P-A B C D$ 的体积；
-+ (2) 若直线 $A D$ 与 $B P$ 的夹角为 $60^ degree$，求 $P D$ 的长.
+已知四棱锥 #mi(`P-ABCD`)，底面 #mi(`ABCD`) 为正方形，边长为 #mi(`3`)，#mi(`PD\perp`) 平面 #mi(`ABCD`).
 
 
++ (1) 
 
 
-#align(center)[#image("/papers/2020/img/shanghai_spring/q17_fig1.png", width: 50%)]
+
+
+#align(center)[#image("/papers/2020/img/shanghai_spring/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 因为 $P D bot$ 平面 $A B C D$，所以 $P D bot D C$. 因为 $C D=3$，$P C=5$，所以 $P D=4$，故 $V_(P-A B C D)=(1)/(3) times 3 ""^2 times 4 =12$. 所以四棱锥 $P-A B C D$ 的体积为 $12$.
-+ (2) 因为 $A B C D$ 是正方形，$P D bot$ 平面 $A B C D$，所以 $B C bot P D$，$B C bot C D$. 又 $P D inter C D=D$，所以 $B C bot$ 平面 $P C D$，从而 $B C bot P C$. 因为异面直线 $A D$ 与 $P B$ 所成角为 $60^ degree$，且 $B C parallel A D$，所以 $angle P B C=60^ degree$. 在 $R t triangle P B C$ 中，$B C=3$，故 $P C=3 sqrt(3)$. 在 $R t triangle P D C$ 中，又 $C D=3$，所以 $P D=3 sqrt(2)$.
++ (1)
 ]
 
 #problem(18)[
-已知各项均为正数的数列 $\{a_n\}$，其前 $n$ 项和为 $S_n$，$a_1=1$.
+已知各项均为正数的数列 #mi(`\{a_{n}\}`)，其前 #mi(`n`) 项和为 #mi(`S_{n}`)，#mi(`a_{1}=1`).
 
-+ (1) 若数列 $\{a_n\}$ 为等差数列，$S_(10)=70$，求数列 $\{a_n\}$ 的通项公式；
-+ (2) 若数列 $\{a_n\}$ 为等比数列，$a_4=(1)/(8)$，求满足 $S_n>100 a_n$ 时 $n$ 的最小值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设等差数列的公差为 $d$. 由 $S_(10)=70$，得 $10+(1)/(2) times 10 times 9 d=70$，解得 $d=(4)/(3)$，则 $a_n=1+(4)/(3)(n-1)=(4)/(3)n-(1)/(3)$.
-+ (2) 设等比数列的公比为 $q$. 由 $a_4=(1)/(8)$，$a_1=1$，可得 $q^3=(1)/(8)$，即 $q=(1)/(2)$. 则 $a_n=((1)/(2))^(n-1)$，$S_n=(1-((1)/(2))^n)/(1-(1)/(2))=2-((1)/(2))^(n-1)$. $S_n>100 a_n$，即 $2-((1)/(2))^(n-1)>100 dot ((1)/(2))^(n-1)$，即 $2^n>101$，可得 $n\g e q7$，即 $n$ 的最小值为 $7$.
++ (1)
 ]
 
 #problem(19)[
-有一条长为 $120$ 米的步行道 $O A$，$A$ 是垃圾投放点 $omega _1$，若以 $O$ 为原点，$O A$ 为 $x$ 轴正半轴建立直角坐标系，设点 $B(x,0)$，现要建设另一座垃圾投放点 $omega _2(t,0)$，函数 $f_t(x)$ 表示与 $B$ 点距离最近的垃圾投放点的距离.
+有一条长为 #mi(`120`) 米的步行道 #mi(`OA`)，#mi(`A`) 是垃圾投放点 #mi(`\omega_{1}`)，若以 #mi(`O`) 为原点，#mi(`OA`) 为 #mi(`x`) 轴正半轴建立直角坐标系，设点 #mi(`B(x,0)`)，现要建设另一座垃圾投放点 #mi(`\omega_{2}(t,0)`)，函数 #mi(`f_{t}(x)`) 表示与 #mi(`B`) 点距离最近的垃圾投放点的距离.
 
-+ (1) 若 $t=60$，求 $f_(60)(10)$，$f_(60)(80)$，$f_(60)(95)$ 的值，并写出 $f_(60)(x)$ 的函数解析式；
-+ (2) 若可以通过 $f_t(x)$ 与坐标轴围成的面积来测算扔垃圾的便利程度，面积越小越便利. 问：垃圾投放点 $omega _2$ 建在何处才能比建在中点时更加便利？
+
++ (1)
 ]
 
 #solution[
-+ (1) 投放点 $omega _1(120,0)$，$omega _2(60,0)$. 由题意得 $f_(60)(x)= min \{|60-x|,|120-x|\}$，所以 $f_(60)(10)=50$，$f_(60)(80)=20$，$f_(60)(95)=25$. 当 $x\l e q90$ 时，$f_(60)(x)=|60-x|$；当 $x>90$ 时，$f_(60)(x)=|120-x|$. 综上，
-
-$ f_(60)(x)= \b e g i n{c a s e s} |60-x|,&x\l e q90,\\ |120-x|,&x>90. \e n d{c a s e s} $
-+ (2) 由题意得 $f_t(x)= min \{|t-x|,|120-x|\}$，所以
-
-$ f_t(x)= \b e g i n{c a s e s} |t-x|,&x\l e q0.5(120+t),\\ |120-x|,&x>0.5(120+t). \e n d{c a s e s} $
-
-因此 $f_t(x)$ 与坐标轴围成的面积为 $S=(1)/(2)t^2+(1)/(4)(120-t)^2=(3)/(4)t^2-60 t+3600$. 由题意，$S<S(60)$，即 $(3)/(4)t^2-60 t+3600<2700$，解得 $20<t<60$，即垃圾投放点 $omega _2$ 建在 $(20,0)$ 与 $(60,0)$ 之间时，比建在中点时更加便利.
++ (1) 
 
 
-#align(center)[#image("/papers/2020/img/shanghai_spring/q19_solution_fig1.png", width: 50%)]
+
+ 
+#align(center)[#image("/papers/2020/img/shanghai_spring/q19_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(20)[
-已知抛物线 $y^2=x$ 上的动点 $M(x_0,y_0)$，过 $M$ 分别作两条直线交抛物线于 $P$，$Q$ 两点，交直线 $x=t$ 于 $A$，$B$ 两点.
+已知抛物线 #mi(`y^{2}=x`) 上的动点 #mi(`M(x_{0},y_{0})`)，过 #mi(`M`) 分别作两条直线交抛物线于 #mi(`P`)，#mi(`Q`) 两点，交直线 #mi(`x=t`) 于 #mi(`A`)，#mi(`B`) 两点.
 
-+ (1) 若点 $M$ 纵坐标为 $sqrt(2)$，求 $M$ 与焦点的距离；
-+ (2) 若 $t=-1$，$P(1,1)$，$Q(1,-1)$，求证：$y_A dot y_B$ 为常数；
-+ (3) 是否存在 $t$，使得 $y_A dot y_B=1$ 且 $y_P dot y_Q$ 为常数？若存在，求出 $t$ 的所有可能值；若不存在，请说明理由.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 抛物线 $y^2=x$ 上的动点为 $M(x_0,y_0)$，且点 $M$ 纵坐标为 $sqrt(2)$，所以点 $M$ 的横坐标 $x_M=(sqrt(2))^2=2$. 由 $y^2=x$，得 $p=(1)/(2)$，所以 $M$ 与焦点的距离为 $M F=x_M+(p)/(2)=2+(1)/(4)=(9)/(4)$.
-+ (2) 设 $M(y_0^2,y_0)$，直线 $P M\c o l o n y-1=(y_0-1)/(y_0^2-1)(x-1)$. 当 $x=-1$ 时，$y_A=(y_0-1)/(y_0+1)$. 直线 $Q M\c o l o n y+1=(y_0+1)/(y_0^2-1)(x-1)$，当 $x=-1$ 时，$y_B=(-y_0-1)/(y_0-1)$，所以 $y_(A) y_B=-1$，故 $y_A dot y_B$ 为常数 $-1$.
-+ (3) 设 $M(y_0^2,y_0)$，$A(t,y_A)$，直线 $M A\c o l o n y-y_0=(y_0-y_A)/(y_0^2-t)(x-y_0^2)$. 联立 $y^2=x$，得
-
-$ y^2-(y_0^2-t)/(y_0-y_A)y+(y_0^2-t)/(y_0-y_A)y_0-y_0^2=0 $
-
-所以 $y_0+y_P=(y_0^2-t)/(y_0-y_A)$，即 $y_P=(y_(0) y_A-t)/(y_0-y_A)$. 同理得 $y_Q=(y_(0) y_B-t)/(y_0-y_B)$. 因为 $y_A dot y_B=1$，所以
-
-$ y_(P) y_Q=(y_0^2-t y_0(y_A+y_B)+t^2)/(y_0^2-y_0(y_A+y_B)+1) $
-
-要使 $y_(P) y_Q$ 为常数，即 $t=1$，此时 $y_(P) y_Q$ 为常数 $1$. 所以存在 $t=1$，使得 $y_A dot y_B=1$ 且 $y_P dot y_Q$ 为常数 $1$.
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-已知非空集合 $A subset.eq RR$，函数 $y=f(x)$ 的定义域为 $D$，若对任意 $t in A$ 且 $x in D$，不等式 $f(x)\g e q f(x+t)$ 恒成立，则称函数 $f(x)$ 具有 $A$ 性质.
+已知非空集合 #mi(`A\subseteq\mathbb{R}`)，函数 #mi(`y=f(x)`) 的定义域为 #mi(`D`)，若对任意 #mi(`t\in A`) 且 #mi(`x\in D`)，不等式 #mi(`f(x)\geq f(x+t)`) 恒成立，则称函数 #mi(`f(x)`) 具有 #mi(`A`) 性质.
 
-+ (1) 当 $A=\{-1\}$，判断 $f(x)=-x$，$g(x)=2^x$ 是否具有 $A$ 性质；
-+ (2) 当 $A=(0,1)$，$f(x)=x+(1)/(x)$，$x in [a,+ oo )$，若 $f(x)$ 具有 $A$ 性质，求 $a$ 的取值范围；
-+ (3) 当 $A=\{-2,m\}$，$m in ZZ$，若 $D$ 为整数集且具有 $A$ 性质的函数均为常值函数，求所有符合条件的 $m$ 的值.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 因为 $f(x)=-x$ 为减函数，所以 $f(x)<f(x-1)$，故 $f(x)=-x$ 具有 $A$ 性质；$g(x)=2^x$ 为增函数，所以 $g(x)>g(x-1)$，故 $g(x)=2^x$ 不具有 $A$ 性质.
-+ (2) 依题意，对任意 $t in (0,1)$，$f(x)\g e q f(x+t)$ 恒成立，所以 $f(x)=x+(1)/(x)$（$x\g e q a$）为增函数（不可能为常值函数）. 由双勾函数的图象及性质可得 $a\g e q1$（因为 $f(x)$ 在 $(1,+ oo )$ 上是增函数）. 当 $a\g e q1$ 时，函数单调递增，满足对任意 $t in (0,1)$，$f(x)\g e q f(x+t)$ 恒成立，综上，实数 $a$ 的取值范围为 $[1,+ oo )$.
-+ (3) 因为 $D$ 为整数集，具有 $A$ 性质的函数均为常值函数，所以当 $t=-2$ 时，$f(x)=f(x-2)$ 恒成立，周期为 $2$. 设 $f(2 k)=p$ （$k in ZZ$），$f(2 n-1)=q$ （$n in ZZ$），由题意 $p=q$，则 $f(2 k)=f(2 n-1)$. 当 $x=2 k$ 时，$f(x)=f(x+2 n-2 k-1)$，所以 $m=2 n-2 k-1$ （$n$，$k in ZZ$）；当 $x=2 n-1$ 时，$f(x)=f(x+2 k-2 n+1)$，所以 $m=2 k-2 n+1$ （$n$，$k in ZZ$）. 综上，$m$ 为奇数.
++ (1) 
++ (2)
 ]
 

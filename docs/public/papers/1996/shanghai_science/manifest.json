@@ -1,8 +1,185 @@
 {
-  "title": "1996年普通高等学校招生全国统一考试",
-  "subtitle": "1996年上海卷（理）",
   "year": "1996",
   "slug": "shanghai_science",
+  "title": "1996年上海卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "选做题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "选做题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "选做题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "选做题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "选做题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "选做题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "选做题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "选做题：填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 24,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 25,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 26,
+      "type": "选做题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 27,
+      "type": "选做题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 28,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 29,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +194,9 @@
             "$\\left\\{(3,-1)\\right\\}$"
           ],
           "answer": "D",
-          "solution": "由 $x+y=2$，$x-y=4$，两式相加得 $2x=6$，所以 $x=3$，代入得 $y=-1$. 因此交集是由有序数对组成的集合 $\\left\\{(3,-1)\\right\\}$，故选 D."
+          "solution": "由 $x+y=2$，$x-y=4$，两式相加得 $2x=6$，所以 $x=3$，代入得 $y=-1$. 因此交集是由有序数对组成的集合 $\\left\\{(3,-1)\\right\\}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +208,9 @@
             "$\\left[\\frac{\\pi}{4},\\frac{\\pi}{2}\\right]$"
           ],
           "answer": "B",
-          "solution": "令 $t=x+\\frac{\\pi}{4}$，则函数为 $y=\\sin t$，其单调递增区间为 $\\left[-\\frac{\\pi}{2}+2k\\pi,\\frac{\\pi}{2}+2k\\pi\\right]$. 选项 B 中 $x\\in\\left[0,\\frac{\\pi}{4}\\right]$ 时，$t\\in\\left[\\frac{\\pi}{4},\\frac{\\pi}{2}\\right]$，函数单调递增；A，D 对应的 $t$ 区间落在递减段，C 横跨增减两段，故选 B."
+          "solution": "令 $t=x+\\frac{\\pi}{4}$，则函数为 $y=\\sin t$，其单调递增区间为 $\\left[-\\frac{\\pi}{2}+2k\\pi,\\frac{\\pi}{2}+2k\\pi\\right]$. 选项 B 中 $x\\in\\left[0,\\frac{\\pi}{4}\\right]$ 时，$t\\in\\left[\\frac{\\pi}{4},\\frac{\\pi}{2}\\right]$，函数单调递增；A，D 对应的 $t$ 区间落在递减段，C 横跨增减两段，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +222,9 @@
             "$1<b<a$"
           ],
           "answer": "B",
-          "solution": "<p>因 $\\log_{a}3>0$ 且 $3>1$，必有 $a>1$；同理 $b>1$. 于是</p><p>$\\log_{a}3=\\frac{\\ln3}{\\ln a}>\\frac{\\ln3}{\\ln b}=\\log_{b}3$，由 $\\ln3>0$ 得 $\\ln a<\\ln b$，所以 $1<a<b$，故选 B.</p>"
+          "solution": "<p>因 $\\log_{a}3>0$ 且 $3>1$，必有 $a>1$；同理 $b>1$. 于是</p><p>$\\log_{a}3=\\frac{\\ln3}{\\ln a}>\\frac{\\ln3}{\\ln b}=\\log_{b}3$，由 $\\ln3>0$ 得 $\\ln a<\\ln b$，所以 $1<a<b$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +236,9 @@
             "设 $m$，$n$ 是异面直线，若 $m$ 与平面 $\\alpha$ 平行，则 $n$ 与 $\\alpha$ 相交"
           ],
           "answer": "C",
-          "solution": "<p>选项 A 不成立：取一个与 $\\alpha$ 平行的平面 $\\alpha'$，在 $\\alpha'$ 内取两条相交直线作为 $m$，$n$，则它们都平行于 $\\alpha$，但彼此不平行. 选项 B 不成立：建立直角坐标系，使棱 $l$ 为 $z$ 轴，$\\alpha$，$\\beta$ 分别为 $xz$ 平面和 $yz$ 平面，取方向向量为 $(1,1,0)$ 的直线 $m$，则 $m\\perp l$，但 $m$ 不垂直于 $\\beta$. 选项 D 不成立：仍取 $\\alpha$ 为 $z=0$，令 $m$ 为过 $(0,0,1)$ 且平行于 $x$ 轴的直线，令 $n$ 为过 $(1,0,2)$ 且平行于 $y$ 轴的直线；两直线异面且都平行于 $\\alpha$，而 $n$ 不与 $\\alpha$ 相交.</p><p>对选项 C，直线 $m$ 在 $\\alpha$ 内的射影为一点，说明 $m\\perp\\alpha$. 若 $m\\perp n$，则 $n$ 的方向没有垂直于 $\\alpha$ 的分量；因此 $n$ 若与 $\\alpha$ 相交就只能在 $\\alpha$ 内，否则只能与 $\\alpha$ 平行，故 C 为真命题.</p>"
+          "solution": "<p>选项 A 不成立：取一个与 $\\alpha$ 平行的平面 $\\alpha'$，在 $\\alpha'$ 内取两条相交直线作为 $m$，$n$，则它们都平行于 $\\alpha$，但彼此不平行. 选项 B 不成立：建立直角坐标系，使棱 $l$ 为 $z$ 轴，$\\alpha$，$\\beta$ 分别为 $xz$ 平面和 $yz$ 平面，取方向向量为 $(1,1,0)$ 的直线 $m$，则 $m\\perp l$，但 $m$ 不垂直于 $\\beta$. 选项 D 不成立：仍取 $\\alpha$ 为 $z=0$，令 $m$ 为过 $(0,0,1)$ 且平行于 $x$ 轴的直线，令 $n$ 为过 $(1,0,2)$ 且平行于 $y$ 轴的直线；两直线异面且都平行于 $\\alpha$，而 $n$ 不与 $\\alpha$ 相交.</p><p>对选项 C，直线 $m$ 在 $\\alpha$ 内的射影为一点，说明 $m\\perp\\alpha$. 若 $m\\perp n$，则 $n$ 的方向没有垂直于 $\\alpha$ 的分量；因此 $n$ 若与 $\\alpha$ 相交就只能在 $\\alpha$ 内，否则只能与 $\\alpha$ 平行，故 C 为真命题.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +250,9 @@
             "$\\frac{(x+4)^{2}}{9}+\\frac{(y+4)^{2}}{25}=1$"
           ],
           "answer": "C",
-          "solution": "<p>椭圆的焦半距为 $c=\\sqrt{25-9}=4$，左焦点为 $F(-4,0)$. 设原椭圆上一点为 $(x,y)$，相对于 $F$ 的坐标为 $(x+4,y)$. 逆时针旋转 $90^{\\circ}$ 后相对坐标变为 $(-y,x+4)$，故旋转后点的坐标为 $(-4-y,x+4)$. 反解得原坐标 $x=y'-4$，$y=-x'-4$，代入原方程得到</p>\n$$\n\\frac{(x'+4)^{2}}{9}+\\frac{(y'-4)^{2}}{25}=1\n$$\n<p>将新坐标仍记为 $(x,y)$，得选项 C.</p>"
+          "solution": "<p>椭圆的焦半距为 $c=\\sqrt{25-9}=4$，左焦点为 $F(-4,0)$. 设原椭圆上一点为 $(x,y)$，相对于 $F$ 的坐标为 $(x+4,y)$. 逆时针旋转 $90^{\\circ}$ 后相对坐标变为 $(-y,x+4)$，故旋转后点的坐标为 $(-4-y,x+4)$. 反解得原坐标 $x=y'-4$，$y=-x'-4$，代入原方程得到</p>\n$$\n\\frac{(x'+4)^{2}}{9}+\\frac{(y'-4)^{2}}{25}=1\n$$\n<p>将新坐标仍记为 $(x,y)$，得选项 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,31 +264,37 @@
             "$\\mathbb{R}$ 中不存在 $x$，使得 $f(x)\\le g(x)$"
           ],
           "answer": "D",
-          "solution": "题设不等式是对每一个 $x\\in\\mathbb{R}$ 成立，即不存在 $x\\in\\mathbb{R}$ 使 $f(x)\\le g(x)$，这正是选项 D. 选项 A，B 只说明存在部分满足不等式的点，不能推出对所有点成立；选项 C 比题设更强且不是必要条件，例如取 $f(x)=x+\\frac{1}{2}$、$g(x)=x$，则对所有 $x$ 有 $f(x)>g(x)$，但没有 $f(x)>g(x)+1$. 因此选 D."
+          "solution": "题设不等式是对每一个 $x\\in\\mathbb{R}$ 成立，即不存在 $x\\in\\mathbb{R}$ 使 $f(x)\\le g(x)$，这正是选项 D. 选项 A，B 只说明存在部分满足不等式的点，不能推出对所有点成立；选项 C 比题设更强且不是必要条件，例如取 $f(x)=x+\\frac{1}{2}$、$g(x)=x$，则对所有 $x$ 有 $f(x)>g(x)$，但没有 $f(x)>g(x)+1$. 因此选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "若 $\\theta\\in\\left[0,\\frac{\\pi}{2}\\right]$，则椭圆 $x^{2}+2y^{2}-2\\sqrt{2}x\\cos\\theta+4y\\sin\\theta=0$ 的中心轨迹是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_science/q7_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_science/q7_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_science/q7_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_science/q7_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q7_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q7_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q7_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q7_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "<p>配方得</p>\n$$\n\\left(x-\\sqrt{2}\\cos\\theta\\right)^{2}+2\\left(y+\\sin\\theta\\right)^{2}=2\n$$\n<p>所以椭圆中心为 $\\left(\\sqrt{2}\\cos\\theta,-\\sin\\theta\\right)$. 当 $0\\le\\theta\\le\\frac{\\pi}{2}$ 时，中心从 $(\\sqrt{2},0)$ 运动到 $(0,-1)$，且满足 $\\frac{x^{2}}{2}+y^{2}=1$，位于第四象限的四分之一椭圆弧上，对应图 D.</p>"
+          "solution": "<p>配方得</p>\n$$\n\\left(x-\\sqrt{2}\\cos\\theta\\right)^{2}+2\\left(y+\\sin\\theta\\right)^{2}=2\n$$\n<p>所以椭圆中心为 $\\left(\\sqrt{2}\\cos\\theta,-\\sin\\theta\\right)$. 当 $0\\le\\theta\\le\\frac{\\pi}{2}$ 时，中心从 $(\\sqrt{2},0)$ 运动到 $(0,-1)$，且满足 $\\frac{x^{2}}{2}+y^{2}=1$，位于第四象限的四分之一椭圆弧上，对应图 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "在下列图象中，二次函数 $y=ax^{2}+bx$ 与指数函数 $y=\\left(\\frac{b}{a}\\right)^{x}$ 的图象只可能是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_science/q8_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_science/q8_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_science/q8_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_science/q8_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q8_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q8_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q8_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q8_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "<p>令 $q=\\frac{b}{a}$. 指数函数 $y=q^{x}$ 有意义且不是常函数，故 $q>0$ 且 $q\\neq1$. 二次函数可写为 $y=ax(x+q)$，其两个零点为 $0$ 和 $-q$，顶点横坐标为 $-\\frac{q}{2}$.</p><p>若 $0<q<1$，则指数函数递减，且二次函数的另一个零点在 $(-1,0)$ 内；若 $q>1$，则指数函数递增，且二次函数的另一个零点小于 $-1$. 逐一观察图象：图 A 中指数函数递减，抛物线开口向上，另一个零点在 $(-1,0)$ 内，三者相容；图 B 的另一个零点在正半轴，图 C 虽为开口向下且另一个零点在负半轴，但该零点在 $(-\\infty,-1)$ 内而图中指数函数仍递减，图 D 的抛物线另一个零点在正半轴. 所以只有图 A 可能，故选 A.</p>"
+          "solution": "<p>令 $q=\\frac{b}{a}$. 指数函数 $y=q^{x}$ 有意义且不是常函数，故 $q>0$ 且 $q\\neq1$. 二次函数可写为 $y=ax(x+q)$，其两个零点为 $0$ 和 $-q$，顶点横坐标为 $-\\frac{q}{2}$.</p><p>若 $0<q<1$，则指数函数递减，且二次函数的另一个零点在 $(-1,0)$ 内；若 $q>1$，则指数函数递增，且二次函数的另一个零点小于 $-1$. 逐一观察图象：图 A 中指数函数递减，抛物线开口向上，另一个零点在 $(-1,0)$ 内，三者相容；图 B 的另一个零点在正半轴，图 C 虽为开口向下且另一个零点在负半轴，但该零点在 $(-\\infty,-1)$ 内而图中指数函数仍递减，图 D 的抛物线另一个零点在正半轴. 所以只有图 A 可能，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -111,44 +304,56 @@
         {
           "num": 9,
           "body": "方程 $\\log_{2}\\left(9^{x}-5\\right)=\\log_{2}\\left(3^{x}-2\\right)+2$ 的解是 $x=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$1$",
-          "solution": "<p>令 $t=3^{x}>0$. 对数真数要求 $t^{2}-5>0$、$t-2>0$，故 $t>\\sqrt{5}$. 由对数运算，</p><p>$t^{2}-5=4(t-2)$，$\\Longrightarrow$，$t^{2}-4t+3=0$，$\\Longrightarrow$，$t=1\\ \\text{或}\\ t=3$.</p><p>由于 $t>2$，舍去 $t=1$，故 $3^{x}=3$，所以 $x=1$.</p>"
+          "choices": [],
+          "answer": "\\(1\\)",
+          "solution": "<p>令 $t=3^{x}>0$. 对数真数要求 $t^{2}-5>0$、$t-2>0$，故 $t>\\sqrt{5}$. 由对数运算，</p><p>$t^{2}-5=4(t-2)$，$\\Longrightarrow$，$t^{2}-4t+3=0$，$\\Longrightarrow$，$t=1\\ \\text{或}\\ t=3$.</p><p>由于 $t>2$，舍去 $t=1$，故 $3^{x}=3$，所以 $x=1$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "函数 $y=\\frac{1}{\\sqrt{\\log_{\\frac{1}{2}}(2-x)}}$ 的定义域是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\{x\\mid 1<x<2\\}$（或 $(1,2)$）",
-          "solution": "<p>根式要求 $\\log_{\\frac{1}{2}}(2-x)>0$，同时对数真数要求 $2-x>0$. 由于底数 $\\frac{1}{2}$ 在 $(0,1)$ 内，$\\log_{\\frac{1}{2}}u>0$ 等价于 $0<u<1$，因此</p><p>$0<2-x<1$，$\\Longrightarrow$，$1<x<2$.</p><p>分母也因此不为零，故定义域为 $(1,2)$.</p>"
+          "choices": [],
+          "answer": "\\(\\{x\\mid 1<x<2\\}\\)（或 \\((1,2)\\)）",
+          "solution": "<p>根式要求 $\\log_{\\frac{1}{2}}(2-x)>0$，同时对数真数要求 $2-x>0$. 由于底数 $\\frac{1}{2}$ 在 $(0,1)$ 内，$\\log_{\\frac{1}{2}}u>0$ 等价于 $0<u<1$，因此</p><p>$0<2-x<1$，$\\Longrightarrow$，$1<x<2$.</p><p>分母也因此不为零，故定义域为 $(1,2)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "方程 $\\sin\\frac{x}{2}=\\frac{1}{3}$ 在 $\\left[\\pi,2\\pi\\right]$ 上的解是 $x=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$2\\pi - 2\\arcsin \\frac{1}{3}$",
-          "solution": "<p>令 $t=\\frac{x}{2}$，则 $t\\in\\left[\\frac{\\pi}{2},\\pi\\right]$，且 $\\sin t=\\frac{1}{3}$. 在该区间内正弦函数单调递减，故唯一解为 $t=\\pi-\\arcsin\\frac{1}{3}$. 于是</p>\n$$\nx=2t=2\\pi-2\\arcsin\\frac{1}{3}\n$$"
+          "choices": [],
+          "answer": "\\(2\\pi - 2\\arcsin \\frac{1}{3}\\)",
+          "solution": "<p>令 $t=\\frac{x}{2}$，则 $t\\in\\left[\\frac{\\pi}{2},\\pi\\right]$，且 $\\sin t=\\frac{1}{3}$. 在该区间内正弦函数单调递减，故唯一解为 $t=\\pi-\\arcsin\\frac{1}{3}$. 于是</p>\n$$\nx=2t=2\\pi-2\\arcsin\\frac{1}{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "函数 $y=x^{-2}$（$x<0$）的反函数是 $y=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$y=-\\sqrt{\\frac{1}{x}}$（$x>0$）",
-          "solution": "<p>原函数中 $x<0$，由 $y=x^{-2}=\\frac{1}{x^{2}}$ 得 $y>0$. 由 $x^{2}=\\frac{1}{y}$ 且原定义域要求取负根，得到 $x=-\\sqrt{\\frac{1}{y}}$. 交换 $x$，$y$，反函数为</p><p>$y=-\\sqrt{\\frac{1}{x}}$，$x>0$.</p>"
+          "choices": [],
+          "answer": "\\(y=-\\sqrt{\\frac{1}{x}}\\)（\\(x>0\\)）",
+          "solution": "<p>原函数中 $x<0$，由 $y=x^{-2}=\\frac{1}{x^{2}}$ 得 $y>0$. 由 $x^{2}=\\frac{1}{y}$ 且原定义域要求取负根，得到 $x=-\\sqrt{\\frac{1}{y}}$. 交换 $x$，$y$，反函数为</p><p>$y=-\\sqrt{\\frac{1}{x}}$，$x>0$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "极坐标方程分别是 $\\rho=\\cos\\theta$ 和 $\\rho=\\sin\\theta$ 的两个圆的圆心距是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{\\sqrt{2}}{2}$",
-          "solution": "<p>由极坐标关系 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$，方程 $\\rho=\\cos\\theta$ 化为 $x^{2}+y^{2}=x$，即 $\\left(x-\\frac{1}{2}\\right)^{2}+y^{2}=\\frac{1}{4}$，圆心为 $\\left(\\frac{1}{2},0\\right)$. 同理，$\\rho=\\sin\\theta$ 化为 $x^{2}+y^{2}=y$，即 $x^{2}+\\left(y-\\frac{1}{2}\\right)^{2}=\\frac{1}{4}$，圆心为 $\\left(0,\\frac{1}{2}\\right)$. 故圆心距为</p>\n$$\n\\sqrt{\\left(\\frac{1}{2}\\right)^{2}+\\left(-\\frac{1}{2}\\right)^{2}}=\\frac{\\sqrt{2}}{2}\n$$"
+          "choices": [],
+          "answer": "\\(\\frac{\\sqrt{2}}{2}\\)",
+          "solution": "<p>由极坐标关系 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$，方程 $\\rho=\\cos\\theta$ 化为 $x^{2}+y^{2}=x$，即 $\\left(x-\\frac{1}{2}\\right)^{2}+y^{2}=\\frac{1}{4}$，圆心为 $\\left(\\frac{1}{2},0\\right)$. 同理，$\\rho=\\sin\\theta$ 化为 $x^{2}+y^{2}=y$，即 $x^{2}+\\left(y-\\frac{1}{2}\\right)^{2}=\\frac{1}{4}$，圆心为 $\\left(0,\\frac{1}{2}\\right)$. 故圆心距为</p>\n$$\n\\sqrt{\\left(\\frac{1}{2}\\right)^{2}+\\left(-\\frac{1}{2}\\right)^{2}}=\\frac{\\sqrt{2}}{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "在 $(1+x)^{6}(1-x)^{4}$ 的展开式中，$x^{3}$ 的系数是（结果用数值表示）<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-8$",
-          "solution": "<p>先将乘积改写为</p>\n$$\n(1+x)^{6}(1-x)^{4}=(1+x)^{2}(1-x^{2})^{4}\n$$\n<p>展开 $(1-x^{2})^{4}=1-4x^{2}+\\cdots$. 要得到 $x^{3}$，只能取 $(1+x)^{2}$ 中的 $2x$ 与 $-4x^{2}$ 相乘，因此 $x^{3}$ 的系数为 $2\\times(-4)=-8$.</p>"
+          "choices": [],
+          "answer": "\\(-8\\)",
+          "solution": "<p>先将乘积改写为</p>\n$$\n(1+x)^{6}(1-x)^{4}=(1+x)^{2}(1-x^{2})^{4}\n$$\n<p>展开 $(1-x^{2})^{4}=1-4x^{2}+\\cdots$. 要得到 $x^{3}$，只能取 $(1+x)^{2}$ 中的 $2x$ 与 $-4x^{2}$ 相乘，因此 $x^{3}$ 的系数为 $2\\times(-4)=-8$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -158,58 +363,74 @@
         {
           "num": 15,
           "body": "已知 $O(0,0)$ 和 $A(6,3)$ 两点，若点 $P$ 在直线 $OA$ 上，且 $\\frac{OP}{PA}=\\frac{1}{2}$，又 $P$ 是线段 $OB$ 的中点，则点 $B$ 的坐标是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(4,2)$ 或 $(-12,-6)$",
-          "solution": "<p>点 $P$ 在直线 $OA$ 上，故设 $P=(6t,3t)$，其中 $t\\in\\mathbb{R}$. 比值有意义要求 $t\\neq1$，由长度比得 $\\frac{OP}{PA}=\\frac{|t|}{|1-t|}=\\frac{1}{2}$. 当 $0\\le t<1$ 时，$2t=1-t$，得 $t=\\frac{1}{3}$；当 $t<0$ 时，$-2t=1-t$，得 $t=-1$；当 $t>1$ 时，$2t=t-1$ 无解. 因而全部可能点为 $P=(2,1)$ 或 $P=(-6,-3)$. 由 $P$ 是线段 $OB$ 的中点，得到 $B=(4,2)$ 或 $B=(-12,-6)$.</p><p>回代验证：第一种情形有 $OP=\\sqrt{5}$，$PA=2\\sqrt{5}$；第二种情形有 $OP=3\\sqrt{5}$，$PA=6\\sqrt{5}$. 两种情形均满足 $\\frac{OP}{PA}=\\frac{1}{2}$，且 $O$ 与 $B$ 的坐标平均值均为相应的 $P$，所以两解都满足原题全部条件. 原题未限定 $P$ 在线段 $OA$ 内，不能排除外分解.</p>"
+          "choices": [],
+          "answer": "\\((4,2)\\) 或 \\((-12,-6)\\)",
+          "solution": "<p>点 $P$ 在直线 $OA$ 上，故设 $P=(6t,3t)$，其中 $t\\in\\mathbb{R}$. 比值有意义要求 $t\\neq1$，由长度比得 $\\frac{OP}{PA}=\\frac{|t|}{|1-t|}=\\frac{1}{2}$. 当 $0\\le t<1$ 时，$2t=1-t$，得 $t=\\frac{1}{3}$；当 $t<0$ 时，$-2t=1-t$，得 $t=-1$；当 $t>1$ 时，$2t=t-1$ 无解. 因而全部可能点为 $P=(2,1)$ 或 $P=(-6,-3)$. 由 $P$ 是线段 $OB$ 的中点，得到 $B=(4,2)$ 或 $B=(-12,-6)$.</p><p>回代验证：第一种情形有 $OP=\\sqrt{5}$，$PA=2\\sqrt{5}$；第二种情形有 $OP=3\\sqrt{5}$，$PA=6\\sqrt{5}$. 两种情形均满足 $\\frac{OP}{PA}=\\frac{1}{2}$，且 $O$ 与 $B$ 的坐标平均值均为相应的 $P$，所以两解都满足原题全部条件. 原题未限定 $P$ 在线段 $OA$ 内，不能排除外分解.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "平移坐标轴将抛物线 $4x^{2}-8x+y+5=0$ 化为标准方程 $x^{\\prime2}=ay^{\\prime}$（$a\\neq0$），则新坐标系的原点在原坐标系中的坐标是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(1,-1)$",
-          "solution": "<p>将原方程配方：</p>\n$$\n4x^{2}-8x+y+5=4(x-1)^{2}+y+1=0\n$$\n<p>令新坐标原点在原坐标中的坐标为 $(h,k)$，即 $x=x'+h$、$y=y'+k$. 要消去一次项并使常数项为零，必须有 $h=1$、$k=-1$. 此时</p><p>$4x'^{2}+y'=0$，$\\Longrightarrow$，$x'^{2}=-\\frac{1}{4}y'$</p><p>符合 $x'^{2}=ay'$ 且 $a=-\\frac{1}{4}\\neq0$，故新坐标系原点为 $(1,-1)$.</p>"
+          "choices": [],
+          "answer": "\\((1,-1)\\)",
+          "solution": "<p>将原方程配方：</p>\n$$\n4x^{2}-8x+y+5=4(x-1)^{2}+y+1=0\n$$\n<p>令新坐标原点在原坐标中的坐标为 $(h,k)$，即 $x=x'+h$、$y=y'+k$. 要消去一次项并使常数项为零，必须有 $h=1$、$k=-1$. 此时</p><p>$4x'^{2}+y'=0$，$\\Longrightarrow$，$x'^{2}=-\\frac{1}{4}y'$</p><p>符合 $x'^{2}=ay'$ 且 $a=-\\frac{1}{4}\\neq0$，故新坐标系原点为 $(1,-1)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "有 $8$ 本互不相同的书，其中数学书 $3$ 本，外文书 $2$ 本，其它书 $3$ 本. 若将这些书排成一列放在书架上，则数学书恰好排在一起，外文书也恰好排在一起的排法共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>种（结果用数值表示）.",
-          "choices": null,
-          "answer": "$1440$",
-          "solution": "<p>把三本数学书看作一个整体，把两本外文书看作另一个整体，再与三本其它书一起排列，共有 $5!$ 种整体排列. 数学书在其整体内有 $3!$ 种排列，外文书有 $2!$ 种排列，所以总数为</p>\n$$\n5!\\cdot3!\\cdot2!=120\\cdot6\\cdot2=1440\n$$"
+          "choices": [],
+          "answer": "\\(1440\\)",
+          "solution": "<p>把三本数学书看作一个整体，把两本外文书看作另一个整体，再与三本其它书一起排列，共有 $5!$ 种整体排列. 数学书在其整体内有 $3!$ 种排列，外文书有 $2!$ 种排列，所以总数为</p>\n$$\n5!\\cdot3!\\cdot2!=120\\cdot6\\cdot2=1440\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，在正三角形 $ABC$ 中，$E$，$F$ 依次是 $AB$，$AC$ 的中点，$AD \\perp BC$，$EH \\perp BC$，$FG \\perp BC$，$D$，$H$，$G$ 为垂足，若将正三角形 $ABC$ 绕 $AD$ 旋转一周所得的圆锥的体积为 $V$，则其中由阴影部分所产生的旋转体的体积与 $V$ 的比值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{5}{8}$",
-          "solution": "<p>设正三角形边长为 $s$，高为 $h$，则旋转所得圆锥的底面半径为 $R=\\frac{s}{2}$，体积为 $V=\\frac{1}{3}\\pi R^{2}h$. 由于 $E$，$F$ 是两腰中点，$EF$ 到 $AD$ 的半径为 $r=\\frac{s}{4}=\\frac{R}{2}$，其高度为 $\\frac{h}{2}$. 阴影上部旋转成小圆锥，体积比为</p>\n$$\n\\frac{V_{\\mathrm{top}}}{V}=\\left(\\frac{r}{R}\\right)^{2}\\frac{\\frac{h}{2}}{h}=\\frac{1}{8}\n$$\n<p>下部两侧阴影旋转所得体积等于下半段圆锥台体积减去中间矩形旋转成的圆柱体积. 下半段圆锥台占 $V$ 的 $1-\\frac{1}{8}=\\frac{7}{8}$，圆柱体积为 $\\pi r^{2}\\frac{h}{2}$，故</p>\n$$\n\\frac{V_{\\mathrm{cyl}}}{V}=\\frac{\\pi(\\frac{R}{2})^{2}(\\frac{h}{2})}{\\frac{1}{3}\\pi R^{2}h}=\\frac{3}{8}\n$$\n<p>所以阴影下部占 $\\frac{7}{8}-\\frac{3}{8}=\\frac{1}{2}$，阴影总体积与 $V$ 的比值为 $\\frac{1}{8}+\\frac{1}{2}=\\frac{5}{8}$.</p>"
+          "body": "<p>如图，在正三角形 $ABC$ 中，$E$，$F$ 依次是 $AB$，$AC$ 的中点，$AD \\perp BC$，$EH \\perp BC$，$FG \\perp BC$，$D$，$H$，$G$ 为垂足，若将正三角形 $ABC$ 绕 $AD$ 旋转一周所得的圆锥的体积为 $V$，则其中由阴影部分所产生的旋转体的体积与 $V$ 的比值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{5}{8}\\)",
+          "solution": "<p>设正三角形边长为 $s$，高为 $h$，则旋转所得圆锥的底面半径为 $R=\\frac{s}{2}$，体积为 $V=\\frac{1}{3}\\pi R^{2}h$. 由于 $E$，$F$ 是两腰中点，$EF$ 到 $AD$ 的半径为 $r=\\frac{s}{4}=\\frac{R}{2}$，其高度为 $\\frac{h}{2}$. 阴影上部旋转成小圆锥，体积比为</p>\n$$\n\\frac{V_{\\mathrm{top}}}{V}=\\left(\\frac{r}{R}\\right)^{2}\\frac{\\frac{h}{2}}{h}=\\frac{1}{8}\n$$\n<p>下部两侧阴影旋转所得体积等于下半段圆锥台体积减去中间矩形旋转成的圆柱体积. 下半段圆锥台占 $V$ 的 $1-\\frac{1}{8}=\\frac{7}{8}$，圆柱体积为 $\\pi r^{2}\\frac{h}{2}$，故</p>\n$$\n\\frac{V_{\\mathrm{cyl}}}{V}=\\frac{\\pi(\\frac{R}{2})^{2}(\\frac{h}{2})}{\\frac{1}{3}\\pi R^{2}h}=\\frac{3}{8}\n$$\n<p>所以阴影下部占 $\\frac{7}{8}-\\frac{3}{8}=\\frac{1}{2}$，阴影总体积与 $V$ 的比值为 $\\frac{1}{8}+\\frac{1}{2}=\\frac{5}{8}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "已知 $\\mathbf{a}+\\mathbf{b}=2\\mathbf{i}-8\\mathbf{j}$，$\\mathbf{a}-\\mathbf{b}=-8\\mathbf{i}+16\\mathbf{j}$. 那么 $\\mathbf{a}\\cdot\\mathbf{b}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-63$",
-          "solution": "<p>利用恒等式 $(\\mathbf{a}+\\mathbf{b})^{2}-(\\mathbf{a}-\\mathbf{b})^{2}=4\\mathbf{a}\\cdot\\mathbf{b}$. 由题设</p>\n$$\n\\left\\lvert\\mathbf{a}+\\mathbf{b}\\right\\rvert^{2}=2^{2}+(-8)^{2}=68\n$$\n<p>又 $\\left\\lvert\\mathbf{a}-\\mathbf{b}\\right\\rvert^{2}=(-8)^{2}+16^{2}=320$.</p><p>因此</p>\n$$\n4\\mathbf{a}\\cdot\\mathbf{b}=68-320=-252\n$$\n<p>从而 $\\mathbf{a}\\cdot\\mathbf{b}=-63$.</p>"
+          "choices": [],
+          "answer": "\\(-63\\)",
+          "solution": "<p>利用恒等式 $(\\mathbf{a}+\\mathbf{b})^{2}-(\\mathbf{a}-\\mathbf{b})^{2}=4\\mathbf{a}\\cdot\\mathbf{b}$. 由题设</p>\n$$\n\\left\\lvert\\mathbf{a}+\\mathbf{b}\\right\\rvert^{2}=2^{2}+(-8)^{2}=68\n$$\n<p>又 $\\left\\lvert\\mathbf{a}-\\mathbf{b}\\right\\rvert^{2}=(-8)^{2}+16^{2}=320$.</p><p>因此</p>\n$$\n4\\mathbf{a}\\cdot\\mathbf{b}=68-320=-252\n$$\n<p>从而 $\\mathbf{a}\\cdot\\mathbf{b}=-63$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "$\\displaystyle\\lim_{x\\to2}\\left(\\frac{4}{x^{2}-4}-\\frac{1}{x-2}\\right)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-\\frac{1}{4}$",
-          "solution": "<p>当 $x\\neq2$ 时，</p>\n$$\n\\frac{4}{x^{2}-4}-\\frac{1}{x-2}=\\frac{4}{(x-2)(x+2)}-\\frac{x+2}{(x-2)(x+2)}=-\\frac{1}{x+2}\n$$\n<p>因此</p>\n$$\n\\lim_{x\\to2}\\left(\\frac{4}{x^{2}-4}-\\frac{1}{x-2}\\right)  =\\lim_{x\\to2}\\left(-\\frac{1}{x+2}\\right)=-\\frac{1}{4}\n$$"
+          "choices": [],
+          "answer": "\\(-\\frac{1}{4}\\)",
+          "solution": "<p>当 $x\\neq2$ 时，</p>\n$$\n\\frac{4}{x^{2}-4}-\\frac{1}{x-2}=\\frac{4}{(x-2)(x+2)}-\\frac{x+2}{(x-2)(x+2)}=-\\frac{1}{x+2}\n$$\n<p>因此</p>\n$$\n\\lim_{x\\to2}\\left(\\frac{4}{x^{2}-4}-\\frac{1}{x-2}\\right)  =\\lim_{x\\to2}\\left(-\\frac{1}{x+2}\\right)=-\\frac{1}{4}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "有 $8$ 本互不相同的书，其中数学书 $3$ 本，外文书 $2$ 本，其它书 $3$ 本. 若将这些书随机地排成一列放在书架上，则数学书恰好排在一起，外文书也恰好排在一起的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>（结果用分数表示）.",
-          "choices": null,
-          "answer": "$\\frac{1}{28}$",
-          "solution": "<p>八本书互不相同，所有排列共有 $8!$ 种. 将三本数学书看作一个整体、两本外文书看作一个整体，再与三本其它书排列，有 $5!$ 种整体排列；两个整体内部的排列数分别为 $3!$、$2!$. 故所求概率为</p>\n$$\n\\frac{5!\\cdot3!\\cdot2!}{8!}=\\frac{1440}{40320}=\\frac{1}{28}\n$$"
+          "choices": [],
+          "answer": "\\(\\frac{1}{28}\\)",
+          "solution": "<p>八本书互不相同，所有排列共有 $8!$ 种. 将三本数学书看作一个整体、两本外文书看作一个整体，再与三本其它书排列，有 $5!$ 种整体排列；两个整体内部的排列数分别为 $3!$、$2!$. 故所求概率为</p>\n$$\n\\frac{5!\\cdot3!\\cdot2!}{8!}=\\frac{1440}{40320}=\\frac{1}{28}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "若 $\\mathrm{i}$ 是虚数单位，计算：$\\displaystyle \\frac{(1+\\sqrt{3}\\mathrm{i})^{5}}{16\\sqrt{2}\\left(\\cos\\frac{\\pi}{6}-\\mathrm{i}\\sin\\frac{\\pi}{6}\\right)}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{\\sqrt{6}}{2}-\\frac{\\sqrt{2}}{2}\\mathrm{i}$（或 $\\sqrt{2}\\left(\\cos \\frac{11\\pi}{6}+\\mathrm{i}\\sin \\frac{11\\pi}{6}\\right)$）",
-          "solution": "<p>有 $1+\\sqrt{3}\\mathrm{i}=2\\left(\\cos\\frac{\\pi}{3}+\\mathrm{i}\\sin\\frac{\\pi}{3}\\right)$，所以</p>\n$$\n(1+\\sqrt{3}\\mathrm{i})^{5}=2^{5}\\left(\\cos\\frac{5\\pi}{3}+\\mathrm{i}\\sin\\frac{5\\pi}{3}\\right)\n$$\n<p>分母为</p>\n$$\n16\\sqrt{2}\\left(\\cos\\frac{\\pi}{6}-\\mathrm{i}\\sin\\frac{\\pi}{6}\\right)  =16\\sqrt{2}\\left(\\cos\\left(-\\frac{\\pi}{6}\\right)+\\mathrm{i}\\sin\\left(-\\frac{\\pi}{6}\\right)\\right)\n$$\n<p>故原式的模为 $\\frac{32}{16\\sqrt{2}}=\\sqrt{2}$，辐角为 $\\frac{5\\pi}{3}-\\left(-\\frac{\\pi}{6}\\right)=\\frac{11\\pi}{6}$. 因此</p>\n$$\n\\sqrt{2}\\left(\\cos\\frac{11\\pi}{6}+\\mathrm{i}\\sin\\frac{11\\pi}{6}\\right)=\\frac{\\sqrt{6}}{2}-\\frac{\\sqrt{2}}{2}\\mathrm{i}\n$$"
+          "choices": [],
+          "answer": "\\(\\frac{\\sqrt{6}}{2}-\\frac{\\sqrt{2}}{2}\\mathrm{i}\\)（或 \\(\\sqrt{2}\\left(\\cos \\frac{11\\pi}{6}+\\mathrm{i}\\sin \\frac{11\\pi}{6}\\right)\\)）",
+          "solution": "<p>有 $1+\\sqrt{3}\\mathrm{i}=2\\left(\\cos\\frac{\\pi}{3}+\\mathrm{i}\\sin\\frac{\\pi}{3}\\right)$，所以</p>\n$$\n(1+\\sqrt{3}\\mathrm{i})^{5}=2^{5}\\left(\\cos\\frac{5\\pi}{3}+\\mathrm{i}\\sin\\frac{5\\pi}{3}\\right)\n$$\n<p>分母为</p>\n$$\n16\\sqrt{2}\\left(\\cos\\frac{\\pi}{6}-\\mathrm{i}\\sin\\frac{\\pi}{6}\\right)  =16\\sqrt{2}\\left(\\cos\\left(-\\frac{\\pi}{6}\\right)+\\mathrm{i}\\sin\\left(-\\frac{\\pi}{6}\\right)\\right)\n$$\n<p>故原式的模为 $\\frac{32}{16\\sqrt{2}}=\\sqrt{2}$，辐角为 $\\frac{5\\pi}{3}-\\left(-\\frac{\\pi}{6}\\right)=\\frac{11\\pi}{6}$. 因此</p>\n$$\n\\sqrt{2}\\left(\\cos\\frac{11\\pi}{6}+\\mathrm{i}\\sin\\frac{11\\pi}{6}\\right)=\\frac{\\sqrt{6}}{2}-\\frac{\\sqrt{2}}{2}\\mathrm{i}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -219,23 +440,29 @@
         {
           "num": 23,
           "body": "已知 $\\sin\\left(\\frac{\\pi}{4}+\\alpha\\right)\\sin\\left(\\frac{\\pi}{4}-\\alpha\\right)=\\frac{1}{6}$，$\\alpha\\in\\left(\\frac{\\pi}{2},\\pi\\right)$，求 $\\sin 4\\alpha$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由</p>\n$$\n\\sin\\left(\\frac{\\pi}{4}+\\alpha\\right)\\sin\\left(\\frac{\\pi}{4}-\\alpha\\right)  =\\sin\\left(\\frac{\\pi}{4}+\\alpha\\right)\\cos\\left(\\frac{\\pi}{4}+\\alpha\\right)  =\\frac{1}{2}\\sin\\left(\\frac{\\pi}{2}+2\\alpha\\right)  =\\frac{1}{2}\\cos2\\alpha\n$$\n<p>得 $\\cos2\\alpha=\\frac{1}{3}$. 又 $\\alpha\\in\\left(\\frac{\\pi}{2},\\pi\\right)$，所以 $2\\alpha\\in(\\pi,2\\pi)$，从而</p><p>$\\sin2\\alpha=-\\frac{2\\sqrt{2}}{3}$.</p><p>于是</p>\n$$\n\\sin4\\alpha=2\\sin2\\alpha\\cos2\\alpha  =2\\cdot\\left(-\\frac{2\\sqrt{2}}{3}\\right)\\cdot\\frac{1}{3}=-\\frac{4\\sqrt{2}}{9}\n$$"
+          "solution": "<p>由</p>\n$$\n\\sin\\left(\\frac{\\pi}{4}+\\alpha\\right)\\sin\\left(\\frac{\\pi}{4}-\\alpha\\right)  =\\sin\\left(\\frac{\\pi}{4}+\\alpha\\right)\\cos\\left(\\frac{\\pi}{4}+\\alpha\\right)  =\\frac{1}{2}\\sin\\left(\\frac{\\pi}{2}+2\\alpha\\right)  =\\frac{1}{2}\\cos2\\alpha\n$$\n<p>得 $\\cos2\\alpha=\\frac{1}{3}$. 又 $\\alpha\\in\\left(\\frac{\\pi}{2},\\pi\\right)$，所以 $2\\alpha\\in(\\pi,2\\pi)$，从而</p><p>$\\sin2\\alpha=-\\frac{2\\sqrt{2}}{3}$.</p><p>于是</p>\n$$\n\\sin4\\alpha=2\\sin2\\alpha\\cos2\\alpha  =2\\cdot\\left(-\\frac{2\\sqrt{2}}{3}\\right)\\cdot\\frac{1}{3}=-\\frac{4\\sqrt{2}}{9}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 24,
-          "body": "<p>在如图所示的直角坐标系中，一运动物体经过点 $A(0,9)$，其轨迹方程为 $y=ax^{2}+c$（$a<0$），$D=(6,7)$ 为 $x$ 轴上的给定区间.</p><ol class=\"enumerate\"><li><p>为使物体落在 $D$ 内，求 $a$ 的取值范围；</p></li><li><p>若物体运动时又经过点 $P(2,8.1)$，问它能否落在 $D$ 内？并说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>在如图所示的直角坐标系中，一运动物体经过点 $A(0,9)$，其轨迹方程为 $y=ax^{2}+c$（$a<0$），$D=(6,7)$ 为 $x$ 轴上的给定区间.</p><ol class=\"enumerate\"><li><p>为使物体落在 $D$ 内，求 $a$ 的取值范围；</p></li><li><p>若物体运动时又经过点 $P(2,8.1)$，问它能否落在 $D$ 内？并说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由点 $A$ 的坐标为 $(0,9)$，得 $c=9$，即轨迹方程为 $y=ax^{2}+9$. 令 $y=0$，得 $ax^{2}+9=0$，即 $x^{2}=-\\frac{9}{a}$. 物体落在正 $x$ 轴上的区间 $D$ 内时，取交点的正横坐标 $x_{0}=\\sqrt{-\\frac{9}{a}}$，故 $6<\\sqrt{-\\frac{9}{a}}<7$，解得 $-\\frac{1}{4}<a<-\\frac{9}{49}$.</p></li><li><p>若物体又经过点 $P(2,8.1)$，则 $8.1=4a+9$，解得 $a=-\\frac{9}{40}$. 因为 $-\\frac{1}{4}<-\\frac{9}{40}<-\\frac{9}{49}$，所以物体能落在 $D$ 内.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由点 $A$ 的坐标为 $(0,9)$，得 $c=9$，即轨迹方程为 $y=ax^{2}+9$. 令 $y=0$，得 $ax^{2}+9=0$，即 $x^{2}=-\\frac{9}{a}$. 物体落在正 $x$ 轴上的区间 $D$ 内时，取交点的正横坐标 $x_{0}=\\sqrt{-\\frac{9}{a}}$，故 $6<\\sqrt{-\\frac{9}{a}}<7$，解得 $-\\frac{1}{4}<a<-\\frac{9}{49}$.</p></li><li><p>若物体又经过点 $P(2,8.1)$，则 $8.1=4a+9$，解得 $a=-\\frac{9}{40}$. 因为 $-\\frac{1}{4}<-\\frac{9}{40}<-\\frac{9}{49}$，所以物体能落在 $D$ 内.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 25,
-          "body": "<p>如图，在二面角 $\\alpha-l-\\beta$ 中，$A$，$B\\in\\alpha$，$C$，$D\\in l$，$ABCD$ 为矩形. $P\\in\\beta$，$PA\\perp\\alpha$，且 $PA=AD$. $M$，$N$ 依次是 $AB$，$PC$ 的中点.</p><ol class=\"enumerate\"><li><p>求二面角 $\\alpha-l-\\beta$ 的大小；</p></li><li><p>求证：$MN\\perp AB$；</p></li><li><p>求异面直线 $PA$ 与 $MN$ 所成角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
-          "choices": null,
+          "body": "<p>如图，在二面角 $\\alpha-l-\\beta$ 中，$A$，$B\\in\\alpha$，$C$，$D\\in l$，$ABCD$ 为矩形. $P\\in\\beta$，$PA\\perp\\alpha$，且 $PA=AD$. $M$，$N$ 依次是 $AB$，$PC$ 的中点.</p><ol class=\"enumerate\"><li><p>求二面角 $\\alpha-l-\\beta$ 的大小；</p></li><li><p>求证：$MN\\perp AB$；</p></li><li><p>求异面直线 $PA$ 与 $MN$ 所成角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>连接 $PD$. 由于 $l\\subset\\alpha$ 且 $PA\\perp\\alpha$，有 $PA\\perp l$. 又因 $ABCD$ 为矩形、$AB\\parallel CD$，而 $C$，$D\\in l$，所以 $AB\\parallel l$，从而 $AD\\perp l$. 直线 $PA$，$AD$ 相交且都垂直于 $l$，故平面 $PAD\\perp l$，于是 $PD\\perp l$. 平面 $PAD$ 与两个半平面 $\\alpha$，$\\beta$ 的交线分别为 $AD$，$PD$，所以 $\\angle PDA$ 是二面角 $\\alpha-l-\\beta$ 的平面角. 在 $\\mathrm{Rt}\\triangle PAD$ 中，$PA=AD$，所以 $\\angle PDA=45^{\\circ}$，即二面角 $\\alpha-l-\\beta$ 的大小为 $45^{\\circ}$.</p></li><li><p>设 $E$ 是 $DC$ 的中点，连接 $ME$，$NE$. 因为 $M$，$N$，$E$ 依次是 $AB$，$PC$，$DC$ 的中点，所以 $ME\\parallel AD$，$NE\\parallel PD$. 又 $AD\\perp l$，$PD\\perp l$，所以 $ME\\perp l$，$NE\\perp l$，从而 $l\\perp$ 平面 $MNE$. 因为 $AB\\parallel l$，所以 $AB\\perp$ 平面 $MNE$. 又 $MN\\subset$ 平面 $MNE$，故 $MN\\perp AB$.</p></li><li><p>设 $Q$ 是 $DP$ 的中点，连接 $NQ$，$AQ$. 因为 $NQ\\parallel DC$ 且 $NQ=\\frac{1}{2}DC$，又 $AM\\parallel DC$ 且 $AM=\\frac{1}{2}AB=\\frac{1}{2}DC$，所以 $QN\\parallel AM$ 且 $QN=AM$，从而 $QNMA$ 为平行四边形，故 $AQ\\parallel MN$. 于是 $\\angle PAQ$ 是异面直线 $PA$ 与 $MN$ 所成的角. 又 $\\triangle PAD$ 是等腰直角三角形，$AQ$ 为斜边上的中线，所以 $\\angle PAQ=45^{\\circ}$. 因此异面直线 $PA$ 与 $MN$ 所成角的大小为 $45^{\\circ}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>连接 $PD$. 由于 $l\\subset\\alpha$ 且 $PA\\perp\\alpha$，有 $PA\\perp l$. 又因 $ABCD$ 为矩形、$AB\\parallel CD$，而 $C$，$D\\in l$，所以 $AB\\parallel l$，从而 $AD\\perp l$. 直线 $PA$，$AD$ 相交且都垂直于 $l$，故平面 $PAD\\perp l$，于是 $PD\\perp l$. 平面 $PAD$ 与两个半平面 $\\alpha$，$\\beta$ 的交线分别为 $AD$，$PD$，所以 $\\angle PDA$ 是二面角 $\\alpha-l-\\beta$ 的平面角. 在 $\\mathrm{Rt}\\triangle PAD$ 中，$PA=AD$，所以 $\\angle PDA=45^{\\circ}$，即二面角 $\\alpha-l-\\beta$ 的大小为 $45^{\\circ}$.</p></li><li><p>设 $E$ 是 $DC$ 的中点，连接 $ME$，$NE$. 因为 $M$，$N$，$E$ 依次是 $AB$，$PC$，$DC$ 的中点，所以 $ME\\parallel AD$，$NE\\parallel PD$. 又 $AD\\perp l$，$PD\\perp l$，所以 $ME\\perp l$，$NE\\perp l$，从而 $l\\perp$ 平面 $MNE$. 因为 $AB\\parallel l$，所以 $AB\\perp$ 平面 $MNE$. 又 $MN\\subset$ 平面 $MNE$，故 $MN\\perp AB$.</p></li><li><p>设 $Q$ 是 $DP$ 的中点，连接 $NQ$，$AQ$. 因为 $NQ\\parallel DC$ 且 $NQ=\\frac{1}{2}DC$，又 $AM\\parallel DC$ 且 $AM=\\frac{1}{2}AB=\\frac{1}{2}DC$，所以 $QN\\parallel AM$ 且 $QN=AM$，从而 $QNMA$ 为平行四边形，故 $AQ\\parallel MN$. 于是 $\\angle PAQ$ 是异面直线 $PA$ 与 $MN$ 所成的角. 又 $\\triangle PAD$ 是等腰直角三角形，$AQ$ 为斜边上的中线，所以 $\\angle PAQ=45^{\\circ}$. 因此异面直线 $PA$ 与 $MN$ 所成角的大小为 $45^{\\circ}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -245,16 +472,20 @@
         {
           "num": 26,
           "body": "<ol class=\"enumerate\"><li><p>设 $z$ 是虚数，$w=z+\\frac{1}{z}$ 是实数，且 $-1<w<2$. 求 $\\left|z\\right|$ 的值及 $z$ 的实部的取值范围；</p></li><li><p>设 $u=\\frac{1-z}{1+z}$. 求证：$u$ 为纯虚数；</p></li><li><p>求 $w-u^{2}$ 的最小值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $z=a+b\\mathrm{i}$（$a$，$b\\in\\mathbb{R}$，$b\\neq0$），则 $w=a+b\\mathrm{i}+\\frac{a-b\\mathrm{i}}{a^{2}+b^{2}}=\\left(a+\\frac{a}{a^{2}+b^{2}}\\right)+\\left(b-\\frac{b}{a^{2}+b^{2}}\\right)\\mathrm{i}$.</p><p>因为 $w$ 是实数，故 $a^{2}+b^{2}=1$，即 $\\left|z\\right|=1$. 又 $w=2a$，由 $-1<w<2$ 得 $-\\frac{1}{2}<a<1$.</p></li><li><p>由 $z=a+b\\mathrm{i}$ 及 $a^{2}+b^{2}=1$，得</p>\n$$\nu=\\frac{1-z}{1+z}=\\frac{1-a-b\\mathrm{i}}{1+a+b\\mathrm{i}}=\\frac{(1-a-b\\mathrm{i})(1+a-b\\mathrm{i})}{(1+a+b\\mathrm{i})(1+a-b\\mathrm{i})}=\\frac{1-a^{2}-b^{2}-2b\\mathrm{i}}{(1+a)^{2}+b^{2}}=-\\frac{b}{a+1}\\mathrm{i}\n$$\n<p>所以 $u$ 为纯虚数.</p></li><li><p>由 $u=\\frac{1-z}{1+z}=-\\frac{b}{a+1}\\mathrm{i}$，得 $u^{2}=-\\frac{b^{2}}{(a+1)^{2}}$.</p><p>于是</p>\n$$\nw-u^{2}=2a+\\frac{b^{2}}{(a+1)^{2}}=2a+\\frac{1-a^{2}}{(a+1)^{2}}=2\\left((a+1)+\\frac{1}{a+1}\\right)-3\n$$\n<p>因为 $a\\in\\left(-\\frac{1}{2},1\\right)$，所以 $a+1>0$，由 AM-GM 得 $(a+1)+\\frac{1}{a+1}\\ge 2$，</p><p>故 $w-u^{2}\\ge1$. 当 $a=0$ 时取等号，所以最小值为 $1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $z=a+b\\mathrm{i}$（$a$，$b\\in\\mathbb{R}$，$b\\neq0$），则 $w=a+b\\mathrm{i}+\\frac{a-b\\mathrm{i}}{a^{2}+b^{2}}=\\left(a+\\frac{a}{a^{2}+b^{2}}\\right)+\\left(b-\\frac{b}{a^{2}+b^{2}}\\right)\\mathrm{i}$.</p><p>因为 $w$ 是实数，故 $a^{2}+b^{2}=1$，即 $\\left|z\\right|=1$. 又 $w=2a$，由 $-1<w<2$ 得 $-\\frac{1}{2}<a<1$.</p></li><li><p>由 $z=a+b\\mathrm{i}$ 及 $a^{2}+b^{2}=1$，得</p>\n$$\nu=\\frac{1-z}{1+z}=\\frac{1-a-b\\mathrm{i}}{1+a+b\\mathrm{i}}=\\frac{(1-a-b\\mathrm{i})(1+a-b\\mathrm{i})}{(1+a+b\\mathrm{i})(1+a-b\\mathrm{i})}=\\frac{1-a^{2}-b^{2}-2b\\mathrm{i}}{(1+a)^{2}+b^{2}}=-\\frac{b}{a+1}\\mathrm{i}\n$$\n<p>所以 $u$ 为纯虚数.</p></li><li><p>由 $u=\\frac{1-z}{1+z}=-\\frac{b}{a+1}\\mathrm{i}$，得 $u^{2}=-\\frac{b^{2}}{(a+1)^{2}}$.</p><p>于是</p>\n$$\nw-u^{2}=2a+\\frac{b^{2}}{(a+1)^{2}}=2a+\\frac{1-a^{2}}{(a+1)^{2}}=2\\left((a+1)+\\frac{1}{a+1}\\right)-3\n$$\n<p>因为 $a\\in\\left(-\\frac{1}{2},1\\right)$，所以 $a+1>0$，由 AM-GM 得 $(a+1)+\\frac{1}{a+1}\\ge 2$，</p><p>故 $w-u^{2}\\ge1$. 当 $a=0$ 时取等号，所以最小值为 $1$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 27,
           "body": "<p>已知 $A(-1,2)$ 为抛物线 $C:y=2x^{2}$ 上的点，直线 $l_{1}$ 过点 $A$，且与抛物线 $C$ 相切. 直线 $l_{2}:x=a$（$a\\neq-1$）交抛物线 $C$ 于点 $B$，交直线 $l_{1}$ 于点 $D$.</p><ol class=\"enumerate\"><li><p>求直线 $l_{1}$ 的方程；</p></li><li><p>设 $\\triangle ABD$ 的面积为 $S_{1}$，求 $|BD|$ 及 $S_{1}$ 的值；</p></li><li><p>设由抛物线 $C$，直线 $l_{1}$，$l_{2}$ 所围成的图形的面积为 $S_{2}$，求证：$S_{1}:S_{2}$ 的值为与 $a$ 无关的常数.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $y=2x^{2}$ 得 $y'=4x$. 当 $x=-1$ 时，$y'=-4$，所以 $l_{1}$ 的方程为 $y-2=-4(x+1)$，</p><p>即 $4x+y+2=0$.</p></li><li><p>由 $y=2x^{2}$ 及 $x=a$，解得点 $B$ 的坐标为 $(a,2a^{2})$.</p><p>由 $4x+y+2=0$ 及 $x=a$，解得点 $D$ 的坐标为 $(a,-4a-2)$.</p><p>又可求得 $A$ 到直线 $BD$ 的距离为 $|a+1|$，$|BD|=2a^{2}+4a+2=2(a+1)^{2}$. 所以 $S_{1}=|a+1|^{3}$.</p></li><li><p>由题意，当 $a>-1$ 时，</p>\n$$\nS_{2}=\\int_{-1}^{a}(2x^{2}+4x+2)\\,dx  =\\left(\\frac{2}{3}x^{3}+2x^{2}+2x\\right)\\Big|_{-1}^{a}=\\frac{2}{3}(a+1)^{3}\n$$\n<p>当 $a<-1$ 时，$S_{2}=\\int_{a}^{-1}(2x^{2}+4x+2)\\,dx=-\\frac{2}{3}(a+1)^{3}$.</p><p>因此 $S_{1}:S_{2}=\\frac{3}{2}$，</p><p>即 $S_{1}:S_{2}$ 的值为与 $a$ 无关的常数.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $y=2x^{2}$ 得 $y'=4x$. 当 $x=-1$ 时，$y'=-4$，所以 $l_{1}$ 的方程为 $y-2=-4(x+1)$，</p><p>即 $4x+y+2=0$.</p></li><li><p>由 $y=2x^{2}$ 及 $x=a$，解得点 $B$ 的坐标为 $(a,2a^{2})$.</p><p>由 $4x+y+2=0$ 及 $x=a$，解得点 $D$ 的坐标为 $(a,-4a-2)$.</p><p>又可求得 $A$ 到直线 $BD$ 的距离为 $|a+1|$，$|BD|=2a^{2}+4a+2=2(a+1)^{2}$. 所以 $S_{1}=|a+1|^{3}$.</p></li><li><p>由题意，当 $a>-1$ 时，</p>\n$$\nS_{2}=\\int_{-1}^{a}(2x^{2}+4x+2)\\,dx  =\\left(\\frac{2}{3}x^{3}+2x^{2}+2x\\right)\\Big|_{-1}^{a}=\\frac{2}{3}(a+1)^{3}\n$$\n<p>当 $a<-1$ 时，$S_{2}=\\int_{a}^{-1}(2x^{2}+4x+2)\\,dx=-\\frac{2}{3}(a+1)^{3}$.</p><p>因此 $S_{1}:S_{2}=\\frac{3}{2}$，</p><p>即 $S_{1}:S_{2}$ 的值为与 $a$ 无关的常数.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -263,17 +494,21 @@
       "problems": [
         {
           "num": 28,
-          "body": "<p>已知双曲线 $S$ 的两条渐近线过坐标原点，且与以点 $A(\\sqrt{2},0)$ 为圆心，$1$ 为半径的圆相切，双曲线 $S$ 的一个顶点 $A'$ 与点 $A$ 关于直线 $y=x$ 对称. 设直线 $l$ 过点 $A$，斜率为 $k$.</p><ol class=\"enumerate\"><li><p>求双曲线 $S$ 的方程；</p></li><li><p>当 $k=1$ 时，在双曲线 $S$ 的上支上求点 $B$，使其与直线 $l$ 的距离为 $\\sqrt{2}$；</p></li><li><p>当 $0 \\le k < 1$ 时，若双曲线 $S$ 的上支上有且只有一个点 $B$ 到直线 $l$ 的距离为 $\\sqrt{2}$，求斜率 $k$ 的值及相应的点 $B$ 的坐标.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q23_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>已知双曲线 $S$ 的两条渐近线过坐标原点，且与以点 $A(\\sqrt{2},0)$ 为圆心，$1$ 为半径的圆相切，双曲线 $S$ 的一个顶点 $A'$ 与点 $A$ 关于直线 $y=x$ 对称. 设直线 $l$ 过点 $A$，斜率为 $k$.</p><ol class=\"enumerate\"><li><p>求双曲线 $S$ 的方程；</p></li><li><p>当 $k=1$ 时，在双曲线 $S$ 的上支上求点 $B$，使其与直线 $l$ 的距离为 $\\sqrt{2}$；</p></li><li><p>当 $0 \\le k < 1$ 时，若双曲线 $S$ 的上支上有且只有一个点 $B$ 到直线 $l$ 的距离为 $\\sqrt{2}$，求斜率 $k$ 的值及相应的点 $B$ 的坐标.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1996/img/shanghai_science/q23_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设双曲线的一条渐近线为 $y=rx$. 该直线与圆相切，所以圆心 $A(\\sqrt{2},0)$ 到它的距离为 $1$，即 $\\frac{\\sqrt{2}|r|}{\\sqrt{1+r^{2}}}=1$，从而 $r^{2}=1$，两条渐近线为 $y=\\pm x$. 点 $A$ 关于 $y=x$ 的对称点为 $A'(0,\\sqrt{2})$，故 $S$ 是以 $y$ 轴为实轴的等轴双曲线，方程为 $\\frac{y^{2}}{2}-\\frac{x^{2}}{2}=1$.</p></li><li><p>当 $k=1$ 时，直线 $l$ 的方程为 $y=x-\\sqrt{2}$. 若 $B\\bigl(x,\\sqrt{x^{2}+2}\\bigr)$ 在双曲线 $S$ 的上支上，则距离条件给出 $\\frac{\\left|x-\\sqrt{x^{2}+2}-\\sqrt{2}\\right|}{\\sqrt{2}}=\\sqrt{2}$. 由于 $x-\\sqrt{x^{2}+2}-\\sqrt{2}<0$，所以 $\\sqrt{x^{2}+2}-x=2-\\sqrt{2}$. 两边平方并整理得 $x=\\frac{2-(2-\\sqrt{2})^{2}}{2(2-\\sqrt{2})}=\\sqrt{2}$，于是 $y=\\sqrt{2+2}=2$. 将 $(\\sqrt{2},2)$ 代回 $y=\\sqrt{x^{2}+2}$ 及距离条件均成立，因此点 $B$ 的坐标是 $(\\sqrt{2},2)$.</p></li><li><p>当 $0\\le k<1$ 时，双曲线 $S$ 的上支在直线 $l:y=k(x-\\sqrt{2})$ 的上方：若 $x\\le\\sqrt{2}$，则 $k(x-\\sqrt{2})\\leqslant0<\\sqrt{x^{2}+2}$；若 $x>\\sqrt{2}$，则 $k(x-\\sqrt{2})<x-\\sqrt{2}<x<\\sqrt{x^{2}+2}$. 设直线 $l'$ 与 $l$ 平行，在 $l$ 的上方且与 $l$ 的距离为 $\\sqrt{2}$. 由两平行线间的距离公式，若 $l'$ 为 $y=kx+m$，则 $\\frac{|\\sqrt{2}k+m|}{\\sqrt{k^{2}+1}}=\\sqrt{2}$，从而 $m=\\sqrt{2}\\left(\\pm\\sqrt{k^{2}+1}-k\\right)$. 取位于 $l$ 上方的直线，得 $m=\\sqrt{2}\\left(\\sqrt{k^{2}+1}-k\\right)$. 此时，题目条件等价于 $l'$ 与双曲线的上支相切.</p><p>将 $y=kx+m$ 代入 $y^{2}-x^{2}=2$，得 $(k^{2}-1)x^{2}+2mkx+m^{2}-2=0$. 因为 $0\\le k<1$，二次项系数不为零，切线条件为判别式为零，即 $\\Delta=4(m^{2}+2k^{2}-2)=8k\\left(3k-2\\sqrt{k^{2}+1}\\right)=0$. 因而 $k=0$，或 $3k=2\\sqrt{k^{2}+1}$. 后者在给定范围内等价于 $9k^{2}=4(k^{2}+1)$，故 $k=\\frac{2\\sqrt{5}}{5}$.</p><p>当 $k=0$ 时，$m=\\sqrt{2}$，切点为 $(0,\\sqrt{2})$. 当 $k=\\frac{2\\sqrt{5}}{5}$ 时，$m=\\frac{\\sqrt{10}}{5}$，由二次方程的重根公式得 $x=2\\sqrt{2}$，再由 $y=kx+m$ 得 $y=\\sqrt{10}$. 所以相应的点分别为 $(0,\\sqrt{2})$ 和 $(2\\sqrt{2},\\sqrt{10})$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设双曲线的一条渐近线为 $y=rx$. 该直线与圆相切，所以圆心 $A(\\sqrt{2},0)$ 到它的距离为 $1$，即 $\\frac{\\sqrt{2}|r|}{\\sqrt{1+r^{2}}}=1$，从而 $r^{2}=1$，两条渐近线为 $y=\\pm x$. 点 $A$ 关于 $y=x$ 的对称点为 $A'(0,\\sqrt{2})$，故 $S$ 是以 $y$ 轴为实轴的等轴双曲线，方程为 $\\frac{y^{2}}{2}-\\frac{x^{2}}{2}=1$.</p></li><li><p>当 $k=1$ 时，直线 $l$ 的方程为 $y=x-\\sqrt{2}$. 若 $B\\bigl(x,\\sqrt{x^{2}+2}\\bigr)$ 在双曲线 $S$ 的上支上，则距离条件给出 $\\frac{\\left|x-\\sqrt{x^{2}+2}-\\sqrt{2}\\right|}{\\sqrt{2}}=\\sqrt{2}$. 由于 $x-\\sqrt{x^{2}+2}-\\sqrt{2}<0$，所以 $\\sqrt{x^{2}+2}-x=2-\\sqrt{2}$. 两边平方并整理得 $x=\\frac{2-(2-\\sqrt{2})^{2}}{2(2-\\sqrt{2})}=\\sqrt{2}$，于是 $y=\\sqrt{2+2}=2$. 将 $(\\sqrt{2},2)$ 代回 $y=\\sqrt{x^{2}+2}$ 及距离条件均成立，因此点 $B$ 的坐标是 $(\\sqrt{2},2)$.</p></li><li><p>当 $0\\le k<1$ 时，双曲线 $S$ 的上支在直线 $l:y=k(x-\\sqrt{2})$ 的上方：若 $x\\le\\sqrt{2}$，则 $k(x-\\sqrt{2})\\leqslant0<\\sqrt{x^{2}+2}$；若 $x>\\sqrt{2}$，则 $k(x-\\sqrt{2})<x-\\sqrt{2}<x<\\sqrt{x^{2}+2}$. 设直线 $l'$ 与 $l$ 平行，在 $l$ 的上方且与 $l$ 的距离为 $\\sqrt{2}$. 由两平行线间的距离公式，若 $l'$ 为 $y=kx+m$，则 $\\frac{|\\sqrt{2}k+m|}{\\sqrt{k^{2}+1}}=\\sqrt{2}$，从而 $m=\\sqrt{2}\\left(\\pm\\sqrt{k^{2}+1}-k\\right)$. 取位于 $l$ 上方的直线，得 $m=\\sqrt{2}\\left(\\sqrt{k^{2}+1}-k\\right)$. 此时，题目条件等价于 $l'$ 与双曲线的上支相切.</p><p>将 $y=kx+m$ 代入 $y^{2}-x^{2}=2$，得 $(k^{2}-1)x^{2}+2mkx+m^{2}-2=0$. 因为 $0\\le k<1$，二次项系数不为零，切线条件为判别式为零，即 $\\Delta=4(m^{2}+2k^{2}-2)=8k\\left(3k-2\\sqrt{k^{2}+1}\\right)=0$. 因而 $k=0$，或 $3k=2\\sqrt{k^{2}+1}$. 后者在给定范围内等价于 $9k^{2}=4(k^{2}+1)$，故 $k=\\frac{2\\sqrt{5}}{5}$.</p><p>当 $k=0$ 时，$m=\\sqrt{2}$，切点为 $(0,\\sqrt{2})$. 当 $k=\\frac{2\\sqrt{5}}{5}$ 时，$m=\\frac{\\sqrt{10}}{5}$，由二次方程的重根公式得 $x=2\\sqrt{2}$，再由 $y=kx+m$ 得 $y=\\sqrt{10}$. 所以相应的点分别为 $(0,\\sqrt{2})$ 和 $(2\\sqrt{2},\\sqrt{10})$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 29,
           "body": "<p>设 $A_{n}$ 为数列 $\\{a_{n}\\}$ 前 $n$ 项的和，$A_{n}=\\frac{3}{2}(a_{n}-1)$（$n\\in\\mathbb{N}$）. 数列 $\\{b_{n}\\}$ 的通项公式为 $b_{n}=4n+3$（$n\\in\\mathbb{N}$）.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若 $d\\in\\{a_{1}, a_{2}, a_{3}, \\cdots, a_{n}, \\cdots\\}\\cap\\{b_{1}, b_{2}, b_{3}, \\cdots, b_{n}, \\cdots\\}$，则称 $d$ 为数列 $\\{a_{n}\\}$ 与 $\\{b_{n}\\}$ 的公共项. 将数列 $\\{a_{n}\\}$ 与 $\\{b_{n}\\}$ 的公共项，按它们的原数列中的先后顺序排成一个新的数列 $\\{d_{n}\\}$，证明数列 $\\{d_{n}\\}$ 的通项公式为 $d_{n}=3^{2n+1}$（$n\\in\\mathbb{N}$）；</p></li><li><p>设数列 $\\{d_{n}\\}$ 中的第 $n$ 项是数列 $\\{b_{n}\\}$ 中的第 $r$ 项，$B_{r}$ 为数列 $\\{b_{n}\\}$ 前 $r$ 项的和，$D_{n}$ 为数列 $\\{d_{n}\\}$ 前 $n$ 项的和，$T_{n}=B_{r}-D_{n}$. 求 $\\displaystyle\\lim_{n\\to\\infty}\\frac{T_{n}}{(a_{n})^{4}}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $n=1$ 时，$a_{1}=\\frac{3}{2}(a_{1}-1)$，解得 $a_{1}=3$.</p><p>当 $n\\geqslant2$ 时，$a_{n}=A_{n}-A_{n-1}=\\frac{3}{2}(a_{n}-a_{n-1})$，由此解得 $a_{n}=3a_{n-1}$.</p><p>即 $\\frac{a_{n}}{a_{n-1}}=3$（$n\\geqslant2$），数列 $\\{a_{n}\\}$ 是首项为 $3$，公比为 $3$ 的等比数列，故得 $a_{n}=3^{n}$（$n\\in\\mathbb{N}$）.</p></li><li><p>证法一：</p><p></p><ol class=\"enumerate\"><li><p>先证明形如 $3^{2n+1}$（$n\\in\\mathbb{N}$）的数为数列 $\\{a_{n}\\}$ 与 $\\{b_{n}\\}$ 的公共项，因而为数列 $\\{d_{n}\\}$ 中的项.</p><p>数列 $\\{a_{n}\\}$ 的通项公式为 $a_{n}=3^{n}$，所以 $3^{2n+1}\\in\\{a_{1},a_{2},\\cdots,a_{n},\\cdots\\}$.</p>\n$$\n3^{2n+1}=3\\cdot9^{n}=3(8+1)^{n}=3(8^{n}+\\mathrm{C}_{n}^{1}8^{n-1}+\\cdots+\\mathrm{C}_{n}^{n-1}8+1)  =3\\bigl[8(8^{n-1}+\\mathrm{C}_{n}^{1}8^{n-2}+\\cdots+\\mathrm{C}_{n}^{n-1})+1\\bigr]\n$$\n<p>令 $t=8^{n-1}+\\mathrm{C}_{n}^{1}8^{n-2}+\\cdots+\\mathrm{C}_{n}^{n-1}$，则 $t$ 为正整数. 所以 $3^{2n+1}=3(8t+1)=4\\cdot(6t)+3$.</p><p>所以 $3^{2n+1}\\in\\{b_{1},b_{2},\\cdots,b_{n},\\cdots\\}$，所以 $3^{2n+1}\\in\\{a_{1},a_{2},\\cdots,a_{n},\\cdots\\}\\cap\\{b_{1},b_{2},\\cdots,b_{n},\\cdots\\}$.</p></li><li><p>再证明数列 $\\{a_{n}\\}$ 中除去形如 $3^{2n+1}$（$n\\in\\mathbb{N}$）的项外，其它项都不是 $\\{b_{n}\\}$ 中的项，因而不是 $\\{d_{n}\\}$ 中的项.</p><p>显然 $a_{1}=3$ 不是 $\\{b_{n}\\}$ 中的项. 所以 $a_{2n}=3^{2n}=(8+1)^{n}=8t+1=4(2t)+1$（$n\\in\\mathbb{N}$，$t\\in\\mathbb{N}$），</p><p>所以 $a_{2n}$（$n\\in\\mathbb{N}$）不是 $\\{b_{n}\\}$ 中的项，因而不是 $\\{d_{n}\\}$ 中的项.</p><p>由前两步，数列 $\\{d_{n}\\}$ 的通项公式是 $d_{n}=a_{2n+1}=3^{2n+1}$（$n\\in\\mathbb{N}$）.</p></li></ol><p></p></li><li><p>由题意，$3^{2n+1}=4r+3$，所以 $r=\\frac{3^{2n+1}-3}{4}=\\frac{3}{4}\\left(3^{2n}-1\\right)$. 因 $b_{n}=4n+3$ 为首项 $7$、公差 $4$ 的等差数列，</p>\n$$\nB_{r}=\\frac{r(b_{1}+b_{r})}{2}=\\frac{3(3^{2n}-1)\\bigl(7+3^{2n+1}\\bigr)}{8}\n$$\n<p>又 $d_{n}=3^{2n+1}=27\\cdot9^{n-1}$，所以</p>\n$$\nD_{n}=\\frac{27(9^{n}-1)}{9-1}=\\frac{27(3^{2n}-1)}{8}\n$$\n<p>因此</p>\n$$\nT_{n}=B_{r}-D_{n}=\\frac{9\\cdot3^{4n}-15\\cdot3^{2n}+6}{8}\n$$\n<p>由于 $a_{n}=3^{n}$，得到</p>\n$$\n\\lim_{n\\to\\infty}\\frac{T_{n}}{(a_{n})^{4}}=\\lim_{n\\to\\infty}\\frac{9\\cdot3^{4n}-15\\cdot3^{2n}+6}{8\\cdot3^{4n}}=\\frac{9}{8}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $n=1$ 时，$a_{1}=\\frac{3}{2}(a_{1}-1)$，解得 $a_{1}=3$.</p><p>当 $n\\geqslant2$ 时，$a_{n}=A_{n}-A_{n-1}=\\frac{3}{2}(a_{n}-a_{n-1})$，由此解得 $a_{n}=3a_{n-1}$.</p><p>即 $\\frac{a_{n}}{a_{n-1}}=3$（$n\\geqslant2$），数列 $\\{a_{n}\\}$ 是首项为 $3$，公比为 $3$ 的等比数列，故得 $a_{n}=3^{n}$（$n\\in\\mathbb{N}$）.</p></li><li><p>证法一：</p><p></p><ol class=\"enumerate\"><li><p>先证明形如 $3^{2n+1}$（$n\\in\\mathbb{N}$）的数为数列 $\\{a_{n}\\}$ 与 $\\{b_{n}\\}$ 的公共项，因而为数列 $\\{d_{n}\\}$ 中的项.</p><p>数列 $\\{a_{n}\\}$ 的通项公式为 $a_{n}=3^{n}$，所以 $3^{2n+1}\\in\\{a_{1},a_{2},\\cdots,a_{n},\\cdots\\}$.</p>\n$$\n3^{2n+1}=3\\cdot9^{n}=3(8+1)^{n}=3(8^{n}+\\mathrm{C}_{n}^{1}8^{n-1}+\\cdots+\\mathrm{C}_{n}^{n-1}8+1)  =3\\bigl[8(8^{n-1}+\\mathrm{C}_{n}^{1}8^{n-2}+\\cdots+\\mathrm{C}_{n}^{n-1})+1\\bigr]\n$$\n<p>令 $t=8^{n-1}+\\mathrm{C}_{n}^{1}8^{n-2}+\\cdots+\\mathrm{C}_{n}^{n-1}$，则 $t$ 为正整数. 所以 $3^{2n+1}=3(8t+1)=4\\cdot(6t)+3$.</p><p>所以 $3^{2n+1}\\in\\{b_{1},b_{2},\\cdots,b_{n},\\cdots\\}$，所以 $3^{2n+1}\\in\\{a_{1},a_{2},\\cdots,a_{n},\\cdots\\}\\cap\\{b_{1},b_{2},\\cdots,b_{n},\\cdots\\}$.</p></li><li><p>再证明数列 $\\{a_{n}\\}$ 中除去形如 $3^{2n+1}$（$n\\in\\mathbb{N}$）的项外，其它项都不是 $\\{b_{n}\\}$ 中的项，因而不是 $\\{d_{n}\\}$ 中的项.</p><p>显然 $a_{1}=3$ 不是 $\\{b_{n}\\}$ 中的项. 所以 $a_{2n}=3^{2n}=(8+1)^{n}=8t+1=4(2t)+1$（$n\\in\\mathbb{N}$，$t\\in\\mathbb{N}$），</p><p>所以 $a_{2n}$（$n\\in\\mathbb{N}$）不是 $\\{b_{n}\\}$ 中的项，因而不是 $\\{d_{n}\\}$ 中的项.</p><p>由前两步，数列 $\\{d_{n}\\}$ 的通项公式是 $d_{n}=a_{2n+1}=3^{2n+1}$（$n\\in\\mathbb{N}$）.</p></li></ol><p></p></li><li><p>由题意，$3^{2n+1}=4r+3$，所以 $r=\\frac{3^{2n+1}-3}{4}=\\frac{3}{4}\\left(3^{2n}-1\\right)$. 因 $b_{n}=4n+3$ 为首项 $7$、公差 $4$ 的等差数列，</p>\n$$\nB_{r}=\\frac{r(b_{1}+b_{r})}{2}=\\frac{3(3^{2n}-1)\\bigl(7+3^{2n+1}\\bigr)}{8}\n$$\n<p>又 $d_{n}=3^{2n+1}=27\\cdot9^{n-1}$，所以</p>\n$$\nD_{n}=\\frac{27(9^{n}-1)}{9-1}=\\frac{27(3^{2n}-1)}{8}\n$$\n<p>因此</p>\n$$\nT_{n}=B_{r}-D_{n}=\\frac{9\\cdot3^{4n}-15\\cdot3^{2n}+6}{8}\n$$\n<p>由于 $a_{n}=3^{n}$，得到</p>\n$$\n\\lim_{n\\to\\infty}\\frac{T_{n}}{(a_{n})^{4}}=\\lim_{n\\to\\infty}\\frac{9\\cdot3^{4n}-15\\cdot3^{2n}+6}{8\\cdot3^{4n}}=\\frac{9}{8}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

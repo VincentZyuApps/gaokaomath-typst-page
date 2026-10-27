@@ -124,7 +124,9 @@ a_{n+1}-a_{n}=d>0
 #problem(5)[
 某班的全体学生参加英语测试，成绩的频率分布直方图如图，数据的分组依次为：#mi(`[20,40)`)，#mi(`[40,60)`)，#mi(`[60,80)`)，#mi(`[80,100]`). 若低于 #mi(`60`) 分的人数是 #mi(`15`)，则该班的学生人数是（ ）
 
-[max width=0.42\linewidth]img/2013/liaoning_liberal/q5_fig1.png
+
+#align(center)[#image("/papers/2013/img/liaoning_liberal/q5_fig1.png", width: 28%)]
+
   #choices([#mi(`45`)], [#mi(`50`)], [#mi(`55`)], [#mi(`60`)], cols: 4)
 ]
 
@@ -205,7 +207,9 @@ f(t)+f(-t)=\ln\left[(\sqrt{1+9t^{2}}-3t)(\sqrt{1+9t^{2}}+3t)\right]+2=\ln1+2=2
 #problem(8)[
 执行如图所示的程序框图，若输入 #mi(`n = 8`)，则输出 #mi(`S =`)（ ）
 
-[max width=0.24\linewidth]img/2013/liaoning_liberal/q8_fig1.png
+
+#align(center)[#image("/papers/2013/img/liaoning_liberal/q8_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{4}{9}`)], [#mi(`\frac{6}{7}`)], [#mi(`\frac{8}{9}`)], [#mi(`\frac{10}{11}`)], cols: 2)
 ]
 
@@ -452,7 +456,9 @@ A-B=(-4a-4)-(12-4a)=-16
 
 \leftskip=0pt\relax
 
-[float=inline,width=0.40\linewidth]img/2013/liaoning_liberal/q13_fig1.png
+
+#align(center)[#image("/papers/2013/img/liaoning_liberal/q13_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`16\pi - 16`)])
@@ -643,7 +649,9 @@ PQ+PF+QF=16+28=44
 
 
 
-[float=inline,max width=0.20\linewidth]img/2013/liaoning_liberal/q18_fig1.png
+
+#align(center)[#image("/papers/2013/img/liaoning_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -674,7 +682,9 @@ PQ+PF+QF=16+28=44
 
 
 
-[max width=0.28\linewidth]img/2013/liaoning_liberal/q20_fig1.png
+
+#align(center)[#image("/papers/2013/img/liaoning_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -696,7 +706,9 @@ PQ+PF+QF=16+28=44
 
 
 
-[float=inline,max width=0.20\linewidth]img/2013/liaoning_liberal/q22_fig1.png
+
+#align(center)[#image("/papers/2013/img/liaoning_liberal/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[

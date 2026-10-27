@@ -192,8 +192,18 @@
 #problem(10)[
 如图，已知正四棱锥 #mi(`S - ABCD`) 所有棱长都为 1，点 #mi(`E`) 是侧棱 #mi(`SC`) 上一动点，过点 #mi(`E`) 垂直于 #mi(`SC`) 的截面将正四棱锥分成上、下两部分. 记 #mi(`SE = x`) （#mi(`0 < x < 1`)），截面下面部分的体积为 #mi(`V(x)`)，则函数 #mi(`y = V(x)`) 的图象大致为（ ）
 
-[width=0.42\linewidth]img/2012/jiangxi_science/q10_fig2.png
-  #choices([[width=0.15\paperwidth]img/2012/jiangxi_science/q10_optA.png], [[width=0.15\paperwidth]img/2012/jiangxi_science/q10_optB.png], [[width=0.15\paperwidth]img/2012/jiangxi_science/q10_optC.png], [[width=0.15\paperwidth]img/2012/jiangxi_science/q10_optD.png], cols: 1)
+
+#align(center)[#image("/papers/2012/img/jiangxi_science/q10_fig2.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2012/img/jiangxi_science/q10_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/jiangxi_science/q10_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/jiangxi_science/q10_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/jiangxi_science/q10_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
@@ -237,7 +247,7 @@ A_{0}(x)=\frac{1}{2}\int_{2x-1}^{x}4(x-u)\,\mathrm{d}u=(1-x)^{2}
 `)]
 
 
-截面面积为 #mi(`\sqrt{2} A_{0}(x)`)，且 #mi(`V'(x)`) 等于截面面积的相反数. 由 #mi(`V(0)=\dfrac{\sqrt{2}}{6}`) 积分得
+截面面积为 #mi(`\sqrt{2}A_{0}(x)`)，且 #mi(`V'(x)`) 等于截面面积的相反数. 由 #mi(`V(0)=\dfrac{\sqrt{2}}{6}`) 积分得
 
 
 #align(center)[#mitex(`
@@ -321,7 +331,9 @@ e=\frac{c}{a}=\frac{1}{\sqrt{5}}=\frac{\sqrt{5}}{5}
 #problem(14)[
 如图为某算法的程序框图，则程序运行后输出的结果是\underline{\hspace{2.5em}}.
 
-[max width=0.62\linewidth]img/2012/jiangxi_science/q14_flowchart.png
+
+#align(center)[#image("/papers/2012/img/jiangxi_science/q14_flowchart.png", width: 28%)]
+
 ]
 
 #answer([3])
@@ -460,7 +472,9 @@ e=\frac{c}{a}=\frac{1}{\sqrt{5}}=\frac{\sqrt{5}}{5}
 
 
 
-[max width=0.34\linewidth]img/2012/jiangxi_science/q19_fig1.png
+
+#align(center)[#image("/papers/2012/img/jiangxi_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -475,7 +489,9 @@ e=\frac{c}{a}=\frac{1}{\sqrt{5}}=\frac{\sqrt{5}}{5}
 
 
 
-[max width=0.42\linewidth]img/2012/jiangxi_science/q20_fig1.png
+
+#align(center)[#image("/papers/2012/img/jiangxi_science/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[

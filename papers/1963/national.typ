@@ -41,13 +41,17 @@
 
 
 
-[width=3cm]img/1963/national/q2_solution_fig1.png
+ 
+#align(center)[#image("/papers/1963/img/national/q2_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(3)[
 如图，#mi(`AB`) 为半圆的直径，#mi(`CD\perp AB`). 已知 #mi(`AB=1`)，#mi(`AC:CB=4:1`)，求 #mi(`CD`).
 
-[width=6.0cm]img/1963/national/q3_fig1.png
+
+#align(center)[#image("/papers/1963/img/national/q3_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -69,7 +73,9 @@
 
 因为 #mi(`CD>0`)，所以 #mi(`CD=\frac{2}{5}`).
 
-[width=4.0cm]img/1963/national/q3_solution_fig1.png
+ 
+#align(center)[#image("/papers/1963/img/national/q3_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(4)[
@@ -81,7 +87,9 @@
 
 平面 #mi(`M`)、#mi(`N`) 相交于棱 #mi(`AB`). 两个相交平面同时垂直于第三个平面时，它们的交线垂直于第三个平面，因此 #mi(`AB\perp`) 平面 #mi(`PCD`)，即平面 #mi(`PCD\perp AB`).
 
-[width=4cm]img/1963/national/q4_solution_fig1.png
+ 
+#align(center)[#image("/papers/1963/img/national/q4_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(5)[
@@ -90,8 +98,6 @@
 \scriptsize
 
 \setlength{\tabcolsep}{3pt}
-
-\renewcommand{\arraystretch}{1.1}
 
 \hline
 
@@ -252,7 +258,9 @@
 #problem(9)[
 如图，线段 #mi(`CD`) 与 #mi(`\odot O`) 相交于 #mi(`A`)，#mi(`B`) 两点，且 #mi(`AC=BD`)，又 #mi(`CE`)，#mi(`DF`) 分别与 #mi(`\odot O`) 相切于 #mi(`E`)，#mi(`F`). 求证：#mi(`\triangle OEC\cong\triangle OFD`).
 
-[width=6.0cm]img/1963/national/q9_fig1.png
+
+#align(center)[#image("/papers/1963/img/national/q9_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -264,7 +272,9 @@
 `)]
 
 
-[width=4.2cm]img/1963/national/q9_solution_fig1.png
+ 
+#align(center)[#image("/papers/1963/img/national/q9_solution_fig1.png", width: 28%)]
+ 
 
 按图中点的顺序，#mi(`C`)、#mi(`A`)、#mi(`B`)、#mi(`D`) 共线，因此
 
@@ -312,7 +322,9 @@
 
 \problemresetlayout
 
-[width=6.0cm]img/1963/national/q10_fig1.png
+
+#align(center)[#image("/papers/1963/img/national/q10_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -321,6 +333,8 @@
 
 
 
-[width=3.6cm]img/1963/national/q10_solution_fig1.png
+ 
+#align(center)[#image("/papers/1963/img/national/q10_solution_fig1.png", width: 28%)]
+
 ]
 

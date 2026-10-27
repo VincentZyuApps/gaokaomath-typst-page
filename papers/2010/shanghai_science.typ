@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,41 +11,45 @@
 #part-header("填空题")
 
 #problem(1)[
-不等式 $(2 - x)/(x + 4)> 0$ 的解集为#blank(){}.
+不等式 #mi(`\frac{2 - x}{x + 4}> 0`) 的解集为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(-4,2)$])
+#answer([#mi(`(-4,2)`)])
 
 #solution[
-分式有意义的条件是 $x != -4$. 令分子、分母的零点分别为 $x=2$ 和 $x=-4$，在数轴上将其分成 $(- oo ,-4)$、$(-4,2)$、$(2,+ oo )$ 三段. 取 $x=-5$ 时分式为负，取 $x=0$ 时分式为正，取 $x=3$ 时分式为负，因此不等式的解集为 $(-4,2)$.
+分式有意义的条件是 #mi(`x\neq-4`). 令分子、分母的零点分别为 #mi(`x=2`) 和 #mi(`x=-4`)，在数轴上将其分成 #mi(`(-\infty,-4)`)、#mi(`(-4,2)`)、#mi(`(2,+\infty)`) 三段. 取 #mi(`x=-5`) 时分式为负，取 #mi(`x=0`) 时分式为正，取 #mi(`x=3`) 时分式为负，因此不等式的解集为 #mi(`(-4,2)`).
 ]
 
 #problem(2)[
-若复数 $z = 1 - 2 i$ （$i$ 为虚数单位），则 $z dot overline(z)+ z =\f i l l i n b l a n k{}$.
+若复数 #mi(`z = 1 - 2\mathrm{i}`) （#mi(`\mathrm{i}`) 为虚数单位），则 #mi(`z \cdot \overline{z}+ z =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$6-2 i$])
+#answer([#mi(`6-2\mathrm{i}`)])
 
 #solution[
-因为 $z=1-2 i$，所以 $overline(z)=1+2 i$. 于是 $z o v e r l i n e(z)=(1-2 i )(1+2 i )=1+4=5$，从而 $z o v e r l i n e(z)+z=5+(1-2 i )=6-2 i$.
+因为 #mi(`z=1-2\mathrm{i}`)，所以 #mi(`\overline{z}=1+2\mathrm{i}`). 于是 #mi(`z\overline{z}=(1-2\mathrm{i})(1+2\mathrm{i})=1+4=5`)，从而 #mi(`z\overline{z}+z=5+(1-2\mathrm{i})=6-2\mathrm{i}`).
 ]
 
 #problem(3)[
-动点 $P$ 到点 $F(2,0)$ 的距离与它到直线 $x + 2 = 0$ 的距离相等，则点 $P$ 的轨迹方程为#blank(){}.
+动点 #mi(`P`) 到点 #mi(`F(2,0)`) 的距离与它到直线 #mi(`x + 2 = 0`) 的距离相等，则点 #mi(`P`) 的轨迹方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$y^2=8 x$])
+#answer([#mi(`y^{2}=8x`)])
 
 #solution[
-设动点 $P(x,y)$. 由抛物线的定义，点 $P$ 到焦点 $F(2,0)$ 的距离等于点 $P$ 到准线 $x+2=0$ 的距离，因此
+设动点 #mi(`P(x,y)`). 由抛物线的定义，点 #mi(`P`) 到焦点 #mi(`F(2,0)`) 的距离等于点 #mi(`P`) 到准线 #mi(`x+2=0`) 的距离，因此
 
-$ sqrt((x-2)^2+y^2)=|x+2| $
 
-两边平方得 $(x-2)^2+y^2=(x+2)^2$，整理为 $y^2=8 x$. 这就是点 $P$ 的轨迹方程.
+#align(center)[#mitex(`
+\sqrt{(x-2)^{2}+y^{2}}=|x+2|
+`)]
+
+
+两边平方得 #mi(`(x-2)^{2}+y^{2}=(x+2)^{2}`)，整理为 #mi(`y^{2}=8x`). 这就是点 #mi(`P`) 的轨迹方程.
 ]
 
 #problem(4)[
-行列式 $\b e g i n{v m a t r i x} cos (pi)/(3)& sin (pi)/(6)\\ sin (pi)/(3)& cos (pi)/(6)\e n d{v m a t r i x}$ 的值是#blank(){}.
+行列式 #mi(`\begin{vmatrix}\cos \frac{\pi}{3} & \sin \frac{\pi}{6} \\ \sin \frac{\pi}{3} & \cos \frac{\pi}{6}\end{vmatrix}`) 的值是\underline{\hspace{2.5em}}.
 ]
 
 #answer([0])
@@ -53,13 +57,19 @@ $ sqrt((x-2)^2+y^2)=|x+2| $
 #solution[
 代入特殊角的三角函数值，行列式为
 
-$ \b e g i n{v m a t r i x} (1)/(2)&(1)/(2)\\ \f r a c{sqrt(3)}2&\f r a c{sqrt(3)}2 \e n d{v m a t r i x} =(1)/(2) dot \f r a c{sqrt(3)}2-(1)/(2) dot \f r a c{sqrt(3)}2=0 $
 
-所以填 $0$.
+#align(center)[#mitex(`
+\begin{vmatrix}\frac{1}{2}&\frac{1}{2}\\
+
+\frac{\sqrt{3}}{2}&\frac{\sqrt{3}}{2}\end{vmatrix}  =\frac{1}{2}\cdot\frac{\sqrt{3}}{2}-\frac{1}{2}\cdot\frac{\sqrt{3}}{2}=0
+`)]
+
+
+所以填 #mi(`0`).
 ]
 
 #problem(5)[
-圆 $C: x^(2) + y^(2) - 2 x - 4 y + 4 = 0$ 的圆心到直线 $l: 3 x + 4 y + 4 = 0$ 的距离 $d =\f i l l i n b l a n k{}$.
+圆 #mi(`C: x^{2}+ y^{2}- 2x - 4y + 4 = 0`) 的圆心到直线 #mi(`l: 3x + 4y + 4 = 0`) 的距离 #mi(`d =\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([3])
@@ -67,222 +77,278 @@ $ \b e g i n{v m a t r i x} (1)/(2)&(1)/(2)\\ \f r a c{sqrt(3)}2&\f r a c{sqrt(3
 #solution[
 将圆的方程配方，得
 
-$ (x-1)^2+(y-2)^2=1 $
 
-所以圆心为 $C_0(1,2)$. 由点到直线的距离公式，圆心到直线 $3 x+4 y+4=0$ 的距离为
+#align(center)[#mitex(`
+(x-1)^{2}+(y-2)^{2}=1
+`)]
 
-$ d=(|3 dot 1 +4 dot 2 +4|)/(sqrt(3^2+4^2))=(15)/(5)=3 $
+
+所以圆心为 #mi(`C_{0}(1,2)`). 由点到直线的距离公式，圆心到直线 #mi(`3x+4y+4=0`) 的距离为
+
+
+#align(center)[#mitex(`
+d=\frac{|3\cdot1+4\cdot2+4|}{\sqrt{3^{2}+4^{2}}}=\frac{15}{5}=3
+`)]
 ]
 
 #problem(6)[
-随机变量 $xi$ 的概率分布由下表给出：
+随机变量 #mi(`\xi`) 的概率分布由下表给出：
 
-\begin{center}
-\begin{tabular}{c|cccc}
-$x$ & 7 & 8 & 9 & 10 \\
+#mi(`x`) & 7 & 8 & 9 & 10 \\
+
 \hline
-$P( xi = x)$ & 0.3 & 0.35 & 0.2 & 0.15
-\end{tabular}
-\end{center}
 
-则该随机变量 $xi$ 的均值是#blank(){}.
+#mi(`P(\xi = x)`) & 0.3 & 0.35 & 0.2 & 0.15
+
+则该随机变量 #mi(`\xi`) 的均值是\underline{\hspace{2.5em}}.
 ]
 
 #answer([8.2])
 
 #solution[
-表中概率之和为 $0.3+0.35+0.2+0.15=1$，故均值按离散型随机变量的定义计算为
+表中概率之和为 #mi(`0.3+0.35+0.2+0.15=1`)，故均值按离散型随机变量的定义计算为
 
-$ E( xi )=7 times 0 .3+8 times 0 .35+9 times 0 .2+10 times 0 .15 =2.1+2.8+1.8+1.5=8.2 $
+
+#align(center)[#mitex(`
+E(\xi)=7\times0.3+8\times0.35+9\times0.2+10\times0.15  =2.1+2.8+1.8+1.5=8.2
+`)]
 ]
 
 #problem(7)[
-2010 年上海世博会园区每天 9:00 开园，20:00 停止入园. 在下边的框图中，$S$ 表示上海世博会官方网站在每个整点报道的入园总人数，$a$ 表示整点报道前 1 个小时内入园人数，则空白的执行框内应填入#blank(){}.
+2010 年上海世博会园区每天 9:00 开园，20:00 停止入园. 在下边的框图中，#mi(`S`) 表示上海世博会官方网站在每个整点报道的入园总人数，#mi(`a`) 表示整点报道前 1 个小时内入园人数，则空白的执行框内应填入\underline{\hspace{2.5em}}.
 
-\texfigure[max width=0.40\linewidth]{img_repaint/2010/shanghai_science/q7_fig1.tex}
+\texfigure[max width=0.40\linewidth]img_repaint/2010/shanghai_science/q7_fig1.tex
 ]
 
-#answer([$S\l e f t a r r o w S+a$])
+#answer([#mi(`S\leftarrow S+a`)])
 
 #solution[
-在循环开始时，$S$ 已保存此前各整点报道的入园人数总和. 读入整点报道前 $1$ 小时新增的入园人数 $a$ 后，应把这部分人数累加到总人数中，因此执行框应填写 $S\l e f t a r r o w S+a$.
+在循环开始时，#mi(`S`) 已保存此前各整点报道的入园人数总和. 读入整点报道前 #mi(`1`) 小时新增的入园人数 #mi(`a`) 后，应把这部分人数累加到总人数中，因此执行框应填写 #mi(`S\leftarrow S+a`).
 ]
 
 #problem(8)[
-对任意不等于 1 的正数 $a$，函数 $f(x)= log _(a)(x+3)$ 的反函数的图象都经过点 $P$，则点 $P$ 的坐标为#blank(){}.
+对任意不等于 1 的正数 #mi(`a`)，函数 #mi(`f(x)=\log_{a}(x+3)`) 的反函数的图象都经过点 #mi(`P`)，则点 #mi(`P`) 的坐标为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(0,-2)$])
+#answer([#mi(`(0,-2)`)])
 
 #solution[
-设反函数图象上的横坐标为 $x$，纵坐标为 $y$. 由 $y= log _a(x+3)$ 交换 $x$，$y$ 得 $x= log _a(y+3)$，所以反函数为 $y=a^x-3$. 代入 $x=0$，得 $y=a^0-3=-2$，此值与正数 $a\n e q1$ 无关. 于是所有这些反函数图象都经过 $P(0,-2)$.
+设反函数图象上的横坐标为 #mi(`x`)，纵坐标为 #mi(`y`). 由 #mi(`y=\log_{a}(x+3)`) 交换 #mi(`x`)，#mi(`y`) 得 #mi(`x=\log_{a}(y+3)`)，所以反函数为 #mi(`y=a^{x}-3`). 代入 #mi(`x=0`)，得 #mi(`y=a^{0}-3=-2`)，此值与正数 #mi(`a\neq1`) 无关. 于是所有这些反函数图象都经过 #mi(`P(0,-2)`).
 ]
 
 #problem(9)[
-从一副混合后的扑克牌 （$52" 张"$） 中，随机抽取 $1$ 张，事件 $A$ 为“抽得红桃 $K$”，事件 $B$ 为“抽得为黑桃”，则概率 $P(A union B) =\f i l l i n b l a n k{}$. （结果用最简分数表示）
+从一副混合后的扑克牌 （#mi(`52\text{ \text{张}}`)） 中，随机抽取 #mi(`1`) 张，事件 #mi(`A`) 为“抽得红桃 #mi(`K`)”，事件 #mi(`B`) 为“抽得为黑桃”，则概率 #mi(`P(A \cup B) =\underline{\hspace{2.5em}}{}`). （结果用最简分数表示）
 ]
 
-#answer([$(7)/(26)$])
+#answer([#mi(`\frac{7}{26}`)])
 
 #solution[
-一副扑克牌共有 $52$ 张. 事件 $A$ 只有红桃 $K$ 这 $1$ 张牌，事件 $B$ 包含 $13$ 张黑桃. 两事件不相交，因此
+一副扑克牌共有 #mi(`52`) 张. 事件 #mi(`A`) 只有红桃 #mi(`K`) 这 #mi(`1`) 张牌，事件 #mi(`B`) 包含 #mi(`13`) 张黑桃. 两事件不相交，因此
 
-$ P(A union B)=P(A)+P(B)=(1)/(52)+(13)/(52)=(14)/(52)=(7)/(26) $
+
+#align(center)[#mitex(`
+P(A\cup B)=P(A)+P(B)=\frac{1}{52}+\frac{13}{52}=\frac{14}{52}=\frac{7}{26}
+`)]
 ]
 
 #problem(10)[
-在 $n$ 行 $n$ 列矩阵 $\b e g i n{p m a t r i x}1&2&3& dots.c &n-2&n-1&n\\2&3&4& dots.c &n-1&n&1\\3&4&5& dots.c &n&1&2\\\v d o t s&\d d o t s&\v d o t s&\d d o t s&\v d o t s& dots.c &\v d o t s\\n&1&2& dots.c &n-3&n-2&n-1\e n d{p m a t r i x}$ 中，记位于第 $i$ 行第 $j$ 列的数为 $a_(i j)$（$i$，$j=1$，$2$，$dots.c$，$n$）. 当 $n = 9$ 时，$a_(11) + a_(22) + a_(33) + dots.c + a_(99) =\f i l l i n b l a n k{}$.
+在 #mi(`n`) 行 #mi(`n`) 列矩阵 #mi(`\begin{pmatrix}1&2&3&\cdots&n-2&n-1&n\\2&3&4&\cdots&n-1&n&1\\3&4&5&\cdots&n&1&2\\\vdots&\ddots&\vdots&\ddots&\vdots&\cdots&\vdots\\n&1&2&\cdots&n-3&n-2&n-1\end{pmatrix}`) 中，记位于第 #mi(`i`) 行第 #mi(`j`) 列的数为 #mi(`a_{ij}`)（#mi(`i`)，#mi(`j=1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`n`)）. 当 #mi(`n = 9`) 时，#mi(`a_{11}+ a_{22}+ a_{33}+ \cdots + a_{99}=\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([45])
 
 #solution[
-矩阵每一行都把上一行的数整体加 $1$，超过 $n$ 后从 $1$ 重新开始. 当 $n=9$ 时，对角线上的元素依次为
-$a_(11)=1$，$a_(22)=3$，$a_(33)=5$，$a_(44)=7$，$a_(55)=9$
-$a_(66)=2$，$a_(77)=4$，$a_(88)=6$，$a_(99)=8$.
+矩阵每一行都把上一行的数整体加 #mi(`1`)，超过 #mi(`n`) 后从 #mi(`1`) 重新开始. 当 #mi(`n=9`) 时，对角线上的元素依次为
+
+#mi(`a_{11}=1`)，#mi(`a_{22}=3`)，#mi(`a_{33}=5`)，#mi(`a_{44}=7`)，#mi(`a_{55}=9`)
+
+#mi(`a_{66}=2`)，#mi(`a_{77}=4`)，#mi(`a_{88}=6`)，#mi(`a_{99}=8`).
+
 所以
 
-$ a_(11)+a_(22)+ dots.c +a_(99)=1+3+5+7+9+2+4+6+8=45 $
+
+#align(center)[#mitex(`
+a_{11}+a_{22}+\cdots+a_{99}=1+3+5+7+9+2+4+6+8=45
+`)]
 ]
 
 #problem(11)[
-将直线 $l_1: n x + y - n = 0$，$l_2: x + n y - n = 0$ （$n in NN ""^*$，$n >= 2$），$x$ 轴，$y$ 轴围成的封闭区域的面积记为 $S_n$，则 $lim_(n -> oo ) S_n =\f i l l i n b l a n k{}$.
+将直线 #mi(`l_{1}: nx + y - n = 0`)，#mi(`l_{2}: x + ny - n = 0`) （#mi(`n \in \mathbb{N}^{*}`)，#mi(`n \ge 2`)），#mi(`x`) 轴，#mi(`y`) 轴围成的封闭区域的面积记为 #mi(`S_{n}`)，则 #mi(`\displaystyle\lim_{n \to \infty}S_{n} =\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([1])
 
 #solution[
-两直线与坐标轴的交点分别为：$l_1$ 与 $x$ 轴交于 $(1,0)$，与 $y$ 轴交于 $(0,n)$；$l_2$ 与 $x$ 轴交于 $(n,0)$，与 $y$ 轴交于 $(0,1)$. 取被两条坐标轴、两直线围成的靠近原点的封闭区域.
+两直线与坐标轴的交点分别为：#mi(`l_{1}`) 与 #mi(`x`) 轴交于 #mi(`(1,0)`)，与 #mi(`y`) 轴交于 #mi(`(0,n)`)；#mi(`l_{2}`) 与 #mi(`x`) 轴交于 #mi(`(n,0)`)，与 #mi(`y`) 轴交于 #mi(`(0,1)`). 取被两条坐标轴、两直线围成的靠近原点的封闭区域.
 
 联立两直线方程
-$n x+y=n$，$x+n y=n$
-相减得 $x=y$，代回得交点 $Q((n)/(n+1),(n)/(n+1))$. 该区域可分成三角形 $O(0,0)$，$(0,1)$，$Q$ 和三角形 $O$，$Q$，$(1,0)$，故
 
-$ S_n=(1)/(2) dot 1 dot (n)/(n+1)+(1)/(2) dot 1 dot (n)/(n+1)=(n)/(n+1) $
+#mi(`nx+y=n`)，#mi(`x+ny=n`)
+
+相减得 #mi(`x=y`)，代回得交点 #mi(`Q\left(\frac{n}{n+1},\frac{n}{n+1}\right)`). 该区域可分成三角形 #mi(`O(0,0)`)，#mi(`(0,1)`)，#mi(`Q`) 和三角形 #mi(`O`)，#mi(`Q`)，#mi(`(1,0)`)，故
+
+
+#align(center)[#mitex(`
+S_{n}=\frac{1}{2}\cdot1\cdot\frac{n}{n+1}+\frac{1}{2}\cdot1\cdot\frac{n}{n+1}=\frac{n}{n+1}
+`)]
+
 
 因此
 
-$ lim_(n -> oo )S_n=lim_(n -> oo )(n)/(n+1)=1 $
+
+#align(center)[#mitex(`
+\lim_{n\to\infty}S_{n}=\lim_{n\to\infty}\frac{n}{n+1}=1
+`)]
 ]
 
 #problem(12)[
-如图所示，在边长为 4 的正方形纸片 $A B C D$ 中，$A C$ 与 $B D$ 相交于点 $O$，剪去 $triangle A O B$. 将剩余部分沿 $O C$，$O D$ 折叠，使 $O A$，$O B$ 重合，则以 $A(B)$，$C$，$D$，$O$ 为顶点的四面体的体积是#blank(){}.
+如图所示，在边长为 4 的正方形纸片 #mi(`ABCD`) 中，#mi(`AC`) 与 #mi(`BD`) 相交于点 #mi(`O`)，剪去 #mi(`\triangle AOB`). 将剩余部分沿 #mi(`OC`)，#mi(`OD`) 折叠，使 #mi(`OA`)，#mi(`OB`) 重合，则以 #mi(`A(B)`)，#mi(`C`)，#mi(`D`)，#mi(`O`) 为顶点的四面体的体积是\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2010/img/shanghai_science/q12_fig1.png", width: 30%)]
+#align(center)[#image("/papers/2010/img/shanghai_science/q12_fig1.png", width: 28%)]
+
 ]
 
-#answer([$(8 sqrt(2))/(3)$])
+#answer([#mi(`\frac{8\sqrt{2}}{3}`)])
 
 #solution[
-折叠后，三角形 $C O D$ 作为四面体的底面，原来的点 $A$、$B$ 重合为顶点 $X=A(B)$. 取空间直角坐标系，使
-$O=(0,0,0)$、$C=(2,2,0)$、$D=(-2,2,0)$. 由折叠保持长度，得
-$X O=A O=2 sqrt(2)$，$X C=B C=4$，$X D=A D=4$. 由 $X C=X D$，可设 $X=(0,y,z)$. 于是
-$y^2+z^2=8$，$4+(y-2)^2+z^2=16$.
-两式相减得 $y=0$，再由第一式得 $z^2=8$. 因而四面体的高为 $2 sqrt(2)$.
+折叠后，三角形 #mi(`COD`) 作为四面体的底面，原来的点 #mi(`A`)、#mi(`B`) 重合为顶点 #mi(`X=A(B)`). 取空间直角坐标系，使
 
-底面三角形 $C O D$ 的底 $C D=4$，且 $O$ 到 $C D$ 的距离为 $2$，所以底面积为 $4$. 因此四面体体积为
+#mi(`O=(0,0,0)`)、#mi(`C=(2,2,0)`)、#mi(`D=(-2,2,0)`). 由折叠保持长度，得
 
-$ V=(1)/(3) dot 4 dot 2 sqrt(2)=(8 sqrt(2))/(3) $
+#mi(`XO=AO=2\sqrt{2}`)，#mi(`XC=BC=4`)，#mi(`XD=AD=4`). 由 #mi(`XC=XD`)，可设 #mi(`X=(0,y,z)`). 于是
+
+#mi(`y^{2}+z^{2}=8`)，#mi(`4+(y-2)^{2}+z^{2}=16`).
+
+两式相减得 #mi(`y=0`)，再由第一式得 #mi(`z^{2}=8`). 因而四面体的高为 #mi(`2\sqrt{2}`).
+
+底面三角形 #mi(`COD`) 的底 #mi(`CD=4`)，且 #mi(`O`) 到 #mi(`CD`) 的距离为 #mi(`2`)，所以底面积为 #mi(`4`). 因此四面体体积为
+
+
+#align(center)[#mitex(`
+V=\frac{1}{3}\cdot4\cdot2\sqrt{2}=\frac{8\sqrt{2}}{3}
+`)]
 ]
 
 #problem(13)[
-如图所示，直线 $x = 2$ 与双曲线 $Gamma : (x^2)/(4)- y^2 = 1$ 的渐近线交于 $E_1$，$E_2$ 两点，记 $arrow(O E_1)= bold(e)_1$，$arrow(O E_2)= bold(e)_2$，任取双曲线 $Gamma$ 上的点 $P$，若 $arrow(O P)= a b o l d(e)_1 + b b o l d(e)_2$（$a$，$b in RR$），则 $a$，$b$ 满足的一个等式是#blank(){}.
+如图所示，直线 #mi(`x = 2`) 与双曲线 #mi(`\Gamma: \frac{x^{2}}{4}- y^{2} = 1`) 的渐近线交于 #mi(`E_{1}`)，#mi(`E_{2}`) 两点，记 #mi(`\overrightarrow{OE_1}= \mathbf{e}_{1}`)，#mi(`\overrightarrow{OE_2}= \mathbf{e}_{2}`)，任取双曲线 #mi(`\Gamma`) 上的点 #mi(`P`)，若 #mi(`\overrightarrow{OP}= a\mathbf{e}_{1} + b\mathbf{e}_{2}`)（#mi(`a`)，#mi(`b \in \mathbb{R}`)），则 #mi(`a`)，#mi(`b`) 满足的一个等式是\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2010/img/shanghai_science/q13_fig1.png", width: 55%)]
+#align(center)[#image("/papers/2010/img/shanghai_science/q13_fig1.png", width: 28%)]
+
 ]
 
-#answer([$4 a b=1$])
+#answer([#mi(`4ab=1`)])
 
 #solution[
-双曲线的渐近线为 $y=(x)/(2)$ 和 $y=-(x)/(2)$. 与直线 $x=2$ 的交点可取 $E_1=(2,1)$、$E_2=(2,-1)$，所以
-$bold(e)_1=(2,1)$，$bold(e)_2=(2,-1)$.
-由 $arrow(O P)=a b o l d(e)_1+b b o l d(e)_2$，得 $P=(2 a+2 b,a-b)$. 代入双曲线方程，得到
+双曲线的渐近线为 #mi(`y=\frac{x}{2}`) 和 #mi(`y=-\frac{x}{2}`). 与直线 #mi(`x=2`) 的交点可取 #mi(`E_{1}=(2,1)`)、#mi(`E_{2}=(2,-1)`)，所以
 
-$ ((2 a+2 b)^2)/(4)-(a-b)^2=(a+b)^2-(a-b)^2=4 a b=1 $
+#mi(`\mathbf{e}_{1}=(2,1)`)，#mi(`\mathbf{e}_{2}=(2,-1)`).
 
-因此 $a$，$b$ 满足的等式为 $4 a b=1$.
+由 #mi(`\overrightarrow{OP}=a\mathbf{e}_{1}+b\mathbf{e}_{2}`)，得 #mi(`P=(2a+2b,a-b)`). 代入双曲线方程，得到
+
+
+#align(center)[#mitex(`
+\frac{(2a+2b)^{2}}{4}-(a-b)^{2}=(a+b)^{2}-(a-b)^{2}=4ab=1
+`)]
+
+
+因此 #mi(`a`)，#mi(`b`) 满足的等式为 #mi(`4ab=1`).
 ]
 
 #problem(14)[
-从集合 $U = \{a, b, c, d\}$ 的子集中选出 4 个不同的子集，需同时满足以下两个条件：
+从集合 #mi(`U = \{a, b, c, d\}`) 的子集中选出 4 个不同的子集，需同时满足以下两个条件：
 
-\begin{circlelist}
-\item $emptyset$，$U$ 都要选出；
-\item 对选出的任意两个子集 $A$ 和 $B$，必有 $A subset.eq B$ 或 $A \s u p s e t e q B$.
-\end{circlelist}
 
-那么，共有#blank(){} 种不同的选法.
++ (1) #mi(`\varnothing`)，#mi(`U`) 都要选出；
++ (2) 对选出的任意两个子集 #mi(`A`) 和 #mi(`B`)，必有 #mi(`A \subseteq B`) 或 #mi(`A \supseteq B`).
+
+
+
+那么，共有\underline{\hspace{2.5em}} 种不同的选法.
 ]
 
 #answer([36])
 
 #solution[
-因为必须选出 $emptyset$ 和 $U$，其余两个子集必须是两个非空真子集. 条件（2）要求所有选出的子集两两可比较，因此其余两个子集 $A$，$B$ 必须满足 $A subset B$.
+因为必须选出 #mi(`\varnothing`) 和 #mi(`U`)，其余两个子集必须是两个非空真子集. 条件（2）要求所有选出的子集两两可比较，因此其余两个子集 #mi(`A`)，#mi(`B`) 必须满足 #mi(`A\subset B`).
 
-按 $A$、$B$ 的元素个数分类计数：
-当 $|A|=1$，$|B|=2$ 时，有 $C_4^1 C_3^1=12$ 种；当 $|A|=1$，$|B|=3$ 时，有 $C_4^1 C_3^2=12$ 种；当 $|A|=2$，$|B|=3$ 时，有 $C_4^2 C_2^1=12$ 种.
-三类互不相交，故不同选法共有 $12+12+12=36$ 种.
+按 #mi(`A`)、#mi(`B`) 的元素个数分类计数：
+
+当 #mi(`|A|=1`)，#mi(`|B|=2`) 时，有 #mi(`\mathrm{C}_{4}^{1}\mathrm{C}_{3}^{1}=12`) 种；当 #mi(`|A|=1`)，#mi(`|B|=3`) 时，有 #mi(`\mathrm{C}_{4}^{1}\mathrm{C}_{3}^{2}=12`) 种；当 #mi(`|A|=2`)，#mi(`|B|=3`) 时，有 #mi(`\mathrm{C}_{4}^{2}\mathrm{C}_{2}^{1}=12`) 种.
+
+三类互不相交，故不同选法共有 #mi(`12+12+12=36`) 种.
 ]
 
 #part-header("单选题")
 
 #problem(15)[
-$x = 2 k pi + (pi)/(4)$ （$k in ZZ$） 是“$tan x = 1$”成立的（ ）
-
+#mi(`x = 2k\pi + \frac{\pi}{4}`) （#mi(`k \in \mathbb{Z}`)） 是“#mi(`\tan x = 1`)”成立的（ ）
 
 A
 
-设条件 $p$：$x=2 k pi +(pi)/(4)$，$k in ZZ$，条件 $q$：$tan x=1$. 若 $p$ 成立，则
-$tan x= tan (2 k pi +(pi)/(4))=1$，所以 $p$ 是 $q$ 的充分条件.
+设条件 #mi(`p`)：#mi(`x=2k\pi+\frac{\pi}{4}`)，#mi(`k\in\mathbb{Z}`)，条件 #mi(`q`)：#mi(`\tan x=1`). 若 #mi(`p`) 成立，则
 
-但 $q$ 的一般解为 $x=k pi +(pi)/(4)$，例如 $x=(5 pi)/(4)$ 满足 $q$，却不能写成 $2 k pi +(pi)/(4)$. 所以 $p$ 不是 $q$ 的必要条件，故选 A，即充分不必要条件.
+#mi(`\tan x=\tan\left(2k\pi+\frac{\pi}{4}\right)=1`)，所以 #mi(`p`) 是 #mi(`q`) 的充分条件.
+
+但 #mi(`q`) 的一般解为 #mi(`x=k\pi+\frac{\pi}{4}`)，例如 #mi(`x=\frac{5\pi}{4}`) 满足 #mi(`q`)，却不能写成 #mi(`2k\pi+\frac{\pi}{4}`). 所以 #mi(`p`) 不是 #mi(`q`) 的必要条件，故选 A，即充分不必要条件.
   #choices([充分不必要条件], [必要不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #problem(16)[
-直线 $l$ 的参数方程是 $\b e g i n{c a s e s} x = 1 + 2 t,\\ y = 2 - t, \e n d{c a s e s}$ （$t in RR$），则 $l$ 的方向向量 $bold(d)$ 可以是（ ）
-
+直线 #mi(`l`) 的参数方程是 #mi(`\begin{cases}x = 1 + 2t,\\  y = 2 - t,\end{cases}`) （#mi(`t \in \mathbb{R}`)），则 #mi(`l`) 的方向向量 #mi(`\mathbf{d}`) 可以是（ ）
 
 C
 
-直线参数方程中 $t$ 的系数给出一个方向向量，因此直线 $l$ 的方向向量可取 $bold(d)=(2,-1)$. 方向向量的任意非零倍数都可以表示同一方向，而选项 C 中
-$(-2,1)=-(2,-1)$，所以选 C.
-  #choices([$(1,2)$], [$(2,1)$], [$(-2,1)$], [$(1,-2)$], cols: 4)
+直线参数方程中 #mi(`t`) 的系数给出一个方向向量，因此直线 #mi(`l`) 的方向向量可取 #mi(`\mathbf{d}=(2,-1)`). 方向向量的任意非零倍数都可以表示同一方向，而选项 C 中
+
+#mi(`(-2,1)=-(2,-1)`)，所以选 C.
+  #choices([#mi(`(1,2)`)], [#mi(`(2,1)`)], [#mi(`(-2,1)`)], [#mi(`(1,-2)`)], cols: 4)
 ]
 
 #problem(17)[
-若 $x_0$ 是方程 $((1)/(2))^x = x^((1)/(3))$ 的解，则 $x_0$ 属于区间（ ）
-
+若 #mi(`x_{0}`) 是方程 #mi(`\left(\frac{1}{2}\right)^{x} = x^{\frac{1}{3}}`) 的解，则 #mi(`x_{0}`) 属于区间（ ）
 
 C
 
-左边 $((1)/(2))^x$ 始终为正，所以方程的解必须满足 $x>0$. 对 $x>0$ 两边取自然对数，得
-$x ln (1)/(2)=(1)/(3) ln x$，$"即 "x dot 8 ""^x=1$.
-函数 $g(x)=x8^x$ 在 $x>0$ 上严格递增，因为
-$g'(x)=8^x(1+x ln 8 )>0$，所以方程至多有一个正根.
+左边 #mi(`\left(\frac{1}{2}\right)^{x}`) 始终为正，所以方程的解必须满足 #mi(`x>0`). 对 #mi(`x>0`) 两边取自然对数，得
+
+#mi(`x\ln\frac{1}{2}=\frac{1}{3}\ln x`)，#mi(`\text{\text{即} }x\cdot 8^{x}=1`).
+
+函数 #mi(`g(x)=x8^{x}`) 在 #mi(`x>0`) 上严格递增，因为
+
+#mi(`g'(x)=8^{x}(1+x\ln8)>0`)，所以方程至多有一个正根.
 
 又
-$g((1)/(3))=(1)/(3) dot 2 =(2)/(3)<1$，$g((1)/(2))=(1)/(2)\c d o t s q r t(8)=sqrt(2)>1$.
-由连续性，方程的根属于 $((1)/(3),(1)/(2))$，故选 C.
-  #choices([$((2)/(3),1)$], [$((1)/(2), (2)/(3))$], [$((1)/(3), (1)/(2))$], [$(0, (1)/(3))$], cols: 2)
+
+#mi(`g\left(\frac{1}{3}\right)=\frac{1}{3}\cdot2=\frac{2}{3}<1`)，#mi(`g\left(\frac{1}{2}\right)=\frac{1}{2}\cdot\sqrt{8}=\sqrt{2}>1`).
+
+由连续性，方程的根属于 #mi(`\left(\frac{1}{3},\frac{1}{2}\right)`)，故选 C.
+  #choices([#mi(`\left(\frac{2}{3},1\right)`)], [#mi(`\left(\frac{1}{2}, \frac{2}{3}\right)`)], [#mi(`\left(\frac{1}{3}, \frac{1}{2}\right)`)], [#mi(`\left(0, \frac{1}{3}\right)`)], cols: 1)
 ]
 
 #problem(18)[
-某人要作一个三角形，要求它的三条高的长度分别是 $(1)/(13)$，$(1)/(11)$，$(1)/(5)$，则此人将（ ）
-
+某人要作一个三角形，要求它的三条高的长度分别是 #mi(`\frac{1}{13}`)，#mi(`\frac{1}{11}`)，#mi(`\frac{1}{5}`)，则此人将（ ）
 
 D
 
-设三角形面积为 $Delta$，三条高分别为 $h_a$，$h_b$，$h_c$，对应边分别为 $a$，$b$，$c$. 由
-$Delta =(1)/(2)a h_a=(1)/(2)b h_b=(1)/(2)c h_c$，得边长之比为
+设三角形面积为 #mi(`\Delta`)，三条高分别为 #mi(`h_{a}`)，#mi(`h_{b}`)，#mi(`h_{c}`)，对应边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`). 由
 
-$ a:b:c=(1)/(h_a):(1)/(h_b):(1)/(h_c)=13:11:5 $
+#mi(`\Delta=\frac{1}{2}ah_{a}=\frac{1}{2}bh_{b}=\frac{1}{2}ch_{c}`)，得边长之比为
 
-因为 $11+5>13$，这三个数能作成三角形. 其中最长边为 $13$，且
 
-$ 13^2=169>11^2+5^2=146 $
+#align(center)[#mitex(`
+a:b:c=\frac{1}{h_{a}}:\frac{1}{h_{b}}:\frac{1}{h_{c}}=13:11:5
+`)]
+
+
+因为 #mi(`11+5>13`)，这三个数能作成三角形. 其中最长边为 #mi(`13`)，且
+
+
+#align(center)[#mitex(`
+13^{2}=169>11^{2}+5^{2}=146
+`)]
+
 
 由余弦定理的逆定理，最长边所对的角为钝角，所以应作出一个钝角三角形，选 D.
   #choices([不能作出满足要求的三角形], [作出一个锐角三角形], [作出一个直角三角形], [作出一个钝角三角形], cols: 4)
@@ -291,119 +357,72 @@ $ 13^2=169>11^2+5^2=146 $
 #part-header("解答题")
 
 #problem(19)[
-已知 $0 < x < (pi)/(2)$，化简： $\l g ( cos x dot tan x + 1 - 2 sin ""^2 (x)/(2)) + \l g [ sqrt(2) cos ( x - (pi)/(4)) ] - \l g (1 + sin 2 x)$.
+已知 #mi(`0 < x < \frac{\pi}{2}`)，化简： #mi(`\lg \left(\cos x \cdot \tan x + 1 - 2 \sin^{2} \frac{x}{2}\right) + \lg \left[ \sqrt{2}\cos \left( x - \frac{\pi}{4}\right) \right] - \lg (1 + \sin 2x)`).
 ]
 
 #solution[
-由 $0 < x < (pi)/(2)$，得 $sin x>0$、$cos x>0$，从而 $sin x+ cos x>0$. 又
-$cos x dot tan x+1-2 sin ""^2(x)/(2)= sin x+1-(1- cos x)= sin x+ cos x$，
-$sqrt(2) cos (x-(pi)/(4))= sin x+ cos x$，且
-$1+ sin 2 x=1+2 sin x cos x=( sin x+ cos x)^2$.
-因此原式为 $\l g( sin x+ cos x)+\l g( sin x+ cos x)-\l g(( sin x+ cos x)^2)=0$.
+由 #mi(`0 < x < \frac{\pi}{2}`)，得 #mi(`\sin x>0`)、#mi(`\cos x>0`)，从而 #mi(`\sin x+\cos x>0`). 又
+
+#mi(`\cos x\cdot\tan x+1-2\sin^{2}\frac{x}{2}=\sin x+1-(1-\cos x)=\sin x+\cos x`)，
+
+#mi(`\sqrt{2}\cos\left(x-\frac{\pi}{4}\right)=\sin x+\cos x`)，且
+
+#mi(`1+\sin 2x=1+2\sin x\cos x=(\sin x+\cos x)^{2}`).
+
+因此原式为 #mi(`\lg(\sin x+\cos x)+\lg(\sin x+\cos x)-\lg\left((\sin x+\cos x)^{2}\right)=0`).
 ]
 
 #problem(20)[
-已知数列 $\{a_(n)\}$ 的前 $n$ 项和为 $S_(n)$，且 $S_(n) = n - 5 a_(n) - 85$，$n in NN ""^*$.
+已知数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)，且 #mi(`S_{n}= n - 5a_{n}- 85`)，#mi(`n \in \mathbb{N}^{*}`).
 
 
-+ (1) 证明：$\{a_(n)-1\}$ 是等比数列；
-+ (2) 求数列 $\{S_n\}$ 的通项公式，并指出 $n$ 为何值时，$S_n$ 取得最小值，并说明理由.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $n=1$ 时，$S_1=a_1$，代入已知关系得 $a_1=1-5 a_1-85$，所以 $a_1=-14$，从而 $a_1-1=-15$.
-
-当 $n >= 2$ 时，$a_n=S_n-S_(n-1)$，故
-$a_n=(n-5 a_n-85)-(n-1-5 a_(n-1)-85)=1-5 a_n+5 a_(n-1)$.
-整理得 $a_n-1=(5)/(6)(a_(n-1)-1)$. 结合首项 $a_1-1=-15\n e q0$，可知 $\{a_n-1\}$ 是首项为 $-15$、公比为 $(5)/(6)$ 的等比数列.
-+ (2) 由上一问，$a_n-1=-15((5)/(6))^(n-1)$，即
-$a_n=1-15((5)/(6))^(n-1)$. 代入已知关系，得
-$S_n=n-5 a_n-85=n+75((5)/(6))^(n-1)-90$.
-
-相邻两项之差为 $S_(n+1)-S_n=1-(25)/(2)((5)/(6))^(n-1)$. 直接比较幂的大小：
-
-$ ((5)/(6))^(14)<(2)/(25)<((5)/(6))^(13) $
-
-其中左侧等价于 $25 dot 5 ""^(14)<2 dot 6 ""^(14)$，即 $152587890625<156728328192$，右侧等价于 $25 dot 5 ""^(13)>2 dot 6 ""^(13)$，即 $30517578125>26121388032$.
-由于 $(5)/(6)<1$，当 $n <= 14$ 时，$((5)/(6))^(n-1) >= ((5)/(6))^(13)>(2)/(25)$，所以 $S_(n+1)-S_n<0$；当 $n >= 15$ 时，$((5)/(6))^(n-1) <= ((5)/(6))^(14)<(2)/(25)$，所以 $S_(n+1)-S_n>0$. 因而 $\{S_n\}$ 先减后增，且 $n=15$ 时 $S_n$ 取得最小值.
++ (1)
 ]
 
 #problem(21)[
-如图所示，为了制作一个圆柱形灯笼，先要制作 $4$ 个全等的矩形骨架，总计耗用 $9.6" 米"$ 铁丝. 骨架将圆柱底面 $8$ 等分，再用 $S" 平方米"$ 塑料片制成圆柱的侧面和下底面 （不安装上底面）.
+如图所示，为了制作一个圆柱形灯笼，先要制作 #mi(`4`) 个全等的矩形骨架，总计耗用 #mi(`9.6\text{ \text{米}}`) 铁丝. 骨架将圆柱底面 #mi(`8`) 等分，再用 #mi(`S\text{ \text{平方米}}`) 塑料片制成圆柱的侧面和下底面 （不安装上底面）.
 
 
-+ (1) 当圆柱底面半径 $r$ 取何值时，$S$ 取得最大值？并求出该最大值 （结果精确到 $0.01" 平方米"$）；
-+ (2) 在灯笼内，以矩形骨架的顶点为端点，安装一些霓虹灯. 当灯笼底面半径为 $0.3" 米"$ 时，求图中两根直线型霓虹灯 $A_(1)B_(3)$，$A_(3)B_(5)$ 所在异面直线所成角的大小 （结果用反三角函数表示）.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2010/img/shanghai_science/q21_fig1.png", width: 40%)]
+
+#align(center)[#image("/papers/2010/img/shanghai_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设圆柱的母线长为 $h$. 每个矩形骨架的两条水平边都是圆柱底面的直径，长度均为 $2 r$，两条竖直边长度均为 $h$. 因而 $4$ 个矩形骨架所耗铁丝总长满足 $4 dot 2 (2 r+h)=9.6$，即 $h=1.2-2 r$，且 $0<r<0.6$.
-
-塑料片覆盖圆柱侧面和一个底面，所以 $S=2 pi r h+ pi r^2=2 pi r(1.2-2 r)+ pi r^2=-3 pi (r-0.4)^2+0.48 pi$. 因此，当 $r=0.4" 米"$ 时，$S$ 取得最大值，最大值为 $0.48 pi " 平方米"$，精确到 $0.01" 平方米"$ 为 $1.51" 平方米"$.
-+ (2) 当 $r=0.3" 米"$ 时，$h=1.2-2 times 0 .3=0.6$. 建立空间直角坐标系，使圆柱底面在 $z=0$ 平面上，圆心为原点，并取 $A_1=(-r,0,0)$、$A_3=(0,-r,0)$、$A_5=(r,0,0)$. 于是 $B_3=(0,-r,h)$、$B_5=(r,0,h)$，从而 $arrow(A_(1) B_3)=(r,-r,h)$、$arrow(A_(3) B_5)=(r,r,h)$.
-
-设两根异面直线所成的锐角为 $theta$，则
-
-$ cos theta =(arrow(A_(1) B_3){ dot }arrow(A_(3) B_5))/(|arrow(A_(1) B_3)||arrow(A_(3) B_5)|)=(h^2)/(2 r^2+h^2)=(0.6^2)/(2 times 0 .3^2+0.6^2)=(2)/(3) $
-
-所以两根异面直线所成的角为 $arccos (2)/(3)$.
++ (1)
 ]
 
 #problem(22)[
-若实数 $x$，$y$，$m$ 满足 $|x - m| > |y - m|$，则称 $x$ 比 $y$ 远离 $m$.
+若实数 #mi(`x`)，#mi(`y`)，#mi(`m`) 满足 #mi(`|x - m| > |y - m|`)，则称 #mi(`x`) 比 #mi(`y`) 远离 #mi(`m`).
 
 
-+ (1) 若 $x^(2) - 1$ 比 1 远离 0，求 $x$ 的取值范围；
-+ (2) 对任意两个不相等的正数 $a$，$b$，证明： $a^3 + b^3$ 比 $a^(2) b + a b^2$ 远离 $2 a b s q r t(a b)$；
-+ (3) 已知函数 $f(x)$ 的定义域 $D = \{ x | x != (k pi)/(2)+ (pi)/(4), k in ZZ , x in RR \}$. 任取 $x in D$，$f(x)$ 等于 $sin x$ 和 $cos x$ 中远离 $0$ 的那个值. 写出函数 $f(x)$ 的解析式，并指出它的基本性质 （结论不要求证明）.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 由“远离”的定义，需满足 $|(x^2-1)-0|>|1-0|$，即 $|x^2-1|>1$. 因为 $x^2 >= 0$，不可能有 $x^2-1<-1$，所以只能有 $x^2-1>1$，即 $x^2>2$. 因此 $x in (- oo ,-sqrt(2)) union (sqrt(2),+ oo )$.
-+ (2) 令 $q=sqrt(a b)>0$，$t=(a+b)/(q)$. 由 $a != b$ 及均值不等式，$a+b>2 sqrt(a b)$，故 $t>2$. 记 $A=a^3+b^3$、$B=a^(2) b+a b^2$、$C=2 a b s q r t(a b)$. 由 $a+b=q t$、$a b=q^2$，得 $A=q^3(t^3-3 t)$、$B=q^(3) t$、$C=2 q^3$. 因而 $A-C=q^3(t^3-3 t-2)=q^3(t-2)(t+1)^2>0$，而 $B-C=q^3(t-2)>0$. 又因为 $(t+1)^2>1$，所以 $A-C>B-C>0$，从而
-$|a^3+b^3-2 a b s q r t(a b)|>|a^(2) b+a b^2-2 a b s q r t(a b)|$. 这正说明 $a^3+b^3$ 比 $a^(2) b+a b^2$ 远离 $2 a b s q r t(a b)$.
-+ (3) 对于 $x in D$，有 $| sin x|>| cos x| <=> sin ""^(2) x> cos ""^(2) x <=> cos 2 x<0$. 因此，当 $x in (k pi +(pi)/(4),k pi +(3 pi)/(4))$ 时，较远的值为 $sin x$；当 $x in (k pi -(pi)/(4),k pi +(pi)/(4))$ 时，较远的值为 $cos x$. 所以
-
-$ f(x)= \b e g i n{c a s e s} sin x,&x in (k pi +(pi)/(4),k pi +(3 pi)/(4)),\\ cos x,&x in (k pi -(pi)/(4),k pi +(pi)/(4)), \e n d{c a s e s} k in ZZ $
-
-由正弦、余弦的周期性，$f(x+2 pi )=f(x)$. 函数的最大值为 $1$，且恰在 $x=2 k pi$ 或 $x=2 k pi +(pi)/(2)$ 时取得；这些最大值点组成的集合的最小正平移量为 $2 pi$，故 $f$ 的最小正周期为 $2 pi$. 此外，$f(0)=1\n e q0$，所以 $f$ 不是奇函数；又 $f(-(pi)/(2))=-1\n e q1=f((pi)/(2))$，所以 $f$ 不是偶函数.
-
-由于 $x in D$ 时 $| sin x| != | cos x|$，较远的那个值的绝对值严格大于 $(sqrt(2))/(2)$，且 $sin x$、$cos x$ 分别在相应区间内取得从 $(sqrt(2))/(2)$ 到 $1$ 以及从 $-1$ 到 $-(sqrt(2))/(2)$ 的所有值，其中端点 $+- (sqrt(2))/(2)$ 因不属于定义域而不能取到. 当 $x=2 k pi$ 或 $x=2 k pi +(pi)/(2)$ 时，$f(x)=1$；当 $x=(2 k+1) pi$ 或 $x=2 k pi +(3 pi)/(2)$ 时，$f(x)=-1$，其中 $k in ZZ$. 因而值域为 $[-1,-(sqrt(2))/(2)) union ((sqrt(2))/(2),1]$.
-
-由上述分段式及正、余弦函数的单调性，$f(x)$ 在
-
-$ \b e g i n{g a t h e r e d} (2 k pi -(pi)/(4),2 k pi ), (2 k pi +(pi)/(4),2 k pi +(pi)/(2)),\\ ((2 k+1) pi ,(2 k+1) pi +(pi)/(4)), ((2 k+1) pi +(pi)/(2),(2 k+1) pi +(3 pi)/(4)) \e n d{g a t h e r e d} $
-
-上单调递增，在
-
-$ \b e g i n{g a t h e r e d} (2 k pi ,2 k pi +(pi)/(4)), (2 k pi +(pi)/(2),2 k pi +(3 pi)/(4)),\\ (2 k pi +(3 pi)/(4),(2 k+1) pi ), ((2 k+1) pi +(pi)/(4),(2 k+1) pi +(pi)/(2)) \e n d{g a t h e r e d} $
-
-上单调递减，其中 $k in ZZ$.
++ (1) 
++ (2)
 ]
 
 #problem(23)[
-已知椭圆 $Gamma$ 的方程为 $(x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > b > 0$），点 $P$ 的坐标为 $(-a, b)$.
+已知椭圆 #mi(`\Gamma`) 的方程为 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)），点 #mi(`P`) 的坐标为 #mi(`(-a, b)`).
 
 
-+ (1) 若直角坐标平面上的点 $M$，$A(0, -b)$，$B(a, 0)$ 满足 $arrow(P M)= (1)/(2)(arrow(P A)+ arrow(P B))$，求点 $M$ 的坐标；
-+ (2) 设直线 $l_1: y = k_(1) x + p$ 交椭圆 $Gamma$ 于 $C$，$D$ 两点，交直线 $l_2: y = k_(2) x$ 于点 $E$. 若 $k_1 dot k_2 = -(b^2)/(a^2)$，证明： $E$ 为 $C D$ 的中点；
-+ (3) 对于椭圆 $Gamma$ 上的点 $Q(a cos theta , b sin theta )$ （$0 < theta < pi$） ，如果椭圆 $Gamma$ 上存在不同的两点 $P_1$，$P_2$ 使 $arrow(P P_1)+ arrow(P P_2)= arrow(P Q)$，写出求作点 $P_1$，$P_2$ 的步骤，并求出使 $P_1$，$P_2$ 存在的 $theta$ 满足的条件.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 由 $P=(-a,b)$、$A=(0,-b)$、$B=(a,0)$，得 $arrow(P A)=(a,-2 b)$、$arrow(P B)=(2 a,-b)$. 因而 $arrow(P M)=(1)/(2)(arrow(P A)+arrow(P B))=((3 a)/(2),-(3 b)/(2))$，从而 $M=P+arrow(P M)=((a)/(2),-(b)/(2))$.
-+ (2) 设 $C(x_1,y_1)$、$D(x_2,y_2)$. 将 $y=k_(1) x+p$ 代入椭圆方程，得 $(a^(2) k_1^2+b^2)x^2+2 a^(2) k_(1) p x+a^(2) p^2-a^(2) b^2=0$. 由韦达定理，$x_1+x_2=-(2 a^(2) k_(1) p)/(a^(2) k_1^2+b^2)$. 因此 $C D$ 的中点坐标为
-$((x_1+x_2)/(2),(y_1+y_2)/(2))=(-(a^(2) k_(1) p)/(a^(2) k_1^2+b^2),(b^(2) p)/(a^(2) k_1^2+b^2))$，其中第二个坐标由 $y_i=k_(1) x_i+p$ 得到.
-
-由 $E in l_1 inter l_2$，有 $k_(1) x_E+p=k_(2) x_E$，即 $x_E=(p)/(k_2-k_1)$、$y_E=k_(2) x_E$. 因 $k_(1) k_2=-(b^2)/(a^2)$ 且 $k_1\n e q0$，所以 $k_2=-(b^2)/(a^(2) k_1)$，从而 $x_E=-(a^(2) k_(1) p)/(a^(2) k_1^2+b^2)$、$y_E=(b^(2) p)/(a^(2) k_1^2+b^2)$. 这与上述中点坐标相同，故 $E$ 为 $C D$ 的中点.
-+ (3) 设 $F$ 为 $P Q$ 的中点. 由 $P=(-a,b)$、$Q=(a cos theta ,b sin theta )$，得 $F=((a( cos theta -1))/(2),(b(1+ sin theta ))/(2))$. 若 $P_1$、$P_2$ 存在且满足题设向量等式，则 $F$ 必为 $P_(1) P_2$ 的中点，因为 $arrow(P P_1)+arrow(P P_2)=2 arrow(P F)=arrow(P Q)$.
-
-作直线 $O F$，其斜率为 $k_2=-(b(1+ sin theta ))/(a(1- cos theta ))$. 再过 $F$ 作直线 $l$，使其斜率为 $k_1=-(b^2)/(a^(2) k_2)=(b(1- cos theta ))/(a(1+ sin theta ))$. 将直线 $l$ 与椭圆 $Gamma$ 的两个交点作出，记为 $P_1$、$P_2$. 根据第（2）问，$F$ 是弦 $P_(1) P_2$ 的中点；又因为 $F$ 是 $P Q$ 的中点，所以这些点满足题设向量等式.
-
-要使交点为不同的两个点，须且只须 $F$ 在椭圆内部，即 $(x_F^2)/(a^2)+(y_F^2)/(b^2)<1$. 代入 $F$ 的坐标，得 $((1- cos theta )^2+(1+ sin theta )^2)/(4)<1$，即 $sin theta - cos theta <(1)/(2)$. 于是 $sqrt(2) sin ( theta -(pi)/(4))<(1)/(2)$. 结合 $0< theta < pi$，可得 $0< theta <(pi)/(4)+ arcsin (sqrt(2))/(4)$.
++ (1) 
++ (2)
 ]
 

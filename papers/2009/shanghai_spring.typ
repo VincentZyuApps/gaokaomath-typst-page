@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,128 +11,140 @@
 #part-header("填空题")
 
 #problem(1)[
-函数 $y= log _(2)(x-1)$ 的定义域是#blank(){}.
+函数 #mi(`y=\log_{2}(x-1)`) 的定义域是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1,+ oo )$.])
+#answer([#mi(`(1,+\infty)`).])
 
 #solution[
-对数的真数必须为正，因此 $x-1>0$，解得 $x>1$. 所以定义域为 $(1,+ oo )$.
+对数的真数必须为正，因此 #mi(`x-1>0`)，解得 #mi(`x>1`). 所以定义域为 #mi(`(1,+\infty)`).
 ]
 
 #problem(2)[
-计算： $(1- i )^(2)=$#blank(){}（$i$ 为虚数单位）.
+计算： #mi(`(1-\mathrm{i})^{2}=`)\underline{\hspace{2.5em}}（#mi(`\mathrm{i}`) 为虚数单位）.
 ]
 
-#answer([$-2 i$.])
+#answer([#mi(`-2\mathrm{i}`).])
 
 #solution[
-由 $i ""^(2)=-1$，有 $(1- i )^2=1-2 i + i ""^2=1-2 i -1=-2 i$.
+由 #mi(`\mathrm{i}^{2}=-1`)，有 #mi(`(1-\mathrm{i})^{2}=1-2\mathrm{i}+\mathrm{i}^{2}=1-2\mathrm{i}-1=-2\mathrm{i}`).
 ]
 
 #problem(3)[
-函数 $y = cos (x)/(2)$ 的最小正周期 $T=$#blank(){}.
+函数 #mi(`y = \cos \frac{x}{2}`) 的最小正周期 #mi(`T=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$4 pi$.])
+#answer([#mi(`4\pi`).])
 
 #solution[
-余弦函数的最小正周期为 $2 pi$. 令 $(T)/(2)=2 pi$，得 $T=4 pi$.
+余弦函数的最小正周期为 #mi(`2\pi`). 令 #mi(`\frac{T}{2}=2\pi`)，得 #mi(`T=4\pi`).
 ]
 
 #problem(4)[
-若集合 $A = \{x | |x| > 1\}$，集合 $B = \{x | 0 < x < 2\}$，则 $A inter B =$#blank(){}.
+若集合 #mi(`A = \{x \mid |x| > 1\}`)，集合 #mi(`B = \{x \mid 0 < x < 2\}`)，则 #mi(`A \cap B =`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$\{x | 1<x<2\}$.])
+#answer([#mi(`\{x\mid 1<x<2\}`).])
 
 #solution[
-由 $|x|>1$ 得 $x<-1$ 或 $x>1$，所以 $A=(- oo ,-1) union (1,+ oo )$. 与 $B=(0,2)$ 取交集，得到 $A inter B=(1,2)=\{x\m i d1<x<2\}$.
+由 #mi(`|x|>1`) 得 #mi(`x<-1`) 或 #mi(`x>1`)，所以 #mi(`A=(-\infty,-1)\cup(1,+\infty)`). 与 #mi(`B=(0,2)`) 取交集，得到 #mi(`A\cap B=(1,2)=\{x\mid1<x<2\}`).
 ]
 
 #problem(5)[
-抛物线 $y^(2)=x$ 的准线方程是#blank(){}.
+抛物线 #mi(`y^{2}=x`) 的准线方程是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$x=-(1)/(4)$.])
+#answer([#mi(`x=-\frac{1}{4}`).])
 
 #solution[
-抛物线的标准方程为 $y^2=4 p x$，其准线为 $x=-p$. 由 $4 p=1$ 得 $p=(1)/(4)$，故准线方程为 $x=-(1)/(4)$.
+抛物线的标准方程为 #mi(`y^{2}=4px`)，其准线为 #mi(`x=-p`). 由 #mi(`4p=1`) 得 #mi(`p=\frac{1}{4}`)，故准线方程为 #mi(`x=-\frac{1}{4}`).
 ]
 
 #problem(6)[
-已知 $|bold(a)|=3$，$|bold(b)|=2$. 若 $bold(a)\c d o t b o l d(b)=-3$，则 $bold(a)$ 与 $bold(b)$ 夹角的大小为#blank(){}.
+已知 #mi(`\left|\mathbf{a}\right|=3`)，#mi(`\left|\mathbf{b}\right|=2`). 若 #mi(`\mathbf{a}\cdot\mathbf{b}=-3`)，则 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 夹角的大小为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(2)/(3) pi$.])
+#answer([#mi(`\frac{2}{3}\pi`).])
 
 #solution[
-设 $bold(a)$ 与 $bold(b)$ 的夹角为 $theta$，则
+设 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角为 #mi(`\theta`)，则
 
-$ cos theta =(bold(a){ dot }bold(b))/(|bold(a)||bold(b)|)=(-3)/(3 times 2)=-(1)/(2) $
 
-由于 $0 <= theta <= pi$，故 $theta =(2 pi)/(3)$.
+#align(center)[#mitex(`
+\cos\theta=\frac{\mathbf{a}\cdot\mathbf{b}}{\left|\mathbf{a}\right|\left|\mathbf{b}\right|}=\frac{-3}{3\times2}=-\frac{1}{2}
+`)]
+
+
+由于 #mi(`0\le\theta\le\pi`)，故 #mi(`\theta=\frac{2\pi}{3}`).
 ]
 
 #problem(7)[
-过点 $A(4, -1)$ 和双曲线 $(x^(2))/(9)- (y^(2))/(16)= 1$ 右焦点的直线方程为#blank(){}.
+过点 #mi(`A(4, -1)`) 和双曲线 #mi(`\frac{x^{2}}{9}- \frac{y^{2}}{16}= 1`) 右焦点的直线方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$y=x-5$.])
+#answer([#mi(`y=x-5`).])
 
 #solution[
-双曲线的焦距参数满足 $c^2=9+16=25$，所以右焦点为 $F(5,0)$. 直线 $A F$ 的斜率为 $(0-(-1))/(5-4)=1$，故其方程为 $y+1=x-4$，即 $y=x-5$.
+双曲线的焦距参数满足 #mi(`c^{2}=9+16=25`)，所以右焦点为 #mi(`F(5,0)`). 直线 #mi(`AF`) 的斜率为 #mi(`\frac{0-(-1)}{5-4}=1`)，故其方程为 #mi(`y+1=x-4`)，即 #mi(`y=x-5`).
 ]
 
 #problem(8)[
-在 $triangle A B C$ 中，若 $A B = 3$， $angle A B C = 75^ degree$， $angle A C B = 60^ degree$，则 $B C$ 等于#blank(){}.
+在 #mi(`\triangle ABC`) 中，若 #mi(`AB = 3`)， #mi(`\angle ABC = 75^{\circ}`)， #mi(`\angle ACB = 60^{\circ}`)，则 #mi(`BC`) 等于\underline{\hspace{2.5em}}.
 ]
 
-#answer([$sqrt(6)$.])
+#answer([#mi(`\sqrt{6}`).])
 
 #solution[
-三角形内角和给出 $angle A=180^ degree -75^ degree -60^ degree =45^ degree$. 由正弦定理，$(B C)/(sin 45 ""^ degree)=(A B)/(sin 60 ""^ degree)$，所以
+三角形内角和给出 #mi(`\angle A=180^{\circ}-75^{\circ}-60^{\circ}=45^{\circ}`). 由正弦定理，#mi(`\frac{BC}{\sin45^{\circ}}=\frac{AB}{\sin60^{\circ}}`)，所以
 
-$ B C=3(sin 45 ""^ degree)/(sin 60 ""^ degree)=3((sqrt(2))/(2))/((sqrt(3))/(2))=sqrt(6) $
+
+#align(center)[#mitex(`
+BC=3\frac{\sin45^{\circ}}{\sin60^{\circ}}=3\frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{3}}{2}}=\sqrt{6}
+`)]
 ]
 
 #problem(9)[
-已知对于任意实数 $x$，函数 $f(x)$ 满足 $f(-x) = f(x)$. 若方程 $f(x) = 0$ 有 2009 个实数解，则这 2009 个实数解之和为#blank(){}.
+已知对于任意实数 #mi(`x`)，函数 #mi(`f(x)`) 满足 #mi(`f(-x) = f(x)`). 若方程 #mi(`f(x) = 0`) 有 2009 个实数解，则这 2009 个实数解之和为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$0$.])
+#answer([#mi(`0`).])
 
 #solution[
-若 $x_0$ 是方程 $f(x)=0$ 的非零实数解，则由偶性 $f(-x_0)=f(x_0)=0$，所以 $-x_0$ 也是解，非零解成相反数的成对出现. 解的总数为奇数 $2009$，因此必有 $x=0$ 这个解；其余解的和均为零，故全部解之和为 $0$.
+若 #mi(`x_{0}`) 是方程 #mi(`f(x)=0`) 的非零实数解，则由偶性 #mi(`f(-x_{0})=f(x_{0})=0`)，所以 #mi(`-x_{0}`) 也是解，非零解成相反数的成对出现. 解的总数为奇数 #mi(`2009`)，因此必有 #mi(`x=0`) 这个解；其余解的和均为零，故全部解之和为 #mi(`0`).
 ]
 
 #problem(10)[
-一只猴子随机敲击只有$26$个小写英文字母的练习键盘. 若每敲$1$次在屏幕上出现一个字母，它连续敲击$10$次，屏幕上的$10$个字母依次排成一行，则出现单词“\mbox{monkey}”的概率为#blank(){}（结果用数值表示）.
+一只猴子随机敲击只有#mi(`26`) 个小写英文字母的练习键盘. 若每敲#mi(`1`) 次在屏幕上出现一个字母，它连续敲击#mi(`10`) 次，屏幕上的#mi(`10`) 个字母依次排成一行，则出现单词“\mbox{monkey}”的概率为\underline{\hspace{2.5em}}（结果用数值表示）.
 ]
 
-#answer([$(5)/(26^6)$.])
+#answer([#mi(`\frac{5}{26^{6}}`).])
 
 #solution[
-连续敲击得到的全部长度为 $10$ 的字母序列共有 $26^(10)$ 种且等可能. 单词“\mbox{monkey}”有 $10-6+1=5$ 个可能的起始位置，每固定一个起始位置后，其余 $4$ 个字母任意，共有 $26^4$ 种. 不同起始位置不能同时出现“\mbox{monkey}”，所以有利序列数为 $5 times 26 ""^4$，所求概率为 $(5 times 26 ""^4)/(26^(10))=(5)/(26^6)$.
+连续敲击得到的全部长度为 #mi(`10`) 的字母序列共有 #mi(`26^{10}`) 种且等可能. 单词“\mbox{monkey}”有 #mi(`10-6+1=5`) 个可能的起始位置，每固定一个起始位置后，其余 #mi(`4`) 个字母任意，共有 #mi(`26^{4}`) 种. 不同起始位置不能同时出现“\mbox{monkey}”，所以有利序列数为 #mi(`5\times26^{4}`)，所求概率为 #mi(`\frac{5\times26^{4}}{26^{10}}=\frac{5}{26^{6}}`).
 ]
 
 #problem(11)[
-以下是面点师一个工作环节的数学模型：如图，在数轴上截取与闭区间 $[0,1]$ 对应的线段，对折后（坐标 $1$ 所对应的点与原点重合）再均匀地拉成$1$个单位长度的线段，这一过程称为一次操作（例如在第一次操作完成后，原来的坐标 $(1)/(4)$， $(3)/(4)$变成 $(1)/(2)$，原来的坐标 $(1)/(2)$变成$1$，等等）. 那么原闭区间 $[0,1]$ 上（除两个端点外）的点，在第二次操作完成后，恰好被拉到与$1$重合的点所对应的坐标是#blank(){}；原闭区间 $[0,1]$ 上（除两个端点外）的点，在第$n$ 次操作完成后（$n\g e q 1$），恰好被拉到与$1$重合的点所对应的坐标为#blank(){}.
+以下是面点师一个工作环节的数学模型：如图，在数轴上截取与闭区间 #mi(`[0,1]`) 对应的线段，对折后（坐标 #mi(`1`) 所对应的点与原点重合）再均匀地拉成#mi(`1`) 个单位长度的线段，这一过程称为一次操作（例如在第一次操作完成后，原来的坐标 #mi(`\frac{1}{4}`)， #mi(`\frac{3}{4}`) 变成 #mi(`\frac{1}{2}`)，原来的坐标 #mi(`\frac{1}{2}`) 变成#mi(`1`)，等等）. 那么原闭区间 #mi(`[0,1]`) 上（除两个端点外）的点，在第二次操作完成后，恰好被拉到与#mi(`1`) 重合的点所对应的坐标是\underline{\hspace{2.5em}}；原闭区间 #mi(`[0,1]`) 上（除两个端点外）的点，在第#mi(`n`) 次操作完成后（#mi(`n\geq 1`)），恰好被拉到与#mi(`1`) 重合的点所对应的坐标为\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2009/img/shanghai_spring/q11_fig1.png", width: 65%)]
+#align(center)[#image("/papers/2009/img/shanghai_spring/q11_fig1.png", width: 28%)]
+
 ]
 
-#answer([$(1)/(4)$，$(3)/(4)$；$(j)/(2^n)$，$j$为$[1,2^n]$中的所有奇数.])
+#answer([#mi(`\frac{1}{4}`)，#mi(`\frac{3}{4}`)；#mi(`\frac{j}{2^{n}}`)，#mi(`j`) 为#mi(`[1,2^{n}]`) 中的所有奇数.])
 
 #solution[
-一次操作把原坐标 $x$ 变为帐篷函数
+一次操作把原坐标 #mi(`x`) 变为帐篷函数
 
-$ T(x)= \b e g i n{c a s e s} 2 x,&0 <= x <= (1)/(2),\\ 2(1-x),&(1)/(2) <= x <= 1 . \e n d{c a s e s} $
 
-因为 $T((1)/(2))=1$，第二次操作恰好到达 $1$ 的原坐标是 $T(x)=(1)/(2)$ 的两个解，即 $x=(1)/(4)$ 或 $x=(3)/(4)$.
+#align(center)[#mitex(`
+T(x)=  \begin{cases}2x,&0\le x\le\frac{1}{2},\\  2(1-x),&\frac{1}{2}\le x\leqslant1.\end{cases}
+`)]
 
-更一般地，用归纳法证明 $T^n(x)=1$ 的充要条件是 $x=(j)/(2^n)$，其中 $j$ 是 $[1,2^n]$ 中的奇数. 当 $n=1$ 时结论由 $T(x)=1$ 得到. 若结论对 $n-1$ 成立，则 $T^(n)(x)=1$ 等价于 $T(x)=(k)/(2^(n-1))$，其中 $k$ 为奇数. 由 $T(x)=u$ 的两个解 $x=(u)/(2)$ 和 $x=1-(u)/(2)$，得到 $x=(k)/(2^n)$ 或 $x=(2^n-k)/(2^n)$，两个分子均为奇数，且这给出全部解. 因此第 $n$ 次操作后恰好与 $1$ 重合的原坐标正是所给集合.
+
+因为 #mi(`T(\frac{1}{2})=1`)，第二次操作恰好到达 #mi(`1`) 的原坐标是 #mi(`T(x)=\frac{1}{2}`) 的两个解，即 #mi(`x=\frac{1}{4}`) 或 #mi(`x=\frac{3}{4}`).
+
+更一般地，用归纳法证明 #mi(`T^{n}(x)=1`) 的充要条件是 #mi(`x=\frac{j}{2^{n}}`)，其中 #mi(`j`) 是 #mi(`[1,2^{n}]`) 中的奇数. 当 #mi(`n=1`) 时结论由 #mi(`T(x)=1`) 得到. 若结论对 #mi(`n-1`) 成立，则 #mi(`T^{n}(x)=1`) 等价于 #mi(`T(x)=\frac{k}{2^{n-1}}`)，其中 #mi(`k`) 为奇数. 由 #mi(`T(x)=u`) 的两个解 #mi(`x=\frac{u}{2}`) 和 #mi(`x=1-\frac{u}{2}`)，得到 #mi(`x=\frac{k}{2^{n}}`) 或 #mi(`x=\frac{2^{n}-k}{2^{n}}`)，两个分子均为奇数，且这给出全部解. 因此第 #mi(`n`) 次操作后恰好与 #mi(`1`) 重合的原坐标正是所给集合.
 ]
 
 #part-header("单选题")
@@ -149,245 +161,211 @@ $ T(x)= \b e g i n{c a s e s} 2 x,&0 <= x <= (1)/(2),\\ 2(1-x),&(1)/(2) <= x <= 
 ]
 
 #problem(13)[
-过点 $P(0,1)$ 与圆 $x^(2)+y^(2)-2 x-3=0$ 相交的所有直线中，被圆截得的弦最长时的直线方程是（ ）
-  #choices([$x=0$], [$y=1$], [$x + y - 1 = 0$], [$x - y + 1 = 0$], cols: 4)
+过点 #mi(`P(0,1)`) 与圆 #mi(`x^{2}+y^{2}-2x-3=0`) 相交的所有直线中，被圆截得的弦最长时的直线方程是（ ）
+  #choices([#mi(`x=0`)], [#mi(`y=1`)], [#mi(`x + y - 1 = 0`)], [#mi(`x - y + 1 = 0`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-圆的方程化为 $(x-1)^2+y^2=4$，圆心为 $O_1(1,0)$，半径为 $2$. 点 $P(0,1)$ 在圆内，因为 $P O_1=sqrt(2)<2$，过圆内一点的最长弦是过该点和圆心的直径. 直线 $P O_1$ 的斜率为 $-1$，方程为 $y-1=-(x-0)$，即 $x+y-1=0$，故选 C.
+圆的方程化为 #mi(`(x-1)^{2}+y^{2}=4`)，圆心为 #mi(`O_{1}(1,0)`)，半径为 #mi(`2`). 点 #mi(`P(0,1)`) 在圆内，因为 #mi(`PO_{1}=\sqrt{2}<2`)，过圆内一点的最长弦是过该点和圆心的直径. 直线 #mi(`PO_{1}`) 的斜率为 #mi(`-1`)，方程为 #mi(`y-1=-(x-0)`)，即 #mi(`x+y-1=0`)，故选 C.
 ]
 
 #problem(14)[
-已知函数 $f(x)=\b e g i n{c a s e s} 3^(x+1), & x \l e q 0,\\ log _(2) x, & x > 0. \e n d{c a s e s}$ 若 $f(x_(0))>3$，则 $x_(0)$ 的取值范围是（ ）
-  #choices([$x_(0) > 8$], [$x_(0) < 0$ 或 $x_(0) > 8$], [$0 < x_(0) < 8$], [$x_(0) < 0$ 或 $0 < x_(0) < 8$], cols: 2)
+已知函数 #mi(`f(x)=\begin{cases}3^{x+1},&x \leq 0,\\  \log_{2}x,&x > 0.\end{cases}`) 若 #mi(`f(x_{0})>3`)，则 #mi(`x_{0}`) 的取值范围是（ ）
+  #choices([#mi(`x_{0}> 8`)], [#mi(`x_{0}< 0`) 或 #mi(`x_{0}> 8`)], [#mi(`0 < x_{0}< 8`)], [#mi(`x_{0}< 0`) 或 #mi(`0 < x_{0}< 8`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-当 $x_0 <= 0$ 时，$f(x_0)=3^(x_0+1) <= 3$，不满足题意. 当 $x_0>0$ 时，$f(x_0)= log _(2) x_0$，于是 $log _(2) x_0>3$，解得 $x_0>2^3=8$. 所以取值范围为 $x_0>8$，故选 A.
+当 #mi(`x_{0}\leqslant0`) 时，#mi(`f(x_{0})=3^{x_0+1}\leqslant3`)，不满足题意. 当 #mi(`x_{0}>0`) 时，#mi(`f(x_{0})=\log_{2}x_{0}`)，于是 #mi(`\log_{2}x_{0}>3`)，解得 #mi(`x_{0}>2^{3}=8`). 所以取值范围为 #mi(`x_{0}>8`)，故选 A.
 ]
 
 #problem(15)[
-函数 $y = 1 + sqrt(1 - x^(2))$（$-1 \l e q x \l e q 0$）的反函数图像是（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/shanghai_spring/q15_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/shanghai_spring/q15_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/shanghai_spring/q15_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2009/img/shanghai_spring/q15_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+函数 #mi(`y = 1 + \sqrt{1 - x^{2}}`)（#mi(`-1 \leq x \leq 0`)）的反函数图像是（ ）
+  #choices([
+#align(center)[#image("/papers/2009/img/shanghai_spring/q15_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/shanghai_spring/q15_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/shanghai_spring/q15_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/shanghai_spring/q15_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-原函数在 $[-1,0]$ 上严格递增，因而存在反函数. 原函数满足 $(y-1)^2+x^2=1$，且 $-1 <= x <= 0$，所以其图像是圆心 $(0,1)$ 的左上四分之一圆弧，端点为 $(-1,1)$ 和 $(0,2)$. 反函数图像关于直线 $y=x$ 对称，端点变为 $(1,-1)$ 和 $(2,0)$，并满足 $(x-1)^2+y^2=1$，是第四象限内相应的四分之一圆弧. 与图形逐项对照，只有 C 符合，故选 C.
+原函数在 #mi(`[-1,0]`) 上严格递增，因而存在反函数. 原函数满足 #mi(`(y-1)^{2}+x^{2}=1`)，且 #mi(`-1\le x\leqslant0`)，所以其图像是圆心 #mi(`(0,1)`) 的左上四分之一圆弧，端点为 #mi(`(-1,1)`) 和 #mi(`(0,2)`). 反函数图像关于直线 #mi(`y=x`) 对称，端点变为 #mi(`(1,-1)`) 和 #mi(`(2,0)`)，并满足 #mi(`(x-1)^{2}+y^{2}=1`)，是第四象限内相应的四分之一圆弧. 与图形逐项对照，只有 C 符合，故选 C.
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-如图，在斜三棱柱 $A B C - A_(1) B_(1) C_1$ 中， $angle A_(1) A C = angle A C B = (pi)/(2)$， $angle A A_(1) C = (pi)/(6)$，侧棱 $B B_1$ 与底面所成的角为 $(pi)/(3)$， $A A_1 = 4 sqrt(3)$， $B C = 4$. 求斜三棱柱 $A B C - A_(1) B_(1) C_1$ 的体积 $V$.
+如图，在斜三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中， #mi(`\angle A_{1}AC = \angle ACB = \frac{\pi}{2}`)， #mi(`\angle AA_{1}C = \frac{\pi}{6}`)，侧棱 #mi(`BB_{1}`) 与底面所成的角为 #mi(`\frac{\pi}{3}`)， #mi(`AA_{1} = 4\sqrt{3}`)， #mi(`BC = 4`). 求斜三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 的体积 #mi(`V`).
 
 
-#align(center)[#image("/papers/2009/img/shanghai_spring/q16_fig1.png", width: 38%)]
+#align(center)[#image("/papers/2009/img/shanghai_spring/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-在直角三角形 $A A_(1) C$ 中，$angle A_(1) A C=(pi)/(2)$，所以
+在直角三角形 #mi(`AA_{1}C`) 中，#mi(`\angle A_{1}AC=\frac{\pi}{2}`)，所以
 
-$ A C=A A_1 tan angle A A_(1) C=4 sqrt(3) tan (pi)/(6)=4 $
 
-又因为 $angle A C B=(pi)/(2)$，底面三角形的面积为 $S_( triangle A B C)=(1)/(2)A C dot B C=(1)/(2) times 4 times 4 =8$.
+#align(center)[#mitex(`
+AC=AA_{1}\tan\angle AA_{1}C=4\sqrt{3}\tan\frac{\pi}{6}=4
+`)]
 
-设从 $B_1$ 向平面 $A B C$ 作垂线，垂足为 $H$. 由于 $B B_1$ 与平面 $A B C$ 所成的角为 $(pi)/(3)$，有 $angle B_(1) B H=(pi)/(3)$. 斜三棱柱的侧棱等长，故 $B B_1=A A_1=4 sqrt(3)$. 在直角三角形 $B_(1) B H$ 中，三棱柱的高为
 
-$ B_(1) H=B B_1 sin angle B_(1) B H=4 sqrt(3) sin (pi)/(3)=6 $
+又因为 #mi(`\angle ACB=\frac{\pi}{2}`)，底面三角形的面积为 #mi(`S_{\triangle ABC}=\frac{1}{2}AC\cdot BC=\frac{1}{2}\times4\times4=8`).
+
+设从 #mi(`B_{1}`) 向平面 #mi(`ABC`) 作垂线，垂足为 #mi(`H`). 由于 #mi(`BB_{1}`) 与平面 #mi(`ABC`) 所成的角为 #mi(`\frac{\pi}{3}`)，有 #mi(`\angle B_{1}BH=\frac{\pi}{3}`). 斜三棱柱的侧棱等长，故 #mi(`BB_{1}=AA_{1}=4\sqrt{3}`). 在直角三角形 #mi(`B_{1}BH`) 中，三棱柱的高为
+
+
+#align(center)[#mitex(`
+B_{1}H=BB_{1}\sin\angle B_{1}BH=4\sqrt{3}\sin\frac{\pi}{3}=6
+`)]
+
 
 因此
 
-$ V=S_( triangle A B C) dot B_(1) H=8 times 6 =48 $
+
+#align(center)[#mitex(`
+V=S_{\triangle ABC}\cdot B_{1}H=8\times6=48
+`)]
 ]
 
 #problem(17)[
-已知数列 $\{a_(n)\}$ 的前 $n$ 项和为 $S_(n)$， $a_(1)=1$，且 $3 a_(n+1)+2 S_(n)=3$（ $n$ 为正整数）.
+已知数列 #mi(`\left\{a_{n}\right\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)， #mi(`a_{1}=1`)，且 #mi(`3a_{n+1}+2S_{n}=3`)（ #mi(`n`) 为正整数）.
 
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 记 $S = a_1 + a_2 + dots.c + a_n + dots.c$. 若对任意正整数 $n$， $k S \l e q S_n$ 恒成立，求实数 $k$ 的最大值.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $n >= 2$ 时，原递推式分别给出 $3 a_(n+1)+2 S_n=3$ 和 $3 a_n+2 S_(n-1)=3$. 两式相减，并利用 $S_n-S_(n-1)=a_n$，得
-
-$ 3 a_(n+1)-3 a_n+2 a_n=0 $
-
-即 $a_(n+1)=(1)/(3)a_n$. 取原式中的 $n=1$，有 $3 a_2+2 a_1=3$，结合 $a_1=1$ 得 $a_2=(1)/(3)$. 因而数列为首项 $1$、公比 $(1)/(3)$ 的等比数列，故
-
-$ a_n=((1)/(3))^(n-1) $
-
-其中 $n in \m a t h b b Z_(>0)$.
-+ (2) 由于公比满足 $|(1)/(3)|<1$，无穷级数收敛，且
-
-$ S=(1)/(1-(1)/(3))=(3)/(2) $
-
-又
-
-$ S_n=(1-((1)/(3))^n)/(1-(1)/(3))=(3)/(2)[1-((1)/(3))^n] $
-
-条件 $k S <= S_n$ 对一切正整数 $n$ 成立，等价于
-
-$ k <= 1 -((1)/(3))^n $
-
-右端随 $n$ 增大而增大，其最小值在 $n=1$ 时取得，为 $(2)/(3)$. 所以 $k <= (2)/(3)$，且取 $k=(2)/(3)$ 时条件确实对所有 $n$ 成立，故 $k$ 的最大值为 $(2)/(3)$.
++ (1)
 ]
 
 #problem(18)[
-我国计划发射火星探测器，该探测器的运行轨道是以火星的中心 $F$ 为一个焦点的椭圆，火星半径为 $R=34" 百公里"$. 如图，已知探测器的近火星点（轨道上离火星表面最近的点）$A$ 到火星表面的距离为 $8" 百公里"$，远火星点（轨道上离火星表面最远的点）$B$ 到火星表面的距离为 $800" 百公里"$. 假定探测器由近火星点 $A$ 第一次逆时针运行到与轨道中心 $O$ 的距离为 $sqrt(a b)" 百公里"$ 时进行变轨，其中 $a$，$b$ 分别为椭圆的长半轴，短半轴的长，求此时探测器与火星表面的距离（精确到 $1" 百公里"$）.
+我国计划发射火星探测器，该探测器的运行轨道是以火星的中心 #mi(`F`) 为一个焦点的椭圆，火星半径为 #mi(`R=34\text{ \text{百公里}}`). 如图，已知探测器的近火星点（轨道上离火星表面最近的点）#mi(`A`) 到火星表面的距离为 #mi(`8\text{ \text{百公里}}`)，远火星点（轨道上离火星表面最远的点）#mi(`B`) 到火星表面的距离为 #mi(`800\text{ \text{百公里}}`). 假定探测器由近火星点 #mi(`A`) 第一次逆时针运行到与轨道中心 #mi(`O`) 的距离为 #mi(`\sqrt{ab}\text{ \text{百公里}}`) 时进行变轨，其中 #mi(`a`)，#mi(`b`) 分别为椭圆的长半轴，短半轴的长，求此时探测器与火星表面的距离（精确到 #mi(`1\text{ \text{百公里}}`)）.
 
 
-#align(center)[#image("/papers/2009/img/shanghai_spring/q18_fig1.png", width: 50%)]
+#align(center)[#image("/papers/2009/img/shanghai_spring/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-取椭圆中心为原点，长轴在 $x$ 轴上，令焦点 $F=(c,0)$，近火星点和远火星点分别为 $A=(a,0)$、$B=(-a,0)$. 由题意，
+取椭圆中心为原点，长轴在 #mi(`x`) 轴上，令焦点 #mi(`F=(c,0)`)，近火星点和远火星点分别为 #mi(`A=(a,0)`)、#mi(`B=(-a,0)`). 由题意，
 
-$ a-c=R+8=42 $
+
+#align(center)[#mitex(`
+a-c=R+8=42
+`)]
+
 
 又
 
-$ a+c=R+800=834 $
 
-解得 $a=438$，$c=396$. 因而
+#align(center)[#mitex(`
+a+c=R+800=834
+`)]
 
-$ b^2=a^2-c^2=438^2-396^2=35028 $
 
-即 $b=sqrt(35028) approx 187 .158$.
+解得 #mi(`a=438`)，#mi(`c=396`). 因而
 
-设第一次逆时针运行到指定位置时探测器为 $P(x,y)$. 从右端点 $A$ 出发逆时针运行，故取第一象限的交点 $x>0$，$y>0$. 由 $O P=sqrt(a b)$ 及椭圆方程，得
 
-$ x^2+y^2=a b $
+#align(center)[#mitex(`
+b^{2}=a^{2}-c^{2}=438^{2}-396^{2}=35028
+`)]
+
+
+即 #mi(`b=\sqrt{35028}\approx187.158`).
+
+设第一次逆时针运行到指定位置时探测器为 #mi(`P(x,y)`). 从右端点 #mi(`A`) 出发逆时针运行，故取第一象限的交点 #mi(`x>0`)，#mi(`y>0`). 由 #mi(`OP=\sqrt{ab}`) 及椭圆方程，得
+
+
+#align(center)[#mitex(`
+x^{2}+y^{2}=ab
+`)]
+
 
 同时
 
-$ (x^2)/(a^2)+(y^2)/(b^2)=1 $
 
-代入 $y^2=a b-x^2$，有
+#align(center)[#mitex(`
+\frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1
+`)]
 
-$ x^2((1)/(a^2)-(1)/(b^2))=1-(a)/(b) $
+
+代入 #mi(`y^{2}=ab-x^{2}`)，有
+
+
+#align(center)[#mitex(`
+x^{2}\left(\frac{1}{a^{2}}-\frac{1}{b^{2}}\right)=1-\frac{a}{b}
+`)]
+
 
 从而
 
-$ x^2=(a^(2) b)/(a+b) $
 
-从而 $x approx 239 .653$，且 $y=sqrt(a b-x^2) approx 156 .657$.
+#align(center)[#mitex(`
+x^{2}=\frac{a^{2}b}{a+b}
+`)]
+
+
+从而 #mi(`x\approx239.653`)，且 #mi(`y=\sqrt{ab-x^{2}}\approx156.657`).
+
 探测器到火星中心的距离为
 
-$ P F=sqrt((x-c)^2+y^2) approx 221 .327 $
+
+#align(center)[#mitex(`
+PF=\sqrt{(x-c)^{2}+y^{2}}\approx221.327
+`)]
+
 
 所以探测器到火星表面的距离为
 
-$ P F-R approx 221 .327-34=187.327" 百公里" $
 
-精确到 $1" 百公里"$ 为 $187" 百公里"$.
+#align(center)[#mitex(`
+PF-R\approx221.327-34=187.327\text{ \text{百公里}}
+`)]
+
+
+精确到 #mi(`1\text{ \text{百公里}}`) 为 #mi(`187\text{ \text{百公里}}`).
 ]
 
 #problem(19)[
-如图，在直角坐标系 $x O y$ 中，有一组对角线长为 $a_(n)$ 的正方形 $A_(n)B_(n)C_(n)D_(n)$（$n=1$，$2$，$dots.c$），其对角线 $B_n D_n$ 依次放置在 $x$ 轴上（相邻顶点重合）. 设 $\{a_n\}$ 是首项为 $a$，公差为 $d$（$d > 0$）的等差数列，点 $B_1$ 的坐标为 $(d, 0)$.
+如图，在直角坐标系 #mi(`xOy`) 中，有一组对角线长为 #mi(`a_{n}`) 的正方形 #mi(`A_{n}B_{n}C_{n}D_{n}`)（#mi(`n=1`)，#mi(`2`)，#mi(`\cdots`)），其对角线 #mi(`B_{n} D_{n}`) 依次放置在 #mi(`x`) 轴上（相邻顶点重合）. 设 #mi(`\{a_{n}\}`) 是首项为 #mi(`a`)，公差为 #mi(`d`)（#mi(`d > 0`)）的等差数列，点 #mi(`B_{1}`) 的坐标为 #mi(`(d, 0)`).
 
 
-+ (1) 当 $a = 8$，$d = 4$ 时，证明：顶点 $A_(1)$， $A_(2)$，$A_(3)$ 不在同一条直线上；
-+ (2) 在（1）的条件下，证明：所有顶点 $A_(n)$ 均落在抛物线 $y^(2)=2 x$ 上；
-+ (3) 为使所有顶点 $A_(n)$ 均落在抛物线 $y^(2)=2 p x$（$p>0$）上，求 $a$ 与 $d$ 之间所应满足的关系式.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2009/img/shanghai_spring/q19_fig1.png", width: 54%)]
+
+#align(center)[#image("/papers/2009/img/shanghai_spring/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 当 $a=8$，$d=4$ 时，$a_1=8$，$a_2=12$，$a_3=16$. 由图形位置，
-$A_1=(8,4)$，$A_2=(18,6)$，$A_3=(32,8)$.
-因此 $k_(A_(1) A_2)=(6-4)/(18-8)=(1)/(5)$，$k_(A_(2) A_3)=(8-6)/(32-18)=(1)/(7)$.
-两斜率不相等，故三点不在同一直线上.
-+ (2) 一般地，因 $a_n=a+(n-1)d$，且 $B_1=(d,0)$，有
-
-$ x_n=d+sum_(i=1)^(n-1)a_i+(1)/(2)a_n $
-
-且 $y_n=(1)/(2)a_n$.
-在本小题条件下，$a_n=4(n+1)$，所以
-
-$ x_n=4+sum_(i=1)^(n-1)4(i+1)+2(n+1)=2(n+1)^2 $
-
-且 $y_n=2(n+1)$.
-于是 $y_n^2=4(n+1)^2=2 x_n$，故所有顶点 $A_n$ 均在抛物线 $y^2=2 x$ 上.
-+ (3) 令 $t=n-1$，则
-
-$ x_n=d+(a)/(2)+a t+(d)/(2)t^2 $
-
-且 $y_n=(1)/(2)(a+d t)$.
-由 $t=(2 y_n-a)/(d)$ 消去 $t$，得
-
-$ x_n=(2)/(d)y_n^2+d+(a(d-a))/(2 d) $
-
-若所有顶点均在 $y^2=2 p x$ 上，则对无穷多个不同的 $y_n$ 有
-
-$ (2)/(d)y_n^2+d+(a(d-a))/(2 d)=(1)/(2 p)y_n^2 $
-
-由于这些 $y_n$ 互不相同，上式两端关于 $y_n$ 的二次式在无穷多个点相等，故比较二次项系数和常数项，得到
-
-$ d=4 p $
-
-且 $d+(a(d-a))/(2 d)=0$.
-第二式化为 $a^2-a d-2 d^2=0$，即 $(a-2 d)(a+d)=0$. 因为 $a=a_1$ 是正方形的对角线长，故 $a>0$，而 $d>0$，只能取 $a=2 d$. 反之，若 $a=2 d$，则常数项为零且 $p=(d)/(4)>0$，上式给出所有顶点都满足 $y^2=2 p x$. 所以所求关系式为 $a=2 d$.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-设函数 $f_(n)( theta )= sin ""^(n) theta +(-1)^(n) cos ""^(n) theta$，$0\l e q theta \l e q(pi)/(4)$，其中 $n$ 为正整数.
+设函数 #mi(`f_{n}(\theta)=\sin^{n}\theta+(-1)^{n}\cos^{n}\theta`)，#mi(`0\leq\theta\leq\frac{\pi}{4}`)，其中 #mi(`n`) 为正整数.
 
 
-+ (1) 判断函数 $f_(1)( theta )$， $f_(3)( theta )$ 的单调性，并就 $f_(1)( theta )$ 的情形证明你的结论；
-+ (2) 证明： $2 f_(6)( theta )-f_(4)( theta )=( cos ""^(4) theta - sin ""^(4) theta )( cos ""^(2) theta - sin ""^(2) theta )$；
-+ (3) 对于任意给定的正整数 $n$，求函数 $f_(n)( theta )$ 的最大值和最小值.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) $f_1( theta )= sin theta - cos theta$，$f_3( theta )= sin ""^3 theta - cos ""^3 theta$. 对任意 $0 <= theta _1< theta _2 <= (pi)/(4)$，有 $sin theta _1< sin theta _2$ 且 $cos theta _2< cos theta _1$，因此
-
-$ f_1( theta _1)-f_1( theta _2)=( sin theta _1- sin theta _2)+( cos theta _2- cos theta _1)<0 $
-
-所以 $f_1( theta _1)<f_1( theta _2)$，即 $f_1$ 在 $[0,(pi)/(4)]$ 上单调递增. 又因为 $0 <= sin theta _1< sin theta _2$ 且 $0 <= cos theta _2< cos theta _1$，非负数的三次方保持大小关系，所以 $sin ""^3 theta _1< sin ""^3 theta _2$ 且 $cos ""^3 theta _2< cos ""^3 theta _1$. 并且
-
-$ f_3( theta _1)-f_3( theta _2)=( sin ""^3 theta _1- sin ""^3 theta _2)+( cos ""^3 theta _2- cos ""^3 theta _1)<0 $
-
-从而 $f_3( theta _1)<f_3( theta _2)$，故 $f_3$ 也在该区间上单调递增.
-+ (2) 记 $s= sin theta$，$c= cos theta$. 由 $s^2+c^2=1$，
-
-$ 2 f_6-f_4=2(s^6+c^6)-(s^4+c^4)=2(1-3 s^(2) c^2)-(1-2 s^(2) c^2)=1-4 s^(2) c^2=1- sin ""^(2) 2 theta = cos ""^(2) 2 theta $
-
-另一方面，
-
-$ (c^4-s^4)(c^2-s^2)=(c^2-s^2)^2(c^2+s^2)= cos ""^(2) 2 theta $
-
-两边相等，等式得证.
-+ (3) 当 $n$ 为奇数时，$f_n( theta )= sin ""^n theta - cos ""^n theta$. 对区间内任意 $theta _1< theta _2$，由于函数 $t\m a p s t o t^n$ 在 $[0,+ oo )$ 上严格递增，有 $sin ""^n theta _1< sin ""^n theta _2$ 及 $cos ""^n theta _2< cos ""^n theta _1$，并且
-
-$ f_n( theta _1)-f_n( theta _2)=( sin ""^n theta _1- sin ""^n theta _2)+( cos ""^n theta _2- cos ""^n theta _1)<0 $
-
-故 $f_n( theta _1)<f_n( theta _2)$，因而函数单调递增，且
-
-$ f_n(0)=-1 $
-
-且 $f_n((pi)/(4))=0$.
-所以奇数 $n$ 时最大值为 $0$，最小值为 $-1$.
-
-当 $n=2$ 时，$f_2( theta )= sin ""^2 theta + cos ""^2 theta =1$，所以最大值和最小值均为 $1$.
-
-当 $n=2 l$ 且 $l >= 2$ 时，$f_n( theta )= sin ""^n theta + cos ""^n theta <= sin ""^2 theta + cos ""^2 theta =1$，故最大值为 $f_n(0)=1$. 又因为 $0 <= sin theta <= cos theta$，有
-
-$ 2 f_(2 l)( theta )-f_(2 l-2)( theta )=( cos ""^(2 l-2) theta - sin ""^(2 l-2) theta )( cos ""^2 theta - sin ""^2 theta ) >= 0 $
-
-所以 $f_(2 l)( theta ) >= (1)/(2)f_(2 l-2)( theta )$. 迭代并利用 $f_2( theta )=1$，得到
-
-$ f_n( theta ) >= (1)/(2^(l-1)) $
-
-在 $theta =(pi)/(4)$ 时，$f_n((pi)/(4))=2((1)/(sqrt(2)))^n=(1)/(2^(l-1))$，故这是最小值. 因此偶数 $n$ 时最大值为 $1$，最小值为 $2((1)/(2))^((n)/(2))$.
++ (1) 
++ (2)
 ]
 

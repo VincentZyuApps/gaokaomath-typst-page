@@ -447,13 +447,13 @@ kx-y+2=0
 #problem(15)[
 半径为 #mi(`r`) 的圆的面积 #mi(`S(r) = \pi r^{2}`)，周长 #mi(`C(r) = 2\pi r`)，若将 #mi(`r`) 看作 #mi(`(0, +\infty)`) 上的变量，则 #mi(`(\pi r^{2})^{\prime} = 2\pi r`) #mi(`①`)，
 
-#mi(`①`)式可以用语言叙述为：圆的面积函数的导数等于圆的周长函数.
+#mi(`①`) 式可以用语言叙述为：圆的面积函数的导数等于圆的周长函数.
 
 对于半径为 #mi(`R`) 的球，若将 #mi(`R`) 看作 #mi(`(0, +\infty)`) 上的变量，请你写出类似于
 
-#mi(`①`)的式子：\underline{\hspace{2.5em}} #mi(`②`)，
+#mi(`①`) 的式子：\underline{\hspace{2.5em}} #mi(`②`)，
 
-#mi(`②`)式可以用语言叙述为：\underline{\hspace{2.5em}}.
+#mi(`②`) 式可以用语言叙述为：\underline{\hspace{2.5em}}.
 ]
 
 #answer([#mi(`\left(\frac{4}{3}\pi R^{3}\right)^{\prime} = 4\pi R^{2}`)；球的体积函数的导数等于球的表面积函数.])
@@ -524,7 +524,9 @@ kx-y+2=0
 
 
 
-[max width=0.44\linewidth]img/2006/hubei_liberal/q18_fig1.png
+
+#align(center)[#image("/papers/2006/img/hubei_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[

@@ -1,8 +1,77 @@
 {
-  "title": "1977年普通高等学校招生全国统一考试",
-  "subtitle": "1977年广西百色卷（理）",
   "year": "1977",
   "slug": "guangxi_baise_science",
+  "title": "1977年广西百色卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "选作题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "选作题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "解答题",
@@ -10,65 +79,83 @@
         {
           "num": 1,
           "body": "求函数 $y=\\dfrac{2\\sqrt{5-x}}{\\sqrt{x-3}}$ 的定义域.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "要使分子中的根式有意义，必须有 $5-x\\geqslant0$，所以 $x\\leqslant5$. 分母中的根式既要有意义又不能为零，因此必须有 $x-3>0$，所以 $x>3$. 两个条件合并得 $3<x\\leqslant5$，故函数的定义域为 $\\left(3,5\\right]$."
+          "solution": "要使分子中的根式有意义，必须有 $5-x\\geqslant0$，所以 $x\\leqslant5$. 分母中的根式既要有意义又不能为零，因此必须有 $x-3>0$，所以 $x>3$. 两个条件合并得 $3<x\\leqslant5$，故函数的定义域为 $\\left(3,5\\right]$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "计算 $\\left(-\\dfrac{1}{2}\\right)^{-3}+32^{\\frac{2}{5}}+5^{0}-3^{-2}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>负整数指数表示相应正整数次幂的倒数，且 $32=2^{5}$，所以</p>\n$$\n\\left(-\\dfrac{1}{2}\\right)^{-3}+32^{\\frac{2}{5}}+5^{0}-3^{-2}=(-2)^{3}+\\left(2^{5}\\right)^{\\frac{2}{5}}+1-\\dfrac{1}{3^2}=-8+4+1-\\dfrac{1}{9}=-\\dfrac{28}{9}\n$$"
+          "solution": "<p>负整数指数表示相应正整数次幂的倒数，且 $32=2^{5}$，所以</p>\n$$\n\\left(-\\dfrac{1}{2}\\right)^{-3}+32^{\\frac{2}{5}}+5^{0}-3^{-2}=(-2)^{3}+\\left(2^{5}\\right)^{\\frac{2}{5}}+1-\\dfrac{1}{3^2}=-8+4+1-\\dfrac{1}{9}=-\\dfrac{28}{9}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "求 $\\sin^{2} 60^{\\circ}+\\cot45^{\\circ}+\\dfrac{3}{4}\\tan^{2} 30^{\\circ}-\\cos60^{\\circ}$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由特殊角三角函数值 $\\sin60^{\\circ}=\\dfrac{\\sqrt{3}}{2}$，$\\cot45^{\\circ}=1$，$\\tan30^{\\circ}=\\dfrac{\\sqrt{3}}{3}$，$\\cos60^{\\circ}=\\dfrac{1}{2}$，原式为</p>\n$$\n\\left(\\dfrac{\\sqrt{3}}{2}\\right)^{2}+1+\\dfrac{3}{4}\\left(\\dfrac{\\sqrt{3}}{3}\\right)^{2}-\\dfrac{1}{2}=\\dfrac{3}{4}+1+\\dfrac{1}{4}-\\dfrac{1}{2}=\\dfrac{3}{2}\n$$"
+          "solution": "<p>由特殊角三角函数值 $\\sin60^{\\circ}=\\dfrac{\\sqrt{3}}{2}$，$\\cot45^{\\circ}=1$，$\\tan30^{\\circ}=\\dfrac{\\sqrt{3}}{3}$，$\\cos60^{\\circ}=\\dfrac{1}{2}$，原式为</p>\n$$\n\\left(\\dfrac{\\sqrt{3}}{2}\\right)^{2}+1+\\dfrac{3}{4}\\left(\\dfrac{\\sqrt{3}}{3}\\right)^{2}-\\dfrac{1}{2}=\\dfrac{3}{4}+1+\\dfrac{1}{4}-\\dfrac{1}{2}=\\dfrac{3}{2}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "$\\log_{2}\\sqrt{8}=x$. 求 $x$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "由对数的定义，$\\log_{2}\\sqrt{8}=x$ 等价于 $2^{x}=\\sqrt{8}$. 又因为 $\\sqrt{8}=\\sqrt{2^{3}}=2^{\\frac{3}{2}}$，所以 $2^{x}=2^{\\frac{3}{2}}$. 底数 $2$ 大于 $0$ 且不等于 $1$，幂函数的值相等时指数相等，故 $x=\\dfrac{3}{2}$."
+          "solution": "由对数的定义，$\\log_{2}\\sqrt{8}=x$ 等价于 $2^{x}=\\sqrt{8}$. 又因为 $\\sqrt{8}=\\sqrt{2^{3}}=2^{\\frac{3}{2}}$，所以 $2^{x}=2^{\\frac{3}{2}}$. 底数 $2$ 大于 $0$ 且不等于 $1$，幂函数的值相等时指数相等，故 $x=\\dfrac{3}{2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "<p>已知直线过 $(3,1)$ 和 $(-6,4)$ 两点.</p><ol class=\"enumerate\"><li><p>求出这直线方程.</p></li><li><p>求它的斜率和 $y$ 轴上的截距.</p></li><li><p>这函数是上升或下降.</p></li><li><p>求过 $(0,-5)$ 和这直线平行的直线方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设直线方程为 $y=kx+b$. 将两点坐标代入，得到</p>\n$$\n\\begin{cases}1=3k+b,\\\\  4=-6k+b.\\end{cases}\n$$\n<p>两式相减得 $3=-9k$，所以 $k=-\\dfrac{1}{3}$. 代回 $1=3k+b$，得 $b=2$. 因而直线方程为 $y=-\\dfrac{1}{3}x+2$，化为一般式为 $x+3y-6=0$.</p></li><li><p>由直线的斜截式 $y=kx+b$ 可知，斜率为 $k=-\\dfrac{1}{3}$，$y$ 轴上的截距为 $b=2$.</p></li><li><p>因为斜率 $k=-\\dfrac{1}{3}<0$，所以函数 $y=-\\dfrac{1}{3}x+2$ 随 $x$ 增大而减小，是下降函数.</p></li><li><p>平行直线的斜率相等，所以所求直线的斜率仍为 $-\\dfrac{1}{3}$. 设其方程为 $y=-\\dfrac{1}{3}x+b_{1}$，代入点 $(0,-5)$ 得 $-5=b_{1}$. 因而所求直线为 $y=-\\dfrac{1}{3}x-5$，化为一般式为 $x+3y+15=0$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设直线方程为 $y=kx+b$. 将两点坐标代入，得到</p>\n$$\n\\begin{cases}1=3k+b,\\\\  4=-6k+b.\\end{cases}\n$$\n<p>两式相减得 $3=-9k$，所以 $k=-\\dfrac{1}{3}$. 代回 $1=3k+b$，得 $b=2$. 因而直线方程为 $y=-\\dfrac{1}{3}x+2$，化为一般式为 $x+3y-6=0$.</p></li><li><p>由直线的斜截式 $y=kx+b$ 可知，斜率为 $k=-\\dfrac{1}{3}$，$y$ 轴上的截距为 $b=2$.</p></li><li><p>因为斜率 $k=-\\dfrac{1}{3}<0$，所以函数 $y=-\\dfrac{1}{3}x+2$ 随 $x$ 增大而减小，是下降函数.</p></li><li><p>平行直线的斜率相等，所以所求直线的斜率仍为 $-\\dfrac{1}{3}$. 设其方程为 $y=-\\dfrac{1}{3}x+b_{1}$，代入点 $(0,-5)$ 得 $-5=b_{1}$. 因而所求直线为 $y=-\\dfrac{1}{3}x-5$，化为一般式为 $x+3y+15=0$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
-          "body": "<p>已知圆 $O$ 中两弦 $AB$，$CD$ 相交于 $E$.</p><ol class=\"enumerate\"><li><p>证明 $AE\\cdot BE=CE\\cdot DE$.</p></li><li><p>当 $CD$ 为直径 $2R$，$AB\\perp CD$ 时，证明 $BE^{2}=CE(2R-CE)$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangxi_baise_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>已知圆 $O$ 中两弦 $AB$，$CD$ 相交于 $E$.</p><ol class=\"enumerate\"><li><p>证明 $AE\\cdot BE=CE\\cdot DE$.</p></li><li><p>当 $CD$ 为直径 $2R$，$AB\\perp CD$ 时，证明 $BE^{2}=CE(2R-CE)$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/guangxi_baise_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>连接 $AC$、$BD$. 因为 $A$、$E$、$B$ 共线，$C$、$E$、$D$ 共线，所以 $\\angle AEC=\\angle DEB$ 是对顶角. 又因为 $A$、$B$、$C$、$D$ 在同一圆上，$\\angle ACE=\\angle ACD$ 与 $\\angle DBE=\\angle DBA$ 都对着弦 $AD$，故 $\\angle ACE=\\angle DBE$. 因此 $\\triangle AEC\\sim\\triangle DEB$，从而</p>\n$$\n\\dfrac{AE}{DE}=\\dfrac{CE}{BE}\n$$\n<p>交叉相乘得 $AE\\cdot BE=CE\\cdot DE$.</p></li><li><p>因为 $CD$ 是过圆心 $O$ 的直径，且 $AB\\perp CD$，所以过圆心的垂线平分弦 $AB$. 交点 $E$ 是弦 $AB$ 的中点，故 $AE=BE$. 又 $C$、$E$、$D$ 依次在直径上，且 $CD=2R$，所以 $DE=CD-CE=2R-CE$. 将这两个关系代入第一问的结论，得</p>\n$$\nBE^{2}=AE\\cdot BE=CE\\cdot DE=CE(2R-CE)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>连接 $AC$、$BD$. 因为 $A$、$E$、$B$ 共线，$C$、$E$、$D$ 共线，所以 $\\angle AEC=\\angle DEB$ 是对顶角. 又因为 $A$、$B$、$C$、$D$ 在同一圆上，$\\angle ACE=\\angle ACD$ 与 $\\angle DBE=\\angle DBA$ 都对着弦 $AD$，故 $\\angle ACE=\\angle DBE$. 因此 $\\triangle AEC\\sim\\triangle DEB$，从而</p>\n$$\n\\dfrac{AE}{DE}=\\dfrac{CE}{BE}\n$$\n<p>交叉相乘得 $AE\\cdot BE=CE\\cdot DE$.</p></li><li><p>因为 $CD$ 是过圆心 $O$ 的直径，且 $AB\\perp CD$，所以过圆心的垂线平分弦 $AB$. 交点 $E$ 是弦 $AB$ 的中点，故 $AE=BE$. 又 $C$、$E$、$D$ 依次在直径上，且 $CD=2R$，所以 $DE=CD-CE=2R-CE$. 将这两个关系代入第一问的结论，得</p>\n$$\nBE^{2}=AE\\cdot BE=CE\\cdot DE=CE(2R-CE)\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "一船往返于 $48\\text{ 公里}$ 的两地，共航行 $10\\text{ 小时}$，已知水流速度是 $2\\text{ 公里/小时}$，求这轮船在静水中航行的速度.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设轮船在静水中的速度为 $x\\text{ 公里/小时}$. 轮船逆水航行时速度为 $x-2\\text{ 公里/小时}$，必须有 $x>2$；顺水航行时速度为 $x+2\\text{ 公里/小时}$. 因此往返所用时间满足</p>\n$$\n\\dfrac{48}{x+2}+\\dfrac{48}{x-2}=10\n$$\n<p>由 $x>2$ 可知 $(x+2)(x-2)\\ne0$，两边同乘该因式，得</p>\n$$\n48(x-2)+48(x+2)=10(x+2)(x-2)\n$$\n<p>整理得 $5x^{2}-48x-20=0$. 因为</p>\n$$\n5x^{2}-48x-20=(5x+2)(x-10)\n$$\n<p>所以 $x=10$ 或 $x=-\\dfrac{2}{5}$. 其中 $x=-\\dfrac{2}{5}$ 不满足速度必须为正且 $x>2$ 的实际条件，舍去；$x=10$ 代回原方程成立. 故轮船在静水中的速度为 $10\\text{ 公里/小时}$.</p>"
+          "solution": "<p>设轮船在静水中的速度为 $x\\text{ 公里/小时}$. 轮船逆水航行时速度为 $x-2\\text{ 公里/小时}$，必须有 $x>2$；顺水航行时速度为 $x+2\\text{ 公里/小时}$. 因此往返所用时间满足</p>\n$$\n\\dfrac{48}{x+2}+\\dfrac{48}{x-2}=10\n$$\n<p>由 $x>2$ 可知 $(x+2)(x-2)\\ne0$，两边同乘该因式，得</p>\n$$\n48(x-2)+48(x+2)=10(x+2)(x-2)\n$$\n<p>整理得 $5x^{2}-48x-20=0$. 因为</p>\n$$\n5x^{2}-48x-20=(5x+2)(x-10)\n$$\n<p>所以 $x=10$ 或 $x=-\\dfrac{2}{5}$. 其中 $x=-\\dfrac{2}{5}$ 不满足速度必须为正且 $x>2$ 的实际条件，舍去；$x=10$ 代回原方程成立. 故轮船在静水中的速度为 $10\\text{ 公里/小时}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
-          "body": "<p>已知 $A$，$B$，$C$ 是 $\\triangle ABC$ 的三个内角，求证 $a=b\\cos C+c\\cos B$，$b=c\\cos A+a\\cos C$，$c=a\\cos B+b\\cos A$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangxi_baise_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>已知 $A$，$B$，$C$ 是 $\\triangle ABC$ 的三个内角，求证 $a=b\\cos C+c\\cos B$，$b=c\\cos A+a\\cos C$，$c=a\\cos B+b\\cos A$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/guangxi_baise_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>作高 $AD\\perp BC$，必要时将边延长. 在直角三角形 $ABD$ 和 $ACD$ 中，边 $AB=c$ 在 $BC$ 方向上的投影为 $c\\cos B$，边 $AC=b$ 在 $BC$ 方向上的投影为 $b\\cos C$. 因此</p>\n$$\na=BC=c\\cos B+b\\cos C=b\\cos C+c\\cos B\n$$\n<p>作高 $BE\\perp AC$，必要时将边延长. 边 $AB=c$ 在 $AC$ 方向上的投影为 $c\\cos A$，边 $BC=a$ 在 $AC$ 方向上的投影为 $a\\cos C$，所以</p>\n$$\nb=AC=c\\cos A+a\\cos C\n$$\n<p>作高 $CF\\perp AB$，必要时将边延长. 边 $AC=b$ 在 $AB$ 方向上的投影为 $b\\cos A$，边 $BC=a$ 在 $AB$ 方向上的投影为 $a\\cos B$，所以</p>\n$$\nc=AB=b\\cos A+a\\cos B=a\\cos B+b\\cos A\n$$"
+          "solution": "<p>作高 $AD\\perp BC$，必要时将边延长. 在直角三角形 $ABD$ 和 $ACD$ 中，边 $AB=c$ 在 $BC$ 方向上的投影为 $c\\cos B$，边 $AC=b$ 在 $BC$ 方向上的投影为 $b\\cos C$. 因此</p>\n$$\na=BC=c\\cos B+b\\cos C=b\\cos C+c\\cos B\n$$\n<p>作高 $BE\\perp AC$，必要时将边延长. 边 $AB=c$ 在 $AC$ 方向上的投影为 $c\\cos A$，边 $BC=a$ 在 $AC$ 方向上的投影为 $a\\cos C$，所以</p>\n$$\nb=AC=c\\cos A+a\\cos C\n$$\n<p>作高 $CF\\perp AB$，必要时将边延长. 边 $AC=b$ 在 $AB$ 方向上的投影为 $b\\cos A$，边 $BC=a$ 在 $AB$ 方向上的投影为 $a\\cos B$，所以</p>\n$$\nc=AB=b\\cos A+a\\cos B=a\\cos B+b\\cos A\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "当 $a$，$b$，$c$ 为实数时，求证方程 $x^{2}-(a+b)x+(ab-c^{2})=0$ 有两个实数根，并求出两个根相等的条件.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>该方程是一元二次方程，二次项系数为 $1$. 它的判别式为</p>\n$$\n\\Delta=\\left[-(a+b)\\right]^{2}-4\\left(ab-c^{2}\\right)=a^{2}+2ab+b^{2}-4ab+4c^{2}=(a-b)^{2}+4c^{2}\n$$\n<p>因为 $a$、$b$、$c$ 都是实数，$(a-b)^{2}\\geqslant0$ 且 $4c^{2}\\geqslant0$，所以 $\\Delta\\geqslant0$. 由一元二次方程根的判别式判定，该方程有两个实数根（重根按两个根计）.</p><p>两个根相等当且仅当 $\\Delta=0$. 两个非负数之和为零，当且仅当它们都为零，因此 $(a-b)^{2}=0$，$4c^{2}=0$，这等价于 $a=b$，$c=0$. 此时重根为 $x=\\dfrac{a+b}{2}=a$.</p>"
+          "solution": "<p>该方程是一元二次方程，二次项系数为 $1$. 它的判别式为</p>\n$$\n\\Delta=\\left[-(a+b)\\right]^{2}-4\\left(ab-c^{2}\\right)=a^{2}+2ab+b^{2}-4ab+4c^{2}=(a-b)^{2}+4c^{2}\n$$\n<p>因为 $a$、$b$、$c$ 都是实数，$(a-b)^{2}\\geqslant0$ 且 $4c^{2}\\geqslant0$，所以 $\\Delta\\geqslant0$. 由一元二次方程根的判别式判定，该方程有两个实数根（重根按两个根计）.</p><p>两个根相等当且仅当 $\\Delta=0$. 两个非负数之和为零，当且仅当它们都为零，因此 $(a-b)^{2}=0$，$4c^{2}=0$，这等价于 $a=b$，$c=0$. 此时重根为 $x=\\dfrac{a+b}{2}=a$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -78,16 +165,20 @@
         {
           "num": 10,
           "body": "已知 $2\\lg(x-2y)=\\lg x+\\lg y$. 求 $x:y$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>原方程有意义的必要条件是 $x>0$，$y>0$，$x-2y>0$. 在这些条件下，利用对数的运算性质，原方程可化为</p>\n$$\n\\lg\\left(x-2y\\right)^{2}=\\lg x+\\lg y=\\lg(xy)\n$$\n<p>因为常用对数函数在正数上是单调函数，所以</p>\n$$\n\\left(x-2y\\right)^{2}=xy\n$$\n<p>展开并移项，得 $x^{2}-5xy+4y^{2}=0$，即</p>\n$$\n(x-y)(x-4y)=0\n$$\n<p>故可能有 $x=y$ 或 $x=4y$. 但由原方程的定义域条件 $x-2y>0$，可得 $\\dfrac{x}{y}>2$，所以 $x=y$ 不符合条件；而 $x=4y$ 满足 $x>0$、$y>0$ 且 $x-2y=2y>0$. 因此 $\\dfrac{x}{y}=4$，即 $x:y=4:1$.</p>"
+          "solution": "<p>原方程有意义的必要条件是 $x>0$，$y>0$，$x-2y>0$. 在这些条件下，利用对数的运算性质，原方程可化为</p>\n$$\n\\lg\\left(x-2y\\right)^{2}=\\lg x+\\lg y=\\lg(xy)\n$$\n<p>因为常用对数函数在正数上是单调函数，所以</p>\n$$\n\\left(x-2y\\right)^{2}=xy\n$$\n<p>展开并移项，得 $x^{2}-5xy+4y^{2}=0$，即</p>\n$$\n(x-y)(x-4y)=0\n$$\n<p>故可能有 $x=y$ 或 $x=4y$. 但由原方程的定义域条件 $x-2y>0$，可得 $\\dfrac{x}{y}>2$，所以 $x=y$ 不符合条件；而 $x=4y$ 满足 $x>0$、$y>0$ 且 $x-2y=2y>0$. 因此 $\\dfrac{x}{y}=4$，即 $x:y=4:1$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 11,
-          "body": "<p>求内接于半径为 $10\\text{ 厘米}$，圆心角为 $120^{\\circ}$ 的弓形的正方形的边长.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangxi_baise_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>求内接于半径为 $10\\text{ 厘米}$，圆心角为 $120^{\\circ}$ 的弓形的正方形的边长.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/guangxi_baise_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>设图中正方形为 $CDEF$，其边长为 $x\\text{ 厘米}$. 作半径 $OP\\perp FE$，令 $N=OP\\cap FE$，$M=OP\\cap AB$. 由于过圆心的半径垂直于弦 $FE$，所以 $N$ 是弦 $FE$ 的中点；又因为 $OP\\perp AB$，所以 $M$ 是弦 $AB$ 的中点，且 $OP$ 平分圆心角 $\\angle AOB$. 因此 $\\angle BOM=\\dfrac{1}{2}\\angle AOB=60^{\\circ}$.</p><p>在直角三角形 $OMB$ 中，$OB=10\\text{ 厘米}$，所以</p>\n$$\nOM=OB\\cos60^{\\circ}=10\\times\\dfrac{1}{2}=5\\text{ 厘米}\n$$\n<p>正方形的高为边长，故 $MN=x$，而 $N$ 是正方形上边 $FE$ 的中点，故 $NE=\\dfrac{x}{2}$. 又 $ON=OM+MN=5+x$. 在直角三角形 $ONE$ 中，斜边 $OE$ 是圆的半径，故 $OE=10\\text{ 厘米}$，由勾股定理得</p>\n$$\n(5+x)^{2}+\\left(\\dfrac{x}{2}\\right)^{2}=10^{2}\n$$\n<p>展开并化简，得到 $x^{2}+8x-60=0$. 解得</p>\n$$\nx=\\dfrac{-8\\pm\\sqrt{8^{2}+240}}{2}=\\dfrac{-8\\pm4\\sqrt{19}}{2}=-4\\pm2\\sqrt{19}\n$$\n<p>边长必须为正，所以舍去 $-4-2\\sqrt{19}$，取 $x=2\\sqrt{19}-4\\text{ 厘米}$. 数值上 $2\\sqrt{19}-4\\approx4.72$，故正方形的边长约为 $4.7\\text{ 厘米}$.</p>"
+          "solution": "<p>设图中正方形为 $CDEF$，其边长为 $x\\text{ 厘米}$. 作半径 $OP\\perp FE$，令 $N=OP\\cap FE$，$M=OP\\cap AB$. 由于过圆心的半径垂直于弦 $FE$，所以 $N$ 是弦 $FE$ 的中点；又因为 $OP\\perp AB$，所以 $M$ 是弦 $AB$ 的中点，且 $OP$ 平分圆心角 $\\angle AOB$. 因此 $\\angle BOM=\\dfrac{1}{2}\\angle AOB=60^{\\circ}$.</p><p>在直角三角形 $OMB$ 中，$OB=10\\text{ 厘米}$，所以</p>\n$$\nOM=OB\\cos60^{\\circ}=10\\times\\dfrac{1}{2}=5\\text{ 厘米}\n$$\n<p>正方形的高为边长，故 $MN=x$，而 $N$ 是正方形上边 $FE$ 的中点，故 $NE=\\dfrac{x}{2}$. 又 $ON=OM+MN=5+x$. 在直角三角形 $ONE$ 中，斜边 $OE$ 是圆的半径，故 $OE=10\\text{ 厘米}$，由勾股定理得</p>\n$$\n(5+x)^{2}+\\left(\\dfrac{x}{2}\\right)^{2}=10^{2}\n$$\n<p>展开并化简，得到 $x^{2}+8x-60=0$. 解得</p>\n$$\nx=\\dfrac{-8\\pm\\sqrt{8^{2}+240}}{2}=\\dfrac{-8\\pm4\\sqrt{19}}{2}=-4\\pm2\\sqrt{19}\n$$\n<p>边长必须为正，所以舍去 $-4-2\\sqrt{19}$，取 $x=2\\sqrt{19}-4\\text{ 厘米}$. 数值上 $2\\sqrt{19}-4\\approx4.72$，故正方形的边长约为 $4.7\\text{ 厘米}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

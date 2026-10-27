@@ -1,8 +1,167 @@
 {
-  "title": "1994年普通高等学校招生全国统一考试",
-  "subtitle": "1994年上海卷（文）",
   "year": "1994",
   "slug": "shanghai_liberal",
+  "title": "1994年上海卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 24,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 25,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 26,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "填空题",
@@ -10,72 +169,92 @@
         {
           "num": 1,
           "body": "不等式 $|x + 1| < 1$ 的解是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-2 < x < 0$",
-          "solution": "由绝对值不等式的等价形式，$|x+1|<1$ 等价于 $-1<x+1<1$，两边同时减去 $1$，得 $-2<x<0$."
+          "choices": [],
+          "answer": "\\(-2 < x < 0\\)",
+          "solution": "由绝对值不等式的等价形式，$|x+1|<1$ 等价于 $-1<x+1<1$，两边同时减去 $1$，得 $-2<x<0$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "函数 $y = \\sin^{2}x$ 的最小正周期是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\pi$",
-          "solution": "利用降幂公式，$\\sin^{2}x=\\dfrac{1-\\cos2x}{2}$，所以 $\\pi$ 是 $y=\\sin^{2}x$ 的一个正周期. 又因为 $\\sin^{2}x=0$ 当且仅当 $x=k\\pi$（$k\\in\\mathbb{Z}$），若正数 $T$ 是该函数的周期，则由 $f(0)=f(T)$ 得 $\\sin^{2}T=0$，从而 $T$ 是 $\\pi$ 的正整数倍. 因此最小正周期为 $\\pi$."
+          "choices": [],
+          "answer": "\\(\\pi\\)",
+          "solution": "利用降幂公式，$\\sin^{2}x=\\dfrac{1-\\cos2x}{2}$，所以 $\\pi$ 是 $y=\\sin^{2}x$ 的一个正周期. 又因为 $\\sin^{2}x=0$ 当且仅当 $x=k\\pi$（$k\\in\\mathbb{Z}$），若正数 $T$ 是该函数的周期，则由 $f(0)=f(T)$ 得 $\\sin^{2}T=0$，从而 $T$ 是 $\\pi$ 的正整数倍. 因此最小正周期为 $\\pi$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "计算：$\\displaystyle\\lim_{x\\to-1}\\frac{x^{2}-2x-3}{x+1}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-4$",
-          "solution": "<p>当 $x\\ne-1$ 时，$x^{2}-2x-3=(x+1)(x-3)$，故</p><p>$\\dfrac{x^2-2x-3}{x+1}=x-3$. 于是</p><p>$\\displaystyle\\lim_{x\\to-1}\\frac{x^{2}-2x-3}{x+1}=\\lim_{x\\to-1}(x-3)=-4$.</p>"
+          "choices": [],
+          "answer": "\\(-4\\)",
+          "solution": "<p>当 $x\\ne-1$ 时，$x^{2}-2x-3=(x+1)(x-3)$，故</p><p>$\\dfrac{x^2-2x-3}{x+1}=x-3$. 于是</p><p>$\\displaystyle\\lim_{x\\to-1}\\frac{x^{2}-2x-3}{x+1}=\\lim_{x\\to-1}(x-3)=-4$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "以点 $C(-2,3)$ 为圆心且与 $y$ 轴相切的圆的方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(x + 2)^{2} + (y - 3)^{2} = 4$",
-          "solution": "<p>圆心为 $C(-2,3)$. 圆与 $y$ 轴相切，所以半径等于圆心到直线 $x=0$ 的距离，即 $r=|-2|=2$. 因此圆的方程为</p><p>$(x+2)^{2}+(y-3)^{2}=r^{2}=4$.</p>"
+          "choices": [],
+          "answer": "\\((x + 2)^2 + (y - 3)^2 = 4\\)",
+          "solution": "<p>圆心为 $C(-2,3)$. 圆与 $y$ 轴相切，所以半径等于圆心到直线 $x=0$ 的距离，即 $r=|-2|=2$. 因此圆的方程为</p><p>$(x+2)^{2}+(y-3)^{2}=r^{2}=4$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "方程 $\\log_{3}(x-1)=\\log_{9}(x+5)$ 的解是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$x = 4$",
-          "solution": "<p>由对数的定义域，必须有 $x-1>0$ 且 $x+5>0$，合并得 $x>1$. 又因为 $\\log_{9}u=\\dfrac{1}{2}\\log_{3}u$，原方程化为</p><p>$\\log_{3}(x-1)=\\dfrac{1}{2}\\log_{3}(x+5)$，即 $2\\log_{3}(x-1)=\\log_{3}(x+5)$. 所以 $(x-1)^{2}=x+5$，整理得 $x^{2}-3x-4=0$，即 $(x-4)(x+1)=0$. 候选值为 $x=4$ 或 $x=-1$，其中只有 $x=4$ 满足 $x>1$，故原方程的解为 $x=4$.</p>"
+          "choices": [],
+          "answer": "\\(x = 4\\)",
+          "solution": "<p>由对数的定义域，必须有 $x-1>0$ 且 $x+5>0$，合并得 $x>1$. 又因为 $\\log_{9}u=\\dfrac{1}{2}\\log_{3}u$，原方程化为</p><p>$\\log_{3}(x-1)=\\dfrac{1}{2}\\log_{3}(x+5)$，即 $2\\log_{3}(x-1)=\\log_{3}(x+5)$. 所以 $(x-1)^{2}=x+5$，整理得 $x^{2}-3x-4=0$，即 $(x-4)(x+1)=0$. 候选值为 $x=4$ 或 $x=-1$，其中只有 $x=4$ 满足 $x>1$，故原方程的解为 $x=4$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "函数 $y=\\sqrt{x^{2}-1}$（$x\\le-1$）的反函数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$y = -\\sqrt{x^{2}+ 1}$（$x \\ge 0$）",
-          "solution": "<p>原函数的定义域为 $x\\le-1$，且 $y=\\sqrt{x^{2}-1}\\geqslant0$. 由 $y^{2}=x^{2}-1$ 得 $x^{2}=y^{2}+1$. 因为原函数的定义域限制为 $x\\le-1$，所以 $x=-\\sqrt{y^{2}+1}$，其值域为 $y\\geqslant0$. 交换 $x$，$y$，得到反函数</p><p>$y=-\\sqrt{x^{2}+1}$，其定义域为 $x\\geqslant0$.</p>"
+          "choices": [],
+          "answer": "\\(y = -\\sqrt{x^{2} + 1}\\)（\\(x \\ge 0\\)）",
+          "solution": "<p>原函数的定义域为 $x\\le-1$，且 $y=\\sqrt{x^{2}-1}\\geqslant0$. 由 $y^{2}=x^{2}-1$ 得 $x^{2}=y^{2}+1$. 因为原函数的定义域限制为 $x\\le-1$，所以 $x=-\\sqrt{y^{2}+1}$，其值域为 $y\\geqslant0$. 交换 $x$，$y$，得到反函数</p><p>$y=-\\sqrt{x^{2}+1}$，其定义域为 $x\\geqslant0$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "双曲线 $\\frac{y^{2}}{2}-x^{2}=1$ 的两个焦点的坐标是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(0,\\sqrt{3})$ 和 $(0,-\\sqrt{3})$",
-          "solution": "<p>将双曲线方程写成标准形式</p><p>$\\dfrac{y^2}{2}-\\dfrac{x^2}{1}=1$. 因此 $a^{2}=2$，$b^{2}=1$，焦半距满足 $c^{2}=a^{2}+b^{2}=3$，所以 $c=\\sqrt{3}$. 双曲线的焦点在 $y$ 轴上，坐标为 $(0,\\sqrt{3})$ 和 $(0,-\\sqrt{3})$.</p>"
+          "choices": [],
+          "answer": "\\((0,\\sqrt{3})\\) 和 \\((0,-\\sqrt{3})\\)",
+          "solution": "<p>将双曲线方程写成标准形式</p><p>$\\dfrac{y^2}{2}-\\dfrac{x^2}{1}=1$. 因此 $a^{2}=2$，$b^{2}=1$，焦半距满足 $c^{2}=a^{2}+b^{2}=3$，所以 $c=\\sqrt{3}$. 双曲线的焦点在 $y$ 轴上，坐标为 $(0,\\sqrt{3})$ 和 $(0,-\\sqrt{3})$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "$\\left(x^{3}-\\frac{2}{x^{2}}\\right)^{5}$ 的展开式中 $x^{5}$ 的系数是（结果用数值表示）<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$40$",
-          "solution": "<p>在二项式展开中，取 $\\left(x^{3}\\right)^{k}$ 和 $\\left(-\\dfrac{2}{x^2}\\right)^{5-k}$ 的项，其幂次为</p><p>$3k-2(5-k)=5k-10$. 要得到 $x^{5}$，必须有 $5k-10=5$，所以 $k=3$. 对应项的系数为</p><p>$\\mathrm{C}_{5}^{3}(-2)^{5-3}=10\\cdot4=40$，故所求系数为 $40$.</p>"
+          "choices": [],
+          "answer": "\\(40\\)",
+          "solution": "<p>在二项式展开中，取 $\\left(x^{3}\\right)^{k}$ 和 $\\left(-\\dfrac{2}{x^2}\\right)^{5-k}$ 的项，其幂次为</p><p>$3k-2(5-k)=5k-10$. 要得到 $x^{5}$，必须有 $5k-10=5$，所以 $k=3$. 对应项的系数为</p><p>$\\mathrm{C}_{5}^{3}(-2)^{5-3}=10\\cdot4=40$，故所求系数为 $40$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "如果复数 $\\frac{2+b\\mathrm{i}}{1-2\\mathrm{i}}$（其中 $\\mathrm{i}$ 为虚数单位，$b$ 为实数）的实部和虚部相等，那么 $b=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-\\frac{2}{3}$",
-          "solution": "<p>分子、分母同乘以共轭复数 $1+2\\mathrm{i}$，得</p><p>$\\dfrac{2+b\\mathrm{i}}{1-2\\mathrm{i}}=\\dfrac{(2+b\\mathrm{i})(1+2\\mathrm{i})}{5}=\\dfrac{2-2b}{5}+\\dfrac{4+b}{5}\\mathrm{i}$. 因此实部和虚部分别为 $\\dfrac{2-2b}{5}$ 与 $\\dfrac{4+b}{5}$. 令二者相等，得 $2-2b=4+b$，从而 $b=-\\dfrac{2}{3}$.</p>"
+          "choices": [],
+          "answer": "\\(-\\frac{2}{3}\\)",
+          "solution": "<p>分子、分母同乘以共轭复数 $1+2\\mathrm{i}$，得</p><p>$\\dfrac{2+b\\mathrm{i}}{1-2\\mathrm{i}}=\\dfrac{(2+b\\mathrm{i})(1+2\\mathrm{i})}{5}=\\dfrac{2-2b}{5}+\\dfrac{4+b}{5}\\mathrm{i}$. 因此实部和虚部分别为 $\\dfrac{2-2b}{5}$ 与 $\\dfrac{4+b}{5}$. 令二者相等，得 $2-2b=4+b$，从而 $b=-\\dfrac{2}{3}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "某商场计划经销某种商品，预测可得盈利 $30000$ 元，$26000$ 元，$8000$ 元的概率分别为 $0.3$，$0.6$，$0.1$，则经销该商品的期望盈利为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{元}$.",
-          "choices": null,
-          "answer": "$25400$",
-          "solution": "设盈利为随机变量 $X$. 根据期望的定义，$E(X)=30000\\times0.3+26000\\times0.6+8000\\times0.1$. 计算得 $E(X)=9000+15600+800=25400$，所以期望盈利为 $25400$ 元."
+          "choices": [],
+          "answer": "\\(25400\\)",
+          "solution": "设盈利为随机变量 $X$. 根据期望的定义，$E(X)=30000\\times0.3+26000\\times0.6+8000\\times0.1$. 计算得 $E(X)=9000+15600+800=25400$，所以期望盈利为 $25400$ 元.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -86,13 +265,15 @@
           "num": 11,
           "body": "当 $a > 1$ 时，函数 $y = \\log_{a} x$ 和 $y = (1 - a)x$ 的图象只可能是（$ $）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_liberal/q11_optA_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_liberal/q11_optB_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_liberal/q11_optC_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_liberal/q11_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1994/img/shanghai_liberal/q11_optA_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1994/img/shanghai_liberal/q11_optB_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1994/img/shanghai_liberal/q11_optC_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1994/img/shanghai_liberal/q11_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "B",
-          "solution": "当 $a>1$ 时，$y=\\log_{a} x$ 的定义域为 $x>0$，在该定义域上单调递增，并且经过点 $(1,0)$，当 $x\\to0^{+}$ 时函数值趋于负无穷；直线 $y=(1-a)x$ 的斜率为 $1-a<0$，且经过原点. 选项 A 中直线斜率为正，选项 C、D 中对数函数单调递减，均不符合题设；只有选项 B 同时满足两项性质，故选 B."
+          "solution": "当 $a>1$ 时，$y=\\log_{a} x$ 的定义域为 $x>0$，在该定义域上单调递增，并且经过点 $(1,0)$，当 $x\\to0^{+}$ 时函数值趋于负无穷；直线 $y=(1-a)x$ 的斜率为 $1-a<0$，且经过原点. 选项 A 中直线斜率为正，选项 C、D 中对数函数单调递减，均不符合题设；只有选项 B 同时满足两项性质，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -104,7 +285,9 @@
             "$(1 - a)^{1 + a}> 1$"
           ],
           "answer": "A",
-          "solution": "<p>令 $r=1-a$，则 $0<r<1$. 由于底数在 $(0,1)$ 内，函数 $r^{x}$ 关于 $x$ 单调递减. 因为 $\\dfrac{1}{3}<\\dfrac{1}{2}$，所以 $r^{\\frac{1}{3}}>r^{\\frac{1}{2}}$，选项 A 正确.</p><p>又因为 $1+a>1$，所以 $\\log_{r}(1+a)<0$，B 错误；$0<r^{3}<1$，而 $(1+a)^{2}>1$，故 C 错误；$1+a>0$ 且 $r<1$，所以 $r^{1+a}<1$，D 错误. 因此选 A.</p>"
+          "solution": "<p>令 $r=1-a$，则 $0<r<1$. 由于底数在 $(0,1)$ 内，函数 $r^{x}$ 关于 $x$ 单调递减. 因为 $\\dfrac{1}{3}<\\dfrac{1}{2}$，所以 $r^{\\frac{1}{3}}>r^{\\frac{1}{2}}$，选项 A 正确.</p><p>又因为 $1+a>1$，所以 $\\log_{r}(1+a)<0$，B 错误；$0<r^{3}<1$，而 $(1+a)^{2}>1$，故 C 错误；$1+a>0$ 且 $r<1$，所以 $r^{1+a}<1$，D 错误. 因此选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
@@ -116,7 +299,9 @@
             "$\\frac{1}{3}$ 或 $-3$"
           ],
           "answer": "C",
-          "solution": "<p>两直线的斜率分别为 $m_{1}=-2$ 和 $m_{2}=m$. 当 $1+m_{1}m_{2}\\ne0$ 时，两直线的夹角满足</p><p>$\\tan\\theta=\\left|\\dfrac{m_2-m_1}{1+m_1m_2}\\right|=\\left|\\dfrac{m+2}{1-2m}\\right|$. 由 $\\theta=\\dfrac\\pi4$ 得</p><p>$\\left|\\dfrac{m+2}{1-2m}\\right|=1$，即分别有</p><p>$m+2=1-2m$ 或 $m+2=-1+2m$. 解得 $m=-\\dfrac{1}{3}$ 或 $m=3$，故选 C.</p>"
+          "solution": "<p>两直线的斜率分别为 $m_{1}=-2$ 和 $m_{2}=m$. 当 $1+m_{1}m_{2}\\ne0$ 时，两直线的夹角满足</p><p>$\\tan\\theta=\\left|\\dfrac{m_2-m_1}{1+m_1m_2}\\right|=\\left|\\dfrac{m+2}{1-2m}\\right|$. 由 $\\theta=\\dfrac\\pi4$ 得</p><p>$\\left|\\dfrac{m+2}{1-2m}\\right|=1$，即分别有</p><p>$m+2=1-2m$ 或 $m+2=-1+2m$. 解得 $m=-\\dfrac{1}{3}$ 或 $m=3$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
@@ -128,7 +313,9 @@
             "不可能是相交直线"
           ],
           "answer": "C",
-          "solution": "若 $c\\parallel b$，又已知 $c\\parallel a$，则两条都与 $c$ 平行的直线 $a$，$b$ 必相互平行，这与 $a$，$b$ 是异面直线矛盾. 因此 $c$ 不可能与 $b$ 平行. 由题设不能排除相交或异面的情形，故选 C."
+          "solution": "若 $c\\parallel b$，又已知 $c\\parallel a$，则两条都与 $c$ 平行的直线 $a$，$b$ 必相互平行，这与 $a$，$b$ 是异面直线矛盾. 因此 $c$ 不可能与 $b$ 平行. 由题设不能排除相交或异面的情形，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
@@ -140,7 +327,9 @@
             "$\\overline{P}\\cap \\overline{Q}= \\overline{P}$"
           ],
           "answer": "D",
-          "solution": "<p>由 $P\\subset Q$，有 $P\\cup Q=Q$，所以 A 正确；若元素不属于 $Q$，则一定不属于 $P$，从而属于 $\\overline P$，故 $\\overline P\\cup Q=I$，B 正确；因为 $P\\subset Q$，所以 $P\\cap\\overline Q=\\emptyset$，C 正确.</p><p>另一方面，由 $P\\subset Q$，存在元素 $u$ 满足 $u\\in Q$ 且 $u\\notin P$. 因此 $u\\in\\overline P$，但 $u\\notin\\overline Q$，从而 $\\overline Q$ 是 $\\overline P$ 的真子集，$\\overline P\\cap\\overline Q=\\overline Q\\ne\\overline P$. 所以错误的结论是 D.</p>"
+          "solution": "<p>由 $P\\subset Q$，有 $P\\cup Q=Q$，所以 A 正确；若元素不属于 $Q$，则一定不属于 $P$，从而属于 $\\overline P$，故 $\\overline P\\cup Q=I$，B 正确；因为 $P\\subset Q$，所以 $P\\cap\\overline Q=\\emptyset$，C 正确.</p><p>另一方面，由 $P\\subset Q$，存在元素 $u$ 满足 $u\\in Q$ 且 $u\\notin P$. 因此 $u\\in\\overline P$，但 $u\\notin\\overline Q$，从而 $\\overline Q$ 是 $\\overline P$ 的真子集，$\\overline P\\cap\\overline Q=\\overline Q\\ne\\overline P$. 所以错误的结论是 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
@@ -152,7 +341,9 @@
             "$(5, -f(5))$"
           ],
           "answer": "B",
-          "solution": "奇函数满足 $f(-x)=-f(x)$，所以 $f(-5)=-f(5)$. 因此点 $(-5,-f(5))$ 的纵坐标等于 $f(-5)$，该点在函数图象上. 由于 $f(5)\\ne0$，其余三个选项的点均不满足对应的函数值关系，故选 B."
+          "solution": "奇函数满足 $f(-x)=-f(x)$，所以 $f(-5)=-f(5)$. 因此点 $(-5,-f(5))$ 的纵坐标等于 $f(-5)$，该点在函数图象上. 由于 $f(5)\\ne0$，其余三个选项的点均不满足对应的函数值关系，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 17,
@@ -164,7 +355,9 @@
             "充分条件而非必要条件"
           ],
           "answer": "A",
-          "solution": "<p>设 $\\alpha$ 为平面 $z=0$，线段的射影长度等于其长度乘以线段与平面夹角的余弦的绝对值.</p><p>先说明“长度相等”不是充分条件. 取线段 $a$ 的端点为 $(0,0,1)$，$(1,0,2)$，取线段 $b$ 的端点为 $(0,1,1)$，$(\\sqrt{2},1,1)$. 两条线段的长度都为 $\\sqrt{2}$，但它们在 $\\alpha$ 内的射影长度分别为 $1$ 和 $\\sqrt{2}$，所以长度相等不能推出射影长度相等.</p><p>再说明“长度相等”不是必要条件. 取线段 $c$ 的端点为 $(0,0,1)$，$(1,0,2)$，取线段 $d$ 的端点为 $(0,1,1)$，$(1,1,1+\\sqrt{3})$. 两条线段在 $\\alpha$ 内的射影长度都为 $1$，但它们的长度分别为 $\\sqrt{2}$ 和 $2$，所以射影长度相等不能推出长度相等. 因此选 A.</p>"
+          "solution": "<p>设 $\\alpha$ 为平面 $z=0$，线段的射影长度等于其长度乘以线段与平面夹角的余弦的绝对值.</p><p>先说明“长度相等”不是充分条件. 取线段 $a$ 的端点为 $(0,0,1)$，$(1,0,2)$，取线段 $b$ 的端点为 $(0,1,1)$，$(\\sqrt{2},1,1)$. 两条线段的长度都为 $\\sqrt{2}$，但它们在 $\\alpha$ 内的射影长度分别为 $1$ 和 $\\sqrt{2}$，所以长度相等不能推出射影长度相等.</p><p>再说明“长度相等”不是必要条件. 取线段 $c$ 的端点为 $(0,0,1)$，$(1,0,2)$，取线段 $d$ 的端点为 $(0,1,1)$，$(1,1,1+\\sqrt{3})$. 两条线段在 $\\alpha$ 内的射影长度都为 $1$，但它们的长度分别为 $\\sqrt{2}$ 和 $2$，所以射影长度相等不能推出长度相等. 因此选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 18,
@@ -176,7 +369,9 @@
             "$\\frac{\\mathrm{C}_{5}^{1} \\cdot \\mathrm{C}_{4}^{1}}{\\mathrm{C}_{9}^{2}}$"
           ],
           "answer": "D",
-          "solution": "<p>从 $9$ 支球队中任取两队，所有等可能结果数为 $\\mathrm{C}_{9}^{2}$. 要使一队为亚洲队、另一队为非洲队，先从 $5$ 支亚洲队中取一队，再从 $4$ 支非洲队中取一队，符合条件的结果数为 $\\mathrm{C}_{5}^{1}\\mathrm{C}_{4}^{1}$. 所以所求概率为</p><p>$\\dfrac{\\mathrm{C}_5^1\\mathrm{C}_4^1}{\\mathrm{C}_9^2}$，故选 D.</p>"
+          "solution": "<p>从 $9$ 支球队中任取两队，所有等可能结果数为 $\\mathrm{C}_{9}^{2}$. 要使一队为亚洲队、另一队为非洲队，先从 $5$ 支亚洲队中取一队，再从 $4$ 支非洲队中取一队，符合条件的结果数为 $\\mathrm{C}_{5}^{1}\\mathrm{C}_{4}^{1}$. 所以所求概率为</p><p>$\\dfrac{\\mathrm{C}_5^1\\mathrm{C}_4^1}{\\mathrm{C}_9^2}$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 19,
@@ -188,7 +383,9 @@
             "$y' = -\\sin x' - \\frac{\\pi}{2}$"
           ],
           "answer": "B",
-          "solution": "<p>平移坐标系后，新旧坐标轴方向相同，且 $O'$ 在旧坐标系中的坐标为 $\\left(\\dfrac\\pi2,-\\dfrac\\pi2\\right)$，所以</p><p>$x=x'+\\dfrac\\pi2$，$y=y'-\\dfrac\\pi2$. 代入原曲线方程 $y=\\cos x$，得</p><p>$y'-\\dfrac\\pi2=\\cos\\left(x'+\\dfrac\\pi2\\right)=-\\sin x'$. 因此 $y'=-\\sin x'+\\dfrac\\pi2$，故选 B.</p>"
+          "solution": "<p>平移坐标系后，新旧坐标轴方向相同，且 $O'$ 在旧坐标系中的坐标为 $\\left(\\dfrac\\pi2,-\\dfrac\\pi2\\right)$，所以</p><p>$x=x'+\\dfrac\\pi2$，$y=y'-\\dfrac\\pi2$. 代入原曲线方程 $y=\\cos x$，得</p><p>$y'-\\dfrac\\pi2=\\cos\\left(x'+\\dfrac\\pi2\\right)=-\\sin x'$. 因此 $y'=-\\sin x'+\\dfrac\\pi2$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 20,
@@ -200,7 +397,9 @@
             "当 $n=4$ 时该命题成立"
           ],
           "answer": "C",
-          "solution": "设该命题在 $n=k$ 时为 $P(k)$. 题设的递推条件是“$P(k)$ 成立能推出 $P(k+1)$ 成立”，其逆否命题是“$P(k+1)$ 不成立能推出 $P(k)$ 不成立”. 已知 $P(5)$ 不成立，应用逆否命题可推出 $P(4)$ 不成立；不能由此推出 $P(6)$ 的真假. 因此选 C."
+          "solution": "设该命题在 $n=k$ 时为 $P(k)$. 题设的递推条件是“$P(k)$ 成立能推出 $P(k+1)$ 成立”，其逆否命题是“$P(k+1)$ 不成立能推出 $P(k)$ 不成立”. 已知 $P(5)$ 不成立，应用逆否命题可推出 $P(4)$ 不成立；不能由此推出 $P(6)$ 的真假. 因此选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -210,44 +409,56 @@
         {
           "num": 21,
           "body": "已知 $\\sin\\alpha=\\frac{3}{5}$，$\\alpha\\in\\left(\\frac{\\pi}{2},\\pi\\right)$，$\\tan(\\pi-\\beta)=\\frac{1}{2}$，求 $\\tan(\\alpha-2\\beta)$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为 $\\sin \\alpha = \\frac{3}{5}$，$\\alpha \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$，所以 $\\cos \\alpha = -\\frac{4}{5}$，$\\tan \\alpha = -\\frac{3}{4}$.</p><p>又因为 $\\tan(\\pi - \\beta) = \\frac{1}{2}$，所以 $\\tan \\beta = -\\frac{1}{2}$，从而</p>\n$$\n\\tan 2\\beta=\\frac{2\\tan \\beta}{1 - \\tan^{2} \\beta}=\\frac{2 \\cdot \\left(-\\frac{1}{2}\\right)}{1 - \\left(-\\frac{1}{2}\\right)^{2}}=-\\frac{4}{3}\n$$\n<p>于是</p>\n$$\n\\tan(\\alpha - 2\\beta)=\\frac{\\tan \\alpha - \\tan 2\\beta}{1 + \\tan \\alpha \\tan 2\\beta}=\\frac{-\\frac{3}{4} + \\frac{4}{3}}{1 + \\left(-\\frac{3}{4}\\right)\\left(-\\frac{4}{3}\\right)}=\\frac{7}{24}\n$$"
+          "solution": "<p>因为 $\\sin \\alpha = \\frac{3}{5}$，$\\alpha \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$，所以 $\\cos \\alpha = -\\frac{4}{5}$，$\\tan \\alpha = -\\frac{3}{4}$.</p><p>又因为 $\\tan(\\pi - \\beta) = \\frac{1}{2}$，所以 $\\tan \\beta = -\\frac{1}{2}$，从而</p>\n$$\n\\tan 2\\beta=\\frac{2\\tan \\beta}{1 - \\tan^{2} \\beta}=\\frac{2 \\cdot \\left(-\\frac{1}{2}\\right)}{1 - \\left(-\\frac{1}{2}\\right)^{2}}=-\\frac{4}{3}\n$$\n<p>于是</p>\n$$\n\\tan(\\alpha - 2\\beta)=\\frac{\\tan \\alpha - \\tan 2\\beta}{1 + \\tan \\alpha \\tan 2\\beta}=\\frac{-\\frac{3}{4} + \\frac{4}{3}}{1 + \\left(-\\frac{3}{4}\\right)\\left(-\\frac{4}{3}\\right)}=\\frac{7}{24}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知空间三个点 $P(-2,0,2)$，$Q(-1,1,2)$ 和 $R(-3,0,4)$. 设 $\\mathbf{a}= \\overrightarrow{PQ}$，$\\mathbf{b}= \\overrightarrow{PR}$.</p><ol class=\"enumerate\"><li><p>求 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角 $\\theta$（用反三角函数表示）；</p></li><li><p>试确定实数 $k$，使 $k \\mathbf{a}+ \\mathbf{b}$ 与 $k \\mathbf{a}- 2\\mathbf{b}$ 互相垂直.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$\\mathbf{a}= \\overrightarrow{PQ}= (1,1,0)$，$\\mathbf{b}= \\overrightarrow{PR}= (-1,0,2)$. 所以 $\\left|\\mathbf{a}\\right|=\\sqrt{2}$，$\\left|\\mathbf{b}\\right|=\\sqrt{5}$，</p>\n$$\n\\cos \\theta=\\frac{\\mathbf{a}\\cdot \\mathbf{b}}{|\\mathbf{a}||\\mathbf{b}|}=\\frac{-1}{\\sqrt{10}}=-\\frac{\\sqrt{10}}{10}\n$$\n<p>因此 $\\theta = \\arccos\\left(-\\frac{\\sqrt{10}}{10}\\right)$.</p></li><li><p>$(k\\mathbf{a}+\\mathbf{b})\\cdot(k\\mathbf{a}-2\\mathbf{b}) = \\bigl(k-1,k,2\\bigr)\\cdot \\bigl(k+2,k,-4\\bigr) = (k-1)(k+2)+k^{2}-8 = 2k^{2}+k-10$. 由两向量互相垂直得 $2k^{2}+k-10=0$，解得 $k=-\\frac{5}{2}$ 或 $k=2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$\\mathbf{a}= \\overrightarrow{PQ}= (1,1,0)$，$\\mathbf{b}= \\overrightarrow{PR}= (-1,0,2)$. 所以 $\\left|\\mathbf{a}\\right|=\\sqrt{2}$，$\\left|\\mathbf{b}\\right|=\\sqrt{5}$，</p>\n$$\n\\cos \\theta=\\frac{\\mathbf{a}\\cdot \\mathbf{b}}{|\\mathbf{a}||\\mathbf{b}|}=\\frac{-1}{\\sqrt{10}}=-\\frac{\\sqrt{10}}{10}\n$$\n<p>因此 $\\theta = \\arccos\\left(-\\frac{\\sqrt{10}}{10}\\right)$.</p></li><li><p>$(k\\mathbf{a}+\\mathbf{b})\\cdot(k\\mathbf{a}-2\\mathbf{b}) = \\bigl(k-1,k,2\\bigr)\\cdot \\bigl(k+2,k,-4\\bigr) = (k-1)(k+2)+k^{2}-8 = 2k^{2}+k-10$. 由两向量互相垂直得 $2k^{2}+k-10=0$，解得 $k=-\\frac{5}{2}$ 或 $k=2$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
-          "body": "<p>如图，在梯形 $ABCD$ 中，$AD \\parallel BC$，$\\angle ABC = \\frac{\\pi}{2}$，$AB = a$，$AD = 3a$，且 $\\angle ADC = \\arcsin \\frac{\\sqrt{5}}{5}$，又 $PA \\perp$ 平面 $ABCD$，$PA = a$. 求：</p><ol class=\"enumerate\"><li><p>二面角 $P - CD - A$ 的大小（用反三角函数表示）；</p></li><li><p>点 $A$ 到平面 $PBC$ 的距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q23_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在梯形 $ABCD$ 中，$AD \\parallel BC$，$\\angle ABC = \\frac{\\pi}{2}$，$AB = a$，$AD = 3a$，且 $\\angle ADC = \\arcsin \\frac{\\sqrt{5}}{5}$，又 $PA \\perp$ 平面 $ABCD$，$PA = a$. 求：</p><ol class=\"enumerate\"><li><p>二面角 $P - CD - A$ 的大小（用反三角函数表示）；</p></li><li><p>点 $A$ 到平面 $PBC$ 的距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1994/img/shanghai_liberal/q23_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在平面 $ABCD$ 内，过 $A$ 作 $AE \\perp CD$，垂足为 $E$，连接 $PE$.</p><p>因为 $PA \\perp$ 平面 $ABCD$，所以由三垂线定理知 $PE \\perp CD$，从而 $\\angle PEA$ 是二面角 $P - CD - A$ 的平面角.</p><p>因为 $AE\\perp CD$，所以 $AE$ 是点 $A$ 到直线 $CD$ 的距离. 直线 $AD$ 与直线 $CD$ 的夹角的正弦为 $\\sin\\angle ADC=\\dfrac{\\sqrt{5}}{5}$，故 $AE=AD\\sin\\angle ADC=\\dfrac{3\\sqrt{5}}{5}a$.</p><p>在直角三角形 $PAE$ 中，$\\tan \\angle PEA = \\dfrac{PA}{AE}= \\dfrac{\\sqrt{5}}{3}$，所以 $\\angle PEA = \\arctan \\frac{\\sqrt{5}}{3}$，从而二面角 $P - CD - A$ 的大小为 $\\arctan \\frac{\\sqrt{5}}{3}$.</p></li><li><p>在平面 $PAB$ 内，过 $A$ 作 $AH \\perp PB$，垂足为 $H$.</p><p>因为 $PA \\perp$ 平面 $ABCD$，所以 $PA \\perp BC$；又由题设 $AB \\perp BC$. 直线 $PA$，$AB$ 是平面 $PAB$ 内相交的两条直线，因此 $BC \\perp$ 平面 $PAB$，从而 $BC \\perp AH$.</p><p>由 $AH \\perp PB$ 以及 $AH \\perp BC$，且 $PB$，$BC$ 是平面 $PBC$ 内相交的两条直线，得 $AH \\perp$ 平面 $PBC$. 故 $AH$ 的长就是点 $A$ 到平面 $PBC$ 的距离.</p><p>在直角三角形 $PAB$ 中，$PA=AB=a$，所以 $PB=a\\sqrt{2}$. 由三角形面积的两种表示，$\\dfrac{1}{2}PA\\cdot AB=\\dfrac{1}{2}PB\\cdot AH$，得 $AH=\\dfrac{a^2}{a\\sqrt{2}}=\\dfrac{\\sqrt{2}}{2}a$. 所以点 $A$ 到平面 $PBC$ 的距离为 $\\dfrac{\\sqrt{2}}{2}a$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在平面 $ABCD$ 内，过 $A$ 作 $AE \\perp CD$，垂足为 $E$，连接 $PE$.</p><p>因为 $PA \\perp$ 平面 $ABCD$，所以由三垂线定理知 $PE \\perp CD$，从而 $\\angle PEA$ 是二面角 $P - CD - A$ 的平面角.</p><p>因为 $AE\\perp CD$，所以 $AE$ 是点 $A$ 到直线 $CD$ 的距离. 直线 $AD$ 与直线 $CD$ 的夹角的正弦为 $\\sin\\angle ADC=\\dfrac{\\sqrt{5}}{5}$，故 $AE=AD\\sin\\angle ADC=\\dfrac{3\\sqrt{5}}{5}a$.</p><p>在直角三角形 $PAE$ 中，$\\tan \\angle PEA = \\dfrac{PA}{AE}= \\dfrac{\\sqrt{5}}{3}$，所以 $\\angle PEA = \\arctan \\frac{\\sqrt{5}}{3}$，从而二面角 $P - CD - A$ 的大小为 $\\arctan \\frac{\\sqrt{5}}{3}$.</p></li><li><p>在平面 $PAB$ 内，过 $A$ 作 $AH \\perp PB$，垂足为 $H$.</p><p>因为 $PA \\perp$ 平面 $ABCD$，所以 $PA \\perp BC$；又由题设 $AB \\perp BC$. 直线 $PA$，$AB$ 是平面 $PAB$ 内相交的两条直线，因此 $BC \\perp$ 平面 $PAB$，从而 $BC \\perp AH$.</p><p>由 $AH \\perp PB$ 以及 $AH \\perp BC$，且 $PB$，$BC$ 是平面 $PBC$ 内相交的两条直线，得 $AH \\perp$ 平面 $PBC$. 故 $AH$ 的长就是点 $A$ 到平面 $PBC$ 的距离.</p><p>在直角三角形 $PAB$ 中，$PA=AB=a$，所以 $PB=a\\sqrt{2}$. 由三角形面积的两种表示，$\\dfrac{1}{2}PA\\cdot AB=\\dfrac{1}{2}PB\\cdot AH$，得 $AH=\\dfrac{a^2}{a\\sqrt{2}}=\\dfrac{\\sqrt{2}}{2}a$. 所以点 $A$ 到平面 $PBC$ 的距离为 $\\dfrac{\\sqrt{2}}{2}a$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 24,
-          "body": "<p>如图，抛物线 $y = 3x^{2}$ 和 $y = -x^{2}+ 4ax$（$a > 0$）交于原点 $O$ 和点 $A$.</p><ol class=\"enumerate\"><li><p>求这两条抛物线所围成的图形的面积；</p></li><li><p>过点 $A$ 作抛物线 $y = -x^{2}+ 4ax$ 的切线，该切线与抛物线 $y = 3x^{2}$ 交于另一点 $P$，求线段 $AP$ 的垂直平分线的方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q24_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，抛物线 $y = 3x^{2}$ 和 $y = -x^{2}+ 4ax$（$a > 0$）交于原点 $O$ 和点 $A$.</p><ol class=\"enumerate\"><li><p>求这两条抛物线所围成的图形的面积；</p></li><li><p>过点 $A$ 作抛物线 $y = -x^{2}+ 4ax$ 的切线，该切线与抛物线 $y = 3x^{2}$ 交于另一点 $P$，求线段 $AP$ 的垂直平分线的方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1994/img/shanghai_liberal/q24_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>两条抛物线的交点满足</p>\n$$\n\\begin{cases}y = 3x^{2},\\\\  y = -x^{2} + 4ax.\\end{cases}\n$$\n<p>消去 $y$，得 $3x^{2}=-x^{2}+4ax$，即 $4x(x-a)=0$. 除原点 $O$ 外，另一交点的横坐标为 $x=a$，代入 $y=3x^{2}$ 得 $A(a,3a^{2})$. 在 $0\\leq x\\leq a$ 上，第二条抛物线的函数值减去第一条的函数值为 $4x(a-x)\\geq0$，所以所围面积为</p>\n$$\nS=\\int_{0}^{a}\\bigl[(-x^{2}+4ax)-3x^{2}\\bigr]\\,dx=\\left(2ax^{2}-\\frac{4}{3}x^{3}\\right)_{0}^{a}=\\frac{2}{3}a^{3}\n$$\n</li><li><p>由 $y = -x^{2} + 4ax$ 得 $y' = -2x + 4a$，故点 $A$ 处切线斜率为 $2a$，切线方程为 $y - 3a^{2} = 2a(x - a)$，即 $y = 2ax + a^{2}$.</p><p>切线与抛物线 $y=3x^{2}$ 的交点满足</p>\n$$\n\\begin{cases}y = 2ax + a^{2},\\\\  y = 3x^{2},\\end{cases}\n$$\n<p>由 $3x^{2}=2ax+a^{2}$ 得 $3x^{2}-2ax-a^{2}=(3x+a)(x-a)=0$. 根 $x=a$ 对应已知交点 $A$，另一根为 $x=-\\dfrac{a}{3}$，代入切线方程得 $y=\\dfrac{a^2}{3}$. 故 $P\\left(-\\dfrac{a}{3},\\dfrac{a^2}{3}\\right)$.</p><p>设 $AP$ 的中点为 $M$，则</p><p>$M\\left(\\dfrac{a+(-\\frac{a}{3})}2,\\dfrac{3a^2+\\frac{a^{2}}{3}}2\\right)=\\left(\\dfrac{a}{3},\\dfrac{5a^2}{3}\\right)$. 又 $AP$ 的斜率为 $2a$，所以其垂直平分线的斜率为 $-\\dfrac1{2a}$. 于是垂直平分线方程为</p><p>$y-\\dfrac{5a^2}{3}=-\\dfrac1{2a}\\left(x-\\dfrac{a}{3}\\right)$，即 $y=-\\dfrac1{2a}x+\\dfrac{5a^2}{3}+\\dfrac{1}{6}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>两条抛物线的交点满足</p>\n$$\n\\begin{cases}y = 3x^{2},\\\\  y = -x^{2} + 4ax.\\end{cases}\n$$\n<p>消去 $y$，得 $3x^{2}=-x^{2}+4ax$，即 $4x(x-a)=0$. 除原点 $O$ 外，另一交点的横坐标为 $x=a$，代入 $y=3x^{2}$ 得 $A(a,3a^{2})$. 在 $0\\leq x\\leq a$ 上，第二条抛物线的函数值减去第一条的函数值为 $4x(a-x)\\geq0$，所以所围面积为</p>\n$$\nS=\\int_{0}^{a}\\bigl[(-x^{2}+4ax)-3x^{2}\\bigr]\\,dx=\\left(2ax^{2}-\\frac{4}{3}x^{3}\\right)_{0}^{a}=\\frac{2}{3}a^{3}\n$$\n</li><li><p>由 $y = -x^{2} + 4ax$ 得 $y' = -2x + 4a$，故点 $A$ 处切线斜率为 $2a$，切线方程为 $y - 3a^{2} = 2a(x - a)$，即 $y = 2ax + a^{2}$.</p><p>切线与抛物线 $y=3x^{2}$ 的交点满足</p>\n$$\n\\begin{cases}y = 2ax + a^{2},\\\\  y = 3x^{2},\\end{cases}\n$$\n<p>由 $3x^{2}=2ax+a^{2}$ 得 $3x^{2}-2ax-a^{2}=(3x+a)(x-a)=0$. 根 $x=a$ 对应已知交点 $A$，另一根为 $x=-\\dfrac{a}{3}$，代入切线方程得 $y=\\dfrac{a^2}{3}$. 故 $P\\left(-\\dfrac{a}{3},\\dfrac{a^2}{3}\\right)$.</p><p>设 $AP$ 的中点为 $M$，则</p><p>$M\\left(\\dfrac{a+(-\\frac{a}{3})}2,\\dfrac{3a^2+\\frac{a^{2}}{3}}2\\right)=\\left(\\dfrac{a}{3},\\dfrac{5a^2}{3}\\right)$. 又 $AP$ 的斜率为 $2a$，所以其垂直平分线的斜率为 $-\\dfrac1{2a}$. 于是垂直平分线方程为</p><p>$y-\\dfrac{5a^2}{3}=-\\dfrac1{2a}\\left(x-\\dfrac{a}{3}\\right)$，即 $y=-\\dfrac1{2a}x+\\dfrac{5a^2}{3}+\\dfrac{1}{6}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 25,
           "body": "<p>设 $\\{a_{n}\\}$ 是公差为 $d$ 的等差数列，$a_{3}+ a_{5}= 2$，$S_{20}= a_{1}+ a_{2}+ \\cdots + a_{20}= 150$，又 $b_{n}= 2^{a_{n} - 2a_{n+1}}$（$n \\in \\mathbb{N}$）.</p><ol class=\"enumerate\"><li><p>求 $a_{1}$，$d$ 的值；</p></li><li><p>求证 $\\{b_{n}\\}$ 是等比数列，并求 $b_{n}$；</p></li><li><p>设 $k$ 为某个自然数，且满足 $\\displaystyle\\lim_{n\\to\\infty}\\left(b_{k} b_{k+1}+ b_{k+1}b_{k+2}+ \\cdots + b_{n} b_{n+1}\\right) = \\frac{1}{96}$，求 $k$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $a_{n}=a_{1}+(n-1)d$，得 $a_{3}=a_{1}+2d$，$a_{5}=a_{1}+4d$，$a_{20}=a_{1}+19d$. 因此</p>\n$$\n\\begin{cases}2a_{1}+6d=2,\\\\  S_{20}=10(a_{1}+a_{20})=10(2a_{1}+19d)=150.\\end{cases}\n$$\n<p>化简为 $a_{1}+3d=1$，$2a_{1}+19d=15$. 由 $a_{1}=1-3d$ 代入第二式，得 $2-6d+19d=15$，所以 $d=1$，进而 $a_{1}=-2$.</p></li><li><p>因为 $a_{1}=-2$，$d=1$，所以 $a_{n}=n-3$，$a_{n+1}=n-2$. 从而</p><p>$b_{n}=2^{a_n-2a_{n+1}}=2^{n-3-2(n-2)}=2^{1-n}=\\left(\\dfrac{1}{2}\\right)^{n-1}$. 此外，$\\dfrac{b_{n+1}}{b_n}=\\dfrac{2^{-n}}{2^{1-n}}=\\dfrac{1}{2}$，比值为常数，故 $\\{b_{n}\\}$ 是等比数列，且通项为 $b_{n}=\\left(\\dfrac{1}{2}\\right)^{n-1}$.</p></li><li><p>由上式，$b_{k}b_{k+1}=\\left(\\dfrac{1}{2}\\right)^{k-1}\\left(\\dfrac{1}{2}\\right)^{k}=\\left(\\dfrac{1}{2}\\right)^{2k-1}$. 令 $c_{m}=b_{m}b_{m+1}$，则</p>\n$$\n\\frac{c_{m+1}}{c_{m}}=\\frac{b_{m+1}b_{m+2}}{b_{m}b_{m+1}}=\\frac{b_{m+2}}{b_{m}}=\\left(\\frac{1}{2}\\right)^{2}=\\frac{1}{4}\n$$\n<p>所以从 $c_{k}$ 开始的各项构成首项为 $\\left(\\dfrac{1}{2}\\right)^{2k-1}$、公比为 $\\dfrac{1}{4}$ 的无穷等比数列. 故</p>\n$$\n\\displaystyle\\lim_{n\\to\\infty}\\sum_{m=k}^{n} b_{m}b_{m+1}=\\frac{\\left(\\frac{1}{2}\\right)^{2k-1}}{1-\\frac{1}{4}}=\\frac{8}{3\\cdot2^{2k}}\n$$\n<p>由题设，这个和等于 $\\dfrac1{96}$，所以 $\\dfrac{8}{3\\cdot2^{2k}}=\\dfrac1{96}$，即 $2^{2k}=256=2^{8}$. 由于 $k$ 为自然数，得 $k=4$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $a_{n}=a_{1}+(n-1)d$，得 $a_{3}=a_{1}+2d$，$a_{5}=a_{1}+4d$，$a_{20}=a_{1}+19d$. 因此</p>\n$$\n\\begin{cases}2a_{1}+6d=2,\\\\  S_{20}=10(a_{1}+a_{20})=10(2a_{1}+19d)=150.\\end{cases}\n$$\n<p>化简为 $a_{1}+3d=1$，$2a_{1}+19d=15$. 由 $a_{1}=1-3d$ 代入第二式，得 $2-6d+19d=15$，所以 $d=1$，进而 $a_{1}=-2$.</p></li><li><p>因为 $a_{1}=-2$，$d=1$，所以 $a_{n}=n-3$，$a_{n+1}=n-2$. 从而</p><p>$b_{n}=2^{a_n-2a_{n+1}}=2^{n-3-2(n-2)}=2^{1-n}=\\left(\\dfrac{1}{2}\\right)^{n-1}$. 此外，$\\dfrac{b_{n+1}}{b_n}=\\dfrac{2^{-n}}{2^{1-n}}=\\dfrac{1}{2}$，比值为常数，故 $\\{b_{n}\\}$ 是等比数列，且通项为 $b_{n}=\\left(\\dfrac{1}{2}\\right)^{n-1}$.</p></li><li><p>由上式，$b_{k}b_{k+1}=\\left(\\dfrac{1}{2}\\right)^{k-1}\\left(\\dfrac{1}{2}\\right)^{k}=\\left(\\dfrac{1}{2}\\right)^{2k-1}$. 令 $c_{m}=b_{m}b_{m+1}$，则</p>\n$$\n\\frac{c_{m+1}}{c_{m}}=\\frac{b_{m+1}b_{m+2}}{b_{m}b_{m+1}}=\\frac{b_{m+2}}{b_{m}}=\\left(\\frac{1}{2}\\right)^{2}=\\frac{1}{4}\n$$\n<p>所以从 $c_{k}$ 开始的各项构成首项为 $\\left(\\dfrac{1}{2}\\right)^{2k-1}$、公比为 $\\dfrac{1}{4}$ 的无穷等比数列. 故</p>\n$$\n\\displaystyle\\lim_{n\\to\\infty}\\sum_{m=k}^{n} b_{m}b_{m+1}=\\frac{\\left(\\frac{1}{2}\\right)^{2k-1}}{1-\\frac{1}{4}}=\\frac{8}{3\\cdot2^{2k}}\n$$\n<p>由题设，这个和等于 $\\dfrac1{96}$，所以 $\\dfrac{8}{3\\cdot2^{2k}}=\\dfrac1{96}$，即 $2^{2k}=256=2^{8}$. 由于 $k$ 为自然数，得 $k=4$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 26,
           "body": "<p>设 $P(1, t)$ 是直角坐标系内的点（$t > 0$）. 将向量 $\\overrightarrow{OP}$ 绕原点 $O$ 按逆时针方向旋转 $\\frac{\\pi}{2}$，再把它的模变为原来的两倍，得到向量 $\\overrightarrow{OQ}$，以 $OP$，$OQ$ 为邻边作矩形 $OPRQ$.</p><ol class=\"enumerate\"><li><p>求点 $Q$，$R$ 的坐标；</p></li><li><p>求矩形 $OPRQ$ 在第一象限部分的面积 $S(t)$；</p></li><li><p>确定函数 $S(t)$ 的单调区间，并加以证明.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$\\overrightarrow{OP}= (1,t)$. 由 $\\overrightarrow{OQ}\\cdot\\overrightarrow{OP}=0$ 和 $\\lvert\\overrightarrow{OQ}\\rvert=2\\lvert\\overrightarrow{OP}\\rvert$，得 $\\overrightarrow{OQ}=\\pm 2(-t,1)$. 根据题意，向量 $\\overrightarrow{OP}$ 按逆时针方向旋转 $\\frac{\\pi}{2}$ 后再把模变为原来的两倍，所以 $\\overrightarrow{OQ}=(-2t,2)$.</p><p>所以 $Q(-2t,2)$. 又 $\\overrightarrow{OR}= \\overrightarrow{OP}+ \\overrightarrow{OQ}= (-2t+1, t+2)$，所以 $R(-2t+1,t+2)$.</p></li><li><p>当 $-2t+1>0$，即 $0<t<\\frac{1}{2}$ 时，点 $R$ 在第一象限内，此时 $S(t)$ 为四边形 $OPRQ$ 在第一象限部分的面积.</p><p>直线 $QR$ 的方程为 $y-2=t(x+2t)$. 令 $x=0$，得 $y=2t^{2}+2$，设交点为 $K(0,2t^{2}+2)$. 因而</p>\n$$\nS(t)=S_{OPRQ}-S_{OKQ}=2\\left(\\sqrt{1+t^{2}}\\right)^{2}-\\frac{1}{2}(2t^{2}+2)\\cdot 2t=2(1-t+t^{2}-t^{3})\n$$\n<p>当 $-2t+1\\le0$，即 $t\\ge\\frac{1}{2}$ 时，点 $R$ 在 $y$ 轴上或第二象限内，此时 $S(t)$ 为 $\\triangle OPL$ 的面积.</p><p>直线 $PR$ 的方程为 $y-t=-\\dfrac{1}{t}(x-1)$.</p><p>令 $x=0$，得 $y=t+\\dfrac{1}{t}$，设交点为 $L\\!\\left(0,t+\\dfrac{1}{t}\\right)$. 所以 $S(t)=\\dfrac{1}{2}\\left(t+\\dfrac{1}{t}\\right)$.</p><p>因此</p>\n$$\nS(t)=  \\begin{cases}2(1-t+t^{2}-t^{3}),&0<t<\\frac{1}{2},\\\\  \\dfrac{1}{2}\\left(t+\\dfrac{1}{t}\\right),&t\\ge\\frac{1}{2}.\\end{cases}\n$$\n</li><li><p>当 $0<t_{1}<t_{2}<\\frac{1}{2}$ 时，</p><p>$S(t_{1})-S(t_{2})=2(t_{2}-t_{1})\\bigl[1-(t_{1}+t_{2})+(t_{1}^{2}+t_{1}t_{2}+t_{2}^{2})\\bigr]$. 其中 $t_{2}-t_{1}>0$，且</p><p>$1-(t_{1}+t_{2})+(t_{1}^{2}+t_{1}t_{2}+t_{2}^{2})=(1-t_{1})(1-t_{2})+t_{1}^{2}+t_{2}^{2}>0$，所以 $S(t_{1})-S(t_{2})>0$，</p><p>所以 $S(t)$ 在 $(0,\\frac{1}{2})$ 内是减函数.</p><p>当 $\\frac{1}{2}\\le t_{1}<t_{2}\\le1$ 时，$t_{1}-t_{2}<0$，且 $t_{1}t_{2}<1$，所以 $1-\\dfrac{1}{t_1t_2}<0$，从而</p><p>$S(t_{1})-S(t_{2})=\\dfrac{1}{2}(t_{1}-t_{2})\\left(1-\\dfrac{1}{t_1t_2}\\right)>0$，</p><p>所以 $S(t)$ 在 $[\\frac{1}{2},1]$ 内也是减函数.</p><p>又</p><p>$S\\!\\left(\\dfrac{1}{2}\\right)=2\\left(1-\\dfrac{1}{2}+\\dfrac{1}{4}-\\dfrac{1}{8}\\right)=\\dfrac{5}{4}$.</p><p>对于 $0<t_{1}<\\frac{1}{2}\\le t_{2}\\le1$，有 $S(t_{1})>\\dfrac{5}{4}\\ge S(t_{2})$，所以 $S(t)$ 在 $(0,1]$ 内是减函数.</p><p>当 $1\\le t_{1}<t_{2}$ 时，$t_{1}-t_{2}<0$，且 $t_{1}t_{2}>1$，所以 $1-\\dfrac{1}{t_1t_2}>0$，从而</p><p>$S(t_{1})-S(t_{2})=\\dfrac{1}{2}(t_{1}-t_{2})\\left(1-\\dfrac{1}{t_1t_2}\\right)<0$，</p><p>所以 $S(t)$ 在 $[1,+\\infty)$ 内是增函数.</p><p>综上，$S(t)$ 在 $(0,1]$ 上单调递减，在 $[1,+\\infty)$ 上单调递增；因此其单调区间分别为 $(0,1]$ 和 $[1,+\\infty)$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q26_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q26_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<ol class=\"enumerate\"><li><p>$\\overrightarrow{OP}= (1,t)$. 由 $\\overrightarrow{OQ}\\cdot\\overrightarrow{OP}=0$ 和 $\\lvert\\overrightarrow{OQ}\\rvert=2\\lvert\\overrightarrow{OP}\\rvert$，得 $\\overrightarrow{OQ}=\\pm 2(-t,1)$. 根据题意，向量 $\\overrightarrow{OP}$ 按逆时针方向旋转 $\\frac{\\pi}{2}$ 后再把模变为原来的两倍，所以 $\\overrightarrow{OQ}=(-2t,2)$.</p><p>所以 $Q(-2t,2)$. 又 $\\overrightarrow{OR}= \\overrightarrow{OP}+ \\overrightarrow{OQ}= (-2t+1, t+2)$，所以 $R(-2t+1,t+2)$.</p></li><li><p>当 $-2t+1>0$，即 $0<t<\\frac{1}{2}$ 时，点 $R$ 在第一象限内，此时 $S(t)$ 为四边形 $OPRQ$ 在第一象限部分的面积.</p><p>直线 $QR$ 的方程为 $y-2=t(x+2t)$. 令 $x=0$，得 $y=2t^{2}+2$，设交点为 $K(0,2t^{2}+2)$. 因而</p>\n$$\nS(t)=S_{OPRQ}-S_{OKQ}=2\\left(\\sqrt{1+t^{2}}\\right)^{2}-\\frac{1}{2}(2t^{2}+2)\\cdot 2t=2(1-t+t^{2}-t^{3})\n$$\n<p>当 $-2t+1\\le0$，即 $t\\ge\\frac{1}{2}$ 时，点 $R$ 在 $y$ 轴上或第二象限内，此时 $S(t)$ 为 $\\triangle OPL$ 的面积.</p><p>直线 $PR$ 的方程为 $y-t=-\\dfrac{1}{t}(x-1)$.</p><p>令 $x=0$，得 $y=t+\\dfrac{1}{t}$，设交点为 $L\\!\\left(0,t+\\dfrac{1}{t}\\right)$. 所以 $S(t)=\\dfrac{1}{2}\\left(t+\\dfrac{1}{t}\\right)$.</p><p>因此</p>\n$$\nS(t)=  \\begin{cases}2(1-t+t^{2}-t^{3}),&0<t<\\frac{1}{2},\\\\  \\dfrac{1}{2}\\left(t+\\dfrac{1}{t}\\right),&t\\ge\\frac{1}{2}.\\end{cases}\n$$\n</li><li><p>当 $0<t_{1}<t_{2}<\\frac{1}{2}$ 时，</p><p>$S(t_{1})-S(t_{2})=2(t_{2}-t_{1})\\bigl[1-(t_{1}+t_{2})+(t_{1}^{2}+t_{1}t_{2}+t_{2}^{2})\\bigr]$. 其中 $t_{2}-t_{1}>0$，且</p><p>$1-(t_{1}+t_{2})+(t_{1}^{2}+t_{1}t_{2}+t_{2}^{2})=(1-t_{1})(1-t_{2})+t_{1}^{2}+t_{2}^{2}>0$，所以 $S(t_{1})-S(t_{2})>0$，</p><p>所以 $S(t)$ 在 $(0,\\frac{1}{2})$ 内是减函数.</p><p>当 $\\frac{1}{2}\\le t_{1}<t_{2}\\le1$ 时，$t_{1}-t_{2}<0$，且 $t_{1}t_{2}<1$，所以 $1-\\dfrac{1}{t_1t_2}<0$，从而</p><p>$S(t_{1})-S(t_{2})=\\dfrac{1}{2}(t_{1}-t_{2})\\left(1-\\dfrac{1}{t_1t_2}\\right)>0$，</p><p>所以 $S(t)$ 在 $[\\frac{1}{2},1]$ 内也是减函数.</p><p>又</p><p>$S\\!\\left(\\dfrac{1}{2}\\right)=2\\left(1-\\dfrac{1}{2}+\\dfrac{1}{4}-\\dfrac{1}{8}\\right)=\\dfrac{5}{4}$.</p><p>对于 $0<t_{1}<\\frac{1}{2}\\le t_{2}\\le1$，有 $S(t_{1})>\\dfrac{5}{4}\\ge S(t_{2})$，所以 $S(t)$ 在 $(0,1]$ 内是减函数.</p><p>当 $1\\le t_{1}<t_{2}$ 时，$t_{1}-t_{2}<0$，且 $t_{1}t_{2}>1$，所以 $1-\\dfrac{1}{t_1t_2}>0$，从而</p><p>$S(t_{1})-S(t_{2})=\\dfrac{1}{2}(t_{1}-t_{2})\\left(1-\\dfrac{1}{t_1t_2}\\right)<0$，</p><p>所以 $S(t)$ 在 $[1,+\\infty)$ 内是增函数.</p><p>综上，$S(t)$ 在 $(0,1]$ 上单调递减，在 $[1,+\\infty)$ 上单调递增；因此其单调区间分别为 $(0,1]$ 和 $[1,+\\infty)$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1994/img/shanghai_liberal/q26_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1994/img/shanghai_liberal/q26_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

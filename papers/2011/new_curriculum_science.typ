@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,8 +11,8 @@
 #part-header("单选题")
 
 #problem(1)[
-复数 $(2 + i)/(1 - 2 i)$ 的共轭复数是（ ）
-  #choices([$-(3)/(5) i$], [$(3)/(5) i$], [$- i$], [$i$], cols: 4)
+复数 #mi(`\frac{2 + \mathrm{i}}{1 - 2\mathrm{i}}`) 的共轭复数是（ ）
+  #choices([#mi(`-\frac{3}{5}\mathrm{i}`)], [#mi(`\frac{3}{5}\mathrm{i}`)], [#mi(`-\mathrm{i}`)], [#mi(`\mathrm{i}`)], cols: 2)
 ]
 
 #answer([C.])
@@ -20,69 +20,87 @@
 #solution[
 将分式的分子、分母同乘以分母的共轭复数，得
 
-$ (2+ i)/(1-2 i)=((2+ i )(1+2 i ))/((1-2 i )(1+2 i ))=(5 i)/(5)= i $
 
-因此其共轭复数为 $- i$，选 C.
+#align(center)[#mitex(`
+\frac{2+\mathrm{i}}{1-2\mathrm{i}}=\frac{(2+\mathrm{i})(1+2\mathrm{i})}{(1-2\mathrm{i})(1+2\mathrm{i})}=\frac{5\mathrm{i}}{5}=\mathrm{i}
+`)]
+
+
+因此其共轭复数为 #mi(`-\mathrm{i}`)，选 C.
 ]
 
 #problem(2)[
-下列函数中，既是偶函数又在 $(0, + oo )$ 单调递增的函数是（ ）
-  #choices([$y = x^(3)$], [$y = |x| + 1$], [$y = -x^(2) + 1$], [$y = 2^(-|x|)$], cols: 2)
+下列函数中，既是偶函数又在 #mi(`\left(0, +\infty\right)`) 单调递增的函数是（ ）
+  #choices([#mi(`y = x^{3}`)], [#mi(`y = |x| + 1`)], [#mi(`y = -x^{2}+ 1`)], [#mi(`y = 2^{-|x|}`)], cols: 2)
 ]
 
 #answer([B.])
 
 #solution[
-逐项判断：$x^(3)$ 是奇函数；$|x|+1$ 是偶函数，且在 $(0,+ oo )$ 上随 $x$ 增大而增大；$-x^(2)+1$ 在该区间单调递减；$2^(-|x|)$ 虽为偶函数，但在该区间单调递减. 因此选 B.
+逐项判断：#mi(`x^{3}`) 是奇函数；#mi(`|x|+1`) 是偶函数，且在 #mi(`\left(0,+\infty\right)`) 上随 #mi(`x`) 增大而增大；#mi(`-x^{2}+1`) 在该区间单调递减；#mi(`2^{-|x|}`) 虽为偶函数，但在该区间单调递减. 因此选 B.
 ]
 
 #problem(3)[
-执行如图的程序框图，如果输入的 $N$ 是 $6$，那么输出的 $p$ 是（ ）
+执行如图的程序框图，如果输入的 #mi(`N`) 是 #mi(`6`)，那么输出的 #mi(`p`) 是（ ）
 
 
-#align(center)[#image("/papers/2011/img/new_curriculum_science/q3_fig1.png", width: 46%)]
-  #choices([$120$], [$720$], [$1440$], [$5040$], cols: 4)
+#align(center)[#image("/papers/2011/img/new_curriculum_science/q3_fig1.png", width: 28%)]
+
+  #choices([#mi(`120`)], [#mi(`720`)], [#mi(`1440`)], [#mi(`5040`)], cols: 4)
 ]
 
 #answer([B.])
 
 #solution[
-程序先令 $k=1$，$p=1$. 每次先执行 $p\l e f t a r r o w p k$，再判断 $k<N$；若判断为“是”，才执行 $k\l e f t a r r o w k+1$，然后返回执行乘法运算. 当 $N=6$ 时，各次执行乘法后的状态依次为
-$(k,p)=(1,1)$，$(2,2)$，$(3,6)$，$(4,24)$，$(5,120)$，$(6,720)$.
+程序先令 #mi(`k=1`)，#mi(`p=1`). 每次先执行 #mi(`p\leftarrow pk`)，再判断 #mi(`k<N`)；若判断为“是”，才执行 #mi(`k\leftarrow k+1`)，然后返回执行乘法运算. 当 #mi(`N=6`) 时，各次执行乘法后的状态依次为
 
-当 $k=6$ 时不满足 $k<N$，程序输出
+#mi(`(k,p)=(1,1)`)，#mi(`(2,2)`)，#mi(`(3,6)`)，#mi(`(4,24)`)，#mi(`(5,120)`)，#mi(`(6,720)`).
 
-$ p=720 $
+当 #mi(`k=6`) 时不满足 #mi(`k<N`)，程序输出
+
+
+#align(center)[#mitex(`
+p=720
+`)]
+
 
 因此选 B.
 ]
 
 #problem(4)[
-有 $3$ 个兴趣小组，甲，乙两位同学各自参加其中一个小组，每位同学参加各个小组的可能性相同，则这两位同学参加同一个兴趣小组的概率为（ ）
-  #choices([$(1)/(3)$], [$(1)/(2)$], [$(2)/(3)$], [$(3)/(4)$], cols: 4)
+有 #mi(`3`) 个兴趣小组，甲，乙两位同学各自参加其中一个小组，每位同学参加各个小组的可能性相同，则这两位同学参加同一个兴趣小组的概率为（ ）
+  #choices([#mi(`\frac{1}{3}`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{2}{3}`)], [#mi(`\frac{3}{4}`)], cols: 2)
 ]
 
 #answer([A.])
 
 #solution[
-甲、乙分别选择一个小组，所有有序结果共有 $3 times 3 =9$ 种，等可能的同组结果为 $(1,1)$，$(2,2)$，$(3,3)$，共有 $3$ 种. 因此所求概率为
+甲、乙分别选择一个小组，所有有序结果共有 #mi(`3\times3=9`) 种，等可能的同组结果为 #mi(`(1,1)`)，#mi(`(2,2)`)，#mi(`(3,3)`)，共有 #mi(`3`) 种. 因此所求概率为
 
-$ (3)/(9)=(1)/(3) $
+
+#align(center)[#mitex(`
+\frac{3}{9}=\frac{1}{3}
+`)]
+
 
 选 A.
 ]
 
 #problem(5)[
-已知角 $theta$ 的顶点与原点重合，始边与 $x$ 轴的正半轴重合，终边在直线 $y = 2 x$ 上，则 $cos 2 theta =$（ ）
-  #choices([$-(4)/(5)$], [$-(3)/(5)$], [$(3)/(5)$], [$(4)/(5)$], cols: 4)
+已知角 #mi(`\theta`) 的顶点与原点重合，始边与 #mi(`x`) 轴的正半轴重合，终边在直线 #mi(`y = 2x`) 上，则 #mi(`\cos 2\theta =`)（ ）
+  #choices([#mi(`-\frac{4}{5}`)], [#mi(`-\frac{3}{5}`)], [#mi(`\frac{3}{5}`)], [#mi(`\frac{4}{5}`)], cols: 2)
 ]
 
 #answer([B.])
 
 #solution[
-终边在直线 $y=2 x$ 上，所以 $tan theta =2$. 利用二倍角公式，得
+终边在直线 #mi(`y=2x`) 上，所以 #mi(`\tan\theta=2`). 利用二倍角公式，得
 
-$ cos 2 theta =(1- tan ""^(2){ theta })/(1+ tan ""^(2) theta)=(1-4)/(1+4)=-(3)/(5) $
+
+#align(center)[#mitex(`
+\cos2\theta=\frac{1-\tan^{2}\theta}{1+\tan^{2}\theta}=\frac{1-4}{1+4}=-\frac{3}{5}
+`)]
+
 
 因此选 B.
 ]
@@ -91,8 +109,17 @@ $ cos 2 theta =(1- tan ""^(2){ theta })/(1+ tan ""^(2) theta)=(1-4)/(1+4)=-(3)/(
 在一个几何体的三视图中，正视图和俯视图如下图所示，则相应的侧视图可以为（ ）
 
 
-#align(center)[#image("/papers/2011/img/new_curriculum_science/q6_condition.png", width: 42%)]
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/new_curriculum_science/q6_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/new_curriculum_science/q6_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/new_curriculum_science/q6_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/new_curriculum_science/q6_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+#align(center)[#image("/papers/2011/img/new_curriculum_science/q6_condition.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2011/img/new_curriculum_science/q6_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/new_curriculum_science/q6_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/new_curriculum_science/q6_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/new_curriculum_science/q6_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D.])
@@ -102,101 +129,144 @@ $ cos 2 theta =(1- tan ""^(2){ theta })/(1+ tan ""^(2) theta)=(1-4)/(1+4)=-(3)/(
 ]
 
 #problem(7)[
-设直线 $l$ 过双曲线 $C$ 的一个焦点，且与 $C$ 的一条对称轴垂直，$l$ 与 $C$ 交于 $A$，$B$ 两点，$|A B|$ 为 $C$ 的实轴长的 $2$ 倍，则 $C$ 的离心率为（ ）
-  #choices([$sqrt(2)$], [$sqrt(3)$], [$2$], [$3$], cols: 4)
+设直线 #mi(`l`) 过双曲线 #mi(`C`) 的一个焦点，且与 #mi(`C`) 的一条对称轴垂直，#mi(`l`) 与 #mi(`C`) 交于 #mi(`A`)，#mi(`B`) 两点，#mi(`|AB|`) 为 #mi(`C`) 的实轴长的 #mi(`2`) 倍，则 #mi(`C`) 的离心率为（ ）
+  #choices([#mi(`\sqrt{2}`)], [#mi(`\sqrt{3}`)], [#mi(`2`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([B.])
 
 #solution[
-设双曲线方程为 $(x^(2))/(a^(2))-(y^(2))/(b^(2))=1$，焦距参数为 $c$，则 $c^(2)=a^(2)+b^(2)$. 若过焦点的直线垂直于虚轴，则它是实轴方向的直线；与双曲线的交弦只能是实轴，长度为实轴长 $2 a$，不可能等于 $4 a$. 故该直线垂直于实轴，即为 $x=c$.
+设双曲线方程为 #mi(`\dfrac{x^{2}}{a^{2}}-\dfrac{y^{2}}{b^{2}}=1`)，焦距参数为 #mi(`c`)，则 #mi(`c^{2}=a^{2}+b^{2}`). 若过焦点的直线垂直于虚轴，则它是实轴方向的直线；与双曲线的交弦只能是实轴，长度为实轴长 #mi(`2a`)，不可能等于 #mi(`4a`). 故该直线垂直于实轴，即为 #mi(`x=c`).
 
-代入双曲线方程，交点的纵坐标为 $y= +- (b^(2))/(a)$，所以 $|A B|=(2 b^(2))/(a)=4 a$，$b^(2)=2 a^(2)$.
-从而 $c^(2)=3 a^(2)$，离心率
+代入双曲线方程，交点的纵坐标为 #mi(`y=\pm \frac{b^{2}}{a}`)，所以 #mi(`|AB|=\frac{2b^{2}}{a}=4a`)，#mi(`b^{2}=2a^{2}`).
 
-$ e=(c)/(a)=sqrt(3) $
+从而 #mi(`c^{2}=3a^{2}`)，离心率
+
+
+#align(center)[#mitex(`
+e=\frac{c}{a}=\sqrt{3}
+`)]
+
 
 因此选 B.
 ]
 
 #problem(8)[
-$(x + (a)/(x))(2 x - (1)/(x))^5$ 的展开式中各项系数的和为 $2$，则该展开式中常数项为（ ）
-  #choices([$-40$], [$-20$], [$20$], [$40$], cols: 4)
+#mi(`\left(x + \frac{a}{x}\right)\left(2x - \frac{1}{x}\right)^{5}`) 的展开式中各项系数的和为 #mi(`2`)，则该展开式中常数项为（ ）
+  #choices([#mi(`-40`)], [#mi(`-20`)], [#mi(`20`)], [#mi(`40`)], cols: 4)
 ]
 
 #answer([D.])
 
 #solution[
-展开式各项系数的和等于令 $x=1$ 后的值，因此
+展开式各项系数的和等于令 #mi(`x=1`) 后的值，因此
 
-$ (1+a)(2-1)^(5)=2 $
 
-得 $a=1$. 于是
+#align(center)[#mitex(`
+(1+a)(2-1)^{5}=2
+`)]
 
-$ (x+(1)/(x))(2 x-(1)/(x))^(5) $
 
-常数项有两种来源：从第一个因子的 $x$ 取第二个因子中 $x^(-1)$ 项，需要取三次 $-x^(-1)$，贡献
+得 #mi(`a=1`). 于是
 
-$ C_5^3 2^(2)(-1)^(3)=-40 $
 
-从第一个因子的 $x^(-1)$ 取第二个因子中 $x$ 项，需要取两次 $-x^(-1)$，贡献
+#align(center)[#mitex(`
+\left(x+\frac{1}{x}\right)\left(2x-\frac{1}{x}\right)^{5}
+`)]
 
-$ C_5^2 2^(3)=80 $
 
-常数项为 $-40+80=40$，因此选 D.
+常数项有两种来源：从第一个因子的 #mi(`x`) 取第二个因子中 #mi(`x^{-1}`) 项，需要取三次 #mi(`-x^{-1}`)，贡献
+
+
+#align(center)[#mitex(`
+\mathrm{C}_{5}^{3} 2^{2}(-1)^{3}=-40
+`)]
+
+
+从第一个因子的 #mi(`x^{-1}`) 取第二个因子中 #mi(`x`) 项，需要取两次 #mi(`-x^{-1}`)，贡献
+
+
+#align(center)[#mitex(`
+\mathrm{C}_{5}^{2} 2^{3}=80
+`)]
+
+
+常数项为 #mi(`-40+80=40`)，因此选 D.
 ]
 
 #problem(9)[
-由曲线 $y = sqrt(x)$，直线 $y = x - 2$ 及 $y$ 轴所围成的图形的面积为（ ）
-  #choices([$(10)/(3)$], [$4$], [$(16)/(3)$], [$6$], cols: 4)
+由曲线 #mi(`y = \sqrt{x}`)，直线 #mi(`y = x - 2`) 及 #mi(`y`) 轴所围成的图形的面积为（ ）
+  #choices([#mi(`\frac{10}{3}`)], [#mi(`4`)], [#mi(`\frac{16}{3}`)], [#mi(`6`)], cols: 2)
 ]
 
 #answer([C.])
 
 #solution[
-令 $t=sqrt(x)$，则交点满足 $t=t^(2)-2$，故 $t=2$，即 $x=4$. 在 $0 <= x <= 4$ 上，曲线 $y=sqrt(x)$ 在直线 $y=x-2$ 上方，所以面积为
+令 #mi(`t=\sqrt{x}`)，则交点满足 #mi(`t=t^{2}-2`)，故 #mi(`t=2`)，即 #mi(`x=4`). 在 #mi(`0\le x\leqslant4`) 上，曲线 #mi(`y=\sqrt{x}`) 在直线 #mi(`y=x-2`) 上方，所以面积为
 
-$ integral_(0)^(4)(sqrt(x)-(x-2)) d x =[(2)/(3)x^((3)/(2))-\f r a c{x^(2)}2+2 x]_(0)^(4) =(16)/(3) $
+
+#align(center)[#mitex(`
+\int_{0}^{4}\left(\sqrt{x}-(x-2)\right)\,\mathrm{d}x  =\left[\frac{2}{3}x^{\frac{3}{2}}-\frac{x^{2}}{2}+2x\right]_{0}^{4}=\frac{16}{3}
+`)]
+
 
 因此选 C.
 ]
 
 #problem(10)[
-已知 $bold(a)$ 与 $bold(b)$ 均为单位向量，其夹角为 $theta$，有下列四个命题：
-\begin{circlelist}
-    \item $p_1: |bold(a)+ bold(b)| > 1 \L e f t r i g h t a r r o w theta in [0, (2 pi)/(3))$
-    \item $p_2: |bold(a)+ bold(b)| > 1 \L e f t r i g h t a r r o w theta in ((2 pi)/(3), pi ]$
-    \item $p_3: |bold(a)- bold(b)| > 1 \L e f t r i g h t a r r o w theta in [0, (pi)/(3))$
-    \item $p_4: |bold(a)- bold(b)| > 1 \L e f t r i g h t a r r o w theta in ((pi)/(3), pi ]$
-\end{circlelist}
+已知 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 均为单位向量，其夹角为 #mi(`\theta`)，有下列四个命题：
+
+
++ (1) #mi(`p_{1}: |\mathbf{a}+ \mathbf{b}| > 1 \Leftrightarrow \theta \in \left[0, \frac{2\pi}{3}\right)`)
++ (2) #mi(`p_{2}: |\mathbf{a}+ \mathbf{b}| > 1 \Leftrightarrow \theta \in \left(\frac{2\pi}{3}, \pi\right]`)
++ (3) #mi(`p_{3}: |\mathbf{a}- \mathbf{b}| > 1 \Leftrightarrow \theta \in \left[0, \frac{\pi}{3}\right)`)
++ (4) #mi(`p_{4}: |\mathbf{a}- \mathbf{b}| > 1 \Leftrightarrow \theta \in \left(\frac{\pi}{3}, \pi\right]`)
+
+
+
 其中的真命题是（ ）
-  #choices([$p_1$，$p_4$], [$p_1$，$p_3$], [$p_2$，$p_3$], [$p_2$，$p_4$], cols: 4)
+  #choices([#mi(`p_{1}`)，#mi(`p_{4}`)], [#mi(`p_{1}`)，#mi(`p_{3}`)], [#mi(`p_{2}`)，#mi(`p_{3}`)], [#mi(`p_{2}`)，#mi(`p_{4}`)], cols: 2)
 ]
 
 #answer([A.])
 
 #solution[
-因为 $bold(a)$，$bold(b)$ 都是单位向量，且两向量的夹角满足 $0 <= theta <= pi$，所以
-
-$ |bold(a)+bold(b)|^(2)=|bold(a)|^(2)+|bold(b)|^(2)+2 bold(a)\c d o t b o l d(b)=2+2 cos theta $
+因为 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 都是单位向量，且两向量的夹角满足 #mi(`0\le\theta\le\pi`)，所以
 
 
-$ |bold(a)-bold(b)|^(2)=|bold(a)|^(2)+|bold(b)|^(2)-2 bold(a)\c d o t b o l d(b)=2-2 cos theta $
+#align(center)[#mitex(`
+|\mathbf{a}+\mathbf{b}|^{2}=|\mathbf{a}|^{2}+|\mathbf{b}|^{2}+2\mathbf{a}\cdot\mathbf{b}=2+2\cos\theta
+`)]
+
+
+
+#align(center)[#mitex(`
+|\mathbf{a}-\mathbf{b}|^{2}=|\mathbf{a}|^{2}+|\mathbf{b}|^{2}-2\mathbf{a}\cdot\mathbf{b}=2-2\cos\theta
+`)]
+
 
 由于两边长度均为非负数，分别比较平方可得
 
-$ |bold(a)+bold(b)|>1 <=> 2+2 cos theta >1 <=> cos theta >-(1)/(2) <=> theta in [0,(2 pi)/(3)) $
 
-所以 $p_(1)$ 为真，而 $p_(2)$ 所给区间与上述等价条件不符，故 $p_(2)$ 为假. 对差向量，
+#align(center)[#mitex(`
+|\mathbf{a}+\mathbf{b}|>1\Longleftrightarrow 2+2\cos\theta>1  \Longleftrightarrow \cos\theta>-\frac{1}{2}\Longleftrightarrow \theta\in\left[0,\frac{2\pi}{3}\right)
+`)]
 
-$ |bold(a)-bold(b)|>1 <=> 2-2 cos theta >1 <=> cos theta <(1)/(2) <=> theta in ((pi)/(3), pi ] $
 
-所以 $p_(4)$ 为真，而 $p_(3)$ 所给区间与上述等价条件相反，故 $p_(3)$ 为假. 因此真命题为 $p_(1)$，$p_(4)$，选 A.
+所以 #mi(`p_{1}`) 为真，而 #mi(`p_{2}`) 所给区间与上述等价条件不符，故 #mi(`p_{2}`) 为假. 对差向量，
+
+
+#align(center)[#mitex(`
+|\mathbf{a}-\mathbf{b}|>1\Longleftrightarrow 2-2\cos\theta>1  \Longleftrightarrow \cos\theta<\frac{1}{2}\Longleftrightarrow \theta\in\left(\frac{\pi}{3},\pi\right]
+`)]
+
+
+所以 #mi(`p_{4}`) 为真，而 #mi(`p_{3}`) 所给区间与上述等价条件相反，故 #mi(`p_{3}`) 为假. 因此真命题为 #mi(`p_{1}`)，#mi(`p_{4}`)，选 A.
 ]
 
 #problem(11)[
-设函数 $f(x) = sin ( omega x + phi.alt ) + cos ( omega x + phi.alt )$（$omega > 0$，$| phi.alt | < (pi)/(2)$）的最小正周期为 $pi$，且 $f(-x) = f(x)$，则（ ）
-  #choices([$f(x)$ 在 $(0, (pi)/(2))$ 单调递减], [$f(x)$ 在 $((pi)/(4), (3 pi)/(4))$ 单调递减], [$f(x)$ 在 $(0, (pi)/(2))$ 单调递增], [$f(x)$ 在 $((pi)/(4), (3 pi)/(4))$ 单调递增], cols: 1)
+设函数 #mi(`f(x) = \sin\left(\omega x + \varphi\right) + \cos\left(\omega x + \varphi\right)`)（#mi(`\omega > 0`)，#mi(`|\varphi| < \frac{\pi}{2}`)）的最小正周期为 #mi(`\pi`)，且 #mi(`f(-x) = f(x)`)，则（ ）
+  #choices([#mi(`f(x)`) 在 #mi(`\left(0, \frac{\pi}{2}\right)`) 单调递减], [#mi(`f(x)`) 在 #mi(`\left(\frac{\pi}{4}, \frac{3\pi}{4}\right)`) 单调递减], [#mi(`f(x)`) 在 #mi(`\left(0, \frac{\pi}{2}\right)`) 单调递增], [#mi(`f(x)`) 在 #mi(`\left(\frac{\pi}{4}, \frac{3\pi}{4}\right)`) 单调递增], cols: 1)
 ]
 
 #answer([A.])
@@ -204,419 +274,287 @@ $ |bold(a)-bold(b)|>1 <=> 2-2 cos theta >1 <=> cos theta <(1)/(2) <=> theta in (
 #solution[
 将函数化为
 
-$ f(x)=sqrt(2) sin ( omega x+ phi.alt +(pi)/(4)) $
 
-其最小正周期为 $pi$，故 $omega =2$. 令 $eta = phi.alt +(pi)/(4)$，偶性要求
+#align(center)[#mitex(`
+f(x)=\sqrt{2}\sin\left(\omega x+\varphi+\frac{\pi}{4}\right)
+`)]
 
-$ sin (-2 x+ eta )= sin (2 x+ eta ) $
 
-比较展开式中的 $sin 2 x$、$cos 2 x$ 系数，得 $cos eta =0$. 结合 $| phi.alt |<(pi)/(2)$，只能取 $eta =(pi)/(2)$，从而 $phi.alt =(pi)/(4)$，且
+其最小正周期为 #mi(`\pi`)，故 #mi(`\omega=2`). 令 #mi(`\eta=\varphi+\frac{\pi}{4}`)，偶性要求
 
-$ f(x)=sqrt(2) cos 2 x $
 
-在 $(0,(pi)/(2))$ 上，$f'(x)=-2 sqrt(2) sin 2 x<0$，故选 A.
+#align(center)[#mitex(`
+\sin(-2x+\eta)=\sin(2x+\eta)
+`)]
+
+
+比较展开式中的 #mi(`\sin2x`)、#mi(`\cos2x`) 系数，得 #mi(`\cos\eta=0`). 结合 #mi(`|\varphi|<\frac{\pi}{2}`)，只能取 #mi(`\eta=\frac{\pi}{2}`)，从而 #mi(`\varphi=\frac{\pi}{4}`)，且
+
+
+#align(center)[#mitex(`
+f(x)=\sqrt{2}\cos2x
+`)]
+
+
+在 #mi(`\left(0,\frac{\pi}{2}\right)`) 上，#mi(`f'(x)=-2\sqrt{2}\sin2x<0`)，故选 A.
 ]
 
 #problem(12)[
-函数 $y = (1)/(1 - x)$ 的图象与函数 $y = 2 sin pi x$（$-2 <= x <= 4$）的图象所有交点的横坐标之和等于（ ）
-  #choices([$2$], [$4$], [$6$], [$8$], cols: 4)
+函数 #mi(`y = \frac{1}{1 - x}`) 的图象与函数 #mi(`y = 2\sin \pi x`)（#mi(`-2 \le x \le 4`)）的图象所有交点的横坐标之和等于（ ）
+  #choices([#mi(`2`)], [#mi(`4`)], [#mi(`6`)], [#mi(`8`)], cols: 4)
 ]
 
 #answer([D.])
 
 #solution[
 交点横坐标满足
-$(1-x) sin pi x=(1)/(2)$，$x != 1$.
-记左端为 $G(x)$. 由 $sin ( pi (2-x))=- sin ( pi x)$，可得 $G(2-x)=G(x)$，所以根关于 $x=1$ 对称. 先考察四个可能使 $G(x)>0$ 的区间：
-这些区间为 $(-2,-1)$、$(0,1)$、$(1,2)$ 和 $(3,4)$.
-在每个区间内作平移 $t in (0,1)$，在 $(-2,-1)$ 和 $(0,1)$ 上分别得到 $g_3(t)=(3-t) sin pi t$ 和 $g_1(t)=(1-t) sin pi t$；在 $(1,2)$ 和 $(3,4)$ 上分别得到 $h_0(t)=t sin pi t=g_1(1-t)$ 和 $h_2(t)=(2+t) sin pi t=g_3(1-t)$.
-对 $g_c(t)=(c-t) sin pi t$（$c=1$，$3$），在 $0<t<(1)/(2)$ 时，导数为零等价于
 
-$ tan pi t= pi (c-t) $
+#mi(`(1-x)\sin\pi x=\frac{1}{2}`)，#mi(`x\ne1`).
 
-左端严格递增，右端严格递减，且导数在 $t=0$ 附近为正、在 $t=(1)/(2)$ 处为负，故 $g_c$ 在 $(0,(1)/(2))$ 内有唯一极大值；在 $((1)/(2),1)$ 内导数恒为负. 又 $g_3((1)/(2))=(5)/(2)>(1)/(2)$，而 $g_1((1)/(2))=(1)/(2)$ 且 $g_1'((1)/(2))=-1<0$，所以这两个函数的极大值都大于 $(1)/(2)$. 由于它们在 $t=0$，$1$ 处均为 $0$，方程 $g_c(t)=(1)/(2)$ 在每个区间内各有两个根. $h_0$，$h_2$ 分别是 $g_1$，$g_3$ 关于 $t=(1)/(2)$ 的镜像，因此也各有两个根. 由此四个区间共有 $8$ 个根.
+记左端为 #mi(`G(x)`). 由 #mi(`\sin(\pi(2-x))=-\sin(\pi x)`)，可得 #mi(`G(2-x)=G(x)`)，所以根关于 #mi(`x=1`) 对称. 先考察四个可能使 #mi(`G(x)>0`) 的区间：
 
-由根的对称性，每一对对称根的和为 $2$，共有四对，故所有交点横坐标之和为 $4 times 2 =8$，选 D.
+这些区间为 #mi(`(-2,-1)`)、#mi(`(0,1)`)、#mi(`(1,2)`) 和 #mi(`(3,4)`).
+
+在每个区间内作平移 #mi(`t\in(0,1)`)，在 #mi(`(-2,-1)`) 和 #mi(`(0,1)`) 上分别得到 #mi(`g_{3}(t)=(3-t)\sin\pi t`) 和 #mi(`g_{1}(t)=(1-t)\sin\pi t`)；在 #mi(`(1,2)`) 和 #mi(`(3,4)`) 上分别得到 #mi(`h_{0}(t)=t\sin\pi t=g_{1}(1-t)`) 和 #mi(`h_{2}(t)=(2+t)\sin\pi t=g_{3}(1-t)`).
+
+对 #mi(`g_{c}(t)=(c-t)\sin\pi t`)（#mi(`c=1`)，#mi(`3`)），在 #mi(`0<t<\frac{1}{2}`) 时，导数为零等价于
+
+
+#align(center)[#mitex(`
+\tan\pi t=\pi(c-t)
+`)]
+
+
+左端严格递增，右端严格递减，且导数在 #mi(`t=0`) 附近为正、在 #mi(`t=\frac{1}{2}`) 处为负，故 #mi(`g_{c}`) 在 #mi(`\left(0,\frac{1}{2}\right)`) 内有唯一极大值；在 #mi(`\left(\frac{1}{2},1\right)`) 内导数恒为负. 又 #mi(`g_{3}(\frac{1}{2})=\frac{5}{2}>\frac{1}{2}`)，而 #mi(`g_{1}(\frac{1}{2})=\frac{1}{2}`) 且 #mi(`g_{1}'(\frac{1}{2})=-1<0`)，所以这两个函数的极大值都大于 #mi(`\frac{1}{2}`). 由于它们在 #mi(`t=0`)，#mi(`1`) 处均为 #mi(`0`)，方程 #mi(`g_{c}(t)=\frac{1}{2}`) 在每个区间内各有两个根. #mi(`h_{0}`)，#mi(`h_{2}`) 分别是 #mi(`g_{1}`)，#mi(`g_{3}`) 关于 #mi(`t=\frac{1}{2}`) 的镜像，因此也各有两个根. 由此四个区间共有 #mi(`8`) 个根.
+
+由根的对称性，每一对对称根的和为 #mi(`2`)，共有四对，故所有交点横坐标之和为 #mi(`4\times2=8`)，选 D.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-若变量 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} 3 <= 2 x + y <= 9 ,\\ 6 <= x - y <= 9 . \e n d{c a s e s}$ 则 $z = x + 2 y$ 的最小值为#blank(){}.
+若变量 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}3 \le 2x + y \le 9,\\  6 \le x - y \le 9.\end{cases}`) 则 #mi(`z = x + 2y`) 的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-6$])
+#answer([#mi(`-6`)])
 
 #solution[
 令
-$u=2 x+y$，$v=x-y$.
-则 $3 <= u <= 9$，$6 <= v <= 9$，且由 $x=((u+v))/(3)$、$y=((u-2 v))/(3)$ 得
-$z=x+2 y=u-v$.
-所以 $z$ 的最小值在 $u=3$，$v=9$ 时取得，为 $3-9=-6$.
+
+#mi(`u=2x+y`)，#mi(`v=x-y`).
+
+则 #mi(`3\le u\leqslant9`)，#mi(`6\le v\leqslant9`)，且由 #mi(`x=\frac{(u+v)}{3}`)、#mi(`y=\frac{(u-2v)}{3}`) 得
+
+#mi(`z=x+2y=u-v`).
+
+所以 #mi(`z`) 的最小值在 #mi(`u=3`)，#mi(`v=9`) 时取得，为 #mi(`3-9=-6`).
 ]
 
 #problem(14)[
-在平面直角坐标系 $x O y$ 中，椭圆 $C$ 的中心为原点，焦点 $F_(1)$，$F_(2)$ 在 $x$ 轴上，离心率为 $(sqrt(2))/(2)$，过 $F_(1)$ 的直线 $l$ 交 $C$ 于 $A$，$B$ 两点，且 $triangle A B F_(2)$ 的周长为 $16$，那么 $C$ 的方程为#blank(){}.
+在平面直角坐标系 #mi(`xOy`) 中，椭圆 #mi(`C`) 的中心为原点，焦点 #mi(`F_{1}`)，#mi(`F_{2}`) 在 #mi(`x`) 轴上，离心率为 #mi(`\frac{\sqrt{2}}{2}`)，过 #mi(`F_{1}`) 的直线 #mi(`l`) 交 #mi(`C`) 于 #mi(`A`)，#mi(`B`) 两点，且 #mi(`\triangle ABF_{2}`) 的周长为 #mi(`16`)，那么 #mi(`C`) 的方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(x^(2))/(16)+ (y^(2))/(8)= 1$])
+#answer([#mi(`\frac{x^{2}}{16}+ \frac{y^{2}}{8}= 1`)])
 
 #solution[
-设椭圆的长半轴、短半轴、半焦距分别为 $a$，$b$，$c$，则 $e=(c)/(a)=(sqrt(2))/(2)$，从而 $c^(2)=(a^(2))/(2)$、$b^(2)=a^(2)-c^(2)=(a^(2))/(2)$. 由椭圆定义，$A F_(1)+A F_(2)=2 a$，$B F_(1)+B F_(2)=2 a$. 又因 $F_(1)$ 在线段 $A B$ 上，$A B=A F_(1)+B F_(1)$，故
+设椭圆的长半轴、短半轴、半焦距分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，则 #mi(`e=\frac{c}{a}=\frac{\sqrt{2}}{2}`)，从而 #mi(`c^{2}=\frac{a^{2}}{2}`)、#mi(`b^{2}=a^{2}-c^{2}=\frac{a^{2}}{2}`). 由椭圆定义，#mi(`AF_{1}+AF_{2}=2a`)，#mi(`BF_{1}+BF_{2}=2a`). 又因 #mi(`F_{1}`) 在线段 #mi(`AB`) 上，#mi(`AB=AF_{1}+BF_{1}`)，故
 
-$ A B+A F_(2)+B F_(2)=4 a=16 $
 
-得 $a=4$，$b^(2)=8$. 所以椭圆方程为
+#align(center)[#mitex(`
+AB+AF_{2}+BF_{2}=4a=16
+`)]
 
-$ (x^(2))/(16)+\f r a c{y^(2)}8=1 $
+
+得 #mi(`a=4`)，#mi(`b^{2}=8`). 所以椭圆方程为
+
+
+#align(center)[#mitex(`
+\frac{x^{2}}{16}+\frac{y^{2}}{8}=1
+`)]
 ]
 
 #problem(15)[
-已知矩形 $A B C D$ 的顶点都在半径为 $4$ 的球 $O$ 的球面上，且 $A B = 6$，$B C = 2 sqrt(3)$，则棱锥 $O - A B C D$ 的体积为#blank(){}.
+已知矩形 #mi(`ABCD`) 的顶点都在半径为 #mi(`4`) 的球 #mi(`O`) 的球面上，且 #mi(`AB = 6`)，#mi(`BC = 2\sqrt{3}`)，则棱锥 #mi(`O - ABCD`) 的体积为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$8 sqrt(3)$])
+#answer([#mi(`8\sqrt{3}`)])
 
 #solution[
-矩形四个顶点共圆于其所在平面，矩形中心记为 $H$. 由于球心 $O$ 到四个顶点等距，$O$ 在矩形平面上的投影为其外接圆圆心 $H$，故 $O H$ 垂直于底面. 球心到各顶点的距离为 $4$，而
+矩形四个顶点共圆于其所在平面，矩形中心记为 #mi(`H`). 由于球心 #mi(`O`) 到四个顶点等距，#mi(`O`) 在矩形平面上的投影为其外接圆圆心 #mi(`H`)，故 #mi(`OH`) 垂直于底面. 球心到各顶点的距离为 #mi(`4`)，而
 
-$ A H=(1)/(2)sqrt(A B^(2)+B C^(2))=(1)/(2)sqrt(36+12)=2 sqrt(3) $
 
-在直角三角形 $O H A$ 中，棱锥的高为
+#align(center)[#mitex(`
+AH=\frac{1}{2}\sqrt{AB^{2}+BC^{2}}=\frac{1}{2}\sqrt{36+12}=2\sqrt{3}
+`)]
 
-$ O H=sqrt(O A^(2)-A H^(2))=sqrt(16-12)=2 $
 
-底面面积为 $6 dot 2 sqrt(3)=12 sqrt(3)$，故体积
+在直角三角形 #mi(`OHA`) 中，棱锥的高为
 
-$ V=(1)/(3) dot 12 sqrt(3) dot 2 =8 sqrt(3) $
+
+#align(center)[#mitex(`
+OH=\sqrt{OA^{2}-AH^{2}}=\sqrt{16-12}=2
+`)]
+
+
+底面面积为 #mi(`6\cdot2\sqrt{3}=12\sqrt{3}`)，故体积
+
+
+#align(center)[#mitex(`
+V=\frac{1}{3}\cdot12\sqrt{3}\cdot2=8\sqrt{3}
+`)]
 ]
 
 #problem(16)[
-在 $triangle A B C$ 中，$B = 60^( degree )$，$A C = sqrt(3)$，则 $A B + 2 B C$ 的最大值为#blank(){}.
+在 #mi(`\triangle ABC`) 中，#mi(`B = 60^{\circ}`)，#mi(`AC = \sqrt{3}`)，则 #mi(`AB + 2BC`) 的最大值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2 sqrt(7)$])
+#answer([#mi(`2\sqrt{7}`)])
 
 #solution[
-设 $B C=a$、$A B=c$. 由余弦定理及 $B=60^( degree )$、$A C=sqrt(3)$，有
+设 #mi(`BC=a`)、#mi(`AB=c`). 由余弦定理及 #mi(`B=60^{\circ}`)、#mi(`AC=\sqrt{3}`)，有
 
-$ 3=a^(2)+c^(2)-2 a c cos 60 ""^( degree )=a^(2)+c^(2)-a c $
+
+#align(center)[#mitex(`
+3=a^{2}+c^{2}-2ac\cos60^{\circ}=a^{2}+c^{2}-ac
+`)]
+
 
 利用恒等式
 
-$ (28)/(3)(a^(2)+c^(2)-a c)-(2 a+c)^(2)=\f r a c{(4 a-5 c)^(2)}3 >= 0 $
 
-可得 $2 a+c <= 2 sqrt(7)$. 当 $4 a=5 c$ 时取等号，且正数 $a=(5)/(sqrt(7))$，$c=(4)/(sqrt(7))$ 满足上面的余弦定理条件，故最大值为 $2 sqrt(7)$.
+#align(center)[#mitex(`
+\frac{28}{3}(a^{2}+c^{2}-ac)-(2a+c)^{2}=\frac{(4a-5c)^{2}}{3}\geqslant0
+`)]
+
+
+可得 #mi(`2a+c\leqslant2\sqrt{7}`). 当 #mi(`4a=5c`) 时取等号，且正数 #mi(`a=\frac{5}{\sqrt{7}}`)，#mi(`c=\frac{4}{\sqrt{7}}`) 满足上面的余弦定理条件，故最大值为 #mi(`2\sqrt{7}`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-等比数列 $\{a_(n)\}$ 的各项均为正数，且 $2 a_(1) + 3 a_(2) = 1$，$a_(3)^(2) = 9 a_(2)a_(6)$.
+等比数列 #mi(`\{a_{n}\}`) 的各项均为正数，且 #mi(`2a_{1}+ 3a_{2}= 1`)，#mi(`a_{3}^{2}= 9a_{2}a_{6}`).
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 设 $b_(n) = log _(3)a_(1) + log _(3)a_(2) + dots.c + log _(3)a_(n)$，求数列 $\{(1)/(b_(n))\}$ 的前 $n$ 项和.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设等比数列的公比为 $q>0$. 由 $a_(3)^(2)=a_(1)^(2)q^(4)$，$9 a_(2)a_(6)=9 a_(1)^(2)q^(6)$
-及各项为正，得 $q^(2)=(1)/(9)$，从而 $q=(1)/(3)$. 再由
-
-$ 2 a_(1)+3 a_(2)=a_(1)(2+3 q)=1 $
-
-得 $a_(1)=(1)/(3)$，所以
-
-$ a_(n)=a_(1)q^(n-1)=(1)/(3^(n)) $
-+ (2) 由 $a_(i)=3^(-i)$，有
-
-$ b_(n)=sum_(i=1)^(n) log _(3)3^(-i) =-sum_(i=1)^(n)i=-(n(n+1))/(2) $
-
-因此
-
-$ (1)/(b_(i))=-(2)/(i(i+1))=-2((1)/(i)-(1)/(i+1)) $
-
-前 $n$ 项和为
-
-$ sum_(i=1)^(n)(1)/(b_(i))=-2(1-(1)/(n+1)) =-(2 n)/(n+1) $
++ (1)
 ]
 
 #problem(18)[
-如图，四棱锥 $P - A B C D$ 中，底面 $A B C D$ 为平行四边形，$angle D A B = 60^( degree )$，$A B = 2 A D$，$P D bot$ 底面 $A B C D$.
-
-+ (1) 证明： $P A bot B D$；
-+ (2) 若 $P D = A D$，求二面角 $A - P B - C$ 的余弦值.
+如图，四棱锥 #mi(`P - ABCD`) 中，底面 #mi(`ABCD`) 为平行四边形，#mi(`\angle DAB = 60^{\circ}`)，#mi(`AB = 2AD`)，#mi(`PD \perp`) 底面 #mi(`ABCD`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2011/img/new_curriculum_science/q18_fig1.png", width: 42%)]
+
+
+
+#align(center)[#image("/papers/2011/img/new_curriculum_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设 $A D=a$，则 $A B=2 a$. 在底面平行四边形中，
-
-$ B D^(2)=A D^(2)+A B^(2)-2 A D dot A B cos 60 ""^ degree =3 a^(2) $
-
-又 $P D bot$ 底面，故 $P D bot B D$，从而
-
-$ A B^(2)=A D^(2)+B D^(2) $
-
-得 $A D bot B D$. 因为 $P D bot$ 底面，故 $P D bot A D$；直线 $B D$ 同时垂直于平面 $P A D$ 内相交的 $A D$，$P D$，所以 $B D bot$ 平面 $P A D$，进而 $P A bot B D$.
-+ (2) 取 $A D=1$，建立以 $D$ 为原点、$D A$，$D B$，$D P$ 为三个互相垂直坐标轴的直角坐标系. 由 $B D=sqrt(3)A D$ 及 $P D=A D$，可设 $A(1,0,0)$，$B(0,sqrt(3),0)$，$C(-1,sqrt(3),0)$，$P(0,0,1)$.
-取 $P B$ 方向向量 $bold(w)=(0,sqrt(3),-1)$. 在平面 $P A B$ 内且垂直于 $P B$ 的向量可取
-
-$ bold(u)=(A-P)-((A-P)\c d o t b o l d(w))/(|bold(w)|^(2))bold(w)=(1,-(sqrt(3))/(4),-(3)/(4)) $
-
-在平面 $P B C$ 内且垂直于 $P B$ 的向量可取
-
-$ bold(v)=(C-P)-((C-P)\c d o t b o l d(w))/(|bold(w)|^(2))bold(w)=(-1,0,0) $
-
-这两个向量分别指向两半平面内的 $A$，$C$，所以它们的夹角就是二面角 $A-P B-C$. 于是 $bold(u)\c d o t b o l d(v)=-1$，$|bold(u)|=(sqrt(7))/(2)$，$|bold(v)|=1$，
-故
-
-$ cos angle (A-P B-C) =(-1)/(((sqrt(7))/(2)) dot 1)=-(2 sqrt(7))/(7) $
++ (1)
 ]
 
 #problem(19)[
-某种产品的质量以其质量指标值衡量，质量指标值越大表明质量越好，且质量指标值大于或等于 $102$ 的产品为优质品. 现用两种新配方（分别称为 A 配方和 B 配方）做试验，各生产了 $100$ 件这种产品，并测量了每件产品的质量指标值，得到了下面试验结果：
+某种产品的质量以其质量指标值衡量，质量指标值越大表明质量越好，且质量指标值大于或等于 #mi(`102`) 的产品为优质品. 现用两种新配方（分别称为 A 配方和 B 配方）做试验，各生产了 #mi(`100`) 件这种产品，并测量了每件产品的质量指标值，得到了下面试验结果：
 
-\begin{center}
 A 配方的频数分布表
 
-\begin{tabular}{c|c|c|c|c|c}
 \hline
-指标值分组 & $[90,94)$ & $[94,98)$ & $[98,102)$ & $[102,106)$ & $[106,110]$ \\
+
+指标值分组 & #mi(`\left[90,94\right)`) & #mi(`\left[94,98\right)`) & #mi(`\left[98,102\right)`) & #mi(`\left[102,106\right)`) & #mi(`\left[106,110\right]`) \\
+
 \hline
-频数 & $8$ & $20$ & $42$ & $22$ & $8$ \\
+
+频数 & #mi(`8`) & #mi(`20`) & #mi(`42`) & #mi(`22`) & #mi(`8`) \\
+
 \hline
-\end{tabular}
 
 B 配方的频数分布表
 
-\begin{tabular}{c|c|c|c|c|c}
 \hline
-指标值分组 & $[90,94)$ & $[94,98)$ & $[98,102)$ & $[102,106)$ & $[106,110]$ \\
+
+指标值分组 & #mi(`\left[90,94\right)`) & #mi(`\left[94,98\right)`) & #mi(`\left[98,102\right)`) & #mi(`\left[102,106\right)`) & #mi(`\left[106,110\right]`) \\
+
 \hline
-频数 & $4$ & $12$ & $42$ & $32$ & $10$ \\
+
+频数 & #mi(`4`) & #mi(`12`) & #mi(`42`) & #mi(`32`) & #mi(`10`) \\
+
 \hline
-\end{tabular}
-\end{center}
 
 
-+ (1) 分别估计用 A 配方，B 配方生产的产品的优质品率；
-+ (2) 已知用 B 配方生产一件产品的利润 $y$（单位：元）与其质量指标值 $t$ 的关系式为 $y = \b e g i n{c a s e s} -2, & t < 94,\\ 2, & 94 <= t < 102,\\ 4, & t >= 102 . \e n d{c a s e s}$ 从用 B 配方生产的产品中任取一件，其利润记为 $X$（单位：元），求 $X$ 的分布列及数学期望. （以实验结果中质量指标值落入各组的频率作为一件产品的质量指标值落入相应组的概率）.
++ (1)
 ]
 
 #solution[
-+ (1) 优质品的指标值满足 $t >= 102$. 因此 A 配方的优质品数为 $22+8=30$，B 配方的优质品数为 $32+10=42$，相应的优质品率分别为 $(30)/(100)=0.30$，$(42)/(100)=0.42$.
-+ (2) 按 B 配方的频数表及利润分段，随机变量 $X$ 的分布列为
-\begin{center}
-\begin{tabular}{c|c|c|c}
-\hline
-$X$ & $-2$ & $2$ & $4$\\
-\hline
-$P$ & $(4)/(100)$ & $(12+42)/(100)$ & $(32+10)/(100)$\\
-\hline
-\end{tabular}
-\end{center}
-即 $P(X=-2)=0.04$，$P(X=2)=0.54$，$P(X=4)=0.42$.
-所以 $E(X)=(-2) times 0 .04+2 times 0 .54+4 times 0 .42=2.68$.
++ (1)
 ]
 
 #problem(20)[
-在平面直角坐标系 $x O y$ 中，已知点 $A(0, -1)$，$B$ 点在直线 $y = -3$ 上，$M$ 点满足 $arrow(M B) parallel arrow(O A)$，$arrow(M A) dot arrow(A B)= arrow(M B) dot arrow(B A)$，$M$ 点的轨迹为曲线 $C$.
+在平面直角坐标系 #mi(`xOy`) 中，已知点 #mi(`A\left(0, -1\right)`)，#mi(`B`) 点在直线 #mi(`y = -3`) 上，#mi(`M`) 点满足 #mi(`\overrightarrow{MB}\parallel \overrightarrow{OA}`)，#mi(`\overrightarrow{MA}\cdot \overrightarrow{AB}= \overrightarrow{MB}\cdot \overrightarrow{BA}`)，#mi(`M`) 点的轨迹为曲线 #mi(`C`).
 
-+ (1) 求 $C$ 的方程；
-+ (2) $P$ 为 $C$ 上的动点，$l$ 为 $C$ 在 $P$ 点处的切线，求 $O$ 点到 $l$ 距离的最小值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设 $M(x,y)$. 由 $arrow(M B)\p a r a l l e l a r r o w(O A)$ 且 $B$ 在 $y=-3$ 上，得 $B=(x,-3)$. 于是 $arrow(M A)=(-x,-1-y)$，$arrow(A B)=(x,-2)$，$arrow(M B)=(0,-3-y)$，$arrow(B A)=(-x,2)$.
-代入数量积条件，得
-
-$ (-x,-1-y) dot (x,-2)=(0,-3-y) dot (-x,2) $
-
-即
-
-$ -x^(2)+2+2 y=-6-2 y $
-
-所以曲线 $C$ 的方程为
-
-$ y=\f r a c{x^(2)}4-2 $
-+ (2) 设切点为 $P(x_(0),y_(0))$，则 $y_(0)=(x_(0)^(2))/(4)-2$，切线斜率为 $(x_(0))/(2)$，切线方程化为
-
-$ x_(0)x-2 y-\f r a c{x_(0)^(2)}2-4=0 $
-
-故原点到该切线的距离为
-
-$ d=(\f r a c{x_(0)^(2)}2+4)/(sqrt(x_(0)^(2)+4))=(1)/(2)(sqrt(x_(0)^(2)+4)+(4)/(sqrt(x_(0)^(2)+4))) $
-
-令 $u=sqrt(x_(0)^(2)+4) >= 2$，由基本不等式
-
-$ u+(4)/(u) >= 4 $
-
-得 $d >= 2$，且 $x_(0)=0$ 时取等号. 因此最小值为 $2$.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = a (ln x)/(x + 1)+ (b)/(x)$，曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $x + 2 y - 3 = 0$.
+已知函数 #mi(`f(x) = a \frac{\ln x}{x + 1}+ \frac{b}{x}`)，曲线 #mi(`y = f(x)`) 在点 #mi(`\left(1, f(1)\right)`) 处的切线方程为 #mi(`x + 2y - 3 = 0`).
 
-+ (1) 求 $a$，$b$ 的值；
-+ (2) 如果当 $x > 0$，且 $x != 1$ 时，$f(x) > (ln x)/(x - 1)+ (k)/(x)$，求 $k$ 的取值范围.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由切线方程 $x+2 y-3=0$，得切点纵坐标 $f(1)=1$，而
-
-$ f(1)=b $
-
-故 $b=1$. 又
-
-$ f'(x)=a(((x+1))/(x)- ln x)/((x+1)^(2))-(b)/(x^(2)) $
-
-所以 $f'(1)=(a)/(2)-b$. 切线斜率为 $-(1)/(2)$，从而
-
-$ (a)/(2)-1=-(1)/(2) $
-
-得 $a=1$.
-+ (2) 代入 $a=b=1$，记差值为
-
-$ D(x)=f(x)-((ln x)/(x-1)+(k)/(x)) =(1-k)/(x)-(2 ln x)/(x^(2)-1) $
-
-先取 $k=0$，有
-
-$ D_(0)(x)=(x^(2)-1-2 x ln x)/(x(x^(2)-1)) $
-
-当 $x>1$ 时，令 $phi (x)=x-x^(-1)-2 ln x$，则 $phi (1)=0$，$phi '(x)=((x-1)^(2))/(x^(2))>0$，
-故 $x^(2)-1-2 x ln x=x phi (x)>0$，从而 $D_(0)(x)>0$. 当 $0<x<1$ 时，令 $psi (x)=1-x^(2)+2 x ln x$，则
-$psi (1)=0$，$psi '(x)=2(1-x+ ln x)<0$.
-其中用了 $ln x<x-1$. 所以 $x<1$ 时 $psi (x)>0$，即分子 $x^(2)-1-2 x ln x=- psi (x)<0$，分母也小于零，仍有 $D_(0)(x)>0$.
-
-若 $k <= 0$，则
-
-$ D(x)=D_(0)(x)-(k)/(x)>0 $
-
-反之，若 $k>0$，则 $lim_(x -> 1 )D(x)=-k<0$，故在 $1$ 附近不可能恒有 $D(x)>0$. 因此
-
-$ k in (- oo ,0] $
++ (1)
 ]
 
 #problem(22)[
-如图，$D$，$E$ 分别为 $triangle A B C$ 的边 $A B$，$A C$ 上的点，且不与 $triangle A B C$ 的顶点重合. 已知 $A E$ 的长为 $m$，$A C$ 的长为 $n$，$A D$，$A B$ 的长是关于 $x$ 的方程 $x^(2) - 14 x + m n = 0$ 的两个根.
-
-+ (1) 证明： $C$，$B$，$D$，$E$ 四点共圆；
-+ (2) 若 $angle A = 90^( degree )$，且 $m = 4$，$n = 6$，求 $C$，$B$，$D$，$E$ 所在圆的半径.
+如图，#mi(`D`)，#mi(`E`) 分别为 #mi(`\triangle ABC`) 的边 #mi(`AB`)，#mi(`AC`) 上的点，且不与 #mi(`\triangle ABC`) 的顶点重合. 已知 #mi(`AE`) 的长为 #mi(`m`)，#mi(`AC`) 的长为 #mi(`n`)，#mi(`AD`)，#mi(`AB`) 的长是关于 #mi(`x`) 的方程 #mi(`x^{2}- 14x + mn = 0`) 的两个根.
 
 
++ (1) 
 
-#align(center)[#image("/papers/2011/img/new_curriculum_science/q22_fig1.png", width: 38%)]
+
+
+
+#align(center)[#image("/papers/2011/img/new_curriculum_science/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 因为 $A D$，$A B$ 是方程 $x^(2)-14 x+m n=0$ 的两根，所以
-
-$ A D dot A B=m n=A E dot A C $
-
-于是
-
-$ (A D)/(A C)=(A E)/(A B) $
-
-又 $angle D A E= angle C A B$，故 $triangle A D E tilde triangle A C B$，从而
-
-$ angle A D E= angle A C B $
-
-由于 $A$，$D$，$B$ 共线且 $A$，$E$，$C$ 共线，$angle B D E=180^ degree - angle A D E$，$angle B C E= angle A C B$，所以
-
-$ angle B D E+ angle B C E=180^ degree $
-
-故 $C$，$B$，$D$，$E$ 四点共圆.
-+ (2) 当 $m=4$，$n=6$ 时，方程为
-
-$ x^(2)-14 x+24=0 $
-
-其两根为 $2,12$. 因此 $A D=2$，$A B=12$. 取 $A(0,0)$，$B(12,0)$，$C(0,6)$，$D(2,0)$，$E(0,4)$.
-设所求圆方程为 $x^(2)+y^(2)+u x+v y+w=0$. 代入 $B$，$D$，$C$，分别得
-
-$ \b e g i n{c a s e s} 144+12 u+w=0,\\ 4+2 u+w=0,\\ 36+6 v+w=0 \e n d{c a s e s} $
-
-解得 $u=-14$，$v=-10$，$w=24$，所以圆方程为
-
-$ x^(2)+y^(2)-14 x-10 y+24=0 $
-
-或
-
-$ (x-7)^(2)+(y-5)^(2)=50 $
-
-故半径为 $5 sqrt(2)$.
++ (1)
 ]
 
 #problem(23)[
-在直角坐标系 $x O y$ 中，曲线 $C_1$ 的参数方程为 $\b e g i n{c a s e s} x = 2 cos alpha ,\\ y = 2 + 2 sin alpha , \e n d{c a s e s}$（$alpha$ 为参数），$M$ 是 $C_1$ 上的动点，$P$ 点满足 $arrow(O P)= 2 arrow(O M)$，$P$ 点的轨迹为曲线 $C_2$.
+在直角坐标系 #mi(`xOy`) 中，曲线 #mi(`C_{1}`) 的参数方程为 #mi(`\begin{cases}x = 2\cos \alpha,\\
 
-+ (1) 求 $C_2$ 的方程；
-+ (2) 在以 $O$ 为极点，$x$ 轴的正半轴为极轴的极坐标系中，射线 $theta = (pi)/(3)$ 与 $C_1$ 的异于极点的交点为 $A$，与 $C_2$ 的异于极点的交点为 $B$，求 $|A B|$.
+y = 2 + 2\sin \alpha,\end{cases}`)（#mi(`\alpha`) 为参数），#mi(`M`) 是 #mi(`C_{1}`) 上的动点，#mi(`P`) 点满足 #mi(`\overrightarrow{OP}= 2\overrightarrow{OM}`)，#mi(`P`) 点的轨迹为曲线 #mi(`C_{2}`).
+
+
++ (1)
 ]
 
 #solution[
-+ (1) 由 $arrow(O P)=2 arrow(O M)$，若 $M=(x_M,y_M)$、$P=(x,y)$，则 $x=2 x_M$，$y=2 y_M$. 因此
-
-$ ((x)/(2))^(2)+((y)/(2)-2)^(2)=4 $
-
-即
-
-$ C_(2):x^(2)+(y-4)^(2)=16 $
-+ (2) 对 $C_(1)$ 使用极坐标关系 $x=r cos theta$，$y=r sin theta$，得
-
-$ r^(2) cos ""^(2) theta +(r sin theta -2)^(2)=4 $
-
-整理为
-
-$ r^(2)-4 r sin theta =0 $
-
-即 $r(r-4 sin theta )=0$. 异于极点的交点取 $r\n e q0$，所以在 $theta =(pi)/(3)$ 上
-
-$ r_(A)=4 sin (pi)/(3)=2 sqrt(3) $
-
-将 $C_(2):x^(2)+(y-4)^(2)=16$ 化为极坐标方程，得
-
-$ r^(2) cos ""^(2) theta +(r sin theta -4)^(2)=16 $
-
-整理为
-
-$ r^(2)-8 r sin theta =0 $
-
-即 $r(r-8 sin theta )=0$. 同样取异于极点的交点，故
-
-$ r_(B)=8 sin (pi)/(3)=4 sqrt(3) $
-
-两点在同一射线上，所以
-
-$ |A B|=r_(B)-r_(A)=2 sqrt(3) $
++ (1)
 ]
 
 #problem(24)[
-设函数 $f(x)=|x-a|+3 x$，其中 $a>0$.
+设函数 #mi(`f(x)=|x-a|+3x`)，其中 #mi(`a>0`).
 
-+ (1) 当 $a=1$ 时，求不等式 $f(x) >= 3 x+2$ 的解集；
-+ (2) 若不等式 $f(x) <= 0$ 的解集为 $\{x | x <= -1\}$，求 $a$ 的值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a=1$ 时，分两段讨论：
-
-$ f(x)=|x-1|+3 x= \b e g i n{c a s e s} 1+2 x,&x<1,\\ 4 x-1,&x >= 1 . \e n d{c a s e s} $
-
-故当 $x<1$ 时，$f(x) >= 3 x+2$ 等价于 $1+2 x >= 3 x+2$，即 $x <= -1$；当 $x >= 1$ 时，$4 x-1 >= 3 x+2$，即 $x >= 3$. 解集为
-
-$ (- oo ,-1] union [3,+ oo ) $
-+ (2) 对任意 $a>0$，当 $x >= a$ 时，
-
-$ f(x)=4 x-a>0 $
-
-不满足 $f(x) <= 0$；当 $x<a$ 时，
-
-$ f(x)=a+2 x $
-
-故 $f(x) <= 0$ 等价于 $x <= -(a)/(2)$. 所以不等式解集为 $(- oo ,-(a)/(2)]$. 与题设的 $(- oo ,-1]$ 比较，得
-$-(a)/(2)=-1$，$a=2$
++ (1)
 ]
 

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,19 +11,19 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $A=\{x | x<2\}$，$B=\{x | 3-2 x>0\}$，则（ ）
-  #choices([$A inter B=\{x | x<(3)/(2)\}$], [$A inter B= emptyset$], [$A union B=\{x | x<(3)/(2)\}$], [$A union B= RR$], cols: 2)
+已知集合 #mi(`A=\{x\mid x<2\}`)，#mi(`B=\{x\mid 3-2x>0\}`)，则（ ）
+  #choices([#mi(`A\cap B=\{x\mid x<\dfrac{3}{2}\}`)], [#mi(`A\cap B=\varnothing`)], [#mi(`A\cup B=\{x\mid x<\dfrac{3}{2}\}`)], [#mi(`A\cup B=\mathbb{R}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-由 $3-2 x>0$ 得 $x<(3)/(2)$，故 $B=\{x | x<(3)/(2)\}$.由于 $B subset A=\{x | x<2\}$，所以 $A inter B=B=\{x | x<(3)/(2)\}$，而 $A union B=A$.因此选 A.
+由 #mi(`3-2x>0`) 得 #mi(`x<\dfrac{3}{2}`)，故 #mi(`B=\left\{x\mid x<\dfrac{3}{2}\right\}`) .由于 #mi(`B\subset A=\{x\mid x<2\}`)，所以 #mi(`A\cap B=B=\left\{x\mid x<\dfrac{3}{2}\right\}`)，而 #mi(`A\cup B=A`) .因此选 A.
 ]
 
 #problem(2)[
-为评估一种农作物的种植效果，选了 $n$ 块地作试验田. 这 $n$ 块地的亩产量（单位：$k g$）分别是 $x_1$，$x_2$，$...$，$x_n$，下面给出的指标中可以用来评估这种农作物亩产量稳定程度的是（ ）
-  #choices([$x_1$，$x_2$，$...$，$x_n$ 的平均数], [$x_1$，$x_2$，$...$，$x_n$ 的标准差], [$x_1$，$x_2$，$...$，$x_n$ 的最大值], [$x_1$，$x_2$，$...$，$x_n$ 的中位数], cols: 2)
+为评估一种农作物的种植效果，选了 #mi(`n`) 块地作试验田. 这 #mi(`n`) 块地的亩产量（单位：#mi(`\mathrm{kg}`)）分别是 #mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\dots`)，#mi(`x_{n}`)，下面给出的指标中可以用来评估这种农作物亩产量稳定程度的是（ ）
+  #choices([#mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\dots`)，#mi(`x_{n}`) 的平均数], [#mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\dots`)，#mi(`x_{n}`) 的标准差], [#mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\dots`)，#mi(`x_{n}`) 的最大值], [#mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\dots`)，#mi(`x_{n}`) 的中位数], cols: 1)
 ]
 
 #answer([B])
@@ -34,363 +34,309 @@
 
 #problem(3)[
 下列各式的运算结果为纯虚数的是（ ）
-  #choices([$i (1+ i )^2$], [$i ""^2(1- i )$], [$(1+ i )^2$], [$i (1+ i )$], cols: 4)
+  #choices([#mi(`\mathrm{i}(1+\mathrm{i})^{2}`)], [#mi(`\mathrm{i}^{2}(1-\mathrm{i})`)], [#mi(`(1+\mathrm{i})^{2}`)], [#mi(`\mathrm{i}(1+\mathrm{i})`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-利用 $i ""^2=-1$ 逐项计算：$i (1+ i )^2= i dot 2 i =-2$，不是虚数；$i ""^2(1- i )=-1+ i$，实部不为 $0$；$(1+ i )^2=2 i$，是非零纯虚数；$i (1+ i )=-1+ i$，实部不为 $0$.因此选 C.
+利用 #mi(`\mathrm{i}^{2}=-1`) 逐项计算：#mi(`\mathrm{i}(1+\mathrm{i})^{2}=\mathrm{i}\cdot2\mathrm{i}=-2`)，不是虚数；#mi(`\mathrm{i}^{2}(1-\mathrm{i})=-1+\mathrm{i}`)，实部不为 #mi(`0`)；#mi(`(1+\mathrm{i})^{2}=2\mathrm{i}`)，是非零纯虚数；#mi(`\mathrm{i}(1+\mathrm{i})=-1+\mathrm{i}`)，实部不为 #mi(`0`) .因此选 C.
 ]
 
 #problem(4)[
-如图，正方形 $A B C D$ 内的图形来自中国古代的太极图. 正方形内切圆中的黑色部分和白色部分关于正方形的中心成中心对称. 在正方形内随机取一点，则此点取自黑色部分的概率是（ ）
+如图，正方形 #mi(`ABCD`) 内的图形来自中国古代的太极图. 正方形内切圆中的黑色部分和白色部分关于正方形的中心成中心对称. 在正方形内随机取一点，则此点取自黑色部分的概率是（ ）
 
 
-#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q4_fig1.png", width: 6.0cm)]
-  #choices([$(1)/(4)$], [$(pi)/(8)$], [$(1)/(2)$], [$(pi)/(4)$], cols: 4)
+#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q4_fig1.png", width: 28%)]
+
+  #choices([#mi(`\dfrac{1}{4}`)], [#mi(`\dfrac{\pi}{8}`)], [#mi(`\dfrac{1}{2}`)], [#mi(`\dfrac{\pi}{4}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-设正方形内切圆半径为 $r$，则正方形面积为 $4 r^2$，内切圆面积为 $pi r^2$.黑、白两部分关于正方形中心中心对称，面积相等，所以黑色部分面积为内切圆面积的一半，即 $(1)/(2) pi r^2$.随机取点落在黑色部分的概率为 $((1)/(2) pi r^2)/(4 r^2)=(pi)/(8)$.因此选 B.
+设正方形内切圆半径为 #mi(`r`)，则正方形面积为 #mi(`4r^{2}`)，内切圆面积为 #mi(`\pi r^{2}`) .黑、白两部分关于正方形中心中心对称，面积相等，所以黑色部分面积为内切圆面积的一半，即 #mi(`\dfrac{1}{2}\pi r^{2}`) .随机取点落在黑色部分的概率为 #mi(`\dfrac{\frac{1}{2}\pi r^2}{4r^2}=\dfrac{\pi}{8}`) .因此选 B.
 ]
 
 #problem(5)[
-已知 $F$ 是双曲线 $C:x^2-(y^2)/(3)=1$ 的右焦点，$P$ 是 $C$ 上一点，且 $P F$ 与 $x$ 轴垂直，点 $A$ 的坐标是 $(1,3)$，则 $triangle A P F$ 的面积为（ ）
-  #choices([$(1)/(3)$], [$(1)/(2)$], [$(2)/(3)$], [$(3)/(2)$], cols: 4)
+已知 #mi(`F`) 是双曲线 #mi(`C:x^{2}-\dfrac{y^2}{3}=1`) 的右焦点，#mi(`P`) 是 #mi(`C`) 上一点，且 #mi(`PF`) 与 #mi(`x`) 轴垂直，点 #mi(`A`) 的坐标是 #mi(`(1,3)`)，则 #mi(`\triangle APF`) 的面积为（ ）
+  #choices([#mi(`\dfrac{1}{3}`)], [#mi(`\dfrac{1}{2}`)], [#mi(`\dfrac{2}{3}`)], [#mi(`\dfrac{3}{2}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-双曲线可写为 $(x^2)/(1^2)-(y^2)/((sqrt(3))^2)=1$，故 $a=1$，$b=sqrt(3)$，焦距参数满足 $c=sqrt(a^2+b^2)=2$，右焦点为 $F=(2,0)$.因为 $P F$ 与 $x$ 轴垂直，所以 $P$ 的横坐标为 $2$.代入双曲线方程得 $4-(y_P^2)/(3)=1$，即 $y_P= +- 3$.于是 $P F=3$，点 $A=(1,3)$ 到直线 $P F$（即 $x=2$）的距离为 $1$，从而 $S_( triangle A P F)=(1)/(2) dot 3 dot 1 =(3)/(2)$.因此选 D.
+双曲线可写为 #mi(`\dfrac{x^2}{1^2}-\dfrac{y^2}{(\sqrt{3})^2}=1`)，故 #mi(`a=1`)，#mi(`b=\sqrt{3}`)，焦距参数满足 #mi(`c=\sqrt{a^{2}+b^{2}}=2`)，右焦点为 #mi(`F=(2,0)`) .因为 #mi(`PF`) 与 #mi(`x`) 轴垂直，所以 #mi(`P`) 的横坐标为 #mi(`2`) .代入双曲线方程得 #mi(`4-\dfrac{y_P^2}{3}=1`)，即 #mi(`y_{P}=\pm3`) .于是 #mi(`PF=3`)，点 #mi(`A=(1,3)`) 到直线 #mi(`PF`)（即 #mi(`x=2`)）的距离为 #mi(`1`)，从而 #mi(`S_{\triangle APF}=\dfrac{1}{2}\cdot3\cdot1=\dfrac{3}{2}`) .因此选 D.
 ]
 
 #problem(6)[
-如图，在下列四个正方体中，$A$，$B$ 为正方体的两个顶点，$M$，$N$，$Q$ 为所在棱的中点，则在这四个正方体中，直线 $A B$ 与平面 $M N Q$ 不平行的是（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2017/img/national_paper_1_liberal/q6_fig1.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2017/img/national_paper_1_liberal/q6_fig2.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2017/img/national_paper_1_liberal/q6_fig3.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2017/img/national_paper_1_liberal/q6_fig4.png", height: 100%, fit: "contain")]]], cols: 2)
+如图，在下列四个正方体中，#mi(`A`)，#mi(`B`) 为正方体的两个顶点，#mi(`M`)，#mi(`N`)，#mi(`Q`) 为所在棱的中点，则在这四个正方体中，直线 #mi(`AB`) 与平面 #mi(`MNQ`) 不平行的是（ ）
+  #choices([
+#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q6_fig1.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q6_fig2.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q6_fig3.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q6_fig4.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-取正方体棱长为 $1$，建立沿三条互相垂直棱的坐标系.以选项 A 为例，可取 $A=(0,1,0)$，$B=(1,0,1)$，$M=((1)/(2),0,0)$，$N=(0,0,(1)/(2))$，$Q=(0,(1)/(2),0)$.于是平面 $M N Q$ 的方程为 $x+y+z=(1)/(2)$，而 $arrow(A B)=(1,-1,1)$，法向量可取 $n=(1,1,1)$，故 $arrow(A B) dot n=1 != 0$，直线 $A B$ 不平行于平面 $M N Q$.
+取正方体棱长为 #mi(`1`)，建立沿三条互相垂直棱的坐标系.以选项 A 为例，可取 #mi(`A=(0,1,0)`)，#mi(`B=(1,0,1)`)，#mi(`M=(\frac{1}{2},0,0)`)，#mi(`N=(0,0,\frac{1}{2})`)，#mi(`Q=(0,\frac{1}{2},0)`) .于是平面 #mi(`MNQ`) 的方程为 #mi(`x+y+z=\frac{1}{2}`)，而 #mi(`\overrightarrow{AB}=(1,-1,1)`)，法向量可取 #mi(`n=(1,1,1)`)，故 #mi(`\overrightarrow{AB}\cdot n=1\ne0`)，直线 #mi(`AB`) 不平行于平面 #mi(`MNQ`).
 
-对其余三个图形按同样方法取坐标.选项 B 可取 $A=(0,1,0)$、$B=(1,1,1)$、$M=((1)/(2),0,0)$、$N=((1)/(2),1,0)$、$Q=(1,0,(1)/(2))$.此时平面 $M N Q$ 的方程为 $x-z=(1)/(2)$，$arrow(A B)=(1,0,1)$，法向量可取 $(1,0,-1)$，数量积为 $0$，且点 $A$ 不在该平面内，所以 $A B parallel M N Q$.选项 C 可取 $A=(0,1,0)$、$B=(0,0,1)$、$M=(1,(1)/(2),0)$、$N=(0,0,(1)/(2))$、$Q=(1,0,(1)/(2))$.此时平面 $M N Q$ 的方程为 $y+z=(1)/(2)$，$arrow(A B)=(0,-1,1)$，法向量可取 $(0,1,1)$，数量积为 $0$，且点 $A$ 不在该平面内，所以 $A B parallel M N Q$.选项 D 可取 $A=(0,1,1)$、$B=(1,0,1)$、$M=(0,(1)/(2),1)$、$N=((1)/(2),1,0)$、$Q=(1,(1)/(2),0)$.此时平面 $M N Q$ 的方程为 $x+y+z=(3)/(2)$，$arrow(A B)=(1,-1,0)$，法向量可取 $(1,1,1)$，数量积为 $0$，且点 $A$ 不在该平面内，所以 $A B parallel M N Q$.故不平行的只有选项 A.
+对其余三个图形按同样方法取坐标.选项 B 可取 #mi(`A=(0,1,0)`)、#mi(`B=(1,1,1)`)、#mi(`M=(\frac{1}{2},0,0)`)、#mi(`N=(\frac{1}{2},1,0)`)、#mi(`Q=(1,0,\frac{1}{2})`) .此时平面 #mi(`MNQ`) 的方程为 #mi(`x-z=\frac{1}{2}`)，#mi(`\overrightarrow{AB}=(1,0,1)`)，法向量可取 #mi(`(1,0,-1)`)，数量积为 #mi(`0`)，且点 #mi(`A`) 不在该平面内，所以 #mi(`AB\parallel MNQ`) .选项 C 可取 #mi(`A=(0,1,0)`)、#mi(`B=(0,0,1)`)、#mi(`M=(1,\frac{1}{2},0)`)、#mi(`N=(0,0,\frac{1}{2})`)、#mi(`Q=(1,0,\frac{1}{2})`) .此时平面 #mi(`MNQ`) 的方程为 #mi(`y+z=\frac{1}{2}`)，#mi(`\overrightarrow{AB}=(0,-1,1)`)，法向量可取 #mi(`(0,1,1)`)，数量积为 #mi(`0`)，且点 #mi(`A`) 不在该平面内，所以 #mi(`AB\parallel MNQ`) .选项 D 可取 #mi(`A=(0,1,1)`)、#mi(`B=(1,0,1)`)、#mi(`M=(0,\frac{1}{2},1)`)、#mi(`N=(\frac{1}{2},1,0)`)、#mi(`Q=(1,\frac{1}{2},0)`) .此时平面 #mi(`MNQ`) 的方程为 #mi(`x+y+z=\frac{3}{2}`)，#mi(`\overrightarrow{AB}=(1,-1,0)`)，法向量可取 #mi(`(1,1,1)`)，数量积为 #mi(`0`)，且点 #mi(`A`) 不在该平面内，所以 #mi(`AB\parallel MNQ`) .故不平行的只有选项 A.
 ]
 
 #problem(7)[
-设 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} x+3 y <= 3 ,\\ x-y >= 1 ,\\ y >= 0 \e n d{c a s e s}$，则 $z=x+y$ 的最大值为（ ）
-  #choices([$0$], [$1$], [$2$], [$3$], cols: 4)
+设 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}x+3y\le 3,\\  x-y\ge 1,\\  y\ge 0\end{cases}`)，则 #mi(`z=x+y`) 的最大值为（ ）
+  #choices([#mi(`0`)], [#mi(`1`)], [#mi(`2`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-由 $y >= 0$，并将两条边界直线联立，约束区域的顶点为 $(1,0)$、$(3,0)$ 和 $((3)/(2),(1)/(2))$：其中 $y=0$ 时 $1 <= x <= 3$，而 $x+3 y=3$ 与 $x-y=1$ 的交点为 $((3)/(2),(1)/(2))$.在三个顶点处计算 $z=x+y$，分别得 $1$、$3$、$2$，所以最大值为 $3$.因此选 D.
+由 #mi(`y\ge0`)，并将两条边界直线联立，约束区域的顶点为 #mi(`(1,0)`)、#mi(`(3,0)`) 和 #mi(`\left(\frac{3}{2},\frac{1}{2}\right)`)：其中 #mi(`y=0`) 时 #mi(`1\le x\le3`)，而 #mi(`x+3y=3`) 与 #mi(`x-y=1`) 的交点为 #mi(`\left(\frac{3}{2},\frac{1}{2}\right)`) .在三个顶点处计算 #mi(`z=x+y`)，分别得 #mi(`1`)、#mi(`3`)、#mi(`2`)，所以最大值为 #mi(`3`) .因此选 D.
 ]
 
 #problem(8)[
-函数 $y=(sin 2 x)/(1- cos x)$ 的部分图象大致为（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2017/img/national_paper_1_liberal/q8_fig1.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2017/img/national_paper_1_liberal/q8_fig2.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2017/img/national_paper_1_liberal/q8_fig3.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2017/img/national_paper_1_liberal/q8_fig4.png", height: 100%, fit: "contain")]]], cols: 2)
+函数 #mi(`y=\dfrac{\sin 2x}{1-\cos x}`) 的部分图象大致为（ ）
+  #choices([
+#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q8_fig1.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q8_fig2.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q8_fig3.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q8_fig4.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-函数定义域为 $x != 2 k pi$，因为 $1- cos x=0$ 当且仅当 $x=2 k pi$.在定义域内 $y=(2 sin x cos x)/(2 sin ""^2(x)/(2))=2 cot (x)/(2) cos x$.特别地，$x -> 0 ""^+$ 时 $y -> + oo$，$x -> 0 ""^-$ 时 $y -> - oo$；又 $x=(pi)/(2)$、$x= pi$ 时函数值为 $0$，并且在 $(0,(pi)/(2))$ 上为正、在 $((pi)/(2), pi )$ 上为负.与四个图象的渐近线、零点和正负变化相比较，只有选项 C 符合.因此选 C.
+函数定义域为 #mi(`x\ne2k\pi`)，因为 #mi(`1-\cos x=0`) 当且仅当 #mi(`x=2k\pi`) .在定义域内 #mi(`y=\dfrac{2\sin x\cos x}{2\sin^2\frac{x}{2}}=2\cot\frac{x}{2}\cos x`) .特别地，#mi(`x\to0^{+}`) 时 #mi(`y\to+\infty`)，#mi(`x\to0^{-}`) 时 #mi(`y\to-\infty`)；又 #mi(`x=\dfrac\pi2`)、#mi(`x=\pi`) 时函数值为 #mi(`0`)，并且在 #mi(`(0,\frac{\pi}{2})`) 上为正、在 #mi(`(\frac{\pi}{2},\pi)`) 上为负.与四个图象的渐近线、零点和正负变化相比较，只有选项 C 符合.因此选 C.
 ]
 
 #problem(9)[
-已知函数 $f(x)= ln x+ ln (2-x)$，则（ ）
-  #choices([$f(x)$ 在 $(0,2)$ 单调递增], [$f(x)$ 在 $(0,2)$ 单调递减], [$y=f(x)$ 的图象关于直线 $x=1$ 对称], [$y=f(x)$ 的图象关于点 $(1,0)$ 对称], cols: 2)
+已知函数 #mi(`f(x)=\ln x+\ln(2-x)`)，则（ ）
+  #choices([#mi(`f(x)`) 在 #mi(`(0,2)`) 单调递增], [#mi(`f(x)`) 在 #mi(`(0,2)`) 单调递减], [#mi(`y=f(x)`) 的图象关于直线 #mi(`x=1`) 对称], [#mi(`y=f(x)`) 的图象关于点 #mi(`(1,0)`) 对称], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-函数定义域为 $0<x<2$，且 $f(2-x)= ln (2-x)+ ln x=f(x)$，所以图象关于直线 $x=1$ 对称.另有 $f'(x)=(1)/(x)-(1)/(2-x)=(2-2 x)/(x(2-x))$，故函数在 $(0,1)$ 上递增、在 $(1,2)$ 上递减，前两个选项均不正确；关于点 $(1,0)$ 对称需要 $f(2-x)=-f(x)$，也不成立.因此选 C.
+函数定义域为 #mi(`0<x<2`)，且 #mi(`f(2-x)=\ln(2-x)+\ln x=f(x)`)，所以图象关于直线 #mi(`x=1`) 对称.另有 #mi(`f'(x)=\dfrac{1}{x}-\dfrac1{2-x}=\dfrac{2-2x}{x(2-x)}`)，故函数在 #mi(`(0,1)`) 上递增、在 #mi(`(1,2)`) 上递减，前两个选项均不正确；关于点 #mi(`(1,0)`) 对称需要 #mi(`f(2-x)=-f(x)`)，也不成立.因此选 C.
 ]
 
 #problem(10)[
-如图程序框图是为了求出满足 $3^n-2^n>1000$ 的最小偶数 $n$，那么在 $\d i a m o n d$ 和 $\s q u a r e$ 两个空白框中，可以分别填入（ ）
+如图程序框图是为了求出满足 #mi(`3^{n}-2^{n}>1000`) 的最小偶数 #mi(`n`)，那么在 #mi(`\diamond`) 和 #mi(`\square`) 两个空白框中，可以分别填入（ ）
 
 
-#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q10_fig1.png", width: 45%)]
-  #choices([$A>1000$ 和 $n=n+1$], [$A>1000$ 和 $n=n+2$], [$A <= 1000$ 和 $n=n+1$], [$A <= 1000$ 和 $n=n+2$], cols: 2)
+#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q10_fig1.png", width: 28%)]
+
+  #choices([#mi(`A>1000`) 和 #mi(`n=n+1`)], [#mi(`A>1000`) 和 #mi(`n=n+2`)], [#mi(`A\le 1000`) 和 #mi(`n=n+1`)], [#mi(`A\le 1000`) 和 #mi(`n=n+2`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-程序先令 $n=0$，再计算 $A=3^n-2^n$，判断框的“否”分支才输出 $n$，所以只有在尚未满足不等式时才应循环，即判断条件应为 $A <= 1000$.题目要求输出最小偶数，初值 $n=0$ 为偶数，因此每次应令 $n=n+2$.故选 D.
+程序先令 #mi(`n=0`)，再计算 #mi(`A=3^{n}-2^{n}`)，判断框的“否”分支才输出 #mi(`n`)，所以只有在尚未满足不等式时才应循环，即判断条件应为 #mi(`A\le1000`) .题目要求输出最小偶数，初值 #mi(`n=0`) 为偶数，因此每次应令 #mi(`n=n+2`) .故选 D.
 ]
 
 #problem(11)[
-$triangle A B C$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $sin B+ sin A( sin C- cos C)=0$，$a=2$，$c=sqrt(2)$，则 $C=$（ ）
-  #choices([$(pi)/(12)$], [$(pi)/(6)$], [$(pi)/(4)$], [$(pi)/(3)$], cols: 4)
+#mi(`\triangle ABC`) 的内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 的对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，已知 #mi(`\sin B+\sin A(\sin C-\cos C)=0`)，#mi(`a=2`)，#mi(`c=\sqrt{2}`)，则 #mi(`C=`)（ ）
+  #choices([#mi(`\dfrac{\pi}{12}`)], [#mi(`\dfrac{\pi}{6}`)], [#mi(`\dfrac{\pi}{4}`)], [#mi(`\dfrac{\pi}{3}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由三角形内角和，$B= pi -A-C$，从而 $sin B= sin (A+C)= sin A cos C+ cos A sin C$.代入已知条件并消去相反的两项，得 $sin C( cos A+ sin A)=0$.三角形中 $0<C< pi$，故 $sin C != 0$，于是 $cos A+ sin A=0$.又 $0<A< pi$，所以 $A=(3 pi)/(4)$，进而 $0<C<(pi)/(4)$.由正弦定理，$(a)/(sin A)=(c)/(sin C)$，所以 $sin C=(c sin A)/(a)=(sqrt(2) dot (sqrt(2))/(2))/(2)=(1)/(2)$.结合 $0<C<(pi)/(4)$，得 $C=(pi)/(6)$.因此选 B.
+由三角形内角和，#mi(`B=\pi-A-C`)，从而 #mi(`\sin B=\sin(A+C)=\sin A\cos C+\cos A\sin C`) .代入已知条件并消去相反的两项，得 #mi(`\sin C(\cos A+\sin A)=0`) .三角形中 #mi(`0<C<\pi`)，故 #mi(`\sin C\ne0`)，于是 #mi(`\cos A+\sin A=0`) .又 #mi(`0<A<\pi`)，所以 #mi(`A=\dfrac{3\pi}{4}`)，进而 #mi(`0<C<\dfrac\pi4`) .由正弦定理，#mi(`\dfrac{a}{\sin A}=\dfrac{c}{\sin C}`)，所以 #mi(`\sin C=\dfrac{c\sin A}{a}=\dfrac{\sqrt{2}\cdot\frac{\sqrt{2}}{2}}{2}=\dfrac{1}{2}`) .结合 #mi(`0<C<\dfrac\pi4`)，得 #mi(`C=\dfrac\pi6`) .因此选 B.
 ]
 
 #problem(12)[
-设 $A$，$B$ 是椭圆 $C:(x^2)/(3)+(y^2)/(m)=1$ 长轴的两个端点，若 $C$ 上存在点 $M$ 满足 $angle A M B=120^ degree$，则 $m$ 的取值范围是（ ）
-  #choices([$(0,1] union [9,+ oo )$], [$(0,sqrt(3)] union [9,+ oo )$], [$(0,1] union [4,+ oo )$], [$(0,sqrt(3)] union [4,+ oo )$], cols: 2)
+设 #mi(`A`)，#mi(`B`) 是椭圆 #mi(`C:\dfrac{x^2}{3}+\dfrac{y^2}{m}=1`) 长轴的两个端点，若 #mi(`C`) 上存在点 #mi(`M`) 满足 #mi(`\angle AMB=120^{\circ}`)，则 #mi(`m`) 的取值范围是（ ）
+  #choices([#mi(`(0,1]\cup[9,+\infty)`)], [#mi(`(0,\sqrt{3}]\cup[9,+\infty)`)], [#mi(`(0,1]\cup[4,+\infty)`)], [#mi(`(0,\sqrt{3}]\cup[4,+\infty)`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-由椭圆方程知 $m>0$.先设 $0<m <= 3$，此时长轴端点为 $A=(-sqrt(3),0)$、$B=(sqrt(3),0)$.取 $M=(x,y)$，利用圆周角条件，点 $M$ 在以 $A B$ 为弦、圆周角为 $120^ degree$ 的圆弧上.取 $y>0$ 的对称情形，该圆的方程为 $x^2+y^2+2 y-3=0$.与椭圆方程 $x^2+(3)/(m)y^2=3$ 联立，消去 $x^2$ 得 $y^2(1-(3)/(m))+2 y=0$.因 $y>0$，有 $y=(2 m)/(3-m)$，这要求 $m<3$.还需 $y\l e s q r t(m)$，于是 $(2 m)/(3-m)\l e s q r t(m)$.令 $t=sqrt(m)>0$，得 $t^2+2 t-3 <= 0$，故 $0<t <= 1$，即 $0<m <= 1$.
+由椭圆方程知 #mi(`m>0`) .先设 #mi(`0<m\le3`)，此时长轴端点为 #mi(`A=(-\sqrt{3},0)`)、#mi(`B=(\sqrt{3},0)`) .取 #mi(`M=(x,y)`)，利用圆周角条件，点 #mi(`M`) 在以 #mi(`AB`) 为弦、圆周角为 #mi(`120^{\circ}`) 的圆弧上.取 #mi(`y>0`) 的对称情形，该圆的方程为 #mi(`x^{2}+y^{2}+2y-3=0`) .与椭圆方程 #mi(`x^{2}+\dfrac{3}{m}y^{2}=3`) 联立，消去 #mi(`x^{2}`) 得 #mi(`y^{2}\left(1-\dfrac{3}{m}\right)+2y=0`) .因 #mi(`y>0`)，有 #mi(`y=\dfrac{2m}{3-m}`)，这要求 #mi(`m<3`) .还需 #mi(`y\le\sqrt{m}`)，于是 #mi(`\dfrac{2m}{3-m}\le\sqrt{m}`) .令 #mi(`t=\sqrt{m}>0`)，得 #mi(`t^{2}+2t-3\le0`)，故 #mi(`0<t\le1`)，即 #mi(`0<m\le1`).
 
-再设 $m>3$，此时长轴端点为 $A=(0,-sqrt(m))$、$B=(0,sqrt(m))$.交换横、纵坐标作同样的圆弧联立，得到交点的横坐标 $x=(2 sqrt(3 m))/(m-3)$，并且需满足 $x\l e s q r t(3)$.这等价于 $2 sqrt(m) <= m-3$，即 $sqrt(m) >= 3$，所以 $m >= 9$.综合两种情形，$m in (0,1] union [9,+ oo )$，因此选 A.
+再设 #mi(`m>3`)，此时长轴端点为 #mi(`A=(0,-\sqrt{m})`)、#mi(`B=(0,\sqrt{m})`) .交换横、纵坐标作同样的圆弧联立，得到交点的横坐标 #mi(`x=\dfrac{2\sqrt{3m}}{m-3}`)，并且需满足 #mi(`x\le\sqrt{3}`) .这等价于 #mi(`2\sqrt{m}\le m-3`)，即 #mi(`\sqrt{m}\ge3`)，所以 #mi(`m\ge9`) .综合两种情形，#mi(`m\in(0,1]\cup[9,+\infty)`)，因此选 A.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-已知向量 $bold(a)=(-1,2)$，$bold(b)=(m,1)$，若向量 $bold(a)+bold(b)$ 与 $bold(a)$ 垂直，则 $m=\f i l l i n b l a n k{}$.
+已知向量 #mi(`\mathbf{a}=(-1,2)`)，#mi(`\mathbf{b}=(m,1)`)，若向量 #mi(`\mathbf{a}+\mathbf{b}`) 与 #mi(`\mathbf{a}`) 垂直，则 #mi(`m=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$7$])
+#answer([#mi(`7`)])
 
 #solution[
-$bold(a)+bold(b)=(m-1,3)$.垂直条件给出 $(bold(a)+bold(b))\c d o t b o l d(a)=0$，所以 $-(m-1)+3 dot 2 =0$，即 $m=7$.
+#mi(`\mathbf{a}+\mathbf{b}=(m-1,3)`) .垂直条件给出 #mi(`(\mathbf{a}+\mathbf{b})\cdot\mathbf{a}=0`)，所以 #mi(`-(m-1)+3\cdot2=0`)，即 #mi(`m=7`).
 ]
 
 #problem(14)[
-曲线 $y=x^2+(1)/(x)$ 在点 $(1,2)$ 处的切线方程为#blank(){}.
+曲线 #mi(`y=x^{2}+\dfrac{1}{x}`) 在点 #mi(`(1,2)`) 处的切线方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$y=x+1$])
+#answer([#mi(`y=x+1`)])
 
 #solution[
-设 $f(x)=x^2+(1)/(x)$，则 $f'(x)=2 x-(1)/(x^2)$，所以 $f'(1)=1$.切线经过 $(1,2)$，由点斜式得 $y-2=1(x-1)$，即 $y=x+1$.
+设 #mi(`f(x)=x^{2}+\dfrac{1}{x}`)，则 #mi(`f'(x)=2x-\dfrac1{x^2}`)，所以 #mi(`f'(1)=1`) .切线经过 #mi(`(1,2)`)，由点斜式得 #mi(`y-2=1(x-1)`)，即 #mi(`y=x+1`).
 ]
 
 #problem(15)[
-已知 $alpha in (0,(pi)/(2))$，$tan alpha =2$，则 $cos ( alpha -(pi)/(4))=\f i l l i n b l a n k{}$.
+已知 #mi(`\alpha\in(0,\dfrac{\pi}{2})`)，#mi(`\tan\alpha=2`)，则 #mi(`\cos\left(\alpha-\dfrac{\pi}{4}\right)=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(3 sqrt(10))/(10)$])
+#answer([#mi(`\dfrac{3\sqrt{10}}{10}`)])
 
 #solution[
-因为 $alpha in (0,(pi)/(2))$ 且 $tan alpha =2$，有 $cos alpha =(1)/(sqrt(5))$、$sin alpha =(2)/(sqrt(5))$.因此 $cos ( alpha -(pi)/(4))= cos alpha cos (pi)/(4)+ sin alpha sin (pi)/(4)=(sqrt(2))/(2 sqrt(5))+(2 sqrt(2))/(2 sqrt(5))=(3 sqrt(10))/(10)$.
+因为 #mi(`\alpha\in(0,\frac{\pi}{2})`) 且 #mi(`\tan\alpha=2`)，有 #mi(`\cos\alpha=\dfrac1{\sqrt{5}}`)、#mi(`\sin\alpha=\dfrac2{\sqrt{5}}`) .因此 #mi(`\cos\left(\alpha-\dfrac\pi4\right)=\cos\alpha\cos\dfrac\pi4+\sin\alpha\sin\dfrac\pi4=\dfrac{\sqrt{2}}{2\sqrt{5}}+\dfrac{2\sqrt{2}}{2\sqrt{5}}=\dfrac{3\sqrt{10}}{10}`).
 ]
 
 #problem(16)[
-已知三棱锥 $S-A B C$ 的所有顶点都在球 $O$ 的球面上，$S C$ 是球 $O$ 的直径. 若平面 $S C A bot$ 平面 $S C B$，$S A=A C$，$S B=B C$，三棱锥 $S-A B C$ 的体积为 $9$，则球 $O$ 的表面积为#blank(){}.
+已知三棱锥 #mi(`S-ABC`) 的所有顶点都在球 #mi(`O`) 的球面上，#mi(`SC`) 是球 #mi(`O`) 的直径. 若平面 #mi(`SCA\perp`) 平面 #mi(`SCB`)，#mi(`SA=AC`)，#mi(`SB=BC`)，三棱锥 #mi(`S-ABC`) 的体积为 #mi(`9`)，则球 #mi(`O`) 的表面积为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$36 pi$])
+#answer([#mi(`36\pi`)])
 
 #solution[
-设球 $O$ 的半径为 $R$，取 $S=(0,0,0)$、$C=(2 R,0,0)$.因为 $S C$ 是直径，$angle S A C= angle S B C=90^ degree$.又 $S A=A C$、$S B=B C$，所以可在互相垂直的两个平面内取 $A=(R,R,0)$、$B=(R,0,R)$，符号取反不影响体积.于是
+设球 #mi(`O`) 的半径为 #mi(`R`)，取 #mi(`S=(0,0,0)`)、#mi(`C=(2R,0,0)`) .因为 #mi(`SC`) 是直径，#mi(`\angle SAC=\angle SBC=90^{\circ}`) .又 #mi(`SA=AC`)、#mi(`SB=BC`)，所以可在互相垂直的两个平面内取 #mi(`A=(R,R,0)`)、#mi(`B=(R,0,R)`)，符号取反不影响体积.于是
 
-$ V_(S-A B C)=(1)/(6)|\det\b e g i n{p m a t r i x}R&R&0\\ R&0&R\\ 2 R&0&0\e n d{p m a t r i x}|=(R^3)/(3) $
 
-由体积为 $9$ 得 $R=3$，故球 $O$ 的表面积为 $4 pi R^2=36 pi$.
+#align(center)[#mitex(`
+V_{S-ABC}=\frac{1}{6}\left|\det\begin{pmatrix}R&R&0\\ R&0&R\\ 2R&0&0\end{pmatrix}\right|=\frac{R^{3}}{3}
+`)]
+
+
+由体积为 #mi(`9`) 得 #mi(`R=3`)，故球 #mi(`O`) 的表面积为 #mi(`4\pi R^{2}=36\pi`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-记 $S_n$ 为等比数列 $\{a_n\}$ 的前 $n$ 项和. 已知 $S_2=2$，$S_3=-6$.
+记 #mi(`S_{n}`) 为等比数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和. 已知 #mi(`S_{2}=2`)，#mi(`S_{3}=-6`).
 
 
-+ (1) 求 $\{a_n\}$ 的通项公式；
-+ (2) 求 $S_n$，并判断 $S_(n+1)$，$S_n$，$S_(n+2)$ 是否成等差数列.
++ (1)
 ]
 
 #solution[
-+ (1) 设等比数列的首项为 $a_1$，公比为 $q$.由 $S_2=2$、$S_3=-6$，得 $a_1(1+q)=2$，$a_1(1+q+q^2)=-6$.两式相减得 $a_(1) q^2=-8$.由 $a_1=(2)/(1+q)$ 且 $q != -1$，得到 $(2 q^2)/(1+q)=-8$，即 $(q+2)^2=0$，所以 $q=-2$，$a_1=-2$.因此
-
-$ a_n=a_(1) q^(n-1)=(-2)^n $
-+ (2) 由 $a_1=-2$、$q=-2$，
-
-$ S_n=a_1(1-q^n)/(1-q)=-2 dot (1-(-2)^n)/(3)=-((-2)^(n+1)+2)/(3) $
-
-又 $S_(n+1)=S_n+a_(n+1)$，$S_(n+2)=S_n+a_(n+1)+a_(n+2)$，且 $a_(n+2)=-2 a_(n+1)$.因此 $S_(n+1)+S_(n+2)=2 S_n$，即 $S_(n+1)$、$S_n$、$S_(n+2)$ 成等差数列.
++ (1)
 ]
 
 #problem(18)[
-如图，在四棱锥 $P-A B C D$ 中，$A B parallel C D$，且 $angle B A P= angle C D P=90^ degree$.
+如图，在四棱锥 #mi(`P-ABCD`) 中，#mi(`AB\parallel CD`)，且 #mi(`\angle BAP=\angle CDP=90^{\circ}`).
 
 
-+ (1) 证明：平面 $P A B bot$ 平面 $P A D$；
-+ (2) 若 $P A=P D=A B=D C$，$angle A P D=90^ degree$，且四棱锥 $P-A B C D$ 的体积为 $(8)/(3)$，求该四棱锥的侧面积.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q18_fig1.png", width: 62%)]
+
+#align(center)[#image("/papers/2017/img/national_paper_1_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由 $angle B A P=90^ degree$，得 $A B bot A P$；由 $angle C D P=90^ degree$，得 $C D bot D P$.又 $A B parallel C D$，所以 $A B bot D P$.直线 $A P$、$D P$ 是平面 $P A D$ 内相交的两条直线，且 $A B$ 同时垂直于它们，故 $A B bot$ 平面 $P A D$.由于 $A B$ 在平面 $P A B$ 内，根据平面与平面垂直的判定定理，平面 $P A B bot$ 平面 $P A D$.
-+ (2) 设 $P A=P D=A B=D C=a$.因为四边形 $A B C D$ 中 $A B parallel C D$ 且 $A B=C D$，所以 $A B C D$ 是平行四边形.由（1）知 $A B bot A D$，故 $A B C D$ 是矩形.又在直角三角形 $A P D$ 中，$angle A P D=90^ degree$ 且 $P A=P D=a$，所以 $A D=B C=a s q r t(2)$.
-
-取 $A D$ 的中点 $E$，连接 $P E$.在等腰三角形 $P A D$ 中，$P E bot A D$，且 $A B bot$ 平面 $P A D$，所以 $P E bot A B$.令 $F$ 为 $B C$ 的中点，则 $E F parallel A B$，从而 $P E bot E F$.因 $A D$、$E F$ 是底面内相交的两条直线，故 $P E bot$ 平面 $A B C D$，即 $P E$ 是四棱锥的高.由勾股定理，$P E=sqrt(a^2-((a s q r t(2))/(2))^2)=(a)/(sqrt(2))$.因此
-
-$ V_(P-A B C D)=(1)/(3) dot A B dot A D dot P E =(1)/(3) dot a dot a s q r t(2) dot (a)/(sqrt(2))=(a^3)/(3)=(8)/(3) $
-
-得 $a=2$.
-
-四个侧面中，$S_( triangle P A B)=(1)/(2)a^2=2$，$S_( triangle P C D)=(1)/(2)a^2=2$，$S_( triangle P A D)=(1)/(2)a^2=2$.又 $P B^2=P A^2+A B^2=8$，$P C^2=P D^2+D C^2=8$，且 $B C=a s q r t(2)=2 sqrt(2)$，所以 $triangle P B C$ 为边长 $2 sqrt(2)$ 的等边三角形，面积为 $2 sqrt(3)$.故侧面积为 $2+2+2+2 sqrt(3)=6+2 sqrt(3)$.
++ (1)
 ]
 
 #problem(19)[
-为了监控某种零件的一条生产线的生产过程，检验员每隔 $30 ~min$ 从该生产线上随机抽取一个零件，并测量其尺寸（单位：$c m$）. 下面是检验员在一天内依次抽取的 $16$ 个零件的尺寸：
+为了监控某种零件的一条生产线的生产过程，检验员每隔 #mi(`30 \mathrm{~min}`) 从该生产线上随机抽取一个零件，并测量其尺寸（单位：#mi(`\mathrm{cm}`)）. 下面是检验员在一天内依次抽取的 #mi(`16`) 个零件的尺寸：
 
-\begin{center}
-\begin{tabular}{c|cccccccc}
-抽取次序 & $1$ & $2$ & $3$ & $4$ & $5$ & $6$ & $7$ & $8$ \\
+抽取次序 & #mi(`1`) & #mi(`2`) & #mi(`3`) & #mi(`4`) & #mi(`5`) & #mi(`6`) & #mi(`7`) & #mi(`8`) \\
+
 \hline
-零件尺寸 & $9.95$ & $10.12$ & $9.96$ & $9.96$ & $10.01$ & $9.92$ & $9.98$ & $10.04$ \\
+
+零件尺寸 & #mi(`9.95`) & #mi(`10.12`) & #mi(`9.96`) & #mi(`9.96`) & #mi(`10.01`) & #mi(`9.92`) & #mi(`9.98`) & #mi(`10.04`) \\
+
 \hline
-抽取次序 & $9$ & $10$ & $11$ & $12$ & $13$ & $14$ & $15$ & $16$ \\
+
+抽取次序 & #mi(`9`) & #mi(`10`) & #mi(`11`) & #mi(`12`) & #mi(`13`) & #mi(`14`) & #mi(`15`) & #mi(`16`) \\
+
 \hline
-零件尺寸 & $10.26$ & $9.91$ & $10.13$ & $10.02$ & $9.22$ & $10.04$ & $10.05$ & $9.95$ \\
+
+零件尺寸 & #mi(`10.26`) & #mi(`9.91`) & #mi(`10.13`) & #mi(`10.02`) & #mi(`9.22`) & #mi(`10.04`) & #mi(`10.05`) & #mi(`9.95`) \\
+
 \hline
-\end{tabular}
-\end{center}
 
-经计算得 $\b a r x=(1)/(16)sum_(i=1)^(16)x_i=9.97$，$s=sqrt((1)/(16)sum_(i=1)^(16)(x_i-\b a r x)^2)=sqrt((1)/(16)(sum_(i=1)^(16)x_i^2-16\b a r x^2)) approx 0 .212$，$sqrt(sum_(i=1)^(16)(i-8.5)^2) approx 18 .439$，$sum_(i=1)^(16)(x_i-\b a r x)(i-8.5)=-2.78$，其中 $x_i$ 为抽取的第 $i$ 个零件的尺寸，$i=1$，$2$，$...$，$16$.
+经计算得 #mi(`\bar x=\dfrac{1}{16}\sum_{i=1}^{16}x_{i}=9.97`)，#mi(`s=\sqrt{\dfrac{1}{16}\sum_{i=1}^{16}(x_{i}-\bar x)^{2}}=\sqrt{\dfrac{1}{16}\left(\sum_{i=1}^{16}x_{i}^{2}-16\bar x^{2}\right)}\approx0.212`)，#mi(`\sqrt{\sum_{i=1}^{16}(i-8.5)^{2}}\approx18.439`)，#mi(`\sum_{i=1}^{16}(x_{i}-\bar x)(i-8.5)=-2.78`)，其中 #mi(`x_{i}`) 为抽取的第 #mi(`i`) 个零件的尺寸，#mi(`i=1`)，#mi(`2`)，#mi(`\dots`)，#mi(`16`).
 
 
-+ (1) 求 $(x_i,i)$（$i=1$，$2$，$...$，$16$）的相关系数 $r$，并回答是否可以认为这一天生产的零件尺寸不随生产过程的进行而系统地变大或变小（若 $|r|<0.25$，则可以认为零件的尺寸不随生产过程的进行而系统地变大或变小）；
-+ (2) 一天内抽检零件中，如果出现了尺寸在 $(\b a r x-3 s,\b a r x+3 s)$ 之外的零件，就认为这条生产线在这一天的生产过程可能出现了异常情况，需对当天的生产过程进行检查.
++ (1) 
 
-\begin{enumerate}
-+ (3) 从这一天抽检的结果看，是否需对当天的生产过程进行检查？
-+ (4) 在 $(\b a r x-3 s,\b a r x+3 s)$ 之外的数据称为离群值，试剔除离群值，估计这条生产线当天生产的零件尺寸的均值与标准差（精确到 $0.01$）.
 
-\end{enumerate}
 
-附：样本 $(x_i,y_i)$（$i=1$，$2$，$...$，$n$）的相关系数
-$r=(sum_(i=1)^(n)(x_i-\b a r x)(y_i-\b a r y))/(sqrt(sum_(i=1)^(n)(x_i-\b a r x)^2 sum_(i=1)^(n)(y_i-\b a r y)^2))$，$sqrt(0.008) approx 0 .09$.
+附：样本 #mi(`(x_{i},y_{i})`)（#mi(`i=1`)，#mi(`2`)，#mi(`\dots`)，#mi(`n`)）的相关系数
+
+#mi(`r=\dfrac{\sum_{i=1}^{n}(x_i-\bar x)(y_i-\bar y)}{\sqrt{\sum_{i=1}^{n}(x_{i}-\bar x)^{2}\sum_{i=1}^{n}(y_{i}-\bar y)^{2}}}`)，#mi(`\sqrt{0.008}\approx0.09`).
 ]
 
 #solution[
-+ (1) 这里 $y_i=i$，所以 $\b a r y=(1+16)/(2)=8.5$.由题中数据，
-
-$ r=(sum_(i=1)^(16)(x_i-\b a r x)(i-8.5))/(sqrt(sum_(i=1)^(16)(x_i-\b a r x)^2)sqrt(sum_(i=1)^(16)(i-8.5)^2))=(-2.78)/((4 s)sqrt(sum_(i=1)^(16)(i-8.5)^2)) approx (-2.78)/(4 dot 0 .212 dot 18 .439) approx -0.18 $
-
-因此 $| r|<0.25$，可以认为这一天生产的零件尺寸不随生产过程的进行而系统地变大或变小.
-+ (2) 由 $\b a r x=9.97$、$s approx 0 .212$，得
-
-$ (\b a r x-3 s,\b a r x+3 s) approx (9.3326,10.6074) $
-
-\begin{enumerate}
-+ (3) 数据中只有 $x_(13)=9.22$ 不在此区间内，所以需要对当天的生产过程进行检查.
-+ (4) 剔除 $x_(13)=9.22$ 后还剩 $15$ 个数据，其和为 $16 dot 9 .97-9.22=150.30$，故均值估计为 $\b a r x'=(150.30)/(15)=10.02$.以 $10.02$ 为中心计算，$sum (x_i-\b a r x')^2=0.1222$，所以标准差估计为
-
-$ s'=sqrt((0.1222)/(15)) approx 0 .0903 approx 0 .09 $
-
-\end{enumerate}
++ (1)
 ]
 
 #problem(20)[
-设 $A$，$B$ 为曲线 $C:y=(x^2)/(4)$ 上两点，$A$ 与 $B$ 的横坐标之和为 $4$.
+设 #mi(`A`)，#mi(`B`) 为曲线 #mi(`C:y=\dfrac{x^2}{4}`) 上两点，#mi(`A`) 与 #mi(`B`) 的横坐标之和为 #mi(`4`).
 
 
-+ (1) 求直线 $A B$ 的斜率；
-+ (2) 设 $M$ 为曲线 $C$ 上一点，曲线 $C$ 在 $M$ 处的切线与直线 $A B$ 平行，且 $A M bot B M$，求直线 $A B$ 的方程.
++ (1)
 ]
 
 #solution[
-+ (1) 设 $A=(x_1,(x_1^2)/(4))$、$B=(x_2,(x_2^2)/(4))$，且 $x_1+x_2=4$.因为 $A$、$B$ 是两点，$x_1 != x_2$，所以
-
-$ k_(A B)=((x_2^2)/(4)-(x_1^2)/(4))/(x_2-x_1)=(x_1+x_2)/(4)=1 $
-+ (2) 曲线 $C$ 的函数为 $y=(x^2)/(4)$，其导数为 $y'=(x)/(2)$.设 $M=(x_M,(x_M^2)/(4))$，切线与 $A B$ 平行，故 $(x_M)/(2)=1$，从而 $M=(2,1)$.
-
-令 $A=(x_1,(x_1^2)/(4))$，$B=(4-x_1,((4-x_1)^2)/(4))$.由 $A M bot B M$，有
-
-$ arrow(M A)\c d o t a r r o w(M B)=(x_1-2)(2-x_1) +((x_1^2)/(4)-1) (((4-x_1)^2)/(4)-1)=0 $
-
-整理得 $(x_1-2)^2[1+((x_1+2)(6-x_1))/(16)]=0$.因 $A$、$B$、$M$ 不重合，$x_1 != 2$，所以
-$16+(x_1+2)(6-x_1)=0$，即 $x_1^2-4 x_1-28=0$.
-故 $x_1=2 +- 4 sqrt(2)$.直线 $A B$ 斜率为 $1$，其截距为
-
-$ b=(x_1^2)/(4)-x_1=7 $
-
-因此直线 $A B$ 的方程为 $y=x+7$.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x)= e ""^x( e ""^x-a)-a^(2) x$.
+已知函数 #mi(`f(x)=\mathrm{e}^{x}(\mathrm{e}^{x}-a)-a^{2}x`).
 
 
-+ (1) 讨论 $f(x)$ 的单调性；
-+ (2) 若 $f(x) >= 0$，求 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 函数定义域为 $RR$，且
-
-$ f'(x)=2 e ""^(2 x)-a e ""^x-a^2=(2 e ""^x+a)( e ""^x-a) $
-
-当 $a>0$ 时，$2 e ""^x+a>0$，所以 $f'(x)$ 在 $x= ln a$ 左侧为负、右侧为正，故 $f(x)$ 在 $(- oo , ln a)$ 上单调递减，在 $( ln a,+ oo )$ 上单调递增.
-
-当 $a=0$ 时，$f'(x)=2 e ""^(2 x)>0$，故 $f(x)$ 在 $RR$ 上单调递增.
-
-当 $a<0$ 时，$e ""^x-a>0$，而 $2 e ""^x+a$ 在 $x= ln (-(a)/(2))$ 处为零，故 $f(x)$ 在 $(- oo , ln (-(a)/(2)))$ 上单调递减，在 $( ln (-(a)/(2)),+ oo )$ 上单调递增.
-+ (2) 若 $a>0$，最小值在 $x= ln a$ 处取得，且 $f( ln a)=-a^2 ln a$.要使 $f(x) >= 0$ 对一切 $x$ 成立，需 $0<a <= 1$.$a=0$ 时显然满足.
-
-若 $a<0$，令 $b=-a>0$，最小值在 $x= ln (b)/(2)$ 处取得，并且
-
-$ f( ln (b)/(2)) =(3 b^2)/(4)-b^2 ln (b)/(2)=b^2((3)/(4)- ln (b)/(2)) $
-
-因此需 $ln (b)/(2) <= (3)/(4)$，即 $b <= 2 e ""^((3)/(4))$，也就是 $a >= -2 e ""^((3)/(4))$.综上，$a in [-2 e ""^((3)/(4)),1]$.
++ (1)
 ]
 
 #part-header("选考题：解答题")
 
 #problem(22)[
-在直角坐标系 $x O y$ 中，曲线 $C$ 的参数方程为 $x=3 cos theta$，$y= sin theta \ ( theta " 为参数")$，直线 $l$ 的参数方程为 $x=a+4 t$，$y=1-t\ (t" 为参数")$.
+在直角坐标系 #mi(`xOy`) 中，曲线 #mi(`C`) 的参数方程为 #mi(`x=3\cos\theta`)，#mi(`y=\sin\theta\ (\theta\text{ \text{为参数}})`)，直线 #mi(`l`) 的参数方程为 #mi(`x=a+4t`)，#mi(`y=1-t\ (t\text{ \text{为参数}})`).
 
 
-+ (1) 若 $a=-1$，求 $C$ 与 $l$ 的交点坐标；
-+ (2) 若 $C$ 上的点到 $l$ 距离的最大值为 $sqrt(17)$，求 $a$.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $x=a+4 t$、$y=1-t$，得 $t=1-y$，所以直线 $l$ 的普通方程为 $x+4 y-a-4=0$.当 $a=-1$ 时，$l$ 为 $x+4 y-3=0$.曲线 $C$ 的普通方程为 $(x^2)/(9)+y^2=1$.联立 $y=(3-x)/(4)$，得
-$(x^2)/(9)+((3-x)^2)/(16)=1$，即 $25 x^2-54 x-63=0$.
-解得 $x=3$ 或 $x=-(21)/(25)$，代回直线方程分别得 $y=0$ 或 $y=(24)/(25)$.故交点为 $(3,0)$ 和 $(-(21)/(25),(24)/(25))$.
-+ (2) 设 $C$ 上的点为 $(3 cos theta , sin theta )$.它到直线 $l$ 的距离为
-
-$ d( theta )=(|3 cos theta +4 sin theta -(a+4)|)/(sqrt(17)) $
-
-由 $3 cos theta +4 sin theta$ 的值域为 $[-5,5]$，可得
-
-$ max _ theta |3 cos theta +4 sin theta -(a+4)| =5+|a+4| $
-
-题设最大距离为 $sqrt(17)$，所以 $5+|a+4|=17$，即 $|a+4|=12$.因此 $a=8$ 或 $a=-16$.
++ (1)
 ]
 
 #problem(23)[
-已知函数 $f(x)=-x^2+a x+4$，$g(x)=|x+1|+|x-1|$.
+已知函数 #mi(`f(x)=-x^{2}+ax+4`)，#mi(`g(x)=|x+1|+|x-1|`).
 
 
-+ (1) 当 $a=1$ 时，求不等式 $f(x) >= g(x)$ 的解集；
-+ (2) 若不等式 $f(x) >= g(x)$ 的解集包含 $[-1,1]$，求 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-先按 $x$ 的取值范围化简
-
-$ g(x)= \b e g i n{c a s e s} -2 x,&x <= -1,\\ 2,&-1 <= x <= 1 ,\\ 2 x,&x >= 1 . \e n d{c a s e s} $
+先按 #mi(`x`) 的取值范围化简
 
 
-+ (1) 当 $a=1$ 时，$f(x)=-x^2+x+4$.当 $x <= -1$ 时，$f(x) >= g(x)$ 等价于 $-x^2+3 x+4 >= 0$，即 $(x-4)(x+1) <= 0$，与 $x <= -1$ 联立得 $x=-1$.当 $-1 <= x <= 1$ 时，不等式等价于 $-x^2+x+2 >= 0$，解集覆盖整个 $[-1,1]$.当 $x >= 1$ 时，不等式等价于 $-x^2-x+4 >= 0$，即 $x^2+x-4 <= 0$，与 $x >= 1$ 联立得 $1 <= x <= (sqrt(17)-1)/(2)$.合并得解集为 $[-1,(sqrt(17)-1)/(2)]$.
-+ (2) 要使解集包含 $[-1,1]$，只需使 $-x^2+a x+4 >= 2$ 对所有 $x in [-1,1]$ 成立，即 $-x^2+a x+2 >= 0$.这是开口向下的二次函数，其在闭区间上的最小值取在端点，因此只需
-$1-a >= 0$，$1+a >= 0$.
-故 $a in [-1,1]$.
+#align(center)[#mitex(`
+g(x)=  \begin{cases}-2x,&x\le-1,\\  2,&-1\le x\le1,\\  2x,&x\ge1.\end{cases}
+`)]
+
+
+
++ (1)
 ]
 

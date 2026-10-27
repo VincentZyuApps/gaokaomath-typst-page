@@ -29,7 +29,9 @@
 #problem(2)[
 证明：如图，#mi(`AB`) 是圆 #mi(`O`) 的直径，#mi(`CB`) 是圆 #mi(`O`) 的切线，切点为 #mi(`B`)，#mi(`OC`) 平行于弦 #mi(`AD`)，求证：#mi(`DC`) 是圆 #mi(`O`) 的切线.
 
-[max width=4.8cm]img/1977/hebei/q2_fig1.png
+
+#align(center)[#image("/papers/1977/img/hebei/q2_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -81,7 +83,9 @@ R(u-R)+\frac{Rv^{2}}{u+R}=\frac{R\left((u-R)(u+R)+v^{2}\right)}{u+R}=\frac{R(u^{
 #problem(5)[
 某生产队要建立一个形状是直角梯形的苗圃，其两邻边借用夹角为 #mi(`135^{\circ}`) 的两面墙，另外两边是总长为 #mi(`30\text{ \text{米}}`) 的篱笆（如图，#mi(`AD`) 和 #mi(`DC`) 为墙），问篱笆的两边各多长时，苗圃的面积最大？最大面积是多少？
 
-[max width=5.8cm]img/1977/hebei/q5_fig1.png
+
+#align(center)[#image("/papers/1977/img/hebei/q5_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -135,7 +139,9 @@ l=\sqrt{\left(0.4\right)^{2}+\left(3\sqrt{10}\right)^{2}}=\sqrt{\frac{4}{25}+90}
 #problem(7)[
 如图，#mi(`MN`) 为圆的直径，#mi(`P`)，#mi(`C`) 为圆上两点，连 #mi(`PM`)，#mi(`PN`)，过 #mi(`C`) 作 #mi(`MN`) 的垂线与 #mi(`MN`)，#mi(`MP`) 和 #mi(`NP`) 的延长线依次相交于 #mi(`A`)，#mi(`B`)，#mi(`D`)，求证：#mi(`AC^{2}=AB\cdot AD`).
 
-[max width=5.0cm]img/1977/hebei/q7_fig1.png
+
+#align(center)[#image("/papers/1977/img/hebei/q7_fig1.png", width: 28%)]
+
 ]
 
 #solution[

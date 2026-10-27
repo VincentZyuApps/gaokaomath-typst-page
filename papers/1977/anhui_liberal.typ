@@ -104,7 +104,9 @@
 ]
 
 #solution[
-[max width=6cm]img/1977/anhui_liberal/q8_fig1.png
+
+#align(center)[#image("/papers/1977/img/anhui_liberal/q8_fig1.png", width: 28%)]
+ 
 
 设山脚为 #mi(`C`)，则 #mi(`DC\perp AC`)，且 #mi(`A`)，#mi(`B`)，#mi(`C`) 在同一直线上，#mi(`B`) 位于 #mi(`A`)，#mi(`C`) 之间. 俯角等于相应的仰角，所以 #mi(`\angle DAC=30^{\circ}`)，#mi(`\angle DBC=45^{\circ}`). 在直角三角形 #mi(`DBC`) 中，#mi(`\tan45^{\circ}=\frac{DC}{BC}=1`)，从而 #mi(`BC=DC`)，于是 #mi(`AC=AB+BC=40+DC`).
 
@@ -130,6 +132,8 @@
 
 半焦距满足 #mi(`c^{2}=a^{2}-b^{2}`)，所以 #mi(`c=\sqrt{\frac{100}{9}-4}=\frac{8}{3}`). 因此两个焦点为 #mi(`\left(0,\frac{8}{3}\right)`) 和 #mi(`\left(0,-\frac{8}{3}\right)`). 作图时以原点为中心，取长轴端点 #mi(`\left(0,\frac{10}{3}\right)`)、#mi(`\left(0,-\frac{10}{3}\right)`) 和短轴端点 #mi(`(2,0)`)、#mi(`(-2,0)`)，作经过这些端点的竖直椭圆即可.
 
-[max width=6cm]img/1977/anhui_liberal/q10_fig1.png
+ 
+#align(center)[#image("/papers/1977/img/anhui_liberal/q10_fig1.png", width: 28%)]
+
 ]
 

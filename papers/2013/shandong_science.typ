@@ -191,7 +191,15 @@ y=\sin\left(2\left(x+\frac{\pi}{8}\right)+\varphi\right)=\sin\left(2x+\frac{\pi}
 
 #problem(8)[
 函数 #mi(`y = x \cos x + \sin x`) 的图象大致为（ ）
-  #choices([[width=0.15\paperwidth]img/2013/shandong_science/q8_optA.png], [[width=0.15\paperwidth]img/2013/shandong_science/q8_optB.png], [[width=0.15\paperwidth]img/2013/shandong_science/q8_optC.png], [[width=0.15\paperwidth]img/2013/shandong_science/q8_optD.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2013/img/shandong_science/q8_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2013/img/shandong_science/q8_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2013/img/shandong_science/q8_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2013/img/shandong_science/q8_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D])
@@ -383,7 +391,9 @@ t+\frac{4}{t}\geq4
 #problem(13)[
 执行如下的程序框图，若输入的 #mi(`\varepsilon`) 的值为 #mi(`0.25`)，则输出的 #mi(`n`) 的值为\underline{\hspace{2.5em}}.
 
-[float=inline,width=5.5cm,max width=0.50\linewidth]img/2013/shandong_science/q13_fig1.png
+
+#align(center)[#image("/papers/2013/img/shandong_science/q13_fig1.png", width: 28%)]
+
 ]
 
 #answer([3])
@@ -578,7 +588,9 @@ a+b\leq2A_{0}B_{0}
 
 
 
-[float=inline,max width=0.42\linewidth]img/2013/shandong_science/q18_fig1.png
+
+#align(center)[#image("/papers/2013/img/shandong_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[

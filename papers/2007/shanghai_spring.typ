@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,378 +11,353 @@
 #part-header("填空题")
 
 #problem(1)[
-计算 $lim_(n -> oo )(2 n^(2)+1)/(3 n(n+1))=$#blank(){}.
+计算 #mi(`\displaystyle\lim_{n\to\infty}\frac{2n^{2}+1}{3n(n+1)}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(2)/(3)$])
+#answer([#mi(`\frac{2}{3}`)])
 
 #solution[
-分子、分母同除以 $n^2$，得 $(2 n^(2)+1)/(3 n(n+1))=(2+(1)/(n^(2)))/(3(1+(1)/(n)))$. 当 $n -> oo$ 时，$(1)/(n) -> 0$，$(1)/(n^2) -> 0$，所以原极限为 $(2+0)/(3(1+0))=(2)/(3)$.
+分子、分母同除以 #mi(`n^{2}`)，得 #mi(`\frac{2n^{2}+1}{3n(n+1)}=\frac{2+\frac{1}{n^{2}}}{3\left(1+\frac{1}{n}\right)}`). 当 #mi(`n\to\infty`) 时，#mi(`\frac{1}{n}\to0`)，#mi(`\frac{1}{n^{2}}\to0`)，所以原极限为 #mi(`\frac{2+0}{3(1+0)}=\frac{2}{3}`).
 ]
 
 #problem(2)[
-若关于 $x$ 的一元二次实系数方程 $x^(2)+p x+q=0$ 有一个根为 $1+ i$（$i$ 是虚数单位），则 $q=$#blank(){}.
+若关于 #mi(`x`) 的一元二次实系数方程 #mi(`x^{2}+px+q=0`) 有一个根为 #mi(`1+\mathrm{i}`)（#mi(`\mathrm{i}`) 是虚数单位），则 #mi(`q=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-因为方程的系数 $p$，$q$ 都是实数，非实根 $1+ i$ 的共轭数 $1- i$ 也必为方程的根. 因此原方程可写为 $(x-(1+ i ))(x-(1- i ))=0$. 展开得 $x^2-2 x+(1+ i )(1- i )=x^2-2 x+2=0$.
-与 $x^2+p x+q=0$ 比较常数项，得 $q=2$.
+因为方程的系数 #mi(`p`)，#mi(`q`) 都是实数，非实根 #mi(`1+\mathrm{i}`) 的共轭数 #mi(`1-\mathrm{i}`) 也必为方程的根. 因此原方程可写为 #mi(`(x-(1+\mathrm{i}))(x-(1-\mathrm{i}))=0`). 展开得 #mi(`x^{2}-2x+\left(1+\mathrm{i}\right)\left(1-\mathrm{i}\right)=x^{2}-2x+2=0`).
+
+与 #mi(`x^{2}+px+q=0`) 比较常数项，得 #mi(`q=2`).
 ]
 
 #problem(3)[
-若关于 $x$ 的不等式 $(x-a)/(x+1)>0$ 的解集为 $(- oo ,-1) union (4,+ oo )$，则实数 $a=$#blank(){}.
+若关于 #mi(`x`) 的不等式 #mi(`\frac{x-a}{x+1}>0`) 的解集为 #mi(`(-\infty,-1)\cup(4,+\infty)`)，则实数 #mi(`a=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$4$])
+#answer([#mi(`4`)])
 
 #solution[
-不等式的分母不能为零，所以 $x != -1$. 分子为零的临界点是 $x=a$. 题设解集的两个端点分别为分母的零点 $-1$ 和分子的零点 $4$，故 $a=4$. 直接检验符号也可得 $(x-4)/(x+1)>0 <=> x<-1\ "或"\ x>4$，这与题设解集一致，所以 $a=4$.
+不等式的分母不能为零，所以 #mi(`x\neq-1`). 分子为零的临界点是 #mi(`x=a`). 题设解集的两个端点分别为分母的零点 #mi(`-1`) 和分子的零点 #mi(`4`)，故 #mi(`a=4`). 直接检验符号也可得 #mi(`\frac{x-4}{x+1}>0\Longleftrightarrow x<-1\ \text{\text{或}}\ x>4`)，这与题设解集一致，所以 #mi(`a=4`).
 ]
 
 #problem(4)[
-函数 $y=( sin x+ cos x)^2$ 的最小正周期为#blank(){}.
+函数 #mi(`y=(\sin x+\cos x)^{2}`) 的最小正周期为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$pi$])
+#answer([#mi(`\pi`)])
 
 #solution[
 利用二倍角公式，
-$ ( sin x+ cos x)^2= sin ""^(2) x+ cos ""^(2) x+2 sin x cos x=1+ sin 2 x $
+#align(center)[#mitex(`
+(\sin x+\cos x)^{2}=\sin^{2}x+\cos^{2}x+2\sin x\cos x=1+\sin2x
+`)]
 
-函数 $sin 2 x$ 的周期为 $pi$，所以 $1+ sin 2 x$ 的周期为 $pi$. 又若 $T>0$ 是其周期，则
-$sin (2 x+2 T)= sin 2 x "对任意 "x"成立"$.
-取 $x=0$ 和 $x=(pi)/(4)$，可得 $sin 2 T=0$ 且 $cos 2 T=1$，从而 $2 T=2 k pi$，即 $T=k pi$. 因此最小正周期为 $pi$.
+
+函数 #mi(`\sin2x`) 的周期为 #mi(`\pi`)，所以 #mi(`1+\sin2x`) 的周期为 #mi(`\pi`). 又若 #mi(`T>0`) 是其周期，则
+
+#mi(`\sin(2x+2T)=\sin2x\quad\text{\text{对任意} }x\text{\text{成立}}`).
+
+取 #mi(`x=0`) 和 #mi(`x=\frac{\pi}{4}`)，可得 #mi(`\sin2T=0`) 且 #mi(`\cos2T=1`)，从而 #mi(`2T=2k\pi`)，即 #mi(`T=k\pi`). 因此最小正周期为 #mi(`\pi`).
 ]
 
 #problem(5)[
-设函数 $y=f(x)$ 是奇函数. 若 $f(-2)+f(-1)-3=f(1)+f(2)+3$，则 $f(1)+f(2)=$#blank(){}.
+设函数 #mi(`y=f(x)`) 是奇函数. 若 #mi(`f(-2)+f(-1)-3=f(1)+f(2)+3`)，则 #mi(`f(1)+f(2)=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-3$])
+#answer([#mi(`-3`)])
 
 #solution[
-由 $f(x)$ 为奇函数，得 $f(-2)=-f(2)$，$f(-1)=-f(1)$. 令 $S=f(1)+f(2)$，代入题设等式得 $-S-3=S+3$. 所以 $2 S=-6$，从而 $f(1)+f(2)=S=-3$.
+由 #mi(`f(x)`) 为奇函数，得 #mi(`f(-2)=-f(2)`)，#mi(`f(-1)=-f(1)`). 令 #mi(`S=f(1)+f(2)`)，代入题设等式得 #mi(`-S-3=S+3`). 所以 #mi(`2S=-6`)，从而 #mi(`f(1)+f(2)=S=-3`).
 ]
 
 #problem(6)[
-在平面直角坐标系 $x O y$ 中，若抛物线 $y^2=4 x$ 上的点 $P$ 到该抛物线的焦点的距离为 $6$，则点 $P$ 的横坐标 $x=$#blank(){}.
+在平面直角坐标系 #mi(`xOy`) 中，若抛物线 #mi(`y^{2}=4x`) 上的点 #mi(`P`) 到该抛物线的焦点的距离为 #mi(`6`)，则点 #mi(`P`) 的横坐标 #mi(`x=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$5$])
+#answer([#mi(`5`)])
 
 #solution[
-将抛物线 $y^2=4 x$ 与标准方程 $y^2=4 p x$ 比较，得 $p=1$，所以焦点为 $F(1,0)$. 设 $P(x,y)$ 在抛物线上，则 $y^2=4 x$，且 $x >= 0$. 因而
+将抛物线 #mi(`y^{2}=4x`) 与标准方程 #mi(`y^{2}=4px`) 比较，得 #mi(`p=1`)，所以焦点为 #mi(`F(1,0)`). 设 #mi(`P(x,y)`) 在抛物线上，则 #mi(`y^{2}=4x`)，且 #mi(`x\geqslant0`). 因而
 
-$ \b e g i n{a l i g n e d}P F&=sqrt((x-1)^2+y^2)=sqrt(x^2-2 x+1+4 x)\\&=sqrt((x+1)^2)=x+1.\e n d{a l i g n e d} $
 
-由 $P F=6$ 得 $x+1=6$，所以 $x=5$.
+#align(center)[#mitex(`
+\begin{aligned}PF&=\sqrt{(x-1)^2+y^2}=\sqrt{x^2-2x+1+4x}\\&=\sqrt{(x+1)^2}=x+1.\end{aligned}
+`)]
+
+
+由 #mi(`PF=6`) 得 #mi(`x+1=6`)，所以 #mi(`x=5`).
 ]
 
 #problem(7)[
-在平面直角坐标系 $x O y$ 中，若曲线 $x=sqrt(4-y^2)$ 与直线 $x=m$ 有且只有一个公共点，则实数 $m=$#blank(){}.
+在平面直角坐标系 #mi(`xOy`) 中，若曲线 #mi(`x=\sqrt{4-y^{2}}`) 与直线 #mi(`x=m`) 有且只有一个公共点，则实数 #mi(`m=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-由 $x=sqrt(4-y^2)$ 可知 $x >= 0$，且平方后得到 $x^2+y^2=4$. 因此该曲线是圆 $x^2+y^2=4$ 的右半圆. 直线 $x=m$ 与它相交时，必须有 $0 <= m <= 2$. 当 $0 <= m<2$ 时，交点为 $(m,sqrt(4-m^2))$ 和 $(m,-sqrt(4-m^2))$，共有两个；当 $m=2$ 时，两个交点合并为 $(2,0)$，只有一个公共点；当 $m<0$ 或 $m>2$ 时没有公共点. 所以 $m=2$.
+由 #mi(`x=\sqrt{4-y^{2}}`) 可知 #mi(`x\geqslant0`)，且平方后得到 #mi(`x^{2}+y^{2}=4`). 因此该曲线是圆 #mi(`x^{2}+y^{2}=4`) 的右半圆. 直线 #mi(`x=m`) 与它相交时，必须有 #mi(`0\le m\leqslant2`). 当 #mi(`0\le m<2`) 时，交点为 #mi(`\left(m,\sqrt{4-m^{2}}\right)`) 和 #mi(`\left(m,-\sqrt{4-m^{2}}\right)`)，共有两个；当 #mi(`m=2`) 时，两个交点合并为 #mi(`(2,0)`)，只有一个公共点；当 #mi(`m<0`) 或 #mi(`m>2`) 时没有公共点. 所以 #mi(`m=2`).
 ]
 
 #problem(8)[
-若向量 $bold(a)$，$bold(b)$ 满足 $|bold(a)|=sqrt(2)$，$|bold(b)|=1$，$bold(a) dot (bold(a)+bold(b))=1$，则向量 $bold(a)$，$bold(b)$ 的夹角的大小为#blank(){}.
+若向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 满足 #mi(`|\mathbf{a}|=\sqrt{2}`)，#mi(`|\mathbf{b}|=1`)，#mi(`\mathbf{a}\cdot(\mathbf{a}+\mathbf{b})=1`)，则向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 的夹角的大小为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3 pi)/(4)$])
+#answer([#mi(`\frac{3\pi}{4}`)])
 
 #solution[
-由数量积的分配律，$bold(a) dot (bold(a)+bold(b))=bold(a)\c d o t b o l d(a)+bold(a)\c d o t b o l d(b)$. 因为 $bold(a)\c d o t b o l d(a)=|bold(a)|^2=2$，所以 $2+bold(a)\c d o t b o l d(b)=1$，即 $bold(a)\c d o t b o l d(b)=-1$. 设 $bold(a)$，$bold(b)$ 的夹角为 $theta$，则 $bold(a)\c d o t b o l d(b)=|bold(a)||bold(b)| cos theta$，从而 $sqrt(2) cos theta =-1$，即 $cos theta =-(sqrt(2))/(2)$. 由于 $0 <= theta <= pi$，得 $theta =(3 pi)/(4)$.
+由数量积的分配律，#mi(`\mathbf{a}\cdot(\mathbf{a}+\mathbf{b})=\mathbf{a}\cdot\mathbf{a}+\mathbf{a}\cdot\mathbf{b}`). 因为 #mi(`\mathbf{a}\cdot\mathbf{a}=|\mathbf{a}|^{2}=2`)，所以 #mi(`2+\mathbf{a}\cdot\mathbf{b}=1`)，即 #mi(`\mathbf{a}\cdot\mathbf{b}=-1`). 设 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 的夹角为 #mi(`\theta`)，则 #mi(`\mathbf{a}\cdot\mathbf{b}=|\mathbf{a}||\mathbf{b}|\cos\theta`)，从而 #mi(`\sqrt{2}\cos\theta=-1`)，即 #mi(`\cos\theta=-\frac{\sqrt{2}}{2}`). 由于 #mi(`0\le\theta\le\pi`)，得 #mi(`\theta=\frac{3\pi}{4}`).
 ]
 
 #problem(9)[
-若 $x_1$，$x_2$ 为方程 $2^x=((1)/(2))^(-(1)/(x)+1)$ 的两个实数解，则 $x_1+x_2=$#blank(){}.
+若 #mi(`x_{1}`)，#mi(`x_{2}`) 为方程 #mi(`2^{x}=\left(\frac{1}{2}\right)^{-\frac{1}{x}+1}`) 的两个实数解，则 #mi(`x_{1}+x_{2}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-1$])
+#answer([#mi(`-1`)])
 
 #solution[
-原方程要求 $x\n e q0$. 将右边化为以 $2$ 为底的幂，得 $((1)/(2))^(-(1)/(x)+1)=2^((1)/(x)-1)$. 由于指数函数 $2^t$ 在 $RR$ 上单调递增，方程等价于 $x=(1)/(x)-1$. 两边同乘以 $x\n e q0$，得 $x^2+x-1=0$. 这是一个有两个实根的二次方程，且根的和为 $-1$，所以 $x_1+x_2=-1$.
+原方程要求 #mi(`x\neq0`). 将右边化为以 #mi(`2`) 为底的幂，得 #mi(`\left(\frac{1}{2}\right)^{-\frac{1}{x}+1}=2^{\frac{1}{x}-1}`). 由于指数函数 #mi(`2^{t}`) 在 #mi(`\mathbb{R}`) 上单调递增，方程等价于 #mi(`x=\frac{1}{x}-1`). 两边同乘以 #mi(`x\neq0`)，得 #mi(`x^{2}+x-1=0`). 这是一个有两个实根的二次方程，且根的和为 #mi(`-1`)，所以 #mi(`x_{1}+x_{2}=-1`).
 ]
 
 #problem(10)[
-在一次教师联欢会上，到会的女教师比男教师多 $12$ 人，从这些教师中随机挑选一人表演节目. 若选到男教师的概率为 $(9)/(20)$，则参加联欢会的教师共有#blank(){}人.
+在一次教师联欢会上，到会的女教师比男教师多 #mi(`12`) 人，从这些教师中随机挑选一人表演节目. 若选到男教师的概率为 #mi(`\frac{9}{20}`)，则参加联欢会的教师共有\underline{\hspace{2.5em}}人.
 ]
 
-#answer([$120$])
+#answer([#mi(`120`)])
 
 #solution[
-设男教师人数为 $M$，女教师人数为 $W$. 由题意，$W-M=12$，又随机选到男教师的概率为 $(M)/(M+W)=(9)/(20)$. 因而 $M:W=9:11$，设 $M=9 k$，$W=11 k$，其中 $k>0$. 由 $W-M=2 k=12$ 得 $k=6$，所以参加联欢会的教师共有 $M+W=20 k=120$ 人.
+设男教师人数为 #mi(`M`)，女教师人数为 #mi(`W`). 由题意，#mi(`W-M=12`)，又随机选到男教师的概率为 #mi(`\frac{M}{M+W}=\frac{9}{20}`). 因而 #mi(`M:W=9:11`)，设 #mi(`M=9k`)，#mi(`W=11k`)，其中 #mi(`k>0`). 由 #mi(`W-M=2k=12`) 得 #mi(`k=6`)，所以参加联欢会的教师共有 #mi(`M+W=20k=120`) 人.
 ]
 
 #problem(11)[
-函数 $y= \b e g i n{c a s e s} x^2+1, & x >= 0 ,\\ (2)/(x), & x<0 \e n d{c a s e s}$
-的反函数是#blank(){}.
+函数 #mi(`y=  \begin{cases}x^{2}+1,&x\ge 0,\\  \frac{2}{x},&x<0\end{cases}`)
+
+的反函数是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$y= \b e g i n{c a s e s} sqrt(x-1), & x >= 1 ,\\ (2)/(x), & x<0 \e n d{c a s e s}$])
+#answer([#mi(`y=  \begin{cases}\sqrt{x-1}, & x\ge 1,\\
+
+\frac{2}{x}, & x<0\end{cases}`)])
 
 #solution[
-当原函数的自变量 $x >= 0$ 时，$y=x^2+1$，其值域为 $[1,+ oo )$. 交换 $x$，$y$ 并解出 $y$，得 $x=y^2+1$，且 $y >= 0$，所以反函数在 $x >= 1$ 时为 $y=sqrt(x-1)$. 当原函数的自变量 $x<0$ 时，$y=(2)/(x)<0$，其值域为 $(- oo ,0)$. 交换 $x$，$y$ 得 $y=(2)/(x)$，并且反函数的自变量满足 $x<0$. 因此反函数为
+当原函数的自变量 #mi(`x\geqslant0`) 时，#mi(`y=x^{2}+1`)，其值域为 #mi(`[1,+\infty)`). 交换 #mi(`x`)，#mi(`y`) 并解出 #mi(`y`)，得 #mi(`x=y^{2}+1`)，且 #mi(`y\geqslant0`)，所以反函数在 #mi(`x\geqslant1`) 时为 #mi(`y=\sqrt{x-1}`). 当原函数的自变量 #mi(`x<0`) 时，#mi(`y=\frac{2}{x}<0`)，其值域为 #mi(`(-\infty,0)`). 交换 #mi(`x`)，#mi(`y`) 得 #mi(`y=\frac{2}{x}`)，并且反函数的自变量满足 #mi(`x<0`). 因此反函数为
 
-$ y= \b e g i n{c a s e s} sqrt(x-1), & x >= 1 ,\\ (2)/(x), & x<0. \e n d{c a s e s} $
+
+#align(center)[#mitex(`
+y=  \begin{cases}\sqrt{x-1},&x\geqslant1,\\  \frac{2}{x},&x<0.\end{cases}
+`)]
 ]
 
 #part-header("单选题")
 
 #problem(12)[
-若集合 $A=\{1,m^2\}$，$B=\{2,4\}$，则“$m=2$”是“$A inter B=\{4\}$”的（ ）
+若集合 #mi(`A=\{1,m^{2}\}`)，#mi(`B=\{2,4\}`)，则“#mi(`m=2`)”是“#mi(`A\cap B=\{4\}`)”的（ ）
   #choices([充分不必要条件.], [必要不充分条件.], [充要条件.], [既不充分也不必要条件.], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-若 $m=2$，则 $A=\{1,4\}$，所以 $A inter B=\{4\}$，故“$m=2$”是“$A inter B=\{4\}$”的充分条件. 反之，若 $A inter B=\{4\}$，则必须有 $m^2=4$，从而 $m=2$ 或 $m=-2$. 取 $m=-2$ 时前一命题不成立，故“$m=2$”不是必要条件. 因此选 A.
+若 #mi(`m=2`)，则 #mi(`A=\{1,4\}`)，所以 #mi(`A\cap B=\{4\}`)，故“#mi(`m=2`)”是“#mi(`A\cap B=\{4\}`)”的充分条件. 反之，若 #mi(`A\cap B=\{4\}`)，则必须有 #mi(`m^{2}=4`)，从而 #mi(`m=2`) 或 #mi(`m=-2`). 取 #mi(`m=-2`) 时前一命题不成立，故“#mi(`m=2`)”不是必要条件. 因此选 A.
 ]
 
 #problem(13)[
-如图，平面内的两条相交直线 $O P_1$ 和 $O P_2$ 将该平面分割成四个部分 $I$，$I I$，$I I I$，$I V$（不包括边界）. 若 $arrow(O P)=a a r r o w(O P_1)+b a r r o w(O P_2)$，且点 $P$ 落在第 $I I I$ 部分，则实数 $a$，$b$ 满足（ ）
+如图，平面内的两条相交直线 #mi(`OP_{1}`) 和 #mi(`OP_{2}`) 将该平面分割成四个部分 #mi(`\mathrm{I}`)，#mi(`\mathrm{II}`)，#mi(`\mathrm{III}`)，#mi(`\mathrm{IV}`)（不包括边界）. 若 #mi(`\overrightarrow{OP}=a\overrightarrow{OP_1}+b\overrightarrow{OP_2}`)，且点 #mi(`P`) 落在第 #mi(`\mathrm{III}`) 部分，则实数 #mi(`a`)，#mi(`b`) 满足（ ）
 
 
-#align(center)[#image("/papers/2007/img/shanghai_spring/q13_fig1.png", width: 30%)]
-  #choices([$a>0$，$b>0$.], [$a>0$，$b<0$.], [$a<0$，$b>0$.], [$a<0$，$b<0$.], cols: 4)
+#align(center)[#image("/papers/2007/img/shanghai_spring/q13_fig1.png", width: 28%)]
+
+  #choices([#mi(`a>0`)，#mi(`b>0`).], [#mi(`a>0`)，#mi(`b<0`).], [#mi(`a<0`)，#mi(`b>0`).], [#mi(`a<0`)，#mi(`b<0`).], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-把 $arrow(O P_1)$ 和 $arrow(O P_2)$ 作为两个不共线的基向量. 当 $a>0$，$b>0$ 时，点 $P$ 落在两条射线 $O P_1$，$O P_2$ 所夹的部分；改变其中一个系数的符号，点 $P$ 就转到相应的一侧. 图中第 $I I I$ 部分位于射线 $O P_1$ 与射线 $O P_2$ 的反向延长线之间，所以 $a>0$，$b<0$. 因此选 B.
+把 #mi(`\overrightarrow{OP_1}`) 和 #mi(`\overrightarrow{OP_2}`) 作为两个不共线的基向量. 当 #mi(`a>0`)，#mi(`b>0`) 时，点 #mi(`P`) 落在两条射线 #mi(`OP_{1}`)，#mi(`OP_{2}`) 所夹的部分；改变其中一个系数的符号，点 #mi(`P`) 就转到相应的一侧. 图中第 #mi(`\mathrm{III}`) 部分位于射线 #mi(`OP_{1}`) 与射线 #mi(`OP_{2}`) 的反向延长线之间，所以 #mi(`a>0`)，#mi(`b<0`). 因此选 B.
 ]
 
 #problem(14)[
 下列四个函数中，图象如图所示的只能是（ ）
 
 
-#align(center)[#image("/papers/2007/img/shanghai_spring/q14_fig1.png", width: 24%)]
-  #choices([$y=x+\l g x$.], [$y=x-\l g x$.], [$y=-x+\l g x$.], [$y=-x-\l g x$.], cols: 4)
+#align(center)[#image("/papers/2007/img/shanghai_spring/q14_fig1.png", width: 28%)]
+
+  #choices([#mi(`y=x+\lg x`).], [#mi(`y=x-\lg x`).], [#mi(`y=-x+\lg x`).], [#mi(`y=-x-\lg x`).], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-四个函数的定义域都是 $x>0$. 对 $y=x+\l g x$，有 $y'=1+(1)/(x ln 10)>0$，所以它在定义域上递增，且 $x -> 0 ""^+$ 时 $y -> - oo$，不符合图象. 对 $y=x-\l g x$，有 $y'=1-(1)/(x ln 10)$，函数先减后增，并且 $x -> 0 ""^+$ 和 $x -> + oo$ 时函数值都趋于 $+ oo$，符合图示的“先降后升”形状. 对 $y=-x+\l g x$，有 $y'=-1+(1)/(x ln 10)$，函数先增后减；对 $y=-x-\l g x$，有 $y'=-1-(1)/(x ln 10)<0$，函数递减. 所以只能选 B.
+四个函数的定义域都是 #mi(`x>0`). 对 #mi(`y=x+\lg x`)，有 #mi(`y'=1+\frac{1}{x\ln10}>0`)，所以它在定义域上递增，且 #mi(`x\to0^{+}`) 时 #mi(`y\to-\infty`)，不符合图象. 对 #mi(`y=x-\lg x`)，有 #mi(`y'=1-\frac{1}{x\ln10}`)，函数先减后增，并且 #mi(`x\to0^{+}`) 和 #mi(`x\to+\infty`) 时函数值都趋于 #mi(`+\infty`)，符合图示的“先降后升”形状. 对 #mi(`y=-x+\lg x`)，有 #mi(`y'=-1+\frac{1}{x\ln10}`)，函数先增后减；对 #mi(`y=-x-\lg x`)，有 #mi(`y'=-1-\frac{1}{x\ln10}<0`)，函数递减. 所以只能选 B.
 ]
 
 #problem(15)[
-设 $a$，$b$ 是正实数，以下不等式：
+设 #mi(`a`)，#mi(`b`) 是正实数，以下不等式：
 
-\begin{circlelist}
-\item $sqrt(a b)>(2 a b)/(a+b)$；
-\item $a>|a-b|-b$；
-\item $a^2+b^2>4 a b-3 b^2$；
-\item $a b+(2)/(a b)>2$.
-\end{circlelist}
+
++ (1) #mi(`\sqrt{ab}>\frac{2ab}{a+b}`)；
++ (2) #mi(`a>|a-b|-b`)；
++ (3) #mi(`a^{2}+b^{2}>4ab-3b^{2}`)；
++ (4) #mi(`ab+\frac{2}{ab}>2`).
+
+
 
 恒成立的序号为（ ）
-  #choices([$"[1]"$，$"[3]"$.], [$"[1]"$，$"[4]"$.], [$"[2]"$，$"[3]"$.], [$"[2]"$，$"[4]"$.], cols: 2)
+  #choices([#mi(`①`)，#mi(`③`).], [#mi(`①`)，#mi(`④`).], [#mi(`②`)，#mi(`③`).], [#mi(`②`)，#mi(`④`).], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-对第一个不等式，由均值不等式 $a+b >= 2 sqrt(a b)$，只能得到 $(2 a b)/(a+b)\l e q s l a n t s q r t(a b)$，当 $a=b$ 时取等号，因此严格不等式不恒成立. 对第二个不等式分情况：当 $a >= b$ 时，$|a-b|-b=a-2 b<a$；当 $a<b$ 时，$|a-b|-b=-a<a$，所以第二个不等式恒成立. 第三个不等式等价于 $(a-2 b)^2>0$，当 $a=2 b$ 时不成立，故不恒成立. 对第四个不等式，令 $t=a b>0$，则由均值不等式 $t+(2)/(t) >= 2 sqrt(2)>2$，所以它恒成立. 因而恒成立的序号为 $"[2]"$，$"[4]"$，选 D.
+对第一个不等式，由均值不等式 #mi(`a+b\geqslant2\sqrt{ab}`)，只能得到 #mi(`\frac{2ab}{a+b}\le\sqrt{ab}`)，当 #mi(`a=b`) 时取等号，因此严格不等式不恒成立. 对第二个不等式分情况：当 #mi(`a\ge b`) 时，#mi(`|a-b|-b=a-2b<a`)；当 #mi(`a<b`) 时，#mi(`|a-b|-b=-a<a`)，所以第二个不等式恒成立. 第三个不等式等价于 #mi(`(a-2b)^{2}>0`)，当 #mi(`a=2b`) 时不成立，故不恒成立. 对第四个不等式，令 #mi(`t=ab>0`)，则由均值不等式 #mi(`t+\frac{2}{t}\geqslant2\sqrt{2}>2`)，所以它恒成立. 因而恒成立的序号为 #mi(`②`)，#mi(`④`)，选 D.
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-如图，在棱长为 $2$ 的正方体 $A B C D-A'B'C'D'$ 中，点 $E$，$F$ 分别是 $A'B'$ 和 $A B$ 的中点，求异面直线 $A'F$ 与 $C E$ 所成角的大小（结果用反三角函数值表示）.
+如图，在棱长为 #mi(`2`) 的正方体 #mi(`ABCD-A'B'C'D'`) 中，点 #mi(`E`)，#mi(`F`) 分别是 #mi(`A'B'`) 和 #mi(`AB`) 的中点，求异面直线 #mi(`A'F`) 与 #mi(`CE`) 所成角的大小（结果用反三角函数值表示）.
 
 
-#align(center)[#image("/papers/2007/img/shanghai_spring/q16_fig1.png", width: 36%)]
+#align(center)[#image("/papers/2007/img/shanghai_spring/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-【法一】建立空间直角坐标系，取 $A=(2,0,0)$，使 $A B$、$A A'$、$A D$ 分别沿 $y$ 轴正方向、$z$ 轴正方向、$x$ 轴负方向. 由题意可知
-$A'(2,0,2)$，$C(0,2,0)$，$E(2,1,2)$，$F(2,1,0)$，$arrow(A'F)=(0,1,-2)$，$arrow(C E)=(2,-1,2)$.
-设直线 $A'F$ 与 $C E$ 所成角为 $theta$，则
+【法一】建立空间直角坐标系，取 #mi(`A=(2,0,0)`)，使 #mi(`AB`)、#mi(`AA'`)、#mi(`AD`) 分别沿 #mi(`y`) 轴正方向、#mi(`z`) 轴正方向、#mi(`x`) 轴负方向. 由题意可知
 
-$ cos theta = (|arrow(A'F){ dot }arrow(C E)|)/(|arrow(A'F)| dot |arrow(C E)|)=(5)/(sqrt(5) dot 3)=(sqrt(5))/(3) $
+#mi(`A'(2,0,2)`)，#mi(`C(0,2,0)`)，#mi(`E(2,1,2)`)，#mi(`F(2,1,0)`)，#mi(`\overrightarrow{A'F}=(0,1,-2)`)，#mi(`\overrightarrow{CE}=(2,-1,2)`).
 
-因此 $theta = arccos (sqrt(5))/(3)$，即异面直线 $A'F$ 与 $C E$ 所成角的大小为 $arccos (sqrt(5))/(3)$.
+设直线 #mi(`A'F`) 与 #mi(`CE`) 所成角为 #mi(`\theta`)，则
 
-【法二】连结 $E B$. 因为 $A'E parallel B F$，且 $A'E=B F$，所以 $A'F B E$ 是平行四边形，从而 $A'F parallel E B$. 因此异面直线 $A'F$ 与 $C E$ 所成的角就是 $C E$ 与 $E B$ 所成的角. 又因为 $C B bot$ 平面 $A B B'A'$，所以 $C B bot B E$. 在直角三角形 $C E B$ 中，$C B=2$，$B E=sqrt(5)$，于是
-$tan angle C E B=(2 sqrt(5))/(5)$.
-故 $angle C E B= arctan (2 sqrt(5))/(5)$. 因此异面直线 $A'F$ 与 $C E$ 所成角的大小为 $arctan (2 sqrt(5))/(5)$.
+
+#align(center)[#mitex(`
+\cos\theta=  \frac{\left|\overrightarrow{A'F}\cdot\overrightarrow{CE}\right|}{\left|\overrightarrow{A'F}\right|\cdot\left|\overrightarrow{CE}\right|}=\frac{5}{\sqrt{5}\cdot 3}=\frac{\sqrt{5}}{3}
+`)]
+
+
+因此 #mi(`\theta=\arccos\frac{\sqrt{5}}{3}`)，即异面直线 #mi(`A'F`) 与 #mi(`CE`) 所成角的大小为 #mi(`\arccos\frac{\sqrt{5}}{3}`).
+
+【法二】连结 #mi(`EB`). 因为 #mi(`A'E\parallel BF`)，且 #mi(`A'E=BF`)，所以 #mi(`A'FBE`) 是平行四边形，从而 #mi(`A'F\parallel EB`). 因此异面直线 #mi(`A'F`) 与 #mi(`CE`) 所成的角就是 #mi(`CE`) 与 #mi(`EB`) 所成的角. 又因为 #mi(`CB\perp`) 平面 #mi(`ABB'A'`)，所以 #mi(`CB\perp BE`). 在直角三角形 #mi(`CEB`) 中，#mi(`CB=2`)，#mi(`BE=\sqrt{5}`)，于是
+
+#mi(`\tan\angle CEB=\frac{2\sqrt{5}}{5}`).
+
+故 #mi(`\angle CEB=\arctan\frac{2\sqrt{5}}{5}`). 因此异面直线 #mi(`A'F`) 与 #mi(`CE`) 所成角的大小为 #mi(`\arctan\frac{2\sqrt{5}}{5}`).
 ]
 
 #problem(17)[
-求出一个数学问题的正确结论后，将其作为条件之一，提出与原来问题有关的新问题，我们把它称为原来问题的一个“逆向”问题. 例如，原来问题是“若正四棱锥底面边长为 $4$，侧棱长为 $3$，求该正四棱锥的体积”. 求出体积 $(16)/(3)$ 后，它的一个“逆向”问题可以是“若正四棱锥底面边长为 $4$，体积为 $(16)/(3)$，求侧棱长”；也可以是“若正四棱锥的体积为 $(16)/(3)$，求所有侧面面积之和的最小值”. 试给出问题“在平面直角坐标系 $x O y$ 中，求点 $P(2,1)$ 到直线 $3 x+4 y=0$ 的距离.”的一个有意义的“逆向”问题，并解答你所给出的“逆向”问题.
+求出一个数学问题的正确结论后，将其作为条件之一，提出与原来问题有关的新问题，我们把它称为原来问题的一个“逆向”问题. 例如，原来问题是“若正四棱锥底面边长为 #mi(`4`)，侧棱长为 #mi(`3`)，求该正四棱锥的体积”. 求出体积 #mi(`\frac{16}{3}`) 后，它的一个“逆向”问题可以是“若正四棱锥底面边长为 #mi(`4`)，体积为 #mi(`\frac{16}{3}`)，求侧棱长”；也可以是“若正四棱锥的体积为 #mi(`\frac{16}{3}`)，求所有侧面面积之和的最小值”. 试给出问题“在平面直角坐标系 #mi(`xOy`) 中，求点 #mi(`P(2,1)`) 到直线 #mi(`3x+4y=0`) 的距离.”的一个有意义的“逆向”问题，并解答你所给出的“逆向”问题.
 ]
 
 #solution[
-点 $P(2,1)$ 到直线 $3 x+4 y=0$ 的距离为 $(|3 dot 2 +4 dot 1 |)/(sqrt(3^2+4^2))=2$.
+点 #mi(`P(2,1)`) 到直线 #mi(`3x+4y=0`) 的距离为 #mi(`\frac{|3\cdot 2+4\cdot 1|}{\sqrt{3^{2}+4^{2}}}=2`).
 
 “逆向”问题可以是：
 
-求到直线 $3 x+4 y=0$ 的距离为 $2$ 的点的轨迹方程. 设所求轨迹上任意一点为 $P(x,y)$，则 $(|3 x+4 y|)/(5)=2$，所求轨迹为 $3 x+4 y-10=0$ 或 $3 x+4 y+10=0$.
+求到直线 #mi(`3x+4y=0`) 的距离为 #mi(`2`) 的点的轨迹方程. 设所求轨迹上任意一点为 #mi(`P(x,y)`)，则 #mi(`\frac{|3x+4y|}{5}=2`)，所求轨迹为 #mi(`3x+4y-10=0`) 或 #mi(`3x+4y+10=0`).
 
-若点 $P(2,1)$ 到直线 $l:a x+b y=0$ 的距离为 $2$，求直线 $l$ 的方程. 由 $(|2 a+b|)/(sqrt(a^2+b^2))=2$，化简得 $4 a b-3 b^2=0$，即 $b=0$ 或 $4 a=3 b$. 所以直线 $l$ 的方程为 $x=0$ 或 $3 x+4 y=0$.
+若点 #mi(`P(2,1)`) 到直线 #mi(`l:ax+by=0`) 的距离为 #mi(`2`)，求直线 #mi(`l`) 的方程. 由 #mi(`\frac{|2a+b|}{\sqrt{a^{2}+b^{2}}}=2`)，化简得 #mi(`4ab-3b^{2}=0`)，即 #mi(`b=0`) 或 #mi(`4a=3b`). 所以直线 #mi(`l`) 的方程为 #mi(`x=0`) 或 #mi(`3x+4y=0`).
 
 意义不大的“逆向”问题可能是：
 
-点 $P(2,1)$ 是不是到直线 $3 x+4 y=0$ 的距离为 $2$ 的一个点？因为 $(|3 dot 2 +4 dot 1 |)/(sqrt(3^2+4^2))=2$，所以点 $P(2,1)$ 是到直线 $3 x+4 y=0$ 的距离为 $2$ 的一个点.
+点 #mi(`P(2,1)`) 是不是到直线 #mi(`3x+4y=0`) 的距离为 #mi(`2`) 的一个点？因为 #mi(`\frac{|3\cdot2+4\cdot1|}{\sqrt{3^{2}+4^{2}}}=2`)，所以点 #mi(`P(2,1)`) 是到直线 #mi(`3x+4y=0`) 的距离为 #mi(`2`) 的一个点.
 
-点 $Q(1,1)$ 是不是到直线 $3 x+4 y=0$ 的距离为 $2$ 的一个点？因为 $(|3 dot 1 +4 dot 1 |)/(sqrt(3^2+4^2))=(7)/(5) != 2$，所以点 $Q(1,1)$ 不是到直线 $3 x+4 y=0$ 的距离为 $2$ 的一个点.
+点 #mi(`Q(1,1)`) 是不是到直线 #mi(`3x+4y=0`) 的距离为 #mi(`2`) 的一个点？因为 #mi(`\frac{|3\cdot1+4\cdot1|}{\sqrt{3^{2}+4^{2}}}=\frac{7}{5}\neq 2`)，所以点 #mi(`Q(1,1)`) 不是到直线 #mi(`3x+4y=0`) 的距离为 #mi(`2`) 的一个点.
 
-点 $P(2,1)$ 是不是到直线 $5 x+12 y=0$ 的距离为 $2$ 的一个点？因为 $(|5 dot 2 +12 dot 1 |)/(sqrt(5^2+12^2))=(22)/(13) != 2$，所以点 $P(2,1)$ 不是到直线 $5 x+12 y=0$ 的距离为 $2$ 的一个点.
+点 #mi(`P(2,1)`) 是不是到直线 #mi(`5x+12y=0`) 的距离为 #mi(`2`) 的一个点？因为 #mi(`\frac{|5\cdot2+12\cdot1|}{\sqrt{5^{2}+12^{2}}}=\frac{22}{13}\neq 2`)，所以点 #mi(`P(2,1)`) 不是到直线 #mi(`5x+12y=0`) 的距离为 #mi(`2`) 的一个点.
 ]
 
 #problem(18)[
-如图，在直角坐标系 $x O y$ 中，设椭圆 $C:(x^2)/(a^2)+(y^2)/(b^2)=1$（$a>b>0$）的左右两个焦点分别为 $F_1$，$F_2$. 过右焦点 $F_2$ 且与 $x$ 轴垂直的直线 $l$ 与椭圆 $C$ 相交，其中一个交点为 $M(sqrt(2),1)$.
+如图，在直角坐标系 #mi(`xOy`) 中，设椭圆 #mi(`C:\frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1`)（#mi(`a>b>0`)）的左右两个焦点分别为 #mi(`F_{1}`)，#mi(`F_{2}`). 过右焦点 #mi(`F_{2}`) 且与 #mi(`x`) 轴垂直的直线 #mi(`l`) 与椭圆 #mi(`C`) 相交，其中一个交点为 #mi(`M(\sqrt{2},1)`).
 
 
-+ (1) 求椭圆 $C$ 的方程；
-+ (2) 设椭圆 $C$ 的一个顶点为 $B(0,-b)$，直线 $B F_2$ 交椭圆 $C$ 于另一点 $N$，求 $triangle F_(1) B N$ 的面积.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2007/img/shanghai_spring/q18_fig1.png", width: 38%)]
+
+#align(center)[#image("/papers/2007/img/shanghai_spring/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 【法一】因为 $l$ 垂直于 $x$ 轴，所以 $F_2$ 的坐标为 $(sqrt(2),0)$. 由题意可知 $(2)/(a^2)+(1)/(b^2)=1$，$a^2-b^2=2$.
-由 $a^2-b^2=2$ 得 $b^2=a^2-2$，代入前式得
-
-$ (2)/(a^2)+(1)/(a^2-2)=1 <=> 2(a^2-2)+a^2=a^2(a^2-2) <=> a^4-5 a^2+4=0 <=> (a^2-1)(a^2-4)=0 $
-
-因为 $a>b>0$，所以 $a^2-b^2=2$ 且 $b^2>0$，从而 $a^2>2$，故 $a^2=4$，$b^2=2$. 因此所求椭圆方程为 $(x^2)/(4)+(y^2)/(2)=1$.
-
-【法二】由椭圆定义可知 $|M F_1|+|M F_2|=2 a$. 由题意 $|M F_2|=1$，因此 $|M F_1|=2 a-1$. 又由直角三角形 $M F_(1) F_2$ 可知 $(2 a-1)^2=(2 sqrt(2))^2+1$，且 $a>0$，所以 $a=2$. 再由 $a^2-b^2=2$ 得 $b^2=2$. 因此椭圆 $C$ 的方程为 $(x^2)/(4)+(y^2)/(2)=1$.
-+ (2) 直线 $B F_2$ 的方程为 $y=x-sqrt(2)$. 将其代入椭圆方程，得
-
-$ (x^2)/(4)+((x-sqrt(2))^2)/(2)=1 <=> 3 x^2-4 sqrt(2)x=0 <=> x=0" 或 "x=(4 sqrt(2))/(3) $
-
-其中 $x=0$ 对应已知顶点 $B$，故另一交点为 $N((4 sqrt(2))/(3),(sqrt(2))/(3))$. 点 $B$，$F_2$，$N$ 共线，且 $B$，$N$ 分居 $x$ 轴两侧，所以
-
-$ S_( triangle F_(1) B N)=S_( triangle F_(1) F_(2) B)+S_( triangle F_(1) F_(2) N) =(1)/(2)|F_(1) F_2|(sqrt(2)+(sqrt(2))/(3)) =(1)/(2) dot 2 sqrt(2)(sqrt(2)+(sqrt(2))/(3))=(8)/(3) $
++ (1)
 ]
 
 #problem(19)[
-某人定制了一批地砖. 每块地砖（如图 1 所示）是边长为 $0.4" 米"$ 的正方形 $A B C D$，点 $E$，$F$ 分别在边 $B C$ 和 $C D$ 上，$triangle C F E$，$triangle A B E$ 和四边形 $A E F D$ 均由单一材料制成，制成 $triangle C F E$，$triangle A B E$ 和四边形 $A E F D$ 的三种材料的每平方米价格之比依次为 $3:2:1$. 若将此种地砖按图 2 所示的形式铺设，能使中间的深色阴影部分成四边形 $E F G H$.
+某人定制了一批地砖. 每块地砖（如图 1 所示）是边长为 #mi(`0.4\text{ \text{米}}`) 的正方形 #mi(`ABCD`)，点 #mi(`E`)，#mi(`F`) 分别在边 #mi(`BC`) 和 #mi(`CD`) 上，#mi(`\triangle CFE`)，#mi(`\triangle ABE`) 和四边形 #mi(`AEFD`) 均由单一材料制成，制成 #mi(`\triangle CFE`)，#mi(`\triangle ABE`) 和四边形 #mi(`AEFD`) 的三种材料的每平方米价格之比依次为 #mi(`3:2:1`). 若将此种地砖按图 2 所示的形式铺设，能使中间的深色阴影部分成四边形 #mi(`EFGH`).
 
 
-+ (1) 求证：四边形 $E F G H$ 是正方形；
-+ (2) $E$，$F$ 在什么位置时，定制这批地砖所需的材料费用最省？
++ (1) 
 
 
-\examfiguregroup[float=inline]{img/2007/shanghai_spring/q19_fig1.png}{%
-    \bitmapinclude[width=0.28\linewidth]{img/2007/shanghai_spring/q19_fig1.png}\hfill
-    \bitmapinclude[width=0.46\linewidth]{img/2007/shanghai_spring/q19_fig2.png}%
-}
+
+\examfiguregroup[float=inline]img/2007/shanghai_spring/q19_fig1.png%
+
+\bitmapinclude[width=0.28\linewidth]img/2007/shanghai_spring/q19_fig1.png\hfill
+
+\bitmapinclude[width=0.46\linewidth]img/2007/shanghai_spring/q19_fig2.png%
 ]
 
 #solution[
-+ (1) 按图 2，四块地砖以各自的顶点 $C$ 重合于中心，并依次绕公共点旋转 $90^ degree$. 对相邻的两块地砖，前一块的 $F$ 点与后一块的 $E$ 点在铺设中重合；旋转保持距离，所以 $C F=C E$. 记 $C E=C F=x$，则 $triangle C F E$ 是等腰直角三角形. 设 $arrow(C E)=(x,0)$，$arrow(C F)=(0,x)$，则 $arrow(E F)=(-x,x)$. 相邻地砖分别旋转 $90^ degree$ 后，$arrow(F G)=(x,x)$，$arrow(G H)=(x,-x)$，$arrow(H E)=(-x,-x)$. 因而
-$E F=F G=G H=H E=sqrt(2)x$，且 $arrow(E F)\c d o t a r r o w(F G)=(-x,x) dot (x,x)=0$，所以四边形 $E F G H$ 四边相等且有一个直角，是正方形.
-+ (2) 设 $C E=C F=x$，则 $B E=0.4-x$，且 $0<x<0.4$. 设三种材料的每平方米价格依次为 $3 k$，$2 k$，$k$，其中 $k>0$. 每块地砖的费用为 $W$，于是
-
-$ \b e g i n{a l i g n e d} W&=(1)/(2)x^2 dot 3 k+(1)/(2) times 0 .4 times (0.4-x) times 2 k\\ & +[0.16-(1)/(2)x^2-(1)/(2) times 0 .4 times (0.4-x)]k\\ &=k(x^2-0.2 x+0.24) =k[(x-0.1)^2+0.23], 0<x<0.4. \e n d{a l i g n e d} $
-
-由 $k>0$ 可知，当且仅当 $x=0.1$ 时，$W$ 有最小值，即总费用最省. 答：当 $C E=C F=0.1" 米"$ 时，总费用最省.
++ (1)
 ]
 
 #problem(20)[
-通常用 $a$，$b$，$c$ 分别表示 $triangle A B C$ 的三个内角 $A$，$B$，$C$ 所对边的边长，$R$ 表示 $triangle A B C$ 的外接圆半径.
+通常用 #mi(`a`)，#mi(`b`)，#mi(`c`) 分别表示 #mi(`\triangle ABC`) 的三个内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对边的边长，#mi(`R`) 表示 #mi(`\triangle ABC`) 的外接圆半径.
 
 
-+ (1) 如图，在以 $O$ 为圆心，半径为 $2$ 的 $\o d o t O$ 中，$B C$ 和 $B A$ 是 $\o d o t O$ 的弦，其中 $B C=2$，$angle A B C=45^ degree$，求弦 $A B$ 的长；
-+ (2) 在 $triangle A B C$ 中，若 $angle C$ 是钝角，求证：$a^2+b^2<4 R^2$；
-+ (3) 给定三个正实数 $a$，$b$，$R$，其中 $b <= a$. 问：$a$，$b$，$R$ 满足怎样的关系时，以 $a$，$b$ 为边长，$R$ 为外接圆半径的 $triangle A B C$ 不存在，存在一个或存在两个（全等三角形算作同一个）？在 $triangle A B C$ 存在的情况下，用 $a$，$b$，$R$ 表示 $c$.
++ (1) 
++ (2) 
+
 
 
 
 #align(center)[#image("/papers/2007/img/shanghai_spring/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) $triangle A B C$ 的外接圆半径为 $2$. 在 $triangle A B C$ 中，$A C=2 R sin B=2 sqrt(2)$，$sin A=(B C)/(2 R)=(1)/(2)$. 由于 $A+B<180^ degree$ 且 $B=45^ degree$，有 $A<135^ degree$，所以 $A=30^ degree$. 因而
-
-$ A B^2=B C^2+A C^2-2 B C dot A C dot cos C =4+8+8 sqrt(2) cos (A+B)=4(sqrt(3)+2)=2(sqrt(3)+1)^2 $
-
-所以 $A B=sqrt(6)+sqrt(2)$.
-+ (2) 由 $sin A=(a)/(2 R)$，$sin B=(b)/(2 R)$. 因为 $angle C$ 是钝角，所以 $angle A$，$angle B$ 都是锐角，于是
-$cos A=(1)/(2 R)sqrt(4 R^2-a^2)$，$cos B=(1)/(2 R)sqrt(4 R^2-b^2)$，且
-
-$ cos C=- cos (A+B)=(1)/(4 R^2)(a b-sqrt(4 R^2-a^2)sqrt(4 R^2-b^2))<0 $
-
-因此 $a^(2) b^2<(4 R^2-a^2)(4 R^2-b^2)$，从而 $16 R^4-4 R^2(a^2+b^2)>0$. 即 $a^2+b^2<4 R^2$.
-+ (3) 当 $a>2 R$ 或 $a=b=2 R$ 时，所求的 $triangle A B C$ 不存在.
-
-当 $a=2 R$ 且 $b<a$ 时，$angle A=90^ degree$，所求的 $triangle A B C$ 只存在一个，且 $c=sqrt(a^2-b^2)$.
-
-当 $a<2 R$ 且 $b=a$ 时，$angle A= angle B$，且 $A$，$B$ 都是锐角. 由 $sin A=(a)/(2 R)=(b)/(2 R)= sin B$，可知 $A$，$B$ 唯一确定. 因此所求的 $triangle A B C$ 只存在一个，且
-$c=2 a cos A=(a)/(R)sqrt(4 R^2-a^2)$.
-
-当 $b<a<2 R$ 时，$angle B$ 总是锐角，$angle A$ 可以是钝角，也可以是锐角，因此所求的 $triangle A B C$ 存在两个. 由 $sin A=(a)/(2 R)$，$sin B=(b)/(2 R)$ 得：
-
-若 $angle A<90^ degree$，则 $cos A=(1)/(2 R)sqrt(4 R^2-a^2)$，
-
-$ c=sqrt(a^2+b^2+(a b)/(2 R^2)(sqrt(4 R^2-a^2)sqrt(4 R^2-b^2)-a b)) $
-
-
-若 $angle A>90^ degree$，则 $cos A=-(1)/(2 R)sqrt(4 R^2-a^2)$，
-
-$ c=sqrt(a^2+b^2-(a b)/(2 R^2)(sqrt(4 R^2-a^2)sqrt(4 R^2-b^2)+a b)) $
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-我们在下面的表格内填写数值：先将第 1 行的所有空格填上 $1$；再把一个首项为 $1$，公比为 $q$ 的数列 $\{a_n\}$ 依次填入第一列的空格内；然后按照“任意一格的数是它上面一格的数与它左边一格的数之和”的规则填写其他空格.
+我们在下面的表格内填写数值：先将第 1 行的所有空格填上 #mi(`1`)；再把一个首项为 #mi(`1`)，公比为 #mi(`q`) 的数列 #mi(`\{a_{n}\}`) 依次填入第一列的空格内；然后按照“任意一格的数是它上面一格的数与它左边一格的数之和”的规则填写其他空格.
 
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|c|}
 \hline
- & 第 1 列 & 第 2 列 & 第 3 列 & $dots.c$ & 第 $n$ 列 \\
+
+& 第 1 列 & 第 2 列 & 第 3 列 & #mi(`\cdots`) & 第 #mi(`n`) 列 \\
+
 \hline
-第 1 行 & $1$ & $1$ & $1$ & $dots.c$ & $1$ \\
+
+第 1 行 & #mi(`1`) & #mi(`1`) & #mi(`1`) & #mi(`\cdots`) & #mi(`1`) \\
+
 \hline
-第 2 行 & $q$ &  &  &  &  \\
+
+第 2 行 & #mi(`q`) & & & & \\
+
 \hline
-第 3 行 & $q^2$ &  &  &  &  \\
+
+第 3 行 & #mi(`q^{2}`) & & & & \\
+
 \hline
-$dots.c$ & $dots.c$ &  &  &  &  \\
+
+#mi(`\cdots`) & #mi(`\cdots`) & & & & \\
+
 \hline
-第 $n$ 行 & $q^(n-1)$ &  &  &  &  \\
+
+第 #mi(`n`) 行 & #mi(`q^{n-1}`) & & & & \\
+
 \hline
-\end{tabular}
-\end{center}
 
 
-+ (1) 设第 2 行的数依次为 $B_1$，$B_2$，$dots.c$，$B_n$，试用 $n$，$q$ 表示 $B_1+B_2+ dots.c +B_n$ 的值；
-+ (2) 设第 3 列的数依次为 $c_1$，$c_2$，$c_3$，$dots.c$，$c_n$，求证：对于任意非零实数 $q$，$c_1+c_3>2 c_2$；
-+ (3) 请在以下两个问题中选择一个进行研究（只能选择一个问题，如果都选，被认为选择了第一问）：
-\begin{enumerate}
-+ (4) 能否找到 $q$ 的值，使得第二问中的数列 $c_1$，$c_2$，$c_3$，$dots.c$，$c_n$ 的前 $m$ 项 $c_1$，$c_2$，$c_3$，$dots.c$，$c_m$（$m >= 3$）成为等比数列？若能找到，$m$ 的值有多少个？若不能找到，说明理由；
-+ (5) 能否找到 $q$ 的值，使得填完表格后，除第 1 列外，还有不同的两列数的前三项各自依次成等比数列？并说明理由.
-
-\end{enumerate}
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) $B_1=q$，$B_2=1+q$，$B_3=1+(1+q)=2+q$，$dots.c$，$B_n=(n-1)+q$. 所以 $B_1+B_2+ dots.c +B_n=1+2+ dots.c +(n-1)+n q=(n(n-1))/(2)+n q$.
-+ (2) $c_1=1$，$c_2=1+(1+q)=2+q$，$c_3=(2+q)+(1+q+q^2)=3+2 q+q^2$. 因而
-
-$ c_1+c_3-2 c_2=1+3+2 q+q^2-2(2+q)=q^2>0 $
-
-所以 $c_1+c_3>2 c_2$.
-+ (3) \begin{enumerate}
-+ (4) 先设 $c_1$，$c_2$，$c_3$ 成等比数列. 由 $c_(1) c_3=c_2^2$，得 $3+2 q+q^2=(2+q)^2$，所以 $q=-(1)/(2)$. 此时 $c_1=1$，$c_2=(3)/(2)$，$c_3=(9)/(4)$，所以 $c_1$，$c_2$，$c_3$ 是一个公比为 $(3)/(2)$ 的等比数列. 如果 $m >= 4$ 时 $c_1$，$c_2$，$dots.c$，$c_m$ 为等比数列，那么 $c_1$，$c_2$，$c_3$ 一定是等比数列. 由上所述，此时 $q=-(1)/(2)$，且 $c_4=(23)/(8)$. 因为 $(c_4)/(c_3) != (3)/(2)$，所以对于任意 $m >= 4$，数列 $c_1$，$c_2$，$dots.c$，$c_m$ 一定不是等比数列. 综上所述，当且仅当 $m=3$ 且 $q=-(1)/(2)$ 时，数列 $c_1$，$c_2$，$dots.c$，$c_m$ 是等比数列.
-+ (5) 设 $x_1$，$x_2$，$x_3$ 和 $y_1$，$y_2$，$y_3$ 分别是第 $k+1$ 列和第 $m+1$ 列的前三项，其中 $1 <= k<m <= n-1$. 第 $k+1$ 列第二行的数为 $k+q$，而由逐格相加可得第 $k+1$ 列第三行的数为 $(k(k+1))/(2)+k q+q^2$，因此
-$x_1=1$，$x_2=k+q$，$x_3=(k(k+1))/(2)+k q+q^2$.
-若第 $k+1$ 列的前三项 $x_1$，$x_2$，$x_3$ 是等比数列，则由 $x_(1) x_3=x_2^2$ 得 $(k(k+1))/(2)+k q+q^2=(k+q)^2$，
-从而 $(k^2-k)/(2)+k q=0$，所以 $q=(1-k)/(2)$. 同理，若第 $m+1$ 列的前三项 $y_1$，$y_2$，$y_3$ 是等比数列，则 $q=(1-m)/(2)$. 当 $k != m$ 时，$(1-k)/(2) != (1-m)/(2)$. 所以无论怎样的 $q$，都不能同时找到两列数（除第 1 列外），使它们的前三项都成等比数列.
-
-\end{enumerate}
++ (1) 
++ (2)
 ]
 

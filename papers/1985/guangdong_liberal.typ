@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,242 +11,292 @@
 #part-header("填空题")
 
 #problem(1)[
-$log _(3)5 dot log _(5)9$ 的值等于#blank(){}.
-$2$
+#mi(`\log_{3}5\cdot\log_{5}9`) 的值等于\underline{\hspace{2.5em}}.
+
+#mi(`2`)
 
 利用换底公式，
-$log _(3)5 dot log _(5)9=(ln 5)/(ln 3) dot (ln 9)/(ln 5)=(ln 9)/(ln 3)=2$. 因此填 $2$.
+
+#mi(`\log_{3}5\cdot\log_{5}9=\dfrac{\ln5}{\ln3}\cdot\dfrac{\ln9}{\ln5}=\dfrac{\ln9}{\ln3}=2`). 因此填 #mi(`2`).
 ]
 
 #problem(2)[
-设数列 $\{a_(n)\}$ 的首项 $a_(1) = 8$，且满足 $a_(n) = 2 a_(n-1)$（$n = 2$，$3$，$dots.c$），则 $a_(4)$ 的数值是#blank(){}.
-$64$
+设数列 #mi(`\{a_{n}\}`) 的首项 #mi(`a_{1}= 8`)，且满足 #mi(`a_{n}= 2a_{n-1}`)（#mi(`n = 2`)，#mi(`3`)，#mi(`\cdots`)），则 #mi(`a_{4}`) 的数值是\underline{\hspace{2.5em}}.
 
-由递推关系逐项计算，$a_(2)=2 a_(1)=16$，$a_(3)=2 a_(2)=32$，$a_(4)=2 a_(3)=64$. 因此填 $64$.
+#mi(`64`)
+
+由递推关系逐项计算，#mi(`a_{2}=2a_{1}=16`)，#mi(`a_{3}=2a_{2}=32`)，#mi(`a_{4}=2a_{3}=64`). 因此填 #mi(`64`).
 ]
 
 #problem(3)[
-复数 $sqrt(3)- i$ 的三角形式是#blank(){}.
-$2( cos (11 pi)/(6)+ i sin (11 pi)/(6))$
+复数 #mi(`\sqrt{3}-\mathrm{i}`) 的三角形式是\underline{\hspace{2.5em}}.
 
-复数 $z=sqrt(3)- i$ 的模为 $|z|=sqrt(3+1)=2$. 它的实部为正、虚部为负，辐角在第四象限，且 $cos theta =(sqrt(3))/(2)$、$sin theta =-(1)/(2)$，故可取 $theta =(11 pi)/(6)$. 所以
-$z=2( cos (11 pi)/(6)+ i sin (11 pi)/(6))$，与答案一致.
+#mi(`2\left(\cos\frac{11\pi}{6}+\mathrm{i}\sin\frac{11\pi}{6}\right)`)
+
+复数 #mi(`z=\sqrt{3}-\mathrm{i}`) 的模为 #mi(`|z|=\sqrt{3+1}=2`). 它的实部为正、虚部为负，辐角在第四象限，且 #mi(`\cos\theta=\frac{\sqrt{3}}{2}`)、#mi(`\sin\theta=-\frac{1}{2}`)，故可取 #mi(`\theta=\frac{11\pi}{6}`). 所以
+
+#mi(`z=2\left(\cos\frac{11\pi}{6}+\mathrm{i}\sin\frac{11\pi}{6}\right)`)，与答案一致.
 ]
 
 #problem(4)[
-如果 $f((1)/(x))=(x)/(1-x^(2))$，则 $f(x)=$#blank(){}.
-$(x)/(x^(2)-1)$
+如果 #mi(`f\left(\frac{1}{x}\right)=\frac{x}{1-x^{2}}`)，则 #mi(`f(x)=`)\underline{\hspace{2.5em}}.
 
-令 $t=(1)/(x)$，则 $x=(1)/(t)$. 在原式有意义的范围内，
-$f(t)=((1)/(t))/(1-(1)/(t^(2)))=((1)/(t))/(((t^(2)-1))/(t^(2)))=(t)/(t^(2)-1)$. 将字母 $t$ 改写为 $x$，得 $f(x)=(x)/(x^(2)-1)$. 这里原条件要求代换时 $x != 0$，$+- 1$，所得函数式在相应定义范围内成立.
+#mi(`\frac{x}{x^{2}-1}`)
+
+令 #mi(`t=\frac{1}{x}`)，则 #mi(`x=\frac{1}{t}`). 在原式有意义的范围内，
+
+#mi(`f(t)=\dfrac{\frac{1}{t}}{1-\frac{1}{t^{2}}}=\dfrac{\frac{1}{t}}{\frac{(t^{2}-1)}{t^{2}}}=\dfrac{t}{t^{2}-1}`). 将字母 #mi(`t`) 改写为 #mi(`x`)，得 #mi(`f(x)=\dfrac{x}{x^{2}-1}`). 这里原条件要求代换时 #mi(`x\ne0`)，#mi(`\pm1`)，所得函数式在相应定义范围内成立.
 ]
 
 #problem(5)[
-如果一个圆锥底面的半径增大到原来的 3 倍，但要保持它的体积不变，则其高必须缩小到原来的#blank(){}.
-$(1)/(9)$
+如果一个圆锥底面的半径增大到原来的 3 倍，但要保持它的体积不变，则其高必须缩小到原来的\underline{\hspace{2.5em}}.
 
-设圆锥原来的底面半径和高分别为 $r$、$h$，则体积为 $V=(1)/(3) pi r^(2)h$. 半径变为 $3 r$ 后，若高为 $h'$，由体积不变得
-$(1)/(3) pi (3 r)^(2)h'=(1)/(3) pi r^(2)h$，所以 $9 h'=h$，即 $h'=(1)/(9)h$. 因此填 $(1)/(9)$.
+#mi(`\frac{1}{9}`)
+
+设圆锥原来的底面半径和高分别为 #mi(`r`)、#mi(`h`)，则体积为 #mi(`V=\frac{1}{3}\pi r^{2}h`). 半径变为 #mi(`3r`) 后，若高为 #mi(`h'`)，由体积不变得
+
+#mi(`\frac{1}{3}\pi(3r)^{2}h'=\frac{1}{3}\pi r^{2}h`)，所以 #mi(`9h'=h`)，即 #mi(`h'=\frac{1}{9}h`). 因此填 #mi(`\frac{1}{9}`).
 ]
 
 #problem(6)[
-$cos (pi)/(5)+ cos (2 pi)/(5)+ cos (3 pi)/(5)+ cos (4 pi)/(5)$ 的值等于#blank(){}.
-$0$
+#mi(`\cos \frac{\pi}{5}+ \cos \frac{2\pi}{5}+ \cos \frac{3\pi}{5}+ \cos \frac{4\pi}{5}`) 的值等于\underline{\hspace{2.5em}}.
 
-利用 $cos ( pi - theta )=- cos theta$，有 $cos (4 pi)/(5)=- cos (pi)/(5)$，以及 $cos (3 pi)/(5)=- cos (2 pi)/(5)$. 因而四项两两相消，原和为 $0$.
+#mi(`0`)
+
+利用 #mi(`\cos(\pi-\theta)=-\cos\theta`)，有 #mi(`\cos\frac{4\pi}{5}=-\cos\frac{\pi}{5}`)，以及 #mi(`\cos\frac{3\pi}{5}=-\cos\frac{2\pi}{5}`). 因而四项两两相消，原和为 #mi(`0`).
 ]
 
 #problem(7)[
-$lim_(n -> oo )(1 + 4 + 7 + dots.c + (3 n - 2))/(n(n + 1))$ 的值等于#blank(){}.
-$(3)/(2)$
+#mi(`\displaystyle\lim_{n\to\infty}\frac{1 + 4 + 7 + \cdots + (3n - 2)}{n(n + 1)}`) 的值等于\underline{\hspace{2.5em}}.
 
-分子是首项为 $1$、公差为 $3$、项数为 $n$ 的等差数列之和，因此
-$1+4+7+ dots.c +(3 n-2)=(n[1+(3 n-2)])/(2)=(n(3 n-1))/(2)$. 所以
-$lim_(n -> oo )(1+4+7+ dots.c +(3 n-2))/(n(n+1))=lim_(n -> oo )(3 n-1)/(2(n+1))=(3)/(2)$.
+#mi(`\frac{3}{2}`)
+
+分子是首项为 #mi(`1`)、公差为 #mi(`3`)、项数为 #mi(`n`) 的等差数列之和，因此
+
+#mi(`1+4+7+\cdots+(3n-2)=\frac{n[1+(3n-2)]}{2}=\frac{n(3n-1)}{2}`). 所以
+
+#mi(`\displaystyle\lim_{n\to\infty}\frac{1+4+7+\cdots+(3n-2)}{n(n+1)}=\lim_{n\to\infty}\frac{3n-1}{2(n+1)}=\frac{3}{2}`).
 ]
 
 #problem(8)[
-在一个长方体中，和其中一条确定的棱相垂直的棱的总数是#blank(){} 条.
-$8$
+在一个长方体中，和其中一条确定的棱相垂直的棱的总数是\underline{\hspace{2.5em}} 条.
 
-长方体的棱只有三个方向，任取一条固定的棱后，与它同方向的另外三条棱均平行，不能计入；另外两个方向各有四条棱，并且这八条棱的方向都与固定棱垂直. 因此总数为 $4+4=8$ 条.
+#mi(`8`)
+
+长方体的棱只有三个方向，任取一条固定的棱后，与它同方向的另外三条棱均平行，不能计入；另外两个方向各有四条棱，并且这八条棱的方向都与固定棱垂直. 因此总数为 #mi(`4+4=8`) 条.
 ]
 
 #problem(9)[
-双曲线 $(x^2)/(3)- y^2 = 1$ 的两条渐近线所夹的锐角的大小是#blank(){} 弧度.
-$(pi)/(3)$
+双曲线 #mi(`\frac{x^{2}}{3}- y^{2} = 1`) 的两条渐近线所夹的锐角的大小是\underline{\hspace{2.5em}} 弧度.
 
-双曲线可写为 $(x^(2))/((sqrt(3))^(2))-(y^(2))/(1^(2))=1$，所以两条渐近线为 $y=(x)/(sqrt(3))$ 和 $y=-(x)/(sqrt(3))$. 设它们的锐角为 $theta$，则
-$tan theta =|((1)/(sqrt(3))-(-(1)/(sqrt(3))))/(1-(1)/(3))|=sqrt(3)$. 因为 $0< theta <(pi)/(2)$，故 $theta =(pi)/(3)$.
+#mi(`\frac{\pi}{3}`)
+
+双曲线可写为 #mi(`\frac{x^{2}}{(\sqrt{3})^{2}}-\frac{y^{2}}{1^{2}}=1`)，所以两条渐近线为 #mi(`y=\frac{x}{\sqrt{3}}`) 和 #mi(`y=-\frac{x}{\sqrt{3}}`). 设它们的锐角为 #mi(`\theta`)，则
+
+#mi(`\tan\theta=\left|\dfrac{\frac{1}{\sqrt{3}}-(-\frac{1}{\sqrt{3}})}{1-\frac{1}{3}}\right|=\sqrt{3}`). 因为 #mi(`0<\theta<\frac{\pi}{2}`)，故 #mi(`\theta=\frac{\pi}{3}`).
 ]
 
 #problem(10)[
-函数 $y = sin ""^(2)(2 x)$ 的最小正周期是#blank(){}.
-$(pi)/(2)$
+函数 #mi(`y = \sin^{2}(2x)`) 的最小正周期是\underline{\hspace{2.5em}}.
 
-由恒等式 $sin ""^(2)(2 x)=(1- cos 4 x)/(2)$，函数的周期由 $cos 4 x$ 决定. 其最小正周期 $T$ 满足 $4 T=2 pi$，所以 $T=(pi)/(2)$.
+#mi(`\frac{\pi}{2}`)
+
+由恒等式 #mi(`\sin^{2}(2x)=\frac{1-\cos4x}{2}`)，函数的周期由 #mi(`\cos4x`) 决定. 其最小正周期 #mi(`T`) 满足 #mi(`4T=2\pi`)，所以 #mi(`T=\frac{\pi}{2}`).
 ]
 
 #part-header("单选题")
 
 #problem(11)[
-函数 $y = 2^(-x)$ 的图象的大致形状是（ ）
+函数 #mi(`y = 2^{-x}`) 的图象的大致形状是（ ）
 
-    {
-#align(center)[#box(height: 2.8cm)[#image("/papers/1985/img/guangdong_liberal/q1_optE.png", height: 100%, fit: "contain")]]
-}
+ 
+#align(center)[#image("/papers/1985/img/guangdong_liberal/q1_optE.png", width: 28%)]
+ 
+
 E
 
-$y=2^(-x)=((1)/(2))^x$ 的函数值始终为正，且底数 $(1)/(2)$ 小于 $1$，所以图象从左向右递减；又有 $f(0)=1$，并且当 $x -> + oo$ 时 $f(x) -> 0$. 第五项的图象同时具有这些特征，故选第五项.
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/1985/img/guangdong_liberal/q1_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/1985/img/guangdong_liberal/q1_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/1985/img/guangdong_liberal/q1_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/1985/img/guangdong_liberal/q1_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+#mi(`y=2^{-x}=\left(\frac{1}{2}\right)^{x}`) 的函数值始终为正，且底数 #mi(`\frac{1}{2}`) 小于 #mi(`1`)，所以图象从左向右递减；又有 #mi(`f(0)=1`)，并且当 #mi(`x\to+\infty`) 时 #mi(`f(x)\to0`). 第五项的图象同时具有这些特征，故选第五项.
+  #choices([
+#align(center)[#image("/papers/1985/img/guangdong_liberal/q1_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1985/img/guangdong_liberal/q1_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1985/img/guangdong_liberal/q1_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1985/img/guangdong_liberal/q1_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #problem(12)[
-函数 $y = sqrt(\l g(1 - x))$ 的定义域是（ ）
+函数 #mi(`y = \sqrt{\lg(1 - x)}`) 的定义域是（ ）
 
-    {$(- oo , 1)$}
+#mi(`(-\infty, 1)`)
+
 B
 
-要使 $sqrt(\l g(1-x))$ 有意义，首先须有 $1-x>0$，并且根式内还须满足 $\l g(1-x) >= 0$. 因为常用对数的底数大于 $1$，所以 $1-x >= 1$，即 $x <= 0$. 定义域为 $(- oo ,0]$，故选第二项.
-  #choices([$(- oo ,+ oo )$], [$(- oo , 0]$], [$(- oo , 0)$], [$(- oo , 1]$], cols: 4)
+要使 #mi(`\sqrt{\lg(1-x)}`) 有意义，首先须有 #mi(`1-x>0`)，并且根式内还须满足 #mi(`\lg(1-x)\geqslant0`). 因为常用对数的底数大于 #mi(`1`)，所以 #mi(`1-x\geqslant1`)，即 #mi(`x\leqslant0`). 定义域为 #mi(`(-\infty,0]`)，故选第二项.
+  #choices([#mi(`(-\infty,+\infty)`)], [#mi(`(-\infty, 0]`)], [#mi(`(-\infty, 0)`)], [#mi(`(-\infty, 1]`)], cols: 2)
 ]
 
 #problem(13)[
-以 $A(1, 3)$，$B(-5, 1)$ 为端点的线段的垂直平分线的方程是（ ）
+以 #mi(`A(1, 3)`)，#mi(`B(-5, 1)`) 为端点的线段的垂直平分线的方程是（ ）
 
-    {$3 x + y + 4 = 0$}
+#mi(`3x + y + 4 = 0`)
+
 E
 
-线段 $A B$ 的中点为 $M(-2,2)$，斜率为 $(1-3)/(-5-1)=(1)/(3)$. 垂直平分线的斜率为 $-3$，所以其方程为
-$y-2=-3(x+2)$，即 $3 x+y+4=0$. 因此选 E.
-  #choices([$3 x - y + 8 = 0$], [$3 x + y + 8 = 0$], [$2 x - y - 6 = 0$], [$2 x + y + 2 = 0$], cols: 2)
+线段 #mi(`AB`) 的中点为 #mi(`M\left(-2,2\right)`)，斜率为 #mi(`\dfrac{1-3}{-5-1}=\frac{1}{3}`). 垂直平分线的斜率为 #mi(`-3`)，所以其方程为
+
+#mi(`y-2=-3(x+2)`)，即 #mi(`3x+y+4=0`). 因此选 E.
+  #choices([#mi(`3x - y + 8 = 0`)], [#mi(`3x + y + 8 = 0`)], [#mi(`2x - y - 6 = 0`)], [#mi(`2x + y + 2 = 0`)], cols: 2)
 ]
 
 #problem(14)[
 下列不等式中，成立的是（ ）
 
-    {$tan (3 pi)/(8)< tan (7 pi)/(8)$}
+#mi(`\tan \frac{3\pi}{8}< \tan \frac{7\pi}{8}`)
+
 C
 
-因为 $sin (7 pi)/(8)= sin (pi)/(8)$，而 $(3 pi)/(8)>(pi)/(8)$ 且正弦函数在 $(0,(pi)/(2))$ 上递增，所以 $sin (3 pi)/(8)> sin (7 pi)/(8)$，第一项错.
-$cos (3 pi)/(8)>0> cos (7 pi)/(8)$，所以第二项错. 两个正弦值均为正，且 $sin (3 pi)/(8)> sin (7 pi)/(8)$，取倒数后不等号反向，得到 $\csc(3 pi)/(8)<\csc(7 pi)/(8)$，第三项对.
-又 $cot (3 pi)/(8)>0> cot (7 pi)/(8)$，第四项错；$tan (3 pi)/(8)>0> tan (7 pi)/(8)$，第五项错. 故选第三项.
-  #choices([$sin (3 pi)/(8)< sin (7 pi)/(8)$], [$cos (3 pi)/(8)< cos (7 pi)/(8)$], [$\csc (3 pi)/(8)< \csc (7 pi)/(8)$], [$cot (3 pi)/(8)< cot (7 pi)/(8)$], cols: 1)
+因为 #mi(`\sin\frac{7\pi}{8}=\sin\frac{\pi}{8}`)，而 #mi(`\frac{3\pi}{8}>\frac{\pi}{8}`) 且正弦函数在 #mi(`\left(0,\frac{\pi}{2}\right)`) 上递增，所以 #mi(`\sin\frac{3\pi}{8}>\sin\frac{7\pi}{8}`)，第一项错.
+
+#mi(`\cos\frac{3\pi}{8}>0>\cos\frac{7\pi}{8}`)，所以第二项错. 两个正弦值均为正，且 #mi(`\sin\frac{3\pi}{8}>\sin\frac{7\pi}{8}`)，取倒数后不等号反向，得到 #mi(`\csc\frac{3\pi}{8}<\csc\frac{7\pi}{8}`)，第三项对.
+
+又 #mi(`\cot\frac{3\pi}{8}>0>\cot\frac{7\pi}{8}`)，第四项错；#mi(`\tan\frac{3\pi}{8}>0>\tan\frac{7\pi}{8}`)，第五项错. 故选第三项.
+  #choices([#mi(`\sin \frac{3\pi}{8}< \sin \frac{7\pi}{8}`)], [#mi(`\cos \frac{3\pi}{8}< \cos \frac{7\pi}{8}`)], [#mi(`\csc \frac{3\pi}{8}< \csc \frac{7\pi}{8}`)], [#mi(`\cot \frac{3\pi}{8}< \cot \frac{7\pi}{8}`)], cols: 1)
 ]
 
 #problem(15)[
 下列函数中，为奇函数的是（ ）
 
-    {$|x|^(3)$}
+#mi(`|x|^{3}`)
+
 D
 
-逐项检验奇函数条件 $f(-x)=-f(x)$. $x^(2)+x^(3)$ 的偶次项不满足该条件；$log _(x) x$ 的定义域为 $x>0$ 且 $x != 1$，不是关于原点对称；$sin x+1$ 含常数项；$|x|^(3)$ 是偶函数. 对于 $f(x)=root(3, x)$，定义域为 $RR$，且 $f(-x)=root(3, -x)=-root(3, x)=-f(x)$，所以它是奇函数. 故选第四项.
-  #choices([$x^(2) + x^(3)$], [$log _(x)x$], [$sin x + 1$], [$root(3, x)$], cols: 4)
+逐项检验奇函数条件 #mi(`f(-x)=-f(x)`). #mi(`x^{2}+x^{3}`) 的偶次项不满足该条件；#mi(`\log_{x}x`) 的定义域为 #mi(`x>0`) 且 #mi(`x\ne1`)，不是关于原点对称；#mi(`\sin x+1`) 含常数项；#mi(`|x|^{3}`) 是偶函数. 对于 #mi(`f(x)=\sqrt[3]{x}`)，定义域为 #mi(`\mathbb{R}`)，且 #mi(`f(-x)=\sqrt[3]{-x}=-\sqrt[3]{x}=-f(x)`)，所以它是奇函数. 故选第四项.
+  #choices([#mi(`x^{2}+ x^{3}`)], [#mi(`\log_{x}x`)], [#mi(`\sin x + 1`)], [#mi(`\sqrt[3]{x}`)], cols: 2)
 ]
 
 #problem(16)[
-已知 $180^( degree ) < alpha < 270^( degree )$，且 $sin (270^( degree ) + alpha ) = (4)/(5)$，则 $tan (alpha)/(2)=$（ ）
+已知 #mi(`180^{\circ}< \alpha < 270^{\circ}`)，且 #mi(`\sin (270^{\circ}+ \alpha) = \frac{4}{5}`)，则 #mi(`\tan \frac{\alpha}{2}=`)（ ）
 
-    {$-(1)/(3)$}
+#mi(`-\frac{1}{3}`)
+
 D
 
-由 $sin (270^( degree )+ alpha )=- cos alpha$，题设给出 $cos alpha =-(4)/(5)$. 因为 $180^( degree )< alpha <270^( degree )$，故 $sin alpha =-(3)/(5)$. 半角公式给出
-$tan (alpha)/(2)=(sin alpha)/(1+ cos alpha)=(-(3)/(5))/(1-(4)/(5))=-3$. 因此选第四项.
-  #choices([3], [2], [$-2$], [$-3$], cols: 4)
+由 #mi(`\sin(270^{\circ}+\alpha)=-\cos\alpha`)，题设给出 #mi(`\cos\alpha=-\frac{4}{5}`). 因为 #mi(`180^{\circ}<\alpha<270^{\circ}`)，故 #mi(`\sin\alpha=-\frac{3}{5}`). 半角公式给出
+
+#mi(`\tan\frac{\alpha}{2}=\dfrac{\sin\alpha}{1+\cos\alpha}=\dfrac{-\frac{3}{5}}{1-\frac{4}{5}}=-3`). 因此选第四项.
+  #choices([3], [2], [#mi(`-2`)], [#mi(`-3`)], cols: 4)
 ]
 
 #problem(17)[
-$y = x^(2)$（$x <= 0$）的反函数是（ ）
+#mi(`y = x^{2}`)（#mi(`x \le 0`)）的反函数是（ ）
 
-    {$y = -sqrt(-x)$}
+#mi(`y = -\sqrt{-x}`)
+
 C
 
-原函数在 $x <= 0$ 上为单调递减，值域为 $[0,+ oo )$. 由 $y=x^(2)$ 且 $x <= 0$，解得 $x=-sqrt(y)$. 交换自变量与因变量，反函数为 $y=-sqrt(x)$，其定义域为 $x >= 0$. 故选第三项.
-  #choices([$y = sqrt(x)$], [$y = +- sqrt(x)$], [$y = -sqrt(x)$], [$y = sqrt(-x)$], cols: 2)
+原函数在 #mi(`x\leqslant0`) 上为单调递减，值域为 #mi(`[0,+\infty)`). 由 #mi(`y=x^{2}`) 且 #mi(`x\leqslant0`)，解得 #mi(`x=-\sqrt{y}`). 交换自变量与因变量，反函数为 #mi(`y=-\sqrt{x}`)，其定义域为 #mi(`x\geqslant0`). 故选第三项.
+  #choices([#mi(`y = \sqrt{x}`)], [#mi(`y = \pm \sqrt{x}`)], [#mi(`y = -\sqrt{x}`)], [#mi(`y = \sqrt{-x}`)], cols: 2)
 ]
 
 #problem(18)[
-设 $R = \{"实数"\}$，$M = \{"纯虚数"\}$，$C = \{"复数"\}$，其中 $C$ 是全集，则（ ）
+设 #mi(`R = \{\text{\text{实数}}\}`)，#mi(`M = \{\text{\text{纯虚数}}\}`)，#mi(`C = \{\text{\text{复数}}\}`)，其中 #mi(`C`) 是全集，则（ ）
 
-    {$C inter overline(R)= M$}
+#mi(`C \cap \overline{R}= M`)
+
 A
 
-在全集 $C$ 中，$\overline R$ 是实数集 $R$ 的补集，因此任意复数必属于 $R$ 或 $\overline R$，且不可能同时属于二者，从而 $R union \overline R=C$，第一项正确. 对第二项，$\overline M union R$ 不包含非零纯虚数；对第三项，$M union R$ 不包含实部、虚部均非零的复数；对第四项，按本题“纯虚数”的定义，$M inter R= emptyset != \{0\}$；对第五项，$C inter \overline R=\overline R$ 是非实数复数集，不等于纯虚数集 $M$. 因此只有第一项正确，故选第一项.
-  #choices([$R union overline(R)= C$], [$overline(M) union R = C$], [$M union R = C$], [$M inter R = \{0\}$], cols: 2)
+在全集 #mi(`C`) 中，#mi(`\overline R`) 是实数集 #mi(`R`) 的补集，因此任意复数必属于 #mi(`R`) 或 #mi(`\overline R`)，且不可能同时属于二者，从而 #mi(`R\cup\overline R=C`)，第一项正确. 对第二项，#mi(`\overline M\cup R`) 不包含非零纯虚数；对第三项，#mi(`M\cup R`) 不包含实部、虚部均非零的复数；对第四项，按本题“纯虚数”的定义，#mi(`M\cap R=\varnothing\ne\{0\}`)；对第五项，#mi(`C\cap\overline R=\overline R`) 是非实数复数集，不等于纯虚数集 #mi(`M`). 因此只有第一项正确，故选第一项.
+  #choices([#mi(`R \cup \overline{R}= C`)], [#mi(`\overline{M}\cup R = C`)], [#mi(`M \cup R = C`)], [#mi(`M \cap R = \{0\}`)], cols: 2)
 ]
 
 #problem(19)[
-设向量 $arrow(O Z)$ 对应于复数 $-2 sqrt(3)+ 4 i$. 把 $arrow(O Z)$ 按顺时针方向旋转 $60^ degree$ 得到 $arrow(O Z_1)$，则与向量 $arrow(O Z_1)$ 对应的复数是（ ）
+设向量 #mi(`\overrightarrow{OZ}`) 对应于复数 #mi(`-2\sqrt{3}+ 4\mathrm{i}`). 把 #mi(`\overrightarrow{OZ}`) 按顺时针方向旋转 #mi(`60^{\circ}`) 得到 #mi(`\overrightarrow{OZ_1}`)，则与向量 #mi(`\overrightarrow{OZ_1}`) 对应的复数是（ ）
 
-    {$1 + 3 sqrt(3) i$}
+#mi(`1 + 3\sqrt{3}\mathrm{i}`)
+
 B
 
-顺时针旋转 $60^( degree )$ 等价于乘以复数
-$cos (-60^( degree ))+ i sin (-60^( degree ))=(1)/(2)-(sqrt(3))/(2) i$. 因而旋转后的复数为
-$(-2 sqrt(3)+4 i )((1)/(2)-(sqrt(3))/(2) i )=-sqrt(3)+3 i +2 i +2 sqrt(3)=sqrt(3)+5 i$. 所以选第二项.
-  #choices([$-3 sqrt(3)- i$], [$sqrt(3)+ 5 i$], [$-2 sqrt(3)- 4 i$], [$2 sqrt(3)+ 4 i$], cols: 2)
+顺时针旋转 #mi(`60^{\circ}`) 等价于乘以复数
+
+#mi(`\cos(-60^{\circ})+\mathrm{i}\sin(-60^{\circ})=\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}`). 因而旋转后的复数为
+
+#mi(`(-2\sqrt{3}+4\mathrm{i})\left(\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}\right)=-\sqrt{3}+3\mathrm{i}+2\mathrm{i}+2\sqrt{3}=\sqrt{3}+5\mathrm{i}`). 所以选第二项.
+  #choices([#mi(`-3\sqrt{3}- \mathrm{i}`)], [#mi(`\sqrt{3}+ 5\mathrm{i}`)], [#mi(`-2\sqrt{3}- 4\mathrm{i}`)], [#mi(`2\sqrt{3}+ 4\mathrm{i}`)], cols: 2)
 ]
 
 #problem(20)[
 某班上午要上语文，数学，体育，外语四门课，其中体育老师因故不能上第一节和第四节，则不同排课方案的种数是（ ）
 
-    {24}
+24
+
 B
 
-体育课只能安排在第二节或第三节，有 $2$ 种选择. 确定体育课的位置后，语文、数学、外语在其余三节中任意排列，有 $3!=6$ 种. 因此排课方案数为 $2 times 3 !=12$，选 B.
+体育课只能安排在第二节或第三节，有 #mi(`2`) 种选择. 确定体育课的位置后，语文、数学、外语在其余三节中任意排列，有 #mi(`3!=6`) 种. 因此排课方案数为 #mi(`2\times3!=12`)，选 B.
   #choices([10], [12], [20], [22], cols: 4)
 ]
 
 #problem(21)[
-$(x + (1)/(sqrt(x)))^6$ 的展开式中常数项是（ ）
+#mi(`\left(x + \frac{1}{\sqrt{x}}\right)^{6}`) 的展开式中常数项是（ ）
 
-    {30}
+30
+
 C
 
-展开通项中，若取 $k$ 个 $x$，取 $6-k$ 个 $x^(-(1)/(2))$，则该项的幂次为
-$k-(6-k)/(2)=(3 k-6)/(2)$. 常数项要求幂次为零，所以 $k=2$. 其系数为 $C_6^2=15$，故选第三项.
+展开通项中，若取 #mi(`k`) 个 #mi(`x`)，取 #mi(`6-k`) 个 #mi(`x^{-\frac{1}{2}}`)，则该项的幂次为
+
+#mi(`k-\frac{6-k}{2}=\frac{3k-6}{2}`). 常数项要求幂次为零，所以 #mi(`k=2`). 其系数为 #mi(`\mathrm{C}_{6}^{2}=15`)，故选第三项.
   #choices([1], [6], [15], [20], cols: 4)
 ]
 
 #problem(22)[
-不等式 $|2 x-3|>3$ 的解集是（ ）
+不等式 #mi(`|2x-3|>3`) 的解集是（ ）
 
-    {$\{x | 0<x<3\}$}
+#mi(`\{x\mid 0<x<3\}`)
+
 D
 
 绝对值不等式等价于
-$2 x-3>3$ 或 $2 x-3<-3$. 分别解得 $x>3$ 或 $x<0$，所以解集为 $\{x | x>3"或"x<0\}$，选 D.
-  #choices([$\{x | x>3\}$], [$\{x | x<0\}$], [$\{x | x>3 "且"x<0\}$], [$\{x | x>3"或"x<0\}$], cols: 2)
+
+#mi(`2x-3>3`) 或 #mi(`2x-3<-3`). 分别解得 #mi(`x>3`) 或 #mi(`x<0`)，所以解集为 #mi(`\{x\mid x>3\text{\text{或}}x<0\}`)，选 D.
+  #choices([#mi(`\{x\mid x>3\}`)], [#mi(`\{x\mid x<0\}`)], [#mi(`\{x\mid x>3 \text{\text{且}}x<0\}`)], [#mi(`\{x\mid x>3\text{\text{或}}x<0\}`)], cols: 1)
 ]
 
 #problem(23)[
-已知圆的方程为 $x^(2) + y^(2) - 2 x + 6 y + 8 = 0$，那么通过圆心的一条直线的方程是（ ）
+已知圆的方程为 #mi(`x^{2}+ y^{2}- 2x + 6y + 8 = 0`)，那么通过圆心的一条直线的方程是（ ）
 
-    {$y - 2 x + 2 = 0$}
+#mi(`y - 2x + 2 = 0`)
+
 B
 
-配方得 $x^(2)-2 x+y^(2)+6 y+8=0$，即 $(x-1)^(2)+(y+3)^(2)=2$. 所以圆心为 $(1,-3)$. 逐项代入圆心坐标，只有 $2 x+y+1=2-3+1=0$ 成立，故通过圆心的直线可取第二项.
-  #choices([$2 x - y + 1 = 0$], [$2 x + y + 1 = 0$], [$2 x - y - 1 = 0$], [$2 x + y - 1 = 0$], cols: 2)
+配方得 #mi(`x^{2}-2x+y^{2}+6y+8=0`)，即 #mi(`(x-1)^{2}+(y+3)^{2}=2`). 所以圆心为 #mi(`(1,-3)`). 逐项代入圆心坐标，只有 #mi(`2x+y+1=2-3+1=0`) 成立，故通过圆心的直线可取第二项.
+  #choices([#mi(`2x - y + 1 = 0`)], [#mi(`2x + y + 1 = 0`)], [#mi(`2x - y - 1 = 0`)], [#mi(`2x + y - 1 = 0`)], cols: 2)
 ]
 
 #problem(24)[
-已知椭圆的焦点是 $(1, 0)$ 和 $(-3, 0)$，且短半轴长为 3，则椭圆的方程是（ ）
+已知椭圆的焦点是 #mi(`(1, 0)`) 和 #mi(`(-3, 0)`)，且短半轴长为 3，则椭圆的方程是（ ）
 
-    {$(x^2)/(13)+ ((y - 1)^2)/(9)= 1$}
+#mi(`\frac{x^{2}}{13}+ \frac{(y - 1)^{2}}{9}= 1`)
+
 A
 
-两焦点的中点是椭圆中心 $(-1,0)$，半焦距为 $c=2$. 短半轴长为 $b=3$，故长半轴满足 $a^(2)=b^(2)+c^(2)=9+4=13$. 长轴在 $x$ 轴上，所以椭圆方程为
-$((x+1)^(2))/(13)+\d f r a c{y^(2)}9=1$，选 A.
-  #choices([$((x + 1)^2)/(13)+ (y^2)/(9)= 1$], [$(x^2)/(13)+ (y^2)/(9)= 1$], [$((x - 1)^2)/(13)+ (y^2)/(9)= 1$], [$((x + 1)^2)/(9)+ (y^2)/(13)= 1$], cols: 1)
+两焦点的中点是椭圆中心 #mi(`(-1,0)`)，半焦距为 #mi(`c=2`). 短半轴长为 #mi(`b=3`)，故长半轴满足 #mi(`a^{2}=b^{2}+c^{2}=9+4=13`). 长轴在 #mi(`x`) 轴上，所以椭圆方程为
+
+#mi(`\dfrac{(x+1)^{2}}{13}+\dfrac{y^{2}}9=1`)，选 A.
+  #choices([#mi(`\frac{(x + 1)^{2}}{13}+ \frac{y^{2}}{9}= 1`)], [#mi(`\frac{x^{2}}{13}+ \frac{y^{2}}{9}= 1`)], [#mi(`\frac{(x - 1)^{2}}{13}+ \frac{y^{2}}{9}= 1`)], [#mi(`\frac{(x + 1)^{2}}{9}+ \frac{y^{2}}{13}= 1`)], cols: 1)
 ]
 
 #problem(25)[
 在空间中，可以确定一个平面的条件是（ ）
 
-    {两条直线}
+两条直线
+
 D
 
 两条相交直线可以确定一个平面，但第一、第二、第五项都没有排除直线共点、平行或异面等情形，第三项的三个点也可能共线，均不能保证唯一确定平面.
+
 若三条直线两两相交但不共点，任取其中两条直线确定一个平面；第三条直线分别与这两条直线相交于两个不同的点，因此第三条直线也在该平面内. 所以三条直线共面并确定一个平面，故选第四项.
   #choices([两两相交的三条直线], [三条直线，其中的一条直线与另外两条直线分别相交], [三个点], [三条直线，它们两两相交，但不交于同一点], cols: 2)
 ]
@@ -254,117 +304,89 @@ D
 #part-header("解答题")
 
 #problem(26)[
-证明 $(tan ( alpha + beta ) - tan alpha)/(1 + tan beta tan ( alpha + beta ))= (sin 2 beta)/(2 cos ""^2 alpha)$.
+证明 #mi(`\frac{\tan(\alpha + \beta) - \tan\alpha}{1 + \tan\beta\tan(\alpha + \beta)}= \frac{\sin 2\beta}{2\cos^{2}\alpha}`).
 
 在各式有意义且原分式分母不为零的范围内，利用正切加法公式，
 
-$ \b e g i n{g a t h e r e d} (tan ( alpha + beta ) - tan alpha)/(1 + tan beta tan ( alpha + beta ))= ((tan alpha + tan beta)/(1- tan alpha tan beta)- tan alpha)/(1+ tan beta (tan alpha + tan beta)/(1- tan alpha tan beta))\\ = (tan beta (1+ tan ""^(2){ alpha }))/(1+ tan ""^(2) beta)= ((sin beta)/(cos beta) dot (1)/(cos ""^(2) alpha))/((1)/(cos ""^(2) beta)),\\ = (sin beta cos beta)/(cos ""^(2) alpha)= (sin 2 beta)/(2 cos ""^(2) alpha). \e n d{g a t h e r e d} $
+
+#align(center)[#mitex(`
+\begin{gathered}\frac{\tan(\alpha + \beta) - \tan\alpha}{1 + \tan\beta\tan(\alpha + \beta)}
+
+= \frac{\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}-\tan\alpha}{1+\tan\beta\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}}\\
+
+= \frac{\tan\beta(1+\tan^{2}\alpha)}{1+\tan^{2}\beta}
+
+= \frac{\frac{\sin\beta}{\cos\beta}\cdot\frac{1}{\cos^{2}\alpha}}{\frac{1}{\cos^{2}\beta}},\\
+
+= \frac{\sin\beta\cos\beta}{\cos^{2}\alpha}
+
+= \frac{\sin 2\beta}{2\cos^{2}\alpha}.\end{gathered}
+`)]
 ]
 
 #problem(27)[
-用数学归纳法证明：$1^(2)+3^(2)+5^(2)+ dots.c +(2 n-1)^(2)=(1)/(3)n(4 n^(2)-1)$（$n$为自然数）.
+用数学归纳法证明：#mi(`1^{2}+3^{2}+5^{2}+\cdots+(2n-1)^{2}=\frac{1}{3}n(4n^{2}-1)`)（#mi(`n`) 为自然数）.
 
-设命题 $P(n)$ 为 $1^(2)+3^(2)+5^(2)+ dots.c +(2 n-1)^(2)=(1)/(3)n(4 n^(2)-1)$. 当 $n=1$ 时，左边为 $1$，右边为 $(1)/(3)(4-1)=1$，所以 $P(1)$ 成立.
+设命题 #mi(`P(n)`) 为 #mi(`1^{2}+3^{2}+5^{2}+\cdots+(2n-1)^{2}=\frac{1}{3}n(4n^{2}-1)`). 当 #mi(`n=1`) 时，左边为 #mi(`1`)，右边为 #mi(`\frac{1}{3}(4-1)=1`)，所以 #mi(`P(1)`) 成立.
 
-假设 $k >= 1$ 时 $P(k)$ 成立，即
-$1^(2)+3^(2)+5^(2)+ dots.c +(2 k-1)^(2)=(1)/(3)k(4 k^(2)-1)$. 则当 $n=k+1$ 时，
+假设 #mi(`k\geqslant1`) 时 #mi(`P(k)`) 成立，即
 
-$ 1^(2)+3^(2)+5^(2)+ dots.c +(2 k-1)^(2)+(2 k+1)^(2) = (1)/(3)k(4 k^(2)-1)+(2 k+1)^(2) = (1)/(3)k(2 k+1)(2 k-1)+(2 k+1)^(2) $
+#mi(`1^{2}+3^{2}+5^{2}+\cdots+(2k-1)^{2}=\frac{1}{3}k(4k^{2}-1)`). 则当 #mi(`n=k+1`) 时，
+
+
+#align(center)[#mitex(`
+1^{2}+3^{2}+5^{2}+\cdots+(2k-1)^{2}+(2k+1)^{2}= \frac{1}{3}k(4k^{2}-1)+(2k+1)^{2}= \frac{1}{3}k(2k+1)(2k-1)+(2k+1)^{2}
+`)]
+
 
 于是
 
-$ (1)/(3)k(2 k+1)(2 k-1)+(2 k+1)^(2) = (1)/(3)(2 k+1)(2 k^(2)+5 k+3) = (1)/(3)(2 k+1)(k+1)(2 k+3) $
+
+#align(center)[#mitex(`
+\frac{1}{3}k(2k+1)(2k-1)+(2k+1)^{2}= \frac{1}{3}(2k+1)(2k^{2}+5k+3)  = \frac{1}{3}(2k+1)(k+1)(2k+3)
+`)]
+
 
 再由
 
-$ (1)/(3)(2 k+1)(k+1)(2 k+3) = (1)/(3)(k+1)[4(k+1)^(2)-1] $
 
-所以 $P(k+1)$ 也成立. 根据数学归纳法，原等式对所有自然数 $n$ 都成立.
+#align(center)[#mitex(`
+\frac{1}{3}(2k+1)(k+1)(2k+3)  = \frac{1}{3}(k+1)\left[4(k+1)^{2}-1\right]
+`)]
+
+
+所以 #mi(`P(k+1)`) 也成立. 根据数学归纳法，原等式对所有自然数 #mi(`n`) 都成立.
 ]
 
 #problem(28)[
-已知椭圆 $C$ 和直线 $l$ 的直角坐标方程分别为 $C:x^(2)+2 y^(2)-8=0$，$l:y=x-2$.
+已知椭圆 #mi(`C`) 和直线 #mi(`l`) 的直角坐标方程分别为 #mi(`C:x^{2}+2y^{2}-8=0`)，#mi(`l:y=x-2`).
 
 
-+ (1) 证明椭圆 $C$ 的一个焦点和短轴的一个端点落在直线 $l$ 上.
-+ (2) 求直线 $l$ 被椭圆 $C$ 所截得线段的长度.
-+ (3) 如果动点 $p$ 至坐标原点的距离与点 $p$ 至直线 $l$ 的距离相等，那么动点 $p$ 的轨迹是什么曲线？请推导出它的方程.
++ (1) 
++ (2) 
 
 
 
-+ (1) 【法一】将椭圆 $C$ 的方程化为标准形式
-$(x^(2))/(8)+(y^(2))/(4)=1$.
-得知椭圆的中心为坐标原点，短轴在 $y$ 轴上，长半轴长 $a=sqrt(8)=2 sqrt(2)$，短半轴长 $b=sqrt(4)=2$，所以半焦距 $c=sqrt(a^(2)-b^(2))=sqrt(8-4)=2$，从而两个焦点的坐标分别为 $(2,0)$ 和 $(-2,0)$，又短轴两个端点的坐标分别为 $(0,2)$ 和 $(0,-2)$. 由直线 $l$ 的方程 $y=x-2$ 可知，当 $x=2$ 时 $y=0$，当 $x=0$ 时 $y=-2$，即椭圆 $C$ 的焦点 $(2,0)$ 与短轴的端点 $(0,-2)$ 都在直线 $l$ 上.
 
-【法二】同【法一】知椭圆 $C$ 的焦点为 $(2,0)$，$(-2,0)$，短轴的端点为 $(0,2)$，$(0,-2)$. 由点 $(2,0)$ 与 $(0,-2)$ 所确定的直线的方程为
-$(y-0)/(-2-0)=(x-2)/(0-2)$，
-即
-$y=x-2$.
-这就是直线 $l$ 的方程，所以椭圆 $C$ 的焦点 $(2,0)$ 与短轴的端点 $(0,-2)$ 都在直线 $l$ 上.
-+ (2) 解方程组
-
-$ \b e g i n{c a s e s} x^(2)+2 y^(2)-8=0,\\ y=x-2. \e n d{c a s e s} $
-
-消去 $y$，得
-$x^(2)+2(x-2)^(2)-8=0$，
-$3 x^(2)-8 x=0$，
-解得
-$x_(1)=0$，$x_(2)=(8)/(3)$.
-从而
-$y_(1)=-2$，$y_(2)=(2)/(3)$.
-即直线 $l$ 被椭圆 $C$ 所截得的线段的端点坐标为 $(0,-2)$ 与 $((8)/(3),(2)/(3))$，该线段长为
-$sqrt(((8)/(3)-0)^(2)+((2)/(3)+2)^(2))=(8 sqrt(2))/(3)$.
-+ (3) 由于动点 $p$ 到坐标原点和到直线 $l$ 的距离相等，可知动点 $p$ 的轨迹是一条抛物线. 设动点 $p$ 的坐标为 $(x,y)$，依题意有
-$sqrt(x^(2)+y^(2))=(|y-x+2|)/(sqrt(1^(2)+(-1)^(2)))$.
-等式两边均非负，平方不会引入或丢失轨迹上的点. 两边平方，得
-$x^(2)+y^(2)=(1)/(2)(y^(2)+x^(2)+4-2 x y+4 y-4 x)$，
-即 $x^(2)+y^(2)+2 x y+4 x-4 y-4=0$. 令 $u=x+y$、$v=x-y$，方程化为 $u^(2)+4 v-4=0$，即 $u^(2)=-4(v-1)$，所以轨迹确为抛物线，所求方程为 $x^(2)+y^(2)+2 x y+4 x-4 y-4=0$.
++ (1) 
++ (2)
 ]
 
 #problem(29)[
-已知直三棱柱 $A B C-A_(1)B_(1)C_(1)$ 的侧棱 $A A_(1)=4~c m$，它的底面 $triangle A B C$ 中有 $A C=B C=2~c m$，$angle C=90^( degree )$，$E$ 是 $A B$ 的中点.
+已知直三棱柱 #mi(`ABC-A_{1}B_{1}C_{1}`) 的侧棱 #mi(`AA_{1}=4\mathrm{~cm}`)，它的底面 #mi(`\triangle ABC`) 中有 #mi(`AC=BC=2\mathrm{~cm}`)，#mi(`\angle C=90^{\circ}`)，#mi(`E`) 是 #mi(`AB`) 的中点.
 
 
-+ (1) 求证：$C E bot A B_(1)$.
-+ (2) 求证：$C E$ 和 $A B_(1)$ 所在的异面直线的距离等于 $(2 sqrt(3))/(3)~c m$.
-+ (3) 设截面 $A C B_(1)$ 与侧面 $A B B_(1)A_(1)$ 所成较小的二面角为 $alpha$，试求 $cos alpha$ 的值.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/1985/img/guangdong_liberal/q4_fig1.png", width: 72%)]
+
+#align(center)[#image("/papers/1985/img/guangdong_liberal/q4_fig1.png", width: 28%)]
 
 
-+ (1) 【证法一】因为 $A B C-A_(1)B_(1)C_(1)$ 是直三棱柱，因此 $A A_(1) bot$ 底面 $A B C$. 因为 $C E subset$ 平面 $A B C$，因此 $C E bot A A_(1)$. 又 $E$ 是等腰三角形 $A B C$ 底边 $A B$ 的中点，因此 $C E bot A B$. 过 $E$ 作直线 $m parallel A A_(1)$，则 $m$ 在平面 $A B B_(1)A_(1)$ 内，且 $C E bot m$. 直线 $A B$ 与 $m$ 相交于 $E$，所以 $C E bot$ 平面 $A B B_(1)A_(1)$. 因为 $A B_(1) subset$ 平面 $A B B_(1)A_(1)$，因此 $C E bot A B_(1)$.
 
-【法二】因为 $A B C-A_(1)B_(1)C_(1)$ 是直三棱柱，因此侧面 $A B B_(1)A_(1) bot$ 底面 $A B C$. 又 $E$ 是等腰三角形 $A B C$ 底边 $A B$ 的中点，因此 $C E bot A B$，故 $C E bot$ 平面 $A B B_(1)A_(1)$. 因为 $A B_(1) subset$ 平面 $A B B_(1)A_(1)$，因此 $C E bot A B_(1)$.
-
-【证法三】因为 $E$ 是等腰三角形 $A B C$ 底边 $A B$ 的中点，因此 $C E bot A B$. 因为 $A B C-A_(1)B_(1)C_(1)$ 是直三棱柱，因此 $B B_(1) bot$ 底面 $A B C$. 又 $A B$ 是 $A B_(1)$ 在底面 $A B C$ 上的射影，根据三垂线定理有 $C E bot A B_(1)$.
-+ (2) 【证法一】因为 $C E bot A B$，$C E bot A B_(1)$，因此 $C E bot$ 平面 $A B B_(1)A_(1)$. 过 $E$ 作 $E D bot A B_(1)$，垂足为 $D$，$A B subset$ 平面 $A B B_(1)A_(1)$，因此 $C E bot E D$，故 $E D$ 是 $C E$ 和 $A B_(1)$ 所在的异面直线的距离. 在 $R t triangle A B B_(1)$ 和 $R t triangle A D E$ 中，$angle A$ 公共，因此 $triangle A B B_(1) tilde triangle A D E$，因此 $(E D)/(B B_(1))=(A E)/(A B_(1))$，即 $E D=(A E dot B B_(1))/(A B_(1))$. 因为 $A C=B C=2$，$angle A C B=90^( degree )$，因此 $A B=2 sqrt(2)$，$A E=(1)/(2)A B=sqrt(2)$. 又在 $R t triangle A B B_(1)$ 中，$B B_(1)=4$，所以
-
-$ A B_(1)=sqrt(A B^(2)+B B_(1)^(2))=sqrt((2 sqrt(2))^(2)+4^(2))=2 sqrt(6) $
-
-因此
-$E D=(sqrt(2){ dot }4)/(2 sqrt(6))=(2 sqrt(3))/(3)~c m$.
-
-【法二】同【证法一】至 $E D$ 是 $C E$ 和 $A B_(1)$ 所在的异面直线的距离. 过 $B$ 作 $B F bot A B_(1)$，垂足为 $F$，则 $E D parallel B F$，又 $E$ 是 $A B$ 的中点，因此 $E D=(1)/(2)B F$. 在 $R t triangle A B B_(1)$ 中，$B F dot A B_(1)=A B dot B B_(1)$，即 $B F=(A B dot B B_(1))/(A B_(1))$. 因为 $A C=B C=2$，$angle A C B=90^( degree )$，所以 $A B=2 sqrt(2)$. 又 $B B_(1)=4$，$A B_(1)=2 sqrt(6)$，故
-
-$ E D=(1)/(2)B F=(1)/(2)(2 sqrt(2){ dot }4)/(2 sqrt(6))=(2 sqrt(3))/(3)~c m $
-+ (3) 【法一】因为 $E D bot A B_(1)$，$C E bot$ 侧面 $A B B_(1)A_(1)$，连结 $C D$，根据三垂线定理有 $C D bot A B_(1)$，故 $angle C D E$ 是截面 $C A B_(1)$ 和侧面 $A B B_(1)A_(1)$ 所成的较小的二面角的平面角. $C E$ 是 $R t triangle A B C$ 的斜边上的中线，故 $C E=(1)/(2)A B=sqrt(2)$. 又 $E D=(2 sqrt(3))/(3)$，于是在 $R t triangle C E D$ 中，
-
-$ tan angle C D E=(C E)/(E D)=(sqrt(2))/(2(sqrt(3))/(3))=(sqrt(6))/(2) $
-
-即 $tan alpha =(sqrt(6))/(2)$. 又 $alpha$ 为锐角，
-
-$ \sec alpha =sqrt(1+ tan ""^(2) alpha)=sqrt(1+(6)/(4))=(sqrt(10))/(2) $
-
-$cos alpha =(1)/(\sec alpha)=(sqrt(10))/(5)$.
-
-【法二】因为 $C E bot$ 侧面 $A B B_(1)A_(1)$，所以 $triangle C A B_(1)$ 在侧面上的射影是 $triangle E A B_(1)$. 设 $triangle C A B_(1)$ 的面积为 $S_(1)$，$triangle E A B_(1)$ 的面积为 $S_(2)$，则有 $S_(2)=S_(1) cos alpha$. 在 $R t triangle C B B_(1)$ 中，$B_(1)C=sqrt(B B_(1)^(2)+B C^(2))=sqrt(4^(2)+2^(2))=2 sqrt(5)$. 又 $A B_(1)=2 sqrt(6)$，$A C=2$，三角形 $C A B_(1)$ 的半周长为 $s=1+sqrt(5)+sqrt(6)$. 由海伦公式，$S_(1)^(2)=s(s-2)(s-2 sqrt(5))(s-2 sqrt(6))=(10+2 sqrt(30))(-10+2 sqrt(30))=20$，故 $S_(1)=2 sqrt(5)$. 另一方面，
-
-$ S_(2)=(1)/(2)A B_(1) dot E D=(1)/(2) dot 2 sqrt(6) dot (2 sqrt(3))/(3)=2 sqrt(2) $
-
-所以
-
-$ cos alpha =(S_(2))/(S_(1))=(2 sqrt(2))/(2 sqrt(5))=(sqrt(10))/(5) $
++ (1) 
++ (2)
 ]
 

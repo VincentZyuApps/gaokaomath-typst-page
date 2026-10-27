@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,350 +11,558 @@
 #part-header("填空题")
 
 #problem(1)[
-+ (1) $log _3 (1)/(27)=\f i l l i n b l a n k{}$.
-+ (2) $log _(10)( log _(10)10 )=\f i l l i n b l a n k{}$.
++ (1)
 ]
 
-#answer([+ (1) $-3$
-+ (2) $0$])
+#answer([+ (1)])
 
 #solution[
-+ (1) 因为 $27=3^3$，所以 $(1)/(27)=3^(-3)$，从而
-$log _3(1)/(27)= log _3 3^(-3)=-3$.
-+ (2) 先计算内层对数：$log _(10)10=1$. 因为 $1>0$，外层对数有意义，且
-$log _(10)( log _(10)10)= log _(10)1=0$.
++ (1)
 ]
 
 #part-header("解答题")
 
 #problem(2)[
-当 $a$ 取什么值时，方程 $x^2-2 x+\l g a=0$ 有实数根.
+当 #mi(`a`) 取什么值时，方程 #mi(`x^{2}-2x+\lg a=0`) 有实数根.
 ]
 
 #solution[
-要使 $\l g a$ 有意义，必须先满足 $a>0$. 在此条件下，原式是关于 $x$ 的一元二次方程，其判别式为
+要使 #mi(`\lg a`) 有意义，必须先满足 #mi(`a>0`). 在此条件下，原式是关于 #mi(`x`) 的一元二次方程，其判别式为
 
-$ Delta =(-2)^2-4\l g a=4-4\l g a=4(1-\l g a) $
 
-一元二次方程有实数根的充要条件是 $Delta \g e q0$，因此
+#align(center)[#mitex(`
+\Delta=(-2)^{2}-4\lg a=4-4\lg a=4\left(1-\lg a\right)
+`)]
 
-$ 4(1-\l g a)\g e q0 <=> \l g a\l e q1 $
 
-由于常用对数函数在正数范围内递增，且 $1=\l g10$，所以 $\l g a\l e q1$ 等价于 $a\l e q10$. 与定义域条件 $a>0$ 合并，得到
+一元二次方程有实数根的充要条件是 #mi(`\Delta\geq0`)，因此
 
-$ 0<a\l e q10 $
 
-反过来，若 $0<a\l e q10$，则 $\l g a$ 有意义，并且 $\l g a\l e q1$，于是 $Delta =4(1-\l g a)\g e q0$，原方程确有实数根. 因此所求取值范围为 $0<a\l e q10$.
+#align(center)[#mitex(`
+4\left(1-\lg a\right)\geq0\quad\Longleftrightarrow\quad \lg a\leq1
+`)]
+
+
+由于常用对数函数在正数范围内递增，且 #mi(`1=\lg10`)，所以 #mi(`\lg a\leq1`) 等价于 #mi(`a\leq10`). 与定义域条件 #mi(`a>0`) 合并，得到
+
+
+#align(center)[#mitex(`
+0<a\leq10
+`)]
+
+
+反过来，若 #mi(`0<a\leq10`)，则 #mi(`\lg a`) 有意义，并且 #mi(`\lg a\leq1`)，于是 #mi(`\Delta=4(1-\lg a)\geq0`)，原方程确有实数根. 因此所求取值范围为 #mi(`0<a\leq10`).
 ]
 
 #problem(3)[
-解方程：$7^((2 x^2+x-6))=1$.
+解方程：#mi(`7^{\left(2x^2+x-6\right)}=1`).
 ]
 
 #solution[
-因为 $7>0$ 且 $7\n e q1$，指数函数 $7^t$ 在实数范围内是单调函数，故 $7^t=1=7^0$ 当且仅当 $t=0$. 因此原方程等价于
+因为 #mi(`7>0`) 且 #mi(`7\neq1`)，指数函数 #mi(`7^{t}`) 在实数范围内是单调函数，故 #mi(`7^{t}=1=7^{0}`) 当且仅当 #mi(`t=0`). 因此原方程等价于
 
-$ 2 x^2+x-6=0 $
+
+#align(center)[#mitex(`
+2x^{2}+x-6=0
+`)]
+
 
 将左边因式分解，得
 
-$ 2 x^2+x-6=(2 x-3)(x+2)=0 $
 
-所以 $2 x-3=0$ 或 $x+2=0$，即
+#align(center)[#mitex(`
+2x^{2}+x-6=(2x-3)(x+2)=0
+`)]
 
-$ x=(3)/(2)"或"x=-2 $
 
-这两个值都使指数 $2 x^2+x-6$ 等于 $0$，代回原方程均成立. 所以原方程的解为 $x=(3)/(2)$ 或 $x=-2$.
+所以 #mi(`2x-3=0`) 或 #mi(`x+2=0`)，即
+
+
+#align(center)[#mitex(`
+x=\frac{3}{2}\quad\text{\text{或}}\quad x=-2
+`)]
+
+
+这两个值都使指数 #mi(`2x^{2}+x-6`) 等于 #mi(`0`)，代回原方程均成立. 所以原方程的解为 #mi(`x=\frac{3}{2}`) 或 #mi(`x=-2`).
 ]
 
 #problem(4)[
-求等比数列 $root(6, 3)$，$root(3, 3)$，$sqrt(3)$，$\l d o t s$ 的公比 $q$，并写出它的第六项 $a_6$.
+求等比数列 #mi(`\sqrt[6]{3}`)，#mi(`\sqrt[3]{3}`)，#mi(`\sqrt{3}`)，#mi(`\ldots`) 的公比 #mi(`q`)，并写出它的第六项 #mi(`a_{6}`).
 ]
 
 #solution[
-将前三项写成以 $3$ 为底的幂，得到
-$a_1=3^((1)/(6))$，$a_2=3^((2)/(6))$，$a_3=3^((3)/(6))$.
+将前三项写成以 #mi(`3`) 为底的幂，得到
+
+#mi(`a_{1}=3^{\frac{1}{6}}`)，#mi(`a_{2}=3^{\frac{2}{6}}`)，#mi(`a_{3}=3^{\frac{3}{6}}`).
+
 于是
-$(a_2)/(a_1)=3^((2)/(6)-(1)/(6))=3^((1)/(6))$，$(a_3)/(a_2)=3^((3)/(6)-(2)/(6))=3^((1)/(6))$
+
+#mi(`\frac{a_{2}}{a_{1}}=3^{\frac{2}{6}-\frac{1}{6}}=3^{\frac{1}{6}}`)，#mi(`\frac{a_{3}}{a_{2}}=3^{\frac{3}{6}-\frac{2}{6}}=3^{\frac{1}{6}}`)
+
 两相邻项之比相同，故公比为
 
-$ q=3^((1)/(6))=root(6, 3) $
 
-等比数列的第六项满足 $a_6=a_(1) q^5$，所以
+#align(center)[#mitex(`
+q=3^{\frac{1}{6}}=\sqrt[6]{3}
+`)]
 
-$ a_6=3^((1)/(6))(3^((1)/(6)))^5=3^((6)/(6))=3 $
 
-因此 $q=root(6, 3)$，$a_6=3$.
+等比数列的第六项满足 #mi(`a_{6}=a_{1}q^{5}`)，所以
+
+
+#align(center)[#mitex(`
+a_{6}=3^{\frac{1}{6}}\left(3^{\frac{1}{6}}\right)^{5}=3^{\frac{6}{6}}=3
+`)]
+
+
+因此 #mi(`q=\sqrt[6]{3}`)，#mi(`a_{6}=3`).
 ]
 
 #problem(5)[
-在底边为 $2" 尺"$，高为 $1.6" 尺"$ 的三角形内截一个最大面积的矩形，并使其一边在三角形的底边上，求矩形的长和宽各是多少？
+在底边为 #mi(`2\text{ \text{尺}}`)，高为 #mi(`1.6\text{ \text{尺}}`) 的三角形内截一个最大面积的矩形，并使其一边在三角形的底边上，求矩形的长和宽各是多少？
 ]
 
 #solution[
-如图，设三角形为 $triangle A B C$，底边为 $B C$，高为 $A D$，矩形为 $E F G H$，其中 $F G$ 在 $B C$ 上. 由于矩形的上边 $E H parallel B C$，令 $K=E H inter A D$，并设矩形的长 $E H=x" 尺"$. 由相似三角形
+如图，设三角形为 #mi(`\triangle ABC`)，底边为 #mi(`BC`)，高为 #mi(`AD`)，矩形为 #mi(`EFGH`)，其中 #mi(`FG`) 在 #mi(`BC`) 上. 由于矩形的上边 #mi(`EH\parallel BC`)，令 #mi(`K=EH\cap AD`)，并设矩形的长 #mi(`EH=x\text{ \text{尺}}`). 由相似三角形
+
+ 
+#align(center)[#image("/papers/1977/img/xinjiang_science/q5_solution_fig1.png", width: 28%)]
+ 
+
+#mi(`\triangle AEH\sim\triangle ABC`)，#mi(`\frac{EH}{BC}=\frac{AK}{AD}`)，#mi(`\frac{x}{2}=\frac{AK}{1.6}`).
+
+因此 #mi(`AK=0.8x`). 矩形的宽为
 
 
-#align(center)[#image("/papers/1977/img/xinjiang_science/q5_solution_fig1.png", width: 5.8cm)]
+#align(center)[#mitex(`
+HG=KD=AD-AK=1.6-0.8x
+`)]
 
 
-$triangle A E H tilde triangle A B C$，$(E H)/(B C)=(A K)/(A D)$，$(x)/(2)=(A K)/(1.6)$.
-因此 $A K=0.8 x$. 矩形的宽为
+矩形完全位于三角形内时 #mi(`0\leq x\leq2`)，其面积为
 
-$ H G=K D=A D-A K=1.6-0.8 x $
 
-矩形完全位于三角形内时 $0\l e q x\l e q2$，其面积为
+#align(center)[#mitex(`
+S=x\left(1.6-0.8x\right)=-0.8x^{2}+1.6x=-0.8\left(x-1\right)^{2}+0.8
+`)]
 
-$ S=x(1.6-0.8 x)=-0.8 x^2+1.6 x=-0.8(x-1)^2+0.8 $
 
-因为 $(x-1)^2\g e q0$，所以 $S\l e q0.8$，且当且仅当 $x=1$ 时取等号. 此时
+因为 #mi(`\left(x-1\right)^{2}\geq0`)，所以 #mi(`S\leq0.8`)，且当且仅当 #mi(`x=1`) 时取等号. 此时
 
-$ H G=1.6-0.8 times 1 =0.8 $
 
-故矩形的长为 $1" 尺"$，宽为 $0.8" 尺"$ 时，面积最大.
+#align(center)[#mitex(`
+HG=1.6-0.8\times1=0.8
+`)]
+
+
+故矩形的长为 #mi(`1\text{ \text{尺}}`)，宽为 #mi(`0.8\text{ \text{尺}}`) 时，面积最大.
 ]
 
 #problem(6)[
-求 $cot (-1200^ degree )$ 的值.
+求 #mi(`\cot\left(-1200^{\circ}\right)`) 的值.
 ]
 
 #solution[
 利用余切函数的奇偶性与周期性，先有
 
-$ cot (-1200^ degree )=- cot 1200^ degree =- cot (3 times 360 ""^ degree +120^ degree )=- cot 120^ degree $
 
-又因为 $120^ degree =180^ degree -60^ degree$，所以
+#align(center)[#mitex(`
+\cot\left(-1200^{\circ}\right)=-\cot1200^{\circ}=-\cot\left(3\times360^{\circ}+120^{\circ}\right)=-\cot120^{\circ}
+`)]
 
-$ cot 120^ degree =(cos 120 ""^ degree)/(sin 120 ""^ degree)=(-(1)/(2))/((sqrt(3))/(2))=-(sqrt(3))/(3) $
+
+又因为 #mi(`120^{\circ}=180^{\circ}-60^{\circ}`)，所以
+
+
+#align(center)[#mitex(`
+\cot120^{\circ}=\frac{\cos120^{\circ}}{\sin120^{\circ}}=\frac{-\frac{1}{2}}{\frac{\sqrt{3}}{2}}=-\frac{\sqrt{3}}{3}
+`)]
+
 
 从而
 
-$ cot (-1200^ degree )=-(-(sqrt(3))/(3))=(sqrt(3))/(3) $
+
+#align(center)[#mitex(`
+\cot\left(-1200^{\circ}\right)=-\left(-\frac{\sqrt{3}}{3}\right)=\frac{\sqrt{3}}{3}
+`)]
 ]
 
 #problem(7)[
-已知 $sin alpha =-(12)/(13)$，并且 $pi < alpha <(3 pi)/(2)$，求 $cos (alpha)/(2)$.
+已知 #mi(`\sin\alpha=-\frac{12}{13}`)，并且 #mi(`\pi<\alpha<\frac{3\pi}{2}`)，求 #mi(`\cos\frac{\alpha}{2}`).
 ]
 
 #solution[
-由 $pi < alpha <(3 pi)/(2)$，知 $alpha$ 在第三象限，所以 $cos alpha <0$. 由平方关系
+由 #mi(`\pi<\alpha<\frac{3\pi}{2}`)，知 #mi(`\alpha`) 在第三象限，所以 #mi(`\cos\alpha<0`). 由平方关系
 
-$ cos ""^2 alpha =1- sin ""^2 alpha =1-(-(12)/(13))^2=1-(144)/(169)=(25)/(169) $
 
-并结合 $cos alpha <0$，得到
+#align(center)[#mitex(`
+\cos^{2}\alpha=1-\sin^{2}\alpha=1-\left(-\frac{12}{13}\right)^{2}=1-\frac{144}{169}=\frac{25}{169}
+`)]
 
-$ cos alpha =-(5)/(13) $
 
-将 $pi < alpha <(3 pi)/(2)$ 同除以 $2$，得
+并结合 #mi(`\cos\alpha<0`)，得到
 
-$ (pi)/(2)<(alpha)/(2)<(3 pi)/(4) $
 
-因此 $(alpha)/(2)$ 在第二象限，$cos (alpha)/(2)<0$. 由半角公式
+#align(center)[#mitex(`
+\cos\alpha=-\frac{5}{13}
+`)]
 
-$ cos (alpha)/(2)=-sqrt((1+ cos alpha)/(2))=-sqrt((1-(5)/(13))/(2))=-sqrt((4)/(13))=-(2 sqrt(13))/(13) $
+
+将 #mi(`\pi<\alpha<\frac{3\pi}{2}`) 同除以 #mi(`2`)，得
+
+
+#align(center)[#mitex(`
+\frac{\pi}{2}<\frac{\alpha}{2}<\frac{3\pi}{4}
+`)]
+
+
+因此 #mi(`\frac{\alpha}{2}`) 在第二象限，#mi(`\cos\frac{\alpha}{2}<0`). 由半角公式
+
+
+#align(center)[#mitex(`
+\cos\frac{\alpha}{2}=-\sqrt{\frac{1+\cos\alpha}{2}}=-\sqrt{\frac{1-\frac{5}{13}}{2}}=-\sqrt{\frac{4}{13}}=-\frac{2\sqrt{13}}{13}
+`)]
 ]
 
 #problem(8)[
-三角形的三边长分别是 $4~c m$，$5~c m$，$sqrt(61)~c m$，求这个三角形内最大角的度数.
+三角形的三边长分别是 #mi(`4\mathrm{~cm}`)，#mi(`5\mathrm{~cm}`)，#mi(`\sqrt{61}\mathrm{~cm}`)，求这个三角形内最大角的度数.
 ]
 
 #solution[
-先验证三条线段可以组成三角形. 因为 $sqrt(61)>5$，只需检查最长边对应的不等式：
+先验证三条线段可以组成三角形. 因为 #mi(`\sqrt{61}>5`)，只需检查最长边对应的不等式：
 
-$ sqrt(61)<4+5=9 $
 
-另外 $4+sqrt(61)>5$ 和 $5+sqrt(61)>4$ 显然成立，所以三条边确能组成三角形.
+#align(center)[#mitex(`
+\sqrt{61}<4+5=9
+`)]
 
-三角形中最长边所对的角最大. 设边长 $sqrt(61)~c m$ 所对的最大角为 $alpha$，由余弦定理
 
-$ cos alpha =(4^2+5^2-(sqrt(61){})^2)/(2 times 4 times 5)=(16+25-61)/(40)=-(1)/(2) $
+另外 #mi(`4+\sqrt{61}>5`) 和 #mi(`5+\sqrt{61}>4`) 显然成立，所以三条边确能组成三角形.
 
-因为 $0^ degree < alpha <180^ degree$，余弦函数在该区间内严格递减，且 $cos 120 ""^ degree =-(1)/(2)$，所以 $alpha =120^ degree$. 故这个三角形内最大的角是 $120^ degree$.
+三角形中最长边所对的角最大. 设边长 #mi(`\sqrt{61}\mathrm{~cm}`) 所对的最大角为 #mi(`\alpha`)，由余弦定理
+
+
+#align(center)[#mitex(`
+\cos\alpha=\frac{4^{2}+5^{2}-\left(\sqrt{61}\right)^{2}}{2\times4\times5}=\frac{16+25-61}{40}=-\frac{1}{2}
+`)]
+
+
+因为 #mi(`0^{\circ}<\alpha<180^{\circ}`)，余弦函数在该区间内严格递减，且 #mi(`\cos120^{\circ}=-\frac{1}{2}`)，所以 #mi(`\alpha=120^{\circ}`). 故这个三角形内最大的角是 #mi(`120^{\circ}`).
 ]
 
 #problem(9)[
-求经过圆 $2 x^2-20 x+2 y^2+18=0$ 上一点 $P(3,2 sqrt(3))$ 的切线方程.
+求经过圆 #mi(`2x^{2}-20x+2y^{2}+18=0`) 上一点 #mi(`P\left(3,2\sqrt{3}\right)`) 的切线方程.
 ]
 
 #solution[
 将圆的方程配方，得
 
-$ 2 x^2-20 x+2 y^2+18=0 <=> 2(x-5)^2+2 y^2=32 <=> (x-5)^2+y^2=16 $
 
-所以圆心为 $O(5,0)$，半径为 $4$. 代入 $P(3,2 sqrt(3))$ 验证：
+#align(center)[#mitex(`
+2x^{2}-20x+2y^{2}+18=0  \quad\Longleftrightarrow\quad  2\left(x-5\right)^{2}+2y^{2}=32  \quad\Longleftrightarrow\quad  \left(x-5\right)^{2}+y^{2}=16
+`)]
 
-$ (3-5)^2+(2 sqrt(3))^2=4+12=16 $
 
-故 $P$ 确在圆上.
+所以圆心为 #mi(`O(5,0)`)，半径为 #mi(`4`). 代入 #mi(`P\left(3,2\sqrt{3}\right)`) 验证：
+
+
+#align(center)[#mitex(`
+\left(3-5\right)^{2}+\left(2\sqrt{3}\right)^{2}=4+12=16
+`)]
+
+
+故 #mi(`P`) 确在圆上.
 
 半径方向向量为
 
-$ arrow(O P)=(-2,2 sqrt(3)) $
 
-设切线上的任意一点为 $Q(x,y)$，则 $arrow(P Q)=(x-3,y-2 sqrt(3))$. 因为切线垂直于半径，故
+#align(center)[#mitex(`
+\overrightarrow{OP}=\left(-2,2\sqrt{3}\right)
+`)]
 
-$ arrow(O P)\c d o t a r r o w(P Q)=0 $
+
+设切线上的任意一点为 #mi(`Q(x,y)`)，则 #mi(`\overrightarrow{PQ}=\left(x-3,y-2\sqrt{3}\right)`). 因为切线垂直于半径，故
+
+
+#align(center)[#mitex(`
+\overrightarrow{OP}\cdot\overrightarrow{PQ}=0
+`)]
+
 
 即
 
-$ (-2,2 sqrt(3)) dot (x-3,y-2 sqrt(3))=0 $
+
+#align(center)[#mitex(`
+\left(-2,2\sqrt{3}\right)\cdot\left(x-3,y-2\sqrt{3}\right)=0
+`)]
+
 
 展开并化简，得
 
-$ -2(x-3)+2 sqrt(3)(y-2 sqrt(3))=0 <=> sqrt(3)y-x-3=0 $
 
-所以所求切线方程为 $sqrt(3)y-x-3=0$.
+#align(center)[#mitex(`
+-2\left(x-3\right)+2\sqrt{3}\left(y-2\sqrt{3}\right)=0  \quad\Longleftrightarrow\quad  \sqrt{3}\,y-x-3=0
+`)]
+
+
+所以所求切线方程为 #mi(`\sqrt{3}\,y-x-3=0`).
 ]
 
 #problem(10)[
-圆弧拱桥的拱跨径 $A B=16" 米"$，主拱高为 $2.5" 米"$，计算圆弧 $\w i d e h a t{A B}$ 的半径是多少米？
+圆弧拱桥的拱跨径 #mi(`AB=16\text{ \text{米}}`)，主拱高为 #mi(`2.5\text{ \text{米}}`)，计算圆弧 #mi(`\widehat{AB}`) 的半径是多少米？
 ]
 
 #solution[
-如图，$A B$ 是圆弧 $\w i d e h a t{A B}$ 的弦，$C D$ 是主拱高，且 $C D bot A B$ 并经过圆心 $O$. 过圆心且垂直于弦的直线平分弦，所以
+如图，#mi(`AB`) 是圆弧 #mi(`\widehat{AB}`) 的弦，#mi(`CD`) 是主拱高，且 #mi(`CD\perp AB`) 并经过圆心 #mi(`O`). 过圆心且垂直于弦的直线平分弦，所以
+
+ 
+#align(center)[#image("/papers/1977/img/xinjiang_science/q10_solution_fig1.png", width: 28%)]
+ 
 
 
-#align(center)[#image("/papers/1977/img/xinjiang_science/q10_solution_fig1.png", width: 6.2cm)]
+#align(center)[#mitex(`
+AD=DB=\frac{1}{2}AB=8\text{ \text{米}}
+`)]
 
 
+设圆弧 #mi(`\widehat{AB}`) 的半径为 #mi(`R\text{ \text{米}}`). 因为主拱高 #mi(`CD=2.5\text{ \text{米}}`)，且 #mi(`OC=R`)，所以
 
-$ A D=D B=(1)/(2)A B=8" 米" $
 
-设圆弧 $\w i d e h a t{A B}$ 的半径为 $R" 米"$. 因为主拱高 $C D=2.5" 米"$，且 $O C=R$，所以
+#align(center)[#mitex(`
+OD=OC-CD=R-2.5
+`)]
 
-$ O D=O C-C D=R-2.5 $
 
-在直角三角形 $O D B$ 中，$O B=R$，$D B=8$，由勾股定理
+在直角三角形 #mi(`ODB`) 中，#mi(`OB=R`)，#mi(`DB=8`)，由勾股定理
 
-$ R^2=(R-2.5)^2+8^2 =R^2-5 R+6.25+64 $
 
-约去两边的 $R^2$，得
-$5 R=70.25$，$R=14.05$.
-因此圆弧 $\w i d e h a t{A B}$ 的半径是 $14.05" 米"$.
+#align(center)[#mitex(`
+R^{2}=(R-2.5)^{2}+8^{2}  =R^{2}-5R+6.25+64
+`)]
+
+
+约去两边的 #mi(`R^{2}`)，得
+
+#mi(`5R=70.25`)，#mi(`R=14.05`).
+
+因此圆弧 #mi(`\widehat{AB}`) 的半径是 #mi(`14.05\text{ \text{米}}`).
 ]
 
 #part-header("参考题")
 
 #problem(11)[
-解方程：$log _(16-3 x)(x-2)= log _8(2 sqrt(2))$.
+解方程：#mi(`\log_{16-3x}\left(x-2\right)=\log_{8}\left(2\sqrt{2}\right)`).
 ]
 
 #solution[
-对数有意义要求真数为正、底数为正且底数不为 $1$，所以
-$x-2>0$，$16-3 x>0$，$16-3 x\n e q1$.
-这给出定义域
-$2<x<(16)/(3)$，$x\n e q5$.
-又因为 $2 sqrt(2)=2^((3)/(2))=(2^3)^((1)/(2))=8^((1)/(2))$，所以
+对数有意义要求真数为正、底数为正且底数不为 #mi(`1`)，所以
 
-$ log _8(2 sqrt(2))= log _8 8^((1)/(2))=(1)/(2) $
+#mi(`x-2>0`)，#mi(`16-3x>0`)，#mi(`16-3x\neq1`).
+
+这给出定义域
+
+#mi(`2<x<\frac{16}{3}`)，#mi(`x\neq5`).
+
+又因为 #mi(`2\sqrt{2}=2^{\frac{3}{2}}=\left(2^{3}\right)^{\frac{1}{2}}=8^{\frac{1}{2}}`)，所以
+
+
+#align(center)[#mitex(`
+\log_{8}\left(2\sqrt{2}\right)=\log_{8} 8^{\frac{1}{2}}=\frac{1}{2}
+`)]
+
 
 原方程化为
 
-$ log _(16-3 x)(x-2)=(1)/(2) $
+
+#align(center)[#mitex(`
+\log_{16-3x}\left(x-2\right)=\frac{1}{2}
+`)]
+
 
 在上述定义域内，依据对数的定义，这等价于
 
-$ x-2=(16-3 x)^((1)/(2)) $
 
-由于定义域给出 $x-2>0$，两边平方不会引入符号不满足原式的解，得
+#align(center)[#mitex(`
+x-2=\left(16-3x\right)^{\frac{1}{2}}
+`)]
 
-$ 16-3 x=(x-2)^2=x^2-4 x+4 $
+
+由于定义域给出 #mi(`x-2>0`)，两边平方不会引入符号不满足原式的解，得
+
+
+#align(center)[#mitex(`
+16-3x=(x-2)^{2}=x^{2}-4x+4
+`)]
+
 
 即
 
-$ x^2-x-12=0=(x-4)(x+3) $
 
-候选值为 $x=4$ 或 $x=-3$. 其中 $x=-3$ 不满足 $x-2>0$，舍去；$x=4$ 满足 $2<x<(16)/(3)$，且底数 $16-3 x=4\n e q1$，代回原方程成立. 因此原方程的解为 $x=4$.
+#align(center)[#mitex(`
+x^{2}-x-12=0=(x-4)(x+3)
+`)]
+
+
+候选值为 #mi(`x=4`) 或 #mi(`x=-3`). 其中 #mi(`x=-3`) 不满足 #mi(`x-2>0`)，舍去；#mi(`x=4`) 满足 #mi(`2<x<\frac{16}{3}`)，且底数 #mi(`16-3x=4\neq1`)，代回原方程成立. 因此原方程的解为 #mi(`x=4`).
 ]
 
 #problem(12)[
-已知 $0^ degree <x<45^ degree$，且有
-$\l g tan x-\l g sin x=\l g cos x-\l g cot x+2\l g3-(3)/(2)\l g2$，试求 $sin x- cos x$ 的值.
+已知 #mi(`0^{\circ}<x<45^{\circ}`)，且有
+
+#mi(`\lg\tan x-\lg\sin x=\lg\cos x-\lg\cot x+2\lg3-\frac{3}{2}\lg2`)，试求 #mi(`\sin x-\cos x`) 的值.
 ]
 
 #solution[
-由 $0^ degree <x<45^ degree$，知 $sin x>0$、$cos x>0$、$tan x>0$、$cot x>0$，所以题中各个对数均有意义. 利用对数的商的运算性质和 $tan x=(sin x)/(cos x)$，左边为
+由 #mi(`0^{\circ}<x<45^{\circ}`)，知 #mi(`\sin x>0`)、#mi(`\cos x>0`)、#mi(`\tan x>0`)、#mi(`\cot x>0`)，所以题中各个对数均有意义. 利用对数的商的运算性质和 #mi(`\tan x=\frac{\sin x}{\cos x}`)，左边为
 
-$ \l g tan x-\l g sin x =\l g(tan x)/(sin x)=\l g(1)/(cos x) $
 
-右边利用 $cot x=(cos x)/(sin x)$、$2\l g3=\l g9$ 和 $(3)/(2)\l g2=\l g2^((3)/(2))=\l g(2 sqrt(2))$，得
+#align(center)[#mitex(`
+\lg\tan x-\lg\sin x  =\lg\frac{\tan x}{\sin x}=\lg\frac{1}{\cos x}
+`)]
 
-$ \l g cos x-\l g cot x+2\l g3-(3)/(2)\l g2 =\l g(cos x)/(cot x)+\l g9-\l g(2 sqrt(2)) =\l g(9 sin x)/(2 sqrt(2)) $
+
+右边利用 #mi(`\cot x=\frac{\cos x}{\sin x}`)、#mi(`2\lg3=\lg9`) 和 #mi(`\frac{3}{2}\lg2=\lg2^{\frac{3}{2}}=\lg(2\sqrt{2})`)，得
+
+
+#align(center)[#mitex(`
+\lg\cos x-\lg\cot x+2\lg3-\frac{3}{2}\lg2  =\lg\frac{\cos x}{\cot x}+\lg9-\lg(2\sqrt{2})  =\lg\frac{9\sin x}{2\sqrt{2}}
+`)]
+
 
 因此
 
-$ \l g(1)/(cos x)=\l g(9 sin x)/(2 sqrt(2)) $
 
-两边真数均为正，且 $\l g t$ 在正数范围内为一一对应函数，故
-$(1)/(cos x)=(9 sin x)/(2 sqrt(2))$，$sin x cos x=(2 sqrt(2))/(9)$.
-由 $0^ degree <x<45^ degree$ 得 $sin x< cos x$，所以 $sin x- cos x<0$. 又
+#align(center)[#mitex(`
+\lg\frac{1}{\cos x}=\lg\frac{9\sin x}{2\sqrt{2}}
+`)]
 
-$ ( sin x- cos x)^2 = sin ""^(2) x+ cos ""^(2) x-2 sin x cos x =1-2 sin x cos x =1-(4 sqrt(2))/(9) $
+
+两边真数均为正，且 #mi(`\lg t`) 在正数范围内为一一对应函数，故
+
+#mi(`\frac{1}{\cos x}=\frac{9\sin x}{2\sqrt{2}}`)，#mi(`\sin x\cos x=\frac{2\sqrt{2}}{9}`).
+
+由 #mi(`0^{\circ}<x<45^{\circ}`) 得 #mi(`\sin x<\cos x`)，所以 #mi(`\sin x-\cos x<0`). 又
+
+
+#align(center)[#mitex(`
+\left(\sin x-\cos x\right)^{2}  =\sin^{2}x+\cos^{2}x-2\sin x\cos x  =1-2\sin x\cos x  =1-\frac{4\sqrt{2}}{9}
+`)]
+
 
 于是
 
-$ sin x- cos x=-sqrt(1-(4 sqrt(2))/(9))=-(sqrt(9-4 sqrt(2)))/(3) $
 
-注意到 $9-4 sqrt(2)=(2 sqrt(2)-1)^2$，且 $2 sqrt(2)-1>0$，所以
+#align(center)[#mitex(`
+\sin x-\cos x=-\sqrt{1-\frac{4\sqrt{2}}{9}}=-\frac{\sqrt{9-4\sqrt{2}}}{3}
+`)]
 
-$ sin x- cos x=-(2 sqrt(2)-1)/(3)=(1-2 sqrt(2))/(3) $
+
+注意到 #mi(`9-4\sqrt{2}=(2\sqrt{2}-1)^{2}`)，且 #mi(`2\sqrt{2}-1>0`)，所以
+
+
+#align(center)[#mitex(`
+\sin x-\cos x=-\frac{2\sqrt{2}-1}{3}=\frac{1-2\sqrt{2}}{3}
+`)]
 ]
 
 #problem(13)[
-应用导数，求过曲线 $x^2+y^2-8 x-2 y+12=0$ 上一点 $P(5,3)$ 的切线方程.
+应用导数，求过曲线 #mi(`x^{2}+y^{2}-8x-2y+12=0`) 上一点 #mi(`P\left(5,3\right)`) 的切线方程.
 ]
 
 #solution[
 先验证给定点在曲线上：
 
-$ 5^2+3^2-8 times 5 -2 times 3 +12=25+9-40-6+12=0 $
 
-所以 $P(5,3)$ 确在曲线上. 将 $y$ 看作 $x$ 的函数，对曲线方程两边关于 $x$ 求导，得到
+#align(center)[#mitex(`
+5^{2}+3^{2}-8\times5-2\times3+12=25+9-40-6+12=0
+`)]
 
-$ 2 x+2 y y'-8-2 y'=0 $
 
-移项并合并含 $y'$ 的项，得
-$(2 y-2)y'=8-2 x$，$y'=(8-2 x)/(2 y-2)=(4-x)/(y-1)$.
-在点 $P(5,3)$ 处，分母 $y-1=2\n e q0$，切线斜率为
+所以 #mi(`P\left(5,3\right)`) 确在曲线上. 将 #mi(`y`) 看作 #mi(`x`) 的函数，对曲线方程两边关于 #mi(`x`) 求导，得到
 
-$ k=.(4-x)/(y-1)|_((x,y)=(5,3))=-(1)/(2) $
+
+#align(center)[#mitex(`
+2x+2y\,y'-8-2y'=0
+`)]
+
+
+移项并合并含 #mi(`y'`) 的项，得
+
+#mi(`(2y-2)y'=8-2x`)，#mi(`y'=\frac{8-2x}{2y-2}=\frac{4-x}{y-1}`).
+
+在点 #mi(`P\left(5,3\right)`) 处，分母 #mi(`y-1=2\neq0`)，切线斜率为
+
+
+#align(center)[#mitex(`
+k=\left.\frac{4-x}{y-1}\right|_{(x,y)=(5,3)}=-\frac{1}{2}
+`)]
+
 
 由点斜式，切线方程为
 
-$ y-3=-(1)/(2)(x-5) $
+
+#align(center)[#mitex(`
+y-3=-\frac{1}{2}\left(x-5\right)
+`)]
+
 
 整理得
 
-$ y=-(1)/(2)x+(11)/(2) $
+
+#align(center)[#mitex(`
+y=-\frac{1}{2}x+\frac{11}{2}
+`)]
 ]
 
 #problem(14)[
-利用定积分，求椭圆 $4 x^2+25 y^2=100$ 的面积.
+利用定积分，求椭圆 #mi(`4x^{2}+25y^{2}=100`) 的面积.
 ]
 
 #solution[
-将椭圆方程两边除以 $100$，得
+将椭圆方程两边除以 #mi(`100`)，得
 
-$ (x^2)/(25)+(y^2)/(4)=1 $
 
-当 $-5\l e q x\l e q5$ 时，上、下半椭圆分别为
-$y=2 sqrt(1-(x^2)/(25))$，$y=-2 sqrt(1-(x^2)/(25))$.
+#align(center)[#mitex(`
+\frac{x^{2}}{25}+\frac{y^{2}}{4}=1
+`)]
+
+
+当 #mi(`-5\leq x\leq5`) 时，上、下半椭圆分别为
+
+#mi(`y=2\sqrt{1-\frac{x^{2}}{25}}`)，#mi(`y=-2\sqrt{1-\frac{x^{2}}{25}}`).
+
 因此椭圆面积等于上、下半椭圆纵坐标之差的定积分：
 
-$ S=integral_(-5)^(5)4 sqrt(1-(x^2)/(25))d x =8\i n t_0^5 sqrt(1-(x^2)/(25))d x =(8)/(5)\i n t_0^5 sqrt(25-x^2)d x $
 
-令 $x=5 sin t$，则 $d x=5 cos t d t$. 当 $x=0$ 时 $t=0$，当 $x=5$ 时 $t=(pi)/(2)$，且在此区间内 $cos t\g e q0$，所以 $sqrt(25-x^2)=5 cos t$. 从而
+#align(center)[#mitex(`
+S=\int_{-5}^{5}4\sqrt{1-\frac{x^{2}}{25}}\,\mathrm{d}x  =8\int_{0}^{5}\sqrt{1-\frac{x^{2}}{25}}\,\mathrm{d}x  =\frac{8}{5}\int_{0}^{5}\sqrt{25-x^{2}}\,\mathrm{d}x
+`)]
 
-$ \i n t_0^5 sqrt(25-x^2)d x =25\i n t_0^((pi)/(2)) cos ""^(2) t d t $
 
-利用 $cos ""^(2) t=(1+ cos 2 t)/(2)$，有
+令 #mi(`x=5\sin t`)，则 #mi(`\mathrm{d}x=5\cos t\,\mathrm{d}t`). 当 #mi(`x=0`) 时 #mi(`t=0`)，当 #mi(`x=5`) 时 #mi(`t=\frac{\pi}{2}`)，且在此区间内 #mi(`\cos t\geq0`)，所以 #mi(`\sqrt{25-x^{2}}=5\cos t`). 从而
 
-$ 25\i n t_0^((pi)/(2)) cos ""^(2) t d t =25[(t)/(2)+(sin 2 t)/(4)]_0^((pi)/(2)) =25 dot (pi)/(4) $
+
+#align(center)[#mitex(`
+\int_{0}^{5}\sqrt{25-x^{2}}\,\mathrm{d}x  =25\int_{0}^{\frac{\pi}{2}}\cos^{2}t\,\mathrm{d}t
+`)]
+
+
+利用 #mi(`\cos^{2}t=\frac{1+\cos2t}{2}`)，有
+
+
+#align(center)[#mitex(`
+25\int_{0}^{\frac{\pi}{2}}\cos^{2}t\,\mathrm{d}t  =25\left[\frac{t}{2}+\frac{\sin2t}{4}\right]_{0}^{\frac{\pi}{2}}=25\cdot\frac{\pi}{4}
+`)]
+
 
 因此
 
-$ S=(8)/(5) dot (25 pi)/(4)=10 pi $
 
-故椭圆 $4 x^2+25 y^2=100$ 的面积是 $10 pi$.
+#align(center)[#mitex(`
+S=\frac{8}{5}\cdot\frac{25\pi}{4}=10\pi
+`)]
+
+
+故椭圆 #mi(`4x^{2}+25y^{2}=100`) 的面积是 #mi(`10\pi`).
 ]
 

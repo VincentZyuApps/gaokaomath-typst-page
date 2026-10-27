@@ -1,8 +1,131 @@
 {
-  "title": "2017年普通高等学校招生全国统一考试",
-  "subtitle": "2017年天津卷（文）",
   "year": "2017",
   "slug": "tianjin_liberal",
+  "title": "2017年天津卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$\\{1,2,3,4,6\\}$"
           ],
           "answer": "B",
-          "solution": "先求并集，$A\\cup B=\\{1,2,4,6\\}$.再取交集，$(A\\cup B)\\cap C=\\{1,2,4\\}$，因此选 B."
+          "solution": "先求并集，$A\\cup B=\\{1,2,4,6\\}$.再取交集，$(A\\cup B)\\cap C=\\{1,2,4\\}$，因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +154,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "B",
-          "solution": "由 $2-x\\ge0$ 得 $x\\le2$.由 $|x-1|\\le1$ 得 $0\\le x\\le2$，所以 $|x-1|\\le1$ 一定推出 $2-x\\ge0$，即前者是后者的必要条件.取 $x=-1$，有 $2-x=3\\ge0$，但 $|x-1|=2>1$，故它不是充分条件.因此选 B."
+          "solution": "由 $2-x\\ge0$ 得 $x\\le2$.由 $|x-1|\\le1$ 得 $0\\le x\\le2$，所以 $|x-1|\\le1$ 一定推出 $2-x\\ge0$，即前者是后者的必要条件.取 $x=-1$，有 $2-x=3\\ge0$，但 $|x-1|=2>1$，故它不是充分条件.因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,11 +168,13 @@
             "$\\dfrac{1}{5}$"
           ],
           "answer": "C",
-          "solution": "从五支彩笔中任取两支的基本事件数为 $\\mathrm{C}_{5}^{2}=10$.若取出的两支中含红色彩笔，另一支可从其余四支中任选一支，故有 $4$ 个有利事件.因此所求概率为 $\\dfrac{4}{10}=\\dfrac{2}{5}$，选 C."
+          "solution": "从五支彩笔中任取两支的基本事件数为 $\\mathrm{C}_{5}^{2}=10$.若取出的两支中含红色彩笔，另一支可从其余四支中任选一支，故有 $4$ 个有利事件.因此所求概率为 $\\dfrac{4}{10}=\\dfrac{2}{5}$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
-          "body": "<p>阅读如图的程序框图，运行相应的程序，若输入 $N$ 的值为 $19$，则输出 $N$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>阅读如图的程序框图，运行相应的程序，若输入 $N$ 的值为 $19$，则输出 $N$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2017/img/tianjin_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$0$",
             "$1$",
@@ -53,7 +182,9 @@
             "$3$"
           ],
           "answer": "C",
-          "solution": "按框图逐次执行.初始 $N=19$，$19$ 不能被 $3$ 整除，执行 $N=N-1$，得 $N=18$；$18$ 能被 $3$ 整除，执行 $N=\\frac{N}{3}$，得 $N=6$；$6$ 能被 $3$ 整除，执行 $N=\\frac{N}{3}$，得 $N=2$.此时 $N\\le3$，输出 $2$，故选 C."
+          "solution": "按框图逐次执行.初始 $N=19$，$19$ 不能被 $3$ 整除，执行 $N=N-1$，得 $N=18$；$18$ 能被 $3$ 整除，执行 $N=\\frac{N}{3}$，得 $N=6$；$6$ 能被 $3$ 整除，执行 $N=\\frac{N}{3}$，得 $N=2$.此时 $N\\le3$，输出 $2$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +196,9 @@
             "$x^{2}-\\dfrac{y^2}{3}=1$"
           ],
           "answer": "D",
-          "solution": "<p>设双曲线的半焦距为 $c$，则右焦点为 $F(c,0)$.由于 $\\triangle OAF$ 是边长为 $2$ 的等边三角形，所以 $c=OF=2$，且 $OA=2$.因此点 $A$ 可取 $(1,\\sqrt{3})$ 或 $(1,-\\sqrt{3})$，从而渐近线的斜率的绝对值为 $\\sqrt{3}$.双曲线的渐近线方程为 $y=\\pm\\dfrac{b}{a}x$，故 $\\dfrac{b}{a}=\\sqrt{3}$.</p><p>又因为 $c^{2}=a^{2}+b^{2}$，所以 $4=a^{2}+3a^{2}$，得 $a=1$，$b=\\sqrt{3}$.故双曲线方程为 $x^{2}-\\dfrac{y^2}{3}=1$，选 D.</p>"
+          "solution": "<p>设双曲线的半焦距为 $c$，则右焦点为 $F(c,0)$.由于 $\\triangle OAF$ 是边长为 $2$ 的等边三角形，所以 $c=OF=2$，且 $OA=2$.因此点 $A$ 可取 $(1,\\sqrt{3})$ 或 $(1,-\\sqrt{3})$，从而渐近线的斜率的绝对值为 $\\sqrt{3}$.双曲线的渐近线方程为 $y=\\pm\\dfrac{b}{a}x$，故 $\\dfrac{b}{a}=\\sqrt{3}$.</p><p>又因为 $c^{2}=a^{2}+b^{2}$，所以 $4=a^{2}+3a^{2}$，得 $a=1$，$b=\\sqrt{3}$.故双曲线方程为 $x^{2}-\\dfrac{y^2}{3}=1$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +210,9 @@
             "$c<a<b$"
           ],
           "answer": "C",
-          "solution": "<p>由 $f$ 为奇函数，$\\log_{2}\\dfrac{1}{5}=-\\log_{2} 5$，所以</p><p>$a=-f(-\\log_{2} 5)=f(\\log_{2} 5)$.又因为 $4<4.1<5$，故 $\\log_{2} 4.1<\\log_{2} 5$，从而 $b<a$.</p><p>因为 $0.8<1$，所以 $2^{0.8}<2$；又因为 $4.1>4=2^{2}$，所以 $\\log_{2} 4.1>2>2^{0.8}$.由 $f$ 在 $\\mathbb{R}$ 上递增，得 $c<b$.因此 $c<b<a$，选 C.</p>"
+          "solution": "<p>由 $f$ 为奇函数，$\\log_{2}\\dfrac{1}{5}=-\\log_{2} 5$，所以</p><p>$a=-f(-\\log_{2} 5)=f(\\log_{2} 5)$.又因为 $4<4.1<5$，故 $\\log_{2} 4.1<\\log_{2} 5$，从而 $b<a$.</p><p>因为 $0.8<1$，所以 $2^{0.8}<2$；又因为 $4.1>4=2^{2}$，所以 $\\log_{2} 4.1>2>2^{0.8}$.由 $f$ 在 $\\mathbb{R}$ 上递增，得 $c<b$.因此 $c<b<a$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +224,9 @@
             "$\\omega=\\dfrac{1}{3}$，$\\varphi=\\dfrac{7\\pi}{24}$"
           ],
           "answer": "A",
-          "solution": "<p>由最小正周期 $\\dfrac{2\\pi}{\\omega}>2\\pi$，得 $0<\\omega<1$.设整数 $k$，$m$，则</p><p>$\\dfrac{5\\pi}{8}\\omega+\\varphi=\\dfrac\\pi2+2k\\pi$，$\\dfrac{11\\pi}{8}\\omega+\\varphi=m\\pi$.两式相减得</p><p>$\\dfrac{3\\pi}{4}\\omega=\\left(m-2k-\\dfrac{1}{2}\\right)\\pi$.由于 $0<\\omega<1$，只能取 $m-2k=1$，从而 $\\omega=\\dfrac{2}{3}$.代回第一式，得 $\\varphi=\\dfrac\\pi{12}+2k\\pi$.结合 $|\\varphi|<\\pi$，得 $\\varphi=\\dfrac\\pi{12}$.故选 A.</p>"
+          "solution": "<p>由最小正周期 $\\dfrac{2\\pi}{\\omega}>2\\pi$，得 $0<\\omega<1$.设整数 $k$，$m$，则</p><p>$\\dfrac{5\\pi}{8}\\omega+\\varphi=\\dfrac\\pi2+2k\\pi$，$\\dfrac{11\\pi}{8}\\omega+\\varphi=m\\pi$.两式相减得</p><p>$\\dfrac{3\\pi}{4}\\omega=\\left(m-2k-\\dfrac{1}{2}\\right)\\pi$.由于 $0<\\omega<1$，只能取 $m-2k=1$，从而 $\\omega=\\dfrac{2}{3}$.代回第一式，得 $\\varphi=\\dfrac\\pi{12}+2k\\pi$.结合 $|\\varphi|<\\pi$，得 $\\varphi=\\dfrac\\pi{12}$.故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +238,9 @@
             "$[-2\\sqrt{3},2\\sqrt{3}]$"
           ],
           "answer": "A",
-          "solution": "<p>当 $x<0$ 时，$f(x)=2-x>0$，故不等式等价于</p><p>$-2+x\\le\\dfrac{x}{2}+a\\le2-x$.于是对所有 $x<0$，有 $a\\ge\\dfrac{x}{2}-2$ 且 $a\\le2-\\dfrac{3x}{2}$.令 $x$ 从左侧趋近于 $0$，得到必要条件 $a\\ge-2$ 且 $a\\le2$.</p><p>当 $0\\le x<1$ 时，$f(x)=x+2$，不等式等价于 $-x-2\\le\\dfrac{x}{2}+a\\le x+2$，因而 $a\\ge-2-\\dfrac{3x}{2}$ 且 $a\\le2+\\dfrac{x}{2}$，对 $0\\le x<1$ 仍只给出 $-2\\le a\\le2$.</p><p>当 $x\\ge1$ 时，$f(x)=x+\\dfrac{2}{x}>0$，不等式等价于</p><p>$-x-\\dfrac{2}{x}\\le\\dfrac{x}{2}+a\\le x+\\dfrac{2}{x}$.因此</p><p>$a\\ge-\\dfrac{3x}{2}-\\dfrac{2}{x}$ 且 $a\\le\\dfrac{x}{2}+\\dfrac{2}{x}$.其中 $-\\dfrac{3x}{2}-\\dfrac{2}{x}\\le-2\\sqrt{3}<-2$，而由基本不等式 $\\dfrac{x}{2}+\\dfrac{2}{x}\\ge2$，故这部分不会比 $-2\\le a\\le2$ 产生更强的限制.</p><p>所以当且仅当 $a\\in[-2,2]$ 时原不等式对所有实数 $x$ 恒成立，选 A.</p>"
+          "solution": "<p>当 $x<0$ 时，$f(x)=2-x>0$，故不等式等价于</p><p>$-2+x\\le\\dfrac{x}{2}+a\\le2-x$.于是对所有 $x<0$，有 $a\\ge\\dfrac{x}{2}-2$ 且 $a\\le2-\\dfrac{3x}{2}$.令 $x$ 从左侧趋近于 $0$，得到必要条件 $a\\ge-2$ 且 $a\\le2$.</p><p>当 $0\\le x<1$ 时，$f(x)=x+2$，不等式等价于 $-x-2\\le\\dfrac{x}{2}+a\\le x+2$，因而 $a\\ge-2-\\dfrac{3x}{2}$ 且 $a\\le2+\\dfrac{x}{2}$，对 $0\\le x<1$ 仍只给出 $-2\\le a\\le2$.</p><p>当 $x\\ge1$ 时，$f(x)=x+\\dfrac{2}{x}>0$，不等式等价于</p><p>$-x-\\dfrac{2}{x}\\le\\dfrac{x}{2}+a\\le x+\\dfrac{2}{x}$.因此</p><p>$a\\ge-\\dfrac{3x}{2}-\\dfrac{2}{x}$ 且 $a\\le\\dfrac{x}{2}+\\dfrac{2}{x}$.其中 $-\\dfrac{3x}{2}-\\dfrac{2}{x}\\le-2\\sqrt{3}<-2$，而由基本不等式 $\\dfrac{x}{2}+\\dfrac{2}{x}\\ge2$，故这部分不会比 $-2\\le a\\le2$ 产生更强的限制.</p><p>所以当且仅当 $a\\in[-2,2]$ 时原不等式对所有实数 $x$ 恒成立，选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -111,44 +250,56 @@
         {
           "num": 9,
           "body": "$a\\in\\mathbb{R}$，$\\mathrm{i}$ 为虚数单位，若 $\\dfrac{a-\\mathrm{i}}{2+\\mathrm{i}}$ 为实数，则 $a$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-2$",
-          "solution": "<p>分母乘以共轭复数，得</p><p>$\\dfrac{a-\\mathrm{i}}{2+\\mathrm{i}}=\\dfrac{(a-\\mathrm{i})(2-\\mathrm{i})}{5}=\\dfrac{2a-1-(a+2)\\mathrm{i}}{5}$.该复数为实数，当且仅当虚部为零，即 $a+2=0$，所以 $a=-2$.</p>"
+          "choices": [],
+          "answer": "\\(-2\\)",
+          "solution": "<p>分母乘以共轭复数，得</p><p>$\\dfrac{a-\\mathrm{i}}{2+\\mathrm{i}}=\\dfrac{(a-\\mathrm{i})(2-\\mathrm{i})}{5}=\\dfrac{2a-1-(a+2)\\mathrm{i}}{5}$.该复数为实数，当且仅当虚部为零，即 $a+2=0$，所以 $a=-2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "已知 $a\\in\\mathbb{R}$，设函数 $f(x)=ax-\\ln x$ 的图象在点 $(1,f(1))$ 处的切线为 $l$，则 $l$ 在 $y$ 轴上的截距为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$1$",
-          "solution": "函数定义域为 $x>0$，且 $f(1)=a$，$f'(x)=a-\\dfrac{1}{x}$，所以切线斜率为 $f'(1)=a-1$.切线方程为 $y-a=(a-1)(x-1)$，化简得 $y=(a-1)x+1$.令 $x=0$，得到在 $y$ 轴上的截距为 $1$."
+          "choices": [],
+          "answer": "\\(1\\)",
+          "solution": "函数定义域为 $x>0$，且 $f(1)=a$，$f'(x)=a-\\dfrac{1}{x}$，所以切线斜率为 $f'(1)=a-1$.切线方程为 $y-a=(a-1)(x-1)$，化简得 $y=(a-1)x+1$.令 $x=0$，得到在 $y$ 轴上的截距为 $1$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "已知一个正方体的所有顶点在一个球面上，若这个正方体的表面积为 $18$，则这个球的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{9\\pi}{2}$",
-          "solution": "设正方体棱长为 $s$，则 $6s^{2}=18$，得 $s=\\sqrt{3}$.球为正方体的外接球，其直径等于正方体的体对角线 $s\\sqrt{3}=3$，故半径 $r=\\dfrac{3}{2}$.所以球的体积为 $\\dfrac{4}{3}\\pi r^{3}=\\dfrac{4}{3}\\pi\\left(\\dfrac{3}{2}\\right)^{3}=\\dfrac{9\\pi}{2}$."
+          "choices": [],
+          "answer": "\\(\\dfrac{9\\pi}{2}\\)",
+          "solution": "设正方体棱长为 $s$，则 $6s^{2}=18$，得 $s=\\sqrt{3}$.球为正方体的外接球，其直径等于正方体的体对角线 $s\\sqrt{3}=3$，故半径 $r=\\dfrac{3}{2}$.所以球的体积为 $\\dfrac{4}{3}\\pi r^{3}=\\dfrac{4}{3}\\pi\\left(\\dfrac{3}{2}\\right)^{3}=\\dfrac{9\\pi}{2}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "设抛物线 $y^{2}=4x$ 的焦点为 $F$，准线为 $l$. 已知点 $C$ 在 $l$ 上，以 $C$ 为圆心的圆与 $y$ 轴的正半轴相切于点 $A$. 若 $\\angle FAC=120^{\\circ}$，则圆的方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\left(x+1\\right)^{2}+\\left(y-\\sqrt{3}\\right)^{2}=1$",
-          "solution": "<p>由 $y^{2}=4x$ 得焦点 $F(1,0)$，准线 $l$ 的方程为 $x=-1$.设 $C(-1,t)$.圆以 $C$ 为圆心且与 $y$ 轴相切，所以半径为 $1$，切点为 $A(0,t)$.由于切点在 $y$ 轴正半轴上，故 $t>0$.</p><p>在点 $A$ 处，$\\overrightarrow{AF}=(1,-t)$，$\\overrightarrow{AC}=(-1,0)$，所以</p><p>$\\cos\\angle FAC=\\dfrac{\\overrightarrow{AF}\\cdot\\overrightarrow{AC}}{|AF||AC|}=-\\dfrac1{\\sqrt{1+t^{2}}}$.由 $\\angle FAC=120^{\\circ}$，得 $-\\dfrac1{\\sqrt{1+t^{2}}}=-\\dfrac{1}{2}$，从而 $t^{2}=3$.结合 $t>0$，得 $t=\\sqrt{3}$.因此圆的方程为 $\\left(x+1\\right)^{2}+\\left(y-\\sqrt{3}\\right)^{2}=1$.</p>"
+          "choices": [],
+          "answer": "\\(\\left(x+1\\right)^2+\\left(y-\\sqrt{3}\\right)^2=1\\)",
+          "solution": "<p>由 $y^{2}=4x$ 得焦点 $F(1,0)$，准线 $l$ 的方程为 $x=-1$.设 $C(-1,t)$.圆以 $C$ 为圆心且与 $y$ 轴相切，所以半径为 $1$，切点为 $A(0,t)$.由于切点在 $y$ 轴正半轴上，故 $t>0$.</p><p>在点 $A$ 处，$\\overrightarrow{AF}=(1,-t)$，$\\overrightarrow{AC}=(-1,0)$，所以</p><p>$\\cos\\angle FAC=\\dfrac{\\overrightarrow{AF}\\cdot\\overrightarrow{AC}}{|AF||AC|}=-\\dfrac1{\\sqrt{1+t^{2}}}$.由 $\\angle FAC=120^{\\circ}$，得 $-\\dfrac1{\\sqrt{1+t^{2}}}=-\\dfrac{1}{2}$，从而 $t^{2}=3$.结合 $t>0$，得 $t=\\sqrt{3}$.因此圆的方程为 $\\left(x+1\\right)^{2}+\\left(y-\\sqrt{3}\\right)^{2}=1$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "若 $a$，$b\\in\\mathbb{R}$，$ab>0$，则 $\\dfrac{a^4+4b^4+1}{ab}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$4$",
-          "solution": "<p>令 $u=|a|>0$，$v=|b|>0$.因 $ab>0$，有 $ab=uv$，故原式等于 $\\dfrac{u^4+4v^4+1}{uv}$.由均值不等式，</p><p>$u^{4}+4v^{4}+1=u^{4}+4v^{4}+\\dfrac{1}{2}+\\dfrac{1}{2}\\ge4\\sqrt[4]{u^{4}\\cdot4v^{4}\\cdot\\dfrac{1}{2}\\cdot\\dfrac{1}{2}}=4uv$.所以原式不小于 $4$.</p><p>当 $u^{4}=4v^{4}=\\dfrac{1}{2}$ 时等号成立，例如取 $a=2^{-\\frac{1}{4}}$，$b=2^{-\\frac{3}{4}}$，满足 $ab>0$.因此最小值为 $4$.</p>"
+          "choices": [],
+          "answer": "\\(4\\)",
+          "solution": "<p>令 $u=|a|>0$，$v=|b|>0$.因 $ab>0$，有 $ab=uv$，故原式等于 $\\dfrac{u^4+4v^4+1}{uv}$.由均值不等式，</p><p>$u^{4}+4v^{4}+1=u^{4}+4v^{4}+\\dfrac{1}{2}+\\dfrac{1}{2}\\ge4\\sqrt[4]{u^{4}\\cdot4v^{4}\\cdot\\dfrac{1}{2}\\cdot\\dfrac{1}{2}}=4uv$.所以原式不小于 $4$.</p><p>当 $u^{4}=4v^{4}=\\dfrac{1}{2}$ 时等号成立，例如取 $a=2^{-\\frac{1}{4}}$，$b=2^{-\\frac{3}{4}}$，满足 $ab>0$.因此最小值为 $4$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "在 $\\triangle ABC$ 中，$\\angle A=60^{\\circ}$，$AB=3$，$AC=2$. 若 $\\overrightarrow{BD}=2\\overrightarrow{DC}$，$\\overrightarrow{AE}=\\lambda\\overrightarrow{AC}-\\overrightarrow{AB}$（$\\lambda\\in\\mathbb{R}$），且 $\\overrightarrow{AD}\\cdot\\overrightarrow{AE}=-4$，则 $\\lambda$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{3}{11}$",
-          "solution": "<p>令 $\\mathbf{u}=\\overrightarrow{AB}$，$\\mathbf{v}=\\overrightarrow{AC}$.由已知，$\\mathbf{u}\\cdot\\mathbf{u}=9$，$\\mathbf{v}\\cdot\\mathbf{v}=4$，且 $\\mathbf{u}\\cdot\\mathbf{v}=3\\cdot2\\cos60^{\\circ}=3$.</p><p>由 $\\overrightarrow{BD}=2\\overrightarrow{DC}$，得 $D-B=2(C-D)$，所以 $3D=B+2C$，从而 $\\overrightarrow{AD}=\\dfrac{1}{3}\\mathbf{u}+\\dfrac{2}{3}\\mathbf{v}$.又 $\\overrightarrow{AE}=\\lambda\\mathbf{v}-\\mathbf{u}$，故</p>\n$$\n\\overrightarrow{AD}\\cdot\\overrightarrow{AE}=\\left(\\dfrac{1}{3}\\mathbf{u}+\\dfrac{2}{3}\\mathbf{v}\\right)\\cdot\\left(\\lambda\\mathbf{v}-\\mathbf{u}\\right)=\\dfrac{11\\lambda-15}{3}\n$$\n<p>令其等于 $-4$，得 $\\dfrac{11\\lambda-15}{3}=-4$，所以 $\\lambda=\\dfrac3{11}$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{3}{11}\\)",
+          "solution": "<p>令 $\\mathbf{u}=\\overrightarrow{AB}$，$\\mathbf{v}=\\overrightarrow{AC}$.由已知，$\\mathbf{u}\\cdot\\mathbf{u}=9$，$\\mathbf{v}\\cdot\\mathbf{v}=4$，且 $\\mathbf{u}\\cdot\\mathbf{v}=3\\cdot2\\cos60^{\\circ}=3$.</p><p>由 $\\overrightarrow{BD}=2\\overrightarrow{DC}$，得 $D-B=2(C-D)$，所以 $3D=B+2C$，从而 $\\overrightarrow{AD}=\\dfrac{1}{3}\\mathbf{u}+\\dfrac{2}{3}\\mathbf{v}$.又 $\\overrightarrow{AE}=\\lambda\\mathbf{v}-\\mathbf{u}$，故</p>\n$$\n\\overrightarrow{AD}\\cdot\\overrightarrow{AE}=\\left(\\dfrac{1}{3}\\mathbf{u}+\\dfrac{2}{3}\\mathbf{v}\\right)\\cdot\\left(\\lambda\\mathbf{v}-\\mathbf{u}\\right)=\\dfrac{11\\lambda-15}{3}\n$$\n<p>令其等于 $-4$，得 $\\dfrac{11\\lambda-15}{3}=-4$，所以 $\\lambda=\\dfrac3{11}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -158,44 +309,56 @@
         {
           "num": 15,
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $a\\sin A=4b\\sin B$，$ac=\\sqrt{5}\\left(a^{2}-b^{2}-c^{2}\\right)$.</p><ol class=\"enumerate\"><li><p>求 $\\cos A$ 的值；</p></li><li><p>求 $\\sin(2B-A)$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$.因此 $a\\sin A=\\dfrac{a^2}{2R}$，$b\\sin B=\\dfrac{b^2}{2R}$，其中 $R$ 为三角形外接圆半径.由题设得 $a^{2}=4b^{2}$，由于边长为正，故 $a=2b$.</p><p>由余弦定理，$a^{2}-b^{2}-c^{2}=-2bc\\cos A$.代入第二个条件并除以 $c>0$，得 $a=-2\\sqrt{5}b\\cos A$.再代入 $a=2b$，得 $\\cos A=-\\dfrac1{\\sqrt{5}}=-\\dfrac{\\sqrt{5}}{5}$.</p></li><li><p>因为 $A$ 为钝角，所以 $B$，$C$ 为锐角.由正弦定理及 $a=2b$，得 $\\sin B=\\dfrac{b}{a}\\sin A=\\dfrac{1}{2}\\cdot\\dfrac2{\\sqrt{5}}=\\dfrac1{\\sqrt{5}}$，从而 $\\cos B=\\dfrac2{\\sqrt{5}}$.于是 $\\sin2B=\\dfrac{4}{5}$，$\\cos2B=\\dfrac{3}{5}$，且 $\\sin A=\\dfrac2{\\sqrt{5}}$.</p><p>因此 $\\sin(2B-A)=\\sin2B\\cos A-\\cos2B\\sin A=\\dfrac{4}{5}\\left(-\\dfrac1{\\sqrt{5}}\\right)-\\dfrac{3}{5}\\cdot\\dfrac2{\\sqrt{5}}=-\\dfrac2{\\sqrt{5}}=-\\dfrac{2\\sqrt{5}}{5}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$.因此 $a\\sin A=\\dfrac{a^2}{2R}$，$b\\sin B=\\dfrac{b^2}{2R}$，其中 $R$ 为三角形外接圆半径.由题设得 $a^{2}=4b^{2}$，由于边长为正，故 $a=2b$.</p><p>由余弦定理，$a^{2}-b^{2}-c^{2}=-2bc\\cos A$.代入第二个条件并除以 $c>0$，得 $a=-2\\sqrt{5}b\\cos A$.再代入 $a=2b$，得 $\\cos A=-\\dfrac1{\\sqrt{5}}=-\\dfrac{\\sqrt{5}}{5}$.</p></li><li><p>因为 $A$ 为钝角，所以 $B$，$C$ 为锐角.由正弦定理及 $a=2b$，得 $\\sin B=\\dfrac{b}{a}\\sin A=\\dfrac{1}{2}\\cdot\\dfrac2{\\sqrt{5}}=\\dfrac1{\\sqrt{5}}$，从而 $\\cos B=\\dfrac2{\\sqrt{5}}$.于是 $\\sin2B=\\dfrac{4}{5}$，$\\cos2B=\\dfrac{3}{5}$，且 $\\sin A=\\dfrac2{\\sqrt{5}}$.</p><p>因此 $\\sin(2B-A)=\\sin2B\\cos A-\\cos2B\\sin A=\\dfrac{4}{5}\\left(-\\dfrac1{\\sqrt{5}}\\right)-\\dfrac{3}{5}\\cdot\\dfrac2{\\sqrt{5}}=-\\dfrac2{\\sqrt{5}}=-\\dfrac{2\\sqrt{5}}{5}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 16,
-          "body": "<p>电视台播放甲，乙两套连续剧，每次播放连续剧时，需要播放广告. 已知每次播放甲，乙两套连续剧时，连续剧播放时长，广告播放时长，收视人次如下表所示：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"></td><td style=\"text-align: center\"> 连续剧播放时长（分钟） </td><td style=\"text-align: center\"> 广告播放时长（分钟） </td><td style=\"text-align: center\"> 收视人次（万）</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>甲 </td><td style=\"text-align: center\"> $70$ </td><td style=\"text-align: center\"> $5$ </td><td style=\"text-align: center\"> $60$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>乙 </td><td style=\"text-align: center\"> $60$ </td><td style=\"text-align: center\"> $5$ </td><td style=\"text-align: center\"> $25$</td></tr></tbody></table></center><p>已知电视台每周安排的甲，乙连续剧的总播放时间不多于 $600$ 分钟，广告的总播放时间不少于 $30$ 分钟，且甲连续剧播放的次数不多于乙连续剧播放次数的 $2$ 倍. 分别用 $x$，$y$ 表示每周计划播出的甲，乙两套连续剧的次数.</p><ol class=\"enumerate\"><li><p>用 $x$，$y$ 列出满足题目条件的数学关系式，并画出相应的平面区域；</p></li><li><p>问电视台每周播出甲，乙两套连续剧各多少次，才能使总收视人次最多？</p></li></ol>",
-          "choices": null,
+          "body": "<p>电视台播放甲，乙两套连续剧，每次播放连续剧时，需要播放广告. 已知每次播放甲，乙两套连续剧时，连续剧播放时长，广告播放时长，收视人次如下表所示：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"></td><td style=\"text-align: center\"> 连续剧播放时长（分钟） </td><td style=\"text-align: center\"> 广告播放时长（分钟） </td><td style=\"text-align: center\"> 收视人次（万）</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">甲 </td><td style=\"text-align: center\"> $70$ </td><td style=\"text-align: center\"> $5$ </td><td style=\"text-align: center\"> $60$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">乙 </td><td style=\"text-align: center\"> $60$ </td><td style=\"text-align: center\"> $5$ </td><td style=\"text-align: center\"> $25$</td></tr></tbody></table></center><p>已知电视台每周安排的甲，乙连续剧的总播放时间不多于 $600$ 分钟，广告的总播放时间不少于 $30$ 分钟，且甲连续剧播放的次数不多于乙连续剧播放次数的 $2$ 倍. 分别用 $x$，$y$ 表示每周计划播出的甲，乙两套连续剧的次数.</p><ol class=\"enumerate\"><li><p>用 $x$，$y$ 列出满足题目条件的数学关系式，并画出相应的平面区域；</p></li><li><p>问电视台每周播出甲，乙两套连续剧各多少次，才能使总收视人次最多？</p></li></ol>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由总播放时间、广告时间、次数关系及次数非负，得到</p>\n$$\n\\begin{cases}7x+6y\\le60,\\\\  x+y\\ge6,\\\\  x-2y\\le0,\\\\  x\\ge0,\\\\  y\\ge0.\\end{cases}\n$$\n<p>其中第一式由 $70x+60y\\le600$ 同除以 $10$ 得到，第二式由 $5x+5y\\ge30$ 同除以 $5$ 得到.可行域是上述五个半平面的交集，边界依次为 $x=0$ 上从 $(0,6)$ 到 $(0,10)$ 的线段、$7x+6y=60$ 上从 $(0,10)$ 到 $(6,3)$ 的线段、$x=2y$ 上从 $(6,3)$ 到 $(4,2)$ 的线段，以及 $x+y=6$ 上从 $(4,2)$ 到 $(0,6)$ 的线段.因此可行域是顶点依次为 $(0,6)$、$(0,10)$、$(6,3)$、$(4,2)$ 的封闭四边形，按这些边界即可画出相应区域.</p></li><li><p>设总收视人次为 $z$ 万，则目标函数为 $z=60x+25y$.在可行域的四个顶点处分别计算：$z(0,6)=150$，$z(0,10)=250$，$z(6,3)=435$，$z(4,2)=290$.最大值为 $435$，在 $(x,y)=(6,3)$ 处取得.因此每周应播出甲连续剧 $6$ 次，乙连续剧 $3$ 次.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由总播放时间、广告时间、次数关系及次数非负，得到</p>\n$$\n\\begin{cases}7x+6y\\le60,\\\\  x+y\\ge6,\\\\  x-2y\\le0,\\\\  x\\ge0,\\\\  y\\ge0.\\end{cases}\n$$\n<p>其中第一式由 $70x+60y\\le600$ 同除以 $10$ 得到，第二式由 $5x+5y\\ge30$ 同除以 $5$ 得到.可行域是上述五个半平面的交集，边界依次为 $x=0$ 上从 $(0,6)$ 到 $(0,10)$ 的线段、$7x+6y=60$ 上从 $(0,10)$ 到 $(6,3)$ 的线段、$x=2y$ 上从 $(6,3)$ 到 $(4,2)$ 的线段，以及 $x+y=6$ 上从 $(4,2)$ 到 $(0,6)$ 的线段.因此可行域是顶点依次为 $(0,6)$、$(0,10)$、$(6,3)$、$(4,2)$ 的封闭四边形，按这些边界即可画出相应区域.</p></li><li><p>设总收视人次为 $z$ 万，则目标函数为 $z=60x+25y$.在可行域的四个顶点处分别计算：$z(0,6)=150$，$z(0,10)=250$，$z(6,3)=435$，$z(4,2)=290$.最大值为 $435$，在 $(x,y)=(6,3)$ 处取得.因此每周应播出甲连续剧 $6$ 次，乙连续剧 $3$ 次.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图，在四棱锥 $P-ABCD$ 中，$AD\\perp$ 平面 $PDC$，$AD\\parallel BC$，$PD\\perp PB$，$AD=1$，$BC=3$，$CD=4$，$PD=2$.</p><ol class=\"enumerate\"><li><p>求异面直线 $AP$ 与 $BC$ 所成角的余弦值；</p></li><li><p>求证：$PD\\perp$ 平面 $PBC$；</p></li><li><p>求直线 $AB$ 与平面 $PBC$ 所成角的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在四棱锥 $P-ABCD$ 中，$AD\\perp$ 平面 $PDC$，$AD\\parallel BC$，$PD\\perp PB$，$AD=1$，$BC=3$，$CD=4$，$PD=2$.</p><ol class=\"enumerate\"><li><p>求异面直线 $AP$ 与 $BC$ 所成角的余弦值；</p></li><li><p>求证：$PD\\perp$ 平面 $PBC$；</p></li><li><p>求直线 $AB$ 与平面 $PBC$ 所成角的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2017/img/tianjin_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $AD\\parallel BC$，所以异面直线 $AP$ 与 $BC$ 所成的角等于直线 $AP$ 与 $AD$ 所成角的锐角，即 $\\angle DAP$ 或其补角.又因为 $AD\\perp$ 平面 $PDC$，所以 $AD\\perp PD$.在直角三角形 $PDA$ 中，$AP=\\sqrt{AD^{2}+PD^{2}}=\\sqrt{5}$，故所成角的余弦值为 $\\dfrac{AD}{AP}=\\dfrac1{\\sqrt{5}}=\\dfrac{\\sqrt{5}}{5}$.</p></li><li><p>由 $AD\\perp$ 平面 $PDC$ 且 $PD$ 在平面 $PDC$ 内，得 $AD\\perp PD$.又由 $AD\\parallel BC$，得 $PD\\perp BC$.已知 $PD\\perp PB$，而 $PB$ 与 $BC$ 是平面 $PBC$ 内相交的两条直线，所以 $PD\\perp$ 平面 $PBC$.</p></li><li><p>过点 $D$ 作 $DF\\parallel AB$，交 $BC$ 于点 $F$.由 $AD\\parallel BC$ 得 $AD\\parallel BF$，所以四边形 $ABFD$ 是平行四边形，进而 $DF=AB$，且 $BF=AD=1$.因此 $CF=BC-BF=2$.</p><p>由 $AD\\perp$ 平面 $PDC$ 得 $AD\\perp DC$，再由 $AD\\parallel BC$ 得 $BC\\perp DC$，所以三角形 $DCF$ 在 $C$ 处直角，$DF=\\sqrt{DC^{2}+CF^{2}}=\\sqrt{4^{2}+2^{2}}=2\\sqrt{5}$.</p><p>由第二问，$PD\\perp$ 平面 $PBC$，故 $PF$ 是 $DF$ 在平面 $PBC$ 上的射影，直线 $DF$ 与平面 $PBC$ 所成的角为 $\\angle DFP$.由于 $DF\\parallel AB$，这也就是直线 $AB$ 与平面 $PBC$ 所成的角.三角形 $DPF$ 在 $P$ 处直角，故其正弦为 $\\dfrac{PD}{DF}=\\dfrac2{2\\sqrt{5}}=\\dfrac{\\sqrt{5}}{5}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $AD\\parallel BC$，所以异面直线 $AP$ 与 $BC$ 所成的角等于直线 $AP$ 与 $AD$ 所成角的锐角，即 $\\angle DAP$ 或其补角.又因为 $AD\\perp$ 平面 $PDC$，所以 $AD\\perp PD$.在直角三角形 $PDA$ 中，$AP=\\sqrt{AD^{2}+PD^{2}}=\\sqrt{5}$，故所成角的余弦值为 $\\dfrac{AD}{AP}=\\dfrac1{\\sqrt{5}}=\\dfrac{\\sqrt{5}}{5}$.</p></li><li><p>由 $AD\\perp$ 平面 $PDC$ 且 $PD$ 在平面 $PDC$ 内，得 $AD\\perp PD$.又由 $AD\\parallel BC$，得 $PD\\perp BC$.已知 $PD\\perp PB$，而 $PB$ 与 $BC$ 是平面 $PBC$ 内相交的两条直线，所以 $PD\\perp$ 平面 $PBC$.</p></li><li><p>过点 $D$ 作 $DF\\parallel AB$，交 $BC$ 于点 $F$.由 $AD\\parallel BC$ 得 $AD\\parallel BF$，所以四边形 $ABFD$ 是平行四边形，进而 $DF=AB$，且 $BF=AD=1$.因此 $CF=BC-BF=2$.</p><p>由 $AD\\perp$ 平面 $PDC$ 得 $AD\\perp DC$，再由 $AD\\parallel BC$ 得 $BC\\perp DC$，所以三角形 $DCF$ 在 $C$ 处直角，$DF=\\sqrt{DC^{2}+CF^{2}}=\\sqrt{4^{2}+2^{2}}=2\\sqrt{5}$.</p><p>由第二问，$PD\\perp$ 平面 $PBC$，故 $PF$ 是 $DF$ 在平面 $PBC$ 上的射影，直线 $DF$ 与平面 $PBC$ 所成的角为 $\\angle DFP$.由于 $DF\\parallel AB$，这也就是直线 $AB$ 与平面 $PBC$ 所成的角.三角形 $DPF$ 在 $P$ 处直角，故其正弦为 $\\dfrac{PD}{DF}=\\dfrac2{2\\sqrt{5}}=\\dfrac{\\sqrt{5}}{5}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>已知 $\\{a_{n}\\}$ 为等差数列，前 $n$ 项和为 $S_{n}$（$n\\in\\mathbb{N}^{*}$），$\\{b_{n}\\}$ 是首项为 $2$ 的等比数列，且公比大于 $0$，$b_{2}+b_{3}=12$，$b_{3}=a_{4}-2a_{1}$，$S_{11}=11b_{4}$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>求数列 $\\{a_{2n}b_{n}\\}$ 的前 $n$ 项和（$n\\in\\mathbb{N}^{*}$）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$，等比数列 $\\{b_{n}\\}$ 的公比为 $q$.由 $b_{1}=2$，有 $b_{2}=2q$，$b_{3}=2q^{2}$，所以 $2q+2q^{2}=12$，即 $q^{2}+q-6=0$.因 $q>0$，得 $q=2$，故 $b_{n}=2\\cdot2^{n-1}=2^{n}$.</p><p>由 $b_{3}=a_{4}-2a_{1}$ 得 $8=(a_{1}+3d)-2a_{1}=3d-a_{1}$.又 $S_{11}=\\dfrac{11}{2}(2a_{1}+10d)=11(a_{1}+5d)$，而 $11b_{4}=11\\cdot16$，所以 $a_{1}+5d=16$.解方程组</p><p>$3d-a_{1}=8$，$a_{1}+5d=16$，得 $a_{1}=1$，$d=3$.因此 $a_{n}=1+3(n-1)=3n-2$.</p></li><li><p>设所求前 $n$ 项和为 $T_{n}$.由上问，$a_{2k}=6k-2$，$b_{k}=2^{k}$，故</p><p>$T_{n}=\\sum_{k=1}^{n}(6k-2)2^{k}=6\\sum_{k=1}^{n} k2^{k}-2\\sum_{k=1}^{n}2^{k}$.其中 $\\sum_{k=1}^{n}2^{k}=2^{n+1}-2$.令 $U_{n}=\\sum_{k=1}^{n} k2^{k}$，将 $2U_{n}=\\sum_{k=2}^{n+1}(k-1)2^{k}$ 与 $U_{n}$ 错位相减，得</p>\n$$\n2U_{n}-U_{n}=n2^{n+1}-2-\\sum_{k=2}^{n}2^{k}=n2^{n+1}-2-\\left(2^{n+1}-4\\right)=(n-1)2^{n+1}+2\n$$\n<p>所以</p>\n$$\nT_{n}=6\\left((n-1)2^{n+1}+2\\right)-2\\left(2^{n+1}-2\\right)=(3n-4)2^{n+2}+16\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$，等比数列 $\\{b_{n}\\}$ 的公比为 $q$.由 $b_{1}=2$，有 $b_{2}=2q$，$b_{3}=2q^{2}$，所以 $2q+2q^{2}=12$，即 $q^{2}+q-6=0$.因 $q>0$，得 $q=2$，故 $b_{n}=2\\cdot2^{n-1}=2^{n}$.</p><p>由 $b_{3}=a_{4}-2a_{1}$ 得 $8=(a_{1}+3d)-2a_{1}=3d-a_{1}$.又 $S_{11}=\\dfrac{11}{2}(2a_{1}+10d)=11(a_{1}+5d)$，而 $11b_{4}=11\\cdot16$，所以 $a_{1}+5d=16$.解方程组</p><p>$3d-a_{1}=8$，$a_{1}+5d=16$，得 $a_{1}=1$，$d=3$.因此 $a_{n}=1+3(n-1)=3n-2$.</p></li><li><p>设所求前 $n$ 项和为 $T_{n}$.由上问，$a_{2k}=6k-2$，$b_{k}=2^{k}$，故</p><p>$T_{n}=\\sum_{k=1}^{n}(6k-2)2^{k}=6\\sum_{k=1}^{n} k2^{k}-2\\sum_{k=1}^{n}2^{k}$.其中 $\\sum_{k=1}^{n}2^{k}=2^{n+1}-2$.令 $U_{n}=\\sum_{k=1}^{n} k2^{k}$，将 $2U_{n}=\\sum_{k=2}^{n+1}(k-1)2^{k}$ 与 $U_{n}$ 错位相减，得</p>\n$$\n2U_{n}-U_{n}=n2^{n+1}-2-\\sum_{k=2}^{n}2^{k}=n2^{n+1}-2-\\left(2^{n+1}-4\\right)=(n-1)2^{n+1}+2\n$$\n<p>所以</p>\n$$\nT_{n}=6\\left((n-1)2^{n+1}+2\\right)-2\\left(2^{n+1}-2\\right)=(3n-4)2^{n+2}+16\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>设 $a$，$b\\in\\mathbb{R}$，$|a|\\le 1$. 已知函数 $f(x)=x^{3}-6x^{2}-3a(a-4)x+b$，$g(x)=\\mathrm{e}^{x} f(x)$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>已知函数 $y=g(x)$ 和 $y=\\mathrm{e}^{x}$ 的图象在公共点 $(x_{0},y_{0})$ 处有相同的切线.</p><p></p><ol class=\"enumerate\"><li><p>求证：$f(x)$ 在 $x=x_{0}$ 处的导数等于 $0$；</p></li><li><p>若关于 $x$ 的不等式 $g(x)\\le \\mathrm{e}^{x}$ 在区间 $[x_{0}-1,x_{0}+1]$ 上恒成立，求 $b$ 的取值范围.</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-12x-3a(a-4)=3(x-a)(x-4+a)$.由 $|a|\\le1$ 得 $a<4-a$.因此当 $x<a$ 或 $x>4-a$ 时 $f'(x)>0$，当 $a<x<4-a$ 时 $f'(x)<0$.所以 $f(x)$ 的单调递增区间为 $(-\\infty,a)$、$(4-a,+\\infty)$，单调递减区间为 $(a,4-a)$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>公共点条件给出 $g(x_{0})=\\mathrm{e}^{x_0}$，即 $\\mathrm{e}^{x_0}f(x_{0})=\\mathrm{e}^{x_0}$，所以 $f(x_{0})=1$.又 $g'(x)=\\mathrm{e}^{x}(f(x)+f'(x))$，而两图象在该点的切线相同，故 $g'(x_{0})=\\mathrm{e}^{x_0}$，从而 $f(x_{0})+f'(x_{0})=1$.结合 $f(x_{0})=1$，得到 $f'(x_{0})=0$.</p></li><li><p>因为 $\\mathrm{e}^{x}>0$，不等式 $g(x)\\le\\mathrm{e}^{x}$ 等价于 $f(x)\\le1$.由上问，$f(x_{0})=1$，$f'(x_{0})=0$，所以 $x_{0}=a$ 或 $x_{0}=4-a$.若 $x_{0}=4-a$，则在其右侧足够小的邻域内 $f$ 递增，因而有 $f(x)>f(x_{0})=1$，与区间上的恒成立条件矛盾，故 $x_{0}=a$.</p><p>由于 $|a|\\le1$，有 $a+1<4-a$.由第一问，$f$ 在 $[a-1,a]$ 上递增，在 $[a,a+1]$ 上递减，所以 $f(x)\\le f(a)=1$ 对 $x\\in[a-1,a+1]$ 恒成立.于是条件等价于 $f(a)=1$.</p><p>计算得 $f(a)=a^{3}-6a^{2}-3a^{2}(a-4)+b=-2a^{3}+6a^{2}+b$，所以 $b=1+2a^{3}-6a^{2}$，其中 $-1\\le a\\le1$.令 $t(a)=1+2a^{3}-6a^{2}$，则 $t'(a)=6a(a-2)$.在 $[-1,0]$ 上 $t'(a)>0$，在 $[0,1]$ 上 $t'(a)<0$，所以最大值为 $t(0)=1$，最小值为 $t(-1)=-7$（另有 $t(1)=-3$）.因此 $b\\in[-7,1]$.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-12x-3a(a-4)=3(x-a)(x-4+a)$.由 $|a|\\le1$ 得 $a<4-a$.因此当 $x<a$ 或 $x>4-a$ 时 $f'(x)>0$，当 $a<x<4-a$ 时 $f'(x)<0$.所以 $f(x)$ 的单调递增区间为 $(-\\infty,a)$、$(4-a,+\\infty)$，单调递减区间为 $(a,4-a)$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>公共点条件给出 $g(x_{0})=\\mathrm{e}^{x_0}$，即 $\\mathrm{e}^{x_0}f(x_{0})=\\mathrm{e}^{x_0}$，所以 $f(x_{0})=1$.又 $g'(x)=\\mathrm{e}^{x}(f(x)+f'(x))$，而两图象在该点的切线相同，故 $g'(x_{0})=\\mathrm{e}^{x_0}$，从而 $f(x_{0})+f'(x_{0})=1$.结合 $f(x_{0})=1$，得到 $f'(x_{0})=0$.</p></li><li><p>因为 $\\mathrm{e}^{x}>0$，不等式 $g(x)\\le\\mathrm{e}^{x}$ 等价于 $f(x)\\le1$.由上问，$f(x_{0})=1$，$f'(x_{0})=0$，所以 $x_{0}=a$ 或 $x_{0}=4-a$.若 $x_{0}=4-a$，则在其右侧足够小的邻域内 $f$ 递增，因而有 $f(x)>f(x_{0})=1$，与区间上的恒成立条件矛盾，故 $x_{0}=a$.</p><p>由于 $|a|\\le1$，有 $a+1<4-a$.由第一问，$f$ 在 $[a-1,a]$ 上递增，在 $[a,a+1]$ 上递减，所以 $f(x)\\le f(a)=1$ 对 $x\\in[a-1,a+1]$ 恒成立.于是条件等价于 $f(a)=1$.</p><p>计算得 $f(a)=a^{3}-6a^{2}-3a^{2}(a-4)+b=-2a^{3}+6a^{2}+b$，所以 $b=1+2a^{3}-6a^{2}$，其中 $-1\\le a\\le1$.令 $t(a)=1+2a^{3}-6a^{2}$，则 $t'(a)=6a(a-2)$.在 $[-1,0]$ 上 $t'(a)>0$，在 $[0,1]$ 上 $t'(a)<0$，所以最大值为 $t(0)=1$，最小值为 $t(-1)=-7$（另有 $t(1)=-3$）.因此 $b\\in[-7,1]$.</p></li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的左焦点为 $F(-c,0)$，右顶点为 $A$，点 $E$ 的坐标为 $(0,c)$，$\\triangle EFA$ 的面积为 $\\dfrac{b^2}{2}$.</p><ol class=\"enumerate\"><li><p>求椭圆的离心率；</p></li><li><p>设点 $Q$ 在线段 $AE$ 上，$|FQ|=\\dfrac{3}{2}c$，延长线段 $FQ$ 与椭圆交于点 $P$，点 $M$，$N$ 在 $x$ 轴上，$PM\\parallel QN$，且直线 $PM$ 与直线 $QN$ 间的距离为 $c$，四边形 $PQNM$ 的面积为 $3c$.</p><p></p><ol class=\"enumerate\"><li><p>求直线 $FP$ 的斜率；</p></li><li><p>求椭圆的方程.</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $A=(a,0)$、$F=(-c,0)$、$E=(0,c)$，得 $|FA|=a+c$，点 $E$ 到 $x$ 轴的距离为 $c$，所以</p><p>$\\dfrac{1}{2}(a+c)c=\\dfrac{b^2}{2}$，即 $(a+c)c=b^{2}$.又 $b^{2}=a^{2}-c^{2}=(a+c)(a-c)$，故 $c=a-c$，即 $a=2c$.于是 $b^{2}=3c^{2}$，椭圆的离心率为 $e=\\dfrac{c}{a}=\\dfrac{1}{2}$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>由上问，$A=(2c,0)$，$E=(0,c)$，所以直线 $AE$ 的方程为 $x+2y=2c$.设直线 $FP$ 的方程为 $x=my-c$，其中 $m>0$，则其斜率为 $\\dfrac{1}{m}$.与直线 $AE$ 联立，得</p><p>$Q\\left(\\dfrac{2c(m-1)}{m+2},\\dfrac{3c}{m+2}\\right)$.因此</p><p>$FQ=\\dfrac{3c\\sqrt{m^{2}+1}}{m+2}=\\dfrac{3c}{2}$，即 $2\\sqrt{m^{2}+1}=m+2$.平方并整理得 $3m^{2}-4m=0$.$m=0$ 时交点不在线段 $AE$ 上，故 $m=\\dfrac{4}{3}$，从而直线 $FP$ 的斜率为 $\\dfrac{3}{4}$.</p></li><li><p>由 $m=\\dfrac{4}{3}$，直线 $FP$ 为 $3x-4y+3c=0$.又 $a=2c$，$b^{2}=3c^{2}$，椭圆方程为 $\\dfrac{x^2}{4c^2}+\\dfrac{y^2}{3c^2}=1$.联立直线方程，消去 $y$ 得</p><p>$7x^{2}+6cx-13c^{2}=0$，所以 $x=-\\dfrac{13c}{7}$ 或 $x=c$.延长线段 $FQ$ 与椭圆交于 $P$，取在射线 $FQ$ 上的交点，故 $P\\left(c,\\dfrac{3}{2}c\\right)$.由此 $FP=\\dfrac{5}{2}c$，而 $FQ=\\dfrac{3}{2}c$，所以 $PQ=c$.</p><p>由题设，两平行直线 $PM$、$QN$ 的距离为 $c$.线段 $PQ$ 的两个端点分别在这两条直线上，且 $|PQ|=c$，故 $PQ$ 正好是两平行直线的公垂线，即 $PM\\perp FP$、$QN\\perp FP$.设 $\\theta=\\angle QFN$，则 $\\tan\\theta=\\dfrac{3}{4}$.在直角三角形 $FQN$ 中，</p><p>$QN=FQ\\tan\\theta=\\dfrac{3c}{2}\\cdot\\dfrac{3}{4}=\\dfrac{9c}{8}$，故 $S_{\\triangle FQN}=\\dfrac{1}{2}\\cdot\\dfrac{3c}{2}\\cdot\\dfrac{9c}{8}=\\dfrac{27c^2}{32}$.在直角三角形 $FPM$ 中，$\\tan\\angle PFM=\\dfrac{3}{4}$，所以 $PM=FP\\tan\\angle PFM=\\dfrac{5c}{2}\\cdot\\dfrac{3}{4}=\\dfrac{15c}{8}$，故 $S_{\\triangle FPM}=\\dfrac{75c^2}{32}$.</p><p>四边形 $PQNM$ 的面积为两三角形面积之差，所以 $\\dfrac{75c^2}{32}-\\dfrac{27c^2}{32}=3c$.由 $c>0$ 得 $c=2$.于是 $a=4$，$b^{2}=12$，椭圆方程为 $\\dfrac{x^2}{16}+\\dfrac{y^2}{12}=1$.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $A=(a,0)$、$F=(-c,0)$、$E=(0,c)$，得 $|FA|=a+c$，点 $E$ 到 $x$ 轴的距离为 $c$，所以</p><p>$\\dfrac{1}{2}(a+c)c=\\dfrac{b^2}{2}$，即 $(a+c)c=b^{2}$.又 $b^{2}=a^{2}-c^{2}=(a+c)(a-c)$，故 $c=a-c$，即 $a=2c$.于是 $b^{2}=3c^{2}$，椭圆的离心率为 $e=\\dfrac{c}{a}=\\dfrac{1}{2}$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>由上问，$A=(2c,0)$，$E=(0,c)$，所以直线 $AE$ 的方程为 $x+2y=2c$.设直线 $FP$ 的方程为 $x=my-c$，其中 $m>0$，则其斜率为 $\\dfrac{1}{m}$.与直线 $AE$ 联立，得</p><p>$Q\\left(\\dfrac{2c(m-1)}{m+2},\\dfrac{3c}{m+2}\\right)$.因此</p><p>$FQ=\\dfrac{3c\\sqrt{m^{2}+1}}{m+2}=\\dfrac{3c}{2}$，即 $2\\sqrt{m^{2}+1}=m+2$.平方并整理得 $3m^{2}-4m=0$.$m=0$ 时交点不在线段 $AE$ 上，故 $m=\\dfrac{4}{3}$，从而直线 $FP$ 的斜率为 $\\dfrac{3}{4}$.</p></li><li><p>由 $m=\\dfrac{4}{3}$，直线 $FP$ 为 $3x-4y+3c=0$.又 $a=2c$，$b^{2}=3c^{2}$，椭圆方程为 $\\dfrac{x^2}{4c^2}+\\dfrac{y^2}{3c^2}=1$.联立直线方程，消去 $y$ 得</p><p>$7x^{2}+6cx-13c^{2}=0$，所以 $x=-\\dfrac{13c}{7}$ 或 $x=c$.延长线段 $FQ$ 与椭圆交于 $P$，取在射线 $FQ$ 上的交点，故 $P\\left(c,\\dfrac{3}{2}c\\right)$.由此 $FP=\\dfrac{5}{2}c$，而 $FQ=\\dfrac{3}{2}c$，所以 $PQ=c$.</p><p>由题设，两平行直线 $PM$、$QN$ 的距离为 $c$.线段 $PQ$ 的两个端点分别在这两条直线上，且 $|PQ|=c$，故 $PQ$ 正好是两平行直线的公垂线，即 $PM\\perp FP$、$QN\\perp FP$.设 $\\theta=\\angle QFN$，则 $\\tan\\theta=\\dfrac{3}{4}$.在直角三角形 $FQN$ 中，</p><p>$QN=FQ\\tan\\theta=\\dfrac{3c}{2}\\cdot\\dfrac{3}{4}=\\dfrac{9c}{8}$，故 $S_{\\triangle FQN}=\\dfrac{1}{2}\\cdot\\dfrac{3c}{2}\\cdot\\dfrac{9c}{8}=\\dfrac{27c^2}{32}$.在直角三角形 $FPM$ 中，$\\tan\\angle PFM=\\dfrac{3}{4}$，所以 $PM=FP\\tan\\angle PFM=\\dfrac{5c}{2}\\cdot\\dfrac{3}{4}=\\dfrac{15c}{8}$，故 $S_{\\triangle FPM}=\\dfrac{75c^2}{32}$.</p><p>四边形 $PQNM$ 的面积为两三角形面积之差，所以 $\\dfrac{75c^2}{32}-\\dfrac{27c^2}{32}=3c$.由 $c>0$ 得 $c=2$.于是 $a=4$，$b^{2}=12$，椭圆方程为 $\\dfrac{x^2}{16}+\\dfrac{y^2}{12}=1$.</p></li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

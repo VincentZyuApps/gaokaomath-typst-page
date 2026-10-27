@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,186 +11,232 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $A = \{x | x^2 - 5 x + 6 <= 0 \}$，集合 $B = \{x | |2 x - 1| > 3\}$，则集合 $A inter B =$（ ）
-  #choices([$\{x | 2 <= x <= 3 \}$], [$\{x | 2 <= x < 3\}$], [$\{x | 2 < x <= 3 \}$], [$\{x | -1 < x < 3\}$], cols: 2)
+已知集合 #mi(`A = \{x \mid x^{2} - 5x + 6 \le 0\}`)，集合 #mi(`B = \{x \mid |2x - 1| > 3\}`)，则集合 #mi(`A \cap B =`)（ ）
+  #choices([#mi(`\{x\mid 2\le x\le 3\}`)], [#mi(`\{x\mid 2\le x < 3\}`)], [#mi(`\{x\mid 2 < x\le 3\}`)], [#mi(`\{x\mid -1 < x < 3\}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-由 $x^2-5 x+6=(x-2)(x-3)$，得 $A=[2,3]$. 由 $|2 x-1|>3$，得 $x>2$ 或 $x<-1$，所以 $A inter B=(2,3]$，故选 C.
+由 #mi(`x^{2}-5x+6=(x-2)(x-3)`)，得 #mi(`A=[2,3]`). 由 #mi(`|2x-1|>3`)，得 #mi(`x>2`) 或 #mi(`x<-1`)，所以 #mi(`A\cap B=(2,3]`)，故选 C.
 ]
 
 #problem(2)[
-复数 $(1 - i )^3$ 的虚部为（ ）
-  #choices([$3$], [$-3$], [$2$], [$-2$], cols: 4)
+复数 #mi(`(1 - \mathrm{i})^{3}`) 的虚部为（ ）
+  #choices([#mi(`3`)], [#mi(`-3`)], [#mi(`2`)], [#mi(`-2`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-$(1- i )^2=1-2 i + i ""^2=-2 i$，所以 $(1- i )^3=(-2 i )(1- i )=-2-2 i$，其虚部为 $-2$，故选 D.
+#mi(`(1-\mathrm{i})^{2}=1-2\mathrm{i}+\mathrm{i}^{2}=-2\mathrm{i}`)，所以 #mi(`(1-\mathrm{i})^{3}=(-2\mathrm{i})(1-\mathrm{i})=-2-2\mathrm{i}`)，其虚部为 #mi(`-2`)，故选 D.
 ]
 
 #problem(3)[
-已知 $f(x)=\b e g i n{c a s e s} 2 x+3, & x != 1 ,\\ 2, & x=1, \e n d{c a s e s}$ 下面结论正确的是（ ）
-  #choices([$f(x)$ 在 $x = 1$ 处连续], [$f(1) = 5$], [$lim_(x -> 1 ""^(-))f(x) = 2$], [$lim_(x -> 1 ""^(+))f(x) = 5$], cols: 2)
+已知 #mi(`f(x)=\begin{cases}2x+3,&x\ne 1,\\  2,&x=1,\end{cases}`) 下面结论正确的是（ ）
+  #choices([#mi(`f(x)`) 在 #mi(`x = 1`) 处连续], [#mi(`f(1) = 5`)], [#mi(`\displaystyle\lim_{x\to 1^{-}}f(x) = 2`)], [#mi(`\displaystyle\lim_{x\to 1^{+}}f(x) = 5`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-当 $x != 1$ 时，$f(x)=2 x+3$，因此 $lim_(x -> 1 ""^-)f(x)=lim_(x -> 1 ""^+)f(x)=5$，而 $f(1)=2$. 所以 $f$ 在 $x=1$ 处不连续，选项 D 正确.
+当 #mi(`x\ne 1`) 时，#mi(`f(x)=2x+3`)，因此 #mi(`\displaystyle\lim_{x\to1^-}f(x)=\displaystyle\lim_{x\to1^+}f(x)=5`)，而 #mi(`f(1)=2`). 所以 #mi(`f`) 在 #mi(`x=1`) 处不连续，选项 D 正确.
 ]
 
 #problem(4)[
-已知二面角 $alpha - l - beta$ 的大小为 $60^( degree )$，$m$，$n$ 为异面直线，且 $m bot alpha$，$n bot beta$，则 $m$，$n$ 所成的角为（ ）
-  #choices([$30^( degree )$], [$60^( degree )$], [$90^( degree )$], [$120^( degree )$], cols: 2)
+已知二面角 #mi(`\alpha - l - \beta`) 的大小为 #mi(`60^{\circ}`)，#mi(`m`)，#mi(`n`) 为异面直线，且 #mi(`m \perp \alpha`)，#mi(`n \perp \beta`)，则 #mi(`m`)，#mi(`n`) 所成的角为（ ）
+  #choices([#mi(`30^{\circ}`)], [#mi(`60^{\circ}`)], [#mi(`90^{\circ}`)], [#mi(`120^{\circ}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-直线 $m$ 垂直于平面 $alpha$，直线 $n$ 垂直于平面 $beta$，故 $m$、$n$ 的方向分别为两平面的法向方向. 两平面法向量的夹角的较小值等于两平面所成的二面角，所以 $m$、$n$ 所成的角为 $60^( degree )$，故选 B.
+直线 #mi(`m`) 垂直于平面 #mi(`\alpha`)，直线 #mi(`n`) 垂直于平面 #mi(`\beta`)，故 #mi(`m`)、#mi(`n`) 的方向分别为两平面的法向方向. 两平面法向量的夹角的较小值等于两平面所成的二面角，所以 #mi(`m`)、#mi(`n`) 所成的角为 #mi(`60^{\circ}`)，故选 B.
 ]
 
 #problem(5)[
 下列函数中，图象的一部分如图所示的是（ ）
 
 
-#align(center)[#image("/papers/2006/img/sichuan_science/q5_fig1.png", width: 38%)]
-  #choices([$y = sin (x + (pi)/(6))$], [$y = sin (2 x - (pi)/(6))$], [$y = cos (4 x - (pi)/(3))$], [$y = cos (2 x - (pi)/(6))$], cols: 2)
+#align(center)[#image("/papers/2006/img/sichuan_science/q5_fig1.png", width: 28%)]
+
+  #choices([#mi(`y = \sin \left(x + \frac{\pi}{6}\right)`)], [#mi(`y = \sin \left(2x - \frac{\pi}{6}\right)`)], [#mi(`y = \cos \left(4x - \frac{\pi}{3}\right)`)], [#mi(`y = \cos \left(2x - \frac{\pi}{6}\right)`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-由图象可见，函数在 $x=(pi)/(12)$ 处取得最大值 $1$，且在 $x=-(pi)/(6)$ 处过 $x$ 轴. 逐项代入这两个特征点：选项 A 在 $x=(pi)/(12)$ 时值为 $(sqrt(2))/(2)$，选项 B 在该点时值为 $0$，选项 C 在 $x=-(pi)/(6)$ 时值为 $-1$，均不符合图象；选项 D 在两点的函数值分别为 $1$ 和 $0$，故选 D.
+由图象可见，函数在 #mi(`x=\frac{\pi}{12}`) 处取得最大值 #mi(`1`)，且在 #mi(`x=-\frac{\pi}{6}`) 处过 #mi(`x`) 轴. 逐项代入这两个特征点：选项 A 在 #mi(`x=\frac{\pi}{12}`) 时值为 #mi(`\frac{\sqrt{2}}{2}`)，选项 B 在该点时值为 #mi(`0`)，选项 C 在 #mi(`x=-\frac{\pi}{6}`) 时值为 #mi(`-1`)，均不符合图象；选项 D 在两点的函数值分别为 #mi(`1`) 和 #mi(`0`)，故选 D.
 ]
 
 #problem(6)[
-已知两定点 $A(-2,0)$，$B(1,0)$，如果动点 $P$ 满足 $| P A|=2| P B|$，则点 $P$ 的轨迹所包围的图形的面积等于（ ）
-  #choices([$pi$], [$4 pi$], [$8 pi$], [$9 pi$], cols: 4)
+已知两定点 #mi(`A(-2,0)`)，#mi(`B(1,0)`)，如果动点 #mi(`P`) 满足 #mi(`\lvert PA\rvert=2\lvert PB\rvert`)，则点 #mi(`P`) 的轨迹所包围的图形的面积等于（ ）
+  #choices([#mi(`\pi`)], [#mi(`4\pi`)], [#mi(`8\pi`)], [#mi(`9\pi`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-设 $P(x,y)$. 由 $|P A|=2|P B|$，得
+设 #mi(`P(x,y)`). 由 #mi(`|PA|=2|PB|`)，得
 
-$ (x+2)^2+y^2=4((x-1)^2+y^2) $
 
-化简得 $x^2-4 x+y^2=0$，即 $(x-2)^2+y^2=4$. 所以轨迹是圆心为 $(2,0)$、半径为 $2$ 的圆，所包围图形的面积为 $pi times 2 ""^2=4 pi$，故选 B.
+#align(center)[#mitex(`
+(x+2)^{2}+y^{2}=4\left((x-1)^{2}+y^{2}\right)
+`)]
+
+
+化简得 #mi(`x^{2}-4x+y^{2}=0`)，即 #mi(`(x-2)^{2}+y^{2}=4`). 所以轨迹是圆心为 #mi(`(2,0)`)、半径为 #mi(`2`) 的圆，所包围图形的面积为 #mi(`\pi\times2^{2}=4\pi`)，故选 B.
 ]
 
 #problem(7)[
-如图，已知正六边形 $P_(1)P_(2)P_(3)P_(4)P_(5)P_(6)$，下列向量的数量积中最大的是（ ）
+如图，已知正六边形 #mi(`P_{1}P_{2}P_{3}P_{4}P_{5}P_{6}`)，下列向量的数量积中最大的是（ ）
 
 
-#align(center)[#image("/papers/2006/img/sichuan_science/q7_fig1.png", width: 30%)]
-  #choices([$arrow(P_(1) P_2) dot arrow(P_(1) P_3)$], [$arrow(P_(1) P_2) dot arrow(P_(1) P_4)$], [$arrow(P_(1) P_2) dot arrow(P_(1) P_5)$], [$arrow(P_(1) P_2) dot arrow(P_(1) P_6)$], cols: 1)
+#align(center)[#image("/papers/2006/img/sichuan_science/q7_fig1.png", width: 28%)]
+
+  #choices([#mi(`\overrightarrow{P_1P_2}\cdot \overrightarrow{P_1P_3}`)], [#mi(`\overrightarrow{P_1P_2}\cdot \overrightarrow{P_1P_4}`)], [#mi(`\overrightarrow{P_1P_2}\cdot \overrightarrow{P_1P_5}`)], [#mi(`\overrightarrow{P_1P_2}\cdot \overrightarrow{P_1P_6}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-设正六边形边长为 $s$，取坐标
-$P_1(-(s)/(2),-(sqrt(3){s})/(2))$、
-$P_2((s)/(2),-(sqrt(3){s})/(2))$、$P_3(s,0)$、
-$P_4((s)/(2),(sqrt(3){s})/(2))$、
-$P_5(-(s)/(2),(sqrt(3){s})/(2))$、$P_6(-s,0)$. 于是 $arrow(P_(1) P_2)=(s,0)$.
+设正六边形边长为 #mi(`s`)，取坐标
+
+#mi(`P_{1}\left(-\frac{s}{2},-\frac{\sqrt{3}s}{2}\right)`)、
+
+#mi(`P_{2}\left(\frac{s}{2},-\frac{\sqrt{3}s}{2}\right)`)、#mi(`P_{3}(s,0)`)、
+
+#mi(`P_{4}\left(\frac{s}{2},\frac{\sqrt{3}s}{2}\right)`)、
+
+#mi(`P_{5}\left(-\frac{s}{2},\frac{\sqrt{3}s}{2}\right)`)、#mi(`P_{6}(-s,0)`). 于是 #mi(`\overrightarrow{P_1P_2}=(s,0)`).
+
 计算四个数量积，分别为
-$arrow(P_(1) P_3)\c d o t a r r o w(P_(1) P_2)=(3)/(2)s^2$、
-$arrow(P_(1) P_4)\c d o t a r r o w(P_(1) P_2)=s^2$、
-$arrow(P_(1) P_5)\c d o t a r r o w(P_(1) P_2)=0$、
-$arrow(P_(1) P_6)\c d o t a r r o w(P_(1) P_2)=-(1)/(2)s^2$.
-最大值为 $(3)/(2)s^2$，故选 A.
+
+#mi(`\overrightarrow{P_1P_3}\cdot\overrightarrow{P_1P_2}=\frac{3}{2}s^{2}`)、
+
+#mi(`\overrightarrow{P_1P_4}\cdot\overrightarrow{P_1P_2}=s^{2}`)、
+
+#mi(`\overrightarrow{P_1P_5}\cdot\overrightarrow{P_1P_2}=0`)、
+
+#mi(`\overrightarrow{P_1P_6}\cdot\overrightarrow{P_1P_2}=-\frac{1}{2}s^{2}`).
+
+最大值为 #mi(`\frac{3}{2}s^{2}`)，故选 A.
 ]
 
 #problem(8)[
-某厂生产甲产品每千克需用原料 $A$ 和原料 $B$ 分别为 $a_(1)$，$b_(1)$ 千克，生产乙产品每千克需用原料 $A$ 和原料 $B$ 分别为 $a_(2)$，$b_(2)$ 千克. 甲、乙产品每千克可获利润分别为 $d_(1)$，$d_(2)$ 元. 月初一次性购进本月用原料 $A$，$B$ 各 $c_(1)$，$c_(2)$ 千克. 要计划本月生产甲产品和乙产品各多少千克才能使月利润总额达到最大. 在这个问题中，设全月生产甲、乙两种产品分别为 $x$ 千克，$y$ 千克，月利润总额为 $z$ 元，那么，用于求使总利润 $z=d_(1)x+d_(2)y$ 最大的数学模型中，约束条件为（ ）
+某厂生产甲产品每千克需用原料 #mi(`A`) 和原料 #mi(`B`) 分别为 #mi(`a_{1}`)，#mi(`b_{1}`) 千克，生产乙产品每千克需用原料 #mi(`A`) 和原料 #mi(`B`) 分别为 #mi(`a_{2}`)，#mi(`b_{2}`) 千克. 甲、乙产品每千克可获利润分别为 #mi(`d_{1}`)，#mi(`d_{2}`) 元. 月初一次性购进本月用原料 #mi(`A`)，#mi(`B`) 各 #mi(`c_{1}`)，#mi(`c_{2}`) 千克. 要计划本月生产甲产品和乙产品各多少千克才能使月利润总额达到最大. 在这个问题中，设全月生产甲、乙两种产品分别为 #mi(`x`) 千克，#mi(`y`) 千克，月利润总额为 #mi(`z`) 元，那么，用于求使总利润 #mi(`z=d_{1}x+d_{2}y`) 最大的数学模型中，约束条件为（ ）
 
-    {$\b e g i n{c a s e s} a_(1)x + b_(1)y <= c_(1),\\ a_(2)x + b_(2)y <= c_(2),\\ x >= 0 ,\\ y >= 0 \e n d{c a s e s}$}
-    {$\b e g i n{c a s e s} a_(1)x + a_(2)y <= c_(1),\\ b_(1)x + b_(2)y <= c_(2),\\ x >= 0 ,\\ y >= 0 \e n d{c a s e s}$}
-	{$\b e g i n{c a s e s} a_(1)x + a_(2)y = c_(1),\\ b_(1)x + b_(2)y = c_(2),\\ x >= 0 ,\\ y >= 0 \e n d{c a s e s}$}
-  #choices([\(\begin{cases], [1}x + a_{2}y \geqslant c_{1], [1}x + b_{2}y \geqslant c_{2], [cases}\)], cols: 2)
+\endcases\)}
+
+#mi(`\begin{cases}a_{1}x + b_{1}y \le c_{1},\\  a_{2}x + b_{2}y \le c_{2},\\  x \ge 0,\\  y \ge 0\end{cases}`)
+
+#mi(`\begin{cases}a_{1}x + a_{2}y \le c_{1},\\  b_{1}x + b_{2}y \le c_{2},\\  x \ge 0,\\  y \ge 0\end{cases}`)
+
+#mi(`\begin{cases}a_{1}x + a_{2}y = c_{1},\\  b_{1}x + b_{2}y = c_{2},\\  x \ge 0,\\  y \ge 0\end{cases}`)
 ]
 
 #answer([C])
 
 #solution[
-生产 $x$ 千克甲产品和 $y$ 千克乙产品所用原料 $A$ 的数量为 $a_(1) x+a_(2) y$，所用原料 $B$ 的数量为 $b_(1) x+b_(2) y$. 由于两种原料的购进量分别为 $c_1$、$c_2$，用量不能超过购进量，且 $x$、$y$ 非负，因此约束条件为
+生产 #mi(`x`) 千克甲产品和 #mi(`y`) 千克乙产品所用原料 #mi(`A`) 的数量为 #mi(`a_{1}x+a_{2}y`)，所用原料 #mi(`B`) 的数量为 #mi(`b_{1}x+b_{2}y`). 由于两种原料的购进量分别为 #mi(`c_{1}`)、#mi(`c_{2}`)，用量不能超过购进量，且 #mi(`x`)、#mi(`y`) 非负，因此约束条件为
 
-$ \b e g i n{c a s e s} a_(1) x+a_(2) y <= c_1,\\ b_(1) x+b_(2) y <= c_2,\\ x >= 0 ,\\ y >= 0 . \e n d{c a s e s} $
+
+#align(center)[#mitex(`
+\begin{cases}a_{1}x+a_{2}y\le c_{1},\\  b_{1}x+b_{2}y\le c_{2},\\  x\geqslant0,\\  y\geqslant0.\end{cases}
+`)]
+
 
 故选 C.
 ]
 
 #problem(9)[
-直线 $y = x - 3$ 与抛物线 $y^(2) = 4 x$ 交于 $A$，$B$ 两点，过 $A$，$B$ 两点向抛物线的准线作垂线，垂足分别为 $P$，$Q$，则梯形 $A P Q B$ 的面积为（ ）
-  #choices([$48$], [$56$], [$64$], [$72$], cols: 4)
+直线 #mi(`y = x - 3`) 与抛物线 #mi(`y^{2}= 4x`) 交于 #mi(`A`)，#mi(`B`) 两点，过 #mi(`A`)，#mi(`B`) 两点向抛物线的准线作垂线，垂足分别为 #mi(`P`)，#mi(`Q`)，则梯形 #mi(`APQB`) 的面积为（ ）
+  #choices([#mi(`48`)], [#mi(`56`)], [#mi(`64`)], [#mi(`72`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-把直线方程代入抛物线方程，得 $(x-3)^2=4 x$，即 $x^2-10 x+9=0$，所以交点为 $A(1,-2)$、$B(9,6)$. 抛物线 $y^2=4 x$ 的准线为 $x=-1$，故垂足为 $P(-1,-2)$、$Q(-1,6)$. 于是 $|A P|=2$、$|B Q|=10$，两底间距离为 $8$，从而
+把直线方程代入抛物线方程，得 #mi(`(x-3)^{2}=4x`)，即 #mi(`x^{2}-10x+9=0`)，所以交点为 #mi(`A(1,-2)`)、#mi(`B(9,6)`). 抛物线 #mi(`y^{2}=4x`) 的准线为 #mi(`x=-1`)，故垂足为 #mi(`P(-1,-2)`)、#mi(`Q(-1,6)`). 于是 #mi(`|AP|=2`)、#mi(`|BQ|=10`)，两底间距离为 #mi(`8`)，从而
 
-$ S_(A P Q B)=(2+10)/(2) times 8 =48 $
+
+#align(center)[#mitex(`
+S_{APQB}=\frac{2+10}{2}\times8=48
+`)]
+
 
 故选 A.
 ]
 
 #problem(10)[
-已知球 $O$ 的半径是 $1$，$A$，$B$，$C$ 三点都在球面上，$A$，$B$ 两点和 $A$，$C$ 两点的球面距离都是 $(pi)/(4)$，$B$，$C$ 两点的球面距离是 $(pi)/(3)$，则二面角 $B-O A-C$ 的大小是（ ）
-  #choices([$(pi)/(4)$], [$(pi)/(3)$], [$(pi)/(2)$], [$(2 pi)/(3)$], cols: 4)
+已知球 #mi(`O`) 的半径是 #mi(`1`)，#mi(`A`)，#mi(`B`)，#mi(`C`) 三点都在球面上，#mi(`A`)，#mi(`B`) 两点和 #mi(`A`)，#mi(`C`) 两点的球面距离都是 #mi(`\frac{\pi}{4}`)，#mi(`B`)，#mi(`C`) 两点的球面距离是 #mi(`\frac{\pi}{3}`)，则二面角 #mi(`B-OA-C`) 的大小是（ ）
+  #choices([#mi(`\frac{\pi}{4}`)], [#mi(`\frac{\pi}{3}`)], [#mi(`\frac{\pi}{2}`)], [#mi(`\frac{2\pi}{3}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设单位向量 $bold(a)=arrow(O A)$、$bold(b)=arrow(O B)$、$bold(c)=arrow(O C)$. 由球面距离等于相应的圆心角，得 $bold(a)\c d o t b o l d(b)=bold(a)\c d o t b o l d(c)= cos (pi)/(4)=(sqrt(2))/(2)$，以及 $bold(b)\c d o t b o l d(c)= cos (pi)/(3)=(1)/(2)$. 在垂直于 $O A$ 的平面上取 $bold(b)$、$bold(c)$ 的投影，分别为 $bold(b)_0=bold(b)-(sqrt(2))/(2)bold(a)$、$bold(c)_0=bold(c)-(sqrt(2))/(2)bold(a)$. 则
+设单位向量 #mi(`\mathbf{a}=\overrightarrow{OA}`)、#mi(`\mathbf{b}=\overrightarrow{OB}`)、#mi(`\mathbf{c}=\overrightarrow{OC}`). 由球面距离等于相应的圆心角，得 #mi(`\mathbf{a}\cdot\mathbf{b}=\mathbf{a}\cdot\mathbf{c}=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}`)，以及 #mi(`\mathbf{b}\cdot\mathbf{c}=\cos\frac{\pi}{3}=\frac{1}{2}`). 在垂直于 #mi(`OA`) 的平面上取 #mi(`\mathbf{b}`)、#mi(`\mathbf{c}`) 的投影，分别为 #mi(`\mathbf{b}_{0}=\mathbf{b}-\frac{\sqrt{2}}{2}\mathbf{a}`)、#mi(`\mathbf{c}_{0}=\mathbf{c}-\frac{\sqrt{2}}{2}\mathbf{a}`). 则
 
-$ bold(b)_0\c d o t b o l d(c)_0=bold(b)\c d o t b o l d(c)-(1)/(2)=0 $
 
-两个投影方向分别位于平面 $B O A$、$C O A$ 内，并且都垂直于交线 $O A$，所以二面角 $B-O A-C$ 为 $(pi)/(2)$，故选 C.
+#align(center)[#mitex(`
+\mathbf{b}_{0}\cdot\mathbf{c}_{0}=\mathbf{b}\cdot\mathbf{c}-\frac{1}{2}=0
+`)]
+
+
+两个投影方向分别位于平面 #mi(`BOA`)、#mi(`COA`) 内，并且都垂直于交线 #mi(`OA`)，所以二面角 #mi(`B-OA-C`) 为 #mi(`\frac{\pi}{2}`)，故选 C.
 ]
 
 #problem(11)[
-设 $a$，$b$，$c$ 分别是 $triangle A B C$ 的三个内角 $A$，$B$，$C$ 所对的边，则 $a^(2)=b(b+c)$ 是 $A=2 B$ 的（ ）
+设 #mi(`a`)，#mi(`b`)，#mi(`c`) 分别是 #mi(`\triangle ABC`) 的三个内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对的边，则 #mi(`a^{2}=b(b+c)`) 是 #mi(`A=2B`) 的（ ）
   #choices([充要条件], [充分而不必要条件], [必要而不充分条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-先证必要性. 若 $A=2 B$，由正弦定理有
-$(a)/(b)=(sin 2 B)/(sin B)=2 cos B$，
-$(c)/(b)=(sin 3 B)/(sin B)=4 cos ""^(2) B-1$.
-因此 $(a^2)/(b^2)=4 cos ""^(2) B=1+(c)/(b)$，即 $a^2=b(b+c)$.
+先证必要性. 若 #mi(`A=2B`)，由正弦定理有
 
-再证充分性. 若 $a^2=b(b+c)$，由余弦定理 $a^2=b^2+c^2-2 b c cos A$，得 $c=b(1+2 cos A)$. 结合正弦定理，
+#mi(`\frac{a}{b}=\frac{\sin2B}{\sin B}=2\cos B`)，
 
-$ sin (A+B)= sin C=(c)/(b) sin B=(1+2 cos A) sin B $
+#mi(`\frac{c}{b}=\frac{\sin3B}{\sin B}=4\cos^{2}B-1`).
 
-展开左边并整理，得 $sin A cos B=(1+ cos A) sin B$. 由于 $A$、$B$ 为三角形内角，且上式右边为正，所以 $cos B>0$，从而 $B in (0,(pi)/(2))$. 再利用半角公式，得
+因此 #mi(`\frac{a^{2}}{b^{2}}=4\cos^{2}B=1+\frac{c}{b}`)，即 #mi(`a^{2}=b(b+c)`).
 
-$ 2 sin (A)/(2) cos (A)/(2) cos B=2 cos ""^2(A)/(2) sin B $
+再证充分性. 若 #mi(`a^{2}=b(b+c)`)，由余弦定理 #mi(`a^{2}=b^{2}+c^{2}-2bc\cos A`)，得 #mi(`c=b(1+2\cos A)`). 结合正弦定理，
 
-即 $tan B= tan (A)/(2)$. 因 $B$、$(A)/(2) in (0,(pi)/(2))$，故 $B=(A)/(2)$，即 $A=2 B$. 所以该条件是充要条件，选 A.
+
+#align(center)[#mitex(`
+\sin(A+B)=\sin C=\frac{c}{b}\sin B=(1+2\cos A)\sin B
+`)]
+
+
+展开左边并整理，得 #mi(`\sin A\cos B=(1+\cos A)\sin B`). 由于 #mi(`A`)、#mi(`B`) 为三角形内角，且上式右边为正，所以 #mi(`\cos B>0`)，从而 #mi(`B\in(0,\frac{\pi}{2})`). 再利用半角公式，得
+
+
+#align(center)[#mitex(`
+2\sin\frac{A}{2}\cos\frac{A}{2}\cos B=2\cos^{2}\frac{A}{2}\sin B
+`)]
+
+
+即 #mi(`\tan B=\tan\frac{A}{2}`). 因 #mi(`B`)、#mi(`\frac{A}{2}\in(0,\frac{\pi}{2})`)，故 #mi(`B=\frac{A}{2}`)，即 #mi(`A=2B`). 所以该条件是充要条件，选 A.
 ]
 
 #problem(12)[
-从 $0$ 到 $9$ 这 $10$ 个数字中任取 $3$ 个数字组成一个没有重复数字的三位数，这个数不能被 $3$ 整除的概率为（ ）
-  #choices([$(19)/(54)$], [$(35)/(54)$], [$(38)/(54)$], [$(41)/(60)$], cols: 4)
+从 #mi(`0`) 到 #mi(`9`) 这 #mi(`10`) 个数字中任取 #mi(`3`) 个数字组成一个没有重复数字的三位数，这个数不能被 #mi(`3`) 整除的概率为（ ）
+  #choices([#mi(`\frac{19}{54}`)], [#mi(`\frac{35}{54}`)], [#mi(`\frac{38}{54}`)], [#mi(`\frac{41}{60}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-三位数的总数为 $9 times 9 times 8 =648$. 将数字按除以 $3$ 的余数分组：余数为 $0$ 的有 $\{0,3,6,9\}$，余数为 $1$ 的有 $\{1,4,7\}$，余数为 $2$ 的有 $\{2,5,8\}$. 能被 $3$ 整除的三位数，其三个数字的余数类型只有两种：三者余数相同，或三种余数各一个. 三者余数相同时，余数为 $0$ 的数字组成的三元集合中有 $0$ 的有 $3$ 个、没有 $0$ 的有 $1$ 个，贡献 $3 times 4 +1 times 6 =18$ 个；余数为 $1$、$2$ 的三元集合各贡献 $6$ 个，共 $30$ 个. 三种余数各一个时，共有 $4 times 3 times 3 =36$ 个数字集合，其中含 $0$ 的有 $3 times 3 =9$ 个，贡献 $9 times 4 +27 times 6 =198$ 个. 因此能被 $3$ 整除的三位数有 $30+198=228$ 个，不能被 $3$ 整除的概率为
+三位数的总数为 #mi(`9\times9\times8=648`). 将数字按除以 #mi(`3`) 的余数分组：余数为 #mi(`0`) 的有 #mi(`\{0,3,6,9\}`)，余数为 #mi(`1`) 的有 #mi(`\{1,4,7\}`)，余数为 #mi(`2`) 的有 #mi(`\{2,5,8\}`). 能被 #mi(`3`) 整除的三位数，其三个数字的余数类型只有两种：三者余数相同，或三种余数各一个. 三者余数相同时，余数为 #mi(`0`) 的数字组成的三元集合中有 #mi(`0`) 的有 #mi(`3`) 个、没有 #mi(`0`) 的有 #mi(`1`) 个，贡献 #mi(`3\times4+1\times6=18`) 个；余数为 #mi(`1`)、#mi(`2`) 的三元集合各贡献 #mi(`6`) 个，共 #mi(`30`) 个. 三种余数各一个时，共有 #mi(`4\times3\times3=36`) 个数字集合，其中含 #mi(`0`) 的有 #mi(`3\times3=9`) 个，贡献 #mi(`9\times4+27\times6=198`) 个. 因此能被 #mi(`3`) 整除的三位数有 #mi(`30+198=228`) 个，不能被 #mi(`3`) 整除的概率为
 
-$ (648-228)/(648)=(420)/(648)=(35)/(54) $
+
+#align(center)[#mitex(`
+\frac{648-228}{648}=\frac{420}{648}=\frac{35}{54}
+`)]
+
 
 故选 B.
 ]
@@ -198,233 +244,223 @@ $ (648-228)/(648)=(420)/(648)=(35)/(54) $
 #part-header("填空题")
 
 #problem(13)[
-在三棱锥 $O-A B C$ 中，三条棱 $O A$，$O B$，$O C$ 两两互相垂直，且 $O A=O B=O C$，$M$ 是 $A B$ 边的中点，则 $O M$ 与平面 $A B C$ 所成角的大小是#blank(){}（用反三角函数表示）.
+在三棱锥 #mi(`O-ABC`) 中，三条棱 #mi(`OA`)，#mi(`OB`)，#mi(`OC`) 两两互相垂直，且 #mi(`OA=OB=OC`)，#mi(`M`) 是 #mi(`AB`) 边的中点，则 #mi(`OM`) 与平面 #mi(`ABC`) 所成角的大小是\underline{\hspace{2.5em}}（用反三角函数表示）.
 ]
 
-#answer([$\a r c t a n s q r t(2)$])
+#answer([#mi(`\arctan\sqrt{2}`)])
 
 #solution[
-设 $O A=O B=O C=a$，取 $O$ 为原点，令 $A(a,0,0)$、$B(0,a,0)$、$C(0,0,a)$. 则 $M((a)/(2),(a)/(2),0)$，所以 $arrow(O M)=((a)/(2),(a)/(2),0)$. 平面 $A B C$ 的方程为 $x+y+z=a$，法向量可取 $bold(n)=(1,1,1)$. 设 $O M$ 与平面 $A B C$ 所成的角为 $theta$，则
+设 #mi(`OA=OB=OC=a`)，取 #mi(`O`) 为原点，令 #mi(`A(a,0,0)`)、#mi(`B(0,a,0)`)、#mi(`C(0,0,a)`). 则 #mi(`M\left(\frac{a}{2},\frac{a}{2},0\right)`)，所以 #mi(`\overrightarrow{OM}=\left(\frac{a}{2},\frac{a}{2},0\right)`). 平面 #mi(`ABC`) 的方程为 #mi(`x+y+z=a`)，法向量可取 #mi(`\mathbf{n}=(1,1,1)`). 设 #mi(`OM`) 与平面 #mi(`ABC`) 所成的角为 #mi(`\theta`)，则
 
-$ sin theta =(|arrow(O M){ dot }bold(n)|)/(|arrow(O M)| |bold(n)|)=(a)/((a)/(sqrt(2))\c d o t s q r t(3))=sqrt((2)/(3)) $
 
-因此 $cos theta =(1)/(sqrt(3))$，$tan theta =sqrt(2)$，从而 $theta =\a r c t a n s q r t(2)$.
+#align(center)[#mitex(`
+\sin\theta=\frac{|\overrightarrow{OM}\cdot\mathbf{n}|}{|\overrightarrow{OM}|\,|\mathbf{n}|}=\frac{a}{\frac{a}{\sqrt{2}}\cdot\sqrt{3}}=\sqrt{\frac{2}{3}}
+`)]
+
+
+因此 #mi(`\cos\theta=\frac{1}{\sqrt{3}}`)，#mi(`\tan\theta=\sqrt{2}`)，从而 #mi(`\theta=\arctan\sqrt{2}`).
 ]
 
 #problem(14)[
-设离散型随机变量 $xi$ 可能取的值为 $1$，$2$，$3$，$4$. $P( xi =k)=a k+b$（$k=1$，$2$，$3$，$4$）. 又 $xi$ 的数学期望 $E( xi )=3$，则 $a+b=$#blank(){}.
+设离散型随机变量 #mi(`\xi`) 可能取的值为 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`). #mi(`P(\xi=k)=ak+b`)（#mi(`k=1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)）. 又 #mi(`\xi`) 的数学期望 #mi(`E(\xi)=3`)，则 #mi(`a+b=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(10)$])
+#answer([#mi(`\frac{1}{10}`)])
 
 #solution[
-由概率和为 $1$，得
+由概率和为 #mi(`1`)，得
 
-$ sum_(k=1)^(4)(a k+b)=10 a+4 b=1 $
 
-由数学期望为 $3$，得
+#align(center)[#mitex(`
+\sum_{k=1}^{4}(ak+b)=10a+4b=1
+`)]
 
-$ sum_(k=1)^(4)k(a k+b)=30 a+10 b=3 $
 
-两式联立，第二式减去第一式的三倍得 $-2 b=0$，所以 $b=0$，再由 $10 a+4 b=1$ 得 $a=(1)/(10)$. 故 $a+b=(1)/(10)$.
+由数学期望为 #mi(`3`)，得
+
+
+#align(center)[#mitex(`
+\sum_{k=1}^{4}k(ak+b)=30a+10b=3
+`)]
+
+
+两式联立，第二式减去第一式的三倍得 #mi(`-2b=0`)，所以 #mi(`b=0`)，再由 #mi(`10a+4b=1`) 得 #mi(`a=\frac{1}{10}`). 故 #mi(`a+b=\frac{1}{10}`).
 ]
 
 #problem(15)[
-如图，把椭圆 $(x^2)/(25)+ (y^2)/(16)= 1$ 的长轴 $A B$ 分成 $8$ 等分，过每个分点作 $x$ 轴的垂线交椭圆的上半部分于 $P_1$，$P_2$，$dots.c$，$P_7$ 七个点，$F$ 是椭圆的一个焦点，
+如图，把椭圆 #mi(`\frac{x^{2}}{25}+ \frac{y^{2}}{16}= 1`) 的长轴 #mi(`AB`) 分成 #mi(`8`) 等分，过每个分点作 #mi(`x`) 轴的垂线交椭圆的上半部分于 #mi(`P_{1}`)，#mi(`P_{2}`)，#mi(`\cdots`)，#mi(`P_{7}`) 七个点，#mi(`F`) 是椭圆的一个焦点，
 
 
-#align(center)[#image("/papers/2006/img/sichuan_science/q15_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2006/img/sichuan_science/q15_fig1.png", width: 28%)]
 
 
-则 $|P_(1) F| + |P_(2) F| + dots.c + |P_(7) F| =\f i l l i n b l a n k{}$.
+则 #mi(`|P_{1}F| + |P_{2}F| + \cdots + |P_{7}F| =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$35$])
+#answer([#mi(`35`)])
 
 #solution[
-椭圆的长半轴、短半轴分别为 $5$、$4$，故焦半距为 $c=sqrt(25-16)=3$. 取左焦点为 $F$，椭圆上横坐标为 $x$ 的点到该焦点的距离满足
+椭圆的长半轴、短半轴分别为 #mi(`5`)、#mi(`4`)，故焦半距为 #mi(`c=\sqrt{25-16}=3`). 取左焦点为 #mi(`F`)，椭圆上横坐标为 #mi(`x`) 的点到该焦点的距离满足
 
-$ |P F|=5+(3)/(5)x $
 
-长轴八等分后，七个分点的横坐标关于原点成三对相反数，并有一个横坐标为 $0$. 相反横坐标的一对对应的焦距之和为 $10$，横坐标为 $0$ 的点到焦点的距离为 $5$. 所以
+#align(center)[#mitex(`
+|PF|=5+\frac{3}{5}x
+`)]
 
-$ |P_(1) F|+ dots.c +|P_(7) F|=3 times 10 +5=35 $
+
+长轴八等分后，七个分点的横坐标关于原点成三对相反数，并有一个横坐标为 #mi(`0`). 相反横坐标的一对对应的焦距之和为 #mi(`10`)，横坐标为 #mi(`0`) 的点到焦点的距离为 #mi(`5`). 所以
+
+
+#align(center)[#mitex(`
+|P_{1}F|+\cdots+|P_{7}F|=3\times10+5=35
+`)]
+
 
 若取右焦点，结论同样成立.
 ]
 
 #problem(16)[
-非空集合 $G$ 关于运算 $\o p l u s$ 满足：
+非空集合 #mi(`G`) 关于运算 #mi(`\oplus`) 满足：
 
-\begin{circlelist}
-\item 对任意 $a$，$b in G$，都有 $a\o p l u s b in G$；
-\item 存在 $e in G$，使得对一切 $a in G$，都有 $a\o p l u s e=e\o p l u s a=a$，
-\end{circlelist}
 
-则称 $G$ 关于运算 $\o p l u s$ 为“融洽集”. 现给出下列集合和运算：
++ (1) 对任意 #mi(`a`)，#mi(`b\in G`)，都有 #mi(`a\oplus b\in G`)；
++ (2) 存在 #mi(`e\in G`)，使得对一切 #mi(`a\in G`)，都有 #mi(`a\oplus e=e\oplus a=a`)，
 
-\begin{circlelist}
-\item $G=\{"非负整数"\}$，$\o p l u s$ 为整数的加法；
-\item $G=\{"偶数"\}$，$\o p l u s$ 为整数的乘法；
-\item $G=\{"平面向量"\}$，$\o p l u s$ 为平面向量的加法；
-\item $G=\{"二次三项式"\}$，$\o p l u s$ 为多项式的加法；
-\item $G=\{"虚数"\}$，$\o p l u s$ 为复数的乘法.
-\end{circlelist}
 
-其中 $G$ 关于运算 $\o p l u s$ 为“融洽集”的是#blank(){}（写出所有“融洽集”的序号）.
+
+则称 #mi(`G`) 关于运算 #mi(`\oplus`) 为“融洽集”. 现给出下列集合和运算：
+
+
++ (1) #mi(`G=\{\text{\text{非负整数}}\}`)，#mi(`\oplus`) 为整数的加法；
++ (2) #mi(`G=\{\text{\text{偶数}}\}`)，#mi(`\oplus`) 为整数的乘法；
++ (3) #mi(`G=\{\text{\text{平面向量}}\}`)，#mi(`\oplus`) 为平面向量的加法；
++ (4) #mi(`G=\{\text{\text{二次三项式}}\}`)，#mi(`\oplus`) 为多项式的加法；
++ (5) #mi(`G=\{\text{\text{虚数}}\}`)，#mi(`\oplus`) 为复数的乘法.
+
+
+
+其中 #mi(`G`) 关于运算 #mi(`\oplus`) 为“融洽集”的是\underline{\hspace{2.5em}}（写出所有“融洽集”的序号）.
 ]
 
-#answer([$"[1]"\)、\("[3]"$])
+#answer([#mi(`①`)、#mi(`③`)])
 
 #solution[
-对第1项，非负整数对加法封闭，且 $0$ 是加法单位元，所以是“融洽集”. 对第2项，偶数对乘法封闭，但若存在乘法单位元 $e$，由 $2 e=2$ 可得 $e=1$，而 $1$ 不是偶数，所以不是. 对第3项，平面向量对向量加法封闭，且零向量是加法单位元，所以是. 对第4项，二次三项式相加后可能出现最高次项抵消，例如 $(x^2+x+1)+(-x^2-x+1)=2$，不满足封闭性，所以不是. 对第5项，虚数相乘可能得到实数，例如 $i dot i =-1$，所以不满足封闭性；同时复数乘法单位元 $1$ 也不是虚数. 因此序号为 $1$，$3$.
+对第1项，非负整数对加法封闭，且 #mi(`0`) 是加法单位元，所以是“融洽集”. 对第2项，偶数对乘法封闭，但若存在乘法单位元 #mi(`e`)，由 #mi(`2e=2`) 可得 #mi(`e=1`)，而 #mi(`1`) 不是偶数，所以不是. 对第3项，平面向量对向量加法封闭，且零向量是加法单位元，所以是. 对第4项，二次三项式相加后可能出现最高次项抵消，例如 #mi(`(x^{2}+x+1)+(-x^{2}-x+1)=2`)，不满足封闭性，所以不是. 对第5项，虚数相乘可能得到实数，例如 #mi(`\mathrm{i}\cdot\mathrm{i}=-1`)，所以不满足封闭性；同时复数乘法单位元 #mi(`1`) 也不是虚数. 因此序号为 #mi(`1`)，#mi(`3`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知 $A$，$B$，$C$ 是 $triangle A B C$ 三内角，向量 $bold(m)=(-1,sqrt(3))$，$bold(n)=( cos A, sin A)$，且 $bold(m) dot bold(n)=1$.
+已知 #mi(`A`)，#mi(`B`)，#mi(`C`) 是 #mi(`\triangle ABC`) 三内角，向量 #mi(`\mathbf{m}=(-1,\sqrt{3})`)，#mi(`\mathbf{n}=(\cos A,\sin A)`)，且 #mi(`\mathbf{m}\cdot \mathbf{n}=1`).
 
 
-+ (1) 求角 $A$；
-+ (2) 若 $(1+ sin 2 B)/(cos ""^(2)B- sin ""^(2)B)=-3$，求 $tan C$.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $bold(m)\c d o t b o l d(n)=1$，得 $- cos A+sqrt(3) sin A=1$，即 $2 sin (A-(pi)/(6))=1$. 因为 $0<A< pi$，所以 $-(pi)/(6)<A-(pi)/(6)<(5 pi)/(6)$，在此范围内只有 $A-(pi)/(6)=(pi)/(6)$ 满足条件，故 $A=(pi)/(3)$.
-+ (2) 由题设 $cos ""^(2) B- sin ""^(2) B= cos 2 B$，且 $1+ sin 2 B=( sin B+ cos B)^2$，原式化为
-
-$ (sin B+ cos B)/(cos B- sin B)=-3 $
-
-题式有意义时分母不为零，故 $sin B+ cos B=-3( cos B- sin B)$，从而 $2 sin B=4 cos B$，即 $tan B=2$. 由于 $B$ 是三角形内角，得 $B= arctan 2$. 于是 $C= pi -A-B=(2 pi)/(3)-B$，所以
-
-$ tan C=(-sqrt(3)-2)/(1-2 sqrt(3))=(8+5 sqrt(3))/(11) $
++ (1)
 ]
 
 #problem(18)[
-某课程考核分理论和实验两部分进行，每部分考核成绩只记“合格”与“不合格”，两部分考核都“合格”则该课程考核“合格”. 甲，乙，丙三人在理论考核中合格的概率分别为 $0.9$，$0.8$，$0.7$，在实验考核中合格的概率分别为 $0.8$，$0.7$，$0.9$. 所有考核是否合格互相之间没有影响.
+某课程考核分理论和实验两部分进行，每部分考核成绩只记“合格”与“不合格”，两部分考核都“合格”则该课程考核“合格”. 甲，乙，丙三人在理论考核中合格的概率分别为 #mi(`0.9`)，#mi(`0.8`)，#mi(`0.7`)，在实验考核中合格的概率分别为 #mi(`0.8`)，#mi(`0.7`)，#mi(`0.9`). 所有考核是否合格互相之间没有影响.
 
 
-+ (1) 求甲，乙，丙三人在理论考核中至少有两人合格的概率；
-+ (2) 求这三人该课程考核都合格的概率（结果保留三位小数）.
++ (1)
 ]
 
 #solution[
-+ (1) 三人理论考核中恰有两人合格的概率为 $0.9 times 0 .8 times 0 .3+0.9 times 0 .2 times 0 .7+0.1 times 0 .8 times 0 .7=0.398$. 三人都合格的概率为 $0.9 times 0 .8 times 0 .7=0.504$，所以至少两人合格的概率为 $0.398+0.504=0.902$.
-+ (2) 甲、乙、丙该课程考核合格的概率分别为 $0.9 times 0 .8=0.72$、$0.8 times 0 .7=0.56$、$0.7 times 0 .9=0.63$. 由相互独立性，三人都合格的概率为 $0.72 times 0 .56 times 0 .63=0.254016$，保留三位小数得 $0.254$.
++ (1)
 ]
 
 #problem(19)[
-如图，在长方体 $A B C D-A_(1)B_(1)C_(1)D_(1)$ 中，$E$，$P$ 分别是 $B C$，$A_(1)D_(1)$ 的中点，$M$，$N$ 分别是 $A E$，$C D_(1)$ 的中点，$A D=A A_(1)=a$，$A B=2 a$.
+如图，在长方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`E`)，#mi(`P`) 分别是 #mi(`BC`)，#mi(`A_{1}D_{1}`) 的中点，#mi(`M`)，#mi(`N`) 分别是 #mi(`AE`)，#mi(`CD_{1}`) 的中点，#mi(`AD=AA_{1}=a`)，#mi(`AB=2a`).
 
 
-+ (1) 求证：$M N parallel$ 面 $A D D_(1)A_(1)$；
-+ (2) 求二面角 $P-A E-D$ 的大小；
-+ (3) 求三棱锥 $P-D E N$ 的体积.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2006/img/sichuan_science/q19_fig1.png", width: 55%)]
+
+#align(center)[#image("/papers/2006/img/sichuan_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 建立直角坐标系，令 $A(0,0,0)$、$B(2 a,0,0)$、$D(0,a,0)$、$A_1(0,0,a)$. 则
-$E(2 a,(a)/(2),0)$，$P(0,(a)/(2),a)$，
-$M(a,(a)/(4),0)$，$N(a,a,(a)/(2))$.
-因此直线 $M N$ 上各点的横坐标均为 $a$，而平面 $A D D_(1) A_1$ 的方程为 $x=0$，故 $M N parallel$ 平面 $A D D_(1) A_1$.
-+ (2) 平面 $A E D$ 是底面，法向量可取 $bold(n)_1=(0,0,1)$. 取平面 $P A E$ 内的两个向量 $arrow(A E)=a(2,(1)/(2),0)$、$arrow(A P)=a(0,(1)/(2),1)$，则
-$arrow(A E)\t i m e s a r r o w(A P)=a^2((1)/(2),-2,1)$，故其法向量可取 $bold(n)_2=((1)/(2),-2,1)$. 所以二面角 $theta =P-A E-D$ 满足
-
-$ cos theta =(|bold(n)_1\c d o t b o l d(n)_2|)/(|bold(n)_1| |bold(n)_2|)=(2)/(sqrt(21)) $
-
-进一步得到 $tan theta =(sqrt(17))/(2)$.
-故二面角的大小为 $arctan \f r a c{sqrt(17)}2$.
-+ (3) 取 $P$ 为顶点，计算
-$arrow(P D)=a(0,(1)/(2),-1)$，
-$arrow(P E)=a(2,0,-1)$，
-$arrow(P N)=a(1,(1)/(2),-(1)/(2))$.
-三棱锥体积为
-
-$ V_(P-D E N)=(1)/(6)|\det\b e g i n{p m a t r i x} 0&2&1\\ (1)/(2)&0&(1)/(2)\\ -1&-1&-(1)/(2)\e n d{p m a t r i x}|a^3=(a^3)/(6) $
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-已知数列 $\{a_n\}$，其中 $a_1=1$，$a_2=3$，$2 a_n=a_(n+1)+a_(n-1)$（$n >= 2$）. 记数列 $\{a_n\}$ 的前 $n$ 项和为 $S_n$，数列 $\{ ln S_n\}$ 的前 $n$ 项和为 $U_n$.
+已知数列 #mi(`\{a_{n}\}`)，其中 #mi(`a_{1}=1`)，#mi(`a_{2}=3`)，#mi(`2a_{n}=a_{n+1}+a_{n-1}`)（#mi(`n\ge 2`)）. 记数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)，数列 #mi(`\{\ln S_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`U_{n}`).
 
 
-+ (1) 求 $U_n$；
-+ (2) 设 $F_n(x)=(e ""^(U_n))/(2 n(n!)^2)x^(2 n)$（$x>0$），$T_n(x)=sum_(k=1)^(n)F_k'(x)$（其中 $F_k'(x)$ 为 $F_k(x)$ 的导函数），计算 $lim_(n -> oo )(T_n(x))/(T_(n+1)(x))$.
++ (1)
 ]
 
 #solution[
-+ (1) 由递推式得 $a_(n+1)-a_n=a_n-a_(n-1)$，所以数列为等差数列，公差为 $a_2-a_1=2$，从而 $a_n=2 n-1$. 因此 $S_n=(n(1+2 n-1))/(2)=n^2$，故
-
-$ U_n=sum_(k=1)^n ln S_k=sum_(k=1)^n ln k^2=2 sum_(k=1)^n ln k=2 ln (n!) $
-+ (2) 由上一问 $e ""^(U_k)=(k!)^2$，所以 $F_k(x)=(x^(2 k))/(2 k)$，从而 $F_k'(x)=x^(2 k-1)$. 因此
-
-$ T_n(x)=sum_(k=1)^n x^(2 k-1) $
-
-当 $0<x<1$ 时，$T_n(x)=(x(1-x^(2 n)))/(1-x^2)$，故 $lim_(n -> oo )(T_n(x))/(T_(n+1)(x))=1$. 当 $x=1$ 时，$T_n(1)=n$，极限仍为 $1$. 当 $x>1$ 时，$T_n(x)=(x(x^(2 n)-1))/(x^2-1)$，故极限为 $(1)/(x^2)$. 综上，
-
-$ lim_(n -> oo )(T_n(x))/(T_(n+1)(x))= \b e g i n{c a s e s} 1,&0<x <= 1 ,\\ (1)/(x^2),&x>1. \e n d{c a s e s} $
++ (1)
 ]
 
 #problem(21)[
-已知两定点 $F_(1)(-sqrt(2),0)$，$F_(2)(sqrt(2),0)$，满足条件 $|arrow(P F_2)| - |arrow(P F_1)| = 2$ 的点 $P$ 的轨迹是曲线 $E$，直线 $y = k x - 1$ 与曲线 $E$ 交于 $A$，$B$ 两点. 如果 $|arrow(A B)| = 6 sqrt(3)$，且曲线 $E$ 上存在点 $C$，使 $arrow(O A)+ arrow(O B)= m a r r o w(O C)$，求 $m$ 的值和 $triangle A B C$ 的面积 $S$.
+已知两定点 #mi(`F_{1}(-\sqrt{2},0)`)，#mi(`F_{2}(\sqrt{2},0)`)，满足条件 #mi(`\left|\overrightarrow{PF_2}\right| - \left|\overrightarrow{PF_1}\right| = 2`) 的点 #mi(`P`) 的轨迹是曲线 #mi(`E`)，直线 #mi(`y = kx - 1`) 与曲线 #mi(`E`) 交于 #mi(`A`)，#mi(`B`) 两点. 如果 #mi(`\left|\overrightarrow{AB}\right| = 6\sqrt{3}`)，且曲线 #mi(`E`) 上存在点 #mi(`C`)，使 #mi(`\overrightarrow{OA}+ \overrightarrow{OB}= m\overrightarrow{OC}`)，求 #mi(`m`) 的值和 #mi(`\triangle ABC`) 的面积 #mi(`S`).
 ]
 
 #solution[
-由双曲线定义，焦点距为 $c=sqrt(2)$，且焦点距离之差为 $2 a=2$，故 $a=1$，$b^2=c^2-a^2=1$. 条件 $|P F_2|-|P F_1|=2$ 表示曲线 $E$ 是双曲线 $x^2-y^2=1$ 的左支.
+由双曲线定义，焦点距为 #mi(`c=\sqrt{2}`)，且焦点距离之差为 #mi(`2a=2`)，故 #mi(`a=1`)，#mi(`b^{2}=c^{2}-a^{2}=1`). 条件 #mi(`|PF_{2}|-|PF_{1}|=2`) 表示曲线 #mi(`E`) 是双曲线 #mi(`x^{2}-y^{2}=1`) 的左支.
 
-将直线 $y=k x-1$ 代入双曲线方程，得
+将直线 #mi(`y=kx-1`) 代入双曲线方程，得
 
-$ (1-k^2)x^2+2 k x-2=0 $
 
-设两交点的横坐标为 $x_1$，$x_2$，则
+#align(center)[#mitex(`
+(1-k^{2})x^{2}+2kx-2=0
+`)]
 
-$ |x_1-x_2|=(2 sqrt(2-k^2))/(|1-k^2|) $
 
-由于两点在同一直线上，且 $|A B|=|x_1-x_2|sqrt(1+k^2)=6 sqrt(3)$，令 $t=k^2$. 平方并化简得
-$(4(2-t)(1+t))/((1-t)^2)=108$，从而
-$28 t^2-55 t+25=0$.
-所以 $t=(5)/(4)$ 或 $t=(5)/(7)$. 当 $t=(5)/(7)$ 时，二次方程两根异号，不可能有两个交点都在左支；当 $t=(5)/(4)$ 时，取使两根均为负的 $k=-(sqrt(5))/(2)$. 此时
-$x_1+x_2=-4 sqrt(5)$，$y_1+y_2=k(x_1+x_2)-2=8$.
-因 $arrow(O A)+arrow(O B)=m a r r o w(O C)$，点 $C$ 的坐标为 $(-(4 sqrt(5))/(m),(8)/(m))$. 代入 $x^2-y^2=1$，得 $(16)/(m^2)=1$，即 $m= +- 4$. 只有 $m=4$ 时 $C=(-sqrt(5),2)$ 在左支上，故 $m=4$.
+设两交点的横坐标为 #mi(`x_{1}`)，#mi(`x_{2}`)，则
 
-直线方程为 $-(sqrt(5))/(2)x-y-1=0$，点 $C(-sqrt(5),2)$ 到该直线的距离为
 
-$ h=(|-(sqrt(5))/(2)(-sqrt(5))-2-1|)/(sqrt((5)/(4)+1))=(1)/(3) $
+#align(center)[#mitex(`
+|x_{1}-x_{2}|=\frac{2\sqrt{2-k^{2}}}{|1-k^{2}|}
+`)]
+
+
+由于两点在同一直线上，且 #mi(`|AB|=|x_{1}-x_{2}|\sqrt{1+k^{2}}=6\sqrt{3}`)，令 #mi(`t=k^{2}`). 平方并化简得
+
+#mi(`\frac{4(2-t)(1+t)}{(1-t)^{2}}=108`)，从而
+
+#mi(`28t^{2}-55t+25=0`).
+
+所以 #mi(`t=\frac{5}{4}`) 或 #mi(`t=\frac{5}{7}`). 当 #mi(`t=\frac{5}{7}`) 时，二次方程两根异号，不可能有两个交点都在左支；当 #mi(`t=\frac{5}{4}`) 时，取使两根均为负的 #mi(`k=-\frac{\sqrt{5}}{2}`). 此时
+
+#mi(`x_{1}+x_{2}=-4\sqrt{5}`)，#mi(`y_{1}+y_{2}=k(x_{1}+x_{2})-2=8`).
+
+因 #mi(`\overrightarrow{OA}+\overrightarrow{OB}=m\overrightarrow{OC}`)，点 #mi(`C`) 的坐标为 #mi(`\left(-\frac{4\sqrt{5}}{m},\frac{8}{m}\right)`). 代入 #mi(`x^{2}-y^{2}=1`)，得 #mi(`\frac{16}{m^{2}}=1`)，即 #mi(`m=\pm4`). 只有 #mi(`m=4`) 时 #mi(`C=(-\sqrt{5},2)`) 在左支上，故 #mi(`m=4`).
+
+直线方程为 #mi(`-\frac{\sqrt{5}}{2}x-y-1=0`)，点 #mi(`C(-\sqrt{5},2)`) 到该直线的距离为
+
+
+#align(center)[#mitex(`
+h=\frac{\left|-\frac{\sqrt{5}}{2}(-\sqrt{5})-2-1\right|}{\sqrt{\frac{5}{4}+1}}=\frac{1}{3}
+`)]
+
 
 所以
 
-$ S_( triangle A B C)=(1)/(2)|A B|h=(1)/(2) times 6 sqrt(3) times (1)/(3)=sqrt(3) $
+
+#align(center)[#mitex(`
+S_{\triangle ABC}=\frac{1}{2}|AB|h=\frac{1}{2}\times6\sqrt{3}\times\frac{1}{3}=\sqrt{3}
+`)]
 ]
 
 #problem(22)[
-已知函数 $f(x)=x^2+(2)/(x)+a ln x$（$x>0$），$f(x)$ 的导函数是 $f'(x)$. 对任意两个不相等的正数 $x_1$，$x_2$，证明：
+已知函数 #mi(`f(x)=x^{2}+\frac{2}{x}+a\ln x`)（#mi(`x>0`)），#mi(`f(x)`) 的导函数是 #mi(`f'(x)`). 对任意两个不相等的正数 #mi(`x_{1}`)，#mi(`x_{2}`)，证明：
 
 
-+ (1) 当 $a <= 0$ 时，$(f(x_1)+f(x_2))/(2)>f((x_1+x_2)/(2))$；
-+ (2) 当 $a <= 4$ 时，$|f'(x_1)-f'(x_2)|>|x_1-x_2|$.
++ (1)
 ]
 
 #solution[
-+ (1) $f'(x)=2 x-(2)/(x^2)+(a)/(x)$，$f''(x)=2+(4)/(x^3)-(a)/(x^2)$. 当 $a <= 0$ 且 $x>0$ 时，$f''(x)>0$，所以 $f'(x)$ 严格递增. 不妨设 $x_1<x_2$，令 $u=(x_1+x_2)/(2)$. 由拉格朗日中值定理，存在 $xi _1 in (x_1,u)$、$xi _2 in (u,x_2)$，分别满足
-$(f(u)-f(x_1))/(u-x_1)=f'( xi _1)$ 和
-$(f(x_2)-f(u))/(x_2-u)=f'( xi _2)$.
-因为 $xi _1< xi _2$，且 $f'$ 严格递增，又 $u-x_1=x_2-u$，所以 $f(u)-f(x_1)<f(x_2)-f(u)$，即
-
-$ (f(x_1)+f(x_2))/(2)>f((x_1+x_2)/(2)) $
-+ (2) 当 $a <= 4$ 时，
-
-$ f''(x)-1=(x^3-a x+4)/(x^3)=(x^3-4 x+4+(4-a)x)/(x^3) $
-
-注意到
-$x^3-4 x+4=x(x-2)^2+4(x-1)^2>0$，（$x>0$），
-故 $f''(x)>1$. 不妨设 $x_1<x_2$，由拉格朗日中值定理，存在 $xi in (x_1,x_2)$，使得
-
-$ f'(x_2)-f'(x_1)=f''( xi )(x_2-x_1)>x_2-x_1 $
-
-因此 $|f'(x_1)-f'(x_2)|>|x_1-x_2|$.
++ (1)
 ]
 

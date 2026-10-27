@@ -1,8 +1,143 @@
 {
-  "title": "2011年普通高等学校招生全国统一考试",
-  "subtitle": "2011年湖南卷（理）",
   "year": "2011",
   "slug": "hunan_science",
+  "title": "2011年湖南卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$a = 1$，$b = -1$"
           ],
           "answer": "D",
-          "solution": "<p>将左边展开，得</p>\n$$\n(a+\\mathrm{i})\\mathrm{i}=a\\mathrm{i}-1\n$$\n<p>比较复数的实部和虚部，得到 $b=-1$，$a=1$，所以选 D.</p>"
+          "solution": "<p>将左边展开，得</p>\n$$\n(a+\\mathrm{i})\\mathrm{i}=a\\mathrm{i}-1\n$$\n<p>比较复数的实部和虚部，得到 $b=-1$，$a=1$，所以选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,11 +166,13 @@
             "既不充分又不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>当 $a=1$ 时，$N=\\{1\\}$，而 $1\\in M$，所以 $N\\subseteq M$，因此“$a=1$”是“$N\\subseteq M$”的充分条件.</p><p>反之，$N\\subseteq M$ 只说明 $a^{2}\\in\\{1,2\\}$，例如 $a=-1$ 时也有 $N=\\{1\\}\\subseteq M$，但 $a\\ne1$. 因此该条件不是必要条件，故选 A.</p>"
+          "solution": "<p>当 $a=1$ 时，$N=\\{1\\}$，而 $1\\in M$，所以 $N\\subseteq M$，因此“$a=1$”是“$N\\subseteq M$”的充分条件.</p><p>反之，$N\\subseteq M$ 只说明 $a^{2}\\in\\{1,2\\}$，例如 $a=-1$ 时也有 $N=\\{1\\}\\subseteq M$，但 $a\\ne1$. 因此该条件不是必要条件，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
-          "body": "<p>如图是某几何体的三视图，则该几何体的体积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图是某几何体的三视图，则该几何体的体积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/hunan_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\frac{9}{2}\\pi + 12$",
             "$\\frac{9}{2}\\pi + 18$",
@@ -41,11 +180,13 @@
             "$36\\pi + 18$"
           ],
           "answer": "B",
-          "solution": "<p>由三视图可知，该几何体由一个底面为边长 $3$ 的正方形、高为 $2$ 的长方体和一个半径为 $\\frac{3}{2}$ 的球组成，且球与长方体相切. 因而其体积为</p>\n$$\nV=3\\times3\\times2+\\frac{4}{3}\\pi\\left(\\frac{3}{2}\\right)^{3}=18+\\frac{9}{2}\\pi\n$$\n<p>所以选 B.</p>"
+          "solution": "<p>由三视图可知，该几何体由一个底面为边长 $3$ 的正方形、高为 $2$ 的长方体和一个半径为 $\\frac{3}{2}$ 的球组成，且球与长方体相切. 因而其体积为</p>\n$$\nV=3\\times3\\times2+\\frac{4}{3}\\pi\\left(\\frac{3}{2}\\right)^{3}=18+\\frac{9}{2}\\pi\n$$\n<p>所以选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
-          "body": "<p>通过随机询问 $110\\text{ 名}$ 性别不同的大学生是否爱好某项运动，得到如下的列联表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"></td><td style=\"text-align: center\"> 男 </td><td style=\"text-align: center\"> 女 </td><td style=\"text-align: center\"> 总计 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>爱好 </td><td style=\"text-align: center\"> 40 </td><td style=\"text-align: center\"> 20 </td><td style=\"text-align: center\"> 60 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>不爱好 </td><td style=\"text-align: center\"> 20 </td><td style=\"text-align: center\"> 30 </td><td style=\"text-align: center\"> 50 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>总计 </td><td style=\"text-align: center\"> 60 </td><td style=\"text-align: center\"> 50 </td><td style=\"text-align: center\"> 110</td></tr></tbody></table></center><p>由 $K^{2} = \\frac{n(ad - bc)^{2}}{(a + b)(c + d)(a + c)(b + d)}$ 算得 $K^{2}= \\frac{110 \\times (40 \\times 30 - 20 \\times 20)^{2}}{60 \\times 50 \\times 60 \\times 50}\\approx 7.8$. 附表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$P(K^{2}\\ge k)$ </td><td style=\"text-align: center\"> 0.050 </td><td style=\"text-align: center\"> 0.010 </td><td style=\"text-align: center\"> 0.001 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$k$ </td><td style=\"text-align: center\"> 3.841 </td><td style=\"text-align: center\"> 6.635 </td><td style=\"text-align: center\"> 10.828</td></tr></tbody></table></center><p>参照附表，得到的正确结论是（ ）</p>",
+          "body": "<p>通过随机询问 $110\\text{ 名}$ 性别不同的大学生是否爱好某项运动，得到如下的列联表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"></td><td style=\"text-align: center\"> 男 </td><td style=\"text-align: center\"> 女 </td><td style=\"text-align: center\"> 总计 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">爱好 </td><td style=\"text-align: center\"> 40 </td><td style=\"text-align: center\"> 20 </td><td style=\"text-align: center\"> 60 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">不爱好 </td><td style=\"text-align: center\"> 20 </td><td style=\"text-align: center\"> 30 </td><td style=\"text-align: center\"> 50 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">总计 </td><td style=\"text-align: center\"> 60 </td><td style=\"text-align: center\"> 50 </td><td style=\"text-align: center\"> 110</td></tr></tbody></table></center><p>由 $K^{2} = \\frac{n(ad - bc)^{2}}{(a + b)(c + d)(a + c)(b + d)}$ 算得 $K^{2}= \\frac{110 \\times (40 \\times 30 - 20 \\times 20)^{2}}{60 \\times 50 \\times 60 \\times 50}\\approx 7.8$. 附表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$P(K^{2}\\ge k)$ </td><td style=\"text-align: center\"> 0.050 </td><td style=\"text-align: center\"> 0.010 </td><td style=\"text-align: center\"> 0.001 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$k$ </td><td style=\"text-align: center\"> 3.841 </td><td style=\"text-align: center\"> 6.635 </td><td style=\"text-align: center\"> 10.828</td></tr></tbody></table></center><p>参照附表，得到的正确结论是（ ）</p>",
           "choices": [
             "在犯错误的概率不超过 $0.1\\%$ 的前提下，认为“爱好该项运动与性别有关”",
             "在犯错误的概率不超过 $0.1\\%$ 的前提下，认为“爱好该项运动与性别无关”",
@@ -53,7 +194,9 @@
             "有 $99\\%$ 以上的把握认为“爱好该项运动与性别无关”"
           ],
           "answer": "C",
-          "solution": "<p>由列联表中的数据，</p>\n$$\nK^{2}=\\frac{110(40\\times30-20\\times20)^{2}}{60\\times50\\times60\\times50}\\approx7.8\n$$\n<p>因为 $7.8>6.635$，所以 $P(K^{2}\\geqslant7.8)<0.010$，据此有 $99\\%$ 以上的把握认为爱好该项运动与性别有关. 又因为 $7.8<10.828$，不能把结论提高到犯错误的概率不超过 $0.1\\%$. 故选 C.</p>"
+          "solution": "<p>由列联表中的数据，</p>\n$$\nK^{2}=\\frac{110(40\\times30-20\\times20)^{2}}{60\\times50\\times60\\times50}\\approx7.8\n$$\n<p>因为 $7.8>6.635$，所以 $P(K^{2}\\geqslant7.8)<0.010$，据此有 $99\\%$ 以上的把握认为爱好该项运动与性别有关. 又因为 $7.8<10.828$，不能把结论提高到犯错误的概率不超过 $0.1\\%$. 故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "1"
           ],
           "answer": "C",
-          "solution": "<p>将双曲线方程化为渐近线对应的齐次方程，得</p><p>$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{9}=0$，$y=\\pm\\frac{3}{a}x$.</p><p>题设渐近线为 $3x\\pm2y=0$，即 $y=\\pm\\frac{3}{2}x$. 因此</p>\n$$\n\\frac{3}{a}=\\frac{3}{2}\n$$\n<p>又 $a>0$，所以 $a=2$，故选 C.</p>"
+          "solution": "<p>将双曲线方程化为渐近线对应的齐次方程，得</p><p>$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{9}=0$，$y=\\pm\\frac{3}{a}x$.</p><p>题设渐近线为 $3x\\pm2y=0$，即 $y=\\pm\\frac{3}{2}x$. 因此</p>\n$$\n\\frac{3}{a}=\\frac{3}{2}\n$$\n<p>又 $a>0$，所以 $a=2$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$\\sqrt{3}$"
           ],
           "answer": "D",
-          "solution": "<p>在区间 $\\left[-\\frac{\\pi}{3},\\frac{\\pi}{3}\\right]$ 上，$\\cos x\\geqslant0$，所以封闭图形面积为</p>\n$$\nS=\\int_{-\\frac{\\pi}{3}}^{\\frac{\\pi}{3}}\\cos x\\,\\mathrm{d}x  =\\left.\\sin x\\right|_{-\\frac{\\pi}{3}}^{\\frac{\\pi}{3}}=\\sqrt{3}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>在区间 $\\left[-\\frac{\\pi}{3},\\frac{\\pi}{3}\\right]$ 上，$\\cos x\\geqslant0$，所以封闭图形面积为</p>\n$$\nS=\\int_{-\\frac{\\pi}{3}}^{\\frac{\\pi}{3}}\\cos x\\,\\mathrm{d}x  =\\left.\\sin x\\right|_{-\\frac{\\pi}{3}}^{\\frac{\\pi}{3}}=\\sqrt{3}\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$(3, +\\infty)$"
           ],
           "answer": "A",
-          "solution": "<p>由 $y\\ge x$ 和 $y\\le mx$，且 $m>1$，若 $x<0$，则 $mx<x$，不可能同时满足这两个不等式，所以可行域中的点满足 $x\\geqslant0$. 可行域是三角形，其顶点为</p><p>$(0,0)$，$\\left(\\frac{1}{2},\\frac{1}{2}\\right)$，$\\left(\\frac{1}{m+1},\\frac{m}{m+1}\\right)$.</p><p>在这三个顶点处，目标函数 $z=x+my$ 的值分别为</p><p>$0$，$\\frac{m+1}{2}$，$\\frac{1+m^{2}}{m+1}$.</p><p>由于</p>\n$$\n\\frac{1+m^{2}}{m+1}-\\frac{m+1}{2}=\\frac{(m-1)^{2}}{2(m+1)}>0\n$$\n<p>故最大值为 $\\frac{1+m^{2}}{m+1}$. 题设要求</p>\n$$\n\\frac{1+m^{2}}{m+1}<2   \\Longleftrightarrow   m^{2}-2m-1<0\n$$\n<p>结合 $m>1$，得 $1<m<1+\\sqrt{2}$，故选 A.</p>"
+          "solution": "<p>由 $y\\ge x$ 和 $y\\le mx$，且 $m>1$，若 $x<0$，则 $mx<x$，不可能同时满足这两个不等式，所以可行域中的点满足 $x\\geqslant0$. 可行域是三角形，其顶点为</p><p>$(0,0)$，$\\left(\\frac{1}{2},\\frac{1}{2}\\right)$，$\\left(\\frac{1}{m+1},\\frac{m}{m+1}\\right)$.</p><p>在这三个顶点处，目标函数 $z=x+my$ 的值分别为</p><p>$0$，$\\frac{m+1}{2}$，$\\frac{1+m^{2}}{m+1}$.</p><p>由于</p>\n$$\n\\frac{1+m^{2}}{m+1}-\\frac{m+1}{2}=\\frac{(m-1)^{2}}{2(m+1)}>0\n$$\n<p>故最大值为 $\\frac{1+m^{2}}{m+1}$. 题设要求</p>\n$$\n\\frac{1+m^{2}}{m+1}<2   \\Longleftrightarrow   m^{2}-2m-1<0\n$$\n<p>结合 $m>1$，得 $1<m<1+\\sqrt{2}$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$\\frac{\\sqrt{2}}{2}$"
           ],
           "answer": "D",
-          "solution": "<p>由于 $g(x)=\\ln x$ 的定义域为 $x>0$，故 $t>0$. 两交点为 $M=(t,t^{2})$，$N=(t,\\ln t)$，所以</p><p>令 $\\varphi(t)=t^{2}-\\ln t$，则</p>\n$$\n\\varphi'(t)=2t-\\frac{1}{t}=\\frac{2t^{2}-1}{t}\n$$\n<p>当 $0<t<\\frac{\\sqrt{2}}{2}$ 时，$\\varphi'(t)<0$；当 $t>\\frac{\\sqrt{2}}{2}$ 时，$\\varphi'(t)>0$. 因此 $\\varphi$ 在 $t=\\frac{\\sqrt{2}}{2}$ 处取得最小值，且</p>\n$$\n\\varphi\\left(\\frac{\\sqrt{2}}{2}\\right)=\\frac{1}{2}+\\frac{1}{2}\\ln2>0\n$$\n<p>所以 $|MN|=|t^{2}-\\ln t|=\\varphi(t)$，其最小时 $t=\\frac{\\sqrt{2}}{2}$，故选 D.</p>"
+          "solution": "<p>由于 $g(x)=\\ln x$ 的定义域为 $x>0$，故 $t>0$. 两交点为 $M=(t,t^{2})$，$N=(t,\\ln t)$，所以</p><p>令 $\\varphi(t)=t^{2}-\\ln t$，则</p>\n$$\n\\varphi'(t)=2t-\\frac{1}{t}=\\frac{2t^{2}-1}{t}\n$$\n<p>当 $0<t<\\frac{\\sqrt{2}}{2}$ 时，$\\varphi'(t)<0$；当 $t>\\frac{\\sqrt{2}}{2}$ 时，$\\varphi'(t)>0$. 因此 $\\varphi$ 在 $t=\\frac{\\sqrt{2}}{2}$ 处取得最小值，且</p>\n$$\n\\varphi\\left(\\frac{\\sqrt{2}}{2}\\right)=\\frac{1}{2}+\\frac{1}{2}\\ln2>0\n$$\n<p>所以 $|MN|=|t^{2}-\\ln t|=\\varphi(t)$，其最小时 $t=\\frac{\\sqrt{2}}{2}$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -111,58 +262,74 @@
         {
           "num": 9,
           "body": "在直角坐标系 $xOy$ 中，曲线 $C_{1}$ 的参数方程为 $\\begin{cases}x = \\cos \\alpha,\\\\\n\ny = 1 + \\sin \\alpha\\end{cases}$ （$\\alpha$ 为参数），在极坐标系（与直角坐标系 $xOy$ 取相同的长度单位，且以原点 $O$ 为极点，以 $x$ 轴正半轴为极轴）中，曲线 $C_{2}$ 的方程为 $\\rho (\\cos \\theta - \\sin \\theta) + 1 = 0$，则 $C_{1}$ 与 $C_{2}$ 的交点个数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "2",
-          "solution": "<p>由参数方程消去参数 $\\alpha$，得</p>\n$$\nx^{2}+(y-1)^{2}=\\cos^{2}\\alpha+\\sin^{2}\\alpha=1\n$$\n<p>所以 $C_{1}$ 是圆心为 $(0,1)$、半径为 $1$ 的圆. 又因为 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，曲线 $C_{2}$ 的方程化为</p>\n$$\nx-y+1=0\n$$\n<p>该直线经过圆心 $(0,1)$，与半径为 $1$ 的圆相交于两个不同的点，因此交点个数为 $2$.</p>"
+          "solution": "<p>由参数方程消去参数 $\\alpha$，得</p>\n$$\nx^{2}+(y-1)^{2}=\\cos^{2}\\alpha+\\sin^{2}\\alpha=1\n$$\n<p>所以 $C_{1}$ 是圆心为 $(0,1)$、半径为 $1$ 的圆. 又因为 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，曲线 $C_{2}$ 的方程化为</p>\n$$\nx-y+1=0\n$$\n<p>该直线经过圆心 $(0,1)$，与半径为 $1$ 的圆相交于两个不同的点，因此交点个数为 $2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "设 $x$，$y \\in \\mathbb{R}$，且 $xy \\neq 0$，则 $\\left(x^{2} + \\frac{1}{y^{2}}\\right)\\left(\\frac{1}{x^{2}}+ 4y^{2}\\right)$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "9",
-          "solution": "<p>展开原式并令 $u=x^{2}y^{2}$，由于 $xy\\ne0$，有 $u>0$. 于是</p>\n$$\n\\left(x^{2}+\\frac{1}{y^{2}}\\right)\\left(\\frac{1}{x^{2}}+4y^{2}\\right)  =1+4x^{2}y^{2}+\\frac{1}{x^{2}y^{2}}+4  =5+4u+\\frac{1}{u}\n$$\n<p>由基本不等式，</p>\n$$\n4u+\\frac{1}{u}\\geqslant2\\sqrt{4u\\cdot\\frac{1}{u}}=4\n$$\n<p>当且仅当 $4u=\\frac{1}{u}$，即 $u=\\frac{1}{2}$ 时等号成立. 因此原式的最小值为 $5+4=9$. 例如取 $x=1$，$y=\\frac{1}{\\sqrt{2}}$ 时 $u=\\frac{1}{2}$，等号确实可以取得.</p>"
+          "solution": "<p>展开原式并令 $u=x^{2}y^{2}$，由于 $xy\\ne0$，有 $u>0$. 于是</p>\n$$\n\\left(x^{2}+\\frac{1}{y^{2}}\\right)\\left(\\frac{1}{x^{2}}+4y^{2}\\right)  =1+4x^{2}y^{2}+\\frac{1}{x^{2}y^{2}}+4  =5+4u+\\frac{1}{u}\n$$\n<p>由基本不等式，</p>\n$$\n4u+\\frac{1}{u}\\geqslant2\\sqrt{4u\\cdot\\frac{1}{u}}=4\n$$\n<p>当且仅当 $4u=\\frac{1}{u}$，即 $u=\\frac{1}{2}$ 时等号成立. 因此原式的最小值为 $5+4=9$. 例如取 $x=1$，$y=\\frac{1}{\\sqrt{2}}$ 时 $u=\\frac{1}{2}$，等号确实可以取得.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
-          "body": "<p>如图，$A$，$E$ 是半圆周上的两个三等分点，直径 $BC=4$，$AD\\perp BC$，垂足为 $D$，$BE$ 与 $AD$ 相交于点 $F$，则 $AF$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{2\\sqrt{3}}{3}$",
-          "solution": "<p>半圆半径为 $2$. 取 $BC$ 为横轴，令圆心 $O=(0,0)$，则可取</p><p>$B=(-2,0)$，$C=(2,0)$.</p><p>由图中 $A$，$E$ 将半圆弧 $BC$ 三等分，得</p><p>$A=(-1,\\sqrt{3})$，$E=(1,\\sqrt{3})$.</p><p>因为 $AD\\perp BC$，所以 $D=(-1,0)$. 直线 $BE$ 的斜率为</p>\n$$\n\\frac{\\sqrt{3}-0}{1-(-2)}=\\frac{\\sqrt{3}}{3}\n$$\n<p>故其方程为 $y=\\frac{\\sqrt{3}}{3}(x+2)$. 当 $x=-1$ 时，交点 $F$ 的纵坐标为 $\\frac{\\sqrt{3}}{3}$. 因而</p>\n$$\nAF=\\sqrt{3}-\\frac{\\sqrt{3}}{3}=\\frac{2\\sqrt{3}}{3}\n$$"
+          "body": "<p>如图，$A$，$E$ 是半圆周上的两个三等分点，直径 $BC=4$，$AD\\perp BC$，垂足为 $D$，$BE$ 与 $AD$ 相交于点 $F$，则 $AF$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/hunan_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{2\\sqrt{3}}{3}\\)",
+          "solution": "<p>半圆半径为 $2$. 取 $BC$ 为横轴，令圆心 $O=(0,0)$，则可取</p><p>$B=(-2,0)$，$C=(2,0)$.</p><p>由图中 $A$，$E$ 将半圆弧 $BC$ 三等分，得</p><p>$A=(-1,\\sqrt{3})$，$E=(1,\\sqrt{3})$.</p><p>因为 $AD\\perp BC$，所以 $D=(-1,0)$. 直线 $BE$ 的斜率为</p>\n$$\n\\frac{\\sqrt{3}-0}{1-(-2)}=\\frac{\\sqrt{3}}{3}\n$$\n<p>故其方程为 $y=\\frac{\\sqrt{3}}{3}(x+2)$. 当 $x=-1$ 时，交点 $F$ 的纵坐标为 $\\frac{\\sqrt{3}}{3}$. 因而</p>\n$$\nAF=\\sqrt{3}-\\frac{\\sqrt{3}}{3}=\\frac{2\\sqrt{3}}{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "设 $S_{n}$ 是等差数列 $\\{a_{n}\\}$（$n \\in \\mathbf{N}^{*}$）的前 $n$ 项和，且 $a_{1}= 1$，$a_{4}= 7$，则 $S_{5}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "25",
-          "solution": "<p>设等差数列的公差为 $d$. 由</p>\n$$\na_{4}=a_{1}+3d=1+3d=7\n$$\n<p>得 $d=2$. 所以前五项为 $1$，$3$，$5$，$7$，$9$，从而</p>\n$$\nS_{5}=1+3+5+7+9=25\n$$"
+          "solution": "<p>设等差数列的公差为 $d$. 由</p>\n$$\na_{4}=a_{1}+3d=1+3d=7\n$$\n<p>得 $d=2$. 所以前五项为 $1$，$3$，$5$，$7$，$9$，从而</p>\n$$\nS_{5}=1+3+5+7+9=25\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
-          "body": "<p>若执行如图所示的框图，输入 $x_{1}= 1$，$x_{2}= 2$，$x_{3}= 3$，$\\overline{x}= 2$，则输出的数等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{2}{3}$",
-          "solution": "<p>按照框图计算：初始 $i=1$，$S=0$. 第一次循环后</p>\n$$\nS=0+(1-2)^{2}=1\n$$\n<p>此时 $i<3$，令 $i=2$. 第二次循环后</p>\n$$\nS=1+(2-2)^{2}=1\n$$\n<p>此时仍有 $i<3$，令 $i=3$. 第三次循环后</p>\n$$\nS=1+(3-2)^{2}=2\n$$\n<p>此时 $i<3$ 不成立，输出</p>\n$$\n\\frac{1}{i}S=\\frac{1}{3}\\times2=\\frac{2}{3}\n$$"
+          "body": "<p>若执行如图所示的框图，输入 $x_{1}= 1$，$x_{2}= 2$，$x_{3}= 3$，$\\overline{x}= 2$，则输出的数等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/hunan_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{2}{3}\\)",
+          "solution": "<p>按照框图计算：初始 $i=1$，$S=0$. 第一次循环后</p>\n$$\nS=0+(1-2)^{2}=1\n$$\n<p>此时 $i<3$，令 $i=2$. 第二次循环后</p>\n$$\nS=1+(2-2)^{2}=1\n$$\n<p>此时仍有 $i<3$，令 $i=3$. 第三次循环后</p>\n$$\nS=1+(3-2)^{2}=2\n$$\n<p>此时 $i<3$ 不成立，输出</p>\n$$\n\\frac{1}{i}S=\\frac{1}{3}\\times2=\\frac{2}{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "在边长为 1 的正三角形 $ABC$ 中，设 $\\overrightarrow{BC}= 2\\overrightarrow{BD}$，$\\overrightarrow{CA}= 3\\overrightarrow{CE}$，则 $\\overrightarrow{AD}\\cdot \\overrightarrow{BE}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-\\frac{1}{4}$",
-          "solution": "<p>建立直角坐标系，取 $B=(0,0)$，$C=(1,0)$，$A=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)$. 由 $\\overrightarrow{BC}=2\\overrightarrow{BD}$，得</p>\n$$\nD=\\left(\\frac{1}{2},0\\right)\n$$\n<p>由 $\\overrightarrow{CA}=3\\overrightarrow{CE}$，得</p>\n$$\nE=C+\\frac{1}{3}(A-C)=\\left(\\frac{5}{6},\\frac{\\sqrt{3}}{6}\\right)\n$$\n<p>于是</p><p>$\\overrightarrow{AD}=\\left(0,-\\frac{\\sqrt{3}}{2}\\right)$，$\\overrightarrow{BE}=\\left(\\frac{5}{6},\\frac{\\sqrt{3}}{6}\\right)$.</p><p>所以</p>\n$$\n\\overrightarrow{AD}\\cdot\\overrightarrow{BE}=0\\cdot\\frac{5}{6}-\\frac{\\sqrt{3}}{2}\\cdot\\frac{\\sqrt{3}}{6}=-\\frac{1}{4}\n$$"
+          "choices": [],
+          "answer": "\\(-\\frac{1}{4}\\)",
+          "solution": "<p>建立直角坐标系，取 $B=(0,0)$，$C=(1,0)$，$A=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)$. 由 $\\overrightarrow{BC}=2\\overrightarrow{BD}$，得</p>\n$$\nD=\\left(\\frac{1}{2},0\\right)\n$$\n<p>由 $\\overrightarrow{CA}=3\\overrightarrow{CE}$，得</p>\n$$\nE=C+\\frac{1}{3}(A-C)=\\left(\\frac{5}{6},\\frac{\\sqrt{3}}{6}\\right)\n$$\n<p>于是</p><p>$\\overrightarrow{AD}=\\left(0,-\\frac{\\sqrt{3}}{2}\\right)$，$\\overrightarrow{BE}=\\left(\\frac{5}{6},\\frac{\\sqrt{3}}{6}\\right)$.</p><p>所以</p>\n$$\n\\overrightarrow{AD}\\cdot\\overrightarrow{BE}=0\\cdot\\frac{5}{6}-\\frac{\\sqrt{3}}{2}\\cdot\\frac{\\sqrt{3}}{6}=-\\frac{1}{4}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
-          "body": "<p>如图所示，$EFGH$ 是以 $O$ 为圆心，半径为 1 的圆的内接正方形，将一颗豆子随机地扔到该圆内，用 $A$ 表示事件“豆子落在正方形 $EFGH$ 内”，$B$ 表示事件“豆子落在扇形 $OHE$（阴影部分）内”，则</p><ol class=\"enumerate\"><li><p>$P(A)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；</p></li><li><p>$P(B\\mid A)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{2}{\\pi}$，$\\frac{1}{4}$",
-          "solution": "<ol class=\"enumerate\"><li><p>圆的面积为 $\\pi$. 内接正方形的对角线等于圆的直径 $2$，所以其边长为 $\\sqrt{2}$，面积为 $2$. 因此</p>\n$$\nP(A)=\\frac{2}{\\pi}\n$$\n</li><li><p>扇形 $OHE$ 的圆心角为正方形相邻顶点对应的圆心角，即 $\\frac{\\pi}{2}$. 事件 $A\\cap B$ 对应于三角形 $OHE$，其面积为</p>\n$$\n\\frac{1}{2}\\times OE\\times OH\\times\\sin\\frac{\\pi}{2}=\\frac{1}{2}\n$$\n<p>于是 $P(B\\mid A)=\\frac{P(A\\cap B)}{P(A)}=\\frac{\\text{面积}(A\\cap B)}{\\text{面积}(A)}=\\frac{\\frac{1}{2}}{2}=\\frac{1}{4}$.</p></li></ol>"
+          "body": "<p>如图所示，$EFGH$ 是以 $O$ 为圆心，半径为 1 的圆的内接正方形，将一颗豆子随机地扔到该圆内，用 $A$ 表示事件“豆子落在正方形 $EFGH$ 内”，$B$ 表示事件“豆子落在扇形 $OHE$（阴影部分）内”，则</p><ol class=\"enumerate\"><li><p>$P(A)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；</p></li><li><p>$P(B\\mid A)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/hunan_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{2}{\\pi}\\)，\\(\\frac{1}{4}\\)",
+          "solution": "<ol class=\"enumerate\"><li><p>圆的面积为 $\\pi$. 内接正方形的对角线等于圆的直径 $2$，所以其边长为 $\\sqrt{2}$，面积为 $2$. 因此</p>\n$$\nP(A)=\\frac{2}{\\pi}\n$$\n</li><li><p>扇形 $OHE$ 的圆心角为正方形相邻顶点对应的圆心角，即 $\\frac{\\pi}{2}$. 事件 $A\\cap B$ 对应于三角形 $OHE$，其面积为</p>\n$$\n\\frac{1}{2}\\times OE\\times OH\\times\\sin\\frac{\\pi}{2}=\\frac{1}{2}\n$$\n<p>于是 $P(B\\mid A)=\\frac{P(A\\cap B)}{P(A)}=\\frac{\\text{面积}(A\\cap B)}{\\text{面积}(A)}=\\frac{\\frac{1}{2}}{2}=\\frac{1}{4}$.</p></li></ol>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>对于 $n \\in \\mathbf{N}^{*}$，将 $n$ 表示为 $n = a_{0} \\times 2^{k} + a_{1} \\times 2^{k-1}+ a_{2} \\times 2^{k-2}+ \\cdots + a_{k-1}\\times 2^{1} + a_{k} \\times 2^{0}$. 当 $i = 0$ 时，$a_{i} = 1$，当 $1 \\le i \\le k$ 时，$a_{i}$ 为 0 或 1. 记 $I(n)$ 为上述表示中 $a_{i}$ 为 0 的个数 （例如： $1 = 1 \\times 2^{0}$，$4 = 1 \\times 2^{2} + 0 \\times 2^{1} + 0 \\times 2^{0}$，则 $I(1) = 0$，$I(4) = 2$），则</p><ol class=\"enumerate\"><li><p>$I(12) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；</p></li><li><p>$\\displaystyle\\sum_{n=1}^{127}2^{I(n)}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "2，1093",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $12=1\\times2^{3}+1\\times2^{2}+0\\times2^{1}+0\\times2^{0}$，其中有两个系数为 $0$，所以</p>\n$$\nI(12)=2\n$$\n</li><li><p>对二进制位数为 $k+1$ 的数，其最高位固定为 $1$，其余 $k$ 位可以任意取 $0$ 或 $1$. 对于剩余的每一位，取 $1$ 时对 $2^{I(n)}$ 的贡献因子为 $1$，取 $0$ 时贡献因子为 $2$，故所有这 $2^{k}$ 个数的 $2^{I(n)}$ 之和为</p>\n$$\n(1+2)^{k}=3^{k}\n$$\n<p>当 $n$ 从 $1$ 到 $127=2^{7}-1$ 时，二进制位数依次为 $1$，$2$，$\\ldots$，$7$，即 $k=0$，$1$，$\\ldots$，$6$. 因此</p>\n$$\n\\sum_{n=1}^{127}2^{I(n)}=\\sum_{k=0}^{6}3^{k}=\\frac{3^{7}-1}{3-1}=\\frac{2187-1}{2}=1093\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $12=1\\times2^{3}+1\\times2^{2}+0\\times2^{1}+0\\times2^{0}$，其中有两个系数为 $0$，所以</p>\n$$\nI(12)=2\n$$\n</li><li><p>对二进制位数为 $k+1$ 的数，其最高位固定为 $1$，其余 $k$ 位可以任意取 $0$ 或 $1$. 对于剩余的每一位，取 $1$ 时对 $2^{I(n)}$ 的贡献因子为 $1$，取 $0$ 时贡献因子为 $2$，故所有这 $2^{k}$ 个数的 $2^{I(n)}$ 之和为</p>\n$$\n(1+2)^{k}=3^{k}\n$$\n<p>当 $n$ 从 $1$ 到 $127=2^{7}-1$ 时，二进制位数依次为 $1$，$2$，$\\ldots$，$7$，即 $k=0$，$1$，$\\ldots$，$6$. 因此</p>\n$$\n\\sum_{n=1}^{127}2^{I(n)}=\\sum_{k=0}^{6}3^{k}=\\frac{3^{7}-1}{3-1}=\\frac{2187-1}{2}=1093\n$$\n</li></ol>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -172,44 +339,56 @@
         {
           "num": 17,
           "body": "<p>在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 且满足 $c \\sin A = a \\cos C$.</p><ol class=\"enumerate\"><li><p>求角 $C$ 的大小；</p></li><li><p>求 $\\sqrt{3}\\sin A - \\cos \\left(B + \\frac{\\pi}{4}\\right)$ 的最大值，并求取得最大值时角 $A$，$B$ 的大小.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由正弦定理，存在正数 $R$，使得 $a=2R\\sin A$，$c=2R\\sin C$. 因为 $A$ 是三角形内角，$\\sin A>0$，所以条件等价于</p>\n$$\n2R\\sin C\\sin A=2R\\sin A\\cos C \\Longleftrightarrow  \\sin C=\\cos C\n$$\n<p>又 $0<C<\\pi$，故 $C=\\frac{\\pi}{4}$. 从而 $A+B=\\frac{3\\pi}{4}$，且 $0<A<\\frac{3\\pi}{4}$.</p><p>由 $B=\\frac{3\\pi}{4}-A$，有 $B+\\frac{\\pi}{4}=\\pi-A$，因此</p>\n$$\n\\sqrt{3}\\sin A-\\cos\\left(B+\\frac{\\pi}{4}\\right)=\\sqrt{3}\\sin A+\\cos A=2\\cos\\left(A-\\frac{\\pi}{3}\\right)\\le 2\n$$\n<p>当且仅当 $A=\\frac{\\pi}{3}$ 时等号成立，此时 $B=\\frac{5\\pi}{12}$. 所以最大值为 $2$，取得最大值时 $A=\\frac{\\pi}{3}$，$B=\\frac{5\\pi}{12}$.</p>"
+          "solution": "<p>由正弦定理，存在正数 $R$，使得 $a=2R\\sin A$，$c=2R\\sin C$. 因为 $A$ 是三角形内角，$\\sin A>0$，所以条件等价于</p>\n$$\n2R\\sin C\\sin A=2R\\sin A\\cos C \\Longleftrightarrow  \\sin C=\\cos C\n$$\n<p>又 $0<C<\\pi$，故 $C=\\frac{\\pi}{4}$. 从而 $A+B=\\frac{3\\pi}{4}$，且 $0<A<\\frac{3\\pi}{4}$.</p><p>由 $B=\\frac{3\\pi}{4}-A$，有 $B+\\frac{\\pi}{4}=\\pi-A$，因此</p>\n$$\n\\sqrt{3}\\sin A-\\cos\\left(B+\\frac{\\pi}{4}\\right)=\\sqrt{3}\\sin A+\\cos A=2\\cos\\left(A-\\frac{\\pi}{3}\\right)\\le 2\n$$\n<p>当且仅当 $A=\\frac{\\pi}{3}$ 时等号成立，此时 $B=\\frac{5\\pi}{12}$. 所以最大值为 $2$，取得最大值时 $A=\\frac{\\pi}{3}$，$B=\\frac{5\\pi}{12}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>某商店试销某种商品 $20\\text{ 天}$，获得如下数据：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">日销售量（件） </td><td style=\"text-align: center\"> 0 </td><td style=\"text-align: center\"> 1 </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 3 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>频数 </td><td style=\"text-align: center\"> 1 </td><td style=\"text-align: center\"> 5 </td><td style=\"text-align: center\"> 9 </td><td style=\"text-align: center\"> 5</td></tr></tbody></table></center><p>试销结束后（假设该商品的日销售量的分布规律不变），设某天开始营业时有该商品 $3\\text{ 件}$，当天营业结束后检查存货，若发现存货少于 $2\\text{ 件}$，则当天进货补充至 $3\\text{ 件}$，否则不进货，将频率视为概率.</p><ol class=\"enumerate\"><li><p>求当天商品不进货的概率；</p></li><li><p>记 $X$ 为第二天开始营业时该商品的件数，求 $X$ 的分布列和数学期望.</p></li></ol>",
-          "choices": null,
+          "body": "<p>某商店试销某种商品 $20\\text{ 天}$，获得如下数据：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">日销售量（件） </td><td style=\"text-align: center\"> 0 </td><td style=\"text-align: center\"> 1 </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 3 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">频数 </td><td style=\"text-align: center\"> 1 </td><td style=\"text-align: center\"> 5 </td><td style=\"text-align: center\"> 9 </td><td style=\"text-align: center\"> 5</td></tr></tbody></table></center><p>试销结束后（假设该商品的日销售量的分布规律不变），设某天开始营业时有该商品 $3\\text{ 件}$，当天营业结束后检查存货，若发现存货少于 $2\\text{ 件}$，则当天进货补充至 $3\\text{ 件}$，否则不进货，将频率视为概率.</p><ol class=\"enumerate\"><li><p>求当天商品不进货的概率；</p></li><li><p>记 $X$ 为第二天开始营业时该商品的件数，求 $X$ 的分布列和数学期望.</p></li></ol>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>设当天的日销售量为 $Y$. 当天开始营业时有 $3$ 件商品，若当天销售量为 $0$ 件或 $1$ 件，营业结束时存货分别为 $3$ 件或 $2$ 件，不需要进货；若销售量为 $2$ 件或 $3$ 件，营业结束时存货少于 $2$ 件，需要进货.</p><ol class=\"enumerate\"><li><p>当天商品不进货的概率为</p>\n$$\nP(Y=0)+P(Y=1)=\\frac{1+5}{20}=\\frac{3}{10}\n$$\n</li><li><p>第二天开始营业时，若 $Y=1$，存货为 $2$ 件；若 $Y=0$，存货为 $3$ 件；若 $Y=2$ 或 $Y=3$，当天进货后存货补充至 $3$ 件. 因此 $X$ 只取 $2$，$3$，且</p>\n$$\nP(X=2)=P(Y=1)=\\frac{5}{20}=\\frac{1}{4}\n$$\n\n$$\nP(X=3)=P(Y=0)+P(Y=2)+P(Y=3)=\\frac{1+9+5}{20}=\\frac{3}{4}\n$$\n<p>分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 3 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\frac{1}{4}$ </td><td style=\"text-align: center\"> $\\frac{3}{4}$</td></tr></tbody></table></center><p></p><p>所以</p>\n$$\nE(X)=2\\times\\frac{1}{4}+3\\times\\frac{3}{4}=\\frac{11}{4}\n$$\n</li></ol>"
+          "solution": "<p>设当天的日销售量为 $Y$. 当天开始营业时有 $3$ 件商品，若当天销售量为 $0$ 件或 $1$ 件，营业结束时存货分别为 $3$ 件或 $2$ 件，不需要进货；若销售量为 $2$ 件或 $3$ 件，营业结束时存货少于 $2$ 件，需要进货.</p><ol class=\"enumerate\"><li><p>当天商品不进货的概率为</p>\n$$\nP(Y=0)+P(Y=1)=\\frac{1+5}{20}=\\frac{3}{10}\n$$\n</li><li><p>第二天开始营业时，若 $Y=1$，存货为 $2$ 件；若 $Y=0$，存货为 $3$ 件；若 $Y=2$ 或 $Y=3$，当天进货后存货补充至 $3$ 件. 因此 $X$ 只取 $2$，$3$，且</p>\n$$\nP(X=2)=P(Y=1)=\\frac{5}{20}=\\frac{1}{4}\n$$\n\n$$\nP(X=3)=P(Y=0)+P(Y=2)+P(Y=3)=\\frac{1+9+5}{20}=\\frac{3}{4}\n$$\n<p>分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 3 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$P$ </td><td style=\"text-align: center\"> $\\frac{1}{4}$ </td><td style=\"text-align: center\"> $\\frac{3}{4}$</td></tr></tbody></table></center><p></p><p>所以</p>\n$$\nE(X)=2\\times\\frac{1}{4}+3\\times\\frac{3}{4}=\\frac{11}{4}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>如图，在圆锥 $PO$ 中，已知 $PO = \\sqrt{2}$，$\\odot O$ 的直径 $AB = 2$，$C$ 是 $\\widehat{AB}$ 的中点，$D$ 为 $AC$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：平面 $POD \\perp$ 平面 $PAC$；</p></li><li><p>求二面角 $B - PA - C$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在圆锥 $PO$ 中，已知 $PO = \\sqrt{2}$，$\\odot O$ 的直径 $AB = 2$，$C$ 是 $\\widehat{AB}$ 的中点，$D$ 为 $AC$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：平面 $POD \\perp$ 平面 $PAC$；</p></li><li><p>求二面角 $B - PA - C$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/hunan_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>不妨在底面所在平面内建立直角坐标系，取</p><p>$O=(0,0,0)$，$P=(0,0,\\sqrt{2})$，$A=(-1,0,0)$，$B=(1,0,0)$，$C=(0,1,0)$.</p><p>于是 $D=\\left(-\\frac{1}{2},\\frac{1}{2},0\\right)$. 取 $C$ 在另一侧时只是坐标方向改变，结论不变.</p><ol class=\"enumerate\"><li><p>因为 $D$ 是圆心为 $O$ 的圆内弦 $AC$ 的中点，所以 $OD\\perp AC$. 又因为 $PO$ 垂直于底面，故 $PO\\perp AC$. 直线 $PO$，$OD$ 是平面 $POD$ 内相交的两条直线，且都垂直于 $AC$，所以 $AC\\perp$ 平面 $POD$. 由于 $AC$ 在平面 $PAC$ 内，故平面 $POD\\perp$ 平面 $PAC$.</p></li><li><p>平面 $PAB$ 的方程为 $y=0$，可取其一个法向量为 $\\mathbf{n}_{1}=(0,1,0)$. 在平面 $PAC$ 内取</p><p>$\\overrightarrow{AP}=(1,0,\\sqrt{2})$，$\\overrightarrow{AC}=(1,1,0)$，</p><p>从而可取平面 $PAC$ 的法向量为</p>\n$$\n\\mathbf{n}_{2}=\\overrightarrow{AP}\\times\\overrightarrow{AC}=(-\\sqrt{2},\\sqrt{2},1)\n$$\n<p>为确定由半平面 $PAB$、$PAC$ 确定的二面角取锐角，分别将 $\\overrightarrow{AB}$、$\\overrightarrow{AC}$ 投影到垂直于 $PA$ 的平面上，得</p>\n$$\n\\mathbf{u}=\\overrightarrow{AB}-\\frac{\\overrightarrow{AB}\\cdot\\overrightarrow{AP}}{|\\overrightarrow{AP}|^{2}}\\overrightarrow{AP}=\\left(\\frac{4}{3},0,-\\frac{2\\sqrt{2}}{3}\\right)\n$$\n\n$$\n\\mathbf{v}=\\overrightarrow{AC}-\\frac{\\overrightarrow{AC}\\cdot\\overrightarrow{AP}}{|\\overrightarrow{AP}|^{2}}\\overrightarrow{AP}=\\left(\\frac{2}{3},1,-\\frac{\\sqrt{2}}{3}\\right)\n$$\n<p>由于 $\\mathbf{u}\\cdot\\mathbf{v}=\\frac{4}{3}>0$，所求二面角为两平面夹角的锐角.</p><p>设二面角 $B-PA-C$ 的平面角为 $\\theta$，则它是平面 $PAB$ 与平面 $PAC$ 的锐角，故</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{\\sqrt{2}}{\\sqrt{5}}=\\frac{\\sqrt{10}}{5}\n$$\n<p>所以二面角 $B-PA-C$ 的余弦值为 $\\frac{\\sqrt{10}}{5}$.</p></li></ol>"
+          "solution": "<p>不妨在底面所在平面内建立直角坐标系，取</p><p>$O=(0,0,0)$，$P=(0,0,\\sqrt{2})$，$A=(-1,0,0)$，$B=(1,0,0)$，$C=(0,1,0)$.</p><p>于是 $D=\\left(-\\frac{1}{2},\\frac{1}{2},0\\right)$. 取 $C$ 在另一侧时只是坐标方向改变，结论不变.</p><ol class=\"enumerate\"><li><p>因为 $D$ 是圆心为 $O$ 的圆内弦 $AC$ 的中点，所以 $OD\\perp AC$. 又因为 $PO$ 垂直于底面，故 $PO\\perp AC$. 直线 $PO$，$OD$ 是平面 $POD$ 内相交的两条直线，且都垂直于 $AC$，所以 $AC\\perp$ 平面 $POD$. 由于 $AC$ 在平面 $PAC$ 内，故平面 $POD\\perp$ 平面 $PAC$.</p></li><li><p>平面 $PAB$ 的方程为 $y=0$，可取其一个法向量为 $\\mathbf{n}_{1}=(0,1,0)$. 在平面 $PAC$ 内取</p><p>$\\overrightarrow{AP}=(1,0,\\sqrt{2})$，$\\overrightarrow{AC}=(1,1,0)$，</p><p>从而可取平面 $PAC$ 的法向量为</p>\n$$\n\\mathbf{n}_{2}=\\overrightarrow{AP}\\times\\overrightarrow{AC}=(-\\sqrt{2},\\sqrt{2},1)\n$$\n<p>为确定由半平面 $PAB$、$PAC$ 确定的二面角取锐角，分别将 $\\overrightarrow{AB}$、$\\overrightarrow{AC}$ 投影到垂直于 $PA$ 的平面上，得</p>\n$$\n\\mathbf{u}=\\overrightarrow{AB}-\\frac{\\overrightarrow{AB}\\cdot\\overrightarrow{AP}}{|\\overrightarrow{AP}|^{2}}\\overrightarrow{AP}=\\left(\\frac{4}{3},0,-\\frac{2\\sqrt{2}}{3}\\right)\n$$\n\n$$\n\\mathbf{v}=\\overrightarrow{AC}-\\frac{\\overrightarrow{AC}\\cdot\\overrightarrow{AP}}{|\\overrightarrow{AP}|^{2}}\\overrightarrow{AP}=\\left(\\frac{2}{3},1,-\\frac{\\sqrt{2}}{3}\\right)\n$$\n<p>由于 $\\mathbf{u}\\cdot\\mathbf{v}=\\frac{4}{3}>0$，所求二面角为两平面夹角的锐角.</p><p>设二面角 $B-PA-C$ 的平面角为 $\\theta$，则它是平面 $PAB$ 与平面 $PAC$ 的锐角，故</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{\\sqrt{2}}{\\sqrt{5}}=\\frac{\\sqrt{10}}{5}\n$$\n<p>所以二面角 $B-PA-C$ 的余弦值为 $\\frac{\\sqrt{10}}{5}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，长方体物体 $E$ 在雨中沿面 $P$（面积为 $S$）的垂直方向作匀速移动，速度为 $v$（$v > 0$），雨速沿 $E$ 移动方向的分速度为 $c$（$c \\in \\mathbb{R}$）. $E$ 移动时单位时间内的淋雨量包括两部分：</p><ol class=\"enumerate\"><li><p>$P$ 或 $P$ 的平行面 （只有一个面淋雨） 的淋雨量，假设其值与 $|v - c| \\times S$ 成正比，比例系数为 $\\frac{1}{10}$；</p></li><li><p>其它面的淋雨量之和，其值为 $\\frac{1}{2}$；</p></li></ol><p>记 $y$ 为 $E$ 移动过程中的总淋雨量，当移动距离 $d = 100$，面积 $S = \\frac{3}{2}$ 时.</p><ol class=\"enumerate\"><li><p>写出 $y$ 的表达式；</p></li><li><p>设 $0 < v \\le 10$，$0 < c \\le 5$，试根据 $c$ 的不同取值范围，确定移动速度 $v$，使 $y$ 最少.</p></li></ol><p><span class=\"macro macro-problemresetlayout\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，长方体物体 $E$ 在雨中沿面 $P$（面积为 $S$）的垂直方向作匀速移动，速度为 $v$（$v > 0$），雨速沿 $E$ 移动方向的分速度为 $c$（$c \\in \\mathbb{R}$）. $E$ 移动时单位时间内的淋雨量包括两部分：</p><ol class=\"enumerate\"><li><p>$P$ 或 $P$ 的平行面 （只有一个面淋雨） 的淋雨量，假设其值与 $|v - c| \\times S$ 成正比，比例系数为 $\\frac{1}{10}$；</p></li><li><p>其它面的淋雨量之和，其值为 $\\frac{1}{2}$；</p></li></ol><p>记 $y$ 为 $E$ 移动过程中的总淋雨量，当移动距离 $d = 100$，面积 $S = \\frac{3}{2}$ 时.</p><ol class=\"enumerate\"><li><p>写出 $y$ 的表达式；</p></li><li><p>设 $0 < v \\le 10$，$0 < c \\le 5$，试根据 $c$ 的不同取值范围，确定移动速度 $v$，使 $y$ 最少.</p></li></ol><p><span class=\"macro macro-problemresetlayout\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/hunan_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>单位时间内，面 $P$ 或其平行面的淋雨量为 $\\frac{1}{10}|v-c|S$，其它面的淋雨量之和为 $\\frac{1}{2}$，所以单位时间内的总淋雨量为</p>\n$$\n\\frac{1}{10}|v-c|S+\\frac{1}{2}\n$$\n<p>物体移动距离为 $100$，速度为 $v$，移动时间为 $\\frac{100}{v}$. 代入 $S=\\frac{3}{2}$，得</p>\n$$\ny=\\frac{100}{v}\\left(\\frac{1}{10}|v-c|\\cdot\\frac{3}{2}+\\frac{1}{2}\\right)=\\frac{15|v-c|+50}{v}\n$$\n</li><li><p>当 $0<v<c$ 时，</p>\n$$\ny=\\frac{50+15c}{v}-15\n$$\n<p>该式随 $v$ 增大而减小；当 $c\\le v\\le 10$ 时，</p>\n$$\ny=15+\\frac{50-15c}{v}\n$$\n<p>当 $0<c<\\frac{10}{3}$ 时，$50-15c>0$，后一个式子随 $v$ 增大而减小，故总淋雨量在 $v=10$ 时最少.</p><p>当 $c=\\frac{10}{3}$ 时，后一个式子恒为 $15$，故所有 $v\\in\\left[\\frac{10}{3},10\\right]$ 都使总淋雨量最少.</p><p>当 $\\frac{10}{3}<c\\le 5$ 时，$50-15c<0$，后一个式子随 $v$ 增大而增大，且前一个式子在 $0<v<c$ 时随 $v$ 增大而减小，所以总淋雨量在 $v=c$ 时最少.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>单位时间内，面 $P$ 或其平行面的淋雨量为 $\\frac{1}{10}|v-c|S$，其它面的淋雨量之和为 $\\frac{1}{2}$，所以单位时间内的总淋雨量为</p>\n$$\n\\frac{1}{10}|v-c|S+\\frac{1}{2}\n$$\n<p>物体移动距离为 $100$，速度为 $v$，移动时间为 $\\frac{100}{v}$. 代入 $S=\\frac{3}{2}$，得</p>\n$$\ny=\\frac{100}{v}\\left(\\frac{1}{10}|v-c|\\cdot\\frac{3}{2}+\\frac{1}{2}\\right)=\\frac{15|v-c|+50}{v}\n$$\n</li><li><p>当 $0<v<c$ 时，</p>\n$$\ny=\\frac{50+15c}{v}-15\n$$\n<p>该式随 $v$ 增大而减小；当 $c\\le v\\le 10$ 时，</p>\n$$\ny=15+\\frac{50-15c}{v}\n$$\n<p>当 $0<c<\\frac{10}{3}$ 时，$50-15c>0$，后一个式子随 $v$ 增大而减小，故总淋雨量在 $v=10$ 时最少.</p><p>当 $c=\\frac{10}{3}$ 时，后一个式子恒为 $15$，故所有 $v\\in\\left[\\frac{10}{3},10\\right]$ 都使总淋雨量最少.</p><p>当 $\\frac{10}{3}<c\\le 5$ 时，$50-15c<0$，后一个式子随 $v$ 增大而增大，且前一个式子在 $0<v<c$ 时随 $v$ 增大而减小，所以总淋雨量在 $v=c$ 时最少.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
-          "body": "<p>如图，椭圆 $C_{1}:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的离心率为 $\\frac{\\sqrt{3}}{2}$，$x$ 轴被曲线 $C_{2}$：$y = x^{2}- b$ 截得的线段长等于 $C_{1}$ 的长半轴长.</p><ol class=\"enumerate\"><li><p>求 $C_{1}$，$C_{2}$ 的方程；</p></li><li><p>设 $C_{2}$ 与 $y$ 轴的交点为 $M$，过坐标原点 $O$ 的直线 $l$ 与 $C_{2}$ 相交于点 $A$，B，直线 $MA$，$MB$ 分别与 $C_{1}$ 相交于点 $D$，$E$.</p><p></p><ol class=\"enumerate\"><li><p>证明：$MD \\perp ME$；</p></li><li><p>记 $\\triangle MAB$，$\\triangle MDE$ 的面积分别是 $S_{1}$，$S_{2}$. 问：是否存在直线 $l$，使得 $\\frac{S_{1}}{S_{2}}= \\frac{17}{32}$，请说明理由.</p></li></ol><p></p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，椭圆 $C_{1}:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的离心率为 $\\frac{\\sqrt{3}}{2}$，$x$ 轴被曲线 $C_{2}$：$y = x^{2}- b$ 截得的线段长等于 $C_{1}$ 的长半轴长.</p><ol class=\"enumerate\"><li><p>求 $C_{1}$，$C_{2}$ 的方程；</p></li><li><p>设 $C_{2}$ 与 $y$ 轴的交点为 $M$，过坐标原点 $O$ 的直线 $l$ 与 $C_{2}$ 相交于点 $A$，B，直线 $MA$，$MB$ 分别与 $C_{1}$ 相交于点 $D$，$E$.</p><p></p><ol class=\"enumerate\"><li><p>证明：$MD \\perp ME$；</p></li><li><p>记 $\\triangle MAB$，$\\triangle MDE$ 的面积分别是 $S_{1}$，$S_{2}$. 问：是否存在直线 $l$，使得 $\\frac{S_{1}}{S_{2}}= \\frac{17}{32}$，请说明理由.</p></li></ol><p></p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/hunan_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c_{0}$. 由离心率条件 $\\frac{c_{0}}{a}=\\frac{\\sqrt{3}}{2}$ 和 $c_{0}^{2}=a^{2}-b^{2}$，</p><p>得 $b=\\frac{a}{2}$. 曲线 $C_{2}$ 与 $x$ 轴的交点满足 $x^{2}-b=0$，所以截得线段的两个端点横坐标为 $\\pm\\sqrt{b}$，线段长为 $2\\sqrt{b}$. 由题意 $2\\sqrt{b}=a$，即 $a^{2}=4b$. 联立 $b=\\frac{a}{2}$ 和 $a^{2}=4b$，并由 $a>0$ 得 $a=2$，$b=1$. 因此 $C_{1}:\\frac{x^{2}}{4}+y^{2}=1$，$C_{2}:y=x^{2}-1$.</p></li><li><p>设直线 $l$ 的斜率为 $k$，则 $l:y=kx$. 竖直直线与 $C_{2}$ 至多有一个交点，故能够与 $C_{2}$ 交于两点的直线 $l$ 确有斜率. 设点 $A$，$B$ 的横坐标分别为 $t$，$s$，则</p><p>$t^{2}-kt-1=0$，$t+s=k$，$ts=-1$.</p><p>又 $M=(0,-1)$，故</p><p>$A=(t,t^{2}-1)$，$B=(s,s^{2}-1)$.</p><p></p><ol class=\"enumerate\"><li><p>设 $T=(u,u^{2}-1)$ 是 $C_{2}$ 上一点，直线 $MT$ 上的点可表示为</p>\n$$\nM+\\lambda(T-M)=\\left(\\lambda u,-1+\\lambda u^{2}\\right)\n$$\n<p>将其代入 $C_{1}$ 的方程，得</p>\n$$\n\\frac{\\lambda^{2}u^{2}}{4}+\\left(-1+\\lambda u^{2}\\right)^{2}=1\n$$\n<p>除去对应于 $M$ 的根 $\\lambda=0$，另一个根满足</p>\n$$\n\\lambda\\left(\\lambda\\left(\\frac{u^{2}}{4}+u^{4}\\right)-2u^{2}\\right)=0\n$$\n<p>所以 $\\lambda=\\frac{8}{4u^{2}+1}$. 因此</p><p>$\\overrightarrow{MD}=\\left(\\frac{8t}{4t^{2}+1},\\frac{8t^{2}}{4t^{2}+1}\\right)$，</p><p>$\\overrightarrow{ME}=\\left(\\frac{8s}{4s^{2}+1},\\frac{8s^{2}}{4s^{2}+1}\\right)$.</p><p>于是</p>\n$$\n\\overrightarrow{MD}\\cdot\\overrightarrow{ME}=\\frac{64ts(1+ts)}{(4t^{2}+1)(4s^{2}+1)}=0\n$$\n<p>故 $MD\\perp ME$.</p></li><li><p>由行列式表示三角形面积，</p>\n$$\n2S_{1}=\\left|\\det\\begin{pmatrix}t&t^{2}\\\\s&s^{2}\\end{pmatrix}\\right|=|ts(s-t)|=|s-t|\n$$\n<p>将上面得到的两个向量代入三角形面积的行列式公式，得</p>\n$$\n2S_{2}=\\frac{64|ts||s-t|}{(4t^{2}+1)(4s^{2}+1)}=\\frac{64|s-t|}{(4t^{2}+1)(4s^{2}+1)}\n$$\n<p>所以</p>\n$$\n\\frac{S_{1}}{S_{2}}=\\frac{(4t^{2}+1)(4s^{2}+1)}{64}=\\frac{16t^{2}s^{2}+4(t^{2}+s^{2})+1}{64}=\\frac{25+4k^{2}}{64}\n$$\n<p>其中使用了 $ts=-1$ 及 $t+s=k$. 若要求该比值为 $\\frac{17}{32}$，则</p>\n$$\n\\frac{25+4k^{2}}{64}=\\frac{17}{32} \\Longleftrightarrow  k^{2}=\\frac{9}{4}\n$$\n<p>取 $k=\\frac{3}{2}$ 或 $k=-\\frac{3}{2}$，相应直线均能与 $C_{2}$ 交于两点，故存在这样的直线 $l$.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c_{0}$. 由离心率条件 $\\frac{c_{0}}{a}=\\frac{\\sqrt{3}}{2}$ 和 $c_{0}^{2}=a^{2}-b^{2}$，</p><p>得 $b=\\frac{a}{2}$. 曲线 $C_{2}$ 与 $x$ 轴的交点满足 $x^{2}-b=0$，所以截得线段的两个端点横坐标为 $\\pm\\sqrt{b}$，线段长为 $2\\sqrt{b}$. 由题意 $2\\sqrt{b}=a$，即 $a^{2}=4b$. 联立 $b=\\frac{a}{2}$ 和 $a^{2}=4b$，并由 $a>0$ 得 $a=2$，$b=1$. 因此 $C_{1}:\\frac{x^{2}}{4}+y^{2}=1$，$C_{2}:y=x^{2}-1$.</p></li><li><p>设直线 $l$ 的斜率为 $k$，则 $l:y=kx$. 竖直直线与 $C_{2}$ 至多有一个交点，故能够与 $C_{2}$ 交于两点的直线 $l$ 确有斜率. 设点 $A$，$B$ 的横坐标分别为 $t$，$s$，则</p><p>$t^{2}-kt-1=0$，$t+s=k$，$ts=-1$.</p><p>又 $M=(0,-1)$，故</p><p>$A=(t,t^{2}-1)$，$B=(s,s^{2}-1)$.</p><p></p><ol class=\"enumerate\"><li><p>设 $T=(u,u^{2}-1)$ 是 $C_{2}$ 上一点，直线 $MT$ 上的点可表示为</p>\n$$\nM+\\lambda(T-M)=\\left(\\lambda u,-1+\\lambda u^{2}\\right)\n$$\n<p>将其代入 $C_{1}$ 的方程，得</p>\n$$\n\\frac{\\lambda^{2}u^{2}}{4}+\\left(-1+\\lambda u^{2}\\right)^{2}=1\n$$\n<p>除去对应于 $M$ 的根 $\\lambda=0$，另一个根满足</p>\n$$\n\\lambda\\left(\\lambda\\left(\\frac{u^{2}}{4}+u^{4}\\right)-2u^{2}\\right)=0\n$$\n<p>所以 $\\lambda=\\frac{8}{4u^{2}+1}$. 因此</p><p>$\\overrightarrow{MD}=\\left(\\frac{8t}{4t^{2}+1},\\frac{8t^{2}}{4t^{2}+1}\\right)$，</p><p>$\\overrightarrow{ME}=\\left(\\frac{8s}{4s^{2}+1},\\frac{8s^{2}}{4s^{2}+1}\\right)$.</p><p>于是</p>\n$$\n\\overrightarrow{MD}\\cdot\\overrightarrow{ME}=\\frac{64ts(1+ts)}{(4t^{2}+1)(4s^{2}+1)}=0\n$$\n<p>故 $MD\\perp ME$.</p></li><li><p>由行列式表示三角形面积，</p>\n$$\n2S_{1}=\\left|\\det\\begin{pmatrix}t&t^{2}\\\\s&s^{2}\\end{pmatrix}\\right|=|ts(s-t)|=|s-t|\n$$\n<p>将上面得到的两个向量代入三角形面积的行列式公式，得</p>\n$$\n2S_{2}=\\frac{64|ts||s-t|}{(4t^{2}+1)(4s^{2}+1)}=\\frac{64|s-t|}{(4t^{2}+1)(4s^{2}+1)}\n$$\n<p>所以</p>\n$$\n\\frac{S_{1}}{S_{2}}=\\frac{(4t^{2}+1)(4s^{2}+1)}{64}=\\frac{16t^{2}s^{2}+4(t^{2}+s^{2})+1}{64}=\\frac{25+4k^{2}}{64}\n$$\n<p>其中使用了 $ts=-1$ 及 $t+s=k$. 若要求该比值为 $\\frac{17}{32}$，则</p>\n$$\n\\frac{25+4k^{2}}{64}=\\frac{17}{32} \\Longleftrightarrow  k^{2}=\\frac{9}{4}\n$$\n<p>取 $k=\\frac{3}{2}$ 或 $k=-\\frac{3}{2}$，相应直线均能与 $C_{2}$ 交于两点，故存在这样的直线 $l$.</p></li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知函数 $f(x) = x^{3}$，$g(x) = x + \\sqrt{x}$.</p><ol class=\"enumerate\"><li><p>求函数 $h(x) = f(x) - g(x)$ 的零点个数，并说明理由；</p></li><li><p>设数列 $\\{a_{n}\\}$（$n \\in \\mathbf{N}^{*}$）满足 $a_{1}= a$（$a > 0$），$f(a_{n+1}) = g(a_{n})$，证明：存在常数 $M$，使得对于任意的 $n \\in \\mathbf{N}^{*}$，都有 $a_{n}\\le M$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数 $g$ 的定义域为 $x\\geqslant0$. 令 $u=\\sqrt{x}$，则 $u\\geqslant0$，且</p>\n$$\nh(x)=x^{3}-x-\\sqrt{x}=u^{6}-u^{2}-u=u\\left(u^{5}-u-1\\right)\n$$\n<p>记 $\\varphi(u)=u^{5}-u-1$. 当 $u\\geqslant0$ 时，</p>\n$$\n\\varphi'(u)=5u^{4}-1\n$$\n<p>所以 $\\varphi$ 在 $\\left(0,5^{-\\frac{1}{4}}\\right)$ 上递减，在 $\\left(5^{-\\frac{1}{4}},+\\infty\\right)$ 上递增. 又 $\\varphi(0)=-1$，且 $\\varphi(u)$ 当 $u$ 趋于正无穷时趋于正无穷，因此 $\\varphi(u)=0$ 有且只有一个正根，记为 $u_{0}$. 所以 $h(x)=0$ 的根为 $x=0$ 和 $x=u_{0}^{2}$，共有两个.</p></li><li><p>由 $a_{1}=a>0$ 及递推条件，所有 $a_{n}>0$，且</p>\n$$\na_{n+1}=\\left(a_{n}+\\sqrt{a_{n}}\\right)^{\\frac{1}{3}}\n$$\n<p>令 $\\alpha=u_{0}^{2}$，则 $\\alpha^{3}=\\alpha+\\sqrt{\\alpha}$. 记 $T(x)=\\left(x+\\sqrt{x}\\right)^{\\frac{1}{3}}$（$x>0$）.</p><p>函数 $T$ 在正半轴上单调递增，且 $T(\\alpha)=\\alpha$. 由第一问中 $h(x)$ 的符号可知，当 $x\\ge\\alpha$ 时 $x^{3}\\ge x+\\sqrt{x}$，从而 $T(x)\\le x$. 因此取</p>\n$$\nM=\\max\\{a,\\alpha\\}\n$$\n<p>则 $a_{1}\\le M$，并且由 $T$ 的单调性及 $M\\ge\\alpha$，有 $a_{n+1}=T(a_{n})\\le T(M)\\le M$. 归纳可得，对任意 $n\\in\\mathbf{N}^{*}$，都有 $a_{n}\\le M$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数 $g$ 的定义域为 $x\\geqslant0$. 令 $u=\\sqrt{x}$，则 $u\\geqslant0$，且</p>\n$$\nh(x)=x^{3}-x-\\sqrt{x}=u^{6}-u^{2}-u=u\\left(u^{5}-u-1\\right)\n$$\n<p>记 $\\varphi(u)=u^{5}-u-1$. 当 $u\\geqslant0$ 时，</p>\n$$\n\\varphi'(u)=5u^{4}-1\n$$\n<p>所以 $\\varphi$ 在 $\\left(0,5^{-\\frac{1}{4}}\\right)$ 上递减，在 $\\left(5^{-\\frac{1}{4}},+\\infty\\right)$ 上递增. 又 $\\varphi(0)=-1$，且 $\\varphi(u)$ 当 $u$ 趋于正无穷时趋于正无穷，因此 $\\varphi(u)=0$ 有且只有一个正根，记为 $u_{0}$. 所以 $h(x)=0$ 的根为 $x=0$ 和 $x=u_{0}^{2}$，共有两个.</p></li><li><p>由 $a_{1}=a>0$ 及递推条件，所有 $a_{n}>0$，且</p>\n$$\na_{n+1}=\\left(a_{n}+\\sqrt{a_{n}}\\right)^{\\frac{1}{3}}\n$$\n<p>令 $\\alpha=u_{0}^{2}$，则 $\\alpha^{3}=\\alpha+\\sqrt{\\alpha}$. 记 $T(x)=\\left(x+\\sqrt{x}\\right)^{\\frac{1}{3}}$（$x>0$）.</p><p>函数 $T$ 在正半轴上单调递增，且 $T(\\alpha)=\\alpha$. 由第一问中 $h(x)$ 的符号可知，当 $x\\ge\\alpha$ 时 $x^{3}\\ge x+\\sqrt{x}$，从而 $T(x)\\le x$. 因此取</p>\n$$\nM=\\max\\{a,\\alpha\\}\n$$\n<p>则 $a_{1}\\le M$，并且由 $T$ 的单调性及 $M\\ge\\alpha$，有 $a_{n+1}=T(a_{n})\\le T(M)\\le M$. 归纳可得，对任意 $n\\in\\mathbf{N}^{*}$，都有 $a_{n}\\le M$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

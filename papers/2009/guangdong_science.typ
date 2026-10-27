@@ -13,7 +13,9 @@
 #problem(1)[
 已知全集 #mi(`U = \mathbb{R}`)，集合 #mi(`M = \{x \mid -2 \le x - 1 \le 2\}`) 和 #mi(`N = \{x \mid x = 2k - 1, k = 1, 2, \cdots\}`) 的关系的韦恩（Venn）图如图所示，则阴影部分所示的集合的元素共有（ ）
 
-[max width=0.34\linewidth]img/2009/guangdong_science/q1_fig1.png
+
+#align(center)[#image("/papers/2009/img/guangdong_science/q1_fig1.png", width: 28%)]
+
   #choices([#mi(`3\text{ \text{个}}`)], [#mi(`2\text{ \text{个}}`)], [#mi(`1\text{ \text{个}}`)], [#mi(`\text{\text{无穷个}}`)], cols: 2)
 ]
 
@@ -76,7 +78,7 @@
 
 
 其中，为真命题的是（ ）
-  #choices([#mi(`1`)和#mi(`2`)], [#mi(`2`)和#mi(`3`)], [#mi(`3`)和#mi(`4`)], [#mi(`2`)和#mi(`4`)], cols: 2)
+  #choices([#mi(`1`) 和#mi(`2`)], [#mi(`2`) 和#mi(`3`)], [#mi(`3`) 和#mi(`4`)], [#mi(`2`) 和#mi(`4`)], cols: 2)
 ]
 
 #answer([D])
@@ -118,7 +120,9 @@
 #problem(8)[
 已知甲，乙两车由同一起点同时出发，并沿同一路线（假定为直线）行驶. 甲车，乙车的速度曲线分别为 #mi(`v_{\text{\text{甲}}}`) 和 #mi(`v_{\text{\text{乙}}}`)（如图所示）. 那么对于图中给定的 #mi(`t_{0}`) 和 #mi(`t_{1}`)，下列判断中一定正确的是（ ）
 
-[max width=0.43\linewidth]img/2009/guangdong_science/q8_fig1.png
+
+#align(center)[#image("/papers/2009/img/guangdong_science/q8_fig1.png", width: 28%)]
+
   #choices([在 #mi(`t_{1}`) 时刻，甲车在乙车前面], [#mi(`t_{1}`) 时刻后，甲车在乙车后面], [在 #mi(`t_{0}`) 时刻，两车的位置相同], [#mi(`t_{0}`) 时刻后，乙车在甲车前面], cols: 2)
 ]
 
@@ -239,7 +243,9 @@ a+c+4\times\dfrac1{12}=1
 #problem(15)[
 如图，点 #mi(`A`)，#mi(`B`)，#mi(`C`) 是圆 #mi(`O`) 上的点，且 #mi(`AB = 4`)，#mi(`\angle ACB = 45^{\circ}`)，则圆 #mi(`O`) 的面积等于\underline{\hspace{2.5em}}.
 
-[max width=0.28\linewidth]img/2009/guangdong_science/q15_fig1.png
+
+#align(center)[#image("/papers/2009/img/guangdong_science/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`8\pi`)])
@@ -292,7 +298,9 @@ a+c+4\times\dfrac1{12}=1
 
 \rightskip=0pt
 
-[float=inline,max width=0.45\linewidth]img/2009/guangdong_science/q17_fig1.png
+
+#align(center)[#image("/papers/2009/img/guangdong_science/q17_fig1.png", width: 28%)]
+
 
 \endgroup
 ]
@@ -311,7 +319,9 @@ a+c+4\times\dfrac1{12}=1
 
 
 
-[max width=0.46\linewidth]img/2009/guangdong_science/q18_fig1.png
+
+#align(center)[#image("/papers/2009/img/guangdong_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[

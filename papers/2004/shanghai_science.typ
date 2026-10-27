@@ -59,7 +59,9 @@
 #problem(5)[
 设奇函数 #mi(`f(x)`) 的定义域为 #mi(`[-5, 5]`). 若当 #mi(`x \in [0, 5]`) 时，#mi(`f(x)`) 的图象如右图，则不等式 #mi(`f(x) < 0`) 的解是\underline{\hspace{2.5em}}.
 
-[max width=0.34\linewidth]img/2004/shanghai_science/q5_fig1.png
+
+#align(center)[#image("/papers/2004/img/shanghai_science/q5_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`(-2,0) \cup (2,5]`)])
@@ -273,7 +275,9 @@ z_{1}-\overline{z_{2}}=(2+3\mathrm{i})-(a-2+\mathrm{i})=4-a+2\mathrm{i}
 #problem(18)[
 某单位用木料制作如图所示的框架，框架的下部是边长分别为 #mi(`x`)，#mi(`y`)（单位：#mi(`\mathrm{m}`)）的矩形. 上部是等腰直角三角形. 要求框架围成的总面积 #mi(`8 \mathrm{~m}^{2}`). 问 #mi(`x`)，#mi(`y`) 分别为多少（精确到 #mi(`0.001 \mathrm{~m}`)）时用料最省？
 
-[max width=0.35\linewidth]img/2004/shanghai_science/q18_fig1.png
+
+#align(center)[#image("/papers/2004/img/shanghai_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -339,7 +343,9 @@ L\geqslant2\sqrt{2S\left(\frac{3}{2}+\sqrt{2}\right)}
 
 
 
-[max width=0.42\linewidth]img/2004/shanghai_science/q21_fig1.png
+
+#align(center)[#image("/papers/2004/img/shanghai_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

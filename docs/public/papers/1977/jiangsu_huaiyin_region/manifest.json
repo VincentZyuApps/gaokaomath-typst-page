@@ -1,8 +1,65 @@
 {
-  "title": "1977年普通高等学校招生全国统一考试",
-  "subtitle": "1977年江苏淮阴地区初试卷",
   "year": "1977",
   "slug": "jiangsu_huaiyin_region",
+  "title": "1977年江苏淮阴地区初试卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "解答题",
@@ -10,65 +67,83 @@
         {
           "num": 1,
           "body": "<ol class=\"enumerate\"><li><p>计算：$4(-1)^{5}\\times 0.25+8(-0.5^{3})-0.4\\div(-0.2^{2})$.</p></li><li><p>计算：$\\left[3^{\\frac{1}{2}}+\\left(\\frac{1}{2^{-\\frac{2}{3}}}\\right)^{\\frac{2}{3}}\\right]\\div\\left[3^{0.5}-\\left(2\\sqrt{2}\\right)^{\\frac{2}{8}}\\right]$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>先按幂的运算顺序计算各项，得 $4(-1)^{5}\\times 0.25=-1$，$8(-0.5^{3})=8\\times(-0.125)=-1$，$-0.4\\div(-0.2^{2})=(-0.4)\\div(-0.04)=10$. 因此原式的值为 $-1-1+10=8$.</p></li><li><p>因为 $3^{\\frac{1}{2}}=3^{0.5}=\\sqrt{3}$，且</p>\n$$\n\\left(\\frac{1}{2^{-\\frac{2}{3}}}\\right)^{\\frac{2}{3}}=\\left(2^{\\frac{2}{3}}\\right)^{\\frac{2}{3}}=2^{\\frac{4}{9}}\n$$\n<p>以及</p>\n$$\n\\left(2\\sqrt{2}\\right)^{\\frac{2}{8}}=\\left(2^{\\frac{3}{2}}\\right)^{\\frac{1}{4}}=2^{\\frac{3}{8}}\n$$\n<p>又因为 $3^{4}=81>8=2^{3}$，所以 $\\sqrt{3}>2^{\\frac{3}{8}}$，原式的分母非零. 因此原式的值为</p>\n$$\n\\frac{\\sqrt{3}+2^{\\frac{4}{9}}}{\\sqrt{3}-2^{\\frac{3}{8}}}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>先按幂的运算顺序计算各项，得 $4(-1)^{5}\\times 0.25=-1$，$8(-0.5^{3})=8\\times(-0.125)=-1$，$-0.4\\div(-0.2^{2})=(-0.4)\\div(-0.04)=10$. 因此原式的值为 $-1-1+10=8$.</p></li><li><p>因为 $3^{\\frac{1}{2}}=3^{0.5}=\\sqrt{3}$，且</p>\n$$\n\\left(\\frac{1}{2^{-\\frac{2}{3}}}\\right)^{\\frac{2}{3}}=\\left(2^{\\frac{2}{3}}\\right)^{\\frac{2}{3}}=2^{\\frac{4}{9}}\n$$\n<p>以及</p>\n$$\n\\left(2\\sqrt{2}\\right)^{\\frac{2}{8}}=\\left(2^{\\frac{3}{2}}\\right)^{\\frac{1}{4}}=2^{\\frac{3}{8}}\n$$\n<p>又因为 $3^{4}=81>8=2^{3}$，所以 $\\sqrt{3}>2^{\\frac{3}{8}}$，原式的分母非零. 因此原式的值为</p>\n$$\n\\frac{\\sqrt{3}+2^{\\frac{4}{9}}}{\\sqrt{3}-2^{\\frac{3}{8}}}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "化简：$\\dfrac{\\left(a^2+1\\right)^2-4a^2}{-2a^4+4a^2-2}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>原式的分母不能为零，因此 $a^{2}\\ne1$，即 $a\\ne\\pm1$. 分子、分母分别因式分解，得</p>\n$$\n\\frac{\\left(a^{2}+1\\right)^{2}-4a^{2}}{-2a^{4}+4a^{2}-2}=\\frac{\\left(a^{2}-1\\right)^{2}}{-2\\left(a^{2}-1\\right)^{2}}=-1\n$$\n<p>所以原式的值为 $-1$，其中 $a\\ne\\pm1$.</p>"
+          "solution": "<p>原式的分母不能为零，因此 $a^{2}\\ne1$，即 $a\\ne\\pm1$. 分子、分母分别因式分解，得</p>\n$$\n\\frac{\\left(a^{2}+1\\right)^{2}-4a^{2}}{-2a^{4}+4a^{2}-2}=\\frac{\\left(a^{2}-1\\right)^{2}}{-2\\left(a^{2}-1\\right)^{2}}=-1\n$$\n<p>所以原式的值为 $-1$，其中 $a\\ne\\pm1$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "求 $\\cos\\left(-\\dfrac{16\\pi}{3}\\right)\\cdot\\sin\\dfrac{16\\pi}{3}$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由三角函数的周期性和奇偶性，$\\cos\\left(-\\frac{16\\pi}{3}\\right)=\\cos\\frac{16\\pi}{3}=\\cos\\frac{4\\pi}{3}=-\\frac{1}{2}$，$\\sin\\frac{16\\pi}{3}=\\sin\\frac{4\\pi}{3}=-\\frac{\\sqrt{3}}{2}$. 因此</p>\n$$\n\\cos\\left(-\\frac{16\\pi}{3}\\right)\\cdot\\sin\\frac{16\\pi}{3}=\\left(-\\frac{1}{2}\\right)\\left(-\\frac{\\sqrt{3}}{2}\\right)=\\frac{\\sqrt{3}}{4}\n$$"
+          "solution": "<p>由三角函数的周期性和奇偶性，$\\cos\\left(-\\frac{16\\pi}{3}\\right)=\\cos\\frac{16\\pi}{3}=\\cos\\frac{4\\pi}{3}=-\\frac{1}{2}$，$\\sin\\frac{16\\pi}{3}=\\sin\\frac{4\\pi}{3}=-\\frac{\\sqrt{3}}{2}$. 因此</p>\n$$\n\\cos\\left(-\\frac{16\\pi}{3}\\right)\\cdot\\sin\\frac{16\\pi}{3}=\\left(-\\frac{1}{2}\\right)\\left(-\\frac{\\sqrt{3}}{2}\\right)=\\frac{\\sqrt{3}}{4}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "<ol class=\"enumerate\"><li><p>把 $P$ 点的直角坐标 $\\left(\\sqrt{3},-1\\right)$ 化成极坐标.</p></li><li><p>把极坐标方程 $\\rho=2\\sin\\theta+3\\cos\\theta$ 化成直角坐标方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设点 $P$ 的极坐标为 $\\left(\\rho,\\theta\\right)$，则</p>\n$$\n\\rho=\\sqrt{\\left(\\sqrt{3}\\right)^{2}+(-1)^{2}}=2\n$$\n<p>又因为 $\\cos\\theta=\\frac{\\sqrt{3}}{2}$，$\\sin\\theta=-\\frac{1}{2}$，所以 $\\theta=-\\frac{\\pi}{6}+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 因而点 $P$ 的极坐标可写为 $\\left(2,-\\frac{\\pi}{6}\\right)$，取辐角在 $[0,2\\pi)$ 内时也可写为 $\\left(2,\\frac{11\\pi}{6}\\right)$.</p></li><li><p>两边同乘以 $\\rho$，并利用 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$，得</p>\n$$\n\\rho^{2}=2\\rho\\sin\\theta+3\\rho\\cos\\theta   \\Longleftrightarrow   x^{2}+y^{2}=2y+3x\n$$\n<p>所以对应的直角坐标方程为</p>\n$$\nx^{2}+y^{2}-3x-2y=0\n$$\n<p>或写成圆的标准方程</p>\n$$\n\\left(x-\\frac{3}{2}\\right)^{2}+\\left(y-1\\right)^{2}=\\frac{13}{4}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设点 $P$ 的极坐标为 $\\left(\\rho,\\theta\\right)$，则</p>\n$$\n\\rho=\\sqrt{\\left(\\sqrt{3}\\right)^{2}+(-1)^{2}}=2\n$$\n<p>又因为 $\\cos\\theta=\\frac{\\sqrt{3}}{2}$，$\\sin\\theta=-\\frac{1}{2}$，所以 $\\theta=-\\frac{\\pi}{6}+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 因而点 $P$ 的极坐标可写为 $\\left(2,-\\frac{\\pi}{6}\\right)$，取辐角在 $[0,2\\pi)$ 内时也可写为 $\\left(2,\\frac{11\\pi}{6}\\right)$.</p></li><li><p>两边同乘以 $\\rho$，并利用 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$，得</p>\n$$\n\\rho^{2}=2\\rho\\sin\\theta+3\\rho\\cos\\theta   \\Longleftrightarrow   x^{2}+y^{2}=2y+3x\n$$\n<p>所以对应的直角坐标方程为</p>\n$$\nx^{2}+y^{2}-3x-2y=0\n$$\n<p>或写成圆的标准方程</p>\n$$\n\\left(x-\\frac{3}{2}\\right)^{2}+\\left(y-1\\right)^{2}=\\frac{13}{4}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "以直角三角形 $ABC$ 的直角边 $BC$ 为直径作圆，交斜边 $AB$ 于 $D$，$E$ 是直角边 $AC$ 的中点，连接 $DE$，则 $DE$ 是此圆的切线.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设直角顶点为 $C$，取直角坐标系使 $C=(0,0)$、$A=(0,a)$、$B=(b,0)$，其中 $a>0$、$b>0$. 则 $E=\\left(0,\\frac{a}{2}\\right)$，圆心为 $O=\\left(\\frac{b}{2},0\\right)$.</p><p>直线 $AB$ 的方程为 $y=a-\\frac{a}{b}x$，以 $BC$ 为直径的圆的方程为</p>\n$$\n\\left(x-\\frac{b}{2}\\right)^{2}+y^{2}=\\left(\\frac{b}{2}\\right)^{2}\n$$\n<p>即 $x^{2}+y^{2}=bx$. 将直线 $AB$ 的方程代入圆方程，得到</p>\n$$\nx^{2}+a^{2}\\left(1-\\frac{x}{b}\\right)^{2}=bx   \\Longleftrightarrow   (x-b)\\bigl((a^{2}+b^{2})x-a^{2}b\\bigr)=0\n$$\n<p>其中根 $x=b$ 对应交点 $B$，所以另一交点 $D=(x_{D},y_{D})$ 满足</p>\n$$\nx_{D}=\\frac{a^{2}b}{a^{2}+b^{2}}\n$$\n<p>以及</p>\n$$\ny_{D}=a-\\frac{a}{b}x_{D}=\\frac{ab^{2}}{a^{2}+b^{2}}\n$$\n<p>于是 $bx_{D}=ay_{D}$. 计算半径 $OD$ 与直线 $DE$ 的方向向量的内积，得</p>\n$$\n\\overrightarrow{OD}\\cdot\\overrightarrow{ED}=\\left(x_{D}-\\frac{b}{2},y_{D}\\right)\\cdot\\left(x_{D},y_{D}-\\frac{a}{2}\\right)  =x_{D}^{2}+y_{D}^{2}-\\frac{1}{2}\\left(bx_{D}+ay_{D}\\right)\n$$\n<p>又因为 $D$ 在圆上，$x_{D}^{2}+y_{D}^{2}=bx_{D}$，且 $bx_{D}=ay_{D}$，所以</p>\n$$\n\\overrightarrow{OD}\\cdot\\overrightarrow{ED}=bx_{D}-\\frac{1}{2}\\left(bx_{D}+ay_{D}\\right)=0\n$$\n<p>即 $OD\\perp DE$. 半径 $OD$ 与过圆上点 $D$ 的直线 $DE$ 垂直，因此 $DE$ 是此圆在 $D$ 点的切线.</p>"
+          "solution": "<p>设直角顶点为 $C$，取直角坐标系使 $C=(0,0)$、$A=(0,a)$、$B=(b,0)$，其中 $a>0$、$b>0$. 则 $E=\\left(0,\\frac{a}{2}\\right)$，圆心为 $O=\\left(\\frac{b}{2},0\\right)$.</p><p>直线 $AB$ 的方程为 $y=a-\\frac{a}{b}x$，以 $BC$ 为直径的圆的方程为</p>\n$$\n\\left(x-\\frac{b}{2}\\right)^{2}+y^{2}=\\left(\\frac{b}{2}\\right)^{2}\n$$\n<p>即 $x^{2}+y^{2}=bx$. 将直线 $AB$ 的方程代入圆方程，得到</p>\n$$\nx^{2}+a^{2}\\left(1-\\frac{x}{b}\\right)^{2}=bx   \\Longleftrightarrow   (x-b)\\bigl((a^{2}+b^{2})x-a^{2}b\\bigr)=0\n$$\n<p>其中根 $x=b$ 对应交点 $B$，所以另一交点 $D=(x_{D},y_{D})$ 满足</p>\n$$\nx_{D}=\\frac{a^{2}b}{a^{2}+b^{2}}\n$$\n<p>以及</p>\n$$\ny_{D}=a-\\frac{a}{b}x_{D}=\\frac{ab^{2}}{a^{2}+b^{2}}\n$$\n<p>于是 $bx_{D}=ay_{D}$. 计算半径 $OD$ 与直线 $DE$ 的方向向量的内积，得</p>\n$$\n\\overrightarrow{OD}\\cdot\\overrightarrow{ED}=\\left(x_{D}-\\frac{b}{2},y_{D}\\right)\\cdot\\left(x_{D},y_{D}-\\frac{a}{2}\\right)  =x_{D}^{2}+y_{D}^{2}-\\frac{1}{2}\\left(bx_{D}+ay_{D}\\right)\n$$\n<p>又因为 $D$ 在圆上，$x_{D}^{2}+y_{D}^{2}=bx_{D}$，且 $bx_{D}=ay_{D}$，所以</p>\n$$\n\\overrightarrow{OD}\\cdot\\overrightarrow{ED}=bx_{D}-\\frac{1}{2}\\left(bx_{D}+ay_{D}\\right)=0\n$$\n<p>即 $OD\\perp DE$. 半径 $OD$ 与过圆上点 $D$ 的直线 $DE$ 垂直，因此 $DE$ 是此圆在 $D$ 点的切线.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "用长为 $8 \\mathrm{~m}$ 的木料做一个“目”字形窗框，问窗框的宽和高各多少才能使通过的光线最多？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设窗框的宽为 $w\\mathrm{~m}$，高为 $h\\mathrm{~m}$，其中 $w>0$、$h>0$. “目”字形窗框的外框有两条宽边和两条高边，中间横档的长度也是 $w$，所以木料总长满足</p>\n$$\n3w+2h=8\n$$\n<p>由 $w>0$、$h>0$ 还得 $0<w<\\frac{8}{3}$. 窗户的透光面积为外框内的矩形面积 $S=wh$. 由约束条件得 $h=\\frac{8-3w}{2}$，于是</p>\n$$\nS=w\\cdot\\frac{8-3w}{2}=-\\frac{3}{2}\\left(w-\\frac{4}{3}\\right)^{2}+\\frac{8}{3}\n$$\n<p>因此当且仅当 $w=\\frac{4}{3}$ 时，透光面积取得最大值. 此时</p>\n$$\nh=\\frac{8-3\\times\\frac{4}{3}}{2}=2\n$$\n<p>所以窗框的宽为 $\\frac{4}{3}\\mathrm{~m}$，高为 $2\\mathrm{~m}$，最大透光面积为 $\\frac{8}{3}\\mathrm{~m}^{2}$.</p>"
+          "solution": "<p>设窗框的宽为 $w\\mathrm{~m}$，高为 $h\\mathrm{~m}$，其中 $w>0$、$h>0$. “目”字形窗框的外框有两条宽边和两条高边，中间横档的长度也是 $w$，所以木料总长满足</p>\n$$\n3w+2h=8\n$$\n<p>由 $w>0$、$h>0$ 还得 $0<w<\\frac{8}{3}$. 窗户的透光面积为外框内的矩形面积 $S=wh$. 由约束条件得 $h=\\frac{8-3w}{2}$，于是</p>\n$$\nS=w\\cdot\\frac{8-3w}{2}=-\\frac{3}{2}\\left(w-\\frac{4}{3}\\right)^{2}+\\frac{8}{3}\n$$\n<p>因此当且仅当 $w=\\frac{4}{3}$ 时，透光面积取得最大值. 此时</p>\n$$\nh=\\frac{8-3\\times\\frac{4}{3}}{2}=2\n$$\n<p>所以窗框的宽为 $\\frac{4}{3}\\mathrm{~m}$，高为 $2\\mathrm{~m}$，最大透光面积为 $\\frac{8}{3}\\mathrm{~m}^{2}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "<ol class=\"enumerate\"><li><p>计算：$\\sqrt[3]{10^{3-\\frac{1}{2}\\lg 4}}$.</p></li><li><p>计算：$\\log_{2-\\sqrt{3}}\\left(2+\\sqrt{3}\\right)$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\lg 4=\\lg 2^{2}=2\\lg 2$，所以</p>\n$$\n10^{3-\\frac{1}{2}\\lg4}=10^{3-\\lg2}=\\frac{10^{3}}{10^{\\lg2}}=\\frac{1000}{2}=500\n$$\n<p>因此</p>\n$$\n\\sqrt[3]{10^{3-\\frac{1}{2}\\lg4}}=\\sqrt[3]{500}=\\sqrt[3]{125\\times4}=5\\sqrt[3]{4}\n$$\n</li><li><p>因为 $\\left(2-\\sqrt{3}\\right)\\left(2+\\sqrt{3}\\right)=1$，所以</p>\n$$\n2+\\sqrt{3}=\\left(2-\\sqrt{3}\\right)^{-1}\n$$\n<p>又因为 $2-\\sqrt{3}>0$ 且 $2-\\sqrt{3}\\ne1$，故</p>\n$$\n\\log_{2-\\sqrt{3}}\\left(2+\\sqrt{3}\\right)=-1\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\lg 4=\\lg 2^{2}=2\\lg 2$，所以</p>\n$$\n10^{3-\\frac{1}{2}\\lg4}=10^{3-\\lg2}=\\frac{10^{3}}{10^{\\lg2}}=\\frac{1000}{2}=500\n$$\n<p>因此</p>\n$$\n\\sqrt[3]{10^{3-\\frac{1}{2}\\lg4}}=\\sqrt[3]{500}=\\sqrt[3]{125\\times4}=5\\sqrt[3]{4}\n$$\n</li><li><p>因为 $\\left(2-\\sqrt{3}\\right)\\left(2+\\sqrt{3}\\right)=1$，所以</p>\n$$\n2+\\sqrt{3}=\\left(2-\\sqrt{3}\\right)^{-1}\n$$\n<p>又因为 $2-\\sqrt{3}>0$ 且 $2-\\sqrt{3}\\ne1$，故</p>\n$$\n\\log_{2-\\sqrt{3}}\\left(2+\\sqrt{3}\\right)=-1\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "有两点 $A\\left(-2,2\\right)$ 和 $B\\left(2,-1\\right)$，试在 $y$ 轴上找出点 $P$，使 $\\angle APB=90^{\\circ}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设点 $P$ 在 $y$ 轴上，记为 $P=(0,t)$. 则</p>\n$$\n\\overrightarrow{PA}=(-2,2-t)\n$$\n<p>以及</p>\n$$\n\\overrightarrow{PB}=(2,-1-t)\n$$\n<p>由 $\\angle APB=90^{\\circ}$，两向量垂直，故</p>\n$$\n\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(-2)\\times2+(2-t)(-1-t)=0\n$$\n<p>化简得</p>\n$$\n-4+t^{2}-t-2=0   \\Longleftrightarrow   t^{2}-t-6=0   \\Longleftrightarrow   (t-3)(t+2)=0\n$$\n<p>所以 $t=3$ 或 $t=-2$，所求点为 $P_{1}=(0,3)$ 或 $P_{2}=(0,-2)$.</p>"
+          "solution": "<p>设点 $P$ 在 $y$ 轴上，记为 $P=(0,t)$. 则</p>\n$$\n\\overrightarrow{PA}=(-2,2-t)\n$$\n<p>以及</p>\n$$\n\\overrightarrow{PB}=(2,-1-t)\n$$\n<p>由 $\\angle APB=90^{\\circ}$，两向量垂直，故</p>\n$$\n\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(-2)\\times2+(2-t)(-1-t)=0\n$$\n<p>化简得</p>\n$$\n-4+t^{2}-t-2=0   \\Longleftrightarrow   t^{2}-t-6=0   \\Longleftrightarrow   (t-3)(t+2)=0\n$$\n<p>所以 $t=3$ 或 $t=-2$，所求点为 $P_{1}=(0,3)$ 或 $P_{2}=(0,-2)$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "设在椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$ 上任意一点 $P_{1}\\left(x_{1},y_{1}\\right)$ 的切线与椭圆长轴的两端点 $A'$ 和 $A$ 的切线相交于 $Q'$ 和 $Q$，求证：$A'Q'\\cdot AQ=b^{2}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设椭圆长轴两端点为 $A'=(-a,0)$、$A=(a,0)$. 题设中的交点 $Q'$、$Q$ 存在时，$P_{1}$ 不是长轴端点，故 $y_{1}\\ne0$.</p><p>点 $P_{1}$ 处的切线方程为</p>\n$$\n\\frac{xx_{1}}{a^{2}}+\\frac{yy_{1}}{b^{2}}=1\n$$\n<p>在 $A'=(-a,0)$、$A=(a,0)$ 处，椭圆的切线分别为 $x=-a$、$x=a$. 设</p><p>$Q'=\\left(-a,y_{Q'}\\right)$，$Q=\\left(a,y_{Q}\\right)$.</p><p>将 $x=-a$ 和 $x=a$ 分别代入 $P_{1}$ 处的切线方程，得到</p>\n$$\ny_{Q'}=\\frac{b^{2}(a+x_{1})}{ay_{1}}\n$$\n<p>以及</p>\n$$\ny_{Q}=\\frac{b^{2}(a-x_{1})}{ay_{1}}\n$$\n<p>因此</p>\n$$\nA'Q'=|y_{Q'}|=\\frac{b^{2}|a+x_{1}|}{a|y_{1}|}\n$$\n<p>以及</p>\n$$\nAQ=|y_{Q}|=\\frac{b^{2}|a-x_{1}|}{a|y_{1}|}\n$$\n<p>由于 $P_{1}$ 不是长轴端点，$|x_{1}|<a$，结合椭圆方程可得</p>\n$$\ny_{1}^{2}=b^{2}\\left(1-\\frac{x_{1}^{2}}{a^{2}}\\right)=\\frac{b^{2}(a^{2}-x_{1}^{2})}{a^{2}}\n$$\n<p>于是</p>\n$$\nA'Q'\\cdot AQ  =\\frac{b^{4}(a^{2}-x_{1}^{2})}{a^{2}y_{1}^{2}}=\\frac{b^{4}(a^{2}-x_{1}^{2})}{b^{2}(a^{2}-x_{1}^{2})}=b^{2}\n$$\n<p>所以 $A'Q'\\cdot AQ=b^{2}$.</p>"
+          "solution": "<p>设椭圆长轴两端点为 $A'=(-a,0)$、$A=(a,0)$. 题设中的交点 $Q'$、$Q$ 存在时，$P_{1}$ 不是长轴端点，故 $y_{1}\\ne0$.</p><p>点 $P_{1}$ 处的切线方程为</p>\n$$\n\\frac{xx_{1}}{a^{2}}+\\frac{yy_{1}}{b^{2}}=1\n$$\n<p>在 $A'=(-a,0)$、$A=(a,0)$ 处，椭圆的切线分别为 $x=-a$、$x=a$. 设</p><p>$Q'=\\left(-a,y_{Q'}\\right)$，$Q=\\left(a,y_{Q}\\right)$.</p><p>将 $x=-a$ 和 $x=a$ 分别代入 $P_{1}$ 处的切线方程，得到</p>\n$$\ny_{Q'}=\\frac{b^{2}(a+x_{1})}{ay_{1}}\n$$\n<p>以及</p>\n$$\ny_{Q}=\\frac{b^{2}(a-x_{1})}{ay_{1}}\n$$\n<p>因此</p>\n$$\nA'Q'=|y_{Q'}|=\\frac{b^{2}|a+x_{1}|}{a|y_{1}|}\n$$\n<p>以及</p>\n$$\nAQ=|y_{Q}|=\\frac{b^{2}|a-x_{1}|}{a|y_{1}|}\n$$\n<p>由于 $P_{1}$ 不是长轴端点，$|x_{1}|<a$，结合椭圆方程可得</p>\n$$\ny_{1}^{2}=b^{2}\\left(1-\\frac{x_{1}^{2}}{a^{2}}\\right)=\\frac{b^{2}(a^{2}-x_{1}^{2})}{a^{2}}\n$$\n<p>于是</p>\n$$\nA'Q'\\cdot AQ  =\\frac{b^{4}(a^{2}-x_{1}^{2})}{a^{2}y_{1}^{2}}=\\frac{b^{4}(a^{2}-x_{1}^{2})}{b^{2}(a^{2}-x_{1}^{2})}=b^{2}\n$$\n<p>所以 $A'Q'\\cdot AQ=b^{2}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

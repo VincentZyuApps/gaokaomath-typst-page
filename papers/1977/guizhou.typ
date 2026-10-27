@@ -97,7 +97,9 @@ m^{2}-2m+1=0
 #problem(5)[
 以直角三角形 #mi(`ABC`) 的一直角边 #mi(`AB`) 为直径作圆，此圆与斜边 #mi(`AC`) 交于 #mi(`D`)，过 #mi(`D`) 引圆的切线交 #mi(`BC`) 于 #mi(`E`). 试证 #mi(`EB=CE`).
 
-[max width=5.8cm]img/1977/guizhou/q5_fig1.png
+
+#align(center)[#image("/papers/1977/img/guizhou/q5_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -378,7 +380,9 @@ Q=\left(10\cos\frac{\pi}{2},10\sin\frac{\pi}{2}\right)=(0,10)
 `)]
 
 
-[width=4.2cm]img/1977/guizhou/q11_solution_fig1.png
+ 
+#align(center)[#image("/papers/1977/img/guizhou/q11_solution_fig1.png", width: 28%)]
+ 
 
 把 #mi(`E=\ln\rho`) 写成直角坐标函数，得
 

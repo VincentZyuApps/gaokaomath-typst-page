@@ -1,8 +1,95 @@
 {
-  "title": "1953年普通高等学校招生全国统一考试",
-  "subtitle": "1953年全国卷",
   "year": "1953",
   "slug": "national",
+  "title": "1953年全国卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "解答题",
@@ -10,100 +97,128 @@
         {
           "num": 1,
           "body": "解 $\\frac{x + 1}{x - 1}+ \\frac{x - 1}{x + 1}= \\frac{10}{3}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "由分式有意义，得 $x\\ne1$ 且 $x\\ne-1$. 在此条件下，原方程两边同乘 $3\\left(x-1\\right)\\left(x+1\\right)$，得 $3\\left(x+1\\right)^{2}+3\\left(x-1\\right)^{2}=10\\left(x^{2}-1\\right)$，即 $6\\left(x^{2}+1\\right)=10\\left(x^{2}-1\\right)$. 整理得 $4x^{2}=16$，所以 $x=\\pm2$. 这两个值均不等于 $\\pm1$，代回原方程也成立，故原方程的解为 $x=\\pm2$."
+          "solution": "由分式有意义，得 $x\\ne1$ 且 $x\\ne-1$. 在此条件下，原方程两边同乘 $3\\left(x-1\\right)\\left(x+1\\right)$，得 $3\\left(x+1\\right)^{2}+3\\left(x-1\\right)^{2}=10\\left(x^{2}-1\\right)$，即 $6\\left(x^{2}+1\\right)=10\\left(x^{2}-1\\right)$. 整理得 $4x^{2}=16$，所以 $x=\\pm2$. 这两个值均不等于 $\\pm1$，代回原方程也成立，故原方程的解为 $x=\\pm2$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "若 $3x^{2}+ kx + 12 = 0$ 之二根相等，求 $k$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "题中方程是关于 $x$ 的二次方程，且二次项系数 $3\\ne0$. 两根相等的充要条件是判别式为零，因此 $\\Delta=k^{2}-4\\cdot3\\cdot12=0$. 于是 $k^{2}=144$，解得 $k=12$ 或 $k=-12$，即 $k=\\pm12$. 此时重根为 $-\\frac{k}{6}$，确实为实数，条件满足."
+          "solution": "题中方程是关于 $x$ 的二次方程，且二次项系数 $3\\ne0$. 两根相等的充要条件是判别式为零，因此 $\\Delta=k^{2}-4\\cdot3\\cdot12=0$. 于是 $k^{2}=144$，解得 $k=12$ 或 $k=-12$，即 $k=\\pm12$. 此时重根为 $-\\frac{k}{6}$，确实为实数，条件满足.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "求 $\\begin{vmatrix}3 & -1 & 1\\\\ 2 & 4 & 6\\\\ 7 & 0 & 5\\end{vmatrix}$ 之值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "按第一行展开，原行列式等于 $3\\left(4\\cdot5-6\\cdot0\\right)-\\left(-1\\right)\\left(2\\cdot5-6\\cdot7\\right)+1\\left(2\\cdot0-4\\cdot7\\right)$. 因而其值为 $60+\\left(10-42\\right)-28=60-32-28=0$."
+          "solution": "按第一行展开，原行列式等于 $3\\left(4\\cdot5-6\\cdot0\\right)-\\left(-1\\right)\\left(2\\cdot5-6\\cdot7\\right)+1\\left(2\\cdot0-4\\cdot7\\right)$. 因而其值为 $60+\\left(10-42\\right)-28=60-32-28=0$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "求 $\\log_{10}\\frac{300}{7}+ \\log_{10}\\frac{700}{3}+ \\log_{10}1$ 之值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "三个真数均为正数，可以使用对数的乘法公式，且 $\\log_{10}1=0$. 所以原式 $=\\log_{10}\\left(\\frac{300}{7}\\cdot\\frac{700}{3}\\cdot1\\right)=\\log_{10}10000=4$."
+          "solution": "三个真数均为正数，可以使用对数的乘法公式，且 $\\log_{10}1=0$. 所以原式 $=\\log_{10}\\left(\\frac{300}{7}\\cdot\\frac{700}{3}\\cdot1\\right)=\\log_{10}10000=4$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "求 $\\tan\\left(870^{\\circ}\\right)$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "因为 $870^{\\circ}=5\\cdot180^{\\circ}-30^{\\circ}$，而正切函数的周期为 $180^{\\circ}$，所以 $\\tan870^{\\circ}=\\tan\\left(-30^{\\circ}\\right)=-\\tan30^{\\circ}=-\\frac{1}{\\sqrt{3}}$."
+          "solution": "因为 $870^{\\circ}=5\\cdot180^{\\circ}-30^{\\circ}$，而正切函数的周期为 $180^{\\circ}$，所以 $\\tan870^{\\circ}=\\tan\\left(-30^{\\circ}\\right)=-\\tan30^{\\circ}=-\\frac{1}{\\sqrt{3}}$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "若 $\\cos2x=\\frac{1}{2}$，求 $x$ 之通值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "在一个周期内，满足 $\\cos\\theta=\\frac{1}{2}$ 的角为 $\\theta=2n\\pi\\pm\\frac{\\pi}{3}$，其中 $n\\in\\mathbb{Z}$. 令 $\\theta=2x$，得 $2x=2n\\pi\\pm\\frac{\\pi}{3}$，两边除以 $2$，所以 $x=n\\pi\\pm\\frac{\\pi}{6}$，其中 $n\\in\\mathbb{Z}$. 该表达式已经包含余弦函数的全部周期性解."
+          "solution": "在一个周期内，满足 $\\cos\\theta=\\frac{1}{2}$ 的角为 $\\theta=2n\\pi\\pm\\frac{\\pi}{3}$，其中 $n\\in\\mathbb{Z}$. 令 $\\theta=2x$，得 $2x=2n\\pi\\pm\\frac{\\pi}{3}$，两边除以 $2$，所以 $x=n\\pi\\pm\\frac{\\pi}{6}$，其中 $n\\in\\mathbb{Z}$. 该表达式已经包含余弦函数的全部周期性解.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "两三角形相似之条件为何？（把你所知道的都写出来）",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设对应顶点为 $A\\leftrightarrow A'$、$B\\leftrightarrow B'$、$C\\leftrightarrow C'$，则两三角形相似的判定条件有以下三种：</p><ol class=\"enumerate\"><li><p>两个角分别相等，即 $\\angle A=\\angle A'$、$\\angle B=\\angle B'$. 此时第三个角也相等，因为三角形内角和均为 $180^{\\circ}$，所以由两角判定两三角形相似.</p></li><li><p>一个角相等，且这个角的两边分别成比例，即 $\\angle A=\\angle A'$，且 $AB:A'B'=AC:A'C'$. 这里相等的角是两组比例边的夹角，由两边及其夹角判定两三角形相似.</p></li><li><p>三组对应边分别成比例，即 $AB:A'B'=AC:A'C'=BC:B'C'$. 由三边判定两三角形相似.</p></li></ol><p>三者分别是两角、两边及其夹角、三边的相似判定条件，均可推出 $\\triangle ABC\\sim\\triangle A'B'C'$.</p>"
+          "solution": "<p>设对应顶点为 $A\\leftrightarrow A'$、$B\\leftrightarrow B'$、$C\\leftrightarrow C'$，则两三角形相似的判定条件有以下三种：</p><ol class=\"enumerate\"><li><p>两个角分别相等，即 $\\angle A=\\angle A'$、$\\angle B=\\angle B'$. 此时第三个角也相等，因为三角形内角和均为 $180^{\\circ}$，所以由两角判定两三角形相似.</p></li><li><p>一个角相等，且这个角的两边分别成比例，即 $\\angle A=\\angle A'$，且 $AB:A'B'=AC:A'C'$. 这里相等的角是两组比例边的夹角，由两边及其夹角判定两三角形相似.</p></li><li><p>三组对应边分别成比例，即 $AB:A'B'=AC:A'C'=BC:B'C'$. 由三边判定两三角形相似.</p></li></ol><p>三者分别是两角、两边及其夹角、三边的相似判定条件，均可推出 $\\triangle ABC\\sim\\triangle A'B'C'$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "长方体之长，宽，高为 $12\\text{ 寸}$，$3\\text{ 寸}$，$4\\text{ 寸}$，求对角线之长.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "先取长方体底面的对角线，其长度为 $\\sqrt{12^{2}+3^{2}}=\\sqrt{153}\\text{ 寸}$. 该底面对角线与高 $4\\text{ 寸}$ 又构成直角三角形，因此长方体对角线 $d$ 满足 $d^{2}=12^{2}+3^{2}+4^{2}=144+9+16=169$. 由于长度取正值，得 $d=13\\text{ 寸}$."
+          "solution": "先取长方体底面的对角线，其长度为 $\\sqrt{12^{2}+3^{2}}=\\sqrt{153}\\text{ 寸}$. 该底面对角线与高 $4\\text{ 寸}$ 又构成直角三角形，因此长方体对角线 $d$ 满足 $d^{2}=12^{2}+3^{2}+4^{2}=144+9+16=169$. 由于长度取正值，得 $d=13\\text{ 寸}$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "垂直三棱柱之高为 $6\\text{ 寸}$，底面三边之长为 $3\\text{ 寸}$，$4\\text{ 寸}$，$5\\text{ 寸}$，求体积.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "底面三边满足 $3^{2}+4^{2}=5^{2}$，所以底面是以 $3\\text{ 寸}$、$4\\text{ 寸}$ 为直角边的直角三角形. 底面积为 $S_{\\text{底}}=\\frac{1}{2}\\cdot3\\cdot4=6\\text{ 平方寸}$. 直棱柱体积等于底面积乘高，因此 $V=S_{\\text{底}}h=6\\cdot6=36\\text{ 立方寸}$."
+          "solution": "底面三边满足 $3^{2}+4^{2}=5^{2}$，所以底面是以 $3\\text{ 寸}$、$4\\text{ 寸}$ 为直角边的直角三角形. 底面积为 $S_{\\text{底}}=\\frac{1}{2}\\cdot3\\cdot4=6\\text{ 平方寸}$. 直棱柱体积等于底面积乘高，因此 $V=S_{\\text{底}}h=6\\cdot6=36\\text{ 立方寸}$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "球之表面积为 $36\\pi\\text{ 方寸}$，求体积.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "设球半径为 $r\\text{ 寸}$，则 $r>0$. 由球的表面积公式，$4\\pi r^{2}=36\\pi$，所以 $r^{2}=9$. 因为半径为正，故 $r=3\\text{ 寸}$. 于是球的体积为 $V=\\frac{4}{3}\\pi r^{3}=\\frac{4}{3}\\pi\\cdot3^{3}=36\\pi\\text{ 立方寸}$."
+          "solution": "设球半径为 $r\\text{ 寸}$，则 $r>0$. 由球的表面积公式，$4\\pi r^{2}=36\\pi$，所以 $r^{2}=9$. 因为半径为正，故 $r=3\\text{ 寸}$. 于是球的体积为 $V=\\frac{4}{3}\\pi r^{3}=\\frac{4}{3}\\pi\\cdot3^{3}=36\\pi\\text{ 立方寸}$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "解方程组 $\\begin{cases}x^{2}- 2xy + 3y^{2}= 9,\\\\  4x^{2}- 5xy + 6y^{2}= 30.\\end{cases}$",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将第一式乘以 $10$，第二式乘以 $3$，两式相减并消去常数项，得 $-2x^{2}-5xy+12y^{2}=0$，即 $2x^{2}+5xy-12y^{2}=0$. 因式分解得 $\\left(x+4y\\right)\\left(2x-3y\\right)=0$，所以必须分两种情形讨论.</p><p>当 $x+4y=0$ 时，$x=-4y$. 代入第一式，得 $16y^{2}+8y^{2}+3y^{2}=9$，即 $27y^{2}=9$，所以 $y=\\pm\\frac{\\sqrt{3}}{3}$，相应地 $x=\\mp\\frac{4\\sqrt{3}}{3}$. 得到两组解 $\\left(\\frac{4\\sqrt{3}}{3},-\\frac{\\sqrt{3}}{3}\\right)$ 和 $\\left(-\\frac{4\\sqrt{3}}{3},\\frac{\\sqrt{3}}{3}\\right)$.</p><p>当 $2x-3y=0$ 时，$x=\\frac{3}{2}y$. 代入第一式，得 $\\frac{9}{4}y^{2}-3y^{2}+3y^{2}=9$，即 $\\frac{9}{4}y^{2}=9$，所以 $y=\\pm2$，相应地 $x=\\pm3$. 得到两组解 $\\left(3,2\\right)$ 和 $\\left(-3,-2\\right)$.</p><p>上述各组解均满足第一式，并且它们满足由两原式线性消元所得的关系 $10\\times\\text{第一式}-3\\times\\text{第二式}=0$，所以代回即有第二式成立. 因此原方程组的解为 $\\left(x,y\\right)=\\left(\\frac{4\\sqrt{3}}{3},-\\frac{\\sqrt{3}}{3}\\right)$、$\\left(-\\frac{4\\sqrt{3}}{3},\\frac{\\sqrt{3}}{3}\\right)$、$\\left(3,2\\right)$、$\\left(-3,-2\\right)$.</p>"
+          "solution": "<p>将第一式乘以 $10$，第二式乘以 $3$，两式相减并消去常数项，得 $-2x^{2}-5xy+12y^{2}=0$，即 $2x^{2}+5xy-12y^{2}=0$. 因式分解得 $\\left(x+4y\\right)\\left(2x-3y\\right)=0$，所以必须分两种情形讨论.</p><p>当 $x+4y=0$ 时，$x=-4y$. 代入第一式，得 $16y^{2}+8y^{2}+3y^{2}=9$，即 $27y^{2}=9$，所以 $y=\\pm\\frac{\\sqrt{3}}{3}$，相应地 $x=\\mp\\frac{4\\sqrt{3}}{3}$. 得到两组解 $\\left(\\frac{4\\sqrt{3}}{3},-\\frac{\\sqrt{3}}{3}\\right)$ 和 $\\left(-\\frac{4\\sqrt{3}}{3},\\frac{\\sqrt{3}}{3}\\right)$.</p><p>当 $2x-3y=0$ 时，$x=\\frac{3}{2}y$. 代入第一式，得 $\\frac{9}{4}y^{2}-3y^{2}+3y^{2}=9$，即 $\\frac{9}{4}y^{2}=9$，所以 $y=\\pm2$，相应地 $x=\\pm3$. 得到两组解 $\\left(3,2\\right)$ 和 $\\left(-3,-2\\right)$.</p><p>上述各组解均满足第一式，并且它们满足由两原式线性消元所得的关系 $10\\times\\text{第一式}-3\\times\\text{第二式}=0$，所以代回即有第二式成立. 因此原方程组的解为 $\\left(x,y\\right)=\\left(\\frac{4\\sqrt{3}}{3},-\\frac{\\sqrt{3}}{3}\\right)$、$\\left(-\\frac{4\\sqrt{3}}{3},\\frac{\\sqrt{3}}{3}\\right)$、$\\left(3,2\\right)$、$\\left(-3,-2\\right)$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "<ol class=\"enumerate\"><li><p>化简 $\\sqrt{\\frac{12}{25}}+ \\sqrt[4]{90000}+ \\sqrt[6]{\\frac{64}{27}}$.</p></li><li><p>求 $\\left( 2x^{3}+ \\frac{1}{x}\\right)^{12}$ 之展开式中之常数项.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $12=3\\cdot2^{2}$、$25=5^{2}$、$90000=3^{2}\\cdot10^{4}$、$64=2^{6}$、$27=3^{3}$，且各根号取算术根，所以</p><p>$\\sqrt{\\frac{12}{25}}=\\frac{2}{5}\\sqrt{3}$，$\\sqrt[4]{90000}=\\sqrt[4]{3^{2}\\cdot10^{4}}=10\\sqrt{3}$，$\\sqrt[6]{\\frac{64}{27}}=\\sqrt[6]{\\frac{2^{6}}{3^{3}}}=\\frac{2}{\\sqrt{3}}=\\frac{2}{3}\\sqrt{3}$. 因而原式 $=\\left(\\frac{2}{5}+10+\\frac{2}{3}\\right)\\sqrt{3}=\\frac{166}{15}\\sqrt{3}$.</p></li><li><p>由于式中含有 $\\frac{1}{x}$，须有 $x\\ne0$. 二项式展开的通项为 $T_{r+1}=\\mathrm{C}_{12}^{r}\\left(2x^{3}\\right)^{12-r}\\left(\\frac{1}{x}\\right)^{r}=\\mathrm{C}_{12}^{r}2^{12-r}x^{36-4r}$，其中 $r=0$，$1$，$\\ldots$，$12$. 要成为常数项，必须有 $36-4r=0$，所以 $r=9$，且该值在允许范围内. 因此常数项为 $\\mathrm{C}_{12}^{9}2^{12-9}=\\mathrm{C}_{12}^{3}2^{3}=220\\cdot8=1760$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $12=3\\cdot2^{2}$、$25=5^{2}$、$90000=3^{2}\\cdot10^{4}$、$64=2^{6}$、$27=3^{3}$，且各根号取算术根，所以</p><p>$\\sqrt{\\frac{12}{25}}=\\frac{2}{5}\\sqrt{3}$，$\\sqrt[4]{90000}=\\sqrt[4]{3^{2}\\cdot10^{4}}=10\\sqrt{3}$，$\\sqrt[6]{\\frac{64}{27}}=\\sqrt[6]{\\frac{2^{6}}{3^{3}}}=\\frac{2}{\\sqrt{3}}=\\frac{2}{3}\\sqrt{3}$. 因而原式 $=\\left(\\frac{2}{5}+10+\\frac{2}{3}\\right)\\sqrt{3}=\\frac{166}{15}\\sqrt{3}$.</p></li><li><p>由于式中含有 $\\frac{1}{x}$，须有 $x\\ne0$. 二项式展开的通项为 $T_{r+1}=\\mathrm{C}_{12}^{r}\\left(2x^{3}\\right)^{12-r}\\left(\\frac{1}{x}\\right)^{r}=\\mathrm{C}_{12}^{r}2^{12-r}x^{36-4r}$，其中 $r=0$，$1$，$\\ldots$，$12$. 要成为常数项，必须有 $36-4r=0$，所以 $r=9$，且该值在允许范围内. 因此常数项为 $\\mathrm{C}_{12}^{9}2^{12-9}=\\mathrm{C}_{12}^{3}2^{3}=220\\cdot8=1760$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "锐角三角形 $ABC$ 之三高线为 $AD$，$BE$，$CF$，垂心为 $H$，求证 $HD$ 平分 $\\angle EDF$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由 $AD\\perp BC$、$BE\\perp CA$，可知 $\\angle ADB=\\angle AEB=90^{\\circ}$，所以 $A$、$B$、$D$、$E$ 共圆. 因同弦 $AE$ 所对的圆周角相等，得 $\\angle ADE=\\angle ABE$.</p><p>又因为 $CF\\perp AB$、$BE\\perp AC$，所以 $\\angle BFC=\\angle BEC=90^{\\circ}$，从而 $F$、$B$、$C$、$E$ 共圆. 由于 $A$、$F$、$B$ 共线，且 $A$、$E$、$C$ 共线，有 $\\angle ABE=\\angle FBE$、$\\angle FCE=\\angle FCA$. 在圆 $FBCE$ 中，同弦 $FE$ 所对的圆周角相等，因此 $\\angle FBE=\\angle FCE$.</p><p>再由 $AD\\perp BC$、$CF\\perp AB$，得 $\\angle CDA=\\angle CFA=90^{\\circ}$，所以 $C$、$A$、$F$、$D$ 共圆. 在圆 $CAFD$ 中，同弦 $FA$ 所对的圆周角相等，故 $\\angle FCA=\\angle FDA$. 综合以上等式，$\\angle ADE=\\angle ABE=\\angle FBE=\\angle FCE=\\angle FCA=\\angle FDA$，所以直线 $AD$ 平分 $\\angle EDF$.</p><p>由于三角形 $ABC$ 为锐角三角形，垂心 $H$ 在线段 $AD$ 上，且从点 $D$ 看，射线 $DH$ 与射线 $DA$ 重合，因此 $HD$ 也平分 $\\angle EDF$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q4_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<p>由 $AD\\perp BC$、$BE\\perp CA$，可知 $\\angle ADB=\\angle AEB=90^{\\circ}$，所以 $A$、$B$、$D$、$E$ 共圆. 因同弦 $AE$ 所对的圆周角相等，得 $\\angle ADE=\\angle ABE$.</p><p>又因为 $CF\\perp AB$、$BE\\perp AC$，所以 $\\angle BFC=\\angle BEC=90^{\\circ}$，从而 $F$、$B$、$C$、$E$ 共圆. 由于 $A$、$F$、$B$ 共线，且 $A$、$E$、$C$ 共线，有 $\\angle ABE=\\angle FBE$、$\\angle FCE=\\angle FCA$. 在圆 $FBCE$ 中，同弦 $FE$ 所对的圆周角相等，因此 $\\angle FBE=\\angle FCE$.</p><p>再由 $AD\\perp BC$、$CF\\perp AB$，得 $\\angle CDA=\\angle CFA=90^{\\circ}$，所以 $C$、$A$、$F$、$D$ 共圆. 在圆 $CAFD$ 中，同弦 $FA$ 所对的圆周角相等，故 $\\angle FCA=\\angle FDA$. 综合以上等式，$\\angle ADE=\\angle ABE=\\angle FBE=\\angle FCE=\\angle FCA=\\angle FDA$，所以直线 $AD$ 平分 $\\angle EDF$.</p><p>由于三角形 $ABC$ 为锐角三角形，垂心 $H$ 在线段 $AD$ 上，且从点 $D$ 看，射线 $DH$ 与射线 $DA$ 重合，因此 $HD$ 也平分 $\\angle EDF$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1953/img/national/q4_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知三角形的两个角为 $45^{\\circ}$ 及 $60^{\\circ}$，而其夹边长 $1\\text{ 尺}$；求最小边之长及面积.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设三角形为 $\\triangle ABC$，令 $\\angle B=45^{\\circ}$、$\\angle C=60^{\\circ}$，则夹在这两个角之间的边为 $BC=1\\text{ 尺}$，且 $\\angle A=180^{\\circ}-45^{\\circ}-60^{\\circ}=75^{\\circ}$. 三角形中最小的角是 $\\angle B$，所以最小边是其对边 $AC$.</p><p>由正弦定理，$\\frac{AC}{\\sin45^{\\circ}}=\\frac{BC}{\\sin75^{\\circ}}=\\frac{1}{\\sin75^{\\circ}}$，于是</p><p>$AC=\\frac{\\sin45^{\\circ}}{\\sin75^{\\circ}}=\\frac{\\frac{\\sqrt{2}}{2}}{\\sin\\left(45^{\\circ}+30^{\\circ}\\right)}=\\frac{\\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{2}}{2}\\cdot\\frac{1}{2}}=\\frac{2}{\\sqrt{3}+1}=\\sqrt{3}-1\\text{ 尺}$.</p><p>以 $BC$ 和 $CA$ 为两边，夹角为 $\\angle C=60^{\\circ}$，所以三角形面积为 $S=\\frac{1}{2}\\cdot BC\\cdot CA\\cdot\\sin60^{\\circ}=\\frac{1}{2}\\cdot1\\cdot\\left(\\sqrt{3}-1\\right)\\cdot\\frac{\\sqrt{3}}{2}=\\frac{3-\\sqrt{3}}{4}\\text{ 平方尺}$.</p>"
+          "solution": "<p>设三角形为 $\\triangle ABC$，令 $\\angle B=45^{\\circ}$、$\\angle C=60^{\\circ}$，则夹在这两个角之间的边为 $BC=1\\text{ 尺}$，且 $\\angle A=180^{\\circ}-45^{\\circ}-60^{\\circ}=75^{\\circ}$. 三角形中最小的角是 $\\angle B$，所以最小边是其对边 $AC$.</p><p>由正弦定理，$\\frac{AC}{\\sin45^{\\circ}}=\\frac{BC}{\\sin75^{\\circ}}=\\frac{1}{\\sin75^{\\circ}}$，于是</p><p>$AC=\\frac{\\sin45^{\\circ}}{\\sin75^{\\circ}}=\\frac{\\frac{\\sqrt{2}}{2}}{\\sin\\left(45^{\\circ}+30^{\\circ}\\right)}=\\frac{\\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{2}}{2}\\cdot\\frac{1}{2}}=\\frac{2}{\\sqrt{3}+1}=\\sqrt{3}-1\\text{ 尺}$.</p><p>以 $BC$ 和 $CA$ 为两边，夹角为 $\\angle C=60^{\\circ}$，所以三角形面积为 $S=\\frac{1}{2}\\cdot BC\\cdot CA\\cdot\\sin60^{\\circ}=\\frac{1}{2}\\cdot1\\cdot\\left(\\sqrt{3}-1\\right)\\cdot\\frac{\\sqrt{3}}{2}=\\frac{3-\\sqrt{3}}{4}\\text{ 平方尺}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

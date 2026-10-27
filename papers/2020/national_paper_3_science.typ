@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,37 +11,46 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $A=\{(x,y) | x,y in bold(N)^*,y >= x\}$，$B=\{(x,y) | x+y=8\}$，则 $A inter B$ 中元素的个数为（ ）
-  #choices([$2$], [$3$], [$4$], [$6$], cols: 4)
+已知集合 #mi(`A=\{(x,y)\mid x,y\in \mathbf{N}^{*},y\ge x\}`)，#mi(`B=\{(x,y)\mid x+y=8\}`)，则 #mi(`A\cap B`) 中元素的个数为（ ）
+  #choices([#mi(`2`)], [#mi(`3`)], [#mi(`4`)], [#mi(`6`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-利用交集定义求出 $A inter B=\{(1,7),(2,6),(3,5),(4,4)\}$，由此能求出 $A inter B$ 中元素的个数.
-集合 $A=\{(x,y) | x,y in bold(N)^*,y >= x\}$，$B=\{(x,y) | x+y=8\}$，
-$A inter B=\{(x,y) | \b e g i n{c a s e s} y >= x\\ x+y=8 \e n d{c a s e s},\ x,y in bold(N)^*\}=\{(1,7),(2,6),(3,5),(4,4)\}$.
-所以 $A inter B$ 中元素的个数为 $4$.
+利用交集定义求出 #mi(`A\cap B=\{(1,7),(2,6),(3,5),(4,4)\}`)，由此能求出 #mi(`A\cap B`) 中元素的个数.
+
+集合 #mi(`A=\{(x,y)\mid x,y\in \mathbf{N}^{*},y\ge x\}`)，#mi(`B=\{(x,y)\mid x+y=8\}`)，
+
+#mi(`A\cap B=\{(x,y)\mid \begin{cases}y\ge x\\
+
+x+y=8\end{cases},\ x,y\in \mathbf{N}^{*}\}=\{(1,7),(2,6),(3,5),(4,4)\}`).
+
+所以 #mi(`A\cap B`) 中元素的个数为 #mi(`4`).
+
 故选：C.
 ]
 
 #problem(2)[
-复数 $(1)/(1-3 i)$ 的虚部是（ ）
-  #choices([$-(3)/(10)$], [$-(1)/(10)$], [$(1)/(10)$], [$(3)/(10)$], cols: 4)
+复数 #mi(`\dfrac{1}{1-3\mathrm{i}}`) 的虚部是（ ）
+  #choices([#mi(`-\dfrac{3}{10}`)], [#mi(`-\dfrac{1}{10}`)], [#mi(`\dfrac{1}{10}`)], [#mi(`\dfrac{3}{10}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
 直接利用复数代数形式的乘除运算化简得答案.
-$(1)/(1-3 i)=(1+3 i)/((1-3 i )(1+3 i ))=(1)/(10)+(3)/(10) i$.
-所以复数 $(1)/(1-3 i)$ 的虚部是 $(3)/(10)$.
+
+#mi(`\frac{1}{1-3\mathrm{i}}=\frac{1+3\mathrm{i}}{(1-3\mathrm{i})(1+3\mathrm{i})}=\frac{1}{10}+\frac{3}{10}\mathrm{i}`).
+
+所以复数 #mi(`\dfrac{1}{1-3\mathrm{i}}`) 的虚部是 #mi(`\dfrac{3}{10}`).
+
 故选：D.
 ]
 
 #problem(3)[
-在一组样本数据中，$1$，$2$，$3$，$4$ 出现的频率分别为 $p_1$，$p_2$，$p_3$，$p_4$，且 $sum_(i=1)^(4) p_i=1$，则下面四种情形中，对应样本的标准差最大的一组是（ ）
-  #choices([$p_1=p_4=0.1$，$p_2=p_3=0.4$], [$p_1=p_4=0.4$，$p_2=p_3=0.1$], [$p_1=p_4=0.2$，$p_2=p_3=0.3$], [$p_1=p_4=0.3$，$p_2=p_3=0.2$], cols: 2)
+在一组样本数据中，#mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`) 出现的频率分别为 #mi(`p_{1}`)，#mi(`p_{2}`)，#mi(`p_{3}`)，#mi(`p_{4}`)，且 #mi(`\sum_{i=1}^{4}p_{i}=1`)，则下面四种情形中，对应样本的标准差最大的一组是（ ）
+  #choices([#mi(`p_{1}=p_{4}=0.1`)，#mi(`p_{2}=p_{3}=0.4`)], [#mi(`p_{1}=p_{4}=0.4`)，#mi(`p_{2}=p_{3}=0.1`)], [#mi(`p_{1}=p_{4}=0.2`)，#mi(`p_{2}=p_{3}=0.3`)], [#mi(`p_{1}=p_{4}=0.3`)，#mi(`p_{2}=p_{3}=0.2`)], cols: 1)
 ]
 
 #answer([B])
@@ -49,92 +58,128 @@ $(1)/(1-3 i)=(1+3 i)/((1-3 i )(1+3 i ))=(1)/(10)+(3)/(10) i$.
 #solution[
 根据题意，求出各组数据的方差，比较各组选项对应方差的大小，由于标准差是方差的算术平方根，因此方差最大的那一组对应的标准差也最大.
 
-选项 A：$E(x)=1 times 0 .1+2 times 0 .4+3 times 0 .4+4 times 0 .1=2.5$，所以
-$D(x)=(1-2.5)^2 times 0 .1+(2-2.5)^2 times 0 .4+(3-2.5)^2 times 0 .4+(4-2.5)^2 times 0 .1=0.65$.
+选项 A：#mi(`E(x)=1\times0.1+2\times0.4+3\times0.4+4\times0.1=2.5`)，所以
 
-选项 B：$E(x)=1 times 0 .4+2 times 0 .1+3 times 0 .1+4 times 0 .4=2.5$，所以
-$D(x)=(1-2.5)^2 times 0 .4+(2-2.5)^2 times 0 .1+(3-2.5)^2 times 0 .1+(4-2.5)^2 times 0 .4=2.05$.
+#mi(`D(x)=(1-2.5)^{2}\times0.1+(2-2.5)^{2}\times0.4+(3-2.5)^{2}\times0.4+(4-2.5)^{2}\times0.1=0.65`).
 
-选项 C：$E(x)=1 times 0 .2+2 times 0 .3+3 times 0 .3+4 times 0 .2=2.5$，所以
-$D(x)=(1-2.5)^2 times 0 .2+(2-2.5)^2 times 0 .3+(3-2.5)^2 times 0 .3+(4-2.5)^2 times 0 .2=1.05$.
+选项 B：#mi(`E(x)=1\times0.4+2\times0.1+3\times0.1+4\times0.4=2.5`)，所以
 
-选项 D：$E(x)=1 times 0 .3+2 times 0 .2+3 times 0 .2+4 times 0 .3=2.5$，所以
-$D(x)=(1-2.5)^2 times 0 .3+(2-2.5)^2 times 0 .2+(3-2.5)^2 times 0 .2+(4-2.5)^2 times 0 .3=1.45$.
+#mi(`D(x)=(1-2.5)^{2}\times0.4+(2-2.5)^{2}\times0.1+(3-2.5)^{2}\times0.1+(4-2.5)^{2}\times0.4=2.05`).
+
+选项 C：#mi(`E(x)=1\times0.2+2\times0.3+3\times0.3+4\times0.2=2.5`)，所以
+
+#mi(`D(x)=(1-2.5)^{2}\times0.2+(2-2.5)^{2}\times0.3+(3-2.5)^{2}\times0.3+(4-2.5)^{2}\times0.2=1.05`).
+
+选项 D：#mi(`E(x)=1\times0.3+2\times0.2+3\times0.2+4\times0.3=2.5`)，所以
+
+#mi(`D(x)=(1-2.5)^{2}\times0.3+(2-2.5)^{2}\times0.2+(3-2.5)^{2}\times0.2+(4-2.5)^{2}\times0.3=1.45`).
+
 故选：B.
 ]
 
 #problem(4)[
-Logistic 模型是常用数学模型之一，可应用于流行病学领域. 有学者根据公布数据建立了某地区新冠肺炎累计确诊病例数 $I(t)$（$t$ 的单位：天）的 Logistic 模型：$I(t)=(K)/(1+ e ""^(-0.23(t-53)))$，其中 $K$ 为最大确诊病例数. 当 $I(t^*)=0.95 K$ 时，标志着已初步遏制疫情，则 $t^*$ 约为（ ）（$ln 19 approx 3$）
-  #choices([$60$], [$63$], [$66$], [$69$], cols: 4)
+Logistic 模型是常用数学模型之一，可应用于流行病学领域. 有学者根据公布数据建立了某地区新冠肺炎累计确诊病例数 #mi(`I(t)`)（#mi(`t`) 的单位：天）的 Logistic 模型：#mi(`I(t)=\dfrac{K}{1+\mathrm{e}^{-0.23(t-53)}}`)，其中 #mi(`K`) 为最大确诊病例数. 当 #mi(`I(t^{*})=0.95K`) 时，标志着已初步遏制疫情，则 #mi(`t^{*}`) 约为（ ）（#mi(`\ln19\approx3`)）
+  #choices([#mi(`60`)], [#mi(`63`)], [#mi(`66`)], [#mi(`69`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-根据所给材料中的 Logistic 模型列出关于 $t$ 的方程，再通过化简和取对数求出 $t$ 的近似值，从而得到所求结果.
-$(K)/(1+ e ""^(-0.23(t-53)))=0.95 K$，
+根据所给材料中的 Logistic 模型列出关于 #mi(`t`) 的方程，再通过化简和取对数求出 #mi(`t`) 的近似值，从而得到所求结果.
+
+#mi(`\frac{K}{1+\mathrm{e}^{-0.23(t-53)}}=0.95K`)，
+
 由已知可得
-$(K)/(1+ e ""^(-0.23(t-53)))=0.95 K$，
+
+#mi(`\frac{K}{1+\mathrm{e}^{-0.23(t-53)}}=0.95K`)，
+
 解得
-$e ""^(-0.23(t-53))=(1)/(19)$.
+
+#mi(`\mathrm{e}^{-0.23(t-53)}=\frac{1}{19}`).
+
 两边取对数有
-$-0.23(t-53)=- ln 19$，
+
+#mi(`-0.23(t-53)=-\ln19`)，
+
 解得
-$t approx 66$.
+
+#mi(`t\approx66`).
+
 故选：C.
 ]
 
 #problem(5)[
-设 $O$ 为坐标原点，直线 $x=2$ 与抛物线 $C:y^2=2 p x$（$p>0$）交于 $D$，$E$ 两点，若 $O D bot O E$，则 $C$ 的焦点坐标为（ ）
-  #choices([$( (1)/(4),0 )$], [$( (1)/(2),0 )$], [$(1,0)$], [$(2,0)$], cols: 4)
+设 #mi(`O`) 为坐标原点，直线 #mi(`x=2`) 与抛物线 #mi(`C:y^{2}=2px`)（#mi(`p>0`)）交于 #mi(`D`)，#mi(`E`) 两点，若 #mi(`OD\perp OE`)，则 #mi(`C`) 的焦点坐标为（ ）
+  #choices([#mi(`\left( \dfrac{1}{4},0 \right)`)], [#mi(`\left( \dfrac{1}{2},0 \right)`)], [#mi(`(1,0)`)], [#mi(`(2,0)`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-利用已知条件先求出 $D$，$E$ 的坐标，再由 $O D bot O E$ 得到斜率之间的关系，进而求出抛物线方程，最后根据抛物线的标准性质确定其焦点坐标.
-将 $x=2$ 代入抛物线 $y^2=2 p x$，可得
-$y= +- 2 sqrt(p)$.
-因为 $O D bot O E$，可得
-$k_(O D) dot k_(O E)=(2 sqrt(p))/(2) dot (-2 sqrt(p))/(2)=-1$.
+利用已知条件先求出 #mi(`D`)，#mi(`E`) 的坐标，再由 #mi(`OD\perp OE`) 得到斜率之间的关系，进而求出抛物线方程，最后根据抛物线的标准性质确定其焦点坐标.
+
+将 #mi(`x=2`) 代入抛物线 #mi(`y^{2}=2px`)，可得
+
+#mi(`y=\pm2\sqrt{p}`).
+
+因为 #mi(`OD\perp OE`)，可得
+
+#mi(`k_{OD}\cdot k_{OE}=\frac{2\sqrt{p}}{2}\cdot\frac{-2\sqrt{p}}{2}=-1`).
+
 即
-$-p=-1$，
-解得 $p=1$.
+
+#mi(`-p=-1`)，
+
+解得 #mi(`p=1`).
+
 所以抛物线方程为
-$y^2=2 x$，
-它的焦点坐标 $( (1)/(2),0 )$.
+
+#mi(`y^{2}=2x`)，
+
+它的焦点坐标 #mi(`\left( \dfrac{1}{2},0 \right)`).
+
 故选：B.
 ]
 
 #problem(6)[
-已知向量 $bold(a)$，$bold(b)$ 满足 $|bold(a)|=5$，$|bold(b)|=6$，$bold(a)\c d o t b o l d(b)=-6$，则 $cos angle (bold(a),bold(a)+bold(b))=$（ ）
-  #choices([$-(31)/(35)$], [$-(19)/(35)$], [$(17)/(35)$], [$(19)/(35)$], cols: 4)
+已知向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 满足 #mi(`|\mathbf{a}|=5`)，#mi(`|\mathbf{b}|=6`)，#mi(`\mathbf{a}\cdot\mathbf{b}=-6`)，则 #mi(`\cos\angle(\mathbf{a},\mathbf{a}+\mathbf{b})=`)（ ）
+  #choices([#mi(`-\dfrac{31}{35}`)], [#mi(`-\dfrac{19}{35}`)], [#mi(`\dfrac{17}{35}`)], [#mi(`\dfrac{19}{35}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-利用已知条件先求出 $|bold(a)+bold(b)|$，再由向量夹角的数量积公式计算 $cos angle (bold(a),bold(a)+bold(b))$ 的值.
-向量 $bold(a)$，$bold(b)$ 满足 $|bold(a)|=5$，$|bold(b)|=6$，$bold(a)\c d o t b o l d(b)=-6$，可得
-$|bold(a)+bold(b)|=sqrt(bold(a)^2+2 bold(a)\c d o t b o l d(b)+bold(b)^2)=sqrt(25-12+36)=7$.
-所以 $cos angle (bold(a),bold(a)+bold(b))=(bold(a){ dot }(bold(a)+bold(b)))/(|bold(a)| dot |bold(a)+bold(b)|)=(bold(a)^2+bold(a)\c d o t b o l d(b))/(5 times 7)=(25-6)/(5 times 7)=(19)/(35)$.
+利用已知条件先求出 #mi(`|\mathbf{a}+\mathbf{b}|`)，再由向量夹角的数量积公式计算 #mi(`\cos\angle(\mathbf{a},\mathbf{a}+\mathbf{b})`) 的值.
+
+向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 满足 #mi(`|\mathbf{a}|=5`)，#mi(`|\mathbf{b}|=6`)，#mi(`\mathbf{a}\cdot\mathbf{b}=-6`)，可得
+
+#mi(`|\mathbf{a}+\mathbf{b}|=\sqrt{\mathbf{a}^{2}+2\mathbf{a}\cdot\mathbf{b}+\mathbf{b}^{2}}=\sqrt{25-12+36}=7`).
+
+所以 #mi(`\cos\angle(\mathbf{a},\mathbf{a}+\mathbf{b})=\frac{\mathbf{a}\cdot(\mathbf{a}+\mathbf{b})}{|\mathbf{a}|\cdot|\mathbf{a}+\mathbf{b}|}=\frac{\mathbf{a}^{2}+\mathbf{a}\cdot\mathbf{b}}{5\times7}=\frac{25-6}{5\times7}=\frac{19}{35}`).
+
 故选：D.
 ]
 
 #problem(7)[
-在 $triangle A B C$ 中，$cos C=(2)/(3)$，$A C=4$，$B C=3$，则 $cos B=$（ ）
-  #choices([$(1)/(9)$], [$(1)/(3)$], [$(1)/(2)$], [$(2)/(3)$], cols: 4)
+在 #mi(`\triangle ABC`) 中，#mi(`\cos C=\dfrac{2}{3}`)，#mi(`AC=4`)，#mi(`BC=3`)，则 #mi(`\cos B=`)（ ）
+  #choices([#mi(`\dfrac{1}{9}`)], [#mi(`\dfrac{1}{3}`)], [#mi(`\dfrac{1}{2}`)], [#mi(`\dfrac{2}{3}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-先根据余弦定理求出 $A B$，再代入余弦定理求出结论.
-在 $triangle A B C$ 中，$cos C=(2)/(3)$，$A C=4$，$B C=3$，由余弦定理可得
-$A B^2=A C^2+B C^2-2 A C dot B C dot cos C=4^2+3^2-2 times 4 times 3 times (2)/(3)=9$.
-故 $A B=3$.
+先根据余弦定理求出 #mi(`AB`)，再代入余弦定理求出结论.
+
+在 #mi(`\triangle ABC`) 中，#mi(`\cos C=\dfrac{2}{3}`)，#mi(`AC=4`)，#mi(`BC=3`)，由余弦定理可得
+
+#mi(`AB^{2}=AC^{2}+BC^{2}-2AC\cdot BC\cdot\cos C=4^{2}+3^{2}-2\times4\times3\times\frac{2}{3}=9`).
+
+故 #mi(`AB=3`).
+
 所以
-$cos B=(A B^2+B C^2-A C^2)/(2 A B dot B C)=(3^2+3^2-4^2)/(2 times 3 times 3)=(1)/(9)$.
+
+#mi(`\cos B=\frac{AB^{2}+BC^{2}-AC^{2}}{2AB\cdot BC}=\frac{3^{2}+3^{2}-4^{2}}{2\times3\times3}=\frac{1}{9}`).
+
 故选：A.
 ]
 
@@ -142,488 +187,421 @@ $cos B=(A B^2+B C^2-A C^2)/(2 A B dot B C)=(3^2+3^2-4^2)/(2 times 3 times 3)=(1)
 如图为某几何体的三视图，则该几何体的表面积是（ ）
 
 
-#align(center)[#image("/papers/2020/img/national_paper_3_science/q8_fig1.png", width: 6.0cm)]
-  #choices([$6+4 sqrt(2)$], [$4+4 sqrt(2)$], [$6+2 sqrt(3)$], [$4+2 sqrt(3)$], cols: 4)
+#align(center)[#image("/papers/2020/img/national_paper_3_science/q8_fig1.png", width: 28%)]
+
+  #choices([#mi(`6+4\sqrt{2}`)], [#mi(`4+4\sqrt{2}`)], [#mi(`6+2\sqrt{3}`)], [#mi(`4+2\sqrt{3}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
 先由三视图画出几何体的直观图，再结合三视图给出的边长数据求出各个面的面积，最后将各面的面积相加得到该几何体的表面积.
+
 由三视图可知，几何体的直观图是正方体的一个角，如图：
 
+ 
+#align(center)[#image("/papers/2020/img/national_paper_3_science/q8_solution_fig1.png", width: 28%)]
+ 
 
-#align(center)[#image("/papers/2020/img/national_paper_3_science/q8_solution_fig1.png", width: 3.2cm)]
+#mi(`PA=AB=AC=2`)，#mi(`PA`)，#mi(`AB`)，#mi(`AC`) 两两垂直，
 
+故 #mi(`PB=BC=PC=2\sqrt{2}`).
 
-$P A=A B=A C=2$，$P A$，$A B$，$A C$ 两两垂直，
-故 $P B=B C=P C=2 sqrt(2)$.
 几何体的表面积为：
-$3 times (1)/(2) times 2 times 2 +(sqrt(3))/(4) times (2 sqrt(2))^2=6+2 sqrt(3)$.
+
+#mi(`3\times\frac{1}{2}\times2\times2+\frac{\sqrt{3}}{4}\times(2\sqrt{2})^{2}=6+2\sqrt{3}`).
+
 故选：C.
 ]
 
 #problem(9)[
-已知 $2 tan theta - tan ( theta +(pi)/(4))=7$，则 $tan theta =$（ ）
-  #choices([$-2$], [$-1$], [$1$], [$2$], cols: 4)
+已知 #mi(`2\tan\theta-\tan\left( \theta+\dfrac{\pi}{4}\right)=7`)，则 #mi(`\tan\theta=`)（ ）
+  #choices([#mi(`-2`)], [#mi(`-1`)], [#mi(`1`)], [#mi(`2`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-利用两角和差的正切公式将已知等式展开化简，整理成关于 $tan theta$ 的一元二次方程后，再求出 $tan theta$ 的值.
+利用两角和差的正切公式将已知等式展开化简，整理成关于 #mi(`\tan\theta`) 的一元二次方程后，再求出 #mi(`\tan\theta`) 的值.
+
 由
-$2 tan theta - tan ( theta +(pi)/(4))=7$，
+
+#mi(`2\tan\theta-\tan\left( \theta+\frac{\pi}{4}\right)=7`)，
+
 得
-$2 tan theta -(tan theta +1)/(1- tan theta)=7$.
+
+#mi(`2\tan\theta-\frac{\tan\theta+1}{1-\tan\theta}=7`).
+
 即
-$2 tan theta -2 tan ""^2 theta - tan theta -1=7-7 tan theta$，
+
+#mi(`2\tan\theta-2\tan^{2}\theta-\tan\theta-1=7-7\tan\theta`)，
+
 得
-$2 tan ""^2 theta -8 tan theta +8=0$，
+
+#mi(`2\tan^{2}\theta-8\tan\theta+8=0`)，
+
 即
-$tan ""^2 theta -4 tan theta +4=0$.
+
+#mi(`\tan^{2}\theta-4\tan\theta+4=0`).
+
 所以
-$( tan theta -2)^2=0$，
-则 $tan theta =2$.
+
+#mi(`(\tan\theta-2)^{2}=0`)，
+
+则 #mi(`\tan\theta=2`).
+
 故选：D.
 ]
 
 #problem(10)[
-若直线 $l$ 与曲线 $y=sqrt(x)$ 和圆 $x^2+y^2=(1)/(5)$ 都相切，则 $l$ 的方程为（ ）
-  #choices([$y=2 x+1$], [$y=2 x+(1)/(2)$], [$y=(1)/(2)x+1$], [$y=(1)/(2)x+(1)/(2)$], cols: 2)
+若直线 #mi(`l`) 与曲线 #mi(`y=\sqrt{x}`) 和圆 #mi(`x^{2}+y^{2}=\dfrac{1}{5}`) 都相切，则 #mi(`l`) 的方程为（ ）
+  #choices([#mi(`y=2x+1`)], [#mi(`y=2x+\dfrac{1}{2}`)], [#mi(`y=\dfrac{1}{2}x+1`)], [#mi(`y=\dfrac{1}{2}x+\dfrac{1}{2}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-根据直线 $l$ 与圆 $x^2+y^2=(1)/(5)$ 相切，利用选项到圆心的距离等于半径，再将直线与曲线 $y=sqrt(x)$ 求一解可得答案.
-直线 $l$ 与圆 $x^2+y^2=(1)/(5)$ 相切，那么直线到圆心 $(0,0)$ 的距离等于半径 $(sqrt(5))/(5)$.
+根据直线 #mi(`l`) 与圆 #mi(`x^{2}+y^{2}=\dfrac{1}{5}`) 相切，利用选项到圆心的距离等于半径，再将直线与曲线 #mi(`y=\sqrt{x}`) 求一解可得答案.
+
+直线 #mi(`l`) 与圆 #mi(`x^{2}+y^{2}=\dfrac{1}{5}`) 相切，那么直线到圆心 #mi(`(0,0)`) 的距离等于半径 #mi(`\dfrac{\sqrt{5}}{5}`).
+
 四个选项中，只有 A，D 满足题意.
 
-对于 A 选项：$y=2 x+1$ 与 $y=sqrt(x)$ 联立可得
-$2 x-sqrt(x)+1=0$，
+对于 A 选项：#mi(`y=2x+1`) 与 #mi(`y=\sqrt{x}`) 联立可得
+
+#mi(`2x-\sqrt{x}+1=0`)，
+
 此时无解.
 
-对于 D 选项：$y=(1)/(2)x+(1)/(2)$ 与 $y=sqrt(x)$ 联立可得
-$(1)/(2)x-sqrt(x)+(1)/(2)=0$，
-此时解得 $x=1$.
-所以直线 $l$ 与曲线 $y=sqrt(x)$ 和圆 $x^2+y^2=(1)/(5)$ 都相切，方程为
-$y=(1)/(2)x+(1)/(2)$.
+对于 D 选项：#mi(`y=\dfrac{1}{2}x+\dfrac{1}{2}`) 与 #mi(`y=\sqrt{x}`) 联立可得
+
+#mi(`\frac{1}{2}x-\sqrt{x}+\frac{1}{2}=0`)，
+
+此时解得 #mi(`x=1`).
+
+所以直线 #mi(`l`) 与曲线 #mi(`y=\sqrt{x}`) 和圆 #mi(`x^{2}+y^{2}=\dfrac{1}{5}`) 都相切，方程为
+
+#mi(`y=\frac{1}{2}x+\frac{1}{2}`).
+
 故选：D.
 ]
 
 #problem(11)[
-设双曲线 $C:(x^2)/(a^2)-(y^2)/(b^2)=1$（$a>0$，$b>0$）的左，右焦点分别为 $F_1$，$F_2$，离心率为 $sqrt(5)$. $P$ 是 $C$ 上一点，且 $F_(1) P bot F_(2) P$. 若 $triangle P F_(1) F_2$ 的面积为 $4$，则 $a=$（ ）
-  #choices([$1$], [$2$], [$4$], [$8$], cols: 4)
+设双曲线 #mi(`C:\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1`)（#mi(`a>0`)，#mi(`b>0`)）的左，右焦点分别为 #mi(`F_{1}`)，#mi(`F_{2}`)，离心率为 #mi(`\sqrt{5}`). #mi(`P`) 是 #mi(`C`) 上一点，且 #mi(`F_{1}P\perp F_{2}P`). 若 #mi(`\triangle PF_{1}F_{2}`) 的面积为 #mi(`4`)，则 #mi(`a=`)（ ）
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`4`)], [#mi(`8`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-利用双曲线的定义，三角形的面积公式以及双曲线的离心率建立关于 $a$，$c$ 的方程组，再通过化简求出 $a$ 的值.
-由题意，设 $P F_2=m$，$P F_1=n$，可得
-$m-n=2 a$，$(1)/(2)m n=4$，$m^2+n^2=4 c^2$，$e=(c)/(a)=sqrt(5)$.
+利用双曲线的定义，三角形的面积公式以及双曲线的离心率建立关于 #mi(`a`)，#mi(`c`) 的方程组，再通过化简求出 #mi(`a`) 的值.
+
+由题意，设 #mi(`PF_{2}=m`)，#mi(`PF_{1}=n`)，可得
+
+#mi(`m-n=2a`)，#mi(`\frac{1}{2}mn=4`)，#mi(`m^{2}+n^{2}=4c^{2}`)，#mi(`e=\frac{c}{a}=\sqrt{5}`).
+
 可得
-$4 c^2=16+4 a^2$，
+
+#mi(`4c^{2}=16+4a^{2}`)，
+
 又
-$c^2=5 a^2$，
+
+#mi(`c^{2}=5a^{2}`)，
+
 所以
-$5 a^2=4+a^2$.
-解得 $a=1$.
+
+#mi(`5a^{2}=4+a^{2}`).
+
+解得 #mi(`a=1`).
+
 故选：A.
 ]
 
 #problem(12)[
-已知 $5^5<8^4$，$13^4<8^5$. 设 $a= log _5 3$，$b= log _8 5$，$c= log _(13) 8$，则（ ）
-  #choices([$a<b<c$], [$b<a<c$], [$b<c<a$], [$c<a<b$], cols: 4)
+已知 #mi(`5^{5}<8^{4}`)，#mi(`13^{4}<8^{5}`). 设 #mi(`a=\log_{5} 3`)，#mi(`b=\log_{8} 5`)，#mi(`c=\log_{13}8`)，则（ ）
+  #choices([#mi(`a<b<c`)], [#mi(`b<a<c`)], [#mi(`b<c<a`)], [#mi(`c<a<b`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-根据 $(a)/(b)$ 的大小，可得 $a<b$，然后由 $b= log _8 5<0.8$ 和 $c= log _(13) 8>0.8$，得到 $c>b$，再确定 $a$，$b$，$c$ 的大小关系.
-$(a)/(b)=(log _5 3)/(log _8 5)= log _5 3 dot log _5 8<(( log _5 3+ log _5 8)^2)/(4)=( (log _5 24)/(2))^2<1$，所以 $a<b$.
-因为 $5^5<8^4$，所以
-$5<4 log _5 8$，
+根据 #mi(`\dfrac{a}{b}`) 的大小，可得 #mi(`a<b`)，然后由 #mi(`b=\log_{8} 5<0.8`) 和 #mi(`c=\log_{13}8>0.8`)，得到 #mi(`c>b`)，再确定 #mi(`a`)，#mi(`b`)，#mi(`c`) 的大小关系.
+
+#mi(`\frac{a}{b}=\frac{\log_{5} 3}{\log_{8} 5}=\log_{5} 3\cdot\log_{5} 8<\frac{(\log_{5} 3+\log_{5} 8)^{2}}{4}=\left( \frac{\log_{5} 24}{2}\right)^{2}<1`)，所以 #mi(`a<b`).
+
+因为 #mi(`5^{5}<8^{4}`)，所以
+
+#mi(`5<4\log_{5} 8`)，
+
 即
-$log _5 8>1.25$，
+
+#mi(`\log_{5} 8>1.25`)，
+
 从而
-$b= log _8 5<0.8$.
-因为 $13^4<8^5$，所以
-$4<5 log _(13) 8$，
+
+#mi(`b=\log_{8} 5<0.8`).
+
+因为 #mi(`13^{4}<8^{5}`)，所以
+
+#mi(`4<5\log_{13}8`)，
+
 即
-$c= log _(13) 8>0.8$.
-所以 $c>b>a$.
+
+#mi(`c=\log_{13}8>0.8`).
+
+所以 #mi(`c>b>a`).
+
 故选：A.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-若 $x$，$y$ 满足 $\b e g i n{c a s e s} x+y >= 0 \\ 2 x-y >= 0 \\ x <= 1 \e n d{c a s e s}$
-，则 $z=3 x+2 y$ 的最大值为#blank(){}.
+若 #mi(`x`)，#mi(`y`) 满足 #mi(`\begin{cases}x+y\ge0\\  2x-y\ge0\\  x\le1\end{cases}`)
+
+，则 #mi(`z=3x+2y`) 的最大值为\underline{\hspace{2.5em}}.
 ]
 
 #answer([7])
 
 #solution[
-先根据约束条件画出可行域，再利用几何意义求最值；因为 $z=3 x+2 y$ 表示一族直线，所以通过考察这条直线在可行域内经过点时对应截距的变化，可以确定目标函数的最大值.
-先根据约束条件画出可行域，由 $\b e g i n{c a s e s} x=1\\ 2 x-y=0 \e n d{c a s e s}$
-解得 $A(1,2)$，
+先根据约束条件画出可行域，再利用几何意义求最值；因为 #mi(`z=3x+2y`) 表示一族直线，所以通过考察这条直线在可行域内经过点时对应截距的变化，可以确定目标函数的最大值.
 
+先根据约束条件画出可行域，由 #mi(`\begin{cases}x=1\\  2x-y=0\end{cases}`)
 
-#align(center)[#image("/papers/2020/img/national_paper_3_science/q13_solution_fig1.png", width: 4.2cm)]
+解得 #mi(`A(1,2)`)，
 
+ 
+#align(center)[#image("/papers/2020/img/national_paper_3_science/q13_solution_fig1.png", width: 28%)]
+ 
 
-如图，当直线 $z=3 x+2 y$ 过点 $A(1,2)$ 时，目标函数在 $y$ 轴上的截距取得最大值时，此时 $z$ 取得最大值，
-即当 $x=1$，$y=2$ 时，
-$z_( max )=3 times 1 +2 times 2 =7$.
-故答案为：$7$.
+如图，当直线 #mi(`z=3x+2y`) 过点 #mi(`A(1,2)`) 时，目标函数在 #mi(`y`) 轴上的截距取得最大值时，此时 #mi(`z`) 取得最大值，
+
+即当 #mi(`x=1`)，#mi(`y=2`) 时，
+
+#mi(`z_{\max}=3\times1+2\times2=7`).
+
+故答案为：#mi(`7`).
 ]
 
 #problem(14)[
-$( x^2+(2)/(x))^6$ 的展开式中常数项是#blank(){}（用数字作答）.
+#mi(`\left( x^{2}+\dfrac{2}{x}\right)^{6}`) 的展开式中常数项是\underline{\hspace{2.5em}}（用数字作答）.
 ]
 
 #answer([240])
 
 #solution[
-先写出二项式展开式的通项公式，再令 $x$ 的幂指数等于 $0$ 求出对应项的序号，最后代入通项公式计算展开式中的常数项.
-由于 $( x^2+(2)/(x))^6$ 的展开式的通项公式为
-$T_(r+1)=C_6^r dot 2 ""^r dot x^(12-3 r)$，
+先写出二项式展开式的通项公式，再令 #mi(`x`) 的幂指数等于 #mi(`0`) 求出对应项的序号，最后代入通项公式计算展开式中的常数项.
+
+由于 #mi(`\left( x^{2}+\dfrac{2}{x}\right)^{6}`) 的展开式的通项公式为
+
+#mi(`T_{r+1}=C_{6}^{r}\cdot2^{r}\cdot x^{12-3r}`)，
+
 令
-$12-3 r=0$，
-求得 $r=4$，故常数项的值等于
-$C_6^4 dot 2 ""^4=240$.
-故答案为：$240$.
+
+#mi(`12-3r=0`)，
+
+求得 #mi(`r=4`)，故常数项的值等于
+
+#mi(`C_{6}^{4}\cdot2^{4}=240`).
+
+故答案为：#mi(`240`).
 ]
 
 #problem(15)[
-已知圆锥的底面半径为 $1$，母线长为 $3$，则该圆锥内半径最大的球的体积为#blank(){} $pi$.
+已知圆锥的底面半径为 #mi(`1`)，母线长为 #mi(`3`)，则该圆锥内半径最大的球的体积为\underline{\hspace{2.5em}} #mi(`\pi`).
 ]
 
-#answer([$(sqrt(2))/(3) pi$])
+#answer([#mi(`\dfrac{\sqrt{2}}{3}\pi`)])
 
 #solution[
 取圆锥的轴截面，设圆锥内半径最大的球在该截面内对应的圆与三角形的底边和两腰都相切，则该球就是圆锥的内切球；再由相似三角形求出该内切球的半径，最后利用球的体积公式计算所求体积.
+
 因为圆锥内半径最大的球应该为该圆锥的内切球，
 
+ 
+#align(center)[#image("/papers/2020/img/national_paper_3_science/q15_solution_fig1.png", width: 28%)]
+ 
 
-#align(center)[#image("/papers/2020/img/national_paper_3_science/q15_solution_fig1.png", width: 4.2cm)]
+如图，圆锥母线 #mi(`BS=3`)，底面半径 #mi(`BC=1`)，则其高
 
+#mi(`SC=\sqrt{BS^{2}-BC^{2}}=2\sqrt{2}`).
 
-如图，圆锥母线 $B S=3$，底面半径 $B C=1$，则其高
-$S C=sqrt(B S^2-B C^2)=2 sqrt(2)$.
-不妨设该内切球与母线 $B S$ 切于点 $D$，令 $O D=O C=r$，由 $triangle S O D tilde triangle S B C$，则
-$(O D)/(O S)=(B C)/(B S)$，
+不妨设该内切球与母线 #mi(`BS`) 切于点 #mi(`D`)，令 #mi(`OD=OC=r`)，由 #mi(`\triangle SOD\sim\triangle SBC`)，则
+
+#mi(`\frac{OD}{OS}=\frac{BC}{BS}`)，
+
 即
-$(r)/(2 sqrt(2)-r)=(1)/(3)$，
+
+#mi(`\frac{r}{2\sqrt{2}-r}=\frac{1}{3}`)，
+
 解得
-$r=(sqrt(2))/(2)$.
+
+#mi(`r=\frac{\sqrt{2}}{2}`).
+
 所以
-$V=(4)/(3) pi r^3=(sqrt(2))/(3) pi$.
-故答案为：$(sqrt(2))/(3) pi$.
+
+#mi(`V=\frac{4}{3}\pi r^{3}=\frac{\sqrt{2}}{3}\pi`).
+
+故答案为：#mi(`\dfrac{\sqrt{2}}{3}\pi`).
 ]
 
 #problem(16)[
-关于函数 $f(x)= sin x+(1)/(sin x)$ 有如下四个命题：
+关于函数 #mi(`f(x)=\sin x+\dfrac{1}{\sin x}`) 有如下四个命题：
 
-\begin{circlelist}
-\item $f(x)$ 的图象关于 $y$ 轴对称；
-\item $f(x)$ 的图象关于原点对称；
-\item $f(x)$ 的图象关于直线 $x=(pi)/(2)$ 对称；
-\item $f(x)$ 的最小值为 $2$.
-\end{circlelist}
 
-其中所有真命题的序号是#blank(){}.
++ (1) #mi(`f(x)`) 的图象关于 #mi(`y`) 轴对称；
++ (2) #mi(`f(x)`) 的图象关于原点对称；
++ (3) #mi(`f(x)`) 的图象关于直线 #mi(`x=\dfrac{\pi}{2}`) 对称；
++ (4) #mi(`f(x)`) 的最小值为 #mi(`2`).
+
+
+
+其中所有真命题的序号是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$"[2]""[3]"$])
+#answer([#mi(`②③`)])
 
 #solution[
 根据函数奇偶性的定义，图象对称性的判定以及函数值范围的分析，分别判断四个命题的真假，再写出所有真命题的序号.
 
-对于 "①"，由 $sin x != 0$ 可得函数的定义域为 $\{x | x != k pi ,k in ZZ \}$，故定义域关于原点对称，
-$f(-x)= sin (-x)+(1)/(sin (-x))=- sin x-(1)/(sin x)=-f(x)$.
-所以该函数为奇函数，关于原点对称，所以 "①" 错 "②" 对；
+对于 ①，由 #mi(`\sin x\ne0`) 可得函数的定义域为 #mi(`\{x\mid x\ne k\pi,k\in \mathbb{Z}\}`)，故定义域关于原点对称，
 
-对于 "③"，由
-$f( pi -x)= sin ( pi -x)+(1)/(sin ( pi -x))= sin x+(1)/(sin x)=f(x)$，
-所以该函数 $f(x)$ 关于 $x=(pi)/(2)$ 对称，"③" 对；
+#mi(`f(-x)=\sin(-x)+\frac{1}{\sin(-x)}=-\sin x-\frac{1}{\sin x}=-f(x)`).
 
-对于 "④"，令 $t= sin x$，则 $t in [-1,0) union (0,1]$，由双勾函数 $g(t)=t+(1)/(t)$ 的性质，可知
-$g(t)=t+(1)/(t) in (- oo ,-2] union [2,+ oo )$，
-所以 $f(x)$ 无最小值，"④" 错；
-故答案为：$"[2]""[3]"$.
+所以该函数为奇函数，关于原点对称，所以 ① 错 ② 对；
+
+对于 ③，由
+
+#mi(`f(\pi-x)=\sin(\pi-x)+\frac{1}{\sin(\pi-x)}=\sin x+\frac{1}{\sin x}=f(x)`)，
+
+所以该函数 #mi(`f(x)`) 关于 #mi(`x=\dfrac{\pi}{2}`) 对称，③ 对；
+
+对于 ④，令 #mi(`t=\sin x`)，则 #mi(`t\in[-1,0)\cup(0,1]`)，由双勾函数 #mi(`g(t)=t+\dfrac{1}{t}`) 的性质，可知
+
+#mi(`g(t)=t+\frac{1}{t}\in(-\infty,-2]\cup[2,+\infty)`)，
+
+所以 #mi(`f(x)`) 无最小值，④ 错；
+
+故答案为：#mi(`②③`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-设数列 $\{a_n\}$ 满足 $a_1=3$，$a_(n+1)=3 a_n-4 n$.
+设数列 #mi(`\{a_{n}\}`) 满足 #mi(`a_{1}=3`)，#mi(`a_{n+1}=3a_{n}-4n`).
 
 
-+ (1) 计算 $a_2$，$a_3$，猜想 $\{a_n\}$ 的通项公式并加以证明；
-+ (2) 求数列 $\{2^(n) a_n\}$ 的前 $n$ 项和 $S_n$.
++ (1)
 ]
 
 #solution[
-+ (1) 数列 $\{a_n\}$ 满足 $a_1=3$，$a_(n+1)=3 a_n-4 n$，
-则 $a_2=3 a_1-4=5$，$a_3=3 a_2-4 times 2 =7$，...，
-猜想 $\{a_n\}$ 的通项公式为 $a_n=2 n+1$.
-证明如下：$1^(\o d o t)$ 当 $n=1$ 时，$a_1=3=2 times 1 +1$；当 $n=2$ 时，$a_2=5=2 times 2 +1$；当 $n=3$ 时，$a_3=7=2 times 3 +1$，所以猜想在 $n=1$，$2$，$3$ 时成立，
-
-$2^(\o d o t)$ 假设 $n=k$ 时，$a_k=2 k+1$（$k in NN ""^+$）成立，
-当 $n=k+1$ 时，
-$a_(k+1)=3 a_k-4 k=3(2 k+1)-4 k=2 k+3=2(k+1)+1$，
-故 $n=k+1$ 时成立，
-由$1^(\o d o t)$，$2^(\o d o t)$知，$a_n=2 n+1$，猜想成立，
-所以 $\{a_n\}$ 的通项公式 $a_n=2 n+1$.
-+ (2) 令
-$b_n=2^(n) a_n=(2 n+1) dot 2 ""^n$，
-则数列 $\{2^(n) a_n\}$ 的前 $n$ 项和
-$S_n=3 times 2 ""^1+5 times 2 ""^2+ dots.c +(2 n+1)2^n$，$dots.c "[1]"$
-两边同乘 $2$ 得，
-$2 S_n=3 times 2 ""^2+5 times 2 ""^3+ dots.c +(2 n+1)2^(n+1)$，$dots.c "[2]"$
-"①"－"②" 得，
-$-S_n=3 times 2 +2 times 2 ""^2+ dots.c +2 times 2 ""^n-(2 n+1)2^(n+1) =6+(8(1-2^(n-1)))/(1-2)-(2 n+1)2^(n+1)$，
-所以
-$S_n=(2 n-1)2^(n+1)+2$.
++ (1)
 ]
 
 #problem(18)[
-某学生兴趣小组随机调查了某市 $100$ 天中每天的空气质量等级和当天到某公园锻炼的人次，整理数据得到下表（单位：天）：
+某学生兴趣小组随机调查了某市 #mi(`100`) 天中每天的空气质量等级和当天到某公园锻炼的人次，整理数据得到下表（单位：天）：
 
-\begin{center}
-\begin{tabular}{c|ccc}
-锻炼人次 & $[0,200]$ & $(200,400]$ & $(400,600]$ \\
+锻炼人次 & #mi(`[0,200]`) & #mi(`(200,400]`) & #mi(`(400,600]`) \\
+
 \hline
-空气质量等级 $1$（优） & 2 & 16 & 25 \\
-空气质量等级 $2$（良） & 5 & 10 & 12 \\
-空气质量等级 $3$（轻度污染） & 6 & 7 & 8 \\
-空气质量等级 $4$（中度污染） & 7 & 2 & 0
-\end{tabular}
-\end{center}
+
+空气质量等级 #mi(`1`)（优） & 2 & 16 & 25 \\
+
+空气质量等级 #mi(`2`)（良） & 5 & 10 & 12 \\
+
+空气质量等级 #mi(`3`)（轻度污染） & 6 & 7 & 8 \\
+
+空气质量等级 #mi(`4`)（中度污染） & 7 & 2 & 0
 
 
-+ (1) 分别估计该市一天的空气质量等级为 $1$，$2$，$3$，$4$ 的概率；
-+ (2) 求一天中到该公园锻炼的平均人次的估计值（同一组中的数据用该组区间的中点值为代表）；
-+ (3) 若某天的空气质量等级为 $1$ 或 $2$，则称这天“空气质量好”；若某天的空气质量等级为 $3$ 或 $4$，则称这天“空气质量不好”. 根据所给数据，完成下面的 $2 times 2$ 列联表，并根据列联表，判断是否有 $95\%$ 的把握认为一天中到该公园锻炼的人次与该市当天的空气质量有关？
++ (1) 
++ (2) 
 
 
-\begin{center}
-\begin{tabular}{c|cc}
- & 人次$<= 400$ & 人次$>400$ \\
+
+& 人次#mi(`\le400`) & 人次#mi(`>400`) \\
+
 \hline
-空气质量好 &  &  \\
-空气质量不好 &  &
-\end{tabular}
-\end{center}
 
-附：$K^2=(n(a d-b c)^2)/((a+b)(c+d)(a+c)(b+d))$.
+空气质量好 & & \\
 
-\begin{center}
-\begin{tabular}{c|ccc}
-$P(K^2 >= k)$ & 0.050 & 0.010 & 0.001 \\
+空气质量不好 & &
+
+附：#mi(`K^{2}=\dfrac{n(ad-bc)^2}{(a+b)(c+d)(a+c)(b+d)}`).
+
+#mi(`P(K^{2}\ge k)`) & 0.050 & 0.010 & 0.001 \\
+
 \hline
-$k$ & 3.841 & 6.635 & 10.828
-\end{tabular}
-\end{center}
+
+#mi(`k`) & 3.841 & 6.635 & 10.828
 ]
 
 #solution[
-+ (1) 该市一天的空气质量等级为 $1$ 的概率为 $(43)/(100)$，等级为 $2$ 的概率为 $(27)/(100)$，等级为 $3$ 的概率为 $(21)/(100)$，等级为 $4$ 的概率为 $(9)/(100)$.
-+ (2) 由题意可得：一天中到该公园锻炼的平均人次的估计值为：
-$overline(x)=100 times 0 .20+300 times 0 .35+500 times 0 .45=350$.
-+ (3) 根据所给数据，可得下面的 $2 times 2$ 列联表，
-\examdisplayarray{}{c|cc|c}{
- & \text{人次}\le400 & \text{人次}>400 & \text{总计} \\
-\hline
-\text{空气质量好} & 33 & 37 & 70 \\
-\text{空气质量不好} & 22 & 8 & 30 \\
-\hline
-\text{总计} & 55 & 45 & 100
-}{}
-由表中数据可得：
-$K^2=(100(33 times 8 -37 times 22 )^2)/(70 times 30 times 55 times 45) approx 5 .820>3.841$，
-所以有 $95\%$ 的把握认为一天中到该公园锻炼的人次与该市当天的空气质量有关.
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-如图，在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，点 $E$，$F$ 分别在棱 $D D_1$，$B B_1$ 上，且 $2 D E=E D_1$，$B F=2 F B_1$.
+如图，在长方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，点 #mi(`E`)，#mi(`F`) 分别在棱 #mi(`DD_{1}`)，#mi(`BB_{1}`) 上，且 #mi(`2DE=ED_{1}`)，#mi(`BF=2FB_{1}`).
 
 
-+ (1) 证明：点 $C_1$ 在平面 $A E F$ 内；
-+ (2) 若 $A B=2$，$A D=1$，$A A_1=3$，求二面角 $A-E F-A_1$ 的正弦值.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2020/img/national_paper_3_science/q19_fig1.png", width: 6.0cm)]
+
+#align(center)[#image("/papers/2020/img/national_paper_3_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 证明：在 $A A_1$ 上取点 $M$，使得 $A_(1) M=2 A M$，连接 $E M$，$M B_1$，$E C_1$，$F C_1$，
-在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，有 $D D_1 parallel A A_1 parallel B B_1$，且 $D D_1=A A_1=B B_1$.
-又 $2 D E=E D_1$，$A_(1) M=2 A M$，$B F=2 F B_1$，所以 $D E=A M=F B_1$.
-所以四边形 $B_(1) F A M$ 和四边形 $E D A M$ 都是平行四边形.
-所以 $A F parallel M B_1$，且 $A F=M B_1$，$A D parallel M E$，且 $A D=M E$.
-又在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，有 $A D parallel B_(1) C_1$，且 $A D=B_(1) C_1$，
-所以 $B_(1) C_1 parallel M E$ 且 $B_(1) C_1=M E$，则四边形 $B_(1) C_(1) E M$ 为平行四边形，
-所以 $E C_1 parallel M B_1$，且 $E C_1=M B_1$.
-又 $A F parallel M B_1$，且 $A F=M B_1$，所以 $A F parallel E C_1$，且 $A F=E C_1$，
-则四边形 $A F C_(1) E$ 为平行四边形，
-所以点 $C_1$ 在平面 $A E F$ 内.
-+ (2) 在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，以 $C_1$ 为坐标原点，分别以 $C_(1) D_1$，$C_(1) B_1$，$C_(1) C$ 所在直线为 $x$，$y$，$z$ 轴建立空间直角坐标系.
-因为 $A B=2$，$A D=1$，$A A_1=3$，$2 D E=E D_1$，$B F=2 F B_1$，
-所以 $A(2,1,3)$，$E(2,0,2)$，$F(0,1,1)$，$A_1(2,1,0)$.
-于是 $arrow(E F)=(-2,1,-1)$，$arrow(A E)=(0,-1,-1)$，$arrow(A_(1) E)=(0,-1,2)$.
-设平面 $A E F$ 的一个法向量为 $bold(n)_1=(x_1,y_1,z_1)$.
-则 $\b e g i n{c a s e s} bold(n)_1\c d o t a r r o w(E F)=-2 x_1+y_1-z_1=0\\ bold(n)_1\c d o t a r r o w(A E)=-y_1-z_1=0 \e n d{c a s e s}$
-取 $x_1=1$，得 $bold(n)_1=(1,1,-1)$；
-
-设平面 $A_(1) E F$ 的一个法向量为 $bold(n)_2=(x_2,y_2,z_2)$.
-则 $\b e g i n{c a s e s} bold(n)_2\c d o t a r r o w(E F)=-2 x_2+y_2-z_2=0\\ bold(n)_2\c d o t a r r o w(A_(1) E)=-y_2+2 z_2=0 \e n d{c a s e s}$
-取 $x_2=1$，得 $bold(n)_2=(1,4,2)$.
-所以 $cos chevron.l bold(n)_1,bold(n)_2 chevron.r =(|bold(n)_1\c d o t b o l d(n)_2|)/(|bold(n)_1| dot |bold(n)_2|)=(|1+4-2|)/(sqrt(3)\c d o t s q r t(21))=(sqrt(7))/(7)$.
-设二面角 $A-E F-A_1$ 为 $theta$，则
-$sin theta =sqrt(1-(1)/(7))=(sqrt(42))/(7)$.
-所以二面角 $A-E F-A_1$ 的正弦值为 $(sqrt(42))/(7)$.
++ (1)
 ]
 
 #problem(20)[
-已知椭圆 $C:(x^2)/(25)+(y^2)/(m^2)=1$（$0<m<5$）的离心率为 $(sqrt(15))/(4)$，$A$，$B$ 分别为 $C$ 的左，右顶点.
+已知椭圆 #mi(`C:\dfrac{x^2}{25}+\dfrac{y^2}{m^2}=1`)（#mi(`0<m<5`)）的离心率为 #mi(`\dfrac{\sqrt{15}}{4}`)，#mi(`A`)，#mi(`B`) 分别为 #mi(`C`) 的左，右顶点.
 
 
-+ (1) 求 $C$ 的方程；
-+ (2) 若点 $P$ 在 $C$ 上，点 $Q$ 在直线 $x=6$ 上，且 $|B P|=|B Q|$，$B P bot B Q$，求 $triangle A P Q$ 的面积.
++ (1)
 ]
 
 #solution[
-+ (1) 由
-$e=(c)/(a)$
-得
-$e^2=1-(b^2)/(a^2)$，
-即
-$(15)/(16)=1-(m^2)/(25)$，
-所以
-$m^2=(25)/(16)$.
-故椭圆 $C$ 的方程是
-$(x^2)/(25)+(16 y^2)/(25)=1$.
-+ (2) 由（1）知 $A(-5,0)$，设 $P(s,t)$，点 $Q(6,n)$.
-根据对称性，只需考虑 $n>0$ 的情况. 此时 $-5<s<5$，$0<t <= (5)/(4)$.
-因为 $|B P|=|B Q|$，所以
-$(s-5)^2+t^2=n^2+1 "[1]"$
-又因为 $B P bot B Q$，所以
-$s-5+n t=0 "[2]"$
-且
-$(s^2)/(25)+(16 t^2)/(25)=1 "[3]"$
-联立 "①""②""③"，得
-
-
-$ \b e g i n{c a s e s} s=3,\\ t=1,\\ n=2 \e n d{c a s e s} "或"\b e g i n{c a s e s} s=-3,\\ t=1,\\ n=8. \e n d{c a s e s} $
-
-
-当 $s=3$，$t=1$，$n=2$ 时，$P(3,1)$，$Q(6,2)$，而 $A(-5,0)$，
-$arrow(A P)=(8,1)$，$arrow(A Q)=(11,2)$.
-所以
-$S_( triangle A P Q)=(1)/(2)| 8 times 2 -11 times 1 |=(5)/(2)$.
-
-当 $s=-3$，$t=1$，$n=8$ 时，$P(-3,1)$，$Q(6,8)$，而 $A(-5,0)$，
-$arrow(A P)=(2,1)$，$arrow(A Q)=(11,8)$.
-所以
-$S_( triangle A P Q)=(1)/(2)| 2 times 8 -11 times 1 |=(5)/(2)$.
-综上，$triangle A P Q$ 的面积是 $(5)/(2)$.
++ (1)
 ]
 
 #problem(21)[
-设函数 $f(x)=x^3+b x+c$，曲线 $y=f(x)$ 在点 $( (1)/(2),f( (1)/(2)) )$ 处的切线与 $y$ 轴垂直.
+设函数 #mi(`f(x)=x^{3}+bx+c`)，曲线 #mi(`y=f(x)`) 在点 #mi(`\left( \dfrac{1}{2},f\left( \dfrac{1}{2}\right) \right)`) 处的切线与 #mi(`y`) 轴垂直.
 
 
-+ (1) 求 $b$；
-+ (2) 若 $f(x)$ 有一个绝对值不大于 $1$ 的零点，证明：$f(x)$ 所有零点的绝对值都不大于 $1$.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $f(x)=x^3+b x+c$，得
-$f'(x)=3 x^2+b$.
-由题意可得
-$f'( (1)/(2))=3 times ( (1)/(2))^2+b=0$，
-即
-$b=-(3)/(4)$.
-+ (2) 证明：设 $x_0$ 为 $f(x)$ 的一个零点，根据题意，
-$f(x_0)=x_0^3-(3)/(4)x_0+c=0$，
-且 $|x_0| <= 1$，则
-$c=-x_0^3+(3)/(4)x_0$.
-由 $|x_0| <= 1$，令
-$c(x)=-x^3+(3)/(4)x$（$-1 <= x <= 1$），
-则
-$c'(x)=-3 x^2+(3)/(4)=-3( x+(1)/(2))( x-(1)/(2))$.
-当 $x in ( -1,-(1)/(2)) union ( (1)/(2),1 )$ 时，$c'(x)<0$，当 $x in ( -(1)/(2),(1)/(2))$ 时，$c'(x)>0$.
-可知 $c(x)$ 在 $( -1,-(1)/(2))$，$( (1)/(2),1 )$ 上单调递减，在 $( -(1)/(2),(1)/(2))$ 上单调递增.
-又 $c(-1)=(1)/(4)$，$c(1)=-(1)/(4)$，$c( -(1)/(2))=-(1)/(4)$，$c( (1)/(2))=(1)/(4)$，
-所以
-$-(1)/(4) <= c <= (1)/(4)$.
-设 $x_1$ 为 $f(x)$ 的零点，则必有
-$f(x_1)=x_1^3-(3)/(4)x_1+c=0$，
-即
-$-(1)/(4) <= -x_1^3+(3)/(4)x_1 <= (1)/(4)$.
-所以 $\b e g i n{c a s e s} 4 x_1^3-3 x_1-1=(x_1-1)(2 x_1+1)^2 <= 0 ,\\ 4 x_1^3-3 x_1+1=(x_1+1)(2 x_1-1)^2 >= 0 \e n d{c a s e s}$
-可得 $-1 <= x_1 <= 1$，即 $|x_1| <= 1$.
-所以 $f(x)$ 所有零点的绝对值都不大于 $1$.
++ (1)
 ]
 
 #part-header("选考题：解答题")
 
 #problem(22)[
-在直角坐标系 $x O y$ 中，曲线 $C$ 的参数方程为 $x=2-t-t^2$，$y=2-3 t+t^2$（$t$ 为参数且 $t != 1$），$C$ 与坐标轴交于 $A$，$B$ 两点.
+在直角坐标系 #mi(`xOy`) 中，曲线 #mi(`C`) 的参数方程为 #mi(`x=2-t-t^{2}`)，#mi(`y=2-3t+t^{2}`)（#mi(`t`) 为参数且 #mi(`t\ne1`)），#mi(`C`) 与坐标轴交于 #mi(`A`)，#mi(`B`) 两点.
 
 
-+ (1) 求 $|A B|$；
-+ (2) 以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系，求直线 $A B$ 的极坐标方程.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $x=0$ 时，可得 $t=-2$（$1$ 舍去），代入 $y=2-3 t+t^2$，可得 $y=12$.
-当 $y=0$ 时，可得 $t=2$（$1$ 舍去），代入 $x=2-t-t^2$，可得 $x=-4$.
-所以曲线 $C$ 与坐标轴的交点为 $(-4,0)$，$(0,12)$，故
-$|A B|=sqrt((-4)^2+12^2)=4 sqrt(10)$.
-+ (2) 由（1）可得直线 $A B$ 过点 $(0,12)$，$(-4,0)$，所以直线 $A B$ 的方程为
-$(y)/(12)-(x)/(4)=1$，
-即
-$3 x-y+12=0$.
-由
-$x= rho cos theta$，$y= rho sin theta$，
-可得直线 $A B$ 的极坐标方程为
-$3 rho cos theta - rho sin theta +12=0$.
++ (1)
 ]
 
 #problem(23)[
-设 $a$，$b$，$c in RR$，$a+b+c=0$，$a b c=1$.
+设 #mi(`a`)，#mi(`b`)，#mi(`c\in \mathbb{R}`)，#mi(`a+b+c=0`)，#mi(`abc=1`).
 
 
-+ (1) 证明：$a b+b c+c a<0$；
-+ (2) 用 $max \{a,b,c\}$ 表示 $a$，$b$，$c$ 中的最大值，证明：$max \{a,b,c\} >= root(3, 4)$.
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $a+b+c=0$，所以
-$(a+b+c)^2=0$，
-即
-$a^2+b^2+c^2+2 a b+2 a c+2 b c=0$.
-所以
-$2 a b+2 a c+2 b c=-(a^2+b^2+c^2)$.
-又因为 $a b c=1$，所以 $a$，$b$，$c$ 均不为 $0$，从而
-$2 a b+2 a c+2 b c=-(a^2+b^2+c^2)<0$.
-故
-$a b+a c+b c<0$.
-+ (2) 不妨设 $a <= b<0<c<root(3, 4)$，则
-$a b=(1)/(c)>(1)/(root(3, 4))$.
-又因为 $a+b+c=0$，所以
-$-a-b=c<root(3, 4)$.
-而
-$-a-b >= 2 sqrt(a b)>2 sqrt((1)/(root(3, 4)))=root(3, 4)$，
-与假设矛盾.
-故
-$max \{a,b,c\} >= root(3, 4)$.
++ (1)
 ]
 

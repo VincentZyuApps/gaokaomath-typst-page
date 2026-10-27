@@ -174,7 +174,9 @@
 #problem(16)[
 #mi(`f(x)`) 是定义在区间 #mi(`[-c, c]`) 上的奇函数，其图象如图所示：令 #mi(`g(x) = af(x) + b`)，则下列关于函数 #mi(`g(x)`) 的叙述正确的是（ ）
 
-[max width=0.42\linewidth]img/2003/shanghai_liberal/q16_fig1.png
+
+#align(center)[#image("/papers/2003/img/shanghai_liberal/q16_fig1.png", width: 28%)]
+
   #choices([若 #mi(`a < 0`)，则函数 #mi(`g(x)`) 的图象关于原点对称], [若 #mi(`a = -1`)，#mi(`-2 < b < 0`)，则方程 #mi(`g(x) = 0`) 有大于 2 的实根], [若 #mi(`a \neq 0`)，#mi(`b = 2`)，则方程 #mi(`g(x) = 0`) 有两个实根], [若 #mi(`a \ge 1`)，#mi(`b < 2`)，则方程 #mi(`g(x) = 0`) 有三个实根], cols: 1)
 ]
 
@@ -203,7 +205,9 @@
 #problem(18)[
 已知平行六面体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`A_{1}A \perp`) 平面 #mi(`ABCD`)，#mi(`AB = 4`)，#mi(`AD = 2`). 若 #mi(`B_{1}D \perp BC`)，直线 #mi(`B_{1}D`) 与平面 #mi(`ABCD`) 所成的角等于 #mi(`30^{\circ}`)，求平行六面体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 的体积.
 
-[max width=0.42\linewidth]img/2003/shanghai_liberal/q18_fig1.png
+
+#align(center)[#image("/papers/2003/img/shanghai_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -240,7 +244,9 @@
 
 半个椭圆的面积公式为 #mi(`S = \frac{\pi}{4}lh`)，柱体体积等于底面积乘以高，结果精确到 #mi(`0.1\text{ \text{米}}`).
 
-[max width=0.5\linewidth]img/2003/shanghai_liberal/q20_fig1.png
+
+#align(center)[#image("/papers/2003/img/shanghai_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[

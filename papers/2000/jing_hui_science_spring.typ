@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,323 +11,332 @@
 #part-header("单选题")
 
 #problem(1)[
-复数 $z_(1) = 3 + i$，$z_(2) = 1 - i$，则 $z = z_(1) dot z_(2)$ 在复平面内的对应点位于（ ）
+复数 #mi(`z_{1}= 3 + \mathrm{i}`)，#mi(`z_{2}= 1 - \mathrm{i}`)，则 #mi(`z = z_{1}\cdot z_{2}`) 在复平面内的对应点位于（ ）
   #choices([第一象限], [第二象限], [第三象限], [第四象限], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-$z=(3+ i )(1- i )=3-3 i + i - i ""^(2)=4-2 i$. 因为实部为正、虚部为负，所以对应点位于第四象限，故选 D.
+#mi(`z=(3+\mathrm{i})(1-\mathrm{i})=3-3\mathrm{i}+\mathrm{i}-\mathrm{i}^{2}=4-2\mathrm{i}`). 因为实部为正、虚部为负，所以对应点位于第四象限，故选 D.
 ]
 
 #problem(2)[
-设全集 $I = \{a, b, c, d, e\}$，集合 $M = \{a, c, d\}$，$N = \{b, d, e\}$，那么 $M inter N$ 是（ ）
-  #choices([$emptyset$], [$\{d\}$], [$\{a, c\}$], [$\{b, e\}$], cols: 4)
+设全集 #mi(`I = \{a, b, c, d, e\}`)，集合 #mi(`M = \{a, c, d\}`)，#mi(`N = \{b, d, e\}`)，那么 #mi(`M \cap N`) 是（ ）
+  #choices([#mi(`\varnothing`)], [#mi(`\{d\}`)], [#mi(`\{a, c\}`)], [#mi(`\{b, e\}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-集合 $M$ 与集合 $N$ 的公共元素只有 $d$，所以 $M inter N=\{d\}$，故选 B.
+集合 #mi(`M`) 与集合 #mi(`N`) 的公共元素只有 #mi(`d`)，所以 #mi(`M\cap N=\{d\}`)，故选 B.
 ]
 
 #problem(3)[
-已知双曲线 $(x^(2))/(b^(2))- (y^(2))/(a^(2))= 1$ 的两条渐近线互相垂直，那么该双曲线的离心率是（ ）
-  #choices([$2$], [$sqrt(3)$], [$sqrt(2)$], [$(3)/(2)$], cols: 4)
+已知双曲线 #mi(`\frac{x^{2}}{b^{2}}- \frac{y^{2}}{a^{2}}= 1`) 的两条渐近线互相垂直，那么该双曲线的离心率是（ ）
+  #choices([#mi(`2`)], [#mi(`\sqrt{3}`)], [#mi(`\sqrt{2}`)], [#mi(`\frac{3}{2}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-该双曲线的渐近线为 $y= +- (a)/(b)x$. 两条渐近线垂直，所以 $-(a^(2))/(b^(2))=-1$，从而 $a=b$. 双曲线的焦半距满足 $c^(2)=a^(2)+b^(2)=2 b^(2)$，因此离心率 $e=(c)/(b)=sqrt(2)$，故选 C.
+该双曲线的渐近线为 #mi(`y=\pm\frac{a}{b}x`). 两条渐近线垂直，所以 #mi(`-\frac{a^{2}}{b^{2}}=-1`)，从而 #mi(`a=b`). 双曲线的焦半距满足 #mi(`c^{2}=a^{2}+b^{2}=2b^{2}`)，因此离心率 #mi(`e=\frac{c}{b}=\sqrt{2}`)，故选 C.
 ]
 
 #problem(4)[
-曲线 $x y=1$ 的参数方程是（ ）
+曲线 #mi(`xy=1`) 的参数方程是（ ）
 
-    {$\b e g i n{c a s e s} x= sin alpha ,\\ y=\csc alpha \e n d{c a s e s}$}
-    {$\b e g i n{c a s e s} x= cos alpha ,\\ y=\sec alpha \e n d{c a s e s}$}
-    {$\b e g i n{c a s e s} x= tan alpha ,\\ y= cot alpha \e n d{c a s e s}$}
-  #choices([\(\begin{cases], [\frac{1}{2}], [-\frac{1}{2}], [cases}\)], cols: 4)
+\endcases\)}
+
+#mi(`\begin{cases}x=\sin\alpha,\\
+
+y=\csc\alpha\end{cases}`)
+
+#mi(`\begin{cases}x=\cos\alpha,\\
+
+y=\sec\alpha\end{cases}`)
+
+#mi(`\begin{cases}x=\tan\alpha,\\
+
+y=\cot\alpha\end{cases}`)
 ]
 
 #answer([D])
 
 #solution[
-第一种参数式中，为使参数式有意义需取 $t>0$，所以 $x=sqrt(t)>0$，只能表示曲线的第一象限部分. 第二种参数式中 $x= sin alpha$，因此 $-1\l e q x\l e q1$，且 $x\n e q0$，不能表示所有非零的 $x$；第三种参数式同理，因为 $x= cos alpha$ 也满足 $-1\l e q x\l e q1$，所以前面三种参数式都不能表示整条曲线. 第四种参数式中，取 $tan alpha \n e q0$，则 $tan alpha$ 能取遍所有非零实数，并且 $x= tan alpha$，$y= cot alpha =(1)/(x)$，从而 $x y=1$ 且覆盖曲线上的每一点，故选 D.
+第一种参数式中，为使参数式有意义需取 #mi(`t>0`)，所以 #mi(`x=\sqrt{t}>0`)，只能表示曲线的第一象限部分. 第二种参数式中 #mi(`x=\sin\alpha`)，因此 #mi(`-1\leq x\leq1`)，且 #mi(`x\neq0`)，不能表示所有非零的 #mi(`x`)；第三种参数式同理，因为 #mi(`x=\cos\alpha`) 也满足 #mi(`-1\leq x\leq1`)，所以前面三种参数式都不能表示整条曲线. 第四种参数式中，取 #mi(`\tan\alpha\neq0`)，则 #mi(`\tan\alpha`) 能取遍所有非零实数，并且 #mi(`x=\tan\alpha`)，#mi(`y=\cot\alpha=\frac{1}{x}`)，从而 #mi(`xy=1`) 且覆盖曲线上的每一点，故选 D.
 ]
 
 #problem(5)[
 一个圆锥的底面直径和高都同一个球的直径相等，那么圆锥与球的体积之比是（ ）
-  #choices([$1:3$], [$2:3$], [$1:2$], [$2:9$], cols: 4)
+  #choices([#mi(`1:3`)], [#mi(`2:3`)], [#mi(`1:2`)], [#mi(`2:9`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-设球的直径为 $d$，则圆锥的底面半径为 $(d)/(2)$，高为 $d$. 因而圆锥体积为 $(1)/(3) pi ((d)/(2))^(2)d=(pi d^(3))/(12)$，球体积为 $(4)/(3) pi ((d)/(2))^(3)=(pi d^(3))/(6)$. 所以体积之比为 $1:2$，故选 C.
+设球的直径为 #mi(`d`)，则圆锥的底面半径为 #mi(`\frac{d}{2}`)，高为 #mi(`d`). 因而圆锥体积为 #mi(`\frac{1}{3}\pi\left(\frac{d}{2}\right)^{2}d=\frac{\pi d^{3}}{12}`)，球体积为 #mi(`\frac{4}{3}\pi\left(\frac{d}{2}\right)^{3}=\frac{\pi d^{3}}{6}`). 所以体积之比为 #mi(`1:2`)，故选 C.
 ]
 
 #problem(6)[
-直线 $theta = alpha$ 和直线 $rho sin ( theta - alpha )=1$ 的位置关系是（ ）
+直线 #mi(`\theta=\alpha`) 和直线 #mi(`\rho\sin\left(\theta-\alpha\right)=1`) 的位置关系是（ ）
   #choices([垂直], [平行], [相交但不垂直], [重合], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由极坐标关系 $x= rho cos theta$，$y= rho sin theta$，有 $rho sin ( theta - alpha )=y cos alpha -x sin alpha =1$. 该直线的法向量为 $(- sin alpha , cos alpha )$，所以它的方向与 $( cos alpha , sin alpha )$ 平行，即与直线 $theta = alpha$ 平行. 又因前者不经过原点，二者不重合，故选 B.
+由极坐标关系 #mi(`x=\rho\cos\theta`)，#mi(`y=\rho\sin\theta`)，有 #mi(`\rho\sin\left(\theta-\alpha\right)=y\cos\alpha-x\sin\alpha=1`). 该直线的法向量为 #mi(`(-\sin\alpha,\cos\alpha)`)，所以它的方向与 #mi(`(\cos\alpha,\sin\alpha)`) 平行，即与直线 #mi(`\theta=\alpha`) 平行. 又因前者不经过原点，二者不重合，故选 B.
 ]
 
 #problem(7)[
-函数 $y=\l g|x|$（ ）
-  #choices([是偶函数，在区间 $(- oo ,0)$ 上单调递增], [是偶函数，在区间 $(- oo ,0)$ 上单调递减], [是奇函数，在区间 $(0,+ oo )$ 上单调递增], [是奇函数，在区间 $(0,+ oo )$ 上单调递减], cols: 2)
+函数 #mi(`y=\lg|x|`)（ ）
+  #choices([是偶函数，在区间 #mi(`(-\infty,0)`) 上单调递增], [是偶函数，在区间 #mi(`(-\infty,0)`) 上单调递减], [是奇函数，在区间 #mi(`(0,+\infty)`) 上单调递增], [是奇函数，在区间 #mi(`(0,+\infty)`) 上单调递减], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-因为 $|-x|=|x|$，所以 $y=\l g|x|$ 是偶函数. 在 $(- oo ,0)$ 上，随着 $x$ 增大，$|x|$ 减小，而对数函数递增，因此 $\l g|x|$ 单调递减，故选 B.
+因为 #mi(`|-x|=|x|`)，所以 #mi(`y=\lg|x|`) 是偶函数. 在 #mi(`(-\infty,0)`) 上，随着 #mi(`x`) 增大，#mi(`|x|`) 减小，而对数函数递增，因此 #mi(`\lg|x|`) 单调递减，故选 B.
 ]
 
 #problem(8)[
 从单词“equation”选取 5 个不同的字母排成一排，含有“qu”（其中“qu”相连且顺序不变）的不同排列共有（ ）
-  #choices([$120$ 个], [$480$ 个], [$720$ 个], [$840$ 个], cols: 4)
+  #choices([#mi(`120`) 个], [#mi(`480`) 个], [#mi(`720`) 个], [#mi(`840`) 个], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-$q$，$u$ 必须同时选取并组成一个整体“qu”. 从其余 $6$ 个字母中选取另外 $3$ 个，有 $C_(6)^(3)$ 种选法；把“qu”和这 $3$ 个字母排列，有 $4!$ 种排法. 因此共有 $C_(6)^(3) dot 4 !=20 dot 24 =480$ 种，故选 B.
+#mi(`q`)，#mi(`u`) 必须同时选取并组成一个整体“qu”. 从其余 #mi(`6`) 个字母中选取另外 #mi(`3`) 个，有 #mi(`\mathrm{C}_{6}^{3}`) 种选法；把“qu”和这 #mi(`3`) 个字母排列，有 #mi(`4!`) 种排法. 因此共有 #mi(`\mathrm{C}_{6}^{3}\cdot4!=20\cdot24=480`) 种，故选 B.
 ]
 
 #problem(9)[
 椭圆短轴长是 2，长轴长是短轴的 2 倍，则椭圆中心到其准线距离是（ ）
-  #choices([$(8)/(5)sqrt(5)$], [$(4)/(5)sqrt(5)$], [$(8)/(3)sqrt(3)$], [$(4)/(3)sqrt(3)$], cols: 2)
+  #choices([#mi(`\frac{8}{5}\sqrt{5}`)], [#mi(`\frac{4}{5}\sqrt{5}`)], [#mi(`\frac{8}{3}\sqrt{3}`)], [#mi(`\frac{4}{3}\sqrt{3}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-设椭圆的长半轴、短半轴分别为 $a$，$b$，则 $2 b=2$，$2 a=4$，所以 $a=2$，$b=1$. 于是焦半距 $c=sqrt(a^(2)-b^(2))=sqrt(3)$，离心率 $e=(c)/(a)=(sqrt(3))/(2)$. 中心到准线的距离为 $(a)/(e)=(4)/(sqrt(3))=(4)/(3)sqrt(3)$，故选 D.
+设椭圆的长半轴、短半轴分别为 #mi(`a`)，#mi(`b`)，则 #mi(`2b=2`)，#mi(`2a=4`)，所以 #mi(`a=2`)，#mi(`b=1`). 于是焦半距 #mi(`c=\sqrt{a^{2}-b^{2}}=\sqrt{3}`)，离心率 #mi(`e=\frac{c}{a}=\frac{\sqrt{3}}{2}`). 中心到准线的距离为 #mi(`\frac{a}{e}=\frac{4}{\sqrt{3}}=\frac{4}{3}\sqrt{3}`)，故选 D.
 ]
 
 #problem(10)[
-函数 $y=(1)/(2+ sin x+ cos x)$ 的最大值是（ ）
-  #choices([$(sqrt(2))/(2)-1$], [$(sqrt(2))/(2)+1$], [$1-(sqrt(2))/(2)$], [$-1-(sqrt(2))/(2)$], cols: 2)
+函数 #mi(`y=\frac{1}{2+\sin x+\cos x}`) 的最大值是（ ）
+  #choices([#mi(`\frac{\sqrt{2}}{2}-1`)], [#mi(`\frac{\sqrt{2}}{2}+1`)], [#mi(`1-\frac{\sqrt{2}}{2}`)], [#mi(`-1-\frac{\sqrt{2}}{2}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-因为 $sin x+ cos x\g e q-sqrt(2)$，所以分母满足 $2+ sin x+ cos x\g e q2-sqrt(2)>0$. 因此函数最大值在分母取最小时取得，且 $y_( max )=(1)/(2-sqrt(2))=1+(sqrt(2))/(2)$，故选 B.
+因为 #mi(`\sin x+\cos x\geq-\sqrt{2}`)，所以分母满足 #mi(`2+\sin x+\cos x\geq2-\sqrt{2}>0`). 因此函数最大值在分母取最小时取得，且 #mi(`y_{\max}=\frac{1}{2-\sqrt{2}}=1+\frac{\sqrt{2}}{2}`)，故选 B.
 ]
 
 #problem(11)[
-设复数 $z_(1)=2 sin theta + i cos theta$（$(pi)/(4)< theta <(pi)/(2)$）在复平面上对应向量 $arrow(O Z_(1))$，将 $arrow(O Z_(1))$ 按顺时针方向旋转 $(3 pi)/(4)$ 后得到向量 $arrow(O Z_(2))$，$arrow(O Z_(2))$ 对应的复数为 $z_(2)=r( cos phi.alt + i sin phi.alt )$，则 $tan phi.alt =$（ ）
-  #choices([$(2 tan theta +1)/(2 tan theta -1)$], [$(2 tan theta -1)/(2 tan theta +1)$], [$(1)/(2 tan theta +1)$], [$(1)/(2 tan theta -1)$], cols: 1)
+设复数 #mi(`z_{1}=2\sin\theta+\mathrm{i}\cos\theta`)（#mi(`\frac{\pi}{4}<\theta<\frac{\pi}{2}`)）在复平面上对应向量 #mi(`\overrightarrow{OZ_{1}}`)，将 #mi(`\overrightarrow{OZ_{1}}`) 按顺时针方向旋转 #mi(`\frac{3\pi}{4}`) 后得到向量 #mi(`\overrightarrow{OZ_{2}}`)，#mi(`\overrightarrow{OZ_{2}}`) 对应的复数为 #mi(`z_{2}=r\left(\cos\varphi+\mathrm{i}\sin\varphi\right)`)，则 #mi(`\tan\varphi=`)（ ）
+  #choices([#mi(`\frac{2\tan\theta+1}{2\tan\theta-1}`)], [#mi(`\frac{2\tan\theta-1}{2\tan\theta+1}`)], [#mi(`\frac{1}{2\tan\theta+1}`)], [#mi(`\frac{1}{2\tan\theta-1}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-$z_(1)$ 对应点的坐标为 $(2 sin theta , cos theta )$. 顺时针旋转 $(3 pi)/(4)$ 后，所得向量的坐标为 $((cos theta -2 sin theta)/(sqrt(2)),-(2 sin theta + cos theta)/(sqrt(2)))$. 因而 $tan phi.alt =(-(2 sin theta + cos theta ))/(cos theta -2 sin theta)=(2 tan theta +1)/(2 tan theta -1)$，故选 A.
+#mi(`z_{1}`) 对应点的坐标为 #mi(`(2\sin\theta,\cos\theta)`). 顺时针旋转 #mi(`\frac{3\pi}{4}`) 后，所得向量的坐标为 #mi(`\left(\frac{\cos\theta-2\sin\theta}{\sqrt{2}},-\frac{2\sin\theta+\cos\theta}{\sqrt{2}}\right)`). 因而 #mi(`\tan\varphi=\frac{-(2\sin\theta+\cos\theta)}{\cos\theta-2\sin\theta}=\frac{2\tan\theta+1}{2\tan\theta-1}`)，故选 A.
 ]
 
 #problem(12)[
-设 $alpha$，$beta$ 是一个钝角三角形的两个锐角，下列四个不等式中不正确的是（ ）
-  #choices([$tan alpha tan beta <1$], [$sin alpha + sin beta <sqrt(2)$], [$cos alpha + cos beta >1$], [$(1)/(2) tan ( alpha + beta )< tan (alpha + beta)/(2)$], cols: 1)
+设 #mi(`\alpha`)，#mi(`\beta`) 是一个钝角三角形的两个锐角，下列四个不等式中不正确的是（ ）
+  #choices([#mi(`\tan\alpha\tan\beta<1`)], [#mi(`\sin\alpha+\sin\beta<\sqrt{2}`)], [#mi(`\cos\alpha+\cos\beta>1`)], [#mi(`\frac{1}{2}\tan\left(\alpha+\beta\right)<\tan\frac{\alpha+\beta}{2}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-设 $S= alpha + beta$. 因为第三个角为钝角，所以 $0<S<(pi)/(2)$. 由正切加法公式
-$tan S=(tan alpha + tan beta)/(1- tan alpha tan beta)>0$，且 $tan alpha + tan beta >0$，所以 $1- tan alpha tan beta >0$，故 $tan alpha tan beta <1$. 又因为 $| alpha - beta |<S<(pi)/(2)$，所以
-$sin alpha + sin beta =2 sin (S)/(2) cos (alpha - beta)/(2)<2 sin (pi)/(4)=sqrt(2)$.
-同时 $0\l e q(| alpha - beta |)/(2)<(S)/(2)<(pi)/(4)$，由余弦函数在 $[0,(pi)/(2)]$ 上单调递减，得
-$cos (alpha - beta)/(2)> cos (S)/(2)$，从而 $cos alpha + cos beta =2 cos (S)/(2) cos (alpha - beta)/(2)>2 cos ""^(2)(S)/(2)=1+ cos S>1$. 最后令 $t= tan (S)/(2)$，则 $0<t<1$，所以 $(1)/(2) tan S=(t)/(1-t^(2))>t= tan (S)/(2)$. 因此选项 D 的不等式不成立，故选 D.
+设 #mi(`S=\alpha+\beta`). 因为第三个角为钝角，所以 #mi(`0<S<\frac{\pi}{2}`). 由正切加法公式
+
+#mi(`\tan S=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}>0`)，且 #mi(`\tan\alpha+\tan\beta>0`)，所以 #mi(`1-\tan\alpha\tan\beta>0`)，故 #mi(`\tan\alpha\tan\beta<1`). 又因为 #mi(`\lvert\alpha-\beta\rvert<S<\frac{\pi}{2}`)，所以
+
+#mi(`\sin\alpha+\sin\beta=2\sin\frac{S}{2}\cos\frac{\alpha-\beta}{2}<2\sin\frac{\pi}{4}=\sqrt{2}`).
+
+同时 #mi(`0\leq\frac{\lvert\alpha-\beta\rvert}{2}<\frac{S}{2}<\frac{\pi}{4}`)，由余弦函数在 #mi(`[0,\frac{\pi}{2}]`) 上单调递减，得
+
+#mi(`\cos\frac{\alpha-\beta}{2}>\cos\frac{S}{2}`)，从而 #mi(`\cos\alpha+\cos\beta=2\cos\frac{S}{2}\cos\frac{\alpha-\beta}{2}>2\cos^{2}\frac{S}{2}=1+\cos S>1`). 最后令 #mi(`t=\tan\frac{S}{2}`)，则 #mi(`0<t<1`)，所以 #mi(`\frac{1}{2}\tan S=\frac{t}{1-t^{2}}>t=\tan\frac{S}{2}`). 因此选项 D 的不等式不成立，故选 D.
 ]
 
 #problem(13)[
-已知等差数列 $\{a_(n)\}$ 满足 $a_(1)+a_(2)+a_(3)+ ... +a_(101)=0$，则有（ ）
-  #choices([$a_(1)+a_(101)>0$], [$a_(2)+a_(100)<0$], [$a_(3)+a_(99)=0$], [$a_(51)=51$], cols: 2)
+已知等差数列 #mi(`\{a_{n}\}`) 满足 #mi(`a_{1}+a_{2}+a_{3}+\dots+a_{101}=0`)，则有（ ）
+  #choices([#mi(`a_{1}+a_{101}>0`)], [#mi(`a_{2}+a_{100}<0`)], [#mi(`a_{3}+a_{99}=0`)], [#mi(`a_{51}=51`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-等差数列的前 $101$ 项和为 $101 a_(51)$，所以 $a_(51)=0$. 对称项满足 $a_k+a_(102-k)=2 a_(51)=0$，特别地 $a_(3)+a_(99)=0$. 因此正确选项为 C.
+等差数列的前 #mi(`101`) 项和为 #mi(`101a_{51}`)，所以 #mi(`a_{51}=0`). 对称项满足 #mi(`a_{k}+a_{102-k}=2a_{51}=0`)，特别地 #mi(`a_{3}+a_{99}=0`). 因此正确选项为 C.
 ]
 
 #problem(14)[
-已知函数 $f(x)=a x^(3)+b x^(2)+c x+d$ 的图象如图，则（ ）
+已知函数 #mi(`f(x)=ax^{3}+bx^{2}+cx+d`) 的图象如图，则（ ）
 
 
-#align(center)[#image("/papers/2000/img/jing_hui_science_spring/q14_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2000/img/jing_hui_science_spring/q14_fig1.png", width: 28%)]
+
 
 \FloatBarrier
-  #choices([$b in (- oo ,0)$], [$b in (0,1)$], [$b in (1,2)$], [$b in (2,+ oo )$], cols: 2)
+  #choices([#mi(`b\in(-\infty,0)`)], [#mi(`b\in(0,1)`)], [#mi(`b\in(1,2)`)], [#mi(`b\in(2,+\infty)`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由图象可知函数的三个零点为 $0$，$1$，$2$，且图象右端上升，所以 $a>0$. 因而 $f(x)=a x(x-1)(x-2)=a(x^(3)-3 x^(2)+2 x)$，从而 $b=-3 a<0$，故选 A.
+由图象可知函数的三个零点为 #mi(`0`)，#mi(`1`)，#mi(`2`)，且图象右端上升，所以 #mi(`a>0`). 因而 #mi(`f(x)=a x(x-1)(x-2)=a(x^{3}-3x^{2}+2x)`)，从而 #mi(`b=-3a<0`)，故选 A.
 ]
 
 #part-header("填空题")
 
 #problem(15)[
-函数 $y= cos ((2 pi)/(3)x+(pi)/(4))$ 的最小正周期是#blank(){}.
+函数 #mi(`y=\cos\left(\frac{2\pi}{3}x+\frac{\pi}{4}\right)`) 的最小正周期是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$3$])
+#answer([#mi(`3`)])
 
 #solution[
-余弦函数 $cos ( omega x+ phi.alt )$ 的最小正周期为 $(2 pi)/(| omega |)$. 此题 $| omega |=(2 pi)/(3)$，所以最小正周期为 $(2 pi)/(2(pi)/(3))=3$.
+余弦函数 #mi(`\cos(\omega x+\varphi)`) 的最小正周期为 #mi(`\frac{2\pi}{|\omega|}`). 此题 #mi(`|\omega|=\frac{2\pi}{3}`)，所以最小正周期为 #mi(`\frac{2\pi}{2\frac{\pi}{3}}=3`).
 ]
 
 #problem(16)[
-已知一体积为 $72$ 的正四面体，连接两个面的重心 $E$，$F$，则线段 $E F$ 的长是#blank(){}.
+已知一体积为 #mi(`72`) 的正四面体，连接两个面的重心 #mi(`E`)，#mi(`F`)，则线段 #mi(`EF`) 的长是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2 sqrt(2)$])
+#answer([#mi(`2\sqrt{2}`)])
 
 #solution[
-设正四面体的棱长为 $s$. 每个面的面积为 $(sqrt(3))/(4)s^(2)$，正四面体的高为 $s s q r t((2)/(3))$，所以 $72=(1)/(3) dot (sqrt(3))/(4)s^(2) dot s s q r t((2)/(3))=(s^(3))/(6 sqrt(2))$，从而 $s=6 sqrt(2)$. 若两个面分别为 $A B C$，$A B D$，其重心为 $E$，$F$，则 $arrow(E F)=(1)/(3)arrow(C D)$，所以 $E F=(s)/(3)=2 sqrt(2)$.
+设正四面体的棱长为 #mi(`s`). 每个面的面积为 #mi(`\frac{\sqrt{3}}{4}s^{2}`)，正四面体的高为 #mi(`s\sqrt{\frac{2}{3}}`)，所以 #mi(`72=\frac{1}{3}\cdot\frac{\sqrt{3}}{4}s^{2}\cdot s\sqrt{\frac{2}{3}}=\frac{s^{3}}{6\sqrt{2}}`)，从而 #mi(`s=6\sqrt{2}`). 若两个面分别为 #mi(`ABC`)，#mi(`ABD`)，其重心为 #mi(`E`)，#mi(`F`)，则 #mi(`\overrightarrow{EF}=\frac{1}{3}\overrightarrow{CD}`)，所以 #mi(`EF=\frac{s}{3}=2\sqrt{2}`).
 ]
 
 #problem(17)[
-$(sqrt(x)-(1)/(root(3, x)))^(10)$ 展开式中的常数项是#blank(){}.
+#mi(`\left(\sqrt{x}-\frac{1}{\sqrt[3]{x}}\right)^{10}`) 展开式中的常数项是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$210$])
+#answer([#mi(`210`)])
 
 #solution[
-通项取第二项 $k$ 次时为 $(-1)^(k)C_(10)^(k)x^(5-5(k)/(6))$. 要成为常数项，必须有 $5-(5 k)/(6)=0$，所以 $k=6$. 因此常数项为 $(-1)^(6)C_(10)^(6)=210$.
+通项取第二项 #mi(`k`) 次时为 #mi(`(-1)^{k}\mathrm{C}_{10}^{k}x^{5-5\frac{k}{6}}`). 要成为常数项，必须有 #mi(`5-\frac{5k}{6}=0`)，所以 #mi(`k=6`). 因此常数项为 #mi(`(-1)^{6}\mathrm{C}_{10}^{6}=210`).
 ]
 
 #problem(18)[
 在空间，有下列命题：
 
-\begin{circlelist}
-\item 如果两直线 $a$，$b$ 分别与直线 $l$ 平行，那么 $a parallel b$；
-\item 如果直线 $a$ 与平面 $beta$ 内的一条直线 $b$ 平行，那么 $a parallel beta$；
-\item 如果直线 $a$ 与平面 $beta$ 内的两条直线 $b$，$c$ 都有垂直，那么 $a bot beta$；
-\item 如果平面 $beta$ 内的一条直线 $a$ 垂直平面 $gamma$，那么 $beta bot gamma$.
-\end{circlelist}
 
-其中正确的命题的序号是#blank(){}.
++ (1) 如果两直线 #mi(`a`)，#mi(`b`) 分别与直线 #mi(`l`) 平行，那么 #mi(`a\parallel b`)；
++ (2) 如果直线 #mi(`a`) 与平面 #mi(`\beta`) 内的一条直线 #mi(`b`) 平行，那么 #mi(`a\parallel\beta`)；
++ (3) 如果直线 #mi(`a`) 与平面 #mi(`\beta`) 内的两条直线 #mi(`b`)，#mi(`c`) 都有垂直，那么 #mi(`a\perp\beta`)；
++ (4) 如果平面 #mi(`\beta`) 内的一条直线 #mi(`a`) 垂直平面 #mi(`\gamma`)，那么 #mi(`\beta\perp\gamma`).
+
+
+
+其中正确的命题的序号是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$"[1]"\)，\("[4]"$])
+#answer([#mi(`①`)，#mi(`④`)])
 
 #solution[
-命题 $"[1]"$ 中，两条直线都与同一直线平行，因而方向相同且共面，所以 $a parallel b$，正确.
+命题 #mi(`①`) 中，两条直线都与同一直线平行，因而方向相同且共面，所以 #mi(`a\parallel b`)，正确.
 
-命题 $"[2]"$ 不正确. 例如取 $beta$ 为平面 $z=0$，取平面内两条不同的平行直线 $b:y=0$，$z=0$ 和 $a:y=1$，$z=0$，则 $a parallel b$，但 $a subset beta$，不能说 $a parallel beta$.
+命题 #mi(`②`) 不正确. 例如取 #mi(`\beta`) 为平面 #mi(`z=0`)，取平面内两条不同的平行直线 #mi(`b:y=0`)，#mi(`z=0`) 和 #mi(`a:y=1`)，#mi(`z=0`)，则 #mi(`a\parallel b`)，但 #mi(`a\subset\beta`)，不能说 #mi(`a\parallel\beta`).
 
-命题 $"[3]"$ 不正确. 在平面 $beta :z=0$ 内取 $b:y=0$，$z=0$、$c:y=1$，$z=0$ 和 $a:x=0$，$z=0$，则 $a$ 分别与 $b$、$c$ 垂直，但 $a subset beta$，所以 $a$ 不垂直于平面 $beta$. 这说明仅有“垂直于两条直线”还不足以推出垂直于平面.
+命题 #mi(`③`) 不正确. 在平面 #mi(`\beta:z=0`) 内取 #mi(`b:y=0`)，#mi(`z=0`)、#mi(`c:y=1`)，#mi(`z=0`) 和 #mi(`a:x=0`)，#mi(`z=0`)，则 #mi(`a`) 分别与 #mi(`b`)、#mi(`c`) 垂直，但 #mi(`a\subset\beta`)，所以 #mi(`a`) 不垂直于平面 #mi(`\beta`). 这说明仅有“垂直于两条直线”还不足以推出垂直于平面.
 
-命题 $"[4]"$ 正确. 因为平面 $beta$ 内含有直线 $a$，且 $a bot gamma$，根据“一个平面经过另一个平面的一条垂线，则两平面互相垂直”的判定定理，得 $beta bot gamma$. 因此填 $"[1]"$，$"[4]"$.
+命题 #mi(`④`) 正确. 因为平面 #mi(`\beta`) 内含有直线 #mi(`a`)，且 #mi(`a\perp\gamma`)，根据“一个平面经过另一个平面的一条垂线，则两平面互相垂直”的判定定理，得 #mi(`\beta\perp\gamma`). 因此填 #mi(`①`)，#mi(`④`).
 ]
 
 #part-header("解答题")
 
 #problem(19)[
-在 $triangle A B C$ 中，角 $A$，$B$，$C$ 对边分别为 $a$，$b$，$c$，证明：$(a^(2)-b^(2))/(c^(2))=(sin (A-B))/(sin C)$.
+在 #mi(`\triangle ABC`) 中，角 #mi(`A`)，#mi(`B`)，#mi(`C`) 对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，证明：#mi(`\frac{a^{2}-b^{2}}{c^{2}}=\frac{\sin\left(A-B\right)}{\sin C}`).
 ]
 
 #solution[
-由正弦定理，存在外接圆半径 $R$，使得 $a=2 R sin A$，$b=2 R sin B$，$c=2 R sin C$. 因而 $(a^(2)-b^(2))/(c^(2))=(sin ""^(2){A}- sin ""^(2)B)/(sin ""^(2)C)$.
+由正弦定理，存在外接圆半径 #mi(`R`)，使得 #mi(`a=2R\sin A`)，#mi(`b=2R\sin B`)，#mi(`c=2R\sin C`). 因而 #mi(`\frac{a^{2}-b^{2}}{c^{2}}=\frac{\sin^{2}A-\sin^{2}B}{\sin^{2}C}`).
 
-利用恒等式 $sin ""^(2)A- sin ""^(2)B= sin (A+B) sin (A-B)$，以及 $A+B= pi -C$，可得 $(a^(2)-b^(2))/(c^(2))=(sin (A+B) sin (A-B))/(sin ""^(2)C)=(sin C sin (A-B))/(sin ""^(2)C)=(sin (A-B))/(sin C)$.
+利用恒等式 #mi(`\sin^{2}A-\sin^{2}B=\sin(A+B)\sin(A-B)`)，以及 #mi(`A+B=\pi-C`)，可得 #mi(`\frac{a^{2}-b^{2}}{c^{2}}=\frac{\sin(A+B)\sin(A-B)}{\sin^{2}C}=\frac{\sin C\sin(A-B)}{\sin^{2}C}=\frac{\sin(A-B)}{\sin C}`).
+
 因此等式成立.
 ]
 
 #problem(20)[
-在直角梯形 $A B C D$ 中，$angle D= angle B A D=90^( degree )$，$A D=D C=(1)/(2)A B=a$（如图一）. 将 $triangle A D C$ 沿 $A C$ 折起，使 $D$ 到 $D'$. 记面 $A C D'$ 为 $alpha$，面 $A B C$ 为 $beta$，面 $B C D'$ 为 $gamma$.
+在直角梯形 #mi(`ABCD`) 中，#mi(`\angle D=\angle BAD=90^{\circ}`)，#mi(`AD=DC=\frac{1}{2}AB=a`)（如图一）. 将 #mi(`\triangle ADC`) 沿 #mi(`AC`) 折起，使 #mi(`D`) 到 #mi(`D'`). 记面 #mi(`ACD'`) 为 #mi(`\alpha`)，面 #mi(`ABC`) 为 #mi(`\beta`)，面 #mi(`BCD'`) 为 #mi(`\gamma`).
 
 
-+ (1) 若二面角 $alpha -A C- beta$ 为直二面角（如图二），求二面角 $beta -B C- gamma$ 的大小；
-+ (2) 若二面角 $alpha -A C- beta$ 为 $60^( degree )$（如图三），求三棱锥 $D'-A B C$ 的体积.
++ (1) 
 
 
 
 
-#align(center)[#image("/papers/2000/img/jing_hui_science_spring/q20_fig1.png", width: 90%)]
+#align(center)[#image("/papers/2000/img/jing_hui_science_spring/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 取直角坐标系使 $A=(0,0,0)$，$B=(2 a,0,0)$，$C=(a,a,0)$，$D=(0,a,0)$. 设 $H$ 为 $D$ 在 $A C$ 上的射影，则 $H=((a)/(2),(a)/(2),0)$，且 $D H=(a)/(sqrt(2))$. 当二面角 $alpha -A C- beta$ 为直二面角时，绕轴 $A C$ 将 $H D$ 旋转 $90^( degree )$，可取 $D'=((a)/(2),(a)/(2),(a)/(sqrt(2)))$.
-
-取平面 $beta$ 和平面 $gamma$ 的法向量，分别可取 $bold(n)_( beta )=(0,0,1)$ 及 $bold(n)_( gamma )=arrow(B C)\t i m e s a r r o w(B D')=a^(2)((1)/(sqrt(2)),(1)/(sqrt(2)),1)$. 因此二面角 $beta -B C- gamma$ 的锐角 $theta$ 满足 $cos theta =(|bold(n)_( beta ){ dot }bold(n)_( gamma )|)/(|bold(n)_( beta )| |bold(n)_( gamma )|)=(1)/(sqrt(2))$，所以 $theta =45^( degree )$.
-+ (2) 三角形 $A B C$ 的面积为 $(1)/(2) dot 2 a dot a=a^(2)$. 折起角为 $60^( degree )$ 时，点 $D'$ 到平面 $A B C$ 的距离为 $D H sin 60 ""^( degree )=(a)/(sqrt(2)) dot (sqrt(3))/(2)=(a s q r t(6))/(4)$.
-
-所以三棱锥 $D'-A B C$ 的体积为 $V=(1)/(3)S_( triangle A B C) dot (a s q r t(6))/(4)=(sqrt(6))/(12)a^(3)$.
++ (1)
 ]
 
 #problem(21)[
-设函数 $f(x)=|\l g x|$，若 $0<a<b$，且 $f(a)>f(b)$，证明：$a b<1$.
+设函数 #mi(`f(x)=|\lg x|`)，若 #mi(`0<a<b`)，且 #mi(`f(a)>f(b)`)，证明：#mi(`ab<1`).
 ]
 
 #solution[
-若 $b\l e q1$，则 $0<a<b\l e q1$，从而 $a b<b^(2)\l e q1$，且因 $a<b$ 有 $a b<1$. 若 $b>1$，则不能有 $a\g e q1$，因为这时 $f(x)=\l g x$ 在 $[1,+ oo )$ 上递增，会得到 $f(a)<f(b)$. 因此 $0<a<1<b$，于是 $f(a)=-\l g a$，$f(b)=\l g b$. 由题设 $-\l g a>\l g b$，所以 $\l g(a b)<0$，即 $a b<1$.
+若 #mi(`b\leq1`)，则 #mi(`0<a<b\leq1`)，从而 #mi(`ab<b^{2}\leq1`)，且因 #mi(`a<b`) 有 #mi(`ab<1`). 若 #mi(`b>1`)，则不能有 #mi(`a\geq1`)，因为这时 #mi(`f(x)=\lg x`) 在 #mi(`[1,+\infty)`) 上递增，会得到 #mi(`f(a)<f(b)`). 因此 #mi(`0<a<1<b`)，于是 #mi(`f(a)=-\lg a`)，#mi(`f(b)=\lg b`). 由题设 #mi(`-\lg a>\lg b`)，所以 #mi(`\lg(ab)<0`)，即 #mi(`ab<1`).
 ]
 
 #problem(22)[
-如图，设点 $A$ 和 $B$ 为抛物线 $y^(2)=4 p x$（$p>0$）上原点以外的两个动点，已知 $O A bot O B$，$O M bot A B$. 求点 $M$ 的轨迹方程，并说明它表示什么曲线.
+如图，设点 #mi(`A`) 和 #mi(`B`) 为抛物线 #mi(`y^{2}=4px`)（#mi(`p>0`)）上原点以外的两个动点，已知 #mi(`OA\perp OB`)，#mi(`OM\perp AB`). 求点 #mi(`M`) 的轨迹方程，并说明它表示什么曲线.
 
 
-#align(center)[#image("/papers/2000/img/jing_hui_science_spring/q22_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2000/img/jing_hui_science_spring/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设抛物线上点的参数分别为 $t$，$u$，则 $A=(p t^(2),2 p t)$，$B=(p u^(2),2 p u)$，且 $t\n e q0$，$u\n e q0$. 由 $O A bot O B$ 得 $arrow(O A)\c d o t a r r o w(O B)=p^(2)t u(t u+4)=0$，所以 $t u=-4$.
+设抛物线上点的参数分别为 #mi(`t`)，#mi(`u`)，则 #mi(`A=(pt^{2},2pt)`)，#mi(`B=(pu^{2},2pu)`)，且 #mi(`t\neq0`)，#mi(`u\neq0`). 由 #mi(`OA\perp OB`) 得 #mi(`\overrightarrow{OA}\cdot\overrightarrow{OB}=p^{2}tu(tu+4)=0`)，所以 #mi(`tu=-4`).
 
-参数为 $t$，$u$ 的抛物线弦 $A B$ 的方程为 $2 x-(t+u)y+2 p t u=0$，代入 $t u=-4$ 得 $2 x-(t+u)y-8 p=0$. 令 $L=t+u$，则直线 $A B$ 为 $2 x-L y-8 p=0$. 原点到这条直线的垂足为 $M=((16 p)/(L^(2)+4),-(8 p L)/(L^(2)+4))$.
+参数为 #mi(`t`)，#mi(`u`) 的抛物线弦 #mi(`AB`) 的方程为 #mi(`2x-(t+u)y+2ptu=0`)，代入 #mi(`tu=-4`) 得 #mi(`2x-(t+u)y-8p=0`). 令 #mi(`L=t+u`)，则直线 #mi(`AB`) 为 #mi(`2x-Ly-8p=0`). 原点到这条直线的垂足为 #mi(`M=\left(\frac{16p}{L^{2}+4},-\frac{8pL}{L^{2}+4}\right)`).
 
-于是 $x^(2)+y^(2)=(64 p^(2))/(L^(2)+4)=4 p x$，所以轨迹满足 $x^(2)+y^(2)-4 p x=0$. 当 $L=0$ 时，$A B$ 为竖直线，公式给出 $M=(4 p,0)$，因此没有遗漏斜率不存在的情形. 反之，任意实数 $L$ 都能取为方程 $v^(2)-L v-4=0$ 的两根之和，且两根乘积为 $-4$，故上述参数能得到圆上除原点外的所有点. 因而轨迹是方程 $x^(2)+y^(2)-4 p x=0$ 所表示的圆去掉原点，即圆心为 $(2 p,0)$、半径为 $2 p$ 的圆去掉原点.
+于是 #mi(`x^{2}+y^{2}=\frac{64p^{2}}{L^{2}+4}=4px`)，所以轨迹满足 #mi(`x^{2}+y^{2}-4px=0`). 当 #mi(`L=0`) 时，#mi(`AB`) 为竖直线，公式给出 #mi(`M=(4p,0)`)，因此没有遗漏斜率不存在的情形. 反之，任意实数 #mi(`L`) 都能取为方程 #mi(`v^{2}-Lv-4=0`) 的两根之和，且两根乘积为 #mi(`-4`)，故上述参数能得到圆上除原点外的所有点. 因而轨迹是方程 #mi(`x^{2}+y^{2}-4px=0`) 所表示的圆去掉原点，即圆心为 #mi(`(2p,0)`)、半径为 #mi(`2p`) 的圆去掉原点.
 ]
 
 #problem(23)[
-某地区上年度电价为 $0.8(" 元")/((k W\c d o t h))$，年用电量为 $a~k W dot h$. 本年度计划将电价降到 $0.55(" 元")/((k W\c d o t h))$ 至 $0.75(" 元")/((k W\c d o t h))$ 之间，而用户期望电价为 $0.4(" 元")/((k W\c d o t h))$. 经测算，下调电价后新增的用电量与实际电价和用户期望电价的差成反比（比例系数为 $k$）. 该地区电力的成本为 $0.3(" 元")/((k W\c d o t h))$.
+某地区上年度电价为 #mi(`0.8\frac{\text{ \text{元}}}{(\mathrm{kW}\cdot\mathrm{h})}`)，年用电量为 #mi(`a\mathrm{~kW\cdot h}`). 本年度计划将电价降到 #mi(`0.55\frac{\text{ \text{元}}}{(\mathrm{kW}\cdot\mathrm{h})}`) 至 #mi(`0.75\frac{\text{ \text{元}}}{(\mathrm{kW}\cdot\mathrm{h})}`) 之间，而用户期望电价为 #mi(`0.4\frac{\text{ \text{元}}}{(\mathrm{kW}\cdot\mathrm{h})}`). 经测算，下调电价后新增的用电量与实际电价和用户期望电价的差成反比（比例系数为 #mi(`k`)）. 该地区电力的成本为 #mi(`0.3\frac{\text{ \text{元}}}{(\mathrm{kW}\cdot\mathrm{h})}`).
 
 
-+ (1) 写出本年度电价下调后，电力部门的收益 $y$ 与实际电价 $x$ 的函数关系式；
-+ (2) 设 $k=0.2 a$，当电价最低定为多少时，仍可保证电力部门的收益比上年至少增长 20\%.
++ (1) 
 
 
-注：收益=实际用电量 $times$（实际电价-成本价）.
+
+注：收益=实际用电量 #mi(`\times`)（实际电价-成本价）.
 ]
 
 #solution[
-+ (1) 设本年度实际电价为 $x$，则 $0.55\l e q x\l e q0.75$. 因为新增用电量与 $x-0.4$ 成反比，且比例系数为 $k$，所以新增用电量为 $(k)/(x-0.4)$，本年度实际用电量为 $a+(k)/(x-0.4)$. 每千瓦时的收益为 $x-0.3$，故 $y=(a+(k)/(x-0.4))(x-0.3)$，其中 $0.55\l e q x\l e q0.75$.
-+ (2) 上年度收益为 $a(0.8-0.3)=0.5 a$，本年度收益至少增长 $20\%$，所以必须有 $y\g e q1.2 times 0 .5 a=0.6 a$. 这里年用电量 $a>0$. 令 $k=0.2 a$，并设 $u=x-0.4$，则 $u in [0.15,0.35]$，且 $(y)/(a)=(1+(0.2)/(u))(u+0.1)=u+0.3+(0.02)/(u)$.
-
-由 $y\g e q0.6 a$ 且 $u>0$，得 $u+0.3+(0.02)/(u)\g e q0.6$，即 $u^(2)-0.3 u+0.02\g e q0$，也就是 $(u-0.1)(u-0.2)\g e q0$. 在 $[0.15,0.35]$ 内只能有 $u\g e q0.2$，所以允许的实际电价必须满足 $x in [0.6,0.75]$. 因而把最低电价定为 $0.6(" 元")/((k W\c d o t h))$ 时，区间内每个实际电价都能保证收益至少增长 $20\%$，且该下限不能再降低.
++ (1)
 ]
 
 #problem(24)[
-已知函数 $f(x)=\b e g i n{c a s e s} f_(1)(x),&x in [0,(1)/(2)),\\ f_(2)(x),&x in [(1)/(2),1], \e n d{c a s e s}$
-其中 $f_(1)(x)=-2(x-(1)/(2))^(2)+1$，$f_(2)(x)=-2 x+2$.
+已知函数 #mi(`f(x)=\begin{cases}f_{1}(x),&x\in\left[0,\frac{1}{2}\right),\\  f_{2}(x),&x\in\left[\frac{1}{2},1\right],\end{cases}`)
+
+其中 #mi(`f_{1}(x)=-2\left(x-\frac{1}{2}\right)^{2}+1`)，#mi(`f_{2}(x)=-2x+2`).
 
 
-+ (1) 在下面坐标系上画出 $y=f(x)$ 的图象；
-+ (2) 设 $y=f_(2)(x)$（$x in [(1)/(2),1]$）的反函数为 $y=g(x)$，$a_(1)=1$，$a_(2)=g(a_(1))$，$...$，$a_(n)=g(a_(n-1))$，求数列 $\{a_(n)\}$ 的通项公式，并求 $lim_(n -> oo )a_(n)$；
-+ (3) 若 $x_(0) in [0,(1)/(2))$，$x_(1)=f(x_(0))$，$f(x_(1))=x_(0)$，求 $x_(0)$.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2000/img/jing_hui_science_spring/q24_fig1.png", width: 45%)]
+
+#align(center)[#image("/papers/2000/img/jing_hui_science_spring/q24_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 当 $0\l e q x<(1)/(2)$ 时，$f(x)=f_(1)(x)$，且 $f_(1)'(x)=2-4 x>0$，同时 $f_(1)(0)=(1)/(2)$，$lim_(x -> ((1)/(2))^(-))f_(1)(x)=1$，所以图象是抛物线 $y=-2(x-(1)/(2))^(2)+1$ 从实心点 $(0,(1)/(2))$ 出发的相应部分，单调上升并在 $((1)/(2),1)$ 处留下开端点. 当 $(1)/(2)\l e q x\l e q1$ 时，$f(x)=f_(2)(x)=-2 x+2$，图象是从实心点 $((1)/(2),1)$ 到实心点 $(1,0)$ 的线段. 因此图象由上述抛物线段和线段组成，在 $((1)/(2),1)$ 处取线段的实心点.
-+ (2) 由 $y=-2 x+2$，得反函数 $g(x)=1-(x)/(2)$，其定义域为 $[0,1]$，值域为 $[(1)/(2),1]$. 因为 $a_(1)=1 in [0,1]$，且 $g$ 把 $[0,1]$ 映到 $[(1)/(2),1] subset [0,1]$，所以递推中的每一项都有定义. 数列满足 $a_n=1-(a_(n-1))/(2)$，（$n\g e q2$），且 $a_1=1$. 设该递推的平衡值为 $L$，则 $L=1-(L)/(2)$，所以 $L=(2)/(3)$. 因而 $a_n-L=-(1)/(2)(a_(n-1)-L)$，从而 $a_n-(2)/(3)=(-(1)/(2))^(n-1)(1-(2)/(3))$. 所以 $a_n=(2)/(3)+(1)/(3)(-(1)/(2))^(n-1)$，并且 $lim_(n -> oo )a_n=(2)/(3)$.
-+ (3) 因为 $x_0 in [0,(1)/(2))$，所以 $x_1=f(x_0)=f_1(x_0) in [(1)/(2),1)$，从而 $f(x_1)=f_2(x_1)$. 代入得 $x_0=-2[-2(x_0-(1)/(2))^2+1]+2=4(x_0-(1)/(2))^2$.
-于是 $4 x_0^2-5 x_0+1=0$，即 $(4 x_0-1)(x_0-1)=0$. 结合 $x_0 in [0,(1)/(2))$，得到 $x_0=(1)/(4)$. 代回可得 $x_1=(7)/(8)$，且 $f(x_1)=(1)/(4)$，满足条件.
++ (1) 
++ (2)
 ]
 

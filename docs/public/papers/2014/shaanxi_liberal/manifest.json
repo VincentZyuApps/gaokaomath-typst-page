@@ -1,8 +1,149 @@
 {
-  "title": "2014年普通高等学校招生全国统一考试",
-  "subtitle": "2014年陕西卷（文）",
   "year": "2014",
   "slug": "shaanxi_liberal",
+  "title": "2014年陕西卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 15,
+      "type": "选考题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 16,
+      "type": "选考题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 17,
+      "type": "选考题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +158,9 @@
             "$[0,1)$"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 2,
@@ -29,7 +172,9 @@
             "$4\\pi$"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 3,
@@ -41,11 +186,13 @@
             "$\\sqrt{3}$"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 4,
-          "body": "<p>根据如图所示的框图，对大于 2 的整数 $N$，输出的数列的通项公式是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>C</p><p>程序开始时 $S=1$，每次循环先计算 $a_{i}=2S$，再令 $S=a_{i}$，因此每次循环都使 $S$ 变为原来的 $2$ 倍. 第一次循环得到 $a_{1}=2=2^{1}$. 若第 $k$ 次循环前 $S=2^{k-1}$，则第 $k$ 次循环得到 $a_{k}=2S=2^{k}$. 由数学归纳法，输出数列的通项为 $a_{n}=2^{n}$. 因此选 C.</p>",
+          "body": "<p>根据如图所示的框图，对大于 2 的整数 $N$，输出的数列的通项公式是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/shaanxi_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>C</p><p>程序开始时 $S=1$，每次循环先计算 $a_{i}=2S$，再令 $S=a_{i}$，因此每次循环都使 $S$ 变为原来的 $2$ 倍. 第一次循环得到 $a_{1}=2=2^{1}$. 若第 $k$ 次循环前 $S=2^{k-1}$，则第 $k$ 次循环得到 $a_{k}=2S=2^{k}$. 由数学归纳法，输出数列的通项为 $a_{n}=2^{n}$. 因此选 C.</p>",
           "choices": [
             "$a_{n}= 2n$",
             "$a_{n}= 2(n - 1)$",
@@ -53,7 +200,9 @@
             "$a_{n}= 2^{n - 1}$"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 5,
@@ -65,7 +214,9 @@
             "$\\pi$"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 6,
@@ -77,7 +228,9 @@
             "$\\frac{4}{5}$"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 7,
@@ -89,7 +242,9 @@
             "$f(x) = 3^{x}$"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 8,
@@ -101,7 +256,9 @@
             "假，假，假"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 9,
@@ -113,11 +270,13 @@
             "$\\overline{x}+ 100$，$s^{2}$"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 10,
-          "body": "<p>如图，修建一条公路需要一段环湖弯曲路段与两条直道平滑连接（相切），已知环湖弯曲路段为某三次函数图象的一部分，则该函数的解析式为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>A</p><p>设三次函数为 $f(x)=Ax^{3}+Bx^{2}+Cx+D$. 由图可知曲线在 $O(0,0)$ 处与直线 $y=-x$ 相切，在 $(2,0)$ 处与直线 $y=3x-6$ 相切，所以 $f(0)=0$，$f'(0)=-1$，$f(2)=0$，$f'(2)=3$.</p><p>于是 $D=0$，$C=-1$，并且 $8A+4B-2=0$，$12A+4B-1=3$，即 $4A+2B=1$，$3A+B=1$. 解得 $A=\\frac{1}{2}$，$B=-\\frac{1}{2}$. 因此 $f(x)=\\frac{1}{2}x^{3}-\\frac{1}{2}x^{2}-x$.</p><p>所以选 A.</p>",
+          "body": "<p>如图，修建一条公路需要一段环湖弯曲路段与两条直道平滑连接（相切），已知环湖弯曲路段为某三次函数图象的一部分，则该函数的解析式为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/shaanxi_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>A</p><p>设三次函数为 $f(x)=Ax^{3}+Bx^{2}+Cx+D$. 由图可知曲线在 $O(0,0)$ 处与直线 $y=-x$ 相切，在 $(2,0)$ 处与直线 $y=3x-6$ 相切，所以 $f(0)=0$，$f'(0)=-1$，$f(2)=0$，$f'(2)=3$.</p><p>于是 $D=0$，$C=-1$，并且 $8A+4B-2=0$，$12A+4B-1=3$，即 $4A+2B=1$，$3A+B=1$. 解得 $A=\\frac{1}{2}$，$B=-\\frac{1}{2}$. 因此 $f(x)=\\frac{1}{2}x^{3}-\\frac{1}{2}x^{2}-x$.</p><p>所以选 A.</p>",
           "choices": [
             "$y = \\frac{1}{2}x^{3} - \\frac{1}{2}x^{2} - x$",
             "$y = \\frac{1}{2}x^{3} + \\frac{1}{2}x^{2} - 3x$",
@@ -125,7 +284,9 @@
             "$y = \\frac{1}{4}x^{3} + \\frac{1}{2}x^{2} - 2x$"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         }
       ]
     },
@@ -135,30 +296,38 @@
         {
           "num": 11,
           "body": "<p>抛物线 $y^{2}=4x$ 的准线方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$x=-1$</p><p>抛物线标准方程为 $y^{2}=4px$，与 $y^{2}=4x$ 比较得 $p=1$. 其准线方程为 $x=-p$，所以准线方程为 $x=-1$.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 12,
           "body": "<p>已知 $4^{a}=2$，$\\lg x=a$，则 $x=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\sqrt{10}$</p><p>由 $4^{a}=2$ 得 $2^{2a}=2^{1}$，从而 $a=\\frac{1}{2}$. 又 $\\lg x=a$，所以</p>\n$$\nx=10^{a}=10^{\\frac{1}{2}}=\\sqrt{10}\n$$",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 13,
           "body": "<p>设 $0 < \\theta < \\frac{\\pi}{2}$，向量 $\\mathbf{a}= (\\sin 2\\theta, \\cos \\theta)$，$\\mathbf{b}= (1, -\\cos \\theta)$，若 $\\mathbf{a}\\cdot \\mathbf{b}= 0$，则 $\\tan \\theta =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\frac{1}{2}$</p><p>由向量数量积为零，得 $\\mathbf{a}\\cdot\\mathbf{b}=\\sin 2\\theta-\\cos^{2}\\theta=0$. 利用 $\\sin 2\\theta=2\\sin\\theta\\cos\\theta$，有 $\\cos\\theta(2\\sin\\theta-\\cos\\theta)=0$. 因为 $0<\\theta<\\frac{\\pi}{2}$，所以 $\\cos\\theta>0$，从而 $2\\sin\\theta=\\cos\\theta$，即 $\\tan\\theta=\\frac{1}{2}$.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 14,
           "body": "<p>已知 $f(x) = \\frac{x}{1 + x}$，$x \\ge 0$，若 $f_{1}(x) = f(x)$，$f_{n+1}(x) = f(f_{n}(x))$，$n \\in \\mathbf{N}_{+}$，则 $f_{2014}(x)$ 的表达式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\frac{x}{2014x+1}$</p><p>先证明 $f_{n}(x)=\\frac{x}{1+nx}$. 由于 $x\\geqslant0$ 且 $n\\in\\mathbf{N}_{+}$，有 $1+nx>0$，所以各步分式均有意义. 当 $n=1$ 时，$f_{1}(x)=f(x)=\\frac{x}{1+x}$，结论成立. 若 $f_{n}(x)=\\frac{x}{1+nx}$，则</p>\n$$\nf_{n+1}(x)=f\\left(\\frac{x}{1+nx}\\right)  =\\frac{\\frac{x}{1+nx}}{1+\\frac{x}{1+nx}}=\\frac{x}{1+(n+1)x}\n$$\n<p>由数学归纳法，$f_{n}(x)=\\frac{x}{1+nx}$ 对一切 $n\\in\\mathbf{N}_{+}$ 成立. 因此</p>\n$$\nf_{2014}(x)=\\frac{x}{1+2014x}=\\frac{x}{2014x+1}\n$$",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         }
       ]
     },
@@ -168,23 +337,29 @@
         {
           "num": 15,
           "body": "<p>设 $a$，$b$，$m$，$n \\in \\mathbb{R}$，且 $a^{2} + b^{2} = 5$，$ma + nb = 5$，则 $\\sqrt{m^{2}+ n^{2}}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\sqrt{5}$</p><p>由柯西不等式，</p>\n$$\n5=ma+nb\\le\\sqrt{m^{2}+n^{2}}\\sqrt{a^{2}+b^{2}}=\\sqrt{5}\\sqrt{m^{2}+n^{2}}\n$$\n<p>所以 $\\sqrt{m^{2}+n^{2}}\\ge\\sqrt{5}$. 当 $m=a$，$n=b$ 时，题设两式均成立，且 $\\sqrt{m^{2}+n^{2}}=\\sqrt{5}$，故最小值为 $\\sqrt{5}$.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 16,
-          "body": "<p>如图，$\\triangle ABC$ 中，$BC = 6$，以 $BC$ 为直径的半圆分别交 $AB$，$AC$ 于点 $E$，$F$，若 $AC = 2AE$，则 $EF =\\underline{\\hspace{2.5em}}{}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>$3$</p><p>因为 $E$，$F$ 在以 $BC$ 为直径的圆上，所以 $\\angle BEC=\\angle BFC=90^{\\circ}$. 设 $AE=t$，则 $AC=2t$. 在直角三角形 $AEC$ 中，$\\cos A=\\frac{AE}{AC}=\\frac{1}{2}$，所以 $A=60^{\\circ}$.</p><p>由点 $A$ 关于该圆的幂，</p>\n$$\nAE\\cdot AB=AF\\cdot AC\n$$\n<p>代入 $AC=2AE$ 得 $AB=2AF$，所以 $AF=\\frac{1}{2}AB$. 取 $A$ 为原点，令 $AB$ 在 $x$ 轴正向，设 $AB=s$. 则 $B=(s,0)$，$C=(t,\\sqrt{3}t)$，$E=(t,0)$，$F=\\left(\\frac{s}{4},\\frac{\\sqrt{3}s}{4}\\right)$.</p><p>于是</p>\n$$\nEF^{2}=\\left(\\frac{s}{4}-t\\right)^{2}+\\left(\\frac{\\sqrt{3}s}{4}\\right)^{2}  =\\frac{1}{4}(s^{2}+4t^{2}-2st)=\\frac{1}{4}BC^{2}=9\n$$\n<p>因为 $EF>0$，所以 $EF=3$.</p>",
-          "choices": null,
+          "body": "<p>如图，$\\triangle ABC$ 中，$BC = 6$，以 $BC$ 为直径的半圆分别交 $AB$，$AC$ 于点 $E$，$F$，若 $AC = 2AE$，则 $EF =\\underline{\\hspace{2.5em}}{}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/shaanxi_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>$3$</p><p>因为 $E$，$F$ 在以 $BC$ 为直径的圆上，所以 $\\angle BEC=\\angle BFC=90^{\\circ}$. 设 $AE=t$，则 $AC=2t$. 在直角三角形 $AEC$ 中，$\\cos A=\\frac{AE}{AC}=\\frac{1}{2}$，所以 $A=60^{\\circ}$.</p><p>由点 $A$ 关于该圆的幂，</p>\n$$\nAE\\cdot AB=AF\\cdot AC\n$$\n<p>代入 $AC=2AE$ 得 $AB=2AF$，所以 $AF=\\frac{1}{2}AB$. 取 $A$ 为原点，令 $AB$ 在 $x$ 轴正向，设 $AB=s$. 则 $B=(s,0)$，$C=(t,\\sqrt{3}t)$，$E=(t,0)$，$F=\\left(\\frac{s}{4},\\frac{\\sqrt{3}s}{4}\\right)$.</p><p>于是</p>\n$$\nEF^{2}=\\left(\\frac{s}{4}-t\\right)^{2}+\\left(\\frac{\\sqrt{3}s}{4}\\right)^{2}  =\\frac{1}{4}(s^{2}+4t^{2}-2st)=\\frac{1}{4}BC^{2}=9\n$$\n<p>因为 $EF>0$，所以 $EF=3$.</p>",
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 17,
           "body": "<p>在极坐标系中，点 $\\left(2, \\frac{\\pi}{6}\\right)$ 到直线 $\\rho \\sin \\left(\\theta - \\frac{\\pi}{6}\\right) = 1$ 的距离是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$1$</p><p>由极坐标与直角坐标的关系 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，直线方程化为 $\\rho\\left(\\sin\\theta\\cos\\frac{\\pi}{6}-\\cos\\theta\\sin\\frac{\\pi}{6}\\right)=1$，即 $\\frac{\\sqrt{3}}{2}y-\\frac{1}{2}x=1$，从而 $\\sqrt{3}y-x=2$.</p><p>点 $\\left(2,\\frac{\\pi}{6}\\right)$ 的直角坐标为 $(\\sqrt{3},1)$. 因此点到直线 $x-\\sqrt{3}y+2=0$ 的距离为 $d=\\frac{|\\sqrt{3}-\\sqrt{3}+2|}{\\sqrt{1+3}}=1$.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         }
       ]
     },
@@ -194,44 +369,56 @@
         {
           "num": 18,
           "body": "<p>$\\triangle ABC$ 的内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$.</p><ol class=\"enumerate\"><li><p>若 $a$，$b$，$c$ 成等差数列，证明：$\\sin A + \\sin C = 2\\sin (A + C)$；</p></li><li><p>若 $a$，$b$，$c$ 成等比数列，且 $c = 2a$，求 $\\cos B$ 的值.</p></li></ol><ol class=\"enumerate\"><li><p>由正弦定理，存在 $k>0$ 使 $a=k\\sin A$，$b=k\\sin B$，$c=k\\sin C$. 因为 $a$，$b$，$c$ 成等差数列，所以 $a+c=2b$，从而 $\\sin A+\\sin C=2\\sin B$. 又 $A+B+C=\\pi$，故 $\\sin B=\\sin(A+C)$，所以 $\\sin A+\\sin C=2\\sin(A+C)$.</p></li><li><p>因为 $a$，$b$，$c$ 为三角形的边，均为正数. 设等比数列公比为 $q>0$，则 $b=aq$，$c=aq^{2}$. 由 $c=2a$ 得 $q^{2}=2$，所以 $b=\\sqrt{2}a$，$c=2a$. 在三角形 $ABC$ 中对角 $B$ 使用余弦定理，$b^{2}=a^{2}+c^{2}-2ac\\cos B$. 代入边长关系得 $2a^{2}=a^{2}+4a^{2}-4a^{2}\\cos B$，所以 $\\cos B=\\frac{3}{4}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 19,
-          "body": "<p>四面体 $ABCD$ 及其三视图如图所示，过棱 $AB$ 的中点 $E$ 作平行于 $AD$，$BC$ 的平面分别交四面体的棱 $BD$，$DC$，$CA$ 于点 $F$，$G$，$H$.</p><ol class=\"enumerate\"><li><p>求四面体 $ABCD$ 的体积；</p></li><li><p>证明：四边形 $EFGH$ 是矩形.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>由三视图可知，$AD\\perp BD$，$AD\\perp DC$，$BD\\perp DC$，且 $AD=1$，$BD=DC=2$. 因为 $BD$、$DC$ 是平面 $BDC$ 内相交的两条直线，所以直线 $AD$ 垂直于平面 $BDC$. 因而以三角形 $BDC$ 为底，$AD$ 为高，四面体体积为</p>\n$$\nV=\\frac{1}{3}\\cdot\\frac{1}{2}BD\\cdot DC\\cdot AD  =\\frac{1}{3}\\cdot\\frac{1}{2}\\cdot2\\cdot2\\cdot1=\\frac{2}{3}\n$$\n</li><li><p>平面 $EFGH$ 平行于 $AD$ 和 $BC$. 在三角形 $ABD$ 中，过 $E$ 的截线 $EF\\parallel AD$，且 $E$ 为 $AB$ 的中点，所以 $F$ 为 $BD$ 的中点. 在三角形 $ABC$ 中，截线 $EH\\parallel BC$，所以 $H$ 为 $AC$ 的中点.</p><p>平面 $BDC$ 与平面 $EFGH$ 的交线为 $FG$，且 $FG\\parallel BC$. 由三角形 $BDC$ 的中位线定理，$G$ 为 $DC$ 的中点. 又在三角形 $ADC$ 中，$H$，$G$ 分别为 $AC$，$DC$ 的中点，所以 $HG\\parallel AD$. 因此 $EF\\parallel HG$，$EH\\parallel FG$，四边形 $EFGH$ 为平行四边形.</p><p>由 $AD\\perp BC$，且 $EF\\parallel AD$，$FG\\parallel BC$，得 $EF\\perp FG$. 该平行四边形有一个直角，所以四边形 $EFGH$ 是矩形.</p></li></ol>",
-          "choices": null,
+          "body": "<p>四面体 $ABCD$ 及其三视图如图所示，过棱 $AB$ 的中点 $E$ 作平行于 $AD$，$BC$ 的平面分别交四面体的棱 $BD$，$DC$，$CA$ 于点 $F$，$G$，$H$.</p><ol class=\"enumerate\"><li><p>求四面体 $ABCD$ 的体积；</p></li><li><p>证明：四边形 $EFGH$ 是矩形.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/shaanxi_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>由三视图可知，$AD\\perp BD$，$AD\\perp DC$，$BD\\perp DC$，且 $AD=1$，$BD=DC=2$. 因为 $BD$、$DC$ 是平面 $BDC$ 内相交的两条直线，所以直线 $AD$ 垂直于平面 $BDC$. 因而以三角形 $BDC$ 为底，$AD$ 为高，四面体体积为</p>\n$$\nV=\\frac{1}{3}\\cdot\\frac{1}{2}BD\\cdot DC\\cdot AD  =\\frac{1}{3}\\cdot\\frac{1}{2}\\cdot2\\cdot2\\cdot1=\\frac{2}{3}\n$$\n</li><li><p>平面 $EFGH$ 平行于 $AD$ 和 $BC$. 在三角形 $ABD$ 中，过 $E$ 的截线 $EF\\parallel AD$，且 $E$ 为 $AB$ 的中点，所以 $F$ 为 $BD$ 的中点. 在三角形 $ABC$ 中，截线 $EH\\parallel BC$，所以 $H$ 为 $AC$ 的中点.</p><p>平面 $BDC$ 与平面 $EFGH$ 的交线为 $FG$，且 $FG\\parallel BC$. 由三角形 $BDC$ 的中位线定理，$G$ 为 $DC$ 的中点. 又在三角形 $ADC$ 中，$H$，$G$ 分别为 $AC$，$DC$ 的中点，所以 $HG\\parallel AD$. 因此 $EF\\parallel HG$，$EH\\parallel FG$，四边形 $EFGH$ 为平行四边形.</p><p>由 $AD\\perp BC$，且 $EF\\parallel AD$，$FG\\parallel BC$，得 $EF\\perp FG$. 该平行四边形有一个直角，所以四边形 $EFGH$ 是矩形.</p></li></ol>",
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 20,
           "body": "<p>在直角坐标系 $xOy$ 中，已知点 $A(1,1)$，$B(2,3)$，$C(3,2)$. 点 $P(x,y)$ 在 $\\triangle ABC$ 三边围成的区域（含边界）上，且 $\\overrightarrow{OP}= m\\overrightarrow{AB}+ n\\overrightarrow{AC}$ （$m$，$n \\in \\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>若 $m = n = \\frac{2}{3}$，求 $\\left|\\overrightarrow{OP}\\right|$.</p></li><li><p>用 $x$，$y$ 表示 $m - n$，并求 $m - n$ 的最大值.</p></li></ol><ol class=\"enumerate\"><li><p>$\\overrightarrow{AB}=(1,2)$，$\\overrightarrow{AC}=(2,1)$. 当 $m=n=\\frac{2}{3}$ 时，</p>\n$$\n\\overrightarrow{OP}=\\frac{2}{3}(1,2)+\\frac{2}{3}(2,1)=(2,2)\n$$\n<p>所以 $\\left|\\overrightarrow{OP}\\right|=\\sqrt{2^{2}+2^{2}}=2\\sqrt{2}$.</p></li><li><p>由</p>\n$$\n(x,y)=m(1,2)+n(2,1)=(m+2n,2m+n)\n$$\n<p>两式相减得 $m-n=y-x$. 设 $P$ 在三角形 $ABC$ 内的重心坐标为 $P=\\alpha A+\\beta B+\\gamma C$，其中 $\\alpha+\\beta+\\gamma=1$，且 $\\alpha$，$\\beta$，$\\gamma\\geqslant0$. 在三个顶点处，$y-x$ 的值分别为 $0$，$1$，$-1$，所以</p>\n$$\nm-n=y-x=0\\alpha+1\\beta-1\\gamma\\leqslant1\n$$\n<p>当 $P=B$ 时取等号，故 $m-n$ 的最大值为 $1$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 21,
-          "body": "<p>某保险公司利用简单随机抽样方法，对投保车辆进行抽样，样本车辆中每辆车的赔付结果统计如下：</p><center class=\"center\"><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1.2</span></span><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>赔付金额（元） </td><td style=\"text-align: center\"> 0 </td><td style=\"text-align: center\"> 1000 </td><td style=\"text-align: center\"> 2000 </td><td style=\"text-align: center\"> 3000 </td><td style=\"text-align: center\"> 4000 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>车辆数（辆） </td><td style=\"text-align: center\"> 500 </td><td style=\"text-align: center\"> 130 </td><td style=\"text-align: center\"> 100 </td><td style=\"text-align: center\"> 150 </td><td style=\"text-align: center\"> 120 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>若每辆车的投保金额均为 2800 元，估计赔付金额大于投保金额的概率；</p></li><li><p>在样本车辆中，车主是新司机的占 $10\\%$，在赔付金额为 4000 元的样本车辆中，车主是新司机的占 $20\\%$. 估计在已投保车辆中，新司机获赔金额为 4000 元的概率.</p></li></ol><ol class=\"enumerate\"><li><p>样本总车辆数为 $500+130+100+150+120=1000$. 赔付金额大于 $2800$ 元的车辆数为 $150+120=270$，所以估计概率为</p>\n$$\n\\frac{270}{1000}=0.27\n$$\n</li><li><p>样本中新司机车辆数为 $0.1\\times1000=100$ 辆；在赔付 $4000$ 元的 $120$ 辆车中，新司机车辆数为 $0.2\\times120=24$ 辆. 因此在新司机中获赔 $4000$ 元的概率估计为</p>\n$$\n\\frac{24}{100}=0.24\n$$\n</li></ol>",
-          "choices": null,
+          "body": "<p>某保险公司利用简单随机抽样方法，对投保车辆进行抽样，样本车辆中每辆车的赔付结果统计如下：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">赔付金额（元） </td><td style=\"text-align: center\"> 0 </td><td style=\"text-align: center\"> 1000 </td><td style=\"text-align: center\"> 2000 </td><td style=\"text-align: center\"> 3000 </td><td style=\"text-align: center\"> 4000 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">车辆数（辆） </td><td style=\"text-align: center\"> 500 </td><td style=\"text-align: center\"> 130 </td><td style=\"text-align: center\"> 100 </td><td style=\"text-align: center\"> 150 </td><td style=\"text-align: center\"> 120 </td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>若每辆车的投保金额均为 2800 元，估计赔付金额大于投保金额的概率；</p></li><li><p>在样本车辆中，车主是新司机的占 $10\\%$，在赔付金额为 4000 元的样本车辆中，车主是新司机的占 $20\\%$. 估计在已投保车辆中，新司机获赔金额为 4000 元的概率.</p></li></ol><ol class=\"enumerate\"><li><p>样本总车辆数为 $500+130+100+150+120=1000$. 赔付金额大于 $2800$ 元的车辆数为 $150+120=270$，所以估计概率为</p>\n$$\n\\frac{270}{1000}=0.27\n$$\n</li><li><p>样本中新司机车辆数为 $0.1\\times1000=100$ 辆；在赔付 $4000$ 元的 $120$ 辆车中，新司机车辆数为 $0.2\\times120=24$ 辆. 因此在新司机中获赔 $4000$ 元的概率估计为</p>\n$$\n\\frac{24}{100}=0.24\n$$\n</li></ol>",
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 22,
-          "body": "<p>已知椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ （$a > b > 0$）经过点 $(0, \\sqrt{3})$，离心率为 $\\frac{1}{2}$，左右焦点分别为 $F_{1}(-c, 0)$，$F_{2}(c, 0)$.</p><ol class=\"enumerate\"><li><p>求椭圆的方程.</p></li><li><p>若直线 $l: y = -\\frac{1}{2}x + m$ 与椭圆交于 $A$，$B$ 两点，与以 $F_{1}F_{2}$ 为直径的圆交于 $C$，$D$ 两点，且满足 $\\frac{|AB|}{|CD|}= \\frac{5\\sqrt{3}}{4}$，求直线 $l$ 的方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>因为椭圆经过 $(0,\\sqrt{3})$，所以 $\\frac{3}{b^{2}}=1$，即 $b^{2}=3$. 又离心率 $e=\\frac{c}{a}=\\frac{1}{2}$，且 $c^{2}=a^{2}-b^{2}$，故 $\\frac{a^{2}}{4}=a^{2}-3$，即 $a^{2}=4$.</p><p>因此椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n</li><li><p>以 $y=-\\frac{1}{2}x+m$ 代入椭圆方程，得</p>\n$$\n\\frac{x^{2}}{4}+\\frac{\\left(-\\frac{1}{2}x+m\\right)^{2}}{3}=1\n$$\n<p>即</p>\n$$\nx^{2}-mx+m^{2}-3=0\n$$\n<p>设两交点的横坐标为 $x_{1}$，$x_{2}$，则</p><p>$x_{1}+x_{2}=m$，$x_{1}x_{2}=m^{2}-3$，$(x_{1}-x_{2})^{2}=3(4-m^{2})$.</p><p>所以弦 $AB$ 的长度为</p>\n$$\n|AB|=\\sqrt{1+\\left(-\\frac{1}{2}\\right)^{2}}|x_{1}-x_{2}|=\\frac{\\sqrt{15}}{2}\\sqrt{4-m^{2}}\n$$\n<p>由 $c^{2}=a^{2}-b^{2}=1$，以 $F_{1}F_{2}$ 为直径的圆为 $x^{2}+y^{2}=1$. 直线 $l$ 到原点的距离为 $d=\\frac{2|m|}{\\sqrt{5}}$，故弦 $CD$ 的长度为</p>\n$$\n|CD|=2\\sqrt{1-d^{2}}=\\frac{2}{\\sqrt{5}}\\sqrt{5-4m^{2}}\n$$\n<p>由题设，</p>\n$$\n\\frac{|AB|}{|CD|}=\\frac{5\\sqrt{3}}{4}\\sqrt{\\frac{4-m^{2}}{5-4m^{2}}}=\\frac{5\\sqrt{3}}{4}\n$$\n<p>由于 $A$、$B$ 和 $C$、$D$ 均为两个交点，需有 $4-m^{2}>0$ 且 $5-4m^{2}>0$. 从而 $4-m^{2}=5-4m^{2}$，即 $m^{2}=\\frac{1}{3}$，所得两个值均满足上述相交条件，故</p>\n$$\nm=\\pm\\frac{\\sqrt{3}}{3}\n$$\n<p>所求直线为 $y=-\\frac{1}{2}x+\\frac{\\sqrt{3}}{3}$ 或 $y=-\\frac{1}{2}x-\\frac{\\sqrt{3}}{3}$.</p></li></ol>",
-          "choices": null,
+          "body": "<p>已知椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ （$a > b > 0$）经过点 $(0, \\sqrt{3})$，离心率为 $\\frac{1}{2}$，左右焦点分别为 $F_{1}(-c, 0)$，$F_{2}(c, 0)$.</p><ol class=\"enumerate\"><li><p>求椭圆的方程.</p></li><li><p>若直线 $l: y = -\\frac{1}{2}x + m$ 与椭圆交于 $A$，$B$ 两点，与以 $F_{1}F_{2}$ 为直径的圆交于 $C$，$D$ 两点，且满足 $\\frac{|AB|}{|CD|}= \\frac{5\\sqrt{3}}{4}$，求直线 $l$ 的方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/shaanxi_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>因为椭圆经过 $(0,\\sqrt{3})$，所以 $\\frac{3}{b^{2}}=1$，即 $b^{2}=3$. 又离心率 $e=\\frac{c}{a}=\\frac{1}{2}$，且 $c^{2}=a^{2}-b^{2}$，故 $\\frac{a^{2}}{4}=a^{2}-3$，即 $a^{2}=4$.</p><p>因此椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n</li><li><p>以 $y=-\\frac{1}{2}x+m$ 代入椭圆方程，得</p>\n$$\n\\frac{x^{2}}{4}+\\frac{\\left(-\\frac{1}{2}x+m\\right)^{2}}{3}=1\n$$\n<p>即</p>\n$$\nx^{2}-mx+m^{2}-3=0\n$$\n<p>设两交点的横坐标为 $x_{1}$，$x_{2}$，则</p><p>$x_{1}+x_{2}=m$，$x_{1}x_{2}=m^{2}-3$，$(x_{1}-x_{2})^{2}=3(4-m^{2})$.</p><p>所以弦 $AB$ 的长度为</p>\n$$\n|AB|=\\sqrt{1+\\left(-\\frac{1}{2}\\right)^{2}}|x_{1}-x_{2}|=\\frac{\\sqrt{15}}{2}\\sqrt{4-m^{2}}\n$$\n<p>由 $c^{2}=a^{2}-b^{2}=1$，以 $F_{1}F_{2}$ 为直径的圆为 $x^{2}+y^{2}=1$. 直线 $l$ 到原点的距离为 $d=\\frac{2|m|}{\\sqrt{5}}$，故弦 $CD$ 的长度为</p>\n$$\n|CD|=2\\sqrt{1-d^{2}}=\\frac{2}{\\sqrt{5}}\\sqrt{5-4m^{2}}\n$$\n<p>由题设，</p>\n$$\n\\frac{|AB|}{|CD|}=\\frac{5\\sqrt{3}}{4}\\sqrt{\\frac{4-m^{2}}{5-4m^{2}}}=\\frac{5\\sqrt{3}}{4}\n$$\n<p>由于 $A$、$B$ 和 $C$、$D$ 均为两个交点，需有 $4-m^{2}>0$ 且 $5-4m^{2}>0$. 从而 $4-m^{2}=5-4m^{2}$，即 $m^{2}=\\frac{1}{3}$，所得两个值均满足上述相交条件，故</p>\n$$\nm=\\pm\\frac{\\sqrt{3}}{3}\n$$\n<p>所求直线为 $y=-\\frac{1}{2}x+\\frac{\\sqrt{3}}{3}$ 或 $y=-\\frac{1}{2}x-\\frac{\\sqrt{3}}{3}$.</p></li></ol>",
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 23,
           "body": "<p>设函数 $f(x) = \\ln x + \\frac{m}{x}$，$m \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>当 $m = \\mathrm{e}$（$\\mathrm{e}$ 为自然对数的底数）时，求 $f(x)$ 的极小值；</p></li><li><p>讨论函数 $g(x) = f'(x) - \\frac{x}{3}$ 零点的个数；</p></li><li><p>若对任意 $b > a > 0$，$\\frac{f(b) - f(a)}{b - a}< 1$ 恒成立，求 $m$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>当 $m=\\mathrm{e}$ 时，$x>0$，且</p>\n$$\nf'(x)=\\frac{1}{x}-\\frac{\\mathrm{e}}{x^{2}}=\\frac{x-\\mathrm{e}}{x^{2}}\n$$\n<p>因此 $f'(x)<0$ 在 $(0,\\mathrm{e})$ 上成立，$f'(x)>0$ 在 $(\\mathrm{e},+\\infty)$ 上成立，故 $x=\\mathrm{e}$ 处取得极小值. 其值为</p>\n$$\nf(\\mathrm{e})=\\ln\\mathrm{e}+\\frac{\\mathrm{e}}{\\mathrm{e}}=1+1=2\n$$\n</li><li><p>$x>0$ 时</p>\n$$\ng(x)=\\frac{1}{x}-\\frac{m}{x^{2}}-\\frac{x}{3}\n$$\n<p>由于 $3x^{2}>0$，$g(x)=0$ 等价于</p>\n$$\nm=\\varphi(x):=x-\\frac{x^{3}}{3}\n$$\n<p>又</p>\n$$\n\\varphi'(x)=1-x^{2}\n$$\n<p>所以 $\\varphi$ 在 $(0,1)$ 上递增，在 $(1,+\\infty)$ 上递减，且 $\\varphi(0^{+})=0$，$\\varphi(1)=\\frac{2}{3}$，$\\varphi(x)\\to-\\infty$（$x\\to+\\infty$）. 因此，当 $m>\\frac{2}{3}$ 时有 $0$ 个零点；当 $m=\\frac{2}{3}$ 或 $m\\leqslant0$ 时有 $1$ 个零点；当 $0<m<\\frac{2}{3}$ 时有 $2$ 个零点.</p></li><li><p>令 $h(x)=f(x)-x$. 题设不等式等价于对任意 $b>a>0$ 有 $h(b)<h(a)$，即 $h$ 在 $(0,+\\infty)$ 上严格递减. 求导得</p>\n$$\nh'(x)=\\frac{1}{x}-\\frac{m}{x^{2}}-1=-\\frac{x^{2}-x+m}{x^{2}}\n$$\n<p>当 $m\\ge\\frac{1}{4}$ 时，</p>\n$$\nx^{2}-x+m=\\left(x-\\frac{1}{2}\\right)^{2}+m-\\frac{1}{4}\\geqslant0\n$$\n<p>所以 $h'(x)\\leqslant0$，且至多在一个点取零. 对任意 $b>a>0$，$h(b)-h(a)=\\int_{a}^{b} h'(x)\\,\\mathrm{d}x<0$，故 $h$ 严格递减，题设成立.</p><p>当 $m<\\frac{1}{4}$ 时，$x^{2}-x+m$ 在 $x=\\frac{1}{2}$ 处为负，故在该点附近 $h'(x)>0$，可以取 $b>a>0$ 使 $h(b)>h(a)$，题设不成立. 因此</p>\n$$\nm\\in\\left[\\frac{1}{4},+\\infty\\right)\n$$\n</li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         }
       ]
     }

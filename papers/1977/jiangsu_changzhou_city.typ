@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,19 +11,23 @@
 #part-header("解答题")
 
 #problem(1)[
-计算：$-1-(-5(1)/(2)) times (4)/(11)+(-2)^3\div[(-3)^2+7]$.
+计算：#mi(`-1-\left(-5\frac{1}{2}\right)\times\frac{4}{11}+\left(-2\right)^{3}\div\left[\left(-3\right)^{2}+7\right]`).
 ]
 
 #solution[
-先把带分数、幂和括号内的数分别化简：$-5(1)/(2)=-(11)/(2)$，$(-2)^3=-8$，$(-3)^2+7=9+7=16$. 因此
+先把带分数、幂和括号内的数分别化简：#mi(`-5\frac{1}{2}=-\frac{11}{2}`)，#mi(`(-2)^{3}=-8`)，#mi(`(-3)^{2}+7=9+7=16`). 因此
 
-$ -1-(-(11)/(2)) times (4)/(11)+(-2)^3\div[(-3)^2+7] =-1-(-2)+(-8)/(16)=1-(1)/(2)=(1)/(2) $
 
-故原式的值为 $(1)/(2)$.
+#align(center)[#mitex(`
+-1-\left(-\frac{11}{2}\right)\times\frac{4}{11}+\left(-2\right)^{3}\div\left[\left(-3\right)^{2}+7\right]  =-1-(-2)+\frac{-8}{16}=1-\frac{1}{2}=\frac{1}{2}
+`)]
+
+
+故原式的值为 #mi(`\frac{1}{2}`).
 ]
 
 #problem(2)[
-计算：$-(2)/(2+sqrt(2))+(1)/(sqrt(3)-sqrt(2))-(3+sqrt(3))/(3-sqrt(3))$.
+计算：#mi(`-\frac{2}{2+\sqrt{2}}+\frac{1}{\sqrt{3}-\sqrt{2}}-\frac{3+\sqrt{3}}{3-\sqrt{3}}`).
 ]
 
 #solution[
@@ -31,261 +35,335 @@ $ -1-(-(11)/(2)) times (4)/(11)+(-2)^3\div[(-3)^2+7] =-1-(-2)+(-8)/(16)=1-(1)/(2
 
 第一项为
 
-$ -(2)/(2+sqrt(2))=-(2(2-sqrt(2)))/((2+sqrt(2))(2-sqrt(2)))=-(2(2-sqrt(2)))/(4-2)=sqrt(2)-2 $
+
+#align(center)[#mitex(`
+-\frac{2}{2+\sqrt{2}}=-\frac{2(2-\sqrt{2})}{(2+\sqrt{2})(2-\sqrt{2})}=-\frac{2(2-\sqrt{2})}{4-2}=\sqrt{2}-2
+`)]
+
 
 第二项为
 
-$ (1)/(sqrt(3)-sqrt(2))=(sqrt(3)+sqrt(2))/((sqrt(3)-sqrt(2))(sqrt(3)+sqrt(2)))=(sqrt(3)+sqrt(2))/(3-2)=sqrt(3)+sqrt(2) $
+
+#align(center)[#mitex(`
+\frac{1}{\sqrt{3}-\sqrt{2}}=\frac{\sqrt{3}+\sqrt{2}}{(\sqrt{3}-\sqrt{2})(\sqrt{3}+\sqrt{2})}=\frac{\sqrt{3}+\sqrt{2}}{3-2}=\sqrt{3}+\sqrt{2}
+`)]
+
 
 第三项为
 
-$ (3+sqrt(3))/(3-sqrt(3))=((3+sqrt(3))^2)/((3-sqrt(3))(3+sqrt(3)))=(9+6 sqrt(3)+3)/(9-3)=2+sqrt(3) $
+
+#align(center)[#mitex(`
+\frac{3+\sqrt{3}}{3-\sqrt{3}}=\frac{(3+\sqrt{3})^{2}}{(3-\sqrt{3})(3+\sqrt{3})}=\frac{9+6\sqrt{3}+3}{9-3}=2+\sqrt{3}
+`)]
+
 
 把三项代回原式，注意第三项前有负号，得
 
-$ =(sqrt(2)-2)+(sqrt(3)+sqrt(2))-(2+sqrt(3))=2 sqrt(2)-4 $
 
-故原式的值为 $2 sqrt(2)-4$.
+#align(center)[#mitex(`
+=\left(\sqrt{2}-2\right)+\left(\sqrt{3}+\sqrt{2}\right)-\left(2+\sqrt{3}\right)=2\sqrt{2}-4
+`)]
+
+
+故原式的值为 #mi(`2\sqrt{2}-4`).
 ]
 
 #problem(3)[
-计算：$log _2(1+\l g 10)$.
+计算：#mi(`\log_{2}\left(1+\lg 10\right)`).
 ]
 
 #solution[
-由常用对数的定义，$\l g 10=1$，所以括号内的数为 $1+\l g 10=1+1=2$. 又因为 $2^1=2$，根据对数的定义可得
-$log _2(1+\l g 10)= log _2 2=1$.
-故原式的值为 $1$.
+由常用对数的定义，#mi(`\lg 10=1`)，所以括号内的数为 #mi(`1+\lg 10=1+1=2`). 又因为 #mi(`2^{1}=2`)，根据对数的定义可得
+
+#mi(`\log_{2}\left(1+\lg 10\right)=\log_{2} 2=1`).
+
+故原式的值为 #mi(`1`).
 ]
 
 #problem(4)[
-$sin 390 ""^ degree cos (-60^ degree )+ sin 120 ""^ degree cos 750 ""^ degree$.
+#mi(`\sin 390^{\circ}\cos\left(-60^{\circ}\right)+\sin 120^{\circ}\cos 750^{\circ}`).
 ]
 
 #solution[
 利用正弦、余弦的周期性以及余弦函数的偶性，逐项化为锐角三角函数值：
-$sin 390 ""^ degree = sin (360^ degree +30^ degree )=(1)/(2)$，
-$cos (-60^ degree )= cos 60 ""^ degree =(1)/(2)$，
-$sin 120 ""^ degree = sin (180^ degree -60^ degree )=(sqrt(3))/(2)$，
-$cos 750 ""^ degree = cos (720^ degree +30^ degree )=(sqrt(3))/(2)$. 因此原式为
 
-$ =(1)/(2) dot (1)/(2)+(sqrt(3))/(2) dot (sqrt(3))/(2)=(1)/(4)+(3)/(4)=1 $
+#mi(`\sin 390^{\circ}=\sin\left(360^{\circ}+30^{\circ}\right)=\frac{1}{2}`)，
 
-故原式的值为 $1$.
+#mi(`\cos\left(-60^{\circ}\right)=\cos 60^{\circ}=\frac{1}{2}`)，
+
+#mi(`\sin 120^{\circ}=\sin\left(180^{\circ}-60^{\circ}\right)=\frac{\sqrt{3}}{2}`)，
+
+#mi(`\cos 750^{\circ}=\cos\left(720^{\circ}+30^{\circ}\right)=\frac{\sqrt{3}}{2}`). 因此原式为
+
+
+#align(center)[#mitex(`
+=\frac{1}{2}\cdot\frac{1}{2}+\frac{\sqrt{3}}{2}\cdot\frac{\sqrt{3}}{2}=\frac{1}{4}+\frac{3}{4}=1
+`)]
+
+
+故原式的值为 #mi(`1`).
 ]
 
 #problem(5)[
-化简：$a+sqrt(a^2-2 a+1)$.
+化简：#mi(`a+\sqrt{a^{2}-2a+1}`).
 ]
 
 #solution[
-对任意 $a in RR$，被开方数可配方为 $a^2-2 a+1=(a-1)^2$，而算术平方根满足 $sqrt(u^2)=| u|$. 因此 $sqrt(a^2-2 a+1)=sqrt((a-1)^2)=| a-1|$，原式化为 $a+| a-1|$.
+对任意 #mi(`a\in\mathbb{R}`)，被开方数可配方为 #mi(`a^{2}-2a+1=(a-1)^{2}`)，而算术平方根满足 #mi(`\sqrt{u^{2}}=\lvert u\rvert`). 因此 #mi(`\sqrt{a^{2}-2a+1}=\sqrt{(a-1)^{2}}=\lvert a-1\rvert`)，原式化为 #mi(`a+\lvert a-1\rvert`).
 
-绝对值的符号由 $a-1$ 的正负决定. 当 $a\g e q 1$ 时，$| a-1|=a-1$，原式为 $a+a-1=2 a-1$；当 $a<1$ 时，$| a-1|=1-a$，原式为 $a+1-a=1$. 所以
+绝对值的符号由 #mi(`a-1`) 的正负决定. 当 #mi(`a\geq 1`) 时，#mi(`\lvert a-1\rvert=a-1`)，原式为 #mi(`a+a-1=2a-1`)；当 #mi(`a<1`) 时，#mi(`\lvert a-1\rvert=1-a`)，原式为 #mi(`a+1-a=1`). 所以
 
-$ =\b e g i n{c a s e s} 2 a-1,&a\g e q 1,\\ 1,&a<1. \e n d{c a s e s} $
 
-在边界 $a=1$ 时两种表达式均为 $1$，故分类完整.
+#align(center)[#mitex(`
+=\begin{cases}2a-1,&a\geq 1,\\  1,&a<1.\end{cases}
+`)]
+
+
+在边界 #mi(`a=1`) 时两种表达式均为 #mi(`1`)，故分类完整.
 ]
 
 #problem(6)[
-已知 $a=9$，$b=sqrt(3)$，求 $a^((3)/(2))b((b^2)/(a))^((1)/(2))\div((1)/(a))^(-(1)/(2))$ 的值.
+已知 #mi(`a=9`)，#mi(`b=\sqrt{3}`)，求 #mi(`a^{\frac{3}{2}}b\left(\frac{b^{2}}{a}\right)^{\frac{1}{2}}\div\left(\frac{1}{a}\right)^{-\frac{1}{2}}`) 的值.
 ]
 
 #solution[
-代入 $a=9$，$b=sqrt(3)$. 因为 $a>0$，有 $a^((3)/(2))=9^((3)/(2))=(sqrt(9))^3=27$，并且 $b^2=(sqrt(3))^2=3$. 因此
-$((b^2)/(a))^((1)/(2))=((3)/(9))^((1)/(2))=((1)/(3))^((1)/(2))=(1)/(sqrt(3))$，
-而 $((1)/(a))^(-(1)/(2))=((1)/(9))^(-(1)/(2))=(1)/(sqrt((1)/(9)))=(1)/((1)/(3))=3$.
+代入 #mi(`a=9`)，#mi(`b=\sqrt{3}`). 因为 #mi(`a>0`)，有 #mi(`a^{\frac{3}{2}}=9^{\frac{3}{2}}=\left(\sqrt{9}\right)^{3}=27`)，并且 #mi(`b^{2}=\left(\sqrt{3}\right)^{2}=3`). 因此
+
+#mi(`\left(\frac{b^{2}}{a}\right)^{\frac{1}{2}}=\left(\frac{3}{9}\right)^{\frac{1}{2}}=\left(\frac{1}{3}\right)^{\frac{1}{2}}=\frac{1}{\sqrt{3}}`)，
+
+而 #mi(`\left(\frac{1}{a}\right)^{-\frac{1}{2}}=\left(\frac{1}{9}\right)^{-\frac{1}{2}}=\frac{1}{\sqrt{\frac{1}{9}}}=\frac{1}{\frac{1}{3}}=3`).
 
 所以原式为
 
-$ 27\c d o t s q r t(3) dot (1)/(sqrt(3))\div 3 =27\div 3 =9 $
 
-故所求值为 $9$.
+#align(center)[#mitex(`
+27\cdot\sqrt{3}\cdot\frac{1}{\sqrt{3}}\div 3=27\div 3=9
+`)]
+
+
+故所求值为 #mi(`9`).
 ]
 
 #problem(7)[
-求函数 $y=sqrt(x-3)+sqrt(5-x)$ 的自变量的取值范围.
+求函数 #mi(`y=\sqrt{x-3}+\sqrt{5-x}`) 的自变量的取值范围.
 ]
 
 #solution[
-要使函数值为实数，两个平方根必须同时有意义，即两个被开方数都不小于零：$x-3\g e q 0$，$5-x\g e q 0$. 这两个不等式分别给出 $x\g e q 3$ 和 $x\l e q 5$. 取它们的交集，得到 $3\l e q x\l e q 5$，且两个端点都使相应被开方数为零，因而可以取到. 所以自变量的取值范围是 $[3,5]$.
+要使函数值为实数，两个平方根必须同时有意义，即两个被开方数都不小于零：#mi(`x-3\geq 0`)，#mi(`5-x\geq 0`). 这两个不等式分别给出 #mi(`x\geq 3`) 和 #mi(`x\leq 5`). 取它们的交集，得到 #mi(`3\leq x\leq 5`)，且两个端点都使相应被开方数为零，因而可以取到. 所以自变量的取值范围是 #mi(`[3,5]`).
 ]
 
 #problem(8)[
-求证：$cot (pi)/(8)- tan (pi)/(8)=2$.
+求证：#mi(`\cot\frac{\pi}{8}-\tan\frac{\pi}{8}=2`).
 ]
 
 #solution[
-令 $theta =(pi)/(8)$. 因为 $0< theta <(pi)/(2)$，所以 $sin theta$ 和 $cos theta$ 均不为零，正切和余切都有定义. 由 $tan theta =(sin theta)/(cos theta)$、$cot theta =(cos theta)/(sin theta)$，有
+令 #mi(`\theta=\frac{\pi}{8}`). 因为 #mi(`0<\theta<\frac{\pi}{2}`)，所以 #mi(`\sin\theta`) 和 #mi(`\cos\theta`) 均不为零，正切和余切都有定义. 由 #mi(`\tan\theta=\frac{\sin\theta}{\cos\theta}`)、#mi(`\cot\theta=\frac{\cos\theta}{\sin\theta}`)，有
 
-$ cot theta - tan theta =(cos theta)/(sin theta)-(sin theta)/(cos theta)=(cos ""^2 theta - sin ""^2 theta)/(sin theta cos theta)=(cos 2 theta)/((1)/(2) sin 2 theta)=2 cot 2 theta $
 
-其中使用了 $cos ""^2 theta - sin ""^2 theta = cos 2 theta$ 和 $2 sin theta cos theta = sin 2 theta$. 代入 $theta =(pi)/(8)$，得 $2 theta =(pi)/(4)$，从而 $cot (pi)/(8)- tan (pi)/(8)=2 cot (pi)/(4)=2 times 1 =2$，命题得证.
+#align(center)[#mitex(`
+\cot\theta-\tan\theta  =\frac{\cos\theta}{\sin\theta}-\frac{\sin\theta}{\cos\theta}=\frac{\cos^{2}\theta-\sin^{2}\theta}{\sin\theta\cos\theta}=\frac{\cos 2\theta}{\frac{1}{2}\sin 2\theta}=2\cot 2\theta
+`)]
+
+
+其中使用了 #mi(`\cos^{2}\theta-\sin^{2}\theta=\cos 2\theta`) 和 #mi(`2\sin\theta\cos\theta=\sin 2\theta`). 代入 #mi(`\theta=\frac{\pi}{8}`)，得 #mi(`2\theta=\frac{\pi}{4}`)，从而 #mi(`\cot\frac{\pi}{8}-\tan\frac{\pi}{8}=2\cot\frac{\pi}{4}=2\times1=2`)，命题得证.
 ]
 
 #problem(9)[
-要建造轮廓为矩形的猪舍四间，按实线部分砌墙，若墙的总长为 $32" 米"$，问每间猪舍的长、宽为几米时面积最大？每间猪舍的最大面积是多少？
+要建造轮廓为矩形的猪舍四间，按实线部分砌墙，若墙的总长为 #mi(`32\text{ \text{米}}`)，问每间猪舍的长、宽为几米时面积最大？每间猪舍的最大面积是多少？
 
 
+#align(center)[#image("/papers/1977/img/jiangsu_changzhou_city/q9_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/1977/img/jiangsu_changzhou_city/q9_fig1.png", width: 6.2cm)]
 ]
 
 #solution[
-设每间猪舍沿四间并列方向的长度为 $x" 米"$，垂直于并列方向的宽度为 $y" 米"$. 图中实线的横向外墙由四个长度为 $x$ 的部分组成，总长为 $4 x$；纵向墙共有左、右两道外墙和三道间隔墙，共五道，每道长为 $y$. 因而 $4 x+5 y=32$，并且 $x>0$、$y>0$.
+设每间猪舍沿四间并列方向的长度为 #mi(`x\text{ \text{米}}`)，垂直于并列方向的宽度为 #mi(`y\text{ \text{米}}`). 图中实线的横向外墙由四个长度为 #mi(`x`) 的部分组成，总长为 #mi(`4x`)；纵向墙共有左、右两道外墙和三道间隔墙，共五道，每道长为 #mi(`y`). 因而 #mi(`4x+5y=32`)，并且 #mi(`x>0`)、#mi(`y>0`).
 
-每间猪舍的面积为 $S=x y$. 由墙长条件解得 $y=(32-4 x)/(5)$. 由于 $y>0$，还需有 $0<x<8$. 代入面积式，得到
+每间猪舍的面积为 #mi(`S=xy`). 由墙长条件解得 #mi(`y=\frac{32-4x}{5}`). 由于 #mi(`y>0`)，还需有 #mi(`0<x<8`). 代入面积式，得到
 
-$ S=x dot (32-4 x)/(5)=-(4)/(5)x^2+(32)/(5)x =-(4)/(5)(x-4)^2+(64)/(5) $
 
-因为 $(x-4)^2\g e q 0$，所以 $-(4)/(5)(x-4)^2\l e q 0$，从而 $S\l e q(64)/(5)$. 当且仅当 $x=4$ 时等号成立，且此时 $y=(32-4 times 4)/(5)=(16)/(5)>0$，满足可行条件. 因此 $S_( max )=(64)/(5)$.
+#align(center)[#mitex(`
+S=x\cdot\frac{32-4x}{5}=-\frac{4}{5}x^{2}+\frac{32}{5}x  =-\frac{4}{5}(x-4)^{2}+\frac{64}{5}
+`)]
 
-所以每间猪舍的长为 $4" 米"$，宽为 $(16)/(5)" 米"$，每间猪舍的最大面积为 $(64)/(5)" 平方米"$.
+
+因为 #mi(`(x-4)^{2}\geq 0`)，所以 #mi(`-\frac{4}{5}(x-4)^{2}\leq 0`)，从而 #mi(`S\leq\frac{64}{5}`). 当且仅当 #mi(`x=4`) 时等号成立，且此时 #mi(`y=\frac{32-4\times4}{5}=\frac{16}{5}>0`)，满足可行条件. 因此 #mi(`S_{\max}=\frac{64}{5}`).
+
+所以每间猪舍的长为 #mi(`4\text{ \text{米}}`)，宽为 #mi(`\frac{16}{5}\text{ \text{米}}`)，每间猪舍的最大面积为 #mi(`\frac{64}{5}\text{ \text{平方米}}`).
 ]
 
 #problem(10)[
-如图：割线 $P O$ 交 $\o d o t O$ 于 $C$，$D$，割线 $P A$ 交 $\o d o t O$ 于 $A$，$B$，
+如图：割线 #mi(`PO`) 交 #mi(`\odot O`) 于 #mi(`C`)，#mi(`D`)，割线 #mi(`PA`) 交 #mi(`\odot O`) 于 #mi(`A`)，#mi(`B`)，
 
 
-+ (1) 试证：$P A dot P B=P C dot P D$；
-+ (2) 已知：$\o d o t O$ 的半径为 $1$，$P O=2$，$A B=1$，求 $P A$ 的长.
++ (1) 
 
 
 
 
-#align(center)[#image("/papers/1977/img/jiangsu_changzhou_city/q10_fig1.png", width: 6.2cm)]
+#align(center)[#image("/papers/1977/img/jiangsu_changzhou_city/q10_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 连接 $A C$ 和 $B D$. 由图中点的次序，$P$，$B$，$A$ 依次在同一直线上，$P$，$D$，$O$，$C$ 依次在同一直线上，所以射线 $P A$ 与 $P B$ 同向，射线 $P C$ 与 $P D$ 同向，从而 $angle A P C= angle D P B$. 又因为射线 $A P$ 与射线 $A B$ 同向，所以 $angle P A C= angle B A C$. 射线 $D P$ 与射线 $D C$ 反向，所以 $angle P D B=180^ degree - angle C D B$.
-
-四边形 $A B D C$ 内接于圆，$angle B A C$ 和 $angle C D B$ 分别是从圆周上两点 $A$、$D$ 看同一条弦 $B C$ 所成的角；由于 $A$、$D$ 是该圆内接四边形的对角顶点，二者互补，即 $angle B A C+ angle C D B=180^ degree$. 因此 $angle P A C= angle B A C=180^ degree - angle C D B= angle P D B$. 由两个角分别相等，$triangle P A C tilde triangle P D B$，对应关系为 $P\l e f t r i g h t a r r o w P$、$A\l e f t r i g h t a r r o w D$、$C\l e f t r i g h t a r r o w B$. 所以
-$(P A)/(P D)=(P C)/(P B)$，交叉相乘得 $P A dot P B=P C dot P D$.
-+ (2) 因为 $O$ 是圆心且半径为 $1$，所以 $O C=O D=1$. 由图中点的次序 $P$，$D$，$O$，$C$，线段 $P O$ 被近端交点 $D$ 分成 $P D$ 和 $D O$，所以 $P D=P O-O D=2-1=1$；而远端交点 $C$ 在 $O$ 的另一侧，所以 $P C=P O+O C=2+1=3$.
-
-设 $P B=x$，则 $x>0$. 由图中点的次序 $P$，$B$，$A$ 共线，且 $A B=1$，有 $P A=P B+B A=x+1$. 代入（1）的割线乘积关系，并使用上面求得的 $P C$、$P D$，得到
-$x(x+1)=P A dot P B=P C dot P D=3$，即 $x^2+x-3=0$. 解得 $x=(-1\p m s q r t(13))/(2)$. 其中 $(-1-sqrt(13))/(2)<0$ 不符合线段长度 $x>0$，故 $x=P B=(sqrt(13)-1)/(2)$. 最后
-$P A=P B+A B=(sqrt(13)-1)/(2)+1=(sqrt(13)+1)/(2)$.
++ (1)
 ]
 
 #problem(11)[
-右图是某物体的二视图，按 $1:1$ 的比例画出这个物体的直观图，并计算它的侧面积.
+右图是某物体的二视图，按 #mi(`1:1`) 的比例画出这个物体的直观图，并计算它的侧面积.
 
 
-#align(center)[#image("/papers/1977/img/jiangsu_changzhou_city/q11_fig1.png", width: 6.0cm)]
+#align(center)[#image("/papers/1977/img/jiangsu_changzhou_city/q11_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-俯视图是边长为 $24$ 的正方形，且图中的中心与四个顶点相连. 这四条线表示四条侧棱在水平面上的投影，因此物体的顶点在正方形中心的正上方. 正视图是底边为 $24$、高为 $16$ 的等腰三角形，说明棱锥的高为 $16$. 所以该物体是底面边长为 $24$、高为 $16$ 的正四棱锥.
+俯视图是边长为 #mi(`24`) 的正方形，且图中的中心与四个顶点相连. 这四条线表示四条侧棱在水平面上的投影，因此物体的顶点在正方形中心的正上方. 正视图是底边为 #mi(`24`)、高为 #mi(`16`) 的等腰三角形，说明棱锥的高为 #mi(`16`). 所以该物体是底面边长为 #mi(`24`)、高为 #mi(`16`) 的正四棱锥.
 
-按 $1:1$ 比例作直观图时，先按边长 $24$ 作出正方形底面并标出其中心；再从中心向上按比例取高 $16$ 的顶点，最后把这个顶点分别与底面的四个顶点连接，即得到该正四棱锥的直观图.
+按 #mi(`1:1`) 比例作直观图时，先按边长 #mi(`24`) 作出正方形底面并标出其中心；再从中心向上按比例取高 #mi(`16`) 的顶点，最后把这个顶点分别与底面的四个顶点连接，即得到该正四棱锥的直观图.
 
-设棱锥顶点为 $S$，底面中心为 $O$，任一底边的中点为 $M$，从 $S$ 到该底边中点的斜高为 $\e l l$. 正四棱锥的高垂直于底面，所以 $S O=16$；又因为正方形中心到边的距离等于边长的一半，故 $O M=(24)/(2)=12$. 在直角三角形 $S O M$ 中，由勾股定理
+设棱锥顶点为 #mi(`S`)，底面中心为 #mi(`O`)，任一底边的中点为 #mi(`M`)，从 #mi(`S`) 到该底边中点的斜高为 #mi(`\ell`). 正四棱锥的高垂直于底面，所以 #mi(`SO=16`)；又因为正方形中心到边的距离等于边长的一半，故 #mi(`OM=\frac{24}{2}=12`). 在直角三角形 #mi(`SOM`) 中，由勾股定理
 
-$ \e l l=sqrt(16^2+12^2)=sqrt(256+144)=20 $
 
-每个侧面都是底为 $24$、高为 $\e l l=20$ 的等腰三角形，正四棱锥共有四个全等侧面，所以侧面积为
+#align(center)[#mitex(`
+\ell=\sqrt{16^{2}+12^{2}}=\sqrt{256+144}=20
+`)]
 
-$ 4 times (1)/(2) times 24 times 20 =960 $
 
-故该物体的侧面积为 $960" 平方单位"$.
+每个侧面都是底为 #mi(`24`)、高为 #mi(`\ell=20`) 的等腰三角形，正四棱锥共有四个全等侧面，所以侧面积为
+
+
+#align(center)[#mitex(`
+4\times\frac{1}{2}\times 24\times 20=960
+`)]
+
+
+故该物体的侧面积为 #mi(`960\text{ \text{平方单位}}`).
 ]
 
 #problem(12)[
-已知：三点 $A(-2,9)$，$B(4,-4)$，$C(10,8)$.
+已知：三点 #mi(`A\left(-2,9\right)`)，#mi(`B\left(4,-4\right)`)，#mi(`C\left(10,8\right)`).
 
 试求：
 
 
-+ (1) 过 $A$ 点且垂直于 $B C$ 的直线方程；
-+ (2) $A$ 点到 $B C$ 的距离.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $B(4,-4)$、$C(10,8)$ 得 $B C$ 的斜率
-$k_(B C)=(8-(-4))/(10-4)=(12)/(6)=2$. 所求直线与 $B C$ 垂直，且 $B C$ 不是水平线，所以所求直线的斜率为 $k=-(1)/(k_(B C))=-(1)/(2)$. 该直线经过 $A(-2,9)$，由点斜式
-$y-9=-(1)/(2)(x-(-2))=-(1)/(2)(x+2)$. 两边乘以 $2$，得 $2 y-18=-x-2$，整理得 $x+2 y-16=0$.
-+ (2) 由点 $B(4,-4)$ 和斜率 $2$，直线 $B C$ 的点斜式为 $y-(-4)=2(x-4)$，即 $y+4=2 x-8$，整理得 $2 x-y-12=0$. 点 $(x_0,y_0)$ 到直线 $u x+v y+w=0$ 的距离公式为
-$d=(| u x_0+v y_0+w|)/(sqrt(u^2+v^2))$. 本题中 $(x_0,y_0)=(-2,9)$，$(u,v,w)=(2,-1,-12)$，所以
-
-$ d=(|2 times (-2)-9-12|)/(sqrt(2^2+(-1)^2))=(|-25|)/(sqrt(5))=(25)/(sqrt(5))=5 sqrt(5) $
-
-故 $A$ 点到 $B C$ 的距离为 $5 sqrt(5)$.
++ (1)
 ]
 
 #problem(13)[
-如图：在直角坐标系中，$O A_0=1$，以 $O A_0$ 为一条直角边画出第一个直角三角形 $O A_(0) A_1$，又以 $O A_1$ 为一条直角边画出第二个直角三角形 $O A_(1) A_2$，再以 $O A_2$ 为一条直角边画出第三个直角三角形 $O A_(2) A_3$. 依次继续画下去，试求：
+如图：在直角坐标系中，#mi(`OA_{0}=1`)，以 #mi(`OA_{0}`) 为一条直角边画出第一个直角三角形 #mi(`OA_{0}A_{1}`)，又以 #mi(`OA_{1}`) 为一条直角边画出第二个直角三角形 #mi(`OA_{1}A_{2}`)，再以 #mi(`OA_{2}`) 为一条直角边画出第三个直角三角形 #mi(`OA_{2}A_{3}`). 依次继续画下去，试求：
 
 
-+ (1) $A_0$ 点的极坐标；
-+ (2) 第十二个直角三角形的面积（精确到 $0.01$）.
++ (1) 
 
 
-已知 $\l g 2=0.3010$，$\l g 3=0.4771$.
 
-\begin{center}
+已知 #mi(`\lg 2=0.3010`)，#mi(`\lg 3=0.4771`).
+
 反对数表
 
-\begin{tabular}{c|cccccc}
 \hline
-$m$ & 0 & 1 & 2 & 3 & 4 & 5 \\
+
+#mi(`m`) & 0 & 1 & 2 & 3 & 4 & 5 \\
+
 \hline
-$80$ & $0.6310$ & $0.6324$ & $0.6339$ & $0.6353$ & $0.6368$ & $0.6383$ \\
-$81$ & $0.6457$ & $0.6471$ & $0.6486$ & $0.6501$ & $0.6516$ & $0.6531$ \\
-$82$ & $0.6607$ & $0.6622$ & $0.6637$ & $0.6653$ & $0.6668$ & $0.6683$ \\
-$83$ & $0.6761$ & $0.6776$ & $0.6792$ & $0.6808$ & $0.6823$ & $0.6839$ \\
-$84$ & $0.6918$ & $0.6934$ & $0.6950$ & $0.6966$ & $0.6982$ & $0.6998$ \\
+
+#mi(`80`) & #mi(`0.6310`) & #mi(`0.6324`) & #mi(`0.6339`) & #mi(`0.6353`) & #mi(`0.6368`) & #mi(`0.6383`) \\
+
+#mi(`81`) & #mi(`0.6457`) & #mi(`0.6471`) & #mi(`0.6486`) & #mi(`0.6501`) & #mi(`0.6516`) & #mi(`0.6531`) \\
+
+#mi(`82`) & #mi(`0.6607`) & #mi(`0.6622`) & #mi(`0.6637`) & #mi(`0.6653`) & #mi(`0.6668`) & #mi(`0.6683`) \\
+
+#mi(`83`) & #mi(`0.6761`) & #mi(`0.6776`) & #mi(`0.6792`) & #mi(`0.6808`) & #mi(`0.6823`) & #mi(`0.6839`) \\
+
+#mi(`84`) & #mi(`0.6918`) & #mi(`0.6934`) & #mi(`0.6950`) & #mi(`0.6966`) & #mi(`0.6982`) & #mi(`0.6998`) \\
+
 \hline
-\end{tabular}
-\end{center}
 
-\begin{center}
 
-#align(center)[#image("/papers/1977/img/jiangsu_changzhou_city/q13_fig1.png", width: 86%)]
+#align(center)[#image("/papers/1977/img/jiangsu_changzhou_city/q13_fig1.png", width: 28%)]
 
-\end{center}
 ]
 
 #solution[
-在极坐标 $(r, theta )$ 中，$r$ 表示点到极点的距离，$theta$ 表示从极轴正半轴到该点所在射线的转角. 由图可知，点 $A_0$ 在 $x$ 轴正半轴上，且 $O A_0=1$，所以其极径为 $1$、极角为 $0$，即 $A_0$ 的极坐标为 $(1,0)$.
+在极坐标 #mi(`(r,\theta)`) 中，#mi(`r`) 表示点到极点的距离，#mi(`\theta`) 表示从极轴正半轴到该点所在射线的转角. 由图可知，点 #mi(`A_{0}`) 在 #mi(`x`) 轴正半轴上，且 #mi(`OA_{0}=1`)，所以其极径为 #mi(`1`)、极角为 #mi(`0`)，即 #mi(`A_{0}`) 的极坐标为 #mi(`\left(1,0\right)`).
 
-由图中各射线的标注，相邻两条射线 $O A_(n-1)$、$O A_n$ 的夹角均为 $(pi)/(6)$. 又因为以 $O A_(n-1)$ 为一条直角边作三角形，直角在 $A_(n-1)$ 处，所以在直角三角形 $O A_(n-1)A_n$ 中，$O A_n$ 是斜边，$O A_(n-1)$ 是角 $(pi)/(6)$ 的邻直角边. 设 $r_n=O A_n$，则
+由图中各射线的标注，相邻两条射线 #mi(`OA_{n-1}`)、#mi(`OA_{n}`) 的夹角均为 #mi(`\frac{\pi}{6}`). 又因为以 #mi(`OA_{n-1}`) 为一条直角边作三角形，直角在 #mi(`A_{n-1}`) 处，所以在直角三角形 #mi(`OA_{n-1}A_{n}`) 中，#mi(`OA_{n}`) 是斜边，#mi(`OA_{n-1}`) 是角 #mi(`\frac{\pi}{6}`) 的邻直角边. 设 #mi(`r_{n}=OA_{n}`)，则
 
-$ cos (pi)/(6)=(O A_(n-1))/(O A_n)=(r_(n-1))/(r_n) $
 
-由于 $cos (pi)/(6)=(sqrt(3))/(2)$，所以
+#align(center)[#mitex(`
+\cos\frac{\pi}{6}=\frac{OA_{n-1}}{OA_{n}}=\frac{r_{n-1}}{r_{n}}
+`)]
 
-$ r_n=(r_(n-1))/(cos (pi)/(6))=(2)/(sqrt(3))r_(n-1) $
 
-初始值为 $r_0=O A_0=1$，反复使用上式可得
+由于 #mi(`\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}`)，所以
 
-$ r_(11)=((2)/(sqrt(3)))^(11) $
 
-第十二个三角形是 $O A_(11)A_(12)$. 它在 $A_(11)$ 处为直角，且 $O A_(11)=r_(11)$. 在顶点 $O$ 处，$O A_(11)$ 与 $O A_(12)$ 的夹角为 $(pi)/(6)$，所以以 $O A_(11)$ 为邻直角边、以 $A_(11)A_(12)$ 为对边，有
+#align(center)[#mitex(`
+r_{n}=\frac{r_{n-1}}{\cos\frac{\pi}{6}}=\frac{2}{\sqrt{3}}r_{n-1}
+`)]
 
-$ tan (pi)/(6)=(A_(11){A}_(12))/(O A_(11))=(A_(11){A}_(12))/(r_(11)) $
+
+初始值为 #mi(`r_{0}=OA_{0}=1`)，反复使用上式可得
+
+
+#align(center)[#mitex(`
+r_{11}=\left(\frac{2}{\sqrt{3}}\right)^{11}
+`)]
+
+
+第十二个三角形是 #mi(`OA_{11}A_{12}`). 它在 #mi(`A_{11}`) 处为直角，且 #mi(`OA_{11}=r_{11}`). 在顶点 #mi(`O`) 处，#mi(`OA_{11}`) 与 #mi(`OA_{12}`) 的夹角为 #mi(`\frac{\pi}{6}`)，所以以 #mi(`OA_{11}`) 为邻直角边、以 #mi(`A_{11}A_{12}`) 为对边，有
+
+
+#align(center)[#mitex(`
+\tan\frac{\pi}{6}=\frac{A_{11}A_{12}}{OA_{11}}=\frac{A_{11}A_{12}}{r_{11}}
+`)]
+
 
 从而
 
-$ A_(11)A_(12)=r_(11) tan (pi)/(6)=(r_(11))/(sqrt(3)) $
+
+#align(center)[#mitex(`
+A_{11}A_{12}=r_{11}\tan\frac{\pi}{6}=\frac{r_{11}}{\sqrt{3}}
+`)]
+
 
 因此第十二个三角形的面积为
 
-$ S_(12)=(1)/(2)r_(11) dot (r_(11))/(sqrt(3))=(1)/(2 sqrt(3))((2)/(sqrt(3)))^(22) =(2^(21))/(3^((23)/(2))) $
+
+#align(center)[#mitex(`
+S_{12}=\frac{1}{2}r_{11}\cdot\frac{r_{11}}{\sqrt{3}}=\frac{1}{2\sqrt{3}}\left(\frac{2}{\sqrt{3}}\right)^{22}=\frac{2^{21}}{3^{\frac{23}{2}}}
+`)]
+
 
 利用题给对数，
 
-$ \l g S_(12)=21\l g 2-(23)/(2)\l g 3 =21 times 0 .3010-(23)/(2) times 0 .4771=0.83435 $
 
-查反对数表，尾数 $0.8340$、$0.8350$ 位于第 $83$ 行的第 $4$、$5$ 列，表中数值分别为 $0.6823$、$0.6839$. 由于特征数为 $0$，对应的反对数分别为 $6.823$、$6.839$. 又因为 $0.83435=0.8340+0.35 times 0 .0010$，在线性插值下
+#align(center)[#mitex(`
+\lg S_{12}=21\lg 2-\frac{23}{2}\lg 3  =21\times0.3010-\frac{23}{2}\times0.4771=0.83435
+`)]
 
-$ S_(12) approx 6 .823+0.35(6.839-6.823)=6.8286 $
 
-按题意精确到 $0.01$，得
+查反对数表，尾数 #mi(`0.8340`)、#mi(`0.8350`) 位于第 #mi(`83`) 行的第 #mi(`4`)、#mi(`5`) 列，表中数值分别为 #mi(`0.6823`)、#mi(`0.6839`). 由于特征数为 #mi(`0`)，对应的反对数分别为 #mi(`6.823`)、#mi(`6.839`). 又因为 #mi(`0.83435=0.8340+0.35\times0.0010`)，在线性插值下
 
-$ S_(12) approx 6 .83 $
 
-故第十二个直角三角形的面积约为 $6.83" 平方单位"$.
+#align(center)[#mitex(`
+S_{12}\approx 6.823+0.35\left(6.839-6.823\right)=6.8286
+`)]
+
+
+按题意精确到 #mi(`0.01`)，得
+
+
+#align(center)[#mitex(`
+S_{12}\approx 6.83
+`)]
+
+
+故第十二个直角三角形的面积约为 #mi(`6.83\text{ \text{平方单位}}`).
 ]
 

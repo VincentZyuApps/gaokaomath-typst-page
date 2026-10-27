@@ -22,7 +22,7 @@
 ]
 
 #problem(2)[
-某学校有男、女学生各 #mi(`500\text{ \text{名}}`). 为了解男女学生在学习兴趣与业余爱好方面是否存在显著差异，拟从全体学生中抽取 #mi(`100\text{ \text{名}}`)学生进行调查，则宜采用的抽样方法是（ ）
+某学校有男、女学生各 #mi(`500\text{ \text{名}}`). 为了解男女学生在学习兴趣与业余爱好方面是否存在显著差异，拟从全体学生中抽取 #mi(`100\text{ \text{名}}`) 学生进行调查，则宜采用的抽样方法是（ ）
   #choices([抽签法], [随机数法], [系统抽样法], [分层抽样法], cols: 4)
 ]
 
@@ -173,7 +173,9 @@ y = 2\sin \varphi.\end{cases}`)（#mi(`\varphi`) 为参数）的右顶点，则�
 #problem(11)[
 如图，在半径为 #mi(`\sqrt{7}`) 的 #mi(`\odot O`) 中，弦 #mi(`AB`)，#mi(`CD`) 相交于点 #mi(`P`)，#mi(`PA = PB = 2`)，#mi(`PD = 1`)，则圆心 #mi(`O`) 到弦 #mi(`CD`) 的距离为\underline{\hspace{2.5em}}.
 
-[max width=0.34\linewidth]img/2013/hunan_science/q11_fig1.png
+
+#align(center)[#image("/papers/2013/img/hunan_science/q11_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`\frac{\sqrt{3}}{2}`)])
@@ -301,7 +303,9 @@ y = 2\sin \varphi.\end{cases}`)（#mi(`\varphi`) 为参数）的右顶点，则�
 
 \rightskip=0pt\relax
 
-[float=inline,max width=0.38\linewidth]img/2013/hunan_science/q18_fig1.png
+
+#align(center)[#image("/papers/2013/img/hunan_science/q18_fig1.png", width: 28%)]
+
 
 \endgroup
 ]
@@ -318,7 +322,9 @@ y = 2\sin \varphi.\end{cases}`)（#mi(`\varphi`) 为参数）的右顶点，则�
 
 
 
-[max width=0.38\linewidth]img/2013/hunan_science/q19_fig1.png
+
+#align(center)[#image("/papers/2013/img/hunan_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -333,7 +339,9 @@ y = 2\sin \varphi.\end{cases}`)（#mi(`\varphi`) 为参数）的右顶点，则�
 
 
 
-[max width=0.42\linewidth]img/2013/hunan_science/q20_fig1.png
+
+#align(center)[#image("/papers/2013/img/hunan_science/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[

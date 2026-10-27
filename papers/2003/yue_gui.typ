@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,116 +11,160 @@
 #part-header("单选题")
 
 #problem(1)[
-在同一坐标系中，表示直线 $y = a x$ 与 $y = x + a$ 正确的是（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2003/img/yue_gui/q1_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2003/img/yue_gui/q1_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2003/img/yue_gui/q1_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2003/img/yue_gui/q1_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+在同一坐标系中，表示直线 #mi(`y = ax`) 与 #mi(`y = x + a`) 正确的是（ ）
+  #choices([
+#align(center)[#image("/papers/2003/img/yue_gui/q1_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2003/img/yue_gui/q1_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2003/img/yue_gui/q1_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2003/img/yue_gui/q1_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-直线 $y=a x$ 必过原点，斜率为 $a$；直线 $y=x+a$ 的斜率为 $1$，在 $y$ 轴上的截距为 $a$. 当 $a>0$ 时，两条直线的斜率都为正，且第二条直线在 $y$ 轴上的截距为正；当 $a<0$ 时，直线 $y=a x$ 的斜率为负并过原点，而直线 $y=x+a$ 的斜率为正且在 $y$ 轴上的截距为负；当 $a=0$ 时，两条直线分别为 $y=0$ 和 $y=x$，都过原点.
+直线 #mi(`y=ax`) 必过原点，斜率为 #mi(`a`)；直线 #mi(`y=x+a`) 的斜率为 #mi(`1`)，在 #mi(`y`) 轴上的截距为 #mi(`a`). 当 #mi(`a>0`) 时，两条直线的斜率都为正，且第二条直线在 #mi(`y`) 轴上的截距为正；当 #mi(`a<0`) 时，直线 #mi(`y=ax`) 的斜率为负并过原点，而直线 #mi(`y=x+a`) 的斜率为正且在 #mi(`y`) 轴上的截距为负；当 #mi(`a=0`) 时，两条直线分别为 #mi(`y=0`) 和 #mi(`y=x`)，都过原点.
 
-观察四个图形，只有第三个图形呈现一条负斜率直线过原点、另一条斜率为 $1$ 且截距为负数的情形，对应 $a<0$. 故选第三项.
+观察四个图形，只有第三个图形呈现一条负斜率直线过原点、另一条斜率为 #mi(`1`) 且截距为负数的情形，对应 #mi(`a<0`). 故选第三项.
 ]
 
 #problem(2)[
-已知 $x in (-(pi)/(2), 0)$，$cos x = (4)/(5)$，则 $tan 2 x =$（ ）
-  #choices([$(7)/(24)$], [$-(7)/(24)$], [$(24)/(7)$], [$-(24)/(7)$], cols: 4)
+已知 #mi(`x \in \left(-\frac{\pi}{2}, 0\right)`)，#mi(`\cos x = \frac{4}{5}`)，则 #mi(`\tan 2x =`)（ ）
+  #choices([#mi(`\frac{7}{24}`)], [#mi(`-\frac{7}{24}`)], [#mi(`\frac{24}{7}`)], [#mi(`-\frac{24}{7}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-因为 $x in (-(pi)/(2),0)$，所以 $sin x<0$. 由 $sin ""^(2) x+ cos ""^(2) x=1$，得
-$sin x=-sqrt(1-(16)/(25))=-(3)/(5)$，$tan x=(sin x)/(cos x)=-(3)/(4)$.
+因为 #mi(`x\in\left(-\frac{\pi}{2},0\right)`)，所以 #mi(`\sin x<0`). 由 #mi(`\sin^{2}x+\cos^{2}x=1`)，得
+
+#mi(`\sin x=-\sqrt{1-\frac{16}{25}}=-\frac{3}{5}`)，#mi(`\tan x=\frac{\sin x}{\cos x}=-\frac{3}{4}`).
+
 于是
 
-$ tan 2 x=(2 tan x)/(1- tan ""^(2) x)=(-(3)/(2))/(1-(9)/(16))=-(24)/(7) $
+
+#align(center)[#mitex(`
+\tan 2x=\frac{2\tan x}{1-\tan^{2}x}=\frac{-\frac{3}{2}}{1-\frac{9}{16}}=-\frac{24}{7}
+`)]
+
 
 故选第四项.
 ]
 
 #problem(3)[
-圆锥曲线 $rho = (8 sin theta)/(cos ""^2 theta)$ 的准线方程是（ ）
-  #choices([$rho cos theta = -2$], [$rho cos theta = 2$], [$rho sin theta = -2$], [$rho sin theta = 2$], cols: 2)
+圆锥曲线 #mi(`\rho = \frac{8\sin\theta}{\cos^{2}\theta}`) 的准线方程是（ ）
+  #choices([#mi(`\rho \cos \theta = -2`)], [#mi(`\rho \cos \theta = 2`)], [#mi(`\rho \sin \theta = -2`)], [#mi(`\rho \sin \theta = 2`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-在极坐标与直角坐标的关系 $x= rho cos theta$，$y= rho sin theta$ 下，原方程化为
+在极坐标与直角坐标的关系 #mi(`x=\rho\cos\theta`)，#mi(`y=\rho\sin\theta`) 下，原方程化为
 
-$ rho cos ""^2 theta =8 sin theta $
 
-两边同乘 $rho$，并利用 $rho ""^2 cos ""^2 theta =x^2$、$rho sin theta =y$，得
+#align(center)[#mitex(`
+\rho\cos^{2}\theta=8\sin\theta
+`)]
 
-$ x^2=8 y $
 
-即 $x^2=4 dot 2 y$. 这是焦点为 $(0,2)$ 的抛物线，其准线为 $y=-2$. 写成极坐标方程即
+两边同乘 #mi(`\rho`)，并利用 #mi(`\rho^{2}\cos^{2}\theta=x^{2}`)、#mi(`\rho\sin\theta=y`)，得
 
-$ rho sin theta =-2 $
+
+#align(center)[#mitex(`
+x^{2}=8y
+`)]
+
+
+即 #mi(`x^{2}=4\cdot2\,y`). 这是焦点为 #mi(`(0,2)`) 的抛物线，其准线为 #mi(`y=-2`). 写成极坐标方程即
+
+
+#align(center)[#mitex(`
+\rho\sin\theta=-2
+`)]
+
 
 故选第三项.
 ]
 
 #problem(4)[
-等差数列 $\{a_(n)\}$ 中，已知 $a_1 = (1)/(3)$，$a_2 + a_5 = 4$，$a_n = 33$，则 $n$ 为（ ）
-  #choices([$48$], [$49$], [$50$], [$51$], cols: 4)
+等差数列 #mi(`\{a_{n}\}`) 中，已知 #mi(`a_{1} = \frac{1}{3}`)，#mi(`a_{2} + a_{5} = 4`)，#mi(`a_{n} = 33`)，则 #mi(`n`) 为（ ）
+  #choices([#mi(`48`)], [#mi(`49`)], [#mi(`50`)], [#mi(`51`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-设等差数列的公差为 $d$，则
+设等差数列的公差为 #mi(`d`)，则
 
-$ a_2+a_5=((1)/(3)+d)+((1)/(3)+4 d)=(2)/(3)+5 d=4 $
 
-所以 $d=(2)/(3)$. 因而
+#align(center)[#mitex(`
+a_{2}+a_{5}=\left(\frac{1}{3}+d\right)+\left(\frac{1}{3}+4d\right)=\frac{2}{3}+5d=4
+`)]
 
-$ a_n=a_1+(n-1)d=(1)/(3)+(2)/(3)(n-1)=(2 n-1)/(3) $
 
-由 $a_n=33$，得 $2 n-1=99$，所以 $n=50$. 故选第三项.
+所以 #mi(`d=\frac{2}{3}`). 因而
+
+
+#align(center)[#mitex(`
+a_{n}=a_{1}+(n-1)d=\frac{1}{3}+\frac{2}{3}(n-1)=\frac{2n-1}{3}
+`)]
+
+
+由 #mi(`a_{n}=33`)，得 #mi(`2n-1=99`)，所以 #mi(`n=50`). 故选第三项.
 ]
 
 #problem(5)[
-双曲线虚轴的一个端点为 $M$，两个焦点为 $F_(1)$，$F_(2)$，$angle F_(1)M F_(2) = 120^( degree )$，则双曲线的离心率为（ ）
-  #choices([$sqrt(3)$], [$(sqrt(6))/(2)$], [$(sqrt(6))/(3)$], [$(sqrt(3))/(3)$], cols: 4)
+双曲线虚轴的一个端点为 #mi(`M`)，两个焦点为 #mi(`F_{1}`)，#mi(`F_{2}`)，#mi(`\angle F_{1}MF_{2}= 120^{\circ}`)，则双曲线的离心率为（ ）
+  #choices([#mi(`\sqrt{3}`)], [#mi(`\frac{\sqrt{6}}{2}`)], [#mi(`\frac{\sqrt{6}}{3}`)], [#mi(`\frac{\sqrt{3}}{3}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-设双曲线的实半轴、虚半轴和半焦距分别为 $a$，$b$，$c$，则 $c^2=a^2+b^2$. 取坐标系使 $M=(0,b)$，$F_1=(-c,0)$，$F_2=(c,0)$，于是
-$M F_1^2=M F_2^2=b^2+c^2$，$F_(1) F_2=2 c$.
-在三角形 $F_(1) M F_2$ 中，由余弦定理
+设双曲线的实半轴、虚半轴和半焦距分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，则 #mi(`c^{2}=a^{2}+b^{2}`). 取坐标系使 #mi(`M=(0,b)`)，#mi(`F_{1}=(-c,0)`)，#mi(`F_{2}=(c,0)`)，于是
 
-$ cos 120 ""^( degree )=(2(b^2+c^2)-4 c^2)/(2(b^2+c^2))=(b^2-c^2)/(b^2+c^2)=-(1)/(2) $
+#mi(`MF_{1}^{2}=MF_{2}^{2}=b^{2}+c^{2}`)，#mi(`F_{1}F_{2}=2c`).
 
-整理得 $c^2=3 b^2$，从而 $a^2=c^2-b^2=2 b^2$. 因此离心率
+在三角形 #mi(`F_{1}MF_{2}`) 中，由余弦定理
 
-$ e=(c)/(a)=(sqrt(3)b)/(sqrt(2)b)=(sqrt(6))/(2) $
+
+#align(center)[#mitex(`
+\cos120^{\circ}=\frac{2(b^{2}+c^{2})-4c^{2}}{2(b^{2}+c^{2})}=\frac{b^{2}-c^{2}}{b^{2}+c^{2}}=-\frac{1}{2}
+`)]
+
+
+整理得 #mi(`c^{2}=3b^{2}`)，从而 #mi(`a^{2}=c^{2}-b^{2}=2b^{2}`). 因此离心率
+
+
+#align(center)[#mitex(`
+e=\frac{c}{a}=\frac{\sqrt{3}b}{\sqrt{2}b}=\frac{\sqrt{6}}{2}
+`)]
+
 
 故选第二项.
 ]
 
 #problem(6)[
-设函数 $f(x) = \b e g i n{c a s e s} 2^(-x) - 1, & x <= 0 ,\\ x^((1)/(2)), & x > 0, \e n d{c a s e s}$ 若 $f(x_0) > 1$，则 $x_0$ 的取值范围是（ ）
-  #choices([$(-1, 1)$], [$(-1, + oo )$], [$(- oo , -2) union (0, + oo )$], [$(- oo , -1) union (1, + oo )$], cols: 2)
+设函数 #mi(`f(x) = \begin{cases}2^{-x}- 1,&x \le 0,\\  x^{\frac{1}{2}},&x > 0,\end{cases}`) 若 #mi(`f(x_{0}) > 1`)，则 #mi(`x_{0}`) 的取值范围是（ ）
+  #choices([#mi(`(-1, 1)`)], [#mi(`(-1, +\infty)`)], [#mi(`(-\infty, -2) \cup (0, +\infty)`)], [#mi(`(-\infty, -1) \cup (1, +\infty)`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-当 $x_0 <= 0$ 时，$f(x_0)=2^(-x_0)-1$. 由 $f(x_0)>1$，得 $2^(-x_0)>2$，所以 $-x_0>1$，即 $x_0<-1$. 这与 $x_0 <= 0$ 相容.
+当 #mi(`x_{0}\leqslant0`) 时，#mi(`f(x_{0})=2^{-x_0}-1`). 由 #mi(`f(x_{0})>1`)，得 #mi(`2^{-x_0}>2`)，所以 #mi(`-x_{0}>1`)，即 #mi(`x_{0}<-1`). 这与 #mi(`x_{0}\leqslant0`) 相容.
 
-当 $x_0>0$ 时，$f(x_0)=sqrt(x_0)$. 由 $sqrt(x_0)>1$，得 $x_0>1$.
+当 #mi(`x_{0}>0`) 时，#mi(`f(x_{0})=\sqrt{x_{0}}`). 由 #mi(`\sqrt{x_{0}}>1`)，得 #mi(`x_{0}>1`).
 
-综上，$x_0$ 的取值范围为 $(- oo ,-1) union (1,+ oo )$. 故选第四项.
+综上，#mi(`x_{0}`) 的取值范围为 #mi(`(-\infty,-1)\cup(1,+\infty)`). 故选第四项.
 ]
 
 #problem(7)[
-函数 $y = 2 sin x ( sin x + cos x)$ 的最大值为（ ）
-  #choices([$1 + sqrt(2)$], [$sqrt(2)- 1$], [$sqrt(2)$], [$2$], cols: 4)
+函数 #mi(`y = 2\sin x (\sin x + \cos x)`) 的最大值为（ ）
+  #choices([#mi(`1 + \sqrt{2}`)], [#mi(`\sqrt{2}- 1`)], [#mi(`\sqrt{2}`)], [#mi(`2`)], cols: 2)
 ]
 
 #answer([A])
@@ -128,128 +172,196 @@ $ e=(c)/(a)=(sqrt(3)b)/(sqrt(2)b)=(sqrt(6))/(2) $
 #solution[
 利用二倍角公式，得
 
-$ y=2 sin ""^(2) x+2 sin x cos x=1- cos 2 x+ sin 2 x =1+sqrt(2) sin (2 x-(pi)/(4)) $
 
-因为正弦函数的最大值为 $1$，所以 $y$ 的最大值为 $1+sqrt(2)$. 故选第一项.
+#align(center)[#mitex(`
+y=2\sin^{2}x+2\sin x\cos x=1-\cos2x+\sin2x  =1+\sqrt{2}\sin\left(2x-\frac{\pi}{4}\right)
+`)]
+
+
+因为正弦函数的最大值为 #mi(`1`)，所以 #mi(`y`) 的最大值为 #mi(`1+\sqrt{2}`). 故选第一项.
 ]
 
 #problem(8)[
-已知圆 $C: (x - a)^2 + (y - 2)^2 = 4$（$a > 0$）及直线 $l: x - y + 3 = 0$，当直线 $l$ 被 $C$ 截得的弦长为 $2 sqrt(3)$ 时，$a$ 的值等于（ ）
-  #choices([$sqrt(2)$], [$2 - sqrt(2)$], [$sqrt(2)- 1$], [$sqrt(2)+ 1$], cols: 4)
+已知圆 #mi(`C: (x - a)^{2} + (y - 2)^{2} = 4`)（#mi(`a > 0`)）及直线 #mi(`l: x - y + 3 = 0`)，当直线 #mi(`l`) 被 #mi(`C`) 截得的弦长为 #mi(`2\sqrt{3}`) 时，#mi(`a`) 的值等于（ ）
+  #choices([#mi(`\sqrt{2}`)], [#mi(`2 - \sqrt{2}`)], [#mi(`\sqrt{2}- 1`)], [#mi(`\sqrt{2}+ 1`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-圆 $C$ 的半径为 $R=2$，圆心为 $M(a,2)$. 设圆心到直线 $l$ 的距离为 $d$，则弦长公式给出
+圆 #mi(`C`) 的半径为 #mi(`R=2`)，圆心为 #mi(`M(a,2)`). 设圆心到直线 #mi(`l`) 的距离为 #mi(`d`)，则弦长公式给出
 
-$ 2 sqrt(R^2-d^2)=2 sqrt(3) $
 
-所以 $4-d^2=3$，即 $d=1$. 另一方面，
+#align(center)[#mitex(`
+2\sqrt{R^{2}-d^{2}}=2\sqrt{3}
+`)]
 
-$ d=(|a-2+3|)/(sqrt(1^2+(-1)^2))=(a+1)/(sqrt(2)) $
 
-其中利用了 $a>0$. 因而 $a+1=sqrt(2)$，得 $a=sqrt(2)-1$. 故选第三项.
+所以 #mi(`4-d^{2}=3`)，即 #mi(`d=1`). 另一方面，
+
+
+#align(center)[#mitex(`
+d=\frac{|a-2+3|}{\sqrt{1^{2}+(-1)^{2}}}=\frac{a+1}{\sqrt{2}}
+`)]
+
+
+其中利用了 #mi(`a>0`). 因而 #mi(`a+1=\sqrt{2}`)，得 #mi(`a=\sqrt{2}-1`). 故选第三项.
 ]
 
 #problem(9)[
-已知圆锥的底面半径为 $R$，高为 $3 R$，在它的所有内接圆柱中，全面积的最大值是（ ）
-  #choices([$2 pi R^2$], [$(9)/(4) pi R^2$], [$(8)/(3) pi R^2$], [$(3)/(2) pi R^2$], cols: 2)
+已知圆锥的底面半径为 #mi(`R`)，高为 #mi(`3R`)，在它的所有内接圆柱中，全面积的最大值是（ ）
+  #choices([#mi(`2\pi R^{2}`)], [#mi(`\frac{9}{4}\pi R^{2}`)], [#mi(`\frac{8}{3}\pi R^{2}`)], [#mi(`\frac{3}{2}\pi R^{2}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-设内接圆柱的底面半径为 $r$，高为 $h$. 由相似三角形，
-$(r)/(R)=(3 R-h)/(3 R)$，$h=3(R-r)$，$0 <= r <= R$.
+设内接圆柱的底面半径为 #mi(`r`)，高为 #mi(`h`). 由相似三角形，
+
+#mi(`\frac{r}{R}=\frac{3R-h}{3R}`)，#mi(`h=3(R-r)`)，#mi(`0\le r\le R`).
+
 圆柱的全面积为
 
-$ S=2 pi r^2+2 pi r h=2 pi r(r+3 R-3 r)=6 pi R r-4 pi r^2 $
 
-这是关于 $r$ 的开口向下二次函数，其顶点在 $r=(3 R)/(4)$，且该值属于 $[0,R]$. 因此
+#align(center)[#mitex(`
+S=2\pi r^{2}+2\pi rh=2\pi r\bigl(r+3R-3r\bigr)=6\pi Rr-4\pi r^{2}
+`)]
 
-$ S_( max )=6 pi R dot (3 R)/(4)-4 pi ((3 R)/(4))^2=(9)/(4) pi R^2 $
+
+这是关于 #mi(`r`) 的开口向下二次函数，其顶点在 #mi(`r=\frac{3R}{4}`)，且该值属于 #mi(`[0,R]`). 因此
+
+
+#align(center)[#mitex(`
+S_{\max}=6\pi R\cdot\frac{3R}{4}-4\pi\left(\frac{3R}{4}\right)^{2}=\frac{9}{4}\pi R^{2}
+`)]
+
 
 故选第二项.
 ]
 
 #problem(10)[
-函数 $f(x) = sin x$，$x in [(pi)/(2), (3 pi)/(2)]$ 的反函数 $f^(-1)(x) =$（ ）
-  #choices([$- arcsin x$，$x in [-1,1]$], [$- pi - arcsin x$，$x in [-1,1]$], [$pi + arcsin x$，$x in [-1,1]$], [$- pi - arcsin x$，$x in [-1,1]$], cols: 1)
+函数 #mi(`f(x) = \sin x`)，#mi(`x \in \left[\frac{\pi}{2}, \frac{3\pi}{2}\right]`) 的反函数 #mi(`f^{-1}(x) =`)（ ）
+  #choices([#mi(`-\arcsin x`)，#mi(`x \in [-1,1]`)], [#mi(`-\pi - \arcsin x`)，#mi(`x \in [-1,1]`)], [#mi(`\pi + \arcsin x`)，#mi(`x \in [-1,1]`)], [#mi(`-\pi - \arcsin x`)，#mi(`x \in [-1,1]`)], cols: 1)
 ]
 
 #answer([原题无正确选项])
 
 #solution[
-在区间 $[(pi)/(2),(3 pi)/(2)]$ 上，$sin x$ 严格递减，值域为 $[-1,1]$，所以反函数的定义域为 $[-1,1]$，值域为 $[(pi)/(2),(3 pi)/(2)]$. 令 $y=f^(-1)(x)$，则 $y in [(pi)/(2),(3 pi)/(2)]$ 且 $sin y=x$. 由 $arcsin x in [-(pi)/(2),(pi)/(2)]$，角 $pi - arcsin x$ 属于 $[(pi)/(2),(3 pi)/(2)]$，并且
+在区间 #mi(`\left[\frac{\pi}{2},\frac{3\pi}{2}\right]`) 上，#mi(`\sin x`) 严格递减，值域为 #mi(`[-1,1]`)，所以反函数的定义域为 #mi(`[-1,1]`)，值域为 #mi(`\left[\frac{\pi}{2},\frac{3\pi}{2}\right]`). 令 #mi(`y=f^{-1}(x)`)，则 #mi(`y\in\left[\frac{\pi}{2},\frac{3\pi}{2}\right]`) 且 #mi(`\sin y=x`). 由 #mi(`\arcsin x\in\left[-\frac{\pi}{2},\frac{\pi}{2}\right]`)，角 #mi(`\pi-\arcsin x`) 属于 #mi(`\left[\frac{\pi}{2},\frac{3\pi}{2}\right]`)，并且
 
-$ y= pi - arcsin x $
 
-因此按函数定义，反函数应为 $f^(-1)(x)= pi - arcsin x$，其中 $x in [-1,1]$. 直接代入端点也可核验：当 $x=1$ 时，$f^(-1)(1)=(pi)/(2)$；当 $x=-1$ 时，$f^(-1)(-1)=(3 pi)/(2)$.
+#align(center)[#mitex(`
+y=\pi-\arcsin x
+`)]
 
-原始试卷的第二、第四个选项均印为 $- pi - arcsin x$，没有印出上述正确表达式，因此原题无正确选项；原卷参考答案记为第四项，但该答案与题面及反函数定义不一致.
+
+因此按函数定义，反函数应为 #mi(`f^{-1}(x)=\pi-\arcsin x`)，其中 #mi(`x\in[-1,1]`). 直接代入端点也可核验：当 #mi(`x=1`) 时，#mi(`f^{-1}(1)=\frac{\pi}{2}`)；当 #mi(`x=-1`) 时，#mi(`f^{-1}(-1)=\frac{3\pi}{2}`).
+
+原始试卷的第二、第四个选项均印为 #mi(`-\pi-\arcsin x`)，没有印出上述正确表达式，因此原题无正确选项；原卷参考答案记为第四项，但该答案与题面及反函数定义不一致.
 ]
 
 #problem(11)[
-已知长方形的四个顶点 $A(0,0)$，$B(2,0)$，$C(2,1)$ 和 $D(0,1)$，一质点从 $A B$ 的中点 $P_(0)$ 沿与 $A B$ 的夹角 $theta$ 的方向射到 $B C$ 上的点 $P_(1)$ 后，依次反射到 $C D$，$D A$ 和 $A B$ 上的点 $P_(2)$，$P_(3)$ 和 $P_(4)$（入射角等于反射角）. 设 $P_(4)$ 的坐标为 $(x_(4),0)$，若 $1 < x_(4) < 2$，则 $tan theta$ 的取值范围是（ ）
-  #choices([$((1)/(3), 1)$], [$((1)/(3), (2)/(3))$], [$((2)/(5), (1)/(2))$], [$((2)/(5), (3)/(5))$], cols: 2)
+已知长方形的四个顶点 #mi(`A(0,0)`)，#mi(`B(2,0)`)，#mi(`C(2,1)`) 和 #mi(`D(0,1)`)，一质点从 #mi(`AB`) 的中点 #mi(`P_{0}`) 沿与 #mi(`AB`) 的夹角 #mi(`\theta`) 的方向射到 #mi(`BC`) 上的点 #mi(`P_{1}`) 后，依次反射到 #mi(`CD`)，#mi(`DA`) 和 #mi(`AB`) 上的点 #mi(`P_{2}`)，#mi(`P_{3}`) 和 #mi(`P_{4}`)（入射角等于反射角）. 设 #mi(`P_{4}`) 的坐标为 #mi(`(x_{4},0)`)，若 #mi(`1 < x_{4}< 2`)，则 #mi(`\tan \theta`) 的取值范围是（ ）
+  #choices([#mi(`\left(\frac{1}{3}, 1\right)`)], [#mi(`\left(\frac{1}{3}, \frac{2}{3}\right)`)], [#mi(`\left(\frac{2}{5}, \frac{1}{2}\right)`)], [#mi(`\left(\frac{2}{5}, \frac{3}{5}\right)`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-设 $m= tan theta$. 将质点每次反射后的矩形关于反射边展开，则折线路径变为一条直线. 在展开图中，取 $P_0=(1,0)$，直线方程为
+设 #mi(`m=\tan\theta`). 将质点每次反射后的矩形关于反射边展开，则折线路径变为一条直线. 在展开图中，取 #mi(`P_{0}=(1,0)`)，直线方程为
 
-$ y=m(x-1) $
 
-依次经过右边、上边、左边时，展开图中相应的边界依次为 $x=2$、$y=1$、$x=4$，第四次到达的底边对应于 $y=2$. 因此直线先后与前三条边相交的坐标分别满足
-$m<1$，$2<1+(1)/(m)<4$，$1<3 m<2$.
+#align(center)[#mitex(`
+y=m(x-1)
+`)]
+
+
+依次经过右边、上边、左边时，展开图中相应的边界依次为 #mi(`x=2`)、#mi(`y=1`)、#mi(`x=4`)，第四次到达的底边对应于 #mi(`y=2`). 因此直线先后与前三条边相交的坐标分别满足
+
+#mi(`m<1`)，#mi(`2<1+\frac{1}{m}<4`)，#mi(`1<3m<2`).
+
 第四次交点的横坐标为
 
-$ x'=1+(2)/(m) $
 
-要使第四次交点位于左边界反射后的矩形内，还需有 $4<x'<6$. 反射回原矩形后，$P_4$ 的横坐标为
+#align(center)[#mitex(`
+x'=1+\frac{2}{m}
+`)]
 
-$ x_4=x'-4=(2)/(m)-3 $
 
-题设 $1<x_4<2$ 等价于
+要使第四次交点位于左边界反射后的矩形内，还需有 #mi(`4<x'<6`). 反射回原矩形后，#mi(`P_{4}`) 的横坐标为
 
-$ 1<(2)/(m)-3<2 $
+
+#align(center)[#mitex(`
+x_{4}=x'-4=\frac{2}{m}-3
+`)]
+
+
+题设 #mi(`1<x_{4}<2`) 等价于
+
+
+#align(center)[#mitex(`
+1<\frac{2}{m}-3<2
+`)]
+
 
 从而
 
-$ (2)/(5)<m<(1)/(2) $
+
+#align(center)[#mitex(`
+\frac{2}{5}<m<\frac{1}{2}
+`)]
+
 
 这个范围同时满足前述各边界相交条件，所以直线确实依次穿过右边、上边、左边和底边，且不经过顶点. 因此
 
-$ tan theta in ((2)/(5),(1)/(2)) $
+
+#align(center)[#mitex(`
+\tan\theta\in\left(\frac{2}{5},\frac{1}{2}\right)
+`)]
+
 
 故选第三项.
 ]
 
 #problem(12)[
-一个四面体的所有棱长都为 $sqrt(2)$，四个顶点在同一球面上，则此球的表面积为（ ）
-  #choices([$3 pi$], [$4 pi$], [$3 sqrt(3) pi$], [$6 pi$], cols: 4)
+一个四面体的所有棱长都为 #mi(`\sqrt{2}`)，四个顶点在同一球面上，则此球的表面积为（ ）
+  #choices([#mi(`3\pi`)], [#mi(`4\pi`)], [#mi(`3\sqrt{3}\pi`)], [#mi(`6\pi`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-这是棱长为 $a=sqrt(2)$ 的正四面体. 设顶点到底面的高为 $h$，底面中心到任一底面顶点的距离为 $(a)/(sqrt(3))$，则
+这是棱长为 #mi(`a=\sqrt{2}`) 的正四面体. 设顶点到底面的高为 #mi(`h`)，底面中心到任一底面顶点的距离为 #mi(`\frac{a}{\sqrt{3}}`)，则
 
-$ h=sqrt(a^2-((a)/(sqrt(3)))^2)=a s q r t((2)/(3)) $
 
-设球心到对面底面中心的距离为 $u$，则球心到顶点的距离为 $h-u$，到任一底面顶点的距离满足
+#align(center)[#mitex(`
+h=\sqrt{a^{2}-\left(\frac{a}{\sqrt{3}}\right)^{2}}=a\sqrt{\frac{2}{3}}
+`)]
 
-$ (h-u)^2=u^2+(a^2)/(3) $
 
-代入 $h^2=(2)/(3)a^2$，得 $u=(h)/(4)$，所以外接球半径为
+设球心到对面底面中心的距离为 #mi(`u`)，则球心到顶点的距离为 #mi(`h-u`)，到任一底面顶点的距离满足
 
-$ R=(3)/(4)a s q r t((2)/(3))=(a s q r t(6))/(4)=(sqrt(3))/(2) $
+
+#align(center)[#mitex(`
+(h-u)^{2}=u^{2}+\frac{a^{2}}{3}
+`)]
+
+
+代入 #mi(`h^{2}=\frac{2}{3}a^{2}`)，得 #mi(`u=\frac{h}{4}`)，所以外接球半径为
+
+
+#align(center)[#mitex(`
+R=\frac{3}{4}a\sqrt{\frac{2}{3}}=\frac{a\sqrt{6}}{4}=\frac{\sqrt{3}}{2}
+`)]
+
 
 因此球的表面积为
 
-$ 4 pi R^2=4 pi dot (3)/(4)=3 pi $
+
+#align(center)[#mitex(`
+4\pi R^{2}=4\pi\cdot\frac{3}{4}=3\pi
+`)]
+
 
 故选第一项.
 ]
@@ -257,310 +369,375 @@ $ 4 pi R^2=4 pi dot (3)/(4)=3 pi $
 #part-header("填空题")
 
 #problem(13)[
-不等式 $sqrt(4 x - x^(2))< x$ 的解集是#blank(){}.
+不等式 #mi(`\sqrt{4x - x^{2}}< x`) 的解集是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(2,4]$])
+#answer([#mi(`(2,4]`)])
 
 #solution[
-由根式有意义得 $4 x-x^(2) >= 0$，所以 $0 <= x <= 4$. 因为左边非负，而题设要求左边小于 $x$，故必须有 $x>0$. 在此条件下两边均非负，可以平方，得 $4 x-x^(2)<x^(2)$，即 $2 x(x-2)>0$，所以 $x>2$. 与定义域合并，得原不等式的解集为 $(2,4]$.
+由根式有意义得 #mi(`4x-x^{2}\geqslant0`)，所以 #mi(`0\le x\leqslant4`). 因为左边非负，而题设要求左边小于 #mi(`x`)，故必须有 #mi(`x>0`). 在此条件下两边均非负，可以平方，得 #mi(`4x-x^{2}<x^{2}`)，即 #mi(`2x(x-2)>0`)，所以 #mi(`x>2`). 与定义域合并，得原不等式的解集为 #mi(`(2,4]`).
 ]
 
 #problem(14)[
-$(x^(2) - (1)/(2 x))^(9)$ 的展开式中 $x^(9)$ 系数是#blank(){}.
+#mi(`\left(x^{2}- \frac{1}{2x}\right)^{9}`) 的展开式中 #mi(`x^{9}`) 系数是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-(21)/(2)$])
+#answer([#mi(`-\frac{21}{2}`)])
 
 #solution[
-展开式通项中取 $(-(1)/(2 x))^(k)$ 共 $k$ 次时，该项为
-$C_(9)^(k)(x^(2))^(9-k)(-(1)/(2 x))^(k)=C_(9)^(k)((-1)^(k))/(2^(k))x^(18-3 k)$，$k=0$，$1$，$\l d o t s$，$9$.
-要得到 $x^(9)$，必须满足 $18-3 k=9$，解得 $k=3$. 因此所求系数为
+展开式通项中取 #mi(`\left(-\frac{1}{2x}\right)^{k}`) 共 #mi(`k`) 次时，该项为
 
-$ C_(9)^(3)((-1)^(3))/(2^(3))=-(84)/(8)=-(21)/(2) $
+#mi(`\mathrm{C}_{9}^{k}\left(x^{2}\right)^{9-k}\left(-\frac{1}{2x}\right)^{k}=\mathrm{C}_{9}^{k}\frac{(-1)^{k}}{2^{k}}x^{18-3k}`)，#mi(`k=0`)，#mi(`1`)，#mi(`\ldots`)，#mi(`9`).
+
+要得到 #mi(`x^{9}`)，必须满足 #mi(`18-3k=9`)，解得 #mi(`k=3`). 因此所求系数为
+
+
+#align(center)[#mitex(`
+\mathrm{C}_{9}^{3}\frac{(-1)^{3}}{2^{3}}=-\frac{84}{8}=-\frac{21}{2}
+`)]
 ]
 
 #problem(15)[
-在平面几何里，有勾股定理：“设 $triangle A B C$ 的两边 $A B$，$A C$ 互相垂直，则 $A B^2 + A C^2 = B C^2$.”拓展到空间，类比平面几何的勾股定理，研究三棱锥的侧面面积与底面面积间的关系，可以得出的正确结论是：“设三棱锥 $A-B C D$ 的三个侧面 $A B C$，$A C D$，$A D B$ 两两互相垂直，则#blank(){}.”
+在平面几何里，有勾股定理：“设 #mi(`\triangle ABC`) 的两边 #mi(`AB`)，#mi(`AC`) 互相垂直，则 #mi(`AB^{2} + AC^{2} = BC^{2}`).”拓展到空间，类比平面几何的勾股定理，研究三棱锥的侧面面积与底面面积间的关系，可以得出的正确结论是：“设三棱锥 #mi(`A-BCD`) 的三个侧面 #mi(`ABC`)，#mi(`ACD`)，#mi(`ADB`) 两两互相垂直，则\underline{\hspace{2.5em}}.”
 ]
 
-#answer([$S_( triangle A B C)^(2)+S_( triangle A C D)^(2)+S_( triangle A D B)^(2)=S_( triangle B C D)^(2)$])
+#answer([#mi(`S_{\triangle ABC}^{2}+S_{\triangle ACD}^{2}+S_{\triangle ADB}^{2}=S_{\triangle BCD}^{2}`)])
 
 #solution[
-因为平面 $A B C$，$A C D$，$A D B$ 两两互相垂直，且它们的交棱分别为 $A C$，$A D$，$A B$，可取直角坐标系使 $A=(0,0,0)$，$B=(u,0,0)$，$C=(0,v,0)$，$D=(0,0,w)$，其中 $u=A B>0$，$v=A C>0$，$w=A D>0$.
+因为平面 #mi(`ABC`)，#mi(`ACD`)，#mi(`ADB`) 两两互相垂直，且它们的交棱分别为 #mi(`AC`)，#mi(`AD`)，#mi(`AB`)，可取直角坐标系使 #mi(`A=(0,0,0)`)，#mi(`B=(u,0,0)`)，#mi(`C=(0,v,0)`)，#mi(`D=(0,0,w)`)，其中 #mi(`u=AB>0`)，#mi(`v=AC>0`)，#mi(`w=AD>0`).
 
-事实上，先取 $A C$ 为 $x$ 轴，使平面 $A B C$，$A C D$ 分别为 $x y$ 平面、$x z$ 平面，设 $B=(b_1,b_2,0)$，$D=(d_1,0,d_3)$. 平面 $A B D$ 的一个法向量为 $(b_(2) d_3,-b_(1) d_3,-b_(2) d_1)$，而平面 $A B C$，$A C D$ 的法向量分别可取 $(0,0,1)$，$(0,1,0)$. 由平面 $A B D$ 分别垂直于 $A B C$、$A C D$，以及 $b_2 != 0$，$d_3 != 0$，得 $d_1=0$，$b_1=0$，所以 $A B bot A C$，$A D bot A C$，且 $A B bot A D$，上述坐标表示成立.
+事实上，先取 #mi(`AC`) 为 #mi(`x`) 轴，使平面 #mi(`ABC`)，#mi(`ACD`) 分别为 #mi(`xy`) 平面、#mi(`xz`) 平面，设 #mi(`B=(b_{1},b_{2},0)`)，#mi(`D=(d_{1},0,d_{3})`). 平面 #mi(`ABD`) 的一个法向量为 #mi(`(b_{2}d_{3},-b_{1}d_{3},-b_{2}d_{1})`)，而平面 #mi(`ABC`)，#mi(`ACD`) 的法向量分别可取 #mi(`(0,0,1)`)，#mi(`(0,1,0)`). 由平面 #mi(`ABD`) 分别垂直于 #mi(`ABC`)、#mi(`ACD`)，以及 #mi(`b_{2}\ne0`)，#mi(`d_{3}\ne0`)，得 #mi(`d_{1}=0`)，#mi(`b_{1}=0`)，所以 #mi(`AB\perp AC`)，#mi(`AD\perp AC`)，且 #mi(`AB\perp AD`)，上述坐标表示成立.
 
-于是 $S_( triangle A B C)=(u v)/(2)$，$S_( triangle A C D)=(v w)/(2)$，$S_( triangle A D B)=(w u)/(2)$.
+于是 #mi(`S_{\triangle ABC}=\frac{uv}{2}`)，#mi(`S_{\triangle ACD}=\frac{vw}{2}`)，#mi(`S_{\triangle ADB}=\frac{wu}{2}`).
 
-又 $arrow(B C)=(-u,v,0)$，$arrow(B D)=(-u,0,w)$，从而
+又 #mi(`\overrightarrow{BC}=(-u,v,0)`)，#mi(`\overrightarrow{BD}=(-u,0,w)`)，从而
 
-$ arrow(B C)\t i m e s a r r o w(B D)=(v w,u w,u v) $
+
+#align(center)[#mitex(`
+\overrightarrow{BC}\times\overrightarrow{BD}=(vw,uw,uv)
+`)]
+
 
 因此
 
-$ S_( triangle B C D)^(2)=(1)/(4)(u^(2)v^(2)+v^(2)w^(2)+w^(2)u^(2))=S_( triangle A B C)^(2)+S_( triangle A C D)^(2)+S_( triangle A D B)^(2) $
 
-即 $S_( triangle A B C)^(2)+S_( triangle A C D)^(2)+S_( triangle A D B)^(2)=S_( triangle B C D)^(2)$.
+#align(center)[#mitex(`
+S_{\triangle BCD}^{2}=\frac{1}{4}\left(u^{2}v^{2}+v^{2}w^{2}+w^{2}u^{2}\right)=S_{\triangle ABC}^{2}+S_{\triangle ACD}^{2}+S_{\triangle ADB}^{2}
+`)]
+
+
+即 #mi(`S_{\triangle ABC}^{2}+S_{\triangle ACD}^{2}+S_{\triangle ADB}^{2}=S_{\triangle BCD}^{2}`).
 ]
 
 #problem(16)[
-如图，一个地区分为 $5$ 个行政区域，现给地图着色，要求相邻地区不得使用同一颜色，现有 $4$ 种颜色可供选择，则不同的着色方法共有#blank(){}种.（以数字作答）
+如图，一个地区分为 #mi(`5`) 个行政区域，现给地图着色，要求相邻地区不得使用同一颜色，现有 #mi(`4`) 种颜色可供选择，则不同的着色方法共有\underline{\hspace{2.5em}}种.（以数字作答）
 
 
-#align(center)[#image("/papers/2003/img/yue_gui/q16_fig1.png", width: 18%)]
+#align(center)[#image("/papers/2003/img/yue_gui/q16_fig1.png", width: 28%)]
+
 ]
 
 #answer([72])
 
 #solution[
-区域 $1$ 与区域 $2$，$3$，$4$，$5$ 都相邻. 先给区域 $1$ 选颜色，有 $4$ 种选法；其余四个区域只能使用剩下的 $3$ 种颜色.
+区域 #mi(`1`) 与区域 #mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`) 都相邻. 先给区域 #mi(`1`) 选颜色，有 #mi(`4`) 种选法；其余四个区域只能使用剩下的 #mi(`3`) 种颜色.
 
-从图中可知，区域 $2$，$5$，$4$，$3$ 依次相邻并首尾相邻，构成一个四边形环. 固定区域 $2$ 的颜色后，区域 $5$ 有 $2$ 种选法. 对每一种区域 $2$、$5$ 的不同颜色组合，设剩余的第三种颜色为 $c$. 区域 $3$ 不能与区域 $2$ 同色，因此有两种可能：
+从图中可知，区域 #mi(`2`)，#mi(`5`)，#mi(`4`)，#mi(`3`) 依次相邻并首尾相邻，构成一个四边形环. 固定区域 #mi(`2`) 的颜色后，区域 #mi(`5`) 有 #mi(`2`) 种选法. 对每一种区域 #mi(`2`)、#mi(`5`) 的不同颜色组合，设剩余的第三种颜色为 #mi(`c`). 区域 #mi(`3`) 不能与区域 #mi(`2`) 同色，因此有两种可能：
 
-当区域 $3$ 与区域 $5$ 同色时，区域 $4$ 只需避开这一种颜色，有 $2$ 种选法；当区域 $3$ 使用第三种颜色 $c$ 时，区域 $4$ 必须使用区域 $2$ 的颜色，有 $1$ 种选法. 所以固定区域 $2$ 的颜色后有 $2(2+1)=6$ 种着色方法，区域 $2$ 有 $3$ 种颜色可选，四个外部区域共有 $3 times 6 =18$ 种着色方法.
+当区域 #mi(`3`) 与区域 #mi(`5`) 同色时，区域 #mi(`4`) 只需避开这一种颜色，有 #mi(`2`) 种选法；当区域 #mi(`3`) 使用第三种颜色 #mi(`c`) 时，区域 #mi(`4`) 必须使用区域 #mi(`2`) 的颜色，有 #mi(`1`) 种选法. 所以固定区域 #mi(`2`) 的颜色后有 #mi(`2(2+1)=6`) 种着色方法，区域 #mi(`2`) 有 #mi(`3`) 种颜色可选，四个外部区域共有 #mi(`3\times6=18`) 种着色方法.
 
-因此不同的着色方法共有 $4 times 18 =72$ 种.
+因此不同的着色方法共有 #mi(`4\times18=72`) 种.
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知正四棱柱 $A B C D-A_(1)B_(1)C_(1)D_(1)$，$A B = 1$，$A A_(1) = 2$，$E$ 为 $CC_(1)$ 中点，$F$ 为 $B D_(1)$ 中点.
+已知正四棱柱 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`)，#mi(`AB = 1`)，#mi(`AA_{1}= 2`)，#mi(`E`) 为 #mi(`CC_{1}`) 中点，#mi(`F`) 为 #mi(`BD_{1}`) 中点.
 
 
-+ (1) 证明：$E F$ 为 $B D_(1)$ 与 $CC_(1)$ 的公垂线；
-+ (2) 求点 $D_(1)$ 到面 $B D E$ 的距离.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2003/img/yue_gui/q17_fig1.png", width: 30%)]
+
+#align(center)[#image("/papers/2003/img/yue_gui/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 以 $A$ 为原点，分别以 $arrow(A B)$，$arrow(A D)$，$arrow(A A_(1))$ 的方向为 $x$，$y$，$z$ 轴正方向，建立空间直角坐标系，则
-$B(1,0,0)$，$D(0,1,0)$，$C(1,1,0)$，$D_(1)(0,1,2)$，$C_(1)(1,1,2)$.
-由中点坐标公式，得
-$E(1,1,1)$，$F((1)/(2),(1)/(2),1)$.
-于是
-$arrow(E F)=(-(1)/(2),-(1)/(2),0)$，$arrow(B D_(1))=(-1,1,2)$，$arrow(CC_(1))=(0,0,2)$.
-从而
-$arrow(E F)\c d o t a r r o w(B D_(1))=0$，$arrow(E F)\c d o t a r r o w(CC_(1))=0$.
-又 $F in B D_(1)$，$E in CC_(1)$，所以 $E F$ 同时垂直于 $B D_(1)$ 和 $CC_(1)$，即 $E F$ 是这两条异面直线的公垂线.
-+ (2) 由
-$arrow(B D)=(-1,1,0)$，$arrow(B E)=(0,1,1)$，
-得平面 $B D E$ 的一个法向量为
-
-$ arrow(B D)\t i m e s a r r o w(B E)=(1,1,-1) $
-
-因此平面 $B D E$ 的方程为
-
-$ (x-1)+y-z=0 $
-
-即 $x+y-z-1=0$. 点 $D_(1)(0,1,2)$ 到该平面的距离为
-
-$ (|0+1-2-1|)/(sqrt(1^(2)+1^(2)+(-1)^(2)))=(2)/(sqrt(3))=(2 sqrt(3))/(3) $
++ (1)
 ]
 
 #problem(18)[
-已知复数 $z$ 的辐角为 $60^( degree )$，且 $|z - 1|$ 是 $|z|$ 和 $|z - 2|$ 的等比中项，求 $|z|$.
+已知复数 #mi(`z`) 的辐角为 #mi(`60^{\circ}`)，且 #mi(`|z - 1|`) 是 #mi(`|z|`) 和 #mi(`|z - 2|`) 的等比中项，求 #mi(`|z|`).
 ]
 
 #solution[
-设 $r=|z|$. 因为 $z$ 的辐角为 $60^( degree )$，所以 $r>0$，且
+设 #mi(`r=|z|`). 因为 #mi(`z`) 的辐角为 #mi(`60^{\circ}`)，所以 #mi(`r>0`)，且
 
-$ z=r( cos 60 ""^( degree )+ i sin 60 ""^( degree )) =(r)/(2)+(sqrt(3))/(2)r i $
 
-由“$|z-1|$ 是 $|z|$ 和 $|z-2|$ 的等比中项”，得
+#align(center)[#mitex(`
+z=r\left(\cos60^{\circ}+\mathrm{i}\sin60^{\circ}\right)  =\frac{r}{2}+\frac{\sqrt{3}}{2}r\mathrm{i}
+`)]
 
-$ |z-1|^(2)=|z| |z-2| $
+
+由“#mi(`|z-1|`) 是 #mi(`|z|`) 和 #mi(`|z-2|`) 的等比中项”，得
+
+
+#align(center)[#mitex(`
+|z-1|^{2}=|z|\,|z-2|
+`)]
+
 
 分别计算两边所需的模：
 
-$ |z-1|^(2)=((r)/(2)-1)^(2)+((sqrt(3))/(2)r)^(2) =r^(2)-r+1 $
+
+#align(center)[#mitex(`
+|z-1|^{2}=\left(\frac{r}{2}-1\right)^{2}+\left(\frac{\sqrt{3}}{2}r\right)^{2}=r^{2}-r+1
+`)]
 
 
-$ |z-2|^(2)=((r)/(2)-2)^(2)+((sqrt(3))/(2)r)^(2) =r^(2)-2 r+4 $
+
+#align(center)[#mitex(`
+|z-2|^{2}=\left(\frac{r}{2}-2\right)^{2}+\left(\frac{\sqrt{3}}{2}r\right)^{2}=r^{2}-2r+4
+`)]
+
 
 故
 
-$ r^(2)-r+1=r s q r t(r^(2)-2 r+4) $
+
+#align(center)[#mitex(`
+r^{2}-r+1=r\sqrt{r^{2}-2r+4}
+`)]
+
 
 两边均为非负数，平方得
 
-$ (r^(2)-r+1)^(2)=r^(2)(r^(2)-2 r+4) $
 
-展开并约去 $r^(4)-2 r^(3)$，得到
+#align(center)[#mitex(`
+(r^{2}-r+1)^{2}=r^{2}(r^{2}-2r+4)
+`)]
 
-$ r^(2)+2 r-1=0 $
+
+展开并约去 #mi(`r^{4}-2r^{3}`)，得到
+
+
+#align(center)[#mitex(`
+r^{2}+2r-1=0
+`)]
+
 
 所以
 
-$ r=-1\p m s q r t(2) $
 
-由于 $r>0$，只能取 $r=sqrt(2)-1$. 代回原等式时两边均为正，故该值成立，从而
+#align(center)[#mitex(`
+r=-1\pm\sqrt{2}
+`)]
 
-$ |z|=sqrt(2)-1 $
+
+由于 #mi(`r>0`)，只能取 #mi(`r=\sqrt{2}-1`). 代回原等式时两边均为正，故该值成立，从而
+
+
+#align(center)[#mitex(`
+|z|=\sqrt{2}-1
+`)]
 ]
 
 #problem(19)[
-已知 $c > 0$，设 $P$：函数 $y = c^(x)$ 在 $RR$ 上单调递减；$Q$：不等式 $x + |x - 2 c| > 1$ 的解集为 $RR$. 如果 $P$ 和 $Q$ 有且仅有一个正确，求 $c$ 的取值范围.
+已知 #mi(`c > 0`)，设 #mi(`P`)：函数 #mi(`y = c^{x}`) 在 #mi(`\mathbb{R}`) 上单调递减；#mi(`Q`)：不等式 #mi(`x + |x - 2c| > 1`) 的解集为 #mi(`\mathbb{R}`). 如果 #mi(`P`) 和 #mi(`Q`) 有且仅有一个正确，求 #mi(`c`) 的取值范围.
 ]
 
 #solution[
-因为指数函数 $y=c^(x)$ 在 $RR$ 上单调递减当且仅当 $0<c<1$，所以命题 $P$ 正确的充要条件是 $0<c<1$. 对命题 $Q$，有
+因为指数函数 #mi(`y=c^{x}`) 在 #mi(`\mathbb{R}`) 上单调递减当且仅当 #mi(`0<c<1`)，所以命题 #mi(`P`) 正确的充要条件是 #mi(`0<c<1`). 对命题 #mi(`Q`)，有
 
-$ x+|x-2 c|= \b e g i n{c a s e s} 2 c, & x <= 2 c,\\ 2 x-2 c, & x>2 c. \e n d{c a s e s} $
 
-因此该式的最小值为 $2 c$. 不等式对一切实数 $x$ 都成立的充要条件是 $2 c>1$，即命题 $Q$ 正确的充要条件是 $c>(1)/(2)$.
+#align(center)[#mitex(`
+x+|x-2c|=  \begin{cases}2c,&x\leqslant2c,\\  2x-2c,&x>2c.\end{cases}
+`)]
 
-当 $0<c<1$ 时，$P$ 正确；要使 $P$ 和 $Q$ 恰有一个正确，必须 $Q$ 错误，即 $0<c <= (1)/(2)$. 当 $c >= 1$ 时，$P$ 错误而 $Q$ 正确. 因此 $c$ 的取值范围为
 
-$ (0,(1)/(2)] union [1,+ oo ) $
+因此该式的最小值为 #mi(`2c`). 不等式对一切实数 #mi(`x`) 都成立的充要条件是 #mi(`2c>1`)，即命题 #mi(`Q`) 正确的充要条件是 #mi(`c>\frac{1}{2}`).
+
+当 #mi(`0<c<1`) 时，#mi(`P`) 正确；要使 #mi(`P`) 和 #mi(`Q`) 恰有一个正确，必须 #mi(`Q`) 错误，即 #mi(`0<c\le\frac{1}{2}`). 当 #mi(`c\geqslant1`) 时，#mi(`P`) 错误而 #mi(`Q`) 正确. 因此 #mi(`c`) 的取值范围为
+
+
+#align(center)[#mitex(`
+\left(0,\frac{1}{2}\right]\cup[1,+\infty)
+`)]
 ]
 
 #problem(20)[
-在某海滨城市附近海面有一台风，据监测，当前台风中心位于城市 $O$（如图）的东偏南 $theta$（$theta = arccos (sqrt(2))/(10)$）方向 $300 ~k m$ 的海面 $P$ 处，并以 $20 ~k m/h$ 的速度向西偏北 $45^( degree )$ 方向移动，台风侵袭的范围为圆形区域，当前半径为 $60 ~k m$，并以 $10 ~k m/h$ 的速度不断增大，问几小时后该城市开始受到台风的侵袭？
+在某海滨城市附近海面有一台风，据监测，当前台风中心位于城市 #mi(`O`)（如图）的东偏南 #mi(`\theta`)（#mi(`\theta = \arccos \frac{\sqrt{2}}{10}`)）方向 #mi(`300 \mathrm{~km}`) 的海面 #mi(`P`) 处，并以 #mi(`20 \mathrm{~km}/\mathrm{h}`) 的速度向西偏北 #mi(`45^{\circ}`) 方向移动，台风侵袭的范围为圆形区域，当前半径为 #mi(`60 \mathrm{~km}`)，并以 #mi(`10 \mathrm{~km}/\mathrm{h}`) 的速度不断增大，问几小时后该城市开始受到台风的侵袭？
 
 
-#align(center)[#image("/papers/2003/img/yue_gui/q20_fig1.png", width: 80%)]
+#align(center)[#image("/papers/2003/img/yue_gui/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-以城市 $O$ 为原点，向东、向北分别为 $x$，$y$ 轴正方向，并设 $t$ 为经过的时间，单位为 $h$. 因为台风中心初始位于 $O$ 的东偏南 $theta$ 方向，且
-$cos theta =(sqrt(2))/(10)$，$sin theta =(7 sqrt(2))/(10)$，
+以城市 #mi(`O`) 为原点，向东、向北分别为 #mi(`x`)，#mi(`y`) 轴正方向，并设 #mi(`t`) 为经过的时间，单位为 #mi(`\mathrm{h}`). 因为台风中心初始位于 #mi(`O`) 的东偏南 #mi(`\theta`) 方向，且
+
+#mi(`\cos\theta=\frac{\sqrt{2}}{10}`)，#mi(`\sin\theta=\frac{7\sqrt{2}}{10}`)，
+
 所以初始位置为
 
-$ P_(0)=(300 cos theta ,-300 sin theta )=(30 sqrt(2),-210 sqrt(2)) $
 
-台风以 $20 ~k m/h$ 的速度向西偏北 $45^( degree )$ 方向移动，故 $t$ 小时后的位移为
+#align(center)[#mitex(`
+P_{0}=(300\cos\theta,-300\sin\theta)=(30\sqrt{2},-210\sqrt{2})
+`)]
 
-$ 20 t(- cos 45 ""^( degree ), sin 45 ""^( degree ))=(-10 sqrt(2)t,10 sqrt(2)t) $
+
+台风以 #mi(`20 \mathrm{~km}/\mathrm{h}`) 的速度向西偏北 #mi(`45^{\circ}`) 方向移动，故 #mi(`t`) 小时后的位移为
+
+
+#align(center)[#mitex(`
+20t\left(-\cos45^{\circ},\sin45^{\circ}\right)=(-10\sqrt{2}t,10\sqrt{2}t)
+`)]
+
 
 于是台风中心的位置为
 
-$ P(t)=(30 sqrt(2)-10 sqrt(2)t,-210 sqrt(2)+10 sqrt(2)t) $
 
-城市开始受到侵袭时，台风中心到城市的距离等于台风半径. 由上式，中心到 $O$ 的距离平方为
+#align(center)[#mitex(`
+P(t)=\left(30\sqrt{2}-10\sqrt{2}t,-210\sqrt{2}+10\sqrt{2}t\right)
+`)]
 
-$ d(t)^(2)=200[(t-3)^(2)+(t-21)^(2)] $
+
+城市开始受到侵袭时，台风中心到城市的距离等于台风半径. 由上式，中心到 #mi(`O`) 的距离平方为
+
+
+#align(center)[#mitex(`
+d(t)^{2}=200\left[(t-3)^{2}+(t-21)^{2}\right]
+`)]
+
 
 而台风半径为
 
-$ r(t)=60+10 t $
+
+#align(center)[#mitex(`
+r(t)=60+10t
+`)]
+
 
 因此接触时刻满足
 
-$ 200[(t-3)^(2)+(t-21)^(2)]=(60+10 t)^(2) $
+
+#align(center)[#mitex(`
+200\left[(t-3)^{2}+(t-21)^{2}\right]=(60+10t)^{2}
+`)]
+
 
 即
 
-$ t^(2)-36 t+288=0 $
 
-解得 $t=12$ 或 $t=24$. 开始受到侵袭对应第一次接触，所以取较小的非负根，得 $t=12$. 即该城市在 $12 ~h$ 后开始受到台风侵袭.
+#align(center)[#mitex(`
+t^{2}-36t+288=0
+`)]
+
+
+解得 #mi(`t=12`) 或 #mi(`t=24`). 开始受到侵袭对应第一次接触，所以取较小的非负根，得 #mi(`t=12`). 即该城市在 #mi(`12 \mathrm{~h}`) 后开始受到台风侵袭.
 ]
 
 #problem(21)[
-已知常数 $a > 0$，在矩形 $A B C D$ 中，$A B = 4$，$B C = 4 a$，$O$ 为 $A B$ 的中点. 点 $E$，$F$，$G$ 分别在 $B C$，$C D$，$D A$ 上移动，且 $(B E)/(B C)= (C F)/(C D)= (D G)/(D A)$，$P$ 为 $G E$ 与 $O F$ 的交点（如图），问是否存在两个定点，使 $P$ 到这两点的距离的和为定值？若存在，求出这两点的坐标及此定值；若不存在，请说明理由.
+已知常数 #mi(`a > 0`)，在矩形 #mi(`ABCD`) 中，#mi(`AB = 4`)，#mi(`BC = 4a`)，#mi(`O`) 为 #mi(`AB`) 的中点. 点 #mi(`E`)，#mi(`F`)，#mi(`G`) 分别在 #mi(`BC`)，#mi(`CD`)，#mi(`DA`) 上移动，且 #mi(`\frac{BE}{BC}= \frac{CF}{CD}= \frac{DG}{DA}`)，#mi(`P`) 为 #mi(`GE`) 与 #mi(`OF`) 的交点（如图），问是否存在两个定点，使 #mi(`P`) 到这两点的距离的和为定值？若存在，求出这两点的坐标及此定值；若不存在，请说明理由.
 
 
-#align(center)[#image("/papers/2003/img/yue_gui/q21_fig1.png", width: 35%)]
+#align(center)[#image("/papers/2003/img/yue_gui/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-建立如图所示的直角坐标系，取 $O$ 为原点，$x$ 轴沿 $A B$ 的方向，$y$ 轴沿 $B C$ 的方向，则
-$A(-2,0)$，$B(2,0)$，$C(2,4 a)$，$D(-2,4 a)$.
-设公共比值为 $lambda$，则 $0 <= lambda <= 1$，从而
-$E=(2,4 a lambda )$，$F=(2-4 lambda ,4 a)$，$G=(-2,4 a(1- lambda ))$.
-令 $s=1-2 lambda$，则 $-1 <= s <= 1$，且
+建立如图所示的直角坐标系，取 #mi(`O`) 为原点，#mi(`x`) 轴沿 #mi(`AB`) 的方向，#mi(`y`) 轴沿 #mi(`BC`) 的方向，则
 
-$ F=(2 s,4 a) $
+#mi(`A(-2,0)`)，#mi(`B(2,0)`)，#mi(`C(2,4a)`)，#mi(`D(-2,4a)`).
 
-直线 $O F$ 上的点可表示为 $P=(2 s mu ,4 a mu )$. 另一方面，由 $G$，$E$ 两点的坐标，直线 $G E$ 的方程为
+设公共比值为 #mi(`\lambda`)，则 #mi(`0\le\lambda\leqslant1`)，从而
 
-$ y=2 a-a s x $
+#mi(`E=(2,4a\lambda)`)，#mi(`F=(2-4\lambda,4a)`)，#mi(`G=(-2,4a(1-\lambda))`).
 
-将 $P$ 的坐标代入直线 $G E$，得
+令 #mi(`s=1-2\lambda`)，则 #mi(`-1\le s\leqslant1`)，且
 
-$ 4 a mu =2 a-2 a s^(2) mu $
+
+#align(center)[#mitex(`
+F=(2s,4a)
+`)]
+
+
+直线 #mi(`OF`) 上的点可表示为 #mi(`P=(2s\mu,4a\mu)`). 另一方面，由 #mi(`G`)，#mi(`E`) 两点的坐标，直线 #mi(`GE`) 的方程为
+
+
+#align(center)[#mitex(`
+y=2a-asx
+`)]
+
+
+将 #mi(`P`) 的坐标代入直线 #mi(`GE`)，得
+
+
+#align(center)[#mitex(`
+4a\mu=2a-2as^{2}\mu
+`)]
+
 
 所以
 
-$ mu =(1)/(s^(2)+2) $
 
-因此点 $P$ 的坐标为
+#align(center)[#mitex(`
+\mu=\frac{1}{s^{2}+2}
+`)]
 
-$ P((2 s)/(s^(2)+2),(4 a)/(s^(2)+2)) $
 
-消去参数 $s$，可得
+因此点 #mi(`P`) 的坐标为
 
-$ x^(2)+((y-a)^(2))/(2 a^(2))=(1)/(2) $
 
-这是以 $(0,a)$ 为中心的椭圆. 当 $a>(1)/(sqrt(2))$ 时，其长轴在 $y$ 轴上，两个焦点为
-$F_(1)(0,a-sqrt(a^(2)-(1)/(2)))$，$F_(2)(0,a+sqrt(a^(2)-(1)/(2)))$，
-到这两个焦点的距离和为 $2 a$. 当 $0<a<(1)/(sqrt(2))$ 时，其长轴在 $x$ 轴上，两个焦点为
-$F_(1)(-sqrt((1)/(2)-a^(2)),a)$，$F_(2)(sqrt((1)/(2)-a^(2)),a)$，
-到这两个焦点的距离和为 $sqrt(2)$. 当 $a=(1)/(sqrt(2))$ 时，轨迹方程为
+#align(center)[#mitex(`
+P\left(\frac{2s}{s^{2}+2},\frac{4a}{s^{2}+2}\right)
+`)]
 
-$ x^(2)+(y-(1)/(sqrt(2)))^(2)=(1)/(2) $
 
-是圆弧. 若存在两个不同定点，使 $P$ 到这两点的距离和为定值，则这段圆弧应属于以这两点为焦点的椭圆；两个焦点不重合的椭圆不能退化为圆，故不存在这样的两个定点. 因此，当
+消去参数 #mi(`s`)，可得
 
-$ a in (0,(1)/(sqrt(2))) union ((1)/(sqrt(2)),+ oo ) $
 
-时存在这样的两个定点；当 $a=(1)/(sqrt(2))$ 时不存在.
+#align(center)[#mitex(`
+x^{2}+\frac{(y-a)^{2}}{2a^{2}}=\frac{1}{2}
+`)]
+
+
+这是以 #mi(`(0,a)`) 为中心的椭圆. 当 #mi(`a>\frac{1}{\sqrt{2}}`) 时，其长轴在 #mi(`y`) 轴上，两个焦点为
+
+#mi(`F_{1}\left(0,a-\sqrt{a^{2}-\frac{1}{2}}\right)`)，#mi(`F_{2}\left(0,a+\sqrt{a^{2}-\frac{1}{2}}\right)`)，
+
+到这两个焦点的距离和为 #mi(`2a`). 当 #mi(`0<a<\frac{1}{\sqrt{2}}`) 时，其长轴在 #mi(`x`) 轴上，两个焦点为
+
+#mi(`F_{1}\left(-\sqrt{\frac{1}{2}-a^{2}},a\right)`)，#mi(`F_{2}\left(\sqrt{\frac{1}{2}-a^{2}},a\right)`)，
+
+到这两个焦点的距离和为 #mi(`\sqrt{2}`). 当 #mi(`a=\frac{1}{\sqrt{2}}`) 时，轨迹方程为
+
+
+#align(center)[#mitex(`
+x^{2}+\left(y-\frac{1}{\sqrt{2}}\right)^{2}=\frac{1}{2}
+`)]
+
+
+是圆弧. 若存在两个不同定点，使 #mi(`P`) 到这两点的距离和为定值，则这段圆弧应属于以这两点为焦点的椭圆；两个焦点不重合的椭圆不能退化为圆，故不存在这样的两个定点. 因此，当
+
+
+#align(center)[#mitex(`
+a\in\left(0,\frac{1}{\sqrt{2}}\right)\cup\left(\frac{1}{\sqrt{2}},+\infty\right)
+`)]
+
+
+时存在这样的两个定点；当 #mi(`a=\frac{1}{\sqrt{2}}`) 时不存在.
 ]
 
 #problem(22)[
-设 $a_0$ 为常数，且 $a_n = 3^(n-1) - 2 a_(n-1)$（$n in NN ""^*$）.
+设 #mi(`a_{0}`) 为常数，且 #mi(`a_{n} = 3^{n-1}- 2a_{n-1}`)（#mi(`n \in \mathbb{N}^{*}`)）.
 
 
-+ (1) 证明对任意 $n >= 1$，$a_n = (1)/(5)(3^n + (-1)^(n-1) dot 2 ""^n) + (-1)^n dot 2 ""^n a_0$；
-+ (2) 假设对任意 $n >= 1$ 有 $a_n > a_(n-1)$，求 $a_0$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $n=1$ 时，由递推关系得 $a_(1)=1-2 a_(0)$，而题中公式右端为
-
-$ (1)/(5)(3+(-1)^(0) dot 2 )+(-1)^(1) dot 2 a_(0)=1-2 a_(0) $
-
-所以公式在 $n=1$ 时成立. 假设当 $n=k$ 时成立，即
-
-$ a_(k)=(1)/(5)(3^(k)+(-1)^(k-1) dot 2 ""^(k))+(-1)^(k) dot 2 ""^(k)a_(0) $
-
-则由递推关系
-
-$ a_(k+1)=3^(k)-2 a_(k) =3^(k)-(2)/(5)(3^(k)+(-1)^(k-1) dot 2 ""^(k))-(-1)^(k) dot 2 ""^(k+1)a_(0) $
-
-由于 $-(-1)^(k-1)=(-1)^k$，且 $3^k-(2)/(5) dot 3 ""^k=(1)/(5) dot 3 ""^(k+1)$，上式化为
-
-$ a_(k+1)=(1)/(5)(3^(k+1)+(-1)^(k) dot 2 ""^(k+1))+(-1)^(k+1) dot 2 ""^(k+1)a_(0) $
-
-这正是 $n=k+1$ 时的结论，故由数学归纳法，对任意 $n >= 1$，均有
-
-$ a_(n)=(1)/(5)(3^(n)+(-1)^(n-1) dot 2 ""^(n))+(-1)^(n) dot 2 ""^(n)a_(0) $
-+ (2) 由上式，得
-
-$ a_(n)-a_(n-1)=\f r a c{2 dot 3 ""^(n-1)}5+3 dot 2 ""^(n-1)(-1)^(n-1)((1)/(5)-a_(0)) $
-
-当 $n=2 k+1$（$k >= 0$）时，
-
-$ a_(2 k+1)-a_(2 k) =\f r a c{2 dot 3 ""^(2 k)}5+3 dot 2 ""^(2 k)((1)/(5)-a_(0))>0 $
-
-等价于
-
-$ a_(0)<(1)/(5)+(2)/(15)((9)/(4))^(k) $
-
-因为 $((9)/(4))^(k) >= 1$，所有奇数项不等式成立的充要条件为 $a_(0)<(1)/(3)$. 当 $n=2 k$（$k >= 1$）时，
-
-$ a_(2 k)-a_(2 k-1) =\f r a c{2 dot 3 ""^(2 k-1)}5-3 dot 2 ""^(2 k-1)((1)/(5)-a_(0))>0 $
-
-等价于
-
-$ a_(0)>(1)/(5)-(2)/(15)((3)/(2))^(2 k-1) $
-
-右端在 $k=1$ 时最大且等于 $0$，所以所有偶数项不等式成立的充要条件为 $a_(0)>0$. 综合两类条件，得
-
-$ 0<a_(0)<(1)/(3) $
++ (1)
 ]
 

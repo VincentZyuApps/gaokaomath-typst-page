@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,507 +11,561 @@
 #part-header("单选题")
 
 #problem(1)[
-下列函数中，周期为 $(pi)/(2)$ 的是（ ）
-  #choices([$y = sin (x)/(2)$], [$y = sin 2 x$], [$y = cos (x)/(4)$], [$y = cos 4 x$], cols: 2)
+下列函数中，周期为 #mi(`\frac{\pi}{2}`) 的是（ ）
+  #choices([#mi(`y = \sin \frac{x}{2}`)], [#mi(`y = \sin 2x`)], [#mi(`y = \cos \frac{x}{4}`)], [#mi(`y = \cos 4x`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-对于正弦型或余弦型函数，函数 $y= sin k x$ 或 $y= cos k x$ 的最小正周期为 $(2 pi)/(|k|)$. 因而四个选项中函数的最小正周期分别为 $4 pi$，$pi$，$8 pi$，$(pi)/(2)$. 只有选项 D 的周期为 $(pi)/(2)$，故选 D.
+对于正弦型或余弦型函数，函数 #mi(`y=\sin kx`) 或 #mi(`y=\cos kx`) 的最小正周期为 #mi(`\frac{2\pi}{|k|}`). 因而四个选项中函数的最小正周期分别为 #mi(`4\pi`)，#mi(`\pi`)，#mi(`8\pi`)，#mi(`\frac{\pi}{2}`). 只有选项 D 的周期为 #mi(`\frac{\pi}{2}`)，故选 D.
 ]
 
 #problem(2)[
-已知全集 $U = ZZ$，$A = \{-1, 0, 1, 2\}$，$B = \{x | x^(2) = x\}$，则 $A inter \c o m p l e m e n t_U B$ 为（ ）
-  #choices([$\{-1, 2\}$], [$\{-1, 0\}$], [$\{0, 1\}$], [$\{1, 2\}$], cols: 4)
+已知全集 #mi(`U = \mathbb{Z}`)，#mi(`A = \{-1, 0, 1, 2\}`)，#mi(`B = \{x \mid x^{2}= x\}`)，则 #mi(`A \cap \complement_{U} B`) 为（ ）
+  #choices([#mi(`\{-1, 2\}`)], [#mi(`\{-1, 0\}`)], [#mi(`\{0, 1\}`)], [#mi(`\{1, 2\}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由 $x^(2)=x$ 得 $x(x-1)=0$，所以 $B=\{0,1\}$. 因为全集为 $ZZ$，故 $\c o m p l e m e n t_U B$ 是从 $ZZ$ 中去掉 $0$，$1$ 后得到的集合. 从而
+由 #mi(`x^{2}=x`) 得 #mi(`x(x-1)=0`)，所以 #mi(`B=\{0,1\}`). 因为全集为 #mi(`\mathbb{Z}`)，故 #mi(`\complement_{U} B`) 是从 #mi(`\mathbb{Z}`) 中去掉 #mi(`0`)，#mi(`1`) 后得到的集合. 从而
 
-$ A inter \c o m p l e m e n t_U B=\{-1,2\} $
+
+#align(center)[#mitex(`
+A\cap\complement_{U} B=\{-1,2\}
+`)]
+
 
 故选 A.
 ]
 
 #problem(3)[
-在平面直角坐标系 $x O y$ 中，双曲线的中心在坐标原点，焦点在 $y$ 轴上，一条渐近线方程为 $x - 2 y = 0$，则它的离心率为（ ）
-  #choices([$sqrt(5)$], [$(sqrt(5))/(2)$], [$sqrt(3)$], [$2$], cols: 4)
+在平面直角坐标系 #mi(`xOy`) 中，双曲线的中心在坐标原点，焦点在 #mi(`y`) 轴上，一条渐近线方程为 #mi(`x - 2y = 0`)，则它的离心率为（ ）
+  #choices([#mi(`\sqrt{5}`)], [#mi(`\frac{\sqrt{5}}{2}`)], [#mi(`\sqrt{3}`)], [#mi(`2`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-设双曲线的标准方程为 $(y^(2))/(a^(2))-(x^(2))/(b^(2))=1$，其中 $a>0$，$b>0$. 其渐近线为 $y= +- (a)/(b)x$. 由渐近线 $x-2 y=0$，即 $y=(1)/(2)x$，得 $(a)/(b)=(1)/(2)$，所以 $(b)/(a)=2$.
+设双曲线的标准方程为 #mi(`\frac{y^{2}}{a^{2}}-\frac{x^{2}}{b^{2}}=1`)，其中 #mi(`a>0`)，#mi(`b>0`). 其渐近线为 #mi(`y=\pm\frac{a}{b}x`). 由渐近线 #mi(`x-2y=0`)，即 #mi(`y=\frac{1}{2}x`)，得 #mi(`\frac{a}{b}=\frac{1}{2}`)，所以 #mi(`\frac{b}{a}=2`).
 
-双曲线的焦半距满足 $c^(2)=a^(2)+b^(2)$，故离心率
+双曲线的焦半距满足 #mi(`c^{2}=a^{2}+b^{2}`)，故离心率
 
-$ e=(c)/(a)=sqrt(1+(b^(2))/(a^(2)))=sqrt(1+4)=sqrt(5) $
+
+#align(center)[#mitex(`
+e=\frac{c}{a}=\sqrt{1+\frac{b^{2}}{a^{2}}}=\sqrt{1+4}=\sqrt{5}
+`)]
+
 
 故选 A.
 ]
 
 #problem(4)[
-已知两条直线 $m$，$n$，两个平面 $alpha$，$beta$，给出下面四个命题：
+已知两条直线 #mi(`m`)，#mi(`n`)，两个平面 #mi(`\alpha`)，#mi(`\beta`)，给出下面四个命题：
 
-\begin{circlelist}
-\item $m parallel n$，$m bot alpha => n bot alpha$；
-\item $alpha parallel beta$，$m subset alpha$，$n subset beta => m parallel n$；
-\item $m parallel n$，$m parallel alpha => n parallel alpha$；
-\item $alpha parallel beta$，$m parallel n$，$m bot alpha => n bot beta$.
-\end{circlelist}
+
++ (1) #mi(`m \parallel n`)，#mi(`m \perp \alpha \Rightarrow n \perp \alpha`)；
++ (2) #mi(`\alpha \parallel \beta`)，#mi(`m \subset \alpha`)，#mi(`n \subset \beta \Rightarrow m \parallel n`)；
++ (3) #mi(`m \parallel n`)，#mi(`m \parallel \alpha \Rightarrow n \parallel \alpha`)；
++ (4) #mi(`\alpha \parallel \beta`)，#mi(`m \parallel n`)，#mi(`m \perp \alpha \Rightarrow n \perp \beta`).
+
+
 
 其中正确命题的序号是（ ）
-  #choices([$"[1]""[3]"$], [$"[2]""[4]"$], [$"[1]""[4]"$], [$"[2]""[3]"$], cols: 4)
+  #choices([#mi(`①③`)], [#mi(`②④`)], [#mi(`①④`)], [#mi(`②③`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-命题$"[1]"$中，直线 $m$ 与平面 $alpha$ 垂直，且 $n parallel m$，所以 $n$ 的方向也垂直于平面 $alpha$，命题$"[1]"$正确.
+命题#mi(`①`) 中，直线 #mi(`m`) 与平面 #mi(`\alpha`) 垂直，且 #mi(`n\parallel m`)，所以 #mi(`n`) 的方向也垂直于平面 #mi(`\alpha`)，命题#mi(`①`) 正确.
 
-命题$"[2]"$不正确. 两平面平行时，分别位于两平面内的两条直线的方向可以不同，例如在两个平行平面内分别取方向不同的直线，它们不一定平行.
+命题#mi(`②`) 不正确. 两平面平行时，分别位于两平面内的两条直线的方向可以不同，例如在两个平行平面内分别取方向不同的直线，它们不一定平行.
 
-命题$"[3]"$不正确. 例如取平面 $alpha$ 为水平面，取一条不在 $alpha$ 内且平行于 $alpha$ 的直线 $m$，再取与 $m$ 平行且位于 $alpha$ 内的直线 $n$，则 $m parallel n$，但 $n$ 不与 $alpha$ 平行.
+命题#mi(`③`) 不正确. 例如取平面 #mi(`\alpha`) 为水平面，取一条不在 #mi(`\alpha`) 内且平行于 #mi(`\alpha`) 的直线 #mi(`m`)，再取与 #mi(`m`) 平行且位于 #mi(`\alpha`) 内的直线 #mi(`n`)，则 #mi(`m\parallel n`)，但 #mi(`n`) 不与 #mi(`\alpha`) 平行.
 
-命题$"[4]"$中，$alpha parallel beta$，所以两平面的法向方向相同；又因 $m bot alpha$ 且 $n parallel m$，故 $n$ 的方向也垂直于平面 $beta$，命题$"[4]"$正确. 因此正确命题为$"[1]"$$"[4]"$，故选 C.
+命题#mi(`④`) 中，#mi(`\alpha\parallel\beta`)，所以两平面的法向方向相同；又因 #mi(`m\perp\alpha`) 且 #mi(`n\parallel m`)，故 #mi(`n`) 的方向也垂直于平面 #mi(`\beta`)，命题#mi(`④`) 正确. 因此正确命题为#mi(`①`)#mi(`④`)，故选 C.
 ]
 
 #problem(5)[
-函数 $f(x) = sin x - sqrt(3) cos x$（$x in [- pi , 0]$）的单调递增区间是（ ）
-  #choices([$[- pi , -(5 pi)/(6)]$], [$[-(5 pi)/(6), -(pi)/(6)]$], [$[-(pi)/(3), 0]$], [$[-(pi)/(6), 0]$], cols: 2)
+函数 #mi(`f(x) = \sin x - \sqrt{3}\cos x`)（#mi(`x \in [-\pi, 0]`)）的单调递增区间是（ ）
+  #choices([#mi(`\left[-\pi, -\frac{5\pi}{6}\right]`)], [#mi(`\left[-\frac{5\pi}{6}, -\frac{\pi}{6}\right]`)], [#mi(`\left[-\frac{\pi}{3}, 0\right]`)], [#mi(`\left[-\frac{\pi}{6}, 0\right]`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-$ f'(x)= cos x+sqrt(3) sin x=2 sin (x+(pi)/(6)) $
+#align(center)[#mitex(`
+f'(x)=\cos x+\sqrt{3}\sin x=2\sin\left(x+\frac{\pi}{6}\right)
+`)]
 
-当 $x in [- pi ,0]$ 时，只有在 $x in [-(pi)/(6),0]$ 上有 $f'(x) >= 0$，且在其内部 $f'(x)>0$. 因此函数在 $[-(pi)/(6),0]$ 上单调递增，故选 D.
+
+当 #mi(`x\in[-\pi,0]`) 时，只有在 #mi(`x\in[-\frac{\pi}{6},0]`) 上有 #mi(`f'(x)\geqslant0`)，且在其内部 #mi(`f'(x)>0`). 因此函数在 #mi(`[-\frac{\pi}{6},0]`) 上单调递增，故选 D.
 ]
 
 #problem(6)[
-设函数 $f(x)$ 定义在实数集上，它的图象关于直线 $x = 1$ 对称，且当 $x >= 1$ 时，$f(x) = 3^(x) - 1$，则有（ ）
-  #choices([$f((1)/(3)) < f((3)/(2)) < f((2)/(3))$], [$f((2)/(3)) < f((3)/(2)) < f((1)/(3))$], [$f((2)/(3)) < f((1)/(3)) < f((3)/(2))$], [$f((3)/(2)) < f((2)/(3)) < f((1)/(3))$], cols: 1)
+设函数 #mi(`f(x)`) 定义在实数集上，它的图象关于直线 #mi(`x = 1`) 对称，且当 #mi(`x \ge 1`) 时，#mi(`f(x) = 3^{x}- 1`)，则有（ ）
+  #choices([#mi(`f\left(\frac{1}{3}\right) < f\left(\frac{3}{2}\right) < f\left(\frac{2}{3}\right)`)], [#mi(`f\left(\frac{2}{3}\right) < f\left(\frac{3}{2}\right) < f\left(\frac{1}{3}\right)`)], [#mi(`f\left(\frac{2}{3}\right) < f\left(\frac{1}{3}\right) < f\left(\frac{3}{2}\right)`)], [#mi(`f\left(\frac{3}{2}\right) < f\left(\frac{2}{3}\right) < f\left(\frac{1}{3}\right)`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-图象关于直线 $x=1$ 对称，所以对任意 $x$，有 $f(x)=f(2-x)$. 于是
-$f((1)/(3))=f((5)/(3))=3^((5)/(3))-1$，
-$f((2)/(3))=f((4)/(3))=3^((4)/(3))-1$，
-$f((3)/(2))=3^((3)/(2))-1$.
-由于 $3^x-1$ 在 $[1,+ oo )$ 上单调递增，而 $(4)/(3)<(3)/(2)<(5)/(3)$，所以
+图象关于直线 #mi(`x=1`) 对称，所以对任意 #mi(`x`)，有 #mi(`f(x)=f(2-x)`). 于是
 
-$ f((2)/(3))<f((3)/(2))<f((1)/(3)) $
+#mi(`f\left(\frac{1}{3}\right)=f\left(\frac{5}{3}\right)=3^{\frac{5}{3}}-1`)，
+
+#mi(`f\left(\frac{2}{3}\right)=f\left(\frac{4}{3}\right)=3^{\frac{4}{3}}-1`)，
+
+#mi(`f\left(\frac{3}{2}\right)=3^{\frac{3}{2}}-1`).
+
+由于 #mi(`3^{x}-1`) 在 #mi(`[1,+\infty)`) 上单调递增，而 #mi(`\frac{4}{3}<\frac{3}{2}<\frac{5}{3}`)，所以
+
+
+#align(center)[#mitex(`
+f\left(\frac{2}{3}\right)<f\left(\frac{3}{2}\right)<f\left(\frac{1}{3}\right)
+`)]
+
 
 故选 B.
 ]
 
 #problem(7)[
-若对于任意实数 $x$，有
-$x^(3) = a_(0) + a_(1)(x - 2) + a_(2)(x - 2)^(2) + a_(3)(x - 2)^(3)$，则 $a_(2)$ 的值为（ ）
-  #choices([$3$], [$6$], [$9$], [$12$], cols: 4)
+若对于任意实数 #mi(`x`)，有
+
+#mi(`x^{3}= a_{0}+ a_{1}(x - 2) + a_{2}(x - 2)^{2}+ a_{3}(x - 2)^{3}`)，则 #mi(`a_{2}`) 的值为（ ）
+  #choices([#mi(`3`)], [#mi(`6`)], [#mi(`9`)], [#mi(`12`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-令 $u=x-2$，则 $x=u+2$，从而
+令 #mi(`u=x-2`)，则 #mi(`x=u+2`)，从而
 
-$ x^(3)=(u+2)^(3)=u^(3)+6 u^(2)+12 u+8 $
 
-代回 $u=x-2$，得到
+#align(center)[#mitex(`
+x^{3}=(u+2)^{3}=u^{3}+6u^{2}+12u+8
+`)]
 
-$ x^(3)=8+12(x-2)+6(x-2)^(2)+(x-2)^(3) $
 
-因此 $a_(2)=6$，故选 B.
+代回 #mi(`u=x-2`)，得到
+
+
+#align(center)[#mitex(`
+x^{3}=8+12(x-2)+6(x-2)^{2}+(x-2)^{3}
+`)]
+
+
+因此 #mi(`a_{2}=6`)，故选 B.
 ]
 
 #problem(8)[
-设 $f(x) = \l g ((2)/(1 - x)+ a)$ 是奇函数，则使 $f(x) < 0$ 的 $x$ 的取值范围是（ ）
-  #choices([$(-1, 0)$], [$(0, 1)$], [$(- oo , 0)$], [$(- oo , 0) union (1, + oo )$], cols: 2)
+设 #mi(`f(x) = \lg \left(\frac{2}{1 - x}+ a\right)`) 是奇函数，则使 #mi(`f(x) < 0`) 的 #mi(`x`) 的取值范围是（ ）
+  #choices([#mi(`(-1, 0)`)], [#mi(`(0, 1)`)], [#mi(`(-\infty, 0)`)], [#mi(`(-\infty, 0) \cup (1, +\infty)`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-记 $R(x)=(2)/(1-x)+a=(a+2-a x)/(1-x)$. 由于 $f$ 是奇函数，定义域关于原点对称，且对定义域内的 $x$，有 $f(-x)=-f(x)$. 因此 $R(x)>0$，$R(-x)>0$，并且
+记 #mi(`R(x)=\frac{2}{1-x}+a=\frac{a+2-ax}{1-x}`). 由于 #mi(`f`) 是奇函数，定义域关于原点对称，且对定义域内的 #mi(`x`)，有 #mi(`f(-x)=-f(x)`). 因此 #mi(`R(x)>0`)，#mi(`R(-x)>0`)，并且
 
-$ R(x)R(-x)=1 $
+
+#align(center)[#mitex(`
+R(x)R(-x)=1
+`)]
+
 
 于是
 
-$ ((a+2-a x)(a+2+a x))/(1-x^(2))=1 $
+
+#align(center)[#mitex(`
+\frac{(a+2-ax)(a+2+ax)}{1-x^{2}}=1
+`)]
+
 
 即
 
-$ (a+2)^(2)-1=(a^(2)-1)x^(2) $
 
-函数的定义域是由严格不等式确定的非空开集，因而包含一个非空区间；上式对该区间内的所有 $x$ 成立，所以两边关于 $x$ 的多项式恒等，得到 $a^(2)=1$，$(a+2)^(2)=1$. 联立可得 $a=-1$. 此时
+#align(center)[#mitex(`
+(a+2)^{2}-1=(a^{2}-1)x^{2}
+`)]
 
-$ f(x)=\l g((2)/(1-x)-1)=\l g((1+x)/(1-x)) $
 
-其定义域为 $(-1,1)$. 在此定义域内，$f(x)<0$ 等价于
+函数的定义域是由严格不等式确定的非空开集，因而包含一个非空区间；上式对该区间内的所有 #mi(`x`) 成立，所以两边关于 #mi(`x`) 的多项式恒等，得到 #mi(`a^{2}=1`)，#mi(`(a+2)^{2}=1`). 联立可得 #mi(`a=-1`). 此时
 
-$ 0<(1+x)/(1-x)<1 $
 
-因为 $-1<x<1$ 时 $1-x>0$，所以不等式右半部分等价于 $1+x<1-x$，即 $x<0$. 故 $f(x)<0$ 的取值范围为 $(-1,0)$，选 A.
+#align(center)[#mitex(`
+f(x)=\lg\left(\frac{2}{1-x}-1\right)=\lg\left(\frac{1+x}{1-x}\right)
+`)]
+
+
+其定义域为 #mi(`(-1,1)`). 在此定义域内，#mi(`f(x)<0`) 等价于
+
+
+#align(center)[#mitex(`
+0<\frac{1+x}{1-x}<1
+`)]
+
+
+因为 #mi(`-1<x<1`) 时 #mi(`1-x>0`)，所以不等式右半部分等价于 #mi(`1+x<1-x`)，即 #mi(`x<0`). 故 #mi(`f(x)<0`) 的取值范围为 #mi(`(-1,0)`)，选 A.
 ]
 
 #problem(9)[
-已知二次函数 $f(x) = a x^(2) + b x + c$ 的导数为 $f'(x)$，$f'(0) > 0$，对于任意实数 $x$ 都有 $f(x) >= 0$，则 $(f(1))/(f'(0))$ 的最小值为（ ）
-  #choices([$3$], [$(5)/(2)$], [$2$], [$(3)/(2)$], cols: 4)
+已知二次函数 #mi(`f(x) = ax^{2}+ bx + c`) 的导数为 #mi(`f'(x)`)，#mi(`f'(0) > 0`)，对于任意实数 #mi(`x`) 都有 #mi(`f(x) \ge 0`)，则 #mi(`\frac{f(1)}{f'(0)}`) 的最小值为（ ）
+  #choices([#mi(`3`)], [#mi(`\frac{5}{2}`)], [#mi(`2`)], [#mi(`\frac{3}{2}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-由 $f'(0)=b>0$；若 $a<0$，则 $f(x) -> - oo$（$| x| -> oo$），若 $a=0$，则 $f(x)=b x+c$ 在 $x -> - oo$ 时趋于 $- oo$，均与 $f(x) >= 0$ 对任意实数 $x$ 矛盾. 因此 $a>0$，并且
+由 #mi(`f'(0)=b>0`)；若 #mi(`a<0`)，则 #mi(`f(x)\to-\infty`)（#mi(`\lvert x\rvert\to\infty`)），若 #mi(`a=0`)，则 #mi(`f(x)=bx+c`) 在 #mi(`x\to-\infty`) 时趋于 #mi(`-\infty`)，均与 #mi(`f(x)\geqslant0`) 对任意实数 #mi(`x`) 矛盾. 因此 #mi(`a>0`)，并且
 
-$ c >= (b^(2))/(4 a) $
+
+#align(center)[#mitex(`
+c\ge\frac{b^{2}}{4a}
+`)]
+
 
 因此
 
-$ (f(1))/(f'(0))=(a+b+c)/(b) >= (a+b+(b^(2))/(4 a))/(b)=(a)/(b)+1+(b)/(4 a) $
 
-令 $t=(a)/(b)>0$，则
+#align(center)[#mitex(`
+\frac{f(1)}{f'(0)}=\frac{a+b+c}{b}\ge\frac{a+b+\frac{b^{2}}{4a}}{b}=\frac{a}{b}+1+\frac{b}{4a}
+`)]
 
-$ (a)/(b)+(b)/(4 a)=t+(1)/(4 t) >= 1 $
 
-其中等号在 $t=(1)/(2)$ 时成立. 所以
+令 #mi(`t=\frac{a}{b}>0`)，则
 
-$ (f(1))/(f'(0)) >= 2 $
 
-取 $a=1$，$b=2$，$c=1$ 时，$f(x)=(x+1)^(2)$，且比值等于 $2$，故最小值为 $2$，选 C.
+#align(center)[#mitex(`
+\frac{a}{b}+\frac{b}{4a}=t+\frac{1}{4t}\geqslant1
+`)]
+
+
+其中等号在 #mi(`t=\frac{1}{2}`) 时成立. 所以
+
+
+#align(center)[#mitex(`
+\frac{f(1)}{f'(0)}\geqslant2
+`)]
+
+
+取 #mi(`a=1`)，#mi(`b=2`)，#mi(`c=1`) 时，#mi(`f(x)=(x+1)^{2}`)，且比值等于 #mi(`2`)，故最小值为 #mi(`2`)，选 C.
 ]
 
 #problem(10)[
-在平面直角坐标系 $x O y$ 中，已知平面区域 $A = \{(x, y) | x + y <= 1 ,"且 "x >= 0 ,\ y >= 0 \}$，则平面区域 $B = \{(x + y, x - y) | (x, y) in A\}$ 的面积为（ ）
-  #choices([$2$], [$1$], [$(1)/(2)$], [$(1)/(4)$], cols: 4)
+在平面直角坐标系 #mi(`xOy`) 中，已知平面区域 #mi(`A = \{(x, y) \mid x + y \le 1,\text{\text{且} }x \ge 0,\ y \ge 0\}`)，则平面区域 #mi(`B = \{(x + y, x - y) \mid (x, y) \in A\}`) 的面积为（ ）
+  #choices([#mi(`2`)], [#mi(`1`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{1}{4}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-区域 $A$ 是由 $x=0$，$y=0$，$x+y=1$ 围成的三角形，其三个顶点为 $(0,0)$，$(1,0)$，$(0,1)$，面积为 $(1)/(2)$.
+区域 #mi(`A`) 是由 #mi(`x=0`)，#mi(`y=0`)，#mi(`x+y=1`) 围成的三角形，其三个顶点为 #mi(`(0,0)`)，#mi(`(1,0)`)，#mi(`(0,1)`)，面积为 #mi(`\frac{1}{2}`).
 
-令 $u=x+y$，$v=x-y$，则
-
-$ \b e g i n{p m a t r i x}u\\v\e n d{p m a t r i x} =\b e g i n{p m a t r i x}1&1\\1&-1\e n d{p m a t r i x} \b e g i n{p m a t r i x}x\\y\e n d{p m a t r i x} $
+令 #mi(`u=x+y`)，#mi(`v=x-y`)，则
 
 
-$ |\det\b e g i n{p m a t r i x}1&1\\1&-1\e n d{p m a t r i x}|=2 $
+#align(center)[#mitex(`
+\begin{pmatrix}u\\v\end{pmatrix}  =\begin{pmatrix}1&1\\1&-1\end{pmatrix}  \begin{pmatrix}x\\y\end{pmatrix}
+`)]
 
-线性变换将面积放大 $2$ 倍，所以区域 $B$ 的面积为 $2 dot (1)/(2)=1$，故选 B.
+
+
+#align(center)[#mitex(`
+\left|\det\begin{pmatrix}1&1\\1&-1\end{pmatrix}\right|=2
+`)]
+
+
+线性变换将面积放大 #mi(`2`) 倍，所以区域 #mi(`B`) 的面积为 #mi(`2\cdot\frac{1}{2}=1`)，故选 B.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-若 $cos ( alpha + beta )=(1)/(5)$，$cos ( alpha - beta )=(3)/(5)$，则 $tan alpha tan beta =$#blank(){}.
+若 #mi(`\cos(\alpha+\beta)=\frac{1}{5}`)，#mi(`\cos(\alpha-\beta)=\frac{3}{5}`)，则 #mi(`\tan\alpha\tan\beta=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(2)$])
+#answer([#mi(`\frac{1}{2}`)])
 
 #solution[
 由和差化积公式，得
 
-$ cos ( alpha + beta )+ cos ( alpha - beta )=2 cos alpha cos beta =(4)/(5) $
+
+#align(center)[#mitex(`
+\cos(\alpha+\beta)+\cos(\alpha-\beta)=2\cos\alpha\cos\beta=\frac{4}{5}
+`)]
+
 
 以及
 
-$ cos ( alpha - beta )- cos ( alpha + beta )=2 sin alpha sin beta =(2)/(5) $
 
-因为 $cos alpha cos beta =(2)/(5)\n e q0$，所以
+#align(center)[#mitex(`
+\cos(\alpha-\beta)-\cos(\alpha+\beta)=2\sin\alpha\sin\beta=\frac{2}{5}
+`)]
 
-$ tan alpha tan beta =(sin alpha sin beta)/(cos alpha cos beta)=((1)/(5))/((2)/(5))=(1)/(2) $
+
+因为 #mi(`\cos\alpha\cos\beta=\frac{2}{5}\neq0`)，所以
+
+
+#align(center)[#mitex(`
+\tan\alpha\tan\beta  =\frac{\sin\alpha\sin\beta}{\cos\alpha\cos\beta}=\frac{\frac{1}{5}}{\frac{2}{5}}=\frac{1}{2}
+`)]
 ]
 
 #problem(12)[
-某校开设 $9$ 门课程供学生选择，其中 $A$，$B$，$C$ 三门由于上课时间相同，学校规定，每位同学选修 $4$ 门，共有#blank(){} 种不同的选修方案.（用数值作答）
+某校开设 #mi(`9`) 门课程供学生选择，其中 #mi(`A`)，#mi(`B`)，#mi(`C`) 三门由于上课时间相同，学校规定，每位同学选修 #mi(`4`) 门，共有\underline{\hspace{2.5em}} 种不同的选修方案.（用数值作答）
 ]
 
 #answer([75])
 
 #solution[
-由于课程 $A$，$B$，$C$ 上课时间相同，每位同学至多选其中一门. 分两类计数：
+由于课程 #mi(`A`)，#mi(`B`)，#mi(`C`) 上课时间相同，每位同学至多选其中一门. 分两类计数：
 
-不选 $A$，$B$，$C$ 中的课程时，从其余 $6$ 门课程中选 $4$ 门，有 $C_6^4$ 种；恰选其中一门时，先选出这门课程，再从其余 $6$ 门中选 $3$ 门，有 $C_3^1 C_6^3$ 种. 因此方案总数为
+不选 #mi(`A`)，#mi(`B`)，#mi(`C`) 中的课程时，从其余 #mi(`6`) 门课程中选 #mi(`4`) 门，有 #mi(`\mathrm{C}_{6}^{4}`) 种；恰选其中一门时，先选出这门课程，再从其余 #mi(`6`) 门中选 #mi(`3`) 门，有 #mi(`\mathrm{C}_{3}^{1}\mathrm{C}_{6}^{3}`) 种. 因此方案总数为
 
-$ C_6^4+C_3^1 C_6^3=15+3 times 20 =75 $
+
+#align(center)[#mitex(`
+\mathrm{C}_{6}^{4}+\mathrm{C}_{3}^{1}\mathrm{C}_{6}^{3}=15+3\times20=75
+`)]
 ]
 
 #problem(13)[
-已知函数 $f(x) = x^(3) - 12 x + 8$ 在区间 $[-3, 3]$ 上的最大值与最小值分别为 $M$，$m$，则 $M - m =$#blank(){}.
+已知函数 #mi(`f(x) = x^{3}- 12x + 8`) 在区间 #mi(`[-3, 3]`) 上的最大值与最小值分别为 #mi(`M`)，#mi(`m`)，则 #mi(`M - m =`)\underline{\hspace{2.5em}}.
 ]
 
 #answer([32])
 
 #solution[
-$ f'(x)=3 x^(2)-12=3(x-2)(x+2) $
+#align(center)[#mitex(`
+f'(x)=3x^{2}-12=3(x-2)(x+2)
+`)]
 
-在区间 $[-3,3]$ 内，函数的极值只需比较端点和驻点 $-2,2$ 处的函数值. 逐一计算得
-$f(-3)=17$，$f(-2)=24$，$f(2)=-8$，$f(3)=-1$.
-所以最大值 $M=24$，最小值 $m=-8$，从而
 
-$ M-m=24-(-8)=32 $
+在区间 #mi(`[-3,3]`) 内，函数的极值只需比较端点和驻点 #mi(`-2,2`) 处的函数值. 逐一计算得
+
+#mi(`f(-3)=17`)，#mi(`f(-2)=24`)，#mi(`f(2)=-8`)，#mi(`f(3)=-1`).
+
+所以最大值 #mi(`M=24`)，最小值 #mi(`m=-8`)，从而
+
+
+#align(center)[#mitex(`
+M-m=24-(-8)=32
+`)]
 ]
 
 #problem(14)[
-正三棱锥 $P - A B C$ 高为 $2$，侧棱与底面 $A B C$ 成 $45^( degree )$，则点 $A$ 到侧面 $P B C$ 的距离为#blank(){}.
+正三棱锥 #mi(`P - ABC`) 高为 #mi(`2`)，侧棱与底面 #mi(`ABC`) 成 #mi(`45^{\circ}`)，则点 #mi(`A`) 到侧面 #mi(`PBC`) 的距离为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(6 sqrt(5))/(5)$])
+#answer([#mi(`\frac{6\sqrt{5}}{5}`)])
 
 #solution[
-设正三棱锥的顶点为 $P$，底面中心为 $O$，底面边长为 $s$. 由于 $P O bot$ 面 $A B C$，且侧棱 $P A$ 与底面所成的角为 $45^( degree )$，在直角三角形 $P A O$ 中有 $P O=2$，$tan 45 ""^( degree )=(P O)/(A O)$.
-故 $A O=2$. 对边长为 $s$ 的正三角形，中心到顶点的距离为 $(s s q r t(3))/(3)$，所以 $s=2 sqrt(3)$.
+设正三棱锥的顶点为 #mi(`P`)，底面中心为 #mi(`O`)，底面边长为 #mi(`s`). 由于 #mi(`PO\perp`) 面 #mi(`ABC`)，且侧棱 #mi(`PA`) 与底面所成的角为 #mi(`45^{\circ}`)，在直角三角形 #mi(`PAO`) 中有 #mi(`PO=2`)，#mi(`\tan45^{\circ}=\frac{PO}{AO}`).
 
-设 $K$ 为 $O$ 到 $B C$ 的垂足. 正三角形的内切圆半径为 $(s s q r t(3))/(6)=1$，故 $O K=1$. 因为 $P O bot$ 面 $A B C$，所以 $P O bot O K$，从而
+故 #mi(`AO=2`). 对边长为 #mi(`s`) 的正三角形，中心到顶点的距离为 #mi(`\frac{s\sqrt{3}}{3}`)，所以 #mi(`s=2\sqrt{3}`).
 
-$ P K=sqrt(P O^(2)+O K^(2))=sqrt(5) $
+设 #mi(`K`) 为 #mi(`O`) 到 #mi(`BC`) 的垂足. 正三角形的内切圆半径为 #mi(`\frac{s\sqrt{3}}{6}=1`)，故 #mi(`OK=1`). 因为 #mi(`PO\perp`) 面 #mi(`ABC`)，所以 #mi(`PO\perp OK`)，从而
+
+
+#align(center)[#mitex(`
+PK=\sqrt{PO^{2}+OK^{2}}=\sqrt{5}
+`)]
+
 
 于是
 
-$ S_( triangle A B C)=(sqrt(3))/(4)s^(2)=3 sqrt(3) $
+
+#align(center)[#mitex(`
+S_{\triangle ABC}=\frac{\sqrt{3}}{4}s^{2}=3\sqrt{3}
+`)]
 
 
-$ V_(P-A B C)=(1)/(3)S_( triangle A B C) dot P O=2 sqrt(3) $
+
+#align(center)[#mitex(`
+V_{P-ABC}=\frac{1}{3}S_{\triangle ABC}\cdot PO=2\sqrt{3}
+`)]
+
 
 以及
 
-$ S_( triangle P B C)=(1)/(2)B C dot P K =(1)/(2) dot 2 sqrt(3)\c d o t s q r t(5)=sqrt(15) $
 
-设点 $A$ 到平面 $P B C$ 的距离为 $h$. 以三角形 $P B C$ 为底面计算体积，得
+#align(center)[#mitex(`
+S_{\triangle PBC}=\frac{1}{2}BC\cdot PK  =\frac{1}{2}\cdot2\sqrt{3}\cdot\sqrt{5}=\sqrt{15}
+`)]
 
-$ V_(P-A B C)=(1)/(3)S_( triangle P B C)h $
+
+设点 #mi(`A`) 到平面 #mi(`PBC`) 的距离为 #mi(`h`). 以三角形 #mi(`PBC`) 为底面计算体积，得
 
 
-$ h=(3 V_(P-A B C))/(S_( triangle P B C))=(6 sqrt(3))/(sqrt(15))=(6 sqrt(5))/(5) $
+#align(center)[#mitex(`
+V_{P-ABC}=\frac{1}{3}S_{\triangle PBC}h
+`)]
+
+
+
+#align(center)[#mitex(`
+h=\frac{3V_{P-ABC}}{S_{\triangle PBC}}=\frac{6\sqrt{3}}{\sqrt{15}}=\frac{6\sqrt{5}}{5}
+`)]
 ]
 
 #problem(15)[
-在平面直角坐标系 $x O y$ 中，已知 $triangle A B C$ 顶点 $A(-4, 0)$ 和 $C(4, 0)$，顶点 $B$ 在椭圆 $(x^(2))/(25)+ (y^(2))/(9)= 1$ 上，则 $(sin A + sin C)/(sin B)=$#blank(){}.
+在平面直角坐标系 #mi(`xOy`) 中，已知 #mi(`\triangle ABC`) 顶点 #mi(`A(-4, 0)`) 和 #mi(`C(4, 0)`)，顶点 #mi(`B`) 在椭圆 #mi(`\frac{x^{2}}{25}+ \frac{y^{2}}{9}= 1`) 上，则 #mi(`\frac{\sin A + \sin C}{\sin B}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(5)/(4)$])
+#answer([#mi(`\frac{5}{4}`)])
 
 #solution[
-椭圆 $(x^(2))/(25)+(y^(2))/(9)=1$ 的长半轴为 $5$，焦半距满足
+椭圆 #mi(`\frac{x^{2}}{25}+\frac{y^{2}}{9}=1`) 的长半轴为 #mi(`5`)，焦半距满足
 
-$ c=sqrt(25-9)=4 $
 
-所以椭圆的两个焦点正是 $A(-4,0)$ 和 $C(4,0)$. 对椭圆上任意点 $B$，有
+#align(center)[#mitex(`
+c=\sqrt{25-9}=4
+`)]
 
-$ A B+B C=2 times 5 =10 $
 
-在三角形 $A B C$ 中设外接圆半径为 $R$，由正弦定理得 $sin A=(B C)/(2 R)$，$sin C=(A B)/(2 R)$，$sin B=(A C)/(2 R)$.
-又 $A C=8$，所以
+所以椭圆的两个焦点正是 #mi(`A(-4,0)`) 和 #mi(`C(4,0)`). 对椭圆上任意点 #mi(`B`)，有
 
-$ (sin A+ sin C)/(sin B)=(A B+B C)/(A C)=(10)/(8)=(5)/(4) $
+
+#align(center)[#mitex(`
+AB+BC=2\times5=10
+`)]
+
+
+在三角形 #mi(`ABC`) 中设外接圆半径为 #mi(`R`)，由正弦定理得 #mi(`\sin A=\frac{BC}{2R}`)，#mi(`\sin C=\frac{AB}{2R}`)，#mi(`\sin B=\frac{AC}{2R}`).
+
+又 #mi(`AC=8`)，所以
+
+
+#align(center)[#mitex(`
+\frac{\sin A+\sin C}{\sin B}=\frac{AB+BC}{AC}=\frac{10}{8}=\frac{5}{4}
+`)]
 ]
 
 #problem(16)[
-某时钟的秒针端点 $A$ 到中心点 $O$ 的距离为 $5 ~c m$，秒针均匀地绕点 $O$ 旋转，当时间 $t = 0$ 时，点 $A$ 与钟面上标 $12$ 的点 $B$ 重合，将 $A$，$B$ 两点的距离 $d$（$c m$）表示成 $t$（$s$）的函数，则 $d =$#blank(){}，其中 $t in [0,60]$.
+某时钟的秒针端点 #mi(`A`) 到中心点 #mi(`O`) 的距离为 #mi(`5 \mathrm{~cm}`)，秒针均匀地绕点 #mi(`O`) 旋转，当时间 #mi(`t = 0`) 时，点 #mi(`A`) 与钟面上标 #mi(`12`) 的点 #mi(`B`) 重合，将 #mi(`A`)，#mi(`B`) 两点的距离 #mi(`d`)（#mi(`\mathrm{cm}`)）表示成 #mi(`t`)（#mi(`\mathrm{s}`)）的函数，则 #mi(`d =`)\underline{\hspace{2.5em}}，其中 #mi(`t\in[0,60]`).
 ]
 
-#answer([$10 sin (pi t)/(60)$])
+#answer([#mi(`10\sin\frac{\pi t}{60}`)])
 
 #solution[
-秒针每 $60$ 秒转一周，所以 $t$ 秒后半径 $O A$ 与 $O B$ 的夹角为
+秒针每 #mi(`60`) 秒转一周，所以 #mi(`t`) 秒后半径 #mi(`OA`) 与 #mi(`OB`) 的夹角为
 
-$ theta =(2 pi)/(60)t=(pi t)/(30) $
 
-在等腰三角形 $A O B$ 中，作弦 $A B$ 的垂线平分线，利用半角公式可得
+#align(center)[#mitex(`
+\theta=\frac{2\pi}{60}t=\frac{\pi t}{30}
+`)]
 
-$ d=A B=2 dot 5 sin (theta)/(2)=10 sin (pi t)/(60) $
+
+在等腰三角形 #mi(`AOB`) 中，作弦 #mi(`AB`) 的垂线平分线，利用半角公式可得
+
+
+#align(center)[#mitex(`
+d=AB=2\cdot5\sin\frac{\theta}{2}=10\sin\frac{\pi t}{60}
+`)]
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-某气象站天气预报的准确率为 $80\%$，计算（结果保留到小数点后面第 $2$ 位）
+某气象站天气预报的准确率为 #mi(`80\%`)，计算（结果保留到小数点后面第 #mi(`2`) 位）
 
 
-+ (1) $5$ 次预报中恰有 $2$ 次准确的概率；
-+ (2) $5$ 次预报中至少有 $2$ 次准确的概率；
-+ (3) $5$ 次预报中恰有 $2$ 次准确，且其中第 $3$ 次预报准确的概率.
++ (1) 
++ (2)
 ]
 
 #solution[
-设一次预报准确的概率为 $p=0.8$，不准确的概率为 $1-p=0.2$，并设 $X$ 表示 $5$ 次预报中准确的次数，则 $X$ 服从二项分布.
+设一次预报准确的概率为 #mi(`p=0.8`)，不准确的概率为 #mi(`1-p=0.2`)，并设 #mi(`X`) 表示 #mi(`5`) 次预报中准确的次数，则 #mi(`X`) 服从二项分布.
 
 
-+ (1) 恰有 $2$ 次准确时，从 $5$ 次中选出这 $2$ 次，故
-
-$ P(X=2)=C_5^2(0.8)^2(0.2)^3=0.0512 approx 0 .05 $
-+ (2) 至少有 $2$ 次准确是“准确次数为 $0$ 或 $1$”的对立事件，故
-
-$ P(X >= 2 )=1-P(X=0)-P(X=1)=1-(0.2)^5-C_5^1(0.8)(0.2)^4=0.99328 approx 0 .99 $
-+ (3) 第 $3$ 次必须准确，且其余 $4$ 次中恰有 $1$ 次准确，故
-
-$ P=C_4^1(0.8)^2(0.2)^3=0.02048 approx 0 .02 $
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-如图，已知 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 是棱长为 $3$ 的正方体，点 $E$ 在 $A A_(1)$ 上，点 $F$ 在 $CC_(1)$ 上，且 $A E = F C_(1) = 1$.
+如图，已知 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 是棱长为 #mi(`3`) 的正方体，点 #mi(`E`) 在 #mi(`AA_{1}`) 上，点 #mi(`F`) 在 #mi(`CC_{1}`) 上，且 #mi(`AE = FC_{1}= 1`).
 
 
-+ (1) 求证：$E$，$B$，$F$，$D_(1)$ 四点共面；
-+ (2) 若点 $G$ 在 $B C$ 上，$B G = (2)/(3)$，点 $M$ 在 $B B_(1)$ 上，$G M bot B F$，垂足为 $H$，求证：$E M bot$ 面 $B C C_(1)B_(1)$；
-+ (3) 用 $theta$ 表示截面 $E B F D_(1)$ 和面 $B C C_(1)B_(1)$ 所成锐二面角大小，求 $tan theta$.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2007/img/jiangsu/q18_fig1.png", width: 38%)]
+
+#align(center)[#image("/papers/2007/img/jiangsu/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-建立空间直角坐标系，使 $B$ 为原点，$B C$，$B A$，$B B_(1)$ 分别为 $x$，$y$，$z$ 轴正方向. 于是
-$B=(0,0,0)$，$C=(3,0,0)$，$A=(0,3,0)$，$A_(1)=(0,3,3)$，$B_(1)=(0,0,3)$，$C_(1)=(3,0,3)$，$D_(1)=(3,3,3)$.
-由 $A E=1$，$F C_(1)=1$，得 $E=(0,3,1)$，$F=(3,0,2)$.
+建立空间直角坐标系，使 #mi(`B`) 为原点，#mi(`BC`)，#mi(`BA`)，#mi(`BB_{1}`) 分别为 #mi(`x`)，#mi(`y`)，#mi(`z`) 轴正方向. 于是
+
+#mi(`B=(0,0,0)`)，#mi(`C=(3,0,0)`)，#mi(`A=(0,3,0)`)，#mi(`A_{1}=(0,3,3)`)，#mi(`B_{1}=(0,0,3)`)，#mi(`C_{1}=(3,0,3)`)，#mi(`D_{1}=(3,3,3)`).
+
+由 #mi(`AE=1`)，#mi(`FC_{1}=1`)，得 #mi(`E=(0,3,1)`)，#mi(`F=(3,0,2)`).
 
 
-+ (1) 因为 $arrow(B E)=(0,3,1)$，$arrow(B F)=(3,0,2)$，且 $arrow(B D_(1))=(3,3,3)=arrow(B E)+arrow(B F)$，
-所以点 $D_(1)$ 在由点 $B$，$E$，$F$ 确定的平面内，故 $E$，$B$，$F$，$D_(1)$ 四点共面.
-+ (2) 设 $M=(0,0,t)$. 由 $B G=(2)/(3)$，得 $G=((2)/(3),0,0)$，从而
-$arrow(G M)=(-(2)/(3),0,t)$，$arrow(B F)=(3,0,2)$.
-由 $G M bot B F$，有 $arrow(G M)\c d o t a r r o w(B F)=-(2)/(3) dot 3 +2 t=0$，
-解得 $t=1$，即 $M=(0,0,1)$. 因而 $arrow(E M)=(0,-3,0)$，直线 $E M$ 平行于 $y$ 轴，而平面 $B C C_(1)B_(1)$ 的方程为 $y=0$，所以 $E M bot$ 面 $B C C_(1)B_(1)$.
-+ (3) 记平面 $E B F D_(1)$ 为 $Pi$，平面 $B C C_(1)B_(1)$ 为 $Sigma$. 由 $arrow(B E)\t i m e s a r r o w(B F)=(6,3,-9)=3(2,1,-3)$，可知 $Pi$ 的一个法向量为 $(2,1,-3)$，故其方程为 $2 x+y-3 z=0$. 平面 $Sigma$ 的一个法向量为 $(0,1,0)$. 因为所求二面角取锐角，
-所以 $cos theta =(1)/(sqrt(14))$，从而 $sin theta =(sqrt(13))/(sqrt(14))$.
-所以 $tan theta =sqrt(13)$.
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-如图，在平面直角坐标系 $x O y$ 中，过 $y$ 轴正方向上一点 $C(0, c)$ 任作一直线，与抛物线 $y = x^(2)$ 相交于 $A$，$B$ 两点，一条垂直于 $x$ 轴的直线，分别与线段 $A B$ 和直线 $l: y = -c$ 交于 $P$，$Q$.
+如图，在平面直角坐标系 #mi(`xOy`) 中，过 #mi(`y`) 轴正方向上一点 #mi(`C(0, c)`) 任作一直线，与抛物线 #mi(`y = x^{2}`) 相交于 #mi(`A`)，#mi(`B`) 两点，一条垂直于 #mi(`x`) 轴的直线，分别与线段 #mi(`AB`) 和直线 #mi(`l: y = -c`) 交于 #mi(`P`)，#mi(`Q`).
 
 
-+ (1) 若 $arrow(O A) dot arrow(O B)= 2$，求 $c$ 的值；
-+ (2) 若 $P$ 为线段 $A B$ 的中点，求证：$Q A$ 为此抛物线的切线；
-+ (3) 试问第 2 小问的逆命题是否成立？说明理由.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2007/img/jiangsu/q19_fig1.png", width: 38%)]
+
+#align(center)[#image("/papers/2007/img/jiangsu/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设 $A=(u,u^(2))$，$B=(v,v^(2))$，其中 $u != v$. 过抛物线上两点 $A$，$B$ 的直线方程为 $y=(u+v)x-u v$. 由于该直线过 $C=(0,c)$，所以
-$u v=-c$.
-设题设中的垂直于 $x$ 轴的直线为 $x=t$，则 $P$ 与 $Q$ 的横坐标均为 $t$，且 $Q=(t,-c)$.
+设 #mi(`A=(u,u^{2})`)，#mi(`B=(v,v^{2})`)，其中 #mi(`u\neq v`). 过抛物线上两点 #mi(`A`)，#mi(`B`) 的直线方程为 #mi(`y=(u+v)x-uv`). 由于该直线过 #mi(`C=(0,c)`)，所以
+
+#mi(`uv=-c`).
+
+设题设中的垂直于 #mi(`x`) 轴的直线为 #mi(`x=t`)，则 #mi(`P`) 与 #mi(`Q`) 的横坐标均为 #mi(`t`)，且 #mi(`Q=(t,-c)`).
 
 
-+ (1) $ arrow(O A)\c d o t a r r o w(O B)=u v+u^(2)v^(2)=u v+(u v)^(2)=-c+c^(2)=2 $
-
-因此 $c^(2)-c-2=0$，即 $(c-2)(c+1)=0$. 由于 $C$ 在 $y$ 轴正方向上，$c>0$，所以 $c=2$.
-+ (2) 若 $P$ 是线段 $A B$ 的中点，则其横坐标为 $t=(u+v)/(2)$.
-抛物线 $y=x^(2)$ 在点 $A=(u,u^(2))$ 处的切线方程为 $y=2 u x-u^(2)$. 当 $x=t$ 时，该切线的纵坐标为
-
-$ 2 u t-u^(2)=u(u+v)-u^(2)=u v=-c $
-
-所以点 $Q=(t,-c)$ 在点 $A$ 处的切线上，故 $Q A$ 为此抛物线的切线.
-+ (3) 逆命题成立. 设抛物线在横坐标为 $r$ 的点处的切线为 $y=2 r x-r^(2)$. 若该切线经过抛物线上的点 $A=(u,u^(2))$，则
-$u^(2)=2 r u-r^(2)$，$\L o n g r i g h t a r r o w$，$(u-r)^(2)=0$，
-所以切点只能是 $A$，切线方程为 $y=2 u x-u^(2)$. 因而点 $Q$ 在此切线上，从而
-$-c=2 u t-u^(2)$.
-结合 $u v=-c$，得 $u v=2 u t-u^(2)$. 因为 $u v=-c<0$，所以 $u\n e q0$，进而 $v=2 t-u$，即 $t=(u+v)/(2)$. 这正是线段 $A B$ 中点的横坐标；又 $P$ 在 $A B$ 上，所以 $P$ 为线段 $A B$ 的中点.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-已知 $\{a_(n)\}$ 是等差数列，$\{b_(n)\}$ 是公比为 $q$ 的等比数列，$a_(1) = b_(1)$，$a_(2) = b_(2) != a_(1)$，记 $S_(n)$ 为数列 $\{b_(n)\}$ 的前 $n$ 项和.
+已知 #mi(`\{a_{n}\}`) 是等差数列，#mi(`\{b_{n}\}`) 是公比为 #mi(`q`) 的等比数列，#mi(`a_{1}= b_{1}`)，#mi(`a_{2}= b_{2}\neq a_{1}`)，记 #mi(`S_{n}`) 为数列 #mi(`\{b_{n}\}`) 的前 #mi(`n`) 项和.
 
 
-+ (1) 若 $b_(k) = a_(m)$（$m$，$k$ 是大于 $2$ 正整数），求证：$S_(k-1) = (m - 1)a_(1)$；
-+ (2) 若 $b_(3) = a_(i)$（$i$ 是某一正整数），求证：$q$ 是整数，且数列 $\{b_(n)\}$ 中每一项都是数列 $\{a_(n)\}$ 中的项；
-+ (3) 是否存在这样的正数 $q$，使等比数列 $\{b_(n)\}$ 中有三项成等差数列？若存在，写出一个 $q$ 的值，并加以说明；若不存在，请说明理由.
++ (1) 
++ (2)
 ]
 
 #solution[
-设 $a_(1)=b_(1)=u$. 由 $a_(2)=b_(2)=u q != u$，得 $u\n e q0$，$q\n e q1$. 等差数列的公差为
-$a_(2)-a_(1)=u(q-1)$，
-所以对任意正整数 $n$，$a_(n)=u[1+(n-1)(q-1)]$，$b_(n)=u q^(n-1)$.
+设 #mi(`a_{1}=b_{1}=u`). 由 #mi(`a_{2}=b_{2}=uq\neq u`)，得 #mi(`u\neq0`)，#mi(`q\neq1`). 等差数列的公差为
+
+#mi(`a_{2}-a_{1}=u(q-1)`)，
+
+所以对任意正整数 #mi(`n`)，#mi(`a_{n}=u\bigl[1+(n-1)(q-1)\bigr]`)，#mi(`b_{n}=uq^{n-1}`).
 
 
-+ (1) 由 $b_(k)=a_(m)$，得
-$u q^(k-1)=u[1+(m-1)(q-1)]$.
-除以 $u$ 后，$q^(k-1)-1=(m-1)(q-1)$. 因而
-
-$ S_(k-1)=u(1+q+ dots.c +q^(k-2))=u(q^(k-1)-1)/(q-1)=(m-1)u=(m-1)a_(1) $
-+ (2) 由 $b_(3)=a_(i)$，得
-$u q^(2)=u[1+(i-1)(q-1)]$.
-除以 $u$ 并整理，得到 $q^(2)-(i-1)q+(i-2)=0$，即 $(q-1)(q-i+2)=0$.
-因 $q\n e q1$，所以 $q=i-2$，从而 $q$ 是整数，且 $q$ 只能是 $-1$，$0$ 或不小于 $2$ 的整数.
-
-当 $q >= 2$ 时，对 $n >= 2$，令
-
-$ j_(n)=1+(q^(n-1)-1)/(q-1)=1+1+q+ dots.c +q^(n-2) $
-
-则 $j_(n)$ 是正整数，且
-$a_(j_(n))=u q^(n-1)=b_(n)$.
-当 $q=0$ 时，$b_(1)=a_(1)$，且 $b_(n)=0=a_(2)$（$n >= 2$）；当 $q=-1$ 时，奇数项 $b_(n)=u=a_(1)$，偶数项 $b_(n)=-u=a_(2)$. 因此数列 $\{b_(n)\}$ 中每一项都是数列 $\{a_(n)\}$ 中的项.
-+ (3) 存在这样的正数 $q$. 取
-$q=(sqrt(5)-1)/(2)>0$.
-则 $q^(2)=1-q$，从而 $q^(3)=2 q-1$，所以 $1+q^(3)=2 q$. 因此
-$b_(1)+b_(4)=u+u q^(3)=2 u q=2 b_(2)$，
-即 $b_(1)$，$b_(2)$，$b_(4)$ 三项成等差数列. 且 $q\n e q1$，满足题设 $a_(2)=b_(2) != a_(1)=b_(1)$.
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-已知 $a$，$b$，$c$，$d$ 是不全为零的实数，函数 $f(x) = b x^(2) + c x + d$，$g(x) = a x^(3) + b x^(2) + c x + d$. 方程 $f(x) = 0$ 有实数根，且 $f(x) = 0$ 的实数根都是 $g(f(x)) = 0$ 的根；反之，$g(f(x)) = 0$ 的实数根都是 $f(x) = 0$ 的根.
+已知 #mi(`a`)，#mi(`b`)，#mi(`c`)，#mi(`d`) 是不全为零的实数，函数 #mi(`f(x) = bx^{2}+ cx + d`)，#mi(`g(x) = ax^{3}+ bx^{2}+ cx + d`). 方程 #mi(`f(x) = 0`) 有实数根，且 #mi(`f(x) = 0`) 的实数根都是 #mi(`g(f(x)) = 0`) 的根；反之，#mi(`g(f(x)) = 0`) 的实数根都是 #mi(`f(x) = 0`) 的根.
 
 
-+ (1) 求 $d$ 的值；
-+ (2) 若 $a = 0$，求 $c$ 的取值范围；
-+ (3) 若 $a = 1$，$f(1) = 0$，求 $c$ 的取值范围.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 设 $x_(0)$ 是方程 $f(x)=0$ 的一个实数根. 由题设，$x_(0)$ 也是方程 $g(f(x))=0$ 的根，因此
-
-$ 0=g(f(x_(0)))=g(0)=d $
-
-所以 $d=0$.
-+ (2) 由 $d=0$ 且 $a=0$，有
-$f(x)=b x^(2)+c x=x(b x+c)$，且 $g(x)=b x^(2)+c x=f(x)$.
-
-先看退化情形 $b=0$. 此时由“不全为零”知 $c\n e q0$，且 $f(x)=g(x)=c x$，所以 $g(f(x))=c^(2)x$. 两个方程的实数根都恰为 $x=0$，故任意 $c\n e q0$ 都满足条件.
-
-再看 $b\n e q0$. 当 $c=0$ 时，$f(x)=b x^(2)$，且 $g(f(x))=f(f(x))=b^(3)x^(4)$，两个方程的实数根均为 $0$，所以 $c=0$ 可取. 当 $c\n e q0$ 时，$f(x)=0$ 的根为 $0$ 和 $-(c)/(b)$，而
-$g(f(x))=f(f(x))=0$
-还可能由 $f(x)=-(c)/(b)$ 产生额外根. 该方程为
-$b x^(2)+c x+(c)/(b)=0$，
-其判别式为
-$Delta =c^(2)-4 c=c(c-4)$.
-为了不产生额外实根，必须有 $Delta <0$，即 $0<c<4$. 因此在 $b\n e q0$ 时，$c in [0,4)$.
-
-按题面条件允许 $b=0$，合并两种情形可得 $c in RR$.
-+ (3) 由 $a=1$，$d=0$，以及 $f(1)=0$，得 $b+c=0$，即 $c=-b$. 当 $b=0$ 时，$c=0$，$f(x)\equiv0$，而 $g(f(x))\equiv0$，题设条件成立.
-
-下面设 $b\n e q0$. 此时 $f(x)=b x(x-1)$，$g(y)=y(y^(2)+b y-b)$.
-由于 $f(x)=0$ 的根已经必然是 $g(f(x))=0$ 的根，所以只需保证二次方程
-$y^(2)+b y-b=0$
-没有根落在 $f$ 的值域内. 记该二次方程为 $H(y)=0$.
-
-当 $b>0$ 时，$f$ 的值域为 $[-(b)/(4),+ oo )$，而
-此时 $Delta _H=b^(2)+4 b>0$，且 $y_(+)=(-b+sqrt(b^(2)+4 b))/(2)>0$.
-所以 $y_(+)$ 落在 $f$ 的值域内，产生额外根，不符合题意.
-
-当 $-4 <= b<0$ 时，$Delta _H=b(b+4) <= 0$. 当 $-4<b<0$ 时 $H$ 无实根；当 $b=-4$ 时 $H$ 的唯一根为 $2$，而 $f$ 的值域为 $(- oo ,1]$，均不会产生额外根，故这一段的 $b$ 可取.
-
-当 $b<-4$ 时，令 $B=-b>4$. 此时 $f$ 的值域为 $(- oo ,(B)/(4)]$，而 $H$ 的较小根为
-$y_(-)=(B-sqrt(B^(2)-4 B))/(2)$.
-为了使两个根都不在 $f$ 的值域内，必须有 $y_(-)>(B)/(4)$. 由于两边均为正数，这等价于
-
-$ B>2 sqrt(B^(2)-4 B)\ <=> \ B^(2)>4 B^(2)-16 B\ <=> \ B<(16)/(3) $
-
-故此时 $-(16)/(3)<b<-4$. 合并各情形并加入 $b=0$，得
-$-(16)/(3)<b <= 0$.
-由于 $c=-b$，所以
-$c in [0,(16)/(3))$.
++ (1) 
++ (2)
 ]
 

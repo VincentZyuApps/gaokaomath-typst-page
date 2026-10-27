@@ -68,7 +68,9 @@
 #problem(8)[
 数学中有许多形状优美，寓意美好的曲线，曲线 #mi(`C:x^{2}+y^{2}=1+\left|x\right|y`) 就是其中之一（如图）. 给出下列三个结论：
 
-[max width=6.0cm]img/2019/beijing_science/q8_fig1.png
+
+#align(center)[#image("/papers/2019/img/beijing_science/q8_fig1.png", width: 28%)]
+
 
 
 + (1) 曲线 #mi(`C`) 恰好经过 #mi(`6`) 个整点（即横，纵坐标均为整数的点）；
@@ -100,7 +102,9 @@
 #problem(11)[
 某几何体是由一个正方体去掉一个四棱柱所得，其三视图如图所示. 如果网格纸上小正方形的边长为 #mi(`1`)，那么该几何体的体积为\underline{\hspace{2.5em}}.
 
-[max width=0.58\linewidth]img/2019/beijing_science/q11_fig1.png
+
+#align(center)[#image("/papers/2019/img/beijing_science/q11_fig1.png", width: 28%)]
+
 ]
 
 #answer([40])
@@ -157,7 +161,9 @@
 
 
 
-[max width=6.0cm]img/2019/beijing_science/q16_fig1.png
+
+#align(center)[#image("/papers/2019/img/beijing_science/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[

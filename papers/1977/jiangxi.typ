@@ -299,7 +299,9 @@ S=\frac{-27}{1-\frac{1}{9}}=-\frac{243}{8}=-30\frac{3}{8}
 #solution[
 取 #mi(`BC`) 的中点 #mi(`E`)，连接 #mi(`AE`)，#mi(`DE`).
 
-[max width=6.6cm]img/1977/jiangxi/q6_solution_fig1.png
+ 
+#align(center)[#image("/papers/1977/img/jiangxi/q6_solution_fig1.png", width: 28%)]
+ 
 
 因为 #mi(`AB=AC`)，所以等腰三角形 #mi(`ABC`) 的中线 #mi(`AE`) 同时是高，即 #mi(`AE\perp BC`). 又因为 #mi(`AD\perp P`)，且 #mi(`BC\subset P`)，所以 #mi(`AD\perp BC`). 两条相交直线 #mi(`AE`)，#mi(`AD`) 都垂直于 #mi(`BC`)，故 #mi(`BC\perp`) 平面 #mi(`AED`)，从而 #mi(`BC\perp DE`).
 
@@ -341,7 +343,9 @@ V_{A-BCD}=\frac{128(2-\sqrt{3})}{9}\text{ \text{立方厘米}}
 #problem(21)[
 已知抛物线 #mi(`y^{2}=x`) 上两点 #mi(`A(1,1)`)，#mi(`B(4,-2)`)，求直线 #mi(`AB`) 与抛物线 #mi(`y^{2}=x`) 所围成的面积.
 
-[max width=7.2cm]img/1977/jiangxi/q7_fig1.png
+
+#align(center)[#image("/papers/1977/img/jiangxi/q7_fig1.png", width: 28%)]
+
 ]
 
 #solution[

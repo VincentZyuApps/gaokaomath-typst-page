@@ -106,7 +106,7 @@ BC=\sqrt{3}\cdot\frac{\sin45^{\circ}}{\sin75^{\circ}}=\sqrt{3}\cdot\frac{\frac{\
 ]
 
 #problem(6)[
-从 #mi(`5`) 张 #mi(`100\text{ \text{元}}`)，#mi(`3`) 张 #mi(`200\text{ \text{元}}`)，#mi(`2`) 张 #mi(`300\text{ \text{元}}`)的奥运预赛门票中任取 #mi(`3`) 张，则所取 #mi(`3`) 张中至少有 #mi(`2`) 张价格相同的概率为（ ）
+从 #mi(`5`) 张 #mi(`100\text{ \text{元}}`)，#mi(`3`) 张 #mi(`200\text{ \text{元}}`)，#mi(`2`) 张 #mi(`300\text{ \text{元}}`) 的奥运预赛门票中任取 #mi(`3`) 张，则所取 #mi(`3`) 张中至少有 #mi(`2`) 张价格相同的概率为（ ）
   #choices([#mi(`\frac{1}{4}`)], [#mi(`\frac{79}{120}`)], [#mi(`\frac{3}{4}`)], [#mi(`\frac{23}{24}`)], cols: 2)
 ]
 
@@ -232,7 +232,9 @@ f(8+t)=f(8-t)
 #problem(10)[
 如图，在四边形 #mi(`ABCD`) 中，#mi(`\left|\overrightarrow{AB}\right| + \left|\overrightarrow{BD}\right| + \left|\overrightarrow{DC}\right| = 4`)，#mi(`\left|\overrightarrow{AB}\right| \cdot \left|\overrightarrow{BD}\right| + \left|\overrightarrow{BD}\right| \cdot \left|\overrightarrow{DC}\right| = 4`)，#mi(`\overrightarrow{AB}\cdot \overrightarrow{BD}= \overrightarrow{BD}\cdot \overrightarrow{DC}= 0`)，则 #mi(`\left(\overrightarrow{AB}+ \overrightarrow{DC}\right) \cdot \overrightarrow{AC}`) 的值为（ ）
 
-[max width=0.34\linewidth]img/2007/chongqing_science/q10_fig1.png
+
+#align(center)[#image("/papers/2007/img/chongqing_science/q10_fig1.png", width: 28%)]
+
   #choices([#mi(`2`)], [#mi(`2 \sqrt{2}`)], [#mi(`4`)], [#mi(`4 \sqrt{2}`)], cols: 2)
 ]
 
@@ -469,7 +471,9 @@ t_{1}t_{2}=\frac{4}{\cos210^{\circ}}=\frac{4}{-\frac{\sqrt{3}}{2}}=-\frac{8\sqrt
 
 
 
-[max width=0.34\linewidth]img/2007/chongqing_science/q19_fig1.png
+
+#align(center)[#image("/papers/2007/img/chongqing_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -641,7 +645,9 @@ a_{n}^{2}-3a_{n}+2-(3n-3)(3n-2)=0
 
 
 
-[max width=0.38\linewidth]img/2007/chongqing_science/q22_fig1.png
+
+#align(center)[#image("/papers/2007/img/chongqing_science/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,164 +11,214 @@
 #part-header("解答题")
 
 #problem(1)[
-已知：圆 $O$ 内直交的二弦 $A B$，$C D$ 相交于 $P$. 求证：$P A^2+P B^2+P C^2+P D^2$ 为一定值.
+已知：圆 #mi(`O`) 内直交的二弦 #mi(`AB`)，#mi(`CD`) 相交于 #mi(`P`). 求证：#mi(`PA^{2}+PB^{2}+PC^{2}+PD^{2}`) 为一定值.
 
 
-#align(center)[#image("/papers/1958/img/hei_ji_liao/q1_fig1.png", width: 33%)]
+#align(center)[#image("/papers/1958/img/hei_ji_liao/q1_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设 $P A=u$，$P B=v$，$P C=w$，$P D=z$，其中 $u$，$v$，$w$，$z>0$. 以 $P$ 为原点，以 $A B$，$C D$ 所在直线为坐标轴，则
-$A=(-u,0)$，$B=(v,0)$，$C=(0,w)$，$D=(0,-z)$. 设圆的方程为
+设 #mi(`PA=u`)，#mi(`PB=v`)，#mi(`PC=w`)，#mi(`PD=z`)，其中 #mi(`u`)，#mi(`v`)，#mi(`w`)，#mi(`z>0`). 以 #mi(`P`) 为原点，以 #mi(`AB`)，#mi(`CD`) 所在直线为坐标轴，则
 
-$ x^2+y^2-2 lambda x-2 mu y+c=0 $
+#mi(`A=\left(-u,0\right)`)，#mi(`B=\left(v,0\right)`)，#mi(`C=\left(0,w\right)`)，#mi(`D=\left(0,-z\right)`). 设圆的方程为
 
-将 $A$，$B$ 的坐标代入，得到关于 $x$ 的二次方程
-$x^2-2 lambda x+c=0$，其两个根为 $-u$，$v$，所以
-$2 lambda =v-u$，$c=-u v$. 再将 $C$，$D$ 的坐标代入，得到关于 $y$ 的二次方程
-$y^2-2 mu y+c=0$，其两个根为 $w$，$-z$，所以 $2 mu =w-z$，$c=-w z$. 因此 $u v=w z$.
 
-圆心为 $( lambda , mu )$，设半径为 $R$，则 $R^2= lambda ""^2+ mu ""^2-c$. 从而
+#align(center)[#mitex(`
+x^{2}+y^{2}-2\lambda x-2\mu y+c=0
+`)]
 
-$ 4 R^2=(v-u)^2+(w-z)^2+4 u v=u^2+v^2+w^2+z^2+2 u v-2 w z=u^2+v^2+w^2+z^2 $
 
-代回 $u$，$v$，$w$，$z$ 的定义，得
-$P A^2+P B^2+P C^2+P D^2=4 R^2$. 因而所求一定值为圆的直径的平方.
+将 #mi(`A`)，#mi(`B`) 的坐标代入，得到关于 #mi(`x`) 的二次方程
+
+#mi(`x^{2}-2\lambda x+c=0`)，其两个根为 #mi(`-u`)，#mi(`v`)，所以
+
+#mi(`2\lambda=v-u`)，#mi(`c=-uv`). 再将 #mi(`C`)，#mi(`D`) 的坐标代入，得到关于 #mi(`y`) 的二次方程
+
+#mi(`y^{2}-2\mu y+c=0`)，其两个根为 #mi(`w`)，#mi(`-z`)，所以 #mi(`2\mu=w-z`)，#mi(`c=-wz`). 因此 #mi(`uv=wz`).
+
+圆心为 #mi(`\left(\lambda,\mu\right)`)，设半径为 #mi(`R`)，则 #mi(`R^{2}=\lambda^{2}+\mu^{2}-c`). 从而
+
+
+#align(center)[#mitex(`
+4R^{2}=\left(v-u\right)^{2}+\left(w-z\right)^{2}+4uv=u^{2}+v^{2}+w^{2}+z^{2}+2uv-2wz=u^{2}+v^{2}+w^{2}+z^{2}
+`)]
+
+
+代回 #mi(`u`)，#mi(`v`)，#mi(`w`)，#mi(`z`) 的定义，得
+
+#mi(`PA^{2}+PB^{2}+PC^{2}+PD^{2}=4R^{2}`). 因而所求一定值为圆的直径的平方.
 ]
 
 #problem(2)[
-工地上有沙堆，其下底面为矩形，长，宽各为 $a" 米"$，$b" 米"$，其各侧面都与地平面夹成 $45^ degree$ 角，上，下底距离为 $h" 米"$，求沙堆体积.
+工地上有沙堆，其下底面为矩形，长，宽各为 #mi(`a\text{ \text{米}}`)，#mi(`b\text{ \text{米}}`)，其各侧面都与地平面夹成 #mi(`45^{\circ}`) 角，上，下底距离为 #mi(`h\text{ \text{米}}`)，求沙堆体积.
 
 
-#align(center)[#image("/papers/1958/img/hei_ji_liao/q2_fig1.png", width: 34%)]
+#align(center)[#image("/papers/1958/img/hei_ji_liao/q2_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-在垂直于下底面一条边的截面内，侧面与地平面的夹角为 $45^ degree$，所以沙堆上升 $h" 米"$ 时，水平方向向内收进 $h" 米"$. 四个侧面都如此收进，故上底面的长，宽分别为
-$c=a-2 h$，$d=b-2 h$，并且应有 $a >= 2 h$，$b >= 2 h$.
+在垂直于下底面一条边的截面内，侧面与地平面的夹角为 #mi(`45^{\circ}`)，所以沙堆上升 #mi(`h\text{ \text{米}}`) 时，水平方向向内收进 #mi(`h\text{ \text{米}}`). 四个侧面都如此收进，故上底面的长，宽分别为
 
-将沙堆分解为一个底为 $c times d$、高为 $h$ 的直棱柱，沿 $c$ 方向的两块底为直角三角形且两直角边均为 $h$ 的三棱柱，沿 $d$ 方向的另外两块同类三棱柱，以及四个底面为边长 $h$ 的正方形、高为 $h$ 的棱锥. 因此
+#mi(`c=a-2h`)，#mi(`d=b-2h`)，并且应有 #mi(`a\ge2h`)，#mi(`b\ge2h`).
 
-$ V=c d h+2((1)/(2)h^(2) c)+2((1)/(2)h^(2) d)+4((1)/(3)h^3)=h(a-2 h)(b-2 h)+h^2(a+b-4 h)+(4)/(3)h^3 $
+将沙堆分解为一个底为 #mi(`c\times d`)、高为 #mi(`h`) 的直棱柱，沿 #mi(`c`) 方向的两块底为直角三角形且两直角边均为 #mi(`h`) 的三棱柱，沿 #mi(`d`) 方向的另外两块同类三棱柱，以及四个底面为边长 #mi(`h`) 的正方形、高为 #mi(`h`) 的棱锥. 因此
 
 
-$ V=a b h-(a+b)h^2+(4)/(3)h^3 $
+#align(center)[#mitex(`
+V=cdh+2\left(\frac{1}{2}h^{2}c\right)+2\left(\frac{1}{2}h^{2}d\right)+4\left(\frac{1}{3}h^{3}\right)=h\left(a-2h\right)\left(b-2h\right)+h^{2}\left(a+b-4h\right)+\frac{4}{3}h^{3}
+`)]
 
-所以沙堆体积为 $a b h-(a+b)h^2+(4)/(3)h^3" 立方米"$.
+
+
+#align(center)[#mitex(`
+V=abh-(a+b)h^{2}+\frac{4}{3}h^{3}
+`)]
+
+
+所以沙堆体积为 #mi(`abh-(a+b)h^{2}+\frac{4}{3}h^{3}\text{ \text{立方米}}`).
 ]
 
 #problem(3)[
-求根式：$root(3, a)$ 与 $sqrt(5-a)$ 的乘积.
+求根式：#mi(`\sqrt[3]{a}`) 与 #mi(`\sqrt{5-a}`) 的乘积.
 ]
 
 #solution[
-实数根式有意义的条件是 $5-a >= 0$，即 $a <= 5$. 当 $0 <= a <= 5$ 时，$root(3, a)=root(6, a^2)$，于是
+实数根式有意义的条件是 #mi(`5-a\ge0`)，即 #mi(`a\le5`). 当 #mi(`0\le a\le5`) 时，#mi(`\sqrt[3]{a}=\sqrt[6]{a^{2}}`)，于是
 
-$ root(3, a)sqrt(5-a)=root(6, a^2)root(6, (5-a)^3)=root(6, a^2(5-a)^3) $
 
-当 $a<0$ 时，$root(3, a)=-root(6, a^2)$，而 $sqrt(5-a)=root(6, (5-a)^3)>0$，所以
+#align(center)[#mitex(`
+\sqrt[3]{a}\sqrt{5-a}=\sqrt[6]{a^{2}}\sqrt[6]{\left(5-a\right)^{3}}=\sqrt[6]{a^{2}\left(5-a\right)^{3}}
+`)]
 
-$ root(3, a)sqrt(5-a)=-root(6, a^2(5-a)^3) $
+
+当 #mi(`a<0`) 时，#mi(`\sqrt[3]{a}=-\sqrt[6]{a^{2}}`)，而 #mi(`\sqrt{5-a}=\sqrt[6]{(5-a)^{3}}>0`)，所以
+
+
+#align(center)[#mitex(`
+\sqrt[3]{a}\sqrt{5-a}=-\sqrt[6]{a^{2}\left(5-a\right)^{3}}
+`)]
+
 
 因此，在实数范围内
 
-$ root(3, a)sqrt(5-a)=\b e g i n{c a s e s} root(6, a^2(5-a)^3),&0 <= a <= 5 ,\\ -root(6, a^2(5-a)^3),&a<0. \e n d{c a s e s} $
+
+#align(center)[#mitex(`
+\sqrt[3]{a}\sqrt{5-a}=\begin{cases}\sqrt[6]{a^2\left(5-a\right)^3},&0\le a\le5,\\  -\sqrt[6]{a^2\left(5-a\right)^3},&a<0.\end{cases}
+`)]
 ]
 
 #problem(4)[
-解方程：$x^(1+\l g x)=20^( log _(20)100)$.
+解方程：#mi(`x^{1+\lg x}=20^{\log_{20}100}`).
 ]
 
 #solution[
-由对数的定义，$20^( log _(20)100)=100$，所以原方程为 $x^(1+\l g x)=100$. 令 $t=\l g x$，则定义域要求 $x>0$，且 $x=10^t$. 于是
+由对数的定义，#mi(`20^{\log_{20}100}=100`)，所以原方程为 #mi(`x^{1+\lg x}=100`). 令 #mi(`t=\lg x`)，则定义域要求 #mi(`x>0`)，且 #mi(`x=10^{t}`). 于是
 
-$ 10^(t(1+t))=10^2 $
 
-从而 $t(1+t)=2$，即
-$t^2+t-2=0$，$(t+2)(t-1)=0$.
-所以 $t=1$ 或 $t=-2$，相应地 $x=10$ 或 $x=10^(-2)=(1)/(100)$. 两个数都大于零，并且分别代入可得 $10^(1+1)=100$，$(10^(-2))^(1-2)=10^2=100$，故原方程的解为 $x=10$，$x=(1)/(100)$.
+#align(center)[#mitex(`
+10^{t\left(1+t\right)}=10^{2}
+`)]
+
+
+从而 #mi(`t(1+t)=2`)，即
+
+#mi(`t^{2}+t-2=0`)，#mi(`\left(t+2\right)\left(t-1\right)=0`).
+
+所以 #mi(`t=1`) 或 #mi(`t=-2`)，相应地 #mi(`x=10`) 或 #mi(`x=10^{-2}=\frac{1}{100}`). 两个数都大于零，并且分别代入可得 #mi(`10^{1+1}=100`)，#mi(`\left(10^{-2}\right)^{1-2}=10^{2}=100`)，故原方程的解为 #mi(`x=10`)，#mi(`x=\frac{1}{100}`).
 ]
 
 #problem(5)[
-+ (1) 解方程组：$\b e g i n{c a s e s} 2 x-5 z=10-6 a,\\ x-2 y+3 z=2 a+1,\\ 5 x-6 y+9 z=23-10 a. \e n d{c a s e s}$
-+ (2) 若 $x$ 为某直角三角形的斜边，$y$ 及 $z$ 为直角边，试确定 $a$ 的值.
++ (1)
 ]
 
 #solution[
-+ (1) 将第二式乘以 $3$，得 $3 x-6 y+9 z=6 a+3$. 用第三式减去这个等式，得到
-$2 x=20-16 a$，所以 $x=10-8 a$. 代入第一式，得
-$2(10-8 a)-5 z=10-6 a$，所以 $z=2-2 a$. 再将 $x$，$z$ 代入第二式，得
-
-$ 10-8 a-2 y+3(2-2 a)=2 a+1 $
-
-即 $y=(15-16 a)/(2)$. 因而方程组的解为
-$x=10-8 a$，$y=(15-16 a)/(2)$，$z=2-2 a$.
-+ (2) 三条边长必须为正，且由勾股定理
-
-$ (10-8 a)^2=((15-16 a)/(2))^2+(2-2 a)^2 $
-
-两边乘以 $4$，并展开，得到
-
-$ 400-640 a+256 a^2=225-480 a+256 a^2+16-32 a+16 a^2 $
-
-即 $16 a^2+128 a-159=0$. 因而
-
-$ a=(-128\p m s q r t(128^2+4 dot 16 dot 159))/(32)=(-128 +- 8 sqrt(415))/(32)=\f r a c{-16\p m s q r t(415)}4 $
-
-由于 $20<sqrt(415)<21$，正根 $a_+=\f r a c{-16+sqrt(415)}4$ 满足 $1<a_+<(5)/(4)$，于是 $z=2-2 a_+<0$，且 $y=(15-16 a_+)/(2)<0$，不符合直角边为边长的要求. 负根 $a_-=\f r a c{-16-sqrt(415)}4<-9$ 时，$x=10-8 a_->0$，$y=(15-16 a_-)/(2)>0$，$z=2-2 a_->0$，且已经满足上面的勾股等式，因此有效. 故 $a=\f r a c{-16-sqrt(415)}4$.
++ (1)
 ]
 
 #problem(6)[
-已知：$alpha$，$beta$ 皆为锐角，求证：$sin ( alpha + beta )\l e q sin alpha + sin beta$.
+已知：#mi(`\alpha`)，#mi(`\beta`) 皆为锐角，求证：#mi(`\sin(\alpha+\beta)\leq\sin\alpha+\sin\beta`).
 ]
 
 #solution[
 由两角和的正弦公式，
 
-$ sin ( alpha + beta )= sin alpha cos beta + cos alpha sin beta $
 
-因为 $alpha$，$beta$ 都是锐角，所以 $sin alpha >0$，$sin beta >0$，且 $0< cos alpha <1$，$0< cos beta <1$. 因此
+#align(center)[#mitex(`
+\sin\left(\alpha+\beta\right)=\sin\alpha\cos\beta+\cos\alpha\sin\beta
+`)]
 
-$ sin alpha + sin beta - sin ( alpha + beta ) = sin alpha (1- cos beta )+ sin beta (1- cos alpha )>0 $
 
-这里 $sin alpha$，$sin beta$，$1- cos alpha$，$1- cos beta$ 都为正数，所以
+因为 #mi(`\alpha`)，#mi(`\beta`) 都是锐角，所以 #mi(`\sin\alpha>0`)，#mi(`\sin\beta>0`)，且 #mi(`0<\cos\alpha<1`)，#mi(`0<\cos\beta<1`). 因此
 
-$ sin ( alpha + beta )< sin alpha + sin beta $
+
+#align(center)[#mitex(`
+\sin\alpha+\sin\beta-\sin\left(\alpha+\beta\right)  =\sin\alpha\left(1-\cos\beta\right)+\sin\beta\left(1-\cos\alpha\right)>0
+`)]
+
+
+这里 #mi(`\sin\alpha`)，#mi(`\sin\beta`)，#mi(`1-\cos\alpha`)，#mi(`1-\cos\beta`) 都为正数，所以
+
+
+#align(center)[#mitex(`
+\sin\left(\alpha+\beta\right)<\sin\alpha+\sin\beta
+`)]
+
 
 严格不等式必然推出题中的不等式，故命题得证.
 ]
 
 #problem(7)[
-已知，正方形 $A B C D$ 边长为 $a$，连接相邻各边中点，得一正方形 $A_(1) B_(1) C_(1) D_1$，再连接 $A_(1) B_(1) C_(1) D_1$ 相邻各边中点又得一个正方形 $A_(2) B_(2) C_(2) D_2$，如此相继下去，可得无数多个正方形. 求这些正方形面积的总和.
+已知，正方形 #mi(`ABCD`) 边长为 #mi(`a`)，连接相邻各边中点，得一正方形 #mi(`A_{1}B_{1}C_{1}D_{1}`)，再连接 #mi(`A_{1}B_{1}C_{1}D_{1}`) 相邻各边中点又得一个正方形 #mi(`A_{2}B_{2}C_{2}D_{2}`)，如此相继下去，可得无数多个正方形. 求这些正方形面积的总和.
 ]
 
 #solution[
-设第 $n$ 个正方形的边长为 $l_n$，面积为 $S_n$，其中原正方形是第一个正方形. 在边长为 $l_n$ 的正方形中，相邻两边中点的距离为
+设第 #mi(`n`) 个正方形的边长为 #mi(`l_{n}`)，面积为 #mi(`S_{n}`)，其中原正方形是第一个正方形. 在边长为 #mi(`l_{n}`) 的正方形中，相邻两边中点的距离为
 
-$ l_(n+1)=sqrt(((l_n)/(2))^2+((l_n)/(2))^2)=(sqrt(2))/(2)l_n $
 
-所以相邻两个正方形的面积满足 $S_(n+1)=(1)/(2)S_n$，且 $S_1=a^2$. 前 $N$ 个正方形的面积和为
+#align(center)[#mitex(`
+l_{n+1}=\sqrt{\left(\frac{l_n}{2}\right)^{2}+\left(\frac{l_n}{2}\right)^{2}}=\frac{\sqrt{2}}{2}l_{n}
+`)]
 
-$ S_1+S_2+ dots.c +S_N=a^2(1-((1)/(2))^N)/(1-(1)/(2))=2 a^2(1-((1)/(2))^N) $
 
-令 $N$ 无限增大，$((1)/(2))^N$ 趋于 $0$，故这些正方形面积的总和为 $2 a^2$.
+所以相邻两个正方形的面积满足 #mi(`S_{n+1}=\frac{1}{2}S_{n}`)，且 #mi(`S_{1}=a^{2}`). 前 #mi(`N`) 个正方形的面积和为
+
+
+#align(center)[#mitex(`
+S_{1}+S_{2}+\cdots+S_{N}=a^{2}\frac{1-\left(\frac{1}{2}\right)^{N}}{1-\frac{1}{2}}=2a^{2}\left(1-\left(\frac{1}{2}\right)^{N}\right)
+`)]
+
+
+令 #mi(`N`) 无限增大，#mi(`\left(\frac{1}{2}\right)^{N}`) 趋于 #mi(`0`)，故这些正方形面积的总和为 #mi(`2a^{2}`).
 ]
 
 #problem(8)[
-解不等式：$2 cos ""^(2) x-(2+sqrt(3)) cos x+sqrt(3)<0$.
+解不等式：#mi(`2\cos^{2}x-\left(2+\sqrt{3}\right)\cos x+\sqrt{3}<0`).
 ]
 
 #solution[
-令 $t= cos x$，则 $-1 <= t <= 1$，并且
+令 #mi(`t=\cos x`)，则 #mi(`-1\le t\le1`)，并且
 
-$ 2 t^2-(2+sqrt(3))t+sqrt(3)=(t-1)(2 t-sqrt(3)) $
 
-因此原不等式等价于 $(t-1)(2 t-sqrt(3))<0$. 在 $-1 <= t <= 1$ 内，始终有 $t-1 <= 0$. 要使乘积为负，必须同时满足 $t-1<0$ 和 $2 t-sqrt(3)>0$，即
+#align(center)[#mitex(`
+2t^{2}-\left(2+\sqrt{3}\right)t+\sqrt{3}=(t-1)(2t-\sqrt{3})
+`)]
 
-$ (sqrt(3))/(2)< cos x<1 $
 
-由 $cos x>(sqrt(3))/(2)$，得 $2 k pi -(pi)/(6)<x<2 k pi +(pi)/(6)$，其中 $k in ZZ$. 条件 $cos x<1$ 排除各区间中心的 $x=2 k pi$. 所以原不等式的解集为
+因此原不等式等价于 #mi(`\left(t-1\right)\left(2t-\sqrt{3}\right)<0`). 在 #mi(`-1\le t\le1`) 内，始终有 #mi(`t-1\le0`). 要使乘积为负，必须同时满足 #mi(`t-1<0`) 和 #mi(`2t-\sqrt{3}>0`)，即
 
-$ x in \b i g c u p_(k in ZZ )[(2 k pi -(pi)/(6),2 k pi ) union (2 k pi ,2 k pi +(pi)/(6))] $
+
+#align(center)[#mitex(`
+\frac{\sqrt{3}}{2}<\cos x<1
+`)]
+
+
+由 #mi(`\cos x>\frac{\sqrt{3}}{2}`)，得 #mi(`2k\pi-\frac{\pi}{6}<x<2k\pi+\frac{\pi}{6}`)，其中 #mi(`k\in\mathbb{Z}`). 条件 #mi(`\cos x<1`) 排除各区间中心的 #mi(`x=2k\pi`). 所以原不等式的解集为
+
+
+#align(center)[#mitex(`
+x\in\bigcup_{k\in\mathbb{Z}}\left[\left(2k\pi-\frac{\pi}{6},2k\pi\right)\cup\left(2k\pi,2k\pi+\frac{\pi}{6}\right)\right]
+`)]
 ]
 

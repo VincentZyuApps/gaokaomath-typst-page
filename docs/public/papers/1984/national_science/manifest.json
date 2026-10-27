@@ -1,8 +1,131 @@
 {
-  "title": "1984年普通高等学校招生全国统一考试",
-  "subtitle": "1984年全国卷（理）",
   "year": "1984",
   "slug": "national_science",
+  "title": "1984年全国卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "附加题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$X \\neq Y$"
           ],
           "answer": "C",
-          "solution": "任取 $n\\in\\mathbb{Z}$. 若 $n=2m$，则 $2n+1=4m+1$；若 $n=2m+1$，则 $2n+1=4(m+1)-1$，所以 $X\\subseteq Y$. 反过来，$4k+1=2(2k)+1$，且 $4k-1=2(2k-1)+1$，所以 $Y\\subseteq X$. 因此 $X=Y$，故选 C."
+          "solution": "任取 $n\\in\\mathbb{Z}$. 若 $n=2m$，则 $2n+1=4m+1$；若 $n=2m+1$，则 $2n+1=4(m+1)-1$，所以 $X\\subseteq Y$. 反过来，$4k+1=2(2k)+1$，且 $4k-1=2(2k-1)+1$，所以 $Y\\subseteq X$. 因此 $X=Y$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +154,9 @@
             "$G = 0$，$E = 0$，$F \\neq 0$"
           ],
           "answer": "C",
-          "solution": "圆与原点相切，原点必在圆上，代入方程得 $F=0$. 此时方程化为 $x^{2}+y^{2}+Gx+Ey=0$，其圆心为 $\\left(-\\frac{G}{2},-\\frac{E}{2}\\right)$. 圆在原点处与 $x$ 轴相切，所以圆心与原点的连线垂直于 $x$ 轴，圆心的横坐标必须为零，从而 $G=0$. 又因为这是一个圆，半径不能为零，所以 $E\\neq0$. 因此正确选项为 C."
+          "solution": "圆与原点相切，原点必在圆上，代入方程得 $F=0$. 此时方程化为 $x^{2}+y^{2}+Gx+Ey=0$，其圆心为 $\\left(-\\frac{G}{2},-\\frac{E}{2}\\right)$. 圆在原点处与 $x$ 轴相切，所以圆心与原点的连线垂直于 $x$ 轴，圆心的横坐标必须为零，从而 $G=0$. 又因为这是一个圆，半径不能为零，所以 $E\\neq0$. 因此正确选项为 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +168,9 @@
             "不一定是整数"
           ],
           "answer": "B",
-          "solution": "当 $n$ 为偶数时，$1-(-1)^{n}=0$，原式等于零. 当 $n$ 为奇数时，$1-(-1)^{n}=2$，且奇数的平方模 $8$ 余 $1$，所以 $n^{2}-1$ 是 $8$ 的倍数，原式等于 $\\frac{n^{2}-1}{4}$. 进一步，$\\frac{n^{2}-1}{4}=\\frac{n-1}{2}\\cdot\\frac{n+1}{2}$，其中两个因数是相邻整数，必有一个是偶数，因此原式为偶数. 综上，原式一定是偶数，故选 B."
+          "solution": "当 $n$ 为偶数时，$1-(-1)^{n}=0$，原式等于零. 当 $n$ 为奇数时，$1-(-1)^{n}=2$，且奇数的平方模 $8$ 余 $1$，所以 $n^{2}-1$ 是 $8$ 的倍数，原式等于 $\\frac{n^{2}-1}{4}$. 进一步，$\\frac{n^{2}-1}{4}=\\frac{n-1}{2}\\cdot\\frac{n+1}{2}$，其中两个因数是相邻整数，必有一个是偶数，因此原式为偶数. 综上，原式一定是偶数，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +182,9 @@
             "$x \\in \\left[0, \\frac{\\pi}{2}\\right]$"
           ],
           "answer": "A",
-          "solution": "反余弦函数在 $[-1,1]$ 上单调递减. 若 $x\\in(0,1]$，则 $-x<x$，从而 $\\arccos(-x)>\\arccos x$，所以该条件是充分的. 事实上，在反余弦有意义的范围内，$\\arccos(-x)>\\arccos x$ 等价于 $-x<x$，即 $x>0$. 因此正确选项为 A."
+          "solution": "反余弦函数在 $[-1,1]$ 上单调递减. 若 $x\\in(0,1]$，则 $-x<x$，从而 $\\arccos(-x)>\\arccos x$，所以该条件是充分的. 事实上，在反余弦有意义的范围内，$\\arccos(-x)>\\arccos x$ 等价于 $-x<x$，即 $x>0$. 因此正确选项为 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +196,9 @@
             "是第二象限角"
           ],
           "answer": "B",
-          "solution": "令 $a=\\frac{\\theta}{2}$. 由二倍角公式，$1-\\sin\\theta=1-2\\sin a\\cos a=(\\cos a-\\sin a)^{2}$，所以题设等式化为 $\\cos a-\\sin a=\\lvert\\cos a-\\sin a\\rvert$，从而 $\\cos a-\\sin a\\geqslant0$. 由于 $\\theta$ 是第二象限角，$a$ 的终边可能在第一象限或第三象限. 若 $a$ 在第一象限，则 $a\\in\\left(\\frac{\\pi}{4},\\frac{\\pi}{2}\\right)$，于是 $\\cos a-\\sin a<0$，不符合条件；若 $a$ 在第三象限，则 $a\\in\\left(\\frac{5\\pi}{4},\\frac{3\\pi}{2}\\right)$，于是 $\\cos a-\\sin a>0$，符合条件. 因此 $\\frac{\\theta}{2}$ 是第三象限角，故选 B."
+          "solution": "令 $a=\\frac{\\theta}{2}$. 由二倍角公式，$1-\\sin\\theta=1-2\\sin a\\cos a=(\\cos a-\\sin a)^{2}$，所以题设等式化为 $\\cos a-\\sin a=\\lvert\\cos a-\\sin a\\rvert$，从而 $\\cos a-\\sin a\\geqslant0$. 由于 $\\theta$ 是第二象限角，$a$ 的终边可能在第一象限或第三象限. 若 $a$ 在第一象限，则 $a\\in\\left(\\frac{\\pi}{4},\\frac{\\pi}{2}\\right)$，于是 $\\cos a-\\sin a<0$，不符合条件；若 $a$ 在第三象限，则 $a\\in\\left(\\frac{5\\pi}{4},\\frac{3\\pi}{2}\\right)$，于是 $\\cos a-\\sin a>0$，符合条件. 因此 $\\frac{\\theta}{2}$ 是第三象限角，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -75,100 +208,128 @@
         {
           "num": 6,
           "body": "已知圆柱的侧面展开图是边长为 $2$ 与 $4$ 的矩形，求圆柱的体积.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设圆柱的底面半径为 $r$，高为 $h$. 侧面展开图的两边分别是圆柱的底面周长和高，因此只有两种对应关系.</p><p>当 $2\\pi r=2$，$h=4$ 时，$r=\\frac{1}{\\pi}$，所以 $V=\\pi r^{2}h=\\frac{4}{\\pi}$. 当 $2\\pi r=4$，$h=2$ 时，$r=\\frac{2}{\\pi}$，所以 $V=\\pi r^{2}h=\\frac{8}{\\pi}$. 故圆柱的体积为 $\\frac{4}{\\pi}$ 或 $\\frac{8}{\\pi}$.</p>"
+          "solution": "<p>设圆柱的底面半径为 $r$，高为 $h$. 侧面展开图的两边分别是圆柱的底面周长和高，因此只有两种对应关系.</p><p>当 $2\\pi r=2$，$h=4$ 时，$r=\\frac{1}{\\pi}$，所以 $V=\\pi r^{2}h=\\frac{4}{\\pi}$. 当 $2\\pi r=4$，$h=2$ 时，$r=\\frac{2}{\\pi}$，所以 $V=\\pi r^{2}h=\\frac{8}{\\pi}$. 故圆柱的体积为 $\\frac{4}{\\pi}$ 或 $\\frac{8}{\\pi}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "函数 $\\log_{0.5}(x^{2} + 4x + 4)$ 在什么区间上是增函数？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "函数的定义域由 $(x+2)^{2}>0$ 给出，即 $x\\neq-2$. 令 $u=(x+2)^{2}$，则当 $x<-2$ 时，$u$ 随 $x$ 增大而减小；当 $x>-2$ 时，$u$ 随 $x$ 增大而增大. 由于底数 $0.5\\in(0,1)$，函数 $\\log_{0.5}u$ 是减函数，所以原函数在 $(-\\infty,-2)$ 上递增，在 $(-2,+\\infty)$ 上递减. 因此增函数区间为 $(-\\infty,-2)$."
+          "solution": "函数的定义域由 $(x+2)^{2}>0$ 给出，即 $x\\neq-2$. 令 $u=(x+2)^{2}$，则当 $x<-2$ 时，$u$ 随 $x$ 增大而减小；当 $x>-2$ 时，$u$ 随 $x$ 增大而增大. 由于底数 $0.5\\in(0,1)$，函数 $\\log_{0.5}u$ 是减函数，所以原函数在 $(-\\infty,-2)$ 上递增，在 $(-2,+\\infty)$ 上递减. 因此增函数区间为 $(-\\infty,-2)$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "求方程 $(\\sin x + \\cos x)^{2}= \\frac{1}{2}$ 的解集.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由 $(\\sin x+\\cos x)^{2}=\\sin^{2}x+\\cos^{2}x+2\\sin x\\cos x=1+\\sin2x$，原方程等价于 $\\sin2x=-\\frac{1}{2}$. 因此</p><p>$2x=\\frac{7\\pi}{6}+2n\\pi \\text{或}  2x=\\frac{11\\pi}{6}+2n\\pi$，$n\\in\\mathbb{Z}$.</p><p>两式分别除以 $2$，得到 $x=\\frac{7\\pi}{12}+n\\pi$ 或 $x=\\frac{11\\pi}{12}+n\\pi$. 由于 $\\frac{11\\pi}{12}+n\\pi=-\\frac{\\pi}{12}+(n+1)\\pi$，故解集为</p>\n$$\n\\left\\{x\\mid x=\\frac{7\\pi}{12}+n\\pi,\\ n\\in\\mathbb{Z}\\right\\}\\cup\\left\\{x\\mid x=-\\frac{\\pi}{12}+n\\pi,\\ n\\in\\mathbb{Z}\\right\\}\n$$"
+          "solution": "<p>由 $(\\sin x+\\cos x)^{2}=\\sin^{2}x+\\cos^{2}x+2\\sin x\\cos x=1+\\sin2x$，原方程等价于 $\\sin2x=-\\frac{1}{2}$. 因此</p><p>$2x=\\frac{7\\pi}{6}+2n\\pi \\text{或}  2x=\\frac{11\\pi}{6}+2n\\pi$，$n\\in\\mathbb{Z}$.</p><p>两式分别除以 $2$，得到 $x=\\frac{7\\pi}{12}+n\\pi$ 或 $x=\\frac{11\\pi}{12}+n\\pi$. 由于 $\\frac{11\\pi}{12}+n\\pi=-\\frac{\\pi}{12}+(n+1)\\pi$，故解集为</p>\n$$\n\\left\\{x\\mid x=\\frac{7\\pi}{12}+n\\pi,\\ n\\in\\mathbb{Z}\\right\\}\\cup\\left\\{x\\mid x=-\\frac{\\pi}{12}+n\\pi,\\ n\\in\\mathbb{Z}\\right\\}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "求 $\\left(|x| + \\frac{1}{|x|}- 2\\right)^{3}$ 的展开式中的常数项.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>令 $t=|x|$，则 $t>0$，原式为 $(t+t^{-1}-2)^{3}$. 利用立方公式，</p>\n$$\n(t+t^{-1}-2)^{3}=(t+t^{-1})^{3}-6(t+t^{-1})^{2}+12(t+t^{-1})-8\n$$\n<p>其中 $(t+t^{-1})^{3}=t^{3}+3t+3t^{-1}+t^{-3}$ 不含常数项，$(t+t^{-1})^{2}=t^{2}+2+t^{-2}$ 的常数项为 $2$，其余的 $12(t+t^{-1})$ 不含常数项. 因此原式的常数项为 $-6\\times2-8=-20$.</p>"
+          "solution": "<p>令 $t=|x|$，则 $t>0$，原式为 $(t+t^{-1}-2)^{3}$. 利用立方公式，</p>\n$$\n(t+t^{-1}-2)^{3}=(t+t^{-1})^{3}-6(t+t^{-1})^{2}+12(t+t^{-1})-8\n$$\n<p>其中 $(t+t^{-1})^{3}=t^{3}+3t+3t^{-1}+t^{-3}$ 不含常数项，$(t+t^{-1})^{2}=t^{2}+2+t^{-2}$ 的常数项为 $2$，其余的 $12(t+t^{-1})$ 不含常数项. 因此原式的常数项为 $-6\\times2-8=-20$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "求 $\\displaystyle\\lim_{n\\to \\infty}\\frac{1 - 2^{n}}{3^{n} + 1}$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>分子分母同除以 $3^{n}$，得</p>\n$$\n\\frac{1-2^{n}}{3^{n}+1}=\\frac{3^{-n}-\\left(\\frac{2}{3}\\right)^{n}}{1+3^{-n}}\n$$\n<p>当 $n\\to\\infty$ 时，$3^{-n}\\to0$，$\\left(\\frac{2}{3}\\right)^{n}\\to0$，所以极限为 $0$.</p>"
+          "solution": "<p>分子分母同除以 $3^{n}$，得</p>\n$$\n\\frac{1-2^{n}}{3^{n}+1}=\\frac{3^{-n}-\\left(\\frac{2}{3}\\right)^{n}}{1+3^{-n}}\n$$\n<p>当 $n\\to\\infty$ 时，$3^{-n}\\to0$，$\\left(\\frac{2}{3}\\right)^{n}\\to0$，所以极限为 $0$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "要排一张有 $6$ 个歌唱节目和 $4$ 个舞蹈节目的演出节目单，任何两个舞蹈节目不得相邻，问有多少种不同的排法（只要求写出式子，不必计算）.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "先排 $6$ 个不同的歌唱节目，有 $6!$ 种排法. 歌唱节目排好后形成 $7$ 个空位：两个端点空位以及相邻歌唱节目之间的 $5$ 个空位. 为使舞蹈节目互不相邻，至多在每个空位放置一个舞蹈节目，因此从 $7$ 个空位中选出 $4$ 个，有 $\\mathrm{C}_{7}^{4}$ 种选法. 再排列 $4$ 个不同的舞蹈节目，有 $4!$ 种排法. 所以总排法数为 $\\mathrm{C}_{7}^{4}\\cdot4!\\cdot6!=\\mathrm{A}_{7}^{4}\\cdot6!$."
+          "solution": "先排 $6$ 个不同的歌唱节目，有 $6!$ 种排法. 歌唱节目排好后形成 $7$ 个空位：两个端点空位以及相邻歌唱节目之间的 $5$ 个空位. 为使舞蹈节目互不相邻，至多在每个空位放置一个舞蹈节目，因此从 $7$ 个空位中选出 $4$ 个，有 $\\mathrm{C}_{7}^{4}$ 种选法. 再排列 $4$ 个不同的舞蹈节目，有 $4!$ 种排法. 所以总排法数为 $\\mathrm{C}_{7}^{4}\\cdot4!\\cdot6!=\\mathrm{A}_{7}^{4}\\cdot6!$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "设 $H(x) = \\begin{cases}0, & x \\le 0\\\\\n\n1, & x > 0\\end{cases}$，画出函数 $y = H(x - 1)$ 的图象.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>令 $u=x-1$. 当 $x\\leqslant1$ 时，$u\\leqslant0$，所以 $H(x-1)=0$；当 $x>1$ 时，$u>0$，所以 $H(x-1)=1$. 因此</p>\n$$\ny=H(x-1)=\\begin{cases}0,&x\\leqslant1\\\\\n\n1,&x>1\\end{cases}\n$$\n<p>图象由直线 $y=0$ 上满足 $x\\leqslant1$ 的部分和直线 $y=1$ 上满足 $x>1$ 的部分组成，点 $(1,0)$ 取到，点 $(1,1)$ 不取到.</p>"
+          "solution": "<p>令 $u=x-1$. 当 $x\\leqslant1$ 时，$u\\leqslant0$，所以 $H(x-1)=0$；当 $x>1$ 时，$u>0$，所以 $H(x-1)=1$. 因此</p>\n$$\ny=H(x-1)=\\begin{cases}0,&x\\leqslant1\\\\\n\n1,&x>1\\end{cases}\n$$\n<p>图象由直线 $y=0$ 上满足 $x\\leqslant1$ 的部分和直线 $y=1$ 上满足 $x>1$ 的部分组成，点 $(1,0)$ 取到，点 $(1,1)$ 不取到.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "画出极坐标方程 $(\\rho - 2)\\left(\\theta - \\frac{\\pi}{4}\\right) = 0$（$\\rho > 0$）的曲线.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "因为两个因式的乘积为零，所以必须有 $\\rho=2$ 或 $\\theta=\\frac{\\pi}{4}$. 当 $\\rho=2$ 时，极角任意，得到以极点为圆心、半径为 $2$ 的圆；当 $\\theta=\\frac{\\pi}{4}$ 且 $\\rho>0$ 时，得到沿与极轴正向夹角为 $\\frac{\\pi}{4}$ 的方向且不含极点的半直线. 因此所求曲线是这个圆与该半直线的并集，二者交于极坐标点 $\\left(2,\\frac{\\pi}{4}\\right)$."
+          "solution": "因为两个因式的乘积为零，所以必须有 $\\rho=2$ 或 $\\theta=\\frac{\\pi}{4}$. 当 $\\rho=2$ 时，极角任意，得到以极点为圆心、半径为 $2$ 的圆；当 $\\theta=\\frac{\\pi}{4}$ 且 $\\rho>0$ 时，得到沿与极轴正向夹角为 $\\frac{\\pi}{4}$ 的方向且不含极点的半直线. 因此所求曲线是这个圆与该半直线的并集，二者交于极坐标点 $\\left(2,\\frac{\\pi}{4}\\right)$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知三个平面两两相交，有三条交线. 求证：这三条交线交于一点或互相平行.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设三个平面为 $\\alpha$，$\\beta$，$\\gamma$，并记 $l_{1}=\\alpha\\cap\\beta$，$l_{2}=\\beta\\cap\\gamma$，$l_{3}=\\gamma\\cap\\alpha$. 直线 $l_{1}$ 与 $l_{2}$ 都在平面 $\\beta$ 内，因此它们或者相交，或者平行.</p><ol class=\"enumerate\"><li><p>若 $l_{1}$ 与 $l_{2}$ 相交于点 $P$，则 $P\\in\\alpha$ 且 $P\\in\\gamma$，所以 $P\\in\\alpha\\cap\\gamma=l_{3}$. 因此三条交线交于一点 $P$.</p></li><li><p>若 $l_{1}\\parallel l_{2}$，则 $l_{1}$ 与 $l_{3}$ 不可能相交. 否则交点 $P$ 同时属于 $\\alpha$，$\\beta$ 和 $\\gamma$，从而 $P\\in l_{2}$，这与 $l_{1}\\parallel l_{2}$ 矛盾. 因此，$l_{1}$ 与 $l_{3}$ 是平面 $\\alpha$ 内的两条平行直线，即 $l_{1}\\parallel l_{3}$. 同理，在平面 $\\gamma$ 内有 $l_{2}\\parallel l_{3}$，所以三条交线互相平行.</p></li></ol>"
+          "solution": "<p>设三个平面为 $\\alpha$，$\\beta$，$\\gamma$，并记 $l_{1}=\\alpha\\cap\\beta$，$l_{2}=\\beta\\cap\\gamma$，$l_{3}=\\gamma\\cap\\alpha$. 直线 $l_{1}$ 与 $l_{2}$ 都在平面 $\\beta$ 内，因此它们或者相交，或者平行.</p><ol class=\"enumerate\"><li><p>若 $l_{1}$ 与 $l_{2}$ 相交于点 $P$，则 $P\\in\\alpha$ 且 $P\\in\\gamma$，所以 $P\\in\\alpha\\cap\\gamma=l_{3}$. 因此三条交线交于一点 $P$.</p></li><li><p>若 $l_{1}\\parallel l_{2}$，则 $l_{1}$ 与 $l_{3}$ 不可能相交. 否则交点 $P$ 同时属于 $\\alpha$，$\\beta$ 和 $\\gamma$，从而 $P\\in l_{2}$，这与 $l_{1}\\parallel l_{2}$ 矛盾. 因此，$l_{1}$ 与 $l_{3}$ 是平面 $\\alpha$ 内的两条平行直线，即 $l_{1}\\parallel l_{3}$. 同理，在平面 $\\gamma$ 内有 $l_{2}\\parallel l_{3}$，所以三条交线互相平行.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "设 $c$，$d$，$x$ 为实数，$c \\neq 0$，$x$ 为未知数. 讨论方程 $\\log_{\\left(cx + \\frac{d}{x}\\right)}x = -1$ 在什么情况下有解，有解时求出它的解.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由对数的定义，原方程有意义必须满足 $x>0$，$cx+\\frac{d}{x}>0$，且 $cx+\\frac{d}{x}\\neq1$. 由 $\\log_{\\left(cx+\\frac{d}{x}\\right)}x=-1$，得</p>\n$$\nx=\\left(cx+\\frac{d}{x}\\right)^{-1}\n$$\n<p>所以</p>\n$$\ncx^{2}+d=1\n$$\n<p>由于 $c\\neq0$，唯一可能的正数解为 $x=\\sqrt{\\frac{1-d}{c}}$. 要使这个数为正数，必须有 $\\frac{1-d}{c}>0$，即分两种情况：$c>0$ 且 $d<1$，或 $c<0$ 且 $d>1$.</p><p>还需排除 $x=1$，因为对数的底数不能等于 $1$. 由 $x^{2}=\\frac{1-d}{c}$ 可知 $x=1$ 等价于 $c=1-d$. 因此，在 $c>0$，$d<1$，$c\\neq1-d$，或 $c<0$，$d>1$，$c\\neq1-d$ 时，令 $x=\\sqrt{\\frac{1-d}{c}}$，便有 $cx+\\frac{d}{x}=\\frac{1}{x}>0$，且底数不等于 $1$，从而确实满足原方程. 故有解时的解为 $x=\\sqrt{\\frac{1-d}{c}}$.</p>"
+          "solution": "<p>由对数的定义，原方程有意义必须满足 $x>0$，$cx+\\frac{d}{x}>0$，且 $cx+\\frac{d}{x}\\neq1$. 由 $\\log_{\\left(cx+\\frac{d}{x}\\right)}x=-1$，得</p>\n$$\nx=\\left(cx+\\frac{d}{x}\\right)^{-1}\n$$\n<p>所以</p>\n$$\ncx^{2}+d=1\n$$\n<p>由于 $c\\neq0$，唯一可能的正数解为 $x=\\sqrt{\\frac{1-d}{c}}$. 要使这个数为正数，必须有 $\\frac{1-d}{c}>0$，即分两种情况：$c>0$ 且 $d<1$，或 $c<0$ 且 $d>1$.</p><p>还需排除 $x=1$，因为对数的底数不能等于 $1$. 由 $x^{2}=\\frac{1-d}{c}$ 可知 $x=1$ 等价于 $c=1-d$. 因此，在 $c>0$，$d<1$，$c\\neq1-d$，或 $c<0$，$d>1$，$c\\neq1-d$ 时，令 $x=\\sqrt{\\frac{1-d}{c}}$，便有 $cx+\\frac{d}{x}=\\frac{1}{x}>0$，且底数不等于 $1$，从而确实满足原方程. 故有解时的解为 $x=\\sqrt{\\frac{1-d}{c}}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>设 $p \\neq 0$，实系数一元二次方程 $z^{2} - 2pz + q = 0$ 有两个虚数根 $z_{1}$，$z_{2}$. 再设 $z_{1}$，$z_{2}$ 在复平面内的对应点是 $Z_{1}$，$Z_{2}$.</p><p>求以 $Z_{1}$，$Z_{2}$ 为焦点且经过原点的椭圆的长轴的长.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为方程的系数为实数，且两个根为非实数，所以两根互为共轭复数. 设 $z_{1}=p+\\mathrm{i}r$，$z_{2}=p-\\mathrm{i}r$，其中 $r\\neq0$. 由根与系数的关系，</p>\n$$\nq=z_{1}z_{2}=(p+\\mathrm{i}r)(p-\\mathrm{i}r)=p^{2}+r^{2}>0\n$$\n<p>原点在椭圆上，而焦点对应的复数为 $z_{1}$，$z_{2}$，所以原点到两个焦点的距离分别为 $\\lvert z_{1}\\rvert=\\sqrt{q}$ 和 $\\lvert z_{2}\\rvert=\\sqrt{q}$. 椭圆上任一点到两焦点距离之和等于长轴长，因此所求长轴的长为 $\\sqrt{q}+\\sqrt{q}=2\\sqrt{q}$.</p>"
+          "solution": "<p>因为方程的系数为实数，且两个根为非实数，所以两根互为共轭复数. 设 $z_{1}=p+\\mathrm{i}r$，$z_{2}=p-\\mathrm{i}r$，其中 $r\\neq0$. 由根与系数的关系，</p>\n$$\nq=z_{1}z_{2}=(p+\\mathrm{i}r)(p-\\mathrm{i}r)=p^{2}+r^{2}>0\n$$\n<p>原点在椭圆上，而焦点对应的复数为 $z_{1}$，$z_{2}$，所以原点到两个焦点的距离分别为 $\\lvert z_{1}\\rvert=\\sqrt{q}$ 和 $\\lvert z_{2}\\rvert=\\sqrt{q}$. 椭圆上任一点到两焦点距离之和等于长轴长，因此所求长轴的长为 $\\sqrt{q}+\\sqrt{q}=2\\sqrt{q}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "求经过定点 $M\\left(1,2\\right)$，以 $y$ 轴为准线，离心率为 $\\frac{1}{2}$ 的椭圆的左顶点的轨迹方程.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为定点 $M(1,2)$ 的横坐标为正，而椭圆的离心率小于 $1$，若 $y$ 轴是右准线，则整个椭圆都在 $y$ 轴左侧，不可能经过 $M$. 所以 $y$ 轴是左准线，椭圆的长轴平行于 $x$ 轴.</p><p>设左顶点为 $A(x,y)$，椭圆的半长轴为 $a_{0}$，焦半距为 $c_{0}$. 由离心率为 $\\frac{1}{2}$，得 $c_{0}=\\frac{a_{0}}{2}$. 左准线的方程为 $X=h-\\frac{a_{0}}{e}=0$，其中 $(h,y)$ 是椭圆中心，所以 $h=2a_{0}$. 左顶点的横坐标为 $x=h-a_{0}=a_{0}$，左焦点 $F$ 的坐标为 $\\left(h-c_{0},y\\right)=\\left(\\frac{3x}{2},y\\right)$.</p><p>由椭圆的定义，点 $M$ 到焦点的距离等于离心率乘以点 $M$ 到准线的距离. 点 $M(1,2)$ 到 $y$ 轴的距离为 $1$，所以 $MF=\\frac{1}{2}$. 由两点间距离公式，</p>\n$$\n\\left(\\frac{3x}{2}-1\\right)^{2}+(y-2)^{2}=\\frac{1}{4}\n$$\n<p>整理得</p>\n$$\n9\\left(x-\\frac{2}{3}\\right)^{2}+4(y-2)^{2}=1\n$$\n<p>该椭圆的横坐标范围为 $\\left[\\frac{1}{3},1\\right]$，符合左顶点位于准线右侧的条件，所以所求轨迹方程为 $9\\left(x-\\frac{2}{3}\\right)^{2}+4(y-2)^{2}=1$.</p>"
+          "solution": "<p>因为定点 $M(1,2)$ 的横坐标为正，而椭圆的离心率小于 $1$，若 $y$ 轴是右准线，则整个椭圆都在 $y$ 轴左侧，不可能经过 $M$. 所以 $y$ 轴是左准线，椭圆的长轴平行于 $x$ 轴.</p><p>设左顶点为 $A(x,y)$，椭圆的半长轴为 $a_{0}$，焦半距为 $c_{0}$. 由离心率为 $\\frac{1}{2}$，得 $c_{0}=\\frac{a_{0}}{2}$. 左准线的方程为 $X=h-\\frac{a_{0}}{e}=0$，其中 $(h,y)$ 是椭圆中心，所以 $h=2a_{0}$. 左顶点的横坐标为 $x=h-a_{0}=a_{0}$，左焦点 $F$ 的坐标为 $\\left(h-c_{0},y\\right)=\\left(\\frac{3x}{2},y\\right)$.</p><p>由椭圆的定义，点 $M$ 到焦点的距离等于离心率乘以点 $M$ 到准线的距离. 点 $M(1,2)$ 到 $y$ 轴的距离为 $1$，所以 $MF=\\frac{1}{2}$. 由两点间距离公式，</p>\n$$\n\\left(\\frac{3x}{2}-1\\right)^{2}+(y-2)^{2}=\\frac{1}{4}\n$$\n<p>整理得</p>\n$$\n9\\left(x-\\frac{2}{3}\\right)^{2}+4(y-2)^{2}=1\n$$\n<p>该椭圆的横坐标范围为 $\\left[\\frac{1}{3},1\\right]$，符合左顶点位于准线右侧的条件，所以所求轨迹方程为 $9\\left(x-\\frac{2}{3}\\right)^{2}+4(y-2)^{2}=1$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "在 $\\triangle ABC$ 中，$\\angle A$，$\\angle B$，$\\angle C$ 所对的边分别为 $a$，$b$，$c$，且 $c = 10$，$\\frac{\\cos A}{\\cos B}= \\frac{b}{a}= \\frac{4}{3}$，$P$ 为 $\\triangle ABC$ 的内切圆上的动点. 求点 $P$ 到顶点 $A$，$B$，$C$ 的距离的平方和的最大值与最小值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由正弦定理，$\\frac{b}{a}=\\frac{\\sin B}{\\sin A}$. 结合题设 $\\frac{\\cos A}{\\cos B}=\\frac{\\sin B}{\\sin A}$，得 $\\sin A\\cos A=\\sin B\\cos B$，即 $\\sin2A=\\sin2B$. 由于 $a\\neq b$，所以 $A\\neq B$，只能有 $A+B=\\frac{\\pi}{2}$，从而 $C=\\frac{\\pi}{2}$. 因此 $c$ 是斜边，且 $a:b=3:4$. 由勾股定理，$a=6$，$b=8$，$c=10$.</p><p>三角形面积为 $\\frac{1}{2}ab=24$，半周长为 $s=\\frac{6+8+10}{2}=12$，所以内切圆半径为 $r=\\frac{24}{12}=2$. 建立直角坐标系，取 $C=(0,0)$，$A=(8,0)$，$B=(0,6)$. 则内心为 $(2,2)$，内切圆方程为 $(x-2)^{2}+(y-2)^{2}=4$. 设动点 $P=(x,y)$，则</p>\n$$\nS=PA^{2}+PB^{2}+PC^{2}=(x-8)^{2}+y^{2}+x^{2}+(y-6)^{2}+x^{2}+y^{2}=3x^{2}+3y^{2}-16x-12y+100\n$$\n<p>由内切圆方程得 $x^{2}+y^{2}=4x+4y-4$，代入上式可得 $S=88-4x$. 又因为圆心横坐标为 $2$，半径为 $2$，所以 $0\\le x\\leqslant4$. 于是 $S$ 的最大值为 $88$，最小值为 $72$，且分别在 $x=0$ 和 $x=4$ 时取得.</p>"
+          "solution": "<p>由正弦定理，$\\frac{b}{a}=\\frac{\\sin B}{\\sin A}$. 结合题设 $\\frac{\\cos A}{\\cos B}=\\frac{\\sin B}{\\sin A}$，得 $\\sin A\\cos A=\\sin B\\cos B$，即 $\\sin2A=\\sin2B$. 由于 $a\\neq b$，所以 $A\\neq B$，只能有 $A+B=\\frac{\\pi}{2}$，从而 $C=\\frac{\\pi}{2}$. 因此 $c$ 是斜边，且 $a:b=3:4$. 由勾股定理，$a=6$，$b=8$，$c=10$.</p><p>三角形面积为 $\\frac{1}{2}ab=24$，半周长为 $s=\\frac{6+8+10}{2}=12$，所以内切圆半径为 $r=\\frac{24}{12}=2$. 建立直角坐标系，取 $C=(0,0)$，$A=(8,0)$，$B=(0,6)$. 则内心为 $(2,2)$，内切圆方程为 $(x-2)^{2}+(y-2)^{2}=4$. 设动点 $P=(x,y)$，则</p>\n$$\nS=PA^{2}+PB^{2}+PC^{2}=(x-8)^{2}+y^{2}+x^{2}+(y-6)^{2}+x^{2}+y^{2}=3x^{2}+3y^{2}-16x-12y+100\n$$\n<p>由内切圆方程得 $x^{2}+y^{2}=4x+4y-4$，代入上式可得 $S=88-4x$. 又因为圆心横坐标为 $2$，半径为 $2$，所以 $0\\le x\\leqslant4$. 于是 $S$ 的最大值为 $88$，最小值为 $72$，且分别在 $x=0$ 和 $x=4$ 时取得.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>设 $a > 2$，给定数列 $\\{x_{n}\\}$，其中 $x_{1} = a$，$x_{n+1}= \\frac{x_{n}^{2}}{2(x_{n} - 1)}$（$n = 1$，$2$，$\\cdots$）. 求证：</p><ol class=\"enumerate\"><li><p>$x_{n} > 2$，且 $\\frac{x_{n + 1}}{x_{n}}< 1$（$n = 1$，$2$，$\\cdots$）；</p></li><li><p>如果 $a \\le 3$，那么 $x_{n} \\le 2 + \\frac{1}{2^{n - 1}}$（$n = 1$，$2$，$\\cdots$）；</p></li><li><p>如果 $a > 3$，那么当 $n \\ge \\frac{\\lg \\frac{a}{3}}{\\lg \\frac{4}{3}}$ 时，必有 $x_{n + 1}< 3$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由递推式，</p>\n$$\nx_{n+1}-2=\\frac{x_{n}^{2}}{2(x_{n}-1)}-2=\\frac{(x_{n}-2)^{2}}{2(x_{n}-1)}\n$$\n<ol class=\"enumerate\"><li><p>当 $n=1$ 时，$x_{1}=a>2$. 若 $x_{n}>2$，则上式右端为正，且分母不为零，从而 $x_{n+1}>2$. 由数学归纳法，$x_{n}>2$ 对所有正整数 $n$ 成立. 又因为</p>\n$$\n\\frac{x_{n+1}}{x_{n}}=\\frac{x_{n}}{2(x_{n}-1)}<1\n$$\n<p>等价于 $x_{n}>2$，所以 $\\frac{x_{n+1}}{x_{n}}<1$ 对所有正整数 $n$ 成立.</p></li><li><p>由第（1）问知 $x_{n}>2$，因此 $0<\\frac{x_{n}-2}{x_{n}-1}<1$，从而</p>\n$$\nx_{n+1}-2=\\frac{x_{n}-2}{2}\\cdot\\frac{x_{n}-2}{x_{n}-1}<\\frac{x_{n}-2}{2}\n$$\n<p>当 $a\\leqslant3$ 时，$x_{1}-2=a-2\\leqslant1$. 反复使用上式，得到</p>\n$$\nx_{n}-2\\le\\frac{a-2}{2^{n-1}}\\le\\frac{1}{2^{n-1}}\n$$\n<p>即 $x_{n}\\leqslant2+\\frac{1}{2^{n-1}}$.</p></li><li><p>对任意满足 $x_{k}>3$ 的正整数 $k$，由第（1）问中的比值公式有</p>\n$$\n\\frac{x_{k+1}}{x_{k}}=\\frac{x_{k}}{2(x_{k}-1)}<\\frac{3}{4}\n$$\n<p>记 $L=\\frac{\\lg\\frac{a}{3}}{\\lg\\frac{4}{3}}$. 任取正整数 $n\\ge L$. 若 $x_{n}\\leqslant3$，则由 $\\frac{x_{n+1}}{x_{n}}<1$ 可得 $x_{n+1}<x_{n}\\leqslant3$. 若 $x_{n}>3$，则由第（1）问知 $x_{1}>x_{2}>\\cdots>x_{n}>3$，于是</p>\n$$\nx_{n+1}=a\\prod_{k=1}^{n}\\frac{x_{k+1}}{x_{k}}<a\\left(\\frac{3}{4}\\right)^{n}\\le a\\left(\\frac{3}{4}\\right)^{L}=3\n$$\n<p>最后一个等式是因为 $\\left(\\frac{4}{3}\\right)^{L}=\\frac{a}{3}$. 两种情形均得到 $x_{n+1}<3$，命题得证.</p></li></ol>"
+          "solution": "<p>由递推式，</p>\n$$\nx_{n+1}-2=\\frac{x_{n}^{2}}{2(x_{n}-1)}-2=\\frac{(x_{n}-2)^{2}}{2(x_{n}-1)}\n$$\n<ol class=\"enumerate\"><li><p>当 $n=1$ 时，$x_{1}=a>2$. 若 $x_{n}>2$，则上式右端为正，且分母不为零，从而 $x_{n+1}>2$. 由数学归纳法，$x_{n}>2$ 对所有正整数 $n$ 成立. 又因为</p>\n$$\n\\frac{x_{n+1}}{x_{n}}=\\frac{x_{n}}{2(x_{n}-1)}<1\n$$\n<p>等价于 $x_{n}>2$，所以 $\\frac{x_{n+1}}{x_{n}}<1$ 对所有正整数 $n$ 成立.</p></li><li><p>由第（1）问知 $x_{n}>2$，因此 $0<\\frac{x_{n}-2}{x_{n}-1}<1$，从而</p>\n$$\nx_{n+1}-2=\\frac{x_{n}-2}{2}\\cdot\\frac{x_{n}-2}{x_{n}-1}<\\frac{x_{n}-2}{2}\n$$\n<p>当 $a\\leqslant3$ 时，$x_{1}-2=a-2\\leqslant1$. 反复使用上式，得到</p>\n$$\nx_{n}-2\\le\\frac{a-2}{2^{n-1}}\\le\\frac{1}{2^{n-1}}\n$$\n<p>即 $x_{n}\\leqslant2+\\frac{1}{2^{n-1}}$.</p></li><li><p>对任意满足 $x_{k}>3$ 的正整数 $k$，由第（1）问中的比值公式有</p>\n$$\n\\frac{x_{k+1}}{x_{k}}=\\frac{x_{k}}{2(x_{k}-1)}<\\frac{3}{4}\n$$\n<p>记 $L=\\frac{\\lg\\frac{a}{3}}{\\lg\\frac{4}{3}}$. 任取正整数 $n\\ge L$. 若 $x_{n}\\leqslant3$，则由 $\\frac{x_{n+1}}{x_{n}}<1$ 可得 $x_{n+1}<x_{n}\\leqslant3$. 若 $x_{n}>3$，则由第（1）问知 $x_{1}>x_{2}>\\cdots>x_{n}>3$，于是</p>\n$$\nx_{n+1}=a\\prod_{k=1}^{n}\\frac{x_{k+1}}{x_{k}}<a\\left(\\frac{3}{4}\\right)^{n}\\le a\\left(\\frac{3}{4}\\right)^{L}=3\n$$\n<p>最后一个等式是因为 $\\left(\\frac{4}{3}\\right)^{L}=\\frac{a}{3}$. 两种情形均得到 $x_{n+1}<3$，命题得证.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -177,10 +338,12 @@
       "problems": [
         {
           "num": 20,
-          "body": "<p>如图，已知圆心为 $O$，半径为 $1$ 的圆与直线 $l$ 相切于点 $A$，一动点 $P$ 自切点 $A$ 沿直线 $l$ 向右移动时，取 $\\widehat{AC}$ 的长为 $\\frac{2}{3}AP$，直线 $PC$ 与直线 $AO$ 交于点 $M$. 又知当 $AP = \\frac{3\\pi}{4}$ 时，点 $P$ 的速度为 $v$，求这时点 $M$ 的速度.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
-          "choices": null,
+          "body": "<p>如图，已知圆心为 $O$，半径为 $1$ 的圆与直线 $l$ 相切于点 $A$，一动点 $P$ 自切点 $A$ 沿直线 $l$ 向右移动时，取 $\\widehat{AC}$ 的长为 $\\frac{2}{3}AP$，直线 $PC$ 与直线 $AO$ 交于点 $M$. 又知当 $AP = \\frac{3\\pi}{4}$ 时，点 $P$ 的速度为 $v$，求这时点 $M$ 的速度.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1984/img/national_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>设 $\\theta=\\angle AOC$（用弧度表示），并设 $x=AP$，$y=AM$. 过 $C$ 作 $CD\\perp AO$，则 $DC=\\sin\\theta$，$AD=1-\\cos\\theta$.</p><p>由于圆的半径为 $1$，弧长 $\\widehat{AC}=\\theta$. 由题设 $\\widehat{AC}=\\frac{2}{3}AP=\\frac{2x}{3}$，故 $\\theta=\\frac{2x}{3}$.</p><p>直角三角形 $\\triangle APM$ 与 $\\triangle DCM$ 相似，因此</p>\n$$\n\\frac{AM}{AP}=\\frac{DM}{DC}\n$$\n<p>代入 $AM=y$，$AP=x$，$DM=y-(1-\\cos\\theta)$，以及 $DC=\\sin\\theta$，得到</p>\n$$\n\\frac{y}{x}=\\frac{y-(1-\\cos\\theta)}{\\sin\\theta}\n$$\n<p>解得</p>\n$$\ny=\\frac{x(1-\\cos\\theta)}{x-\\sin\\theta}\n$$\n<p>对 $x$ 求导，</p>\n$$\n\\frac{dy}{dx}=\\frac{\\left(1-\\cos\\theta+\\frac{2x}{3}\\sin\\theta\\right)(x-\\sin\\theta)-x(1-\\cos\\theta)\\left(1-\\frac{2}{3}\\cos\\theta\\right)}{(x-\\sin\\theta)^{2}}\n$$\n<p>当 $x=\\frac{3\\pi}{4}$ 时，$\\theta=\\frac{\\pi}{2}$，所以 $\\sin\\theta=1$，$\\cos\\theta=0$，从而</p>\n$$\n\\left.\\frac{dy}{dx}\\right|_{x=\\frac{3\\pi}{4}}=\\frac{\\left(1+\\frac{\\pi}{2}\\right)\\left(\\frac{3\\pi}{4}-1\\right)-\\frac{3\\pi}{4}}{\\left(\\frac{3\\pi}{4}-1\\right)^{2}}=\\frac{2(3\\pi^{2}-4\\pi-8)}{(3\\pi-4)^{2}}\n$$\n<p>由 $x=AP$ 且点 $P$ 的速度为 $v$，有 $\\frac{dx}{dt}=v$，所以</p>\n$$\n\\frac{dy}{dt}=\\frac{dy}{dx}\\frac{dx}{dt}=\\frac{2(3\\pi^{2}-4\\pi-8)}{(3\\pi-4)^{2}}v\n$$\n<p>函数 $f(t)=3t^{2}-4t-8$ 在 $t>\\frac{2}{3}$ 上递增，且 $\\pi>3$，所以 $3\\pi^{2}-4\\pi-8=f(\\pi)>f(3)=7>0$，此时 $M$ 沿 $AO$ 向上运动，故点 $M$ 的速度为 $\\frac{2(3\\pi^{2}-4\\pi-8)}{(3\\pi-4)^{2}}v$.</p>"
+          "solution": "<p>设 $\\theta=\\angle AOC$（用弧度表示），并设 $x=AP$，$y=AM$. 过 $C$ 作 $CD\\perp AO$，则 $DC=\\sin\\theta$，$AD=1-\\cos\\theta$.</p><p>由于圆的半径为 $1$，弧长 $\\widehat{AC}=\\theta$. 由题设 $\\widehat{AC}=\\frac{2}{3}AP=\\frac{2x}{3}$，故 $\\theta=\\frac{2x}{3}$.</p><p>直角三角形 $\\triangle APM$ 与 $\\triangle DCM$ 相似，因此</p>\n$$\n\\frac{AM}{AP}=\\frac{DM}{DC}\n$$\n<p>代入 $AM=y$，$AP=x$，$DM=y-(1-\\cos\\theta)$，以及 $DC=\\sin\\theta$，得到</p>\n$$\n\\frac{y}{x}=\\frac{y-(1-\\cos\\theta)}{\\sin\\theta}\n$$\n<p>解得</p>\n$$\ny=\\frac{x(1-\\cos\\theta)}{x-\\sin\\theta}\n$$\n<p>对 $x$ 求导，</p>\n$$\n\\frac{dy}{dx}=\\frac{\\left(1-\\cos\\theta+\\frac{2x}{3}\\sin\\theta\\right)(x-\\sin\\theta)-x(1-\\cos\\theta)\\left(1-\\frac{2}{3}\\cos\\theta\\right)}{(x-\\sin\\theta)^{2}}\n$$\n<p>当 $x=\\frac{3\\pi}{4}$ 时，$\\theta=\\frac{\\pi}{2}$，所以 $\\sin\\theta=1$，$\\cos\\theta=0$，从而</p>\n$$\n\\left.\\frac{dy}{dx}\\right|_{x=\\frac{3\\pi}{4}}=\\frac{\\left(1+\\frac{\\pi}{2}\\right)\\left(\\frac{3\\pi}{4}-1\\right)-\\frac{3\\pi}{4}}{\\left(\\frac{3\\pi}{4}-1\\right)^{2}}=\\frac{2(3\\pi^{2}-4\\pi-8)}{(3\\pi-4)^{2}}\n$$\n<p>由 $x=AP$ 且点 $P$ 的速度为 $v$，有 $\\frac{dx}{dt}=v$，所以</p>\n$$\n\\frac{dy}{dt}=\\frac{dy}{dx}\\frac{dx}{dt}=\\frac{2(3\\pi^{2}-4\\pi-8)}{(3\\pi-4)^{2}}v\n$$\n<p>函数 $f(t)=3t^{2}-4t-8$ 在 $t>\\frac{2}{3}$ 上递增，且 $\\pi>3$，所以 $3\\pi^{2}-4\\pi-8=f(\\pi)>f(3)=7>0$，此时 $M$ 沿 $AO$ 向上运动，故点 $M$ 的速度为 $\\frac{2(3\\pi^{2}-4\\pi-8)}{(3\\pi-4)^{2}}v$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

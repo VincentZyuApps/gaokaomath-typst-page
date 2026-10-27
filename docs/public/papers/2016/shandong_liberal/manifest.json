@@ -1,8 +1,137 @@
 {
-  "title": "2016年普通高等学校招生全国统一考试",
-  "subtitle": "2016年山东卷（文）",
   "year": "2016",
   "slug": "shandong_liberal",
+  "title": "2016年山东卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +146,9 @@
             "$\\{1,2,4,6\\}$"
           ],
           "answer": "A",
-          "solution": "由 $A\\cup B=\\{1,3,4,5\\}$，所以 $U$ 中不属于 $A\\cup B$ 的元素为 $2,6$，即 $\\complement_{U}\\left(A\\cup B\\right)=\\{2,6\\}$，故选 A."
+          "solution": "由 $A\\cup B=\\{1,3,4,5\\}$，所以 $U$ 中不属于 $A\\cup B$ 的元素为 $2,6$，即 $\\complement_{U}\\left(A\\cup B\\right)=\\{2,6\\}$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,11 +160,13 @@
             "$-1-\\mathrm{i}$"
           ],
           "answer": "B",
-          "solution": "将分母实部化，得 $z=\\dfrac{2(1+\\mathrm{i})}{(1-\\mathrm{i})(1+\\mathrm{i})}=\\dfrac{2(1+\\mathrm{i})}{2}=1+\\mathrm{i}$，因此 $\\overline{z}=1-\\mathrm{i}$，故选 B."
+          "solution": "将分母实部化，得 $z=\\dfrac{2(1+\\mathrm{i})}{(1-\\mathrm{i})(1+\\mathrm{i})}=\\dfrac{2(1+\\mathrm{i})}{2}=1+\\mathrm{i}$，因此 $\\overline{z}=1-\\mathrm{i}$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
-          "body": "<p>某高校调查了 $200$ 名学生每周的自习时间（单位：小时），制成了如图所示的频率分布直方图，其中自习时间的范围是 $[17.5,30]$，样本数据分组为 $[17.5,20)$，$[20,22.5)$，$[22.5,25)$，$[25,27.5)$，$[27.5,30]$. 根据直方图，这 $200$ 名学生中每周的自习时间不少于 $22.5$ 小时的人数是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>某高校调查了 $200$ 名学生每周的自习时间（单位：小时），制成了如图所示的频率分布直方图，其中自习时间的范围是 $[17.5,30]$，样本数据分组为 $[17.5,20)$，$[20,22.5)$，$[22.5,25)$，$[25,27.5)$，$[27.5,30]$. 根据直方图，这 $200$ 名学生中每周的自习时间不少于 $22.5$ 小时的人数是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/shandong_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$56$",
             "$60$",
@@ -41,7 +174,9 @@
             "$140$"
           ],
           "answer": "D",
-          "solution": "由直方图可读出区间 $[22.5,25)$、$[25,27.5)$、$[27.5,30]$ 的组距都是 $2.5$，相应的频率分别为 $0.16\\times2.5$、$0.08\\times2.5$、$0.04\\times2.5$. 所以自习时间不少于 $22.5$ 小时的频率为 $(0.16+0.08+0.04)\\times2.5=0.7$，人数为 $200\\times0.7=140$，故选 D."
+          "solution": "由直方图可读出区间 $[22.5,25)$、$[25,27.5)$、$[27.5,30]$ 的组距都是 $2.5$，相应的频率分别为 $0.16\\times2.5$、$0.08\\times2.5$、$0.04\\times2.5$. 所以自习时间不少于 $22.5$ 小时的频率为 $(0.16+0.08+0.04)\\times2.5=0.7$，人数为 $200\\times0.7=140$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +188,9 @@
             "$12$"
           ],
           "answer": "C",
-          "solution": "<p>由 $x\\geq0$、$x+y\\leq2$ 和 $2x-3y\\leq9$，可行域是由三条边界围成的三角形. 两条斜边界的交点满足</p><p>$\\begin{cases}x+y=2\\\\  2x-3y=9\\end{cases}$</p><p>解得 $(x,y)=(3,-1)$；与 $y$ 轴的两个交点为 $(0,2)$ 和 $(0,-3)$. 函数 $x^{2}+y^{2}$ 在三角形上为凸函数，最大值在顶点处取得. 各顶点对应的值分别为 $4$、$9$、$10$，所以最大值为 $10$，故选 C.</p>"
+          "solution": "<p>由 $x\\geq0$、$x+y\\leq2$ 和 $2x-3y\\leq9$，可行域是由三条边界围成的三角形. 两条斜边界的交点满足</p><p>$\\begin{cases}x+y=2\\\\  2x-3y=9\\end{cases}$</p><p>解得 $(x,y)=(3,-1)$；与 $y$ 轴的两个交点为 $(0,2)$ 和 $(0,-3)$. 函数 $x^{2}+y^{2}$ 在三角形上为凸函数，最大值在顶点处取得. 各顶点对应的值分别为 $4$、$9$、$10$，所以最大值为 $10$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +202,9 @@
             "$1+\\dfrac{\\sqrt{2}}{6}\\pi$"
           ],
           "answer": "C",
-          "solution": "由正视图和侧视图知，四棱锥的底面为边长 $1$ 的正方形，高为 $1$. 由俯视图知，正方形外接圆就是半球的底面圆，因此半径为 $r=\\dfrac{\\sqrt{2}}{2}$. 四棱锥的体积为 $V_{1}=\\dfrac{1}{3}\\times1^{2}\\times1=\\dfrac{1}{3}$，半球的体积为 $V_{2}=\\dfrac{2}{3}\\pi r^{3}=\\dfrac{2}{3}\\pi\\left(\\dfrac{\\sqrt{2}}{2}\\right)^{3}=\\dfrac{\\sqrt{2}}{6}\\pi$. 所以该几何体的体积为 $V=\\dfrac{1}{3}+\\dfrac{\\sqrt{2}}{6}\\pi$，故选 C."
+          "solution": "由正视图和侧视图知，四棱锥的底面为边长 $1$ 的正方形，高为 $1$. 由俯视图知，正方形外接圆就是半球的底面圆，因此半径为 $r=\\dfrac{\\sqrt{2}}{2}$. 四棱锥的体积为 $V_{1}=\\dfrac{1}{3}\\times1^{2}\\times1=\\dfrac{1}{3}$，半球的体积为 $V_{2}=\\dfrac{2}{3}\\pi r^{3}=\\dfrac{2}{3}\\pi\\left(\\dfrac{\\sqrt{2}}{2}\\right)^{3}=\\dfrac{\\sqrt{2}}{6}\\pi$. 所以该几何体的体积为 $V=\\dfrac{1}{3}+\\dfrac{\\sqrt{2}}{6}\\pi$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +216,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "若直线 $a$ 与直线 $b$ 相交于点 $P$，则 $P\\in\\alpha$ 且 $P\\in\\beta$. 由于两个平面不同而有公共点，它们必相交，所以“直线 $a$ 和直线 $b$ 相交”能推出“平面 $\\alpha$ 和平面 $\\beta$ 相交”. 反过来，两个平面相交时，分别在两个平面内取不经过交线且不相交的直线，直线 $a$ 和直线 $b$ 不一定相交. 因此这是充分不必要条件，故选 A."
+          "solution": "若直线 $a$ 与直线 $b$ 相交于点 $P$，则 $P\\in\\alpha$ 且 $P\\in\\beta$. 由于两个平面不同而有公共点，它们必相交，所以“直线 $a$ 和直线 $b$ 相交”能推出“平面 $\\alpha$ 和平面 $\\beta$ 相交”. 反过来，两个平面相交时，分别在两个平面内取不经过交线且不相交的直线，直线 $a$ 和直线 $b$ 不一定相交. 因此这是充分不必要条件，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +230,9 @@
             "相离"
           ],
           "answer": "B",
-          "solution": "圆 $M$ 的圆心为 $(0,a)$，半径为 $a$. 圆心到直线 $x+y=0$ 的距离为 $\\dfrac{a}{\\sqrt{2}}$，所以该直线截圆所得弦长为 $2\\sqrt{a^{2}-\\left(\\dfrac{a}{\\sqrt{2}}\\right)^{2}}=a\\sqrt{2}$. 由题意 $a\\sqrt{2}=2\\sqrt{2}$，得 $a=2$. 于是圆 $M$ 的圆心为 $(0,2)$，半径为 $2$；圆 $N$ 的圆心为 $(1,1)$，半径为 $1$. 两圆心距为 $\\sqrt{(1-0)^{2}+(1-2)^{2}}=\\sqrt{2}$，满足 $\\left|2-1\\right|<\\sqrt{2}<2+1$，所以两圆相交，故选 B."
+          "solution": "圆 $M$ 的圆心为 $(0,a)$，半径为 $a$. 圆心到直线 $x+y=0$ 的距离为 $\\dfrac{a}{\\sqrt{2}}$，所以该直线截圆所得弦长为 $2\\sqrt{a^{2}-\\left(\\dfrac{a}{\\sqrt{2}}\\right)^{2}}=a\\sqrt{2}$. 由题意 $a\\sqrt{2}=2\\sqrt{2}$，得 $a=2$. 于是圆 $M$ 的圆心为 $(0,2)$，半径为 $2$；圆 $N$ 的圆心为 $(1,1)$，半径为 $1$. 两圆心距为 $\\sqrt{(1-0)^{2}+(1-2)^{2}}=\\sqrt{2}$，满足 $\\left|2-1\\right|<\\sqrt{2}<2+1$，所以两圆相交，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +244,9 @@
             "$\\dfrac{\\pi}{6}$"
           ],
           "answer": "C",
-          "solution": "由 $b=c$ 知 $B=C$. 由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A=2b^{2}(1-\\cos A)$. 与已知等式比较，得 $\\cos A=\\sin A$. 由于 $A\\in(0,\\pi)$ 且 $\\sin A>0$，故 $\\cos A>0$，从而 $A\\in\\left(0,\\dfrac\\pi2\\right)$. 于是 $\\tan A=1$，得 $A=\\dfrac\\pi4$，故选 C."
+          "solution": "由 $b=c$ 知 $B=C$. 由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A=2b^{2}(1-\\cos A)$. 与已知等式比较，得 $\\cos A=\\sin A$. 由于 $A\\in(0,\\pi)$ 且 $\\sin A>0$，故 $\\cos A>0$，从而 $A\\in\\left(0,\\dfrac\\pi2\\right)$. 于是 $\\tan A=1$，得 $A=\\dfrac\\pi4$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +258,9 @@
             "$2$"
           ],
           "answer": "D",
-          "solution": "当 $0<x\\leq1$ 时，$-x<0$，由已知 $f(-x)=(-x)^{3}-1=-x^{3}-1$，又 $f(-x)=-f(x)$，所以 $f(x)=x^{3}+1$，特别地 $f(1)=2$. 对任意 $t>0$，令 $x=t+\\dfrac{1}{2}$，则已知关系给出 $f(t+1)=f(t)$. 连续使用该关系，得 $f(6)=f(1)=2$，故选 D."
+          "solution": "当 $0<x\\leq1$ 时，$-x<0$，由已知 $f(-x)=(-x)^{3}-1=-x^{3}-1$，又 $f(-x)=-f(x)$，所以 $f(x)=x^{3}+1$，特别地 $f(1)=2$. 对任意 $t>0$，令 $x=t+\\dfrac{1}{2}$，则已知关系给出 $f(t+1)=f(t)$. 连续使用该关系，得 $f(6)=f(1)=2$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +272,9 @@
             "$y=x^{3}$"
           ],
           "answer": "A",
-          "solution": "各函数的导数分别为 $\\cos x$、$\\dfrac{1}{x}$、$\\mathrm{e}^{x}$ 和 $3x^{2}$. 对 $y=\\sin x$，取 $x_{1}=\\dfrac\\pi4$、$x_{2}=\\dfrac{3\\pi}4$，两点处切线斜率分别为 $\\dfrac{\\sqrt{2}}{2}$ 和 $-\\dfrac{\\sqrt{2}}{2}$，乘积为 $-1$，所以两切线互相垂直. 其余三个函数的导数在定义域内均非负，任意两点处斜率乘积不可能为 $-1$，故选 A."
+          "solution": "各函数的导数分别为 $\\cos x$、$\\dfrac{1}{x}$、$\\mathrm{e}^{x}$ 和 $3x^{2}$. 对 $y=\\sin x$，取 $x_{1}=\\dfrac\\pi4$、$x_{2}=\\dfrac{3\\pi}4$，两点处切线斜率分别为 $\\dfrac{\\sqrt{2}}{2}$ 和 $-\\dfrac{\\sqrt{2}}{2}$，乘积为 $-1$，所以两切线互相垂直. 其余三个函数的导数在定义域内均非负，任意两点处斜率乘积不可能为 $-1$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -134,38 +283,48 @@
       "problems": [
         {
           "num": 11,
-          "body": "<p>执行如图的程序框图，若输入 $n$ 的值为 $3$，则输出的 $S$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>执行如图的程序框图，若输入 $n$ 的值为 $3$，则输出的 $S$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/shandong_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "1",
-          "solution": "输入 $n=3$ 后，初值为 $i=1$、$S=0$. 第一次循环后 $S=\\sqrt{2}-1$，再令 $i=2$；第二次循环后 $S=\\sqrt{3}-1$，再令 $i=3$；第三次循环后 $S=2-1=1$，此时 $i\\geq n$，输出 $S=1$."
+          "solution": "输入 $n=3$ 后，初值为 $i=1$、$S=0$. 第一次循环后 $S=\\sqrt{2}-1$，再令 $i=2$；第二次循环后 $S=\\sqrt{3}-1$，再令 $i=3$；第三次循环后 $S=2-1=1$，此时 $i\\geq n$，输出 $S=1$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "<p>观察下列等式：</p><p>$\\left(\\sin\\dfrac{\\pi}{3}\\right)^{-2}+\\left(\\sin\\dfrac{2\\pi}{3}\\right)^{-2}=\\dfrac{4}{3}\\times1\\times2$；</p><p>$\\left(\\sin\\dfrac{\\pi}{5}\\right)^{-2}+\\left(\\sin\\dfrac{2\\pi}{5}\\right)^{-2}+\\left(\\sin\\dfrac{3\\pi}{5}\\right)^{-2}+\\left(\\sin\\dfrac{4\\pi}{5}\\right)^{-2}=\\dfrac{4}{3}\\times2\\times3$；</p><p>$\\left(\\sin\\dfrac{\\pi}{7}\\right)^{-2}+\\left(\\sin\\dfrac{2\\pi}{7}\\right)^{-2}+\\left(\\sin\\dfrac{3\\pi}{7}\\right)^{-2}+\\cdots+\\left(\\sin\\dfrac{6\\pi}{7}\\right)^{-2}=\\dfrac{4}{3}\\times3\\times4$；</p><p>$\\left(\\sin\\dfrac{\\pi}{9}\\right)^{-2}+\\left(\\sin\\dfrac{2\\pi}{9}\\right)^{-2}+\\left(\\sin\\dfrac{3\\pi}{9}\\right)^{-2}+\\cdots+\\left(\\sin\\dfrac{8\\pi}{9}\\right)^{-2}=\\dfrac{4}{3}\\times4\\times5$.</p><p>照此规律，</p><p>$\\left(\\sin\\dfrac{\\pi}{2n+1}\\right)^{-2}+\\left(\\sin\\dfrac{2\\pi}{2n+1}\\right)^{-2}+\\left(\\sin\\dfrac{3\\pi}{2n+1}\\right)^{-2}+\\cdots+\\left(\\sin\\dfrac{2n\\pi}{2n+1}\\right)^{-2}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
-          "answer": "$\\dfrac{4}{3}n(n+1)$",
-          "solution": "<p>令 $N=2n+1$. 由恒等式 $\\displaystyle\\sum_{k=0}^{N-1}\\cot\\left(x+\\dfrac{k\\pi}{N}\\right)=N\\cot(Nx)$，两边求导，得</p><p>$\\displaystyle\\sum_{k=0}^{N-1}\\csc^{2}\\left(x+\\dfrac{k\\pi}{N}\\right)=N^{2}\\csc^{2}(Nx)$.</p><p>分离左端的 $k=0$ 项并令 $x\\to0$，得到</p><p>$\\displaystyle\\sum_{k=1}^{N-1}\\csc^{2}\\dfrac{k\\pi}{N}=\\lim_{x\\to0}\\left[N^{2}\\csc^{2}(Nx)-\\csc^{2}x\\right]=\\dfrac{N^2-1}{3}$，其中最后一步使用 $\\displaystyle\\lim_{t\\to0}\\left(\\csc^{2}t-\\dfrac1{t^2}\\right)=\\dfrac{1}{3}$.</p><p>由于 $N=2n+1$，题中左端为</p><p>$\\displaystyle\\sum_{k=1}^{2n}\\left(\\sin\\dfrac{k\\pi}{2n+1}\\right)^{-2}=\\dfrac{(2n+1)^2-1}{3}=\\dfrac{4}{3}n(n+1)$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{4}{3}n(n+1)\\)",
+          "solution": "<p>令 $N=2n+1$. 由恒等式 $\\displaystyle\\sum_{k=0}^{N-1}\\cot\\left(x+\\dfrac{k\\pi}{N}\\right)=N\\cot(Nx)$，两边求导，得</p><p>$\\displaystyle\\sum_{k=0}^{N-1}\\csc^{2}\\left(x+\\dfrac{k\\pi}{N}\\right)=N^{2}\\csc^{2}(Nx)$.</p><p>分离左端的 $k=0$ 项并令 $x\\to0$，得到</p><p>$\\displaystyle\\sum_{k=1}^{N-1}\\csc^{2}\\dfrac{k\\pi}{N}=\\lim_{x\\to0}\\left[N^{2}\\csc^{2}(Nx)-\\csc^{2}x\\right]=\\dfrac{N^2-1}{3}$，其中最后一步使用 $\\displaystyle\\lim_{t\\to0}\\left(\\csc^{2}t-\\dfrac1{t^2}\\right)=\\dfrac{1}{3}$.</p><p>由于 $N=2n+1$，题中左端为</p><p>$\\displaystyle\\sum_{k=1}^{2n}\\left(\\sin\\dfrac{k\\pi}{2n+1}\\right)^{-2}=\\dfrac{(2n+1)^2-1}{3}=\\dfrac{4}{3}n(n+1)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "已知向量 $\\mathbf{a}=(1,-1)$，$\\mathbf{b}=(6,-4)$. 若 $\\mathbf{a}\\perp(t\\mathbf{a}+\\mathbf{b})$，则实数 $t$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-5$",
-          "solution": "由 $t\\mathbf{a}+\\mathbf{b}=(t+6,-t-4)$，以及垂直向量的数量积为零，得 $\\mathbf{a}\\cdot(t\\mathbf{a}+\\mathbf{b})=(1,-1)\\cdot(t+6,-t-4)=t+6+t+4=2t+10=0$. 所以 $t=-5$."
+          "choices": [],
+          "answer": "\\(-5\\)",
+          "solution": "由 $t\\mathbf{a}+\\mathbf{b}=(t+6,-t-4)$，以及垂直向量的数量积为零，得 $\\mathbf{a}\\cdot(t\\mathbf{a}+\\mathbf{b})=(1,-1)\\cdot(t+6,-t-4)=t+6+t+4=2t+10=0$. 所以 $t=-5$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知双曲线 $E:\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$（$a>0$，$b>0$）. 矩形 $ABCD$ 的四个顶点在 $E$ 上，$AB$，$CD$ 的中点为 $E$ 的两个焦点，且 $2|AB|=3|BC|$，则 $E$ 的离心率是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "2",
-          "solution": "设双曲线的半焦距为 $c$，则 $c^{2}=a^{2}+b^{2}$. 由于 $AB$、$CD$ 的中点是两个焦点，矩形的四个顶点可设为 $(c,y)$、$(c,-y)$、$(-c,-y)$、$(-c,y)$. 代入双曲线方程，得 $\\dfrac{c^2}{a^2}-\\dfrac{y^2}{b^2}=1$，从而 $y^{2}=\\dfrac{b^4}{a^2}$. 因此 $|AB|=2y=\\dfrac{2b^2}{a}$，$|BC|=2c$. 由 $2|AB|=3|BC|$，得 $\\dfrac{4b^2}{a}=6c$，即 $2b^{2}=3ac$. 令离心率 $e=\\dfrac{c}{a}$，并用 $b^{2}=a^{2}(e^{2}-1)$，得 $2(e^{2}-1)=3e$，即 $2e^{2}-3e-2=0$. 因为 $e>1$，所以 $e=2$."
+          "solution": "设双曲线的半焦距为 $c$，则 $c^{2}=a^{2}+b^{2}$. 由于 $AB$、$CD$ 的中点是两个焦点，矩形的四个顶点可设为 $(c,y)$、$(c,-y)$、$(-c,-y)$、$(-c,y)$. 代入双曲线方程，得 $\\dfrac{c^2}{a^2}-\\dfrac{y^2}{b^2}=1$，从而 $y^{2}=\\dfrac{b^4}{a^2}$. 因此 $|AB|=2y=\\dfrac{2b^2}{a}$，$|BC|=2c$. 由 $2|AB|=3|BC|$，得 $\\dfrac{4b^2}{a}=6c$，即 $2b^{2}=3ac$. 令离心率 $e=\\dfrac{c}{a}$，并用 $b^{2}=a^{2}(e^{2}-1)$，得 $2(e^{2}-1)=3e$，即 $2e^{2}-3e-2=0$. 因为 $e>1$，所以 $e=2$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "<p>已知函数</p><p>$f(x)=\\begin{cases}|x|,&x\\leq m,\\\\  x^{2}-2mx+4m,&x>m,\\end{cases}$</p><p>其中 $m>0$. 若存在实数 $b$，使得关于 $x$ 的方程 $f(x)=b$ 有三个不同的根，则 $m$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
-          "answer": "$m>3$",
-          "solution": "<p>因为 $m>0$，在 $x\\leq m$ 时方程 $f(x)=b$ 化为 $|x|=b$. 它有两个不同的根当且仅当 $0<b\\leq m$，这两个根为 $x=-b$ 和 $x=b$.</p><p>在 $x>m$ 时，$f(x)=(x-m)^{2}+4m-m^{2}$，且 $x-m>0$，所以这一段函数严格递增，值域为 $(4m-m^{2},+\\infty)$，方程在这一段有一个根当且仅当 $b>4m-m^{2}$.</p><p>要使总根数为三个，必须使前一段的两个根和后一段的一个根同时存在，即存在 $b\\in(0,m]$ 满足 $b>4m-m^{2}$. 这样的 $b$ 存在当且仅当 $4m-m^{2}<m$，即 $m(m-3)>0$. 结合 $m>0$，得 $m>3$. 反之当 $m>3$ 时取 $b=m$，确有三个不同的根，因此取值范围为 $m>3$.</p>"
+          "choices": [],
+          "answer": "\\(m>3\\)",
+          "solution": "<p>因为 $m>0$，在 $x\\leq m$ 时方程 $f(x)=b$ 化为 $|x|=b$. 它有两个不同的根当且仅当 $0<b\\leq m$，这两个根为 $x=-b$ 和 $x=b$.</p><p>在 $x>m$ 时，$f(x)=(x-m)^{2}+4m-m^{2}$，且 $x-m>0$，所以这一段函数严格递增，值域为 $(4m-m^{2},+\\infty)$，方程在这一段有一个根当且仅当 $b>4m-m^{2}$.</p><p>要使总根数为三个，必须使前一段的两个根和后一段的一个根同时存在，即存在 $b\\in(0,m]$ 满足 $b>4m-m^{2}$. 这样的 $b$ 存在当且仅当 $4m-m^{2}<m$，即 $m(m-3)>0$. 结合 $m>0$，得 $m>3$. 反之当 $m>3$ 时取 $b=m$，确有三个不同的根，因此取值范围为 $m>3$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -174,45 +333,57 @@
       "problems": [
         {
           "num": 16,
-          "body": "<p>某儿童乐园在“六一”儿童节推出了一项趣味活动. 参加活动的儿童需转动如图所示的转盘两次，每次转动后，待转盘停止转动时，记录指针所指区域中的数. 设两次记录的数分别为 $x$，$y$. 奖励规则如下：</p><ol class=\"enumerate\"><li><p>若 $xy\\leq 3$，则奖励玩具一个；</p></li><li><p>若 $xy\\geq 8$，则奖励水杯一个；</p></li><li><p>其余情况奖励饮料一瓶.</p></li></ol><p>假设转盘质地均匀，四个区域划分均匀. 小亮准备参加此项活动.</p><ol class=\"enumerate\"><li><p>求小亮获得玩具的概率；</p></li><li><p>请比较小亮获得水杯与获得饮料的概率的大小，并说明理由.</p></li></ol><p><span class=\"macro macro-begingroup\"></span></p><p><span class=\"macro macro-leftskip\"></span>=0pt<span class=\"macro macro-relax\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
-          "choices": null,
+          "body": "<p>某儿童乐园在“六一”儿童节推出了一项趣味活动. 参加活动的儿童需转动如图所示的转盘两次，每次转动后，待转盘停止转动时，记录指针所指区域中的数. 设两次记录的数分别为 $x$，$y$. 奖励规则如下：</p><ol class=\"enumerate\"><li><p>若 $xy\\leq 3$，则奖励玩具一个；</p></li><li><p>若 $xy\\geq 8$，则奖励水杯一个；</p></li><li><p>其余情况奖励饮料一瓶.</p></li></ol><p>假设转盘质地均匀，四个区域划分均匀. 小亮准备参加此项活动.</p><ol class=\"enumerate\"><li><p>求小亮获得玩具的概率；</p></li><li><p>请比较小亮获得水杯与获得饮料的概率的大小，并说明理由.</p></li></ol><p><span class=\"macro macro-begingroup\"></span></p><p><span class=\"macro macro-leftskip\"></span>=0pt<span class=\"macro macro-relax\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/shandong_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由于转盘的四个区域大小相等，且两次转动相互独立，所以有序数对 $(x,y)$ 的基本事件共有 $4\\times4=16$ 个，且等可能. 满足 $xy\\leq3$ 的有序数对为 $(1,1)$、$(1,2)$、$(1,3)$、$(2,1)$、$(3,1)$，共 $5$ 个. 因此小亮获得玩具的概率为 $P_{1}=\\dfrac5{16}$.</p></li><li><p>满足 $xy\\geq8$ 的有序数对为 $(2,4)$、$(3,3)$、$(3,4)$、$(4,2)$、$(4,3)$、$(4,4)$，共 $6$ 个，所以获得水杯的概率为 $P_{2}=\\dfrac6{16}=\\dfrac{3}{8}$. 其余 $16-5-6=5$ 个基本事件对应饮料，故获得饮料的概率为 $P_{3}=\\dfrac5{16}$. 因为 $\\dfrac{3}{8}=\\dfrac6{16}>\\dfrac5{16}$，所以获得水杯的概率较大.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由于转盘的四个区域大小相等，且两次转动相互独立，所以有序数对 $(x,y)$ 的基本事件共有 $4\\times4=16$ 个，且等可能. 满足 $xy\\leq3$ 的有序数对为 $(1,1)$、$(1,2)$、$(1,3)$、$(2,1)$、$(3,1)$，共 $5$ 个. 因此小亮获得玩具的概率为 $P_{1}=\\dfrac5{16}$.</p></li><li><p>满足 $xy\\geq8$ 的有序数对为 $(2,4)$、$(3,3)$、$(3,4)$、$(4,2)$、$(4,3)$、$(4,4)$，共 $6$ 个，所以获得水杯的概率为 $P_{2}=\\dfrac6{16}=\\dfrac{3}{8}$. 其余 $16-5-6=5$ 个基本事件对应饮料，故获得饮料的概率为 $P_{3}=\\dfrac5{16}$. 因为 $\\dfrac{3}{8}=\\dfrac6{16}>\\dfrac5{16}$，所以获得水杯的概率较大.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "<p>设 $f(x)=2\\sqrt{3}\\sin\\left(\\pi-x\\right)\\sin x-\\left(\\sin x-\\cos x\\right)^{2}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调递增区间；</p></li><li><p>把 $y=f(x)$ 的图象上所有点的横坐标伸长到原来的 $2$ 倍（纵坐标不变），再把得到的图象向左平移 $\\dfrac{\\pi}{3}$ 个单位，得到函数 $y=g(x)$ 的图象，求 $g\\left(\\dfrac{\\pi}{6}\\right)$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\sin(\\pi-x)=\\sin x$，所以</p><p>$f(x)=2\\sqrt{3}\\sin^{2}x-(\\sin x-\\cos x)^{2}=\\sin2x-\\sqrt{3}\\cos2x+\\sqrt{3}-1=2\\sin\\left(2x-\\dfrac\\pi3\\right)+\\sqrt{3}-1$. 于是 $f'(x)=4\\cos\\left(2x-\\dfrac\\pi3\\right)$. 函数递增时需满足</p><p>$\\cos\\left(2x-\\dfrac\\pi3\\right)\\geq0$，即 $-\\dfrac\\pi2+2k\\pi\\leq2x-\\dfrac\\pi3\\leq\\dfrac\\pi2+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 解得单调递增区间为 $\\left[-\\dfrac\\pi{12}+k\\pi,\\dfrac{5\\pi}{12}+k\\pi\\right]$，其中 $k\\in\\mathbb{Z}$.</p></li><li><p>横坐标伸长到原来的 $2$ 倍后，所得函数为 $y=f\\left(\\dfrac{x}{2}\\right)$；再向左平移 $\\dfrac\\pi3$ 个单位，得到 $g(x)=f\\left(\\dfrac{x+\\frac{\\pi}{3}}{2}\\right)=f\\left(\\dfrac{x}{2}+\\dfrac\\pi6\\right)$. 因此 $g\\left(\\dfrac\\pi6\\right)=f\\left(\\dfrac\\pi4\\right)=2\\sin\\left(\\dfrac\\pi2-\\dfrac\\pi3\\right)+\\sqrt{3}-1=\\sqrt{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\sin(\\pi-x)=\\sin x$，所以</p><p>$f(x)=2\\sqrt{3}\\sin^{2}x-(\\sin x-\\cos x)^{2}=\\sin2x-\\sqrt{3}\\cos2x+\\sqrt{3}-1=2\\sin\\left(2x-\\dfrac\\pi3\\right)+\\sqrt{3}-1$. 于是 $f'(x)=4\\cos\\left(2x-\\dfrac\\pi3\\right)$. 函数递增时需满足</p><p>$\\cos\\left(2x-\\dfrac\\pi3\\right)\\geq0$，即 $-\\dfrac\\pi2+2k\\pi\\leq2x-\\dfrac\\pi3\\leq\\dfrac\\pi2+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 解得单调递增区间为 $\\left[-\\dfrac\\pi{12}+k\\pi,\\dfrac{5\\pi}{12}+k\\pi\\right]$，其中 $k\\in\\mathbb{Z}$.</p></li><li><p>横坐标伸长到原来的 $2$ 倍后，所得函数为 $y=f\\left(\\dfrac{x}{2}\\right)$；再向左平移 $\\dfrac\\pi3$ 个单位，得到 $g(x)=f\\left(\\dfrac{x+\\frac{\\pi}{3}}{2}\\right)=f\\left(\\dfrac{x}{2}+\\dfrac\\pi6\\right)$. 因此 $g\\left(\\dfrac\\pi6\\right)=f\\left(\\dfrac\\pi4\\right)=2\\sin\\left(\\dfrac\\pi2-\\dfrac\\pi3\\right)+\\sqrt{3}-1=\\sqrt{3}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>在如图所示的几何体中，$D$ 是 $AC$ 的中点，$EF\\parallel DB$.</p><ol class=\"enumerate\"><li><p>已知 $AB=BC$，$AE=EC$. 求证：$AC\\perp FB$；</p></li><li><p>已知 $G$，$H$ 分别是 $EC$ 和 $FB$ 的中点. 求证：$GH\\parallel$ 平面 $ABC$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>在如图所示的几何体中，$D$ 是 $AC$ 的中点，$EF\\parallel DB$.</p><ol class=\"enumerate\"><li><p>已知 $AB=BC$，$AE=EC$. 求证：$AC\\perp FB$；</p></li><li><p>已知 $G$，$H$ 分别是 $EC$ 和 $FB$ 的中点. 求证：$GH\\parallel$ 平面 $ABC$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/shandong_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>连接 $ED$. 在等腰三角形 $ABC$ 中，$AB=BC$，且 $D$ 是 $AC$ 的中点，所以 $BD\\perp AC$. 在等腰三角形 $AEC$ 中，$AE=EC$，同理 $ED\\perp AC$. 直线 $BD$、$ED$ 是平面 $EBD$ 内相交的两条直线，且都垂直于 $AC$，所以 $AC\\perp$ 平面 $EBD$. 又 $EF\\parallel DB$，过点 $E$ 的直线 $EF$ 位于平面 $EBD$ 内，从而 $E$，$F$，$B$，$D$ 共面，且 $AC\\perp$ 平面 $EFBD$. 因为 $FB\\subset$ 平面 $EFBD$，所以 $AC\\perp FB$.</p></li><li><p>取 $ED$ 的中点 $I$，连接 $IG$、$IH$. 在三角形 $EDC$ 中，$I$、$G$ 分别是 $ED$、$EC$ 的中点，所以 $IG\\parallel DC$. 由 $EF\\parallel DB$，四边形 $EFBD$ 是梯形；又 $I$、$H$ 分别是其两腰 $ED$、$FB$ 的中点，所以 $IH\\parallel EF\\parallel DB$. 由于 $IG$ 与 $IH$ 相交，且分别平行于平面 $ABC$ 内相交的直线 $DC$ 与 $DB$，故平面 $GIH\\parallel$ 平面 $DCB$，即平面 $GIH\\parallel$ 平面 $ABC$. 又 $GH\\subset$ 平面 $GIH$，所以 $GH\\parallel$ 平面 $ABC$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>连接 $ED$. 在等腰三角形 $ABC$ 中，$AB=BC$，且 $D$ 是 $AC$ 的中点，所以 $BD\\perp AC$. 在等腰三角形 $AEC$ 中，$AE=EC$，同理 $ED\\perp AC$. 直线 $BD$、$ED$ 是平面 $EBD$ 内相交的两条直线，且都垂直于 $AC$，所以 $AC\\perp$ 平面 $EBD$. 又 $EF\\parallel DB$，过点 $E$ 的直线 $EF$ 位于平面 $EBD$ 内，从而 $E$，$F$，$B$，$D$ 共面，且 $AC\\perp$ 平面 $EFBD$. 因为 $FB\\subset$ 平面 $EFBD$，所以 $AC\\perp FB$.</p></li><li><p>取 $ED$ 的中点 $I$，连接 $IG$、$IH$. 在三角形 $EDC$ 中，$I$、$G$ 分别是 $ED$、$EC$ 的中点，所以 $IG\\parallel DC$. 由 $EF\\parallel DB$，四边形 $EFBD$ 是梯形；又 $I$、$H$ 分别是其两腰 $ED$、$FB$ 的中点，所以 $IH\\parallel EF\\parallel DB$. 由于 $IG$ 与 $IH$ 相交，且分别平行于平面 $ABC$ 内相交的直线 $DC$ 与 $DB$，故平面 $GIH\\parallel$ 平面 $DCB$，即平面 $GIH\\parallel$ 平面 $ABC$. 又 $GH\\subset$ 平面 $GIH$，所以 $GH\\parallel$ 平面 $ABC$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}=3n^{2}+8n$，$\\{b_{n}\\}$ 是等差数列，且 $a_{n}=b_{n}+b_{n+1}$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>令 $c_{n}=\\dfrac{(a_n+1)^{n+1}}{(b_n+2)^n}$，求数列 $\\{c_{n}\\}$ 的前 $n$ 项和 $T_{n}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $S_{1}=11$，得 $a_{1}=11$. 当 $n\\geq2$ 时，$a_{n}=S_{n}-S_{n-1}=3n^{2}+8n-\\left[3(n-1)^{2}+8(n-1)\\right]=6n+5$，且 $a_{1}=6+5$，所以 $a_{n}=6n+5$ 对一切正整数 $n$ 成立. 设等差数列 $\\{b_{n}\\}$ 的首项为 $b_{1}$，公差为 $d$，则 $b_{n}=b_{1}+(n-1)d$. 由 $a_{n}=b_{n}+b_{n+1}$，得 $2b_{1}+(2n-1)d=6n+5$. 比较 $n$ 的系数，得 $2d=6$，所以 $d=3$；再比较常数项，得 $2b_{1}-d=5$，所以 $b_{1}=4$. 因此 $b_{n}=4+3(n-1)=3n+1$.</p></li><li><p>由（1）知 $a_{n}+1=6(n+1)$，$b_{n}+2=3(n+1)$，所以</p><p>$c_{n}=\\dfrac{[6(n+1)]^{n+1}}{[3(n+1)]^n}=6(n+1)2^{n}$. 于是</p><p>$T_{n}=6\\displaystyle\\sum_{k=1}^{n}(k+1)2^{k}$. 令 $U_{n}=\\displaystyle\\sum_{k=1}^{n}(k+1)2^{k}$，则</p><p>$2U_{n}=\\displaystyle\\sum_{k=2}^{n+1}k2^{k}$. 两式相减并合并边界项，得 $U_{n}=n2^{n+1}$. 因此 $T_{n}=6n2^{n+1}=3n\\cdot2^{n+2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $S_{1}=11$，得 $a_{1}=11$. 当 $n\\geq2$ 时，$a_{n}=S_{n}-S_{n-1}=3n^{2}+8n-\\left[3(n-1)^{2}+8(n-1)\\right]=6n+5$，且 $a_{1}=6+5$，所以 $a_{n}=6n+5$ 对一切正整数 $n$ 成立. 设等差数列 $\\{b_{n}\\}$ 的首项为 $b_{1}$，公差为 $d$，则 $b_{n}=b_{1}+(n-1)d$. 由 $a_{n}=b_{n}+b_{n+1}$，得 $2b_{1}+(2n-1)d=6n+5$. 比较 $n$ 的系数，得 $2d=6$，所以 $d=3$；再比较常数项，得 $2b_{1}-d=5$，所以 $b_{1}=4$. 因此 $b_{n}=4+3(n-1)=3n+1$.</p></li><li><p>由（1）知 $a_{n}+1=6(n+1)$，$b_{n}+2=3(n+1)$，所以</p><p>$c_{n}=\\dfrac{[6(n+1)]^{n+1}}{[3(n+1)]^n}=6(n+1)2^{n}$. 于是</p><p>$T_{n}=6\\displaystyle\\sum_{k=1}^{n}(k+1)2^{k}$. 令 $U_{n}=\\displaystyle\\sum_{k=1}^{n}(k+1)2^{k}$，则</p><p>$2U_{n}=\\displaystyle\\sum_{k=2}^{n+1}k2^{k}$. 两式相减并合并边界项，得 $U_{n}=n2^{n+1}$. 因此 $T_{n}=6n2^{n+1}=3n\\cdot2^{n+2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>设函数 $f(x)=x\\ln x-ax^{2}+(2a-1)x$，$a\\in\\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>令 $g(x)=f'(x)$，求函数 $g(x)$ 的单调区间；</p></li><li><p>已知 $f(x)$ 在 $x=1$ 处取得极大值，求实数 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由定义域 $x>0$，得 $g(x)=f'(x)=\\ln x+1-2ax+2a-1=\\ln x+2a(1-x)$，所以 $g'(x)=\\dfrac{1}{x}-2a$. 当 $a\\leq0$ 时，$g'(x)>0$ 对一切 $x>0$ 成立，故 $g(x)$ 在 $(0,+\\infty)$ 上单调递增. 当 $a>0$ 时，$g'(x)>0$ 等价于 $0<x<\\dfrac1{2a}$，$g'(x)<0$ 等价于 $x>\\dfrac1{2a}$，故 $g(x)$ 在 $\\left(0,\\dfrac1{2a}\\right)$ 上单调递增，在 $\\left(\\dfrac1{2a},+\\infty\\right)$ 上单调递减.</p></li><li><p>$g(1)=0$，且 $g'(1)=1-2a$. 当 $a>\\dfrac{1}{2}$ 时，$g'(1)<0$，所以 $g(x)$ 在 $x=1$ 左侧邻域为正、右侧邻域为负，$f(x)$ 在 $x=1$ 处取得极大值. 当 $a<\\dfrac{1}{2}$ 时，$g'(1)>0$，导数符号相反，$x=1$ 处为极小值. 当 $a=\\dfrac{1}{2}$ 时，$g(x)=\\ln x+1-x\\leq0$，等号仅在 $x=1$ 处成立，因而不是极大值点. 所以 $a$ 的取值范围为 $\\left(\\dfrac{1}{2},+\\infty\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由定义域 $x>0$，得 $g(x)=f'(x)=\\ln x+1-2ax+2a-1=\\ln x+2a(1-x)$，所以 $g'(x)=\\dfrac{1}{x}-2a$. 当 $a\\leq0$ 时，$g'(x)>0$ 对一切 $x>0$ 成立，故 $g(x)$ 在 $(0,+\\infty)$ 上单调递增. 当 $a>0$ 时，$g'(x)>0$ 等价于 $0<x<\\dfrac1{2a}$，$g'(x)<0$ 等价于 $x>\\dfrac1{2a}$，故 $g(x)$ 在 $\\left(0,\\dfrac1{2a}\\right)$ 上单调递增，在 $\\left(\\dfrac1{2a},+\\infty\\right)$ 上单调递减.</p></li><li><p>$g(1)=0$，且 $g'(1)=1-2a$. 当 $a>\\dfrac{1}{2}$ 时，$g'(1)<0$，所以 $g(x)$ 在 $x=1$ 左侧邻域为正、右侧邻域为负，$f(x)$ 在 $x=1$ 处取得极大值. 当 $a<\\dfrac{1}{2}$ 时，$g'(1)>0$，导数符号相反，$x=1$ 处为极小值. 当 $a=\\dfrac{1}{2}$ 时，$g(x)=\\ln x+1-x\\leq0$，等号仅在 $x=1$ 处成立，因而不是极大值点. 所以 $a$ 的取值范围为 $\\left(\\dfrac{1}{2},+\\infty\\right)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
-          "body": "<p>已知椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的长轴长为 $4$，焦距为 $2\\sqrt{2}$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>过动点 $M(0,m)$（$m>0$）的直线交 $x$ 轴于点 $N$，交 $C$ 于点 $A$，$P$（$P$ 在第一象限），且 $M$ 是线段 $PN$ 的中点. 过点 $P$ 作 $x$ 轴的垂线交 $C$ 于另一点 $Q$，延长线 $QM$ 交 $C$ 于点 $B$.</p><p></p><ol class=\"enumerate\"><li><p>设直线 $PM$，$QM$ 的斜率分别为 $k$，$k'$，证明 $\\dfrac{k'}{k}$ 为定值；</p></li><li><p>求直线 $AB$ 的斜率的最小值.</p></li></ol><p></p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>已知椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的长轴长为 $4$，焦距为 $2\\sqrt{2}$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>过动点 $M(0,m)$（$m>0$）的直线交 $x$ 轴于点 $N$，交 $C$ 于点 $A$，$P$（$P$ 在第一象限），且 $M$ 是线段 $PN$ 的中点. 过点 $P$ 作 $x$ 轴的垂线交 $C$ 于另一点 $Q$，延长线 $QM$ 交 $C$ 于点 $B$.</p><p></p><ol class=\"enumerate\"><li><p>设直线 $PM$，$QM$ 的斜率分别为 $k$，$k'$，证明 $\\dfrac{k'}{k}$ 为定值；</p></li><li><p>求直线 $AB$ 的斜率的最小值.</p></li></ol><p></p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/shandong_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由长轴长为 $4$，得 $2a=4$，所以 $a=2$；由焦距为 $2\\sqrt{2}$，得 $2c=2\\sqrt{2}$，所以 $c=\\sqrt{2}$. 于是 $b^{2}=a^{2}-c^{2}=4-2=2$，椭圆 $C$ 的方程为 $\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>设 $P=(u,2m)$，其中 $u>0$. 因为 $M=(0,m)$ 是 $PN$ 的中点，且 $N$ 在 $x$ 轴上，所以 $N=(-u,0)$. 又 $P$ 在椭圆上，故 $\\dfrac{u^2}{4}+\\dfrac{(2m)^2}{2}=1$，即 $u^{2}+8m^{2}=4$. 直线 $PM$ 的斜率为 $k=\\dfrac{m}{u}$. 由于 $Q=(u,-2m)$，直线 $QM$ 的斜率为 $k'=\\dfrac{-2m-m}{u}=-\\dfrac{3m}{u}$，所以 $\\dfrac{k'}{k}=-3$，为定值.</p></li><li><p>记 $r=u^{2}$，则 $0<r<4$，且 $m=\\sqrt{\\dfrac{4-r}{8}}$. 直线 $PM$ 的方程为 $y=\\dfrac{m}{u}x+m$. 将其代入椭圆方程，得</p><p>$\\left(1+\\dfrac{2m^2}{u^2}\\right)x^{2}+\\dfrac{4m^2}{u}x+2m^{2}-4=0$. 其中一个根为 $u$，另一个根为点 $A$ 的横坐标. 利用 $u^{2}+8m^{2}=4$，由韦达定理得</p><p>$x_{A}=-\\dfrac{u(r+12)}{3r+4}$，$y_{A}=\\dfrac{m}{u}x_{A}+m=\\dfrac{2m(r-4)}{3r+4}$.</p><p>直线 $QM$ 的方程为 $y=-\\dfrac{3m}{u}x+m$. 同理，将其代入椭圆方程，得</p><p>$\\left(1+\\dfrac{18m^2}{u^2}\\right)x^{2}-\\dfrac{12m^2}{u}x+2m^{2}-4=0$. 其中一个根为 $u$，另一个根为点 $B$ 的横坐标，从而</p><p>$x_{B}=-\\dfrac{u(r+12)}{36-5r}$，$y_{B}=-\\dfrac{3m}{u}x_{B}+m=\\dfrac{2m(36-r)}{36-5r}$.</p><p>因此</p><p>$k_{AB}=\\dfrac{y_B-y_A}{x_B-x_A}=\\dfrac{m(r+12)}{2u(4-r)}=\\dfrac{r+12}{4\\sqrt{2r(4-r)}}$. 由于 $0<r<4$，所以 $k_{AB}>0$. 于是</p><p>$k_{AB}^{2}=\\dfrac{(r+12)^2}{32r(4-r)}$，并且</p><p>$k_{AB}^{2}-\\dfrac{3}{2}=\\dfrac{(r+12)^2-48r(4-r)}{32r(4-r)}=\\dfrac{(7r-12)^2}{32r(4-r)}\\geq0$. 当 $r=\\dfrac{12}{7}$ 时等号成立，且该值属于 $(0,4)$，所以直线 $AB$ 的斜率最小值为 $\\sqrt{\\dfrac{3}{2}}=\\dfrac{\\sqrt{6}}{2}$.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由长轴长为 $4$，得 $2a=4$，所以 $a=2$；由焦距为 $2\\sqrt{2}$，得 $2c=2\\sqrt{2}$，所以 $c=\\sqrt{2}$. 于是 $b^{2}=a^{2}-c^{2}=4-2=2$，椭圆 $C$ 的方程为 $\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>设 $P=(u,2m)$，其中 $u>0$. 因为 $M=(0,m)$ 是 $PN$ 的中点，且 $N$ 在 $x$ 轴上，所以 $N=(-u,0)$. 又 $P$ 在椭圆上，故 $\\dfrac{u^2}{4}+\\dfrac{(2m)^2}{2}=1$，即 $u^{2}+8m^{2}=4$. 直线 $PM$ 的斜率为 $k=\\dfrac{m}{u}$. 由于 $Q=(u,-2m)$，直线 $QM$ 的斜率为 $k'=\\dfrac{-2m-m}{u}=-\\dfrac{3m}{u}$，所以 $\\dfrac{k'}{k}=-3$，为定值.</p></li><li><p>记 $r=u^{2}$，则 $0<r<4$，且 $m=\\sqrt{\\dfrac{4-r}{8}}$. 直线 $PM$ 的方程为 $y=\\dfrac{m}{u}x+m$. 将其代入椭圆方程，得</p><p>$\\left(1+\\dfrac{2m^2}{u^2}\\right)x^{2}+\\dfrac{4m^2}{u}x+2m^{2}-4=0$. 其中一个根为 $u$，另一个根为点 $A$ 的横坐标. 利用 $u^{2}+8m^{2}=4$，由韦达定理得</p><p>$x_{A}=-\\dfrac{u(r+12)}{3r+4}$，$y_{A}=\\dfrac{m}{u}x_{A}+m=\\dfrac{2m(r-4)}{3r+4}$.</p><p>直线 $QM$ 的方程为 $y=-\\dfrac{3m}{u}x+m$. 同理，将其代入椭圆方程，得</p><p>$\\left(1+\\dfrac{18m^2}{u^2}\\right)x^{2}-\\dfrac{12m^2}{u}x+2m^{2}-4=0$. 其中一个根为 $u$，另一个根为点 $B$ 的横坐标，从而</p><p>$x_{B}=-\\dfrac{u(r+12)}{36-5r}$，$y_{B}=-\\dfrac{3m}{u}x_{B}+m=\\dfrac{2m(36-r)}{36-5r}$.</p><p>因此</p><p>$k_{AB}=\\dfrac{y_B-y_A}{x_B-x_A}=\\dfrac{m(r+12)}{2u(4-r)}=\\dfrac{r+12}{4\\sqrt{2r(4-r)}}$. 由于 $0<r<4$，所以 $k_{AB}>0$. 于是</p><p>$k_{AB}^{2}=\\dfrac{(r+12)^2}{32r(4-r)}$，并且</p><p>$k_{AB}^{2}-\\dfrac{3}{2}=\\dfrac{(r+12)^2-48r(4-r)}{32r(4-r)}=\\dfrac{(7r-12)^2}{32r(4-r)}\\geq0$. 当 $r=\\dfrac{12}{7}$ 时等号成立，且该值属于 $(0,4)$，所以直线 $AB$ 的斜率最小值为 $\\sqrt{\\dfrac{3}{2}}=\\dfrac{\\sqrt{6}}{2}$.</p></li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

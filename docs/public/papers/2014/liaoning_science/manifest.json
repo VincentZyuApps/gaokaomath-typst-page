@@ -1,8 +1,155 @@
 {
-  "title": "2014年普通高等学校招生全国统一考试",
-  "subtitle": "2014年辽宁卷（理）",
   "year": "2014",
   "slug": "liaoning_science",
+  "title": "2014年辽宁卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 24,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +164,9 @@
             "$\\{x\\mid 0 < x < 1\\}$"
           ],
           "answer": "D",
-          "solution": "<p>因为</p>\n$$\nA\\cup B=\\{x\\mid x\\leqslant0\\text{ 或 }x\\geqslant1\\}\n$$\n<p>所以</p>\n$$\n\\complement_{U}(A\\cup B)=\\{x\\mid 0<x<1\\}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>因为</p>\n$$\nA\\cup B=\\{x\\mid x\\leqslant0\\text{ 或 }x\\geqslant1\\}\n$$\n<p>所以</p>\n$$\n\\complement_{U}(A\\cup B)=\\{x\\mid 0<x<1\\}\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +178,9 @@
             "$3 - 2\\mathrm{i}$"
           ],
           "answer": "A",
-          "solution": "<p>由</p>\n$$\nz-2\\mathrm{i}=\\frac{5}{2-\\mathrm{i}}=\\frac{5(2+\\mathrm{i})}{(2-\\mathrm{i})(2+\\mathrm{i})}=2+\\mathrm{i}\n$$\n<p>得 $z=2+3\\mathrm{i}$. 故选 A.</p>"
+          "solution": "<p>由</p>\n$$\nz-2\\mathrm{i}=\\frac{5}{2-\\mathrm{i}}=\\frac{5(2+\\mathrm{i})}{(2-\\mathrm{i})(2+\\mathrm{i})}=2+\\mathrm{i}\n$$\n<p>得 $z=2+3\\mathrm{i}$. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +192,9 @@
             "$c > b > a$"
           ],
           "answer": "C",
-          "solution": "<p>因为</p><p>$b=\\log_{2}\\frac{1}{3}=-\\log_{2} 3<0$，$c=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\log_{2} 3>1$</p><p>而 $0<a=2^{-\\frac{1}{3}}<1$，所以 $c>a>b$. 故选 C.</p>"
+          "solution": "<p>因为</p><p>$b=\\log_{2}\\frac{1}{3}=-\\log_{2} 3<0$，$c=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\log_{2} 3>1$</p><p>而 $0<a=2^{-\\frac{1}{3}}<1$，所以 $c>a>b$. 故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +206,9 @@
             "若 $m \\parallel \\alpha$，$m \\perp n$，则 $n \\perp \\alpha$"
           ],
           "answer": "B",
-          "solution": "<p>若 $m\\perp\\alpha$，则直线 $m$ 的方向垂直于平面 $\\alpha$ 内任意直线的方向. 因此当 $n\\subset\\alpha$ 时，有 $m\\perp n$，选项 B 正确.</p><p>其余选项均不成立：两条都平行于同一平面的直线不一定互相平行；当 $m\\perp\\alpha$ 且 $m\\perp n$ 时，$n$ 也可能是平面 $\\alpha$ 内经过垂足的直线；当 $m\\parallel\\alpha$ 且 $m\\perp n$ 时，$n$ 不一定垂直于 $\\alpha$. 故选 B.</p>"
+          "solution": "<p>若 $m\\perp\\alpha$，则直线 $m$ 的方向垂直于平面 $\\alpha$ 内任意直线的方向. 因此当 $n\\subset\\alpha$ 时，有 $m\\perp n$，选项 B 正确.</p><p>其余选项均不成立：两条都平行于同一平面的直线不一定互相平行；当 $m\\perp\\alpha$ 且 $m\\perp n$ 时，$n$ 也可能是平面 $\\alpha$ 内经过垂足的直线；当 $m\\parallel\\alpha$ 且 $m\\perp n$ 时，$n$ 不一定垂直于 $\\alpha$. 故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +220,9 @@
             "$p \\vee (\\neg q)$"
           ],
           "answer": "A",
-          "solution": "<p>命题 $p$ 不一定成立. 例如取</p><p>$a=c=(1,0,0)$，$b=(0,0,1)$，</p><p>则 $a\\cdot b=b\\cdot c=0$，但 $a\\cdot c=1\\neq0$，所以 $p$ 为假.</p><p>非零向量的平行关系具有传递性，因此由 $a\\parallel b$ 和 $b\\parallel c$ 可得 $a\\parallel c$，命题 $q$ 为真. 所以 $p\\vee q$ 为真，故选 A.</p>"
+          "solution": "<p>命题 $p$ 不一定成立. 例如取</p><p>$a=c=(1,0,0)$，$b=(0,0,1)$，</p><p>则 $a\\cdot b=b\\cdot c=0$，但 $a\\cdot c=1\\neq0$，所以 $p$ 为假.</p><p>非零向量的平行关系具有传递性，因此由 $a\\parallel b$ 和 $b\\parallel c$ 可得 $a\\parallel c$，命题 $q$ 为真. 所以 $p\\vee q$ 为真，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,11 +234,13 @@
             "24"
           ],
           "answer": "D",
-          "solution": "<p>先从 6 把椅子中选出 3 把互不相邻的椅子. 设选中的椅子编号为 $i_{1}<i_{2}<i_{3}$，则 $i_{2}-i_{1}\\geqslant2$，$i_{3}-i_{2}\\geqslant2$. 令</p><p>$j_{1}=i_{1}$，$j_{2}=i_{2}-1$，$j_{3}=i_{3}-2$，</p><p>则 $1\\le j_{1}<j_{2}<j_{3}\\leqslant4$，所以选椅子的方式有 $\\mathrm{C}_{4}^{3}=4$ 种.</p><p>3 人就座的排列有 $3!=6$ 种，故坐法种数为</p>\n$$\n\\mathrm{C}_{4}^{3}\\cdot3!=4\\cdot6=24\n$$\n<p>故选 D.</p>"
+          "solution": "<p>先从 6 把椅子中选出 3 把互不相邻的椅子. 设选中的椅子编号为 $i_{1}<i_{2}<i_{3}$，则 $i_{2}-i_{1}\\geqslant2$，$i_{3}-i_{2}\\geqslant2$. 令</p><p>$j_{1}=i_{1}$，$j_{2}=i_{2}-1$，$j_{3}=i_{3}-2$，</p><p>则 $1\\le j_{1}<j_{2}<j_{3}\\leqslant4$，所以选椅子的方式有 $\\mathrm{C}_{4}^{3}=4$ 种.</p><p>3 人就座的排列有 $3!=6$ 种，故坐法种数为</p>\n$$\n\\mathrm{C}_{4}^{3}\\cdot3!=4\\cdot6=24\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
-          "body": "<p>某几何体三视图如图所示，则该几何体的体积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>某几何体三视图如图所示，则该几何体的体积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/liaoning_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$8 - 2\\pi$",
             "$8 - \\pi$",
@@ -89,7 +248,9 @@
             "$8 - \\frac{\\pi}{4}$"
           ],
           "answer": "B",
-          "solution": "<p>由主视图和左视图可知，几何体的高为 $2$，俯视图中的外框为边长 $2$ 的正方形. 俯视图中被去掉的两块均为半径 $1$ 的四分之一圆，故底面积为</p>\n$$\nS=2\\times2-2\\times\\frac{1}{4}\\pi\\times1^{2}=4-\\frac{\\pi}{2}\n$$\n<p>因此几何体的体积为</p>\n$$\nV=2S=2\\left(4-\\frac{\\pi}{2}\\right)=8-\\pi\n$$\n<p>故选 B.</p>"
+          "solution": "<p>由主视图和左视图可知，几何体的高为 $2$，俯视图中的外框为边长 $2$ 的正方形. 俯视图中被去掉的两块均为半径 $1$ 的四分之一圆，故底面积为</p>\n$$\nS=2\\times2-2\\times\\frac{1}{4}\\pi\\times1^{2}=4-\\frac{\\pi}{2}\n$$\n<p>因此几何体的体积为</p>\n$$\nV=2S=2\\left(4-\\frac{\\pi}{2}\\right)=8-\\pi\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +262,9 @@
             "$a_{1}d < 0$"
           ],
           "answer": "D",
-          "solution": "<p>由等差数列的通项公式，$a_{n+1}-a_{n}=d$. 由于底数 $2>1$，数列 $\\{2^{a_1a_n}\\}$ 递减等价于指数数列 $\\{a_{1}a_{n}\\}$ 递减，即</p>\n$$\na_{1}a_{n+1}<a_{1}a_{n}\n$$\n<p>两边相减得 $a_{1}(a_{n+1}-a_{n})=a_{1}d<0$. 故选 D.</p>"
+          "solution": "<p>由等差数列的通项公式，$a_{n+1}-a_{n}=d$. 由于底数 $2>1$，数列 $\\{2^{a_1a_n}\\}$ 递减等价于指数数列 $\\{a_{1}a_{n}\\}$ 递减，即</p>\n$$\na_{1}a_{n+1}<a_{1}a_{n}\n$$\n<p>两边相减得 $a_{1}(a_{n+1}-a_{n})=a_{1}d<0$. 故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +276,9 @@
             "在区间 $\\left[-\\frac{\\pi}{6},\\frac{\\pi}{3}\\right]$ 上单调递增"
           ],
           "answer": "B",
-          "solution": "<p>图象向右平移 $\\frac{\\pi}{2}$ 后，函数变为</p>\n$$\ny=3\\sin\\left(2\\left(x-\\frac{\\pi}{2}\\right)+\\frac{\\pi}{3}\\right)=3\\sin\\left(2x-\\frac{2\\pi}{3}\\right)\n$$\n<p>其导数为</p>\n$$\ny'=6\\cos\\left(2x-\\frac{2\\pi}{3}\\right)\n$$\n<p>当 $x\\in\\left[\\frac{\\pi}{12},\\frac{7\\pi}{12}\\right]$ 时，</p>\n$$\n2x-\\frac{2\\pi}{3}\\in\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]\n$$\n<p>从而 $y'\\geqslant0$，函数在该区间上单调递增. 故选 B.</p>"
+          "solution": "<p>图象向右平移 $\\frac{\\pi}{2}$ 后，函数变为</p>\n$$\ny=3\\sin\\left(2\\left(x-\\frac{\\pi}{2}\\right)+\\frac{\\pi}{3}\\right)=3\\sin\\left(2x-\\frac{2\\pi}{3}\\right)\n$$\n<p>其导数为</p>\n$$\ny'=6\\cos\\left(2x-\\frac{2\\pi}{3}\\right)\n$$\n<p>当 $x\\in\\left[\\frac{\\pi}{12},\\frac{7\\pi}{12}\\right]$ 时，</p>\n$$\n2x-\\frac{2\\pi}{3}\\in\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]\n$$\n<p>从而 $y'\\geqslant0$，函数在该区间上单调递增. 故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +290,9 @@
             "$\\frac{4}{3}$"
           ],
           "answer": "D",
-          "solution": "<p>抛物线 $y^{2}=2px$ 的准线为 $x=-\\frac{p}{2}$. 由点 $A(-2,3)$ 在准线上，得 $p=4$，所以抛物线为 $y^{2}=8x$，焦点为 $F(2,0)$.</p><p>设切点 $B=(x_{1},y_{1})$，其中 $x_{1}>0$，$y_{1}>0$. 抛物线的切线方程为</p>\n$$\nyy_{1}=4(x+x_{1})\n$$\n<p>由于点 $A$ 在切线上，且 $y_{1}^{2}=8x_{1}$，有</p>\n$$\n3y_{1}=4(x_{1}-2)=\\frac{y_{1}^{2}}{2}-8\n$$\n<p>所以</p>\n$$\ny_{1}^{2}-6y_{1}-16=0\n$$\n<p>即 $(y_{1}-8)(y_{1}+2)=0$. 由 $y_{1}>0$，得 $y_{1}=8$，进而 $x_{1}=8$. 因此</p>\n$$\nk_{BF}=\\frac{8-0}{8-2}=\\frac{4}{3}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>抛物线 $y^{2}=2px$ 的准线为 $x=-\\frac{p}{2}$. 由点 $A(-2,3)$ 在准线上，得 $p=4$，所以抛物线为 $y^{2}=8x$，焦点为 $F(2,0)$.</p><p>设切点 $B=(x_{1},y_{1})$，其中 $x_{1}>0$，$y_{1}>0$. 抛物线的切线方程为</p>\n$$\nyy_{1}=4(x+x_{1})\n$$\n<p>由于点 $A$ 在切线上，且 $y_{1}^{2}=8x_{1}$，有</p>\n$$\n3y_{1}=4(x_{1}-2)=\\frac{y_{1}^{2}}{2}-8\n$$\n<p>所以</p>\n$$\ny_{1}^{2}-6y_{1}-16=0\n$$\n<p>即 $(y_{1}-8)(y_{1}+2)=0$. 由 $y_{1}>0$，得 $y_{1}=8$，进而 $x_{1}=8$. 因此</p>\n$$\nk_{BF}=\\frac{8-0}{8-2}=\\frac{4}{3}\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +304,9 @@
             "$[-4, - 3]$"
           ],
           "answer": "C",
-          "solution": "<p>令</p>\n$$\nF_{a}(x)=ax^{3}-x^{2}+4x+3\n$$\n<p>由题意，取 $x=-1$ 和 $x=1$，分别得到</p><p>$-a-2=F_{a}(-1)\\geqslant0$，$a+6=F_{a}(1)\\geqslant0$.</p><p>所以必须有 $a\\le-2$ 且 $a\\ge-6$，即 $a\\in[-6,-2]$.</p><p>反之，若 $a\\in[-6,-2]$，当 $x\\in[-2,0]$ 时，令 $t=-x$，则 $t\\in[0,2]$，且</p>\n$$\nF_{a}(x)=-at^{3}-t^{2}-4t+3  \\geqslant2t^{3}-t^{2}-4t+3  =(t-1)^{2}(2t+3)\\geqslant0\n$$\n<p>当 $x\\in[0,1]$ 时，由 $a\\ge-6$ 得</p>\n$$\nF_{a}(x)\\ge-6x^{3}-x^{2}+4x+3  =(1-x)(6x^{2}+7x+3)\\geqslant0\n$$\n<p>因此不等式在整个区间 $[-2,1]$ 上恒成立的充要条件是 $a\\in[-6,-2]$，故选 C.</p>"
+          "solution": "<p>令</p>\n$$\nF_{a}(x)=ax^{3}-x^{2}+4x+3\n$$\n<p>由题意，取 $x=-1$ 和 $x=1$，分别得到</p><p>$-a-2=F_{a}(-1)\\geqslant0$，$a+6=F_{a}(1)\\geqslant0$.</p><p>所以必须有 $a\\le-2$ 且 $a\\ge-6$，即 $a\\in[-6,-2]$.</p><p>反之，若 $a\\in[-6,-2]$，当 $x\\in[-2,0]$ 时，令 $t=-x$，则 $t\\in[0,2]$，且</p>\n$$\nF_{a}(x)=-at^{3}-t^{2}-4t+3  \\geqslant2t^{3}-t^{2}-4t+3  =(t-1)^{2}(2t+3)\\geqslant0\n$$\n<p>当 $x\\in[0,1]$ 时，由 $a\\ge-6$ 得</p>\n$$\nF_{a}(x)\\ge-6x^{3}-x^{2}+4x+3  =(1-x)(6x^{2}+7x+3)\\geqslant0\n$$\n<p>因此不等式在整个区间 $[-2,1]$ 上恒成立的充要条件是 $a\\in[-6,-2]$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +318,9 @@
             "$\\frac{1}{8}$"
           ],
           "answer": "B",
-          "solution": "<p>对任意 $0\\le x<y\\leqslant1$，由题设有 $|f(x)-f(y)|<\\frac{1}{2}(y-x)$. 当 $(x,y)\\neq(0,1)$ 时，由 $f(0)=f(1)=0$ 及题设，</p>\n$$\n|f(x)-f(y)|\\le|f(x)-f(0)|+|f(1)-f(y)|<\\frac{1}{2}x+\\frac{1}{2}(1-y)=\\frac{1}{2}(1-y+x)\n$$\n<p>因此</p>\n$$\n|f(x)-f(y)|<\\frac{1}{2}\\min\\{y-x,1-y+x\\}\\le\\frac{1}{4}\n$$\n<p>若 $(x,y)=(0,1)$，则 $|f(x)-f(y)|=0<\\frac{1}{4}$，所以结论对任意 $x<y$ 都成立.</p><p>交换 $x$，$y$ 后结论对任意两个点都成立，所以 $k=\\frac{1}{4}$ 可以满足条件.</p><p>下面说明这个常数不能再减小. 对任意 $0<\\varepsilon<\\frac{1}{2}$，令</p>\n$$\nf_{\\varepsilon}(x)=\\left(\\frac{1}{2}-\\varepsilon\\right)\\min\\{x,1-x\\}\n$$\n<p>该函数满足 $f_{\\varepsilon}(0)=f_{\\varepsilon}(1)=0$，且其 Lipschitz 常数为 $\\frac{1}{2}-\\varepsilon<\\frac{1}{2}$，所以满足题设条件. 但</p>\n$$\n\\left|f_{\\varepsilon}\\left(\\frac{1}{2}\\right)-f_{\\varepsilon}(0)\\right|=\\frac{1}{4}-\\frac{\\varepsilon}{2}\n$$\n<p>令 $\\varepsilon$ 充分接近 $0$，这个差值可任意接近 $\\frac{1}{4}$，故任何小于 $\\frac{1}{4}$ 的常数都不能对所有这样的函数成立. 因此 $k$ 的最小值为 $\\frac{1}{4}$，故选 B.</p>"
+          "solution": "<p>对任意 $0\\le x<y\\leqslant1$，由题设有 $|f(x)-f(y)|<\\frac{1}{2}(y-x)$. 当 $(x,y)\\neq(0,1)$ 时，由 $f(0)=f(1)=0$ 及题设，</p>\n$$\n|f(x)-f(y)|\\le|f(x)-f(0)|+|f(1)-f(y)|<\\frac{1}{2}x+\\frac{1}{2}(1-y)=\\frac{1}{2}(1-y+x)\n$$\n<p>因此</p>\n$$\n|f(x)-f(y)|<\\frac{1}{2}\\min\\{y-x,1-y+x\\}\\le\\frac{1}{4}\n$$\n<p>若 $(x,y)=(0,1)$，则 $|f(x)-f(y)|=0<\\frac{1}{4}$，所以结论对任意 $x<y$ 都成立.</p><p>交换 $x$，$y$ 后结论对任意两个点都成立，所以 $k=\\frac{1}{4}$ 可以满足条件.</p><p>下面说明这个常数不能再减小. 对任意 $0<\\varepsilon<\\frac{1}{2}$，令</p>\n$$\nf_{\\varepsilon}(x)=\\left(\\frac{1}{2}-\\varepsilon\\right)\\min\\{x,1-x\\}\n$$\n<p>该函数满足 $f_{\\varepsilon}(0)=f_{\\varepsilon}(1)=0$，且其 Lipschitz 常数为 $\\frac{1}{2}-\\varepsilon<\\frac{1}{2}$，所以满足题设条件. 但</p>\n$$\n\\left|f_{\\varepsilon}\\left(\\frac{1}{2}\\right)-f_{\\varepsilon}(0)\\right|=\\frac{1}{4}-\\frac{\\varepsilon}{2}\n$$\n<p>令 $\\varepsilon$ 充分接近 $0$，这个差值可任意接近 $\\frac{1}{4}$，故任何小于 $\\frac{1}{4}$ 的常数都不能对所有这样的函数成立. 因此 $k$ 的最小值为 $\\frac{1}{4}$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -158,31 +329,39 @@
       "problems": [
         {
           "num": 13,
-          "body": "<p>执行如图的程序框图，若输入 $x = 9$，则输出 $y =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{29}{9}$",
-          "solution": "<p>输入 $x=9$ 后，第一次计算得到 $y=\\frac{9}{3}+2=5$，且 $|y-x|=4\\geqslant1$，于是令 $x=5$.</p><p>第二次计算得到 $y=\\frac{5}{3}+2=\\frac{11}{3}$，且 $|y-x|=\\frac{4}{3}\\geqslant1$，于是令 $x=\\frac{11}{3}$.</p><p>第三次计算得到</p><p>$y=\\frac{\\frac{11}{3}}{3}+2=\\frac{29}{9}$，$|y-x|=\\left|\\frac{29}{9}-\\frac{11}{3}\\right|=\\frac{4}{9}<1$.</p><p>此时满足判断条件，输出 $y=\\frac{29}{9}$.</p>"
+          "body": "<p>执行如图的程序框图，若输入 $x = 9$，则输出 $y =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/liaoning_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{29}{9}\\)",
+          "solution": "<p>输入 $x=9$ 后，第一次计算得到 $y=\\frac{9}{3}+2=5$，且 $|y-x|=4\\geqslant1$，于是令 $x=5$.</p><p>第二次计算得到 $y=\\frac{5}{3}+2=\\frac{11}{3}$，且 $|y-x|=\\frac{4}{3}\\geqslant1$，于是令 $x=\\frac{11}{3}$.</p><p>第三次计算得到</p><p>$y=\\frac{\\frac{11}{3}}{3}+2=\\frac{29}{9}$，$|y-x|=\\left|\\frac{29}{9}-\\frac{11}{3}\\right|=\\frac{4}{9}<1$.</p><p>此时满足判断条件，输出 $y=\\frac{29}{9}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
-          "body": "<p>正方形的四个顶点 $A(-1, -1)$，$B(1, -1)$，$C(1, 1)$，$D(-1, 1)$ 分别在抛物线 $y = -x^{2}$ 和 $y = x^{2}$ 上，如图所示，若将一个质点随机投入正方形 $ABCD$ 中，则质点落在阴影区域的概率是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_science/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{2}{3}$",
-          "solution": "<p>正方形 $ABCD$ 的面积为 $4$. 阴影区域由上、下两部分组成，上部面积为</p>\n$$\n\\int_{-1}^{1}(1-x^{2})\\,\\mathrm{d}x=\\frac{4}{3}\n$$\n<p>下部与上部关于原点中心对称，面积也为 $\\frac{4}{3}$. 因此阴影区域面积为 $\\frac{8}{3}$，所求概率为</p>\n$$\n\\frac{\\frac{8}{3}}{4}=\\frac{2}{3}\n$$"
+          "body": "<p>正方形的四个顶点 $A(-1, -1)$，$B(1, -1)$，$C(1, 1)$，$D(-1, 1)$ 分别在抛物线 $y = -x^{2}$ 和 $y = x^{2}$ 上，如图所示，若将一个质点随机投入正方形 $ABCD$ 中，则质点落在阴影区域的概率是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/liaoning_science/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{2}{3}\\)",
+          "solution": "<p>正方形 $ABCD$ 的面积为 $4$. 阴影区域由上、下两部分组成，上部面积为</p>\n$$\n\\int_{-1}^{1}(1-x^{2})\\,\\mathrm{d}x=\\frac{4}{3}\n$$\n<p>下部与上部关于原点中心对称，面积也为 $\\frac{4}{3}$. 因此阴影区域面积为 $\\frac{8}{3}$，所求概率为</p>\n$$\n\\frac{\\frac{8}{3}}{4}=\\frac{2}{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "已知椭圆 $C: \\frac{x^{2}}{9}+ \\frac{y^{2}}{4}= 1$，点 $M$ 与 $C$ 的焦点不重合，若 $M$ 关于 $C$ 的焦点的对称点分别为 $A$，$B$，线段 $MN$ 的中点在 $C$ 上，则 $|AN| + |BN| =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$12$",
-          "solution": "<p>椭圆 $C$ 的长半轴为 $3$. 设其两个焦点为 $F_{1}$，$F_{2}$，设线段 $MN$ 的中点为 $N_{0}$，则 $N_{0}\\in C$. 由中心对称关系，</p><p>$A=2F_{1}-M$，$B=2F_{2}-M$，$N=2N_{0}-M$.</p><p>从而</p><p>$|AN|=|2F_{1}-2N_{0}|=2|F_{1}N_{0}|$，$|BN|=2|F_{2}N_{0}|$.</p><p>又椭圆的定义给出</p>\n$$\n|F_{1}N_{0}|+|F_{2}N_{0}|=2\\times3=6\n$$\n<p>所以</p>\n$$\n|AN|+|BN|=2\\bigl(|F_{1}N_{0}|+|F_{2}N_{0}|\\bigr)=12\n$$"
+          "choices": [],
+          "answer": "\\(12\\)",
+          "solution": "<p>椭圆 $C$ 的长半轴为 $3$. 设其两个焦点为 $F_{1}$，$F_{2}$，设线段 $MN$ 的中点为 $N_{0}$，则 $N_{0}\\in C$. 由中心对称关系，</p><p>$A=2F_{1}-M$，$B=2F_{2}-M$，$N=2N_{0}-M$.</p><p>从而</p><p>$|AN|=|2F_{1}-2N_{0}|=2|F_{1}N_{0}|$，$|BN|=2|F_{2}N_{0}|$.</p><p>又椭圆的定义给出</p>\n$$\n|F_{1}N_{0}|+|F_{2}N_{0}|=2\\times3=6\n$$\n<p>所以</p>\n$$\n|AN|+|BN|=2\\bigl(|F_{1}N_{0}|+|F_{2}N_{0}|\\bigr)=12\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "对于 $c > 0$，当非零实数 $a$，$b$ 满足 $4a^{2} - 2ab + 4b^{2} - c = 0$ 且使 $|2a + b|$ 最大时，$\\frac{3}{a}- \\frac{4}{b}+ \\frac{5}{c}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-2$",
-          "solution": "<p>有恒等式</p>\n$$\n\\frac{8}{5}\\left(4a^{2}-2ab+4b^{2}\\right)-(2a+b)^{2}=\\frac{3}{5}(2a-3b)^{2}\\geqslant0\n$$\n<p>由题设得</p>\n$$\n|2a+b|\\le\\sqrt{\\frac{8c}{5}}\n$$\n<p>且等号成立当且仅当 $2a=3b$. 因此在 $|2a+b|$ 取得最大值时，可设</p><p>$a=3t$，$b=2t$，$40t^{2}=c$，$t\\neq0$.</p><p>此时</p>\n$$\n\\frac{3}{a}-\\frac{4}{b}+\\frac{5}{c}=\\frac{1}{t}-\\frac{2}{t}+\\frac{5}{40t^{2}}=-\\frac{1}{t}+\\frac{1}{8t^{2}}\n$$\n<p>对固定的 $c$，取正的 $t$ 可使上式小于取负的 $t$，所以令 $u=\\frac{1}{t}>0$，问题化为求</p>\n$$\n\\frac{u^{2}}{8}-u=\\frac{1}{8}(u-4)^{2}-2\n$$\n<p>的最小值. 当 $u=4$ 时取得；由于 $c=40t^{2}$，且 $c$ 可取任意正数，$u$ 确实可取任意正数. 故最小值为 $-2$.</p>"
+          "choices": [],
+          "answer": "\\(-2\\)",
+          "solution": "<p>有恒等式</p>\n$$\n\\frac{8}{5}\\left(4a^{2}-2ab+4b^{2}\\right)-(2a+b)^{2}=\\frac{3}{5}(2a-3b)^{2}\\geqslant0\n$$\n<p>由题设得</p>\n$$\n|2a+b|\\le\\sqrt{\\frac{8c}{5}}\n$$\n<p>且等号成立当且仅当 $2a=3b$. 因此在 $|2a+b|$ 取得最大值时，可设</p><p>$a=3t$，$b=2t$，$40t^{2}=c$，$t\\neq0$.</p><p>此时</p>\n$$\n\\frac{3}{a}-\\frac{4}{b}+\\frac{5}{c}=\\frac{1}{t}-\\frac{2}{t}+\\frac{5}{40t^{2}}=-\\frac{1}{t}+\\frac{1}{8t^{2}}\n$$\n<p>对固定的 $c$，取正的 $t$ 可使上式小于取负的 $t$，所以令 $u=\\frac{1}{t}>0$，问题化为求</p>\n$$\n\\frac{u^{2}}{8}-u=\\frac{1}{8}(u-4)^{2}-2\n$$\n<p>的最小值. 当 $u=4$ 时取得；由于 $c=40t^{2}$，且 $c$ 可取任意正数，$u$ 确实可取任意正数. 故最小值为 $-2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,37 +371,47 @@
         {
           "num": 17,
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，且 $a > c$，已知 $\\overrightarrow{BA}\\cdot \\overrightarrow{BC}= 2$，$\\cos B = \\frac{1}{3}$，$b = 3$，求：</p><ol class=\"enumerate\"><li><p>$a$ 和 $c$ 的值；</p></li><li><p>$\\cos (B - C)$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为 $\\lvert\\overrightarrow{BA}\\rvert=c$，$\\lvert\\overrightarrow{BC}\\rvert=a$，所以</p>\n$$\n\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=ac\\cos B=\\frac{ac}{3}=2\n$$\n<p>从而 $ac=6$. 又由余弦定理，</p>\n$$\nb^{2}=a^{2}+c^{2}-2ac\\cos B=a^{2}+c^{2}-4\n$$\n<p>代入 $b=3$，得 $a^{2}+c^{2}=13$. 因此</p>\n$$\n(a+c)^{2}=a^{2}+c^{2}+2ac=25\n$$\n<p>由于 $a$，$c$ 是边长，$a+c=5$，所以 $a$，$c$ 是方程</p>\n$$\nt^{2}-5t+6=0\n$$\n<p>的两个根，即 $a$，$c$ 为 $2$，$3$. 由 $a>c$，得</p><p>$a=3$，$c=2$.</p><p>再由余弦定理，</p>\n$$\nc^{2}=a^{2}+b^{2}-2ab\\cos C\n$$\n<p>所以</p><p>$4=9+9-18\\cos C$，$\\cos C=\\frac{7}{9}$.</p><p>因为 $B$，$C$ 是三角形内角，</p><p>$\\sin B=\\frac{2\\sqrt{2}}{3}$，$\\sin C=\\sqrt{1-\\frac{49}{81}}=\\frac{4\\sqrt{2}}{9}$.</p><p>于是</p>\n$$\n\\cos(B-C)=\\cos B\\cos C+\\sin B\\sin C  =\\frac{1}{3}\\cdot\\frac{7}{9}+\\frac{2\\sqrt{2}}{3}\\cdot\\frac{4\\sqrt{2}}{9}=\\frac{23}{27}\n$$"
+          "solution": "<p>因为 $\\lvert\\overrightarrow{BA}\\rvert=c$，$\\lvert\\overrightarrow{BC}\\rvert=a$，所以</p>\n$$\n\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=ac\\cos B=\\frac{ac}{3}=2\n$$\n<p>从而 $ac=6$. 又由余弦定理，</p>\n$$\nb^{2}=a^{2}+c^{2}-2ac\\cos B=a^{2}+c^{2}-4\n$$\n<p>代入 $b=3$，得 $a^{2}+c^{2}=13$. 因此</p>\n$$\n(a+c)^{2}=a^{2}+c^{2}+2ac=25\n$$\n<p>由于 $a$，$c$ 是边长，$a+c=5$，所以 $a$，$c$ 是方程</p>\n$$\nt^{2}-5t+6=0\n$$\n<p>的两个根，即 $a$，$c$ 为 $2$，$3$. 由 $a>c$，得</p><p>$a=3$，$c=2$.</p><p>再由余弦定理，</p>\n$$\nc^{2}=a^{2}+b^{2}-2ab\\cos C\n$$\n<p>所以</p><p>$4=9+9-18\\cos C$，$\\cos C=\\frac{7}{9}$.</p><p>因为 $B$，$C$ 是三角形内角，</p><p>$\\sin B=\\frac{2\\sqrt{2}}{3}$，$\\sin C=\\sqrt{1-\\frac{49}{81}}=\\frac{4\\sqrt{2}}{9}$.</p><p>于是</p>\n$$\n\\cos(B-C)=\\cos B\\cos C+\\sin B\\sin C  =\\frac{1}{3}\\cdot\\frac{7}{9}+\\frac{2\\sqrt{2}}{3}\\cdot\\frac{4\\sqrt{2}}{9}=\\frac{23}{27}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>一家面包房根据以往某种面包的销售记录，绘制了日销售量的频率分布直方图，如图所示. 将日销售量落入各组的频率视为概率，并假设每天的销售量相互独立.</p><ol class=\"enumerate\"><li><p>求在未来连续 3 天里，有连续 2 天的日销售量都不低于 100 个且另 1 天的日销售量低于 50 个的概率；</p></li><li><p>用 $X$ 表示在未来 3 天里日销售量不低于 100 个的天数，求随机变量 $X$ 的分布列，期望 $E(X)$ 及方差 $D(X)$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>一家面包房根据以往某种面包的销售记录，绘制了日销售量的频率分布直方图，如图所示. 将日销售量落入各组的频率视为概率，并假设每天的销售量相互独立.</p><ol class=\"enumerate\"><li><p>求在未来连续 3 天里，有连续 2 天的日销售量都不低于 100 个且另 1 天的日销售量低于 50 个的概率；</p></li><li><p>用 $X$ 表示在未来 3 天里日销售量不低于 100 个的天数，求随机变量 $X$ 的分布列，期望 $E(X)$ 及方差 $D(X)$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/liaoning_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>由直方图可知各组组距为 $50$，所以日销售量低于 $50$ 个的概率为</p>\n$$\np_{0}=50\\times0.003=0.15=\\frac{3}{20}\n$$\n<p>日销售量不低于 $100$ 个的概率为</p>\n$$\np=50\\times(0.006+0.004+0.002)=0.6=\\frac{3}{5}\n$$\n<p>题目所述事件中，低于 $50$ 个的那一天只能在连续三天的第一天或第三天，因此该事件的概率为</p>\n$$\n2\\times\\frac{3}{20}\\times\\left(\\frac{3}{5}\\right)^{2}  =\\frac{27}{250}\n$$\n<p>三天的销售量相互独立，所以 $X$ 服从参数为 $3$，$\\frac{3}{5}$ 的二项分布. 对 $k=0$，$1$，$2$，$3$，</p>\n$$\nP(X=k)=\\mathrm{C}_{3}^{k}\\left(\\frac{3}{5}\\right)^{k}\\left(\\frac{2}{5}\\right)^{3-k}\n$$\n<p>因此 $X$ 的分布列为</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\dfrac8{125}$ </td><td style=\"text-align: center\"> $\\dfrac{36}{125}$ </td><td style=\"text-align: center\"> $\\dfrac{54}{125}$ </td><td style=\"text-align: center\"> $\\dfrac{27}{125}$</td></tr></tbody></table></center><p>并且</p><p>$E(X)=3\\times\\frac{3}{5}=\\frac{9}{5}$，$D(X)=3\\times\\frac{3}{5}\\times\\frac{2}{5}=\\frac{18}{25}$.</p>"
+          "solution": "<p>由直方图可知各组组距为 $50$，所以日销售量低于 $50$ 个的概率为</p>\n$$\np_{0}=50\\times0.003=0.15=\\frac{3}{20}\n$$\n<p>日销售量不低于 $100$ 个的概率为</p>\n$$\np=50\\times(0.006+0.004+0.002)=0.6=\\frac{3}{5}\n$$\n<p>题目所述事件中，低于 $50$ 个的那一天只能在连续三天的第一天或第三天，因此该事件的概率为</p>\n$$\n2\\times\\frac{3}{20}\\times\\left(\\frac{3}{5}\\right)^{2}  =\\frac{27}{250}\n$$\n<p>三天的销售量相互独立，所以 $X$ 服从参数为 $3$，$\\frac{3}{5}$ 的二项分布. 对 $k=0$，$1$，$2$，$3$，</p>\n$$\nP(X=k)=\\mathrm{C}_{3}^{k}\\left(\\frac{3}{5}\\right)^{k}\\left(\\frac{2}{5}\\right)^{3-k}\n$$\n<p>因此 $X$ 的分布列为</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$P$ </td><td style=\"text-align: center\"> $\\dfrac8{125}$ </td><td style=\"text-align: center\"> $\\dfrac{36}{125}$ </td><td style=\"text-align: center\"> $\\dfrac{54}{125}$ </td><td style=\"text-align: center\"> $\\dfrac{27}{125}$</td></tr></tbody></table></center><p>并且</p><p>$E(X)=3\\times\\frac{3}{5}=\\frac{9}{5}$，$D(X)=3\\times\\frac{3}{5}\\times\\frac{2}{5}=\\frac{18}{25}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>如图，$\\triangle ABC$ 和 $\\triangle BCD$ 所在平面互相垂直，且 $AB = BC = BD = 2$，$\\angle ABC = \\angle DBC = 120^{\\circ}$，$E$，$F$ 分别为 $AC$，$DC$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$EF \\perp BC$；</p></li><li><p>求二面角 $E - BF - C$ 的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，$\\triangle ABC$ 和 $\\triangle BCD$ 所在平面互相垂直，且 $AB = BC = BD = 2$，$\\angle ABC = \\angle DBC = 120^{\\circ}$，$E$，$F$ 分别为 $AC$，$DC$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$EF \\perp BC$；</p></li><li><p>求二面角 $E - BF - C$ 的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/liaoning_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>以 $B$ 为原点，取 $BC$ 所在直线为 $x$ 轴，取三角形 $ABC$ 所在平面为 $xy$ 平面，三角形 $BCD$ 所在平面为 $xz$ 平面. 由题设可取</p><p>$B=(0,0,0)$，$C=(2,0,0)$，$A=(-1,\\sqrt{3},0)$，$D=(-1,0,\\sqrt{3})$.</p><p>于是</p><p>$E=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$F=\\left(\\frac{1}{2},0,\\frac{\\sqrt{3}}{2}\\right)$.</p><p>所以</p><p>$\\overrightarrow{EF}=\\left(0,-\\frac{\\sqrt{3}}{2},\\frac{\\sqrt{3}}{2}\\right)$，$\\overrightarrow{BC}=(2,0,0)$，</p><p>从而 $\\overrightarrow{EF}\\cdot\\overrightarrow{BC}=0$，故 $EF\\perp BC$.</p><p>设二面角 $E-BF-C$ 为 $\\theta$. 平面 $EBF$ 和 $CBF$ 的法向量可分别取</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{BE}\\times\\overrightarrow{BF}=\\left(\\frac{3}{4},-\\frac{\\sqrt{3}}{4},-\\frac{\\sqrt{3}}{4}\\right)\n$$\n\n$$\n\\mathbf{n}_{2}=\\overrightarrow{BC}\\times\\overrightarrow{BF}=(0,-\\sqrt{3},0)\n$$\n<p>于是</p><p>$\\lvert\\mathbf{n}_{1}\\rvert=\\frac{\\sqrt{15}}{4}$，$\\lvert\\mathbf{n}_{2}\\rvert=\\sqrt{3}$，$\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=\\frac{3}{4}$.</p><p>因此</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}}{\\lvert\\mathbf{n}_{1}\\rvert\\lvert\\mathbf{n}_{2}\\rvert}=\\frac{1}{\\sqrt{5}}\n$$\n<p>从而</p>\n$$\n\\sin\\theta=\\sqrt{1-\\frac{1}{5}}=\\frac{2}{\\sqrt{5}}\n$$"
+          "solution": "<p>以 $B$ 为原点，取 $BC$ 所在直线为 $x$ 轴，取三角形 $ABC$ 所在平面为 $xy$ 平面，三角形 $BCD$ 所在平面为 $xz$ 平面. 由题设可取</p><p>$B=(0,0,0)$，$C=(2,0,0)$，$A=(-1,\\sqrt{3},0)$，$D=(-1,0,\\sqrt{3})$.</p><p>于是</p><p>$E=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$F=\\left(\\frac{1}{2},0,\\frac{\\sqrt{3}}{2}\\right)$.</p><p>所以</p><p>$\\overrightarrow{EF}=\\left(0,-\\frac{\\sqrt{3}}{2},\\frac{\\sqrt{3}}{2}\\right)$，$\\overrightarrow{BC}=(2,0,0)$，</p><p>从而 $\\overrightarrow{EF}\\cdot\\overrightarrow{BC}=0$，故 $EF\\perp BC$.</p><p>设二面角 $E-BF-C$ 为 $\\theta$. 平面 $EBF$ 和 $CBF$ 的法向量可分别取</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{BE}\\times\\overrightarrow{BF}=\\left(\\frac{3}{4},-\\frac{\\sqrt{3}}{4},-\\frac{\\sqrt{3}}{4}\\right)\n$$\n\n$$\n\\mathbf{n}_{2}=\\overrightarrow{BC}\\times\\overrightarrow{BF}=(0,-\\sqrt{3},0)\n$$\n<p>于是</p><p>$\\lvert\\mathbf{n}_{1}\\rvert=\\frac{\\sqrt{15}}{4}$，$\\lvert\\mathbf{n}_{2}\\rvert=\\sqrt{3}$，$\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=\\frac{3}{4}$.</p><p>因此</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}}{\\lvert\\mathbf{n}_{1}\\rvert\\lvert\\mathbf{n}_{2}\\rvert}=\\frac{1}{\\sqrt{5}}\n$$\n<p>从而</p>\n$$\n\\sin\\theta=\\sqrt{1-\\frac{1}{5}}=\\frac{2}{\\sqrt{5}}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>圆 $x^{2}+ y^{2}= 4$ 的切线与 $x$ 轴正半轴，$y$ 轴正半轴围成一个三角形，当该三角形面积最小时，切点为 $P$（如图）. 双曲线 $C_{1}: \\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$ 过点 $P$ 且离心率为 $\\sqrt{3}$.</p><ol class=\"enumerate\"><li><p>求 $C_{1}$ 的方程；</p></li><li><p>椭圆 $C_{2}$ 过点 $P$ 且与 $C_{1}$ 有相同的焦点，直线 $l$ 过 $C_{2}$ 的右焦点且与 $C_{2}$ 交于 $A$，$B$ 两点，若以线段 $AB$ 为直径的圆过点 $P$，求 $l$ 的方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>圆 $x^{2}+ y^{2}= 4$ 的切线与 $x$ 轴正半轴，$y$ 轴正半轴围成一个三角形，当该三角形面积最小时，切点为 $P$（如图）. 双曲线 $C_{1}: \\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$ 过点 $P$ 且离心率为 $\\sqrt{3}$.</p><ol class=\"enumerate\"><li><p>求 $C_{1}$ 的方程；</p></li><li><p>椭圆 $C_{2}$ 过点 $P$ 且与 $C_{1}$ 有相同的焦点，直线 $l$ 过 $C_{2}$ 的右焦点且与 $C_{2}$ 交于 $A$，$B$ 两点，若以线段 $AB$ 为直径的圆过点 $P$，求 $l$ 的方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/liaoning_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设切点为 $P=(x_{0},y_{0})$，其中 $x_{0}>0$，$y_{0}>0$. 圆的切线方程为</p>\n$$\nx_{0}x+y_{0}y=4\n$$\n<p>它在两坐标轴正半轴上的截距分别为 $\\frac{4}{x_{0}}$，$\\frac{4}{y_{0}}$，所以三角形面积为</p>\n$$\nS=\\frac{1}{2}\\cdot\\frac{4}{x_{0}}\\cdot\\frac{4}{y_{0}}=\\frac{8}{x_{0}y_{0}}\n$$\n<p>又 $x_{0}^{2}+y_{0}^{2}=4$，故</p>\n$$\nx_{0}y_{0}\\le\\frac{x_{0}^{2}+y_{0}^{2}}{2}=2\n$$\n<p>当且仅当 $x_{0}=y_{0}=\\sqrt{2}$ 时等号成立. 因而面积最小时</p>\n$$\nP=(\\sqrt{2},\\sqrt{2})\n$$\n</li><li><p>双曲线 $C_{1}$ 的离心率满足</p>\n$$\n3=e^{2}=1+\\frac{b^{2}}{a^{2}}\n$$\n<p>所以 $b^{2}=2a^{2}$. 由于 $P\\in C_{1}$，</p>\n$$\n\\frac{2}{a^{2}}-\\frac{2}{b^{2}}=1\n$$\n<p>代入 $b^{2}=2a^{2}$，得 $a^{2}=1$，$b^{2}=2$，故</p><p>$C_{1}\\colon x^{2}-\\frac{y^{2}}{2}=1$.</p><p>双曲线 $C_{1}$ 的焦点为 $(\\pm\\sqrt{3},0)$. 设椭圆 $C_{2}$ 的方程为</p>\n$$\n\\frac{x^{2}}{\\alpha^{2}}+\\frac{y^{2}}{\\beta^{2}}=1\n$$\n<p>它与 $C_{1}$ 有相同焦点，所以 $\\alpha^{2}-\\beta^{2}=3$. 又 $P\\in C_{2}$，故</p>\n$$\n\\frac{2}{\\alpha^{2}}+\\frac{2}{\\beta^{2}}=1\n$$\n<p>联立两式，得 $\\alpha^{2}=6$，$\\beta^{2}=3$，即</p><p>$C_{2}\\colon \\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$.</p><p>记 $C_{2}$ 的右焦点为 $F=(\\sqrt{3},0)$. 先设 $l$ 不是竖直直线，写成</p>\n$$\ny=k(x-\\sqrt{3})\n$$\n<p>用参数 $t$ 表示直线上的点</p>\n$$\nX(t)=(\\sqrt{3}+t,kt)\n$$\n<p>将其代入 $C_{2}$，交点参数 $t_{1}$，$t_{2}$ 是方程</p>\n$$\n(1+2k^{2})t^{2}+2\\sqrt{3}t-3=0\n$$\n<p>的两个根，因此</p><p>$t_{1}+t_{2}=-\\frac{2\\sqrt{3}}{1+2k^{2}}$，$t_{1}t_{2}=-\\frac{3}{1+2k^{2}}$.</p><p>以 $AB$ 为直径的圆过 $P$，等价于</p>\n$$\n(P-X(t_{1}))\\cdot(P-X(t_{2}))=0\n$$\n<p>令 $Q=P-F=(\\sqrt{2}-\\sqrt{3},\\sqrt{2})$，则</p><p>$\\lvert Q\\rvert^{2}=7-2\\sqrt{6}$，$Q\\cdot(1,k)=\\sqrt{2}(1+k)-\\sqrt{3}$.</p><p>利用上面的根和与根积，整理得</p>\n$$\n(7-2\\sqrt{6})(1+2k^{2})+2\\sqrt{3}\\bigl(\\sqrt{2}(1+k)-\\sqrt{3}\\bigr)-3(1+k^{2})=0\n$$\n<p>即</p>\n$$\n(11-4\\sqrt{6})k^{2}+2\\sqrt{6}k-2=0\n$$\n<p>解得</p>\n$$\nk=\\frac{2+3\\sqrt{6}}{25} \\text{或}  k=-(2+\\sqrt{6})\n$$\n<p>竖直直线 $x=\\sqrt{3}$ 与 $C_{2}$ 的交点为 $\\left(\\sqrt{3},\\sqrt{\\frac{3}{2}}\\right)$，$\\left(\\sqrt{3},-\\sqrt{\\frac{3}{2}}\\right)$，此时</p>\n$$\n(P-A)\\cdot(P-B)=\\left(\\sqrt{2}-\\sqrt{3}\\right)^{2}+\\left(\\sqrt{2}-\\sqrt{\\frac{3}{2}}\\right)\\left(\\sqrt{2}+\\sqrt{\\frac{3}{2}}\\right)  =\\frac{11}{2}-2\\sqrt{6}\\neq0\n$$\n<p>所以竖直直线不是所求直线. 因此</p><p>$l\\colon y=\\frac{2+3\\sqrt{6}}{25}(x-\\sqrt{3})  \\text{或}  y=-(2+\\sqrt{6})(x-\\sqrt{3})$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设切点为 $P=(x_{0},y_{0})$，其中 $x_{0}>0$，$y_{0}>0$. 圆的切线方程为</p>\n$$\nx_{0}x+y_{0}y=4\n$$\n<p>它在两坐标轴正半轴上的截距分别为 $\\frac{4}{x_{0}}$，$\\frac{4}{y_{0}}$，所以三角形面积为</p>\n$$\nS=\\frac{1}{2}\\cdot\\frac{4}{x_{0}}\\cdot\\frac{4}{y_{0}}=\\frac{8}{x_{0}y_{0}}\n$$\n<p>又 $x_{0}^{2}+y_{0}^{2}=4$，故</p>\n$$\nx_{0}y_{0}\\le\\frac{x_{0}^{2}+y_{0}^{2}}{2}=2\n$$\n<p>当且仅当 $x_{0}=y_{0}=\\sqrt{2}$ 时等号成立. 因而面积最小时</p>\n$$\nP=(\\sqrt{2},\\sqrt{2})\n$$\n</li><li><p>双曲线 $C_{1}$ 的离心率满足</p>\n$$\n3=e^{2}=1+\\frac{b^{2}}{a^{2}}\n$$\n<p>所以 $b^{2}=2a^{2}$. 由于 $P\\in C_{1}$，</p>\n$$\n\\frac{2}{a^{2}}-\\frac{2}{b^{2}}=1\n$$\n<p>代入 $b^{2}=2a^{2}$，得 $a^{2}=1$，$b^{2}=2$，故</p><p>$C_{1}\\colon x^{2}-\\frac{y^{2}}{2}=1$.</p><p>双曲线 $C_{1}$ 的焦点为 $(\\pm\\sqrt{3},0)$. 设椭圆 $C_{2}$ 的方程为</p>\n$$\n\\frac{x^{2}}{\\alpha^{2}}+\\frac{y^{2}}{\\beta^{2}}=1\n$$\n<p>它与 $C_{1}$ 有相同焦点，所以 $\\alpha^{2}-\\beta^{2}=3$. 又 $P\\in C_{2}$，故</p>\n$$\n\\frac{2}{\\alpha^{2}}+\\frac{2}{\\beta^{2}}=1\n$$\n<p>联立两式，得 $\\alpha^{2}=6$，$\\beta^{2}=3$，即</p><p>$C_{2}\\colon \\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$.</p><p>记 $C_{2}$ 的右焦点为 $F=(\\sqrt{3},0)$. 先设 $l$ 不是竖直直线，写成</p>\n$$\ny=k(x-\\sqrt{3})\n$$\n<p>用参数 $t$ 表示直线上的点</p>\n$$\nX(t)=(\\sqrt{3}+t,kt)\n$$\n<p>将其代入 $C_{2}$，交点参数 $t_{1}$，$t_{2}$ 是方程</p>\n$$\n(1+2k^{2})t^{2}+2\\sqrt{3}t-3=0\n$$\n<p>的两个根，因此</p><p>$t_{1}+t_{2}=-\\frac{2\\sqrt{3}}{1+2k^{2}}$，$t_{1}t_{2}=-\\frac{3}{1+2k^{2}}$.</p><p>以 $AB$ 为直径的圆过 $P$，等价于</p>\n$$\n(P-X(t_{1}))\\cdot(P-X(t_{2}))=0\n$$\n<p>令 $Q=P-F=(\\sqrt{2}-\\sqrt{3},\\sqrt{2})$，则</p><p>$\\lvert Q\\rvert^{2}=7-2\\sqrt{6}$，$Q\\cdot(1,k)=\\sqrt{2}(1+k)-\\sqrt{3}$.</p><p>利用上面的根和与根积，整理得</p>\n$$\n(7-2\\sqrt{6})(1+2k^{2})+2\\sqrt{3}\\bigl(\\sqrt{2}(1+k)-\\sqrt{3}\\bigr)-3(1+k^{2})=0\n$$\n<p>即</p>\n$$\n(11-4\\sqrt{6})k^{2}+2\\sqrt{6}k-2=0\n$$\n<p>解得</p>\n$$\nk=\\frac{2+3\\sqrt{6}}{25} \\text{或}  k=-(2+\\sqrt{6})\n$$\n<p>竖直直线 $x=\\sqrt{3}$ 与 $C_{2}$ 的交点为 $\\left(\\sqrt{3},\\sqrt{\\frac{3}{2}}\\right)$，$\\left(\\sqrt{3},-\\sqrt{\\frac{3}{2}}\\right)$，此时</p>\n$$\n(P-A)\\cdot(P-B)=\\left(\\sqrt{2}-\\sqrt{3}\\right)^{2}+\\left(\\sqrt{2}-\\sqrt{\\frac{3}{2}}\\right)\\left(\\sqrt{2}+\\sqrt{\\frac{3}{2}}\\right)  =\\frac{11}{2}-2\\sqrt{6}\\neq0\n$$\n<p>所以竖直直线不是所求直线. 因此</p><p>$l\\colon y=\\frac{2+3\\sqrt{6}}{25}(x-\\sqrt{3})  \\text{或}  y=-(2+\\sqrt{6})(x-\\sqrt{3})$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知函数 $f(x) = (\\cos x - x)(\\pi + 2x) - \\frac{8}{3}(\\sin x + 1)$，$g(x) = 3(x - \\pi)\\cos x - 4(1 + \\sin x)\\ln \\left(3 - \\frac{2x}{\\pi}\\right)$.</p><ol class=\"enumerate\"><li><p>证明：存在唯一 $x_{0} \\in \\left(0, \\frac{\\pi}{2}\\right)$，使 $f(x_{0}) = 0$；</p></li><li><p>证明：存在唯一 $x_{1}\\in \\left(\\frac{\\pi}{2}, \\pi\\right)$，使 $g(x_{1}) = 0$，且对（1）中的 $x_{0}$，有 $x_{0}+ x_{1}< \\pi$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，</p>\n$$\nf'(x)=-(\\pi+2x)(1+\\sin x)-2x-\\frac{2}{3}\\cos x<0\n$$\n<p>又</p><p>$f(0)=\\pi-\\frac{8}{3}>0$，$f\\left(\\frac{\\pi}{2}\\right)=-\\pi^{2}-\\frac{16}{3}<0$.</p><p>所以由零点存在定理，存在 $x_{0}\\in\\left(0,\\frac{\\pi}{2}\\right)$ 使 $f(x_{0})=0$，并由 $f$ 的严格单调性知该零点唯一.</p></li><li><p>令 $t=\\pi-x$，则 $t\\in\\left(0,\\frac{\\pi}{2}\\right)$，并定义</p>\n$$\nH(t)=\\frac{3t\\cos t}{4(1+\\sin t)}-\\ln\\left(1+\\frac{2t}{\\pi}\\right)\n$$\n<p>直接代入可得</p>\n$$\ng(\\pi-t)=4(1+\\sin t)H(t)\n$$\n<p>由</p>\n$$\nH'(t)=\\frac{3(\\cos t-t)}{4(1+\\sin t)}-\\frac{2}{\\pi+2t}=\\frac{3f(t)}{4(\\pi+2t)(1+\\sin t)}\n$$\n<p>在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，分母为正，而 $f$ 在前面已证明严格递减且唯一零点为 $x_{0}$，所以 $H$ 在 $\\left(0,x_{0}\\right)$ 上严格递增，在 $\\left(x_{0},\\frac{\\pi}{2}\\right)$ 上严格递减. 又</p><p>$H(0)=0$，$H\\left(\\frac{\\pi}{2}\\right)=-\\ln2<0$.</p><p>因此 $H(t)>0$（$0<t\\le x_{0}$），并由零点存在定理及严格单调性，存在唯一</p><p>$t_{1}\\in\\left(x_{0},\\frac{\\pi}{2}\\right)$ 使 $H(t_{1})=0$. 由于</p><p>$g(\\pi-t)=4(1+\\sin t)H(t)$，且 $1+\\sin t>0$，故</p>\n$$\nx_{1}=\\pi-t_{1}\n$$\n<p>是 $\\left(\\frac{\\pi}{2},\\pi\\right)$ 内 $g(x)=0$ 的唯一解. 最后 $t_{1}>x_{0}$，所以</p>\n$$\nx_{0}+x_{1}=x_{0}+\\pi-t_{1}<\\pi\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，</p>\n$$\nf'(x)=-(\\pi+2x)(1+\\sin x)-2x-\\frac{2}{3}\\cos x<0\n$$\n<p>又</p><p>$f(0)=\\pi-\\frac{8}{3}>0$，$f\\left(\\frac{\\pi}{2}\\right)=-\\pi^{2}-\\frac{16}{3}<0$.</p><p>所以由零点存在定理，存在 $x_{0}\\in\\left(0,\\frac{\\pi}{2}\\right)$ 使 $f(x_{0})=0$，并由 $f$ 的严格单调性知该零点唯一.</p></li><li><p>令 $t=\\pi-x$，则 $t\\in\\left(0,\\frac{\\pi}{2}\\right)$，并定义</p>\n$$\nH(t)=\\frac{3t\\cos t}{4(1+\\sin t)}-\\ln\\left(1+\\frac{2t}{\\pi}\\right)\n$$\n<p>直接代入可得</p>\n$$\ng(\\pi-t)=4(1+\\sin t)H(t)\n$$\n<p>由</p>\n$$\nH'(t)=\\frac{3(\\cos t-t)}{4(1+\\sin t)}-\\frac{2}{\\pi+2t}=\\frac{3f(t)}{4(\\pi+2t)(1+\\sin t)}\n$$\n<p>在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，分母为正，而 $f$ 在前面已证明严格递减且唯一零点为 $x_{0}$，所以 $H$ 在 $\\left(0,x_{0}\\right)$ 上严格递增，在 $\\left(x_{0},\\frac{\\pi}{2}\\right)$ 上严格递减. 又</p><p>$H(0)=0$，$H\\left(\\frac{\\pi}{2}\\right)=-\\ln2<0$.</p><p>因此 $H(t)>0$（$0<t\\le x_{0}$），并由零点存在定理及严格单调性，存在唯一</p><p>$t_{1}\\in\\left(x_{0},\\frac{\\pi}{2}\\right)$ 使 $H(t_{1})=0$. 由于</p><p>$g(\\pi-t)=4(1+\\sin t)H(t)$，且 $1+\\sin t>0$，故</p>\n$$\nx_{1}=\\pi-t_{1}\n$$\n<p>是 $\\left(\\frac{\\pi}{2},\\pi\\right)$ 内 $g(x)=0$ 的唯一解. 最后 $t_{1}>x_{0}$，所以</p>\n$$\nx_{0}+x_{1}=x_{0}+\\pi-t_{1}<\\pi\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -231,24 +420,30 @@
       "problems": [
         {
           "num": 22,
-          "body": "<p>如图，$EP$ 交圆于 $E$，$C$ 两点，$PD$ 切圆于 $D$，$G$ 为 $CE$ 上一点且 $PG = PD$，连接 $DG$ 并延长交圆于点 $A$，作弦 $AB$ 垂直 $EP$，垂足为 $F$.</p><ol class=\"enumerate\"><li><p>求证：$AB$ 为圆的直径；</p></li><li><p>若 $AC = BD$，求证：$AB = ED$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，$EP$ 交圆于 $E$，$C$ 两点，$PD$ 切圆于 $D$，$G$ 为 $CE$ 上一点且 $PG = PD$，连接 $DG$ 并延长交圆于点 $A$，作弦 $AB$ 垂直 $EP$，垂足为 $F$.</p><ol class=\"enumerate\"><li><p>求证：$AB$ 为圆的直径；</p></li><li><p>若 $AC = BD$，求证：$AB = ED$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/liaoning_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设圆心为 $O$，半径为 $r$. 建立直角坐标系，使 $O=(0,0)$，$EP$ 为直线 $y=h$. 按图取</p><p>$E=(-u,h)$，$C=(u,h)$，$P=(p,h)$</p><p>其中 $-r<h<0$，$u^{2}+h^{2}=r^{2}$，$p>u>0$. 设 $G=(g,h)$. 由 $G$ 在线段 $CE$ 上以及 $PG=PD$ 和点 $P$ 的切线长公式，记</p><p>$t=PG=PD=\\sqrt{p^{2}-u^{2}}$，$g=p-t$.</p><p>令 $A_{0}=(0,-r)$，并令直线 $A_{0}G$ 与圆除 $A_{0}$ 外的另一个交点为 $D_{0}$. 以参数 $\\lambda$ 表示直线 $A_{0}G$ 上的点：</p>\n$$\nX(\\lambda)=\\bigl(\\lambda g,-r+\\lambda(h+r)\\bigr)\n$$\n<p>将其代入圆方程，除去 $\\lambda=0$ 后得到</p><p>$\\lambda_{0}=\\frac{2r(h+r)}{g^{2}+(h+r)^{2}}$，$D_{0}=X(\\lambda_{0})$.</p><p>由 $g=p-t$ 及 $t^{2}=p^{2}-u^{2}$，有</p>\n$$\n2\\bigl(gp+(h+r)h\\bigr)-\\bigl(g^{2}+(h+r)^{2}\\bigr)  =p^{2}-t^{2}+h^{2}-r^{2}=0\n$$\n<p>所以</p>\n$$\nD_{0}\\cdot P=-rh+\\lambda_{0}\\bigl(gp+(h+r)h\\bigr)  =-rh+r(h+r)=r^{2}\n$$\n<p>由于 $t<p$ 且 $t>p-u$，有 $0<g<u$. 又</p>\n$$\n2r(h+r)-\\bigl(g^{2}+(h+r)^{2}\\bigr)=u^{2}-g^{2}>0\n$$\n<p>故 $\\lambda_{0}>1$，从而 $D_{0}$ 位于 $y=h$ 的上方且横坐标为正. 由于</p><p>$\\lvert D_{0}\\rvert=r$，$D_{0}\\cdot P=r^{2}$</p><p>有 $(P-D_{0})\\cdot D_{0}=0$，所以 $PD_{0}$ 是圆在 $D_{0}$ 处的切线. 这正是图中位于弦 $EC$ 上方的切点 $D$，故 $D_{0}=D$，从而 $A_{0}$，$D$，$G$ 共线. 因而题设中的点 $A=A_{0}=(0,-r)$.</p><p>直线 $AB\\perp EP$，所以 $AB$ 是过 $A$ 的竖直弦，另一交点为 $B=(0,r)$. 因此 $O$ 是 $AB$ 的中点，$AB$ 为圆的直径.</p></li><li><p>在此基础上，令</p><p>$E=(-r\\cos\\theta,-r\\sin\\theta)$，$C=(r\\cos\\theta,-r\\sin\\theta)$</p><p>$D=(r\\cos\\varphi,r\\sin\\varphi)$，$0<\\theta$，$\\varphi<\\frac{\\pi}{2}$.</p><p>此时 $A=(0,-r)$，$B=(0,r)$，所以</p><p>$AC^{2}=2r^{2}(1-\\sin\\theta)$，$BD^{2}=2r^{2}(1-\\sin\\varphi)$.</p><p>若 $AC=BD$，则 $\\sin\\theta=\\sin\\varphi$，从而 $\\theta=\\varphi$. 于是 $D=-E$，即 $ED$ 也是圆的直径，故</p>\n$$\nED=2r=AB\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设圆心为 $O$，半径为 $r$. 建立直角坐标系，使 $O=(0,0)$，$EP$ 为直线 $y=h$. 按图取</p><p>$E=(-u,h)$，$C=(u,h)$，$P=(p,h)$</p><p>其中 $-r<h<0$，$u^{2}+h^{2}=r^{2}$，$p>u>0$. 设 $G=(g,h)$. 由 $G$ 在线段 $CE$ 上以及 $PG=PD$ 和点 $P$ 的切线长公式，记</p><p>$t=PG=PD=\\sqrt{p^{2}-u^{2}}$，$g=p-t$.</p><p>令 $A_{0}=(0,-r)$，并令直线 $A_{0}G$ 与圆除 $A_{0}$ 外的另一个交点为 $D_{0}$. 以参数 $\\lambda$ 表示直线 $A_{0}G$ 上的点：</p>\n$$\nX(\\lambda)=\\bigl(\\lambda g,-r+\\lambda(h+r)\\bigr)\n$$\n<p>将其代入圆方程，除去 $\\lambda=0$ 后得到</p><p>$\\lambda_{0}=\\frac{2r(h+r)}{g^{2}+(h+r)^{2}}$，$D_{0}=X(\\lambda_{0})$.</p><p>由 $g=p-t$ 及 $t^{2}=p^{2}-u^{2}$，有</p>\n$$\n2\\bigl(gp+(h+r)h\\bigr)-\\bigl(g^{2}+(h+r)^{2}\\bigr)  =p^{2}-t^{2}+h^{2}-r^{2}=0\n$$\n<p>所以</p>\n$$\nD_{0}\\cdot P=-rh+\\lambda_{0}\\bigl(gp+(h+r)h\\bigr)  =-rh+r(h+r)=r^{2}\n$$\n<p>由于 $t<p$ 且 $t>p-u$，有 $0<g<u$. 又</p>\n$$\n2r(h+r)-\\bigl(g^{2}+(h+r)^{2}\\bigr)=u^{2}-g^{2}>0\n$$\n<p>故 $\\lambda_{0}>1$，从而 $D_{0}$ 位于 $y=h$ 的上方且横坐标为正. 由于</p><p>$\\lvert D_{0}\\rvert=r$，$D_{0}\\cdot P=r^{2}$</p><p>有 $(P-D_{0})\\cdot D_{0}=0$，所以 $PD_{0}$ 是圆在 $D_{0}$ 处的切线. 这正是图中位于弦 $EC$ 上方的切点 $D$，故 $D_{0}=D$，从而 $A_{0}$，$D$，$G$ 共线. 因而题设中的点 $A=A_{0}=(0,-r)$.</p><p>直线 $AB\\perp EP$，所以 $AB$ 是过 $A$ 的竖直弦，另一交点为 $B=(0,r)$. 因此 $O$ 是 $AB$ 的中点，$AB$ 为圆的直径.</p></li><li><p>在此基础上，令</p><p>$E=(-r\\cos\\theta,-r\\sin\\theta)$，$C=(r\\cos\\theta,-r\\sin\\theta)$</p><p>$D=(r\\cos\\varphi,r\\sin\\varphi)$，$0<\\theta$，$\\varphi<\\frac{\\pi}{2}$.</p><p>此时 $A=(0,-r)$，$B=(0,r)$，所以</p><p>$AC^{2}=2r^{2}(1-\\sin\\theta)$，$BD^{2}=2r^{2}(1-\\sin\\varphi)$.</p><p>若 $AC=BD$，则 $\\sin\\theta=\\sin\\varphi$，从而 $\\theta=\\varphi$. 于是 $D=-E$，即 $ED$ 也是圆的直径，故</p>\n$$\nED=2r=AB\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "<p>将圆 $x^{2}+ y^{2}= 1$ 上每一点的横坐标保持不变，纵坐标变为原来的 2 倍，得曲线 $C$.</p><ol class=\"enumerate\"><li><p>写出 $C$ 的参数方程；</p></li><li><p>设直线 $l: 2x + y - 2 = 0$ 与 $C$ 的交点为 $P_{1}$，$P_{2}$，以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系. 求过线段 $P_{1}P_{2}$ 的中点且与 $l$ 垂直的直线的极坐标方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>原圆的参数方程可写为</p><p>$x=\\cos\\theta$，$y=\\sin\\theta$，$0\\le\\theta<2\\pi$.</p><p>变换后横坐标不变，纵坐标变为原来的 $2$ 倍，所以曲线 $C$ 的参数方程为</p>\n$$\n\\begin{cases}x=\\cos\\theta,\\\\\n\ny=2\\sin\\theta,\\end{cases}  \\qquad 0\\le\\theta<2\\pi\n$$\n</li><li><p>消去参数可得 $C$ 的方程为</p>\n$$\nx^{2}+\\frac{y^{2}}{4}=1\n$$\n<p>直线 $l$ 与 $C$ 联立，得</p><p>$y=2-2x$，$x^{2}+(1-x)^{2}=1$.</p><p>所以 $x=0$ 或 $x=1$，交点为</p><p>$P_{1}=(0,2)$，$P_{2}=(1,0)$.</p><p>线段 $P_{1}P_{2}$ 的中点为</p>\n$$\nM=\\left(\\frac{1}{2},1\\right)\n$$\n<p>直线 $l$ 的斜率为 $-2$，故过 $M$ 且与 $l$ 垂直的直线斜率为 $\\frac{1}{2}$，其直角坐标方程为</p><p>$y-1=\\frac{1}{2}\\left(x-\\frac{1}{2}\\right)$，$y=\\frac{1}{2}x+\\frac{3}{4}$.</p><p>在极坐标系中代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得到所求极坐标方程</p>\n$$\n\\rho\\left(2\\sin\\theta-\\cos\\theta\\right)=\\frac{3}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>原圆的参数方程可写为</p><p>$x=\\cos\\theta$，$y=\\sin\\theta$，$0\\le\\theta<2\\pi$.</p><p>变换后横坐标不变，纵坐标变为原来的 $2$ 倍，所以曲线 $C$ 的参数方程为</p>\n$$\n\\begin{cases}x=\\cos\\theta,\\\\\n\ny=2\\sin\\theta,\\end{cases}  \\qquad 0\\le\\theta<2\\pi\n$$\n</li><li><p>消去参数可得 $C$ 的方程为</p>\n$$\nx^{2}+\\frac{y^{2}}{4}=1\n$$\n<p>直线 $l$ 与 $C$ 联立，得</p><p>$y=2-2x$，$x^{2}+(1-x)^{2}=1$.</p><p>所以 $x=0$ 或 $x=1$，交点为</p><p>$P_{1}=(0,2)$，$P_{2}=(1,0)$.</p><p>线段 $P_{1}P_{2}$ 的中点为</p>\n$$\nM=\\left(\\frac{1}{2},1\\right)\n$$\n<p>直线 $l$ 的斜率为 $-2$，故过 $M$ 且与 $l$ 垂直的直线斜率为 $\\frac{1}{2}$，其直角坐标方程为</p><p>$y-1=\\frac{1}{2}\\left(x-\\frac{1}{2}\\right)$，$y=\\frac{1}{2}x+\\frac{3}{4}$.</p><p>在极坐标系中代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得到所求极坐标方程</p>\n$$\n\\rho\\left(2\\sin\\theta-\\cos\\theta\\right)=\\frac{3}{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 24,
           "body": "<p>设函数 $f(x) = 2|x - 1| + x - 1$，$g(x) = 16x^{2}- 8x + 1$，记 $f(x) \\le 1$ 的解集为 $M$，$g(x) \\le 4$ 的解集为 $N$.</p><ol class=\"enumerate\"><li><p>求 $M$；</p></li><li><p>当 $x \\in M \\cap N$ 时，证明：$x^{2}f(x) + x[f(x)]^{2}\\le \\frac{1}{4}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x<1$ 时，$f(x)=1-x$，所以 $f(x)\\leqslant1$ 等价于 $x\\geqslant0$. 当 $x\\geqslant1$ 时，$f(x)=3x-3$，所以 $f(x)\\leqslant1$ 等价于 $x\\le\\frac{4}{3}$. 因此</p>\n$$\nM=[0,\\tfrac43]\n$$\n<p>又</p>\n$$\ng(x)=(4x-1)^{2}\\leqslant4  \\Longleftrightarrow -2\\leqslant4x-1\\leqslant2\n$$\n<p>所以</p><p>$N=\\left[-\\frac{1}{4},\\frac{3}{4}\\right]$，$M\\cap N=\\left[0,\\frac{3}{4}\\right]$.</p></li><li><p>当 $x\\in M\\cap N$ 时，$x\\leqslant1$，故 $f(x)=1-x$. 从而</p>\n$$\nx^{2}f(x)+x[f(x)]^{2}  =x^{2}(1-x)+x(1-x)^{2}  =x(1-x)  \\le\\frac{1}{4}\n$$\n<p>其中最后一个不等号由 $\\left(x-\\frac{1}{2}\\right)^{2}\\geqslant0$ 得到. 结论成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x<1$ 时，$f(x)=1-x$，所以 $f(x)\\leqslant1$ 等价于 $x\\geqslant0$. 当 $x\\geqslant1$ 时，$f(x)=3x-3$，所以 $f(x)\\leqslant1$ 等价于 $x\\le\\frac{4}{3}$. 因此</p>\n$$\nM=[0,\\tfrac43]\n$$\n<p>又</p>\n$$\ng(x)=(4x-1)^{2}\\leqslant4  \\Longleftrightarrow -2\\leqslant4x-1\\leqslant2\n$$\n<p>所以</p><p>$N=\\left[-\\frac{1}{4},\\frac{3}{4}\\right]$，$M\\cap N=\\left[0,\\frac{3}{4}\\right]$.</p></li><li><p>当 $x\\in M\\cap N$ 时，$x\\leqslant1$，故 $f(x)=1-x$. 从而</p>\n$$\nx^{2}f(x)+x[f(x)]^{2}  =x^{2}(1-x)+x(1-x)^{2}  =x(1-x)  \\le\\frac{1}{4}\n$$\n<p>其中最后一个不等号由 $\\left(x-\\frac{1}{2}\\right)^{2}\\geqslant0$ 得到. 结论成立.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

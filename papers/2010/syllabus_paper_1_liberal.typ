@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,524 +11,513 @@
 #part-header("单选题")
 
 #problem(1)[
-$cos 300 ""^( degree ) =$（ ）
-  #choices([$-(sqrt(3))/(2)$], [$-(1)/(2)$], [$(1)/(2)$], [$(sqrt(3))/(2)$], cols: 2)
+#mi(`\cos 300^{\circ}=`)（ ）
+  #choices([#mi(`-\frac{\sqrt{3}}{2}`)], [#mi(`-\frac{1}{2}`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{\sqrt{3}}{2}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-因为 $300^( degree )=360^( degree )-60^( degree )$，所以 $cos 300 ""^( degree )= cos 60 ""^( degree )=(1)/(2)$，故选 C.
+因为 #mi(`300^{\circ}=360^{\circ}-60^{\circ}`)，所以 #mi(`\cos 300^{\circ}=\cos 60^{\circ}=\frac{1}{2}`)，故选 C.
 ]
 
 #problem(2)[
-设全集 $U = \{1, 2, 3, 4, 5\}$，集合 $M = \{1, 4\}$，$N = \{1, 3, 5\}$，则 $N inter (\c o m p l e m e n t_U M) =$（ ）
-  #choices([$\{1,3\}$], [$\{1, 5\}$], [$\{3, 5\}$], [$\{4, 5\}$], cols: 4)
+设全集 #mi(`U = \{1, 2, 3, 4, 5\}`)，集合 #mi(`M = \{1, 4\}`)，#mi(`N = \{1, 3, 5\}`)，则 #mi(`N \cap (\complement_{U} M) =`)（ ）
+  #choices([#mi(`\{1,3\}`)], [#mi(`\{1, 5\}`)], [#mi(`\{3, 5\}`)], [#mi(`\{4, 5\}`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由 $U=\{1,2,3,4,5\}$，$M=\{1,4\}$，得 $\c o m p l e m e n t_U M=\{2,3,5\}$. 因此
-$N inter (\c o m p l e m e n t_U M)=\{1,3,5\} inter \{2,3,5\}=\{3,5\}$，故选 C.
+由 #mi(`U=\{1,2,3,4,5\}`)，#mi(`M=\{1,4\}`)，得 #mi(`\complement_{U} M=\{2,3,5\}`). 因此
+
+#mi(`N\cap(\complement_{U} M)=\{1,3,5\}\cap\{2,3,5\}=\{3,5\}`)，故选 C.
 ]
 
 #problem(3)[
-若变量 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} y <= 1 ,\\ x + y >= 0 ,\\ x - y - 2 <= 0 , \e n d{c a s e s}$ 则 $z = x - 2 y$ 的最大值为（ ）
-  #choices([$4$], [$3$], [$2$], [$1$], cols: 4)
+若变量 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}y \le 1,\\
+
+x + y \ge 0,\\
+
+x - y - 2 \le 0,\end{cases}`) 则 #mi(`z = x - 2y`) 的最大值为（ ）
+  #choices([#mi(`4`)], [#mi(`3`)], [#mi(`2`)], [#mi(`1`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由约束条件得 $x >= -y$，$x <= y+2$，所以可行时必须有
-$-y <= y+2$，即 $y >= -1$. 再结合 $y <= 1$，得到
-$-1 <= y <= 1$.
+由约束条件得 #mi(`x\ge-y`)，#mi(`x\le y+2`)，所以可行时必须有
 
-对固定的 $y$，$z=x-2 y$ 随 $x$ 增大而增大，因此在 $x=y+2$ 时取得最大值. 此时
-$z=y+2-2 y=2-y$，故 $z <= 3$，且 $y=-1$ 时取到，最大值为 $3$，故选 B.
+#mi(`-y\le y+2`)，即 #mi(`y\ge-1`). 再结合 #mi(`y\leqslant1`)，得到
+
+#mi(`-1\le y\leqslant1`).
+
+对固定的 #mi(`y`)，#mi(`z=x-2y`) 随 #mi(`x`) 增大而增大，因此在 #mi(`x=y+2`) 时取得最大值. 此时
+
+#mi(`z=y+2-2y=2-y`)，故 #mi(`z\leqslant3`)，且 #mi(`y=-1`) 时取到，最大值为 #mi(`3`)，故选 B.
 ]
 
 #problem(4)[
-已知各项均为正数的等比数列 $\{a_(n)\}$，$a_(1)a_(2)a_(3) = 5$，$a_(7)a_(8)a_(9) = 10$，则 $a_(4)a_(5)a_(6) =$（ ）
-  #choices([$5 sqrt(2)$], [$7$], [$6$], [$4 sqrt(2)$], cols: 4)
+已知各项均为正数的等比数列 #mi(`\{a_{n}\}`)，#mi(`a_{1}a_{2}a_{3}= 5`)，#mi(`a_{7}a_{8}a_{9}= 10`)，则 #mi(`a_{4}a_{5}a_{6}=`)（ ）
+  #choices([#mi(`5 \sqrt{2}`)], [#mi(`7`)], [#mi(`6`)], [#mi(`4 \sqrt{2}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-设等比数列的公比为 $q$. 由于各项均为正数，$q>0$. 有
+设等比数列的公比为 #mi(`q`). 由于各项均为正数，#mi(`q>0`). 有
 
-$ (a_(1) a_(2) a_3)(a_(7) a_(8) a_9)=(a_(4) a_(5) a_6)^2 $
+
+#align(center)[#mitex(`
+(a_{1}a_{2}a_{3})(a_{7}a_{8}a_{9})=(a_{4}a_{5}a_{6})^{2}
+`)]
+
 
 因此
-$a_(4) a_(5) a_6=sqrt(5 times 10)=5 sqrt(2)$，故选 A.
+
+#mi(`a_{4}a_{5}a_{6}=\sqrt{5\times10}=5\sqrt{2}`)，故选 A.
 ]
 
 #problem(5)[
-$(1-x)^(4)(1-sqrt(x))^(3)$ 的展开式中 $x^(2)$ 的系数是（ ）
-  #choices([$-6$], [$-3$], [$0$], [$3$], cols: 4)
+#mi(`\left(1-x\right)^{4}\left(1-\sqrt{x}\right)^{3}`) 的展开式中 #mi(`x^{2}`) 的系数是（ ）
+  #choices([#mi(`-6`)], [#mi(`-3`)], [#mi(`0`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-展开 $(1-sqrt(x))^3=1-3 x^((1)/(2))+3 x-x^((3)/(2))$，而
-$(1-x)^4=1-4 x+6 x^2-4 x^3+x^4$.
-要得到 $x^2$ 项，只有两种组合：第一式取 $-4 x$，第二式取 $3 x$，贡献为 $-12$；第一式取 $6 x^2$，第二式取常数项，贡献为 $6$. 所以 $x^2$ 的系数为 $-12+6=-6$，故选 A.
+展开 #mi(`(1-\sqrt{x})^{3}=1-3x^{\frac{1}{2}}+3x-x^{\frac{3}{2}}`)，而
+
+#mi(`(1-x)^{4}=1-4x+6x^{2}-4x^{3}+x^{4}`).
+
+要得到 #mi(`x^{2}`) 项，只有两种组合：第一式取 #mi(`-4x`)，第二式取 #mi(`3x`)，贡献为 #mi(`-12`)；第一式取 #mi(`6x^{2}`)，第二式取常数项，贡献为 #mi(`6`). 所以 #mi(`x^{2}`) 的系数为 #mi(`-12+6=-6`)，故选 A.
 ]
 
 #problem(6)[
-直三棱柱 $A B C - A_(1)B_(1)C_(1)$ 中，若 $angle B A C = 90^( degree )$，$A B = A C = A A_(1)$，则异面直线 $B A_(1)$ 与 $A C_(1)$ 所成的角等于（ ）
-  #choices([$30^( degree )$], [$45^( degree )$], [$60^( degree )$], [$90^( degree )$], cols: 4)
+直三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中，若 #mi(`\angle BAC = 90^{\circ}`)，#mi(`AB = AC = AA_{1}`)，则异面直线 #mi(`BA_{1}`) 与 #mi(`AC_{1}`) 所成的角等于（ ）
+  #choices([#mi(`30^{\circ}`)], [#mi(`45^{\circ}`)], [#mi(`60^{\circ}`)], [#mi(`90^{\circ}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-取 $A$ 为原点，令 $A B$、$A C$、$A A_1$ 分别沿三个互相垂直的坐标轴，且公共长度取为 $1$. 则可设
-$A=(0,0,0)$，$B=(1,0,0)$，$C=(0,1,0)$，$A_1=(0,0,1)$，$C_1=(0,1,1)$.
+取 #mi(`A`) 为原点，令 #mi(`AB`)、#mi(`AC`)、#mi(`AA_{1}`) 分别沿三个互相垂直的坐标轴，且公共长度取为 #mi(`1`). 则可设
 
-直线 $B A_1$ 与 $A C_1$ 的方向向量可分别取为
-$bold(u)=(-1,0,1)$，$bold(v)=(0,1,1)$. 因此 $bold(u)\c d o t b o l d(v)=1$，且 $|bold(u)|=|bold(v)|=sqrt(2)$.
-设两直线所成的锐角为 $theta$，则
-$cos theta =(bold(u){ dot }bold(v))/(|bold(u)||bold(v)|)=(1)/(2)$，从而 $theta =60^( degree )$，故选 C.
+#mi(`A=(0,0,0)`)，#mi(`B=(1,0,0)`)，#mi(`C=(0,1,0)`)，#mi(`A_{1}=(0,0,1)`)，#mi(`C_{1}=(0,1,1)`).
+
+直线 #mi(`BA_{1}`) 与 #mi(`AC_{1}`) 的方向向量可分别取为
+
+#mi(`\mathbf{u}=(-1,0,1)`)，#mi(`\mathbf{v}=(0,1,1)`). 因此 #mi(`\mathbf{u}\cdot\mathbf{v}=1`)，且 #mi(`|\mathbf{u}|=|\mathbf{v}|=\sqrt{2}`).
+
+设两直线所成的锐角为 #mi(`\theta`)，则
+
+#mi(`\cos\theta=\dfrac{\mathbf{u}\cdot\mathbf{v}}{|\mathbf{u}||\mathbf{v}|}=\dfrac{1}{2}`)，从而 #mi(`\theta=60^{\circ}`)，故选 C.
 ]
 
 #problem(7)[
-已知函数 $f(x)=|\l g x|$. 若 $a != b$ 且 $f(a)=f(b)$，则 $a+b$ 的取值范围是（ ）
-  #choices([$(1,+ oo )$], [$[1,+ oo )$], [$(2,+ oo )$], [$[2,+ oo )$], cols: 4)
+已知函数 #mi(`f(x)=|\lg x|`). 若 #mi(`a \neq b`) 且 #mi(`f(a)=f(b)`)，则 #mi(`a+b`) 的取值范围是（ ）
+  #choices([#mi(`\left(1,+\infty\right)`)], [#mi(`\left[1,+\infty\right)`)], [#mi(`\left(2,+\infty\right)`)], [#mi(`\left[2,+\infty\right)`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-函数定义域为 $x>0$. 由 $|\l g a|=|\l g b|$ 得
-$\l g a=\l g b$ 或 $\l g a=-\l g b$.
-第一种情形给出 $a=b$，与题设矛盾；所以只能有
-$\l g(a b)=0$，即 $a b=1$.
+函数定义域为 #mi(`x>0`). 由 #mi(`|\lg a|=|\lg b|`) 得
 
-于是 $a+b=a+(1)/(a)$. 因为 $a>0$，由基本不等式
-$a+(1)/(a) >= 2$，且等号成立当且仅当 $a=1$，这又会导致 $a=b=1$，不符合 $a != b$. 所以
-$a+b>2$. 反过来，任取 $t>2$，令
-$a=(t+sqrt(t^2-4))/(2)$，$b=(t-sqrt(t^2-4))/(2)$.
-则 $a>b>0$，且 $a b=1$、$a+b=t$，所以这两个数满足题设条件且 $f(a)=f(b)$. 因此 $a+b$ 可以取遍全部大于 $2$ 的实数，所求值域为 $(2,+ oo )$，故选 C.
+#mi(`\lg a=\lg b`) 或 #mi(`\lg a=-\lg b`).
+
+第一种情形给出 #mi(`a=b`)，与题设矛盾；所以只能有
+
+#mi(`\lg(ab)=0`)，即 #mi(`ab=1`).
+
+于是 #mi(`a+b=a+\dfrac{1}{a}`). 因为 #mi(`a>0`)，由基本不等式
+
+#mi(`a+\dfrac{1}{a}\geqslant2`)，且等号成立当且仅当 #mi(`a=1`)，这又会导致 #mi(`a=b=1`)，不符合 #mi(`a\ne b`). 所以
+
+#mi(`a+b>2`). 反过来，任取 #mi(`t>2`)，令
+
+#mi(`a=\dfrac{t+\sqrt{t^{2}-4}}{2}`)，#mi(`b=\dfrac{t-\sqrt{t^{2}-4}}{2}`).
+
+则 #mi(`a>b>0`)，且 #mi(`ab=1`)、#mi(`a+b=t`)，所以这两个数满足题设条件且 #mi(`f(a)=f(b)`). 因此 #mi(`a+b`) 可以取遍全部大于 #mi(`2`) 的实数，所求值域为 #mi(`(2,+\infty)`)，故选 C.
 ]
 
 #problem(8)[
-已知 $F_(1)$，$F_(2)$ 为双曲线 $C: x^(2) - y^(2) = 1$ 的左，右焦点，点 $P$ 在 $C$ 上，$angle F_(1)P F_(2) = 60^( degree )$，则 $|P F_(1)| dot |P F_(2)| =$（ ）
-  #choices([$2$], [$4$], [$6$], [$8$], cols: 4)
+已知 #mi(`F_{1}`)，#mi(`F_{2}`) 为双曲线 #mi(`C: x^{2}- y^{2}= 1`) 的左，右焦点，点 #mi(`P`) 在 #mi(`C`) 上，#mi(`\angle F_{1}PF_{2}= 60^{\circ}`)，则 #mi(`|PF_{1}| \cdot |PF_{2}| =`)（ ）
+  #choices([#mi(`2`)], [#mi(`4`)], [#mi(`6`)], [#mi(`8`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-双曲线 $x^2-y^2=1$ 的实半轴长为 $1$，焦距参数满足
-$c^2=1^2+1^2=2$，所以 $F_(1) F_2=2 sqrt(2)$. 设
-$r_1=|P F_1|$，$r_2=|P F_2|$. 由双曲线的定义，
-$|r_1-r_2|=2$，故
+双曲线 #mi(`x^{2}-y^{2}=1`) 的实半轴长为 #mi(`1`)，焦距参数满足
 
-$ r_1^2+r_2^2-2 r_(1) r_2=4 $
+#mi(`c^{2}=1^{2}+1^{2}=2`)，所以 #mi(`F_{1}F_{2}=2\sqrt{2}`). 设
 
-又在三角形 $F_(1) P F_2$ 中，$angle F_(1) P F_2=60^( degree )$，由余弦定理得
+#mi(`r_{1}=|PF_{1}|`)，#mi(`r_{2}=|PF_{2}|`). 由双曲线的定义，
 
-$ (2 sqrt(2))^2=r_1^2+r_2^2-2 r_(1) r_2 cos 60 ""^( degree )=r_1^2+r_2^2-r_(1) r_2 $
+#mi(`|r_{1}-r_{2}|=2`)，故
 
-两式相减得 $r_(1) r_2=4$，故选 B.
+
+#align(center)[#mitex(`
+r_{1}^{2}+r_{2}^{2}-2r_{1}r_{2}=4
+`)]
+
+
+又在三角形 #mi(`F_{1}PF_{2}`) 中，#mi(`\angle F_{1}PF_{2}=60^{\circ}`)，由余弦定理得
+
+
+#align(center)[#mitex(`
+(2\sqrt{2})^{2}=r_{1}^{2}+r_{2}^{2}-2r_{1}r_{2}\cos60^{\circ}=r_{1}^{2}+r_{2}^{2}-r_{1}r_{2}
+`)]
+
+
+两式相减得 #mi(`r_{1}r_{2}=4`)，故选 B.
 ]
 
 #problem(9)[
-正方体 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 中，$B B_(1)$ 与平面 $A C D_(1)$ 所成角的余弦值为（ ）
-  #choices([$(sqrt(2))/(3)$], [$(sqrt(3))/(3)$], [$(2)/(3)$], [$(sqrt(6))/(3)$], cols: 4)
+正方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`BB_{1}`) 与平面 #mi(`ACD_{1}`) 所成角的余弦值为（ ）
+  #choices([#mi(`\frac{\sqrt{2}}{3}`)], [#mi(`\frac{\sqrt{3}}{3}`)], [#mi(`\frac{2}{3}`)], [#mi(`\frac{\sqrt{6}}{3}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-设正方体棱长为 $1$，取
-$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D_1=(0,1,1)$，$B_1=(1,0,1)$.
-平面 $A C D_1$ 内可取两个方向向量
-$bold(p)=arrow(A C)=(1,1,0)$，$bold(q)=arrow(A D_1)=(0,1,1)$，其法向量可取
-$bold(n)=bold(p)\t i m e s b o l d(q)=(1,-1,1)$.
+设正方体棱长为 #mi(`1`)，取
 
-直线 $B B_1$ 的方向向量为 $bold(u)=(0,0,1)$. 设直线与平面所成的角为 $theta$，则
+#mi(`A=(0,0,0)`)，#mi(`B=(1,0,0)`)，#mi(`C=(1,1,0)`)，#mi(`D_{1}=(0,1,1)`)，#mi(`B_{1}=(1,0,1)`).
 
-$ sin theta =(|bold(u){ dot }bold(n)|)/(|bold(u)||bold(n)|)=(1)/(sqrt(3)) $
+平面 #mi(`ACD_{1}`) 内可取两个方向向量
 
-因为 $theta$ 为锐角，所以
-$cos theta =sqrt(1-(1)/(3))=(sqrt(6))/(3)$，故选 D.
+#mi(`\mathbf{p}=\overrightarrow{AC}=(1,1,0)`)，#mi(`\mathbf{q}=\overrightarrow{AD_1}=(0,1,1)`)，其法向量可取
+
+#mi(`\mathbf{n}=\mathbf{p}\times\mathbf{q}=(1,-1,1)`).
+
+直线 #mi(`BB_{1}`) 的方向向量为 #mi(`\mathbf{u}=(0,0,1)`). 设直线与平面所成的角为 #mi(`\theta`)，则
+
+
+#align(center)[#mitex(`
+\sin\theta=\frac{|\mathbf{u}\cdot\mathbf{n}|}{|\mathbf{u}||\mathbf{n}|}=\frac{1}{\sqrt{3}}
+`)]
+
+
+因为 #mi(`\theta`) 为锐角，所以
+
+#mi(`\cos\theta=\sqrt{1-\dfrac{1}{3}}=\dfrac{\sqrt{6}}{3}`)，故选 D.
 ]
 
 #problem(10)[
-设 $a = log _3 2$，$b = ln 2$，$c = 5^(-(1)/(2))$，则（ ）
-  #choices([$a < b < c$], [$b < c < a$], [$c < a < b$], [$c < b < a$], cols: 4)
+设 #mi(`a = \log_{3} 2`)，#mi(`b = \ln 2`)，#mi(`c = 5^{-\frac{1}{2}}`)，则（ ）
+  #choices([#mi(`a < b < c`)], [#mi(`b < c < a`)], [#mi(`c < a < b`)], [#mi(`c < b < a`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-先比较 $c$ 与 $a$：由于 $5>4$，有 $c=5^(-(1)/(2))<(1)/(2)$；又因为 $2>sqrt(3)$，所以
-$a= log _3 2> log _3 sqrt(3)=(1)/(2)$. 因而 $c<a$.
+先比较 #mi(`c`) 与 #mi(`a`)：由于 #mi(`5>4`)，有 #mi(`c=5^{-\frac{1}{2}}<\frac{1}{2}`)；又因为 #mi(`2>\sqrt{3}`)，所以
 
-再比较 $a$ 与 $b$. 由 $b= ln 2 >0$ 以及 $ln 3 >1$（因为 $3> e$），得
-$a=(ln 2)/(ln 3)< ln 2 =b$. 因此 $c<a<b$，故选 C.
+#mi(`a=\log_{3} 2>\log_{3}\sqrt{3}=\frac{1}{2}`). 因而 #mi(`c<a`).
+
+再比较 #mi(`a`) 与 #mi(`b`). 由 #mi(`b=\ln2>0`) 以及 #mi(`\ln3>1`)（因为 #mi(`3>\mathrm{e}`)），得
+
+#mi(`a=\dfrac{\ln2}{\ln3}<\ln2=b`). 因此 #mi(`c<a<b`)，故选 C.
 ]
 
 #problem(11)[
-已知圆 $O$ 的半径为 $1$，$P A$，$P B$ 为该圆的两条切线，$A$，$B$ 为两切点，那么 $arrow(P A) dot arrow(P B)$ 的最小值为（ ）
-  #choices([$-4 + sqrt(2)$], [$-3 + sqrt(2)$], [$-4 + 2 sqrt(2)$], [$-3 + 2 sqrt(2)$], cols: 2)
+已知圆 #mi(`O`) 的半径为 #mi(`1`)，#mi(`PA`)，#mi(`PB`) 为该圆的两条切线，#mi(`A`)，#mi(`B`) 为两切点，那么 #mi(`\overrightarrow{PA}\cdot \overrightarrow{PB}`) 的最小值为（ ）
+  #choices([#mi(`-4 + \sqrt{2}`)], [#mi(`-3 + \sqrt{2}`)], [#mi(`-4 + 2\sqrt{2}`)], [#mi(`-3 + 2\sqrt{2}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-设 $O P=r$，则 $r>1$，且切线长满足
-$P A=P B=sqrt(r^2-1)$. 设 $theta = angle A P B$. 由于 $O P$ 平分切线夹角，在直角三角形 $O A P$ 中
-$sin (theta)/(2)=(1)/(r)$，故
-$cos theta =1-2 sin ""^2(theta)/(2)=1-(2)/(r^2)$.
+设 #mi(`OP=r`)，则 #mi(`r>1`)，且切线长满足
+
+#mi(`PA=PB=\sqrt{r^{2}-1}`). 设 #mi(`\theta=\angle APB`). 由于 #mi(`OP`) 平分切线夹角，在直角三角形 #mi(`OAP`) 中
+
+#mi(`\sin\dfrac{\theta}{2}=\dfrac{1}{r}`)，故
+
+#mi(`\cos\theta=1-2\sin^{2}\dfrac{\theta}{2}=1-\dfrac2{r^2}`).
 
 于是
 
-$ arrow(P A)\c d o t a r r o w(P B)=P A dot P B cos theta =(r^2-1)(1-(2)/(r^2))=r^2-3+(2)/(r^2) $
 
-令 $s=r^2>1$，由基本不等式 $s+(2)/(s) >= 2 sqrt(2)$，上式不小于 $2 sqrt(2)-3$，且在 $s=sqrt(2)$ 时取到. 所以最小值为 $-3+2 sqrt(2)$，故选 D.
+#align(center)[#mitex(`
+\overrightarrow{PA}\cdot\overrightarrow{PB}=PA\cdot PB\cos\theta  =(r^{2}-1)\left(1-\frac{2}{r^{2}}\right)=r^{2}-3+\frac{2}{r^{2}}
+`)]
+
+
+令 #mi(`s=r^{2}>1`)，由基本不等式 #mi(`s+\dfrac{2}{s}\geqslant2\sqrt{2}`)，上式不小于 #mi(`2\sqrt{2}-3`)，且在 #mi(`s=\sqrt{2}`) 时取到. 所以最小值为 #mi(`-3+2\sqrt{2}`)，故选 D.
 ]
 
 #problem(12)[
-已知在半径为 $2$ 的球面上有 $A$，$B$，$C$，$D$ 四点，若 $A B = C D = 2$，则四面体 $A B C D$ 的体积的最大值为（ ）
-  #choices([$(2 sqrt(3))/(3)$], [$(4 sqrt(3))/(3)$], [$2 sqrt(3)$], [$(8 sqrt(3))/(3)$], cols: 2)
+已知在半径为 #mi(`2`) 的球面上有 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 四点，若 #mi(`AB = CD = 2`)，则四面体 #mi(`ABCD`) 的体积的最大值为（ ）
+  #choices([#mi(`\frac{2\sqrt{3}}{3}`)], [#mi(`\frac{4\sqrt{3}}{3}`)], [#mi(`2\sqrt{3}`)], [#mi(`\frac{8\sqrt{3}}{3}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-设球心为 $O$，令 $M$，$N$ 分别为弦 $A B$，$C D$ 的中点，记 $bold(m)=arrow(O M)$，$bold(n)=arrow(O N)$，并令 $arrow(M A)=bold(u)$，$arrow(N C)=bold(v)$. 因为球半径为 $2$，且 $A B=C D=2$，所以 $arrow(O A)=bold(m)+bold(u)$，$arrow(O B)=bold(m)-bold(u)$，$arrow(O C)=bold(n)+bold(v)$，$arrow(O D)=bold(n)-bold(v)$.
-其中 $|bold(u)|=|bold(v)|=1$，$|bold(m)|=|bold(n)|=sqrt(3)$，且 $bold(m)\p e r p b o l d(u)$，$bold(n)\p e r p b o l d(v)$.
+设球心为 #mi(`O`)，令 #mi(`M`)，#mi(`N`) 分别为弦 #mi(`AB`)，#mi(`CD`) 的中点，记 #mi(`\mathbf{m}=\overrightarrow{OM}`)，#mi(`\mathbf{n}=\overrightarrow{ON}`)，并令 #mi(`\overrightarrow{MA}=\mathbf{u}`)，#mi(`\overrightarrow{NC}=\mathbf{v}`). 因为球半径为 #mi(`2`)，且 #mi(`AB=CD=2`)，所以 #mi(`\overrightarrow{OA}=\mathbf{m}+\mathbf{u}`)，#mi(`\overrightarrow{OB}=\mathbf{m}-\mathbf{u}`)，#mi(`\overrightarrow{OC}=\mathbf{n}+\mathbf{v}`)，#mi(`\overrightarrow{OD}=\mathbf{n}-\mathbf{v}`).
 
-记 $V$ 为四面体 $A B C D$ 的体积，并令 $bold(w)=bold(n)-bold(m)$. 由混合积
+其中 #mi(`|\mathbf{u}|=|\mathbf{v}|=1`)，#mi(`|\mathbf{m}|=|\mathbf{n}|=\sqrt{3}`)，且 #mi(`\mathbf{m}\perp\mathbf{u}`)，#mi(`\mathbf{n}\perp\mathbf{v}`).
 
-$ 6 V=|arrow(A B) dot (arrow(A C)\t i m e s a r r o w(A D))| =4|(bold(u)\t i m e s b o l d(v))\c d o t b o l d(w)| $
+记 #mi(`V`) 为四面体 #mi(`ABCD`) 的体积，并令 #mi(`\mathbf{w}=\mathbf{n}-\mathbf{m}`). 由混合积
 
-因为 $|bold(u)\t i m e s b o l d(v)| <= 1$，且 $|bold(w)| <= |bold(n)|+|bold(m)|=2 sqrt(3)$，所以
 
-$ 6 V <= 4 |bold(u)\t i m e s b o l d(v)| |bold(w)| <= 8 sqrt(3) $
+#align(center)[#mitex(`
+6V=\left|\overrightarrow{AB}\cdot\left(\overrightarrow{AC}\times\overrightarrow{AD}\right)\right|  =4\left|\left(\mathbf{u}\times\mathbf{v}\right)\cdot\mathbf{w}\right|
+`)]
 
-从而 $V <= (4 sqrt(3))/(3)$. 当 $bold(u)\p e r p b o l d(v)$，且 $bold(m)$，$bold(n)$ 分别取为 $-sqrt(3)(bold(u){ times }bold(v))/(|bold(u)\t i m e s b o l d(v)|)$，$sqrt(3)(bold(u){ times }bold(v))/(|bold(u)\t i m e s b o l d(v)|)$ 时等号成立，故最大值为 $(4 sqrt(3))/(3)$，选 B.
+
+因为 #mi(`|\mathbf{u}\times\mathbf{v}|\leqslant1`)，且 #mi(`|\mathbf{w}|\le|\mathbf{n}|+|\mathbf{m}|=2\sqrt{3}`)，所以
+
+
+#align(center)[#mitex(`
+6V\leqslant4|\mathbf{u}\times\mathbf{v}|\,|\mathbf{w}|  \leqslant8\sqrt{3}
+`)]
+
+
+从而 #mi(`V\le\dfrac{4\sqrt{3}}{3}`). 当 #mi(`\mathbf{u}\perp\mathbf{v}`)，且 #mi(`\mathbf{m}`)，#mi(`\mathbf{n}`) 分别取为 #mi(`-\sqrt{3}\dfrac{\mathbf{u}\times\mathbf{v}}{|\mathbf{u}\times\mathbf{v}|}`)，#mi(`\sqrt{3}\dfrac{\mathbf{u}\times\mathbf{v}}{|\mathbf{u}\times\mathbf{v}|}`) 时等号成立，故最大值为 #mi(`\dfrac{4\sqrt{3}}{3}`)，选 B.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-不等式 $(x - 2)/(x^2 + 3 x + 2)> 0$ 的解集是#blank(){}.
+不等式 #mi(`\frac{x - 2}{x^{2} + 3x + 2}> 0`) 的解集是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(-2,-1) union (2,+ oo )$])
+#answer([#mi(`\left(-2,-1\right)\cup\left(2,+\infty\right)`)])
 
 #solution[
-原不等式的定义域为 $x != -2$，$x != -1$. 因式分解得
+原不等式的定义域为 #mi(`x\ne-2`)，#mi(`x\ne-1`). 因式分解得
 
-$ (x-2)/(x^2+3 x+2)=(x-2)/((x+2)(x+1)) $
 
-在临界点 $-2$，$-1$，$2$ 将数轴分成四个区间. 当 $x in (- oo ,-2)$ 时，分子、分母分别为负、正，分式小于 $0$；当 $x in (-2,-1)$ 时，分子、分母分别为负、负，分式大于 $0$；当 $x in (-1,2)$ 时，分子、分母分别为负、正，分式小于 $0$；当 $x in (2,+ oo )$ 时，分子、分母分别为正、正，分式大于 $0$. 又 $x=-2$，$-1$ 使分母为零不能取，$x=2$ 只使分子为零也不满足严格不等式. 因而解集为
-$(-2,-1) union (2,+ oo )$.
+#align(center)[#mitex(`
+\frac{x-2}{x^{2}+3x+2}=\frac{x-2}{(x+2)(x+1)}
+`)]
+
+
+在临界点 #mi(`-2`)，#mi(`-1`)，#mi(`2`) 将数轴分成四个区间. 当 #mi(`x\in(-\infty,-2)`) 时，分子、分母分别为负、正，分式小于 #mi(`0`)；当 #mi(`x\in(-2,-1)`) 时，分子、分母分别为负、负，分式大于 #mi(`0`)；当 #mi(`x\in(-1,2)`) 时，分子、分母分别为负、正，分式小于 #mi(`0`)；当 #mi(`x\in(2,+\infty)`) 时，分子、分母分别为正、正，分式大于 #mi(`0`). 又 #mi(`x=-2`)，#mi(`-1`) 使分母为零不能取，#mi(`x=2`) 只使分子为零也不满足严格不等式. 因而解集为
+
+#mi(`\left(-2,-1\right)\cup\left(2,+\infty\right)`).
 ]
 
 #problem(14)[
-已知 $alpha$ 为第二象限的角，$sin alpha = (3)/(5)$，则 $tan 2 alpha =$#blank(){}.
+已知 #mi(`\alpha`) 为第二象限的角，#mi(`\sin \alpha = \frac{3}{5}`)，则 #mi(`\tan 2\alpha =`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-(24)/(7)$])
+#answer([#mi(`-\frac{24}{7}`)])
 
 #solution[
-因为 $alpha$ 是第二象限角，所以
-$cos alpha =-sqrt(1- sin ""^2 alpha)=-(4)/(5)$，从而
-$tan alpha =(sin alpha)/(cos alpha)=-(3)/(4)$.
+因为 #mi(`\alpha`) 是第二象限角，所以
+
+#mi(`\cos\alpha=-\sqrt{1-\sin^{2}\alpha}=-\frac{4}{5}`)，从而
+
+#mi(`\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}=-\dfrac{3}{4}`).
+
 于是
 
-$ tan 2 alpha =(2 tan alpha)/(1- tan ""^2 alpha)=(-(3)/(2))/(1-(9)/(16))=-(24)/(7) $
+
+#align(center)[#mitex(`
+\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=\frac{-\frac{3}{2}}{1-\frac{9}{16}}=-\frac{24}{7}
+`)]
 ]
 
 #problem(15)[
-某学校开设 $A$ 类选修课 $3" 门"$，$B$ 类选修课 $4" 门"$，一位同学从中共选 $3" 门"$，若要求两类课程中各至少选一门，则不同的选法共有#blank(){}$"种"$.
+某学校开设 #mi(`A`) 类选修课 #mi(`3\text{ \text{门}}`)，#mi(`B`) 类选修课 #mi(`4\text{ \text{门}}`)，一位同学从中共选 #mi(`3\text{ \text{门}}`)，若要求两类课程中各至少选一门，则不同的选法共有\underline{\hspace{2.5em}}#mi(`\text{\text{种}}`).
 ]
 
 #answer([30])
 
 #solution[
-从 $7$ 门课程中任取 $3$ 门，再去掉全部选 $A$ 类或全部选 $B$ 类的情形，得到
+从 #mi(`7`) 门课程中任取 #mi(`3`) 门，再去掉全部选 #mi(`A`) 类或全部选 #mi(`B`) 类的情形，得到
 
-$ C_7^3-C_3^3-C_4^3=35-1-4=30 $
 
-也可直接按两类课程分别选取 $1$ 门和 $2$ 门，或 $2$ 门和 $1$ 门计数. 这两类情形互斥，故
+#align(center)[#mitex(`
+\mathrm{C}_{7}^{3}-\mathrm{C}_{3}^{3}-\mathrm{C}_{4}^{3}=35-1-4=30
+`)]
 
-$ C_3^1 C_4^2+C_3^2 C_4^1=3 times 6 +3 times 4 =30 $
 
-所以不同的选法共有 $30$ 种.
+也可直接按两类课程分别选取 #mi(`1`) 门和 #mi(`2`) 门，或 #mi(`2`) 门和 #mi(`1`) 门计数. 这两类情形互斥，故
+
+
+#align(center)[#mitex(`
+\mathrm{C}_{3}^{1}\mathrm{C}_{4}^{2}+\mathrm{C}_{3}^{2}\mathrm{C}_{4}^{1}=3\times6+3\times4=30
+`)]
+
+
+所以不同的选法共有 #mi(`30`) 种.
 ]
 
 #problem(16)[
-已知 $F$ 是椭圆 $C$ 的一个焦点，$B$ 是短轴的一个端点，线段 $B F$ 的延长线交 $C$ 于点 $D$，且 $arrow(B F)= 2 arrow(F D)$，则 $C$ 的离心率为#blank(){}.
+已知 #mi(`F`) 是椭圆 #mi(`C`) 的一个焦点，#mi(`B`) 是短轴的一个端点，线段 #mi(`BF`) 的延长线交 #mi(`C`) 于点 #mi(`D`)，且 #mi(`\overrightarrow{BF}= 2\overrightarrow{FD}`)，则 #mi(`C`) 的离心率为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(sqrt(3))/(3)$])
+#answer([#mi(`\frac{\sqrt{3}}{3}`)])
 
 #solution[
-设椭圆的长半轴为 $a$，短半轴为 $b$，焦距参数为 $c$，并取一个焦点
-$F=(c,0)$，短轴端点 $B=(0,b)$. 由
-$arrow(B F)=2 arrow(F D)$ 得
+设椭圆的长半轴为 #mi(`a`)，短半轴为 #mi(`b`)，焦距参数为 #mi(`c`)，并取一个焦点
 
-$ D=F+(1)/(2)(F-B)=((3 c)/(2),-(b)/(2)) $
+#mi(`F=(c,0)`)，短轴端点 #mi(`B=(0,b)`). 由
 
-因为 $D$ 在椭圆上，所以
+#mi(`\overrightarrow{BF}=2\overrightarrow{FD}`) 得
 
-$ (((3 c)/(2))^2)/(a^2)+((-(b)/(2))^2)/(b^2)=1 $
 
-即 $(9 c^2)/(4 a^2)+(1)/(4)=1$. 因而
-$(c^2)/(a^2)=(1)/(3)$，所以椭圆的离心率
-$e=(c)/(a)=(sqrt(3))/(3)$.
+#align(center)[#mitex(`
+D=F+\frac{1}{2}(F-B)=\left(\frac{3c}{2},-\frac{b}{2}\right)
+`)]
+
+
+因为 #mi(`D`) 在椭圆上，所以
+
+
+#align(center)[#mitex(`
+\frac{\left(\frac{3c}{2}\right)^{2}}{a^{2}}+\frac{\left(-\frac{b}{2}\right)^{2}}{b^{2}}=1
+`)]
+
+
+即 #mi(`\dfrac{9c^2}{4a^2}+\dfrac{1}{4}=1`). 因而
+
+#mi(`\dfrac{c^2}{a^2}=\dfrac{1}{3}`)，所以椭圆的离心率
+
+#mi(`e=\dfrac{c}{a}=\dfrac{\sqrt{3}}{3}`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-记等差数列 $\{a_(n)\}$ 的前 $n$ 项的和为 $S_(n)$，设 $S_(3) = 12$，且 $2 a_(1)$，$a_(2)$，$a_(3) + 1$ 成等比数列，求 $S_(n)$.
+记等差数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项的和为 #mi(`S_{n}`)，设 #mi(`S_{3}= 12`)，且 #mi(`2a_{1}`)，#mi(`a_{2}`)，#mi(`a_{3}+ 1`) 成等比数列，求 #mi(`S_{n}`).
 ]
 
 #solution[
-设等差数列的首项为 $a_1$，公差为 $d$. 由 $S_3=12$ 得
+设等差数列的首项为 #mi(`a_{1}`)，公差为 #mi(`d`). 由 #mi(`S_{3}=12`) 得
 
-$ S_3=(3)/(2)(2 a_1+2 d)=3(a_1+d)=12 $
 
-所以 $a_1+d=a_2=4$. 又
-$a_3=a_1+2 d$，且 $d=4-a_1$，从而 $a_3=8-a_1$.
+#align(center)[#mitex(`
+S_{3}=\frac{3}{2}\left(2a_{1}+2d\right)=3(a_{1}+d)=12
+`)]
 
-由 $2 a_1$，$a_2$，$a_3+1$ 成等比数列，得
 
-$ a_2^2=2 a_1(a_3+1) $
+所以 #mi(`a_{1}+d=a_{2}=4`). 又
 
-即 $16=2 a_1(9-a_1)$，整理得 $a_1^2-9 a_1+8=0$.
-所以 $a_1=1$ 或 $a_1=8$.
+#mi(`a_{3}=a_{1}+2d`)，且 #mi(`d=4-a_{1}`)，从而 #mi(`a_{3}=8-a_{1}`).
 
-当 $a_1=1$ 时，$d=3$，于是
+由 #mi(`2a_{1}`)，#mi(`a_{2}`)，#mi(`a_{3}+1`) 成等比数列，得
 
-$ S_n=(n)/(2)(2 a_1+(n-1)d) =(n)/(2)(2+3 n-3) =(1)/(2)n(3 n-1) $
 
-当 $a_1=8$ 时，$d=-4$，于是
+#align(center)[#mitex(`
+a_{2}^{2}=2a_{1}(a_{3}+1)
+`)]
 
-$ S_n=(n)/(2)(16-4(n-1))=2 n(5-n) $
 
-故 $S_n=(1)/(2)n(3 n-1)$ 或 $S_n=2 n(5-n)$.
+即 #mi(`16=2a_{1}(9-a_{1})`)，整理得 #mi(`a_{1}^{2}-9a_{1}+8=0`).
+
+所以 #mi(`a_{1}=1`) 或 #mi(`a_{1}=8`).
+
+当 #mi(`a_{1}=1`) 时，#mi(`d=3`)，于是
+
+
+#align(center)[#mitex(`
+S_{n}=\frac{n}{2}\left(2a_{1}+(n-1)d\right)  =\frac{n}{2}\left(2+3n-3\right)  =\frac{1}{2}n(3n-1)
+`)]
+
+
+当 #mi(`a_{1}=8`) 时，#mi(`d=-4`)，于是
+
+
+#align(center)[#mitex(`
+S_{n}=\frac{n}{2}\left(16-4(n-1)\right)=2n(5-n)
+`)]
+
+
+故 #mi(`S_{n}=\frac{1}{2}n(3n-1)`) 或 #mi(`S_{n}=2n(5-n)`).
 ]
 
 #problem(18)[
-已知 $triangle A B C$ 的内角 $A$，$B$ 及其对边 $a$，$b$ 满足 $a + b = a cot A + b cot B$，求内角 $C$.
+已知 #mi(`\triangle ABC`) 的内角 #mi(`A`)，#mi(`B`) 及其对边 #mi(`a`)，#mi(`b`) 满足 #mi(`a + b = a \cot A + b \cot B`)，求内角 #mi(`C`).
 ]
 
 #solution[
-由正弦定理可设 $a=2 R sin A$，$b=2 R sin B$，其中 $R$ 为三角形外接圆半径. 同理，
-$a cot A=2 R cos A$，$b cot B=2 R cos B$. 所以题设等式等价于
+由正弦定理可设 #mi(`a=2R\sin A`)，#mi(`b=2R\sin B`)，其中 #mi(`R`) 为三角形外接圆半径. 同理，
 
-$ sin A+ sin B= cos A+ cos B $
+#mi(`a\cot A=2R\cos A`)，#mi(`b\cot B=2R\cos B`). 所以题设等式等价于
 
-利用和差化积公式，并注意 $A+B in (0, pi )$，有
 
-$ 2 sin (A+B)/(2) cos (A-B)/(2)=2 cos (A+B)/(2) cos (A-B)/(2) $
+#align(center)[#mitex(`
+\sin A+\sin B=\cos A+\cos B
+`)]
 
-由于 $|(A-B)/(2)|<(pi)/(2)$，故
-$cos (A-B)/(2)>0$，可以约去，得到
-$sin (A+B)/(2)= cos (A+B)/(2)$. 又
-$(A+B)/(2) in (0,(pi)/(2))$，所以
-$(A+B)/(2)=(pi)/(4)$. 因而 $A+B=(pi)/(2)$，从而
-$C= pi -A-B=(pi)/(2)$.
+
+利用和差化积公式，并注意 #mi(`A+B\in(0,\pi)`)，有
+
+
+#align(center)[#mitex(`
+2\sin\frac{A+B}{2}\cos\frac{A-B}{2}=2\cos\frac{A+B}{2}\cos\frac{A-B}{2}
+`)]
+
+
+由于 #mi(`\left|\frac{A-B}{2}\right|<\frac{\pi}{2}`)，故
+
+#mi(`\cos\dfrac{A-B}{2}>0`)，可以约去，得到
+
+#mi(`\sin\dfrac{A+B}{2}=\cos\dfrac{A+B}{2}`). 又
+
+#mi(`\dfrac{A+B}{2}\in(0,\frac{\pi}{2})`)，所以
+
+#mi(`\dfrac{A+B}{2}=\dfrac{\pi}{4}`). 因而 #mi(`A+B=\dfrac{\pi}{2}`)，从而
+
+#mi(`C=\pi-A-B=\dfrac{\pi}{2}`).
 ]
 
 #problem(19)[
-投到某杂志的稿件，先由两位初审专家进行评审. 若能通过两位初审专家的评审，则予以录用；若两位初审专家都未予通过，则不予录用；若恰能通过一位初审专家的评审，则再由第三位专家进行复审，若能通过复审专家的评审，则予以录用，否则不予录用. 设稿件能通过各初审专家评审的概率均为 $0.5$，复审的稿件能通过评审的概率为 $0.3$. 各专家独立评审.
+投到某杂志的稿件，先由两位初审专家进行评审. 若能通过两位初审专家的评审，则予以录用；若两位初审专家都未予通过，则不予录用；若恰能通过一位初审专家的评审，则再由第三位专家进行复审，若能通过复审专家的评审，则予以录用，否则不予录用. 设稿件能通过各初审专家评审的概率均为 #mi(`0.5`)，复审的稿件能通过评审的概率为 #mi(`0.3`). 各专家独立评审.
 
 
-+ (1) 求投到该杂志的 $1" 篇"$稿件被录用的概率.
-+ (2) 求投到该杂志的 $4" 篇"$稿件中，至少有 $2" 篇"$被录用的概率.
++ (1)
 ]
 
 #solution[
-+ (1) 两位初审专家都通过的概率为 $0.5^2=0.25$. 恰有一位通过的概率为
-$2 times 0 .5 times 0 .5=0.5$，这时还需复审并通过，概率为 $0.5 times 0 .3=0.15$. 因而一篇稿件被录用的概率为
-
-$ p=0.25+0.15=0.40 $
-+ (2) 设 $X$ 表示 $4$ 篇稿件中被录用的篇数. 各篇稿件的评审相互独立，所以
-$X tilde B(4,0.4)$. 因此
-
-$ P(X >= 2 )=1-P(X=0)-P(X=1) =1-0.6^4-C_4^1(0.4)(0.6)^3 =1-0.1296-0.3456=0.5248 $
++ (1)
 ]
 
 #problem(20)[
-如图，四棱锥 $S - A B C D$ 中，$S D bot$ 底面 $A B C D$，$A B parallel D C$，$A D bot D C$，$A B = A D = 1$，$D C = S D = 2$，$E$ 为棱 $S B$ 上的一点，平面 $E D C bot$ 平面 $S B C$.
+如图，四棱锥 #mi(`S - ABCD`) 中，#mi(`SD \perp`) 底面 #mi(`ABCD`)，#mi(`AB \parallel DC`)，#mi(`AD \perp DC`)，#mi(`AB = AD = 1`)，#mi(`DC = SD = 2`)，#mi(`E`) 为棱 #mi(`SB`) 上的一点，平面 #mi(`EDC \perp`) 平面 #mi(`SBC`).
 
 
-+ (1) 证明：$S E = 2 E B$.
-+ (2) 求二面角 $A - D E - C$ 的大小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2010/img/syllabus_paper_1_liberal/q20_fig1.png", width: 38%)]
+
+#align(center)[#image("/papers/2010/img/syllabus_paper_1_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 建立空间直角坐标系，取 $D$ 为原点，$D C$ 沿 $x$ 轴，$D A$ 沿 $y$ 轴，$D S$ 沿 $z$ 轴，则 $D=(0,0,0)$，$C=(2,0,0)$，$A=(0,1,0)$，$B=(1,1,0)$，$S=(0,0,2)$.
-
-设 $t=(S E)/(S B)$，则 $0<t<1$，且
-
-$ E=S+t(B-S)=(t,t,2-2 t) $
-
-平面 $E D C$ 的两个方向向量可取
-$arrow(D C)=(2,0,0)$，$arrow(D E)=(t,t,2-2 t)$，所以其法向量可取
-$bold(n)_1=(0,-2(1-t),t)$. 平面 $S B C$ 的两个方向向量可取
-$arrow(S B)=(1,1,-2)$，$arrow(S C)=(2,0,-2)$，其法向量可取
-$bold(n)_2=(1,1,1)$.
-
-由两平面垂直知 $bold(n)_1\c d o t b o l d(n)_2=0$，即
-$-2(1-t)+t=0$. 解得 $t=(2)/(3)$，从而
-$(S E)/(S B)=(2)/(3)$，$(E B)/(S B)=1-(2)/(3)=(1)/(3)$，
-所以 $S E=2 E B$.
-+ (2) 由 $t=(2)/(3)$ 得 $E=((2)/(3),(2)/(3),(2)/(3))$，故直线 $D E$ 的方向向量可取
-$bold(d)=(1,1,1)$. 在垂直于 $D E$ 的截面内，二面角 $A-D E-C$ 等于向量
-$arrow(D A)$，$arrow(D C)$ 在该截面上的投影所成的角.
-
-将 $arrow(D A)=(0,1,0)$，$arrow(D C)=(2,0,0)$ 分别投影到 $bold(d)^ bot$，得
-
-$ bold(a)=(0,1,0)-((0,1,0)\c d o t b o l d(d))/(|bold(d)|^2)bold(d) =(-(1)/(3),(2)/(3),-(1)/(3)) $
-
-
-$ bold(c)=(2,0,0)-((2,0,0)\c d o t b o l d(d))/(|bold(d)|^2)bold(d) =((4)/(3),-(2)/(3),-(2)/(3)) $
-
-于是 $bold(a)\c d o t b o l d(c)=-(2)/(3)$，$|bold(a)|=(sqrt(6))/(3)$，$|bold(c)|=(2 sqrt(6))/(3)$.
-所以
-
-$ cos angle A-D E-C=(bold(a)\c d o t b o l d(c))/(|bold(a)||bold(c)|)=-(1)/(2) $
-
-故二面角 $A-D E-C$ 的大小为 $120^( degree )$.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = 3 a x^4 - 2(3 a + 1)x^2 + 4 x$.
+已知函数 #mi(`f(x) = 3ax^{4} - 2(3a + 1)x^{2} + 4x`).
 
 
-+ (1) 当 $a = (1)/(6)$ 时，求 $f(x)$ 的极值.
-+ (2) 若 $f(x)$ 在 $(-1,1)$ 上是增函数，求 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a=(1)/(6)$ 时，
-
-$ f(x)=(1)/(2)x^4-3 x^2+4 x $
-
-
-$ f'(x)=2 x^3-6 x+4=2(x-1)^2(x+2) $
-
-当 $x<-2$ 时 $f'(x)<0$，当 $x>-2$ 且 $x != 1$ 时 $f'(x)>0$. 因此 $f(x)$ 在 $(- oo ,-2)$ 上递减，在 $(-2,1)$ 和 $(1,+ oo )$ 上递增；$x=1$ 处导数虽为零，但导数不变号，不是极值点. 于是 $x=-2$ 为极小值点，且
-
-$ f(-2)=(1)/(2) dot 16 -3 dot 4 +4(-2)=-12 $
-
-所以 $f(x)$ 的极小值为 $-12$，无极大值.
-+ (2) 对任意 $a$，有
-
-$ f'(x)=12 a x^3-4(3 a+1)x+4 =4(1-x)[1-3 a x(x+1)] $
-
-在 $(-1,1)$ 内 $1-x>0$，故 $f(x)$ 在该区间上为增函数的充要条件是
-$1-3 a x(x+1) >= 0$，（$-1<x<1$）.
-函数 $x(x+1)$ 在 $(-1,1)$ 上的最小值为 $-(1)/(4)$，其上界为 $2$.
-
-当 $a >= 0$ 时，最严格的限制来自 $x$ 趋近 $1$，故需 $1-6 a >= 0$，即 $a <= (1)/(6)$. 当 $a<0$ 时，令 $a=-b$，其中 $b>0$，则
-
-$ 1-3 a x(x+1)=1+3 b x(x+1) >= 1 -(3 b)/(4) $
-
-所以需 $b <= (4)/(3)$，即 $a >= -(4)/(3)$. 两种情形合并得
-
-$ a in [-(4)/(3),(1)/(6)] $
-
-在两个端点处导数只在区间内个别点为零而不变号，函数仍为增函数，故端点可以取到.
++ (1)
 ]
 
 #part-header("选考题：解答题")
 
 #problem(22)[
-已知抛物线 $C: y^(2) = 4 x$ 的焦点为 $F$，过点 $K(-1,0)$ 的直线 $l$ 与 $C$ 相交于 $A$，$B$ 两点，点 $A$ 关于 $x$ 轴的对称点为 $D$.
+已知抛物线 #mi(`C: y^{2}= 4x`) 的焦点为 #mi(`F`)，过点 #mi(`K(-1,0)`) 的直线 #mi(`l`) 与 #mi(`C`) 相交于 #mi(`A`)，#mi(`B`) 两点，点 #mi(`A`) 关于 #mi(`x`) 轴的对称点为 #mi(`D`).
 
 
-+ (1) 证明：点 $F$ 在直线 $B D$ 上.
-+ (2) 设 $arrow(F A) dot arrow(F B)= (8)/(9)$，求 $triangle B D K$ 的内切圆 $M$ 的方程.
++ (1)
 ]
 
 #solution[
-+ (1) 抛物线 $y^2=4 x$ 上的点可参数表示为 $P(t)=(t^2,2 t)$. 设
-$A=(u^2,2 u)$，$B=(v^2,2 v)$，其中 $u != v$. 弦 $A B$ 的斜率为
-
-$ (2 v-2 u)/(v^2-u^2)=(2)/(u+v) $
-
-其方程为
-
-$ y=(2)/(u+v)x+(2 u v)/(u+v) $
-
-因为直线 $A B$ 经过 $K(-1,0)$，代入得
-
-$ 0=-(2)/(u+v)+(2 u v)/(u+v) $
-
-所以 $u v=1$.
-
-点 $A$ 关于 $x$ 轴的对称点为 $D=(u^2,-2 u)$，而焦点为 $F=(1,0)$. 直线 $B D$ 的斜率为
-
-$ (2 v+2 u)/(v^2-u^2)=(2)/(v-u) $
-
-又因为 $v=(1)/(u)$，所以
-
-$ (2)/(v-u)=(2 u)/(1-u^2)=(0-(-2 u))/(1-u^2) $
-
-这正是直线 $D F$ 的斜率. 因而 $F$ 在直线 $B D$ 上.
-+ (2) 由 $u v=1$，有
-$arrow(F A)=(u^2-1,2 u)$，$arrow(F B)=(v^2-1,2 v)$.
-因此
-
-$ arrow(F A)\c d o t a r r o w(F B)=(u^2-1)(v^2-1)+4 u v =6-u^2-v^2 $
-
-由题设点积为 $(8)/(9)$，得 $u^2+v^2=(46)/(9)$，从而 $(u+v)^2=u^2+v^2+2 u v=(64)/(9)$.
-记 $w=u+v$，则 $|w|=(8)/(3)$. 上下对称的两种情形所得内切圆相同，以下取 $w=(8)/(3)$，于是 $u$，$v>0$.
-
-由 $K=(-1,0)$，$B=(v^2,2 v)$，$D=(u^2,-2 u)$，并利用 $u v=1$，得
-
-$ K B^2=(v^2+1)^2+4 v^2 =v^2(u^2+v^2+6) =(100 v^2)/(9) $
-
-
-$ K D^2=(u^2+1)^2+4 u^2=(100 u^2)/(9) $
-
-所以 $K B=(10 v)/(3)$，$K D=(10 u)/(3)$. 又
-
-$ B D^2=(v^2-u^2)^2+4(u+v)^2 =(v-u)^(2) w^2+4 w^2=w^4 $
-
-故 $B D=w^2=(64)/(9)$. 从而
-
-$ K B+K D+B D=(10(u+v))/(3)+(64)/(9)=(80)/(9)+(64)/(9)=16 $
-
-三角形 $B D K$ 的内心为
-
-$ I=(K D dot B+K B dot D+B D dot K)/(K D+K B+B D) $
-
-计算其坐标，得
-
-$ x_I=((10 u)/(3)v^2+(10 v)/(3)u^2-(64)/(9))/(16)=((10)/(3)u v(u+v)-(64)/(9))/(16)=(1)/(9) $
-
-
-$ y_I=((10 u)/(3)(2 v)+(10 v)/(3)(-2 u))/(16)=0 $
-
-所以 $I=((1)/(9),0)$. 直线 $B K$ 即直线 $l$，方程为
-
-$ 2 x-w y+2=0 $
-
-点 $I$ 到该直线的距离为
-
-$ r=(|2 dot (1)/(9)+2|)/(sqrt(4+w^2))=((20)/(9))/((10)/(3))=(2)/(3) $
-
-这是内心到三边的距离，即内切圆半径. 因而内切圆 $M$ 的方程为
-
-$ (x-(1)/(9))^2+y^2=(4)/(9) $
++ (1)
 ]
 

@@ -360,7 +360,9 @@ q=\sqrt{1-\frac{9}{16}}=\frac{\sqrt{7}}{4}
 #problem(12)[
 执行如图所示的程序框图，如果输入 #mi(`a = 1`)，#mi(`b = 2`)，则输出的 #mi(`a`) 的值为\underline{\hspace{2.5em}}.
 
-[width=0.46\linewidth]img/2013/hunan_liberal/q12_fig1.png
+
+#align(center)[#image("/papers/2013/img/hunan_liberal/q12_fig1.png", width: 28%)]
+
 ]
 
 #answer([9])
@@ -465,7 +467,9 @@ e=\frac{c}{a}=\frac{2}{\sqrt{3}-1}=\sqrt{3}+1
 
 
 
-[width=0.42\linewidth]img/2013/hunan_liberal/q17_fig1.png
+
+#align(center)[#image("/papers/2013/img/hunan_liberal/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -488,7 +492,9 @@ e=\frac{c}{a}=\frac{2}{\sqrt{3}-1}=\sqrt{3}+1
 
 
 
-[width=0.30\linewidth]img/2013/hunan_liberal/q18_fig1.png
+
+#align(center)[#image("/papers/2013/img/hunan_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[

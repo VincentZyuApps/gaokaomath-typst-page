@@ -1,8 +1,119 @@
 {
-  "title": "1977年普通高等学校招生全国统一考试",
-  "subtitle": "1977年湖南株洲卷（试点）",
   "year": "1977",
   "slug": "hunan_zhuzhou_pilot",
+  "title": "1977年湖南株洲卷（试点）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "试题部分",
@@ -10,107 +121,137 @@
         {
           "num": 1,
           "body": "$y=2\\sqrt{x^{2}}$ 和 $y=2x$ 是不是同一个函数？为什么？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>两式的定义域都是 $\\mathbb{R}$，但对任意 $x\\in\\mathbb{R}$，有</p>\n$$\n2\\sqrt{x^{2}}=2\\lvert x\\rvert=\\begin{cases}2x,&x\\geq 0,\\\\  -2x,&x<0.\\end{cases}\n$$\n<p>当 $x=-1$ 时，$2\\sqrt{x^{2}}=2$，而 $2x=-2$，两式的函数值不相等. 因此 $y=2\\sqrt{x^{2}}$ 与 $y=2x$ 不是同一个函数.</p>"
+          "solution": "<p>两式的定义域都是 $\\mathbb{R}$，但对任意 $x\\in\\mathbb{R}$，有</p>\n$$\n2\\sqrt{x^{2}}=2\\lvert x\\rvert=\\begin{cases}2x,&x\\geq 0,\\\\  -2x,&x<0.\\end{cases}\n$$\n<p>当 $x=-1$ 时，$2\\sqrt{x^{2}}=2$，而 $2x=-2$，两式的函数值不相等. 因此 $y=2\\sqrt{x^{2}}$ 与 $y=2x$ 不是同一个函数.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "<p>确定下列各式的符号：</p><ol class=\"enumerate\"><li><p>$1-\\sin 800^{\\circ}$；</p></li><li><p>$\\cos 20^{\\circ}-\\sin 20^{\\circ}$；</p></li><li><p>$\\tan 288^{\\circ}\\cdot\\tan 510^{\\circ}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $800^{\\circ}=2\\times 360^{\\circ}+80^{\\circ}$，所以</p><p>$1-\\sin 800^{\\circ}=1-\\sin 80^{\\circ}$. 又因为 $0<\\sin 80^{\\circ}<1$，故 $1-\\sin 800^{\\circ}>0$.</p></li><li><p>$\\cos 20^{\\circ}=\\sin 70^{\\circ}$，所以</p><p>$\\cos 20^{\\circ}-\\sin 20^{\\circ}=\\sin 70^{\\circ}-\\sin 20^{\\circ}$. 由于 $0<20^{\\circ}<70^{\\circ}<90^{\\circ}$，正弦函数在该区间上递增，故 $\\sin 70^{\\circ}-\\sin 20^{\\circ}>0$.</p></li><li><p>由正切函数的周期性和诱导公式，</p>\n$$\n\\tan 288^{\\circ}=\\tan\\left(360^{\\circ}-72^{\\circ}\\right)=-\\tan 72^{\\circ}<0\n$$\n\n$$\n\\tan 510^{\\circ}=\\tan\\left(360^{\\circ}+150^{\\circ}\\right)=\\tan 150^{\\circ}=-\\tan 30^{\\circ}<0\n$$\n<p>两个负数的乘积为正，所以 $\\tan 288^{\\circ}\\cdot\\tan 510^{\\circ}>0$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $800^{\\circ}=2\\times 360^{\\circ}+80^{\\circ}$，所以</p><p>$1-\\sin 800^{\\circ}=1-\\sin 80^{\\circ}$. 又因为 $0<\\sin 80^{\\circ}<1$，故 $1-\\sin 800^{\\circ}>0$.</p></li><li><p>$\\cos 20^{\\circ}=\\sin 70^{\\circ}$，所以</p><p>$\\cos 20^{\\circ}-\\sin 20^{\\circ}=\\sin 70^{\\circ}-\\sin 20^{\\circ}$. 由于 $0<20^{\\circ}<70^{\\circ}<90^{\\circ}$，正弦函数在该区间上递增，故 $\\sin 70^{\\circ}-\\sin 20^{\\circ}>0$.</p></li><li><p>由正切函数的周期性和诱导公式，</p>\n$$\n\\tan 288^{\\circ}=\\tan\\left(360^{\\circ}-72^{\\circ}\\right)=-\\tan 72^{\\circ}<0\n$$\n\n$$\n\\tan 510^{\\circ}=\\tan\\left(360^{\\circ}+150^{\\circ}\\right)=\\tan 150^{\\circ}=-\\tan 30^{\\circ}<0\n$$\n<p>两个负数的乘积为正，所以 $\\tan 288^{\\circ}\\cdot\\tan 510^{\\circ}>0$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "已知 $x$，$y$ 都是实数，且 $\\left(2x-1\\right)^{2}+\\left(y-8\\right)^{2}\\leq 0$，求 $\\log_{2}xy$？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>两个平方数都非负，故</p><p>$\\left(2x-1\\right)^{2}+\\left(y-8\\right)^{2}\\geq 0$. 结合题设不等式，只能有</p>\n$$\n\\left(2x-1\\right)^{2}+\\left(y-8\\right)^{2}=0\n$$\n<p>非负数之和为零时每一项都为零，因此</p><p>$2x-1=0$，$y-8=0$，即 $x=\\frac{1}{2}$，$y=8$. 于是 $xy=4>0$，对数有意义，且</p>\n$$\n\\log_{2}xy=\\log_{2}\\left(\\frac{1}{2}\\times 8\\right)=\\log_{2} 4=2\n$$"
+          "solution": "<p>两个平方数都非负，故</p><p>$\\left(2x-1\\right)^{2}+\\left(y-8\\right)^{2}\\geq 0$. 结合题设不等式，只能有</p>\n$$\n\\left(2x-1\\right)^{2}+\\left(y-8\\right)^{2}=0\n$$\n<p>非负数之和为零时每一项都为零，因此</p><p>$2x-1=0$，$y-8=0$，即 $x=\\frac{1}{2}$，$y=8$. 于是 $xy=4>0$，对数有意义，且</p>\n$$\n\\log_{2}xy=\\log_{2}\\left(\\frac{1}{2}\\times 8\\right)=\\log_{2} 4=2\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "$\\sqrt{\\left(\\log_{3} 20\\right)^{2}-6\\log_{3} 20+9}$？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>原式</p>\n$$\n=\\sqrt{\\left(\\log_{3} 20-3\\right)^{2}}=\\left\\lvert\\log_{3} 20-3\\right\\rvert\n$$\n<p>因为底数 $3>1$，对数函数 $\\log_{3}x$ 递增，且</p><p>$3=\\log_{3} 27>\\log_{3} 20$，所以 $\\log_{3} 20-3<0$. 因此</p>\n$$\n\\left\\lvert\\log_{3} 20-3\\right\\rvert=3-\\log_{3} 20\n$$"
+          "solution": "<p>原式</p>\n$$\n=\\sqrt{\\left(\\log_{3} 20-3\\right)^{2}}=\\left\\lvert\\log_{3} 20-3\\right\\rvert\n$$\n<p>因为底数 $3>1$，对数函数 $\\log_{3}x$ 递增，且</p><p>$3=\\log_{3} 27>\\log_{3} 20$，所以 $\\log_{3} 20-3<0$. 因此</p>\n$$\n\\left\\lvert\\log_{3} 20-3\\right\\rvert=3-\\log_{3} 20\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "已知 $\\log_{1.5}7=a$，$\\log_{1.5}8=b$，求 $\\log_{56}1.5$？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为 $1.5>0$ 且 $1.5\\neq 1$，可用换底公式. 又 $56=7\\times 8$，所以</p>\n$$\n\\log_{56}1.5=\\frac{\\log_{1.5}1.5}{\\log_{1.5}56}=\\frac{1}{\\log_{1.5}(7\\times 8)}=\\frac{1}{\\log_{1.5}7+\\log_{1.5}8}=\\frac{1}{a+b}\n$$"
+          "solution": "<p>因为 $1.5>0$ 且 $1.5\\neq 1$，可用换底公式. 又 $56=7\\times 8$，所以</p>\n$$\n\\log_{56}1.5=\\frac{\\log_{1.5}1.5}{\\log_{1.5}56}=\\frac{1}{\\log_{1.5}(7\\times 8)}=\\frac{1}{\\log_{1.5}7+\\log_{1.5}8}=\\frac{1}{a+b}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "<p>化简：</p><p>$\\left(\\frac{x^{-1}-1}{x^{-1}+1}-\\frac{x^{-1}+1}{x^{-1}-1}\\right)\\cdot\\left(2^{-1}-4^{-1}x^{-1}-4^{-1}x\\right)$.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>原式有意义需满足 $x\\neq 0$，$x^{-1}+1\\neq 0$，$x^{-1}-1\\neq 0$，即</p><p>$x\\in\\mathbb{R}\\mathbin{\\backslash}\\{-1,0,1\\}$. 在此条件下，</p>\n$$\n\\frac{x^{-1}-1}{x^{-1}+1}-\\frac{x^{-1}+1}{x^{-1}-1}=\\frac{1-x}{1+x}-\\frac{1+x}{1-x}=\\frac{(1-x)^{2}-(1+x)^{2}}{1-x^{2}}=\\frac{-4x}{1-x^{2}}\n$$\n<p>并且</p>\n$$\n2^{-1}-4^{-1}x^{-1}-4^{-1}x  =\\frac{1}{2}-\\frac{1}{4x}-\\frac{x}{4}=\\frac{2x-1-x^{2}}{4x}=-\\frac{(x-1)^{2}}{4x}\n$$\n<p>所以原式</p>\n$$\n=\\frac{-4x}{1-x^{2}}\\cdot\\left(-\\frac{(x-1)^{2}}{4x}\\right)  =\\frac{(x-1)^{2}}{1-x^{2}}=\\frac{(1-x)^{2}}{(1-x)(1+x)}=\\frac{1-x}{1+x}\n$$"
+          "solution": "<p>原式有意义需满足 $x\\neq 0$，$x^{-1}+1\\neq 0$，$x^{-1}-1\\neq 0$，即</p><p>$x\\in\\mathbb{R}\\mathbin{\\backslash}\\{-1,0,1\\}$. 在此条件下，</p>\n$$\n\\frac{x^{-1}-1}{x^{-1}+1}-\\frac{x^{-1}+1}{x^{-1}-1}=\\frac{1-x}{1+x}-\\frac{1+x}{1-x}=\\frac{(1-x)^{2}-(1+x)^{2}}{1-x^{2}}=\\frac{-4x}{1-x^{2}}\n$$\n<p>并且</p>\n$$\n2^{-1}-4^{-1}x^{-1}-4^{-1}x  =\\frac{1}{2}-\\frac{1}{4x}-\\frac{x}{4}=\\frac{2x-1-x^{2}}{4x}=-\\frac{(x-1)^{2}}{4x}\n$$\n<p>所以原式</p>\n$$\n=\\frac{-4x}{1-x^{2}}\\cdot\\left(-\\frac{(x-1)^{2}}{4x}\\right)  =\\frac{(x-1)^{2}}{1-x^{2}}=\\frac{(1-x)^{2}}{(1-x)(1+x)}=\\frac{1-x}{1+x}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "$h$ 为何数时，方程 $2hx^{2}+\\left(8h+1\\right)x=-8h$ 有两个不相等的实根？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将方程移项得</p>\n$$\n2hx^{2}+\\left(8h+1\\right)x+8h=0\n$$\n<p>要使它是关于 $x$ 的二次方程，必须有 $2h\\neq 0$，即 $h\\neq 0$. 此时判别式为</p>\n$$\n\\Delta=\\left(8h+1\\right)^{2}-4\\times 2h\\times 8h=16h+1\n$$\n<p>方程有两个不相等的实根，当且仅当 $\\Delta>0$，即 $h>-\\frac{1}{16}$. 再结合 $h\\neq 0$，得到</p>\n$$\n-\\frac{1}{16}<h<0 \\text{或}  h>0\n$$"
+          "solution": "<p>将方程移项得</p>\n$$\n2hx^{2}+\\left(8h+1\\right)x+8h=0\n$$\n<p>要使它是关于 $x$ 的二次方程，必须有 $2h\\neq 0$，即 $h\\neq 0$. 此时判别式为</p>\n$$\n\\Delta=\\left(8h+1\\right)^{2}-4\\times 2h\\times 8h=16h+1\n$$\n<p>方程有两个不相等的实根，当且仅当 $\\Delta>0$，即 $h>-\\frac{1}{16}$. 再结合 $h\\neq 0$，得到</p>\n$$\n-\\frac{1}{16}<h<0 \\text{或}  h>0\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "<p>证明恒等式：</p><p>$\\frac{2\\sin\\theta\\cdot\\sin\\left(\\frac{\\pi}{2}-\\theta\\right)+\\sin\\left(\\frac{3\\pi}{2}+\\theta\\right)}{1+\\sin\\left(\\pi+\\theta\\right)+\\sin^{2}\\left(\\pi-\\theta\\right)-\\sin^{2}\\left(\\frac{\\pi}{2}+\\theta\\right)}=\\tan\\left(\\frac{\\pi}{2}-\\theta\\right)$.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>先考察左式的定义条件. 利用诱导公式，分母为</p>\n$$\n1-\\sin\\theta+\\sin^{2}\\theta-\\cos^{2}\\theta  =2\\sin^{2}\\theta-\\sin\\theta  =\\sin\\theta\\left(2\\sin\\theta-1\\right)\n$$\n<p>因此在左式有意义时，$\\sin\\theta\\neq 0$ 且 $2\\sin\\theta-1\\neq 0$. 在此条件下，左式的分子为</p>\n$$\n2\\sin\\theta\\cos\\theta-\\cos\\theta  =\\left(2\\sin\\theta-1\\right)\\cos\\theta\n$$\n<p>于是左式</p>\n$$\n=\\frac{\\left(2\\sin\\theta-1\\right)\\cos\\theta}{\\sin\\theta\\left(2\\sin\\theta-1\\right)}=\\frac{\\cos\\theta}{\\sin\\theta}\n$$\n<p>另一方面，$\\sin\\theta\\neq 0$ 时</p>\n$$\n\\tan\\left(\\frac{\\pi}{2}-\\theta\\right)=\\frac{\\cos\\theta}{\\sin\\theta}\n$$\n<p>所以左式等于右式，恒等式得证.</p>"
+          "solution": "<p>先考察左式的定义条件. 利用诱导公式，分母为</p>\n$$\n1-\\sin\\theta+\\sin^{2}\\theta-\\cos^{2}\\theta  =2\\sin^{2}\\theta-\\sin\\theta  =\\sin\\theta\\left(2\\sin\\theta-1\\right)\n$$\n<p>因此在左式有意义时，$\\sin\\theta\\neq 0$ 且 $2\\sin\\theta-1\\neq 0$. 在此条件下，左式的分子为</p>\n$$\n2\\sin\\theta\\cos\\theta-\\cos\\theta  =\\left(2\\sin\\theta-1\\right)\\cos\\theta\n$$\n<p>于是左式</p>\n$$\n=\\frac{\\left(2\\sin\\theta-1\\right)\\cos\\theta}{\\sin\\theta\\left(2\\sin\\theta-1\\right)}=\\frac{\\cos\\theta}{\\sin\\theta}\n$$\n<p>另一方面，$\\sin\\theta\\neq 0$ 时</p>\n$$\n\\tan\\left(\\frac{\\pi}{2}-\\theta\\right)=\\frac{\\cos\\theta}{\\sin\\theta}\n$$\n<p>所以左式等于右式，恒等式得证.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "<ol class=\"enumerate\"><li><p>三个半径都是 $R$ 的圆两两外切，求过三个切点的三个圆弧所围成图形的面积.</p></li><li><p>已知菱形面积为 $392\\mathrm{~cm}^{2}$，有一角为 $150^{\\circ}$，求边长.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设三个圆心为 $A$，$B$，$C$，三个切点分别为 $D$，$E$，$F$. 由于三个圆半径相等且两两外切，$AB=BC=CA=2R$，所以 $\\triangle ABC$ 是边长为 $2R$ 的等边三角形，且三个圆弧分别对应圆心角 $60^{\\circ}$ 的三个扇形.</p><p>由图可知，所求面积 $s$ 等于 $\\triangle ABC$ 的面积减去三个扇形 $ADF$，$BDE$，$CEF$ 的面积.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_zhuzhou_pilot/q9_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>因此</p>\n$$\ns=\\frac{1}{2}\\cdot 2R\\cdot 2R\\cdot\\sin 60^{\\circ}-3\\cdot\\frac{\\pi R^{2}}{6}=\\sqrt{3}R^{2}-\\frac{\\pi}{2}R^{2}  =\\left(\\sqrt{3}-\\frac{\\pi}{2}\\right)R^{2}\n$$\n</li><li><p>菱形的邻角互补，所以若 $\\angle B=150^{\\circ}$，则 $\\angle A=30^{\\circ}$. 以对角线分成的两个全等三角形计算面积，得到</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_zhuzhou_pilot/q9_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>\n$$\n392=2\\left(\\frac{1}{2}AB\\cdot AD\\cdot\\sin A\\right)\n$$\n<p>因为菱形的四边相等，$AB=AD$，代入 $\\angle A=30^{\\circ}$ 得</p>\n$$\n392=AB^{2}\\sin 30^{\\circ}=\\frac{1}{2}AB^{2}\n$$\n<p>所以 $AB^{2}=784$，且边长 $AB=\\sqrt{784}=28\\mathrm{~cm}$.</p><p>答：菱形边长为 $28\\mathrm{~cm}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设三个圆心为 $A$，$B$，$C$，三个切点分别为 $D$，$E$，$F$. 由于三个圆半径相等且两两外切，$AB=BC=CA=2R$，所以 $\\triangle ABC$ 是边长为 $2R$ 的等边三角形，且三个圆弧分别对应圆心角 $60^{\\circ}$ 的三个扇形.</p><p>由图可知，所求面积 $s$ 等于 $\\triangle ABC$ 的面积减去三个扇形 $ADF$，$BDE$，$CEF$ 的面积.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/hunan_zhuzhou_pilot/q9_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>因此</p>\n$$\ns=\\frac{1}{2}\\cdot 2R\\cdot 2R\\cdot\\sin 60^{\\circ}-3\\cdot\\frac{\\pi R^{2}}{6}=\\sqrt{3}R^{2}-\\frac{\\pi}{2}R^{2}  =\\left(\\sqrt{3}-\\frac{\\pi}{2}\\right)R^{2}\n$$\n</li><li><p>菱形的邻角互补，所以若 $\\angle B=150^{\\circ}$，则 $\\angle A=30^{\\circ}$. 以对角线分成的两个全等三角形计算面积，得到</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/hunan_zhuzhou_pilot/q9_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>\n$$\n392=2\\left(\\frac{1}{2}AB\\cdot AD\\cdot\\sin A\\right)\n$$\n<p>因为菱形的四边相等，$AB=AD$，代入 $\\angle A=30^{\\circ}$ 得</p>\n$$\n392=AB^{2}\\sin 30^{\\circ}=\\frac{1}{2}AB^{2}\n$$\n<p>所以 $AB^{2}=784$，且边长 $AB=\\sqrt{784}=28\\mathrm{~cm}$.</p><p>答：菱形边长为 $28\\mathrm{~cm}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "在高 $150\\mathrm{~m}$ 的山顶上测得正南两船的俯角分别为 $15^{\\circ}$ 和 $75^{\\circ}$，求两船的距离.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设山顶为 $P$，山脚为 $C$，较远的船为 $A$，较近的船为 $B$. 因为两船在正南方向，$A$，$B$，$C$ 共线，且 $PC=150\\mathrm{~m}$. 俯角等于相应的仰角，所以</p><p>$AC=150\\cot 15^{\\circ}$，$BC=150\\cot 75^{\\circ}=150\\tan 15^{\\circ}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_zhuzhou_pilot/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>于是</p>\n$$\nAB=AC-BC=150\\left(\\cot 15^{\\circ}-\\tan 15^{\\circ}\\right)\n$$\n<p>利用 $\\cot\\alpha=\\frac{\\cos\\alpha}{\\sin\\alpha}$ 和 $\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}$，有</p>\n$$\n\\cot 15^{\\circ}-\\tan 15^{\\circ}  =\\frac{\\cos^{2} 15^{\\circ}-\\sin^{2} 15^{\\circ}}{\\sin 15^{\\circ}\\cos 15^{\\circ}}=\\frac{\\cos 30^{\\circ}}{\\frac{1}{2}\\sin 30^{\\circ}}=\\frac{\\frac{\\sqrt{3}}{2}}{\\frac{1}{4}}=2\\sqrt{3}\n$$\n<p>因此</p>\n$$\nAB=300\\sqrt{3}\\mathrm{~m}\\approx 519.6\\mathrm{~m}\n$$\n<p>答：两船的距离为 $300\\sqrt{3}\\mathrm{~m}$，约为 $519.6\\mathrm{~m}$.</p>"
+          "solution": "<p>设山顶为 $P$，山脚为 $C$，较远的船为 $A$，较近的船为 $B$. 因为两船在正南方向，$A$，$B$，$C$ 共线，且 $PC=150\\mathrm{~m}$. 俯角等于相应的仰角，所以</p><p>$AC=150\\cot 15^{\\circ}$，$BC=150\\cot 75^{\\circ}=150\\tan 15^{\\circ}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/hunan_zhuzhou_pilot/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>于是</p>\n$$\nAB=AC-BC=150\\left(\\cot 15^{\\circ}-\\tan 15^{\\circ}\\right)\n$$\n<p>利用 $\\cot\\alpha=\\frac{\\cos\\alpha}{\\sin\\alpha}$ 和 $\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}$，有</p>\n$$\n\\cot 15^{\\circ}-\\tan 15^{\\circ}  =\\frac{\\cos^{2} 15^{\\circ}-\\sin^{2} 15^{\\circ}}{\\sin 15^{\\circ}\\cos 15^{\\circ}}=\\frac{\\cos 30^{\\circ}}{\\frac{1}{2}\\sin 30^{\\circ}}=\\frac{\\frac{\\sqrt{3}}{2}}{\\frac{1}{4}}=2\\sqrt{3}\n$$\n<p>因此</p>\n$$\nAB=300\\sqrt{3}\\mathrm{~m}\\approx 519.6\\mathrm{~m}\n$$\n<p>答：两船的距离为 $300\\sqrt{3}\\mathrm{~m}$，约为 $519.6\\mathrm{~m}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "有某种农药一桶，倒出 $8\\text{ 升}$ 后，用水补满；然后又倒出 $4\\text{ 升}$，再用水补满. 于是测得桶中农药与水之比为 $18:7$，求木桶的容积.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设木桶容积为 $x\\text{ 升}$. 由题意必须有 $x>8$. 第一次倒出 $8\\text{ 升}$ 农药并补水后，桶内农药和水的体积分别为 $x-8$ 和 $8$，所以混合液中农药、水的体积分数分别为 $\\frac{x-8}{x}$ 和 $\\frac{8}{x}$.</p><p>第二次倒出 $4\\text{ 升}$ 混合液，倒出的农药为 $\\frac{x-8}{x}\\times 4$，倒出的水为 $\\frac{8}{x}\\times 4$. 再次补入 $4\\text{ 升}$ 水后，桶内农药和水的体积分别为</p>\n$$\nx-8-\\frac{x-8}{x}\\times 4  =\\frac{x^{2}-12x+32}{x}\n$$\n\n$$\n8-\\frac{8}{x}\\times 4+4  =\\frac{12x-32}{x}\n$$\n<p>由农药与水之比为 $18:7$，得</p>\n$$\n\\frac{x^{2}-12x+32}{12x-32}=\\frac{18}{7}\n$$\n<p>交叉相乘并整理，得</p>\n$$\n7x^{2}-300x+800=0\n$$\n<p>因式分解得</p>\n$$\n\\left(7x-20\\right)\\left(x-40\\right)=0\n$$\n<p>所以 $x=\\frac{20}{7}$ 或 $x=40$. 由于 $x>8$，舍去 $\\frac{20}{7}$，取 $x=40$.</p><p>答：桶的容积为 $40\\text{ 升}$.</p>"
+          "solution": "<p>设木桶容积为 $x\\text{ 升}$. 由题意必须有 $x>8$. 第一次倒出 $8\\text{ 升}$ 农药并补水后，桶内农药和水的体积分别为 $x-8$ 和 $8$，所以混合液中农药、水的体积分数分别为 $\\frac{x-8}{x}$ 和 $\\frac{8}{x}$.</p><p>第二次倒出 $4\\text{ 升}$ 混合液，倒出的农药为 $\\frac{x-8}{x}\\times 4$，倒出的水为 $\\frac{8}{x}\\times 4$. 再次补入 $4\\text{ 升}$ 水后，桶内农药和水的体积分别为</p>\n$$\nx-8-\\frac{x-8}{x}\\times 4  =\\frac{x^{2}-12x+32}{x}\n$$\n\n$$\n8-\\frac{8}{x}\\times 4+4  =\\frac{12x-32}{x}\n$$\n<p>由农药与水之比为 $18:7$，得</p>\n$$\n\\frac{x^{2}-12x+32}{12x-32}=\\frac{18}{7}\n$$\n<p>交叉相乘并整理，得</p>\n$$\n7x^{2}-300x+800=0\n$$\n<p>因式分解得</p>\n$$\n\\left(7x-20\\right)\\left(x-40\\right)=0\n$$\n<p>所以 $x=\\frac{20}{7}$ 或 $x=40$. 由于 $x>8$，舍去 $\\frac{20}{7}$，取 $x=40$.</p><p>答：桶的容积为 $40\\text{ 升}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "甲船在 $A$ 点发现乙船在北偏东 $60^{\\circ}$ 的 $B$ 处，乙船以每小时 $a\\text{ 里}$ 的速度向北行驶，已知甲船速度是每小时 $\\sqrt{3}a\\text{ 里}$，问甲船应依什么方向前进，才能最快地与乙船相会？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设经过 $t>0$ 小时两船在 $C$ 点相遇. 乙船沿正北方向行驶，所以 $BC=at$；甲船的路程为 $AC=\\sqrt{3}at$. 由 $AB$ 是北偏东 $60^{\\circ}$ 方向，且 $BC$ 指向正北，得</p>\n$$\n\\angle B=180^{\\circ}-60^{\\circ}=120^{\\circ}\n$$\n<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_zhuzhou_pilot/q12_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>令 $L=AB>0$. 对任意可能的相遇时刻 $t$，乙船位于正北方向的点 $C$，且 $BC=at$. 甲船在时刻 $t$ 至多行驶 $\\sqrt{3}at$，因此必须有 $AC\\leq\\sqrt{3}at$. 由 $\\angle B=120^{\\circ}$ 和余弦定理，</p>\n$$\nAC^{2}=L^{2}+(at)^{2}-2L\\cdot at\\cos120^{\\circ}=L^{2}+Lat+a^{2}t^{2}\n$$\n<p>所以</p>\n$$\nL^{2}+Lat+a^{2}t^{2}\\leq 3a^{2}t^{2}\n$$\n<p>整理得</p>\n$$\n(2at+L)(at-L)\\geq 0\n$$\n<p>由于 $a>0$、$t\\geq 0$ 且 $L>0$，有 $2at+L>0$，故 $at\\geq L$，从而任何相遇时间都满足 $t\\geq \\frac{L}{a}$. 当 $t=\\frac{L}{a}$ 时取等号，甲船沿 $AC$ 以全速直线行驶即可相遇，因而这是最短相遇时间. 此时 $AB=BC=L$，$AC=\\sqrt{3}L$. 在 $\\triangle ABC$ 中由正弦定理，</p>\n$$\n\\frac{AC}{\\sin B}=\\frac{BC}{\\sin A}\n$$\n<p>因此</p>\n$$\n\\sin A=\\frac{BC\\sin B}{AC}=\\frac{L\\sin120^{\\circ}}{\\sqrt{3}L}=\\frac{1}{2}\n$$\n<p>又因为 $A+B+C=180^{\\circ}$，且 $B=120^{\\circ}$，所以 $0<A<60^{\\circ}$，从而 $A=30^{\\circ}$. 故甲船航线与正北方向的夹角为</p>\n$$\n\\angle NAC=60^{\\circ}-\\angle BAC=60^{\\circ}-30^{\\circ}=30^{\\circ}\n$$\n<p>答：甲船应以北偏东 $30^{\\circ}$ 的方向前进，才能最快地与乙船相会.</p>"
+          "solution": "<p>设经过 $t>0$ 小时两船在 $C$ 点相遇. 乙船沿正北方向行驶，所以 $BC=at$；甲船的路程为 $AC=\\sqrt{3}at$. 由 $AB$ 是北偏东 $60^{\\circ}$ 方向，且 $BC$ 指向正北，得</p>\n$$\n\\angle B=180^{\\circ}-60^{\\circ}=120^{\\circ}\n$$\n<p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/hunan_zhuzhou_pilot/q12_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>令 $L=AB>0$. 对任意可能的相遇时刻 $t$，乙船位于正北方向的点 $C$，且 $BC=at$. 甲船在时刻 $t$ 至多行驶 $\\sqrt{3}at$，因此必须有 $AC\\leq\\sqrt{3}at$. 由 $\\angle B=120^{\\circ}$ 和余弦定理，</p>\n$$\nAC^{2}=L^{2}+(at)^{2}-2L\\cdot at\\cos120^{\\circ}=L^{2}+Lat+a^{2}t^{2}\n$$\n<p>所以</p>\n$$\nL^{2}+Lat+a^{2}t^{2}\\leq 3a^{2}t^{2}\n$$\n<p>整理得</p>\n$$\n(2at+L)(at-L)\\geq 0\n$$\n<p>由于 $a>0$、$t\\geq 0$ 且 $L>0$，有 $2at+L>0$，故 $at\\geq L$，从而任何相遇时间都满足 $t\\geq \\frac{L}{a}$. 当 $t=\\frac{L}{a}$ 时取等号，甲船沿 $AC$ 以全速直线行驶即可相遇，因而这是最短相遇时间. 此时 $AB=BC=L$，$AC=\\sqrt{3}L$. 在 $\\triangle ABC$ 中由正弦定理，</p>\n$$\n\\frac{AC}{\\sin B}=\\frac{BC}{\\sin A}\n$$\n<p>因此</p>\n$$\n\\sin A=\\frac{BC\\sin B}{AC}=\\frac{L\\sin120^{\\circ}}{\\sqrt{3}L}=\\frac{1}{2}\n$$\n<p>又因为 $A+B+C=180^{\\circ}$，且 $B=120^{\\circ}$，所以 $0<A<60^{\\circ}$，从而 $A=30^{\\circ}$. 故甲船航线与正北方向的夹角为</p>\n$$\n\\angle NAC=60^{\\circ}-\\angle BAC=60^{\\circ}-30^{\\circ}=30^{\\circ}\n$$\n<p>答：甲船应以北偏东 $30^{\\circ}$ 的方向前进，才能最快地与乙船相会.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "双曲线中心在原点，焦点在坐标轴上；焦距为 $14$，顶点间距离为 $12$，求双曲线方程.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>双曲线的焦点在 $x$ 轴或 $y$ 轴上，需要分别讨论两种方向.</p><p>若焦点在 $x$ 轴上，设方程为</p>\n$$\n\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1\n$$\n<p>顶点间距离为 $2a=12$，故 $a=6$；焦距为 $2c=14$，故 $c=7$. 双曲线参数满足 $c^{2}=a^{2}+b^{2}$，所以</p>\n$$\nb^{2}=c^{2}-a^{2}=7^{2}-6^{2}=13\n$$\n<p>因此方程为</p>\n$$\n\\frac{x^{2}}{36}-\\frac{y^{2}}{13}=1\n$$\n<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_zhuzhou_pilot/q13_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>若焦点在 $y$ 轴上，设方程为</p>\n$$\n\\frac{y^{2}}{a^{2}}-\\frac{x^{2}}{b^{2}}=1\n$$\n<p>同样由 $2a=12$，$2c=14$ 得 $a=6$，$c=7$，再由 $c^{2}=a^{2}+b^{2}$ 得 $b^{2}=13$. 因此方程为</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_zhuzhou_pilot/q13_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>\n$$\n\\frac{y^{2}}{36}-\\frac{x^{2}}{13}=1\n$$"
+          "solution": "<p>双曲线的焦点在 $x$ 轴或 $y$ 轴上，需要分别讨论两种方向.</p><p>若焦点在 $x$ 轴上，设方程为</p>\n$$\n\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1\n$$\n<p>顶点间距离为 $2a=12$，故 $a=6$；焦距为 $2c=14$，故 $c=7$. 双曲线参数满足 $c^{2}=a^{2}+b^{2}$，所以</p>\n$$\nb^{2}=c^{2}-a^{2}=7^{2}-6^{2}=13\n$$\n<p>因此方程为</p>\n$$\n\\frac{x^{2}}{36}-\\frac{y^{2}}{13}=1\n$$\n<p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/hunan_zhuzhou_pilot/q13_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>若焦点在 $y$ 轴上，设方程为</p>\n$$\n\\frac{y^{2}}{a^{2}}-\\frac{x^{2}}{b^{2}}=1\n$$\n<p>同样由 $2a=12$，$2c=14$ 得 $a=6$，$c=7$，再由 $c^{2}=a^{2}+b^{2}$ 得 $b^{2}=13$. 因此方程为</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/hunan_zhuzhou_pilot/q13_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>\n$$\n\\frac{y^{2}}{36}-\\frac{x^{2}}{13}=1\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 14,
-          "body": "<p>从等腰 $\\triangle ABC$ 的顶点 $A$ 引直线交 $BC$ 于 $D$，交外接圆于 $E$，求证 $AB$ 是 $AD$ 和 $AE$ 的比例中项.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_zhuzhou_pilot/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>从等腰 $\\triangle ABC$ 的顶点 $A$ 引直线交 $BC$ 于 $D$，交外接圆于 $E$，求证 $AB$ 是 $AD$ 和 $AE$ 的比例中项.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/hunan_zhuzhou_pilot/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>连接 $BE$. 因为 $\\triangle ABC$ 是等腰三角形，$AB=AC$，所以</p>\n$$\n\\angle ABC=\\angle ACB\n$$\n<p>又因为 $A$，$B$，$C$，$E$ 共圆，$\\angle AEB$ 与 $\\angle ACB$ 都是所对弦 $AB$ 所对的圆周角，故</p>\n$$\n\\angle AEB=\\angle ACB\n$$\n<p>由于 $D$ 在 $BC$ 上、$E$ 在直线 $AD$ 上，有</p>\n$$\n\\angle ABD=\\angle ABC=\\angle AEB\n$$\n<p>并且 $\\angle BAD=\\angle EAB$.</p><p>因此 $\\triangle ABD\\sim\\triangle AEB$. 对应边满足</p>\n$$\n\\frac{AB}{AE}=\\frac{AD}{AB}\n$$\n<p>从而 $AB^{2}=AD\\cdot AE$. 所以 $AB$ 是 $AD$ 和 $AE$ 的比例中项.</p>"
+          "solution": "<p>连接 $BE$. 因为 $\\triangle ABC$ 是等腰三角形，$AB=AC$，所以</p>\n$$\n\\angle ABC=\\angle ACB\n$$\n<p>又因为 $A$，$B$，$C$，$E$ 共圆，$\\angle AEB$ 与 $\\angle ACB$ 都是所对弦 $AB$ 所对的圆周角，故</p>\n$$\n\\angle AEB=\\angle ACB\n$$\n<p>由于 $D$ 在 $BC$ 上、$E$ 在直线 $AD$ 上，有</p>\n$$\n\\angle ABD=\\angle ABC=\\angle AEB\n$$\n<p>并且 $\\angle BAD=\\angle EAB$.</p><p>因此 $\\triangle ABD\\sim\\triangle AEB$. 对应边满足</p>\n$$\n\\frac{AB}{AE}=\\frac{AD}{AB}\n$$\n<p>从而 $AB^{2}=AD\\cdot AE$. 所以 $AB$ 是 $AD$ 和 $AE$ 的比例中项.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "如果一个直角三角形三边的长成等差数列，试证明三边的比是 $3:4:5$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设三边按从小到大的顺序为 $a-d$，$a$，$a+d$，其中公差 $d>0$，且 $a-d>0$. 最大边是斜边，所以由勾股定理</p>\n$$\na^{2}+\\left(a-d\\right)^{2}=\\left(a+d\\right)^{2}\n$$\n<p>移项并展开，得</p>\n$$\na^{2}=\\left(a+d\\right)^{2}-\\left(a-d\\right)^{2}  =a^{2}+2ad+d^{2}-a^{2}+2ad-d^{2}=4ad\n$$\n<p>由于 $a>0$，可除以 $4a$，得到 $d=\\frac{a}{4}$. 因此三边之比为</p>\n$$\n\\left(a-\\frac{a}{4}\\right):a:\\left(a+\\frac{a}{4}\\right)  =\\frac{3a}{4}:a:\\frac{5a}{4}=3:4:5\n$$\n<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_zhuzhou_pilot/q15_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<p>设三边按从小到大的顺序为 $a-d$，$a$，$a+d$，其中公差 $d>0$，且 $a-d>0$. 最大边是斜边，所以由勾股定理</p>\n$$\na^{2}+\\left(a-d\\right)^{2}=\\left(a+d\\right)^{2}\n$$\n<p>移项并展开，得</p>\n$$\na^{2}=\\left(a+d\\right)^{2}-\\left(a-d\\right)^{2}  =a^{2}+2ad+d^{2}-a^{2}+2ad-d^{2}=4ad\n$$\n<p>由于 $a>0$，可除以 $4a$，得到 $d=\\frac{a}{4}$. 因此三边之比为</p>\n$$\n\\left(a-\\frac{a}{4}\\right):a:\\left(a+\\frac{a}{4}\\right)  =\\frac{3a}{4}:a:\\frac{5a}{4}=3:4:5\n$$\n<p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/hunan_zhuzhou_pilot/q15_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -120,23 +261,29 @@
         {
           "num": 16,
           "body": "试求 $f(x)=x^{4}-42x^{3}+435x^{2}+113x-66$ 和 $g(x)=x^{2}-x-462$ 的公根.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>先分解二次多项式：</p>\n$$\ng(x)=x^{2}-x-462=(x-22)(x+21)\n$$\n<p>所以公根只能是 $22$ 或 $-21$. 直接代入 $f(x)$，</p>\n$$\n\\begin{aligned}f(22)&=22^{4}-42\\times22^{3}+435\\times22^{2}+113\\times22-66\\\\&=234256-447216+210540+2486-66=0,\\end{aligned}\n$$\n<p>而</p>\n$$\n\\begin{aligned}f(-21)&=(-21)^{4}-42\\times(-21)^{3}+435\\times(-21)^{2}+113\\times(-21)-66\\\\&=194481+388962+191835-2373-66=772839\\neq 0.\\end{aligned}\n$$\n<p>因此 $22$ 是两个多项式的公根，$-21$ 不是，所求公根为 $x=22$.</p>"
+          "solution": "<p>先分解二次多项式：</p>\n$$\ng(x)=x^{2}-x-462=(x-22)(x+21)\n$$\n<p>所以公根只能是 $22$ 或 $-21$. 直接代入 $f(x)$，</p>\n$$\n\\begin{aligned}f(22)&=22^{4}-42\\times22^{3}+435\\times22^{2}+113\\times22-66\\\\&=234256-447216+210540+2486-66=0,\\end{aligned}\n$$\n<p>而</p>\n$$\n\\begin{aligned}f(-21)&=(-21)^{4}-42\\times(-21)^{3}+435\\times(-21)^{2}+113\\times(-21)-66\\\\&=194481+388962+191835-2373-66=772839\\neq 0.\\end{aligned}\n$$\n<p>因此 $22$ 是两个多项式的公根，$-21$ 不是，所求公根为 $x=22$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "求函数 $y=\\left(2x+1\\right)^{\\frac{1}{2}}\\left(-\\frac{1}{3}x+1\\right)^{3}$ 的导数.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>函数的定义域满足 $2x+1\\geq 0$，即 $x\\geq-\\frac{1}{2}$. 在可导区间 $x>-\\frac{1}{2}$ 上，令</p>\n$$\nu=\\left(2x+1\\right)^{\\frac{1}{2}}\n$$\n<p>令</p>\n$$\nv=\\left(1-\\frac{x}{3}\\right)^{3}\n$$\n<p>由链式法则，</p>\n$$\nu'=\\frac{1}{2}\\left(2x+1\\right)^{-\\frac{1}{2}}\\cdot 2=\\left(2x+1\\right)^{-\\frac{1}{2}}\n$$\n<p>并且</p>\n$$\nv'=3\\left(1-\\frac{x}{3}\\right)^{2}\\cdot\\left(-\\frac{1}{3}\\right)=-\\left(1-\\frac{x}{3}\\right)^{2}\n$$\n<p>再由乘积求导法则，</p>\n$$\ny'=u'v+uv'  =\\left(1-\\frac{x}{3}\\right)^{3}\\left(2x+1\\right)^{-\\frac{1}{2}}-\\left(2x+1\\right)^{\\frac{1}{2}}\\left(1-\\frac{x}{3}\\right)^{2}\n$$"
+          "solution": "<p>函数的定义域满足 $2x+1\\geq 0$，即 $x\\geq-\\frac{1}{2}$. 在可导区间 $x>-\\frac{1}{2}$ 上，令</p>\n$$\nu=\\left(2x+1\\right)^{\\frac{1}{2}}\n$$\n<p>令</p>\n$$\nv=\\left(1-\\frac{x}{3}\\right)^{3}\n$$\n<p>由链式法则，</p>\n$$\nu'=\\frac{1}{2}\\left(2x+1\\right)^{-\\frac{1}{2}}\\cdot 2=\\left(2x+1\\right)^{-\\frac{1}{2}}\n$$\n<p>并且</p>\n$$\nv'=3\\left(1-\\frac{x}{3}\\right)^{2}\\cdot\\left(-\\frac{1}{3}\\right)=-\\left(1-\\frac{x}{3}\\right)^{2}\n$$\n<p>再由乘积求导法则，</p>\n$$\ny'=u'v+uv'  =\\left(1-\\frac{x}{3}\\right)^{3}\\left(2x+1\\right)^{-\\frac{1}{2}}-\\left(2x+1\\right)^{\\frac{1}{2}}\\left(1-\\frac{x}{3}\\right)^{2}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "有一窗户，顶部为一抛物线的拱形，窗宽 $120\\mathrm{~cm}$，边高 $150\\mathrm{~cm}$，顶点高 $180\\mathrm{~cm}$，求它的面积.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>取顶点为原点，水平方向为 $x$ 轴，竖直向上为 $y$ 轴. 设抛物线方程为</p>\n$$\nx^{2}=-2py\n$$\n<p>窗宽为 $120\\mathrm{~cm}$，故右侧边的上端点坐标为 $A(60,-30)$，因为顶点比边高 $180-150=30\\mathrm{~cm}$. 代入抛物线方程，得</p>\n$$\n60^{2}=-2p\\times(-30)\n$$\n<p>所以 $p=60$.</p><p>所以抛物线方程为</p>\n$$\nx^{2}=-120y\n$$\n<p>即 $y=-\\frac{x^{2}}{120}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_zhuzhou_pilot/q18_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>图中右半边阴影面积是曲线与 $x$ 轴之间的面积，故</p>\n$$\n\\int_{0}^{60}\\frac{x^{2}}{120}\\,\\mathrm{d}x  =\\left.\\frac{x^{3}}{360}\\right|_{0}^{60}=600\\mathrm{~cm}^{2}\n$$\n<p>整个窗户可看作宽为 $120\\mathrm{~cm}$、高为 $180\\mathrm{~cm}$ 的矩形减去左右两个全等阴影区域，因此</p>\n$$\nS=2\\left(180\\times 60-600\\right)\\mathrm{~cm}^{2}  =20400\\mathrm{~cm}^{2}  =2.04\\mathrm{~m}^{2}\n$$\n<p>答：所求窗户的面积是 $2.04\\mathrm{~m}^{2}$.</p>"
+          "solution": "<p>取顶点为原点，水平方向为 $x$ 轴，竖直向上为 $y$ 轴. 设抛物线方程为</p>\n$$\nx^{2}=-2py\n$$\n<p>窗宽为 $120\\mathrm{~cm}$，故右侧边的上端点坐标为 $A(60,-30)$，因为顶点比边高 $180-150=30\\mathrm{~cm}$. 代入抛物线方程，得</p>\n$$\n60^{2}=-2p\\times(-30)\n$$\n<p>所以 $p=60$.</p><p>所以抛物线方程为</p>\n$$\nx^{2}=-120y\n$$\n<p>即 $y=-\\frac{x^{2}}{120}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/hunan_zhuzhou_pilot/q18_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>图中右半边阴影面积是曲线与 $x$ 轴之间的面积，故</p>\n$$\n\\int_{0}^{60}\\frac{x^{2}}{120}\\,\\mathrm{d}x  =\\left.\\frac{x^{3}}{360}\\right|_{0}^{60}=600\\mathrm{~cm}^{2}\n$$\n<p>整个窗户可看作宽为 $120\\mathrm{~cm}$、高为 $180\\mathrm{~cm}$ 的矩形减去左右两个全等阴影区域，因此</p>\n$$\nS=2\\left(180\\times 60-600\\right)\\mathrm{~cm}^{2}  =20400\\mathrm{~cm}^{2}  =2.04\\mathrm{~m}^{2}\n$$\n<p>答：所求窗户的面积是 $2.04\\mathrm{~m}^{2}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

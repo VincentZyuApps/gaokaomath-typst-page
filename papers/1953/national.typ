@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,51 +11,51 @@
 #part-header("解答题")
 
 #problem(1)[
-解 $(x + 1)/(x - 1)+ (x - 1)/(x + 1)= (10)/(3)$.
+解 #mi(`\frac{x + 1}{x - 1}+ \frac{x - 1}{x + 1}= \frac{10}{3}`).
 ]
 
 #solution[
-由分式有意义，得 $x != 1$ 且 $x != -1$. 在此条件下，原方程两边同乘 $3(x-1)(x+1)$，得 $3(x+1)^2+3(x-1)^2=10(x^2-1)$，即 $6(x^2+1)=10(x^2-1)$. 整理得 $4 x^2=16$，所以 $x= +- 2$. 这两个值均不等于 $+- 1$，代回原方程也成立，故原方程的解为 $x= +- 2$.
+由分式有意义，得 #mi(`x\ne1`) 且 #mi(`x\ne-1`). 在此条件下，原方程两边同乘 #mi(`3\left(x-1\right)\left(x+1\right)`)，得 #mi(`3\left(x+1\right)^{2}+3\left(x-1\right)^{2}=10\left(x^{2}-1\right)`)，即 #mi(`6\left(x^{2}+1\right)=10\left(x^{2}-1\right)`). 整理得 #mi(`4x^{2}=16`)，所以 #mi(`x=\pm2`). 这两个值均不等于 #mi(`\pm1`)，代回原方程也成立，故原方程的解为 #mi(`x=\pm2`).
 ]
 
 #problem(2)[
-若 $3 x^(2) + k x + 12 = 0$ 之二根相等，求 $k$.
+若 #mi(`3x^{2}+ kx + 12 = 0`) 之二根相等，求 #mi(`k`).
 ]
 
 #solution[
-题中方程是关于 $x$ 的二次方程，且二次项系数 $3 != 0$. 两根相等的充要条件是判别式为零，因此 $Delta =k^2-4 dot 3 dot 12 =0$. 于是 $k^2=144$，解得 $k=12$ 或 $k=-12$，即 $k= +- 12$. 此时重根为 $-(k)/(6)$，确实为实数，条件满足.
+题中方程是关于 #mi(`x`) 的二次方程，且二次项系数 #mi(`3\ne0`). 两根相等的充要条件是判别式为零，因此 #mi(`\Delta=k^{2}-4\cdot3\cdot12=0`). 于是 #mi(`k^{2}=144`)，解得 #mi(`k=12`) 或 #mi(`k=-12`)，即 #mi(`k=\pm12`). 此时重根为 #mi(`-\frac{k}{6}`)，确实为实数，条件满足.
 ]
 
 #problem(3)[
-求 $\b e g i n{v m a t r i x}3 & -1 & 1\\ 2 & 4 & 6\\ 7 & 0 & 5 \e n d{v m a t r i x}$ 之值.
+求 #mi(`\begin{vmatrix}3 & -1 & 1\\ 2 & 4 & 6\\ 7 & 0 & 5\end{vmatrix}`) 之值.
 ]
 
 #solution[
-按第一行展开，原行列式等于 $3(4 dot 5 -6 dot 0 )-(-1)(2 dot 5 -6 dot 7 )+1(2 dot 0 -4 dot 7 )$. 因而其值为 $60+(10-42)-28=60-32-28=0$.
+按第一行展开，原行列式等于 #mi(`3\left(4\cdot5-6\cdot0\right)-\left(-1\right)\left(2\cdot5-6\cdot7\right)+1\left(2\cdot0-4\cdot7\right)`). 因而其值为 #mi(`60+\left(10-42\right)-28=60-32-28=0`).
 ]
 
 #problem(4)[
-求 $log _(10)(300)/(7)+ log _(10)(700)/(3)+ log _(10)1$ 之值.
+求 #mi(`\log_{10}\frac{300}{7}+ \log_{10}\frac{700}{3}+ \log_{10}1`) 之值.
 ]
 
 #solution[
-三个真数均为正数，可以使用对数的乘法公式，且 $log _(10)1=0$. 所以原式 $= log _(10)((300)/(7) dot (700)/(3) dot 1 )= log _(10)10000=4$.
+三个真数均为正数，可以使用对数的乘法公式，且 #mi(`\log_{10}1=0`). 所以原式 #mi(`=\log_{10}\left(\frac{300}{7}\cdot\frac{700}{3}\cdot1\right)=\log_{10}10000=4`).
 ]
 
 #problem(5)[
-求 $tan (870^( degree ))$.
+求 #mi(`\tan\left(870^{\circ}\right)`).
 ]
 
 #solution[
-因为 $870^( degree )=5 dot 180 ""^( degree )-30^( degree )$，而正切函数的周期为 $180^( degree )$，所以 $tan 870 ""^( degree )= tan (-30^( degree ))=- tan 30 ""^( degree )=-(1)/(sqrt(3))$.
+因为 #mi(`870^{\circ}=5\cdot180^{\circ}-30^{\circ}`)，而正切函数的周期为 #mi(`180^{\circ}`)，所以 #mi(`\tan870^{\circ}=\tan\left(-30^{\circ}\right)=-\tan30^{\circ}=-\frac{1}{\sqrt{3}}`).
 ]
 
 #problem(6)[
-若 $cos 2 x=(1)/(2)$，求 $x$ 之通值.
+若 #mi(`\cos2x=\frac{1}{2}`)，求 #mi(`x`) 之通值.
 ]
 
 #solution[
-在一个周期内，满足 $cos theta =(1)/(2)$ 的角为 $theta =2 n pi +- (pi)/(3)$，其中 $n in ZZ$. 令 $theta =2 x$，得 $2 x=2 n pi +- (pi)/(3)$，两边除以 $2$，所以 $x=n pi +- (pi)/(6)$，其中 $n in ZZ$. 该表达式已经包含余弦函数的全部周期性解.
+在一个周期内，满足 #mi(`\cos\theta=\frac{1}{2}`) 的角为 #mi(`\theta=2n\pi\pm\frac{\pi}{3}`)，其中 #mi(`n\in\mathbb{Z}`). 令 #mi(`\theta=2x`)，得 #mi(`2x=2n\pi\pm\frac{\pi}{3}`)，两边除以 #mi(`2`)，所以 #mi(`x=n\pi\pm\frac{\pi}{6}`)，其中 #mi(`n\in\mathbb{Z}`). 该表达式已经包含余弦函数的全部周期性解.
 ]
 
 #problem(7)[
@@ -63,91 +63,92 @@
 ]
 
 #solution[
-设对应顶点为 $A\l e f t r i g h t a r r o w A'$、$B\l e f t r i g h t a r r o w B'$、$C\l e f t r i g h t a r r o w C'$，则两三角形相似的判定条件有以下三种：
+设对应顶点为 #mi(`A\leftrightarrow A'`)、#mi(`B\leftrightarrow B'`)、#mi(`C\leftrightarrow C'`)，则两三角形相似的判定条件有以下三种：
 
-+ (1) 两个角分别相等，即 $angle A= angle A'$、$angle B= angle B'$. 此时第三个角也相等，因为三角形内角和均为 $180^( degree )$，所以由两角判定两三角形相似.
-+ (2) 一个角相等，且这个角的两边分别成比例，即 $angle A= angle A'$，且 $A B:A'B'=A C:A'C'$. 这里相等的角是两组比例边的夹角，由两边及其夹角判定两三角形相似.
-+ (3) 三组对应边分别成比例，即 $A B:A'B'=A C:A'C'=B C:B'C'$. 由三边判定两三角形相似.
 
-三者分别是两角、两边及其夹角、三边的相似判定条件，均可推出 $triangle A B C tilde triangle A'B'C'$.
++ (1) 
++ (2) 
+
+
+
+三者分别是两角、两边及其夹角、三边的相似判定条件，均可推出 #mi(`\triangle ABC\sim\triangle A'B'C'`).
 ]
 
 #problem(8)[
-长方体之长，宽，高为 $12" 寸"$，$3" 寸"$，$4" 寸"$，求对角线之长.
+长方体之长，宽，高为 #mi(`12\text{ \text{寸}}`)，#mi(`3\text{ \text{寸}}`)，#mi(`4\text{ \text{寸}}`)，求对角线之长.
 ]
 
 #solution[
-先取长方体底面的对角线，其长度为 $sqrt(12^2+3^2)=sqrt(153)" 寸"$. 该底面对角线与高 $4" 寸"$ 又构成直角三角形，因此长方体对角线 $d$ 满足 $d^2=12^2+3^2+4^2=144+9+16=169$. 由于长度取正值，得 $d=13" 寸"$.
+先取长方体底面的对角线，其长度为 #mi(`\sqrt{12^{2}+3^{2}}=\sqrt{153}\text{ \text{寸}}`). 该底面对角线与高 #mi(`4\text{ \text{寸}}`) 又构成直角三角形，因此长方体对角线 #mi(`d`) 满足 #mi(`d^{2}=12^{2}+3^{2}+4^{2}=144+9+16=169`). 由于长度取正值，得 #mi(`d=13\text{ \text{寸}}`).
 ]
 
 #problem(9)[
-垂直三棱柱之高为 $6" 寸"$，底面三边之长为 $3" 寸"$，$4" 寸"$，$5" 寸"$，求体积.
+垂直三棱柱之高为 #mi(`6\text{ \text{寸}}`)，底面三边之长为 #mi(`3\text{ \text{寸}}`)，#mi(`4\text{ \text{寸}}`)，#mi(`5\text{ \text{寸}}`)，求体积.
 ]
 
 #solution[
-底面三边满足 $3^2+4^2=5^2$，所以底面是以 $3" 寸"$、$4" 寸"$ 为直角边的直角三角形. 底面积为 $S_("底")=(1)/(2) dot 3 dot 4 =6" 平方寸"$. 直棱柱体积等于底面积乘高，因此 $V=S_("底")h=6 dot 6 =36" 立方寸"$.
+底面三边满足 #mi(`3^{2}+4^{2}=5^{2}`)，所以底面是以 #mi(`3\text{ \text{寸}}`)、#mi(`4\text{ \text{寸}}`) 为直角边的直角三角形. 底面积为 #mi(`S_{\text{\text{底}}}=\frac{1}{2}\cdot3\cdot4=6\text{ \text{平方寸}}`). 直棱柱体积等于底面积乘高，因此 #mi(`V=S_{\text{\text{底}}}h=6\cdot6=36\text{ \text{立方寸}}`).
 ]
 
 #problem(10)[
-球之表面积为 $36 pi " 方寸"$，求体积.
+球之表面积为 #mi(`36\pi\text{ \text{方寸}}`)，求体积.
 ]
 
 #solution[
-设球半径为 $r" 寸"$，则 $r>0$. 由球的表面积公式，$4 pi r^2=36 pi$，所以 $r^2=9$. 因为半径为正，故 $r=3" 寸"$. 于是球的体积为 $V=(4)/(3) pi r^3=(4)/(3) pi dot 3 ""^3=36 pi " 立方寸"$.
+设球半径为 #mi(`r\text{ \text{寸}}`)，则 #mi(`r>0`). 由球的表面积公式，#mi(`4\pi r^{2}=36\pi`)，所以 #mi(`r^{2}=9`). 因为半径为正，故 #mi(`r=3\text{ \text{寸}}`). 于是球的体积为 #mi(`V=\frac{4}{3}\pi r^{3}=\frac{4}{3}\pi\cdot3^{3}=36\pi\text{ \text{立方寸}}`).
 ]
 
 #problem(11)[
-解方程组 $\b e g i n{c a s e s} x^(2) - 2 x y + 3 y^(2) = 9,\\ 4 x^(2) - 5 x y + 6 y^(2) = 30. \e n d{c a s e s}$
+解方程组 #mi(`\begin{cases}x^{2}- 2xy + 3y^{2}= 9,\\  4x^{2}- 5xy + 6y^{2}= 30.\end{cases}`)
 ]
 
 #solution[
-将第一式乘以 $10$，第二式乘以 $3$，两式相减并消去常数项，得 $-2 x^2-5 x y+12 y^2=0$，即 $2 x^2+5 x y-12 y^2=0$. 因式分解得 $(x+4 y)(2 x-3 y)=0$，所以必须分两种情形讨论.
+将第一式乘以 #mi(`10`)，第二式乘以 #mi(`3`)，两式相减并消去常数项，得 #mi(`-2x^{2}-5xy+12y^{2}=0`)，即 #mi(`2x^{2}+5xy-12y^{2}=0`). 因式分解得 #mi(`\left(x+4y\right)\left(2x-3y\right)=0`)，所以必须分两种情形讨论.
 
-当 $x+4 y=0$ 时，$x=-4 y$. 代入第一式，得 $16 y^2+8 y^2+3 y^2=9$，即 $27 y^2=9$，所以 $y= +- (sqrt(3))/(3)$，相应地 $x= -+ (4 sqrt(3))/(3)$. 得到两组解 $((4 sqrt(3))/(3),-(sqrt(3))/(3))$ 和 $(-(4 sqrt(3))/(3),(sqrt(3))/(3))$.
+当 #mi(`x+4y=0`) 时，#mi(`x=-4y`). 代入第一式，得 #mi(`16y^{2}+8y^{2}+3y^{2}=9`)，即 #mi(`27y^{2}=9`)，所以 #mi(`y=\pm\frac{\sqrt{3}}{3}`)，相应地 #mi(`x=\mp\frac{4\sqrt{3}}{3}`). 得到两组解 #mi(`\left(\frac{4\sqrt{3}}{3},-\frac{\sqrt{3}}{3}\right)`) 和 #mi(`\left(-\frac{4\sqrt{3}}{3},\frac{\sqrt{3}}{3}\right)`).
 
-当 $2 x-3 y=0$ 时，$x=(3)/(2)y$. 代入第一式，得 $(9)/(4)y^2-3 y^2+3 y^2=9$，即 $(9)/(4)y^2=9$，所以 $y= +- 2$，相应地 $x= +- 3$. 得到两组解 $(3,2)$ 和 $(-3,-2)$.
+当 #mi(`2x-3y=0`) 时，#mi(`x=\frac{3}{2}y`). 代入第一式，得 #mi(`\frac{9}{4}y^{2}-3y^{2}+3y^{2}=9`)，即 #mi(`\frac{9}{4}y^{2}=9`)，所以 #mi(`y=\pm2`)，相应地 #mi(`x=\pm3`). 得到两组解 #mi(`\left(3,2\right)`) 和 #mi(`\left(-3,-2\right)`).
 
-上述各组解均满足第一式，并且它们满足由两原式线性消元所得的关系 $10 times "第一式"-3 times "第二式"=0$，所以代回即有第二式成立. 因此原方程组的解为 $(x,y)=((4 sqrt(3))/(3),-(sqrt(3))/(3))$、$(-(4 sqrt(3))/(3),(sqrt(3))/(3))$、$(3,2)$、$(-3,-2)$.
+上述各组解均满足第一式，并且它们满足由两原式线性消元所得的关系 #mi(`10\times\text{\text{第一式}}-3\times\text{\text{第二式}}=0`)，所以代回即有第二式成立. 因此原方程组的解为 #mi(`\left(x,y\right)=\left(\frac{4\sqrt{3}}{3},-\frac{\sqrt{3}}{3}\right)`)、#mi(`\left(-\frac{4\sqrt{3}}{3},\frac{\sqrt{3}}{3}\right)`)、#mi(`\left(3,2\right)`)、#mi(`\left(-3,-2\right)`).
 ]
 
 #problem(12)[
-+ (1) 化简 $sqrt((12)/(25))+ root(4, 90000) + \sqrt[6]{(64)/(27)}$.
-+ (2) 求 $( 2 x^(3) + (1)/(x))^(12)$ 之展开式中之常数项.
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $12=3 dot 2 ""^2$、$25=5^2$、$90000=3^2 dot 10 ""^4$、$64=2^6$、$27=3^3$，且各根号取算术根，所以
-$sqrt((12)/(25))=(2)/(5)sqrt(3)$，$root(4, 90000)=root(4, 3^2 dot 10 ""^4)=10 sqrt(3)$，$\sqrt[6]{(64)/(27)}=\sqrt[6]{(2^6)/(3^3)}=(2)/(sqrt(3))=(2)/(3)sqrt(3)$. 因而原式 $=((2)/(5)+10+(2)/(3))sqrt(3)=(166)/(15)sqrt(3)$.
-+ (2) 由于式中含有 $(1)/(x)$，须有 $x != 0$. 二项式展开的通项为 $T_(r+1)=C_(12)^(r)(2 x^3)^(12-r)((1)/(x))^r=C_(12)^(r)2^(12-r)x^(36-4 r)$，其中 $r=0$，$1$，$\l d o t s$，$12$. 要成为常数项，必须有 $36-4 r=0$，所以 $r=9$，且该值在允许范围内. 因此常数项为 $C_(12)^(9)2^(12-9)=C_(12)^(3)2^3=220 dot 8 =1760$.
++ (1)
 ]
 
 #problem(13)[
-锐角三角形 $A B C$ 之三高线为 $A D$，$B E$，$C F$，垂心为 $H$，求证 $H D$ 平分 $angle E D F$.
+锐角三角形 #mi(`ABC`) 之三高线为 #mi(`AD`)，#mi(`BE`)，#mi(`CF`)，垂心为 #mi(`H`)，求证 #mi(`HD`) 平分 #mi(`\angle EDF`).
 ]
 
 #solution[
-由 $A D bot B C$、$B E bot C A$，可知 $angle A D B= angle A E B=90^( degree )$，所以 $A$、$B$、$D$、$E$ 共圆. 因同弦 $A E$ 所对的圆周角相等，得 $angle A D E= angle A B E$.
+由 #mi(`AD\perp BC`)、#mi(`BE\perp CA`)，可知 #mi(`\angle ADB=\angle AEB=90^{\circ}`)，所以 #mi(`A`)、#mi(`B`)、#mi(`D`)、#mi(`E`) 共圆. 因同弦 #mi(`AE`) 所对的圆周角相等，得 #mi(`\angle ADE=\angle ABE`).
 
-又因为 $C F bot A B$、$B E bot A C$，所以 $angle B F C= angle B E C=90^( degree )$，从而 $F$、$B$、$C$、$E$ 共圆. 由于 $A$、$F$、$B$ 共线，且 $A$、$E$、$C$ 共线，有 $angle A B E= angle F B E$、$angle F C E= angle F C A$. 在圆 $F B C E$ 中，同弦 $F E$ 所对的圆周角相等，因此 $angle F B E= angle F C E$.
+又因为 #mi(`CF\perp AB`)、#mi(`BE\perp AC`)，所以 #mi(`\angle BFC=\angle BEC=90^{\circ}`)，从而 #mi(`F`)、#mi(`B`)、#mi(`C`)、#mi(`E`) 共圆. 由于 #mi(`A`)、#mi(`F`)、#mi(`B`) 共线，且 #mi(`A`)、#mi(`E`)、#mi(`C`) 共线，有 #mi(`\angle ABE=\angle FBE`)、#mi(`\angle FCE=\angle FCA`). 在圆 #mi(`FBCE`) 中，同弦 #mi(`FE`) 所对的圆周角相等，因此 #mi(`\angle FBE=\angle FCE`).
 
-再由 $A D bot B C$、$C F bot A B$，得 $angle C D A= angle C F A=90^( degree )$，所以 $C$、$A$、$F$、$D$ 共圆. 在圆 $C A F D$ 中，同弦 $F A$ 所对的圆周角相等，故 $angle F C A= angle F D A$. 综合以上等式，$angle A D E= angle A B E= angle F B E= angle F C E= angle F C A= angle F D A$，所以直线 $A D$ 平分 $angle E D F$.
+再由 #mi(`AD\perp BC`)、#mi(`CF\perp AB`)，得 #mi(`\angle CDA=\angle CFA=90^{\circ}`)，所以 #mi(`C`)、#mi(`A`)、#mi(`F`)、#mi(`D`) 共圆. 在圆 #mi(`CAFD`) 中，同弦 #mi(`FA`) 所对的圆周角相等，故 #mi(`\angle FCA=\angle FDA`). 综合以上等式，#mi(`\angle ADE=\angle ABE=\angle FBE=\angle FCE=\angle FCA=\angle FDA`)，所以直线 #mi(`AD`) 平分 #mi(`\angle EDF`).
 
-由于三角形 $A B C$ 为锐角三角形，垂心 $H$ 在线段 $A D$ 上，且从点 $D$ 看，射线 $D H$ 与射线 $D A$ 重合，因此 $H D$ 也平分 $angle E D F$.
+由于三角形 #mi(`ABC`) 为锐角三角形，垂心 #mi(`H`) 在线段 #mi(`AD`) 上，且从点 #mi(`D`) 看，射线 #mi(`DH`) 与射线 #mi(`DA`) 重合，因此 #mi(`HD`) 也平分 #mi(`\angle EDF`).
 
+ 
+#align(center)[#image("/papers/1953/img/national/q4_solution_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/1953/img/national/q4_solution_fig1.png", width: 4cm)]
 ]
 
 #problem(14)[
-已知三角形的两个角为 $45^( degree )$ 及 $60^( degree )$，而其夹边长 $1" 尺"$；求最小边之长及面积.
+已知三角形的两个角为 #mi(`45^{\circ}`) 及 #mi(`60^{\circ}`)，而其夹边长 #mi(`1\text{ \text{尺}}`)；求最小边之长及面积.
 ]
 
 #solution[
-设三角形为 $triangle A B C$，令 $angle B=45^( degree )$、$angle C=60^( degree )$，则夹在这两个角之间的边为 $B C=1" 尺"$，且 $angle A=180^( degree )-45^( degree )-60^( degree )=75^( degree )$. 三角形中最小的角是 $angle B$，所以最小边是其对边 $A C$.
+设三角形为 #mi(`\triangle ABC`)，令 #mi(`\angle B=45^{\circ}`)、#mi(`\angle C=60^{\circ}`)，则夹在这两个角之间的边为 #mi(`BC=1\text{ \text{尺}}`)，且 #mi(`\angle A=180^{\circ}-45^{\circ}-60^{\circ}=75^{\circ}`). 三角形中最小的角是 #mi(`\angle B`)，所以最小边是其对边 #mi(`AC`).
 
-由正弦定理，$(A C)/(sin 45 ""^( degree ))=(B C)/(sin 75 ""^( degree ))=(1)/(sin 75 ""^( degree ))$，于是
-$A C=(sin 45 ""^( degree ))/(sin 75 ""^( degree ))=((sqrt(2))/(2))/(sin (45^( degree )+30^( degree )))=((sqrt(2))/(2))/((sqrt(2))/(2) dot (sqrt(3))/(2)+(sqrt(2))/(2) dot (1)/(2))=(2)/(sqrt(3)+1)=sqrt(3)-1" 尺"$.
+由正弦定理，#mi(`\frac{AC}{\sin45^{\circ}}=\frac{BC}{\sin75^{\circ}}=\frac{1}{\sin75^{\circ}}`)，于是
 
-以 $B C$ 和 $C A$ 为两边，夹角为 $angle C=60^( degree )$，所以三角形面积为 $S=(1)/(2) dot B C dot C A dot sin 60 ""^( degree )=(1)/(2) dot 1 dot (sqrt(3)-1) dot (sqrt(3))/(2)=(3-sqrt(3))/(4)" 平方尺"$.
+#mi(`AC=\frac{\sin45^{\circ}}{\sin75^{\circ}}=\frac{\frac{\sqrt{2}}{2}}{\sin\left(45^{\circ}+30^{\circ}\right)}=\frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{2}}{2}\cdot\frac{\sqrt{3}}{2}+\frac{\sqrt{2}}{2}\cdot\frac{1}{2}}=\frac{2}{\sqrt{3}+1}=\sqrt{3}-1\text{ \text{尺}}`).
+
+以 #mi(`BC`) 和 #mi(`CA`) 为两边，夹角为 #mi(`\angle C=60^{\circ}`)，所以三角形面积为 #mi(`S=\frac{1}{2}\cdot BC\cdot CA\cdot\sin60^{\circ}=\frac{1}{2}\cdot1\cdot\left(\sqrt{3}-1\right)\cdot\frac{\sqrt{3}}{2}=\frac{3-\sqrt{3}}{4}\text{ \text{平方尺}}`).
 ]
 

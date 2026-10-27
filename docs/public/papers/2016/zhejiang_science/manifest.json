@@ -1,8 +1,131 @@
 {
-  "title": "2016年普通高等学校招生全国统一考试",
-  "subtitle": "2016年浙江卷（理）",
   "year": "2016",
   "slug": "zhejiang_science",
+  "title": "2016年浙江卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$( -\\infty,-2]\\cup [1,+\\infty)$"
           ],
           "answer": "B",
-          "solution": "<p>由 $x^{2}\\geqslant4$ 得 $Q=(-\\infty,-2]\\cup[2,+\\infty)$，所以</p><p>$\\complement_{\\mathbb{R}}Q=(-2,2)$. 因而</p>\n$$\nP\\cup\\left(\\complement_{\\mathbb{R}}Q\\right)=[1,3]\\cup(-2,2)=(-2,3]\n$$\n<p>故选 B.</p>"
+          "solution": "<p>由 $x^{2}\\geqslant4$ 得 $Q=(-\\infty,-2]\\cup[2,+\\infty)$，所以</p><p>$\\complement_{\\mathbb{R}}Q=(-2,2)$. 因而</p>\n$$\nP\\cup\\left(\\complement_{\\mathbb{R}}Q\\right)=[1,3]\\cup(-2,2)=(-2,3]\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +154,9 @@
             "$m\\perp n$"
           ],
           "answer": "C",
-          "solution": "因为 $n\\perp\\beta$，所以直线 $n$ 的方向垂直于平面 $\\beta$ 内任意直线的方向. 又 $l\\subset\\beta$，故 $n\\perp l$. 条件 $m\\parallel\\alpha$ 不能确定 $m$ 与 $l$、$n$ 的关系，因此只有 C 正确."
+          "solution": "因为 $n\\perp\\beta$，所以直线 $n$ 的方向垂直于平面 $\\beta$ 内任意直线的方向. 又 $l\\subset\\beta$，故 $n\\perp l$. 条件 $m\\parallel\\alpha$ 不能确定 $m$ 与 $l$、$n$ 的关系，因此只有 C 正确.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +168,9 @@
             "$6$"
           ],
           "answer": "C",
-          "solution": "<p>区域的边界为 $x=2$、$y=-x$ 和 $y=\\dfrac{x+4}{3}$，其三个顶点为</p><p>$(-1,1)$、$(2,-2)$、$(2,2)$. 设原区域内点 $(x,y)$ 在直线 $x+y=2$ 上的投影为</p><p>$H=(1+t,1-t)$，则投影方向为 $(1,1)$，从而</p>\n$$\nt=\\frac{x-y}{2}\n$$\n<p>在线性区域上，$x-y$ 的最大值和最小值分别在顶点处取得：</p><p>$\\max(x-y)=4$，$\\min(x-y)=-2$.</p><p>所以 $t$ 的范围为 $[-1,2]$，投影线段的长度为</p>\n$$\n(2-(-1))\\sqrt{1^{2}+(-1)^{2}}=3\\sqrt{2}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>区域的边界为 $x=2$、$y=-x$ 和 $y=\\dfrac{x+4}{3}$，其三个顶点为</p><p>$(-1,1)$、$(2,-2)$、$(2,2)$. 设原区域内点 $(x,y)$ 在直线 $x+y=2$ 上的投影为</p><p>$H=(1+t,1-t)$，则投影方向为 $(1,1)$，从而</p>\n$$\nt=\\frac{x-y}{2}\n$$\n<p>在线性区域上，$x-y$ 的最大值和最小值分别在顶点处取得：</p><p>$\\max(x-y)=4$，$\\min(x-y)=-2$.</p><p>所以 $t$ 的范围为 $[-1,2]$，投影线段的长度为</p>\n$$\n(2-(-1))\\sqrt{1^{2}+(-1)^{2}}=3\\sqrt{2}\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +182,9 @@
             "$\\exists x\\in\\mathbb{R}$，$\\forall n\\in\\mathbb{N}^{*}$，使得 $n<x^{2}$"
           ],
           "answer": "D",
-          "solution": "<p>利用量词否定公式</p><p>$\\neg(\\forall x\\,\\exists n\\,P(x,n))\\iff\\exists x\\,\\forall n\\,\\neg P(x,n)$，并且</p><p>$\\neg(n\\ge x^{2})$ 等价于 $n<x^{2}$. 因此原命题的否定为</p><p>$\\exists x\\in\\mathbb{R}$，对任意 $n\\in\\mathbb{N}^{*}$ 均有 $n<x^{2}$.</p><p>故选 D.</p>"
+          "solution": "<p>利用量词否定公式</p><p>$\\neg(\\forall x\\,\\exists n\\,P(x,n))\\iff\\exists x\\,\\forall n\\,\\neg P(x,n)$，并且</p><p>$\\neg(n\\ge x^{2})$ 等价于 $n<x^{2}$. 因此原命题的否定为</p><p>$\\exists x\\in\\mathbb{R}$，对任意 $n\\in\\mathbb{N}^{*}$ 均有 $n<x^{2}$.</p><p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,11 +196,13 @@
             "<span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">与 $b$ 无关，但与 $c$ 有关</span></span>"
           ],
           "answer": "B",
-          "solution": "<p>利用降幂公式，</p>\n$$\nf(x)=\\frac{1-\\cos2x}{2}+b\\sin x+c\n$$\n<p>当 $b=0$ 时，$f(x)$ 的最小正周期为 $\\pi$；当 $b\\ne0$ 时，含有 $b\\sin x$ 项，周期不能为 $\\pi$，而 $2\\pi$ 是周期，所以最小正周期为 $2\\pi$. 常数 $c$ 不影响周期，故周期与 $b$ 有关但与 $c$ 无关.</p><p>故选 B.</p>"
+          "solution": "<p>利用降幂公式，</p>\n$$\nf(x)=\\frac{1-\\cos2x}{2}+b\\sin x+c\n$$\n<p>当 $b=0$ 时，$f(x)$ 的最小正周期为 $\\pi$；当 $b\\ne0$ 时，含有 $b\\sin x$ 项，周期不能为 $\\pi$，而 $2\\pi$ 是周期，所以最小正周期为 $2\\pi$. 常数 $c$ 不影响周期，故周期与 $b$ 有关但与 $c$ 无关.</p><p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
-          "body": "<p>如图，点列 $\\{A_{n}\\}$，$\\{B_{n}\\}$ 分别在某锐角的两边上，且 $|A_{n}A_{n+1}|=|A_{n+1}A_{n+2}|$，$A_{n}\\ne A_{n+1}$，$n\\in\\mathbb{N}^{*}$，$|B_{n}B_{n+1}|=|B_{n+1}B_{n+2}|$，$B_{n}\\ne B_{n+1}$，$n\\in\\mathbb{N}^{*}$（$P\\ne Q$ 表示点 $P$ 与点 $Q$ 不重合）. 若 $d_{n}=|A_{n}B_{n}|$，$S_{n}$ 为 $\\triangle A_{n}B_{n}B_{n+1}$ 的面积，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，点列 $\\{A_{n}\\}$，$\\{B_{n}\\}$ 分别在某锐角的两边上，且 $|A_{n}A_{n+1}|=|A_{n+1}A_{n+2}|$，$A_{n}\\ne A_{n+1}$，$n\\in\\mathbb{N}^{*}$，$|B_{n}B_{n+1}|=|B_{n+1}B_{n+2}|$，$B_{n}\\ne B_{n+1}$，$n\\in\\mathbb{N}^{*}$（$P\\ne Q$ 表示点 $P$ 与点 $Q$ 不重合）. 若 $d_{n}=|A_{n}B_{n}|$，$S_{n}$ 为 $\\triangle A_{n}B_{n}B_{n+1}$ 的面积，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\{S_{n}\\}$ 是等差数列",
             "$\\{S_{n}^{2}\\}$ 是等差数列",
@@ -77,7 +210,9 @@
             "$\\{d_{n}^{2}\\}$ 是等差数列"
           ],
           "answer": "A",
-          "solution": "<p>设两边的夹角为 $\\theta$，并令 $OA_{n}=x_{n}$，$OB_{n}=y_{n}$. 由题图中点列沿两边依次排列，且相邻线段长度分别保持不变，设</p><p>$A_{n}A_{n+1}=p$，$B_{n}B_{n+1}=q$，则</p><p>$x_{n}=x_{1}+(n-1)p$，$y_{n}=y_{1}+(n-1)q$.</p><p>三角形 $A_{n}B_{n}B_{n+1}$ 以 $B_{n}B_{n+1}$ 为底，其高为 $x_{n}\\sin\\theta$，因此</p>\n$$\nS_{n}=\\frac{1}{2}q x_{n}\\sin\\theta  =\\frac{1}{2}q\\sin\\theta\\bigl(x_{1}+(n-1)p\\bigr)\n$$\n<p>这是关于 $n$ 的一次式，所以 $\\{S_{n}\\}$ 是等差数列. 故选 A.</p>"
+          "solution": "<p>设两边的夹角为 $\\theta$，并令 $OA_{n}=x_{n}$，$OB_{n}=y_{n}$. 由题图中点列沿两边依次排列，且相邻线段长度分别保持不变，设</p><p>$A_{n}A_{n+1}=p$，$B_{n}B_{n+1}=q$，则</p><p>$x_{n}=x_{1}+(n-1)p$，$y_{n}=y_{1}+(n-1)q$.</p><p>三角形 $A_{n}B_{n}B_{n+1}$ 以 $B_{n}B_{n+1}$ 为底，其高为 $x_{n}\\sin\\theta$，因此</p>\n$$\nS_{n}=\\frac{1}{2}q x_{n}\\sin\\theta  =\\frac{1}{2}q\\sin\\theta\\bigl(x_{1}+(n-1)p\\bigr)\n$$\n<p>这是关于 $n$ 的一次式，所以 $\\{S_{n}\\}$ 是等差数列. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +224,9 @@
             "$m<n$ 且 $e_{1}e_{2}<1$"
           ],
           "answer": "A",
-          "solution": "<p>设两曲线的公共焦半距为 $c$. 由焦点重合，</p><p>$c^{2}=m^{2}-1=n^{2}+1$，$m^{2}-n^{2}=2$，</p><p>所以 $m>n$. 又</p>\n$$\ne_{1}e_{2}=\\frac{c}{m}\\cdot\\frac{c}{n}=\\frac{c^{2}}{mn}\n$$\n<p>并且</p>\n$$\n(c^{2})^{2}-m^{2}n^{2}=(m^{2}-1)^{2}-m^{2}(m^{2}-2)=1>0\n$$\n<p>由于 $c^{2}$，$mn>0$，得 $c^{2}>mn$，故 $e_{1}e_{2}>1$. 因此选 A.</p>"
+          "solution": "<p>设两曲线的公共焦半距为 $c$. 由焦点重合，</p><p>$c^{2}=m^{2}-1=n^{2}+1$，$m^{2}-n^{2}=2$，</p><p>所以 $m>n$. 又</p>\n$$\ne_{1}e_{2}=\\frac{c}{m}\\cdot\\frac{c}{n}=\\frac{c^{2}}{mn}\n$$\n<p>并且</p>\n$$\n(c^{2})^{2}-m^{2}n^{2}=(m^{2}-1)^{2}-m^{2}(m^{2}-2)=1>0\n$$\n<p>由于 $c^{2}$，$mn>0$，得 $c^{2}>mn$，故 $e_{1}e_{2}>1$. 因此选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +238,9 @@
             "$\\bigl|a^{2}+b+c\\bigr|+\\bigl|a+b^{2}-c\\bigr|\\le 1$ 时，$a^{2}+b^{2}+c^{2}<100$"
           ],
           "answer": "D",
-          "solution": "<p>先说明 A、B、C 均不成立.</p><p>选项 A 取 $a=b=10$，$c=-110$，则</p>\n$$\n|a^{2}+b+c|+|a+b^{2}+c|=0\n$$\n<p>但 $a^{2}+b^{2}+c^{2}=12300>100$. 选项 B 取 $a=10$，$b=-100$，$c=0$，则两个绝对值也都为 $0$，而 $a^{2}+b^{2}+c^{2}=10100>100$. 选项 C 取 $a=10$，$b=-10$，$c=0$，同样两个绝对值都为 $0$，而 $a^{2}+b^{2}+c^{2}=200>100$.</p><p>对于选项 D，令</p><p>$u=a^{2}+b+c$，$v=a+b^{2}-c$.</p><p>由条件 $|u|+|v|\\leqslant1$ 得</p>\n$$\n|a^{2}+a+b^{2}+b|=|u+v|\\leqslant1\n$$\n<p>于是</p>\n$$\n\\left(a+\\frac{1}{2}\\right)^{2}+\\left(b+\\frac{1}{2}\\right)^{2}\\le\\frac{3}{2}\n$$\n<p>从而 $|a|<2$，$|b|<2$. 另外，</p>\n$$\n|a^{2}-a+b-b^{2}+2c|=|u-v|\\leqslant1\n$$\n<p>由 $|a^{2}-a|<6$、$|b-b^{2}|<6$，得</p><p>$2|c|<1+6+6=13$，$|c|<\\frac{13}{2}$.</p><p>因此</p>\n$$\na^{2}+b^{2}+c^{2}<4+4+\\left(\\frac{13}{2}\\right)^{2}=\\frac{201}{4}<100\n$$\n<p>所以 D 正确，故选 D.</p>"
+          "solution": "<p>先说明 A、B、C 均不成立.</p><p>选项 A 取 $a=b=10$，$c=-110$，则</p>\n$$\n|a^{2}+b+c|+|a+b^{2}+c|=0\n$$\n<p>但 $a^{2}+b^{2}+c^{2}=12300>100$. 选项 B 取 $a=10$，$b=-100$，$c=0$，则两个绝对值也都为 $0$，而 $a^{2}+b^{2}+c^{2}=10100>100$. 选项 C 取 $a=10$，$b=-10$，$c=0$，同样两个绝对值都为 $0$，而 $a^{2}+b^{2}+c^{2}=200>100$.</p><p>对于选项 D，令</p><p>$u=a^{2}+b+c$，$v=a+b^{2}-c$.</p><p>由条件 $|u|+|v|\\leqslant1$ 得</p>\n$$\n|a^{2}+a+b^{2}+b|=|u+v|\\leqslant1\n$$\n<p>于是</p>\n$$\n\\left(a+\\frac{1}{2}\\right)^{2}+\\left(b+\\frac{1}{2}\\right)^{2}\\le\\frac{3}{2}\n$$\n<p>从而 $|a|<2$，$|b|<2$. 另外，</p>\n$$\n|a^{2}-a+b-b^{2}+2c|=|u-v|\\leqslant1\n$$\n<p>由 $|a^{2}-a|<6$、$|b-b^{2}|<6$，得</p><p>$2|c|<1+6+6=13$，$|c|<\\frac{13}{2}$.</p><p>因此</p>\n$$\na^{2}+b^{2}+c^{2}<4+4+\\left(\\frac{13}{2}\\right)^{2}=\\frac{201}{4}<100\n$$\n<p>所以 D 正确，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -111,51 +250,65 @@
         {
           "num": 9,
           "body": "若抛物线 $y^{2}=4x$ 上的点 $M$ 到焦点的距离为 $10$，则 $M$ 到 $y$ 轴的距离是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "9",
-          "solution": "<p>抛物线 $y^{2}=4x$ 的焦点为 $F(1,0)$，准线为 $x=-1$. 由抛物线的定义，点 $M$ 到焦点的距离等于点 $M$ 到准线的距离，故</p><p>$x_{M}+1=10$，$x_{M}=9$.</p><p>因为抛物线在 $x\\geqslant0$ 上，所以 $M$ 到 $y$ 轴的距离为 $x_{M}=9$.</p>"
+          "solution": "<p>抛物线 $y^{2}=4x$ 的焦点为 $F(1,0)$，准线为 $x=-1$. 由抛物线的定义，点 $M$ 到焦点的距离等于点 $M$ 到准线的距离，故</p><p>$x_{M}+1=10$，$x_{M}=9$.</p><p>因为抛物线在 $x\\geqslant0$ 上，所以 $M$ 到 $y$ 轴的距离为 $x_{M}=9$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "已知 $2\\cos^{2}x+\\sin 2x=A\\sin(\\omega x+\\varphi)+b$（$A>0$），则 $A=\\underline{\\hspace{2.5em}}{}$，$b=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\sqrt{2}$，$1$",
-          "solution": "<p>由降幂公式，</p>\n$$\n2\\cos^{2}x+\\sin2x=1+\\cos2x+\\sin2x  =1+\\sqrt{2}\\sin\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n<p>与 $A\\sin(\\omega x+\\varphi)+b$ 比较，且 $A>0$，可得 $A=\\sqrt{2}$，$b=1$.</p>"
+          "choices": [],
+          "answer": "\\(\\sqrt{2}\\)，\\(1\\)",
+          "solution": "<p>由降幂公式，</p>\n$$\n2\\cos^{2}x+\\sin2x=1+\\cos2x+\\sin2x  =1+\\sqrt{2}\\sin\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n<p>与 $A\\sin(\\omega x+\\varphi)+b$ 比较，且 $A>0$，可得 $A=\\sqrt{2}$，$b=1$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
-          "body": "<p>某几何体的三视图如图所示（单位：$\\mathrm{cm}$），则该几何体的表面积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> $\\mathrm{cm}^{2}$，体积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> $\\mathrm{cm}^{3}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$72$，$32$",
-          "solution": "<p>由三视图可还原出该几何体由两个全等的长方体组成，每个长方体的长、宽、高分别为 $4\\mathrm{~cm}$、$2\\mathrm{~cm}$、$2\\mathrm{~cm}$，两个长方体共用一个面积为 $2\\times2=4\\mathrm{~cm}^{2}$ 的面. 因此体积为</p>\n$$\nV=2\\times(4\\times2\\times2)=32\\mathrm{~cm}^{3}\n$$\n<p>每个长方体的表面积为</p>\n$$\nS_{0}=2(4\\times2+4\\times2+2\\times2)=40\\mathrm{~cm}^{2}\n$$\n<p>共用的面在两个长方体的表面积中各计算了一次，但它不是外表面，所以该几何体的表面积为</p>\n$$\nS=2S_{0}-2\\times4=72\\mathrm{~cm}^{2}\n$$"
+          "body": "<p>某几何体的三视图如图所示（单位：$\\mathrm{cm}$），则该几何体的表面积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> $\\mathrm{cm}^{2}$，体积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> $\\mathrm{cm}^{3}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(72\\)，\\(32\\)",
+          "solution": "<p>由三视图可还原出该几何体由两个全等的长方体组成，每个长方体的长、宽、高分别为 $4\\mathrm{~cm}$、$2\\mathrm{~cm}$、$2\\mathrm{~cm}$，两个长方体共用一个面积为 $2\\times2=4\\mathrm{~cm}^{2}$ 的面. 因此体积为</p>\n$$\nV=2\\times(4\\times2\\times2)=32\\mathrm{~cm}^{3}\n$$\n<p>每个长方体的表面积为</p>\n$$\nS_{0}=2(4\\times2+4\\times2+2\\times2)=40\\mathrm{~cm}^{2}\n$$\n<p>共用的面在两个长方体的表面积中各计算了一次，但它不是外表面，所以该几何体的表面积为</p>\n$$\nS=2S_{0}-2\\times4=72\\mathrm{~cm}^{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "已知 $a>b>1$，若 $\\log_{a} b+\\log_{b} a=\\dfrac{5}{2}$，$a^{b}=b^{a}$，则 $a=\\underline{\\hspace{2.5em}}{}$，$b=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$4$，$2$",
-          "solution": "<p>令 $t=\\log_{a} b$. 因为 $a>b>1$，所以 $0<t<1$，且 $\\log_{b}a=\\dfrac{1}{t}$. 由已知，</p><p>$t+\\frac{1}{t}=\\frac{5}{2}$，$\\Longrightarrow$，$2t^{2}-5t+2=0$.</p><p>解得 $t=2$ 或 $t=\\dfrac{1}{2}$，结合 $0<t<1$ 得 $t=\\dfrac{1}{2}$，故 $b=a^{\\frac{1}{2}}$，即 $a=b^{2}$.</p><p>对 $a^{b}=b^{a}$ 两边取自然对数，得 $b\\ln a=a\\ln b$. 代入 $a=b^{2}$，并利用 $b>1$，得</p><p>$2b\\ln b=b^{2}\\ln b$，$\\Longrightarrow$，$b=2$.</p><p>所以 $a=4$，$b=2$.</p>"
+          "choices": [],
+          "answer": "\\(4\\)，\\(2\\)",
+          "solution": "<p>令 $t=\\log_{a} b$. 因为 $a>b>1$，所以 $0<t<1$，且 $\\log_{b}a=\\dfrac{1}{t}$. 由已知，</p><p>$t+\\frac{1}{t}=\\frac{5}{2}$，$\\Longrightarrow$，$2t^{2}-5t+2=0$.</p><p>解得 $t=2$ 或 $t=\\dfrac{1}{2}$，结合 $0<t<1$ 得 $t=\\dfrac{1}{2}$，故 $b=a^{\\frac{1}{2}}$，即 $a=b^{2}$.</p><p>对 $a^{b}=b^{a}$ 两边取自然对数，得 $b\\ln a=a\\ln b$. 代入 $a=b^{2}$，并利用 $b>1$，得</p><p>$2b\\ln b=b^{2}\\ln b$，$\\Longrightarrow$，$b=2$.</p><p>所以 $a=4$，$b=2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，若 $S_{2}=4$，$a_{n+1}=2S_{n}+1$，$n\\in\\mathbb{N}^{*}$，则 $a_{1}=\\underline{\\hspace{2.5em}}{}$，$S_{5}=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$1$，$121$",
-          "solution": "<p>由 $S_{2}=a_{1}+a_{2}=4$，以及 $n=1$ 时的递推式 $a_{2}=2S_{1}+1=2a_{1}+1$，得</p>\n$$\na_{1}+(2a_{1}+1)=4\n$$\n<p>所以 $a_{1}=1$，$a_{2}=3$. 对 $n\\geqslant2$，将相邻两式相减，得</p>\n$$\na_{n+1}-a_{n}=(2S_{n}+1)-(2S_{n-1}+1)=2a_{n}\n$$\n<p>即 $a_{n+1}=3a_{n}$. 结合 $a_{1}=1$，得 $a_{n}=3^{n-1}$. 因此</p>\n$$\nS_{5}=1+3+9+27+81=121\n$$"
+          "choices": [],
+          "answer": "\\(1\\)，\\(121\\)",
+          "solution": "<p>由 $S_{2}=a_{1}+a_{2}=4$，以及 $n=1$ 时的递推式 $a_{2}=2S_{1}+1=2a_{1}+1$，得</p>\n$$\na_{1}+(2a_{1}+1)=4\n$$\n<p>所以 $a_{1}=1$，$a_{2}=3$. 对 $n\\geqslant2$，将相邻两式相减，得</p>\n$$\na_{n+1}-a_{n}=(2S_{n}+1)-(2S_{n-1}+1)=2a_{n}\n$$\n<p>即 $a_{n+1}=3a_{n}$. 结合 $a_{1}=1$，得 $a_{n}=3^{n-1}$. 因此</p>\n$$\nS_{5}=1+3+9+27+81=121\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
-          "body": "<p>如图，在 $\\triangle ABC$ 中，$AB=BC=2$，$\\angle ABC=120^{\\circ}$. 若平面 $ABC$ 外的点 $P$ 和线段 $AC$ 上的点 $D$，满足 $PD=DA$，$PB=BA$，则四面体 $PBCD$ 的体积的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_science/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\dfrac{1}{2}$",
-          "solution": "<p>由余弦定理，$AC^{2}=2^{2}+2^{2}-2\\cdot2\\cdot2\\cos120^{\\circ}=12$，所以 $AC=2\\sqrt{3}$. 取平面 $ABC$ 为 $z=0$，令</p><p>$A=(0,0,0)$，$C=(2\\sqrt{3},0,0)$，$B=(\\sqrt{3},1,0)$.</p><p>这些坐标满足 $AB=BC=2$ 且 $\\angle ABC=120^{\\circ}$. 设 $AD=x$，其中 $0\\le x\\leqslant2\\sqrt{3}$，则 $D=(x,0,0)$. 设 $P$ 在平面 $ABC$ 上的投影为 $H=(u,v,0)$，且 $PH=h$. 由 $PB=2$、$PD=x$，有</p>\n$$\n(u-\\sqrt{3})^{2}+(v-1)^{2}+h^{2}=4\n$$\n\n$$\n(u-x)^{2}+v^{2}+h^{2}=x^{2}\n$$\n<p>两式相减得</p>\n$$\nv=(x-\\sqrt{3})u\n$$\n<p>所以 $H$ 在线 $v=(x-\\sqrt{3})u$ 上. 因为</p>\n$$\nh^{2}=x^{2}-DH^{2}\n$$\n<p>要使 $h$ 最大，应使 $DH$ 为点 $D=(x,0)$ 到该直线的距离. 因而</p><p>$DH_{\\min}=\\frac{x|x-\\sqrt{3}|}{\\sqrt{1+(x-\\sqrt{3})^{2}}}$，$h_{\\max}=\\frac{x}{\\sqrt{1+(x-\\sqrt{3})^{2}}}$.</p><p>又 $B$ 到直线 $AC$ 的距离为 $1$，故</p>\n$$\n[BCD]=\\frac{1}{2}(2\\sqrt{3}-x)\n$$\n<p>从而</p>\n$$\nV_{\\max}(x)=\\frac{1}{3}[BCD]h_{\\max}=\\frac{x(2\\sqrt{3}-x)}{6\\sqrt{1+(x-\\sqrt{3})^{2}}}\n$$\n<p>令 $t=x-\\sqrt{3}$，则 $t\\in[-\\sqrt{3},\\sqrt{3}]$，且</p>\n$$\nV_{\\max}(x)=\\frac{3-t^{2}}{6\\sqrt{1+t^{2}}}\n$$\n<p>令 $u=t^{2}$，则 $0\\le u\\leqslant3$，并且</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}u}\\left(\\frac{3-u}{6\\sqrt{1+u}}\\right)  =-\\frac{5+u}{12(1+u)^{\\frac{3}{2}}}<0\n$$\n<p>所以当 $u=0$，即 $x=\\sqrt{3}$ 时体积最大，最大值为</p>\n$$\nV_{\\max}=\\frac{3}{6}=\\frac{1}{2}\n$$"
+          "body": "<p>如图，在 $\\triangle ABC$ 中，$AB=BC=2$，$\\angle ABC=120^{\\circ}$. 若平面 $ABC$ 外的点 $P$ 和线段 $AC$ 上的点 $D$，满足 $PD=DA$，$PB=BA$，则四面体 $PBCD$ 的体积的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_science/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\dfrac{1}{2}\\)",
+          "solution": "<p>由余弦定理，$AC^{2}=2^{2}+2^{2}-2\\cdot2\\cdot2\\cos120^{\\circ}=12$，所以 $AC=2\\sqrt{3}$. 取平面 $ABC$ 为 $z=0$，令</p><p>$A=(0,0,0)$，$C=(2\\sqrt{3},0,0)$，$B=(\\sqrt{3},1,0)$.</p><p>这些坐标满足 $AB=BC=2$ 且 $\\angle ABC=120^{\\circ}$. 设 $AD=x$，其中 $0\\le x\\leqslant2\\sqrt{3}$，则 $D=(x,0,0)$. 设 $P$ 在平面 $ABC$ 上的投影为 $H=(u,v,0)$，且 $PH=h$. 由 $PB=2$、$PD=x$，有</p>\n$$\n(u-\\sqrt{3})^{2}+(v-1)^{2}+h^{2}=4\n$$\n\n$$\n(u-x)^{2}+v^{2}+h^{2}=x^{2}\n$$\n<p>两式相减得</p>\n$$\nv=(x-\\sqrt{3})u\n$$\n<p>所以 $H$ 在线 $v=(x-\\sqrt{3})u$ 上. 因为</p>\n$$\nh^{2}=x^{2}-DH^{2}\n$$\n<p>要使 $h$ 最大，应使 $DH$ 为点 $D=(x,0)$ 到该直线的距离. 因而</p><p>$DH_{\\min}=\\frac{x|x-\\sqrt{3}|}{\\sqrt{1+(x-\\sqrt{3})^{2}}}$，$h_{\\max}=\\frac{x}{\\sqrt{1+(x-\\sqrt{3})^{2}}}$.</p><p>又 $B$ 到直线 $AC$ 的距离为 $1$，故</p>\n$$\n[BCD]=\\frac{1}{2}(2\\sqrt{3}-x)\n$$\n<p>从而</p>\n$$\nV_{\\max}(x)=\\frac{1}{3}[BCD]h_{\\max}=\\frac{x(2\\sqrt{3}-x)}{6\\sqrt{1+(x-\\sqrt{3})^{2}}}\n$$\n<p>令 $t=x-\\sqrt{3}$，则 $t\\in[-\\sqrt{3},\\sqrt{3}]$，且</p>\n$$\nV_{\\max}(x)=\\frac{3-t^{2}}{6\\sqrt{1+t^{2}}}\n$$\n<p>令 $u=t^{2}$，则 $0\\le u\\leqslant3$，并且</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}u}\\left(\\frac{3-u}{6\\sqrt{1+u}}\\right)  =-\\frac{5+u}{12(1+u)^{\\frac{3}{2}}}<0\n$$\n<p>所以当 $u=0$，即 $x=\\sqrt{3}$ 时体积最大，最大值为</p>\n$$\nV_{\\max}=\\frac{3}{6}=\\frac{1}{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "已知平面向量 $\\mathbf{a}$，$\\mathbf{b}$，$|\\mathbf{a}|=1$，$|\\mathbf{b}|=2$，若对任意单位向量 $\\mathbf{e}$，均有 $|\\mathbf{a}\\cdot \\mathbf{e}|+|\\mathbf{b}\\cdot \\mathbf{e}|\\le \\sqrt{6}$，则 $\\mathbf{a}\\cdot \\mathbf{b}$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{1}{2}$",
-          "solution": "<p>对任意单位向量 $\\mathbf{e}$，有</p>\n$$\n|\\mathbf{a}\\cdot\\mathbf{e}|+|\\mathbf{b}\\cdot\\mathbf{e}|  =\\max_{\\varepsilon,\\delta\\in\\{1,-1\\}}(\\varepsilon\\mathbf{a}+\\delta\\mathbf{b})\\cdot\\mathbf{e}\n$$\n<p>再对单位向量 $\\mathbf{e}$ 取最大值，得到</p>\n$$\n\\max_{|\\mathbf{e|}=1}\\bigl(|\\mathbf{a}\\cdot\\mathbf{e}|+|\\mathbf{b}\\cdot\\mathbf{e}|\\bigr)  =\\max\\{|\\mathbf{a}+\\mathbf{b}|,|\\mathbf{a}-\\mathbf{b}|\\}  =\\sqrt{5+2|\\mathbf{a}\\cdot\\mathbf{b}|}\n$$\n<p>题设不等式因此等价于</p>\n$$\n\\sqrt{5+2|\\mathbf{a}\\cdot\\mathbf{b}|}\\le\\sqrt{6}\n$$\n<p>即 $|\\mathbf{a}\\cdot\\mathbf{b}|\\le\\dfrac{1}{2}$. 所以 $\\mathbf{a}\\cdot\\mathbf{b}\\le\\dfrac{1}{2}$. 取夹角满足 $\\cos\\theta=\\dfrac{1}{4}$ 的向量 $\\mathbf{a}$，$\\mathbf{b}$，则 $\\mathbf{a}\\cdot\\mathbf{b}=2\\cos\\theta=\\dfrac{1}{2}$，且题设条件取等号，故最大值为 $\\dfrac{1}{2}$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{1}{2}\\)",
+          "solution": "<p>对任意单位向量 $\\mathbf{e}$，有</p>\n$$\n|\\mathbf{a}\\cdot\\mathbf{e}|+|\\mathbf{b}\\cdot\\mathbf{e}|  =\\max_{\\varepsilon,\\delta\\in\\{1,-1\\}}(\\varepsilon\\mathbf{a}+\\delta\\mathbf{b})\\cdot\\mathbf{e}\n$$\n<p>再对单位向量 $\\mathbf{e}$ 取最大值，得到</p>\n$$\n\\max_{|\\mathbf{e|}=1}\\bigl(|\\mathbf{a}\\cdot\\mathbf{e}|+|\\mathbf{b}\\cdot\\mathbf{e}|\\bigr)  =\\max\\{|\\mathbf{a}+\\mathbf{b}|,|\\mathbf{a}-\\mathbf{b}|\\}  =\\sqrt{5+2|\\mathbf{a}\\cdot\\mathbf{b}|}\n$$\n<p>题设不等式因此等价于</p>\n$$\n\\sqrt{5+2|\\mathbf{a}\\cdot\\mathbf{b}|}\\le\\sqrt{6}\n$$\n<p>即 $|\\mathbf{a}\\cdot\\mathbf{b}|\\le\\dfrac{1}{2}$. 所以 $\\mathbf{a}\\cdot\\mathbf{b}\\le\\dfrac{1}{2}$. 取夹角满足 $\\cos\\theta=\\dfrac{1}{4}$ 的向量 $\\mathbf{a}$，$\\mathbf{b}$，则 $\\mathbf{a}\\cdot\\mathbf{b}=2\\cos\\theta=\\dfrac{1}{2}$，且题设条件取等号，故最大值为 $\\dfrac{1}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -165,37 +318,47 @@
         {
           "num": 16,
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，已知 $b+c=2a\\cos B$.</p><ol class=\"enumerate\"><li><p>证明：$A=2B$；</p></li><li><p>若 $\\triangle ABC$ 的面积 $S=\\dfrac{a^2}{4}$，求角 $A$ 的大小.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，</p><p>$\\frac{b}{a}=\\frac{\\sin B}{\\sin A}$，$\\frac{c}{a}=\\frac{\\sin C}{\\sin A}$.</p><p>将已知条件 $b+c=2a\\cos B$ 两边同除以 $a$，得</p>\n$$\n\\sin B+\\sin C=2\\sin A\\cos B\n$$\n<p>又 $C=\\pi-A-B$，所以 $\\sin C=\\sin(A+B)$. 因而</p>\n$$\n\\sin B+\\sin(A+B)=2\\sin A\\cos B\n$$\n<p>即</p>\n$$\n\\sin B=\\sin A\\cos B-\\cos A\\sin B=\\sin(A-B)\n$$\n<p>由于 $\\sin B>0$，等式 $\\sin B=\\sin(A-B)$ 迫使 $A-B\\in(0,\\pi)$. 在 $0<B<\\pi$、$0<A-B<\\pi$ 下，由正弦值相等可得</p>\n$$\nA-B=B \\text{或}  A-B=\\pi-B\n$$\n<p>第二种情形给出 $A=\\pi$，不符合三角形内角条件，所以 $A=2B$.</p></li><li><p>由面积公式和正弦定理，</p>\n$$\n\\frac{1}{2}bc\\sin A  =\\frac{1}{2}\\cdot\\frac{a\\sin B}{\\sin A}\\cdot\\frac{a\\sin C}{\\sin A}\\cdot\\sin A  =\\frac{a^{2}\\sin B\\sin C}{2\\sin A}\n$$\n<p>结合 $S=\\dfrac{a^2}{4}$，得</p>\n$$\n2\\sin B\\sin C=\\sin A\n$$\n<p>由第一问 $A=2B$，且 $\\sin A=2\\sin B\\cos B$，所以</p>\n$$\n\\sin C=\\cos B\n$$\n<p>又 $C=\\pi-3B$，且 $B$，$C\\in(0,\\pi)$. 因为 $0<B<\\frac{\\pi}{3}$，所以 $\\cos B>0$，从</p><p>$\\sin C=\\sin\\left(\\dfrac\\pi2-B\\right)$ 得</p>\n$$\nC=\\frac{\\pi}{2}-B \\text{或}  C=\\frac{\\pi}{2}+B\n$$\n<p>分别代入 $C=\\pi-3B$，得到 $B=\\dfrac\\pi4$ 或 $B=\\dfrac\\pi8$. 因此</p>\n$$\nA=2B=\\frac{\\pi}{2} \\text{或}  A=\\frac{\\pi}{4}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，</p><p>$\\frac{b}{a}=\\frac{\\sin B}{\\sin A}$，$\\frac{c}{a}=\\frac{\\sin C}{\\sin A}$.</p><p>将已知条件 $b+c=2a\\cos B$ 两边同除以 $a$，得</p>\n$$\n\\sin B+\\sin C=2\\sin A\\cos B\n$$\n<p>又 $C=\\pi-A-B$，所以 $\\sin C=\\sin(A+B)$. 因而</p>\n$$\n\\sin B+\\sin(A+B)=2\\sin A\\cos B\n$$\n<p>即</p>\n$$\n\\sin B=\\sin A\\cos B-\\cos A\\sin B=\\sin(A-B)\n$$\n<p>由于 $\\sin B>0$，等式 $\\sin B=\\sin(A-B)$ 迫使 $A-B\\in(0,\\pi)$. 在 $0<B<\\pi$、$0<A-B<\\pi$ 下，由正弦值相等可得</p>\n$$\nA-B=B \\text{或}  A-B=\\pi-B\n$$\n<p>第二种情形给出 $A=\\pi$，不符合三角形内角条件，所以 $A=2B$.</p></li><li><p>由面积公式和正弦定理，</p>\n$$\n\\frac{1}{2}bc\\sin A  =\\frac{1}{2}\\cdot\\frac{a\\sin B}{\\sin A}\\cdot\\frac{a\\sin C}{\\sin A}\\cdot\\sin A  =\\frac{a^{2}\\sin B\\sin C}{2\\sin A}\n$$\n<p>结合 $S=\\dfrac{a^2}{4}$，得</p>\n$$\n2\\sin B\\sin C=\\sin A\n$$\n<p>由第一问 $A=2B$，且 $\\sin A=2\\sin B\\cos B$，所以</p>\n$$\n\\sin C=\\cos B\n$$\n<p>又 $C=\\pi-3B$，且 $B$，$C\\in(0,\\pi)$. 因为 $0<B<\\frac{\\pi}{3}$，所以 $\\cos B>0$，从</p><p>$\\sin C=\\sin\\left(\\dfrac\\pi2-B\\right)$ 得</p>\n$$\nC=\\frac{\\pi}{2}-B \\text{或}  C=\\frac{\\pi}{2}+B\n$$\n<p>分别代入 $C=\\pi-3B$，得到 $B=\\dfrac\\pi4$ 或 $B=\\dfrac\\pi8$. 因此</p>\n$$\nA=2B=\\frac{\\pi}{2} \\text{或}  A=\\frac{\\pi}{4}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图，在三棱台 $ABC-DEF$ 中，已知平面 $BCFE\\perp$ 平面 $ABC$，$\\angle ACB=90^{\\circ}$，$BE=EF=FC=1$，$BC=2$，$AC=3$.</p><ol class=\"enumerate\"><li><p>求证：$BF\\perp$ 平面 $ACFD$；</p></li><li><p>求二面角 $B-AD-F$ 的平面角的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在三棱台 $ABC-DEF$ 中，已知平面 $BCFE\\perp$ 平面 $ABC$，$\\angle ACB=90^{\\circ}$，$BE=EF=FC=1$，$BC=2$，$AC=3$.</p><ol class=\"enumerate\"><li><p>求证：$BF\\perp$ 平面 $ACFD$；</p></li><li><p>求二面角 $B-AD-F$ 的平面角的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>延长 $AD$、$BE$、$CF$，设它们交于点 $K$. 由于 $EF\\parallel BC$，在三角形 $KBC$ 中有</p>\n$$\n\\frac{EF}{BC}=\\frac{1}{2}=\\frac{KE}{KB}=\\frac{KF}{KC}\n$$\n<p>又 $BE=FC=1$，所以 $KB=KC=2$，从而 $\\triangle BCK$ 为边长 $2$ 的等边三角形，且 $F$ 是 $CK$ 的中点.</p><p>因为平面 $BCFE\\perp$ 平面 $ABC$，且 $AC\\subset$ 平面 $ABC$、$AC\\perp BC$，所以 $AC\\perp$ 平面 $BCFE$，从而 $AC\\perp BF$. 在等边三角形 $BCK$ 中，中线 $BF$ 同时是高，故 $BF\\perp CK$，即 $BF\\perp CF$. 直线 $AC$ 与 $CF$ 在点 $C$ 相交，且均在平面 $ACFD$ 内，所以</p>\n$$\nBF\\perp\\text{平面 }ACFD\n$$\n</li><li><p>由 $DF\\parallel AC$ 且 $\\frac{EF}{BC}=\\frac{1}{2}$，点 $D$ 是 $AK$ 的中点. 因而平面 $BAD$ 就是平面 $ABK$，平面 $FAD$ 就是平面 $ACK$.</p><p>取 $O$ 为 $BC$ 的中点，以 $OB$ 方向为 $x$ 轴，以 $OK$ 方向为 $z$ 轴，建立空间直角坐标系，使平面 $ABC$ 为 $z=0$. 由 $\\triangle BCK$ 为边长 $2$ 的等边三角形以及 $AC\\perp BC$、$AC=3$，可取</p><p>$B=(1,0,0)$，$C=(-1,0,0)$，$K=(0,0,\\sqrt{3})$，$A=(-1,-3,0)$.</p><p>于是</p><p>$\\overrightarrow{AB}=(2,3,0)$，$\\overrightarrow{AK}=(1,3,\\sqrt{3})$，$\\overrightarrow{AC}=(0,3,0)$.</p><p>平面 $ABK$ 和平面 $ACK$ 的一个法向量分别为</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{AB}\\times\\overrightarrow{AK}=\\sqrt{3}(3,-2,\\sqrt{3})\n$$\n\n$$\n\\mathbf{n}_{2}=\\overrightarrow{AC}\\times\\overrightarrow{AK}=3(\\sqrt{3},0,-1)\n$$\n<p>所以二面角 $B-AD-F$ 的平面角 $\\theta$ 满足</p>\n$$\n\\cos\\theta  =\\frac{|(3,-2,\\sqrt{3})\\cdot(\\sqrt{3},0,-1)|}{4\\cdot2}=\\frac{2\\sqrt{3}}{4\\cdot2}=\\frac{\\sqrt{3}}{4}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>延长 $AD$、$BE$、$CF$，设它们交于点 $K$. 由于 $EF\\parallel BC$，在三角形 $KBC$ 中有</p>\n$$\n\\frac{EF}{BC}=\\frac{1}{2}=\\frac{KE}{KB}=\\frac{KF}{KC}\n$$\n<p>又 $BE=FC=1$，所以 $KB=KC=2$，从而 $\\triangle BCK$ 为边长 $2$ 的等边三角形，且 $F$ 是 $CK$ 的中点.</p><p>因为平面 $BCFE\\perp$ 平面 $ABC$，且 $AC\\subset$ 平面 $ABC$、$AC\\perp BC$，所以 $AC\\perp$ 平面 $BCFE$，从而 $AC\\perp BF$. 在等边三角形 $BCK$ 中，中线 $BF$ 同时是高，故 $BF\\perp CK$，即 $BF\\perp CF$. 直线 $AC$ 与 $CF$ 在点 $C$ 相交，且均在平面 $ACFD$ 内，所以</p>\n$$\nBF\\perp\\text{平面 }ACFD\n$$\n</li><li><p>由 $DF\\parallel AC$ 且 $\\frac{EF}{BC}=\\frac{1}{2}$，点 $D$ 是 $AK$ 的中点. 因而平面 $BAD$ 就是平面 $ABK$，平面 $FAD$ 就是平面 $ACK$.</p><p>取 $O$ 为 $BC$ 的中点，以 $OB$ 方向为 $x$ 轴，以 $OK$ 方向为 $z$ 轴，建立空间直角坐标系，使平面 $ABC$ 为 $z=0$. 由 $\\triangle BCK$ 为边长 $2$ 的等边三角形以及 $AC\\perp BC$、$AC=3$，可取</p><p>$B=(1,0,0)$，$C=(-1,0,0)$，$K=(0,0,\\sqrt{3})$，$A=(-1,-3,0)$.</p><p>于是</p><p>$\\overrightarrow{AB}=(2,3,0)$，$\\overrightarrow{AK}=(1,3,\\sqrt{3})$，$\\overrightarrow{AC}=(0,3,0)$.</p><p>平面 $ABK$ 和平面 $ACK$ 的一个法向量分别为</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{AB}\\times\\overrightarrow{AK}=\\sqrt{3}(3,-2,\\sqrt{3})\n$$\n\n$$\n\\mathbf{n}_{2}=\\overrightarrow{AC}\\times\\overrightarrow{AK}=3(\\sqrt{3},0,-1)\n$$\n<p>所以二面角 $B-AD-F$ 的平面角 $\\theta$ 满足</p>\n$$\n\\cos\\theta  =\\frac{|(3,-2,\\sqrt{3})\\cdot(\\sqrt{3},0,-1)|}{4\\cdot2}=\\frac{2\\sqrt{3}}{4\\cdot2}=\\frac{\\sqrt{3}}{4}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>已知 $a\\ge 3$，函数 $F(x)=\\min\\{2|x-1|,x^{2}-2ax+4a-2\\}$，其中 $\\min(p,q)=\\begin{cases}p, & p\\le q,\\\\\n\nq, & p>q.\\end{cases}$</p><ol class=\"enumerate\"><li><p>求使得等式 $F(x)=x^{2}-2ax+4a-2$ 成立的 $x$ 的取值范围；</p></li><li><p></p><ol class=\"enumerate\"><li><p>求 $F(x)$ 的最小值 $m(a)$；</p></li><li><p>求 $F(x)$ 在 $[0,6]$ 上的最大值 $M(a)$.</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>令 $f(x)=2|x-1|$，$g(x)=x^{2}-2ax+4a-2$. 由 $F(x)=g(x)$ 等价于 $g(x)\\le f(x)$，分情况讨论.</p><p>当 $x\\leqslant1$ 时，</p>\n$$\ng(x)-f(x)=x^{2}-2ax+4a-2-2(1-x)  =x^{2}+2(a-1)(2-x)>0\n$$\n<p>其中 $a\\geqslant3$ 且 $2-x\\geqslant1$. 因而此时 $g(x)>f(x)$，不满足条件.</p><p>当 $x>1$ 时，</p>\n$$\ng(x)-f(x)=x^{2}-2ax+4a-2-2(x-1)  =(x-2)(x-2a)\n$$\n<p>所以 $g(x)\\le f(x)$ 等价于 $2\\le x\\leqslant2a$. 综上，所求范围为</p>\n$$\nx\\in[2,2a]\n$$\n</li><li><p></p><ol class=\"enumerate\"><li><p>对任意 $x$，有</p><p>$f(x)\\geqslant0=f(1)$，$g(x)=(x-a)^{2}-a^{2}+4a-2\\ge-a^{2}+4a-2=g(a)$.</p><p>由于 $F(x)=\\min\\{f(x),g(x)\\}$，故</p>\n$$\nm(a)=\\min\\{0,-a^{2}+4a-2\\}\n$$\n<p>当 $3\\le a\\leqslant2+\\sqrt{2}$ 时，$-a^{2}+4a-2\\geqslant0$；当 $a>2+\\sqrt{2}$ 时，$-a^{2}+4a-2<0$. 因此</p>\n$$\nm(a)=  \\begin{cases}0,&3\\le a\\leqslant2+\\sqrt{2},\\\\  -a^{2}+4a-2,&a>2+\\sqrt{2}.\\end{cases}\n$$\n</li><li><p>当 $0\\le x\\leqslant2$ 时，由第一问可知 $g(x)\\ge f(x)$，所以 $F(x)=f(x)$，从而</p>\n$$\nF(x)\\le\\max\\{f(0),f(2)\\}=2\n$$\n<p>当 $2\\le x\\leqslant6$ 时，由 $a\\geqslant3$ 得 $x\\leqslant6\\leqslant2a$，所以 $F(x)=g(x)$. 二次函数 $g(x)$ 开口向上，故在 $[2,6]$ 上的最大值在端点取得，且</p><p>$g(2)=2$，$g(6)=34-8a$.</p><p>所以</p>\n$$\nM(a)=  \\begin{cases}34-8a,&3\\le a<4,\\\\  2,&a\\geqslant4.\\end{cases}\n$$\n</li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>令 $f(x)=2|x-1|$，$g(x)=x^{2}-2ax+4a-2$. 由 $F(x)=g(x)$ 等价于 $g(x)\\le f(x)$，分情况讨论.</p><p>当 $x\\leqslant1$ 时，</p>\n$$\ng(x)-f(x)=x^{2}-2ax+4a-2-2(1-x)  =x^{2}+2(a-1)(2-x)>0\n$$\n<p>其中 $a\\geqslant3$ 且 $2-x\\geqslant1$. 因而此时 $g(x)>f(x)$，不满足条件.</p><p>当 $x>1$ 时，</p>\n$$\ng(x)-f(x)=x^{2}-2ax+4a-2-2(x-1)  =(x-2)(x-2a)\n$$\n<p>所以 $g(x)\\le f(x)$ 等价于 $2\\le x\\leqslant2a$. 综上，所求范围为</p>\n$$\nx\\in[2,2a]\n$$\n</li><li><p></p><ol class=\"enumerate\"><li><p>对任意 $x$，有</p><p>$f(x)\\geqslant0=f(1)$，$g(x)=(x-a)^{2}-a^{2}+4a-2\\ge-a^{2}+4a-2=g(a)$.</p><p>由于 $F(x)=\\min\\{f(x),g(x)\\}$，故</p>\n$$\nm(a)=\\min\\{0,-a^{2}+4a-2\\}\n$$\n<p>当 $3\\le a\\leqslant2+\\sqrt{2}$ 时，$-a^{2}+4a-2\\geqslant0$；当 $a>2+\\sqrt{2}$ 时，$-a^{2}+4a-2<0$. 因此</p>\n$$\nm(a)=  \\begin{cases}0,&3\\le a\\leqslant2+\\sqrt{2},\\\\  -a^{2}+4a-2,&a>2+\\sqrt{2}.\\end{cases}\n$$\n</li><li><p>当 $0\\le x\\leqslant2$ 时，由第一问可知 $g(x)\\ge f(x)$，所以 $F(x)=f(x)$，从而</p>\n$$\nF(x)\\le\\max\\{f(0),f(2)\\}=2\n$$\n<p>当 $2\\le x\\leqslant6$ 时，由 $a\\geqslant3$ 得 $x\\leqslant6\\leqslant2a$，所以 $F(x)=g(x)$. 二次函数 $g(x)$ 开口向上，故在 $[2,6]$ 上的最大值在端点取得，且</p><p>$g(2)=2$，$g(6)=34-8a$.</p><p>所以</p>\n$$\nM(a)=  \\begin{cases}34-8a,&3\\le a<4,\\\\  2,&a\\geqslant4.\\end{cases}\n$$\n</li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>如图，设椭圆 $C:\\dfrac{x^2}{a^2}+y^{2}=1$（$a>1$）.</p><ol class=\"enumerate\"><li><p>求直线 $y=kx+1$ 被椭圆截得的线段长（用 $a$，$k$ 表示）；</p></li><li><p>若任意以点 $A(0,1)$ 为圆心的圆与椭圆至多有三个公共点，求椭圆的离心率的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，设椭圆 $C:\\dfrac{x^2}{a^2}+y^{2}=1$（$a>1$）.</p><ol class=\"enumerate\"><li><p>求直线 $y=kx+1$ 被椭圆截得的线段长（用 $a$，$k$ 表示）；</p></li><li><p>若任意以点 $A(0,1)$ 为圆心的圆与椭圆至多有三个公共点，求椭圆的离心率的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/zhejiang_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将直线 $y=kx+1$ 代入椭圆方程，得</p>\n$$\n\\frac{x^{2}}{a^{2}}+(kx+1)^{2}=1\n$$\n<p>即</p>\n$$\n(1+a^{2}k^{2})x^{2}+2a^{2}kx=0\n$$\n<p>设两个交点的横坐标为 $x_{1}$，$x_{2}$，则</p><p>$x_{1}=0$，$x_{2}=-\\frac{2a^{2}k}{1+a^{2}k^{2}}$.</p><p>直线斜率为 $k$，所以弦长为</p>\n$$\n\\sqrt{1+k^{2}}\\,|x_{1}-x_{2}|  =\\frac{2a^{2}|k|\\sqrt{1+k^2}}{1+a^{2}k^{2}}\n$$\n</li><li><p>记 $A=(0,1)$. 对任意 $k>0$，直线 $y=kx+1$ 与椭圆除 $A$ 外的另一个交点在 $y$ 轴左侧；其到 $A$ 的距离就是第一问所得弦长，记为 $L(k)$. 椭圆关于 $y$ 轴对称，因此若存在 $k_{1}\\ne k_{2}>0$ 使 $L(k_{1})=L(k_{2})$，则左侧有两个不同的点到 $A$ 等距，关于 $y$ 轴的两个对称点也到 $A$ 等距，于是以 $A$ 为圆心的相应圆有四个公共点. 所以题设条件等价于 $L(k)$ 在 $k>0$ 上为单调函数.</p><p>令 $t=k^{2}>0$，由第一问有</p>\n$$\n\\frac{L(k)^{2}}{4}=\\Phi(t)  =\\frac{a^{4}t(1+t)}{(1+a^{2}t)^{2}}\n$$\n<p>求导得</p>\n$$\n\\Phi'(t)=\\frac{a^{4}\\left[1+(2-a^{2})t\\right]}{(1+a^{2}t)^{3}}\n$$\n<p>当 $a^{2}\\leqslant2$ 时，$\\Phi'(t)>0$，所以 $L(k)$ 在 $k>0$ 上严格递增，任意以 $A$ 为圆心的圆至多与椭圆有三个公共点.</p><p>更具体地，当 $a^{2}\\leqslant2$ 时，对任意有限的 $t>0$，有</p>\n$$\n1-\\Phi(t)=\\frac{1+a^{2}(2-a^{2})t}{(1+a^{2}t)^{2}}>0\n$$\n<p>故 $0<L(k)<2$. 除点 $A$ 外，左、右两侧等距点至多各有一个；圆心为 $A$ 的半径为 $2$ 的圆还只包含椭圆的下顶点，因而公共点数不超过 $3$.</p><p>当 $a^{2}>2$ 时，$\\Phi'(t)$ 在 $t=\\dfrac1{a^2-2}$ 前为正、后为负，故 $\\Phi$ 先增后减，存在两个不同的正数 $t_{1}$，$t_{2}$ 使 $\\Phi(t_{1})=\\Phi(t_{2})$，从而会产生四个公共点. 因此题设条件等价于</p>\n$$\n1<a\\le\\sqrt{2}\n$$\n<p>椭圆的离心率为</p>\n$$\ne=\\frac{\\sqrt{a^{2}-1}}{a}=\\sqrt{1-\\frac{1}{a^{2}}}\n$$\n<p>所以</p>\n$$\n0<e\\le\\frac{\\sqrt{2}}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将直线 $y=kx+1$ 代入椭圆方程，得</p>\n$$\n\\frac{x^{2}}{a^{2}}+(kx+1)^{2}=1\n$$\n<p>即</p>\n$$\n(1+a^{2}k^{2})x^{2}+2a^{2}kx=0\n$$\n<p>设两个交点的横坐标为 $x_{1}$，$x_{2}$，则</p><p>$x_{1}=0$，$x_{2}=-\\frac{2a^{2}k}{1+a^{2}k^{2}}$.</p><p>直线斜率为 $k$，所以弦长为</p>\n$$\n\\sqrt{1+k^{2}}\\,|x_{1}-x_{2}|  =\\frac{2a^{2}|k|\\sqrt{1+k^2}}{1+a^{2}k^{2}}\n$$\n</li><li><p>记 $A=(0,1)$. 对任意 $k>0$，直线 $y=kx+1$ 与椭圆除 $A$ 外的另一个交点在 $y$ 轴左侧；其到 $A$ 的距离就是第一问所得弦长，记为 $L(k)$. 椭圆关于 $y$ 轴对称，因此若存在 $k_{1}\\ne k_{2}>0$ 使 $L(k_{1})=L(k_{2})$，则左侧有两个不同的点到 $A$ 等距，关于 $y$ 轴的两个对称点也到 $A$ 等距，于是以 $A$ 为圆心的相应圆有四个公共点. 所以题设条件等价于 $L(k)$ 在 $k>0$ 上为单调函数.</p><p>令 $t=k^{2}>0$，由第一问有</p>\n$$\n\\frac{L(k)^{2}}{4}=\\Phi(t)  =\\frac{a^{4}t(1+t)}{(1+a^{2}t)^{2}}\n$$\n<p>求导得</p>\n$$\n\\Phi'(t)=\\frac{a^{4}\\left[1+(2-a^{2})t\\right]}{(1+a^{2}t)^{3}}\n$$\n<p>当 $a^{2}\\leqslant2$ 时，$\\Phi'(t)>0$，所以 $L(k)$ 在 $k>0$ 上严格递增，任意以 $A$ 为圆心的圆至多与椭圆有三个公共点.</p><p>更具体地，当 $a^{2}\\leqslant2$ 时，对任意有限的 $t>0$，有</p>\n$$\n1-\\Phi(t)=\\frac{1+a^{2}(2-a^{2})t}{(1+a^{2}t)^{2}}>0\n$$\n<p>故 $0<L(k)<2$. 除点 $A$ 外，左、右两侧等距点至多各有一个；圆心为 $A$ 的半径为 $2$ 的圆还只包含椭圆的下顶点，因而公共点数不超过 $3$.</p><p>当 $a^{2}>2$ 时，$\\Phi'(t)$ 在 $t=\\dfrac1{a^2-2}$ 前为正、后为负，故 $\\Phi$ 先增后减，存在两个不同的正数 $t_{1}$，$t_{2}$ 使 $\\Phi(t_{1})=\\Phi(t_{2})$，从而会产生四个公共点. 因此题设条件等价于</p>\n$$\n1<a\\le\\sqrt{2}\n$$\n<p>椭圆的离心率为</p>\n$$\ne=\\frac{\\sqrt{a^{2}-1}}{a}=\\sqrt{1-\\frac{1}{a^{2}}}\n$$\n<p>所以</p>\n$$\n0<e\\le\\frac{\\sqrt{2}}{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>设数列满足 $\\left|a_{n}-\\dfrac{a_{n+1}}{2}\\right|\\le 1$，$n\\in\\mathbb{N}^{*}$.</p><ol class=\"enumerate\"><li><p>求证：$|a_{n}|\\ge 2^{n-1}\\left( |a_{1}|-2 \\right)$，$n\\in\\mathbb{N}^{*}$；</p></li><li><p>若 $|a_{n}|\\le \\left( \\dfrac{3}{2}\\right)^{n}$，$n\\in\\mathbb{N}^{*}$，证明：$|a_{n}|\\le 2$，$n\\in\\mathbb{N}^{*}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由题设不等式及反三角不等式，</p>\n$$\n\\frac{|a_{n+1}|}{2}\\ge |a_{n}|-\\left|a_{n}-\\frac{a_{n+1}}{2}\\right|\\ge |a_{n}|-1\n$$\n<p>从而</p>\n$$\n|a_{n+1}|-2\\geqslant2(|a_{n}|-2)\n$$\n<p>反复使用上式，得到</p>\n$$\n|a_{n}|-2\\geqslant2^{n-1}(|a_{1}|-2)\n$$\n<p>于是</p><p>$|a_{n}|\\geqslant2+2^{n-1}(|a_{1}|-2) \\geqslant2^{n-1}(|a_{1}|-2)$，$n\\in\\mathbb{N}^{*}$.</p></li><li><p>固定任意 $n\\in\\mathbb{N}^{*}$. 若 $|a_{n}|>2$，则对任意 $m\\ge n$，由同一递推关系迭代可得</p>\n$$\n|a_{m}|-2\\geqslant2^{m-n}(|a_{n}|-2)\n$$\n<p>另一方面，由题设上界，</p>\n$$\n|a_{m}|-2<|a_{m}|\\le\\left(\\frac{3}{2}\\right)^{m}\n$$\n<p>合并两式，得到</p>\n$$\n0<|a_{n}|-2\\leqslant2^{n-m}\\left(\\frac{3}{2}\\right)^{m}  =2^{n}\\left(\\frac{3}{4}\\right)^{m}\n$$\n<p>令 $m\\to\\infty$，右端趋于 $0$，与 $|a_{n}|-2>0$ 矛盾. 因此不存在 $|a_{n}|>2$ 的 $n$，即</p><p>$|a_{n}|\\leqslant2$，$n\\in\\mathbb{N}^{*}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由题设不等式及反三角不等式，</p>\n$$\n\\frac{|a_{n+1}|}{2}\\ge |a_{n}|-\\left|a_{n}-\\frac{a_{n+1}}{2}\\right|\\ge |a_{n}|-1\n$$\n<p>从而</p>\n$$\n|a_{n+1}|-2\\geqslant2(|a_{n}|-2)\n$$\n<p>反复使用上式，得到</p>\n$$\n|a_{n}|-2\\geqslant2^{n-1}(|a_{1}|-2)\n$$\n<p>于是</p><p>$|a_{n}|\\geqslant2+2^{n-1}(|a_{1}|-2) \\geqslant2^{n-1}(|a_{1}|-2)$，$n\\in\\mathbb{N}^{*}$.</p></li><li><p>固定任意 $n\\in\\mathbb{N}^{*}$. 若 $|a_{n}|>2$，则对任意 $m\\ge n$，由同一递推关系迭代可得</p>\n$$\n|a_{m}|-2\\geqslant2^{m-n}(|a_{n}|-2)\n$$\n<p>另一方面，由题设上界，</p>\n$$\n|a_{m}|-2<|a_{m}|\\le\\left(\\frac{3}{2}\\right)^{m}\n$$\n<p>合并两式，得到</p>\n$$\n0<|a_{n}|-2\\leqslant2^{n-m}\\left(\\frac{3}{2}\\right)^{m}  =2^{n}\\left(\\frac{3}{4}\\right)^{m}\n$$\n<p>令 $m\\to\\infty$，右端趋于 $0$，与 $|a_{n}|-2>0$ 矛盾. 因此不存在 $|a_{n}|>2$ 的 $n$，即</p><p>$|a_{n}|\\leqslant2$，$n\\in\\mathbb{N}^{*}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -1,8 +1,143 @@
 {
-  "title": "2006年普通高等学校招生全国统一考试",
-  "subtitle": "2006年江西卷（理）",
   "year": "2006",
   "slug": "jiangxi_science",
+  "title": "2006年江西卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$\\{x\\mid x\\ge 1 \\text{\\ 或\\ }x<0\\}$"
           ],
           "answer": "C",
-          "solution": "由分子、分母的零点及定义域得，$M=(-\\infty,0]\\cup(1,+\\infty)$. 又因为 $y=3x^{2}+1\\geqslant1$，所以 $N=[1,+\\infty)$. 因此 $M\\cap N=(1,+\\infty)$，选 C."
+          "solution": "由分子、分母的零点及定义域得，$M=(-\\infty,0]\\cup(1,+\\infty)$. 又因为 $y=3x^{2}+1\\geqslant1$，所以 $N=[1,+\\infty)$. 因此 $M\\cap N=(1,+\\infty)$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$\\frac{3}{4}+ \\frac{\\sqrt{3}}{4}\\mathrm{i}$"
           ],
           "answer": "D",
-          "solution": "<p>将等式两边同除以 $\\sqrt{3}+3\\mathrm{i}$，并乘以共轭复数，得</p><p>$z=\\dfrac{3\\mathrm{i}}{\\sqrt{3}+3\\mathrm{i}}=\\dfrac{3\\mathrm{i}(\\sqrt{3}-3\\mathrm{i})}{(\\sqrt{3})^2+3^2}=\\dfrac{9+3\\sqrt{3}\\mathrm{i}}{12}=\\dfrac{3}{4}+\\dfrac{\\sqrt{3}}{4}\\mathrm{i}$. 故选 D.</p>"
+          "solution": "<p>将等式两边同除以 $\\sqrt{3}+3\\mathrm{i}$，并乘以共轭复数，得</p><p>$z=\\dfrac{3\\mathrm{i}}{\\sqrt{3}+3\\mathrm{i}}=\\dfrac{3\\mathrm{i}(\\sqrt{3}-3\\mathrm{i})}{(\\sqrt{3})^2+3^2}=\\dfrac{9+3\\sqrt{3}\\mathrm{i}}{12}=\\dfrac{3}{4}+\\dfrac{\\sqrt{3}}{4}\\mathrm{i}$. 故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$x < -\\frac{1}{b}$ 或 $x > \\frac{1}{a}$"
           ],
           "answer": "D",
-          "solution": "由于 $x\\neq0$，分两种情况讨论. 当 $x>0$ 时，$\\frac{1}{x}>0>-b$，且 $\\frac{1}{x}<a$ 等价于 $x>\\frac{1}{a}$. 当 $x<0$ 时，$\\frac{1}{x}<a$ 自动成立，而 $-b<\\frac{1}{x}$ 乘以负数 $x$ 后等价于 $x<-\\frac{1}{b}$. 所以原不等式等价于 $x<-\\frac{1}{b}$ 或 $x>\\frac{1}{a}$，选 D."
+          "solution": "由于 $x\\neq0$，分两种情况讨论. 当 $x>0$ 时，$\\frac{1}{x}>0>-b$，且 $\\frac{1}{x}<a$ 等价于 $x>\\frac{1}{a}$. 当 $x<0$ 时，$\\frac{1}{x}<a$ 自动成立，而 $-b<\\frac{1}{x}$ 乘以负数 $x$ 后等价于 $x<-\\frac{1}{b}$. 所以原不等式等价于 $x<-\\frac{1}{b}$ 或 $x>\\frac{1}{a}$，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$(2,2\\sqrt{2})$"
           ],
           "answer": "B",
-          "solution": "<p>抛物线 $y^{2}=4x$ 的焦点为 $F(1,0)$. 设 $A(x,y)$，则 $y^{2}=4x$，且</p><p>$\\overrightarrow{OA}\\cdot\\overrightarrow{AF}=(x,y)\\cdot(1-x,-y)=x-x^{2}-y^{2}=-x^{2}-3x$.</p><p>由题设 $-x^{2}-3x=-4$，即 $(x-1)(x+4)=0$. 抛物线上 $x\\geqslant0$，故 $x=1$，从而 $y=\\pm2$. 所以 $A=(1,\\pm2)$，选 B.</p>"
+          "solution": "<p>抛物线 $y^{2}=4x$ 的焦点为 $F(1,0)$. 设 $A(x,y)$，则 $y^{2}=4x$，且</p><p>$\\overrightarrow{OA}\\cdot\\overrightarrow{AF}=(x,y)\\cdot(1-x,-y)=x-x^{2}-y^{2}=-x^{2}-3x$.</p><p>由题设 $-x^{2}-3x=-4$，即 $(x-1)(x+4)=0$. 抛物线上 $x\\geqslant0$，故 $x=1$，从而 $y=\\pm2$. 所以 $A=(1,\\pm2)$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "$f(0) + f(2) > 2f(1)$"
           ],
           "answer": "C",
-          "solution": "当 $x<1$ 时，题设给出 $f'(x)\\leqslant0$，所以 $f$ 在 $(-\\infty,1]$ 上单调不增；当 $x>1$ 时，$f'(x)\\geqslant0$，所以 $f$ 在 $[1,+\\infty)$ 上单调不减. 于是 $f(0)\\ge f(1)$，$f(2)\\ge f(1)$，从而 $f(0)+f(2)\\geqslant2f(1)$，选 C."
+          "solution": "当 $x<1$ 时，题设给出 $f'(x)\\leqslant0$，所以 $f$ 在 $(-\\infty,1]$ 上单调不增；当 $x>1$ 时，$f'(x)\\geqslant0$，所以 $f$ 在 $[1,+\\infty)$ 上单调不减. 于是 $f(0)\\ge f(1)$，$f(2)\\ge f(1)$，从而 $f(0)+f(2)\\geqslant2f(1)$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$-3$"
           ],
           "answer": "C",
-          "solution": "对任意 $x\\in(0,\\frac{1}{2}]$，不等式等价于 $a\\ge-x-\\frac{1}{x}$. 函数 $-x-\\frac{1}{x}$ 在 $(0,\\frac{1}{2}]$ 上的导数为 $-1+\\frac{1}{x^{2}}>0$，故其最大值在 $x=\\frac{1}{2}$ 处取得，等于 $-\\frac{1}{2}-2=-\\frac{5}{2}$. 因此 $a$ 的最小值为 $-\\frac{5}{2}$，选 C."
+          "solution": "对任意 $x\\in(0,\\frac{1}{2}]$，不等式等价于 $a\\ge-x-\\frac{1}{x}$. 函数 $-x-\\frac{1}{x}$ 在 $(0,\\frac{1}{2}]$ 上的导数为 $-1+\\frac{1}{x^{2}}>0$，故其最大值在 $x=\\frac{1}{2}$ 处取得，等于 $-\\frac{1}{2}-2=-\\frac{5}{2}$. 因此 $a$ 的最小值为 $-\\frac{5}{2}$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "201"
           ],
           "answer": "A",
-          "solution": "因为 $A$，$B$，$C$ 共线且该直线不过原点，所以 $\\overrightarrow{OA}$ 与 $\\overrightarrow{OC}$ 不共线. 点 $B$ 在直线 $AC$ 上，故其位置向量表示中两个系数之和必须为 $1$，由题设得到 $a_{1}+a_{200}=1$. 等差数列的前 $200$ 项和为首项与末项平均值乘以项数，即 $S_{200}=100(a_{1}+a_{200})=100$，选 A."
+          "solution": "因为 $A$，$B$，$C$ 共线且该直线不过原点，所以 $\\overrightarrow{OA}$ 与 $\\overrightarrow{OC}$ 不共线. 点 $B$ 在直线 $AC$ 上，故其位置向量表示中两个系数之和必须为 $1$，由题设得到 $a_{1}+a_{200}=1$. 等差数列的前 $200$ 项和为首项与末项平均值乘以项数，即 $S_{200}=100(a_{1}+a_{200})=100$，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$-2^{3009}$"
           ],
           "answer": "B",
-          "solution": "设 $P(x)=(x-\\sqrt{2})^{2006}$，将展开式按 $x$ 的幂次分为奇次幂部分 $S(x)$ 与偶次幂部分. 则 $S(x)=\\dfrac{P(x)-P(-x)}{2}$. 代入 $x=\\sqrt{2}$，有 $P(\\sqrt{2})=0$，且 $P(-\\sqrt{2})=(-2\\sqrt{2})^{2006}=2^{3009}$. 因此 $S=\\dfrac{0-2^{3009}}{2}=-2^{3008}$，选 B."
+          "solution": "设 $P(x)=(x-\\sqrt{2})^{2006}$，将展开式按 $x$ 的幂次分为奇次幂部分 $S(x)$ 与偶次幂部分. 则 $S(x)=\\dfrac{P(x)-P(-x)}{2}$. 代入 $x=\\sqrt{2}$，有 $P(\\sqrt{2})=0$，且 $P(-\\sqrt{2})=(-2\\sqrt{2})^{2006}=2^{3009}$. 因此 $S=\\dfrac{0-2^{3009}}{2}=-2^{3008}$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +264,9 @@
             "9"
           ],
           "answer": "D",
-          "solution": "<p>双曲线的焦点为 $(-5,0)$、$(5,0)$，且右支上任意点 $P$ 满足 $|P(-5,0)|-|P(5,0)|=2a=6$. 由三角不等式，$M$ 在半径为 $2$ 的圆上时 $|PM|\\le|P(-5,0)|+2$，$N$ 在半径为 $1$ 的圆上时 $|PN|\\ge|P(5,0)|-1$. 因此</p><p>$|PM|-|PN|\\le|P(-5,0)|-|P(5,0)|+3=9$. 由双曲线方程且 $P$ 在右支上，设 $P=(x,y)$，则 $x\\geqslant3$，并且</p><p>$|P(5,0)|^{2}=(x-5)^{2}+y^{2}=\\dfrac{(5x-9)^2}{9}$，故 $|P(5,0)|\\geqslant2>1$. 在从 $P$ 经过左焦点的射线上取距左焦点为 $2$ 的点 $M$，在右焦点与 $P$ 的线段上取距右焦点为 $1$ 的点 $N$，即可同时取到上述两个等号，故最大值为 $9$，选 D.</p>"
+          "solution": "<p>双曲线的焦点为 $(-5,0)$、$(5,0)$，且右支上任意点 $P$ 满足 $|P(-5,0)|-|P(5,0)|=2a=6$. 由三角不等式，$M$ 在半径为 $2$ 的圆上时 $|PM|\\le|P(-5,0)|+2$，$N$ 在半径为 $1$ 的圆上时 $|PN|\\ge|P(5,0)|-1$. 因此</p><p>$|PM|-|PN|\\le|P(-5,0)|-|P(5,0)|+3=9$. 由双曲线方程且 $P$ 在右支上，设 $P=(x,y)$，则 $x\\geqslant3$，并且</p><p>$|P(5,0)|^{2}=(x-5)^{2}+y^{2}=\\dfrac{(5x-9)^2}{9}$，故 $|P(5,0)|\\geqslant2>1$. 在从 $P$ 经过左焦点的射线上取距左焦点为 $2$ 的点 $M$，在右焦点与 $P$ 的线段上取距右焦点为 $1$ 的点 $N$，即可同时取到上述两个等号，故最大值为 $9$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,11 +278,13 @@
             "$a = 210$，$p = \\frac{4}{21}$"
           ],
           "answer": "A",
-          "solution": "<p>先计数. 先选出三人组，再将剩下四人分成两个无序二人组，故 $a=\\mathrm{C}_{7}^{3}\\cdot3=105$.</p><p>甲、乙同在三人组时，第三人有 $5$ 种选法，剩余四人有 $3$ 种配对法，共 $15$ 种；甲、乙同在二人组时，三人组从其余五人中选出，共 $\\mathrm{C}_{5}^{3}=10$ 种. 因此有利分组数为 $25$，$p=\\frac{25}{105}=\\frac{5}{21}$. 故选 A.</p>"
+          "solution": "<p>先计数. 先选出三人组，再将剩下四人分成两个无序二人组，故 $a=\\mathrm{C}_{7}^{3}\\cdot3=105$.</p><p>甲、乙同在三人组时，第三人有 $5$ 种选法，剩余四人有 $3$ 种配对法，共 $15$ 种；甲、乙同在二人组时，三人组从其余五人中选出，共 $\\mathrm{C}_{5}^{3}=10$ 种. 因此有利分组数为 $25$，$p=\\frac{25}{105}=\\frac{5}{21}$. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
-          "body": "<p>如图，在四面体 $ABCD$ 中，截面 $AEF$ 经过四面体的内切球（与四个面都相切的球）球心 $O$，且与 $BC$，$DC$ 分别截于 $E$，$F$. 如果截面将四面体分为体积相等的两部分，设四棱锥 $A-BEFD$ 与三棱锥 $A-EFC$ 的表面积分别为 $S_{1}$ 和 $S_{2}$，则必有（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，在四面体 $ABCD$ 中，截面 $AEF$ 经过四面体的内切球（与四个面都相切的球）球心 $O$，且与 $BC$，$DC$ 分别截于 $E$，$F$. 如果截面将四面体分为体积相等的两部分，设四棱锥 $A-BEFD$ 与三棱锥 $A-EFC$ 的表面积分别为 $S_{1}$ 和 $S_{2}$，则必有（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangxi_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$S_{1}< S_{2}$",
             "$S_{1}> S_{2}$",
@@ -137,19 +292,23 @@
             "$S_{1}$ 和 $S_{2}$ 的大小不能确定"
           ],
           "answer": "C",
-          "solution": "<p>记截面三角形 $AEF$ 的面积为 $T$，内切球半径为 $r$. 以球心 $O$ 为顶点，把四棱锥 $A-BEFD$ 分解为它与各个原四面体面片组成的棱锥. 每个原面片所在平面到 $O$ 的距离均为 $r$，而公共截面 $AEF$ 所在平面经过 $O$，距离为 $0$，所以</p><p>$V_{1}=\\dfrac{r}{3}(S_{1}-T)$. 同理，$V_{2}=\\dfrac{r}{3}(S_{2}-T)$. 题设 $V_{1}=V_{2}$，故 $S_{1}-T=S_{2}-T$，即 $S_{1}=S_{2}$，选 C.</p>"
+          "solution": "<p>记截面三角形 $AEF$ 的面积为 $T$，内切球半径为 $r$. 以球心 $O$ 为顶点，把四棱锥 $A-BEFD$ 分解为它与各个原四面体面片组成的棱锥. 每个原面片所在平面到 $O$ 的距离均为 $r$，而公共截面 $AEF$ 所在平面经过 $O$，距离为 $0$，所以</p><p>$V_{1}=\\dfrac{r}{3}(S_{1}-T)$. 同理，$V_{2}=\\dfrac{r}{3}(S_{2}-T)$. 题设 $V_{1}=V_{2}$，故 $S_{1}-T=S_{2}-T$，即 $S_{1}=S_{2}$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
-          "body": "<p>某地一年内的气温 $Q(t)$（单位：$^{\\circ}\\mathrm{C}$）与时间 $t$（月份）之间的关系如图所示，已知该年的平均气温为 $10^{\\circ}\\mathrm{C}$. 令 $C(t)$ 表示时间段 $[0, t]$ 的平均气温，$C(t)$ 与 $t$ 之间的函数关系用下列图象表示，则正确的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q12_qgraph.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>某地一年内的气温 $Q(t)$（单位：$^{\\circ}\\mathrm{C}$）与时间 $t$（月份）之间的关系如图所示，已知该年的平均气温为 $10^{\\circ}\\mathrm{C}$. 令 $C(t)$ 表示时间段 $[0, t]$ 的平均气温，$C(t)$ 与 $t$ 之间的函数关系用下列图象表示，则正确的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangxi_science/q12_qgraph.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q12_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q12_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q12_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q12_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangxi_science/q12_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangxi_science/q12_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangxi_science/q12_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangxi_science/q12_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "<p>对 $t>0$，有 $C(t)=\\dfrac{1}{t}\\int_{0}^{t}Q(u)\\,\\mathrm{d}u$，从而</p><p>$C'(t)=\\dfrac{Q(t)-C(t)}{t}$. 因此 $Q(t)>C(t)$ 时 $C(t)$ 上升，$Q(t)<C(t)$ 时 $C(t)$ 下降. 由题图可见，初段 $Q(t)<C(t)$，中段 $Q(t)>C(t)$，末段又有 $Q(t)<C(t)$，所以 $C(t)$ 先下降、后上升、再下降；又已知 $C(12)=10$. 综上，故选 A.</p>"
+          "solution": "<p>对 $t>0$，有 $C(t)=\\dfrac{1}{t}\\int_{0}^{t}Q(u)\\,\\mathrm{d}u$，从而</p><p>$C'(t)=\\dfrac{Q(t)-C(t)}{t}$. 因此 $Q(t)>C(t)$ 时 $C(t)$ 上升，$Q(t)<C(t)$ 时 $C(t)$ 下降. 由题图可见，初段 $Q(t)<C(t)$，中段 $Q(t)>C(t)$，末段又有 $Q(t)<C(t)$，所以 $C(t)$ 先下降、后上升、再下降；又已知 $C(12)=10$. 综上，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +318,38 @@
         {
           "num": 13,
           "body": "数列 $\\left\\{\\frac{1}{4n^{2}-1}\\right\\}$ 的前 $n$ 项和为 $S_{n}$，则 $\\displaystyle\\lim_{n\\to\\infty}S_{n}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{1}{2}$",
-          "solution": "<p>将通项作部分分式分解，得</p><p>$\\dfrac{1}{4k^2-1}=\\dfrac{1}{2}\\left(\\dfrac{1}{2k-1}-\\dfrac{1}{2k+1}\\right)$. 所以</p><p>$S_{n}=\\dfrac{1}{2}\\left(1-\\dfrac{1}{2n+1}\\right)=\\dfrac{n}{2n+1}$，从而 $\\displaystyle\\lim_{n\\to\\infty}S_{n}=\\dfrac{1}{2}$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{1}{2}\\)",
+          "solution": "<p>将通项作部分分式分解，得</p><p>$\\dfrac{1}{4k^2-1}=\\dfrac{1}{2}\\left(\\dfrac{1}{2k-1}-\\dfrac{1}{2k+1}\\right)$. 所以</p><p>$S_{n}=\\dfrac{1}{2}\\left(1-\\dfrac{1}{2n+1}\\right)=\\dfrac{n}{2n+1}$，从而 $\\displaystyle\\lim_{n\\to\\infty}S_{n}=\\dfrac{1}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "设 $f(x)=\\log_{3}(x+6)$ 的反函数为 $f^{-1}(x)$，若 $[f^{-1}(m)+6]\\cdot[f^{-1}(n)+6]=27$，则 $f(m+n)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "2",
-          "solution": "由 $y=\\log_{3}(x+6)$ 得 $x=3^{y}-6$，所以 $f^{-1}(x)=3^{x}-6$. 题设条件化为 $3^{m}\\cdot3^{n}=27=3^{3}$，故 $m+n=3$. 于是 $f(m+n)=\\log_{3}(3+6)=2$."
+          "solution": "由 $y=\\log_{3}(x+6)$ 得 $x=3^{y}-6$，所以 $f^{-1}(x)=3^{x}-6$. 题设条件化为 $3^{m}\\cdot3^{n}=27=3^{3}$，故 $m+n=3$. 于是 $f(m+n)=\\log_{3}(3+6)=2$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
-          "body": "<p>如图，在直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，底面为直角三角形，$\\angle ACB = 90^{\\circ}$，$AC = 6$，$BC = CC_{1}= \\sqrt{2}$，$P$ 是 $BC_{1}$ 上一动点，则 $CP + PA_{1}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$5\\sqrt{2}$",
-          "solution": "<p>沿公共边 $BC_{1}$ 将三角形 $CBC_{1}$ 展开到平面 $A_{1}BC_{1}$ 的另一侧，设展开后的点 $C$ 为 $C'$. 对任意 $P\\in BC_{1}$，展开保持长度，故 $CP+PA_{1}=C'P+PA_{1}\\ge C'A_{1}$，等号当且仅当 $P$ 为直线段 $C'A_{1}$ 与 $BC_{1}$ 的交点.</p><p>因为 $BC=CC_{1}=\\sqrt{2}$ 且 $\\angle BCC_{1}=90^{\\circ}$，所以 $BC_{1}=2$. 在平面 $A_{1}BC_{1}$ 中，$A_{1}C_{1}=AC=6$，$A_{1}B^{2}=AB^{2}+AA_{1}^{2}=(6^{2}+2)+2=40$. 取平面坐标 $B=(0,0)$，$C_{1}=(2,0)$，则由 $A_{1}B=2\\sqrt{10}$、$A_{1}C_{1}=6$ 得 $A_{1}=(2,6)$；又展开后的 $C'=(1,-1)$. 因此 $C'A_{1}=\\sqrt{1^{2}+7^{2}}=5\\sqrt{2}$. 线段 $C'A_{1}$ 与 $BC_{1}$ 的交点坐标为 $(\\frac{8}{7},0)$，确实在线段 $BC_{1}$ 上，故等号可以取得，最小值为 $5\\sqrt{2}$.</p>"
+          "body": "<p>如图，在直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，底面为直角三角形，$\\angle ACB = 90^{\\circ}$，$AC = 6$，$BC = CC_{1}= \\sqrt{2}$，$P$ 是 $BC_{1}$ 上一动点，则 $CP + PA_{1}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangxi_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(5\\sqrt{2}\\)",
+          "solution": "<p>沿公共边 $BC_{1}$ 将三角形 $CBC_{1}$ 展开到平面 $A_{1}BC_{1}$ 的另一侧，设展开后的点 $C$ 为 $C'$. 对任意 $P\\in BC_{1}$，展开保持长度，故 $CP+PA_{1}=C'P+PA_{1}\\ge C'A_{1}$，等号当且仅当 $P$ 为直线段 $C'A_{1}$ 与 $BC_{1}$ 的交点.</p><p>因为 $BC=CC_{1}=\\sqrt{2}$ 且 $\\angle BCC_{1}=90^{\\circ}$，所以 $BC_{1}=2$. 在平面 $A_{1}BC_{1}$ 中，$A_{1}C_{1}=AC=6$，$A_{1}B^{2}=AB^{2}+AA_{1}^{2}=(6^{2}+2)+2=40$. 取平面坐标 $B=(0,0)$，$C_{1}=(2,0)$，则由 $A_{1}B=2\\sqrt{10}$、$A_{1}C_{1}=6$ 得 $A_{1}=(2,6)$；又展开后的 $C'=(1,-1)$. 因此 $C'A_{1}=\\sqrt{1^{2}+7^{2}}=5\\sqrt{2}$. 线段 $C'A_{1}$ 与 $BC_{1}$ 的交点坐标为 $(\\frac{8}{7},0)$，确实在线段 $BC_{1}$ 上，故等号可以取得，最小值为 $5\\sqrt{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>已知圆 $M: (x + \\cos \\theta)^{2} + (y - \\sin \\theta)^{2} = 1$，直线 $l: y = kx$，下面四个命题：</p><ol class=\"enumerate\"><li><p>对任意实数 $k$ 和 $\\theta$，直线 $l$ 和圆 $M$ 相切；</p></li><li><p>对任意实数 $k$ 和 $\\theta$，直线 $l$ 和圆 $M$ 有公共点；</p></li><li><p>对任意实数 $\\theta$，必存在实数 $k$，使得直线 $l$ 和圆 $M$ 相切；</p></li><li><p>对任意实数 $k$，必存在实数 $\\theta$，使得直线 $l$ 和圆 $M$ 相切.</p></li></ol><p>其中真命题的代号是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>（写出所有真命题的代号）.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "B，D",
-          "solution": "<p>圆心为 $M(-\\cos\\theta,\\sin\\theta)$，且原点在圆上. 直线 $l:y=kx$ 也经过原点，所以它总与圆有公共点，第二个命题为真.</p><p>直线 $l$ 与圆相切时，因公共点只能是原点，故必须是圆在原点处的切线. 圆心到原点的半径方向为 $(\\cos\\theta,-\\sin\\theta)$，所以切线方向可取 $(\\sin\\theta,\\cos\\theta)$. 对任意 $k$，取 $\\sin\\theta=\\frac{1}{\\sqrt{1+k^{2}}}$、$\\cos\\theta=\\frac{k}{\\sqrt{1+k^{2}}}$，则 $(\\sin\\theta,\\cos\\theta)$ 与直线 $y=kx$ 的方向向量 $(1,k)$ 同向，从而存在 $\\theta$ 使 $l$ 相切，第四个命题为真.</p><p>第一个命题不真，例如 $k=0$，$\\theta=0$ 时，直线 $y=0$ 是圆的直径所在直线而非切线. 第三个命题不真，因为 $\\theta=0$ 时圆在原点处的切线为竖直直线 $x=0$，不能写成 $y=kx$（其中 $k$ 为实数）. 所以真命题的代号为 $B$，$D$.</p>"
+          "solution": "<p>圆心为 $M(-\\cos\\theta,\\sin\\theta)$，且原点在圆上. 直线 $l:y=kx$ 也经过原点，所以它总与圆有公共点，第二个命题为真.</p><p>直线 $l$ 与圆相切时，因公共点只能是原点，故必须是圆在原点处的切线. 圆心到原点的半径方向为 $(\\cos\\theta,-\\sin\\theta)$，所以切线方向可取 $(\\sin\\theta,\\cos\\theta)$. 对任意 $k$，取 $\\sin\\theta=\\frac{1}{\\sqrt{1+k^{2}}}$、$\\cos\\theta=\\frac{k}{\\sqrt{1+k^{2}}}$，则 $(\\sin\\theta,\\cos\\theta)$ 与直线 $y=kx$ 的方向向量 $(1,k)$ 同向，从而存在 $\\theta$ 使 $l$ 相切，第四个命题为真.</p><p>第一个命题不真，例如 $k=0$，$\\theta=0$ 时，直线 $y=0$ 是圆的直径所在直线而非切线. 第三个命题不真，因为 $\\theta=0$ 时圆在原点处的切线为竖直直线 $x=0$，不能写成 $y=kx$（其中 $k$ 为实数）. 所以真命题的代号为 $B$，$D$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "<p>已知函数 $f(x) = x^{3} + ax^{2} + bx + c$ 在 $x = -\\frac{2}{3}$ 与 $x = 1$ 时都取得极值.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$ 的值与函数 $f(x)$ 的单调区间；</p></li><li><p>若对 $x \\in [-1, 2]$，不等式 $f(x) < c^{2}$ 恒成立，求 $c$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由极值点条件，$f'(-\\frac{2}{3})=f'(1)=0$. 又 $f'(x)=3x^{2}+2ax+b$ 是二次函数，故</p><p>$f'(x)=3\\left(x+\\frac{2}{3}\\right)(x-1)=3x^{2}-x-2$. 比较系数得 $a=-\\frac{1}{2}$，$b=-2$.</p><p>由 $f'(x)$ 的符号可知，$f'(x)>0$ 在 $(-\\infty,-\\frac{2}{3})\\cup(1,+\\infty)$ 上成立，$f'(x)<0$ 在 $(-\\frac{2}{3},1)$ 上成立. 因此 $f$ 在 $(-\\infty,-\\frac{2}{3})$ 和 $(1,+\\infty)$ 上单调递增，在 $(-\\frac{2}{3},1)$ 上单调递减.</p></li><li><p>写 $f(x)=g(x)+c$，其中 $g(x)=x^{3}-\\frac{1}{2}x^{2}-2x$. 在 $[-1,2]$ 上，关键点为 $-\\frac{2}{3}$，$1$，并且</p><p>$g(-1)=\\frac{1}{2}$，$g(-\\frac{2}{3})=\\frac{22}{27}$，$g(1)=-\\frac{3}{2}$，$g(2)=2$. 结合单调区间，得 $g(x)$ 在该区间上的最大值为 $2$，在 $x=2$ 处取得.</p><p>因此 $f(x)<c^{2}$ 对所有 $x\\in[-1,2]$ 恒成立，当且仅当 $2+c<c^{2}$. 解得 $(c-2)(c+1)>0$，所以 $c<-1$ 或 $c>2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由极值点条件，$f'(-\\frac{2}{3})=f'(1)=0$. 又 $f'(x)=3x^{2}+2ax+b$ 是二次函数，故</p><p>$f'(x)=3\\left(x+\\frac{2}{3}\\right)(x-1)=3x^{2}-x-2$. 比较系数得 $a=-\\frac{1}{2}$，$b=-2$.</p><p>由 $f'(x)$ 的符号可知，$f'(x)>0$ 在 $(-\\infty,-\\frac{2}{3})\\cup(1,+\\infty)$ 上成立，$f'(x)<0$ 在 $(-\\frac{2}{3},1)$ 上成立. 因此 $f$ 在 $(-\\infty,-\\frac{2}{3})$ 和 $(1,+\\infty)$ 上单调递增，在 $(-\\frac{2}{3},1)$ 上单调递减.</p></li><li><p>写 $f(x)=g(x)+c$，其中 $g(x)=x^{3}-\\frac{1}{2}x^{2}-2x$. 在 $[-1,2]$ 上，关键点为 $-\\frac{2}{3}$，$1$，并且</p><p>$g(-1)=\\frac{1}{2}$，$g(-\\frac{2}{3})=\\frac{22}{27}$，$g(1)=-\\frac{3}{2}$，$g(2)=2$. 结合单调区间，得 $g(x)$ 在该区间上的最大值为 $2$，在 $x=2$ 处取得.</p><p>因此 $f(x)<c^{2}$ 对所有 $x\\in[-1,2]$ 恒成立，当且仅当 $2+c<c^{2}$. 解得 $(c-2)(c+1)>0$，所以 $c<-1$ 或 $c>2$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>某商场举行抽奖促销互动，抽奖规则是：从装有 9 个白球，1 个红球的箱子中每次随机地摸出一个球，记下颜色后放回. 摸出一个红球可获得奖金 10 元；摸出两个红球可获得奖金 50 元. 现有甲，乙两位顾客，规定：甲摸一次，乙摸两次. 令 $\\xi$ 表示甲，乙两人摸球后获得的奖金总额. 求：</p><ol class=\"enumerate\"><li><p>$\\xi$ 的分布列；</p></li><li><p>$\\xi$ 的数学期望.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>每次摸到红球的概率为 $\\frac{1}{10}$，且各次摸球相互独立. 甲不摸到红球、乙不摸到红球时 $\\xi=0$，所以 $P(\\xi=0)=(\\frac{9}{10})^{3}=\\frac{729}{1000}$.</p><p>$\\xi=10$ 有两种互斥情形：甲摸到红球且乙两次均未摸到红球，或甲未摸到红球且乙恰摸到一次红球. 因此 $P(\\xi=10)=\\frac{1}{10}(\\frac{9}{10})^{2}+\\frac{9}{10}\\mathrm{C}_{2}^{1}\\frac{1}{10}\\frac{9}{10}=\\frac{243}{1000}$.</p><p>$\\xi=20$ 只能是甲摸到红球且乙恰摸到一次红球，故 $P(\\xi=20)=\\frac{1}{10}\\mathrm{C}_{2}^{1}\\frac{1}{10}\\frac{9}{10}=\\frac{18}{1000}$.</p><p>$\\xi=50$ 只能是甲未摸到红球且乙两次均摸到红球，故 $P(\\xi=50)=\\frac{9}{10}(\\frac{1}{10})^{2}=\\frac{9}{1000}$.</p><p>$\\xi=60$ 只能是甲和乙的两次摸球均摸到红球，故 $P(\\xi=60)=(\\frac{1}{10})^{3}=\\frac{1}{1000}$. 除上述五种取值外概率均为零，这就得到分布列.</p></li><li><p>由数学期望定义，</p><p>$E\\xi=0\\cdot\\frac{729}{1000}+10\\cdot\\frac{243}{1000}+20\\cdot\\frac{18}{1000}+50\\cdot\\frac{9}{1000}+60\\cdot\\frac{1}{1000}=\\frac{3300}{1000}=3.3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>每次摸到红球的概率为 $\\frac{1}{10}$，且各次摸球相互独立. 甲不摸到红球、乙不摸到红球时 $\\xi=0$，所以 $P(\\xi=0)=(\\frac{9}{10})^{3}=\\frac{729}{1000}$.</p><p>$\\xi=10$ 有两种互斥情形：甲摸到红球且乙两次均未摸到红球，或甲未摸到红球且乙恰摸到一次红球. 因此 $P(\\xi=10)=\\frac{1}{10}(\\frac{9}{10})^{2}+\\frac{9}{10}\\mathrm{C}_{2}^{1}\\frac{1}{10}\\frac{9}{10}=\\frac{243}{1000}$.</p><p>$\\xi=20$ 只能是甲摸到红球且乙恰摸到一次红球，故 $P(\\xi=20)=\\frac{1}{10}\\mathrm{C}_{2}^{1}\\frac{1}{10}\\frac{9}{10}=\\frac{18}{1000}$.</p><p>$\\xi=50$ 只能是甲未摸到红球且乙两次均摸到红球，故 $P(\\xi=50)=\\frac{9}{10}(\\frac{1}{10})^{2}=\\frac{9}{1000}$.</p><p>$\\xi=60$ 只能是甲和乙的两次摸球均摸到红球，故 $P(\\xi=60)=(\\frac{1}{10})^{3}=\\frac{1}{1000}$. 除上述五种取值外概率均为零，这就得到分布列.</p></li><li><p>由数学期望定义，</p><p>$E\\xi=0\\cdot\\frac{729}{1000}+10\\cdot\\frac{243}{1000}+20\\cdot\\frac{18}{1000}+50\\cdot\\frac{9}{1000}+60\\cdot\\frac{1}{1000}=\\frac{3300}{1000}=3.3$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>如图，已知 $\\triangle ABC$ 是边长为 1 的正三角形，$M$，$N$ 分别是边 $AB$，$AC$ 上的点，线段 $MN$ 经过 $\\triangle ABC$ 的中心 $G$. 设 $\\angle MGA = \\alpha$（$\\frac{\\pi}{3}\\le \\alpha \\le \\frac{2\\pi}{3}$）.</p><ol class=\"enumerate\"><li><p>试将 $\\triangle AGM$ 和 $\\triangle AGN$ 的面积（分别记为 $S_{1}$ 与 $S_{2}$）表示为 $\\alpha$ 的函数；</p></li><li><p>求 $y = \\frac{1}{S_{1}^{2}}+ \\frac{1}{S_{2}^{2}}$ 的最大值与最小值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，已知 $\\triangle ABC$ 是边长为 1 的正三角形，$M$，$N$ 分别是边 $AB$，$AC$ 上的点，线段 $MN$ 经过 $\\triangle ABC$ 的中心 $G$. 设 $\\angle MGA = \\alpha$（$\\frac{\\pi}{3}\\le \\alpha \\le \\frac{2\\pi}{3}$）.</p><ol class=\"enumerate\"><li><p>试将 $\\triangle AGM$ 和 $\\triangle AGN$ 的面积（分别记为 $S_{1}$ 与 $S_{2}$）表示为 $\\alpha$ 的函数；</p></li><li><p>求 $y = \\frac{1}{S_{1}^{2}}+ \\frac{1}{S_{2}^{2}}$ 的最大值与最小值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangxi_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>正三角形的中心到顶点的距离为 $AG=\\frac{\\sqrt{3}}{3}$，且 $\\angle GAB=\\angle GAC=\\frac{\\pi}{6}$. 在三角形 $AGM$ 中，$\\angle MGA=\\alpha$，所以 $\\angle AMG=5\\frac{\\pi}{6}-\\alpha$. 由正弦定理，</p><p>$GM=\\dfrac{AG\\sin(\\frac{\\pi}{6})}{\\sin(5\\frac{\\pi}{6}-\\alpha)}=\\dfrac{AG}{2\\sin(\\alpha+\\frac{\\pi}{6})}$. 因此</p><p>$S_{1}=\\dfrac{1}{2}AG\\cdot GM\\sin\\alpha=\\dfrac{\\sin\\alpha}{12\\sin(\\alpha+\\frac{\\pi}{6})}$.</p><p>直线 $MN$ 经过 $G$，故 $\\angle AGN=\\pi-\\alpha$. 在三角形 $AGN$ 中，$\\angle ANG=\\alpha-\\frac{\\pi}{6}$，同理得 $GN=\\dfrac{AG}{2\\sin(\\alpha-\\frac{\\pi}{6})}$，从而</p><p>$S_{2}=\\dfrac{1}{2}AG\\cdot GN\\sin(\\pi-\\alpha)=\\dfrac{\\sin\\alpha}{12\\sin(\\alpha-\\frac{\\pi}{6})}$.</p></li><li><p>由上式，</p><p>$y=\\dfrac{144}{\\sin^2\\alpha}\\left[\\sin^{2}(\\alpha+\\frac{\\pi}{6})+\\sin^{2}(\\alpha-\\frac{\\pi}{6})\\right]$. 利用 $\\sin^{2}u+\\sin^{2}v=1-\\cos(u+v)\\cos(u-v)$，得</p><p>$y=\\dfrac{144(1-\\frac{1}{2}\\cos2\\alpha)}{\\sin^2\\alpha}=144\\dfrac{2-\\cos2\\alpha}{1-\\cos2\\alpha}$.</p><p>当 $\\frac{\\pi}{3}\\le\\alpha\\leqslant2\\frac{\\pi}{3}$ 时，$-1\\le\\cos2\\alpha\\le-\\frac{1}{2}$. 函数 $\\frac{(2-u)}{(1-u)}$ 在此区间上递增，所以 $y$ 在 $\\cos2\\alpha=-1$，即 $\\alpha=\\frac{\\pi}{2}$ 时取得最小值 $216$；在 $\\cos2\\alpha=-\\frac{1}{2}$，即 $\\alpha=\\frac{\\pi}{3}$ 或 $2\\frac{\\pi}{3}$ 时取得最大值 $240$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>正三角形的中心到顶点的距离为 $AG=\\frac{\\sqrt{3}}{3}$，且 $\\angle GAB=\\angle GAC=\\frac{\\pi}{6}$. 在三角形 $AGM$ 中，$\\angle MGA=\\alpha$，所以 $\\angle AMG=5\\frac{\\pi}{6}-\\alpha$. 由正弦定理，</p><p>$GM=\\dfrac{AG\\sin(\\frac{\\pi}{6})}{\\sin(5\\frac{\\pi}{6}-\\alpha)}=\\dfrac{AG}{2\\sin(\\alpha+\\frac{\\pi}{6})}$. 因此</p><p>$S_{1}=\\dfrac{1}{2}AG\\cdot GM\\sin\\alpha=\\dfrac{\\sin\\alpha}{12\\sin(\\alpha+\\frac{\\pi}{6})}$.</p><p>直线 $MN$ 经过 $G$，故 $\\angle AGN=\\pi-\\alpha$. 在三角形 $AGN$ 中，$\\angle ANG=\\alpha-\\frac{\\pi}{6}$，同理得 $GN=\\dfrac{AG}{2\\sin(\\alpha-\\frac{\\pi}{6})}$，从而</p><p>$S_{2}=\\dfrac{1}{2}AG\\cdot GN\\sin(\\pi-\\alpha)=\\dfrac{\\sin\\alpha}{12\\sin(\\alpha-\\frac{\\pi}{6})}$.</p></li><li><p>由上式，</p><p>$y=\\dfrac{144}{\\sin^2\\alpha}\\left[\\sin^{2}(\\alpha+\\frac{\\pi}{6})+\\sin^{2}(\\alpha-\\frac{\\pi}{6})\\right]$. 利用 $\\sin^{2}u+\\sin^{2}v=1-\\cos(u+v)\\cos(u-v)$，得</p><p>$y=\\dfrac{144(1-\\frac{1}{2}\\cos2\\alpha)}{\\sin^2\\alpha}=144\\dfrac{2-\\cos2\\alpha}{1-\\cos2\\alpha}$.</p><p>当 $\\frac{\\pi}{3}\\le\\alpha\\leqslant2\\frac{\\pi}{3}$ 时，$-1\\le\\cos2\\alpha\\le-\\frac{1}{2}$. 函数 $\\frac{(2-u)}{(1-u)}$ 在此区间上递增，所以 $y$ 在 $\\cos2\\alpha=-1$，即 $\\alpha=\\frac{\\pi}{2}$ 时取得最小值 $216$；在 $\\cos2\\alpha=-\\frac{1}{2}$，即 $\\alpha=\\frac{\\pi}{3}$ 或 $2\\frac{\\pi}{3}$ 时取得最大值 $240$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，在三棱锥 $A - BCD$ 中，侧面 $ABD$，$ACD$ 是全等的直角三角形，$AD$ 是公共的斜边，且 $AD = \\sqrt{3}$，$BD = CD = 1$，另一个侧面 $ABC$ 是正三角形.</p><ol class=\"enumerate\"><li><p>求证：$AD \\perp BC$；</p></li><li><p>求二面角 $B - AC - D$ 的大小；</p></li><li><p>在直线 $AC$ 上是否存在一点 $E$，使 $ED$ 与面 $BCD$ 成 $30^{\\circ}$ 角？若存在，确定 $E$ 的位置；若不存在，说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在三棱锥 $A - BCD$ 中，侧面 $ABD$，$ACD$ 是全等的直角三角形，$AD$ 是公共的斜边，且 $AD = \\sqrt{3}$，$BD = CD = 1$，另一个侧面 $ABC$ 是正三角形.</p><ol class=\"enumerate\"><li><p>求证：$AD \\perp BC$；</p></li><li><p>求二面角 $B - AC - D$ 的大小；</p></li><li><p>在直线 $AC$ 上是否存在一点 $E$，使 $ED$ 与面 $BCD$ 成 $30^{\\circ}$ 角？若存在，确定 $E$ 的位置；若不存在，说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangxi_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由两个直角三角形全等且 $AD$ 为公共斜边，得 $AB=AC=\\sqrt{AD^{2}-CD^{2}}=\\sqrt{2}$. 设 $\\overrightarrow{DA}=\\mathbf{u}$，$\\overrightarrow{DB}=\\mathbf{v}$，$\\overrightarrow{DC}=\\mathbf{w}$. 由于 $\\angle ABD=\\angle ACD=90^{\\circ}$，有</p><p>$(\\mathbf{u}-\\mathbf{v})\\cdot(-\\mathbf{v})=0$，$(-\\mathbf{w})\\cdot(\\mathbf{u}-\\mathbf{w})=0$，从而 $\\mathbf{u}\\cdot\\mathbf{v}=\\mathbf{u}\\cdot\\mathbf{w}=1$. 因此</p><p>$\\overrightarrow{AD}\\cdot\\overrightarrow{BC}=(-\\mathbf{u})\\cdot(\\mathbf{w}-\\mathbf{v})=0$，故 $AD\\perp BC$.</p></li><li><p>建立空间直角坐标系，取</p><p>$A=(0,0,0)$，$C=(\\sqrt{2},0,0)$，$B=(\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{6}}{2},0)$，$D=(\\sqrt{2},\\frac{\\sqrt{6}}{3},\\frac{\\sqrt{3}}{3})$. 这些坐标满足题设的边长和直角条件.</p><p>平面 $ABC$ 内垂直于 $AC$ 的单位向量可取 $\\mathbf{u}_{1}=(0,1,0)$，平面 $ACD$ 内垂直于 $AC$ 的单位向量可取 $\\mathbf{u}_{2}=(0,\\frac{\\sqrt{6}}{3},\\frac{\\sqrt{3}}{3})$. 所以二面角 $B-AC-D$ 的余弦为 $\\mathbf{u}_{1}\\cdot\\mathbf{u}_{2}=\\frac{\\sqrt{6}}{3}$，其大小为 $\\arccos(\\frac{\\sqrt{6}}{3})$.</p></li><li><p>在上述坐标系中，平面 $BCD$ 的一个单位法向量为 $\\mathbf{n}=(-\\frac{\\sqrt{2}}{2},-\\frac{\\sqrt{6}}{6},\\frac{\\sqrt{3}}{3})$. 设 $E=(x,0,0)$ 在直线 $AC$ 上，则</p><p>$\\overrightarrow{ED}=(\\sqrt{2}-x,\\frac{\\sqrt{6}}{3},\\frac{\\sqrt{3}}{3})$，$|\\overrightarrow{ED}|^{2}=(x-\\sqrt{2})^{2}+1$，且 $\\overrightarrow{ED}\\cdot\\mathbf{n}=\\frac{x}{\\sqrt{2}}-1$.</p><p>设直线 $ED$ 与平面 $BCD$ 所成的角为 $\\varphi$，则</p><p>$\\sin\\varphi=\\dfrac{|\\overrightarrow{ED}\\cdot\\mathbf{n}|}{|\\overrightarrow{ED}|}=\\dfrac{\\frac{|x-\\sqrt{2}|}{\\sqrt{2}}}{\\sqrt{(x-\\sqrt{2})^{2}+1}}$. 令 $\\varphi=\\frac{\\pi}{6}$，平方化简得 $(x-\\sqrt{2})^{2}=1$. 因此存在两个点：$x=\\sqrt{2}-1$ 和 $x=\\sqrt{2}+1$，即它们分别位于点 $C$ 两侧且均满足 $CE=1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由两个直角三角形全等且 $AD$ 为公共斜边，得 $AB=AC=\\sqrt{AD^{2}-CD^{2}}=\\sqrt{2}$. 设 $\\overrightarrow{DA}=\\mathbf{u}$，$\\overrightarrow{DB}=\\mathbf{v}$，$\\overrightarrow{DC}=\\mathbf{w}$. 由于 $\\angle ABD=\\angle ACD=90^{\\circ}$，有</p><p>$(\\mathbf{u}-\\mathbf{v})\\cdot(-\\mathbf{v})=0$，$(-\\mathbf{w})\\cdot(\\mathbf{u}-\\mathbf{w})=0$，从而 $\\mathbf{u}\\cdot\\mathbf{v}=\\mathbf{u}\\cdot\\mathbf{w}=1$. 因此</p><p>$\\overrightarrow{AD}\\cdot\\overrightarrow{BC}=(-\\mathbf{u})\\cdot(\\mathbf{w}-\\mathbf{v})=0$，故 $AD\\perp BC$.</p></li><li><p>建立空间直角坐标系，取</p><p>$A=(0,0,0)$，$C=(\\sqrt{2},0,0)$，$B=(\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{6}}{2},0)$，$D=(\\sqrt{2},\\frac{\\sqrt{6}}{3},\\frac{\\sqrt{3}}{3})$. 这些坐标满足题设的边长和直角条件.</p><p>平面 $ABC$ 内垂直于 $AC$ 的单位向量可取 $\\mathbf{u}_{1}=(0,1,0)$，平面 $ACD$ 内垂直于 $AC$ 的单位向量可取 $\\mathbf{u}_{2}=(0,\\frac{\\sqrt{6}}{3},\\frac{\\sqrt{3}}{3})$. 所以二面角 $B-AC-D$ 的余弦为 $\\mathbf{u}_{1}\\cdot\\mathbf{u}_{2}=\\frac{\\sqrt{6}}{3}$，其大小为 $\\arccos(\\frac{\\sqrt{6}}{3})$.</p></li><li><p>在上述坐标系中，平面 $BCD$ 的一个单位法向量为 $\\mathbf{n}=(-\\frac{\\sqrt{2}}{2},-\\frac{\\sqrt{6}}{6},\\frac{\\sqrt{3}}{3})$. 设 $E=(x,0,0)$ 在直线 $AC$ 上，则</p><p>$\\overrightarrow{ED}=(\\sqrt{2}-x,\\frac{\\sqrt{6}}{3},\\frac{\\sqrt{3}}{3})$，$|\\overrightarrow{ED}|^{2}=(x-\\sqrt{2})^{2}+1$，且 $\\overrightarrow{ED}\\cdot\\mathbf{n}=\\frac{x}{\\sqrt{2}}-1$.</p><p>设直线 $ED$ 与平面 $BCD$ 所成的角为 $\\varphi$，则</p><p>$\\sin\\varphi=\\dfrac{|\\overrightarrow{ED}\\cdot\\mathbf{n}|}{|\\overrightarrow{ED}|}=\\dfrac{\\frac{|x-\\sqrt{2}|}{\\sqrt{2}}}{\\sqrt{(x-\\sqrt{2})^{2}+1}}$. 令 $\\varphi=\\frac{\\pi}{6}$，平方化简得 $(x-\\sqrt{2})^{2}=1$. 因此存在两个点：$x=\\sqrt{2}-1$ 和 $x=\\sqrt{2}+1$，即它们分别位于点 $C$ 两侧且均满足 $CE=1$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
-          "body": "<p>如图，椭圆 $Q: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的右焦点为 $F(c, 0)$，过点 $F$ 的一动直线 $m$ 绕点 $F$ 转动，并且交椭圆于 $A$，$B$ 两点，$P$ 为线段 $AB$ 的中点.</p><ol class=\"enumerate\"><li><p>求点 $P$ 的轨迹 $H$ 的方程；</p></li><li><p>在 $Q$ 的方程中，令 $a^{2} = 1 + \\cos \\theta + \\sin \\theta$，$b^{2} = \\sin \\theta$（$0 < \\theta \\le \\frac{\\pi}{2}$），确定 $\\theta$ 的值，使原点距椭圆的右准线 $l$ 最远，此时，设 $l$ 与 $x$ 轴交点为 $D$，当直线 $m$ 绕点 $F$ 转动到什么位置时，三角形 $ABD$ 的面积最大？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，椭圆 $Q: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的右焦点为 $F(c, 0)$，过点 $F$ 的一动直线 $m$ 绕点 $F$ 转动，并且交椭圆于 $A$，$B$ 两点，$P$ 为线段 $AB$ 的中点.</p><ol class=\"enumerate\"><li><p>求点 $P$ 的轨迹 $H$ 的方程；</p></li><li><p>在 $Q$ 的方程中，令 $a^{2} = 1 + \\cos \\theta + \\sin \\theta$，$b^{2} = \\sin \\theta$（$0 < \\theta \\le \\frac{\\pi}{2}$），确定 $\\theta$ 的值，使原点距椭圆的右准线 $l$ 最远，此时，设 $l$ 与 $x$ 轴交点为 $D$，当直线 $m$ 绕点 $F$ 转动到什么位置时，三角形 $ABD$ 的面积最大？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangxi_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $A(x_{1},y_{1})$、$B(x_{2},y_{2})$，$P(x,y)$，则 $x=\\frac{(x_{1}+x_{2})}{2}$，$y=\\frac{(y_{1}+y_{2})}{2}$. 由 $A$，$B$ 在椭圆上，得</p><p>$b^{2}x_{1}^{2}+a^{2}y_{1}^{2}=a^{2}b^{2}$，$b^{2}x_{2}^{2}+a^{2}y_{2}^{2}=a^{2}b^{2}$. 两式相减，并利用直线 $AB$ 经过 $F(c,0)$，得</p><p>$b^{2}(x_{1}+x_{2})+a^{2}\\dfrac{y_1-y_2}{x_1-x_2}(y_{1}+y_{2})=0$，其中非竖直情形下 $\\dfrac{y_1-y_2}{x_1-x_2}=\\dfrac{y}{x-c}$. 代入中点坐标并化简，得到</p><p>$b^{2}x(x-c)+a^{2}y^{2}=0$，即 $b^{2}x^{2}+a^{2}y^{2}-b^{2}cx=0$. 当 $AB$ 垂直于 $x$ 轴时，$P=(c,0)$，同样满足该方程. 因此点 $P$ 的轨迹为</p><p>$H:b^{2}x^{2}+a^{2}y^{2}-b^{2}cx=0$.</p></li><li><p>椭圆右准线方程为 $x=\\frac{a^{2}}{c}$，所以原点到右准线的距离为 $\\frac{a^{2}}{c}$. 由 $c^{2}=a^{2}-b^{2}=1+\\cos\\theta$，且 $c>0$，有</p><p>$\\dfrac{a^2}{c}=\\dfrac{1+\\cos\\theta+\\sin\\theta}{\\sqrt{1+\\cos\\theta}}=\\sqrt{2}\\left(\\cos\\dfrac\\theta2+\\sin\\dfrac\\theta2\\right)$.</p><p>因为 $0<\\frac{\\theta}{2}\\le\\frac{\\pi}{4}$，上式在 $\\frac{\\theta}{2}=\\frac{\\pi}{4}$，即 $\\theta=\\frac{\\pi}{2}$ 时取得最大值. 此时 $a^{2}=2$，$b^{2}=1$，$c=1$，椭圆为 $\\frac{x^{2}}{2}+y^{2}=1$，右准线为 $x=2$，故 $D=(2,0)$.</p><p>设非竖直直线 $m$ 为 $y=k(x-1)$，与椭圆交于 $A(x_{1},y_{1})$、$B(x_{2},y_{2})$. 代入椭圆方程得 $(1+2k^{2})x^{2}-4k^{2}x+2k^{2}-2=0$，所以</p><p>$|x_{1}-x_{2}|=\\dfrac{2\\sqrt{2}\\sqrt{1+k^{2}}}{1+2k^2}$. 又 $|AB|=\\sqrt{1+k^{2}}|x_{1}-x_{2}|$，点 $D$ 到直线 $m$ 的距离为 $\\frac{|k|}{\\sqrt{1+k^{2}}}$，故</p><p>$S_{\\triangle ABD}=\\dfrac{1}{2}|AB|\\,d(D,m)=\\dfrac{\\sqrt{2}|k|\\sqrt{1+k^{2}}}{1+2k^2}$. 令 $t=k^{2}$，则</p><p>$S_{\\triangle ABD}^{2}=\\dfrac{2t(t+1)}{(1+2t)^2}$，其导数为 $\\dfrac{2}{(1+2t)^3}>0$. 因此在非竖直情形下，面积的平方随 $t$ 增大而增大，且 $\\displaystyle\\lim_{t\\to\\infty}S_{\\triangle ABD}^{2}=\\frac{1}{2}$. 当 $m$ 为竖直直线 $x=1$ 时，椭圆交点为 $(1,\\pm\\frac{1}{\\sqrt{2}})$，故 $|AB|=\\sqrt{2}$，$d(D,m)=1$，三角形面积为 $\\frac{\\sqrt{2}}{2}$，其平方为 $\\frac{1}{2}$. 所以面积最大时 $m\\perp x$ 轴.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $A(x_{1},y_{1})$、$B(x_{2},y_{2})$，$P(x,y)$，则 $x=\\frac{(x_{1}+x_{2})}{2}$，$y=\\frac{(y_{1}+y_{2})}{2}$. 由 $A$，$B$ 在椭圆上，得</p><p>$b^{2}x_{1}^{2}+a^{2}y_{1}^{2}=a^{2}b^{2}$，$b^{2}x_{2}^{2}+a^{2}y_{2}^{2}=a^{2}b^{2}$. 两式相减，并利用直线 $AB$ 经过 $F(c,0)$，得</p><p>$b^{2}(x_{1}+x_{2})+a^{2}\\dfrac{y_1-y_2}{x_1-x_2}(y_{1}+y_{2})=0$，其中非竖直情形下 $\\dfrac{y_1-y_2}{x_1-x_2}=\\dfrac{y}{x-c}$. 代入中点坐标并化简，得到</p><p>$b^{2}x(x-c)+a^{2}y^{2}=0$，即 $b^{2}x^{2}+a^{2}y^{2}-b^{2}cx=0$. 当 $AB$ 垂直于 $x$ 轴时，$P=(c,0)$，同样满足该方程. 因此点 $P$ 的轨迹为</p><p>$H:b^{2}x^{2}+a^{2}y^{2}-b^{2}cx=0$.</p></li><li><p>椭圆右准线方程为 $x=\\frac{a^{2}}{c}$，所以原点到右准线的距离为 $\\frac{a^{2}}{c}$. 由 $c^{2}=a^{2}-b^{2}=1+\\cos\\theta$，且 $c>0$，有</p><p>$\\dfrac{a^2}{c}=\\dfrac{1+\\cos\\theta+\\sin\\theta}{\\sqrt{1+\\cos\\theta}}=\\sqrt{2}\\left(\\cos\\dfrac\\theta2+\\sin\\dfrac\\theta2\\right)$.</p><p>因为 $0<\\frac{\\theta}{2}\\le\\frac{\\pi}{4}$，上式在 $\\frac{\\theta}{2}=\\frac{\\pi}{4}$，即 $\\theta=\\frac{\\pi}{2}$ 时取得最大值. 此时 $a^{2}=2$，$b^{2}=1$，$c=1$，椭圆为 $\\frac{x^{2}}{2}+y^{2}=1$，右准线为 $x=2$，故 $D=(2,0)$.</p><p>设非竖直直线 $m$ 为 $y=k(x-1)$，与椭圆交于 $A(x_{1},y_{1})$、$B(x_{2},y_{2})$. 代入椭圆方程得 $(1+2k^{2})x^{2}-4k^{2}x+2k^{2}-2=0$，所以</p><p>$|x_{1}-x_{2}|=\\dfrac{2\\sqrt{2}\\sqrt{1+k^{2}}}{1+2k^2}$. 又 $|AB|=\\sqrt{1+k^{2}}|x_{1}-x_{2}|$，点 $D$ 到直线 $m$ 的距离为 $\\frac{|k|}{\\sqrt{1+k^{2}}}$，故</p><p>$S_{\\triangle ABD}=\\dfrac{1}{2}|AB|\\,d(D,m)=\\dfrac{\\sqrt{2}|k|\\sqrt{1+k^{2}}}{1+2k^2}$. 令 $t=k^{2}$，则</p><p>$S_{\\triangle ABD}^{2}=\\dfrac{2t(t+1)}{(1+2t)^2}$，其导数为 $\\dfrac{2}{(1+2t)^3}>0$. 因此在非竖直情形下，面积的平方随 $t$ 增大而增大，且 $\\displaystyle\\lim_{t\\to\\infty}S_{\\triangle ABD}^{2}=\\frac{1}{2}$. 当 $m$ 为竖直直线 $x=1$ 时，椭圆交点为 $(1,\\pm\\frac{1}{\\sqrt{2}})$，故 $|AB|=\\sqrt{2}$，$d(D,m)=1$，三角形面积为 $\\frac{\\sqrt{2}}{2}$，其平方为 $\\frac{1}{2}$. 所以面积最大时 $m\\perp x$ 轴.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知数列 $\\{a_{n}\\}$ 满足：$a_{1}= \\frac{3}{2}$，且 $a_{n}= \\frac{3na_{n-1}}{2a_{n-1}+ n - 1}$（$n \\ge 2$，$n \\in \\mathbf{N}^{*}$）.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>证明：对一切正整数 $n$，不等式 $a_{1} \\cdot a_{2} \\cdot \\cdots \\cdot a_{n} < 2 \\cdot n!$ 恒成立.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由递推式取倒数，得</p><p>$\\dfrac1{a_n}=\\dfrac2{3n}+\\dfrac{n-1}{3n}\\cdot\\dfrac1{a_{n-1}}$. 令 $b_{n}=\\dfrac n{a_n}$，则 $b_{1}=\\dfrac{2}{3}$，且</p><p>$b_{n}=\\dfrac{2}{3}+\\dfrac{1}{3}b_{n-1}$. 于是 $b_{n}-1=\\dfrac{1}{3}(b_{n-1}-1)$，从而 $b_{n}-1=-3^{-n}$，即 $b_{n}=1-3^{-n}$. 所以</p><p>$a_{n}=\\dfrac{n}{1-3^{-n}}=\\dfrac{n3^n}{3^n-1}$.</p></li><li><p>由通项公式，</p><p>$a_{1}a_{2}\\cdots a_{n}=n!\\prod_{k=1}^{n}\\dfrac1{1-3^{-k}}$. 对 $0\\le x_{k}<1$，用归纳法证明</p>\n$$\n\\prod_{k=1}^{n+1}(1-x_{k})  \\ge\\left(1-\\sum_{k=1}^{n}x_{k}\\right)(1-x_{n+1})  =1-\\sum_{k=1}^{n+1}x_{k}+x_{n+1}\\sum_{k=1}^{n}x_{k}  \\geqslant1-\\sum_{k=1}^{n+1}x_{k}\n$$\n<p>其中初始情形 $n=1$ 成立，归纳步利用 $1-x_{n+1}\\geqslant0$. 取 $x_{k}=3^{-k}$，得到</p><p>$\\prod_{k=1}^{n}(1-3^{-k})\\geqslant1-\\sum_{k=1}^{n}3^{-k}=\\dfrac{1}{2}+\\dfrac1{2\\cdot3^n}>\\dfrac{1}{2}$. 因此</p><p>$a_{1}a_{2}\\cdots a_{n}=n!\\left[\\prod_{k=1}^{n}(1-3^{-k})\\right]^{-1}<2n!$，命题得证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由递推式取倒数，得</p><p>$\\dfrac1{a_n}=\\dfrac2{3n}+\\dfrac{n-1}{3n}\\cdot\\dfrac1{a_{n-1}}$. 令 $b_{n}=\\dfrac n{a_n}$，则 $b_{1}=\\dfrac{2}{3}$，且</p><p>$b_{n}=\\dfrac{2}{3}+\\dfrac{1}{3}b_{n-1}$. 于是 $b_{n}-1=\\dfrac{1}{3}(b_{n-1}-1)$，从而 $b_{n}-1=-3^{-n}$，即 $b_{n}=1-3^{-n}$. 所以</p><p>$a_{n}=\\dfrac{n}{1-3^{-n}}=\\dfrac{n3^n}{3^n-1}$.</p></li><li><p>由通项公式，</p><p>$a_{1}a_{2}\\cdots a_{n}=n!\\prod_{k=1}^{n}\\dfrac1{1-3^{-k}}$. 对 $0\\le x_{k}<1$，用归纳法证明</p>\n$$\n\\prod_{k=1}^{n+1}(1-x_{k})  \\ge\\left(1-\\sum_{k=1}^{n}x_{k}\\right)(1-x_{n+1})  =1-\\sum_{k=1}^{n+1}x_{k}+x_{n+1}\\sum_{k=1}^{n}x_{k}  \\geqslant1-\\sum_{k=1}^{n+1}x_{k}\n$$\n<p>其中初始情形 $n=1$ 成立，归纳步利用 $1-x_{n+1}\\geqslant0$. 取 $x_{k}=3^{-k}$，得到</p><p>$\\prod_{k=1}^{n}(1-3^{-k})\\geqslant1-\\sum_{k=1}^{n}3^{-k}=\\dfrac{1}{2}+\\dfrac1{2\\cdot3^n}>\\dfrac{1}{2}$. 因此</p><p>$a_{1}a_{2}\\cdots a_{n}=n!\\left[\\prod_{k=1}^{n}(1-3^{-k})\\right]^{-1}<2n!$，命题得证.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

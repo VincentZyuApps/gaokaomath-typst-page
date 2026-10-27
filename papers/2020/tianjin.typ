@@ -40,7 +40,15 @@
 
 #problem(3)[
 函数 #mi(`y=\dfrac{4x}{x^2+1}`) 的图象大致为（ ）
-  #choices([[width=0.15\paperwidth]img/2020/tianjin/q3_fig1.png], [[width=0.15\paperwidth]img/2020/tianjin/q3_fig2.png], [[width=0.15\paperwidth]img/2020/tianjin/q3_fig3.png], [[width=0.15\paperwidth]img/2020/tianjin/q3_fig4.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2020/img/tianjin/q3_fig1.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2020/img/tianjin/q3_fig2.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2020/img/tianjin/q3_fig3.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2020/img/tianjin/q3_fig4.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
@@ -157,7 +165,7 @@
 
 #problem(9)[
 已知函数 #mi(`f(x)=x^{3}`)（#mi(`x\ge 0`)），#mi(`f(x)=-x`)（#mi(`x<0`)）. 若函数 #mi(`g(x)=f(x)-\left| kx^{2}-2x \right|`)（#mi(`k\in\mathbb{R}`)）恰有 4 个零点，则 #mi(`k`) 的取值范围是（ ）
-  #choices([#mi(`\left( -\infty,-\dfrac{1}{2}\right)\cup\left( 2\sqrt{2},+\infty \right)`)], [#mi(`\left( -\infty,-\dfrac{1}{2}\right)\cup\left( 0,2\sqrt{2} \right)`)], [#mi(`\left( -\infty,0 \right)\cup\left( 0,2\sqrt{2} \right)`)], [#mi(`\left( -\infty,0 \right)\cup\left( 2\sqrt{2},+\infty \right)`)], cols: 1)
+  #choices([#mi(`\left( -\infty,-\dfrac{1}{2}\right)\cup\left( 2\sqrt{2},+\infty \right)`)], [#mi(`\left( -\infty,-\dfrac{1}{2}\right)\cup\left( 0,2\sqrt{2}\right)`)], [#mi(`\left( -\infty,0 \right)\cup\left( 0,2\sqrt{2}\right)`)], [#mi(`\left( -\infty,0 \right)\cup\left( 2\sqrt{2},+\infty \right)`)], cols: 1)
 ]
 
 #answer([D])
@@ -181,11 +189,15 @@
 
 当 #mi(`k=0`) 时，此时 #mi(`y=2`)，如图 1，#mi(`y=2`) 与 #mi(`y=h(x)`) 有 2 个不同交点，不满足题意；
 
-[max width=0.50\linewidth]img/2020/tianjin/q9_solution_fig1.png
+ 
+#align(center)[#image("/papers/2020/img/tianjin/q9_solution_fig1.png", width: 28%)]
+ 
 
 当 #mi(`k<0`) 时，如图 2，此时 #mi(`y=\left| kx-2 \right|`) 与 #mi(`y=h(x)`) 恒有 3 个不同交点，满足题意；
 
-[max width=0.50\linewidth]img/2020/tianjin/q9_solution_fig3.png
+ 
+#align(center)[#image("/papers/2020/img/tianjin/q9_solution_fig3.png", width: 28%)]
+ 
 
 当 #mi(`k>0`) 时，如图 3，当 #mi(`y=kx-2`) 与 #mi(`y=x^{2}`) 相切时，联立方程得
 
@@ -193,7 +205,9 @@
 
 令 #mi(`\Delta=0`) 得 #mi(`k^{2}-8=0`)，解得 #mi(`k=2\sqrt{2}`)（负值舍去），所以 #mi(`k>2\sqrt{2}`).
 
-[max width=0.50\linewidth]img/2020/tianjin/q9_solution_fig2.png
+ 
+#align(center)[#image("/papers/2020/img/tianjin/q9_solution_fig2.png", width: 28%)]
+ 
 
 综上， #mi(`k`) 的取值范围为 #mi(`\left( -\infty,0 \right)\cup\left( 2\sqrt{2},+\infty \right)`).
 
@@ -237,13 +251,13 @@
 ]
 
 #problem(12)[
-已知直线 #mi(`x-\sqrt{3} y+8=0`) 和圆 #mi(`x^{2}+y^{2}=r^{2}`)（#mi(`r>0`)）相交于 #mi(`A`)，#mi(`B`) 两点. 若 #mi(`|AB|=6`)，则 #mi(`r=\underline{\hspace{2.5em}}{}`).
+已知直线 #mi(`x-\sqrt{3}y+8=0`) 和圆 #mi(`x^{2}+y^{2}=r^{2}`)（#mi(`r>0`)）相交于 #mi(`A`)，#mi(`B`) 两点. 若 #mi(`|AB|=6`)，则 #mi(`r=\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([5])
 
 #solution[
-因为圆心 #mi(`(0,0)`) 到直线 #mi(`x-\sqrt{3} y+8=0`) 的距离
+因为圆心 #mi(`(0,0)`) 到直线 #mi(`x-\sqrt{3}y+8=0`) 的距离
 
 #mi(`d=\frac{8}{\sqrt{1+\left( \sqrt{3}\right)^{2}}}=4`)，
 
@@ -305,7 +319,9 @@
 #problem(15)[
 如图，在四边形 #mi(`ABCD`) 中，#mi(`\angle B=60^{\circ}`)，#mi(`|AB|=3`)，#mi(`|BC|=6`)，且 #mi(`\overrightarrow{AD}=\lambda\overrightarrow{BC}`)，#mi(`\overrightarrow{AD}\cdot\overrightarrow{AB}=-\dfrac{3}{2}`)，则实数 #mi(`\lambda`) 的值为\underline{\hspace{2.5em}}，若 #mi(`M`)，#mi(`N`) 是线段 #mi(`BC`) 上的动点，且 #mi(`|MN|=1`)，则 #mi(`\overrightarrow{DM}\cdot\overrightarrow{DN}`) 的最小值为\underline{\hspace{2.5em}}.
 
-[max width=0.76\linewidth]img/2020/tianjin/q15_fig1.png
+
+#align(center)[#image("/papers/2020/img/tianjin/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`\dfrac{1}{6}`)，#mi(`\ \dfrac{13}{2}`)])
@@ -319,7 +335,9 @@
 
 以点 #mi(`B`) 为坐标原点，#mi(`BC`) 所在直线为 #mi(`x`) 轴建立如下图所示的平面直角坐标系 #mi(`xBy`)，
 
-[max width=0.66\linewidth]img/2020/tianjin/q15_solution_fig1.png
+ 
+#align(center)[#image("/papers/2020/img/tianjin/q15_solution_fig1.png", width: 28%)]
+ 
 
 则 #mi(`C(6,0)`).
 
@@ -368,7 +386,9 @@
 
 
 
-[max width=0.80\linewidth]img/2020/tianjin/q17_fig1.png
+
+#align(center)[#image("/papers/2020/img/tianjin/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[

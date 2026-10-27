@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,74 +11,117 @@
 #part-header("解答题")
 
 #problem(1)[
-计算：$(4.8-3.7)^2-root(3, -27) times (5-1\div 5 ) times (-(5)/(8))$.
+计算：#mi(`\left(4.8-3.7\right)^{2}-\sqrt[3]{-27}\times\left(5-1\div5\right)\times\left(-\frac{5}{8}\right)`).
 ]
 
 #solution[
-先分别计算各部分：$4.8-3.7=1.1$，$root(3, -27)=-3$，且 $5-1\div 5 =5-(1)/(5)=(24)/(5)$. 因此原式为
+先分别计算各部分：#mi(`4.8-3.7=1.1`)，#mi(`\sqrt[3]{-27}=-3`)，且 #mi(`5-1\div5=5-\frac{1}{5}=\frac{24}{5}`). 因此原式为
 
-$ 1.1^2-(-3) times (24)/(5) times (-(5)/(8))=1.21-9=-7.79 $
 
-故原式的值为 $-7.79$.
+#align(center)[#mitex(`
+1.1^{2}-\left(-3\right)\times\frac{24}{5}\times\left(-\frac{5}{8}\right)=1.21-9=-7.79
+`)]
+
+
+故原式的值为 #mi(`-7.79`).
 ]
 
 #problem(2)[
-求分式方程 $(1-x)/(x)=x$ 在 $0$ 到 $1$ 范围内精确到小数三位的根.
+求分式方程 #mi(`\frac{1-x}{x}=x`) 在 #mi(`0`) 到 #mi(`1`) 范围内精确到小数三位的根.
 ]
 
 #solution[
-原方程的分母为 $x$，所以定义域要求 $x != 0$. 在此条件下，两边同乘 $x$，得 $1-x=x^2$，即 $x^2+x-1=0$. 由求根公式，
+原方程的分母为 #mi(`x`)，所以定义域要求 #mi(`x\ne0`). 在此条件下，两边同乘 #mi(`x`)，得 #mi(`1-x=x^{2}`)，即 #mi(`x^{2}+x-1=0`). 由求根公式，
 
-$ x=(-1\p m s q r t(1+4))/(2)=(-1\p m s q r t(5))/(2) $
 
-因为这两个根的乘积为 $-1$，所以它们均不为零；又因为去分母是在 $x != 0$ 的定义域内进行的，所以它们都是原分式方程的根. 由 $2<sqrt(5)<3$ 可知 $(-1-sqrt(5))/(2)<0$，且 $0<(-1+sqrt(5))/(2)<1$.
-故 $0$ 到 $1$ 范围内的根为
+#align(center)[#mitex(`
+x=\frac{-1\pm\sqrt{1+4}}{2}=\frac{-1\pm\sqrt{5}}{2}
+`)]
 
-$ x=(-1+sqrt(5))/(2) approx (-1+2.236)/(2)=0.618 $
 
-即精确到小数三位为 $0.618$.
+因为这两个根的乘积为 #mi(`-1`)，所以它们均不为零；又因为去分母是在 #mi(`x\ne0`) 的定义域内进行的，所以它们都是原分式方程的根. 由 #mi(`2<\sqrt{5}<3`) 可知 #mi(`\frac{-1-\sqrt{5}}{2}<0`)，且 #mi(`0<\frac{-1+\sqrt{5}}{2}<1`).
+
+故 #mi(`0`) 到 #mi(`1`) 范围内的根为
+
+
+#align(center)[#mitex(`
+x=\frac{-1+\sqrt{5}}{2}\approx\frac{-1+2.236}{2}=0.618
+`)]
+
+
+即精确到小数三位为 #mi(`0.618`).
 ]
 
 #problem(3)[
-已知 $log _(10)2=0.3010$，$log _(10)5=0.6990$，试计算 $(2 log _(10)4)( log _2 5)+ log _(10)(5)/(2)$ 的值（精确到小数三位）.
+已知 #mi(`\log_{10}2=0.3010`)，#mi(`\log_{10}5=0.6990`)，试计算 #mi(`\left(2\log_{10}4\right)\left(\log_{2} 5\right)+\log_{10}\frac{5}{2}`) 的值（精确到小数三位）.
 ]
 
 #solution[
-由对数的幂运算法则、换底公式和商的对数公式，分别有 $log _(10)4=2 log _(10)2$，$log _2 5=(log _(10){5})/(log _(10)2)$，$log _(10)(5)/(2)= log _(10)5- log _(10)2$. 所以
+由对数的幂运算法则、换底公式和商的对数公式，分别有 #mi(`\log_{10}4=2\log_{10}2`)，#mi(`\log_{2} 5=\frac{\log_{10}5}{\log_{10}2}`)，#mi(`\log_{10}\frac{5}{2}=\log_{10}5-\log_{10}2`). 所以
 
-$ \b e g i n{g a t h e r e d} (2 log _(10)4)( log _2 5)+ log _(10)(5)/(2)\\ =(4 log _(10)2)(log _(10){5})/(log _(10)2)+ log _(10)5- log _(10)2\\ =4 log _(10)5+ log _(10)5- log _(10)2=5 log _(10)5- log _(10)2\\ =5 times 0 .6990-0.3010=3.1940 \e n d{g a t h e r e d} $
 
-因此精确到小数三位为 $3.194$.
+#align(center)[#mitex(`
+\begin{gathered}\left(2\log_{10}4\right)\left(\log_2 5\right)+\log_{10}\frac{5}{2}\\
+
+=\left(4\log_{10}2\right)\frac{\log_{10}5}{\log_{10}2}+\log_{10}5-\log_{10}2\\
+
+=4\log_{10}5+\log_{10}5-\log_{10}2=5\log_{10}5-\log_{10}2\\
+
+=5\times0.6990-0.3010=3.1940\end{gathered}
+`)]
+
+
+因此精确到小数三位为 #mi(`3.194`).
 ]
 
 #problem(4)[
-利用特殊角三角比，求 $sin 75 ""^ degree$ 的值.
+利用特殊角三角比，求 #mi(`\sin75^{\circ}`) 的值.
 ]
 
 #solution[
-将 $75^ degree$ 写成 $45^ degree +30^ degree$，利用正弦的和角公式，得
+将 #mi(`75^{\circ}`) 写成 #mi(`45^{\circ}+30^{\circ}`)，利用正弦的和角公式，得
 
-$ sin 75 ""^ degree = sin (45^ degree +30^ degree )= sin 45 ""^ degree cos 30 ""^ degree + cos 45 ""^ degree sin 30 ""^ degree $
+
+#align(center)[#mitex(`
+\sin75^{\circ}=\sin\left(45^{\circ}+30^{\circ}\right)=\sin45^{\circ}\cos30^{\circ}+\cos45^{\circ}\sin30^{\circ}
+`)]
+
 
 代入特殊角的三角比，得
 
-$ sin 75 ""^ degree =(sqrt(2))/(2) dot (sqrt(3))/(2)+(sqrt(2))/(2) dot (1)/(2)=(sqrt(6)+sqrt(2))/(4) $
 
-故 $sin 75 ""^ degree =(sqrt(6)+sqrt(2))/(4)$.
+#align(center)[#mitex(`
+\sin75^{\circ}=\frac{\sqrt{2}}{2}\cdot\frac{\sqrt{3}}{2}+\frac{\sqrt{2}}{2}\cdot\frac{1}{2}=\frac{\sqrt{6}+\sqrt{2}}{4}
+`)]
+
+
+故 #mi(`\sin75^{\circ}=\frac{\sqrt{6}+\sqrt{2}}{4}`).
 ]
 
 #problem(5)[
-证明恒等式：$( cos alpha - cos beta )^2+( sin alpha - sin beta )^2=2-2 cos ( alpha - beta )$.
+证明恒等式：#mi(`\left(\cos\alpha-\cos\beta\right)^{2}+\left(\sin\alpha-\sin\beta\right)^{2}=2-2\cos\left(\alpha-\beta\right)`).
 ]
 
 #solution[
-展开左端，并利用 $sin ""^2 theta + cos ""^2 theta =1$，得
+展开左端，并利用 #mi(`\sin^{2}\theta+\cos^{2}\theta=1`)，得
 
-$ \b e g i n{g a t h e r e d} ( cos alpha - cos beta )^2+( sin alpha - sin beta )^2\\ = cos ""^2 alpha -2 cos alpha cos beta + cos ""^2 beta + sin ""^2 alpha -2 sin alpha sin beta + sin ""^2 beta \\ =2-2( cos alpha cos beta + sin alpha sin beta ) \e n d{g a t h e r e d} $
 
-再由余弦的差角公式 $cos ( alpha - beta )= cos alpha cos beta + sin alpha sin beta$，可得
+#align(center)[#mitex(`
+\begin{gathered}\left(\cos\alpha-\cos\beta\right)^2+\left(\sin\alpha-\sin\beta\right)^2\\
 
-$ ( cos alpha - cos beta )^2+( sin alpha - sin beta )^2=2-2 cos ( alpha - beta ) $
+=\cos^2\alpha-2\cos\alpha\cos\beta+\cos^2\beta+\sin^2\alpha-2\sin\alpha\sin\beta+\sin^2\beta\\
+
+=2-2\left(\cos\alpha\cos\beta+\sin\alpha\sin\beta\right)\end{gathered}
+`)]
+
+
+再由余弦的差角公式 #mi(`\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta`)，可得
+
+
+#align(center)[#mitex(`
+\left(\cos\alpha-\cos\beta\right)^{2}+\left(\sin\alpha-\sin\beta\right)^{2}=2-2\cos\left(\alpha-\beta\right)
+`)]
+
 
 因此恒等式成立.
 ]
@@ -86,87 +129,105 @@ $ ( cos alpha - cos beta )^2+( sin alpha - sin beta )^2=2-2 cos ( alpha - beta )
 #part-header("选做题")
 
 #problem(6)[
-红旗工厂要围成一个周长为 $120" 米"$ 的矩形场地，可以存放原料. 问矩形的长和宽应各取多少米，才能使存放场地的面积最大？并说明这最大面积的场地是什么形状？
+红旗工厂要围成一个周长为 #mi(`120\text{ \text{米}}`) 的矩形场地，可以存放原料. 问矩形的长和宽应各取多少米，才能使存放场地的面积最大？并说明这最大面积的场地是什么形状？
 ]
 
 #solution[
-设矩形的长为 $x" 米"$，宽为 $y" 米"$. 由周长条件得 $2 x+2 y=120$，所以 $y=60-x$. 由于长、宽均为正数，必须有 $0<x<60$. 面积为
+设矩形的长为 #mi(`x\text{ \text{米}}`)，宽为 #mi(`y\text{ \text{米}}`). 由周长条件得 #mi(`2x+2y=120`)，所以 #mi(`y=60-x`). 由于长、宽均为正数，必须有 #mi(`0<x<60`). 面积为
 
-$ S=x y=x(60-x)=-x^2+60 x=-(x-30)^2+900 $
 
-因为 $(x-30)^2\g e q0$，所以 $S\l e q900$，且当且仅当 $x=30$ 时取等号. 此时 $y=60-30=30$. 故矩形的长、宽均取 $30" 米"$ 时面积最大，最大面积为 $900" 平方米"$；此时长和宽相等，所以最大面积的场地是正方形.
+#align(center)[#mitex(`
+S=xy=x\left(60-x\right)=-x^{2}+60x=-\left(x-30\right)^{2}+900
+`)]
+
+
+因为 #mi(`\left(x-30\right)^{2}\geq0`)，所以 #mi(`S\leq900`)，且当且仅当 #mi(`x=30`) 时取等号. 此时 #mi(`y=60-30=30`). 故矩形的长、宽均取 #mi(`30\text{ \text{米}}`) 时面积最大，最大面积为 #mi(`900\text{ \text{平方米}}`)；此时长和宽相等，所以最大面积的场地是正方形.
 ]
 
 #problem(7)[
-有一正四棱台，上底边长是 $40" 厘米"$，下底边长是 $52" 厘米"$，高是 $8" 厘米"$. 求：
+有一正四棱台，上底边长是 #mi(`40\text{ \text{厘米}}`)，下底边长是 #mi(`52\text{ \text{厘米}}`)，高是 #mi(`8\text{ \text{厘米}}`). 求：
 
 
-+ (1) 它的下底面的面积是多少？
-+ (2) 它的侧面积是多少？
-+ (3) 它的容积是多少？
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 正四棱台的下底面是边长为 $52" 厘米"$ 的正方形，因此下底面面积为 $S_("下底")=52^2=2704" 平方厘米"$.
-+ (2) 正四棱台的每个侧面都是全等的等腰梯形，且梯形的上、下底分别为 $40" 厘米"$ 和 $52" 厘米"$. 过梯形上、下底的中点作垂线，底边差的一半为 $(52-40)/(2)=6" 厘米"$. 因此梯形的高，即正四棱台的斜高为
-
-$ l=sqrt(8^2+6^2)=10" 厘米" $
-
-四个侧面均为等腰梯形，所以侧面积为
-
-$ S_("侧")=4 times (40+52)/(2) times 10 =1840" 平方厘米" $
-+ (3) 上、下底面的面积分别为 $S_1=40^2=1600" 平方厘米"$，$S_2=52^2=2704" 平方厘米"$. 棱台的体积公式为 $V=(h)/(3)(S_1+S_2+sqrt(S_(1) S_2))$. 由 $sqrt(S_(1) S_2)=sqrt(40^2 times 52 ""^2)=40 times 52 =2080$，且 $h=8" 厘米"$，得
-
-$ V=(8)/(3)(1600+2704+2080)=(8)/(3) times 6384 =17024" 立方厘米" $
++ (1) 
++ (2)
 ]
 
 #problem(8)[
-已知直线 $L_2$ 经过点 $(7,1)$，并且与直线 $L_1:y=(1)/(3)x+2$ 垂直，求直线 $L_2$ 的方程.
+已知直线 #mi(`L_{2}`) 经过点 #mi(`\left(7,1\right)`)，并且与直线 #mi(`L_{1}:y=\frac{1}{3}x+2`) 垂直，求直线 #mi(`L_{2}`) 的方程.
 ]
 
 #solution[
-直线 $L_1$ 的斜率为 $(1)/(3)$. 设直线 $L_2$ 的斜率为 $m$. 两条非竖直直线垂直时斜率之积为 $-1$，所以 $m dot (1)/(3)=-1$，即 $m=-3$. 利用点斜式并代入点 $(7,1)$，得 $y-1=-3(x-7)$，整理得 $y=-3 x+22$. 因此直线 $L_2$ 的方程为 $y=-3 x+22$.
+直线 #mi(`L_{1}`) 的斜率为 #mi(`\frac{1}{3}`). 设直线 #mi(`L_{2}`) 的斜率为 #mi(`m`). 两条非竖直直线垂直时斜率之积为 #mi(`-1`)，所以 #mi(`m\cdot\frac{1}{3}=-1`)，即 #mi(`m=-3`). 利用点斜式并代入点 #mi(`\left(7,1\right)`)，得 #mi(`y-1=-3\left(x-7\right)`)，整理得 #mi(`y=-3x+22`). 因此直线 #mi(`L_{2}`) 的方程为 #mi(`y=-3x+22`).
 ]
 
 #part-header("参考题")
 
 #problem(9)[
-求证：$1^3+2^3+3^3+ dots.c +n^3=[(n(n+1))/(2)]^2$.
+求证：#mi(`1^{3}+2^{3}+3^{3}+\cdots+n^{3}=\left[\frac{n\left(n+1\right)}{2}\right]^{2}`).
 ]
 
 #solution[
 用数学归纳法证明.
 
-当 $n=1$ 时，等式左端为 $1^3=1$，右端为
+当 #mi(`n=1`) 时，等式左端为 #mi(`1^{3}=1`)，右端为
 
-$ [(1 times (1+1))/(2)]^2=1 $
 
-所以等式对 $n=1$ 成立.
+#align(center)[#mitex(`
+\left[\frac{1\times\left(1+1\right)}{2}\right]^{2}=1
+`)]
 
-假设当 $n=k$ 时等式成立，即
 
-$ 1^3+2^3+3^3+ dots.c +k^3=[(k(k+1))/(2)]^2 $
+所以等式对 #mi(`n=1`) 成立.
+
+假设当 #mi(`n=k`) 时等式成立，即
+
+
+#align(center)[#mitex(`
+1^{3}+2^{3}+3^{3}+\cdots+k^{3}=\left[\frac{k\left(k+1\right)}{2}\right]^{2}
+`)]
+
 
 则
 
-$ \b e g i n{g a t h e r e d} 1^3+2^3+3^3+ dots.c +k^3+(k+1)^3\\ =[(k(k+1))/(2)]^2+(k+1)^3=(k^2(k+1)^2+4(k+1)^3)/(4)\\ =((k+1)^2(k^2+4 k+4))/(4)=((k+1)^2(k+2)^2)/(4)=[((k+1)(k+2))/(2)]^2 \e n d{g a t h e r e d} $
 
-这正是把原等式中的 $n$ 换成 $k+1$ 后的右端，因此等式对 $n=k+1$ 也成立. 由数学归纳法，对任意自然数 $n$，都有
+#align(center)[#mitex(`
+\begin{gathered}1^3+2^3+3^3+\cdots+k^3+\left(k+1\right)^3\\
 
-$ 1^3+2^3+3^3+ dots.c +n^3=[(n(n+1))/(2)]^2 $
+=\left[\frac{k\left(k+1\right)}{2}\right]^2+\left(k+1\right)^3=\frac{k^{2}\left(k+1\right)^{2}+4\left(k+1\right)^{3}}{4}\\
+
+=\frac{\left(k+1\right)^{2}\left(k^{2}+4k+4\right)}{4}=\frac{\left(k+1\right)^{2}\left(k+2\right)^{2}}{4}=\left[\frac{\left(k+1\right)\left(k+2\right)}{2}\right]^2\end{gathered}
+`)]
+
+
+这正是把原等式中的 #mi(`n`) 换成 #mi(`k+1`) 后的右端，因此等式对 #mi(`n=k+1`) 也成立. 由数学归纳法，对任意自然数 #mi(`n`)，都有
+
+
+#align(center)[#mitex(`
+1^{3}+2^{3}+3^{3}+\cdots+n^{3}=\left[\frac{n\left(n+1\right)}{2}\right]^{2}
+`)]
+
 
 故原等式成立.
 ]
 
 #problem(10)[
-计算定积分的值：$\i n t_0^((pi)/(4)) cos 2 x d x$.
+计算定积分的值：#mi(`\displaystyle\int_{0}^{\frac{\pi}{4}}\cos2x\,\mathrm{d}x`).
 ]
 
 #solution[
-令 $u=2 x$，则 $d u=2 d x$，即 $d x=(1)/(2)d u$. 当 $x=0$ 时 $u=0$，当 $x=(pi)/(4)$ 时 $u=(pi)/(2)$. 因而
+令 #mi(`u=2x`)，则 #mi(`\mathrm{d}u=2\,\mathrm{d}x`)，即 #mi(`\mathrm{d}x=\frac{1}{2}\mathrm{d}u`). 当 #mi(`x=0`) 时 #mi(`u=0`)，当 #mi(`x=\frac{\pi}{4}`) 时 #mi(`u=\frac{\pi}{2}`). 因而
 
-$ \i n t_0^((pi)/(4)) cos 2 x d x=(1)/(2)\i n t_0^((pi)/(2)) cos u d u=(1)/(2)[ sin u]_0^((pi)/(2))=(1)/(2)( sin (pi)/(2)- sin 0 )=(1)/(2) $
 
-故定积分的值为 $(1)/(2)$.
+#align(center)[#mitex(`
+\int_{0}^{\frac{\pi}{4}}\cos2x\,\mathrm{d}x=\frac{1}{2}\int_{0}^{\frac{\pi}{2}}\cos u\,\mathrm{d}u=\frac{1}{2}\left[\sin u\right]_{0}^{\frac{\pi}{2}}=\frac{1}{2}\left(\sin\frac{\pi}{2}-\sin0\right)=\frac{1}{2}
+`)]
+
+
+故定积分的值为 #mi(`\frac{1}{2}`).
 ]
 

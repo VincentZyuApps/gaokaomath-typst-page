@@ -1,8 +1,149 @@
 {
-  "title": "2020年普通高等学校招生全国统一考试",
-  "subtitle": "2020年全国III卷（理）",
   "year": "2020",
   "slug": "national_paper_3_science",
+  "title": "2020年全国III卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +158,9 @@
             "$6$"
           ],
           "answer": "C",
-          "solution": "<p>利用交集定义求出 $A\\cap B=\\{(1,7),(2,6),(3,5),(4,4)\\}$，由此能求出 $A\\cap B$ 中元素的个数.</p><p>集合 $A=\\{(x,y)\\mid x,y\\in \\mathbf{N}^{*},y\\ge x\\}$，$B=\\{(x,y)\\mid x+y=8\\}$，</p><p>$A\\cap B=\\{(x,y)\\mid \\begin{cases}y\\ge x\\\\\n\nx+y=8\\end{cases},\\ x,y\\in \\mathbf{N}^{*}\\}=\\{(1,7),(2,6),(3,5),(4,4)\\}$.</p><p>所以 $A\\cap B$ 中元素的个数为 $4$.</p><p>故选：C.</p>"
+          "solution": "<p>利用交集定义求出 $A\\cap B=\\{(1,7),(2,6),(3,5),(4,4)\\}$，由此能求出 $A\\cap B$ 中元素的个数.</p><p>集合 $A=\\{(x,y)\\mid x,y\\in \\mathbf{N}^{*},y\\ge x\\}$，$B=\\{(x,y)\\mid x+y=8\\}$，</p><p>$A\\cap B=\\{(x,y)\\mid \\begin{cases}y\\ge x\\\\\n\nx+y=8\\end{cases},\\ x,y\\in \\mathbf{N}^{*}\\}=\\{(1,7),(2,6),(3,5),(4,4)\\}$.</p><p>所以 $A\\cap B$ 中元素的个数为 $4$.</p><p>故选：C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +172,9 @@
             "$\\dfrac{3}{10}$"
           ],
           "answer": "D",
-          "solution": "<p>直接利用复数代数形式的乘除运算化简得答案.</p><p>$\\frac{1}{1-3\\mathrm{i}}=\\frac{1+3\\mathrm{i}}{(1-3\\mathrm{i})(1+3\\mathrm{i})}=\\frac{1}{10}+\\frac{3}{10}\\mathrm{i}$.</p><p>所以复数 $\\dfrac{1}{1-3\\mathrm{i}}$ 的虚部是 $\\dfrac{3}{10}$.</p><p>故选：D.</p>"
+          "solution": "<p>直接利用复数代数形式的乘除运算化简得答案.</p><p>$\\frac{1}{1-3\\mathrm{i}}=\\frac{1+3\\mathrm{i}}{(1-3\\mathrm{i})(1+3\\mathrm{i})}=\\frac{1}{10}+\\frac{3}{10}\\mathrm{i}$.</p><p>所以复数 $\\dfrac{1}{1-3\\mathrm{i}}$ 的虚部是 $\\dfrac{3}{10}$.</p><p>故选：D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +186,9 @@
             "$p_{1}=p_{4}=0.3$，$p_{2}=p_{3}=0.2$"
           ],
           "answer": "B",
-          "solution": "<p>根据题意，求出各组数据的方差，比较各组选项对应方差的大小，由于标准差是方差的算术平方根，因此方差最大的那一组对应的标准差也最大.</p><p>选项 A：$E(x)=1\\times0.1+2\\times0.4+3\\times0.4+4\\times0.1=2.5$，所以</p><p>$D(x)=(1-2.5)^{2}\\times0.1+(2-2.5)^{2}\\times0.4+(3-2.5)^{2}\\times0.4+(4-2.5)^{2}\\times0.1=0.65$.</p><p>选项 B：$E(x)=1\\times0.4+2\\times0.1+3\\times0.1+4\\times0.4=2.5$，所以</p><p>$D(x)=(1-2.5)^{2}\\times0.4+(2-2.5)^{2}\\times0.1+(3-2.5)^{2}\\times0.1+(4-2.5)^{2}\\times0.4=2.05$.</p><p>选项 C：$E(x)=1\\times0.2+2\\times0.3+3\\times0.3+4\\times0.2=2.5$，所以</p><p>$D(x)=(1-2.5)^{2}\\times0.2+(2-2.5)^{2}\\times0.3+(3-2.5)^{2}\\times0.3+(4-2.5)^{2}\\times0.2=1.05$.</p><p>选项 D：$E(x)=1\\times0.3+2\\times0.2+3\\times0.2+4\\times0.3=2.5$，所以</p><p>$D(x)=(1-2.5)^{2}\\times0.3+(2-2.5)^{2}\\times0.2+(3-2.5)^{2}\\times0.2+(4-2.5)^{2}\\times0.3=1.45$.</p><p>故选：B.</p>"
+          "solution": "<p>根据题意，求出各组数据的方差，比较各组选项对应方差的大小，由于标准差是方差的算术平方根，因此方差最大的那一组对应的标准差也最大.</p><p>选项 A：$E(x)=1\\times0.1+2\\times0.4+3\\times0.4+4\\times0.1=2.5$，所以</p><p>$D(x)=(1-2.5)^{2}\\times0.1+(2-2.5)^{2}\\times0.4+(3-2.5)^{2}\\times0.4+(4-2.5)^{2}\\times0.1=0.65$.</p><p>选项 B：$E(x)=1\\times0.4+2\\times0.1+3\\times0.1+4\\times0.4=2.5$，所以</p><p>$D(x)=(1-2.5)^{2}\\times0.4+(2-2.5)^{2}\\times0.1+(3-2.5)^{2}\\times0.1+(4-2.5)^{2}\\times0.4=2.05$.</p><p>选项 C：$E(x)=1\\times0.2+2\\times0.3+3\\times0.3+4\\times0.2=2.5$，所以</p><p>$D(x)=(1-2.5)^{2}\\times0.2+(2-2.5)^{2}\\times0.3+(3-2.5)^{2}\\times0.3+(4-2.5)^{2}\\times0.2=1.05$.</p><p>选项 D：$E(x)=1\\times0.3+2\\times0.2+3\\times0.2+4\\times0.3=2.5$，所以</p><p>$D(x)=(1-2.5)^{2}\\times0.3+(2-2.5)^{2}\\times0.2+(3-2.5)^{2}\\times0.2+(4-2.5)^{2}\\times0.3=1.45$.</p><p>故选：B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +200,9 @@
             "$69$"
           ],
           "answer": "C",
-          "solution": "<p>根据所给材料中的 Logistic 模型列出关于 $t$ 的方程，再通过化简和取对数求出 $t$ 的近似值，从而得到所求结果.</p><p>$\\frac{K}{1+\\mathrm{e}^{-0.23(t-53)}}=0.95K$，</p><p>由已知可得</p><p>$\\frac{K}{1+\\mathrm{e}^{-0.23(t-53)}}=0.95K$，</p><p>解得</p><p>$\\mathrm{e}^{-0.23(t-53)}=\\frac{1}{19}$.</p><p>两边取对数有</p><p>$-0.23(t-53)=-\\ln19$，</p><p>解得</p><p>$t\\approx66$.</p><p>故选：C.</p>"
+          "solution": "<p>根据所给材料中的 Logistic 模型列出关于 $t$ 的方程，再通过化简和取对数求出 $t$ 的近似值，从而得到所求结果.</p><p>$\\frac{K}{1+\\mathrm{e}^{-0.23(t-53)}}=0.95K$，</p><p>由已知可得</p><p>$\\frac{K}{1+\\mathrm{e}^{-0.23(t-53)}}=0.95K$，</p><p>解得</p><p>$\\mathrm{e}^{-0.23(t-53)}=\\frac{1}{19}$.</p><p>两边取对数有</p><p>$-0.23(t-53)=-\\ln19$，</p><p>解得</p><p>$t\\approx66$.</p><p>故选：C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +214,9 @@
             "$(2,0)$"
           ],
           "answer": "B",
-          "solution": "<p>利用已知条件先求出 $D$，$E$ 的坐标，再由 $OD\\perp OE$ 得到斜率之间的关系，进而求出抛物线方程，最后根据抛物线的标准性质确定其焦点坐标.</p><p>将 $x=2$ 代入抛物线 $y^{2}=2px$，可得</p><p>$y=\\pm2\\sqrt{p}$.</p><p>因为 $OD\\perp OE$，可得</p><p>$k_{OD}\\cdot k_{OE}=\\frac{2\\sqrt{p}}{2}\\cdot\\frac{-2\\sqrt{p}}{2}=-1$.</p><p>即</p><p>$-p=-1$，</p><p>解得 $p=1$.</p><p>所以抛物线方程为</p><p>$y^{2}=2x$，</p><p>它的焦点坐标 $\\left( \\dfrac{1}{2},0 \\right)$.</p><p>故选：B.</p>"
+          "solution": "<p>利用已知条件先求出 $D$，$E$ 的坐标，再由 $OD\\perp OE$ 得到斜率之间的关系，进而求出抛物线方程，最后根据抛物线的标准性质确定其焦点坐标.</p><p>将 $x=2$ 代入抛物线 $y^{2}=2px$，可得</p><p>$y=\\pm2\\sqrt{p}$.</p><p>因为 $OD\\perp OE$，可得</p><p>$k_{OD}\\cdot k_{OE}=\\frac{2\\sqrt{p}}{2}\\cdot\\frac{-2\\sqrt{p}}{2}=-1$.</p><p>即</p><p>$-p=-1$，</p><p>解得 $p=1$.</p><p>所以抛物线方程为</p><p>$y^{2}=2x$，</p><p>它的焦点坐标 $\\left( \\dfrac{1}{2},0 \\right)$.</p><p>故选：B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +228,9 @@
             "$\\dfrac{19}{35}$"
           ],
           "answer": "D",
-          "solution": "<p>利用已知条件先求出 $|\\mathbf{a}+\\mathbf{b}|$，再由向量夹角的数量积公式计算 $\\cos\\angle(\\mathbf{a},\\mathbf{a}+\\mathbf{b})$ 的值.</p><p>向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $|\\mathbf{a}|=5$，$|\\mathbf{b}|=6$，$\\mathbf{a}\\cdot\\mathbf{b}=-6$，可得</p><p>$|\\mathbf{a}+\\mathbf{b}|=\\sqrt{\\mathbf{a}^{2}+2\\mathbf{a}\\cdot\\mathbf{b}+\\mathbf{b}^{2}}=\\sqrt{25-12+36}=7$.</p><p>所以 $\\cos\\angle(\\mathbf{a},\\mathbf{a}+\\mathbf{b})=\\frac{\\mathbf{a}\\cdot(\\mathbf{a}+\\mathbf{b})}{|\\mathbf{a}|\\cdot|\\mathbf{a}+\\mathbf{b}|}=\\frac{\\mathbf{a}^{2}+\\mathbf{a}\\cdot\\mathbf{b}}{5\\times7}=\\frac{25-6}{5\\times7}=\\frac{19}{35}$.</p><p>故选：D.</p>"
+          "solution": "<p>利用已知条件先求出 $|\\mathbf{a}+\\mathbf{b}|$，再由向量夹角的数量积公式计算 $\\cos\\angle(\\mathbf{a},\\mathbf{a}+\\mathbf{b})$ 的值.</p><p>向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $|\\mathbf{a}|=5$，$|\\mathbf{b}|=6$，$\\mathbf{a}\\cdot\\mathbf{b}=-6$，可得</p><p>$|\\mathbf{a}+\\mathbf{b}|=\\sqrt{\\mathbf{a}^{2}+2\\mathbf{a}\\cdot\\mathbf{b}+\\mathbf{b}^{2}}=\\sqrt{25-12+36}=7$.</p><p>所以 $\\cos\\angle(\\mathbf{a},\\mathbf{a}+\\mathbf{b})=\\frac{\\mathbf{a}\\cdot(\\mathbf{a}+\\mathbf{b})}{|\\mathbf{a}|\\cdot|\\mathbf{a}+\\mathbf{b}|}=\\frac{\\mathbf{a}^{2}+\\mathbf{a}\\cdot\\mathbf{b}}{5\\times7}=\\frac{25-6}{5\\times7}=\\frac{19}{35}$.</p><p>故选：D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,11 +242,13 @@
             "$\\dfrac{2}{3}$"
           ],
           "answer": "A",
-          "solution": "<p>先根据余弦定理求出 $AB$，再代入余弦定理求出结论.</p><p>在 $\\triangle ABC$ 中，$\\cos C=\\dfrac{2}{3}$，$AC=4$，$BC=3$，由余弦定理可得</p><p>$AB^{2}=AC^{2}+BC^{2}-2AC\\cdot BC\\cdot\\cos C=4^{2}+3^{2}-2\\times4\\times3\\times\\frac{2}{3}=9$.</p><p>故 $AB=3$.</p><p>所以</p><p>$\\cos B=\\frac{AB^{2}+BC^{2}-AC^{2}}{2AB\\cdot BC}=\\frac{3^{2}+3^{2}-4^{2}}{2\\times3\\times3}=\\frac{1}{9}$.</p><p>故选：A.</p>"
+          "solution": "<p>先根据余弦定理求出 $AB$，再代入余弦定理求出结论.</p><p>在 $\\triangle ABC$ 中，$\\cos C=\\dfrac{2}{3}$，$AC=4$，$BC=3$，由余弦定理可得</p><p>$AB^{2}=AC^{2}+BC^{2}-2AC\\cdot BC\\cdot\\cos C=4^{2}+3^{2}-2\\times4\\times3\\times\\frac{2}{3}=9$.</p><p>故 $AB=3$.</p><p>所以</p><p>$\\cos B=\\frac{AB^{2}+BC^{2}-AC^{2}}{2AB\\cdot BC}=\\frac{3^{2}+3^{2}-4^{2}}{2\\times3\\times3}=\\frac{1}{9}$.</p><p>故选：A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
-          "body": "<p>如图为某几何体的三视图，则该几何体的表面积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图为某几何体的三视图，则该几何体的表面积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/national_paper_3_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$6+4\\sqrt{2}$",
             "$4+4\\sqrt{2}$",
@@ -101,7 +256,9 @@
             "$4+2\\sqrt{3}$"
           ],
           "answer": "C",
-          "solution": "<p>先由三视图画出几何体的直观图，再结合三视图给出的边长数据求出各个面的面积，最后将各面的面积相加得到该几何体的表面积.</p><p>由三视图可知，几何体的直观图是正方体的一个角，如图：</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_science/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>$PA=AB=AC=2$，$PA$，$AB$，$AC$ 两两垂直，</p><p>故 $PB=BC=PC=2\\sqrt{2}$.</p><p>几何体的表面积为：</p><p>$3\\times\\frac{1}{2}\\times2\\times2+\\frac{\\sqrt{3}}{4}\\times(2\\sqrt{2})^{2}=6+2\\sqrt{3}$.</p><p>故选：C.</p>"
+          "solution": "<p>先由三视图画出几何体的直观图，再结合三视图给出的边长数据求出各个面的面积，最后将各面的面积相加得到该几何体的表面积.</p><p>由三视图可知，几何体的直观图是正方体的一个角，如图：</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/national_paper_3_science/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>$PA=AB=AC=2$，$PA$，$AB$，$AC$ 两两垂直，</p><p>故 $PB=BC=PC=2\\sqrt{2}$.</p><p>几何体的表面积为：</p><p>$3\\times\\frac{1}{2}\\times2\\times2+\\frac{\\sqrt{3}}{4}\\times(2\\sqrt{2})^{2}=6+2\\sqrt{3}$.</p><p>故选：C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +270,9 @@
             "$2$"
           ],
           "answer": "D",
-          "solution": "<p>利用两角和差的正切公式将已知等式展开化简，整理成关于 $\\tan\\theta$ 的一元二次方程后，再求出 $\\tan\\theta$ 的值.</p><p>由</p><p>$2\\tan\\theta-\\tan\\left( \\theta+\\frac{\\pi}{4}\\right)=7$，</p><p>得</p><p>$2\\tan\\theta-\\frac{\\tan\\theta+1}{1-\\tan\\theta}=7$.</p><p>即</p><p>$2\\tan\\theta-2\\tan^{2}\\theta-\\tan\\theta-1=7-7\\tan\\theta$，</p><p>得</p><p>$2\\tan^{2}\\theta-8\\tan\\theta+8=0$，</p><p>即</p><p>$\\tan^{2}\\theta-4\\tan\\theta+4=0$.</p><p>所以</p><p>$(\\tan\\theta-2)^{2}=0$，</p><p>则 $\\tan\\theta=2$.</p><p>故选：D.</p>"
+          "solution": "<p>利用两角和差的正切公式将已知等式展开化简，整理成关于 $\\tan\\theta$ 的一元二次方程后，再求出 $\\tan\\theta$ 的值.</p><p>由</p><p>$2\\tan\\theta-\\tan\\left( \\theta+\\frac{\\pi}{4}\\right)=7$，</p><p>得</p><p>$2\\tan\\theta-\\frac{\\tan\\theta+1}{1-\\tan\\theta}=7$.</p><p>即</p><p>$2\\tan\\theta-2\\tan^{2}\\theta-\\tan\\theta-1=7-7\\tan\\theta$，</p><p>得</p><p>$2\\tan^{2}\\theta-8\\tan\\theta+8=0$，</p><p>即</p><p>$\\tan^{2}\\theta-4\\tan\\theta+4=0$.</p><p>所以</p><p>$(\\tan\\theta-2)^{2}=0$，</p><p>则 $\\tan\\theta=2$.</p><p>故选：D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +284,9 @@
             "$y=\\dfrac{1}{2}x+\\dfrac{1}{2}$"
           ],
           "answer": "D",
-          "solution": "<p>根据直线 $l$ 与圆 $x^{2}+y^{2}=\\dfrac{1}{5}$ 相切，利用选项到圆心的距离等于半径，再将直线与曲线 $y=\\sqrt{x}$ 求一解可得答案.</p><p>直线 $l$ 与圆 $x^{2}+y^{2}=\\dfrac{1}{5}$ 相切，那么直线到圆心 $(0,0)$ 的距离等于半径 $\\dfrac{\\sqrt{5}}{5}$.</p><p>四个选项中，只有 A，D 满足题意.</p><p>对于 A 选项：$y=2x+1$ 与 $y=\\sqrt{x}$ 联立可得</p><p>$2x-\\sqrt{x}+1=0$，</p><p>此时无解.</p><p>对于 D 选项：$y=\\dfrac{1}{2}x+\\dfrac{1}{2}$ 与 $y=\\sqrt{x}$ 联立可得</p><p>$\\frac{1}{2}x-\\sqrt{x}+\\frac{1}{2}=0$，</p><p>此时解得 $x=1$.</p><p>所以直线 $l$ 与曲线 $y=\\sqrt{x}$ 和圆 $x^{2}+y^{2}=\\dfrac{1}{5}$ 都相切，方程为</p><p>$y=\\frac{1}{2}x+\\frac{1}{2}$.</p><p>故选：D.</p>"
+          "solution": "<p>根据直线 $l$ 与圆 $x^{2}+y^{2}=\\dfrac{1}{5}$ 相切，利用选项到圆心的距离等于半径，再将直线与曲线 $y=\\sqrt{x}$ 求一解可得答案.</p><p>直线 $l$ 与圆 $x^{2}+y^{2}=\\dfrac{1}{5}$ 相切，那么直线到圆心 $(0,0)$ 的距离等于半径 $\\dfrac{\\sqrt{5}}{5}$.</p><p>四个选项中，只有 A，D 满足题意.</p><p>对于 A 选项：$y=2x+1$ 与 $y=\\sqrt{x}$ 联立可得</p><p>$2x-\\sqrt{x}+1=0$，</p><p>此时无解.</p><p>对于 D 选项：$y=\\dfrac{1}{2}x+\\dfrac{1}{2}$ 与 $y=\\sqrt{x}$ 联立可得</p><p>$\\frac{1}{2}x-\\sqrt{x}+\\frac{1}{2}=0$，</p><p>此时解得 $x=1$.</p><p>所以直线 $l$ 与曲线 $y=\\sqrt{x}$ 和圆 $x^{2}+y^{2}=\\dfrac{1}{5}$ 都相切，方程为</p><p>$y=\\frac{1}{2}x+\\frac{1}{2}$.</p><p>故选：D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +298,9 @@
             "$8$"
           ],
           "answer": "A",
-          "solution": "<p>利用双曲线的定义，三角形的面积公式以及双曲线的离心率建立关于 $a$，$c$ 的方程组，再通过化简求出 $a$ 的值.</p><p>由题意，设 $PF_{2}=m$，$PF_{1}=n$，可得</p><p>$m-n=2a$，$\\frac{1}{2}mn=4$，$m^{2}+n^{2}=4c^{2}$，$e=\\frac{c}{a}=\\sqrt{5}$.</p><p>可得</p><p>$4c^{2}=16+4a^{2}$，</p><p>又</p><p>$c^{2}=5a^{2}$，</p><p>所以</p><p>$5a^{2}=4+a^{2}$.</p><p>解得 $a=1$.</p><p>故选：A.</p>"
+          "solution": "<p>利用双曲线的定义，三角形的面积公式以及双曲线的离心率建立关于 $a$，$c$ 的方程组，再通过化简求出 $a$ 的值.</p><p>由题意，设 $PF_{2}=m$，$PF_{1}=n$，可得</p><p>$m-n=2a$，$\\frac{1}{2}mn=4$，$m^{2}+n^{2}=4c^{2}$，$e=\\frac{c}{a}=\\sqrt{5}$.</p><p>可得</p><p>$4c^{2}=16+4a^{2}$，</p><p>又</p><p>$c^{2}=5a^{2}$，</p><p>所以</p><p>$5a^{2}=4+a^{2}$.</p><p>解得 $a=1$.</p><p>故选：A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +312,9 @@
             "$c<a<b$"
           ],
           "answer": "A",
-          "solution": "<p>根据 $\\dfrac{a}{b}$ 的大小，可得 $a<b$，然后由 $b=\\log_{8} 5<0.8$ 和 $c=\\log_{13}8>0.8$，得到 $c>b$，再确定 $a$，$b$，$c$ 的大小关系.</p><p>$\\frac{a}{b}=\\frac{\\log_{5} 3}{\\log_{8} 5}=\\log_{5} 3\\cdot\\log_{5} 8<\\frac{(\\log_{5} 3+\\log_{5} 8)^{2}}{4}=\\left( \\frac{\\log_{5} 24}{2}\\right)^{2}<1$，所以 $a<b$.</p><p>因为 $5^{5}<8^{4}$，所以</p><p>$5<4\\log_{5} 8$，</p><p>即</p><p>$\\log_{5} 8>1.25$，</p><p>从而</p><p>$b=\\log_{8} 5<0.8$.</p><p>因为 $13^{4}<8^{5}$，所以</p><p>$4<5\\log_{13}8$，</p><p>即</p><p>$c=\\log_{13}8>0.8$.</p><p>所以 $c>b>a$.</p><p>故选：A.</p>"
+          "solution": "<p>根据 $\\dfrac{a}{b}$ 的大小，可得 $a<b$，然后由 $b=\\log_{8} 5<0.8$ 和 $c=\\log_{13}8>0.8$，得到 $c>b$，再确定 $a$，$b$，$c$ 的大小关系.</p><p>$\\frac{a}{b}=\\frac{\\log_{5} 3}{\\log_{8} 5}=\\log_{5} 3\\cdot\\log_{5} 8<\\frac{(\\log_{5} 3+\\log_{5} 8)^{2}}{4}=\\left( \\frac{\\log_{5} 24}{2}\\right)^{2}<1$，所以 $a<b$.</p><p>因为 $5^{5}<8^{4}$，所以</p><p>$5<4\\log_{5} 8$，</p><p>即</p><p>$\\log_{5} 8>1.25$，</p><p>从而</p><p>$b=\\log_{8} 5<0.8$.</p><p>因为 $13^{4}<8^{5}$，所以</p><p>$4<5\\log_{13}8$，</p><p>即</p><p>$c=\\log_{13}8>0.8$.</p><p>所以 $c>b>a$.</p><p>故选：A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +324,38 @@
         {
           "num": 13,
           "body": "<p>若 $x$，$y$ 满足 $\\begin{cases}x+y\\ge0\\\\  2x-y\\ge0\\\\  x\\le1\\end{cases}$</p><p>，则 $z=3x+2y$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "7",
-          "solution": "<p>先根据约束条件画出可行域，再利用几何意义求最值；因为 $z=3x+2y$ 表示一族直线，所以通过考察这条直线在可行域内经过点时对应截距的变化，可以确定目标函数的最大值.</p><p>先根据约束条件画出可行域，由 $\\begin{cases}x=1\\\\  2x-y=0\\end{cases}$</p><p>解得 $A(1,2)$，</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_science/q13_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>如图，当直线 $z=3x+2y$ 过点 $A(1,2)$ 时，目标函数在 $y$ 轴上的截距取得最大值时，此时 $z$ 取得最大值，</p><p>即当 $x=1$，$y=2$ 时，</p><p>$z_{\\max}=3\\times1+2\\times2=7$.</p><p>故答案为：$7$.</p>"
+          "solution": "<p>先根据约束条件画出可行域，再利用几何意义求最值；因为 $z=3x+2y$ 表示一族直线，所以通过考察这条直线在可行域内经过点时对应截距的变化，可以确定目标函数的最大值.</p><p>先根据约束条件画出可行域，由 $\\begin{cases}x=1\\\\  2x-y=0\\end{cases}$</p><p>解得 $A(1,2)$，</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/national_paper_3_science/q13_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>如图，当直线 $z=3x+2y$ 过点 $A(1,2)$ 时，目标函数在 $y$ 轴上的截距取得最大值时，此时 $z$ 取得最大值，</p><p>即当 $x=1$，$y=2$ 时，</p><p>$z_{\\max}=3\\times1+2\\times2=7$.</p><p>故答案为：$7$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "$\\left( x^{2}+\\dfrac{2}{x}\\right)^{6}$ 的展开式中常数项是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>（用数字作答）.",
-          "choices": null,
+          "choices": [],
           "answer": "240",
-          "solution": "<p>先写出二项式展开式的通项公式，再令 $x$ 的幂指数等于 $0$ 求出对应项的序号，最后代入通项公式计算展开式中的常数项.</p><p>由于 $\\left( x^{2}+\\dfrac{2}{x}\\right)^{6}$ 的展开式的通项公式为</p><p>$T_{r+1}=C_{6}^{r}\\cdot2^{r}\\cdot x^{12-3r}$，</p><p>令</p><p>$12-3r=0$，</p><p>求得 $r=4$，故常数项的值等于</p><p>$C_{6}^{4}\\cdot2^{4}=240$.</p><p>故答案为：$240$.</p>"
+          "solution": "<p>先写出二项式展开式的通项公式，再令 $x$ 的幂指数等于 $0$ 求出对应项的序号，最后代入通项公式计算展开式中的常数项.</p><p>由于 $\\left( x^{2}+\\dfrac{2}{x}\\right)^{6}$ 的展开式的通项公式为</p><p>$T_{r+1}=C_{6}^{r}\\cdot2^{r}\\cdot x^{12-3r}$，</p><p>令</p><p>$12-3r=0$，</p><p>求得 $r=4$，故常数项的值等于</p><p>$C_{6}^{4}\\cdot2^{4}=240$.</p><p>故答案为：$240$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "已知圆锥的底面半径为 $1$，母线长为 $3$，则该圆锥内半径最大的球的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> $\\pi$.",
-          "choices": null,
-          "answer": "$\\dfrac{\\sqrt{2}}{3}\\pi$",
-          "solution": "<p>取圆锥的轴截面，设圆锥内半径最大的球在该截面内对应的圆与三角形的底边和两腰都相切，则该球就是圆锥的内切球；再由相似三角形求出该内切球的半径，最后利用球的体积公式计算所求体积.</p><p>因为圆锥内半径最大的球应该为该圆锥的内切球，</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_science/q15_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>如图，圆锥母线 $BS=3$，底面半径 $BC=1$，则其高</p><p>$SC=\\sqrt{BS^{2}-BC^{2}}=2\\sqrt{2}$.</p><p>不妨设该内切球与母线 $BS$ 切于点 $D$，令 $OD=OC=r$，由 $\\triangle SOD\\sim\\triangle SBC$，则</p><p>$\\frac{OD}{OS}=\\frac{BC}{BS}$，</p><p>即</p><p>$\\frac{r}{2\\sqrt{2}-r}=\\frac{1}{3}$，</p><p>解得</p><p>$r=\\frac{\\sqrt{2}}{2}$.</p><p>所以</p><p>$V=\\frac{4}{3}\\pi r^{3}=\\frac{\\sqrt{2}}{3}\\pi$.</p><p>故答案为：$\\dfrac{\\sqrt{2}}{3}\\pi$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{\\sqrt{2}}{3}\\pi\\)",
+          "solution": "<p>取圆锥的轴截面，设圆锥内半径最大的球在该截面内对应的圆与三角形的底边和两腰都相切，则该球就是圆锥的内切球；再由相似三角形求出该内切球的半径，最后利用球的体积公式计算所求体积.</p><p>因为圆锥内半径最大的球应该为该圆锥的内切球，</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/national_paper_3_science/q15_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>如图，圆锥母线 $BS=3$，底面半径 $BC=1$，则其高</p><p>$SC=\\sqrt{BS^{2}-BC^{2}}=2\\sqrt{2}$.</p><p>不妨设该内切球与母线 $BS$ 切于点 $D$，令 $OD=OC=r$，由 $\\triangle SOD\\sim\\triangle SBC$，则</p><p>$\\frac{OD}{OS}=\\frac{BC}{BS}$，</p><p>即</p><p>$\\frac{r}{2\\sqrt{2}-r}=\\frac{1}{3}$，</p><p>解得</p><p>$r=\\frac{\\sqrt{2}}{2}$.</p><p>所以</p><p>$V=\\frac{4}{3}\\pi r^{3}=\\frac{\\sqrt{2}}{3}\\pi$.</p><p>故答案为：$\\dfrac{\\sqrt{2}}{3}\\pi$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>关于函数 $f(x)=\\sin x+\\dfrac{1}{\\sin x}$ 有如下四个命题：</p><ol class=\"enumerate\"><li><p>$f(x)$ 的图象关于 $y$ 轴对称；</p></li><li><p>$f(x)$ 的图象关于原点对称；</p></li><li><p>$f(x)$ 的图象关于直线 $x=\\dfrac{\\pi}{2}$ 对称；</p></li><li><p>$f(x)$ 的最小值为 $2$.</p></li></ol><p>其中所有真命题的序号是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
-          "answer": "$②③$",
-          "solution": "<p>根据函数奇偶性的定义，图象对称性的判定以及函数值范围的分析，分别判断四个命题的真假，再写出所有真命题的序号.</p><p>对于 ①，由 $\\sin x\\ne0$ 可得函数的定义域为 $\\{x\\mid x\\ne k\\pi,k\\in \\mathbb{Z}\\}$，故定义域关于原点对称，</p><p>$f(-x)=\\sin(-x)+\\frac{1}{\\sin(-x)}=-\\sin x-\\frac{1}{\\sin x}=-f(x)$.</p><p>所以该函数为奇函数，关于原点对称，所以 ① 错 ② 对；</p><p>对于 ③，由</p><p>$f(\\pi-x)=\\sin(\\pi-x)+\\frac{1}{\\sin(\\pi-x)}=\\sin x+\\frac{1}{\\sin x}=f(x)$，</p><p>所以该函数 $f(x)$ 关于 $x=\\dfrac{\\pi}{2}$ 对称，③ 对；</p><p>对于 ④，令 $t=\\sin x$，则 $t\\in[-1,0)\\cup(0,1]$，由双勾函数 $g(t)=t+\\dfrac{1}{t}$ 的性质，可知</p><p>$g(t)=t+\\frac{1}{t}\\in(-\\infty,-2]\\cup[2,+\\infty)$，</p><p>所以 $f(x)$ 无最小值，④ 错；</p><p>故答案为：$②③$.</p>"
+          "choices": [],
+          "answer": "\\(②③\\)",
+          "solution": "<p>根据函数奇偶性的定义，图象对称性的判定以及函数值范围的分析，分别判断四个命题的真假，再写出所有真命题的序号.</p><p>对于 ①，由 $\\sin x\\ne0$ 可得函数的定义域为 $\\{x\\mid x\\ne k\\pi,k\\in \\mathbb{Z}\\}$，故定义域关于原点对称，</p><p>$f(-x)=\\sin(-x)+\\frac{1}{\\sin(-x)}=-\\sin x-\\frac{1}{\\sin x}=-f(x)$.</p><p>所以该函数为奇函数，关于原点对称，所以 ① 错 ② 对；</p><p>对于 ③，由</p><p>$f(\\pi-x)=\\sin(\\pi-x)+\\frac{1}{\\sin(\\pi-x)}=\\sin x+\\frac{1}{\\sin x}=f(x)$，</p><p>所以该函数 $f(x)$ 关于 $x=\\dfrac{\\pi}{2}$ 对称，③ 对；</p><p>对于 ④，令 $t=\\sin x$，则 $t\\in[-1,0)\\cup(0,1]$，由双勾函数 $g(t)=t+\\dfrac{1}{t}$ 的性质，可知</p><p>$g(t)=t+\\frac{1}{t}\\in(-\\infty,-2]\\cup[2,+\\infty)$，</p><p>所以 $f(x)$ 无最小值，④ 错；</p><p>故答案为：$②③$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,37 +365,47 @@
         {
           "num": 17,
           "body": "<p>设数列 $\\{a_{n}\\}$ 满足 $a_{1}=3$，$a_{n+1}=3a_{n}-4n$.</p><ol class=\"enumerate\"><li><p>计算 $a_{2}$，$a_{3}$，猜想 $\\{a_{n}\\}$ 的通项公式并加以证明；</p></li><li><p>求数列 $\\{2^{n}a_{n}\\}$ 的前 $n$ 项和 $S_{n}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>数列 $\\{a_{n}\\}$ 满足 $a_{1}=3$，$a_{n+1}=3a_{n}-4n$，</p><p>则 $a_{2}=3a_{1}-4=5$，$a_{3}=3a_{2}-4\\times2=7$，...，</p><p>猜想 $\\{a_{n}\\}$ 的通项公式为 $a_{n}=2n+1$.</p><p>证明如下：$1^{\\odot}$ 当 $n=1$ 时，$a_{1}=3=2\\times1+1$；当 $n=2$ 时，$a_{2}=5=2\\times2+1$；当 $n=3$ 时，$a_{3}=7=2\\times3+1$，所以猜想在 $n=1$，$2$，$3$ 时成立，</p><p>$2^{\\odot}$ 假设 $n=k$ 时，$a_{k}=2k+1$（$k\\in \\mathbb{N}^{+}$）成立，</p><p>当 $n=k+1$ 时，</p><p>$a_{k+1}=3a_{k}-4k=3(2k+1)-4k=2k+3=2(k+1)+1$，</p><p>故 $n=k+1$ 时成立，</p><p>由$1^{\\odot}$，$2^{\\odot}$知，$a_{n}=2n+1$，猜想成立，</p><p>所以 $\\{a_{n}\\}$ 的通项公式 $a_{n}=2n+1$.</p></li><li><p>令</p><p>$b_{n}=2^{n}a_{n}=(2n+1)\\cdot2^{n}$，</p><p>则数列 $\\{2^{n}a_{n}\\}$ 的前 $n$ 项和</p><p>$S_{n}=3\\times2^{1}+5\\times2^{2}+\\cdots+(2n+1)2^{n}$，$\\cdots①$</p><p>两边同乘 $2$ 得，</p><p>$2S_{n}=3\\times2^{2}+5\\times2^{3}+\\cdots+(2n+1)2^{n+1}$，$\\cdots②$</p><p>①－② 得，</p><p>$-S_{n}=3\\times2+2\\times2^{2}+\\cdots+2\\times2^{n}-(2n+1)2^{n+1}=6+\\frac{8(1-2^{n-1})}{1-2}-(2n+1)2^{n+1}$，</p><p>所以</p><p>$S_{n}=(2n-1)2^{n+1}+2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>数列 $\\{a_{n}\\}$ 满足 $a_{1}=3$，$a_{n+1}=3a_{n}-4n$，</p><p>则 $a_{2}=3a_{1}-4=5$，$a_{3}=3a_{2}-4\\times2=7$，...，</p><p>猜想 $\\{a_{n}\\}$ 的通项公式为 $a_{n}=2n+1$.</p><p>证明如下：$1^{\\odot}$ 当 $n=1$ 时，$a_{1}=3=2\\times1+1$；当 $n=2$ 时，$a_{2}=5=2\\times2+1$；当 $n=3$ 时，$a_{3}=7=2\\times3+1$，所以猜想在 $n=1$，$2$，$3$ 时成立，</p><p>$2^{\\odot}$ 假设 $n=k$ 时，$a_{k}=2k+1$（$k\\in \\mathbb{N}^{+}$）成立，</p><p>当 $n=k+1$ 时，</p><p>$a_{k+1}=3a_{k}-4k=3(2k+1)-4k=2k+3=2(k+1)+1$，</p><p>故 $n=k+1$ 时成立，</p><p>由$1^{\\odot}$，$2^{\\odot}$知，$a_{n}=2n+1$，猜想成立，</p><p>所以 $\\{a_{n}\\}$ 的通项公式 $a_{n}=2n+1$.</p></li><li><p>令</p><p>$b_{n}=2^{n}a_{n}=(2n+1)\\cdot2^{n}$，</p><p>则数列 $\\{2^{n}a_{n}\\}$ 的前 $n$ 项和</p><p>$S_{n}=3\\times2^{1}+5\\times2^{2}+\\cdots+(2n+1)2^{n}$，$\\cdots①$</p><p>两边同乘 $2$ 得，</p><p>$2S_{n}=3\\times2^{2}+5\\times2^{3}+\\cdots+(2n+1)2^{n+1}$，$\\cdots②$</p><p>①－② 得，</p><p>$-S_{n}=3\\times2+2\\times2^{2}+\\cdots+2\\times2^{n}-(2n+1)2^{n+1}=6+\\frac{8(1-2^{n-1})}{1-2}-(2n+1)2^{n+1}$，</p><p>所以</p><p>$S_{n}=(2n-1)2^{n+1}+2$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>某学生兴趣小组随机调查了某市 $100$ 天中每天的空气质量等级和当天到某公园锻炼的人次，整理数据得到下表（单位：天）：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">锻炼人次 </td><td style=\"text-align: center\"> $[0,200]$ </td><td style=\"text-align: center\"> $(200,400]$ </td><td style=\"text-align: center\"> $(400,600]$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>空气质量等级 $1$（优） </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 16 </td><td style=\"text-align: center\"> 25 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>空气质量等级 $2$（良） </td><td style=\"text-align: center\"> 5 </td><td style=\"text-align: center\"> 10 </td><td style=\"text-align: center\"> 12 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>空气质量等级 $3$（轻度污染） </td><td style=\"text-align: center\"> 6 </td><td style=\"text-align: center\"> 7 </td><td style=\"text-align: center\"> 8 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>空气质量等级 $4$（中度污染） </td><td style=\"text-align: center\"> 7 </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 0</td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>分别估计该市一天的空气质量等级为 $1$，$2$，$3$，$4$ 的概率；</p></li><li><p>求一天中到该公园锻炼的平均人次的估计值（同一组中的数据用该组区间的中点值为代表）；</p></li><li><p>若某天的空气质量等级为 $1$ 或 $2$，则称这天“空气质量好”；若某天的空气质量等级为 $3$ 或 $4$，则称这天“空气质量不好”. 根据所给数据，完成下面的 $2\\times2$ 列联表，并根据列联表，判断是否有 $95\\%$ 的把握认为一天中到该公园锻炼的人次与该市当天的空气质量有关？</p></li></ol><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"></td><td style=\"text-align: center\"> 人次$\\le400$ </td><td style=\"text-align: center\"> 人次$>400$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>空气质量好 </td><td style=\"text-align: center\"> </td><td style=\"text-align: center\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>空气质量不好 </td><td style=\"text-align: center\"> </td><td style=\"text-align: center\"></td></tr></tbody></table></center><p>附：$K^{2}=\\dfrac{n(ad-bc)^2}{(a+b)(c+d)(a+c)(b+d)}$.</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$P(K^{2}\\ge k)$ </td><td style=\"text-align: center\"> 0.050 </td><td style=\"text-align: center\"> 0.010 </td><td style=\"text-align: center\"> 0.001 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$k$ </td><td style=\"text-align: center\"> 3.841 </td><td style=\"text-align: center\"> 6.635 </td><td style=\"text-align: center\"> 10.828</td></tr></tbody></table></center>",
-          "choices": null,
+          "body": "<p>某学生兴趣小组随机调查了某市 $100$ 天中每天的空气质量等级和当天到某公园锻炼的人次，整理数据得到下表（单位：天）：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">锻炼人次 </td><td style=\"text-align: center\"> $[0,200]$ </td><td style=\"text-align: center\"> $(200,400]$ </td><td style=\"text-align: center\"> $(400,600]$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">空气质量等级 $1$（优） </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 16 </td><td style=\"text-align: center\"> 25 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">空气质量等级 $2$（良） </td><td style=\"text-align: center\"> 5 </td><td style=\"text-align: center\"> 10 </td><td style=\"text-align: center\"> 12 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">空气质量等级 $3$（轻度污染） </td><td style=\"text-align: center\"> 6 </td><td style=\"text-align: center\"> 7 </td><td style=\"text-align: center\"> 8 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">空气质量等级 $4$（中度污染） </td><td style=\"text-align: center\"> 7 </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 0</td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>分别估计该市一天的空气质量等级为 $1$，$2$，$3$，$4$ 的概率；</p></li><li><p>求一天中到该公园锻炼的平均人次的估计值（同一组中的数据用该组区间的中点值为代表）；</p></li><li><p>若某天的空气质量等级为 $1$ 或 $2$，则称这天“空气质量好”；若某天的空气质量等级为 $3$ 或 $4$，则称这天“空气质量不好”. 根据所给数据，完成下面的 $2\\times2$ 列联表，并根据列联表，判断是否有 $95\\%$ 的把握认为一天中到该公园锻炼的人次与该市当天的空气质量有关？</p></li></ol><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"></td><td style=\"text-align: center\"> 人次$\\le400$ </td><td style=\"text-align: center\"> 人次$>400$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">空气质量好 </td><td style=\"text-align: center\"> </td><td style=\"text-align: center\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">空气质量不好 </td><td style=\"text-align: center\"> </td><td style=\"text-align: center\"></td></tr></tbody></table></center><p>附：$K^{2}=\\dfrac{n(ad-bc)^2}{(a+b)(c+d)(a+c)(b+d)}$.</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$P(K^{2}\\ge k)$ </td><td style=\"text-align: center\"> 0.050 </td><td style=\"text-align: center\"> 0.010 </td><td style=\"text-align: center\"> 0.001 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$k$ </td><td style=\"text-align: center\"> 3.841 </td><td style=\"text-align: center\"> 6.635 </td><td style=\"text-align: center\"> 10.828</td></tr></tbody></table></center>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>该市一天的空气质量等级为 $1$ 的概率为 $\\frac{43}{100}$，等级为 $2$ 的概率为 $\\frac{27}{100}$，等级为 $3$ 的概率为 $\\frac{21}{100}$，等级为 $4$ 的概率为 $\\frac{9}{100}$.</p></li><li><p>由题意可得：一天中到该公园锻炼的平均人次的估计值为：</p><p>$\\bar{x}=100\\times0.20+300\\times0.35+500\\times0.45=350$.</p></li><li><p>根据所给数据，可得下面的 $2\\times2$ 列联表，</p><p><span class=\"macro macro-examdisplayarray\"></span>c|cc|c<br>& <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">人次</span></span><span class=\"macro macro-le\"></span>400 & <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">人次</span></span>>400 & <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">总计</span></span> <br class=\"linebreak\"><br><span class=\"macro macro-hline\"></span><br><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">空气质量好</span></span> & 33 & 37 & 70 <br class=\"linebreak\"><br><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">空气质量不好</span></span> & 22 & 8 & 30 <br class=\"linebreak\"><br><span class=\"macro macro-hline\"></span><br><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">总计</span></span> & 55 & 45 & 100<br></p><p>由表中数据可得：</p><p>$K^{2}=\\frac{100(33\\times8-37\\times22)^{2}}{70\\times30\\times55\\times45}\\approx5.820>3.841$，</p><p>所以有 $95\\%$ 的把握认为一天中到该公园锻炼的人次与该市当天的空气质量有关.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>该市一天的空气质量等级为 $1$ 的概率为 $\\frac{43}{100}$，等级为 $2$ 的概率为 $\\frac{27}{100}$，等级为 $3$ 的概率为 $\\frac{21}{100}$，等级为 $4$ 的概率为 $\\frac{9}{100}$.</p></li><li><p>由题意可得：一天中到该公园锻炼的平均人次的估计值为：</p><p>$\\bar{x}=100\\times0.20+300\\times0.35+500\\times0.45=350$.</p></li><li><p>根据所给数据，可得下面的 $2\\times2$ 列联表，</p><p><span class=\"macro macro-examdisplayarray\"></span>c|cc|c<br>& <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">人次</span></span><span class=\"macro macro-le\"></span>400 & <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">人次</span></span>>400 & <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">总计</span></span> <br class=\"linebreak\"><br><span class=\"macro macro-hline\"></span><br><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">空气质量好</span></span> & 33 & 37 & 70 <br class=\"linebreak\"><br><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">空气质量不好</span></span> & 22 & 8 & 30 <br class=\"linebreak\"><br><span class=\"macro macro-hline\"></span><br><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">总计</span></span> & 55 & 45 & 100<br></p><p>由表中数据可得：</p><p>$K^{2}=\\frac{100(33\\times8-37\\times22)^{2}}{70\\times30\\times55\\times45}\\approx5.820>3.841$，</p><p>所以有 $95\\%$ 的把握认为一天中到该公园锻炼的人次与该市当天的空气质量有关.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>如图，在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，点 $E$，$F$ 分别在棱 $DD_{1}$，$BB_{1}$ 上，且 $2DE=ED_{1}$，$BF=2FB_{1}$.</p><ol class=\"enumerate\"><li><p>证明：点 $C_{1}$ 在平面 $AEF$ 内；</p></li><li><p>若 $AB=2$，$AD=1$，$AA_{1}=3$，求二面角 $A-EF-A_{1}$ 的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，点 $E$，$F$ 分别在棱 $DD_{1}$，$BB_{1}$ 上，且 $2DE=ED_{1}$，$BF=2FB_{1}$.</p><ol class=\"enumerate\"><li><p>证明：点 $C_{1}$ 在平面 $AEF$ 内；</p></li><li><p>若 $AB=2$，$AD=1$，$AA_{1}=3$，求二面角 $A-EF-A_{1}$ 的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/national_paper_3_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>证明：在 $AA_{1}$ 上取点 $M$，使得 $A_{1}M=2AM$，连接 $EM$，$MB_{1}$，$EC_{1}$，$FC_{1}$，</p><p>在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，有 $DD_{1}//AA_{1}//BB_{1}$，且 $DD_{1}=AA_{1}=BB_{1}$.</p><p>又 $2DE=ED_{1}$，$A_{1}M=2AM$，$BF=2FB_{1}$，所以 $DE=AM=FB_{1}$.</p><p>所以四边形 $B_{1}FAM$ 和四边形 $EDAM$ 都是平行四边形.</p><p>所以 $AF//MB_{1}$，且 $AF=MB_{1}$，$AD//ME$，且 $AD=ME$.</p><p>又在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，有 $AD//B_{1}C_{1}$，且 $AD=B_{1}C_{1}$，</p><p>所以 $B_{1}C_{1}//ME$ 且 $B_{1}C_{1}=ME$，则四边形 $B_{1}C_{1}EM$ 为平行四边形，</p><p>所以 $EC_{1}//MB_{1}$，且 $EC_{1}=MB_{1}$.</p><p>又 $AF//MB_{1}$，且 $AF=MB_{1}$，所以 $AF//EC_{1}$，且 $AF=EC_{1}$，</p><p>则四边形 $AFC_{1}E$ 为平行四边形，</p><p>所以点 $C_{1}$ 在平面 $AEF$ 内.</p></li><li><p>在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，以 $C_{1}$ 为坐标原点，分别以 $C_{1}D_{1}$，$C_{1}B_{1}$，$C_{1}C$ 所在直线为 $x$，$y$，$z$ 轴建立空间直角坐标系.</p><p>因为 $AB=2$，$AD=1$，$AA_{1}=3$，$2DE=ED_{1}$，$BF=2FB_{1}$，</p><p>所以 $A(2,1,3)$，$E(2,0,2)$，$F(0,1,1)$，$A_{1}(2,1,0)$.</p><p>于是 $\\overrightarrow{EF}=(-2,1,-1)$，$\\overrightarrow{AE}=(0,-1,-1)$，$\\overrightarrow{A_1E}=(0,-1,2)$.</p><p>设平面 $AEF$ 的一个法向量为 $\\mathbf{n}_{1}=(x_{1},y_{1},z_{1})$.</p><p>则 $\\begin{cases}\\mathbf{n}_{1}\\cdot\\overrightarrow{EF}=-2x_{1}+y_{1}-z_{1}=0\\\\  \\mathbf{n}_{1}\\cdot\\overrightarrow{AE}=-y_{1}-z_{1}=0\\end{cases}$</p><p>取 $x_{1}=1$，得 $\\mathbf{n}_{1}=(1,1,-1)$；</p><p>设平面 $A_{1}EF$ 的一个法向量为 $\\mathbf{n}_{2}=(x_{2},y_{2},z_{2})$.</p><p>则 $\\begin{cases}\\mathbf{n}_{2}\\cdot\\overrightarrow{EF}=-2x_{2}+y_{2}-z_{2}=0\\\\  \\mathbf{n}_{2}\\cdot\\overrightarrow{A_1E}=-y_{2}+2z_{2}=0\\end{cases}$</p><p>取 $x_{2}=1$，得 $\\mathbf{n}_{2}=(1,4,2)$.</p><p>所以 $\\cos\\langle \\mathbf{n}_{1},\\mathbf{n}_{2}\\rangle=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\cdot|\\mathbf{n}_{2}|}=\\frac{|1+4-2|}{\\sqrt{3}\\cdot\\sqrt{21}}=\\frac{\\sqrt{7}}{7}$.</p><p>设二面角 $A-EF-A_{1}$ 为 $\\theta$，则</p><p>$\\sin\\theta=\\sqrt{1-\\frac{1}{7}}=\\frac{\\sqrt{42}}{7}$.</p><p>所以二面角 $A-EF-A_{1}$ 的正弦值为 $\\dfrac{\\sqrt{42}}{7}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>证明：在 $AA_{1}$ 上取点 $M$，使得 $A_{1}M=2AM$，连接 $EM$，$MB_{1}$，$EC_{1}$，$FC_{1}$，</p><p>在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，有 $DD_{1}//AA_{1}//BB_{1}$，且 $DD_{1}=AA_{1}=BB_{1}$.</p><p>又 $2DE=ED_{1}$，$A_{1}M=2AM$，$BF=2FB_{1}$，所以 $DE=AM=FB_{1}$.</p><p>所以四边形 $B_{1}FAM$ 和四边形 $EDAM$ 都是平行四边形.</p><p>所以 $AF//MB_{1}$，且 $AF=MB_{1}$，$AD//ME$，且 $AD=ME$.</p><p>又在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，有 $AD//B_{1}C_{1}$，且 $AD=B_{1}C_{1}$，</p><p>所以 $B_{1}C_{1}//ME$ 且 $B_{1}C_{1}=ME$，则四边形 $B_{1}C_{1}EM$ 为平行四边形，</p><p>所以 $EC_{1}//MB_{1}$，且 $EC_{1}=MB_{1}$.</p><p>又 $AF//MB_{1}$，且 $AF=MB_{1}$，所以 $AF//EC_{1}$，且 $AF=EC_{1}$，</p><p>则四边形 $AFC_{1}E$ 为平行四边形，</p><p>所以点 $C_{1}$ 在平面 $AEF$ 内.</p></li><li><p>在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，以 $C_{1}$ 为坐标原点，分别以 $C_{1}D_{1}$，$C_{1}B_{1}$，$C_{1}C$ 所在直线为 $x$，$y$，$z$ 轴建立空间直角坐标系.</p><p>因为 $AB=2$，$AD=1$，$AA_{1}=3$，$2DE=ED_{1}$，$BF=2FB_{1}$，</p><p>所以 $A(2,1,3)$，$E(2,0,2)$，$F(0,1,1)$，$A_{1}(2,1,0)$.</p><p>于是 $\\overrightarrow{EF}=(-2,1,-1)$，$\\overrightarrow{AE}=(0,-1,-1)$，$\\overrightarrow{A_1E}=(0,-1,2)$.</p><p>设平面 $AEF$ 的一个法向量为 $\\mathbf{n}_{1}=(x_{1},y_{1},z_{1})$.</p><p>则 $\\begin{cases}\\mathbf{n}_{1}\\cdot\\overrightarrow{EF}=-2x_{1}+y_{1}-z_{1}=0\\\\  \\mathbf{n}_{1}\\cdot\\overrightarrow{AE}=-y_{1}-z_{1}=0\\end{cases}$</p><p>取 $x_{1}=1$，得 $\\mathbf{n}_{1}=(1,1,-1)$；</p><p>设平面 $A_{1}EF$ 的一个法向量为 $\\mathbf{n}_{2}=(x_{2},y_{2},z_{2})$.</p><p>则 $\\begin{cases}\\mathbf{n}_{2}\\cdot\\overrightarrow{EF}=-2x_{2}+y_{2}-z_{2}=0\\\\  \\mathbf{n}_{2}\\cdot\\overrightarrow{A_1E}=-y_{2}+2z_{2}=0\\end{cases}$</p><p>取 $x_{2}=1$，得 $\\mathbf{n}_{2}=(1,4,2)$.</p><p>所以 $\\cos\\langle \\mathbf{n}_{1},\\mathbf{n}_{2}\\rangle=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\cdot|\\mathbf{n}_{2}|}=\\frac{|1+4-2|}{\\sqrt{3}\\cdot\\sqrt{21}}=\\frac{\\sqrt{7}}{7}$.</p><p>设二面角 $A-EF-A_{1}$ 为 $\\theta$，则</p><p>$\\sin\\theta=\\sqrt{1-\\frac{1}{7}}=\\frac{\\sqrt{42}}{7}$.</p><p>所以二面角 $A-EF-A_{1}$ 的正弦值为 $\\dfrac{\\sqrt{42}}{7}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知椭圆 $C:\\dfrac{x^2}{25}+\\dfrac{y^2}{m^2}=1$（$0<m<5$）的离心率为 $\\dfrac{\\sqrt{15}}{4}$，$A$，$B$ 分别为 $C$ 的左，右顶点.</p><ol class=\"enumerate\"><li><p>求 $C$ 的方程；</p></li><li><p>若点 $P$ 在 $C$ 上，点 $Q$ 在直线 $x=6$ 上，且 $|BP|=|BQ|$，$BP\\perp BQ$，求 $\\triangle APQ$ 的面积.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由</p><p>$e=\\frac{c}{a}$</p><p>得</p><p>$e^{2}=1-\\frac{b^{2}}{a^{2}}$，</p><p>即</p><p>$\\frac{15}{16}=1-\\frac{m^{2}}{25}$，</p><p>所以</p><p>$m^{2}=\\frac{25}{16}$.</p><p>故椭圆 $C$ 的方程是</p><p>$\\frac{x^{2}}{25}+\\frac{16y^{2}}{25}=1$.</p></li><li><p>由（1）知 $A(-5,0)$，设 $P(s,t)$，点 $Q(6,n)$.</p><p>根据对称性，只需考虑 $n>0$ 的情况. 此时 $-5<s<5$，$0<t\\le \\dfrac{5}{4}$.</p><p>因为 $|BP|=|BQ|$，所以</p><p>$(s-5)^{2}+t^{2}=n^{2}+1 ①$</p><p>又因为 $BP\\perp BQ$，所以</p><p>$s-5+nt=0 ②$</p><p>且</p><p>$\\frac{s^{2}}{25}+\\frac{16t^{2}}{25}=1 ③$</p><p>联立 ①②③，得</p>\n$$\n\\begin{cases}s=3,\\\\\n\nt=1,\\\\\n\nn=2\\end{cases}   \\text{或}   \\begin{cases}s=-3,\\\\  t=1,\\\\  n=8.\\end{cases}\n$$\n<p>当 $s=3$，$t=1$，$n=2$ 时，$P(3,1)$，$Q(6,2)$，而 $A(-5,0)$，</p><p>$\\overrightarrow{AP}=(8,1)$，$\\overrightarrow{AQ}=(11,2)$.</p><p>所以</p><p>$S_{\\triangle APQ}=\\frac{1}{2}\\left| 8\\times2-11\\times1 \\right|=\\frac{5}{2}$.</p><p>当 $s=-3$，$t=1$，$n=8$ 时，$P(-3,1)$，$Q(6,8)$，而 $A(-5,0)$，</p><p>$\\overrightarrow{AP}=(2,1)$，$\\overrightarrow{AQ}=(11,8)$.</p><p>所以</p><p>$S_{\\triangle APQ}=\\frac{1}{2}\\left| 2\\times8-11\\times1 \\right|=\\frac{5}{2}$.</p><p>综上，$\\triangle APQ$ 的面积是 $\\dfrac{5}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由</p><p>$e=\\frac{c}{a}$</p><p>得</p><p>$e^{2}=1-\\frac{b^{2}}{a^{2}}$，</p><p>即</p><p>$\\frac{15}{16}=1-\\frac{m^{2}}{25}$，</p><p>所以</p><p>$m^{2}=\\frac{25}{16}$.</p><p>故椭圆 $C$ 的方程是</p><p>$\\frac{x^{2}}{25}+\\frac{16y^{2}}{25}=1$.</p></li><li><p>由（1）知 $A(-5,0)$，设 $P(s,t)$，点 $Q(6,n)$.</p><p>根据对称性，只需考虑 $n>0$ 的情况. 此时 $-5<s<5$，$0<t\\le \\dfrac{5}{4}$.</p><p>因为 $|BP|=|BQ|$，所以</p><p>$(s-5)^{2}+t^{2}=n^{2}+1 ①$</p><p>又因为 $BP\\perp BQ$，所以</p><p>$s-5+nt=0 ②$</p><p>且</p><p>$\\frac{s^{2}}{25}+\\frac{16t^{2}}{25}=1 ③$</p><p>联立 ①②③，得</p>\n$$\n\\begin{cases}s=3,\\\\\n\nt=1,\\\\\n\nn=2\\end{cases}   \\text{或}   \\begin{cases}s=-3,\\\\  t=1,\\\\  n=8.\\end{cases}\n$$\n<p>当 $s=3$，$t=1$，$n=2$ 时，$P(3,1)$，$Q(6,2)$，而 $A(-5,0)$，</p><p>$\\overrightarrow{AP}=(8,1)$，$\\overrightarrow{AQ}=(11,2)$.</p><p>所以</p><p>$S_{\\triangle APQ}=\\frac{1}{2}\\left| 8\\times2-11\\times1 \\right|=\\frac{5}{2}$.</p><p>当 $s=-3$，$t=1$，$n=8$ 时，$P(-3,1)$，$Q(6,8)$，而 $A(-5,0)$，</p><p>$\\overrightarrow{AP}=(2,1)$，$\\overrightarrow{AQ}=(11,8)$.</p><p>所以</p><p>$S_{\\triangle APQ}=\\frac{1}{2}\\left| 2\\times8-11\\times1 \\right|=\\frac{5}{2}$.</p><p>综上，$\\triangle APQ$ 的面积是 $\\dfrac{5}{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>设函数 $f(x)=x^{3}+bx+c$，曲线 $y=f(x)$ 在点 $\\left( \\dfrac{1}{2},f\\left( \\dfrac{1}{2}\\right) \\right)$ 处的切线与 $y$ 轴垂直.</p><ol class=\"enumerate\"><li><p>求 $b$；</p></li><li><p>若 $f(x)$ 有一个绝对值不大于 $1$ 的零点，证明：$f(x)$ 所有零点的绝对值都不大于 $1$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $f(x)=x^{3}+bx+c$，得</p><p>$f'(x)=3x^{2}+b$.</p><p>由题意可得</p><p>$f'\\left( \\frac{1}{2}\\right)=3\\times\\left( \\frac{1}{2}\\right)^{2}+b=0$，</p><p>即</p><p>$b=-\\frac{3}{4}$.</p></li><li><p>证明：设 $x_{0}$ 为 $f(x)$ 的一个零点，根据题意，</p><p>$f(x_{0})=x_{0}^{3}-\\frac{3}{4}x_{0}+c=0$，</p><p>且 $|x_{0}|\\le1$，则</p><p>$c=-x_{0}^{3}+\\frac{3}{4}x_{0}$.</p><p>由 $|x_{0}|\\le1$，令</p><p>$c(x)=-x^{3}+\\frac{3}{4}x$（$-1\\le x\\le1$），</p><p>则</p><p>$c'(x)=-3x^{2}+\\frac{3}{4}=-3\\left( x+\\frac{1}{2}\\right)\\left( x-\\frac{1}{2}\\right)$.</p><p>当 $x\\in\\left( -1,-\\dfrac{1}{2}\\right)\\cup\\left( \\dfrac{1}{2},1 \\right)$ 时，$c'(x)<0$，当 $x\\in\\left( -\\dfrac{1}{2},\\dfrac{1}{2}\\right)$ 时，$c'(x)>0$.</p><p>可知 $c(x)$ 在 $\\left( -1,-\\dfrac{1}{2}\\right)$，$\\left( \\dfrac{1}{2},1 \\right)$ 上单调递减，在 $\\left( -\\dfrac{1}{2},\\dfrac{1}{2}\\right)$ 上单调递增.</p><p>又 $c(-1)=\\frac{1}{4}$，$c(1)=-\\frac{1}{4}$，$c\\left( -\\frac{1}{2}\\right)=-\\frac{1}{4}$，$c\\left( \\frac{1}{2}\\right)=\\frac{1}{4}$，</p><p>所以</p><p>$-\\frac{1}{4}\\le c\\le\\frac{1}{4}$.</p><p>设 $x_{1}$ 为 $f(x)$ 的零点，则必有</p><p>$f(x_{1})=x_{1}^{3}-\\frac{3}{4}x_{1}+c=0$，</p><p>即</p><p>$-\\frac{1}{4}\\le -x_{1}^{3}+\\frac{3}{4}x_{1}\\le\\frac{1}{4}$.</p><p>所以 $\\begin{cases}4x_{1}^{3}-3x_{1}-1=(x_{1}-1)(2x_{1}+1)^{2}\\le0,\\\\  4x_{1}^{3}-3x_{1}+1=(x_{1}+1)(2x_{1}-1)^{2}\\ge0\\end{cases}$</p><p>可得 $-1\\le x_{1}\\le1$，即 $|x_{1}|\\le1$.</p><p>所以 $f(x)$ 所有零点的绝对值都不大于 $1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $f(x)=x^{3}+bx+c$，得</p><p>$f'(x)=3x^{2}+b$.</p><p>由题意可得</p><p>$f'\\left( \\frac{1}{2}\\right)=3\\times\\left( \\frac{1}{2}\\right)^{2}+b=0$，</p><p>即</p><p>$b=-\\frac{3}{4}$.</p></li><li><p>证明：设 $x_{0}$ 为 $f(x)$ 的一个零点，根据题意，</p><p>$f(x_{0})=x_{0}^{3}-\\frac{3}{4}x_{0}+c=0$，</p><p>且 $|x_{0}|\\le1$，则</p><p>$c=-x_{0}^{3}+\\frac{3}{4}x_{0}$.</p><p>由 $|x_{0}|\\le1$，令</p><p>$c(x)=-x^{3}+\\frac{3}{4}x$（$-1\\le x\\le1$），</p><p>则</p><p>$c'(x)=-3x^{2}+\\frac{3}{4}=-3\\left( x+\\frac{1}{2}\\right)\\left( x-\\frac{1}{2}\\right)$.</p><p>当 $x\\in\\left( -1,-\\dfrac{1}{2}\\right)\\cup\\left( \\dfrac{1}{2},1 \\right)$ 时，$c'(x)<0$，当 $x\\in\\left( -\\dfrac{1}{2},\\dfrac{1}{2}\\right)$ 时，$c'(x)>0$.</p><p>可知 $c(x)$ 在 $\\left( -1,-\\dfrac{1}{2}\\right)$，$\\left( \\dfrac{1}{2},1 \\right)$ 上单调递减，在 $\\left( -\\dfrac{1}{2},\\dfrac{1}{2}\\right)$ 上单调递增.</p><p>又 $c(-1)=\\frac{1}{4}$，$c(1)=-\\frac{1}{4}$，$c\\left( -\\frac{1}{2}\\right)=-\\frac{1}{4}$，$c\\left( \\frac{1}{2}\\right)=\\frac{1}{4}$，</p><p>所以</p><p>$-\\frac{1}{4}\\le c\\le\\frac{1}{4}$.</p><p>设 $x_{1}$ 为 $f(x)$ 的零点，则必有</p><p>$f(x_{1})=x_{1}^{3}-\\frac{3}{4}x_{1}+c=0$，</p><p>即</p><p>$-\\frac{1}{4}\\le -x_{1}^{3}+\\frac{3}{4}x_{1}\\le\\frac{1}{4}$.</p><p>所以 $\\begin{cases}4x_{1}^{3}-3x_{1}-1=(x_{1}-1)(2x_{1}+1)^{2}\\le0,\\\\  4x_{1}^{3}-3x_{1}+1=(x_{1}+1)(2x_{1}-1)^{2}\\ge0\\end{cases}$</p><p>可得 $-1\\le x_{1}\\le1$，即 $|x_{1}|\\le1$.</p><p>所以 $f(x)$ 所有零点的绝对值都不大于 $1$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -232,16 +415,20 @@
         {
           "num": 22,
           "body": "<p>在直角坐标系 $xOy$ 中，曲线 $C$ 的参数方程为 $x=2-t-t^{2}$，$y=2-3t+t^{2}$（$t$ 为参数且 $t\\ne1$），$C$ 与坐标轴交于 $A$，$B$ 两点.</p><ol class=\"enumerate\"><li><p>求 $|AB|$；</p></li><li><p>以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系，求直线 $AB$ 的极坐标方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x=0$ 时，可得 $t=-2$（$1$ 舍去），代入 $y=2-3t+t^{2}$，可得 $y=12$.</p><p>当 $y=0$ 时，可得 $t=2$（$1$ 舍去），代入 $x=2-t-t^{2}$，可得 $x=-4$.</p><p>所以曲线 $C$ 与坐标轴的交点为 $(-4,0)$，$(0,12)$，故</p><p>$|AB|=\\sqrt{(-4)^{2}+12^{2}}=4\\sqrt{10}$.</p></li><li><p>由（1）可得直线 $AB$ 过点 $(0,12)$，$(-4,0)$，所以直线 $AB$ 的方程为</p><p>$\\frac{y}{12}-\\frac{x}{4}=1$，</p><p>即</p><p>$3x-y+12=0$.</p><p>由</p><p>$x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，</p><p>可得直线 $AB$ 的极坐标方程为</p><p>$3\\rho\\cos\\theta-\\rho\\sin\\theta+12=0$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x=0$ 时，可得 $t=-2$（$1$ 舍去），代入 $y=2-3t+t^{2}$，可得 $y=12$.</p><p>当 $y=0$ 时，可得 $t=2$（$1$ 舍去），代入 $x=2-t-t^{2}$，可得 $x=-4$.</p><p>所以曲线 $C$ 与坐标轴的交点为 $(-4,0)$，$(0,12)$，故</p><p>$|AB|=\\sqrt{(-4)^{2}+12^{2}}=4\\sqrt{10}$.</p></li><li><p>由（1）可得直线 $AB$ 过点 $(0,12)$，$(-4,0)$，所以直线 $AB$ 的方程为</p><p>$\\frac{y}{12}-\\frac{x}{4}=1$，</p><p>即</p><p>$3x-y+12=0$.</p><p>由</p><p>$x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，</p><p>可得直线 $AB$ 的极坐标方程为</p><p>$3\\rho\\cos\\theta-\\rho\\sin\\theta+12=0$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "<p>设 $a$，$b$，$c\\in \\mathbb{R}$，$a+b+c=0$，$abc=1$.</p><ol class=\"enumerate\"><li><p>证明：$ab+bc+ca<0$；</p></li><li><p>用 $\\max\\{a,b,c\\}$ 表示 $a$，$b$，$c$ 中的最大值，证明：$\\max\\{a,b,c\\}\\ge \\sqrt[3]{4}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $a+b+c=0$，所以</p><p>$(a+b+c)^{2}=0$，</p><p>即</p><p>$a^{2}+b^{2}+c^{2}+2ab+2ac+2bc=0$.</p><p>所以</p><p>$2ab+2ac+2bc=-(a^{2}+b^{2}+c^{2})$.</p><p>又因为 $abc=1$，所以 $a$，$b$，$c$ 均不为 $0$，从而</p><p>$2ab+2ac+2bc=-(a^{2}+b^{2}+c^{2})<0$.</p><p>故</p><p>$ab+ac+bc<0$.</p></li><li><p>不妨设 $a\\le b<0<c<\\sqrt[3]{4}$，则</p><p>$ab=\\frac{1}{c}>\\frac{1}{\\sqrt[3]{4}}$.</p><p>又因为 $a+b+c=0$，所以</p><p>$-a-b=c<\\sqrt[3]{4}$.</p><p>而</p><p>$-a-b\\ge2\\sqrt{ab}>2\\sqrt{\\frac{1}{\\sqrt[3]{4}}}=\\sqrt[3]{4}$，</p><p>与假设矛盾.</p><p>故</p><p>$\\max\\{a,b,c\\}\\ge \\sqrt[3]{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $a+b+c=0$，所以</p><p>$(a+b+c)^{2}=0$，</p><p>即</p><p>$a^{2}+b^{2}+c^{2}+2ab+2ac+2bc=0$.</p><p>所以</p><p>$2ab+2ac+2bc=-(a^{2}+b^{2}+c^{2})$.</p><p>又因为 $abc=1$，所以 $a$，$b$，$c$ 均不为 $0$，从而</p><p>$2ab+2ac+2bc=-(a^{2}+b^{2}+c^{2})<0$.</p><p>故</p><p>$ab+ac+bc<0$.</p></li><li><p>不妨设 $a\\le b<0<c<\\sqrt[3]{4}$，则</p><p>$ab=\\frac{1}{c}>\\frac{1}{\\sqrt[3]{4}}$.</p><p>又因为 $a+b+c=0$，所以</p><p>$-a-b=c<\\sqrt[3]{4}$.</p><p>而</p><p>$-a-b\\ge2\\sqrt{ab}>2\\sqrt{\\frac{1}{\\sqrt[3]{4}}}=\\sqrt[3]{4}$，</p><p>与假设矛盾.</p><p>故</p><p>$\\max\\{a,b,c\\}\\ge \\sqrt[3]{4}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

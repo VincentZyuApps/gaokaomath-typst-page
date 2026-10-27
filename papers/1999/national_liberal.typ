@@ -13,7 +13,9 @@
 #problem(1)[
 如图，#mi(`I`) 是全集，#mi(`M`)，#mi(`P`)，#mi(`S`) 是 #mi(`I`) 的 #mi(`3\text{ \text{个}}`) 子集，则阴影部分所表示的集合是（ ）
 
-[float=inline,width=0.38\linewidth]img/1999/national_liberal/q1_fig1.png
+
+#align(center)[#image("/papers/1999/img/national_liberal/q1_fig1.png", width: 28%)]
+
   #choices([#mi(`(M\cap P)\cap S`)], [#mi(`(M\cap P)\cup S`)], [#mi(`(M\cap P)\cap \overline{S}`)], [#mi(`(M\cap P)\cup \overline{S}`)], cols: 1)
 ]
 
@@ -162,7 +164,9 @@
 #problem(10)[
 如图，在多面体 #mi(`ABCDEF`) 中，已知面 #mi(`ABCD`) 是边长为 #mi(`3`) 的正方形，#mi(`EF\parallel AB`)，#mi(`EF = \frac{3}{2}`)，#mi(`EF`) 与面 #mi(`AC`) 的距离为 #mi(`2`)，则该多面体的体积为（ ）
 
-[float=inline,width=0.38\linewidth]img/1999/national_liberal/q10_fig1.png
+
+#align(center)[#image("/papers/1999/img/national_liberal/q10_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{9}{2}`)], [#mi(`5`)], [#mi(`6`)], [#mi(`\frac{15}{2}`)], cols: 2)
 ]
 
@@ -474,7 +478,9 @@ a_{1}+a_{3}+\cdots+a_{2n-1}=\frac{3}{4}\cdot\frac{1-\left(\frac{1}{16}\right)^{n
 
 
 
-[float=inline,width=0.38\linewidth]img/1999/national_liberal/q22_fig1.png
+
+#align(center)[#image("/papers/1999/img/national_liberal/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -502,7 +508,9 @@ a_{1}+a_{3}+\cdots+a_{2n-1}=\frac{3}{4}\cdot\frac{1-\left(\frac{1}{16}\right)^{n
 
 \hline
 
-[float=inline,width=0.90\linewidth]img/1999/national_liberal/q23_fig1.png
+
+#align(center)[#image("/papers/1999/img/national_liberal/q23_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -512,7 +520,9 @@ a_{1}+a_{3}+\cdots+a_{2n-1}=\frac{3}{4}\cdot\frac{1-\left(\frac{1}{16}\right)^{n
 #problem(24)[
 如图，给出定点 #mi(`A(a,0)`)（#mi(`a>0`)）和直线 #mi(`l\colon x=-1`). #mi(`B`) 是直线 #mi(`l`) 上的动点，#mi(`\angle BOA`) 的角平分线交 #mi(`AB`) 于点 #mi(`C`). 求点 #mi(`C`) 的轨迹方程，并讨论方程表示的曲线类型与 #mi(`a`) 值的关系.
 
-[float=inline,width=0.33\linewidth]img/1999/national_liberal/q24_fig1.png
+
+#align(center)[#image("/papers/1999/img/national_liberal/q24_fig1.png", width: 28%)]
+
 ]
 
 #solution[

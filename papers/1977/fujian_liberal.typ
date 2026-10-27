@@ -22,7 +22,9 @@
 
 
 
-[width=6.0cm]img/1977/fujian_liberal/q1_fig1.png
+
+#align(center)[#image("/papers/1977/img/fujian_liberal/q1_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -174,7 +176,9 @@ r=\sqrt{16+\frac{64}{3\alpha^2\tan^2\alpha}}\approx5.77863853
 #problem(6)[
 某大队在农田基本建设的规划中，要测定被障碍物隔开的两点 #mi(`A`) 和 #mi(`P`) 之间的距离，他们土法上马，在障碍物的两侧，选取两点 #mi(`B`) 和 #mi(`C`)（如图），测得 #mi(`AB=AC=50\mathrm{~m}`)，#mi(`\angle BAC=60^{\circ}`)，#mi(`\angle ABP=120^{\circ}`)，#mi(`\angle ACP=135^{\circ}`)，求 #mi(`A`) 和 #mi(`P`) 之间的距离. （答案可用最简根式表示）
 
-[width=6.4cm]img/1977/fujian_liberal/q6_fig1.png
+
+#align(center)[#image("/papers/1977/img/fujian_liberal/q6_fig1.png", width: 28%)]
+
 ]
 
 #solution[

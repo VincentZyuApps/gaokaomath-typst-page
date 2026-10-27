@@ -172,7 +172,9 @@
 #problem(15)[
 如图，经过正三棱柱底面一边 #mi(`AB`)，作与底面成 #mi(`30^{\circ}`) 角的平面，已知截面三角形 #mi(`ABD`) 的面积为 #mi(`32\mathrm{~cm}^{2}`)，求截得的三棱锥 #mi(`D - ABC`) 的体积.
 
-[max width=0.34\linewidth]img/1984/national_liberal/q15_fig1.png
+
+#align(center)[#image("/papers/1984/img/national_liberal/q15_fig1.png", width: 28%)]
+
 ]
 
 #solution[

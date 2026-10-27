@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,450 +11,632 @@
 #part-header("试题部分")
 
 #problem(1)[
-$y=2 sqrt(x^2)$ 和 $y=2 x$ 是不是同一个函数？为什么？
+#mi(`y=2\sqrt{x^{2}}`) 和 #mi(`y=2x`) 是不是同一个函数？为什么？
 ]
 
 #solution[
-两式的定义域都是 $RR$，但对任意 $x in RR$，有
+两式的定义域都是 #mi(`\mathbb{R}`)，但对任意 #mi(`x\in\mathbb{R}`)，有
 
-$ 2 sqrt(x^2)=2| x|=\b e g i n{c a s e s} 2 x, & x\g e q 0,\\ -2 x, & x<0. \e n d{c a s e s} $
 
-当 $x=-1$ 时，$2 sqrt(x^2)=2$，而 $2 x=-2$，两式的函数值不相等. 因此 $y=2 sqrt(x^2)$ 与 $y=2 x$ 不是同一个函数.
+#align(center)[#mitex(`
+2\sqrt{x^{2}}=2\lvert x\rvert=\begin{cases}2x,&x\geq 0,\\  -2x,&x<0.\end{cases}
+`)]
+
+
+当 #mi(`x=-1`) 时，#mi(`2\sqrt{x^{2}}=2`)，而 #mi(`2x=-2`)，两式的函数值不相等. 因此 #mi(`y=2\sqrt{x^{2}}`) 与 #mi(`y=2x`) 不是同一个函数.
 ]
 
 #problem(2)[
 确定下列各式的符号：
 
 
-+ (1) $1- sin 800 ""^ degree$；
-+ (2) $cos 20 ""^ degree - sin 20 ""^ degree$；
-+ (3) $tan 288 ""^ degree dot tan 510 ""^ degree$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 因为 $800^ degree =2 times 360 ""^ degree +80^ degree$，所以
-$1- sin 800 ""^ degree =1- sin 80 ""^ degree$. 又因为 $0< sin 80 ""^ degree <1$，故 $1- sin 800 ""^ degree >0$.
-+ (2) $cos 20 ""^ degree = sin 70 ""^ degree$，所以
-$cos 20 ""^ degree - sin 20 ""^ degree = sin 70 ""^ degree - sin 20 ""^ degree$. 由于 $0<20^ degree <70^ degree <90^ degree$，正弦函数在该区间上递增，故 $sin 70 ""^ degree - sin 20 ""^ degree >0$.
-+ (3) 由正切函数的周期性和诱导公式，
-
-$ tan 288 ""^ degree = tan (360^ degree -72^ degree )=- tan 72 ""^ degree <0 $
-
-
-$ tan 510 ""^ degree = tan (360^ degree +150^ degree )= tan 150 ""^ degree =- tan 30 ""^ degree <0 $
-
-两个负数的乘积为正，所以 $tan 288 ""^ degree dot tan 510 ""^ degree >0$.
++ (1) 
++ (2)
 ]
 
 #problem(3)[
-已知 $x$，$y$ 都是实数，且 $(2 x-1)^2+(y-8)^2\l e q 0$，求 $log _(2) x y$？
+已知 #mi(`x`)，#mi(`y`) 都是实数，且 #mi(`\left(2x-1\right)^{2}+\left(y-8\right)^{2}\leq 0`)，求 #mi(`\log_{2}xy`)？
 ]
 
 #solution[
 两个平方数都非负，故
-$(2 x-1)^2+(y-8)^2\g e q 0$. 结合题设不等式，只能有
 
-$ (2 x-1)^2+(y-8)^2=0 $
+#mi(`\left(2x-1\right)^{2}+\left(y-8\right)^{2}\geq 0`). 结合题设不等式，只能有
+
+
+#align(center)[#mitex(`
+\left(2x-1\right)^{2}+\left(y-8\right)^{2}=0
+`)]
+
 
 非负数之和为零时每一项都为零，因此
-$2 x-1=0$，$y-8=0$，即 $x=(1)/(2)$，$y=8$. 于是 $x y=4>0$，对数有意义，且
 
-$ log _(2) x y= log _2((1)/(2) times 8 )= log _2 4=2 $
+#mi(`2x-1=0`)，#mi(`y-8=0`)，即 #mi(`x=\frac{1}{2}`)，#mi(`y=8`). 于是 #mi(`xy=4>0`)，对数有意义，且
+
+
+#align(center)[#mitex(`
+\log_{2}xy=\log_{2}\left(\frac{1}{2}\times 8\right)=\log_{2} 4=2
+`)]
 ]
 
 #problem(4)[
-$sqrt(( log _3 20)^2-6 log _3 20+9)$？
+#mi(`\sqrt{\left(\log_{3} 20\right)^{2}-6\log_{3} 20+9}`)？
 ]
 
 #solution[
 原式
 
-$ =sqrt(( log _3 20-3)^2)=| log _3 20-3| $
 
-因为底数 $3>1$，对数函数 $log _(3) x$ 递增，且
-$3= log _3 27> log _3 20$，所以 $log _3 20-3<0$. 因此
+#align(center)[#mitex(`
+=\sqrt{\left(\log_{3} 20-3\right)^{2}}=\left\lvert\log_{3} 20-3\right\rvert
+`)]
 
-$ | log _3 20-3|=3- log _3 20 $
+
+因为底数 #mi(`3>1`)，对数函数 #mi(`\log_{3}x`) 递增，且
+
+#mi(`3=\log_{3} 27>\log_{3} 20`)，所以 #mi(`\log_{3} 20-3<0`). 因此
+
+
+#align(center)[#mitex(`
+\left\lvert\log_{3} 20-3\right\rvert=3-\log_{3} 20
+`)]
 ]
 
 #problem(5)[
-已知 $log _(1.5)7=a$，$log _(1.5)8=b$，求 $log _(56)1.5$？
+已知 #mi(`\log_{1.5}7=a`)，#mi(`\log_{1.5}8=b`)，求 #mi(`\log_{56}1.5`)？
 ]
 
 #solution[
-因为 $1.5>0$ 且 $1.5 != 1$，可用换底公式. 又 $56=7 times 8$，所以
+因为 #mi(`1.5>0`) 且 #mi(`1.5\neq 1`)，可用换底公式. 又 #mi(`56=7\times 8`)，所以
 
-$ log _(56)1.5=(log _(1.5){1}.5)/(log _(1.5)56)=(1)/(log _(1.5)(7 times 8 ))=(1)/(log _(1.5)7+ log _(1.5)8)=(1)/(a+b) $
+
+#align(center)[#mitex(`
+\log_{56}1.5=\frac{\log_{1.5}1.5}{\log_{1.5}56}=\frac{1}{\log_{1.5}(7\times 8)}=\frac{1}{\log_{1.5}7+\log_{1.5}8}=\frac{1}{a+b}
+`)]
 ]
 
 #problem(6)[
 化简：
-$((x^(-1)-1)/(x^(-1)+1)-(x^(-1)+1)/(x^(-1)-1)) dot (2^(-1)-4^(-1)x^(-1)-4^(-1)x)$.
+
+#mi(`\left(\frac{x^{-1}-1}{x^{-1}+1}-\frac{x^{-1}+1}{x^{-1}-1}\right)\cdot\left(2^{-1}-4^{-1}x^{-1}-4^{-1}x\right)`).
 ]
 
 #solution[
-原式有意义需满足 $x != 0$，$x^(-1)+1 != 0$，$x^(-1)-1 != 0$，即
-$x in RR \m a t h b i n{\b a c k s l a s h}\{-1,0,1\}$. 在此条件下，
+原式有意义需满足 #mi(`x\neq 0`)，#mi(`x^{-1}+1\neq 0`)，#mi(`x^{-1}-1\neq 0`)，即
 
-$ (x^(-1)-1)/(x^(-1)+1)-(x^(-1)+1)/(x^(-1)-1)=(1-x)/(1+x)-(1+x)/(1-x)=((1-x)^2-(1+x)^2)/(1-x^2)=(-4 x)/(1-x^2) $
+#mi(`x\in\mathbb{R}\mathbin{\backslash}\{-1,0,1\}`). 在此条件下，
+
+
+#align(center)[#mitex(`
+\frac{x^{-1}-1}{x^{-1}+1}-\frac{x^{-1}+1}{x^{-1}-1}=\frac{1-x}{1+x}-\frac{1+x}{1-x}=\frac{(1-x)^{2}-(1+x)^{2}}{1-x^{2}}=\frac{-4x}{1-x^{2}}
+`)]
+
 
 并且
 
-$ 2^(-1)-4^(-1)x^(-1)-4^(-1)x =(1)/(2)-(1)/(4 x)-(x)/(4)=(2 x-1-x^2)/(4 x)=-((x-1)^2)/(4 x) $
+
+#align(center)[#mitex(`
+2^{-1}-4^{-1}x^{-1}-4^{-1}x  =\frac{1}{2}-\frac{1}{4x}-\frac{x}{4}=\frac{2x-1-x^{2}}{4x}=-\frac{(x-1)^{2}}{4x}
+`)]
+
 
 所以原式
 
-$ =(-4 x)/(1-x^2) dot (-((x-1)^2)/(4 x)) =((x-1)^2)/(1-x^2)=((1-x)^2)/((1-x)(1+x))=(1-x)/(1+x) $
+
+#align(center)[#mitex(`
+=\frac{-4x}{1-x^{2}}\cdot\left(-\frac{(x-1)^{2}}{4x}\right)  =\frac{(x-1)^{2}}{1-x^{2}}=\frac{(1-x)^{2}}{(1-x)(1+x)}=\frac{1-x}{1+x}
+`)]
 ]
 
 #problem(7)[
-$h$ 为何数时，方程 $2 h x^2+(8 h+1)x=-8 h$ 有两个不相等的实根？
+#mi(`h`) 为何数时，方程 #mi(`2hx^{2}+\left(8h+1\right)x=-8h`) 有两个不相等的实根？
 ]
 
 #solution[
 将方程移项得
 
-$ 2 h x^2+(8 h+1)x+8 h=0 $
 
-要使它是关于 $x$ 的二次方程，必须有 $2 h != 0$，即 $h != 0$. 此时判别式为
+#align(center)[#mitex(`
+2hx^{2}+\left(8h+1\right)x+8h=0
+`)]
 
-$ Delta =(8 h+1)^2-4 times 2 h times 8 h=16 h+1 $
 
-方程有两个不相等的实根，当且仅当 $Delta >0$，即 $h>-(1)/(16)$. 再结合 $h != 0$，得到
+要使它是关于 #mi(`x`) 的二次方程，必须有 #mi(`2h\neq 0`)，即 #mi(`h\neq 0`). 此时判别式为
 
-$ -(1)/(16)<h<0 "或"h>0 $
+
+#align(center)[#mitex(`
+\Delta=\left(8h+1\right)^{2}-4\times 2h\times 8h=16h+1
+`)]
+
+
+方程有两个不相等的实根，当且仅当 #mi(`\Delta>0`)，即 #mi(`h>-\frac{1}{16}`). 再结合 #mi(`h\neq 0`)，得到
+
+
+#align(center)[#mitex(`
+-\frac{1}{16}<h<0\quad\text{\text{或}}\quad h>0
+`)]
 ]
 
 #problem(8)[
 证明恒等式：
-$(2 sin theta dot sin ((pi)/(2)- theta )+ sin ((3 pi)/(2)+ theta ))/(1+ sin ( pi + theta )+ sin ""^2( pi - theta )- sin ""^2((pi)/(2)+ theta ))= tan ((pi)/(2)- theta )$.
+
+#mi(`\frac{2\sin\theta\cdot\sin\left(\frac{\pi}{2}-\theta\right)+\sin\left(\frac{3\pi}{2}+\theta\right)}{1+\sin\left(\pi+\theta\right)+\sin^{2}\left(\pi-\theta\right)-\sin^{2}\left(\frac{\pi}{2}+\theta\right)}=\tan\left(\frac{\pi}{2}-\theta\right)`).
 ]
 
 #solution[
 先考察左式的定义条件. 利用诱导公式，分母为
 
-$ 1- sin theta + sin ""^2 theta - cos ""^2 theta =2 sin ""^2 theta - sin theta = sin theta (2 sin theta -1) $
 
-因此在左式有意义时，$sin theta != 0$ 且 $2 sin theta -1 != 0$. 在此条件下，左式的分子为
+#align(center)[#mitex(`
+1-\sin\theta+\sin^{2}\theta-\cos^{2}\theta  =2\sin^{2}\theta-\sin\theta  =\sin\theta\left(2\sin\theta-1\right)
+`)]
 
-$ 2 sin theta cos theta - cos theta =(2 sin theta -1) cos theta $
+
+因此在左式有意义时，#mi(`\sin\theta\neq 0`) 且 #mi(`2\sin\theta-1\neq 0`). 在此条件下，左式的分子为
+
+
+#align(center)[#mitex(`
+2\sin\theta\cos\theta-\cos\theta  =\left(2\sin\theta-1\right)\cos\theta
+`)]
+
 
 于是左式
 
-$ =((2 sin theta -1) cos theta)/(sin theta (2 sin theta -1))=(cos theta)/(sin theta) $
 
-另一方面，$sin theta != 0$ 时
+#align(center)[#mitex(`
+=\frac{\left(2\sin\theta-1\right)\cos\theta}{\sin\theta\left(2\sin\theta-1\right)}=\frac{\cos\theta}{\sin\theta}
+`)]
 
-$ tan ((pi)/(2)- theta )=(cos theta)/(sin theta) $
+
+另一方面，#mi(`\sin\theta\neq 0`) 时
+
+
+#align(center)[#mitex(`
+\tan\left(\frac{\pi}{2}-\theta\right)=\frac{\cos\theta}{\sin\theta}
+`)]
+
 
 所以左式等于右式，恒等式得证.
 ]
 
 #problem(9)[
-+ (1) 三个半径都是 $R$ 的圆两两外切，求过三个切点的三个圆弧所围成图形的面积.
-+ (2) 已知菱形面积为 $392~c m^2$，有一角为 $150^ degree$，求边长.
++ (1)
 ]
 
 #solution[
-+ (1) 设三个圆心为 $A$，$B$，$C$，三个切点分别为 $D$，$E$，$F$. 由于三个圆半径相等且两两外切，$A B=B C=C A=2 R$，所以 $triangle A B C$ 是边长为 $2 R$ 的等边三角形，且三个圆弧分别对应圆心角 $60^ degree$ 的三个扇形.
-
-由图可知，所求面积 $s$ 等于 $triangle A B C$ 的面积减去三个扇形 $A D F$，$B D E$，$C E F$ 的面积.
-
-    
-#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q9_solution_fig1.png", width: 4.8cm)]
-
-
-因此
-
-$ s=(1)/(2) dot 2 R dot 2 R dot sin 60 ""^ degree -3 dot (pi R^2)/(6)=sqrt(3)R^2-(pi)/(2)R^2 =(sqrt(3)-(pi)/(2))R^2 $
-+ (2) 菱形的邻角互补，所以若 $angle B=150^ degree$，则 $angle A=30^ degree$. 以对角线分成的两个全等三角形计算面积，得到
-
-    
-#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q9_solution_fig2.png", width: 5.6cm)]
-
-
-
-$ 392=2((1)/(2)A B dot A D dot sin A) $
-
-因为菱形的四边相等，$A B=A D$，代入 $angle A=30^ degree$ 得
-
-$ 392=A B^2 sin 30 ""^ degree =(1)/(2)A B^2 $
-
-所以 $A B^2=784$，且边长 $A B=sqrt(784)=28~c m$.
-
-答：菱形边长为 $28~c m$.
++ (1)
 ]
 
 #problem(10)[
-在高 $150~m$ 的山顶上测得正南两船的俯角分别为 $15^ degree$ 和 $75^ degree$，求两船的距离.
+在高 #mi(`150\mathrm{~m}`) 的山顶上测得正南两船的俯角分别为 #mi(`15^{\circ}`) 和 #mi(`75^{\circ}`)，求两船的距离.
 ]
 
 #solution[
-设山顶为 $P$，山脚为 $C$，较远的船为 $A$，较近的船为 $B$. 因为两船在正南方向，$A$，$B$，$C$ 共线，且 $P C=150~m$. 俯角等于相应的仰角，所以
-$A C=150 cot 15^ degree$，$B C=150 cot 75^ degree =150 tan 15 ""^ degree$.
+设山顶为 #mi(`P`)，山脚为 #mi(`C`)，较远的船为 #mi(`A`)，较近的船为 #mi(`B`). 因为两船在正南方向，#mi(`A`)，#mi(`B`)，#mi(`C`) 共线，且 #mi(`PC=150\mathrm{~m}`). 俯角等于相应的仰角，所以
 
-    
-#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q10_solution_fig1.png", width: 5.8cm)]
+#mi(`AC=150\cot 15^{\circ}`)，#mi(`BC=150\cot 75^{\circ}=150\tan 15^{\circ}`).
 
+ 
+#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q10_solution_fig1.png", width: 28%)]
+ 
 
 于是
 
-$ A B=A C-B C=150( cot 15^ degree - tan 15 ""^ degree ) $
 
-利用 $cot alpha =(cos alpha)/(sin alpha)$ 和 $tan alpha =(sin alpha)/(cos alpha)$，有
+#align(center)[#mitex(`
+AB=AC-BC=150\left(\cot 15^{\circ}-\tan 15^{\circ}\right)
+`)]
 
-$ cot 15^ degree - tan 15 ""^ degree =(cos ""^2 15^ degree - sin ""^2 15^ degree)/(sin 15 ""^ degree cos 15 ""^ degree)=(cos 30 ""^ degree)/((1)/(2) sin 30 ""^ degree)=((sqrt(3))/(2))/((1)/(4))=2 sqrt(3) $
+
+利用 #mi(`\cot\alpha=\frac{\cos\alpha}{\sin\alpha}`) 和 #mi(`\tan\alpha=\frac{\sin\alpha}{\cos\alpha}`)，有
+
+
+#align(center)[#mitex(`
+\cot 15^{\circ}-\tan 15^{\circ}  =\frac{\cos^{2} 15^{\circ}-\sin^{2} 15^{\circ}}{\sin 15^{\circ}\cos 15^{\circ}}=\frac{\cos 30^{\circ}}{\frac{1}{2}\sin 30^{\circ}}=\frac{\frac{\sqrt{3}}{2}}{\frac{1}{4}}=2\sqrt{3}
+`)]
+
 
 因此
 
-$ A B=300 sqrt(3)~m approx 519 .6~m $
+
+#align(center)[#mitex(`
+AB=300\sqrt{3}\mathrm{~m}\approx 519.6\mathrm{~m}
+`)]
 
 
-答：两船的距离为 $300 sqrt(3)~m$，约为 $519.6~m$.
+答：两船的距离为 #mi(`300\sqrt{3}\mathrm{~m}`)，约为 #mi(`519.6\mathrm{~m}`).
 ]
 
 #problem(11)[
-有某种农药一桶，倒出 $8" 升"$ 后，用水补满；然后又倒出 $4" 升"$，再用水补满. 于是测得桶中农药与水之比为 $18:7$，求木桶的容积.
+有某种农药一桶，倒出 #mi(`8\text{ \text{升}}`) 后，用水补满；然后又倒出 #mi(`4\text{ \text{升}}`)，再用水补满. 于是测得桶中农药与水之比为 #mi(`18:7`)，求木桶的容积.
 ]
 
 #solution[
-设木桶容积为 $x" 升"$. 由题意必须有 $x>8$. 第一次倒出 $8" 升"$ 农药并补水后，桶内农药和水的体积分别为 $x-8$ 和 $8$，所以混合液中农药、水的体积分数分别为 $(x-8)/(x)$ 和 $(8)/(x)$.
+设木桶容积为 #mi(`x\text{ \text{升}}`). 由题意必须有 #mi(`x>8`). 第一次倒出 #mi(`8\text{ \text{升}}`) 农药并补水后，桶内农药和水的体积分别为 #mi(`x-8`) 和 #mi(`8`)，所以混合液中农药、水的体积分数分别为 #mi(`\frac{x-8}{x}`) 和 #mi(`\frac{8}{x}`).
 
-第二次倒出 $4" 升"$ 混合液，倒出的农药为 $(x-8)/(x) times 4$，倒出的水为 $(8)/(x) times 4$. 再次补入 $4" 升"$ 水后，桶内农药和水的体积分别为
-
-$ x-8-(x-8)/(x) times 4 =(x^2-12 x+32)/(x) $
+第二次倒出 #mi(`4\text{ \text{升}}`) 混合液，倒出的农药为 #mi(`\frac{x-8}{x}\times 4`)，倒出的水为 #mi(`\frac{8}{x}\times 4`). 再次补入 #mi(`4\text{ \text{升}}`) 水后，桶内农药和水的体积分别为
 
 
-$ 8-(8)/(x) times 4 +4 =(12 x-32)/(x) $
+#align(center)[#mitex(`
+x-8-\frac{x-8}{x}\times 4  =\frac{x^{2}-12x+32}{x}
+`)]
 
-由农药与水之比为 $18:7$，得
 
-$ (x^2-12 x+32)/(12 x-32)=(18)/(7) $
+
+#align(center)[#mitex(`
+8-\frac{8}{x}\times 4+4  =\frac{12x-32}{x}
+`)]
+
+
+由农药与水之比为 #mi(`18:7`)，得
+
+
+#align(center)[#mitex(`
+\frac{x^{2}-12x+32}{12x-32}=\frac{18}{7}
+`)]
+
 
 交叉相乘并整理，得
 
-$ 7 x^2-300 x+800=0 $
+
+#align(center)[#mitex(`
+7x^{2}-300x+800=0
+`)]
+
 
 因式分解得
 
-$ (7 x-20)(x-40)=0 $
 
-所以 $x=(20)/(7)$ 或 $x=40$. 由于 $x>8$，舍去 $(20)/(7)$，取 $x=40$.
+#align(center)[#mitex(`
+\left(7x-20\right)\left(x-40\right)=0
+`)]
 
-答：桶的容积为 $40" 升"$.
+
+所以 #mi(`x=\frac{20}{7}`) 或 #mi(`x=40`). 由于 #mi(`x>8`)，舍去 #mi(`\frac{20}{7}`)，取 #mi(`x=40`).
+
+答：桶的容积为 #mi(`40\text{ \text{升}}`).
 ]
 
 #problem(12)[
-甲船在 $A$ 点发现乙船在北偏东 $60^ degree$ 的 $B$ 处，乙船以每小时 $a" 里"$ 的速度向北行驶，已知甲船速度是每小时 $sqrt(3)a" 里"$，问甲船应依什么方向前进，才能最快地与乙船相会？
+甲船在 #mi(`A`) 点发现乙船在北偏东 #mi(`60^{\circ}`) 的 #mi(`B`) 处，乙船以每小时 #mi(`a\text{ \text{里}}`) 的速度向北行驶，已知甲船速度是每小时 #mi(`\sqrt{3}a\text{ \text{里}}`)，问甲船应依什么方向前进，才能最快地与乙船相会？
 ]
 
 #solution[
-设经过 $t>0$ 小时两船在 $C$ 点相遇. 乙船沿正北方向行驶，所以 $B C=a t$；甲船的路程为 $A C=sqrt(3)a t$. 由 $A B$ 是北偏东 $60^ degree$ 方向，且 $B C$ 指向正北，得
-
-$ angle B=180^ degree -60^ degree =120^ degree $
+设经过 #mi(`t>0`) 小时两船在 #mi(`C`) 点相遇. 乙船沿正北方向行驶，所以 #mi(`BC=at`)；甲船的路程为 #mi(`AC=\sqrt{3}at`). 由 #mi(`AB`) 是北偏东 #mi(`60^{\circ}`) 方向，且 #mi(`BC`) 指向正北，得
 
 
-    
-#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q12_solution_fig1.png", width: 5.0cm)]
+#align(center)[#mitex(`
+\angle B=180^{\circ}-60^{\circ}=120^{\circ}
+`)]
 
 
-令 $L=A B>0$. 对任意可能的相遇时刻 $t$，乙船位于正北方向的点 $C$，且 $B C=a t$. 甲船在时刻 $t$ 至多行驶 $sqrt(3)a t$，因此必须有 $A C\l e q s q r t(3)a t$. 由 $angle B=120^ degree$ 和余弦定理，
+ 
+#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q12_solution_fig1.png", width: 28%)]
+ 
 
-$ A C^2=L^2+(a t)^2-2 L dot a t cos 120 ""^ degree =L^2+L a t+a^(2) t^2 $
+令 #mi(`L=AB>0`). 对任意可能的相遇时刻 #mi(`t`)，乙船位于正北方向的点 #mi(`C`)，且 #mi(`BC=at`). 甲船在时刻 #mi(`t`) 至多行驶 #mi(`\sqrt{3}at`)，因此必须有 #mi(`AC\leq\sqrt{3}at`). 由 #mi(`\angle B=120^{\circ}`) 和余弦定理，
+
+
+#align(center)[#mitex(`
+AC^{2}=L^{2}+(at)^{2}-2L\cdot at\cos120^{\circ}=L^{2}+Lat+a^{2}t^{2}
+`)]
+
 
 所以
 
-$ L^2+L a t+a^(2) t^2\l e q 3 a^(2) t^2 $
+
+#align(center)[#mitex(`
+L^{2}+Lat+a^{2}t^{2}\leq 3a^{2}t^{2}
+`)]
+
 
 整理得
 
-$ (2 a t+L)(a t-L)\g e q 0 $
 
-由于 $a>0$、$t\g e q 0$ 且 $L>0$，有 $2 a t+L>0$，故 $a t\g e q L$，从而任何相遇时间都满足 $t\g e q (L)/(a)$. 当 $t=(L)/(a)$ 时取等号，甲船沿 $A C$ 以全速直线行驶即可相遇，因而这是最短相遇时间. 此时 $A B=B C=L$，$A C=sqrt(3)L$. 在 $triangle A B C$ 中由正弦定理，
+#align(center)[#mitex(`
+(2at+L)(at-L)\geq 0
+`)]
 
-$ (A C)/(sin B)=(B C)/(sin A) $
+
+由于 #mi(`a>0`)、#mi(`t\geq 0`) 且 #mi(`L>0`)，有 #mi(`2at+L>0`)，故 #mi(`at\geq L`)，从而任何相遇时间都满足 #mi(`t\geq \frac{L}{a}`). 当 #mi(`t=\frac{L}{a}`) 时取等号，甲船沿 #mi(`AC`) 以全速直线行驶即可相遇，因而这是最短相遇时间. 此时 #mi(`AB=BC=L`)，#mi(`AC=\sqrt{3}L`). 在 #mi(`\triangle ABC`) 中由正弦定理，
+
+
+#align(center)[#mitex(`
+\frac{AC}{\sin B}=\frac{BC}{\sin A}
+`)]
+
 
 因此
 
-$ sin A=(B C sin B)/(A C)=(L sin 120 ""^ degree)/(sqrt(3)L)=(1)/(2) $
 
-又因为 $A+B+C=180^ degree$，且 $B=120^ degree$，所以 $0<A<60^ degree$，从而 $A=30^ degree$. 故甲船航线与正北方向的夹角为
+#align(center)[#mitex(`
+\sin A=\frac{BC\sin B}{AC}=\frac{L\sin120^{\circ}}{\sqrt{3}L}=\frac{1}{2}
+`)]
 
-$ angle N A C=60^ degree - angle B A C=60^ degree -30^ degree =30^ degree $
+
+又因为 #mi(`A+B+C=180^{\circ}`)，且 #mi(`B=120^{\circ}`)，所以 #mi(`0<A<60^{\circ}`)，从而 #mi(`A=30^{\circ}`). 故甲船航线与正北方向的夹角为
 
 
-答：甲船应以北偏东 $30^ degree$ 的方向前进，才能最快地与乙船相会.
+#align(center)[#mitex(`
+\angle NAC=60^{\circ}-\angle BAC=60^{\circ}-30^{\circ}=30^{\circ}
+`)]
+
+
+答：甲船应以北偏东 #mi(`30^{\circ}`) 的方向前进，才能最快地与乙船相会.
 ]
 
 #problem(13)[
-双曲线中心在原点，焦点在坐标轴上；焦距为 $14$，顶点间距离为 $12$，求双曲线方程.
+双曲线中心在原点，焦点在坐标轴上；焦距为 #mi(`14`)，顶点间距离为 #mi(`12`)，求双曲线方程.
 ]
 
 #solution[
-双曲线的焦点在 $x$ 轴或 $y$ 轴上，需要分别讨论两种方向.
+双曲线的焦点在 #mi(`x`) 轴或 #mi(`y`) 轴上，需要分别讨论两种方向.
 
-若焦点在 $x$ 轴上，设方程为
+若焦点在 #mi(`x`) 轴上，设方程为
 
-$ (x^2)/(a^2)-(y^2)/(b^2)=1 $
 
-顶点间距离为 $2 a=12$，故 $a=6$；焦距为 $2 c=14$，故 $c=7$. 双曲线参数满足 $c^2=a^2+b^2$，所以
+#align(center)[#mitex(`
+\frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1
+`)]
 
-$ b^2=c^2-a^2=7^2-6^2=13 $
+
+顶点间距离为 #mi(`2a=12`)，故 #mi(`a=6`)；焦距为 #mi(`2c=14`)，故 #mi(`c=7`). 双曲线参数满足 #mi(`c^{2}=a^{2}+b^{2}`)，所以
+
+
+#align(center)[#mitex(`
+b^{2}=c^{2}-a^{2}=7^{2}-6^{2}=13
+`)]
+
 
 因此方程为
 
-$ (x^2)/(36)-(y^2)/(13)=1 $
+
+#align(center)[#mitex(`
+\frac{x^{2}}{36}-\frac{y^{2}}{13}=1
+`)]
 
 
-    
-#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q13_solution_fig1.png", width: 4.8cm)]
+ 
+#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q13_solution_fig1.png", width: 28%)]
+ 
+
+若焦点在 #mi(`y`) 轴上，设方程为
 
 
-若焦点在 $y$ 轴上，设方程为
-
-$ (y^2)/(a^2)-(x^2)/(b^2)=1 $
-
-同样由 $2 a=12$，$2 c=14$ 得 $a=6$，$c=7$，再由 $c^2=a^2+b^2$ 得 $b^2=13$. 因此方程为
-
-    
-#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q13_solution_fig2.png", width: 3.2cm)]
+#align(center)[#mitex(`
+\frac{y^{2}}{a^{2}}-\frac{x^{2}}{b^{2}}=1
+`)]
 
 
+同样由 #mi(`2a=12`)，#mi(`2c=14`) 得 #mi(`a=6`)，#mi(`c=7`)，再由 #mi(`c^{2}=a^{2}+b^{2}`) 得 #mi(`b^{2}=13`). 因此方程为
 
-$ (y^2)/(36)-(x^2)/(13)=1 $
+ 
+#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q13_solution_fig2.png", width: 28%)]
+ 
+
+
+#align(center)[#mitex(`
+\frac{y^{2}}{36}-\frac{x^{2}}{13}=1
+`)]
 ]
 
 #problem(14)[
-从等腰 $triangle A B C$ 的顶点 $A$ 引直线交 $B C$ 于 $D$，交外接圆于 $E$，求证 $A B$ 是 $A D$ 和 $A E$ 的比例中项.
+从等腰 #mi(`\triangle ABC`) 的顶点 #mi(`A`) 引直线交 #mi(`BC`) 于 #mi(`D`)，交外接圆于 #mi(`E`)，求证 #mi(`AB`) 是 #mi(`AD`) 和 #mi(`AE`) 的比例中项.
 
 
-#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q14_fig1.png", width: 5.0cm)]
+#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q14_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-连接 $B E$. 因为 $triangle A B C$ 是等腰三角形，$A B=A C$，所以
+连接 #mi(`BE`). 因为 #mi(`\triangle ABC`) 是等腰三角形，#mi(`AB=AC`)，所以
 
-$ angle A B C= angle A C B $
 
-又因为 $A$，$B$，$C$，$E$ 共圆，$angle A E B$ 与 $angle A C B$ 都是所对弦 $A B$ 所对的圆周角，故
+#align(center)[#mitex(`
+\angle ABC=\angle ACB
+`)]
 
-$ angle A E B= angle A C B $
 
-由于 $D$ 在 $B C$ 上、$E$ 在直线 $A D$ 上，有
+又因为 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`E`) 共圆，#mi(`\angle AEB`) 与 #mi(`\angle ACB`) 都是所对弦 #mi(`AB`) 所对的圆周角，故
 
-$ angle A B D= angle A B C= angle A E B $
 
-并且 $angle B A D= angle E A B$.
-因此 $triangle A B D tilde triangle A E B$. 对应边满足
+#align(center)[#mitex(`
+\angle AEB=\angle ACB
+`)]
 
-$ (A B)/(A E)=(A D)/(A B) $
 
-从而 $A B^2=A D dot A E$. 所以 $A B$ 是 $A D$ 和 $A E$ 的比例中项.
+由于 #mi(`D`) 在 #mi(`BC`) 上、#mi(`E`) 在直线 #mi(`AD`) 上，有
+
+
+#align(center)[#mitex(`
+\angle ABD=\angle ABC=\angle AEB
+`)]
+
+
+并且 #mi(`\angle BAD=\angle EAB`).
+
+因此 #mi(`\triangle ABD\sim\triangle AEB`). 对应边满足
+
+
+#align(center)[#mitex(`
+\frac{AB}{AE}=\frac{AD}{AB}
+`)]
+
+
+从而 #mi(`AB^{2}=AD\cdot AE`). 所以 #mi(`AB`) 是 #mi(`AD`) 和 #mi(`AE`) 的比例中项.
 ]
 
 #problem(15)[
-如果一个直角三角形三边的长成等差数列，试证明三边的比是 $3:4:5$.
+如果一个直角三角形三边的长成等差数列，试证明三边的比是 #mi(`3:4:5`).
 ]
 
 #solution[
-设三边按从小到大的顺序为 $a-d$，$a$，$a+d$，其中公差 $d>0$，且 $a-d>0$. 最大边是斜边，所以由勾股定理
+设三边按从小到大的顺序为 #mi(`a-d`)，#mi(`a`)，#mi(`a+d`)，其中公差 #mi(`d>0`)，且 #mi(`a-d>0`). 最大边是斜边，所以由勾股定理
 
-$ a^2+(a-d)^2=(a+d)^2 $
+
+#align(center)[#mitex(`
+a^{2}+\left(a-d\right)^{2}=\left(a+d\right)^{2}
+`)]
+
 
 移项并展开，得
 
-$ a^2=(a+d)^2-(a-d)^2 =a^2+2 a d+d^2-a^2+2 a d-d^2=4 a d $
 
-由于 $a>0$，可除以 $4 a$，得到 $d=(a)/(4)$. 因此三边之比为
+#align(center)[#mitex(`
+a^{2}=\left(a+d\right)^{2}-\left(a-d\right)^{2}  =a^{2}+2ad+d^{2}-a^{2}+2ad-d^{2}=4ad
+`)]
 
-$ (a-(a)/(4)):a:(a+(a)/(4)) =(3 a)/(4):a:(5 a)/(4)=3:4:5 $
+
+由于 #mi(`a>0`)，可除以 #mi(`4a`)，得到 #mi(`d=\frac{a}{4}`). 因此三边之比为
 
 
-    
-#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q15_solution_fig1.png", width: 4.4cm)]
+#align(center)[#mitex(`
+\left(a-\frac{a}{4}\right):a:\left(a+\frac{a}{4}\right)  =\frac{3a}{4}:a:\frac{5a}{4}=3:4:5
+`)]
+
+
+ 
+#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q15_solution_fig1.png", width: 28%)]
+
 ]
 
 #part-header("参考题")
 
 #problem(16)[
-试求 $f(x)=x^4-42 x^3+435 x^2+113 x-66$ 和 $g(x)=x^2-x-462$ 的公根.
+试求 #mi(`f(x)=x^{4}-42x^{3}+435x^{2}+113x-66`) 和 #mi(`g(x)=x^{2}-x-462`) 的公根.
 ]
 
 #solution[
 先分解二次多项式：
 
-$ g(x)=x^2-x-462=(x-22)(x+21) $
 
-所以公根只能是 $22$ 或 $-21$. 直接代入 $f(x)$，
+#align(center)[#mitex(`
+g(x)=x^{2}-x-462=(x-22)(x+21)
+`)]
 
-$ \b e g i n{a l i g n e d} f(22)&=22^4-42 times 22 ""^3+435 times 22 ""^2+113 times 22 -66\\ &=234256-447216+210540+2486-66=0, \e n d{a l i g n e d} $
+
+所以公根只能是 #mi(`22`) 或 #mi(`-21`). 直接代入 #mi(`f(x)`)，
+
+
+#align(center)[#mitex(`
+\begin{aligned}f(22)&=22^{4}-42\times22^{3}+435\times22^{2}+113\times22-66\\&=234256-447216+210540+2486-66=0,\end{aligned}
+`)]
+
 
 而
 
-$ \b e g i n{a l i g n e d} f(-21)&=(-21)^4-42 times (-21)^3+435 times (-21)^2+113 times (-21)-66\\ &=194481+388962+191835-2373-66=772839 != 0. \e n d{a l i g n e d} $
 
-因此 $22$ 是两个多项式的公根，$-21$ 不是，所求公根为 $x=22$.
+#align(center)[#mitex(`
+\begin{aligned}f(-21)&=(-21)^{4}-42\times(-21)^{3}+435\times(-21)^{2}+113\times(-21)-66\\&=194481+388962+191835-2373-66=772839\neq 0.\end{aligned}
+`)]
+
+
+因此 #mi(`22`) 是两个多项式的公根，#mi(`-21`) 不是，所求公根为 #mi(`x=22`).
 ]
 
 #problem(17)[
-求函数 $y=(2 x+1)^((1)/(2))(-(1)/(3)x+1)^3$ 的导数.
+求函数 #mi(`y=\left(2x+1\right)^{\frac{1}{2}}\left(-\frac{1}{3}x+1\right)^{3}`) 的导数.
 ]
 
 #solution[
-函数的定义域满足 $2 x+1\g e q 0$，即 $x\g e q-(1)/(2)$. 在可导区间 $x>-(1)/(2)$ 上，令
+函数的定义域满足 #mi(`2x+1\geq 0`)，即 #mi(`x\geq-\frac{1}{2}`). 在可导区间 #mi(`x>-\frac{1}{2}`) 上，令
 
-$ u=(2 x+1)^((1)/(2)) $
+
+#align(center)[#mitex(`
+u=\left(2x+1\right)^{\frac{1}{2}}
+`)]
+
 
 令
 
-$ v=(1-(x)/(3))^3 $
+
+#align(center)[#mitex(`
+v=\left(1-\frac{x}{3}\right)^{3}
+`)]
+
 
 由链式法则，
 
-$ u'=(1)/(2)(2 x+1)^(-(1)/(2)) dot 2 =(2 x+1)^(-(1)/(2)) $
+
+#align(center)[#mitex(`
+u'=\frac{1}{2}\left(2x+1\right)^{-\frac{1}{2}}\cdot 2=\left(2x+1\right)^{-\frac{1}{2}}
+`)]
+
 
 并且
 
-$ v'=3(1-(x)/(3))^2 dot (-(1)/(3))=-(1-(x)/(3))^2 $
+
+#align(center)[#mitex(`
+v'=3\left(1-\frac{x}{3}\right)^{2}\cdot\left(-\frac{1}{3}\right)=-\left(1-\frac{x}{3}\right)^{2}
+`)]
+
 
 再由乘积求导法则，
 
-$ y'=u'v+u v' =(1-(x)/(3))^3(2 x+1)^(-(1)/(2))-(2 x+1)^((1)/(2))(1-(x)/(3))^2 $
+
+#align(center)[#mitex(`
+y'=u'v+uv'  =\left(1-\frac{x}{3}\right)^{3}\left(2x+1\right)^{-\frac{1}{2}}-\left(2x+1\right)^{\frac{1}{2}}\left(1-\frac{x}{3}\right)^{2}
+`)]
 ]
 
 #problem(18)[
-有一窗户，顶部为一抛物线的拱形，窗宽 $120~c m$，边高 $150~c m$，顶点高 $180~c m$，求它的面积.
+有一窗户，顶部为一抛物线的拱形，窗宽 #mi(`120\mathrm{~cm}`)，边高 #mi(`150\mathrm{~cm}`)，顶点高 #mi(`180\mathrm{~cm}`)，求它的面积.
 ]
 
 #solution[
-取顶点为原点，水平方向为 $x$ 轴，竖直向上为 $y$ 轴. 设抛物线方程为
+取顶点为原点，水平方向为 #mi(`x`) 轴，竖直向上为 #mi(`y`) 轴. 设抛物线方程为
 
-$ x^2=-2 p y $
 
-窗宽为 $120~c m$，故右侧边的上端点坐标为 $A(60,-30)$，因为顶点比边高 $180-150=30~c m$. 代入抛物线方程，得
+#align(center)[#mitex(`
+x^{2}=-2py
+`)]
 
-$ 60^2=-2 p times (-30) $
 
-所以 $p=60$.
+窗宽为 #mi(`120\mathrm{~cm}`)，故右侧边的上端点坐标为 #mi(`A(60,-30)`)，因为顶点比边高 #mi(`180-150=30\mathrm{~cm}`). 代入抛物线方程，得
+
+
+#align(center)[#mitex(`
+60^{2}=-2p\times(-30)
+`)]
+
+
+所以 #mi(`p=60`).
+
 所以抛物线方程为
 
-$ x^2=-120 y $
 
-即 $y=-(x^2)/(120)$.
-
-    
-#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q18_solution_fig1.png", width: 5.8cm)]
+#align(center)[#mitex(`
+x^{2}=-120y
+`)]
 
 
-图中右半边阴影面积是曲线与 $x$ 轴之间的面积，故
+即 #mi(`y=-\frac{x^{2}}{120}`).
 
-$ \i n t_0^(60)(x^2)/(120)d x =.(x^3)/(360)|_0^(60) =600~c m^2 $
+ 
+#align(center)[#image("/papers/1977/img/hunan_zhuzhou_pilot/q18_solution_fig1.png", width: 28%)]
+ 
 
-整个窗户可看作宽为 $120~c m$、高为 $180~c m$ 的矩形减去左右两个全等阴影区域，因此
-
-$ S=2(180 times 60 -600)~c m^2 =20400~c m^2 =2.04~m^2 $
+图中右半边阴影面积是曲线与 #mi(`x`) 轴之间的面积，故
 
 
-答：所求窗户的面积是 $2.04~m^2$.
+#align(center)[#mitex(`
+\int_{0}^{60}\frac{x^{2}}{120}\,\mathrm{d}x  =\left.\frac{x^{3}}{360}\right|_{0}^{60}=600\mathrm{~cm}^{2}
+`)]
+
+
+整个窗户可看作宽为 #mi(`120\mathrm{~cm}`)、高为 #mi(`180\mathrm{~cm}`) 的矩形减去左右两个全等阴影区域，因此
+
+
+#align(center)[#mitex(`
+S=2\left(180\times 60-600\right)\mathrm{~cm}^{2}  =20400\mathrm{~cm}^{2}  =2.04\mathrm{~m}^{2}
+`)]
+
+
+答：所求窗户的面积是 #mi(`2.04\mathrm{~m}^{2}`).
 ]
 

@@ -1,8 +1,143 @@
 {
-  "title": "2004年普通高等学校招生全国统一考试",
-  "subtitle": "2004年全国II卷（理）",
   "year": "2004",
   "slug": "national_paper_2_science",
+  "title": "2004年全国II卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$\\{x \\mid 2 < x < 3\\}$"
           ],
           "answer": "C",
-          "solution": "<p>由 $x^{2}<4$ 得 $-2<x<2$，所以 $M=(-2,2)$. 又因为</p><p>$x^{2}-2x-3=(x+1)(x-3)$，且二次函数开口向上，所以 $N=(-1,3)$. 因此</p><p>$M\\cap N=(-1,2)=\\{x\\mid -1<x<2\\}$，故选 C.</p>"
+          "solution": "<p>由 $x^{2}<4$ 得 $-2<x<2$，所以 $M=(-2,2)$. 又因为</p><p>$x^{2}-2x-3=(x+1)(x-3)$，且二次函数开口向上，所以 $N=(-1,3)$. 因此</p><p>$M\\cap N=(-1,2)=\\{x\\mid -1<x<2\\}$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$\\frac{1}{4}$"
           ],
           "answer": "A",
-          "solution": "<p>当 $x\\ne1$ 时，$x^{2}+x-2=(x-1)(x+2)$，$x^{2}+4x-5=(x-1)(x+5)$，因而</p>\n$$\n\\displaystyle\\lim_{x\\to1}\\frac{x^{2}+x-2}{x^{2}+4x-5}=\\lim_{x\\to1}\\frac{x+2}{x+5}=\\frac{3}{6}=\\frac{1}{2}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>当 $x\\ne1$ 时，$x^{2}+x-2=(x-1)(x+2)$，$x^{2}+4x-5=(x-1)(x+5)$，因而</p>\n$$\n\\displaystyle\\lim_{x\\to1}\\frac{x^{2}+x-2}{x^{2}+4x-5}=\\lim_{x\\to1}\\frac{x+2}{x+5}=\\frac{3}{6}=\\frac{1}{2}\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$\\frac{1}{\\omega^{2}}$"
           ],
           "answer": "C",
-          "solution": "<p>由 $\\omega=-\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i}$，有</p>\n$$\n\\omega^{2}=\\left(-\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i}\\right)^{2}=-\\frac{1}{2}-\\frac{\\sqrt{3}}{2}\\mathrm{i}\n$$\n<p>且 $\\omega\\omega^{2}=1$，于是</p>\n$$\n1+\\omega=\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i}=-\\omega^{2}=-\\frac{1}{\\omega}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>由 $\\omega=-\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i}$，有</p>\n$$\n\\omega^{2}=\\left(-\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i}\\right)^{2}=-\\frac{1}{2}-\\frac{\\sqrt{3}}{2}\\mathrm{i}\n$$\n<p>且 $\\omega\\omega^{2}=1$，于是</p>\n$$\n1+\\omega=\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\mathrm{i}=-\\omega^{2}=-\\frac{1}{\\omega}\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$x^{2}+ (y - 1)^{2}= 1$"
           ],
           "answer": "C",
-          "solution": "圆 $(x-1)^{2}+y^{2}=1$ 的圆心为 $(1,0)$，半径为 $1$. 关于直线 $y=-x$ 的对称变换为 $(x,y)\\mapsto(-y,-x)$，所以圆心变为 $(0,-1)$，半径不变. 故圆 $C$ 的方程为 $x^{2}+(y+1)^{2}=1$，选 C."
+          "solution": "圆 $(x-1)^{2}+y^{2}=1$ 的圆心为 $(1,0)$，半径为 $1$. 关于直线 $y=-x$ 的对称变换为 $(x,y)\\mapsto(-y,-x)$，所以圆心变为 $(0,-1)$，半径不变. 故圆 $C$ 的方程为 $x^{2}+(y+1)^{2}=1$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "$\\frac{\\pi}{12}$"
           ],
           "answer": "A",
-          "solution": "<p>将点 $\\left(\\frac{\\pi}{12},0\\right)$ 代入函数，得</p>\n$$\n\\tan\\left(\\frac{\\pi}{6}+\\varphi\\right)=0\n$$\n<p>因此 $\\frac{\\pi}{6}+\\varphi=k\\pi$，其中 $k\\in\\mathbb{Z}$. 取 $k=0$，得 $\\varphi=-\\frac{\\pi}{6}$，故选 A.</p>"
+          "solution": "<p>将点 $\\left(\\frac{\\pi}{12},0\\right)$ 代入函数，得</p>\n$$\n\\tan\\left(\\frac{\\pi}{6}+\\varphi\\right)=0\n$$\n<p>因此 $\\frac{\\pi}{6}+\\varphi=k\\pi$，其中 $k\\in\\mathbb{Z}$. 取 $k=0$，得 $\\varphi=-\\frac{\\pi}{6}$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "与 $y = \\mathrm{e}^{-x}$ 的图象关于坐标原点对称"
           ],
           "answer": "D",
-          "solution": "函数 $y=\\mathrm{e}^{-x}$ 的图象上任一点为 $(t,\\mathrm{e}^{-t})$. 关于坐标原点对称后，该点变为 $(-t,-\\mathrm{e}^{-t})$. 令 $x=-t$，则纵坐标为 $-\\mathrm{e}^{x}$，所以所得图象为 $y=-\\mathrm{e}^{x}$. 故 $y=-\\mathrm{e}^{x}$ 与 $y=\\mathrm{e}^{-x}$ 的图象关于坐标原点对称，选 D."
+          "solution": "函数 $y=\\mathrm{e}^{-x}$ 的图象上任一点为 $(t,\\mathrm{e}^{-t})$. 关于坐标原点对称后，该点变为 $(-t,-\\mathrm{e}^{-t})$. 令 $x=-t$，则纵坐标为 $-\\mathrm{e}^{x}$，所以所得图象为 $y=-\\mathrm{e}^{x}$. 故 $y=-\\mathrm{e}^{x}$ 与 $y=\\mathrm{e}^{-x}$ 的图象关于坐标原点对称，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$\\frac{\\sqrt{6}}{3}$"
           ],
           "answer": "B",
-          "solution": "<p>球面距离为 $\\frac{\\pi}{2}$，半径为 $1$，所以相应的圆心角为 $\\frac{\\pi}{2}$，从而</p><p>$\\overrightarrow{OA}\\perp\\overrightarrow{OB}$、$\\overrightarrow{OB}\\perp\\overrightarrow{OC}$、$\\overrightarrow{OC}\\perp\\overrightarrow{OA}$. 因此</p><p>$AB^{2}=BC^{2}=CA^{2}=2$，三角形 $ABC$ 是边长为 $\\sqrt{2}$ 的正三角形.</p><p>设正三角形 $ABC$ 的中心为 $H$. 由于</p><p>$\\overrightarrow{OH}=\\frac{1}{3}(\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC})$，且</p>\n$$\n\\overrightarrow{OH}\\cdot\\overrightarrow{AB}=\\frac{1}{3}(\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC})\\cdot(\\overrightarrow{OB}-\\overrightarrow{OA})=0\n$$\n<p>又有</p><p>$\\overrightarrow{OH}\\cdot\\overrightarrow{AC}=\\frac{1}{3}(\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC})\\cdot(\\overrightarrow{OC}-\\overrightarrow{OA})=0$，所以 $OH\\perp$ 平面 $ABC$. 正三角形的外接圆半径为</p>\n$$\nAH=\\frac{\\sqrt{3}}{3}\\cdot\\sqrt{2}=\\frac{\\sqrt{6}}{3}\n$$\n<p>在直角三角形 $OHA$ 中，</p>\n$$\nOH=\\sqrt{OA^{2}-AH^{2}}=\\sqrt{1-\\frac{2}{3}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>球面距离为 $\\frac{\\pi}{2}$，半径为 $1$，所以相应的圆心角为 $\\frac{\\pi}{2}$，从而</p><p>$\\overrightarrow{OA}\\perp\\overrightarrow{OB}$、$\\overrightarrow{OB}\\perp\\overrightarrow{OC}$、$\\overrightarrow{OC}\\perp\\overrightarrow{OA}$. 因此</p><p>$AB^{2}=BC^{2}=CA^{2}=2$，三角形 $ABC$ 是边长为 $\\sqrt{2}$ 的正三角形.</p><p>设正三角形 $ABC$ 的中心为 $H$. 由于</p><p>$\\overrightarrow{OH}=\\frac{1}{3}(\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC})$，且</p>\n$$\n\\overrightarrow{OH}\\cdot\\overrightarrow{AB}=\\frac{1}{3}(\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC})\\cdot(\\overrightarrow{OB}-\\overrightarrow{OA})=0\n$$\n<p>又有</p><p>$\\overrightarrow{OH}\\cdot\\overrightarrow{AC}=\\frac{1}{3}(\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC})\\cdot(\\overrightarrow{OC}-\\overrightarrow{OA})=0$，所以 $OH\\perp$ 平面 $ABC$. 正三角形的外接圆半径为</p>\n$$\nAH=\\frac{\\sqrt{3}}{3}\\cdot\\sqrt{2}=\\frac{\\sqrt{6}}{3}\n$$\n<p>在直角三角形 $OHA$ 中，</p>\n$$\nOH=\\sqrt{OA^{2}-AH^{2}}=\\sqrt{1-\\frac{2}{3}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$4\\text{ 条}$"
           ],
           "answer": "B",
-          "solution": "<p>设所求直线为 $l$，取单位法向量 $\\mathbf{n}$，并写成 $\\mathbf{n}\\cdot X=c$. 由点到直线的距离条件，存在</p><p>$\\varepsilon_{A}$，$\\varepsilon_{B}\\in\\{1,-1\\}$，使得</p><p>$\\mathbf{n}\\cdot A-c=\\varepsilon_{A}$，$\\mathbf{n}\\cdot B-c=2\\varepsilon_{B}$</p><p>相减得</p>\n$$\n\\mathbf{n}\\cdot\\overrightarrow{AB}=2\\varepsilon_{B}-\\varepsilon_{A}\n$$\n<p>其中 $\\overrightarrow{AB}=(2,-1)$，$\\lvert AB\\rvert=\\sqrt{5}$. 右端为 $\\pm3$ 时不可能，因为</p><p>$\\lvert\\mathbf{n}\\cdot\\overrightarrow{AB}\\rvert\\le\\lvert AB\\rvert=\\sqrt{5}<3$.</p><p>当右端为 $1$ 时，设 $\\mathbf{n}=(u,v)$，则</p><p>$2u-v=1$，且 $u^{2}+v^{2}=1$. 由 $v=2u-1$ 得</p><p>$u^{2}+(2u-1)^{2}=1$，即 $u(5u-4)=0$，所以</p>\n$$\n(u,v)=(0,-1) \\text{或}  (u,v)=\\left(\\frac{4}{5},\\frac{3}{5}\\right)\n$$\n<p>这两组单位法向量分别给出直线 $y=3$ 和 $4x+3y=5$. 右端为 $-1$ 时得到的是这两条直线的相反法向量表示，不产生新直线. 因此共有两条直线，选 B.</p>"
+          "solution": "<p>设所求直线为 $l$，取单位法向量 $\\mathbf{n}$，并写成 $\\mathbf{n}\\cdot X=c$. 由点到直线的距离条件，存在</p><p>$\\varepsilon_{A}$，$\\varepsilon_{B}\\in\\{1,-1\\}$，使得</p><p>$\\mathbf{n}\\cdot A-c=\\varepsilon_{A}$，$\\mathbf{n}\\cdot B-c=2\\varepsilon_{B}$</p><p>相减得</p>\n$$\n\\mathbf{n}\\cdot\\overrightarrow{AB}=2\\varepsilon_{B}-\\varepsilon_{A}\n$$\n<p>其中 $\\overrightarrow{AB}=(2,-1)$，$\\lvert AB\\rvert=\\sqrt{5}$. 右端为 $\\pm3$ 时不可能，因为</p><p>$\\lvert\\mathbf{n}\\cdot\\overrightarrow{AB}\\rvert\\le\\lvert AB\\rvert=\\sqrt{5}<3$.</p><p>当右端为 $1$ 时，设 $\\mathbf{n}=(u,v)$，则</p><p>$2u-v=1$，且 $u^{2}+v^{2}=1$. 由 $v=2u-1$ 得</p><p>$u^{2}+(2u-1)^{2}=1$，即 $u(5u-4)=0$，所以</p>\n$$\n(u,v)=(0,-1) \\text{或}  (u,v)=\\left(\\frac{4}{5},\\frac{3}{5}\\right)\n$$\n<p>这两组单位法向量分别给出直线 $y=3$ 和 $4x+3y=5$. 右端为 $-1$ 时得到的是这两条直线的相反法向量表示，不产生新直线. 因此共有两条直线，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +264,9 @@
             "$-2$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $\\mathbf{e}$ 是单位向量，正交投影后两点的连线向量等于</p><p>$\\overrightarrow{OA}$ 在 $\\mathbf{e}$ 方向上的投影，因此</p>\n$$\n\\lambda=\\overrightarrow{OA}\\cdot\\mathbf{e}=(1,-2)\\cdot\\left(-\\frac{4}{5},\\frac{3}{5}\\right)=-\\frac{4}{5}-\\frac{6}{5}=-2\n$$\n<p>故选 D.</p>"
+          "solution": "<p>因为 $\\mathbf{e}$ 是单位向量，正交投影后两点的连线向量等于</p><p>$\\overrightarrow{OA}$ 在 $\\mathbf{e}$ 方向上的投影，因此</p>\n$$\n\\lambda=\\overrightarrow{OA}\\cdot\\mathbf{e}=(1,-2)\\cdot\\left(-\\frac{4}{5},\\frac{3}{5}\\right)=-\\frac{4}{5}-\\frac{6}{5}=-2\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +278,9 @@
             "$(2\\pi, 3\\pi)$"
           ],
           "answer": "B",
-          "solution": "<p>设 $f(x)=x\\cos x-\\sin x$，则 $f'(x)=-x\\sin x$. 四个选项中的区间都在正半轴上，所以在这些区间内，$f'(x)>0$ 等价于 $\\sin x<0$.</p><p>在 $(\\pi,2\\pi)$ 内始终有 $\\sin x<0$，所以 $f$ 在该区间内递增. 其余三个区间都包含 $\\sin x>0$ 的子区间，函数在这些子区间上递减，不能在整个区间内递增. 因此选 B.</p>"
+          "solution": "<p>设 $f(x)=x\\cos x-\\sin x$，则 $f'(x)=-x\\sin x$. 四个选项中的区间都在正半轴上，所以在这些区间内，$f'(x)>0$ 等价于 $\\sin x<0$.</p><p>在 $(\\pi,2\\pi)$ 内始终有 $\\sin x<0$，所以 $f$ 在该区间内递增. 其余三个区间都包含 $\\sin x>0$ 的子区间，函数在这些子区间上递减，不能在整个区间内递增. 因此选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +292,9 @@
             "$2\\pi$"
           ],
           "answer": "B",
-          "solution": "<p>利用恒等式 $\\sin^{2}x+\\cos^{2}x=1$，可得</p>\n$$\nf(x)=\\sin^{4}x+\\cos^{2}x=\\frac{7}{8}+\\frac{1}{8}\\cos4x\n$$\n<p>所以 $\\frac{\\pi}{2}$ 是函数的一个正周期. 若正数 $T$ 是函数的周期，则由 $f(0)=f(T)$ 得</p>\n$$\n\\frac{7}{8}+\\frac{1}{8}\\cos4T=1\n$$\n<p>从而 $\\cos4T=1$，即 $T=k\\frac{\\pi}{2}$，其中 $k$ 为正整数. 故最小正周期为 $\\frac{\\pi}{2}$，选 B.</p>"
+          "solution": "<p>利用恒等式 $\\sin^{2}x+\\cos^{2}x=1$，可得</p>\n$$\nf(x)=\\sin^{4}x+\\cos^{2}x=\\frac{7}{8}+\\frac{1}{8}\\cos4x\n$$\n<p>所以 $\\frac{\\pi}{2}$ 是函数的一个正周期. 若正数 $T$ 是函数的周期，则由 $f(0)=f(T)$ 得</p>\n$$\n\\frac{7}{8}+\\frac{1}{8}\\cos4T=1\n$$\n<p>从而 $\\cos4T=1$，即 $T=k\\frac{\\pi}{2}$，其中 $k$ 为正整数. 故最小正周期为 $\\frac{\\pi}{2}$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +306,9 @@
             "$60\\text{ 个}$"
           ],
           "answer": "C",
-          "solution": "<p>按首位分类. 首位为 $3$ 时，后四位任意排列，有 $4!=24$ 个.</p><p>首位为 $2$ 时，只有次位为 $3$、$4$ 或 $5$ 才可能大于 $23145$. 次位为 $3$ 时，后三位由 $1$，$4$，$5$ 排列，除去等于 $145$ 的一种，有 $3!-1=5$ 个；次位为 $4$ 或 $5$ 时均自动满足，各有 $3!=6$ 个，所以共有 $5+6+6=17$ 个.</p><p>首位为 $4$ 时，只有次位为 $1$、$2$ 或 $3$ 才可能小于 $43521$. 次位为 $1$ 或 $2$ 时各有 $3!=6$ 个；次位为 $3$ 时，后三位由 $1$，$2$，$5$ 排列，除去等于 $521$ 的一种，有 $3!-1=5$ 个，所以共有 $17$ 个. 首位为 $1$ 的数都小于 $23145$，首位为 $5$ 的数都大于 $43521$.</p><p>总数为 $24+17+17=58$，故选 C.</p>"
+          "solution": "<p>按首位分类. 首位为 $3$ 时，后四位任意排列，有 $4!=24$ 个.</p><p>首位为 $2$ 时，只有次位为 $3$、$4$ 或 $5$ 才可能大于 $23145$. 次位为 $3$ 时，后三位由 $1$，$4$，$5$ 排列，除去等于 $145$ 的一种，有 $3!-1=5$ 个；次位为 $4$ 或 $5$ 时均自动满足，各有 $3!=6$ 个，所以共有 $5+6+6=17$ 个.</p><p>首位为 $4$ 时，只有次位为 $1$、$2$ 或 $3$ 才可能小于 $43521$. 次位为 $1$ 或 $2$ 时各有 $3!=6$ 个；次位为 $3$ 时，后三位由 $1$，$2$，$5$ 排列，除去等于 $521$ 的一种，有 $3!-1=5$ 个，所以共有 $17$ 个. 首位为 $1$ 的数都小于 $23145$，首位为 $5$ 的数都大于 $43521$.</p><p>总数为 $24+17+17=58$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -158,31 +317,39 @@
       "problems": [
         {
           "num": 13,
-          "body": "<p>从装有 $3\\text{ 个}$ 红球，$2\\text{ 个}$ 白球的袋中随机取出 $2\\text{ 个}$ 球，设其中有 $\\xi\\text{ 个}$ 红球，则随机变量 $\\xi$ 的概率分布为：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$\\xi$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center>",
-          "choices": null,
-          "answer": "$0.1$，$0.6$，$0.3$",
-          "solution": "<p>从 $5$ 个球中取出 $2$ 个球的总数为 $\\mathrm{C}_{5}^{2}=10$. 没有红球、恰有一个红球、恰有两个红球的取法数分别为</p><p>$\\mathrm{C}_{2}^{2}=1$、$\\mathrm{C}_{3}^{1}\\mathrm{C}_{2}^{1}=6$、$\\mathrm{C}_{3}^{2}=3$. 所以</p>\n$$\nP(\\xi=0)=\\frac{1}{10}=0.1\n$$\n<p>$P(\\xi=1)=\\frac{6}{10}=0.6$，$P(\\xi=2)=\\frac{3}{10}=0.3$，填空依次为 $0.1$、$0.6$、$0.3$.</p>"
+          "body": "<p>从装有 $3\\text{ 个}$ 红球，$2\\text{ 个}$ 白球的袋中随机取出 $2\\text{ 个}$ 球，设其中有 $\\xi\\text{ 个}$ 红球，则随机变量 $\\xi$ 的概率分布为：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$P$ </td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td></tr></tbody></table></center>",
+          "choices": [],
+          "answer": "\\(0.1\\)，\\(0.6\\)，\\(0.3\\)",
+          "solution": "<p>从 $5$ 个球中取出 $2$ 个球的总数为 $\\mathrm{C}_{5}^{2}=10$. 没有红球、恰有一个红球、恰有两个红球的取法数分别为</p><p>$\\mathrm{C}_{2}^{2}=1$、$\\mathrm{C}_{3}^{1}\\mathrm{C}_{2}^{1}=6$、$\\mathrm{C}_{3}^{2}=3$. 所以</p>\n$$\nP(\\xi=0)=\\frac{1}{10}=0.1\n$$\n<p>$P(\\xi=1)=\\frac{6}{10}=0.6$，$P(\\xi=2)=\\frac{3}{10}=0.3$，填空依次为 $0.1$、$0.6$、$0.3$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "设 $x$，$y$ 满足约束条件 $\\begin{cases}x \\ge 0,\\\\  x \\ge y,\\\\  2x - y \\le 1,\\end{cases}$ 则 $z = 3x + 2y$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "5",
-          "solution": "<p>由 $y\\le x$ 和 $2x-y\\leqslant1$ 得</p><p>$x\\leqslant2x-y\\leqslant1$. 再结合 $x\\geqslant0$，可知 $0\\le x\\leqslant1$. 又因为 $y\\le x$，所以</p>\n$$\nz=3x+2y\\leqslant5x\\leqslant5\n$$\n<p>当 $x=y=1$ 时，三个约束条件均满足，且 $z=5$，故最大值为 $5$.</p>"
+          "solution": "<p>由 $y\\le x$ 和 $2x-y\\leqslant1$ 得</p><p>$x\\leqslant2x-y\\leqslant1$. 再结合 $x\\geqslant0$，可知 $0\\le x\\leqslant1$. 又因为 $y\\le x$，所以</p>\n$$\nz=3x+2y\\leqslant5x\\leqslant5\n$$\n<p>当 $x=y=1$ 时，三个约束条件均满足，且 $z=5$，故最大值为 $5$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "设中心在原点的椭圆与双曲线 $2x^{2}- 2y^{2}= 1$ 有公共的焦点，且它们的离心率互为倒数，则该椭圆的方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{x^{2}}{2}+ y^{2}= 1$",
-          "solution": "<p>双曲线可写为</p><p>$\\frac{x^{2}}{\\frac{1}{2}}-\\frac{y^{2}}{\\frac{1}{2}}=1$，所以其半实轴平方和半虚轴平方分别为 $\\frac{1}{2}$ 和 $\\frac{1}{2}$. 由双曲线焦半距公式，</p>\n$$\nc^{2}=\\frac{1}{2}+\\frac{1}{2}=1\n$$\n<p>故 $c=1$，离心率为 $e_{h}=\\frac{c}{\\frac{1}{\\sqrt{2}}}=\\sqrt{2}$.</p><p>椭圆与双曲线有公共焦点，所以椭圆的焦半距也是 $c=1$. 由离心率互为倒数，椭圆离心率为 $e_{e}=\\frac{1}{\\sqrt{2}}$. 设椭圆长半轴为 $a$，则</p>\n$$\n\\frac{c}{a}=\\frac{1}{\\sqrt{2}}\n$$\n<p>从而 $a^{2}=2$. 再由 $b^{2}=a^{2}-c^{2}$ 得 $b^{2}=1$，所以椭圆方程为 $\\frac{x^{2}}{2}+y^{2}=1$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{x^{2}}{2} + y^{2} = 1\\)",
+          "solution": "<p>双曲线可写为</p><p>$\\frac{x^{2}}{\\frac{1}{2}}-\\frac{y^{2}}{\\frac{1}{2}}=1$，所以其半实轴平方和半虚轴平方分别为 $\\frac{1}{2}$ 和 $\\frac{1}{2}$. 由双曲线焦半距公式，</p>\n$$\nc^{2}=\\frac{1}{2}+\\frac{1}{2}=1\n$$\n<p>故 $c=1$，离心率为 $e_{h}=\\frac{c}{\\frac{1}{\\sqrt{2}}}=\\sqrt{2}$.</p><p>椭圆与双曲线有公共焦点，所以椭圆的焦半距也是 $c=1$. 由离心率互为倒数，椭圆离心率为 $e_{e}=\\frac{1}{\\sqrt{2}}$. 设椭圆长半轴为 $a$，则</p>\n$$\n\\frac{c}{a}=\\frac{1}{\\sqrt{2}}\n$$\n<p>从而 $a^{2}=2$. 再由 $b^{2}=a^{2}-c^{2}$ 得 $b^{2}=1$，所以椭圆方程为 $\\frac{x^{2}}{2}+y^{2}=1$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>下面是关于四棱柱的四个命题：</p><ol class=\"enumerate\"><li><p>若有两个侧面垂直于底面，则该四棱柱为直四棱柱；</p></li><li><p>若两个过相对侧棱的截面都垂直于底面，则该四棱柱为直四棱柱；</p></li><li><p>若四个侧面两两全等，则该四棱柱为直四棱柱；</p></li><li><p>若四棱柱的四条对角线两两相等，则该四棱柱为直四棱柱.</p></li></ol><p>其中，真命题的编号是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（写出所有真命题的编号）</p>",
-          "choices": null,
-          "answer": "$②④$",
-          "solution": "<p>对命题 $①$，取底面为水平正方形，取侧棱方向向量为 $\\mathbf{v}=(1,0,1)$，并取沿 $x$ 轴方向的两条相对底边. 这两个侧面分别由 $(1,0,0)$ 与 $\\mathbf{v}$ 张成，均含有竖直方向 $(0,0,1)=\\mathbf{v}-(1,0,0)$，因而都是竖直平面，均垂直于底面；但 $\\mathbf{v}$ 在底面内有非零投影，侧棱不垂直于底面，所以该四棱柱不是直四棱柱. 命题 $①$ 不成立.</p><p>对命题 $②$，设侧棱方向向量为 $\\mathbf{v}$，其在底面内的投影为 $\\mathbf{p}$. 过一对相对侧棱的截面在底面内的迹线是底面的一条对角线，设其方向向量为 $\\mathbf{u}$. 该截面由 $\\mathbf{u}$ 和 $\\mathbf{v}$ 张成. 截面垂直于底面时，截面内必有一条竖直方向，因而 $\\mathbf{p}\\parallel\\mathbf{u}$. 另一截面对应底面的另一条对角线，设方向向量为 $\\mathbf{w}$. 该截面垂直于底面同样说明侧棱的底面投影必须平行于其底面迹线，故 $\\mathbf{p}\\parallel\\mathbf{w}$. 两条对角线不平行，所以 $\\mathbf{p}=\\mathbf{0}$，即侧棱垂直于底面，命题 $②$ 成立.</p><p>对命题 $③$，仍取底面为水平正方形，取侧棱方向向量为 $\\mathbf{v}=(1,1,1)$. 每个侧面都是由长度为 $1$ 的底边和长度为 $\\sqrt{3}$ 的侧棱组成的平行四边形；侧棱与两种底边方向的内积都为 $1$，所以四个平行四边形的两边及夹角分别相等，四个侧面两两全等. 但 $\\mathbf{v}$ 在底面内的投影为 $(1,1,0)\\ne\\mathbf{0}$，侧棱不垂直于底面，命题 $③$ 不成立.</p><p>对命题 $④$，设底面两条对角线的方向向量为 $\\mathbf{u}$、$\\mathbf{w}$，侧棱方向向量为 $\\mathbf{v}$. 四条空间对角线的方向向量分别可写成 $\\mathbf{u}+\\mathbf{v}$、$\\mathbf{u}-\\mathbf{v}$、$\\mathbf{w}+\\mathbf{v}$、$\\mathbf{w}-\\mathbf{v}$. 由四条对角线两两相等，特别得到</p>\n$$\n\\lvert\\mathbf{u}+\\mathbf{v}\\rvert^{2}=\\lvert\\mathbf{u}-\\mathbf{v}\\rvert^{2}\n$$\n<p>以及</p>\n$$\n\\lvert\\mathbf{w}+\\mathbf{v}\\rvert^{2}=\\lvert\\mathbf{w}-\\mathbf{v}\\rvert^{2}\n$$\n<p>展开并相减，分别得到 $\\mathbf{u}\\cdot\\mathbf{v}=0$ 和 $\\mathbf{w}\\cdot\\mathbf{v}=0$. 由于 $\\mathbf{u}$、$\\mathbf{w}$ 不共线，它们张成底面，所以 $\\mathbf{v}$ 垂直于底面，命题 $④$ 成立. 因此真命题的编号为 $2$、$4$.</p>"
+          "choices": [],
+          "answer": "\\(②④\\)",
+          "solution": "<p>对命题 $①$，取底面为水平正方形，取侧棱方向向量为 $\\mathbf{v}=(1,0,1)$，并取沿 $x$ 轴方向的两条相对底边. 这两个侧面分别由 $(1,0,0)$ 与 $\\mathbf{v}$ 张成，均含有竖直方向 $(0,0,1)=\\mathbf{v}-(1,0,0)$，因而都是竖直平面，均垂直于底面；但 $\\mathbf{v}$ 在底面内有非零投影，侧棱不垂直于底面，所以该四棱柱不是直四棱柱. 命题 $①$ 不成立.</p><p>对命题 $②$，设侧棱方向向量为 $\\mathbf{v}$，其在底面内的投影为 $\\mathbf{p}$. 过一对相对侧棱的截面在底面内的迹线是底面的一条对角线，设其方向向量为 $\\mathbf{u}$. 该截面由 $\\mathbf{u}$ 和 $\\mathbf{v}$ 张成. 截面垂直于底面时，截面内必有一条竖直方向，因而 $\\mathbf{p}\\parallel\\mathbf{u}$. 另一截面对应底面的另一条对角线，设方向向量为 $\\mathbf{w}$. 该截面垂直于底面同样说明侧棱的底面投影必须平行于其底面迹线，故 $\\mathbf{p}\\parallel\\mathbf{w}$. 两条对角线不平行，所以 $\\mathbf{p}=\\mathbf{0}$，即侧棱垂直于底面，命题 $②$ 成立.</p><p>对命题 $③$，仍取底面为水平正方形，取侧棱方向向量为 $\\mathbf{v}=(1,1,1)$. 每个侧面都是由长度为 $1$ 的底边和长度为 $\\sqrt{3}$ 的侧棱组成的平行四边形；侧棱与两种底边方向的内积都为 $1$，所以四个平行四边形的两边及夹角分别相等，四个侧面两两全等. 但 $\\mathbf{v}$ 在底面内的投影为 $(1,1,0)\\ne\\mathbf{0}$，侧棱不垂直于底面，命题 $③$ 不成立.</p><p>对命题 $④$，设底面两条对角线的方向向量为 $\\mathbf{u}$、$\\mathbf{w}$，侧棱方向向量为 $\\mathbf{v}$. 四条空间对角线的方向向量分别可写成 $\\mathbf{u}+\\mathbf{v}$、$\\mathbf{u}-\\mathbf{v}$、$\\mathbf{w}+\\mathbf{v}$、$\\mathbf{w}-\\mathbf{v}$. 由四条对角线两两相等，特别得到</p>\n$$\n\\lvert\\mathbf{u}+\\mathbf{v}\\rvert^{2}=\\lvert\\mathbf{u}-\\mathbf{v}\\rvert^{2}\n$$\n<p>以及</p>\n$$\n\\lvert\\mathbf{w}+\\mathbf{v}\\rvert^{2}=\\lvert\\mathbf{w}-\\mathbf{v}\\rvert^{2}\n$$\n<p>展开并相减，分别得到 $\\mathbf{u}\\cdot\\mathbf{v}=0$ 和 $\\mathbf{w}\\cdot\\mathbf{v}=0$. 由于 $\\mathbf{u}$、$\\mathbf{w}$ 不共线，它们张成底面，所以 $\\mathbf{v}$ 垂直于底面，命题 $④$ 成立. 因此真命题的编号为 $2$、$4$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "<p>已知锐角三角形 $ABC$ 中，$\\sin(A+B)=\\frac{3}{5}$，$\\sin(A-B)=\\frac{1}{5}$. 求证：</p><ol class=\"enumerate\"><li><p>$\\tan A = 2\\tan B$；</p></li><li><p>设 $AB = 3$，求 $AB$ 边上的高.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $A$、$B$ 为锐角，且 $A+B=\\pi-C\\in\\left(\\frac{\\pi}{2},\\pi\\right)$，所以 $\\cos(A+B)=-\\frac{4}{5}$. 又 $A-B\\in\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$，且 $\\sin(A-B)>0$，故 $A>B$，从而 $\\cos(A-B)=\\frac{2\\sqrt{6}}{5}$. 由和差化积公式，</p>\n$$\n2\\sin A\\cos B=\\sin(A+B)+\\sin(A-B)=\\frac{4}{5}\n$$\n\n$$\n2\\cos A\\sin B=\\sin(A+B)-\\sin(A-B)=\\frac{2}{5}\n$$\n<p>两式相除，并注意 $A$、$B$ 为锐角，得 $\\tan A=2\\tan B$.</p></li><li><p>由 $\\sin(A+B)=\\frac{3}{5}$、$\\cos(A+B)=-\\frac{4}{5}$，得 $\\tan(A+B)=-\\frac{3}{4}$. 令 $t=\\tan B>0$，由第一问 $\\tan A=2t$，于是</p>\n$$\n\\frac{3t}{1-2t^{2}}=-\\frac{3}{4}\n$$\n<p>即 $2t^{2}-4t-1=0$. 解得 $t=1\\pm\\frac{\\sqrt{6}}{2}$，由 $t>0$ 得 $t=1+\\frac{\\sqrt{6}}{2}$.</p><p>设从 $C$ 向 $AB$ 作垂线，垂足为 $D$，高为 $CD$. 三角形为锐角三角形，故 $D$ 在 $AB$ 上，且</p><p>$\\tan A=\\frac{CD}{AD}$，$\\tan B=\\frac{CD}{BD}$</p><p>由 $\\tan A=2\\tan B$ 得 $BD=2AD$. 又 $AD+BD=AB=3$，所以 $AD=1$、$BD=2$. 因此</p>\n$$\nCD=BD\\tan B=2+\\sqrt{6}\n$$\n<p>故 $AB$ 边上的高为 $2+\\sqrt{6}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $A$、$B$ 为锐角，且 $A+B=\\pi-C\\in\\left(\\frac{\\pi}{2},\\pi\\right)$，所以 $\\cos(A+B)=-\\frac{4}{5}$. 又 $A-B\\in\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$，且 $\\sin(A-B)>0$，故 $A>B$，从而 $\\cos(A-B)=\\frac{2\\sqrt{6}}{5}$. 由和差化积公式，</p>\n$$\n2\\sin A\\cos B=\\sin(A+B)+\\sin(A-B)=\\frac{4}{5}\n$$\n\n$$\n2\\cos A\\sin B=\\sin(A+B)-\\sin(A-B)=\\frac{2}{5}\n$$\n<p>两式相除，并注意 $A$、$B$ 为锐角，得 $\\tan A=2\\tan B$.</p></li><li><p>由 $\\sin(A+B)=\\frac{3}{5}$、$\\cos(A+B)=-\\frac{4}{5}$，得 $\\tan(A+B)=-\\frac{3}{4}$. 令 $t=\\tan B>0$，由第一问 $\\tan A=2t$，于是</p>\n$$\n\\frac{3t}{1-2t^{2}}=-\\frac{3}{4}\n$$\n<p>即 $2t^{2}-4t-1=0$. 解得 $t=1\\pm\\frac{\\sqrt{6}}{2}$，由 $t>0$ 得 $t=1+\\frac{\\sqrt{6}}{2}$.</p><p>设从 $C$ 向 $AB$ 作垂线，垂足为 $D$，高为 $CD$. 三角形为锐角三角形，故 $D$ 在 $AB$ 上，且</p><p>$\\tan A=\\frac{CD}{AD}$，$\\tan B=\\frac{CD}{BD}$</p><p>由 $\\tan A=2\\tan B$ 得 $BD=2AD$. 又 $AD+BD=AB=3$，所以 $AD=1$、$BD=2$. 因此</p>\n$$\nCD=BD\\tan B=2+\\sqrt{6}\n$$\n<p>故 $AB$ 边上的高为 $2+\\sqrt{6}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>已知 $8\\text{ 支}$ 球队中有 $3\\text{ 支}$ 弱队，以抽签的方式将这 $8\\text{ 支}$ 球队分为 A，B 两组，每组 $4\\text{ 支}$. 求：</p><ol class=\"enumerate\"><li><p>A，B 两组中有一组恰有 $2\\text{ 支}$ 弱队的概率；</p></li><li><p>A 组中至少有 $2\\text{ 支}$ 弱队的概率.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>从 $8$ 支球队中确定 A 组的 $4$ 支，所有分组等可能，总数为 $\\mathrm{C}_{8}^{4}=70$. 设 A 组有 $k$ 支弱队，则 B 组有 $3-k$ 支弱队. 要使两组中有一组恰有 $2$ 支弱队，必须且只需 $k=2$ 或 $k=1$. 因此所求概率为</p>\n$$\n\\frac{\\mathrm{C}_{3}^{2}\\mathrm{C}_{5}^{2}+\\mathrm{C}_{3}^{1}\\mathrm{C}_{5}^{3}}{\\mathrm{C}_{8}^{4}}=\\frac{30+30}{70}=\\frac{6}{7}\n$$\n</li><li><p>A 组中至少有两支弱队包括恰有两支或恰有三支，所以所求概率为</p>\n$$\n\\frac{\\mathrm{C}_{3}^{2}\\mathrm{C}_{5}^{2}+\\mathrm{C}_{3}^{3}\\mathrm{C}_{5}^{1}}{\\mathrm{C}_{8}^{4}}=\\frac{30+5}{70}=\\frac{1}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>从 $8$ 支球队中确定 A 组的 $4$ 支，所有分组等可能，总数为 $\\mathrm{C}_{8}^{4}=70$. 设 A 组有 $k$ 支弱队，则 B 组有 $3-k$ 支弱队. 要使两组中有一组恰有 $2$ 支弱队，必须且只需 $k=2$ 或 $k=1$. 因此所求概率为</p>\n$$\n\\frac{\\mathrm{C}_{3}^{2}\\mathrm{C}_{5}^{2}+\\mathrm{C}_{3}^{1}\\mathrm{C}_{5}^{3}}{\\mathrm{C}_{8}^{4}}=\\frac{30+30}{70}=\\frac{6}{7}\n$$\n</li><li><p>A 组中至少有两支弱队包括恰有两支或恰有三支，所以所求概率为</p>\n$$\n\\frac{\\mathrm{C}_{3}^{2}\\mathrm{C}_{5}^{2}+\\mathrm{C}_{3}^{3}\\mathrm{C}_{5}^{1}}{\\mathrm{C}_{8}^{4}}=\\frac{30+5}{70}=\\frac{1}{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>数列 $\\{a_{n}\\}$ 的前 $n$ 项和记为 $S_{n}$，已知 $a_{1}= 1$，$a_{n+1}= \\frac{n+2}{n}S_{n}$ （$n = 1$，$2$，$3$，$\\ldots$）. 证明：</p><ol class=\"enumerate\"><li><p>数列 $\\left\\{\\frac{S_{n}}{n}\\right\\}$ 是等比数列；</p></li><li><p>$S_{n + 1}= 4a_{n}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $a_{n+1}=S_{n+1}-S_{n}$ 及题设递推式，得</p>\n$$\nS_{n+1}=S_{n}+a_{n+1}=S_{n}+\\frac{n+2}{n}S_{n}=\\frac{2n+2}{n}S_{n}\n$$\n<p>两边除以 $n+1$，得</p>\n$$\n\\frac{S_{n+1}}{n+1}=2\\frac{S_{n}}{n}\n$$\n<p>又 $S_{1}=a_{1}=1$，所以 $\\left\\{\\frac{S_{n}}{n}\\right\\}$ 是首项为 $1$、公比为 $2$ 的等比数列.</p></li><li><p>由上题结论，$S_{n}=n2^{n-1}$. 当 $n\\geqslant2$ 时，</p>\n$$\na_{n}=S_{n}-S_{n-1}=n2^{n-1}-(n-1)2^{n-2}=(n+1)2^{n-2}\n$$\n<p>当 $n=1$ 时，题设给出 $a_{1}=1=(1+1)2^{-1}$，所以该表达式对所有正整数 $n$ 都成立. 当 $n\\geqslant2$ 时，</p>\n$$\nS_{n+1}=(n+1)2^{n}=4(n+1)2^{n-2}=4a_{n}\n$$\n<p>当 $n=1$ 时，$S_{2}=a_{1}+a_{2}=1+\\frac{1+2}{1}S_{1}=4=4a_{1}$. 因此对任意正整数 $n$，都有 $S_{n+1}=4a_{n}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $a_{n+1}=S_{n+1}-S_{n}$ 及题设递推式，得</p>\n$$\nS_{n+1}=S_{n}+a_{n+1}=S_{n}+\\frac{n+2}{n}S_{n}=\\frac{2n+2}{n}S_{n}\n$$\n<p>两边除以 $n+1$，得</p>\n$$\n\\frac{S_{n+1}}{n+1}=2\\frac{S_{n}}{n}\n$$\n<p>又 $S_{1}=a_{1}=1$，所以 $\\left\\{\\frac{S_{n}}{n}\\right\\}$ 是首项为 $1$、公比为 $2$ 的等比数列.</p></li><li><p>由上题结论，$S_{n}=n2^{n-1}$. 当 $n\\geqslant2$ 时，</p>\n$$\na_{n}=S_{n}-S_{n-1}=n2^{n-1}-(n-1)2^{n-2}=(n+1)2^{n-2}\n$$\n<p>当 $n=1$ 时，题设给出 $a_{1}=1=(1+1)2^{-1}$，所以该表达式对所有正整数 $n$ 都成立. 当 $n\\geqslant2$ 时，</p>\n$$\nS_{n+1}=(n+1)2^{n}=4(n+1)2^{n-2}=4a_{n}\n$$\n<p>当 $n=1$ 时，$S_{2}=a_{1}+a_{2}=1+\\frac{1+2}{1}S_{1}=4=4a_{1}$. 因此对任意正整数 $n$，都有 $S_{n+1}=4a_{n}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，直三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$\\angle ACB = 90^{\\circ}$，$AC = 1$，$CB = \\sqrt{2}$，侧棱 $AA_{1} = 1$，侧面 $AA_{1}B_{1}B$ 的两条对角线交点为 $D$，$B_{1}C_{1}$ 的中点为 $M$.</p><ol class=\"enumerate\"><li><p>证明 $CD \\perp$ 平面 $BDM$；</p></li><li><p>求面 $B_{1}BD$ 与面 $CBD$ 所成二面角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_2_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，直三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$\\angle ACB = 90^{\\circ}$，$AC = 1$，$CB = \\sqrt{2}$，侧棱 $AA_{1} = 1$，侧面 $AA_{1}B_{1}B$ 的两条对角线交点为 $D$，$B_{1}C_{1}$ 的中点为 $M$.</p><ol class=\"enumerate\"><li><p>证明 $CD \\perp$ 平面 $BDM$；</p></li><li><p>求面 $B_{1}BD$ 与面 $CBD$ 所成二面角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/national_paper_2_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，取 $C$ 为原点，令 $CA$、$CB$、$CC_{1}$ 分别为三个坐标轴正向，则</p><p>$A=(1,0,0)$，$B=(0,\\sqrt{2},0)$，$C_{1}=(0,0,1)$</p><p>$A_{1}=(1,0,1)$，$B_{1}=(0,\\sqrt{2},1)$.</p><p>由于 $D$ 是矩形 $AA_{1}B_{1}B$ 的对角线交点，且 $M$ 是 $B_{1}C_{1}$ 的中点，所以</p><p>$D=\\left(\\frac{1}{2},\\frac{\\sqrt{2}}{2},\\frac{1}{2}\\right)$，$M=\\left(0,\\frac{\\sqrt{2}}{2},1\\right)$.</p><p>有</p><p>$\\overrightarrow{CD}=\\left(\\frac{1}{2},\\frac{\\sqrt{2}}{2},\\frac{1}{2}\\right)$，$\\overrightarrow{BD}=\\left(\\frac{1}{2},-\\frac{\\sqrt{2}}{2},\\frac{1}{2}\\right)$，$\\overrightarrow{DM}=\\left(-\\frac{1}{2},0,\\frac{1}{2}\\right)$.</p><p>直接计算得 $\\overrightarrow{CD}\\cdot\\overrightarrow{BD}=0$、$\\overrightarrow{CD}\\cdot\\overrightarrow{DM}=0$. 由于 $BD$、$DM$ 是平面 $BDM$ 内相交的两条直线，所以 $CD\\perp$ 平面 $BDM$.</p></li><li><p>设 $G$、$F$ 分别为 $BD$、$BC$ 的中点. 由 $AC\\perp BC$、$AC=1$、$BC=\\sqrt{2}$，得</p><p>$AB=\\sqrt{AC^{2}+BC^{2}}=\\sqrt{3}$. 由于 $D$ 是矩形 $AA_{1}B_{1}B$ 的中心，</p>\n$$\nBD=B_{1}D=\\frac{1}{2}\\sqrt{AB^{2}+AA_{1}^{2}}=\\frac{1}{2}\\sqrt{3+1}=1\n$$\n<p>又 $BB_{1}=AA_{1}=1$，所以三角形 $BB_{1}D$ 为边长为 $1$ 的正三角形. 因为</p>\n$$\n\\overrightarrow{GF}=-\\frac{1}{2}\\overrightarrow{CD}\n$$\n<p>所以 $GF\\perp BD$. 因而 $B_{1}G\\perp BD$，且 $\\angle B_{1}GF$ 是所求二面角的平面角.</p><p>由坐标或勾股定理，$B_{1}G=\\frac{\\sqrt{3}}{2}$、$GF=\\frac{1}{2}$，并且 $B_{1}F=\\sqrt{B_{1}B^{2}+BF^{2}}=\\sqrt{\\frac{3}{2}}$. 在三角形 $B_{1}GF$ 中，由余弦定理，</p>\n$$\n\\cos\\angle B_{1}GF=\\frac{B_{1}G^{2}+GF^{2}-B_{1}F^{2}}{2B_{1}G\\cdot GF}=-\\frac{\\sqrt{3}}{3}\n$$\n<p>故所求二面角为 $\\arccos\\left(-\\frac{\\sqrt{3}}{3}\\right)=\\pi-\\arccos\\frac{\\sqrt{3}}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，取 $C$ 为原点，令 $CA$、$CB$、$CC_{1}$ 分别为三个坐标轴正向，则</p><p>$A=(1,0,0)$，$B=(0,\\sqrt{2},0)$，$C_{1}=(0,0,1)$</p><p>$A_{1}=(1,0,1)$，$B_{1}=(0,\\sqrt{2},1)$.</p><p>由于 $D$ 是矩形 $AA_{1}B_{1}B$ 的对角线交点，且 $M$ 是 $B_{1}C_{1}$ 的中点，所以</p><p>$D=\\left(\\frac{1}{2},\\frac{\\sqrt{2}}{2},\\frac{1}{2}\\right)$，$M=\\left(0,\\frac{\\sqrt{2}}{2},1\\right)$.</p><p>有</p><p>$\\overrightarrow{CD}=\\left(\\frac{1}{2},\\frac{\\sqrt{2}}{2},\\frac{1}{2}\\right)$，$\\overrightarrow{BD}=\\left(\\frac{1}{2},-\\frac{\\sqrt{2}}{2},\\frac{1}{2}\\right)$，$\\overrightarrow{DM}=\\left(-\\frac{1}{2},0,\\frac{1}{2}\\right)$.</p><p>直接计算得 $\\overrightarrow{CD}\\cdot\\overrightarrow{BD}=0$、$\\overrightarrow{CD}\\cdot\\overrightarrow{DM}=0$. 由于 $BD$、$DM$ 是平面 $BDM$ 内相交的两条直线，所以 $CD\\perp$ 平面 $BDM$.</p></li><li><p>设 $G$、$F$ 分别为 $BD$、$BC$ 的中点. 由 $AC\\perp BC$、$AC=1$、$BC=\\sqrt{2}$，得</p><p>$AB=\\sqrt{AC^{2}+BC^{2}}=\\sqrt{3}$. 由于 $D$ 是矩形 $AA_{1}B_{1}B$ 的中心，</p>\n$$\nBD=B_{1}D=\\frac{1}{2}\\sqrt{AB^{2}+AA_{1}^{2}}=\\frac{1}{2}\\sqrt{3+1}=1\n$$\n<p>又 $BB_{1}=AA_{1}=1$，所以三角形 $BB_{1}D$ 为边长为 $1$ 的正三角形. 因为</p>\n$$\n\\overrightarrow{GF}=-\\frac{1}{2}\\overrightarrow{CD}\n$$\n<p>所以 $GF\\perp BD$. 因而 $B_{1}G\\perp BD$，且 $\\angle B_{1}GF$ 是所求二面角的平面角.</p><p>由坐标或勾股定理，$B_{1}G=\\frac{\\sqrt{3}}{2}$、$GF=\\frac{1}{2}$，并且 $B_{1}F=\\sqrt{B_{1}B^{2}+BF^{2}}=\\sqrt{\\frac{3}{2}}$. 在三角形 $B_{1}GF$ 中，由余弦定理，</p>\n$$\n\\cos\\angle B_{1}GF=\\frac{B_{1}G^{2}+GF^{2}-B_{1}F^{2}}{2B_{1}G\\cdot GF}=-\\frac{\\sqrt{3}}{3}\n$$\n<p>故所求二面角为 $\\arccos\\left(-\\frac{\\sqrt{3}}{3}\\right)=\\pi-\\arccos\\frac{\\sqrt{3}}{3}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>给定抛物线 $C: y^{2}= 4x$，$F$ 是 $C$ 的焦点，过点 $F$ 的直线 $l$ 与 $C$ 相交于 $A$，$B$ 两点.</p><ol class=\"enumerate\"><li><p>设 $l$ 的斜率为 $1$，求 $\\overrightarrow{OA}$ 与 $\\overrightarrow{OB}$ 夹角的大小；</p></li><li><p>设 $\\overrightarrow{FB}= \\lambda\\overrightarrow{AF}$，若 $\\lambda \\in [4,9]$，求 $l$ 在 $y$ 轴上截距的变化范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=4x$ 的焦点为 $F=(1,0)$. 因为直线 $l$ 过 $F$ 且斜率为 $1$，故其方程为 $y=x-1$. 代入抛物线方程，得</p><p>$(x-1)^{2}=4x$，$x^{2}-6x+1=0$.</p><p>所以交点的横坐标为 $3+2\\sqrt{2}$、$3-2\\sqrt{2}$，相应纵坐标为 $2+2\\sqrt{2}$、$2-2\\sqrt{2}$. 设这两个交点分别为 $A$、$B$，则</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=(3+2\\sqrt{2})(3-2\\sqrt{2})+(2+2\\sqrt{2})(2-2\\sqrt{2})=1-4=-3\n$$\n<p>并且</p><p>$\\lvert\\overrightarrow{OA}\\rvert^{2}=29+20\\sqrt{2}$，$\\lvert\\overrightarrow{OB}\\rvert^{2}=29-20\\sqrt{2}$，</p><p>所以</p>\n$$\n\\lvert\\overrightarrow{OA}\\rvert^{2}\\lvert\\overrightarrow{OB}\\rvert^{2}  =(29+20\\sqrt{2})(29-20\\sqrt{2})=29^{2}-800=41\n$$\n<p>因此</p>\n$$\n\\cos\\angle AOB=-\\frac{3}{\\sqrt{41}}=-\\frac{3\\sqrt{41}}{41}\n$$\n<p>由于夹角属于 $[0,\\pi]$，故夹角为 $\\displaystyle\\pi-\\arccos\\frac{3\\sqrt{41}}{41}$.</p></li><li><p>用参数表示抛物线上的点：$P(t)=(t^{2},2t)$. 设 $A=P(t_{A})$、$B=P(t_{B})$. 两点参数为 $u$、$v$ 时，弦的方程为</p>\n$$\n2x-(u+v)y+2uv=0\n$$\n<p>弦 $AB$ 过焦点 $F=(1,0)$，代入上式得 $2+2t_{A} t_{B}=0$，即 $t_{A} t_{B}=-1$. 令 $t_{B}=t$，则 $t_{A}=-\\frac{1}{t}$. 于是</p><p>$\\overrightarrow{FB}=(t^{2}-1,2t)$，$\\overrightarrow{AF}=\\left(1-\\frac{1}{t^{2}},\\frac{2}{t}\\right)$.</p><p>由 $\\overrightarrow{FB}=\\lambda\\overrightarrow{AF}$ 的分量比，得 $\\lambda=t^{2}$. 所以 $t=\\pm\\sqrt{\\lambda}$，其中 $\\lambda\\in[4,9]$.</p><p>直线 $l$ 过 $F$，其斜率为</p>\n$$\nm=\\frac{2t}{t^{2}-1}\n$$\n<p>故在 $y$ 轴上的截距为</p>\n$$\nb=-m=-\\frac{2t}{t^{2}-1}\n$$\n<p>令 $u=\\lvert t\\rvert=\\sqrt{\\lambda}$，则 $u\\in[2,3]$，且</p>\n$$\n\\left(\\frac{2u}{u^{2}-1}\\right)'=-\\frac{2(u^{2}+1)}{(u^{2}-1)^{2}}<0\n$$\n<p>其端点值为 $\\frac{4}{3}$、$\\frac{3}{4}$. 考虑 $t$ 的正负两种情形，截距的变化范围为</p>\n$$\n\\left[-\\frac{4}{3},-\\frac{3}{4}\\right]\\cup\\left[\\frac{3}{4},\\frac{4}{3}\\right]\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=4x$ 的焦点为 $F=(1,0)$. 因为直线 $l$ 过 $F$ 且斜率为 $1$，故其方程为 $y=x-1$. 代入抛物线方程，得</p><p>$(x-1)^{2}=4x$，$x^{2}-6x+1=0$.</p><p>所以交点的横坐标为 $3+2\\sqrt{2}$、$3-2\\sqrt{2}$，相应纵坐标为 $2+2\\sqrt{2}$、$2-2\\sqrt{2}$. 设这两个交点分别为 $A$、$B$，则</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=(3+2\\sqrt{2})(3-2\\sqrt{2})+(2+2\\sqrt{2})(2-2\\sqrt{2})=1-4=-3\n$$\n<p>并且</p><p>$\\lvert\\overrightarrow{OA}\\rvert^{2}=29+20\\sqrt{2}$，$\\lvert\\overrightarrow{OB}\\rvert^{2}=29-20\\sqrt{2}$，</p><p>所以</p>\n$$\n\\lvert\\overrightarrow{OA}\\rvert^{2}\\lvert\\overrightarrow{OB}\\rvert^{2}  =(29+20\\sqrt{2})(29-20\\sqrt{2})=29^{2}-800=41\n$$\n<p>因此</p>\n$$\n\\cos\\angle AOB=-\\frac{3}{\\sqrt{41}}=-\\frac{3\\sqrt{41}}{41}\n$$\n<p>由于夹角属于 $[0,\\pi]$，故夹角为 $\\displaystyle\\pi-\\arccos\\frac{3\\sqrt{41}}{41}$.</p></li><li><p>用参数表示抛物线上的点：$P(t)=(t^{2},2t)$. 设 $A=P(t_{A})$、$B=P(t_{B})$. 两点参数为 $u$、$v$ 时，弦的方程为</p>\n$$\n2x-(u+v)y+2uv=0\n$$\n<p>弦 $AB$ 过焦点 $F=(1,0)$，代入上式得 $2+2t_{A} t_{B}=0$，即 $t_{A} t_{B}=-1$. 令 $t_{B}=t$，则 $t_{A}=-\\frac{1}{t}$. 于是</p><p>$\\overrightarrow{FB}=(t^{2}-1,2t)$，$\\overrightarrow{AF}=\\left(1-\\frac{1}{t^{2}},\\frac{2}{t}\\right)$.</p><p>由 $\\overrightarrow{FB}=\\lambda\\overrightarrow{AF}$ 的分量比，得 $\\lambda=t^{2}$. 所以 $t=\\pm\\sqrt{\\lambda}$，其中 $\\lambda\\in[4,9]$.</p><p>直线 $l$ 过 $F$，其斜率为</p>\n$$\nm=\\frac{2t}{t^{2}-1}\n$$\n<p>故在 $y$ 轴上的截距为</p>\n$$\nb=-m=-\\frac{2t}{t^{2}-1}\n$$\n<p>令 $u=\\lvert t\\rvert=\\sqrt{\\lambda}$，则 $u\\in[2,3]$，且</p>\n$$\n\\left(\\frac{2u}{u^{2}-1}\\right)'=-\\frac{2(u^{2}+1)}{(u^{2}-1)^{2}}<0\n$$\n<p>其端点值为 $\\frac{4}{3}$、$\\frac{3}{4}$. 考虑 $t$ 的正负两种情形，截距的变化范围为</p>\n$$\n\\left[-\\frac{4}{3},-\\frac{3}{4}\\right]\\cup\\left[\\frac{3}{4},\\frac{4}{3}\\right]\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知函数 $f(x) = \\ln(1 + x) - x$，$g(x) = x \\ln x$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的最大值；</p></li><li><p>设 $0 < a < b$，证明：$0 < g(a) + g(b) - 2g\\left(\\frac{a + b}{2}\\right) < (b - a)\\ln 2$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-1$，且</p>\n$$\nf'(x)=\\frac{1}{1+x}-1=-\\frac{x}{1+x}\n$$\n<p>当 $-1<x<0$ 时，$f'(x)>0$；当 $x>0$ 时，$f'(x)<0$. 所以 $f(x)$ 在 $(-1,0)$ 上递增，在 $(0,+\\infty)$ 上递减，最大值在 $x=0$ 处取得，且 $f(0)=0$. 故最大值为 $0$.</p></li><li><p>设 $m=\\frac{a+b}{2}$，并令 $t=\\frac{b-a}{a+b}$，则 $0<t<1$，且 $a=m(1-t)$、$b=m(1+t)$. 由 $g(x)=x\\ln x$，有</p>\n$$\ng(a)+g(b)-2g(m)=m\\bigl((1-t)\\ln(1-t)+(1+t)\\ln(1+t)\\bigr)\n$$\n<p>令 $H(t)=(1-t)\\ln(1-t)+(1+t)\\ln(1+t)$. 则</p><p>$H'(t)=\\ln\\frac{1+t}{1-t}>0$，$H''(t)=\\frac{2}{1-t^{2}}>0$.</p><p>故 $H(t)>H(0)=0$. 又 $H$ 在 $[0,1]$ 上严格凸，且 $H(0)=0$、$H(1)=2\\ln2$，所以对 $0<t<1$，有 $H(t)<2t\\ln2$. 于是</p>\n$$\n0<mH(t)<2mt\\ln2=(b-a)\\ln2\n$$\n<p>所证不等式成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-1$，且</p>\n$$\nf'(x)=\\frac{1}{1+x}-1=-\\frac{x}{1+x}\n$$\n<p>当 $-1<x<0$ 时，$f'(x)>0$；当 $x>0$ 时，$f'(x)<0$. 所以 $f(x)$ 在 $(-1,0)$ 上递增，在 $(0,+\\infty)$ 上递减，最大值在 $x=0$ 处取得，且 $f(0)=0$. 故最大值为 $0$.</p></li><li><p>设 $m=\\frac{a+b}{2}$，并令 $t=\\frac{b-a}{a+b}$，则 $0<t<1$，且 $a=m(1-t)$、$b=m(1+t)$. 由 $g(x)=x\\ln x$，有</p>\n$$\ng(a)+g(b)-2g(m)=m\\bigl((1-t)\\ln(1-t)+(1+t)\\ln(1+t)\\bigr)\n$$\n<p>令 $H(t)=(1-t)\\ln(1-t)+(1+t)\\ln(1+t)$. 则</p><p>$H'(t)=\\ln\\frac{1+t}{1-t}>0$，$H''(t)=\\frac{2}{1-t^{2}}>0$.</p><p>故 $H(t)>H(0)=0$. 又 $H$ 在 $[0,1]$ 上严格凸，且 $H(0)=0$、$H(1)=2\\ln2$，所以对 $0<t<1$，有 $H(t)<2t\\ln2$. 于是</p>\n$$\n0<mH(t)<2mt\\ln2=(b-a)\\ln2\n$$\n<p>所证不等式成立.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

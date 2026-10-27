@@ -1,8 +1,143 @@
 {
-  "title": "2009年普通高等学校招生全国统一考试",
-  "subtitle": "2009年辽宁卷（文）",
   "year": "2009",
   "slug": "liaoning_liberal",
+  "title": "2009年辽宁卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$\\{x\\mid x < -3\\text{ 或 }x > 5\\}$"
           ],
           "answer": "A",
-          "solution": "<p>由题意，$M=(-3,5]$，$N=(-\\infty,-5)\\cup(5,+\\infty)$. 因此</p>\n$$\nM\\cup N=(-\\infty,-5)\\cup(-3,+\\infty)\n$$\n<p>与选项 A 的集合相同，故选 A.</p>"
+          "solution": "<p>由题意，$M=(-3,5]$，$N=(-\\infty,-5)\\cup(5,+\\infty)$. 因此</p>\n$$\nM\\cup N=(-\\infty,-5)\\cup(-3,+\\infty)\n$$\n<p>与选项 A 的集合相同，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$\\frac{1}{5}-\\frac{2}{5}\\mathrm{i}$"
           ],
           "answer": "C",
-          "solution": "<p>分母有理化，得</p>\n$$\n\\frac{1}{z}=\\frac{1}{1-2\\mathrm{i}}\\cdot\\frac{1+2\\mathrm{i}}{1+2\\mathrm{i}}=\\frac{1+2\\mathrm{i}}{1+4}=\\frac{1}{5}+\\frac{2}{5}\\mathrm{i}\n$$\n<p>所以选 C.</p>"
+          "solution": "<p>分母有理化，得</p>\n$$\n\\frac{1}{z}=\\frac{1}{1-2\\mathrm{i}}\\cdot\\frac{1+2\\mathrm{i}}{1+2\\mathrm{i}}=\\frac{1+2\\mathrm{i}}{1+4}=\\frac{1}{5}+\\frac{2}{5}\\mathrm{i}\n$$\n<p>所以选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$2$"
           ],
           "answer": "B",
-          "solution": "<p>由等差数列通项公式及 $a_{3}=0$，有</p>\n$$\na_{7}=a_{3}+4d=4d\n$$\n<p>同理，</p>\n$$\na_{4}=a_{3}+d=d\n$$\n<p>代入 $a_{7}-2a_{4}=-1$，得 $4d-2d=-1$，所以 $d=-\\frac{1}{2}$，故选 B.</p>"
+          "solution": "<p>由等差数列通项公式及 $a_{3}=0$，有</p>\n$$\na_{7}=a_{3}+4d=4d\n$$\n<p>同理，</p>\n$$\na_{4}=a_{3}+d=d\n$$\n<p>代入 $a_{7}-2a_{4}=-1$，得 $4d-2d=-1$，所以 $d=-\\frac{1}{2}$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$12$"
           ],
           "answer": "B",
-          "solution": "<p>由向量夹角公式，</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}||\\mathbf{b}|\\cos60^{\\circ}=2\\cdot1\\cdot\\frac{1}{2}=1\n$$\n<p>因此</p>\n$$\n|\\mathbf{a}+2\\mathbf{b}|^{2}=|\\mathbf{a}|^{2}+4|\\mathbf{b}|^{2}+4\\mathbf{a}\\cdot\\mathbf{b}=4+4+4=12\n$$\n<p>从而 $|\\mathbf{a}+2\\mathbf{b}|=\\sqrt{12}=2\\sqrt{3}$，故选 B.</p>"
+          "solution": "<p>由向量夹角公式，</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}||\\mathbf{b}|\\cos60^{\\circ}=2\\cdot1\\cdot\\frac{1}{2}=1\n$$\n<p>因此</p>\n$$\n|\\mathbf{a}+2\\mathbf{b}|^{2}=|\\mathbf{a}|^{2}+4|\\mathbf{b}|^{2}+4\\mathbf{a}\\cdot\\mathbf{b}=4+4+4=12\n$$\n<p>从而 $|\\mathbf{a}+2\\mathbf{b}|=\\sqrt{12}=2\\sqrt{3}$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "$0.25$"
           ],
           "answer": "C",
-          "solution": "<p>设地球半径为 $R$. 北纬 $60^{\\circ}$ 纬线所在圆的半径是</p><p>$R\\cos60^{\\circ}=\\frac{R}{2}$，赤道圆的半径为 $R$. 圆周长与半径成正比，故两条纬线长之比为</p>\n$$\n\\frac{2\\pi\\cdot\\frac{R}{2}}{2\\pi R}=\\frac{1}{2}\n$$\n<p>所以选 C.</p>"
+          "solution": "<p>设地球半径为 $R$. 北纬 $60^{\\circ}$ 纬线所在圆的半径是</p><p>$R\\cos60^{\\circ}=\\frac{R}{2}$，赤道圆的半径为 $R$. 圆周长与半径成正比，故两条纬线长之比为</p>\n$$\n\\frac{2\\pi\\cdot\\frac{R}{2}}{2\\pi R}=\\frac{1}{2}\n$$\n<p>所以选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$\\frac{3}{8}$"
           ],
           "answer": "A",
-          "solution": "<p>令 $x_{0}=2+\\log_{2} 3$. 因为 $1<\\log_{2} 3<2$，所以 $3<x_{0}<4$，由题设递推关系，</p>\n$$\nf(x_{0})=f(x_{0}+1)\n$$\n<p>又 $x_{0}+1=3+\\log_{2} 3>4$，可直接使用第一段函数表达式. 因此</p>\n$$\nf(x_{0})=\\left(\\frac{1}{2}\\right)^{3+\\log_2 3}=\\frac{1}{8}\\cdot2^{-\\log_2 3}=\\frac{1}{8}\\cdot\\frac{1}{3}=\\frac{1}{24}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>令 $x_{0}=2+\\log_{2} 3$. 因为 $1<\\log_{2} 3<2$，所以 $3<x_{0}<4$，由题设递推关系，</p>\n$$\nf(x_{0})=f(x_{0}+1)\n$$\n<p>又 $x_{0}+1=3+\\log_{2} 3>4$，可直接使用第一段函数表达式. 因此</p>\n$$\nf(x_{0})=\\left(\\frac{1}{2}\\right)^{3+\\log_2 3}=\\frac{1}{8}\\cdot2^{-\\log_2 3}=\\frac{1}{8}\\cdot\\frac{1}{3}=\\frac{1}{24}\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$(x + 1)^{2}+ (y + 1)^{2}= 2$"
           ],
           "answer": "B",
-          "solution": "<p>设圆心为 $P(h,k)$. 两条直线平行，圆同时与它们相切，所以圆心到两直线的距离相等，且圆心位于两直线之间的中间平行线上，即</p>\n$$\nh-k=2\n$$\n<p>又因为圆心在 $x+y=0$ 上，故 $h+k=0$. 联立得 $P(1,-1)$. 圆半径为</p>\n$$\nr=\\frac{|1-(-1)|}{\\sqrt{2}}=\\sqrt{2}\n$$\n<p>所以圆的方程为 $(x-1)^{2}+(y+1)^{2}=2$，故选 B.</p>"
+          "solution": "<p>设圆心为 $P(h,k)$. 两条直线平行，圆同时与它们相切，所以圆心到两直线的距离相等，且圆心位于两直线之间的中间平行线上，即</p>\n$$\nh-k=2\n$$\n<p>又因为圆心在 $x+y=0$ 上，故 $h+k=0$. 联立得 $P(1,-1)$. 圆半径为</p>\n$$\nr=\\frac{|1-(-1)|}{\\sqrt{2}}=\\sqrt{2}\n$$\n<p>所以圆的方程为 $(x-1)^{2}+(y+1)^{2}=2$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$\\frac{4}{5}$"
           ],
           "answer": "D",
-          "solution": "<p>由 $\\tan\\theta=2$，得 $\\sin\\theta=2\\cos\\theta$. 再由</p><p>$\\sin^{2}\\theta+\\cos^{2}\\theta=1$，可得 $5\\cos^{2}\\theta=1$. 于是</p>\n$$\n\\sin^{2}\\theta+\\sin\\theta\\cos\\theta-2\\cos^{2}\\theta  =4\\cos^{2}\\theta+2\\cos^{2}\\theta-2\\cos^{2}\\theta  =4\\cos^{2}\\theta=\\frac{4}{5}\n$$\n<p>所以选 D.</p>"
+          "solution": "<p>由 $\\tan\\theta=2$，得 $\\sin\\theta=2\\cos\\theta$. 再由</p><p>$\\sin^{2}\\theta+\\cos^{2}\\theta=1$，可得 $5\\cos^{2}\\theta=1$. 于是</p>\n$$\n\\sin^{2}\\theta+\\sin\\theta\\cos\\theta-2\\cos^{2}\\theta  =4\\cos^{2}\\theta+2\\cos^{2}\\theta-2\\cos^{2}\\theta  =4\\cos^{2}\\theta=\\frac{4}{5}\n$$\n<p>所以选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,11 +264,13 @@
             "$1 - \\frac{\\pi}{8}$"
           ],
           "answer": "B",
-          "solution": "<p>以 $O$ 为原点建立直角坐标系，使矩形为 $[-1,1]\\times[0,1]$. 矩形面积为 $2$. 矩形内到 $O$ 的距离不超过 $1$ 的部分是半径为 $1$ 的上半圆，面积为 $\\frac{\\pi}{2}$，边界对面积没有影响. 因此到 $O$ 的距离大于 $1$ 的区域面积为</p>\n$$\n2-\\frac{\\pi}{2}\n$$\n<p>所求概率为</p>\n$$\n\\frac{2-\\frac{\\pi}{2}}{2}=1-\\frac{\\pi}{4}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>以 $O$ 为原点建立直角坐标系，使矩形为 $[-1,1]\\times[0,1]$. 矩形面积为 $2$. 矩形内到 $O$ 的距离不超过 $1$ 的部分是半径为 $1$ 的上半圆，面积为 $\\frac{\\pi}{2}$，边界对面积没有影响. 因此到 $O$ 的距离大于 $1$ 的区域面积为</p>\n$$\n2-\\frac{\\pi}{2}\n$$\n<p>所求概率为</p>\n$$\n\\frac{2-\\frac{\\pi}{2}}{2}=1-\\frac{\\pi}{4}\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
-          "body": "<p>某店一个月的收入和支出总共记录了 $N$ 个数据 $a_{1}$，$a_{2}$，$\\dots$，$a_{N}$，其中收入记为正数. 支出记为负数. 该店用下边的程序框图计算月总收入 $S$ 和月净盈利 $V$，那么在图中空白的判断框和处理框中，应分别填入下列四个选项中的（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>某店一个月的收入和支出总共记录了 $N$ 个数据 $a_{1}$，$a_{2}$，$\\dots$，$a_{N}$，其中收入记为正数. 支出记为负数. 该店用下边的程序框图计算月总收入 $S$ 和月净盈利 $V$，那么在图中空白的判断框和处理框中，应分别填入下列四个选项中的（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/liaoning_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$A > 0$，$V = S - T$",
             "$A < 0$，$V = S - T$",
@@ -125,7 +278,9 @@
             "$A < 0$，$V = S + T$"
           ],
           "answer": "C",
-          "solution": "<p>令程序框中的当前数据 $A=a_{k}$. 当 $A>0$ 时，$A$ 是收入，应累加到总收入 $S$；当 $A<0$ 时，$A$ 是支出，应累加到 $T$. 由于 $T$ 本身是负的支出总额，月净盈利应为 $V=S+T$.</p><p>所以判断框填 $A>0$，处理框填 $V=S+T$，故选 C.</p>"
+          "solution": "<p>令程序框中的当前数据 $A=a_{k}$. 当 $A>0$ 时，$A$ 是收入，应累加到总收入 $S$；当 $A<0$ 时，$A$ 是支出，应累加到 $T$. 由于 $T$ 本身是负的支出总额，月净盈利应为 $V=S+T$.</p><p>所以判断框填 $A>0$，处理框填 $V=S+T$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +292,9 @@
             "$p_{2}$，$p_{4}$"
           ],
           "answer": "D",
-          "solution": "<p>对于 $p_{1}$，当 $x>0$ 时，底数大小规律给出</p>\n$$\n\\left(\\frac{1}{2}\\right)^{x}>\\left(\\frac{1}{3}\\right)^{x}\n$$\n<p>所以 $p_{1}$ 为假.</p><p>对于 $0<x<1$，令 $t=-\\ln x>0$，则</p>\n$$\n\\log_{\\frac{1}{2}}x=\\frac{t}{\\ln2}\n$$\n<p>同理，</p>\n$$\n\\log_{\\frac{1}{3}}x=\\frac{t}{\\ln3}\n$$\n<p>因为 $\\ln2<\\ln3$，所以 $\\log_{\\frac{1}{2}}x>\\log_{\\frac{1}{3}}x$，从而 $p_{2}$ 为真.</p><p>命题 $p_{3}$ 不成立，例如取 $x=\\frac{1}{2}$，有</p>\n$$\n\\left(\\frac{1}{2}\\right)^{\\frac{1}{2}}=\\frac{1}{\\sqrt{2}}<1=\\log_{\\frac{1}{2}}\\frac{1}{2}\n$$\n<p>若 $0<x<\\frac{1}{3}$，由于底数 $\\frac{1}{3}<1$，有 $\\log_{\\frac{1}{3}}x>1$；同时 $0<\\left(\\frac{1}{2}\\right)^{x}<1$，所以 $p_{4}$ 为真.</p><p>故真命题为 $p_{2}$，$p_{4}$，选 D.</p>"
+          "solution": "<p>对于 $p_{1}$，当 $x>0$ 时，底数大小规律给出</p>\n$$\n\\left(\\frac{1}{2}\\right)^{x}>\\left(\\frac{1}{3}\\right)^{x}\n$$\n<p>所以 $p_{1}$ 为假.</p><p>对于 $0<x<1$，令 $t=-\\ln x>0$，则</p>\n$$\n\\log_{\\frac{1}{2}}x=\\frac{t}{\\ln2}\n$$\n<p>同理，</p>\n$$\n\\log_{\\frac{1}{3}}x=\\frac{t}{\\ln3}\n$$\n<p>因为 $\\ln2<\\ln3$，所以 $\\log_{\\frac{1}{2}}x>\\log_{\\frac{1}{3}}x$，从而 $p_{2}$ 为真.</p><p>命题 $p_{3}$ 不成立，例如取 $x=\\frac{1}{2}$，有</p>\n$$\n\\left(\\frac{1}{2}\\right)^{\\frac{1}{2}}=\\frac{1}{\\sqrt{2}}<1=\\log_{\\frac{1}{2}}\\frac{1}{2}\n$$\n<p>若 $0<x<\\frac{1}{3}$，由于底数 $\\frac{1}{3}<1$，有 $\\log_{\\frac{1}{3}}x>1$；同时 $0<\\left(\\frac{1}{2}\\right)^{x}<1$，所以 $p_{4}$ 为真.</p><p>故真命题为 $p_{2}$，$p_{4}$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +306,9 @@
             "$\\left[\\frac{1}{2},\\frac{2}{3}\\right)$"
           ],
           "answer": "A",
-          "solution": "<p>由于 $f$ 是偶函数，</p>\n$$\nf(2x-1)=f(|2x-1|)\n$$\n<p>又 $f$ 在 $[0,+\\infty)$ 上单调增加，因此</p>\n$$\nf(|2x-1|)<f\\left(\\frac{1}{3}\\right)  \\Longleftrightarrow |2x-1|<\\frac{1}{3}\n$$\n<p>解得</p>\n$$\n-\\frac{1}{3}<2x-1<\\frac{1}{3}\\Longleftrightarrow \\frac{1}{3}<x<\\frac{2}{3}\n$$\n<p>端点处等号成立，不能取，故选 A.</p>"
+          "solution": "<p>由于 $f$ 是偶函数，</p>\n$$\nf(2x-1)=f(|2x-1|)\n$$\n<p>又 $f$ 在 $[0,+\\infty)$ 上单调增加，因此</p>\n$$\nf(|2x-1|)<f\\left(\\frac{1}{3}\\right)  \\Longleftrightarrow |2x-1|<\\frac{1}{3}\n$$\n<p>解得</p>\n$$\n-\\frac{1}{3}<2x-1<\\frac{1}{3}\\Longleftrightarrow \\frac{1}{3}<x<\\frac{2}{3}\n$$\n<p>端点处等号成立，不能取，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +318,38 @@
         {
           "num": 13,
           "body": "在平面直角坐标系 $xOy$ 中，四边形 $ABCD$ 的边 $AB\\parallel DC$，$AD\\parallel BC$. 已知点 $A(-2,0)$，$B(6,8)$，$C(8,6)$，则 $D$ 点的坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(0,-2)$",
-          "solution": "<p>由 $AB\\parallel DC$，$AD\\parallel BC$，四边形 $ABCD$ 为平行四边形，因此</p>\n$$\n\\overrightarrow{AD}=\\overrightarrow{BC}\n$$\n<p>从而 $D=A+C-B$. 代入坐标得</p>\n$$\nD=(-2,0)+(8,6)-(6,8)=(0,-2)\n$$\n<p>所以填 $(0,-2)$.</p>"
+          "choices": [],
+          "answer": "\\((0,-2)\\)",
+          "solution": "<p>由 $AB\\parallel DC$，$AD\\parallel BC$，四边形 $ABCD$ 为平行四边形，因此</p>\n$$\n\\overrightarrow{AD}=\\overrightarrow{BC}\n$$\n<p>从而 $D=A+C-B$. 代入坐标得</p>\n$$\nD=(-2,0)+(8,6)-(6,8)=(0,-2)\n$$\n<p>所以填 $(0,-2)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
-          "body": "<p>已知函数 $f(x) = \\sin (\\omega x + \\varphi)$ （$\\omega > 0$）的图象如图所示，则 $\\omega =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{3}{2}$",
-          "solution": "<p>由图象可知，函数在 $x=0$ 处取得最小值，在 $x=\\frac{2\\pi}{3}$ 处取得最大值. 正弦函数从最小值到相邻最大值的自变量间隔为半个周期，所以</p>\n$$\n\\omega\\cdot\\frac{2\\pi}{3}=\\pi\n$$\n<p>由于 $\\omega>0$，得 $\\omega=\\frac{3}{2}$.</p>"
+          "body": "<p>已知函数 $f(x) = \\sin (\\omega x + \\varphi)$ （$\\omega > 0$）的图象如图所示，则 $\\omega =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/liaoning_liberal/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{3}{2}\\)",
+          "solution": "<p>由图象可知，函数在 $x=0$ 处取得最小值，在 $x=\\frac{2\\pi}{3}$ 处取得最大值. 正弦函数从最小值到相邻最大值的自变量间隔为半个周期，所以</p>\n$$\n\\omega\\cdot\\frac{2\\pi}{3}=\\pi\n$$\n<p>由于 $\\omega>0$，得 $\\omega=\\frac{3}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "若函数 $f(x) = \\frac{x^{2} + a}{x + 1}$ 在 $x = 1$ 处取极值，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$3$",
-          "solution": "<p>函数在 $x=1$ 附近可导，若在 $x=1$ 处取极值，则必有 $f'(1)=0$. 求导得</p>\n$$\nf'(x)=\\frac{2x(x+1)-(x^{2}+a)}{(x+1)^{2}}=\\frac{x^{2}+2x-a}{(x+1)^{2}}\n$$\n<p>因此</p>\n$$\n0=f'(1)=\\frac{3-a}{4}\n$$\n<p>所以 $a=3$.</p><p>此时</p>\n$$\nf'(x)=\\frac{(x-1)(x+3)}{(x+1)^{2}}\n$$\n<p>在 $x=1$ 左右两侧的符号分别为负和正，因而确实在 $x=1$ 取极小值，与题设一致.</p>"
+          "choices": [],
+          "answer": "\\(3\\)",
+          "solution": "<p>函数在 $x=1$ 附近可导，若在 $x=1$ 处取极值，则必有 $f'(1)=0$. 求导得</p>\n$$\nf'(x)=\\frac{2x(x+1)-(x^{2}+a)}{(x+1)^{2}}=\\frac{x^{2}+2x-a}{(x+1)^{2}}\n$$\n<p>因此</p>\n$$\n0=f'(1)=\\frac{3-a}{4}\n$$\n<p>所以 $a=3$.</p><p>此时</p>\n$$\nf'(x)=\\frac{(x-1)(x+3)}{(x+1)^{2}}\n$$\n<p>在 $x=1$ 左右两侧的符号分别为负和正，因而确实在 $x=1$ 取极小值，与题设一致.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
-          "body": "<p>设某几何体的三视图如下 （尺寸的长度单位为 $\\mathrm{m}$）. 则该几何体的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\mathrm{m}^{3}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$4$",
-          "solution": "<p>由三视图均为三角形，可知该几何体为三棱锥. 由三视图的尺寸可知，底面三角形的一边长为 $4\\mathrm{~m}$，该边上的高为 $3\\mathrm{~m}$，棱锥的高为 $2\\mathrm{~m}$. 因此底面积为</p>\n$$\nS=\\frac{1}{2}\\times3\\times4=6\\mathrm{~m}^{2}\n$$\n<p>由棱锥体积公式，</p>\n$$\nV=\\frac{1}{3}Sh=\\frac{1}{3}\\times6\\times2=4\\mathrm{~m}^{3}\n$$\n<p>所以填 $4$.</p>"
+          "body": "<p>设某几何体的三视图如下 （尺寸的长度单位为 $\\mathrm{m}$）. 则该几何体的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\mathrm{m}^{3}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/liaoning_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(4\\)",
+          "solution": "<p>由三视图均为三角形，可知该几何体为三棱锥. 由三视图的尺寸可知，底面三角形的一边长为 $4\\mathrm{~m}$，该边上的高为 $3\\mathrm{~m}$，棱锥的高为 $2\\mathrm{~m}$. 因此底面积为</p>\n$$\nS=\\frac{1}{2}\\times3\\times4=6\\mathrm{~m}^{2}\n$$\n<p>由棱锥体积公式，</p>\n$$\nV=\\frac{1}{3}Sh=\\frac{1}{3}\\times6\\times2=4\\mathrm{~m}^{3}\n$$\n<p>所以填 $4$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "<p>等比数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$. 已知 $S_{1}$，$S_{3}$，$S_{2}$ 成等差数列.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的公比 $q$；</p></li><li><p>若 $a_{1}- a_{3}= 3$，求 $S_{n}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等比数列的首项为 $a_{1}$，公比为 $q$. 由等比数列的定义，$a_{1}\\neq 0$，且 $q\\neq 0$. 因为</p><p>$S_{1}=a_{1}$，$S_{2}=a_{1}(1+q)$，$S_{3}=a_{1}(1+q+q^{2})$.</p><p>又 $S_{1}$，$S_{3}$，$S_{2}$ 成等差数列，所以</p>\n$$\nS_{1}+S_{2}=2S_{3}\n$$\n<p>代入上式并约去 $a_{1}$，得</p>\n$$\n1+(1+q)=2(1+q+q^{2})   \\Longleftrightarrow   q(2q+1)=0\n$$\n<p>由于 $q\\neq0$，故 $q=-\\frac{1}{2}$.</p></li><li><p>由 $a_{1}-a_{3}=3$ 及 $a_{3}=a_{1}q^{2}$，得</p>\n$$\na_{1}\\left(1-q^{2}\\right)=3   \\Longleftrightarrow   a_{1}\\left(1-\\frac{1}{4}\\right)=3\n$$\n<p>所以 $a_{1}=4$. 因此</p>\n$$\nS_{n}=\\frac{a_{1}(1-q^{n})}{1-q}=\\frac{4\\left(1-\\left(-\\frac{1}{2}\\right)^{n}\\right)}{1+\\frac{1}{2}}=\\frac{8}{3}\\left(1-\\left(-\\frac{1}{2}\\right)^{n}\\right)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等比数列的首项为 $a_{1}$，公比为 $q$. 由等比数列的定义，$a_{1}\\neq 0$，且 $q\\neq 0$. 因为</p><p>$S_{1}=a_{1}$，$S_{2}=a_{1}(1+q)$，$S_{3}=a_{1}(1+q+q^{2})$.</p><p>又 $S_{1}$，$S_{3}$，$S_{2}$ 成等差数列，所以</p>\n$$\nS_{1}+S_{2}=2S_{3}\n$$\n<p>代入上式并约去 $a_{1}$，得</p>\n$$\n1+(1+q)=2(1+q+q^{2})   \\Longleftrightarrow   q(2q+1)=0\n$$\n<p>由于 $q\\neq0$，故 $q=-\\frac{1}{2}$.</p></li><li><p>由 $a_{1}-a_{3}=3$ 及 $a_{3}=a_{1}q^{2}$，得</p>\n$$\na_{1}\\left(1-q^{2}\\right)=3   \\Longleftrightarrow   a_{1}\\left(1-\\frac{1}{4}\\right)=3\n$$\n<p>所以 $a_{1}=4$. 因此</p>\n$$\nS_{n}=\\frac{a_{1}(1-q^{n})}{1-q}=\\frac{4\\left(1-\\left(-\\frac{1}{2}\\right)^{n}\\right)}{1+\\frac{1}{2}}=\\frac{8}{3}\\left(1-\\left(-\\frac{1}{2}\\right)^{n}\\right)\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，$A$，$B$，$C$，$D$ 都在同一个与水平面垂直的平面内，$B$，$D$ 为两岛上的两座灯塔的塔顶. 测量船于水面 $A$ 处测得 $B$ 点和 $D$ 点的仰角分别为 $75^{\\circ}$，$30^{\\circ}$，于水面 $C$ 处测得 $B$ 点和 $D$ 点的仰角均为 $60^{\\circ}$，$AC = 0.1 \\mathrm{~km}$. 试探究图中 $B$，$D$ 间距离与另外哪两点间距离相等，然后求出 $B$，$D$ 的距离. （计算结果精确到 $0.01 \\mathrm{~km}$，$\\sqrt{2}\\approx 1.414$，$\\sqrt{6}\\approx 2.449$）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，$A$，$B$，$C$，$D$ 都在同一个与水平面垂直的平面内，$B$，$D$ 为两岛上的两座灯塔的塔顶. 测量船于水面 $A$ 处测得 $B$ 点和 $D$ 点的仰角分别为 $75^{\\circ}$，$30^{\\circ}$，于水面 $C$ 处测得 $B$ 点和 $D$ 点的仰角均为 $60^{\\circ}$，$AC = 0.1 \\mathrm{~km}$. 试探究图中 $B$，$D$ 间距离与另外哪两点间距离相等，然后求出 $B$，$D$ 的距离. （计算结果精确到 $0.01 \\mathrm{~km}$，$\\sqrt{2}\\approx 1.414$，$\\sqrt{6}\\approx 2.449$）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/liaoning_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>在 $\\triangle ACD$ 中，$\\angle DAC=30^{\\circ}$，且在 $C$ 点，射线 $CA$ 与 $CD$ 的夹角为 $180^{\\circ}-60^{\\circ}=120^{\\circ}$，即 $\\angle ACD=120^{\\circ}$. 因而</p>\n$$\n\\angle ADC=180^{\\circ}-30^{\\circ}-120^{\\circ}=30^{\\circ}\n$$\n<p>所以 $\\angle DAC=\\angle ADC$，从而 $CD=AC=0.1\\mathrm{~km}$，即 $\\triangle ACD$ 是等腰三角形.</p><p>由 $C$ 点测得 $B$ 点的仰角为 $60^{\\circ}$，有 $\\angle BCA=60^{\\circ}$；由 $C$ 点测得 $D$ 点的仰角为 $60^{\\circ}$，且 $\\angle ACD=120^{\\circ}$，有</p>\n$$\n\\angle BCD=\\angle ACD-\\angle BCA=60^{\\circ}\n$$\n<p>所以 $CB$ 平分 $\\angle ACD$. 等腰三角形 $ACD$ 的顶角平分线也是底边 $AD$ 的垂直平分线，所以</p>\n$$\nBD=BA\n$$\n<p>在 $\\triangle ABC$ 中，$\\angle BAC=180^{\\circ}-75^{\\circ}=105^{\\circ}$，$\\angle BCA=60^{\\circ}$，$\\angle ABC=15^{\\circ}$.</p><p>由正弦定理，</p>\n$$\n\\frac{AB}{\\sin60^{\\circ}}=\\frac{AC}{\\sin15^{\\circ}}\n$$\n<p>所以</p>\n$$\nBD=BA=\\frac{0.1\\sin60^{\\circ}}{\\sin15^{\\circ}}=\\frac{3\\sqrt{2}+\\sqrt{6}}{20}\\mathrm{~km}\\approx\\frac{3\\times1.414+2.449}{20}\\mathrm{~km}\\approx0.33\\mathrm{~km}\n$$"
+          "solution": "<p>在 $\\triangle ACD$ 中，$\\angle DAC=30^{\\circ}$，且在 $C$ 点，射线 $CA$ 与 $CD$ 的夹角为 $180^{\\circ}-60^{\\circ}=120^{\\circ}$，即 $\\angle ACD=120^{\\circ}$. 因而</p>\n$$\n\\angle ADC=180^{\\circ}-30^{\\circ}-120^{\\circ}=30^{\\circ}\n$$\n<p>所以 $\\angle DAC=\\angle ADC$，从而 $CD=AC=0.1\\mathrm{~km}$，即 $\\triangle ACD$ 是等腰三角形.</p><p>由 $C$ 点测得 $B$ 点的仰角为 $60^{\\circ}$，有 $\\angle BCA=60^{\\circ}$；由 $C$ 点测得 $D$ 点的仰角为 $60^{\\circ}$，且 $\\angle ACD=120^{\\circ}$，有</p>\n$$\n\\angle BCD=\\angle ACD-\\angle BCA=60^{\\circ}\n$$\n<p>所以 $CB$ 平分 $\\angle ACD$. 等腰三角形 $ACD$ 的顶角平分线也是底边 $AD$ 的垂直平分线，所以</p>\n$$\nBD=BA\n$$\n<p>在 $\\triangle ABC$ 中，$\\angle BAC=180^{\\circ}-75^{\\circ}=105^{\\circ}$，$\\angle BCA=60^{\\circ}$，$\\angle ABC=15^{\\circ}$.</p><p>由正弦定理，</p>\n$$\n\\frac{AB}{\\sin60^{\\circ}}=\\frac{AC}{\\sin15^{\\circ}}\n$$\n<p>所以</p>\n$$\nBD=BA=\\frac{0.1\\sin60^{\\circ}}{\\sin15^{\\circ}}=\\frac{3\\sqrt{2}+\\sqrt{6}}{20}\\mathrm{~km}\\approx\\frac{3\\times1.414+2.449}{20}\\mathrm{~km}\\approx0.33\\mathrm{~km}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>如图，已知两个正方形 $ABCD$ 和 $DCEF$ 不在同一平面内，$M$，$N$ 分别为 $AB$，$DF$ 的中点.</p><ol class=\"enumerate\"><li><p>若 $CD = 2$，平面 $ABCD \\perp$ 平面 $DCEF$，求直线 $MN$ 的长；</p></li><li><p>用反证法证明：直线 $ME$ 与 $BN$ 是两条异面直线.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，已知两个正方形 $ABCD$ 和 $DCEF$ 不在同一平面内，$M$，$N$ 分别为 $AB$，$DF$ 的中点.</p><ol class=\"enumerate\"><li><p>若 $CD = 2$，平面 $ABCD \\perp$ 平面 $DCEF$，求直线 $MN$ 的长；</p></li><li><p>用反证法证明：直线 $ME$ 与 $BN$ 是两条异面直线.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/liaoning_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取 $G$ 为 $CD$ 的中点，连接 $MG$，$NG$. 由于 $ABCD$ 为边长为 $2$ 的正方形，$MG\\parallel AD$，所以 $MG\\perp CD$，且 $MG=AD=2$. 在 $\\triangle DCF$ 中，$G$，$N$ 分别为 $DC$，$DF$ 的中点，故 $GN\\parallel CF$. 因为 $CF$ 是正方形 $DCEF$ 的对角线，所以</p>\n$$\nGN=\\frac{1}{2}CF=\\frac{1}{2}\\sqrt{CD^{2}+DF^{2}}=\\frac{1}{2}\\sqrt{2^{2}+2^{2}}=\\sqrt{2}\n$$\n<p>因为平面 $ABCD\\perp$ 平面 $DCEF$，且 $MG$ 在平面 $ABCD$ 内并垂直于两平面的交线 $CD$，所以 $MG\\perp$ 平面 $DCEF$，进而 $MG\\perp GN$. 因此在直角三角形 $MGN$ 中，</p>\n$$\nMN=\\sqrt{MG^{2}+GN^{2}}=\\sqrt{2^{2}+\\left(\\sqrt{2}\\right)^{2}}=\\sqrt{6}\n$$\n</li><li><p>反设直线 $ME$ 与 $BN$ 共面，设它们所在的平面为 $\\pi$. 由于 $M$，$B$ 在直线 $AB$ 上，故 $AB\\subset\\pi$. 在正方形 $ABCD$ 中，$AB\\parallel CD$，而 $CD$ 是两平面的交线；又因两正方形不在同一平面内，故 $AB$ 不在平面 $DCEF$ 内，从而</p>\n$$\nAB\\parallel\\text{平面 }DCEF\n$$\n<p>因为 $E$，$N$ 在平面 $DCEF$ 内，且 $E$，$N$ 也在 $\\pi$ 内，$\\pi$ 不等于平面 $DCEF$，所以</p>\n$$\n\\pi\\cap\\text{平面 }DCEF=EN\n$$\n<p>直线 $AB$ 在平面 $\\pi$ 内且平行于平面 $DCEF$，因此 $AB\\parallel EN$. 又在正方形 $DCEF$ 中，$CD\\parallel EF$，故</p>\n$$\nAB\\parallel CD\\parallel EF\n$$\n<p>于是 $EN\\parallel EF$. 但直线 $EN$ 与 $EF$ 都经过点 $E$，这将导致 $N\\in EF$. 同时 $N\\in DF$，而 $DF\\cap EF=\\{F\\}$，故只能有 $N=F$，与 $N$ 是 $DF$ 的中点矛盾.</p><p>所以直线 $ME$ 与 $BN$ 不共面，故它们是异面直线.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取 $G$ 为 $CD$ 的中点，连接 $MG$，$NG$. 由于 $ABCD$ 为边长为 $2$ 的正方形，$MG\\parallel AD$，所以 $MG\\perp CD$，且 $MG=AD=2$. 在 $\\triangle DCF$ 中，$G$，$N$ 分别为 $DC$，$DF$ 的中点，故 $GN\\parallel CF$. 因为 $CF$ 是正方形 $DCEF$ 的对角线，所以</p>\n$$\nGN=\\frac{1}{2}CF=\\frac{1}{2}\\sqrt{CD^{2}+DF^{2}}=\\frac{1}{2}\\sqrt{2^{2}+2^{2}}=\\sqrt{2}\n$$\n<p>因为平面 $ABCD\\perp$ 平面 $DCEF$，且 $MG$ 在平面 $ABCD$ 内并垂直于两平面的交线 $CD$，所以 $MG\\perp$ 平面 $DCEF$，进而 $MG\\perp GN$. 因此在直角三角形 $MGN$ 中，</p>\n$$\nMN=\\sqrt{MG^{2}+GN^{2}}=\\sqrt{2^{2}+\\left(\\sqrt{2}\\right)^{2}}=\\sqrt{6}\n$$\n</li><li><p>反设直线 $ME$ 与 $BN$ 共面，设它们所在的平面为 $\\pi$. 由于 $M$，$B$ 在直线 $AB$ 上，故 $AB\\subset\\pi$. 在正方形 $ABCD$ 中，$AB\\parallel CD$，而 $CD$ 是两平面的交线；又因两正方形不在同一平面内，故 $AB$ 不在平面 $DCEF$ 内，从而</p>\n$$\nAB\\parallel\\text{平面 }DCEF\n$$\n<p>因为 $E$，$N$ 在平面 $DCEF$ 内，且 $E$，$N$ 也在 $\\pi$ 内，$\\pi$ 不等于平面 $DCEF$，所以</p>\n$$\n\\pi\\cap\\text{平面 }DCEF=EN\n$$\n<p>直线 $AB$ 在平面 $\\pi$ 内且平行于平面 $DCEF$，因此 $AB\\parallel EN$. 又在正方形 $DCEF$ 中，$CD\\parallel EF$，故</p>\n$$\nAB\\parallel CD\\parallel EF\n$$\n<p>于是 $EN\\parallel EF$. 但直线 $EN$ 与 $EF$ 都经过点 $E$，这将导致 $N\\in EF$. 同时 $N\\in DF$，而 $DF\\cap EF=\\{F\\}$，故只能有 $N=F$，与 $N$ 是 $DF$ 的中点矛盾.</p><p>所以直线 $ME$ 与 $BN$ 不共面，故它们是异面直线.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>某企业有两个分厂生产某种零件，按规定内径尺寸 （单位：$\\mathrm{mm}$） 的值落在 $[29.94, 30.06]$ 的零件为优质品. 从两个分厂生产的零件中各抽出 $500$ 件，量其内径尺寸，得结果如下表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">甲厂 </td><td style=\"text-align: center\"> 乙厂 </td></tr><tr><td style=\"text-align: center\"><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>分组 </td><td style=\"text-align: center; border-right: 1px solid\"> 频数 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[29.86,29.90)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $12$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[29.90,29.94)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $63$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[29.84,29.98)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $86$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[29.98,30.02)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $182$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[30.02,30.06)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $92$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[30.06,30.10)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $61$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[30.10,30.14)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $4$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table><br></td><td style=\"text-align: center\"><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>分组 </td><td style=\"text-align: center; border-right: 1px solid\"> 频数 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[29.86,29.90)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $29$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[29.90,29.94)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $71$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[29.84,29.98)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $85$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[29.98,30.02)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $159$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[30.02,30.06)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $76$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[30.06,30.10)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $62$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[30.10,30.14)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $18$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>试分别估计两个分厂生产的零件的优质品率；</p></li><li><p>由于以上统计数据填下面 $2 \\times 2$ 列联表，并问是否有 $99\\%$ 的把握认为 “两个分厂生产的零件的质量有差异”.</p></li></ol><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td><td style=\"text-align: center; border-right: 1px solid\"> 甲厂 </td><td style=\"text-align: center; border-right: 1px solid\"> 乙厂 </td><td style=\"text-align: center; border-right: 1px solid\"> 合计 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>优质品 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>非优质品 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>合计 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>附：$\\chi^{2} = \\frac{n(n_{11}n_{22}- n_{12}n_{21})^{2}}{n_{1+}n_{2+}n_{+1}n_{+2}}$，</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$P(\\chi^{2} \\ge k)$ </td><td style=\"text-align: center\"> $0.05$ </td><td style=\"text-align: center\"> $0.01$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$k$ </td><td style=\"text-align: center\"> $3.841$ </td><td style=\"text-align: center\"> $6.635$</td></tr></tbody></table></center>",
-          "choices": null,
+          "body": "<p>某企业有两个分厂生产某种零件，按规定内径尺寸 （单位：$\\mathrm{mm}$） 的值落在 $[29.94, 30.06]$ 的零件为优质品. 从两个分厂生产的零件中各抽出 $500$ 件，量其内径尺寸，得结果如下表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">甲厂 </td><td style=\"text-align: center\"> 乙厂 </td></tr><tr><td style=\"text-align: center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">分组 </td><td style=\"text-align: center; border-right: 1px solid\"> 频数 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[29.86,29.90)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $12$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[29.90,29.94)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $63$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[29.84,29.98)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $86$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[29.98,30.02)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $182$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[30.02,30.06)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $92$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[30.06,30.10)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $61$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[30.10,30.14)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $4$ </td></tr></tbody></table></td><td style=\"text-align: center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">分组 </td><td style=\"text-align: center; border-right: 1px solid\"> 频数 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[29.86,29.90)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $29$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[29.90,29.94)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $71$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[29.84,29.98)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $85$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[29.98,30.02)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $159$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[30.02,30.06)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $76$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[30.06,30.10)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $62$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[30.10,30.14)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $18$ </td></tr></tbody></table></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>试分别估计两个分厂生产的零件的优质品率；</p></li><li><p>由于以上统计数据填下面 $2 \\times 2$ 列联表，并问是否有 $99\\%$ 的把握认为 “两个分厂生产的零件的质量有差异”.</p></li></ol><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"></td><td style=\"text-align: center; border-right: 1px solid\"> 甲厂 </td><td style=\"text-align: center; border-right: 1px solid\"> 乙厂 </td><td style=\"text-align: center; border-right: 1px solid\"> 合计 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">优质品 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">非优质品 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">合计 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr></tbody></table></center><p>附：$\\chi^{2} = \\frac{n(n_{11}n_{22}- n_{12}n_{21})^{2}}{n_{1+}n_{2+}n_{+1}n_{+2}}$，</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$P(\\chi^{2} \\ge k)$ </td><td style=\"text-align: center\"> $0.05$ </td><td style=\"text-align: center\"> $0.01$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$k$ </td><td style=\"text-align: center\"> $3.841$ </td><td style=\"text-align: center\"> $6.635$</td></tr></tbody></table></center>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>原试卷表格中的第三组印为 $[29.84,29.98)$，它与前两组不连续，且与优质品区间的左端点 $29.94$ 相交. 设甲、乙两厂第三组中尺寸落在 $[29.94,29.98)$ 的频数分别为 $u$、$v$，则由原表只能得到 $0\\le u\\leqslant86$、$0\\le v\\leqslant85$，而不能确定 $u$、$v$ 的具体值. 因而严格按原试卷的印刷数据，两个优质品率只能分别表示为</p>\n$$\n\\frac{u+182+92}{500}=\\frac{u+274}{500}\n$$\n\n$$\n\\frac{v+159+76}{500}=\\frac{v+235}{500}\n$$\n<p>不能由表中数据唯一确定.</p><p>两份独立公开同题资料均将第三组记为连续分组 $[29.94,29.98)$. 按这一与题意及标准答案一致的修正版，甲厂抽查的优质品有</p>\n$$\n86+182+92=360\\text{ 件}\n$$\n<p>甲厂生产的零件优质品率估计为</p>\n$$\n\\frac{360}{500}=72\\%\n$$\n<p>乙厂抽查的优质品有</p>\n$$\n85+159+76=320\\text{ 件}\n$$\n<p>乙厂生产的零件优质品率估计为</p>\n$$\n\\frac{320}{500}=64\\%\n$$\n</li><li><p>在上述修正版数据下，列联表为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td><td style=\"text-align: center; border-right: 1px solid\"> 甲厂 </td><td style=\"text-align: center; border-right: 1px solid\"> 乙厂 </td><td style=\"text-align: center; border-right: 1px solid\"> 合计 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>优质品 </td><td style=\"text-align: center; border-right: 1px solid\"> 360 </td><td style=\"text-align: center; border-right: 1px solid\"> 320 </td><td style=\"text-align: center; border-right: 1px solid\"> 680 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>非优质品 </td><td style=\"text-align: center; border-right: 1px solid\"> 140 </td><td style=\"text-align: center; border-right: 1px solid\"> 180 </td><td style=\"text-align: center; border-right: 1px solid\"> 320 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>合计 </td><td style=\"text-align: center; border-right: 1px solid\"> 500 </td><td style=\"text-align: center; border-right: 1px solid\"> 500 </td><td style=\"text-align: center; border-right: 1px solid\"> 1000 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p><p>所以</p>\n$$\n\\chi^{2}=\\frac{1000(360\\cdot180-320\\cdot140)^{2}}{500\\cdot500\\cdot680\\cdot320}\\approx7.35\n$$\n<p>由于 $7.35>6.635$，按修正版数据有 $99\\%$ 的把握认为两个分厂生产的零件的质量有差异. 原试卷的第三组数据与该标准结论存在排印冲突，不能据此把印刷数据本身当作无歧义数据.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>原试卷表格中的第三组印为 $[29.84,29.98)$，它与前两组不连续，且与优质品区间的左端点 $29.94$ 相交. 设甲、乙两厂第三组中尺寸落在 $[29.94,29.98)$ 的频数分别为 $u$、$v$，则由原表只能得到 $0\\le u\\leqslant86$、$0\\le v\\leqslant85$，而不能确定 $u$、$v$ 的具体值. 因而严格按原试卷的印刷数据，两个优质品率只能分别表示为</p>\n$$\n\\frac{u+182+92}{500}=\\frac{u+274}{500}\n$$\n\n$$\n\\frac{v+159+76}{500}=\\frac{v+235}{500}\n$$\n<p>不能由表中数据唯一确定.</p><p>两份独立公开同题资料均将第三组记为连续分组 $[29.94,29.98)$. 按这一与题意及标准答案一致的修正版，甲厂抽查的优质品有</p>\n$$\n86+182+92=360\\text{ 件}\n$$\n<p>甲厂生产的零件优质品率估计为</p>\n$$\n\\frac{360}{500}=72\\%\n$$\n<p>乙厂抽查的优质品有</p>\n$$\n85+159+76=320\\text{ 件}\n$$\n<p>乙厂生产的零件优质品率估计为</p>\n$$\n\\frac{320}{500}=64\\%\n$$\n</li><li><p>在上述修正版数据下，列联表为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"></td><td style=\"text-align: center; border-right: 1px solid\"> 甲厂 </td><td style=\"text-align: center; border-right: 1px solid\"> 乙厂 </td><td style=\"text-align: center; border-right: 1px solid\"> 合计 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">优质品 </td><td style=\"text-align: center; border-right: 1px solid\"> 360 </td><td style=\"text-align: center; border-right: 1px solid\"> 320 </td><td style=\"text-align: center; border-right: 1px solid\"> 680 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">非优质品 </td><td style=\"text-align: center; border-right: 1px solid\"> 140 </td><td style=\"text-align: center; border-right: 1px solid\"> 180 </td><td style=\"text-align: center; border-right: 1px solid\"> 320 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">合计 </td><td style=\"text-align: center; border-right: 1px solid\"> 500 </td><td style=\"text-align: center; border-right: 1px solid\"> 500 </td><td style=\"text-align: center; border-right: 1px solid\"> 1000 </td></tr></tbody></table></center><p></p><p>所以</p>\n$$\n\\chi^{2}=\\frac{1000(360\\cdot180-320\\cdot140)^{2}}{500\\cdot500\\cdot680\\cdot320}\\approx7.35\n$$\n<p>由于 $7.35>6.635$，按修正版数据有 $99\\%$ 的把握认为两个分厂生产的零件的质量有差异. 原试卷的第三组数据与该标准结论存在排印冲突，不能据此把印刷数据本身当作无歧义数据.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>设 $f(x) = \\mathrm{e}^{x}(ax^{2}+ x + 1)$，且曲线 $y = f(x)$ 在 $x = 1$ 处的切线与 $x$ 轴平行.</p><ol class=\"enumerate\"><li><p>求 $a$ 的值，并讨论 $f(x)$ 的单调性；</p></li><li><p>证明：当 $\\theta \\in \\left[0, \\frac{\\pi}{2}\\right]$ 时，$|f(\\cos \\theta) - f(\\sin \\theta)| < 2$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\nf'(x)=\\mathrm{e}^{x}\\left(ax^{2}+x+1+2ax+1\\right)  =\\mathrm{e}^{x}\\left(ax^{2}+(2a+1)x+2\\right)\n$$\n<p>且曲线在 $x=1$ 处的切线与 $x$ 轴平行，得 $f'(1)=0$. 因为 $\\mathrm{e}\\neq0$，所以</p>\n$$\na+(2a+1)+2=0\n$$\n<p>即 $a=-1$. 此时</p>\n$$\nf'(x)=\\mathrm{e}^{x}(-x^{2}-x+2)=-\\mathrm{e}^{x}(x+2)(x-1)\n$$\n<p>由于 $\\mathrm{e}^{x}>0$，故当 $x\\in(-\\infty,-2)\\cup(1,+\\infty)$ 时，$f'(x)<0$；当 $x\\in(-2,1)$ 时，$f'(x)>0$. 所以 $f(x)$ 在 $(-\\infty,-2)$，$(1,+\\infty)$ 上单调减少，在 $(-2,1)$ 上单调增加.</p></li><li><p>由上问知 $f(x)$ 在 $[0,1]$ 上单调增加，且 $f(0)=1$，$f(1)=\\mathrm{e}$.</p><p>因此对于任意 $x_{1}$，$x_{2}\\in[0,1]$，有</p>\n$$\n\\left|f(x_{1})-f(x_{2})\\right|\\le f(1)-f(0)=\\mathrm{e}-1<2\n$$\n<p>其中 $\\mathrm{e}<3$，例如由</p>\n$$\n\\mathrm{e}=\\sum_{k=0}^{\\infty}\\frac{1}{k!}<1+1+\\sum_{k=2}^{\\infty}\\frac{1}{2^{k-1}}=3\n$$\n<p>可得 $\\mathrm{e}-1<2$.</p><p>当 $\\theta\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，$\\cos\\theta$，$\\sin\\theta\\in[0,1]$，代入上式即得</p>\n$$\n\\left|f(\\cos\\theta)-f(\\sin\\theta)\\right|<2\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\nf'(x)=\\mathrm{e}^{x}\\left(ax^{2}+x+1+2ax+1\\right)  =\\mathrm{e}^{x}\\left(ax^{2}+(2a+1)x+2\\right)\n$$\n<p>且曲线在 $x=1$ 处的切线与 $x$ 轴平行，得 $f'(1)=0$. 因为 $\\mathrm{e}\\neq0$，所以</p>\n$$\na+(2a+1)+2=0\n$$\n<p>即 $a=-1$. 此时</p>\n$$\nf'(x)=\\mathrm{e}^{x}(-x^{2}-x+2)=-\\mathrm{e}^{x}(x+2)(x-1)\n$$\n<p>由于 $\\mathrm{e}^{x}>0$，故当 $x\\in(-\\infty,-2)\\cup(1,+\\infty)$ 时，$f'(x)<0$；当 $x\\in(-2,1)$ 时，$f'(x)>0$. 所以 $f(x)$ 在 $(-\\infty,-2)$，$(1,+\\infty)$ 上单调减少，在 $(-2,1)$ 上单调增加.</p></li><li><p>由上问知 $f(x)$ 在 $[0,1]$ 上单调增加，且 $f(0)=1$，$f(1)=\\mathrm{e}$.</p><p>因此对于任意 $x_{1}$，$x_{2}\\in[0,1]$，有</p>\n$$\n\\left|f(x_{1})-f(x_{2})\\right|\\le f(1)-f(0)=\\mathrm{e}-1<2\n$$\n<p>其中 $\\mathrm{e}<3$，例如由</p>\n$$\n\\mathrm{e}=\\sum_{k=0}^{\\infty}\\frac{1}{k!}<1+1+\\sum_{k=2}^{\\infty}\\frac{1}{2^{k-1}}=3\n$$\n<p>可得 $\\mathrm{e}-1<2$.</p><p>当 $\\theta\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，$\\cos\\theta$，$\\sin\\theta\\in[0,1]$，代入上式即得</p>\n$$\n\\left|f(\\cos\\theta)-f(\\sin\\theta)\\right|<2\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知椭圆 $C$ 过点 $A\\left(1, \\frac{3}{2}\\right)$，两个焦点为 $(-1, 0)$，$(1, 0)$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>$E$，$F$ 是椭圆 $C$ 上的两个动点，如果直线 $AE$ 的斜率与 $AF$ 的斜率互为相反数，证明直线 $EF$ 的斜率为定值. 并求出这个定值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的长半轴、短半轴分别为 $a$，$b$，焦距的一半为 $c$. 由焦点坐标可知 $c=1$，所以</p>\n$$\na^{2}-b^{2}=c^{2}=1\n$$\n<p>又因为点 $A\\left(1,\\frac{3}{2}\\right)$ 在椭圆上，故</p>\n$$\n\\frac{1}{a^{2}}+\\frac{9}{4b^{2}}=1\n$$\n<p>代入 $b^{2}=a^{2}-1$，得</p>\n$$\n\\frac{1}{a^{2}}+\\frac{9}{4(a^{2}-1)}=1   \\Longleftrightarrow   4a^{4}-17a^{2}+4=0\n$$\n<p>于是</p>\n$$\n(a^{2}-4)(4a^{2}-1)=0\n$$\n<p>因为 $a^{2}>1$，所以 $a^{2}=4$，进而 $b^{2}=3$. 因此椭圆 $C$ 的方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n</li><li><p>设直线 $AE$ 的斜率为 $k$，则其方程为</p>\n$$\ny=k(x-1)+\\frac{3}{2}\n$$\n<p>代入椭圆方程并乘以 $12$，得</p>\n$$\n(3+4k^{2})x^{2}+4k(3-2k)x+4\\left(\\frac{3}{2}-k\\right)^{2}-12=0\n$$\n<p>由于点 $A$ 在该直线上且横坐标为 $1$，上式的一个根为 $1$. 设另一个交点为 $E(x_{E},y_{E})$，由根与系数的关系得</p>\n$$\nx_{E}=\\frac{4\\left(\\frac{3}{2}-k\\right)^{2}-12}{3+4k^{2}}\n$$\n<p>又 $y_{E}=kx_{E}+\\frac{3}{2}-k$.</p><p>直线 $AF$ 的斜率为 $-k$，同理</p>\n$$\nx_{F}=\\frac{4\\left(\\frac{3}{2}+k\\right)^{2}-12}{3+4k^{2}}\n$$\n<p>又 $y_{F}=-kx_{F}+\\frac{3}{2}+k$.</p><p>由于直线 $EF$ 有定义，$k\\neq0$. 两个横坐标之差为</p>\n$$\nx_{F}-x_{E}=\\frac{4\\left[\\left(\\frac{3}{2}+k\\right)^{2}-\\left(\\frac{3}{2}-k\\right)^{2}\\right]}{3+4k^{2}}=\\frac{24k}{3+4k^{2}}\n$$\n<p>以及</p>\n$$\nx_{E}+x_{F}=\\frac{4\\left(\\frac{3}{2}-k\\right)^{2}+4\\left(\\frac{3}{2}+k\\right)^{2}-24}{3+4k^{2}}=\\frac{8k^{2}-6}{3+4k^{2}}\n$$\n<p>从而</p>\n$$\n2-x_{E}-x_{F}=\\frac{12}{3+4k^{2}}\n$$\n<p>所以</p>\n$$\n\\frac{y_{F}-y_{E}}{x_{F}-x_{E}}=\\frac{-k(x_{F}+x_{E})+2k}{x_{F}-x_{E}}=\\frac{k(2-x_{E}-x_{F})}{x_{F}-x_{E}}=\\frac{1}{2}\n$$\n<p>因此直线 $EF$ 的斜率为定值 $\\frac{1}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的长半轴、短半轴分别为 $a$，$b$，焦距的一半为 $c$. 由焦点坐标可知 $c=1$，所以</p>\n$$\na^{2}-b^{2}=c^{2}=1\n$$\n<p>又因为点 $A\\left(1,\\frac{3}{2}\\right)$ 在椭圆上，故</p>\n$$\n\\frac{1}{a^{2}}+\\frac{9}{4b^{2}}=1\n$$\n<p>代入 $b^{2}=a^{2}-1$，得</p>\n$$\n\\frac{1}{a^{2}}+\\frac{9}{4(a^{2}-1)}=1   \\Longleftrightarrow   4a^{4}-17a^{2}+4=0\n$$\n<p>于是</p>\n$$\n(a^{2}-4)(4a^{2}-1)=0\n$$\n<p>因为 $a^{2}>1$，所以 $a^{2}=4$，进而 $b^{2}=3$. 因此椭圆 $C$ 的方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n</li><li><p>设直线 $AE$ 的斜率为 $k$，则其方程为</p>\n$$\ny=k(x-1)+\\frac{3}{2}\n$$\n<p>代入椭圆方程并乘以 $12$，得</p>\n$$\n(3+4k^{2})x^{2}+4k(3-2k)x+4\\left(\\frac{3}{2}-k\\right)^{2}-12=0\n$$\n<p>由于点 $A$ 在该直线上且横坐标为 $1$，上式的一个根为 $1$. 设另一个交点为 $E(x_{E},y_{E})$，由根与系数的关系得</p>\n$$\nx_{E}=\\frac{4\\left(\\frac{3}{2}-k\\right)^{2}-12}{3+4k^{2}}\n$$\n<p>又 $y_{E}=kx_{E}+\\frac{3}{2}-k$.</p><p>直线 $AF$ 的斜率为 $-k$，同理</p>\n$$\nx_{F}=\\frac{4\\left(\\frac{3}{2}+k\\right)^{2}-12}{3+4k^{2}}\n$$\n<p>又 $y_{F}=-kx_{F}+\\frac{3}{2}+k$.</p><p>由于直线 $EF$ 有定义，$k\\neq0$. 两个横坐标之差为</p>\n$$\nx_{F}-x_{E}=\\frac{4\\left[\\left(\\frac{3}{2}+k\\right)^{2}-\\left(\\frac{3}{2}-k\\right)^{2}\\right]}{3+4k^{2}}=\\frac{24k}{3+4k^{2}}\n$$\n<p>以及</p>\n$$\nx_{E}+x_{F}=\\frac{4\\left(\\frac{3}{2}-k\\right)^{2}+4\\left(\\frac{3}{2}+k\\right)^{2}-24}{3+4k^{2}}=\\frac{8k^{2}-6}{3+4k^{2}}\n$$\n<p>从而</p>\n$$\n2-x_{E}-x_{F}=\\frac{12}{3+4k^{2}}\n$$\n<p>所以</p>\n$$\n\\frac{y_{F}-y_{E}}{x_{F}-x_{E}}=\\frac{-k(x_{F}+x_{E})+2k}{x_{F}-x_{E}}=\\frac{k(2-x_{E}-x_{F})}{x_{F}-x_{E}}=\\frac{1}{2}\n$$\n<p>因此直线 $EF$ 的斜率为定值 $\\frac{1}{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

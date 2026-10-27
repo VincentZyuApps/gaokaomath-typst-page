@@ -23,9 +23,13 @@
 
 
 
-[max width=5.8cm]img/1977/fujian_science/q1_fig1.png
 
-[max width=5.8cm]img/1977/fujian_science/q1_fig2.png
+#align(center)[#image("/papers/1977/img/fujian_science/q1_fig1.png", width: 28%)]
+
+
+
+#align(center)[#image("/papers/1977/img/fujian_science/q1_fig2.png", width: 28%)]
+
 ]
 
 #solution[
@@ -98,7 +102,9 @@ x^{2}+6x+9+y^{2}=4x^{2}-24x+36+4y^{2}
 #problem(5)[
 某大队在农田基本建设的规划中，要测定被障碍物隔开的两点 #mi(`A`)，#mi(`P`) 之间的距离，他们土法上马，在障碍物的两侧，选取两点 #mi(`B`) 和 #mi(`C`)（如图），测得 #mi(`AB=AC=50\mathrm{~m}`)，#mi(`\angle BAC=60^{\circ}`)，#mi(`\angle ABP=120^{\circ}`)，#mi(`\angle ACP=135^{\circ}`)，求 #mi(`A`) 和 #mi(`P`) 之间的距离.（答案可用最简根式表示）
 
-[max width=6.4cm]img/1977/fujian_science/q5_fig1.png
+
+#align(center)[#image("/papers/1977/img/fujian_science/q5_fig1.png", width: 28%)]
+
 ]
 
 #solution[

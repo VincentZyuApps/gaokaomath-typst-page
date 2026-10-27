@@ -1,8 +1,89 @@
 {
-  "title": "1983年普通高等学校招生全国统一考试",
-  "subtitle": "1983年全国卷（理）",
   "year": "1983",
   "slug": "national_science",
+  "title": "1983年全国卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 10,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 11,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 12,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    },
+    {
+      "num": 13,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": false
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +98,9 @@
             "不在同一平面内的两条直线"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 2,
@@ -29,7 +112,9 @@
             "一个点"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 3,
@@ -41,7 +126,9 @@
             "$a$，$b$，$c$ 中至少有一个不是零"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 4,
@@ -53,7 +140,9 @@
             "$\\frac{\\pi}{3}$"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 5,
@@ -65,7 +154,9 @@
             "$\\log_{2}0.3 < 2^{0.3}< 0.3^{2}$"
           ],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         }
       ]
     },
@@ -75,58 +166,74 @@
         {
           "num": 6,
           "body": "<ol class=\"enumerate\"><li><p>在同一平面直角坐标系内，分别画出两个方程 $y = -\\sqrt{x}$，$x = \\sqrt{-y}$ 的图形，并写出它们交点的坐标.</p></li><li><p>在极坐标系内，方程 $\\rho = 5\\cos \\theta$ 表示什么曲线？画出它的图形.</p></li></ol><ol class=\"enumerate\"><li><p>对于 $y=-\\sqrt{x}$，有 $x\\geqslant0$，$y\\leqslant0$，平方得 $x=y^{2}$，所以它是抛物线 $x=y^{2}$ 的下半支. 对于 $x=\\sqrt{-y}$，有 $x\\geqslant0$，$y\\leqslant0$，平方得 $y=-x^{2}$，所以它是抛物线 $y=-x^{2}$ 的右半支.</p><p>令两式同时成立，则 $y=-\\sqrt{x}$，$y=-x^{2}$. 由 $\\sqrt{x}=x^{2}$ 且 $x\\geqslant0$，令 $u=\\sqrt{x}\\geqslant0$，则 $u=u^{4}$，即 $u(u^{3}-1)=0$，所以 $u=0$ 或 $u=1$，从而 $x=0$ 或 $x=1$，相应地 $y=0$ 或 $y=-1$. 因此交点为 $(0,0)$ 和 $(1,-1)$.</p></li><li><p>将极坐标关系 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$ 代入，并乘以 $\\rho$，得</p>\n$$\nx^{2}+y^{2}=\\rho^{2}=5\\rho\\cos\\theta=5x\n$$\n<p>所以</p>\n$$\n\\left(x-\\frac{5}{2}\\right)^{2}+y^{2}=\\frac{25}{4}\n$$\n<p>该曲线是圆心为 $\\left(\\frac{5}{2},0\\right)$、半径为 $\\frac{5}{2}$ 的圆，经过 $(0,0)$ 和 $(5,0)$，图形据此作出.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 7,
           "body": "<ol class=\"enumerate\"><li><p>已知 $y = \\mathrm{e}^{-x}\\sin 2x$，求微分 $\\mathrm{d}y$.</p></li><li><p>一个小组共有 $10$ 名同学，其中 $4$ 名是女同学，$6$ 名是男同学. 要从小组内选出 $3$ 名代表，其中至少有 $1$ 名女同学，求一共有多少种选法.</p></li></ol><ol class=\"enumerate\"><li><p>由乘积求导法则，</p>\n$$\n\\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\left(\\mathrm{e}^{-x}\\right)'\\sin 2x+\\mathrm{e}^{-x}(\\sin 2x)'=-\\mathrm{e}^{-x}\\sin 2x+2\\mathrm{e}^{-x}\\cos 2x\n$$\n<p>因此 $\\mathrm{d}y=\\mathrm{e}^{-x}\\left(2\\cos 2x-\\sin 2x\\right)\\mathrm{d}x$.</p></li><li><p>按女同学人数分类. 恰有 $1$ 名女同学时有 $\\mathrm{C}_{4}^{1}\\mathrm{C}_{6}^{2}=4\\times15=60$ 种；恰有 $2$ 名女同学时有 $\\mathrm{C}_{4}^{2}\\mathrm{C}_{6}^{1}=6\\times6=36$ 种；$3$ 名均为女同学时有 $\\mathrm{C}_{4}^{3}=4$ 种. 所以共有 $60+36+4=100$ 种选法.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 8,
           "body": "<p>计算行列式（要求结果最简）：$\\begin{vmatrix}\\sin \\alpha & \\cos \\left(\\alpha + \\varphi\\right) & \\cos \\alpha \\\\ \\cos \\beta & \\sin \\left(\\beta - \\varphi\\right) & \\sin \\beta \\\\ \\sin \\varphi & \\cos 2 \\varphi & \\cos \\varphi\\end{vmatrix}$.</p><p>设行列式为 $\\Delta$. 记三列分别为 $C_{1}$，$C_{2}$，$C_{3}$. 由三角函数加法公式，</p>\n$$\n\\cos(\\alpha+\\varphi)=\\cos\\varphi\\cos\\alpha-\\sin\\varphi\\sin\\alpha\n$$\n<p>$\\sin(\\beta-\\varphi)=\\cos\\varphi\\sin\\beta-\\sin\\varphi\\cos\\beta$，$\\cos2\\varphi=\\cos^{2}\\varphi-\\sin^{2}\\varphi$.</p><p>故 $C_{2}=\\cos\\varphi\\,C_{3}-\\sin\\varphi\\,C_{1}$，三列线性相关，从而 $\\Delta=0$.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 9,
           "body": "<ol class=\"enumerate\"><li><p>证明：对于任意实数 $t$，复数 $z = \\sqrt{|\\cos t|}+ \\sqrt{|\\sin t|}\\mathrm{i}$ 的模 $r = |z|$ 适合 $r \\le \\sqrt[4]{2}$.</p></li><li><p>当实数 $t$ 取什么值时，复数 $z = \\sqrt{|\\cos t|}+ \\sqrt{|\\sin t|}\\mathrm{i}$ 的幅角主值 $\\theta$ 适合 $0 \\le \\theta \\le \\frac{\\pi}{4}$？</p></li></ol><ol class=\"enumerate\"><li><p>由复数模的定义，</p>\n$$\nr^{2}=|z|^{2}=|\\cos t|+|\\sin t|\n$$\n<p>对非负数 $u=|\\cos t|$，$v=|\\sin t|$，由 $(u-v)^{2}\\geqslant0$ 得 $u+v\\le\\sqrt{2(u^{2}+v^{2})}$. 因为 $u^{2}+v^{2}=\\cos^{2}t+\\sin^{2}t=1$，所以 $r^{2}\\le\\sqrt{2}$，即 $r\\le\\sqrt[4]{2}$. 当且仅当 $|\\cos t|=|\\sin t|$ 时取等号.</p></li><li><p>$z$ 的实部和虚部均非负，且不同时为零，因此其幅角主值满足 $0\\le\\theta\\le\\frac{\\pi}{2}$. 在此范围内，</p>\n$$\n0\\le\\theta\\le\\frac{\\pi}{4}\\iff \\sqrt{|\\sin t|}\\le\\sqrt{|\\cos t|}\\iff |\\sin t|\\le|\\cos t|\n$$\n<p>若 $\\cos t=0$，则 $|\\sin t|=1>|\\cos t|=0$，不满足上述不等式；若 $\\cos t\\neq0$，则</p>\n$$\n|\\sin t|\\le|\\cos t|\\iff |\\tan t|\\leqslant1\n$$\n<p>在每个区间 $k\\pi-\\frac{\\pi}{2}<t<k\\pi+\\frac{\\pi}{2}$ 内，$\\tan t$ 严格递增，因此 $|\\tan t|\\leqslant1$ 等价于</p><p>$k\\pi-\\frac{\\pi}{4}\\le t\\le k\\pi+\\frac{\\pi}{4}$，$k\\in\\mathbb{Z}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 10,
-          "body": "<p>如图，在三棱锥 $S - ABC$ 中，$S$ 在底面上的射影 $N$ 位于底面的高 $CD$ 上；$M$ 是侧棱 $SC$ 上的一点，使截面 $MAB$ 与底面所成的角等于 $\\angle NSC$，求证：$SC$ 垂直于截面 $MAB$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>因为 $SN$ 是 $S$ 在底面上的射影，所以 $SN\\perp AB$；又因为 $CD$ 是底面三角形的高，所以 $CD\\perp AB$. 在平面 $SCD$ 内过 $D$ 作直线 $\\ell\\parallel SN$，则 $\\ell\\perp AB$，且 $CD\\perp AB$. 由于 $\\ell$ 与 $CD$ 是平面 $SCD$ 内相交的两条直线，故 $AB\\perp\\left(SCD\\right)$，从而 $AB\\perp SC$.</p><p>平面 $MAB$ 与底面相交于 $AB$. 因为 $D\\in AB$，且 $M$，$D\\in\\left(SCD\\right)$，所以 $MD$ 同时位于平面 $MAB$ 和平面 $SCD$ 内. 又 $MD\\perp AB$、$CD\\perp AB$，故截面与底面所成的角为 $\\angle MDC$. 由题设，$\\angle MDC=\\angle NSC$. 在平面 $SCD$ 内，$SN\\perp CD$，因此</p>\n$$\n\\angle NSC+\\angle SCD=\\frac{\\pi}{2}\n$$\n<p>因为 $M\\in SC$、$N\\in CD$，在三角形 $MDC$ 中有 $\\angle MCD=\\angle SCD$. 所以 $\\angle MDC+\\angle MCD=\\frac{\\pi}{2}$，从而 $\\angle DMC=\\frac{\\pi}{2}$，即 $MD\\perp MC$，也就是 $MD\\perp SC$. 直线 $AB$ 与 $MD$ 在平面 $MAB$ 内相交，且 $SC$ 同时垂直于它们，所以 $SC$ 垂直于平面 $MAB$.</p>",
-          "choices": null,
+          "body": "<p>如图，在三棱锥 $S - ABC$ 中，$S$ 在底面上的射影 $N$ 位于底面的高 $CD$ 上；$M$ 是侧棱 $SC$ 上的一点，使截面 $MAB$ 与底面所成的角等于 $\\angle NSC$，求证：$SC$ 垂直于截面 $MAB$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1983/img/national_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>因为 $SN$ 是 $S$ 在底面上的射影，所以 $SN\\perp AB$；又因为 $CD$ 是底面三角形的高，所以 $CD\\perp AB$. 在平面 $SCD$ 内过 $D$ 作直线 $\\ell\\parallel SN$，则 $\\ell\\perp AB$，且 $CD\\perp AB$. 由于 $\\ell$ 与 $CD$ 是平面 $SCD$ 内相交的两条直线，故 $AB\\perp\\left(SCD\\right)$，从而 $AB\\perp SC$.</p><p>平面 $MAB$ 与底面相交于 $AB$. 因为 $D\\in AB$，且 $M$，$D\\in\\left(SCD\\right)$，所以 $MD$ 同时位于平面 $MAB$ 和平面 $SCD$ 内. 又 $MD\\perp AB$、$CD\\perp AB$，故截面与底面所成的角为 $\\angle MDC$. 由题设，$\\angle MDC=\\angle NSC$. 在平面 $SCD$ 内，$SN\\perp CD$，因此</p>\n$$\n\\angle NSC+\\angle SCD=\\frac{\\pi}{2}\n$$\n<p>因为 $M\\in SC$、$N\\in CD$，在三角形 $MDC$ 中有 $\\angle MCD=\\angle SCD$. 所以 $\\angle MDC+\\angle MCD=\\frac{\\pi}{2}$，从而 $\\angle DMC=\\frac{\\pi}{2}$，即 $MD\\perp MC$，也就是 $MD\\perp SC$. 直线 $AB$ 与 $MD$ 在平面 $MAB$ 内相交，且 $SC$ 同时垂直于它们，所以 $SC$ 垂直于平面 $MAB$.</p>",
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 11,
-          "body": "<p>如图，已知椭圆长轴 $\\left|A_{1}A_{2}\\right| = 6$，焦距 $\\left|F_{1}F_{2}\\right| = 4\\sqrt{2}$，过椭圆焦点 $F_{1}$ 作一直线，交椭圆于两点 $M$，$N$. 设 $\\angle F_{2}F_{1}M = \\alpha$（$0 \\le \\alpha < \\pi$），当 $\\alpha$ 取什么值时，$|MN|$ 等于椭圆短轴的长？</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设椭圆中心为原点，长轴在 $x$ 轴上. 由题意，半长轴 $a=3$，半焦距 $c=2\\sqrt{2}$，所以半短轴</p>\n$$\nb=\\sqrt{a^{2}-c^{2}}=\\sqrt{9-8}=1\n$$\n<p>椭圆方程为 $\\frac{x^{2}}{9}+y^{2}=1$，且 $F_{1}=(-2\\sqrt{2},0)$. 过 $F_{1}$ 的直线方向向量可取 $(\\cos\\alpha,\\sin\\alpha)$，其参数方程为</p><p>$x=-2\\sqrt{2}+t\\cos\\alpha$，$y=t\\sin\\alpha$.</p><p>代入椭圆方程，得到</p>\n$$\n\\frac{1+8\\sin^{2}\\alpha}{9}t^{2}-\\frac{4\\sqrt{2}\\cos\\alpha}{9}t-\\frac{1}{9}=0\n$$\n<p>设两根为 $t_{1}$，$t_{2}$. 因为参数方向向量是单位向量，弦长 $|MN|=|t_{1}-t_{2}|$. 该二次方程的判别式为</p>\n$$\n\\left(-\\frac{4\\sqrt{2}\\cos\\alpha}{9}\\right)^{2}-4\\cdot\\frac{1+8\\sin^{2}\\alpha}{9}\\cdot\\left(-\\frac{1}{9}\\right)  =\\frac{32\\cos^{2}\\alpha+4+32\\sin^{2}\\alpha}{81}=\\frac{4}{9}\n$$\n<p>所以</p>\n$$\n|MN|=\\frac{\\sqrt{\\frac{4}{9}}}{\\frac{(1+8\\sin^{2}\\alpha)}{9}}=\\frac{6}{1+8\\sin^{2}\\alpha}\n$$\n<p>椭圆短轴长为 $2b=2$，故</p>\n$$\n\\frac{6}{1+8\\sin^{2}\\alpha}=2\\iff \\sin^{2}\\alpha=\\frac{1}{4}\n$$\n<p>又 $0\\le\\alpha<\\pi$，所以 $\\alpha=\\frac{\\pi}{6}$ 或 $\\alpha=\\frac{5\\pi}{6}$.</p>",
-          "choices": null,
+          "body": "<p>如图，已知椭圆长轴 $\\left|A_{1}A_{2}\\right| = 6$，焦距 $\\left|F_{1}F_{2}\\right| = 4\\sqrt{2}$，过椭圆焦点 $F_{1}$ 作一直线，交椭圆于两点 $M$，$N$. 设 $\\angle F_{2}F_{1}M = \\alpha$（$0 \\le \\alpha < \\pi$），当 $\\alpha$ 取什么值时，$|MN|$ 等于椭圆短轴的长？</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1983/img/national_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设椭圆中心为原点，长轴在 $x$ 轴上. 由题意，半长轴 $a=3$，半焦距 $c=2\\sqrt{2}$，所以半短轴</p>\n$$\nb=\\sqrt{a^{2}-c^{2}}=\\sqrt{9-8}=1\n$$\n<p>椭圆方程为 $\\frac{x^{2}}{9}+y^{2}=1$，且 $F_{1}=(-2\\sqrt{2},0)$. 过 $F_{1}$ 的直线方向向量可取 $(\\cos\\alpha,\\sin\\alpha)$，其参数方程为</p><p>$x=-2\\sqrt{2}+t\\cos\\alpha$，$y=t\\sin\\alpha$.</p><p>代入椭圆方程，得到</p>\n$$\n\\frac{1+8\\sin^{2}\\alpha}{9}t^{2}-\\frac{4\\sqrt{2}\\cos\\alpha}{9}t-\\frac{1}{9}=0\n$$\n<p>设两根为 $t_{1}$，$t_{2}$. 因为参数方向向量是单位向量，弦长 $|MN|=|t_{1}-t_{2}|$. 该二次方程的判别式为</p>\n$$\n\\left(-\\frac{4\\sqrt{2}\\cos\\alpha}{9}\\right)^{2}-4\\cdot\\frac{1+8\\sin^{2}\\alpha}{9}\\cdot\\left(-\\frac{1}{9}\\right)  =\\frac{32\\cos^{2}\\alpha+4+32\\sin^{2}\\alpha}{81}=\\frac{4}{9}\n$$\n<p>所以</p>\n$$\n|MN|=\\frac{\\sqrt{\\frac{4}{9}}}{\\frac{(1+8\\sin^{2}\\alpha)}{9}}=\\frac{6}{1+8\\sin^{2}\\alpha}\n$$\n<p>椭圆短轴长为 $2b=2$，故</p>\n$$\n\\frac{6}{1+8\\sin^{2}\\alpha}=2\\iff \\sin^{2}\\alpha=\\frac{1}{4}\n$$\n<p>又 $0\\le\\alpha<\\pi$，所以 $\\alpha=\\frac{\\pi}{6}$ 或 $\\alpha=\\frac{5\\pi}{6}$.</p>",
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 12,
           "body": "<p>已知数列 $\\{a_{n}\\}$ 的首项 $a_{1}= b$（$b \\neq 0$），它的前 $n$ 项的和 $S_{n}= a_{1}+ a_{2}+ \\cdots + a_{n}$（$n \\ge 1$），并且 $S_{1}$，$S_{2}$，$\\cdots$，$S_{n}$，$\\cdots$ 是一个等比数列，其公比为 $p$（$p \\neq 0$，$|p| < 1$）.</p><ol class=\"enumerate\"><li><p>证明：$a_{2}$，$a_{3}$，$\\cdots$，$a_{n}$，$\\cdots$（即 $\\{a_{n}\\}$ 从第二项起）是一个等比数列；</p></li><li><p>设 $W_{n}=a_{1}S_{1}+a_{2}S_{2}+a_{3}S_{3}+\\cdots+a_{n}S_{n}$（$n\\geqslant1$），求 $\\displaystyle\\lim_{n\\to\\infty}W_{n}$（用 $b$，$p$ 表示）.</p></li></ol><ol class=\"enumerate\"><li><p>因为 $S_{1}=a_{1}=b$，且 $S_{1}$，$S_{2}$，$\\ldots$ 是公比为 $p$ 的等比数列，所以 $S_{n}=bp^{n-1}$. 对 $n\\geqslant2$，</p>\n$$\na_{n}=S_{n}-S_{n-1}=bp^{n-2}(p-1)\n$$\n<p>由于 $b\\neq0$、$p\\neq0$ 且 $|p|<1$，有 $p\\neq1$，所以 $\\frac{a_{n+1}}{a_{n}}=p$. 因而 $a_{2}$，$a_{3}$，$\\ldots$ 是公比为 $p$ 的等比数列.</p></li><li><p>$a_{1}S_{1}=b^{2}$. 对 $k\\geqslant2$，</p>\n$$\na_{k}S_{k}=bp^{k-2}(p-1)\\cdot bp^{k-1}=b^{2}(p-1)p^{2k-3}\n$$\n<p>当 $n\\geqslant2$ 时，</p>\n$$\nW_{n}=b^{2}+b^{2}(p-1)p\\sum_{j=0}^{n-2}p^{2j}\n$$\n<p>因为 $|p|<1$，所以</p>\n$$\n\\lim_{n\\to\\infty}W_{n}=b^{2}+\\frac{b^{2}(p-1)p}{1-p^{2}}=b^{2}-\\frac{b^{2}p}{1+p}=\\frac{b^{2}}{1+p}\n$$\n</li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         },
         {
           "num": 13,
           "body": "<ol class=\"enumerate\"><li><p>已知 $a$，$b$ 为实数，并且 $\\mathrm{e}< a < b$，其中 $\\mathrm{e}$ 是自然对数的底数，证明：$a^{b} > b^{a}$；</p></li><li><p>如果正实数 $a$，$b$ 满足 $a^{b} = b^{a}$，且 $a < 1$，证明：$a = b$.</p></li></ol><ol class=\"enumerate\"><li><p>令 $f(x)=\\frac{\\ln x}{x}$，则</p>\n$$\nf'(x)=\\frac{1-\\ln x}{x^{2}}\n$$\n<p>当 $x>\\mathrm{e}$ 时，$f'(x)<0$，故 $f$ 在 $(\\mathrm{e},+\\infty)$ 上单调递减. 由 $\\mathrm{e}<a<b$，得 $f(a)>f(b)$，于是</p>\n$$\n\\ln\\frac{a^{b}}{b^{a}}=b\\ln a-a\\ln b=ab\\left(\\frac{\\ln a}{a}-\\frac{\\ln b}{b}\\right)>0\n$$\n<p>因此 $a^{b}>b^{a}$.</p></li><li><p>由 $a^{b}=b^{a}$ 及 $a$，$b>0$，取自然对数得 $b\\ln a=a\\ln b$. 因为 $0<a<1$，所以 $\\ln a<0$，从而等式右边也小于零，故 $\\ln b<0$，即 $0<b<1$. 函数 $f(x)=\\frac{\\ln x}{x}$ 在 $(0,1)$ 上满足</p>\n$$\nf'(x)=\\frac{1-\\ln x}{x^{2}}>0\n$$\n<p>所以 $f$ 在 $(0,1)$ 上严格递增. 等式 $b\\ln a=a\\ln b$ 等价于 $f(a)=f(b)$，因而 $a=b$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": ""
+          "solution": "",
+          "hasAnswer": false,
+          "hasSolution": false
         }
       ]
     }

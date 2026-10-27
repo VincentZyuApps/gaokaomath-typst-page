@@ -1,8 +1,155 @@
 {
-  "title": "2007年普通高等学校招生全国统一考试",
-  "subtitle": "2007年新课标卷（理）",
   "year": "2007",
   "slug": "new_curriculum_science",
+  "title": "2007年新课标卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 24,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +164,9 @@
             "$\\neg p$：$\\forall x \\in \\mathbb{R}$，$\\sin x > 1$"
           ],
           "answer": "C",
-          "solution": "全称命题的否定要把全称量词改为存在量词，并把不等式 $\\sin x\\le 1$ 否定为 $\\sin x>1$. 因此 $\\neg p$ 为“存在 $x\\in\\mathbb{R}$，使 $\\sin x>1$”，故选 C."
+          "solution": "全称命题的否定要把全称量词改为存在量词，并把不等式 $\\sin x\\le 1$ 否定为 $\\sin x>1$. 因此 $\\neg p$ 为“存在 $x\\in\\mathbb{R}$，使 $\\sin x>1$”，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,19 +178,23 @@
             "$(-1, 2)$"
           ],
           "answer": "D",
-          "solution": "<p>分别计算两个向量的数乘，得 $\\frac{1}{2}\\mathbf{a}=(\\frac{1}{2},\\frac{1}{2})$，$\\frac{3}{2}\\mathbf{b}=(\\frac{3}{2},-\\frac{3}{2})$. 所以</p><p>$\\frac{1}{2}\\mathbf{a}-\\frac{3}{2}\\mathbf{b}=(\\frac{1}{2}-\\frac{3}{2},\\frac{1}{2}+\\frac{3}{2})=(-1,2)$，故选 D.</p>"
+          "solution": "<p>分别计算两个向量的数乘，得 $\\frac{1}{2}\\mathbf{a}=(\\frac{1}{2},\\frac{1}{2})$，$\\frac{3}{2}\\mathbf{b}=(\\frac{3}{2},-\\frac{3}{2})$. 所以</p><p>$\\frac{1}{2}\\mathbf{a}-\\frac{3}{2}\\mathbf{b}=(\\frac{1}{2}-\\frac{3}{2},\\frac{1}{2}+\\frac{3}{2})=(-1,2)$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "函数 $y = \\sin \\left(2x - \\frac{\\pi}{3}\\right)$ 在区间 $\\left[-\\frac{\\pi}{2}, \\pi\\right]$ 的简图是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/new_curriculum_science/q3_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/new_curriculum_science/q3_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/new_curriculum_science/q3_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/new_curriculum_science/q3_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2007/img/new_curriculum_science/q3_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2007/img/new_curriculum_science/q3_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2007/img/new_curriculum_science/q3_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2007/img/new_curriculum_science/q3_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "函数的零点满足 $2x-\\frac{\\pi}{3}=k\\pi$，故在给定区间内的零点为 $-\\frac{\\pi}{3}$，$\\frac{\\pi}{6}$，$\\frac{2\\pi}{3}$. 又 $y(-\\frac{\\pi}{2})=\\frac{\\sqrt{3}}{2}>0$，$y(0)=-\\frac{\\sqrt{3}}{2}<0$，$y(\\pi)=-\\frac{\\sqrt{3}}{2}<0$，并且函数在 $-\\frac{\\pi}{12}$ 处取得极小值 $-1$，在 $\\frac{5\\pi}{12}$ 处取得极大值 $1$. 这些特征与选项 A 的图象一致，故选 A."
+          "solution": "函数的零点满足 $2x-\\frac{\\pi}{3}=k\\pi$，故在给定区间内的零点为 $-\\frac{\\pi}{3}$，$\\frac{\\pi}{6}$，$\\frac{2\\pi}{3}$. 又 $y(-\\frac{\\pi}{2})=\\frac{\\sqrt{3}}{2}>0$，$y(0)=-\\frac{\\sqrt{3}}{2}<0$，$y(\\pi)=-\\frac{\\sqrt{3}}{2}<0$，并且函数在 $-\\frac{\\pi}{12}$ 处取得极小值 $-1$，在 $\\frac{5\\pi}{12}$ 处取得极大值 $1$. 这些特征与选项 A 的图象一致，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +206,9 @@
             "$\\frac{2}{3}$"
           ],
           "answer": "D",
-          "solution": "设等差数列首项为 $a_{1}$，公差为 $d$. 由 $S_{10}=\\frac{10}{2}(a_{1}+a_{10})$ 得 $a_{1}+10=14$，所以 $a_{1}=4$. 再由 $a_{10}=a_{1}+9d=10$，得 $4+9d=10$，从而 $d=\\frac{2}{3}$，故选 D."
+          "solution": "设等差数列首项为 $a_{1}$，公差为 $d$. 由 $S_{10}=\\frac{10}{2}(a_{1}+a_{10})$ 得 $a_{1}+10=14$，所以 $a_{1}=4$. 再由 $a_{10}=a_{1}+9d=10$，得 $4+9d=10$，从而 $d=\\frac{2}{3}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +220,9 @@
             "$2652$"
           ],
           "answer": "C",
-          "solution": "<p>程序先令 $k=1$，$S=0$，然后在 $k\\le 50$ 时反复执行 $S\\leftarrow S+2k$，并令 $k\\leftarrow k+1$. 循环结束时</p><p>$S=2(1+2+\\cdots+50)=2\\cdot\\frac{50\\cdot51}{2}=2550$，故选 C.</p>"
+          "solution": "<p>程序先令 $k=1$，$S=0$，然后在 $k\\le 50$ 时反复执行 $S\\leftarrow S+2k$，并令 $k\\leftarrow k+1$. 循环结束时</p><p>$S=2(1+2+\\cdots+50)=2\\cdot\\frac{50\\cdot51}{2}=2550$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +234,9 @@
             "$|FP_{2}|^{2}= |FP_{1}| \\cdot |FP_{3}|$"
           ],
           "answer": "C",
-          "solution": "<p>抛物线 $y^{2}=2px$ 的焦点为 $F(\\frac{p}{2},0)$. 对抛物线上任一点 $P_{i}(x_{i},y_{i})$，由 $y_{i}^{2}=2px_{i}$ 得</p><p>$\\lvert FP_{i}\\rvert^{2}=(x_{i}-\\frac{p}{2})^{2}+y_{i}^{2}=(x_{i}+\\frac{p}{2})^{2}$. 由于 $x_{i}\\geqslant0$，所以 $\\lvert FP_{i}\\rvert=x_{i}+\\frac{p}{2}$. 于是由 $2x_{2}=x_{1}+x_{3}$，有</p><p>$2\\lvert FP_{2}\\rvert=2x_{2}+p=x_{1}+x_{3}+p=\\lvert FP_{1}\\rvert+\\lvert FP_{3}\\rvert$，故选 C.</p>"
+          "solution": "<p>抛物线 $y^{2}=2px$ 的焦点为 $F(\\frac{p}{2},0)$. 对抛物线上任一点 $P_{i}(x_{i},y_{i})$，由 $y_{i}^{2}=2px_{i}$ 得</p><p>$\\lvert FP_{i}\\rvert^{2}=(x_{i}-\\frac{p}{2})^{2}+y_{i}^{2}=(x_{i}+\\frac{p}{2})^{2}$. 由于 $x_{i}\\geqslant0$，所以 $\\lvert FP_{i}\\rvert=x_{i}+\\frac{p}{2}$. 于是由 $2x_{2}=x_{1}+x_{3}$，有</p><p>$2\\lvert FP_{2}\\rvert=2x_{2}+p=x_{1}+x_{3}+p=\\lvert FP_{1}\\rvert+\\lvert FP_{3}\\rvert$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,11 +248,13 @@
             "$4$"
           ],
           "answer": "D",
-          "solution": "<p>设等差数列的公差为 $r$，则 $a=x+r$，$b=x+2r$，$y=x+3r$，从而 $a+b=x+y$. 设等比数列的公比为 $q$，则 $c=xq$，$d=xq^{2}$，$y=xq^{3}$，所以 $cd=x^{2}q^{3}=xy$. 因此</p><p>$\\frac{(a+b)^{2}}{cd}=\\frac{(x+y)^{2}}{xy}=\\frac{x}{y}+\\frac{y}{x}+2\\geqslant4$，等号在 $x=y$ 时取得，故最小值为 $4$，选 D.</p>"
+          "solution": "<p>设等差数列的公差为 $r$，则 $a=x+r$，$b=x+2r$，$y=x+3r$，从而 $a+b=x+y$. 设等比数列的公比为 $q$，则 $c=xq$，$d=xq^{2}$，$y=xq^{3}$，所以 $cd=x^{2}q^{3}=xy$. 因此</p><p>$\\frac{(a+b)^{2}}{cd}=\\frac{(x+y)^{2}}{xy}=\\frac{x}{y}+\\frac{y}{x}+2\\geqslant4$，等号在 $x=y$ 时取得，故最小值为 $4$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
-          "body": "<p>已知某个几何体的三视图如下，根据图中标出的尺寸（单位：$\\mathrm{cm}$），可得这个几何体的体积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>已知某个几何体的三视图如下，根据图中标出的尺寸（单位：$\\mathrm{cm}$），可得这个几何体的体积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/new_curriculum_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\frac{4000}{3}\\mathrm{~cm}^{3}$",
             "$\\frac{8000}{3}\\mathrm{~cm}^{3}$",
@@ -101,7 +262,9 @@
             "$4000\\mathrm{~cm}^{3}$"
           ],
           "answer": "B",
-          "solution": "<p>由三视图可知，该几何体为底面边长为 $20\\mathrm{~cm}$、高为 $20\\mathrm{~cm}$ 的四棱锥. 其底面为正方形，面积为 $20^{2}=400\\mathrm{~cm}^{2}$，所以体积为</p><p>$V=\\frac{1}{3}\\cdot400\\cdot20=\\frac{8000}{3}\\mathrm{~cm}^{3}$，故选 B.</p>"
+          "solution": "<p>由三视图可知，该几何体为底面边长为 $20\\mathrm{~cm}$、高为 $20\\mathrm{~cm}$ 的四棱锥. 其底面为正方形，面积为 $20^{2}=400\\mathrm{~cm}^{2}$，所以体积为</p><p>$V=\\frac{1}{3}\\cdot400\\cdot20=\\frac{8000}{3}\\mathrm{~cm}^{3}$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +276,9 @@
             "$\\frac{\\sqrt{7}}{2}$"
           ],
           "answer": "C",
-          "solution": "<p>由题意分母不为零，故 $\\sin(\\alpha-\\frac{\\pi}{4})\\neq0$，从而 $\\cos\\alpha-\\sin\\alpha\\neq0$. 利用</p><p>$\\cos2\\alpha=(\\cos\\alpha+\\sin\\alpha)(\\cos\\alpha-\\sin\\alpha)$，以及 $\\sin(\\alpha-\\frac{\\pi}{4})=\\frac{\\sin\\alpha-\\cos\\alpha}{\\sqrt{2}}$，原式化为</p><p>$-\\sqrt{2}(\\cos\\alpha+\\sin\\alpha)=-\\frac{\\sqrt{2}}{2}$. 所以 $\\cos\\alpha+\\sin\\alpha=\\frac{1}{2}$，故选 C.</p>"
+          "solution": "<p>由题意分母不为零，故 $\\sin(\\alpha-\\frac{\\pi}{4})\\neq0$，从而 $\\cos\\alpha-\\sin\\alpha\\neq0$. 利用</p><p>$\\cos2\\alpha=(\\cos\\alpha+\\sin\\alpha)(\\cos\\alpha-\\sin\\alpha)$，以及 $\\sin(\\alpha-\\frac{\\pi}{4})=\\frac{\\sin\\alpha-\\cos\\alpha}{\\sqrt{2}}$，原式化为</p><p>$-\\sqrt{2}(\\cos\\alpha+\\sin\\alpha)=-\\frac{\\sqrt{2}}{2}$. 所以 $\\cos\\alpha+\\sin\\alpha=\\frac{1}{2}$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,11 +290,13 @@
             "$\\mathrm{e}^{2}$"
           ],
           "answer": "D",
-          "solution": "<p>函数在 $(4,\\mathrm{e}^{2})$ 处的导数为 $y'=\\frac{1}{2}\\mathrm{e}^{\\frac{x}{2}}$，所以切线斜率为 $\\frac{1}{2}\\mathrm{e}^{2}$. 切线方程为</p><p>$y-\\mathrm{e}^{2}=\\frac{1}{2}\\mathrm{e}^{2}(x-4)$，即 $y=\\frac{1}{2}\\mathrm{e}^{2}x-\\mathrm{e}^{2}$. 它与 $x$ 轴交于 $(2,0)$，与 $y$ 轴交于 $(0,-\\mathrm{e}^{2})$，故所围三角形面积为 $\\frac{1}{2}\\cdot2\\cdot\\mathrm{e}^{2}=\\mathrm{e}^{2}$，选 D.</p>"
+          "solution": "<p>函数在 $(4,\\mathrm{e}^{2})$ 处的导数为 $y'=\\frac{1}{2}\\mathrm{e}^{\\frac{x}{2}}$，所以切线斜率为 $\\frac{1}{2}\\mathrm{e}^{2}$. 切线方程为</p><p>$y-\\mathrm{e}^{2}=\\frac{1}{2}\\mathrm{e}^{2}(x-4)$，即 $y=\\frac{1}{2}\\mathrm{e}^{2}x-\\mathrm{e}^{2}$. 它与 $x$ 轴交于 $(2,0)$，与 $y$ 轴交于 $(0,-\\mathrm{e}^{2})$，故所围三角形面积为 $\\frac{1}{2}\\cdot2\\cdot\\mathrm{e}^{2}=\\mathrm{e}^{2}$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
-          "body": "<p>甲，乙，丙三名射箭运动员在某次测试中各射箭 $20$ 次，三人的测试成绩如下表</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\"><span class=\"macro macro-multicolumn\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">5</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">甲的成绩</span></span> </td></tr><tr><td style=\"text-align: center\"><br>环数 </td><td style=\"text-align: center\"> $7$ </td><td style=\"text-align: center\"> $8$ </td><td style=\"text-align: center\"> $9$ </td><td style=\"text-align: center\"> $10$ </td></tr><tr><td style=\"text-align: center\"><br>频数 </td><td style=\"text-align: center\"> $5$ </td><td style=\"text-align: center\"> $5$ </td><td style=\"text-align: center\"> $5$ </td><td style=\"text-align: center\"> $5$</td></tr></tbody></table><br>  <br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\"><span class=\"macro macro-multicolumn\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">5</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">乙的成绩</span></span> </td></tr><tr><td style=\"text-align: center\"><br>环数 </td><td style=\"text-align: center\"> $7$ </td><td style=\"text-align: center\"> $8$ </td><td style=\"text-align: center\"> $9$ </td><td style=\"text-align: center\"> $10$ </td></tr><tr><td style=\"text-align: center\"><br>频数 </td><td style=\"text-align: center\"> $6$ </td><td style=\"text-align: center\"> $4$ </td><td style=\"text-align: center\"> $4$ </td><td style=\"text-align: center\"> $6$</td></tr></tbody></table><br>  <br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\"><span class=\"macro macro-multicolumn\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">5</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">丙的成绩</span></span> </td></tr><tr><td style=\"text-align: center\"><br>环数 </td><td style=\"text-align: center\"> $7$ </td><td style=\"text-align: center\"> $8$ </td><td style=\"text-align: center\"> $9$ </td><td style=\"text-align: center\"> $10$ </td></tr><tr><td style=\"text-align: center\"><br>频数 </td><td style=\"text-align: center\"> $4$ </td><td style=\"text-align: center\"> $6$ </td><td style=\"text-align: center\"> $6$ </td><td style=\"text-align: center\"> $4$</td></tr></tbody></table></center><p>$s_{1}$，$s_{2}$，$s_{3}$ 分别表示甲，乙，丙三名运动员这次测试成绩的标准差，则有（ ）</p>",
+          "body": "<p>甲，乙，丙三名射箭运动员在某次测试中各射箭 $20$ 次，三人的测试成绩如下表</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\"><span class=\"macro macro-multicolumn\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">5</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">甲的成绩</span></span> </td></tr><tr><td style=\"text-align: center\">环数 </td><td style=\"text-align: center\"> $7$ </td><td style=\"text-align: center\"> $8$ </td><td style=\"text-align: center\"> $9$ </td><td style=\"text-align: center\"> $10$ </td></tr><tr><td style=\"text-align: center\">频数 </td><td style=\"text-align: center\"> $5$ </td><td style=\"text-align: center\"> $5$ </td><td style=\"text-align: center\"> $5$ </td><td style=\"text-align: center\"> $5$</td></tr></tbody></table><br>  <br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\"><span class=\"macro macro-multicolumn\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">5</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">乙的成绩</span></span> </td></tr><tr><td style=\"text-align: center\">环数 </td><td style=\"text-align: center\"> $7$ </td><td style=\"text-align: center\"> $8$ </td><td style=\"text-align: center\"> $9$ </td><td style=\"text-align: center\"> $10$ </td></tr><tr><td style=\"text-align: center\">频数 </td><td style=\"text-align: center\"> $6$ </td><td style=\"text-align: center\"> $4$ </td><td style=\"text-align: center\"> $4$ </td><td style=\"text-align: center\"> $6$</td></tr></tbody></table><br>  <br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\"><span class=\"macro macro-multicolumn\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">5</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">c</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">丙的成绩</span></span> </td></tr><tr><td style=\"text-align: center\">环数 </td><td style=\"text-align: center\"> $7$ </td><td style=\"text-align: center\"> $8$ </td><td style=\"text-align: center\"> $9$ </td><td style=\"text-align: center\"> $10$ </td></tr><tr><td style=\"text-align: center\">频数 </td><td style=\"text-align: center\"> $4$ </td><td style=\"text-align: center\"> $6$ </td><td style=\"text-align: center\"> $6$ </td><td style=\"text-align: center\"> $4$</td></tr></tbody></table></center><p>$s_{1}$，$s_{2}$，$s_{3}$ 分别表示甲，乙，丙三名运动员这次测试成绩的标准差，则有（ ）</p>",
           "choices": [
             "$s_{3} > s_{1} > s_{2}$",
             "$s_{2} > s_{1} > s_{3}$",
@@ -137,7 +304,9 @@
             "$s_{2} > s_{3} > s_{1}$"
           ],
           "answer": "B",
-          "solution": "<p>三名运动员的成绩平均数均为 $8.5$. 按标准差公式计算平方和，甲、乙、丙的方差分别为</p><p>$s_{1}^{2}=\\frac{5(1.5^{2}+0.5^{2}+0.5^{2}+1.5^{2})}{20}=\\frac{25}{20}$，</p><p>$s_{2}^{2}=\\frac{6\\cdot1.5^{2}+4\\cdot0.5^{2}+4\\cdot0.5^{2}+6\\cdot1.5^{2}}{20}=\\frac{29}{20}$，</p><p>$s_{3}^{2}=\\frac{4\\cdot1.5^{2}+6\\cdot0.5^{2}+6\\cdot0.5^{2}+4\\cdot1.5^{2}}{20}=\\frac{21}{20}$. 因此 $s_{2}>s_{1}>s_{3}$，故选 B.</p>"
+          "solution": "<p>三名运动员的成绩平均数均为 $8.5$. 按标准差公式计算平方和，甲、乙、丙的方差分别为</p><p>$s_{1}^{2}=\\frac{5(1.5^{2}+0.5^{2}+0.5^{2}+1.5^{2})}{20}=\\frac{25}{20}$，</p><p>$s_{2}^{2}=\\frac{6\\cdot1.5^{2}+4\\cdot0.5^{2}+4\\cdot0.5^{2}+6\\cdot1.5^{2}}{20}=\\frac{29}{20}$，</p><p>$s_{3}^{2}=\\frac{4\\cdot1.5^{2}+6\\cdot0.5^{2}+6\\cdot0.5^{2}+4\\cdot1.5^{2}}{20}=\\frac{21}{20}$. 因此 $s_{2}>s_{1}>s_{3}$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +318,9 @@
             "$\\sqrt{3}: 2: \\sqrt{3}$"
           ],
           "answer": "B",
-          "solution": "<p>设拼接时各相关棱长为 $a$. 四棱锥的底面是边长为 $a$ 的正方形，顶点到底面中心的距离为 $\\frac{a}{\\sqrt{2}}$，因此</p><p>$h_{1}=\\sqrt{a^{2}-(\\frac{a}{\\sqrt{2}})^{2}}=\\frac{a}{\\sqrt{2}}$. 三棱锥的底面是边长为 $a$ 的正三角形，底面中心到顶点的距离为 $\\frac{a}{\\sqrt{3}}$，所以</p><p>$h_{2}=\\sqrt{a^{2}-(\\frac{a}{\\sqrt{3}})^{2}}=a\\sqrt{\\frac{2}{3}}$.</p><p>拼接后的三棱柱以该正三角形为底面，底面积为 $\\frac{\\sqrt{3}}{4}a^{2}$. 由体积可加性，且四棱锥底面面积为 $a^{2}$，有</p><p>$\\frac{\\sqrt{3}}{4}a^{2}h=\\frac{1}{3}a^{2}h_{1}+\\frac{1}{3}\\cdot\\frac{\\sqrt{3}}{4}a^{2}h_{2}$. 代入 $h_{1}$、$h_{2}$ 得 $h=a\\sqrt{\\frac{2}{3}}=h_{2}$. 因此</p><p>$h_{1}:h_{2}:h=\\frac{a}{\\sqrt{2}}:a\\sqrt{\\frac{2}{3}}:a\\sqrt{\\frac{2}{3}}=\\sqrt{3}:2:2$，故选 B.</p>"
+          "solution": "<p>设拼接时各相关棱长为 $a$. 四棱锥的底面是边长为 $a$ 的正方形，顶点到底面中心的距离为 $\\frac{a}{\\sqrt{2}}$，因此</p><p>$h_{1}=\\sqrt{a^{2}-(\\frac{a}{\\sqrt{2}})^{2}}=\\frac{a}{\\sqrt{2}}$. 三棱锥的底面是边长为 $a$ 的正三角形，底面中心到顶点的距离为 $\\frac{a}{\\sqrt{3}}$，所以</p><p>$h_{2}=\\sqrt{a^{2}-(\\frac{a}{\\sqrt{3}})^{2}}=a\\sqrt{\\frac{2}{3}}$.</p><p>拼接后的三棱柱以该正三角形为底面，底面积为 $\\frac{\\sqrt{3}}{4}a^{2}$. 由体积可加性，且四棱锥底面面积为 $a^{2}$，有</p><p>$\\frac{\\sqrt{3}}{4}a^{2}h=\\frac{1}{3}a^{2}h_{1}+\\frac{1}{3}\\cdot\\frac{\\sqrt{3}}{4}a^{2}h_{2}$. 代入 $h_{1}$、$h_{2}$ 得 $h=a\\sqrt{\\frac{2}{3}}=h_{2}$. 因此</p><p>$h_{1}:h_{2}:h=\\frac{a}{\\sqrt{2}}:a\\sqrt{\\frac{2}{3}}:a\\sqrt{\\frac{2}{3}}=\\sqrt{3}:2:2$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +330,38 @@
         {
           "num": 13,
           "body": "已知双曲线的顶点到渐近线的距离为 $2$，焦点到渐近线的距离为 $6$，则该双曲线的离心率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$3$",
-          "solution": "设双曲线为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，焦距参数满足 $c^{2}=a^{2}+b^{2}$. 取渐近线 $y=\\frac{b}{a}x$，写成 $bx-ay=0$. 顶点 $(a,0)$ 到该渐近线的距离为 $\\frac{ab}{c}=2$，焦点 $(c,0)$ 到该渐近线的距离为 $b=6$. 于是 $\\frac{a}{c}=\\frac{1}{3}$，所以离心率 $e=\\frac{c}{a}=3$."
+          "choices": [],
+          "answer": "\\(3\\)",
+          "solution": "设双曲线为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，焦距参数满足 $c^{2}=a^{2}+b^{2}$. 取渐近线 $y=\\frac{b}{a}x$，写成 $bx-ay=0$. 顶点 $(a,0)$ 到该渐近线的距离为 $\\frac{ab}{c}=2$，焦点 $(c,0)$ 到该渐近线的距离为 $b=6$. 于是 $\\frac{a}{c}=\\frac{1}{3}$，所以离心率 $e=\\frac{c}{a}=3$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "设函数 $f(x) = \\frac{(x + 1)(x + a)}{x}$ 为奇函数，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-1$",
-          "solution": "<p>$f(x)=\\frac{(x+1)(x+a)}{x}=x+(a+1)+\\frac{a}{x}$，定义域为 $x\\neq0$. 奇函数要求 $f(-x)=-f(x)$. 比较两边可得</p><p>$-x+(a+1)-\\frac{a}{x}=-x-(a+1)-\\frac{a}{x}$，所以 $a+1=-(a+1)$，即 $a=-1$. 此时 $f(x)=x-\\frac{1}{x}$，确为奇函数.</p>"
+          "choices": [],
+          "answer": "\\(-1\\)",
+          "solution": "<p>$f(x)=\\frac{(x+1)(x+a)}{x}=x+(a+1)+\\frac{a}{x}$，定义域为 $x\\neq0$. 奇函数要求 $f(-x)=-f(x)$. 比较两边可得</p><p>$-x+(a+1)-\\frac{a}{x}=-x-(a+1)-\\frac{a}{x}$，所以 $a+1=-(a+1)$，即 $a=-1$. 此时 $f(x)=x-\\frac{1}{x}$，确为奇函数.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "$\\mathrm{i}$ 是虚数单位，$\\frac{-5 + 10\\mathrm{i}}{3 + 4\\mathrm{i}}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （用 $a + b\\mathrm{i}$ 的形式表示，$a$，$b \\in \\mathbb{R}$）",
-          "choices": null,
-          "answer": "$1+2\\mathrm{i}$",
-          "solution": "<p>分子分母同乘分母的共轭复数 $3-4\\mathrm{i}$，得</p><p>$\\frac{-5+10\\mathrm{i}}{3+4\\mathrm{i}}=\\frac{(-5+10\\mathrm{i})(3-4\\mathrm{i})}{(3+4\\mathrm{i})(3-4\\mathrm{i})}=\\frac{25+50\\mathrm{i}}{25}=1+2\\mathrm{i}$.</p>"
+          "choices": [],
+          "answer": "\\(1+2\\mathrm{i}\\)",
+          "solution": "<p>分子分母同乘分母的共轭复数 $3-4\\mathrm{i}$，得</p><p>$\\frac{-5+10\\mathrm{i}}{3+4\\mathrm{i}}=\\frac{(-5+10\\mathrm{i})(3-4\\mathrm{i})}{(3+4\\mathrm{i})(3-4\\mathrm{i})}=\\frac{25+50\\mathrm{i}}{25}=1+2\\mathrm{i}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "某校安排 $5$ 个班到 $4$ 个工厂进行社会实践. 每个班去一个工厂，每个工厂至少安排一个班，不同的安排方法共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 种. （用数字作答）",
-          "choices": null,
-          "answer": "$240$",
-          "solution": "<p>为了使四个工厂均有班级，5 个有标号的班级中必有一个工厂分配到两个班级，其余三个工厂各分配一个班级. 先选出分配两个班级的工厂，有 $4$ 种；再从5个班级中选出这两个班级，有 $\\mathrm{C}_{5}^{2}$ 种；最后将剩下的三个班级分配给其余三个工厂，有 $3!$ 种. 因此安排方法数为</p><p>$4\\mathrm{C}_{5}^{2}\\cdot3!=4\\cdot10\\cdot6=240$.</p>"
+          "choices": [],
+          "answer": "\\(240\\)",
+          "solution": "<p>为了使四个工厂均有班级，5 个有标号的班级中必有一个工厂分配到两个班级，其余三个工厂各分配一个班级. 先选出分配两个班级的工厂，有 $4$ 种；再从5个班级中选出这两个班级，有 $\\mathrm{C}_{5}^{2}$ 种；最后将剩下的三个班级分配给其余三个工厂，有 $3!$ 种. 因此安排方法数为</p><p>$4\\mathrm{C}_{5}^{2}\\cdot3!=4\\cdot10\\cdot6=240$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -191,45 +370,57 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>如图，测量河对岸的塔高 $AB$ 时，可以选择与塔底 $B$ 在同一水平面内的两个测点 $C$ 与 $D$. 现测得 $\\angle BCD = \\alpha$，$\\angle BDC = \\beta$，$CD = s$，并在点 $C$ 测得塔顶 $A$ 的仰角为 $\\theta$，求塔高 $AB$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，测量河对岸的塔高 $AB$ 时，可以选择与塔底 $B$ 在同一水平面内的两个测点 $C$ 与 $D$. 现测得 $\\angle BCD = \\alpha$，$\\angle BDC = \\beta$，$CD = s$，并在点 $C$ 测得塔顶 $A$ 的仰角为 $\\theta$，求塔高 $AB$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/new_curriculum_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>在 $\\triangle BCD$ 中，$\\angle CBD=\\pi-\\alpha-\\beta$. 由正弦定理，</p><p>$\\frac{BC}{\\sin\\beta}=\\frac{CD}{\\sin(\\pi-\\alpha-\\beta)}$，所以</p><p>$BC=\\frac{s\\sin\\beta}{\\sin(\\alpha+\\beta)}$.</p><p>由于塔高 $AB$ 垂直于测点所在的水平面，$\\triangle ABC$ 是直角三角形，且 $\\angle ACB=\\theta$. 因此</p><p>$AB=BC\\tan\\theta=\\frac{s\\sin\\beta\\tan\\theta}{\\sin(\\alpha+\\beta)}$.</p>"
+          "solution": "<p>在 $\\triangle BCD$ 中，$\\angle CBD=\\pi-\\alpha-\\beta$. 由正弦定理，</p><p>$\\frac{BC}{\\sin\\beta}=\\frac{CD}{\\sin(\\pi-\\alpha-\\beta)}$，所以</p><p>$BC=\\frac{s\\sin\\beta}{\\sin(\\alpha+\\beta)}$.</p><p>由于塔高 $AB$ 垂直于测点所在的水平面，$\\triangle ABC$ 是直角三角形，且 $\\angle ACB=\\theta$. 因此</p><p>$AB=BC\\tan\\theta=\\frac{s\\sin\\beta\\tan\\theta}{\\sin(\\alpha+\\beta)}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，在三棱锥 $S - ABC$ 中，侧面 $SAB$ 与侧面 $SAC$ 均为等边三角形，$\\angle BAC = 90^{\\circ}$，$O$ 为 $BC$ 中点.</p><ol class=\"enumerate\"><li><p>证明：$SO \\perp$ 平面 $ABC$；</p></li><li><p>求二面角 $A - SC - B$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在三棱锥 $S - ABC$ 中，侧面 $SAB$ 与侧面 $SAC$ 均为等边三角形，$\\angle BAC = 90^{\\circ}$，$O$ 为 $BC$ 中点.</p><ol class=\"enumerate\"><li><p>证明：$SO \\perp$ 平面 $ABC$；</p></li><li><p>求二面角 $A - SC - B$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/new_curriculum_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等边三角形的边长为 $a$，则 $AB=AC=SA=SB=SC=a$. 因为 $O$ 是 $BC$ 的中点，且 $AB=AC$，所以在等腰三角形 $ABC$ 中 $AO\\perp BC$；在等腰三角形 $SBC$ 中 $SO\\perp BC$. 又</p><p>$AO=\\frac{a}{\\sqrt{2}}$，$OB=\\frac{a}{\\sqrt{2}}$，从 $\\triangle SOB$ 得 $SO=\\frac{a}{\\sqrt{2}}$. 于是 $SO^{2}+AO^{2}=a^{2}=SA^{2}$，故 $SO\\perp AO$. 直线 $AO$ 与 $BC$ 是平面 $ABC$ 内相交的两条直线，所以 $SO\\perp$ 平面 $ABC$.</p></li><li><p>取 $SC$ 的中点 $M$. 在等边三角形 $SAC$ 中，$AM\\perp SC$. 又 $O$，$M$ 分别是 $BC$，$SC$ 的中点，所以 $OM\\parallel SB$. 由 $BC=\\sqrt{AB^{2}+AC^{2}}=a\\sqrt{2}$ 及 $SB=SC=a$，得 $\\angle BSC=90^{\\circ}$，从而 $OM\\perp SC$. 因此 $\\angle AMO$ 是二面角 $A-SC-B$ 的平面角. 由上面的垂直关系，$AO\\perp SO$ 且 $AO\\perp BC$，而 $SO$ 与 $BC$ 是平面 $SBC$ 内相交的两条直线，故 $AO\\perp$ 平面 $SBC$，从而 $AO\\perp OM$. 在直角三角形 $AOM$ 中，$OM=\\frac{a}{2}$，$AO=\\frac{a}{\\sqrt{2}}$，所以 $AM=\\frac{\\sqrt{3}}{2}a$，从而</p><p>$\\cos\\angle AMO=\\frac{OM}{AM}=\\frac{1}{\\sqrt{3}}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等边三角形的边长为 $a$，则 $AB=AC=SA=SB=SC=a$. 因为 $O$ 是 $BC$ 的中点，且 $AB=AC$，所以在等腰三角形 $ABC$ 中 $AO\\perp BC$；在等腰三角形 $SBC$ 中 $SO\\perp BC$. 又</p><p>$AO=\\frac{a}{\\sqrt{2}}$，$OB=\\frac{a}{\\sqrt{2}}$，从 $\\triangle SOB$ 得 $SO=\\frac{a}{\\sqrt{2}}$. 于是 $SO^{2}+AO^{2}=a^{2}=SA^{2}$，故 $SO\\perp AO$. 直线 $AO$ 与 $BC$ 是平面 $ABC$ 内相交的两条直线，所以 $SO\\perp$ 平面 $ABC$.</p></li><li><p>取 $SC$ 的中点 $M$. 在等边三角形 $SAC$ 中，$AM\\perp SC$. 又 $O$，$M$ 分别是 $BC$，$SC$ 的中点，所以 $OM\\parallel SB$. 由 $BC=\\sqrt{AB^{2}+AC^{2}}=a\\sqrt{2}$ 及 $SB=SC=a$，得 $\\angle BSC=90^{\\circ}$，从而 $OM\\perp SC$. 因此 $\\angle AMO$ 是二面角 $A-SC-B$ 的平面角. 由上面的垂直关系，$AO\\perp SO$ 且 $AO\\perp BC$，而 $SO$ 与 $BC$ 是平面 $SBC$ 内相交的两条直线，故 $AO\\perp$ 平面 $SBC$，从而 $AO\\perp OM$. 在直角三角形 $AOM$ 中，$OM=\\frac{a}{2}$，$AO=\\frac{a}{\\sqrt{2}}$，所以 $AM=\\frac{\\sqrt{3}}{2}a$，从而</p><p>$\\cos\\angle AMO=\\frac{OM}{AM}=\\frac{1}{\\sqrt{3}}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>在平面直角坐标系 $xOy$ 中，经过点 $(0, \\sqrt{2})$ 且斜率为 $k$ 的直线 $l$ 与椭圆 $\\frac{x^{2}}{2}+ y^{2} = 1$ 有两个不同的交点 $P$ 和 $Q$.</p><ol class=\"enumerate\"><li><p>求 $k$ 的取值范围；</p></li><li><p>设椭圆与 $x$ 轴正半轴，$y$ 轴正半轴的交点分别为 $A$，$B$，是否存在常数 $k$，使得向量 $\\overrightarrow{OP}+ \\overrightarrow{OQ}$ 与 $\\overrightarrow{AB}$ 共线？如果存在，求 $k$ 值；如果不存在，请说明理由.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>直线 $l$ 经过 $(0,\\sqrt{2})$，所以方程为 $y=kx+\\sqrt{2}$. 代入椭圆方程，得</p><p>$\\frac{x^{2}}{2}+(kx+\\sqrt{2})^{2}=1$，即 $\\left(k^{2}+\\frac{1}{2}\\right)x^{2}+2\\sqrt{2}kx+1=0$.</p><p>直线与椭圆有两个不同交点，当且仅当上述关于 $x$ 的二次方程有两个不等实根，即</p><p>$\\Delta=(2\\sqrt{2}k)^{2}-4\\left(k^{2}+\\frac{1}{2}\\right)=4k^{2}-2>0$. 因此 $k< -\\frac{\\sqrt{2}}{2}$ 或 $k>\\frac{\\sqrt{2}}{2}$，即</p><p>$k\\in\\left(-\\infty,-\\frac{\\sqrt{2}}{2}\\right)\\cup\\left(\\frac{\\sqrt{2}}{2},+\\infty\\right)$.</p></li><li><p>设 $P(x_{1},y_{1})$、$Q(x_{2},y_{2})$. 由上面二次方程的韦达定理，</p><p>$x_{1}+x_{2}=-\\frac{2\\sqrt{2}k}{k^{2}+\\frac{1}{2}}=-\\frac{4\\sqrt{2}k}{2k^{2}+1}$，并且 $y_{1}+y_{2}=k(x_{1}+x_{2})+2\\sqrt{2}$. 椭圆与坐标轴正半轴的交点为 $A(\\sqrt{2},0)$、$B(0,1)$，所以 $\\overrightarrow{AB}=(-\\sqrt{2},1)$.</p><p>由 $y_{i}=kx_{i}+\\sqrt{2}$，有 $y_{1}+y_{2}=k(x_{1}+x_{2})+2\\sqrt{2}=\\frac{2\\sqrt{2}}{2k^{2}+1}$. 因此向量 $\\overrightarrow{OP}+\\overrightarrow{OQ}=(x_{1}+x_{2},y_{1}+y_{2})$ 与 $\\overrightarrow{AB}$ 共线的条件是</p><p>$(x_{1}+x_{2})+\\sqrt{2}(y_{1}+y_{2})=0$. 代入上式，得</p><p>$-\\frac{4\\sqrt{2}k}{2k^{2}+1}+\\frac{4}{2k^{2}+1}=0$. 由于 $2k^{2}+1>0$，所以 $1-\\sqrt{2}k=0$，即 $k=\\frac{\\sqrt{2}}{2}$. 但这不满足第一问的严格不等式，故不存在符合条件的常数 $k$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>直线 $l$ 经过 $(0,\\sqrt{2})$，所以方程为 $y=kx+\\sqrt{2}$. 代入椭圆方程，得</p><p>$\\frac{x^{2}}{2}+(kx+\\sqrt{2})^{2}=1$，即 $\\left(k^{2}+\\frac{1}{2}\\right)x^{2}+2\\sqrt{2}kx+1=0$.</p><p>直线与椭圆有两个不同交点，当且仅当上述关于 $x$ 的二次方程有两个不等实根，即</p><p>$\\Delta=(2\\sqrt{2}k)^{2}-4\\left(k^{2}+\\frac{1}{2}\\right)=4k^{2}-2>0$. 因此 $k< -\\frac{\\sqrt{2}}{2}$ 或 $k>\\frac{\\sqrt{2}}{2}$，即</p><p>$k\\in\\left(-\\infty,-\\frac{\\sqrt{2}}{2}\\right)\\cup\\left(\\frac{\\sqrt{2}}{2},+\\infty\\right)$.</p></li><li><p>设 $P(x_{1},y_{1})$、$Q(x_{2},y_{2})$. 由上面二次方程的韦达定理，</p><p>$x_{1}+x_{2}=-\\frac{2\\sqrt{2}k}{k^{2}+\\frac{1}{2}}=-\\frac{4\\sqrt{2}k}{2k^{2}+1}$，并且 $y_{1}+y_{2}=k(x_{1}+x_{2})+2\\sqrt{2}$. 椭圆与坐标轴正半轴的交点为 $A(\\sqrt{2},0)$、$B(0,1)$，所以 $\\overrightarrow{AB}=(-\\sqrt{2},1)$.</p><p>由 $y_{i}=kx_{i}+\\sqrt{2}$，有 $y_{1}+y_{2}=k(x_{1}+x_{2})+2\\sqrt{2}=\\frac{2\\sqrt{2}}{2k^{2}+1}$. 因此向量 $\\overrightarrow{OP}+\\overrightarrow{OQ}=(x_{1}+x_{2},y_{1}+y_{2})$ 与 $\\overrightarrow{AB}$ 共线的条件是</p><p>$(x_{1}+x_{2})+\\sqrt{2}(y_{1}+y_{2})=0$. 代入上式，得</p><p>$-\\frac{4\\sqrt{2}k}{2k^{2}+1}+\\frac{4}{2k^{2}+1}=0$. 由于 $2k^{2}+1>0$，所以 $1-\\sqrt{2}k=0$，即 $k=\\frac{\\sqrt{2}}{2}$. 但这不满足第一问的严格不等式，故不存在符合条件的常数 $k$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，面积为 $S$ 的正方形 $ABCD$ 中有一个不规则的图形 $M$，可按下面方法估计 $M$ 的面积：在正方形 $ABCD$ 中随机投掷 $n$ 个点，若 $n$ 个点中有 $m$ 个点落入 $M$ 中，则 $M$ 的面积的估计值为 $\\frac{m}{n}S$. 假设正方形 $ABCD$ 的边长为 $2$，$M$ 的面积为 $1$，并向正方形 $ABCD$ 中随机投掷 $10000$ 个点，以 $X$ 表示落入 $M$ 中的点的数目.</p><ol class=\"enumerate\"><li><p>求 $X$ 的均值 $E(X)$；</p></li><li><p>求用以上方法估计 $M$ 的面积时，$M$ 的面积的估计值与实际值之差在区间 $(-0.03, 0.03)$ 内的概率. 附表：$P(k)=\\sum_{i=0}^{k}\\mathrm{C}_{10000}^{i}\\times 0.25^{i}\\times 0.75^{10000-i}$.</p></li></ol><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$k$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2424$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2425$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2574$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2575$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$P(k)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.0403$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.0423$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.9570$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.9590$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，面积为 $S$ 的正方形 $ABCD$ 中有一个不规则的图形 $M$，可按下面方法估计 $M$ 的面积：在正方形 $ABCD$ 中随机投掷 $n$ 个点，若 $n$ 个点中有 $m$ 个点落入 $M$ 中，则 $M$ 的面积的估计值为 $\\frac{m}{n}S$. 假设正方形 $ABCD$ 的边长为 $2$，$M$ 的面积为 $1$，并向正方形 $ABCD$ 中随机投掷 $10000$ 个点，以 $X$ 表示落入 $M$ 中的点的数目.</p><ol class=\"enumerate\"><li><p>求 $X$ 的均值 $E(X)$；</p></li><li><p>求用以上方法估计 $M$ 的面积时，$M$ 的面积的估计值与实际值之差在区间 $(-0.03, 0.03)$ 内的概率. 附表：$P(k)=\\sum_{i=0}^{k}\\mathrm{C}_{10000}^{i}\\times 0.25^{i}\\times 0.75^{10000-i}$.</p></li></ol><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$k$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2424$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2425$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2574$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2575$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$P(k)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.0403$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.0423$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.9570$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.9590$ </td></tr></tbody></table></center><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/new_curriculum_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>每个随机点落入 $M$ 的概率为 $\\frac{1}{4}$，所以 $X\\sim B\\left(10000,\\frac{1}{4}\\right)$. 因此</p><p>$E(X)=10000\\cdot\\frac{1}{4}=2500$.</p></li><li><p>估计面积为 $\\frac{4X}{10000}=\\frac{X}{2500}$. 题设不等式等价于</p><p>$-0.03<\\frac{X}{2500}-1<0.03$，即 $2425<X<2575$. 由于 $X$ 为整数，所求概率为</p><p>$P(2426\\le X\\leqslant2574)=P(2574)-P(2425)=0.9570-0.0423=0.9147$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>每个随机点落入 $M$ 的概率为 $\\frac{1}{4}$，所以 $X\\sim B\\left(10000,\\frac{1}{4}\\right)$. 因此</p><p>$E(X)=10000\\cdot\\frac{1}{4}=2500$.</p></li><li><p>估计面积为 $\\frac{4X}{10000}=\\frac{X}{2500}$. 题设不等式等价于</p><p>$-0.03<\\frac{X}{2500}-1<0.03$，即 $2425<X<2575$. 由于 $X$ 为整数，所求概率为</p><p>$P(2426\\le X\\leqslant2574)=P(2574)-P(2425)=0.9570-0.0423=0.9147$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>设函数 $f(x) = \\ln (x + a) + x^{2}$.</p><ol class=\"enumerate\"><li><p>若当 $x = -1$ 时，$f(x)$ 取得极值，求 $a$ 的值，并讨论 $f(x)$ 的单调性；</p></li><li><p>若 $f(x)$ 存在极值，求 $a$ 的取值范围，并证明所有极值之和大于 $\\ln \\frac{\\mathrm{e}}{2}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-a$，且 $f'(x)=\\frac{1}{x+a}+2x$. 由于 $x=-1$ 是定义域内的极值点，必须有 $f'(-1)=0$，即 $\\frac{1}{a-1}-2=0$，所以 $a=\\frac{3}{2}$. 此时</p><p>$f'(x)=\\frac{2x^{2}+3x+1}{x+\\frac{3}{2}}=\\frac{(2x+1)(x+1)}{x+\\frac{3}{2}}$，定义域为 $\\left(-\\frac{3}{2},+\\infty\\right)$. 据此，$f'(x)>0$ 在 $\\left(-\\frac{3}{2},-1\\right)$ 和 $\\left(-\\frac{1}{2},+\\infty\\right)$ 上成立，$f'(x)<0$ 在 $\\left(-1,-\\frac{1}{2}\\right)$ 上成立. 因此函数在 $\\left(-\\frac{3}{2},-1\\right)$ 和 $\\left(-\\frac{1}{2},+\\infty\\right)$ 上单调递增，在 $\\left(-1,-\\frac{1}{2}\\right)$ 上单调递减.</p></li><li><p>令 $t=x+a$，则定义域为 $t>0$，且</p><p>$f'(x)=2t+\\frac{1}{t}-2a$. 函数 $2t+\\frac{1}{t}$ 在 $t>0$ 上的最小值为 $2\\sqrt{2}$. 当 $a\\le\\sqrt{2}$ 时，$f'(x)$ 没有两个变号零点；当 $a=\\sqrt{2}$ 时只有一个不变号的零点；当 $a>\\sqrt{2}$ 时有两个正根，且导数符号依次为正、负、正，函数存在极大值和极小值. 因此存在极值的充要条件为 $a>\\sqrt{2}$.</p><p>当 $a>\\sqrt{2}$ 时，设两个临界点对应的 $t$ 值为 $t_{1}$，$t_{2}$. 由 $2t^{2}-2at+1=0$，有 $t_{1}+t_{2}=a$，$t_{1}t_{2}=\\frac{1}{2}$. 相应的 $x_{i}=t_{i}-a$，两个极值之和为</p><p>$f(x_{1})+f(x_{2})=\\ln(t_{1}t_{2})+(t_{1}-a)^{2}+(t_{2}-a)^{2}=a^{2}-1-\\ln2$. 因为 $a^{2}>2$，所以</p><p>$f(x_{1})+f(x_{2})>1-\\ln2=\\ln\\frac{\\mathrm{e}}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-a$，且 $f'(x)=\\frac{1}{x+a}+2x$. 由于 $x=-1$ 是定义域内的极值点，必须有 $f'(-1)=0$，即 $\\frac{1}{a-1}-2=0$，所以 $a=\\frac{3}{2}$. 此时</p><p>$f'(x)=\\frac{2x^{2}+3x+1}{x+\\frac{3}{2}}=\\frac{(2x+1)(x+1)}{x+\\frac{3}{2}}$，定义域为 $\\left(-\\frac{3}{2},+\\infty\\right)$. 据此，$f'(x)>0$ 在 $\\left(-\\frac{3}{2},-1\\right)$ 和 $\\left(-\\frac{1}{2},+\\infty\\right)$ 上成立，$f'(x)<0$ 在 $\\left(-1,-\\frac{1}{2}\\right)$ 上成立. 因此函数在 $\\left(-\\frac{3}{2},-1\\right)$ 和 $\\left(-\\frac{1}{2},+\\infty\\right)$ 上单调递增，在 $\\left(-1,-\\frac{1}{2}\\right)$ 上单调递减.</p></li><li><p>令 $t=x+a$，则定义域为 $t>0$，且</p><p>$f'(x)=2t+\\frac{1}{t}-2a$. 函数 $2t+\\frac{1}{t}$ 在 $t>0$ 上的最小值为 $2\\sqrt{2}$. 当 $a\\le\\sqrt{2}$ 时，$f'(x)$ 没有两个变号零点；当 $a=\\sqrt{2}$ 时只有一个不变号的零点；当 $a>\\sqrt{2}$ 时有两个正根，且导数符号依次为正、负、正，函数存在极大值和极小值. 因此存在极值的充要条件为 $a>\\sqrt{2}$.</p><p>当 $a>\\sqrt{2}$ 时，设两个临界点对应的 $t$ 值为 $t_{1}$，$t_{2}$. 由 $2t^{2}-2at+1=0$，有 $t_{1}+t_{2}=a$，$t_{1}t_{2}=\\frac{1}{2}$. 相应的 $x_{i}=t_{i}-a$，两个极值之和为</p><p>$f(x_{1})+f(x_{2})=\\ln(t_{1}t_{2})+(t_{1}-a)^{2}+(t_{2}-a)^{2}=a^{2}-1-\\ln2$. 因为 $a^{2}>2$，所以</p><p>$f(x_{1})+f(x_{2})>1-\\ln2=\\ln\\frac{\\mathrm{e}}{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
-          "body": "<p>如图，已知 $AP$ 是 $\\odot O$ 的切线，$P$ 为切点，直线 $AC$ 是 $\\odot O$ 的割线，与 $\\odot O$ 交于 $B$，$C$ 两点，圆心 $O$ 在 $\\angle PAC$ 的内部，点 $M$ 是 $BC$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$A$，$P$，$O$，$M$ 四点共圆；</p></li><li><p>求 $\\angle OAM + \\angle APM$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，已知 $AP$ 是 $\\odot O$ 的切线，$P$ 为切点，直线 $AC$ 是 $\\odot O$ 的割线，与 $\\odot O$ 交于 $B$，$C$ 两点，圆心 $O$ 在 $\\angle PAC$ 的内部，点 $M$ 是 $BC$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$A$，$P$，$O$，$M$ 四点共圆；</p></li><li><p>求 $\\angle OAM + \\angle APM$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/new_curriculum_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>连接 $OP$、$OM$. 因为 $AP$ 是圆在 $P$ 处的切线，所以 $OP\\perp AP$；又因为 $M$ 是弦 $BC$ 的中点，所以 $OM\\perp BC$. 由于 $A$、$B$、$C$ 共线，$AM$ 与 $BC$ 共线，从而 $OM\\perp AM$. 因此 $\\angle OPA=\\angle OMA=90^{\\circ}$，四边形 $APOM$ 的一组对角互补，故 $A$、$P$、$O$、$M$ 四点共圆.</p></li><li><p>由四点共圆，$\\angle OAM=\\angle OPM$. 又因 $OP\\perp AP$，且圆心 $O$ 在 $\\angle PAC$ 内部，射线 $PM$ 位于由射线 $PA$、$PO$ 构成的直角内，所以 $\\angle OPM+\\angle APM=90^{\\circ}$. 于是</p><p>$\\angle OAM+\\angle APM=90^{\\circ}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>连接 $OP$、$OM$. 因为 $AP$ 是圆在 $P$ 处的切线，所以 $OP\\perp AP$；又因为 $M$ 是弦 $BC$ 的中点，所以 $OM\\perp BC$. 由于 $A$、$B$、$C$ 共线，$AM$ 与 $BC$ 共线，从而 $OM\\perp AM$. 因此 $\\angle OPA=\\angle OMA=90^{\\circ}$，四边形 $APOM$ 的一组对角互补，故 $A$、$P$、$O$、$M$ 四点共圆.</p></li><li><p>由四点共圆，$\\angle OAM=\\angle OPM$. 又因 $OP\\perp AP$，且圆心 $O$ 在 $\\angle PAC$ 内部，射线 $PM$ 位于由射线 $PA$、$PO$ 构成的直角内，所以 $\\angle OPM+\\angle APM=90^{\\circ}$. 于是</p><p>$\\angle OAM+\\angle APM=90^{\\circ}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -239,16 +430,20 @@
         {
           "num": 23,
           "body": "<p>$\\odot O_{1}$ 和 $\\odot O_{2}$ 的极坐标方程分别为 $\\rho = 4\\cos \\theta$，$\\rho = -4\\sin \\theta$.</p><ol class=\"enumerate\"><li><p>把 $\\odot O_{1}$ 和 $\\odot O_{2}$ 的极坐标方程化为直角坐标方程；</p></li><li><p>求经过 $\\odot O_{1}$，$\\odot O_{2}$ 交点的直线的直角坐标方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在极坐标与直角坐标的同一原点、同一极轴下，$x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，$\\rho^{2}=x^{2}+y^{2}$. 由 $\\rho=4\\cos\\theta$，两边乘以 $\\rho$ 得 $\\rho^{2}=4x$，所以 $\\odot O_{1}$ 的直角坐标方程为 $x^{2}+y^{2}-4x=0$. 对 $\\rho=-4\\sin\\theta$，两边乘以 $\\rho$ 得 $\\rho^{2}=-4y$，所以 $\\odot O_{2}$ 的直角坐标方程为 $x^{2}+y^{2}+4y=0$.</p></li><li><p>两圆的交点满足</p><p>$\\begin{cases}x^{2}+y^{2}-4x=0,\\\\  x^{2}+y^{2}+4y=0.\\end{cases}$</p><p>两式相减得 $x+y=0$，即 $y=-x$. 代入任一圆可得交点为 $(0,0)$ 和 $(2,-2)$，所以经过两个交点的直线方程为 $y=-x$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在极坐标与直角坐标的同一原点、同一极轴下，$x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，$\\rho^{2}=x^{2}+y^{2}$. 由 $\\rho=4\\cos\\theta$，两边乘以 $\\rho$ 得 $\\rho^{2}=4x$，所以 $\\odot O_{1}$ 的直角坐标方程为 $x^{2}+y^{2}-4x=0$. 对 $\\rho=-4\\sin\\theta$，两边乘以 $\\rho$ 得 $\\rho^{2}=-4y$，所以 $\\odot O_{2}$ 的直角坐标方程为 $x^{2}+y^{2}+4y=0$.</p></li><li><p>两圆的交点满足</p><p>$\\begin{cases}x^{2}+y^{2}-4x=0,\\\\  x^{2}+y^{2}+4y=0.\\end{cases}$</p><p>两式相减得 $x+y=0$，即 $y=-x$. 代入任一圆可得交点为 $(0,0)$ 和 $(2,-2)$，所以经过两个交点的直线方程为 $y=-x$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 24,
           "body": "<p>设函数 $f(x) = |2x + 1| - |x - 4|$.</p><ol class=\"enumerate\"><li><p>解不等式 $f(x) > 2$；</p></li><li><p>求函数 $y = f(x)$ 的最小值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>按 $2x+1$ 和 $x-4$ 的符号分段，得</p><p>$f(x)=\\begin{cases}-x-5,&x<-\\frac{1}{2},\\\\  3x-3,&-\\frac{1}{2}\\le x<4,\\\\  x+5,&x\\geqslant4.\\end{cases}$</p><p>当 $x<-\\frac{1}{2}$ 时，$-x-5>2$ 等价于 $x<-7$；当 $-\\frac{1}{2}\\le x<4$ 时，$3x-3>2$ 等价于 $x>\\frac{5}{3}$；当 $x\\geqslant4$ 时，$x+5>2$ 恒成立. 因此不等式的解集为 $\\left(-\\infty,-7\\right)\\cup\\left(\\frac{5}{3},+\\infty\\right)$.</p></li><li><p>第一段函数递减，第二段和第三段函数递增，所以最小值在分界点 $x=-\\frac{1}{2}$ 处取得，且</p><p>$f(-\\frac{1}{2})=\\left|0\\right|-\\left|-\\frac{9}{2}\\right|=-\\frac{9}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>按 $2x+1$ 和 $x-4$ 的符号分段，得</p><p>$f(x)=\\begin{cases}-x-5,&x<-\\frac{1}{2},\\\\  3x-3,&-\\frac{1}{2}\\le x<4,\\\\  x+5,&x\\geqslant4.\\end{cases}$</p><p>当 $x<-\\frac{1}{2}$ 时，$-x-5>2$ 等价于 $x<-7$；当 $-\\frac{1}{2}\\le x<4$ 时，$3x-3>2$ 等价于 $x>\\frac{5}{3}$；当 $x\\geqslant4$ 时，$x+5>2$ 恒成立. 因此不等式的解集为 $\\left(-\\infty,-7\\right)\\cup\\left(\\frac{5}{3},+\\infty\\right)$.</p></li><li><p>第一段函数递减，第二段和第三段函数递增，所以最小值在分界点 $x=-\\frac{1}{2}$ 处取得，且</p><p>$f(-\\frac{1}{2})=\\left|0\\right|-\\left|-\\frac{9}{2}\\right|=-\\frac{9}{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -183,7 +183,9 @@ x_{1}x_{2}\cdots x_{n}=\prod_{k=1}^{n}\dfrac{k}{k+1}=\dfrac{1}{2}\cdot\dfrac{2}{
 #problem(15)[
 如图球 #mi(`O`) 的半径为 #mi(`2`)，圆 #mi(`O_{1}`) 是一小圆，#mi(`O_{1}O = \sqrt{2}`). #mi(`A`)，#mi(`B`) 是圆 #mi(`O_{1}`) 上两点. 若 #mi(`A`)，#mi(`B`) 两点间的球面距离为 #mi(`\frac{2\pi}{3}`)，则 #mi(`\angle AO_{1}B =\underline{\hspace{2.5em}}{}`).
 
-[max width=0.34\linewidth]img/2009/shaanxi_liberal/q15_fig1.png
+
+#align(center)[#image("/papers/2009/img/shaanxi_liberal/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`\frac{\pi}{2}`)])
@@ -233,7 +235,9 @@ x_{1}x_{2}\cdots x_{n}=\prod_{k=1}^{n}\dfrac{k}{k+1}=\dfrac{1}{2}\cdot\dfrac{2}{
 
 
 
-[max width=0.34\linewidth]img/2009/shaanxi_liberal/q19_fig1.png
+
+#align(center)[#image("/papers/2009/img/shaanxi_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -261,7 +265,9 @@ x_{1}x_{2}\cdots x_{n}=\prod_{k=1}^{n}\dfrac{k}{k+1}=\dfrac{1}{2}\cdot\dfrac{2}{
 
 
 
-[max width=0.34\linewidth]img/2009/shaanxi_liberal/q22_fig1.png
+
+#align(center)[#image("/papers/2009/img/shaanxi_liberal/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[

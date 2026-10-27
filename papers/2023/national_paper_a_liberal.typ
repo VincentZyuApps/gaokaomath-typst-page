@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,216 +11,217 @@
 #part-header("单选题")
 
 #problem(1)[
-设全集 $U=\{1,2,3,4,5\}$，集合 $M=\{1,4\}$，$N=\{2,5\}$，则 $N union \c o m p l e m e n t_U M=$（ ）
-  #choices([$\{2,3,5\}$], [$\{1,3,4\}$], [$\{1,2,4,5\}$], [$\{2,3,4,5\}$], cols: 4)
+设全集 #mi(`U=\{1,2,3,4,5\}`)，集合 #mi(`M=\{1,4\}`)，#mi(`N=\{2,5\}`)，则 #mi(`N\cup\complement_{U} M=`)（ ）
+  #choices([#mi(`\{2,3,5\}`)], [#mi(`\{1,3,4\}`)], [#mi(`\{1,2,4,5\}`)], [#mi(`\{2,3,4,5\}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由 $M=\{1,4\}$ 得 $\c o m p l e m e n t_U M=\{2,3,5\}$. 又 $N=\{2,5\}$，故 $N union \c o m p l e m e n t_U M=\{2,5\} union \{2,3,5\}=\{2,3,5\}$. 故选 A.
+由 #mi(`M=\{1,4\}`) 得 #mi(`\complement_{U} M=\{2,3,5\}`). 又 #mi(`N=\{2,5\}`)，故 #mi(`N\cup\complement_{U} M=\{2,5\}\cup\{2,3,5\}=\{2,3,5\}`). 故选 A.
 ]
 
 #problem(2)[
-$(5(1+ i ""^3))/((2+ i )(2- i ))=$（ ）
-  #choices([$-1$], [$1$], [$1- i$], [$1+ i$], cols: 4)
+#mi(`\dfrac{5\left(1+\mathrm{i}^3\right)}{\left(2+\mathrm{i}\right)\left(2-\mathrm{i}\right)}=`)（ ）
+  #choices([#mi(`-1`)], [#mi(`1`)], [#mi(`1-\mathrm{i}`)], [#mi(`1+\mathrm{i}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-由 $i ""^3=- i$ 得分子为 $5(1- i )$，分母为 $(2+ i )(2- i )=5$，故原式等于 $1- i$. 故选 C.
+由 #mi(`\mathrm{i}^{3}=-\mathrm{i}`) 得分子为 #mi(`5(1-\mathrm{i})`)，分母为 #mi(`(2+\mathrm{i})(2-\mathrm{i})=5`)，故原式等于 #mi(`1-\mathrm{i}`). 故选 C.
 ]
 
 #problem(3)[
-已知向量 $bold(a)=(3,1)$，$bold(b)=(2,2)$，则 $cos (bold(a)+bold(b),bold(a)-bold(b))=$（ ）
-  #choices([$(1)/(17)$], [$(sqrt(17))/(17)$], [$(sqrt(5))/(5)$], [$(2 sqrt(5))/(5)$], cols: 2)
+已知向量 #mi(`\mathbf{a}=\left(3,1\right)`)，#mi(`\mathbf{b}=\left(2,2\right)`)，则 #mi(`\cos\left(\mathbf{a}+\mathbf{b},\mathbf{a}-\mathbf{b}\right)=`)（ ）
+  #choices([#mi(`\dfrac{1}{17}`)], [#mi(`\dfrac{\sqrt{17}}{17}`)], [#mi(`\dfrac{\sqrt{5}}{5}`)], [#mi(`\dfrac{2\sqrt{5}}{5}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-$bold(a)+bold(b)=(5,3)$，$bold(a)-bold(b)=(1,-1)$. 于是 $cos (bold(a)+bold(b),bold(a)-bold(b))=(5-3)/(sqrt(34)sqrt(2))=(2)/(sqrt(68))=(sqrt(17))/(17)$. 故选 B.
+#mi(`\mathbf{a}+\mathbf{b}=(5,3)`)，#mi(`\mathbf{a}-\mathbf{b}=(1,-1)`). 于是 #mi(`\cos\left(\mathbf{a}+\mathbf{b},\mathbf{a}-\mathbf{b}\right)=\dfrac{5-3}{\sqrt{34}\sqrt{2}}=\dfrac{2}{\sqrt{68}}=\dfrac{\sqrt{17}}{17}`). 故选 B.
 ]
 
 #problem(4)[
 某校文艺部有 4 名学生，其中高一、高二年级各 2 名. 从这 4 名学生中随机选 2 名组织校文艺汇演，则这 2 名学生来自不同年级的概率为（ ）
-  #choices([$(1)/(6)$], [$(1)/(3)$], [$(1)/(2)$], [$(2)/(3)$], cols: 4)
+  #choices([#mi(`\dfrac{1}{6}`)], [#mi(`\dfrac{1}{3}`)], [#mi(`\dfrac{1}{2}`)], [#mi(`\dfrac{2}{3}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-从 $4$ 名学生中选 $2$ 名共有 $C_4^2=6$ 种等可能结果. 来自不同年级即每年级各选 $1$ 名，共有 $2 times 2 =4$ 种. 故所求概率为 $(4)/(6)=(2)/(3)$. 故选 D.
+从 #mi(`4`) 名学生中选 #mi(`2`) 名共有 #mi(`\mathrm{C}_{4}^{2}=6`) 种等可能结果. 来自不同年级即每年级各选 #mi(`1`) 名，共有 #mi(`2\times2=4`) 种. 故所求概率为 #mi(`\dfrac{4}{6}=\dfrac{2}{3}`). 故选 D.
 ]
 
 #problem(5)[
-记 $S_n$ 为等差数列 $\{a_n\}$ 的前 $n$ 项和. 若 $a_2+a_6=10$，$a_(4) a_8=45$，则 $S_5=$（ ）
-  #choices([$25$], [$22$], [$20$], [$15$], cols: 4)
+记 #mi(`S_{n}`) 为等差数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和. 若 #mi(`a_{2}+a_{6}=10`)，#mi(`a_{4}a_{8}=45`)，则 #mi(`S_{5}=`)（ ）
+  #choices([#mi(`25`)], [#mi(`22`)], [#mi(`20`)], [#mi(`15`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由等差数列性质，$a_2+a_6=2 a_4=10$，得 $a_4=5$. 又 $a_(4) a_8=45$，得 $a_8=9$. 于是公差 $d=(a_8-a_4)/(4)=1$，$a_3=a_4-d=4$. 故 $S_5=5 a_3=20$. 故选 C.
+由等差数列性质，#mi(`a_{2}+a_{6}=2a_{4}=10`)，得 #mi(`a_{4}=5`). 又 #mi(`a_{4}a_{8}=45`)，得 #mi(`a_{8}=9`). 于是公差 #mi(`d=\dfrac{a_8-a_4}{4}=1`)，#mi(`a_{3}=a_{4}-d=4`). 故 #mi(`S_{5}=5a_{3}=20`). 故选 C.
 ]
 
 #problem(6)[
-执行下边的程序框图，则输出的 $B=$（ ）
+执行下边的程序框图，则输出的 #mi(`B=`)（ ）
 
-\texfigure[max width=0.56\linewidth]{img_repaint/2023/national_paper_a_liberal/q6_fig1.tex}
-  #choices([$21$], [$34$], [$55$], [$89$], cols: 4)
+\texfigure[max width=0.56\linewidth]img_repaint/2023/national_paper_a_liberal/q6_fig1.tex
+  #choices([#mi(`21`)], [#mi(`34`)], [#mi(`55`)], [#mi(`89`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-初始 $(n,A,B,k)=(3,1,2,1)$. 当 $k <= n$ 时依次执行 $A\l e f t a r r o w A+B$，$B\l e f t a r r o w A+B$，$k\l e f t a r r o w k+1$. 三次循环后 $(A,B,k)$ 依次为 $(3,5,2)$，$(8,13,3)$，$(21,34,4)$. 此时 $k=4>n$，退出循环，输出 $B=34$. 故选 B.
+初始 #mi(`(n,A,B,k)=(3,1,2,1)`). 当 #mi(`k\le n`) 时依次执行 #mi(`A\leftarrow A+B`)，#mi(`B\leftarrow A+B`)，#mi(`k\leftarrow k+1`). 三次循环后 #mi(`(A,B,k)`) 依次为 #mi(`(3,5,2)`)，#mi(`(8,13,3)`)，#mi(`(21,34,4)`). 此时 #mi(`k=4>n`)，退出循环，输出 #mi(`B=34`). 故选 B.
 ]
 
 #problem(7)[
-设 $F_1$，$F_2$ 为椭圆 $C:(x^2)/(5)+y^2=1$ 的两个焦点，点 $P$ 在 $C$ 上，若 $arrow(P F_1)\c d o t a r r o w(P F_2)=0$，则 $|P F_1| dot |P F_2|=$（ ）
-  #choices([$1$], [$2$], [$4$], [$5$], cols: 4)
+设 #mi(`F_{1}`)，#mi(`F_{2}`) 为椭圆 #mi(`C:\dfrac{x^2}{5}+y^{2}=1`) 的两个焦点，点 #mi(`P`) 在 #mi(`C`) 上，若 #mi(`\overrightarrow{PF_1}\cdot\overrightarrow{PF_2}=0`)，则 #mi(`\left|PF_{1}\right|\cdot\left|PF_{2}\right|=`)（ ）
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`4`)], [#mi(`5`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由椭圆定义，$|P F_1|+|P F_2|=2 sqrt(5)$. 又 $arrow(P F_1)\c d o t a r r o w(P F_2)=0$，故 $|P F_1|^2+|P F_2|^2=|F_(1) F_2|^2=16$. 两式相减得 $2|P F_1| dot |P F_2|=20-16=4$，即 $|P F_1| dot |P F_2|=2$. 故选 B.
+由椭圆定义，#mi(`\left|PF_{1}\right|+\left|PF_{2}\right|=2\sqrt{5}`). 又 #mi(`\overrightarrow{PF_1}\cdot\overrightarrow{PF_2}=0`)，故 #mi(`\left|PF_{1}\right|^{2}+\left|PF_{2}\right|^{2}=\left|F_{1}F_{2}\right|^{2}=16`). 两式相减得 #mi(`2\left|PF_{1}\right|\cdot\left|PF_{2}\right|=20-16=4`)，即 #mi(`\left|PF_{1}\right|\cdot\left|PF_{2}\right|=2`). 故选 B.
 ]
 
 #problem(8)[
-曲线 $y=(e ""^x)/(x+1)$ 在点 $(1,(e)/(2))$ 处的切线方程为（ ）
-  #choices([$y=(e)/(4)x$], [$y=(e)/(2)x$], [$y=(e)/(4)x+(e)/(4)$], [$y=(e)/(2)x+(3 e)/(4)$], cols: 2)
+曲线 #mi(`y=\dfrac{\mathrm{e}^x}{x+1}`) 在点 #mi(`\left(1,\dfrac{\mathrm{e}}{2}\right)`) 处的切线方程为（ ）
+  #choices([#mi(`y=\dfrac{\mathrm{e}}{4}x`)], [#mi(`y=\dfrac{\mathrm{e}}{2}x`)], [#mi(`y=\dfrac{\mathrm{e}}{4}x+\dfrac{\mathrm{e}}{4}`)], [#mi(`y=\dfrac{\mathrm{e}}{2}x+\dfrac{3\mathrm{e}}{4}`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-$y'=(e ""^x(x+1)- e ""^x)/((x+1)^2)=(x e ""^x)/((x+1)^2)$，在 $x=1$ 处斜率为 $(e)/(4)$. 故切线方程为 $y-(e)/(2)=(e)/(4)(x-1)$，即 $y=(e)/(4)x+(e)/(4)$. 故选 C.
+#mi(`y'=\dfrac{\mathrm{e}^x(x+1)-\mathrm{e}^x}{(x+1)^2}=\dfrac{x\mathrm{e}^x}{(x+1)^2}`)，在 #mi(`x=1`) 处斜率为 #mi(`\dfrac{\mathrm{e}}{4}`). 故切线方程为 #mi(`y-\dfrac{\mathrm{e}}{2}=\dfrac{\mathrm{e}}{4}(x-1)`)，即 #mi(`y=\dfrac{\mathrm{e}}{4}x+\dfrac{\mathrm{e}}{4}`). 故选 C.
 ]
 
 #problem(9)[
-已知双曲线 $(x^2)/(a^2)-(y^2)/(b^2)=1$（$a>0$，$b>0$） 的离心率为 $sqrt(5)$，其中一条渐近线与圆 $(x-2)^2+(y-3)^2=1$ 交于 $A$，$B$ 两点，则 $|A B|=$（ ）
-  #choices([$(sqrt(5))/(5)$], [$(2 sqrt(5))/(5)$], [$(3 sqrt(5))/(5)$], [$(4 sqrt(5))/(5)$], cols: 2)
+已知双曲线 #mi(`\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1`)（#mi(`a>0`)，#mi(`b>0`)） 的离心率为 #mi(`\sqrt{5}`)，其中一条渐近线与圆 #mi(`\left(x-2\right)^{2}+\left(y-3\right)^{2}=1`) 交于 #mi(`A`)，#mi(`B`) 两点，则 #mi(`|AB|=`)（ ）
+  #choices([#mi(`\dfrac{\sqrt{5}}{5}`)], [#mi(`\dfrac{2\sqrt{5}}{5}`)], [#mi(`\dfrac{3\sqrt{5}}{5}`)], [#mi(`\dfrac{4\sqrt{5}}{5}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由离心率 $sqrt(5)$ 得渐近线斜率为 $+- 2$. 圆心 $(2,3)$ 到直线 $2 x-y=0$ 的距离为 $(1)/(sqrt(5))<1$，到直线 $2 x+y=0$ 的距离为 $(7)/(sqrt(5))>1$，故与圆相交的是 $2 x-y=0$. 弦长的一半为 $sqrt(1-(1)/(5))=(2)/(sqrt(5))$，所以 $|A B|=(4)/(sqrt(5))=(4 sqrt(5))/(5)$. 故选 D.
+由离心率 #mi(`\sqrt{5}`) 得渐近线斜率为 #mi(`\pm2`). 圆心 #mi(`(2,3)`) 到直线 #mi(`2x-y=0`) 的距离为 #mi(`\dfrac1{\sqrt{5}}<1`)，到直线 #mi(`2x+y=0`) 的距离为 #mi(`\dfrac7{\sqrt{5}}>1`)，故与圆相交的是 #mi(`2x-y=0`). 弦长的一半为 #mi(`\sqrt{1-\dfrac{1}{5}}=\dfrac{2}{\sqrt{5}}`)，所以 #mi(`|AB|=\dfrac{4}{\sqrt{5}}=\dfrac{4\sqrt{5}}{5}`). 故选 D.
 ]
 
 #problem(10)[
-在三棱锥 $P-A B C$ 中，$triangle A B C$ 是边长为 $2$ 的等边三角形，$P A=P B=2$，$P C=sqrt(6)$，则该棱锥的体积为（ ）
-  #choices([$1$], [$sqrt(3)$], [$2$], [$3$], cols: 4)
+在三棱锥 #mi(`P-ABC`) 中，#mi(`\triangle ABC`) 是边长为 #mi(`2`) 的等边三角形，#mi(`PA=PB=2`)，#mi(`PC=\sqrt{6}`)，则该棱锥的体积为（ ）
+  #choices([#mi(`1`)], [#mi(`\sqrt{3}`)], [#mi(`2`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-取坐标 $A=(-1,0,0)$，$B=(1,0,0)$，$C=(0,sqrt(3),0)$. 由 $P A=P B$ 知 $P$ 在平面 $x=0$ 上，设 $P=(0,y_0,h)$（$h>0$）. 由 $P A^2=1+y_0^2+h^2=4$，$P C^2=(y_0-sqrt(3))^2+h^2=6$，两式相减得 $y_0=0$，再得 $h=sqrt(3)$. 故体积为 $(1)/(3) dot (sqrt(3))/(4) dot 4 \c d o t s q r t(3)=1$. 故选 A.
+取坐标 #mi(`A=(-1,0,0)`)，#mi(`B=(1,0,0)`)，#mi(`C=(0,\sqrt{3},0)`). 由 #mi(`PA=PB`) 知 #mi(`P`) 在平面 #mi(`x=0`) 上，设 #mi(`P=(0,y_{0},h)`)（#mi(`h>0`)）. 由 #mi(`PA^{2}=1+y_{0}^{2}+h^{2}=4`)，#mi(`PC^{2}=(y_{0}-\sqrt{3})^{2}+h^{2}=6`)，两式相减得 #mi(`y_{0}=0`)，再得 #mi(`h=\sqrt{3}`). 故体积为 #mi(`\dfrac{1}{3}\cdot\dfrac{\sqrt{3}}{4}\cdot4\cdot\sqrt{3}=1`). 故选 A.
 ]
 
 #problem(11)[
-已知函数 $f(x)= e ""^(-(x-1)^2)$. 记 $a=f((sqrt(2))/(2))$，$b=f((sqrt(3))/(2))$，$c=f((sqrt(6))/(2))$，则（ ）
-  #choices([$b>c>a$], [$b>a>c$], [$c>b>a$], [$c>a>b$], cols: 4)
+已知函数 #mi(`f(x)=\mathrm{e}^{-\left(x-1\right)^2}`). 记 #mi(`a=f\left(\dfrac{\sqrt{2}}{2}\right)`)，#mi(`b=f\left(\dfrac{\sqrt{3}}{2}\right)`)，#mi(`c=f\left(\dfrac{\sqrt{6}}{2}\right)`)，则（ ）
+  #choices([#mi(`b>c>a`)], [#mi(`b>a>c`)], [#mi(`c>b>a`)], [#mi(`c>a>b`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-$f(x)$ 的值随 $|x-1|$ 增大而减小. 而 $|(sqrt(3))/(2)-1|<|(sqrt(6))/(2)-1|<|(sqrt(2))/(2)-1|$，故 $b>c>a$. 故选 A.
+#mi(`f(x)`) 的值随 #mi(`|x-1|`) 增大而减小. 而 #mi(`\left|\dfrac{\sqrt{3}}{2}-1\right|<\left|\dfrac{\sqrt{6}}{2}-1\right|<\left|\dfrac{\sqrt{2}}{2}-1\right|`)，故 #mi(`b>c>a`). 故选 A.
 ]
 
 #problem(12)[
-函数 $y=f(x)$ 的图象由 $y= cos (2 x+(pi)/(6))$ 的图象向左平移 $(pi)/(6)$ 个单位长度得到，则 $y=f(x)$ 的图象与直线 $y=(1)/(2)x-(1)/(2)$ 的交点个数为（ ）
-  #choices([$1$], [$2$], [$3$], [$4$], cols: 4)
+函数 #mi(`y=f(x)`) 的图象由 #mi(`y=\cos\left(2x+\dfrac{\pi}{6}\right)`) 的图象向左平移 #mi(`\dfrac{\pi}{6}`) 个单位长度得到，则 #mi(`y=f(x)`) 的图象与直线 #mi(`y=\dfrac{1}{2}x-\dfrac{1}{2}`) 的交点个数为（ ）
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`3`)], [#mi(`4`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-平移得 $f(x)= cos (2 x+(pi)/(2))=- sin 2 x$. 记 $d(x)=- sin 2 x-(x-1)/(2)$，交点个数即 $d(x)$ 的零点个数. 当 $x<-1$ 时 $(x-1)/(2)<-1 <= - sin 2 x$，当 $x>3$ 时 $(x-1)/(2)>1 >= - sin 2 x$，均无零点；当 $-1 <= x<0$ 时 $- sin 2 x>0>(x-1)/(2)$，也无零点. 在 $[0,3]$ 上，$d'(x)=-2 cos 2 x-(1)/(2)$ 恰有两个零点 $x_1=(1)/(2) arccos (-(1)/(4))$，$x_2= pi -x_1$，且 $d$ 在 $(0,x_1)$、$(x_2,3)$ 上严格递减，在 $(x_1,x_2)$ 上严格递增. 又 $d(0)=(1)/(2)>0$，$d(x_1)=-(sqrt(15))/(4)-(x_1-1)/(2)<0$，$d(x_2)=(sqrt(15))/(4)-(x_2-1)/(2)>0$，$d(3)=- sin 6 -1<0$，故三段区间内各恰有一个零点. 因此交点个数为 $3$. 故选 C.
+平移得 #mi(`f(x)=\cos\left(2x+\dfrac{\pi}{2}\right)=-\sin2x`). 记 #mi(`d(x)=-\sin2x-\dfrac{x-1}{2}`)，交点个数即 #mi(`d(x)`) 的零点个数. 当 #mi(`x<-1`) 时 #mi(`\dfrac{x-1}{2}<-1\le-\sin2x`)，当 #mi(`x>3`) 时 #mi(`\dfrac{x-1}{2}>1\ge-\sin2x`)，均无零点；当 #mi(`-1\le x<0`) 时 #mi(`-\sin2x>0>\dfrac{x-1}{2}`)，也无零点. 在 #mi(`[0,3]`) 上，#mi(`d'(x)=-2\cos2x-\dfrac{1}{2}`) 恰有两个零点 #mi(`x_{1}=\dfrac{1}{2}\arccos\left(-\dfrac{1}{4}\right)`)，#mi(`x_{2}=\pi-x_{1}`)，且 #mi(`d`) 在 #mi(`(0,x_{1})`)、#mi(`(x_{2},3)`) 上严格递减，在 #mi(`(x_{1},x_{2})`) 上严格递增. 又 #mi(`d(0)=\dfrac{1}{2}>0`)，#mi(`d(x_{1})=-\dfrac{\sqrt{15}}{4}-\dfrac{x_1-1}{2}<0`)，#mi(`d(x_{2})=\dfrac{\sqrt{15}}{4}-\dfrac{x_2-1}{2}>0`)，#mi(`d(3)=-\sin6-1<0`)，故三段区间内各恰有一个零点. 因此交点个数为 #mi(`3`). 故选 C.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-记 $S_n$ 为等比数列 $\{a_n\}$ 的前 $n$ 项和. 若 $8 S_6=7 S_3$，则 $\{a_n\}$ 的公比为#blank(){}.
+记 #mi(`S_{n}`) 为等比数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和. 若 #mi(`8S_{6}=7S_{3}`)，则 #mi(`\{a_{n}\}`) 的公比为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-(1)/(2)$])
+#answer([#mi(`-\dfrac{1}{2}`)])
 
 #solution[
-第 $4$ 至 $6$ 项是首三项的 $q^3$ 倍，故 $S_6=S_3+q^(3) S_3$. 条件化为 $8(1+q^3)S_3=7 S_3$. 若 $S_3=0$，则 $a_1(1+q+q^2)=0$，而 $1+q+q^2>0$ 恒成立，得 $a_1=0$，此时为零数列而公比不唯一，舍去. 故 $S_3 != 0$，得 $1+q^3=(7)/(8)$，即 $q=-(1)/(2)$.
+第 #mi(`4`) 至 #mi(`6`) 项是首三项的 #mi(`q^{3}`) 倍，故 #mi(`S_{6}=S_{3}+q^{3}S_{3}`). 条件化为 #mi(`8(1+q^{3})S_{3}=7S_{3}`). 若 #mi(`S_{3}=0`)，则 #mi(`a_{1}(1+q+q^{2})=0`)，而 #mi(`1+q+q^{2}>0`) 恒成立，得 #mi(`a_{1}=0`)，此时为零数列而公比不唯一，舍去. 故 #mi(`S_{3}\ne0`)，得 #mi(`1+q^{3}=\dfrac{7}{8}`)，即 #mi(`q=-\dfrac{1}{2}`).
 ]
 
 #problem(14)[
-若 $f(x)=(x-1)^2+a x+ sin (x+(pi)/(2))$ 为偶函数，则 $a=\f i l l i n b l a n k{}$.
+若 #mi(`f(x)=\left(x-1\right)^{2}+ax+\sin\left(x+\dfrac{\pi}{2}\right)`) 为偶函数，则 #mi(`a=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-$sin (x+(pi)/(2))= cos x$，故 $f(x)=(x-1)^2+a x+ cos x$. 由偶函数得 $f(-x)=f(x)$ 恒成立，即 $(x+1)^2-a x=(x-1)^2+a x$，亦即 $4 x-2 a x=0$ 对一切 $x$ 成立，故 $a=2$.
+#mi(`\sin\left(x+\dfrac{\pi}{2}\right)=\cos x`)，故 #mi(`f(x)=(x-1)^{2}+ax+\cos x`). 由偶函数得 #mi(`f(-x)=f(x)`) 恒成立，即 #mi(`(x+1)^{2}-ax=(x-1)^{2}+ax`)，亦即 #mi(`4x-2ax=0`) 对一切 #mi(`x`) 成立，故 #mi(`a=2`).
 ]
 
 #problem(15)[
-若 $x$，$y$ 满足约束条件
-$\b e g i n{c a s e s} 3 x-2 y <= 3 ,\\ -2 x+3 y <= 3 ,\\ x+y >= 1 , \e n d{c a s e s}$，
-则 $z=3 x+2 y$ 的最大值为#blank(){}.
+若 #mi(`x`)，#mi(`y`) 满足约束条件
+
+#mi(`\begin{cases}3x-2y\le3,\\  -2x+3y\le3,\\  x+y\ge1,\end{cases}`)，
+
+则 #mi(`z=3x+2y`) 的最大值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$15$])
+#answer([#mi(`15`)])
 
 #solution[
-三条边界直线两两交于 $(3,3)$，$(1,0)$，$(0,1)$，可行域为该三角形及其内部. 目标函数在顶点处的值分别为 $15$，$3$，$2$，故最大值为 $15$.
+三条边界直线两两交于 #mi(`(3,3)`)，#mi(`(1,0)`)，#mi(`(0,1)`)，可行域为该三角形及其内部. 目标函数在顶点处的值分别为 #mi(`15`)，#mi(`3`)，#mi(`2`)，故最大值为 #mi(`15`).
 ]
 
 #problem(16)[
-在正方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$A B=4$，$O$ 为 $A C_1$ 的中点，若该正方体的棱与球 $O$ 的球面有公共点，则球 $O$ 的半径的取值范围是#blank(){}.
+在正方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`AB=4`)，#mi(`O`) 为 #mi(`AC_{1}`) 的中点，若该正方体的棱与球 #mi(`O`) 的球面有公共点，则球 #mi(`O`) 的半径的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[2 sqrt(2),2 sqrt(3)]$])
+#answer([#mi(`\left[2\sqrt{2},2\sqrt{3}\right]`)])
 
 #solution[
-$O$ 为正方体中心. 中心到每条棱所在直线的距离均为 $2 sqrt(2)$，且垂足为棱的中点，故球面与棱有公共点当且仅当半径不小于 $2 sqrt(2)$. 中心到顶点的距离为 $2 sqrt(3)$，半径超过该值时整个正方体含于球内，棱与球面无公共点. 故半径的取值范围是 $[2 sqrt(2),2 sqrt(3)]$.
+#mi(`O`) 为正方体中心. 中心到每条棱所在直线的距离均为 #mi(`2\sqrt{2}`)，且垂足为棱的中点，故球面与棱有公共点当且仅当半径不小于 #mi(`2\sqrt{2}`). 中心到顶点的距离为 #mi(`2\sqrt{3}`)，半径超过该值时整个正方体含于球内，棱与球面无公共点. 故半径的取值范围是 #mi(`\left[2\sqrt{2},2\sqrt{3}\right]`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-记 $triangle A B C$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $(b^2+c^2-a^2)/(cos A)=2$.
+记 #mi(`\triangle ABC`) 的内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 的对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，已知 #mi(`\dfrac{b^2+c^2-a^2}{\cos A}=2`).
 
-+ (1) 求 $b c$；
-+ (2) 若 $(a cos B-b cos A)/(a cos B+b cos A)-(b)/(c)=1$，求 $triangle A B C$ 面积.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由余弦定理，$b^2+c^2-a^2=2 b c cos A$. 因分式有意义，$cos A != 0$，代入条件得 $2 b c=2$，即 $b c=1$.
-+ (2) 由正弦定理，$(a cos B-b cos A)/(a cos B+b cos A)=(sin A cos B- sin B cos A)/(sin A cos B+ sin B cos A)=(sin (A-B))/(sin (A+B))=(sin (A-B))/(sin C)$. 又 $(b)/(c)=(sin B)/(sin C)$，条件化为 $sin (A-B)- sin B= sin C= sin (A+B)$，即 $-2 cos A sin B= sin B$. 因 $sin B>0$，得 $cos A=-(1)/(2)$. 结合 $A$ 为三角形内角，得 $angle A=(2 pi)/(3)$. 故面积为 $(1)/(2)b c sin A=(1)/(2) dot 1 dot (sqrt(3))/(2)=(sqrt(3))/(4)$.
++ (1)
 ]
 
 #problem(18)[
-如图，在三棱柱 $A B C-A_(1) B_(1) C_1$ 中，$A_(1) C bot$ 平面 $A B C$，$angle A C B=90^ degree$.
+如图，在三棱柱 #mi(`ABC-A_{1}B_{1}C_{1}`) 中，#mi(`A_{1}C\perp`) 平面 #mi(`ABC`)，#mi(`\angle ACB=90^{\circ}`).
 
 
-+ (1) 证明：平面 $A C C_(1) A_1 bot$ 平面 $B C C_(1) B_1$；
-+ (2) 设 $A B=A_(1) B$，$A A_1=2$，求四棱锥 $A_1-B B_(1) C_(1) C$ 的高.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2023/img/national_paper_a_liberal/q18_fig1.png", width: 6.0cm)]
+
+#align(center)[#image("/papers/2023/img/national_paper_a_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由 $A_(1) C bot$ 平面 $A B C$ 得 $A_(1) C bot B C$. 又 $angle A C B=90^( degree )$，即 $A C bot B C$，故 $B C bot$ 平面 $A C C_(1) A_1$. 因 $B C subset$ 平面 $B C C_(1) B_1$，所以平面 $A C C_(1) A_1 bot$ 平面 $B C C_(1) B_1$.
-+ (2) 取坐标 $C=(0,0,0)$，$A=(x,0,0)$，$B=(0,y,0)$（$x>0$，$y>0$），则 $A_1=(0,0,h)$（$h>0$）. 由 $A A_1=2$ 得 $x^2+h^2=4$；由 $A_(1) B^2=y^2+h^2$ 及 $A B=A_(1) B$ 得 $x^2=y^2+h^2-y^2$，即 $x=h$. 故 $x=h=sqrt(2)$. 平面 $B C C_(1) B_1$ 由 $B C=(0,y,0)$ 与 $CC_1=(-x,0,h)$ 张成，其法向量可取 $(y h,0,x y)$，点 $A_1$ 到该平面的距离为 $(h x y)/(y s q r t(h^2+x^2))=(x)/(sqrt(2))=1$. 因此四棱锥 $A_1-B B_(1) C_(1) C$ 的高为 $1$.
++ (1)
 ]
 
 #problem(19)[
-一项试验旨在研究臭氧效应，试验方案如下：选 40 只小白鼠，随机地将其中 20 只分配到试验组，另外 20 只分配到对照组，试验组的小白鼠饲养在高浓度臭氧环境，对照组的小白鼠饲养在正常环境，一段时间后统计每只小白鼠体重的增加量（单位：$g$）. 试验结果如下：
+一项试验旨在研究臭氧效应，试验方案如下：选 40 只小白鼠，随机地将其中 20 只分配到试验组，另外 20 只分配到对照组，试验组的小白鼠饲养在高浓度臭氧环境，对照组的小白鼠饲养在正常环境，一段时间后统计每只小白鼠体重的增加量（单位：#mi(`\mathrm{g}`)）. 试验结果如下：
 
 对照组的小白鼠体重的增加量从小到大排序为
 
@@ -234,105 +235,75 @@ $O$ 为正方体中心. 中心到每条棱所在直线的距离均为 $2 sqrt(2)
 
 19.8，20.2，21.6，22.8，23.6，23.9，25.1，28.2，32.3，36.5
 
-+ (1) 计算试验组的样本平均数；
-+ (2) \begin{enumerate}
-+ (3) 求 40 只小白鼠体重的增加量的中位数 $m$，再分别统计两样本中小于 $m$ 与不小于 $m$ 的数据的个数，完成如下列联表
-\begin{center}
-\begin{tabular}{|c|c|c|}
-\hline
-& $<m$ & $>= m$ \\
-\hline
-对照组 &  &  \\
-\hline
-试验组 &  &  \\
-\hline
-\end{tabular}
-\end{center}
-+ (4) 根据列联表，能否有 $95\%$ 的把握认为小白鼠在高浓度臭氧环境中与在正常环境中体重的增加量有差异？
 
-\end{enumerate}
++ (1) 
 
-附：$K^2=(n(a d-b c)^2)/((a+b)(c+d)(a+c)(b+d))$，
 
-\begin{center}
-\begin{tabular}{c|ccc}
+
+附：#mi(`K^{2}=\dfrac{n\left(ad-bc\right)^2}{\left(a+b\right)\left(c+d\right)\left(a+c\right)\left(b+d\right)}`)，
+
 \hline
-$P(K^2 >= k)$ & 0.100 & 0.050 & 0.010 \\
+
+#mi(`P\left(K^{2}\ge k\right)`) & 0.100 & 0.050 & 0.010 \\
+
 \hline
-$k$ & 2.706 & 3.841 & 6.635 \\
+
+#mi(`k`) & 2.706 & 3.841 & 6.635 \\
+
 \hline
-\end{tabular}
-\end{center}
 ]
 
 #solution[
-+ (1) 试验组 $20$ 个数据的和为 $396$，故样本平均数为 $(396)/(20)=19.8$.
-+ (2) \begin{enumerate}
-+ (3) 将 $40$ 个数据从小到大排序，第 $20$、$21$ 个分别为对照组的 $23.2$ 与试验组的 $23.6$，故中位数 $m=(23.2+23.6)/(2)=23.4$. 对照组中小于 $m$ 的有 $6$ 个，不小于 $m$ 的有 $14$ 个；试验组中小于 $m$ 的有 $14$ 个，不小于 $m$ 的有 $6$ 个. 列联表为
-
-\begin{center}
-\begin{tabular}{c|cc}
- & $<m$ & $>= m$ \\
-\hline
-对照组 & 6 & 14 \\
-\hline
-试验组 & 14 & 6 \\
-\hline
-\end{tabular}
-\end{center}
-+ (4) 由公式得 $K^2=(40 times (6 times 6 -14 times 14 )^2)/(20 times 20 times 20 times 20)=6.4>3.841$. 故能有 $95\%$ 的把握认为小白鼠在高浓度臭氧环境中与在正常环境中体重的增加量有差异.
-
-\end{enumerate}
++ (1)
 ]
 
 #problem(20)[
-已知函数 $f(x)=a x-(sin x)/(cos ""^(2) x)$，$x in (0,(pi)/(2))$.
+已知函数 #mi(`f(x)=ax-\dfrac{\sin x}{\cos^2x}`)，#mi(`x\in\left(0,\dfrac{\pi}{2}\right)`).
 
-+ (1) 当 $a=1$ 时，讨论 $f(x)$ 的单调性；
-+ (2) 若 $f(x)+ sin x<0$，求 $a$ 的取值范围.
+
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a=1$ 时，$f'(x)=1-(cos ""^(3) x+2 sin ""^(2) x cos x)/(cos ""^(4) x)=1-(1+ sin ""^(2) x)/(cos ""^(3) x)$. 记 $t= cos x in (0,1)$，则 $cos ""^(3) x-1- sin ""^(2) x=t^3+t^2-2=(t-1)(t^2+2 t+2)<0$，故 $f'(x)<0$ 在 $(0,(pi)/(2))$ 上恒成立. 因此 $f(x)$ 在 $(0,(pi)/(2))$ 上单调递减.
-+ (2) 条件等价于 $a x<(sin ""^(3) x)/(cos ""^(2) x)$ 对一切 $x in (0,(pi)/(2))$ 成立，即 $a$ 小于 $h(x)=(sin ""^(3) x)/(x cos ""^(2) x)$ 的下确界. 因 $0< sin x<x$，有 $0<h(x)<(x^2)/(cos ""^(2) x) -> 0$（$x -> 0 ""^+$），故下确界为 $0$，必要性给出 $a <= 0$. 当 $a=0$ 时，$f(x)+ sin x=-(sin ""^(3) x)/(cos ""^(2) x)<0$ 恒成立；若 $a<0$，则 $a x<0<(sin ""^(3) x)/(cos ""^(2) x)$，同样恒成立. 因此 $a <= 0$.
++ (1)
 ]
 
 #problem(21)[
-已知直线 $x-2 y+1=0$ 与抛物线 $C:y^2=2 p x$（$p>0$） 交于 $A$，$B$ 两点，$|A B|=4 sqrt(15)$.
+已知直线 #mi(`x-2y+1=0`) 与抛物线 #mi(`C:y^{2}=2px`)（#mi(`p>0`)） 交于 #mi(`A`)，#mi(`B`) 两点，#mi(`|AB|=4\sqrt{15}`).
 
-+ (1) 求 $p$；
-+ (2) 设 $F$ 为 $C$ 的焦点，$M$，$N$ 为 $C$ 上两点，且 $arrow(F M)\c d o t a r r o w(F N)=0$，求 $triangle M F N$ 面积的最小值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由 $x=2 y-1$ 代入 $y^2=2 p x$ 得 $y^2-4 p y+2 p=0$. 弦长 $|A B|=sqrt(5)\c d o t s q r t(16 p^2-8 p)=4 sqrt(15)$，即 $16 p^2-8 p-48=0$，解得 $p=2$（舍去负根 $p=-(3)/(2)$）.
-+ (2) 此时 $F=(1,0)$. 设 $M=(s^2,2 s)$，$N=(t^2,2 t)$（$s != t$），则 $arrow(F M)\c d o t a r r o w(F N)=(s^2-1)(t^2-1)+4 s t=0$，即 $(s t)^2+6 s t+1=(s+t)^2$. 记 $u=s t$，则 $(u+3)^2 >= 8$. 面积 $S=(1)/(2)(s^2+1)(t^2+1)=(1)/(2)(u^2+(s+t)^2-2 u+1)=(u+1)^2$. 在 $u <= -3-2 sqrt(2)$ 或 $u >= -3+2 sqrt(2)$ 上，$(u+1)^2$ 的最小值在 $u=-3+2 sqrt(2)$ 处取得，为 $(2 sqrt(2)-2)^2=12-8 sqrt(2)$. 故 $triangle M F N$ 面积的最小值为 $12-8 sqrt(2)$.
++ (1)
 ]
 
 #part-header("选考题：解答题")
 
 #problem(22)[
-已知点 $P(2,1)$，直线 $l$ 的参数方程为
-$\b e g i n{c a s e s} x=2+t cos alpha ,\\ y=1+t sin alpha , \e n d{c a s e s}$（$t$ 为参数），$alpha$ 为 $l$ 的倾斜角，$l$ 与 $x$ 轴正半轴，$y$ 轴正半轴分别交于 $A$，$B$，且 $|P A| dot |P B|=4$.
+已知点 #mi(`P(2,1)`)，直线 #mi(`l`) 的参数方程为
 
-+ (1) 求 $alpha$；
-+ (2) 以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系，求 $l$ 的极坐标方程.
+#mi(`\begin{cases}x=2+t\cos\alpha,\\
+
+y=1+t\sin\alpha,\end{cases}`)（#mi(`t`) 为参数），#mi(`\alpha`) 为 #mi(`l`) 的倾斜角，#mi(`l`) 与 #mi(`x`) 轴正半轴，#mi(`y`) 轴正半轴分别交于 #mi(`A`)，#mi(`B`)，且 #mi(`|PA|\cdot|PB|=4`).
+
+
++ (1)
 ]
 
 #solution[
-+ (1) 设交点对应的参数为 $t_A$，$t_B$，则 $|P A|=|t_A|$，$|P B|=|t_B|$. 由 $A$ 在 $x$ 轴上得 $t_A=-(1)/(sin alpha)$，由 $B$ 在 $y$ 轴上得 $t_B=-(2)/(cos alpha)$，故 $|P A| dot |P B|=(2)/(| sin alpha cos alpha |)=(4)/(| sin 2 alpha |)=4$，即 $| sin 2 alpha |=1$. 直线与两正半轴相交则斜率为负，故 $alpha in ((pi)/(2), pi )$，得 $alpha =(3 pi)/(4)$.
-+ (2) 此时直线斜率为 $-1$，过 $(2,1)$，即 $x+y=3$. 化为极坐标方程得 $rho cos theta + rho sin theta -3=0$.
++ (1)
 ]
 
 #problem(23)[
-已知 $f(x)=2|x-a|-a$，$a>0$.
+已知 #mi(`f(x)=2|x-a|-a`)，#mi(`a>0`).
 
-+ (1) 求不等式 $f(x)<x$ 的解集；
-+ (2) 若曲线 $y=f(x)$ 与 $x$ 轴所围成的图形的面积为 $2$，求 $a$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 不等式化为 $2|x-a|<x+a$. 右端须为正，且两边平方得 $4(x-a)^2<(x+a)^2$，即 $3 x^2-10 a x+3 a^2=(3 x-a)(x-3 a)<0$. 又 $a>0$，得 $(a)/(3)<x<3 a$，此时 $x+a>0$ 自动成立. 故解集为 $((a)/(3),3 a)$.
-+ (2) $f(x)=0$ 得 $|x-a|=(a)/(2)$，即 $x=(a)/(2)$ 或 $x=(3 a)/(2)$. 图像是以 $(a,-a)$ 为顶点的 V 形，与 $x$ 轴围成底为 $a$、高为 $a$ 的三角形，面积为 $(a^2)/(2)$. 由 $(a^2)/(2)=2$ 及 $a>0$ 得 $a=2$.
++ (1)
 ]
 

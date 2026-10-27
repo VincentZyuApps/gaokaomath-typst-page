@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,77 +11,114 @@
 #part-header("解答题")
 
 #problem(1)[
-若 $(z-x)^2-4(x-y)(y-z)=0$，求证：$x$，$y$，$z$ 成等差数列.
+若 #mi(`\left(z-x\right)^{2}-4\left(x-y\right)\left(y-z\right)=0`)，求证：#mi(`x`)，#mi(`y`)，#mi(`z`) 成等差数列.
 ]
 
 #solution[
-令 $a=x-y$，$b=y-z$.
-则 $z-x=-(a+b)$.
+令 #mi(`a=x-y`)，#mi(`b=y-z`).
+
+则 #mi(`z-x=-(a+b)`).
+
 代入已知等式，得到
 
-$ (a+b)^2-4 a b=0 $
+
+#align(center)[#mitex(`
+(a+b)^{2}-4ab=0
+`)]
 
 
 展开左边并因式分解，得
 
-$ (a-b)^2=0 $
+
+#align(center)[#mitex(`
+(a-b)^{2}=0
+`)]
 
 
 实数的平方等于零只能说明该实数本身等于零，所以
-$a=b$，即
 
-$ x-y=y-z $
+#mi(`a=b`)，即
 
-这正是数列 $x$，$y$，$z$ 成等差数列的判定条件，故命题得证.
+
+#align(center)[#mitex(`
+x-y=y-z
+`)]
+
+
+这正是数列 #mi(`x`)，#mi(`y`)，#mi(`z`) 成等差数列的判定条件，故命题得证.
 ]
 
 #problem(2)[
-化简： $(1)/(1-(1)/(1-(1)/(1-\csc^2 x)))$.
+化简： #mi(`\frac{1}{1-\frac{1}{1-\frac{1}{1-\csc^{2} x}}}`).
 ]
 
 #solution[
-设 $u=\csc^(2) x$.
-首先确定原式的定义域. 必须有 $sin x != 0$，并且最内层分式的分母
-$1-\csc^(2) x != 0$，即 $u != 1$. 因为 $u=(1)/(sin ""^(2) x)\g e q1$，排除 $u=1$ 后有 $u>1$. 这两个条件等价于
-$x in.not (pi)/(2) ZZ$.
+设 #mi(`u=\csc^{2}x`).
+
+首先确定原式的定义域. 必须有 #mi(`\sin x\ne0`)，并且最内层分式的分母
+
+#mi(`1-\csc^{2}x\ne0`)，即 #mi(`u\ne1`). 因为 #mi(`u=\frac{1}{\sin^{2}x}\geq1`)，排除 #mi(`u=1`) 后有 #mi(`u>1`). 这两个条件等价于
+
+#mi(`x\notin\frac{\pi}{2}\mathbb{Z}`).
 
 在这个定义域内，先化简最内层的下一层分母：
 
-$ 1-(1)/(1-u)=(1-u-1)/(1-u)=(-u)/(1-u)=(u)/(u-1) $
+
+#align(center)[#mitex(`
+1-\frac{1}{1-u}=\frac{1-u-1}{1-u}=\frac{-u}{1-u}=\frac{u}{u-1}
+`)]
 
 
-由于 $u>1$，这个分母不为零. 因此原式最外层分母为
+由于 #mi(`u>1`)，这个分母不为零. 因此原式最外层分母为
 
-$ 1-(1)/(1-(1)/(1-u))=1-(1)/((u)/((u-1)))=1-(u-1)/(u)=(1)/(u) $
+
+#align(center)[#mitex(`
+1-\frac{1}{1-\frac{1}{1-u}}=1-\frac{1}{\frac{u}{(u-1)}}=1-\frac{u-1}{u}=\frac{1}{u}
+`)]
 
 
 于是原式的值为
 
-$ (1)/((1)/(u))=u=\csc^(2) x $
 
-所以化简结果为 $\csc^(2) x$，但必须附带原式的定义域
-$x in.not (pi)/(2) ZZ$
-（$ZZ$ 表示整数集）.
+#align(center)[#mitex(`
+\frac{1}{\frac{1}{u}}=u=\csc^{2}x
+`)]
+
+
+所以化简结果为 #mi(`\csc^{2}x`)，但必须附带原式的定义域
+
+#mi(`x\notin\frac{\pi}{2}\mathbb{Z}`)
+
+（#mi(`\mathbb{Z}`) 表示整数集）.
 ]
 
 #problem(3)[
-甲，乙二容器内都盛有酒精，甲有 $V_(1)" 公斤"$，乙有 $V_(2)" 公斤"$. 甲中纯酒精与水（重量）之比为 $m_(1):n_(1)$，乙中纯酒精与水之比为 $m_(2):n_(2)$. 问将二者混合后所得液体中纯酒精与水之比是多少？
+甲，乙二容器内都盛有酒精，甲有 #mi(`V_{1}\text{ \text{公斤}}`)，乙有 #mi(`V_{2}\text{ \text{公斤}}`). 甲中纯酒精与水（重量）之比为 #mi(`m_{1}:n_{1}`)，乙中纯酒精与水之比为 #mi(`m_{2}:n_{2}`). 问将二者混合后所得液体中纯酒精与水之比是多少？
 ]
 
 #solution[
-把每个容器中的总重量看作相应比例的总份数. 甲中纯酒精与水的重量比为 $m_1:n_1$，所以甲中纯酒精和水的重量分别为
-$(m_(1) V_1)/(m_1+n_1)$，$(n_(1) V_1)/(m_1+n_1)$.
+把每个容器中的总重量看作相应比例的总份数. 甲中纯酒精与水的重量比为 #mi(`m_{1}:n_{1}`)，所以甲中纯酒精和水的重量分别为
+
+#mi(`\frac{m_{1}V_{1}}{m_{1}+n_{1}}`)，#mi(`\frac{n_{1}V_{1}}{m_{1}+n_{1}}`).
+
 同理，乙中纯酒精和水的重量分别为
-$(m_(2) V_2)/(m_2+n_2)$，$(n_(2) V_2)/(m_2+n_2)$.
+
+#mi(`\frac{m_{2}V_{2}}{m_{2}+n_{2}}`)，#mi(`\frac{n_{2}V_{2}}{m_{2}+n_{2}}`).
 
 混合时两种物质的重量分别相加. 因此混合后纯酒精与水的重量之比为
 
-$ ((m_(1){V}_(1))/(m_(1)+n_(1))+(m_(2){V}_(2))/(m_(2)+n_(2))):((n_(1){V}_(1))/(m_(1)+n_(1))+(n_(2){V}_(2))/(m_(2)+n_(2))) $
+
+#align(center)[#mitex(`
+\left(\frac{m_{1}V_{1}}{m_{1}+n_{1}}+\frac{m_{2}V_{2}}{m_{2}+n_{2}}\right):\left(\frac{n_{1}V_{1}}{m_{1}+n_{1}}+\frac{n_{2}V_{2}}{m_{2}+n_{2}}\right)
+`)]
 
 
-比例两项可以同时乘以正数 $(m_1+n_1)(m_2+n_2)$，不改变比例值，故所求之比为
+比例两项可以同时乘以正数 #mi(`\left(m_{1}+n_{1}\right)\left(m_{2}+n_{2}\right)`)，不改变比例值，故所求之比为
 
-$ [m_(1)V_(1)(m_(2)+n_(2))+m_(2)V_(2)(m_(1)+n_(1))]:[n_(1)V_(1)(m_(2)+n_(2))+n_(2)V_(2)(m_(1)+n_(1))] $
+
+#align(center)[#mitex(`
+\bigl[m_{1}V_{1}(m_{2}+n_{2})+m_{2}V_{2}(m_{1}+n_{1})\bigr]:\bigl[n_{1}V_{1}(m_{2}+n_{2})+n_{2}V_{2}(m_{1}+n_{1})\bigr]
+`)]
 ]
 
 #problem(4)[
@@ -91,317 +128,397 @@ $ [m_(1)V_(1)(m_(2)+n_(2))+m_(2)V_(2)(m_(1)+n_(1))]:[n_(1)V_(1)(m_(2)+n_(2))+n_(
 #solution[
 勾股定理：直角三角形两条直角边的平方和等于斜边的平方.
 
-设 $triangle A B C$ 为直角三角形，且 $angle C=90^( degree )$. 记
-$B C=a$，$C A=b$，$A B=c$.
-从点 $C$ 向斜边 $A B$ 作垂线，垂足为 $H$.
+设 #mi(`\triangle ABC`) 为直角三角形，且 #mi(`\angle C=90^{\circ}`). 记
 
-因为 $angle A H C= angle A C B=90^( degree )$，且 $angle C A H= angle C A B$，所以
-$triangle A C H tilde triangle A B C$.
+#mi(`BC=a`)，#mi(`CA=b`)，#mi(`AB=c`).
+
+从点 #mi(`C`) 向斜边 #mi(`AB`) 作垂线，垂足为 #mi(`H`).
+
+因为 #mi(`\angle AHC=\angle ACB=90^{\circ}`)，且 #mi(`\angle CAH=\angle CAB`)，所以
+
+#mi(`\triangle ACH\sim\triangle ABC`).
+
 对应边的比例给出
 
-$ (A C)/(A B)=(A H)/(A C) $
+
+#align(center)[#mitex(`
+\frac{AC}{AB}=\frac{AH}{AC}
+`)]
+
 
 从而
 
-$ A C^2=A B dot A H $
+
+#align(center)[#mitex(`
+AC^{2}=AB\cdot AH
+`)]
 
 
-同理，$angle B H C= angle B C A=90^( degree )$，且 $angle C B H= angle C B A$，所以
-$triangle B C H tilde triangle B C A$.
+同理，#mi(`\angle BHC=\angle BCA=90^{\circ}`)，且 #mi(`\angle CBH=\angle CBA`)，所以
+
+#mi(`\triangle BCH\sim\triangle BCA`).
+
 因此
 
-$ (B C)/(B A)=(B H)/(B C) $
+
+#align(center)[#mitex(`
+\frac{BC}{BA}=\frac{BH}{BC}
+`)]
+
 
 从而
 
-$ B C^2=A B dot B H $
+
+#align(center)[#mitex(`
+BC^{2}=AB\cdot BH
+`)]
 
 
-将这两个等式相加，并利用 $H$ 在线段 $A B$ 上、故 $A H+B H=A B$，得到
+将这两个等式相加，并利用 #mi(`H`) 在线段 #mi(`AB`) 上、故 #mi(`AH+BH=AB`)，得到
 
-$ a^(2)+b^(2)=B C^(2)+C A^(2)=A B dot B H+A B dot A H=A B(A H+B H)=A B^(2)=c^(2) $
+
+#align(center)[#mitex(`
+a^{2}+b^{2}=BC^{2}+CA^{2}=AB\cdot BH+AB\cdot AH=AB\left(AH+BH\right)=AB^{2}=c^{2}
+`)]
 
 
 所以直角三角形两条直角边的平方和等于斜边的平方，勾股定理得证.
 ]
 
 #problem(5)[
-外国船只除特许外不得进入离我海岸线 $D" 里"$ 以内的区域. 设 $A$ 及 $B$ 是我们的观测站，$A$ 及 $B$ 间的距离为 $S" 里"$，海岸线是过 $A$，$B$ 的直线，一外国船在 $P$ 点，在 $A$ 站测得 $angle B A P= alpha$，同时在 $B$ 站测得 $angle A B P= beta$. 则 $alpha$ 及 $beta$ 满足什么简单的三角函数值不等式，就应当向此未经特许的外国船发出警告，命令退出我海域？
+外国船只除特许外不得进入离我海岸线 #mi(`D\text{ \text{里}}`) 以内的区域. 设 #mi(`A`) 及 #mi(`B`) 是我们的观测站，#mi(`A`) 及 #mi(`B`) 间的距离为 #mi(`S\text{ \text{里}}`)，海岸线是过 #mi(`A`)，#mi(`B`) 的直线，一外国船在 #mi(`P`) 点，在 #mi(`A`) 站测得 #mi(`\angle BAP=\alpha`)，同时在 #mi(`B`) 站测得 #mi(`\angle ABP=\beta`). 则 #mi(`\alpha`) 及 #mi(`\beta`) 满足什么简单的三角函数值不等式，就应当向此未经特许的外国船发出警告，命令退出我海域？
 ]
 
 #solution[
-取海岸线 $A B$ 为 $x$ 轴，令
-$A=(0,0)$，$B=(S,0)$.
-设外国船在海岸线同侧的坐标为 $P=(t,d)$，其中 $d>0$.
-这里的 $d$ 正是船到海岸线的距离，且不预先假定 $P$ 的正射影落在线段 $A B$ 内.
+取海岸线 #mi(`AB`) 为 #mi(`x`) 轴，令
 
-由 $arrow(A B)=(S,0)$，$arrow(A P)=(t,d)$ 可得
-$cos alpha =(t)/(sqrt(t^2+d^2))$，$sin alpha =(d)/(sqrt(t^2+d^2))$，$cot alpha =(t)/(d)$.
+#mi(`A=(0,0)`)，#mi(`B=(S,0)`).
 
-在 $B$ 点，观测基准方向是 $arrow(B A)=(-S,0)$，而
-$arrow(B P)=(t-S,d)$，
+设外国船在海岸线同侧的坐标为 #mi(`P=(t,d)`)，其中 #mi(`d>0`).
+
+这里的 #mi(`d`) 正是船到海岸线的距离，且不预先假定 #mi(`P`) 的正射影落在线段 #mi(`AB`) 内.
+
+由 #mi(`\overrightarrow{AB}=(S,0)`)，#mi(`\overrightarrow{AP}=(t,d)`) 可得
+
+#mi(`\cos\alpha=\frac{t}{\sqrt{t^{2}+d^{2}}}`)，#mi(`\sin\alpha=\frac{d}{\sqrt{t^{2}+d^{2}}}`)，#mi(`\cot\alpha=\frac{t}{d}`).
+
+在 #mi(`B`) 点，观测基准方向是 #mi(`\overrightarrow{BA}=(-S,0)`)，而
+
+#mi(`\overrightarrow{BP}=(t-S,d)`)，
+
 因此
-$cos beta =(S-t)/(sqrt((S-t)^2+d^2))$，$sin beta =(d)/(sqrt((S-t)^2+d^2))$，$cot beta =(S-t)/(d)$.
+
+#mi(`\cos\beta=\frac{S-t}{\sqrt{(S-t)^{2}+d^{2}}}`)，#mi(`\sin\beta=\frac{d}{\sqrt{(S-t)^{2}+d^{2}}}`)，#mi(`\cot\beta=\frac{S-t}{d}`).
+
 因此
 
-$ cot alpha + cot beta =(t)/(d)+(S-t)/(d)=(S)/(d) $
+
+#align(center)[#mitex(`
+\cot\alpha+\cot\beta  =\frac{t}{d}+\frac{S-t}{d}=\frac{S}{d}
+`)]
+
 
 从而
 
-$ d=(S)/(cot alpha + cot beta) $
+
+#align(center)[#mitex(`
+d=\frac{S}{\cot\alpha+\cot\beta}
+`)]
 
 
-这里使用有向的水平分量，所以即使船的正射影落在线段 $A B$ 外，公式仍然成立. 船进入距海岸线不超过 $D$ 里的区域时应发出警告，即 $d\l e q D$. 又因为 $d>0$，所以 $cot alpha + cot beta =(S)/(d)>0$，代入上式得到
+这里使用有向的水平分量，所以即使船的正射影落在线段 #mi(`AB`) 外，公式仍然成立. 船进入距海岸线不超过 #mi(`D`) 里的区域时应发出警告，即 #mi(`d\leq D`). 又因为 #mi(`d>0`)，所以 #mi(`\cot\alpha+\cot\beta=\frac{S}{d}>0`)，代入上式得到
 
-$ (S)/(cot alpha + cot beta)\l e q D <=> cot alpha + cot beta \g e q(S)/(D) $
+
+#align(center)[#mitex(`
+\frac{S}{\cot\alpha+\cot\beta}\leq D  \quad\Longleftrightarrow\quad  \cot\alpha+\cot\beta\geq\frac{S}{D}
+`)]
 
 
 因此应满足的三角函数值不等式为
-$cot alpha + cot beta \g e q(S)/(D)$.
+
+#mi(`\cot\alpha+\cot\beta\geq\frac{S}{D}`).
 ]
 
 #problem(6)[
-设三棱锥 $V - A B C$ 中，$angle A V B = angle B V C = angle C V A = 90^( degree )$. 求证：$triangle A B C$ 是锐角三角形.
+设三棱锥 #mi(`V - ABC`) 中，#mi(`\angle AVB = \angle BVC = \angle CVA = 90^{\circ}`). 求证：#mi(`\triangle ABC`) 是锐角三角形.
 ]
 
 #solution[
-设 $bold(a)=arrow(V A)$，$bold(b)=arrow(V B)$，$bold(c)=arrow(V C)$.
+设 #mi(`\mathbf{a}=\overrightarrow{VA}`)，#mi(`\mathbf{b}=\overrightarrow{VB}`)，#mi(`\mathbf{c}=\overrightarrow{VC}`).
+
 因为三个棱间的夹角均为直角，所以
 
-$ bold(a)\c d o t b o l d(b)=bold(b)\c d o t b o l d(c)=bold(c)\c d o t b o l d(a)=0 $
+
+#align(center)[#mitex(`
+\mathbf{a}\cdot\mathbf{b}=\mathbf{b}\cdot\mathbf{c}=\mathbf{c}\cdot\mathbf{a}=0
+`)]
 
 
-在点 $A$ 处，$arrow(A B)=bold(b)-bold(a)$，$arrow(A C)=bold(c)-bold(a)$.
+在点 #mi(`A`) 处，#mi(`\overrightarrow{AB}=\mathbf{b}-\mathbf{a}`)，#mi(`\overrightarrow{AC}=\mathbf{c}-\mathbf{a}`).
+
 于是
 
-$ arrow(A B)\c d o t a r r o w(A C)=(bold(b)-bold(a)) dot (bold(c)-bold(a)) =bold(b)\c d o t b o l d(c)-bold(b)\c d o t b o l d(a)-bold(a)\c d o t b o l d(c)+\l v e r t b o l d(a)|^2 =\l v e r t b o l d(a)|^2>0 $
 
-两条非零向量的内积为正，说明它们的夹角小于 $90^( degree )$，所以 $angle B A C$ 为锐角.
+#align(center)[#mitex(`
+\overrightarrow{AB}\cdot\overrightarrow{AC}=(\mathbf{b}-\mathbf{a})\cdot(\mathbf{c}-\mathbf{a})  =\mathbf{b}\cdot\mathbf{c}-\mathbf{b}\cdot\mathbf{a}-\mathbf{a}\cdot\mathbf{c}+\lvert\mathbf{a}\rvert^{2}  =\lvert\mathbf{a}\rvert^{2}>0
+`)]
 
-在点 $B$ 处，$arrow(B A)=bold(a)-bold(b)$，$arrow(B C)=bold(c)-bold(b)$.
+
+两条非零向量的内积为正，说明它们的夹角小于 #mi(`90^{\circ}`)，所以 #mi(`\angle BAC`) 为锐角.
+
+在点 #mi(`B`) 处，#mi(`\overrightarrow{BA}=\mathbf{a}-\mathbf{b}`)，#mi(`\overrightarrow{BC}=\mathbf{c}-\mathbf{b}`).
+
 因此
 
-$ arrow(B A)\c d o t a r r o w(B C)=(bold(a)-bold(b)) dot (bold(c)-bold(b)) =bold(a)\c d o t b o l d(c)-bold(a)\c d o t b o l d(b)-bold(b)\c d o t b o l d(c)+\l v e r t b o l d(b)|^2 =\l v e r t b o l d(b)|^2>0 $
 
-故 $angle A B C$ 为锐角.
+#align(center)[#mitex(`
+\overrightarrow{BA}\cdot\overrightarrow{BC}=(\mathbf{a}-\mathbf{b})\cdot(\mathbf{c}-\mathbf{b})  =\mathbf{a}\cdot\mathbf{c}-\mathbf{a}\cdot\mathbf{b}-\mathbf{b}\cdot\mathbf{c}+\lvert\mathbf{b}\rvert^{2}  =\lvert\mathbf{b}\rvert^{2}>0
+`)]
 
-在点 $C$ 处，$arrow(C A)=bold(a)-bold(c)$，$arrow(C B)=bold(b)-bold(c)$.
+
+故 #mi(`\angle ABC`) 为锐角.
+
+在点 #mi(`C`) 处，#mi(`\overrightarrow{CA}=\mathbf{a}-\mathbf{c}`)，#mi(`\overrightarrow{CB}=\mathbf{b}-\mathbf{c}`).
+
 所以
 
-$ arrow(C A)\c d o t a r r o w(C B)=(bold(a)-bold(c)) dot (bold(b)-bold(c)) =bold(a)\c d o t b o l d(b)-bold(a)\c d o t b o l d(c)-bold(c)\c d o t b o l d(b)+\l v e r t b o l d(c)|^2 =\l v e r t b o l d(c)|^2>0 $
 
-故 $angle A C B$ 也为锐角. 于是 $triangle A B C$ 的三个内角均为锐角，故 $triangle A B C$ 是锐角三角形.
+#align(center)[#mitex(`
+\overrightarrow{CA}\cdot\overrightarrow{CB}=(\mathbf{a}-\mathbf{c})\cdot(\mathbf{b}-\mathbf{c})  =\mathbf{a}\cdot\mathbf{b}-\mathbf{a}\cdot\mathbf{c}-\mathbf{c}\cdot\mathbf{b}+\lvert\mathbf{c}\rvert^{2}  =\lvert\mathbf{c}\rvert^{2}>0
+`)]
+
+
+故 #mi(`\angle ACB`) 也为锐角. 于是 #mi(`\triangle ABC`) 的三个内角均为锐角，故 #mi(`\triangle ABC`) 是锐角三角形.
 ]
 
 #problem(7)[
-美国的物价从 1939 年的 $100$ 增加到四十年后 1979 年的 $500$，如果每年物价增长率相同，问每年增长百分之几？（注意：$x < 0.1$，可用：$ln (1+x) approx x$，取 $\l g 2 = 0.3$，$ln 10 = 2.3$）
+美国的物价从 1939 年的 #mi(`100`) 增加到四十年后 1979 年的 #mi(`500`)，如果每年物价增长率相同，问每年增长百分之几？（注意：#mi(`x < 0.1`)，可用：#mi(`\ln\left(1+x\right) \approx x`)，取 #mi(`\lg 2 = 0.3`)，#mi(`\ln 10 = 2.3`)）
 ]
 
 #solution[
-设每年的物价增长率为 $x$. 因为物价逐年增长，所以 $x>0$. 经过四十年，物价满足
+设每年的物价增长率为 #mi(`x`). 因为物价逐年增长，所以 #mi(`x>0`). 经过四十年，物价满足
 
-$ 100(1+x)^(40)=500 $
 
-两边除以 $100$，得
+#align(center)[#mitex(`
+100(1+x)^{40}=500
+`)]
 
-$ (1+x)^(40)=5 $
+
+两边除以 #mi(`100`)，得
+
+
+#align(center)[#mitex(`
+\left(1+x\right)^{40}=5
+`)]
+
 
 两边取自然对数，得
 
-$ 40 ln (1+x)= ln 5 $
 
-由换底关系 $ln a=(\l g a) ln 10$，以及题给的 $\l g2=0.3$，可得
+#align(center)[#mitex(`
+40\ln\left(1+x\right)=\ln5
+`)]
 
-$ ln 2 =0.3 times 2 .3=0.69 $
 
-又因为 $\l g5=\l g10-\l g2=1-0.3=0.7$，所以
+由换底关系 #mi(`\ln a=(\lg a)\ln10`)，以及题给的 #mi(`\lg2=0.3`)，可得
 
-$ ln 5 =(\l g5) ln 10 =0.7 times 2 .3=1.61 $
+
+#align(center)[#mitex(`
+\ln2=0.3\times2.3=0.69
+`)]
+
+
+又因为 #mi(`\lg5=\lg10-\lg2=1-0.3=0.7`)，所以
+
+
+#align(center)[#mitex(`
+\ln5=(\lg5)\ln10=0.7\times2.3=1.61
+`)]
+
 
 因此
 
-$ ln (1+x)=(1.61)/(40)=0.04025 $
 
-根据题设给出的近似式 $ln (1+x) approx x$，得到
+#align(center)[#mitex(`
+\ln\left(1+x\right)=\frac{1.61}{40}=0.04025
+`)]
 
-$ x approx 0 .04025=4.025\% $
 
-这个数小于题设给出的 $0.1$，与近似条件相符. 因此每年物价增长率约为 $4.025\%$，按题目数据通常取为约 $4\%$.
+根据题设给出的近似式 #mi(`\ln(1+x)\approx x`)，得到
+
+
+#align(center)[#mitex(`
+x\approx0.04025=4.025\%
+`)]
+
+
+这个数小于题设给出的 #mi(`0.1`)，与近似条件相符. 因此每年物价增长率约为 #mi(`4.025\%`)，按题目数据通常取为约 #mi(`4\%`).
 ]
 
 #problem(8)[
-设 $C E D F$ 是一个已知圆的内接矩形，过 $D$ 作该圆的切线与 $C E$ 的延长线相交于点 $A$，与 $C F$ 的延长线相交于点 $B$. 求证：$(B F)/(A E)= (B C^(3))/(A C^(3))$.
+设 #mi(`CEDF`) 是一个已知圆的内接矩形，过 #mi(`D`) 作该圆的切线与 #mi(`CE`) 的延长线相交于点 #mi(`A`)，与 #mi(`CF`) 的延长线相交于点 #mi(`B`). 求证：#mi(`\frac{BF}{AE}= \frac{BC^{3}}{AC^{3}}`).
 
 
-#align(center)[#image("/papers/1979/img/national_science/q8_fig1.png", width: 5.8cm)]
+#align(center)[#image("/papers/1979/img/national_science/q8_fig1.png", width: 28%)]
+
 
 \FloatBarrier
 ]
 
 #solution[
-因为 $C E D F$ 是矩形，所以 $C E bot C F$. 又因为 $A$，$C$，$E$ 共线、$B$，$C$，$F$ 共线，所以
+因为 #mi(`CEDF`) 是矩形，所以 #mi(`CE\perp CF`). 又因为 #mi(`A`)，#mi(`C`)，#mi(`E`) 共线、#mi(`B`)，#mi(`C`)，#mi(`F`) 共线，所以
 
-$ angle A C B=90^( degree ) $
 
-矩形的两个对角顶点为 $C$，$D$，因此对角线 $C D$ 是该圆的直径. 圆在 $D$ 点的切线 $A B$ 垂直于半径 $O D$，而 $O$，$C$，$D$ 共线，故
+#align(center)[#mitex(`
+\angle ACB=90^{\circ}
+`)]
 
-$ C D bot A B $
 
-于是 $C D$ 是直角三角形 $A C B$ 斜边 $A B$ 上的高，$triangle A C D$ 和 $triangle B C D$ 都是直角三角形.
+矩形的两个对角顶点为 #mi(`C`)，#mi(`D`)，因此对角线 #mi(`CD`) 是该圆的直径. 圆在 #mi(`D`) 点的切线 #mi(`AB`) 垂直于半径 #mi(`OD`)，而 #mi(`O`)，#mi(`C`)，#mi(`D`) 共线，故
 
-由 $triangle A C D tilde triangle A B C$，有
 
-$ (A D)/(A C)=(A C)/(A B) $
+#align(center)[#mitex(`
+CD\perp AB
+`)]
+
+
+于是 #mi(`CD`) 是直角三角形 #mi(`ACB`) 斜边 #mi(`AB`) 上的高，#mi(`\triangle ACD`) 和 #mi(`\triangle BCD`) 都是直角三角形.
+
+由 #mi(`\triangle ACD\sim\triangle ABC`)，有
+
+
+#align(center)[#mitex(`
+\frac{AD}{AC}=\frac{AC}{AB}
+`)]
+
 
 所以
 
-$ A D=(A C^2)/(A B) $
 
-同理，由 $triangle B C D tilde triangle B C A$，有
+#align(center)[#mitex(`
+AD=\frac{AC^{2}}{AB}
+`)]
 
-$ (B D)/(B C)=(B C)/(B A) $
+
+同理，由 #mi(`\triangle BCD\sim\triangle BCA`)，有
+
+
+#align(center)[#mitex(`
+\frac{BD}{BC}=\frac{BC}{BA}
+`)]
+
 
 所以
 
-$ B D=(B C^2)/(A B) $
+
+#align(center)[#mitex(`
+BD=\frac{BC^{2}}{AB}
+`)]
+
 
 两式相除，得到
 
-$ (B D)/(A D)=(B C^2)/(A C^2) $
+
+#align(center)[#mitex(`
+\frac{BD}{AD}=\frac{BC^{2}}{AC^{2}}
+`)]
 
 
-再由切线与割线的点幂定理，在点 $A$ 处切线段为 $A D$，割线依次交圆于 $E$，$C$，故
+再由切线与割线的点幂定理，在点 #mi(`A`) 处切线段为 #mi(`AD`)，割线依次交圆于 #mi(`E`)，#mi(`C`)，故
 
-$ A D^2=A E dot A C $
 
-在点 $B$ 处切线段为 $B D$，割线依次交圆于 $F$，$C$，故
+#align(center)[#mitex(`
+AD^{2}=AE\cdot AC
+`)]
 
-$ B D^2=B F dot B C $
+
+在点 #mi(`B`) 处切线段为 #mi(`BD`)，割线依次交圆于 #mi(`F`)，#mi(`C`)，故
+
+
+#align(center)[#mitex(`
+BD^{2}=BF\cdot BC
+`)]
+
 
 由此
-$A E=(A D^2)/(A C)$，$B F=(B D^2)/(B C)$.
+
+#mi(`AE=\frac{AD^{2}}{AC}`)，#mi(`BF=\frac{BD^{2}}{BC}`).
+
 于是
 
-$ (B F)/(A E)=((B D^2)/(B C))/((A D^2)/(A C))=((B D)/(A D))^2(A C)/(B C)=((B C^2)/(A C^2))^2(A C)/(B C)=(B C^3)/(A C^3) $
+
+#align(center)[#mitex(`
+\frac{BF}{AE}=\frac{\frac{BD^{2}}{BC}}{\frac{AD^{2}}{AC}}=\left(\frac{BD}{AD}\right)^{2}\frac{AC}{BC}=\left(\frac{BC^{2}}{AC^{2}}\right)^{2}\frac{AC}{BC}=\frac{BC^{3}}{AC^{3}}
+`)]
+
 
 故命题得证.
 ]
 
 #problem(9)[
-试问数列 $\l g 100$，$\l g (100 sin (pi)/(4))$，$\l g (100 sin ""^(2)(pi)/(4))$，$dots.c$，$\l g (100 sin ""^(n-1)(pi)/(4))$ 前多少项的和的值最大？并求这最大值. （$\l g 2 = 0.301$）
+试问数列 #mi(`\lg 100`)，#mi(`\lg \left(100\sin \frac{\pi}{4}\right)`)，#mi(`\lg \left(100\sin^{2}\frac{\pi}{4}\right)`)，#mi(`\cdots`)，#mi(`\lg \left(100\sin^{n-1}\frac{\pi}{4}\right)`) 前多少项的和的值最大？并求这最大值. （#mi(`\lg 2 = 0.301`)）
 ]
 
 #solution[
-记第 $k$ 项为 $a_k$，其中 $k\g e q1$. 由于
-
-$ sin (pi)/(4)=(sqrt(2))/(2)=2^(-(1)/(2)) $
-
-且 $\l g100=2$，所以
-
-$ a_k=\l g(100( sin (pi)/(4))^(k-1)) =\l g(100 dot 2 ""^(-((k-1))/(2))) =2-(k-1)/(2)\l g2 =2-0.1505(k-1) $
+记第 #mi(`k`) 项为 #mi(`a_{k}`)，其中 #mi(`k\geq1`). 由于
 
 
-所以 $a_k$ 随 $k$ 增大而严格递减. 记前 $k$ 项的和为 $S_k$，则
+#align(center)[#mitex(`
+\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}=2^{-\frac{1}{2}}
+`)]
 
-$ S_(k+1)-S_k=a_(k+1)=2-0.1505 k $
+
+且 #mi(`\lg100=2`)，所以
+
+
+#align(center)[#mitex(`
+a_{k}=\lg\left(100\left(\sin\frac{\pi}{4}\right)^{k-1}\right)  =\lg\left(100\cdot2^{-\frac{(k-1)}{2}}\right)  =2-\frac{k-1}{2}\lg2  =2-0.1505(k-1)
+`)]
+
+
+所以 #mi(`a_{k}`) 随 #mi(`k`) 增大而严格递减. 记前 #mi(`k`) 项的和为 #mi(`S_{k}`)，则
+
+
+#align(center)[#mitex(`
+S_{k+1}-S_{k}=a_{k+1}=2-0.1505k
+`)]
+
 
 考察最大值附近的两项：
 
-$ a_(14)=2-0.1505 times 13 =0.0435>0 $
+
+#align(center)[#mitex(`
+a_{14}=2-0.1505\times13=0.0435>0
+`)]
 
 
-$ a_(15)=2-0.1505 times 14 =-0.107<0 $
 
-因此 $S_(14)-S_(13)=a_(14)>0$，而 $S_(15)-S_(14)=a_(15)<0$. 又因为所有 $a_k$ 递减，所以前 $14$ 项的加法过程一直增加到 $S_(14)$，从第 $15$ 项起继续加项都会使和减小，故最大值在前 $14$ 项处取得.
+#align(center)[#mitex(`
+a_{15}=2-0.1505\times14=-0.107<0
+`)]
 
-前 $14$ 项构成首项为 $2$、第 $14$ 项为 $0.0435$ 的等差数列，故其和为
 
-$ S_(14)=(14(2+0.0435))/(2)=14.3045 $
+因此 #mi(`S_{14}-S_{13}=a_{14}>0`)，而 #mi(`S_{15}-S_{14}=a_{15}<0`). 又因为所有 #mi(`a_{k}`) 递减，所以前 #mi(`14`) 项的加法过程一直增加到 #mi(`S_{14}`)，从第 #mi(`15`) 项起继续加项都会使和减小，故最大值在前 #mi(`14`) 项处取得.
 
-所以前 $14$ 项的和最大，最大值为 $14.3045$（按给定近似数据约为 $14.30$）.
+前 #mi(`14`) 项构成首项为 #mi(`2`)、第 #mi(`14`) 项为 #mi(`0.0435`) 的等差数列，故其和为
+
+
+#align(center)[#mitex(`
+S_{14}=\frac{14(2+0.0435)}{2}=14.3045
+`)]
+
+
+所以前 #mi(`14`) 项的和最大，最大值为 #mi(`14.3045`)（按给定近似数据约为 #mi(`14.30`)）.
 ]
 
 #problem(10)[
-设等腰 $triangle O A B$ 的顶角为 $2 theta$，高为 $h$.
+设等腰 #mi(`\triangle OAB`) 的顶角为 #mi(`2\theta`)，高为 #mi(`h`).
 
 
-+ (1) $triangle O A B$ 内有一动点 $P$，到三边 $O A$，$O B$，$A B$ 的距离分别为 $| P D|$，$| P F|$，$| P E|$，并且满足关系 $| P D| dot | P F| = | P E|^2$. 求 $P$ 点的轨迹；
-+ (2) 在上述轨迹中定出点 $P$ 的坐标，使得 $| P D| + | P E| = | P F|$.
++ (1)
 ]
 
 #solution[
-+ (1) 取 $O$ 为原点，以高从 $O$ 指向边 $A B$ 的方向为 $x$ 轴正向，以垂直于高的方向为 $y$ 轴正向，并取 $A$ 位于 $x$ 轴上方. 由于顶角为 $2 theta$，有 $0< theta <90^( degree )$，于是
-$A=(h,h tan theta )$，$B=(h,-h tan theta )$.
-
-设 $P=(x,y)$. 因为 $P$ 在三角形内部，所以
-$0<x<h$，$-x tan theta <y<x tan theta$.
-三边所在直线分别为
-$O A: y=x tan theta$，$O B: y=-x tan theta$，$A B: x=h$.
-由点到直线的距离公式，且利用 $sqrt(1+ tan ""^2 theta)=(1)/(cos theta)$，可得
-
-$ | P D| =(x tan theta -y)/(sqrt(1+ tan ""^2 theta))=x sin theta -y cos theta $
-
-
-$ | P F| =(x tan theta +y)/(sqrt(1+ tan ""^2 theta))=x sin theta +y cos theta $
-
-并且
-
-$ | P E|=h-x $
-
-这些量在三角形内部均为正.
-
-代入 $| P D|| P F|=| P E|^2$，得到
-
-$ x^2 sin ""^2 theta -y^2 cos ""^2 theta =(h-x)^2 $
-
-展开右边并移项，得
-$c^2(x^2+y^2)-2 h x+h^2=0$，$c= cos theta$.
-将 $c$ 换回 $cos theta$，配方得
-
-$ (x-(h)/(cos ""^2 theta))^2+y^2 =((h sin theta)/(cos ""^2 theta))^2 $
-
-因此，满足距离乘积条件的点在上述圆上；但题目还要求 $P$ 位于三角形内部，所以实际轨迹是该圆满足
-$0<x<h$，$-x tan theta <y<x tan theta$
-的那一段（边界因 $P$ 在三角形内部而不取）.
-+ (2) 由 $| P D|+| P E|=| P F|$，有
-
-$ x sin theta -y cos theta +h-x=x sin theta +y cos theta $
-
-从而
-
-$ h-x=2 y cos theta $
-
-因为 $0<x<h$ 且 $cos theta >0$，所以 $y>0$.
-
-把 $y cos theta =((h-x))/(2)$ 代入乘积条件的等价形式，得到
-
-$ x^2 sin ""^2 theta -((h-x)^2)/(4)=(h-x)^2 $
-
-整理为
-
-$ 4 x^2 sin ""^2 theta =5(h-x)^2 $
-
-由于 $x>0$、$sin theta >0$ 且 $h-x>0$，等式两边取正平方根，得到
-
-$ 2 x sin theta =sqrt(5)(h-x) $
-
-解得
-
-$ x=(sqrt(5){h})/(sqrt(5)+2 sin theta) $
-
-再由 $h-x=2 y cos theta$，得到
-
-$ y=(h-x)/(2 cos theta)=(h tan theta)/(sqrt(5)+2 sin theta) $
-
-所以所求点的坐标为
-
-$ P=((sqrt(5){h})/(sqrt(5)+2 sin theta), (h tan theta)/(sqrt(5)+2 sin theta)) $
-
-
-最后验证位置条件：分母大于 $sqrt(5)$，所以 $0<x<h$，并且
-
-$ (y)/(x tan theta)=(1)/(sqrt(5))<1 $
-
-由于 $y>0$，故 $-x tan theta <y<x tan theta$，该点确实在三角形内部；代回上面的等式可知它也在第一问所得轨迹上.
++ (1)
 ]
 

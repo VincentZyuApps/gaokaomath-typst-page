@@ -1,8 +1,143 @@
 {
-  "title": "2005年普通高等学校招生全国统一考试",
-  "subtitle": "2005年湖北卷（理）",
   "year": "2005",
   "slug": "hubei_science",
+  "title": "2005年湖北卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$6$"
           ],
           "answer": "B",
-          "solution": "<p>逐一计算两集合中元素的和，得到</p>\n$$\nP+Q=\\{1,2,6,3,4,8,6,7,11\\}=\\{1,2,3,4,6,7,8,11\\}\n$$\n<p>因此，集合 $P+Q$ 中有 $8$ 个元素，故选 B.</p>"
+          "solution": "<p>逐一计算两集合中元素的和，得到</p>\n$$\nP+Q=\\{1,2,6,3,4,8,6,7,11\\}=\\{1,2,3,4,6,7,8,11\\}\n$$\n<p>因此，集合 $P+Q$ 中有 $8$ 个元素，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$4$"
           ],
           "answer": "B",
-          "solution": "<p>命题$①$中，$a=b$ 能推出 $ac=bc$，但当 $c=0$ 时，$ac=bc$ 不能推出 $a=b$，所以命题$①$不是真命题.</p><p>命题$②$中，整数 $5$ 是有理数，因此 $a$ 为无理数当且仅当 $a+5$ 为无理数，命题$②$是真命题.</p><p>命题$③$不成立. 例如取 $a=0$，$b=-1$，虽然 $a>b$，但 $a^{2}<b^{2}$，所以 $a>b$ 不是 $a^{2}>b^{2}$ 的充分条件.</p><p>命题$④$中，$a<3$ 一定能推出 $a<5$，所以 $a<5$ 是 $a<3$ 的必要条件，命题$④$是真命题.</p><p>真命题共有 $2$ 个，故选 B.</p>"
+          "solution": "<p>命题$①$中，$a=b$ 能推出 $ac=bc$，但当 $c=0$ 时，$ac=bc$ 不能推出 $a=b$，所以命题$①$不是真命题.</p><p>命题$②$中，整数 $5$ 是有理数，因此 $a$ 为无理数当且仅当 $a+5$ 为无理数，命题$②$是真命题.</p><p>命题$③$不成立. 例如取 $a=0$，$b=-1$，虽然 $a>b$，但 $a^{2}<b^{2}$，所以 $a>b$ 不是 $a^{2}>b^{2}$ 的充分条件.</p><p>命题$④$中，$a<3$ 一定能推出 $a<5$，所以 $a<5$ 是 $a<3$ 的必要条件，命题$④$是真命题.</p><p>真命题共有 $2$ 个，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,19 +180,23 @@
             "$2 + \\mathrm{i}$"
           ],
           "answer": "C",
-          "solution": "<p>先计算分子，得</p>\n$$\n\\left(1-\\mathrm{i}\\right)\\left(1+2\\mathrm{i}\\right)=1+2\\mathrm{i}-\\mathrm{i}-2\\mathrm{i}^{2}=3+\\mathrm{i}\n$$\n<p>所以</p>\n$$\n\\frac{\\left(1-\\mathrm{i}\\right)\\left(1+2\\mathrm{i}\\right)}{1+\\mathrm{i}}=\\frac{3+\\mathrm{i}}{1+\\mathrm{i}}=\\frac{\\left(3+\\mathrm{i}\\right)\\left(1-\\mathrm{i}\\right)}{\\left(1+\\mathrm{i}\\right)\\left(1-\\mathrm{i}\\right)}=\\frac{4-2\\mathrm{i}}{2}=2-\\mathrm{i}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>先计算分子，得</p>\n$$\n\\left(1-\\mathrm{i}\\right)\\left(1+2\\mathrm{i}\\right)=1+2\\mathrm{i}-\\mathrm{i}-2\\mathrm{i}^{2}=3+\\mathrm{i}\n$$\n<p>所以</p>\n$$\n\\frac{\\left(1-\\mathrm{i}\\right)\\left(1+2\\mathrm{i}\\right)}{1+\\mathrm{i}}=\\frac{3+\\mathrm{i}}{1+\\mathrm{i}}=\\frac{\\left(3+\\mathrm{i}\\right)\\left(1-\\mathrm{i}\\right)}{\\left(1+\\mathrm{i}\\right)\\left(1-\\mathrm{i}\\right)}=\\frac{4-2\\mathrm{i}}{2}=2-\\mathrm{i}\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "函数 $y = \\mathrm{e}^{|\\ln x|}- |x - 1|$ 的图象大致是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hubei_science/q4_optA_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hubei_science/q4_optB_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hubei_science/q4_optC_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hubei_science/q4_optD_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/hubei_science/q4_optA_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/hubei_science/q4_optB_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/hubei_science/q4_optC_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/hubei_science/q4_optD_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "<p>函数的定义域为 $x>0$. 当 $0<x<1$ 时，$|\\ln x|=-\\ln x$，$|x-1|=1-x$，因此</p>\n$$\ny=\\mathrm{e}^{-\\ln x}-(1-x)=\\frac{1}{x}+x-1\n$$\n<p>此时 $y'=1-\\frac{1}{x^{2}}<0$，函数从左向右递减，并且当 $x\\to0^{+}$ 时，$y\\to+\\infty$. 当 $x\\geqslant1$ 时，$|\\ln x|=\\ln x$，$|x-1|=x-1$，所以 $y=x-(x-1)=1$. 因而图象在 $x=1$ 处取值 $1$，右侧为水平射线，左侧从上方递减到 $(1,1)$，故选 D.</p>"
+          "solution": "<p>函数的定义域为 $x>0$. 当 $0<x<1$ 时，$|\\ln x|=-\\ln x$，$|x-1|=1-x$，因此</p>\n$$\ny=\\mathrm{e}^{-\\ln x}-(1-x)=\\frac{1}{x}+x-1\n$$\n<p>此时 $y'=1-\\frac{1}{x^{2}}<0$，函数从左向右递减，并且当 $x\\to0^{+}$ 时，$y\\to+\\infty$. 当 $x\\geqslant1$ 时，$|\\ln x|=\\ln x$，$|x-1|=x-1$，所以 $y=x-(x-1)=1$. 因而图象在 $x=1$ 处取值 $1$，右侧为水平射线，左侧从上方递减到 $(1,1)$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "$\\frac{8}{3}$"
           ],
           "answer": "A",
-          "solution": "<p>将双曲线写成标准形式，其半实轴平方为 $m$，半虚轴平方为 $n$，焦半距平方为 $m+n$. 因此离心率满足</p>\n$$\ne^{2}=\\frac{m+n}{m}=4\n$$\n<p>从而 $n=3m$. 抛物线 $y^{2}=4x$ 的焦点为 $(1,0)$，而双曲线的焦点为 $\\left(\\pm\\sqrt{m+n},0\\right)$，故 $m+n=1$. 于是 $4m=1$，$m=\\frac{1}{4}$，$n=\\frac{3}{4}$，所以</p>\n$$\nmn=\\frac{1}{4}\\cdot\\frac{3}{4}=\\frac{3}{16}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>将双曲线写成标准形式，其半实轴平方为 $m$，半虚轴平方为 $n$，焦半距平方为 $m+n$. 因此离心率满足</p>\n$$\ne^{2}=\\frac{m+n}{m}=4\n$$\n<p>从而 $n=3m$. 抛物线 $y^{2}=4x$ 的焦点为 $(1,0)$，而双曲线的焦点为 $\\left(\\pm\\sqrt{m+n},0\\right)$，故 $m+n=1$. 于是 $4m=1$，$m=\\frac{1}{4}$，$n=\\frac{3}{4}$，所以</p>\n$$\nmn=\\frac{1}{4}\\cdot\\frac{3}{4}=\\frac{3}{16}\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$3$"
           ],
           "answer": "B",
-          "solution": "<p>对二阶导数进行判断. 对于 $y=2^{x}$，有 $y''=(\\ln2)^{2} 2^{x}>0$，所以它在 $(0,1)$ 上为凸函数，不满足题中的不等式. 对于 $y=\\log_{2}x$，有</p>\n$$\ny''=-\\frac{1}{x^{2}\\ln2}<0\n$$\n<p>所以它在 $(0,1)$ 上严格凹，恒满足题中的不等式. 对于 $y=x^{2}$，有 $y''=2>0$，不满足题中的不等式.</p><p>对于 $y=\\cos2x$，有 $y''=-4\\cos2x$. 当 $\\frac{\\pi}{4}<x<1$ 时，$\\cos2x<0$，从而 $y''>0$，函数在该小区间上为凸函数，不能对所有 $0<x_{1}<x_{2}<1$ 满足严格凹函数的中点不等式. 因此只有 $y=\\log_{2}x$ 满足条件，函数的个数为 $1$，故选 B.</p>"
+          "solution": "<p>对二阶导数进行判断. 对于 $y=2^{x}$，有 $y''=(\\ln2)^{2} 2^{x}>0$，所以它在 $(0,1)$ 上为凸函数，不满足题中的不等式. 对于 $y=\\log_{2}x$，有</p>\n$$\ny''=-\\frac{1}{x^{2}\\ln2}<0\n$$\n<p>所以它在 $(0,1)$ 上严格凹，恒满足题中的不等式. 对于 $y=x^{2}$，有 $y''=2>0$，不满足题中的不等式.</p><p>对于 $y=\\cos2x$，有 $y''=-4\\cos2x$. 当 $\\frac{\\pi}{4}<x<1$ 时，$\\cos2x<0$，从而 $y''>0$，函数在该小区间上为凸函数，不能对所有 $0<x_{1}<x_{2}<1$ 满足严格凹函数的中点不等式. 因此只有 $y=\\log_{2}x$ 满足条件，函数的个数为 $1$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$\\left(\\frac{\\pi}{3}, \\frac{\\pi}{2}\\right)$"
           ],
           "answer": "C",
-          "solution": "<p>令</p>\n$$\nh(\\alpha)=\\tan\\alpha-\\sin\\alpha-\\cos\\alpha\n$$\n<p>在 $0<\\alpha<\\frac{\\pi}{2}$ 内，</p>\n$$\nh'(\\alpha)=\\sec^{2}\\alpha-\\cos\\alpha+\\sin\\alpha>1-\\cos\\alpha+\\sin\\alpha>0\n$$\n<p>所以 $h$ 严格递增. 又 $h\\left(\\frac{\\pi}{4}\\right)=1-\\sqrt{2}<0$，</p><p>$h\\left(\\frac{\\pi}{3}\\right)=\\sqrt{3}-\\frac{\\sqrt{3}+1}{2}>0$.</p><p>由连续性，方程 $h(\\alpha)=0$ 的解唯一，且位于 $\\left(\\frac{\\pi}{4},\\frac{\\pi}{3}\\right)$ 内. 故选 C.</p>"
+          "solution": "<p>令</p>\n$$\nh(\\alpha)=\\tan\\alpha-\\sin\\alpha-\\cos\\alpha\n$$\n<p>在 $0<\\alpha<\\frac{\\pi}{2}$ 内，</p>\n$$\nh'(\\alpha)=\\sec^{2}\\alpha-\\cos\\alpha+\\sin\\alpha>1-\\cos\\alpha+\\sin\\alpha>0\n$$\n<p>所以 $h$ 严格递增. 又 $h\\left(\\frac{\\pi}{4}\\right)=1-\\sqrt{2}<0$，</p><p>$h\\left(\\frac{\\pi}{3}\\right)=\\sqrt{3}-\\frac{\\sqrt{3}+1}{2}>0$.</p><p>由连续性，方程 $h(\\alpha)=0$ 的解唯一，且位于 $\\left(\\frac{\\pi}{4},\\frac{\\pi}{3}\\right)$ 内. 故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$a = 2$，$b = 4$"
           ],
           "answer": "C",
-          "solution": "<p>将式子通分，得</p>\n$$\n\\frac{a}{1-x}-\\frac{b}{1-x^{2}}=\\frac{a(1+x)-b}{(1-x)(1+x)}\n$$\n<p>要使 $x\\to1$ 时极限为有限值，分子在 $x=1$ 时必须为零，即 $2a-b=0$，所以 $b=2a$. 代入后，</p>\n$$\n\\frac{a(1+x)-2a}{(1-x)(1+x)}=-\\frac{a}{1+x}\n$$\n<p>故极限为 $-\\frac{a}{2}=1$，从而 $a=-2$，$b=-4$. 故选 C.</p>"
+          "solution": "<p>将式子通分，得</p>\n$$\n\\frac{a}{1-x}-\\frac{b}{1-x^{2}}=\\frac{a(1+x)-b}{(1-x)(1+x)}\n$$\n<p>要使 $x\\to1$ 时极限为有限值，分子在 $x=1$ 时必须为零，即 $2a-b=0$，所以 $b=2a$. 代入后，</p>\n$$\n\\frac{a(1+x)-2a}{(1-x)(1+x)}=-\\frac{a}{1+x}\n$$\n<p>故极限为 $-\\frac{a}{2}=1$，从而 $a=-2$，$b=-4$. 故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,11 +264,13 @@
             "与 $x$ 的取值有关"
           ],
           "answer": "D",
-          "solution": "<p>令 $h(x)=2x-3\\sin x$，并把它连续延拓到 $x=0$. 则 $h(0)=0$，且</p>\n$$\nh'(x)=2-3\\cos x\n$$\n<p>当 $x$ 为充分接近 $0$ 的正数时，$h'(x)<0$，所以 $h(x)<0$，即 $2x<3\\sin x$. 另一方面，$h\\left(\\frac{\\pi}{2}\\right)=\\pi-3>0$，由连续性可知在充分接近 $\\frac{\\pi}{2}$ 的区间内有 $h(x)>0$，即 $2x>3\\sin x$. 因此两者的大小关系随 $x$ 的取值而变，故选 D.</p>"
+          "solution": "<p>令 $h(x)=2x-3\\sin x$，并把它连续延拓到 $x=0$. 则 $h(0)=0$，且</p>\n$$\nh'(x)=2-3\\cos x\n$$\n<p>当 $x$ 为充分接近 $0$ 的正数时，$h'(x)<0$，所以 $h(x)<0$，即 $2x<3\\sin x$. 另一方面，$h\\left(\\frac{\\pi}{2}\\right)=\\pi-3>0$，由连续性可知在充分接近 $\\frac{\\pi}{2}$ 的区间内有 $h(x)>0$，即 $2x>3\\sin x$. 因此两者的大小关系随 $x$ 的取值而变，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
-          "body": "<p>如图，在三棱柱 $ABC - A'B'C'$ 中，点 $E$，$F$，$H$，$K$ 分别为 $AC'$，$CB'$，$A'B$，$B'C'$ 的中点，$G$ 为 $\\triangle ABC$ 的重心. 从 $K$，$H$，$G$，$B'$ 中取一点作为 $P$，使得该棱柱恰有 $2$ 条棱与平面 $PEF$ 平行，则 $P$ 为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，在三棱柱 $ABC - A'B'C'$ 中，点 $E$，$F$，$H$，$K$ 分别为 $AC'$，$CB'$，$A'B$，$B'C'$ 的中点，$G$ 为 $\\triangle ABC$ 的重心. 从 $K$，$H$，$G$，$B'$ 中取一点作为 $P$，使得该棱柱恰有 $2$ 条棱与平面 $PEF$ 平行，则 $P$ 为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/hubei_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$K$",
             "$H$",
@@ -125,7 +278,9 @@
             "$B^{\\prime}$"
           ],
           "answer": "C",
-          "solution": "<p>取仿射坐标 $A=(0,0,0)$，$B=(1,0,0)$，$C=(0,1,0)$，$A'=(0,0,1)$.</p><p>于是 $B'=(1,0,1)$，$C'=(0,1,1)$，$E=\\left(0,\\frac{1}{2},\\frac{1}{2}\\right)$，$F=\\left(\\frac{1}{2},\\frac{1}{2},\\frac{1}{2}\\right)$，</p><p>并且 $H=\\left(\\frac{1}{2},0,\\frac{1}{2}\\right)$，$K=\\left(\\frac{1}{2},\\frac{1}{2},1\\right)$，$G=\\left(\\frac{1}{3},\\frac{1}{3},0\\right)$. 由于 $EF$ 平行于 $x$ 轴，平面 $PEF$ 的一个方向始终是 $(1,0,0)$，对应棱 $AB$ 和 $A'B'$.</p><p>当 $P=K$ 时，平面方程为 $y=\\frac{1}{2}$，与 $x$ 轴方向平行的棱以及三条侧棱均与该平面无公共点，共有 $5$ 条，不合题意. 当 $P=H$ 时，平面方程为 $z=\\frac{1}{2}$，六条底面棱均与该平面平行，共有 $6$ 条，也不合题意.</p><p>当 $P=G$ 时，由 $E$，$F$，$G$ 三点可得平面方程为 $3y-z=1$. 棱 $AB$ 和 $A'B'$ 的方向满足 $3\\Delta y-\\Delta z=0$，且它们分别位于 $3y-z=0$ 和 $3y-z=-1$ 上，所以恰有这 $2$ 条棱与平面平行；其余各棱的方向均不满足该方向条件.</p><p>当 $P=B'$ 时，平面方程为 $y+z=1$. 棱 $AB$ 与该平面平行；棱 $A'B'$ 在该平面内，不计作与平面平行的棱；其余各棱均与该平面相交，故只有 $1$ 条棱与平面平行，不满足条件. 所以 $P=G$，故选 C.</p>"
+          "solution": "<p>取仿射坐标 $A=(0,0,0)$，$B=(1,0,0)$，$C=(0,1,0)$，$A'=(0,0,1)$.</p><p>于是 $B'=(1,0,1)$，$C'=(0,1,1)$，$E=\\left(0,\\frac{1}{2},\\frac{1}{2}\\right)$，$F=\\left(\\frac{1}{2},\\frac{1}{2},\\frac{1}{2}\\right)$，</p><p>并且 $H=\\left(\\frac{1}{2},0,\\frac{1}{2}\\right)$，$K=\\left(\\frac{1}{2},\\frac{1}{2},1\\right)$，$G=\\left(\\frac{1}{3},\\frac{1}{3},0\\right)$. 由于 $EF$ 平行于 $x$ 轴，平面 $PEF$ 的一个方向始终是 $(1,0,0)$，对应棱 $AB$ 和 $A'B'$.</p><p>当 $P=K$ 时，平面方程为 $y=\\frac{1}{2}$，与 $x$ 轴方向平行的棱以及三条侧棱均与该平面无公共点，共有 $5$ 条，不合题意. 当 $P=H$ 时，平面方程为 $z=\\frac{1}{2}$，六条底面棱均与该平面平行，共有 $6$ 条，也不合题意.</p><p>当 $P=G$ 时，由 $E$，$F$，$G$ 三点可得平面方程为 $3y-z=1$. 棱 $AB$ 和 $A'B'$ 的方向满足 $3\\Delta y-\\Delta z=0$，且它们分别位于 $3y-z=0$ 和 $3y-z=-1$ 上，所以恰有这 $2$ 条棱与平面平行；其余各棱的方向均不满足该方向条件.</p><p>当 $P=B'$ 时，平面方程为 $y+z=1$. 棱 $AB$ 与该平面平行；棱 $A'B'$ 在该平面内，不计作与平面平行的棱；其余各棱均与该平面相交，故只有 $1$ 条棱与平面平行，不满足条件. 所以 $P=G$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +292,9 @@
             "$①$，$③$都可能为分层抽样"
           ],
           "answer": "D",
-          "solution": "<p>系统抽样时每段有 $270\\div10=27$ 个号码，所以样本号码应为</p><p>$r$，$r+27$，$r+2\\times27$，$\\dots$，$r+9\\times27$</p><p>的形式，其中 $1\\le r\\leqslant27$. 因此样本$①$对应 $r=7$，样本$③$对应 $r=11$，二者都可能是系统抽样；样本$②$和样本$④$不具有这种等差结构.</p><p>分层抽样按年级人数比例抽取，三个年级应分别抽取 $10\\times\\frac{108}{270}=4$，$10\\times\\frac{81}{270}=3$，$10\\times\\frac{81}{270}=3$ 人. 样本$①$和样本$③$在三个年级中均分别含有 $4$，$3$，$3$ 人，所以二者都可能是分层抽样. 样本$④$在三个年级中分别含有 $3$，$3$，$4$ 人，不可能是分层抽样.</p><p>因此正确结论是“$①$，$③$都可能为分层抽样”，故选 D.</p>"
+          "solution": "<p>系统抽样时每段有 $270\\div10=27$ 个号码，所以样本号码应为</p><p>$r$，$r+27$，$r+2\\times27$，$\\dots$，$r+9\\times27$</p><p>的形式，其中 $1\\le r\\leqslant27$. 因此样本$①$对应 $r=7$，样本$③$对应 $r=11$，二者都可能是系统抽样；样本$②$和样本$④$不具有这种等差结构.</p><p>分层抽样按年级人数比例抽取，三个年级应分别抽取 $10\\times\\frac{108}{270}=4$，$10\\times\\frac{81}{270}=3$，$10\\times\\frac{81}{270}=3$ 人. 样本$①$和样本$③$在三个年级中均分别含有 $4$，$3$，$3$ 人，所以二者都可能是分层抽样. 样本$④$在三个年级中分别含有 $3$，$3$，$4$ 人，不可能是分层抽样.</p><p>因此正确结论是“$①$，$③$都可能为分层抽样”，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +306,9 @@
             "$\\frac{18}{385}$"
           ],
           "answer": "A",
-          "solution": "<p>用仿射坐标把平行六面体的八个顶点表示为立方体的八个顶点. 仿射变换保持共线、共面关系，因此只需统计立方体顶点的情形.</p><p>八个顶点中任取三个作三角形，共有 $\\mathrm{C}_{8}^{3}=56$ 个三角形，从中任取两个共有 $\\mathrm{C}_{56}^{2}=1540$ 种取法. 设平面方程为 $ux+vy+wz=d$，将 $x$，$y$，$z$ 分别取 $0$，$1$ 代入. 先说明含有 $4$ 个顶点的平面只有下面列出的 $12$ 个. 若 $u$，$v$，$w$ 均不为零，固定 $(x,y)\\in\\{0,1\\}^{2}$ 后，方程 $ux+vy+wz=d$ 至多确定一个 $z\\in\\{0,1\\}$. 若有 $4$ 个顶点在该平面内，则四个数 $0$，$u$，$v$，$u+v$ 都必须属于 $\\{d,d-w\\}$，但 $u$，$v$ 均不为零时这四个数至少有三个不同的值，矛盾. 因而至少有一个系数为零，不妨设 $w=0$.</p><p>此时每个 $(x,y)$ 对应的两个顶点 $(x,y,0)$，$(x,y,1)$ 具有相同的左端值 $ux+vy$. 若 $u=0$ 或 $v=0$，可得坐标平面 $x=0$，$x=1$，$y=0$ 或 $y=1$；若 $u$，$v$ 均不为零，要使四个数 $0$，$u$，$v$，$u+v$ 中有两个相等，只可能是 $u=v$ 或 $u=-v$，分别得到 $x+y=1$ 或 $x=y$. 对坐标作全排列，恰得</p><p>$x=0$，$x=1$，$y=0$，$y=1$，$z=0$，$z=1$，$x=y$，$x+y=1$，$y=z$，$y+z=1$，$x=z$，$x+z=1$.</p><p>前 $6$ 个是面所在的平面，后 $6$ 个是对角平面；每个所列平面恰含有 $4$ 个顶点，若另有平面含有超过 $4$ 个顶点，则其中任取 $4$ 个顶点所得平面必须是上述平面之一，矛盾. 因此立方体的任一平面至多含有 $4$ 个顶点，含有 $4$ 个顶点的平面恰为上述 $12$ 个平面.</p><p>每个含有 $4$ 个顶点的平面内可作 $\\mathrm{C}_{4}^{3}=4$ 个三角形，因此其中任取两个三角形共有 $\\mathrm{C}_{4}^{2}=6$ 对. 不同的四点共面平面不会重复计算同一对三角形，所以共面的三角形对数为 $12\\times6=72$. 因而两个三角形不共面的概率为</p>\n$$\np=\\frac{\\mathrm{C}_{56}^{2}-72}{\\mathrm{C}_{56}^{2}}=\\frac{1540-72}{1540}=\\frac{1468}{1540}=\\frac{367}{385}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>用仿射坐标把平行六面体的八个顶点表示为立方体的八个顶点. 仿射变换保持共线、共面关系，因此只需统计立方体顶点的情形.</p><p>八个顶点中任取三个作三角形，共有 $\\mathrm{C}_{8}^{3}=56$ 个三角形，从中任取两个共有 $\\mathrm{C}_{56}^{2}=1540$ 种取法. 设平面方程为 $ux+vy+wz=d$，将 $x$，$y$，$z$ 分别取 $0$，$1$ 代入. 先说明含有 $4$ 个顶点的平面只有下面列出的 $12$ 个. 若 $u$，$v$，$w$ 均不为零，固定 $(x,y)\\in\\{0,1\\}^{2}$ 后，方程 $ux+vy+wz=d$ 至多确定一个 $z\\in\\{0,1\\}$. 若有 $4$ 个顶点在该平面内，则四个数 $0$，$u$，$v$，$u+v$ 都必须属于 $\\{d,d-w\\}$，但 $u$，$v$ 均不为零时这四个数至少有三个不同的值，矛盾. 因而至少有一个系数为零，不妨设 $w=0$.</p><p>此时每个 $(x,y)$ 对应的两个顶点 $(x,y,0)$，$(x,y,1)$ 具有相同的左端值 $ux+vy$. 若 $u=0$ 或 $v=0$，可得坐标平面 $x=0$，$x=1$，$y=0$ 或 $y=1$；若 $u$，$v$ 均不为零，要使四个数 $0$，$u$，$v$，$u+v$ 中有两个相等，只可能是 $u=v$ 或 $u=-v$，分别得到 $x+y=1$ 或 $x=y$. 对坐标作全排列，恰得</p><p>$x=0$，$x=1$，$y=0$，$y=1$，$z=0$，$z=1$，$x=y$，$x+y=1$，$y=z$，$y+z=1$，$x=z$，$x+z=1$.</p><p>前 $6$ 个是面所在的平面，后 $6$ 个是对角平面；每个所列平面恰含有 $4$ 个顶点，若另有平面含有超过 $4$ 个顶点，则其中任取 $4$ 个顶点所得平面必须是上述平面之一，矛盾. 因此立方体的任一平面至多含有 $4$ 个顶点，含有 $4$ 个顶点的平面恰为上述 $12$ 个平面.</p><p>每个含有 $4$ 个顶点的平面内可作 $\\mathrm{C}_{4}^{3}=4$ 个三角形，因此其中任取两个三角形共有 $\\mathrm{C}_{4}^{2}=6$ 对. 不同的四点共面平面不会重复计算同一对三角形，所以共面的三角形对数为 $12\\times6=72$. 因而两个三角形不共面的概率为</p>\n$$\np=\\frac{\\mathrm{C}_{56}^{2}-72}{\\mathrm{C}_{56}^{2}}=\\frac{1540-72}{1540}=\\frac{1468}{1540}=\\frac{367}{385}\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +318,38 @@
         {
           "num": 13,
           "body": "已知向量 $\\mathbf{a}= (-2, 2)$，$\\mathbf{b}= (5, k)$. 若 $|\\mathbf{a}+ \\mathbf{b}|$ 不超过 $5$，则 $k$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$[-6,2]$",
-          "solution": "<p>由</p>\n$$\n\\mathbf{a}+\\mathbf{b}=(3,k+2)\n$$\n<p>以及 $\\lvert\\mathbf{a}+\\mathbf{b}\\rvert\\leqslant5$，得</p>\n$$\n\\sqrt{3^{2}+(k+2)^{2}}\\leqslant5\n$$\n<p>两边平方并整理，得到 $(k+2)^{2}\\leqslant16$，所以 $-4\\le k+2\\leqslant4$，即 $-6\\le k\\leqslant2$. 因此填 $[-6,2]$.</p>"
+          "choices": [],
+          "answer": "\\([-6,2]\\)",
+          "solution": "<p>由</p>\n$$\n\\mathbf{a}+\\mathbf{b}=(3,k+2)\n$$\n<p>以及 $\\lvert\\mathbf{a}+\\mathbf{b}\\rvert\\leqslant5$，得</p>\n$$\n\\sqrt{3^{2}+(k+2)^{2}}\\leqslant5\n$$\n<p>两边平方并整理，得到 $(k+2)^{2}\\leqslant16$，所以 $-4\\le k+2\\leqslant4$，即 $-6\\le k\\leqslant2$. 因此填 $[-6,2]$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "$\\left(\\frac{x}{2}+ \\frac{1}{x}+ \\sqrt{2}\\right)^{5}$ 的展开式中整理后的常数项为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{63\\sqrt{2}}{2}$",
-          "solution": "<p>设从三项 $\\frac{x}{2}$，$\\frac{1}{x}$，$\\sqrt{2}$ 中分别取了 $r$，$s$，$t$ 次. 常数项的幂次条件为 $r-s=0$，又 $r+s+t=5$，所以 $r=s=k$，且 $k=0$，$1$，$2$. 因而常数项为</p>\n$$\n(\\sqrt{2})^{5}+\\frac{5!}{1!1!3!}\\left(\\frac{x}{2}\\right)\\left(\\frac{1}{x}\\right)(\\sqrt{2})^{3}+\\frac{5!}{2!2!1!}\\left(\\frac{x}{2}\\right)^{2}\\left(\\frac{1}{x}\\right)^{2}\\sqrt{2}\n$$\n\n$$\n=4\\sqrt{2}+20\\sqrt{2}+\\frac{15}{2}\\sqrt{2}=\\frac{63\\sqrt{2}}{2}\n$$\n<p>因此填 $\\dfrac{63\\sqrt{2}}{2}$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{63\\sqrt{2}}{2}\\)",
+          "solution": "<p>设从三项 $\\frac{x}{2}$，$\\frac{1}{x}$，$\\sqrt{2}$ 中分别取了 $r$，$s$，$t$ 次. 常数项的幂次条件为 $r-s=0$，又 $r+s+t=5$，所以 $r=s=k$，且 $k=0$，$1$，$2$. 因而常数项为</p>\n$$\n(\\sqrt{2})^{5}+\\frac{5!}{1!1!3!}\\left(\\frac{x}{2}\\right)\\left(\\frac{1}{x}\\right)(\\sqrt{2})^{3}+\\frac{5!}{2!2!1!}\\left(\\frac{x}{2}\\right)^{2}\\left(\\frac{1}{x}\\right)^{2}\\sqrt{2}\n$$\n\n$$\n=4\\sqrt{2}+20\\sqrt{2}+\\frac{15}{2}\\sqrt{2}=\\frac{63\\sqrt{2}}{2}\n$$\n<p>因此填 $\\dfrac{63\\sqrt{2}}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "设等比数列 $\\{a_{n}\\}$ 的公比为 $q$，前 $n$ 项和为 $S_{n}$，若 $S_{n+1}$，$S_{n}$，$S_{n+2}$ 成等差数列，则 $q$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-2$",
-          "solution": "<p>因为 $S_{n+1}$，$S_{n}$，$S_{n+2}$ 成等差数列，所以</p>\n$$\n2S_{n}=S_{n+1}+S_{n+2}\n$$\n<p>又 $S_{n+1}=S_{n}+a_{n+1}$，$S_{n+2}=S_{n}+a_{n+1}+a_{n+2}$，代入可得 $2a_{n+1}+a_{n+2}=0$. 由于题设给出了等比数列的公比，按其通常定义 $a_{n+1}\\neq0$，且 $a_{n+2}=q a_{n+1}$，所以 $2+q=0$，即 $q=-2$.</p>"
+          "choices": [],
+          "answer": "\\(-2\\)",
+          "solution": "<p>因为 $S_{n+1}$，$S_{n}$，$S_{n+2}$ 成等差数列，所以</p>\n$$\n2S_{n}=S_{n+1}+S_{n+2}\n$$\n<p>又 $S_{n+1}=S_{n}+a_{n+1}$，$S_{n+2}=S_{n}+a_{n+1}+a_{n+2}$，代入可得 $2a_{n+1}+a_{n+2}=0$. 由于题设给出了等比数列的公比，按其通常定义 $a_{n+1}\\neq0$，且 $a_{n+2}=q a_{n+1}$，所以 $2+q=0$，即 $q=-2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "某实验室需购某种化工原料 $106\\text{ 千克}$，现在市场上该原料有两种包装，一种是每袋 $35\\text{ 千克}$，价格为 $140\\text{ 元}$；另一种是每袋 $24\\text{ 千克}$，价格为 $120\\text{ 元}$. 在满足需要的条件下，最少要花费<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{ 元}$.",
-          "choices": null,
-          "answer": "$500$",
-          "solution": "<p>设购买 $35\\text{ 千克}$ 包装和 $24\\text{ 千克}$ 包装的袋数分别为非负整数 $x$，$y$，则需满足 $35x+24y\\geqslant106$，总费用为 $140x+120y$.</p><p>分别讨论 $x$ 的取值：当 $x=0$ 时，至少需 $y=5$，费用为 $600$ 元；当 $x=1$ 时，至少需 $y=3$，费用为 $500$ 元；当 $x=2$ 时，至少需 $y=2$，费用为 $520$ 元；当 $x=3$ 时，至少需 $y=1$，费用为 $540$ 元；当 $x\\geqslant4$ 时，费用至少为 $4\\times140=560$ 元.</p><p>其中 $x=1$，$y=3$ 时购买总量为 $35+3\\times24=107\\text{ 千克}$，满足需要且费用为 $500$ 元，并且这是上述各情形中的最小值. 因此填 $500$.</p>"
+          "choices": [],
+          "answer": "\\(500\\)",
+          "solution": "<p>设购买 $35\\text{ 千克}$ 包装和 $24\\text{ 千克}$ 包装的袋数分别为非负整数 $x$，$y$，则需满足 $35x+24y\\geqslant106$，总费用为 $140x+120y$.</p><p>分别讨论 $x$ 的取值：当 $x=0$ 时，至少需 $y=5$，费用为 $600$ 元；当 $x=1$ 时，至少需 $y=3$，费用为 $500$ 元；当 $x=2$ 时，至少需 $y=2$，费用为 $520$ 元；当 $x=3$ 时，至少需 $y=1$，费用为 $540$ 元；当 $x\\geqslant4$ 时，费用至少为 $4\\times140=560$ 元.</p><p>其中 $x=1$，$y=3$ 时购买总量为 $35+3\\times24=107\\text{ 千克}$，满足需要且费用为 $500$ 元，并且这是上述各情形中的最小值. 因此填 $500$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "已知向量 $\\mathbf{a}= (x^{2}, x + 1)$，$\\mathbf{b}= (1 - x, t)$. 若函数 $f(x) = \\mathbf{a}\\cdot \\mathbf{b}$ 在区间 $(-1, 1)$ 上是增函数，求 $t$ 的取值范围.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由点积定义，</p>\n$$\nf(x)=\\mathbf{a}\\cdot\\mathbf{b}=x^{2}(1-x)+t(x+1)=-x^{3}+x^{2}+tx+t\n$$\n<p>因此</p>\n$$\nf'(x)=-3x^{2}+2x+t\n$$\n<p>令 $g(x)=-3x^{2}+2x$. 在 $-1<x<1$ 时，$g(x)+5=-3x^{2}+2x+5=(x+1)(5-3x)>0$，所以 $g(x)>-5$. 当 $t\\geqslant5$ 时，对于任意 $x\\in(-1,1)$，有 $f'(x)=g(x)+t>0$，从而 $f(x)$ 在 $(-1,1)$ 上是增函数. 反之，若 $t<5$，则 $f'(-1)=t-5<0$，由连续性知在 $-1$ 右侧的某个区间内仍有 $f'(x)<0$，不可能在整个 $(-1,1)$ 上为增函数. 因此</p>\n$$\nt\\geqslant5\n$$"
+          "solution": "<p>由点积定义，</p>\n$$\nf(x)=\\mathbf{a}\\cdot\\mathbf{b}=x^{2}(1-x)+t(x+1)=-x^{3}+x^{2}+tx+t\n$$\n<p>因此</p>\n$$\nf'(x)=-3x^{2}+2x+t\n$$\n<p>令 $g(x)=-3x^{2}+2x$. 在 $-1<x<1$ 时，$g(x)+5=-3x^{2}+2x+5=(x+1)(5-3x)>0$，所以 $g(x)>-5$. 当 $t\\geqslant5$ 时，对于任意 $x\\in(-1,1)$，有 $f'(x)=g(x)+t>0$，从而 $f(x)$ 在 $(-1,1)$ 上是增函数. 反之，若 $t<5$，则 $f'(-1)=t-5<0$，由连续性知在 $-1$ 右侧的某个区间内仍有 $f'(x)<0$，不可能在整个 $(-1,1)$ 上为增函数. 因此</p>\n$$\nt\\geqslant5\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "在 $\\triangle ABC$ 中，已知 $AB = \\frac{4\\sqrt{6}}{3}$，$\\cos B = \\frac{\\sqrt{6}}{6}$，$AC$ 边上的中线 $BD = \\sqrt{5}$，求 $\\sin A$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设 $BC=a$，$CA=c_{1}$，并记 $AB=c=\\dfrac{4\\sqrt{6}}{3}$. 以 $B$ 为起点，则中点 $D$ 满足 $2\\overrightarrow{BD}=\\overrightarrow{BA}+\\overrightarrow{BC}$，所以</p>\n$$\n4BD^{2}=AB^{2}+BC^{2}+2AB\\cdot BC\\cos B\n$$\n<p>代入已知条件，得</p>\n$$\n20=\\frac{32}{3}+a^{2}+2\\cdot\\frac{4\\sqrt{6}}{3}\\cdot a\\cdot\\frac{\\sqrt{6}}{6}=\\frac{32}{3}+a^{2}+\\frac{8a}{3}\n$$\n<p>整理得 $3a^{2}+8a-28=0$. 因为 $a>0$，所以 $a=2$. 再由余弦定理，</p>\n$$\nc_{1}^{2}=a^{2}+c^{2}-2ac\\cos B=4+\\frac{32}{3}-\\frac{16}{3}=\\frac{28}{3}\n$$\n<p>故 $c_{1}=\\dfrac{2\\sqrt{21}}{3}$. 又</p>\n$$\n\\sin B=\\sqrt{1-\\cos^{2}B}=\\sqrt{1-\\frac{1}{6}}=\\frac{\\sqrt{30}}{6}\n$$\n<p>由同一个三角形的面积可得 $\\dfrac{1}{2}ac\\sin B=\\dfrac{1}{2}c_{1}c\\sin A$，于是</p>\n$$\n\\sin A=\\frac{a\\sin B}{c_{1}}=\\frac{2\\cdot\\frac{\\sqrt{30}}{6}}{\\frac{2\\sqrt{21}}{3}}=\\frac{\\sqrt{70}}{14}\n$$"
+          "solution": "<p>设 $BC=a$，$CA=c_{1}$，并记 $AB=c=\\dfrac{4\\sqrt{6}}{3}$. 以 $B$ 为起点，则中点 $D$ 满足 $2\\overrightarrow{BD}=\\overrightarrow{BA}+\\overrightarrow{BC}$，所以</p>\n$$\n4BD^{2}=AB^{2}+BC^{2}+2AB\\cdot BC\\cos B\n$$\n<p>代入已知条件，得</p>\n$$\n20=\\frac{32}{3}+a^{2}+2\\cdot\\frac{4\\sqrt{6}}{3}\\cdot a\\cdot\\frac{\\sqrt{6}}{6}=\\frac{32}{3}+a^{2}+\\frac{8a}{3}\n$$\n<p>整理得 $3a^{2}+8a-28=0$. 因为 $a>0$，所以 $a=2$. 再由余弦定理，</p>\n$$\nc_{1}^{2}=a^{2}+c^{2}-2ac\\cos B=4+\\frac{32}{3}-\\frac{16}{3}=\\frac{28}{3}\n$$\n<p>故 $c_{1}=\\dfrac{2\\sqrt{21}}{3}$. 又</p>\n$$\n\\sin B=\\sqrt{1-\\cos^{2}B}=\\sqrt{1-\\frac{1}{6}}=\\frac{\\sqrt{30}}{6}\n$$\n<p>由同一个三角形的面积可得 $\\dfrac{1}{2}ac\\sin B=\\dfrac{1}{2}c_{1}c\\sin A$，于是</p>\n$$\n\\sin A=\\frac{a\\sin B}{c_{1}}=\\frac{2\\cdot\\frac{\\sqrt{30}}{6}}{\\frac{2\\sqrt{21}}{3}}=\\frac{\\sqrt{70}}{14}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "某地最近出台一项机动车驾照考试规定：每位考试者一年之内最多有 $4$ 次参加考试的机会，一旦某次考试通过，即可领取驾照，不再参加以后的考试，否则就一直等到第 $4$ 次为止. 如果李明决定参加驾照考试，设他每次参加考试通过的概率依次为 $0.6$，$0.7$，$0.8$，$0.9$，求在一年内李明参加驾照考试次数 $\\xi$ 的分布列和 $\\xi$ 的期望，并求李明在一年内领到驾照的概率.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>第一次通过的概率为 $0.6$，因此 $P(\\xi=1)=0.6$. 要参加第二次考试，第一次必须未通过，且第二次通过，所以 $P(\\xi=2)=0.4\\times0.7=0.28$. 要参加第三次考试，前两次必须均未通过，且第三次通过，所以</p>\n$$\nP(\\xi=3)=0.4\\times0.3\\times0.8=0.096\n$$\n<p>参加第四次考试的概率是前三次均未通过；第四次是否通过都不影响“参加了四次”这一事件，故</p>\n$$\nP(\\xi=4)=0.4\\times0.3\\times0.2=0.024\n$$\n<p>所以 $\\xi$ 的分布列为 $P(\\xi=1)=0.6$，$P(\\xi=2)=0.28$，$P(\\xi=3)=0.096$，$P(\\xi=4)=0.024$. 其期望为</p>\n$$\nE\\xi=1\\times0.6+2\\times0.28+3\\times0.096+4\\times0.024=1.544\n$$\n<p>一年内未领到驾照当且仅当四次考试均未通过，因此一年内领到驾照的概率为</p>\n$$\n1-0.4\\times0.3\\times0.2\\times0.1=0.9976\n$$"
+          "solution": "<p>第一次通过的概率为 $0.6$，因此 $P(\\xi=1)=0.6$. 要参加第二次考试，第一次必须未通过，且第二次通过，所以 $P(\\xi=2)=0.4\\times0.7=0.28$. 要参加第三次考试，前两次必须均未通过，且第三次通过，所以</p>\n$$\nP(\\xi=3)=0.4\\times0.3\\times0.8=0.096\n$$\n<p>参加第四次考试的概率是前三次均未通过；第四次是否通过都不影响“参加了四次”这一事件，故</p>\n$$\nP(\\xi=4)=0.4\\times0.3\\times0.2=0.024\n$$\n<p>所以 $\\xi$ 的分布列为 $P(\\xi=1)=0.6$，$P(\\xi=2)=0.28$，$P(\\xi=3)=0.096$，$P(\\xi=4)=0.024$. 其期望为</p>\n$$\nE\\xi=1\\times0.6+2\\times0.28+3\\times0.096+4\\times0.024=1.544\n$$\n<p>一年内未领到驾照当且仅当四次考试均未通过，因此一年内领到驾照的概率为</p>\n$$\n1-0.4\\times0.3\\times0.2\\times0.1=0.9976\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，在四棱锥 $P - ABCD$ 中，底面 $ABCD$ 为矩形，侧棱 $PA \\perp$ 底面 $ABCD$，$AB = \\sqrt{3}$，$BC = 1$，$PA = 2$，$E$ 为 $PD$ 的中点.</p><ol class=\"enumerate\"><li><p>求直线 $AC$ 与 $PB$ 所成角的余弦值；</p></li><li><p>在侧面 $PAB$ 内找一点 $N$，使 $NE \\perp$ 面 $PAC$，并求出 $N$ 点到 $AB$ 和 $AP$ 的距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在四棱锥 $P - ABCD$ 中，底面 $ABCD$ 为矩形，侧棱 $PA \\perp$ 底面 $ABCD$，$AB = \\sqrt{3}$，$BC = 1$，$PA = 2$，$E$ 为 $PD$ 的中点.</p><ol class=\"enumerate\"><li><p>求直线 $AC$ 与 $PB$ 所成角的余弦值；</p></li><li><p>在侧面 $PAB$ 内找一点 $N$，使 $NE \\perp$ 面 $PAC$，并求出 $N$ 点到 $AB$ 和 $AP$ 的距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/hubei_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>建立如下一直角坐标系：取 $A$ 为原点，令 $AB$ 在 $x$ 轴正向，$AD$ 在 $y$ 轴正向，$AP$ 在 $z$ 轴正向，则 $A=(0,0,0)$，$B=(\\sqrt{3},0,0)$，$D=(0,1,0)$，$C=(\\sqrt{3},1,0)$，$P=(0,0,2)$.</p><p>由于 $E$ 是 $PD$ 的中点，所以 $E=\\left(0,\\dfrac{1}{2},1\\right)$.</p><ol class=\"enumerate\"><li><p>$\\overrightarrow{AC}=(\\sqrt{3},1,0)$，$\\overrightarrow{PB}=(\\sqrt{3},0,-2)$，从而</p>\n$$\n\\cos\\angle(AC,PB)=\\frac{\\overrightarrow{AC}\\cdot\\overrightarrow{PB}}{|\\overrightarrow{AC}|\\,|\\overrightarrow{PB}|}=\\frac{3}{2\\sqrt{7}}\n$$\n</li><li><p>设 $N=(x,0,z)$，因为 $N$ 在侧面 $PAB$ 内. 平面 $PAC$ 的一个法向量为 $\\mathbf{n}=(1,-\\sqrt{3},0)$，因为 $\\mathbf{n}\\cdot\\overrightarrow{AP}=\\mathbf{n}\\cdot\\overrightarrow{AC}=0$. 又</p>\n$$\n\\overrightarrow{NE}=\\left(-x,\\frac{1}{2},1-z\\right)\n$$\n<p>条件 $NE\\perp$ 面 $PAC$ 表明 $\\overrightarrow{NE}$ 与 $\\mathbf{n}$ 平行，于是 $z=1$，且</p>\n$$\n\\left(-x,\\frac{1}{2},0\\right)=\\mu(1,-\\sqrt{3},0)\n$$\n<p>由此得 $\\mu=-\\dfrac{1}{2\\sqrt{3}}$，$x=\\dfrac{1}{2\\sqrt{3}}=\\dfrac{\\sqrt{3}}{6}$. 因而 $N=\\left(\\dfrac{\\sqrt{3}}{6},0,1\\right)$. 在侧面 $PAB$ 的 $xz$ 截面中，边 $PB$ 的方程为 $z=2-\\dfrac{2}{\\sqrt{3}}x$，而 $1<2-\\dfrac{2}{\\sqrt{3}}\\cdot\\dfrac{\\sqrt{3}}{6}=\\dfrac{5}{3}$，故该点确在侧面 $PAB$ 内. 点 $N$ 到直线 $AB$ 的距离为其 $z$ 坐标，即 $1$；到直线 $AP$ 的距离为其到 $z$ 轴的距离，即 $\\dfrac{\\sqrt{3}}{6}$.</p></li></ol>"
+          "solution": "<p>建立如下一直角坐标系：取 $A$ 为原点，令 $AB$ 在 $x$ 轴正向，$AD$ 在 $y$ 轴正向，$AP$ 在 $z$ 轴正向，则 $A=(0,0,0)$，$B=(\\sqrt{3},0,0)$，$D=(0,1,0)$，$C=(\\sqrt{3},1,0)$，$P=(0,0,2)$.</p><p>由于 $E$ 是 $PD$ 的中点，所以 $E=\\left(0,\\dfrac{1}{2},1\\right)$.</p><ol class=\"enumerate\"><li><p>$\\overrightarrow{AC}=(\\sqrt{3},1,0)$，$\\overrightarrow{PB}=(\\sqrt{3},0,-2)$，从而</p>\n$$\n\\cos\\angle(AC,PB)=\\frac{\\overrightarrow{AC}\\cdot\\overrightarrow{PB}}{|\\overrightarrow{AC}|\\,|\\overrightarrow{PB}|}=\\frac{3}{2\\sqrt{7}}\n$$\n</li><li><p>设 $N=(x,0,z)$，因为 $N$ 在侧面 $PAB$ 内. 平面 $PAC$ 的一个法向量为 $\\mathbf{n}=(1,-\\sqrt{3},0)$，因为 $\\mathbf{n}\\cdot\\overrightarrow{AP}=\\mathbf{n}\\cdot\\overrightarrow{AC}=0$. 又</p>\n$$\n\\overrightarrow{NE}=\\left(-x,\\frac{1}{2},1-z\\right)\n$$\n<p>条件 $NE\\perp$ 面 $PAC$ 表明 $\\overrightarrow{NE}$ 与 $\\mathbf{n}$ 平行，于是 $z=1$，且</p>\n$$\n\\left(-x,\\frac{1}{2},0\\right)=\\mu(1,-\\sqrt{3},0)\n$$\n<p>由此得 $\\mu=-\\dfrac{1}{2\\sqrt{3}}$，$x=\\dfrac{1}{2\\sqrt{3}}=\\dfrac{\\sqrt{3}}{6}$. 因而 $N=\\left(\\dfrac{\\sqrt{3}}{6},0,1\\right)$. 在侧面 $PAB$ 的 $xz$ 截面中，边 $PB$ 的方程为 $z=2-\\dfrac{2}{\\sqrt{3}}x$，而 $1<2-\\dfrac{2}{\\sqrt{3}}\\cdot\\dfrac{\\sqrt{3}}{6}=\\dfrac{5}{3}$，故该点确在侧面 $PAB$ 内. 点 $N$ 到直线 $AB$ 的距离为其 $z$ 坐标，即 $1$；到直线 $AP$ 的距离为其到 $z$ 轴的距离，即 $\\dfrac{\\sqrt{3}}{6}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>设 $A$，$B$ 是椭圆 $3x^{2}+ y^{2}= \\lambda$ 上的两点，点 $N(1,3)$ 是线段 $AB$ 的中点，线段 $AB$ 的垂直平分线与椭圆相交于 $C$，$D$ 两点.</p><ol class=\"enumerate\"><li><p>确定 $\\lambda$ 的取值范围，并求直线 $AB$ 的方程；</p></li><li><p>试判断是否存在这样的 $\\lambda$，使得 $A$，$B$，$C$，$D$ 四点在同一个圆上，并说明理由.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设 $\\overrightarrow{NA}=(u,v)$，则 $\\overrightarrow{NB}=(-u,-v)$，即 $A=(1+u,3+v)$，$B=(1-u,3-v)$. 因为 $A$，$B$ 都在椭圆上，分别代入 $3x^{2}+y^{2}=\\lambda$ 并相减，得</p>\n$$\n12u+12v=0\n$$\n<p>所以 $v=-u$. 再将 $A$ 代入椭圆方程，得</p>\n$$\n\\lambda=3(1+u)^{2}+(3-u)^{2}=12+4u^{2}\n$$\n<p>由于 $A$，$B$ 是两个不同的点，$u\\neq0$，故 $\\lambda>12$. 同时，$AB$ 的方向向量为 $(1,-1)$，且经过 $N(1,3)$，所以</p>\n$$\nAB:\\ x+y-4=0\n$$\n<p>线段 $AB$ 的垂直平分线经过 $N$，方向与 $(1,-1)$ 垂直，故其方程为 $y=x+2$. 设它与椭圆的交点为 $C=(s_{1},s_{1}+2)$，$D=(s_{2},s_{2}+2)$，则</p>\n$$\n4s^{2}+4s+4=\\lambda\n$$\n<p>从而 $s_{1}+s_{2}=-1$，$s_{1}s_{2}=1-\\frac{\\lambda}{4}$.</p><p>将该二次方程除以 $4$，得 $s^{2}+s+1-\\frac{\\lambda}{4}=0$，其判别式为 $\\lambda-3>0$，所以确有两个交点 $C$，$D$. 在两条相交直线 $AB$ 和 $CD$ 上分别计算以 $N$ 为端点的有向线段乘积：</p>\n$$\n\\overline{NA}\\,\\overline{NB}=-2u^{2}\n$$\n<p>而</p>\n$$\n\\overline{NC}\\,\\overline{ND}=2(s_{1}-1)(s_{2}-1)=2\\left(s_{1}s_{2}-s_{1}-s_{2}+1\\right)=6-\\frac{\\lambda}{2}=-2u^{2}\n$$\n<p>两乘积相等，根据相交弦定理的逆定理，四点 $A$，$B$，$C$，$D$ 共圆. 因此存在这样的 $\\lambda$，并且对所有 $\\lambda>12$，四点均共圆.</p>"
+          "solution": "<p>设 $\\overrightarrow{NA}=(u,v)$，则 $\\overrightarrow{NB}=(-u,-v)$，即 $A=(1+u,3+v)$，$B=(1-u,3-v)$. 因为 $A$，$B$ 都在椭圆上，分别代入 $3x^{2}+y^{2}=\\lambda$ 并相减，得</p>\n$$\n12u+12v=0\n$$\n<p>所以 $v=-u$. 再将 $A$ 代入椭圆方程，得</p>\n$$\n\\lambda=3(1+u)^{2}+(3-u)^{2}=12+4u^{2}\n$$\n<p>由于 $A$，$B$ 是两个不同的点，$u\\neq0$，故 $\\lambda>12$. 同时，$AB$ 的方向向量为 $(1,-1)$，且经过 $N(1,3)$，所以</p>\n$$\nAB:\\ x+y-4=0\n$$\n<p>线段 $AB$ 的垂直平分线经过 $N$，方向与 $(1,-1)$ 垂直，故其方程为 $y=x+2$. 设它与椭圆的交点为 $C=(s_{1},s_{1}+2)$，$D=(s_{2},s_{2}+2)$，则</p>\n$$\n4s^{2}+4s+4=\\lambda\n$$\n<p>从而 $s_{1}+s_{2}=-1$，$s_{1}s_{2}=1-\\frac{\\lambda}{4}$.</p><p>将该二次方程除以 $4$，得 $s^{2}+s+1-\\frac{\\lambda}{4}=0$，其判别式为 $\\lambda-3>0$，所以确有两个交点 $C$，$D$. 在两条相交直线 $AB$ 和 $CD$ 上分别计算以 $N$ 为端点的有向线段乘积：</p>\n$$\n\\overline{NA}\\,\\overline{NB}=-2u^{2}\n$$\n<p>而</p>\n$$\n\\overline{NC}\\,\\overline{ND}=2(s_{1}-1)(s_{2}-1)=2\\left(s_{1}s_{2}-s_{1}-s_{2}+1\\right)=6-\\frac{\\lambda}{2}=-2u^{2}\n$$\n<p>两乘积相等，根据相交弦定理的逆定理，四点 $A$，$B$，$C$，$D$ 共圆. 因此存在这样的 $\\lambda$，并且对所有 $\\lambda>12$，四点均共圆.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知不等式 $\\frac{1}{2}+ \\frac{1}{3}+ \\dots + \\frac{1}{n}> \\frac{1}{2}\\left[\\log_{2}n\\right]$，其中 $n$ 为大于 $2$ 的整数，$[\\log_{2}n]$ 表示不超过 $\\log_{2}n$ 的最大整数. 设数列 $\\{a_{n}\\}$ 的各项为正，且满足 $a_{1} = b$（$b > 0$），$a_{n} \\le \\frac{n a_{n-1}}{n + a_{n-1}}$，$n = 2$，$3$，$4$，$\\dots$.</p><ol class=\"enumerate\"><li><p>证明： $a_{n}< \\frac{2b}{2 + b[\\log_{2}n]}$，$n = 3$，$4$，$5$，$\\dots$；</p></li><li><p>猜测数列 $\\{a_{n}\\}$ 是否有极限？如果有，写出极限的值（不必证明）；</p></li><li><p>试确定一个正整数 $N$，使得当 $n > N$ 时，对任意 $b > 0$，都有 $a_{n}< \\frac{1}{5}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>令 $S_{n}=\\dfrac{1}{2}+\\dfrac{1}{3}+\\dots+\\dfrac{1}{n}$，并令 $L_{n}=\\left[\\log_{2}n\\right]$. 由数列各项为正以及递推不等式，取倒数可得</p>\n$$\n\\frac{1}{a_{n}}\\ge\\frac{n+a_{n-1}}{na_{n-1}}=\\frac{1}{a_{n-1}}+\\frac{1}{n}\n$$\n<p>连续使用这个不等式，得到</p>\n$$\n\\frac{1}{a_{n}}\\ge\\frac{1}{b}+S_{n}\n$$\n<ol class=\"enumerate\"><li><p>题设给出 $S_{n}>\\dfrac{1}{2}L_{n}$，所以</p>\n$$\na_{n}\\le\\frac{1}{\\frac{1}{b}+S_{n}}<\\frac{1}{\\frac{1}{b}+\\frac{1}{2}L_{n}}=\\frac{2b}{2+bL_{n}}\n$$\n<p>即 $a_{n}<\\frac{2b}{2+b\\left[\\log_{2}n\\right]}$，其中 $n=3$，$4$，$5$，$\\dots$.</p></li><li><p>由 $a_{n}\\le\\dfrac{na_{n-1}}{n+a_{n-1}}<a_{n-1}$，数列 $\\{a_{n}\\}$ 为正且递减，因而有极限. 另一方面，上一问的上界随 $n$ 趋于无穷大而趋于 $0$，故</p>\n$$\n\\lim_{n\\to\\infty}a_{n}=0\n$$\n</li><li><p>取 $N=1023$. 当 $n>N$ 时，$n\\geqslant1024=2^{10}$，从而 $L_{n}\\geqslant10$. 因此</p>\n$$\na_{n}<\\frac{2b}{2+bL_{n}}\\le\\frac{2b}{2+10b}<\\frac{1}{5}\n$$\n<p>其中最后一个不等式等价于 $10b<2+10b$，对任意 $b>0$ 均成立. 所以可取</p>\n$$\nN=1023\n$$\n</li></ol>"
+          "solution": "<p>令 $S_{n}=\\dfrac{1}{2}+\\dfrac{1}{3}+\\dots+\\dfrac{1}{n}$，并令 $L_{n}=\\left[\\log_{2}n\\right]$. 由数列各项为正以及递推不等式，取倒数可得</p>\n$$\n\\frac{1}{a_{n}}\\ge\\frac{n+a_{n-1}}{na_{n-1}}=\\frac{1}{a_{n-1}}+\\frac{1}{n}\n$$\n<p>连续使用这个不等式，得到</p>\n$$\n\\frac{1}{a_{n}}\\ge\\frac{1}{b}+S_{n}\n$$\n<ol class=\"enumerate\"><li><p>题设给出 $S_{n}>\\dfrac{1}{2}L_{n}$，所以</p>\n$$\na_{n}\\le\\frac{1}{\\frac{1}{b}+S_{n}}<\\frac{1}{\\frac{1}{b}+\\frac{1}{2}L_{n}}=\\frac{2b}{2+bL_{n}}\n$$\n<p>即 $a_{n}<\\frac{2b}{2+b\\left[\\log_{2}n\\right]}$，其中 $n=3$，$4$，$5$，$\\dots$.</p></li><li><p>由 $a_{n}\\le\\dfrac{na_{n-1}}{n+a_{n-1}}<a_{n-1}$，数列 $\\{a_{n}\\}$ 为正且递减，因而有极限. 另一方面，上一问的上界随 $n$ 趋于无穷大而趋于 $0$，故</p>\n$$\n\\lim_{n\\to\\infty}a_{n}=0\n$$\n</li><li><p>取 $N=1023$. 当 $n>N$ 时，$n\\geqslant1024=2^{10}$，从而 $L_{n}\\geqslant10$. 因此</p>\n$$\na_{n}<\\frac{2b}{2+bL_{n}}\\le\\frac{2b}{2+10b}<\\frac{1}{5}\n$$\n<p>其中最后一个不等式等价于 $10b<2+10b$，对任意 $b>0$ 均成立. 所以可取</p>\n$$\nN=1023\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

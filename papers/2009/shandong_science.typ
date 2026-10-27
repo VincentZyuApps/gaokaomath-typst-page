@@ -50,7 +50,9 @@
 #problem(4)[
 一空间几何体的三视图如图所示，则该几何体的体积为
 
-[max width=0.48\linewidth]img/2009/shandong_science/q4_fig1.png
+
+#align(center)[#image("/papers/2009/img/shandong_science/q4_fig1.png", width: 28%)]
+
 
 （ ）
   #choices([#mi(`2\pi + 2\sqrt{3}`)], [#mi(`4\pi + 2\sqrt{3}`)], [#mi(`2\pi + \frac{2\sqrt{3}}{3}`)], [#mi(`4\pi + \frac{2\sqrt{3}}{3}`)], cols: 1)
@@ -77,7 +79,15 @@
 
 #problem(6)[
 函数 #mi(`y = \dfrac{\mathrm{e}^x + \mathrm{e}^{-x}}{\mathrm{e}^x - \mathrm{e}^{-x}}`) 的图象大致为（ ）
-  #choices([[width=0.15\paperwidth]img/2009/shandong_science/q6_optA.png], [[width=0.15\paperwidth]img/2009/shandong_science/q6_optB.png], [[width=0.15\paperwidth]img/2009/shandong_science/q6_optC.png], [[width=0.15\paperwidth]img/2009/shandong_science/q6_optD.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2009/img/shandong_science/q6_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/shandong_science/q6_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/shandong_science/q6_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2009/img/shandong_science/q6_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
@@ -98,9 +108,11 @@
 ]
 
 #problem(8)[
-某工厂对一批产品进行了抽样检测. 如图是根据抽样检测后的产品净重（单位：克）数据绘制的频率分布直方图，其中产品净重的范围是#mi(`[96,106]`)，样本数据分组为#mi(`[96,98)`)，#mi(`[98,100)`)，#mi(`[100,102)`)，#mi(`[102,104)`)，#mi(`[104,106]`)，已知样本中产品净重小于#mi(`100\text{ \text{克}}`)的个数是#mi(`36`)，则样本中净重大于或等于#mi(`98\text{ \text{克}}`)并且小于#mi(`104\text{ \text{克}}`)的产品的个数是（ ）
+某工厂对一批产品进行了抽样检测. 如图是根据抽样检测后的产品净重（单位：克）数据绘制的频率分布直方图，其中产品净重的范围是#mi(`[96,106]`)，样本数据分组为#mi(`[96,98)`)，#mi(`[98,100)`)，#mi(`[100,102)`)，#mi(`[102,104)`)，#mi(`[104,106]`)，已知样本中产品净重小于#mi(`100\text{ \text{克}}`) 的个数是#mi(`36`)，则样本中净重大于或等于#mi(`98\text{ \text{克}}`) 并且小于#mi(`104\text{ \text{克}}`) 的产品的个数是（ ）
 
-[max width=0.40\linewidth]img/2009/shandong_science/q8_fig1.png
+
+#align(center)[#image("/papers/2009/img/shandong_science/q8_fig1.png", width: 28%)]
+
   #choices([#mi(`90`)], [#mi(`75`)], [#mi(`60`)], [#mi(`45`)], cols: 4)
 ]
 
@@ -189,7 +201,9 @@
 #problem(15)[
 执行如图的程序框图，输出的 #mi(`T=`)\underline{\hspace{2.5em}}.
 
-[max width=0.52\linewidth]img/2009/shandong_science/q15_fig1.png
+
+#align(center)[#image("/papers/2009/img/shandong_science/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`30`)])
@@ -231,7 +245,9 @@
 
 
 
-[max width=0.40\linewidth]img/2009/shandong_science/q18_fig1.png
+
+#align(center)[#image("/papers/2009/img/shandong_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -242,7 +258,7 @@
 ]
 
 #problem(19)[
-在某校组织的一次篮球定点投篮训练中，规定每人最多投#mi(`3\text{ \text{次}}`)；在 #mi(`A`) 处每投进一球得#mi(`3\text{ \text{分}}`)，在 #mi(`B`) 处每投进一球得#mi(`2\text{ \text{分}}`)；如果前两次得分之和超过#mi(`3\text{ \text{分}}`)即停止投篮，否则投第#mi(`3\text{ \text{次}}`). 某同学在 #mi(`A`) 处的命中率 #mi(`q_{1}`) 为 #mi(`0.25`)，在 #mi(`B`) 处的命中率为 #mi(`q_{2}`)，该同学选择先在 #mi(`A`) 处投一球，以后都在 #mi(`B`) 处投，用 #mi(`\xi`) 表示该同学投篮训练结束后所得的总分，其分布列为
+在某校组织的一次篮球定点投篮训练中，规定每人最多投#mi(`3\text{ \text{次}}`)；在 #mi(`A`) 处每投进一球得#mi(`3\text{ \text{分}}`)，在 #mi(`B`) 处每投进一球得#mi(`2\text{ \text{分}}`)；如果前两次得分之和超过#mi(`3\text{ \text{分}}`) 即停止投篮，否则投第#mi(`3\text{ \text{次}}`). 某同学在 #mi(`A`) 处的命中率 #mi(`q_{1}`) 为 #mi(`0.25`)，在 #mi(`B`) 处的命中率为 #mi(`q_{2}`)，该同学选择先在 #mi(`A`) 处投一球，以后都在 #mi(`B`) 处投，用 #mi(`\xi`) 表示该同学投篮训练结束后所得的总分，其分布列为
 
 #mi(`\xi`) & #mi(`0`) & #mi(`2`) & #mi(`3`) & #mi(`4`) & #mi(`5`) \\
 

@@ -1,8 +1,59 @@
 {
-  "title": "1977年普通高等学校招生全国统一考试",
-  "subtitle": "1977年江苏盐城地区初试卷",
   "year": "1977",
   "slug": "jiangsu_yancheng_region",
+  "title": "1977年江苏盐城地区初试卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "试题部分",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "试题部分",
@@ -10,58 +61,74 @@
         {
           "num": 1,
           "body": "<p>计算：</p><ol class=\"enumerate\"><li><p>$(-1)^{3}-\\left[\\left(-\\frac{1}{2}\\right)^{2}+4^{-\\frac{1}{2}}\\right]\\div\\left(\\frac{2}{3}\\right)^{-2}+\\left(\\frac{2}{9}\\right)^{0}$.</p></li><li><p>$\\log_{2}\\frac{1}{2}+\\log_{3}\\sqrt{3}+\\lg 0.01+\\lg 100$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $4^{-\\frac{1}{2}}=\\frac{1}{\\sqrt{4}}=\\frac{1}{2}$，$\\left(\\frac{2}{9}\\right)^{0}=1$，且 $\\left(\\frac{2}{3}\\right)^{-2}=\\left(\\frac{3}{2}\\right)^{2}=\\frac{9}{4}$，所以</p>\n$$\n(-1)^{3}-\\left[\\left(-\\frac{1}{2}\\right)^{2}+4^{-\\frac{1}{2}}\\right]\\div\\left(\\frac{2}{3}\\right)^{-2}+\\left(\\frac{2}{9}\\right)^{0}  =-1-\\left(\\frac{1}{4}+\\frac{1}{2}\\right)\\div\\frac{9}{4}+1  =-1-\\frac{3}{4}\\times\\frac{4}{9}+1=-\\frac{1}{3}\n$$\n</li><li><p>$\\log_{2}\\frac{1}{2}=-1$，$\\log_{3}\\sqrt{3}=\\frac{1}{2}$，$\\lg0.01=\\lg10^{-2}=-2$，$\\lg100=2$，所以原式</p>\n$$\n=-1+\\frac{1}{2}-2+2=-\\frac{1}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $4^{-\\frac{1}{2}}=\\frac{1}{\\sqrt{4}}=\\frac{1}{2}$，$\\left(\\frac{2}{9}\\right)^{0}=1$，且 $\\left(\\frac{2}{3}\\right)^{-2}=\\left(\\frac{3}{2}\\right)^{2}=\\frac{9}{4}$，所以</p>\n$$\n(-1)^{3}-\\left[\\left(-\\frac{1}{2}\\right)^{2}+4^{-\\frac{1}{2}}\\right]\\div\\left(\\frac{2}{3}\\right)^{-2}+\\left(\\frac{2}{9}\\right)^{0}  =-1-\\left(\\frac{1}{4}+\\frac{1}{2}\\right)\\div\\frac{9}{4}+1  =-1-\\frac{3}{4}\\times\\frac{4}{9}+1=-\\frac{1}{3}\n$$\n</li><li><p>$\\log_{2}\\frac{1}{2}=-1$，$\\log_{3}\\sqrt{3}=\\frac{1}{2}$，$\\lg0.01=\\lg10^{-2}=-2$，$\\lg100=2$，所以原式</p>\n$$\n=-1+\\frac{1}{2}-2+2=-\\frac{1}{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "<p>已知函数 $y=\\sqrt{12-x}+\\sqrt{2x+10}$.</p><ol class=\"enumerate\"><li><p>求自变量 $x$ 的取值范围.</p></li><li><p>求当 $x=4$ 时函数 $y$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>要使函数有意义，必须有 $12-x\\geqslant0$ 且 $2x+10\\geqslant0$，即 $x\\leqslant12$ 且 $x\\ge-5$，所以自变量 $x$ 的取值范围是 $[-5,12]$.</p></li><li><p>当 $x=4$ 时，$y=\\sqrt{8}+\\sqrt{18}=2\\sqrt{2}+3\\sqrt{2}=5\\sqrt{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>要使函数有意义，必须有 $12-x\\geqslant0$ 且 $2x+10\\geqslant0$，即 $x\\leqslant12$ 且 $x\\ge-5$，所以自变量 $x$ 的取值范围是 $[-5,12]$.</p></li><li><p>当 $x=4$ 时，$y=\\sqrt{8}+\\sqrt{18}=2\\sqrt{2}+3\\sqrt{2}=5\\sqrt{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "$m$ 为何值时，方程 $x^{2}-2x+m=0$ 有两个相等的实数根？并求出它的根.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>二次方程有两个相等的实数根，当且仅当判别式为零. 因此</p>\n$$\n\\Delta=(-2)^{2}-4m=4-4m=0\n$$\n<p>解得 $m=1$. 此时方程为 $x^{2}-2x+1=0$，即 $(x-1)^{2}=0$，所以它的两个相等的实数根都是 $x=1$.</p>"
+          "solution": "<p>二次方程有两个相等的实数根，当且仅当判别式为零. 因此</p>\n$$\n\\Delta=(-2)^{2}-4m=4-4m=0\n$$\n<p>解得 $m=1$. 此时方程为 $x^{2}-2x+1=0$，即 $(x-1)^{2}=0$，所以它的两个相等的实数根都是 $x=1$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
-          "body": "<p>从 $\\odot O$ 外一点 $A$ 作 $\\odot O$ 的两条切线 $AC$，$AD$，$C$，$D$ 为切点，连接 $CO$ 并延长交 $AD$ 的延长线于 $B$. 若 $AD=4\\mathrm{~cm}$，$DB=5\\mathrm{~cm}$，求 $\\odot O$ 的面积（$\\pi$ 不必取近似值）.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu_yancheng_region/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
-          "choices": null,
+          "body": "<p>从 $\\odot O$ 外一点 $A$ 作 $\\odot O$ 的两条切线 $AC$，$AD$，$C$，$D$ 为切点，连接 $CO$ 并延长交 $AD$ 的延长线于 $B$. 若 $AD=4\\mathrm{~cm}$，$DB=5\\mathrm{~cm}$，求 $\\odot O$ 的面积（$\\pi$ 不必取近似值）.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/jiangsu_yancheng_region/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>设圆的半径为 $r$. 以切点 $D$ 为原点，直线 $AD$ 为 $x$ 轴建立直角坐标系，则由半径垂直于切线可设 $D=(0,0)$，$O=(0,r)$，$A=(-4,0)$，$B=(5,0)$.</p><p>设 $C=(u,v)$. 因为 $C$ 在圆上，所以</p>\n$$\nu^{2}+(v-r)^{2}=r^{2} \\text{即}  u^{2}+v^{2}-2rv=0\n$$\n<p>又因为 $AC$ 是圆的切线，故 $AC\\perp OC$，从而</p>\n$$\n(-4-u,-v)\\cdot(u,v-r)=0\n$$\n<p>结合 $u^{2}+v^{2}=2rv$，上式化为 $4u+rv=0$，即 $u=-\\frac{rv}{4}$. 代入圆的方程，并注意 $C\\neq D$，得</p>\n$$\nv\\left(\\frac{r^{2}+16}{16}v-2r\\right)=0\n$$\n<p>因 $C\\neq D$，有 $v\\neq0$，故 $v=\\frac{32r}{r^{2}+16}$，再由 $u=-\\frac{rv}{4}$ 得 $u=-\\frac{8r^{2}}{r^{2}+16}$.</p><p>由于 $B$，$O$，$C$ 三点共线，直线 $BO$ 的斜率为 $-\\frac{r}{5}$，所以</p>\n$$\nv=-\\frac{r}{5}(u-5)=\\frac{r}{5}(5-u)\n$$\n<p>代入 $u$，$v$ 的表达式并约去 $r>0$，可得</p>\n$$\n\\frac{32}{r^{2}+16}=\\frac{1}{5}\\left(5+\\frac{8r^{2}}{r^{2}+16}\\right)\n$$\n<p>即 $160=5(r^{2}+16)+8r^{2}=13r^{2}+80$，因此 $r^{2}=\\frac{80}{13}$. 所以圆的面积为</p>\n$$\n\\pi r^{2}=\\frac{80\\pi}{13}\\mathrm{~cm}^{2}\n$$"
+          "solution": "<p>设圆的半径为 $r$. 以切点 $D$ 为原点，直线 $AD$ 为 $x$ 轴建立直角坐标系，则由半径垂直于切线可设 $D=(0,0)$，$O=(0,r)$，$A=(-4,0)$，$B=(5,0)$.</p><p>设 $C=(u,v)$. 因为 $C$ 在圆上，所以</p>\n$$\nu^{2}+(v-r)^{2}=r^{2} \\text{即}  u^{2}+v^{2}-2rv=0\n$$\n<p>又因为 $AC$ 是圆的切线，故 $AC\\perp OC$，从而</p>\n$$\n(-4-u,-v)\\cdot(u,v-r)=0\n$$\n<p>结合 $u^{2}+v^{2}=2rv$，上式化为 $4u+rv=0$，即 $u=-\\frac{rv}{4}$. 代入圆的方程，并注意 $C\\neq D$，得</p>\n$$\nv\\left(\\frac{r^{2}+16}{16}v-2r\\right)=0\n$$\n<p>因 $C\\neq D$，有 $v\\neq0$，故 $v=\\frac{32r}{r^{2}+16}$，再由 $u=-\\frac{rv}{4}$ 得 $u=-\\frac{8r^{2}}{r^{2}+16}$.</p><p>由于 $B$，$O$，$C$ 三点共线，直线 $BO$ 的斜率为 $-\\frac{r}{5}$，所以</p>\n$$\nv=-\\frac{r}{5}(u-5)=\\frac{r}{5}(5-u)\n$$\n<p>代入 $u$，$v$ 的表达式并约去 $r>0$，可得</p>\n$$\n\\frac{32}{r^{2}+16}=\\frac{1}{5}\\left(5+\\frac{8r^{2}}{r^{2}+16}\\right)\n$$\n<p>即 $160=5(r^{2}+16)+8r^{2}=13r^{2}+80$，因此 $r^{2}=\\frac{80}{13}$. 所以圆的面积为</p>\n$$\n\\pi r^{2}=\\frac{80\\pi}{13}\\mathrm{~cm}^{2}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "求以双曲线 $3x^{2}-2y^{2}=6$ 的顶点为焦点，焦点为顶点的椭圆的方程.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将双曲线方程化为标准形式，得 $\\frac{x^{2}}{2}-\\frac{y^{2}}{3}=1$. 因此双曲线的顶点为 $(\\pm\\sqrt{2},0)$，焦点为 $(\\pm\\sqrt{5},0)$，因为其焦半距的平方为 $2+3=5$.</p><p>所求椭圆以双曲线的焦点为顶点，所以椭圆的长半轴为 $a=\\sqrt{5}$；以双曲线的顶点为焦点，所以椭圆的焦半距为 $c=\\sqrt{2}$. 对椭圆有 $b^{2}=a^{2}-c^{2}$，从而 $b^{2}=5-2=3$. 因此所求椭圆的方程为</p>\n$$\n\\frac{x^{2}}{5}+\\frac{y^{2}}{3}=1\n$$"
+          "solution": "<p>将双曲线方程化为标准形式，得 $\\frac{x^{2}}{2}-\\frac{y^{2}}{3}=1$. 因此双曲线的顶点为 $(\\pm\\sqrt{2},0)$，焦点为 $(\\pm\\sqrt{5},0)$，因为其焦半距的平方为 $2+3=5$.</p><p>所求椭圆以双曲线的焦点为顶点，所以椭圆的长半轴为 $a=\\sqrt{5}$；以双曲线的顶点为焦点，所以椭圆的焦半距为 $c=\\sqrt{2}$. 对椭圆有 $b^{2}=a^{2}-c^{2}$，从而 $b^{2}=5-2=3$. 因此所求椭圆的方程为</p>\n$$\n\\frac{x^{2}}{5}+\\frac{y^{2}}{3}=1\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "若 $\\sin\\alpha$，$\\cos\\alpha$，$\\tan\\alpha$ 成等比数列，求证：$\\left(\\sin\\alpha+\\cos\\alpha+\\tan\\alpha\\right)\\left(\\sin\\alpha-\\cos\\alpha+\\tan\\alpha\\right)=\\frac{1}{\\cos^{2}\\alpha}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为 $\\tan\\alpha$ 有定义，所以 $\\cos\\alpha\\neq0$. 三个数 $\\sin\\alpha$，$\\cos\\alpha$，$\\tan\\alpha$ 成等比数列，故中间项的平方等于两端项的积，即</p>\n$$\n\\cos^{2}\\alpha=\\sin\\alpha\\tan\\alpha\n$$\n<p>于是</p>\n$$\n\\begin{gathered}\\left(\\sin\\alpha+\\cos\\alpha+\\tan\\alpha\\right)\\left(\\sin\\alpha-\\cos\\alpha+\\tan\\alpha\\right)\\\\\n\n=\\left(\\sin\\alpha+\\tan\\alpha\\right)^2-\\cos^2\\alpha\n\n=\\sin^2\\alpha+2\\sin\\alpha\\tan\\alpha+\\tan^2\\alpha-\\cos^2\\alpha\\\\\n\n=\\sin^2\\alpha+\\cos^2\\alpha+\\tan^2\\alpha\n\n=1+\\tan^2\\alpha=\\frac{1}{\\cos^{2}\\alpha}.\\end{gathered}\n$$\n<p>所以原等式成立.</p>"
+          "solution": "<p>因为 $\\tan\\alpha$ 有定义，所以 $\\cos\\alpha\\neq0$. 三个数 $\\sin\\alpha$，$\\cos\\alpha$，$\\tan\\alpha$ 成等比数列，故中间项的平方等于两端项的积，即</p>\n$$\n\\cos^{2}\\alpha=\\sin\\alpha\\tan\\alpha\n$$\n<p>于是</p>\n$$\n\\begin{gathered}\\left(\\sin\\alpha+\\cos\\alpha+\\tan\\alpha\\right)\\left(\\sin\\alpha-\\cos\\alpha+\\tan\\alpha\\right)\\\\\n\n=\\left(\\sin\\alpha+\\tan\\alpha\\right)^2-\\cos^2\\alpha\n\n=\\sin^2\\alpha+2\\sin\\alpha\\tan\\alpha+\\tan^2\\alpha-\\cos^2\\alpha\\\\\n\n=\\sin^2\\alpha+\\cos^2\\alpha+\\tan^2\\alpha\n\n=1+\\tan^2\\alpha=\\frac{1}{\\cos^{2}\\alpha}.\\end{gathered}\n$$\n<p>所以原等式成立.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
-          "body": "<p>在边长为 $1$ 的正方形 $ABCD$ 内，作内接正方形 $A_{1}B_{1}C_{1}D_{1}$.</p><ol class=\"enumerate\"><li><p>在什么情况下，正方形 $A_{1}B_{1}C_{1}D_{1}$ 的面积最小？最小值是多少？</p></li><li><p>在正方形 $A_{1}B_{1}C_{1}D_{1}$ 内，再作面积最小的内接正方形 $A_{2}B_{2}C_{2}D_{2}$，$\\ldots$，如果继续下去，求第 $n$ 个面积最小的内接正方形的面积.</p></li><li><p>这样无限制地作下去，可以得到一系列的内接正方形，求它们的面积之和.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu_yancheng_region/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>在边长为 $1$ 的正方形 $ABCD$ 内，作内接正方形 $A_{1}B_{1}C_{1}D_{1}$.</p><ol class=\"enumerate\"><li><p>在什么情况下，正方形 $A_{1}B_{1}C_{1}D_{1}$ 的面积最小？最小值是多少？</p></li><li><p>在正方形 $A_{1}B_{1}C_{1}D_{1}$ 内，再作面积最小的内接正方形 $A_{2}B_{2}C_{2}D_{2}$，$\\ldots$，如果继续下去，求第 $n$ 个面积最小的内接正方形的面积.</p></li><li><p>这样无限制地作下去，可以得到一系列的内接正方形，求它们的面积之和.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/jiangsu_yancheng_region/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设正方形 $ABCD$ 的顶点坐标为 $B=(0,0)$，$C=(1,0)$，$D=(1,1)$，$A=(0,1)$. 设 $A_{1}=(0,x)$，$B_{1}=(y,0)$，其中 $0\\le x$，$y\\leqslant1$. 则</p>\n$$\n\\overrightarrow{A_1B_1}=(y,-x)\n$$\n<p>由于 $A_{1}B_{1}C_{1}D_{1}$ 是正方形，$\\overrightarrow{B_1C_1}$ 是 $\\overrightarrow{A_1B_1}$ 逆时针旋转 $90^{\\circ}$ 所得，故 $\\overrightarrow{B_1C_1}=(x,y)$. 又因为 $C_{1}$ 在直线 $CD$ 上，其横坐标为 $1$，所以 $x+y=1$.</p><p>内接正方形的面积等于边长的平方，因此</p>\n$$\nS_{1}=A_{1}B_{1}^{2}=x^{2}+y^{2}=\\frac{(x+y)^{2}+(x-y)^{2}}{2}=\\frac{1+(x-y)^{2}}{2}\\ge\\frac{1}{2}\n$$\n<p>当且仅当 $x=y=\\frac{1}{2}$ 时取等号，此时四个顶点分别是外正方形四边的中点，且最小面积为 $\\frac{1}{2}$.</p></li><li><p>设某一个正方形的面积为 $S$. 由第（1）问，对它作出的面积最小的内接正方形面积为 $\\frac{S}{2}$. 外正方形 $ABCD$ 的面积为 $1$，故第 $n$ 个面积最小的内接正方形面积为</p><p>$S_{n}=\\left(\\frac{1}{2}\\right)^{n}$，$n\\geqslant1$.</p></li><li><p>这些正方形的面积构成首项为 $\\frac{1}{2}$、公比为 $\\frac{1}{2}$ 的无穷等比数列，所以面积之和为</p>\n$$\n\\sum_{n=1}^{\\infty}S_{n}=\\frac{\\frac{1}{2}}{1-\\frac{1}{2}}=1\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设正方形 $ABCD$ 的顶点坐标为 $B=(0,0)$，$C=(1,0)$，$D=(1,1)$，$A=(0,1)$. 设 $A_{1}=(0,x)$，$B_{1}=(y,0)$，其中 $0\\le x$，$y\\leqslant1$. 则</p>\n$$\n\\overrightarrow{A_1B_1}=(y,-x)\n$$\n<p>由于 $A_{1}B_{1}C_{1}D_{1}$ 是正方形，$\\overrightarrow{B_1C_1}$ 是 $\\overrightarrow{A_1B_1}$ 逆时针旋转 $90^{\\circ}$ 所得，故 $\\overrightarrow{B_1C_1}=(x,y)$. 又因为 $C_{1}$ 在直线 $CD$ 上，其横坐标为 $1$，所以 $x+y=1$.</p><p>内接正方形的面积等于边长的平方，因此</p>\n$$\nS_{1}=A_{1}B_{1}^{2}=x^{2}+y^{2}=\\frac{(x+y)^{2}+(x-y)^{2}}{2}=\\frac{1+(x-y)^{2}}{2}\\ge\\frac{1}{2}\n$$\n<p>当且仅当 $x=y=\\frac{1}{2}$ 时取等号，此时四个顶点分别是外正方形四边的中点，且最小面积为 $\\frac{1}{2}$.</p></li><li><p>设某一个正方形的面积为 $S$. 由第（1）问，对它作出的面积最小的内接正方形面积为 $\\frac{S}{2}$. 外正方形 $ABCD$ 的面积为 $1$，故第 $n$ 个面积最小的内接正方形面积为</p><p>$S_{n}=\\left(\\frac{1}{2}\\right)^{n}$，$n\\geqslant1$.</p></li><li><p>这些正方形的面积构成首项为 $\\frac{1}{2}$、公比为 $\\frac{1}{2}$ 的无穷等比数列，所以面积之和为</p>\n$$\n\\sum_{n=1}^{\\infty}S_{n}=\\frac{\\frac{1}{2}}{1-\\frac{1}{2}}=1\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "在 $\\triangle ABC$ 中，最大角是最小角 $C$ 的二倍，其三边 $a$，$b$，$c$ 成等差数列，求证：这个三角形是锐角三角形.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设最小角 $C=\\gamma$. 由题意，最大角为 $2\\gamma$，第三个角为 $\\pi-3\\gamma$. 因为 $\\gamma$ 是最小角，且 $2\\gamma$ 是最大角，所以</p>\n$$\n\\gamma\\le\\pi-3\\gamma\\leqslant2\\gamma\n$$\n<p>由左边不等式得 $\\gamma\\le\\frac{\\pi}{4}$.</p><p>若 $\\gamma=\\frac{\\pi}{4}$，则三角形的三个角为 $\\frac{\\pi}{4}$，$\\frac{\\pi}{4}$，$\\frac{\\pi}{2}$. 由正弦定理，与前两个相等角对应的两边相等，而与 $\\frac{\\pi}{2}$ 对应的边较长，因此三边中有两个相等且另一个较大. 三个数成等差数列时，若其中两个数相等，则公差必须为零，三个数应全部相等，矛盾. 所以 $\\gamma<\\frac{\\pi}{4}$.</p><p>因此最大角 $2\\gamma<\\frac{\\pi}{2}$，三角形的三个内角都小于 $\\frac{\\pi}{2}$，所以这个三角形是锐角三角形.</p>"
+          "solution": "<p>设最小角 $C=\\gamma$. 由题意，最大角为 $2\\gamma$，第三个角为 $\\pi-3\\gamma$. 因为 $\\gamma$ 是最小角，且 $2\\gamma$ 是最大角，所以</p>\n$$\n\\gamma\\le\\pi-3\\gamma\\leqslant2\\gamma\n$$\n<p>由左边不等式得 $\\gamma\\le\\frac{\\pi}{4}$.</p><p>若 $\\gamma=\\frac{\\pi}{4}$，则三角形的三个角为 $\\frac{\\pi}{4}$，$\\frac{\\pi}{4}$，$\\frac{\\pi}{2}$. 由正弦定理，与前两个相等角对应的两边相等，而与 $\\frac{\\pi}{2}$ 对应的边较长，因此三边中有两个相等且另一个较大. 三个数成等差数列时，若其中两个数相等，则公差必须为零，三个数应全部相等，矛盾. 所以 $\\gamma<\\frac{\\pi}{4}$.</p><p>因此最大角 $2\\gamma<\\frac{\\pi}{2}$，三角形的三个内角都小于 $\\frac{\\pi}{2}$，所以这个三角形是锐角三角形.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

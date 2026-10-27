@@ -350,7 +350,9 @@ E(\xi)\leqslant4(1-p_{5})+5p_{5}=4+p_{5}
 #problem(16)[
 如图，#mi(`4`) 个棱长为 #mi(`1`) 的正方体排成一个正四棱柱，#mi(`AB`) 是一条侧棱，#mi(`P_{i}`) （#mi(`i=1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`8`)） 是上底面上其余的八个点，则 #mi(`\overrightarrow{AB}\cdot \overrightarrow{AP_{i}}`) （#mi(`i=1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`8`)） 的不同值的个数为（ ）
 
-[max width=0.42\linewidth]img/2014/shanghai_science/q16_fig1.png
+
+#align(center)[#image("/papers/2014/img/shanghai_science/q16_fig1.png", width: 28%)]
+
   #choices([1], [2], [4], [8], cols: 4)
 ]
 
@@ -447,7 +449,9 @@ a^{2}\le a+2  \iff (a-2)(a+1)\leqslant0
 #problem(19)[
 底面边长为 #mi(`2`) 的正三棱锥 #mi(`P-ABC`)，其表面展开图是三角形 #mi(`P_{1}P_{2}P_{3}`)，如图，求 #mi(`\triangle P_{1}P_{2}P_{3}`) 的各边长及此三棱锥的体积 #mi(`V`).
 
-[max width=0.34\linewidth]img/2014/shanghai_science/q19_fig1.png
+
+#align(center)[#image("/papers/2014/img/shanghai_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -500,7 +504,9 @@ V=\frac{1}{3}S_{\triangle ABC}\cdot h  =\frac{1}{3}\cdot\sqrt{3}\cdot\frac{2\sqr
 
 
 
-[max width=0.56\linewidth]img/2014/shanghai_science/q21_fig1.png
+
+#align(center)[#image("/papers/2014/img/shanghai_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

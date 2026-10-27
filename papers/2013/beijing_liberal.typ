@@ -82,7 +82,9 @@
 #problem(6)[
 执行如图所示的程序框图，输出的 #mi(`S`) 值为（ ）
 
-[max width=0.30\linewidth]img/2013/beijing_liberal/q6_fig1.png
+
+#align(center)[#image("/papers/2013/img/beijing_liberal/q6_fig1.png", width: 28%)]
+
   #choices([#mi(`1`)], [#mi(`\frac{2}{3}`)], [#mi(`\frac{13}{21}`)], [#mi(`\frac{610}{987}`)], cols: 2)
 ]
 
@@ -120,7 +122,9 @@
 #problem(8)[
 如图，在正方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`P`) 为对角线 #mi(`BD_{1}`) 的三等分点，#mi(`P`) 到各顶点的距离的不同取值有（ ）
 
-[max width=0.32\linewidth]img/2013/beijing_liberal/q8_fig1.png
+
+#align(center)[#image("/papers/2013/img/beijing_liberal/q8_fig1.png", width: 28%)]
+
   #choices([#mi(`3`) 个], [#mi(`4`) 个], [#mi(`5`) 个], [#mi(`6`) 个], cols: 4)
 ]
 
@@ -161,7 +165,9 @@
 #problem(10)[
 某四棱锥的三视图如图所示，该四棱锥的体积为\underline{\hspace{2.5em}}.
 
-[max width=0.34\linewidth]img/2013/beijing_liberal/q10_fig1.png
+
+#align(center)[#image("/papers/2013/img/beijing_liberal/q10_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`3`)])
@@ -242,7 +248,9 @@
 
 
 
-[max width=0.62\linewidth]img/2013/beijing_liberal/q16_fig1.png
+
+#align(center)[#image("/papers/2013/img/beijing_liberal/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -261,7 +269,9 @@
 
 
 
-[max width=0.34\linewidth]img/2013/beijing_liberal/q17_fig1.png
+
+#align(center)[#image("/papers/2013/img/beijing_liberal/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[

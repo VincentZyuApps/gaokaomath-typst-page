@@ -83,7 +83,15 @@
 
 #problem(6)[
 当 #mi(`a\neq 0`) 时，函数 #mi(`y=ax+b`) 和 #mi(`y=b^{ax}`) 的图象只可能是（ ）
-  #choices([[width=0.15\paperwidth]img/1995/shanghai_liberal/q6_optA_nolabel.png], [[width=0.15\paperwidth]img/1995/shanghai_liberal/q6_optB_nolabel.png], [[width=0.15\paperwidth]img/1995/shanghai_liberal/q6_optC_nolabel.png], [[width=0.15\paperwidth]img/1995/shanghai_liberal/q6_optD_nolabel.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/1995/img/shanghai_liberal/q6_optA_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1995/img/shanghai_liberal/q6_optB_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1995/img/shanghai_liberal/q6_optC_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1995/img/shanghai_liberal/q6_optD_nolabel.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
@@ -347,7 +355,7 @@ y'=\frac{1}{2}\left(\cos\frac{x}{2}-\sin\frac{x}{2}\right)=\frac{\sqrt{2}}{2}\co
 ]
 
 #problem(19)[
-从#mi(`6\text{ \text{台}}`)原装计算机和#mi(`5\text{ \text{台}}`)组装计算机中任意选取#mi(`5\text{ \text{台}}`)，其中至少有原装与组装计算机各#mi(`2\text{ \text{台}}`)，则不同的选取法有\underline{\hspace{2.5em}} 种（结果用数值表示）.
+从#mi(`6\text{ \text{台}}`) 原装计算机和#mi(`5\text{ \text{台}}`) 组装计算机中任意选取#mi(`5\text{ \text{台}}`)，其中至少有原装与组装计算机各#mi(`2\text{ \text{台}}`)，则不同的选取法有\underline{\hspace{2.5em}} 种（结果用数值表示）.
 ]
 
 #answer([#mi(`350`)])
@@ -408,7 +416,7 @@ V=\frac{1}{3}\pi R^{2}h=12\pi\approx37.70\text{ \text{立方分米}}
 ]
 
 #problem(22)[
-从#mi(`6\text{ \text{台}}`)原装计算机和#mi(`5\text{ \text{台}}`)组装计算机中任意选取#mi(`5\text{ \text{台}}`)，其中至少有原装与组装计算机各#mi(`2\text{ \text{台}}`)的概率是\underline{\hspace{2.5em}}.
+从#mi(`6\text{ \text{台}}`) 原装计算机和#mi(`5\text{ \text{台}}`) 组装计算机中任意选取#mi(`5\text{ \text{台}}`)，其中至少有原装与组装计算机各#mi(`2\text{ \text{台}}`) 的概率是\underline{\hspace{2.5em}}.
 ]
 
 #answer([#mi(`\frac{25}{33}`)（或 #mi(`0.76`)）])
@@ -515,7 +523,9 @@ V=\frac{1}{3}\pi R^{2}h=12\pi\approx37.70\text{ \text{立方分米}}
 
 
 
-[max width=0.42\linewidth]img/1995/shanghai_liberal/q21_fig1.png
+
+#align(center)[#image("/papers/1995/img/shanghai_liberal/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -543,7 +553,9 @@ V=\frac{1}{3}\pi R^{2}h=12\pi\approx37.70\text{ \text{立方分米}}
 
 
 
-[max width=0.34\linewidth]img/1995/shanghai_liberal/q23_fig1.png
+
+#align(center)[#image("/papers/1995/img/shanghai_liberal/q23_fig1.png", width: 28%)]
+
 ]
 
 #solution[

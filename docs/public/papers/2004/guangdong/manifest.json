@@ -1,8 +1,143 @@
 {
-  "title": "2004年普通高等学校招生全国统一考试",
-  "subtitle": "2004年广东卷",
   "year": "2004",
   "slug": "guangdong",
+  "title": "2004年广东卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$3$"
           ],
           "answer": "C",
-          "solution": "由 $\\mathbf{a}\\perp \\mathbf{b}$，得 $\\mathbf{a}\\cdot\\mathbf{b}=0$，即 $3x+1\\cdot(-3)=0$. 解得 $x=1$，故选 C."
+          "solution": "由 $\\mathbf{a}\\perp \\mathbf{b}$，得 $\\mathbf{a}\\cdot\\mathbf{b}=0$，即 $3x+1\\cdot(-3)=0$. 解得 $x=1$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$(-\\infty, -3] \\cup (1, 2]$"
           ],
           "answer": "A",
-          "solution": "由 $|2x+1|>3$，得 $2x+1>3$ 或 $2x+1<-3$，所以 $x>1$ 或 $x<-2$，即 $A=(-\\infty,-2)\\cup(1,+\\infty)$. 又由 $x^{2}+x\\leqslant6$，得 $(x+3)(x-2)\\leqslant0$，所以 $B=[-3,2]$. 因此 $A\\cap B=[-3,-2)\\cup(1,2]$，故选 A."
+          "solution": "由 $|2x+1|>3$，得 $2x+1>3$ 或 $2x+1<-3$，所以 $x>1$ 或 $x<-2$，即 $A=(-\\infty,-2)\\cup(1,+\\infty)$. 又由 $x^{2}+x\\leqslant6$，得 $(x+3)(x-2)\\leqslant0$，所以 $B=[-3,2]$. 因此 $A\\cap B=[-3,-2)\\cup(1,2]$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$\\frac{1}{3}$"
           ],
           "answer": "C",
-          "solution": "当 $x>2$ 时，$f(x)=\\dfrac{3x+2}{(x-2)(x+2)}-\\dfrac{2(x+2)}{(x-2)(x+2)}=\\dfrac{1}{x+2}$. 因而 $\\displaystyle\\lim_{x\\to2^+}f(x)=\\dfrac{1}{4}$. 函数在 $x=2$ 处连续，故 $a=f(2)=\\dfrac{1}{4}$，所以选 C."
+          "solution": "当 $x>2$ 时，$f(x)=\\dfrac{3x+2}{(x-2)(x+2)}-\\dfrac{2(x+2)}{(x-2)(x+2)}=\\dfrac{1}{x+2}$. 因而 $\\displaystyle\\lim_{x\\to2^+}f(x)=\\dfrac{1}{4}$. 函数在 $x=2$ 处连续，故 $a=f(2)=\\dfrac{1}{4}$，所以选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$1$"
           ],
           "answer": "A",
-          "solution": "括号内的分子可按相邻两项分组，得到 $(1-2)+(3-4)+\\cdots+((2n-1)-2n)=-n$. 因此原式为 $\\displaystyle\\lim_{n\\to\\infty}\\frac{-n}{n+1}=-1$，故选 A."
+          "solution": "括号内的分子可按相邻两项分组，得到 $(1-2)+(3-4)+\\cdots+((2n-1)-2n)=-n$. 因此原式为 $\\displaystyle\\lim_{n\\to\\infty}\\frac{-n}{n+1}=-1$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "周期为 $2\\pi$ 的奇函数"
           ],
           "answer": "B",
-          "solution": "利用恒等式 $\\sin^{2}u-\\sin^{2}v=\\sin(u+v)\\sin(u-v)$，取 $u=x+\\dfrac\\pi4$，$v=x-\\dfrac\\pi4$，得 $f(x)=\\sin2x$. 函数 $\\sin2x$ 的最小正周期为 $\\pi$，且 $f(-x)=-f(x)$，所以它是周期为 $\\pi$ 的奇函数，故选 B."
+          "solution": "利用恒等式 $\\sin^{2}u-\\sin^{2}v=\\sin(u+v)\\sin(u-v)$，取 $u=x+\\dfrac\\pi4$，$v=x-\\dfrac\\pi4$，得 $f(x)=\\sin2x$. 函数 $\\sin2x$ 的最小正周期为 $\\pi$，且 $f(-x)=-f(x)$，所以它是周期为 $\\pi$ 的奇函数，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$0.9728$"
           ],
           "answer": "D",
-          "solution": "<p>设一小时内需要工人照看的机床数为随机变量 $X$. 单台机床需要照看的概率为 $1-0.8000=0.2$，所以 $X\\sim B(4,0.2)$. 因而</p><p>$P(X\\leqslant2)=P(X=0)+P(X=1)+P(X=2)=0.8^{4}+\\mathrm{C}_{4}^{1}(0.2)(0.8)^{3}+\\mathrm{C}_{4}^{2}(0.2)^{2}(0.8)^{2}=0.4096+0.4096+0.1536=0.9728$，故选 D.</p>"
+          "solution": "<p>设一小时内需要工人照看的机床数为随机变量 $X$. 单台机床需要照看的概率为 $1-0.8000=0.2$，所以 $X\\sim B(4,0.2)$. 因而</p><p>$P(X\\leqslant2)=P(X=0)+P(X=1)+P(X=2)=0.8^{4}+\\mathrm{C}_{4}^{1}(0.2)(0.8)^{3}+\\mathrm{C}_{4}^{2}(0.2)^{2}(0.8)^{2}=0.4096+0.4096+0.1536=0.9728$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$\\frac{5}{6}$"
           ],
           "answer": "D",
-          "solution": "每个被截去的三棱锥的三条互相垂直的棱长均为 $\\dfrac{1}{2}$，故其体积为 $\\dfrac{1}{6}\\left(\\dfrac{1}{2}\\right)^{3}=\\dfrac1{48}$. 共截去 $8$ 个三棱锥，截去的体积为 $\\dfrac{1}{6}$，所以剩余凸多面体的体积为 $1-\\dfrac{1}{6}=\\dfrac{5}{6}$，故选 D."
+          "solution": "每个被截去的三棱锥的三条互相垂直的棱长均为 $\\dfrac{1}{2}$，故其体积为 $\\dfrac{1}{6}\\left(\\dfrac{1}{2}\\right)^{3}=\\dfrac1{48}$. 共截去 $8$ 个三棱锥，截去的体积为 $\\dfrac{1}{6}$，所以剩余凸多面体的体积为 $1-\\dfrac{1}{6}=\\dfrac{5}{6}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$4$"
           ],
           "answer": "A",
-          "solution": "将双曲线化为标准方程 $\\dfrac{x^2}{\\frac{k}{2}}-\\dfrac{y^2}{k}=1$，故 $a^{2}=\\dfrac{k}{2}$，$b^{2}=k$，$c^{2}=a^{2}+b^{2}=\\dfrac{3k}{2}$，离心率 $e=\\dfrac{c}{a}=\\sqrt{3}$. 右焦点到相应准线的距离为 $c-\\dfrac{a}{e}=c-\\dfrac{a^2}{c}=\\dfrac{b^2}{c}=\\sqrt{\\dfrac{2k}{3}}$. 由题意 $\\sqrt{\\dfrac{2k}{3}}=2$，得 $k=6$，故选 A."
+          "solution": "将双曲线化为标准方程 $\\dfrac{x^2}{\\frac{k}{2}}-\\dfrac{y^2}{k}=1$，故 $a^{2}=\\dfrac{k}{2}$，$b^{2}=k$，$c^{2}=a^{2}+b^{2}=\\dfrac{3k}{2}$，离心率 $e=\\dfrac{c}{a}=\\sqrt{3}$. 右焦点到相应准线的距离为 $c-\\dfrac{a}{e}=c-\\dfrac{a^2}{c}=\\dfrac{b^2}{c}=\\sqrt{\\dfrac{2k}{3}}$. 由题意 $\\sqrt{\\dfrac{2k}{3}}=2$，得 $k=6$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +264,9 @@
             "$\\frac{1}{4}$"
           ],
           "answer": "A",
-          "solution": "<p>令 $t=\\tan x$，则 $0<t<1$，并且</p><p>$f(x)=\\dfrac{\\cos^2x}{\\cos^2x(\\tan x-\\tan^2x)}=\\dfrac{1}{t(1-t)}$. 由于 $(t-\\dfrac{1}{2})^{2}\\geqslant0$，有 $t(1-t)\\le\\dfrac{1}{4}$，且分母为正，所以 $f(x)\\geqslant4$. 当 $t=\\dfrac{1}{2}$，即 $x=\\arctan\\dfrac{1}{2}$ 时取等号，故最小值为 $4$，选 A.</p>"
+          "solution": "<p>令 $t=\\tan x$，则 $0<t<1$，并且</p><p>$f(x)=\\dfrac{\\cos^2x}{\\cos^2x(\\tan x-\\tan^2x)}=\\dfrac{1}{t(1-t)}$. 由于 $(t-\\dfrac{1}{2})^{2}\\geqslant0$，有 $t(1-t)\\le\\dfrac{1}{4}$，且分母为正，所以 $f(x)\\geqslant4$. 当 $t=\\dfrac{1}{2}$，即 $x=\\arctan\\dfrac{1}{2}$ 时取等号，故最小值为 $4$，选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +278,9 @@
             "$(6,4)$"
           ],
           "answer": "B",
-          "solution": "由 $2x+3y=24$，得 $y=8-\\dfrac{2}{3}x$. 代入不等式 $2x+y\\geqslant12$，得 $x\\geqslant3$；代入不等式 $2x+9y\\geqslant36$，得 $x\\leqslant9$. 再结合 $x\\geqslant0$，$y\\geqslant0$，可知 $3\\le x\\leqslant9$. 此时 $z=3x+2y=3x+2\\left(8-\\dfrac{2}{3}x\\right)=\\dfrac{5}{3}x+16$，随 $x$ 增大而增大，故在 $x=3$ 时取最小值，此时 $y=6$，所以选 B."
+          "solution": "由 $2x+3y=24$，得 $y=8-\\dfrac{2}{3}x$. 代入不等式 $2x+y\\geqslant12$，得 $x\\geqslant3$；代入不等式 $2x+9y\\geqslant36$，得 $x\\leqslant9$. 再结合 $x\\geqslant0$，$y\\geqslant0$，可知 $3\\le x\\leqslant9$. 此时 $z=3x+2y=3x+2\\left(8-\\dfrac{2}{3}x\\right)=\\dfrac{5}{3}x+16$，随 $x$ 增大而增大，故在 $x=3$ 时取最小值，此时 $y=6$，所以选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,11 +292,13 @@
             "$f(0) > f(-1) > f(1)$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $0<1-\\dfrac\\pi4<\\dfrac\\pi4$，所以</p><p>$f(-1)=\\tan\\left(-\\left(1-\\dfrac\\pi4\\right)\\right)$ 介于 $-1$ 与 $0$ 之间，且</p><p>$f(1)=\\tan\\left(\\dfrac\\pi2+1-\\dfrac\\pi4\\right)=-\\cot\\left(1-\\dfrac\\pi4\\right)<-1$. 另外 $f(0)=\\tan\\dfrac\\pi4=1$，故 $f(0)>f(-1)>f(1)$，所以选 D.</p>"
+          "solution": "<p>因为 $0<1-\\dfrac\\pi4<\\dfrac\\pi4$，所以</p><p>$f(-1)=\\tan\\left(-\\left(1-\\dfrac\\pi4\\right)\\right)$ 介于 $-1$ 与 $0$ 之间，且</p><p>$f(1)=\\tan\\left(\\dfrac\\pi2+1-\\dfrac\\pi4\\right)=-\\cot\\left(1-\\dfrac\\pi4\\right)<-1$. 另外 $f(0)=\\tan\\dfrac\\pi4=1$，故 $f(0)>f(-1)>f(1)$，所以选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
-          "body": "<p>如图，定圆半径为 $a$，圆心为 $(b, c)$，则直线 $ax + by + c = 0$ 与直线 $x - y + 1 = 0$ 的交点在（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，定圆半径为 $a$，圆心为 $(b, c)$，则直线 $ax + by + c = 0$ 与直线 $x - y + 1 = 0$ 的交点在（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/guangdong/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "第四象限",
             "第三象限",
@@ -149,7 +306,9 @@
             "第一象限"
           ],
           "answer": "B",
-          "solution": "<p>由图可知圆在 $y$ 轴左侧，且圆心在 $x$ 轴上方、圆与 $x$ 轴相交，因此 $b+a<0$ 且 $0<c<a$. 联立两直线，取 $y=x+1$ 代入 $ax+by+c=0$，得</p><p>$x=-\\dfrac{b+c}{a+b}$，$y=\\dfrac{a-c}{a+b}$. 因为 $a+b<0$，又因 $b<-a<-c$ 从而 $b+c<0$，所以 $x<0$；同时 $a-c>0$，所以 $y<0$. 交点在第三象限，故选 B.</p>"
+          "solution": "<p>由图可知圆在 $y$ 轴左侧，且圆心在 $x$ 轴上方、圆与 $x$ 轴相交，因此 $b+a<0$ 且 $0<c<a$. 联立两直线，取 $y=x+1$ 代入 $ax+by+c=0$，得</p><p>$x=-\\dfrac{b+c}{a+b}$，$y=\\dfrac{a-c}{a+b}$. 因为 $a+b<0$，又因 $b<-a<-c$ 从而 $b+c<0$，所以 $x<0$；同时 $a-c>0$，所以 $y<0$. 交点在第三象限，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +318,38 @@
         {
           "num": 13,
           "body": "某班委会由 $4$ 名男生与 $3$ 名女生组成，现从中选出 $2$ 人担任正副班长，其中至少有 $1$ 名女生当选的概率是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（用分数作答）",
-          "choices": null,
-          "answer": "$\\dfrac{5}{7}$",
-          "solution": "<p>从 $7$ 人中选出 $2$ 人的所有选法数为 $\\mathrm{C}_{7}^{2}$，两名男生同时当选的选法数为 $\\mathrm{C}_{4}^{2}$. 因此至少有 $1$ 名女生当选的概率为</p><p>$1-\\frac{\\mathrm{C}_{4}^{2}}{\\mathrm{C}_{7}^{2}}=1-\\frac{6}{21}=\\dfrac{5}{7}$，</p><p>因此所求概率为 $\\dfrac{5}{7}$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{5}{7}\\)",
+          "solution": "<p>从 $7$ 人中选出 $2$ 人的所有选法数为 $\\mathrm{C}_{7}^{2}$，两名男生同时当选的选法数为 $\\mathrm{C}_{4}^{2}$. 因此至少有 $1$ 名女生当选的概率为</p><p>$1-\\frac{\\mathrm{C}_{4}^{2}}{\\mathrm{C}_{7}^{2}}=1-\\frac{6}{21}=\\dfrac{5}{7}$，</p><p>因此所求概率为 $\\dfrac{5}{7}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知复数 $z$ 与 $(z + 2)^{2}- 8\\mathrm{i}$ 均是纯虚数，则 $z =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-2\\mathrm{i}$",
-          "solution": "<p>设 $z=u+v\\mathrm{i}$，其中 $u$，$v\\in\\mathbb{R}$. 因为 $z$ 是纯虚数，所以 $u=0$，从而 $z=v\\mathrm{i}$，且 $v\\ne0$. 于是</p><p>$(z+2)^{2}-8\\mathrm{i}=(2+v\\mathrm{i})^{2}-8\\mathrm{i}=(4-v^{2})+(4v-8)\\mathrm{i}$.</p><p>这个复数是纯虚数，故其实部为零，即</p><p>$4-v^{2}=0$.</p><p>因此 $v=2$ 或 $v=-2$. 当 $v=2$ 时，$(z+2)^{2}-8\\mathrm{i}=0$，不是纯虚数，舍去；当 $v=-2$ 时，$(z+2)^{2}-8\\mathrm{i}=-16\\mathrm{i}$，符合条件. 因此</p><p>$z=-2\\mathrm{i}$.</p>"
+          "choices": [],
+          "answer": "\\(-2\\mathrm{i}\\)",
+          "solution": "<p>设 $z=u+v\\mathrm{i}$，其中 $u$，$v\\in\\mathbb{R}$. 因为 $z$ 是纯虚数，所以 $u=0$，从而 $z=v\\mathrm{i}$，且 $v\\ne0$. 于是</p><p>$(z+2)^{2}-8\\mathrm{i}=(2+v\\mathrm{i})^{2}-8\\mathrm{i}=(4-v^{2})+(4v-8)\\mathrm{i}$.</p><p>这个复数是纯虚数，故其实部为零，即</p><p>$4-v^{2}=0$.</p><p>因此 $v=2$ 或 $v=-2$. 当 $v=2$ 时，$(z+2)^{2}-8\\mathrm{i}=0$，不是纯虚数，舍去；当 $v=-2$ 时，$(z+2)^{2}-8\\mathrm{i}=-16\\mathrm{i}$，符合条件. 因此</p><p>$z=-2\\mathrm{i}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
-          "body": "<p>由图1有面积关系：$\\frac{S_{\\triangle P'A'B'}}{S_{\\triangle PAB}}= \\frac{PA' \\cdot PB'}{PA \\cdot PB}$，则由图2有体积关系：$\\frac{V_{P-A'B'C'}}{V_{P-ABC}}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\dfrac{PA' \\cdot PB' \\cdot PC'}{PA \\cdot PB \\cdot PC}$",
-          "solution": "<p>设 $\\overrightarrow{PA'}=u\\overrightarrow{PA}$，$\\overrightarrow{PB'}=v\\overrightarrow{PB}$，$\\overrightarrow{PC'}=w\\overrightarrow{PC}$，其中 $u$，$v$，$w>0$. 由四面体体积公式，</p>\n$$\nV_{P-ABC}=\\frac{1}{6}\\left|\\det\\left(\\overrightarrow{PA},\\overrightarrow{PB},\\overrightarrow{PC}\\right)\\right|\n$$\n<p>将 $\\overrightarrow{PA'}$，$\\overrightarrow{PB'}$，$\\overrightarrow{PC'}$ 分别代入同一体积公式，行列式的三列分别乘以 $u$，$v$，$w$，从而</p>\n$$\n\\frac{V_{P-A'B'C'}}{V_{P-ABC}}=uvw=\\frac{PA'}{PA}\\cdot\\frac{PB'}{PB}\\cdot\\frac{PC'}{PC}=\\frac{PA'\\cdot PB'\\cdot PC'}{PA\\cdot PB\\cdot PC}\n$$\n<p>因此填空为 $\\dfrac{PA'\\cdot PB'\\cdot PC'}{PA\\cdot PB\\cdot PC}$.</p>"
+          "body": "<p>由图1有面积关系：$\\frac{S_{\\triangle P'A'B'}}{S_{\\triangle PAB}}= \\frac{PA' \\cdot PB'}{PA \\cdot PB}$，则由图2有体积关系：$\\frac{V_{P-A'B'C'}}{V_{P-ABC}}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/guangdong/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\dfrac{PA' \\cdot PB' \\cdot PC'}{PA \\cdot PB \\cdot PC}\\)",
+          "solution": "<p>设 $\\overrightarrow{PA'}=u\\overrightarrow{PA}$，$\\overrightarrow{PB'}=v\\overrightarrow{PB}$，$\\overrightarrow{PC'}=w\\overrightarrow{PC}$，其中 $u$，$v$，$w>0$. 由四面体体积公式，</p>\n$$\nV_{P-ABC}=\\frac{1}{6}\\left|\\det\\left(\\overrightarrow{PA},\\overrightarrow{PB},\\overrightarrow{PC}\\right)\\right|\n$$\n<p>将 $\\overrightarrow{PA'}$，$\\overrightarrow{PB'}$，$\\overrightarrow{PC'}$ 分别代入同一体积公式，行列式的三列分别乘以 $u$，$v$，$w$，从而</p>\n$$\n\\frac{V_{P-A'B'C'}}{V_{P-ABC}}=uvw=\\frac{PA'}{PA}\\cdot\\frac{PB'}{PB}\\cdot\\frac{PC'}{PC}=\\frac{PA'\\cdot PB'\\cdot PC'}{PA\\cdot PB\\cdot PC}\n$$\n<p>因此填空为 $\\dfrac{PA'\\cdot PB'\\cdot PC'}{PA\\cdot PB\\cdot PC}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "函数 $f(x) = \\ln (\\sqrt{x + 1}- 1)$（$x > 0$）的反函数 $f^{-1}(x) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\mathrm{e}^{2x}+2\\mathrm{e}^{x}$",
-          "solution": "<p>令 $y=\\ln(\\sqrt{x+1}-1)$. 因为 $x>0$，所以 $\\sqrt{x+1}-1>0$，可得 $\\mathrm{e}^{y}=\\sqrt{x+1}-1$，即 $\\sqrt{x+1}=\\mathrm{e}^{y}+1$. 从而</p><p>$x=(\\mathrm{e}^{y}+1)^{2}-1=\\mathrm{e}^{2y}+2\\mathrm{e}^{y}$.</p><p>交换 $x$，$y$，得到 $f^{-1}(x)=\\mathrm{e}^{2x}+2\\mathrm{e}^{x}$. 由于原函数的值域为 $\\mathbb{R}$，该反函数的定义域为 $\\mathbb{R}$.</p>"
+          "choices": [],
+          "answer": "\\(\\mathrm{e}^{2x}+2\\mathrm{e}^x\\)",
+          "solution": "<p>令 $y=\\ln(\\sqrt{x+1}-1)$. 因为 $x>0$，所以 $\\sqrt{x+1}-1>0$，可得 $\\mathrm{e}^{y}=\\sqrt{x+1}-1$，即 $\\sqrt{x+1}=\\mathrm{e}^{y}+1$. 从而</p><p>$x=(\\mathrm{e}^{y}+1)^{2}-1=\\mathrm{e}^{2y}+2\\mathrm{e}^{y}$.</p><p>交换 $x$，$y$，得到 $f^{-1}(x)=\\mathrm{e}^{2x}+2\\mathrm{e}^{x}$. 由于原函数的值域为 $\\mathbb{R}$，该反函数的定义域为 $\\mathbb{R}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "已知 $\\alpha$，$\\beta$，$\\gamma$ 成公比为 $2$ 的等比数列（$\\alpha \\in [0, 2\\pi]$），且 $\\sin \\alpha$，$\\sin \\beta$，$\\sin \\gamma$ 也成等比数列. 求 $\\alpha$，$\\beta$，$\\gamma$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由 $\\alpha$，$\\beta$，$\\gamma$ 成公比为 $2$ 的等比数列，得 $\\beta=2\\alpha$，$\\gamma=4\\alpha$. 由于 $\\sin\\alpha$，$\\sin2\\alpha$，$\\sin4\\alpha$ 成等比数列，按等比数列定义各项非零，故</p>\n$$\n\\sin^{2} 2\\alpha=\\sin\\alpha\\sin4\\alpha=2\\sin\\alpha\\sin2\\alpha\\cos2\\alpha\n$$\n<p>因 $\\sin\\alpha\\ne0$，$\\sin2\\alpha\\ne0$，先约去 $\\sin2\\alpha$，再利用 $\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha$，得</p>\n$$\n2\\sin\\alpha\\cos\\alpha=2\\sin\\alpha\\cos2\\alpha\n$$\n<p>再约去 $2\\sin\\alpha$，得到 $\\cos\\alpha=\\cos2\\alpha$. 因而</p><p>$2\\cos^{2}\\alpha-1=\\cos\\alpha$，$\\Longleftrightarrow (2\\cos\\alpha+1)(\\cos\\alpha-1)=0$</p><p>若 $\\cos\\alpha=1$，则 $\\alpha=0$ 或 $\\alpha=2\\pi$，均使 $\\sin\\alpha=0$，不符合等比数列各项非零的条件，舍去. 所以 $\\cos\\alpha=-\\frac{1}{2}$，结合 $\\alpha\\in[0,2\\pi]$，得 $\\alpha=\\frac{2\\pi}{3}$ 或 $\\alpha=\\frac{4\\pi}{3}$.</p><p>当 $\\alpha=\\frac{2\\pi}{3}$ 时，$(\\sin\\alpha,\\sin\\beta,\\sin\\gamma)=\\left(\\frac{\\sqrt{3}}{2},-\\frac{\\sqrt{3}}{2},\\frac{\\sqrt{3}}{2}\\right)$，公比为 $-1$；当 $\\alpha=\\frac{4\\pi}{3}$ 时，$(\\sin\\alpha,\\sin\\beta,\\sin\\gamma)=\\left(-\\frac{\\sqrt{3}}{2},\\frac{\\sqrt{3}}{2},-\\frac{\\sqrt{3}}{2}\\right)$，公比也为 $-1$. 故</p><p>$\\left(\\alpha,\\beta,\\gamma\\right)=\\left(\\frac{2\\pi}{3},\\frac{4\\pi}{3},\\frac{8\\pi}{3}\\right)$，或 $\\left(\\alpha,\\beta,\\gamma\\right)=\\left(\\frac{4\\pi}{3},\\frac{8\\pi}{3},\\frac{16\\pi}{3}\\right)$.</p>"
+          "solution": "<p>由 $\\alpha$，$\\beta$，$\\gamma$ 成公比为 $2$ 的等比数列，得 $\\beta=2\\alpha$，$\\gamma=4\\alpha$. 由于 $\\sin\\alpha$，$\\sin2\\alpha$，$\\sin4\\alpha$ 成等比数列，按等比数列定义各项非零，故</p>\n$$\n\\sin^{2} 2\\alpha=\\sin\\alpha\\sin4\\alpha=2\\sin\\alpha\\sin2\\alpha\\cos2\\alpha\n$$\n<p>因 $\\sin\\alpha\\ne0$，$\\sin2\\alpha\\ne0$，先约去 $\\sin2\\alpha$，再利用 $\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha$，得</p>\n$$\n2\\sin\\alpha\\cos\\alpha=2\\sin\\alpha\\cos2\\alpha\n$$\n<p>再约去 $2\\sin\\alpha$，得到 $\\cos\\alpha=\\cos2\\alpha$. 因而</p><p>$2\\cos^{2}\\alpha-1=\\cos\\alpha$，$\\Longleftrightarrow (2\\cos\\alpha+1)(\\cos\\alpha-1)=0$</p><p>若 $\\cos\\alpha=1$，则 $\\alpha=0$ 或 $\\alpha=2\\pi$，均使 $\\sin\\alpha=0$，不符合等比数列各项非零的条件，舍去. 所以 $\\cos\\alpha=-\\frac{1}{2}$，结合 $\\alpha\\in[0,2\\pi]$，得 $\\alpha=\\frac{2\\pi}{3}$ 或 $\\alpha=\\frac{4\\pi}{3}$.</p><p>当 $\\alpha=\\frac{2\\pi}{3}$ 时，$(\\sin\\alpha,\\sin\\beta,\\sin\\gamma)=\\left(\\frac{\\sqrt{3}}{2},-\\frac{\\sqrt{3}}{2},\\frac{\\sqrt{3}}{2}\\right)$，公比为 $-1$；当 $\\alpha=\\frac{4\\pi}{3}$ 时，$(\\sin\\alpha,\\sin\\beta,\\sin\\gamma)=\\left(-\\frac{\\sqrt{3}}{2},\\frac{\\sqrt{3}}{2},-\\frac{\\sqrt{3}}{2}\\right)$，公比也为 $-1$. 故</p><p>$\\left(\\alpha,\\beta,\\gamma\\right)=\\left(\\frac{2\\pi}{3},\\frac{4\\pi}{3},\\frac{8\\pi}{3}\\right)$，或 $\\left(\\alpha,\\beta,\\gamma\\right)=\\left(\\frac{4\\pi}{3},\\frac{8\\pi}{3},\\frac{16\\pi}{3}\\right)$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，在长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，已知 $AB = 4$，$AD = 3$，$AA_{1}= 2$. $E$，$F$ 分别是线段 $AB$，$BC$ 上的点，且 $EB = FB = 1$.</p><ol class=\"enumerate\"><li><p>求二面角 $C - DE - C_{1}$ 的正切值；</p></li><li><p>求直线 $EC_{1}$ 与 $FD_{1}$ 所成的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，已知 $AB = 4$，$AD = 3$，$AA_{1}= 2$. $E$，$F$ 分别是线段 $AB$，$BC$ 上的点，且 $EB = FB = 1$.</p><ol class=\"enumerate\"><li><p>求二面角 $C - DE - C_{1}$ 的正切值；</p></li><li><p>求直线 $EC_{1}$ 与 $FD_{1}$ 所成的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/guangdong/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>以 $A$ 为原点，$\\overrightarrow{AB}$，$\\overrightarrow{AD}$，$\\overrightarrow{AA_1}$ 分别为 $x$，$y$，$z$ 轴正向建立空间直角坐标系，则</p><p>$D=(0,3,0)$，$D_{1}=(0,3,2)$，$E=(3,0,0)$，$F=(4,1,0)$，$C_{1}=(4,3,2)$.</p><ol class=\"enumerate\"><li><p>平面 $CDE$ 与平面 $C_{1}DE$ 的法向量可分别取</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{DE}\\times\\overrightarrow{DC}=(0,0,12)\n$$\n<p>以及</p>\n$$\n\\mathbf{n}_{2}=\\overrightarrow{DE}\\times\\overrightarrow{DC_1}=(-6,-6,12)\n$$\n<p>设二面角 $C-DE-C_{1}$ 的平面角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{2}{\\sqrt{6}}\n$$\n<p>所以 $\\tan\\theta=\\dfrac{\\sqrt{2}}{2}$.</p></li><li><p>$\\overrightarrow{EC_1}=(1,3,2)$，$\\overrightarrow{FD_1}=(-4,2,2)$. 设两直线所成的角为 $\\varphi$，则</p>\n$$\n\\cos\\varphi=\\frac{|\\overrightarrow{EC_1}\\cdot\\overrightarrow{FD_1}|}{|\\overrightarrow{EC_1}||\\overrightarrow{FD_1}|}=\\frac{6}{\\sqrt{14}\\sqrt{24}}=\\frac{\\sqrt{21}}{14}\n$$\n</li></ol>"
+          "solution": "<p>以 $A$ 为原点，$\\overrightarrow{AB}$，$\\overrightarrow{AD}$，$\\overrightarrow{AA_1}$ 分别为 $x$，$y$，$z$ 轴正向建立空间直角坐标系，则</p><p>$D=(0,3,0)$，$D_{1}=(0,3,2)$，$E=(3,0,0)$，$F=(4,1,0)$，$C_{1}=(4,3,2)$.</p><ol class=\"enumerate\"><li><p>平面 $CDE$ 与平面 $C_{1}DE$ 的法向量可分别取</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{DE}\\times\\overrightarrow{DC}=(0,0,12)\n$$\n<p>以及</p>\n$$\n\\mathbf{n}_{2}=\\overrightarrow{DE}\\times\\overrightarrow{DC_1}=(-6,-6,12)\n$$\n<p>设二面角 $C-DE-C_{1}$ 的平面角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{2}{\\sqrt{6}}\n$$\n<p>所以 $\\tan\\theta=\\dfrac{\\sqrt{2}}{2}$.</p></li><li><p>$\\overrightarrow{EC_1}=(1,3,2)$，$\\overrightarrow{FD_1}=(-4,2,2)$. 设两直线所成的角为 $\\varphi$，则</p>\n$$\n\\cos\\varphi=\\frac{|\\overrightarrow{EC_1}\\cdot\\overrightarrow{FD_1}|}{|\\overrightarrow{EC_1}||\\overrightarrow{FD_1}|}=\\frac{6}{\\sqrt{14}\\sqrt{24}}=\\frac{\\sqrt{21}}{14}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>设函数 $f(x) = \\left|1 - \\frac{1}{x}\\right|$（$x > 0$）.</p><ol class=\"enumerate\"><li><p>证明：当 $0 < a < b$，且 $f(a) = f(b)$ 时，$ab > 1$；</p></li><li><p>点 $P(x_{0}, y_{0})$（$0 < x_{0} < 1$）在曲线 $y = f(x)$ 上，求曲线在点 $P$ 处的切线与 $x$ 轴和 $y$ 轴的正向所围成的三角形面积表达式（用 $x_{0}$ 表示）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $0<x<1$ 时，$f(x)=\\dfrac{1}{x}-1$，在 $(0,1)$ 上为减函数；当 $x>1$ 时，$f(x)=1-\\dfrac{1}{x}$，在 $(1,+\\infty)$ 上为增函数. 又 $f(1)=0$，而 $x\\ne1$ 时 $f(x)>0$，所以 $a$，$b$ 均不等于 $1$. 因为 $0<a<b$ 且 $f(a)=f(b)$，$a$，$b$ 不可能在同一个区间 $(0,1)$ 或 $(1,+\\infty)$ 内，所以 $0<a<1<b$. 于是</p><p>$\\frac{1}{a}-1=1-\\frac{1}{b}$，从而 $\\frac{1}{a}+\\frac{1}{b}=2$，故 $ab=\\frac{a^{2}}{2a-1}$.</p><p>由 $b>0$ 得 $2a-1>0$，且 $a\\ne1$，故</p>\n$$\nab>1\\Longleftrightarrow a^{2}>2a-1\\Longleftrightarrow (a-1)^{2}>0\n$$\n<p>所以 $ab>1$.</p></li><li><p>因为 $0<x_{0}<1$，所以 $y_{0}=f(x_{0})=\\dfrac{1}{x_0}-1$，且 $f'(x_{0})=-\\dfrac{1}{x_0^2}$. 曲线在 $P$ 处的切线为 $y-y_{0}=-\\frac{1}{x_{0}^{2}}(x-x_{0})$，整理得 $y=-\\frac{x}{x_{0}^{2}}+\\frac{2}{x_{0}}-1$.</p><p>令 $y=0$，得切线与 $x$ 轴正向的交点横坐标为 $x_{0}(2-x_{0})>0$；令 $x=0$，得切线与 $y$ 轴正向的交点纵坐标为 $\\dfrac{2-x_0}{x_0}>0$. 因而所围三角形面积为</p>\n$$\nS=\\frac{1}{2}x_{0}(2-x_{0})\\cdot\\frac{2-x_{0}}{x_{0}}=\\frac{(2-x_{0})^{2}}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $0<x<1$ 时，$f(x)=\\dfrac{1}{x}-1$，在 $(0,1)$ 上为减函数；当 $x>1$ 时，$f(x)=1-\\dfrac{1}{x}$，在 $(1,+\\infty)$ 上为增函数. 又 $f(1)=0$，而 $x\\ne1$ 时 $f(x)>0$，所以 $a$，$b$ 均不等于 $1$. 因为 $0<a<b$ 且 $f(a)=f(b)$，$a$，$b$ 不可能在同一个区间 $(0,1)$ 或 $(1,+\\infty)$ 内，所以 $0<a<1<b$. 于是</p><p>$\\frac{1}{a}-1=1-\\frac{1}{b}$，从而 $\\frac{1}{a}+\\frac{1}{b}=2$，故 $ab=\\frac{a^{2}}{2a-1}$.</p><p>由 $b>0$ 得 $2a-1>0$，且 $a\\ne1$，故</p>\n$$\nab>1\\Longleftrightarrow a^{2}>2a-1\\Longleftrightarrow (a-1)^{2}>0\n$$\n<p>所以 $ab>1$.</p></li><li><p>因为 $0<x_{0}<1$，所以 $y_{0}=f(x_{0})=\\dfrac{1}{x_0}-1$，且 $f'(x_{0})=-\\dfrac{1}{x_0^2}$. 曲线在 $P$ 处的切线为 $y-y_{0}=-\\frac{1}{x_{0}^{2}}(x-x_{0})$，整理得 $y=-\\frac{x}{x_{0}^{2}}+\\frac{2}{x_{0}}-1$.</p><p>令 $y=0$，得切线与 $x$ 轴正向的交点横坐标为 $x_{0}(2-x_{0})>0$；令 $x=0$，得切线与 $y$ 轴正向的交点纵坐标为 $\\dfrac{2-x_0}{x_0}>0$. 因而所围三角形面积为</p>\n$$\nS=\\frac{1}{2}x_{0}(2-x_{0})\\cdot\\frac{2-x_{0}}{x_{0}}=\\frac{(2-x_{0})^{2}}{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "某中心接到其正东，正西，正北方向三个观测点的报告：正西，正北两个观测点同时听到了一声巨响，正东观测点听到的时间比其他两观测点晚 $4\\mathrm{~s}$. 已知各观测点到该中心的距离都是 $1020\\mathrm{~m}$. 试确定该巨响发生的位置. （假定当时声音传播的速度为 $340\\mathrm{~m/s}$，相关各点均在同一平面上）",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>以接报中心为原点 $O$，取正东、正北方向分别为 $x$ 轴、$y$ 轴正向. 设正西、正东、正北三个观测点分别为 $A$，$B$，$C$，则</p><p>$A=(-1020,0)$，$B=(1020,0)$，$C=(0,1020)$.</p><p>设巨响发生点为 $P=(x,y)$. 正西、正北观测点同时听到巨响，所以 $PA=PC$，从而</p>\n$$\n(x+1020)^{2}+y^{2}=x^{2}+(y-1020)^{2}\n$$\n<p>所以 $y=-x$.</p><p>正东观测点比正西观测点晚 $4\\mathrm{~s}$ 听到声音，而正西观测点与正北观测点同时听到，所以</p>\n$$\nPB-PA=340\\mathrm{~m/s}\\cdot4\\mathrm{~s}=1360\\mathrm{~m}\n$$\n<p>因此 $P$ 在以 $A$，$B$ 为焦点的双曲线上. 该双曲线的半焦距为 $c=1020$，由焦点距离差得 $2a=1360$，即 $a=680$，所以</p>\n$$\nb^{2}=c^{2}-a^{2}=1020^{2}-680^{2}=578000\n$$\n<p>所以双曲线方程为 $\\frac{x^{2}}{680^{2}}-\\frac{y^{2}}{578000}=1$. 由于 $PB>PA$，点 $P$ 位于双曲线的左支.</p><p>代入 $y=-x$，并利用 $578000=\\dfrac{5}{4}\\cdot680^{2}$，得</p>\n$$\n\\frac{x^{2}}{680^{2}}-\\frac{x^{2}}{578000}=1\n$$\n<p>化简得 $x^{2}=5\\cdot680^{2}$.</p><p>故 $x<0$，从而 $y=-x>0$. 所以</p>\n$$\nP=(-680\\sqrt{5},680\\sqrt{5})\n$$\n<p>该点到中心的距离为 $OP=680\\sqrt{10}\\mathrm{~m}$，方向为接报中心的西偏北 $45^{\\circ}$.</p>"
+          "solution": "<p>以接报中心为原点 $O$，取正东、正北方向分别为 $x$ 轴、$y$ 轴正向. 设正西、正东、正北三个观测点分别为 $A$，$B$，$C$，则</p><p>$A=(-1020,0)$，$B=(1020,0)$，$C=(0,1020)$.</p><p>设巨响发生点为 $P=(x,y)$. 正西、正北观测点同时听到巨响，所以 $PA=PC$，从而</p>\n$$\n(x+1020)^{2}+y^{2}=x^{2}+(y-1020)^{2}\n$$\n<p>所以 $y=-x$.</p><p>正东观测点比正西观测点晚 $4\\mathrm{~s}$ 听到声音，而正西观测点与正北观测点同时听到，所以</p>\n$$\nPB-PA=340\\mathrm{~m/s}\\cdot4\\mathrm{~s}=1360\\mathrm{~m}\n$$\n<p>因此 $P$ 在以 $A$，$B$ 为焦点的双曲线上. 该双曲线的半焦距为 $c=1020$，由焦点距离差得 $2a=1360$，即 $a=680$，所以</p>\n$$\nb^{2}=c^{2}-a^{2}=1020^{2}-680^{2}=578000\n$$\n<p>所以双曲线方程为 $\\frac{x^{2}}{680^{2}}-\\frac{y^{2}}{578000}=1$. 由于 $PB>PA$，点 $P$ 位于双曲线的左支.</p><p>代入 $y=-x$，并利用 $578000=\\dfrac{5}{4}\\cdot680^{2}$，得</p>\n$$\n\\frac{x^{2}}{680^{2}}-\\frac{x^{2}}{578000}=1\n$$\n<p>化简得 $x^{2}=5\\cdot680^{2}$.</p><p>故 $x<0$，从而 $y=-x>0$. 所以</p>\n$$\nP=(-680\\sqrt{5},680\\sqrt{5})\n$$\n<p>该点到中心的距离为 $OP=680\\sqrt{10}\\mathrm{~m}$，方向为接报中心的西偏北 $45^{\\circ}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>设函数 $f(x) = x - \\ln (x + m)$，其中常数 $m$ 为整数.</p><ol class=\"enumerate\"><li><p>当 $m$ 为何值时，$f(x) \\ge 0$；</p></li><li><p>定理：若函数 $g(x)$ 在 $[a, b]$ 上连续，且 $g(a)$ 与 $g(b)$ 异号，则至少存在一点 $x_{0} \\in (a, b)$，使 $g(x_{0}) = 0$. 试用上述定理证明：当整数 $m > 1$ 时，方程 $f(x) = 0$ 在 $[\\mathrm{e}^{-m}- m, \\mathrm{e}^{2m}- m]$ 内有两个实根.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-m$，且</p>\n$$\nf'(x)=1-\\frac{1}{x+m}=\\frac{x+m-1}{x+m}\n$$\n<p>因为 $x+m>0$，所以 $f'(x)<0$ 在 $(-m,1-m)$ 上成立，$f'(x)>0$ 在 $(1-m,+\\infty)$ 上成立. 因而 $f(x)$ 在 $x=1-m$ 处取得最小值</p>\n$$\nf(1-m)=1-m\n$$\n<p>所以对定义域内一切 $x$ 都有 $f(x)\\geqslant0$ 当且仅当 $1-m\\geqslant0$，即 $m\\leqslant1$.</p></li><li><p>设 $x_{1}=\\mathrm{e}^{-m}-m$，$x_{0}=1-m$，$x_{2}=\\mathrm{e}^{2m}-m$. 当整数 $m>1$ 时，$\\mathrm{e}^{-m}<1<\\mathrm{e}^{2m}$，所以 $x_{1}<x_{0}<x_{2}$，且三点均满足 $x+m>0$. 函数在 $[x_{1},x_{2}]$ 上连续，并且</p><p>$f(x_{1})=\\mathrm{e}^{-m}>0$，$f(x_{0})=1-m<0$.</p><p>由题给定理，方程 $f(x)=0$ 在 $(x_{1},x_{0})$ 内至少有一个实根.</p><p>又因为对 $t>0$ 有 $\\mathrm{e}^{t}>1+t+\\dfrac{t^2}{2}$，取 $t=2m$，所以</p>\n$$\nf(x_{2})=\\mathrm{e}^{2m}-3m>1+2m+2m^{2}-3m=2m^{2}-m+1>0\n$$\n<p>再次由题给定理，方程 $f(x)=0$ 在 $(x_{0},x_{2})$ 内至少有一个实根. 这两个区间不相交，故所得两个实根不同. 又由第一问中的单调性，$f$ 在 $(x_{1},x_{0})$ 和 $(x_{0},x_{2})$ 上分别严格递减、严格递增，所以每个区间至多有一个实根. 因此方程在 $[\\mathrm{e}^{-m}-m,\\mathrm{e}^{2m}-m]$ 内恰有两个实根.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-m$，且</p>\n$$\nf'(x)=1-\\frac{1}{x+m}=\\frac{x+m-1}{x+m}\n$$\n<p>因为 $x+m>0$，所以 $f'(x)<0$ 在 $(-m,1-m)$ 上成立，$f'(x)>0$ 在 $(1-m,+\\infty)$ 上成立. 因而 $f(x)$ 在 $x=1-m$ 处取得最小值</p>\n$$\nf(1-m)=1-m\n$$\n<p>所以对定义域内一切 $x$ 都有 $f(x)\\geqslant0$ 当且仅当 $1-m\\geqslant0$，即 $m\\leqslant1$.</p></li><li><p>设 $x_{1}=\\mathrm{e}^{-m}-m$，$x_{0}=1-m$，$x_{2}=\\mathrm{e}^{2m}-m$. 当整数 $m>1$ 时，$\\mathrm{e}^{-m}<1<\\mathrm{e}^{2m}$，所以 $x_{1}<x_{0}<x_{2}$，且三点均满足 $x+m>0$. 函数在 $[x_{1},x_{2}]$ 上连续，并且</p><p>$f(x_{1})=\\mathrm{e}^{-m}>0$，$f(x_{0})=1-m<0$.</p><p>由题给定理，方程 $f(x)=0$ 在 $(x_{1},x_{0})$ 内至少有一个实根.</p><p>又因为对 $t>0$ 有 $\\mathrm{e}^{t}>1+t+\\dfrac{t^2}{2}$，取 $t=2m$，所以</p>\n$$\nf(x_{2})=\\mathrm{e}^{2m}-3m>1+2m+2m^{2}-3m=2m^{2}-m+1>0\n$$\n<p>再次由题给定理，方程 $f(x)=0$ 在 $(x_{0},x_{2})$ 内至少有一个实根. 这两个区间不相交，故所得两个实根不同. 又由第一问中的单调性，$f$ 在 $(x_{1},x_{0})$ 和 $(x_{0},x_{2})$ 上分别严格递减、严格递增，所以每个区间至多有一个实根. 因此方程在 $[\\mathrm{e}^{-m}-m,\\mathrm{e}^{2m}-m]$ 内恰有两个实根.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "设直线 $l$ 与椭圆 $\\frac{x^{2}}{25}+ \\frac{y^{2}}{16}= 1$ 相交于 $A$，$B$ 两点，$l$ 又与双曲线 $x^{2}- y^{2}= 1$ 相交于 $C$，$D$ 两点，$C$，$D$ 三等分线段 $AB$. 求直线 $l$ 的方程.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>先讨论直线不垂直于 $x$ 轴的情形，设其方程为 $y=kx+b$. 将它分别代入椭圆和双曲线，得到关于 $x$ 的方程</p>\n$$\n(16+25k^{2})x^{2}+50kbx+25b^{2}-400=0\n$$\n\n$$\n(1-k^{2})x^{2}-2kbx-(b^{2}+1)=0\n$$\n<p>由于直线与双曲线有两个交点，故 $k^{2}\\ne1$. 设两条曲线交点的横坐标分别按从小到大排列，则由 $C$，$D$ 三等分线段 $AB$，有</p>\n$$\nx_{C}+x_{D}=x_{A}+x_{B}\n$$\n<p>由韦达定理，</p>\n$$\n-\\frac{50kb}{16+25k^{2}}=\\frac{2kb}{1-k^{2}}\n$$\n<p>整理得</p>\n$$\nkb\\left(\\frac{2}{1-k^{2}}+\\frac{50}{16+25k^{2}}\\right)=0\n$$\n<p>括号内的分式和为</p>\n$$\n\\frac{2(16+25k^{2})+50(1-k^{2})}{(1-k^{2})(16+25k^{2})}=\\frac{82}{(1-k^{2})(16+25k^{2})}\\ne0\n$$\n<p>所以 $k=0$ 或 $b=0$.</p><p>当 $k=0$ 时，直线为 $y=b$. 椭圆和双曲线在该直线上的交点横坐标的绝对值分别为</p><p>$X=5\\sqrt{1-\\frac{b^{2}}{16}}$，$U=\\sqrt{1+b^{2}}$.</p><p>三等分条件给出 $U=\\dfrac{X}{3}$，故</p>\n$$\n1+b^{2}=\\frac{25}{9}\\left(1-\\frac{b^{2}}{16}\\right)\\Longrightarrow b^{2}=\\frac{256}{169}\n$$\n<p>因此得到直线 $y=\\dfrac{16}{13}$ 和 $y=-\\dfrac{16}{13}$.</p><p>当 $b=0$ 时，直线为 $y=kx$. 此时双曲线方程化为 $(1-k^{2})x^{2}=1$，要有两个交点必须满足 $|k|<1$. 椭圆和双曲线交点横坐标的绝对值分别为 $X=\\frac{20}{\\sqrt{16+25k^{2}}}$，$U=\\frac{1}{\\sqrt{1-k^{2}}}$.</p><p>三等分条件给出 $U=\\dfrac{X}{3}$，故</p>\n$$\n\\frac{1}{1-k^{2}}=\\frac{400}{9(16+25k^{2})}\\Longrightarrow k^{2}=\\frac{256}{625}\n$$\n<p>因此得到直线 $y=\\dfrac{16}{25}x$ 和 $y=-\\dfrac{16}{25}x$.</p><p>再讨论直线垂直于 $x$ 轴的情形，设其方程为 $x=c$. 椭圆和双曲线交点纵坐标的绝对值分别为</p><p>$Y=4\\sqrt{1-\\frac{c^{2}}{25}}$，$V=\\sqrt{c^{2}-1}$.</p><p>三等分条件给出 $V=\\dfrac{Y}{3}$，故</p>\n$$\nc^{2}-1=\\frac{16}{9}\\left(1-\\frac{c^{2}}{25}\\right)\\Longrightarrow c^{2}=\\frac{625}{241}\n$$\n<p>因此得到直线 $x=\\dfrac{25}{\\sqrt{241}}$ 和 $x=-\\dfrac{25}{\\sqrt{241}}$.</p><p>综上，直线 $l$ 的方程为</p><p>$y=\\pm\\frac{16}{13}$，$y=\\pm\\frac{16}{25}x$ 或 $x=\\pm\\frac{25}{\\sqrt{241}}$.</p>"
+          "solution": "<p>先讨论直线不垂直于 $x$ 轴的情形，设其方程为 $y=kx+b$. 将它分别代入椭圆和双曲线，得到关于 $x$ 的方程</p>\n$$\n(16+25k^{2})x^{2}+50kbx+25b^{2}-400=0\n$$\n\n$$\n(1-k^{2})x^{2}-2kbx-(b^{2}+1)=0\n$$\n<p>由于直线与双曲线有两个交点，故 $k^{2}\\ne1$. 设两条曲线交点的横坐标分别按从小到大排列，则由 $C$，$D$ 三等分线段 $AB$，有</p>\n$$\nx_{C}+x_{D}=x_{A}+x_{B}\n$$\n<p>由韦达定理，</p>\n$$\n-\\frac{50kb}{16+25k^{2}}=\\frac{2kb}{1-k^{2}}\n$$\n<p>整理得</p>\n$$\nkb\\left(\\frac{2}{1-k^{2}}+\\frac{50}{16+25k^{2}}\\right)=0\n$$\n<p>括号内的分式和为</p>\n$$\n\\frac{2(16+25k^{2})+50(1-k^{2})}{(1-k^{2})(16+25k^{2})}=\\frac{82}{(1-k^{2})(16+25k^{2})}\\ne0\n$$\n<p>所以 $k=0$ 或 $b=0$.</p><p>当 $k=0$ 时，直线为 $y=b$. 椭圆和双曲线在该直线上的交点横坐标的绝对值分别为</p><p>$X=5\\sqrt{1-\\frac{b^{2}}{16}}$，$U=\\sqrt{1+b^{2}}$.</p><p>三等分条件给出 $U=\\dfrac{X}{3}$，故</p>\n$$\n1+b^{2}=\\frac{25}{9}\\left(1-\\frac{b^{2}}{16}\\right)\\Longrightarrow b^{2}=\\frac{256}{169}\n$$\n<p>因此得到直线 $y=\\dfrac{16}{13}$ 和 $y=-\\dfrac{16}{13}$.</p><p>当 $b=0$ 时，直线为 $y=kx$. 此时双曲线方程化为 $(1-k^{2})x^{2}=1$，要有两个交点必须满足 $|k|<1$. 椭圆和双曲线交点横坐标的绝对值分别为 $X=\\frac{20}{\\sqrt{16+25k^{2}}}$，$U=\\frac{1}{\\sqrt{1-k^{2}}}$.</p><p>三等分条件给出 $U=\\dfrac{X}{3}$，故</p>\n$$\n\\frac{1}{1-k^{2}}=\\frac{400}{9(16+25k^{2})}\\Longrightarrow k^{2}=\\frac{256}{625}\n$$\n<p>因此得到直线 $y=\\dfrac{16}{25}x$ 和 $y=-\\dfrac{16}{25}x$.</p><p>再讨论直线垂直于 $x$ 轴的情形，设其方程为 $x=c$. 椭圆和双曲线交点纵坐标的绝对值分别为</p><p>$Y=4\\sqrt{1-\\frac{c^{2}}{25}}$，$V=\\sqrt{c^{2}-1}$.</p><p>三等分条件给出 $V=\\dfrac{Y}{3}$，故</p>\n$$\nc^{2}-1=\\frac{16}{9}\\left(1-\\frac{c^{2}}{25}\\right)\\Longrightarrow c^{2}=\\frac{625}{241}\n$$\n<p>因此得到直线 $x=\\dfrac{25}{\\sqrt{241}}$ 和 $x=-\\dfrac{25}{\\sqrt{241}}$.</p><p>综上，直线 $l$ 的方程为</p><p>$y=\\pm\\frac{16}{13}$，$y=\\pm\\frac{16}{25}x$ 或 $x=\\pm\\frac{25}{\\sqrt{241}}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

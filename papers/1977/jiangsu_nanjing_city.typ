@@ -84,7 +84,9 @@
 #problem(6)[
 在 #mi(`\odot O`) 中，直径 #mi(`AB`) 和弦 #mi(`AC`) 的夹角为 #mi(`15^{\circ}`)，过 #mi(`C`) 点的切线和 #mi(`AB`) 的延长线相交于 #mi(`P`)，已知 #mi(`OP=24\mathrm{~cm}`)，求 #mi(`\odot O`) 的半径.
 
-[max width=5.2cm]img/1977/jiangsu_nanjing_city/q6_fig1.png
+
+#align(center)[#image("/papers/1977/img/jiangsu_nanjing_city/q6_fig1.png", width: 28%)]
+
 ]
 
 #solution[

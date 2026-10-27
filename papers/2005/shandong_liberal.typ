@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,89 +11,100 @@
 #part-header("单选题")
 
 #problem(1)[
-$\{a_n\}$ 是首项 $a_1 = 1$，公差 $d = 3$ 的等差数列. 如果 $a_n = 2005$，则序号 $n$ 等于（$$）
-  #choices([$667$], [$668$], [$669$], [$670$], cols: 4)
+#mi(`\{a_{n}\}`) 是首项 #mi(`a_{1} = 1`)，公差 #mi(`d = 3`) 的等差数列. 如果 #mi(`a_{n} = 2005`)，则序号 #mi(`n`) 等于（#mi(`\quad`)）
+  #choices([#mi(`667`)], [#mi(`668`)], [#mi(`669`)], [#mi(`670`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由等差数列通项公式，$a_n=a_1+(n-1)d=1+3(n-1)=3 n-2$. 由 $a_n=2005$ 得 $3 n-2=2005$，所以 $n=669$，故选 C.
+由等差数列通项公式，#mi(`a_{n}=a_{1}+(n-1)d=1+3(n-1)=3n-2`). 由 #mi(`a_{n}=2005`) 得 #mi(`3n-2=2005`)，所以 #mi(`n=669`)，故选 C.
 ]
 
 #problem(2)[
-下列大小关系正确的是（$$）
-  #choices([$0.4^(3) < 3^(0.4) < log _(4)0.3$], [$0.4^(3) < log _(4)0.3 < 3^(0.4)$], [$log _(4)0.3 < 0.4^3 < 3^(0.4)$], [$log _(4)0.3 < 3^(0.4) < 0.4^3$], cols: 1)
+下列大小关系正确的是（#mi(`\quad`)）
+  #choices([#mi(`0.4^{3}< 3^{0.4}< \log_{4}0.3`)], [#mi(`0.4^{3}< \log_{4}0.3 < 3^{0.4}`)], [#mi(`\log_{4}0.3 < 0.4^{3} < 3^{0.4}`)], [#mi(`\log_{4}0.3 < 3^{0.4}< 0.4^{3}`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-因为 $0<0.4<1$，所以 $0<0.4^3<1$；又因为 $3>1$，所以 $3^(0.4)>1$. 由于对数的底数 $4>1$，而 $0<0.3<1$，故 $log _4 0.3<0$. 因此 $log _4 0.3<0.4^3<3^(0.4)$，故选 C.
+因为 #mi(`0<0.4<1`)，所以 #mi(`0<0.4^{3}<1`)；又因为 #mi(`3>1`)，所以 #mi(`3^{0.4}>1`). 由于对数的底数 #mi(`4>1`)，而 #mi(`0<0.3<1`)，故 #mi(`\log_{4} 0.3<0`). 因此 #mi(`\log_{4} 0.3<0.4^{3}<3^{0.4}`)，故选 C.
 ]
 
 #problem(3)[
-函数 $y = (1 - x)/(x)$（$x != 0$）的反函数图象大致是（$$）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2005/img/shandong_liberal/q3_optA_nolabel.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2005/img/shandong_liberal/q3_optB_nolabel.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2005/img/shandong_liberal/q3_optC_nolabel.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2005/img/shandong_liberal/q3_optD_nolabel.png", height: 100%, fit: "contain")]]], cols: 2)
+函数 #mi(`y = \frac{1 - x}{x}`)（#mi(`x \neq 0`)）的反函数图象大致是（#mi(`\quad`)）
+  #choices([
+#align(center)[#image("/papers/2005/img/shandong_liberal/q3_optA_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2005/img/shandong_liberal/q3_optB_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2005/img/shandong_liberal/q3_optC_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2005/img/shandong_liberal/q3_optD_nolabel.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由 $y=(1-x)/(x)$ 得 $x(y+1)=1$，所以反函数为 $y=(1)/(x+1)$，其定义域为 $x != -1$. 该双曲线的中心为 $(-1,0)$，且当 $x>-1$ 时 $y>0$，当 $x<-1$ 时 $y<0$. 因此图象与选项 B 相符，故选 B.
+由 #mi(`y=\dfrac{1-x}{x}`) 得 #mi(`x(y+1)=1`)，所以反函数为 #mi(`y=\dfrac{1}{x+1}`)，其定义域为 #mi(`x\neq -1`). 该双曲线的中心为 #mi(`(-1,0)`)，且当 #mi(`x>-1`) 时 #mi(`y>0`)，当 #mi(`x<-1`) 时 #mi(`y<0`). 因此图象与选项 B 相符，故选 B.
 ]
 
 #problem(4)[
-已知函数 $y = sin ( x - (pi)/(12)) cos ( x - (pi)/(12))$，则下列判断正确的是（$$）
-  #choices([此函数的最小周期为 $2 pi$，其图象的一个对称中心是 $((pi)/(12), 0)$], [此函数的最小周期为 $pi$，其图象的一个对称中心是 $((pi)/(12), 0)$], [此函数的最小周期为 $2 pi$，其图象的一个对称中心是 $((pi)/(6), 0)$], [此函数的最小周期为 $pi$，其图象的一个对称中心是 $((pi)/(6), 0)$], cols: 1)
+已知函数 #mi(`y = \sin \left( x - \frac{\pi}{12}\right) \cos \left( x - \frac{\pi}{12}\right)`)，则下列判断正确的是（#mi(`\quad`)）
+  #choices([此函数的最小周期为 #mi(`2\pi`)，其图象的一个对称中心是 #mi(`\left(\frac{\pi}{12}, 0\right)`)], [此函数的最小周期为 #mi(`\pi`)，其图象的一个对称中心是 #mi(`\left(\frac{\pi}{12}, 0\right)`)], [此函数的最小周期为 #mi(`2\pi`)，其图象的一个对称中心是 #mi(`\left(\frac{\pi}{6}, 0\right)`)], [此函数的最小周期为 #mi(`\pi`)，其图象的一个对称中心是 #mi(`\left(\frac{\pi}{6}, 0\right)`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-令 $u=x-(pi)/(12)$，则 $y= sin u cos u=(1)/(2) sin 2 u=(1)/(2) sin (2 x-(pi)/(6))$. 因此最小正周期为 $pi$. 当 $x=(pi)/(12)$ 时，$u=0$，函数值为 $0$，且函数关于该点中心对称，所以一个对称中心为 $((pi)/(12),0)$，故选 B.
+令 #mi(`u=x-\dfrac{\pi}{12}`)，则 #mi(`y=\sin u\cos u=\dfrac{1}{2}\sin 2u=\dfrac{1}{2}\sin\left(2x-\dfrac{\pi}{6}\right)`). 因此最小正周期为 #mi(`\pi`). 当 #mi(`x=\dfrac{\pi}{12}`) 时，#mi(`u=0`)，函数值为 #mi(`0`)，且函数关于该点中心对称，所以一个对称中心为 #mi(`\left(\dfrac{\pi}{12},0\right)`)，故选 B.
 ]
 
 #problem(5)[
-下列函数既是奇函数，又在区间 $[-1, 1]$ 上单调递减的是（$$）
-  #choices([$f(x) = sin x$], [$f(x) = -|x + 1|$], [$f(x) = (1)/(2)(a^x + a^(-x))$], [$f(x) = ln (2 - x)/(2 + x)$], cols: 2)
+下列函数既是奇函数，又在区间 #mi(`[-1, 1]`) 上单调递减的是（#mi(`\quad`)）
+  #choices([#mi(`f(x) = \sin x`)], [#mi(`f(x) = -|x + 1|`)], [#mi(`f(x) = \frac{1}{2}(a^{x} + a^{-x})`)], [#mi(`f(x) = \ln \frac{2 - x}{2 + x}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-选项 A 中，$f'(x)= cos x>0$（$-1 <= x <= 1 <(pi)/(2)$），所以函数在 $[-1,1]$ 上单调递增，不合题意. 选项 B 中，$f(0)=-1\n e q0$，不可能是奇函数. 选项 C 满足 $f(-x)=f(x)$，是偶函数而不是奇函数.
+选项 A 中，#mi(`f'(x)=\cos x>0`)（#mi(`-1\le x\leqslant1<\dfrac\pi2`)），所以函数在 #mi(`[-1,1]`) 上单调递增，不合题意. 选项 B 中，#mi(`f(0)=-1\neq0`)，不可能是奇函数. 选项 C 满足 #mi(`f(-x)=f(x)`)，是偶函数而不是奇函数.
 
-选项 D 的定义域包含 $[-1,1]$，且
-$f(-x)= ln (2+x)/(2-x)=- ln (2-x)/(2+x)=-f(x)$，所以它是奇函数. 又
-$f'(x)=-(1)/(2-x)-(1)/(2+x)=-(4)/(4-x^2)<0$（$-1 <= x <= 1$），故它在 $[-1,1]$ 上单调递减. 因此选 D.
+选项 D 的定义域包含 #mi(`[-1,1]`)，且
+
+#mi(`f(-x)=\ln\dfrac{2+x}{2-x}=-\ln\dfrac{2-x}{2+x}=-f(x)`)，所以它是奇函数. 又
+
+#mi(`f'(x)=-\dfrac{1}{2-x}-\dfrac{1}{2+x}=-\dfrac{4}{4-x^2}<0`)（#mi(`-1\le x\leqslant1`)），故它在 #mi(`[-1,1]`) 上单调递减. 因此选 D.
 ]
 
 #problem(6)[
-如果 $(3 x - (1)/(root(3, x^2)))^n$ 的展开式中各项系数之和为 $128$，则展开式中 $(1)/(x^3)$ 的系数是（$$）
-  #choices([$7$], [$-7$], [$21$], [$-21$], cols: 4)
+如果 #mi(`\left(3x - \frac{1}{\sqrt[3]{x^{2}}}\right)^{n}`) 的展开式中各项系数之和为 #mi(`128`)，则展开式中 #mi(`\frac{1}{x^{3}}`) 的系数是（#mi(`\quad`)）
+  #choices([#mi(`7`)], [#mi(`-7`)], [#mi(`21`)], [#mi(`-21`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-令展开式中的 $x=1$，各项系数之和为 $(3-1)^n=2^n$. 所以 $2^n=128=2^7$，得 $n=7$. 展开式的通项中，若从第二项取 $k$ 次，则该项为
-$C_7^(k) 3^(7-k)(-1)^(k) x^(7-k-(2 k)/(3))$. 要含有 $x^(-3)$，应满足 $7-k-(2 k)/(3)=-3$，即 $k=6$. 所求系数为 $C_7^6 3=21$，故选 C.
+令展开式中的 #mi(`x=1`)，各项系数之和为 #mi(`\left(3-1\right)^{n}=2^{n}`). 所以 #mi(`2^{n}=128=2^{7}`)，得 #mi(`n=7`). 展开式的通项中，若从第二项取 #mi(`k`) 次，则该项为
+
+#mi(`\mathrm{C}_{7}^{k}3^{7-k}(-1)^{k}x^{7-k-\frac{2k}{3}}`). 要含有 #mi(`x^{-3}`)，应满足 #mi(`7-k-\dfrac{2k}{3}=-3`)，即 #mi(`k=6`). 所求系数为 #mi(`\mathrm{C}_{7}^{6} 3=21`)，故选 C.
 ]
 
 #problem(7)[
-函数 $f(x) = \b e g i n{c a s e s} sin ( pi x^2), & -1 < x < 0,\\ e ""^(x - 1), & x >= 0 . \e n d{c a s e s}$ 若 $f(1) + f(a) = 2$，则 $a$ 的所有可能值为（$$）
-  #choices([$1$], [$-(sqrt(2))/(2)$], [$1$，$-(sqrt(2))/(2)$], [$1$，$(sqrt(2))/(2)$], cols: 2)
+函数 #mi(`f(x) = \begin{cases}\sin (\pi x^{2}),&-1 < x < 0,\\  \mathrm{e}^{x - 1},&x \ge 0.\end{cases}`) 若 #mi(`f(1) + f(a) = 2`)，则 #mi(`a`) 的所有可能值为（#mi(`\quad`)）
+  #choices([#mi(`1`)], [#mi(`-\frac{\sqrt{2}}{2}`)], [#mi(`1`)，#mi(`-\frac{\sqrt{2}}{2}`)], [#mi(`1`)，#mi(`\frac{\sqrt{2}}{2}`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-由 $f(1)= e ""^0=1$，得 $f(a)=1$. 当 $-1<a<0$ 时，$0<a^2<1$，所以 $0< pi a^2< pi$，方程 $sin ( pi a^2)=1$ 只有解 $pi a^2=(pi)/(2)$，从而 $a=-(sqrt(2))/(2)$. 当 $a >= 0$ 时，$e ""^(a-1)=1$，所以 $a=1$. 因此所有可能值为 $1$，$-(sqrt(2))/(2)$，故选 C.
+由 #mi(`f(1)=\mathrm{e}^{0}=1`)，得 #mi(`f(a)=1`). 当 #mi(`-1<a<0`) 时，#mi(`0<a^{2}<1`)，所以 #mi(`0<\pi a^{2}<\pi`)，方程 #mi(`\sin(\pi a^{2})=1`) 只有解 #mi(`\pi a^{2}=\dfrac\pi2`)，从而 #mi(`a=-\dfrac{\sqrt{2}}{2}`). 当 #mi(`a\geqslant0`) 时，#mi(`\mathrm{e}^{a-1}=1`)，所以 #mi(`a=1`). 因此所有可能值为 #mi(`1`)，#mi(`-\dfrac{\sqrt{2}}{2}`)，故选 C.
 ]
 
 #problem(8)[
-已知向量 $bold(a)$，$bold(b)$，且 $arrow(A B)= bold(a)+ 2 bold(b)$，$arrow(B C)= -5 bold(a)+ 6 bold(b)$，$arrow(C D)= 7 bold(a)- 2 bold(b)$，则一定共线的三点是（$$）
+已知向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`)，且 #mi(`\overrightarrow{AB}= \mathbf{a}+ 2\mathbf{b}`)，#mi(`\overrightarrow{BC}= -5\mathbf{a}+ 6\mathbf{b}`)，#mi(`\overrightarrow{CD}= 7\mathbf{a}- 2\mathbf{b}`)，则一定共线的三点是（#mi(`\quad`)）
   #choices([A，B，D], [A，B，C], [B，C，D], [A，C，D], cols: 4)
 ]
 
@@ -101,222 +112,217 @@ $C_7^(k) 3^(7-k)(-1)^(k) x^(7-k-(2 k)/(3))$. 要含有 $x^(-3)$，应满足 $7-k
 
 #solution[
 由向量的加法，
-$arrow(A D)=arrow(A B)+arrow(B C)+arrow(C D)=3 bold(a)+6 bold(b)=3(bold(a)+2 bold(b))=3 arrow(A B)$. 因而 $arrow(A D)$ 与 $arrow(A B)$ 平行，点 $A$，$B$，$D$ 共线，故选 A.
+
+#mi(`\overrightarrow{AD}=\overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CD}=3\mathbf{a}+6\mathbf{b}=3(\mathbf{a}+2\mathbf{b})=3\overrightarrow{AB}`). 因而 #mi(`\overrightarrow{AD}`) 与 #mi(`\overrightarrow{AB}`) 平行，点 #mi(`A`)，#mi(`B`)，#mi(`D`) 共线，故选 A.
 ]
 
 #problem(9)[
-设地球的半径为 $R$，若甲地位于北纬 $45^( degree )$ 东经 $120^( degree )$，乙地位于南纬 $75^( degree )$ 东经 $120^( degree )$，则甲，乙两地的球面距离为（$$）
-  #choices([$sqrt(3)R$], [$(5)/(6)R$], [$(5 pi)/(6)R$], [$(2 pi)/(3)R$], cols: 4)
+设地球的半径为 #mi(`R`)，若甲地位于北纬 #mi(`45^{\circ}`) 东经 #mi(`120^{\circ}`)，乙地位于南纬 #mi(`75^{\circ}`) 东经 #mi(`120^{\circ}`)，则甲，乙两地的球面距离为（#mi(`\quad`)）
+  #choices([#mi(`\sqrt{3}R`)], [#mi(`\frac{5}{6}R`)], [#mi(`\frac{5\pi}{6}R`)], [#mi(`\frac{2\pi}{3}R`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-甲、乙两地经度相同，所以它们在同一条经线上. 甲地纬度为 $45^( degree )$，乙地纬度为 $-75^( degree )$，两地对应的地心角为 $45^( degree )-(-75^( degree ))=120^( degree )=(2 pi)/(3)$. 因此球面距离为 $R dot (2 pi)/(3)=(2 pi)/(3)R$，故选 D.
+甲、乙两地经度相同，所以它们在同一条经线上. 甲地纬度为 #mi(`45^{\circ}`)，乙地纬度为 #mi(`-75^{\circ}`)，两地对应的地心角为 #mi(`45^{\circ}-(-75^{\circ})=120^{\circ}=\dfrac{2\pi}{3}`). 因此球面距离为 #mi(`R\cdot\dfrac{2\pi}{3}=\dfrac{2\pi}{3}R`)，故选 D.
 ]
 
 #problem(10)[
-$10$ 张奖券中只有 $3$ 张有奖，$5$ 个人购买，每人 $1$ 张. 至少有 $1$ 人中奖的概率是（$$）
-  #choices([$(3)/(10)$], [$(1)/(12)$], [$(1)/(2)$], [$(11)/(12)$], cols: 4)
+#mi(`10`) 张奖券中只有 #mi(`3`) 张有奖，#mi(`5`) 个人购买，每人 #mi(`1`) 张. 至少有 #mi(`1`) 人中奖的概率是（#mi(`\quad`)）
+  #choices([#mi(`\frac{3}{10}`)], [#mi(`\frac{1}{12}`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{11}{12}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-用对立事件计算. 五个人都没有中奖的概率为 $(C_7^5)/(C_(10)^5)=(21)/(252)=(1)/(12)$. 所以至少有一人中奖的概率为 $1-(1)/(12)=(11)/(12)$，故选 D.
+用对立事件计算. 五个人都没有中奖的概率为 #mi(`\dfrac{\mathrm{C}_7^5}{\mathrm{C}_{10}^5}=\dfrac{21}{252}=\dfrac1{12}`). 所以至少有一人中奖的概率为 #mi(`1-\dfrac1{12}=\dfrac{11}{12}`)，故选 D.
 ]
 
 #problem(11)[
-设集合 $A$，$B$ 是全集 $U$ 的两个子集，则 $A \s u b s e t n e q B$ 是 $(\c o m p l e m e n t_U A) union B = U$ 的（$$）
+设集合 #mi(`A`)，#mi(`B`) 是全集 #mi(`U`) 的两个子集，则 #mi(`A \subsetneq B`) 是 #mi(`(\complement_{U} A) \cup B = U`) 的（#mi(`\quad`)）
   #choices([充分不必要条件], [必要不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-由集合运算，$(\c o m p l e m e n t_U A) union B=U$ 等价于不存在属于 $A$ 但不属于 $B$ 的元素，即等价于 $A subset.eq B$. 因此 $A\s u b s e t n e q B$ 能推出该等式，但该等式成立时也可能有 $A=B$，所以 $A\s u b s e t n e q B$ 是充分不必要条件，故选 A.
+由集合运算，#mi(`(\complement_{U} A)\cup B=U`) 等价于不存在属于 #mi(`A`) 但不属于 #mi(`B`) 的元素，即等价于 #mi(`A\subseteq B`). 因此 #mi(`A\subsetneq B`) 能推出该等式，但该等式成立时也可能有 #mi(`A=B`)，所以 #mi(`A\subsetneq B`) 是充分不必要条件，故选 A.
 ]
 
 #problem(12)[
-设直线 $l: 2 x + y + 2 = 0$ 关于原点对称的直线为 $l'$，若 $l'$ 与椭圆 $x^2 + (y^2)/(4)= 1$ 的交点为 $A$，$B$，点 $P$ 为椭圆上的动点，则使 $triangle P A B$ 的面积为 $(1)/(2)$ 的点 $P$ 的个数为（$$）
-  #choices([$1$], [$2$], [$3$], [$4$], cols: 4)
+设直线 #mi(`l: 2x + y + 2 = 0`) 关于原点对称的直线为 #mi(`l'`)，若 #mi(`l'`) 与椭圆 #mi(`x^{2} + \frac{y^{2}}{4}= 1`) 的交点为 #mi(`A`)，#mi(`B`)，点 #mi(`P`) 为椭圆上的动点，则使 #mi(`\triangle PAB`) 的面积为 #mi(`\frac{1}{2}`) 的点 #mi(`P`) 的个数为（#mi(`\quad`)）
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`3`)], [#mi(`4`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-关于原点对称后，$l'$ 的方程为 $2 x+y-2=0$. 将椭圆参数化为 $x= cos t$，$y=2 sin t$，代入 $l'$ 得 $cos t+ sin t=1$，所以两个交点为 $(1,0)$ 和 $(0,2)$，从而 $|A B|=sqrt(5)$. 若点 $P$ 到直线 $A B$ 的距离为 $h$，则 $triangle P A B$ 的面积为 $(1)/(2)sqrt(5)h$. 由面积为 $(1)/(2)$ 得 $h=(1)/(sqrt(5))$，于是
-$|2 x+y-2|=1$，即点 $P$ 在直线 $2 x+y=1$ 或 $2 x+y=3$ 上.
+关于原点对称后，#mi(`l'`) 的方程为 #mi(`2x+y-2=0`). 将椭圆参数化为 #mi(`x=\cos t`)，#mi(`y=2\sin t`)，代入 #mi(`l'`) 得 #mi(`\cos t+\sin t=1`)，所以两个交点为 #mi(`(1,0)`) 和 #mi(`(0,2)`)，从而 #mi(`|AB|=\sqrt{5}`). 若点 #mi(`P`) 到直线 #mi(`AB`) 的距离为 #mi(`h`)，则 #mi(`\triangle PAB`) 的面积为 #mi(`\dfrac{1}{2}\sqrt{5}h`). 由面积为 #mi(`\dfrac{1}{2}`) 得 #mi(`h=\dfrac1{\sqrt{5}}`)，于是
 
-对于直线 $2 x+y=c$，代入椭圆得
-$2 x^2-c x+(c^2)/(4)-1=0$，其判别式为 $8-c^2$. 当 $c=1$ 时判别式为 $7>0$，有两个交点；当 $c=3$ 时判别式为 $-1<0$，没有交点. 所以满足条件的点 $P$ 有 $2$ 个，故选 B.
+#mi(`\left|2x+y-2\right|=1`)，即点 #mi(`P`) 在直线 #mi(`2x+y=1`) 或 #mi(`2x+y=3`) 上.
+
+对于直线 #mi(`2x+y=c`)，代入椭圆得
+
+#mi(`2x^{2}-cx+\dfrac{c^2}{4}-1=0`)，其判别式为 #mi(`8-c^{2}`). 当 #mi(`c=1`) 时判别式为 #mi(`7>0`)，有两个交点；当 #mi(`c=3`) 时判别式为 #mi(`-1<0`)，没有交点. 所以满足条件的点 #mi(`P`) 有 #mi(`2`) 个，故选 B.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-某学校共有教师 $490$ 人，其中不到 $40$ 岁的有 $350$ 人，$40$ 岁及以上的有 $140$ 人，为了解普通话在该校教师中的推广普及情况，用分层抽样的方法，从全体教师中抽取一个容量为 $70$ 人的样本进行普通话水平测试，其中在不到 $40$ 岁的教师中应抽取的人数是#blank(){}.
+某学校共有教师 #mi(`490`) 人，其中不到 #mi(`40`) 岁的有 #mi(`350`) 人，#mi(`40`) 岁及以上的有 #mi(`140`) 人，为了解普通话在该校教师中的推广普及情况，用分层抽样的方法，从全体教师中抽取一个容量为 #mi(`70`) 人的样本进行普通话水平测试，其中在不到 #mi(`40`) 岁的教师中应抽取的人数是\underline{\hspace{2.5em}}.
 ]
 
 #answer([50])
 
 #solution[
-分层抽样时各层的抽样比相同. 不到 $40$ 岁教师应抽取的人数为 $70 dot (350)/(490)=70 dot (5)/(7)=50$，所以填 $50$.
+分层抽样时各层的抽样比相同. 不到 #mi(`40`) 岁教师应抽取的人数为 #mi(`70\cdot\dfrac{350}{490}=70\cdot\dfrac{5}{7}=50`)，所以填 #mi(`50`).
 ]
 
 #problem(14)[
-设双曲线 $(x^(2))/(a^(2))- (y^(2))/(b^(2))= 1$（$a > 0$，$b > 0$）的右焦点为 $F$，右准线 $l$ 与两条渐近线交于 $P$，$Q$ 两点，如果 $triangle P Q F$ 是直角三角形，则双曲线的离心率 $e =$#blank(){}.
+设双曲线 #mi(`\frac{x^{2}}{a^{2}}- \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > 0`)，#mi(`b > 0`)）的右焦点为 #mi(`F`)，右准线 #mi(`l`) 与两条渐近线交于 #mi(`P`)，#mi(`Q`) 两点，如果 #mi(`\triangle PQF`) 是直角三角形，则双曲线的离心率 #mi(`e =`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$sqrt(2)$])
+#answer([#mi(`\sqrt{2}`)])
 
 #solution[
-设双曲线的焦半距为 $c$，则 $c^2=a^2+b^2$，右焦点为 $F=(c,0)$，右准线为 $x=(a^2)/(c)$. 令 $d=(a^2)/(c)$，则渐近线与准线的交点为 $P=(d,(b d)/(a))$，$Q=(d,-(b d)/(a))$. 因为 $P Q$ 是竖直线，在 $P$ 处两边的方向向量可取 $arrow(P Q)=(0,-(2 a b)/(c))$、$arrow(P F)=(c-d,-(a b)/(c))$，有 $arrow(P Q)\c d o t a r r o w(P F)=(2 a^(2) b^2)/(c^2) != 0$. 在 $Q$ 处，$arrow(Q P)=(0,(2 a b)/(c))$、$arrow(Q F)=(c-d,(a b)/(c))$，所以 $arrow(Q P)\c d o t a r r o w(Q F)=(2 a^(2) b^2)/(c^2) != 0$. 因而直角只能在 $F$ 处.
+设双曲线的焦半距为 #mi(`c`)，则 #mi(`c^{2}=a^{2}+b^{2}`)，右焦点为 #mi(`F=(c,0)`)，右准线为 #mi(`x=\dfrac{a^2}{c}`). 令 #mi(`d=\dfrac{a^2}{c}`)，则渐近线与准线的交点为 #mi(`P=\left(d,\dfrac{bd}{a}\right)`)，#mi(`Q=\left(d,-\dfrac{bd}{a}\right)`). 因为 #mi(`PQ`) 是竖直线，在 #mi(`P`) 处两边的方向向量可取 #mi(`\overrightarrow{PQ}=\left(0,-\dfrac{2ab}{c}\right)`)、#mi(`\overrightarrow{PF}=\left(c-d,-\dfrac{ab}{c}\right)`)，有 #mi(`\overrightarrow{PQ}\cdot\overrightarrow{PF}=\dfrac{2a^2b^2}{c^2}\ne0`). 在 #mi(`Q`) 处，#mi(`\overrightarrow{QP}=\left(0,\dfrac{2ab}{c}\right)`)、#mi(`\overrightarrow{QF}=\left(c-d,\dfrac{ab}{c}\right)`)，所以 #mi(`\overrightarrow{QP}\cdot\overrightarrow{QF}=\dfrac{2a^2b^2}{c^2}\ne0`). 因而直角只能在 #mi(`F`) 处.
 
-在 $F$ 处，$arrow(F P)=(d-c,(a b)/(c))$，$arrow(F Q)=(d-c,-(a b)/(c))$. 直角条件为
-$arrow(F P)\c d o t a r r o w(F Q)=(c-d)^2-((a b)/(c))^2=0$，即
-$(c-d)^2=((b d)/(a))^2$.
+在 #mi(`F`) 处，#mi(`\overrightarrow{FP}=\left(d-c,\dfrac{ab}{c}\right)`)，#mi(`\overrightarrow{FQ}=\left(d-c,-\dfrac{ab}{c}\right)`). 直角条件为
 
-由于 $c-d=(c^2-a^2)/(c)=(b^2)/(c)>0$，而 $(b d)/(a)=(a b)/(c)>0$，取正平方根得 $b^2=a b$. 由 $a$，$b>0$ 得 $a=b$，从而 $c=sqrt(2)a$，所以 $e=(c)/(a)=sqrt(2)$.
+#mi(`\overrightarrow{FP}\cdot\overrightarrow{FQ}=\left(c-d\right)^{2}-\left(\dfrac{ab}{c}\right)^{2}=0`)，即
+
+#mi(`\left(c-d\right)^{2}=\left(\dfrac{bd}{a}\right)^{2}`).
+
+由于 #mi(`c-d=\dfrac{c^2-a^2}{c}=\dfrac{b^2}{c}>0`)，而 #mi(`\dfrac{bd}{a}=\dfrac{ab}{c}>0`)，取正平方根得 #mi(`b^{2}=ab`). 由 #mi(`a`)，#mi(`b>0`) 得 #mi(`a=b`)，从而 #mi(`c=\sqrt{2}a`)，所以 #mi(`e=\dfrac{c}{a}=\sqrt{2}`).
 ]
 
 #problem(15)[
-设 $x$，$y$ 满足约束条件$\b e g i n{c a s e s} x + y <= 5 ,\\ 3 x + 2 y <= 12 ,\\ 0 <= x <= 3 ,\\ 0 <= y <= 4 \e n d{c a s e s}$ 则使得目标函数 $z = 6 x + 5 y$ 的最大的点 $(x,y)$ 是#blank(){}.
+设 #mi(`x`)，#mi(`y`) 满足约束条件#mi(`\begin{cases}x + y \le 5,\\  3x + 2y \le 12,\\  0 \le x \le 3,\\  0 \le y \le 4\end{cases}`) 则使得目标函数 #mi(`z = 6x + 5y`) 的最大的点 #mi(`(x,y)`) 是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(2,3)$])
+#answer([#mi(`(2,3)`)])
 
 #solution[
 由约束条件，
-$z=6 x+5 y=3(x+y)+(3 x+2 y) <= 3 dot 5 +12=27$.
 
-当且仅当 $x+y=5$ 且 $3 x+2 y=12$ 时取等号. 解方程组
-$\b e g i n{c a s e s} x+y=5,\\ 3 x+2 y=12 \e n d{c a s e s}$ 得 $x=2$，$y=3$，且该点满足 $0 <= x <= 3$、$0 <= y <= 4$. 因此目标函数取得最大值的点为 $(2,3)$，所以填 $(2,3)$.
+#mi(`z=6x+5y=3(x+y)+(3x+2y)\leqslant3\cdot5+12=27`).
+
+当且仅当 #mi(`x+y=5`) 且 #mi(`3x+2y=12`) 时取等号. 解方程组
+
+#mi(`\begin{cases}x+y=5,\\  3x+2y=12\end{cases}`) 得 #mi(`x=2`)，#mi(`y=3`)，且该点满足 #mi(`0\le x\leqslant3`)、#mi(`0\le y\leqslant4`). 因此目标函数取得最大值的点为 #mi(`(2,3)`)，所以填 #mi(`(2,3)`).
 ]
 
 #problem(16)[
-已知 $m$，$n$ 是不同的直线，$alpha$，$beta$ 是不重合的平面，给出下列命题：
+已知 #mi(`m`)，#mi(`n`) 是不同的直线，#mi(`\alpha`)，#mi(`\beta`) 是不重合的平面，给出下列命题：
 
-\begin{circlelist}
-\item 若 $m parallel alpha$，则 $m$ 平行于平面 $alpha$ 内的任一条直线；
-\item 若 $alpha parallel beta$，$m subset alpha$，$n subset beta$，则 $m parallel n$；
-\item 若 $m bot alpha$，$n bot beta$，$m parallel n$，则 $alpha parallel beta$；
-\item 若 $alpha parallel beta$，$m subset alpha$，则 $m parallel beta$.
-\end{circlelist}
 
-上面的命题中，真命题的序号是（写出所有真命题的序号）#blank(){}.
++ (1) 若 #mi(`m \parallel \alpha`)，则 #mi(`m`) 平行于平面 #mi(`\alpha`) 内的任一条直线；
++ (2) 若 #mi(`\alpha \parallel \beta`)，#mi(`m \subset \alpha`)，#mi(`n \subset \beta`)，则 #mi(`m \parallel n`)；
++ (3) 若 #mi(`m \perp \alpha`)，#mi(`n \perp \beta`)，#mi(`m \parallel n`)，则 #mi(`\alpha \parallel \beta`)；
++ (4) 若 #mi(`\alpha \parallel \beta`)，#mi(`m \subset \alpha`)，则 #mi(`m \parallel \beta`).
+
+
+
+上面的命题中，真命题的序号是（写出所有真命题的序号）\underline{\hspace{2.5em}}.
 ]
 
-#answer([$3\)，\(4$])
+#answer([#mi(`3`)，#mi(`4`)])
 
 #solution[
-命题 1 不成立，因为直线 $m$ 虽与平面 $alpha$ 平行，但不一定与平面内的每一条直线平行. 命题 2 不成立，因为两个平行平面内任取的两条直线方向不一定相同. 命题 3 中，两条互相平行且分别垂直于两个平面的直线具有同一法向方向，因此两个不重合平面平行，命题 3 成立. 命题 4 中，平面 $alpha$ 内的直线不与平面 $beta$ 相交，且其方向平行于平面 $beta$，所以命题 4 成立. 真命题的序号为 $3$，$4$.
+命题 1 不成立，因为直线 #mi(`m`) 虽与平面 #mi(`\alpha`) 平行，但不一定与平面内的每一条直线平行. 命题 2 不成立，因为两个平行平面内任取的两条直线方向不一定相同. 命题 3 中，两条互相平行且分别垂直于两个平面的直线具有同一法向方向，因此两个不重合平面平行，命题 3 成立. 命题 4 中，平面 #mi(`\alpha`) 内的直线不与平面 #mi(`\beta`) 相交，且其方向平行于平面 #mi(`\beta`)，所以命题 4 成立. 真命题的序号为 #mi(`3`)，#mi(`4`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知向量 $bold(m)= ( cos theta , sin theta )$ 和 $bold(n)= (sqrt(2)- sin theta , cos theta )$，$theta in ( pi , 2 pi )$，且 $|bold(m)+ bold(n)| = (8 sqrt(2))/(5)$，求 $cos ((theta)/(2)+ (pi)/(8))$ 的值.
+已知向量 #mi(`\mathbf{m}= (\cos \theta, \sin \theta)`) 和 #mi(`\mathbf{n}= (\sqrt{2}- \sin \theta, \cos \theta)`)，#mi(`\theta \in (\pi, 2\pi)`)，且 #mi(`|\mathbf{m}+ \mathbf{n}| = \frac{8\sqrt{2}}{5}`)，求 #mi(`\cos \left(\frac{\theta}{2}+ \frac{\pi}{8}\right)`) 的值.
 ]
 
 #solution[
 由题意，
-$bold(m)+bold(n)=( cos theta - sin theta +sqrt(2), sin theta + cos theta )$. 因此
-$|bold(m)+bold(n)|^2=4+2 sqrt(2)( cos theta - sin theta )$. 代入已知条件得
-$4+2 sqrt(2)( cos theta - sin theta )=(128)/(25)$，从而 $cos theta - sin theta =(7 sqrt(2))/(25)$，即
-$cos ( theta +(pi)/(4))=(7)/(25)$.
 
-因为 $theta in ( pi ,2 pi )$，所以 $theta +(pi)/(4) in ((5 pi)/(4),(9 pi)/(4))$. 令 $gamma = arccos (7)/(25)$，则在此区间内只能有 $theta +(pi)/(4)=2 pi - gamma$. 于是
-$(theta)/(2)+(pi)/(8)= pi -(gamma)/(2)$. 又 $sin gamma =(24)/(25)$，故
-$cos (gamma)/(2)=sqrt((1+ cos gamma)/(2))=(4)/(5)$. 因而所求值为 $-(4)/(5)$.
+#mi(`\mathbf{m}+\mathbf{n}=(\cos\theta-\sin\theta+\sqrt{2},\sin\theta+\cos\theta)`). 因此
+
+#mi(`\left|\mathbf{m}+\mathbf{n}\right|^{2}=4+2\sqrt{2}(\cos\theta-\sin\theta)`). 代入已知条件得
+
+#mi(`4+2\sqrt{2}(\cos\theta-\sin\theta)=\dfrac{128}{25}`)，从而 #mi(`\cos\theta-\sin\theta=\dfrac{7\sqrt{2}}{25}`)，即
+
+#mi(`\cos\left(\theta+\dfrac\pi4\right)=\dfrac7{25}`).
+
+因为 #mi(`\theta\in(\pi,2\pi)`)，所以 #mi(`\theta+\dfrac\pi4\in\left(\dfrac{5\pi}{4},\dfrac{9\pi}{4}\right)`). 令 #mi(`\gamma=\arccos\dfrac7{25}`)，则在此区间内只能有 #mi(`\theta+\dfrac\pi4=2\pi-\gamma`). 于是
+
+#mi(`\dfrac\theta2+\dfrac\pi8=\pi-\dfrac\gamma2`). 又 #mi(`\sin\gamma=\dfrac{24}{25}`)，故
+
+#mi(`\cos\dfrac\gamma2=\sqrt{\dfrac{1+\cos\gamma}{2}}=\dfrac{4}{5}`). 因而所求值为 #mi(`-\dfrac{4}{5}`).
 ]
 
 #problem(18)[
-袋中装有黑球和白球共 $7$ 个，从中任取 $2$ 个球都是白球的概率为 $(1)/(7)$，现有甲，乙两人从袋中轮流摸取 $1$ 球，甲先取，乙后取，然后甲再取…，取后不放回，直到两人中有一人取到白球时既终止，每个球在每一次被取出的机会是等可能的.
+袋中装有黑球和白球共 #mi(`7`) 个，从中任取 #mi(`2`) 个球都是白球的概率为 #mi(`\frac{1}{7}`)，现有甲，乙两人从袋中轮流摸取 #mi(`1`) 球，甲先取，乙后取，然后甲再取…，取后不放回，直到两人中有一人取到白球时既终止，每个球在每一次被取出的机会是等可能的.
 
 
-+ (1) 求袋中原有的白球的个数；
-+ (2) 求取球 $2$ 次终止的概率；
-+ (3) 求甲取到白球的概率.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 设白球有 $w$ 个，则 $(C_w^2)/(C_7^2)=(1)/(7)$. 所以 $w(w-1)=6$，由 $0 <= w <= 7$ 得 $w=3$，黑球有 $4$ 个.
-+ (2) 取球两次终止必须先取到黑球、再取到白球，所以概率为 $(4)/(7) dot (3)/(6)=(2)/(7)$.
-+ (3) 甲在第 $1$，$3$，$5$，$7$ 次取球. 白球在第 1 次被甲取到的概率为 $(3)/(7)$；在第 3 次被甲取到的概率为 $(4)/(7) dot (3)/(6) dot (3)/(5)=(6)/(35)$；在第 5 次被甲取到的概率为 $(4)/(7) dot (3)/(6) dot (2)/(5) dot (1)/(4) dot 1 =(1)/(35)$. 第 7 次不可能才首次取到白球，因为只有 $4$ 个黑球. 因此甲取到白球的概率为 $(3)/(7)+(6)/(35)+(1)/(35)=(22)/(35)$.
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-已知 $x = 1$ 是函数 $f(x) = m x^3 - 3(m + 1)x^2 + n x + 1$ 的一个极值点，其中 $m$，$n in RR$，$m < 0$.
+已知 #mi(`x = 1`) 是函数 #mi(`f(x) = mx^{3} - 3(m + 1)x^{2} + nx + 1`) 的一个极值点，其中 #mi(`m`)，#mi(`n \in \mathbb{R}`)，#mi(`m < 0`).
 
 
-+ (1) 求 $m$ 与 $n$ 的关系式；
-+ (2) 求 $f(x)$ 的单调区间.
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $x=1$ 是可导函数的极值点，所以 $f'(1)=0$. 而 $f'(x)=3 m x^2-6(m+1)x+n$，故 $3 m-6(m+1)+n=0$，即 $n=3 m+6$.
-+ (2) 代入上式，得
-$f'(x)=3 m(x-1)(x-(m+2)/(m))$. 记 $r=(m+2)/(m)=1+(2)/(m)$，由于 $m<0$，有 $r<1$. 又因 $3 m<0$，所以 $f'(x)<0$ 在 $(- oo ,r)$ 和 $(1,+ oo )$ 上成立，$f'(x)>0$ 在 $(r,1)$ 上成立. 因此 $f(x)$ 在 $(- oo ,(m+2)/(m))$ 和 $(1,+ oo )$ 上单调递减，在 $((m+2)/(m),1)$ 上单调递增.
++ (1)
 ]
 
 #problem(20)[
-如图，已知长方体 $A B C D - A_(1)B_(1)C_(1)D_(1)$，$A B = 2$，$A A_(1) = 1$，直线 $B D$ 与平面 $A A_(1)B_(1)B$ 所成的角为 $30^( degree )$，$A E$ 垂直 $B D$ 于 $E$，$F$ 为 $A_(1)B_(1)$ 的中点.
+如图，已知长方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`)，#mi(`AB = 2`)，#mi(`AA_{1}= 1`)，直线 #mi(`BD`) 与平面 #mi(`AA_{1}B_{1}B`) 所成的角为 #mi(`30^{\circ}`)，#mi(`AE`) 垂直 #mi(`BD`) 于 #mi(`E`)，#mi(`F`) 为 #mi(`A_{1}B_{1}`) 的中点.
 
 
-+ (1) 求异面直线 $A E$ 与 $B F$ 所成的角；
-+ (2) 求平面 $B D F$ 与平面 $A A_(1)B$ 所成的二面角（锐角）的大小；
-+ (3) 求点 $A$ 到平面 $B D F$ 的距离.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2005/img/shandong_liberal/q22_fig1.png", width: 46%)]
+
+#align(center)[#image("/papers/2005/img/shandong_liberal/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-建立直角坐标系，令 $B=(0,0,0)$，$C=(w,0,0)$，$A=(0,2,0)$，$D=(w,2,0)$，并令竖直方向为 $z$ 轴. 则平面 $A A_(1) B_(1) B$ 为平面 $x=0$，且 $arrow(B D)=(w,2,0)$. 由直线与平面所成角的定义，
-$sin 30 ""^( degree )=(w)/(sqrt(w^2+4))$，解得 $w=(2)/(sqrt(3))$. 此时 $A_1=(0,2,1)$，$B_1=(0,0,1)$，故 $F=(0,1,1)$.
+建立直角坐标系，令 #mi(`B=(0,0,0)`)，#mi(`C=(w,0,0)`)，#mi(`A=(0,2,0)`)，#mi(`D=(w,2,0)`)，并令竖直方向为 #mi(`z`) 轴. 则平面 #mi(`AA_{1}B_{1}B`) 为平面 #mi(`x=0`)，且 #mi(`\overrightarrow{BD}=(w,2,0)`). 由直线与平面所成角的定义，
+
+#mi(`\sin30^{\circ}=\dfrac{w}{\sqrt{w^{2}+4}}`)，解得 #mi(`w=\dfrac2{\sqrt{3}}`). 此时 #mi(`A_{1}=(0,2,1)`)，#mi(`B_{1}=(0,0,1)`)，故 #mi(`F=(0,1,1)`).
 
 
-+ (1) 设 $E=t a r r o w(B D)$. 由 $A E bot B D$，有 $(A-E)\c d o t a r r o w(B D)=0$，从而 $t=(3)/(4)$，所以 $E=((3 w)/(4),(3)/(2),0)$. 因此 $arrow(A E)=((3 w)/(4),-(1)/(2),0)$，$arrow(B F)=(0,1,1)$. 于是
-$|arrow(A E)\c d o t a r r o w(B F)|=(1)/(2)$，$|arrow(A E)|=1$，$|arrow(B F)|=sqrt(2)$. 设所成锐角为 $theta$，则 $cos theta =((1)/(2))/(sqrt(2))=(sqrt(2))/(4)$，所以 $theta = arccos (sqrt(2))/(4)$.
-+ (2) 平面 $B D F$ 的一个法向量为
-$arrow(B D)\t i m e s a r r o w(B F)=(2,-w,w)$，平面 $A A_(1) B$ 的一个法向量为 $(1,0,0)$. 所以两平面所成锐角 $phi.alt$ 满足 $cos phi.alt =(2)/(sqrt(4+2 w^2))=sqrt((3)/(5))$，故 $phi.alt =\a r c c o s s q r t((3)/(5))$.
-+ (3) 由法向量可知平面 $B D F$ 的方程为 $2 x-w y+w z=0$. 点 $A=(0,2,0)$ 到该平面的距离为
-$(|0-2 w+0|)/(sqrt(4+2 w^2))=(2)/(sqrt(5))$.
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-已知数列 $\{a_(n)\}$ 的首项 $a_1 = 5$，前 $n$ 项和为 $S_(n)$，且 $S_(n+1) = 2 S_(n) + n + 5$（$n in bold(N)^(*)$）.
+已知数列 #mi(`\{a_{n}\}`) 的首项 #mi(`a_{1} = 5`)，前 #mi(`n`) 项和为 #mi(`S_{n}`)，且 #mi(`S_{n+1}= 2S_{n}+ n + 5`)（#mi(`n \in \mathbf{N}^{*}`)）.
 
 
-+ (1) 证明数列 $\{a_(n) + 1\}$ 是等比数列；
-+ (2) 令 $f(x) = a_(1) x + a_(2) x^2 + dots.c + a_(n) x^n$，求函数 $f(x)$ 在点 $x = 1$ 处的导数 $f'(1)$.
++ (1)
 ]
 
 #solution[
-+ (1) 由已知式，$a_(n+1)=S_(n+1)-S_n=S_n+n+5$. 当 $n=1$ 时，$S_2=2 S_1+1+5=16$，所以 $a_2=S_2-S_1=11=2 a_1+1$. 当 $n >= 2$ 时，$S_n=2 S_(n-1)+n+4$，从而
-$a_(n+1)+1=S_n+n+6=2 S_(n-1)+2 n+10=2(S_(n-1)+n+5)=2(a_n+1)$.
-因此对所有 $n in NN ""^*$，都有 $a_(n+1)+1=2(a_n+1)$，且 $a_1+1=6$，所以 $\{a_n+1\}$ 是首项为 $6$、公比为 $2$ 的等比数列.
-+ (2) 由上题，$a_k=6 dot 2 ""^(k-1)-1=3 dot 2 ""^k-1$. 于是
-$f'(1)=sum_(k=1)^(n) k a_k=3 sum_(k=1)^(n) k2^k-sum_(k=1)^(n) k$. 又 $sum_(k=1)^(n) k2^k=(n-1)2^(n+1)+2$，$sum_(k=1)^(n) k=(n(n+1))/(2)$，所以
-$f'(1)=3(n-1)2^(n+1)+6-(n(n+1))/(2)$.
++ (1)
 ]
 
 #problem(22)[
-已知动圆过定点 $((p)/(2), 0)$，且与直线 $x = -(p)/(2)$ 相切，其中 $p > 0$.
+已知动圆过定点 #mi(`\left(\frac{p}{2}, 0\right)`)，且与直线 #mi(`x = -\frac{p}{2}`) 相切，其中 #mi(`p > 0`).
 
 
-+ (1) 求动圆圆心 $C$ 的轨迹的方程；
-+ (2) 设 $A$，$B$ 是轨迹 $C$ 上异于原点 $O$ 的两个不同点，直线 $O A$ 和 $O B$ 的倾斜角分别为 $alpha$ 和 $beta$，当 $alpha$，$beta$ 变化且 $alpha + beta = (pi)/(4)$，证明直线 $A B$ 恒过定点，并求出该定点的坐标.
++ (1)
 ]
 
 #solution[
-+ (1) 设动圆圆心为 $C=(x,y)$，则圆经过 $P=((p)/(2),0)$，且与直线 $x=-(p)/(2)$ 相切，所以半径的平方分别为
-$(x-(p)/(2))^2+y^2$ 和 $(x+(p)/(2))^2$. 令二者相等，得 $y^2=2 p x$. 因此圆心轨迹为抛物线 $y^2=2 p x$.
-+ (2) 设 $u= cot alpha$，$v= cot beta$. 因为 $A$、$B$ 异于原点，且抛物线 $y^2=2 p x$ 与 $x$ 轴只有原点交点，所以 $A$、$B$ 的纵坐标均不为零. 直线 $O A$ 的方程可写为 $x=u y$，代入抛物线方程得 $y=2 p u$，从而 $A=(2 p u^2,2 p u)$；同理 $B=(2 p v^2,2 p v)$. 直接将这两点代入可得直线 $A B$ 的方程为
-$x-(u+v)y+2 p u v=0$. 由 $tan ( alpha + beta )= tan (pi)/(4)=1$，有
-$(u+v)/(u v-1)=1$，即 $u+v=u v-1$. 令 $s=u+v$，则 $u v=s+1$，直线方程化为
-$x+2 p+s(2 p-y)=0$. 因此点 $(-2 p,2 p)$ 对任意允许的 $u$，$v$ 都在直线 $A B$ 上，故直线 $A B$ 恒过定点 $(-2 p,2 p)$.
++ (1)
 ]
 

@@ -1,8 +1,149 @@
 {
-  "title": "2012年普通高等学校招生全国统一考试",
-  "subtitle": "2012年陕西卷（文）",
   "year": "2012",
   "slug": "shaanxi_liberal",
+  "title": "2012年陕西卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "选做题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "选做题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "选做题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +158,9 @@
             "$[1,2]$"
           ],
           "answer": "C",
-          "solution": "由 $\\lg x>0$，得 $x>1$，所以 $M=(1,+\\infty)$. 由 $x^{2}\\leqslant4$，得 $-2\\le x\\leqslant2$，所以 $N=[-2,2]$. 因此 $M\\cap N=(1,2]$，故选 C."
+          "solution": "由 $\\lg x>0$，得 $x>1$，所以 $M=(1,+\\infty)$. 由 $x^{2}\\leqslant4$，得 $-2\\le x\\leqslant2$，所以 $N=[-2,2]$. 因此 $M\\cap N=(1,2]$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,11 +172,13 @@
             "$y = x|x|$"
           ],
           "answer": "D",
-          "solution": "函数 $y=x+1$ 不满足奇函数条件，因为 $f(-x)=-x+1\\ne-f(x)$. 函数 $y=-x^{3}$ 满足奇函数条件，但其导数为 $f'(x)=-3x^{2}\\leqslant0$，且在 $\\mathbb{R}$ 上严格递减，因而不是增函数. 函数 $y=\\frac{1}{x}$ 也满足奇函数条件，但在定义域上 $1<2$ 而 $f(1)=1>\\frac{1}{2}=f(2)$，所以不是增函数. 对于 $y=x|x|$，有 $f(-x)=-f(x)$，所以它是奇函数；当 $x<0$ 时 $f(x)=-x^{2}$，导数 $-2x>0$，当 $x>0$ 时 $f(x)=x^{2}$，导数 $2x>0$，且 $f(0)=0$. 若 $x_{1}<0\\le x_{2}$，则 $f(x_{1})<0\\le f(x_{2})$，故该函数在整个 $\\mathbb{R}$ 上递增. 因此选 D."
+          "solution": "函数 $y=x+1$ 不满足奇函数条件，因为 $f(-x)=-x+1\\ne-f(x)$. 函数 $y=-x^{3}$ 满足奇函数条件，但其导数为 $f'(x)=-3x^{2}\\leqslant0$，且在 $\\mathbb{R}$ 上严格递减，因而不是增函数. 函数 $y=\\frac{1}{x}$ 也满足奇函数条件，但在定义域上 $1<2$ 而 $f(1)=1>\\frac{1}{2}=f(2)$，所以不是增函数. 对于 $y=x|x|$，有 $f(-x)=-f(x)$，所以它是奇函数；当 $x<0$ 时 $f(x)=-x^{2}$，导数 $-2x>0$，当 $x>0$ 时 $f(x)=x^{2}$，导数 $2x>0$，且 $f(0)=0$. 若 $x_{1}<0\\le x_{2}$，则 $f(x_{1})<0\\le f(x_{2})$，故该函数在整个 $\\mathbb{R}$ 上递增. 因此选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
-          "body": "<p>对某商店一个月内每天的顾客人数进行了统计，得到样本的茎叶图如图所示. 则该样本的中位数，众数，极差分别是（ ）</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$1$ </td><td> $2  5$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$2$ </td><td> $0$，$2$，$3$，$3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$3$ </td><td> $1$，$2$，$4$，$4$，$8$，$9$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$4$ </td><td> $5$，$5$，$5$，$7$，$7$，$8$，$8$，$9$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$5$ </td><td> $0$，$0$，$1$，$1$，$4$，$7$，$9$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$6$ </td><td> $1$，$7$，$8$</td></tr></tbody></table></center>",
+          "body": "<p>对某商店一个月内每天的顾客人数进行了统计，得到样本的茎叶图如图所示. 则该样本的中位数，众数，极差分别是（ ）</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$1$ </td><td> $2  5$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$2$ </td><td> $0$，$2$，$3$，$3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$3$ </td><td> $1$，$2$，$4$，$4$，$8$，$9$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$4$ </td><td> $5$，$5$，$5$，$7$，$7$，$8$，$8$，$9$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$5$ </td><td> $0$，$0$，$1$，$1$，$4$，$7$，$9$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$6$ </td><td> $1$，$7$，$8$</td></tr></tbody></table></center>",
           "choices": [
             "$46$，$45$，$56$",
             "$46$，$45$，$53$",
@@ -41,7 +186,9 @@
             "$45$，$47$，$53$"
           ],
           "answer": "A",
-          "solution": "由茎叶图可知共有 $2+4+6+8+7+3=30$ 个数据. 按从小到大排列后，第 $15$ 个和第 $16$ 个数据分别为 $45$ 和 $47$，所以中位数为 $\\frac{45+47}{2}=46$. 数据 $45$ 出现了 $3\\text{ 次}$，次数最多，所以众数为 $45$. 最大值为 $68$，最小值为 $12$，故极差为 $68-12=56$. 因此选 A."
+          "solution": "由茎叶图可知共有 $2+4+6+8+7+3=30$ 个数据. 按从小到大排列后，第 $15$ 个和第 $16$ 个数据分别为 $45$ 和 $47$，所以中位数为 $\\frac{45+47}{2}=46$. 数据 $45$ 出现了 $3\\text{ 次}$，次数最多，所以众数为 $45$. 最大值为 $68$，最小值为 $12$，故极差为 $68-12=56$. 因此选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,11 +200,13 @@
             "既不充分也不必要条件"
           ],
           "answer": "B",
-          "solution": "因为 $\\frac{1}{\\mathrm{i}}=-\\mathrm{i}$，所以复数 $a+\\frac{b}{\\mathrm{i}}=a-b\\mathrm{i}$. 若它为纯虚数，则实部 $a=0$，从而必有 $ab=0$，所以 $ab=0$ 是“复数 $a+\\frac{b}{\\mathrm{i}}$ 为纯虚数”的必要条件. 但 $ab=0$ 时也可能有 $b=0$、$a\\ne0$，此时复数为非零实数，不是纯虚数，因此不是充分条件，故选 B."
+          "solution": "因为 $\\frac{1}{\\mathrm{i}}=-\\mathrm{i}$，所以复数 $a+\\frac{b}{\\mathrm{i}}=a-b\\mathrm{i}$. 若它为纯虚数，则实部 $a=0$，从而必有 $ab=0$，所以 $ab=0$ 是“复数 $a+\\frac{b}{\\mathrm{i}}$ 为纯虚数”的必要条件. 但 $ab=0$ 时也可能有 $b=0$、$a\\ne0$，此时复数为非零实数，不是纯虚数，因此不是充分条件，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
-          "body": "<p>如图所示是计算某年级 $500\\text{ 名}$ 学生期末考试（满分为 $100\\text{ 分}$）及格率 $q$ 的程序框图，则图中空白框内应填入（ ）</p><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图所示是计算某年级 $500\\text{ 名}$ 学生期末考试（满分为 $100\\text{ 分}$）及格率 $q$ 的程序框图，则图中空白框内应填入（ ）</p><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/shaanxi_liberal/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$q = \\frac{N}{M}$",
             "$q = \\frac{M}{N}$",
@@ -65,7 +214,9 @@
             "$q = \\frac{M}{M + N}$"
           ],
           "answer": "D",
-          "solution": "程序中，若成绩满足 $x_{i}\\geqslant60$，则 $M$ 加 $1$；否则 $N$ 加 $1$. 循环结束后，$M$ 是及格人数，$N$ 是不及格人数，且 $M+N=500$. 因而及格率为 $q=\\frac{M}{M+N}$，故选 D."
+          "solution": "程序中，若成绩满足 $x_{i}\\geqslant60$，则 $M$ 加 $1$；否则 $N$ 加 $1$. 循环结束后，$M$ 是及格人数，$N$ 是不及格人数，且 $M+N=500$. 因而及格率为 $q=\\frac{M}{M+N}$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +228,9 @@
             "以上三个选项均有可能"
           ],
           "answer": "A",
-          "solution": "将圆的方程配方，得 $(x-2)^{2}+y^{2}=4$，所以圆 $C$ 的圆心为 $O(2,0)$，半径为 $2$. 点 $P(3,0)$ 到圆心的距离为 $OP=1<2$，即点 $P$ 在圆内. 过圆内一点的任意直线都与圆相交于两个点，因此 $l$ 与 $C$ 相交，故选 A."
+          "solution": "将圆的方程配方，得 $(x-2)^{2}+y^{2}=4$，所以圆 $C$ 的圆心为 $O(2,0)$，半径为 $2$. 点 $P(3,0)$ 到圆心的距离为 $OP=1<2$，即点 $P$ 在圆内. 过圆内一点的任意直线都与圆相交于两个点，因此 $l$ 与 $C$ 相交，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,19 +242,23 @@
             "$-1$"
           ],
           "answer": "C",
-          "solution": "由两向量垂直，得 $\\mathbf{a}\\cdot\\mathbf{b}=0$，即 $1\\cdot(-1)+\\cos\\theta\\cdot2\\cos\\theta=0$. 因此 $2\\cos^{2}\\theta=1$，从而 $\\cos2\\theta=2\\cos^{2}\\theta-1=0$，故选 C."
+          "solution": "由两向量垂直，得 $\\mathbf{a}\\cdot\\mathbf{b}=0$，即 $1\\cdot(-1)+\\cos\\theta\\cdot2\\cos\\theta=0$. 因此 $2\\cos^{2}\\theta=1$，从而 $\\cos2\\theta=2\\cos^{2}\\theta-1=0$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
-          "body": "<p>将正方体（如图 1 所示）截去两个三棱锥，得到图 2 所示的几何体，则该几何体的左视图为（ ）</p><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>将正方体（如图 1 所示）截去两个三棱锥，得到图 2 所示的几何体，则该几何体的左视图为（ ）</p><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/shaanxi_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shaanxi_liberal/q8_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shaanxi_liberal/q8_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shaanxi_liberal/q8_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shaanxi_liberal/q8_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/shaanxi_liberal/q8_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/shaanxi_liberal/q8_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/shaanxi_liberal/q8_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/shaanxi_liberal/q8_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "B",
-          "solution": "沿左视方向投影图 2，前下方的 $A$、$B$ 重合为左下顶点，后下方的 $D$、$C$ 重合为右下顶点，$B_{1}$ 和 $D_{1}$ 分别形成上方两个顶点，所以外轮廓为一个正方形. 按图 2 中棱的可见性，棱 $B_{1}C$ 投影为左上至右下的实线，棱 $AD_{1}$ 投影为左下至右上的虚线，其余重合棱只构成正方形边界. 因此左视图为选项 B."
+          "solution": "沿左视方向投影图 2，前下方的 $A$、$B$ 重合为左下顶点，后下方的 $D$、$C$ 重合为右下顶点，$B_{1}$ 和 $D_{1}$ 分别形成上方两个顶点，所以外轮廓为一个正方形. 按图 2 中棱的可见性，棱 $B_{1}C$ 投影为左上至右下的实线，棱 $AD_{1}$ 投影为左下至右上的虚线，其余重合棱只构成正方形边界. 因此左视图为选项 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +270,9 @@
             "$x = 2$ 为 $f(x)$ 的极小值点"
           ],
           "answer": "D",
-          "solution": "函数的定义域为 $x>0$，且 $f'(x)=-\\frac{2}{x^{2}}+\\frac{1}{x}=\\frac{x-2}{x^{2}}$. 因为 $x^{2}>0$，所以当 $0<x<2$ 时 $f'(x)<0$，当 $x>2$ 时 $f'(x)>0$. 因此 $f(x)$ 在 $(0,2)$ 上递减，在 $(2,+\\infty)$ 上递增，故 $x=2$ 为极小值点，选 D."
+          "solution": "函数的定义域为 $x>0$，且 $f'(x)=-\\frac{2}{x^{2}}+\\frac{1}{x}=\\frac{x-2}{x^{2}}$. 因为 $x^{2}>0$，所以当 $0<x<2$ 时 $f'(x)<0$，当 $x>2$ 时 $f'(x)>0$. 因此 $f(x)$ 在 $(0,2)$ 上递减，在 $(2,+\\infty)$ 上递增，故 $x=2$ 为极小值点，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +284,9 @@
             "$v = \\frac{a + b}{2}$"
           ],
           "answer": "A",
-          "solution": "设甲、乙两地之间的单程路程为 $s$. 往返总路程为 $2s$，总用时为 $\\frac{s}{a}+\\frac{s}{b}$，所以平均时速 $v=\\frac{2s}{\\frac{s}{a}+\\frac{s}{b}}=\\frac{2ab}{a+b}$. 由于 $a<b$，有 $v>a\\Longleftrightarrow2b>a+b$，所以 $v>a$. 又由算术平均数大于几何平均数，$a+b>2\\sqrt{ab}$，从而 $v<\\sqrt{ab}$. 因此 $a<v<\\sqrt{ab}$，故选 A."
+          "solution": "设甲、乙两地之间的单程路程为 $s$. 往返总路程为 $2s$，总用时为 $\\frac{s}{a}+\\frac{s}{b}$，所以平均时速 $v=\\frac{2s}{\\frac{s}{a}+\\frac{s}{b}}=\\frac{2ab}{a+b}$. 由于 $a<b$，有 $v>a\\Longleftrightarrow2b>a+b$，所以 $v>a$. 又由算术平均数大于几何平均数，$a+b>2\\sqrt{ab}$，从而 $v<\\sqrt{ab}$. 因此 $a<v<\\sqrt{ab}$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,30 +296,38 @@
         {
           "num": 11,
           "body": "设函数 $f(x) = \\begin{cases}\\sqrt{x},&x \\ge 0,\\\\  \\left(\\frac{1}{2}\\right)^{x},&x < 0.\\end{cases}$ 则 $f\\left(f(-4)\\right) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "4",
-          "solution": "因为 $-4<0$，所以 $f(-4)=\\left(\\frac{1}{2}\\right)^{-4}=2^{4}=16$. 又因为 $16\\geqslant0$，所以 $f\\left(f(-4)\\right)=f(16)=\\sqrt{16}=4$."
+          "solution": "因为 $-4<0$，所以 $f(-4)=\\left(\\frac{1}{2}\\right)^{-4}=2^{4}=16$. 又因为 $16\\geqslant0$，所以 $f\\left(f(-4)\\right)=f(16)=\\sqrt{16}=4$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "观察下列不等式：$1 + \\frac{1}{2^{2}}< \\frac{3}{2}$，$1 + \\frac{1}{2^{2}}+ \\frac{1}{3^{2}}< \\frac{5}{3}$，$1 + \\frac{1}{2^{2}}+ \\frac{1}{3^{2}}+ \\frac{1}{4^{2}}< \\frac{7}{4}$. 照此规律，第五个不等式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$1 + \\frac{1}{2^{2}}+ \\frac{1}{3^{2}}+ \\frac{1}{4^{2}}+ \\frac{1}{5^{2}}+ \\frac{1}{6^{2}}< \\frac{11}{6}$",
-          "solution": "观察已给出的三个不等式，左边分别含有从 $\\frac{1}{2^{2}}$ 到 $\\frac{1}{n^{2}}$ 的项，右边分别为 $\\frac{2n-1}{n}$，其中 $n=2$，$3$，$4$. 第五个不等式对应 $n=6$，因此为 $1+\\frac{1}{2^{2}}+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}+\\frac{1}{5^{2}}+\\frac{1}{6^{2}}<\\frac{2\\times6-1}{6}=\\frac{11}{6}$."
+          "choices": [],
+          "answer": "\\(1 + \\frac{1}{2^2} + \\frac{1}{3^2} + \\frac{1}{4^2} + \\frac{1}{5^2} + \\frac{1}{6^2} < \\frac{11}{6}\\)",
+          "solution": "观察已给出的三个不等式，左边分别含有从 $\\frac{1}{2^{2}}$ 到 $\\frac{1}{n^{2}}$ 的项，右边分别为 $\\frac{2n-1}{n}$，其中 $n=2$，$3$，$4$. 第五个不等式对应 $n=6$，因此为 $1+\\frac{1}{2^{2}}+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}+\\frac{1}{5^{2}}+\\frac{1}{6^{2}}<\\frac{2\\times6-1}{6}=\\frac{11}{6}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对应的边长分别为 $a$，$b$，$c$，若 $a = 2$，$B = \\frac{\\pi}{6}$，$c = 2\\sqrt{3}$，则 $b =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "2",
-          "solution": "在三角形 $ABC$ 中，角 $B$ 的两边为 $a$ 和 $c$，由余弦定理 $b^{2}=a^{2}+c^{2}-2ac\\cos B$. 代入 $a=2$，$c=2\\sqrt{3}$，$B=\\frac{\\pi}{6}$，得 $b^{2}=2^{2}+(2\\sqrt{3})^{2}-2\\cdot2\\cdot2\\sqrt{3}\\cdot\\cos\\frac{\\pi}{6}=4+12-12=4$. 因为边长为正，所以 $b=2$."
+          "solution": "在三角形 $ABC$ 中，角 $B$ 的两边为 $a$ 和 $c$，由余弦定理 $b^{2}=a^{2}+c^{2}-2ac\\cos B$. 代入 $a=2$，$c=2\\sqrt{3}$，$B=\\frac{\\pi}{6}$，得 $b^{2}=2^{2}+(2\\sqrt{3})^{2}-2\\cdot2\\cdot2\\sqrt{3}\\cdot\\cos\\frac{\\pi}{6}=4+12-12=4$. 因为边长为正，所以 $b=2$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
-          "body": "<p>如图是抛物线形拱桥，当水面在 $l$ 时，拱顶离水面 $2\\text{ 米}$，水面宽 $4\\text{ 米}$，水位下降 $1\\text{ 米}$ 后，水面宽<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{米}$.</p><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$2\\sqrt{6}$",
-          "solution": "以水面 $l$ 为 $x$ 轴，拱顶所在的竖直线为 $y$ 轴，设抛物线方程为 $y=2-kx^{2}$，其中 $k>0$. 水面宽为 $4\\text{ 米}$，所以抛物线经过 $(2,0)$ 和 $(-2,0)$，代入得 $0=2-4k$，从而 $k=\\frac{1}{2}$. 因此拱形曲线为 $y=2-\\frac{x^{2}}{2}$. 水位下降 $1\\text{ 米}$ 后，新水面为 $y=-1$. 令 $-1=2-\\frac{x^{2}}{2}$，得 $x^{2}=6$，故新水面两端的横坐标为 $-\\sqrt{6}$ 和 $\\sqrt{6}$，水面宽为 $2\\sqrt{6}\\text{ 米}$."
+          "body": "<p>如图是抛物线形拱桥，当水面在 $l$ 时，拱顶离水面 $2\\text{ 米}$，水面宽 $4\\text{ 米}$，水位下降 $1\\text{ 米}$ 后，水面宽<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{米}$.</p><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/shaanxi_liberal/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(2\\sqrt{6}\\)",
+          "solution": "以水面 $l$ 为 $x$ 轴，拱顶所在的竖直线为 $y$ 轴，设抛物线方程为 $y=2-kx^{2}$，其中 $k>0$. 水面宽为 $4\\text{ 米}$，所以抛物线经过 $(2,0)$ 和 $(-2,0)$，代入得 $0=2-4k$，从而 $k=\\frac{1}{2}$. 因此拱形曲线为 $y=2-\\frac{x^{2}}{2}$. 水位下降 $1\\text{ 米}$ 后，新水面为 $y=-1$. 令 $-1=2-\\frac{x^{2}}{2}$，得 $x^{2}=6$，故新水面两端的横坐标为 $-\\sqrt{6}$ 和 $\\sqrt{6}$，水面宽为 $2\\sqrt{6}\\text{ 米}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -168,23 +337,29 @@
         {
           "num": 15,
           "body": "若存在实数 $x$ 使 $|x - a| + |x - 1| \\le 3$ 成立，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$[-2,4]$",
-          "solution": "对任意实数 $x$，由三角不等式有 $|x-a|+|x-1|\\ge|a-1|$，且当 $x$ 位于 $a$ 与 $1$ 之间时等号成立. 因此存在实数 $x$ 使题设不等式成立，当且仅当 $|a-1|\\leqslant3$. 解得 $-3\\le a-1\\leqslant3$，即 $-2\\le a\\leqslant4$，所以 $a$ 的取值范围为 $[-2,4]$."
+          "choices": [],
+          "answer": "\\([-2,4]\\)",
+          "solution": "对任意实数 $x$，由三角不等式有 $|x-a|+|x-1|\\ge|a-1|$，且当 $x$ 位于 $a$ 与 $1$ 之间时等号成立. 因此存在实数 $x$ 使题设不等式成立，当且仅当 $|a-1|\\leqslant3$. 解得 $-3\\le a-1\\leqslant3$，即 $-2\\le a\\leqslant4$，所以 $a$ 的取值范围为 $[-2,4]$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
-          "body": "<p>如图，在圆 $O$ 中，直径 $AB$ 与弦 $CD$ 垂直，垂足为 $E$，$EF \\perp DB$，垂足为 $F$，若 $AB = 6$，$AE = 1$，则 $DF \\cdot DB =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$5$",
-          "solution": "因为直径 $AB$ 垂直于弦 $CD$，且经过圆心，所以垂足 $E$ 是弦 $CD$ 的中点，即 $CE=DE$. 由相交弦定理，$AE\\cdot EB=CE\\cdot DE=DE^{2}$. 又 $AB=6$、$AE=1$，所以 $EB=5$，从而 $DE^{2}=1\\cdot5=5$. 在直角三角形 $DEB$ 中，$EF\\perp DB$，由直角三角形斜边上的高的性质，$DE^{2}=DF\\cdot DB$. 因此 $DF\\cdot DB=5$."
+          "body": "<p>如图，在圆 $O$ 中，直径 $AB$ 与弦 $CD$ 垂直，垂足为 $E$，$EF \\perp DB$，垂足为 $F$，若 $AB = 6$，$AE = 1$，则 $DF \\cdot DB =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/shaanxi_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(5\\)",
+          "solution": "因为直径 $AB$ 垂直于弦 $CD$，且经过圆心，所以垂足 $E$ 是弦 $CD$ 的中点，即 $CE=DE$. 由相交弦定理，$AE\\cdot EB=CE\\cdot DE=DE^{2}$. 又 $AB=6$、$AE=1$，所以 $EB=5$，从而 $DE^{2}=1\\cdot5=5$. 在直角三角形 $DEB$ 中，$EF\\perp DB$，由直角三角形斜边上的高的性质，$DE^{2}=DF\\cdot DB$. 因此 $DF\\cdot DB=5$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "直线 $2\\rho \\cos \\theta = 1$ 与圆 $\\rho = 2\\cos \\theta$ 相交的弦长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\sqrt{3}$",
-          "solution": "在极坐标中 $x=\\rho\\cos\\theta$，所以直线 $2\\rho\\cos\\theta=1$ 化为 $x=\\frac{1}{2}$. 圆 $\\rho=2\\cos\\theta$ 两边同乘 $\\rho$，得 $\\rho^{2}=2\\rho\\cos\\theta$，即 $x^{2}+y^{2}=2x$，所以圆心为 $(1,0)$，半径为 $1$. 圆心到直线 $x=\\frac{1}{2}$ 的距离为 $\\frac{1}{2}$，故弦长为 $2\\sqrt{1^{2}-\\left(\\frac{1}{2}\\right)^{2}}=\\sqrt{3}$."
+          "choices": [],
+          "answer": "\\(\\sqrt{3}\\)",
+          "solution": "在极坐标中 $x=\\rho\\cos\\theta$，所以直线 $2\\rho\\cos\\theta=1$ 化为 $x=\\frac{1}{2}$. 圆 $\\rho=2\\cos\\theta$ 两边同乘 $\\rho$，得 $\\rho^{2}=2\\rho\\cos\\theta$，即 $x^{2}+y^{2}=2x$，所以圆心为 $(1,0)$，半径为 $1$. 圆心到直线 $x=\\frac{1}{2}$ 的距离为 $\\frac{1}{2}$，故弦长为 $2\\sqrt{1^{2}-\\left(\\frac{1}{2}\\right)^{2}}=\\sqrt{3}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -194,44 +369,56 @@
         {
           "num": 18,
           "body": "<p>已知等比数列 $\\{a_{n}\\}$ 的公比为 $q = -\\frac{1}{2}$.</p><ol class=\"enumerate\"><li><p>若 $a_{3} = \\frac{1}{4}$，求数列 $\\{a_{n}\\}$ 的前 $n$ 项和；</p></li><li><p>证明：对任意 $k \\in \\N_{+}$，$a_{k}$，$a_{k+2}$，$a_{k+1}$ 成等差数列.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由等比数列的通项公式，$a_{3}=a_{1}q^{2}$. 代入 $a_{3}=\\frac{1}{4}$ 和 $q=-\\frac{1}{2}$，得 $a_{1}\\left(-\\frac{1}{2}\\right)^{2}=\\frac{1}{4}$，所以 $a_{1}=1$. 因为 $q\\ne1$，数列的前 $n$ 项和为</p><p>$S_{n}=\\dfrac{a_1\\left(1-q^n\\right)}{1-q}=\\dfrac{1-\\left(-\\frac{1}{2}\\right)^n}{1+\\frac{1}{2}}=\\dfrac{2+\\left(-\\frac{1}{2}\\right)^{n-1}}{3}$.</p></li><li><p>由等比数列的通项公式，$a_{k+1}=a_{k}q=-\\frac{1}{2}a_{k}$，$a_{k+2}=a_{k}q^{2}=\\frac{1}{4}a_{k}$. 因此 $2a_{k+2}=\\frac{1}{2}a_{k}$，而 $a_{k}+a_{k+1}=a_{k}-\\frac{1}{2}a_{k}=\\frac{1}{2}a_{k}$，从而 $2a_{k+2}=a_{k}+a_{k+1}$. 所以 $a_{k}$，$a_{k+2}$，$a_{k+1}$ 成等差数列.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由等比数列的通项公式，$a_{3}=a_{1}q^{2}$. 代入 $a_{3}=\\frac{1}{4}$ 和 $q=-\\frac{1}{2}$，得 $a_{1}\\left(-\\frac{1}{2}\\right)^{2}=\\frac{1}{4}$，所以 $a_{1}=1$. 因为 $q\\ne1$，数列的前 $n$ 项和为</p><p>$S_{n}=\\dfrac{a_1\\left(1-q^n\\right)}{1-q}=\\dfrac{1-\\left(-\\frac{1}{2}\\right)^n}{1+\\frac{1}{2}}=\\dfrac{2+\\left(-\\frac{1}{2}\\right)^{n-1}}{3}$.</p></li><li><p>由等比数列的通项公式，$a_{k+1}=a_{k}q=-\\frac{1}{2}a_{k}$，$a_{k+2}=a_{k}q^{2}=\\frac{1}{4}a_{k}$. 因此 $2a_{k+2}=\\frac{1}{2}a_{k}$，而 $a_{k}+a_{k+1}=a_{k}-\\frac{1}{2}a_{k}=\\frac{1}{2}a_{k}$，从而 $2a_{k+2}=a_{k}+a_{k+1}$. 所以 $a_{k}$，$a_{k+2}$，$a_{k+1}$ 成等差数列.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>函数 $f(x) = A \\sin \\left(\\omega x - \\frac{\\pi}{6}\\right) + 1$（$A > 0$，$\\omega > 0$）的最大值为 $3$，其图象相邻两条对称轴之间的距离为 $\\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的解析式；</p></li><li><p>设 $\\alpha \\in \\left(0, \\frac{\\pi}{2}\\right)$，$f\\left(\\frac{\\alpha}{2}\\right) = 2$，求 $\\alpha$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $A>0$，函数的最大值为 $1+A$. 由最大值为 $3$，得 $1+A=3$，所以 $A=2$. 正弦函数相邻两条对称轴之间的距离为半个周期，即 $\\frac{\\pi}{\\omega}$. 由题意 $\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，得 $\\omega=2$. 因此 $f(x)=2\\sin\\left(2x-\\frac{\\pi}{6}\\right)+1$.</p></li><li><p>将 $x=\\frac{\\alpha}{2}$ 代入上式，得 $2\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)+1=2$，即 $\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)=\\frac{1}{2}$. 由 $0<\\alpha<\\frac{\\pi}{2}$，有 $-\\frac{\\pi}{6}<\\alpha-\\frac{\\pi}{6}<\\frac{\\pi}{3}$. 在此区间内，正弦值为 $\\frac{1}{2}$ 的角只有 $\\frac{\\pi}{6}$，所以 $\\alpha-\\frac{\\pi}{6}=\\frac{\\pi}{6}$，解得 $\\alpha=\\frac{\\pi}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $A>0$，函数的最大值为 $1+A$. 由最大值为 $3$，得 $1+A=3$，所以 $A=2$. 正弦函数相邻两条对称轴之间的距离为半个周期，即 $\\frac{\\pi}{\\omega}$. 由题意 $\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，得 $\\omega=2$. 因此 $f(x)=2\\sin\\left(2x-\\frac{\\pi}{6}\\right)+1$.</p></li><li><p>将 $x=\\frac{\\alpha}{2}$ 代入上式，得 $2\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)+1=2$，即 $\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)=\\frac{1}{2}$. 由 $0<\\alpha<\\frac{\\pi}{2}$，有 $-\\frac{\\pi}{6}<\\alpha-\\frac{\\pi}{6}<\\frac{\\pi}{3}$. 在此区间内，正弦值为 $\\frac{1}{2}$ 的角只有 $\\frac{\\pi}{6}$，所以 $\\alpha-\\frac{\\pi}{6}=\\frac{\\pi}{6}$，解得 $\\alpha=\\frac{\\pi}{3}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB = AA_{1}$，$\\angle CAB = \\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>证明：$CB_{1} \\perp BA_{1}$；</p></li><li><p>已知 $AB = 2$，$BC = \\sqrt{5}$，求三棱锥 $C_{1} - ABA_{1}$ 的体积.</p></li></ol><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB = AA_{1}$，$\\angle CAB = \\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>证明：$CB_{1} \\perp BA_{1}$；</p></li><li><p>已知 $AB = 2$，$BC = \\sqrt{5}$，求三棱锥 $C_{1} - ABA_{1}$ 的体积.</p></li></ol><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/shaanxi_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，使点 $A$ 为原点，$x$ 轴、$y$ 轴、$z$ 轴分别沿 $AB$、$AC$、$AA_{1}$ 方向. 记 $AB=AA_{1}=m$，$AC=n$. 由于三棱柱是直三棱柱且 $\\angle CAB=\\frac{\\pi}{2}$，可设</p><p>$A=(0,0,0)$，$B=(m,0,0)$，$C=(0,n,0)$，$A_{1}=(0,0,m)$，$B_{1}=(m,0,m)$. 因而 $\\overrightarrow{CB_1}=(m,-n,m)$，$\\overrightarrow{BA_1}=(-m,0,m)$，所以</p><p>$\\overrightarrow{CB_1}\\cdot\\overrightarrow{BA_1}=-m^{2}+m^{2}=0$. 故 $CB_{1}\\perp BA_{1}$.</p></li><li><p>在直角三角形 $ABC$ 中，$AC\\perp AB$，所以 $AC^{2}=BC^{2}-AB^{2}=5-4=1$，即 $AC=1$. 由 $AB=AA_{1}=2$，三角形 $ABA_{1}$ 的面积为 $\\frac{1}{2}AB\\cdot AA_{1}=2$. 在上述坐标系中，平面 $ABA_{1}$ 的方程为 $y=0$，而 $C_{1}=(0,1,2)$，故点 $C_{1}$ 到平面 $ABA_{1}$ 的距离为 $1$. 因此三棱锥的体积为 $\\frac{1}{3}\\times2\\times1=\\frac{2}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，使点 $A$ 为原点，$x$ 轴、$y$ 轴、$z$ 轴分别沿 $AB$、$AC$、$AA_{1}$ 方向. 记 $AB=AA_{1}=m$，$AC=n$. 由于三棱柱是直三棱柱且 $\\angle CAB=\\frac{\\pi}{2}$，可设</p><p>$A=(0,0,0)$，$B=(m,0,0)$，$C=(0,n,0)$，$A_{1}=(0,0,m)$，$B_{1}=(m,0,m)$. 因而 $\\overrightarrow{CB_1}=(m,-n,m)$，$\\overrightarrow{BA_1}=(-m,0,m)$，所以</p><p>$\\overrightarrow{CB_1}\\cdot\\overrightarrow{BA_1}=-m^{2}+m^{2}=0$. 故 $CB_{1}\\perp BA_{1}$.</p></li><li><p>在直角三角形 $ABC$ 中，$AC\\perp AB$，所以 $AC^{2}=BC^{2}-AB^{2}=5-4=1$，即 $AC=1$. 由 $AB=AA_{1}=2$，三角形 $ABA_{1}$ 的面积为 $\\frac{1}{2}AB\\cdot AA_{1}=2$. 在上述坐标系中，平面 $ABA_{1}$ 的方程为 $y=0$，而 $C_{1}=(0,1,2)$，故点 $C_{1}$ 到平面 $ABA_{1}$ 的距离为 $1$. 因此三棱锥的体积为 $\\frac{1}{3}\\times2\\times1=\\frac{2}{3}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
-          "body": "<p>假设甲乙两种品牌的同类产品在某地区市场上销售量相等，为了解他们的使用寿命，现从两种品牌的产品中分别随机抽取 $100\\text{ 个}$ 进行测试，结果统计如下：</p><ol class=\"enumerate\"><li><p>估计甲品牌产品寿命小于 $200\\text{ 小时}$ 的概率；</p></li><li><p>这两种品牌产品中，某个产品已使用了 $200\\text{ 小时}$，试估计该产品是甲品牌的概率.</p></li></ol><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>假设甲乙两种品牌的同类产品在某地区市场上销售量相等，为了解他们的使用寿命，现从两种品牌的产品中分别随机抽取 $100\\text{ 个}$ 进行测试，结果统计如下：</p><ol class=\"enumerate\"><li><p>估计甲品牌产品寿命小于 $200\\text{ 小时}$ 的概率；</p></li><li><p>这两种品牌产品中，某个产品已使用了 $200\\text{ 小时}$，试估计该产品是甲品牌的概率.</p></li></ol><p><span class=\"macro macro-centering\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/shaanxi_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由甲品牌的频率分布直方图，寿命小于 $200\\text{ 小时}$ 的样本数为 $5+20=25$. 因此用样本频率估计，甲品牌产品寿命小于 $200\\text{ 小时}$ 的概率为 $\\frac{25}{100}=\\frac{1}{4}$.</p></li><li><p>甲品牌产品寿命不少于 $200\\text{ 小时}$ 的样本数为 $40+25+10=75$，乙品牌产品寿命不少于 $200\\text{ 小时}$ 的样本数为 $30+25+15=70$. 两种品牌的销售量相等，所以在已知产品来自两种品牌的前提下，产品属于甲品牌且寿命不少于 $200\\text{ 小时}$ 的样本数与两品牌寿命不少于 $200\\text{ 小时}$ 的样本总数之比，可估计所求概率. 因而所求概率为 $\\frac{75}{75+70}=\\frac{15}{29}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由甲品牌的频率分布直方图，寿命小于 $200\\text{ 小时}$ 的样本数为 $5+20=25$. 因此用样本频率估计，甲品牌产品寿命小于 $200\\text{ 小时}$ 的概率为 $\\frac{25}{100}=\\frac{1}{4}$.</p></li><li><p>甲品牌产品寿命不少于 $200\\text{ 小时}$ 的样本数为 $40+25+10=75$，乙品牌产品寿命不少于 $200\\text{ 小时}$ 的样本数为 $30+25+15=70$. 两种品牌的销售量相等，所以在已知产品来自两种品牌的前提下，产品属于甲品牌且寿命不少于 $200\\text{ 小时}$ 的样本数与两品牌寿命不少于 $200\\text{ 小时}$ 的样本总数之比，可估计所求概率. 因而所求概率为 $\\frac{75}{75+70}=\\frac{15}{29}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知椭圆 $C_{1}: \\frac{x^{2}}{4}+ y^{2} = 1$，椭圆 $C_{2}$ 以 $C_{1}$ 的长轴为短轴，且与 $C_{1}$ 有相同的离心率.</p><ol class=\"enumerate\"><li><p>求椭圆 $C_{2}$ 的方程；</p></li><li><p>设 $O$ 为坐标原点，点 $A$，$B$ 分别在椭圆 $C_{1}$ 和 $C_{2}$ 上，$\\overrightarrow{OB}= 2\\overrightarrow{OA}$，求直线 $AB$ 的方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>椭圆 $C_{1}$ 的长半轴为 $2$，短半轴为 $1$，焦半距为 $\\sqrt{2^{2}-1^{2}}=\\sqrt{3}$，所以其离心率为 $e=\\frac{\\sqrt{3}}{2}$. 椭圆 $C_{2}$ 以 $C_{1}$ 的长轴为短轴，因此 $C_{2}$ 的短半轴为 $b_{2}=2$. 设 $C_{2}$ 的长半轴和焦半距分别为 $a_{2}$ 和 $c_{2}$，则</p><p>$\\frac{c_{2}}{a_{2}}=\\frac{\\sqrt{3}}{2}$，且 $c_{2}^{2}=a_{2}^{2}-b_{2}^{2}=a_{2}^{2}-4$. 于是 $\\frac{3}{4}a_{2}^{2}=a_{2}^{2}-4$，解得 $a_{2}=4$. 因为短轴在 $x$ 轴上，故椭圆 $C_{2}$ 的方程为 $\\frac{x^{2}}{4}+\\frac{y^{2}}{16}=1$.</p></li><li><p>设 $A=(x,y)$，由 $\\overrightarrow{OB}=2\\overrightarrow{OA}$，得 $B=(2x,2y)$. 将 $A$ 代入 $C_{1}$ 的方程，将 $B$ 代入 $C_{2}$ 的方程，分别得到 $\\frac{x^{2}}{4}+y^{2}=1$ 和 $\\frac{(2x)^{2}}{4}+\\frac{(2y)^{2}}{16}=1$，即 $x^{2}+\\frac{y^{2}}{4}=1$. 将第一式乘以 $4$，得到 $x^{2}+4y^{2}=4$，将第二式乘以 $4$，得到 $4x^{2}+y^{2}=4$. 两式相减，得 $x^{2}=y^{2}$. 再代回 $x^{2}+4y^{2}=4$，得 $5x^{2}=4$，即 $x^{2}=y^{2}=\\frac{4}{5}$. 因此 $y=x$ 或 $y=-x$. 直线 $AB$ 经过原点 $O$，所以其方程为 $y=x$ 或 $y=-x$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>椭圆 $C_{1}$ 的长半轴为 $2$，短半轴为 $1$，焦半距为 $\\sqrt{2^{2}-1^{2}}=\\sqrt{3}$，所以其离心率为 $e=\\frac{\\sqrt{3}}{2}$. 椭圆 $C_{2}$ 以 $C_{1}$ 的长轴为短轴，因此 $C_{2}$ 的短半轴为 $b_{2}=2$. 设 $C_{2}$ 的长半轴和焦半距分别为 $a_{2}$ 和 $c_{2}$，则</p><p>$\\frac{c_{2}}{a_{2}}=\\frac{\\sqrt{3}}{2}$，且 $c_{2}^{2}=a_{2}^{2}-b_{2}^{2}=a_{2}^{2}-4$. 于是 $\\frac{3}{4}a_{2}^{2}=a_{2}^{2}-4$，解得 $a_{2}=4$. 因为短轴在 $x$ 轴上，故椭圆 $C_{2}$ 的方程为 $\\frac{x^{2}}{4}+\\frac{y^{2}}{16}=1$.</p></li><li><p>设 $A=(x,y)$，由 $\\overrightarrow{OB}=2\\overrightarrow{OA}$，得 $B=(2x,2y)$. 将 $A$ 代入 $C_{1}$ 的方程，将 $B$ 代入 $C_{2}$ 的方程，分别得到 $\\frac{x^{2}}{4}+y^{2}=1$ 和 $\\frac{(2x)^{2}}{4}+\\frac{(2y)^{2}}{16}=1$，即 $x^{2}+\\frac{y^{2}}{4}=1$. 将第一式乘以 $4$，得到 $x^{2}+4y^{2}=4$，将第二式乘以 $4$，得到 $4x^{2}+y^{2}=4$. 两式相减，得 $x^{2}=y^{2}$. 再代回 $x^{2}+4y^{2}=4$，得 $5x^{2}=4$，即 $x^{2}=y^{2}=\\frac{4}{5}$. 因此 $y=x$ 或 $y=-x$. 直线 $AB$ 经过原点 $O$，所以其方程为 $y=x$ 或 $y=-x$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "<p>设函数 $f_{n}(x) = x^{n} + bx + c$（$n \\in \\N_{+}$，$b$，$c \\in \\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>设 $n \\ge 2$，$b = 1$，$c = -1$，证明：$f_{n}(x)$ 在区间 $\\left(\\frac{1}{2}, 1\\right)$ 内存在唯一零点；</p></li><li><p>设 $n$ 为偶数，$|f_{n}(-1)| \\le 1$，$|f_{n}(1)| \\le 1$，求 $b + 3c$ 的最小值和最大值；</p></li><li><p>设 $n = 2$，若对任意 $x_{1}$，$x_{2} \\in [-1, 1]$，有 $|f_{2}(x_{1}) - f_{2}(x_{2})| \\le 4$，求 $b$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $b=1$，$c=-1$ 时，$f_{n}(x)=x^{n}+x-1$. 当 $n\\geqslant2$ 时，$f_{n}\\left(\\frac{1}{2}\\right)=\\frac{1}{2^{n}}-\\frac{1}{2}\\le\\frac{1}{4}-\\frac{1}{2}<0$，而 $f_{n}(1)=1>0$. 函数 $f_{n}(x)$ 在 $\\left[\\frac{1}{2},1\\right]$ 上连续，由零点存在定理，函数在 $\\left(\\frac{1}{2},1\\right)$ 内至少存在一个零点. 又因为 $f_{n}'(x)=nx^{n-1}+1>0$ 在 $\\left(\\frac{1}{2},1\\right)$ 内成立，所以 $f_{n}(x)$ 在该区间内单调递增，零点至多有一个. 因此，$f_{n}(x)$ 在 $\\left(\\frac{1}{2},1\\right)$ 内存在唯一零点.</p></li><li><p>因为 $n$ 为偶数，所以 $f_{n}(-1)=1-b+c$，$f_{n}(1)=1+b+c$. 令 $u=c-b$，$v=b+c$. 由 $\\lvert f_{n}(-1)\\rvert\\leqslant1$ 和 $\\lvert f_{n}(1)\\rvert\\leqslant1$，分别得到 $-2\\le u\\leqslant0$ 和 $-2\\le v\\leqslant0$. 由 $b=\\frac{v-u}{2}$，$c=\\frac{u+v}{2}$，有 $b+3c=u+2v$. 因此 $-6\\le u+2v\\leqslant0$. 当 $u=v=-2$ 时，$b=0$，$c=-2$，取得最小值 $-6$；当 $u=v=0$ 时，$b=0$，$c=0$，取得最大值 $0$. 所以 $b+3c$ 的最小值为 $-6$，最大值为 $0$.</p></li><li><p>令 $g_{b}(x)=x^{2}+bx$. 因为 $f_{2}(x)=g_{b}(x)+c$，所以 $f_{2}(x_{1})-f_{2}(x_{2})=g_{b}(x_{1})-g_{b}(x_{2})$，常数 $c$ 不影响函数值的最大差值. 对任意 $x_{1}\\in[-1,1]$，$x_{2}\\in[-1,1]$，差值绝对值的最大值等于 $g_{b}$ 在 $[-1,1]$ 上的最大值与最小值之差，因此题设等价于该函数值域长度不超过 $4$. 此外，$g_{-b}(x)=x^{2}-bx=g_{b}(-x)$，而区间 $[-1,1]$ 关于原点对称，所以参数为 $b$ 与参数为 $-b$ 时的函数值域长度相同. 只需先设 $b\\geqslant0$ 讨论.</p><p>当 $0\\le b\\leqslant2$ 时，$g_{b}'(x)=2x+b$ 的零点为 $x_{0}=-\\frac{b}{2}\\in[-1,0]$，故函数最小值为 $g_{b}(x_{0})=-\\frac{b^{2}}{4}$. 又因 $b\\geqslant0$，有 $g_{b}(1)=1+b\\geqslant1-b=g_{b}(-1)$，所以函数最大值为 $1+b$. 函数值域长度为 $1+b+\\frac{b^{2}}{4}$. 题设要求该长度不超过 $4$，即 $1+b+\\frac{b^{2}}{4}\\leqslant4$，等价于 $(b-2)(b+6)\\leqslant0$，在本段范围内恰好要求 $b\\leqslant2$.</p><p>当 $b>2$ 时，对任意 $x\\in[-1,1]$，有 $g_{b}'(x)=2x+b\\ge b-2>0$，所以 $g_{b}(x)$ 在 $[-1,1]$ 上递增，函数值域长度为 $g_{b}(1)-g_{b}(-1)=2b>4$，不满足题设. 因而在 $b\\geqslant0$ 时，必须且只需 $0\\le b\\leqslant2$. 利用关于 $b$ 与 $-b$ 的对称性，得到 $b$ 的取值范围为 $[-2,2]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $b=1$，$c=-1$ 时，$f_{n}(x)=x^{n}+x-1$. 当 $n\\geqslant2$ 时，$f_{n}\\left(\\frac{1}{2}\\right)=\\frac{1}{2^{n}}-\\frac{1}{2}\\le\\frac{1}{4}-\\frac{1}{2}<0$，而 $f_{n}(1)=1>0$. 函数 $f_{n}(x)$ 在 $\\left[\\frac{1}{2},1\\right]$ 上连续，由零点存在定理，函数在 $\\left(\\frac{1}{2},1\\right)$ 内至少存在一个零点. 又因为 $f_{n}'(x)=nx^{n-1}+1>0$ 在 $\\left(\\frac{1}{2},1\\right)$ 内成立，所以 $f_{n}(x)$ 在该区间内单调递增，零点至多有一个. 因此，$f_{n}(x)$ 在 $\\left(\\frac{1}{2},1\\right)$ 内存在唯一零点.</p></li><li><p>因为 $n$ 为偶数，所以 $f_{n}(-1)=1-b+c$，$f_{n}(1)=1+b+c$. 令 $u=c-b$，$v=b+c$. 由 $\\lvert f_{n}(-1)\\rvert\\leqslant1$ 和 $\\lvert f_{n}(1)\\rvert\\leqslant1$，分别得到 $-2\\le u\\leqslant0$ 和 $-2\\le v\\leqslant0$. 由 $b=\\frac{v-u}{2}$，$c=\\frac{u+v}{2}$，有 $b+3c=u+2v$. 因此 $-6\\le u+2v\\leqslant0$. 当 $u=v=-2$ 时，$b=0$，$c=-2$，取得最小值 $-6$；当 $u=v=0$ 时，$b=0$，$c=0$，取得最大值 $0$. 所以 $b+3c$ 的最小值为 $-6$，最大值为 $0$.</p></li><li><p>令 $g_{b}(x)=x^{2}+bx$. 因为 $f_{2}(x)=g_{b}(x)+c$，所以 $f_{2}(x_{1})-f_{2}(x_{2})=g_{b}(x_{1})-g_{b}(x_{2})$，常数 $c$ 不影响函数值的最大差值. 对任意 $x_{1}\\in[-1,1]$，$x_{2}\\in[-1,1]$，差值绝对值的最大值等于 $g_{b}$ 在 $[-1,1]$ 上的最大值与最小值之差，因此题设等价于该函数值域长度不超过 $4$. 此外，$g_{-b}(x)=x^{2}-bx=g_{b}(-x)$，而区间 $[-1,1]$ 关于原点对称，所以参数为 $b$ 与参数为 $-b$ 时的函数值域长度相同. 只需先设 $b\\geqslant0$ 讨论.</p><p>当 $0\\le b\\leqslant2$ 时，$g_{b}'(x)=2x+b$ 的零点为 $x_{0}=-\\frac{b}{2}\\in[-1,0]$，故函数最小值为 $g_{b}(x_{0})=-\\frac{b^{2}}{4}$. 又因 $b\\geqslant0$，有 $g_{b}(1)=1+b\\geqslant1-b=g_{b}(-1)$，所以函数最大值为 $1+b$. 函数值域长度为 $1+b+\\frac{b^{2}}{4}$. 题设要求该长度不超过 $4$，即 $1+b+\\frac{b^{2}}{4}\\leqslant4$，等价于 $(b-2)(b+6)\\leqslant0$，在本段范围内恰好要求 $b\\leqslant2$.</p><p>当 $b>2$ 时，对任意 $x\\in[-1,1]$，有 $g_{b}'(x)=2x+b\\ge b-2>0$，所以 $g_{b}(x)$ 在 $[-1,1]$ 上递增，函数值域长度为 $g_{b}(1)-g_{b}(-1)=2b>4$，不满足题设. 因而在 $b\\geqslant0$ 时，必须且只需 $0\\le b\\leqslant2$. 利用关于 $b$ 与 $-b$ 的对称性，得到 $b$ 的取值范围为 $[-2,2]$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

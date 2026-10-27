@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,439 +11,472 @@
 #part-header("单选题")
 
 #problem(1)[
-设全集是实数集 $RR$，$M=\{x | x <= 1 +sqrt(2), x in RR \}$，$N=\{1,2,3,4\}$. 则 $overline(M) inter N$ 等于（ ）
-  #choices([$\{4\}$], [$\{3,4\}$], [$\{2,3,4\}$], [$\{1,2,3,4\}$], cols: 4)
+设全集是实数集 #mi(`\mathbb{R}`)，#mi(`M=\left\{x \mid x \le 1+\sqrt{2}, x \in \mathbb{R}\right\}`)，#mi(`N=\{1,2,3,4\}`). 则 #mi(`\overline{M}\cap N`) 等于（ ）
+  #choices([#mi(`\{4\}`)], [#mi(`\{3,4\}`)], [#mi(`\{2,3,4\}`)], [#mi(`\{1,2,3,4\}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由 $1+sqrt(2) in (2,3)$，得 $overline(M)=(1+sqrt(2),+ oo )$. 在集合 $N$ 中，只有 $3$，$4$ 大于 $1+sqrt(2)$，所以 $overline(M) inter N=\{3,4\}$. 因此选 B.
+由 #mi(`1+\sqrt{2}\in(2,3)`)，得 #mi(`\overline{M}=(1+\sqrt{2},+\infty)`). 在集合 #mi(`N`) 中，只有 #mi(`3`)，#mi(`4`) 大于 #mi(`1+\sqrt{2}`)，所以 #mi(`\overline{M}\cap N=\{3,4\}`). 因此选 B.
 ]
 
 #problem(2)[
-三个数 $6^(0.7)$，$0.7^(6)$，$log _(0.7)6$ 的大小顺序是（ ）
-  #choices([$0.7^6 < log _(0.7)6 < 6^(0.7)$], [$0.7^6 < 6^(0.7) < log _(0.7)6$], [$log _(0.7)6 < 6^(0.7) < 0.7^6$], [$log _(0.7)6 < 0.7^6 < 6^(0.7)$], cols: 1)
+三个数 #mi(`6^{0.7}`)，#mi(`0.7^{6}`)，#mi(`\log_{0.7}6`) 的大小顺序是（ ）
+  #choices([#mi(`0.7^{6} < \log_{0.7}6 < 6^{0.7}`)], [#mi(`0.7^{6} < 6^{0.7}< \log_{0.7}6`)], [#mi(`\log_{0.7}6 < 6^{0.7}< 0.7^{6}`)], [#mi(`\log_{0.7}6 < 0.7^{6} < 6^{0.7}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-因为 $0<0.7<1$，所以 $0.7^6<1$. 又因为 $6>1$，且对数的底数 $0.7$ 小于 $1$，所以 $log _(0.7)6<0$. 另一方面，$6^(0.7)>1$. 因而
-$log _(0.7)6<0.7^6<6^(0.7)$，故选 D.
+因为 #mi(`0<0.7<1`)，所以 #mi(`0.7^{6}<1`). 又因为 #mi(`6>1`)，且对数的底数 #mi(`0.7`) 小于 #mi(`1`)，所以 #mi(`\log_{0.7}6<0`). 另一方面，#mi(`6^{0.7}>1`). 因而
+
+#mi(`\log_{0.7}6<0.7^{6}<6^{0.7}`)，故选 D.
 ]
 
 #problem(3)[
 在下列命题中，假命题是（ ）
-  #choices([若 $a$，$b$ 是异面直线，则一定存在平面 $alpha$ 过 $a$ 且与 $b$ 平行], [若 $a$，$b$ 是异面直线，则一定存在平面 $alpha$ 过 $a$ 且与 $b$ 垂直], [若 $a$，$b$ 是异面直线，则一定存在平面 $alpha$ 与 $a$，$b$ 所成角相等], [若 $a$，$b$ 是异面直线，则一定存在平面 $alpha$ 与 $a$，$b$ 的距离相等], cols: 1)
+  #choices([若 #mi(`a`)，#mi(`b`) 是异面直线，则一定存在平面 #mi(`\alpha`) 过 #mi(`a`) 且与 #mi(`b`) 平行], [若 #mi(`a`)，#mi(`b`) 是异面直线，则一定存在平面 #mi(`\alpha`) 过 #mi(`a`) 且与 #mi(`b`) 垂直], [若 #mi(`a`)，#mi(`b`) 是异面直线，则一定存在平面 #mi(`\alpha`) 与 #mi(`a`)，#mi(`b`) 所成角相等], [若 #mi(`a`)，#mi(`b`) 是异面直线，则一定存在平面 #mi(`\alpha`) 与 #mi(`a`)，#mi(`b`) 的距离相等], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-设直线 $a$，$b$ 的方向向量分别为单位向量 $bold(u)$，$bold(v)$. 对于选项 A，过 $a$ 上一点作一条平行于 $b$ 的直线，这两条相交直线确定一个平面；该平面不含 $b$，否则 $a$，$b$ 共面，与异面矛盾，所以它与 $b$ 平行.
+设直线 #mi(`a`)，#mi(`b`) 的方向向量分别为单位向量 #mi(`\mathbf{u}`)，#mi(`\mathbf{v}`). 对于选项 A，过 #mi(`a`) 上一点作一条平行于 #mi(`b`) 的直线，这两条相交直线确定一个平面；该平面不含 #mi(`b`)，否则 #mi(`a`)，#mi(`b`) 共面，与异面矛盾，所以它与 #mi(`b`) 平行.
 
-对于选项 C，取法向量平行于 $bold(u)-bold(v)$ 的平面，因为
-$(bold(u)-bold(v))\c d o t b o l d(u)=1-bold(u)\c d o t b o l d(v)$，$(bold(u)-bold(v))\c d o t b o l d(v)=bold(u)\c d o t b o l d(v)-1$，两者绝对值相等，所以该平面与 $a$，$b$ 所成的角相等.
+对于选项 C，取法向量平行于 #mi(`\mathbf{u}-\mathbf{v}`) 的平面，因为
 
-对于选项 D，令 $bold(n)=bold(u)\t i m e s b o l d(v)$，取空间中一点 $O$ 为原点，并取点 $A in a$，$B in b$. 因为 $bold(n)$ 同时垂直于两直线的方向，所以对任意 $X in a$，$Y in b$，都有 $bold(n)\c d o t a r r o w(A X)=0$，$bold(n)\c d o t a r r o w(B Y)=0$. 因而 $bold(n)\c d o t a r r o w(O X)=bold(n)\c d o t a r r o w(O A)$ 在直线 $a$ 上为常数，$bold(n)\c d o t a r r o w(O Y)=bold(n)\c d o t a r r o w(O B)$ 在直线 $b$ 上为常数；两直线异面保证这两个常数不相等. 取平面
-$bold(n)\c d o t a r r o w(O X)=(1)/(2)(bold(n)\c d o t a r r o w(O A)+bold(n)\c d o t a r r o w(O B))$，该平面平行于两直线，且到两直线的距离相等.
+#mi(`\left(\mathbf{u}-\mathbf{v}\right)\cdot\mathbf{u}=1-\mathbf{u}\cdot\mathbf{v}`)，#mi(`\left(\mathbf{u}-\mathbf{v}\right)\cdot\mathbf{v}=\mathbf{u}\cdot\mathbf{v}-1`)，两者绝对值相等，所以该平面与 #mi(`a`)，#mi(`b`) 所成的角相等.
 
-选项 B 要求存在过 $a$ 且垂直于 $b$ 的平面，这必然要求 $a bot b$. 异面直线的方向不一定垂直，因此该命题不一定成立，故假命题是 B.
+对于选项 D，令 #mi(`\mathbf{n}=\mathbf{u}\times\mathbf{v}`)，取空间中一点 #mi(`O`) 为原点，并取点 #mi(`A\in a`)，#mi(`B\in b`). 因为 #mi(`\mathbf{n}`) 同时垂直于两直线的方向，所以对任意 #mi(`X\in a`)，#mi(`Y\in b`)，都有 #mi(`\mathbf{n}\cdot\overrightarrow{AX}=0`)，#mi(`\mathbf{n}\cdot\overrightarrow{BY}=0`). 因而 #mi(`\mathbf{n}\cdot\overrightarrow{OX}=\mathbf{n}\cdot\overrightarrow{OA}`) 在直线 #mi(`a`) 上为常数，#mi(`\mathbf{n}\cdot\overrightarrow{OY}=\mathbf{n}\cdot\overrightarrow{OB}`) 在直线 #mi(`b`) 上为常数；两直线异面保证这两个常数不相等. 取平面
+
+#mi(`\mathbf{n}\cdot\overrightarrow{OX}=\frac{1}{2}\left(\mathbf{n}\cdot\overrightarrow{OA}+\mathbf{n}\cdot\overrightarrow{OB}\right)`)，该平面平行于两直线，且到两直线的距离相等.
+
+选项 B 要求存在过 #mi(`a`) 且垂直于 #mi(`b`) 的平面，这必然要求 #mi(`a\perp b`). 异面直线的方向不一定垂直，因此该命题不一定成立，故假命题是 B.
 ]
 
 #problem(4)[
-设 $theta in ((3 pi)/(4), pi )$，则关于 $x$，$y$ 的方程 $x^2 \csc theta - y^2 \sec theta = 1$ 所表示的曲线是（ ）
-  #choices([实轴在 $y$ 轴上的双曲线], [实轴在 $x$ 轴上的双曲线], [长轴在 $y$ 轴上的椭圆], [长轴在 $x$ 轴上的椭圆], cols: 4)
+设 #mi(`\theta \in \left(\frac{3\pi}{4}, \pi\right)`)，则关于 #mi(`x`)，#mi(`y`) 的方程 #mi(`x^{2} \csc \theta - y^{2} \sec \theta = 1`) 所表示的曲线是（ ）
+  #choices([实轴在 #mi(`y`) 轴上的双曲线], [实轴在 #mi(`x`) 轴上的双曲线], [长轴在 #mi(`y`) 轴上的椭圆], [长轴在 #mi(`x`) 轴上的椭圆], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-由 $theta in ((3 pi)/(4), pi )$，知 $sin theta >0$，$cos theta <0$，所以 $\csc theta >0$，$-\sec theta >0$. 原方程可写为
-$\csc theta x^2+(-\sec theta ) y^2=1$，表示椭圆.
+由 #mi(`\theta\in\left(\frac{3\pi}{4},\pi\right)`)，知 #mi(`\sin\theta>0`)，#mi(`\cos\theta<0`)，所以 #mi(`\csc\theta>0`)，#mi(`-\sec\theta>0`). 原方程可写为
 
-其半轴长的平方分别为 $sin theta$ 和 $- cos theta$. 在该区间内，$sin theta <- cos theta$，所以 $y$ 轴方向的半轴较长，长轴在 $y$ 轴上，故选 C.
+#mi(`\csc\theta\,x^{2}+(-\sec\theta)\,y^{2}=1`)，表示椭圆.
+
+其半轴长的平方分别为 #mi(`\sin\theta`) 和 #mi(`-\cos\theta`). 在该区间内，#mi(`\sin\theta<-\cos\theta`)，所以 #mi(`y`) 轴方向的半轴较长，长轴在 #mi(`y`) 轴上，故选 C.
 ]
 
 #problem(5)[
-如果直线 $l$ 沿 $x$ 轴负方向平移 $3$ 个单位，再沿 $y$ 轴正方向平移 $1$ 个单位后，又回到原来的位置，那么直线 $l$ 的斜率是（ ）
-  #choices([$-(1)/(3)$], [$-3$], [$(1)/(3)$], [$3$], cols: 4)
+如果直线 #mi(`l`) 沿 #mi(`x`) 轴负方向平移 #mi(`3`) 个单位，再沿 #mi(`y`) 轴正方向平移 #mi(`1`) 个单位后，又回到原来的位置，那么直线 #mi(`l`) 的斜率是（ ）
+  #choices([#mi(`-\frac{1}{3}`)], [#mi(`-3`)], [#mi(`\frac{1}{3}`)], [#mi(`3`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-设直线 $l$ 的方程为 $y=k x+b$. 沿 $x$ 轴负方向平移 $3$ 个单位后，方程变为
-$y=k(x+3)+b=k x+b+3 k$. 再沿 $y$ 轴正方向平移 $1$ 个单位后，方程变为 $y=k x+b+3 k+1$.
+设直线 #mi(`l`) 的方程为 #mi(`y=kx+b`). 沿 #mi(`x`) 轴负方向平移 #mi(`3`) 个单位后，方程变为
 
-要回到原来的直线，必须有 $3 k+1=0$，所以 $k=-(1)/(3)$，故选 A.
+#mi(`y=k(x+3)+b=kx+b+3k`). 再沿 #mi(`y`) 轴正方向平移 #mi(`1`) 个单位后，方程变为 #mi(`y=kx+b+3k+1`).
+
+要回到原来的直线，必须有 #mi(`3k+1=0`)，所以 #mi(`k=-\frac{1}{3}`)，故选 A.
 ]
 
 #problem(6)[
-设 $f(n)=(1)/(n+1)+(1)/(n+2)+(1)/(n+3)+ dots.c +(1)/(2 n)$（$n in NN$），那么 $f(n+1)-f(n)$ 等于（ ）
-  #choices([$(1)/(2 n+1)$], [$(1)/(2 n+2)$], [$(1)/(2 n+1)+(1)/(2 n+2)$], [$(1)/(2 n+1)-(1)/(2 n+2)$], cols: 2)
+设 #mi(`f(n)=\frac{1}{n+1}+\frac{1}{n+2}+\frac{1}{n+3}+\cdots+\frac{1}{2n}`)（#mi(`n \in \mathbb{N}`)），那么 #mi(`f(n+1)-f(n)`) 等于（ ）
+  #choices([#mi(`\frac{1}{2n+1}`)], [#mi(`\frac{1}{2n+2}`)], [#mi(`\frac{1}{2n+1}+\frac{1}{2n+2}`)], [#mi(`\frac{1}{2n+1}-\frac{1}{2n+2}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-$f(n+1)-f(n)=(1)/(2 n+1)+(1)/(2 n+2)-(1)/(n+1)=(1)/(2 n+1)+(1)/(2 n+2)-(2)/(2 n+2)=(1)/(2 n+1)-(1)/(2 n+2)$.
+#mi(`f(n+1)-f(n)=\frac{1}{2n+1}+\frac{1}{2n+2}-\frac{1}{n+1}=\frac{1}{2n+1}+\frac{1}{2n+2}-\frac{2}{2n+2}=\frac{1}{2n+1}-\frac{1}{2n+2}`).
+
 因此选 D.
 ]
 
 #part-header("填空题")
 
 #problem(7)[
-二次曲线 $\b e g i n{c a s e s} x = 5 cos theta \\ y = 3 sin theta \e n d{c a s e s}$（$theta$ 是参数）的左焦点坐标是#blank(){}.
+二次曲线 #mi(`\begin{cases}x = 5\cos \theta\\
+
+y = 3\sin \theta\end{cases}`)（#mi(`\theta`) 是参数）的左焦点坐标是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(-4,0)$])
+#answer([#mi(`(-4,0)`)])
 
 #solution[
-消去参数 $theta$，得
-$(x^2)/(25)+(y^2)/(9)=1$，这是椭圆，半长轴为 $5$，半短轴为 $3$. 焦距满足 $c^2=5^2-3^2=16$，所以 $c=4$. 椭圆的左焦点为 $(-4,0)$.
+消去参数 #mi(`\theta`)，得
+
+#mi(`\frac{x^{2}}{25}+\frac{y^{2}}{9}=1`)，这是椭圆，半长轴为 #mi(`5`)，半短轴为 #mi(`3`). 焦距满足 #mi(`c^{2}=5^{2}-3^{2}=16`)，所以 #mi(`c=4`). 椭圆的左焦点为 #mi(`(-4,0)`).
 ]
 
 #problem(8)[
-方程 $sin 2 x = (1)/(2)$ 在 $[-2 pi , 2 pi ]$ 内解的个数是#blank(){}.
+方程 #mi(`\sin 2x = \frac{1}{2}`) 在 #mi(`\left[-2\pi, 2\pi\right]`) 内解的个数是\underline{\hspace{2.5em}}.
 ]
 
 #answer([8])
 
 #solution[
-由 $sin 2 x=(1)/(2)$，得
-$2 x=(pi)/(6)+2 k pi$ 或 $2 x=(5 pi)/(6)+2 k pi$，即
-$x=(pi)/(12)+k pi$ 或 $x=(5 pi)/(12)+k pi$，其中 $k in ZZ$.
+由 #mi(`\sin 2x=\frac{1}{2}`)，得
 
-在区间 $[-2 pi ,2 pi ]$ 内，第一组解对应 $k=-2$，$-1$，$0$，$1$，共有 $4$ 个；第二组解也对应 $k=-2$，$-1$，$0$，$1$，共有 $4$ 个；两组解不重合，所以解的个数为 $8$.
+#mi(`2x=\frac{\pi}{6}+2k\pi`) 或 #mi(`2x=\frac{5\pi}{6}+2k\pi`)，即
+
+#mi(`x=\frac{\pi}{12}+k\pi`) 或 #mi(`x=\frac{5\pi}{12}+k\pi`)，其中 #mi(`k\in\mathbb{Z}`).
+
+在区间 #mi(`[-2\pi,2\pi]`) 内，第一组解对应 #mi(`k=-2`)，#mi(`-1`)，#mi(`0`)，#mi(`1`)，共有 #mi(`4`) 个；第二组解也对应 #mi(`k=-2`)，#mi(`-1`)，#mi(`0`)，#mi(`1`)，共有 #mi(`4`) 个；两组解不重合，所以解的个数为 #mi(`8`).
 ]
 
 #problem(9)[
-已知 $a=(-3- i)/(1+2 i)$（$i$ 是虚数单位），那么 $a^4=\f i l l i n b l a n k{}$.
+已知 #mi(`a=\frac{-3-\mathrm{i}}{1+2\mathrm{i}}`)（#mi(`\mathrm{i}`) 是虚数单位），那么 #mi(`a^{4}=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$-4$])
+#answer([#mi(`-4`)])
 
 #solution[
-分子、分母同乘以 $1-2 i$，得
+分子、分母同乘以 #mi(`1-2\mathrm{i}`)，得
 
-$ a=((-3- i )(1-2 i ))/((1+2 i )(1-2 i ))=(-5+5 i)/(5)=-1+ i $
 
-于是 $a^2=(-1+ i )^2=-2 i$，从而
-$a^4=(-2 i )^2=-4$.
+#align(center)[#mitex(`
+a=\frac{(-3-\mathrm{i})(1-2\mathrm{i})}{(1+2\mathrm{i})(1-2\mathrm{i})}=\frac{-5+5\mathrm{i}}{5}=-1+\mathrm{i}
+`)]
+
+
+于是 #mi(`a^{2}=(-1+\mathrm{i})^{2}=-2\mathrm{i}`)，从而
+
+#mi(`a^{4}=(-2\mathrm{i})^{2}=-4`).
 ]
 
 #problem(10)[
-设圆 $x^2+y^2-4 x-5=0$ 的弦 $A B$ 的中点为 $P(3,1)$，则直线 $A B$ 的方程是#blank(){}.
+设圆 #mi(`x^{2}+y^{2}-4x-5=0`) 的弦 #mi(`AB`) 的中点为 #mi(`P(3,1)`)，则直线 #mi(`AB`) 的方程是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$x+y-4=0$])
+#answer([#mi(`x+y-4=0`)])
 
 #solution[
-将圆的方程配方，得 $(x-2)^2+y^2=9$，所以圆心为 $O(2,0)$. 弦中点 $P(3,1)$ 与圆心的连线 $O P$ 垂直于弦 $A B$. 直线 $O P$ 的斜率为 $1$，因此直线 $A B$ 的斜率为 $-1$. 过 $P(3,1)$ 的直线 $A B$ 为
-$y-1=-(x-3)$，即 $x+y-4=0$.
+将圆的方程配方，得 #mi(`(x-2)^{2}+y^{2}=9`)，所以圆心为 #mi(`O(2,0)`). 弦中点 #mi(`P(3,1)`) 与圆心的连线 #mi(`OP`) 垂直于弦 #mi(`AB`). 直线 #mi(`OP`) 的斜率为 #mi(`1`)，因此直线 #mi(`AB`) 的斜率为 #mi(`-1`). 过 #mi(`P(3,1)`) 的直线 #mi(`AB`) 为
+
+#mi(`y-1=-(x-3)`)，即 #mi(`x+y-4=0`).
 ]
 
 #problem(11)[
-若 $(3 x+1)^n$（$n in NN$）的展开式中各项系数的和是 $256$，则展开式中 $x^2$ 的系数是#blank(){}.
+若 #mi(`(3x+1)^{n}`)（#mi(`n \in \mathbb{N}`)）的展开式中各项系数的和是 #mi(`256`)，则展开式中 #mi(`x^{2}`) 的系数是\underline{\hspace{2.5em}}.
 ]
 
 #answer([54])
 
 #solution[
-展开式各项系数的和等于令 $x=1$ 时的值，因此
-$(3+1)^n=4^n=256=4^4$，得 $n=4$.
+展开式各项系数的和等于令 #mi(`x=1`) 时的值，因此
 
-此时 $(3 x+1)^4$ 中的 $x^2$ 项来自二项式通项中的 $3 x$ 取两次，故其系数为
-$C_4^2 3^2=6 times 9 =54$.
+#mi(`(3+1)^{n}=4^{n}=256=4^{4}`)，得 #mi(`n=4`).
+
+此时 #mi(`(3x+1)^{4}`) 中的 #mi(`x^{2}`) 项来自二项式通项中的 #mi(`3x`) 取两次，故其系数为
+
+#mi(`\mathrm{C}_{4}^{2} 3^{2}=6\times9=54`).
 ]
 
 #problem(12)[
-函数 $f(x)=3 sin x cos x-4 cos ""^2 x$ 的最大值是#blank(){}.
+函数 #mi(`f(x)=3\sin x\cos x-4\cos^{2} x`) 的最大值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(2)$])
+#answer([#mi(`\frac{1}{2}`)])
 
 #solution[
-利用 $2 sin x cos x= sin 2 x$ 和 $2 cos ""^(2) x=1+ cos 2 x$，得
+利用 #mi(`2\sin x\cos x=\sin 2x`) 和 #mi(`2\cos^{2}x=1+\cos 2x`)，得
 
-$ f(x)=(3)/(2) sin 2 x-2(1+ cos 2 x)=-2+(3)/(2) sin 2 x-2 cos 2 x $
 
-由 $A sin t+B cos t$ 的最大值为 $sqrt(A^2+B^2)$，有
+#align(center)[#mitex(`
+f(x)=\frac{3}{2}\sin 2x-2(1+\cos 2x)=-2+\frac{3}{2}\sin 2x-2\cos 2x
+`)]
 
-$ (3)/(2) sin 2 x-2 cos 2 x\l e q s l a n t s q r t(((3)/(2))^2+(-2)^2)=(5)/(2) $
 
-当 $sin 2 x$，$cos 2 x$ 与 $((3)/(2),-2)$ 同向时可取等号，所以 $f(x)$ 的最大值为 $-2+(5)/(2)=(1)/(2)$.
+由 #mi(`A\sin t+B\cos t`) 的最大值为 #mi(`\sqrt{A^{2}+B^{2}}`)，有
+
+
+#align(center)[#mitex(`
+\frac{3}{2}\sin 2x-2\cos 2x\le\sqrt{\left(\frac{3}{2}\right)^{2}+(-2)^{2}}=\frac{5}{2}
+`)]
+
+
+当 #mi(`\sin 2x`)，#mi(`\cos 2x`) 与 #mi(`\left(\frac{3}{2},-2\right)`) 同向时可取等号，所以 #mi(`f(x)`) 的最大值为 #mi(`-2+\frac{5}{2}=\frac{1}{2}`).
 ]
 
 #part-header("选做题：填空题")
 
 #problem(13)[
-设 $0<a<b$，则 $lim_(n -> oo )(4 b^n)/(a^n-b^n)=\f i l l i n b l a n k{}$.
+设 #mi(`0<a<b`)，则 #mi(`\displaystyle\lim_{n\to\infty}\frac{4b^{n}}{a^{n}-b^{n}}=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$-4$])
+#answer([#mi(`-4`)])
 
 #solution[
-分子、分母同除以 $b^n$，得
+分子、分母同除以 #mi(`b^{n}`)，得
 
-$ (4 b^n)/(a^n-b^n)=(4)/(((a)/(b))^n-1) $
 
-因为 $0<a<b$，所以 $0<(a)/(b)<1$，从而 $((a)/(b))^n -> 0$. 因此极限为 $(4)/(0-1)=-4$.
+#align(center)[#mitex(`
+\frac{4b^{n}}{a^{n}-b^{n}}=\frac{4}{\left(\frac{a}{b}\right)^{n}-1}
+`)]
+
+
+因为 #mi(`0<a<b`)，所以 #mi(`0<\frac{a}{b}<1`)，从而 #mi(`\left(\frac{a}{b}\right)^{n}\to0`). 因此极限为 #mi(`\frac{4}{0-1}=-4`).
 ]
 
 #problem(14)[
-设正四棱锥底面边长为 $4~c m$，侧面和底面所成的二面角是 $60^ degree$，则这个棱锥的侧面积是#blank(){}$c m^2$.
+设正四棱锥底面边长为 #mi(`4\mathrm{~cm}`)，侧面和底面所成的二面角是 #mi(`60^{\circ}`)，则这个棱锥的侧面积是\underline{\hspace{2.5em}}#mi(`\mathrm{cm}^{2}`).
 ]
 
 #answer([32])
 
 #solution[
-设正四棱锥的顶点为 $S$，底面中心为 $O$，底面一边的中点为 $M$. 则 $O M=2$，且 $S M$ 是侧面的斜高. 在截面三角形 $S O M$ 中，$S O bot O M$，二面角为 $angle S M O=60^ degree$，所以
-$cos 60 ""^ degree =(O M)/(S M)=(2)/(S M)$，得 $S M=4$.
+设正四棱锥的顶点为 #mi(`S`)，底面中心为 #mi(`O`)，底面一边的中点为 #mi(`M`). 则 #mi(`OM=2`)，且 #mi(`SM`) 是侧面的斜高. 在截面三角形 #mi(`SOM`) 中，#mi(`SO\perp OM`)，二面角为 #mi(`\angle SMO=60^{\circ}`)，所以
 
-每个侧面的面积为 $(1)/(2) times 4 times 4 =8$，四个侧面的总面积为 $4 times 8 =32\ c m^2$.
+#mi(`\cos60^{\circ}=\frac{OM}{SM}=\frac{2}{SM}`)，得 #mi(`SM=4`).
+
+每个侧面的面积为 #mi(`\frac{1}{2}\times4\times4=8`)，四个侧面的总面积为 #mi(`4\times8=32\ \mathrm{cm}^{2}`).
 ]
 
 #problem(15)[
-圆柱形容器的内壁底半径为 $5~c m$，两个直径为 $5~c m$ 的玻璃小球都浸没于容器的水中. 若取出这两个小球，则容器内的水面将下降#blank(){}$c m$.
+圆柱形容器的内壁底半径为 #mi(`5\mathrm{~cm}`)，两个直径为 #mi(`5\mathrm{~cm}`) 的玻璃小球都浸没于容器的水中. 若取出这两个小球，则容器内的水面将下降\underline{\hspace{2.5em}}#mi(`\mathrm{cm}`).
 ]
 
-#answer([$(5)/(3)$])
+#answer([#mi(`\frac{5}{3}`)])
 
 #solution[
-每个玻璃球的半径为 $(5)/(2)\ c m$，两个球的总体积为
+每个玻璃球的半径为 #mi(`\frac{5}{2}\ \mathrm{cm}`)，两个球的总体积为
 
-$ 2 times (4)/(3) pi ((5)/(2))^3=(125 pi)/(3)\ c m^3 $
 
-取出小球后，水面下降的体积正好等于两个小球排开的体积；设下降高度为 $h$，圆柱容器的底面积为 $25 pi \ c m^2$，则
-$25 pi h=(125 pi)/(3)$，所以 $h=(5)/(3)\ c m$.
+#align(center)[#mitex(`
+2\times\frac{4}{3}\pi\left(\frac{5}{2}\right)^{3}=\frac{125\pi}{3}\ \mathrm{cm}^{3}
+`)]
+
+
+取出小球后，水面下降的体积正好等于两个小球排开的体积；设下降高度为 #mi(`h`)，圆柱容器的底面积为 #mi(`25\pi\ \mathrm{cm}^{2}`)，则
+
+#mi(`25\pi h=\frac{125\pi}{3}`)，所以 #mi(`h=\frac{5}{3}\ \mathrm{cm}`).
 ]
 
 #problem(16)[
-从集合 $\{0,1,2,3,5,7,11\}$ 中任取 $3$ 个元素分别作为直线方程 $A x+B y+C=0$ 中的 $A$，$B$，$C$，所得恰好经过坐标原点的直线有#blank(){} 条（结果用数值表示）.
+从集合 #mi(`\{0,1,2,3,5,7,11\}`) 中任取 #mi(`3`) 个元素分别作为直线方程 #mi(`Ax+By+C=0`) 中的 #mi(`A`)，#mi(`B`)，#mi(`C`)，所得恰好经过坐标原点的直线有\underline{\hspace{2.5em}} 条（结果用数值表示）.
 ]
 
 #answer([30])
 
 #solution[
-直线经过坐标原点时，代入 $(0,0)$ 得 $C=0$. 因为 $A$，$B$，$C$ 是从集合中任取后分别使用的三个不同元素，所以 $A$，$B$ 必须从其余六个非零元素中有序选取：先选 $A$ 有 $6$ 种，再选 $B$ 有 $5$ 种.
+直线经过坐标原点时，代入 #mi(`(0,0)`) 得 #mi(`C=0`). 因为 #mi(`A`)，#mi(`B`)，#mi(`C`) 是从集合中任取后分别使用的三个不同元素，所以 #mi(`A`)，#mi(`B`) 必须从其余六个非零元素中有序选取：先选 #mi(`A`) 有 #mi(`6`) 种，再选 #mi(`B`) 有 #mi(`5`) 种.
 
-因此所得直线的条数为 $6 times 5 =30$.
+因此所得直线的条数为 #mi(`6\times5=30`).
 ]
 
 #problem(17)[
-$lim_(n -> oo )(1-(2)/(n))^(-2 n)=\f i l l i n b l a n k{}$.
+#mi(`\displaystyle\lim_{n\to\infty}\left(1-\frac{2}{n}\right)^{-2n}=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$e ""^4$])
+#answer([#mi(`\mathrm{e}^{4}`)])
 
 #solution[
-令 $L_n=(1-(2)/(n))^(-2 n)$. 对充分大的 $n$，$L_n>0$，且
+令 #mi(`L_{n}=\left(1-\frac{2}{n}\right)^{-2n}`). 对充分大的 #mi(`n`)，#mi(`L_{n}>0`)，且
 
-$ ln L_n=-2 n ln (1-(2)/(n)) $
 
-由 $lim_(u -> 0 )(ln (1+u))/(u)=1$，取 $u=-(2)/(n)$，得
+#align(center)[#mitex(`
+\ln L_{n}=-2n\ln\left(1-\frac{2}{n}\right)
+`)]
 
-$ lim_(n -> oo ) ln L_n =lim_(n -> oo )-2 n(-(2)/(n))(ln (1-(2)/(n)))/(-(2)/(n))=4 $
 
-因此 $L_n -> e ""^4$.
+由 #mi(`\displaystyle\lim_{u\to0}\frac{\ln(1+u)}{u}=1`)，取 #mi(`u=-\frac{2}{n}`)，得
+
+
+#align(center)[#mitex(`
+\lim_{n\to\infty}\ln L_{n}  =\lim_{n\to\infty}-2n\left(-\frac{2}{n}\right)\frac{\ln\left(1-\frac{2}{n}\right)}{-\frac{2}{n}}=4
+`)]
+
+
+因此 #mi(`L_{n}\to\mathrm{e}^{4}`).
 ]
 
 #problem(18)[
-设 $bold(a)=(m+1)bold(i)-3 bold(j)$，$bold(b)=bold(i)+(m-1)bold(j)$，$(bold(a)+bold(b)) bot (bold(a)-bold(b))$，则 $m=\f i l l i n b l a n k{}$.
+设 #mi(`\mathbf{a}=(m+1)\mathbf{i}-3\mathbf{j}`)，#mi(`\mathbf{b}=\mathbf{i}+(m-1)\mathbf{j}`)，#mi(`\left(\mathbf{a}+\mathbf{b}\right)\perp\left(\mathbf{a}-\mathbf{b}\right)`)，则 #mi(`m=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$-2$])
+#answer([#mi(`-2`)])
 
 #solution[
-由 $(bold(a)+bold(b)) bot (bold(a)-bold(b))$，得
+由 #mi(`(\mathbf{a}+\mathbf{b})\perp(\mathbf{a}-\mathbf{b})`)，得
 
-$ 0=(bold(a)+bold(b)) dot (bold(a)-bold(b))=|bold(a)|^2-|bold(b)|^2 $
 
-而 $|bold(a)|^2=(m+1)^2+(-3)^2$，$|bold(b)|^2=1^2+(m-1)^2$，所以
+#align(center)[#mitex(`
+0=(\mathbf{a}+\mathbf{b})\cdot(\mathbf{a}-\mathbf{b})=|\mathbf{a}|^{2}-|\mathbf{b}|^{2}
+`)]
 
-$ (m+1)^2+9=1+(m-1)^2 $
 
-展开并化简得 $4 m+8=0$，故 $m=-2$.
+而 #mi(`|\mathbf{a}|^{2}=(m+1)^{2}+(-3)^{2}`)，#mi(`|\mathbf{b}|^{2}=1^{2}+(m-1)^{2}`)，所以
+
+
+#align(center)[#mitex(`
+(m+1)^{2}+9=1+(m-1)^{2}
+`)]
+
+
+展开并化简得 #mi(`4m+8=0`)，故 #mi(`m=-2`).
 ]
 
 #problem(19)[
-设 $f(x)=x^2(2-x)$，则 $f(x)$ 的单调递增区间是#blank(){}.
+设 #mi(`f(x)=x^{2}(2-x)`)，则 #mi(`f(x)`) 的单调递增区间是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(0,(4)/(3))$])
+#answer([#mi(`\left(0,\frac{4}{3}\right)`)])
 
 #solution[
-$f(x)=x^2(2-x)=2 x^2-x^3$，所以
-$f'(x)=4 x-3 x^2=x(4-3 x)$.
-当 $0<x<(4)/(3)$ 时，$x>0$ 且 $4-3 x>0$，故 $f'(x)>0$，函数单调递增；其余区间导数不为正，所以单调递增区间为 $(0,(4)/(3))$.
+#mi(`f(x)=x^{2}(2-x)=2x^{2}-x^{3}`)，所以
+
+#mi(`f'(x)=4x-3x^{2}=x(4-3x)`).
+
+当 #mi(`0<x<\frac{4}{3}`) 时，#mi(`x>0`) 且 #mi(`4-3x>0`)，故 #mi(`f'(x)>0`)，函数单调递增；其余区间导数不为正，所以单调递增区间为 #mi(`\left(0,\frac{4}{3}\right)`).
 ]
 
 #problem(20)[
-从集合 $\{0,1,2,3,5,7,11\}$ 中任取 $3$ 个元素分别作为直线方程 $A x+B y+C=0$ 中的 $A$，$B$，$C$，所得恰好经过坐标原点的直线的概率是#blank(){}.
+从集合 #mi(`\{0,1,2,3,5,7,11\}`) 中任取 #mi(`3`) 个元素分别作为直线方程 #mi(`Ax+By+C=0`) 中的 #mi(`A`)，#mi(`B`)，#mi(`C`)，所得恰好经过坐标原点的直线的概率是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(7)$])
+#answer([#mi(`\frac{1}{7}`)])
 
 #solution[
-总的有序取法数为 $7 times 6 times 5 =210$. 直线经过原点当且仅当 $C=0$，此时 $A$，$B$ 从其余六个非零元素中有序选取，恰有 $6 times 5 =30$ 种.
+总的有序取法数为 #mi(`7\times6\times5=210`). 直线经过原点当且仅当 #mi(`C=0`)，此时 #mi(`A`)，#mi(`B`) 从其余六个非零元素中有序选取，恰有 #mi(`6\times5=30`) 种.
 
-所以所求概率为 $(30)/(210)=(1)/(7)$.
+所以所求概率为 #mi(`\frac{30}{210}=\frac{1}{7}`).
 ]
 
 #part-header("解答题")
 
 #problem(21)[
-已知 $tan (alpha)/(2)=(1)/(2)$，求 $sin ( alpha +(pi)/(6))$ 的值.
+已知 #mi(`\tan \frac{\alpha}{2}=\frac{1}{2}`)，求 #mi(`\sin \left(\alpha+\frac{\pi}{6}\right)`) 的值.
 ]
 
 #solution[
-由半角正切公式，在 $tan (alpha)/(2)$ 有定义时，
-$sin alpha =(2 tan (alpha)/(2))/(1+ tan ""^2(alpha)/(2))=(2 times (1)/(2))/(1+(1)/(4))=(4)/(5)$，
-$cos alpha =(1- tan ""^2(alpha)/(2))/(1+ tan ""^2(alpha)/(2))=(1-(1)/(4))/(1+(1)/(4))=(3)/(5)$. 因此
-$sin ( alpha +(pi)/(6))= sin alpha cos (pi)/(6)+ cos alpha sin (pi)/(6)=(4)/(5) times (sqrt(3))/(2)+(3)/(5) times (1)/(2)=(3+4 sqrt(3))/(10)$.
+由半角正切公式，在 #mi(`\tan\frac{\alpha}{2}`) 有定义时，
+
+#mi(`\sin\alpha=\frac{2\tan\frac{\alpha}{2}}{1+\tan^{2}\frac{\alpha}{2}}=\frac{2\times\frac{1}{2}}{1+\frac{1}{4}}=\frac{4}{5}`)，
+
+#mi(`\cos\alpha=\frac{1-\tan^{2}\frac{\alpha}{2}}{1+\tan^{2}\frac{\alpha}{2}}=\frac{1-\frac{1}{4}}{1+\frac{1}{4}}=\frac{3}{5}`). 因此
+
+#mi(`\sin\left(\alpha+\frac{\pi}{6}\right)=\sin\alpha\cos\frac{\pi}{6}+\cos\alpha\sin\frac{\pi}{6}=\frac{4}{5}\times\frac{\sqrt{3}}{2}+\frac{3}{5}\times\frac{1}{2}=\frac{3+4\sqrt{3}}{10}`).
 ]
 
 #problem(22)[
-公园要建造一个圆形的喷水池. 在水池中央垂直于水面安装一个花形柱子 $O A$. $O$ 恰在水面中心，$O A=1.25" 米"$. 安置在柱子顶端 $A$ 处的喷头向外喷水，水流在各个方向上沿形状相同的抛物线路径落下，且在过 $O A$ 的任一平面上抛物线路径如图所示. 为使水流形状较为漂亮，设计成水流在到 $O A$ 距离为 $1" 米"$ 处达到距水面最大高度 $2.25" 米"$. 如果不计其它因素，那么水池的半径至少要多少米，才能使喷出的水流不致落到池外.
+公园要建造一个圆形的喷水池. 在水池中央垂直于水面安装一个花形柱子 #mi(`OA`). #mi(`O`) 恰在水面中心，#mi(`OA=1.25\text{ \text{米}}`). 安置在柱子顶端 #mi(`A`) 处的喷头向外喷水，水流在各个方向上沿形状相同的抛物线路径落下，且在过 #mi(`OA`) 的任一平面上抛物线路径如图所示. 为使水流形状较为漂亮，设计成水流在到 #mi(`OA`) 距离为 #mi(`1\text{ \text{米}}`) 处达到距水面最大高度 #mi(`2.25\text{ \text{米}}`). 如果不计其它因素，那么水池的半径至少要多少米，才能使喷出的水流不致落到池外.
 
 
-#align(center)[#image("/papers/1997/img/shanghai_science/q18_fig1.png", width: 68%)]
+#align(center)[#image("/papers/1997/img/shanghai_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
 如图建立直角坐标系，
 
+ 
+#align(center)[#image("/papers/1997/img/shanghai_science/q18_solution_fig1.png", width: 28%)]
+ 
 
-#align(center)[#image("/papers/1997/img/shanghai_science/q18_solution_fig1.png", width: 68%)]
-
-
-则水流所呈现的抛物线方程为 $y=a(x-1)^2+2.25$. 由题意，点 $A$ 的坐标为 $(0,1.25)$，把 $x=0$ 和 $y=1.25$ 代入上述方程，得 $a=-1$，于是抛物线方程为 $y=-(x-1)^2+2.25$. 令 $y=0$，得 $-(x-1)^2+2.25=0$，解得 $x_1=2.5$，$x_2=-0.5$（不合，舍去）. 答：水池半径至少要 $2.5" 米"$，才能使水流不落到池外.
+则水流所呈现的抛物线方程为 #mi(`y=a(x-1)^{2}+2.25`). 由题意，点 #mi(`A`) 的坐标为 #mi(`(0,1.25)`)，把 #mi(`x=0`) 和 #mi(`y=1.25`) 代入上述方程，得 #mi(`a=-1`)，于是抛物线方程为 #mi(`y=-(x-1)^{2}+2.25`). 令 #mi(`y=0`)，得 #mi(`-(x-1)^{2}+2.25=0`)，解得 #mi(`x_{1}=2.5`)，#mi(`x_{2}=-0.5`)（不合，舍去）. 答：水池半径至少要 #mi(`2.5\text{ \text{米}}`)，才能使水流不落到池外.
 ]
 
 #problem(23)[
-如图，在三棱柱 $A B C-A'B'C'$ 中，四边形 $A'A B B'$ 是菱形，四边形 $B C C'B'$ 是矩形，$C'B' bot A B$.
-
-+ (1) 求证：平面 $C A'B bot$ 平面 $A'A B$；
-+ (2) 若 $C'B'=3$，$A B=4$，$angle A B B'=60^ degree$，求 $A C'$ 与平面 $B C C'$ 所成角的大小（用反三角函数表示）.
+如图，在三棱柱 #mi(`ABC-A'B'C'`) 中，四边形 #mi(`A'ABB'`) 是菱形，四边形 #mi(`BCC'B'`) 是矩形，#mi(`C'B' \perp AB`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/1997/img/shanghai_science/q19_fig1.png", width: 92%)]
+
+
+
+#align(center)[#image("/papers/1997/img/shanghai_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-#align(center)[#image("/papers/1997/img/shanghai_science/q19_solution_fig1.png", width: 92%)]
+
+#align(center)[#image("/papers/1997/img/shanghai_science/q19_solution_fig1.png", width: 28%)]
+ 
 
 
-
-+ (1) 证明：因为在三棱柱 $A B C-A'B'C'$ 中，$C'B' parallel C B$，所以 $C B bot A B$. 又因为 $C B bot B B'$，$A B inter B B'=B$，所以 $C B bot$ 平面 $A'A B$. 因为 $C B subset$ 平面 $C A'B$，因此平面 $C A'B bot$ 平面 $A'A B$.
-+ (2) 由 $C'B' bot$ 平面 $A'A B$，得平面 $A'A B bot$ 平面 $B C C'$. 过 $A$ 作 $A H bot$ 平面 $B C C'$，$H$ 为垂足，则 $H$ 在 $B B'$ 上. 连接 $C'H$，则 $angle A C'H$ 为 $A C'$ 与平面 $B C C'$ 所成的角. 连接 $A B'$，由四边形 $A'A B B'$ 是菱形，$angle A B B'=60^ degree$，可知 $triangle A B B'$ 为等边三角形，而 $H$ 为 $B B'$ 中点. 又 $A B'=4$，$A H=2 sqrt(3)$，于是在 $R t triangle C'B'A$ 中，$A C'=sqrt(4^2+3^2)=5$，而在 $R t triangle A H C'$ 中，$sin angle A C'H=(2 sqrt(3))/(5)$，所以 $angle A C'H= arcsin (2 sqrt(3))/(5)$. 因此，直线 $A C'$ 与平面 $B C C'$ 所成的角是 $arcsin (2 sqrt(3))/(5)$.
++ (1)
 ]
 
 #part-header("选做题：解答题")
 
 #problem(24)[
-设虚数 $z_1$，$z_2$ 满足 $z_1^2=z_2$.
+设虚数 #mi(`z_{1}`)，#mi(`z_{2}`) 满足 #mi(`z_{1}^{2}=z_{2}`).
 
-+ (1) 若 $z_1$，$z_2$ 又是一个实系数一元二次方程的两个根，求 $z_1$，$z_2$；
-+ (2) 若 $z_1=1+m i$（$m>0$，$i$ 为虚数单位），$omega =z_2-2$，$omega$ 的辐角主值为 $theta$，求 $theta$ 的取值范围.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设 $z_1=a+b i$，$z_2=a-b i$（$a$，$b in RR$ 且 $b != 0$）. 由 $z_1^2=z_2$，得 $a^2-b^2+2 a b i =a-b i$，于是 $\b e g i n{c a s e s} a^2-b^2=a,\\ 2 a b=-b. \e n d{c a s e s}$ 解得 $a=-(1)/(2)$，$b= +- (sqrt(3))/(2)$，所以 $z_1=-(1)/(2)+(sqrt(3))/(2) i$，$z_2=-(1)/(2)-(sqrt(3))/(2) i$，或 $z_1=-(1)/(2)-(sqrt(3))/(2) i$，$z_2=-(1)/(2)+(sqrt(3))/(2) i$.
-+ (2) 由 $z_1=1+m i$（$m>0$），$z_1^2=z_2$，得 $z_2=(1-m^2)+2 m i$，所以 $omega =-(1+m^2)+2 m i$，$tan theta =-(2 m)/(1+m^2)=-(2)/(m+(1)/(m))$. 由 $m>0$，知 $m+(1)/(m) >= 2$，于是 $-1 <= tan theta < 0$. 又由 $-(m^2+1)<0$，$2 m>0$，得 $(3 pi)/(4) <= theta < pi$. 因此，所求 $theta$ 的取值范围为 $[(3 pi)/(4), pi )$.
++ (1)
 ]
 
 #problem(25)[
-如图，抛物线 $C_1:y=-x^2$ 与抛物线 $C_2:y=x^2-2 a x$（$a>0$）交于 $O$，$A$ 两点.
-
-+ (1) 把 $C_1$ 与 $C_2$ 所围成的图形（阴影部分）绕 $x$ 轴旋转一周，求所得几何体的体积 $V$；
-+ (2) 若过原点的直线 $l$ 与抛物线 $C_2$ 所围成的图形面积为 $(9)/(2)a^3$，求直线 $l$ 的方程.
+如图，抛物线 #mi(`C_{1}:y=-x^{2}`) 与抛物线 #mi(`C_{2}:y=x^{2}-2ax`)（#mi(`a>0`)）交于 #mi(`O`)，#mi(`A`) 两点.
 
 
++ (1) 
 
 
-#align(center)[#image("/papers/1997/img/shanghai_science/q20_fig1.png", width: 78%)]
+
+
+#align(center)[#image("/papers/1997/img/shanghai_science/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-#align(center)[#image("/papers/1997/img/shanghai_science/q20_solution_fig1.png", width: 78%)]
+
+#align(center)[#image("/papers/1997/img/shanghai_science/q20_solution_fig1.png", width: 28%)]
+ 
 
 
-
-+ (1) $C_1$ 和 $C_2$ 交于两点 $O(0,0)$，$A(a,-a^2)$，
-
-
-$ \b e g i n{a l i g n e d} V&= pi \i n t_0^a (x^2-2 a x)^2 d x- pi \i n t_0^a (-x^2)^2 d x \\ &=4 a pi \i n t_0^a (-x^3+a x^2) d x \\ &=4 a pi (-(1)/(4)x^4+(1)/(3)a x^3)\B i g g|_0^a=(pi)/(3)a^5. \e n d{a l i g n e d} $
-+ (2) 设过原点的直线方程为 $y=k x$，解方程组
-
-$ \b e g i n{c a s e s} y=k x,\\ y=x^2-2 a x, \e n d{c a s e s} $
-
-得 $x_1=0$，$x_2=k+2 a$. 当 $k+2 a >= 0$ 时，
-
-$ \b e g i n{a l i g n e d} S&=\i n t_0^(k+2 a) (k x-x^2+2 a x) d x \\ &=\i n t_0^(k+2 a) [(k+2 a)x-x^2] d x =((k+2 a)/(2)x^2-(1)/(3)x^3)\B i g g|_0^(k+2 a) \\ &=((k+2 a)^3)/(6). \e n d{a l i g n e d} $
-
-于是 $(k+2 a)^3=27 a^3$，解得 $k=a$. 所以，直线 $l$ 的方程为 $y=a x$.
-
-当 $k+2 a<0$ 时，
-$S=integral_(k+2 a)^0 [(k+2 a)x-x^2] d x=-((k+2 a)^3)/(6)$，
-于是 $-(k+2 a)^3=27 a^3$，解得 $k=-5 a$. 所以，直线 $l$ 的方程为 $y=-5 a x$.
++ (1)
 ]
 
 #part-header("解答题")
 
 #problem(26)[
-如图，抛物线方程为 $y^2=p(x+1)$（$p>0$），直线 $x+y=m$ 与 $x$ 轴的交点在抛物线的准线的右边.
+如图，抛物线方程为 #mi(`y^{2}=p(x+1)`)（#mi(`p>0`)），直线 #mi(`x+y=m`) 与 #mi(`x`) 轴的交点在抛物线的准线的右边.
 
 
-+ (1) 求证：直线与抛物线总有两个交点；
-+ (2) 设直线与抛物线的交点为 $Q$，$R$，$O Q bot O R$，求 $p$ 关于 $m$ 的函数 $f(m)$ 的表达式；
-+ (3) 在（2）的条件下，若 $m$ 变化，使得原点 $O$ 到直线 $Q R$ 的距离不大于 $(sqrt(2))/(2)$，求 $p$ 的取值范围.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/1997/img/shanghai_science/q21_fig1.png", width: 72%)]
+
+#align(center)[#image("/papers/1997/img/shanghai_science/q21_fig1.png", width: 28%)]
+
 
 \FloatBarrier
 ]
 
 #solution[
-#align(center)[#image("/papers/1997/img/shanghai_science/q21_solution_fig1.png", width: 72%)]
+
+#align(center)[#image("/papers/1997/img/shanghai_science/q21_solution_fig1.png", width: 28%)]
+ 
 
 
-
-+ (1) 证明：抛物线 $y^2=p(x+1)$ 的准线方程是 $x=-1-(p)/(4)$，直线 $x+y=m$ 与 $x$ 轴的交点为 $(m,0)$，则 $m>-1-(p)/(4)$，即 $4 m+p+4>0$. 由方程组 $\b e g i n{c a s e s} y^2=p(x+1),\\ x+y=m, \e n d{c a s e s}$ 得 $x^2-(2 m+p)x+(m^2-p)=0$，而判别式 $Delta =(2 m+p)^2-4(m^2-p)=p(4 m+p+4)$. 又 $p>0$ 及 $4 m+p+4>0$，可见 $Delta >0$. 因此，直线与抛物线总有两个交点.
-+ (2) 设 $Q$，$R$ 两点的坐标分别为 $(x_1,y_1)$，$(x_2,y_2)$，由（1）知，$x_1$，$x_2$ 是方程 $x^2-(2 m+p)x+m^2-p=0$ 的两根. 所以 $x_1+x_2=2 m+p$，$x_(1) x_2=m^2-p$. 由 $O Q bot O R$，直接用向量点积得 $x_(1) x_2+y_(1) y_2=0$，这一写法也包含坐标轴为竖直或水平的特殊情形. 又 $Q$，$R$ 为直线 $x+y=m$ 上的点，因而 $y_1=-x_1+m$，$y_2=-x_2+m$. 于是 $x_(1) x_2+y_(1) y_2=2 x_(1) x_2-m(x_1+x_2)+m^2=0$，所以 $p=f(m)=(m^2)/(m+2)$. 由 $p>0$，$4 m+4+p>0$，得 $m>-2$，$m != 0$.
-+ (3) 由原点 $O$ 到直线 $x+y=m$ 的距离不大于 $(sqrt(2))/(2)$，得 $(|m|)/(sqrt(2)) <= (sqrt(2))/(2)$，所以 $|m| <= 1$. 结合（2）中的条件 $m>-2$ 且 $m\n e q0$，可得 $m in [-1,0) union (0,1]$.
-
-由（2），$p=f(m)=(m^2)/(m+2)$，且
-$f'(m)=(2 m(m+2)-m^2)/((m+2)^2)=(m(m+4))/((m+2)^2)$. 当 $m in [-1,0)$ 时，$f'(m)<0$，所以 $f$ 在该区间递减；又 $f(-1)=1$，$lim_(m -> 0 ""^-)f(m)=0$，故此时 $p in (0,1]$. 当 $m in (0,1]$ 时，$f'(m)>0$，所以 $f$ 在该区间递增；又 $lim_(m -> 0 ""^+)f(m)=0$，$f(1)=(1)/(3)$，故此时 $p in (0,(1)/(3)]$. 因而 $p$ 的取值范围为 $(0,1]$.
++ (1) 
++ (2)
 ]
 
 #problem(27)[
-设数列 $\{a_n\}$ 的首项 $a_1=1$，前 $n$ 项和 $S_n$ 满足关系式：$3 t S_n-(2 t+3)S_(n-1)=3 t$（$t>0$，$n=2$，$3$，$4$，$...$）.
+设数列 #mi(`\{a_{n}\}`) 的首项 #mi(`a_{1}=1`)，前 #mi(`n`) 项和 #mi(`S_{n}`) 满足关系式：#mi(`3tS_{n}-(2t+3)S_{n-1}=3t`)（#mi(`t>0`)，#mi(`n=2`)，#mi(`3`)，#mi(`4`)，#mi(`\dots`)）.
 
-+ (1) 求证：数列 $\{a_n\}$ 是等比数列；
-+ (2) 设数列 $\{a_n\}$ 的公比为 $f(t)$，作数列 $\{b_n\}$，使 $b_1=1$，$b_n=f((1)/(b_(n-1)))$（$n=2$，$3$，$4$，$dots.c$），求 $lim_(n -> oo )(\l g a_n)/(b_n)$；
-+ (3) 求和：$b_(1) b_2-b_(2) b_3+b_(3) b_4- dots.c +(-1)^(n-1)b_(n) b_(n+1)$.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 由 $S_1=a_1=1$，$S_2=a_1+a_2=1+a_2$，得 $3 t(1+a_2)-(2 t+3)=3 t$，可见 $a_2=(2 t+3)/(3 t)$，$(a_2)/(a_1)=(2 t+3)/(3 t)$. 又 $3 t S_n-(2 t+3)S_(n-1)=3 t$，$3 t S_(n-1)-(2 t+3)S_(n-2)=3 t$，两式相减，得 $3 t a_n-(2 t+3)a_(n-1)=0$. 于是 $(a_n)/(a_(n-1))=(2 t+3)/(3 t)$（$n=3$，$4$，$...$）. 因此，$\{a_n\}$ 是一个首项为 $1$，公比为 $(2 t+3)/(3 t)$ 的等比数列.
-+ (2) 由 $f(t)=(2 t+3)/(3 t)=(2)/(3)+(1)/(t)$，$b_n=f((1)/(b_(n-1)))=(2)/(3)+b_(n-1)$，可见，$\{b_n\}$ 是一个首项为 $1$，公差为 $(2)/(3)$ 的等差数列. 于是 $b_n=1+(2)/(3)(n-1)=(2 n+1)/(3)$. 所以 $lim_(n -> oo )(\l g a_n)/(b_n)=lim_(n -> oo )(3(n-1)\l g ((2 t+3)/(3 t)))/(2 n+1)=(3)/(2)\l g ((2 t+3)/(3 t))$.
-+ (3) 由 $b_n=(2 n+1)/(3)$，可知 $\{b_(2 n-1)\}$ 和 $\{b_(2 n)\}$ 是首项分别为 $1$ 和 $(5)/(3)$，公差均为 $(4)/(3)$ 的等差数列，于是 $b_(2 n)=(4 n+1)/(3)$，$b_(2 n+1)=(4 n+3)/(3)$. 当 $n=2 m$（$m=1$，$2$，$...$）时，
-
-$ \b e g i n{a l i g n e d} &b_(1) b_2-b_(2) b_3+b_(3) b_4-b_(4) b_5+ dots.c +b_(2 m-1)b_(2 m)-b_(2 m)b_(2 m+1) \\ =&b_2(b_1-b_3)+b_4(b_3-b_5)+ dots.c +b_(2 m)(b_(2 m-1)-b_(2 m+1)) \\ =&-(4)/(3)(b_2+b_4+ dots.c +b_(2 m)) =-(4)/(3) dot (1)/(2)m dot ((5)/(3)+(4 m+1)/(3)) =-(4)/(9)m(2 m+3)=-(1)/(9)(2 n^2+6 n). \e n d{a l i g n e d} $
-
-当 $n=2 m-1$（$m=1$，$2$，$...$）时，
-
-$ \b e g i n{a l i g n e d} &b_(1) b_2-b_(2) b_3+b_(3) b_4-b_(4) b_5+ dots.c -b_(2 m-2)b_(2 m-1)+b_(2 m-1)b_(2 m) \\ =&-(4)/(9)m(2 m+3)+b_(2 m)b_(2 m+1) \\ =&-(4)/(9)m(2 m+3)+((4 m+1)(4 m+3))/(9)=(1)/(9)(8 m^2+4 m+3)=(1)/(9)(2 n^2+6 n+7). \e n d{a l i g n e d} $
-
-所以 $b_(1) b_2-b_(2) b_3+b_(3) b_4- ... +(-1)^(n-1)b_(n) b_(n+1)$ 等于
-
-$ \b e g i n{c a s e s} -(1)/(9)(2 n^2+6 n), & n "为偶数";\\[2 m m] (1)/(9)(2 n^2+6 n+7), & n "为奇数". \e n d{c a s e s} $
++ (1) 
++ (2)
 ]
 

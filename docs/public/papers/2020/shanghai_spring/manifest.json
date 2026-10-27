@@ -1,8 +1,137 @@
 {
-  "title": "2020年普通高等学校招生全国统一考试",
-  "subtitle": "2020年上海卷（春）",
   "year": "2020",
   "slug": "shanghai_spring",
+  "title": "2020年上海卷（春）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "填空题",
@@ -10,86 +139,110 @@
         {
           "num": 1,
           "body": "集合 $A=\\{1,3\\}$，$B=\\{1,2,a\\}$，若 $A\\subseteq B$，则 $a=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$3$",
-          "solution": "因为 $3\\in A$，且 $A\\subseteq B$，所以 $3\\in B$，故 $a=3$."
+          "choices": [],
+          "answer": "\\(3\\)",
+          "solution": "因为 $3\\in A$，且 $A\\subseteq B$，所以 $3\\in B$，故 $a=3$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "不等式 $\\dfrac{1}{x}>3$ 的解集为 $\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\left(0,\\dfrac{1}{3}\\right)$",
-          "solution": "由 $\\dfrac{1}{x}>3$ 得 $\\dfrac{1-3x}{x}>0$，则 $x(1-3x)>0$，即 $x(3x-1)<0$，解得 $0<x<\\dfrac{1}{3}$，所以不等式的解集是 $\\left(0,\\dfrac{1}{3}\\right)$."
+          "choices": [],
+          "answer": "\\(\\left(0,\\dfrac{1}{3}\\right)\\)",
+          "solution": "由 $\\dfrac{1}{x}>3$ 得 $\\dfrac{1-3x}{x}>0$，则 $x(1-3x)>0$，即 $x(3x-1)<0$，解得 $0<x<\\dfrac{1}{3}$，所以不等式的解集是 $\\left(0,\\dfrac{1}{3}\\right)$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "函数 $y=\\tan 2x$ 的最小正周期为 $\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\dfrac{\\pi}{2}$",
-          "solution": "函数 $y=\\tan 2x$ 的最小正周期为 $\\dfrac{\\pi}{2}$."
+          "choices": [],
+          "answer": "\\(\\dfrac{\\pi}{2}\\)",
+          "solution": "函数 $y=\\tan 2x$ 的最小正周期为 $\\dfrac{\\pi}{2}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "已知复数 $z$ 满足 $z+2\\bar z=6+\\mathrm{i}$，则 $z$ 的实部为 $\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$2$",
-          "solution": "设 $z=a+b\\mathrm{i}$，（$a$，$b\\in\\mathbb{R}$）. 因为复数 $z$ 满足 $z+2\\bar z=6+\\mathrm{i}$，所以 $3a-b\\mathrm{i}=6+\\mathrm{i}$，可得 $3a=6$，$-b=1$，解得 $a=2$，$b=1$. 则 $z$ 的实部为 $2$."
+          "choices": [],
+          "answer": "\\(2\\)",
+          "solution": "设 $z=a+b\\mathrm{i}$，（$a$，$b\\in\\mathbb{R}$）. 因为复数 $z$ 满足 $z+2\\bar z=6+\\mathrm{i}$，所以 $3a-b\\mathrm{i}=6+\\mathrm{i}$，可得 $3a=6$，$-b=1$，解得 $a=2$，$b=1$. 则 $z$ 的实部为 $2$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "已知 $3\\sin 2x=2\\sin x$，$x\\in(0,\\pi)$，则 $x=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\arccos\\dfrac{1}{3}$",
-          "solution": "因为 $3\\sin 2x=2\\sin x$，所以 $6\\sin x\\cos x=2\\sin x$. 因为 $x\\in(0,\\pi)$，所以 $\\sin x\\ne0$，从而 $\\cos x=\\dfrac{1}{3}$，故 $x=\\arccos\\dfrac{1}{3}$."
+          "choices": [],
+          "answer": "\\(\\arccos\\dfrac{1}{3}\\)",
+          "solution": "因为 $3\\sin 2x=2\\sin x$，所以 $6\\sin x\\cos x=2\\sin x$. 因为 $x\\in(0,\\pi)$，所以 $\\sin x\\ne0$，从而 $\\cos x=\\dfrac{1}{3}$，故 $x=\\arccos\\dfrac{1}{3}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "若函数 $y=a\\cdot3^{x}+\\dfrac{1}{3^x}$ 为偶函数，则 $a=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$1$",
-          "solution": "根据题意，函数 $f(x)=a\\cdot3^{x}+\\dfrac{1}{3^x}$ 为偶函数，则 $f(-x)=f(x)$，即 $a\\cdot3^{-x}+\\dfrac{1}{3^{-x}}=a\\cdot3^{x}+\\dfrac{1}{3^x}$. 变形可得 $a(3^{x}-3^{-x})=3^{x}-3^{-x}$，必有 $a=1$."
+          "choices": [],
+          "answer": "\\(1\\)",
+          "solution": "根据题意，函数 $f(x)=a\\cdot3^{x}+\\dfrac{1}{3^x}$ 为偶函数，则 $f(-x)=f(x)$，即 $a\\cdot3^{-x}+\\dfrac{1}{3^{-x}}=a\\cdot3^{x}+\\dfrac{1}{3^x}$. 变形可得 $a(3^{x}-3^{-x})=3^{x}-3^{-x}$，必有 $a=1$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "已知直线 $l_{1}:x+ay=1$，$l_{2}:ax+y=1$，若 $l_{1}\\parallel l_{2}$，则 $l_{1}$ 与 $l_{2}$ 的距离为 $\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\sqrt{2}$",
-          "solution": "直线 $l_{1}:x+ay=1$，$l_{2}:ax+y=1$. 当 $l_{1}\\parallel l_{2}$ 时，$a^{2}-1=0$，解得 $a=\\pm1$. 当 $a=1$ 时 $l_{1}$ 与 $l_{2}$ 重合，不满足题意；当 $a=-1$ 时 $l_{1}:x-y-1=0$，$l_{2}:x-y+1=0$，则 $l_{1}$ 与 $l_{2}$ 的距离为 $\\dfrac{|-1-1|}{\\sqrt{1^{2}+(-1)^{2}}}=\\sqrt{2}$."
+          "choices": [],
+          "answer": "\\(\\sqrt{2}\\)",
+          "solution": "直线 $l_{1}:x+ay=1$，$l_{2}:ax+y=1$. 当 $l_{1}\\parallel l_{2}$ 时，$a^{2}-1=0$，解得 $a=\\pm1$. 当 $a=1$ 时 $l_{1}$ 与 $l_{2}$ 重合，不满足题意；当 $a=-1$ 时 $l_{1}:x-y-1=0$，$l_{2}:x-y+1=0$，则 $l_{1}$ 与 $l_{2}$ 的距离为 $\\dfrac{|-1-1|}{\\sqrt{1^{2}+(-1)^{2}}}=\\sqrt{2}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "已知二项式 $(2x+\\sqrt{x})^{5}$，则展开式中 $x^{3}$ 的系数为 $\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$10$",
-          "solution": "由二项式展开式的通项，$T_{r+1}=\\mathrm{C}_{5}^{r}(2x)^{5-r}(\\sqrt{x})^{r}=\\mathrm{C}_{5}^{r}2^{5-r}x^{5-\\frac{r}{2}}$. 令 $5-\\dfrac{r}{2}=3$，得 $r=4$，代入通项得 $\\mathrm{C}_{5}^{4} 2x^{3}=10x^{3}$，所以展开式中 $x^{3}$ 的系数为 $10$."
+          "choices": [],
+          "answer": "\\(10\\)",
+          "solution": "由二项式展开式的通项，$T_{r+1}=\\mathrm{C}_{5}^{r}(2x)^{5-r}(\\sqrt{x})^{r}=\\mathrm{C}_{5}^{r}2^{5-r}x^{5-\\frac{r}{2}}$. 令 $5-\\dfrac{r}{2}=3$，得 $r=4$，代入通项得 $\\mathrm{C}_{5}^{4} 2x^{3}=10x^{3}$，所以展开式中 $x^{3}$ 的系数为 $10$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "$\\triangle ABC$ 中，$D$ 是 $BC$ 中点，$AB=2$，$BC=3$，$AC=4$，则 $\\overrightarrow{AD}\\cdot\\overrightarrow{AB}=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\dfrac{19}{4}$",
-          "solution": "在 $\\triangle ABC$ 中，$AB=2$，$BC=3$，$AC=4$. 由余弦定理得 $\\cos\\angle BAC=\\dfrac{AB^2+AC^2-BC^2}{2AB\\cdot AC}=\\dfrac{4+16-9}{2\\times2\\times4}=\\dfrac{11}{16}$，所以 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=2\\times4\\times\\dfrac{11}{16}=\\dfrac{11}{2}$. 又 $D$ 是 $BC$ 的中点，所以 $\\overrightarrow{AD}=\\dfrac{1}{2}(\\overrightarrow{AB}+\\overrightarrow{AC})$. 因此 $\\overrightarrow{AD}\\cdot\\overrightarrow{AB}=\\dfrac{1}{2}(\\overrightarrow{AB}^{\\,2}+\\overrightarrow{AB}\\cdot\\overrightarrow{AC})=\\dfrac{1}{2}\\left(4+\\dfrac{11}{2}\\right)=\\dfrac{19}{4}$."
+          "choices": [],
+          "answer": "\\(\\dfrac{19}{4}\\)",
+          "solution": "在 $\\triangle ABC$ 中，$AB=2$，$BC=3$，$AC=4$. 由余弦定理得 $\\cos\\angle BAC=\\dfrac{AB^2+AC^2-BC^2}{2AB\\cdot AC}=\\dfrac{4+16-9}{2\\times2\\times4}=\\dfrac{11}{16}$，所以 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=2\\times4\\times\\dfrac{11}{16}=\\dfrac{11}{2}$. 又 $D$ 是 $BC$ 的中点，所以 $\\overrightarrow{AD}=\\dfrac{1}{2}(\\overrightarrow{AB}+\\overrightarrow{AC})$. 因此 $\\overrightarrow{AD}\\cdot\\overrightarrow{AB}=\\dfrac{1}{2}(\\overrightarrow{AB}^{\\,2}+\\overrightarrow{AB}\\cdot\\overrightarrow{AC})=\\dfrac{1}{2}\\left(4+\\dfrac{11}{2}\\right)=\\dfrac{19}{4}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "已知 $A=\\{-3,-2,-1,0,1,2,3\\}$，$a$，$b\\in A$，则 $|a|<|b|$ 的情况有 $\\underline{\\hspace{2.5em}}{}$ 种.",
-          "choices": null,
-          "answer": "$18$",
-          "solution": "当 $a=-3$ 时，有 $0$ 种；当 $a=-2$ 时，有 $2$ 种；当 $a=-1$ 时，有 $4$ 种；当 $a=0$ 时，有 $6$ 种；当 $a=1$ 时，有 $4$ 种；当 $a=2$ 时，有 $2$ 种；当 $a=3$ 时，有 $0$ 种，故共有 $2+4+6+4+2=18$ 种."
+          "choices": [],
+          "answer": "\\(18\\)",
+          "solution": "当 $a=-3$ 时，有 $0$ 种；当 $a=-2$ 时，有 $2$ 种；当 $a=-1$ 时，有 $4$ 种；当 $a=0$ 时，有 $6$ 种；当 $a=1$ 时，有 $4$ 种；当 $a=2$ 时，有 $2$ 种；当 $a=3$ 时，有 $0$ 种，故共有 $2+4+6+4+2=18$ 种.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "已知 $A_{1}$，$A_{2}$，$A_{3}$，$A_{4}$，$A_{5}$ 五个点，满足 $\\overrightarrow{A_nA_{n+1}}\\cdot\\overrightarrow{A_{n+1}A_{n+2}}=0$ （$n=1$，$2$，$3$），$|A_{n}A_{n+1}|\\cdot|A_{n+1}A_{n+2}|=n+1$ （$n=1$，$2$，$3$），则 $|A_{1}A_{5}|$ 的最小值为 $\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\dfrac{\\sqrt{6}}{3}$",
-          "solution": "<p>设 $|A_{1}A_{2}|=x$，则 $|A_{2}A_{3}|=\\dfrac{2}{x}$，$|A_{3}A_{4}|=\\dfrac{3x}{2}$，$|A_{4}A_{5}|=\\dfrac{8}{3x}$. 设 $A_{1}(0,0)$，如图.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q11_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>因为求 $|A_{1}A_{5}|$ 的最小值，所以可设 $A_{2}(x,0)$，$A_{3}\\left(x,\\dfrac{2}{x}\\right)$，$A_{4}\\left(-\\dfrac{x}{2},\\dfrac{2}{x}\\right)$，$A_{5}\\left(-\\dfrac{x}{2},-\\dfrac{2}{3x}\\right)$. 因此 $|A_{1}A_{5}|^{2}=\\left(-\\dfrac{x}{2}\\right)^{2}+\\left(-\\dfrac{2}{3x}\\right)^{2}=\\dfrac{x^2}{4}+\\dfrac{4}{9x^2}\\geq\\dfrac{\\sqrt{6}}{3}\\,^{2}$，当且仅当 $\\dfrac{x^2}{4}=\\dfrac{4}{9x^2}$，即 $x=\\dfrac{2\\sqrt{3}}{3}$ 时取等号，故 $|A_{1}A_{5}|$ 的最小值为 $\\dfrac{\\sqrt{6}}{3}$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{\\sqrt{6}}{3}\\)",
+          "solution": "<p>设 $|A_{1}A_{2}|=x$，则 $|A_{2}A_{3}|=\\dfrac{2}{x}$，$|A_{3}A_{4}|=\\dfrac{3x}{2}$，$|A_{4}A_{5}|=\\dfrac{8}{3x}$. 设 $A_{1}(0,0)$，如图.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/shanghai_spring/q11_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>因为求 $|A_{1}A_{5}|$ 的最小值，所以可设 $A_{2}(x,0)$，$A_{3}\\left(x,\\dfrac{2}{x}\\right)$，$A_{4}\\left(-\\dfrac{x}{2},\\dfrac{2}{x}\\right)$，$A_{5}\\left(-\\dfrac{x}{2},-\\dfrac{2}{3x}\\right)$. 因此 $|A_{1}A_{5}|^{2}=\\left(-\\dfrac{x}{2}\\right)^{2}+\\left(-\\dfrac{2}{3x}\\right)^{2}=\\dfrac{x^2}{4}+\\dfrac{4}{9x^2}\\geq\\dfrac{\\sqrt{6}}{3}\\,^{2}$，当且仅当 $\\dfrac{x^2}{4}=\\dfrac{4}{9x^2}$，即 $x=\\dfrac{2\\sqrt{3}}{3}$ 时取等号，故 $|A_{1}A_{5}|$ 的最小值为 $\\dfrac{\\sqrt{6}}{3}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "已知 $f(x)=\\sqrt{x-1}$，其反函数为 $f^{-1}(x)$，若 $f^{-1}(x)-a=f(x+a)$ 有实数根，则 $a$ 的取值范围为 $\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\left[\\dfrac{3}{4},+\\infty\\right)$",
-          "solution": "<p>因为 $y=f^{-1}(x)-a$ 与 $y=f(x+a)$ 互为反函数，又方程 $f^{-1}(x)-a=f(x+a)$ 有实数根，则函数 $y=f(x+a)$ 的图象与直线 $y=x$ 有交点. 所以 $\\sqrt{x+a-1}=x$ 有根，即 $a=x^{2}-x+1=\\left(x-\\dfrac{1}{2}\\right)^{2}+\\dfrac{3}{4}$，故答案为 $\\left[\\dfrac{3}{4},+\\infty\\right)$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "choices": [],
+          "answer": "\\(\\left[\\dfrac{3}{4},+\\infty\\right)\\)",
+          "solution": "<p>因为 $y=f^{-1}(x)-a$ 与 $y=f(x+a)$ 互为反函数，又方程 $f^{-1}(x)-a=f(x+a)$ 有实数根，则函数 $y=f(x+a)$ 的图象与直线 $y=x$ 有交点. 所以 $\\sqrt{x+a-1}=x$ 有根，即 $a=x^{2}-x+1=\\left(x-\\dfrac{1}{2}\\right)^{2}+\\dfrac{3}{4}$，故答案为 $\\left[\\dfrac{3}{4},+\\infty\\right)$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/shanghai_spring/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -99,30 +252,38 @@
         {
           "num": 13,
           "body": "计算 $\\displaystyle\\lim_{n\\to\\infty}\\dfrac{3^n+5^n}{3^{n-1}+5^{n-1}}=$（ ）.",
-          "choices": null,
+          "choices": [],
           "answer": "D",
-          "solution": "分子分母同时除以 $5^{n-1}$，则 $\\displaystyle\\lim_{n\\to\\infty}\\dfrac{3^n+5^n}{3^{n-1}+5^{n-1}}=\\lim_{n\\to\\infty}\\dfrac{3\\left(\\dfrac{3}{5}\\right)^{n-1}+5}{\\left(\\dfrac{3}{5}\\right)^{n-1}+1}=5$，故选 D."
+          "solution": "分子分母同时除以 $5^{n-1}$，则 $\\displaystyle\\lim_{n\\to\\infty}\\dfrac{3^n+5^n}{3^{n-1}+5^{n-1}}=\\lim_{n\\to\\infty}\\dfrac{3\\left(\\dfrac{3}{5}\\right)^{n-1}+5}{\\left(\\dfrac{3}{5}\\right)^{n-1}+1}=5$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "“$\\alpha=\\beta$”是“$\\sin^{2}\\alpha+\\cos^{2}\\beta=1$”的（ ）.",
-          "choices": null,
+          "choices": [],
           "answer": "A",
-          "solution": "<p>若 $\\alpha=\\beta$，则 $\\sin^{2}\\alpha+\\cos^{2}\\beta=\\sin^{2}\\alpha+\\cos^{2}\\alpha=1$，所以“$\\alpha=\\beta$”是“$\\sin^{2}\\alpha+\\cos^{2}\\beta=1$”的充分条件. 若 $\\sin^{2}\\alpha+\\cos^{2}\\beta=1$，则 $\\sin^{2}\\alpha=\\sin^{2}\\beta$，不能推出 $\\alpha=\\beta$，所以“$\\alpha=\\beta$”不是“$\\sin^{2}\\alpha+\\cos^{2}\\beta=1$”的必要条件.</p><p>故“$\\alpha=\\beta$”是“$\\sin^{2}\\alpha+\\cos^{2}\\beta=1$”的充分非必要条件，故选 A.</p>"
+          "solution": "<p>若 $\\alpha=\\beta$，则 $\\sin^{2}\\alpha+\\cos^{2}\\beta=\\sin^{2}\\alpha+\\cos^{2}\\alpha=1$，所以“$\\alpha=\\beta$”是“$\\sin^{2}\\alpha+\\cos^{2}\\beta=1$”的充分条件. 若 $\\sin^{2}\\alpha+\\cos^{2}\\beta=1$，则 $\\sin^{2}\\alpha=\\sin^{2}\\beta$，不能推出 $\\alpha=\\beta$，所以“$\\alpha=\\beta$”不是“$\\sin^{2}\\alpha+\\cos^{2}\\beta=1$”的必要条件.</p><p>故“$\\alpha=\\beta$”是“$\\sin^{2}\\alpha+\\cos^{2}\\beta=1$”的充分非必要条件，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "已知椭圆 $\\dfrac{x^2}{2}+y^{2}=1$，作垂直于 $x$ 轴的垂线交椭圆于 $A$，$B$ 两点，作垂直于 $y$ 轴的垂线交椭圆于 $C$，$D$ 两点，且 $AB=CD$，两垂线相交于点 $P$，则点 $P$ 的轨迹是（ ）.",
-          "choices": null,
+          "choices": [],
           "answer": "B",
-          "solution": "<p>由 $AB\\leq2$，得 $CD\\leq2$，判断轨迹为上下两部分，即为双曲线. 设 $A(m,t)$，$D(t,n)$，所以 $P(m,n)$. 因为 $\\dfrac{m^2}{2}+t^{2}=1$，$\\dfrac{t^2}{2}+n^{2}=1$，消去 $t$ 可得 $2n^{2}-\\dfrac{m^2}{2}=1$，故选 B.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<p>由 $AB\\leq2$，得 $CD\\leq2$，判断轨迹为上下两部分，即为双曲线. 设 $A(m,t)$，$D(t,n)$，所以 $P(m,n)$. 因为 $\\dfrac{m^2}{2}+t^{2}=1$，$\\dfrac{t^2}{2}+n^{2}=1$，消去 $t$ 可得 $2n^{2}-\\dfrac{m^2}{2}=1$，故选 B.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/shanghai_spring/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "数列 $\\{a_{n}\\}$ 各项均为实数，对任意 $n\\in\\mathbb{N}^{*}$ 满足 $a_{n+3}=a_{n}$，且行列式 $\\begin{vmatrix}a_{n}&a_{n+1}\\\\a_{n+2}&a_{n+3}\\end{vmatrix}=c$ 为定值，则下列选项中不可能的是（ ）.",
-          "choices": null,
+          "choices": [],
           "answer": "B",
-          "solution": "<p>行列式 $\\begin{vmatrix}a_{n}&a_{n+1}\\\\a_{n+2}&a_{n+3}\\end{vmatrix}=a_{n}a_{n+3}-a_{n+1}a_{n+2}=c$. 由于对任意 $n\\in\\mathbb{N}^{*}$ 满足 $a_{n+3}=a_{n}$，所以</p>\n$$\n\\begin{cases}a_{n}^{2}-a_{n+1}a_{n+2}=c,\\\\  a_{n+1}^{2}-a_{n+2}a_{n+3}=c.\\end{cases}\n$$\n<p>作差整理得：$a_{n+1}=a_{n}$（常数列，$c=0$），或 $a_{n}+a_{n+1}+a_{n+2}=0$. 当 $a_{n}+a_{n+1}+a_{n+2}=0$ 时，$a_{n+1}+a_{n+2}=-a_{n}$ 且 $a_{n+1}a_{n+2}=a_{n}^{2}-c$，所以方程 $X^{2}+a_{n}X+a_{n}^{2}-c=0$ 有两根 $a_{n+1}$，$a_{n+2}$，从而 $\\Delta=a_{n}^{2}-4(a_{n}^{2}-c)=4c-3a_{n}^{2}\\geq0$. 因为 B 不可能，故选 B.</p>"
+          "solution": "<p>行列式 $\\begin{vmatrix}a_{n}&a_{n+1}\\\\a_{n+2}&a_{n+3}\\end{vmatrix}=a_{n}a_{n+3}-a_{n+1}a_{n+2}=c$. 由于对任意 $n\\in\\mathbb{N}^{*}$ 满足 $a_{n+3}=a_{n}$，所以</p>\n$$\n\\begin{cases}a_{n}^{2}-a_{n+1}a_{n+2}=c,\\\\  a_{n+1}^{2}-a_{n+2}a_{n+3}=c.\\end{cases}\n$$\n<p>作差整理得：$a_{n+1}=a_{n}$（常数列，$c=0$），或 $a_{n}+a_{n+1}+a_{n+2}=0$. 当 $a_{n}+a_{n+1}+a_{n+2}=0$ 时，$a_{n+1}+a_{n+2}=-a_{n}$ 且 $a_{n+1}a_{n+2}=a_{n}^{2}-c$，所以方程 $X^{2}+a_{n}X+a_{n}^{2}-c=0$ 有两根 $a_{n+1}$，$a_{n+2}$，从而 $\\Delta=a_{n}^{2}-4(a_{n}^{2}-c)=4c-3a_{n}^{2}\\geq0$. 因为 B 不可能，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -131,38 +292,48 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>已知四棱锥 $P-ABCD$，底面 $ABCD$ 为正方形，边长为 $3$，$PD\\perp$ 平面 $ABCD$.</p><ol class=\"enumerate\"><li><p>若 $PC=5$，求四棱锥 $P-ABCD$ 的体积；</p></li><li><p>若直线 $AD$ 与 $BP$ 的夹角为 $60^{\\circ}$，求 $PD$ 的长.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>已知四棱锥 $P-ABCD$，底面 $ABCD$ 为正方形，边长为 $3$，$PD\\perp$ 平面 $ABCD$.</p><ol class=\"enumerate\"><li><p>若 $PC=5$，求四棱锥 $P-ABCD$ 的体积；</p></li><li><p>若直线 $AD$ 与 $BP$ 的夹角为 $60^{\\circ}$，求 $PD$ 的长.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/shanghai_spring/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $PD\\perp$ 平面 $ABCD$，所以 $PD\\perp DC$. 因为 $CD=3$，$PC=5$，所以 $PD=4$，故 $V_{P-ABCD}=\\dfrac{1}{3}\\times3^{2}\\times4=12$. 所以四棱锥 $P-ABCD$ 的体积为 $12$.</p></li><li><p>因为 $ABCD$ 是正方形，$PD\\perp$ 平面 $ABCD$，所以 $BC\\perp PD$，$BC\\perp CD$. 又 $PD\\cap CD=D$，所以 $BC\\perp$ 平面 $PCD$，从而 $BC\\perp PC$. 因为异面直线 $AD$ 与 $PB$ 所成角为 $60^{\\circ}$，且 $BC\\parallel AD$，所以 $\\angle PBC=60^{\\circ}$. 在 $\\mathrm{Rt}\\triangle PBC$ 中，$BC=3$，故 $PC=3\\sqrt{3}$. 在 $\\mathrm{Rt}\\triangle PDC$ 中，又 $CD=3$，所以 $PD=3\\sqrt{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $PD\\perp$ 平面 $ABCD$，所以 $PD\\perp DC$. 因为 $CD=3$，$PC=5$，所以 $PD=4$，故 $V_{P-ABCD}=\\dfrac{1}{3}\\times3^{2}\\times4=12$. 所以四棱锥 $P-ABCD$ 的体积为 $12$.</p></li><li><p>因为 $ABCD$ 是正方形，$PD\\perp$ 平面 $ABCD$，所以 $BC\\perp PD$，$BC\\perp CD$. 又 $PD\\cap CD=D$，所以 $BC\\perp$ 平面 $PCD$，从而 $BC\\perp PC$. 因为异面直线 $AD$ 与 $PB$ 所成角为 $60^{\\circ}$，且 $BC\\parallel AD$，所以 $\\angle PBC=60^{\\circ}$. 在 $\\mathrm{Rt}\\triangle PBC$ 中，$BC=3$，故 $PC=3\\sqrt{3}$. 在 $\\mathrm{Rt}\\triangle PDC$ 中，又 $CD=3$，所以 $PD=3\\sqrt{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>已知各项均为正数的数列 $\\{a_{n}\\}$，其前 $n$ 项和为 $S_{n}$，$a_{1}=1$.</p><ol class=\"enumerate\"><li><p>若数列 $\\{a_{n}\\}$ 为等差数列，$S_{10}=70$，求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若数列 $\\{a_{n}\\}$ 为等比数列，$a_{4}=\\dfrac{1}{8}$，求满足 $S_{n}>100a_{n}$ 时 $n$ 的最小值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等差数列的公差为 $d$. 由 $S_{10}=70$，得 $10+\\dfrac{1}{2}\\times10\\times9d=70$，解得 $d=\\dfrac{4}{3}$，则 $a_{n}=1+\\dfrac{4}{3}(n-1)=\\dfrac{4}{3}n-\\dfrac{1}{3}$.</p></li><li><p>设等比数列的公比为 $q$. 由 $a_{4}=\\dfrac{1}{8}$，$a_{1}=1$，可得 $q^{3}=\\dfrac{1}{8}$，即 $q=\\dfrac{1}{2}$. 则 $a_{n}=\\left(\\dfrac{1}{2}\\right)^{n-1}$，$S_{n}=\\dfrac{1-\\left(\\frac{1}{2}\\right)^n}{1-\\frac{1}{2}}=2-\\left(\\dfrac{1}{2}\\right)^{n-1}$. $S_{n}>100a_{n}$，即 $2-\\left(\\dfrac{1}{2}\\right)^{n-1}>100\\cdot\\left(\\dfrac{1}{2}\\right)^{n-1}$，即 $2^{n}>101$，可得 $n\\geq7$，即 $n$ 的最小值为 $7$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列的公差为 $d$. 由 $S_{10}=70$，得 $10+\\dfrac{1}{2}\\times10\\times9d=70$，解得 $d=\\dfrac{4}{3}$，则 $a_{n}=1+\\dfrac{4}{3}(n-1)=\\dfrac{4}{3}n-\\dfrac{1}{3}$.</p></li><li><p>设等比数列的公比为 $q$. 由 $a_{4}=\\dfrac{1}{8}$，$a_{1}=1$，可得 $q^{3}=\\dfrac{1}{8}$，即 $q=\\dfrac{1}{2}$. 则 $a_{n}=\\left(\\dfrac{1}{2}\\right)^{n-1}$，$S_{n}=\\dfrac{1-\\left(\\frac{1}{2}\\right)^n}{1-\\frac{1}{2}}=2-\\left(\\dfrac{1}{2}\\right)^{n-1}$. $S_{n}>100a_{n}$，即 $2-\\left(\\dfrac{1}{2}\\right)^{n-1}>100\\cdot\\left(\\dfrac{1}{2}\\right)^{n-1}$，即 $2^{n}>101$，可得 $n\\geq7$，即 $n$ 的最小值为 $7$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>有一条长为 $120$ 米的步行道 $OA$，$A$ 是垃圾投放点 $\\omega_{1}$，若以 $O$ 为原点，$OA$ 为 $x$ 轴正半轴建立直角坐标系，设点 $B(x,0)$，现要建设另一座垃圾投放点 $\\omega_{2}(t,0)$，函数 $f_{t}(x)$ 表示与 $B$ 点距离最近的垃圾投放点的距离.</p><ol class=\"enumerate\"><li><p>若 $t=60$，求 $f_{60}(10)$，$f_{60}(80)$，$f_{60}(95)$ 的值，并写出 $f_{60}(x)$ 的函数解析式；</p></li><li><p>若可以通过 $f_{t}(x)$ 与坐标轴围成的面积来测算扔垃圾的便利程度，面积越小越便利. 问：垃圾投放点 $\\omega_{2}$ 建在何处才能比建在中点时更加便利？</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>投放点 $\\omega_{1}(120,0)$，$\\omega_{2}(60,0)$. 由题意得 $f_{60}(x)=\\min\\{|60-x|,|120-x|\\}$，所以 $f_{60}(10)=50$，$f_{60}(80)=20$，$f_{60}(95)=25$. 当 $x\\leq90$ 时，$f_{60}(x)=|60-x|$；当 $x>90$ 时，$f_{60}(x)=|120-x|$. 综上，</p>\n$$\nf_{60}(x)=  \\begin{cases}|60-x|,&x\\leq90,\\\\  |120-x|,&x>90.\\end{cases}\n$$\n</li><li><p>由题意得 $f_{t}(x)=\\min\\{|t-x|,|120-x|\\}$，所以</p>\n$$\nf_{t}(x)=  \\begin{cases}|t-x|,&x\\leq0.5(120+t),\\\\  |120-x|,&x>0.5(120+t).\\end{cases}\n$$\n<p>因此 $f_{t}(x)$ 与坐标轴围成的面积为 $S=\\dfrac{1}{2}t^{2}+\\dfrac{1}{4}(120-t)^{2}=\\dfrac{3}{4}t^{2}-60t+3600$. 由题意，$S<S(60)$，即 $\\dfrac{3}{4}t^{2}-60t+3600<2700$，解得 $20<t<60$，即垃圾投放点 $\\omega_{2}$ 建在 $(20,0)$ 与 $(60,0)$ 之间时，比建在中点时更加便利.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q19_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<ol class=\"enumerate\"><li><p>投放点 $\\omega_{1}(120,0)$，$\\omega_{2}(60,0)$. 由题意得 $f_{60}(x)=\\min\\{|60-x|,|120-x|\\}$，所以 $f_{60}(10)=50$，$f_{60}(80)=20$，$f_{60}(95)=25$. 当 $x\\leq90$ 时，$f_{60}(x)=|60-x|$；当 $x>90$ 时，$f_{60}(x)=|120-x|$. 综上，</p>\n$$\nf_{60}(x)=  \\begin{cases}|60-x|,&x\\leq90,\\\\  |120-x|,&x>90.\\end{cases}\n$$\n</li><li><p>由题意得 $f_{t}(x)=\\min\\{|t-x|,|120-x|\\}$，所以</p>\n$$\nf_{t}(x)=  \\begin{cases}|t-x|,&x\\leq0.5(120+t),\\\\  |120-x|,&x>0.5(120+t).\\end{cases}\n$$\n<p>因此 $f_{t}(x)$ 与坐标轴围成的面积为 $S=\\dfrac{1}{2}t^{2}+\\dfrac{1}{4}(120-t)^{2}=\\dfrac{3}{4}t^{2}-60t+3600$. 由题意，$S<S(60)$，即 $\\dfrac{3}{4}t^{2}-60t+3600<2700$，解得 $20<t<60$，即垃圾投放点 $\\omega_{2}$ 建在 $(20,0)$ 与 $(60,0)$ 之间时，比建在中点时更加便利.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/shanghai_spring/q19_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知抛物线 $y^{2}=x$ 上的动点 $M(x_{0},y_{0})$，过 $M$ 分别作两条直线交抛物线于 $P$，$Q$ 两点，交直线 $x=t$ 于 $A$，$B$ 两点.</p><ol class=\"enumerate\"><li><p>若点 $M$ 纵坐标为 $\\sqrt{2}$，求 $M$ 与焦点的距离；</p></li><li><p>若 $t=-1$，$P(1,1)$，$Q(1,-1)$，求证：$y_{A}\\cdot y_{B}$ 为常数；</p></li><li><p>是否存在 $t$，使得 $y_{A}\\cdot y_{B}=1$ 且 $y_{P}\\cdot y_{Q}$ 为常数？若存在，求出 $t$ 的所有可能值；若不存在，请说明理由.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=x$ 上的动点为 $M(x_{0},y_{0})$，且点 $M$ 纵坐标为 $\\sqrt{2}$，所以点 $M$ 的横坐标 $x_{M}=(\\sqrt{2})^{2}=2$. 由 $y^{2}=x$，得 $p=\\dfrac{1}{2}$，所以 $M$ 与焦点的距离为 $MF=x_{M}+\\dfrac{p}{2}=2+\\dfrac{1}{4}=\\dfrac{9}{4}$.</p></li><li><p>设 $M(y_{0}^{2},y_{0})$，直线 $PM\\colon y-1=\\dfrac{y_0-1}{y_0^2-1}(x-1)$. 当 $x=-1$ 时，$y_{A}=\\dfrac{y_0-1}{y_0+1}$. 直线 $QM\\colon y+1=\\dfrac{y_0+1}{y_0^2-1}(x-1)$，当 $x=-1$ 时，$y_{B}=\\dfrac{-y_0-1}{y_0-1}$，所以 $y_{A}y_{B}=-1$，故 $y_{A}\\cdot y_{B}$ 为常数 $-1$.</p></li><li><p>设 $M(y_{0}^{2},y_{0})$，$A(t,y_{A})$，直线 $MA\\colon y-y_{0}=\\dfrac{y_0-y_A}{y_0^2-t}(x-y_{0}^{2})$. 联立 $y^{2}=x$，得</p>\n$$\ny^{2}-\\dfrac{y_0^2-t}{y_0-y_A}y+\\dfrac{y_0^2-t}{y_0-y_A}y_{0}-y_{0}^{2}=0\n$$\n<p>所以 $y_{0}+y_{P}=\\dfrac{y_0^2-t}{y_0-y_A}$，即 $y_{P}=\\dfrac{y_0y_A-t}{y_0-y_A}$. 同理得 $y_{Q}=\\dfrac{y_0y_B-t}{y_0-y_B}$. 因为 $y_{A}\\cdot y_{B}=1$，所以</p>\n$$\ny_{P}y_{Q}=\\dfrac{y_0^2-ty_0(y_A+y_B)+t^2}{y_0^2-y_0(y_A+y_B)+1}\n$$\n<p>要使 $y_{P}y_{Q}$ 为常数，即 $t=1$，此时 $y_{P}y_{Q}$ 为常数 $1$. 所以存在 $t=1$，使得 $y_{A}\\cdot y_{B}=1$ 且 $y_{P}\\cdot y_{Q}$ 为常数 $1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=x$ 上的动点为 $M(x_{0},y_{0})$，且点 $M$ 纵坐标为 $\\sqrt{2}$，所以点 $M$ 的横坐标 $x_{M}=(\\sqrt{2})^{2}=2$. 由 $y^{2}=x$，得 $p=\\dfrac{1}{2}$，所以 $M$ 与焦点的距离为 $MF=x_{M}+\\dfrac{p}{2}=2+\\dfrac{1}{4}=\\dfrac{9}{4}$.</p></li><li><p>设 $M(y_{0}^{2},y_{0})$，直线 $PM\\colon y-1=\\dfrac{y_0-1}{y_0^2-1}(x-1)$. 当 $x=-1$ 时，$y_{A}=\\dfrac{y_0-1}{y_0+1}$. 直线 $QM\\colon y+1=\\dfrac{y_0+1}{y_0^2-1}(x-1)$，当 $x=-1$ 时，$y_{B}=\\dfrac{-y_0-1}{y_0-1}$，所以 $y_{A}y_{B}=-1$，故 $y_{A}\\cdot y_{B}$ 为常数 $-1$.</p></li><li><p>设 $M(y_{0}^{2},y_{0})$，$A(t,y_{A})$，直线 $MA\\colon y-y_{0}=\\dfrac{y_0-y_A}{y_0^2-t}(x-y_{0}^{2})$. 联立 $y^{2}=x$，得</p>\n$$\ny^{2}-\\dfrac{y_0^2-t}{y_0-y_A}y+\\dfrac{y_0^2-t}{y_0-y_A}y_{0}-y_{0}^{2}=0\n$$\n<p>所以 $y_{0}+y_{P}=\\dfrac{y_0^2-t}{y_0-y_A}$，即 $y_{P}=\\dfrac{y_0y_A-t}{y_0-y_A}$. 同理得 $y_{Q}=\\dfrac{y_0y_B-t}{y_0-y_B}$. 因为 $y_{A}\\cdot y_{B}=1$，所以</p>\n$$\ny_{P}y_{Q}=\\dfrac{y_0^2-ty_0(y_A+y_B)+t^2}{y_0^2-y_0(y_A+y_B)+1}\n$$\n<p>要使 $y_{P}y_{Q}$ 为常数，即 $t=1$，此时 $y_{P}y_{Q}$ 为常数 $1$. 所以存在 $t=1$，使得 $y_{A}\\cdot y_{B}=1$ 且 $y_{P}\\cdot y_{Q}$ 为常数 $1$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知非空集合 $A\\subseteq\\mathbb{R}$，函数 $y=f(x)$ 的定义域为 $D$，若对任意 $t\\in A$ 且 $x\\in D$，不等式 $f(x)\\geq f(x+t)$ 恒成立，则称函数 $f(x)$ 具有 $A$ 性质.</p><ol class=\"enumerate\"><li><p>当 $A=\\{-1\\}$，判断 $f(x)=-x$，$g(x)=2^{x}$ 是否具有 $A$ 性质；</p></li><li><p>当 $A=(0,1)$，$f(x)=x+\\dfrac{1}{x}$，$x\\in[a,+\\infty)$，若 $f(x)$ 具有 $A$ 性质，求 $a$ 的取值范围；</p></li><li><p>当 $A=\\{-2,m\\}$，$m\\in\\mathbb{Z}$，若 $D$ 为整数集且具有 $A$ 性质的函数均为常值函数，求所有符合条件的 $m$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $f(x)=-x$ 为减函数，所以 $f(x)<f(x-1)$，故 $f(x)=-x$ 具有 $A$ 性质；$g(x)=2^{x}$ 为增函数，所以 $g(x)>g(x-1)$，故 $g(x)=2^{x}$ 不具有 $A$ 性质.</p></li><li><p>依题意，对任意 $t\\in(0,1)$，$f(x)\\geq f(x+t)$ 恒成立，所以 $f(x)=x+\\dfrac{1}{x}$（$x\\geq a$）为增函数（不可能为常值函数）. 由双勾函数的图象及性质可得 $a\\geq1$（因为 $f(x)$ 在 $(1,+\\infty)$ 上是增函数）. 当 $a\\geq1$ 时，函数单调递增，满足对任意 $t\\in(0,1)$，$f(x)\\geq f(x+t)$ 恒成立，综上，实数 $a$ 的取值范围为 $[1,+\\infty)$.</p></li><li><p>因为 $D$ 为整数集，具有 $A$ 性质的函数均为常值函数，所以当 $t=-2$ 时，$f(x)=f(x-2)$ 恒成立，周期为 $2$. 设 $f(2k)=p$ （$k\\in\\mathbb{Z}$），$f(2n-1)=q$ （$n\\in\\mathbb{Z}$），由题意 $p=q$，则 $f(2k)=f(2n-1)$. 当 $x=2k$ 时，$f(x)=f(x+2n-2k-1)$，所以 $m=2n-2k-1$ （$n$，$k\\in\\mathbb{Z}$）；当 $x=2n-1$ 时，$f(x)=f(x+2k-2n+1)$，所以 $m=2k-2n+1$ （$n$，$k\\in\\mathbb{Z}$）. 综上，$m$ 为奇数.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $f(x)=-x$ 为减函数，所以 $f(x)<f(x-1)$，故 $f(x)=-x$ 具有 $A$ 性质；$g(x)=2^{x}$ 为增函数，所以 $g(x)>g(x-1)$，故 $g(x)=2^{x}$ 不具有 $A$ 性质.</p></li><li><p>依题意，对任意 $t\\in(0,1)$，$f(x)\\geq f(x+t)$ 恒成立，所以 $f(x)=x+\\dfrac{1}{x}$（$x\\geq a$）为增函数（不可能为常值函数）. 由双勾函数的图象及性质可得 $a\\geq1$（因为 $f(x)$ 在 $(1,+\\infty)$ 上是增函数）. 当 $a\\geq1$ 时，函数单调递增，满足对任意 $t\\in(0,1)$，$f(x)\\geq f(x+t)$ 恒成立，综上，实数 $a$ 的取值范围为 $[1,+\\infty)$.</p></li><li><p>因为 $D$ 为整数集，具有 $A$ 性质的函数均为常值函数，所以当 $t=-2$ 时，$f(x)=f(x-2)$ 恒成立，周期为 $2$. 设 $f(2k)=p$ （$k\\in\\mathbb{Z}$），$f(2n-1)=q$ （$n\\in\\mathbb{Z}$），由题意 $p=q$，则 $f(2k)=f(2n-1)$. 当 $x=2k$ 时，$f(x)=f(x+2n-2k-1)$，所以 $m=2n-2k-1$ （$n$，$k\\in\\mathbb{Z}$）；当 $x=2n-1$ 时，$f(x)=f(x+2k-2n+1)$，所以 $m=2k-2n+1$ （$n$，$k\\in\\mathbb{Z}$）. 综上，$m$ 为奇数.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

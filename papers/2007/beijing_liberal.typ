@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,299 +11,305 @@
 #part-header("单选题")
 
 #problem(1)[
-已知 $cos theta dot tan theta < 0$，那么角 $theta$ 是（ ）
+已知 #mi(`\cos \theta \cdot \tan \theta < 0`)，那么角 #mi(`\theta`) 是（ ）
   #choices([第一或第二象限角], [第二或第三象限角], [第三或第四象限角], [第一或第四象限角], cols: 4)
 ]
 
 #answer([C.])
 
 #solution[
-因为 $tan theta =(sin theta)/(cos theta)$，且题设中的式子有意义，所以 $cos theta \n e q0$. 于是
-$cos theta dot tan theta = sin theta <0$，故 $theta$ 是第三或第四象限角，选 C.
+因为 #mi(`\tan\theta=\dfrac{\sin\theta}{\cos\theta}`)，且题设中的式子有意义，所以 #mi(`\cos\theta\neq0`). 于是
+
+#mi(`\cos\theta\cdot\tan\theta=\sin\theta<0`)，故 #mi(`\theta`) 是第三或第四象限角，选 C.
 ]
 
 #problem(2)[
-函数 $f(x) = 3^(x)$（$0 < x <= 2$）的反函数的定义域为（ ）
-  #choices([$(0, + oo )$], [$(1, 9]$], [$(0,1)$], [$[9, + oo )$], cols: 4)
+函数 #mi(`f(x) = 3^{x}`)（#mi(`0 < x \le 2`)）的反函数的定义域为（ ）
+  #choices([#mi(`(0, +\infty)`)], [#mi(`(1, 9]`)], [#mi(`(0,1)`)], [#mi(`[9, +\infty)`)], cols: 2)
 ]
 
 #answer([B.])
 
 #solution[
-当 $0<x <= 2$ 时，$f(x)=3^x$ 的值域为 $(3^0,3^2]=(1,9]$. 反函数的定义域等于原函数的值域，所以选 B.
+当 #mi(`0<x\leqslant2`) 时，#mi(`f(x)=3^{x}`) 的值域为 #mi(`\left(3^{0},3^{2}\right]=(1,9]`). 反函数的定义域等于原函数的值域，所以选 B.
 ]
 
 #problem(3)[
-函数 $f(x) = sin 2 x - cos 2 x$ 的最小正周期是（ ）
-  #choices([$(pi)/(2)$], [$pi$], [$2 pi$], [$4 pi$], cols: 4)
+函数 #mi(`f(x) = \sin 2x - \cos 2x`) 的最小正周期是（ ）
+  #choices([#mi(`\frac{\pi}{2}`)], [#mi(`\pi`)], [#mi(`2\pi`)], [#mi(`4\pi`)], cols: 2)
 ]
 
 #answer([B.])
 
 #solution[
 由
-$f(x)= sin 2 x- cos 2 x=sqrt(2) sin (2 x-(pi)/(4))$，可知其角频率为 $2$，所以最小正周期为 $(2 pi)/(2)= pi$，选 B.
+
+#mi(`f(x)=\sin2x-\cos2x=\sqrt{2}\sin\left(2x-\dfrac{\pi}{4}\right)`)，可知其角频率为 #mi(`2`)，所以最小正周期为 #mi(`\dfrac{2\pi}{2}=\pi`)，选 B.
 ]
 
 #problem(4)[
-椭圆 $(x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > b > 0$）的焦点为 $F_1$，$F_2$，两条准线与 $x$ 轴的交点分别为 $M$，$N$. 若 $|M N| <= 2 |F_(1) F_2|$，则该椭圆离心率的取值范围是（ ）
-  #choices([$(0, (1)/(2)]$], [$(0, (sqrt(2))/(2)]$], [$[(1)/(2), 1)$], [$[(sqrt(2))/(2), 1)$], cols: 2)
+椭圆 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)）的焦点为 #mi(`F_{1}`)，#mi(`F_{2}`)，两条准线与 #mi(`x`) 轴的交点分别为 #mi(`M`)，#mi(`N`). 若 #mi(`|MN| \le 2|F_{1}F_{2}|`)，则该椭圆离心率的取值范围是（ ）
+  #choices([#mi(`\left(0, \frac{1}{2}\right]`)], [#mi(`\left(0, \frac{\sqrt{2}}{2}\right]`)], [#mi(`\left[\frac{1}{2}, 1\right)`)], [#mi(`\left[\frac{\sqrt{2}}{2}, 1\right)`)], cols: 1)
 ]
 
 #answer([D.])
 
 #solution[
-设椭圆半焦距为 $c$，离心率为 $e=(c)/(a)$. 两条准线为 $x= +- (a)/(e)$，因此
-$|M N|=(2 a)/(e)$，而 $|F_(1) F_2|=2 c=2 a e$. 由题设
-$(2 a)/(e) <= 2 dot 2 a e$，得 $e^2 >= (1)/(2)$. 又 $0<e<1$，故 $e in [(sqrt(2))/(2),1)$，选 D.
+设椭圆半焦距为 #mi(`c`)，离心率为 #mi(`e=\dfrac{c}{a}`). 两条准线为 #mi(`x=\pm\dfrac{a}{e}`)，因此
+
+#mi(`|MN|=\dfrac{2a}{e}`)，而 #mi(`|F_{1}F_{2}|=2c=2ae`). 由题设
+
+#mi(`\dfrac{2a}{e}\leqslant2\cdot2ae`)，得 #mi(`e^{2}\ge\dfrac{1}{2}`). 又 #mi(`0<e<1`)，故 #mi(`e\in\left[\dfrac{\sqrt{2}}{2},1\right)`)，选 D.
 ]
 
 #problem(5)[
-某城市的汽车牌照号码由 $2$ 个英文字母后接 $4$ 个数字组成. 其中 $4$ 个数字互不相同的牌照号码共有（ ）
-  #choices([$(C_(26)^(1))^(2)A_(10)^(4)$ 个], [$A_(26)^(2)A_(10)^(4)$ 个], [$(C_(26)^(1))^(2)10^(4)$ 个], [$A_(26)^(2)10^(4)$ 个], cols: 2)
+某城市的汽车牌照号码由 #mi(`2`) 个英文字母后接 #mi(`4`) 个数字组成. 其中 #mi(`4`) 个数字互不相同的牌照号码共有（ ）
+  #choices([#mi(`\left(\mathrm{C}_{26}^{1}\right)^{2}\mathrm{A}_{10}^{4}`) 个], [#mi(`\mathrm{A}_{26}^{2}\mathrm{A}_{10}^{4}`) 个], [#mi(`\left(\mathrm{C}_{26}^{1}\right)^{2}10^{4}`) 个], [#mi(`\mathrm{A}_{26}^{2}10^{4}`) 个], cols: 1)
 ]
 
 #answer([A.])
 
 #solution[
-两个英文字母各有 $26$ 种选择，允许重复，故有 $26^2=(C_(26)^(1))^2$ 种选法. 四个数字互不相同且有顺序，故有 $A_(10)^(4)$ 种选法. 所以牌照号码共有 $(C_(26)^(1))^2 A_(10)^(4)$ 个，选 A.
+两个英文字母各有 #mi(`26`) 种选择，允许重复，故有 #mi(`26^{2}=\left(\mathrm{C}_{26}^{1}\right)^{2}`) 种选法. 四个数字互不相同且有顺序，故有 #mi(`\mathrm{A}_{10}^{4}`) 种选法. 所以牌照号码共有 #mi(`\left(\mathrm{C}_{26}^{1}\right)^{2}\mathrm{A}_{10}^{4}`) 个，选 A.
 ]
 
 #problem(6)[
-若不等式组 $\b e g i n{c a s e s} x-y+5& >= 0 ,\\ y& >= a,\\ 0& <= x <= 2 \e n d{c a s e s}$ 表示的平面区域是一个三角形，则 $a$ 的取值范围是（ ）
-  #choices([$a < 5$], [$a >= 7$], [$5 <= a < 7$], [$a < 5$ 或 $a >= 7$], cols: 2)
+若不等式组 #mi(`\begin{cases}x-y+5&\geqslant0,\\
+
+y&\ge a,\\
+
+0&\le x\leqslant2\end{cases}`) 表示的平面区域是一个三角形，则 #mi(`a`) 的取值范围是（ ）
+  #choices([#mi(`a < 5`)], [#mi(`a \ge 7`)], [#mi(`5 \le a < 7`)], [#mi(`a < 5`) 或 #mi(`a \ge 7`)], cols: 2)
 ]
 
 #answer([C.])
 
 #solution[
-不等式组等价于 $0 <= x <= 2$，且 $a <= y <= x+5$. 当 $a<5$ 时，直线 $y=a$ 与两条边界 $x=0$，$x=2$ 都相交，区域为四边形；当 $a=5$ 时，左侧交点退化为 $(0,5)$，区域为三角形；当 $5<a<7$ 时，直线 $y=a$ 与 $y=x+5$ 交于 $(a-5,a)$，并与 $x=2$ 相交，区域仍为三角形；当 $a >= 7$ 时，区域至多退化为一点或为空集. 因此 $5 <= a<7$，选 C.
+不等式组等价于 #mi(`0\le x\leqslant2`)，且 #mi(`a\le y\le x+5`). 当 #mi(`a<5`) 时，直线 #mi(`y=a`) 与两条边界 #mi(`x=0`)，#mi(`x=2`) 都相交，区域为四边形；当 #mi(`a=5`) 时，左侧交点退化为 #mi(`(0,5)`)，区域为三角形；当 #mi(`5<a<7`) 时，直线 #mi(`y=a`) 与 #mi(`y=x+5`) 交于 #mi(`(a-5,a)`)，并与 #mi(`x=2`) 相交，区域仍为三角形；当 #mi(`a\geqslant7`) 时，区域至多退化为一点或为空集. 因此 #mi(`5\le a<7`)，选 C.
 ]
 
 #problem(7)[
-平面 $alpha$ $parallel$ 平面 $beta$ 的一个充分条件是（ ）
-  #choices([存在一条直线 $a$，$a parallel alpha$，$a parallel beta$], [存在一条直线 $a$，$a subset alpha$，$a parallel beta$], [存在两条平行直线 $a$，$b$，$a subset alpha$，$b subset beta$，$a parallel beta$，$b parallel alpha$], [存在两条异面直线 $a$，$b$，$a subset alpha$，$b subset beta$，$a parallel beta$，$b parallel alpha$], cols: 1)
+平面 #mi(`\alpha`) #mi(`\parallel`) 平面 #mi(`\beta`) 的一个充分条件是（ ）
+  #choices([存在一条直线 #mi(`a`)，#mi(`a \parallel \alpha`)，#mi(`a \parallel \beta`)], [存在一条直线 #mi(`a`)，#mi(`a \subset \alpha`)，#mi(`a \parallel \beta`)], [存在两条平行直线 #mi(`a`)，#mi(`b`)，#mi(`a \subset \alpha`)，#mi(`b \subset \beta`)，#mi(`a \parallel \beta`)，#mi(`b \parallel \alpha`)], [存在两条异面直线 #mi(`a`)，#mi(`b`)，#mi(`a \subset \alpha`)，#mi(`b \subset \beta`)，#mi(`a \parallel \beta`)，#mi(`b \parallel \alpha`)], cols: 1)
 ]
 
 #answer([D.])
 
 #solution[
-若两平面不平行而相交，设交线为 $l$. 取一条与 $l$ 平行且不在两平面内的直线，可满足选项 A；在平面 $alpha$ 内取一条与 $l$ 平行的直线，可满足选项 B；分别在 $alpha$，$beta$ 内取两条与 $l$ 平行的直线，可满足选项 C. 因而 A，B，C 都不是充分条件.
+若两平面不平行而相交，设交线为 #mi(`l`). 取一条与 #mi(`l`) 平行且不在两平面内的直线，可满足选项 A；在平面 #mi(`\alpha`) 内取一条与 #mi(`l`) 平行的直线，可满足选项 B；分别在 #mi(`\alpha`)，#mi(`\beta`) 内取两条与 #mi(`l`) 平行的直线，可满足选项 C. 因而 A，B，C 都不是充分条件.
 
-对选项 D，$a subset alpha$ 且 $a parallel beta$，所以 $a$ 不与 $beta$ 相交，只能在平面 $alpha$ 内与交线 $l$ 平行；同理 $b parallel l$. 于是 $a parallel b$，与题设两直线异面矛盾. 因此 $alpha$，$beta$ 不可能相交，只能平行，选 D.
+对选项 D，#mi(`a\subset\alpha`) 且 #mi(`a\parallel\beta`)，所以 #mi(`a`) 不与 #mi(`\beta`) 相交，只能在平面 #mi(`\alpha`) 内与交线 #mi(`l`) 平行；同理 #mi(`b\parallel l`). 于是 #mi(`a\parallel b`)，与题设两直线异面矛盾. 因此 #mi(`\alpha`)，#mi(`\beta`) 不可能相交，只能平行，选 D.
 ]
 
 #problem(8)[
 对于函数
 
-\begin{circlelist}
-\item $f(x) = |x + 2|$；
-\item $f(x) = (x - 2)^2$；
-\item $f(x) = cos (x - 2)$.
-\end{circlelist}
 
-判断如下两个命题的真假： 
++ (1) #mi(`f(x) = |x + 2|`)；
++ (2) #mi(`f(x) = (x - 2)^{2}`)；
++ (3) #mi(`f(x) = \cos (x - 2)`).
 
-命题甲： $f(x+2)$ 是偶函数； 
 
-命题乙： $f(x)$ 在 $(- oo ,2)$ 上是减函数，在 $(2,+ oo )$ 上是增函数； 
+
+判断如下两个命题的真假：
+
+命题甲： #mi(`f(x+2)`) 是偶函数；
+
+命题乙： #mi(`f(x)`) 在 #mi(`(-\infty,2)`) 上是减函数，在 #mi(`(2,+\infty)`) 上是增函数；
 
 能使命题甲，乙均为真的所有函数的序号是（ ）
-  #choices(["①""②"], ["①""③"], ["②"], ["③"], cols: 4)
+  #choices([①②], [①③], [②], [③], cols: 4)
 ]
 
 #answer([C.])
 
 #solution[
-对函数 $"[1]"$，$f(x+2)=|x+4|$ 不是偶函数，且 $f(x)$ 的折点为 $-2$，不满足命题乙. 对函数 $"[2]"$，$f(x+2)=x^2$ 是偶函数，且 $f(x)=(x-2)^2$ 在 $(- oo ,2)$ 上递减、在 $(2,+ oo )$ 上递增. 对函数 $"[3]"$，$f(x+2)= cos x$ 是偶函数，但余弦函数在给出的两个无穷区间上都不保持题述的单调性. 因此只有函数 $"[2]"$ 满足两个命题，选 C.
+对函数 #mi(`①`)，#mi(`f(x+2)=|x+4|`) 不是偶函数，且 #mi(`f(x)`) 的折点为 #mi(`-2`)，不满足命题乙. 对函数 #mi(`②`)，#mi(`f(x+2)=x^{2}`) 是偶函数，且 #mi(`f(x)=(x-2)^{2}`) 在 #mi(`(-\infty,2)`) 上递减、在 #mi(`(2,+\infty)`) 上递增. 对函数 #mi(`③`)，#mi(`f(x+2)=\cos x`) 是偶函数，但余弦函数在给出的两个无穷区间上都不保持题述的单调性. 因此只有函数 #mi(`②`) 满足两个命题，选 C.
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-$f'(x)$ 是 $f(x) = (1)/(3)x^3 + 2 x + 1$ 的导函数，则 $f'(-1)$ 的值是#blank(){}.
+#mi(`f'(x)`) 是 #mi(`f(x) = \frac{1}{3}x^{3} + 2x + 1`) 的导函数，则 #mi(`f'(-1)`) 的值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$3$.])
+#answer([#mi(`3`).])
 
 #solution[
-由幂函数求导法则，$f'(x)=x^2+2$. 因而 $f'(-1)=(-1)^2+2=3$.
+由幂函数求导法则，#mi(`f'(x)=x^{2}+2`). 因而 #mi(`f'(-1)=(-1)^{2}+2=3`).
 ]
 
 #problem(10)[
-若数列 $\{a_(n)\}$ 的前 $n$ 项和 $S_(n) = n^(2) - 10 n$（$n = 1$，$2$，$3$，$...$），则此数列的通项公式为#blank(){}.
+若数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和 #mi(`S_{n}= n^{2}- 10n`)（#mi(`n = 1`)，#mi(`2`)，#mi(`3`)，#mi(`\dots`)），则此数列的通项公式为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2 n-11$.])
+#answer([#mi(`2n-11`).])
 
 #solution[
-当 $n=1$ 时，$a_1=S_1=1-10=-9=2 times 1 -11$. 当 $n >= 2$ 时，
-$a_n=S_n-S_(n-1)=n^2-10 n-((n-1)^2-10(n-1))=2 n-11$. 所以数列的通项公式为 $a_n=2 n-11$.
+当 #mi(`n=1`) 时，#mi(`a_{1}=S_{1}=1-10=-9=2\times1-11`). 当 #mi(`n\geqslant2`) 时，
+
+#mi(`a_{n}=S_{n}-S_{n-1}=n^{2}-10n-\left((n-1)^{2}-10(n-1)\right)=2n-11`). 所以数列的通项公式为 #mi(`a_{n}=2n-11`).
 ]
 
 #problem(11)[
-已知向量 $bold(a)= (2,4)$，$bold(b)= (1,1)$. 若向量 $bold(b) bot (bold(a)+ lambda bold(b))$，则实数 $lambda$ 的值是#blank(){}.
+已知向量 #mi(`\mathbf{a}= (2,4)`)，#mi(`\mathbf{b}= (1,1)`). 若向量 #mi(`\mathbf{b}\perp (\mathbf{a}+ \lambda \mathbf{b})`)，则实数 #mi(`\lambda`) 的值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-3$.])
+#answer([#mi(`-3`).])
 
 #solution[
-由垂直条件，$bold(b) dot (bold(a)+\l a m b d a b o l d(b))=0$. 代入 $bold(a)=(2,4)$，$bold(b)=(1,1)$，得
-$(1,1) dot (2+ lambda ,4+ lambda )=6+2 lambda =0$，所以 $lambda =-3$.
+由垂直条件，#mi(`\mathbf{b}\cdot\left(\mathbf{a}+\lambda\mathbf{b}\right)=0`). 代入 #mi(`\mathbf{a}=(2,4)`)，#mi(`\mathbf{b}=(1,1)`)，得
+
+#mi(`(1,1)\cdot(2+\lambda,4+\lambda)=6+2\lambda=0`)，所以 #mi(`\lambda=-3`).
 ]
 
 #problem(12)[
-在 $triangle A B C$ 中，若 $tan A = (1)/(3)$，$C = 150^( degree )$，$B C = 1$，则 $A B =\f i l l i n b l a n k{}$.
+在 #mi(`\triangle ABC`) 中，若 #mi(`\tan A = \frac{1}{3}`)，#mi(`C = 150^{\circ}`)，#mi(`BC = 1`)，则 #mi(`AB =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(sqrt(10))/(2)$.])
+#answer([#mi(`\frac{\sqrt{10}}{2}`).])
 
 #solution[
-因为 $A+B+C=180^( degree )$ 且 $C=150^( degree )$，所以 $0<A<30^( degree )$，从而 $A$ 为锐角. 由 $tan A=(1)/(3)$，得 $sin A=(1)/(sqrt(10))$. 根据正弦定理，
-$(A B)/(sin C)=(B C)/(sin A)$，故
-$A B=(sin 150 ""^( degree ))/(sin A)=((1)/(2))/((1)/(sqrt(10)))=\d f r a c{sqrt(10)}2$.
+因为 #mi(`A+B+C=180^{\circ}`) 且 #mi(`C=150^{\circ}`)，所以 #mi(`0<A<30^{\circ}`)，从而 #mi(`A`) 为锐角. 由 #mi(`\tan A=\dfrac{1}{3}`)，得 #mi(`\sin A=\dfrac{1}{\sqrt{10}}`). 根据正弦定理，
+
+#mi(`\dfrac{AB}{\sin C}=\dfrac{BC}{\sin A}`)，故
+
+#mi(`AB=\dfrac{\sin150^{\circ}}{\sin A}=\dfrac{\frac{1}{2}}{\frac{1}{\sqrt{10}}}=\dfrac{\sqrt{10}}2`).
 ]
 
 #problem(13)[
-2002 年在北京召开的国际数学家大会，会标是以我国古代数学家赵爽的弦图为基础设计的. 弦图是由四个全等直角三角形与一个小正方形拼成的一个大正方形（如图）. 如果小正方形的面积为 $1$，大正方形的面积为 $25$，直角三角形中较小的锐角为 $theta$，那么 $cos 2 theta$ 的值等于#blank(){}.
-
+2002 年在北京召开的国际数学家大会，会标是以我国古代数学家赵爽的弦图为基础设计的. 弦图是由四个全等直角三角形与一个小正方形拼成的一个大正方形（如图）. 如果小正方形的面积为 #mi(`1`)，大正方形的面积为 #mi(`25`)，直角三角形中较小的锐角为 #mi(`\theta`)，那么 #mi(`\cos 2\theta`) 的值等于\underline{\hspace{2.5em}}.
 
 
 #align(center)[#image("/papers/2007/img/beijing_liberal/q13_fig1.png", width: 28%)]
+
 ]
 
-#answer([$(7)/(25)$.])
+#answer([#mi(`\frac{7}{25}`).])
 
 #solution[
-设弦图中直角三角形的两条直角边分别为 $u$，$v$，斜边为大正方形的边长 $5$. 小正方形边长为 $1$，故 $|u-v|=1$，且 $u^2+v^2=25$. 于是
-$2 u v=u^2+v^2-(u-v)^2=25-1=24$，从而 $(u+v)^2=25+24=49$，即 $u+v=7$. 取 $u>v$，则较小锐角 $theta$ 的余弦为 $(u)/(5)$，所以
-$cos 2 theta =2 cos ""^2 theta -1=(2 u^2-25)/(25)=(u^2-v^2)/(25)=((u-v)(u+v))/(25)=(7)/(25)$.
+设弦图中直角三角形的两条直角边分别为 #mi(`u`)，#mi(`v`)，斜边为大正方形的边长 #mi(`5`). 小正方形边长为 #mi(`1`)，故 #mi(`|u-v|=1`)，且 #mi(`u^{2}+v^{2}=25`). 于是
+
+#mi(`2uv=u^{2}+v^{2}-(u-v)^{2}=25-1=24`)，从而 #mi(`(u+v)^{2}=25+24=49`)，即 #mi(`u+v=7`). 取 #mi(`u>v`)，则较小锐角 #mi(`\theta`) 的余弦为 #mi(`\dfrac{u}{5}`)，所以
+
+#mi(`\cos2\theta=2\cos^{2}\theta-1=\dfrac{2u^2-25}{25}=\dfrac{u^2-v^2}{25}=\dfrac{(u-v)(u+v)}{25}=\dfrac7{25}`).
 ]
 
 #problem(14)[
-已知函数 $f(x)$，$g(x)$ 分别由下表给出
+已知函数 #mi(`f(x)`)，#mi(`g(x)`) 分别由下表给出
 
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
 \hline
-$x$ & $1$ & $2$ & $3$ \\
-\hline
-$f(x)$ & $2$ & $1$ & $1$ \\
-\hline
-\end{tabular}
-\qquad
-\begin{tabular}{|c|c|c|c|}
-\hline
-$x$ & $1$ & $2$ & $3$ \\
-\hline
-$g(x)$ & $3$ & $2$ & $1$ \\
-\hline
-\end{tabular}
-\end{center}
 
-则 $f[g(1)]$ 的值为#blank(){}；当 $g[f(x)] = 2$ 时，$x =$#blank(){}.
+#mi(`x`) & #mi(`1`) & #mi(`2`) & #mi(`3`) \\
+
+\hline
+
+#mi(`f(x)`) & #mi(`2`) & #mi(`1`) & #mi(`1`) \\
+
+\hline
+
+ 
+
+\hline
+
+#mi(`x`) & #mi(`1`) & #mi(`2`) & #mi(`3`) \\
+
+\hline
+
+#mi(`g(x)`) & #mi(`3`) & #mi(`2`) & #mi(`1`) \\
+
+\hline
+
+则 #mi(`f[g(1)]`) 的值为\underline{\hspace{2.5em}}；当 #mi(`g[f(x)] = 2`) 时，#mi(`x =`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$1$，$1$.])
+#answer([#mi(`1`)，#mi(`1`).])
 
 #solution[
-由表得 $g(1)=3$，所以 $f[g(1)]=f(3)=1$. 又由表可知 $g(t)=2$ 当且仅当 $t=2$，故 $g[f(x)]=2$ 等价于 $f(x)=2$. 查表得 $f(x)=2$ 当且仅当 $x=1$. 因此两空依次为 $1$，$1$.
+由表得 #mi(`g(1)=3`)，所以 #mi(`f[g(1)]=f(3)=1`). 又由表可知 #mi(`g(t)=2`) 当且仅当 #mi(`t=2`)，故 #mi(`g[f(x)]=2`) 等价于 #mi(`f(x)=2`). 查表得 #mi(`f(x)=2`) 当且仅当 #mi(`x=1`). 因此两空依次为 #mi(`1`)，#mi(`1`).
 ]
 
 #part-header("解答题")
 
 #problem(15)[
-记关于 $x$ 的不等式 $(x - a)/(x + 1)< 0$ 的解集为 $P$，不等式 $|x - 1| <= 1$ 的解集为 $Q$.
+记关于 #mi(`x`) 的不等式 #mi(`\frac{x - a}{x + 1}< 0`) 的解集为 #mi(`P`)，不等式 #mi(`|x - 1| \le 1`) 的解集为 #mi(`Q`).
 
 
-+ (1) 若 $a = 3$，求 $P$.
-+ (2) 若 $Q subset.eq P$，求正数 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a=3$ 时，分式的分子、分母分别在 $x=3$，$x=-1$ 处变号. 由于分式小于零时分子、分母异号，且 $x=-1$ 不在定义域内，所以 $P=(-1,3)$.
-+ (2) 由 $|x-1| <= 1$，得 $Q=[0,2]$. 因为 $a>0$，不等式 $(x-a)/(x+1)<0$ 的解集为 $P=(-1,a)$. 要使 $[0,2] subset (-1,a)$，只需且必须有 $a>2$. 因此正数 $a$ 的取值范围为 $(2,+ oo )$.
++ (1)
 ]
 
 #problem(16)[
-数列 $\{a_(n)\}$ 中，$a_(1) = 2$，$a_(n + 1) = a_(n) + c n$（$c$ 是常数，$n = 1$，$2$，$3$，$...$），且 $a_(1)$，$a_(2)$，$a_(3)$ 成公比不为 1 的等比数列.
+数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{1}= 2`)，#mi(`a_{n + 1}= a_{n}+ cn`)（#mi(`c`) 是常数，#mi(`n = 1`)，#mi(`2`)，#mi(`3`)，#mi(`\dots`)），且 #mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`a_{3}`) 成公比不为 1 的等比数列.
 
 
-+ (1) 求 $c$ 的值.
-+ (2) 求 $\{a_(n)\}$ 的通项公式.
++ (1)
 ]
 
 #solution[
-+ (1) 由递推关系，$a_2=2+c$，$a_3=2+3 c$. 因为 $a_1$，$a_2$，$a_3$ 成等比数列，所以
-$(2+c)^2=2(2+3 c)$，即 $c(c-2)=0$. 当 $c=0$ 时三项均为 $2$，公比为 $1$，不符合题意，故 $c=2$.
-+ (2) 由递推关系，$a_n=a_1+c s u m_(k=1)^(n-1)k=2+2 dot (n(n-1))/(2)=n^2-n+2$. 当 $n=1$ 时该式也成立，所以 $a_n=n^2-n+2$.
++ (1)
 ]
 
 #problem(17)[
-如图，在 $R t triangle A O B$ 中，$angle O A B = (pi)/(6)$，斜边 $A B = 4$. $R t triangle A O C$ 可以通过 $R t triangle A O B$ 以直线 $A O$ 为轴旋转得到，且二面角 $B-A O-C$ 是直二面角. $D$ 是 $A B$ 的中点.
+如图，在 #mi(`\mathrm{Rt}\triangle AOB`) 中，#mi(`\angle OAB = \frac{\pi}{6}`)，斜边 #mi(`AB = 4`). #mi(`\mathrm{Rt}\triangle AOC`) 可以通过 #mi(`\mathrm{Rt}\triangle AOB`) 以直线 #mi(`AO`) 为轴旋转得到，且二面角 #mi(`B-AO-C`) 是直二面角. #mi(`D`) 是 #mi(`AB`) 的中点.
 
 
-+ (1) 求证：平面 $C O D$ $bot$ 平面 $A O B$.
-+ (2) 求异面直线 $A O$ 与 $C D$ 所成角的大小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2007/img/beijing_liberal/q17_fig1.png", width: 45%)]
+
+#align(center)[#image("/papers/2007/img/beijing_liberal/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 因为 $triangle A O B$，$triangle A O C$ 都是直角三角形，所以 $A O bot O B$，$A O bot O C$. 二面角 $B-A O-C$ 为直二面角，故 $O B bot O C$. 于是直线 $O C$ 垂直于平面 $A O B$ 内相交的两条直线 $A O$，$O B$，从而 $O C bot "平面 "A O B$. 又 $O C subset "平面 "C O D$，所以平面 $C O D bot$ 平面 $A O B$.
-+ (2) 在平面 $A O B$ 内过 $D$ 作 $D E bot O B$，垂足为 $E$，并连接 $C E$. 因为 $D$ 是 $A B$ 的中点，得 $D E parallel A O$，$D E=(A O)/(2)$，$O E=(O B)/(2)$. 在直角三角形 $A O B$ 中，$A O=A B cos (pi)/(6)=2 sqrt(3)$，$O B=A B sin (pi)/(6)=2$，所以 $D E=sqrt(3)$，$O E=1$. 又 $O C=O B=2$，且 $O C bot O B$，故 $C E=sqrt(O C^2+O E^2)=sqrt(5)$. 由于 $D E parallel A O$，$angle C D E$ 就是异面直线 $A O$ 与 $C D$ 所成的角；又 $A O$ 同时垂直于 $O C$ 和 $O E$，故 $D E bot$ 平面 $O C E$，从而 $C E bot D E$. 在直角三角形 $C D E$ 中，$tan angle C D E=(C E)/(D E)=(sqrt(5))/(sqrt(3))=\d f r a c{sqrt(15)}3$. 因此所求角为 $arctan \d f r a c{sqrt(15)}3$.
++ (1)
 ]
 
 #problem(18)[
-某条公共汽车线路沿线共有 $11$ 个车站（包括起点站和终点站）. 在起点站开出的一辆公共汽车上有 $6$ 位乘客，假设每位乘客在起点站之外的各个车站下车是等可能的，求：
+某条公共汽车线路沿线共有 #mi(`11`) 个车站（包括起点站和终点站）. 在起点站开出的一辆公共汽车上有 #mi(`6`) 位乘客，假设每位乘客在起点站之外的各个车站下车是等可能的，求：
 
 
-+ (1) 这 $6$ 位乘客在互不相同的车站下车的概率.
-+ (2) 这 $6$ 位乘客中恰有 $3$ 人在终点站下车的概率.
++ (1)
 ]
 
 #solution[
-+ (1) 起点站之外共有 $10$ 个车站，每位乘客有 $10$ 种等可能的下车选择，基本事件总数为 $10^6$. 六位乘客在互不相同的车站下车的有序选法数为 $A_(10)^(6)$，所以所求概率为
-$(A_(10)^(6))/(10^6)=(10 dot 9 dot 8 dot 7 dot 6 dot 5)/(10^6)=(189)/(1250)$.
-+ (2) 先从六位乘客中选出在终点站下车的三人，有 $C_6^3$ 种选法；其余三人不能在终点站下车，各有 $9$ 个车站可选. 所以所求概率为
-$(C_6^3 dot 9 ""^3)/(10^6)=(20 dot 729)/(10^6)=(729)/(50000)$.
++ (1)
 ]
 
 #problem(19)[
-如图，矩形 $A B C D$ 的两条对角线相交于点 $M(2,0)$，$A B$ 边所在直线的方程为 $x - 3 y - 6 = 0$，点 $T(-1,1)$ 在 $A D$ 边所在直线上.
+如图，矩形 #mi(`ABCD`) 的两条对角线相交于点 #mi(`M(2,0)`)，#mi(`AB`) 边所在直线的方程为 #mi(`x - 3y - 6 = 0`)，点 #mi(`T(-1,1)`) 在 #mi(`AD`) 边所在直线上.
 
 
-+ (1) 求 $A D$ 边所在直线的方程.
-+ (2) 求矩形 $A B C D$ 外接圆的方程.
-+ (3) 若动圆 $P$ 过点 $N(-2,0)$，且与矩形 $A B C D$ 的外接圆外切，求动圆 $P$ 的圆心的轨迹方程.
++ (1) 
++ (2) 
 
 
 
 
-#align(center)[#image("/papers/2007/img/beijing_liberal/q19_fig1.png", width: 48%)]
+#align(center)[#image("/papers/2007/img/beijing_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 直线 $A B$ 的斜率为 $(1)/(3)$，所以 $A D bot A B$ 的斜率为 $-3$. 又 $T(-1,1)$ 在 $A D$ 上，故 $y-1=-3(x+1)$，即 $A D$ 边所在直线的方程为 $3 x+y+2=0$.
-+ (2) 联立 $x-3 y-6=0$ 与 $3 x+y+2=0$，得 $A=(0,-2)$. 矩形的两条对角线互相平分且相等，所以其交点 $M(2,0)$ 是外接圆圆心. 因而半径 $M A=sqrt((2-0)^2+(0+2)^2)=2 sqrt(2)$，外接圆方程为 $(x-2)^2+y^2=8$.
-+ (3) 设动圆圆心为 $P(x,y)$，则动圆半径为 $P N$. 固定圆的圆心为 $M(2,0)$，半径为 $2 sqrt(2)$，外切条件给出 $P M=P N+2 sqrt(2)$，即 $P M-P N=2 sqrt(2)$. 因此 $P$ 到两个定点 $M(2,0)$，$N(-2,0)$ 的距离之差为定值 $2 sqrt(2)$，轨迹是双曲线的左支. 其半焦距为 $c=2$，实半轴为 $a=sqrt(2)$，虚半轴满足 $b^2=c^2-a^2=2$. 所以轨迹方程为
-$(x^2)/(2)-(y^2)/(2)=1$，并取左支 $x <= -sqrt(2)$.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-已知函数 $y = k x$ 与 $y = x^2 + 2$（$x >= 0$）的图象相交于 $A(x_1, y_1)$，$B(x_2, y_2)$. $l_1$，$l_2$ 分别是 $y = x^2 + 2$（$x >= 0$）的图象在 $A$，$B$ 两点的切线，$M$，$N$ 分别是 $l_1$，$l_2$ 与 $x$ 轴的交点.
+已知函数 #mi(`y = kx`) 与 #mi(`y = x^{2} + 2`)（#mi(`x \ge 0`)）的图象相交于 #mi(`A(x_{1}, y_{1})`)，#mi(`B(x_{2}, y_{2})`). #mi(`l_{1}`)，#mi(`l_{2}`) 分别是 #mi(`y = x^{2} + 2`)（#mi(`x \ge 0`)）的图象在 #mi(`A`)，#mi(`B`) 两点的切线，#mi(`M`)，#mi(`N`) 分别是 #mi(`l_{1}`)，#mi(`l_{2}`) 与 #mi(`x`) 轴的交点.
 
 
-+ (1) 求 $k$ 的取值范围.
-+ (2) 设 $t$ 为点 $M$ 的横坐标，当 $x_(1) < x_(2)$ 时，写出 $t$ 以 $x_(1)$ 为自变量的函数式，并求其定义域和值域.
-+ (3) 试比较 $|O M|$ 与 $|O N|$ 的大小，并说明理由（$O$ 是坐标原点）.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 联立两图象的方程，得 $x^2-k x+2=0$. 由于交点 $A$，$B$ 对应两个不同的正根，需有 $k^2-8>0$，且两根之和 $k>0$. 因而 $k>2 sqrt(2)$.
-+ (2) 抛物线 $y=x^2+2$ 在横坐标为 $x_1$ 处的切线为 $y=2 x_(1) x-x_1^2+2$. 令 $y=0$，得点 $M$ 的横坐标 $t=(x_1^2-2)/(2 x_1)=(x_1)/(2)-(1)/(x_1)$. 交点横坐标满足 $x_(1) x_2=2$，且 $x_1<x_2$，所以 $0<x_1<sqrt(2)$. 函数 $t(x_1)$ 的导数为 $(1)/(2)+(1)/(x_1^2)>0$，故定义域为 $(0,sqrt(2))$，值域为 $(- oo ,0)$.
-+ (3) 同理，点 $N$ 的横坐标为 $(x_2)/(2)-(1)/(x_2)$. 由 $x_(1) x_2=2$，有 $(x_2)/(2)-(1)/(x_2)=(1)/(x_1)-(x_1)/(2)=-((x_1)/(2)-(1)/(x_1))=-t$. 因此 $|O M|=|t|=|O N|$.
++ (1) 
++ (2)
 ]
 

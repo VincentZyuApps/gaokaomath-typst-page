@@ -53,7 +53,9 @@
 #problem(4)[
 如图，#mi(`M`) 表示地平面，#mi(`PC`) 表示直立地面的电柱，#mi(`AC=6\mathrm{~m}`)，#mi(`BC`) 是 #mi(`AC`) 的 #mi(`\frac{2}{3}`)，求拉线 #mi(`AB`) 的长.
 
-[float=inline,max width=4.8cm]img/1977/liaoning/q4_fig1.png
+
+#align(center)[#image("/papers/1977/img/liaoning/q4_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -69,7 +71,9 @@
 #problem(5)[
 求出 #mi(`A(-3,3)`)，#mi(`B(0,-1)`)，#mi(`C(1,0)`) 三点中每两点间的距离，并指出以这三点为顶点的三角形 #mi(`ABC`) 是什么样的三角形.
 
-[max width=4.4cm]img/1977/liaoning/q5_fig1.png
+
+#align(center)[#image("/papers/1977/img/liaoning/q5_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -107,7 +111,9 @@
 
 \hline
 
-[max width=5.4cm]img/1977/liaoning/q6_solution_fig1.png
+ 
+#align(center)[#image("/papers/1977/img/liaoning/q6_solution_fig1.png", width: 28%)]
+ 
 
 【法二】由 #mi(`a=1>0`)，函数有最小值. 配方得
 
@@ -163,11 +169,15 @@
 
 【法一】分别过 #mi(`C`)、#mi(`D`) 作 #mi(`AB`) 的垂线，垂足为 #mi(`E`)、#mi(`F`). 因为 #mi(`DC\parallel AB`)，且 #mi(`CE`)、#mi(`DF`) 都是两平行线 #mi(`DC`)、#mi(`AB`) 之间的距离，所以 #mi(`CE=DF`). 又 #mi(`AC=BD`)，且 #mi(`\angle AEC=\angle BFD=90^{\circ}`)，故由斜边和一条直角边分别相等，得 #mi(`\triangle ACE\cong\triangle BDF`). 从而 #mi(`\angle CAE=\angle DBF`). 由于 #mi(`A`)，#mi(`E`)，#mi(`B`) 共线、#mi(`F`)，#mi(`B`)，#mi(`A`) 共线，得到 #mi(`\angle CAB=\angle DBA`). 在 #mi(`\triangle CAB`) 与 #mi(`\triangle DBA`) 中，#mi(`AC=BD`)、#mi(`\angle CAB=\angle DBA`)、#mi(`AB=BA`)，所以由边角边得 #mi(`\triangle CAB\cong\triangle DBA`)，从而 #mi(`AD=BC`).
 
-[max width=6.0cm]img/1977/liaoning/q9_solution_fig1.png
+ 
+#align(center)[#image("/papers/1977/img/liaoning/q9_solution_fig1.png", width: 28%)]
+ 
 
 【法二】过 #mi(`C`) 作 #mi(`CE\parallel DB`)，交 #mi(`AB`) 的延长线于 #mi(`E`). 因为 #mi(`DC\parallel AB`)，且 #mi(`BE`) 在 #mi(`AB`) 上，所以 #mi(`DC\parallel BE`). 因此四边形 #mi(`BECD`) 的两组对边分别平行，是平行四边形，从而 #mi(`EC=BD`). 结合已知 #mi(`AC=BD`)，得 #mi(`AC=EC`)，所以 #mi(`\triangle ACE`) 为等腰三角形，#mi(`\angle CAE=\angle CEA`). 由于 #mi(`A`)，#mi(`E`)，#mi(`B`) 共线，#mi(`\angle CAE=\angle CAB`)；又因 #mi(`CE\parallel DB`)，#mi(`\angle CEA=\angle DBA`). 故 #mi(`\angle CAB=\angle DBA`). 在 #mi(`\triangle DAB`) 与 #mi(`\triangle CBA`) 中，#mi(`DB=AC`)、#mi(`\angle DBA=\angle CAB`)、#mi(`AB=BA`)，由边角边得两三角形全等，故 #mi(`AD=BC`).
 
-[max width=6.2cm]img/1977/liaoning/q9_solution_fig2.png
+ 
+#align(center)[#image("/papers/1977/img/liaoning/q9_solution_fig2.png", width: 28%)]
+ 
 
 【法三】设对角线 #mi(`AC`)、#mi(`BD`) 交于 #mi(`O`). 由 #mi(`DC\parallel AB`)，得 #mi(`\angle 1=\angle 2`)、#mi(`\angle 3=\angle 4`)，所以 #mi(`\triangle AOB\sim\triangle COD`). 因此
 
@@ -175,7 +185,9 @@
 
 #mi(`\frac{AO+OC}{OC}=\frac{BO+OD}{OD}`)，即 #mi(`\frac{AC}{OC}=\frac{BD}{OD}`). 由已知 #mi(`AC=BD`)，可得 #mi(`OC=OD`). 在等腰三角形 #mi(`COD`) 中，等边对等角，所以 #mi(`\angle 2=\angle 4`). 于是，在 #mi(`\triangle ADC`) 和 #mi(`\triangle BCD`) 中，#mi(`AC=BD`)、#mi(`DC=DC`)、#mi(`\angle ACD=\angle BDC`)，由边角边得两三角形全等，故 #mi(`AD=BC`).
 
-[max width=6.2cm]img/1977/liaoning/q9_solution_fig3.png
+ 
+#align(center)[#image("/papers/1977/img/liaoning/q9_solution_fig3.png", width: 28%)]
+
 ]
 
 #problem(10)[
@@ -199,7 +211,9 @@
 
 这两个数据可根据解题需要取用.
 
-[float=inline,max width=5.8cm]img/1977/liaoning/q11_fig1.png
+
+#align(center)[#image("/papers/1977/img/liaoning/q11_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -325,7 +339,9 @@
 
 #mi(`V=\pi r^{2}h`)，所以 #mi(`h=\frac{V}{\pi r^{2}}`).
 
-[max width=4.6cm]img/1977/liaoning/q12_solution_fig1.png
+ 
+#align(center)[#image("/papers/1977/img/liaoning/q12_solution_fig1.png", width: 28%)]
+ 
 
 代入表面积式，得
 
@@ -355,7 +371,9 @@
 #problem(13)[
 求 #mi(`y=\sin x`)（#mi(`x`) 在 #mi(`[0,\pi]`) 上）与 #mi(`x`) 轴所围成的图形的面积.
 
-[max width=6.0cm]img/1977/liaoning/q13_fig1.png
+
+#align(center)[#image("/papers/1977/img/liaoning/q13_fig1.png", width: 28%)]
+
 ]
 
 #solution[

@@ -1,8 +1,149 @@
 {
-  "title": "2010年普通高等学校招生全国统一考试",
-  "subtitle": "2010年上海卷（秋文）",
   "year": "2010",
   "slug": "shanghai_liberal",
+  "title": "2010年上海卷（秋文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "填空题",
@@ -10,100 +151,128 @@
         {
           "num": 1,
           "body": "已知集合 $A = \\{1, 3, m\\}$，$B = \\{3, 4\\}$，$A \\cup B = \\{1, 2, 3, 4\\}$，则 $m =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$2$",
-          "solution": "因为 $B$ 已含有 $3$，而 $A$ 中已有 $1,3$，所以 $A\\cup B=\\{1,3,4,m\\}$. 要使并集恰为 $\\{1,2,3,4\\}$，只能有 $m=2$."
+          "choices": [],
+          "answer": "\\(2\\)",
+          "solution": "因为 $B$ 已含有 $3$，而 $A$ 中已有 $1,3$，所以 $A\\cup B=\\{1,3,4,m\\}$. 要使并集恰为 $\\{1,2,3,4\\}$，只能有 $m=2$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "不等式 $\\frac{2 - x}{x + 4}> 0$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(-4,2)$",
-          "solution": "分子 $2-x$ 的零点为 $2$，分母 $x+4$ 的零点为 $-4$，且 $x=-4$ 不在定义域内. 在三个区间上考察符号，只有 $-4<x<2$ 时分子、分母同号，因此解集为 $(-4,2)$."
+          "choices": [],
+          "answer": "\\((-4,2)\\)",
+          "solution": "分子 $2-x$ 的零点为 $2$，分母 $x+4$ 的零点为 $-4$，且 $x=-4$ 不在定义域内. 在三个区间上考察符号，只有 $-4<x<2$ 时分子、分母同号，因此解集为 $(-4,2)$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "行列式 $\\begin{vmatrix}\\cos \\frac{\\pi}{6} & \\sin \\frac{\\pi}{6} \\\\ \\sin \\frac{\\pi}{6} & \\cos \\frac{\\pi}{6}\\end{vmatrix}$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$0.5$",
-          "solution": "<p>二阶行列式的值为</p><p>$\\cos^{2}\\frac{\\pi}{6}-\\sin^{2}\\frac{\\pi}{6}=\\cos\\frac{\\pi}{3}=\\frac{1}{2}=0.5$.</p>"
+          "choices": [],
+          "answer": "\\(0.5\\)",
+          "solution": "<p>二阶行列式的值为</p><p>$\\cos^{2}\\frac{\\pi}{6}-\\sin^{2}\\frac{\\pi}{6}=\\cos\\frac{\\pi}{3}=\\frac{1}{2}=0.5$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "若复数 $z = 1 - 2\\mathrm{i}$（$\\mathrm{i}$ 为虚数单位），则 $z \\cdot \\overline{z}+ z =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$6-2\\mathrm{i}$",
-          "solution": "由 $z=1-2\\mathrm{i}$ 得 $\\overline z=1+2\\mathrm{i}$，所以 $z\\overline z=1^{2}+2^{2}=5$. 因而 $z\\overline z+z=5+(1-2\\mathrm{i})=6-2\\mathrm{i}$."
+          "choices": [],
+          "answer": "\\(6-2\\mathrm{i}\\)",
+          "solution": "由 $z=1-2\\mathrm{i}$ 得 $\\overline z=1+2\\mathrm{i}$，所以 $z\\overline z=1^{2}+2^{2}=5$. 因而 $z\\overline z+z=5+(1-2\\mathrm{i})=6-2\\mathrm{i}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "将一个总体分为 A，B，C 三层，其个体数之比为 $5:3:2$. 若用分层抽样方法抽取容量为100的样本，则应从 C 中抽取<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 个个体.",
-          "choices": null,
-          "answer": "$20$",
-          "solution": "三层个体数的总比例为 $5+3+2=10$，C 层占比例 $\\frac{2}{10}$. 分层抽取保持各层比例，所以应抽取 $100\\times\\frac{2}{10}=20$ 个."
+          "choices": [],
+          "answer": "\\(20\\)",
+          "solution": "三层个体数的总比例为 $5+3+2=10$，C 层占比例 $\\frac{2}{10}$. 分层抽取保持各层比例，所以应抽取 $100\\times\\frac{2}{10}=20$ 个.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "已知四棱锥 $P - ABCD$ 的底面是边长为 6 的正方形，侧棱 $PA \\perp$ 底面 $ABCD$，且 $PA = 8$，则该四棱锥的体积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$96$",
-          "solution": "<p>底面正方形面积为 $6^{2}=36$，且 $PA\\perp$ 底面，所以棱锥高为 $PA=8$. 因此体积</p><p>$V=\\frac{1}{3}\\times36\\times8=96$.</p>"
+          "choices": [],
+          "answer": "\\(96\\)",
+          "solution": "<p>底面正方形面积为 $6^{2}=36$，且 $PA\\perp$ 底面，所以棱锥高为 $PA=8$. 因此体积</p><p>$V=\\frac{1}{3}\\times36\\times8=96$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "圆 $C: x^{2}+ y^{2}- 2x - 4y + 4 = 0$ 的圆心到直线 $l: 3x + 4y + 4 = 0$ 的距离 $d =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$3$",
-          "solution": "<p>将圆的方程配方得 $(x-1)^{2}+(y-2)^{2}=1$，故圆心为 $(1,2)$. 圆心到直线的距离为</p><p>$d=\\frac{|3\\times1+4\\times2+4|}{\\sqrt{3^{2}+4^{2}}}=\\frac{15}{5}=3$.</p>"
+          "choices": [],
+          "answer": "\\(3\\)",
+          "solution": "<p>将圆的方程配方得 $(x-1)^{2}+(y-2)^{2}=1$，故圆心为 $(1,2)$. 圆心到直线的距离为</p><p>$d=\\frac{|3\\times1+4\\times2+4|}{\\sqrt{3^{2}+4^{2}}}=\\frac{15}{5}=3$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "动点 $P$ 到点 $F(2,0)$ 的距离与它到直线 $x + 2 = 0$ 的距离相等，则点 $P$ 的轨迹方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$y^{2}=8x$",
-          "solution": "<p>设动点 $P(x,y)$. 由抛物线定义，</p><p>$\\sqrt{(x-2)^{2}+y^{2}}=|x+2|$.</p><p>两边均非负，平方得 $(x-2)^{2}+y^{2}=(x+2)^{2}$，化简为 $y^{2}=8x$. 反过来，满足该方程的点也满足原距离等式，故轨迹方程为 $y^{2}=8x$.</p>"
+          "choices": [],
+          "answer": "\\(y^{2}=8x\\)",
+          "solution": "<p>设动点 $P(x,y)$. 由抛物线定义，</p><p>$\\sqrt{(x-2)^{2}+y^{2}}=|x+2|$.</p><p>两边均非负，平方得 $(x-2)^{2}+y^{2}=(x+2)^{2}$，化简为 $y^{2}=8x$. 反过来，满足该方程的点也满足原距离等式，故轨迹方程为 $y^{2}=8x$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "函数 $f(x) = \\log_{3}(x + 3)$ 的反函数的图象与 $y$ 轴的交点坐标是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(0,-2)$",
-          "solution": "由 $y=\\log_{3}(x+3)$ 交换 $x$，$y$，得反函数 $y=3^{x}-3$. 图象与 $y$ 轴交点的横坐标为 $0$，代入得 $y=3^{0}-3=-2$，所以交点为 $(0,-2)$."
+          "choices": [],
+          "answer": "\\((0,-2)\\)",
+          "solution": "由 $y=\\log_{3}(x+3)$ 交换 $x$，$y$，得反函数 $y=3^{x}-3$. 图象与 $y$ 轴交点的横坐标为 $0$，代入得 $y=3^{0}-3=-2$，所以交点为 $(0,-2)$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "从一副混合后的扑克牌（52 张）中随机抽取 2 张，则“抽出的 2 张均为红桃”的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（结果用最简分数表示）",
-          "choices": null,
-          "answer": "$\\frac{1}{17}$",
-          "solution": "<p>52 张牌中有 13 张红桃. 等可能的两张牌组合总数为 $\\mathrm{C}_{52}^{2}$，两张均为红桃的组合数为 $\\mathrm{C}_{13}^{2}$，所以概率为</p><p>$\\frac{\\mathrm{C}_{13}^{2}}{\\mathrm{C}_{52}^{2}}=\\frac{13\\times12}{52\\times51}=\\frac{1}{17}$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{1}{17}\\)",
+          "solution": "<p>52 张牌中有 13 张红桃. 等可能的两张牌组合总数为 $\\mathrm{C}_{52}^{2}$，两张均为红桃的组合数为 $\\mathrm{C}_{13}^{2}$，所以概率为</p><p>$\\frac{\\mathrm{C}_{13}^{2}}{\\mathrm{C}_{52}^{2}}=\\frac{13\\times12}{52\\times51}=\\frac{1}{17}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
-          "body": "<p>2010 年上海世博会园区每天 9：00 开园，20：00 停止入园. 在右边的框图中，$S$ 表示上海世博会官方网站在每个整点报道的入园总人数，$a$ 表示整点报道前 1 个小时内入园人数. 则空白的执行框内应填入<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$S\\leftarrow S+a$",
-          "solution": "每次循环开始时，$S$ 是此前各整点报道人数的总和，$a$ 是刚经过的一个小时内新增人数. 因而更新总人数时应把新增人数累加到原总数，即填入 $S\\leftarrow S+a$."
+          "body": "<p>2010 年上海世博会园区每天 9：00 开园，20：00 停止入园. 在右边的框图中，$S$ 表示上海世博会官方网站在每个整点报道的入园总人数，$a$ 表示整点报道前 1 个小时内入园人数. 则空白的执行框内应填入<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/shanghai_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(S\\leftarrow S+a\\)",
+          "solution": "每次循环开始时，$S$ 是此前各整点报道人数的总和，$a$ 是刚经过的一个小时内新增人数. 因而更新总人数时应把新增人数累加到原总数，即填入 $S\\leftarrow S+a$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "在 $n$ 行 $n$ 列矩阵 $\\begin{pmatrix}1 & 2 & 3 & \\cdots & n - 2 & n - 1 & n\\\\ 2 & 3 & 4 & \\cdots & n - 1 & n & 1\\\\ 3 & 4 & 5 & \\cdots & n & 1 & 2\\\\ \\vdots & \\ddots & \\vdots & \\ddots & \\vdots & \\cdots & \\vdots\\\\ n & 1 & 2 & \\cdots & n - 3 & n - 2 & n - 1\\end{pmatrix}$ 中，记位于第 $i$ 行第 $j$ 列的数为 $a_{ij}$，$i$，$j = 1$，$2$，$\\cdots$，$n$. 当 $n = 9$ 时， $a_{11}+ a_{22}+ a_{33}+ \\cdots + a_{99}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$45$",
-          "solution": "<p>矩阵每行相对上一行向左循环移一位，因此第 $i$ 行第 $i$ 列的元素为</p><p>$a_{ii}=((2i-2)\\bmod 9)+1$.</p><p>当 $i=1$，$2$，$\\ldots$，$9$ 时，这些数恰为 $1$，$2$，$\\ldots$，$9$ 的一个排列，所以</p><p>$a_{11}+a_{22}+\\cdots+a_{99}=1+2+\\cdots+9=45$.</p>"
+          "choices": [],
+          "answer": "\\(45\\)",
+          "solution": "<p>矩阵每行相对上一行向左循环移一位，因此第 $i$ 行第 $i$ 列的元素为</p><p>$a_{ii}=((2i-2)\\bmod 9)+1$.</p><p>当 $i=1$，$2$，$\\ldots$，$9$ 时，这些数恰为 $1$，$2$，$\\ldots$，$9$ 的一个排列，所以</p><p>$a_{11}+a_{22}+\\cdots+a_{99}=1+2+\\cdots+9=45$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "在平面直角坐标系中，双曲线 $\\Gamma$ 的中心在原点，它的一个焦点坐标为 $(\\sqrt{5},0)$，$\\mathbf{e}_{1} = (2,1)$，$\\mathbf{e}_{2} = (2,-1)$ 分别是两条渐近线的方向向量. 任取双曲线 $\\Gamma$ 上的点 $P$，若 $\\overrightarrow{OP}= a\\mathbf{e}_{1} + b\\mathbf{e}_{2}$（$a$，$b \\in \\mathbb{R}$），则 $a$，$b$ 满足的一个等式是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$4ab=1$",
-          "solution": "<p>两条渐近线的斜率分别为 $\\frac{1}{2}$ 和 $-\\frac{1}{2}$，故双曲线可写为</p><p>$\\frac{x^{2}}{4}-y^{2}=1$，因为其渐近线为 $y=\\pm\\frac{x}{2}$，且焦距参数满足 $c^{2}=4+1=5$.</p><p>若 $\\overrightarrow{OP}=a\\mathbf{e}_{1}+b\\mathbf{e}_{2}$，则 $P$ 的坐标为 $(2a+2b,a-b)$. 代入双曲线方程得</p><p>$\\frac{(2a+2b)^{2}}{4}-(a-b)^{2}=(a+b)^{2}-(a-b)^{2}=4ab=1$.</p>"
+          "choices": [],
+          "answer": "\\(4ab=1\\)",
+          "solution": "<p>两条渐近线的斜率分别为 $\\frac{1}{2}$ 和 $-\\frac{1}{2}$，故双曲线可写为</p><p>$\\frac{x^{2}}{4}-y^{2}=1$，因为其渐近线为 $y=\\pm\\frac{x}{2}$，且焦距参数满足 $c^{2}=4+1=5$.</p><p>若 $\\overrightarrow{OP}=a\\mathbf{e}_{1}+b\\mathbf{e}_{2}$，则 $P$ 的坐标为 $(2a+2b,a-b)$. 代入双曲线方程得</p><p>$\\frac{(2a+2b)^{2}}{4}-(a-b)^{2}=(a+b)^{2}-(a-b)^{2}=4ab=1$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "将直线 $l_{1}: x + y - 1 = 0$，$l_{2}: nx + y - n = 0$，$l_{3}: x + ny - n = 0$ （$n \\in \\mathbb{N}^{*}$，$n \\ge 2$）围成的三角形面积记为 $S_{n}$. 则 $\\displaystyle\\lim_{n \\to \\infty}S_{n} =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{1}{2}$",
-          "solution": "<p>三条直线的交点分别为</p><p>$l_{1}\\cap l_{2}=(1,0)$，$l_{1}\\cap l_{3}=(0,1)$，以及</p><p>$l_{2}\\cap l_{3}=\\left(\\frac{n}{n+1},\\frac{n}{n+1}\\right)$.</p><p>前两个点连线为 $x+y=1$，长度为 $\\sqrt{2}$. 第三个点到该直线的距离为</p><p>$\\frac{\\left|\\frac{2n}{n+1}-1\\right|}{\\sqrt{2}}=\\frac{n-1}{\\sqrt{2}(n+1)}$.</p><p>因此</p><p>$S_{n}=\\frac{1}{2}\\times\\sqrt{2}\\times\\frac{n-1}{\\sqrt{2}(n+1)}=\\frac{n-1}{2(n+1)}$，从而 $\\lim_{n\\to\\infty}S_{n}=\\frac{1}{2}$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{1}{2}\\)",
+          "solution": "<p>三条直线的交点分别为</p><p>$l_{1}\\cap l_{2}=(1,0)$，$l_{1}\\cap l_{3}=(0,1)$，以及</p><p>$l_{2}\\cap l_{3}=\\left(\\frac{n}{n+1},\\frac{n}{n+1}\\right)$.</p><p>前两个点连线为 $x+y=1$，长度为 $\\sqrt{2}$. 第三个点到该直线的距离为</p><p>$\\frac{\\left|\\frac{2n}{n+1}-1\\right|}{\\sqrt{2}}=\\frac{n-1}{\\sqrt{2}(n+1)}$.</p><p>因此</p><p>$S_{n}=\\frac{1}{2}\\times\\sqrt{2}\\times\\frac{n-1}{\\sqrt{2}(n+1)}=\\frac{n-1}{2(n+1)}$，从而 $\\lim_{n\\to\\infty}S_{n}=\\frac{1}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -120,7 +289,9 @@
             "$3$"
           ],
           "answer": "C",
-          "solution": "可行域的顶点为 $(0,0)$、$(\\frac{3}{2},0)$、$(1,1)$、$(0,\\frac{3}{2})$. 在这些顶点处，目标函数 $z=x+y$ 的值依次为 $0$，$\\frac{3}{2}$，$2$，$\\frac{3}{2}$，所以最大值为 $2$，选 C."
+          "solution": "可行域的顶点为 $(0,0)$、$(\\frac{3}{2},0)$、$(1,1)$、$(0,\\frac{3}{2})$. 在这些顶点处，目标函数 $z=x+y$ 的值依次为 $0$，$\\frac{3}{2}$，$2$，$\\frac{3}{2}$，所以最大值为 $2$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
@@ -132,7 +303,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>若 $x=2k\\pi+\\frac{\\pi}{4}$，则 $\\tan x=\\tan\\frac{\\pi}{4}=1$，所以前者是后者的充分条件.</p><p>而 $\\tan x=1$ 的全部解为 $x=k\\pi+\\frac{\\pi}{4}$，例如 $x=\\frac{5\\pi}{4}$ 满足后者但不能写成 $2k\\pi+\\frac{\\pi}{4}$. 因此不是必要条件，选 A.</p>"
+          "solution": "<p>若 $x=2k\\pi+\\frac{\\pi}{4}$，则 $\\tan x=\\tan\\frac{\\pi}{4}=1$，所以前者是后者的充分条件.</p><p>而 $\\tan x=1$ 的全部解为 $x=k\\pi+\\frac{\\pi}{4}$，例如 $x=\\frac{5\\pi}{4}$ 满足后者但不能写成 $2k\\pi+\\frac{\\pi}{4}$. 因此不是必要条件，选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 17,
@@ -144,7 +317,9 @@
             "$(1.75, 2)$"
           ],
           "answer": "D",
-          "solution": "<p>令 $g(x)=\\lg x+x-2$，其定义域为 $x>0$，且 $g'(x)=\\frac{1}{x\\ln10}+1>0$，所以 $g$ 严格递增.</p><p>计算得 $g(1.75)=\\lg1.75-0.25\\approx-0.007<0$，$g(2)=\\lg2>0$. 因此方程的唯一根属于 $(1.75,2)$，应选 D.</p>"
+          "solution": "<p>令 $g(x)=\\lg x+x-2$，其定义域为 $x>0$，且 $g'(x)=\\frac{1}{x\\ln10}+1>0$，所以 $g$ 严格递增.</p><p>计算得 $g(1.75)=\\lg1.75-0.25\\approx-0.007<0$，$g(2)=\\lg2>0$. 因此方程的唯一根属于 $(1.75,2)$，应选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 18,
@@ -156,7 +331,9 @@
             "可能是锐角三角形，也可能是钝角三角形"
           ],
           "answer": "C",
-          "solution": "<p>由正弦定理，三角形的边长之比等于对应角的正弦之比，所以可设三边为 $5t$，$11t$，$13t$，其中 $t>0$. 最大边 $13t$ 所对的角为 $C$. 因为</p><p>$(13t)^{2}>(5t)^{2}+(11t)^{2}$，即 $169>146$，由余弦定理</p><p>$\\cos C=\\frac{(5t)^{2}+(11t)^{2}-(13t)^{2}}{2\\cdot5t\\cdot11t}=-\\frac{23}{110}<0$，故 $C$ 为钝角，三角形一定是钝角三角形，选 C.</p>"
+          "solution": "<p>由正弦定理，三角形的边长之比等于对应角的正弦之比，所以可设三边为 $5t$，$11t$，$13t$，其中 $t>0$. 最大边 $13t$ 所对的角为 $C$. 因为</p><p>$(13t)^{2}>(5t)^{2}+(11t)^{2}$，即 $169>146$，由余弦定理</p><p>$\\cos C=\\frac{(5t)^{2}+(11t)^{2}-(13t)^{2}}{2\\cdot5t\\cdot11t}=-\\frac{23}{110}<0$，故 $C$ 为钝角，三角形一定是钝角三角形，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -166,37 +343,47 @@
         {
           "num": 19,
           "body": "已知 $0 < x < \\frac{\\pi}{2}$，化简：$\\lg\\left(\\cos x \\cdot \\tan x + 1 - 2\\sin^{2}\\frac{x}{2}\\right) + \\lg\\left[\\sqrt{2}\\cos\\left(x - \\frac{\\pi}{4}\\right)\\right] - \\lg(1 + \\sin 2x)$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为 $0<x<\\frac{\\pi}{2}$，所以 $\\sin x>0$，$\\cos x>0$. 先化简第一个对数的真数：</p>\n$$\n\\cos x\\cdot\\tan x+1-2\\sin^{2}\\frac{x}{2}=\\sin x+1-(1-\\cos x)=\\sin x+\\cos x\n$$\n<p>又有</p><p>$\\sqrt{2}\\cos\\left(x-\\frac{\\pi}{4}\\right)=\\sin x+\\cos x>0$，$1+\\sin 2x=(\\sin x+\\cos x)^{2}>0$.</p><p>因此原式为</p>\n$$\n\\lg(\\sin x+\\cos x)+\\lg(\\sin x+\\cos x)  -\\lg\\bigl((\\sin x+\\cos x)^{2}\\bigr)=0\n$$"
+          "solution": "<p>因为 $0<x<\\frac{\\pi}{2}$，所以 $\\sin x>0$，$\\cos x>0$. 先化简第一个对数的真数：</p>\n$$\n\\cos x\\cdot\\tan x+1-2\\sin^{2}\\frac{x}{2}=\\sin x+1-(1-\\cos x)=\\sin x+\\cos x\n$$\n<p>又有</p><p>$\\sqrt{2}\\cos\\left(x-\\frac{\\pi}{4}\\right)=\\sin x+\\cos x>0$，$1+\\sin 2x=(\\sin x+\\cos x)^{2}>0$.</p><p>因此原式为</p>\n$$\n\\lg(\\sin x+\\cos x)+\\lg(\\sin x+\\cos x)  -\\lg\\bigl((\\sin x+\\cos x)^{2}\\bigr)=0\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图所示，为了制作一个圆柱形灯笼，先要制作 4 个全等的矩形骨架，总计耗用 $9.6\\text{ 米}$ 铁丝，再用 $S\\text{ 平方米}$ 塑料片制成圆柱的侧面和下底面（不安装上底面）.</p><ol class=\"enumerate\"><li><p>当圆柱底面半径 $r$ 取何值时，$S$ 取得最大值？并求出该最大值（结果精确到 $0.01\\text{ 平方米}$）；</p></li><li><p>若要制作一个如图放置的、底面半径为 $0.3\\text{ 米}$ 的灯笼，请作出用于制作灯笼的三视图（作图时，不需考虑骨架等因素）.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图所示，为了制作一个圆柱形灯笼，先要制作 4 个全等的矩形骨架，总计耗用 $9.6\\text{ 米}$ 铁丝，再用 $S\\text{ 平方米}$ 塑料片制成圆柱的侧面和下底面（不安装上底面）.</p><ol class=\"enumerate\"><li><p>当圆柱底面半径 $r$ 取何值时，$S$ 取得最大值？并求出该最大值（结果精确到 $0.01\\text{ 平方米}$）；</p></li><li><p>若要制作一个如图放置的、底面半径为 $0.3\\text{ 米}$ 的灯笼，请作出用于制作灯笼的三视图（作图时，不需考虑骨架等因素）.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/shanghai_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>设圆柱的母线长为 $l$. 每个矩形骨架的两条长边长为 $l$，两条短边为底面直径 $2r$，所以 4 个矩形骨架耗用铁丝</p>\n$$\n4(2l+4r)=9.6\n$$\n<p>从而 $l+2r=1.2$，即 $l=1.2-2r$. 由于 $l>0$，有 $0<r<0.6$.</p><ol class=\"enumerate\"><li><p>塑料片包括圆柱侧面和一个下底面，因此</p>\n$$\nS=2\\pi rl+\\pi r^{2}  =2\\pi r(1.2-2r)+\\pi r^{2}  =-3\\pi r^{2}+2.4\\pi r\n$$\n<p>配方得</p>\n$$\nS=-3\\pi(r-0.4)^{2}+0.48\\pi\n$$\n<p>当 $r=0.4$ 时平方项为 $0$，$S$ 取得最大值</p>\n$$\nS_{\\max}=0.48\\pi\\approx1.51\\text{ m}^{2}\n$$\n</li><li><p>当 $r=0.3$ 时，$l=1.2-2\\times0.3=0.6\\text{ m}$. 因而主视图、左视图都是宽 $2r=0.6\\text{ m}$、高 $l=0.6\\text{ m}$ 的矩形；俯视图是半径 $0.3\\text{ m}$ 的圆. 按此尺寸分别画出矩形和圆，即得三视图.</p></li></ol>"
+          "solution": "<p>设圆柱的母线长为 $l$. 每个矩形骨架的两条长边长为 $l$，两条短边为底面直径 $2r$，所以 4 个矩形骨架耗用铁丝</p>\n$$\n4(2l+4r)=9.6\n$$\n<p>从而 $l+2r=1.2$，即 $l=1.2-2r$. 由于 $l>0$，有 $0<r<0.6$.</p><ol class=\"enumerate\"><li><p>塑料片包括圆柱侧面和一个下底面，因此</p>\n$$\nS=2\\pi rl+\\pi r^{2}  =2\\pi r(1.2-2r)+\\pi r^{2}  =-3\\pi r^{2}+2.4\\pi r\n$$\n<p>配方得</p>\n$$\nS=-3\\pi(r-0.4)^{2}+0.48\\pi\n$$\n<p>当 $r=0.4$ 时平方项为 $0$，$S$ 取得最大值</p>\n$$\nS_{\\max}=0.48\\pi\\approx1.51\\text{ m}^{2}\n$$\n</li><li><p>当 $r=0.3$ 时，$l=1.2-2\\times0.3=0.6\\text{ m}$. 因而主视图、左视图都是宽 $2r=0.6\\text{ m}$、高 $l=0.6\\text{ m}$ 的矩形；俯视图是半径 $0.3\\text{ m}$ 的圆. 按此尺寸分别画出矩形和圆，即得三视图.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<ol class=\"enumerate\"><li><p>已知数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，且 $S_{n}= n - 5a_{n}- 85$，$n \\in \\mathbb{N}^{*}$，证明：$\\{a_{n}- 1\\}$ 是等比数列；</p></li><li><p>求数列 $\\{S_{n}\\}$ 的通项公式，并求出使得 $S_{n+1}> S_{n}$ 成立的最小正整数 $n$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>取 $n=1$，由 $S_{1}=a_{1}$ 及题设得</p>\n$$\na_{1}=1-5a_{1}-85\n$$\n<p>所以 $a_{1}=-14$.</p><p>当 $n\\geqslant2$ 时，由 $a_{n}=S_{n}-S_{n-1}$ 及题设，</p>\n$$\na_{n}=S_{n}-S_{n-1}=(n-5a_{n}-85)-\\bigl[(n-1)-5a_{n-1}-85\\bigr]  =1-5a_{n}+5a_{n-1}\n$$\n<p>于是 $6a_{n}=1+5a_{n-1}$，从而 $a_{n}-1=\\frac{5}{6}(a_{n-1}-1)$.</p><p>因此 $\\{a_{n}-1\\}$ 是首项 $a_{1}-1=-15$、公比 $\\frac{5}{6}$ 的等比数列，即</p><p>$a_{n}-1=-15\\left(\\frac{5}{6}\\right)^{n-1}$，从而</p><p>$a_{n}=1-15\\left(\\frac{5}{6}\\right)^{n-1}$.</p><p>再由 $S_{n}=n-5a_{n}-85$，得到</p>\n$$\nS_{n}=75\\left(\\frac{5}{6}\\right)^{n-1}+n-90\n$$\n<p>于是</p>\n$$\nS_{n+1}-S_{n}  =1+75\\left[\\left(\\frac{5}{6}\\right)^{n}-\\left(\\frac{5}{6}\\right)^{n-1}\\right]  =1-\\frac{25}{2}\\left(\\frac{5}{6}\\right)^{n-1}\n$$\n<p>所以 $S_{n+1}>S_{n}$ 等价于</p>\n$$\n\\left(\\frac{5}{6}\\right)^{n-1}<\\frac{2}{25}=0.08\n$$\n<p>计算得</p><p>$\\left(\\frac{5}{6}\\right)^{13}\\approx0.0935>0.08$，$\\left(\\frac{5}{6}\\right)^{14}\\approx0.0779<0.08$.</p><p>故满足条件的最小正整数为 $n=15$.</p>"
+          "solution": "<p>取 $n=1$，由 $S_{1}=a_{1}$ 及题设得</p>\n$$\na_{1}=1-5a_{1}-85\n$$\n<p>所以 $a_{1}=-14$.</p><p>当 $n\\geqslant2$ 时，由 $a_{n}=S_{n}-S_{n-1}$ 及题设，</p>\n$$\na_{n}=S_{n}-S_{n-1}=(n-5a_{n}-85)-\\bigl[(n-1)-5a_{n-1}-85\\bigr]  =1-5a_{n}+5a_{n-1}\n$$\n<p>于是 $6a_{n}=1+5a_{n-1}$，从而 $a_{n}-1=\\frac{5}{6}(a_{n-1}-1)$.</p><p>因此 $\\{a_{n}-1\\}$ 是首项 $a_{1}-1=-15$、公比 $\\frac{5}{6}$ 的等比数列，即</p><p>$a_{n}-1=-15\\left(\\frac{5}{6}\\right)^{n-1}$，从而</p><p>$a_{n}=1-15\\left(\\frac{5}{6}\\right)^{n-1}$.</p><p>再由 $S_{n}=n-5a_{n}-85$，得到</p>\n$$\nS_{n}=75\\left(\\frac{5}{6}\\right)^{n-1}+n-90\n$$\n<p>于是</p>\n$$\nS_{n+1}-S_{n}  =1+75\\left[\\left(\\frac{5}{6}\\right)^{n}-\\left(\\frac{5}{6}\\right)^{n-1}\\right]  =1-\\frac{25}{2}\\left(\\frac{5}{6}\\right)^{n-1}\n$$\n<p>所以 $S_{n+1}>S_{n}$ 等价于</p>\n$$\n\\left(\\frac{5}{6}\\right)^{n-1}<\\frac{2}{25}=0.08\n$$\n<p>计算得</p><p>$\\left(\\frac{5}{6}\\right)^{13}\\approx0.0935>0.08$，$\\left(\\frac{5}{6}\\right)^{14}\\approx0.0779<0.08$.</p><p>故满足条件的最小正整数为 $n=15$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<ol class=\"enumerate\"><li><p>若实数 $x$，$y$，$m$ 满足 $|x - m| < |y - m|$，则称 $x$ 比 $y$ 接近 $m$. 若 $x^{2}- 1$ 比 $3$ 接近 $0$，求 $x$ 的取值范围；</p></li><li><p>对任意两个不相等的正数 $a$，$b$，证明：$a^{2}b + ab^{2}$ 比 $a^{3}+ b^{3}$ 接近 $2ab\\sqrt{ab}$；</p></li><li><p>已知函数 $f(x)$ 的定义域 $D = \\{x \\mid x \\neq k\\pi, k \\in \\mathbb{Z}, x \\in \\mathbb{R}\\}$. 任取 $x \\in D$，$f(x)$ 等于 $1 + \\sin x$ 和 $1 - \\sin x$ 中接近 $0$ 的那个值. 写出函数 $f(x)$ 的解析式，并指出它的奇偶性，最小正周期，最小值和单调性（结论不要求证明）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由“$x^{2}-1$ 比 $3$ 接近 $0$”的定义，</p>\n$$\n|x^{2}-1|<|3|=3\n$$\n<p>因此</p><p>$-3<x^{2}-1<3$，$-2<x^{2}<4$.</p><p>由于 $x^{2}\\geqslant0$，左侧不等式自动满足，故 $x^{2}<4$，从而</p>\n$$\n-2<x<2\n$$\n</li><li><p>设</p><p>$X=a^{2}b+ab^{2}$，$Y=a^{3}+b^{3}$，$Z=2ab\\sqrt{ab}$.</p><p>因 $a$，$b>0$ 且 $a\\ne b$，有</p>\n$$\nX-Z=ab(a+b-2\\sqrt{ab})  =ab(\\sqrt{a}-\\sqrt{b})^{2}>0\n$$\n<p>另一方面，</p>\n$$\nY-X=a^{3}+b^{3}-a^{2}b-ab^{2}  =(a+b)(a-b)^{2}>0\n$$\n<p>所以 $Y>X>Z$，于是</p>\n$$\n|X-Z|=X-Z<Y-Z=|Y-Z|\n$$\n<p>即 $X$ 比 $Y$ 接近 $Z$.</p></li><li><p>在定义域 $D$ 内，$1+\\sin x$ 与 $1-\\sin x$ 均非负，且由于 $x\\ne k\\pi$，有 $\\sin x\\ne0$，两者不相等. 距离 $0$ 较近者是较小者，因此</p>\n$$\nf(x)=\\min\\{1+\\sin x,1-\\sin x\\}=1-|\\sin x|\n$$\n<p>因为 $|\\sin(-x)|=|\\sin x|$，$f$ 是偶函数；又因为</p>\n$$\n|\\sin(x+\\pi)|=|\\sin x|\n$$\n<p>且 $|\\sin x|$ 的最小正周期为 $\\pi$，所以 $f$ 的最小正周期为 $\\pi$. 当 $x=\\frac{\\pi}{2}+k\\pi$ 时，$|\\sin x|=1$，故 $f_{\\min}=0$.</p><p>对任意 $k\\in\\mathbb{Z}$，$f$ 在</p>\n$$\n\\left[k\\pi-\\frac{\\pi}{2},\\,k\\pi\\right)\n$$\n<p>上单调递增，在</p>\n$$\n\\left(k\\pi,\\,k\\pi+\\frac{\\pi}{2}\\right]\n$$\n<p>上单调递减.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由“$x^{2}-1$ 比 $3$ 接近 $0$”的定义，</p>\n$$\n|x^{2}-1|<|3|=3\n$$\n<p>因此</p><p>$-3<x^{2}-1<3$，$-2<x^{2}<4$.</p><p>由于 $x^{2}\\geqslant0$，左侧不等式自动满足，故 $x^{2}<4$，从而</p>\n$$\n-2<x<2\n$$\n</li><li><p>设</p><p>$X=a^{2}b+ab^{2}$，$Y=a^{3}+b^{3}$，$Z=2ab\\sqrt{ab}$.</p><p>因 $a$，$b>0$ 且 $a\\ne b$，有</p>\n$$\nX-Z=ab(a+b-2\\sqrt{ab})  =ab(\\sqrt{a}-\\sqrt{b})^{2}>0\n$$\n<p>另一方面，</p>\n$$\nY-X=a^{3}+b^{3}-a^{2}b-ab^{2}  =(a+b)(a-b)^{2}>0\n$$\n<p>所以 $Y>X>Z$，于是</p>\n$$\n|X-Z|=X-Z<Y-Z=|Y-Z|\n$$\n<p>即 $X$ 比 $Y$ 接近 $Z$.</p></li><li><p>在定义域 $D$ 内，$1+\\sin x$ 与 $1-\\sin x$ 均非负，且由于 $x\\ne k\\pi$，有 $\\sin x\\ne0$，两者不相等. 距离 $0$ 较近者是较小者，因此</p>\n$$\nf(x)=\\min\\{1+\\sin x,1-\\sin x\\}=1-|\\sin x|\n$$\n<p>因为 $|\\sin(-x)|=|\\sin x|$，$f$ 是偶函数；又因为</p>\n$$\n|\\sin(x+\\pi)|=|\\sin x|\n$$\n<p>且 $|\\sin x|$ 的最小正周期为 $\\pi$，所以 $f$ 的最小正周期为 $\\pi$. 当 $x=\\frac{\\pi}{2}+k\\pi$ 时，$|\\sin x|=1$，故 $f_{\\min}=0$.</p><p>对任意 $k\\in\\mathbb{Z}$，$f$ 在</p>\n$$\n\\left[k\\pi-\\frac{\\pi}{2},\\,k\\pi\\right)\n$$\n<p>上单调递增，在</p>\n$$\n\\left(k\\pi,\\,k\\pi+\\frac{\\pi}{2}\\right]\n$$\n<p>上单调递减.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "<ol class=\"enumerate\"><li><p>已知椭圆 $\\Gamma$ 的方程为 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$），$A(0, b)$，$B(0, -b)$ 和 $Q(a, 0)$ 为 $\\Gamma$ 的三个顶点. 若点 $M$ 满足 $\\overrightarrow{AM}= \\frac{1}{2}\\left(\\overrightarrow{AQ}+ \\overrightarrow{AB}\\right)$，求点 $M$ 的坐标；</p></li><li><p>设直线 $l_{1}: y = k_{1}x + p$ 交椭圆 $\\Gamma$ 于 $C$，$D$ 两点，交直线 $l_{2}: y = k_{2}x$ 于点 $E$. 若 $k_{1}\\cdot k_{2}= -\\frac{b^{2}}{a^{2}}$，证明：$E$ 为 $CD$ 的中点；</p></li><li><p>设点 $P$ 在椭圆 $\\Gamma$ 内且不在 $x$ 轴上，如何作过 $PQ$ 中点 $F$ 的直线 $l$，使得 $l$ 与椭圆 $\\Gamma$ 两个交点 $P_{1}$，$P_{2}$ 满足 $\\overrightarrow{PP_{1}}+ \\overrightarrow{PP_{2}}= \\overrightarrow{PQ}$？令 $a = 10$，$b = 5$，点 $P$ 的坐标是 $(-8, -1)$. 若椭圆 $\\Gamma$ 上的点 $P_{1}$，$P_{2}$ 满足 $\\overrightarrow{PP_{1}}+ \\overrightarrow{PP_{2}}= \\overrightarrow{PQ}$，求点 $P_{1}$，$P_{2}$ 的坐标.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\n\\overrightarrow{AM}=\\frac{1}{2}\\left(\\overrightarrow{AQ}+\\overrightarrow{AB}\\right)\n$$\n<p>得</p>\n$$\nM=A+\\frac{1}{2}(Q-A+B-A)=\\frac{1}{2}(Q+B)\n$$\n<p>代入 $Q(a,0)$、$B(0,-b)$，得到</p>\n$$\nM\\left(\\frac{a}{2},-\\frac{b}{2}\\right)\n$$\n</li><li><p>直线 $l_{1}$ 与椭圆的交点横坐标 $x_{C}$，$x_{D}$ 满足</p>\n$$\n\\frac{x^{2}}{a^{2}}+\\frac{(k_{1}x+p)^{2}}{b^{2}}=1\n$$\n<p>即</p>\n$$\n(b^{2}+a^{2}k_{1}^{2})x^{2}+2a^{2}k_{1}px+a^{2}(p^{2}-b^{2})=0\n$$\n<p>由韦达定理，弦 $CD$ 中点的横坐标为</p>\n$$\n\\bar x=-\\frac{a^{2}k_{1}p}{b^{2}+a^{2}k_{1}^{2}}\n$$\n<p>纵坐标为</p>\n$$\n\\bar y=k_{1}\\bar x+p=\\frac{b^{2}p}{b^{2}+a^{2}k_{1}^{2}}\n$$\n<p>由 $k_{1}k_{2}=-\\frac{b^{2}}{a^{2}}\\ne0$，知 $k_{1}\\ne0$、$k_{2}\\ne0$，且 $k_{1}$ 与 $k_{2}$ 异号. 因此 $k_{2}-k_{1}\\ne0$，并有 $k_{2}=-\\frac{b^{2}}{a^{2}k_{1}}$. 因而直线 $l_{2}$ 与 $l_{1}$ 的交点 $E$ 的横坐标为</p>\n$$\nx_{E}=\\frac{p}{k_{2}-k_{1}}=-\\frac{a^{2}k_{1}p}{b^{2}+a^{2}k_{1}^{2}}=\\bar x\n$$\n<p>纵坐标为</p>\n$$\ny_{E}=k_{2}x_{E}=\\frac{b^{2}p}{b^{2}+a^{2}k_{1}^{2}}=\\bar y\n$$\n<p>所以 $E$ 的坐标等于 $CD$ 中点的坐标，$E$ 为 $CD$ 的中点.</p></li><li><p>令 $F$ 为 $PQ$ 的中点. 若 $P_{1}$，$P_{2}$ 满足题设，则</p>\n$$\n(P_{1}-P)+(P_{2}-P)=Q-P\n$$\n<p>所以</p>\n$$\n\\frac{P_{1}+P_{2}}{2}=\\frac{P+Q}{2}=F\n$$\n<p>也就是说，所求直线必须使 $F$ 成为弦 $P_{1}P_{2}$ 的中点. 由于椭圆内部是凸集，且 $P$ 为内点、$Q$ 为椭圆边界点，所以其中点 $F$ 在椭圆内部，过 $F$ 的任一直线与椭圆有两个交点. 设 $F=(u,v)$. 因为 $Q=(a,0)$ 且 $P$ 在椭圆内部，所以 $u>0$；又因 $P$ 不在 $x$ 轴上，所以 $v\\ne0$. 作直线 $OF$，其斜率为 $k_{2}=\\frac{v}{u}$. 再过 $F$ 作斜率为</p>\n$$\nk_{1}=-\\frac{b^{2}}{a^{2}k_{2}}\n$$\n<p>的直线 $l$. 由第（2）问，这条直线的弦中点是 $l$ 与 $OF$ 的交点，即 $F$，故它满足要求.</p><p>当 $a=10$，$b=5$，$P=(-8,-1)$ 时，</p><p>$Q=(10,0)$，$F=\\left(1,-\\frac{1}{2}\\right)$，$k_{2}=-\\frac{1}{2}$，$k_{1}=-\\frac{25}{100(-\\frac{1}{2})}=\\frac{1}{2}$.</p><p>所以所求直线为</p>\n$$\ny+\\frac{1}{2}=\\frac{1}{2}(x-1),\\qquad\\text{即}\\qquad y=\\frac{x}{2}-1\n$$\n<p>将 $y=\\frac{x}{2}-1$ 代入椭圆</p>\n$$\n\\frac{x^{2}}{100}+\\frac{y^{2}}{25}=1\n$$\n<p>得</p><p>$\\frac{x^{2}}{100}+\\frac{(\\frac{x}{2}-1)^{2}}{25}=1$，$\\Longrightarrow$，$x^{2}+4\\left(\\frac{x}{2}-1\\right)^{2}=100$.</p><p>由于 $4\\left(\\frac{x}{2}-1\\right)^{2}=(x-2)^{2}$，上式化为</p><p>$x^{2}+(x-2)^{2}=100$，$\\Longrightarrow$，$x^{2}-2x-48=0$.</p><p>所以 $x=8$ 或 $x=-6$，相应地 $y=3$ 或 $y=-4$. 因而</p>\n$$\n\\{P_{1},P_{2}\\}=\\{(8,3),(-6,-4)\\}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\n\\overrightarrow{AM}=\\frac{1}{2}\\left(\\overrightarrow{AQ}+\\overrightarrow{AB}\\right)\n$$\n<p>得</p>\n$$\nM=A+\\frac{1}{2}(Q-A+B-A)=\\frac{1}{2}(Q+B)\n$$\n<p>代入 $Q(a,0)$、$B(0,-b)$，得到</p>\n$$\nM\\left(\\frac{a}{2},-\\frac{b}{2}\\right)\n$$\n</li><li><p>直线 $l_{1}$ 与椭圆的交点横坐标 $x_{C}$，$x_{D}$ 满足</p>\n$$\n\\frac{x^{2}}{a^{2}}+\\frac{(k_{1}x+p)^{2}}{b^{2}}=1\n$$\n<p>即</p>\n$$\n(b^{2}+a^{2}k_{1}^{2})x^{2}+2a^{2}k_{1}px+a^{2}(p^{2}-b^{2})=0\n$$\n<p>由韦达定理，弦 $CD$ 中点的横坐标为</p>\n$$\n\\bar x=-\\frac{a^{2}k_{1}p}{b^{2}+a^{2}k_{1}^{2}}\n$$\n<p>纵坐标为</p>\n$$\n\\bar y=k_{1}\\bar x+p=\\frac{b^{2}p}{b^{2}+a^{2}k_{1}^{2}}\n$$\n<p>由 $k_{1}k_{2}=-\\frac{b^{2}}{a^{2}}\\ne0$，知 $k_{1}\\ne0$、$k_{2}\\ne0$，且 $k_{1}$ 与 $k_{2}$ 异号. 因此 $k_{2}-k_{1}\\ne0$，并有 $k_{2}=-\\frac{b^{2}}{a^{2}k_{1}}$. 因而直线 $l_{2}$ 与 $l_{1}$ 的交点 $E$ 的横坐标为</p>\n$$\nx_{E}=\\frac{p}{k_{2}-k_{1}}=-\\frac{a^{2}k_{1}p}{b^{2}+a^{2}k_{1}^{2}}=\\bar x\n$$\n<p>纵坐标为</p>\n$$\ny_{E}=k_{2}x_{E}=\\frac{b^{2}p}{b^{2}+a^{2}k_{1}^{2}}=\\bar y\n$$\n<p>所以 $E$ 的坐标等于 $CD$ 中点的坐标，$E$ 为 $CD$ 的中点.</p></li><li><p>令 $F$ 为 $PQ$ 的中点. 若 $P_{1}$，$P_{2}$ 满足题设，则</p>\n$$\n(P_{1}-P)+(P_{2}-P)=Q-P\n$$\n<p>所以</p>\n$$\n\\frac{P_{1}+P_{2}}{2}=\\frac{P+Q}{2}=F\n$$\n<p>也就是说，所求直线必须使 $F$ 成为弦 $P_{1}P_{2}$ 的中点. 由于椭圆内部是凸集，且 $P$ 为内点、$Q$ 为椭圆边界点，所以其中点 $F$ 在椭圆内部，过 $F$ 的任一直线与椭圆有两个交点. 设 $F=(u,v)$. 因为 $Q=(a,0)$ 且 $P$ 在椭圆内部，所以 $u>0$；又因 $P$ 不在 $x$ 轴上，所以 $v\\ne0$. 作直线 $OF$，其斜率为 $k_{2}=\\frac{v}{u}$. 再过 $F$ 作斜率为</p>\n$$\nk_{1}=-\\frac{b^{2}}{a^{2}k_{2}}\n$$\n<p>的直线 $l$. 由第（2）问，这条直线的弦中点是 $l$ 与 $OF$ 的交点，即 $F$，故它满足要求.</p><p>当 $a=10$，$b=5$，$P=(-8,-1)$ 时，</p><p>$Q=(10,0)$，$F=\\left(1,-\\frac{1}{2}\\right)$，$k_{2}=-\\frac{1}{2}$，$k_{1}=-\\frac{25}{100(-\\frac{1}{2})}=\\frac{1}{2}$.</p><p>所以所求直线为</p>\n$$\ny+\\frac{1}{2}=\\frac{1}{2}(x-1),\\qquad\\text{即}\\qquad y=\\frac{x}{2}-1\n$$\n<p>将 $y=\\frac{x}{2}-1$ 代入椭圆</p>\n$$\n\\frac{x^{2}}{100}+\\frac{y^{2}}{25}=1\n$$\n<p>得</p><p>$\\frac{x^{2}}{100}+\\frac{(\\frac{x}{2}-1)^{2}}{25}=1$，$\\Longrightarrow$，$x^{2}+4\\left(\\frac{x}{2}-1\\right)^{2}=100$.</p><p>由于 $4\\left(\\frac{x}{2}-1\\right)^{2}=(x-2)^{2}$，上式化为</p><p>$x^{2}+(x-2)^{2}=100$，$\\Longrightarrow$，$x^{2}-2x-48=0$.</p><p>所以 $x=8$ 或 $x=-6$，相应地 $y=3$ 或 $y=-4$. 因而</p>\n$$\n\\{P_{1},P_{2}\\}=\\{(8,3),(-6,-4)\\}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

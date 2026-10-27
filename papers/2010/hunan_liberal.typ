@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,8 +11,8 @@
 #part-header("单选题")
 
 #problem(1)[
-复数 $(2)/(1 - i)$ 等于（ ）
-  #choices([$1 + i$], [$1 - i$], [$-1 + i$], [$-1 - i$], cols: 4)
+复数 #mi(`\frac{2}{1 - \mathrm{i}}`) 等于（ ）
+  #choices([#mi(`1 + \mathrm{i}`)], [#mi(`1 - \mathrm{i}`)], [#mi(`-1 + \mathrm{i}`)], [#mi(`-1 - \mathrm{i}`)], cols: 2)
 ]
 
 #answer([A])
@@ -20,426 +20,450 @@
 #solution[
 将分子、分母同乘分母的共轭复数，得
 
-$ (2)/(1- i)=(2(1+ i ))/((1- i )(1+ i ))=(2(1+ i ))/(2)=1+ i $
+
+#align(center)[#mitex(`
+\frac{2}{1-\mathrm{i}}=\frac{2(1+\mathrm{i})}{(1-\mathrm{i})(1+\mathrm{i})}=\frac{2(1+\mathrm{i})}{2}=1+\mathrm{i}
+`)]
+
 
 故选 A.
 ]
 
 #problem(2)[
 下列命题中的假命题是（ ）
-  #choices([$exists x in RR$，$\l g x = 0$], [$exists x in RR$，$tan x = 1$], [$forall x in RR$，$x^3 >0$], [$forall x in RR$，$2^(x) > 0$], cols: 2)
+  #choices([#mi(`\exists x \in \mathbb{R}`)，#mi(`\lg x = 0`)], [#mi(`\exists x \in \mathbb{R}`)，#mi(`\tan x = 1`)], [#mi(`\forall x\in \mathbb{R}`)，#mi(`x^{3} >0`)], [#mi(`\forall x\in \mathbb{R}`)，#mi(`2^{x}> 0`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-命题 A 中取 $x=1$，有 $\l g 1=0$，所以 A 为真；命题 B 中取 $x=(pi)/(4)$，有 $tan (pi)/(4)=1$，所以 B 为真；对命题 C，取 $x=0$，则 $x^3=0$ 不大于 $0$，所以“对任意 $x in RR$，$x^3>0$”为假；对任意 $x in RR$，$2^x>0$，所以 D 为真.
+命题 A 中取 #mi(`x=1`)，有 #mi(`\lg 1=0`)，所以 A 为真；命题 B 中取 #mi(`x=\dfrac{\pi}{4}`)，有 #mi(`\tan\dfrac{\pi}{4}=1`)，所以 B 为真；对命题 C，取 #mi(`x=0`)，则 #mi(`x^{3}=0`) 不大于 #mi(`0`)，所以“对任意 #mi(`x\in\mathbb{R}`)，#mi(`x^{3}>0`)”为假；对任意 #mi(`x\in\mathbb{R}`)，#mi(`2^{x}>0`)，所以 D 为真.
+
 故选 C.
 ]
 
 #problem(3)[
-某商品销售量 $y$ （件）与销售价格 $x$ （元/件）负相关，则其回归方程可能是（ ）
-  #choices([$\h a t{y} = -10 x + 200$], [$\h a t{y} = 10 x + 200$], [$\h a t{y} = -10 x - 200$], [$\h a t{y} = 10 x - 200$], cols: 2)
+某商品销售量 #mi(`y`) （件）与销售价格 #mi(`x`) （元/件）负相关，则其回归方程可能是（ ）
+  #choices([#mi(`\hat{y}= -10x + 200`)], [#mi(`\hat{y}= 10x + 200`)], [#mi(`\hat{y}= -10x - 200`)], [#mi(`\hat{y}= 10x - 200`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-负相关要求回归直线的斜率为负，因此排除 B、D. 回归直线必经过样本中心点 $(overline(x),overline(y))$，且价格和销量均为正数，所以 $overline(x)>0$、$overline(y)>0$. 若斜率为 $-10$，截距应为
+负相关要求回归直线的斜率为负，因此排除 B、D. 回归直线必经过样本中心点 #mi(`(\bar{x},\bar{y})`)，且价格和销量均为正数，所以 #mi(`\bar{x}>0`)、#mi(`\bar{y}>0`). 若斜率为 #mi(`-10`)，截距应为
 
-$ overline(y)-(-10)overline(x)=overline(y)+10 overline(x)>0 $
 
-因此截距为 $-200$ 的 C 不可能，只有 A 可能.
+#align(center)[#mitex(`
+\bar{y}-(-10)\bar{x}=\bar{y}+10\bar{x}>0
+`)]
+
+
+因此截距为 #mi(`-200`) 的 C 不可能，只有 A 可能.
+
 故选 A.
 ]
 
 #problem(4)[
-极坐标 $rho = cos theta$ 和参数方程 $\b e g i n{c a s e s} x = -1 - t\\ y = 2 + t, \e n d{c a s e s}$ （$t$ 为参数）所表示的图形分别是（ ）
+极坐标 #mi(`\rho = \cos \theta`) 和参数方程 #mi(`\begin{cases}x = -1 - t\\
+
+y = 2 + t,\end{cases}`) （#mi(`t`) 为参数）所表示的图形分别是（ ）
   #choices([直线，直线], [直线，圆], [圆，圆], [圆，直线], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-由极坐标与直角坐标的关系 $x= rho cos theta$、$x^2+y^2= rho ""^2$，有
+由极坐标与直角坐标的关系 #mi(`x=\rho\cos\theta`)、#mi(`x^{2}+y^{2}=\rho^{2}`)，有
 
-$ rho = cos theta \ \L o n g r i g h t a r r o w\ rho ""^2= rho cos theta \ \L o n g r i g h t a r r o w\ x^2+y^2=x $
+
+#align(center)[#mitex(`
+\rho=\cos\theta\ \Longrightarrow\ \rho^{2}=\rho\cos\theta\ \Longrightarrow\ x^{2}+y^{2}=x
+`)]
+
 
 即
 
-$ (x-(1)/(2))^2+y^2=(1)/(4) $
+
+#align(center)[#mitex(`
+\left(x-\frac{1}{2}\right)^{2}+y^{2}=\frac{1}{4}
+`)]
+
 
 所以它表示圆. 参数方程满足
 
-$ x+y=(-1-t)+(2+t)=1 $
+
+#align(center)[#mitex(`
+x+y=(-1-t)+(2+t)=1
+`)]
+
 
 所以它表示直线. 故选 D.
 ]
 
 #problem(5)[
-设抛物线 $y^(2) = 8 x$ 上一点 $P$ 到 $y$ 轴的距离是 4，则点 $P$ 到该抛物线焦点的距离是（ ）
-  #choices([$4$], [$6$], [$8$], [$12$], cols: 4)
+设抛物线 #mi(`y^{2}= 8x`) 上一点 #mi(`P`) 到 #mi(`y`) 轴的距离是 4，则点 #mi(`P`) 到该抛物线焦点的距离是（ ）
+  #choices([#mi(`4`)], [#mi(`6`)], [#mi(`8`)], [#mi(`12`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-抛物线的标准方程为 $y^2=2 p x$，故 $2 p=8$，从而 $p=4$，焦点为 $F(2,0)$. 因为 $P$ 到 $y$ 轴的距离为 $|x|=4$，而抛物线上 $x=(y^2)/(8) >= 0$，所以 $x=4$. 代入抛物线得 $y^2=32$. 因此
+抛物线的标准方程为 #mi(`y^{2}=2px`)，故 #mi(`2p=8`)，从而 #mi(`p=4`)，焦点为 #mi(`F(2,0)`). 因为 #mi(`P`) 到 #mi(`y`) 轴的距离为 #mi(`|x|=4`)，而抛物线上 #mi(`x=\dfrac{y^2}{8}\geqslant0`)，所以 #mi(`x=4`). 代入抛物线得 #mi(`y^{2}=32`). 因此
 
-$ P F=sqrt((4-2)^2+y^2)=sqrt(4+32)=6 $
+
+#align(center)[#mitex(`
+PF=\sqrt{(4-2)^{2}+y^{2}}=\sqrt{4+32}=6
+`)]
+
 
 故选 B.
 ]
 
 #problem(6)[
-若非零向量 $bold(a)$，$bold(b)$ 满足 $|bold(a)| = |bold(b)|$，$(2 bold(a)+ bold(b)) dot bold(b)= 0$，则 $bold(a)$ 与 $bold(b)$ 的夹角为（ ）
-  #choices([$30^( degree )$], [$60^( degree )$], [$120^( degree )$], [$150^( degree )$], cols: 2)
+若非零向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 满足 #mi(`|\mathbf{a}| = |\mathbf{b}|`)，#mi(`(2\mathbf{a}+ \mathbf{b}) \cdot \mathbf{b}= 0`)，则 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角为（ ）
+  #choices([#mi(`30^{\circ}`)], [#mi(`60^{\circ}`)], [#mi(`120^{\circ}`)], [#mi(`150^{\circ}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设 $bold(a)$ 与 $bold(b)$ 的夹角为 $theta$. 由题设
+设 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角为 #mi(`\theta`). 由题设
 
-$ (2 bold(a)+bold(b))\c d o t b o l d(b)=0 \ \L o n g r i g h t a r r o w\ 2 bold(a)\c d o t b o l d(b)+|bold(b)|^2=0 $
 
-又因为 $|bold(a)|=|bold(b)| != 0$，所以
+#align(center)[#mitex(`
+(2\mathbf{a}+\mathbf{b})\cdot\mathbf{b}=0  \ \Longrightarrow\ 2\mathbf{a}\cdot\mathbf{b}+|\mathbf{b}|^{2}=0
+`)]
 
-$ 2|bold(a)||bold(b)| cos theta +|bold(b)|^2=0 \ \L o n g r i g h t a r r o w\ cos theta =-(1)/(2) $
 
-由于 $0 <= theta <= pi$，得 $theta =120^ degree$. 故选 C.
+又因为 #mi(`|\mathbf{a}|=|\mathbf{b}|\ne0`)，所以
+
+
+#align(center)[#mitex(`
+2|\mathbf{a}||\mathbf{b}|\cos\theta+|\mathbf{b}|^{2}=0  \ \Longrightarrow\ \cos\theta=-\frac{1}{2}
+`)]
+
+
+由于 #mi(`0\le\theta\le\pi`)，得 #mi(`\theta=120^{\circ}`). 故选 C.
 ]
 
 #problem(7)[
-在 $triangle A B C$ 中，角 $A$，$B$，$C$ 所对的边长分别为 $a$，$b$，$c$，若 $angle C = 120^( degree )$，$c = sqrt(2)a$，则（ ）
-  #choices([$a > b$], [$a < b$], [$a = b$], [$a$ 与 $b$ 的大小关系不能确定], cols: 2)
+在 #mi(`\triangle ABC`) 中，角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对的边长分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，若 #mi(`\angle C = 120^{\circ}`)，#mi(`c = \sqrt{2}a`)，则（ ）
+  #choices([#mi(`a > b`)], [#mi(`a < b`)], [#mi(`a = b`)], [#mi(`a`) 与 #mi(`b`) 的大小关系不能确定], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由余弦定理及 $cos 120 ""^ degree =-(1)/(2)$，得
+由余弦定理及 #mi(`\cos120^{\circ}=-\dfrac{1}{2}`)，得
 
-$ c^2=a^2+b^2-2 a b cos 120 ""^ degree =a^2+b^2+a b $
 
-代入 $c=sqrt(2)a$，得
+#align(center)[#mitex(`
+c^{2}=a^{2}+b^{2}-2ab\cos120^{\circ}=a^{2}+b^{2}+ab
+`)]
 
-$ 2 a^2=a^2+b^2+a b \ \L o n g r i g h t a r r o w\ b^2+a b-a^2=0 $
 
-因 $a>0$、$b>0$，令 $t=(b)/(a)>0$，则
+代入 #mi(`c=\sqrt{2}a`)，得
 
-$ t^2+t-1=0 $
 
-所以 $t=(-1+sqrt(5))/(2)$，且 $0<t<1$. 因而 $b<a$，即 $a>b$. 故选 A.
+#align(center)[#mitex(`
+2a^{2}=a^{2}+b^{2}+ab  \ \Longrightarrow\ b^{2}+ab-a^{2}=0
+`)]
+
+
+因 #mi(`a>0`)、#mi(`b>0`)，令 #mi(`t=\dfrac{b}{a}>0`)，则
+
+
+#align(center)[#mitex(`
+t^{2}+t-1=0
+`)]
+
+
+所以 #mi(`t=\dfrac{-1+\sqrt{5}}{2}`)，且 #mi(`0<t<1`). 因而 #mi(`b<a`)，即 #mi(`a>b`). 故选 A.
 ]
 
 #problem(8)[
-函数 $y = a x^2 + b x$ 与 $y = log _((|b|)/(|a|)) x$（$a b != 0$，$|a| != |b|$）在同一直角坐标系中的图象可能是（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2010/img/hunan_liberal/q8_optA_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2010/img/hunan_liberal/q8_optB_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2010/img/hunan_liberal/q8_optC_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2010/img/hunan_liberal/q8_optD_clean.png", height: 100%, fit: "contain")]]], cols: 2)
+函数 #mi(`y = ax^{2} + bx`) 与 #mi(`y = \log_{\frac{|b|}{|a|}}x`)（#mi(`ab \neq 0`)，#mi(`|a| \neq |b|`)）在同一直角坐标系中的图象可能是（ ）
+  #choices([
+#align(center)[#image("/papers/2010/img/hunan_liberal/q8_optA_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/hunan_liberal/q8_optB_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/hunan_liberal/q8_optC_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/hunan_liberal/q8_optD_clean.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-对数函数的图象定义域为 $x>0$，且恒过点 $(1,0)$. 取 $a>0$、$b>0$ 且 $b<a$，例如 $a=2$、$b=1$，则对数函数的底数
+对数函数的图象定义域为 #mi(`x>0`)，且恒过点 #mi(`(1,0)`). 取 #mi(`a>0`)、#mi(`b>0`) 且 #mi(`b<a`)，例如 #mi(`a=2`)、#mi(`b=1`)，则对数函数的底数
 
-$ (|b|)/(|a|)=(1)/(2)<1 $
 
-所以其图象在 $x>0$ 上单调递减并经过 $(1,0)$. 同时
+#align(center)[#mitex(`
+\frac{|b|}{|a|}=\frac{1}{2}<1
+`)]
 
-$ y=a x^2+b x=x(a x+b) $
 
-是开口向上的抛物线，两个零点为 $0$ 和 $-(b)/(a)<0$. 这与选项 D 的图象特征相符，且满足 $a b != 0$、$|a| != |b|$. 故选 D.
+所以其图象在 #mi(`x>0`) 上单调递减并经过 #mi(`(1,0)`). 同时
+
+
+#align(center)[#mitex(`
+y=ax^{2}+bx=x(ax+b)
+`)]
+
+
+是开口向上的抛物线，两个零点为 #mi(`0`) 和 #mi(`-\dfrac{b}{a}<0`). 这与选项 D 的图象特征相符，且满足 #mi(`ab\ne0`)、#mi(`|a|\ne|b|`). 故选 D.
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-已知集合 $A = \{1, 2, 3\}$，$B = \{2, m, 4\}$，$A inter B = \{2, 3\}$，则 $m =$#blank(){}.
+已知集合 #mi(`A = \{1, 2, 3\}`)，#mi(`B = \{2, m, 4\}`)，#mi(`A \cap B = \{2, 3\}`)，则 #mi(`m =`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$3$])
+#answer([#mi(`3`)])
 
 #solution[
-由 $A inter B=\{2,3\}$，可知 $3 in B$. 集合 $B=\{2,m,4\}$ 中除 $m$ 外没有元素 $3$，故 $m=3$.
+由 #mi(`A\cap B=\{2,3\}`)，可知 #mi(`3\in B`). 集合 #mi(`B=\{2,m,4\}`) 中除 #mi(`m`) 外没有元素 #mi(`3`)，故 #mi(`m=3`).
 ]
 
 #problem(10)[
-已知一种材料的最佳加入量在 $100 ~g$ 到 $200 ~g$ 之间. 若用 $0.618$ 法安排实验，则第一次试点的加入量可以是#blank(){} $g$.
+已知一种材料的最佳加入量在 #mi(`100 \mathrm{~g}`) 到 #mi(`200 \mathrm{~g}`) 之间. 若用 #mi(`0.618`) 法安排实验，则第一次试点的加入量可以是\underline{\hspace{2.5em}} #mi(`\mathrm{g}`).
 ]
 
-#answer([$161.8$])
+#answer([#mi(`161.8`)])
 
 #solution[
-在区间 $[100,200]$ 内，按 $0.618$ 法取靠近上端点的第一个试点，则该试点把区间按比例 $0.618\c o l o n 0.382$ 分割，因此加入量为 $100+0.618(200-100)=100+61.8=161.8$. 所以填 $161.8$.
+在区间 #mi(`[100,200]`) 内，按 #mi(`0.618`) 法取靠近上端点的第一个试点，则该试点把区间按比例 #mi(`0.618\colon 0.382`) 分割，因此加入量为 #mi(`100+0.618(200-100)=100+61.8=161.8`). 所以填 #mi(`161.8`).
 ]
 
 #problem(11)[
-在区间 $[-1, 2]$ 上随机取一个数 $x$，则 $x in [0, 1]$ 的概率为#blank(){}.
+在区间 #mi(`[-1, 2]`) 上随机取一个数 #mi(`x`)，则 #mi(`x \in [0, 1]`) 的概率为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(3)$])
+#answer([#mi(`\frac{1}{3}`)])
 
 #solution[
-在区间 $[-1,2]$ 上随机取数时，取到各长度相同子区间的可能性相同. 总区间长度为 $2-(-1)=3$，满足 $x in [0,1]$ 的区间长度为 $1-0=1$，所以
+在区间 #mi(`[-1,2]`) 上随机取数时，取到各长度相同子区间的可能性相同. 总区间长度为 #mi(`2-(-1)=3`)，满足 #mi(`x\in[0,1]`) 的区间长度为 #mi(`1-0=1`)，所以
 
-$ P(x in [0,1])=(1)/(3) $
+
+#align(center)[#mitex(`
+P(x\in[0,1])=\frac{1}{3}
+`)]
 ]
 
 #problem(12)[
-下图是求实数 $x$ 的绝对值的算法程序框图，则判断框$"[1]"$中可填#blank(){}.
+下图是求实数 #mi(`x`) 的绝对值的算法程序框图，则判断框#mi(`①`) 中可填\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2010/img/hunan_liberal/q12_fig1.png", width: 40%)]
+#align(center)[#image("/papers/2010/img/hunan_liberal/q12_fig1.png", width: 28%)]
+
 ]
 
-#answer([$x >= 0$])
+#answer([#mi(`x\ge 0`)])
 
 #solution[
-程序在判断框中取“是”时输出 $x$，取“否”时输出 $-x$. 要使输出等于 $|x|$，当 $x >= 0$ 时应输出 $x$，当 $x<0$ 时应输出 $-x$. 因而判断框中应填 $x >= 0$.
+程序在判断框中取“是”时输出 #mi(`x`)，取“否”时输出 #mi(`-x`). 要使输出等于 #mi(`|x|`)，当 #mi(`x\geqslant0`) 时应输出 #mi(`x`)，当 #mi(`x<0`) 时应输出 #mi(`-x`). 因而判断框中应填 #mi(`x\geqslant0`).
 ]
 
 #problem(13)[
-图中的三个直角三角形是一个体积为 $20 ~c m^(3)$ 的几何体的三视图，则 $h=$#blank(){}$c m$.
+图中的三个直角三角形是一个体积为 #mi(`20 \mathrm{~cm}^{3}`) 的几何体的三视图，则 #mi(`h=`)\underline{\hspace{2.5em}}#mi(`\mathrm{cm}`).
 
 
-#align(center)[#image("/papers/2010/img/hunan_liberal/q13_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2010/img/hunan_liberal/q13_fig1.png", width: 28%)]
+
 ]
 
-#answer([$4$])
+#answer([#mi(`4`)])
 
 #solution[
-由三个三视图可知，该几何体为三条从同一顶点出发且两两垂直的棱长分别为 $h$、$5$、$6$ 的三棱锥. 以棱长为 $5$、$6$ 的直角三角形为底，底面积为
+由三个三视图可知，该几何体为三条从同一顶点出发且两两垂直的棱长分别为 #mi(`h`)、#mi(`5`)、#mi(`6`) 的三棱锥. 以棱长为 #mi(`5`)、#mi(`6`) 的直角三角形为底，底面积为
 
-$ S=(1)/(2) times 5 times 6 =15 $
 
-其高为 $h$，所以体积
+#align(center)[#mitex(`
+S=\frac{1}{2}\times5\times6=15
+`)]
 
-$ V=(1)/(3)S h=(1)/(3) times 15 h=5 h $
 
-由 $V=20$，得 $5 h=20$，从而 $h=4$.
+其高为 #mi(`h`)，所以体积
+
+
+#align(center)[#mitex(`
+V=\frac{1}{3}Sh=\frac{1}{3}\times15h=5h
+`)]
+
+
+由 #mi(`V=20`)，得 #mi(`5h=20`)，从而 #mi(`h=4`).
 ]
 
 #problem(14)[
-若不同两点 $P$，$Q$ 的坐标分别为 $(a, b)$，$(3 - b, 3 - a)$，则线段 $P Q$ 的垂直平分线 $l$ 的斜率为#blank(){}，圆 $(x - 2)^2 + (y - 3)^2 = 1$ 关于直线 $l$ 对称的圆的方程为#blank(){}.
+若不同两点 #mi(`P`)，#mi(`Q`) 的坐标分别为 #mi(`(a, b)`)，#mi(`(3 - b, 3 - a)`)，则线段 #mi(`PQ`) 的垂直平分线 #mi(`l`) 的斜率为\underline{\hspace{2.5em}}，圆 #mi(`(x - 2)^{2} + (y - 3)^{2} = 1`) 关于直线 #mi(`l`) 对称的圆的方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-1\)，\(x^2 + (y - 1)^2 = 1$])
+#answer([#mi(`-1`)，#mi(`x^{2} + (y - 1)^{2} = 1`)])
 
 #solution[
 由
 
-$ Q-P=(3-b-a,3-a-b)=(3-a-b,3-a-b) $
 
-因 $P != Q$，有 $3-a-b != 0$，所以直线 $P Q$ 的斜率为 $1$，其垂直平分线 $l$ 的斜率为 $-1$. 线段中点为
+#align(center)[#mitex(`
+Q-P=(3-b-a,3-a-b)=(3-a-b,3-a-b)
+`)]
 
-$ M((a+3-b)/(2),(b+3-a)/(2)) $
 
-满足 $x_M+y_M=3$. 因而 $l$ 的方程为 $x+y=3$.
+因 #mi(`P\ne Q`)，有 #mi(`3-a-b\ne0`)，所以直线 #mi(`PQ`) 的斜率为 #mi(`1`)，其垂直平分线 #mi(`l`) 的斜率为 #mi(`-1`). 线段中点为
 
-设原圆圆心为 $O(2,3)$. 点 $O$ 到直线 $x+y-3=0$ 的垂足为 $H(1,2)$，故关于 $l$ 的对称点为
 
-$ O'=2 H-O=(0,1) $
+#align(center)[#mitex(`
+M\left(\frac{a+3-b}{2},\frac{b+3-a}{2}\right)
+`)]
 
-反射不改变半径，所以所求圆的方程为 $x^2+(y-1)^2=1$.
+
+满足 #mi(`x_{M}+y_{M}=3`). 因而 #mi(`l`) 的方程为 #mi(`x+y=3`).
+
+设原圆圆心为 #mi(`O(2,3)`). 点 #mi(`O`) 到直线 #mi(`x+y-3=0`) 的垂足为 #mi(`H(1,2)`)，故关于 #mi(`l`) 的对称点为
+
+
+#align(center)[#mitex(`
+O'=2H-O=(0,1)
+`)]
+
+
+反射不改变半径，所以所求圆的方程为 #mi(`x^{2}+(y-1)^{2}=1`).
 ]
 
 #problem(15)[
-若规定 $E = \{a_(1), a_(2), ... , a_(10)\}$ 的子集 $\{a_(i_(1)), a_(i_(2)), ... , a_(i_(n))\}$ 为 $E$ 的第 $k$ 个子集，其中 $k = 2^(i_(1) - 1) + 2^(i_(2) - 1) + 2^(i_(3) - 1) + ... + 2^(i_(n) - 1)$，则
+若规定 #mi(`E = \{a_{1}, a_{2}, \dots, a_{10}\}`) 的子集 #mi(`\{a_{i_{1}}, a_{i_{2}}, \dots, a_{i_{n}}\}`) 为 #mi(`E`) 的第 #mi(`k`) 个子集，其中 #mi(`k = 2^{i_{1} - 1}+ 2^{i_{2} - 1}+ 2^{i_{3} - 1}+ \dots + 2^{i_{n} - 1}`)，则
 
-+ (1) $\{a_1, a_3\}$ 是 $E$ 的第#blank(){} 个子集；
-+ (2) $E$ 的第211个子集是#blank(){}.
+
++ (1)
 ]
 
-#answer([$5\)；\(\{a_(1), a_(2), a_(5), a_(7), a_(8)\}$])
+#answer([#mi(`5`)；#mi(`\{a_{1}, a_{2}, a_{5}, a_{7}, a_{8}\}`)])
 
 #solution[
-由题意，子集中的 $a_i$ 对应二进制权值 $2^(i-1)$. 因此
+由题意，子集中的 #mi(`a_{i}`) 对应二进制权值 #mi(`2^{i-1}`). 因此
 
-$ \{a_1,a_3\}\ "对应的编号"=2^(1-1)+2^(3-1)=1+4=5 $
+
+#align(center)[#mitex(`
+\{a_{1},a_{3}\}\ \text{\text{对应的编号}}=2^{1-1}+2^{3-1}=1+4=5
+`)]
+
 
 又
 
-$ 211=128+64+16+2+1=2^7+2^6+2^4+2^1+2^0 $
 
-所以第 $211$ 个子集为
+#align(center)[#mitex(`
+211=128+64+16+2+1=2^{7}+2^{6}+2^{4}+2^{1}+2^{0}
+`)]
 
-$ \{a_8,a_7,a_5,a_2,a_1\}=\{a_1,a_2,a_5,a_7,a_8\} $
+
+所以第 #mi(`211`) 个子集为
+
+
+#align(center)[#mitex(`
+\{a_{8},a_{7},a_{5},a_{2},a_{1}\}=\{a_{1},a_{2},a_{5},a_{7},a_{8}\}
+`)]
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-已知函数 $f(x) = sin 2 x - 2 sin ""^2 x$.
+已知函数 #mi(`f(x) = \sin 2x - 2\sin^{2} x`).
 
-+ (1) 求函数 $f(x)$ 的最小正周期；
-+ (2) 求函数 $f(x)$ 的最大值及 $f(x)$ 取最大值时 $x$ 的集合.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由 $2 sin ""^(2) x=1- cos 2 x$，得 $f(x)= sin 2 x+ cos 2 x-1=sqrt(2) sin (2 x+(pi)/(4))-1$. 因为正弦函数的角频率为 $2$，所以 $f(x)$ 的最小正周期为 $(2 pi)/(2)= pi$.
-+ (2) 由 $-1 <= sin (2 x+(pi)/(4)) <= 1$，得 $f(x)\l e q s l a n t s q r t(2)-1$，所以最大值为 $sqrt(2)-1$. 当且仅当 $sin (2 x+(pi)/(4))=1$ 时取到最大值，即 $2 x+(pi)/(4)=(pi)/(2)+2 k pi$，$k in ZZ$，解得 $x=k pi +(pi)/(8)$. 因此取最大值时 $x$ 的集合为 $\{k pi +(pi)/(8) | k in ZZ \}$.
++ (1)
 ]
 
 #problem(17)[
-为了对某课题进行研究，用分层抽样方法从三所高校 $A$，$B$，$C$ 的相关人员中，抽取若干人组成研究小组，有关数据见下表（单位：人）：
+为了对某课题进行研究，用分层抽样方法从三所高校 #mi(`A`)，#mi(`B`)，#mi(`C`) 的相关人员中，抽取若干人组成研究小组，有关数据见下表（单位：人）：
 
-\begin{center}
-\begin{tabular}{c|c|c}
 高校 & 相关人数 & 抽取人数 \\
+
 \hline
-$A$ & $18$ & $x$ \\
-$B$ & $36$ & $2$ \\
-$C$ & $54$ & $y$
-\end{tabular}
-\end{center}
+
+#mi(`A`) & #mi(`18`) & #mi(`x`) \\
+
+#mi(`B`) & #mi(`36`) & #mi(`2`) \\
+
+#mi(`C`) & #mi(`54`) & #mi(`y`)
 
 
-+ (1) 求 $x$，$y$.
-+ (2) 若从高校 B，C 抽取的人中选 2 人作专题发言，求这二人都来自高校 C 的概率.
++ (1)
 ]
 
 #solution[
-+ (1) 由分层抽样的等比例原则，得 $(x)/(18)=(2)/(36)=(y)/(54)$，所以 $x=1$，$y=3$.
-+ (2) 从高校 $B$，$C$ 抽取的人员中共有 $2+3=5$ 人，任取 $2$ 人的基本事件数为 $C_5^2=10$. 二人都来自高校 $C$ 的事件数为 $C_3^2=3$，故所求概率为 $P=(C_3^2)/(C_5^2)=(3)/(10)$.
++ (1)
 ]
 
 #problem(18)[
-如图所示，在长方体 $A B C D-A_(1)B_(1)C_(1)D_(1)$ 中，$A B = A D = 1$，$A A_(1) = 2$，$M$ 是棱 $CC_(1)$ 的中点.
-
-+ (1) 求异面直线 $A_(1)M$ 和 $C_(1)D_(1)$ 所成的角的正切值；
-+ (2) 证明：平面 $A B M bot$ 平面 $A_(1)B_(1)M$.
+如图所示，在长方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`AB = AD = 1`)，#mi(`AA_{1}= 2`)，#mi(`M`) 是棱 #mi(`CC_{1}`) 的中点.
 
 
++ (1) 
 
-#align(center)[#image("/papers/2010/img/hunan_liberal/q18_fig1.png", width: 45%)]
+
+
+
+#align(center)[#image("/papers/2010/img/hunan_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 建立空间直角坐标系，令 $A(0,0,0)$，$B(1,0,0)$，$D(0,1,0)$，$A_1(0,0,2)$，则 $C(1,1,0)$，$C_1(1,1,2)$，$D_1(0,1,2)$. 因为 $M$ 是棱 $CC_1$ 的中点，所以 $M(1,1,1)$. 于是 $arrow(A_(1) M)=(1,1,-1)$，$arrow(C_(1) D_1)=(-1,0,0)$. 设异面直线 $A_(1) M$ 和 $C_(1) D_1$ 所成的锐角为 $theta$，则
-
-$ cos theta =(|arrow(A_(1) M){ dot }arrow(C_(1) D_1)|)/(|arrow(A_(1) M)||arrow(C_(1) D_1)|)=(1)/(sqrt(3)) $
-
-因此 $tan theta =sqrt((1)/(cos ""^2 theta)-1)=sqrt(2)$.
-+ (2) 由 $arrow(A B)=(1,0,0)$，$arrow(A M)=(1,1,1)$，平面 $A B M$ 的一个法向量为
-
-$ bold(n)_1=arrow(A B)\t i m e s a r r o w(A M)=(0,-1,1) $
-
-又由 $arrow(A_(1) B_1)=(1,0,0)$，$arrow(A_(1) M)=(1,1,-1)$，平面 $A_(1) B_(1) M$ 的一个法向量为
-
-$ bold(n)_2=arrow(A_(1) B_1)\t i m e s a r r o w(A_(1) M)=(0,1,1) $
-
-因为 $bold(n)_1\c d o t b o l d(n)_2=0$，所以两平面的法向量互相垂直，从而平面 $A B M bot$ 平面 $A_(1) B_(1) M$.
++ (1)
 ]
 
 #problem(19)[
-为了考察冰川的融化状况，一支科考队在某冰川上相距 $8 ~k m$ 的 $A$，$B$ 两点各建一个考察基地. 视冰川面为平面形，以过 $A$，$B$ 两点的直线为 $x$ 轴，线段 $A B$ 的垂直平分线为 $y$ 轴建立平面直角坐标系（下图）. 考察范围到 $A$，$B$ 两点的距离之和不超过 $10 ~k m$ 的区域.
-
-+ (1) 求考察区域边界曲线的方程；
-+ (2) 如图所示，设线段 $P_(1)P_(2)$ 是冰川的部分边界线 （不考虑其他边界）. 当冰川融化时，边界线沿与其垂直的方向朝考察区域平行移动，第一年移动 $0.2 ~k m$. 以后每年移动的距离为前一年的 2 倍. 问：经过多长时间，点 $A$ 恰好在冰川边界线上？
+为了考察冰川的融化状况，一支科考队在某冰川上相距 #mi(`8 \mathrm{~km}`) 的 #mi(`A`)，#mi(`B`) 两点各建一个考察基地. 视冰川面为平面形，以过 #mi(`A`)，#mi(`B`) 两点的直线为 #mi(`x`) 轴，线段 #mi(`AB`) 的垂直平分线为 #mi(`y`) 轴建立平面直角坐标系（下图）. 考察范围到 #mi(`A`)，#mi(`B`) 两点的距离之和不超过 #mi(`10 \mathrm{~km}`) 的区域.
 
 
-#align(center)[#image("/papers/2010/img/hunan_liberal/q19_fig1.png", width: 38%)]
++ (1) 
+
+
+
+
+#align(center)[#image("/papers/2010/img/hunan_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由 $A(-4,0)$，$B(4,0)$，知椭圆的两个焦点为 $A$，$B$，焦距的一半为 $c=4$. 考察区域边界上任一点 $P(x,y)$ 满足 $P A+P B=10$，所以椭圆的长半轴为 $a=5$. 于是 $b^2=a^2-c^2=25-16=9$，故考察区域边界曲线的方程为 $(x^2)/(25)+(y^2)/(9)=1$.
-+ (2) 由图中两点 $P_1(-5,9)$，$P_2(-14,-3)$，得边界线 $P_(1) P_2$ 的斜率为 $(9-(-3))/(-5-(-14))=(4)/(3)$，故其方程为 $y-9=(4)/(3)(x+5)$，即 $4 x-3 y+47=0$. 点 $A(-4,0)$ 到该直线的距离为 $d=(|4 times (-4)-3 times 0 +47|)/(sqrt(4^2+(-3)^2))=(31)/(5)=6.2\ k m$. 设经过 $n$ 年边界线移动的总距离为 $s_n$，则
-
-$ s_n=0.2(1+2+2^2+ dots.c +2^(n-1))=0.2(2^n-1) $
-
-当点 $A$ 恰好在冰川边界线上时，$s_n=d$，所以 $0.2(2^n-1)=6.2$，即 $2^n=32$，解得 $n=5$. 因此经过 $5$ 年点 $A$ 恰好在冰川边界线上.
++ (1)
 ]
 
 #problem(20)[
 给出下面的数表序列：
 
-\begin{center}
-\begin{tabular}{cccc}
-表 1 & 表 2 & 表 3 & $dots.c$ \\
-$1$ & $1 3$ & $1$，$3$，$5$ & \\
-& $4$ & $4 8$ & \\
-& & $12$ &
-\end{tabular}
-\end{center}
+表 1 & 表 2 & 表 3 & #mi(`\cdots`) \\
 
-其中表 $n$（$n = 1$，$2$，$3$，$...$）有 $n$ 行，第1行的 $n$ 个数是 $1$，$3$，$5$，$...$，$2 n - 1$，从第2行起，每行中的每个数都等于它肩上的两数之和.
+#mi(`1`) & #mi(`1\quad 3`) & #mi(`1`)，#mi(`3`)，#mi(`5`) & \\
 
-+ (1) 写出表 4，验证表 4 各行中数的平均数按从上到下的顺序构成等比数列，并将结论推广到表 $n$（$n >= 3$） （不要求证明）；
-+ (2) 每个数列中最后一行都只有一个数，它们构成数列 1， 4， 12，…，记此数列为 $\{b_n\}$，求和： $(b_3)/(b_(1) b_2)+ (b_4)/(b_(2) b_3)+ dots.c + (b_(n+2))/(b_(n) b_(n+1))$（$n in bold(N)^*$）.
+& #mi(`4`) & #mi(`4\quad 8`) & \\
+
+& & #mi(`12`) &
+
+其中表 #mi(`n`)（#mi(`n = 1`)，#mi(`2`)，#mi(`3`)，#mi(`\dots`)）有 #mi(`n`) 行，第1行的 #mi(`n`) 个数是 #mi(`1`)，#mi(`3`)，#mi(`5`)，#mi(`\dots`)，#mi(`2n - 1`)，从第2行起，每行中的每个数都等于它肩上的两数之和.
+
+
++ (1)
 ]
 
 #solution[
-+ (1) 表 4 为
-\begin{center}
-\begin{tabular}{cccc}
-$1$ & $3$ & $5$ & $7$ \\
-$4$ & $8$ & $12$ & \\
-$12$ & $20$ & & \\
-$32$ & & &
-\end{tabular}
-\end{center}
-各行中数的平均数依次为 $4$，$8$，$16$，$32$，构成以 $2$ 为公比的等比数列. 对于表 $n$，设第 $r$ 行第 $i$ 个数为 $u_(r,i)$，则由相邻两数相加的递推关系可得
-$u_(r,i)=2^(r-1)(2 i+r-2)$，$1 <= i <= n-r+1$.
-所以第 $r$ 行的平均数为
-$(1)/(n-r+1)sum_(i=1)^(n-r+1)u_(r,i)=n2^(r-1)$，$r=1$，$2$，$\l d o t s$，$n$.
-因此表 $n$ 各行中数的平均数按从上到下的顺序构成首项为 $n$，公比为 $2$ 的等比数列.
-+ (2) 最后一行只有一个数，所以由上式知 $b_n=n2^(n-1)$. 因而
-
-$ (b_(k+2))/(b_(k) b_(k+1))=((k+2)2^(k+1))/(k2^(k-1)(k+1)2^k)=(2)/(k2^(k-2))-(2)/((k+1)2^(k-1)) $
-
-于是所求和为
-
-$ sum_(k=1)^(n)(b_(k+2))/(b_(k) b_(k+1))=sum_(k=1)^(n)((2)/(k2^(k-2))-(2)/((k+1)2^(k-1)))=(2)/(1 dot 2 ""^(-1))-(2)/((n+1)2^(n-1))=4-(1)/((n+1)2^(n-2)) $
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = (a)/(x)+ x + (a - 1) ln x + 15 a$，其中 $a < 0$，且 $a != -1$.
+已知函数 #mi(`f(x) = \frac{a}{x}+ x + (a - 1)\ln x + 15a`)，其中 #mi(`a < 0`)，且 #mi(`a \neq -1`).
 
-+ (1) 讨论函数 $f(x)$ 的单调性；
-+ (2) 设函数 $g(x) = \b e g i n{c a s e s} (-2 x^3 + 3 a x^2 + 6 a x - 4 a^2 - 6 a) e ""^x, & x <= 1 ,\\ e dot f(x), & x > 1, \e n d{c a s e s}$ （$e$ 是自然数的底数）. 是否存在 $a$，使 $g(x)$ 在 $[a, -a]$ 上为减函数？若存在，求 $a$ 的取值范围；若不存在，请说明理由.
+
++ (1)
 ]
 
 #solution[
-+ (1) 函数 $f(x)$ 的定义域为 $x>0$，且
-
-$ f'(x)=-(a)/(x^2)+1+(a-1)/(x)=(x^2+(a-1)x-a)/(x^2)=((x-1)(x+a))/(x^2) $
-
-当 $-1<a<0$ 时，$0<-a<1$. 因为 $x^2>0$，所以 $f'(x)$ 在 $(0,-a)$、$(1,+ oo )$ 上为正，在 $(-a,1)$ 上为负. 因此 $f(x)$ 在 $(0,-a)$、$(1,+ oo )$ 上单调递增，在 $(-a,1)$ 上单调递减.
-
-当 $a<-1$ 时，$1<-a$. 同理，$f'(x)$ 在 $(0,1)$、$(-a,+ oo )$ 上为正，在 $(1,-a)$ 上为负. 因此 $f(x)$ 在 $(0,1)$、$(-a,+ oo )$ 上单调递增，在 $(1,-a)$ 上单调递减.
-+ (2) 记
-
-$ P(x)=-2 x^3+3 a x^2+6 a x-4 a^2-6 a $
-
-当 $x<1$ 时，$g(x)=P(x) e ""^x$，从而
-
-$ g'(x)= e ""^x(P(x)+P'(x))= e ""^(x) Q(x) $
-
-其中
-
-$ Q(x)=-2 x^3+(3 a-6)x^2+12 a x-4 a^2 $
-
-又
-
-$ Q'(x)=-6(x+2)(x-a) $
-
-若 $a>-2$，则 $Q(a)=a^2(a+2)>0$，所以 $g'(x)$ 在 $a$ 的右侧为正，$g$ 不可能在 $[a,-a]$ 上为减函数. 因而必须有 $a <= -2$.
-
-在 $x=1$ 处，左侧函数值为 $g(1)= e (-4 a^2+3 a-2)$，而右侧极限为 $lim_(x -> 1 +)g(x)= e f(1)= e (1+16 a)$. 若 $g$ 在 $[a,-a]$ 上为减函数，必须满足
-
-$ g(1)-lim_(x -> 1 +)g(x)=- e (4 a+1)(a+3) >= 0 $
-
-结合 $a <= -2$ 时 $4 a+1<0$，可得 $a >= -3$. 因而必要条件为 $-3 <= a <= -2$.
-
-下面验证充分性. 当 $-3 <= a <= -2$ 时，在区间 $[a,1]$ 上有 $x-a >= 0$，且 $Q'(x) >= 0$（$a <= x <= -2$），$Q'(x) <= 0$（$-2 <= x <= 1$），所以 $Q(x)$ 在 $x=-2$ 处取得最大值. 又
-
-$ Q(-2)=-4(a+1)(a+2) <= 0 $
-
-故 $Q(x) <= 0$，从而 $g'(x) <= 0$. 在 $1<x <= -a$ 时，$g(x)= e f(x)$，且
-
-$ g'(x)= e f'(x)= e ((x-1)(x+a))/(x^2) <= 0 $
-
-同时上面的函数值比较保证了 $g$ 在 $x=1$ 处没有向上跳跃. 因此 $g(x)$ 在 $[a,-a]$ 上为减函数. 所以存在这样的 $a$，其取值范围为 $a in [-3,-2]$.
++ (1)
 ]
 

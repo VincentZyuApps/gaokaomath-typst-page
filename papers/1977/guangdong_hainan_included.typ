@@ -81,7 +81,9 @@ x^{2}+x-6+x^{2}+3x+2-x^{2}+4=x^{2}+4x=x\left(x+4\right)=0
 #problem(5)[
 已知小山上的电视发射塔 #mi(`AB`) 的高是 #mi(`50\text{ \text{米}}`)，自山下地面的 #mi(`C`) 点测得塔底 #mi(`B`) 的仰角是 #mi(`40^{\circ}`)，塔顶 #mi(`A`) 的仰角是 #mi(`70^{\circ}`)，求小山 #mi(`BD`) 的高. （精确到 #mi(`0.01\text{ \text{米}}`)，且 #mi(`\sin40^{\circ}=0.643`)，#mi(`\sin20^{\circ}=0.342`)）
 
-[max width=6.0cm]img/1977/guangdong_hainan_included/q5_fig1.png
+
+#align(center)[#image("/papers/1977/img/guangdong_hainan_included/q5_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -111,7 +113,9 @@ BD=BC\sin40^{\circ}=100\sin20^{\circ}\sin40^{\circ}=100\times0.342\times0.643=21
 #problem(6)[
 如图，已知 #mi(`AE`) 和 #mi(`AF`) 是 #mi(`\odot O`) 的切线，#mi(`M`)、#mi(`N`) 是切点，#mi(`EF`) 过圆心且垂直于 #mi(`AO`). 求证：#mi(`AE=AF`).
 
-[max width=4.8cm]img/1977/guangdong_hainan_included/q6_fig1.png
+
+#align(center)[#image("/papers/1977/img/guangdong_hainan_included/q6_fig1.png", width: 28%)]
+
 ]
 
 #solution[

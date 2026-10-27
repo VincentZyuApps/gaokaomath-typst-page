@@ -96,7 +96,9 @@
 #problem(6)[
 如图，网格纸上小正方形的边长为 #mi(`1`)，粗实线画出的是某几何体的三视图，该几何体由一平面将一圆柱截去一部分后所得，则该几何体的体积为（ ）
 
-[float=inline,width=0.68\linewidth]img/2017/national_paper_2_liberal/q6_fig1.png
+
+#align(center)[#image("/papers/2017/img/national_paper_2_liberal/q6_fig1.png", width: 28%)]
+
 
 \FloatBarrier
   #choices([#mi(`90\pi`)], [#mi(`63\pi`)], [#mi(`42\pi`)], [#mi(`36\pi`)], cols: 4)
@@ -188,7 +190,9 @@ f'(x)=\frac{2x-2}{x^{2}-2x-8}=\frac{2(x-1)}{(x-4)(x+2)}
 #problem(10)[
 执行如图的程序框图，如果输入的 #mi(`a=-1`)，则输出的 #mi(`S=`)（ ）
 
-[float=inline,width=0.68\linewidth]img/2017/national_paper_2_liberal/q10_fig1.png
+
+#align(center)[#image("/papers/2017/img/national_paper_2_liberal/q10_fig1.png", width: 28%)]
+
 
 \FloatBarrier
   #choices([#mi(`2`)], [#mi(`3`)], [#mi(`4`)], [#mi(`5`)], cols: 4)
@@ -251,7 +255,7 @@ f'(x)=\frac{2x-2}{x^{2}-2x-8}=\frac{2(x-1)}{(x-4)(x+2)}
 
 
 #align(center)[#mitex(`
-\frac{|\sqrt{3}\cdot3+2\sqrt{3}-\sqrt{3|}}{\sqrt{(\sqrt{3})^{2}+1^{2}}}=2\sqrt{3}
+\frac{|\sqrt{3}\cdot3+2\sqrt{3}-\sqrt{3}|}{\sqrt{(\sqrt{3})^{2}+1^{2}}}=2\sqrt{3}
 `)]
 
 
@@ -347,7 +351,9 @@ a\cos C+c\cos A  =\frac{a^{2}+b^{2}-c^{2}}{2b}+\frac{b^{2}+c^{2}-a^{2}}{2b}=b
 
 
 
-[float=inline,width=8.5cm]img/2017/national_paper_2_liberal/q18_fig1.png
+
+#align(center)[#image("/papers/2017/img/national_paper_2_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -389,7 +395,9 @@ a\cos C+c\cos A  =\frac{a^{2}+b^{2}-c^{2}}{2b}+\frac{b^{2}+c^{2}-a^{2}}{2b}=b
 
 附：#mi(`K^{2}=\dfrac{n(ad-bc)^2}{(a+b)(c+d)(a+c)(b+d)}`).
 
-[float=inline,width=0.80\linewidth]img/2017/national_paper_2_liberal/q19_fig1.png
+
+#align(center)[#image("/papers/2017/img/national_paper_2_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

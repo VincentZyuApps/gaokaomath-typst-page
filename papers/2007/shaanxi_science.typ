@@ -145,7 +145,15 @@ V=\frac{1}{3}\cdot\frac{3\sqrt{3}}{4}\cdot1=\frac{\sqrt{3}}{4}
 
 #problem(8)[
 若函数 #mi(`f(x)`) 的反函数为 #mi(`f^{-1}(x)`)，则函数 #mi(`f(x - 1)`) 与 #mi(`f^{-1}(x - 1)`) 的图象可能是（ ）
-  #choices([[width=0.15\paperwidth]img/2007/shaanxi_science/q8_optA_fixed.png], [[width=0.15\paperwidth]img/2007/shaanxi_science/q8_optB_fixed.png], [[width=0.15\paperwidth]img/2007/shaanxi_science/q8_optC_fixed.png], [[width=0.15\paperwidth]img/2007/shaanxi_science/q8_optD_fixed.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2007/img/shaanxi_science/q8_optA_fixed.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2007/img/shaanxi_science/q8_optB_fixed.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2007/img/shaanxi_science/q8_optC_fixed.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2007/img/shaanxi_science/q8_optD_fixed.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
@@ -173,9 +181,9 @@ V=\frac{1}{3}\cdot\frac{3\sqrt{3}}{4}\cdot1=\frac{\sqrt{3}}{4}
 #answer([B])
 
 #solution[
-命题#mi(`①`)不正确. 例如取 #mi(`a=1`)，#mi(`b=2`)，#mi(`c=1`)，#mi(`d=2`)，则 #mi(`ad=bc=2`)，但相邻三项的比值依次为 #mi(`2`)，#mi(`\frac{1}{2}`)，#mi(`2`)，不是等比数列.
+命题#mi(`①`) 不正确. 例如取 #mi(`a=1`)，#mi(`b=2`)，#mi(`c=1`)，#mi(`d=2`)，则 #mi(`ad=bc=2`)，但相邻三项的比值依次为 #mi(`2`)，#mi(`\frac{1}{2}`)，#mi(`2`)，不是等比数列.
 
-命题#mi(`②`)不正确. 例如取 #mi(`a=-1`)，#mi(`b=1`)，则 #mi(`ab\neq0`)，且 #mi(`\frac{a}{b}=-1<1`)，但 #mi(`\frac{b}{a}=-1`) 不大于 #mi(`1`).
+命题#mi(`②`) 不正确. 例如取 #mi(`a=-1`)，#mi(`b=1`)，则 #mi(`ab\neq0`)，且 #mi(`\frac{a}{b}=-1<1`)，但 #mi(`\frac{b}{a}=-1`) 不大于 #mi(`1`).
 
 第三个命题正确. 对定义域内任意 #mi(`x\neq0`)，有
 
@@ -296,7 +304,9 @@ z\le x+2\cdot\frac{x+4}{2}=2x+4\leqslant8
 #problem(15)[
 如图，平面内有三个向量 #mi(`\overrightarrow{OA}`)，#mi(`\overrightarrow{OB}`)，#mi(`\overrightarrow{OC}`)，其中 #mi(`\overrightarrow{OA}`) 与 #mi(`\overrightarrow{OB}`) 的夹角为 #mi(`120^{\circ}`)，#mi(`\overrightarrow{OA}`) 与 #mi(`\overrightarrow{OC}`) 的夹角为 #mi(`30^{\circ}`)，且 #mi(`\left|\overrightarrow{OA}\right| = \left|\overrightarrow{OB}\right| = 1`)，#mi(`\left|\overrightarrow{OC}\right| = 2\sqrt{3}`). 若 #mi(`\overrightarrow{OC}= \lambda \overrightarrow{OA}+ \mu \overrightarrow{OB}`)（#mi(`\lambda`)，#mi(`\mu \in \mathbb{R}`)），则 #mi(`\lambda + \mu`) 的值为\underline{\hspace{2.5em}}.
 
-[max width=0.34\linewidth]img/2007/shaanxi_science/q15_fig1.png
+
+#align(center)[#image("/papers/2007/img/shaanxi_science/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`6`)])
@@ -386,7 +396,9 @@ z\le x+2\cdot\frac{x+4}{2}=2x+4\leqslant8
 
 
 
-[max width=0.32\linewidth]img/2007/shaanxi_science/q19_fig1.png
+
+#align(center)[#image("/papers/2007/img/shaanxi_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

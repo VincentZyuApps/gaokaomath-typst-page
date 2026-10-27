@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,193 +11,253 @@
 #part-header("单选题")
 
 #problem(1)[
-设集合 $M = \{(x, y) | x^2 + y^2 = 1, x in RR , y in RR \}$，$N = \{(x, y) | x^2 - y = 0, x in RR , y in RR \}$，则集合 $M inter N$ 中元素的个数为（ ）
-  #choices([$1$], [$2$], [$3$], [$4$], cols: 4)
+设集合 #mi(`M = \{(x, y) \mid x^{2} + y^{2} = 1, x \in \mathbb{R}, y \in \mathbb{R}\}`)，#mi(`N = \{(x, y) \mid x^{2} - y = 0, x \in \mathbb{R}, y \in \mathbb{R}\}`)，则集合 #mi(`M \cap N`) 中元素的个数为（ ）
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`3`)], [#mi(`4`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-集合 $M inter N$ 中的点同时满足 $x^2+y^2=1$ 与 $y=x^2$. 代入得
+集合 #mi(`M\cap N`) 中的点同时满足 #mi(`x^{2}+y^{2}=1`) 与 #mi(`y=x^{2}`). 代入得
 
-$ x^2+x^4=1 $
 
-令 $u=x^2$，则 $u >= 0$，且 $u^2+u-1=0$. 其根为 $u=(-1+sqrt(5))/(2)$ 与 $u=(-1-sqrt(5))/(2)$，只有前者非负，因此 $x$ 有两个相反的实数值；又 $y=x^2$ 随之唯一确定. 所以交集中有 $2$ 个元素，故选 B.
+#align(center)[#mitex(`
+x^{2}+x^{4}=1
+`)]
+
+
+令 #mi(`u=x^{2}`)，则 #mi(`u\geqslant0`)，且 #mi(`u^{2}+u-1=0`). 其根为 #mi(`u=\frac{-1+\sqrt{5}}{2}`) 与 #mi(`u=\frac{-1-\sqrt{5}}{2}`)，只有前者非负，因此 #mi(`x`) 有两个相反的实数值；又 #mi(`y=x^{2}`) 随之唯一确定. 所以交集中有 #mi(`2`) 个元素，故选 B.
 ]
 
 #problem(2)[
-函数 $y = | sin (x)/(2)|$ 的最小正周期是（ ）
-  #choices([$(pi)/(2)$], [$pi$], [$2 pi$], [$4 pi$], cols: 4)
+函数 #mi(`y = \left|\sin \frac{x}{2}\right|`) 的最小正周期是（ ）
+  #choices([#mi(`\frac{\pi}{2}`)], [#mi(`\pi`)], [#mi(`2\pi`)], [#mi(`4\pi`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-当 $x$ 增加 $2 pi$ 时，$| sin (x+2 pi)/(2)|=| sin ((x)/(2)+ pi )|=| sin (x)/(2)|$，所以 $2 pi$ 是一个正周期. 若 $T>0$ 是任意正周期，则由 $f(0)=0$ 得 $f(T)=| sin (T)/(2)|=0$，从而 $(T)/(2)=k pi$，其中正整数 $k >= 1$. 因此 $T=2 k pi >= 2 pi$，最小正周期为 $2 pi$，故选 C.
+当 #mi(`x`) 增加 #mi(`2\pi`) 时，#mi(`\left|\sin\frac{x+2\pi}{2}\right|=\left|\sin\left(\frac{x}{2}+\pi\right)\right|=\left|\sin\frac{x}{2}\right|`)，所以 #mi(`2\pi`) 是一个正周期. 若 #mi(`T>0`) 是任意正周期，则由 #mi(`f(0)=0`) 得 #mi(`f(T)=\left|\sin\frac{T}{2}\right|=0`)，从而 #mi(`\frac{T}{2}=k\pi`)，其中正整数 #mi(`k\geqslant1`). 因此 #mi(`T=2k\pi\geqslant2\pi`)，最小正周期为 #mi(`2\pi`)，故选 C.
 ]
 
 #problem(3)[
-记函数 $y = 1 + 3^(-x)$ 的反函数为 $y = g(x)$，则 $g(10) =$（ ）
-  #choices([$2$], [$-2$], [$3$], [$-1$], cols: 4)
+记函数 #mi(`y = 1 + 3^{-x}`) 的反函数为 #mi(`y = g(x)`)，则 #mi(`g(10) =`)（ ）
+  #choices([#mi(`2`)], [#mi(`-2`)], [#mi(`3`)], [#mi(`-1`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-函数 $y=1+3^(-x)$ 严格递减，故存在反函数. 令 $y=10$，则
+函数 #mi(`y=1+3^{-x}`) 严格递减，故存在反函数. 令 #mi(`y=10`)，则
 
-$ 1+3^(-x)=10\L o n g r i g h t a r r o w 3^(-x)=9=3^2\L o n g r i g h t a r r o w -x=2\L o n g r i g h t a r r o w x=-2 $
 
-反函数满足 $g(10)=-2$，故选 B.
+#align(center)[#mitex(`
+1+3^{-x}=10\Longrightarrow 3^{-x}=9=3^{2}\Longrightarrow -x=2\Longrightarrow x=-2
+`)]
+
+
+反函数满足 #mi(`g(10)=-2`)，故选 B.
 ]
 
 #problem(4)[
-等比数列 $\{a_(n)\}$ 中，$a_(2) = 9$，$a_(5) = 243$，则 $\{a_(n)\}$ 的前 $4$ 项和为（ ）
-  #choices([$81$], [$120$], [$168$], [$192$], cols: 4)
+等比数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{2}= 9`)，#mi(`a_{5}= 243`)，则 #mi(`\{a_{n}\}`) 的前 #mi(`4`) 项和为（ ）
+  #choices([#mi(`81`)], [#mi(`120`)], [#mi(`168`)], [#mi(`192`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-设等比数列的公比为 $q$. 由 $a_5=a_(2) q^3$ 得
+设等比数列的公比为 #mi(`q`). 由 #mi(`a_{5}=a_{2}q^{3}`) 得
 
-$ 9 q^3=243\L o n g r i g h t a r r o w q^3=27\L o n g r i g h t a r r o w q=3 $
 
-于是 $a_1=(a_2)/(q)=3$，前四项为 $3$，$9$，$27$，$81$，其和为
+#align(center)[#mitex(`
+9q^{3}=243\Longrightarrow q^{3}=27\Longrightarrow q=3
+`)]
 
-$ 3+9+27+81=120 $
+
+于是 #mi(`a_{1}=\frac{a_{2}}{q}=3`)，前四项为 #mi(`3`)，#mi(`9`)，#mi(`27`)，#mi(`81`)，其和为
+
+
+#align(center)[#mitex(`
+3+9+27+81=120
+`)]
+
 
 故选 B.
 ]
 
 #problem(5)[
-圆 $x^(2) + y^(2) - 4 x = 0$ 在点 $P(1, sqrt(3))$ 处的切线方程为（ ）
-  #choices([$x + sqrt(3)y - 2 = 0$], [$x + sqrt(3)y - 4 = 0$], [$x - sqrt(3)y + 4 = 0$], [$x - sqrt(3)y + 2 = 0$], cols: 2)
+圆 #mi(`x^{2}+ y^{2}- 4x = 0`) 在点 #mi(`P(1, \sqrt{3})`) 处的切线方程为（ ）
+  #choices([#mi(`x + \sqrt{3}y - 2 = 0`)], [#mi(`x + \sqrt{3}y - 4 = 0`)], [#mi(`x - \sqrt{3}y + 4 = 0`)], [#mi(`x - \sqrt{3}y + 2 = 0`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-圆方程化为 $(x-2)^2+y^2=4$，圆心为 $C(2,0)$. 半径 $C P$ 的方向向量为 $(-1,sqrt(3))$，切线方向与其垂直，因此切线方程可写为
+圆方程化为 #mi(`(x-2)^{2}+y^{2}=4`)，圆心为 #mi(`C(2,0)`). 半径 #mi(`CP`) 的方向向量为 #mi(`(-1,\sqrt{3})`)，切线方向与其垂直，因此切线方程可写为
 
-$ -(x-1)+sqrt(3)(y-sqrt(3))=0 $
 
-即 $x-sqrt(3)y+2=0$. 故选 D.
+#align(center)[#mitex(`
+-(x-1)+\sqrt{3}(y-\sqrt{3})=0
+`)]
+
+
+即 #mi(`x-\sqrt{3}y+2=0`). 故选 D.
 ]
 
 #problem(6)[
-$(sqrt(x)-(1)/(x))^6$ 展开式中的常数项为（ ）
-  #choices([$15$], [$-15$], [$20$], [$-20$], cols: 4)
+#mi(`\left(\sqrt{x}-\frac{1}{x}\right)^{6}`) 展开式中的常数项为（ ）
+  #choices([#mi(`15`)], [#mi(`-15`)], [#mi(`20`)], [#mi(`-20`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-设从 $-(1)/(x)$ 中取 $k$ 项，其中 $k=0$，$1$，$\l d o t s$，$6$. 展开式的通项为
+设从 #mi(`-\frac{1}{x}`) 中取 #mi(`k`) 项，其中 #mi(`k=0`)，#mi(`1`)，#mi(`\ldots`)，#mi(`6`). 展开式的通项为
 
-$ C_6^k(sqrt(x))^(6-k)(-(1)/(x))^k =C_6^k(-1)^k x^(3-(3 k)/(2)) $
 
-成为常数项需 $3-(3 k)/(2)=0$，所以 $k=2$. 常数项为 $C_6^2(-1)^2=15$，故选 A.
+#align(center)[#mitex(`
+\mathrm{C}_{6}^{k}(\sqrt{x})^{6-k}\left(-\frac{1}{x}\right)^{k}  =\mathrm{C}_{6}^{k}(-1)^{k} x^{3-\frac{3k}{2}}
+`)]
+
+
+成为常数项需 #mi(`3-\frac{3k}{2}=0`)，所以 #mi(`k=2`). 常数项为 #mi(`\mathrm{C}_{6}^{2}(-1)^{2}=15`)，故选 A.
 ]
 
 #problem(7)[
-设复数 $z$ 的辐角的主值为 $(2 pi)/(3)$，虚部为 $sqrt(3)$，则 $z^2 =$（ ）
-  #choices([$-2 - 2 sqrt(3) i$], [$-2 sqrt(3)- 2 i$], [$2 + 2 sqrt(3) i$], [$2 sqrt(3)+ 2 i$], cols: 2)
+设复数 #mi(`z`) 的辐角的主值为 #mi(`\frac{2\pi}{3}`)，虚部为 #mi(`\sqrt{3}`)，则 #mi(`z^{2} =`)（ ）
+  #choices([#mi(`-2 - 2\sqrt{3}\mathrm{i}`)], [#mi(`-2\sqrt{3}- 2\mathrm{i}`)], [#mi(`2 + 2\sqrt{3}\mathrm{i}`)], [#mi(`2\sqrt{3}+ 2\mathrm{i}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-设 $z=r( cos (2 pi)/(3)+ i sin (2 pi)/(3))$. 由虚部为 $sqrt(3)$，得
+设 #mi(`z=r\left(\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3}\right)`). 由虚部为 #mi(`\sqrt{3}`)，得
 
-$ r sin (2 pi)/(3)=r(sqrt(3))/(2)=sqrt(3)\L o n g r i g h t a r r o w r=2 $
 
-所以 $z=-1+sqrt(3) i$，从而
+#align(center)[#mitex(`
+r\sin\frac{2\pi}{3}=r\frac{\sqrt{3}}{2}=\sqrt{3}\Longrightarrow r=2
+`)]
 
-$ z^2=(-1+sqrt(3) i )^2=1-2 sqrt(3) i -3=-2-2 sqrt(3) i $
+
+所以 #mi(`z=-1+\sqrt{3}\mathrm{i}`)，从而
+
+
+#align(center)[#mitex(`
+z^{2}=(-1+\sqrt{3}\mathrm{i})^{2}=1-2\sqrt{3}\mathrm{i}-3=-2-2\sqrt{3}\mathrm{i}
+`)]
+
 
 故选 A.
 ]
 
 #problem(8)[
-设双曲线的焦点在 $x$ 轴上，两条渐近线为 $y = +- (1)/(2)x$，则该双曲线的离心率 $e =$（ ）
-  #choices([$5$], [$sqrt(5)$], [$(sqrt(5))/(2)$], [$(5)/(4)$], cols: 4)
+设双曲线的焦点在 #mi(`x`) 轴上，两条渐近线为 #mi(`y = \pm \frac{1}{2}x`)，则该双曲线的离心率 #mi(`e =`)（ ）
+  #choices([#mi(`5`)], [#mi(`\sqrt{5}`)], [#mi(`\frac{\sqrt{5}}{2}`)], [#mi(`\frac{5}{4}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设双曲线方程为 $(x^2)/(a^2)-(y^2)/(b^2)=1$，其中焦点在 $x$ 轴上. 其渐近线为 $y= +- (b)/(a)x$，故 $(b)/(a)=(1)/(2)$. 又 $c^2=a^2+b^2$，所以
+设双曲线方程为 #mi(`\frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1`)，其中焦点在 #mi(`x`) 轴上. 其渐近线为 #mi(`y=\pm\frac{b}{a}x`)，故 #mi(`\frac{b}{a}=\frac{1}{2}`). 又 #mi(`c^{2}=a^{2}+b^{2}`)，所以
 
-$ e=(c)/(a)=sqrt(1+(b^2)/(a^2))=(sqrt(5))/(2) $
+
+#align(center)[#mitex(`
+e=\frac{c}{a}=\sqrt{1+\frac{b^{2}}{a^{2}}}=\frac{\sqrt{5}}{2}
+`)]
+
 
 故选 C.
 ]
 
 #problem(9)[
-不等式 $1 < |x + 1| < 3$ 的解集为（ ）
-  #choices([$(0,2)$], [$(-2,0) union (2,4)$], [$(-4,0)$], [$(-4, -2) union (0, 2)$], cols: 2)
+不等式 #mi(`1 < |x + 1| < 3`) 的解集为（ ）
+  #choices([#mi(`(0,2)`)], [#mi(`(-2,0) \cup (2,4)`)], [#mi(`(-4,0)`)], [#mi(`(-4, -2) \cup (0, 2)`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由 $1<|x+1|<3$ 分两种情况：
+由 #mi(`1<|x+1|<3`) 分两种情况：
 
-$ 1<x+1<3 "或"-3<x+1<-1 $
 
-分别解得 $0<x<2$ 或 $-4<x<-2$. 因此解集为 $(-4,-2) union (0,2)$，故选 D.
+#align(center)[#mitex(`
+1<x+1<3\quad\text{\text{或}}\quad -3<x+1<-1
+`)]
+
+
+分别解得 #mi(`0<x<2`) 或 #mi(`-4<x<-2`). 因此解集为 #mi(`(-4,-2)\cup(0,2)`)，故选 D.
 ]
 
 #problem(10)[
-正三棱锥的底面边长为 $2$，侧面均为直角三角形，则此三棱锥的体积为（ ）
-  #choices([$(2 sqrt(2))/(3)$], [$sqrt(2)$], [$(sqrt(2))/(3)$], [$(4 sqrt(2))/(3)$], cols: 2)
+正三棱锥的底面边长为 #mi(`2`)，侧面均为直角三角形，则此三棱锥的体积为（ ）
+  #choices([#mi(`\frac{2\sqrt{2}}{3}`)], [#mi(`\sqrt{2}`)], [#mi(`\frac{\sqrt{2}}{3}`)], [#mi(`\frac{4\sqrt{2}}{3}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-正三棱锥的底面是边长为 $2$ 的正三角形，且三条侧棱相等. 因而每个侧面为等腰直角三角形；其底边不能是直角边，只能是斜边，故两条侧棱长均为 $sqrt(2)$. 设底面中心为 $O$，顶点为 $P$，则
-$O A=(2 sqrt(3))/(3)$，$P A=sqrt(2)$，
+正三棱锥的底面是边长为 #mi(`2`) 的正三角形，且三条侧棱相等. 因而每个侧面为等腰直角三角形；其底边不能是直角边，只能是斜边，故两条侧棱长均为 #mi(`\sqrt{2}`). 设底面中心为 #mi(`O`)，顶点为 #mi(`P`)，则
+
+#mi(`OA=\frac{2\sqrt{3}}{3}`)，#mi(`PA=\sqrt{2}`)，
+
 所以棱锥高
 
-$ P O=sqrt(P A^2-O A^2)=sqrt(2-(4)/(3))=sqrt((2)/(3)) $
 
-底面积为 $(sqrt(3))/(4) dot 2 ""^2=sqrt(3)$，故体积
+#align(center)[#mitex(`
+PO=\sqrt{PA^{2}-OA^{2}}=\sqrt{2-\frac{4}{3}}=\sqrt{\frac{2}{3}}
+`)]
 
-$ V=(1)/(3)\c d o t s q r t(3)\c d o t s q r t((2)/(3))=(sqrt(2))/(3) $
+
+底面积为 #mi(`\frac{\sqrt{3}}{4}\cdot2^{2}=\sqrt{3}`)，故体积
+
+
+#align(center)[#mitex(`
+V=\frac{1}{3}\cdot\sqrt{3}\cdot\sqrt{\frac{2}{3}}=\frac{\sqrt{2}}{3}
+`)]
+
 
 故选 C.
 ]
 
 #problem(11)[
-在 $triangle A B C$ 中，$A B = 3$，$B C = sqrt(13)$，$A C = 4$，则边 $A C$ 上的高为（ ）
-  #choices([$(3 sqrt(2))/(2)$], [$(3 sqrt(3))/(2)$], [$(3)/(2)$], [$3 sqrt(3)$], cols: 2)
+在 #mi(`\triangle ABC`) 中，#mi(`AB = 3`)，#mi(`BC = \sqrt{13}`)，#mi(`AC = 4`)，则边 #mi(`AC`) 上的高为（ ）
+  #choices([#mi(`\frac{3\sqrt{2}}{2}`)], [#mi(`\frac{3\sqrt{3}}{2}`)], [#mi(`\frac{3}{2}`)], [#mi(`3\sqrt{3}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-设 $B$ 到 $A C$ 的垂足为 $H$，令 $A H=t$，高 $B H=h$. 由 $A B=3$、$B C=sqrt(13)$、$A C=4$，有
-$t^2+h^2=9$，$(4-t)^2+h^2=13$.
-两式相减得 $16-8 t=4$，所以 $t=(3)/(2)$. 代回得
+设 #mi(`B`) 到 #mi(`AC`) 的垂足为 #mi(`H`)，令 #mi(`AH=t`)，高 #mi(`BH=h`). 由 #mi(`AB=3`)、#mi(`BC=\sqrt{13}`)、#mi(`AC=4`)，有
 
-$ h^2=9-((3)/(2))^2=(27)/(4) $
+#mi(`t^{2}+h^{2}=9`)，#mi(`(4-t)^{2}+h^{2}=13`).
 
-故 $h=(3 sqrt(3))/(2)$，选 B.
+两式相减得 #mi(`16-8t=4`)，所以 #mi(`t=\frac{3}{2}`). 代回得
+
+
+#align(center)[#mitex(`
+h^{2}=9-\left(\frac{3}{2}\right)^{2}=\frac{27}{4}
+`)]
+
+
+故 #mi(`h=\frac{3\sqrt{3}}{2}`)，选 B.
 ]
 
 #problem(12)[
-将 $4$ 名教师分配到 $3$ 所中学任教，每所中学至少 $1$ 名，则不同的分配方案共有（ ）
-  #choices([$12$ 种], [$24$ 种], [$36$ 种], [$48$ 种], cols: 4)
+将 #mi(`4`) 名教师分配到 #mi(`3`) 所中学任教，每所中学至少 #mi(`1`) 名，则不同的分配方案共有（ ）
+  #choices([#mi(`12`) 种], [#mi(`24`) 种], [#mi(`36`) 种], [#mi(`48`) 种], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-4 名教师分别选择 3 所有区别的中学，先不考虑“每所至少 1 名”的条件共有 $3^4$ 种. 若有一所中学无人，则有 $C_3^1 2^4$ 种；若有两所中学无人，则有 $C_3^2$ 种. 由容斥原理，所求方案数为
+4 名教师分别选择 3 所有区别的中学，先不考虑“每所至少 1 名”的条件共有 #mi(`3^{4}`) 种. 若有一所中学无人，则有 #mi(`\mathrm{C}_{3}^{1} 2^{4}`) 种；若有两所中学无人，则有 #mi(`\mathrm{C}_{3}^{2}`) 种. 由容斥原理，所求方案数为
 
-$ 3^4-C_3^1 2^4+C_3^2=81-48+3=36 $
+
+#align(center)[#mitex(`
+3^{4}-\mathrm{C}_{3}^{1} 2^{4}+\mathrm{C}_{3}^{2}=81-48+3=36
+`)]
+
 
 故选 C.
 ]
@@ -205,221 +265,225 @@ $ 3^4-C_3^1 2^4+C_3^2=81-48+3=36 $
 #part-header("填空题")
 
 #problem(13)[
-函数 $y = sqrt(log _((1)/(2))(x - 1))$ 的定义域是#blank(){}.
+函数 #mi(`y = \sqrt{\log_{\frac{1}{2}}(x - 1)}`) 的定义域是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1,2]$])
+#answer([#mi(`(1,2]`)])
 
 #solution[
 根式有意义需
 
-$ log _((1)/(2))(x-1) >= 0 $
 
-同时对数的真数需满足 $x-1>0$. 因为底数 $(1)/(2)$ 小于 $1$，上式等价于 $0<x-1 <= 1$，所以定义域为 $(1,2]$.
+#align(center)[#mitex(`
+\log_{\frac{1}{2}}(x-1)\geqslant0
+`)]
+
+
+同时对数的真数需满足 #mi(`x-1>0`). 因为底数 #mi(`\frac{1}{2}`) 小于 #mi(`1`)，上式等价于 #mi(`0<x-1\leqslant1`)，所以定义域为 #mi(`(1,2]`).
 ]
 
 #problem(14)[
-用平面 $alpha$ 截半径为 $R$ 的球，如果球心到平面 $alpha$ 的距离为 $(R)/(2)$，那么截得小圆的面积与球的表面积的比值为#blank(){}.
+用平面 #mi(`\alpha`) 截半径为 #mi(`R`) 的球，如果球心到平面 #mi(`\alpha`) 的距离为 #mi(`\frac{R}{2}`)，那么截得小圆的面积与球的表面积的比值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3)/(16)$])
+#answer([#mi(`\frac{3}{16}`)])
 
 #solution[
-设截面圆半径为 $r$. 在球心、截面圆心和截面圆上一点构成的直角三角形中，
+设截面圆半径为 #mi(`r`). 在球心、截面圆心和截面圆上一点构成的直角三角形中，
 
-$ r^2=R^2-((R)/(2))^2=(3 R^2)/(4) $
+
+#align(center)[#mitex(`
+r^{2}=R^{2}-\left(\frac{R}{2}\right)^{2}=\frac{3R^{2}}{4}
+`)]
+
 
 因此截面圆面积与球表面积的比值为
 
-$ (pi r^2)/(4 pi R^2)=(pi dot (3 R^2)/(4))/(4 pi R^2)=(3)/(16) $
+
+#align(center)[#mitex(`
+\frac{\pi r^{2}}{4\pi R^{2}}=\frac{\pi\cdot\frac{3R^{2}}{4}}{4\pi R^{2}}=\frac{3}{16}
+`)]
 ]
 
 #problem(15)[
-函数 $y = sin x - (1)/(2) cos x$（$x in RR$）的最大值为#blank(){}.
+函数 #mi(`y = \sin x - \frac{1}{2}\cos x`)（#mi(`x \in \mathbb{R}`)）的最大值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(sqrt(5))/(2)$])
+#answer([#mi(`\frac{\sqrt{5}}{2}`)])
 
 #solution[
 由柯西不等式，
 
-$ sin x-(1)/(2) cos x \l e q s l a n t s q r t(sin ""^(2) x+ cos ""^(2) x)sqrt(1^2+(-(1)/(2))^2)=(sqrt(5))/(2) $
 
-当 $( sin x, cos x)$ 与 $(1,-(1)/(2))$ 同向时等号成立；例如取 $sin x=(2)/(sqrt(5))$、$cos x=-(1)/(sqrt(5))$ 即可达到等号. 因此最大值为 $(sqrt(5))/(2)$.
+#align(center)[#mitex(`
+\sin x-\frac{1}{2}\cos x  \le\sqrt{\sin^{2}x+\cos^{2}x}\sqrt{1^{2}+\left(-\frac{1}{2}\right)^{2}}=\frac{\sqrt{5}}{2}
+`)]
+
+
+当 #mi(`(\sin x,\cos x)`) 与 #mi(`\left(1,-\frac{1}{2}\right)`) 同向时等号成立；例如取 #mi(`\sin x=\frac{2}{\sqrt{5}}`)、#mi(`\cos x=-\frac{1}{\sqrt{5}}`) 即可达到等号. 因此最大值为 #mi(`\frac{\sqrt{5}}{2}`).
 ]
 
 #problem(16)[
-设 $P$ 为圆 $x^(2) + y^(2) = 1$ 上的动点，则点 $P$ 到直线 $3 x - 4 y - 10 = 0$ 的距离的最小值为#blank(){}.
+设 #mi(`P`) 为圆 #mi(`x^{2}+ y^{2}= 1`) 上的动点，则点 #mi(`P`) 到直线 #mi(`3x - 4y - 10 = 0`) 的距离的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #solution[
-圆心 $O(0,0)$ 到直线 $3 x-4 y-10=0$ 的距离为
+圆心 #mi(`O(0,0)`) 到直线 #mi(`3x-4y-10=0`) 的距离为
 
-$ d=(|{-10}|)/(sqrt(3^2+(-4)^2))=2 $
 
-圆的半径为 $1$，且直线在圆外. 圆上动点到该直线的最小距离等于圆心到直线的距离减去半径，所以最小值为 $2-1=1$.
+#align(center)[#mitex(`
+d=\frac{|{-10}|}{\sqrt{3^{2}+(-4)^{2}}}=2
+`)]
+
+
+圆的半径为 #mi(`1`)，且直线在圆外. 圆上动点到该直线的最小距离等于圆心到直线的距离减去半径，所以最小值为 #mi(`2-1=1`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-解方程：$4^(x) - 2^(x + 2) - 12 = 0$.
+解方程：#mi(`4^{x}- 2^{x + 2}- 12 = 0`).
 ]
 
 #solution[
-令 $t=2^x$，则 $t>0$，且 $4^x=t^2$、$2^(x+2)=4 t$. 原方程化为
+令 #mi(`t=2^{x}`)，则 #mi(`t>0`)，且 #mi(`4^{x}=t^{2}`)、#mi(`2^{x+2}=4t`). 原方程化为
 
-$ t^2-4 t-12=0\L o n g r i g h t a r r o w(t-6)(t+2)=0 $
 
-由于 $t>0$，舍去 $t=-2$，得 $t=6$. 因而 $2^x=6$，解得 $x= log _2 6$. 代回原方程，$4^x-2^(x+2)-12=6^2-4 dot 6 -12=0$，故该值成立，原方程的解为 $x= log _2 6$.
+#align(center)[#mitex(`
+t^{2}-4t-12=0\Longrightarrow(t-6)(t+2)=0
+`)]
+
+
+由于 #mi(`t>0`)，舍去 #mi(`t=-2`)，得 #mi(`t=6`). 因而 #mi(`2^{x}=6`)，解得 #mi(`x=\log_{2} 6`). 代回原方程，#mi(`4^{x}-2^{x+2}-12=6^{2}-4\cdot6-12=0`)，故该值成立，原方程的解为 #mi(`x=\log_{2} 6`).
 ]
 
 #problem(18)[
-已知 $alpha$ 为锐角，且 $tan alpha = (1)/(2)$，求 $(sin 2 alpha cos alpha - sin alpha)/(sin 2 alpha cos 2 alpha)$ 的值.
+已知 #mi(`\alpha`) 为锐角，且 #mi(`\tan \alpha = \frac{1}{2}`)，求 #mi(`\frac{\sin 2\alpha \cos \alpha - \sin \alpha}{\sin 2\alpha \cos 2\alpha}`) 的值.
 ]
 
 #solution[
-由 $alpha$ 为锐角且 $tan alpha =(1)/(2)$，取直角三角形两直角边为 $1,2$，斜边为 $sqrt(5)$，得
-$sin alpha =(1)/(sqrt(5))$，$cos alpha =(2)/(sqrt(5))$，$sin 2 alpha =(4)/(5)$，$cos 2 alpha =(3)/(5) != 0$.
+由 #mi(`\alpha`) 为锐角且 #mi(`\tan\alpha=\frac{1}{2}`)，取直角三角形两直角边为 #mi(`1,2`)，斜边为 #mi(`\sqrt{5}`)，得
+
+#mi(`\sin\alpha=\frac{1}{\sqrt{5}}`)，#mi(`\cos\alpha=\frac{2}{\sqrt{5}}`)，#mi(`\sin2\alpha=\frac{4}{5}`)，#mi(`\cos2\alpha=\frac{3}{5}\ne0`).
+
 又有
 
-$ sin 2 alpha cos alpha - sin alpha = 2 sin alpha cos ""^(2) alpha - sin alpha = sin alpha (2 cos ""^(2) alpha - 1) = sin alpha cos 2 alpha $
+
+#align(center)[#mitex(`
+\sin 2\alpha\cos\alpha - \sin\alpha  = 2\sin\alpha\cos^{2}\alpha - \sin\alpha  = \sin\alpha\left(2\cos^{2}\alpha - 1\right)  = \sin\alpha\cos 2\alpha
+`)]
+
 
 所以分母不为零，原式为
 
-$ = (sin alpha cos 2 alpha)/(sin 2 alpha cos 2 alpha)= (sin alpha)/(sin 2 alpha)= (1)/(2 cos alpha)= (sqrt(5))/(4) $
 
-故所求值为 $(sqrt(5))/(4)$.
+#align(center)[#mitex(`
+= \frac{\sin\alpha\cos 2\alpha}{\sin 2\alpha\cos 2\alpha}= \frac{\sin\alpha}{\sin 2\alpha}= \frac{1}{2\cos\alpha}= \frac{\sqrt{5}}{4}
+`)]
+
+
+故所求值为 #mi(`\frac{\sqrt{5}}{4}`).
 ]
 
 #problem(19)[
-设数列 $\{a_(n)\}$ 是公差不为零的等差数列，$S_n$ 是数列 $\{a_(n)\}$ 的前 $n$ 项和，且 $S_(1)^(2) = 9 S_2$，$S_4 = 4 S_2$，求数列 $\{a_(n)\}$ 的通项公式.
+设数列 #mi(`\{a_{n}\}`) 是公差不为零的等差数列，#mi(`S_{n}`) 是数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和，且 #mi(`S_{1}^{2}= 9S_{2}`)，#mi(`S_{4} = 4S_{2}`)，求数列 #mi(`\{a_{n}\}`) 的通项公式.
 ]
 
 #solution[
-设 $a_(1) = a$，公差为 $d$，则 $d != 0$，且
-$S_1=a$，$S_2=2 a+d$，$S_4=4 a+6 d$.
-由 $S_(4) = 4 S_(2)$，得
+设 #mi(`a_{1}= a`)，公差为 #mi(`d`)，则 #mi(`d \ne 0`)，且
 
-$ 4 a + 6 d = 4(2 a + d) $
+#mi(`S_{1}=a`)，#mi(`S_{2}=2a+d`)，#mi(`S_{4}=4a+6d`).
 
-所以 $d=2 a$. 因为 $d != 0$，故 $a != 0$. 再由 $S_1^2=9 S_2$，得
+由 #mi(`S_{4}= 4S_{2}`)，得
 
-$ a^2=9(2 a+d)=9(4 a)=36 a $
 
-由于 $a != 0$，两边除以 $a$ 得 $a=36$，从而 $d=72$. 因此数列的通项公式为
+#align(center)[#mitex(`
+4a + 6d = 4(2a + d)
+`)]
 
-$ a_n=a+(n-1)d=36+72(n-1)=72 n-36 $
 
-代入 $S_1^2=1296$ 与 $9 S_2=9(36+108)=1296$，且 $S_4=4(36)+6(72)=576=4 S_2$，条件均满足.
+所以 #mi(`d=2a`). 因为 #mi(`d\ne0`)，故 #mi(`a\ne0`). 再由 #mi(`S_{1}^{2}=9S_{2}`)，得
+
+
+#align(center)[#mitex(`
+a^{2}=9(2a+d)=9(4a)=36a
+`)]
+
+
+由于 #mi(`a\ne0`)，两边除以 #mi(`a`) 得 #mi(`a=36`)，从而 #mi(`d=72`). 因此数列的通项公式为
+
+
+#align(center)[#mitex(`
+a_{n}=a+(n-1)d=36+72(n-1)=72n-36
+`)]
+
+
+代入 #mi(`S_{1}^{2}=1296`) 与 #mi(`9S_{2}=9(36+108)=1296`)，且 #mi(`S_{4}=4(36)+6(72)=576=4S_{2}`)，条件均满足.
 ]
 
 #problem(20)[
-某村计划建造一个室内面积为 $800 ~m^(2)$ 的矩形蔬菜温室. 在温室内，沿左、右两侧与后侧内墙各保留 $1 ~m$ 宽的通道，沿前侧内墙保留 $3 ~m$ 宽的空地. 当矩形温室的边长各为多少时，蔬菜的种植面积最大，最大种植面积是多少？
+某村计划建造一个室内面积为 #mi(`800 \mathrm{~m}^{2}`) 的矩形蔬菜温室. 在温室内，沿左、右两侧与后侧内墙各保留 #mi(`1 \mathrm{~m}`) 宽的通道，沿前侧内墙保留 #mi(`3 \mathrm{~m}`) 宽的空地. 当矩形温室的边长各为多少时，蔬菜的种植面积最大，最大种植面积是多少？
 ]
 
 #solution[
-设矩形温室左、右两侧墙的边长为 $x~m$，前、后两侧墙的边长为 $y~m$. 由面积条件，
-$x y=800$，$x>4$，$y>2$.
-前、后两侧分别保留 $3~m$ 和 $1~m$，左右两侧各保留 $1~m$，所以种植面积
+设矩形温室左、右两侧墙的边长为 #mi(`x\mathrm{~m}`)，前、后两侧墙的边长为 #mi(`y\mathrm{~m}`). 由面积条件，
 
-$ T=(x-4)(y-2) $
+#mi(`xy=800`)，#mi(`x>4`)，#mi(`y>2`).
 
-由 $y=(800)/(x)$，得 $4<x<400$，且
+前、后两侧分别保留 #mi(`3\mathrm{~m}`) 和 #mi(`1\mathrm{~m}`)，左右两侧各保留 #mi(`1\mathrm{~m}`)，所以种植面积
 
-$ T=(x-4)((800)/(x)-2)=808-2 x-(3200)/(x) $
+
+#align(center)[#mitex(`
+T=(x-4)(y-2)
+`)]
+
+
+由 #mi(`y=\frac{800}{x}`)，得 #mi(`4<x<400`)，且
+
+
+#align(center)[#mitex(`
+T=(x-4)\left(\frac{800}{x}-2\right)=808-2x-\frac{3200}{x}
+`)]
+
 
 整理得
 
-$ T=648-(2(x-40)^2)/(x) <= 648 $
 
-因为 $x>0$，等号当且仅当 $x=40$ 成立，此时 $y=(800)/(40)=20$. 因此矩形温室左、右两侧墙的边长为 $40~m$，前、后两侧墙的边长为 $20~m$，最大种植面积为 $648~m^2$.
+#align(center)[#mitex(`
+T=648-\frac{2(x-40)^{2}}{x}\leqslant648
+`)]
+
+
+因为 #mi(`x>0`)，等号当且仅当 #mi(`x=40`) 成立，此时 #mi(`y=\frac{800}{40}=20`). 因此矩形温室左、右两侧墙的边长为 #mi(`40\mathrm{~m}`)，前、后两侧墙的边长为 #mi(`20\mathrm{~m}`)，最大种植面积为 #mi(`648\mathrm{~m}^{2}`).
 ]
 
 #problem(21)[
-三棱锥 $P - A B C$ 中，侧面 $P A C$ 与底面 $A B C$ 垂直，$P A = P B = P C = 3$.
-
-+ (1) 求证：$A B bot B C$；
-+ (2) 设 $A B = B C = 2 sqrt(3)$，求 $A C$ 与平面 $P B C$ 所成角的大小.
+三棱锥 #mi(`P - ABC`) 中，侧面 #mi(`PAC`) 与底面 #mi(`ABC`) 垂直，#mi(`PA = PB = PC = 3`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2004/img/national_paper_3_liberal/q21_fig1.png", width: 42%)]
+
+
+
+#align(center)[#image("/papers/2004/img/national_paper_3_liberal/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设 $O$ 为 $A C$ 的中点. 因为 $P A=P C$，所以在等腰三角形 $P A C$ 中，$P O bot A C$. 又因为平面 $P A C bot$ 平面 $A B C$，且两平面的交线为 $A C$，由二面角的性质得 $P O bot$ 平面 $A B C$.
-
-于是 $P O bot O A$、$P O bot O B$、$P O bot O C$，从而三角形 $P O A$、$P O B$、$P O C$ 均为直角三角形. 由 $P A=P B=P C$，得
-
-$ O A^2=P A^2-P O^2=P B^2-P O^2=O B^2 $
-
-同理，
-
-$ O C^2=P C^2-P O^2=P A^2-P O^2=O A^2 $
-
-所以 $O A=O B=O C$. 因为 $O$ 是 $A C$ 的中点，$O$ 是三角形 $A B C$ 外接圆的圆心，且 $A C$ 是该圆的直径. 由圆周角定理，$angle A B C=90^ degree$，所以 $A B bot B C$.
-+ (2) 由第一问，$A B bot B C$. 建立空间直角坐标系，使底面 $A B C$ 为 $x O y$ 平面，并取
-$B=(0,0,0)$，$A=(2 sqrt(3),0,0)$，$C=(0,2 sqrt(3),0)$.
-于是 $O=(sqrt(3),sqrt(3),0)$，且
-$O A^2=6$，$P O^2=P A^2-O A^2=9-6=3$.
-由于 $P O bot$ 平面 $A B C$，可取 $P=(sqrt(3),sqrt(3),sqrt(3))$. 取另一侧的点 $P$ 只会使下面的法向量改变符号，不影响所成角的大小.
-
-平面 $P B C$ 上的点 $P$、$B$、$C$ 都满足 $x-z=0$，所以其一个法向量为 $bold(n)=(1,0,-1)$. 直线 $A C$ 的一个方向向量为 $bold(v)=(-2 sqrt(3),2 sqrt(3),0)$. 设直线 $A C$ 与平面 $P B C$ 所成的角为 $theta$，则
-
-$ sin theta =(|bold(v){ dot }bold(n)|)/(|bold(v)| dot |bold(n)|)=(2 sqrt(3))/((2 sqrt(6))sqrt(2))=(1)/(2) $
-
-因为 $0 <= theta <= 90 ""^ degree$，所以 $theta =30^ degree$.
++ (1)
 ]
 
 #problem(22)[
-设椭圆 $(x^2)/(m+1)+ y^2 = 1$ 的两个焦点是 $F_(1)(-c,0)$ 与 $F_(2)(c,0)$（$c > 0$），且椭圆上存在一点 $P$，使得直线 $P F_(1)$ 与 $P F_(2)$ 垂直.
+设椭圆 #mi(`\frac{x^{2}}{m+1}+ y^{2} = 1`) 的两个焦点是 #mi(`F_{1}(-c,0)`) 与 #mi(`F_{2}(c,0)`)（#mi(`c > 0`)），且椭圆上存在一点 #mi(`P`)，使得直线 #mi(`PF_{1}`) 与 #mi(`PF_{2}`) 垂直.
 
-+ (1) 求实数 $m$ 的取值范围；
-+ (2) 设 $L$ 是相应于焦点 $F_(2)$ 的准线，直线 $P F_(2)$ 与 $L$ 相交于点 $Q$. 若 $|(Q F_2)/(P F_2)| = 2 - sqrt(3)$，求直线 $P F_(2)$ 的方程.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设 $P=(x,y)$. 因为椭圆的焦点在 $x$ 轴上，且 $c>0$，所以长半轴平方为 $m+1$，短半轴平方为 $1$，从而
-$m>0$，$c^2=(m+1)-1=m$.
-由 $P F_1 bot P F_2$，有
-
-$ (x+c,y) dot (x-c,y)=x^2+y^2-c^2=0 $
-
-即 $x^2+y^2=m$. 与椭圆方程联立，消去 $y^2$，得
-
-$ (x^2)/(m+1)+m-x^2=1 $
-
-整理得
-$x^2=(m^2-1)/(m)=m-(1)/(m)$，$y^2=m-x^2=(1)/(m)$.
-因为 $m>0$，存在实数 $x$ 的充要条件是 $m^2-1 >= 0$，即 $m >= 1$. 对任意 $m >= 1$，上述 $x^2$、$y^2$ 均可取到实数值，并且相应的点 $P$ 在椭圆上且满足垂直条件. 因此 $m$ 的取值范围为 $[1,+ oo )$.
-+ (2) 焦点 $F_2$ 对应的准线 $L$ 为
-
-$ x=(a^2)/(c)=(m+1)/(sqrt(m)) $
-
-由 $x^2=m-(1)/(m)<m=c^2$，可知点 $P$ 的横坐标 $x<c$. 直线 $P F_2$ 与准线交于 $Q$，且 $Q$ 位于 $F_2$ 的右侧. 由于 $P$、$F_2$、$Q$ 共线，距离比等于对应横坐标差之比，所以
-
-$ |(Q F_2)/(P F_2)| =((m+1)/(sqrt(m))-sqrt(m))/(sqrt(m)-x)=(1)/(m-sqrt(m)x) $
-
-由题设，
-
-$ m-sqrt(m)x=(1)/(2-sqrt(3))=2+sqrt(3) $
-
-故 $x=(m-(2+sqrt(3)))/(sqrt(m))$.
-代入 $x^2=(m^2-1)/(m)$，得
-
-$ (m-(2+sqrt(3)))^2=m^2-1 $
-
-令 $A=2+sqrt(3)$，则 $A^2+1=4 A$，上式化为 $2 A m=4 A$，所以 $m=2$. 此时
-$c=sqrt(2)$，$x=-sqrt((3)/(2))$，$y= +- (1)/(sqrt(2))$.
-因此直线 $P F_2$ 的斜率为
-
-$ (y)/(x-sqrt(2))= +- (sqrt(3)-2)= -+ (2-sqrt(3)) $
-
-所求直线为
-
-$ y= +- (2-sqrt(3))(x-sqrt(2)) $
++ (1)
 ]
 

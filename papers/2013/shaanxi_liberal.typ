@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,19 +11,19 @@
 #part-header("单选题")
 
 #problem(1)[
-设全集为 $RR$，函数 $f(x) = sqrt(1 - x)$ 的定义域为 $M$，则 $\c o m p l e m e n t_( RR ) M$ 为（ ）
-  #choices([$(- oo , 1)$], [$(1, + oo )$], [$(- oo , 1]$], [$[1, + oo )$], cols: 4)
+设全集为 #mi(`\mathbb{R}`)，函数 #mi(`f(x) = \sqrt{1 - x}`) 的定义域为 #mi(`M`)，则 #mi(`\complement_{\mathbb{R}}M`) 为（ ）
+  #choices([#mi(`(-\infty, 1)`)], [#mi(`(1, +\infty)`)], [#mi(`(-\infty, 1]`)], [#mi(`[1, +\infty)`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-根式有意义的条件是 $1-x >= 0$，所以 $M=(- oo ,1]$. 因此 $\c o m p l e m e n t_( RR )M=(1,+ oo )$，故选 B.
+根式有意义的条件是 #mi(`1-x\geqslant0`)，所以 #mi(`M=(-\infty,1]`). 因此 #mi(`\complement_{\mathbb{R}}M=(1,+\infty)`)，故选 B.
 ]
 
 #problem(2)[
-已知向量 $bold(a)= (1, m)$，$bold(b)= (m, 2)$，若 $bold(a) parallel bold(b)$，则实数 $m$ 等于（ ）
-  #choices([$-sqrt(2)$], [$sqrt(2)$], [$-sqrt(2)$ 或 $sqrt(2)$], [0], cols: 2)
+已知向量 #mi(`\mathbf{a}= (1, m)`)，#mi(`\mathbf{b}= (m, 2)`)，若 #mi(`\mathbf{a}\parallel \mathbf{b}`)，则实数 #mi(`m`) 等于（ ）
+  #choices([#mi(`-\sqrt{2}`)], [#mi(`\sqrt{2}`)], [#mi(`-\sqrt{2}`) 或 #mi(`\sqrt{2}`)], [0], cols: 1)
 ]
 
 #answer([C])
@@ -31,14 +31,18 @@
 #solution[
 两向量平行的充要条件是其坐标行列式为零，因此
 
-$ 1 dot 2 -m dot m=0 $
 
-解得 $m^2=2$，即 $m=-sqrt(2)$ 或 $m=sqrt(2)$，故选 C.
+#align(center)[#mitex(`
+1\cdot2-m\cdot m=0
+`)]
+
+
+解得 #mi(`m^{2}=2`)，即 #mi(`m=-\sqrt{2}`) 或 #mi(`m=\sqrt{2}`)，故选 C.
 ]
 
 #problem(3)[
-设 $a$，$b$，$c$ 均为不等于 1 的正实数，则下列等式中恒成立的是（ ）
-  #choices([$log _a b dot log _c b = log _c a$], [$log _a b dot log _c a = log _c b$], [$log _a (b c) = log _a b dot log _a c$], [$log _a(b + c) = log _a b + log _a c$], cols: 1)
+设 #mi(`a`)，#mi(`b`)，#mi(`c`) 均为不等于 1 的正实数，则下列等式中恒成立的是（ ）
+  #choices([#mi(`\log_{a} b \cdot \log_{c} b = \log_{c} a`)], [#mi(`\log_{a} b \cdot \log_{c} a = \log_{c} b`)], [#mi(`\log_{a} (bc) = \log_{a} b \cdot \log_{a} c`)], [#mi(`\log_{a}(b + c) = \log_{a} b + \log_{a} c`)], cols: 1)
 ]
 
 #answer([B])
@@ -46,93 +50,116 @@ $ 1 dot 2 -m dot m=0 $
 #solution[
 利用换底公式，
 
-$ log _a b dot log _c a=(ln b)/(ln a) dot (ln a)/(ln c)=(ln b)/(ln c)= log _c b $
 
-所以选项 B 恒成立. 对选项 A，取 $a=2$，$b=4$，$c=8$，则左边为 $2 times (2)/(3)=(4)/(3)$，右边为 $(1)/(3)$，不成立. 对选项 C，取 $a=b=c=2$，则左边为 $log _2 4=2$，右边为 $log _2 2 dot log _2 2=1$，不成立. 对选项 D，取 $a=2$，$b=2$，$c=4$，则左边为 $log _2 6$，右边为 $log _2 2+ log _2 4=3$，且 $log _2 6 != 3$，不成立. 因此选 B.
+#align(center)[#mitex(`
+\log_{a} b\cdot\log_{c} a=\frac{\ln b}{\ln a}\cdot\frac{\ln a}{\ln c}=\frac{\ln b}{\ln c}=\log_{c} b
+`)]
+
+
+所以选项 B 恒成立. 对选项 A，取 #mi(`a=2`)，#mi(`b=4`)，#mi(`c=8`)，则左边为 #mi(`2\times\frac{2}{3}=\frac{4}{3}`)，右边为 #mi(`\frac{1}{3}`)，不成立. 对选项 C，取 #mi(`a=b=c=2`)，则左边为 #mi(`\log_{2} 4=2`)，右边为 #mi(`\log_{2} 2\cdot\log_{2} 2=1`)，不成立. 对选项 D，取 #mi(`a=2`)，#mi(`b=2`)，#mi(`c=4`)，则左边为 #mi(`\log_{2} 6`)，右边为 #mi(`\log_{2} 2+\log_{2} 4=3`)，且 #mi(`\log_{2} 6\ne3`)，不成立. 因此选 B.
 ]
 
 #problem(4)[
-根据下列算法语句，当输入 $x$ 为 60 时，输出 $y$ 的值为（ ）
+根据下列算法语句，当输入 #mi(`x`) 为 60 时，输出 #mi(`y`) 的值为（ ）
 
 
-#align(center)[#image("/papers/2013/img/shaanxi_liberal/q4_fig1.png", width: 34%)]
+#align(center)[#image("/papers/2013/img/shaanxi_liberal/q4_fig1.png", width: 28%)]
+
   #choices([25], [30], [31], [61], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-输入 $x=60>50$，程序执行 Else 分支，所以
+输入 #mi(`x=60>50`)，程序执行 Else 分支，所以
 
-$ y=25+0.6 times (60-50)=25+6=31 $
+
+#align(center)[#mitex(`
+y=25+0.6\times(60-50)=25+6=31
+`)]
+
 
 故选 C.
 ]
 
 #problem(5)[
-对一批产品的长度（单位：毫米）进行抽样检测，下图为检测结果的频率分布直方图，根据标准，产品长度在区间 $[20, 25)$ 上为一等品，在区间 $[15, 20)$ 和 $[25, 30)$ 上为二等品，在区间 $[10, 15)$ 和 $[30, 35]$ 上为三等品. 用频率估计概率，现从该批产品中随机抽取 1 件，则其为二等品的概率是（ ）
+对一批产品的长度（单位：毫米）进行抽样检测，下图为检测结果的频率分布直方图，根据标准，产品长度在区间 #mi(`[20, 25)`) 上为一等品，在区间 #mi(`[15, 20)`) 和 #mi(`[25, 30)`) 上为二等品，在区间 #mi(`[10, 15)`) 和 #mi(`[30, 35]`) 上为三等品. 用频率估计概率，现从该批产品中随机抽取 1 件，则其为二等品的概率是（ ）
 
-\texfigure[width=0.55\linewidth]{img_repaint/2013/shaanxi_liberal/q5_fig1.tex}
+\texfigure[width=0.55\linewidth]img_repaint/2013/shaanxi_liberal/q5_fig1.tex
   #choices([0.09], [0.20], [0.25], [0.45], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-由直方图读得区间 $[15,20)$ 和 $[25,30)$ 的频率分别为
-$5 times 0 .04=0.20$，$5 times 0 .05=0.25$.
-二等品恰在这两个区间内，所以其概率为 $0.20+0.25=0.45$，故选 D.
+由直方图读得区间 #mi(`[15,20)`) 和 #mi(`[25,30)`) 的频率分别为
+
+#mi(`5\times0.04=0.20`)，#mi(`5\times0.05=0.25`).
+
+二等品恰在这两个区间内，所以其概率为 #mi(`0.20+0.25=0.45`)，故选 D.
 ]
 
 #problem(6)[
-设 $z$ 是复数，则下列命题中的假命题是（ ）
-  #choices([若 $z^(2) >= 0$，则 $z$ 是实数], [若 $z^2 < 0$，则 $z$ 是虚数], [若 $z$ 是虚数，则 $z^2 >= 0$], [若 $z$ 是纯虚数，则 $z^2 < 0$], cols: 2)
+设 #mi(`z`) 是复数，则下列命题中的假命题是（ ）
+  #choices([若 #mi(`z^{2}\ge 0`)，则 #mi(`z`) 是实数], [若 #mi(`z^{2} < 0`)，则 #mi(`z`) 是虚数], [若 #mi(`z`) 是虚数，则 #mi(`z^{2} \ge 0`)], [若 #mi(`z`) 是纯虚数，则 #mi(`z^{2} < 0`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-设 $z=u+v i$，其中 $u$，$v in RR$. 若 $z^2 >= 0$，则 $z^2$ 为非负实数，而
+设 #mi(`z=u+v\mathrm{i}`)，其中 #mi(`u`)，#mi(`v\in\mathbb{R}`). 若 #mi(`z^{2}\geqslant0`)，则 #mi(`z^{2}`) 为非负实数，而
 
-$ z^2=u^2-v^2+2 u v i $
 
-于是 $u v=0$. 若 $v=0$，则 $z$ 为实数；若 $u=0$，则 $z^2=-v^2 >= 0$，从而 $v=0$，此时 $z=0$ 仍为实数，所以选项 A 正确.
+#align(center)[#mitex(`
+z^{2}=u^{2}-v^{2}+2uv\mathrm{i}
+`)]
 
-若 $z^2<0$，同样由虚部为零得 $u v=0$. 由于 $z^2$ 为负数，不能有 $v=0$，故 $u=0$ 且 $v != 0$，所以 $z$ 是虚数，选项 B 正确. 若 $z$ 是纯虚数，即 $z=v i$ 且 $v != 0$，则 $z^2=-v^2<0$，选项 D 正确. 取 $z= i$，则 $z$ 是虚数但 $z^2=-1<0$，不满足 $z^2 >= 0$，所以 C 是假命题.
+
+于是 #mi(`uv=0`). 若 #mi(`v=0`)，则 #mi(`z`) 为实数；若 #mi(`u=0`)，则 #mi(`z^{2}=-v^{2}\geqslant0`)，从而 #mi(`v=0`)，此时 #mi(`z=0`) 仍为实数，所以选项 A 正确.
+
+若 #mi(`z^{2}<0`)，同样由虚部为零得 #mi(`uv=0`). 由于 #mi(`z^{2}`) 为负数，不能有 #mi(`v=0`)，故 #mi(`u=0`) 且 #mi(`v\ne0`)，所以 #mi(`z`) 是虚数，选项 B 正确. 若 #mi(`z`) 是纯虚数，即 #mi(`z=v\mathrm{i}`) 且 #mi(`v\ne0`)，则 #mi(`z^{2}=-v^{2}<0`)，选项 D 正确. 取 #mi(`z=\mathrm{i}`)，则 #mi(`z`) 是虚数但 #mi(`z^{2}=-1<0`)，不满足 #mi(`z^{2}\geqslant0`)，所以 C 是假命题.
 ]
 
 #problem(7)[
-若点 $(x, y)$ 位于曲线 $y = |x|$ 与 $y = 2$ 所围成的封闭区域，则 $2 x - y$ 的最小值是（ ）
-  #choices([$-6$], [$-2$], [0], [2], cols: 4)
+若点 #mi(`(x, y)`) 位于曲线 #mi(`y = |x|`) 与 #mi(`y = 2`) 所围成的封闭区域，则 #mi(`2x - y`) 的最小值是（ ）
+  #choices([#mi(`-6`)], [#mi(`-2`)], [0], [2], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-封闭区域满足 $-2 <= x <= 2$ 且 $|x| <= y <= 2$. 因为 $2 x-y$ 关于 $x$ 递增、关于 $y$ 递减，所以最小值在 $x=-2$，$y=2$ 处取得，且
+封闭区域满足 #mi(`-2\le x\leqslant2`) 且 #mi(`|x|\le y\leqslant2`). 因为 #mi(`2x-y`) 关于 #mi(`x`) 递增、关于 #mi(`y`) 递减，所以最小值在 #mi(`x=-2`)，#mi(`y=2`) 处取得，且
 
-$ 2 x-y=2 times (-2)-2=-6 $
+
+#align(center)[#mitex(`
+2x-y=2\times(-2)-2=-6
+`)]
+
 
 故选 A.
 ]
 
 #problem(8)[
-已知点 $M(a, b)$ 在圆 $O: x^2 + y^2 = 1$ 外，则直线 $a x + b y = 1$ 与圆 $O$ 的位置关系是（ ）
+已知点 #mi(`M(a, b)`) 在圆 #mi(`O: x^{2} + y^{2} = 1`) 外，则直线 #mi(`ax + by = 1`) 与圆 #mi(`O`) 的位置关系是（ ）
   #choices([相切], [相交], [相离], [不确定], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-点 $M(a,b)$ 在单位圆外，故 $a^2+b^2>1$. 直线 $a x+b y=1$ 到圆心 $O(0,0)$ 的距离为
+点 #mi(`M(a,b)`) 在单位圆外，故 #mi(`a^{2}+b^{2}>1`). 直线 #mi(`ax+by=1`) 到圆心 #mi(`O(0,0)`) 的距离为
 
-$ d=(1)/(sqrt(a^2+b^2))<1 $
 
-由于圆 $O$ 的半径为 $1$，圆心到直线的距离小于半径，所以直线与圆相交，故选 B.
+#align(center)[#mitex(`
+d=\frac{1}{\sqrt{a^{2}+b^{2}}}<1
+`)]
+
+
+由于圆 #mi(`O`) 的半径为 #mi(`1`)，圆心到直线的距离小于半径，所以直线与圆相交，故选 B.
 ]
 
 #problem(9)[
-设 $triangle A B C$ 的内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，若 $b cos C + c cos B = a sin A$，则 $triangle A B C$ 的形状为（ ）
+设 #mi(`\triangle ABC`) 的内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对的边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，若 #mi(`b \cos C + c \cos B = a \sin A`)，则 #mi(`\triangle ABC`) 的形状为（ ）
   #choices([直角三角形], [锐角三角形], [钝角三角形], [不确定], cols: 4)
 ]
 
@@ -140,426 +167,622 @@ $ d=(1)/(sqrt(a^2+b^2))<1 $
 
 #solution[
 由余弦定理，
-$b cos C=(a^2+b^2-c^2)/(2 a)$，$c cos B=(a^2+c^2-b^2)/(2 a)$.
-两式相加得 $b cos C+c cos B=a$. 代入题设并注意 $a>0$，得 $a=a sin A$，即 $sin A=1$. 由于 $0<A< pi$，所以 $A=(pi)/(2)$，三角形为直角三角形，故选 A.
+
+#mi(`b\cos C=\frac{a^{2}+b^{2}-c^{2}}{2a}`)，#mi(`c\cos B=\frac{a^{2}+c^{2}-b^{2}}{2a}`).
+
+两式相加得 #mi(`b\cos C+c\cos B=a`). 代入题设并注意 #mi(`a>0`)，得 #mi(`a=a\sin A`)，即 #mi(`\sin A=1`). 由于 #mi(`0<A<\pi`)，所以 #mi(`A=\frac{\pi}{2}`)，三角形为直角三角形，故选 A.
 ]
 
 #problem(10)[
-设 $[x]$ 表示不大于 $x$ 的最大整数，则对任意实数 $x$，有（ ）
-  #choices([$[-x] = -[x]$], [$[x + (1)/(2)] = [x]$], [$[2 x] = 2[x]$], [$[x] + [x + (1)/(2)] = [2 x]$], cols: 2)
+设 #mi(`[x]`) 表示不大于 #mi(`x`) 的最大整数，则对任意实数 #mi(`x`)，有（ ）
+  #choices([#mi(`[-x] = -[x]`)], [#mi(`\left[x + \frac{1}{2}\right] = [x]`)], [#mi(`[2x] = 2[x]`)], [#mi(`[x] + \left[x + \frac{1}{2}\right] = [2x]`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-设 $x=n+r$，其中 $n=[x]$，$0 <= r<1$. 当 $0 <= r<(1)/(2)$ 时，
+设 #mi(`x=n+r`)，其中 #mi(`n=[x]`)，#mi(`0\le r<1`). 当 #mi(`0\le r<\frac{1}{2}`) 时，
 
-$ [x]+[x+(1)/(2)]=n+n=2 n=[2 x] $
 
-当 $(1)/(2) <= r<1$ 时，
+#align(center)[#mitex(`
+[x]+\left[x+\frac{1}{2}\right]=n+n=2n=[2x]
+`)]
 
-$ [x]+[x+(1)/(2)]=n+(n+1)=2 n+1=[2 x] $
 
-因此选项 D 对任意实数 $x$ 恒成立. 其余选项分别取 $x=(1)/(2)$、$x=(3)/(4)$、$x=(3)/(4)$ 即可得到反例，故选 D.
+当 #mi(`\frac{1}{2}\le r<1`) 时，
+
+
+#align(center)[#mitex(`
+[x]+\left[x+\frac{1}{2}\right]=n+(n+1)=2n+1=[2x]
+`)]
+
+
+因此选项 D 对任意实数 #mi(`x`) 恒成立. 其余选项分别取 #mi(`x=\frac{1}{2}`)、#mi(`x=\frac{3}{4}`)、#mi(`x=\frac{3}{4}`) 即可得到反例，故选 D.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-双曲线 $(x^(2))/(16)-(y^(2))/(9)=1$ 的离心率为#blank(){}.
+双曲线 #mi(`\frac{x^{2}}{16}-\frac{y^{2}}{9}=1`) 的离心率为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(5)/(4)$])
+#answer([#mi(`\frac{5}{4}`)])
 
 #solution[
-双曲线的标准式中 $a^2=16$，$b^2=9$，所以 $a=4$，$c^2=a^2+b^2=25$，从而 $c=5$. 因此离心率为
+双曲线的标准式中 #mi(`a^{2}=16`)，#mi(`b^{2}=9`)，所以 #mi(`a=4`)，#mi(`c^{2}=a^{2}+b^{2}=25`)，从而 #mi(`c=5`). 因此离心率为
 
-$ e=(c)/(a)=(5)/(4) $
+
+#align(center)[#mitex(`
+e=\frac{c}{a}=\frac{5}{4}
+`)]
 ]
 
 #problem(12)[
-某几何体的三视图如图所示，则其表面积为#blank(){}.
+某几何体的三视图如图所示，则其表面积为\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2013/img/shaanxi_liberal/q12_fig1.png", width: 46%)]
+#align(center)[#image("/papers/2013/img/shaanxi_liberal/q12_fig1.png", width: 28%)]
+
 ]
 
-#answer([$3 pi$])
+#answer([#mi(`3\pi`)])
 
 #solution[
-由三视图可知，该几何体是半径为 $1$ 的半球，其底面圆的直径为 $2$，高为 $1$. 半球的曲面面积为 $2 pi$，底面面积为 $pi$，所以表面积为
+由三视图可知，该几何体是半径为 #mi(`1`) 的半球，其底面圆的直径为 #mi(`2`)，高为 #mi(`1`). 半球的曲面面积为 #mi(`2\pi`)，底面面积为 #mi(`\pi`)，所以表面积为
 
-$ S=2 pi + pi =3 pi $
+
+#align(center)[#mitex(`
+S=2\pi+\pi=3\pi
+`)]
 ]
 
 #problem(13)[
-观察下列等式：$1 + 1 = 2 times 1$，$(2 + 1)(2 + 2) = 2^(2) times 1 times 3$，$(3 + 1)(3 + 2)(3 + 3) = 2^(3) times 1 times 3 times 5$.
+观察下列等式：#mi(`1 + 1 = 2 \times 1`)，#mi(`(2 + 1)(2 + 2) = 2^{2}\times 1 \times 3`)，#mi(`(3 + 1)(3 + 2)(3 + 3) = 2^{3}\times 1 \times 3 \times 5`).
 
-照此规律，第 $n$ 个等式可为#blank(){}.
+照此规律，第 #mi(`n`) 个等式可为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(n + 1)(n + 2) dots.c (n + n) = 2^(n) times 1 times 3 times 5 times dots.c times (2 n - 1)$])
+#answer([#mi(`(n + 1)(n + 2)\cdots(n + n) = 2^{n}\times 1 \times 3 \times 5 \times \cdots \times (2n - 1)`)])
 
 #solution[
 左边为
 
-$ (n+1)(n+2) dots.c (2 n)=((2 n)!)/(n!) $
 
-另一方面，将 $(2 n)!$ 中的偶数项提出因子 $2$，得
+#align(center)[#mitex(`
+(n+1)(n+2)\cdots(2n)=\frac{(2n)!}{n!}
+`)]
 
-$ (2 n)!=(2 dot 4 dots.c 2 n)(1 dot 3 dots.c (2 n-1))=2^n n!(1 dot 3 dots.c (2 n-1)) $
 
-两边除以 $n!$，即得
+另一方面，将 #mi(`(2n)!`) 中的偶数项提出因子 #mi(`2`)，得
 
-$ (n+1)(n+2) dots.c (n+n)=2^n times 1 times 3 times 5 times dots.c times (2 n-1) $
+
+#align(center)[#mitex(`
+(2n)!=\left(2\cdot4\cdots2n\right)\left(1\cdot3\cdots(2n-1)\right)=2^{n} n!\left(1\cdot3\cdots(2n-1)\right)
+`)]
+
+
+两边除以 #mi(`n!`)，即得
+
+
+#align(center)[#mitex(`
+(n+1)(n+2)\cdots(n+n)=2^{n}\times1\times3\times5\times\cdots\times(2n-1)
+`)]
 ]
 
 #problem(14)[
-在如图所示的锐角三角形空地中，欲建一个面积最大的内接矩形花园（阴影部分），则其边长 $x$ 为#blank(){}$m$.
+在如图所示的锐角三角形空地中，欲建一个面积最大的内接矩形花园（阴影部分），则其边长 #mi(`x`) 为\underline{\hspace{2.5em}}#mi(`\mathrm{m}`).
 
-#align(center)[#image("/papers/2013/img/shaanxi_liberal/q14_fig1.png", width: 38%)]
+
+#align(center)[#image("/papers/2013/img/shaanxi_liberal/q14_fig1.png", width: 28%)]
+
 ]
 
-#answer([$20$])
+#answer([#mi(`20`)])
 
 #solution[
-设矩形的高为 $h$. 由图形可知 $0 <= h <= 40$，且由三角形的相似关系，距底边高为 $h$ 处的水平截长为
+设矩形的高为 #mi(`h`). 由图形可知 #mi(`0\le h\leqslant40`)，且由三角形的相似关系，距底边高为 #mi(`h`) 处的水平截长为
 
-$ x=40(1-(h)/(40))=40-h $
 
-所以 $h=40-x$，矩形面积为
+#align(center)[#mitex(`
+x=40\left(1-\frac{h}{40}\right)=40-h
+`)]
 
-$ S=x h=x(40-x)=400-(x-20)^2 $
 
-由于 $0 <= x <= 40$，$x=20$ 可取，且当 $x=20$ 时面积最大，因此所求边长为 $20$ $m$.
+所以 #mi(`h=40-x`)，矩形面积为
+
+
+#align(center)[#mitex(`
+S=xh=x(40-x)=400-(x-20)^{2}
+`)]
+
+
+由于 #mi(`0\le x\leqslant40`)，#mi(`x=20`) 可取，且当 #mi(`x=20`) 时面积最大，因此所求边长为 #mi(`20`) #mi(`\mathrm{m}`).
 ]
 
 #part-header("选考题：填空题")
 
 #problem(15)[
-设 $a$，$b in RR$，$|a - b| > 2$，则关于实数 $x$ 的不等式 $|x - a| + |x - b| > 2$ 的解集是#blank(){}.
+设 #mi(`a`)，#mi(`b \in \mathbb{R}`)，#mi(`|a - b| > 2`)，则关于实数 #mi(`x`) 的不等式 #mi(`|x - a| + |x - b| > 2`) 的解集是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$RR$])
+#answer([#mi(`\mathbb{R}`)])
 
 #solution[
-由三角不等式，任意实数 $x$ 都满足
+由三角不等式，任意实数 #mi(`x`) 都满足
 
-$ |x-a|+|x-b| >= |a-b| $
 
-题设给出 $|a-b|>2$，所以 $|x-a|+|x-b|>2$ 对一切 $x in RR$ 成立，解集为 $RR$.
+#align(center)[#mitex(`
+|x-a|+|x-b|\ge|a-b|
+`)]
+
+
+题设给出 #mi(`|a-b|>2`)，所以 #mi(`|x-a|+|x-b|>2`) 对一切 #mi(`x\in\mathbb{R}`) 成立，解集为 #mi(`\mathbb{R}`).
 ]
 
 #problem(16)[
-如图，$A B$ 与 $C D$ 相交于点 $E$，过 $E$ 作 $B C$ 的平行线与 $A D$ 的延长线交于点 $P$，已知 $angle A = angle C$，$P D = 2 D A = 2$，则 $P E =\f i l l i n b l a n k{}$.
+如图，#mi(`AB`) 与 #mi(`CD`) 相交于点 #mi(`E`)，过 #mi(`E`) 作 #mi(`BC`) 的平行线与 #mi(`AD`) 的延长线交于点 #mi(`P`)，已知 #mi(`\angle A = \angle C`)，#mi(`PD = 2DA = 2`)，则 #mi(`PE =\underline{\hspace{2.5em}}{}`).
 
 
-#align(center)[#image("/papers/2013/img/shaanxi_liberal/q16_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2013/img/shaanxi_liberal/q16_fig1.png", width: 28%)]
+
 ]
 
-#answer([$sqrt(6)$])
+#answer([#mi(`\sqrt{6}`)])
 
 #solution[
-取直角坐标系使 $A=(0,0)$，$D=(-1,0)$，$P=(-3,0)$，这是因为 $D A=1$，$P D=2$. 设直线 $A E$ 的斜率为 $-t$，其中 $t>0$，设直线 $D E$ 的斜率为 $n>0$. 由两直线交点关系，
+取直角坐标系使 #mi(`A=(0,0)`)，#mi(`D=(-1,0)`)，#mi(`P=(-3,0)`)，这是因为 #mi(`DA=1`)，#mi(`PD=2`). 设直线 #mi(`AE`) 的斜率为 #mi(`-t`)，其中 #mi(`t>0`)，设直线 #mi(`DE`) 的斜率为 #mi(`n>0`). 由两直线交点关系，
 
-$ E=(-(n)/(t+n),(t n)/(t+n)) $
 
-设直线 $P E$ 的斜率为 $k$. 因为 $P E parallel B C$，且 $angle B C D= angle A$，所以两条斜率分别为 $k$ 和 $n$ 的直线夹角的正切为 $t$，即
+#align(center)[#mitex(`
+E=\left(-\frac{n}{t+n},\frac{tn}{t+n}\right)
+`)]
 
-$ t=(n-k)/(1+n k) $
 
-由点 $P$ 和点 $E$ 的坐标，
+设直线 #mi(`PE`) 的斜率为 #mi(`k`). 因为 #mi(`PE\parallel BC`)，且 #mi(`\angle BCD=\angle A`)，所以两条斜率分别为 #mi(`k`) 和 #mi(`n`) 的直线夹角的正切为 #mi(`t`)，即
 
-$ k=(t n)/(3 t+2 n) $
+
+#align(center)[#mitex(`
+t=\frac{n-k}{1+nk}
+`)]
+
+
+由点 #mi(`P`) 和点 #mi(`E`) 的坐标，
+
+
+#align(center)[#mitex(`
+k=\frac{tn}{3t+2n}
+`)]
+
 
 代入前式并化简，得
 
-$ n^2(2-t^2)=3 t^2 $
+
+#align(center)[#mitex(`
+n^{2}(2-t^{2})=3t^{2}
+`)]
+
 
 又
 
-$ P E^2=(3-(n)/(t+n))^2+((t n)/(t+n))^2 =((3 t+2 n)^2+t^(2) n^2)/((t+n)^2) $
 
-由 $n^2(2-t^2)=3 t^2$，分子与 $6(t+n)^2$ 的差为
+#align(center)[#mitex(`
+PE^{2}=\left(3-\frac{n}{t+n}\right)^{2}+\left(\frac{tn}{t+n}\right)^{2}  =\frac{(3t+2n)^{2}+t^{2}n^{2}}{(t+n)^{2}}
+`)]
 
-$ 3 t^2-2 n^2+t^(2) n^2=3 t^2-n^2(2-t^2)=0 $
 
-因此 $P E^2=6$，且 $P E>0$，所以 $P E=sqrt(6)$.
+由 #mi(`n^{2}(2-t^{2})=3t^{2}`)，分子与 #mi(`6(t+n)^{2}`) 的差为
+
+
+#align(center)[#mitex(`
+3t^{2}-2n^{2}+t^{2}n^{2}=3t^{2}-n^{2}(2-t^{2})=0
+`)]
+
+
+因此 #mi(`PE^{2}=6`)，且 #mi(`PE>0`)，所以 #mi(`PE=\sqrt{6}`).
 ]
 
 #problem(17)[
-圆锥曲线 $x = t^(2)$，$\ y = 2 t$（$t$ 为参数）的焦点坐标是#blank(){}.
+圆锥曲线 #mi(`x = t^{2}`)，#mi(`\ y = 2t`)（#mi(`t`) 为参数）的焦点坐标是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1, 0)$])
+#answer([#mi(`(1, 0)`)])
 
 #solution[
-由参数方程 $y=2 t$ 得 $t=(y)/(2)$，代入 $x=t^2$ 得
-$x=(y^2)/(4)$，$y^2=4 x$.
-这是顶点在原点、焦参数为 $1$ 的抛物线，标准式 $y^2=4 p x$ 中 $p=1$，故焦点坐标为 $(1,0)$.
+由参数方程 #mi(`y=2t`) 得 #mi(`t=\frac{y}{2}`)，代入 #mi(`x=t^{2}`) 得
+
+#mi(`x=\frac{y^{2}}{4}`)，#mi(`y^{2}=4x`).
+
+这是顶点在原点、焦参数为 #mi(`1`) 的抛物线，标准式 #mi(`y^{2}=4px`) 中 #mi(`p=1`)，故焦点坐标为 #mi(`(1,0)`).
 ]
 
 #part-header("解答题")
 
 #problem(18)[
-已知向量 $bold(a)= ( cos x, -(1)/(2))$，$bold(b)= (sqrt(3) sin x, cos 2 x)$，$x in RR$，设函数 $f(x) = bold(a) dot bold(b)$.
+已知向量 #mi(`\mathbf{a}= \left(\cos x, -\frac{1}{2}\right)`)，#mi(`\mathbf{b}= (\sqrt{3}\sin x, \cos 2x)`)，#mi(`x \in \mathbb{R}`)，设函数 #mi(`f(x) = \mathbf{a}\cdot \mathbf{b}`).
 
 
-+ (1) 求 $f(x)$ 的最小正周期.
-+ (2) 求 $f(x)$ 在 $[0, (pi)/(2)]$ 上的最大值和最小值.
++ (1)
 ]
 
 #solution[
 由向量数量积，
 
-$ f(x)=sqrt(3) sin x cos x-(1)/(2) cos 2 x =\f r a c{sqrt(3)}2 sin 2 x-(1)/(2) cos 2 x = sin (2 x-(pi)/(6)) $
 
-因为正弦函数的自变量系数为 $2$，且正弦、余弦两项的系数不同时为零，故 $f(x)$ 的最小正周期为
+#align(center)[#mitex(`
+f(x)=\sqrt{3}\sin x\cos x-\frac{1}{2}\cos2x  =\frac{\sqrt{3}}{2}\sin2x-\frac{1}{2}\cos2x  =\sin\left(2x-\frac{\pi}{6}\right)
+`)]
 
-$ T=(2 pi)/(2)= pi $
+
+因为正弦函数的自变量系数为 #mi(`2`)，且正弦、余弦两项的系数不同时为零，故 #mi(`f(x)`) 的最小正周期为
 
 
-当 $x in [0,(pi)/(2)]$ 时，令
+#align(center)[#mitex(`
+T=\frac{2\pi}{2}=\pi
+`)]
 
-$ theta =2 x-(pi)/(6) $
 
-则 $theta in [-(pi)/(6),(5 pi)/(6)]$. 在 $[-(pi)/(6),(pi)/(2)]$ 上，$sin theta$ 单调递增，在 $[(pi)/(2),(5 pi)/(6)]$ 上单调递减，因此在 $theta =(pi)/(2)$ 处取得最大值 $1$，对应 $x=(pi)/(3)$. 区间左端点给出
+当 #mi(`x\in\left[0,\frac{\pi}{2}\right]`) 时，令
 
-$ sin (-(pi)/(6))=-(1)/(2) $
 
-而从 $(pi)/(2)$ 到 $(5 pi)/(6)$ 时正弦值不小于 $(1)/(2)$，所以最小值为 $-(1)/(2)$. 因此最大值为 $1$，最小值为 $-(1)/(2)$.
+#align(center)[#mitex(`
+\theta=2x-\frac{\pi}{6}
+`)]
+
+
+则 #mi(`\theta\in\left[-\frac{\pi}{6},\frac{5\pi}{6}\right]`). 在 #mi(`\left[-\frac{\pi}{6},\frac{\pi}{2}\right]`) 上，#mi(`\sin\theta`) 单调递增，在 #mi(`\left[\frac{\pi}{2},\frac{5\pi}{6}\right]`) 上单调递减，因此在 #mi(`\theta=\frac{\pi}{2}`) 处取得最大值 #mi(`1`)，对应 #mi(`x=\frac{\pi}{3}`). 区间左端点给出
+
+
+#align(center)[#mitex(`
+\sin\left(-\frac{\pi}{6}\right)=-\frac{1}{2}
+`)]
+
+
+而从 #mi(`\frac{\pi}{2}`) 到 #mi(`\frac{5\pi}{6}`) 时正弦值不小于 #mi(`\frac{1}{2}`)，所以最小值为 #mi(`-\frac{1}{2}`). 因此最大值为 #mi(`1`)，最小值为 #mi(`-\frac{1}{2}`).
 ]
 
 #problem(19)[
-设 $S_(n)$ 表示数列 $\{a_(n)\}$ 的前 $n$ 项和.
+设 #mi(`S_{n}`) 表示数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和.
 
 
-+ (1) 若 $\{a_(n)\}$ 是等差数列，推导 $S_(n)$ 的计算公式.
-+ (2) 若 $a_(1) = 1$，$q != 0$，且对所有正整数 $n$，有 $S_(n) = (1 - q^(n))/(1 - q)$，判断 $\{a_(n)\}$ 是否为等比数列，并证明你的结论.
++ (1)
 ]
 
 #solution[
-（1）设等差数列的公差为 $d$，则
+（1）设等差数列的公差为 #mi(`d`)，则
 
-$ a_n=a_1+(n-1)d $
 
-把前 $n$ 项和倒序相加，得
+#align(center)[#mitex(`
+a_{n}=a_{1}+(n-1)d
+`)]
 
-$ \b e g i n{a l i g n e d} 2 S_n &=(a_1+a_n)+(a_2+a_(n-1))+ dots.c +(a_n+a_1)\\ &=n(a_1+a_n). \e n d{a l i g n e d} $
+
+把前 #mi(`n`) 项和倒序相加，得
+
+
+#align(center)[#mitex(`
+\begin{aligned}2S_{n}&=(a_{1}+a_{n})+(a_{2}+a_{n-1})+\cdots+(a_{n}+a_{1})\\&=n(a_{1}+a_{n}).\end{aligned}
+`)]
+
 
 所以
 
-$ S_n=(n(a_1+a_n))/(2)=(n)/(2)(2 a_1+(n-1)d) =n(a_1+(n-1)/(2)d) $
+
+#align(center)[#mitex(`
+S_{n}=\frac{n(a_{1}+a_{n})}{2}  =\frac{n}{2}\bigl(2a_{1}+(n-1)d\bigr)  =n\left(a_{1}+\frac{n-1}{2}d\right)
+`)]
 
 
-（2）题中等式有定义时 $q != 1$. 由 $n=1$ 得
+（2）题中等式有定义时 #mi(`q\ne1`). 由 #mi(`n=1`) 得
 
-$ S_1=(1-q)/(1-q)=1=a_1 $
 
-对 $n >= 2$，由 $a_n=S_n-S_(n-1)$ 得
+#align(center)[#mitex(`
+S_{1}=\frac{1-q}{1-q}=1=a_{1}
+`)]
 
-$ a_n=(1-q^n)/(1-q)-(1-q^(n-1))/(1-q)=(q^(n-1)-q^n)/(1-q)=q^(n-1) $
 
-因此 $a_1=q^0=1$，且对所有正整数 $n$ 都有 $a_n=q^(n-1)$. 所以 $\{a_n\}$ 是首项为 $1$、公比为 $q$ 的等比数列.
+对 #mi(`n\geqslant2`)，由 #mi(`a_{n}=S_{n}-S_{n-1}`) 得
+
+
+#align(center)[#mitex(`
+a_{n}=\frac{1-q^{n}}{1-q}-\frac{1-q^{n-1}}{1-q}=\frac{q^{n-1}-q^{n}}{1-q}=q^{n-1}
+`)]
+
+
+因此 #mi(`a_{1}=q^{0}=1`)，且对所有正整数 #mi(`n`) 都有 #mi(`a_{n}=q^{n-1}`). 所以 #mi(`\{a_{n}\}`) 是首项为 #mi(`1`)、公比为 #mi(`q`) 的等比数列.
 ]
 
 #problem(20)[
-如图，四棱柱 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 的底面 $A B C D$ 是正方形，$O$ 为底面中心，$A_(1)O bot$ 平面 $A B C D$，$A B = A A_(1) = sqrt(2)$.
+如图，四棱柱 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 的底面 #mi(`ABCD`) 是正方形，#mi(`O`) 为底面中心，#mi(`A_{1}O \perp`) 平面 #mi(`ABCD`)，#mi(`AB = AA_{1}= \sqrt{2}`).
 
 
-+ (1) 证明：平面 $A_(1)B D$ $parallel$ 平面 $C D_(1)B_(1)$.
-+ (2) 求三棱柱 $A B D - A_(1)B_(1)D_(1)$ 的体积.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2013/img/shaanxi_liberal/q20_fig1.png", width: 62%)]
+
+#align(center)[#image("/papers/2013/img/shaanxi_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-（1）在四棱柱中，$B D parallel B_(1) D_1$. 又因为
-
-$ arrow(A_(1) D)=arrow(A D)-arrow(A A_1)=arrow(B_(1) C) $
-
-所以 $A_(1) D parallel B_(1) C$. 平面 $A_(1) B D$ 内的相交直线 $B D$，$A_(1) D$ 分别平行于平面 $C D_(1) B_1$ 内的相交直线 $B_(1) D_1$，$B_(1) C$，故
-
-$ "平面 "A_(1) B D parallel "平面 "C D_(1) B_1 $
+（1）在四棱柱中，#mi(`BD\parallel B_{1}D_{1}`). 又因为
 
 
-（2）正方形边长为 $sqrt(2)$，其对角线长为 $2$，故
+#align(center)[#mitex(`
+\overrightarrow{A_1D}=\overrightarrow{AD}-\overrightarrow{AA_1}=\overrightarrow{B_1C}
+`)]
 
-$ A O=1 $
 
-由于 $A_(1) O bot$ 平面 $A B C D$，三角形 $A A_(1) O$ 在 $O$ 处直角，又 $A A_1=sqrt(2)$，所以
+所以 #mi(`A_{1}D\parallel B_{1}C`). 平面 #mi(`A_{1}BD`) 内的相交直线 #mi(`BD`)，#mi(`A_{1}D`) 分别平行于平面 #mi(`CD_{1}B_{1}`) 内的相交直线 #mi(`B_{1}D_{1}`)，#mi(`B_{1}C`)，故
 
-$ A_(1) O=sqrt(A A_1^2-A O^2)=sqrt(2-1)=1 $
 
-三角形 $A B D$ 的面积为正方形面积的一半，即
+#align(center)[#mitex(`
+\text{\text{平面} }A_{1}BD\parallel\text{\text{平面} }CD_{1}B_{1}
+`)]
 
-$ S_( triangle A B D)=(1)/(2)(sqrt(2))^2=1 $
 
-三棱柱的高为 $A_(1) O=1$，因此体积为
+（2）正方形边长为 #mi(`\sqrt{2}`)，其对角线长为 #mi(`2`)，故
 
-$ V=S_( triangle A B D) dot A_(1) O=1 $
+
+#align(center)[#mitex(`
+AO=1
+`)]
+
+
+由于 #mi(`A_{1}O\perp`) 平面 #mi(`ABCD`)，三角形 #mi(`AA_{1}O`) 在 #mi(`O`) 处直角，又 #mi(`AA_{1}=\sqrt{2}`)，所以
+
+
+#align(center)[#mitex(`
+A_{1}O=\sqrt{AA_{1}^{2}-AO^{2}}=\sqrt{2-1}=1
+`)]
+
+
+三角形 #mi(`ABD`) 的面积为正方形面积的一半，即
+
+
+#align(center)[#mitex(`
+S_{\triangle ABD}=\frac{1}{2}(\sqrt{2})^{2}=1
+`)]
+
+
+三棱柱的高为 #mi(`A_{1}O=1`)，因此体积为
+
+
+#align(center)[#mitex(`
+V=S_{\triangle ABD}\cdot A_{1}O=1
+`)]
 ]
 
 #problem(21)[
 有 7 位歌手（1至7号）参加一场歌唱比赛，由 500 名大众评委现场投票决定歌手名次. 根据年龄将大众评委分为五组，各组的人数如下：
 
-\begin{center}
 \begingroup
+
 \small
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{|c|c|c|c|c|c|}
+
 \hline
+
 组别 & A & B & C & D & E \\
+
 \hline
+
 人数 & 50 & 100 & 150 & 150 & 50 \\
+
 \hline
-\end{tabular}
+
 \endgroup
-\end{center}
 
 
-+ (1) 为了调查评委对 7 位歌手的支持情况，现用分层抽样方法从各组中抽取若干评委，其中从 B 组抽取了 6 人，请将其余各组抽取的人数填入下表.
-
-\begin{center}
-\begingroup
-\small
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-组别 & A & B & C & D & E \\
-\hline
-人数 & 50 & 100 & 150 & 150 & 50 \\
-\hline
-抽取人数 &  & 6 &  &  &  \\
-\hline
-\end{tabular}
-\endgroup
-\end{center}
-+ (2) 在上一问中，若 $A$，$B$ 两组被抽到的评委中各有 2 人支持 1 号歌手，现从这两组被抽到的评委中分别任选 1 人，求这 2 人都支持 1 号歌手的概率.
++ (1)
 ]
 
 #solution[
 （1）分层抽样按各组人数占总体人数的比例抽取. B 组抽取率为
 
-$ (6)/(100)=(3)/(50) $
+
+#align(center)[#mitex(`
+\frac{6}{100}=\frac{3}{50}
+`)]
+
 
 因此 A、C、D、E 组分别应抽取
-$50 dot (3)/(50)=3$，$150 dot (3)/(50)=9$，$150 dot (3)/(50)=9$，$50 dot (3)/(50)=3$.
-故各组抽取人数依次为 $3$，$6$，$9$，$9$，$3$.
+
+#mi(`50\cdot\frac{3}{50}=3`)，#mi(`150\cdot\frac{3}{50}=9`)，#mi(`150\cdot\frac{3}{50}=9`)，#mi(`50\cdot\frac{3}{50}=3`).
+
+故各组抽取人数依次为 #mi(`3`)，#mi(`6`)，#mi(`9`)，#mi(`9`)，#mi(`3`).
 
 （2）从 A 组抽到的评委中任选 1 人，其支持 1 号歌手的概率为
 
-$ (2)/(3) $
+
+#align(center)[#mitex(`
+\frac{2}{3}
+`)]
+
 
 从 B 组抽到的评委中任选 1 人，其支持 1 号歌手的概率为
 
-$ (2)/(6)=(1)/(3) $
+
+#align(center)[#mitex(`
+\frac{2}{6}=\frac{1}{3}
+`)]
+
 
 两次抽取分别来自两组，故所求概率为
 
-$ (2)/(3) dot (1)/(3)=(2)/(9) $
+
+#align(center)[#mitex(`
+\frac{2}{3}\cdot\frac{1}{3}=\frac{2}{9}
+`)]
 ]
 
 #problem(22)[
-已知动点 $M(x, y)$ 到直线 $l: x = 4$ 的距离是它到点 $N(1,0)$ 的距离的2倍.
+已知动点 #mi(`M(x, y)`) 到直线 #mi(`l: x = 4`) 的距离是它到点 #mi(`N(1,0)`) 的距离的2倍.
 
 
-+ (1) 求动点 $M$ 的轨迹 $C$ 的方程.
-+ (2) 过点 $P(0,3)$ 的直线 $m$ 与轨迹 $C$ 交于 $A$，$B$ 两点，若 $A$ 是 $P B$ 的中点，求直线 $m$ 的斜率.
++ (1)
 ]
 
 #solution[
-（1）点 $M(x,y)$ 到直线 $x=4$ 的距离为 $|x-4|$，到点 $N(1,0)$ 的距离为 $sqrt((x-1)^2+y^2)$. 由题意
+（1）点 #mi(`M(x,y)`) 到直线 #mi(`x=4`) 的距离为 #mi(`|x-4|`)，到点 #mi(`N(1,0)`) 的距离为 #mi(`\sqrt{(x-1)^{2}+y^{2}}`). 由题意
 
-$ |x-4|=2 sqrt((x-1)^2+y^2) $
+
+#align(center)[#mitex(`
+|x-4|=2\sqrt{(x-1)^{2}+y^{2}}
+`)]
+
 
 两边均非负，可以平方：
 
-$ (x-4)^2=4((x-1)^2+y^2) $
+
+#align(center)[#mitex(`
+(x-4)^{2}=4\bigl((x-1)^{2}+y^{2}\bigr)
+`)]
+
 
 展开并整理得
 
-$ 3 x^2+4 y^2=12 $
 
-即轨迹 $C$ 的方程为
-
-$ (x^2)/(4)+(y^2)/(3)=1 $
-
-
-（2）设 $A=(u,v)$. 因为 $A$ 是 $P B$ 的中点，且 $P=(0,3)$，所以
-
-$ B=2 A-P=(2 u,2 v-3) $
-
-点 $A$，$B$ 都在 $C$ 上，故
-
-$ 3 u^2+4 v^2=12 $
+#align(center)[#mitex(`
+3x^{2}+4y^{2}=12
+`)]
 
 
-$ 3(2 u)^2+4(2 v-3)^2=12 $
+即轨迹 #mi(`C`) 的方程为
+
+
+#align(center)[#mitex(`
+\frac{x^{2}}{4}+\frac{y^{2}}{3}=1
+`)]
+
+
+（2）设 #mi(`A=(u,v)`). 因为 #mi(`A`) 是 #mi(`PB`) 的中点，且 #mi(`P=(0,3)`)，所以
+
+
+#align(center)[#mitex(`
+B=2A-P=(2u,2v-3)
+`)]
+
+
+点 #mi(`A`)，#mi(`B`) 都在 #mi(`C`) 上，故
+
+
+#align(center)[#mitex(`
+3u^{2}+4v^{2}=12
+`)]
+
+
+
+#align(center)[#mitex(`
+3(2u)^{2}+4(2v-3)^{2}=12
+`)]
+
 
 即
 
-$ 3 u^2+(2 v-3)^2=3 $
+
+#align(center)[#mitex(`
+3u^{2}+(2v-3)^{2}=3
+`)]
+
 
 将后一式展开后与前式相减，得
 
-$ -12 v+9=-9 $
 
-所以 $v=(3)/(2)$. 代回 $3 u^2+4 v^2=12$，得
-$3 u^2+9=12$，$u^2=1$.
-因此 $u= +- 1$，且直线 $m=P A$ 的斜率为
+#align(center)[#mitex(`
+-12v+9=-9
+`)]
 
-$ k=(v-3)/(u)=(-(3)/(2))/(u)= +- (3)/(2) $
+
+所以 #mi(`v=\frac{3}{2}`). 代回 #mi(`3u^{2}+4v^{2}=12`)，得
+
+#mi(`3u^{2}+9=12`)，#mi(`u^{2}=1`).
+
+因此 #mi(`u=\pm1`)，且直线 #mi(`m=PA`) 的斜率为
+
+
+#align(center)[#mitex(`
+k=\frac{v-3}{u}=\frac{-\frac{3}{2}}{u}=\pm\frac{3}{2}
+`)]
 ]
 
 #problem(23)[
-已知函数 $f(x) = e ""^(x)$，$x in RR$.
+已知函数 #mi(`f(x) = \mathrm{e}^{x}`)，#mi(`x \in \mathbb{R}`).
 
 
-+ (1) 求 $f(x)$ 的反函数的图象上点 $(1,0)$ 处的切线方程.
-+ (2) 证明：曲线 $y = f(x)$ 与曲线 $y = (1)/(2)x^2 + x + 1$ 有唯一公共点.
-+ (3) 设 $a < b$，比较 $f((a + b)/(2))$ 与 $(f(b) - f(a))/(b - a)$ 的大小，并说明理由.
++ (1) 
++ (2)
 ]
 
 #solution[
-（1）由 $y= e ""^x$ 得 $x= ln y$，交换 $x$，$y$ 后，反函数为
-$y= ln x$，$x>0$.
-其导数为 $y'=(1)/(x)$，所以在点 $(1,0)$ 处的切线斜率为 $1$. 切线方程为
+（1）由 #mi(`y=\mathrm{e}^{x}`) 得 #mi(`x=\ln y`)，交换 #mi(`x`)，#mi(`y`) 后，反函数为
 
-$ y-0=1(x-1) $
+#mi(`y=\ln x`)，#mi(`x>0`).
 
-即 $y=x-1$.
+其导数为 #mi(`y'=\frac{1}{x}`)，所以在点 #mi(`(1,0)`) 处的切线斜率为 #mi(`1`). 切线方程为
+
+
+#align(center)[#mitex(`
+y-0=1(x-1)
+`)]
+
+
+即 #mi(`y=x-1`).
 
 （2）公共点的横坐标满足
 
-$ e ""^x=(1)/(2)x^2+x+1 $
+
+#align(center)[#mitex(`
+\mathrm{e}^{x}=\frac{1}{2}x^{2}+x+1
+`)]
+
 
 令
 
-$ h(x)= e ""^x-(1)/(2)x^2-x-1 $
 
-则 $h(0)=0$，且
-$h'(x)= e ""^x-x-1$，$h''(x)= e ""^x-1$.
-当 $x<0$ 时，$h''(x)<0$，而 $h'(0)=0$，所以 $h'(x)>0$；当 $x>0$ 时，$h''(x)>0$，所以 $h'(x)>h'(0)=0$. 因此 $h'(x)>0$ 对 $x != 0$ 成立，$h$ 在实数轴上严格递增. 由于 $h(0)=0$，方程 $h(x)=0$ 只有唯一解 $x=0$，对应 $y= e ""^0=1$. 故两曲线唯一公共点为 $(0,1)$.
+#align(center)[#mitex(`
+h(x)=\mathrm{e}^{x}-\frac{1}{2}x^{2}-x-1
+`)]
+
+
+则 #mi(`h(0)=0`)，且
+
+#mi(`h'(x)=\mathrm{e}^{x}-x-1`)，#mi(`h''(x)=\mathrm{e}^{x}-1`).
+
+当 #mi(`x<0`) 时，#mi(`h''(x)<0`)，而 #mi(`h'(0)=0`)，所以 #mi(`h'(x)>0`)；当 #mi(`x>0`) 时，#mi(`h''(x)>0`)，所以 #mi(`h'(x)>h'(0)=0`). 因此 #mi(`h'(x)>0`) 对 #mi(`x\ne0`) 成立，#mi(`h`) 在实数轴上严格递增. 由于 #mi(`h(0)=0`)，方程 #mi(`h(x)=0`) 只有唯一解 #mi(`x=0`)，对应 #mi(`y=\mathrm{e}^{0}=1`). 故两曲线唯一公共点为 #mi(`(0,1)`).
 
 （3）令
-$m=(a+b)/(2)$，$d=(b-a)/(2)>0$.
-则 $a=m-d$，$\ b=m+d$，从而
 
-$ (f(b)-f(a))/(b-a)=(e ""^(m+d)- e ""^(m-d))/(2 d)= e ""^m(e ""^d- e ""^(-d))/(2 d) $
+#mi(`m=\frac{a+b}{2}`)，#mi(`d=\frac{b-a}{2}>0`).
 
-令 $phi.alt (d)= e ""^d- e ""^(-d)-2 d$. 有 $phi.alt (0)=0$，且当 $d>0$ 时
+则 #mi(`a=m-d`)，#mi(`\ b=m+d`)，从而
 
-$ phi.alt '(d)= e ""^d+ e ""^(-d)-2>0 $
 
-其中不等号由 $e ""^d$ 与 $e ""^(-d)$ 的算术—几何平均不等式得到，且 $d>0$ 时不取等. 因而 $phi.alt (d)>0$，即
+#align(center)[#mitex(`
+\frac{f(b)-f(a)}{b-a}=\frac{\mathrm{e}^{m+d}-\mathrm{e}^{m-d}}{2d}=\mathrm{e}^{m}\frac{\mathrm{e}^{d}-\mathrm{e}^{-d}}{2d}
+`)]
 
-$ (e ""^d- e ""^(-d))/(2 d)>1 $
 
-由于 $e ""^m>0$，所以
+令 #mi(`\varphi(d)=\mathrm{e}^{d}-\mathrm{e}^{-d}-2d`). 有 #mi(`\varphi(0)=0`)，且当 #mi(`d>0`) 时
 
-$ (f(b)-f(a))/(b-a)> e ""^m =f((a+b)/(2)) $
+
+#align(center)[#mitex(`
+\varphi'(d)=\mathrm{e}^{d}+\mathrm{e}^{-d}-2>0
+`)]
+
+
+其中不等号由 #mi(`\mathrm{e}^{d}`) 与 #mi(`\mathrm{e}^{-d}`) 的算术—几何平均不等式得到，且 #mi(`d>0`) 时不取等. 因而 #mi(`\varphi(d)>0`)，即
+
+
+#align(center)[#mitex(`
+\frac{\mathrm{e}^{d}-\mathrm{e}^{-d}}{2d}>1
+`)]
+
+
+由于 #mi(`\mathrm{e}^{m}>0`)，所以
+
+
+#align(center)[#mitex(`
+\frac{f(b)-f(a)}{b-a}>\mathrm{e}^{m}  =f\left(\frac{a+b}{2}\right)
+`)]
 ]
 

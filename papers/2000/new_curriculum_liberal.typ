@@ -86,14 +86,22 @@
 #solution[
 在第一象限，正弦函数递增而余弦函数递减；在第二象限，正弦函数递减而正切函数递增；在第三象限，正弦函数递减而余弦函数递增；在第四象限，正弦函数递增且正切函数递增.
 
-若 #mi(`\alpha`)，#mi(`\beta`) 均为第一象限角，由 #mi(`\sin\alpha>\sin\beta`) 得 #mi(`\alpha>\beta`)，于是 #mi(`\cos\alpha<\cos\beta`)，命题#mi(`①`)所述不成立. 若二者均为第二象限角，则 #mi(`\alpha<\beta`)，从而 #mi(`\tan\alpha<\tan\beta`)，命题#mi(`②`)不成立. 若二者均为第三象限角，同样由正弦函数的单调性得 #mi(`\alpha<\beta`)，于是 #mi(`\cos\alpha<\cos\beta`)，命题#mi(`③`)不成立.
+若 #mi(`\alpha`)，#mi(`\beta`) 均为第一象限角，由 #mi(`\sin\alpha>\sin\beta`) 得 #mi(`\alpha>\beta`)，于是 #mi(`\cos\alpha<\cos\beta`)，命题#mi(`①`) 所述不成立. 若二者均为第二象限角，则 #mi(`\alpha<\beta`)，从而 #mi(`\tan\alpha<\tan\beta`)，命题#mi(`②`) 不成立. 若二者均为第三象限角，同样由正弦函数的单调性得 #mi(`\alpha<\beta`)，于是 #mi(`\cos\alpha<\cos\beta`)，命题#mi(`③`) 不成立.
 
-若二者均为第四象限角，由正弦函数递增得 #mi(`\alpha>\beta`)，再由正切函数递增得 #mi(`\tan\alpha>\tan\beta`)，所以命题#mi(`④`)成立，选 D.
+若二者均为第四象限角，由正弦函数递增得 #mi(`\alpha>\beta`)，再由正切函数递增得 #mi(`\tan\alpha>\tan\beta`)，所以命题#mi(`④`) 成立，选 D.
 ]
 
 #problem(5)[
 函数 #mi(`y = -x\cos x`) 的部分图象是（ ）
-  #choices([[width=0.15\paperwidth]img/2000/new_curriculum_liberal/q5_optA.png], [[width=0.15\paperwidth]img/2000/new_curriculum_liberal/q5_optB.png], [[width=0.15\paperwidth]img/2000/new_curriculum_liberal/q5_optC.png], [[width=0.15\paperwidth]img/2000/new_curriculum_liberal/q5_optD.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2000/img/new_curriculum_liberal/q5_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2000/img/new_curriculum_liberal/q5_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2000/img/new_curriculum_liberal/q5_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2000/img/new_curriculum_liberal/q5_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D])
@@ -453,7 +461,9 @@
 
 
 
-[max width=0.75\linewidth]img/2000/new_curriculum_liberal/q18_fig1.png
+
+#align(center)[#image("/papers/2000/img/new_curriculum_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -475,7 +485,9 @@
 
 \rightskip=0pt\relax
 
-[max width=0.7\linewidth]img/2000/new_curriculum_liberal/q19_fig1.png
+
+#align(center)[#image("/papers/2000/img/new_curriculum_liberal/q19_fig1.png", width: 28%)]
+
 
 \endgroup
 ]
@@ -558,7 +570,9 @@
 #problem(23)[
 如图，已知梯形 #mi(`ABCD`) 中 #mi(`|AB| = 2|CD|`)，点 #mi(`E`) 分有向线段 #mi(`\overrightarrow{AC}`) 所成的比为 #mi(`\lambda`)，双曲线过 #mi(`C`)，#mi(`D`)，#mi(`E`) 三点，且以 #mi(`A`)，#mi(`B`) 为焦点，当 #mi(`\frac{2}{3}\le \lambda \le \frac{3}{4}`) 时，求双曲线离心率 #mi(`e`) 的取值范围.
 
-[max width=0.38\linewidth]img/2000/new_curriculum_liberal/q22_fig1.png
+
+#align(center)[#image("/papers/2000/img/new_curriculum_liberal/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[

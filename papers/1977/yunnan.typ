@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,254 +11,322 @@
 #part-header("解答题")
 
 #problem(1)[
-+ (1) 计算 $((8 x^(-3))/(sqrt(y^3)z^(-6)))^(-(1)/(3))$（$=$？）
-+ (2) 计算 $cos (3 pi)/(8) dot cos (pi)/(8)$ 之值.
-+ (3) 计算 $log _3(1)/(27)+ log _((1)/(2))8+ log _2 8+ log _4 64$（$=$？）
-+ (4) 解方程 $2 sqrt(x-3)+6=x$.
++ (1) 
++ (2) 
++ (3)
 ]
 
 #solution[
-+ (1) 原式在实数范围内有意义时，必须有 $x\n e q0$、$y>0$ 且 $z\n e q0$. 由于 $y>0$，有 $sqrt(y^3)=y^((3)/(2))$，于是
-
-$ (8 x^(-3))/(sqrt(y^3)z^(-6))=(2^(3) x^(-3))/(y^((3)/(2))z^(-6))=2^(3) x^(-3)y^(-(3)/(2))z^6 $
-
-因此
-
-$ ((8 x^(-3))/(sqrt(y^3)z^(-6)))^(-(1)/(3)) =(2^(3) x^(-3)y^(-(3)/(2))z^6)^(-(1)/(3)) =2^(-1)x y^((1)/(2))z^(-2) =(x s q r t(y))/(2 z^2) $
-+ (2) 由余函数关系，
-
-$ cos (3 pi)/(8)= sin ((pi)/(2)-(3 pi)/(8)) = sin (pi)/(8) $
-
-所以
-
-$ cos (3 pi)/(8) dot cos (pi)/(8)= sin (pi)/(8) cos (pi)/(8)=(1)/(2) sin (pi)/(4)=(sqrt(2))/(4) $
-+ (3) 将各真数写成相应底数的幂，得
-$log _3(1)/(27)= log _3 3^(-3)=-3$，$log _((1)/(2))8= log _((1)/(2))((1)/(2))^(-3)=-3$
-$log _2 8= log _2 2^3=3$，$log _4 64= log _4 4^3=3$.
-因此原式的值为 $-3-3+3+3=0$.
-+ (4) 原方程有意义的条件是 $x-3 >= 0$. 令
-
-$ y=sqrt(x-3) $
-
-则 $y >= 0$，且 $x=y^2+3$. 代入原方程，得
-
-$ 2 y+6=y^2+3 $
-
-即
-$y^2-2 y-3=0$，$(y-3)(y+1)=0$.
-所以 $y=3$ 或 $y=-1$. 由 $y >= 0$，只能取 $y=3$，从而 $x=3^2+3=12$. 代回原方程，$2 sqrt(12-3)+6=2 times 3 +6=12$，故原方程的解为 $x=12$.
++ (1) 
++ (2) 
++ (3)
 ]
 
 #problem(2)[
-某拖拉机厂为了支援农业生产，在预定期限内计划生产一批新型拖拉机，若按原来每天生产 $20"~台"$，则差 $100"~台"$ 不能按时完成任务；在揭批“四人帮”的伟大运动的推动下，每天生产了 $25"~台"$，结果到期比原计划超额 $50"~台"$，问原计划生产拖拉机多少台？预定期限是多少天？
+某拖拉机厂为了支援农业生产，在预定期限内计划生产一批新型拖拉机，若按原来每天生产 #mi(`20\text{~\text{台}}`)，则差 #mi(`100\text{~\text{台}}`) 不能按时完成任务；在揭批“四人帮”的伟大运动的推动下，每天生产了 #mi(`25\text{~\text{台}}`)，结果到期比原计划超额 #mi(`50\text{~\text{台}}`)，问原计划生产拖拉机多少台？预定期限是多少天？
 ]
 
 #solution[
-设预定期限为 $x"~天"$，原计划生产拖拉机 $y"~台"$. 按原计划每天生产 $20"~台"$，到期还差 $100"~台"$，所以
+设预定期限为 #mi(`x\text{~\text{天}}`)，原计划生产拖拉机 #mi(`y\text{~\text{台}}`). 按原计划每天生产 #mi(`20\text{~\text{台}}`)，到期还差 #mi(`100\text{~\text{台}}`)，所以
 
-$ y=20 x+100 $
 
-每天生产 $25"~台"$ 时，到期比原计划多生产 $50"~台"$，所以
+#align(center)[#mitex(`
+y=20x+100
+`)]
 
-$ 25 x=y+50 $
 
-即 $y=25 x-50$. 因此根据题意，得方程组
+每天生产 #mi(`25\text{~\text{台}}`) 时，到期比原计划多生产 #mi(`50\text{~\text{台}}`)，所以
 
-$ \b e g i n{c a s e s} y=20 x+100,\\ y=25 x-50. \e n d{c a s e s} $
 
-比较两式，得 $20 x+100=25 x-50$，所以 $5 x=150$，从而 $x=30$. 代入 $y=20 x+100$，得
+#align(center)[#mitex(`
+25x=y+50
+`)]
 
-$ y=20 times 30 +100=700 $
 
-由于 $x>0$、$y>0$，所得结果符合题意. 答：原计划生产拖拉机 $700"~台"$，预定期限是 $30"~天"$.
+即 #mi(`y=25x-50`). 因此根据题意，得方程组
+
+
+#align(center)[#mitex(`
+\begin{cases}y=20x+100,\\  y=25x-50.\end{cases}
+`)]
+
+
+比较两式，得 #mi(`20x+100=25x-50`)，所以 #mi(`5x=150`)，从而 #mi(`x=30`). 代入 #mi(`y=20x+100`)，得
+
+
+#align(center)[#mitex(`
+y=20\times30+100=700
+`)]
+
+
+由于 #mi(`x>0`)、#mi(`y>0`)，所得结果符合题意. 答：原计划生产拖拉机 #mi(`700\text{~\text{台}}`)，预定期限是 #mi(`30\text{~\text{天}}`).
 ]
 
 #problem(3)[
-如图，设两圆相切于 $C$ 点，$P Q$ 是两圆的外公切线，$A$，$B$ 分别为 $P Q$ 与两圆相切的切点，试证明 $A C bot B C$.
+如图，设两圆相切于 #mi(`C`) 点，#mi(`PQ`) 是两圆的外公切线，#mi(`A`)，#mi(`B`) 分别为 #mi(`PQ`) 与两圆相切的切点，试证明 #mi(`AC\perp BC`).
 
 
-#align(center)[#image("/papers/1977/img/yunnan/q3_fig1.png", width: 6.8cm)]
+#align(center)[#image("/papers/1977/img/yunnan/q3_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-过两圆的切点 $C$ 作两圆的内公切线 $C D$，交外公切线 $P Q$ 于 $D$. 由同一点向同一圆所作的两条切线长相等，得
-$D A=D C$，$D B=D C$.
-因此，在等腰三角形 $A D C$ 和 $B D C$ 中，分别有
-$angle D A C= angle D C A$，$angle D C B= angle D B C$.
-又因为 $A$，$D$，$B$ 共线，射线 $D A$ 与 $D B$ 方向相反，所以
+过两圆的切点 #mi(`C`) 作两圆的内公切线 #mi(`CD`)，交外公切线 #mi(`PQ`) 于 #mi(`D`). 由同一点向同一圆所作的两条切线长相等，得
 
-$ angle A D C+ angle C D B=180^ degree $
+#mi(`DA=DC`)，#mi(`DB=DC`).
 
-将三角形 $A D C$ 和 $B D C$ 的内角和相加，得到
+因此，在等腰三角形 #mi(`ADC`) 和 #mi(`BDC`) 中，分别有
 
-$ angle D A C+ angle D C A+ angle D C B+ angle D B C=180^ degree $
+#mi(`\angle DAC=\angle DCA`)，#mi(`\angle DCB=\angle DBC`).
 
-而射线 $C D$ 位于 $angle A C B$ 的内部，故
+又因为 #mi(`A`)，#mi(`D`)，#mi(`B`) 共线，射线 #mi(`DA`) 与 #mi(`DB`) 方向相反，所以
 
-$ angle A C B= angle D C A+ angle D C B=90^ degree $
 
-所以 $A C bot B C$.
+#align(center)[#mitex(`
+\angle ADC+\angle CDB=180^{\circ}
+`)]
+
+
+将三角形 #mi(`ADC`) 和 #mi(`BDC`) 的内角和相加，得到
+
+
+#align(center)[#mitex(`
+\angle DAC+\angle DCA+\angle DCB+\angle DBC=180^{\circ}
+`)]
+
+
+而射线 #mi(`CD`) 位于 #mi(`\angle ACB`) 的内部，故
+
+
+#align(center)[#mitex(`
+\angle ACB=\angle DCA+\angle DCB=90^{\circ}
+`)]
+
+
+所以 #mi(`AC\perp BC`).
 ]
 
 #problem(4)[
-求过 $x^2+y^2=4$ 上一点 $P(1,sqrt(3))$ 的切线 $L$ 的方程.
+求过 #mi(`x^{2}+y^{2}=4`) 上一点 #mi(`P\left(1,\sqrt{3}\right)`) 的切线 #mi(`L`) 的方程.
 ]
 
 #solution[
-圆 $x^2+y^2=4$ 的圆心为 $O(0,0)$，半径为 $2$. 先验证
+圆 #mi(`x^{2}+y^{2}=4`) 的圆心为 #mi(`O\left(0,0\right)`)，半径为 #mi(`2`). 先验证
 
-$ 1^2+(sqrt(3))^2=4 $
 
-所以 $P(1,sqrt(3))$ 在圆上. 半径 $O P$ 垂直于过 $P$ 的切线，故切线的法向量可取 $(1,sqrt(3))$. 由点法式，切线 $L$ 满足
+#align(center)[#mitex(`
+1^{2}+\left(\sqrt{3}\right)^{2}=4
+`)]
 
-$ 1(x-1)+sqrt(3)(y-sqrt(3))=0 $
+
+所以 #mi(`P\left(1,\sqrt{3}\right)`) 在圆上. 半径 #mi(`OP`) 垂直于过 #mi(`P`) 的切线，故切线的法向量可取 #mi(`\left(1,\sqrt{3}\right)`). 由点法式，切线 #mi(`L`) 满足
+
+
+#align(center)[#mitex(`
+1\left(x-1\right)+\sqrt{3}\left(y-\sqrt{3}\right)=0
+`)]
+
 
 整理得
 
-$ x+sqrt(3)y-4=0 $
 
-代入点 $P$ 可得 $1+3-4=0$，故该直线确实经过 $P$. 答：切线 $L$ 的方程为 $x+sqrt(3)y-4=0$.
+#align(center)[#mitex(`
+x+\sqrt{3}y-4=0
+`)]
+
+
+代入点 #mi(`P`) 可得 #mi(`1+3-4=0`)，故该直线确实经过 #mi(`P`). 答：切线 #mi(`L`) 的方程为 #mi(`x+\sqrt{3}y-4=0`).
 ]
 
 #problem(5)[
-一船以 $24"~浬/小时"$ 的速度向正北航行，在 $A_1$ 点望见一灯塔 $S$，在船的北偏东 $30^ degree$，$15"~分钟"$ 后，在 $A_2$ 点望见灯塔在船的北偏东 $65^ degree$（如图），求船在 $A_2$ 点时，与灯塔的距离 $A_(2) S$.（已知 $sin 35 ""^ degree =0.574$）
+一船以 #mi(`24\text{~\text{浬}/\text{小时}}`) 的速度向正北航行，在 #mi(`A_{1}`) 点望见一灯塔 #mi(`S`)，在船的北偏东 #mi(`30^{\circ}`)，#mi(`15\text{~\text{分钟}}`) 后，在 #mi(`A_{2}`) 点望见灯塔在船的北偏东 #mi(`65^{\circ}`)（如图），求船在 #mi(`A_{2}`) 点时，与灯塔的距离 #mi(`A_{2}S`).（已知 #mi(`\sin35^{\circ}=0.574`)）
 
 
-#align(center)[#image("/papers/1977/img/yunnan/q5_fig1.png", width: 6.0cm)]
+#align(center)[#image("/papers/1977/img/yunnan/q5_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-船沿正北方向航行，因此 $A_(1) A_2$ 沿正北方向. 在 $A_1$ 点，射线 $A_(1) S$ 为北偏东 $30^ degree$，所以
+船沿正北方向航行，因此 #mi(`A_{1}A_{2}`) 沿正北方向. 在 #mi(`A_{1}`) 点，射线 #mi(`A_{1}S`) 为北偏东 #mi(`30^{\circ}`)，所以
 
-$ angle S A_(1) A_2=30^ degree $
 
-在 $A_2$ 点，射线 $A_(2) A_1$ 指向正南，而射线 $A_(2) S$ 为北偏东 $65^ degree$，所以
+#align(center)[#mitex(`
+\angle SA_{1}A_{2}=30^{\circ}
+`)]
 
-$ angle S A_(2) A_1=180^ degree -65^ degree =115^ degree $
+
+在 #mi(`A_{2}`) 点，射线 #mi(`A_{2}A_{1}`) 指向正南，而射线 #mi(`A_{2}S`) 为北偏东 #mi(`65^{\circ}`)，所以
+
+
+#align(center)[#mitex(`
+\angle SA_{2}A_{1}=180^{\circ}-65^{\circ}=115^{\circ}
+`)]
+
 
 从而
 
-$ angle A_(1) S A_2=180^ degree -30^ degree -115^ degree =35^ degree $
 
-船行驶了 $15$ 分钟，即 $(15)/(60)$ 小时，所以
+#align(center)[#mitex(`
+\angle A_{1}SA_{2}=180^{\circ}-30^{\circ}-115^{\circ}=35^{\circ}
+`)]
 
-$ A_(1) A_2=24 times (15)/(60)=6"~浬" $
 
-在三角形 $A_(1) A_(2) S$ 中，由正弦定理，
+船行驶了 #mi(`15`) 分钟，即 #mi(`\frac{15}{60}`) 小时，所以
 
-$ (A_(2) S)/(sin angle S A_(1) A_2)=(A_(1) A_2)/(sin angle A_(1) S A_2) $
+
+#align(center)[#mitex(`
+A_{1}A_{2}=24\times\frac{15}{60}=6\text{~\text{浬}}
+`)]
+
+
+在三角形 #mi(`A_{1}A_{2}S`) 中，由正弦定理，
+
+
+#align(center)[#mitex(`
+\frac{A_{2}S}{\sin\angle SA_{1}A_{2}}=\frac{A_{1}A_{2}}{\sin\angle A_{1}SA_{2}}
+`)]
+
 
 所以
 
-$ A_(2) S=(6 sin 30 ""^ degree)/(sin 35 ""^ degree)=(6 times (1)/(2))/(0.574) approx 5 .23"~浬" $
+
+#align(center)[#mitex(`
+A_{2}S=\frac{6\sin30^{\circ}}{\sin35^{\circ}}=\frac{6\times\frac{1}{2}}{0.574}\approx5.23\text{~\text{浬}}
+`)]
 
 
-答：船在 $A_2$ 点时与灯塔的距离约等于 $5.23"~浬"$.
+答：船在 #mi(`A_{2}`) 点时与灯塔的距离约等于 #mi(`5.23\text{~\text{浬}}`).
 ]
 
 #problem(6)[
-直角三角形中的一个锐角为 $beta$，面积是12.
+直角三角形中的一个锐角为 #mi(`\beta`)，面积是12.
 
 
-+ (1) 求此三角形的外接圆的面积；
-+ (2) 当 $beta$ 取何值时，外接圆的面积最小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/1977/img/yunnan/q6_fig1.png", width: 4.8cm)]
+
+#align(center)[#image("/papers/1977/img/yunnan/q6_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设直角三角形为 $A B C$，其中 $angle C=90^ degree$、$angle B= beta$，外接圆半径为 $R$. 因为直角三角形的斜边是外接圆的直径，所以 $A B=2 R$. 又因为 $0< beta <90^ degree$，在直角三角形中有
-$A C=2 R sin beta$，$B C=2 R cos beta$.
-由三角形面积为 $12$，得
-
-$ (1)/(2) dot 2 R sin beta dot 2 R cos beta =12 $
-
-即
-$R^2 sin (2 beta )=12$，$R^2=(12)/(sin (2 beta ))$.
-所以外接圆的面积为
-
-$ pi R^2=(12 pi)/(sin (2 beta )) $
-
-答：此三角形外接圆的面积为 $(12 pi)/(sin (2 beta ))$.
-+ (2) 因为 $0<2 beta <180^ degree$，所以 $0< sin (2 beta ) <= 1$. 因而
-
-$ (12 pi)/(sin (2 beta )) >= 12 pi $
-
-当且仅当 $sin (2 beta )=1$ 时取等号，即 $2 beta =90^ degree$，所以 $beta =45^ degree$. 此时外接圆面积的最小值为 $12 pi$. 答：当 $beta =45^ degree$ 时，外接圆的面积最小.
++ (1)
 ]
 
 #problem(7)[
-一个三角形三边的比为 $4:5:6$，面积为 $27 sqrt(7)~c m^2$，求三边之长.
+一个三角形三边的比为 #mi(`4:5:6`)，面积为 #mi(`27\sqrt{7}\,\mathrm{~cm}^{2}`)，求三边之长.
 ]
 
 #solution[
-设三边长分别为 $a=4 x~c m$、$b=5 x~c m$、$c=6 x~c m$，其中 $x>0$. 半周长为
+设三边长分别为 #mi(`a=4x\mathrm{~cm}`)、#mi(`b=5x\mathrm{~cm}`)、#mi(`c=6x\mathrm{~cm}`)，其中 #mi(`x>0`). 半周长为
 
-$ s=(a+b+c)/(2)=(4 x+5 x+6 x)/(2)~c m=(15 x)/(2)~c m $
+
+#align(center)[#mitex(`
+s=\frac{a+b+c}{2}=\frac{4x+5x+6x}{2}\mathrm{~cm}=\frac{15x}{2}\mathrm{~cm}
+`)]
+
 
 因此
-$s-a=(7 x)/(2)~c m$，$s-b=(5 x)/(2)~c m$，$s-c=(3 x)/(2)~c m$.
+
+#mi(`s-a=\frac{7x}{2}\mathrm{~cm}`)，#mi(`s-b=\frac{5x}{2}\mathrm{~cm}`)，#mi(`s-c=\frac{3x}{2}\mathrm{~cm}`).
+
 由海伦公式，三角形面积满足
 
-$ 27 sqrt(7)~c m^2 =sqrt(s(s-a)(s-b)(s-c))=(15 sqrt(7))/(4)x^2~c m^2 $
 
-约去 $sqrt(7)~c m^2$，得 $(15)/(4)x^2=27$，所以
+#align(center)[#mitex(`
+27\sqrt{7}\mathrm{~cm}^{2}  =\sqrt{s\left(s-a\right)\left(s-b\right)\left(s-c\right)}=\frac{15\sqrt{7}}{4}x^{2}\mathrm{~cm}^{2}
+`)]
 
-$ x^2=(36)/(5) $
 
-由于 $x>0$，故 $x=(6 sqrt(5))/(5)$. 于是
-$a=(24 sqrt(5))/(5)~c m$，$b=6 sqrt(5)~c m$，$c=(36 sqrt(5))/(5)~c m$.
-三边满足三角形不等式，故结果符合题意. 答：三边之长分别为 $(24 sqrt(5))/(5)~c m$、$6 sqrt(5)~c m$、$(36 sqrt(5))/(5)~c m$.
+约去 #mi(`\sqrt{7}\mathrm{~cm}^{2}`)，得 #mi(`\frac{15}{4}x^{2}=27`)，所以
+
+
+#align(center)[#mitex(`
+x^{2}=\frac{36}{5}
+`)]
+
+
+由于 #mi(`x>0`)，故 #mi(`x=\frac{6\sqrt{5}}{5}`). 于是
+
+#mi(`a=\frac{24\sqrt{5}}{5}\mathrm{~cm}`)，#mi(`b=6\sqrt{5}\mathrm{~cm}`)，#mi(`c=\frac{36\sqrt{5}}{5}\mathrm{~cm}`).
+
+三边满足三角形不等式，故结果符合题意. 答：三边之长分别为 #mi(`\frac{24\sqrt{5}}{5}\mathrm{~cm}`)、#mi(`6\sqrt{5}\mathrm{~cm}`)、#mi(`\frac{36\sqrt{5}}{5}\mathrm{~cm}`).
 ]
 
 #part-header("参考题")
 
 #problem(8)[
-某生产队要建造一个体积为 $50"~立方米"$ 的有盖圆柱形氨水池（如图），问这个氨水池高和底半径取多大时用料最省（即表面积最小）？
+某生产队要建造一个体积为 #mi(`50\text{~\text{立方米}}`) 的有盖圆柱形氨水池（如图），问这个氨水池高和底半径取多大时用料最省（即表面积最小）？
 
 
-#align(center)[#image("/papers/1977/img/yunnan/q8_fig1.png", width: 4.6cm)]
+#align(center)[#image("/papers/1977/img/yunnan/q8_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设底面半径为 $r"~m"$，高为 $h"~m"$，则 $r>0$、$h>0$. 由圆柱体积为 $50"~m"^3$，得
-$pi r^(2) h=50$，$h=(50)/(pi r^2)$.
+设底面半径为 #mi(`r\text{~m}`)，高为 #mi(`h\text{~m}`)，则 #mi(`r>0`)、#mi(`h>0`). 由圆柱体积为 #mi(`50\text{~m}^{3}`)，得
+
+#mi(`\pi r^{2}h=50`)，#mi(`h=\frac{50}{\pi r^{2}}`).
+
 氨水池有盖，所以表面积为两个底面面积与侧面积之和，即
 
-$ S=2 pi r^2+2 pi r h =2 pi r^2+(100)/(r) $
+
+#align(center)[#mitex(`
+S=2\pi r^{2}+2\pi rh  =2\pi r^{2}+\frac{100}{r}
+`)]
 
 
-方法一：将 $S$ 看作 $r$ 的函数，则
-$S'(r)=4 pi r-(100)/(r^2)$，$S''(r)=4 pi +(200)/(r^3)>0$.
-所以 $S$ 在 $r>0$ 上为严格凸函数. 令 $S'(r)=0$，得
+方法一：将 #mi(`S`) 看作 #mi(`r`) 的函数，则
 
-$ 4 pi r-(100)/(r^2)=0 <=> 4 pi r^3=100 <=> r=\sqrt[3]{(25)/(pi)} $
+#mi(`S'(r)=4\pi r-\frac{100}{r^{2}}`)，#mi(`S''(r)=4\pi+\frac{200}{r^{3}}>0`).
 
-这是正数范围内的唯一驻点，且由 $S''(r)>0$ 可知此时表面积取得最小值. 代入体积条件，
+所以 #mi(`S`) 在 #mi(`r>0`) 上为严格凸函数. 令 #mi(`S'(r)=0`)，得
 
-$ h=(50)/(pi r^2)=2\sqrt[3]{(25)/(pi)}=2 r $
+
+#align(center)[#mitex(`
+4\pi r-\frac{100}{r^{2}}=0  \Longleftrightarrow  4\pi r^{3}=100  \Longleftrightarrow  r=\sqrt[3]{\frac{25}{\pi}}
+`)]
+
+
+这是正数范围内的唯一驻点，且由 #mi(`S''(r)>0`) 可知此时表面积取得最小值. 代入体积条件，
+
+
+#align(center)[#mitex(`
+h=\frac{50}{\pi r^{2}}=2\sqrt[3]{\frac{25}{\pi}}=2r
+`)]
 
 
 方法二：由上式，
 
-$ S=2 pi r^2+(50)/(r)+(50)/(r) >= 3 \sqrt[3]{(2 pi r^2) dot (50)/(r) dot (50)/(r)} =3 root(3, 5000 pi ) $
+
+#align(center)[#mitex(`
+S=2\pi r^{2}+\frac{50}{r}+\frac{50}{r}\geqslant3\sqrt[3]{\left(2\pi r^{2}\right)\cdot\frac{50}{r}\cdot\frac{50}{r}}=3\sqrt[3]{5000\pi}
+`)]
+
 
 当且仅当
 
-$ 2 pi r^2=(50)/(r)=(50)/(r) $
 
-时取等号，解得 $r=\sqrt[3]{(25)/(pi)}$. 此时 $h=(50)/(pi r^2)=2 r$. 因而两种方法均得到：当底面半径为 $\sqrt[3]{(25)/(pi)}"~m"$、高为 $2\sqrt[3]{(25)/(pi)}"~m"$，即高等于底面直径时，用料最省. 答：底面半径取 $\sqrt[3]{(25)/(pi)}"~m"$，高取 $2\sqrt[3]{(25)/(pi)}"~m"$.
+#align(center)[#mitex(`
+2\pi r^{2}=\frac{50}{r}=\frac{50}{r}
+`)]
+
+
+时取等号，解得 #mi(`r=\sqrt[3]{\frac{25}{\pi}}`). 此时 #mi(`h=\frac{50}{\pi r^{2}}=2r`). 因而两种方法均得到：当底面半径为 #mi(`\sqrt[3]{\frac{25}{\pi}}\text{~m}`)、高为 #mi(`2\sqrt[3]{\frac{25}{\pi}}\text{~m}`)，即高等于底面直径时，用料最省. 答：底面半径取 #mi(`\sqrt[3]{\frac{25}{\pi}}\text{~m}`)，高取 #mi(`2\sqrt[3]{\frac{25}{\pi}}\text{~m}`).
 ]
 
 #problem(9)[
-求 $\i n t_0^2(x)/(sqrt(1+x^2))d x$.
+求 #mi(`\int_{0}^{2}\frac{x}{\sqrt{1+x^{2}}}\,\mathrm{d}x`).
 ]
 
 #solution[
-令 $u=1+x^2$，则 $d u=2 x d x$. 当 $x=0$ 时 $u=1$，当 $x=2$ 时 $u=5$. 因此
+令 #mi(`u=1+x^{2}`)，则 #mi(`\mathrm{d}u=2x\,\mathrm{d}x`). 当 #mi(`x=0`) 时 #mi(`u=1`)，当 #mi(`x=2`) 时 #mi(`u=5`). 因此
 
-$ \i n t_0^2(x)/(sqrt(1+x^2))d x =(1)/(2)\i n t_1^(5) u^(-(1)/(2)) d u =.sqrt(u)|_1^5 =sqrt(5)-1 $
+
+#align(center)[#mitex(`
+\int_{0}^{2}\frac{x}{\sqrt{1+x^{2}}}\,\mathrm{d}x  =\frac{1}{2}\int_{1}^{5}u^{-\frac{1}{2}}\,\mathrm{d}u  =\left.\sqrt{u}\right|_{1}^{5}  =\sqrt{5}-1
+`)]
 ]
 

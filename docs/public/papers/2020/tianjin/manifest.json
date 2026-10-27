@@ -1,8 +1,131 @@
 {
-  "title": "2020年普通高等学校招生全国统一考试",
-  "subtitle": "2020年天津卷",
   "year": "2020",
   "slug": "tianjin",
+  "title": "2020年天津卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$\\{-3,-2,-1,1,3\\}$"
           ],
           "answer": "C",
-          "solution": "<p>由题意结合补集的定义可知： $U\\setminus B=\\{-2,-1,1\\}$，则 $A\\cap\\left( U\\setminus B \\right)=\\{-1,1\\}$.</p><p>故选：C.</p>"
+          "solution": "<p>由题意结合补集的定义可知： $U\\setminus B=\\{-2,-1,1\\}$，则 $A\\cap\\left( U\\setminus B \\right)=\\{-1,1\\}$.</p><p>故选：C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,19 +154,23 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>求解二次不等式 $a^{2}>a$ 可得： $a>1$ 或 $a<0$，</p><p>据此可知： $a>1$ 是 $a^{2}>a$ 的充分不必要条件.</p><p>故选：A.</p>"
+          "solution": "<p>求解二次不等式 $a^{2}>a$ 可得： $a>1$ 或 $a<0$，</p><p>据此可知： $a>1$ 是 $a^{2}>a$ 的充分不必要条件.</p><p>故选：A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "函数 $y=\\dfrac{4x}{x^2+1}$ 的图象大致为（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin/q3_fig1.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin/q3_fig2.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin/q3_fig3.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin/q3_fig4.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2020/img/tianjin/q3_fig1.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2020/img/tianjin/q3_fig2.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2020/img/tianjin/q3_fig3.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2020/img/tianjin/q3_fig4.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "<p>由函数的解析式可得： $f(-x)=\\dfrac{-4x}{x^2+1}=-f(x)$，则函数 $f(x)$ 为奇函数，其图象关于坐标原点对称，选项 C，D 错误；</p><p>当 $x=1$ 时， $y=\\dfrac{4}{1+1}=2>0$，选项 B 错误.</p><p>故选：A.</p>"
+          "solution": "<p>由函数的解析式可得： $f(-x)=\\dfrac{-4x}{x^2+1}=-f(x)$，则函数 $f(x)$ 为奇函数，其图象关于坐标原点对称，选项 C，D 错误；</p><p>当 $x=1$ 时， $y=\\dfrac{4}{1+1}=2>0$，选项 B 错误.</p><p>故选：A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +182,9 @@
             "36"
           ],
           "answer": "B",
-          "solution": "<p>根据直方图，直径落在区间 $[5.43,5.47)$ 之间的零件频率为： $\\left( 6.25+5.00 \\right)\\times0.02=0.225$，</p><p>则区间 $[5.43,5.47)$ 内零件的个数为： $80\\times0.225=18$.</p><p>故选：B.</p>"
+          "solution": "<p>根据直方图，直径落在区间 $[5.43,5.47)$ 之间的零件频率为： $\\left( 6.25+5.00 \\right)\\times0.02=0.225$，</p><p>则区间 $[5.43,5.47)$ 内零件的个数为： $80\\times0.225=18$.</p><p>故选：B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +196,9 @@
             "$144\\pi$"
           ],
           "answer": "C",
-          "solution": "<p>这个球是正方体的外接球，其半径等于正方体的体对角线的一半，</p><p>$R=\\frac{\\sqrt{\\left( 2\\sqrt{3}\\right)^{2}+\\left( 2\\sqrt{3}\\right)^{2}+\\left( 2\\sqrt{3}\\right)^{2}}}{2}=3$.</p><p>所以，这个球的表面积为 $S=4\\pi R^{2}=4\\pi\\times3^{2}=36\\pi$.</p><p>故选：C.</p>"
+          "solution": "<p>这个球是正方体的外接球，其半径等于正方体的体对角线的一半，</p><p>$R=\\frac{\\sqrt{\\left( 2\\sqrt{3}\\right)^{2}+\\left( 2\\sqrt{3}\\right)^{2}+\\left( 2\\sqrt{3}\\right)^{2}}}{2}=3$.</p><p>所以，这个球的表面积为 $S=4\\pi R^{2}=4\\pi\\times3^{2}=36\\pi$.</p><p>故选：C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +210,9 @@
             "$c<a<b$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $a=3^{0.7}>1$，</p><p>$b=\\left( \\frac{1}{3}\\right)^{-0.8}=3^{0.8}>3^{0.7}=a$，</p><p>$c=\\log_{0.7}0.8<\\log_{0.7}0.7=1$，</p><p>所以 $c<1<a<b$.</p><p>故选：D.</p>"
+          "solution": "<p>因为 $a=3^{0.7}>1$，</p><p>$b=\\left( \\frac{1}{3}\\right)^{-0.8}=3^{0.8}>3^{0.7}=a$，</p><p>$c=\\log_{0.7}0.8<\\log_{0.7}0.7=1$，</p><p>所以 $c<1<a<b$.</p><p>故选：D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +224,9 @@
             "$x^{2}-y^{2}=1$"
           ],
           "answer": "D",
-          "solution": "<p>由题可知，抛物线的焦点为 $(1,0)$，所以直线 $l$ 的方程为 $x+\\dfrac{y}{b}=1$，即直线的斜率为 $-b$，</p><p>又双曲线的渐近线方程为 $y=\\pm\\dfrac{b}{a}x$，所以 $-b=-\\dfrac{b}{a}$，$-b\\times\\dfrac{b}{a}=-1$，因为 $a>0$，$b>0$，解得 $a=1$，$b=1$.</p><p>故选：D.</p>"
+          "solution": "<p>由题可知，抛物线的焦点为 $(1,0)$，所以直线 $l$ 的方程为 $x+\\dfrac{y}{b}=1$，即直线的斜率为 $-b$，</p><p>又双曲线的渐近线方程为 $y=\\pm\\dfrac{b}{a}x$，所以 $-b=-\\dfrac{b}{a}$，$-b\\times\\dfrac{b}{a}=-1$，因为 $a>0$，$b>0$，解得 $a=1$，$b=1$.</p><p>故选：D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +238,9 @@
             "$①②③$"
           ],
           "answer": "B",
-          "solution": "<p>因为 $f(x)=\\sin\\left( x+\\dfrac{\\pi}{3}\\right)$，所以周期</p><p>$T=\\frac{2\\pi}{\\omega}=2\\pi$，</p><p>故 ① 正确；</p><p>因为</p><p>$f\\left( \\frac{\\pi}{2}\\right)=\\sin\\left( \\frac{\\pi}{2}+\\frac{\\pi}{3}\\right)=\\sin\\frac{5\\pi}{6}=\\frac{1}{2}\\neq1$，</p><p>故 ② 不正确；</p><p>将函数 $y=\\sin x$ 的图象上所有点向左平移 $\\dfrac{\\pi}{3}$ 个单位长度，得到 $y=\\sin\\left( x+\\dfrac{\\pi}{3}\\right)$ 的图象，故 ③ 正确.</p><p>故选：B.</p>"
+          "solution": "<p>因为 $f(x)=\\sin\\left( x+\\dfrac{\\pi}{3}\\right)$，所以周期</p><p>$T=\\frac{2\\pi}{\\omega}=2\\pi$，</p><p>故 ① 正确；</p><p>因为</p><p>$f\\left( \\frac{\\pi}{2}\\right)=\\sin\\left( \\frac{\\pi}{2}+\\frac{\\pi}{3}\\right)=\\sin\\frac{5\\pi}{6}=\\frac{1}{2}\\neq1$，</p><p>故 ② 不正确；</p><p>将函数 $y=\\sin x$ 的图象上所有点向左平移 $\\dfrac{\\pi}{3}$ 个单位长度，得到 $y=\\sin\\left( x+\\dfrac{\\pi}{3}\\right)$ 的图象，故 ③ 正确.</p><p>故选：B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +252,9 @@
             "$\\left( -\\infty,0 \\right)\\cup\\left( 2\\sqrt{2},+\\infty \\right)$"
           ],
           "answer": "D",
-          "solution": "<p>注意到 $g(0)=0$，所以要使 $g(x)$ 恰有 4 个零点，只需考察 $g(x)=0$ 的其余非零零点. 对于 $x\\neq0$，由 $g(x)=0$ 可得</p><p>$\\left| kx-2 \\right|=\\frac{f(x)}{|x|}$</p><p>反之，方程 $\\left| kx-2 \\right|=\\dfrac{f(x)}{|x|}$ 的每一个实根也对应 $g(x)=0$ 的一个非零零点. 因此，函数 $g(x)$ 恰有 4 个零点，当且仅当方程 $\\left| kx-2 \\right|=\\dfrac{f(x)}{|x|}$ 恰有 3 个实根.</p><p>令</p><p>$h(x)=\\frac{f(x)}{|x|}$，</p><p>即 $y=\\left| kx-2 \\right|$ 与 $y=h(x)$ 的图象有 3 个不同交点.</p><p>因为</p><p>$h(x)=x^{2}\\text{（}x>0\\text{）}$，$h(x)=1\\text{（}x<0\\text{）}$.</p><p>当 $k=0$ 时，此时 $y=2$，如图 1，$y=2$ 与 $y=h(x)$ 有 2 个不同交点，不满足题意；</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q9_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>当 $k<0$ 时，如图 2，此时 $y=\\left| kx-2 \\right|$ 与 $y=h(x)$ 恒有 3 个不同交点，满足题意；</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q9_solution_fig3.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>当 $k>0$ 时，如图 3，当 $y=kx-2$ 与 $y=x^{2}$ 相切时，联立方程得</p><p>$x^{2}-kx+2=0$，</p><p>令 $\\Delta=0$ 得 $k^{2}-8=0$，解得 $k=2\\sqrt{2}$（负值舍去），所以 $k>2\\sqrt{2}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q9_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>综上， $k$ 的取值范围为 $\\left( -\\infty,0 \\right)\\cup\\left( 2\\sqrt{2},+\\infty \\right)$.</p><p>故选：D.</p>"
+          "solution": "<p>注意到 $g(0)=0$，所以要使 $g(x)$ 恰有 4 个零点，只需考察 $g(x)=0$ 的其余非零零点. 对于 $x\\neq0$，由 $g(x)=0$ 可得</p><p>$\\left| kx-2 \\right|=\\frac{f(x)}{|x|}$</p><p>反之，方程 $\\left| kx-2 \\right|=\\dfrac{f(x)}{|x|}$ 的每一个实根也对应 $g(x)=0$ 的一个非零零点. 因此，函数 $g(x)$ 恰有 4 个零点，当且仅当方程 $\\left| kx-2 \\right|=\\dfrac{f(x)}{|x|}$ 恰有 3 个实根.</p><p>令</p><p>$h(x)=\\frac{f(x)}{|x|}$，</p><p>即 $y=\\left| kx-2 \\right|$ 与 $y=h(x)$ 的图象有 3 个不同交点.</p><p>因为</p><p>$h(x)=x^{2}\\text{（}x>0\\text{）}$，$h(x)=1\\text{（}x<0\\text{）}$.</p><p>当 $k=0$ 时，此时 $y=2$，如图 1，$y=2$ 与 $y=h(x)$ 有 2 个不同交点，不满足题意；</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/tianjin/q9_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>当 $k<0$ 时，如图 2，此时 $y=\\left| kx-2 \\right|$ 与 $y=h(x)$ 恒有 3 个不同交点，满足题意；</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/tianjin/q9_solution_fig3.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>当 $k>0$ 时，如图 3，当 $y=kx-2$ 与 $y=x^{2}$ 相切时，联立方程得</p><p>$x^{2}-kx+2=0$，</p><p>令 $\\Delta=0$ 得 $k^{2}-8=0$，解得 $k=2\\sqrt{2}$（负值舍去），所以 $k>2\\sqrt{2}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/tianjin/q9_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>综上， $k$ 的取值范围为 $\\left( -\\infty,0 \\right)\\cup\\left( 2\\sqrt{2},+\\infty \\right)$.</p><p>故选：D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -123,44 +264,56 @@
         {
           "num": 10,
           "body": "$\\mathrm{i}$ 是虚数单位，复数 $\\dfrac{8-\\mathrm{i}}{2+\\mathrm{i}}=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$3-2\\mathrm{i}$",
-          "solution": "<p>由有理化得</p><p>$\\frac{8-\\mathrm{i}}{2+\\mathrm{i}}=\\frac{\\left( 8-\\mathrm{i} \\right)\\left( 2-\\mathrm{i} \\right)}{\\left( 2+\\mathrm{i} \\right)\\left( 2-\\mathrm{i} \\right)}=\\frac{15-10\\mathrm{i}}{5}=3-2\\mathrm{i}$.</p><p>故答案为： $3-2\\mathrm{i}$.</p>"
+          "choices": [],
+          "answer": "\\(3-2\\mathrm{i}\\)",
+          "solution": "<p>由有理化得</p><p>$\\frac{8-\\mathrm{i}}{2+\\mathrm{i}}=\\frac{\\left( 8-\\mathrm{i} \\right)\\left( 2-\\mathrm{i} \\right)}{\\left( 2+\\mathrm{i} \\right)\\left( 2-\\mathrm{i} \\right)}=\\frac{15-10\\mathrm{i}}{5}=3-2\\mathrm{i}$.</p><p>故答案为： $3-2\\mathrm{i}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "在 $\\left( x+\\dfrac{2}{x^2}\\right)^{5}$ 的展开式中，$x^{2}$ 项的系数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "10",
-          "solution": "<p>因为 $\\left( x+\\dfrac{2}{x^2}\\right)^{5}$ 的展开式的通项公式为</p><p>$T_{r+1}=\\mathrm{C}_{5}^{r} x^{5-r}\\left( \\frac{2}{x^{2}}\\right)^{r}=\\mathrm{C}_{5}^{r}\\cdot2^{r}\\cdot x^{5-3r}$，其中</p><p>$r=0$，$1$，$2$，$3$，$4$，$5$，</p><p>令 $5-3r=2$，解得 $r=1$.</p><p>所以 $x^{2}$ 的系数为 $\\mathrm{C}_{5}^{1}\\times2=10$.</p><p>故答案为：10.</p>"
+          "solution": "<p>因为 $\\left( x+\\dfrac{2}{x^2}\\right)^{5}$ 的展开式的通项公式为</p><p>$T_{r+1}=\\mathrm{C}_{5}^{r} x^{5-r}\\left( \\frac{2}{x^{2}}\\right)^{r}=\\mathrm{C}_{5}^{r}\\cdot2^{r}\\cdot x^{5-3r}$，其中</p><p>$r=0$，$1$，$2$，$3$，$4$，$5$，</p><p>令 $5-3r=2$，解得 $r=1$.</p><p>所以 $x^{2}$ 的系数为 $\\mathrm{C}_{5}^{1}\\times2=10$.</p><p>故答案为：10.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "已知直线 $x-\\sqrt{3}y+8=0$ 和圆 $x^{2}+y^{2}=r^{2}$（$r>0$）相交于 $A$，$B$ 两点. 若 $|AB|=6$，则 $r=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
+          "choices": [],
           "answer": "5",
-          "solution": "<p>因为圆心 $(0,0)$ 到直线 $x-\\sqrt{3}y+8=0$ 的距离</p><p>$d=\\frac{8}{\\sqrt{1+\\left( \\sqrt{3}\\right)^{2}}}=4$，</p><p>由 $|AB|=2\\sqrt{r^{2}-d^{2}}$ 可得</p><p>$6=2\\sqrt{r^{2}-4^{2}}$，</p><p>解得 $r=5$.</p><p>故答案为：5.</p>"
+          "solution": "<p>因为圆心 $(0,0)$ 到直线 $x-\\sqrt{3}y+8=0$ 的距离</p><p>$d=\\frac{8}{\\sqrt{1+\\left( \\sqrt{3}\\right)^{2}}}=4$，</p><p>由 $|AB|=2\\sqrt{r^{2}-d^{2}}$ 可得</p><p>$6=2\\sqrt{r^{2}-4^{2}}$，</p><p>解得 $r=5$.</p><p>故答案为：5.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "已知甲，乙两球落入盒子的概率分别为 $\\dfrac{1}{2}$ 和 $\\dfrac{1}{3}$. 假定两球是否落入盒子互不影响，则甲，乙两球都落入盒子的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；甲，乙两球至少有一个落入盒子的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{1}{6}$，$\\ \\dfrac{2}{3}$",
-          "solution": "<p>甲，乙两球落入盒子的概率分别为 $\\dfrac{1}{2}$，$\\dfrac{1}{3}$，且两球是否落入盒子互不影响，</p><p>所以甲，乙都落入盒子的概率为</p><p>$\\frac{1}{2}\\times\\frac{1}{3}=\\frac{1}{6}$.</p><p>甲，乙两球都不落入盒子的概率为</p><p>$\\left( 1-\\frac{1}{2}\\right)\\left( 1-\\frac{1}{3}\\right)=\\frac{1}{3}$，</p><p>所以甲，乙两球至少有一个落入盒子的概率为</p><p>$1-\\frac{1}{3}=\\frac{2}{3}$.</p><p>故答案为： $\\dfrac{1}{6}$； $\\dfrac{2}{3}$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{1}{6}\\)，\\(\\ \\dfrac{2}{3}\\)",
+          "solution": "<p>甲，乙两球落入盒子的概率分别为 $\\dfrac{1}{2}$，$\\dfrac{1}{3}$，且两球是否落入盒子互不影响，</p><p>所以甲，乙都落入盒子的概率为</p><p>$\\frac{1}{2}\\times\\frac{1}{3}=\\frac{1}{6}$.</p><p>甲，乙两球都不落入盒子的概率为</p><p>$\\left( 1-\\frac{1}{2}\\right)\\left( 1-\\frac{1}{3}\\right)=\\frac{1}{3}$，</p><p>所以甲，乙两球至少有一个落入盒子的概率为</p><p>$1-\\frac{1}{3}=\\frac{2}{3}$.</p><p>故答案为： $\\dfrac{1}{6}$； $\\dfrac{2}{3}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知 $a>0$，$b>0$，且 $ab=1$，则 $\\dfrac1{2a}+\\dfrac1{2b}+\\dfrac8{a+b}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "4",
-          "solution": "<p>因为 $a>0$，$b>0$，所以 $a+b>0$，又 $ab=1$，所以</p><p>$\\frac{1}{2a}+\\frac{1}{2b}+\\frac{8}{a+b}=\\frac{ab}{2a}+\\frac{ab}{2b}+\\frac{8}{a+b}=\\frac{a+b}{2}+\\frac{8}{a+b}$.</p><p>由基本不等式可得</p><p>$\\frac{a+b}{2}+\\frac{8}{a+b}\\ge2\\sqrt{\\frac{a+b}{2}\\cdot\\frac{8}{a+b}}=4$，</p><p>当且仅当 $a+b=4$ 时取等号.</p><p>结合 $ab=1$，解得 $a=2-\\sqrt{3}$，$b=2+\\sqrt{3}$，或 $a=2+\\sqrt{3}$，$b=2-\\sqrt{3}$ 时，等号成立.</p><p>故答案为：4.</p>"
+          "solution": "<p>因为 $a>0$，$b>0$，所以 $a+b>0$，又 $ab=1$，所以</p><p>$\\frac{1}{2a}+\\frac{1}{2b}+\\frac{8}{a+b}=\\frac{ab}{2a}+\\frac{ab}{2b}+\\frac{8}{a+b}=\\frac{a+b}{2}+\\frac{8}{a+b}$.</p><p>由基本不等式可得</p><p>$\\frac{a+b}{2}+\\frac{8}{a+b}\\ge2\\sqrt{\\frac{a+b}{2}\\cdot\\frac{8}{a+b}}=4$，</p><p>当且仅当 $a+b=4$ 时取等号.</p><p>结合 $ab=1$，解得 $a=2-\\sqrt{3}$，$b=2+\\sqrt{3}$，或 $a=2+\\sqrt{3}$，$b=2-\\sqrt{3}$ 时，等号成立.</p><p>故答案为：4.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
-          "body": "<p>如图，在四边形 $ABCD$ 中，$\\angle B=60^{\\circ}$，$|AB|=3$，$|BC|=6$，且 $\\overrightarrow{AD}=\\lambda\\overrightarrow{BC}$，$\\overrightarrow{AD}\\cdot\\overrightarrow{AB}=-\\dfrac{3}{2}$，则实数 $\\lambda$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>，若 $M$，$N$ 是线段 $BC$ 上的动点，且 $|MN|=1$，则 $\\overrightarrow{DM}\\cdot\\overrightarrow{DN}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
-          "choices": null,
-          "answer": "$\\dfrac{1}{6}$，$\\ \\dfrac{13}{2}$",
-          "solution": "<p>因为 $\\overrightarrow{AD}=\\lambda\\overrightarrow{BC}$，所以 $\\overrightarrow{AD}//\\overrightarrow{BC}$，故 $\\angle BAD=180^{\\circ}-\\angle B=120^{\\circ}$.</p><p>$\\overrightarrow{AB}\\cdot\\overrightarrow{AD}=\\lambda\\overrightarrow{BC}\\cdot\\overrightarrow{AB}=\\lambda|BC||AB|\\cos120^{\\circ}  =\\lambda\\times6\\times3\\times\\left( -\\frac{1}{2}\\right)  =-9\\lambda  =-\\frac{3}{2}$，</p><p>解得 $\\lambda=\\dfrac{1}{6}$.</p><p>以点 $B$ 为坐标原点，$BC$ 所在直线为 $x$ 轴建立如下图所示的平面直角坐标系 $xBy$，</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q15_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>则 $C(6,0)$.</p><p>因为 $AB=3$，$\\angle ABC=60^{\\circ}$，所以</p><p>$A\\left( \\frac{3}{2},\\frac{3\\sqrt{3}}{2}\\right)$.</p><p>又因为 $\\overrightarrow{AD}=\\dfrac{1}{6}\\overrightarrow{BC}$，所以</p><p>$D\\left( \\frac{5}{2},\\frac{3\\sqrt{3}}{2}\\right)$.</p><p>设 $M(x,0)$，则 $N(x+1,0)$（其中 $0\\le x\\le5$），于是</p><p>$\\overrightarrow{DM}=\\left( x-\\frac{5}{2},-\\frac{3\\sqrt{3}}{2}\\right)$，$\\overrightarrow{DN}=\\left( x-\\frac{3}{2},-\\frac{3\\sqrt{3}}{2}\\right)$.</p><p>所以</p><p>$\\overrightarrow{DM}\\cdot\\overrightarrow{DN}=\\left( x-\\frac{5}{2}\\right)\\left( x-\\frac{3}{2}\\right)+\\left( \\frac{3\\sqrt{3}}{2}\\right)^{2}  =x^{2}-4x+\\frac{21}{2}=\\left( x-2 \\right)^{2}+\\frac{13}{2}$.</p><p>所以，当 $x=2$ 时， $\\overrightarrow{DM}\\cdot\\overrightarrow{DN}$ 取得最小值 $\\dfrac{13}{2}$.</p><p>故答案为： $\\dfrac{1}{6}$； $\\dfrac{13}{2}$.</p>"
+          "body": "<p>如图，在四边形 $ABCD$ 中，$\\angle B=60^{\\circ}$，$|AB|=3$，$|BC|=6$，且 $\\overrightarrow{AD}=\\lambda\\overrightarrow{BC}$，$\\overrightarrow{AD}\\cdot\\overrightarrow{AB}=-\\dfrac{3}{2}$，则实数 $\\lambda$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>，若 $M$，$N$ 是线段 $BC$ 上的动点，且 $|MN|=1$，则 $\\overrightarrow{DM}\\cdot\\overrightarrow{DN}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/tianjin/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
+          "choices": [],
+          "answer": "\\(\\dfrac{1}{6}\\)，\\(\\ \\dfrac{13}{2}\\)",
+          "solution": "<p>因为 $\\overrightarrow{AD}=\\lambda\\overrightarrow{BC}$，所以 $\\overrightarrow{AD}//\\overrightarrow{BC}$，故 $\\angle BAD=180^{\\circ}-\\angle B=120^{\\circ}$.</p><p>$\\overrightarrow{AB}\\cdot\\overrightarrow{AD}=\\lambda\\overrightarrow{BC}\\cdot\\overrightarrow{AB}=\\lambda|BC||AB|\\cos120^{\\circ}  =\\lambda\\times6\\times3\\times\\left( -\\frac{1}{2}\\right)  =-9\\lambda  =-\\frac{3}{2}$，</p><p>解得 $\\lambda=\\dfrac{1}{6}$.</p><p>以点 $B$ 为坐标原点，$BC$ 所在直线为 $x$ 轴建立如下图所示的平面直角坐标系 $xBy$，</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/tianjin/q15_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>则 $C(6,0)$.</p><p>因为 $AB=3$，$\\angle ABC=60^{\\circ}$，所以</p><p>$A\\left( \\frac{3}{2},\\frac{3\\sqrt{3}}{2}\\right)$.</p><p>又因为 $\\overrightarrow{AD}=\\dfrac{1}{6}\\overrightarrow{BC}$，所以</p><p>$D\\left( \\frac{5}{2},\\frac{3\\sqrt{3}}{2}\\right)$.</p><p>设 $M(x,0)$，则 $N(x+1,0)$（其中 $0\\le x\\le5$），于是</p><p>$\\overrightarrow{DM}=\\left( x-\\frac{5}{2},-\\frac{3\\sqrt{3}}{2}\\right)$，$\\overrightarrow{DN}=\\left( x-\\frac{3}{2},-\\frac{3\\sqrt{3}}{2}\\right)$.</p><p>所以</p><p>$\\overrightarrow{DM}\\cdot\\overrightarrow{DN}=\\left( x-\\frac{5}{2}\\right)\\left( x-\\frac{3}{2}\\right)+\\left( \\frac{3\\sqrt{3}}{2}\\right)^{2}  =x^{2}-4x+\\frac{21}{2}=\\left( x-2 \\right)^{2}+\\frac{13}{2}$.</p><p>所以，当 $x=2$ 时， $\\overrightarrow{DM}\\cdot\\overrightarrow{DN}$ 取得最小值 $\\dfrac{13}{2}$.</p><p>故答案为： $\\dfrac{1}{6}$； $\\dfrac{13}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -170,37 +323,47 @@
         {
           "num": 16,
           "body": "<p>在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $a=2\\sqrt{2}$，$b=5$，$c=\\sqrt{13}$.</p><ol class=\"enumerate\"><li><p>求角 $C$ 的大小；</p></li><li><p>求 $\\sin A$ 的值；</p></li><li><p>求 $\\sin\\left( 2A+\\dfrac{\\pi}{4}\\right)$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在 $\\triangle ABC$ 中，由 $a=2\\sqrt{2}$，$b=5$，$c=\\sqrt{13}$ 及余弦定理得</p><p>$\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}=\\frac{8+25-13}{2\\times2\\sqrt{2}\\times5}=\\frac{\\sqrt{2}}{2}$，</p><p>又因为 $C\\in\\left( 0,\\pi \\right)$，所以</p><p>$C=\\frac{\\pi}{4}$.</p></li><li><p>在 $\\triangle ABC$ 中，由 $C=\\dfrac{\\pi}{4}$，$a=2\\sqrt{2}$，$c=\\sqrt{13}$ 及正弦定理，可得</p><p>$\\sin A=\\frac{a\\sin C}{c}=\\frac{2\\sqrt{2}\\times\\frac{\\sqrt{2}}{2}}{\\sqrt{13}}=\\frac{2\\sqrt{13}}{13}$.</p></li><li><p>由 $a<c$ 知角 $A$ 为锐角，由 $\\sin A=\\dfrac{2\\sqrt{13}}{13}$，可得</p><p>$\\cos A=\\sqrt{1-\\sin^{2} A}=\\frac{3\\sqrt{13}}{13}$.</p><p>进而</p><p>$\\sin2A=2\\sin A\\cos A=\\frac{12}{13}$，$\\cos2A=2\\cos^{2} A-1=\\frac{5}{13}$.</p><p>所以</p><p>$\\sin\\left( 2A+\\frac{\\pi}{4}\\right)  =\\sin2A\\cos\\frac{\\pi}{4}+\\cos2A\\sin\\frac{\\pi}{4}=\\frac{12}{13}\\times\\frac{\\sqrt{2}}{2}+\\frac{5}{13}\\times\\frac{\\sqrt{2}}{2}=\\frac{17\\sqrt{2}}{26}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在 $\\triangle ABC$ 中，由 $a=2\\sqrt{2}$，$b=5$，$c=\\sqrt{13}$ 及余弦定理得</p><p>$\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}=\\frac{8+25-13}{2\\times2\\sqrt{2}\\times5}=\\frac{\\sqrt{2}}{2}$，</p><p>又因为 $C\\in\\left( 0,\\pi \\right)$，所以</p><p>$C=\\frac{\\pi}{4}$.</p></li><li><p>在 $\\triangle ABC$ 中，由 $C=\\dfrac{\\pi}{4}$，$a=2\\sqrt{2}$，$c=\\sqrt{13}$ 及正弦定理，可得</p><p>$\\sin A=\\frac{a\\sin C}{c}=\\frac{2\\sqrt{2}\\times\\frac{\\sqrt{2}}{2}}{\\sqrt{13}}=\\frac{2\\sqrt{13}}{13}$.</p></li><li><p>由 $a<c$ 知角 $A$ 为锐角，由 $\\sin A=\\dfrac{2\\sqrt{13}}{13}$，可得</p><p>$\\cos A=\\sqrt{1-\\sin^{2} A}=\\frac{3\\sqrt{13}}{13}$.</p><p>进而</p><p>$\\sin2A=2\\sin A\\cos A=\\frac{12}{13}$，$\\cos2A=2\\cos^{2} A-1=\\frac{5}{13}$.</p><p>所以</p><p>$\\sin\\left( 2A+\\frac{\\pi}{4}\\right)  =\\sin2A\\cos\\frac{\\pi}{4}+\\cos2A\\sin\\frac{\\pi}{4}=\\frac{12}{13}\\times\\frac{\\sqrt{2}}{2}+\\frac{5}{13}\\times\\frac{\\sqrt{2}}{2}=\\frac{17\\sqrt{2}}{26}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图，在三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$CC_{1}\\perp$ 平面 $ABC$，$AC\\perp BC$，$AC=BC=2$，$CC_{1}=3$，点 $D$，$E$ 分别在棱 $AA_{1}$ 和棱 $CC_{1}$ 上，且 $AD=1$，$CE=2$，$M$ 为棱 $A_{1}B_{1}$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$C_{1}M\\perp B_{1}D$；</p></li><li><p>求二面角 $B-B_{1}E-D$ 的正弦值；</p></li><li><p>求直线 $AB$ 与平面 $DB_{1}E$ 所成角的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$CC_{1}\\perp$ 平面 $ABC$，$AC\\perp BC$，$AC=BC=2$，$CC_{1}=3$，点 $D$，$E$ 分别在棱 $AA_{1}$ 和棱 $CC_{1}$ 上，且 $AD=1$，$CE=2$，$M$ 为棱 $A_{1}B_{1}$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$C_{1}M\\perp B_{1}D$；</p></li><li><p>求二面角 $B-B_{1}E-D$ 的正弦值；</p></li><li><p>求直线 $AB$ 与平面 $DB_{1}E$ 所成角的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/tianjin/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>依题意，以 $C$ 为原点，分别以 $\\overrightarrow{CA}$，$\\overrightarrow{CB}$，$\\overrightarrow{CC_1}$ 的方向为 $x$ 轴，$y$ 轴，$z$ 轴的正方向建立空间直角坐标系（如图）：</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q17_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>可得</p><p>$C(0,0,0)$，$A(2,0,0)$，$B(0,2,0)$，$C_{1}(0,0,3)$，</p><p>$A_{1}(2,0,3)$，$B_{1}(0,2,3)$，$D(2,0,1)$，$E(0,0,2)$，$M(1,1,3)$.</p><p>依题意，</p><p>$\\overrightarrow{C_1M}=(1,1,0)$，$\\overrightarrow{B_1D}=(2,-2,-2)$，</p><p>从而</p><p>$\\overrightarrow{C_1M}\\cdot\\overrightarrow{B_1D}=2-2+0=0$，</p><p>所以 $C_{1}M\\perp B_{1}D$.</p></li><li><p>依题意， $\\overrightarrow{CA}=(2,0,0)$ 是平面 $BB_{1}E$ 的一个法向量，</p><p>$\\overrightarrow{EB_1}=(0,2,1)$，$\\overrightarrow{ED}=(2,0,-1)$.</p><p>设 $\\mathbf{n}=(x,y,z)$ 为平面 $DB_{1}E$ 的法向量，则 $\\mathbf{n}\\cdot\\overrightarrow{EB_1}=0$，$\\mathbf{n}\\cdot\\overrightarrow{ED}=0$，即 $2y+z=0$，$2x-z=0$.</p><p>不妨设 $x=1$，可得 $\\mathbf{n}=(1,-1,2)$.</p><p>于是</p><p>$\\cos\\left\\langle \\overrightarrow{CA},\\mathbf{n}\\right\\rangle  =\\frac{\\overrightarrow{CA}\\cdot\\mathbf{n}}{\\left| \\overrightarrow{CA} \\right|\\left| \\mathbf{n} \\right|}=\\frac{2}{2\\times\\sqrt{6}}=\\frac{\\sqrt{6}}{6}$，</p><p>$\\sin\\left\\langle \\overrightarrow{CA},\\mathbf{n}\\right\\rangle  =\\sqrt{1-\\cos^{2}\\left\\langle \\overrightarrow{CA},\\mathbf{n}\\right\\rangle}=\\frac{\\sqrt{30}}{6}$.</p><p>所以，二面角 $B-B_{1}E-D$ 的正弦值为 $\\dfrac{\\sqrt{30}}{6}$.</p></li><li><p>依题意，</p><p>$\\overrightarrow{AB}=(-2,2,0)$.</p><p>由第 2 问知 $\\mathbf{n}=(1,-1,2)$ 为平面 $DB_{1}E$ 的一个法向量，于是</p><p>$\\cos\\left\\langle \\overrightarrow{AB},\\mathbf{n}\\right\\rangle  =\\frac{\\overrightarrow{AB}\\cdot\\mathbf{n}}{\\left| \\overrightarrow{AB} \\right|\\left| \\mathbf{n} \\right|}=\\frac{-4}{2\\sqrt{2}\\times\\sqrt{6}}=-\\frac{\\sqrt{3}}{3}$.</p><p>所以，直线 $AB$ 与平面 $DB_{1}E$ 所成角的正弦值为 $\\dfrac{\\sqrt{3}}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>依题意，以 $C$ 为原点，分别以 $\\overrightarrow{CA}$，$\\overrightarrow{CB}$，$\\overrightarrow{CC_1}$ 的方向为 $x$ 轴，$y$ 轴，$z$ 轴的正方向建立空间直角坐标系（如图）：</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/tianjin/q17_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>可得</p><p>$C(0,0,0)$，$A(2,0,0)$，$B(0,2,0)$，$C_{1}(0,0,3)$，</p><p>$A_{1}(2,0,3)$，$B_{1}(0,2,3)$，$D(2,0,1)$，$E(0,0,2)$，$M(1,1,3)$.</p><p>依题意，</p><p>$\\overrightarrow{C_1M}=(1,1,0)$，$\\overrightarrow{B_1D}=(2,-2,-2)$，</p><p>从而</p><p>$\\overrightarrow{C_1M}\\cdot\\overrightarrow{B_1D}=2-2+0=0$，</p><p>所以 $C_{1}M\\perp B_{1}D$.</p></li><li><p>依题意， $\\overrightarrow{CA}=(2,0,0)$ 是平面 $BB_{1}E$ 的一个法向量，</p><p>$\\overrightarrow{EB_1}=(0,2,1)$，$\\overrightarrow{ED}=(2,0,-1)$.</p><p>设 $\\mathbf{n}=(x,y,z)$ 为平面 $DB_{1}E$ 的法向量，则 $\\mathbf{n}\\cdot\\overrightarrow{EB_1}=0$，$\\mathbf{n}\\cdot\\overrightarrow{ED}=0$，即 $2y+z=0$，$2x-z=0$.</p><p>不妨设 $x=1$，可得 $\\mathbf{n}=(1,-1,2)$.</p><p>于是</p><p>$\\cos\\left\\langle \\overrightarrow{CA},\\mathbf{n}\\right\\rangle  =\\frac{\\overrightarrow{CA}\\cdot\\mathbf{n}}{\\left| \\overrightarrow{CA} \\right|\\left| \\mathbf{n} \\right|}=\\frac{2}{2\\times\\sqrt{6}}=\\frac{\\sqrt{6}}{6}$，</p><p>$\\sin\\left\\langle \\overrightarrow{CA},\\mathbf{n}\\right\\rangle  =\\sqrt{1-\\cos^{2}\\left\\langle \\overrightarrow{CA},\\mathbf{n}\\right\\rangle}=\\frac{\\sqrt{30}}{6}$.</p><p>所以，二面角 $B-B_{1}E-D$ 的正弦值为 $\\dfrac{\\sqrt{30}}{6}$.</p></li><li><p>依题意，</p><p>$\\overrightarrow{AB}=(-2,2,0)$.</p><p>由第 2 问知 $\\mathbf{n}=(1,-1,2)$ 为平面 $DB_{1}E$ 的一个法向量，于是</p><p>$\\cos\\left\\langle \\overrightarrow{AB},\\mathbf{n}\\right\\rangle  =\\frac{\\overrightarrow{AB}\\cdot\\mathbf{n}}{\\left| \\overrightarrow{AB} \\right|\\left| \\mathbf{n} \\right|}=\\frac{-4}{2\\sqrt{2}\\times\\sqrt{6}}=-\\frac{\\sqrt{3}}{3}$.</p><p>所以，直线 $AB$ 与平面 $DB_{1}E$ 所成角的正弦值为 $\\dfrac{\\sqrt{3}}{3}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>已知椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的一个顶点为 $A(0,-3)$，右焦点为 $F$，且 $|OA|=|OF|$，其中 $O$ 为原点.</p><ol class=\"enumerate\"><li><p>求椭圆方程；</p></li><li><p>已知点 $C$ 满足 $3\\overrightarrow{OC}=\\overrightarrow{OF}$，点 $B$ 在椭圆上（$B$ 异于椭圆的顶点），直线 $AB$ 与以 $C$ 为圆心的圆相切于点 $P$，且 $P$ 为线段 $AB$ 的中点. 求直线 $AB$ 的方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的一个顶点为 $A(0,-3)$，</p><p>所以 $b=3$.</p><p>由 $OA=OF$，得 $c=b=3$，</p><p>又由 $a^{2}=b^{2}+c^{2}$，得</p><p>$a^{2}=3^{2}+3^{2}=18$，</p><p>所以，椭圆的方程为</p><p>$\\frac{x^{2}}{18}+\\frac{y^{2}}{9}=1$.</p></li><li><p>因为直线 $AB$ 与以 $C$ 为圆心的圆相切于点 $P$，所以 $CP\\perp AB$.</p><p>根据题意可知，直线 $AB$ 和直线 $CP$ 的斜率均存在. 设直线 $AB$ 的斜率为 $k$，则直线 $AB$ 的方程为</p><p>$y=kx-3$.</p><p>由 $y=kx-3$ 和 $\\dfrac{x^2}{18}+\\dfrac{y^2}{9}=1$，消去 $y$，可得</p><p>$\\left( 2k^{2}+1 \\right)x^{2}-12kx=0$，</p><p>解得</p><p>$x=0$或$x=\\frac{12k}{2k^{2}+1}$.</p><p>将 $x=\\dfrac{12k}{2k^2+1}$ 代入 $y=kx-3$，得</p><p>$y=\\frac{6k^{2}-3}{2k^{2}+1}$，</p><p>所以，点 $B$ 的坐标为</p><p>$\\left( \\frac{12k}{2k^{2}+1},\\frac{6k^{2}-3}{2k^{2}+1}\\right)$.</p><p>因为 $P$ 为线段 $AB$ 的中点，点 $A$ 的坐标为 $(0,-3)$，</p><p>所以点 $P$ 的坐标为</p><p>$\\left( \\frac{6k}{2k^{2}+1},\\frac{-3}{2k^{2}+1}\\right)$.</p><p>由 $3\\overrightarrow{OC}=\\overrightarrow{OF}$，得点 $C$ 的坐标为 $(1,0)$.</p><p>所以，直线 $CP$ 的斜率为</p><p>$k_{CP}=\\frac{\\frac{-3}{2k^{2}+1}-0}{\\frac{6k}{2k^{2}+1}-1}=\\frac{3}{2k^{2}-6k+1}$.</p><p>又因为 $CP\\perp AB$，所以</p><p>$k\\cdot\\frac{3}{2k^{2}-6k+1}=-1$，</p><p>整理得</p><p>$2k^{2}-3k+1=0$，</p><p>解得 $k=\\dfrac{1}{2}$ 或 $k=1$.</p><p>所以，直线 $AB$ 的方程为</p><p>$y=\\frac{1}{2}x-3$或$y=x-3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的一个顶点为 $A(0,-3)$，</p><p>所以 $b=3$.</p><p>由 $OA=OF$，得 $c=b=3$，</p><p>又由 $a^{2}=b^{2}+c^{2}$，得</p><p>$a^{2}=3^{2}+3^{2}=18$，</p><p>所以，椭圆的方程为</p><p>$\\frac{x^{2}}{18}+\\frac{y^{2}}{9}=1$.</p></li><li><p>因为直线 $AB$ 与以 $C$ 为圆心的圆相切于点 $P$，所以 $CP\\perp AB$.</p><p>根据题意可知，直线 $AB$ 和直线 $CP$ 的斜率均存在. 设直线 $AB$ 的斜率为 $k$，则直线 $AB$ 的方程为</p><p>$y=kx-3$.</p><p>由 $y=kx-3$ 和 $\\dfrac{x^2}{18}+\\dfrac{y^2}{9}=1$，消去 $y$，可得</p><p>$\\left( 2k^{2}+1 \\right)x^{2}-12kx=0$，</p><p>解得</p><p>$x=0$或$x=\\frac{12k}{2k^{2}+1}$.</p><p>将 $x=\\dfrac{12k}{2k^2+1}$ 代入 $y=kx-3$，得</p><p>$y=\\frac{6k^{2}-3}{2k^{2}+1}$，</p><p>所以，点 $B$ 的坐标为</p><p>$\\left( \\frac{12k}{2k^{2}+1},\\frac{6k^{2}-3}{2k^{2}+1}\\right)$.</p><p>因为 $P$ 为线段 $AB$ 的中点，点 $A$ 的坐标为 $(0,-3)$，</p><p>所以点 $P$ 的坐标为</p><p>$\\left( \\frac{6k}{2k^{2}+1},\\frac{-3}{2k^{2}+1}\\right)$.</p><p>由 $3\\overrightarrow{OC}=\\overrightarrow{OF}$，得点 $C$ 的坐标为 $(1,0)$.</p><p>所以，直线 $CP$ 的斜率为</p><p>$k_{CP}=\\frac{\\frac{-3}{2k^{2}+1}-0}{\\frac{6k}{2k^{2}+1}-1}=\\frac{3}{2k^{2}-6k+1}$.</p><p>又因为 $CP\\perp AB$，所以</p><p>$k\\cdot\\frac{3}{2k^{2}-6k+1}=-1$，</p><p>整理得</p><p>$2k^{2}-3k+1=0$，</p><p>解得 $k=\\dfrac{1}{2}$ 或 $k=1$.</p><p>所以，直线 $AB$ 的方程为</p><p>$y=\\frac{1}{2}x-3$或$y=x-3$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知 $\\{a_{n}\\}$ 为等差数列，$\\{b_{n}\\}$ 为等比数列，$a_{1}=b_{1}=1$，$a_{5}=5\\left( a_{4}-a_{3} \\right)$，$b_{5}=4\\left( b_{4}-b_{3} \\right)$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>记 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，求证：$S_{n}S_{n+2}<S_{n+1}^{2}$（$n\\in\\mathbb{N}^{*}$）；</p></li><li><p>对任意的正整数 $n$，设 $c_{n}=\\dfrac{(3a_n-2)b_n}{a_na_{n+2}}$（$n$ 为奇数），$c_{n}=\\dfrac{a_{n-1}}{b_{n+1}}$（$n$ 为偶数），求数列 $\\{c_{n}\\}$ 的前 $2n$ 项和.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$，等比数列 $\\{b_{n}\\}$ 的公比为 $q$.</p><p>由 $a_{1}=1$，$a_{5}=5\\left( a_{4}-a_{3} \\right)$，可得 $d=1$.</p><p>从而 $\\{a_{n}\\}$ 的通项公式为</p><p>$a_{n}=n$.</p><p>由 $b_{1}=1$，$b_{5}=4\\left( b_{4}-b_{3} \\right)$，又 $q\\neq0$，可得</p><p>$q^{4}=4q^{2}\\left( q-1 \\right)$，</p><p>即</p><p>$q^{2}-4q+4=0$，</p><p>解得 $q=2$，</p><p>从而 $\\{b_{n}\\}$ 的通项公式为</p><p>$b_{n}=2^{n-1}$.</p></li><li><p>证明：由第 1 问可得</p><p>$S_{n}=\\frac{n(n+1)}{2}$，</p><p>$S_{n}S_{n+2}=\\frac{n(n+1)(n+2)(n+3)}{4}$，$S_{n+1}^{2}=\\frac{(n+1)^{2}(n+2)^{2}}{4}$.</p><p>从而</p><p>$S_{n}S_{n+2}-S_{n+1}^{2} =-\\frac{1}{2}(n+1)(n+2)<0$，</p><p>所以</p><p>$S_{n}S_{n+2}<S_{n+1}^{2}$.</p></li><li><p>当 $n$ 为奇数时，</p><p>$c_{n}=\\frac{(3a_{n}-2)b_{n}}{a_{n}a_{n+2}}=\\frac{(3n-2)2^{n-1}}{n(n+2)}=\\frac{2^{n+1}}{n+2}-\\frac{2^{n-1}}{n}$.</p><p>当 $n$ 为偶数时，</p><p>$c_{n}=\\frac{a_{n-1}}{b_{n+1}}=\\frac{n-1}{2^{n}}$.</p><p>对任意的正整数 $n$，有</p><p>$\\sum_{k=1}^{n} c_{2k-1}=\\sum_{k=1}^{n}\\left( \\frac{2^{2k}}{2k+1}-\\frac{2^{2k-2}}{2k-1}\\right)  =\\sum_{k=1}^{n}\\left( \\frac{4^{k}}{2k+1}-\\frac{4^{k-1}}{2k-1}\\right)  =\\frac{4^{n}}{2n+1}-1$.</p><p>又</p><p>$\\sum_{k=1}^{n} c_{2k}=\\sum_{k=1}^{n}\\frac{2k-1}{4^{k}}=\\frac{1}{4}+\\frac{3}{4^{2}}+\\frac{5}{4^{3}}+\\cdots+\\frac{2n-1}{4^{n}}$.</p><p>记</p><p>$A=\\sum_{k=1}^{n} c_{2k}$，</p><p>则</p><p>$4A=1+\\frac{3}{4}+\\frac{5}{4^{2}}+\\cdots+\\frac{2n-1}{4^{n-1}}$.</p><p>两式相减，得</p><p>$3A=1+\\frac{2}{4}+\\frac{2}{4^{2}}+\\cdots+\\frac{2}{4^{n-1}}-\\frac{2n-1}{4^{n}}$.</p><p>所以</p><p>$3A=1+2\\sum_{k=1}^{n-1}\\frac{1}{4^{k}}-\\frac{2n-1}{4^{n}}=1+\\frac{2}{3}\\left( 1-\\frac{1}{4^{n-1}}\\right)-\\frac{2n-1}{4^{n}}=\\frac{5}{3}-\\frac{6n+5}{3\\cdot4^{n}}$.</p><p>从而</p><p>$\\sum_{k=1}^{n} c_{2k}=A =\\frac{5}{9}-\\frac{6n+5}{9\\cdot4^{n}}$.</p><p>因此，</p><p>$\\sum_{k=1}^{2n}c_{k}  =\\sum_{k=1}^{n} c_{2k-1}+\\sum_{k=1}^{n} c_{2k}=\\frac{4^{n}}{2n+1}-1+\\frac{5}{9}-\\frac{6n+5}{9\\cdot4^{n}}=\\frac{4^{n}}{2n+1}-\\frac{4}{9}-\\frac{6n+5}{9\\cdot4^{n}}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$，等比数列 $\\{b_{n}\\}$ 的公比为 $q$.</p><p>由 $a_{1}=1$，$a_{5}=5\\left( a_{4}-a_{3} \\right)$，可得 $d=1$.</p><p>从而 $\\{a_{n}\\}$ 的通项公式为</p><p>$a_{n}=n$.</p><p>由 $b_{1}=1$，$b_{5}=4\\left( b_{4}-b_{3} \\right)$，又 $q\\neq0$，可得</p><p>$q^{4}=4q^{2}\\left( q-1 \\right)$，</p><p>即</p><p>$q^{2}-4q+4=0$，</p><p>解得 $q=2$，</p><p>从而 $\\{b_{n}\\}$ 的通项公式为</p><p>$b_{n}=2^{n-1}$.</p></li><li><p>证明：由第 1 问可得</p><p>$S_{n}=\\frac{n(n+1)}{2}$，</p><p>$S_{n}S_{n+2}=\\frac{n(n+1)(n+2)(n+3)}{4}$，$S_{n+1}^{2}=\\frac{(n+1)^{2}(n+2)^{2}}{4}$.</p><p>从而</p><p>$S_{n}S_{n+2}-S_{n+1}^{2} =-\\frac{1}{2}(n+1)(n+2)<0$，</p><p>所以</p><p>$S_{n}S_{n+2}<S_{n+1}^{2}$.</p></li><li><p>当 $n$ 为奇数时，</p><p>$c_{n}=\\frac{(3a_{n}-2)b_{n}}{a_{n}a_{n+2}}=\\frac{(3n-2)2^{n-1}}{n(n+2)}=\\frac{2^{n+1}}{n+2}-\\frac{2^{n-1}}{n}$.</p><p>当 $n$ 为偶数时，</p><p>$c_{n}=\\frac{a_{n-1}}{b_{n+1}}=\\frac{n-1}{2^{n}}$.</p><p>对任意的正整数 $n$，有</p><p>$\\sum_{k=1}^{n} c_{2k-1}=\\sum_{k=1}^{n}\\left( \\frac{2^{2k}}{2k+1}-\\frac{2^{2k-2}}{2k-1}\\right)  =\\sum_{k=1}^{n}\\left( \\frac{4^{k}}{2k+1}-\\frac{4^{k-1}}{2k-1}\\right)  =\\frac{4^{n}}{2n+1}-1$.</p><p>又</p><p>$\\sum_{k=1}^{n} c_{2k}=\\sum_{k=1}^{n}\\frac{2k-1}{4^{k}}=\\frac{1}{4}+\\frac{3}{4^{2}}+\\frac{5}{4^{3}}+\\cdots+\\frac{2n-1}{4^{n}}$.</p><p>记</p><p>$A=\\sum_{k=1}^{n} c_{2k}$，</p><p>则</p><p>$4A=1+\\frac{3}{4}+\\frac{5}{4^{2}}+\\cdots+\\frac{2n-1}{4^{n-1}}$.</p><p>两式相减，得</p><p>$3A=1+\\frac{2}{4}+\\frac{2}{4^{2}}+\\cdots+\\frac{2}{4^{n-1}}-\\frac{2n-1}{4^{n}}$.</p><p>所以</p><p>$3A=1+2\\sum_{k=1}^{n-1}\\frac{1}{4^{k}}-\\frac{2n-1}{4^{n}}=1+\\frac{2}{3}\\left( 1-\\frac{1}{4^{n-1}}\\right)-\\frac{2n-1}{4^{n}}=\\frac{5}{3}-\\frac{6n+5}{3\\cdot4^{n}}$.</p><p>从而</p><p>$\\sum_{k=1}^{n} c_{2k}=A =\\frac{5}{9}-\\frac{6n+5}{9\\cdot4^{n}}$.</p><p>因此，</p><p>$\\sum_{k=1}^{2n}c_{k}  =\\sum_{k=1}^{n} c_{2k-1}+\\sum_{k=1}^{n} c_{2k}=\\frac{4^{n}}{2n+1}-1+\\frac{5}{9}-\\frac{6n+5}{9\\cdot4^{n}}=\\frac{4^{n}}{2n+1}-\\frac{4}{9}-\\frac{6n+5}{9\\cdot4^{n}}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知函数 $f(x)=x^{3}+k\\ln x$（$k\\in\\mathbb{R}$），$f'(x)$ 为 $f(x)$ 的导函数.</p><ol class=\"enumerate\"><li><p>当 $k=6$ 时，</p><p></p><ol class=\"enumerate\"><li><p>求曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程；</p></li><li><p>求函数 $g(x)=f(x)-f'(x)+\\dfrac{9}{x}$ 的单调区间和极值；</p></li></ol><p></p></li><li><p>当 $k\\ge-3$ 时，求证：对任意的 $x_{1}$，$x_{2}\\in[1,+\\infty)$，且 $x_{1}>x_{2}$，有 $\\dfrac{f'(x_1)+f'(x_2)}{2}>\\dfrac{f(x_1)-f(x_2)}{x_1-x_2}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p></p><ol class=\"enumerate\"><li><p>当 $k=6$ 时，</p><p>$f(x)=x^{3}+6\\ln x$，$f'(x)=3x^{2}+\\frac{6}{x}$.</p><p>可得 $f(1)=1$，$f'(1)=9$，</p><p>所以曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程为</p><p>$y-1=9(x-1)$，</p><p>即</p><p>$y=9x-8$.</p></li><li><p>依题意，</p><p>$g(x)=x^{3}-3x^{2}+6\\ln x+\\frac{3}{x}$，$x\\in(0,+\\infty)$.</p><p>从而</p><p>$g'(x)=3x^{2}-6x+\\frac{6}{x}-\\frac{3}{x^{2}}=\\frac{3(x-1)^{3}(x+1)}{x^{2}}$.</p><p>令 $g'(x)=0$，解得 $x=1$.</p><p>当 $x$ 变化时， $g'(x)$，$g(x)$ 的变化情况如下表：</p><p><span class=\"macro macro-examdisplayarray\"></span>c|ccc<br>x & (0,1) & 1 & (1,+<span class=\"macro macro-infty\"></span>) <br class=\"linebreak\"><br><span class=\"macro macro-hline\"></span><br>g’(x) & - & 0 & + <br class=\"linebreak\"><br><span class=\"macro macro-hline\"></span><br>g(x) & <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">单调递减</span></span> & <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">极小值</span></span> & <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">单调递增</span></span><br></p><p>所以，函数 $g(x)$ 的单调递减区间为 $(0,1)$，单调递增区间为 $(1,+\\infty)$；</p><p>$g(1)=1-3+0+3=1$，</p><p>故 $g(x)$ 的极小值为 $g(1)=1$，无极大值.</p></li></ol><p></p></li><li><p>证明：由 $f(x)=x^{3}+k\\ln x$，得</p><p>$f'(x)=3x^{2}+\\frac{k}{x}$.</p><p>对任意的 $x_{1}$，$x_{2}\\in[1,+\\infty)$，且 $x_{1}>x_{2}$，令</p><p>$t=\\frac{x_{1}}{x_{2}}$（$t>1$），</p><p>则</p><p><span class=\"macro macro-examdisplayaligned\"></span><br>&<span class=\"macro macro-left\"></span>( x_1-x_2 <span class=\"macro macro-right\"></span>)<span class=\"macro macro-left\"></span>( f’(x_1)+f’(x_2) <span class=\"macro macro-right\"></span>)-2<span class=\"macro macro-left\"></span>( f(x_1)-f(x_2) <span class=\"macro macro-right\"></span>) <br class=\"linebreak\"><br>=&<span class=\"macro macro-left\"></span>( x_1-x_2 <span class=\"macro macro-right\"></span>)<span class=\"macro macro-left\"></span>( 3x_1^2+<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">k</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">x_{1}</span></span>+3x_2^2+<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">k</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">x_{2}</span></span> <span class=\"macro macro-right\"></span>)-2<span class=\"macro macro-left\"></span>( x_1^3-x_2^3+k<span class=\"macro macro-ln\"></span><span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">x_{1}</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">x_{2}</span></span> <span class=\"macro macro-right\"></span>) <br class=\"linebreak\"><br>=&x_2^3<span class=\"macro macro-left\"></span>( t^3-3t^2+3t-1 <span class=\"macro macro-right\"></span>)+k<span class=\"macro macro-left\"></span>( t-<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">t</span></span>-2<span class=\"macro macro-ln\"></span> t <span class=\"macro macro-right\"></span>)<br></p><p>令</p><p>$h(x)=x-\\frac{1}{x}-2\\ln x$，$x\\in[1,+\\infty)$，</p><p>则</p><p>$h'(x)=1+\\frac{1}{x^{2}}-\\frac{2}{x}=\\left( 1-\\frac{1}{x}\\right)^{2}>0$（$x>1$）.</p><p>由此可得 $h(x)$ 在 $[1,+\\infty)$ 上单调递增，所以当 $t>1$ 时，</p><p>$t-\\frac{1}{t}-2\\ln t=h(t)>h(1)=0$.</p><p>因为 $x_{2}\\ge1$，$k\\ge-3$，且</p><p>$t^{3}-3t^{2}+3t-1=\\left( t-1 \\right)^{3}>0$，</p><p>所以</p><p><span class=\"macro macro-examdisplayaligned\"></span><br>&x_2^3<span class=\"macro macro-left\"></span>( t^3-3t^2+3t-1 <span class=\"macro macro-right\"></span>)+k<span class=\"macro macro-left\"></span>( t-<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">t</span></span>-2<span class=\"macro macro-ln\"></span> t <span class=\"macro macro-right\"></span>) <br class=\"linebreak\"><br><span class=\"macro macro-ge\"></span>&<span class=\"macro macro-left\"></span>( t^3-3t^2+3t-1 <span class=\"macro macro-right\"></span>)-3<span class=\"macro macro-left\"></span>( t-<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">t</span></span>-2<span class=\"macro macro-ln\"></span> t <span class=\"macro macro-right\"></span>) <br class=\"linebreak\"><br>=&t^3-3t^2+6<span class=\"macro macro-ln\"></span> t+<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">3</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">t</span></span>-1<br></p><p>由（1）（2）可知，当 $t>1$ 时，</p><p>$g(t)=t^{3}-3t^{2}+6\\ln t+\\frac{3}{t}>g(1)=1$，</p><p>即</p><p>$t^{3}-3t^{2}+6\\ln t+\\frac{3}{t}-1>0$.</p><p>因此，</p><p>$\\left( x_{1}-x_{2} \\right)\\left( f'(x_{1})+f'(x_{2}) \\right)-2\\left( f(x_{1})-f(x_{2}) \\right)>0$.</p><p>所以，当 $k\\ge-3$ 时，任意的 $x_{1}$，$x_{2}\\in[1,+\\infty)$，且 $x_{1}>x_{2}$，有</p><p>$\\frac{f'(x_{1})+f'(x_{2})}{2}>\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p></p><ol class=\"enumerate\"><li><p>当 $k=6$ 时，</p><p>$f(x)=x^{3}+6\\ln x$，$f'(x)=3x^{2}+\\frac{6}{x}$.</p><p>可得 $f(1)=1$，$f'(1)=9$，</p><p>所以曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程为</p><p>$y-1=9(x-1)$，</p><p>即</p><p>$y=9x-8$.</p></li><li><p>依题意，</p><p>$g(x)=x^{3}-3x^{2}+6\\ln x+\\frac{3}{x}$，$x\\in(0,+\\infty)$.</p><p>从而</p><p>$g'(x)=3x^{2}-6x+\\frac{6}{x}-\\frac{3}{x^{2}}=\\frac{3(x-1)^{3}(x+1)}{x^{2}}$.</p><p>令 $g'(x)=0$，解得 $x=1$.</p><p>当 $x$ 变化时， $g'(x)$，$g(x)$ 的变化情况如下表：</p><p><span class=\"macro macro-examdisplayarray\"></span>c|ccc<br>x & (0,1) & 1 & (1,+<span class=\"macro macro-infty\"></span>) <br class=\"linebreak\"><br><span class=\"macro macro-hline\"></span><br>g’(x) & - & 0 & + <br class=\"linebreak\"><br><span class=\"macro macro-hline\"></span><br>g(x) & <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">单调递减</span></span> & <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">极小值</span></span> & <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">单调递增</span></span><br></p><p>所以，函数 $g(x)$ 的单调递减区间为 $(0,1)$，单调递增区间为 $(1,+\\infty)$；</p><p>$g(1)=1-3+0+3=1$，</p><p>故 $g(x)$ 的极小值为 $g(1)=1$，无极大值.</p></li></ol><p></p></li><li><p>证明：由 $f(x)=x^{3}+k\\ln x$，得</p><p>$f'(x)=3x^{2}+\\frac{k}{x}$.</p><p>对任意的 $x_{1}$，$x_{2}\\in[1,+\\infty)$，且 $x_{1}>x_{2}$，令</p><p>$t=\\frac{x_{1}}{x_{2}}$（$t>1$），</p><p>则</p><p><span class=\"macro macro-examdisplayaligned\"></span><br>&<span class=\"macro macro-left\"></span>( x_1-x_2 <span class=\"macro macro-right\"></span>)<span class=\"macro macro-left\"></span>( f’(x_1)+f’(x_2) <span class=\"macro macro-right\"></span>)-2<span class=\"macro macro-left\"></span>( f(x_1)-f(x_2) <span class=\"macro macro-right\"></span>) <br class=\"linebreak\"><br>=&<span class=\"macro macro-left\"></span>( x_1-x_2 <span class=\"macro macro-right\"></span>)<span class=\"macro macro-left\"></span>( 3x_1^2+<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">k</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">x_{1}</span></span>+3x_2^2+<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">k</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">x_{2}</span></span> <span class=\"macro macro-right\"></span>)-2<span class=\"macro macro-left\"></span>( x_1^3-x_2^3+k<span class=\"macro macro-ln\"></span><span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">x_{1}</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">x_{2}</span></span> <span class=\"macro macro-right\"></span>) <br class=\"linebreak\"><br>=&x_2^3<span class=\"macro macro-left\"></span>( t^3-3t^2+3t-1 <span class=\"macro macro-right\"></span>)+k<span class=\"macro macro-left\"></span>( t-<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">t</span></span>-2<span class=\"macro macro-ln\"></span> t <span class=\"macro macro-right\"></span>)<br></p><p>令</p><p>$h(x)=x-\\frac{1}{x}-2\\ln x$，$x\\in[1,+\\infty)$，</p><p>则</p><p>$h'(x)=1+\\frac{1}{x^{2}}-\\frac{2}{x}=\\left( 1-\\frac{1}{x}\\right)^{2}>0$（$x>1$）.</p><p>由此可得 $h(x)$ 在 $[1,+\\infty)$ 上单调递增，所以当 $t>1$ 时，</p><p>$t-\\frac{1}{t}-2\\ln t=h(t)>h(1)=0$.</p><p>因为 $x_{2}\\ge1$，$k\\ge-3$，且</p><p>$t^{3}-3t^{2}+3t-1=\\left( t-1 \\right)^{3}>0$，</p><p>所以</p><p><span class=\"macro macro-examdisplayaligned\"></span><br>&x_2^3<span class=\"macro macro-left\"></span>( t^3-3t^2+3t-1 <span class=\"macro macro-right\"></span>)+k<span class=\"macro macro-left\"></span>( t-<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">t</span></span>-2<span class=\"macro macro-ln\"></span> t <span class=\"macro macro-right\"></span>) <br class=\"linebreak\"><br><span class=\"macro macro-ge\"></span>&<span class=\"macro macro-left\"></span>( t^3-3t^2+3t-1 <span class=\"macro macro-right\"></span>)-3<span class=\"macro macro-left\"></span>( t-<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">t</span></span>-2<span class=\"macro macro-ln\"></span> t <span class=\"macro macro-right\"></span>) <br class=\"linebreak\"><br>=&t^3-3t^2+6<span class=\"macro macro-ln\"></span> t+<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">3</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">t</span></span>-1<br></p><p>由（1）（2）可知，当 $t>1$ 时，</p><p>$g(t)=t^{3}-3t^{2}+6\\ln t+\\frac{3}{t}>g(1)=1$，</p><p>即</p><p>$t^{3}-3t^{2}+6\\ln t+\\frac{3}{t}-1>0$.</p><p>因此，</p><p>$\\left( x_{1}-x_{2} \\right)\\left( f'(x_{1})+f'(x_{2}) \\right)-2\\left( f(x_{1})-f(x_{2}) \\right)>0$.</p><p>所以，当 $k\\ge-3$ 时，任意的 $x_{1}$，$x_{2}\\in[1,+\\infty)$，且 $x_{1}>x_{2}$，有</p><p>$\\frac{f'(x_{1})+f'(x_{2})}{2}>\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

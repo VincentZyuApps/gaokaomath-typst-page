@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,329 +11,293 @@
 #part-header("解答题")
 
 #problem(1)[
-化简：$(\sqrt[3]{3^(-(3)/(2)){}( (1)/(3))^(-3)})/(( sqrt(3)-1 )^2)$.
+化简：#mi(`\frac{\sqrt[3]{3^{-\frac{3}{2}}\left( \frac{1}{3}\right)^{-3}}}{\left( \sqrt{3}-1 \right)^{2}}`).
 ]
 
 #solution[
 先化简根号内的幂：
 
-$ 3^(-(3)/(2))( (1)/(3))^(-3)=3^(-(3)/(2))3^3=3^((3)/(2)) $
+
+#align(center)[#mitex(`
+3^{-\frac{3}{2}}\left( \frac{1}{3}\right)^{-3}=3^{-\frac{3}{2}}3^{3}=3^{\frac{3}{2}}
+`)]
+
 
 因此
 
-$ (\sqrt[3]{3^(-(3)/(2)){}( (1)/(3))^(-3)})/(( sqrt(3)-1 )^2)=(3^((1)/(2)))/(( sqrt(3)-1 )^2)=(sqrt(3))/(4-2 sqrt(3))=(sqrt(3))/(2( 2-sqrt(3))) $
+
+#align(center)[#mitex(`
+\frac{\sqrt[3]{3^{-\frac{3}{2}}\left( \frac{1}{3}\right)^{-3}}}{\left( \sqrt{3}-1 \right)^{2}}=\frac{3^{\frac{1}{2}}}{\left( \sqrt{3}-1 \right)^{2}}=\frac{\sqrt{3}}{4-2\sqrt{3}}=\frac{\sqrt{3}}{2\left( 2-\sqrt{3} \right)}
+`)]
+
 
 分母有理化，得
 
-$ (sqrt(3))/(2( 2-sqrt(3)))=(sqrt(3)( 2+sqrt(3)))/(2( 2-sqrt(3))( 2+sqrt(3)))=(2 sqrt(3)+3)/(2) $
+
+#align(center)[#mitex(`
+\frac{\sqrt{3}}{2\left( 2-\sqrt{3} \right)}=\frac{\sqrt{3}\left( 2+\sqrt{3} \right)}{2\left( 2-\sqrt{3} \right)\left( 2+\sqrt{3} \right)}=\frac{2\sqrt{3}+3}{2}
+`)]
 ]
 
 #problem(2)[
-甲乙二人在河的南岸 $O$ 处，隔河在正北方向有一建筑物 $P$. 甲向正东，乙向正西沿河岸而行，甲每分钟比乙多走 $a" 米"$. $10$ 分钟后，甲望建筑物 $P$ 在北 $alpha ""^ degree$ 西（即北偏西 $alpha ""^ degree$），乙望建筑物 $P$ 在北 $beta ""^ degree$ 东（即北偏东 $beta ""^ degree$），求 $O$ 与 $P$ 之间的距离.
+甲乙二人在河的南岸 #mi(`O`) 处，隔河在正北方向有一建筑物 #mi(`P`). 甲向正东，乙向正西沿河岸而行，甲每分钟比乙多走 #mi(`a\text{ \text{米}}`). #mi(`10`) 分钟后，甲望建筑物 #mi(`P`) 在北 #mi(`\alpha^{\circ}`) 西（即北偏西 #mi(`\alpha^{\circ}`)），乙望建筑物 #mi(`P`) 在北 #mi(`\beta^{\circ}`) 东（即北偏东 #mi(`\beta^{\circ}`)），求 #mi(`O`) 与 #mi(`P`) 之间的距离.
 ]
 
 #solution[
-设十分钟后甲、乙所在位置分别为 $A$、$B$，设 $O B=x$，则乙向正西走了 $x$ 米，甲向正东走了 $x+10 a$ 米，所以 $O A=x+10 a$.
+设十分钟后甲、乙所在位置分别为 #mi(`A`)、#mi(`B`)，设 #mi(`OB=x`)，则乙向正西走了 #mi(`x`) 米，甲向正东走了 #mi(`x+10a`) 米，所以 #mi(`OA=x+10a`).
 
+ 
+#align(center)[#image("/papers/1964/img/national/q2_solution_fig1.png", width: 28%)]
+ 
 
-#align(center)[#image("/papers/1964/img/national/q2_solution_fig1.png", width: 42%)]
+设 #mi(`OP=h`). 过 #mi(`A`)、#mi(`B`) 分别作与 #mi(`OP`) 同向的正北方向直线，则由北偏角的定义，#mi(`\alpha`)、#mi(`\beta`) 分别是 #mi(`AP`)、#mi(`BP`) 与这些正北方向直线的夹角. 因此在两个直角三角形中分别有
 
+#mi(`\tan\alpha=\frac{OA}{OP}=\frac{x+10a}{h}`)，#mi(`\tan\beta=\frac{OB}{OP}=\frac{x}{h}`)，即 #mi(`h\tan\alpha=x+10a`)，#mi(`h\tan\beta=x`).
 
-设 $O P=h$. 过 $A$、$B$ 分别作与 $O P$ 同向的正北方向直线，则由北偏角的定义，$alpha$、$beta$ 分别是 $A P$、$B P$ 与这些正北方向直线的夹角. 因此在两个直角三角形中分别有
-$tan alpha =(O A)/(O P)=(x+10 a)/(h)$，$tan beta =(O B)/(O P)=(x)/(h)$，即 $h tan alpha =x+10 a$，$h tan beta =x$.
 两式相减，得到
 
-$ h( tan alpha - tan beta )=10 a $
+
+#align(center)[#mitex(`
+h\left( \tan\alpha-\tan\beta \right)=10a
+`)]
+
 
 所以
 
-$ O P=h=(10 a)/(tan alpha - tan beta) $
+
+#align(center)[#mitex(`
+OP=h=\frac{10a}{\tan\alpha-\tan\beta}
+`)]
 ]
 
 #problem(3)[
-解方程 $x^4+1=0$；并且证明：平面内表示这个方程的根的四个点是一个正方形的顶点.
+解方程 #mi(`x^{4}+1=0`)；并且证明：平面内表示这个方程的根的四个点是一个正方形的顶点.
 ]
 
 #solution[
 将方程左边配方并作平方差分解：
 
-$ x^4+1=( x^2+1 )^2-2 x^2 =( x^2+sqrt(2)x+1 )( x^2-sqrt(2)x+1 ) $
+
+#align(center)[#mitex(`
+x^{4}+1=\left( x^{2}+1 \right)^{2}-2x^{2}  =\left( x^{2}+\sqrt{2}x+1 \right)\left( x^{2}-\sqrt{2}x+1 \right)
+`)]
+
 
 因此原方程等价于
 
-$ ( x^2+sqrt(2)x+1 )( x^2-sqrt(2)x+1 )=0 $
+
+#align(center)[#mitex(`
+\left( x^{2}+\sqrt{2}x+1 \right)\left( x^{2}-\sqrt{2}x+1 \right)=0
+`)]
+
 
 由求根公式，两个二次方程的根分别为
 
-$ x=(-sqrt(2)\p m s q r t(-2))/(2)=(sqrt(2))/(2)( -1 +- i ) $
+
+#align(center)[#mitex(`
+x=\frac{-\sqrt{2}\pm\sqrt{-2}}{2}=\frac{\sqrt{2}}{2}\left( -1\pm\mathrm{i}\right)
+`)]
+
 
 以及
 
-$ x=(sqrt(2)\p m s q r t(-2))/(2)=(sqrt(2))/(2)( 1 +- i ) $
 
-所以四个根可按逆时针顺序记为 $x_1=(sqrt(2))/(2)( 1+ i )$，$x_2=(sqrt(2))/(2)( -1+ i )$，$x_3=(sqrt(2))/(2)( -1- i )$，$x_4=(sqrt(2))/(2)( 1- i )$.
-令 $c=(sqrt(2))/(2)$，并在复平面内分别以 $M_1$，$M_2$，$M_3$，$M_4$ 表示这四个根，则
-$M_1=(c,c)$，$M_2=(-c,c)$，$M_3=(-c,-c)$，$M_4=(c,-c)$.
+#align(center)[#mitex(`
+x=\frac{\sqrt{2}\pm\sqrt{-2}}{2}=\frac{\sqrt{2}}{2}\left( 1\pm\mathrm{i}\right)
+`)]
+
+
+所以四个根可按逆时针顺序记为 #mi(`x_{1}=\frac{\sqrt{2}}{2}\left( 1+\mathrm{i}\right)`)，#mi(`x_{2}=\frac{\sqrt{2}}{2}\left( -1+\mathrm{i}\right)`)，#mi(`x_{3}=\frac{\sqrt{2}}{2}\left( -1-\mathrm{i}\right)`)，#mi(`x_{4}=\frac{\sqrt{2}}{2}\left( 1-\mathrm{i}\right)`).
+
+令 #mi(`c=\frac{\sqrt{2}}{2}`)，并在复平面内分别以 #mi(`M_{1}`)，#mi(`M_{2}`)，#mi(`M_{3}`)，#mi(`M_{4}`) 表示这四个根，则
+
+#mi(`M_{1}=(c,c)`)，#mi(`M_{2}=(-c,c)`)，#mi(`M_{3}=(-c,-c)`)，#mi(`M_{4}=(c,-c)`).
+
 于是
 
-$ M_(1) M_2=M_(2) M_3=M_(3) M_4=M_(4) M_1=2 c=sqrt(2) $
 
-且 $M_(1) M_2$ 平行于实轴，$M_(2) M_3$ 平行于虚轴，所以 $angle M_(1) M_(2) M_3=90^ degree$. 四边相等且有一个直角，故 $M_(1) M_(2) M_(3) M_4$ 是正方形.
+#align(center)[#mitex(`
+M_{1}M_{2}=M_{2}M_{3}=M_{3}M_{4}=M_{4}M_{1}=2c=\sqrt{2}
+`)]
 
 
-#align(center)[#image("/papers/1964/img/national/q3_solution_fig1.png", width: 38%)]
+且 #mi(`M_{1}M_{2}`) 平行于实轴，#mi(`M_{2}M_{3}`) 平行于虚轴，所以 #mi(`\angle M_{1}M_{2}M_{3}=90^{\circ}`). 四边相等且有一个直角，故 #mi(`M_{1}M_{2}M_{3}M_{4}`) 是正方形.
+
+ 
+#align(center)[#image("/papers/1964/img/national/q3_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(4)[
-已知 $A$，$B$，$C$ 是三角形的三个内角，求证：$cos A=(sin ""^(2) B+ sin ""^(2) C- sin ""^(2) A)/(2 sin B sin C)$.
+已知 #mi(`A`)，#mi(`B`)，#mi(`C`) 是三角形的三个内角，求证：#mi(`\cos A=\frac{\sin^{2}B+\sin^{2}C-\sin^{2}A}{2\sin B\sin C}`).
 ]
 
 #solution[
-设三角形的三边分别为 $a$、$b$、$c$，其中 $a$、$b$、$c$ 分别与角 $A$、$B$、$C$ 对应，外接圆半径为 $R$. 由正弦定理，
+设三角形的三边分别为 #mi(`a`)、#mi(`b`)、#mi(`c`)，其中 #mi(`a`)、#mi(`b`)、#mi(`c`) 分别与角 #mi(`A`)、#mi(`B`)、#mi(`C`) 对应，外接圆半径为 #mi(`R`). 由正弦定理，
 
-$ (a)/(sin A)=(b)/(sin B)=(c)/(sin C)=2 R $
 
-即 $sin A=(a)/(2 R)$，$sin B=(b)/(2 R)$，$sin C=(c)/(2 R)$.
+#align(center)[#mitex(`
+\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}=2R
+`)]
+
+
+即 #mi(`\sin A=\frac{a}{2R}`)，#mi(`\sin B=\frac{b}{2R}`)，#mi(`\sin C=\frac{c}{2R}`).
+
 代入右端，得到
 
-$ (sin ""^(2) B+ sin ""^(2) C- sin ""^(2) A)/(2 sin B sin C)=((b^2)/(4 R^2)+(c^2)/(4 R^2)-(a^2)/(4 R^2))/(2 dot (b)/(2 R) dot (c)/(2 R))=(b^2+c^2-a^2)/(2 b c) $
 
-由余弦定理 $a^2=b^2+c^2-2 b c cos A$，所以
+#align(center)[#mitex(`
+\frac{\sin^{2}B+\sin^{2}C-\sin^{2}A}{2\sin B\sin C}=\frac{\frac{b^{2}}{4R^{2}}+\frac{c^{2}}{4R^{2}}-\frac{a^{2}}{4R^{2}}}{2\cdot\frac{b}{2R}\cdot\frac{c}{2R}}=\frac{b^{2}+c^{2}-a^{2}}{2bc}
+`)]
 
-$ (b^2+c^2-a^2)/(2 b c)= cos A $
 
-又因为 $B$、$C$ 是三角形内角，$sin B sin C>0$，上述除法合法，故原等式成立.
+由余弦定理 #mi(`a^{2}=b^{2}+c^{2}-2bc\cos A`)，所以
+
+
+#align(center)[#mitex(`
+\frac{b^{2}+c^{2}-a^{2}}{2bc}=\cos A
+`)]
+
+
+又因为 #mi(`B`)、#mi(`C`) 是三角形内角，#mi(`\sin B\sin C>0`)，上述除法合法，故原等式成立.
 ]
 
 #problem(5)[
-已知方程 $x^3+m x^2-3 x+n=0$ 的三个根的平方和为 $6$，且知这个方程有两相等的正根，求 $m$，$n$ 的值.
+已知方程 #mi(`x^{3}+mx^{2}-3x+n=0`) 的三个根的平方和为 #mi(`6`)，且知这个方程有两相等的正根，求 #mi(`m`)，#mi(`n`) 的值.
 ]
 
 #solution[
-设两个相等的正根为 $alpha$、$alpha$，另一个根为 $beta$，其中 $alpha >0$. 由三个根的平方和为 $6$，得
+设两个相等的正根为 #mi(`\alpha`)、#mi(`\alpha`)，另一个根为 #mi(`\beta`)，其中 #mi(`\alpha>0`). 由三个根的平方和为 #mi(`6`)，得
 
-$ 2 alpha ""^2+ beta ""^2=6 $
+
+#align(center)[#mitex(`
+2\alpha^{2}+\beta^{2}=6
+`)]
+
 
 由根与系数的关系，得
 
-$ alpha ""^2+2 alpha beta =-3 $
 
-将第二式乘以 $2$，再与第一式相加，得到
+#align(center)[#mitex(`
+\alpha^{2}+2\alpha\beta=-3
+`)]
 
-$ ( 2 alpha ""^2+ beta ""^2 )+2( alpha ""^2+2 alpha beta )=6-6=0 $
+
+将第二式乘以 #mi(`2`)，再与第一式相加，得到
+
+
+#align(center)[#mitex(`
+\left( 2\alpha^{2}+\beta^{2} \right)+2\left( \alpha^{2}+2\alpha\beta \right)=6-6=0
+`)]
+
 
 即
 
-$ ( 2 alpha + beta )^2=0 $
 
-因此 $beta =-2 alpha$. 代入平方和条件，得 $2 alpha ""^2+( -2 alpha )^2=6$，即 $6 alpha ""^2=6$.
-由于 $alpha >0$，所以 $alpha =1$，进而 $beta =-2$.
+#align(center)[#mitex(`
+\left( 2\alpha+\beta \right)^{2}=0
+`)]
 
-再次由根与系数的关系，$2 alpha + beta =-m$，$alpha ""^2 beta =-n$.
-代入 $alpha =1$、$beta =-2$，得
-$m=0$，$n=2$.
-校验可得方程为 $x^3-3 x+2=( x-1 )^2( x+2 )=0$，确有两个相等的正根 $1$，故 $m=0$，$n=2$.
+
+因此 #mi(`\beta=-2\alpha`). 代入平方和条件，得 #mi(`2\alpha^{2}+\left( -2\alpha \right)^{2}=6`)，即 #mi(`6\alpha^{2}=6`).
+
+由于 #mi(`\alpha>0`)，所以 #mi(`\alpha=1`)，进而 #mi(`\beta=-2`).
+
+再次由根与系数的关系，#mi(`2\alpha+\beta=-m`)，#mi(`\alpha^{2}\beta=-n`).
+
+代入 #mi(`\alpha=1`)、#mi(`\beta=-2`)，得
+
+#mi(`m=0`)，#mi(`n=2`).
+
+校验可得方程为 #mi(`x^{3}-3x+2=\left( x-1 \right)^{2}\left( x+2 \right)=0`)，确有两个相等的正根 #mi(`1`)，故 #mi(`m=0`)，#mi(`n=2`).
 ]
 
 #problem(6)[
-圆台形铁桶的上口半径是 $15" 厘米"$，下底半径是 $10" 厘米"$，母线长是 $30" 厘米"$，将铁桶的侧面沿一条母线剪开铺平，得图中扇面形状的铁片 $A B C D$. 求 $A$，$B$ 两点间的距离.
+圆台形铁桶的上口半径是 #mi(`15\text{ \text{厘米}}`)，下底半径是 #mi(`10\text{ \text{厘米}}`)，母线长是 #mi(`30\text{ \text{厘米}}`)，将铁桶的侧面沿一条母线剪开铺平，得图中扇面形状的铁片 #mi(`ABCD`). 求 #mi(`A`)，#mi(`B`) 两点间的距离.
 
 
-#align(center)[#image("/papers/1964/img/national/q6_fig1.png", width: 42%)]
+#align(center)[#image("/papers/1964/img/national/q6_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设扇形的圆心为 $O$，延长 $A D$ 与 $B C$ 相交于 $O$，设 $O D=x" 厘米"$，设 $angle C O D= theta$，其中 $theta$ 用弧度表示. 展开后，外侧弧 $\w i d e h a t{A B}$ 的长度等于铁桶上口周长，内侧弧 $\w i d e h a t{C D}$ 的长度等于铁桶下底周长，因此由圆周长公式，$\w i d e h a t{A B}=2 pi dot 15 =30 pi " 厘米"$，$\w i d e h a t{C D}=2 pi dot 10 =20 pi " 厘米"$.
+设扇形的圆心为 #mi(`O`)，延长 #mi(`AD`) 与 #mi(`BC`) 相交于 #mi(`O`)，设 #mi(`OD=x\text{ \text{厘米}}`)，设 #mi(`\angle COD=\theta`)，其中 #mi(`\theta`) 用弧度表示. 展开后，外侧弧 #mi(`\widehat{AB}`) 的长度等于铁桶上口周长，内侧弧 #mi(`\widehat{CD}`) 的长度等于铁桶下底周长，因此由圆周长公式，#mi(`\widehat{AB}=2\pi\cdot15=30\pi\text{ \text{厘米}}`)，#mi(`\widehat{CD}=2\pi\cdot10=20\pi\text{ \text{厘米}}`).
+
 由弧长公式，得到
 
-$ \b e g i n{c a s e s} ( x+30 ) theta =30 pi ,\\ x theta =20 pi . \e n d{c a s e s} $
 
-两式相减，得 $30 theta =10 pi$，所以 $theta =(pi)/(3)$. 再由 $x theta =20 pi$，得
+#align(center)[#mitex(`
+\begin{cases}\left( x+30 \right)\theta=30\pi,\\  x\theta=20\pi.\end{cases}
+`)]
 
-$ x=(20 pi)/(theta)=60 $
 
-于是 $O A=O B=x+30=90" 厘米"$，且 $angle A O B= theta =(pi)/(3)$. 因而
+两式相减，得 #mi(`30\theta=10\pi`)，所以 #mi(`\theta=\frac{\pi}{3}`). 再由 #mi(`x\theta=20\pi`)，得
 
-$ A B=2 dot 90 sin (theta)/(2)=180 sin (pi)/(6)=90" 厘米" $
+
+#align(center)[#mitex(`
+x=\frac{20\pi}{\theta}=60
+`)]
+
+
+于是 #mi(`OA=OB=x+30=90\text{ \text{厘米}}`)，且 #mi(`\angle AOB=\theta=\frac{\pi}{3}`). 因而
+
+
+#align(center)[#mitex(`
+AB=2\cdot90\sin\frac{\theta}{2}=180\sin\frac{\pi}{6}=90\text{ \text{厘米}}
+`)]
 ]
 
 #problem(7)[
-$A$，$B$，$C$，$D$ 四个点在平面 $M$ 和平面 $N$ 之外，$A$，$B$，$C$，$D$ 在平面 $M$ 内的射影是 $A_1$，$B_1$，$C_1$，$D_1$，在平面 $N$ 内的射影是 $A_2$，$B_2$，$C_2$，$D_2$. 已知 $A_1$，$B_1$，$C_1$，$D_1$ 在一条直线上，$A_(2) B_(2) C_(2) D_2$ 是一个平行四边形，求证 $A B C D$ 也是一个平行四边形.
+#mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 四个点在平面 #mi(`M`) 和平面 #mi(`N`) 之外，#mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 在平面 #mi(`M`) 内的射影是 #mi(`A_{1}`)，#mi(`B_{1}`)，#mi(`C_{1}`)，#mi(`D_{1}`)，在平面 #mi(`N`) 内的射影是 #mi(`A_{2}`)，#mi(`B_{2}`)，#mi(`C_{2}`)，#mi(`D_{2}`). 已知 #mi(`A_{1}`)，#mi(`B_{1}`)，#mi(`C_{1}`)，#mi(`D_{1}`) 在一条直线上，#mi(`A_{2}B_{2}C_{2}D_{2}`) 是一个平行四边形，求证 #mi(`ABCD`) 也是一个平行四边形.
 ]
 
 #solution[
-设 $A_1$、$B_1$、$C_1$、$D_1$ 所在的直线为 $l$. 过 $l$ 和直线 $A A_1$ 作平面 $P$. 因为 $l subset M$，且 $A A_1 bot M$，所以 $P bot M$. 显然 $A in P$. 对于点 $B$，由于 $B_1 in l subset P$，且 $B B_1 bot M$，而平面 $P bot M$，所以平面 $P$ 内过 $B_1$ 的垂线就是 $B B_1$，故 $B B_1 subset P$，从而 $B in P$. 同理，$C$、$D$ 也在平面 $P$ 内.
+设 #mi(`A_{1}`)、#mi(`B_{1}`)、#mi(`C_{1}`)、#mi(`D_{1}`) 所在的直线为 #mi(`l`). 过 #mi(`l`) 和直线 #mi(`AA_{1}`) 作平面 #mi(`P`). 因为 #mi(`l\subset M`)，且 #mi(`AA_{1}\perp M`)，所以 #mi(`P\perp M`). 显然 #mi(`A\in P`). 对于点 #mi(`B`)，由于 #mi(`B_{1}\in l\subset P`)，且 #mi(`BB_{1}\perp M`)，而平面 #mi(`P\perp M`)，所以平面 #mi(`P`) 内过 #mi(`B_{1}`) 的垂线就是 #mi(`BB_{1}`)，故 #mi(`BB_{1}\subset P`)，从而 #mi(`B\in P`). 同理，#mi(`C`)、#mi(`D`) 也在平面 #mi(`P`) 内.
 
+ 
+#align(center)[#image("/papers/1964/img/national/q7_solution_fig1.png", width: 28%)]
+ 
 
-#align(center)[#image("/papers/1964/img/national/q7_solution_fig1.png", width: 50%)]
+因为 #mi(`AA_{2}`)、#mi(`DD_{2}`) 都垂直于平面 #mi(`N`)，所以 #mi(`AA_{2}\parallel DD_{2}`). 又因为 #mi(`A_{2}B_{2}C_{2}D_{2}`) 是平行四边形，所以 #mi(`A_{2}B_{2}\parallel D_{2}C_{2}`). 设由直线 #mi(`AA_{2}`)、#mi(`A_{2}B_{2}`) 所确定的平面为 #mi(`U`)，由直线 #mi(`DD_{2}`)、#mi(`D_{2}C_{2}`) 所确定的平面为 #mi(`V`). 由于 #mi(`A_{2}B_{2}`) 与 #mi(`D_{2}C_{2}`) 是不重合的平行直线，且 #mi(`AA_{2}\parallel DD_{2}`)，所以 #mi(`U`) 与 #mi(`V`) 是不重合的平行平面.
 
+由于 #mi(`BB_{2}\parallel AA_{2}`)，且 #mi(`B_{2}\in A_{2}B_{2}`)，有 #mi(`B\in U`). 若 #mi(`U=P`)，则 #mi(`U`) 含有垂直于 #mi(`N`) 的直线 #mi(`AA_{2}`)，因而 #mi(`U\perp N`)，且 #mi(`U\cap N=A_{2}B_{2}`). 对于 #mi(`C`)，#mi(`D\in P=U`)，它们在 #mi(`N`) 内的正射影 #mi(`C_{2}`)，#mi(`D_{2}`) 必在 #mi(`U\cap N=A_{2}B_{2}`) 上，这与 #mi(`A_{2}B_{2}C_{2}D_{2}`) 是平行四边形矛盾，故 #mi(`U\ne P`). 同理 #mi(`V\ne P`). 因此 #mi(`U\cap P=AB`)，#mi(`V\cap P=CD`). 平面 #mi(`P`) 截两个平行平面所得的交线平行，因此 #mi(`AB\parallel CD`).
 
-因为 $A A_2$、$D D_2$ 都垂直于平面 $N$，所以 $A A_2 parallel D D_2$. 又因为 $A_(2) B_(2) C_(2) D_2$ 是平行四边形，所以 $A_(2) B_2 parallel D_(2) C_2$. 设由直线 $A A_2$、$A_(2) B_2$ 所确定的平面为 $U$，由直线 $D D_2$、$D_(2) C_2$ 所确定的平面为 $V$. 由于 $A_(2) B_2$ 与 $D_(2) C_2$ 是不重合的平行直线，且 $A A_2 parallel D D_2$，所以 $U$ 与 $V$ 是不重合的平行平面.
-
-由于 $B B_2 parallel A A_2$，且 $B_2 in A_(2) B_2$，有 $B in U$. 若 $U=P$，则 $U$ 含有垂直于 $N$ 的直线 $A A_2$，因而 $U bot N$，且 $U inter N=A_(2) B_2$. 对于 $C$，$D in P=U$，它们在 $N$ 内的正射影 $C_2$，$D_2$ 必在 $U inter N=A_(2) B_2$ 上，这与 $A_(2) B_(2) C_(2) D_2$ 是平行四边形矛盾，故 $U != P$. 同理 $V != P$. 因此 $U inter P=A B$，$V inter P=C D$. 平面 $P$ 截两个平行平面所得的交线平行，因此 $A B parallel C D$.
-
-同样，由 $A A_2 parallel B B_2$ 和 $A_(2) D_2 parallel B_(2) C_2$，由 $A A_2$、$A_(2) D_2$ 所确定的平面与由 $B B_2$、$B_(2) C_2$ 所确定的平面是两不重合的平行平面. 这两个平面与 $P$ 的交线分别为 $A D$、$B C$，所以 $A D parallel B C$. 两组对边分别平行，故四边形 $A B C D$ 是平行四边形.
+同样，由 #mi(`AA_{2}\parallel BB_{2}`) 和 #mi(`A_{2}D_{2}\parallel B_{2}C_{2}`)，由 #mi(`AA_{2}`)、#mi(`A_{2}D_{2}`) 所确定的平面与由 #mi(`BB_{2}`)、#mi(`B_{2}C_{2}`) 所确定的平面是两不重合的平行平面. 这两个平面与 #mi(`P`) 的交线分别为 #mi(`AD`)、#mi(`BC`)，所以 #mi(`AD\parallel BC`). 两组对边分别平行，故四边形 #mi(`ABCD`) 是平行四边形.
 ]
 
 #problem(8)[
-下图中 $A B C D$ 是正方形，其每边长为 $1$；在正方形内，$\o d o t O$ 与 $\o d o t O'$ 互相外切，并且 $\o d o t O$ 与 $A B$，$A D$ 两边相切，$\o d o t O'$ 与 $C B$，$C D$ 两边相切.
+下图中 #mi(`ABCD`) 是正方形，其每边长为 #mi(`1`)；在正方形内，#mi(`\odot O`) 与 #mi(`\odot O'`) 互相外切，并且 #mi(`\odot O`) 与 #mi(`AB`)，#mi(`AD`) 两边相切，#mi(`\odot O'`) 与 #mi(`CB`)，#mi(`CD`) 两边相切.
 
 
-+ (1) 求这两圆半径之和.
-+ (2) 当两圆半径各多么长时，两圆面积之和最小？当半径各多么长时，面积之和最大？证明你的结论.
++ (1) 
 
 
 
-#align(center)[#image("/papers/1964/img/national/q8_fig1.png", width: 32%)]
+
+#align(center)[#image("/papers/1964/img/national/q8_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设两圆半径分别为 $r$、$r'$，令 $s=r+r'$. 建立直角坐标系，取 $A=(0,0)$、$B=(1,0)$、$D=(0,1)$，则 $C=(1,1)$. 由于 $\o d o t O$ 与 $A B$、$A D$ 相切，$O=(r,r)$；由于 $\o d o t O'$ 与 $C B$、$C D$ 相切，$O'=(1-r',1-r')$.
+设两圆半径分别为 #mi(`r`)、#mi(`r'`)，令 #mi(`s=r+r'`). 建立直角坐标系，取 #mi(`A=(0,0)`)、#mi(`B=(1,0)`)、#mi(`D=(0,1)`)，则 #mi(`C=(1,1)`). 由于 #mi(`\odot O`) 与 #mi(`AB`)、#mi(`AD`) 相切，#mi(`O=(r,r)`)；由于 #mi(`\odot O'`) 与 #mi(`CB`)、#mi(`CD`) 相切，#mi(`O'=(1-r',1-r')`).
+
+ 
+#align(center)[#image("/papers/1964/img/national/q8_solution_fig1.png", width: 28%)]
+ 
+
+由于两圆都在正方形内且分别与两边相切，#mi(`0<r`)，#mi(`r'\le\frac{1}{2}`). 若 #mi(`s=1`)，则 #mi(`r=r'=\frac{1}{2}`)，从而 #mi(`O=O'=\left(\frac{1}{2},\frac{1}{2}\right)`)，这与两圆外切矛盾，故 #mi(`0<s<1`).
 
 
-#align(center)[#image("/papers/1964/img/national/q8_solution_fig1.png", width: 40%)]
-
-
-由于两圆都在正方形内且分别与两边相切，$0<r$，$r' <= (1)/(2)$. 若 $s=1$，则 $r=r'=(1)/(2)$，从而 $O=O'=((1)/(2),(1)/(2))$，这与两圆外切矛盾，故 $0<s<1$.
-
-
-+ (1) 两圆外切，所以 $O O'=r+r'=s$. 另一方面，
-
-$ O O'=sqrt(( 1-r'-r )^2+( 1-r'-r )^2)=sqrt(2)( 1-s ) $
-
-因此 $s=sqrt(2)( 1-s )$，解得
-
-$ s=(sqrt(2))/(1+sqrt(2))=2-sqrt(2) $
-+ (2) 每个圆都在边长为 $1$ 的正方形内并与两边相切，所以 $0<r <= (1)/(2)$，$0<r' <= (1)/(2)$，并且 $r+r'=s=2-sqrt(2)$.
-两圆面积之和为
-
-$ S= pi ( r^2+r'^2 )=(pi)/(2)[ s^2+( r-r' )^2 ] $
-
-当且仅当 $r-r'=0$ 时，$S$ 取得最小值，所以
-
-$ r=r'=(s)/(2)=(2-sqrt(2))/(2) $
-
-
-由 $0<r$，$r' <= (1)/(2)$ 及 $r+r'=s$，可知
-
-$ s-(1)/(2) <= r <= (1)/(2) $
-
-在此区间上，$( r-r' )^2=( 2 r-s )^2$ 在端点处取得最大值. 因而面积之和最大时，一圆半径为 $(1)/(2)$，另一圆半径为
-
-$ s-(1)/(2)=(3)/(2)-sqrt(2) $
-
-所以最大值在
-
-$ ( r,r' )=( (1)/(2),(3)/(2)-sqrt(2)) $
-
-或两圆互换这两个半径时取得.
++ (1)
 ]
 
 #part-header("附加题")
 
 #problem(9)[
-+ (1) 如果把第 $8$ 题中的正方形改成矩形，你能得什么结果？为什么？
-+ (2) 如果把第 $8$ 题中的正方形改成棱长为 $1$ 的正方体，把圆改成球，你能得到什么结果？为什么？
++ (1)
 ]
 
 #solution[
-+ (1) 设矩形 $A B C D$ 中 $A B=a$、$B C=b$，其中 $a>0$、$b>0$. 设两圆半径分别为 $r$、$r'$，且令 $s=r+r'$. 取 $A=(0,0)$、$B=(a,0)$、$D=(0,b)$，则两圆心分别为 $O=(r,r)$ 和 $O'=(a-r',b-r')$.
-
-
-#align(center)[#image("/papers/1964/img/national/q8_additional_solution_fig1.png", width: 50%)]
-
-
-两圆外切，所以 $O O'=s$. 由两圆心坐标，
-
-$ s^2=O O'^2=( a-r-r' )^2+( b-r-r' )^2 =( a-s )^2+( b-s )^2 $
-
-整理得
-
-$ s^2-2( a+b )s+a^2+b^2=0 $
-
-解这个关于 $s$ 的一元二次方程，得
-
-$ s=a+b\p m s q r t(2 a b) $
-
-令 $m= min \{a,b\}$、$M= max \{a,b\}$. 因为每个圆都在矩形内并分别与相邻两边相切，所以 $0<r <= (m)/(2)$，$0<r' <= (m)/(2)$，从而 $0<s <= m$. 因此只能取较小的根：
-
-$ s=a+b-sqrt(2 a b) $
-
-这个构型存在还必须满足
-
-$ a+b-sqrt(2 a b) <= m $
-
-由于 $a+b=M+m$，上式等价于
-
-$ M\l e s q r t(2 M m) <=> M^2 <= 2 M m <=> M <= 2 m $
-
-若 $M>2 m$，则上述两圆构型不存在. 反之，当 $M <= 2 m$ 时，取 $r=r'=(s)/(2) <= (m)/(2)$，两圆均在矩形内且满足外切条件，所以该条件也是充分的. 以下均在 $M <= 2 m$ 的条件下讨论. 在此条件下，$s-(m)/(2)>0$，因为
-
-$ ( M+(m)/(2))^2-2 M m=( M-(m)/(2))^2>0 $
-
-
-两圆面积之和为
-
-$ S= pi ( r^2+r'^2 )=(pi)/(2)[ s^2+( r-r' )^2 ] $
-
-由于 $s$ 是定值，当且仅当 $r=r'=(s)/(2)$ 时面积之和最小，即
-
-$ r=r'=(a+b-sqrt(2 a b))/(2) $
-
-
-又因为 $r$，$r' <= (m)/(2)$ 且 $r+r'=s$，可行范围为 $s-(m)/(2) <= r <= (m)/(2)$，且 $r'=s-r$. 此时 $r-r'=2 r-s$ 随 $r$ 增大而增大，所以 $| r-r'|$ 在区间端点处取得最大值. 因而面积之和最大时，两圆半径为
-
-$ \{r,r'\}=\{(m)/(2),\ a+b-sqrt(2 a b)-(m)/(2)\} $
-
-对应的最大面积之和为
-
-$ S_( max )= pi [( (m)/(2))^2+( a+b-sqrt(2 a b)-(m)/(2))^2] $
-+ (2) 设两个球的半径分别为 $r$、$r'$，令 $s=r+r'$. 建立直角坐标系，使正方体为 $[0,1]^3$，并使第一个球与过顶点 $(0,0,0)$ 的三个面相切，第二个球与相对顶点 $(1,1,1)$ 的三个面相切. 则两球心分别为 $O=(r,r,r)$ 和 $O'=(1-r',1-r',1-r')$.
-
-
-#align(center)[#image("/papers/1964/img/national/q8_additional_solution_fig3.png", width: 34%)]
-
-
-由于两球都在正方体内且分别与三个面相切，$0<r$，$r' <= (1)/(2)$. 若 $s=1$，则 $r=r'=(1)/(2)$，从而 $O=O'=((1)/(2),(1)/(2),(1)/(2))$，这与两球外切矛盾，故 $0<s<1$.
-
-两球外切，故
-
-$ s^2=O O'^2=3( 1-r-r' )^2=3( 1-s )^2 $
-
-由于 $0<s<1$，取正平方根得到 $s=sqrt(3)( 1-s )$，解得
-
-$ s=(sqrt(3))/(1+sqrt(3))=(3-sqrt(3))/(2) $
-
-
-由于 $s=(3-sqrt(3))/(2)$ 且 $(1)/(2)<s<1$，可行范围为
-$s-(1)/(2) <= r <= (1)/(2)$，$r'=s-r$.
-
-两个球的表面积之和为
-
-$ S=4 pi ( r^2+r'^2 )=2 pi [ s^2+( r-r' )^2 ] $
-
-因为 $0<r$，$r' <= (1)/(2)$ 且 $r+r'=s$，当且仅当
-
-$ r=r'=(s)/(2)=(3-sqrt(3))/(4) $
-
-时表面积之和最小. 当一个半径取允许的最大值 $(1)/(2)$ 时，另一个半径为
-
-$ s-(1)/(2)=(2-sqrt(3))/(2) $
-
-在上述可行区间上，$| r-r'|=| 2 r-s|$ 在端点处取得最大值. 此时表面积之和最大. 也就是说最大值对应于
-
-$ ( r,r' )=( (1)/(2),(2-sqrt(3))/(2)) $
-
-或两球互换这两个半径.
-
-两个球的体积之和为
-
-$ V=(4)/(3) pi ( r^3+r'^3 ) =(4)/(3) pi s( r^2-r r'+r'^2 ) =(pi s)/(3)[ s^2+3( r-r' )^2 ] $
-
-其中用到了
-
-$ 4( r^2-r r'+r'^2 )=s^2+3( r-r' )^2 $
-
-这里 $s$ 为定值，所以体积之和也在 $r=r'$ 时最小，在一个半径为 $(1)/(2)$、另一个半径为 $(2-sqrt(3))/(2)$ 时最大.
++ (1)
 ]
 

@@ -53,7 +53,7 @@
 ]
 
 #problem(3)[
-用与球心距离为#mi(`1`)的平面去截球，所得的截面面积为 #mi(`\pi`)，则球的体积为（ ）
+用与球心距离为#mi(`1`) 的平面去截球，所得的截面面积为 #mi(`\pi`)，则球的体积为（ ）
   #choices([#mi(`\frac{8\pi}{3}`)], [#mi(`\frac{8\sqrt{2}\pi}{3}`)], [#mi(`8\sqrt{2}\pi`)], [#mi(`\frac{32\pi}{3}`)], cols: 2)
 ]
 
@@ -308,7 +308,9 @@ L=2\sqrt{R^{2}-d^{2}}=2\sqrt{169-d^{2}}
 
 其中正确式子的序号是（ ）
 
-[max width=0.32\linewidth]img/2008/hubei_science/q10_fig1.png
+
+#align(center)[#image("/papers/2008/img/hubei_science/q10_fig1.png", width: 28%)]
+
   #choices([①③], [②③], [①④], [②④], cols: 4)
 ]
 
@@ -620,7 +622,9 @@ a_{k-1}=\frac{k}{12}
 
 
 
-[max width=0.40\linewidth]img/2008/hubei_science/q18_fig1.png
+
+#align(center)[#image("/papers/2008/img/hubei_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -635,7 +639,9 @@ a_{k-1}=\frac{k}{12}
 
 
 
-[max width=0.42\linewidth]img/2008/hubei_science/q19_fig1.png
+
+#align(center)[#image("/papers/2008/img/hubei_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

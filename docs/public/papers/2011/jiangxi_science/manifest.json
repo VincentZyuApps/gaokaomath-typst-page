@@ -1,8 +1,143 @@
 {
-  "title": "2011年普通高等学校招生全国统一考试",
-  "subtitle": "2011年江西卷（理）",
   "year": "2011",
   "slug": "jiangxi_science",
+  "title": "2011年江西卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "选做题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "选做题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$2 + \\mathrm{i}$"
           ],
           "answer": "C",
-          "solution": "<p>因为 $\\dfrac{1}{\\mathrm{i}}=-\\mathrm{i}$，所以</p><p>$z=\\dfrac{1+2\\mathrm{i}}{\\mathrm{i}}=(1+2\\mathrm{i})(-\\mathrm{i})=2-\\mathrm{i}$，故选 C.</p>"
+          "solution": "<p>因为 $\\dfrac{1}{\\mathrm{i}}=-\\mathrm{i}$，所以</p><p>$z=\\dfrac{1+2\\mathrm{i}}{\\mathrm{i}}=(1+2\\mathrm{i})(-\\mathrm{i})=2-\\mathrm{i}$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$\\{x\\mid 0\\le x\\le 1\\}$"
           ],
           "answer": "B",
-          "solution": "<p>由 $-1\\le 2x+1\\le 3$，得 $-1\\le x\\le 1$，即</p><p>$A=[-1,1]$. 因为 $x\\neq 0$，且</p><p>$\\dfrac{x-2}{x}\\le 0$ 的解集为 $B=(0,2]$，所以</p><p>$A\\cap B=(0,1]$，故选 B.</p>"
+          "solution": "<p>由 $-1\\le 2x+1\\le 3$，得 $-1\\le x\\le 1$，即</p><p>$A=[-1,1]$. 因为 $x\\neq 0$，且</p><p>$\\dfrac{x-2}{x}\\le 0$ 的解集为 $B=(0,2]$，所以</p><p>$A\\cap B=(0,1]$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$(0, +\\infty)$"
           ],
           "answer": "A",
-          "solution": "<p>要使 $f(x)$ 有意义，需满足 $2x+1>0$，且</p><p>$\\log_{\\frac{1}{2}}(2x+1)>0$，因为分母不能为零. 由于底数</p><p>$\\frac{1}{2}$ 小于 1，后一个不等式等价于 $0<2x+1<1$，所以</p><p>$-\\frac{1}{2}<x<0$，故选 A.</p>"
+          "solution": "<p>要使 $f(x)$ 有意义，需满足 $2x+1>0$，且</p><p>$\\log_{\\frac{1}{2}}(2x+1)>0$，因为分母不能为零. 由于底数</p><p>$\\frac{1}{2}$ 小于 1，后一个不等式等价于 $0<2x+1<1$，所以</p><p>$-\\frac{1}{2}<x<0$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$(-1,0)$"
           ],
           "answer": "C",
-          "solution": "<p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=2x-2-\\frac{4}{x}=\\frac{2(x-2)(x+1)}{x}\n$$\n<p>在 $x>0$ 时，$f'(x)>0$ 等价于 $x>2$，所以解集为</p><p>$(2,+\\infty)$，故选 C.</p>"
+          "solution": "<p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=2x-2-\\frac{4}{x}=\\frac{2(x-2)(x+1)}{x}\n$$\n<p>在 $x>0$ 时，$f'(x)>0$ 等价于 $x>2$，所以解集为</p><p>$(2,+\\infty)$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "55"
           ],
           "answer": "A",
-          "solution": "<p>取 $m=1$，由题意得 $S_{n+1}=S_{n}+S_{1}=S_{n}+1$，从而</p><p>$a_{n+1}=S_{n+1}-S_{n}=1$. 因此 $a_{10}=1$，故选 A.</p>"
+          "solution": "<p>取 $m=1$，由题意得 $S_{n+1}=S_{n}+S_{1}=S_{n}+1$，从而</p><p>$a_{n+1}=S_{n+1}-S_{n}=1$. 因此 $a_{10}=1$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$r_{2} = r_{1}$"
           ],
           "answer": "C",
-          "solution": "<p>随着 $X$ 增大，$Y$ 严格增大，所以 $r_{1}>0$. 第二组数据中</p><p>$V=6-Y$，变量 $U$ 与 $X$ 的取值相同且顺序一致，因此</p><p>$V$ 与 $U$ 的线性相关系数为 $-r_{1}<0$. 故 $r_{2}<0<r_{1}$，选 C.</p>"
+          "solution": "<p>随着 $X$ 增大，$Y$ 严格增大，所以 $r_{1}>0$. 第二组数据中</p><p>$V=6-Y$，变量 $U$ 与 $X$ 的取值相同且顺序一致，因此</p><p>$V$ 与 $U$ 的线性相关系数为 $-r_{1}<0$. 故 $r_{2}<0<r_{1}$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "8125"
           ],
           "answer": "D",
-          "solution": "<p>对任意 $n\\ge 4$，$5^{n}$ 的末四位数字只由模 $10000$ 的余数决定. 直接计算得</p><p>$5^{4}\\equiv 0625\\pmod{10000}$，继续依次乘以 5，得到</p><p>$5^{5}\\equiv3125$、$5^{6}\\equiv5625$、$5^{7}\\equiv8125$、$5^{8}\\equiv0625\\pmod{10000}$，所以末四位按</p><p>$0625$、$3125$、$5625$、$8125$ 循环出现，循环长度为 4.</p><p>因为 $2011=4\\times 502+3$，所以 $5^{2011}$ 的末四位与 $5^{7}$ 相同，均为 $8125$，故选 D.</p>"
+          "solution": "<p>对任意 $n\\ge 4$，$5^{n}$ 的末四位数字只由模 $10000$ 的余数决定. 直接计算得</p><p>$5^{4}\\equiv 0625\\pmod{10000}$，继续依次乘以 5，得到</p><p>$5^{5}\\equiv3125$、$5^{6}\\equiv5625$、$5^{7}\\equiv8125$、$5^{8}\\equiv0625\\pmod{10000}$，所以末四位按</p><p>$0625$、$3125$、$5625$、$8125$ 循环出现，循环长度为 4.</p><p>因为 $2011=4\\times 502+3$，所以 $5^{2011}$ 的末四位与 $5^{7}$ 相同，均为 $8125$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "C",
-          "solution": "<p>设直线与相邻两平面所成的夹角为 $\\theta$. 线段 $P_{1}P_{2}$ 在两平面的法向方向上的投影长度为 $P_{1}P_{2}\\sin\\theta$，恰好等于两平面间的距离 $d_{1}$；同理，$P_{2}P_{3}\\sin\\theta=d_{2}$. 由于三个平面相互平行，两个投影使用同一个 $\\theta$，故</p>\n$$\n\\frac{P_{1}P_{2}}{P_{2}P_{3}}=\\frac{d_{1}}{d_{2}}\n$$\n<p>其中比例因子由同一个 $\\theta$ 决定. 因而</p><p>$P_{1}P_{2}=P_{2}P_{3}$ 当且仅当 $d_{1}=d_{2}$，所以这是充分必要条件，选 C.</p>"
+          "solution": "<p>设直线与相邻两平面所成的夹角为 $\\theta$. 线段 $P_{1}P_{2}$ 在两平面的法向方向上的投影长度为 $P_{1}P_{2}\\sin\\theta$，恰好等于两平面间的距离 $d_{1}$；同理，$P_{2}P_{3}\\sin\\theta=d_{2}$. 由于三个平面相互平行，两个投影使用同一个 $\\theta$，故</p>\n$$\n\\frac{P_{1}P_{2}}{P_{2}P_{3}}=\\frac{d_{1}}{d_{2}}\n$$\n<p>其中比例因子由同一个 $\\theta$ 决定. 因而</p><p>$P_{1}P_{2}=P_{2}P_{3}$ 当且仅当 $d_{1}=d_{2}$，所以这是充分必要条件，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,19 +264,23 @@
             "$\\left(-\\infty, -\\frac{\\sqrt{3}}{3}\\right) \\cup \\left(\\frac{\\sqrt{3}}{3}, +\\infty\\right)$"
           ],
           "answer": "B",
-          "solution": "<p>曲线 $C_{2}$ 是直线 $y=0$ 与直线 $y=m(x+1)$ 的并集. 直线</p><p>$y=0$ 与圆 $C_{1}$ 恒有两个交点 $(0,0)$，$(2,0)$. 要有四个不同交点，另一条直线必须与圆有两个交点，且不能与 $y=0$ 重合.</p><p>直线 $y=m(x+1)$ 写成 $mx-y+m=0$. 圆心为 $(1,0)$，半径为 1，所以直线与圆有两个交点的条件是</p>\n$$\n\\frac{|2m|}{\\sqrt{m^{2}+1}}<1\n$$\n<p>即 $3m^{2}<1$. 同时 $m\\neq 0$，故</p><p>$m\\in\\left(-\\frac{\\sqrt{3}}{3},0\\right)\\cup\\left(0,\\frac{\\sqrt{3}}{3}\\right)$，选 B.</p>"
+          "solution": "<p>曲线 $C_{2}$ 是直线 $y=0$ 与直线 $y=m(x+1)$ 的并集. 直线</p><p>$y=0$ 与圆 $C_{1}$ 恒有两个交点 $(0,0)$，$(2,0)$. 要有四个不同交点，另一条直线必须与圆有两个交点，且不能与 $y=0$ 重合.</p><p>直线 $y=m(x+1)$ 写成 $mx-y+m=0$. 圆心为 $(1,0)$，半径为 1，所以直线与圆有两个交点的条件是</p>\n$$\n\\frac{|2m|}{\\sqrt{m^{2}+1}}<1\n$$\n<p>即 $3m^{2}<1$. 同时 $m\\neq 0$，故</p><p>$m\\in\\left(-\\frac{\\sqrt{3}}{3},0\\right)\\cup\\left(0,\\frac{\\sqrt{3}}{3}\\right)$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
-          "body": "<p>如图，一个直径为 1 的小圆沿着直径为 2 的大圆内壁逆时针方向滚动，$M$ 和 $N$ 是小圆的一条固定直径的两个端点. 那么，当小圆这样滚过大圆内壁一周，点 $M$，$N$ 在大圆内所绘出的图形大致是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，一个直径为 1 的小圆沿着直径为 2 的大圆内壁逆时针方向滚动，$M$ 和 $N$ 是小圆的一条固定直径的两个端点. 那么，当小圆这样滚过大圆内壁一周，点 $M$，$N$ 在大圆内所绘出的图形大致是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/jiangxi_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q10_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q10_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q10_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q10_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2011/img/jiangxi_science/q10_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2011/img/jiangxi_science/q10_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2011/img/jiangxi_science/q10_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2011/img/jiangxi_science/q10_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "<p>设大圆圆心为 $O$，小圆半径为 $r=\\frac{1}{2}$，大圆半径为 $2r=1$. 小圆圆心绕 $O$ 转过角 $\\theta$ 时，其圆心到 $O$ 的距离为 $r$，且小圆无滑动地滚动，故小圆自身转过的角为 $-\\theta$.</p><p>取某一时刻小圆圆心的极角为 $\\theta$，并令固定直径的一个端点初始沿径向方向. 则该端点的坐标为</p>\n$$\n\\bigl(r\\cos\\theta+r\\cos\\theta,\\ r\\sin\\theta-r\\sin\\theta\\bigr)=(2r\\cos\\theta,0)\n$$\n<p>它在水平直径上运动. 另一个端点相对小圆圆心的向量与前一个相反，其坐标为</p>\n$$\n\\bigl(r\\cos\\theta-r\\cos\\theta,\\ r\\sin\\theta+r\\sin\\theta\\bigr)=(0,2r\\sin\\theta)\n$$\n<p>它在竖直直径上运动. 因而两点共同绘出互相垂直的两条直径，图形为 A.</p>"
+          "solution": "<p>设大圆圆心为 $O$，小圆半径为 $r=\\frac{1}{2}$，大圆半径为 $2r=1$. 小圆圆心绕 $O$ 转过角 $\\theta$ 时，其圆心到 $O$ 的距离为 $r$，且小圆无滑动地滚动，故小圆自身转过的角为 $-\\theta$.</p><p>取某一时刻小圆圆心的极角为 $\\theta$，并令固定直径的一个端点初始沿径向方向. 则该端点的坐标为</p>\n$$\n\\bigl(r\\cos\\theta+r\\cos\\theta,\\ r\\sin\\theta-r\\sin\\theta\\bigr)=(2r\\cos\\theta,0)\n$$\n<p>它在水平直径上运动. 另一个端点相对小圆圆心的向量与前一个相反，其坐标为</p>\n$$\n\\bigl(r\\cos\\theta-r\\cos\\theta,\\ r\\sin\\theta+r\\sin\\theta\\bigr)=(0,2r\\sin\\theta)\n$$\n<p>它在竖直直径上运动. 因而两点共同绘出互相垂直的两条直径，图形为 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,30 +290,38 @@
         {
           "num": 11,
           "body": "已知 $|\\mathbf{a}| = |\\mathbf{b}| = 2$，$(\\mathbf{a}+ 2\\mathbf{b}) \\cdot (\\mathbf{a}- \\mathbf{b}) = -2$，则 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{\\pi}{3}$",
-          "solution": "<p>展开数量积得</p>\n$$\n(\\mathbf{a}+2\\mathbf{b})\\cdot(\\mathbf{a}-\\mathbf{b})=|\\mathbf{a}|^{2}+\\mathbf{a}\\cdot\\mathbf{b}-2|\\mathbf{b}|^{2}=4+\\mathbf{a}\\cdot\\mathbf{b}-8=\\mathbf{a}\\cdot\\mathbf{b}-4\n$$\n<p>因此 $\\mathbf{a}\\cdot\\mathbf{b}=2$. 设 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $\\theta$，则</p><p>$\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}||\\mathbf{b}|\\cos\\theta=4\\cos\\theta$，所以</p><p>$\\cos\\theta=\\frac{1}{2}$. 由于 $0\\le\\theta\\le\\pi$，得</p><p>$\\theta=\\frac{\\pi}{3}$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{\\pi}{3}\\)",
+          "solution": "<p>展开数量积得</p>\n$$\n(\\mathbf{a}+2\\mathbf{b})\\cdot(\\mathbf{a}-\\mathbf{b})=|\\mathbf{a}|^{2}+\\mathbf{a}\\cdot\\mathbf{b}-2|\\mathbf{b}|^{2}=4+\\mathbf{a}\\cdot\\mathbf{b}-8=\\mathbf{a}\\cdot\\mathbf{b}-4\n$$\n<p>因此 $\\mathbf{a}\\cdot\\mathbf{b}=2$. 设 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $\\theta$，则</p><p>$\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}||\\mathbf{b}|\\cos\\theta=4\\cos\\theta$，所以</p><p>$\\cos\\theta=\\frac{1}{2}$. 由于 $0\\le\\theta\\le\\pi$，得</p><p>$\\theta=\\frac{\\pi}{3}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "小波通过做游戏的方式来确定周末活动，他随机地往单位圆内投掷一点，若此点到圆心的距离大于 $\\frac{1}{2}$，则周末去看电影；若此点到圆心的距离小于 $\\frac{1}{4}$，则去打篮球；否则，在家看书. 则小波周末不在家看书的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{13}{16}$",
-          "solution": "<p>单位圆内各点等可能，样本空间面积为 $\\pi$. 不在家看书包括到圆心距离大于</p><p>$\\frac{1}{2}$ 和小于 $\\frac{1}{4}$ 两个互不相交的区域，故所求概率为</p>\n$$\n\\frac{\\pi-\\pi\\left(\\frac{1}{2}\\right)^{2}+\\pi\\left(\\frac{1}{4}\\right)^{2}}{\\pi}=1-\\frac{1}{4}+\\frac{1}{16}=\\frac{13}{16}\n$$\n<p>边界圆周的面积为零，不影响概率.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{13}{16}\\)",
+          "solution": "<p>单位圆内各点等可能，样本空间面积为 $\\pi$. 不在家看书包括到圆心距离大于</p><p>$\\frac{1}{2}$ 和小于 $\\frac{1}{4}$ 两个互不相交的区域，故所求概率为</p>\n$$\n\\frac{\\pi-\\pi\\left(\\frac{1}{2}\\right)^{2}+\\pi\\left(\\frac{1}{4}\\right)^{2}}{\\pi}=1-\\frac{1}{4}+\\frac{1}{16}=\\frac{13}{16}\n$$\n<p>边界圆周的面积为零，不影响概率.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "<p>下图是某算法程序框图，则程序运行后输出的结果是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.96<span class=\"macro macro-linewidth\"></span>]img_repaint/2011/jiangxi_science/q13_fig1.tex</p>",
-          "choices": null,
+          "choices": [],
           "answer": "10",
-          "solution": "<p>程序开始时 $s=0$，$n=1$. 每次先执行</p><p>$s\\leftarrow s+(-1)^{n}+n$，再判断是否有 $s>9$. 各次循环的状态为</p>\n$$\n(s,n)=(0,1)\\longmapsto(0,2)\\longmapsto(3,3)\\longmapsto(5,4)\\longmapsto(10,4)\n$$\n<p>最后一次得到 $s=10>9$，所以输出 10.</p>"
+          "solution": "<p>程序开始时 $s=0$，$n=1$. 每次先执行</p><p>$s\\leftarrow s+(-1)^{n}+n$，再判断是否有 $s>9$. 各次循环的状态为</p>\n$$\n(s,n)=(0,1)\\longmapsto(0,2)\\longmapsto(3,3)\\longmapsto(5,4)\\longmapsto(10,4)\n$$\n<p>最后一次得到 $s=10>9$，所以输出 10.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "若椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ 的焦点在 $x$ 轴上，过点 $\\left(1, \\frac{1}{2}\\right)$ 作圆 $x^{2} + y^{2} = 1$ 的切线. 切点分别为 $A$，$B$，直线 $AB$ 恰好经过椭圆的右焦点和上顶点，则椭圆方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{x^{2}}{5}+ \\frac{y^{2}}{4}= 1$",
-          "solution": "<p>设单位圆上的切点为 $T(u,v)$，则 $u^{2}+v^{2}=1$，圆在 $T$ 处的切线方程为 $ux+vy=1$. 由于该切线经过 $P\\left(1,\\frac{1}{2}\\right)$，有 $u+\\frac{1}{2}v=1$，所以两个切点 $A$，$B$ 都在直线</p>\n$$\nx+\\frac{1}{2}y=1\n$$\n<p>即 $2x+y=2$. 设椭圆的焦距的一半为 $c$，则右焦点为 $(c,0)$，上顶点为 $(0,b)$. 因为这两点都在直线 $2x+y=2$ 上，所以</p><p>$2c=2$，$b=2$，即 $c=1$，$b^{2}=4$. 又</p><p>$c^{2}=a^{2}-b^{2}$，故 $a^{2}=c^{2}+b^{2}=5$. 因此椭圆方程为</p><p>$\\dfrac{x^2}{5}+\\dfrac{y^2}{4}=1$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{x^2}{5} + \\frac{y^2}{4} = 1\\)",
+          "solution": "<p>设单位圆上的切点为 $T(u,v)$，则 $u^{2}+v^{2}=1$，圆在 $T$ 处的切线方程为 $ux+vy=1$. 由于该切线经过 $P\\left(1,\\frac{1}{2}\\right)$，有 $u+\\frac{1}{2}v=1$，所以两个切点 $A$，$B$ 都在直线</p>\n$$\nx+\\frac{1}{2}y=1\n$$\n<p>即 $2x+y=2$. 设椭圆的焦距的一半为 $c$，则右焦点为 $(c,0)$，上顶点为 $(0,b)$. 因为这两点都在直线 $2x+y=2$ 上，所以</p><p>$2c=2$，$b=2$，即 $c=1$，$b^{2}=4$. 又</p><p>$c^{2}=a^{2}-b^{2}$，故 $a^{2}=c^{2}+b^{2}=5$. 因此椭圆方程为</p><p>$\\dfrac{x^2}{5}+\\dfrac{y^2}{4}=1$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -168,16 +331,20 @@
         {
           "num": 15,
           "body": "若曲线的极坐标方程为 $\\rho = 2 \\sin \\theta + 4 \\cos \\theta$，以极点为原点，极轴为 $x$ 轴正半轴建立直角坐标系，则该曲线的直角坐标方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$x^{2} + y^{2} - 4x - 2y = 0$",
-          "solution": "<p>由极坐标关系 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，将原方程乘以 $\\rho$ 得</p>\n$$\n\\rho^{2}=2\\rho\\sin\\theta+4\\rho\\cos\\theta=2y+4x\n$$\n<p>因为 $\\rho^{2}=x^{2}+y^{2}$，所以直角坐标方程为</p><p>$x^{2}+y^{2}-4x-2y=0$.</p>"
+          "choices": [],
+          "answer": "\\(x^2 + y^2 - 4x - 2y = 0\\)",
+          "solution": "<p>由极坐标关系 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，将原方程乘以 $\\rho$ 得</p>\n$$\n\\rho^{2}=2\\rho\\sin\\theta+4\\rho\\cos\\theta=2y+4x\n$$\n<p>因为 $\\rho^{2}=x^{2}+y^{2}$，所以直角坐标方程为</p><p>$x^{2}+y^{2}-4x-2y=0$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "对于实数 $x$，$y$，若 $|x - 1| \\le 1$，$|y - 2| \\le 1$，则 $|x - 2y + 1|$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "5",
-          "solution": "<p>由 $|x-1|\\le 1$，$|y-2|\\le 1$，得</p><p>$0\\le x\\le 2$，$1\\le y\\le 3$. 令</p><p>$L=x-2y+1$，则 $L$ 随 $x$ 增大而增大，随 $y$ 增大而减小，所以</p>\n$$\n-5=L(0,3)\\le L\\le L(2,1)=1\n$$\n<p>因此 $|L|$ 的最大值为 $5$.</p>"
+          "solution": "<p>由 $|x-1|\\le 1$，$|y-2|\\le 1$，得</p><p>$0\\le x\\le 2$，$1\\le y\\le 3$. 令</p><p>$L=x-2y+1$，则 $L$ 随 $x$ 增大而增大，随 $y$ 增大而减小，所以</p>\n$$\n-5=L(0,3)\\le L\\le L(2,1)=1\n$$\n<p>因此 $|L|$ 的最大值为 $5$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -187,44 +354,56 @@
         {
           "num": 17,
           "body": "<p>某饮料公司招聘一名员工，现对其进行一项测试，以便确定工资级别. 公司准备了两种不同的饮料共 $8\\text{ 杯}$，其颜色完全相同，并且其中 $4\\text{ 杯}$ 为 A 饮料，另外 $4\\text{ 杯}$ 为 B 饮料，公司要求此员工一一品尝后，从 $8\\text{ 杯}$ 饮料中选出 $4\\text{ 杯}$ A 饮料. 若 $4\\text{ 杯}$ 都选对，则月工资定为 $3500\\text{ 元}$；若 $4\\text{ 杯}$ 选对 $3\\text{ 杯}$，则月工资定为 $2800\\text{ 元}$；否则月工资定为 $2100\\text{ 元}$. 令 $X$ 表示此人选对 A 饮料的杯数. 假设此人对 A 和 B 两种饮料没有鉴别能力.</p><ol class=\"enumerate\"><li><p>求 $X$ 的分布列；</p></li><li><p>求此员工月工资的期望.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>从 $8\\text{ 杯}$ 中选出 $4\\text{ 杯}$ 的结果等可能，共有 $\\mathrm{C}_{8}^{4}=70$ 种. 当选对 $k\\text{ 杯}$ 时，必须从 $4\\text{ 杯}$ A 饮料中选出 $k\\text{ 杯}$，并从 $4\\text{ 杯}$ B 饮料中误选 $(4-k)\\text{ 杯}$，所以</p><p>$P(X=k)=\\frac{\\mathrm{C}_{4}^{k}\\mathrm{C}_{4}^{4-k}}{\\mathrm{C}_{8}^{4}}$，$k=0$，$1$，$2$，$3$，$4$.</p><p>因此 $X$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td><td style=\"text-align: center\"> $4$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\frac{1}{70}$ </td><td style=\"text-align: center\"> $\\frac{8}{35}$ </td><td style=\"text-align: center\"> $\\frac{18}{35}$ </td><td style=\"text-align: center\"> $\\frac{8}{35}$ </td><td style=\"text-align: center\"> $\\frac{1}{70}$</td></tr></tbody></table></center><p></p></li><li><p>设月工资为随机变量 $Y$. 当 $X=4$ 时 $Y=3500\\text{ 元}$，当 $X=3$ 时 $Y=2800\\text{ 元}$，其余情形 $Y=2100\\text{ 元}$. 因而</p>\n$$\nE(Y)=3500\\text{ 元}\\cdot\\frac{1}{70}+2800\\text{ 元}\\cdot\\frac{8}{35}+2100\\text{ 元}\\left(1-\\frac{1}{70}-\\frac{8}{35}\\right)\n$$\n<p>再计算得 $E(Y)=50\\text{ 元}+640\\text{ 元}+1590\\text{ 元}=2280\\text{ 元}$.</p><p>所以此员工月工资的期望为 $2280\\text{ 元}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>从 $8\\text{ 杯}$ 中选出 $4\\text{ 杯}$ 的结果等可能，共有 $\\mathrm{C}_{8}^{4}=70$ 种. 当选对 $k\\text{ 杯}$ 时，必须从 $4\\text{ 杯}$ A 饮料中选出 $k\\text{ 杯}$，并从 $4\\text{ 杯}$ B 饮料中误选 $(4-k)\\text{ 杯}$，所以</p><p>$P(X=k)=\\frac{\\mathrm{C}_{4}^{k}\\mathrm{C}_{4}^{4-k}}{\\mathrm{C}_{8}^{4}}$，$k=0$，$1$，$2$，$3$，$4$.</p><p>因此 $X$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td><td style=\"text-align: center\"> $4$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$P$ </td><td style=\"text-align: center\"> $\\frac{1}{70}$ </td><td style=\"text-align: center\"> $\\frac{8}{35}$ </td><td style=\"text-align: center\"> $\\frac{18}{35}$ </td><td style=\"text-align: center\"> $\\frac{8}{35}$ </td><td style=\"text-align: center\"> $\\frac{1}{70}$</td></tr></tbody></table></center><p></p></li><li><p>设月工资为随机变量 $Y$. 当 $X=4$ 时 $Y=3500\\text{ 元}$，当 $X=3$ 时 $Y=2800\\text{ 元}$，其余情形 $Y=2100\\text{ 元}$. 因而</p>\n$$\nE(Y)=3500\\text{ 元}\\cdot\\frac{1}{70}+2800\\text{ 元}\\cdot\\frac{8}{35}+2100\\text{ 元}\\left(1-\\frac{1}{70}-\\frac{8}{35}\\right)\n$$\n<p>再计算得 $E(Y)=50\\text{ 元}+640\\text{ 元}+1590\\text{ 元}=2280\\text{ 元}$.</p><p>所以此员工月工资的期望为 $2280\\text{ 元}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 的对边分别是 $a$，$b$，$c$，已知 $\\sin C + \\cos C = 1 - \\sin \\frac{C}{2}$.</p><ol class=\"enumerate\"><li><p>求 $\\sin C$ 的值；</p></li><li><p>若 $a^{2} + b^{2} = 4(a + b) - 8$，求边 $c$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>令 $t=\\frac{C}{2}$，则 $0<t<\\frac{\\pi}{2}$，从而 $\\sin t>0$，$\\cos t>0$. 将</p><p>$\\sin C=2\\sin t\\cos t$，$\\cos C=1-2\\sin^{2}t$ 代入已知等式，得</p>\n$$\n2\\sin t\\cos t+1-2\\sin^{2}t=1-\\sin t\n$$\n<p>即 $2\\sin t-2\\cos t=1$. 因此</p><p>$\\sin t-\\cos t=\\frac{1}{2}$. 又</p>\n$$\n1=\\sin^{2}t+\\cos^{2}t=(\\sin t-\\cos t)^{2}+2\\sin t\\cos t\n$$\n<p>所以 $\\sin t\\cos t=\\frac{3}{8}$，进而</p><p>$\\sin C=2\\sin t\\cos t=\\frac{3}{4}$.</p></li><li><p>由题设</p>\n$$\n(a-2)^{2}+(b-2)^{2}=a^{2}+b^{2}-4(a+b)+8=0\n$$\n<p>故 $a=b=2$. 由上面的关系及</p><p>$(\\sin t+\\cos t)^{2}=1+2\\sin t\\cos t=\\frac{7}{4}$，得</p><p>$\\cos C=\\cos^{2}t-\\sin^{2}t=(\\cos t-\\sin t)(\\cos t+\\sin t)=-\\frac{\\sqrt{7}}{4}$.</p><p>由余弦定理，</p>\n$$\nc^{2}=a^{2}+b^{2}-2ab\\cos C=8-8\\left(-\\frac{\\sqrt{7}}{4}\\right)=8+2\\sqrt{7}=(1+\\sqrt{7})^{2}\n$$\n<p>因为 $c>0$，所以 $c=1+\\sqrt{7}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>令 $t=\\frac{C}{2}$，则 $0<t<\\frac{\\pi}{2}$，从而 $\\sin t>0$，$\\cos t>0$. 将</p><p>$\\sin C=2\\sin t\\cos t$，$\\cos C=1-2\\sin^{2}t$ 代入已知等式，得</p>\n$$\n2\\sin t\\cos t+1-2\\sin^{2}t=1-\\sin t\n$$\n<p>即 $2\\sin t-2\\cos t=1$. 因此</p><p>$\\sin t-\\cos t=\\frac{1}{2}$. 又</p>\n$$\n1=\\sin^{2}t+\\cos^{2}t=(\\sin t-\\cos t)^{2}+2\\sin t\\cos t\n$$\n<p>所以 $\\sin t\\cos t=\\frac{3}{8}$，进而</p><p>$\\sin C=2\\sin t\\cos t=\\frac{3}{4}$.</p></li><li><p>由题设</p>\n$$\n(a-2)^{2}+(b-2)^{2}=a^{2}+b^{2}-4(a+b)+8=0\n$$\n<p>故 $a=b=2$. 由上面的关系及</p><p>$(\\sin t+\\cos t)^{2}=1+2\\sin t\\cos t=\\frac{7}{4}$，得</p><p>$\\cos C=\\cos^{2}t-\\sin^{2}t=(\\cos t-\\sin t)(\\cos t+\\sin t)=-\\frac{\\sqrt{7}}{4}$.</p><p>由余弦定理，</p>\n$$\nc^{2}=a^{2}+b^{2}-2ab\\cos C=8-8\\left(-\\frac{\\sqrt{7}}{4}\\right)=8+2\\sqrt{7}=(1+\\sqrt{7})^{2}\n$$\n<p>因为 $c>0$，所以 $c=1+\\sqrt{7}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知两个等比数列 $\\{a_{n}\\}$，$\\{b_{n}\\}$，满足 $a_{1}= a$（$a > 0$），$b_{1}- a_{1}= 1$，$b_{2}- a_{2}= 2$，$b_{3}- a_{3}= 3$.</p><ol class=\"enumerate\"><li><p>若 $a = 1$，求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若数列 $\\{a_{n}\\}$ 唯一，求 $a$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，$b_{1}=2$. 设 $\\{a_{n}\\}$ 的公比为 $q$，则</p><p>$a_{2}=q$，$a_{3}=q^{2}$，又由三个差值条件得</p><p>$b_{2}=q+2$，$b_{3}=q^{2}+3$. 因为 $\\{b_{n}\\}$ 是等比数列，所以</p>\n$$\n(q+2)^{2}=b_{2}^{2}=b_{1}b_{3}=2(q^{2}+3)\n$$\n<p>整理得 $q^{2}-4q+2=0$，从而</p><p>$q=2+\\sqrt{2}$ 或 $q=2-\\sqrt{2}$. 因此</p><p>$a_{n}=(2+\\sqrt{2})^{n-1} \\text{或}  a_{n}=(2-\\sqrt{2})^{n-1}$，$n\\geqslant1$.</p></li><li><p>设 $\\{a_{n}\\}$ 的公比为 $q$，则</p><p>$a_{1}=a$，$a_{2}=aq$，$a_{3}=aq^{2}$，从而</p><p>$b_{1}=a+1$，$b_{2}=aq+2$，$b_{3}=aq^{2}+3$. 由 $\\{b_{n}\\}$ 为等比数列，须有</p>\n$$\n(aq+2)^{2}=(a+1)(aq^{2}+3)\n$$\n<p>即</p>\n$$\naq^{2}-4aq+3a-1=0\n$$\n<p>当 $q\\neq0$ 时，方程</p><p>$aq^{2}-4aq+3a-1=0$ 的判别式为</p><p>$\\Delta=4a(a+1)>0$，因而有两个不同的实根；若两个根都非零，它们给出两个不同的 $\\{a_{n}\\}$，不符合唯一性. 因此必须使两个根中有一个为 $0$，代入上式得 $3a-1=0$，所以</p>\n$$\na=\\frac{1}{3}\n$$\n<p>此时方程为 $q(q-4)=0$. 按等比数列公比 $q\\neq0$ 的定义，只能取 $q=4$，故 $\\{a_{n}\\}$ 确实唯一.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，$b_{1}=2$. 设 $\\{a_{n}\\}$ 的公比为 $q$，则</p><p>$a_{2}=q$，$a_{3}=q^{2}$，又由三个差值条件得</p><p>$b_{2}=q+2$，$b_{3}=q^{2}+3$. 因为 $\\{b_{n}\\}$ 是等比数列，所以</p>\n$$\n(q+2)^{2}=b_{2}^{2}=b_{1}b_{3}=2(q^{2}+3)\n$$\n<p>整理得 $q^{2}-4q+2=0$，从而</p><p>$q=2+\\sqrt{2}$ 或 $q=2-\\sqrt{2}$. 因此</p><p>$a_{n}=(2+\\sqrt{2})^{n-1} \\text{或}  a_{n}=(2-\\sqrt{2})^{n-1}$，$n\\geqslant1$.</p></li><li><p>设 $\\{a_{n}\\}$ 的公比为 $q$，则</p><p>$a_{1}=a$，$a_{2}=aq$，$a_{3}=aq^{2}$，从而</p><p>$b_{1}=a+1$，$b_{2}=aq+2$，$b_{3}=aq^{2}+3$. 由 $\\{b_{n}\\}$ 为等比数列，须有</p>\n$$\n(aq+2)^{2}=(a+1)(aq^{2}+3)\n$$\n<p>即</p>\n$$\naq^{2}-4aq+3a-1=0\n$$\n<p>当 $q\\neq0$ 时，方程</p><p>$aq^{2}-4aq+3a-1=0$ 的判别式为</p><p>$\\Delta=4a(a+1)>0$，因而有两个不同的实根；若两个根都非零，它们给出两个不同的 $\\{a_{n}\\}$，不符合唯一性. 因此必须使两个根中有一个为 $0$，代入上式得 $3a-1=0$，所以</p>\n$$\na=\\frac{1}{3}\n$$\n<p>此时方程为 $q(q-4)=0$. 按等比数列公比 $q\\neq0$ 的定义，只能取 $q=4$，故 $\\{a_{n}\\}$ 确实唯一.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>设 $f(x) = -\\frac{1}{3}x^{3} + \\frac{1}{2}x^{2} + 2ax$.</p><ol class=\"enumerate\"><li><p>若 $f(x)$ 在 $\\left(\\frac{2}{3}, +\\infty\\right)$ 上存在单调递增区间，求 $a$ 的取值范围；</p></li><li><p>当 $0 < a < 2$ 时，$f(x)$ 在 $[1, 4]$ 上的最小值为 $-\\frac{16}{3}$，求 $f(x)$ 在该区间上的最大值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\nf'(x)=-x^{2}+x+2a\n$$\n<p>知在 $\\left(\\frac{2}{3},+\\infty\\right)$ 上存在单调递增区间，当且仅当存在</p><p>$x>\\frac{2}{3}$ 使 $-x^{2}+x+2a>0$，即</p><p>$2a>x^{2}-x$. 函数 $x^{2}-x$ 在 $x>\\frac{2}{3}$ 上递增，且</p><p>$\\inf_{x>\\frac{2}{3}}(x^{2}-x)=-\\frac{2}{9}$. 当 $a=-\\frac{1}{9}$ 时，任意</p><p>$x>\\frac{2}{3}$ 都有 $x^{2}-x>-\\frac{2}{9}=2a$，不能取得正导数；当</p><p>$a>-\\frac{1}{9}$ 时，取充分接近 $\\frac{2}{3}$ 的 $x$，即可使</p><p>$x^{2}-x<2a$. 所以</p>\n$$\na>-\\frac{1}{9}\n$$\n</li><li><p>因为 $0<a<2$，所以</p><p>$f'(1)=2a>0$，$f'(4)=-12+2a<0$. 方程 $f'(x)=0$ 在 $[1,4]$ 内的根为</p><p>$x=\\frac{1+\\sqrt{1+8a}}{2}$，该点是极大值点，故最小值只能在端点取得. 又</p><p>$f(1)=2a+\\frac{1}{6}>0$，$f(4)=8a-\\frac{40}{3}$.</p><p>已知最小值为 $-\\frac{16}{3}$，所以必有</p><p>$8a-\\frac{40}{3}=-\\frac{16}{3}$，解得 $a=1$. 此时</p><p>$f'(x)=-(x-2)(x+1)$，函数在 $[1,2]$ 上递增、在 $[2,4]$ 上递减，最大值为</p>\n$$\nf(2)=-\\frac{8}{3}+2+4=\\frac{10}{3}\n$$\n<p>所以该区间上的最大值为 $\\frac{10}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\nf'(x)=-x^{2}+x+2a\n$$\n<p>知在 $\\left(\\frac{2}{3},+\\infty\\right)$ 上存在单调递增区间，当且仅当存在</p><p>$x>\\frac{2}{3}$ 使 $-x^{2}+x+2a>0$，即</p><p>$2a>x^{2}-x$. 函数 $x^{2}-x$ 在 $x>\\frac{2}{3}$ 上递增，且</p><p>$\\inf_{x>\\frac{2}{3}}(x^{2}-x)=-\\frac{2}{9}$. 当 $a=-\\frac{1}{9}$ 时，任意</p><p>$x>\\frac{2}{3}$ 都有 $x^{2}-x>-\\frac{2}{9}=2a$，不能取得正导数；当</p><p>$a>-\\frac{1}{9}$ 时，取充分接近 $\\frac{2}{3}$ 的 $x$，即可使</p><p>$x^{2}-x<2a$. 所以</p>\n$$\na>-\\frac{1}{9}\n$$\n</li><li><p>因为 $0<a<2$，所以</p><p>$f'(1)=2a>0$，$f'(4)=-12+2a<0$. 方程 $f'(x)=0$ 在 $[1,4]$ 内的根为</p><p>$x=\\frac{1+\\sqrt{1+8a}}{2}$，该点是极大值点，故最小值只能在端点取得. 又</p><p>$f(1)=2a+\\frac{1}{6}>0$，$f(4)=8a-\\frac{40}{3}$.</p><p>已知最小值为 $-\\frac{16}{3}$，所以必有</p><p>$8a-\\frac{40}{3}=-\\frac{16}{3}$，解得 $a=1$. 此时</p><p>$f'(x)=-(x-2)(x+1)$，函数在 $[1,2]$ 上递增、在 $[2,4]$ 上递减，最大值为</p>\n$$\nf(2)=-\\frac{8}{3}+2+4=\\frac{10}{3}\n$$\n<p>所以该区间上的最大值为 $\\frac{10}{3}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>$P(x_{0}, y_{0})$（$x_{0} \\neq \\pm a$）是双曲线 $E: \\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$（$a > 0$，$b > 0$）上一点，$M$，$N$ 分别是双曲线 $E$ 的左，右顶点. 直线 $PM$，$PN$ 的斜率之积为 $\\frac{1}{5}$.</p><ol class=\"enumerate\"><li><p>求双曲线的离心率；</p></li><li><p>过双曲线 $E$ 的右焦点且斜率为 1 的直线交双曲线于 $A$，$B$ 两点，$O$ 为坐标原点，$C$ 为双曲线上的一点. 满足 $\\overrightarrow{OC}= \\lambda \\overrightarrow{OA}+ \\overrightarrow{OB}$，求 $\\lambda$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>双曲线的左、右顶点分别为 $M(-a,0)$，$N(a,0)$，所以</p>\n$$\nk_{PM}k_{PN}=\\frac{y_{0}}{x_{0}+a}\\cdot\\frac{y_{0}}{x_{0}-a}=\\frac{y_{0}^{2}}{x_{0}^{2}-a^{2}}=\\frac{1}{5}\n$$\n<p>又因 $P$ 在双曲线上，</p><p>$y_{0}^{2}=\\frac{b^{2}}{a^{2}}(x_{0}^{2}-a^{2})$，故</p><p>$\\frac{b^{2}}{a^{2}}=\\frac{1}{5}$. 设双曲线的半焦距为 $c$，则</p><p>$c^{2}=a^{2}+b^{2}=\\frac{6}{5}a^{2}$，所以离心率为</p>\n$$\ne=\\frac{c}{a}=\\sqrt{\\frac{6}{5}}=\\frac{\\sqrt{30}}{5}\n$$\n</li><li><p>由 $b^{2}=\\frac{a^{2}}{5}$，有 $c^{2}=a^{2}+b^{2}=\\frac{6}{5}a^{2}$. 过右焦点</p><p>$F(c,0)$ 且斜率为 1 的直线为 $y=x-c$. 设</p><p>$A(x_{1},y_{1})$，$B(x_{2},y_{2})$，则代入双曲线方程并乘以 $a^{2}$，得</p>\n$$\nx^{2}-5(x-c)^{2}=a^{2}\n$$\n<p>即</p><p>$4x^{2}-10cx+5c^{2}+a^{2}=0$. 因此</p><p>$x_{1}+x_{2}=\\frac{5c}{2}$，$x_{1}x_{2}=\\frac{5c^{2}+a^{2}}{4}$.</p><p>由于 $y_{i}=x_{i}-c$，所以</p>\n$$\ny_{1}y_{2}=x_{1}x_{2}-c(x_{1}+x_{2})+c^{2}=\\frac{a^{2}-c^{2}}{4}=-\\frac{a^{2}}{20}\n$$\n<p>并且</p>\n$$\nx_{1}x_{2}-5y_{1}y_{2}=\\frac{7a^{2}}{4}+\\frac{a^{2}}{4}=2a^{2}\n$$\n<p>设 $C=(\\lambda x_{1}+x_{2},\\lambda y_{1}+y_{2})$. 因为 $C$ 在双曲线上，使用方程</p><p>$x^{2}-5y^{2}=a^{2}$ 得</p>\n$$\na^{2}=(\\lambda x_{1}+x_{2})^{2}-5(\\lambda y_{1}+y_{2})^{2}  =\\lambda^{2}a^{2}+a^{2}+2\\lambda(x_{1}x_{2}-5y_{1}y_{2})  =\\lambda^{2}a^{2}+a^{2}+4\\lambda a^{2}\n$$\n<p>于是 $\\lambda^{2}+4\\lambda=0$，故</p><p>$\\lambda=0$ 或 $\\lambda=-4$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>双曲线的左、右顶点分别为 $M(-a,0)$，$N(a,0)$，所以</p>\n$$\nk_{PM}k_{PN}=\\frac{y_{0}}{x_{0}+a}\\cdot\\frac{y_{0}}{x_{0}-a}=\\frac{y_{0}^{2}}{x_{0}^{2}-a^{2}}=\\frac{1}{5}\n$$\n<p>又因 $P$ 在双曲线上，</p><p>$y_{0}^{2}=\\frac{b^{2}}{a^{2}}(x_{0}^{2}-a^{2})$，故</p><p>$\\frac{b^{2}}{a^{2}}=\\frac{1}{5}$. 设双曲线的半焦距为 $c$，则</p><p>$c^{2}=a^{2}+b^{2}=\\frac{6}{5}a^{2}$，所以离心率为</p>\n$$\ne=\\frac{c}{a}=\\sqrt{\\frac{6}{5}}=\\frac{\\sqrt{30}}{5}\n$$\n</li><li><p>由 $b^{2}=\\frac{a^{2}}{5}$，有 $c^{2}=a^{2}+b^{2}=\\frac{6}{5}a^{2}$. 过右焦点</p><p>$F(c,0)$ 且斜率为 1 的直线为 $y=x-c$. 设</p><p>$A(x_{1},y_{1})$，$B(x_{2},y_{2})$，则代入双曲线方程并乘以 $a^{2}$，得</p>\n$$\nx^{2}-5(x-c)^{2}=a^{2}\n$$\n<p>即</p><p>$4x^{2}-10cx+5c^{2}+a^{2}=0$. 因此</p><p>$x_{1}+x_{2}=\\frac{5c}{2}$，$x_{1}x_{2}=\\frac{5c^{2}+a^{2}}{4}$.</p><p>由于 $y_{i}=x_{i}-c$，所以</p>\n$$\ny_{1}y_{2}=x_{1}x_{2}-c(x_{1}+x_{2})+c^{2}=\\frac{a^{2}-c^{2}}{4}=-\\frac{a^{2}}{20}\n$$\n<p>并且</p>\n$$\nx_{1}x_{2}-5y_{1}y_{2}=\\frac{7a^{2}}{4}+\\frac{a^{2}}{4}=2a^{2}\n$$\n<p>设 $C=(\\lambda x_{1}+x_{2},\\lambda y_{1}+y_{2})$. 因为 $C$ 在双曲线上，使用方程</p><p>$x^{2}-5y^{2}=a^{2}$ 得</p>\n$$\na^{2}=(\\lambda x_{1}+x_{2})^{2}-5(\\lambda y_{1}+y_{2})^{2}  =\\lambda^{2}a^{2}+a^{2}+2\\lambda(x_{1}x_{2}-5y_{1}y_{2})  =\\lambda^{2}a^{2}+a^{2}+4\\lambda a^{2}\n$$\n<p>于是 $\\lambda^{2}+4\\lambda=0$，故</p><p>$\\lambda=0$ 或 $\\lambda=-4$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
-          "body": "<ol class=\"enumerate\"><li><p>如图，对于任一给定的四面体 $A_{1}A_{2}A_{3}A_{4}$，找出依次排列的四个相互平行的平面 $\\alpha_{1}$，$\\alpha_{2}$，$\\alpha_{3}$，$\\alpha_{4}$，使得 $A_{i}\\in \\alpha_{i}$ （$i = 1$，$2$，$3$，$4$），且其中每相邻两个平面间的距离都相等；</p></li><li><p>给定依次排列的四个相互平行的平面 $\\alpha_{1}$，$\\alpha_{2}$，$\\alpha_{3}$，$\\alpha_{4}$，其中每相邻两个平面间的距离都为 1，若一个正四面体 $A_{1}A_{2}A_{3}A_{4}$ 的四个顶点满足： $A_{i}\\in \\alpha_{i}$ （$i = 1$，$2$，$3$，$4$），求该正四面体 $A_{1}A_{2}A_{3}A_{4}$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<ol class=\"enumerate\"><li><p>如图，对于任一给定的四面体 $A_{1}A_{2}A_{3}A_{4}$，找出依次排列的四个相互平行的平面 $\\alpha_{1}$，$\\alpha_{2}$，$\\alpha_{3}$，$\\alpha_{4}$，使得 $A_{i}\\in \\alpha_{i}$ （$i = 1$，$2$，$3$，$4$），且其中每相邻两个平面间的距离都相等；</p></li><li><p>给定依次排列的四个相互平行的平面 $\\alpha_{1}$，$\\alpha_{2}$，$\\alpha_{3}$，$\\alpha_{4}$，其中每相邻两个平面间的距离都为 1，若一个正四面体 $A_{1}A_{2}A_{3}A_{4}$ 的四个顶点满足： $A_{i}\\in \\alpha_{i}$ （$i = 1$，$2$，$3$，$4$），求该正四面体 $A_{1}A_{2}A_{3}A_{4}$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/jiangxi_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记</p><p>$\\mathbf{d}_{1}=\\overrightarrow{A_1A_2}$，$\\mathbf{d}_{2}=\\overrightarrow{A_2A_3}$，$\\mathbf{d}_{3}=\\overrightarrow{A_3A_4}$. 取非零向量 $\\mathbf{n}$，使得</p><p>$\\mathbf{n}\\cdot(\\mathbf{d}_{1}-\\mathbf{d}_{2})=0$，$\\mathbf{n}\\cdot(\\mathbf{d}_{2}-\\mathbf{d}_{3})=0$.</p><p>这样的向量存在：它可以取为两个向量 $\\mathbf{d}_{1}-\\mathbf{d}_{2}$，$\\mathbf{d}_{2}-\\mathbf{d}_{3}$ 的公共垂线方向；若这两个向量共线，则在其垂直平面内选取满足 $\\mathbf{n}\\cdot\\mathbf{d}_{1}\\neq0$ 的方向. 后一个条件一定可以满足，否则 $\\mathbf{n}$ 将同时垂直于 $\\mathbf{d}_{1}$，$\\mathbf{d}_{2}$，$\\mathbf{d}_{3}$，与四面体不共面矛盾.</p><p>令 $\\mathbf{n}$ 的方向使 $\\mathbf{n}\\cdot\\mathbf{d}_{1}>0$，并定义</p><p>$\\alpha_{i}:\\ \\mathbf{n}\\cdot\\overrightarrow{OX}=\\mathbf{n}\\cdot\\overrightarrow{OA_i}$，$i=1$，$2$，$3$，$4$.</p><p>由所取 $\\mathbf{n}$ 的性质，</p>\n$$\n\\mathbf{n}\\cdot\\mathbf{d}_{1}=\\mathbf{n}\\cdot\\mathbf{d}_{2}=\\mathbf{n}\\cdot\\mathbf{d}_{3}\n$$\n<p>所以四个平面的方程右端依次构成等差数列，且相邻平面的距离均为</p><p>$\\dfrac{\\mathbf{n}\\cdot\\mathbf{d_1}}{|\\mathbf{n|}}$. 这些平面即为所求.</p></li><li><p>设正四面体的棱长为 $s$，取四面体重心为原点. 在适当的直角坐标系中，四个顶点可表示为</p><p>$(u,u,u)$，$(u,-u,-u)$，$(-u,u,-u)$，$(-u,-u,u)$</p><p>其中 $s=2\\sqrt{2}u$. 设四个顶点在平面法向单位向量</p><p>$\\mathbf{n}=(p,q,r)$ 上的有向坐标分别为 $z_{1}$，$z_{2}$，$z_{3}$，$z_{4}$. 由于相邻平面距离为 1，且四个平面依次对应四个顶点，四个 $z_{i}$ 构成公差为 1 的等差数列. 它们的平均值为重心在该方向上的坐标，故减去平均值后得到</p><p>$-\\frac{3}{2}$，$-\\frac{1}{2}$，$\\frac{1}{2}$，$\\frac{3}{2}$，从而</p>\n$$\n\\sum_{i=1}^{4}(z_{i}-\\overline z)^{2}=5\n$$\n<p>另一方面，由上述四个坐标直接计算，且 $p^{2}+q^{2}+r^{2}=1$，有</p>\n$$\n\\sum_{i=1}^{4}(z_{i}-\\overline z)^{2}  =u^{2}\\bigl[(p+q+r)^{2}+(p-q-r)^{2}+(-p+q-r)^{2}+(-p-q+r)^{2}\\bigr]  =4u^{2}=\\frac{s^{2}}{2}\n$$\n<p>所以 $\\frac{s^{2}}{2}=5$，即 $s=\\sqrt{10}$. 正四面体体积为</p>\n$$\nV=\\frac{\\sqrt{2}}{12}s^{3}=\\frac{\\sqrt{2}}{12}(\\sqrt{10})^{3}=\\frac{5\\sqrt{5}}{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记</p><p>$\\mathbf{d}_{1}=\\overrightarrow{A_1A_2}$，$\\mathbf{d}_{2}=\\overrightarrow{A_2A_3}$，$\\mathbf{d}_{3}=\\overrightarrow{A_3A_4}$. 取非零向量 $\\mathbf{n}$，使得</p><p>$\\mathbf{n}\\cdot(\\mathbf{d}_{1}-\\mathbf{d}_{2})=0$，$\\mathbf{n}\\cdot(\\mathbf{d}_{2}-\\mathbf{d}_{3})=0$.</p><p>这样的向量存在：它可以取为两个向量 $\\mathbf{d}_{1}-\\mathbf{d}_{2}$，$\\mathbf{d}_{2}-\\mathbf{d}_{3}$ 的公共垂线方向；若这两个向量共线，则在其垂直平面内选取满足 $\\mathbf{n}\\cdot\\mathbf{d}_{1}\\neq0$ 的方向. 后一个条件一定可以满足，否则 $\\mathbf{n}$ 将同时垂直于 $\\mathbf{d}_{1}$，$\\mathbf{d}_{2}$，$\\mathbf{d}_{3}$，与四面体不共面矛盾.</p><p>令 $\\mathbf{n}$ 的方向使 $\\mathbf{n}\\cdot\\mathbf{d}_{1}>0$，并定义</p><p>$\\alpha_{i}:\\ \\mathbf{n}\\cdot\\overrightarrow{OX}=\\mathbf{n}\\cdot\\overrightarrow{OA_i}$，$i=1$，$2$，$3$，$4$.</p><p>由所取 $\\mathbf{n}$ 的性质，</p>\n$$\n\\mathbf{n}\\cdot\\mathbf{d}_{1}=\\mathbf{n}\\cdot\\mathbf{d}_{2}=\\mathbf{n}\\cdot\\mathbf{d}_{3}\n$$\n<p>所以四个平面的方程右端依次构成等差数列，且相邻平面的距离均为</p><p>$\\dfrac{\\mathbf{n}\\cdot\\mathbf{d_1}}{|\\mathbf{n|}}$. 这些平面即为所求.</p></li><li><p>设正四面体的棱长为 $s$，取四面体重心为原点. 在适当的直角坐标系中，四个顶点可表示为</p><p>$(u,u,u)$，$(u,-u,-u)$，$(-u,u,-u)$，$(-u,-u,u)$</p><p>其中 $s=2\\sqrt{2}u$. 设四个顶点在平面法向单位向量</p><p>$\\mathbf{n}=(p,q,r)$ 上的有向坐标分别为 $z_{1}$，$z_{2}$，$z_{3}$，$z_{4}$. 由于相邻平面距离为 1，且四个平面依次对应四个顶点，四个 $z_{i}$ 构成公差为 1 的等差数列. 它们的平均值为重心在该方向上的坐标，故减去平均值后得到</p><p>$-\\frac{3}{2}$，$-\\frac{1}{2}$，$\\frac{1}{2}$，$\\frac{3}{2}$，从而</p>\n$$\n\\sum_{i=1}^{4}(z_{i}-\\overline z)^{2}=5\n$$\n<p>另一方面，由上述四个坐标直接计算，且 $p^{2}+q^{2}+r^{2}=1$，有</p>\n$$\n\\sum_{i=1}^{4}(z_{i}-\\overline z)^{2}  =u^{2}\\bigl[(p+q+r)^{2}+(p-q-r)^{2}+(-p+q-r)^{2}+(-p-q+r)^{2}\\bigr]  =4u^{2}=\\frac{s^{2}}{2}\n$$\n<p>所以 $\\frac{s^{2}}{2}=5$，即 $s=\\sqrt{10}$. 正四面体体积为</p>\n$$\nV=\\frac{\\sqrt{2}}{12}s^{3}=\\frac{\\sqrt{2}}{12}(\\sqrt{10})^{3}=\\frac{5\\sqrt{5}}{3}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

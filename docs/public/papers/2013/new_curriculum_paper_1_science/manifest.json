@@ -1,8 +1,155 @@
 {
-  "title": "2013年普通高等学校招生全国统一考试",
-  "subtitle": "2013年新课标I卷（理）",
   "year": "2013",
   "slug": "new_curriculum_paper_1_science",
+  "title": "2013年新课标I卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 24,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +164,9 @@
             "$A \\subseteq B$"
           ],
           "answer": "B",
-          "solution": "由 $x^{2}-2x=x(x-2)>0$，得 $A=(-\\infty,0)\\cup(2,+\\infty)$，而 $B=(-\\sqrt{5},\\sqrt{5})$. 因为 $\\sqrt{5}>2$，所以 $[0,2]\\subset B$；当 $x<0$ 或 $x>2$ 时，$x\\in A$，从而 $A\\cup B=\\mathbb{R}$. 又 $-1\\in A\\cap B$，故 $A\\cap B\\neq\\varnothing$；$1\\in B$ 且 $1\\notin A$，故 $B$ 不是 $A$ 的子集；$3\\in A$ 且 $3\\notin B$，故 $A$ 不是 $B$ 的子集. 因此选 B."
+          "solution": "由 $x^{2}-2x=x(x-2)>0$，得 $A=(-\\infty,0)\\cup(2,+\\infty)$，而 $B=(-\\sqrt{5},\\sqrt{5})$. 因为 $\\sqrt{5}>2$，所以 $[0,2]\\subset B$；当 $x<0$ 或 $x>2$ 时，$x\\in A$，从而 $A\\cup B=\\mathbb{R}$. 又 $-1\\in A\\cap B$，故 $A\\cap B\\neq\\varnothing$；$1\\in B$ 且 $1\\notin A$，故 $B$ 不是 $A$ 的子集；$3\\in A$ 且 $3\\notin B$，故 $A$ 不是 $B$ 的子集. 因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +178,9 @@
             "$\\frac{4}{5}$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $\\left|4+3\\mathrm{i}\\right|=5$，所以</p><p>$z=\\dfrac{5}{3-4\\mathrm{i}}=\\dfrac{5(3+4\\mathrm{i})}{(3-4\\mathrm{i})(3+4\\mathrm{i})}=\\dfrac{3+4\\mathrm{i}}{5}$. 因而 $z$ 的虚部为 $\\dfrac{4}{5}$，选 D.</p>"
+          "solution": "<p>因为 $\\left|4+3\\mathrm{i}\\right|=5$，所以</p><p>$z=\\dfrac{5}{3-4\\mathrm{i}}=\\dfrac{5(3+4\\mathrm{i})}{(3-4\\mathrm{i})(3+4\\mathrm{i})}=\\dfrac{3+4\\mathrm{i}}{5}$. 因而 $z$ 的虚部为 $\\dfrac{4}{5}$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +192,9 @@
             "系统抽样"
           ],
           "answer": "C",
-          "solution": "由于小学、初中、高中三个学段学生的视力情况差异较大，而男女生之间差异不大，应当按照差异明显的学段划分层次，再从各层中随机抽取学生. 故最合理的方法是按学段分层抽样，选 C."
+          "solution": "由于小学、初中、高中三个学段学生的视力情况差异较大，而男女生之间差异不大，应当按照差异明显的学段划分层次，再从各层中随机抽取学生. 故最合理的方法是按学段分层抽样，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,11 +206,13 @@
             "$y = \\pm x$"
           ],
           "answer": "C",
-          "solution": "<p>双曲线的离心率满足 $e=\\dfrac{c}{a}$，且 $c^{2}=a^{2}+b^{2}$. 由</p><p>$\\dfrac{\\sqrt{5}}2=\\dfrac{c}{a}$ 得 $c^{2}=\\dfrac{5}{4}a^{2}$，从而 $b^{2}=c^{2}-a^{2}=\\dfrac{1}{4}a^{2}$，即 $\\dfrac{b}{a}=\\dfrac{1}{2}$. 双曲线的渐近线为 $y=\\pm\\dfrac{b}{a}x$，所以方程为 $y=\\pm\\dfrac{1}{2}x$，选 C.</p>"
+          "solution": "<p>双曲线的离心率满足 $e=\\dfrac{c}{a}$，且 $c^{2}=a^{2}+b^{2}$. 由</p><p>$\\dfrac{\\sqrt{5}}2=\\dfrac{c}{a}$ 得 $c^{2}=\\dfrac{5}{4}a^{2}$，从而 $b^{2}=c^{2}-a^{2}=\\dfrac{1}{4}a^{2}$，即 $\\dfrac{b}{a}=\\dfrac{1}{2}$. 双曲线的渐近线为 $y=\\pm\\dfrac{b}{a}x$，所以方程为 $y=\\pm\\dfrac{1}{2}x$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
-          "body": "<p>执行下面的程序框图，若输入的 $t \\in \\left[-1, 3\\right]$，则输出的 $s$ 属于（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>执行下面的程序框图，若输入的 $t \\in \\left[-1, 3\\right]$，则输出的 $s$ 属于（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/new_curriculum_paper_1_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\left[-3, 4\\right]$",
             "$\\left[-5, 2\\right]$",
@@ -65,11 +220,13 @@
             "$\\left[-2, 5\\right]$"
           ],
           "answer": "A",
-          "solution": "当 $t<1$ 时，程序输出 $s=3t$，由 $t\\in[-1,1)$ 得 $s\\in[-3,3)$. 当 $t\\geqslant1$ 时，$s=4t-t^{2}=4-(t-2)^{2}$，且 $t\\in[1,3]$，故 $s\\in[3,4]$. 合并两种情况，输出范围为 $[-3,4]$，选 A."
+          "solution": "当 $t<1$ 时，程序输出 $s=3t$，由 $t\\in[-1,1)$ 得 $s\\in[-3,3)$. 当 $t\\geqslant1$ 时，$s=4t-t^{2}=4-(t-2)^{2}$，且 $t\\in[1,3]$，故 $s\\in[3,4]$. 合并两种情况，输出范围为 $[-3,4]$，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
-          "body": "<p>如图，有一个水平放置的透明无盖的正方体容器，容器高 $8\\mathrm{~cm}$，将一个球放在容器口，再向容器内注水，当球面恰好接触水面时测得水深为 $6\\mathrm{~cm}$，如果不计容器的厚度，则球的体积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，有一个水平放置的透明无盖的正方体容器，容器高 $8\\mathrm{~cm}$，将一个球放在容器口，再向容器内注水，当球面恰好接触水面时测得水深为 $6\\mathrm{~cm}$，如果不计容器的厚度，则球的体积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/new_curriculum_paper_1_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\frac{500\\pi}{3}\\mathrm{~cm}^{3}$",
             "$\\frac{866\\pi}{3}\\mathrm{~cm}^{3}$",
@@ -77,7 +234,9 @@
             "$\\frac{2048\\pi}{3}\\mathrm{~cm}^{3}$"
           ],
           "answer": "A",
-          "solution": "<p>设球的半径为 $R$. 容器口是边长为 $8\\mathrm{~cm}$ 的正方形，球放在容器口时，球面在容器口所在水平面内的截面圆内切于该正方形，因此截面圆半径为 $4\\mathrm{~cm}$. 水面在距容器底 $6\\mathrm{~cm}$ 处，且球面恰好接触水面，所以球心到水面的距离为 $R$，球心到容器口所在平面的距离为 $R-2$. 在过球心且垂直于容器口的截面内，由勾股定理得</p><p>$R^{2}=(R-2)^{2}+4^{2}$，解得 $R=5$. 因而球的体积为 $\\dfrac{4}{3}\\pi R^{3}=\\dfrac{4}{3}\\pi\\cdot5^{3}=\\dfrac{500\\pi}{3}$，选 A.</p>"
+          "solution": "<p>设球的半径为 $R$. 容器口是边长为 $8\\mathrm{~cm}$ 的正方形，球放在容器口时，球面在容器口所在水平面内的截面圆内切于该正方形，因此截面圆半径为 $4\\mathrm{~cm}$. 水面在距容器底 $6\\mathrm{~cm}$ 处，且球面恰好接触水面，所以球心到水面的距离为 $R$，球心到容器口所在平面的距离为 $R-2$. 在过球心且垂直于容器口的截面内，由勾股定理得</p><p>$R^{2}=(R-2)^{2}+4^{2}$，解得 $R=5$. 因而球的体积为 $\\dfrac{4}{3}\\pi R^{3}=\\dfrac{4}{3}\\pi\\cdot5^{3}=\\dfrac{500\\pi}{3}$，选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,11 +248,13 @@
             "6"
           ],
           "answer": "C",
-          "solution": "<p>由 $a_{m}=S_{m}-S_{m-1}=2$，$a_{m+1}=S_{m+1}-S_{m}=3$，得等差数列的公差 $d=1$. 又 $S_{m}=0$，所以</p><p>$0=S_{m}=\\dfrac{m}{2}(a_{1}+a_{m})=\\dfrac{m}{2}(a_{1}+2)$，从而 $a_{1}=-2$. 因此 $a_{m}=a_{1}+(m-1)d=-2+m-1=m-3$. 由 $a_{m}=2$ 得 $m=5$，选 C.</p>"
+          "solution": "<p>由 $a_{m}=S_{m}-S_{m-1}=2$，$a_{m+1}=S_{m+1}-S_{m}=3$，得等差数列的公差 $d=1$. 又 $S_{m}=0$，所以</p><p>$0=S_{m}=\\dfrac{m}{2}(a_{1}+a_{m})=\\dfrac{m}{2}(a_{1}+2)$，从而 $a_{1}=-2$. 因此 $a_{m}=a_{1}+(m-1)d=-2+m-1=m-3$. 由 $a_{m}=2$ 得 $m=5$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
-          "body": "<p>某几何体的三视图如图所示，则该几何的体积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>某几何体的三视图如图所示，则该几何的体积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/new_curriculum_paper_1_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$16 + 8\\pi$",
             "$8 + 8\\pi$",
@@ -101,7 +262,9 @@
             "$8 + 16\\pi$"
           ],
           "answer": "A",
-          "solution": "<p>由三视图可知，该几何体由一个长、宽、高分别为 $4$，$2$，$2$ 的长方体和一个底面半径为 $2$、高为 $4$ 的半圆柱组成. 因此其体积为</p><p>$V=4\\cdot2\\cdot2+\\dfrac{1}{2}\\pi\\cdot2^{2}\\cdot4=16+8\\pi$，选 A.</p>"
+          "solution": "<p>由三视图可知，该几何体由一个长、宽、高分别为 $4$，$2$，$2$ 的长方体和一个底面半径为 $2$、高为 $4$ 的半圆柱组成. 因此其体积为</p><p>$V=4\\cdot2\\cdot2+\\dfrac{1}{2}\\pi\\cdot2^{2}\\cdot4=16+8\\pi$，选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +276,9 @@
             "8"
           ],
           "answer": "B",
-          "solution": "<p>在 $(x+y)^{2m}$ 的展开式中，最大的二项式系数为 $a=\\mathrm{C}_{2m}^{m}$. 在 $(x+y)^{2m+1}$ 的展开式中，最大的二项式系数为 $b=\\mathrm{C}_{2m+1}^{m}=\\mathrm{C}_{2m+1}^{m+1}$. 因而</p><p>$b=\\dfrac{2m+1}{m+1}\\mathrm{C}_{2m}^{m}=\\dfrac{2m+1}{m+1}a$. 由 $13a=7b$ 得 $13=\\dfrac{7(2m+1)}{m+1}$，即 $13m+13=14m+7$，所以 $m=6$，选 B.</p>"
+          "solution": "<p>在 $(x+y)^{2m}$ 的展开式中，最大的二项式系数为 $a=\\mathrm{C}_{2m}^{m}$. 在 $(x+y)^{2m+1}$ 的展开式中，最大的二项式系数为 $b=\\mathrm{C}_{2m+1}^{m}=\\mathrm{C}_{2m+1}^{m+1}$. 因而</p><p>$b=\\dfrac{2m+1}{m+1}\\mathrm{C}_{2m}^{m}=\\dfrac{2m+1}{m+1}a$. 由 $13a=7b$ 得 $13=\\dfrac{7(2m+1)}{m+1}$，即 $13m+13=14m+7$，所以 $m=6$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +290,9 @@
             "$\\frac{x^{2}}{18}+ \\frac{y^{2}}{9}= 1$"
           ],
           "answer": "D",
-          "solution": "<p>焦点 $F=(3,0)$，弦 $AB$ 的中点为 $M=(1,-1)$，所以直线 $AB$ 的方向向量可取 $\\mathbf{d}=(2,1)$. 设弦的两个端点为 $M+\\lambda\\mathbf{d}$ 和 $M-\\lambda\\mathbf{d}$. 将这两个点分别代入椭圆方程并相减，得到</p><p>$\\dfrac{8\\lambda}{a^2}-\\dfrac{4\\lambda}{b^2}=0$. 因为 $\\lambda\\neq0$，所以 $\\dfrac{2}{a^2}=\\dfrac{1}{b^2}$，即 $a^{2}=2b^{2}$. 又右焦点横坐标为 $3$，故 $c=3$，满足 $a^{2}-b^{2}=c^{2}=9$. 解得 $b^{2}=9$，$a^{2}=18$，所以椭圆方程为 $\\dfrac{x^2}{18}+\\dfrac{y^2}{9}=1$，选 D.</p>"
+          "solution": "<p>焦点 $F=(3,0)$，弦 $AB$ 的中点为 $M=(1,-1)$，所以直线 $AB$ 的方向向量可取 $\\mathbf{d}=(2,1)$. 设弦的两个端点为 $M+\\lambda\\mathbf{d}$ 和 $M-\\lambda\\mathbf{d}$. 将这两个点分别代入椭圆方程并相减，得到</p><p>$\\dfrac{8\\lambda}{a^2}-\\dfrac{4\\lambda}{b^2}=0$. 因为 $\\lambda\\neq0$，所以 $\\dfrac{2}{a^2}=\\dfrac{1}{b^2}$，即 $a^{2}=2b^{2}$. 又右焦点横坐标为 $3$，故 $c=3$，满足 $a^{2}-b^{2}=c^{2}=9$. 解得 $b^{2}=9$，$a^{2}=18$，所以椭圆方程为 $\\dfrac{x^2}{18}+\\dfrac{y^2}{9}=1$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +304,9 @@
             "$\\left[-2, 0\\right]$"
           ],
           "answer": "D",
-          "solution": "<p>当 $x\\leqslant0$ 时，$f(x)\\leqslant0$，所以 $\\lvert f(x)\\rvert=x^{2}-2x$. 不等式化为</p><p>$x^{2}-2x\\ge ax$，即 $x(x-a-2)\\geqslant0$. 对所有 $x\\leqslant0$ 成立的充要条件是 $a\\ge-2$.</p><p>当 $x>0$ 时，$f(x)=\\ln(1+x)>0$，不等式化为 $\\dfrac{\\ln(1+x)}x\\ge a$. 由于 $\\dfrac{\\ln(1+x)}x\\to0$（$x\\to+\\infty$），若 $a>0$，则对充分大的 $x$ 有 $\\dfrac{\\ln(1+x)}x<a$，不等式不成立；若 $a\\leqslant0$，则 $ax\\leqslant0<\\ln(1+x)$，不等式对所有 $x>0$ 成立. 因而此时 $a\\leqslant0$，最终 $a\\in[-2,0]$，选 D.</p>"
+          "solution": "<p>当 $x\\leqslant0$ 时，$f(x)\\leqslant0$，所以 $\\lvert f(x)\\rvert=x^{2}-2x$. 不等式化为</p><p>$x^{2}-2x\\ge ax$，即 $x(x-a-2)\\geqslant0$. 对所有 $x\\leqslant0$ 成立的充要条件是 $a\\ge-2$.</p><p>当 $x>0$ 时，$f(x)=\\ln(1+x)>0$，不等式化为 $\\dfrac{\\ln(1+x)}x\\ge a$. 由于 $\\dfrac{\\ln(1+x)}x\\to0$（$x\\to+\\infty$），若 $a>0$，则对充分大的 $x$ 有 $\\dfrac{\\ln(1+x)}x<a$，不等式不成立；若 $a\\leqslant0$，则 $ax\\leqslant0<\\ln(1+x)$，不等式对所有 $x>0$ 成立. 因而此时 $a\\leqslant0$，最终 $a\\in[-2,0]$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +318,9 @@
             "$\\{S_{2n - 1}\\}$ 为递减数列，$\\{S_{2n}\\}$ 为递增数列"
           ],
           "answer": "B",
-          "solution": "<p>记 $u_{n}=b_{n}-a_{n}$，$v_{n}=c_{n}-a_{n}$. 由 $a_{n+1}=a_{n}$ 及 $b_{1}+c_{1}=2a_{1}$，可知 $a_{n}=a_{1}$，且 $u_{1}+v_{1}=0$. 递推关系给出</p><p>$u_{n+1}=\\dfrac{v_n}{2}$，$v_{n+1}=\\dfrac{u_n}{2}$，并且 $u_{n+1}+v_{n+1}=\\frac{u_{n}+v_{n}}{2}$.</p><p>由 $b_{1}>c_{1}$ 及 $b_{1}+c_{1}=2a_{1}$ 得 $u_{1}=b_{1}-a_{1}>0$. 由 $u_{1}+v_{1}=0$ 归纳得 $u_{n}+v_{n}=0$ 对所有 $n$ 成立，所以 $v_{n}=-u_{n}$，且 $u_{n+1}=-\\dfrac{1}{2}u_{n}$. 因此 $u_{n}\\neq0$ 对所有 $n$ 成立，从而</p><p>$u_{n+1}^{2}=\\frac{v_{n}^{2}}{4}=\\frac{u_{n}^{2}}{4}$.</p><p>又 $b_{n}+c_{n}=2a_{n}=2a_{1}$，半周长 $p_{n}=\\dfrac{a_n+b_n+c_n}{2}=\\dfrac{3a_1}{2}$ 及 $p_{n}-a_{n}=\\dfrac{a_1}{2}$ 均为常数. 由于每个 $\\triangle A_{n}B_{n}C_{n}$ 都存在，$S_{n}>0$.</p><p>由海伦公式，$S_{n}^{2}=p_{n}(p_{n}-a_{n})(p_{n}-b_{n})(p_{n}-c_{n})$. 因为 $b_{n}=a_{1}+u_{n}$，$c_{n}=a_{1}-u_{n}$，所以</p><p>$(p_{n}-b_{n})(p_{n}-c_{n})=\\left(\\dfrac{a_1}{2}-u_{n}\\right)\\left(\\dfrac{a_1}{2}+u_{n}\\right)=\\dfrac{a_1^2}{4}-u_{n}^{2}$. 由于 $u_{n+1}^{2}=\\dfrac{1}{4}u_{n}^{2}<u_{n}^{2}$，有 $S_{n+1}^{2}>S_{n}^{2}$，从而 $S_{n+1}>S_{n}$. 故 $\\{S_{n}\\}$ 为递增数列，选 B.</p>"
+          "solution": "<p>记 $u_{n}=b_{n}-a_{n}$，$v_{n}=c_{n}-a_{n}$. 由 $a_{n+1}=a_{n}$ 及 $b_{1}+c_{1}=2a_{1}$，可知 $a_{n}=a_{1}$，且 $u_{1}+v_{1}=0$. 递推关系给出</p><p>$u_{n+1}=\\dfrac{v_n}{2}$，$v_{n+1}=\\dfrac{u_n}{2}$，并且 $u_{n+1}+v_{n+1}=\\frac{u_{n}+v_{n}}{2}$.</p><p>由 $b_{1}>c_{1}$ 及 $b_{1}+c_{1}=2a_{1}$ 得 $u_{1}=b_{1}-a_{1}>0$. 由 $u_{1}+v_{1}=0$ 归纳得 $u_{n}+v_{n}=0$ 对所有 $n$ 成立，所以 $v_{n}=-u_{n}$，且 $u_{n+1}=-\\dfrac{1}{2}u_{n}$. 因此 $u_{n}\\neq0$ 对所有 $n$ 成立，从而</p><p>$u_{n+1}^{2}=\\frac{v_{n}^{2}}{4}=\\frac{u_{n}^{2}}{4}$.</p><p>又 $b_{n}+c_{n}=2a_{n}=2a_{1}$，半周长 $p_{n}=\\dfrac{a_n+b_n+c_n}{2}=\\dfrac{3a_1}{2}$ 及 $p_{n}-a_{n}=\\dfrac{a_1}{2}$ 均为常数. 由于每个 $\\triangle A_{n}B_{n}C_{n}$ 都存在，$S_{n}>0$.</p><p>由海伦公式，$S_{n}^{2}=p_{n}(p_{n}-a_{n})(p_{n}-b_{n})(p_{n}-c_{n})$. 因为 $b_{n}=a_{1}+u_{n}$，$c_{n}=a_{1}-u_{n}$，所以</p><p>$(p_{n}-b_{n})(p_{n}-c_{n})=\\left(\\dfrac{a_1}{2}-u_{n}\\right)\\left(\\dfrac{a_1}{2}+u_{n}\\right)=\\dfrac{a_1^2}{4}-u_{n}^{2}$. 由于 $u_{n+1}^{2}=\\dfrac{1}{4}u_{n}^{2}<u_{n}^{2}$，有 $S_{n+1}^{2}>S_{n}^{2}$，从而 $S_{n+1}>S_{n}$. 故 $\\{S_{n}\\}$ 为递增数列，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +330,38 @@
         {
           "num": 13,
           "body": "已知两个单位向量 $\\mathbf{a}$，$\\mathbf{b}$ 的夹角为 $60^{\\circ}$，$\\mathbf{c}= t\\mathbf{a}+ (1 - t)\\mathbf{b}$，若 $\\mathbf{b}\\cdot \\mathbf{c}= 0$，则 $t =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$2$",
-          "solution": "<p>由 $\\lvert\\mathbf{a}\\rvert=\\lvert\\mathbf{b}\\rvert=1$ 及夹角为 $60^{\\circ}$，得 $\\mathbf{b}\\cdot\\mathbf{a}=\\cos60^{\\circ}=\\dfrac{1}{2}$. 因而</p><p>$0=\\mathbf{b}\\cdot\\mathbf{c}=t(\\mathbf{b}\\cdot\\mathbf{a})+(1-t)(\\mathbf{b}\\cdot\\mathbf{b})=\\dfrac{t}{2}+1-t=1-\\dfrac{t}{2}$，解得 $t=2$.</p>"
+          "choices": [],
+          "answer": "\\(2\\)",
+          "solution": "<p>由 $\\lvert\\mathbf{a}\\rvert=\\lvert\\mathbf{b}\\rvert=1$ 及夹角为 $60^{\\circ}$，得 $\\mathbf{b}\\cdot\\mathbf{a}=\\cos60^{\\circ}=\\dfrac{1}{2}$. 因而</p><p>$0=\\mathbf{b}\\cdot\\mathbf{c}=t(\\mathbf{b}\\cdot\\mathbf{a})+(1-t)(\\mathbf{b}\\cdot\\mathbf{b})=\\dfrac{t}{2}+1-t=1-\\dfrac{t}{2}$，解得 $t=2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "若数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}=\\frac{2}{3}a_{n}+\\frac{1}{3}$，则数列 $\\{a_{n}\\}$ 的通项公式是 $a_{n}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(-2)^{n-1}$",
-          "solution": "<p>当 $n=1$ 时，$S_{1}=a_{1}$，所以 $a_{1}=\\dfrac{2}{3}a_{1}+\\dfrac{1}{3}$，解得 $a_{1}=1$. 当 $n\\geqslant2$ 时，由 $S_{n}-S_{n-1}=a_{n}$ 得</p><p>$a_{n}=\\dfrac{2}{3}(a_{n}-a_{n-1})$，即 $a_{n}=-2a_{n-1}$. 因此 $a_{n}=(-2)^{n-1}$.</p>"
+          "choices": [],
+          "answer": "\\((-2)^{n-1}\\)",
+          "solution": "<p>当 $n=1$ 时，$S_{1}=a_{1}$，所以 $a_{1}=\\dfrac{2}{3}a_{1}+\\dfrac{1}{3}$，解得 $a_{1}=1$. 当 $n\\geqslant2$ 时，由 $S_{n}-S_{n-1}=a_{n}$ 得</p><p>$a_{n}=\\dfrac{2}{3}(a_{n}-a_{n-1})$，即 $a_{n}=-2a_{n-1}$. 因此 $a_{n}=(-2)^{n-1}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "设当 $x = \\theta$ 时，函数 $f(x) = \\sin x - 2\\cos x$ 取得最大值，则 $\\cos \\theta =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$-\\frac{2\\sqrt{5}}{5}$",
-          "solution": "由柯西不等式，$f(x)=\\sin x-2\\cos x\\le\\sqrt{\\sin^{2}x+\\cos^{2}x}\\sqrt{1^{2}+(-2)^{2}}=\\sqrt{5}$. 取最大值时等号成立，所以 $(\\sin\\theta,\\cos\\theta)$ 与 $(1,-2)$ 同向，且两者长度分别为 $1$ 和 $\\sqrt{5}$. 因而 $\\cos\\theta=-\\dfrac2{\\sqrt{5}}=-\\dfrac{2\\sqrt{5}}{5}$."
+          "choices": [],
+          "answer": "\\(-\\frac{2\\sqrt{5}}{5}\\)",
+          "solution": "由柯西不等式，$f(x)=\\sin x-2\\cos x\\le\\sqrt{\\sin^{2}x+\\cos^{2}x}\\sqrt{1^{2}+(-2)^{2}}=\\sqrt{5}$. 取最大值时等号成立，所以 $(\\sin\\theta,\\cos\\theta)$ 与 $(1,-2)$ 同向，且两者长度分别为 $1$ 和 $\\sqrt{5}$. 因而 $\\cos\\theta=-\\dfrac2{\\sqrt{5}}=-\\dfrac{2\\sqrt{5}}{5}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "若函数 $f(x) = \\left(1 - x^{2}\\right)\\left(x^{2} + ax + b\\right)$ 的图象关于直线 $x = -2$ 对称，则 $f(x)$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$16$",
-          "solution": "<p>图象关于直线 $x=-2$ 对称，反射变换为 $x\\mapsto-4-x$. 因为 $f(1)=f(-1)=0$，对称性要求反射后的点 $-5$ 和 $-3$ 也是零点. 于是 $x^{2}+ax+b=(x+3)(x+5)=x^{2}+8x+15$，从而</p><p>$f(x)=(1-x^{2})(x+3)(x+5)$. 令 $u=x+2$，则 $f(x)=(-u^{2}+4u-3)(u^{2}+4u+3)=-u^{4}+10u^{2}-9=16-(u^{2}-5)^{2}\\leqslant16$. 当 $u^{2}=5$ 时等号成立，所以 $f(x)$ 的最大值为 $16$.</p>"
+          "choices": [],
+          "answer": "\\(16\\)",
+          "solution": "<p>图象关于直线 $x=-2$ 对称，反射变换为 $x\\mapsto-4-x$. 因为 $f(1)=f(-1)=0$，对称性要求反射后的点 $-5$ 和 $-3$ 也是零点. 于是 $x^{2}+ax+b=(x+3)(x+5)=x^{2}+8x+15$，从而</p><p>$f(x)=(1-x^{2})(x+3)(x+5)$. 令 $u=x+2$，则 $f(x)=(-u^{2}+4u-3)(u^{2}+4u+3)=-u^{4}+10u^{2}-9=16-(u^{2}-5)^{2}\\leqslant16$. 当 $u^{2}=5$ 时等号成立，所以 $f(x)$ 的最大值为 $16$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -191,59 +370,75 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>如图，在 $\\triangle ABC$ 中，$\\angle ABC = 90^{\\circ}$，$AB = \\sqrt{3}$，$BC = 1$，$P$ 为 $\\triangle ABC$ 内一点，$\\angle BPC = 90^{\\circ}$.</p><ol class=\"enumerate\"><li><p>若 $PB = \\frac{1}{2}$，求 $PA$；</p></li><li><p>若 $\\angle APB = 150^{\\circ}$，求 $\\tan \\angle PBA$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在 $\\triangle ABC$ 中，$\\angle ABC = 90^{\\circ}$，$AB = \\sqrt{3}$，$BC = 1$，$P$ 为 $\\triangle ABC$ 内一点，$\\angle BPC = 90^{\\circ}$.</p><ol class=\"enumerate\"><li><p>若 $PB = \\frac{1}{2}$，求 $PA$；</p></li><li><p>若 $\\angle APB = 150^{\\circ}$，求 $\\tan \\angle PBA$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/new_curriculum_paper_1_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取 $B=(0,0)$，$A=(\\sqrt{3},0)$，$C=(0,1)$，设 $P=(u,v)$. 因为 $P$ 在三角形内部，所以 $u>0$，$v>0$. 由 $\\angle BPC=90^{\\circ}$，有</p><p>$(-u,-v)\\cdot(-u,1-v)=0$，即 $u^{2}+v^{2}-v=0$. 若 $PB=\\dfrac{1}{2}$，则 $u^{2}+v^{2}=\\dfrac{1}{4}$，与上式联立得 $v=\\dfrac{1}{4}$，$u^{2}=\\dfrac{3}{16}$. 由 $u>0$ 得 $u=\\dfrac{\\sqrt{3}}{4}$，所以</p><p>$PA^{2}=\\left(\\sqrt{3}-\\dfrac{\\sqrt{3}}{4}\\right)^{2}+\\left(\\dfrac{1}{4}\\right)^{2}=\\dfrac{27}{16}+\\dfrac1{16}=\\dfrac{7}{4}$，故 $PA=\\dfrac{\\sqrt{7}}{2}$.</p></li><li><p>设 $\\alpha=\\angle PBA$，$r=PB$. 由上面的坐标关系，若 $P=(r\\cos\\alpha,r\\sin\\alpha)$，则 $u^{2}+v^{2}=v$ 化为 $r^{2}=r\\sin\\alpha$. 因 $r>0$，所以 $r=\\sin\\alpha$. 在三角形 $ABP$ 中，$\\angle APB=150^{\\circ}$，且 $P$ 在三角形内部，所以 $0<\\alpha<30^{\\circ}$，从而 $\\angle PAB=30^{\\circ}-\\alpha$. 由正弦定理，</p><p>$\\dfrac{PB}{\\sin(30^\\circ-\\alpha)}=\\dfrac{AB}{\\sin150^\\circ}=2\\sqrt{3}$. 代入 $PB=\\sin\\alpha$，得</p><p>$\\sin\\alpha=2\\sqrt{3}\\sin(30^{\\circ}-\\alpha)=\\sqrt{3}\\cos\\alpha-3\\sin\\alpha$. 因此 $4\\sin\\alpha=\\sqrt{3}\\cos\\alpha$，从而 $\\tan\\angle PBA=\\tan\\alpha=\\dfrac{\\sqrt{3}}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取 $B=(0,0)$，$A=(\\sqrt{3},0)$，$C=(0,1)$，设 $P=(u,v)$. 因为 $P$ 在三角形内部，所以 $u>0$，$v>0$. 由 $\\angle BPC=90^{\\circ}$，有</p><p>$(-u,-v)\\cdot(-u,1-v)=0$，即 $u^{2}+v^{2}-v=0$. 若 $PB=\\dfrac{1}{2}$，则 $u^{2}+v^{2}=\\dfrac{1}{4}$，与上式联立得 $v=\\dfrac{1}{4}$，$u^{2}=\\dfrac{3}{16}$. 由 $u>0$ 得 $u=\\dfrac{\\sqrt{3}}{4}$，所以</p><p>$PA^{2}=\\left(\\sqrt{3}-\\dfrac{\\sqrt{3}}{4}\\right)^{2}+\\left(\\dfrac{1}{4}\\right)^{2}=\\dfrac{27}{16}+\\dfrac1{16}=\\dfrac{7}{4}$，故 $PA=\\dfrac{\\sqrt{7}}{2}$.</p></li><li><p>设 $\\alpha=\\angle PBA$，$r=PB$. 由上面的坐标关系，若 $P=(r\\cos\\alpha,r\\sin\\alpha)$，则 $u^{2}+v^{2}=v$ 化为 $r^{2}=r\\sin\\alpha$. 因 $r>0$，所以 $r=\\sin\\alpha$. 在三角形 $ABP$ 中，$\\angle APB=150^{\\circ}$，且 $P$ 在三角形内部，所以 $0<\\alpha<30^{\\circ}$，从而 $\\angle PAB=30^{\\circ}-\\alpha$. 由正弦定理，</p><p>$\\dfrac{PB}{\\sin(30^\\circ-\\alpha)}=\\dfrac{AB}{\\sin150^\\circ}=2\\sqrt{3}$. 代入 $PB=\\sin\\alpha$，得</p><p>$\\sin\\alpha=2\\sqrt{3}\\sin(30^{\\circ}-\\alpha)=\\sqrt{3}\\cos\\alpha-3\\sin\\alpha$. 因此 $4\\sin\\alpha=\\sqrt{3}\\cos\\alpha$，从而 $\\tan\\angle PBA=\\tan\\alpha=\\dfrac{\\sqrt{3}}{4}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$CA = CB$，$AB = AA_{1}$，$\\angle BAA_{1}= 60^{\\circ}$.</p><ol class=\"enumerate\"><li><p>证明： $AB \\perp A_{1}C$；</p></li><li><p>若平面 $ABC \\perp$ 平面 $AA_{1}B_{1}B$，$AB = CB$，求直线 $A_{1}C$ 与平面 $BB_{1}C_{1}C$ 所成角的正弦值.</p></li></ol><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
-          "choices": null,
+          "body": "<p>如图，三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$CA = CB$，$AB = AA_{1}$，$\\angle BAA_{1}= 60^{\\circ}$.</p><ol class=\"enumerate\"><li><p>证明： $AB \\perp A_{1}C$；</p></li><li><p>若平面 $ABC \\perp$ 平面 $AA_{1}B_{1}B$，$AB = CB$，求直线 $A_{1}C$ 与平面 $BB_{1}C_{1}C$ 所成角的正弦值.</p></li></ol><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/new_curriculum_paper_1_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $\\mathbf{u}=\\overrightarrow{AB}$，$\\mathbf{v}=\\overrightarrow{AC}$，$\\mathbf{w}=\\overrightarrow{AA_1}$. 由 $CA=CB$，得</p><p>$\\lvert\\mathbf{v}\\rvert^{2}=\\lvert\\mathbf{v}-\\mathbf{u}\\rvert^{2}$，从而 $\\mathbf{u}\\cdot\\mathbf{v}=\\dfrac{1}{2}\\lvert\\mathbf{u}\\rvert^{2}$. 又 $AB=AA_{1}$，且 $\\angle BAA_{1}=60^{\\circ}$，所以</p><p>$\\mathbf{u}\\cdot\\mathbf{w}=\\lvert\\mathbf{u}\\rvert\\lvert\\mathbf{w}\\rvert\\cos60^{\\circ}=\\dfrac{1}{2}\\lvert\\mathbf{u}\\rvert^{2}$. 因此</p><p>$\\overrightarrow{AB}\\cdot\\overrightarrow{A_1C}=\\mathbf{u}\\cdot(\\mathbf{v}-\\mathbf{w})=0$，故 $AB\\perp A_{1}C$.</p></li><li><p>设 $AB=CB=l$. 由 $CA=CB$ 可知 $CA=AB=BC=l$，所以底面三角形 $ABC$ 为正三角形. 取 $A=(0,0,0)$，$B=(l,0,0)$，$C=\\left(\\dfrac{l}{2},\\dfrac{\\sqrt{3}l}{2},0\\right)$. 因为平面 $ABC\\perp$ 平面 $AA_{1}B_{1}B$，且 $AA_{1}$ 与 $AB$ 成 $60^{\\circ}$，可取</p><p>$A_{1}=\\left(\\dfrac{l}{2},0,\\dfrac{\\sqrt{3}l}{2}\\right)$. 于是 $A_{1}C$ 的方向向量可取</p><p>$\\mathbf{d}=\\overrightarrow{A_1C}=\\left(0,\\dfrac{\\sqrt{3}l}{2},-\\dfrac{\\sqrt{3}l}{2}\\right)$.</p><p>平面 $BB_{1}C_{1}C$ 内有两个不共线方向向量</p><p>$\\overrightarrow{BC}=\\left(-\\dfrac{l}{2},\\dfrac{\\sqrt{3}l}{2},0\\right)$，$\\overrightarrow{BB_1}=\\overrightarrow{AA_1}=\\left(\\dfrac{l}{2},0,\\dfrac{\\sqrt{3}l}{2}\\right)$. 取其法向量</p><p>$\\mathbf{n}=\\overrightarrow{BC}\\times\\overrightarrow{BB_1}=\\left(\\dfrac{3l^2}{4},\\dfrac{\\sqrt{3}l^2}{4},-\\dfrac{\\sqrt{3}l^2}{4}\\right)$. 因而</p><p>$\\lvert\\mathbf{d}\\rvert=l\\sqrt{\\dfrac{3}{2}}$，$\\lvert\\mathbf{n}\\rvert=\\dfrac{l^2\\sqrt{15}}4$，且 $\\lvert\\mathbf{d}\\cdot\\mathbf{n}\\rvert=\\dfrac{3l^3}{4}$. 设直线 $A_{1}C$ 与平面的夹角为 $\\varphi$，则</p><p>$\\sin\\varphi=\\dfrac{\\lvert\\mathbf{d}\\cdot\\mathbf{n}\\rvert}{\\lvert\\mathbf{d}\\rvert\\lvert\\mathbf{n}\\rvert}=\\dfrac{3\\frac{l^{3}}{4}}{l\\sqrt{\\frac{3}{2}}\\cdot l^2\\frac{\\sqrt{15}}{4}}=\\dfrac{2}{\\sqrt{10}}=\\dfrac{\\sqrt{10}}5$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $\\mathbf{u}=\\overrightarrow{AB}$，$\\mathbf{v}=\\overrightarrow{AC}$，$\\mathbf{w}=\\overrightarrow{AA_1}$. 由 $CA=CB$，得</p><p>$\\lvert\\mathbf{v}\\rvert^{2}=\\lvert\\mathbf{v}-\\mathbf{u}\\rvert^{2}$，从而 $\\mathbf{u}\\cdot\\mathbf{v}=\\dfrac{1}{2}\\lvert\\mathbf{u}\\rvert^{2}$. 又 $AB=AA_{1}$，且 $\\angle BAA_{1}=60^{\\circ}$，所以</p><p>$\\mathbf{u}\\cdot\\mathbf{w}=\\lvert\\mathbf{u}\\rvert\\lvert\\mathbf{w}\\rvert\\cos60^{\\circ}=\\dfrac{1}{2}\\lvert\\mathbf{u}\\rvert^{2}$. 因此</p><p>$\\overrightarrow{AB}\\cdot\\overrightarrow{A_1C}=\\mathbf{u}\\cdot(\\mathbf{v}-\\mathbf{w})=0$，故 $AB\\perp A_{1}C$.</p></li><li><p>设 $AB=CB=l$. 由 $CA=CB$ 可知 $CA=AB=BC=l$，所以底面三角形 $ABC$ 为正三角形. 取 $A=(0,0,0)$，$B=(l,0,0)$，$C=\\left(\\dfrac{l}{2},\\dfrac{\\sqrt{3}l}{2},0\\right)$. 因为平面 $ABC\\perp$ 平面 $AA_{1}B_{1}B$，且 $AA_{1}$ 与 $AB$ 成 $60^{\\circ}$，可取</p><p>$A_{1}=\\left(\\dfrac{l}{2},0,\\dfrac{\\sqrt{3}l}{2}\\right)$. 于是 $A_{1}C$ 的方向向量可取</p><p>$\\mathbf{d}=\\overrightarrow{A_1C}=\\left(0,\\dfrac{\\sqrt{3}l}{2},-\\dfrac{\\sqrt{3}l}{2}\\right)$.</p><p>平面 $BB_{1}C_{1}C$ 内有两个不共线方向向量</p><p>$\\overrightarrow{BC}=\\left(-\\dfrac{l}{2},\\dfrac{\\sqrt{3}l}{2},0\\right)$，$\\overrightarrow{BB_1}=\\overrightarrow{AA_1}=\\left(\\dfrac{l}{2},0,\\dfrac{\\sqrt{3}l}{2}\\right)$. 取其法向量</p><p>$\\mathbf{n}=\\overrightarrow{BC}\\times\\overrightarrow{BB_1}=\\left(\\dfrac{3l^2}{4},\\dfrac{\\sqrt{3}l^2}{4},-\\dfrac{\\sqrt{3}l^2}{4}\\right)$. 因而</p><p>$\\lvert\\mathbf{d}\\rvert=l\\sqrt{\\dfrac{3}{2}}$，$\\lvert\\mathbf{n}\\rvert=\\dfrac{l^2\\sqrt{15}}4$，且 $\\lvert\\mathbf{d}\\cdot\\mathbf{n}\\rvert=\\dfrac{3l^3}{4}$. 设直线 $A_{1}C$ 与平面的夹角为 $\\varphi$，则</p><p>$\\sin\\varphi=\\dfrac{\\lvert\\mathbf{d}\\cdot\\mathbf{n}\\rvert}{\\lvert\\mathbf{d}\\rvert\\lvert\\mathbf{n}\\rvert}=\\dfrac{3\\frac{l^{3}}{4}}{l\\sqrt{\\frac{3}{2}}\\cdot l^2\\frac{\\sqrt{15}}{4}}=\\dfrac{2}{\\sqrt{10}}=\\dfrac{\\sqrt{10}}5$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>一批产品需要进行质量检验，检验方案是：先从这批产品中任取 $4$ 件作检验，这 $4$ 件产品中优质品的件数记为 $n$. 如果 $n = 3$，再从这批产品中任取 $4$ 件作检验，若都为优质品，则这批产品通过检验；如果 $n = 4$，再从这批产品中任取 $1$ 件作检验，若为优质品，则这批产品通过检验；其他情况下，这批产品都不能通过检验. 假设这批产品的优质品率为 $50\\%$. 即取出的产品是优质品的概率都为 $\\frac{1}{2}$，且各件产品是否为优质品相互独立.</p><ol class=\"enumerate\"><li><p>求这批产品通过检验的概率；</p></li><li><p>已知每件产品检验费用为 $100\\text{ 元}$，凡抽取的每件产品都需要检验，对这批产品作质量检验所需的费用记为 $X$（单位：元），求 $X$ 的分布列及数学期望.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记第一次抽取的优质品件数为 $n$. 由题意，$P(n=3)=\\mathrm{C}_{4}^{3}\\left(\\dfrac{1}{2}\\right)^{4}=\\dfrac{1}{4}$，$P(n=4)=\\left(\\dfrac{1}{2}\\right)^{4}=\\dfrac1{16}$. 当 $n=3$ 时，第二次抽取的 $4$ 件全为优质品的概率为 $\\left(\\dfrac{1}{2}\\right)^{4}=\\dfrac1{16}$；当 $n=4$ 时，再抽取 $1$ 件为优质品的概率为 $\\dfrac{1}{2}$. 因此通过检验的概率为</p><p>$P=\\dfrac{1}{4}\\cdot\\dfrac1{16}+\\dfrac1{16}\\cdot\\dfrac{1}{2}=\\dfrac1{64}+\\dfrac2{64}=\\dfrac3{64}$.</p></li><li><p>若 $n=0$，$1$，$2$，检验在第一次抽取后结束，共检验 $4$ 件，所以 $X=400$，其概率为</p><p>$P(X=400)=P(n\\leqslant2)=1-\\dfrac{1}{4}-\\dfrac1{16}=\\dfrac{11}{16}$. 若 $n=4$，还需检验 $1$ 件，所以 $X=500$，且 $P(X=500)=\\dfrac1{16}$. 若 $n=3$，还需检验 $4$ 件，所以 $X=800$，且 $P(X=800)=\\dfrac{1}{4}$.</p><p>故 $X$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> $400$ </td><td style=\"text-align: center\"> $500$ </td><td style=\"text-align: center\"> $800$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\dfrac{11}{16}$ </td><td style=\"text-align: center\"> $\\dfrac1{16}$ </td><td style=\"text-align: center\"> $\\dfrac{1}{4}$</td></tr></tbody></table></center><p></p><p>数学期望为 $E(X)=400\\cdot\\dfrac{11}{16}+500\\cdot\\dfrac1{16}+800\\cdot\\dfrac{1}{4}=506.25$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记第一次抽取的优质品件数为 $n$. 由题意，$P(n=3)=\\mathrm{C}_{4}^{3}\\left(\\dfrac{1}{2}\\right)^{4}=\\dfrac{1}{4}$，$P(n=4)=\\left(\\dfrac{1}{2}\\right)^{4}=\\dfrac1{16}$. 当 $n=3$ 时，第二次抽取的 $4$ 件全为优质品的概率为 $\\left(\\dfrac{1}{2}\\right)^{4}=\\dfrac1{16}$；当 $n=4$ 时，再抽取 $1$ 件为优质品的概率为 $\\dfrac{1}{2}$. 因此通过检验的概率为</p><p>$P=\\dfrac{1}{4}\\cdot\\dfrac1{16}+\\dfrac1{16}\\cdot\\dfrac{1}{2}=\\dfrac1{64}+\\dfrac2{64}=\\dfrac3{64}$.</p></li><li><p>若 $n=0$，$1$，$2$，检验在第一次抽取后结束，共检验 $4$ 件，所以 $X=400$，其概率为</p><p>$P(X=400)=P(n\\leqslant2)=1-\\dfrac{1}{4}-\\dfrac1{16}=\\dfrac{11}{16}$. 若 $n=4$，还需检验 $1$ 件，所以 $X=500$，且 $P(X=500)=\\dfrac1{16}$. 若 $n=3$，还需检验 $4$ 件，所以 $X=800$，且 $P(X=800)=\\dfrac{1}{4}$.</p><p>故 $X$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> $400$ </td><td style=\"text-align: center\"> $500$ </td><td style=\"text-align: center\"> $800$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$P$ </td><td style=\"text-align: center\"> $\\dfrac{11}{16}$ </td><td style=\"text-align: center\"> $\\dfrac1{16}$ </td><td style=\"text-align: center\"> $\\dfrac{1}{4}$</td></tr></tbody></table></center><p></p><p>数学期望为 $E(X)=400\\cdot\\dfrac{11}{16}+500\\cdot\\dfrac1{16}+800\\cdot\\dfrac{1}{4}=506.25$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知圆 $M: \\left(x + 1\\right)^{2} + y^{2} = 1$，圆 $N: \\left(x - 1\\right)^{2} + y^{2} = 9$，动圆 $P$ 与圆 $M$ 外切并与圆 $N$ 内切，圆心 $P$ 的轨迹为曲线 $C$.</p><ol class=\"enumerate\"><li><p>求 $C$ 的方程；</p></li><li><p>$l$ 是与圆 $P$，圆 $M$ 都相切的一条直线，$l$ 与曲线 $C$ 交于 $A$，$B$ 两点，当圆 $P$ 的半径最长时，求 $|AB|$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设圆 $P$ 的半径为 $r$，圆心坐标为 $P(x,y)$. 圆 $M$ 和圆 $N$ 的圆心分别为 $(-1,0)$ 和 $(1,0)$，半径分别为 $1$ 和 $3$. 由外切、内切条件，得</p><p>$\\sqrt{(x+1)^{2}+y^{2}}=r+1$，$\\sqrt{(x-1)^{2}+y^{2}}=3-r$. 两式相加可得</p><p>$\\sqrt{(x+1)^{2}+y^{2}}+\\sqrt{(x-1)^{2}+y^{2}}=4$，所以 $C$ 是以 $(-1,0)$，$(1,0)$ 为焦点、长轴长为 $4$ 的椭圆，即</p><p>$C:\\dfrac{x^2}{4}+\\dfrac{y^2}{3}=1$. 由 $r=\\sqrt{(x+1)^{2}+y^{2}}-1>0$，椭圆左端点 $(-2,0)$ 对应 $r=0$ 不表示圆，故 $x\\neq-2$.</p></li><li><p>由 $r=\\sqrt{(x+1)^{2}+y^{2}}-1$，并利用 $y^{2}=3-\\dfrac{3}{4}x^{2}$，得</p><p>$r+1=\\sqrt{(x+1)^{2}+y^{2}}=\\sqrt{\\dfrac{(x+4)^2}{4}}$. 椭圆上 $-2\\le x\\leqslant2$，所以 $r$ 在 $x=2$ 处取得最大值 $2$，此时圆 $P$ 的圆心为 $(2,0)$，半径为 $2$.</p><p>此时圆 $M$ 与圆 $P$ 的内公切线为 $x=0$，它与椭圆的交点为 $(0,\\sqrt{3})$，$(0,-\\sqrt{3})$，故 $|AB|=2\\sqrt{3}$.</p><p>其余两条公切线为外公切线. 设其中一条为 $y=mx+b$，记 $\\delta=\\sqrt{1+m^{2}}$. 两圆心在直线同侧时，点 $(-1,0)$ 和 $(2,0)$ 到直线的有向距离分别为半径 $1$ 和 $2$，故可取</p><p>$b-m=\\delta$，$b+2m=2\\delta$. 两式相减得 $3m=\\delta$，从而 $m^{2}=\\dfrac{1}{8}$，取其中一条直线可写为 $y=\\dfrac{x}{2\\sqrt{2}}+\\sqrt{2}$. 将其代入椭圆方程，得到</p><p>$\\dfrac{x^2}{4}+\\dfrac{\\left(\\dfrac{x}{2\\sqrt{2}}+\\sqrt{2}\\right)^2}{3}=1$，即 $7x^{2}+8x-8=0$. 两交点的横坐标之差为 $\\dfrac{12\\sqrt{2}}{7}$，而直线斜率的长度因子为 $\\sqrt{1+m^{2}}=\\dfrac{3}{2\\sqrt{2}}$，所以</p><p>$|AB|=\\dfrac{3}{2\\sqrt{2}}\\cdot\\dfrac{12\\sqrt{2}}{7}=\\dfrac{18}{7}$. 因而 $|AB|=2\\sqrt{3}$ 或 $\\dfrac{18}{7}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设圆 $P$ 的半径为 $r$，圆心坐标为 $P(x,y)$. 圆 $M$ 和圆 $N$ 的圆心分别为 $(-1,0)$ 和 $(1,0)$，半径分别为 $1$ 和 $3$. 由外切、内切条件，得</p><p>$\\sqrt{(x+1)^{2}+y^{2}}=r+1$，$\\sqrt{(x-1)^{2}+y^{2}}=3-r$. 两式相加可得</p><p>$\\sqrt{(x+1)^{2}+y^{2}}+\\sqrt{(x-1)^{2}+y^{2}}=4$，所以 $C$ 是以 $(-1,0)$，$(1,0)$ 为焦点、长轴长为 $4$ 的椭圆，即</p><p>$C:\\dfrac{x^2}{4}+\\dfrac{y^2}{3}=1$. 由 $r=\\sqrt{(x+1)^{2}+y^{2}}-1>0$，椭圆左端点 $(-2,0)$ 对应 $r=0$ 不表示圆，故 $x\\neq-2$.</p></li><li><p>由 $r=\\sqrt{(x+1)^{2}+y^{2}}-1$，并利用 $y^{2}=3-\\dfrac{3}{4}x^{2}$，得</p><p>$r+1=\\sqrt{(x+1)^{2}+y^{2}}=\\sqrt{\\dfrac{(x+4)^2}{4}}$. 椭圆上 $-2\\le x\\leqslant2$，所以 $r$ 在 $x=2$ 处取得最大值 $2$，此时圆 $P$ 的圆心为 $(2,0)$，半径为 $2$.</p><p>此时圆 $M$ 与圆 $P$ 的内公切线为 $x=0$，它与椭圆的交点为 $(0,\\sqrt{3})$，$(0,-\\sqrt{3})$，故 $|AB|=2\\sqrt{3}$.</p><p>其余两条公切线为外公切线. 设其中一条为 $y=mx+b$，记 $\\delta=\\sqrt{1+m^{2}}$. 两圆心在直线同侧时，点 $(-1,0)$ 和 $(2,0)$ 到直线的有向距离分别为半径 $1$ 和 $2$，故可取</p><p>$b-m=\\delta$，$b+2m=2\\delta$. 两式相减得 $3m=\\delta$，从而 $m^{2}=\\dfrac{1}{8}$，取其中一条直线可写为 $y=\\dfrac{x}{2\\sqrt{2}}+\\sqrt{2}$. 将其代入椭圆方程，得到</p><p>$\\dfrac{x^2}{4}+\\dfrac{\\left(\\dfrac{x}{2\\sqrt{2}}+\\sqrt{2}\\right)^2}{3}=1$，即 $7x^{2}+8x-8=0$. 两交点的横坐标之差为 $\\dfrac{12\\sqrt{2}}{7}$，而直线斜率的长度因子为 $\\sqrt{1+m^{2}}=\\dfrac{3}{2\\sqrt{2}}$，所以</p><p>$|AB|=\\dfrac{3}{2\\sqrt{2}}\\cdot\\dfrac{12\\sqrt{2}}{7}=\\dfrac{18}{7}$. 因而 $|AB|=2\\sqrt{3}$ 或 $\\dfrac{18}{7}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>设函数 $f(x) = x^{2} + ax + b$，$g(x) = \\mathrm{e}^{x}\\left(cx + d\\right)$，若曲线 $y = f(x)$ 和曲线 $y = g(x)$ 都过点 $P\\left(0,2\\right)$，且在点 $P$ 处有相同的切线 $y = 4x + 2$.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$，$c$，$d$ 的值；</p></li><li><p>若 $x \\ge -2$ 时，$f(x) \\le kg(x)$，求 $k$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $f(0)=2$，得 $b=2$. 又 $f'(x)=2x+a$，而点 $P$ 处切线斜率为 $4$，所以 $a=f'(0)=4$. 由 $g(0)=2$ 得 $d=2$. 又</p><p>$g'(x)=\\mathrm{e}^{x}(cx+d+c)$，故 $g'(0)=c+d=4$，从而 $c=2$. 因此 $a=4$，$b=2$，$c=2$，$d=2$.</p></li><li><p>代入所得系数，$f(x)=x^{2}+4x+2$，$g(x)=2\\mathrm{e}^{x}(x+1)$. 在 $x=-1$ 时，$f(-1)=-1$，$g(-1)=0$，所以不等式成立. 对 $x\\neq-1$，令</p><p>$R(x)=\\dfrac{f(x)}{g(x)}=\\dfrac{\\mathrm{e}^{-x}}2\\left(x+3-\\dfrac1{x+1}\\right)$.</p><p>当 $-2\\le x<-1$ 时，$g(x)<0$，不等式 $f(x)\\le kg(x)$ 等价于 $k\\le R(x)$. 求导得</p><p>$R'(x)=\\dfrac{\\mathrm{e}^{-x}}2\\dfrac{(x+2)^2(-x)}{(x+1)^2}\\geqslant0$，所以 $R(x)$ 在 $[-2,-1)$ 上递增，且 $R(-2)=\\mathrm{e}^{2}$，从而此区间要求 $k\\le\\mathrm{e}^{2}$.</p><p>当 $x>-1$ 时，$g(x)>0$，不等式等价于 $k\\ge R(x)$. 同样由导数符号知 $R(x)$ 在 $(-1,0)$ 上递增，在 $(0,+\\infty)$ 上递减，所以最大值为 $R(0)=1$，从而要求 $k\\geqslant1$. 综合得 $k\\in[1,\\mathrm{e}^{2}]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $f(0)=2$，得 $b=2$. 又 $f'(x)=2x+a$，而点 $P$ 处切线斜率为 $4$，所以 $a=f'(0)=4$. 由 $g(0)=2$ 得 $d=2$. 又</p><p>$g'(x)=\\mathrm{e}^{x}(cx+d+c)$，故 $g'(0)=c+d=4$，从而 $c=2$. 因此 $a=4$，$b=2$，$c=2$，$d=2$.</p></li><li><p>代入所得系数，$f(x)=x^{2}+4x+2$，$g(x)=2\\mathrm{e}^{x}(x+1)$. 在 $x=-1$ 时，$f(-1)=-1$，$g(-1)=0$，所以不等式成立. 对 $x\\neq-1$，令</p><p>$R(x)=\\dfrac{f(x)}{g(x)}=\\dfrac{\\mathrm{e}^{-x}}2\\left(x+3-\\dfrac1{x+1}\\right)$.</p><p>当 $-2\\le x<-1$ 时，$g(x)<0$，不等式 $f(x)\\le kg(x)$ 等价于 $k\\le R(x)$. 求导得</p><p>$R'(x)=\\dfrac{\\mathrm{e}^{-x}}2\\dfrac{(x+2)^2(-x)}{(x+1)^2}\\geqslant0$，所以 $R(x)$ 在 $[-2,-1)$ 上递增，且 $R(-2)=\\mathrm{e}^{2}$，从而此区间要求 $k\\le\\mathrm{e}^{2}$.</p><p>当 $x>-1$ 时，$g(x)>0$，不等式等价于 $k\\ge R(x)$. 同样由导数符号知 $R(x)$ 在 $(-1,0)$ 上递增，在 $(0,+\\infty)$ 上递减，所以最大值为 $R(0)=1$，从而要求 $k\\geqslant1$. 综合得 $k\\in[1,\\mathrm{e}^{2}]$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
-          "body": "<p>如图，直线 $AB$ 为圆的切线，切点为 $B$，点 $C$ 在圆上，$\\angle ABC$ 的角平分线 $BE$ 交圆于点 $E$，$DB$ 垂直 $BE$ 交圆于 $D$.</p><ol class=\"enumerate\"><li><p>证明： $DB = DC$；</p></li><li><p>设圆的半径为 $1$，$BC = \\sqrt{3}$，延长 $CE$ 交 $AB$ 于点 $F$，求 $\\triangle BCF$ 外接圆的半径.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，直线 $AB$ 为圆的切线，切点为 $B$，点 $C$ 在圆上，$\\angle ABC$ 的角平分线 $BE$ 交圆于点 $E$，$DB$ 垂直 $BE$ 交圆于 $D$.</p><ol class=\"enumerate\"><li><p>证明： $DB = DC$；</p></li><li><p>设圆的半径为 $1$，$BC = \\sqrt{3}$，延长 $CE$ 交 $AB$ 于点 $F$，求 $\\triangle BCF$ 外接圆的半径.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/new_curriculum_paper_1_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由弦切角定理，$\\angle ABE=\\angle BCE$；又因为 $BE$ 平分 $\\angle ABC$，所以 $\\angle ABE=\\angle EBC$. 因而 $\\angle BCE=\\angle EBC$，从而 $BE=CE$. 由于 $DB\\perp BE$，有 $\\angle DBE=90^{\\circ}$，所以 $DE$ 是圆的直径，进而 $\\angle DCE=90^{\\circ}$. 在直角三角形 $DBE$ 和 $DCE$ 中，它们有公共斜边 $DE$，且 $BE=CE$，故两三角形全等，从而 $DB=DC$.</p></li><li><p>建立直角坐标系，使 $B=(0,0)$，直线 $AB$ 为 $x$ 轴正半轴，圆心为 $O=(0,1)$. 因圆的半径为 $1$，圆的方程为 $x^{2}+(y-1)^{2}=1$. 由 $BC=\\sqrt{3}$ 及 $C$ 在圆上，得 $x_{C}^{2}+y_{C}^{2}=3$ 且 $x_{C}^{2}+(y_{C}-1)^{2}=1$，两式相减得 $y_{C}=\\dfrac{3}{2}$；按图取 $C=\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{3}{2}\\right)$，所以 $\\angle ABC=60^{\\circ}$.</p><p>射线 $BE$ 是 $\\angle ABC$ 的角平分线，所以可取其方向向量为 $\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{1}{2}\\right)$. 令 $E=t\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{1}{2}\\right)$，代入圆方程 $x^{2}+y^{2}-2y=0$，得 $t^{2}-t=0$. 除去 $t=0$ 对应的 $B$，有 $t=1$，故 $E=\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{1}{2}\\right)$.</p><p>直线 $DB\\perp BE$，可取其方向向量为 $\\left(-\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2}\\right)$. 令 $D=t\\left(-\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2}\\right)$，代入圆方程得 $t^{2}-\\sqrt{3}t=0$. 除去 $t=0$ 后 $t=\\sqrt{3}$，所以 $D=\\left(-\\dfrac{\\sqrt{3}}{2},\\dfrac{3}{2}\\right)$. 于是 $DB=\\sqrt{3}$，且</p><p>$DC=\\sqrt{\\left(\\sqrt{3}\\right)^{2}+0^{2}}=\\sqrt{3}$，故 $DB=DC$.</p><p>由 $C$ 与 $E$ 的横坐标相同，直线 $CE$ 为 $x=\\dfrac{\\sqrt{3}}{2}$，它与 $AB$ 的交点为 $F=\\left(\\dfrac{\\sqrt{3}}{2},0\\right)$. 因此 $BF=\\dfrac{\\sqrt{3}}{2}$，$CF=\\dfrac{3}{2}$，且 $\\angle BFC=90^{\\circ}$. 三角形 $BCF$ 的斜边为 $BC=\\sqrt{3}$，所以其外接圆半径为斜边的一半，即 $\\dfrac{\\sqrt{3}}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由弦切角定理，$\\angle ABE=\\angle BCE$；又因为 $BE$ 平分 $\\angle ABC$，所以 $\\angle ABE=\\angle EBC$. 因而 $\\angle BCE=\\angle EBC$，从而 $BE=CE$. 由于 $DB\\perp BE$，有 $\\angle DBE=90^{\\circ}$，所以 $DE$ 是圆的直径，进而 $\\angle DCE=90^{\\circ}$. 在直角三角形 $DBE$ 和 $DCE$ 中，它们有公共斜边 $DE$，且 $BE=CE$，故两三角形全等，从而 $DB=DC$.</p></li><li><p>建立直角坐标系，使 $B=(0,0)$，直线 $AB$ 为 $x$ 轴正半轴，圆心为 $O=(0,1)$. 因圆的半径为 $1$，圆的方程为 $x^{2}+(y-1)^{2}=1$. 由 $BC=\\sqrt{3}$ 及 $C$ 在圆上，得 $x_{C}^{2}+y_{C}^{2}=3$ 且 $x_{C}^{2}+(y_{C}-1)^{2}=1$，两式相减得 $y_{C}=\\dfrac{3}{2}$；按图取 $C=\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{3}{2}\\right)$，所以 $\\angle ABC=60^{\\circ}$.</p><p>射线 $BE$ 是 $\\angle ABC$ 的角平分线，所以可取其方向向量为 $\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{1}{2}\\right)$. 令 $E=t\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{1}{2}\\right)$，代入圆方程 $x^{2}+y^{2}-2y=0$，得 $t^{2}-t=0$. 除去 $t=0$ 对应的 $B$，有 $t=1$，故 $E=\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{1}{2}\\right)$.</p><p>直线 $DB\\perp BE$，可取其方向向量为 $\\left(-\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2}\\right)$. 令 $D=t\\left(-\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2}\\right)$，代入圆方程得 $t^{2}-\\sqrt{3}t=0$. 除去 $t=0$ 后 $t=\\sqrt{3}$，所以 $D=\\left(-\\dfrac{\\sqrt{3}}{2},\\dfrac{3}{2}\\right)$. 于是 $DB=\\sqrt{3}$，且</p><p>$DC=\\sqrt{\\left(\\sqrt{3}\\right)^{2}+0^{2}}=\\sqrt{3}$，故 $DB=DC$.</p><p>由 $C$ 与 $E$ 的横坐标相同，直线 $CE$ 为 $x=\\dfrac{\\sqrt{3}}{2}$，它与 $AB$ 的交点为 $F=\\left(\\dfrac{\\sqrt{3}}{2},0\\right)$. 因此 $BF=\\dfrac{\\sqrt{3}}{2}$，$CF=\\dfrac{3}{2}$，且 $\\angle BFC=90^{\\circ}$. 三角形 $BCF$ 的斜边为 $BC=\\sqrt{3}$，所以其外接圆半径为斜边的一半，即 $\\dfrac{\\sqrt{3}}{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "<p>已知曲线 $C_{1}$ 的参数方程为 $\\begin{cases}x = 4 + 5\\cos t,\\\\\n\ny = 5 + 5\\sin t,\\end{cases}$ （$t$ 为参数），以坐标原点为极点，$x$ 轴的正半轴为极轴建立极坐标系. 曲线 $C_{2}$ 的极坐标方程为 $\\rho = 2\\sin \\theta$.</p><ol class=\"enumerate\"><li><p>把 $C_{1}$ 的参数方程化为极坐标方程；</p></li><li><p>求 $C_{1}$ 与 $C_{2}$ 交点的极坐标 （$\\rho \\ge 0, 0 \\le \\theta < 2\\pi$）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由参数方程知 $C_{1}$ 是圆 $(x-4)^{2}+(y-5)^{2}=25$. 代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得</p><p>$\\rho^{2}-8\\rho\\cos\\theta-10\\rho\\sin\\theta+16=0$.</p></li><li><p>将 $\\rho=2\\sin\\theta$ 代入上式，得</p><p>$4\\sin^{2}\\theta-16\\sin\\theta\\cos\\theta-20\\sin^{2}\\theta+16=0$，即</p><p>$1-\\sin^{2}\\theta-\\sin\\theta\\cos\\theta=0$. 化简为</p><p>$\\cos\\theta(\\cos\\theta-\\sin\\theta)=0$.</p><p>因为 $\\rho\\geqslant0$ 且 $\\rho=2\\sin\\theta$，所以 $\\sin\\theta\\geqslant0$，在 $0\\le\\theta<2\\pi$ 内有 $0\\le\\theta\\le\\pi$. 当 $\\cos\\theta=0$ 时，$\\theta=\\dfrac\\pi2$，$\\rho=2$；当 $\\cos\\theta=\\sin\\theta$ 时，$\\theta=\\dfrac\\pi4$，$\\rho=\\sqrt{2}$. 因此交点的极坐标为 $\\left(\\sqrt{2},\\dfrac\\pi4\\right)$ 和 $\\left(2,\\dfrac\\pi2\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由参数方程知 $C_{1}$ 是圆 $(x-4)^{2}+(y-5)^{2}=25$. 代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得</p><p>$\\rho^{2}-8\\rho\\cos\\theta-10\\rho\\sin\\theta+16=0$.</p></li><li><p>将 $\\rho=2\\sin\\theta$ 代入上式，得</p><p>$4\\sin^{2}\\theta-16\\sin\\theta\\cos\\theta-20\\sin^{2}\\theta+16=0$，即</p><p>$1-\\sin^{2}\\theta-\\sin\\theta\\cos\\theta=0$. 化简为</p><p>$\\cos\\theta(\\cos\\theta-\\sin\\theta)=0$.</p><p>因为 $\\rho\\geqslant0$ 且 $\\rho=2\\sin\\theta$，所以 $\\sin\\theta\\geqslant0$，在 $0\\le\\theta<2\\pi$ 内有 $0\\le\\theta\\le\\pi$. 当 $\\cos\\theta=0$ 时，$\\theta=\\dfrac\\pi2$，$\\rho=2$；当 $\\cos\\theta=\\sin\\theta$ 时，$\\theta=\\dfrac\\pi4$，$\\rho=\\sqrt{2}$. 因此交点的极坐标为 $\\left(\\sqrt{2},\\dfrac\\pi4\\right)$ 和 $\\left(2,\\dfrac\\pi2\\right)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 24,
           "body": "<p>已知函数 $f(x) = |2x - 1| + |2x + a|$，$g(x) = x + 3$.</p><ol class=\"enumerate\"><li><p>当 $a = -2$ 时，求不等式 $f(x) < g(x)$ 的解集；</p></li><li><p>设 $a > -1$，且当 $x \\in \\left[-\\frac{a}{2}, \\frac{1}{2}\\right]$ 时，$f(x) \\le g(x)$，求 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=-2$ 时，$f(x)=|2x-1|+|2x-2|$. 分 $x<\\dfrac{1}{2}$、$\\dfrac{1}{2}\\le x<1$、$x\\geqslant1$ 三种情况讨论：</p><p>$x<\\dfrac{1}{2}$ 时，$f(x)=3-4x$，由 $f(x)<x+3$ 得 $x>0$，所以得到 $(0,\\dfrac{1}{2})$；</p><p>$\\dfrac{1}{2}\\le x<1$ 时，$f(x)=1$，不等式恒成立，所以得到 $[\\dfrac{1}{2},1)$；</p><p>$x\\geqslant1$ 时，$f(x)=4x-3$，由 $f(x)<x+3$ 得 $x<2$，所以得到 $[1,2)$. 合并得解集为 $(0,2)$.</p></li><li><p>因为 $a>-1$，所以 $-\\dfrac{a}{2}<\\dfrac{1}{2}$. 当 $x\\in[-\\dfrac{a}{2},\\dfrac{1}{2}]$ 时，$2x-1\\leqslant0$，$2x+a\\geqslant0$，故</p><p>$f(x)=1-2x+2x+a=a+1$. 要使 $f(x)\\le g(x)=x+3$ 对该区间内所有 $x$ 成立，只需在左端点检验：</p><p>$a+1\\leqslant3-\\dfrac{a}{2}$，即 $a\\le\\dfrac{4}{3}$. 与 $a>-1$ 合并，得 $a\\in\\left(-1,\\dfrac{4}{3}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=-2$ 时，$f(x)=|2x-1|+|2x-2|$. 分 $x<\\dfrac{1}{2}$、$\\dfrac{1}{2}\\le x<1$、$x\\geqslant1$ 三种情况讨论：</p><p>$x<\\dfrac{1}{2}$ 时，$f(x)=3-4x$，由 $f(x)<x+3$ 得 $x>0$，所以得到 $(0,\\dfrac{1}{2})$；</p><p>$\\dfrac{1}{2}\\le x<1$ 时，$f(x)=1$，不等式恒成立，所以得到 $[\\dfrac{1}{2},1)$；</p><p>$x\\geqslant1$ 时，$f(x)=4x-3$，由 $f(x)<x+3$ 得 $x<2$，所以得到 $[1,2)$. 合并得解集为 $(0,2)$.</p></li><li><p>因为 $a>-1$，所以 $-\\dfrac{a}{2}<\\dfrac{1}{2}$. 当 $x\\in[-\\dfrac{a}{2},\\dfrac{1}{2}]$ 时，$2x-1\\leqslant0$，$2x+a\\geqslant0$，故</p><p>$f(x)=1-2x+2x+a=a+1$. 要使 $f(x)\\le g(x)=x+3$ 对该区间内所有 $x$ 成立，只需在左端点检验：</p><p>$a+1\\leqslant3-\\dfrac{a}{2}$，即 $a\\le\\dfrac{4}{3}$. 与 $a>-1$ 合并，得 $a\\in\\left(-1,\\dfrac{4}{3}\\right]$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

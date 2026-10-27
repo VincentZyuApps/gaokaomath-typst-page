@@ -1,8 +1,137 @@
 {
-  "title": "2014年普通高等学校招生全国统一考试",
-  "subtitle": "2014年重庆卷（文）",
   "year": "2014",
   "slug": "chongqing_liberal",
+  "title": "2014年重庆卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +146,9 @@
             "第四象限"
           ],
           "answer": "B",
-          "solution": "该复数为 $z=-2+\\mathrm{i}$，所以它在复平面内对应的点为 $(-2,1)$. 实部为负、虚部为正，故该点位于第二象限，选 B."
+          "solution": "该复数为 $z=-2+\\mathrm{i}$，所以它在复平面内对应的点为 $(-2,1)$. 实部为负、虚部为正，故该点位于第二象限，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +160,9 @@
             "14"
           ],
           "answer": "B",
-          "solution": "<p>设等差数列的公差为 $d$，则 $a_{n}=2+(n-1)d$. 由题意，</p>\n$$\na_{3}+a_{5}=(2+2d)+(2+4d)=4+6d=10\n$$\n<p>解得 $d=1$，所以 $a_{7}=2+6d=8$，选 B.</p>"
+          "solution": "<p>设等差数列的公差为 $d$，则 $a_{n}=2+(n-1)d$. 由题意，</p>\n$$\na_{3}+a_{5}=(2+2d)+(2+4d)=4+6d=10\n$$\n<p>解得 $d=1$，所以 $a_{7}=2+6d=8$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +174,9 @@
             "250"
           ],
           "answer": "A",
-          "solution": "<p>全校学生人数为 $3500+1500=5000$，高中生所占比例为 $\\frac{3500}{5000}=\\frac{7}{10}$. 分层抽样保持抽取比例相同，因此</p>\n$$\n\\frac{70}{n}=\\frac{7}{10}\n$$\n<p>解得 $n=100$，选 A.</p>"
+          "solution": "<p>全校学生人数为 $3500+1500=5000$，高中生所占比例为 $\\frac{3500}{5000}=\\frac{7}{10}$. 分层抽样保持抽取比例相同，因此</p>\n$$\n\\frac{70}{n}=\\frac{7}{10}\n$$\n<p>解得 $n=100$，选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,11 +188,13 @@
             "$f(x) = 2^{x}+ 2^{-x}$"
           ],
           "answer": "D",
-          "solution": "<p>逐项检验偶函数条件 $f(-x)=f(x)$. 取 $x=1$，前三个函数分别有</p><p>$f(1)=0\\ne f(-1)=-2$，$f(1)=2\\ne f(-1)=0$，$f(1)=2-\\frac{1}{2}\\ne f(-1)=\\frac{1}{2}-2$，</p><p>因此前三项都不是偶函数. 对第四个函数，</p>\n$$\nf(-x)=2^{-x}+2^{x}=2^{x}+2^{-x}=f(x)\n$$\n<p>所以第四个函数是偶函数，选 D.</p>"
+          "solution": "<p>逐项检验偶函数条件 $f(-x)=f(x)$. 取 $x=1$，前三个函数分别有</p><p>$f(1)=0\\ne f(-1)=-2$，$f(1)=2\\ne f(-1)=0$，$f(1)=2-\\frac{1}{2}\\ne f(-1)=\\frac{1}{2}-2$，</p><p>因此前三项都不是偶函数. 对第四个函数，</p>\n$$\nf(-x)=2^{-x}+2^{x}=2^{x}+2^{-x}=f(x)\n$$\n<p>所以第四个函数是偶函数，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
-          "body": "<p>执行如图所示的程序框图，则输出 $s$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_liberal/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>执行如图所示的程序框图，则输出 $s$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/chongqing_liberal/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "10",
             "17",
@@ -65,7 +202,9 @@
             "36"
           ],
           "answer": "C",
-          "solution": "<p>按流程执行，初始 $k=2$，$s=0$. 每次满足 $k<10$ 时先把当前的 $k$ 加入 $s$，再令 $k=2k-1$：</p>\n$$\n(k,s):(2,0)\\to(3,2)\\to(5,5)\\to(9,10)\\to(17,19)\n$$\n<p>此时 $k=17$，不再满足 $k<10$，而题干要求输出的是 $s$，故输出 $s=19$，选 C.</p>"
+          "solution": "<p>按流程执行，初始 $k=2$，$s=0$. 每次满足 $k<10$ 时先把当前的 $k$ 加入 $s$，再令 $k=2k-1$：</p>\n$$\n(k,s):(2,0)\\to(3,2)\\to(5,5)\\to(9,10)\\to(17,19)\n$$\n<p>此时 $k=17$，不再满足 $k<10$，而题干要求输出的是 $s$，故输出 $s=19$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,11 +216,13 @@
             "$p \\wedge q$"
           ],
           "answer": "A",
-          "solution": "对任意实数 $x$，均有 $|x|\\geqslant0$，所以命题 $p$ 为真. 将 $x=1$ 代入方程 $x+2=0$ 得 $3\\ne0$，故 $q$ 为假，$\\neg q$ 为真. 因此 $p\\wedge\\neg q$ 为真，选 A."
+          "solution": "对任意实数 $x$，均有 $|x|\\geqslant0$，所以命题 $p$ 为真. 将 $x=1$ 代入方程 $x+2=0$ 得 $3\\ne0$，故 $q$ 为假，$\\neg q$ 为真. 因此 $p\\wedge\\neg q$ 为真，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
-          "body": "<p>某几何体的三视图如图所示，则该几何体的体积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>某几何体的三视图如图所示，则该几何体的体积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/chongqing_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "12",
             "18",
@@ -89,7 +230,9 @@
             "30"
           ],
           "answer": "C",
-          "solution": "<p>由三视图可还原出：俯视图的底面是直角三角形，直角边长分别为 $4$ 和 $3$，几何体在较低处的高度为 $2$，在直角三角形的一条长为 $3$ 的直角边上方的高度为 $5$.</p><p>先把高度为 $2$ 的部分看作三棱柱，其体积为</p>\n$$\nV_{1}=\\frac{1}{2}\\cdot4\\cdot3\\cdot2=12\n$$\n<p>剩余部分是以俯视图中长为 $3$ 的直角边对应的竖直矩形为底的棱锥. 这个矩形的两条边长分别为 $3$ 与 $5-2=3$，棱锥顶点对应俯视图中的另一个顶点. 该棱锥的高等于俯视图中从该顶点到长为 $3$ 的直角边的距离，即 $4$，所以</p>\n$$\nV_{2}=\\frac{1}{3}\\cdot(3\\cdot3)\\cdot4=12\n$$\n<p>故几何体的体积为 $V=V_{1}+V_{2}=24$，选 C.</p>"
+          "solution": "<p>由三视图可还原出：俯视图的底面是直角三角形，直角边长分别为 $4$ 和 $3$，几何体在较低处的高度为 $2$，在直角三角形的一条长为 $3$ 的直角边上方的高度为 $5$.</p><p>先把高度为 $2$ 的部分看作三棱柱，其体积为</p>\n$$\nV_{1}=\\frac{1}{2}\\cdot4\\cdot3\\cdot2=12\n$$\n<p>剩余部分是以俯视图中长为 $3$ 的直角边对应的竖直矩形为底的棱锥. 这个矩形的两条边长分别为 $3$ 与 $5-2=3$，棱锥顶点对应俯视图中的另一个顶点. 该棱锥的高等于俯视图中从该顶点到长为 $3$ 的直角边的距离，即 $4$，所以</p>\n$$\nV_{2}=\\frac{1}{3}\\cdot(3\\cdot3)\\cdot4=12\n$$\n<p>故几何体的体积为 $V=V_{1}+V_{2}=24$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +244,9 @@
             "$\\sqrt{17}$"
           ],
           "answer": "D",
-          "solution": "<p>双曲线的焦距为 $2c$，对双曲线上任一点 $P$，两焦点距离之差的绝对值恒为 $2a$，故</p>\n$$\n(|PF_{1}|-|PF_{2}|)^{2}=(2a)^{2}=4a^{2}\n$$\n<p>由题设 $b^{2}-3ab=4a^{2}$. 因 $a>0$，$b>0$，令 $t=\\frac{b}{a}>0$，得</p><p>$t^{2}-3t-4=0$，$(t-4)(t+1)=0$，</p><p>所以 $t=4$，即 $b=4a$. 由 $c^{2}=a^{2}+b^{2}$，双曲线的离心率为</p>\n$$\ne=\\frac{c}{a}=\\sqrt{1+\\frac{b^{2}}{a^{2}}}=\\sqrt{17}\n$$\n<p>选 D.</p>"
+          "solution": "<p>双曲线的焦距为 $2c$，对双曲线上任一点 $P$，两焦点距离之差的绝对值恒为 $2a$，故</p>\n$$\n(|PF_{1}|-|PF_{2}|)^{2}=(2a)^{2}=4a^{2}\n$$\n<p>由题设 $b^{2}-3ab=4a^{2}$. 因 $a>0$，$b>0$，令 $t=\\frac{b}{a}>0$，得</p><p>$t^{2}-3t-4=0$，$(t-4)(t+1)=0$，</p><p>所以 $t=4$，即 $b=4a$. 由 $c^{2}=a^{2}+b^{2}$，双曲线的离心率为</p>\n$$\ne=\\frac{c}{a}=\\sqrt{1+\\frac{b^{2}}{a^{2}}}=\\sqrt{17}\n$$\n<p>选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +258,9 @@
             "$7 + 4\\sqrt{3}$"
           ],
           "answer": "D",
-          "solution": "<p>由对数的定义域，需有 $ab>0$ 且 $3a+4b>0$. 两式相等且底数均为 $2$ 的幂，化为</p>\n$$\n\\frac{1}{2}\\log_{2}(3a+4b)=\\frac{1}{2}\\log_{2}(ab)\n$$\n<p>所以 $ab=3a+4b$. 因 $ab>0$ 且 $3a+4b>0$，不能有 $a$，$b$ 同为负数，故 $a$，$b>0$. 由</p>\n$$\nb(a-4)=3a>0\n$$\n<p>知 $a>4$. 令 $x=a-4>0$，则</p><p>$b=3+\\frac{12}{x}$，$a+b=7+x+\\frac{12}{x}\\geqslant7+2\\sqrt{12}=7+4\\sqrt{3}$.</p><p>等号在 $x=2\\sqrt{3}$ 时取得，故最小值为 $7+4\\sqrt{3}$，选 D.</p>"
+          "solution": "<p>由对数的定义域，需有 $ab>0$ 且 $3a+4b>0$. 两式相等且底数均为 $2$ 的幂，化为</p>\n$$\n\\frac{1}{2}\\log_{2}(3a+4b)=\\frac{1}{2}\\log_{2}(ab)\n$$\n<p>所以 $ab=3a+4b$. 因 $ab>0$ 且 $3a+4b>0$，不能有 $a$，$b$ 同为负数，故 $a$，$b>0$. 由</p>\n$$\nb(a-4)=3a>0\n$$\n<p>知 $a>4$. 令 $x=a-4>0$，则</p><p>$b=3+\\frac{12}{x}$，$a+b=7+x+\\frac{12}{x}\\geqslant7+2\\sqrt{12}=7+4\\sqrt{3}$.</p><p>等号在 $x=2\\sqrt{3}$ 时取得，故最小值为 $7+4\\sqrt{3}$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +272,9 @@
             "$\\left(-\\frac{11}{4}, -2\\right] \\cup \\left(0, \\frac{2}{3}\\right]$"
           ],
           "answer": "A",
-          "solution": "<p>当 $x\\in(-1,0]$ 时，令 $t=x+1$，则 $t\\in(0,1]$，且</p>\n$$\ng(x)=\\frac{1}{x+1}-3-m(x+1)=\\frac{1}{t}-3-mt\n$$\n<p>因此左段零点对应于</p><p>$m=\\frac{1-3t}{t^{2}}=:h(t)$，$t\\in(0,1]$.</p><p>有</p>\n$$\nh'(t)=\\frac{3t-2}{t^{3}}\n$$\n<p>所以 $h(t)$ 在 $(0,\\frac{2}{3})$ 上递减，在 $(\\frac{2}{3},1]$ 上递增，且</p><p>$h\\left(\\frac{2}{3}\\right)=-\\frac{9}{4}$，$h(1)=-2$.</p><p>由上述单调性和端点值可知：当 $m\\in(-\\frac{9}{4},-2]$ 时，左段有两个零点；当 $m=-\\frac{9}{4}$ 时有一个零点；当 $m<-\\frac{9}{4}$ 时没有零点；当 $m>-2$ 时有一个零点.</p><p>当 $x\\in(0,1]$ 时，$f(x)=x$，故</p>\n$$\ng(x)=(1-m)x-m\n$$\n<p>其零点为 $x=\\frac{m}{1-m}$. 要求 $0<x\\leqslant1$，得到 $0<m\\le\\frac{1}{2}$，此时右段恰有一个零点；左段也恰有一个零点. 因此总共有两个不同零点时</p>\n$$\nm\\in\\left(-\\frac{9}{4},-2\\right]\\cup\\left(0,\\frac{1}{2}\\right]\n$$\n<p>选 A.</p>"
+          "solution": "<p>当 $x\\in(-1,0]$ 时，令 $t=x+1$，则 $t\\in(0,1]$，且</p>\n$$\ng(x)=\\frac{1}{x+1}-3-m(x+1)=\\frac{1}{t}-3-mt\n$$\n<p>因此左段零点对应于</p><p>$m=\\frac{1-3t}{t^{2}}=:h(t)$，$t\\in(0,1]$.</p><p>有</p>\n$$\nh'(t)=\\frac{3t-2}{t^{3}}\n$$\n<p>所以 $h(t)$ 在 $(0,\\frac{2}{3})$ 上递减，在 $(\\frac{2}{3},1]$ 上递增，且</p><p>$h\\left(\\frac{2}{3}\\right)=-\\frac{9}{4}$，$h(1)=-2$.</p><p>由上述单调性和端点值可知：当 $m\\in(-\\frac{9}{4},-2]$ 时，左段有两个零点；当 $m=-\\frac{9}{4}$ 时有一个零点；当 $m<-\\frac{9}{4}$ 时没有零点；当 $m>-2$ 时有一个零点.</p><p>当 $x\\in(0,1]$ 时，$f(x)=x$，故</p>\n$$\ng(x)=(1-m)x-m\n$$\n<p>其零点为 $x=\\frac{m}{1-m}$. 要求 $0<x\\leqslant1$，得到 $0<m\\le\\frac{1}{2}$，此时右段恰有一个零点；左段也恰有一个零点. 因此总共有两个不同零点时</p>\n$$\nm\\in\\left(-\\frac{9}{4},-2\\right]\\cup\\left(0,\\frac{1}{2}\\right]\n$$\n<p>选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,37 +284,47 @@
         {
           "num": 11,
           "body": "已知集合 $A = \\{3, 4, 5, 12, 13\\}$，$B = \\{2, 3, 5, 8, 13\\}$，则 $A \\cap B =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\{3,5,13\\}$",
-          "solution": "交集由同时属于 $A$ 和 $B$ 的元素组成. 逐项比较可得公共元素为 $3$，$5$，$13$，所以 $A\\cap B=\\{3,5,13\\}$."
+          "choices": [],
+          "answer": "\\(\\{3,5,13\\}\\)",
+          "solution": "交集由同时属于 $A$ 和 $B$ 的元素组成. 逐项比较可得公共元素为 $3$，$5$，$13$，所以 $A\\cap B=\\{3,5,13\\}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "已知向量 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $60^{\\circ}$，且 $\\mathbf{a}= (-2, -6)$，$|\\mathbf{b}| = \\sqrt{10}$，则 $\\mathbf{a}\\cdot \\mathbf{b}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "10",
-          "solution": "<p>由数量积公式</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}|\\,|\\mathbf{b}|\\cos60^{\\circ}\n$$\n<p>又 $|\\mathbf{a}|=\\sqrt{(-2)^{2}+(-6)^{2}}=2\\sqrt{10}$，所以</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=2\\sqrt{10}\\cdot\\sqrt{10}\\cdot\\frac{1}{2}=10\n$$"
+          "solution": "<p>由数量积公式</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}|\\,|\\mathbf{b}|\\cos60^{\\circ}\n$$\n<p>又 $|\\mathbf{a}|=\\sqrt{(-2)^{2}+(-6)^{2}}=2\\sqrt{10}$，所以</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=2\\sqrt{10}\\cdot\\sqrt{10}\\cdot\\frac{1}{2}=10\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "将函数 $f(x) = \\sin (\\omega x + \\varphi)$（$\\omega > 0$，$-\\frac{\\pi}{2}\\le \\varphi < \\frac{\\pi}{2}$）图象上每一点的横坐标缩短为原来的一半，纵坐标不变，再向右平移 $\\frac{\\pi}{6}$ 个单位长度得到 $y = \\sin x$ 的图象，则 $f\\left(\\frac{\\pi}{6}\\right) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{\\sqrt{2}}{2}$",
-          "solution": "<p>横坐标缩短为原来的一半后，函数图象变为 $y=\\sin(2\\omega x+\\varphi)$；再向右平移 $\\frac{\\pi}{6}$，得到</p>\n$$\ny=\\sin\\left(2\\omega\\left(x-\\frac{\\pi}{6}\\right)+\\varphi\\right)\n$$\n<p>它与 $y=\\sin x$ 的图象相同，因此 $2\\omega=1$，且</p>\n$$\n\\varphi-\\frac{\\pi}{6}=2k\\pi\n$$\n<p>由 $-\\frac{\\pi}{2}\\le\\varphi<\\frac{\\pi}{2}$ 可知只能取 $k=0$，从而 $\\omega=\\frac{1}{2}$，$\\varphi=\\frac{\\pi}{6}$. 于是</p>\n$$\nf\\left(\\frac{\\pi}{6}\\right)=\\sin\\left(\\frac{1}{2}\\cdot\\frac{\\pi}{6}+\\frac{\\pi}{6}\\right)=\\sin\\frac{\\pi}{4}=\\frac{\\sqrt{2}}{2}\n$$"
+          "choices": [],
+          "answer": "\\(\\frac{\\sqrt{2}}{2}\\)",
+          "solution": "<p>横坐标缩短为原来的一半后，函数图象变为 $y=\\sin(2\\omega x+\\varphi)$；再向右平移 $\\frac{\\pi}{6}$，得到</p>\n$$\ny=\\sin\\left(2\\omega\\left(x-\\frac{\\pi}{6}\\right)+\\varphi\\right)\n$$\n<p>它与 $y=\\sin x$ 的图象相同，因此 $2\\omega=1$，且</p>\n$$\n\\varphi-\\frac{\\pi}{6}=2k\\pi\n$$\n<p>由 $-\\frac{\\pi}{2}\\le\\varphi<\\frac{\\pi}{2}$ 可知只能取 $k=0$，从而 $\\omega=\\frac{1}{2}$，$\\varphi=\\frac{\\pi}{6}$. 于是</p>\n$$\nf\\left(\\frac{\\pi}{6}\\right)=\\sin\\left(\\frac{1}{2}\\cdot\\frac{\\pi}{6}+\\frac{\\pi}{6}\\right)=\\sin\\frac{\\pi}{4}=\\frac{\\sqrt{2}}{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知直线 $x - y + a = 0$ 与圆心为 $C$ 的圆 $x^{2}+ y^{2}+ 2x - 4y - 4 = 0$ 相交于 $A$，$B$ 两点，且 $AC \\perp BC$，则实数 $a$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$0$ 或 $6$",
-          "solution": "<p>将圆方程配方得</p>\n$$\n(x+1)^{2}+(y-2)^{2}=9\n$$\n<p>所以圆心 $C=(-1,2)$，半径 $r=3$. 条件 $AC\\perp BC$ 表明圆心角 $\\angle ACB=90^{\\circ}$，故弦 $AB$ 到圆心的距离为</p>\n$$\n\\sqrt{r^{2}-\\left(\\frac{AB}{2}\\right)^{2}}=\\frac{r}{\\sqrt{2}}=\\frac{3}{\\sqrt{2}}\n$$\n<p>直线 $x-y+a=0$ 到 $C$ 的距离为</p>\n$$\n\\frac{|{-1}-2+a|}{\\sqrt{2}}=\\frac{|a-3|}{\\sqrt{2}}\n$$\n<p>令两距离相等，得 $|a-3|=3$，所以 $a=0$ 或 $a=6$.</p>"
+          "choices": [],
+          "answer": "\\(0\\) 或 \\(6\\)",
+          "solution": "<p>将圆方程配方得</p>\n$$\n(x+1)^{2}+(y-2)^{2}=9\n$$\n<p>所以圆心 $C=(-1,2)$，半径 $r=3$. 条件 $AC\\perp BC$ 表明圆心角 $\\angle ACB=90^{\\circ}$，故弦 $AB$ 到圆心的距离为</p>\n$$\n\\sqrt{r^{2}-\\left(\\frac{AB}{2}\\right)^{2}}=\\frac{r}{\\sqrt{2}}=\\frac{3}{\\sqrt{2}}\n$$\n<p>直线 $x-y+a=0$ 到 $C$ 的距离为</p>\n$$\n\\frac{|{-1}-2+a|}{\\sqrt{2}}=\\frac{|a-3|}{\\sqrt{2}}\n$$\n<p>令两距离相等，得 $|a-3|=3$，所以 $a=0$ 或 $a=6$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "某校早上 $8{:}00$ 上课，假设该校学生小张与小王在早上 $7{:}30\\text{--}7{:}50$ 之间到校，且每人在该时间段的任何时刻到校是等可能的，则小张比小王至少早 $5\\text{ 分钟}$ 到校的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （用数字作答）",
-          "choices": null,
-          "answer": "$\\frac{9}{32}$",
-          "solution": "<p>以 $7{:}30$ 为计时起点，设小张、小王到校时间分别为 $X$，$Y$，则 $X$，$Y$ 独立且均匀分布在 $[0,20]$ 上. 样本点 $(X,Y)$ 均匀分布在面积为 $20^{2}=400$ 的正方形内.</p><p>小张至少早 $5$ 分钟到校表示 $Y-X\\geqslant5$，对应正方形内直角三角形区域，边长为 $20-5=15$，面积为 $\\frac{1}{2}\\cdot15^{2}$. 因此所求概率为</p>\n$$\nP=\\frac{\\frac{1}{2}\\cdot15^{2}}{20^{2}}=\\frac{225}{800}=\\frac{9}{32}\n$$"
+          "choices": [],
+          "answer": "\\(\\frac{9}{32}\\)",
+          "solution": "<p>以 $7{:}30$ 为计时起点，设小张、小王到校时间分别为 $X$，$Y$，则 $X$，$Y$ 独立且均匀分布在 $[0,20]$ 上. 样本点 $(X,Y)$ 均匀分布在面积为 $20^{2}=400$ 的正方形内.</p><p>小张至少早 $5$ 分钟到校表示 $Y-X\\geqslant5$，对应正方形内直角三角形区域，边长为 $20-5=15$，面积为 $\\frac{1}{2}\\cdot15^{2}$. 因此所求概率为</p>\n$$\nP=\\frac{\\frac{1}{2}\\cdot15^{2}}{20^{2}}=\\frac{225}{800}=\\frac{9}{32}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -175,44 +334,56 @@
         {
           "num": 16,
           "body": "<p>已知 $\\{a_{n}\\}$ 是首项为 1，公差为 2 的等差数列，$S_{n}$ 表示 $\\{a_{n}\\}$ 的前 $n$ 项和.</p><ol class=\"enumerate\"><li><p>求 $a_{n}$ 及 $S_{n}$；</p></li><li><p>设 $\\{b_{n}\\}$ 是首项为 2 的等比数列，公比 $q$ 满足 $q^{2}- (a_{4}+ 1)q + S_{4}= 0$，求 $\\{b_{n}\\}$ 的通项公式及其前 $n$ 项和 $T_{n}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>等差数列的通项为</p>\n$$\na_{n}=a_{1}+(n-1)d=1+2(n-1)=2n-1\n$$\n<p>因此</p>\n$$\nS_{n}=\\frac{n(a_{1}+a_{n})}{2}=\\frac{n[1+(2n-1)]}{2}=n^{2}\n$$\n</li><li><p>由 $a_{4}=2\\cdot4-1=7$，$S_{4}=4^{2}=16$，公比 $q$ 满足</p>\n$$\nq^{2}-(a_{4}+1)q+S_{4}=q^{2}-8q+16=(q-4)^{2}=0\n$$\n<p>所以 $q=4$. 又 $b_{1}=2$，故</p>\n$$\nb_{n}=b_{1}q^{n-1}=2\\cdot4^{n-1}\n$$\n<p>其前 $n$ 项和为</p>\n$$\nT_{n}=\\frac{b_{1}(q^{n}-1)}{q-1}=\\frac{2(4^{n}-1)}{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>等差数列的通项为</p>\n$$\na_{n}=a_{1}+(n-1)d=1+2(n-1)=2n-1\n$$\n<p>因此</p>\n$$\nS_{n}=\\frac{n(a_{1}+a_{n})}{2}=\\frac{n[1+(2n-1)]}{2}=n^{2}\n$$\n</li><li><p>由 $a_{4}=2\\cdot4-1=7$，$S_{4}=4^{2}=16$，公比 $q$ 满足</p>\n$$\nq^{2}-(a_{4}+1)q+S_{4}=q^{2}-8q+16=(q-4)^{2}=0\n$$\n<p>所以 $q=4$. 又 $b_{1}=2$，故</p>\n$$\nb_{n}=b_{1}q^{n-1}=2\\cdot4^{n-1}\n$$\n<p>其前 $n$ 项和为</p>\n$$\nT_{n}=\\frac{b_{1}(q^{n}-1)}{q-1}=\\frac{2(4^{n}-1)}{3}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>20 名学生某次数学考试成绩（单位：分）的频率分布直方图如图.</p><ol class=\"enumerate\"><li><p>求频率分布直方图中 $a$ 的值；</p></li><li><p>分别求出成绩落在 $[50,60)$ 与 $[60,70)$ 中的学生人数；</p></li><li><p>从成绩在 $[50,70)$ 的学生中任选 2 人，求此 2 人的成绩都在 $[60,70)$ 中的概率.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>20 名学生某次数学考试成绩（单位：分）的频率分布直方图如图.</p><ol class=\"enumerate\"><li><p>求频率分布直方图中 $a$ 的值；</p></li><li><p>分别求出成绩落在 $[50,60)$ 与 $[60,70)$ 中的学生人数；</p></li><li><p>从成绩在 $[50,70)$ 的学生中任选 2 人，求此 2 人的成绩都在 $[60,70)$ 中的概率.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/chongqing_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由直方图可知五个组距为 $10$，对应的频率密度依次为 $2a$，$3a$，$7a$，$6a$，$2a$. 频率总和为 $1$，所以</p>\n$$\n10(2a+3a+7a+6a+2a)=1\n$$\n<p>解得 $a=\\frac{1}{200}=0.005$.</p></li><li><p>成绩在 $[50,60)$ 内的频率为</p>\n$$\n10\\cdot2a=\\frac{1}{10}\n$$\n<p>所以学生人数为 $20\\cdot\\frac{1}{10}=2$.</p><p>成绩在 $[60,70)$ 内的频率为</p>\n$$\n10\\cdot3a=\\frac{3}{20}\n$$\n<p>所以学生人数为 $20\\cdot\\frac{3}{20}=3$.</p></li><li><p>成绩在 $[50,70)$ 内共有 $2+3=5$ 人，其中成绩在 $[60,70)$ 内的有 $3$ 人. 从这 $5$ 人中任选 $2$ 人，基本事件总数为 $\\mathrm{C}_{5}^{2}$，有利事件数为 $\\mathrm{C}_{3}^{2}$，故所求概率为</p>\n$$\n\\frac{\\mathrm{C}_{3}^{2}}{\\mathrm{C}_{5}^{2}}=\\frac{3}{10}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由直方图可知五个组距为 $10$，对应的频率密度依次为 $2a$，$3a$，$7a$，$6a$，$2a$. 频率总和为 $1$，所以</p>\n$$\n10(2a+3a+7a+6a+2a)=1\n$$\n<p>解得 $a=\\frac{1}{200}=0.005$.</p></li><li><p>成绩在 $[50,60)$ 内的频率为</p>\n$$\n10\\cdot2a=\\frac{1}{10}\n$$\n<p>所以学生人数为 $20\\cdot\\frac{1}{10}=2$.</p><p>成绩在 $[60,70)$ 内的频率为</p>\n$$\n10\\cdot3a=\\frac{3}{20}\n$$\n<p>所以学生人数为 $20\\cdot\\frac{3}{20}=3$.</p></li><li><p>成绩在 $[50,70)$ 内共有 $2+3=5$ 人，其中成绩在 $[60,70)$ 内的有 $3$ 人. 从这 $5$ 人中任选 $2$ 人，基本事件总数为 $\\mathrm{C}_{5}^{2}$，有利事件数为 $\\mathrm{C}_{3}^{2}$，故所求概率为</p>\n$$\n\\frac{\\mathrm{C}_{3}^{2}}{\\mathrm{C}_{5}^{2}}=\\frac{3}{10}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，且 $a + b + c = 8$.</p><ol class=\"enumerate\"><li><p>若 $a = 2$，$b = \\frac{5}{2}$，求 $\\cos C$ 的值；</p></li><li><p>若 $\\sin A \\cos^{2} \\frac{B}{2}+ \\sin B \\cos^{2} \\frac{A}{2}= 2 \\sin C$，且 $\\triangle ABC$ 的面积 $S = \\frac{9}{2}\\sin C$，求 $a$ 和 $b$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $a+b+c=8$，得</p>\n$$\nc=8-2-\\frac{5}{2}=\\frac{7}{2}\n$$\n<p>由余弦定理，</p>\n$$\n\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}=\\frac{2^{2}+\\left(\\frac{5}{2}\\right)^{2}-\\left(\\frac{7}{2}\\right)^{2}}{2\\cdot2\\cdot\\frac{5}{2}}=-\\frac{1}{5}\n$$\n</li><li><p>利用半角公式，题设左端的两倍为</p>\n$$\n\\sin A(1+\\cos B)+\\sin B(1+\\cos A)  =\\sin A+\\sin B+\\sin(A+B)\n$$\n<p>因为 $A+B=\\pi-C$，所以 $\\sin(A+B)=\\sin C$. 题设从而给出</p>\n$$\n\\sin A+\\sin B+\\sin C=4\\sin C\n$$\n<p>即 $\\sin A+\\sin B=3\\sin C$. 由正弦定理，$\\sin A:\\sin B:\\sin C=a:b:c$，故 $a+b=3c$. 结合 $a+b+c=8$，得 $c=2$，$a+b=6$.</p><p>又由三角形面积公式和题设，</p>\n$$\n\\frac{1}{2}ab\\sin C=\\frac{9}{2}\\sin C\n$$\n<p>因 $0<C<\\pi$，$\\sin C>0$，所以 $ab=9$. 于是 $a$，$b$ 是方程</p>\n$$\nt^{2}-6t+9=0\n$$\n<p>的两个正根，该方程为 $(t-3)^{2}=0$，故 $a=b=3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $a+b+c=8$，得</p>\n$$\nc=8-2-\\frac{5}{2}=\\frac{7}{2}\n$$\n<p>由余弦定理，</p>\n$$\n\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}=\\frac{2^{2}+\\left(\\frac{5}{2}\\right)^{2}-\\left(\\frac{7}{2}\\right)^{2}}{2\\cdot2\\cdot\\frac{5}{2}}=-\\frac{1}{5}\n$$\n</li><li><p>利用半角公式，题设左端的两倍为</p>\n$$\n\\sin A(1+\\cos B)+\\sin B(1+\\cos A)  =\\sin A+\\sin B+\\sin(A+B)\n$$\n<p>因为 $A+B=\\pi-C$，所以 $\\sin(A+B)=\\sin C$. 题设从而给出</p>\n$$\n\\sin A+\\sin B+\\sin C=4\\sin C\n$$\n<p>即 $\\sin A+\\sin B=3\\sin C$. 由正弦定理，$\\sin A:\\sin B:\\sin C=a:b:c$，故 $a+b=3c$. 结合 $a+b+c=8$，得 $c=2$，$a+b=6$.</p><p>又由三角形面积公式和题设，</p>\n$$\n\\frac{1}{2}ab\\sin C=\\frac{9}{2}\\sin C\n$$\n<p>因 $0<C<\\pi$，$\\sin C>0$，所以 $ab=9$. 于是 $a$，$b$ 是方程</p>\n$$\nt^{2}-6t+9=0\n$$\n<p>的两个正根，该方程为 $(t-3)^{2}=0$，故 $a=b=3$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知函数 $f(x) = \\frac{x}{4}+ \\frac{a}{x}- \\ln x - \\frac{3}{2}$，其中 $a \\in \\mathbb{R}$，且曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线垂直于 $y = \\frac{1}{2}x$.</p><ol class=\"enumerate\"><li><p>求 $a$ 的值；</p></li><li><p>求函数 $f(x)$ 的单调区间和极值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{1}{4}-\\frac{a}{x^{2}}-\\frac{1}{x}\n$$\n<p>直线 $y=\\frac{1}{2}x$ 的斜率为 $\\frac{1}{2}$，与其垂直的直线斜率为 $-2$. 因此</p>\n$$\nf'(1)=\\frac{1}{4}-a-1=-2\n$$\n<p>解得 $a=\\frac{5}{4}$.</p></li><li><p>代入 $a=\\frac{5}{4}$，得</p>\n$$\nf'(x)=\\frac{1}{4}-\\frac{5}{4x^{2}}-\\frac{1}{x}=\\frac{x^{2}-4x-5}{4x^{2}}=\\frac{(x-5)(x+1)}{4x^{2}}\n$$\n<p>在定义域 $x>0$ 内，$4x^{2}>0$ 且 $x+1>0$，所以 $f'(x)<0$ 当 $0<x<5$，$f'(x)>0$ 当 $x>5$. 故 $f(x)$ 在 $(0,5)$ 上单调递减，在 $(5,+\\infty)$ 上单调递增，并在 $x=5$ 处取得极小值</p>\n$$\nf(5)=\\frac{5}{4}+\\frac{5}{4\\cdot5}-\\ln5-\\frac{3}{2}=-\\ln5\n$$\n<p>函数没有极大值.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{1}{4}-\\frac{a}{x^{2}}-\\frac{1}{x}\n$$\n<p>直线 $y=\\frac{1}{2}x$ 的斜率为 $\\frac{1}{2}$，与其垂直的直线斜率为 $-2$. 因此</p>\n$$\nf'(1)=\\frac{1}{4}-a-1=-2\n$$\n<p>解得 $a=\\frac{5}{4}$.</p></li><li><p>代入 $a=\\frac{5}{4}$，得</p>\n$$\nf'(x)=\\frac{1}{4}-\\frac{5}{4x^{2}}-\\frac{1}{x}=\\frac{x^{2}-4x-5}{4x^{2}}=\\frac{(x-5)(x+1)}{4x^{2}}\n$$\n<p>在定义域 $x>0$ 内，$4x^{2}>0$ 且 $x+1>0$，所以 $f'(x)<0$ 当 $0<x<5$，$f'(x)>0$ 当 $x>5$. 故 $f(x)$ 在 $(0,5)$ 上单调递减，在 $(5,+\\infty)$ 上单调递增，并在 $x=5$ 处取得极小值</p>\n$$\nf(5)=\\frac{5}{4}+\\frac{5}{4\\cdot5}-\\ln5-\\frac{3}{2}=-\\ln5\n$$\n<p>函数没有极大值.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，四棱锥 $P - ABCD$ 中，底面是以 $O$ 为中心的菱形，$PO \\perp$ 底面 $ABCD$，$AB = 2$，$\\angle BAD = \\frac{\\pi}{3}$，$M$ 为 $BC$ 上一点，且 $BM = \\frac{1}{2}$.</p><ol class=\"enumerate\"><li><p>证明：$BC \\perp$ 平面 $POM$；</p></li><li><p>若 $MP \\perp AP$，求四棱锥 $P - ABMO$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，四棱锥 $P - ABCD$ 中，底面是以 $O$ 为中心的菱形，$PO \\perp$ 底面 $ABCD$，$AB = 2$，$\\angle BAD = \\frac{\\pi}{3}$，$M$ 为 $BC$ 上一点，且 $BM = \\frac{1}{2}$.</p><ol class=\"enumerate\"><li><p>证明：$BC \\perp$ 平面 $POM$；</p></li><li><p>若 $MP \\perp AP$，求四棱锥 $P - ABMO$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/chongqing_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>菱形的对角线互相垂直且平分，且对角线 $BD$ 平分角 $ABC$. 由 $AB=2$、$\\angle BAD=\\frac{\\pi}{3}$，得</p>\n$$\nOB=\\frac{BD}{2}=AB\\sin\\frac{\\angle BAD}{2}=2\\sin\\frac{\\pi}{6}=1\n$$\n<p>又 $BM=\\frac{1}{2}$，且因 $O$ 在对角线 $BD$ 上、$BD$ 平分 $\\angle ABC=\\frac{2\\pi}{3}$，有 $\\angle OBM=\\frac{\\pi}{3}$，所以在 $\\triangle OBM$ 中</p>\n$$\nOM^{2}=OB^{2}+BM^{2}-2\\cdot OB\\cdot BM\\cos\\frac{\\pi}{3}  =1+\\frac{1}{4}-\\frac{1}{2}=\\frac{3}{4}\n$$\n<p>从而 $OB^{2}=OM^{2}+BM^{2}$，所以 $OM\\perp BM$. 因 $BM\\subset BC$，故 $OM\\perp BC$. 又 $PO\\perp$ 底面 $ABCD$，所以 $PO\\perp BC$. 直线 $OM$ 与 $PO$ 相交且都在平面 $POM$ 内，因此 $BC\\perp$ 平面 $POM$.</p></li><li><p>菱形的另一条对角线给出</p>\n$$\nOA=\\frac{AC}{2}=AB\\cos\\frac{\\angle BAD}{2}=2\\cos\\frac{\\pi}{6}=\\sqrt{3}\n$$\n<p>设 $PO=h$. 由 $PO\\perp$ 底面，</p><p>$PA^{2}=h^{2}+OA^{2}=h^{2}+3$，$PM^{2}=h^{2}+OM^{2}=h^{2}+\\frac{3}{4}$.</p><p>在底面三角形 $ABM$ 中，$\\angle ABM=\\frac{2\\pi}{3}$，故</p>\n$$\nAM^{2}=AB^{2}+BM^{2}-2\\cdot AB\\cdot BM\\cos\\frac{2\\pi}{3}=4+\\frac{1}{4}+1=\\frac{21}{4}\n$$\n<p>由 $MP\\perp AP$，$\\triangle AMP$ 在 $P$ 处为直角三角形，因此</p>\n$$\nPA^{2}+PM^{2}=AM^{2}\n$$\n<p>即</p>\n$$\n2h^{2}+3+\\frac{3}{4}=\\frac{21}{4}\n$$\n<p>解得 $h=\\frac{\\sqrt{3}}{2}$.</p><p>四边形 $ABMO$ 可由对角线 $BO$ 分成两个直角三角形，故</p>\n$$\nS_{ABMO}=\\frac{1}{2}OA\\cdot OB+\\frac{1}{2}BM\\cdot OM  =\\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{3}}{8}=\\frac{5\\sqrt{3}}{8}\n$$\n<p>所以四棱锥 $P-ABMO$ 的体积为</p>\n$$\nV=\\frac{1}{3}S_{ABMO}\\cdot PO  =\\frac{1}{3}\\cdot\\frac{5\\sqrt{3}}{8}\\cdot\\frac{\\sqrt{3}}{2}=\\frac{5}{16}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>菱形的对角线互相垂直且平分，且对角线 $BD$ 平分角 $ABC$. 由 $AB=2$、$\\angle BAD=\\frac{\\pi}{3}$，得</p>\n$$\nOB=\\frac{BD}{2}=AB\\sin\\frac{\\angle BAD}{2}=2\\sin\\frac{\\pi}{6}=1\n$$\n<p>又 $BM=\\frac{1}{2}$，且因 $O$ 在对角线 $BD$ 上、$BD$ 平分 $\\angle ABC=\\frac{2\\pi}{3}$，有 $\\angle OBM=\\frac{\\pi}{3}$，所以在 $\\triangle OBM$ 中</p>\n$$\nOM^{2}=OB^{2}+BM^{2}-2\\cdot OB\\cdot BM\\cos\\frac{\\pi}{3}  =1+\\frac{1}{4}-\\frac{1}{2}=\\frac{3}{4}\n$$\n<p>从而 $OB^{2}=OM^{2}+BM^{2}$，所以 $OM\\perp BM$. 因 $BM\\subset BC$，故 $OM\\perp BC$. 又 $PO\\perp$ 底面 $ABCD$，所以 $PO\\perp BC$. 直线 $OM$ 与 $PO$ 相交且都在平面 $POM$ 内，因此 $BC\\perp$ 平面 $POM$.</p></li><li><p>菱形的另一条对角线给出</p>\n$$\nOA=\\frac{AC}{2}=AB\\cos\\frac{\\angle BAD}{2}=2\\cos\\frac{\\pi}{6}=\\sqrt{3}\n$$\n<p>设 $PO=h$. 由 $PO\\perp$ 底面，</p><p>$PA^{2}=h^{2}+OA^{2}=h^{2}+3$，$PM^{2}=h^{2}+OM^{2}=h^{2}+\\frac{3}{4}$.</p><p>在底面三角形 $ABM$ 中，$\\angle ABM=\\frac{2\\pi}{3}$，故</p>\n$$\nAM^{2}=AB^{2}+BM^{2}-2\\cdot AB\\cdot BM\\cos\\frac{2\\pi}{3}=4+\\frac{1}{4}+1=\\frac{21}{4}\n$$\n<p>由 $MP\\perp AP$，$\\triangle AMP$ 在 $P$ 处为直角三角形，因此</p>\n$$\nPA^{2}+PM^{2}=AM^{2}\n$$\n<p>即</p>\n$$\n2h^{2}+3+\\frac{3}{4}=\\frac{21}{4}\n$$\n<p>解得 $h=\\frac{\\sqrt{3}}{2}$.</p><p>四边形 $ABMO$ 可由对角线 $BO$ 分成两个直角三角形，故</p>\n$$\nS_{ABMO}=\\frac{1}{2}OA\\cdot OB+\\frac{1}{2}BM\\cdot OM  =\\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{3}}{8}=\\frac{5\\sqrt{3}}{8}\n$$\n<p>所以四棱锥 $P-ABMO$ 的体积为</p>\n$$\nV=\\frac{1}{3}S_{ABMO}\\cdot PO  =\\frac{1}{3}\\cdot\\frac{5\\sqrt{3}}{8}\\cdot\\frac{\\sqrt{3}}{2}=\\frac{5}{16}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
-          "body": "<p>设椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的左、右焦点分别为 $F_{1}$，$F_{2}$，点 $D$ 在椭圆上，$DF_{1} \\perp F_{1}F_{2}$，$\\frac{|F_{1}F_{2}|}{|DF_{1}|}= 2\\sqrt{2}$，$\\triangle DF_{1}F_{2}$ 的面积为 $\\frac{\\sqrt{2}}{2}$.</p><ol class=\"enumerate\"><li><p>求该椭圆的标准方程；</p></li><li><p>是否存在圆心在 $y$ 轴上的圆，使圆在 $x$ 轴的上方与椭圆有两个交点，且圆在这两个交点处的两条切线相互垂直并分别过不同的焦点？若存在，求出圆的方程；若不存在，请说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>设椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的左、右焦点分别为 $F_{1}$，$F_{2}$，点 $D$ 在椭圆上，$DF_{1} \\perp F_{1}F_{2}$，$\\frac{|F_{1}F_{2}|}{|DF_{1}|}= 2\\sqrt{2}$，$\\triangle DF_{1}F_{2}$ 的面积为 $\\frac{\\sqrt{2}}{2}$.</p><ol class=\"enumerate\"><li><p>求该椭圆的标准方程；</p></li><li><p>是否存在圆心在 $y$ 轴上的圆，使圆在 $x$ 轴的上方与椭圆有两个交点，且圆在这两个交点处的两条切线相互垂直并分别过不同的焦点？若存在，求出圆的方程；若不存在，请说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/chongqing_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆焦距的一半为 $c$，则 $F_{1}F_{2}=2c$. 因为 $DF_{1}\\perp F_{1}F_{2}$，三角形 $DF_{1}F_{2}$ 在 $F_{1}$ 处为直角. 由题设比值，</p>\n$$\n\\frac{2c}{DF_{1}}=2\\sqrt{2}\n$$\n<p>得 $DF_{1}=\\frac{c}{\\sqrt{2}}$. 于是</p>\n$$\nS_{\\triangle DF_1F_2}=\\frac{1}{2}\\cdot\\frac{c}{\\sqrt{2}}\\cdot2c  =\\frac{c^{2}}{\\sqrt{2}}=\\frac{\\sqrt{2}}{2}\n$$\n<p>所以 $c^{2}=1$. 又 $a^{2}-b^{2}=c^{2}=1$.</p><p>由于 $F_{1}F_{2}$ 在 $x$ 轴上，且 $DF_{1}\\perp F_{1}F_{2}$，点 $D$ 的横坐标为 $-c$，且 $|y_{D}|=DF_{1}=\\frac{1}{\\sqrt{2}}$. 代入椭圆方程得</p><p>$\\frac{1}{a^{2}}+\\frac{1}{2b^{2}}=1$，$a^{2}-b^{2}=1$.</p><p>令 $b^{2}=t>0$，则 $a^{2}=t+1$，从而</p>\n$$\n\\frac{1}{t+1}+\\frac{1}{2t}=1  \\Longrightarrow 2t^{2}-t-1=0\n$$\n<p>因 $t>0$，得 $t=1$，所以 $a^{2}=2$，$b^{2}=1$，椭圆的标准方程为</p>\n$$\n\\frac{x^{2}}{2}+y^{2}=1\n$$\n</li><li><p>设两个交点分别为左、右点 $P_{-}=(-u,y)$、$P_{+}=(u,y)$，其中 $u>0$、$y>0$. 由于圆心在 $y$ 轴上，圆和椭圆都关于 $y$ 轴对称，且题设只取 $x$ 轴上方的两个交点，所以这两个交点必关于 $y$ 轴对称. 记 $F_{1}=(-1,0)$，$F_{2}=(1,0)$.</p><p>先考虑左、右交点处的切线分别经过同侧焦点 $F_{1}$、$F_{2}$. 两条切线相互垂直，故</p>\n$$\n\\overrightarrow{F_1P_{-}}\\cdot\\overrightarrow{F_2P_{+}}=(1-u,y)\\cdot(u-1,y)=0\n$$\n<p>即 $y^{2}=(u-1)^{2}$. 又 $P_{-}$ 在椭圆上，所以</p>\n$$\n\\frac{u^{2}}{2}+y^{2}=1  \\Longrightarrow \\frac{u^{2}}{2}+(u-1)^{2}=1  \\Longrightarrow u(3u-4)=0\n$$\n<p>因 $u>0$，得 $u=\\frac{4}{3}$，从而 $y=\\frac{1}{3}$. 若左、右交点处的切线分别经过异侧焦点 $F_{2}$、$F_{1}$，则</p>\n$$\n\\overrightarrow{F_2P_{-}}\\cdot\\overrightarrow{F_1P_{+}}=(-u-1,y)\\cdot(u+1,y)=0\n$$\n<p>即 $y^{2}=(u+1)^{2}$. 因 $u>0$，此时 $y=u+1>1$，与椭圆上点满足 $y^{2}\\leqslant1$ 矛盾. 因此只有同侧对应的情形.</p><p>设圆心为 $C=(0,y_{0})$. 圆在 $P_{-}$ 处的半径 $CP_{-}$ 垂直切线 $F_{1}P_{-}$，所以</p>\n$$\n\\overrightarrow{CP_{-}}\\cdot\\overrightarrow{F_1P_{-}}=\\left(-\\frac{4}{3},\\frac{1}{3}-y_{0}\\right)\\cdot\\left(-\\frac{1}{3},\\frac{1}{3}\\right)=0\n$$\n<p>解得 $y_{0}=\\frac{5}{3}$. 圆的半径满足</p>\n$$\nr^{2}=CP_{-}^{2}  =\\left(-\\frac{4}{3}\\right)^{2}+\\left(\\frac{1}{3}-\\frac{5}{3}\\right)^{2}  =\\frac{32}{9}\n$$\n<p>因此所求圆存在，方程为</p>\n$$\nx^{2}+\\left(y-\\frac{5}{3}\\right)^{2}=\\frac{32}{9}\n$$\n<p>为验证没有遗漏的交点，将圆方程与椭圆方程联立，消去 $x$ 得</p>\n$$\n9y^{2}+30y-11=0=(3y-1)(3y+11)\n$$\n<p>椭圆上 $|y|\\leqslant1$，所以只能有 $y=\\frac{1}{3}$，相应的 $x=\\pm\\frac{4}{3}$. 两个交点的纵坐标均为 $\\frac{1}{3}>0$，故所求圆确实在 $x$ 轴上方与椭圆恰有这两个交点，条件满足.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆焦距的一半为 $c$，则 $F_{1}F_{2}=2c$. 因为 $DF_{1}\\perp F_{1}F_{2}$，三角形 $DF_{1}F_{2}$ 在 $F_{1}$ 处为直角. 由题设比值，</p>\n$$\n\\frac{2c}{DF_{1}}=2\\sqrt{2}\n$$\n<p>得 $DF_{1}=\\frac{c}{\\sqrt{2}}$. 于是</p>\n$$\nS_{\\triangle DF_1F_2}=\\frac{1}{2}\\cdot\\frac{c}{\\sqrt{2}}\\cdot2c  =\\frac{c^{2}}{\\sqrt{2}}=\\frac{\\sqrt{2}}{2}\n$$\n<p>所以 $c^{2}=1$. 又 $a^{2}-b^{2}=c^{2}=1$.</p><p>由于 $F_{1}F_{2}$ 在 $x$ 轴上，且 $DF_{1}\\perp F_{1}F_{2}$，点 $D$ 的横坐标为 $-c$，且 $|y_{D}|=DF_{1}=\\frac{1}{\\sqrt{2}}$. 代入椭圆方程得</p><p>$\\frac{1}{a^{2}}+\\frac{1}{2b^{2}}=1$，$a^{2}-b^{2}=1$.</p><p>令 $b^{2}=t>0$，则 $a^{2}=t+1$，从而</p>\n$$\n\\frac{1}{t+1}+\\frac{1}{2t}=1  \\Longrightarrow 2t^{2}-t-1=0\n$$\n<p>因 $t>0$，得 $t=1$，所以 $a^{2}=2$，$b^{2}=1$，椭圆的标准方程为</p>\n$$\n\\frac{x^{2}}{2}+y^{2}=1\n$$\n</li><li><p>设两个交点分别为左、右点 $P_{-}=(-u,y)$、$P_{+}=(u,y)$，其中 $u>0$、$y>0$. 由于圆心在 $y$ 轴上，圆和椭圆都关于 $y$ 轴对称，且题设只取 $x$ 轴上方的两个交点，所以这两个交点必关于 $y$ 轴对称. 记 $F_{1}=(-1,0)$，$F_{2}=(1,0)$.</p><p>先考虑左、右交点处的切线分别经过同侧焦点 $F_{1}$、$F_{2}$. 两条切线相互垂直，故</p>\n$$\n\\overrightarrow{F_1P_{-}}\\cdot\\overrightarrow{F_2P_{+}}=(1-u,y)\\cdot(u-1,y)=0\n$$\n<p>即 $y^{2}=(u-1)^{2}$. 又 $P_{-}$ 在椭圆上，所以</p>\n$$\n\\frac{u^{2}}{2}+y^{2}=1  \\Longrightarrow \\frac{u^{2}}{2}+(u-1)^{2}=1  \\Longrightarrow u(3u-4)=0\n$$\n<p>因 $u>0$，得 $u=\\frac{4}{3}$，从而 $y=\\frac{1}{3}$. 若左、右交点处的切线分别经过异侧焦点 $F_{2}$、$F_{1}$，则</p>\n$$\n\\overrightarrow{F_2P_{-}}\\cdot\\overrightarrow{F_1P_{+}}=(-u-1,y)\\cdot(u+1,y)=0\n$$\n<p>即 $y^{2}=(u+1)^{2}$. 因 $u>0$，此时 $y=u+1>1$，与椭圆上点满足 $y^{2}\\leqslant1$ 矛盾. 因此只有同侧对应的情形.</p><p>设圆心为 $C=(0,y_{0})$. 圆在 $P_{-}$ 处的半径 $CP_{-}$ 垂直切线 $F_{1}P_{-}$，所以</p>\n$$\n\\overrightarrow{CP_{-}}\\cdot\\overrightarrow{F_1P_{-}}=\\left(-\\frac{4}{3},\\frac{1}{3}-y_{0}\\right)\\cdot\\left(-\\frac{1}{3},\\frac{1}{3}\\right)=0\n$$\n<p>解得 $y_{0}=\\frac{5}{3}$. 圆的半径满足</p>\n$$\nr^{2}=CP_{-}^{2}  =\\left(-\\frac{4}{3}\\right)^{2}+\\left(\\frac{1}{3}-\\frac{5}{3}\\right)^{2}  =\\frac{32}{9}\n$$\n<p>因此所求圆存在，方程为</p>\n$$\nx^{2}+\\left(y-\\frac{5}{3}\\right)^{2}=\\frac{32}{9}\n$$\n<p>为验证没有遗漏的交点，将圆方程与椭圆方程联立，消去 $x$ 得</p>\n$$\n9y^{2}+30y-11=0=(3y-1)(3y+11)\n$$\n<p>椭圆上 $|y|\\leqslant1$，所以只能有 $y=\\frac{1}{3}$，相应的 $x=\\pm\\frac{4}{3}$. 两个交点的纵坐标均为 $\\frac{1}{3}>0$，故所求圆确实在 $x$ 轴上方与椭圆恰有这两个交点，条件满足.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

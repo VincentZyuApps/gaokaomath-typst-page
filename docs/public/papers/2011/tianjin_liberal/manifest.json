@@ -1,8 +1,131 @@
 {
-  "title": "2011年普通高等学校招生全国统一考试",
-  "subtitle": "2011年天津卷（文）",
   "year": "2011",
   "slug": "tianjin_liberal",
+  "title": "2011年天津卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$-1 + 2\\mathrm{i}$"
           ],
           "answer": "A",
-          "solution": "<p>分子、分母同乘 $1+\\mathrm{i}$，得</p>\n$$\n\\frac{1-3\\mathrm{i}}{1-\\mathrm{i}}=\\frac{(1-3\\mathrm{i})(1+\\mathrm{i})}{(1-\\mathrm{i})(1+\\mathrm{i})}=\\frac{4-2\\mathrm{i}}{2}=2-\\mathrm{i}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>分子、分母同乘 $1+\\mathrm{i}$，得</p>\n$$\n\\frac{1-3\\mathrm{i}}{1-\\mathrm{i}}=\\frac{(1-3\\mathrm{i})(1+\\mathrm{i})}{(1-\\mathrm{i})(1+\\mathrm{i})}=\\frac{4-2\\mathrm{i}}{2}=2-\\mathrm{i}\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,11 +154,13 @@
             "$4$"
           ],
           "answer": "D",
-          "solution": "<p>由约束条件得 $y\\leqslant4-x$，$y\\ge\\dfrac{x+4}{3}$，且 $x\\geqslant1$. 要使可行域非空，必须有</p>\n$$\n\\frac{x+4}{3}\\leqslant4-x\n$$\n<p>即 $1\\le x\\leqslant2$. 可行域的顶点为 $\\left(1,3\\right)$，$\\left(1,\\dfrac{5}{3}\\right)$，$(2,2)$. 在这三个点处，目标函数 $z=3x-y$ 的值分别为 $0$，$\\dfrac{4}{3}$，$4$. 因此 $z$ 的最大值为 $4$，故选 D.</p>"
+          "solution": "<p>由约束条件得 $y\\leqslant4-x$，$y\\ge\\dfrac{x+4}{3}$，且 $x\\geqslant1$. 要使可行域非空，必须有</p>\n$$\n\\frac{x+4}{3}\\leqslant4-x\n$$\n<p>即 $1\\le x\\leqslant2$. 可行域的顶点为 $\\left(1,3\\right)$，$\\left(1,\\dfrac{5}{3}\\right)$，$(2,2)$. 在这三个点处，目标函数 $z=3x-y$ 的值分别为 $0$，$\\dfrac{4}{3}$，$4$. 因此 $z$ 的最大值为 $4$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
-          "body": "<p>阅读程序框图，运行相应的程序，若输入 $x$ 的值为 $-4$，则输出 $y$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>阅读程序框图，运行相应的程序，若输入 $x$ 的值为 $-4$，则输出 $y$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/tianjin_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$0.5$",
             "$1$",
@@ -41,7 +168,9 @@
             "$4$"
           ],
           "answer": "C",
-          "solution": "输入 $x=-4$ 时，因 $\\lvert x\\rvert=4>3$，第一次循环后 $x=\\lvert-4-3\\rvert=7$. 此时 $\\lvert x\\rvert>3$，第二次循环后 $x=\\lvert7-3\\rvert=4$；再次循环后 $x=\\lvert4-3\\rvert=1$. 由于 $\\lvert1\\rvert\\leqslant3$，循环结束，输出 $y=2^{1}=2$. 故选 C."
+          "solution": "输入 $x=-4$ 时，因 $\\lvert x\\rvert=4>3$，第一次循环后 $x=\\lvert-4-3\\rvert=7$. 此时 $\\lvert x\\rvert>3$，第二次循环后 $x=\\lvert7-3\\rvert=4$；再次循环后 $x=\\lvert4-3\\rvert=1$. 由于 $\\lvert1\\rvert\\leqslant3$，循环结束，输出 $y=2^{1}=2$. 故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +182,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "C",
-          "solution": "<p>由定义，$A=(2,+\\infty)$，$B=(-\\infty,0)$，所以</p>\n$$\nA\\cup B=(-\\infty,0)\\cup(2,+\\infty)\n$$\n<p>又 $x(x-2)>0$ 的解集为 $(-\\infty,0)\\cup(2,+\\infty)$，故</p>\n$$\nx\\in A\\cup B\\Longleftrightarrow x\\in C\n$$\n<p>因此“$x\\in A\\cup B$”是“$x\\in C$”的充分必要条件，故选 C.</p>"
+          "solution": "<p>由定义，$A=(2,+\\infty)$，$B=(-\\infty,0)$，所以</p>\n$$\nA\\cup B=(-\\infty,0)\\cup(2,+\\infty)\n$$\n<p>又 $x(x-2)>0$ 的解集为 $(-\\infty,0)\\cup(2,+\\infty)$，故</p>\n$$\nx\\in A\\cup B\\Longleftrightarrow x\\in C\n$$\n<p>因此“$x\\in A\\cup B$”是“$x\\in C$”的充分必要条件，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +196,9 @@
             "$c > a > b$"
           ],
           "answer": "B",
-          "solution": "由换底公式，$c=\\log_{4} 3.6=\\dfrac{1}{2}\\log_{2} 3.6=\\dfrac{a}{2}$，即 $a=2c$. 又因 $3.2<3.6$ 且底数 $4>1$，所以 $b=\\log_{4} 3.2<c$. 因此 $a>c>b$，故选 B."
+          "solution": "由换底公式，$c=\\log_{4} 3.6=\\dfrac{1}{2}\\log_{2} 3.6=\\dfrac{a}{2}$，即 $a=2c$. 又因 $3.2<3.6$ 且底数 $4>1$，所以 $b=\\log_{4} 3.2<c$. 因此 $a>c>b$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +210,9 @@
             "$4\\sqrt{5}$"
           ],
           "answer": "B",
-          "solution": "<p>抛物线 $y^{2}=2px$ 的焦点为 $\\left(\\dfrac{p}{2},0\\right)$，准线为 $x=-\\dfrac{p}{2}$. 由交点 $(-2,-1)$ 在准线上，得</p>\n$$\n-\\frac{p}{2}=-2\n$$\n<p>所以 $p=4$. 双曲线左顶点为 $(-a,0)$，由题意</p>\n$$\na+\\frac{p}{2}=4\n$$\n<p>从而 $a=2$. 双曲线的一条渐近线经过 $(-2,-1)$，其斜率的绝对值为 $\\dfrac{1}{2}$，故 $\\dfrac{b}{a}=\\dfrac{1}{2}$，即 $b=1$. 因此双曲线的半焦距为</p>\n$$\nc=\\sqrt{a^{2}+b^{2}}=\\sqrt{5}\n$$\n<p>焦距为 $2c=2\\sqrt{5}$，故选 B.</p>"
+          "solution": "<p>抛物线 $y^{2}=2px$ 的焦点为 $\\left(\\dfrac{p}{2},0\\right)$，准线为 $x=-\\dfrac{p}{2}$. 由交点 $(-2,-1)$ 在准线上，得</p>\n$$\n-\\frac{p}{2}=-2\n$$\n<p>所以 $p=4$. 双曲线左顶点为 $(-a,0)$，由题意</p>\n$$\na+\\frac{p}{2}=4\n$$\n<p>从而 $a=2$. 双曲线的一条渐近线经过 $(-2,-1)$，其斜率的绝对值为 $\\dfrac{1}{2}$，故 $\\dfrac{b}{a}=\\dfrac{1}{2}$，即 $b=1$. 因此双曲线的半焦距为</p>\n$$\nc=\\sqrt{a^{2}+b^{2}}=\\sqrt{5}\n$$\n<p>焦距为 $2c=2\\sqrt{5}$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +224,9 @@
             "$f(x)$ 在区间 $[4\\pi, 6\\pi]$ 上是减函数"
           ],
           "answer": "A",
-          "solution": "<p>函数的最小正周期为 $\\dfrac{2\\pi}{\\omega}=6\\pi$，所以 $\\omega=\\dfrac{1}{3}$. 当 $x=\\dfrac\\pi2$ 时函数取得最大值，故</p>\n$$\n\\sin\\left(\\frac{\\pi}{6}+\\varphi\\right)=1\n$$\n<p>结合 $-\\pi<\\varphi\\le\\pi$，得 $\\varphi=\\dfrac\\pi3$. 因而</p>\n$$\nf(x)=2\\sin\\left(\\frac{x}{3}+\\frac{\\pi}{3}\\right)\n$$\n<p>其导数的符号由 $\\cos\\left(\\dfrac{x}{3}+\\dfrac\\pi3\\right)$ 决定，函数在</p>\n$$\n\\left(-\\frac{5\\pi}{2}+6k\\pi,\\frac{\\pi}{2}+6k\\pi\\right)\n$$\n<p>上递增，在 $\\left(\\dfrac\\pi2+6k\\pi,\\dfrac{7\\pi}{2}+6k\\pi\\right)$ 上递减，其中 $k\\in\\mathbb{Z}$. 区间 $[-2\\pi,0]$ 包含于递增区间 $\\left(-\\dfrac{5\\pi}{2},\\dfrac\\pi2\\right)$，所以选 A.</p>"
+          "solution": "<p>函数的最小正周期为 $\\dfrac{2\\pi}{\\omega}=6\\pi$，所以 $\\omega=\\dfrac{1}{3}$. 当 $x=\\dfrac\\pi2$ 时函数取得最大值，故</p>\n$$\n\\sin\\left(\\frac{\\pi}{6}+\\varphi\\right)=1\n$$\n<p>结合 $-\\pi<\\varphi\\le\\pi$，得 $\\varphi=\\dfrac\\pi3$. 因而</p>\n$$\nf(x)=2\\sin\\left(\\frac{x}{3}+\\frac{\\pi}{3}\\right)\n$$\n<p>其导数的符号由 $\\cos\\left(\\dfrac{x}{3}+\\dfrac\\pi3\\right)$ 决定，函数在</p>\n$$\n\\left(-\\frac{5\\pi}{2}+6k\\pi,\\frac{\\pi}{2}+6k\\pi\\right)\n$$\n<p>上递增，在 $\\left(\\dfrac\\pi2+6k\\pi,\\dfrac{7\\pi}{2}+6k\\pi\\right)$ 上递减，其中 $k\\in\\mathbb{Z}$. 区间 $[-2\\pi,0]$ 包含于递增区间 $\\left(-\\dfrac{5\\pi}{2},\\dfrac\\pi2\\right)$，所以选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +238,9 @@
             "$[-2, - 1]$"
           ],
           "answer": "B",
-          "solution": "<p>令 $u=x^{2}-2$，$v=x-1$. 当 $u-v\\leqslant1$ 时</p>\n$$\nx^{2}-x-2\\leqslant0\n$$\n<p>即 $-1\\le x\\leqslant2$，此时 $f(x)=x^{2}-2$. 在其余区间 $f(x)=x-1$. 因而</p>\n$$\nf(x)=  \\begin{cases}x-1,&x<-1,\\\\  x^{2}-2,&-1\\le x\\leqslant2,\\\\  x-1,&x>2.\\end{cases}\n$$\n<p>分别考查这三个分支对方程 $f(x)=c$ 的贡献. 在 $x<-1$ 时，$c=x-1$，故只有 $c<-2$ 时有一个解；在 $-1\\le x\\leqslant2$ 时，$c=x^{2}-2$，故必须有 $-2\\le c\\leqslant2$，解为 $x=\\pm\\sqrt{c+2}$，再按根是否落在 $[-1,2]$ 内取舍；在 $x>2$ 时，$c=x-1$，故只有 $c>1$ 时有一个解.</p><p>具体分类如下：当 $c<-2$ 时只有左侧一次分支的一个解；当 $c=-2$ 时，左侧分支的边界 $x=-1$ 不属于该分支，而二次分支给出 $x=0$，故只有一个解；当 $-2<c\\le-1$ 时，$\\pm\\sqrt{c+2}\\in[-1,1]$，二次分支给出两个解，两个一次分支均不给出解；当 $-1<c\\leqslant1$ 时，负根小于 $-1$，正根 $\\sqrt{c+2}$ 在 $(1,\\sqrt{3}]$ 内，且右侧一次分支要求 $c>1$，所以只有一个解；当 $1<c\\leqslant2$ 时，正根在 $(\\sqrt{3},2]$ 内，同时右侧一次分支给出 $x=c+1>2$，共有两个解；当 $c>2$ 时只有右侧一次分支的一个解.</p><p>因此方程恰有两个解当且仅当</p>\n$$\nc\\in(-2,-1]\\cup(1,2]\n$$\n<p>故选 B.</p>"
+          "solution": "<p>令 $u=x^{2}-2$，$v=x-1$. 当 $u-v\\leqslant1$ 时</p>\n$$\nx^{2}-x-2\\leqslant0\n$$\n<p>即 $-1\\le x\\leqslant2$，此时 $f(x)=x^{2}-2$. 在其余区间 $f(x)=x-1$. 因而</p>\n$$\nf(x)=  \\begin{cases}x-1,&x<-1,\\\\  x^{2}-2,&-1\\le x\\leqslant2,\\\\  x-1,&x>2.\\end{cases}\n$$\n<p>分别考查这三个分支对方程 $f(x)=c$ 的贡献. 在 $x<-1$ 时，$c=x-1$，故只有 $c<-2$ 时有一个解；在 $-1\\le x\\leqslant2$ 时，$c=x^{2}-2$，故必须有 $-2\\le c\\leqslant2$，解为 $x=\\pm\\sqrt{c+2}$，再按根是否落在 $[-1,2]$ 内取舍；在 $x>2$ 时，$c=x-1$，故只有 $c>1$ 时有一个解.</p><p>具体分类如下：当 $c<-2$ 时只有左侧一次分支的一个解；当 $c=-2$ 时，左侧分支的边界 $x=-1$ 不属于该分支，而二次分支给出 $x=0$，故只有一个解；当 $-2<c\\le-1$ 时，$\\pm\\sqrt{c+2}\\in[-1,1]$，二次分支给出两个解，两个一次分支均不给出解；当 $-1<c\\leqslant1$ 时，负根小于 $-1$，正根 $\\sqrt{c+2}$ 在 $(1,\\sqrt{3}]$ 内，且右侧一次分支要求 $c>1$，所以只有一个解；当 $1<c\\leqslant2$ 时，正根在 $(\\sqrt{3},2]$ 内，同时右侧一次分支给出 $x=c+1>2$，共有两个解；当 $c>2$ 时只有右侧一次分支的一个解.</p><p>因此方程恰有两个解当且仅当</p>\n$$\nc\\in(-2,-1]\\cup(1,2]\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -111,44 +250,56 @@
         {
           "num": 9,
           "body": "已知集合 $A = \\{x \\in \\mathbb{R}\\mid |x - 1| < 2\\}$，$\\mathbb{Z}$ 为整数集，则集合 $A \\cap \\mathbb{Z}$ 中所有元素的和等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "3",
-          "solution": "<p>由 $\\lvert x-1\\rvert<2$，得 $-1<x<3$. 其中的整数为 $0$，$1$，$2$，所以所有元素的和为</p>\n$$\n0+1+2=3\n$$"
+          "solution": "<p>由 $\\lvert x-1\\rvert<2$，得 $-1<x<3$. 其中的整数为 $0$，$1$，$2$，所以所有元素的和为</p>\n$$\n0+1+2=3\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
-          "body": "<p>一个几何体的三视图如图所示（单位：m），则这个几何体的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\mathrm{m}^{3}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>一个几何体的三视图如图所示（单位：m），则这个几何体的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\mathrm{m}^{3}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/tianjin_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "4",
-          "solution": "<p>由三视图可知，该几何体由一个底面长为 $2$、宽为 $1$、高为 $1$ 的长方体，以及其上方一个底面长为 $1$、宽为 $1$、高为 $2$ 的长方体组成. 因此体积为</p>\n$$\n2\\times1\\times1+1\\times1\\times2=4 \\mathrm{~m}^{3}\n$$"
+          "solution": "<p>由三视图可知，该几何体由一个底面长为 $2$、宽为 $1$、高为 $1$ 的长方体，以及其上方一个底面长为 $1$、宽为 $1$、高为 $2$ 的长方体组成. 因此体积为</p>\n$$\n2\\times1\\times1+1\\times1\\times2=4 \\mathrm{~m}^{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "已知 $\\{a_{n}\\}$ 为等差数列，$S_{n}$ 为其前 $n$ 项和. $n \\in \\mathbb{N}^{*}$. 若 $a_{3}= 16$，$S_{20}= 20$，则 $S_{10}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "110",
-          "solution": "<p>设等差数列的首项为 $a_{1}$，公差为 $d$. 由 $a_{3}=16$，得</p>\n$$\na_{1}+2d=16\n$$\n<p>又由 $S_{20}=20$，得</p>\n$$\n\\frac{20}{2}(2a_{1}+19d)=20\n$$\n<p>即 $2a_{1}+19d=2$. 联立两式，得 $d=-2$，$a_{1}=20$. 所以</p>\n$$\nS_{10}=\\frac{10}{2}\\left(2a_{1}+9d\\right)  =5(40-18)=110\n$$"
+          "solution": "<p>设等差数列的首项为 $a_{1}$，公差为 $d$. 由 $a_{3}=16$，得</p>\n$$\na_{1}+2d=16\n$$\n<p>又由 $S_{20}=20$，得</p>\n$$\n\\frac{20}{2}(2a_{1}+19d)=20\n$$\n<p>即 $2a_{1}+19d=2$. 联立两式，得 $d=-2$，$a_{1}=20$. 所以</p>\n$$\nS_{10}=\\frac{10}{2}\\left(2a_{1}+9d\\right)  =5(40-18)=110\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "已知 $\\log_{2} a + \\log_{2} b \\ge 1$，则 $3^{a} + 9^{b}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "18",
-          "solution": "<p>由对数有意义，$a>0$，$b>0$. 由题设</p>\n$$\n\\log_{2}(ab)\\geqslant1\n$$\n<p>所以 $ab\\geqslant2$. 令 $X=a\\ln3$，$Y=2b\\ln3$，则 $X>0$，$Y>0$，且</p>\n$$\nXY=2ab(\\ln3)^{2}\\geqslant4(\\ln3)^{2}\n$$\n<p>由基本不等式，</p>\n$$\n3^{a}+9^{b}=\\mathrm{e}^{X}+\\mathrm{e}^{Y}  \\geqslant2\\mathrm{e}^{\\frac{(X+Y)}{2}}\\geqslant2\\mathrm{e}^{\\sqrt{XY}}\\geqslant2\\mathrm{e}^{2\\ln3}=18\n$$\n<p>当且仅当 $X=Y=2\\ln3$，即 $a=2$，$b=1$ 时取等号. 因此最小值为 $18$.</p>"
+          "solution": "<p>由对数有意义，$a>0$，$b>0$. 由题设</p>\n$$\n\\log_{2}(ab)\\geqslant1\n$$\n<p>所以 $ab\\geqslant2$. 令 $X=a\\ln3$，$Y=2b\\ln3$，则 $X>0$，$Y>0$，且</p>\n$$\nXY=2ab(\\ln3)^{2}\\geqslant4(\\ln3)^{2}\n$$\n<p>由基本不等式，</p>\n$$\n3^{a}+9^{b}=\\mathrm{e}^{X}+\\mathrm{e}^{Y}  \\geqslant2\\mathrm{e}^{\\frac{(X+Y)}{2}}\\geqslant2\\mathrm{e}^{\\sqrt{XY}}\\geqslant2\\mathrm{e}^{2\\ln3}=18\n$$\n<p>当且仅当 $X=Y=2\\ln3$，即 $a=2$，$b=1$ 时取等号. 因此最小值为 $18$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
-          "body": "<p>如图，已知圆中两条弦 $AB$ 与 $CD$ 相交于点 $F$，$E$ 是 $AB$ 延长线上一点，且 $DF = CF = \\sqrt{2}$，$AF:FB:BE = 4:2:1$. 若 $CE$ 与圆相切，则 $CE$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{\\sqrt{7}}{2}$",
-          "solution": "<p>设 $AF=4k$、$FB=2k$、$BE=k$，其中 $k>0$. 由相交弦定理，</p>\n$$\nAF\\cdot FB=CF\\cdot DF=2\n$$\n<p>所以 $8k^{2}=2$，得 $k=\\dfrac{1}{2}$. 因而 $AF=2$，$FB=1$，$BE=\\frac{1}{2}$，且 $EA=AF+FB+BE=\\frac{7}{2}$.</p><p>由点 $E$ 的切割线定理，$CE$ 为切线，故</p>\n$$\nCE^{2}=EA\\cdot EB=\\frac{7}{2}\\cdot\\frac{1}{2}=\\frac{7}{4}\n$$\n<p>因为 $CE>0$，所以 $CE=\\dfrac{\\sqrt{7}}{2}$.</p>"
+          "body": "<p>如图，已知圆中两条弦 $AB$ 与 $CD$ 相交于点 $F$，$E$ 是 $AB$ 延长线上一点，且 $DF = CF = \\sqrt{2}$，$AF:FB:BE = 4:2:1$. 若 $CE$ 与圆相切，则 $CE$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/tianjin_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{\\sqrt{7}}{2}\\)",
+          "solution": "<p>设 $AF=4k$、$FB=2k$、$BE=k$，其中 $k>0$. 由相交弦定理，</p>\n$$\nAF\\cdot FB=CF\\cdot DF=2\n$$\n<p>所以 $8k^{2}=2$，得 $k=\\dfrac{1}{2}$. 因而 $AF=2$，$FB=1$，$BE=\\frac{1}{2}$，且 $EA=AF+FB+BE=\\frac{7}{2}$.</p><p>由点 $E$ 的切割线定理，$CE$ 为切线，故</p>\n$$\nCE^{2}=EA\\cdot EB=\\frac{7}{2}\\cdot\\frac{1}{2}=\\frac{7}{4}\n$$\n<p>因为 $CE>0$，所以 $CE=\\dfrac{\\sqrt{7}}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知直角梯形 $ABCD$ 中，$AD \\parallel BC$，$\\angle ADC = 90^{\\circ}$，$AD = 2$，$BC = 1$，$P$ 是腰 $DC$ 上的动点，则 $\\left|\\overrightarrow{PA}+3\\overrightarrow{PB}\\right|$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "5",
-          "solution": "<p>建立直角坐标系，令 $D=(0,0)$，$A=(0,2)$，设 $C=(t,0)$，其中 $t>0$. 由 $AD\\parallel BC$ 且 $BC=1$，可取 $B=(t,1)$. 设 $P=(s,0)$，其中 $0\\le s\\le t$. 则 $\\overrightarrow{PA}=(-s,2)$，$\\overrightarrow{PB}=(t-s,1)$，</p><p>从而</p>\n$$\n\\overrightarrow{PA}+3\\overrightarrow{PB}=(3t-4s,5)\n$$\n<p>因此</p>\n$$\n\\left|\\overrightarrow{PA}+3\\overrightarrow{PB}\\right|  =\\sqrt{(3t-4s)^{2}+25}\\geqslant5\n$$\n<p>取 $s=\\dfrac{3t}{4}$，此时 $0\\le s\\le t$，等号成立. 所以最小值为 $5$.</p>"
+          "solution": "<p>建立直角坐标系，令 $D=(0,0)$，$A=(0,2)$，设 $C=(t,0)$，其中 $t>0$. 由 $AD\\parallel BC$ 且 $BC=1$，可取 $B=(t,1)$. 设 $P=(s,0)$，其中 $0\\le s\\le t$. 则 $\\overrightarrow{PA}=(-s,2)$，$\\overrightarrow{PB}=(t-s,1)$，</p><p>从而</p>\n$$\n\\overrightarrow{PA}+3\\overrightarrow{PB}=(3t-4s,5)\n$$\n<p>因此</p>\n$$\n\\left|\\overrightarrow{PA}+3\\overrightarrow{PB}\\right|  =\\sqrt{(3t-4s)^{2}+25}\\geqslant5\n$$\n<p>取 $s=\\dfrac{3t}{4}$，此时 $0\\le s\\le t$，等号成立. 所以最小值为 $5$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -157,45 +308,57 @@
       "problems": [
         {
           "num": 15,
-          "body": "<p>编号分别为 $A_{1}$，$A_{2}$，$\\cdots$，$A_{16}$ 名篮球运动员在某次训练比赛中的得分记录如下：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>运动员编号 </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{1}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{2}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{3}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{4}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{5}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{6}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{7}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{8}$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>得分 </td><td style=\"text-align: center; border-right: 1px solid\"> 15 </td><td style=\"text-align: center; border-right: 1px solid\"> 35 </td><td style=\"text-align: center; border-right: 1px solid\"> 21 </td><td style=\"text-align: center; border-right: 1px solid\"> 28 </td><td style=\"text-align: center; border-right: 1px solid\"> 25 </td><td style=\"text-align: center; border-right: 1px solid\"> 36 </td><td style=\"text-align: center; border-right: 1px solid\"> 18 </td><td style=\"text-align: center; border-right: 1px solid\"> 34 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>运动员编号 </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{9}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{10}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{11}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{12}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{13}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{14}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{15}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{16}$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>得分 </td><td style=\"text-align: center; border-right: 1px solid\"> 17 </td><td style=\"text-align: center; border-right: 1px solid\"> 26 </td><td style=\"text-align: center; border-right: 1px solid\"> 25 </td><td style=\"text-align: center; border-right: 1px solid\"> 33 </td><td style=\"text-align: center; border-right: 1px solid\"> 22 </td><td style=\"text-align: center; border-right: 1px solid\"> 12 </td><td style=\"text-align: center; border-right: 1px solid\"> 31 </td><td style=\"text-align: center; border-right: 1px solid\"> 38 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>将得分在对应区间内的人数填入相应的空格；</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>区间 </td><td style=\"text-align: center; border-right: 1px solid\"> $[10,20)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $[20,30)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $[30,40]$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>人数 </td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u></td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u></td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p></li><li><p>从得分在区间 $[20, 30)$ 内的运动员中随机抽取 2 人，</p><p></p><ol class=\"enumerate\"><li><p>用运动员编号列出所有可能的抽取结果；</p></li><li><p>求这 2 人得分之和大于 50 的概率.</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "body": "<p>编号分别为 $A_{1}$，$A_{2}$，$\\cdots$，$A_{16}$ 名篮球运动员在某次训练比赛中的得分记录如下：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">运动员编号 </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{1}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{2}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{3}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{4}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{5}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{6}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{7}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{8}$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">得分 </td><td style=\"text-align: center; border-right: 1px solid\"> 15 </td><td style=\"text-align: center; border-right: 1px solid\"> 35 </td><td style=\"text-align: center; border-right: 1px solid\"> 21 </td><td style=\"text-align: center; border-right: 1px solid\"> 28 </td><td style=\"text-align: center; border-right: 1px solid\"> 25 </td><td style=\"text-align: center; border-right: 1px solid\"> 36 </td><td style=\"text-align: center; border-right: 1px solid\"> 18 </td><td style=\"text-align: center; border-right: 1px solid\"> 34 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">运动员编号 </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{9}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{10}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{11}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{12}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{13}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{14}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{15}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $A_{16}$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">得分 </td><td style=\"text-align: center; border-right: 1px solid\"> 17 </td><td style=\"text-align: center; border-right: 1px solid\"> 26 </td><td style=\"text-align: center; border-right: 1px solid\"> 25 </td><td style=\"text-align: center; border-right: 1px solid\"> 33 </td><td style=\"text-align: center; border-right: 1px solid\"> 22 </td><td style=\"text-align: center; border-right: 1px solid\"> 12 </td><td style=\"text-align: center; border-right: 1px solid\"> 31 </td><td style=\"text-align: center; border-right: 1px solid\"> 38 </td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>将得分在对应区间内的人数填入相应的空格；</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">区间 </td><td style=\"text-align: center; border-right: 1px solid\"> $[10,20)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $[20,30)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $[30,40]$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">人数 </td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u></td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u></td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td></tr></tbody></table></center><p></p></li><li><p>从得分在区间 $[20, 30)$ 内的运动员中随机抽取 2 人，</p><p></p><ol class=\"enumerate\"><li><p>用运动员编号列出所有可能的抽取结果；</p></li><li><p>求这 2 人得分之和大于 50 的概率.</p></li></ol><p></p></li></ol>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>得分在 $[10,20)$ 内的运动员为 $A_{1}$，$A_{7}$，$A_{9}$，$A_{14}$，所以人数为 $4$. 得分在 $[20,30)$ 内的运动员为 $A_{3}$，$A_{4}$，$A_{5}$，$A_{10}$，$A_{11}$，$A_{13}$，所以人数为 $6$. 得分在 $[30,40]$ 内的运动员为 $A_{2}$，$A_{6}$，$A_{8}$，$A_{12}$，$A_{15}$，$A_{16}$，所以人数为 $6$. 三个空格依次填 $4$，$6$，$6$.</p></li><li><p>得分在 $[20,30)$ 内的 6 名运动员为 $A_{3}$，$A_{4}$，$A_{5}$，$A_{10}$，$A_{11}$，$A_{13}$，任取 2 人的所有可能结果共有 $\\mathrm{C}_{6}^{2}=15$ 个，具体为</p>\n$$\n\\begin{gathered}\\{A_3,A_4\\},\\{A_3,A_5\\},\\{A_3,A_{10}\\},\\{A_3,A_{11}\\},\\{A_3,A_{13}\\},\\\\\n\n\\{A_4,A_5\\},\\{A_4,A_{10}\\},\\{A_4,A_{11}\\},\\{A_4,A_{13}\\},\\\\\n\n\\{A_5,A_{10}\\},\\{A_5,A_{11}\\},\\{A_5,A_{13}\\},\\\\\n\n\\{A_{10},A_{11}\\},\\{A_{10},A_{13}\\},\\{A_{11},A_{13}\\}.\\end{gathered}\n$$\n<p>其中得分之和大于 $50$ 的结果为</p><p>$\\{A_{4},A_{5}\\}$，$\\ \\{A_{4},A_{10}\\}$，$\\ \\{A_{4},A_{11}\\}$，$\\ \\{A_{5},A_{10}\\}$，$\\ \\{A_{10},A_{11}\\}$.</p><p>所以所求概率为</p>\n$$\n\\frac{5}{15}=\\frac{1}{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>得分在 $[10,20)$ 内的运动员为 $A_{1}$，$A_{7}$，$A_{9}$，$A_{14}$，所以人数为 $4$. 得分在 $[20,30)$ 内的运动员为 $A_{3}$，$A_{4}$，$A_{5}$，$A_{10}$，$A_{11}$，$A_{13}$，所以人数为 $6$. 得分在 $[30,40]$ 内的运动员为 $A_{2}$，$A_{6}$，$A_{8}$，$A_{12}$，$A_{15}$，$A_{16}$，所以人数为 $6$. 三个空格依次填 $4$，$6$，$6$.</p></li><li><p>得分在 $[20,30)$ 内的 6 名运动员为 $A_{3}$，$A_{4}$，$A_{5}$，$A_{10}$，$A_{11}$，$A_{13}$，任取 2 人的所有可能结果共有 $\\mathrm{C}_{6}^{2}=15$ 个，具体为</p>\n$$\n\\begin{gathered}\\{A_3,A_4\\},\\{A_3,A_5\\},\\{A_3,A_{10}\\},\\{A_3,A_{11}\\},\\{A_3,A_{13}\\},\\\\\n\n\\{A_4,A_5\\},\\{A_4,A_{10}\\},\\{A_4,A_{11}\\},\\{A_4,A_{13}\\},\\\\\n\n\\{A_5,A_{10}\\},\\{A_5,A_{11}\\},\\{A_5,A_{13}\\},\\\\\n\n\\{A_{10},A_{11}\\},\\{A_{10},A_{13}\\},\\{A_{11},A_{13}\\}.\\end{gathered}\n$$\n<p>其中得分之和大于 $50$ 的结果为</p><p>$\\{A_{4},A_{5}\\}$，$\\ \\{A_{4},A_{10}\\}$，$\\ \\{A_{4},A_{11}\\}$，$\\ \\{A_{5},A_{10}\\}$，$\\ \\{A_{10},A_{11}\\}$.</p><p>所以所求概率为</p>\n$$\n\\frac{5}{15}=\\frac{1}{3}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $B = C$，$2b = \\sqrt{3}a$.</p><ol class=\"enumerate\"><li><p>求 $\\cos A$ 的值；</p></li><li><p>$\\cos \\left(2A + \\frac{\\pi}{4}\\right)$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由 $B=C$，根据正弦定理可知 $b=c$. 在三角形中使用余弦定理，得</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A=2b^{2}(1-\\cos A)\n$$\n<p>由 $2b=\\sqrt{3}a$，得 $b^{2}=\\dfrac{3}{4}a^{2}$. 代入上式并约去 $a^{2}$，得</p>\n$$\n1=\\frac{3}{2}(1-\\cos A)\n$$\n<p>所以 $\\cos A=\\dfrac{1}{3}$. 因为 $0<A<\\pi$，故</p>\n$$\n\\sin A=\\sqrt{1-\\cos^{2}A}=\\frac{2\\sqrt{2}}{3}\n$$\n<p>于是 $\\cos2A=2\\cos^{2}A-1=-\\frac{7}{9}$，</p><p>$\\sin2A=2\\sin A\\cos A=\\frac{4\\sqrt{2}}{9}$.</p><p>因此</p>\n$$\n\\cos\\left(2A+\\frac{\\pi}{4}\\right)  =\\frac{\\cos2A-\\sin2A}{\\sqrt{2}}=-\\frac{4}{9}-\\frac{7\\sqrt{2}}{18}=-\\frac{8+7\\sqrt{2}}{18}\n$$"
+          "solution": "<p>由 $B=C$，根据正弦定理可知 $b=c$. 在三角形中使用余弦定理，得</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A=2b^{2}(1-\\cos A)\n$$\n<p>由 $2b=\\sqrt{3}a$，得 $b^{2}=\\dfrac{3}{4}a^{2}$. 代入上式并约去 $a^{2}$，得</p>\n$$\n1=\\frac{3}{2}(1-\\cos A)\n$$\n<p>所以 $\\cos A=\\dfrac{1}{3}$. 因为 $0<A<\\pi$，故</p>\n$$\n\\sin A=\\sqrt{1-\\cos^{2}A}=\\frac{2\\sqrt{2}}{3}\n$$\n<p>于是 $\\cos2A=2\\cos^{2}A-1=-\\frac{7}{9}$，</p><p>$\\sin2A=2\\sin A\\cos A=\\frac{4\\sqrt{2}}{9}$.</p><p>因此</p>\n$$\n\\cos\\left(2A+\\frac{\\pi}{4}\\right)  =\\frac{\\cos2A-\\sin2A}{\\sqrt{2}}=-\\frac{4}{9}-\\frac{7\\sqrt{2}}{18}=-\\frac{8+7\\sqrt{2}}{18}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图，在四棱锥 $P - ABCD$ 中，底面 $ABCD$ 为平行四边形，$\\angle ADC = 45^{\\circ}$，$AD = AC = 1$，$O$ 为 $AC$ 中点，$PO \\perp$ 平面 $ABCD$，$PO = 2$，$M$ 为 $PD$ 中点.</p><ol class=\"enumerate\"><li><p>证明： $PB \\parallel$ 平面 $ACM$；</p></li><li><p>证明： $AD \\perp$ 平面 $PAC$；</p></li><li><p>求直线 $AM$ 与平面 $ABCD$ 所成角的正切值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在四棱锥 $P - ABCD$ 中，底面 $ABCD$ 为平行四边形，$\\angle ADC = 45^{\\circ}$，$AD = AC = 1$，$O$ 为 $AC$ 中点，$PO \\perp$ 平面 $ABCD$，$PO = 2$，$M$ 为 $PD$ 中点.</p><ol class=\"enumerate\"><li><p>证明： $PB \\parallel$ 平面 $ACM$；</p></li><li><p>证明： $AD \\perp$ 平面 $PAC$；</p></li><li><p>求直线 $AM$ 与平面 $ABCD$ 所成角的正切值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/tianjin_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>建立空间直角坐标系，令 $D=(0,0,0)$，$A=(1,0,0)$. 因为 $\\angle ADC=45^{\\circ}$、$AD=1$、$AC=1$，可取 $C=(1,1,0)$，从而由平行四边形得 $B=(2,1,0)$. 又 $O=\\left(1,\\frac{1}{2},0\\right)$，$P=\\left(1,\\frac{1}{2},2\\right)$，</p><p>$M=\\left(\\frac{1}{2},\\frac{1}{4},1\\right)$.</p><ol class=\"enumerate\"><li><p>有 $\\overrightarrow{PB}=(1,\\frac{1}{2},-2)$，</p><p>$\\overrightarrow{AC}=(0,1,0)$，</p><p>$\\overrightarrow{AM}=(-\\frac{1}{2},\\frac{1}{4},1)$.</p><p>直接计算得</p>\n$$\n\\overrightarrow{PB}=\\overrightarrow{AC}-2\\overrightarrow{AM}\n$$\n<p>所以 $\\overrightarrow{PB}$ 是平面 $ACM$ 内两个相交方向向量的线性组合. 若 $B$ 在平面 $ACM$ 内，则存在实数 $\\lambda$，$\\mu$，使得</p>\n$$\n\\overrightarrow{AB}=\\lambda\\overrightarrow{AC}+\\mu\\overrightarrow{AM}\n$$\n<p>比较 $z$ 坐标得 $\\mu=0$，此时右端的 $x$ 坐标为 $0$，不等于 $\\overrightarrow{AB}$ 的 $x$ 坐标 $1$，矛盾. 因此 $B$ 不在平面 $ACM$ 内，故 $PB\\parallel$ 平面 $ACM$.</p></li><li><p>有 $\\overrightarrow{AD}=(-1,0,0)$，</p><p>$\\overrightarrow{AC}=(0,1,0)$，</p><p>$\\overrightarrow{AP}=(0,\\frac{1}{2},2)$.</p><p>因此 $\\overrightarrow{AD}\\cdot\\overrightarrow{AC}=0$，$\\overrightarrow{AD}\\cdot\\overrightarrow{AP}=0$. 直线 $AD$ 垂直于平面 $PAC$ 内相交的两条直线 $AC$、$AP$，所以 $AD\\perp$ 平面 $PAC$.</p></li><li><p>点 $M$ 在平面 $ABCD$ 上的射影为</p>\n$$\nM'=\\left(\\frac{1}{2},\\frac{1}{4},0\\right)\n$$\n<p>所以直线 $AM$ 在底面内的射影为 $AM'$，且 $AM'=\\sqrt{\\left(\\frac{1}{2}\\right)^{2}+\\left(\\frac{1}{4}\\right)^{2}}=\\frac{\\sqrt{5}}{4}$，</p><p>$MM'=1$.</p><p>设直线 $AM$ 与平面 $ABCD$ 所成的角为 $\\theta$，则</p>\n$$\n\\tan\\theta=\\frac{MM'}{AM'}=\\frac{1}{\\frac{\\sqrt{5}}{4}}=\\frac{4}{\\sqrt{5}}\n$$\n</li></ol>"
+          "solution": "<p>建立空间直角坐标系，令 $D=(0,0,0)$，$A=(1,0,0)$. 因为 $\\angle ADC=45^{\\circ}$、$AD=1$、$AC=1$，可取 $C=(1,1,0)$，从而由平行四边形得 $B=(2,1,0)$. 又 $O=\\left(1,\\frac{1}{2},0\\right)$，$P=\\left(1,\\frac{1}{2},2\\right)$，</p><p>$M=\\left(\\frac{1}{2},\\frac{1}{4},1\\right)$.</p><ol class=\"enumerate\"><li><p>有 $\\overrightarrow{PB}=(1,\\frac{1}{2},-2)$，</p><p>$\\overrightarrow{AC}=(0,1,0)$，</p><p>$\\overrightarrow{AM}=(-\\frac{1}{2},\\frac{1}{4},1)$.</p><p>直接计算得</p>\n$$\n\\overrightarrow{PB}=\\overrightarrow{AC}-2\\overrightarrow{AM}\n$$\n<p>所以 $\\overrightarrow{PB}$ 是平面 $ACM$ 内两个相交方向向量的线性组合. 若 $B$ 在平面 $ACM$ 内，则存在实数 $\\lambda$，$\\mu$，使得</p>\n$$\n\\overrightarrow{AB}=\\lambda\\overrightarrow{AC}+\\mu\\overrightarrow{AM}\n$$\n<p>比较 $z$ 坐标得 $\\mu=0$，此时右端的 $x$ 坐标为 $0$，不等于 $\\overrightarrow{AB}$ 的 $x$ 坐标 $1$，矛盾. 因此 $B$ 不在平面 $ACM$ 内，故 $PB\\parallel$ 平面 $ACM$.</p></li><li><p>有 $\\overrightarrow{AD}=(-1,0,0)$，</p><p>$\\overrightarrow{AC}=(0,1,0)$，</p><p>$\\overrightarrow{AP}=(0,\\frac{1}{2},2)$.</p><p>因此 $\\overrightarrow{AD}\\cdot\\overrightarrow{AC}=0$，$\\overrightarrow{AD}\\cdot\\overrightarrow{AP}=0$. 直线 $AD$ 垂直于平面 $PAC$ 内相交的两条直线 $AC$、$AP$，所以 $AD\\perp$ 平面 $PAC$.</p></li><li><p>点 $M$ 在平面 $ABCD$ 上的射影为</p>\n$$\nM'=\\left(\\frac{1}{2},\\frac{1}{4},0\\right)\n$$\n<p>所以直线 $AM$ 在底面内的射影为 $AM'$，且 $AM'=\\sqrt{\\left(\\frac{1}{2}\\right)^{2}+\\left(\\frac{1}{4}\\right)^{2}}=\\frac{\\sqrt{5}}{4}$，</p><p>$MM'=1$.</p><p>设直线 $AM$ 与平面 $ABCD$ 所成的角为 $\\theta$，则</p>\n$$\n\\tan\\theta=\\frac{MM'}{AM'}=\\frac{1}{\\frac{\\sqrt{5}}{4}}=\\frac{4}{\\sqrt{5}}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>设椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ （$a > b > 0$）的左、右焦点分别为 $F_{1}$，$F_{2}$. 点 $P(a, b)$ 满足 $|PF_{2}| = |F_{1}F_{2}|$.</p><ol class=\"enumerate\"><li><p>求椭圆的离心率 $e$；</p></li><li><p>设直线 $PF_{2}$ 与椭圆相交于 $A$，$B$ 两点，若直线 $PF_{2}$ 与圆 $(x + 1)^{2}+ (y - \\sqrt{3})^{2}= 16$ 相交于 $M$，$N$ 两点，且 $|MN| = \\frac{5}{8}|AB|$，求椭圆的方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$，则 $c^{2}=a^{2}-b^{2}$，且 $F_{1}=(-c,0)$、$F_{2}=(c,0)$. 由 $P=(a,b)$ 及题设，</p>\n$$\n(a-c)^{2}+b^{2}=4c^{2}\n$$\n<p>利用 $b^{2}=a^{2}-c^{2}$，得</p>\n$$\n2a^{2}-2ac=4c^{2}\n$$\n<p>令 $e=\\dfrac{c}{a}$，并注意 $e>0$，则</p>\n$$\n2-2e=4e^{2}\n$$\n<p>即 $2e^{2}+e-1=0$. 所以 $e=\\dfrac{1}{2}$.</p></li><li><p>由 $e=\\dfrac{1}{2}$，得 $c=\\dfrac{a}{2}$，$b=\\dfrac{\\sqrt{3}}{2}a$. 直线 $PF_{2}$ 的方向单位向量可取</p>\n$$\n\\mathbf{u}=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)\n$$\n<p>以 $F_{2}$ 为参数原点，设直线上的点为</p>\n$$\n(x,y)=F_{2}+t\\mathbf{u}=\\left(\\frac{a}{2}+\\frac{t}{2},\\frac{\\sqrt{3}\\,t}{2}\\right)\n$$\n<p>其中 $t$ 表示有向距离. 代入椭圆方程，得</p>\n$$\n\\frac{(a+t)^{2}}{4a^{2}}+\\frac{t^{2}}{a^{2}}=1\n$$\n<p>即</p>\n$$\n5t^{2}+2at-3a^{2}=0\n$$\n<p>其两根为 $t=-a$、$t=\\dfrac{3a}{5}$，所以</p>\n$$\n|AB|=\\frac{3a}{5}+a=\\frac{8a}{5}\n$$\n<p>圆心为 $Q=(-1,\\sqrt{3})$，半径为 $4$. 直线 $PF_{2}$ 的方程为</p>\n$$\n\\sqrt{3}x-y-\\frac{\\sqrt{3}a}{2}=0\n$$\n<p>圆心到该直线的距离为</p>\n$$\nd=\\frac{\\left|-\\sqrt{3}-\\sqrt{3}-\\dfrac{\\sqrt{3}a}{2}\\right|}{2}=\\frac{\\sqrt{3}(a+4)}{4}\n$$\n<p>所以圆在该直线上的弦长为</p>\n$$\n|MN|=2\\sqrt{16-d^{2}}=2\\sqrt{16-\\frac{3(a+4)^2}{16}}\n$$\n<p>由 $|MN|=\\dfrac{5}{8}|AB|=a$，得</p>\n$$\na^{2}=64-\\frac{3}{4}(a+4)^{2}\n$$\n<p>即</p>\n$$\n7a^{2}+24a-208=0\n$$\n<p>解得 $a=4$ 或 $a=-\\dfrac{52}{7}$. 因 $a>0$，故 $a=4$，$b=2\\sqrt{3}$，且此时 $d=2\\sqrt{3}<4$，确有两个交点. 所求椭圆方程为</p>\n$$\n\\frac{x^{2}}{16}+\\frac{y^{2}}{12}=1\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$，则 $c^{2}=a^{2}-b^{2}$，且 $F_{1}=(-c,0)$、$F_{2}=(c,0)$. 由 $P=(a,b)$ 及题设，</p>\n$$\n(a-c)^{2}+b^{2}=4c^{2}\n$$\n<p>利用 $b^{2}=a^{2}-c^{2}$，得</p>\n$$\n2a^{2}-2ac=4c^{2}\n$$\n<p>令 $e=\\dfrac{c}{a}$，并注意 $e>0$，则</p>\n$$\n2-2e=4e^{2}\n$$\n<p>即 $2e^{2}+e-1=0$. 所以 $e=\\dfrac{1}{2}$.</p></li><li><p>由 $e=\\dfrac{1}{2}$，得 $c=\\dfrac{a}{2}$，$b=\\dfrac{\\sqrt{3}}{2}a$. 直线 $PF_{2}$ 的方向单位向量可取</p>\n$$\n\\mathbf{u}=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)\n$$\n<p>以 $F_{2}$ 为参数原点，设直线上的点为</p>\n$$\n(x,y)=F_{2}+t\\mathbf{u}=\\left(\\frac{a}{2}+\\frac{t}{2},\\frac{\\sqrt{3}\\,t}{2}\\right)\n$$\n<p>其中 $t$ 表示有向距离. 代入椭圆方程，得</p>\n$$\n\\frac{(a+t)^{2}}{4a^{2}}+\\frac{t^{2}}{a^{2}}=1\n$$\n<p>即</p>\n$$\n5t^{2}+2at-3a^{2}=0\n$$\n<p>其两根为 $t=-a$、$t=\\dfrac{3a}{5}$，所以</p>\n$$\n|AB|=\\frac{3a}{5}+a=\\frac{8a}{5}\n$$\n<p>圆心为 $Q=(-1,\\sqrt{3})$，半径为 $4$. 直线 $PF_{2}$ 的方程为</p>\n$$\n\\sqrt{3}x-y-\\frac{\\sqrt{3}a}{2}=0\n$$\n<p>圆心到该直线的距离为</p>\n$$\nd=\\frac{\\left|-\\sqrt{3}-\\sqrt{3}-\\dfrac{\\sqrt{3}a}{2}\\right|}{2}=\\frac{\\sqrt{3}(a+4)}{4}\n$$\n<p>所以圆在该直线上的弦长为</p>\n$$\n|MN|=2\\sqrt{16-d^{2}}=2\\sqrt{16-\\frac{3(a+4)^2}{16}}\n$$\n<p>由 $|MN|=\\dfrac{5}{8}|AB|=a$，得</p>\n$$\na^{2}=64-\\frac{3}{4}(a+4)^{2}\n$$\n<p>即</p>\n$$\n7a^{2}+24a-208=0\n$$\n<p>解得 $a=4$ 或 $a=-\\dfrac{52}{7}$. 因 $a>0$，故 $a=4$，$b=2\\sqrt{3}$，且此时 $d=2\\sqrt{3}<4$，确有两个交点. 所求椭圆方程为</p>\n$$\n\\frac{x^{2}}{16}+\\frac{y^{2}}{12}=1\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知函数 $f(x) = 4x^{3}+ 3tx^{2}- 6t^{2}x + t - 1$，$x \\in \\mathbb{R}$，其中 $t \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>当 $t = 1$ 时，求曲线 $y = f(x)$ 在点 $(0, f(0))$ 处的切线方程；</p></li><li><p>当 $t \\neq 0$ 时，求 $f(x)$ 的单调区间；</p></li><li><p>证明：对任意的 $t \\in (0, +\\infty)$，$f(x)$ 在区间 $(0, 1)$ 内均存在零点.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $t=1$ 时，$f(x)=4x^{3}+3x^{2}-6x$，$f(0)=0$.</p><p>又</p>\n$$\nf'(x)=12x^{2}+6x-6\n$$\n<p>所以 $f'(0)=-6$. 曲线在 $(0,f(0))=(0,0)$ 处的切线方程为</p>\n$$\ny=-6x\n$$\n</li><li><p>对任意 $t$，</p>\n$$\nf'(x)=12x^{2}+6tx-6t^{2}  =6(x+t)(2x-t)\n$$\n<p>当 $t>0$ 时，$-t<\\dfrac{t}{2}$，所以 $f'(x)$ 在 $(-\\infty,-t)$、$\\left(\\dfrac{t}{2},+\\infty\\right)$ 上为正，在 $\\left(-t,\\dfrac{t}{2}\\right)$ 上为负. 因此 $f(x)$ 的增区间为 $(-\\infty,-t)$、$\\left(\\dfrac{t}{2},+\\infty\\right)$，减区间为 $\\left(-t,\\dfrac{t}{2}\\right)$.</p><p>当 $t<0$ 时，$\\dfrac{t}{2}<-t$，所以 $f'(x)$ 在 $\\left(-\\infty,\\dfrac{t}{2}\\right)$、$(-t,+\\infty)$ 上为正，在 $\\left(\\dfrac{t}{2},-t\\right)$ 上为负. 因此 $f(x)$ 的增区间为 $\\left(-\\infty,\\dfrac{t}{2}\\right)$、$(-t,+\\infty)$，减区间为 $\\left(\\dfrac{t}{2},-t\\right)$.</p></li><li><p>先计算</p>\n$$\nf\\left(\\frac{1}{2}\\right)=-3t^{2}+\\frac{7}{4}t-\\frac{1}{2}= -3\\left(t-\\frac{7}{24}\\right)^{2}-\\frac{47}{192}<0\n$$\n<p>当 $0<t\\leqslant1$ 时，由 $t^{2}\\le t$，有</p>\n$$\nf(1)=3+4t-6t^{2}\\geqslant3-2t\\geqslant1>0\n$$\n<p>于是由零点存在定理，$f(x)$ 在 $\\left(\\dfrac{1}{2},1\\right)$ 内存在零点. 当 $t>1$ 时，$f(0)=t-1>0$，结合 $f\\left(\\dfrac{1}{2}\\right)<0$，由零点存在定理，$f(x)$ 在 $\\left(0,\\dfrac{1}{2}\\right)$ 内存在零点. 所以对任意 $t>0$，$f(x)$ 在 $(0,1)$ 内均存在零点.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $t=1$ 时，$f(x)=4x^{3}+3x^{2}-6x$，$f(0)=0$.</p><p>又</p>\n$$\nf'(x)=12x^{2}+6x-6\n$$\n<p>所以 $f'(0)=-6$. 曲线在 $(0,f(0))=(0,0)$ 处的切线方程为</p>\n$$\ny=-6x\n$$\n</li><li><p>对任意 $t$，</p>\n$$\nf'(x)=12x^{2}+6tx-6t^{2}  =6(x+t)(2x-t)\n$$\n<p>当 $t>0$ 时，$-t<\\dfrac{t}{2}$，所以 $f'(x)$ 在 $(-\\infty,-t)$、$\\left(\\dfrac{t}{2},+\\infty\\right)$ 上为正，在 $\\left(-t,\\dfrac{t}{2}\\right)$ 上为负. 因此 $f(x)$ 的增区间为 $(-\\infty,-t)$、$\\left(\\dfrac{t}{2},+\\infty\\right)$，减区间为 $\\left(-t,\\dfrac{t}{2}\\right)$.</p><p>当 $t<0$ 时，$\\dfrac{t}{2}<-t$，所以 $f'(x)$ 在 $\\left(-\\infty,\\dfrac{t}{2}\\right)$、$(-t,+\\infty)$ 上为正，在 $\\left(\\dfrac{t}{2},-t\\right)$ 上为负. 因此 $f(x)$ 的增区间为 $\\left(-\\infty,\\dfrac{t}{2}\\right)$、$(-t,+\\infty)$，减区间为 $\\left(\\dfrac{t}{2},-t\\right)$.</p></li><li><p>先计算</p>\n$$\nf\\left(\\frac{1}{2}\\right)=-3t^{2}+\\frac{7}{4}t-\\frac{1}{2}= -3\\left(t-\\frac{7}{24}\\right)^{2}-\\frac{47}{192}<0\n$$\n<p>当 $0<t\\leqslant1$ 时，由 $t^{2}\\le t$，有</p>\n$$\nf(1)=3+4t-6t^{2}\\geqslant3-2t\\geqslant1>0\n$$\n<p>于是由零点存在定理，$f(x)$ 在 $\\left(\\dfrac{1}{2},1\\right)$ 内存在零点. 当 $t>1$ 时，$f(0)=t-1>0$，结合 $f\\left(\\dfrac{1}{2}\\right)<0$，由零点存在定理，$f(x)$ 在 $\\left(0,\\dfrac{1}{2}\\right)$ 内存在零点. 所以对任意 $t>0$，$f(x)$ 在 $(0,1)$ 内均存在零点.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知数列 $\\{a_{n}\\}$ 与 $\\{b_{n}\\}$ 满足： $b_{n+1}a_{n}+ b_{n}a_{n+1}= (-2)^{n}+ 1$，$b_{n}= \\frac{3 + (-1)^{n-1}}{2}$，$n \\in \\mathbb{N}^{*}$，且 $a_{1}= 2$.</p><ol class=\"enumerate\"><li><p>求 $a_{2}$，$a_{3}$ 的值；</p></li><li><p>设 $c_{n}= a_{2n + 1}- a_{2n - 1}$，$n \\in \\mathbb{N}^{*}$，证明：数列 $\\{c_{n}\\}$ 是等比数列；</p></li><li><p>设 $S_{n}$ 为 $\\{a_{n}\\}$ 的前 $n$ 项和，证明 $\\frac{S_{1}}{a_{1}}+ \\frac{S_{2}}{a_{2}}+ \\ldots + \\frac{S_{2n-1}}{a_{2n-1}}+ \\frac{S_{2n}}{a_{2n}}\\le n - \\frac{1}{3}$ （$n \\in \\mathbb{N}^{*}$）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $b_{1}=2$，$b_{2}=1$，$b_{3}=2$.</p><p>在原递推式中令 $n=1$，得</p>\n$$\na_{1}+2a_{2}=-1\n$$\n<p>代入 $a_{1}=2$，得 $a_{2}=-\\dfrac{3}{2}$. 令 $n=2$，得</p>\n$$\n2a_{2}+a_{3}=5\n$$\n<p>所以 $a_{3}=8$.</p></li><li><p>对 $n\\in\\mathbb{N}^{*}$，分别在原递推式中取 $2n-1$ 和 $2n$，得</p>\n$$\na_{2n-1}+2a_{2n}=1-2\\cdot4^{n-1}\n$$\n\n$$\n2a_{2n}+a_{2n+1}=4^{n}+1\n$$\n<p>两式相减，得</p>\n$$\nc_{n}=a_{2n+1}-a_{2n-1}=4^{n}+2\\cdot4^{n-1}=6\\cdot4^{n-1}\n$$\n<p>因此</p>\n$$\n\\frac{c_{n+1}}{c_{n}}=4\n$$\n<p>所以数列 $\\{c_{n}\\}$ 是以 $4$ 为公比的等比数列.</p></li><li><p>由上一步的结果及 $a_{1}=2$，得</p>\n$$\na_{2n-1}=a_{1}+\\sum_{j=1}^{n-1}c_{j}  =2+\\sum_{j=1}^{n-1}6\\cdot4^{j-1}=2\\cdot4^{n-1}\n$$\n<p>再由 $a_{2n-1}+2a_{2n}=1-2\\cdot4^{n-1}$，得</p>\n$$\na_{2n}=\\frac{1-4^{n}}{2}\n$$\n<p>于是</p>\n$$\nS_{2n-1}=\\sum_{j=1}^{n}a_{2j-1}+\\sum_{j=1}^{n-1}a_{2j}=2\\cdot4^{n-1}+\\frac{n-1}{2}\n$$\n\n$$\nS_{2n}=S_{2n-1}+a_{2n}=\\frac{n}{2}\n$$\n<p>从而 $\\frac{S_{2n-1}}{a_{2n-1}}=1+\\frac{n-1}{4^{n}}$，</p><p>$\\frac{S_{2n}}{a_{2n}}=\\frac{n}{1-4^{n}}$.</p><p>令</p>\n$$\nq_{n}=\\frac{S_{2n-1}}{a_{2n-1}}+\\frac{S_{2n}}{a_{2n}}=1+\\frac{n-1}{4^{n}}-\\frac{n}{4^{n}-1}\n$$\n<p>因为</p>\n$$\n\\frac{n-1}{4^{n}}<\\frac{n}{4^{n}-1}\n$$\n<p>且两边之差为</p>\n$$\n\\frac{n}{4^{n}-1}-\\frac{n-1}{4^{n}}=\\frac{4^{n}+n-1}{4^{n}(4^{n}-1)}>0\n$$\n<p>所以 $q_{n}<1$. 又 $q_{1}=1-\\dfrac{1}{3}=\\dfrac{2}{3}$. 因此</p>\n$$\n\\sum_{k=1}^{2n}\\frac{S_{k}}{a_{k}}=\\sum_{j=1}^{n}q_{j}  \\le\\frac{2}{3}+(n-1)  =n-\\frac{1}{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $b_{1}=2$，$b_{2}=1$，$b_{3}=2$.</p><p>在原递推式中令 $n=1$，得</p>\n$$\na_{1}+2a_{2}=-1\n$$\n<p>代入 $a_{1}=2$，得 $a_{2}=-\\dfrac{3}{2}$. 令 $n=2$，得</p>\n$$\n2a_{2}+a_{3}=5\n$$\n<p>所以 $a_{3}=8$.</p></li><li><p>对 $n\\in\\mathbb{N}^{*}$，分别在原递推式中取 $2n-1$ 和 $2n$，得</p>\n$$\na_{2n-1}+2a_{2n}=1-2\\cdot4^{n-1}\n$$\n\n$$\n2a_{2n}+a_{2n+1}=4^{n}+1\n$$\n<p>两式相减，得</p>\n$$\nc_{n}=a_{2n+1}-a_{2n-1}=4^{n}+2\\cdot4^{n-1}=6\\cdot4^{n-1}\n$$\n<p>因此</p>\n$$\n\\frac{c_{n+1}}{c_{n}}=4\n$$\n<p>所以数列 $\\{c_{n}\\}$ 是以 $4$ 为公比的等比数列.</p></li><li><p>由上一步的结果及 $a_{1}=2$，得</p>\n$$\na_{2n-1}=a_{1}+\\sum_{j=1}^{n-1}c_{j}  =2+\\sum_{j=1}^{n-1}6\\cdot4^{j-1}=2\\cdot4^{n-1}\n$$\n<p>再由 $a_{2n-1}+2a_{2n}=1-2\\cdot4^{n-1}$，得</p>\n$$\na_{2n}=\\frac{1-4^{n}}{2}\n$$\n<p>于是</p>\n$$\nS_{2n-1}=\\sum_{j=1}^{n}a_{2j-1}+\\sum_{j=1}^{n-1}a_{2j}=2\\cdot4^{n-1}+\\frac{n-1}{2}\n$$\n\n$$\nS_{2n}=S_{2n-1}+a_{2n}=\\frac{n}{2}\n$$\n<p>从而 $\\frac{S_{2n-1}}{a_{2n-1}}=1+\\frac{n-1}{4^{n}}$，</p><p>$\\frac{S_{2n}}{a_{2n}}=\\frac{n}{1-4^{n}}$.</p><p>令</p>\n$$\nq_{n}=\\frac{S_{2n-1}}{a_{2n-1}}+\\frac{S_{2n}}{a_{2n}}=1+\\frac{n-1}{4^{n}}-\\frac{n}{4^{n}-1}\n$$\n<p>因为</p>\n$$\n\\frac{n-1}{4^{n}}<\\frac{n}{4^{n}-1}\n$$\n<p>且两边之差为</p>\n$$\n\\frac{n}{4^{n}-1}-\\frac{n-1}{4^{n}}=\\frac{4^{n}+n-1}{4^{n}(4^{n}-1)}>0\n$$\n<p>所以 $q_{n}<1$. 又 $q_{1}=1-\\dfrac{1}{3}=\\dfrac{2}{3}$. 因此</p>\n$$\n\\sum_{k=1}^{2n}\\frac{S_{k}}{a_{k}}=\\sum_{j=1}^{n}q_{j}  \\le\\frac{2}{3}+(n-1)  =n-\\frac{1}{3}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

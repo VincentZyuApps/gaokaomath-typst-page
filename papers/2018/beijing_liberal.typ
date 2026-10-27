@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,66 +11,68 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $A=\{x | | x|<2\}$，$B=\{-2,0,1,2\}$，则 $A inter B=$（ ）.
-  #choices([$\{0,1\}$], [$\{-1,0,1\}$], [$\{-2,0,1,2\}$], [$\{-1,0,1,2\}$], cols: 4)
+已知集合 #mi(`A=\{x\mid \lvert x\rvert<2\}`)，#mi(`B=\{-2,0,1,2\}`)，则 #mi(`A\cap B=`)（ ）.
+  #choices([#mi(`\{0,1\}`)], [#mi(`\{-1,0,1\}`)], [#mi(`\{-2,0,1,2\}`)], [#mi(`\{-1,0,1,2\}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由 $| x|<2$ 得 $-2<x<2$，所以 $A$ 中包含 $0$ 和 $1$，但不包含 $-2$ 和 $2$. 因此 $A inter B=\{0,1\}$，故选 A.
+由 #mi(`\lvert x\rvert<2`) 得 #mi(`-2<x<2`)，所以 #mi(`A`) 中包含 #mi(`0`) 和 #mi(`1`)，但不包含 #mi(`-2`) 和 #mi(`2`). 因此 #mi(`A\cap B=\{0,1\}`)，故选 A.
 ]
 
 #problem(2)[
-在复平面内，复数 $(1)/(1- i)$ 的共轭复数对应的点位于（ ）.
+在复平面内，复数 #mi(`\dfrac1{1-\mathrm{i}}`) 的共轭复数对应的点位于（ ）.
   #choices([第一象限], [第二象限], [第三象限], [第四象限], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-$(1)/(1- i)=(1+ i)/((1- i )(1+ i ))=(1+ i)/(2)$，其共轭复数为 $(1- i)/(2)$. 对应点的坐标为 $((1)/(2),-(1)/(2))$，实部为正、虚部为负，位于第四象限，故选 D.
+#mi(`\displaystyle \frac{1}{1-\mathrm{i}}=\frac{1+\mathrm{i}}{(1-\mathrm{i})(1+\mathrm{i})}=\frac{1+\mathrm{i}}{2}`)，其共轭复数为 #mi(`\displaystyle \frac{1-\mathrm{i}}{2}`). 对应点的坐标为 #mi(`\left(\dfrac{1}{2},-\dfrac{1}{2}\right)`)，实部为正、虚部为负，位于第四象限，故选 D.
 ]
 
 #problem(3)[
-执行如图所示的程序框图，输出的 $s$ 值为（ ）.
+执行如图所示的程序框图，输出的 #mi(`s`) 值为（ ）.
 
 \begingroup
 
-#align(center)[#image("/papers/2018/img/beijing_liberal/q3_fig1.png", width: 32%)]
+
+#align(center)[#image("/papers/2018/img/beijing_liberal/q3_fig1.png", width: 28%)]
+
 
 \endgroup
-  #choices([$(1)/(2)$], [$(5)/(6)$], [$(7)/(6)$], [$(7)/(12)$], cols: 4)
+  #choices([#mi(`\dfrac{1}{2}`)], [#mi(`\dfrac{5}{6}`)], [#mi(`\dfrac{7}{6}`)], [#mi(`\dfrac7{12}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-程序开始时 $k=1$，$s=1$. 第一次循环将 $k=1$ 代入，得 $s=1+(-1)^1 dot (1)/(1+1)=(1)/(2)$，随后 $k=2$，因 $k<3$ 继续循环. 第二次循环得 $s=(1)/(2)+(-1)^2 dot (1)/(1+2)=(5)/(6)$，随后 $k=3$，满足 $k\g e q3$，输出 $s=(5)/(6)$，故选 B.
+程序开始时 #mi(`k=1`)，#mi(`s=1`). 第一次循环将 #mi(`k=1`) 代入，得 #mi(`s=1+(-1)^{1}\cdot\dfrac1{1+1}=\dfrac{1}{2}`)，随后 #mi(`k=2`)，因 #mi(`k<3`) 继续循环. 第二次循环得 #mi(`s=\dfrac{1}{2}+(-1)^{2}\cdot\dfrac1{1+2}=\dfrac{5}{6}`)，随后 #mi(`k=3`)，满足 #mi(`k\geq3`)，输出 #mi(`s=\dfrac{5}{6}`)，故选 B.
 ]
 
 #problem(4)[
-设 $a$，$b$，$c$，$d$ 是非零实数，则“$a d=b c$”是“$a$，$b$，$c$，$d$ 成等比数列”的（ ）.
+设 #mi(`a`)，#mi(`b`)，#mi(`c`)，#mi(`d`) 是非零实数，则“#mi(`ad=bc`)”是“#mi(`a`)，#mi(`b`)，#mi(`c`)，#mi(`d`) 成等比数列”的（ ）.
   #choices([充分而不必要条件], [必要而不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-若 $a$，$b$，$c$，$d$ 成等比数列，设公比为 $q$，则 $b=a q$，$c=a q^2$，$d=a q^3$，从而 $a d=a^(2) q^3=b c$，所以“$a$，$b$，$c$，$d$ 成等比数列”是“$a d=b c$”的必要条件.
+若 #mi(`a`)，#mi(`b`)，#mi(`c`)，#mi(`d`) 成等比数列，设公比为 #mi(`q`)，则 #mi(`b=aq`)，#mi(`c=aq^{2}`)，#mi(`d=aq^{3}`)，从而 #mi(`ad=a^{2}q^{3}=bc`)，所以“#mi(`a`)，#mi(`b`)，#mi(`c`)，#mi(`d`) 成等比数列”是“#mi(`ad=bc`)”的必要条件.
 
-但反例 $a=1$，$b=1$，$c=2$，$d=2$ 满足 $a d=b c=2$，而相邻两项的比依次为 $1$，$2$，$1$，不是等比数列. 因此该条件必要而不充分，故选 B.
+但反例 #mi(`a=1`)，#mi(`b=1`)，#mi(`c=2`)，#mi(`d=2`) 满足 #mi(`ad=bc=2`)，而相邻两项的比依次为 #mi(`1`)，#mi(`2`)，#mi(`1`)，不是等比数列. 因此该条件必要而不充分，故选 B.
 ]
 
 #problem(5)[
-“十二平均律”是通用的音律体系，明代朱载堉最早用数学方法计算出半音比例，为这个理论的发展做出了重要贡献. 十二平均律将一个纯八度音程分成十二份，依次得到十三个单音，从第二个单音起，每一个单音的频率与它的前一个单音的频率的比都等于 $root(12, 2)$. 若第一个单音的频率为 $f$，则第八个单音频率为（ ）.
-  #choices([$root(3, 2) f$], [$root(3, 2^2) f$], [$root(12, 2^5) f$], [$root(12, 2^7) f$], cols: 2)
+“十二平均律”是通用的音律体系，明代朱载堉最早用数学方法计算出半音比例，为这个理论的发展做出了重要贡献. 十二平均律将一个纯八度音程分成十二份，依次得到十三个单音，从第二个单音起，每一个单音的频率与它的前一个单音的频率的比都等于 #mi(`\sqrt[12]{2}`). 若第一个单音的频率为 #mi(`f`)，则第八个单音频率为（ ）.
+  #choices([#mi(`\sqrt[3]{2}\,f`)], [#mi(`\sqrt[3]{2^{2}}\,f`)], [#mi(`\sqrt[12]{2^{5}}\,f`)], [#mi(`\sqrt[12]{2^{7}}\,f`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-从第二个单音起，相邻两个单音频率的比为 $root(12, 2)$，所以第 $n$ 个单音的频率为 $f(root(12, 2))^(n-1)$. 取 $n=8$，得第八个单音的频率为 $f(root(12, 2))^7=root(12, 2^7) f$，故选 D.
+从第二个单音起，相邻两个单音频率的比为 #mi(`\sqrt[12]{2}`)，所以第 #mi(`n`) 个单音的频率为 #mi(`f\left(\sqrt[12]{2}\right)^{n-1}`). 取 #mi(`n=8`)，得第八个单音的频率为 #mi(`f\left(\sqrt[12]{2}\right)^{7}=\sqrt[12]{2^{7}}\,f`)，故选 D.
 ]
 
 #problem(6)[
@@ -78,318 +80,260 @@ $(1)/(1- i)=(1+ i)/((1- i )(1+ i ))=(1+ i)/(2)$，其共轭复数为 $(1- i)/(2)
 
 \begingroup
 
-#align(center)[#image("/papers/2018/img/beijing_liberal/q6_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2018/img/beijing_liberal/q6_fig1.png", width: 28%)]
+
 
 \endgroup
+
 \FloatBarrier
-  #choices([$1$], [$2$], [$3$], [$4$], cols: 4)
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`3`)], [#mi(`4`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-按三视图还原四棱锥，记顶点为 $P$，底面顶点按俯视图顺次为 $A$，$B$，$C$，$D$. 由三视图可得 $P A bot$ 平面 $A B C D$，且 $P A=2$，$A B=A D=2$，$B C=1$，$A C=C D=sqrt(5)$.
+按三视图还原四棱锥，记顶点为 #mi(`P`)，底面顶点按俯视图顺次为 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`). 由三视图可得 #mi(`PA\perp`) 平面 #mi(`ABCD`)，且 #mi(`PA=2`)，#mi(`AB=AD=2`)，#mi(`BC=1`)，#mi(`AC=CD=\sqrt{5}`).
 
-因为 $P A bot$ 平面 $A B C D$，所以三角形 $P A B$ 和三角形 $P A D$ 都在点 $A$ 处为直角. 又 $P B^2=P A^2+A B^2=8$，$P C^2=P A^2+A C^2=9$，且 $B C^2=1$，故 $P B^2+B C^2=P C^2$，三角形 $P B C$ 在点 $B$ 处为直角.
+因为 #mi(`PA\perp`) 平面 #mi(`ABCD`)，所以三角形 #mi(`PAB`) 和三角形 #mi(`PAD`) 都在点 #mi(`A`) 处为直角. 又 #mi(`PB^{2}=PA^{2}+AB^{2}=8`)，#mi(`PC^{2}=PA^{2}+AC^{2}=9`)，且 #mi(`BC^{2}=1`)，故 #mi(`PB^{2}+BC^{2}=PC^{2}`)，三角形 #mi(`PBC`) 在点 #mi(`B`) 处为直角.
 
-对于三角形 $P C D$，三边长分别为 $P C=3$，$P D=sqrt(P A^2+A D^2)=2 sqrt(2)$，$C D=sqrt(5)$，有 $3^2$，$(2 sqrt(2))^2$，$(sqrt(5))^2$ 中任意两数之和都不等于第三数，故它不是直角三角形. 因此侧面中直角三角形共有 $3$ 个，故选 C.
+对于三角形 #mi(`PCD`)，三边长分别为 #mi(`PC=3`)，#mi(`PD=\sqrt{PA^{2}+AD^{2}}=2\sqrt{2}`)，#mi(`CD=\sqrt{5}`)，有 #mi(`3^{2}`)，#mi(`(2\sqrt{2})^{2}`)，#mi(`(\sqrt{5})^{2}`) 中任意两数之和都不等于第三数，故它不是直角三角形. 因此侧面中直角三角形共有 #mi(`3`) 个，故选 C.
 ]
 
 #problem(7)[
-在平面直角坐标系中，$\m y a r c{A B}$，$\m y a r c{C D}$，$\m y a r c{E F}$，$\m y a r c{G H}$ 是圆 $x^2+y^2=1$ 上的四段弧（如图），点 $P$ 在其中一段上，角 $alpha$ 以 $O x$ 为始边，$O P$ 为终边，若 $tan alpha < cos alpha < sin alpha$，则 $P$ 所在的圆弧是（ ）.
+在平面直角坐标系中，#mi(`\overset{\frown}{AB}`)，#mi(`\overset{\frown}{CD}`)，#mi(`\overset{\frown}{EF}`)，#mi(`\overset{\frown}{GH}`) 是圆 #mi(`x^{2}+y^{2}=1`) 上的四段弧（如图），点 #mi(`P`) 在其中一段上，角 #mi(`\alpha`) 以 #mi(`Ox`) 为始边，#mi(`OP`) 为终边，若 #mi(`\tan\alpha<\cos\alpha<\sin\alpha`)，则 #mi(`P`) 所在的圆弧是（ ）.
 
 \begingroup
 
-#align(center)[#image("/papers/2018/img/beijing_liberal/q7_fig1.png", width: 38%)]
+
+#align(center)[#image("/papers/2018/img/beijing_liberal/q7_fig1.png", width: 28%)]
+
 
 \endgroup
-  #choices([$\m y a r c{A B}$], [$\m y a r c{C D}$], [$\m y a r c{E F}$], [$\m y a r c{G H}$], cols: 2)
+  #choices([#mi(`\overset{\frown}{AB}`)], [#mi(`\overset{\frown}{CD}`)], [#mi(`\overset{\frown}{EF}`)], [#mi(`\overset{\frown}{GH}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设 $P=( cos alpha , sin alpha )$. 若 $P$ 在第一象限，则 $0< cos alpha <1$，而 $sin alpha > cos alpha$ 时有 $tan alpha =(sin alpha)/(cos alpha)>1> cos alpha$，不可能满足 $tan alpha < cos alpha$. 第四象限中 $cos alpha >0> sin alpha$，不满足 $cos alpha < sin alpha$；第三象限中 $tan alpha >0> cos alpha$，也不可能满足不等式.
+设 #mi(`P=(\cos\alpha,\sin\alpha)`). 若 #mi(`P`) 在第一象限，则 #mi(`0<\cos\alpha<1`)，而 #mi(`\sin\alpha>\cos\alpha`) 时有 #mi(`\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}>1>\cos\alpha`)，不可能满足 #mi(`\tan\alpha<\cos\alpha`). 第四象限中 #mi(`\cos\alpha>0>\sin\alpha`)，不满足 #mi(`\cos\alpha<\sin\alpha`)；第三象限中 #mi(`\tan\alpha>0>\cos\alpha`)，也不可能满足不等式.
 
-因此只能有 $cos alpha <0$，$sin alpha >0$，即 $P$ 在第二象限. 图中第二象限对应的圆弧为 $\m y a r c{E F}$，故选 C.
+因此只能有 #mi(`\cos\alpha<0`)，#mi(`\sin\alpha>0`)，即 #mi(`P`) 在第二象限. 图中第二象限对应的圆弧为 #mi(`\overset{\frown}{EF}`)，故选 C.
 ]
 
 #problem(8)[
-设集合 $A=\{(x,y) | x-y >= 1 ,\ a x+y>4,\ x-a y <= 2 \}$，则（ ）.
-  #choices([对任意实数 $a$，$(2,1) in A$], [对任意实数 $a$，$(2,1) in.not A$], [当且仅当 $a<0$ 时，$(2,1) in.not A$], [当且仅当 $a <= (3)/(2)$ 时，$(2,1) in.not A$], cols: 1)
+设集合 #mi(`A=\{(x,y)\mid x-y\ge1,\ ax+y>4,\ x-ay\le2\}`)，则（ ）.
+  #choices([对任意实数 #mi(`a`)，#mi(`(2,1)\in A`)], [对任意实数 #mi(`a`)，#mi(`(2,1)\notin A`)], [当且仅当 #mi(`a<0`) 时，#mi(`(2,1)\notin A`)], [当且仅当 #mi(`a\le\dfrac{3}{2}`) 时，#mi(`(2,1)\notin A`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-将 $(x,y)=(2,1)$ 代入集合定义，第一条不等式为 $2-1=1\g e q1$，恒成立；第二条不等式给出 $2 a+1>4$，即 $a>(3)/(2)$；第三条不等式给出 $2-a\l e q2$，即 $a\g e q0$. 三者同时成立当且仅当 $a>(3)/(2)$.
+将 #mi(`(x,y)=(2,1)`) 代入集合定义，第一条不等式为 #mi(`2-1=1\geq1`)，恒成立；第二条不等式给出 #mi(`2a+1>4`)，即 #mi(`a>\dfrac{3}{2}`)；第三条不等式给出 #mi(`2-a\leq2`)，即 #mi(`a\geq0`). 三者同时成立当且仅当 #mi(`a>\dfrac{3}{2}`).
 
-所以 $(2,1) in.not A$ 当且仅当 $a\l e q(3)/(2)$，故选 D.
+所以 #mi(`(2,1)\notin A`) 当且仅当 #mi(`a\leq\dfrac{3}{2}`)，故选 D.
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-设向量 $bold(a)=(1,0)$，$bold(b)=(-1,m)$，若 $bold(a) bot (m b o l d(a)-bold(b))$，则 $m=\f i l l i n b l a n k{}$.
+设向量 #mi(`\mathbf{a}=(1,0)`)，#mi(`\mathbf{b}=(-1,m)`)，若 #mi(`\mathbf{a}\perp(m\mathbf{a}-\mathbf{b})`)，则 #mi(`m=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$-1$])
+#answer([#mi(`-1`)])
 
 #solution[
-$m b o l d(a)-bold(b)=m(1,0)-(-1,m)=(m+1,-m)$. 由垂直向量的数量积为零，得 $bold(a) dot (m b o l d(a)-bold(b))=(1,0) dot (m+1,-m)=m+1=0$，所以 $m=-1$.
+#mi(`m\mathbf{a}-\mathbf{b}=m(1,0)-(-1,m)=(m+1,-m)`). 由垂直向量的数量积为零，得 #mi(`\mathbf{a}\cdot(m\mathbf{a}-\mathbf{b})=(1,0)\cdot(m+1,-m)=m+1=0`)，所以 #mi(`m=-1`).
 ]
 
 #problem(10)[
-已知直线 $l$ 过点 $(1,0)$ 且垂直于 $x$ 轴，若 $l$ 被抛物线 $y^2=4 a x$ 截得的线段长度为 $4$，则抛物线的焦点坐标为#blank(){}.
+已知直线 #mi(`l`) 过点 #mi(`(1,0)`) 且垂直于 #mi(`x`) 轴，若 #mi(`l`) 被抛物线 #mi(`y^{2}=4ax`) 截得的线段长度为 #mi(`4`)，则抛物线的焦点坐标为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1,0)$])
+#answer([#mi(`(1,0)`)])
 
 #solution[
-直线 $l$ 垂直于 $x$ 轴且过 $(1,0)$，所以其方程为 $x=1$. 代入抛物线方程得 $y^2=4 a$，截得的弦长为两个交点纵坐标之差，即 $2 sqrt(4 a)=4$，从而 $a=1$. 抛物线 $y^2=4 a x$ 的焦点为 $(a,0)$，故焦点坐标为 $(1,0)$.
+直线 #mi(`l`) 垂直于 #mi(`x`) 轴且过 #mi(`(1,0)`)，所以其方程为 #mi(`x=1`). 代入抛物线方程得 #mi(`y^{2}=4a`)，截得的弦长为两个交点纵坐标之差，即 #mi(`2\sqrt{4a}=4`)，从而 #mi(`a=1`). 抛物线 #mi(`y^{2}=4ax`) 的焦点为 #mi(`(a,0)`)，故焦点坐标为 #mi(`(1,0)`).
 ]
 
 #problem(11)[
-能说明“若 $a>b$，则 $(1)/(a)<(1)/(b)$”为假命题的一组 $a$，$b$ 的值依次为#blank(){}.
+能说明“若 #mi(`a>b`)，则 #mi(`\dfrac{1}{a}<\dfrac{1}{b}`)”为假命题的一组 #mi(`a`)，#mi(`b`) 的值依次为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$1\)，\(-1$])
+#answer([#mi(`1`)，#mi(`-1`)])
 
 #solution[
-取 $a=1$，$b=-1$，则 $a>b$，但 $(1)/(a)=1>-1=(1)/(b)$，不满足题中结论 $(1)/(a)<(1)/(b)$. 因此这组数说明原命题为假.
+取 #mi(`a=1`)，#mi(`b=-1`)，则 #mi(`a>b`)，但 #mi(`\dfrac{1}{a}=1>-1=\dfrac{1}{b}`)，不满足题中结论 #mi(`\dfrac{1}{a}<\dfrac{1}{b}`). 因此这组数说明原命题为假.
 ]
 
 #problem(12)[
-若双曲线 $(x^2)/(a^2)-(y^2)/(4)=1$（$a>0$）的离心率为 $(sqrt(5))/(2)$，则 $a=\f i l l i n b l a n k{}$.
+若双曲线 #mi(`\dfrac{x^2}{a^2}-\dfrac{y^2}{4}=1`)（#mi(`a>0`)）的离心率为 #mi(`\dfrac{\sqrt{5}}{2}`)，则 #mi(`a=\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([4])
 
 #solution[
-双曲线的实半轴为 $a$，虚半轴为 $2$，所以焦半距满足 $c^2=a^2+4$. 由离心率公式，$(c)/(a)=(sqrt(5))/(2)$，两边平方得 $(a^2+4)/(a^2)=(5)/(4)$，即 $4 a^2+16=5 a^2$，所以 $a^2=16$. 因为 $a>0$，故 $a=4$.
+双曲线的实半轴为 #mi(`a`)，虚半轴为 #mi(`2`)，所以焦半距满足 #mi(`c^{2}=a^{2}+4`). 由离心率公式，#mi(`\dfrac{c}{a}=\dfrac{\sqrt{5}}{2}`)，两边平方得 #mi(`\dfrac{a^2+4}{a^2}=\dfrac{5}{4}`)，即 #mi(`4a^{2}+16=5a^{2}`)，所以 #mi(`a^{2}=16`). 因为 #mi(`a>0`)，故 #mi(`a=4`).
 ]
 
 #problem(13)[
-若 $x$，$y$ 满足 $x+1 <= y <= 2 x$，则 $2 y-x$ 的最小值是#blank(){}.
+若 #mi(`x`)，#mi(`y`) 满足 #mi(`x+1\le y\le2x`)，则 #mi(`2y-x`) 的最小值是\underline{\hspace{2.5em}}.
 ]
 
 #answer([3])
 
 #solution[
-由 $x+1\l e q y\l e q2 x$ 可知 $x+1\l e q2 x$，所以 $x\g e q1$. 由于目标式 $2 y-x$ 随 $y$ 增大而增大，对固定的 $x$ 取最小允许值 $y=x+1$，于是 $2 y-x\g e q2(x+1)-x=x+2\g e q3$. 当 $x=1$，$y=2$ 时等号成立，故最小值为 $3$.
+由 #mi(`x+1\leq y\leq2x`) 可知 #mi(`x+1\leq2x`)，所以 #mi(`x\geq1`). 由于目标式 #mi(`2y-x`) 随 #mi(`y`) 增大而增大，对固定的 #mi(`x`) 取最小允许值 #mi(`y=x+1`)，于是 #mi(`2y-x\geq2(x+1)-x=x+2\geq3`). 当 #mi(`x=1`)，#mi(`y=2`) 时等号成立，故最小值为 #mi(`3`).
 ]
 
 #problem(14)[
-若 $triangle A B C$ 的面积为 $(sqrt(3))/(4)(a^2+c^2-b^2)$，且 $angle C$ 为钝角，则 $angle B=\f i l l i n b l a n k{}$；$(c)/(a)$ 的取值范围是#blank(){}.
+若 #mi(`\triangle ABC`) 的面积为 #mi(`\dfrac{\sqrt{3}}{4}(a^{2}+c^{2}-b^{2})`)，且 #mi(`\angle C`) 为钝角，则 #mi(`\angle B=\underline{\hspace{2.5em}}{}`)；#mi(`\dfrac{c}{a}`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$60^ degree \)；\((2,+ oo )$])
+#answer([#mi(`60^{\circ}`)；#mi(`(2,+\infty)`)])
 
 #solution[
-由余弦定理 $a^2+c^2-b^2=2 a c cos B$，又三角形面积 $S=(1)/(2)a c sin B$，故题设给出 $(1)/(2)a c sin B=(sqrt(3))/(2)a c cos B$. 因为 $a$，$c>0$ 且 $B in (0, pi )$，所以 $sin B=sqrt(3) cos B$，从而 $B$ 为锐角且 $tan B=sqrt(3)$，得 $B=60^ degree$.
+由余弦定理 #mi(`a^{2}+c^{2}-b^{2}=2ac\cos B`)，又三角形面积 #mi(`S=\dfrac{1}{2}ac\sin B`)，故题设给出 #mi(`\dfrac{1}{2}ac\sin B=\dfrac{\sqrt{3}}{2}ac\cos B`). 因为 #mi(`a`)，#mi(`c>0`) 且 #mi(`B\in(0,\pi)`)，所以 #mi(`\sin B=\sqrt{3}\cos B`)，从而 #mi(`B`) 为锐角且 #mi(`\tan B=\sqrt{3}`)，得 #mi(`B=60^{\circ}`).
 
-又因 $C$ 为钝角，且 $A+B+C=180^ degree$，所以 $0^ degree <A<30^ degree$. 由正弦定理，$(c)/(a)=(sin C)/(sin A)=(sin (120^ degree -A))/(sin A)=(1)/(2)+(sqrt(3))/(2) cot A$. 由于 $0^ degree <A<30^ degree$，有 $cot A>sqrt(3)$，因此 $(c)/(a)>2$. 当 $A -> 0 ""^+$ 时 $(c)/(a) -> + oo$，且 $A -> 30 ""^-$ 时 $(c)/(a) -> 2 ""^+$，故取值范围为 $(2,+ oo )$.
+又因 #mi(`C`) 为钝角，且 #mi(`A+B+C=180^{\circ}`)，所以 #mi(`0^{\circ}<A<30^{\circ}`). 由正弦定理，#mi(`\dfrac{c}{a}=\dfrac{\sin C}{\sin A}=\dfrac{\sin(120^\circ-A)}{\sin A}=\dfrac{1}{2}+\dfrac{\sqrt{3}}{2}\cot A`). 由于 #mi(`0^{\circ}<A<30^{\circ}`)，有 #mi(`\cot A>\sqrt{3}`)，因此 #mi(`\dfrac{c}{a}>2`). 当 #mi(`A\to0^{+}`) 时 #mi(`\dfrac{c}{a}\to+\infty`)，且 #mi(`A\to30^{-}`) 时 #mi(`\dfrac{c}{a}\to2^{+}`)，故取值范围为 #mi(`(2,+\infty)`).
 ]
 
 #part-header("解答题")
 
 #problem(15)[
-设 $\{a_n\}$ 是等差数列，且 $a_1= ln 2$，$a_2+a_3=5 ln 2$.
+设 #mi(`\{a_{n}\}`) 是等差数列，且 #mi(`a_{1}=\ln2`)，#mi(`a_{2}+a_{3}=5\ln2`).
 
 
-+ (1) 求 $\{a_n\}$ 的通项公式；
-+ (2) 求 $e ""^(a_1)+ e ""^(a_2)+ dots.c + e ""^(a_n)$.
++ (1)
 ]
 
 #solution[
-设等差数列 $\{a_n\}$ 的公差为 $d$. 由 $a_2=a_1+d$，$a_3=a_1+2 d$，得
-
-$ a_2+a_3=2 a_1+3 d=5 ln 2 $
-
-代入 $a_1= ln 2$，得到 $d= ln 2$，所以
-
-$ a_n=a_1+(n-1)d= ln 2 +(n-1) ln 2 =n ln 2 $
+设等差数列 #mi(`\{a_{n}\}`) 的公差为 #mi(`d`). 由 #mi(`a_{2}=a_{1}+d`)，#mi(`a_{3}=a_{1}+2d`)，得
 
 
-又 $e ""^(a_k)= e ""^(k ln 2 )=2^k$，因此
+#align(center)[#mitex(`
+a_{2}+a_{3}=2a_{1}+3d=5\ln2
+`)]
 
-$ e ""^(a_1)+ e ""^(a_2)+ dots.c + e ""^(a_n)=2^1+2^2+ dots.c +2^n=(2(2^n-1))/(2-1)=2^(n+1)-2 $
+
+代入 #mi(`a_{1}=\ln2`)，得到 #mi(`d=\ln2`)，所以
+
+
+#align(center)[#mitex(`
+a_{n}=a_{1}+(n-1)d=\ln2+(n-1)\ln2=n\ln2
+`)]
+
+
+又 #mi(`\mathrm{e}^{a_k}=\mathrm{e}^{k\ln2}=2^{k}`)，因此
+
+
+#align(center)[#mitex(`
+\mathrm{e}^{a_1}+\mathrm{e}^{a_2}+\cdots+\mathrm{e}^{a_n}=2^{1}+2^{2}+\cdots+2^{n}=\frac{2(2^{n}-1)}{2-1}=2^{n+1}-2
+`)]
 ]
 
 #problem(16)[
-已知函数 $f(x)= sin ""^(2) x+sqrt(3) sin x cos x$.
+已知函数 #mi(`f(x)=\sin^{2}x+\sqrt{3}\sin x\cos x`).
 
 
-+ (1) 求 $f(x)$ 的最小正周期；
-+ (2) 若 $f(x)$ 在区间 $[-(pi)/(3),m]$ 上的最大值为 $(3)/(2)$，求 $m$ 的最小值.
++ (1)
 ]
 
 #solution[
 利用降幂公式和二倍角公式，得
 
-$ f(x)=(1- cos 2 x)/(2)+(sqrt(3))/(2) sin 2 x=(1)/(2)+ sin (2 x-(pi)/(6)) $
 
-正弦函数的自变量系数为 $2$，所以 $f(x)$ 的最小正周期为 $(2 pi)/(2)= pi$.
+#align(center)[#mitex(`
+f(x)=\frac{1-\cos2x}{2}+\frac{\sqrt{3}}{2}\sin2x=\frac{1}{2}+\sin\left(2x-\frac{\pi}{6}\right)
+`)]
 
-因为 $f(x)\l e q(3)/(2)$，区间 $[-(pi)/(3),m]$ 上的最大值等于 $(3)/(2)$ 的充要条件是该区间中存在 $x$ 使 $2 x-(pi)/(6)=(pi)/(2)+2 k pi$，其中 $k in ZZ$. 令 $t=2 x-(pi)/(6)$，则当 $x=-(pi)/(3)$ 时 $t=-(5 pi)/(6)$，其右侧第一个使正弦值为 $1$ 的点是 $t=(pi)/(2)$. 因此必须有 $2 m-(pi)/(6)\g e q(pi)/(2)$，即 $m\g e q(pi)/(3)$. 取 $m=(pi)/(3)$ 时达到最大值，故 $m$ 的最小值为 $(pi)/(3)$.
+
+正弦函数的自变量系数为 #mi(`2`)，所以 #mi(`f(x)`) 的最小正周期为 #mi(`\dfrac{2\pi}{2}=\pi`).
+
+因为 #mi(`f(x)\leq\dfrac{3}{2}`)，区间 #mi(`\left[-\dfrac\pi3,m\right]`) 上的最大值等于 #mi(`\dfrac{3}{2}`) 的充要条件是该区间中存在 #mi(`x`) 使 #mi(`2x-\dfrac\pi6=\dfrac\pi2+2k\pi`)，其中 #mi(`k\in\mathbb{Z}`). 令 #mi(`t=2x-\dfrac\pi6`)，则当 #mi(`x=-\dfrac\pi3`) 时 #mi(`t=-\dfrac{5\pi}{6}`)，其右侧第一个使正弦值为 #mi(`1`) 的点是 #mi(`t=\dfrac\pi2`). 因此必须有 #mi(`2m-\dfrac\pi6\geq\dfrac\pi2`)，即 #mi(`m\geq\dfrac\pi3`). 取 #mi(`m=\dfrac\pi3`) 时达到最大值，故 #mi(`m`) 的最小值为 #mi(`\dfrac\pi3`).
 ]
 
 #problem(17)[
 电影公司随机收集了电影的有关数据，经分类整理得到下表：
 
-\begin{center}
-\begin{tabular}{c|cccccc}
 电影类型 & 第一类 & 第二类 & 第三类 & 第四类 & 第五类 & 第六类 \\
+
 \hline
+
 电影部数 & 140 & 50 & 300 & 200 & 800 & 510 \\
+
 好评率 & 0.4 & 0.2 & 0.15 & 0.25 & 0.2 & 0.1
-\end{tabular}
-\end{center}
 
 好评率是指：一类电影中获得好评的部数与该类电影的部数的比值.
 
 
-+ (1) 从电影公司收集的电影中随机选取 $1$ 部，求这部电影是获得好评的第四类电影的概率；
-+ (2) 随机选取 $1$ 部电影，估计这部电影没有获得好评的概率；
-+ (3) 电影公司为增加投资回报，拟改变投资策略，这将导致不同类型电影的好评率发生变化. 假设表格中只有两类电影的好评率数据发生变化，那么哪类电影的好评率增加 $0.1$，哪类电影的好评率减少 $0.1$，使得获得好评的电影部数与样本中的电影总部数的比值达到最大？（只需写出结论）
++ (1) 
++ (2)
 ]
 
 #solution[
-样本中的电影总数为 $140+50+300+200+800+510=2000$.
+样本中的电影总数为 #mi(`140+50+300+200+800+510=2000`).
 
 
-+ (1) 第四类电影中获得好评的部数为 $200 times 0 .25=50$，所以所求概率为 $(50)/(2000)=0.025$.
-+ (2) 样本中获得好评的电影部数为
-
-$ 140 times 0 .4+50 times 0 .2+300 times 0 .15+200 times 0 .25+800 times 0 .2+510 times 0 .1=56+10+45+50+160+51=372 $
-
-所以没有获得好评的电影部数为 $2000-372=1628$，所求概率的估计值为 $(1628)/(2000)=0.814$.
-+ (3) 若第 $i$ 类好评率增加 $0.1$，第 $j$ 类好评率减少 $0.1$，获得好评的电影部数的变化量为 $0.1 N_i-0.1 N_j=0.1(N_i-N_j)$，其中 $N_i$，$N_j$ 分别为两类电影的部数. 要使变化量最大，应使增加好评率的类别部数最大、减少好评率的类别部数最小，即第五类增加 $0.1$，第二类减少 $0.1$.
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-如图，在四棱锥 $P-A B C D$ 中，底面 $A B C D$ 为矩形，平面 $P A D bot$ 平面 $A B C D$，$P A bot P D$，$P A=P D$，$E$，$F$ 分别为 $A D$，$P B$ 的中点.
+如图，在四棱锥 #mi(`P-ABCD`) 中，底面 #mi(`ABCD`) 为矩形，平面 #mi(`PAD\perp`) 平面 #mi(`ABCD`)，#mi(`PA\perp PD`)，#mi(`PA=PD`)，#mi(`E`)，#mi(`F`) 分别为 #mi(`AD`)，#mi(`PB`) 的中点.
 
 
-+ (1) 求证：$P E bot B C$；
-+ (2) 求证：平面 $P A B bot$ 平面 $P C D$；
-+ (3) 求证：$E F parallel$ 平面 $P C D$.
++ (1) 
++ (2) 
+
 
 
 \begingroup
 
-#align(center)[#image("/papers/2018/img/beijing_liberal/q18_fig1.png", width: 62%)]
+
+#align(center)[#image("/papers/2018/img/beijing_liberal/q18_fig1.png", width: 28%)]
+
 
 \endgroup
+
 \FloatBarrier
 ]
 
 #solution[
-+ (1) 因为 $P A=P D$，且 $E$ 是 $A D$ 的中点，所以在等腰三角形 $P A D$ 中，$P E bot A D$. 又因为底面 $A B C D$ 是矩形，所以 $B C parallel A D$，从而 $P E bot B C$.
-+ (2) 过点 $P$ 作直线 $P G parallel A B$. 因为 $A B parallel C D$，所以 $P G parallel C D$，且 $P G$ 是平面 $P A B$ 与平面 $P C D$ 的交线. 底面平面与平面 $P A D$ 垂直，且 $A B$ 在底面内并垂直于交线 $A D$，由面面垂直的性质得 $A B bot$ 平面 $P A D$，所以 $A B bot P A$ 且 $A B bot P D$. 于是 $P A bot P G$. 同理，$C D bot P D$，结合 $P G parallel C D$ 得 $P D bot P G$. 因此两平面的平面角可取 $angle A P D$，而 $P A bot P D$，所以平面 $P A B bot$ 平面 $P C D$.
-+ (3) 取 $P C$ 的中点 $H$，连接 $F H$，$D H$. 在三角形 $P B C$ 中，$F$，$H$ 分别是 $P B$，$P C$ 的中点，所以 $F H parallel B C$，且 $F H=(1)/(2)B C$. 在矩形 $A B C D$ 中，$D E parallel B C$，且 $D E=(1)/(2)A D=(1)/(2)B C$. 因此 $D E parallel F H$ 且 $D E=F H$，四边形 $E F H D$ 是平行四边形，从而 $E F parallel D H$. 又 $D H$ 在平面 $P C D$ 内，而 $E F$ 不在该平面内，故 $E F parallel$ 平面 $P C D$.
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-设函数 $f(x)=[a x^2-(3 a+1)x+3 a+2] e ""^x$.
+设函数 #mi(`f(x)=\left[ax^{2}-(3a+1)x+3a+2\right]\mathrm{e}^{x}`).
 
 
-+ (1) 若曲线 $y=f(x)$ 在点 $(2,f(2))$ 处的切线斜率为 $0$，求 $a$；
-+ (2) 若 $f(x)$ 在 $x=1$ 处取得极小值，求 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-令 $g(x)=a x^2-(3 a+1)x+3 a+2$，则 $f(x)=g(x) e ""^x$，所以
-
-$ f'(x)=(g'(x)+g(x)) e ""^x=[a x^2-(a+1)x+1] e ""^x=(x-1)(a x-1) e ""^x $
+令 #mi(`g(x)=ax^{2}-(3a+1)x+3a+2`)，则 #mi(`f(x)=g(x)\mathrm{e}^{x}`)，所以
 
 
+#align(center)[#mitex(`
+f'(x)=\bigl(g'(x)+g(x)\bigr)\mathrm{e}^{x}=\bigl[ax^{2}-(a+1)x+1\bigr]\mathrm{e}^{x}=(x-1)(ax-1)\mathrm{e}^{x}
+`)]
 
-+ (1) 切线斜率为 $f'(2)=0$，故 $(2-1)(2 a-1) e ""^2=0$，从而 $a=(1)/(2)$.
-+ (2) 因为 $e ""^x>0$，只需讨论 $(x-1)(a x-1)$ 的符号. 若 $a=0$，则 $x=1$ 左侧导数为正、右侧为负，取得极大值；若 $a=1$，则 $f'(x)=(x-1)^2 e ""^x\g e q0$，没有极值.
 
-当 $a>1$ 时，$(1)/(a)<1$，在 $((1)/(a),1)$ 上 $f'(x)<0$，在 $(1,+ oo )$ 上 $f'(x)>0$，所以 $x=1$ 处取得极小值. 当 $0<a<1$ 时，$(1)/(a)>1$，在 $(1,(1)/(a))$ 上导数为负，故 $x=1$ 处取得极大值. 当 $a<0$ 时，两个零点为 $(1)/(a)<1$ 和 $1$. 在 $(- oo ,(1)/(a))$、$((1)/(a),1)$、$(1,+ oo )$ 上，导数的符号依次为负、正、负，所以 $x=1$ 处取得极大值. 因此 $a$ 的取值范围为 $(1,+ oo )$.
+
++ (1)
 ]
 
 #problem(20)[
-已知椭圆 $M:(x^2)/(a^2)+(y^2)/(b^2)=1$（$a>b>0$）的离心率为 $(sqrt(6))/(3)$，焦距为 $2 sqrt(2)$. 斜率为 $k$ 的直线 $l$ 与椭圆 $M$ 有两个不同的交点 $A$，$B$.
+已知椭圆 #mi(`M:\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1`)（#mi(`a>b>0`)）的离心率为 #mi(`\dfrac{\sqrt{6}}{3}`)，焦距为 #mi(`2\sqrt{2}`). 斜率为 #mi(`k`) 的直线 #mi(`l`) 与椭圆 #mi(`M`) 有两个不同的交点 #mi(`A`)，#mi(`B`).
 
 
-+ (1) 求椭圆 $M$ 的方程；
-+ (2) 若 $k=1$，求 $| A B|$ 的最大值；
-+ (3) 设 $P(-2,0)$，直线 $P A$ 与椭圆 $M$ 的另一个交点为 $C$，直线 $P B$ 与椭圆 $M$ 的另一个交点为 $D$. 若 $C$，$D$ 和点 $Q(-(7)/(4),(1)/(4))$ 共线，求 $k$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 设椭圆的半焦距为 $c$. 由焦距为 $2 sqrt(2)$，得 $c=sqrt(2)$. 又由离心率
-
-$ (c)/(a)=(sqrt(6))/(3) $
-
-得
-
-$ a=(c)/((sqrt(6))/(3))=sqrt(3) $
-
-因此
-
-$ b^2=a^2-c^2=3-2=1 $
-
-故椭圆 $M$ 的方程为
-
-$ (x^2)/(3)+y^2=1 $
-+ (2) 当 $k=1$ 时，设直线 $l$ 的方程为 $y=x+m$. 将其与椭圆方程联立，得
-
-$ (x^2)/(3)+(x+m)^2=1 $
-
-即
-
-$ 4 x^2+6 m x+3 m^2-3=0 $
-
-设交点 $A$，$B$ 的横坐标为 $x_1$，$x_2$，则
-$x_1+x_2=-(3 m)/(2)$，$x_(1) x_2=(3 m^2-3)/(4)$.
-因为 $A$，$B$ 为两个不同的交点，判别式应满足
-
-$ (6 m)^2-4 dot 4 (3 m^2-3)=48-12 m^2>0 $
-
-所以 $|m|<2$. 又因直线斜率为 $1$，
-
-$ |A B|=sqrt((x_1-x_2)^2+((x_1+m)-(x_2+m))^2)=sqrt(2)|x_1-x_2| $
-
-由根的判别式，
-
-$ (x_1-x_2)^2=(x_1+x_2)^2-4 x_(1) x_2 =(9 m^2)/(4)-3(m^2-1)=3-(3 m^2)/(4)\l e q3 $
-
-因此 $|A B|\l e q s q r t(6)$，当且仅当 $m=0$ 时取等号，故 $|A B|$ 的最大值为 $sqrt(6)$.
-+ (3) 设椭圆上一点为 $X(x_0,y_0)$. 过点 $P(-2,0)$ 和 $X$ 的直线方程为
-
-$ y=(y_0)/(x_0+2)(x+2) $
-
-这里 $x_0 in [-sqrt(3),sqrt(3)]$，所以 $x_0+2>0$，且 $4 x_0+7\g e q7-4 sqrt(3)>0$. 将直线方程代入椭圆方程，并利用 $X$ 在椭圆上满足 $x_0^2+3 y_0^2=3$，得到交点横坐标 $x$ 所满足的方程
-
-$ (4 x_0+7)x^2+12 y_0^(2) x+12 y_0^2-3(x_0+2)^2=0 $
-
-化简常数项，并用韦达定理计算两根之和，得
-$x+x_0=-(12 y_0^2)/(4 x_0+7)$，$x_0^2+3 y_0^2=3$，
-从而另一个交点 $T$ 的坐标为
-$x_T=-(7 x_0+12)/(4 x_0+7)$，$y_T=(y_0)/(4 x_0+7)$.
-因此，若 $A=(x_1,y_1)$，$B=(x_2,y_2)$，则
-$C=(-(7 x_1+12)/(4 x_1+7),(y_1)/(4 x_1+7))$，$D=(-(7 x_2+12)/(4 x_2+7),(y_2)/(4 x_2+7))$.
-由 $Q(-(7)/(4),(1)/(4))$ 的坐标，计算得
-
-$ arrow(Q C)=(1)/(4(4 x_1+7))(1, 4 y_1-4 x_1-7) $
-
-
-$ arrow(Q D)=(1)/(4(4 x_2+7))(1, 4 y_2-4 x_2-7) $
-
-由于 $C$，$D$，$Q$ 共线，且上述向量的第一坐标均非零，所以
-
-$ 4 y_1-4 x_1-7=4 y_2-4 x_2-7 $
-
-即
-
-$ y_1-x_1=y_2-x_2 $
-
-又 $A$，$B$ 是不同的交点，故 $x_1 != x_2$，从而直线 $A B$ 的斜率为
-
-$ k=(y_1-y_2)/(x_1-x_2)=1 $
++ (1) 
++ (2)
 ]
 

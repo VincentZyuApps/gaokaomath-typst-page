@@ -1,8 +1,143 @@
 {
-  "title": "2005年普通高等学校招生全国统一考试",
-  "subtitle": "2005年全国II卷（理）",
   "year": "2005",
   "slug": "national_paper_2_science",
+  "title": "2005年全国II卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$2\\pi$"
           ],
           "answer": "C",
-          "solution": "因为 $f(x)=\\sqrt{2}\\left|\\sin\\left(x+\\frac{\\pi}{4}\\right)\\right|$，所以 $f(x+\\pi)=f(x)$，即 $\\pi$ 是它的一个正周期. 函数的零点为 $x=-\\frac{\\pi}{4}+k\\pi$（$k\\in\\mathbb{Z}$）. 若正数 $T$ 是它的周期，则 $-\\frac{\\pi}{4}+T$ 也必须是零点，从而 $T=k\\pi$（$k\\in\\mathbb{Z}$）. 因为 $T>0$，所以 $T\\ge\\pi$，故最小正周期为 $\\pi$，选 C."
+          "solution": "因为 $f(x)=\\sqrt{2}\\left|\\sin\\left(x+\\frac{\\pi}{4}\\right)\\right|$，所以 $f(x+\\pi)=f(x)$，即 $\\pi$ 是它的一个正周期. 函数的零点为 $x=-\\frac{\\pi}{4}+k\\pi$（$k\\in\\mathbb{Z}$）. 若正数 $T$ 是它的周期，则 $-\\frac{\\pi}{4}+T$ 也必须是零点，从而 $T=k\\pi$（$k\\in\\mathbb{Z}$）. 因为 $T>0$，所以 $T\\ge\\pi$，故最小正周期为 $\\pi$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "六边形"
           ],
           "answer": "D",
-          "solution": "设正方体棱长为 $1$，取 $A(0,0,0)$，$B(1,0,0)$，$D(0,1,0)$，$A_{1}(0,0,1)$. 则 $P\\left(\\frac{1}{2},0,0\\right)$，$Q\\left(0,\\frac{1}{2},0\\right)$，$R\\left(1,\\frac{1}{2},1\\right)$. 由 $\\overrightarrow{PQ}=\\left(-\\frac{1}{2},\\frac{1}{2},0\\right)$，$\\overrightarrow{PR}=\\left(\\frac{1}{2},\\frac{1}{2},1\\right)$，可取截面平面的法向量为 $(1,1,-1)$，故截面平面方程为 $x+y-z=\\frac{1}{2}$. 该平面与正方体的六条棱 $AB$、$AD$、$BB_{1}$、$B_{1}C_{1}$、$C_{1}D_{1}$、$DD_{1}$ 分别相交，交点中包括已知的 $P$、$Q$、$R$，其余三个交点分别位于 $BB_{1}$、$C_{1}D_{1}$、$DD_{1}$ 上. 因为截面平面没有经过正方体顶点，六个交点依次构成截面的六个顶点，所以截面为六边形，选 D."
+          "solution": "设正方体棱长为 $1$，取 $A(0,0,0)$，$B(1,0,0)$，$D(0,1,0)$，$A_{1}(0,0,1)$. 则 $P\\left(\\frac{1}{2},0,0\\right)$，$Q\\left(0,\\frac{1}{2},0\\right)$，$R\\left(1,\\frac{1}{2},1\\right)$. 由 $\\overrightarrow{PQ}=\\left(-\\frac{1}{2},\\frac{1}{2},0\\right)$，$\\overrightarrow{PR}=\\left(\\frac{1}{2},\\frac{1}{2},1\\right)$，可取截面平面的法向量为 $(1,1,-1)$，故截面平面方程为 $x+y-z=\\frac{1}{2}$. 该平面与正方体的六条棱 $AB$、$AD$、$BB_{1}$、$B_{1}C_{1}$、$C_{1}D_{1}$、$DD_{1}$ 分别相交，交点中包括已知的 $P$、$Q$、$R$，其余三个交点分别位于 $BB_{1}$、$C_{1}D_{1}$、$DD_{1}$ 上. 因为截面平面没有经过正方体顶点，六个交点依次构成截面的六个顶点，所以截面为六边形，选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$y = -\\sqrt{(x + 1)^{3}}$（$x \\ge 0$）"
           ],
           "answer": "B",
-          "solution": "在 $x\\leqslant0$ 上，函数 $x^{2}$ 随 $x$ 增大而减小，立方根函数严格递增，所以原函数是一一对应的. 由 $y=\\sqrt[3]{x^{2}-1}$ 得 $x^{2}=y^{3}+1$. 原函数的定义域限制为 $x\\leqslant0$，所以反解时应取负根，即 $x=-\\sqrt{y^{3}+1}$. 原函数的值域为 $y\\ge-1$，交换 $x$，$y$ 后得到反函数 $y=-\\sqrt{(x+1)^{3}}$，其定义域为 $x\\ge-1$，选 B."
+          "solution": "在 $x\\leqslant0$ 上，函数 $x^{2}$ 随 $x$ 增大而减小，立方根函数严格递增，所以原函数是一一对应的. 由 $y=\\sqrt[3]{x^{2}-1}$ 得 $x^{2}=y^{3}+1$. 原函数的定义域限制为 $x\\leqslant0$，所以反解时应取负根，即 $x=-\\sqrt{y^{3}+1}$. 原函数的值域为 $y\\ge-1$，交换 $x$，$y$ 后得到反函数 $y=-\\sqrt{(x+1)^{3}}$，其定义域为 $x\\ge-1$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$\\omega \\le -1$"
           ],
           "answer": "B",
-          "solution": "函数在整个 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 内有定义. 若 $|\\omega|>1$，取 $x_{0}=\\frac{\\pi}{2\\omega}$，则 $x_{0}\\in\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 且 $\\omega x_{0}=\\frac{\\pi}{2}$，函数无定义，所以必须有 $|\\omega|\\leqslant1$. 在此条件下，$\\tan(\\omega x)$ 在该区间内有定义，且 $\\frac{\\mathrm{d}}{\\mathrm{d}x}\\tan(\\omega x)=\\omega\\sec^{2}(\\omega x)$，其中 $\\sec^{2}(\\omega x)>0$. 因而严格减函数要求 $\\omega<0$，合并得 $-1\\le\\omega<0$，选 B."
+          "solution": "函数在整个 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 内有定义. 若 $|\\omega|>1$，取 $x_{0}=\\frac{\\pi}{2\\omega}$，则 $x_{0}\\in\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 且 $\\omega x_{0}=\\frac{\\pi}{2}$，函数无定义，所以必须有 $|\\omega|\\leqslant1$. 在此条件下，$\\tan(\\omega x)$ 在该区间内有定义，且 $\\frac{\\mathrm{d}}{\\mathrm{d}x}\\tan(\\omega x)=\\omega\\sec^{2}(\\omega x)$，其中 $\\sec^{2}(\\omega x)>0$. 因而严格减函数要求 $\\omega<0$，合并得 $-1\\le\\omega<0$，选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "$bc + ad = 0$"
           ],
           "answer": "C",
-          "solution": "<p>因为分式有意义，故 $c^{2}+d^{2}\\neq0$. 分母实数化得</p>\n$$\n\\frac{a+b\\mathrm{i}}{c+d\\mathrm{i}}=\\frac{(a+b\\mathrm{i})(c-d\\mathrm{i})}{c^{2}+d^{2}}=\\frac{ac+bd+(bc-ad)\\mathrm{i}}{c^{2}+d^{2}}\n$$\n<p>分式为实数当且仅当虚部为零，即 $bc-ad=0$，选 C.</p>"
+          "solution": "<p>因为分式有意义，故 $c^{2}+d^{2}\\neq0$. 分母实数化得</p>\n$$\n\\frac{a+b\\mathrm{i}}{c+d\\mathrm{i}}=\\frac{(a+b\\mathrm{i})(c-d\\mathrm{i})}{c^{2}+d^{2}}=\\frac{ac+bd+(bc-ad)\\mathrm{i}}{c^{2}+d^{2}}\n$$\n<p>分式为实数当且仅当虚部为零，即 $bc-ad=0$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$\\frac{5}{6}$"
           ],
           "answer": "C",
-          "solution": "<p>双曲线的焦半距满足 $c^{2}=6+3=9$，故可取 $F_{1}(-3,0)$，$F_{2}(3,0)$. 由 $MF_{1}\\perp x$ 轴知 $M$ 的横坐标为 $-3$. 代入双曲线方程得 $\\frac{9}{6}-\\frac{y_{M}^{2}}{3}=1$，所以 $y_{M}^{2}=\\frac{3}{2}$.</p><p>于是 $\\lvert F_{1}M\\rvert=\\frac{\\sqrt{6}}{2}$，$\\lvert F_{2}M\\rvert=\\sqrt{6^{2}+\\left(\\frac{\\sqrt{6}}{2}\\right)^{2}}=\\frac{5\\sqrt{6}}{2}$. 三角形 $F_{1}F_{2}M$ 的面积为 $\\frac{1}{2}\\cdot6\\cdot\\frac{\\sqrt{6}}{2}=\\frac{3\\sqrt{6}}{2}$. 设所求距离为 $h$，则 $\\frac{1}{2}\\lvert F_{2}M\\rvert h=\\frac{3\\sqrt{6}}{2}$，解得 $h=\\frac{6}{5}$，选 C.</p>"
+          "solution": "<p>双曲线的焦半距满足 $c^{2}=6+3=9$，故可取 $F_{1}(-3,0)$，$F_{2}(3,0)$. 由 $MF_{1}\\perp x$ 轴知 $M$ 的横坐标为 $-3$. 代入双曲线方程得 $\\frac{9}{6}-\\frac{y_{M}^{2}}{3}=1$，所以 $y_{M}^{2}=\\frac{3}{2}$.</p><p>于是 $\\lvert F_{1}M\\rvert=\\frac{\\sqrt{6}}{2}$，$\\lvert F_{2}M\\rvert=\\sqrt{6^{2}+\\left(\\frac{\\sqrt{6}}{2}\\right)^{2}}=\\frac{5\\sqrt{6}}{2}$. 三角形 $F_{1}F_{2}M$ 的面积为 $\\frac{1}{2}\\cdot6\\cdot\\frac{\\sqrt{6}}{2}=\\frac{3\\sqrt{6}}{2}$. 设所求距离为 $h$，则 $\\frac{1}{2}\\lvert F_{2}M\\rvert h=\\frac{3\\sqrt{6}}{2}$，解得 $h=\\frac{6}{5}$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$\\sin 2A + \\sin B = 0$"
           ],
           "answer": "A",
-          "solution": "由 $\\tan A-\\frac{1}{\\sin2A}=\\frac{2\\sin^{2}A-1}{2\\sin A\\cos A}=-\\cot2A$，得 $\\tan B=-\\cot2A$. 因为三角形为锐角三角形且 $\\tan B>0$，所以 $\\frac{\\pi}{2}<2A<\\pi$，从而 $B=2A-\\frac{\\pi}{2}$. 因此 $\\cos B=\\cos\\left(2A-\\frac{\\pi}{2}\\right)=\\sin2A$，即 $\\sin2A-\\cos B=0$，选 A."
+          "solution": "由 $\\tan A-\\frac{1}{\\sin2A}=\\frac{2\\sin^{2}A-1}{2\\sin A\\cos A}=-\\cot2A$，得 $\\tan B=-\\cot2A$. 因为三角形为锐角三角形且 $\\tan B>0$，所以 $\\frac{\\pi}{2}<2A<\\pi$，从而 $B=2A-\\frac{\\pi}{2}$. 因此 $\\cos B=\\cos\\left(2A-\\frac{\\pi}{2}\\right)=\\sin2A$，即 $\\sin2A-\\cos B=0$，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$-\\frac{1}{3}$"
           ],
           "answer": "C",
-          "solution": "$AB=\\sqrt{(\\sqrt{3})^{2}+1^{2}}=2$，而 $AC=1$. 由角平分线定理，$\\frac{BE}{CE}=\\frac{AB}{AC}=2$，又 $BE+CE=BC=\\sqrt{3}$，所以 $CE=\\frac{\\sqrt{3}}{3}$. 方向上 $\\overrightarrow{BC}$ 与 $\\overrightarrow{CE}$ 相反，且 $\\lvert BC\\rvert=3\\lvert CE\\rvert$，故 $\\overrightarrow{BC}=-3\\overrightarrow{CE}$，即 $\\lambda=-3$，选 C."
+          "solution": "$AB=\\sqrt{(\\sqrt{3})^{2}+1^{2}}=2$，而 $AC=1$. 由角平分线定理，$\\frac{BE}{CE}=\\frac{AB}{AC}=2$，又 $BE+CE=BC=\\sqrt{3}$，所以 $CE=\\frac{\\sqrt{3}}{3}$. 方向上 $\\overrightarrow{BC}$ 与 $\\overrightarrow{CE}$ 相反，且 $\\lvert BC\\rvert=3\\lvert CE\\rvert$，故 $\\overrightarrow{BC}=-3\\overrightarrow{CE}$，即 $\\lambda=-3$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +264,9 @@
             "$\\left\\{x\\mid x < -2\\text{\\ 或\\ }x\\ge 3\\right\\}$"
           ],
           "answer": "A",
-          "solution": "$x^{2}-3x-28=(x-7)(x+4)$，所以 $M=[-4,7]$. 又 $x^{2}-x-6=(x-3)(x+2)>0$，所以 $N=(-\\infty,-2)\\cup(3,+\\infty)$. 因而 $M\\cap N=[-4,-2)\\cup(3,7]$，选 A."
+          "solution": "$x^{2}-3x-28=(x-7)(x+4)$，所以 $M=[-4,7]$. 又 $x^{2}-x-6=(x-3)(x+2)>0$，所以 $N=(-\\infty,-2)\\cup(3,+\\infty)$. 因而 $M\\cap N=[-4,-2)\\cup(3,7]$，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +278,9 @@
             "$(5, -10)$"
           ],
           "answer": "C",
-          "solution": "$\\lvert\\mathbf{v}\\rvert=\\sqrt{4^{2}+(-3)^{2}}=5$，所以每秒位移向量就是 $\\mathbf{v}$. 五秒后的位移为 $5\\mathbf{v}=(20,-15)$，故点 $P$ 的坐标为 $(-10,10)+(20,-15)=(10,-5)$，选 C."
+          "solution": "$\\lvert\\mathbf{v}\\rvert=\\sqrt{4^{2}+(-3)^{2}}=5$，所以每秒位移向量就是 $\\mathbf{v}$. 五秒后的位移为 $5\\mathbf{v}=(20,-15)$，故点 $P$ 的坐标为 $(-10,10)+(20,-15)=(10,-5)$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +292,9 @@
             "$a_{1}a_{8}= a_{4}a_{5}$"
           ],
           "answer": "B",
-          "solution": "<p>设公差为 $d$，则 $a_{4}=a_{1}+3d$，$a_{5}=a_{1}+4d$，$a_{8}=a_{1}+7d$. 于是</p>\n$$\na_{4}a_{5}-a_{1}a_{8}=(a_{1}+3d)(a_{1}+4d)-a_{1}(a_{1}+7d)=12d^{2}>0\n$$\n<p>因为 $d\\neq0$. 所以 $a_{1}a_{8}<a_{4}a_{5}$，选 B；同时 $a_{1}+a_{8}=a_{4}+a_{5}$，故其他选项均不成立.</p>"
+          "solution": "<p>设公差为 $d$，则 $a_{4}=a_{1}+3d$，$a_{5}=a_{1}+4d$，$a_{8}=a_{1}+7d$. 于是</p>\n$$\na_{4}a_{5}-a_{1}a_{8}=(a_{1}+3d)(a_{1}+4d)-a_{1}(a_{1}+7d)=12d^{2}>0\n$$\n<p>因为 $d\\neq0$. 所以 $a_{1}a_{8}<a_{4}a_{5}$，选 B；同时 $a_{1}+a_{8}=a_{4}+a_{5}$，故其他选项均不成立.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +306,9 @@
             "$\\frac{4\\sqrt{3} + 2\\sqrt{6}}{3}$"
           ],
           "answer": "C",
-          "solution": "<p>设外部正四面体的高为 $H$. 其内切球半径为 $\\frac{H}{4}$. 每个半径为 $1$ 的球完全在容器内，等价于它的球心到外部正四面体的每个面的距离都不小于 $1$. 因此，四个球心都位于将外部正四面体的四个面分别向内平移 $1$ 所得到的正四面体 $T$ 中. 由于内切半径减少了 $1$，$T$ 的高为</p><p>$h=H-4$.</p><p>设 $T$ 的棱长为 $l$. 正四面体的高与棱长满足 $h=l\\sqrt{\\frac{2}{3}}$，而 $T$ 的直径就是棱长 $l$. 四个球互不穿透，所以任意两个球心的距离都不小于 $2$，从而 $l\\geqslant2$. 因此</p>\n$$\nH-4=h=l\\sqrt{\\frac{2}{3}}\\geqslant2\\sqrt{\\frac{2}{3}}=\\frac{2\\sqrt{6}}{3}\n$$\n<p>当 $T$ 的四个顶点作为四个球心时，四个球心两两距离均为 $2$，且每个球到外部正四面体的相应三个面均相切，于是下界可以达到. 所以外部正四面体的最小高为</p><p>$H=4+\\frac{2\\sqrt{6}}{3}$.</p><p>选 C.</p>"
+          "solution": "<p>设外部正四面体的高为 $H$. 其内切球半径为 $\\frac{H}{4}$. 每个半径为 $1$ 的球完全在容器内，等价于它的球心到外部正四面体的每个面的距离都不小于 $1$. 因此，四个球心都位于将外部正四面体的四个面分别向内平移 $1$ 所得到的正四面体 $T$ 中. 由于内切半径减少了 $1$，$T$ 的高为</p><p>$h=H-4$.</p><p>设 $T$ 的棱长为 $l$. 正四面体的高与棱长满足 $h=l\\sqrt{\\frac{2}{3}}$，而 $T$ 的直径就是棱长 $l$. 四个球互不穿透，所以任意两个球心的距离都不小于 $2$，从而 $l\\geqslant2$. 因此</p>\n$$\nH-4=h=l\\sqrt{\\frac{2}{3}}\\geqslant2\\sqrt{\\frac{2}{3}}=\\frac{2\\sqrt{6}}{3}\n$$\n<p>当 $T$ 的四个顶点作为四个球心时，四个球心两两距离均为 $2$，且每个球到外部正四面体的相应三个面均相切，于是下界可以达到. 所以外部正四面体的最小高为</p><p>$H=4+\\frac{2\\sqrt{6}}{3}$.</p><p>选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +318,38 @@
         {
           "num": 13,
           "body": "圆心为 $(1,2)$ 且与直线 $5x - 12y - 7 = 0$ 相切的圆的方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(x-1)^{2}+(y-2)^{2}=4$",
-          "solution": "<p>圆心到切线的距离就是半径，故</p>\n$$\nr=\\frac{|5\\cdot1-12\\cdot2-7|}{\\sqrt{5^{2}+(-12)^{2}}}=\\frac{26}{13}=2\n$$\n<p>所以圆的方程为 $(x-1)^{2}+(y-2)^{2}=4$.</p>"
+          "choices": [],
+          "answer": "\\((x-1)^2+(y-2)^2=4\\)",
+          "solution": "<p>圆心到切线的距离就是半径，故</p>\n$$\nr=\\frac{|5\\cdot1-12\\cdot2-7|}{\\sqrt{5^{2}+(-12)^{2}}}=\\frac{26}{13}=2\n$$\n<p>所以圆的方程为 $(x-1)^{2}+(y-2)^{2}=4$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "设 $\\alpha$ 为第四象限的角，若 $\\frac{\\sin 3\\alpha}{\\sin \\alpha}= \\frac{13}{5}$，则 $\\tan 2\\alpha =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-\\frac{3}{4}$",
-          "solution": "<p>由三倍角公式，$\\frac{\\sin3\\alpha}{\\sin\\alpha}=3-4\\sin^{2}\\alpha=\\frac{13}{5}$，所以 $\\sin^{2}\\alpha=\\frac{1}{10}$，且因 $\\alpha$ 在第四象限，$\\cos^{2}\\alpha=\\frac{9}{10}$，$\\tan\\alpha=-\\frac{1}{3}$. 因而</p>\n$$\n\\tan2\\alpha=\\frac{2\\tan\\alpha}{1-\\tan^{2}\\alpha}=\\frac{-\\frac{2}{3}}{1-\\frac{1}{9}}=-\\frac{3}{4}\n$$"
+          "choices": [],
+          "answer": "\\(-\\frac{3}{4}\\)",
+          "solution": "<p>由三倍角公式，$\\frac{\\sin3\\alpha}{\\sin\\alpha}=3-4\\sin^{2}\\alpha=\\frac{13}{5}$，所以 $\\sin^{2}\\alpha=\\frac{1}{10}$，且因 $\\alpha$ 在第四象限，$\\cos^{2}\\alpha=\\frac{9}{10}$，$\\tan\\alpha=-\\frac{1}{3}$. 因而</p>\n$$\n\\tan2\\alpha=\\frac{2\\tan\\alpha}{1-\\tan^{2}\\alpha}=\\frac{-\\frac{2}{3}}{1-\\frac{1}{9}}=-\\frac{3}{4}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "在由数字 $0$，$1$，$2$，$3$，$4$，$5$ 所组成的没有重复数字的四位数中，不能被 $5$ 整除的数共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 个.",
-          "choices": null,
+          "choices": [],
           "answer": "192",
-          "solution": "四位数的首位不能为 $0$，总数为 $5\\cdot\\mathrm{A}_{5}^{3}=300$. 能被 $5$ 整除的数末位只能是 $0$ 或 $5$. 末位为 $0$ 时有 $5\\cdot\\mathrm{A}_{4}^{2}=60$ 个；末位为 $5$ 时首位有 $1$，$2$，$3$，$4$ 四种选择，另两位有 $\\mathrm{A}_{4}^{2}=12$ 种排法，共 $4\\cdot12=48$ 个. 所以不能被 $5$ 整除的数有 $300-60-48=192$ 个."
+          "solution": "四位数的首位不能为 $0$，总数为 $5\\cdot\\mathrm{A}_{5}^{3}=300$. 能被 $5$ 整除的数末位只能是 $0$ 或 $5$. 末位为 $0$ 时有 $5\\cdot\\mathrm{A}_{4}^{2}=60$ 个；末位为 $5$ 时首位有 $1$，$2$，$3$，$4$ 四种选择，另两位有 $\\mathrm{A}_{4}^{2}=12$ 种排法，共 $4\\cdot12=48$ 个. 所以不能被 $5$ 整除的数有 $300-60-48=192$ 个.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>下面是关于三棱锥的四个命题：</p><ol class=\"enumerate\"><li><p>底面是等边三角形，侧面与底面所成的二面角都相等的三棱锥是正三棱锥；</p></li><li><p>底面是等边三角形，侧面都是等腰三角形的三棱锥是正三棱锥；</p></li><li><p>底面是等边三角形，侧面的面积都相等的三棱锥是正三棱锥；</p></li><li><p>侧棱与底面所成的角都相等，且侧面与底面所成的二面角都相等的三棱锥是正三棱锥.</p></li></ol><p>其中，真命题的编号是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （写出所有真命题的编号）</p>",
-          "choices": null,
+          "choices": [],
           "answer": "①，④",
-          "solution": "<p>设顶点为 $P$，$H$ 为 $P$ 在底面上的射影.</p><p>对于命题 1，在垂直于每条底边的截面内考察内部二面角. 设 $PH=h>0$，并把 $H$ 到某条底边所在直线、朝向底面内部一侧的有向距离记为 $\\delta$. 截面中侧面内射线的方向可表示为 $(\\delta,h)$，所以该二面角 $\\varphi$ 满足 $\\cot\\varphi=\\frac{\\delta}{h}$. 因为 $h$ 固定，三个二面角相等就等价于 $H$ 到三条底边所在直线的有向距离相等. 对等边三角形，三个有向距离之和恒为三倍内切圆半径，故它们相等时 $H$ 恰为内心，也就是中心，从而命题 1 正确.</p><p>命题 2 不正确. 例如取底面为单位等边三角形 $A(0,0,0)$，$B(1,0,0)$，$C\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，取 $P\\left(\\frac{1}{2},0,\\frac{\\sqrt{3}}{2}\\right)$. 此时 $PA=PB=AB=BC=CA=1$，所以三个侧面分别因 $PA=PB$、$PB=BC$、$PA=CA$ 而都是等腰三角形，但 $PC=\\sqrt{\\frac{3}{2}}\\neq1$，故不是正三棱锥.</p><p>命题 3 不正确. 取 $H$ 为底面等边三角形的一个旁心，取 $P$ 在过 $H$ 的底面法线上且不在底面内. 设 $H$ 到三条底边所在直线的距离的绝对值均为 $r$，且 $PH=h$. 则从 $P$ 到三条底边所在直线的距离均为 $\\sqrt{h^{2}+r^{2}}$，所以三个侧面的高相等，三个侧面的面积也相等；但 $H$ 不是底面中心，故三棱锥不是正三棱锥.</p><p>对于命题 4，设侧棱与底面所成的角为 $\\theta$，则 $\\sin\\theta=\\frac{PH}{PA}=\\frac{PH}{PB}=\\frac{PH}{PC}$，从而 $PA=PB=PC$. 因为 $A$，$B$，$C$ 是等边三角形的顶点，平面内到三点等距的点只有其中心，所以 $H$ 是底面中心，三棱锥为正三棱锥. 因此真命题的编号为 1，4.</p>"
+          "solution": "<p>设顶点为 $P$，$H$ 为 $P$ 在底面上的射影.</p><p>对于命题 1，在垂直于每条底边的截面内考察内部二面角. 设 $PH=h>0$，并把 $H$ 到某条底边所在直线、朝向底面内部一侧的有向距离记为 $\\delta$. 截面中侧面内射线的方向可表示为 $(\\delta,h)$，所以该二面角 $\\varphi$ 满足 $\\cot\\varphi=\\frac{\\delta}{h}$. 因为 $h$ 固定，三个二面角相等就等价于 $H$ 到三条底边所在直线的有向距离相等. 对等边三角形，三个有向距离之和恒为三倍内切圆半径，故它们相等时 $H$ 恰为内心，也就是中心，从而命题 1 正确.</p><p>命题 2 不正确. 例如取底面为单位等边三角形 $A(0,0,0)$，$B(1,0,0)$，$C\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，取 $P\\left(\\frac{1}{2},0,\\frac{\\sqrt{3}}{2}\\right)$. 此时 $PA=PB=AB=BC=CA=1$，所以三个侧面分别因 $PA=PB$、$PB=BC$、$PA=CA$ 而都是等腰三角形，但 $PC=\\sqrt{\\frac{3}{2}}\\neq1$，故不是正三棱锥.</p><p>命题 3 不正确. 取 $H$ 为底面等边三角形的一个旁心，取 $P$ 在过 $H$ 的底面法线上且不在底面内. 设 $H$ 到三条底边所在直线的距离的绝对值均为 $r$，且 $PH=h$. 则从 $P$ 到三条底边所在直线的距离均为 $\\sqrt{h^{2}+r^{2}}$，所以三个侧面的高相等，三个侧面的面积也相等；但 $H$ 不是底面中心，故三棱锥不是正三棱锥.</p><p>对于命题 4，设侧棱与底面所成的角为 $\\theta$，则 $\\sin\\theta=\\frac{PH}{PA}=\\frac{PH}{PB}=\\frac{PH}{PC}$，从而 $PA=PB=PC$. 因为 $A$，$B$，$C$ 是等边三角形的顶点，平面内到三点等距的点只有其中心，所以 $H$ 是底面中心，三棱锥为正三棱锥. 因此真命题的编号为 1，4.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "设函数 $f(x) = 2^{|x + 1| - |x - 1|}$，求使 $f(x) \\ge 2\\sqrt{2}$ 的 $x$ 的取值范围.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为底数 $2>1$，不等式等价于 $|x+1|-|x-1|\\ge\\log_{2}(2\\sqrt{2})=\\frac{3}{2}$.</p><p>分三段讨论：当 $x\\le-1$ 时，左端为 $-2$；当 $-1\\le x\\leqslant1$ 时，左端为 $2x$；当 $x\\geqslant1$ 时，左端为 $2$. 因而中间一段给出 $x\\ge\\frac{3}{4}$，右侧一段全部满足，左侧一段无解. 所以 $x\\in\\left[\\frac{3}{4},+\\infty\\right)$.</p>"
+          "solution": "<p>因为底数 $2>1$，不等式等价于 $|x+1|-|x-1|\\ge\\log_{2}(2\\sqrt{2})=\\frac{3}{2}$.</p><p>分三段讨论：当 $x\\le-1$ 时，左端为 $-2$；当 $-1\\le x\\leqslant1$ 时，左端为 $2x$；当 $x\\geqslant1$ 时，左端为 $2$. 因而中间一段给出 $x\\ge\\frac{3}{4}$，右侧一段全部满足，左侧一段无解. 所以 $x\\in\\left[\\frac{3}{4},+\\infty\\right)$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>已知 $\\{a_{n}\\}$ 是各项均为正数的等差数列，$\\lg a_{1}$，$\\lg a_{2}$，$\\lg a_{4}$ 成等差数列. 又 $b_{n}= \\frac{1}{a_{2^n}}$，$n = 1$，$2$，$3$，$\\cdots$.</p><ol class=\"enumerate\"><li><p>证明 $\\{b_{n}\\}$ 为等比数列；</p></li><li><p>如果无穷等比数列 $\\{b_{n}\\}$ 各项的和 $S = \\frac{1}{3}$，求数列 $\\{a_{n}\\}$ 的首项 $a_{1}$ 和公差 $d$.</p></li></ol><p>注：无穷数列各项的和即当 $n \\to \\infty$ 时数列前 $n$ 项和的极限.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设等差数列的公差为 $d$. 由 $\\lg a_{1}$，$\\lg a_{2}$，$\\lg a_{4}$ 成等差数列，得 $2\\lg a_{2}=\\lg a_{1}+\\lg a_{4}$，从而 $a_{2}^{2}=a_{1}a_{4}$. 代入 $a_{2}=a_{1}+d$，$a_{4}=a_{1}+3d$，得到 $(a_{1}+d)^{2}=a_{1}(a_{1}+3d)$，即 $d(d-a_{1})=0$.</p><p>若 $d=0$，则 $a_{2^n}=a_{1}$，所以 $b_{n}=\\frac{1}{a_{1}}$，这是公比为 $1$ 的等比数列. 若 $d=a_{1}$，则 $a_{n}=na_{1}$，从而 $a_{2^n}=2^{n} a_{1}$，$b_{n}=\\frac{1}{2^{n} a_{1}}=\\frac{1}{2a_{1}}\\left(\\frac{1}{2}\\right)^{n-1}$，这是公比为 $\\frac{1}{2}$ 的等比数列. 因此 $\\{b_{n}\\}$ 必为等比数列.</p><p>第二问中，无穷等比数列的和有限，排除公比为 $1$ 的情形，故 $d=a_{1}$. 此时 $b_{1}=\\frac{1}{2d}$，公比为 $\\frac{1}{2}$，所以</p>\n$$\nS=\\frac{\\frac{1}{(2d)}}{1-\\frac{1}{2}}=\\frac{1}{d}=\\frac{1}{3}\n$$\n<p>故 $d=3$，且 $a_{1}=d=3$.</p>"
+          "solution": "<p>设等差数列的公差为 $d$. 由 $\\lg a_{1}$，$\\lg a_{2}$，$\\lg a_{4}$ 成等差数列，得 $2\\lg a_{2}=\\lg a_{1}+\\lg a_{4}$，从而 $a_{2}^{2}=a_{1}a_{4}$. 代入 $a_{2}=a_{1}+d$，$a_{4}=a_{1}+3d$，得到 $(a_{1}+d)^{2}=a_{1}(a_{1}+3d)$，即 $d(d-a_{1})=0$.</p><p>若 $d=0$，则 $a_{2^n}=a_{1}$，所以 $b_{n}=\\frac{1}{a_{1}}$，这是公比为 $1$ 的等比数列. 若 $d=a_{1}$，则 $a_{n}=na_{1}$，从而 $a_{2^n}=2^{n} a_{1}$，$b_{n}=\\frac{1}{2^{n} a_{1}}=\\frac{1}{2a_{1}}\\left(\\frac{1}{2}\\right)^{n-1}$，这是公比为 $\\frac{1}{2}$ 的等比数列. 因此 $\\{b_{n}\\}$ 必为等比数列.</p><p>第二问中，无穷等比数列的和有限，排除公比为 $1$ 的情形，故 $d=a_{1}$. 此时 $b_{1}=\\frac{1}{2d}$，公比为 $\\frac{1}{2}$，所以</p>\n$$\nS=\\frac{\\frac{1}{(2d)}}{1-\\frac{1}{2}}=\\frac{1}{d}=\\frac{1}{3}\n$$\n<p>故 $d=3$，且 $a_{1}=d=3$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "甲，乙两队进行一场排球比赛. 根据以往经验，单局比赛甲队胜乙队的概率为 $0.6$. 本场比赛采用五局三胜制，即先胜三局的队获胜，比赛结束. 各局比赛相互间没有影响. 令 $\\xi$ 为本场比赛的局数. 求 $\\xi$ 的概率分布和数学期望. （精确到 $0.0001$）",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设甲队单局获胜概率为 $p=0.6$，乙队单局获胜概率为 $q=0.4$. 比赛恰好进行三局，当且仅当某队连续胜三局，因此</p>\n$$\nP(\\xi=3)=p^{3}+q^{3}=0.216+0.064=0.2800\n$$\n<p>比赛恰好进行四局时，前四局中获胜队在前四局恰好取得第三场胜利，故</p>\n$$\nP(\\xi=4)=\\mathrm{C}_{3}^{2}p^{3}q+\\mathrm{C}_{3}^{2}q^{3}p=3(0.6^{3}\\cdot0.4+0.4^{3}\\cdot0.6)=0.3744\n$$\n<p>比赛恰好进行五局，当且仅当前四局双方各胜两局，所以 $P(\\xi=5)=\\mathrm{C}_{4}^{2}p^{2}q^{2}=6\\cdot0.6^{2}\\cdot0.4^{2}=0.3456$.</p><p>三种概率之和为 $1$，故 $\\xi$ 的概率分布为上述三项，其他取值的概率为 $0$. 数学期望为</p>\n$$\nE\\xi=3\\cdot0.2800+4\\cdot0.3744+5\\cdot0.3456=4.0656\n$$"
+          "solution": "<p>设甲队单局获胜概率为 $p=0.6$，乙队单局获胜概率为 $q=0.4$. 比赛恰好进行三局，当且仅当某队连续胜三局，因此</p>\n$$\nP(\\xi=3)=p^{3}+q^{3}=0.216+0.064=0.2800\n$$\n<p>比赛恰好进行四局时，前四局中获胜队在前四局恰好取得第三场胜利，故</p>\n$$\nP(\\xi=4)=\\mathrm{C}_{3}^{2}p^{3}q+\\mathrm{C}_{3}^{2}q^{3}p=3(0.6^{3}\\cdot0.4+0.4^{3}\\cdot0.6)=0.3744\n$$\n<p>比赛恰好进行五局，当且仅当前四局双方各胜两局，所以 $P(\\xi=5)=\\mathrm{C}_{4}^{2}p^{2}q^{2}=6\\cdot0.6^{2}\\cdot0.4^{2}=0.3456$.</p><p>三种概率之和为 $1$，故 $\\xi$ 的概率分布为上述三项，其他取值的概率为 $0$. 数学期望为</p>\n$$\nE\\xi=3\\cdot0.2800+4\\cdot0.3744+5\\cdot0.3456=4.0656\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，四棱锥 $P - ABCD$ 中，底面 $ABCD$ 为矩形，$PD \\perp$ 底面 $ABCD$，$AD = PD$，$E$，$F$ 分别为 $CD$，$PB$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$EF \\perp$ 平面 $PAB$；</p></li><li><p>设 $AB = \\sqrt{2}BC$，求 $AC$ 与平面 $AEF$ 所成的角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_2_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，四棱锥 $P - ABCD$ 中，底面 $ABCD$ 为矩形，$PD \\perp$ 底面 $ABCD$，$AD = PD$，$E$，$F$ 分别为 $CD$，$PB$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$EF \\perp$ 平面 $PAB$；</p></li><li><p>设 $AB = \\sqrt{2}BC$，求 $AC$ 与平面 $AEF$ 所成的角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/national_paper_2_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>建立空间直角坐标系，令 $D(0,0,0)$，$A(a,0,0)$，$B(a,b,0)$，$C(0,b,0)$，其中 $a=AD=PD$，且 $P(0,0,a)$. 则 $E\\left(0,\\frac{b}{2},0\\right)$，$F\\left(\\frac{a}{2},\\frac{b}{2},\\frac{a}{2}\\right)$.</p><p>于是 $\\overrightarrow{EF}=\\left(\\frac{a}{2},0,\\frac{a}{2}\\right)$，$\\overrightarrow{AB}=(0,b,0)$，$\\overrightarrow{AP}=(-a,0,a)$. 有 $\\overrightarrow{EF}\\cdot\\overrightarrow{AB}=0$，$\\overrightarrow{EF}\\cdot\\overrightarrow{AP}=0$，而 $AB$ 与 $AP$ 是平面 $PAB$ 内相交的两条直线，所以 $EF\\perp$ 平面 $PAB$.</p><p>再由 $AB=\\sqrt{2}BC$ 得 $b=\\sqrt{2}a$. 取平面 $AEF$ 内的两个向量 $\\overrightarrow{AE}=\\left(-a,\\frac{b}{2},0\\right)$ 和 $\\overrightarrow{AF}=\\left(-\\frac{a}{2},\\frac{b}{2},\\frac{a}{2}\\right)$.</p><p>可取该平面的法向量为 $\\mathbf{n}=(b,2a,-b)$，而 $\\overrightarrow{AC}=(-a,b,0)$. 设直线 $AC$ 与平面 $AEF$ 所成的角为 $\\theta$，则</p>\n$$\n\\sin\\theta=\\frac{|\\overrightarrow{AC}\\cdot\\mathbf{n}|}{|\\overrightarrow{AC}|\\,|\\mathbf{n}|}=\\frac{ab}{\\sqrt{a^{2}+b^{2}}\\sqrt{2b^{2}+4a^{2}}}=\\frac{\\sqrt{3}}{6}\n$$\n<p>因此 $\\theta=\\arcsin\\frac{\\sqrt{3}}{6}$.</p>"
+          "solution": "<p>建立空间直角坐标系，令 $D(0,0,0)$，$A(a,0,0)$，$B(a,b,0)$，$C(0,b,0)$，其中 $a=AD=PD$，且 $P(0,0,a)$. 则 $E\\left(0,\\frac{b}{2},0\\right)$，$F\\left(\\frac{a}{2},\\frac{b}{2},\\frac{a}{2}\\right)$.</p><p>于是 $\\overrightarrow{EF}=\\left(\\frac{a}{2},0,\\frac{a}{2}\\right)$，$\\overrightarrow{AB}=(0,b,0)$，$\\overrightarrow{AP}=(-a,0,a)$. 有 $\\overrightarrow{EF}\\cdot\\overrightarrow{AB}=0$，$\\overrightarrow{EF}\\cdot\\overrightarrow{AP}=0$，而 $AB$ 与 $AP$ 是平面 $PAB$ 内相交的两条直线，所以 $EF\\perp$ 平面 $PAB$.</p><p>再由 $AB=\\sqrt{2}BC$ 得 $b=\\sqrt{2}a$. 取平面 $AEF$ 内的两个向量 $\\overrightarrow{AE}=\\left(-a,\\frac{b}{2},0\\right)$ 和 $\\overrightarrow{AF}=\\left(-\\frac{a}{2},\\frac{b}{2},\\frac{a}{2}\\right)$.</p><p>可取该平面的法向量为 $\\mathbf{n}=(b,2a,-b)$，而 $\\overrightarrow{AC}=(-a,b,0)$. 设直线 $AC$ 与平面 $AEF$ 所成的角为 $\\theta$，则</p>\n$$\n\\sin\\theta=\\frac{|\\overrightarrow{AC}\\cdot\\mathbf{n}|}{|\\overrightarrow{AC}|\\,|\\mathbf{n}|}=\\frac{ab}{\\sqrt{a^{2}+b^{2}}\\sqrt{2b^{2}+4a^{2}}}=\\frac{\\sqrt{3}}{6}\n$$\n<p>因此 $\\theta=\\arcsin\\frac{\\sqrt{3}}{6}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "$P$，$Q$，$M$，$N$ 四点都在椭圆 $x^{2}+ \\frac{y^{2}}{2}= 1$ 上，$F$ 为椭圆在 $y$ 轴正半轴上的焦点. 已知 $\\overrightarrow{PF}$ 与 $\\overrightarrow{FQ}$ 共线，$\\overrightarrow{MF}$ 与 $\\overrightarrow{FN}$ 共线，且 $\\overrightarrow{PF}\\cdot \\overrightarrow{MF}= 0$. 求四边形 $PMQN$ 的面积的最小值和最大值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>椭圆可写为 $\\frac{x^{2}}{1^{2}}+\\frac{y^{2}}{(\\sqrt{2})^{2}}=1$，故焦点为 $F(0,1)$. 由题意，弦 $PQ$ 与弦 $MN$ 都过 $F$，且互相垂直，因此四边形 $PMQN$ 的两条对角线为 $PQ$、$MN$，其面积为 $S=\\frac{1}{2}|PQ||MN|$.</p><p>先设直线 $PQ$ 的斜率为非零有限值 $k$. 直线方程为 $y=1+kx$，代入椭圆方程得</p>\n$$\n(k^{2}+2)x^{2}+2kx-1=0\n$$\n<p>该方程的判别式为 $\\Delta=4k^{2}+4(k^{2}+2)=8(k^{2}+1)$，所以两交点横坐标之差为 $\\frac{\\sqrt{\\Delta}}{k^{2}+2}=\\frac{2\\sqrt{2(k^{2}+1)}}{k^{2}+2}$，进而</p>\n$$\n|PQ|=\\frac{2\\sqrt{2}(k^{2}+1)}{k^{2}+2}\n$$\n<p>垂线 $MN$ 的斜率为 $-\\frac{1}{k}$. 将上面得到的弦长公式中的斜率替换为 $-\\frac{1}{k}$，得到</p>\n$$\n|MN|=\\frac{2\\sqrt{2}(k^{2}+1)}{2k^{2}+1}\n$$\n<p>令 $u=k^{2}\\geqslant0$，则</p>\n$$\nS=\\frac{4(1+u)^{2}}{(u+2)(2u+1)}\n$$\n<p>由</p>\n$$\n2(u+2)(2u+1)-4(1+u)^{2}=2u\\geqslant0\n$$\n<p>得 $S\\leqslant2$；又</p>\n$$\n36(1+u)^{2}-16(u+2)(2u+1)=4(u-1)^{2}\\geqslant0\n$$\n<p>得 $S\\ge\\frac{16}{9}$. 当 $u=1$ 时取到下界. 对遗漏的退化斜率，若 $k=0$，则 $PQ$ 为直线 $y=1$，$MN$ 为直线 $x=0$，故 $|PQ|=\\sqrt{2}$，$|MN|=2\\sqrt{2}$，仍有 $S=2$；若 $PQ$ 为竖直弦，则 $MN$ 为水平弦，同样得到 $S=2$. 因此最大值也能取到，面积最小值为 $\\frac{16}{9}$，最大值为 $2$.</p>"
+          "solution": "<p>椭圆可写为 $\\frac{x^{2}}{1^{2}}+\\frac{y^{2}}{(\\sqrt{2})^{2}}=1$，故焦点为 $F(0,1)$. 由题意，弦 $PQ$ 与弦 $MN$ 都过 $F$，且互相垂直，因此四边形 $PMQN$ 的两条对角线为 $PQ$、$MN$，其面积为 $S=\\frac{1}{2}|PQ||MN|$.</p><p>先设直线 $PQ$ 的斜率为非零有限值 $k$. 直线方程为 $y=1+kx$，代入椭圆方程得</p>\n$$\n(k^{2}+2)x^{2}+2kx-1=0\n$$\n<p>该方程的判别式为 $\\Delta=4k^{2}+4(k^{2}+2)=8(k^{2}+1)$，所以两交点横坐标之差为 $\\frac{\\sqrt{\\Delta}}{k^{2}+2}=\\frac{2\\sqrt{2(k^{2}+1)}}{k^{2}+2}$，进而</p>\n$$\n|PQ|=\\frac{2\\sqrt{2}(k^{2}+1)}{k^{2}+2}\n$$\n<p>垂线 $MN$ 的斜率为 $-\\frac{1}{k}$. 将上面得到的弦长公式中的斜率替换为 $-\\frac{1}{k}$，得到</p>\n$$\n|MN|=\\frac{2\\sqrt{2}(k^{2}+1)}{2k^{2}+1}\n$$\n<p>令 $u=k^{2}\\geqslant0$，则</p>\n$$\nS=\\frac{4(1+u)^{2}}{(u+2)(2u+1)}\n$$\n<p>由</p>\n$$\n2(u+2)(2u+1)-4(1+u)^{2}=2u\\geqslant0\n$$\n<p>得 $S\\leqslant2$；又</p>\n$$\n36(1+u)^{2}-16(u+2)(2u+1)=4(u-1)^{2}\\geqslant0\n$$\n<p>得 $S\\ge\\frac{16}{9}$. 当 $u=1$ 时取到下界. 对遗漏的退化斜率，若 $k=0$，则 $PQ$ 为直线 $y=1$，$MN$ 为直线 $x=0$，故 $|PQ|=\\sqrt{2}$，$|MN|=2\\sqrt{2}$，仍有 $S=2$；若 $PQ$ 为竖直弦，则 $MN$ 为水平弦，同样得到 $S=2$. 因此最大值也能取到，面积最小值为 $\\frac{16}{9}$，最大值为 $2$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知 $a \\ge 0$，函数 $f(x) = (x^{2} - 2ax)\\mathrm{e}^{x}$.</p><ol class=\"enumerate\"><li><p>当 $x$ 为何值时，$f(x)$ 取得最小值？ 证明你的结论；</p></li><li><p>设 $f(x)$ 在 $[-1,1]$ 上是单调函数，求 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=\\bigl[x^{2}+2(1-a)x-2a\\bigr]\\mathrm{e}^{x}$. 令 $r_{1}=a-1-\\sqrt{a^{2}+1}$，$r_{2}=a-1+\\sqrt{a^{2}+1}$，则 $r_{1}<r_{2}$，且 $x^{2}+2(1-a)x-2a=(x-r_{1})(x-r_{2})$.</p><p>因为 $\\mathrm{e}^{x}>0$，所以 $f$ 在 $(-\\infty,r_{1})$ 上递增，在 $(r_{1},r_{2})$ 上递减，在 $(r_{2},+\\infty)$ 上递增. 又当 $x\\to-\\infty$ 时 $f(x)\\to0$，当 $x\\to+\\infty$ 时 $f(x)\\to+\\infty$. 当 $a>0$ 时，$0<r_{2}<2a$，故 $f(r_{2})<0$；当 $a=0$ 时，$r_{2}=0$，且 $f(x)=x^{2}\\mathrm{e}^{x}\\geqslant0=f(0)$. 所以无论哪种情形，函数都在 $x=a-1+\\sqrt{a^{2}+1}$ 时取得全局最小值.</p></li><li><p>在 $[-1,1]$ 上，$f'(x)$ 的符号由 $g(x)=x^{2}+2(1-a)x-2a$ 决定. 因为 $g(-1)=-1<0$，不可能在整个区间上满足 $g(x)\\geqslant0$，所以若 $f$ 单调，必须有 $g(x)\\leqslant0$ 对一切 $x\\in[-1,1]$ 成立. 二次函数 $g$ 开口向上，在闭区间上的最大值为端点值，而 $g(-1)=-1$，$g(1)=3-4a$.</p><p>因此充要条件为 $3-4a\\leqslant0$，即 $a\\ge\\frac{3}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=\\bigl[x^{2}+2(1-a)x-2a\\bigr]\\mathrm{e}^{x}$. 令 $r_{1}=a-1-\\sqrt{a^{2}+1}$，$r_{2}=a-1+\\sqrt{a^{2}+1}$，则 $r_{1}<r_{2}$，且 $x^{2}+2(1-a)x-2a=(x-r_{1})(x-r_{2})$.</p><p>因为 $\\mathrm{e}^{x}>0$，所以 $f$ 在 $(-\\infty,r_{1})$ 上递增，在 $(r_{1},r_{2})$ 上递减，在 $(r_{2},+\\infty)$ 上递增. 又当 $x\\to-\\infty$ 时 $f(x)\\to0$，当 $x\\to+\\infty$ 时 $f(x)\\to+\\infty$. 当 $a>0$ 时，$0<r_{2}<2a$，故 $f(r_{2})<0$；当 $a=0$ 时，$r_{2}=0$，且 $f(x)=x^{2}\\mathrm{e}^{x}\\geqslant0=f(0)$. 所以无论哪种情形，函数都在 $x=a-1+\\sqrt{a^{2}+1}$ 时取得全局最小值.</p></li><li><p>在 $[-1,1]$ 上，$f'(x)$ 的符号由 $g(x)=x^{2}+2(1-a)x-2a$ 决定. 因为 $g(-1)=-1<0$，不可能在整个区间上满足 $g(x)\\geqslant0$，所以若 $f$ 单调，必须有 $g(x)\\leqslant0$ 对一切 $x\\in[-1,1]$ 成立. 二次函数 $g$ 开口向上，在闭区间上的最大值为端点值，而 $g(-1)=-1$，$g(1)=3-4a$.</p><p>因此充要条件为 $3-4a\\leqslant0$，即 $a\\ge\\frac{3}{4}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

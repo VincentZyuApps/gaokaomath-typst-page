@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,222 +11,295 @@
 #part-header("单选题")
 
 #problem(1)[
-设不等式 $x^(2) - x <= 0$ 的解集为 $M$，函数 $f(x) = ln (1 - |x|)$ 的定义域为 $N$，则 $M inter N$ 为（ ）
-  #choices([$[0, 1)$], [$(0,1)$], [$[0,1]$], [$(-1,0]$], cols: 4)
+设不等式 #mi(`x^{2}- x \le 0`) 的解集为 #mi(`M`)，函数 #mi(`f\left(x\right) = \ln\left(1 - |x|\right)`) 的定义域为 #mi(`N`)，则 #mi(`M \cap N`) 为（ ）
+  #choices([#mi(`\left[0, 1\right)`)], [#mi(`\left(0,1\right)`)], [#mi(`\left[0,1\right]`)], [#mi(`\left(-1,0\right]`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-不等式可化为 $x(x-1) <= 0$，所以 $M=[0,1]$. 由对数函数的定义域条件
-$1-|x|>0$，得 $-1<x<1$，即 $N=(-1,1)$. 因此
-$M inter N=[0,1)$，故选 A.
+不等式可化为 #mi(`x\left(x-1\right)\leqslant0`)，所以 #mi(`M=\left[0,1\right]`). 由对数函数的定义域条件
+
+#mi(`1-|x|>0`)，得 #mi(`-1<x<1`)，即 #mi(`N=\left(-1,1\right)`). 因此
+
+#mi(`M\cap N=\left[0,1\right)`)，故选 A.
 ]
 
 #problem(2)[
-已知 $z$ 是纯虚数，$(z + 2)/(1 - i)$ 是实数，那么 $z$ 等于（ ）
-  #choices([$2 i$], [$i$], [$- i$], [$-2 i$], cols: 4)
+已知 #mi(`z`) 是纯虚数，#mi(`\frac{z + 2}{1 - \mathrm{i}}`) 是实数，那么 #mi(`z`) 等于（ ）
+  #choices([#mi(`2\mathrm{i}`)], [#mi(`\mathrm{i}`)], [#mi(`-\mathrm{i}`)], [#mi(`-2\mathrm{i}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-设纯虚数 $z=b i$，其中 $b in RR$ 且 $b != 0$. 则
+设纯虚数 #mi(`z=b\mathrm{i}`)，其中 #mi(`b\in\mathbb{R}`) 且 #mi(`b\ne0`). 则
 
-$ (z+2)/(1- i)=(2+b i)/(1- i)=((2+b i )(1+ i ))/(2)=(2-b+(2+b) i)/(2) $
 
-该数为实数，当且仅当虚部为零，即 $2+b=0$，所以 $b=-2$，从而 $z=-2 i$，故选 D.
+#align(center)[#mitex(`
+\frac{z+2}{1-\mathrm{i}}=\frac{2+b\mathrm{i}}{1-\mathrm{i}}=\frac{\left(2+b\mathrm{i}\right)\left(1+\mathrm{i}\right)}{2}=\frac{2-b+\left(2+b\right)\mathrm{i}}{2}
+`)]
+
+
+该数为实数，当且仅当虚部为零，即 #mi(`2+b=0`)，所以 #mi(`b=-2`)，从而 #mi(`z=-2\mathrm{i}`)，故选 D.
 ]
 
 #problem(3)[
-函数 $f(x) = sqrt(2 x - 4)$（$x >= 4$）的反函数为（ ）
-  #choices([$f^(-1)(x) = (1)/(2)x^2 + 2$（$x >= 0$）], [$f^(-1)(x) = (1)/(2)x^2 + 2$（$x >= 2$）], [$f^(-1)(x) = (1)/(2)x^2 + 4$（$x >= 0$）], [$f^(-1)(x) = (1)/(2)x^2 + 4$（$x >= 2$）], cols: 1)
+函数 #mi(`f\left(x\right) = \sqrt{2x - 4}`)（#mi(`x \ge 4`)）的反函数为（ ）
+  #choices([#mi(`f^{-1}\left(x\right) = \frac{1}{2}x^{2} + 2`)（#mi(`x\ge 0`)）], [#mi(`f^{-1}\left(x\right) = \frac{1}{2}x^{2} + 2`)（#mi(`x\ge 2`)）], [#mi(`f^{-1}\left(x\right) = \frac{1}{2}x^{2} + 4`)（#mi(`x\ge 0`)）], [#mi(`f^{-1}\left(x\right) = \frac{1}{2}x^{2} + 4`)（#mi(`x\ge 2`)）], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-令 $y=sqrt(2 x-4)$，由题设 $x >= 4$，故 $y >= 2$. 两边平方得
-$y^(2)=2 x-4$，解得 $x=(1)/(2)y^(2)+2$. 因而交换自变量与因变量后，反函数为
-$f^(-1)(x)=(1)/(2)x^(2)+2$，其定义域为原函数的值域 $x >= 2$，故选 B.
+令 #mi(`y=\sqrt{2x-4}`)，由题设 #mi(`x\geqslant4`)，故 #mi(`y\geqslant2`). 两边平方得
+
+#mi(`y^{2}=2x-4`)，解得 #mi(`x=\frac{1}{2}y^{2}+2`). 因而交换自变量与因变量后，反函数为
+
+#mi(`f^{-1}\left(x\right)=\frac{1}{2}x^{2}+2`)，其定义域为原函数的值域 #mi(`x\geqslant2`)，故选 B.
 ]
 
 #problem(4)[
-过原点且倾斜角为 $60^( degree )$ 的直线被圆 $x^(2) + y^(2) - 4 y = 0$ 所截得的弦长为（ ）
-  #choices([$sqrt(3)$], [$2$], [$sqrt(6)$], [$2 sqrt(3)$], cols: 4)
+过原点且倾斜角为 #mi(`60^{\circ}`) 的直线被圆 #mi(`x^{2}+ y^{2}- 4y = 0`) 所截得的弦长为（ ）
+  #choices([#mi(`\sqrt{3}`)], [#mi(`2`)], [#mi(`\sqrt{6}`)], [#mi(`2\sqrt{3}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-圆 $x^(2)+y^(2)-4 y=0$ 可写为 $x^(2)+(y-2)^(2)=4$，所以圆心为 $C(0,2)$，半径为 $2$. 直线过原点且倾斜角为 $60^( degree )$，方程为 $y=sqrt(3)x$，即 $sqrt(3)x-y=0$. 圆心到直线的距离为
+圆 #mi(`x^{2}+y^{2}-4y=0`) 可写为 #mi(`x^{2}+\left(y-2\right)^{2}=4`)，所以圆心为 #mi(`C\left(0,2\right)`)，半径为 #mi(`2`). 直线过原点且倾斜角为 #mi(`60^{\circ}`)，方程为 #mi(`y=\sqrt{3}x`)，即 #mi(`\sqrt{3}x-y=0`). 圆心到直线的距离为
 
-$ d=(|sqrt(3){ dot }0-2|)/(sqrt(3+1))=1 $
 
-弦长等于 $2 sqrt(R^(2)-d^(2))$，所以弦长为
-$2 sqrt(2^(2)-1^(2))=2 sqrt(3)$，故选 D.
+#align(center)[#mitex(`
+d=\frac{|\sqrt{3}\cdot0-2|}{\sqrt{3+1}}=1
+`)]
+
+
+弦长等于 #mi(`2\sqrt{R^{2}-d^{2}}`)，所以弦长为
+
+#mi(`2\sqrt{2^{2}-1^{2}}=2\sqrt{3}`)，故选 D.
 ]
 
 #problem(5)[
-若 $3 sin alpha + cos alpha = 0$，则 $(1)/(cos ""^2 alpha + sin 2 alpha)$ 的值为（ ）
-  #choices([$(10)/(3)$], [$(5)/(3)$], [$(2)/(3)$], [$-2$], cols: 4)
+若 #mi(`3\sin \alpha + \cos \alpha = 0`)，则 #mi(`\frac{1}{\cos^{2}\alpha + \sin 2\alpha}`) 的值为（ ）
+  #choices([#mi(`\frac{10}{3}`)], [#mi(`\frac{5}{3}`)], [#mi(`\frac{2}{3}`)], [#mi(`-2`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-设 $s= sin alpha$，$c= cos alpha$. 由 $3 s+c=0$ 得 $c=-3 s$. 因为 $s^(2)+c^(2)=1$，所以
-$10 s^(2)=1$，从而 $s^(2)=(1)/(10)$，$c^(2)=(9)/(10)$.
+设 #mi(`s=\sin\alpha`)，#mi(`c=\cos\alpha`). 由 #mi(`3s+c=0`) 得 #mi(`c=-3s`). 因为 #mi(`s^{2}+c^{2}=1`)，所以
+
+#mi(`10s^{2}=1`)，从而 #mi(`s^{2}=\frac{1}{10}`)，#mi(`c^{2}=\frac{9}{10}`).
+
 又
-$sin 2 alpha =2 s c=-6 s^(2)=-(3)/(5)$，从而
 
-$ cos ""^(2) alpha + sin 2 alpha =(9)/(10)-(3)/(5)=(3)/(10) $
+#mi(`\sin2\alpha=2sc=-6s^{2}=-\frac{3}{5}`)，从而
 
-因此所求值为 $(1)/((3)/(10))=(10)/(3)$，故选 A.
+
+#align(center)[#mitex(`
+\cos^{2}\alpha+\sin2\alpha=\frac{9}{10}-\frac{3}{5}=\frac{3}{10}
+`)]
+
+
+因此所求值为 #mi(`\frac{1}{\frac{3}{10}}=\frac{10}{3}`)，故选 A.
 ]
 
 #problem(6)[
-若 $(1-2 x)^(2009)=a_(0)+a_(1)x+ dots.c +a_(2009)x^(2009)$ （$x in RR$），则 $(a_(1))/(2)+(a_(2))/(2^(2))+ dots.c +(a_(2009))/(2^(2009))$（ ）
-  #choices([$2$], [$0$], [$-1$], [$-2$], cols: 4)
+若 #mi(`\left(1-2x\right)^{2009}=a_{0}+a_{1}x+\cdots+a_{2009}x^{2009}`) （#mi(`x\in \mathbb{R}`)），则 #mi(`\frac{a_{1}}{2}+\frac{a_{2}}{2^{2}}+\cdots+\frac{a_{2009}}{2^{2009}}`)（ ）
+  #choices([#mi(`2`)], [#mi(`0`)], [#mi(`-1`)], [#mi(`-2`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
 在等式
-$(1-2 x)^(2009)=a_(0)+a_(1)x+ dots.c +a_(2009)x^(2009)$
-中令 $x=(1)/(2)$，左边为零，因此
 
-$ 0=a_(0)+(a_(1))/(2)+(a_(2))/(2^(2))+ dots.c +(a_(2009))/(2^(2009)) $
+#mi(`\left(1-2x\right)^{2009}=a_{0}+a_{1}x+\cdots+a_{2009}x^{2009}`)
 
-令 $x=0$ 得 $a_(0)=1$，所以
+中令 #mi(`x=\frac{1}{2}`)，左边为零，因此
 
-$ (a_(1))/(2)+(a_(2))/(2^(2))+ dots.c +(a_(2009))/(2^(2009))=-1 $
+
+#align(center)[#mitex(`
+0=a_{0}+\frac{a_{1}}{2}+\frac{a_{2}}{2^{2}}+\cdots+\frac{a_{2009}}{2^{2009}}
+`)]
+
+
+令 #mi(`x=0`) 得 #mi(`a_{0}=1`)，所以
+
+
+#align(center)[#mitex(`
+\frac{a_{1}}{2}+\frac{a_{2}}{2^{2}}+\cdots+\frac{a_{2009}}{2^{2009}}=-1
+`)]
+
 
 故选 C.
 ]
 
 #problem(7)[
-“ $m > n > 0$ ”是“方程 $m x^(2) + n y^(2) = 1$ 表示焦点在 $y$ 轴上的椭圆”的（ ）
+“ #mi(`m > n > 0`) ”是“方程 #mi(`mx^{2}+ ny^{2}= 1`) 表示焦点在 #mi(`y`) 轴上的椭圆”的（ ）
   #choices([充分而不必要条件], [必要而不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-若 $m>n>0$，则
+若 #mi(`m>n>0`)，则
 
-$ m x^(2)+n y^(2)=1 <=> (x^(2))/((1)/(m))+(y^(2))/((1)/(n))=1 $
 
-这是椭圆，且其半长轴在 $y$ 轴上，因为 $(1)/(sqrt(n))>(1)/(sqrt(m))$，所以焦点在 $y$ 轴上，故该条件是充分的.
+#align(center)[#mitex(`
+mx^{2}+ny^{2}=1\quad\Longleftrightarrow\quad  \frac{x^{2}}{\frac{1}{m}}+\frac{y^{2}}{\frac{1}{n}}=1
+`)]
 
-反之，若该方程表示焦点在 $y$ 轴上的椭圆，则必须有 $m>0$、$n>0$，且 $y$ 轴方向的半轴较长，即
-$(1)/(sqrt(n))>(1)/(sqrt(m))$，从而 $m>n$. 因此 $m>n>0$ 是充要条件，故选 C.
+
+这是椭圆，且其半长轴在 #mi(`y`) 轴上，因为 #mi(`\frac{1}{\sqrt{n}}>\frac{1}{\sqrt{m}}`)，所以焦点在 #mi(`y`) 轴上，故该条件是充分的.
+
+反之，若该方程表示焦点在 #mi(`y`) 轴上的椭圆，则必须有 #mi(`m>0`)、#mi(`n>0`)，且 #mi(`y`) 轴方向的半轴较长，即
+
+#mi(`\frac{1}{\sqrt{n}}>\frac{1}{\sqrt{m}}`)，从而 #mi(`m>n`). 因此 #mi(`m>n>0`) 是充要条件，故选 C.
 ]
 
 #problem(8)[
-在 $triangle A B C$ 中，$M$ 是 $B C$ 的中点，$A M = 1$，点 $P$ 在 $A M$ 上且满足 $arrow(A P)= 2 arrow(P M)$，则 $arrow(P A) dot (arrow(P B)+ arrow(P C))$ 等于（ ）
-  #choices([$-(4)/(9)$], [$-(4)/(3)$], [$(4)/(3)$], [$(4)/(9)$], cols: 4)
+在 #mi(`\triangle ABC`) 中，#mi(`M`) 是 #mi(`BC`) 的中点，#mi(`AM = 1`)，点 #mi(`P`) 在 #mi(`AM`) 上且满足 #mi(`\overrightarrow{AP}= 2\overrightarrow{PM}`)，则 #mi(`\overrightarrow{PA}\cdot \left(\overrightarrow{PB}+ \overrightarrow{PC}\right)`) 等于（ ）
+  #choices([#mi(`-\frac{4}{9}`)], [#mi(`-\frac{4}{3}`)], [#mi(`\frac{4}{3}`)], [#mi(`\frac{4}{9}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-取 $A$ 为原点，设 $arrow(A B)=bold(b)$，$arrow(A C)=bold(c)$，则
-$arrow(A M)=(1)/(2)(bold(b)+bold(c))$. 设
-$arrow(A P)=t a r r o w(A M)$，则
-$arrow(P M)=(1-t)arrow(A M)$. 由
-$arrow(A P)=2 arrow(P M)$ 得 $t=2(1-t)$，所以 $t=(2)/(3)$.
+取 #mi(`A`) 为原点，设 #mi(`\overrightarrow{AB}=\mathbf{b}`)，#mi(`\overrightarrow{AC}=\mathbf{c}`)，则
+
+#mi(`\overrightarrow{AM}=\frac{1}{2}\left(\mathbf{b}+\mathbf{c}\right)`). 设
+
+#mi(`\overrightarrow{AP}=t\overrightarrow{AM}`)，则
+
+#mi(`\overrightarrow{PM}=\left(1-t\right)\overrightarrow{AM}`). 由
+
+#mi(`\overrightarrow{AP}=2\overrightarrow{PM}`) 得 #mi(`t=2\left(1-t\right)`)，所以 #mi(`t=\frac{2}{3}`).
 
 于是
 
-$ arrow(P A)=-(2)/(3)arrow(A M) $
+
+#align(center)[#mitex(`
+\overrightarrow{PA}=-\frac{2}{3}\overrightarrow{AM}
+`)]
+
 
 且
 
-$ arrow(P B)+arrow(P C)=bold(b)+bold(c)-(4)/(3)arrow(A M)=2 arrow(A M)-(4)/(3)arrow(A M)=(2)/(3)arrow(A M) $
+
+#align(center)[#mitex(`
+\overrightarrow{PB}+\overrightarrow{PC}=\mathbf{b}+\mathbf{c}-\frac{4}{3}\overrightarrow{AM}=2\overrightarrow{AM}-\frac{4}{3}\overrightarrow{AM}=\frac{2}{3}\overrightarrow{AM}
+`)]
+
 
 因此
 
-$ arrow(P A) dot (arrow(P B)+arrow(P C)) =-(4)/(9)|arrow(A M)|^(2)=-(4)/(9) $
+
+#align(center)[#mitex(`
+\overrightarrow{PA}\cdot\left(\overrightarrow{PB}+\overrightarrow{PC}\right)  =-\frac{4}{9}|\overrightarrow{AM}|^{2}=-\frac{4}{9}
+`)]
+
 
 故选 A.
 ]
 
 #problem(9)[
-从 $0$，$1$，$2$，$3$，$4$，$5$ 这六个数中任取两个奇数和两个偶数，组成没有重复数字的四位数的个数为（ ）
-  #choices([$300$], [$216$], [$180$], [$162$], cols: 4)
+从 #mi(`0`)，#mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`) 这六个数中任取两个奇数和两个偶数，组成没有重复数字的四位数的个数为（ ）
+  #choices([#mi(`300`)], [#mi(`216`)], [#mi(`180`)], [#mi(`162`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-奇数有 $1$，$3$，$5$，偶数有 $0$，$2$，$4$. 先分所取的四个数字是否包含零.
+奇数有 #mi(`1`)，#mi(`3`)，#mi(`5`)，偶数有 #mi(`0`)，#mi(`2`)，#mi(`4`). 先分所取的四个数字是否包含零.
 
-若不含零，两个偶数只能取 $2,4$，两个奇数有 $C_(3)^(2)=3$ 种取法；每组数字可排列成 $4!=24$ 个四位数，共有
-$3 times 24 =72$ 个.
+若不含零，两个偶数只能取 #mi(`2,4`)，两个奇数有 #mi(`\mathrm{C}_{3}^{2}=3`) 种取法；每组数字可排列成 #mi(`4!=24`) 个四位数，共有
 
-若含零，另一个偶数有 $2$ 种取法，两个奇数有 $C_(3)^(2)=3$ 种取法. 对每组数字，四个数字全排列有 $4!$ 种，其中以零开头的有 $3!$ 种，所以合法四位数有 $4!-3!=18$ 个，共有
-$2 times 3 times 18 =108$ 个.
+#mi(`3\times24=72`) 个.
 
-故总数为 $72+108=180$，故选 C.
+若含零，另一个偶数有 #mi(`2`) 种取法，两个奇数有 #mi(`\mathrm{C}_{3}^{2}=3`) 种取法. 对每组数字，四个数字全排列有 #mi(`4!`) 种，其中以零开头的有 #mi(`3!`) 种，所以合法四位数有 #mi(`4!-3!=18`) 个，共有
+
+#mi(`2\times3\times18=108`) 个.
+
+故总数为 #mi(`72+108=180`)，故选 C.
 ]
 
 #problem(10)[
-若正方体的棱长为 $sqrt(2)$，则以该正方体各个面的中心为顶点的凸多面体的体积为（ ）
-  #choices([$(sqrt(2))/(6)$], [$(sqrt(2))/(3)$], [$(sqrt(3))/(3)$], [$(2)/(3)$], cols: 4)
+若正方体的棱长为 #mi(`\sqrt{2}`)，则以该正方体各个面的中心为顶点的凸多面体的体积为（ ）
+  #choices([#mi(`\frac{\sqrt{2}}{6}`)], [#mi(`\frac{\sqrt{2}}{3}`)], [#mi(`\frac{\sqrt{3}}{3}`)], [#mi(`\frac{2}{3}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-设正方体中心为坐标原点，棱长为 $sqrt(2)$. 六个面的中心为
-$( +- (1)/(sqrt(2)),0,0)$、$(0, +- (1)/(sqrt(2)),0)$、$(0,0, +- (1)/(sqrt(2)))$，它们构成一个正八面体. 相邻顶点间的距离为 $1$，所以每个三角形面是边长为 $1$ 的正三角形，面积为 $(sqrt(3))/(4)$.
+设正方体中心为坐标原点，棱长为 #mi(`\sqrt{2}`). 六个面的中心为
 
-以正方体中心为顶点，正八面体的八个面为底面分成八个全等三棱锥. 每个三棱锥的高是坐标原点到平面 $x+y+z=(1)/(sqrt(2))$ 的距离，即 $(1)/(sqrt(6))$. 因而总体积为
+#mi(`\left(\pm\frac{1}{\sqrt{2}},0,0\right)`)、#mi(`\left(0,\pm\frac{1}{\sqrt{2}},0\right)`)、#mi(`\left(0,0,\pm\frac{1}{\sqrt{2}}\right)`)，它们构成一个正八面体. 相邻顶点间的距离为 #mi(`1`)，所以每个三角形面是边长为 #mi(`1`) 的正三角形，面积为 #mi(`\frac{\sqrt{3}}{4}`).
 
-$ 8 times (1)/(3) times (sqrt(3))/(4) times (1)/(sqrt(6))=(sqrt(2))/(3) $
+以正方体中心为顶点，正八面体的八个面为底面分成八个全等三棱锥. 每个三棱锥的高是坐标原点到平面 #mi(`x+y+z=\frac{1}{\sqrt{2}}`) 的距离，即 #mi(`\frac{1}{\sqrt{6}}`). 因而总体积为
+
+
+#align(center)[#mitex(`
+8\times\frac{1}{3}\times\frac{\sqrt{3}}{4}\times\frac{1}{\sqrt{6}}=\frac{\sqrt{2}}{3}
+`)]
+
 
 故选 B.
 ]
 
 #problem(11)[
-若 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} x + y >= 1 ,\\ x - y >= -1,\\ 2 x - y <= 2 , \e n d{c a s e s}$ 目标函数 $z = a x + 2 y$ 仅在点 $(1,0)$ 处取得最小值，则 $a$ 的取值范围是（ ）
-  #choices([$(-1, 2)$], [$(-4, 2)$], [$(-4, 0]$], [$(-2, 4)$], cols: 4)
+若 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}x + y \ge 1,\\  x - y \ge -1,\\  2x - y \le 2,\end{cases}`) 目标函数 #mi(`z = ax + 2y`) 仅在点 #mi(`\left(1,0\right)`) 处取得最小值，则 #mi(`a`) 的取值范围是（ ）
+  #choices([#mi(`\left(-1, 2\right)`)], [#mi(`\left(-4, 2\right)`)], [#mi(`\left(-4, 0\right]`)], [#mi(`\left(-2, 4\right)`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-三条边界直线分别为 $y=1-x$、$y=x+1$、$y=2 x-2$. 它们的交点为 $(0,1)$、$(1,0)$、$(3,4)$，且三个交点均满足约束条件，所以可行域是以这三点为顶点的三角形.
+三条边界直线分别为 #mi(`y=1-x`)、#mi(`y=x+1`)、#mi(`y=2x-2`). 它们的交点为 #mi(`(0,1)`)、#mi(`(1,0)`)、#mi(`(3,4)`)，且三个交点均满足约束条件，所以可行域是以这三点为顶点的三角形.
 
-线性目标函数在该三角形的顶点处取得最小值. 在三个顶点处，目标函数值分别为 $z(0,1)=2$、$z(1,0)=a$、$z(3,4)=3 a+8$. 要使 $(1,0)$ 为唯一最小值，必须且只需满足 $a<2$ 且 $a<3 a+8$.
-这等价于 $-4<a<2$，故选 B.
+线性目标函数在该三角形的顶点处取得最小值. 在三个顶点处，目标函数值分别为 #mi(`z(0,1)=2`)、#mi(`z(1,0)=a`)、#mi(`z(3,4)=3a+8`). 要使 #mi(`(1,0)`) 为唯一最小值，必须且只需满足 #mi(`a<2`) 且 #mi(`a<3a+8`).
+
+这等价于 #mi(`-4<a<2`)，故选 B.
 ]
 
 #problem(12)[
-定义在 $RR$ 上的偶函数 $f(x)$ 满足：对任意的 $x_(1), x_(2) in (- oo , 0]$ （$x_(1) != x_(2)$），有 $(x_(2) - x_(1))(f(x_(2)) - f(x_(1))) > 0$. 则当 $n in NN ""^(*)$ 时，有（ ）
-  #choices([$f(-n) < f(n - 1) < f(n + 1)$], [$f(n - 1) < f(-n) < f(n + 1)$], [$f(n + 1) < f(-n) < f(n - 1)$], [$f(n + 1) < f(n - 1) < f(-n)$], cols: 2)
+定义在 #mi(`\mathbb{R}`) 上的偶函数 #mi(`f\left(x\right)`) 满足：对任意的 #mi(`x_{1}, x_{2}\in \left(-\infty, 0\right]`) （#mi(`x_{1}\neq x_{2}`)），有 #mi(`\left(x_{2}- x_{1}\right)\left(f\left(x_{2}\right) - f\left(x_{1}\right)\right) > 0`). 则当 #mi(`n \in \mathbb{N}^{*}`) 时，有（ ）
+  #choices([#mi(`f\left(-n\right) < f\left(n - 1\right) < f\left(n + 1\right)`)], [#mi(`f\left(n - 1\right) < f\left(-n\right) < f\left(n + 1\right)`)], [#mi(`f\left(n + 1\right) < f\left(-n\right) < f\left(n - 1\right)`)], [#mi(`f\left(n + 1\right) < f\left(n - 1\right) < f\left(-n\right)`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
 条件
-$(x_(2)-x_(1))(f(x_(2))-f(x_(1)))>0$
-说明当 $x_(1)<x_(2) <= 0$ 时，有 $f(x_(1))<f(x_(2))$，所以 $f$ 在 $(- oo ,0]$ 上严格递增.
 
-对 $n in NN ""^(*)$，有
+#mi(`\left(x_{2}-x_{1}\right)\left(f\left(x_{2}\right)-f\left(x_{1}\right)\right)>0`)
 
-$ -(n+1)<-n<-(n-1) <= 0 $
+说明当 #mi(`x_{1}<x_{2}\leqslant0`) 时，有 #mi(`f\left(x_{1}\right)<f\left(x_{2}\right)`)，所以 #mi(`f`) 在 #mi(`\left(-\infty,0\right]`) 上严格递增.
+
+对 #mi(`n\in\mathbb{N}^{*}`)，有
+
+
+#align(center)[#mitex(`
+-(n+1)<-n<-(n-1)\leqslant0
+`)]
+
 
 因此
 
-$ f(-(n+1))<f(-n)<f(-(n-1)) $
 
-又因为 $f$ 是偶函数，$f(-k)=f(k)$，所以
+#align(center)[#mitex(`
+f\left(-(n+1)\right)<f\left(-n\right)<f\left(-(n-1)\right)
+`)]
 
-$ f(n+1)<f(-n)<f(n-1) $
+
+又因为 #mi(`f`) 是偶函数，#mi(`f\left(-k\right)=f\left(k\right)`)，所以
+
+
+#align(center)[#mitex(`
+f\left(n+1\right)<f\left(-n\right)<f\left(n-1\right)
+`)]
+
 
 故选 C.
 ]
@@ -234,221 +307,233 @@ $ f(n+1)<f(-n)<f(n-1) $
 #part-header("填空题")
 
 #problem(13)[
-设等差数列 $\{a_(n)\}$ 的前 $n$ 项和为 $S_(n)$，若 $a_(6) = S_(3) = 12$，则 $lim_(n -> oo )(S_n)/(n^2)=$#blank(){}
+设等差数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)，若 #mi(`a_{6}= S_{3}= 12`)，则 #mi(`\displaystyle\lim_{n\to \infty}\frac{S_{n}}{n^{2}}=`)\underline{\hspace{2.5em}}
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #solution[
-设等差数列首项为 $a_(1)$，公差为 $d$. 由条件
-$a_(1)+5 d=a_(6)=12$，$S_(3)=(3)/(2)(2 a_(1)+2 d)=3(a_(1)+d)=12$.
-所以 $a_(1)+d=4$，与 $a_(1)+5 d=12$ 相减得 $d=2$，进而 $a_(1)=2$. 因此
+设等差数列首项为 #mi(`a_{1}`)，公差为 #mi(`d`). 由条件
 
-$ S_(n)=(n)/(2)(2 a_(1)+(n-1)d)=(n)/(2)(4+2 n-2)=n(n+1) $
+#mi(`a_{1}+5d=a_{6}=12`)，#mi(`S_{3}=\frac{3}{2}\left(2a_{1}+2d\right)=3\left(a_{1}+d\right)=12`).
+
+所以 #mi(`a_{1}+d=4`)，与 #mi(`a_{1}+5d=12`) 相减得 #mi(`d=2`)，进而 #mi(`a_{1}=2`). 因此
+
+
+#align(center)[#mitex(`
+S_{n}=\frac{n}{2}\left(2a_{1}+(n-1)d\right)=\frac{n}{2}\left(4+2n-2\right)=n(n+1)
+`)]
+
 
 于是
 
-$ lim_(n -> oo )(S_(n))/(n^(2))=lim_(n -> oo )(n+1)/(n)=1 $
+
+#align(center)[#mitex(`
+\lim_{n\to\infty}\frac{S_{n}}{n^{2}}=\lim_{n\to\infty}\frac{n+1}{n}=1
+`)]
 ]
 
 #problem(14)[
-某班有 $36$ 名同学参加数学，物理，化学课外探究小组，每名同学至多参加两个小组，已知参加数学，物理，化学小组的人数分别为 $26$，$15$，$13$，同时参加数学和物理小组的有 $6$ 人，同时参加物理和化学小组的有 $4$ 人，同时参加数学和化学小组的有#blank(){}人.
+某班有 #mi(`36`) 名同学参加数学，物理，化学课外探究小组，每名同学至多参加两个小组，已知参加数学，物理，化学小组的人数分别为 #mi(`26`)，#mi(`15`)，#mi(`13`)，同时参加数学和物理小组的有 #mi(`6`) 人，同时参加物理和化学小组的有 #mi(`4`) 人，同时参加数学和化学小组的有\underline{\hspace{2.5em}}人.
 ]
 
-#answer([$8$])
+#answer([#mi(`8`)])
 
 #solution[
-设三个小组分别为集合 $M$、$P$、$C$. 每名同学至多参加两个小组，所以 $M inter P inter C= emptyset$. 由容斥原理，参加至少一个小组的同学数为
+设三个小组分别为集合 #mi(`M`)、#mi(`P`)、#mi(`C`). 每名同学至多参加两个小组，所以 #mi(`M\cap P\cap C=\varnothing`). 由容斥原理，参加至少一个小组的同学数为
 
-$ |M union P union C|=|M|+|P|+|C|-|M inter P|-|P inter C|-|M inter C| $
+
+#align(center)[#mitex(`
+|M\cup P\cup C|=|M|+|P|+|C|-|M\cap P|-|P\cap C|-|M\cap C|
+`)]
+
 
 代入题给数据，得
 
-$ 36=26+15+13-6-4-|M inter C| $
 
-所以 $|M inter C|=8$. 因而填 $8$.
+#align(center)[#mitex(`
+36=26+15+13-6-4-|M\cap C|
+`)]
+
+
+所以 #mi(`|M\cap C|=8`). 因而填 #mi(`8`).
 ]
 
 #problem(15)[
-如图球 $O$ 的半径为 $2$，圆 $O_(1)$ 是一小圆，$O_(1)O = sqrt(2)$，$A$，$B$ 是圆 $O_(1)$ 上两点. 若 $A$，$B$ 两点间的球面距离为 $(2 pi)/(3)$，则 $angle A O_(1)B =\f i l l i n b l a n k{}$.
+如图球 #mi(`O`) 的半径为 #mi(`2`)，圆 #mi(`O_{1}`) 是一小圆，#mi(`O_{1}O = \sqrt{2}`)，#mi(`A`)，#mi(`B`) 是圆 #mi(`O_{1}`) 上两点. 若 #mi(`A`)，#mi(`B`) 两点间的球面距离为 #mi(`\frac{2\pi}{3}`)，则 #mi(`\angle AO_{1}B =\underline{\hspace{2.5em}}{}`).
 
 
-#align(center)[#image("/papers/2009/img/shaanxi_science/q15_fig1.png", width: 34%)]
+#align(center)[#image("/papers/2009/img/shaanxi_science/q15_fig1.png", width: 28%)]
+
 ]
 
-#answer([$(pi)/(2)$])
+#answer([#mi(`\frac{\pi}{2}`)])
 
 #solution[
-设小圆 $O_(1)$ 的半径为 $r$. 由于小圆是球面与其所在平面的交圆，$O O_(1)$ 垂直于该平面，所以在直角三角形 $O O_(1)A$ 中
+设小圆 #mi(`O_{1}`) 的半径为 #mi(`r`). 由于小圆是球面与其所在平面的交圆，#mi(`OO_{1}`) 垂直于该平面，所以在直角三角形 #mi(`OO_{1}A`) 中
 
-$ r^(2)=O_(1)A^(2)=O A^(2)-O O_(1)^(2)=2^(2)-(sqrt(2))^(2)=2 $
 
-即 $r=sqrt(2)$.
+#align(center)[#mitex(`
+r^{2}=O_{1}A^{2}=OA^{2}-OO_{1}^{2}=2^{2}-\left(\sqrt{2}\right)^{2}=2
+`)]
 
-球半径为 $2$，而 $A$，$B$ 间的球面距离为 $(2 pi)/(3)$，故对应的球心角满足
 
-$ angle A O B=(2(pi)/(3))/(2)=(pi)/(3) $
+即 #mi(`r=\sqrt{2}`).
+
+球半径为 #mi(`2`)，而 #mi(`A`)，#mi(`B`) 间的球面距离为 #mi(`\frac{2\pi}{3}`)，故对应的球心角满足
+
+
+#align(center)[#mitex(`
+\angle AOB=\frac{2\frac{\pi}{3}}{2}=\frac{\pi}{3}
+`)]
+
 
 所以弦长
 
-$ A B=2 dot 2 sin (angle A O B)/(2)=4 sin (pi)/(6)=2 $
 
-在圆 $O_(1)$ 中，设 $theta = angle A O_(1)B$，则
+#align(center)[#mitex(`
+AB=2\cdot2\sin\frac{\angle AOB}{2}=4\sin\frac{\pi}{6}=2
+`)]
 
-$ A B=2 r sin (theta)/(2)=2 sqrt(2) sin (theta)/(2) $
 
-因此 $sin (theta)/(2)=(1)/(sqrt(2))$. 由于 $0 <= theta <= pi$，得 $theta =(pi)/(2)$，故填 $(pi)/(2)$.
+在圆 #mi(`O_{1}`) 中，设 #mi(`\theta=\angle AO_{1}B`)，则
+
+
+#align(center)[#mitex(`
+AB=2r\sin\frac{\theta}{2}=2\sqrt{2}\sin\frac{\theta}{2}
+`)]
+
+
+因此 #mi(`\sin\frac{\theta}{2}=\frac{1}{\sqrt{2}}`). 由于 #mi(`0\le\theta\le\pi`)，得 #mi(`\theta=\frac{\pi}{2}`)，故填 #mi(`\frac{\pi}{2}`).
 ]
 
 #problem(16)[
-设曲线 $y = x^(n + 1)$（$n in NN ""^*$）在点 $(1,1)$ 处的切线与 $x$ 轴的交点的横坐标为 $x_n$. 令 $a_n = \l g x_n$，则 $a_1 + a_2 + ... + a_(99)$ 的值为#blank(){}.
+设曲线 #mi(`y = x^{n + 1}`)（#mi(`n \in \mathbb{N}^{*}`)）在点 #mi(`\left(1,1\right)`) 处的切线与 #mi(`x`) 轴的交点的横坐标为 #mi(`x_{n}`). 令 #mi(`a_{n} = \lg x_{n}`)，则 #mi(`a_{1} + a_{2} + \dots + a_{99}`) 的值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-2$])
+#answer([#mi(`-2`)])
 
 #solution[
-曲线 $y=x^(n+1)$ 在 $(1,1)$ 处的导数为
-$y'=(n+1)x^(n)$，故 $y'\b i g|_(x=1)=n+1$.
+曲线 #mi(`y=x^{n+1}`) 在 #mi(`\left(1,1\right)`) 处的导数为
+
+#mi(`y'=(n+1)x^{n}`)，故 #mi(`y'\big|_{x=1}=n+1`).
+
 所以切线方程为
 
-$ y-1=(n+1)(x-1) $
 
-即 $y=(n+1)x-n$. 令 $y=0$，得切线与 $x$ 轴交点的横坐标
+#align(center)[#mitex(`
+y-1=(n+1)\left(x-1\right)
+`)]
 
-$ x_(n)=(n)/(n+1) $
+
+即 #mi(`y=(n+1)x-n`). 令 #mi(`y=0`)，得切线与 #mi(`x`) 轴交点的横坐标
+
+
+#align(center)[#mitex(`
+x_{n}=\frac{n}{n+1}
+`)]
+
 
 于是
 
-$ a_(1)+a_(2)+ dots.c +a_(99) =\l g(1)/(2)+\l g(2)/(3)+ dots.c +\l g(99)/(100)=\l g(1)/(100)=-2 $
 
-故填 $-2$.
+#align(center)[#mitex(`
+a_{1}+a_{2}+\cdots+a_{99}=\lg\frac{1}{2}+\lg\frac{2}{3}+\cdots+\lg\frac{99}{100}=\lg\frac{1}{100}=-2
+`)]
+
+
+故填 #mi(`-2`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知函数 $f(x) = A sin ( omega x + phi.alt )$，$x in RR$ （其中 $A > 0$，$omega > 0$，$0 < phi.alt < (pi)/(2)$）的图象与 $x$ 轴的交点中，相邻两个交点之间的距离为 $(pi)/(2)$，且图象上一个最低点为 $M((2 pi)/(3), -2)$.
+已知函数 #mi(`f\left(x\right) = A \sin\left(\omega x + \varphi\right)`)，#mi(`x \in \mathbb{R}`) （其中 #mi(`A > 0`)，#mi(`\omega > 0`)，#mi(`0 < \varphi < \frac{\pi}{2}`)）的图象与 #mi(`x`) 轴的交点中，相邻两个交点之间的距离为 #mi(`\frac{\pi}{2}`)，且图象上一个最低点为 #mi(`M\left(\frac{2\pi}{3}, -2\right)`).
 
 
-+ (1) 求 $f(x)$ 的解析式；
-+ (2) 当 $x in [(pi)/(12), (pi)/(2)]$，求 $f(x)$ 的值域.
++ (1)
 ]
 
 #solution[
-+ (1) 函数图象与 $x$ 轴的交点满足 $sin ( omega x+ phi.alt )=0$，相邻两个交点对应的相位相差 $pi$，所以相邻交点的横坐标之差满足 $omega dot (pi)/(2)= pi$，从而 $omega =2$. 由最低点的纵坐标为 $-2$，得振幅 $A=2$. 当 $x=(2 pi)/(3)$ 时函数取得最小值，因此 $2 dot (2 pi)/(3)+ phi.alt =(3 pi)/(2)+2 k pi$，其中 $k in ZZ$. 于是 $phi.alt =(pi)/(6)+2 k pi$，结合 $0< phi.alt <(pi)/(2)$ 得 $phi.alt =(pi)/(6)$，所以 $f(x)=2 sin (2 x+(pi)/(6))$.
-+ (2) 令 $t=2 x+(pi)/(6)$，则当 $x in [(pi)/(12),(pi)/(2)]$ 时，$t in [(pi)/(3),(7 pi)/(6)]$. 在此区间内，$sin t$ 在 $t=(pi)/(2)$ 处取得最大值 $1$，在右端点 $t=(7 pi)/(6)$ 处取得最小值 $-(1)/(2)$. 因而 $f(x)=2 sin t$ 的值域为 $[-1,2]$.
++ (1)
 ]
 
 #problem(18)[
-如图，在直三棱柱 $A B C - A_(1)B_(1)C_(1)$ 中，$A B = 1$，$A C = A A_(1) = sqrt(3)$，$angle A B C = 60^( degree )$.
+如图，在直三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中，#mi(`AB = 1`)，#mi(`AC = AA_{1}= \sqrt{3}`)，#mi(`\angle ABC = 60^{\circ}`).
 
 
-+ (1) 证明： $A B bot A_(1)C$；
-+ (2) 求二面角 $A - A_(1)C - B$ 的大小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2009/img/shaanxi_science/q18_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2009/img/shaanxi_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 在 $triangle A B C$ 中，由余弦定理得 $A C^(2)=A B^(2)+B C^(2)-2 A B dot B C cos 60 ""^( degree )$，即 $3=1+B C^(2)-B C$. 解得 $B C=2$（舍去负根），于是 $A C^(2)+A B^(2)=3+1=4=B C^(2)$，所以 $angle B A C=90^( degree )$，即 $A B bot A C$. 又因为三棱柱是直三棱柱，$A A_(1) bot$ 平面 $A B C$，从而 $A B bot A A_(1)$. 直线 $A C$ 与 $A A_(1)$ 是平面 $A A_(1)C$ 内相交的两条直线，且 $A B$ 同时垂直于它们，所以 $A B bot$ 平面 $A A_(1)C$，进而 $A B bot A_(1)C$.
-+ (2) 建立如图所示的直角坐标系，取 $A=(0,0,0)$，$C=(sqrt(3),0,0)$，$B=(0,1,0)$，$A_(1)=(0,0,sqrt(3))$. 则 $arrow(A_(1)C)=(sqrt(3),0,-sqrt(3))$. 设 $H$ 为 $A_(1)C$ 的中点，则 $H=((sqrt(3))/(2),0,(sqrt(3))/(2))$，并且 $arrow(H A)=(-(sqrt(3))/(2),0,-(sqrt(3))/(2))$，$arrow(H B)=(-(sqrt(3))/(2),1,-(sqrt(3))/(2))$. 直接计算得 $arrow(H A)\c d o t a r r o w(A_(1)C)=0$，$arrow(H B)\c d o t a r r o w(A_(1)C)=0$，所以 $H A$ 和 $H B$ 分别是两个半平面 $A-A_(1)C$、$B-A_(1)C$ 内垂直于棱 $A_(1)C$ 的射线. 设二面角 $A-A_(1)C-B$ 为 $theta$，则
-
-$ cos theta =(arrow(H A){ dot }arrow(H B))/(|arrow(H A)| |arrow(H B)|)=((3)/(2))/(sqrt((3)/(2))sqrt((5)/(2)))=(3)/(sqrt(15))=(sqrt(15))/(5) $
-
-因此二面角 $A-A_(1)C-B$ 的大小为 $arccos (sqrt(15))/(5)$.
++ (1)
 ]
 
 #problem(19)[
-某食品企业一个月内被消费者投诉的次数用 $xi$ 表示，据统计，随机变量 $xi$ 的概率分布如下：
+某食品企业一个月内被消费者投诉的次数用 #mi(`\xi`) 表示，据统计，随机变量 #mi(`\xi`) 的概率分布如下：
 
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|}
 \hline
-$xi$ & $0$ & $1$ & $2$ & $3$ \\
+
+#mi(`\xi`) & #mi(`0`) & #mi(`1`) & #mi(`2`) & #mi(`3`) \\
+
 \hline
-$p$ & $0.1$ & $0.3$ & $2 a$ & $a$ \\
+
+#mi(`p`) & #mi(`0.1`) & #mi(`0.3`) & #mi(`2a`) & #mi(`a`) \\
+
 \hline
-\end{tabular}
-\end{center}
 
 
-+ (1) 求 $a$ 的值和 $xi$ 的数学期望；
-+ (2) 假设一月份与二月份被消费者投诉的次数互不影响，求该企业在这两个月内共被消费者投诉 2 次的概率.
++ (1)
 ]
 
 #solution[
-+ (1) 概率之和为 $1$，所以 $0.1+0.3+2 a+a=1$，解得 $a=0.2$. 因而 $xi$ 的数学期望为 $E( xi )=0 dot 0 .1+1 dot 0 .3+2 dot (2 a)+3 dot a=0.3+0.8+0.6=1.7$.
-+ (2) 设一月份和二月份的投诉次数分别为 $xi _(1)$ 和 $xi _(2)$. 由于两个月互不影响，$xi _(1)$ 与 $xi _(2)$ 相互独立. 两个月共被投诉 $2$ 次包括 $( xi _(1), xi _(2))=(0,2)$、$(1,1)$、$(2,0)$ 三种互斥情形，所以所求概率为 $0.1 dot 0 .4+0.3 dot 0 .3+0.4 dot 0 .1=0.17$.
++ (1)
 ]
 
 #problem(20)[
-已知函数 $f(x) = ln (a x + 1) + (1 - x)/(1 + x)$，$x >= 0$，其中 $a > 0$.
+已知函数 #mi(`f\left(x\right) = \ln\left(ax + 1\right) + \frac{1 - x}{1 + x}`)，#mi(`x \ge 0`)，其中 #mi(`a > 0`).
 
 
-+ (1) 若 $f(x)$ 在 $x = 1$ 处取得极值，求 $a$ 的值；
-+ (2) 求 $f(x)$ 的单调区间；
-+ (3) 若 $f(x)$ 的最小值为 1，求 $a$ 的取值范围.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 函数的导数为 $f'(x)=(a)/(a x+1)-(2)/((1+x)^(2))$. 因为 $x=1$ 是定义域的内点，若函数在此处取得极值，则必有 $f'(1)=0$，即 $(a)/(a+1)-(1)/(2)=0$，解得 $a=1$. 当 $a=1$ 时，$f'(x)=(x-1)/((1+x)^(2))$，所以函数在 $x=1$ 的左侧递减、右侧递增，确实在 $x=1$ 处取得极小值.
-+ (2) 因为 $a>0$ 且 $x >= 0$，有
-
-$ f'(x)=(a(1+x)^(2)-2(1+a x))/((1+a x)(1+x)^(2))=(a x^(2)+a-2)/((1+a x)(1+x)^(2)) $
-
-分母恒为正，故只需讨论 $a x^(2)+a-2$ 的符号. 当 $0<a<2$ 时，令 $x_(0)=sqrt((2-a)/(a))$，则 $f'(x)<0$（$0 <= x<x_(0)$），$f'(x)>0$（$x>x_(0)$），所以函数在 $[0,x_(0)]$ 上单调递减，在 $[x_(0),+ oo )$ 上单调递增. 当 $a >= 2$ 时，$a x^(2)+a-2 >= 0$，所以函数在 $[0,+ oo )$ 上单调递增.
-+ (3) 当 $a >= 2$ 时，由上问知函数在 $[0,+ oo )$ 上单调递增，且 $f(0)=1$，故函数的最小值为 $1$. 下面考察 $0<a<2$ 的情形. 此时函数在 $x_(0)=sqrt((2-a)/(a))$ 处取得最小值，令 $t=x_(0)>0$，则 $a=(2)/(1+t^(2))$. 于是
-
-$ f(t)-1= ln (1+(2 t)/(1+t^(2)))-(2 t)/(1+t)= ln ((1+t)^(2))/(1+t^(2))-(2 t)/(1+t) $
-
-记 $h(t)= ln ((1+t)^(2))/(1+t^(2))-(2 t)/(1+t)$，则 $h(0)=0$，且
-$h'(t)=(2)/(1+t)-(2 t)/(1+t^(2))-(2)/((1+t)^(2))=-(4 t^(2))/((1+t)^(2)(1+t^(2)))<0$，（$t>0$）.
-所以 $h(t)<0$，即此时函数的最小值小于 $1$. 因此函数的最小值为 $1$ 时，$a$ 的取值范围为 $[2,+ oo )$.
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-已知双曲线 $C$ 的方程为 $(y^(2))/(a^(2))- (x^(2))/(b^(2))= 1$（$a > 0$，$b > 0$），离心率 $e = (sqrt(5))/(2)$，顶点到渐近线的距离为 $(2 sqrt(5))/(5)$.
+已知双曲线 #mi(`C`) 的方程为 #mi(`\frac{y^{2}}{a^{2}}- \frac{x^{2}}{b^{2}}= 1`)（#mi(`a > 0`)，#mi(`b > 0`)），离心率 #mi(`e = \frac{\sqrt{5}}{2}`)，顶点到渐近线的距离为 #mi(`\frac{2\sqrt{5}}{5}`).
 
 
-+ (1) 求双曲线 $C$ 的方程；
-+ (2) 如图，$P$ 是双曲线 $C$ 上一点，$A$，$B$ 两点在双曲线 $C$ 的两条渐近线上，且分别位于第一、二象限. 若 $arrow(A P)= lambda arrow(P B)$，$lambda in [(1)/(3), 2]$，求 $triangle A O B$ 面积的取值范围.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2009/img/shaanxi_science/q21_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2009/img/shaanxi_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设双曲线的焦半距为 $c$，则 $c^(2)=a^(2)+b^(2)$，且由离心率得 $(c)/(a)=(sqrt(5))/(2)$，所以 $(b^(2))/(a^(2))=(c^(2)-a^(2))/(a^(2))=(1)/(4)$，从而 $b=(a)/(2)$. 双曲线的渐近线为 $y= +- (a)/(b)x= +- 2 x$. 顶点 $(0,a)$ 到直线 $y=2 x$ 的距离为 $(a)/(sqrt(5))$，由题意 $(a)/(sqrt(5))=(2 sqrt(5))/(5)=(2)/(sqrt(5))$，得 $a=2$，$b=1$. 因此双曲线 $C$ 的方程为 $(y^(2))/(4)-x^(2)=1$.
-+ (2) 设 $P=(x,y)$. 设第一象限内渐近线上的点为 $A=(u,2 u)$，第二象限内另一条渐近线上的点为 $B=(-v,2 v)$，其中 $u>0$，$v>0$. 由 $arrow(A P)=\l a m b d a a r r o w(P B)$ 得 $(1+ lambda )P=A+ lambda B$，于是
-
-$ \b e g i n{c a s e s} (1+ lambda )x=u- lambda v,\\ (1+ lambda )y=2 u+2 lambda v. \e n d{c a s e s} $
-
-由于 $A$、$B$ 的纵坐标均为正且 $lambda >0$，上式的纵坐标关系给出 $y>0$. 又因 $P in C$，有 $y^(2)-4 x^(2)=4$，从而 $y>2|x|$.
-解得 $u=(1+ lambda)/(4)(2 x+y)$，$v=(1+ lambda)/(4 lambda)(y-2 x)$. 因而
-
-$ S_( triangle A O B)=(1)/(2)|\b e g i n{v m a t r i x}u&2 u\\-v&2 v\e n d{v m a t r i x}|=2 u v=((1+ lambda )^(2))/(8 lambda)(y^(2)-4 x^(2))=((1+ lambda )^(2))/(2 lambda) $
-
-其中最后一步使用了 $P in C$，即 $y^(2)-4 x^(2)=4$. 记 $S( lambda )=((1+ lambda )^(2))/(2 lambda)$，则 $S'( lambda )=(lambda ""^(2)-1)/(2 lambda ""^(2))$，所以 $S( lambda )$ 在 $[(1)/(3),1]$ 上递减，在 $[1,2]$ 上递增. 又 $S(1)=2$，$S((1)/(3))=(8)/(3)$，$S(2)=(9)/(4)$，故 $triangle A O B$ 面积的取值范围为 $[2,(8)/(3)]$.
++ (1)
 ]
 
 #problem(22)[
-已知数列 $\{x_(n)\}$ 满足 $x_(1) = (1)/(2)$，$x_(n + 1) = (1)/(1 + x_n)$，$n in NN ""^*$.
+已知数列 #mi(`\{x_{n}\}`) 满足 #mi(`x_{1}= \frac{1}{2}`)，#mi(`x_{n + 1}= \frac{1}{1 + x_{n}}`)，#mi(`n \in \mathbb{N}^{*}`).
 
 
-+ (1) 猜想数列 $\{x_(2 n)\}$ 的单调性，并证明你的结论；
-+ (2) 证明： $|x_(n+1)-x_(n)| <= (1)/(6)((2)/(5))^(n-1)$.
++ (1)
 ]
 
 #solution[
-+ (1) 记 $g(x)=(1)/(1+(1)/(1+x))=(1+x)/(2+x)$，则 $x_(n+2)=g(x_n)$，且 $g(x)-x=(1-x-x^(2))/(2+x)$.
-令 $alpha =(sqrt(5)-1)/(2)$，则 $1- alpha - alpha ""^(2)=0$，所以当 $x>0$ 时，$g(x)>x$（$0<x< alpha$），$g(x)<x$（$x> alpha$）. 又 $x_(2)=(2)/(3)> alpha$，并且 $g'(x)=(1)/((2+x)^(2))>0$. 因此只要 $x_(2 n)> alpha$，就有 $x_(2 n+2)=g(x_(2 n))<x_(2 n)$，同时 $x_(2 n+2)>g( alpha )= alpha$. 归纳可得 $x_(2 n)> alpha$ 且 $x_(2 n+2)<x_(2 n)$，所以数列 $\{x_(2 n)\}$ 单调递减.
-+ (2) 由 $x_(1)=(1)/(2)$ 以及递推关系可归纳得到 $(1)/(2) <= x_n <= (2)/(3)$：若 $(1)/(2) <= x_n <= (2)/(3)$，则 $(3)/(5) <= x_(n+1)=(1)/(1+x_n) <= (2)/(3)$，仍在区间 $[(1)/(2),(2)/(3)]$ 内. 令 $d_n=|x_(n+1)-x_n|$，则 $d_1=|(2)/(3)-(1)/(2)|=(1)/(6)$. 当 $n >= 2$ 时，
-
-$ d_n=|(1)/(1+x_n)-(1)/(1+x_(n-1))|=(d_(n-1))/((1+x_n)(1+x_(n-1))) $
-
-又因为 $x_n=(1)/(1+x_(n-1))$，所以 $(1+x_n)(1+x_(n-1))=2+x_(n-1) >= (5)/(2)$，从而 $d_n <= (2)/(5)d_(n-1)$. 反复使用并结合 $d_1=(1)/(6)$，得 $d_n <= (1)/(6)((2)/(5))^(n-1)$，即 $|x_(n+1)-x_n| <= (1)/(6)((2)/(5))^(n-1)$.
++ (1)
 ]
 

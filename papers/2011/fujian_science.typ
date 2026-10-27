@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,557 +11,477 @@
 #part-header("单选题")
 
 #problem(1)[
-$i$ 是虚数单位，若集合 $S = \{-1, 0, 1\}$，则（ ）
-  #choices([$i in S$], [$i ""^2 in S$], [$i ""^3 in S$], [$(2)/(i) in S$], cols: 4)
+#mi(`\mathrm{i}`) 是虚数单位，若集合 #mi(`S = \{-1, 0, 1\}`)，则（ ）
+  #choices([#mi(`\mathrm{i}\in S`)], [#mi(`\mathrm{i}^{2}\in S`)], [#mi(`\mathrm{i}^{3}\in S`)], [#mi(`\frac{2}{\mathrm{i}}\in S`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-由虚数单位的定义，$i ""^2=-1$，所以 $i ""^2 in S$. 又有 $i in.not S$，$i ""^3=- i in.not S$，且 $(2)/(i)=-2 i in.not S$. 因此选 B.
+由虚数单位的定义，#mi(`\mathrm{i}^{2}=-1`)，所以 #mi(`\mathrm{i}^{2}\in S`). 又有 #mi(`\mathrm{i}\notin S`)，#mi(`\mathrm{i}^{3}=-\mathrm{i}\notin S`)，且 #mi(`\frac{2}{\mathrm{i}}=-2\mathrm{i}\notin S`). 因此选 B.
 ]
 
 #problem(2)[
-若 $a in RR$，则 “$a = 2$” 是 “$(a - 1)(a - 2) = 0$” 的（ ）
+若 #mi(`a \in \mathbb{R}`)，则 “#mi(`a = 2`)” 是 “#mi(`(a - 1)(a - 2) = 0`)” 的（ ）
   #choices([充分而不必要条件], [必要而不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-当 $a=2$ 时，$(a-1)(a-2)=0$，所以“$a=2$”是“$(a-1)(a-2)=0$”的充分条件. 反过来，由 $(a-1)(a-2)=0$ 可得 $a=1$ 或 $a=2$，不能推出 $a=2$，所以它不是必要条件. 因此选 A.
+当 #mi(`a=2`) 时，#mi(`(a-1)(a-2)=0`)，所以“#mi(`a=2`)”是“#mi(`(a-1)(a-2)=0`)”的充分条件. 反过来，由 #mi(`(a-1)(a-2)=0`) 可得 #mi(`a=1`) 或 #mi(`a=2`)，不能推出 #mi(`a=2`)，所以它不是必要条件. 因此选 A.
 ]
 
 #problem(3)[
-若 $tan alpha = 3$，则 $(sin 2 alpha)/(cos ""^2 alpha)$ 的值等于（ ）
+若 #mi(`\tan \alpha = 3`)，则 #mi(`\frac{\sin 2\alpha}{\cos^{2} \alpha}`) 的值等于（ ）
   #choices([2], [3], [4], [6], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-因为 $tan alpha =3$，所以 $cos alpha != 0$. 利用二倍角公式，得
+因为 #mi(`\tan\alpha=3`)，所以 #mi(`\cos\alpha\ne0`). 利用二倍角公式，得
 
-$ (sin 2 alpha)/(cos ""^2 alpha)=(2 sin alpha cos alpha)/(cos ""^2 alpha)=2 tan alpha =6 $
+
+#align(center)[#mitex(`
+\frac{\sin2\alpha}{\cos^{2}\alpha}=\frac{2\sin\alpha\cos\alpha}{\cos^{2}\alpha}=2\tan\alpha=6
+`)]
+
 
 因此选 D.
 ]
 
 #problem(4)[
-如图，矩形 $A B C D$ 中，点 $E$ 为边 $C D$ 的中点，若在矩形 $A B C D$ 内部随机取一个点 $Q$，则点 $Q$ 取自 $triangle A B E$ 内部的概率等于（ ）
+如图，矩形 #mi(`ABCD`) 中，点 #mi(`E`) 为边 #mi(`CD`) 的中点，若在矩形 #mi(`ABCD`) 内部随机取一个点 #mi(`Q`)，则点 #mi(`Q`) 取自 #mi(`\triangle ABE`) 内部的概率等于（ ）
 
 
-#align(center)[#image("/papers/2011/img/fujian_science/q4_fig1.png", width: 34%)]
-  #choices([$(1)/(4)$], [$(1)/(3)$], [$(1)/(2)$], [$(2)/(3)$], cols: 4)
+#align(center)[#image("/papers/2011/img/fujian_science/q4_fig1.png", width: 28%)]
+
+  #choices([#mi(`\frac{1}{4}`)], [#mi(`\frac{1}{3}`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{2}{3}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设矩形 $A B C D$ 的面积为 $S$，则 $E$ 到边 $A B$ 的距离等于矩形的高. 由于 $E$ 是 $C D$ 的中点，$A B=C D$，所以
+设矩形 #mi(`ABCD`) 的面积为 #mi(`S`)，则 #mi(`E`) 到边 #mi(`AB`) 的距离等于矩形的高. 由于 #mi(`E`) 是 #mi(`CD`) 的中点，#mi(`AB=CD`)，所以
 
-$ S_( triangle A B E)=(1)/(2)A B dot h=(1)/(2)S $
+
+#align(center)[#mitex(`
+S_{\triangle ABE}=\frac{1}{2}AB\cdot h=\frac{1}{2}S
+`)]
+
 
 随机点在矩形内均匀分布，故所求概率为
 
-$ (S_( triangle A B E))/(S)=(1)/(2) $
+
+#align(center)[#mitex(`
+\frac{S_{\triangle ABE}}{S}=\frac{1}{2}
+`)]
+
 
 因此选 C.
 ]
 
 #problem(5)[
-$integral_(0)^(1)( e ""^(x) + 2 x)d x$ 等于（ ）
-  #choices([1], [\e - 1], [\e], [\e + 1], cols: 4)
+#mi(`\int_{0}^{1}\left(\mathrm{e}^{x}+ 2x\right)\mathrm{d}x`) 等于（ ）
+  #choices([1], [\mathrm{e} - 1], [\mathrm{e}], [\mathrm{e} + 1], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-$ \i n t_0^1( e ""^x+2 x)d x=( e ""^x+x^2)\b i g g|_0^1=( e +1)-(1+0)= e $
+#align(center)[#mitex(`
+\int_{0}^{1}\left(\mathrm{e}^{x}+2x\right)\mathrm{d}x=\left(\mathrm{e}^{x}+x^{2}\right)\bigg|_{0}^{1}=(\mathrm{e}+1)-(1+0)=\mathrm{e}
+`)]
+
 
 因此选 C.
 ]
 
 #problem(6)[
-$(1 + 2 x)^(5)$ 的展开式中，$x^(2)$ 的系数等于（ ）
+#mi(`(1 + 2x)^{5}`) 的展开式中，#mi(`x^{2}`) 的系数等于（ ）
   #choices([80], [40], [20], [10], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由二项式定理，$(1+2 x)^5$ 中 $x^2$ 的项来自取两个 $2 x$ 和三个 $1$，其系数为
+由二项式定理，#mi(`(1+2x)^{5}`) 中 #mi(`x^{2}`) 的项来自取两个 #mi(`2x`) 和三个 #mi(`1`)，其系数为
 
-$ C_5^2 dot 2 ""^2=10 dot 4 =40 $
+
+#align(center)[#mitex(`
+\mathrm{C}_{5}^{2}\cdot 2^{2}=10\cdot4=40
+`)]
+
 
 因此选 B.
 ]
 
 #problem(7)[
-设圆锥曲线 $T$ 的两个焦点分别为 $F_(1)$，$F_(2)$. 若曲线 $T$ 上存在点 $P$ 满足 $|P F_(1)|: |F_(1)F_(2)|: |P F_(2)| = 4:3:2$，则曲线 $T$ 的离心率等于（ ）
-  #choices([$(1)/(2)$ 或 $(3)/(2)$], [$(2)/(3)$ 或 2], [$(1)/(2)$ 或 2], [$(2)/(3)$ 或 $(3)/(2)$], cols: 2)
+设圆锥曲线 #mi(`T`) 的两个焦点分别为 #mi(`F_{1}`)，#mi(`F_{2}`). 若曲线 #mi(`T`) 上存在点 #mi(`P`) 满足 #mi(`|PF_{1}|: |F_{1}F_{2}|: |PF_{2}| = 4:3:2`)，则曲线 #mi(`T`) 的离心率等于（ ）
+  #choices([#mi(`\frac{1}{2}`) 或 #mi(`\frac{3}{2}`)], [#mi(`\frac{2}{3}`) 或 2], [#mi(`\frac{1}{2}`) 或 2], [#mi(`\frac{2}{3}`) 或 #mi(`\frac{3}{2}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-设存在的点 $P$ 到两焦点的距离分别为 $4 k$ 和 $2 k$，其中 $k>0$. 由题意，$F_(1) F_2=3 k$，记焦半距为 $c$，则 $2 c=3 k$，即 $c=(3)/(2)k$.
+设存在的点 #mi(`P`) 到两焦点的距离分别为 #mi(`4k`) 和 #mi(`2k`)，其中 #mi(`k>0`). 由题意，#mi(`F_{1}F_{2}=3k`)，记焦半距为 #mi(`c`)，则 #mi(`2c=3k`)，即 #mi(`c=\frac{3}{2}k`).
 
-若圆锥曲线为椭圆，则两焦点距离之和为 $2 a$，所以 $2 a=4 k+2 k=6 k$，从而 $a=3 k$，离心率为 $e=(c)/(a)=(1)/(2)$.
+若圆锥曲线为椭圆，则两焦点距离之和为 #mi(`2a`)，所以 #mi(`2a=4k+2k=6k`)，从而 #mi(`a=3k`)，离心率为 #mi(`e=\frac{c}{a}=\frac{1}{2}`).
 
-若圆锥曲线为双曲线，则两焦点距离之差为 $2 a$，所以 $2 a=4 k-2 k=2 k$，从而 $a=k$，离心率为 $e=(c)/(a)=(3)/(2)$. 因此选 A.
+若圆锥曲线为双曲线，则两焦点距离之差为 #mi(`2a`)，所以 #mi(`2a=4k-2k=2k`)，从而 #mi(`a=k`)，离心率为 #mi(`e=\frac{c}{a}=\frac{3}{2}`). 因此选 A.
 ]
 
 #problem(8)[
-已知 $O$ 是坐标原点，点 $A(-1,1)$，若点 $M(x,y)$ 为平面区域 $\b e g i n{c a s e s} x+y >= 2 ,\\ x <= 1 ,\\ y <= 2 \e n d{c a s e s}$ 上的一个动点，则 $arrow(O A)\c d o t a r r o w(O M)$ 的取值范围是（ ）
-  #choices([$[-1,0]$], [$[0,1]$], [$[0,2]$], [$[-1,2]$], cols: 4)
+已知 #mi(`O`) 是坐标原点，点 #mi(`A(-1,1)`)，若点 #mi(`M(x,y)`) 为平面区域 #mi(`\begin{cases}x+y\ge 2,\\
+
+x\le 1,\\
+
+y\le 2\end{cases}`) 上的一个动点，则 #mi(`\overrightarrow{OA}\cdot\overrightarrow{OM}`) 的取值范围是（ ）
+  #choices([#mi(`[-1,0]`)], [#mi(`[0,1]`)], [#mi(`[0,2]`)], [#mi(`[-1,2]`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由 $x+y >= 2$ 和 $y <= 2$，可得 $x >= 0$. 结合 $x <= 1$，有 $0 <= x <= 1$，且对每个这样的 $x$，满足 $2-x <= y <= 2$. 又
+由 #mi(`x+y\geqslant2`) 和 #mi(`y\leqslant2`)，可得 #mi(`x\geqslant0`). 结合 #mi(`x\leqslant1`)，有 #mi(`0\le x\leqslant1`)，且对每个这样的 #mi(`x`)，满足 #mi(`2-x\le y\leqslant2`). 又
 
-$ arrow(O A)\c d o t a r r o w(O M)=(-1,1) dot (x,y)=y-x $
 
-在该区域内，$y-x$ 的最小值在 $(1,1)$ 处取得，为 $0$；最大值在 $(0,2)$ 处取得，为 $2$. 因此取值范围为 $[0,2]$，选 C.
+#align(center)[#mitex(`
+\overrightarrow{OA}\cdot\overrightarrow{OM}=(-1,1)\cdot(x,y)=y-x
+`)]
+
+
+在该区域内，#mi(`y-x`) 的最小值在 #mi(`(1,1)`) 处取得，为 #mi(`0`)；最大值在 #mi(`(0,2)`) 处取得，为 #mi(`2`). 因此取值范围为 #mi(`[0,2]`)，选 C.
 ]
 
 #problem(9)[
-对于函数 $f(x)=a sin x+b x+c$（其中 $a$，$b in RR$，$c in ZZ$），选取 $a$，$b$，$c$ 的一组值计算 $f(1)$ 和 $f(-1)$，所得出的正确结果一定不可能是（ ）
+对于函数 #mi(`f(x)=a\sin x+bx+c`)（其中 #mi(`a`)，#mi(`b\in\mathbb{R}`)，#mi(`c\in\mathbb{Z}`)），选取 #mi(`a`)，#mi(`b`)，#mi(`c`) 的一组值计算 #mi(`f(1)`) 和 #mi(`f(-1)`)，所得出的正确结果一定不可能是（ ）
   #choices([4 和 6], [3 和 1], [2 和 4], [1 和 2], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-令 $u=a sin 1 +b$，则
-$f(1)=u+c$，$f(-1)=-u+c$.
-因此两个结果之和为 $f(1)+f(-1)=2 c$，必为偶整数. 选项 A、B、C 中的两数之和分别为 $10$、$4$、$6$，均为偶整数，而且分别取 $(a,b,c)=(0,-1,5)$、$(0,1,2)$、$(0,-1,3)$ 时可以得到对应结果. 选项 D 中 $1+2=3$ 不是偶整数，不可能出现. 因此选 D.
+令 #mi(`u=a\sin1+b`)，则
+
+#mi(`f(1)=u+c`)，#mi(`f(-1)=-u+c`).
+
+因此两个结果之和为 #mi(`f(1)+f(-1)=2c`)，必为偶整数. 选项 A、B、C 中的两数之和分别为 #mi(`10`)、#mi(`4`)、#mi(`6`)，均为偶整数，而且分别取 #mi(`(a,b,c)=(0,-1,5)`)、#mi(`(0,1,2)`)、#mi(`(0,-1,3)`) 时可以得到对应结果. 选项 D 中 #mi(`1+2=3`) 不是偶整数，不可能出现. 因此选 D.
 ]
 
 #problem(10)[
-已知函数 $f(x)= e ""^(x)+x$. 对于曲线 $y=f(x)$ 上横坐标成等差数列的三个点 $A$，$B$，$C$，给出以下判断：
+已知函数 #mi(`f(x)=\mathrm{e}^{x}+x`). 对于曲线 #mi(`y=f(x)`) 上横坐标成等差数列的三个点 #mi(`A`)，#mi(`B`)，#mi(`C`)，给出以下判断：
 
-\begin{circlelist}
-\item $triangle A B C$ 一定是钝角三角形；
-\item $triangle A B C$ 可能是直角三角形；
-\item $triangle A B C$ 可能是等腰三角形；
-\item $triangle A B C$ 不可能是等腰三角形.
-\end{circlelist}
+
++ (1) #mi(`\triangle ABC`) 一定是钝角三角形；
++ (2) #mi(`\triangle ABC`) 可能是直角三角形；
++ (3) #mi(`\triangle ABC`) 可能是等腰三角形；
++ (4) #mi(`\triangle ABC`) 不可能是等腰三角形.
+
+
 
 其中，正确的判断是（ ）
-  #choices(["①""③"], ["①""④"], ["②""③"], ["②""④"], cols: 4)
+  #choices([①③], [①④], [②③], [②④], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-设三个点的横坐标依次为 $t-d$，$t$，$t+d$，其中 $d>0$. 记
-
-$ Delta _1=f(t)-f(t-d)= e ""^(t-d)( e ""^d-1)+d $
+设三个点的横坐标依次为 #mi(`t-d`)，#mi(`t`)，#mi(`t+d`)，其中 #mi(`d>0`). 记
 
 
-$ Delta _2=f(t+d)-f(t)= e ""^t( e ""^d-1)+d $
+#align(center)[#mitex(`
+\Delta_{1}=f(t)-f(t-d)=\mathrm{e}^{t-d}(\mathrm{e}^{d}-1)+d
+`)]
+
+
+
+#align(center)[#mitex(`
+\Delta_{2}=f(t+d)-f(t)=\mathrm{e}^{t}(\mathrm{e}^{d}-1)+d
+`)]
+
 
 因为
 
-$ Delta _2- Delta _1= e ""^(t-d)( e ""^d-1)^2>0 $
 
-所以 $0< Delta _1< Delta _2$. 在点 $B$ 处，两条边向量可写为 $(-d,- Delta _1)$ 和 $(d, Delta _2)$，其内积为
+#align(center)[#mitex(`
+\Delta_{2}-\Delta_{1}=\mathrm{e}^{t-d}(\mathrm{e}^{d}-1)^{2}>0
+`)]
 
-$ -d^2- Delta _1 Delta _2<0 $
 
-故 $angle A B C$ 一定为钝角，判断$"[1]"$正确，判断$"[2]"$错误.
+所以 #mi(`0<\Delta_{1}<\Delta_{2}`). 在点 #mi(`B`) 处，两条边向量可写为 #mi(`(-d,-\Delta_{1})`) 和 #mi(`(d,\Delta_{2})`)，其内积为
+
+
+#align(center)[#mitex(`
+-d^{2}-\Delta_{1}\Delta_{2}<0
+`)]
+
+
+故 #mi(`\angle ABC`) 一定为钝角，判断#mi(`①`) 正确，判断#mi(`②`) 错误.
 
 三边长满足
 
-$ A B^2=d^2+ Delta _1^2<d^2+ Delta _2^2=B C^2 $
+
+#align(center)[#mitex(`
+AB^{2}=d^{2}+\Delta_{1}^{2}<d^{2}+\Delta_{2}^{2}=BC^{2}
+`)]
+
 
 且
 
-$ A C^2=4 d^2+( Delta _1+ Delta _2)^2>B C^2 $
 
-所以三边两两不相等，判断$"[3]"$错误，判断$"[4]"$正确. 因此选 B.
+#align(center)[#mitex(`
+AC^{2}=4d^{2}+(\Delta_{1}+\Delta_{2})^{2}>BC^{2}
+`)]
+
+
+所以三边两两不相等，判断#mi(`③`) 错误，判断#mi(`④`) 正确. 因此选 B.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-运行如图所示的程序，输出的结果是#blank(){}.
+运行如图所示的程序，输出的结果是\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2011/img/fujian_science/q11_fig1.png", width: 22%)]
+#align(center)[#image("/papers/2011/img/fujian_science/q11_fig1.png", width: 28%)]
+
 ]
 
 #answer([3])
 
 #solution[
-程序开始时 $a=1$，$b=2$. 执行 $a=a+b$ 后，$a=1+2=3$，随后输出 $a$，所以输出结果为 $3$.
+程序开始时 #mi(`a=1`)，#mi(`b=2`). 执行 #mi(`a=a+b`) 后，#mi(`a=1+2=3`)，随后输出 #mi(`a`)，所以输出结果为 #mi(`3`).
 ]
 
 #problem(12)[
-三棱锥 $P - A B C$ 中，$P A bot$ 底面 $A B C$，$P A = 3$，底面 $A B C$ 是边长为 $2$ 的正三角形，则三棱锥 $P - A B C$ 的体积等于#blank(){}.
+三棱锥 #mi(`P - ABC`) 中，#mi(`PA \perp`) 底面 #mi(`ABC`)，#mi(`PA = 3`)，底面 #mi(`ABC`) 是边长为 #mi(`2`) 的正三角形，则三棱锥 #mi(`P - ABC`) 的体积等于\underline{\hspace{2.5em}}.
 ]
 
-#answer([$sqrt(3)$])
+#answer([#mi(`\sqrt{3}`)])
 
 #solution[
-底面 $A B C$ 是边长为 $2$ 的正三角形，所以
+底面 #mi(`ABC`) 是边长为 #mi(`2`) 的正三角形，所以
 
-$ S_( triangle A B C)=(1)/(2) dot 2 \c d o t s q r t(2^2-1^2)=sqrt(3) $
 
-又因为 $P A bot$ 底面 $A B C$，故三棱锥的高为 $P A=3$. 因此体积为
+#align(center)[#mitex(`
+S_{\triangle ABC}=\frac{1}{2}\cdot2\cdot\sqrt{2^{2}-1^{2}}=\sqrt{3}
+`)]
 
-$ V=(1)/(3)S_( triangle A B C) dot P A=(1)/(3)\c d o t s q r t(3) dot 3 =sqrt(3) $
+
+又因为 #mi(`PA\perp`) 底面 #mi(`ABC`)，故三棱锥的高为 #mi(`PA=3`). 因此体积为
+
+
+#align(center)[#mitex(`
+V=\frac{1}{3}S_{\triangle ABC}\cdot PA=\frac{1}{3}\cdot\sqrt{3}\cdot3=\sqrt{3}
+`)]
 ]
 
 #problem(13)[
-盒中装有形状，大小完全相同的 $5$ 个球，其中红色球 $3$ 个，黄色球 $2$ 个. 若从中随机取出 $2$ 个球，则所取出的 $2$ 个球颜色不同的概率等于#blank(){}.
+盒中装有形状，大小完全相同的 #mi(`5`) 个球，其中红色球 #mi(`3`) 个，黄色球 #mi(`2`) 个. 若从中随机取出 #mi(`2`) 个球，则所取出的 #mi(`2`) 个球颜色不同的概率等于\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3)/(5)$])
+#answer([#mi(`\frac{3}{5}`)])
 
 #solution[
-从 $5$ 个球中取出 $2$ 个球的取法总数为 $C_5^2=10$. 取到一个红球和一个黄球的取法数为 $C_3^1 C_2^1=6$，所以所求概率为
+从 #mi(`5`) 个球中取出 #mi(`2`) 个球的取法总数为 #mi(`\mathrm{C}_{5}^{2}=10`). 取到一个红球和一个黄球的取法数为 #mi(`\mathrm{C}_{3}^{1}\mathrm{C}_{2}^{1}=6`)，所以所求概率为
 
-$ (C_3^1 C_2^1)/(C_5^2)=(6)/(10)=(3)/(5) $
+
+#align(center)[#mitex(`
+\frac{\mathrm{C}_{3}^{1}\mathrm{C}_{2}^{1}}{\mathrm{C}_{5}^{2}}=\frac{6}{10}=\frac{3}{5}
+`)]
 ]
 
 #problem(14)[
-如图，$triangle A B C$ 中，$A B = A C = 2$，$B C = 2 sqrt(3)$，点 $D$ 在 $B C$ 边上，$angle A D C = 45^ degree$，则 $A D$ 的长度等于#blank(){}.
+如图，#mi(`\triangle ABC`) 中，#mi(`AB = AC = 2`)，#mi(`BC = 2\sqrt{3}`)，点 #mi(`D`) 在 #mi(`BC`) 边上，#mi(`\angle ADC = 45^{\circ}`)，则 #mi(`AD`) 的长度等于\underline{\hspace{2.5em}}.
 
 
 #align(center)[#image("/papers/2011/img/fujian_science/q14_fig1.png", width: 28%)]
+
 ]
 
-#answer([$sqrt(2)$])
+#answer([#mi(`\sqrt{2}`)])
 
 #solution[
-取直角坐标系，使 $B=(-sqrt(3),0)$，$C=(sqrt(3),0)$. 因为 $A B=A C=2$，所以 $A$ 在 $B C$ 的垂直平分线上，且
+取直角坐标系，使 #mi(`B=(-\sqrt{3},0)`)，#mi(`C=(\sqrt{3},0)`). 因为 #mi(`AB=AC=2`)，所以 #mi(`A`) 在 #mi(`BC`) 的垂直平分线上，且
 
-$ A B^2-((B C)/(2))^2=2^2-(sqrt(3))^2=1 $
 
-从而可取 $A=(0,1)$. 设 $D=(t,0)$. 由于 $angle A D C=45^ degree$，且 $arrow(D C)$ 沿 $x$ 轴正方向，向量 $arrow(D A)=(-t,1)$ 与 $x$ 轴正方向的夹角为 $45^ degree$，故 $-t=1$，即 $D=(-1,0)$. 因此
+#align(center)[#mitex(`
+AB^{2}-\left(\frac{BC}{2}\right)^{2}=2^{2}-(\sqrt{3})^{2}=1
+`)]
 
-$ A D=sqrt((0+1)^2+(1-0)^2)=sqrt(2) $
+
+从而可取 #mi(`A=(0,1)`). 设 #mi(`D=(t,0)`). 由于 #mi(`\angle ADC=45^{\circ}`)，且 #mi(`\overrightarrow{DC}`) 沿 #mi(`x`) 轴正方向，向量 #mi(`\overrightarrow{DA}=(-t,1)`) 与 #mi(`x`) 轴正方向的夹角为 #mi(`45^{\circ}`)，故 #mi(`-t=1`)，即 #mi(`D=(-1,0)`). 因此
+
+
+#align(center)[#mitex(`
+AD=\sqrt{(0+1)^{2}+(1-0)^{2}}=\sqrt{2}
+`)]
 ]
 
 #problem(15)[
-设 $V$ 是全体平面向量构成的集合. 若映射 $f:V -> RR$ 满足：对任意向量 $a=(x_1,y_1) in V$，$b=(x_2,y_2) in V$，以及任意 $lambda in RR$，均有 $f( lambda a+(1- lambda )b)= lambda f(a)+(1- lambda )f(b)$，则称映射 $f$ 具有性质 $P$. 现给出如下映射：
+设 #mi(`V`) 是全体平面向量构成的集合. 若映射 #mi(`f:V\to\mathbb{R}`) 满足：对任意向量 #mi(`a=(x_{1},y_{1})\in V`)，#mi(`b=(x_{2},y_{2})\in V`)，以及任意 #mi(`\lambda\in\mathbb{R}`)，均有 #mi(`f\left(\lambda a+(1-\lambda)b\right)=\lambda f(a)+(1-\lambda)f(b)`)，则称映射 #mi(`f`) 具有性质 #mi(`P`). 现给出如下映射：
 
-\begin{circlelist}
-\item $f_1:V -> RR$，$f_1(m)=x-y$，$m=(x,y) in V$；
-\item $f_2:V -> RR$，$f_2(m)=x^2+y$，$m=(x,y) in V$；
-\item $f_3:V -> RR$，$f_3(m)=x+y+1$，$m=(x,y) in V$.
-\end{circlelist}
 
-其中，具有性质 $P$ 的映射的序号为#blank(){}（写出所有具有性质 $P$ 的映射的序号）.
++ (1) #mi(`f_{1}:V\to\mathbb{R}`)，#mi(`f_{1}(m)=x-y`)，#mi(`m=(x,y)\in V`)；
++ (2) #mi(`f_{2}:V\to\mathbb{R}`)，#mi(`f_{2}(m)=x^{2}+y`)，#mi(`m=(x,y)\in V`)；
++ (3) #mi(`f_{3}:V\to\mathbb{R}`)，#mi(`f_{3}(m)=x+y+1`)，#mi(`m=(x,y)\in V`).
+
+
+
+其中，具有性质 #mi(`P`) 的映射的序号为\underline{\hspace{2.5em}}（写出所有具有性质 #mi(`P`) 的映射的序号）.
 ]
 
-#answer([$"[1]""[3]"$])
+#answer([#mi(`①③`)])
 
 #solution[
-对映射 $f_1$，有
+对映射 #mi(`f_{1}`)，有
 
-$ f_1( lambda a+(1- lambda )b)= lambda (x_1-y_1)+(1- lambda )(x_2-y_2)= lambda f_1(a)+(1- lambda )f_1(b) $
 
-所以 $f_1$ 具有性质 $P$.
+#align(center)[#mitex(`
+f_{1}\left(\lambda a+(1-\lambda)b\right)=\lambda(x_{1}-y_{1})+(1-\lambda)(x_{2}-y_{2})=\lambda f_{1}(a)+(1-\lambda)f_{1}(b)
+`)]
 
-对映射 $f_2$，取 $a=(1,0)$，$b=(0,0)$，$lambda =(1)/(2)$，则
 
-$ f_2((1)/(2)a+(1)/(2)b)=f_2((1)/(2),0)=(1)/(4) $
+所以 #mi(`f_{1}`) 具有性质 #mi(`P`).
+
+对映射 #mi(`f_{2}`)，取 #mi(`a=(1,0)`)，#mi(`b=(0,0)`)，#mi(`\lambda=\frac{1}{2}`)，则
+
+
+#align(center)[#mitex(`
+f_{2}\left(\frac{1}{2}a+\frac{1}{2}b\right)=f_{2}\left(\frac{1}{2},0\right)=\frac{1}{4}
+`)]
+
 
 而
 
-$ (1)/(2)f_2(a)+(1)/(2)f_2(b)=(1)/(2) dot 1 +(1)/(2) dot 0 =(1)/(2) $
 
-两者不相等，所以 $f_2$ 不具有性质 $P$.
+#align(center)[#mitex(`
+\frac{1}{2}f_{2}(a)+\frac{1}{2}f_{2}(b)=\frac{1}{2}\cdot1+\frac{1}{2}\cdot0=\frac{1}{2}
+`)]
 
-对映射 $f_3$，有
 
-$ f_3( lambda a+(1- lambda )b)= lambda (x_1+y_1)+(1- lambda )(x_2+y_2)+1= lambda f_3(a)+(1- lambda )f_3(b) $
+两者不相等，所以 #mi(`f_{2}`) 不具有性质 #mi(`P`).
 
-所以 $f_3$ 具有性质 $P$. 因此具有性质 $P$ 的映射序号为 $"[1]""[3]"$.
+对映射 #mi(`f_{3}`)，有
+
+
+#align(center)[#mitex(`
+f_{3}\left(\lambda a+(1-\lambda)b\right)=\lambda(x_{1}+y_{1})+(1-\lambda)(x_{2}+y_{2})+1=\lambda f_{3}(a)+(1-\lambda)f_{3}(b)
+`)]
+
+
+所以 #mi(`f_{3}`) 具有性质 #mi(`P`). 因此具有性质 #mi(`P`) 的映射序号为 #mi(`①③`).
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-已知等比数列 $\{a_n\}$ 的公比 $q=3$，前 $3$ 项和 $S_3=(13)/(3)$.
+已知等比数列 #mi(`\{a_{n}\}`) 的公比 #mi(`q=3`)，前 #mi(`3`) 项和 #mi(`S_{3}=\frac{13}{3}`).
 
 
-+ (1) 求数列 $\{a_n\}$ 的通项公式；
-+ (2) 若函数 $f(x)=A sin (2 x+ phi.alt )$（$A>0$，$0< phi.alt < pi$）在 $x=(pi)/(6)$ 处取得最大值，且最大值为 $a_3$，求函数 $f(x)$ 的解析式.
++ (1)
 ]
 
 #solution[
-+ (1) 由等比数列前 $3$ 项和公式，得
-
-$ S_3=a_1(1+q+q^2)=a_1(1+3+9)=13 a_1=(13)/(3) $
-
-所以 $a_1=(1)/(3)$. 因此数列的通项公式为
-
-$ a_n=a_(1) q^(n-1)=(1)/(3) dot 3 ""^(n-1)=3^(n-2) $
-+ (2) 由（1）得 $a_3=3$. 函数 $f(x)=A sin (2 x+ phi.alt )$ 的最大值为 $A$，题设给出 $A=a_3=3$. 在 $x=(pi)/(6)$ 处取得最大值，故
-
-$ 2 dot (pi)/(6)+ phi.alt =(pi)/(2)+2 k pi $
-
-其中 $k in ZZ$. 由于 $0< phi.alt < pi$，左端属于 $((pi)/(3),(4 pi)/(3))$，所以只能取 $k=0$，从而 $phi.alt =(pi)/(6)$. 故
-
-$ f(x)=3 sin (2 x+(pi)/(6)) $
++ (1)
 ]
 
 #problem(17)[
-已知直线 $l:y=x+m$，$m in RR$.
+已知直线 #mi(`l:y=x+m`)，#mi(`m\in\mathbb{R}`).
 
 
-+ (1) 若以点 $M(2,0)$ 为圆心的圆与直线 $l$ 相切于点 $P$，且点 $P$ 在 $y$ 轴上，求该圆的方程；
-+ (2) 若直线 $l$ 关于 $x$ 轴对称的直线为 $l'$，问直线 $l'$ 与抛物线 $C:x^2=4 y$ 是否相切？说明理由.
++ (1)
 ]
 
 #solution[
-+ (1) 因为切点 $P$ 在 $y$ 轴上，且 $P in l$，所以令 $x=0$，得 $P=(0,m)$. 直线 $l$ 的斜率为 $1$，圆在切点处的半径 $M P$ 应与 $l$ 垂直，因此 $M P$ 的斜率为 $-1$. 另一方面，
-
-$ (m-0)/(0-2)=-(m)/(2) $
-
-所以 $-(m)/(2)=-1$，即 $m=2$，切点为 $P=(0,2)$. 半径平方为
-
-$ M P^2=(0-2)^2+(2-0)^2=8 $
-
-故圆的方程为
-
-$ (x-2)^2+y^2=8 $
-+ (2) 由（1）知 $l:y=x+2$. 关于 $x$ 轴对称后，直线 $l'$ 的方程为 $y=-x-2$. 将其代入抛物线 $x^2=4 y$，得
-
-$ x^2=4(-x-2) $
-
-即
-
-$ x^2+4 x+8=0 $
-
-该方程的判别式为 $Delta =4^2-4 dot 1 dot 8 =-16<0$，所以 $l'$ 与抛物线没有公共点，因而不相切.
++ (1)
 ]
 
 #problem(18)[
-某商场销售某种商品的经验表明，该商品每日的销售量 $y$（单位：千克）与销售价格 $x$（单位：元/千克）满足关系式 $y=(a)/(x-3)+10(x-6)^2$，其中 $3<x<6$，$a$ 为常数. 已知销售价格为 $5" 元/千克"$ 时，每日可售出该商品 $11" 千克"$.
+某商场销售某种商品的经验表明，该商品每日的销售量 #mi(`y`)（单位：千克）与销售价格 #mi(`x`)（单位：元/千克）满足关系式 #mi(`y=\frac{a}{x-3}+10(x-6)^{2}`)，其中 #mi(`3<x<6`)，#mi(`a`) 为常数. 已知销售价格为 #mi(`5\text{ \text{元}/\text{千克}}`) 时，每日可售出该商品 #mi(`11\text{ \text{千克}}`).
 
 
-+ (1) 求 $a$ 的值；
-+ (2) 若该商品的成本为 $3" 元/千克"$，试确定销售价格 $x$ 的值，使商场每日销售该商品所获得的利润最大.
++ (1)
 ]
 
 #solution[
-+ (1) 将 $x=5$，$y=11$ 代入题设关系式，得
-
-$ 11=(a)/(5-3)+10(5-6)^2=(a)/(2)+10 $
-
-所以 $a=2$.
-+ (2) 每日销售该商品获得的利润为销售量乘以每千克的利润，因此
-
-$ L(x)=(x-3)y=(x-3)[(2)/(x-3)+10(x-6)^2] =2+10(x-3)(x-6)^2 $
-
-令 $g(x)=(x-3)(x-6)^2$，则
-
-$ g'(x)=(x-6)^2+2(x-3)(x-6)=3(x-6)(x-4) $
-
-在 $3<x<4$ 时，$g'(x)>0$；在 $4<x<6$ 时，$g'(x)<0$. 所以 $g(x)$，从而 $L(x)$，先增后减，在 $x=4$ 时取得最大值. 故销售价格应确定为 $x=4$ 元/千克.
++ (1)
 ]
 
 #problem(19)[
-某产品按行业生产标准分成 $8$ 个等级，等级系数 $X$ 依次为 $1$，$2$，$...$，$8$，其中 $X >= 5$ 为标准 $A$，$X >= 3$ 为标准 $B$. 已知甲厂执行标准 $A$ 生产该产品，产品的零售价为 $6" 元/件"$；乙厂执行标准 $B$ 生产该产品，产品的零售价为 $4" 元/件"$，假定甲，乙两厂的产品都符合相应的执行标准.
+某产品按行业生产标准分成 #mi(`8`) 个等级，等级系数 #mi(`X`) 依次为 #mi(`1`)，#mi(`2`)，#mi(`\dots`)，#mi(`8`)，其中 #mi(`X\ge 5`) 为标准 #mi(`A`)，#mi(`X\ge 3`) 为标准 #mi(`B`). 已知甲厂执行标准 #mi(`A`) 生产该产品，产品的零售价为 #mi(`6\text{ \text{元}/\text{件}}`)；乙厂执行标准 #mi(`B`) 生产该产品，产品的零售价为 #mi(`4\text{ \text{元}/\text{件}}`)，假定甲，乙两厂的产品都符合相应的执行标准.
 
 
-+ (1) 已知甲厂产品的等级系数 $X_1$ 的概率分布如下表所示：
++ (1) 
++ (2) 
 
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-$X_1$ & 5 & 6 & 7 & 8 \\
-\hline
-$P$ & 0.4 & $a$ & $b$ & 0.1 \\
-\hline
-\end{tabular}
-\end{center}
-
-且 $E(X_1)=6$. 求 $a$，$b$ 的值；
-+ (2) 为分析乙厂产品的等级系数 $X_2$，从该厂生产的产品中随机抽取 $30$ 件，相应的等级系数组成一个样本. 数据如下：
-
-\begin{center}
-\begin{tabular}{cccccccccc}
-3 & 5 & 3 & 3 & 8 & 5 & 5 & 6 & 3 & 4 \\
-6 & 3 & 4 & 7 & 5 & 3 & 4 & 8 & 5 & 3 \\
-8 & 3 & 4 & 3 & 4 & 4 & 7 & 5 & 6 & 7
-\end{tabular}
-\end{center}
-
-用这个样本的频率分布估计总体分布，将频率视为概率，求等级系数 $X_2$ 的数学期望；
-+ (3) 在前两问的条件下，若以“性价比”为判断标准，则哪个工厂的产品更具可购买性？说明理由.
 
 
 注：
 
-\begin{circlelist}
-\item 产品的“性价比”$=("产品的等级系数的数学期望")/("产品的零售价")$；
-\item “性价比”大的产品更具可购买性.
-\end{circlelist}
+
++ (1) 产品的“性价比”#mi(`=\frac{\text{\text{产品的等级系数的数学期望}}}{\text{\text{产品的零售价}}}`)；
++ (2) “性价比”大的产品更具可购买性.
 ]
 
 #solution[
-+ (1) 由概率总和为 $1$，得
-
-$ 0.4+a+b+0.1=1 $
-
-即 $a+b=0.5$. 又由 $E(X_1)=6$，得
-
-$ 5 dot 0 .4+6 a+7 b+8 dot 0 .1=6 $
-
-即 $6 a+7 b=3.2$. 联立两式，得 $a=0.3$，$b=0.2$.
-+ (2) 样本中等级系数 $3$，$4$，$5$，$6$，$7$，$8$ 分别出现 $9$，$6$，$6$，$3$，$3$，$3$ 次. 因此将频率视为概率时，
-
-$ E(X_2)=3 dot (9)/(30)+4 dot (6)/(30)+5 dot (6)/(30)+6 dot (3)/(30)+7 dot (3)/(30)+8 dot (3)/(30)=(144)/(30)=4.8 $
-+ (3) 甲厂产品的性价比为
-
-$ (E(X_1))/(6)=(6)/(6)=1 $
-
-乙厂产品的性价比为
-
-$ (E(X_2))/(4)=(4.8)/(4)=1.2 $
-
-因为 $1.2>1$，所以乙厂的产品更具可购买性.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-如图，四棱锥 $P-A B C D$ 中，$P A bot$ 底面 $A B C D$，四边形 $A B C D$ 中，$A B bot A D$，$A B+A D=4$，$C D=sqrt(2)$，$angle C D A=45^ degree$.
+如图，四棱锥 #mi(`P-ABCD`) 中，#mi(`PA\perp`) 底面 #mi(`ABCD`)，四边形 #mi(`ABCD`) 中，#mi(`AB\perp AD`)，#mi(`AB+AD=4`)，#mi(`CD=\sqrt{2}`)，#mi(`\angle CDA=45^{\circ}`).
 
 
-+ (1) 求证：平面 $P A B bot$ 平面 $P A D$；
-+ (2) 设 $A B=A P$.
-
-\begin{enumerate}
-+ (3) 若直线 $P B$ 与平面 $P C D$ 所成的角为 $30^ degree$，求线段 $A B$ 的长；
-+ (4) 在线段 $A D$ 上是否存在一个点 $G$，使得点 $G$ 到点 $P$，$B$，$C$，$D$ 的距离都相等？说明理由.
-
-\end{enumerate}
++ (1) 
 
 
-#align(center)[#image("/papers/2011/img/fujian_science/q20_fig1.png", width: 42%)]
+
+
+#align(center)[#image("/papers/2011/img/fujian_science/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 在平面 $P A D$ 内，直线 $P A$ 与 $A D$ 相交. 又因为 $P A bot$ 底面 $A B C D$，所以 $P A bot A B$；题设还给出 $A B bot A D$. 因此直线 $A B$ 垂直于平面 $P A D$，从而平面 $P A B bot$ 平面 $P A D$.
-+ (2) 设 $A B=u$，$A D=v$. 由题设，$u+v=4$，且 $A P=A B=u$. 在底面内过点 $C$ 作 $C E parallel A B$，交 $A D$ 于点 $E$. 因为 $A B bot A D$，所以 $C E bot A D$，三角形 $C D E$ 是直角三角形. 又 $C D=sqrt(2)$，$angle C D E= angle C D A=45^ degree$，所以 $D E=C D cos 45 ""^ degree =1$，$C E=C D sin 45 ""^ degree =1$. 建立空间直角坐标系，取 $A=(0,0,0)$，$B=(u,0,0)$，$D=(0,v,0)$，$P=(0,0,u)$，则 $E=(0,v-1,0)$，$C=(1,v-1,0)$.
-
-\begin{enumerate}
-+ (3) 在平面 $P C D$ 内取两条相交向量 $arrow(P D)=(0,v,-u)$，$arrow(P C)=(1,v-1,-u)$. 于是平面 $P C D$ 的一个法向量为
-
-$ bold(n)=arrow(P D)\t i m e s a r r o w(P C)=(-u,-u,-v) $
-
-直线 $P B$ 的方向向量可取 $bold(d)=(1,0,-1)$. 若直线 $P B$ 与平面 $P C D$ 所成的角为 $theta$，则
-
-$ sin theta =(|bold(d){ dot }bold(n)|)/(|bold(d)| |bold(n)|)=(|v-u|)/(sqrt(2)sqrt(2 u^2+v^2)) $
-
-令 $theta =30^ degree$，得
-
-$ ((v-u)^2)/(2(2 u^2+v^2))=(1)/(4) $
-
-即 $2(v-u)^2=2 u^2+v^2$，化简得 $v(v-4 u)=0$. 因为 $v>0$，所以 $v=4 u$. 结合 $u+v=4$，得
-$u=(4)/(5)$，$v=(16)/(5)$.
-故 $A B=(4)/(5)$.
-+ (4) 设 $G=(0,t,0)$ 在线段 $A D$ 上，则 $0 <= t <= v$. 若 $G$ 到 $P$，$B$，$C$，$D$ 的距离都相等，首先必须有 $G P=G D$. 由 $G P^2=t^2+u^2$，$G D^2=(v-t)^2$，得
-
-$ t=(v^2-u^2)/(2 v)=(((16)/(5))^2-((4)/(5))^2)/(2 dot (16)/(5))=(3)/(2) $
-
-此时 $G B^2=t^2+u^2=G P^2$，但
-
-$ G P^2=((3)/(2))^2+((4)/(5))^2=(289)/(100) $
-
-而
-
-$ G C^2=1+(v-1-t)^2=1+((16)/(5)-1-(3)/(2))^2=(149)/(100) $
-
-所以 $G C != G P$. 满足 $G P=G D$ 的点已经唯一，故在线段 $A D$ 上不存在满足条件的点 $G$.
-
-\end{enumerate}
++ (1)
 ]
 
 #part-header("选考题：解答题")
 
 #problem(21)[
-设矩阵 $M = \b e g i n{p m a t r i x} a & 0 \\ 0 & b \e n d{p m a t r i x}$（其中 $a > 0$，$b > 0$）
+设矩阵 #mi(`M = \begin{pmatrix}a & 0 \\ 0 & b\end{pmatrix}`)（其中 #mi(`a > 0`)，#mi(`b > 0`)）
 
 
-+ (1) 若 $a = 2$，$b = 3$，求矩阵 $M$ 的逆矩阵 $M^(-1)$；
-+ (2) 若曲线 $C: x^(2) + y^(2) = 1$ 在矩阵 $M$ 所对应的线性变换作用下得到曲线
-$C' : (x^(2))/(4)+ y^(2) = 1$，求 $a$，$b$ 的值.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a=2$，$b=3$ 时，
-
-$ M=\b e g i n{p m a t r i x}2&0\\0&3\e n d{p m a t r i x} $
-
-设其逆矩阵为 $M^(-1)=\b e g i n{p m a t r i x}r&0\\0&s\e n d{p m a t r i x}$，由 $M M^(-1)=I$ 得 $2 r=1$，$3 s=1$. 所以
-
-$ M^(-1)=\b e g i n{p m a t r i x}(1)/(2)&0\\0&(1)/(3)\e n d{p m a t r i x} $
-+ (2) 矩阵 $M$ 所对应的线性变换把原点保持不变，并把点 $(x_0,y_0)$ 变为 $(a x_0,b y_0)$. 设变换后的点坐标为 $(x,y)$，则 $x_0=(x)/(a)$，$y_0=(y)/(b)$. 代入原曲线 $x_0^2+y_0^2=1$，得到变换后的曲线方程
-
-$ (x^2)/(a^2)+(y^2)/(b^2)=1 $
-
-与题设曲线 $(x^2)/(4)+y^2=1$ 比较，得 $a^2=4$，$b^2=1$. 由于 $a>0$，$b>0$，所以 $a=2$，$b=1$.
++ (1)
 ]
 
 #problem(22)[
-在直角坐标系 $x O y$ 中，直线 $l$ 的方程为 $x-y+4=0$，曲线 $C$ 的参数方程为 $\b e g i n{c a s e s} x=sqrt(3) cos alpha ,\\ y= sin alpha \e n d{c a s e s}$（$alpha$ 为参数）.
+在直角坐标系 #mi(`xOy`) 中，直线 #mi(`l`) 的方程为 #mi(`x-y+4=0`)，曲线 #mi(`C`) 的参数方程为 #mi(`\begin{cases}x=\sqrt{3}\cos\alpha,\\
+
+y=\sin\alpha\end{cases}`)（#mi(`\alpha`) 为参数）.
 
 
-+ (1) 已知在极坐标（与直角坐标系 $x O y$ 取相同的长度单位，且以原点 $O$ 为极点，以 $x$ 轴正半轴为极轴）中，点 $P$ 的极坐标为 $(4,(pi)/(2))$，判断点 $P$ 与直线 $l$ 的位置关系；
-+ (2) 设点 $Q$ 是曲线 $C$ 上的一个动点，求它到直线 $l$ 的距离的最小值.
++ (1)
 ]
 
 #solution[
-+ (1) 极坐标 $(4,(pi)/(2))$ 对应的直角坐标为
-
-$ P=(4 cos (pi)/(2),4 sin (pi)/(2))=(0,4) $
-
-代入直线 $l$ 的方程，得 $0-4+4=0$，所以点 $P$ 在直线 $l$ 上.
-+ (2) 曲线 $C$ 上的点 $Q$ 可表示为 $Q=(sqrt(3) cos alpha , sin alpha )$. 点 $Q$ 到直线 $l$ 的距离为
-
-$ d=(|sqrt(3){ cos } alpha - sin alpha +4|)/(sqrt(2)) $
-
-由辅助角公式，
-
-$ sqrt(3) cos alpha - sin alpha =2 cos ( alpha +(pi)/(6)) $
-
-所以其取值范围为 $[-2,2]$. 因此
-
-$ 2\l e q s l a n t s q r t(3) cos alpha - sin alpha +4 <= 6 $
-
-绝对值可去掉，故
-
-$ d >= (2)/(sqrt(2))=sqrt(2) $
-
-当 $cos ( alpha +(pi)/(6))=-1$ 时取等号，所以距离的最小值为 $sqrt(2)$.
++ (1)
 ]
 
 #problem(23)[
-设不等式 $|2 x-1|<1$ 的解集为 $M$.
+设不等式 #mi(`|2x-1|<1`) 的解集为 #mi(`M`).
 
 
-+ (1) 求集合 $M$；
-+ (2) 若 $a$，$b in M$，试比较 $a b+1$ 与 $a+b$ 的大小.
++ (1)
 ]
 
 #solution[
-+ (1) 由绝对值不等式，
-
-$ -1<2 x-1<1 $
-
-不等式两边同时加 $1$，再除以正数 $2$，得 $0<x<1$. 所以 $M=(0,1)$.
-+ (2) 因为 $a$，$b in M$，所以 $0<a<1$，$0<b<1$. 于是
-
-$ a b+1-(a+b)=(1-a)(1-b)>0 $
-
-因此 $a b+1>a+b$.
++ (1)
 ]
 

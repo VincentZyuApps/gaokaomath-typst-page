@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,362 +11,352 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $M = \{x | x >= 0 , x in RR \}$，$N = \{x | x^2 < 1, x in RR \}$，则 $M inter N =$（ ）
+已知集合 #mi(`M = \{x \mid x \ge 0, x \in \mathbb{R}\}`)，#mi(`N = \{x \mid x^{2} < 1, x \in \mathbb{R}\}`)，则 #mi(`M \cap N =`)（ ）
 
 D
-由 $x^2<1$ 得 $-1<x<1$，所以
-$N=(-1,1)$，$M inter N=[0,1)$.
+
+由 #mi(`x^{2}<1`) 得 #mi(`-1<x<1`)，所以
+
+#mi(`N=(-1,1)`)，#mi(`M\cap N=[0,1)`).
+
 因此选 D.
-  #choices([$[0,1]$], [$(0,1)$], [$(0,1]$], [$[0,1)$], cols: 4)
+  #choices([#mi(`[0,1]`)], [#mi(`(0,1)`)], [#mi(`(0,1]`)], [#mi(`[0,1)`)], cols: 4)
 ]
 
 #problem(2)[
-函数 $f(x) = cos (2 x + (pi)/(4))$ 的最小正周期是（ ）
+函数 #mi(`f(x) = \cos \left(2x + \frac{\pi}{4}\right)`) 的最小正周期是（ ）
 
 B
-余弦函数的最小正周期为 $2 pi$. 对于 $f(x)= cos (2 x+(pi)/(4))$，横坐标的伸缩系数为 $2$，故 $T=(2 pi)/(2)= pi$.
+
+余弦函数的最小正周期为 #mi(`2\pi`). 对于 #mi(`f(x)=\cos(2x+\frac{\pi}{4})`)，横坐标的伸缩系数为 #mi(`2`)，故 #mi(`T=\frac{2\pi}{2}=\pi`).
+
 因此选 B.
-  #choices([$(pi)/(2)$], [$pi$], [$2 pi$], [$4 pi$], cols: 4)
+  #choices([#mi(`\frac{\pi}{2}`)], [#mi(`\pi`)], [#mi(`2\pi`)], [#mi(`4\pi`)], cols: 2)
 ]
 
 #problem(3)[
-已知复数 $z = 2 - i$，则 $z dot overline(z)$ 的值为（ ）
+已知复数 #mi(`z = 2 - \mathrm{i}`)，则 #mi(`z \cdot \overline{z}`) 的值为（ ）
 
 A
-复数 $z=2- i$ 的共轭复数为 $overline(z)=2+ i$，所以
 
-$ z o v e r l i n e(z)=(2- i )(2+ i )=4- i ""^2=4+1=5 $
+复数 #mi(`z=2-\mathrm{i}`) 的共轭复数为 #mi(`\overline{z}=2+\mathrm{i}`)，所以
+
+
+#align(center)[#mitex(`
+z\overline{z}=(2-\mathrm{i})(2+\mathrm{i})=4-\mathrm{i}^{2}=4+1=5
+`)]
+
 
 因此选 A.
-  #choices([$5$], [$sqrt(5)$], [$3$], [$sqrt(3)$], cols: 4)
+  #choices([#mi(`5`)], [#mi(`\sqrt{5}`)], [#mi(`3`)], [#mi(`\sqrt{3}`)], cols: 4)
 ]
 
 #problem(4)[
-根据如图所示的框图，对大于 2 的整数 $N$，输出的数列的通项公式是（ ）
+根据如图所示的框图，对大于 2 的整数 #mi(`N`)，输出的数列的通项公式是（ ）
 
 
-#align(center)[#image("/papers/2014/img/shaanxi_liberal/q4_fig1.png", width: 30%)]
+#align(center)[#image("/papers/2014/img/shaanxi_liberal/q4_fig1.png", width: 28%)]
 
 
 C
-程序开始时 $S=1$，每次循环先计算 $a_i=2 S$，再令 $S=a_i$，因此每次循环都使 $S$ 变为原来的 $2$ 倍. 第一次循环得到 $a_1=2=2^1$. 若第 $k$ 次循环前 $S=2^(k-1)$，则第 $k$ 次循环得到 $a_k=2 S=2^k$. 由数学归纳法，输出数列的通项为 $a_n=2^n$. 因此选 C.
-  #choices([$a_(n) = 2 n$], [$a_(n) = 2(n - 1)$], [$a_(n) = 2^(n)$], [$a_(n) = 2^(n - 1)$], cols: 2)
+
+程序开始时 #mi(`S=1`)，每次循环先计算 #mi(`a_{i}=2S`)，再令 #mi(`S=a_{i}`)，因此每次循环都使 #mi(`S`) 变为原来的 #mi(`2`) 倍. 第一次循环得到 #mi(`a_{1}=2=2^{1}`). 若第 #mi(`k`) 次循环前 #mi(`S=2^{k-1}`)，则第 #mi(`k`) 次循环得到 #mi(`a_{k}=2S=2^{k}`). 由数学归纳法，输出数列的通项为 #mi(`a_{n}=2^{n}`). 因此选 C.
+  #choices([#mi(`a_{n}= 2n`)], [#mi(`a_{n}= 2(n - 1)`)], [#mi(`a_{n}= 2^{n}`)], [#mi(`a_{n}= 2^{n - 1}`)], cols: 2)
 ]
 
 #problem(5)[
 将边长为 1 的正方形以其一边所在直线为旋转轴旋转一周，所得几何体的侧面积为（ ）
 
 C
-正方形绕一条边旋转一周，所得几何体是底面半径 $r=1$、高 $h=1$ 的圆柱. 圆柱的侧面积为 $S=2 pi r h=2 pi$.
+
+正方形绕一条边旋转一周，所得几何体是底面半径 #mi(`r=1`)、高 #mi(`h=1`) 的圆柱. 圆柱的侧面积为 #mi(`S=2\pi rh=2\pi`).
+
 因此选 C.
-  #choices([$4 pi$], [$3 pi$], [$2 pi$], [$pi$], cols: 4)
+  #choices([#mi(`4\pi`)], [#mi(`3\pi`)], [#mi(`2\pi`)], [#mi(`\pi`)], cols: 4)
 ]
 
 #problem(6)[
 从正方形四个顶点及其中心这5个点中，任取2个点，则这2个点的距离不小于该正方形边长的概率为（ ）
 
 C
-任取 $2$ 个点共有 $C_5^2=10$ 种等可能结果. 正方形的四条边对应的 $4$ 对顶点距离等于边长，两条对角线对应的 $2$ 对顶点距离大于边长；中心与任一顶点的距离为边长的 $(sqrt(2))/(2)$，不符合条件. 因此符合条件的有 $4+2=6$ 种，所求概率为 $P=(6)/(10)=(3)/(5)$.
+
+任取 #mi(`2`) 个点共有 #mi(`\mathrm{C}_{5}^{2}=10`) 种等可能结果. 正方形的四条边对应的 #mi(`4`) 对顶点距离等于边长，两条对角线对应的 #mi(`2`) 对顶点距离大于边长；中心与任一顶点的距离为边长的 #mi(`\frac{\sqrt{2}}{2}`)，不符合条件. 因此符合条件的有 #mi(`4+2=6`) 种，所求概率为 #mi(`P=\frac{6}{10}=\frac{3}{5}`).
+
 因此选 C.
-  #choices([$(1)/(5)$], [$(2)/(5)$], [$(3)/(5)$], [$(4)/(5)$], cols: 4)
+  #choices([#mi(`\frac{1}{5}`)], [#mi(`\frac{2}{5}`)], [#mi(`\frac{3}{5}`)], [#mi(`\frac{4}{5}`)], cols: 2)
 ]
 
 #problem(7)[
-下列函数中，满足“$f(x + y) = f(x)f(y)$”的单调递增函数是（ ）
+下列函数中，满足“#mi(`f(x + y) = f(x)f(y)`)”的单调递增函数是（ ）
 
 D
-逐项检验函数关系. 取 $x=y=1$ 时，$f(x)=x^((1)/(2))$ 给出 $f(2)=sqrt(2) != 1 =f(1)f(1)$，$f(x)=x^3$ 给出 $f(2)=8 != 1 =f(1)f(1)$，所以 A、B 均不满足题设关系. $f(x)=((1)/(2))^x$ 满足 $f(x+y)=f(x)f(y)$，但底数在 $(0,1)$ 内，所以它是单调递减函数. 对于 $f(x)=3^x$，有
 
-$ f(x+y)=3^(x+y)=3^(x) 3^y=f(x)f(y) $
+逐项检验函数关系. 取 #mi(`x=y=1`) 时，#mi(`f(x)=x^{\frac{1}{2}}`) 给出 #mi(`f(2)=\sqrt{2}\ne1=f(1)f(1)`)，#mi(`f(x)=x^{3}`) 给出 #mi(`f(2)=8\ne1=f(1)f(1)`)，所以 A、B 均不满足题设关系. #mi(`f(x)=(\frac{1}{2})^{x}`) 满足 #mi(`f(x+y)=f(x)f(y)`)，但底数在 #mi(`(0,1)`) 内，所以它是单调递减函数. 对于 #mi(`f(x)=3^{x}`)，有
 
-且底数 $3>1$，所以它是单调递增函数. 因此选 D.
-  #choices([$f(x) = x^((1)/(2))$], [$f(x) = x^(3)$], [$f(x) = ((1)/(2))^x$], [$f(x) = 3^(x)$], cols: 2)
+
+#align(center)[#mitex(`
+f(x+y)=3^{x+y}=3^{x}3^{y}=f(x)f(y)
+`)]
+
+
+且底数 #mi(`3>1`)，所以它是单调递增函数. 因此选 D.
+  #choices([#mi(`f(x) = x^{\frac{1}{2}}`)], [#mi(`f(x) = x^{3}`)], [#mi(`f(x) = \left(\frac{1}{2}\right)^{x}`)], [#mi(`f(x) = 3^{x}`)], cols: 1)
 ]
 
 #problem(8)[
-原命题为“若 $(a_n + a_(n+1))/(2)< a_n$，$n in bold(N)_+$，则 $\{a_n\}$ 为递减数列”，关于逆命题，否命题，逆否命题真假性的判断依次如下，正确的是（ ）
+原命题为“若 #mi(`\frac{a_{n} + a_{n+1}}{2}< a_{n}`)，#mi(`n \in \mathbf{N}_{+}`)，则 #mi(`\{a_{n}\}`) 为递减数列”，关于逆命题，否命题，逆否命题真假性的判断依次如下，正确的是（ ）
 
 A
-记命题的前件为 $P$，后件为 $Q$，其中 $P$ 表示对任意 $n\i n b o l d(N)_+$ 有 $\f r a c{a_n+a_(n+1)}2<a_n$，$Q$ 表示数列 $\{a_n\}$ 为递减数列. 由 $\f r a c{a_n+a_(n+1)}2<a_n$ 可得 $a_(n+1)<a_n$，反过来也成立，所以 $P$ 与 $Q$ 等价. 因此原命题、逆命题、否命题和逆否命题均为真，所求判断为“真，真，真”，选 A.
+
+记命题的前件为 #mi(`P`)，后件为 #mi(`Q`)，其中 #mi(`P`) 表示对任意 #mi(`n\in\mathbf{N}_{+}`) 有 #mi(`\frac{a_{n}+a_{n+1}}{2}<a_{n}`)，#mi(`Q`) 表示数列 #mi(`\{a_{n}\}`) 为递减数列. 由 #mi(`\frac{a_{n}+a_{n+1}}{2}<a_{n}`) 可得 #mi(`a_{n+1}<a_{n}`)，反过来也成立，所以 #mi(`P`) 与 #mi(`Q`) 等价. 因此原命题、逆命题、否命题和逆否命题均为真，所求判断为“真，真，真”，选 A.
   #choices([真，真，真], [假，假，真], [真，真，假], [假，假，假], cols: 4)
 ]
 
 #problem(9)[
-某公司 10 位员工的月工资（单位：元）为 $x_(1)$，$x_(2)$，$dots.c$，$x_(10)$，其均值和方差分别为 $overline(x)$ 和 $s^(2)$，若从下月起每位员工的月工资增加 100 元，则这 10 位员工下月工资的均值和方差分别为（ ）
+某公司 10 位员工的月工资（单位：元）为 #mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\cdots`)，#mi(`x_{10}`)，其均值和方差分别为 #mi(`\overline{x}`) 和 #mi(`s^{2}`)，若从下月起每位员工的月工资增加 100 元，则这 10 位员工下月工资的均值和方差分别为（ ）
 
 D
-下月工资记为 $x_i'=x_i+100$. 其均值为
 
-$ overline(x')=(1)/(10)sum_(i=1)^(10)(x_i+100)=overline(x)+100 $
+下月工资记为 #mi(`x_{i}'=x_{i}+100`). 其均值为
 
-又因为 $x_i'-overline(x')=x_i-overline(x)$，所以方差为
 
-$ s'^2=(1)/(10)sum_(i=1)^(10)(x_i'-overline(x'))^2 =(1)/(10)sum_(i=1)^(10)(x_i-overline(x))^2=s^2 $
+#align(center)[#mitex(`
+\overline{x'}=\frac{1}{10}\sum_{i=1}^{10}(x_{i}+100)=\overline{x}+100
+`)]
+
+
+又因为 #mi(`x_{i}'-\overline{x'}=x_{i}-\overline{x}`)，所以方差为
+
+
+#align(center)[#mitex(`
+s'^{2}=\frac{1}{10}\sum_{i=1}^{10}(x_{i}'-\overline{x'})^{2}  =\frac{1}{10}\sum_{i=1}^{10}(x_{i}-\overline{x})^{2}=s^{2}
+`)]
+
 
 因此选 D.
-  #choices([$overline(x)$，$s^2 + 100^2$], [$overline(x)+ 100$，$s^2 + 100^2$], [$overline(x)$，$s^2$], [$overline(x)+ 100$，$s^2$], cols: 1)
+  #choices([#mi(`\overline{x}`)，#mi(`s^{2} + 100^{2}`)], [#mi(`\overline{x}+ 100`)，#mi(`s^{2} + 100^{2}`)], [#mi(`\overline{x}`)，#mi(`s^{2}`)], [#mi(`\overline{x}+ 100`)，#mi(`s^{2}`)], cols: 1)
 ]
 
 #problem(10)[
 如图，修建一条公路需要一段环湖弯曲路段与两条直道平滑连接（相切），已知环湖弯曲路段为某三次函数图象的一部分，则该函数的解析式为（ ）
 
 
-#align(center)[#image("/papers/2014/img/shaanxi_liberal/q10_fig1.png", width: 46%)]
+#align(center)[#image("/papers/2014/img/shaanxi_liberal/q10_fig1.png", width: 28%)]
 
 
 A
-设三次函数为 $f(x)=A x^3+B x^2+C x+D$. 由图可知曲线在 $O(0,0)$ 处与直线 $y=-x$ 相切，在 $(2,0)$ 处与直线 $y=3 x-6$ 相切，所以 $f(0)=0$，$f'(0)=-1$，$f(2)=0$，$f'(2)=3$.
-于是 $D=0$，$C=-1$，并且 $8 A+4 B-2=0$，$12 A+4 B-1=3$，即 $4 A+2 B=1$，$3 A+B=1$. 解得 $A=(1)/(2)$，$B=-(1)/(2)$. 因此 $f(x)=(1)/(2)x^3-(1)/(2)x^2-x$.
+
+设三次函数为 #mi(`f(x)=Ax^{3}+Bx^{2}+Cx+D`). 由图可知曲线在 #mi(`O(0,0)`) 处与直线 #mi(`y=-x`) 相切，在 #mi(`(2,0)`) 处与直线 #mi(`y=3x-6`) 相切，所以 #mi(`f(0)=0`)，#mi(`f'(0)=-1`)，#mi(`f(2)=0`)，#mi(`f'(2)=3`).
+
+于是 #mi(`D=0`)，#mi(`C=-1`)，并且 #mi(`8A+4B-2=0`)，#mi(`12A+4B-1=3`)，即 #mi(`4A+2B=1`)，#mi(`3A+B=1`). 解得 #mi(`A=\frac{1}{2}`)，#mi(`B=-\frac{1}{2}`). 因此 #mi(`f(x)=\frac{1}{2}x^{3}-\frac{1}{2}x^{2}-x`).
+
 所以选 A.
-  #choices([$y = (1)/(2)x^3 - (1)/(2)x^2 - x$], [$y = (1)/(2)x^3 + (1)/(2)x^2 - 3 x$], [$y = (1)/(4)x^3 - x$], [$y = (1)/(4)x^3 + (1)/(2)x^2 - 2 x$], cols: 1)
+  #choices([#mi(`y = \frac{1}{2}x^{3} - \frac{1}{2}x^{2} - x`)], [#mi(`y = \frac{1}{2}x^{3} + \frac{1}{2}x^{2} - 3x`)], [#mi(`y = \frac{1}{4}x^{3} - x`)], [#mi(`y = \frac{1}{4}x^{3} + \frac{1}{2}x^{2} - 2x`)], cols: 1)
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-抛物线 $y^(2)=4 x$ 的准线方程为#blank(){}.
-$x=-1$
-抛物线标准方程为 $y^2=4 p x$，与 $y^2=4 x$ 比较得 $p=1$. 其准线方程为 $x=-p$，所以准线方程为 $x=-1$.
+抛物线 #mi(`y^{2}=4x`) 的准线方程为\underline{\hspace{2.5em}}.
+
+#mi(`x=-1`)
+
+抛物线标准方程为 #mi(`y^{2}=4px`)，与 #mi(`y^{2}=4x`) 比较得 #mi(`p=1`). 其准线方程为 #mi(`x=-p`)，所以准线方程为 #mi(`x=-1`).
 ]
 
 #problem(12)[
-已知 $4^(a)=2$，$\l g x=a$，则 $x=$#blank(){}.
-$sqrt(10)$
-由 $4^a=2$ 得 $2^(2 a)=2^1$，从而 $a=(1)/(2)$. 又 $\l g x=a$，所以
+已知 #mi(`4^{a}=2`)，#mi(`\lg x=a`)，则 #mi(`x=`)\underline{\hspace{2.5em}}.
 
-$ x=10^a=10^((1)/(2))=sqrt(10) $
+#mi(`\sqrt{10}`)
+
+由 #mi(`4^{a}=2`) 得 #mi(`2^{2a}=2^{1}`)，从而 #mi(`a=\frac{1}{2}`). 又 #mi(`\lg x=a`)，所以
+
+
+#align(center)[#mitex(`
+x=10^{a}=10^{\frac{1}{2}}=\sqrt{10}
+`)]
 ]
 
 #problem(13)[
-设 $0 < theta < (pi)/(2)$，向量 $bold(a)= ( sin 2 theta , cos theta )$，$bold(b)= (1, - cos theta )$，若 $bold(a) dot bold(b)= 0$，则 $tan theta =$#blank(){}.
-$(1)/(2)$
-由向量数量积为零，得 $bold(a)\c d o t b o l d(b)= sin 2 theta - cos ""^2 theta =0$. 利用 $sin 2 theta =2 sin theta cos theta$，有 $cos theta (2 sin theta - cos theta )=0$. 因为 $0< theta <(pi)/(2)$，所以 $cos theta >0$，从而 $2 sin theta = cos theta$，即 $tan theta =(1)/(2)$.
+设 #mi(`0 < \theta < \frac{\pi}{2}`)，向量 #mi(`\mathbf{a}= (\sin 2\theta, \cos \theta)`)，#mi(`\mathbf{b}= (1, -\cos \theta)`)，若 #mi(`\mathbf{a}\cdot \mathbf{b}= 0`)，则 #mi(`\tan \theta =`)\underline{\hspace{2.5em}}.
+
+#mi(`\frac{1}{2}`)
+
+由向量数量积为零，得 #mi(`\mathbf{a}\cdot\mathbf{b}=\sin 2\theta-\cos^{2}\theta=0`). 利用 #mi(`\sin 2\theta=2\sin\theta\cos\theta`)，有 #mi(`\cos\theta(2\sin\theta-\cos\theta)=0`). 因为 #mi(`0<\theta<\frac{\pi}{2}`)，所以 #mi(`\cos\theta>0`)，从而 #mi(`2\sin\theta=\cos\theta`)，即 #mi(`\tan\theta=\frac{1}{2}`).
 ]
 
 #problem(14)[
-已知 $f(x) = (x)/(1 + x)$，$x >= 0$，若 $f_1(x) = f(x)$，$f_(n+1)(x) = f(f_n(x))$，$n in bold(N)_+$，则 $f_(2014)(x)$ 的表达式为#blank(){}.
-$(x)/(2014 x+1)$
-先证明 $f_n(x)=(x)/(1+n x)$. 由于 $x >= 0$ 且 $n\i n b o l d(N)_+$，有 $1+n x>0$，所以各步分式均有意义. 当 $n=1$ 时，$f_1(x)=f(x)=(x)/(1+x)$，结论成立. 若 $f_n(x)=(x)/(1+n x)$，则
+已知 #mi(`f(x) = \frac{x}{1 + x}`)，#mi(`x \ge 0`)，若 #mi(`f_{1}(x) = f(x)`)，#mi(`f_{n+1}(x) = f(f_{n}(x))`)，#mi(`n \in \mathbf{N}_{+}`)，则 #mi(`f_{2014}(x)`) 的表达式为\underline{\hspace{2.5em}}.
 
-$ f_(n+1)(x)=f((x)/(1+n x)) =((x)/(1+n x))/(1+(x)/(1+n x))=(x)/(1+(n+1)x) $
+#mi(`\frac{x}{2014x+1}`)
 
-由数学归纳法，$f_n(x)=(x)/(1+n x)$ 对一切 $n\i n b o l d(N)_+$ 成立. 因此
+先证明 #mi(`f_{n}(x)=\frac{x}{1+nx}`). 由于 #mi(`x\geqslant0`) 且 #mi(`n\in\mathbf{N}_{+}`)，有 #mi(`1+nx>0`)，所以各步分式均有意义. 当 #mi(`n=1`) 时，#mi(`f_{1}(x)=f(x)=\frac{x}{1+x}`)，结论成立. 若 #mi(`f_{n}(x)=\frac{x}{1+nx}`)，则
 
-$ f_(2014)(x)=(x)/(1+2014 x)=(x)/(2014 x+1) $
+
+#align(center)[#mitex(`
+f_{n+1}(x)=f\left(\frac{x}{1+nx}\right)  =\frac{\frac{x}{1+nx}}{1+\frac{x}{1+nx}}=\frac{x}{1+(n+1)x}
+`)]
+
+
+由数学归纳法，#mi(`f_{n}(x)=\frac{x}{1+nx}`) 对一切 #mi(`n\in\mathbf{N}_{+}`) 成立. 因此
+
+
+#align(center)[#mitex(`
+f_{2014}(x)=\frac{x}{1+2014x}=\frac{x}{2014x+1}
+`)]
 ]
 
 #part-header("选考题")
 
 #problem(15)[
-设 $a$，$b$，$m$，$n in RR$，且 $a^2 + b^2 = 5$，$m a + n b = 5$，则 $sqrt(m^(2) + n^(2))$ 的最小值为#blank(){}.
-$sqrt(5)$
+设 #mi(`a`)，#mi(`b`)，#mi(`m`)，#mi(`n \in \mathbb{R}`)，且 #mi(`a^{2} + b^{2} = 5`)，#mi(`ma + nb = 5`)，则 #mi(`\sqrt{m^{2}+ n^{2}}`) 的最小值为\underline{\hspace{2.5em}}.
+
+#mi(`\sqrt{5}`)
+
 由柯西不等式，
 
-$ 5=m a+n b\l e q s l a n t s q r t(m^2+n^2)sqrt(a^2+b^2)=sqrt(5)sqrt(m^2+n^2) $
 
-所以 $sqrt(m^2+n^2)\g e q s l a n t s q r t(5)$. 当 $m=a$，$n=b$ 时，题设两式均成立，且 $sqrt(m^2+n^2)=sqrt(5)$，故最小值为 $sqrt(5)$.
+#align(center)[#mitex(`
+5=ma+nb\le\sqrt{m^{2}+n^{2}}\sqrt{a^{2}+b^{2}}=\sqrt{5}\sqrt{m^{2}+n^{2}}
+`)]
+
+
+所以 #mi(`\sqrt{m^{2}+n^{2}}\ge\sqrt{5}`). 当 #mi(`m=a`)，#mi(`n=b`) 时，题设两式均成立，且 #mi(`\sqrt{m^{2}+n^{2}}=\sqrt{5}`)，故最小值为 #mi(`\sqrt{5}`).
 ]
 
 #problem(16)[
-如图，$triangle A B C$ 中，$B C = 6$，以 $B C$ 为直径的半圆分别交 $A B$，$A C$ 于点 $E$，$F$，若 $A C = 2 A E$，则 $E F =\f i l l i n b l a n k{}$.
+如图，#mi(`\triangle ABC`) 中，#mi(`BC = 6`)，以 #mi(`BC`) 为直径的半圆分别交 #mi(`AB`)，#mi(`AC`) 于点 #mi(`E`)，#mi(`F`)，若 #mi(`AC = 2AE`)，则 #mi(`EF =\underline{\hspace{2.5em}}{}`).
 
 
-#align(center)[#image("/papers/2014/img/shaanxi_liberal/q15_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2014/img/shaanxi_liberal/q15_fig1.png", width: 28%)]
 
-$3$
-因为 $E$，$F$ 在以 $B C$ 为直径的圆上，所以 $angle B E C= angle B F C=90^ degree$. 设 $A E=t$，则 $A C=2 t$. 在直角三角形 $A E C$ 中，$cos A=(A E)/(A C)=(1)/(2)$，所以 $A=60^ degree$.
-由点 $A$ 关于该圆的幂，
 
-$ A E dot A B=A F dot A C $
+#mi(`3`)
 
-代入 $A C=2 A E$ 得 $A B=2 A F$，所以 $A F=(1)/(2)A B$. 取 $A$ 为原点，令 $A B$ 在 $x$ 轴正向，设 $A B=s$. 则 $B=(s,0)$，$C=(t,sqrt(3)t)$，$E=(t,0)$，$F=((s)/(4),(sqrt(3)s)/(4))$.
+因为 #mi(`E`)，#mi(`F`) 在以 #mi(`BC`) 为直径的圆上，所以 #mi(`\angle BEC=\angle BFC=90^{\circ}`). 设 #mi(`AE=t`)，则 #mi(`AC=2t`). 在直角三角形 #mi(`AEC`) 中，#mi(`\cos A=\frac{AE}{AC}=\frac{1}{2}`)，所以 #mi(`A=60^{\circ}`).
+
+由点 #mi(`A`) 关于该圆的幂，
+
+
+#align(center)[#mitex(`
+AE\cdot AB=AF\cdot AC
+`)]
+
+
+代入 #mi(`AC=2AE`) 得 #mi(`AB=2AF`)，所以 #mi(`AF=\frac{1}{2}AB`). 取 #mi(`A`) 为原点，令 #mi(`AB`) 在 #mi(`x`) 轴正向，设 #mi(`AB=s`). 则 #mi(`B=(s,0)`)，#mi(`C=(t,\sqrt{3}t)`)，#mi(`E=(t,0)`)，#mi(`F=\left(\frac{s}{4},\frac{\sqrt{3}s}{4}\right)`).
+
 于是
 
-$ E F^2=((s)/(4)-t)^2+((sqrt(3)s)/(4))^2 =(1)/(4)(s^2+4 t^2-2 s t)=(1)/(4)B C^2=9 $
 
-因为 $E F>0$，所以 $E F=3$.
+#align(center)[#mitex(`
+EF^{2}=\left(\frac{s}{4}-t\right)^{2}+\left(\frac{\sqrt{3}s}{4}\right)^{2}  =\frac{1}{4}(s^{2}+4t^{2}-2st)=\frac{1}{4}BC^{2}=9
+`)]
+
+
+因为 #mi(`EF>0`)，所以 #mi(`EF=3`).
 ]
 
 #problem(17)[
-在极坐标系中，点 $(2, (pi)/(6))$ 到直线 $rho sin ( theta - (pi)/(6)) = 1$ 的距离是#blank(){}.
-$1$
-由极坐标与直角坐标的关系 $x= rho cos theta$，$y= rho sin theta$，直线方程化为 $rho ( sin theta cos (pi)/(6)- cos theta sin (pi)/(6))=1$，即 $(sqrt(3))/(2)y-(1)/(2)x=1$，从而 $sqrt(3)y-x=2$.
-点 $(2,(pi)/(6))$ 的直角坐标为 $(sqrt(3),1)$. 因此点到直线 $x-sqrt(3)y+2=0$ 的距离为 $d=(|sqrt(3)-sqrt(3)+2|)/(sqrt(1+3))=1$.
+在极坐标系中，点 #mi(`\left(2, \frac{\pi}{6}\right)`) 到直线 #mi(`\rho \sin \left(\theta - \frac{\pi}{6}\right) = 1`) 的距离是\underline{\hspace{2.5em}}.
+
+#mi(`1`)
+
+由极坐标与直角坐标的关系 #mi(`x=\rho\cos\theta`)，#mi(`y=\rho\sin\theta`)，直线方程化为 #mi(`\rho\left(\sin\theta\cos\frac{\pi}{6}-\cos\theta\sin\frac{\pi}{6}\right)=1`)，即 #mi(`\frac{\sqrt{3}}{2}y-\frac{1}{2}x=1`)，从而 #mi(`\sqrt{3}y-x=2`).
+
+点 #mi(`\left(2,\frac{\pi}{6}\right)`) 的直角坐标为 #mi(`(\sqrt{3},1)`). 因此点到直线 #mi(`x-\sqrt{3}y+2=0`) 的距离为 #mi(`d=\frac{|\sqrt{3}-\sqrt{3}+2|}{\sqrt{1+3}}=1`).
 ]
 
 #part-header("解答题")
 
 #problem(18)[
-$triangle A B C$ 的内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$.
+#mi(`\triangle ABC`) 的内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对的边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`).
 
 
-+ (1) 若 $a$，$b$，$c$ 成等差数列，证明：$sin A + sin C = 2 sin (A + C)$；
-+ (2) 若 $a$，$b$，$c$ 成等比数列，且 $c = 2 a$，求 $cos B$ 的值.
++ (1) 
 
 
-+ (1) 由正弦定理，存在 $k>0$ 使 $a=k sin A$，$b=k sin B$，$c=k sin C$. 因为 $a$，$b$，$c$ 成等差数列，所以 $a+c=2 b$，从而 $sin A+ sin C=2 sin B$. 又 $A+B+C= pi$，故 $sin B= sin (A+C)$，所以 $sin A+ sin C=2 sin (A+C)$.
-+ (2) 因为 $a$，$b$，$c$ 为三角形的边，均为正数. 设等比数列公比为 $q>0$，则 $b=a q$，$c=a q^2$. 由 $c=2 a$ 得 $q^2=2$，所以 $b=sqrt(2)a$，$c=2 a$. 在三角形 $A B C$ 中对角 $B$ 使用余弦定理，$b^2=a^2+c^2-2 a c cos B$. 代入边长关系得 $2 a^2=a^2+4 a^2-4 a^2 cos B$，所以 $cos B=(3)/(4)$.
+
+
++ (1)
 ]
 
 #problem(19)[
-四面体 $A B C D$ 及其三视图如图所示，过棱 $A B$ 的中点 $E$ 作平行于 $A D$，$B C$ 的平面分别交四面体的棱 $B D$，$D C$，$C A$ 于点 $F$，$G$，$H$.
-
-+ (1) 求四面体 $A B C D$ 的体积；
-+ (2) 证明：四边形 $E F G H$ 是矩形.
+四面体 #mi(`ABCD`) 及其三视图如图所示，过棱 #mi(`AB`) 的中点 #mi(`E`) 作平行于 #mi(`AD`)，#mi(`BC`) 的平面分别交四面体的棱 #mi(`BD`)，#mi(`DC`)，#mi(`CA`) 于点 #mi(`F`)，#mi(`G`)，#mi(`H`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2014/img/shaanxi_liberal/q17_fig1.png", width: 55%)]
 
 
-+ (1) 由三视图可知，$A D bot B D$，$A D bot D C$，$B D bot D C$，且 $A D=1$，$B D=D C=2$. 因为 $B D$、$D C$ 是平面 $B D C$ 内相交的两条直线，所以直线 $A D$ 垂直于平面 $B D C$. 因而以三角形 $B D C$ 为底，$A D$ 为高，四面体体积为
 
-$ V=(1)/(3) dot (1)/(2)B D dot D C dot A D =(1)/(3) dot (1)/(2) dot 2 dot 2 dot 1 =(2)/(3) $
-+ (2) 平面 $E F G H$ 平行于 $A D$ 和 $B C$. 在三角形 $A B D$ 中，过 $E$ 的截线 $E F parallel A D$，且 $E$ 为 $A B$ 的中点，所以 $F$ 为 $B D$ 的中点. 在三角形 $A B C$ 中，截线 $E H parallel B C$，所以 $H$ 为 $A C$ 的中点.
+#align(center)[#image("/papers/2014/img/shaanxi_liberal/q17_fig1.png", width: 28%)]
 
-平面 $B D C$ 与平面 $E F G H$ 的交线为 $F G$，且 $F G parallel B C$. 由三角形 $B D C$ 的中位线定理，$G$ 为 $D C$ 的中点. 又在三角形 $A D C$ 中，$H$，$G$ 分别为 $A C$，$D C$ 的中点，所以 $H G parallel A D$. 因此 $E F parallel H G$，$E H parallel F G$，四边形 $E F G H$ 为平行四边形.
 
-由 $A D bot B C$，且 $E F parallel A D$，$F G parallel B C$，得 $E F bot F G$. 该平行四边形有一个直角，所以四边形 $E F G H$ 是矩形.
+
++ (1)
 ]
 
 #problem(20)[
-在直角坐标系 $x O y$ 中，已知点 $A(1,1)$，$B(2,3)$，$C(3,2)$. 点 $P(x,y)$ 在 $triangle A B C$ 三边围成的区域（含边界）上，且 $arrow(O P)= m a r r o w(A B)+ n a r r o w(A C)$ （$m$，$n in RR$）.
+在直角坐标系 #mi(`xOy`) 中，已知点 #mi(`A(1,1)`)，#mi(`B(2,3)`)，#mi(`C(3,2)`). 点 #mi(`P(x,y)`) 在 #mi(`\triangle ABC`) 三边围成的区域（含边界）上，且 #mi(`\overrightarrow{OP}= m\overrightarrow{AB}+ n\overrightarrow{AC}`) （#mi(`m`)，#mi(`n \in \mathbb{R}`)）.
 
 
-+ (1) 若 $m = n = (2)/(3)$，求 $|arrow(O P)|$.
-+ (2) 用 $x$，$y$ 表示 $m - n$，并求 $m - n$ 的最大值.
++ (1) 
 
 
-+ (1) $arrow(A B)=(1,2)$，$arrow(A C)=(2,1)$. 当 $m=n=(2)/(3)$ 时，
 
-$ arrow(O P)=(2)/(3)(1,2)+(2)/(3)(2,1)=(2,2) $
 
-所以 $|arrow(O P)|=sqrt(2^2+2^2)=2 sqrt(2)$.
-+ (2) 由
-
-$ (x,y)=m(1,2)+n(2,1)=(m+2 n,2 m+n) $
-
-两式相减得 $m-n=y-x$. 设 $P$ 在三角形 $A B C$ 内的重心坐标为 $P= alpha A+ beta B+ gamma C$，其中 $alpha + beta + gamma =1$，且 $alpha$，$beta$，$gamma >= 0$. 在三个顶点处，$y-x$ 的值分别为 $0$，$1$，$-1$，所以
-
-$ m-n=y-x=0 alpha +1 beta -1 gamma <= 1 $
-
-当 $P=B$ 时取等号，故 $m-n$ 的最大值为 $1$.
++ (1)
 ]
 
 #problem(21)[
 某保险公司利用简单随机抽样方法，对投保车辆进行抽样，样本车辆中每辆车的赔付结果统计如下：
 
-\begin{center}
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{c|ccccc}
 \hline
+
 赔付金额（元） & 0 & 1000 & 2000 & 3000 & 4000 \\
+
 \hline
+
 车辆数（辆） & 500 & 130 & 100 & 150 & 120 \\
+
 \hline
-\end{tabular}
-\end{center}
 
 
-+ (1) 若每辆车的投保金额均为 2800 元，估计赔付金额大于投保金额的概率；
-+ (2) 在样本车辆中，车主是新司机的占 $10\%$，在赔付金额为 4000 元的样本车辆中，车主是新司机的占 $20\%$. 估计在已投保车辆中，新司机获赔金额为 4000 元的概率.
++ (1) 
 
 
-+ (1) 样本总车辆数为 $500+130+100+150+120=1000$. 赔付金额大于 $2800$ 元的车辆数为 $150+120=270$，所以估计概率为
 
-$ (270)/(1000)=0.27 $
-+ (2) 样本中新司机车辆数为 $0.1 times 1000 =100$ 辆；在赔付 $4000$ 元的 $120$ 辆车中，新司机车辆数为 $0.2 times 120 =24$ 辆. 因此在新司机中获赔 $4000$ 元的概率估计为
 
-$ (24)/(100)=0.24 $
++ (1)
 ]
 
 #problem(22)[
-已知椭圆 $(x^2)/(a^2)+ (y^2)/(b^2)= 1$ （$a > b > 0$）经过点 $(0, sqrt(3))$，离心率为 $(1)/(2)$，左右焦点分别为 $F_1(-c, 0)$，$F_2(c, 0)$.
+已知椭圆 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`) （#mi(`a > b > 0`)）经过点 #mi(`(0, \sqrt{3})`)，离心率为 #mi(`\frac{1}{2}`)，左右焦点分别为 #mi(`F_{1}(-c, 0)`)，#mi(`F_{2}(c, 0)`).
 
 
-+ (1) 求椭圆的方程.
-+ (2) 若直线 $l: y = -(1)/(2)x + m$ 与椭圆交于 $A$，$B$ 两点，与以 $F_(1)F_(2)$ 为直径的圆交于 $C$，$D$ 两点，且满足 $(|A B|)/(|C D|)= (5 sqrt(3))/(4)$，求直线 $l$ 的方程.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2014/img/shaanxi_liberal/q20_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2014/img/shaanxi_liberal/q20_fig1.png", width: 28%)]
 
 
-+ (1) 因为椭圆经过 $(0,sqrt(3))$，所以 $(3)/(b^2)=1$，即 $b^2=3$. 又离心率 $e=(c)/(a)=(1)/(2)$，且 $c^2=a^2-b^2$，故 $(a^2)/(4)=a^2-3$，即 $a^2=4$.
-因此椭圆方程为
 
-$ (x^2)/(4)+(y^2)/(3)=1 $
-+ (2) 以 $y=-(1)/(2)x+m$ 代入椭圆方程，得
-
-$ (x^2)/(4)+((-(1)/(2)x+m)^2)/(3)=1 $
-
-即
-
-$ x^2-m x+m^2-3=0 $
-
-设两交点的横坐标为 $x_1$，$x_2$，则
-$x_1+x_2=m$，$x_(1) x_2=m^2-3$，$(x_1-x_2)^2=3(4-m^2)$.
-所以弦 $A B$ 的长度为
-
-$ |A B|=sqrt(1+(-(1)/(2))^2)|x_1-x_2|=\f r a c{sqrt(15)}2 sqrt(4-m^2) $
-
-
-由 $c^2=a^2-b^2=1$，以 $F_(1) F_2$ 为直径的圆为 $x^2+y^2=1$. 直线 $l$ 到原点的距离为 $d=(2|m|)/(sqrt(5))$，故弦 $C D$ 的长度为
-
-$ |C D|=2 sqrt(1-d^2)=(2)/(sqrt(5))sqrt(5-4 m^2) $
-
-由题设，
-
-$ (|A B|)/(|C D|)=(5 sqrt(3))/(4)sqrt((4-m^2)/(5-4 m^2))=(5 sqrt(3))/(4) $
-
-由于 $A$、$B$ 和 $C$、$D$ 均为两个交点，需有 $4-m^2>0$ 且 $5-4 m^2>0$. 从而 $4-m^2=5-4 m^2$，即 $m^2=(1)/(3)$，所得两个值均满足上述相交条件，故
-
-$ m= +- (sqrt(3))/(3) $
-
-所求直线为 $y=-(1)/(2)x+(sqrt(3))/(3)$ 或 $y=-(1)/(2)x-(sqrt(3))/(3)$.
++ (1)
 ]
 
 #problem(23)[
-设函数 $f(x) = ln x + (m)/(x)$，$m in RR$.
+设函数 #mi(`f(x) = \ln x + \frac{m}{x}`)，#mi(`m \in \mathbb{R}`).
 
 
-+ (1) 当 $m = e$（$e$ 为自然对数的底数）时，求 $f(x)$ 的极小值；
-+ (2) 讨论函数 $g(x) = f'(x) - (x)/(3)$ 零点的个数；
-+ (3) 若对任意 $b > a > 0$，$(f(b) - f(a))/(b - a)< 1$ 恒成立，求 $m$ 的取值范围.
++ (1) 
++ (2) 
 
 
-+ (1) 当 $m= e$ 时，$x>0$，且
 
-$ f'(x)=(1)/(x)-(e)/(x^2)=(x- e)/(x^2) $
 
-因此 $f'(x)<0$ 在 $(0, e )$ 上成立，$f'(x)>0$ 在 $( e ,+ oo )$ 上成立，故 $x= e$ 处取得极小值. 其值为
-
-$ f( e )= ln e +(e)/(e)=1+1=2 $
-+ (2) $x>0$ 时
-
-$ g(x)=(1)/(x)-(m)/(x^2)-(x)/(3) $
-
-由于 $3 x^2>0$，$g(x)=0$ 等价于
-
-$ m= phi.alt (x):=x-(x^3)/(3) $
-
-又
-
-$ phi.alt '(x)=1-x^2 $
-
-所以 $phi.alt$ 在 $(0,1)$ 上递增，在 $(1,+ oo )$ 上递减，且 $phi.alt (0^+)=0$，$phi.alt (1)=(2)/(3)$，$phi.alt (x) -> - oo$（$x -> + oo$）. 因此，当 $m>(2)/(3)$ 时有 $0$ 个零点；当 $m=(2)/(3)$ 或 $m <= 0$ 时有 $1$ 个零点；当 $0<m<(2)/(3)$ 时有 $2$ 个零点.
-+ (3) 令 $h(x)=f(x)-x$. 题设不等式等价于对任意 $b>a>0$ 有 $h(b)<h(a)$，即 $h$ 在 $(0,+ oo )$ 上严格递减. 求导得
-
-$ h'(x)=(1)/(x)-(m)/(x^2)-1=-(x^2-x+m)/(x^2) $
-
-当 $m >= (1)/(4)$ 时，
-
-$ x^2-x+m=(x-(1)/(2))^2+m-(1)/(4) >= 0 $
-
-所以 $h'(x) <= 0$，且至多在一个点取零. 对任意 $b>a>0$，$h(b)-h(a)=\i n t_a^b h'(x) \m a t h r m d x<0$，故 $h$ 严格递减，题设成立.
-
-当 $m<(1)/(4)$ 时，$x^2-x+m$ 在 $x=(1)/(2)$ 处为负，故在该点附近 $h'(x)>0$，可以取 $b>a>0$ 使 $h(b)>h(a)$，题设不成立. 因此
-
-$ m in [(1)/(4),+ oo ) $
++ (1) 
++ (2)
 ]
 

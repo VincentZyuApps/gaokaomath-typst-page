@@ -45,7 +45,7 @@
 
 #problem(4)[
 为得到函数 #mi(`y=9^{x}`) 的图象，只需把函数 #mi(`y=3^{x}`) 的图象上的所有点
-  #choices([#mi(`x`) 变成原来的 #mi(`\dfrac{1}{2}`) 倍，#mi(`y`) 不变], [#mi(`x`) 变成原来的 #mi(`2`) 倍，#mi(`y`) 不变], [#mi(`y`) 变成原来的 #mi(`\dfrac{1}{3}`) 倍，#mi(`x`) 不变], [#mi(`y`) 变成原来的 #mi(`3`) 倍，#mi(`x`) 不变], cols: 2)
+  #choices([#mi(`x`) 变成原来的 #mi(`\dfrac{1}{2}`) 倍，#mi(`y`) 不变], [#mi(`x`) 变成原来的 #mi(`2`) 倍，#mi(`y`) 不变], [#mi(`y`) 变成原来的 #mi(`\dfrac{1}{3}`) 倍，#mi(`x`) 不变], [#mi(`y`) 变成原来的 #mi(`3`) 倍，#mi(`x`) 不变], cols: 1)
 ]
 
 #answer([A])
@@ -56,7 +56,7 @@
 
 #problem(5)[
 已知 #mi(`\{a_{n}\}`) 是公差不为 0 的等差数列，#mi(`a_{1}=-2`)，若 #mi(`a_{3}`)，#mi(`a_{4}`)，#mi(`a_{6}`) 成等比数列，则 #mi(`a_{10}=`)（ ）
-  #choices([#mi(`-20`)], [#mi(`-18`)], [16], [18], cols: 2)
+  #choices([#mi(`-20`)], [#mi(`-18`)], [16], [18], cols: 4)
 ]
 
 #answer([C])
@@ -67,7 +67,7 @@
 
 #problem(6)[
 已知 #mi(`a>0`)，#mi(`b>0`)，则（ ）
-  #choices([#mi(`a^{2}+b^{2}>2ab`)], [#mi(`\dfrac{1}{a}+\dfrac{1}{b}\ge \dfrac{2}{\sqrt{ab}}`)], [#mi(`a+b>\sqrt{ab}`)], [#mi(`\dfrac{1}{a}+\dfrac{1}{b}\le \dfrac{2}{\sqrt{ab}}`)], cols: 2)
+  #choices([#mi(`a^{2}+b^{2}>2ab`)], [#mi(`\dfrac{1}{a}+\dfrac{1}{b}\ge \dfrac{2}{\sqrt{ab}}`)], [#mi(`a+b>\sqrt{ab}`)], [#mi(`\dfrac{1}{a}+\dfrac{1}{b}\le \dfrac{2}{\sqrt{ab}}`)], cols: 1)
 ]
 
 #answer([C])
@@ -84,7 +84,7 @@
 
 #problem(7)[
 已知函数 #mi(`f(x)`) 的定义域为 #mi(`D`)，则“函数 #mi(`f(x)`) 的值域为 #mi(`\mathbb{R}`)”是“对任意 #mi(`M\in\mathbb{R}`)，存在 #mi(`x_{0}\in D`) 使得 #mi(`|f(x_{0})|>M`)”的（ ）
-  #choices([充分不必要条件], [必要不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 2)
+  #choices([充分不必要条件], [必要不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A])
@@ -95,7 +95,7 @@
 
 #problem(8)[
 设函数 #mi(`f(x)=\sin(\omega x)+\cos(\omega x)`)（#mi(`\omega>0`)），若 #mi(`f(x+\pi)=f(x)`) 恒成立，且 #mi(`f(x)`) 在 #mi(`\left[0,\frac{\pi}{4}\right]`) 上有零点，则 #mi(`\omega`) 的最小值为（ ）
-  #choices([8], [6], [4], [3], cols: 2)
+  #choices([8], [6], [4], [3], cols: 4)
 ]
 
 #answer([C])
@@ -112,7 +112,7 @@
 
 #problem(9)[
 在一定条件下，某大模型训练 #mi(`N`) 个单位的数据量所需时间 #mi(`T=k\log_{2} N`)（单位：小时）. 已知数据量从 #mi(`10^{6}`) 增加到 #mi(`1.024\times10^{9}`) 时增加 #mi(`20`) 小时；当数据量从 #mi(`1.024\times10^{9}`) 增加到 #mi(`4.096\times10^{9}`) 时，训练时间增加（ ）
-  #choices([2], [4], [20], [40], cols: 2)
+  #choices([2], [4], [20], [40], cols: 4)
 ]
 
 #answer([B])
@@ -139,7 +139,7 @@ T_{3}-T_{2}=k\log_{2} \frac{4.096\times10^{9}}{1.024\times10^{9}}=k\log_{2} 4=2k
 
 #problem(10)[
 已知平面直角坐标系 #mi(`xOy`) 中，#mi(`|\overrightarrow{OA}|=|\overrightarrow{OB}|=\sqrt{2}`)，#mi(`|\overrightarrow{AB}|=2`)，设 #mi(`C(3,4)`)，则 #mi(`|2\overrightarrow{CA}+\overrightarrow{AB}|`) 的取值范围是（ ）
-  #choices([#mi(`[6,14]`)], [#mi(`[6,12]`)], [#mi(`[8,14]`)], [#mi(`[8,12]`)], cols: 2)
+  #choices([#mi(`[6,14]`)], [#mi(`[6,12]`)], [#mi(`[8,14]`)], [#mi(`[8,12]`)], cols: 4)
 ]
 
 #answer([D])
@@ -187,8 +187,10 @@ T_{3}-T_{2}=k\log_{2} \frac{4.096\times10^{9}}{1.024\times10^{9}}=k\log_{2} 4=2k
 #problem(14)[
 某科技兴趣小组通过 3D 打印机打印的一个零件可以抽象为如图所示的多面体，其中 #mi(`ABCDEF`) 是一个平行六边形，平面 #mi(`ARF\perp`) 平面 #mi(`ABC`)，平面 #mi(`TCD\perp`) 平面 #mi(`ABC`)，#mi(`AB\perp BC`)，#mi(`AB\parallel RS\parallel EF\parallel CD`)，#mi(`AF\parallel ST\parallel BC\parallel ED`). 若 #mi(`AB=BC=8`)，#mi(`AF=CD=4`)，#mi(`AR=RF=TC=TD=\dfrac{5}{2}`)，则该多面体的体积为（ ）
 
-[max width=0.48\linewidth]img/2025/beijing/q14_fig1.png
-  #choices([60], [90], [120], [150], cols: 2)
+
+#align(center)[#image("/papers/2025/img/beijing/q14_fig1.png", width: 28%)]
+
+  #choices([60], [90], [120], [150], cols: 4)
 ]
 
 #answer([A])
@@ -221,7 +223,7 @@ RS=MU=\frac{1}{2}\left( BE+AF \right)=\frac{1}{2}\left( 12+8 \right)=10
 
 #problem(15)[
 关于定义域为 #mi(`\mathbb{R}`) 的函数 #mi(`f(x)`)，以下说法正确的有（ ）
-  #choices([存在在 #mi(`\mathbb{R}`) 上单调递增的函数 #mi(`f(x)`)，使 #mi(`f(x)+f(2x)=-x`) 恒成立], [存在在 #mi(`\mathbb{R}`) 上单调递减的函数 #mi(`f(x)`)，使 #mi(`f(x)+f(2x)=-x`) 恒成立], [存在且有无穷多个函数 #mi(`f(x)`)，满足 #mi(`f(x)+f(-x)=\cos x`)], [存在且有无穷多个函数 #mi(`f(x)`)，满足 #mi(`f(x)-f(-x)=\cos x`)], cols: 2)
+  #choices([存在在 #mi(`\mathbb{R}`) 上单调递增的函数 #mi(`f(x)`)，使 #mi(`f(x)+f(2x)=-x`) 恒成立], [存在在 #mi(`\mathbb{R}`) 上单调递减的函数 #mi(`f(x)`)，使 #mi(`f(x)+f(2x)=-x`) 恒成立], [存在且有无穷多个函数 #mi(`f(x)`)，满足 #mi(`f(x)+f(-x)=\cos x`)], [存在且有无穷多个函数 #mi(`f(x)`)，满足 #mi(`f(x)-f(-x)=\cos x`)], cols: 1)
 ]
 
 #solution[

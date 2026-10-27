@@ -50,7 +50,9 @@
 
 
 
-[float=inline,width=4.2cm]img/1977/shanxi/q3_fig1.png
+
+#align(center)[#image("/papers/1977/img/shanxi/q3_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -177,7 +179,9 @@ f'(1)=\ln1-\frac{1}{2-1}+\frac{3}{\sqrt{1+3}}=0-1+\frac{3}{2}=\frac{1}{2}
 #problem(10)[
 一水库的水闸为一等腰梯形，上底为 #mi(`8\text{ \text{米}}`)，下底为 #mi(`4\text{ \text{米}}`)，高为 #mi(`10\text{ \text{米}}`). 求当水面与上底相齐时水闸所受的压力.（已知水的比重为 #mi(`1\text{ \text{吨重}/\text{立方米}}`)）
 
-[float=inline,width=5.8cm]img/1977/shanxi/q15_fig1.png
+
+#align(center)[#image("/papers/1977/img/shanxi/q15_fig1.png", width: 28%)]
+
 ]
 
 #solution[

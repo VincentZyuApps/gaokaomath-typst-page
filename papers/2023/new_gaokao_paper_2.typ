@@ -72,7 +72,9 @@
 
 #mi(`|OK|=|OF_{1}|-|F_{1}K|=\frac{\sqrt{2}}{3}`)，故 #mi(`K\left(\frac{\sqrt{2}}{3},0\right)`). 代入 #mi(`y=x+m`) 得 #mi(`0=\frac{\sqrt{2}}{3}+m`)，所以 #mi(`m=-\frac{\sqrt{2}}{3}`). 故选 C.
 
-[max width=6.2cm]img/2023/new_gaokao_paper_2/q5_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_2/q5_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(6)[
@@ -179,7 +181,9 @@ S_{\triangle PAC}=\frac{1}{2}AC\cdot PQ=\frac{1}{2}\cdot2\sqrt{2}\cdot\sqrt{2}=2
 
 再算 #mi(`|OM|=\sqrt{3^{2}+(-2\sqrt{3})^{2}}=\sqrt{21}`)，#mi(`|ON|=\sqrt{\left(\frac{1}{3}\right)^{2}+\left(\frac{2\sqrt{3}}{3}\right)^{2}}=\frac{\sqrt{13}}{3}`)，三边不等，故 D 错. 故选 AC.
 
-[max width=6.2cm]img/2023/new_gaokao_paper_2/q9_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_2/q9_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(11)[
@@ -196,7 +200,9 @@ S_{\triangle PAC}=\frac{1}{2}AC\cdot PQ=\frac{1}{2}\cdot2\sqrt{2}\cdot\sqrt{2}=2
 
 由 #mi(`a`)，#mi(`c`) 异号且 #mi(`a`)，#mi(`b`) 同号，可知 #mi(`b`)，#mi(`c`) 异号，所以 #mi(`bc<0`)，A 错. 故选 BCD.
 
-[max width=5.4cm]img/2023/new_gaokao_paper_2/q10_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_2/q10_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(12)[
@@ -263,7 +269,9 @@ D：单次传输发送 #mi(`0`) 时，译码为 #mi(`0`) 的概率为 #mi(`1-\al
 
 而 #mi(`V_{1}=\frac{1}{3}\cdot 2^{2}\cdot 3=4`)，所以棱台体积为 #mi(`7\cdot 4=28`).
 
-[max width=5.0cm]img/2023/new_gaokao_paper_2/q14_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_2/q14_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(15)[
@@ -281,13 +289,17 @@ D：单次传输发送 #mi(`0`) 时，译码为 #mi(`0`) 的概率为 #mi(`1-\al
 
 于是 #mi(`\frac{2}{\sqrt{1+m^{2}}}=\frac{2}{\sqrt{5}}`) 或 #mi(`\frac{2}{\sqrt{1+m^{2}}}=\frac{4}{\sqrt{5}}`)，故 #mi(`m=\pm 2`) 或 #mi(`m=\pm\frac{1}{2}`).
 
-[max width=5.0cm]img/2023/new_gaokao_paper_2/q15_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_2/q15_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(16)[
 已知函数 #mi(`f(x)=\sin(\omega x+\varphi)`)，如图，#mi(`A`)，#mi(`B`) 是直线 #mi(`y=\frac{1}{2}`) 与曲线 #mi(`y=f(x)`) 的两个交点，若 #mi(`|AB|=\frac{\pi}{6}`)，则 #mi(`f(\pi)=\underline{\hspace{2.5em}}{}`).
 
-[max width=6.0cm]img/2023/new_gaokao_paper_2/q16_fig1.png
+
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_2/q16_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`-\dfrac{\sqrt{3}}{2}`)])
@@ -305,7 +317,9 @@ D：单次传输发送 #mi(`0`) 时，译码为 #mi(`0`) 的概率为 #mi(`1-\al
 
 #mi(`f(\pi)=\sin\left(4\pi-\frac{8\pi}{3}\right)=\sin\left(-\frac{2\pi}{3}\right)=-\frac{\sqrt{3}}{2}`).
 
-[max width=7.0cm]img/2023/new_gaokao_paper_2/q16_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_2/q16_solution_fig1.png", width: 28%)]
+
 ]
 
 #part-header("解答题")
@@ -357,7 +371,9 @@ D：单次传输发送 #mi(`0`) 时，译码为 #mi(`0`) 的概率为 #mi(`1-\al
 
 
 
-[max width=5.0cm]img/2023/new_gaokao_paper_2/q20_fig1.png
+
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_2/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[

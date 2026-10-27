@@ -1,8 +1,131 @@
 {
-  "title": "2006年普通高等学校招生全国统一考试",
-  "subtitle": "2006年广东卷",
   "year": "2006",
   "slug": "guangdong",
+  "title": "2006年广东卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$\\left(-\\infty, -\\frac{1}{3}\\right)$"
           ],
           "answer": "B",
-          "solution": "<p>分式有意义且分母不为零，需满足 $1-x>0$；对数有意义，需满足 $3x+1>0$. 因此定义域为</p><p>$\\left(-\\frac{1}{3},1\\right)$.</p><p>故选 B.</p>"
+          "solution": "<p>分式有意义且分母不为零，需满足 $1-x>0$；对数有意义，需满足 $3x+1>0$. 因此定义域为</p><p>$\\left(-\\frac{1}{3},1\\right)$.</p><p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +154,9 @@
             "$\\pm 2\\sqrt{2}\\mathrm{i}$"
           ],
           "answer": "D",
-          "solution": "<p>由 $z^{2}+2=0$ 得 $z^{2}=-2=2\\mathrm{i}^{2}$，所以 $z=\\pm\\sqrt{2}\\mathrm{i}$. 于是</p>\n$$\nz^{3}=z\\cdot z^{2}=-2z=\\mp2\\sqrt{2}\\mathrm{i}\n$$\n<p>故 $z^{3}=\\pm2\\sqrt{2}\\mathrm{i}$，选 D.</p>"
+          "solution": "<p>由 $z^{2}+2=0$ 得 $z^{2}=-2=2\\mathrm{i}^{2}$，所以 $z=\\pm\\sqrt{2}\\mathrm{i}$. 于是</p>\n$$\nz^{3}=z\\cdot z^{2}=-2z=\\mp2\\sqrt{2}\\mathrm{i}\n$$\n<p>故 $z^{3}=\\pm2\\sqrt{2}\\mathrm{i}$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,11 +168,13 @@
             "$y = \\left(\\frac{1}{2}\\right)^{x}$（$x \\in \\mathbb{R}$）"
           ],
           "answer": "A",
-          "solution": "对选项 A，$f(-x)=-(-x)^{3}=x^{3}=-f(x)$，所以 $f(x)=-x^{3}$ 是奇函数；又因 $x^{3}$ 在 $\\mathbb{R}$ 上递增，故 $-x^{3}$ 在 $\\mathbb{R}$ 上递减. 选项 B 中，虽然 $\\sin x$ 是奇函数，但 $0<\\frac{\\pi}{2}$ 且 $\\sin0=0<1=\\sin\\frac{\\pi}{2}$，所以它不是减函数. 选项 C 的函数 $y=x$ 在 $\\mathbb{R}$ 上递增. 选项 D 中 $f(0)=1\\ne0$，不可能是奇函数. 因此选 A."
+          "solution": "对选项 A，$f(-x)=-(-x)^{3}=x^{3}=-f(x)$，所以 $f(x)=-x^{3}$ 是奇函数；又因 $x^{3}$ 在 $\\mathbb{R}$ 上递增，故 $-x^{3}$ 在 $\\mathbb{R}$ 上递减. 选项 B 中，虽然 $\\sin x$ 是奇函数，但 $0<\\frac{\\pi}{2}$ 且 $\\sin0=0<1=\\sin\\frac{\\pi}{2}$，所以它不是减函数. 选项 C 的函数 $y=x$ 在 $\\mathbb{R}$ 上递增. 选项 D 中 $f(0)=1\\ne0$，不可能是奇函数. 因此选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
-          "body": "<p>如图所示，$D$ 是 $\\triangle ABC$ 的边 $AB$ 上的中点，则向量 $\\overrightarrow{CD}=$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图所示，$D$ 是 $\\triangle ABC$ 的边 $AB$ 上的中点，则向量 $\\overrightarrow{CD}=$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/guangdong/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$-\\overrightarrow{BC}+ \\frac{1}{2}\\overrightarrow{BA}$",
             "$-\\overrightarrow{BC}- \\frac{1}{2}\\overrightarrow{BA}$",
@@ -53,7 +182,9 @@
             "$\\overrightarrow{BC}+ \\frac{1}{2}\\overrightarrow{BA}$"
           ],
           "answer": "A",
-          "solution": "<p>因为 $D$ 是 $AB$ 的中点，所以 $\\overrightarrow{BD}=\\frac{1}{2}\\overrightarrow{BA}$. 由向量加法，</p><p>$\\overrightarrow{CD}=\\overrightarrow{CB}+\\overrightarrow{BD}=-\\overrightarrow{BC}+\\frac{1}{2}\\overrightarrow{BA}$.</p><p>故选 A.</p>"
+          "solution": "<p>因为 $D$ 是 $AB$ 的中点，所以 $\\overrightarrow{BD}=\\frac{1}{2}\\overrightarrow{BA}$. 由向量加法，</p><p>$\\overrightarrow{CD}=\\overrightarrow{CB}+\\overrightarrow{BD}=-\\overrightarrow{BC}+\\frac{1}{2}\\overrightarrow{BA}$.</p><p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +196,9 @@
             "$1$"
           ],
           "answer": "B",
-          "solution": "<p>命题一中，设经过该直线的平面与已知平面的交线为 $m$. 该直线位于前一个平面内，又与已知平面平行，因而不与 $m$ 相交，所以该直线与 $m$ 平行，命题一正确.</p><p>命题二是直线与平面垂直的判定定理，正确. 命题三中，两条分别平行于同一平面的直线未必互相平行，命题三错误. 命题四中，若一个平面内含有另一个平面的垂线，则两平面互相垂直，命题四正确.</p><p>真命题共有 $3$ 个，故选 B.</p>"
+          "solution": "<p>命题一中，设经过该直线的平面与已知平面的交线为 $m$. 该直线位于前一个平面内，又与已知平面平行，因而不与 $m$ 相交，所以该直线与 $m$ 平行，命题一正确.</p><p>命题二是直线与平面垂直的判定定理，正确. 命题三中，两条分别平行于同一平面的直线未必互相平行，命题三错误. 命题四中，若一个平面内含有另一个平面的垂线，则两平面互相垂直，命题四正确.</p><p>真命题共有 $3$ 个，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,11 +210,13 @@
             "$2$"
           ],
           "answer": "C",
-          "solution": "<p>设等差数列的首项为 $a_{1}$，公差为 $d$. 奇数项之和与偶数项之和分别为</p><p>$5(a_{1}+4d)=15$，$5(a_{1}+5d)=30$.</p><p>两式相减得 $5d=15$，所以 $d=3$. 故选 C.</p>"
+          "solution": "<p>设等差数列的首项为 $a_{1}$，公差为 $d$. 奇数项之和与偶数项之和分别为</p><p>$5(a_{1}+4d)=15$，$5(a_{1}+5d)=30$.</p><p>两式相减得 $5d=15$，所以 $d=3$. 故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
-          "body": "<p>函数 $y = f(x)$ 的反函数 $y = f^{-1}(x)$ 的图象与 $y$ 轴交于点 $P(0,2)$ （如图所示），则方程 $f(x) = 0$ 在 $[1,4]$ 上的根是 $x =$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>函数 $y = f(x)$ 的反函数 $y = f^{-1}(x)$ 的图象与 $y$ 轴交于点 $P(0,2)$ （如图所示），则方程 $f(x) = 0$ 在 $[1,4]$ 上的根是 $x =$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/guangdong/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$4$",
             "$3$",
@@ -89,7 +224,9 @@
             "$1$"
           ],
           "answer": "C",
-          "solution": "反函数图象上的点 $P(0,2)$ 表明 $f^{-1}(0)=2$. 由反函数的定义，$f(2)=0$，所以方程 $f(x)=0$ 的根为 $x=2$. 故选 C."
+          "solution": "反函数图象上的点 $P(0,2)$ 表明 $f^{-1}(0)=2$. 由反函数的定义，$f(2)=0$，所以方程 $f(x)=0$ 的根为 $x=2$. 故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +238,9 @@
             "$4$"
           ],
           "answer": "C",
-          "solution": "<p>将双曲线化为标准方程</p><p>$\\frac{x^{2}}{3}-\\frac{y^{2}}{9}=1$.</p><p>其中 $a=\\sqrt{3}$，$b=3$，焦半距</p><p>$c=\\sqrt{a^{2}+b^{2}}=2\\sqrt{3}$，</p><p>所以离心率 $e=\\frac{c}{a}=2$. 双曲线的定义给出右支上任一点 $P$ 满足 $PF$ 与 $P$ 到右准线的距离之比等于离心率 $e=2$.</p><p>故选 C.</p>"
+          "solution": "<p>将双曲线化为标准方程</p><p>$\\frac{x^{2}}{3}-\\frac{y^{2}}{9}=1$.</p><p>其中 $a=\\sqrt{3}$，$b=3$，焦半距</p><p>$c=\\sqrt{a^{2}+b^{2}}=2\\sqrt{3}$，</p><p>所以离心率 $e=\\frac{c}{a}=2$. 双曲线的定义给出右支上任一点 $P$ 满足 $PF$ 与 $P$ 到右准线的距离之比等于离心率 $e=2$.</p><p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +252,9 @@
             "$[7, 8]$"
           ],
           "answer": "D",
-          "solution": "<p>当 $3\\le s\\leqslant4$ 时，可行域的相关顶点为</p><p>$(0,0)$，$(0,s)$，$(4-s,2s-4)$，$(2,0)$. 目标函数 $z=3x+2y$ 在这些点的值分别为 $0$，$2s$，$s+4$，$6$.</p><p>由于 $3\\le s\\leqslant4$，有 $s+4\\geqslant2s$ 且 $s+4>6$，故最大值为 $s+4$，其取值范围为 $[7,8]$.</p><p>当 $4\\le s\\leqslant5$ 时，由 $y+2x\\leqslant4$ 和 $x\\geqslant0$ 可得 $x+y\\leqslant4\\le s$，约束 $x+y\\le s$ 不再起作用. 此时可行域顶点为 $(0,0)$，$(0,4)$，$(2,0)$，目标函数最大值为 $8$. 因此最大值的变化范围为 $[7,8]$，故选 D.</p>"
+          "solution": "<p>当 $3\\le s\\leqslant4$ 时，可行域的相关顶点为</p><p>$(0,0)$，$(0,s)$，$(4-s,2s-4)$，$(2,0)$. 目标函数 $z=3x+2y$ 在这些点的值分别为 $0$，$2s$，$s+4$，$6$.</p><p>由于 $3\\le s\\leqslant4$，有 $s+4\\geqslant2s$ 且 $s+4>6$，故最大值为 $s+4$，其取值范围为 $[7,8]$.</p><p>当 $4\\le s\\leqslant5$ 时，由 $y+2x\\leqslant4$ 和 $x\\geqslant0$ 可得 $x+y\\leqslant4\\le s$，约束 $x+y\\le s$ 不再起作用. 此时可行域顶点为 $(0,0)$，$(0,4)$，$(2,0)$，目标函数最大值为 $8$. 因此最大值的变化范围为 $[7,8]$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +266,9 @@
             "$(0, -4)$"
           ],
           "answer": "B",
-          "solution": "<p>由运算定义，</p><p>$(1,2)\\otimes(p,q)=(p-2q,q+2p)=(5,0)$.</p><p>因此</p>\n$$\n\\begin{cases}p-2q=5,\\\\  2p+q=0.\\end{cases}\n$$\n<p>解得 $p=1$，$q=-2$. 所以 $(1,2)\\oplus(p,q)=(1+p,2+q)=(2,0)$.</p><p>故选 B.</p>"
+          "solution": "<p>由运算定义，</p><p>$(1,2)\\otimes(p,q)=(p-2q,q+2p)=(5,0)$.</p><p>因此</p>\n$$\n\\begin{cases}p-2q=5,\\\\  2p+q=0.\\end{cases}\n$$\n<p>解得 $p=1$，$q=-2$. 所以 $(1,2)\\oplus(p,q)=(1+p,2+q)=(2,0)$.</p><p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,30 +278,38 @@
         {
           "num": 11,
           "body": "$\\displaystyle\\lim_{x\\to -2}\\left(\\frac{4}{4 - x^{2}}-\\frac{1}{2 + x}\\right) =\\underline{\\hspace{2.5em}}{}$",
-          "choices": null,
-          "answer": "$\\frac{1}{4}$",
-          "solution": "<p>当 $x\\neq\\pm2$ 时，</p>\n$$\n\\frac{4}{4-x^{2}}-\\frac{1}{2+x}=\\frac{4}{(2-x)(2+x)}-\\frac{1}{2+x}=\\frac{x+2}{(2-x)(2+x)}=\\frac{1}{2-x}\n$$\n<p>所以原极限为</p><p>$\\displaystyle\\lim_{x\\to-2}\\frac{1}{2-x}=\\frac{1}{4}$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{1}{4}\\)",
+          "solution": "<p>当 $x\\neq\\pm2$ 时，</p>\n$$\n\\frac{4}{4-x^{2}}-\\frac{1}{2+x}=\\frac{4}{(2-x)(2+x)}-\\frac{1}{2+x}=\\frac{x+2}{(2-x)(2+x)}=\\frac{1}{2-x}\n$$\n<p>所以原极限为</p><p>$\\displaystyle\\lim_{x\\to-2}\\frac{1}{2-x}=\\frac{1}{4}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "棱长为 $3$ 的正方体的顶点都在同一球面上，则该球的表面积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$27\\pi$",
-          "solution": "球心是正方体的中心，球的直径等于正方体的体对角线 $3\\sqrt{3}$，所以半径 $R=\\frac{3\\sqrt{3}}{2}$. 因此球的表面积为 $4\\pi R^{2}=4\\pi\\left(\\frac{3\\sqrt{3}}{2}\\right)^{2}=27\\pi$."
+          "choices": [],
+          "answer": "\\(27\\pi\\)",
+          "solution": "球心是正方体的中心，球的直径等于正方体的体对角线 $3\\sqrt{3}$，所以半径 $R=\\frac{3\\sqrt{3}}{2}$. 因此球的表面积为 $4\\pi R^{2}=4\\pi\\left(\\frac{3\\sqrt{3}}{2}\\right)^{2}=27\\pi$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "在 $\\left(x - \\frac{2}{x}\\right)^{11}$ 的展开式中，$x^{5}$ 的系数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-1320$",
-          "solution": "展开式的通项为 $\\mathrm{C}_{11}^{k}x^{11-k}\\left(-\\frac{2}{x}\\right)^{k}=\\mathrm{C}_{11}^{k}(-2)^{k} x^{11-2k}$. 令 $11-2k=5$，得 $k=3$. 所以 $x^{5}$ 的系数为 $\\mathrm{C}_{11}^{3}(-2)^{3}=165\\times(-8)=-1320$."
+          "choices": [],
+          "answer": "\\(-1320\\)",
+          "solution": "展开式的通项为 $\\mathrm{C}_{11}^{k}x^{11-k}\\left(-\\frac{2}{x}\\right)^{k}=\\mathrm{C}_{11}^{k}(-2)^{k} x^{11-2k}$. 令 $11-2k=5$，得 $k=3$. 所以 $x^{5}$ 的系数为 $\\mathrm{C}_{11}^{3}(-2)^{3}=165\\times(-8)=-1320$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
-          "body": "<p>在德国不莱梅举行的第48届世乒赛期间，某商店橱窗里用同样的乒乓球堆成若干堆准“正三棱锥”形的展品，其中第$1$堆只有$1$层，就一个球；第$2$，$3$，$4$，$\\cdots$堆最底层（第$1$层）分别按图示方式固定摆放，从第一层开始，每层的小球自然垒放在下一层之上，第$n$堆第$n$层就放一个乒乓球，以 $f(n)$ 表示第 $n$ 堆的乒乓球总数，则 $f(3)=\\underline{\\hspace{2.5em}}{}$；$f(n)=\\underline{\\hspace{2.5em}}{}$. （答案用 $n$ 表示）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "10；$\\dfrac{n(n+1)(n+2)}{6}$",
-          "solution": "<p>第 $n$ 堆共有 $n$ 层. 从上到下，第 $j$ 层的小球排成边长为 $j$ 的正三角形，因此该层有</p><p>$1+2+\\cdots+j=\\dfrac{j(j+1)}{2}$ 个小球. 所以</p><p>利用 $\\sum_{j=1}^{n}j=\\dfrac{n(n+1)}{2}$ 和</p><p>$\\sum_{j=1}^{n}j^{2}=\\dfrac{n(n+1)(2n+1)}{6}$，得</p>\n$$\nf(n)=\\sum_{j=1}^{n}\\frac{j(j+1)}{2}=\\frac{1}{2}\\left(\\frac{n(n+1)(2n+1)}{6}+\\frac{n(n+1)}{2}\\right)  =\\frac{n(n+1)(n+2)}{6}\n$$\n<p>特别地，</p><p>$f(3)=\\frac{3\\times4\\times5}{6}=10$.</p>"
+          "body": "<p>在德国不莱梅举行的第48届世乒赛期间，某商店橱窗里用同样的乒乓球堆成若干堆准“正三棱锥”形的展品，其中第$1$堆只有$1$层，就一个球；第$2$，$3$，$4$，$\\cdots$堆最底层（第$1$层）分别按图示方式固定摆放，从第一层开始，每层的小球自然垒放在下一层之上，第$n$堆第$n$层就放一个乒乓球，以 $f(n)$ 表示第 $n$ 堆的乒乓球总数，则 $f(3)=\\underline{\\hspace{2.5em}}{}$；$f(n)=\\underline{\\hspace{2.5em}}{}$. （答案用 $n$ 表示）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/guangdong/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "10；\\(\\dfrac{n(n+1)(n+2)}{6}\\)",
+          "solution": "<p>第 $n$ 堆共有 $n$ 层. 从上到下，第 $j$ 层的小球排成边长为 $j$ 的正三角形，因此该层有</p><p>$1+2+\\cdots+j=\\dfrac{j(j+1)}{2}$ 个小球. 所以</p><p>利用 $\\sum_{j=1}^{n}j=\\dfrac{n(n+1)}{2}$ 和</p><p>$\\sum_{j=1}^{n}j^{2}=\\dfrac{n(n+1)(2n+1)}{6}$，得</p>\n$$\nf(n)=\\sum_{j=1}^{n}\\frac{j(j+1)}{2}=\\frac{1}{2}\\left(\\frac{n(n+1)(2n+1)}{6}+\\frac{n(n+1)}{2}\\right)  =\\frac{n(n+1)(n+2)}{6}\n$$\n<p>特别地，</p><p>$f(3)=\\frac{3\\times4\\times5}{6}=10$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -168,44 +319,56 @@
         {
           "num": 15,
           "body": "<p>已知函数 $f(x) = \\sin x + \\sin \\left(x + \\frac{\\pi}{2}\\right)$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的最小正周期；</p></li><li><p>求 $f(x)$ 的最大值和最小值；</p></li><li><p>若 $f(\\alpha)=\\frac{3}{4}$，求 $\\sin 2\\alpha$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $f(x)=\\sin x+\\cos x=\\sqrt{2}\\sin\\left(x+\\frac{\\pi}{4}\\right)$，所以 $f(x)$ 的最小正周期为 $2\\pi$.</p></li><li><p>由 $-1\\le\\sin\\left(x+\\frac{\\pi}{4}\\right)\\leqslant1$，得 $-\\sqrt{2}\\le f(x)\\le\\sqrt{2}$.</p><p>因此 $f(x)$ 的最大值为 $\\sqrt{2}$，最小值为 $-\\sqrt{2}$.</p></li><li><p>由 $f(\\alpha)=\\frac{3}{4}$，得 $\\sin\\alpha+\\cos\\alpha=\\frac{3}{4}$. 两边平方，得到 $1+2\\sin\\alpha\\cos\\alpha=\\frac{9}{16}$，即 $\\sin2\\alpha=\\frac{9}{16}-1=-\\frac{7}{16}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $f(x)=\\sin x+\\cos x=\\sqrt{2}\\sin\\left(x+\\frac{\\pi}{4}\\right)$，所以 $f(x)$ 的最小正周期为 $2\\pi$.</p></li><li><p>由 $-1\\le\\sin\\left(x+\\frac{\\pi}{4}\\right)\\leqslant1$，得 $-\\sqrt{2}\\le f(x)\\le\\sqrt{2}$.</p><p>因此 $f(x)$ 的最大值为 $\\sqrt{2}$，最小值为 $-\\sqrt{2}$.</p></li><li><p>由 $f(\\alpha)=\\frac{3}{4}$，得 $\\sin\\alpha+\\cos\\alpha=\\frac{3}{4}$. 两边平方，得到 $1+2\\sin\\alpha\\cos\\alpha=\\frac{9}{16}$，即 $\\sin2\\alpha=\\frac{9}{16}-1=-\\frac{7}{16}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 16,
-          "body": "<p>某运动员射击一次所得环数 $X$ 的分布列如下：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$X$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0\\sim 6$ </td><td style=\"text-align: center; border-right: 1px solid\"> $7$ </td><td style=\"text-align: center; border-right: 1px solid\"> $8$ </td><td style=\"text-align: center; border-right: 1px solid\"> $9$ </td><td style=\"text-align: center; border-right: 1px solid\"> $10$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.2$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>现进行两次射击，以该运动员两次射击中最高环数作为他的成绩，记为 $\\xi$.</p><ol class=\"enumerate\"><li><p>求该运动员两次都命中 $7$ 环的概率；</p></li><li><p>求 $\\xi$ 的分布列；</p></li><li><p>求 $\\xi$ 的数学期望 $E(\\xi)$.</p></li></ol>",
-          "choices": null,
+          "body": "<p>某运动员射击一次所得环数 $X$ 的分布列如下：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$X$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0\\sim 6$ </td><td style=\"text-align: center; border-right: 1px solid\"> $7$ </td><td style=\"text-align: center; border-right: 1px solid\"> $8$ </td><td style=\"text-align: center; border-right: 1px solid\"> $9$ </td><td style=\"text-align: center; border-right: 1px solid\"> $10$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$P$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.2$ </td></tr></tbody></table></center><p>现进行两次射击，以该运动员两次射击中最高环数作为他的成绩，记为 $\\xi$.</p><ol class=\"enumerate\"><li><p>求该运动员两次都命中 $7$ 环的概率；</p></li><li><p>求 $\\xi$ 的分布列；</p></li><li><p>求 $\\xi$ 的数学期望 $E(\\xi)$.</p></li></ol>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>两次射击相互独立，且每次命中 $7$ 环的概率为 $0.2$，所以两次都命中 $7$ 环的概率为 $0.2^{2}=0.04$.</p></li><li><p>由 $\\xi$ 是两次射击环数的最大值，先求其不超过某值的概率：</p><p>其中 $P(\\xi=7)=P(\\xi\\leqslant7)=0.2^{2}=0.04$，$P(\\xi=8)=P(\\xi\\leqslant8)-P(\\xi\\leqslant7)=0.5^{2}-0.2^{2}=0.21$，$P(\\xi=9)=P(\\xi\\leqslant9)-P(\\xi\\leqslant8)=0.8^{2}-0.5^{2}=0.39$，$P(\\xi=10)=1-P(\\xi\\leqslant9)=1-0.8^{2}=0.36$.</p><p>所以 $\\xi$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$</td><td style=\"text-align: center\">$7$</td><td style=\"text-align: center\">$8$</td><td style=\"text-align: center\">$9$</td><td style=\"text-align: center\">$10$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$</td><td style=\"text-align: center\">$0.04$</td><td style=\"text-align: center\">$0.21$</td><td style=\"text-align: center\">$0.39$</td><td style=\"text-align: center\">$0.36$</td></tr></tbody></table></center><p></p></li><li><p>$E(\\xi)=7\\times0.04+8\\times0.21+9\\times0.39+10\\times0.36=9.07$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>两次射击相互独立，且每次命中 $7$ 环的概率为 $0.2$，所以两次都命中 $7$ 环的概率为 $0.2^{2}=0.04$.</p></li><li><p>由 $\\xi$ 是两次射击环数的最大值，先求其不超过某值的概率：</p><p>其中 $P(\\xi=7)=P(\\xi\\leqslant7)=0.2^{2}=0.04$，$P(\\xi=8)=P(\\xi\\leqslant8)-P(\\xi\\leqslant7)=0.5^{2}-0.2^{2}=0.21$，$P(\\xi=9)=P(\\xi\\leqslant9)-P(\\xi\\leqslant8)=0.8^{2}-0.5^{2}=0.39$，$P(\\xi=10)=1-P(\\xi\\leqslant9)=1-0.8^{2}=0.36$.</p><p>所以 $\\xi$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$</td><td style=\"text-align: center\">$7$</td><td style=\"text-align: center\">$8$</td><td style=\"text-align: center\">$9$</td><td style=\"text-align: center\">$10$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$P$</td><td style=\"text-align: center\">$0.04$</td><td style=\"text-align: center\">$0.21$</td><td style=\"text-align: center\">$0.39$</td><td style=\"text-align: center\">$0.36$</td></tr></tbody></table></center><p></p></li><li><p>$E(\\xi)=7\\times0.04+8\\times0.21+9\\times0.39+10\\times0.36=9.07$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图所示，$AF$，$DE$ 分别是 $\\odot O$，$\\odot O_{1}$ 的直径，$AD$ 与两圆所在的平面均垂直，$AD = 8$，$BC$ 是 $\\odot O$ 的直径，$AB = AC = 6$，$OE \\parallel AD$.</p><ol class=\"enumerate\"><li><p>求二面角 $B-AD-F$ 的大小；</p></li><li><p>求直线 $BD$ 与 $EF$ 所成的角.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图所示，$AF$，$DE$ 分别是 $\\odot O$，$\\odot O_{1}$ 的直径，$AD$ 与两圆所在的平面均垂直，$AD = 8$，$BC$ 是 $\\odot O$ 的直径，$AB = AC = 6$，$OE \\parallel AD$.</p><ol class=\"enumerate\"><li><p>求二面角 $B-AD-F$ 的大小；</p></li><li><p>求直线 $BD$ 与 $EF$ 所成的角.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/guangdong/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为 $BC$ 是直径，$\\angle BAC=90^{\\circ}$. 又 $AB=AC=6$，所以</p><p>$BC=6\\sqrt{2}$，$OA=OB=OC=OF=3\\sqrt{2}$.</p><p>建立空间直角坐标系，使下方圆所在平面为 $z=0$，并令 $r=3\\sqrt{2}$. 取</p><p>$A=(0,r,0)$，$B=(-r,0,0)$，$C=(r,0,0)$，$F=(0,-r,0)$.</p><p>由于 $AD\\perp z=0$ 且 $AD=8$，有 $D=(0,r,8)$. 又 $OE\\parallel AD$，且 $E$ 在上方圆所在平面内，所以 $E=(0,0,8)$.</p><ol class=\"enumerate\"><li><p>二面角 $B-AD-F$ 的平面角可在 $z=0$ 的截面内用 $\\angle BAF$ 表示. 由</p><p>$\\overrightarrow{AB}=(-r,-r,0)$，$\\overrightarrow{AF}=(0,-2r,0)$，</p><p>得</p>\n$$\n\\cos\\angle BAF  =\\frac{\\overrightarrow{AB}\\cdot\\overrightarrow{AF}}{|AB|\\,|AF|}=\\frac{2r^{2}}{(r\\sqrt{2})(2r)}=\\frac{\\sqrt{2}}{2}\n$$\n<p>因此二面角 $B-AD-F=45^{\\circ}$.</p></li><li><p>取</p><p>$\\overrightarrow{BD}=(r,r,8)$，$\\overrightarrow{EF}=(0,-r,-8)$.</p><p>于是</p>\n$$\n\\left|\\overrightarrow{BD}\\cdot\\overrightarrow{EF}\\right|  =r^{2}+64=82\n$$\n<p>而 $|BD|=\\sqrt{2r^{2}+64}=10$，$|EF|=\\sqrt{r^{2}+64}=\\sqrt{82}$.</p><p>设直线 $BD$ 与 $EF$ 所成的角为 $\\theta$，则取锐角得</p>\n$$\n\\cos\\theta  =\\frac{82}{10\\sqrt{82}}=\\frac{\\sqrt{82}}{10}\n$$\n<p>所以</p>\n$$\n\\theta=\\arccos\\frac{\\sqrt{82}}{10}\n$$\n</li></ol>"
+          "solution": "<p>因为 $BC$ 是直径，$\\angle BAC=90^{\\circ}$. 又 $AB=AC=6$，所以</p><p>$BC=6\\sqrt{2}$，$OA=OB=OC=OF=3\\sqrt{2}$.</p><p>建立空间直角坐标系，使下方圆所在平面为 $z=0$，并令 $r=3\\sqrt{2}$. 取</p><p>$A=(0,r,0)$，$B=(-r,0,0)$，$C=(r,0,0)$，$F=(0,-r,0)$.</p><p>由于 $AD\\perp z=0$ 且 $AD=8$，有 $D=(0,r,8)$. 又 $OE\\parallel AD$，且 $E$ 在上方圆所在平面内，所以 $E=(0,0,8)$.</p><ol class=\"enumerate\"><li><p>二面角 $B-AD-F$ 的平面角可在 $z=0$ 的截面内用 $\\angle BAF$ 表示. 由</p><p>$\\overrightarrow{AB}=(-r,-r,0)$，$\\overrightarrow{AF}=(0,-2r,0)$，</p><p>得</p>\n$$\n\\cos\\angle BAF  =\\frac{\\overrightarrow{AB}\\cdot\\overrightarrow{AF}}{|AB|\\,|AF|}=\\frac{2r^{2}}{(r\\sqrt{2})(2r)}=\\frac{\\sqrt{2}}{2}\n$$\n<p>因此二面角 $B-AD-F=45^{\\circ}$.</p></li><li><p>取</p><p>$\\overrightarrow{BD}=(r,r,8)$，$\\overrightarrow{EF}=(0,-r,-8)$.</p><p>于是</p>\n$$\n\\left|\\overrightarrow{BD}\\cdot\\overrightarrow{EF}\\right|  =r^{2}+64=82\n$$\n<p>而 $|BD|=\\sqrt{2r^{2}+64}=10$，$|EF|=\\sqrt{r^{2}+64}=\\sqrt{82}$.</p><p>设直线 $BD$ 与 $EF$ 所成的角为 $\\theta$，则取锐角得</p>\n$$\n\\cos\\theta  =\\frac{82}{10\\sqrt{82}}=\\frac{\\sqrt{82}}{10}\n$$\n<p>所以</p>\n$$\n\\theta=\\arccos\\frac{\\sqrt{82}}{10}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>设函数 $f(x) = -x^{3} + 3x + 2$ 分别在 $x_{1}$，$x_{2}$ 处取得极小值，极大值. $xOy$ 平面上点 $A$，$B$ 的坐标分别为 $(x_{1}, f(x_{1}))$，$(x_{2}, f(x_{2}))$，该平面上动点 $P$ 满足 $\\overrightarrow{PA}\\cdot \\overrightarrow{PB}= 4$，点 $Q$ 是点 $P$ 关于直线 $y = 2(x - 4)$ 的对称点，求：</p><ol class=\"enumerate\"><li><p>求点 $A$，$B$ 的坐标；</p></li><li><p>动点 $Q$ 的轨迹方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=-3x^{2}+3=3(1-x^{2})$.</p><p>当 $x<-1$ 或 $x>1$ 时，$f'(x)<0$；当 $-1<x<1$ 时，$f'(x)>0$. 因此 $f(x)$ 在 $x=-1$ 处取得极小值，在 $x=1$ 处取得极大值. 于是</p><p>$x_{1}=-1$，$f(x_{1})=0$；$x_{2}=1$，$f(x_{2})=4$.</p><p>所以 $A=(-1,0)$，$B=(1,4)$.</p></li><li><p>设 $P=(x,y)$，则</p><p>$\\overrightarrow{PA}=(-1-x,-y)$，$\\overrightarrow{PB}=(1-x,4-y)$.</p><p>由数量积条件，</p><p>$(-1-x)(1-x)-y(4-y)=4$，整理得 $x^{2}+(y-2)^{2}=9$.</p><p>所以点 $P$ 的轨迹是圆心 $(0,2)$、半径 $3$ 的圆.</p><p>直线 $y=2(x-4)$ 即 $2x-y-8=0$. 设圆心 $C=(0,2)$，则 $\\frac{2\\cdot0-2-8}{\\sqrt{2^{2}+(-1)^{2}}}=-2\\sqrt{5}$. 圆心关于该直线的对称点为 $C'=C-\\frac{2(2\\cdot0-2-8)}{2^{2}+(-1)^{2}}(2,-1)=(8,-2)$. 反射保持半径不变，因此点 $Q$ 的轨迹方程为 $(x-8)^{2}+(y+2)^{2}=9$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=-3x^{2}+3=3(1-x^{2})$.</p><p>当 $x<-1$ 或 $x>1$ 时，$f'(x)<0$；当 $-1<x<1$ 时，$f'(x)>0$. 因此 $f(x)$ 在 $x=-1$ 处取得极小值，在 $x=1$ 处取得极大值. 于是</p><p>$x_{1}=-1$，$f(x_{1})=0$；$x_{2}=1$，$f(x_{2})=4$.</p><p>所以 $A=(-1,0)$，$B=(1,4)$.</p></li><li><p>设 $P=(x,y)$，则</p><p>$\\overrightarrow{PA}=(-1-x,-y)$，$\\overrightarrow{PB}=(1-x,4-y)$.</p><p>由数量积条件，</p><p>$(-1-x)(1-x)-y(4-y)=4$，整理得 $x^{2}+(y-2)^{2}=9$.</p><p>所以点 $P$ 的轨迹是圆心 $(0,2)$、半径 $3$ 的圆.</p><p>直线 $y=2(x-4)$ 即 $2x-y-8=0$. 设圆心 $C=(0,2)$，则 $\\frac{2\\cdot0-2-8}{\\sqrt{2^{2}+(-1)^{2}}}=-2\\sqrt{5}$. 圆心关于该直线的对称点为 $C'=C-\\frac{2(2\\cdot0-2-8)}{2^{2}+(-1)^{2}}(2,-1)=(8,-2)$. 反射保持半径不变，因此点 $Q$ 的轨迹方程为 $(x-8)^{2}+(y+2)^{2}=9$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知公比为 $q$（$0 < q < 1$）的无穷等比数列 $\\{a_{n}\\}$ 各项的和为 $9$，无穷等比数列 $\\{a_{n}^{2}\\}$ 各项的和为 $\\frac{81}{5}$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的首项 $a_{1}$ 和公比 $q$；</p></li><li><p>对给定的 $k$（$k = 1$，$2$，$3$，$\\cdots$，$n$），设 $T^{(k)}$ 是首项为 $a_{k}$，公差为 $2a_{k} - 1$ 的等差数列，求 $T^{(2)}$ 的前 $10$ 项之和；</p></li><li><p>设 $b_{i}$ 为数列 $T^{(i)}$ 的第 $i$ 项，$S_{n}= b_{1}+ b_{2}+ \\cdots + b_{n}$，求 $S_{n}$，并求正整数 $m$（$m > 1$），使得 $\\displaystyle\\lim_{n \\to \\infty}\\frac{S_{n}}{n^{m}}$ 存在且不等于零.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由无穷等比数列求和公式，</p><p>$\\frac{a_{1}}{1-q}=9$，$\\frac{a_{1}^{2}}{1-q^{2}}=\\frac{81}{5}$.</p><p>由第一式得 $a_{1}=9(1-q)$. 代入第二式，得 $\\frac{81(1-q)^{2}}{(1-q)(1+q)}=\\frac{81}{5}$，即 $\\frac{1-q}{1+q}=\\frac{1}{5}$.</p><p>解得 $q=\\frac{2}{3}$，从而 $a_{1}=3$.</p></li><li><p>$a_{2}=a_{1}q=2$，且 $T^{(2)}$ 的公差为 $2a_{2}-1=3$. 因此</p><p>$S_{10}^{(2)}=\\frac{10}{2}\\left[2a_{2}+(10-1)\\times3\\right]=5(4+27)=155$.</p></li><li>\n$$\na_{i}=3\\left(\\frac{2}{3}\\right)^{i-1}\n$$\n<p>等差数列 $T^{(i)}$ 的第 $i$ 项为</p>\n$$\nb_{i}=a_{i}+(i-1)(2a_{i}-1)  =(2i-1)a_{i}-(i-1)  =3(2i-1)\\left(\\frac{2}{3}\\right)^{i-1}-(i-1)\n$$\n<p>令 $r=\\frac{2}{3}$，则</p><p>由有限等比数列求和公式，$\\sum_{i=1}^{n}r^{i-1}=\\frac{1-r^{n}}{1-r}$. 对等式两边关于 $r$ 求导，得 $\\sum_{i=1}^{n}ir^{i-1}=\\frac{1-(n+1)r^{n}+nr^{n+1}}{(1-r)^{2}}$. 因而</p>\n$$\n\\sum_{i=1}^{n}(2i-1)r^{i-1}=2\\sum_{i=1}^{n}ir^{i-1}-\\sum_{i=1}^{n}r^{i-1}=18\\left[1-(n+1)r^{n}+nr^{n+1}\\right]-3(1-r^{n})  =15-(6n+15)r^{n}\n$$\n<p>因此</p>\n$$\nS_{n}=3\\left[15-(6n+15)r^{n}\\right]-\\frac{n(n-1)}{2}  =45-(18n+45)\\left(\\frac{2}{3}\\right)^{n}-\\frac{n(n-1)}{2}\n$$\n<p>当 $n\\to\\infty$ 时，$(18n+45)(\\frac{2}{3})^{n}\\to0$，故</p>\n$$\n\\frac{S_{n}}{n^{2}}\\to-\\frac{1}{2}\n$$\n<p>而当 $m>2$ 时，$\\frac{S_{n}}{n^{m}}\\to0$，所以满足条件的正整数 $m>1$ 只有 $m=2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由无穷等比数列求和公式，</p><p>$\\frac{a_{1}}{1-q}=9$，$\\frac{a_{1}^{2}}{1-q^{2}}=\\frac{81}{5}$.</p><p>由第一式得 $a_{1}=9(1-q)$. 代入第二式，得 $\\frac{81(1-q)^{2}}{(1-q)(1+q)}=\\frac{81}{5}$，即 $\\frac{1-q}{1+q}=\\frac{1}{5}$.</p><p>解得 $q=\\frac{2}{3}$，从而 $a_{1}=3$.</p></li><li><p>$a_{2}=a_{1}q=2$，且 $T^{(2)}$ 的公差为 $2a_{2}-1=3$. 因此</p><p>$S_{10}^{(2)}=\\frac{10}{2}\\left[2a_{2}+(10-1)\\times3\\right]=5(4+27)=155$.</p></li><li>\n$$\na_{i}=3\\left(\\frac{2}{3}\\right)^{i-1}\n$$\n<p>等差数列 $T^{(i)}$ 的第 $i$ 项为</p>\n$$\nb_{i}=a_{i}+(i-1)(2a_{i}-1)  =(2i-1)a_{i}-(i-1)  =3(2i-1)\\left(\\frac{2}{3}\\right)^{i-1}-(i-1)\n$$\n<p>令 $r=\\frac{2}{3}$，则</p><p>由有限等比数列求和公式，$\\sum_{i=1}^{n}r^{i-1}=\\frac{1-r^{n}}{1-r}$. 对等式两边关于 $r$ 求导，得 $\\sum_{i=1}^{n}ir^{i-1}=\\frac{1-(n+1)r^{n}+nr^{n+1}}{(1-r)^{2}}$. 因而</p>\n$$\n\\sum_{i=1}^{n}(2i-1)r^{i-1}=2\\sum_{i=1}^{n}ir^{i-1}-\\sum_{i=1}^{n}r^{i-1}=18\\left[1-(n+1)r^{n}+nr^{n+1}\\right]-3(1-r^{n})  =15-(6n+15)r^{n}\n$$\n<p>因此</p>\n$$\nS_{n}=3\\left[15-(6n+15)r^{n}\\right]-\\frac{n(n-1)}{2}  =45-(18n+45)\\left(\\frac{2}{3}\\right)^{n}-\\frac{n(n-1)}{2}\n$$\n<p>当 $n\\to\\infty$ 时，$(18n+45)(\\frac{2}{3})^{n}\\to0$，故</p>\n$$\n\\frac{S_{n}}{n^{2}}\\to-\\frac{1}{2}\n$$\n<p>而当 $m>2$ 时，$\\frac{S_{n}}{n^{m}}\\to0$，所以满足条件的正整数 $m>1$ 只有 $m=2$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>$A$ 是由定义在 $[2,4]$ 上且满足如下条件的函数 $\\varphi(x)$ 组成的集合：</p><ol class=\"enumerate\"><li><p>对任意的 $x \\in [1,2]$，都有 $\\varphi(2x) \\in (1,2)$；</p></li><li><p>存在常数 $L$（$0 < L < 1$），使得对任意的 $x_{1}$，$x_{2} \\in [1,2]$，都有 $|\\varphi(2x_{1}) - \\varphi(2x_{2})| \\le L|x_{1} - x_{2}|$.</p></li></ol><ol class=\"enumerate\"><li><p>设 $\\varphi(x) = \\sqrt[3]{1 + x}$，$x \\in [2,4]$，证明：$\\varphi(x) \\in A$；</p></li><li><p>设 $\\varphi(x) \\in A$，如果存在 $x_{0} \\in (1,2)$，使得 $x_{0} = \\varphi(2x_{0})$，那么这样的 $x_{0}$ 是唯一的；</p></li><li><p>设 $\\varphi(x) \\in A$，任取 $x_{1} \\in (1,2)$，令 $x_{n} = \\varphi(2x_{n-1})$，$n = 2$，$3$，$\\cdots$，证明：给定正整数 $k$，对任意的正整数 $p$，成立不等式 $|x_{k+p}- x_{k}| \\le \\frac{L^{k-1}}{1 - L}|x_{2} - x_{1}|$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>对任意 $x\\in[1,2]$，有</p><p>$\\varphi(2x)=\\sqrt[3]{1+2x}\\in\\left[\\sqrt[3]{3},\\sqrt[3]{5}\\right]\\subset(1,2)$. 令 $g(x)=\\sqrt[3]{1+2x}$，则 $g'(x)=\\frac{2}{3(1+2x)^{\\frac{2}{3}}}$. 在 $[1,2]$ 上，$0<g'(x)\\le\\frac{2}{3\\sqrt[3]{9}}<1$. 由拉格朗日中值定理，对任意 $x_{1}$，$x_{2}\\in[1,2]$，有 $\\left|\\varphi(2x_{1})-\\varphi(2x_{2})\\right|=|g(x_{1})-g(x_{2})|\\le\\frac{2}{3\\sqrt[3]{9}}|x_{1}-x_{2}|$.</p><p>取 $L=\\frac{2}{3\\sqrt[3]{9}}$，即可知 $\\varphi(x)\\in A$.</p></li><li><p>若 $x_{0}$，$y_{0}\\in(1,2)$ 都满足</p><p>$x_{0}=\\varphi(2x_{0})$，$y_{0}=\\varphi(2y_{0})$，</p><p>则由第二个条件，</p>\n$$\n|x_{0}-y_{0}|  =|\\varphi(2x_{0})-\\varphi(2y_{0})|  \\le L|x_{0}-y_{0}|\n$$\n<p>因为 $0<L<1$，只能有 $x_{0}-y_{0}=0$，所以 $x_{0}=y_{0}$. 这样的 $x_{0}$ 至多有一个，故唯一性得证.</p></li><li><p>由条件一和递推关系，$x_{n}\\in(1,2)$（$n\\geqslant2$），因此可以对相邻两项应用条件二. 对 $n\\geqslant1$ 令 $d_{n}=|x_{n+1}-x_{n}|$，则当 $n\\geqslant2$ 时，$d_{n}=|\\varphi(2x_{n})-\\varphi(2x_{n-1})|\\le L|x_{n}-x_{n-1}|=Ld_{n-1}$. 因为 $d_{1}=|x_{2}-x_{1}|$，归纳得 $d_{n}\\le L^{n-1}d_{1}=L^{n-1}|x_{2}-x_{1}|$.</p><p>因此，对任意正整数 $k$，$p$，由三角不等式，$|x_{k+p}-x_{k}|\\le\\sum_{j=0}^{p-1}|x_{k+j+1}-x_{k+j}|=\\sum_{j=0}^{p-1}d_{k+j}$. 又 $\\sum_{j=0}^{p-1}d_{k+j}\\le |x_{2}-x_{1}|\\sum_{j=0}^{p-1}L^{k+j-1}\\le\\frac{L^{k-1}}{1-L}|x_{2}-x_{1}|$. 不等式得证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>对任意 $x\\in[1,2]$，有</p><p>$\\varphi(2x)=\\sqrt[3]{1+2x}\\in\\left[\\sqrt[3]{3},\\sqrt[3]{5}\\right]\\subset(1,2)$. 令 $g(x)=\\sqrt[3]{1+2x}$，则 $g'(x)=\\frac{2}{3(1+2x)^{\\frac{2}{3}}}$. 在 $[1,2]$ 上，$0<g'(x)\\le\\frac{2}{3\\sqrt[3]{9}}<1$. 由拉格朗日中值定理，对任意 $x_{1}$，$x_{2}\\in[1,2]$，有 $\\left|\\varphi(2x_{1})-\\varphi(2x_{2})\\right|=|g(x_{1})-g(x_{2})|\\le\\frac{2}{3\\sqrt[3]{9}}|x_{1}-x_{2}|$.</p><p>取 $L=\\frac{2}{3\\sqrt[3]{9}}$，即可知 $\\varphi(x)\\in A$.</p></li><li><p>若 $x_{0}$，$y_{0}\\in(1,2)$ 都满足</p><p>$x_{0}=\\varphi(2x_{0})$，$y_{0}=\\varphi(2y_{0})$，</p><p>则由第二个条件，</p>\n$$\n|x_{0}-y_{0}|  =|\\varphi(2x_{0})-\\varphi(2y_{0})|  \\le L|x_{0}-y_{0}|\n$$\n<p>因为 $0<L<1$，只能有 $x_{0}-y_{0}=0$，所以 $x_{0}=y_{0}$. 这样的 $x_{0}$ 至多有一个，故唯一性得证.</p></li><li><p>由条件一和递推关系，$x_{n}\\in(1,2)$（$n\\geqslant2$），因此可以对相邻两项应用条件二. 对 $n\\geqslant1$ 令 $d_{n}=|x_{n+1}-x_{n}|$，则当 $n\\geqslant2$ 时，$d_{n}=|\\varphi(2x_{n})-\\varphi(2x_{n-1})|\\le L|x_{n}-x_{n-1}|=Ld_{n-1}$. 因为 $d_{1}=|x_{2}-x_{1}|$，归纳得 $d_{n}\\le L^{n-1}d_{1}=L^{n-1}|x_{2}-x_{1}|$.</p><p>因此，对任意正整数 $k$，$p$，由三角不等式，$|x_{k+p}-x_{k}|\\le\\sum_{j=0}^{p-1}|x_{k+j+1}-x_{k+j}|=\\sum_{j=0}^{p-1}d_{k+j}$. 又 $\\sum_{j=0}^{p-1}d_{k+j}\\le |x_{2}-x_{1}|\\sum_{j=0}^{p-1}L^{k+j-1}\\le\\frac{L^{k-1}}{1-L}|x_{2}-x_{1}|$. 不等式得证.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

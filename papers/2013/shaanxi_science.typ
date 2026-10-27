@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,312 +11,257 @@
 #part-header("单选题")
 
 #problem(1)[
-设全集为 $RR$，函数 $f(x) = sqrt(1 - x^2)$ 的定义域为 $M$，则 $\c o m p l e m e n t_( RR ) M$ 为（ ）
-
+设全集为 #mi(`\mathbb{R}`)，函数 #mi(`f(x) = \sqrt{1 - x^{2}}`) 的定义域为 #mi(`M`)，则 #mi(`\complement_{\mathbb{R}}M`) 为（ ）
 
 D
 
-根式有意义的条件是 $1-x^2 >= 0$，即 $-1 <= x <= 1$，所以 $M=[-1,1]$. 因此 $\c o m p l e m e n t_( RR )M=(- oo ,-1) union (1,+ oo )$，故选 D.
-  #choices([$[-1, 1]$], [$(-1, 1)$], [$(- oo , -1] union [1, + oo )$], [$(- oo , -1) union (1, + oo )$], cols: 2)
+根式有意义的条件是 #mi(`1-x^{2}\geqslant0`)，即 #mi(`-1\le x\leqslant1`)，所以 #mi(`M=\left[-1,1\right]`). 因此 #mi(`\complement_{\mathbb{R}}M=\left(-\infty,-1\right)\cup\left(1,+\infty\right)`)，故选 D.
+  #choices([#mi(`\left[-1, 1\right]`)], [#mi(`\left(-1, 1\right)`)], [#mi(`\left(-\infty, -1\right] \cup \left[1, +\infty\right)`)], [#mi(`\left(-\infty, -1\right) \cup \left(1, +\infty\right)`)], cols: 1)
 ]
 
 #problem(2)[
-根据下列算法语句，当输入 $x$ 为 $60$ 时，输出 $y$ 的值为（ ）
+根据下列算法语句，当输入 #mi(`x`) 为 #mi(`60`) 时，输出 #mi(`y`) 的值为（ ）
 
 
-#align(center)[#image("/papers/2013/img/shaanxi_science/q2_fig1.png", width: 34%)]
-
+#align(center)[#image("/papers/2013/img/shaanxi_science/q2_fig1.png", width: 28%)]
 
 
 C
 
-输入 $x=60>50$，程序执行 Else 分支，因此 $y=25+0.6 times (60-50)=25+6=31$，故选 C.
-  #choices([$25$], [$30$], [$31$], [$61$], cols: 4)
+输入 #mi(`x=60>50`)，程序执行 Else 分支，因此 #mi(`y=25+0.6\times(60-50)=25+6=31`)，故选 C.
+  #choices([#mi(`25`)], [#mi(`30`)], [#mi(`31`)], [#mi(`61`)], cols: 4)
 ]
 
 #problem(3)[
-设 $bold(a)$，$bold(b)$ 为向量，则 $|bold(a)\c d o t b o l d(b)|=|bold(a)||bold(b)|$ 是“$bold(a)\p a r a l l e l b o l d(b)$”的（ ）
-
+设 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 为向量，则 #mi(`\left|\mathbf{a}\cdot\mathbf{b}\right|=\left|\mathbf{a}\right|\left|\mathbf{b}\right|`) 是“#mi(`\mathbf{a}\parallel\mathbf{b}`)”的（ ）
 
 C
 
-若 $bold(a)$ 或 $bold(b)$ 是零向量，则两向量平行，且等式两边都为 $0$. 若两向量都不是零向量，设它们的夹角为 $theta$，则 $|bold(a)\c d o t b o l d(b)|=|bold(a)||bold(b)|| cos theta |$，所以题设等式成立当且仅当 $| cos theta |=1$，即 $theta =0$ 或 $pi$，这也等价于 $bold(a)\p a r a l l e l b o l d(b)$. 因而二者互为充分必要条件，故选 C.
+若 #mi(`\mathbf{a}`) 或 #mi(`\mathbf{b}`) 是零向量，则两向量平行，且等式两边都为 #mi(`0`). 若两向量都不是零向量，设它们的夹角为 #mi(`\theta`)，则 #mi(`\left|\mathbf{a}\cdot\mathbf{b}\right|=\left|\mathbf{a}\right|\left|\mathbf{b}\right|\left|\cos\theta\right|`)，所以题设等式成立当且仅当 #mi(`\left|\cos\theta\right|=1`)，即 #mi(`\theta=0`) 或 #mi(`\pi`)，这也等价于 #mi(`\mathbf{a}\parallel\mathbf{b}`). 因而二者互为充分必要条件，故选 C.
   #choices([充分不必要条件], [必要不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #problem(4)[
-某单位有 $840$ 名职工，现采用系统抽样方法，抽取 $42$ 人做问卷调查，将 $840$ 人按 $1$，$2$，$dots.c$，$840$ 随机编号，则抽取的 $42$ 人中，编号落入区间 $[481,720]$ 的人数为（ ）
-
+某单位有 #mi(`840`) 名职工，现采用系统抽样方法，抽取 #mi(`42`) 人做问卷调查，将 #mi(`840`) 人按 #mi(`1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`840`) 随机编号，则抽取的 #mi(`42`) 人中，编号落入区间 #mi(`[481,720]`) 的人数为（ ）
 
 B
 
-系统抽样的间隔为 $840\div 42 =20$. 设随机确定的第一个样本编号为 $r$，其中 $1 <= r <= 20$，则每个样本组抽取的编号为 $r+20(k-1)$，其中 $k=1$，$2$，$\l d o t s$，$42$. 区间 $[481,720]$ 恰好由 $[481,500]$，$[501,520]$，$\l d o t s$，$[701,720]$ 这 $12$ 个连续的长度为 $20$ 的编号组组成，每组恰抽取 1 人，所以人数为 $12$，故选 B.
-  #choices([$11$], [$12$], [$13$], [$14$], cols: 4)
+系统抽样的间隔为 #mi(`840\div42=20`). 设随机确定的第一个样本编号为 #mi(`r`)，其中 #mi(`1\le r\leqslant20`)，则每个样本组抽取的编号为 #mi(`r+20(k-1)`)，其中 #mi(`k=1`)，#mi(`2`)，#mi(`\ldots`)，#mi(`42`). 区间 #mi(`[481,720]`) 恰好由 #mi(`[481,500]`)，#mi(`[501,520]`)，#mi(`\ldots`)，#mi(`[701,720]`) 这 #mi(`12`) 个连续的长度为 #mi(`20`) 的编号组组成，每组恰抽取 1 人，所以人数为 #mi(`12`)，故选 B.
+  #choices([#mi(`11`)], [#mi(`12`)], [#mi(`13`)], [#mi(`14`)], cols: 4)
 ]
 
 #problem(5)[
-如图，在矩形区域 $A B C D$ 的 $A$，$C$ 两点处各有一个通信基站，假设其信号覆盖范围分别是扇形区域 $A D E$ 和扇形区域 $C B F$（该矩形区域内无其他信号来源，基站工作正常）. 若在该矩形区域内随机地选一地点，则该地点无信号的概率是（ ）
+如图，在矩形区域 #mi(`ABCD`) 的 #mi(`A`)，#mi(`C`) 两点处各有一个通信基站，假设其信号覆盖范围分别是扇形区域 #mi(`ADE`) 和扇形区域 #mi(`CBF`)（该矩形区域内无其他信号来源，基站工作正常）. 若在该矩形区域内随机地选一地点，则该地点无信号的概率是（ ）
 
 
-#align(center)[#image("/papers/2013/img/shaanxi_science/q5_fig1.png", width: 40%)]
-
+#align(center)[#image("/papers/2013/img/shaanxi_science/q5_fig1.png", width: 28%)]
 
 
 A
 
-由图可知矩形的长、宽分别为 $2$，$1$，所以面积为 $2$. 两个信号覆盖区域均为半径 $1$ 的四分之一圆，且除边界外不重叠，覆盖总面积为 $2 times (pi)/(4)=(pi)/(2)$. 因此无信号区域的面积为 $2-(pi)/(2)$，所求概率为 $(2-(pi)/(2))/(2)=1-(pi)/(4)$，故选 A.
-  #choices([$1-(pi)/(4)$], [$(pi)/(2)-1$], [$2-(pi)/(2)$], [$(pi)/(4)$], cols: 4)
+由图可知矩形的长、宽分别为 #mi(`2`)，#mi(`1`)，所以面积为 #mi(`2`). 两个信号覆盖区域均为半径 #mi(`1`) 的四分之一圆，且除边界外不重叠，覆盖总面积为 #mi(`2\times\dfrac{\pi}{4}=\dfrac{\pi}{2}`). 因此无信号区域的面积为 #mi(`2-\dfrac{\pi}{2}`)，所求概率为 #mi(`\dfrac{2-\frac{\pi}{2}}{2}=1-\dfrac{\pi}{4}`)，故选 A.
+  #choices([#mi(`1-\dfrac{\pi}{4}`)], [#mi(`\dfrac{\pi}{2}-1`)], [#mi(`2-\dfrac{\pi}{2}`)], [#mi(`\dfrac{\pi}{4}`)], cols: 2)
 ]
 
 #problem(6)[
-设 $z_(1)$，$z_(2)$ 是复数，则下列命题中的假命题是（ ）
-
+设 #mi(`z_{1}`)，#mi(`z_{2}`) 是复数，则下列命题中的假命题是（ ）
 
 D
 
-选项 A 中，$|z_1-z_2|=0$ 得 $z_1=z_2$，共轭后仍有 $overline(z_1)=overline(z_2)$. 选项 B 两边取共轭即可得到结论；选项 C 中 $z_i o v e r l i n e(z_i)=|z_i|^2$，所以结论成立. 对选项 D，取 $z_1=1$，$z_2= i$，则 $|z_1|=|z_2|=1$，但 $z_1^2=1$，$z_2^2=-1$，结论不成立，故选 D.
-  #choices([若 $|z_1-z_2|=0$，则 $overline(z_1)=overline(z_2)$], [若 $z_1=overline(z_2)$，则 $overline(z_1)=z_2$], [若 $|z_1|=|z_2|$，则 $z_1\c d o t o v e r l i n e(z_1)=z_2\c d o t o v e r l i n e(z_2)$], [若 $|z_1|=|z_2|$，则 $z_1^2=z_2^2$], cols: 1)
+选项 A 中，#mi(`\left|z_{1}-z_{2}\right|=0`) 得 #mi(`z_{1}=z_{2}`)，共轭后仍有 #mi(`\overline{z_1}=\overline{z_2}`). 选项 B 两边取共轭即可得到结论；选项 C 中 #mi(`z_{i}\overline{z_i}=\left|z_{i}\right|^{2}`)，所以结论成立. 对选项 D，取 #mi(`z_{1}=1`)，#mi(`z_{2}=\mathrm{i}`)，则 #mi(`\left|z_{1}\right|=\left|z_{2}\right|=1`)，但 #mi(`z_{1}^{2}=1`)，#mi(`z_{2}^{2}=-1`)，结论不成立，故选 D.
+  #choices([若 #mi(`\left|z_{1}-z_{2}\right|=0`)，则 #mi(`\overline{z_1}=\overline{z_2}`)], [若 #mi(`z_{1}=\overline{z_2}`)，则 #mi(`\overline{z_1}=z_{2}`)], [若 #mi(`\left|z_{1}\right|=\left|z_{2}\right|`)，则 #mi(`z_{1}\cdot\overline{z_1}=z_{2}\cdot\overline{z_2}`)], [若 #mi(`\left|z_{1}\right|=\left|z_{2}\right|`)，则 #mi(`z_{1}^{2}=z_{2}^{2}`)], cols: 1)
 ]
 
 #problem(7)[
-设 $triangle A B C$ 的内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，若 $b cos C+c cos B=a sin A$，则 $triangle A B C$ 的形状为（ ）
-
+设 #mi(`\triangle ABC`) 的内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对的边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，若 #mi(`b\cos C+c\cos B=a\sin A`)，则 #mi(`\triangle ABC`) 的形状为（ ）
 
 B
 
-由余弦定理，$b cos C=(a^2+b^2-c^2)/(2 a)$，$c cos B=(a^2+c^2-b^2)/(2 a)$. 两式相加得 $b cos C+c cos B=a$. 代入题设并注意 $a>0$，得 $a=a sin A$，即 $sin A=1$. 因为 $0<A< pi$，所以 $A=(pi)/(2)$，三角形为直角三角形，故选 B.
+由余弦定理，#mi(`b\cos C=\dfrac{a^2+b^2-c^2}{2a}`)，#mi(`c\cos B=\dfrac{a^2+c^2-b^2}{2a}`). 两式相加得 #mi(`b\cos C+c\cos B=a`). 代入题设并注意 #mi(`a>0`)，得 #mi(`a=a\sin A`)，即 #mi(`\sin A=1`). 因为 #mi(`0<A<\pi`)，所以 #mi(`A=\dfrac{\pi}{2}`)，三角形为直角三角形，故选 B.
   #choices([锐角三角形], [直角三角形], [钝角三角形], [不确定], cols: 4)
 ]
 
 #problem(8)[
-设函数 $f(x)=\b e g i n{c a s e s} (x-(1)/(x))^6, & x<0,\\ -sqrt(x), & x >= 0 , \e n d{c a s e s}$ 则当 $x>0$ 时，$f[f(x)]$ 表达式的展开式中常数项为（ ）
-
+设函数 #mi(`f(x)=\begin{cases}\left(x-\dfrac{1}{x}\right)^{6},&x<0,\\  -\sqrt{x},&x\geqslant0,\end{cases}`) 则当 #mi(`x>0`) 时，#mi(`f[f(x)]`) 表达式的展开式中常数项为（ ）
 
 A
 
-当 $x>0$ 时，$f(x)=-sqrt(x)<0$，因此应使用函数的第一段：$f[f(x)]=(-sqrt(x)-(1)/(-sqrt(x)))^6=((1)/(sqrt(x))-sqrt(x))^6=x^(-3)(1-x)^6$. 展开得 $x^(-3)sum_(k=0)^(6)(-1)^k C_6^k x^k$. 常数项对应 $k=3$，其系数为 $(-1)^3 C_6^3=-20$，故选 A.
-  #choices([$-20$], [$20$], [$-15$], [$15$], cols: 4)
+当 #mi(`x>0`) 时，#mi(`f(x)=-\sqrt{x}<0`)，因此应使用函数的第一段：#mi(`f[f(x)]=\left(-\sqrt{x}-\dfrac{1}{-\sqrt{x}}\right)^{6}=\left(\dfrac{1}{\sqrt{x}}-\sqrt{x}\right)^{6}=x^{-3}(1-x)^{6}`). 展开得 #mi(`x^{-3}\sum_{k=0}^{6}(-1)^{k}\mathrm{C}_{6}^{k} x^{k}`). 常数项对应 #mi(`k=3`)，其系数为 #mi(`(-1)^{3}\mathrm{C}_{6}^{3}=-20`)，故选 A.
+  #choices([#mi(`-20`)], [#mi(`20`)], [#mi(`-15`)], [#mi(`15`)], cols: 4)
 ]
 
 #problem(9)[
-在如图所示的锐角三角形空地中，欲建一个面积不小于 $300 ~m^(2)$ 的内接矩形花园（阴影部分），则其边长 $x$（单位 $m$）的取值范围是（ ）
+在如图所示的锐角三角形空地中，欲建一个面积不小于 #mi(`300 \mathrm{~m}^{2}`) 的内接矩形花园（阴影部分），则其边长 #mi(`x`)（单位 #mi(`\mathrm{m}`)）的取值范围是（ ）
 
 
-#align(center)[#image("/papers/2013/img/shaanxi_science/q9_fig1.png", width: 36%)]
-
+#align(center)[#image("/papers/2013/img/shaanxi_science/q9_fig1.png", width: 28%)]
 
 
 C
 
-设矩形的另一边长为 $y$. 三角形的底边和高均为 $40$，由相似三角形可得矩形上边所在的水平截面长为 $40-y$，所以 $x=40-y$，即 $y=40-x$. 矩形面积不小于 $300$ 给出 $x(40-x) >= 300$，整理得 $x^2-40 x+300 <= 0$，即 $(x-10)(x-30) <= 0$. 因而 $10 <= x <= 30$，故选 C.
-  #choices([$[15,20]$], [$[12,25]$], [$[10,30]$], [$[20,30]$], cols: 4)
+设矩形的另一边长为 #mi(`y`). 三角形的底边和高均为 #mi(`40`)，由相似三角形可得矩形上边所在的水平截面长为 #mi(`40-y`)，所以 #mi(`x=40-y`)，即 #mi(`y=40-x`). 矩形面积不小于 #mi(`300`) 给出 #mi(`x(40-x)\geqslant300`)，整理得 #mi(`x^{2}-40x+300\leqslant0`)，即 #mi(`(x-10)(x-30)\leqslant0`). 因而 #mi(`10\le x\leqslant30`)，故选 C.
+  #choices([#mi(`\left[15,20\right]`)], [#mi(`\left[12,25\right]`)], [#mi(`\left[10,30\right]`)], [#mi(`\left[20,30\right]`)], cols: 2)
 ]
 
 #problem(10)[
-设 $[x]$ 表示不大于 $x$ 的最大整数，则对任意实数 $x$，$y$，有（ ）
-
+设 #mi(`[x]`) 表示不大于 #mi(`x`) 的最大整数，则对任意实数 #mi(`x`)，#mi(`y`)，有（ ）
 
 D
 
-选项 A 取 $x=(1)/(2)$，有 $[-x]=-1\n e q0=-[x]$. 选项 B 取 $x=(1)/(2)$，有 $[2 x]=1\n e q0=2[x]$. 选项 C 取 $x=y=(1)/(2)$，有 $[x+y]=1>0=[x]+[y]$. 对选项 D，设 $[x]=m$，$[y]=n$，则可写成 $x=m+ alpha$，$y=n+ beta$，其中 $0 <= alpha$，$beta <1$. 于是 $[x-y]=m-n+[ alpha - beta ]$，而 $-1< alpha - beta <1$，故 $[ alpha - beta ] <= 0$，从而 $[x-y] <= m-n=[x]-[y]$，故选 D.
-  #choices([$[-x]=-[x]$], [$[2 x]=2[x]$], [$[x+y] <= [x]+[y]$], [$[x-y] <= [x]-[y]$], cols: 2)
+选项 A 取 #mi(`x=\dfrac{1}{2}`)，有 #mi(`\left[-x\right]=-1\neq0=-\left[x\right]`). 选项 B 取 #mi(`x=\dfrac{1}{2}`)，有 #mi(`\left[2x\right]=1\neq0=2\left[x\right]`). 选项 C 取 #mi(`x=y=\dfrac{1}{2}`)，有 #mi(`\left[x+y\right]=1>0=\left[x\right]+\left[y\right]`). 对选项 D，设 #mi(`\left[x\right]=m`)，#mi(`\left[y\right]=n`)，则可写成 #mi(`x=m+\alpha`)，#mi(`y=n+\beta`)，其中 #mi(`0\le\alpha`)，#mi(`\beta<1`). 于是 #mi(`\left[x-y\right]=m-n+\left[\alpha-\beta\right]`)，而 #mi(`-1<\alpha-\beta<1`)，故 #mi(`\left[\alpha-\beta\right]\leqslant0`)，从而 #mi(`\left[x-y\right]\le m-n=\left[x\right]-\left[y\right]`)，故选 D.
+  #choices([#mi(`\left[-x\right]=-\left[x\right]`)], [#mi(`\left[2x\right]=2\left[x\right]`)], [#mi(`\left[x+y\right]\le\left[x\right]+\left[y\right]`)], [#mi(`\left[x-y\right]\le\left[x\right]-\left[y\right]`)], cols: 1)
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-双曲线 $(x^2)/(16)-(y^2)/(m)=1$ 的离心率为 $(5)/(4)$，则 $m$ 等于#blank(){}.
+双曲线 #mi(`\dfrac{x^2}{16}-\dfrac{y^2}{m}=1`) 的离心率为 #mi(`\dfrac{5}{4}`)，则 #mi(`m`) 等于\underline{\hspace{2.5em}}.
 
-$9$
+#mi(`9`)
 
-双曲线的半实轴长满足 $a^2=16$，所以 $a=4$. 由离心率公式 $e=(c)/(a)=(5)/(4)$ 得 $c=5$. 又 $c^2=a^2+b^2=16+m$，所以 $25=16+m$，即 $m=9$，故填 $9$.
+双曲线的半实轴长满足 #mi(`a^{2}=16`)，所以 #mi(`a=4`). 由离心率公式 #mi(`e=\dfrac{c}{a}=\dfrac{5}{4}`) 得 #mi(`c=5`). 又 #mi(`c^{2}=a^{2}+b^{2}=16+m`)，所以 #mi(`25=16+m`)，即 #mi(`m=9`)，故填 #mi(`9`).
 ]
 
 #problem(12)[
-某几何体的三视图如图所示，则其体积为#blank(){}.
+某几何体的三视图如图所示，则其体积为\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2013/img/shaanxi_science/q12_fig1.png", width: 34%)]
+#align(center)[#image("/papers/2013/img/shaanxi_science/q12_fig1.png", width: 28%)]
 
 
-$(pi)/(3)$
+#mi(`\dfrac{\pi}{3}`)
 
-由三视图可知，该几何体是底面半径为 $1$ 的半个圆锥，圆锥的高为 $2$. 因而其体积为 $(1)/(2) times (1)/(3) pi times 1 ""^2 times 2 =(pi)/(3)$，故填 $(pi)/(3)$.
+由三视图可知，该几何体是底面半径为 #mi(`1`) 的半个圆锥，圆锥的高为 #mi(`2`). 因而其体积为 #mi(`\dfrac{1}{2}\times\dfrac{1}{3}\pi\times1^{2}\times2=\dfrac\pi3`)，故填 #mi(`\dfrac\pi3`).
 ]
 
 #problem(13)[
-若点 $(x,y)$ 位于曲线 $y=|x-1|$ 与 $y=2$ 所围成的封闭区域，则 $2 x-y$ 的最小值为#blank(){}.
+若点 #mi(`(x,y)`) 位于曲线 #mi(`y=\left|x-1\right|`) 与 #mi(`y=2`) 所围成的封闭区域，则 #mi(`2x-y`) 的最小值为\underline{\hspace{2.5em}}.
 
-$-4$
+#mi(`-4`)
 
-封闭区域是由 $y=|x-1|$ 和 $y=2$ 围成的三角形，其三个顶点为 $(-1,2)$，$(1,0)$，$(3,2)$. 线性函数 $2 x-y$ 在该三角形上的最小值出现在顶点处，分别为 $-4$，$2$，$4$，所以最小值为 $-4$，故填 $-4$.
+封闭区域是由 #mi(`y=\left|x-1\right|`) 和 #mi(`y=2`) 围成的三角形，其三个顶点为 #mi(`(-1,2)`)，#mi(`(1,0)`)，#mi(`(3,2)`). 线性函数 #mi(`2x-y`) 在该三角形上的最小值出现在顶点处，分别为 #mi(`-4`)，#mi(`2`)，#mi(`4`)，所以最小值为 #mi(`-4`)，故填 #mi(`-4`).
 ]
 
 #problem(14)[
-观察下列等式：$1^2=1$；$1^2-2^2=-3$；$1^2-2^2+3^2=6$；$1^2-2^2+3^2-4^2=-10$. 照此规律，第 $n$ 个等式可为#blank(){}.
+观察下列等式：#mi(`1^{2}=1`)；#mi(`1^{2}-2^{2}=-3`)；#mi(`1^{2}-2^{2}+3^{2}=6`)；#mi(`1^{2}-2^{2}+3^{2}-4^{2}=-10`). 照此规律，第 #mi(`n`) 个等式可为\underline{\hspace{2.5em}}.
 
-$1^2-2^2+3^2- dots.c +(-1)^(n-1)n^2=(-1)^(n-1)(n(n+1))/(2)$
+#mi(`1^{2}-2^{2}+3^{2}-\cdots+(-1)^{n-1}n^{2}=(-1)^{n-1}\dfrac{n(n+1)}{2}`)
 
-记左端前 $n$ 项的和为 $S_n=sum_(k=1)^(n)(-1)^(k-1)k^2$. 当 $n=1$ 时，$S_1=1=(-1)^0(1 dot 2)/(2)$. 假设 $S_n=(-1)^(n-1)(n(n+1))/(2)$，则 $S_(n+1)=S_n+(-1)^n(n+1)^2=(-1)^n[-(n(n+1))/(2)+(n+1)^2]=(-1)^n((n+1)(n+2))/(2)$. 由数学归纳法，$S_n=(-1)^(n-1)(n(n+1))/(2)$，故所填等式为 $1^2-2^2+3^2- dots.c +(-1)^(n-1)n^2=(-1)^(n-1)(n(n+1))/(2)$.
+记左端前 #mi(`n`) 项的和为 #mi(`S_{n}=\sum_{k=1}^{n}(-1)^{k-1}k^{2}`). 当 #mi(`n=1`) 时，#mi(`S_{1}=1=(-1)^{0}\dfrac{1\cdot2}{2}`). 假设 #mi(`S_{n}=(-1)^{n-1}\dfrac{n(n+1)}{2}`)，则 #mi(`S_{n+1}=S_{n}+(-1)^{n}(n+1)^{2}=(-1)^{n}\left[-\dfrac{n(n+1)}2+(n+1)^{2}\right]=(-1)^{n}\dfrac{(n+1)(n+2)}2`). 由数学归纳法，#mi(`S_{n}=(-1)^{n-1}\dfrac{n(n+1)}2`)，故所填等式为 #mi(`1^{2}-2^{2}+3^{2}-\cdots+(-1)^{n-1}n^{2}=(-1)^{n-1}\dfrac{n(n+1)}2`).
 ]
 
 #part-header("选做题")
 
 #problem(15)[
-已知 $a$，$b$，$m$，$n$ 均为正数，且 $a+b=1$，$m n=2$，则 $(a m+b n)(b m+a n)$ 的最小值为#blank(){}.
+已知 #mi(`a`)，#mi(`b`)，#mi(`m`)，#mi(`n`) 均为正数，且 #mi(`a+b=1`)，#mi(`mn=2`)，则 #mi(`(am+bn)(bm+an)`) 的最小值为\underline{\hspace{2.5em}}.
 
-$2$
+#mi(`2`)
 
-展开并配方得 $(a m+b n)(b m+a n)=a b(m-n)^2+m n(a+b)^2=a b(m-n)^2+2 >= 2$. 当 $m=n=sqrt(2)$ 时满足 $m n=2$，且等号成立，所以最小值为 $2$，故填 $2$.
+展开并配方得 #mi(`(am+bn)(bm+an)=ab(m-n)^{2}+mn(a+b)^{2}=ab(m-n)^{2}+2\geqslant2`). 当 #mi(`m=n=\sqrt{2}`) 时满足 #mi(`mn=2`)，且等号成立，所以最小值为 #mi(`2`)，故填 #mi(`2`).
 ]
 
 #problem(16)[
-如图，弦 $A B$ 与 $C D$ 相交于 $\o d o t O$ 内一点 $E$，过 $E$ 作 $B C$ 的平行线与 $A D$ 的延长线相交于点 $P$. 已知 $P D=2 D A=2$，则 $P E=\f i l l i n b l a n k{}$.
+如图，弦 #mi(`AB`) 与 #mi(`CD`) 相交于 #mi(`\odot O`) 内一点 #mi(`E`)，过 #mi(`E`) 作 #mi(`BC`) 的平行线与 #mi(`AD`) 的延长线相交于点 #mi(`P`). 已知 #mi(`PD=2DA=2`)，则 #mi(`PE=\underline{\hspace{2.5em}}{}`).
 
 
-#align(center)[#image("/papers/2013/img/shaanxi_science/q16_fig1.png", width: 34%)]
+#align(center)[#image("/papers/2013/img/shaanxi_science/q16_fig1.png", width: 28%)]
 
 
-$sqrt(6)$
+#mi(`\sqrt{6}`)
 
-因为 $P$，$D$，$A$ 共线且 $D$，$A$ 在 $P$ 的同一侧，所以 $angle E P D= angle E P A$. 又因 $P E parallel B C$，$E D$ 与 $C D$ 共线，$E A$ 与 $A B$ 共线，有 $angle P E D= angle B C D$，$angle P A E= angle D A B$. 点 $A$，$B$，$C$，$D$ 共圆，故 $angle B C D= angle D A B$，从而 $angle P E D= angle P A E$. 因此 $triangle P E D tilde triangle P E A$，对应边满足 $(P E)/(P A)=(P D)/(P E)$，即 $P E^2=P A dot P D$. 由 $P D=2 D A=2$ 得 $D A=1$，从而 $P A=P D+D A=3$. 所以 $P E^2=3 times 2 =6$，又 $P E>0$，故 $P E=sqrt(6)$.
+因为 #mi(`P`)，#mi(`D`)，#mi(`A`) 共线且 #mi(`D`)，#mi(`A`) 在 #mi(`P`) 的同一侧，所以 #mi(`\angle EPD=\angle EPA`). 又因 #mi(`PE\parallel BC`)，#mi(`ED`) 与 #mi(`CD`) 共线，#mi(`EA`) 与 #mi(`AB`) 共线，有 #mi(`\angle PED=\angle BCD`)，#mi(`\angle PAE=\angle DAB`). 点 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 共圆，故 #mi(`\angle BCD=\angle DAB`)，从而 #mi(`\angle PED=\angle PAE`). 因此 #mi(`\triangle PED\sim\triangle PEA`)，对应边满足 #mi(`\dfrac{PE}{PA}=\dfrac{PD}{PE}`)，即 #mi(`PE^{2}=PA\cdot PD`). 由 #mi(`PD=2DA=2`) 得 #mi(`DA=1`)，从而 #mi(`PA=PD+DA=3`). 所以 #mi(`PE^{2}=3\times2=6`)，又 #mi(`PE>0`)，故 #mi(`PE=\sqrt{6}`).
 ]
 
 #problem(17)[
-如图，以过原点的直线的倾斜角 $theta$ 为参数，则圆 $x^2+y^2-x=0$ 的参数方程为#blank(){}.
+如图，以过原点的直线的倾斜角 #mi(`\theta`) 为参数，则圆 #mi(`x^{2}+y^{2}-x=0`) 的参数方程为\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2013/img/shaanxi_science/q17_fig1.png", width: 30%)]
+#align(center)[#image("/papers/2013/img/shaanxi_science/q17_fig1.png", width: 28%)]
 
 
-$x= cos ""^2 theta$，$y= sin theta cos theta$
+#mi(`x=\cos^{2}\theta`)，#mi(`y=\sin\theta\cos\theta`)
 
-过原点的直线斜率为 $tan theta$，故非竖直时可写为 $y=x tan theta$. 代入圆方程得 $x^2(1+ tan ""^2 theta )-x=0$，除去原点对应的交点后，另一个交点满足 $x=(1)/(1+ tan ""^2 theta)= cos ""^2 theta$. 于是 $y=x tan theta = cos ""^2 theta tan theta = sin theta cos theta$. 当 $cos theta =0$ 时，上式给出原点，也满足圆方程，因此参数方程为 $x= cos ""^2 theta$，$y= sin theta cos theta$.
+过原点的直线斜率为 #mi(`\tan\theta`)，故非竖直时可写为 #mi(`y=x\tan\theta`). 代入圆方程得 #mi(`x^{2}(1+\tan^{2}\theta)-x=0`)，除去原点对应的交点后，另一个交点满足 #mi(`x=\dfrac{1}{1+\tan^2\theta}=\cos^{2}\theta`). 于是 #mi(`y=x\tan\theta=\cos^{2}\theta\tan\theta=\sin\theta\cos\theta`). 当 #mi(`\cos\theta=0`) 时，上式给出原点，也满足圆方程，因此参数方程为 #mi(`x=\cos^{2}\theta`)，#mi(`y=\sin\theta\cos\theta`).
 ]
 
 #part-header("解答题")
 
 #problem(18)[
-已知向量 $bold(a)=( cos x,-(1)/(2))$，$bold(b)=(sqrt(3) sin x, cos 2 x)$，$x in RR$，设函数 $f(x)=bold(a)\c d o t b o l d(b)$.
+已知向量 #mi(`\mathbf{a}=\left(\cos x,-\dfrac{1}{2}\right)`)，#mi(`\mathbf{b}=\left(\sqrt{3}\sin x,\cos2x\right)`)，#mi(`x\in\mathbb{R}`)，设函数 #mi(`f(x)=\mathbf{a}\cdot\mathbf{b}`).
 
 
-+ (1) 求 $f(x)$ 的最小正周期.
-+ (2) 求 $f(x)$ 在 $[0,(pi)/(2)]$ 上的最大值和最小值.
++ (1)
 ]
 
 #solution[
-+ (1) $f(x)=sqrt(3) sin x cos x-(1)/(2) cos 2 x=(sqrt(3))/(2) sin 2 x-(1)/(2) cos 2 x= sin (2 x-(pi)/(6))$. 因此 $f(x)$ 的最小正周期为 $pi$.
-+ (2) 当 $x in [0,(pi)/(2)]$ 时，$2 x-(pi)/(6) in [-(pi)/(6),(5 pi)/(6)]$. 在这个区间内，正弦函数的最大值为 $1$，且在 $2 x-(pi)/(6)=(pi)/(2)$，即 $x=(pi)/(3)$ 时取得. 区间左端点给出 $f(0)= sin (-(pi)/(6))=-(1)/(2)$，右端点给出 $f((pi)/(2))= sin (5 pi)/(6)=(1)/(2)$，所以最小值为 $-(1)/(2)$，最大值为 $1$.
++ (1)
 ]
 
 #problem(19)[
-设 $\{a_n\}$ 是公比为 $q$ 的等比数列.
+设 #mi(`\{a_{n}\}`) 是公比为 #mi(`q`) 的等比数列.
 
 
-+ (1) 推导 $\{a_n\}$ 的前 $n$ 项和公式；
-+ (2) 设 $q\n e q1$，证明数列 $\{a_n+1\}$ 不是等比数列.
++ (1)
 ]
 
 #solution[
-+ (1) 设前 $n$ 项和为 $S_n$. 当 $q=1$ 时，$S_n=n a_1$. 当 $q\n e q1$ 时，$S_n=a_1+a_(1) q+ dots.c +a_(1) q^(n-1)$，两边乘以 $q$ 得 $q S_n=a_(1) q+a_(1) q^2+ dots.c +a_(1) q^n$. 两式相减得 $(1-q)S_n=a_1(1-q^n)$，所以 $S_n=(a_1(1-q^n))/(1-q)=(a_1(q^n-1))/(q-1)$.
-+ (2) 反设 $\{a_n+1\}$ 是等比数列. 取其前三项，则有 $(a_2+1)^2=(a_1+1)(a_3+1)$. 由于 $a_2=a_(1) q$，$a_3=a_(1) q^2$，代入并化简得 $a_1(q-1)^2=0$. 等比数列的首项 $a_1\n e q0$，所以 $q=1$，与已知 $q\n e q1$ 矛盾. 因此 $\{a_n+1\}$ 不是等比数列.
++ (1)
 ]
 
 #problem(20)[
-如图，四棱柱 $A B C D-A_(1)B_(1)C_(1)D_(1)$ 的底面 $A B C D$ 是正方形，$O$ 为底面中心，$A_(1)O bot$ 平面 $A B C D$，$A B=A A_(1)=sqrt(2)$.
+如图，四棱柱 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 的底面 #mi(`ABCD`) 是正方形，#mi(`O`) 为底面中心，#mi(`A_{1}O\perp`) 平面 #mi(`ABCD`)，#mi(`AB=AA_{1}=\sqrt{2}`).
 
 
-+ (1) 证明：$A_(1)C bot$ 平面 $B B_(1)D_(1)D$.
-+ (2) 求平面 $O C B_(1)$ 与平面 $B B_(1)D_(1)D$ 的夹角 $theta$ 的大小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2013/img/shaanxi_science/q20_fig1.png", width: 62%)]
+
+#align(center)[#image("/papers/2013/img/shaanxi_science/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-建立空间直角坐标系，使 $O$ 为原点，$O A$，$O B$，$O A_1$ 分别为三个坐标轴的正向. 因为正方形边长为 $sqrt(2)$，所以其对角线长为 $2$，从而 $O A=O B=1$. 又在直角三角形 $A O A_1$ 中，$A A_1=sqrt(2)$，故 $O A_1=1$. 因此可取
-$A=(1,0,0)$，$B=(0,1,0)$，$C=(-1,0,0)$，$D=(0,-1,0)$，$A_1=(0,0,1)$. 由四棱柱的平移关系，$B_1=(-1,1,1)$，$D_1=(-1,-1,1)$.
+建立空间直角坐标系，使 #mi(`O`) 为原点，#mi(`OA`)，#mi(`OB`)，#mi(`OA_{1}`) 分别为三个坐标轴的正向. 因为正方形边长为 #mi(`\sqrt{2}`)，所以其对角线长为 #mi(`2`)，从而 #mi(`OA=OB=1`). 又在直角三角形 #mi(`AOA_{1}`) 中，#mi(`AA_{1}=\sqrt{2}`)，故 #mi(`OA_{1}=1`). 因此可取
+
+#mi(`A=(1,0,0)`)，#mi(`B=(0,1,0)`)，#mi(`C=(-1,0,0)`)，#mi(`D=(0,-1,0)`)，#mi(`A_{1}=(0,0,1)`). 由四棱柱的平移关系，#mi(`B_{1}=(-1,1,1)`)，#mi(`D_{1}=(-1,-1,1)`).
 
 
-+ (1) $arrow(A_(1) C)=(-1,0,-1)$，$arrow(B B_1)=(-1,0,1)$，$arrow(B D)=(0,-2,0)$. 因此 $arrow(A_(1) C)\c d o t a r r o w(B B_1)=0$，且 $arrow(A_(1) C)\c d o t a r r o w(B D)=0$. 直线 $B B_1$ 与 $B D$ 是平面 $B B_(1) D_(1) D$ 内的两条相交直线，所以 $A_(1) C bot$ 平面 $B B_(1) D_(1) D$.
-+ (2) 平面 $O C B_1$ 的两个方向向量可取 $arrow(O C)=(-1,0,0)$ 和 $arrow(O B_1)=(-1,1,1)$，故其法向量可取 $bold(n)_1=(0,1,-1)$. 平面 $B B_(1) D_(1) D$ 的两个方向向量可取 $arrow(B B_1)=(-1,0,1)$ 和 $arrow(B D)=(0,-2,0)$，故其法向量可取 $bold(n)_2=(1,0,1)$. 于是 $|bold(n)_1\c d o t b o l d(n)_2|=1$，$|bold(n)_1|=|bold(n)_2|=sqrt(2)$，所以 $cos theta =(1)/(2)$. 取两平面的锐角夹角，得 $theta =(pi)/(3)$.
++ (1)
 ]
 
 #problem(21)[
-在一场娱乐晚会上，有 $5$ 位民间歌手（$1$ 至 $5$ 号）登台演唱. 由现场数百名观众投票选出最受欢迎歌手. 各位观众须彼此独立地在选票上选 $3$ 名歌手，其中观众甲是 $1$ 号歌手的歌迷，他必选 $1$ 号，不选 $2$ 号，另在 $3$ 至 $5$ 号中随机选 $2$ 名. 观众乙和丙对 $5$ 位歌手的演唱没有偏爱，因此在 $1$ 至 $5$ 号中随机选 $3$ 名歌手.
+在一场娱乐晚会上，有 #mi(`5`) 位民间歌手（#mi(`1`) 至 #mi(`5`) 号）登台演唱. 由现场数百名观众投票选出最受欢迎歌手. 各位观众须彼此独立地在选票上选 #mi(`3`) 名歌手，其中观众甲是 #mi(`1`) 号歌手的歌迷，他必选 #mi(`1`) 号，不选 #mi(`2`) 号，另在 #mi(`3`) 至 #mi(`5`) 号中随机选 #mi(`2`) 名. 观众乙和丙对 #mi(`5`) 位歌手的演唱没有偏爱，因此在 #mi(`1`) 至 #mi(`5`) 号中随机选 #mi(`3`) 名歌手.
 
 
-+ (1) 求观众甲选中 $3$ 号歌手且观众乙未选中 $3$ 号歌手的概率；
-+ (2) $X$ 表示 $3$ 号歌手得到观众甲、乙、丙的票数之和，求 $X$ 的分布列和数学期望.
++ (1)
 ]
 
 #solution[
-+ (1) 观众甲从 $3$，$4$，$5$ 号中选取 $2$ 名，等可能的选法有 $C_3^2=3$ 种，其中选中 $3$ 号的选法有 $2$ 种，所以观众甲选中 $3$ 号的概率为 $(2)/(3)$. 观众乙从 $5$ 位歌手中选取 $3$ 名，选中 $3$ 号的概率为 $(C_4^2)/(C_5^3)=(3)/(5)$，所以未选中的概率为 $(2)/(5)$. 由于甲、乙彼此独立，所求概率为 $(2)/(3) times (2)/(5)=(4)/(15)$.
-+ (2) 设事件 $A$，$B$，$C$ 分别表示观众甲、乙、丙选中 $3$ 号歌手. 则 $P(A)=(2)/(3)$，$P(B)=P(C)=(3)/(5)$，且三个事件相互独立. 随机变量 $X$ 的可能取值为 $0$，$1$，$2$，$3$. 令 $t$ 为形式变量，用 $t^r$ 记录恰有 $r$ 张票投给 $3$ 号歌手. 于是三个观众对应的概率生成因子分别为：观众甲为 $(1)/(3)+(2)/(3)t$，观众乙和丙各为 $(2)/(5)+(3)/(5)t$. 因而
-
-
-$ ((1)/(3)+(2)/(3)t)((2)/(5)+(3)/(5)t)^2 =(4)/(75)+(4)/(15)t+(11)/(25)t^2+(6)/(25)t^3 $
-
-
-比较 $t^r$ 的系数，得到 $P(X=0)=(4)/(75)$，$P(X=1)=(4)/(15)$，$P(X=2)=(11)/(25)$，$P(X=3)=(6)/(25)$.
-
-因此分布列为
-
-\begin{center}
-\begin{tabular}{c|cccc}
-$X$ & $0$ & $1$ & $2$ & $3$ \\
-\hline
-$P$ & $(4)/(75)$ & $(4)/(15)$ & $(11)/(25)$ & $(6)/(25)$
-\end{tabular}
-\end{center}
-
-数学期望为 $E(X)=0 dot (4)/(75)+1 dot (4)/(15)+2 dot (11)/(25)+3 dot (6)/(25)=(28)/(15)$.
++ (1)
 ]
 
 #problem(22)[
-已知动圆过定点 $A(4,0)$，且在 $y$ 轴上截得的弦 $M N$ 的长为 $8$.
+已知动圆过定点 #mi(`A(4,0)`)，且在 #mi(`y`) 轴上截得的弦 #mi(`MN`) 的长为 #mi(`8`).
 
 
-+ (1) 求动圆圆心的轨迹 $C$ 的方程；
-+ (2) 已知点 $B(-1,0)$，设不垂直于 $x$ 轴的直线 $l$ 与轨迹 $C$ 交于不同的两点 $P$，$Q$，若 $x$ 轴是 $angle P B Q$ 的角平分线，证明直线 $l$ 过定点.
++ (1)
 ]
 
 #solution[
-+ (1) 设动圆圆心为 $O_1(u,v)$，半径为 $R$. 设弦 $M N$ 的中点为 $H$，则 $O_(1) H bot M N$，且 $H$ 在 $y$ 轴上. 因为弦长为 $8$，所以 $M H=4$，从而 $R^2=O_(1) H^2+M H^2=u^2+16$. 又圆过点 $A(4,0)$，故 $R^2=(u-4)^2+v^2$. 两式相等得 $(u-4)^2+v^2=u^2+16$，即 $v^2=8 u$. 反之，若 $v^2=8 u$，以 $O_1(u,v)$ 为圆心、$R=sqrt(u^2+16)$ 为半径作圆，则 $(u-4)^2+v^2=u^2+16=R^2$，该圆过点 $A(4,0)$，且它在 $y$ 轴上的弦长为 $2 sqrt(R^2-u^2)=8$. 所以轨迹 $C$ 的方程为 $y^2=8 x$.
-+ (2) 设直线 $l$ 的方程为 $y=k x+b$. 若 $k=0$，它与 $y^2=8 x$ 至多有一个交点，不符合题设，故 $k\n e q0$. 设 $P(x_1,y_1)$，$Q(x_2,y_2)$，则 $x_1$，$x_2$ 是方程 $k^(2) x^2+(2 b k-8)x+b^2=0$ 的两个不同实根，所以 $x_1+x_2=(8-2 b k)/(k^2)$，$x_(1) x_2=(b^2)/(k^2)$.
-
-$x$ 轴是 $angle P B Q$ 的角平分线，关于 $x$ 轴对称的两条射线斜率互为相反数，因此 $(y_1)/(x_1+1)=-(y_2)/(x_2+1)$. 代入 $y_i=k x_i+b$ 得 $2 k x_(1) x_2+(k+b)(x_1+x_2)+2 b=0$. 再代入韦达定理，得到
-$2 k b^2+(k+b)(8-2 b k)+2 b k^2=0$，化简为 $8(k+b)=0$，故 $b=-k$. 因而 $l$ 的方程为 $y=k(x-1)$，恒过定点 $(1,0)$.
++ (1)
 ]
 
 #problem(23)[
-已知函数 $f(x)= e ""^x$，$x in RR$.
+已知函数 #mi(`f(x)=\mathrm{e}^{x}`)，#mi(`x\in\mathbb{R}`).
 
 
-+ (1) 若直线 $y=k x+1$ 与 $f(x)$ 的反函数的图象相切，求实数 $k$ 的值；
-+ (2) 设 $x>0$，讨论曲线 $y=f(x)$ 与曲线 $y=m x^2$（$m>0$）公共点的个数；
-+ (3) 设 $a<b$，比较 $(f(a)+f(b))/(2)$ 与 $(f(b)-f(a))/(b-a)$ 的大小，并说明理由.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) $f(x)= e ""^x$ 的反函数为 $g(x)= ln x$，其中 $x>0$. 设直线与曲线 $y= ln x$ 在 $x=t$ 处相切，则切点满足 $ln t=k t+1$，且切线斜率满足 $k=g'(t)=(1)/(t)$. 因而 $ln t=2$，得到 $t= e ""^2$，所以 $k= e ""^(-2)$.
-+ (2) 由 $e ""^x=m x^2$ 得 $m=(e ""^x)/(x^2)$. 令 $phi.alt (x)=(e ""^x)/(x^2)$，则 $phi.alt '(x)=(e ""^x(x-2))/(x^3)$. 另外，$lim_(x -> 0 ""^+) phi.alt (x)=+ oo$，$lim_(x -> + oo ) phi.alt (x)=+ oo$. 所以 $phi.alt$ 在 $(0,2)$ 上递减，在 $(2,+ oo )$ 上递增，且最小值为 $phi.alt (2)=(e ""^2)/(4)$. 因此，方程 $phi.alt (x)=m$ 在 $x>0$ 上：当 $0<m<(e ""^2)/(4)$ 时无解，即两曲线没有公共点；当 $m=(e ""^2)/(4)$ 时只有解 $x=2$，即有一个公共点；当 $m>(e ""^2)/(4)$ 时在 $(0,2)$ 和 $(2,+ oo )$ 各有一个解，即有两个公共点.
-+ (3) 函数 $f(x)= e ""^x$ 满足 $f''(x)= e ""^x>0$，所以它在 $[a,b]$ 上严格凸. 对任意 $x in (a,b)$，严格凸性给出
-
-
-$ f(x)<(b-x)/(b-a)f(a)+(x-a)/(b-a)f(b) $
-
-
-对 $x$ 从 $a$ 到 $b$ 积分，得到
-
-
-$ \i n t_a^b f(x) \m a t h r m d x <\i n t_a^b((b-x)/(b-a)f(a)+(x-a)/(b-a)f(b))\m a t h r m d x =(b-a)/(2)(f(a)+f(b)) $
-
-
-由于 $b-a>0$，再除以 $b-a$，并利用 $\i n t_a^b e ""^x \m a t h r m d x=f(b)-f(a)$，可得
-
-
-$ (f(b)-f(a))/(b-a)<(f(a)+f(b))/(2) $
++ (1) 
++ (2)
 ]
 

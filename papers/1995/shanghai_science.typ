@@ -123,7 +123,15 @@ x^{2}-y^{2}=0\iff (x-y)(x+y)=0
 
 #problem(6)[
 当 #mi(`a\neq 0`) 时，函数 #mi(`y=ax+b`) 和 #mi(`y=b^{ax}`) 的图象只可能是（ ）
-  #choices([[width=0.15\paperwidth]img/1995/shanghai_science/q6_optA_nolabel.png], [[width=0.15\paperwidth]img/1995/shanghai_science/q6_optB_nolabel.png], [[width=0.15\paperwidth]img/1995/shanghai_science/q6_optC_nolabel.png], [[width=0.15\paperwidth]img/1995/shanghai_science/q6_optD_nolabel.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/1995/img/shanghai_science/q6_optA_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1995/img/shanghai_science/q6_optB_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1995/img/shanghai_science/q6_optC_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1995/img/shanghai_science/q6_optD_nolabel.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
@@ -691,7 +699,9 @@ w=\mathrm{e}^{\mathrm{i}\beta}\left(1+\mathrm{e}^{2\pi\frac{\mathrm{i}}{3}}\righ
 
 
 
-[max width=0.42\linewidth]img/1995/shanghai_science/q21_fig1.png
+
+#align(center)[#image("/papers/1995/img/shanghai_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -719,7 +729,9 @@ w=\mathrm{e}^{\mathrm{i}\beta}\left(1+\mathrm{e}^{2\pi\frac{\mathrm{i}}{3}}\righ
 
 
 
-[max width=0.34\linewidth]img/1995/shanghai_science/q23_fig1.png
+
+#align(center)[#image("/papers/1995/img/shanghai_science/q23_fig1.png", width: 28%)]
+
 ]
 
 #solution[

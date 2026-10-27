@@ -1,8 +1,95 @@
 {
-  "title": "1977年普通高等学校招生全国统一考试",
-  "subtitle": "1977年新疆卷（理）",
   "year": "1977",
   "slug": "xinjiang_science",
+  "title": "1977年新疆卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "填空题",
@@ -10,9 +97,11 @@
         {
           "num": 1,
           "body": "<ol class=\"enumerate\"><li><p>$\\log_{3} \\frac{1}{27}=\\underline{\\hspace{2.5em}}{}$.</p></li><li><p>$\\log_{10}\\left( \\log_{10}10 \\right)=\\underline{\\hspace{2.5em}}{}$.</p></li></ol>",
-          "choices": null,
-          "answer": "<ol class=\"enumerate\"><li><p>$-3$</p></li><li><p>$0$</p></li></ol>",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $27=3^{3}$，所以 $\\dfrac{1}{27}=3^{-3}$，从而</p><p>$\\log_{3}\\dfrac{1}{27}=\\log_{3} 3^{-3}=-3$.</p></li><li><p>先计算内层对数：$\\log_{10}10=1$. 因为 $1>0$，外层对数有意义，且</p><p>$\\log_{10}\\left(\\log_{10}10\\right)=\\log_{10}1=0$.</p></li></ol>"
+          "choices": [],
+          "answer": "\\begin{enumerate}\r\n\\item \\(-3\\)\r\n\\item \\(0\\)\r\n\\end{enumerate}",
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $27=3^{3}$，所以 $\\dfrac{1}{27}=3^{-3}$，从而</p><p>$\\log_{3}\\dfrac{1}{27}=\\log_{3} 3^{-3}=-3$.</p></li><li><p>先计算内层对数：$\\log_{10}10=1$. 因为 $1>0$，外层对数有意义，且</p><p>$\\log_{10}\\left(\\log_{10}10\\right)=\\log_{10}1=0$.</p></li></ol>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -22,65 +111,83 @@
         {
           "num": 2,
           "body": "当 $a$ 取什么值时，方程 $x^{2}-2x+\\lg a=0$ 有实数根.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>要使 $\\lg a$ 有意义，必须先满足 $a>0$. 在此条件下，原式是关于 $x$ 的一元二次方程，其判别式为</p>\n$$\n\\Delta=(-2)^{2}-4\\lg a=4-4\\lg a=4\\left(1-\\lg a\\right)\n$$\n<p>一元二次方程有实数根的充要条件是 $\\Delta\\geq0$，因此</p>\n$$\n4\\left(1-\\lg a\\right)\\geq0 \\Longleftrightarrow  \\lg a\\leq1\n$$\n<p>由于常用对数函数在正数范围内递增，且 $1=\\lg10$，所以 $\\lg a\\leq1$ 等价于 $a\\leq10$. 与定义域条件 $a>0$ 合并，得到</p>\n$$\n0<a\\leq10\n$$\n<p>反过来，若 $0<a\\leq10$，则 $\\lg a$ 有意义，并且 $\\lg a\\leq1$，于是 $\\Delta=4(1-\\lg a)\\geq0$，原方程确有实数根. 因此所求取值范围为 $0<a\\leq10$.</p>"
+          "solution": "<p>要使 $\\lg a$ 有意义，必须先满足 $a>0$. 在此条件下，原式是关于 $x$ 的一元二次方程，其判别式为</p>\n$$\n\\Delta=(-2)^{2}-4\\lg a=4-4\\lg a=4\\left(1-\\lg a\\right)\n$$\n<p>一元二次方程有实数根的充要条件是 $\\Delta\\geq0$，因此</p>\n$$\n4\\left(1-\\lg a\\right)\\geq0 \\Longleftrightarrow  \\lg a\\leq1\n$$\n<p>由于常用对数函数在正数范围内递增，且 $1=\\lg10$，所以 $\\lg a\\leq1$ 等价于 $a\\leq10$. 与定义域条件 $a>0$ 合并，得到</p>\n$$\n0<a\\leq10\n$$\n<p>反过来，若 $0<a\\leq10$，则 $\\lg a$ 有意义，并且 $\\lg a\\leq1$，于是 $\\Delta=4(1-\\lg a)\\geq0$，原方程确有实数根. 因此所求取值范围为 $0<a\\leq10$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "解方程：$7^{\\left(2x^2+x-6\\right)}=1$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为 $7>0$ 且 $7\\neq1$，指数函数 $7^{t}$ 在实数范围内是单调函数，故 $7^{t}=1=7^{0}$ 当且仅当 $t=0$. 因此原方程等价于</p>\n$$\n2x^{2}+x-6=0\n$$\n<p>将左边因式分解，得</p>\n$$\n2x^{2}+x-6=(2x-3)(x+2)=0\n$$\n<p>所以 $2x-3=0$ 或 $x+2=0$，即</p>\n$$\nx=\\frac{3}{2} \\text{或}  x=-2\n$$\n<p>这两个值都使指数 $2x^{2}+x-6$ 等于 $0$，代回原方程均成立. 所以原方程的解为 $x=\\frac{3}{2}$ 或 $x=-2$.</p>"
+          "solution": "<p>因为 $7>0$ 且 $7\\neq1$，指数函数 $7^{t}$ 在实数范围内是单调函数，故 $7^{t}=1=7^{0}$ 当且仅当 $t=0$. 因此原方程等价于</p>\n$$\n2x^{2}+x-6=0\n$$\n<p>将左边因式分解，得</p>\n$$\n2x^{2}+x-6=(2x-3)(x+2)=0\n$$\n<p>所以 $2x-3=0$ 或 $x+2=0$，即</p>\n$$\nx=\\frac{3}{2} \\text{或}  x=-2\n$$\n<p>这两个值都使指数 $2x^{2}+x-6$ 等于 $0$，代回原方程均成立. 所以原方程的解为 $x=\\frac{3}{2}$ 或 $x=-2$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "求等比数列 $\\sqrt[6]{3}$，$\\sqrt[3]{3}$，$\\sqrt{3}$，$\\ldots$ 的公比 $q$，并写出它的第六项 $a_{6}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将前三项写成以 $3$ 为底的幂，得到</p><p>$a_{1}=3^{\\frac{1}{6}}$，$a_{2}=3^{\\frac{2}{6}}$，$a_{3}=3^{\\frac{3}{6}}$.</p><p>于是</p><p>$\\frac{a_{2}}{a_{1}}=3^{\\frac{2}{6}-\\frac{1}{6}}=3^{\\frac{1}{6}}$，$\\frac{a_{3}}{a_{2}}=3^{\\frac{3}{6}-\\frac{2}{6}}=3^{\\frac{1}{6}}$</p><p>两相邻项之比相同，故公比为</p>\n$$\nq=3^{\\frac{1}{6}}=\\sqrt[6]{3}\n$$\n<p>等比数列的第六项满足 $a_{6}=a_{1}q^{5}$，所以</p>\n$$\na_{6}=3^{\\frac{1}{6}}\\left(3^{\\frac{1}{6}}\\right)^{5}=3^{\\frac{6}{6}}=3\n$$\n<p>因此 $q=\\sqrt[6]{3}$，$a_{6}=3$.</p>"
+          "solution": "<p>将前三项写成以 $3$ 为底的幂，得到</p><p>$a_{1}=3^{\\frac{1}{6}}$，$a_{2}=3^{\\frac{2}{6}}$，$a_{3}=3^{\\frac{3}{6}}$.</p><p>于是</p><p>$\\frac{a_{2}}{a_{1}}=3^{\\frac{2}{6}-\\frac{1}{6}}=3^{\\frac{1}{6}}$，$\\frac{a_{3}}{a_{2}}=3^{\\frac{3}{6}-\\frac{2}{6}}=3^{\\frac{1}{6}}$</p><p>两相邻项之比相同，故公比为</p>\n$$\nq=3^{\\frac{1}{6}}=\\sqrt[6]{3}\n$$\n<p>等比数列的第六项满足 $a_{6}=a_{1}q^{5}$，所以</p>\n$$\na_{6}=3^{\\frac{1}{6}}\\left(3^{\\frac{1}{6}}\\right)^{5}=3^{\\frac{6}{6}}=3\n$$\n<p>因此 $q=\\sqrt[6]{3}$，$a_{6}=3$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "在底边为 $2\\text{ 尺}$，高为 $1.6\\text{ 尺}$ 的三角形内截一个最大面积的矩形，并使其一边在三角形的底边上，求矩形的长和宽各是多少？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>如图，设三角形为 $\\triangle ABC$，底边为 $BC$，高为 $AD$，矩形为 $EFGH$，其中 $FG$ 在 $BC$ 上. 由于矩形的上边 $EH\\parallel BC$，令 $K=EH\\cap AD$，并设矩形的长 $EH=x\\text{ 尺}$. 由相似三角形</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/xinjiang_science/q5_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>$\\triangle AEH\\sim\\triangle ABC$，$\\frac{EH}{BC}=\\frac{AK}{AD}$，$\\frac{x}{2}=\\frac{AK}{1.6}$.</p><p>因此 $AK=0.8x$. 矩形的宽为</p>\n$$\nHG=KD=AD-AK=1.6-0.8x\n$$\n<p>矩形完全位于三角形内时 $0\\leq x\\leq2$，其面积为</p>\n$$\nS=x\\left(1.6-0.8x\\right)=-0.8x^{2}+1.6x=-0.8\\left(x-1\\right)^{2}+0.8\n$$\n<p>因为 $\\left(x-1\\right)^{2}\\geq0$，所以 $S\\leq0.8$，且当且仅当 $x=1$ 时取等号. 此时</p>\n$$\nHG=1.6-0.8\\times1=0.8\n$$\n<p>故矩形的长为 $1\\text{ 尺}$，宽为 $0.8\\text{ 尺}$ 时，面积最大.</p>"
+          "solution": "<p>如图，设三角形为 $\\triangle ABC$，底边为 $BC$，高为 $AD$，矩形为 $EFGH$，其中 $FG$ 在 $BC$ 上. 由于矩形的上边 $EH\\parallel BC$，令 $K=EH\\cap AD$，并设矩形的长 $EH=x\\text{ 尺}$. 由相似三角形</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/xinjiang_science/q5_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>$\\triangle AEH\\sim\\triangle ABC$，$\\frac{EH}{BC}=\\frac{AK}{AD}$，$\\frac{x}{2}=\\frac{AK}{1.6}$.</p><p>因此 $AK=0.8x$. 矩形的宽为</p>\n$$\nHG=KD=AD-AK=1.6-0.8x\n$$\n<p>矩形完全位于三角形内时 $0\\leq x\\leq2$，其面积为</p>\n$$\nS=x\\left(1.6-0.8x\\right)=-0.8x^{2}+1.6x=-0.8\\left(x-1\\right)^{2}+0.8\n$$\n<p>因为 $\\left(x-1\\right)^{2}\\geq0$，所以 $S\\leq0.8$，且当且仅当 $x=1$ 时取等号. 此时</p>\n$$\nHG=1.6-0.8\\times1=0.8\n$$\n<p>故矩形的长为 $1\\text{ 尺}$，宽为 $0.8\\text{ 尺}$ 时，面积最大.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "求 $\\cot\\left(-1200^{\\circ}\\right)$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>利用余切函数的奇偶性与周期性，先有</p>\n$$\n\\cot\\left(-1200^{\\circ}\\right)=-\\cot1200^{\\circ}=-\\cot\\left(3\\times360^{\\circ}+120^{\\circ}\\right)=-\\cot120^{\\circ}\n$$\n<p>又因为 $120^{\\circ}=180^{\\circ}-60^{\\circ}$，所以</p>\n$$\n\\cot120^{\\circ}=\\frac{\\cos120^{\\circ}}{\\sin120^{\\circ}}=\\frac{-\\frac{1}{2}}{\\frac{\\sqrt{3}}{2}}=-\\frac{\\sqrt{3}}{3}\n$$\n<p>从而</p>\n$$\n\\cot\\left(-1200^{\\circ}\\right)=-\\left(-\\frac{\\sqrt{3}}{3}\\right)=\\frac{\\sqrt{3}}{3}\n$$"
+          "solution": "<p>利用余切函数的奇偶性与周期性，先有</p>\n$$\n\\cot\\left(-1200^{\\circ}\\right)=-\\cot1200^{\\circ}=-\\cot\\left(3\\times360^{\\circ}+120^{\\circ}\\right)=-\\cot120^{\\circ}\n$$\n<p>又因为 $120^{\\circ}=180^{\\circ}-60^{\\circ}$，所以</p>\n$$\n\\cot120^{\\circ}=\\frac{\\cos120^{\\circ}}{\\sin120^{\\circ}}=\\frac{-\\frac{1}{2}}{\\frac{\\sqrt{3}}{2}}=-\\frac{\\sqrt{3}}{3}\n$$\n<p>从而</p>\n$$\n\\cot\\left(-1200^{\\circ}\\right)=-\\left(-\\frac{\\sqrt{3}}{3}\\right)=\\frac{\\sqrt{3}}{3}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "已知 $\\sin\\alpha=-\\frac{12}{13}$，并且 $\\pi<\\alpha<\\frac{3\\pi}{2}$，求 $\\cos\\frac{\\alpha}{2}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由 $\\pi<\\alpha<\\frac{3\\pi}{2}$，知 $\\alpha$ 在第三象限，所以 $\\cos\\alpha<0$. 由平方关系</p>\n$$\n\\cos^{2}\\alpha=1-\\sin^{2}\\alpha=1-\\left(-\\frac{12}{13}\\right)^{2}=1-\\frac{144}{169}=\\frac{25}{169}\n$$\n<p>并结合 $\\cos\\alpha<0$，得到</p>\n$$\n\\cos\\alpha=-\\frac{5}{13}\n$$\n<p>将 $\\pi<\\alpha<\\frac{3\\pi}{2}$ 同除以 $2$，得</p>\n$$\n\\frac{\\pi}{2}<\\frac{\\alpha}{2}<\\frac{3\\pi}{4}\n$$\n<p>因此 $\\frac{\\alpha}{2}$ 在第二象限，$\\cos\\frac{\\alpha}{2}<0$. 由半角公式</p>\n$$\n\\cos\\frac{\\alpha}{2}=-\\sqrt{\\frac{1+\\cos\\alpha}{2}}=-\\sqrt{\\frac{1-\\frac{5}{13}}{2}}=-\\sqrt{\\frac{4}{13}}=-\\frac{2\\sqrt{13}}{13}\n$$"
+          "solution": "<p>由 $\\pi<\\alpha<\\frac{3\\pi}{2}$，知 $\\alpha$ 在第三象限，所以 $\\cos\\alpha<0$. 由平方关系</p>\n$$\n\\cos^{2}\\alpha=1-\\sin^{2}\\alpha=1-\\left(-\\frac{12}{13}\\right)^{2}=1-\\frac{144}{169}=\\frac{25}{169}\n$$\n<p>并结合 $\\cos\\alpha<0$，得到</p>\n$$\n\\cos\\alpha=-\\frac{5}{13}\n$$\n<p>将 $\\pi<\\alpha<\\frac{3\\pi}{2}$ 同除以 $2$，得</p>\n$$\n\\frac{\\pi}{2}<\\frac{\\alpha}{2}<\\frac{3\\pi}{4}\n$$\n<p>因此 $\\frac{\\alpha}{2}$ 在第二象限，$\\cos\\frac{\\alpha}{2}<0$. 由半角公式</p>\n$$\n\\cos\\frac{\\alpha}{2}=-\\sqrt{\\frac{1+\\cos\\alpha}{2}}=-\\sqrt{\\frac{1-\\frac{5}{13}}{2}}=-\\sqrt{\\frac{4}{13}}=-\\frac{2\\sqrt{13}}{13}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "三角形的三边长分别是 $4\\mathrm{~cm}$，$5\\mathrm{~cm}$，$\\sqrt{61}\\mathrm{~cm}$，求这个三角形内最大角的度数.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>先验证三条线段可以组成三角形. 因为 $\\sqrt{61}>5$，只需检查最长边对应的不等式：</p>\n$$\n\\sqrt{61}<4+5=9\n$$\n<p>另外 $4+\\sqrt{61}>5$ 和 $5+\\sqrt{61}>4$ 显然成立，所以三条边确能组成三角形.</p><p>三角形中最长边所对的角最大. 设边长 $\\sqrt{61}\\mathrm{~cm}$ 所对的最大角为 $\\alpha$，由余弦定理</p>\n$$\n\\cos\\alpha=\\frac{4^{2}+5^{2}-\\left(\\sqrt{61}\\right)^{2}}{2\\times4\\times5}=\\frac{16+25-61}{40}=-\\frac{1}{2}\n$$\n<p>因为 $0^{\\circ}<\\alpha<180^{\\circ}$，余弦函数在该区间内严格递减，且 $\\cos120^{\\circ}=-\\frac{1}{2}$，所以 $\\alpha=120^{\\circ}$. 故这个三角形内最大的角是 $120^{\\circ}$.</p>"
+          "solution": "<p>先验证三条线段可以组成三角形. 因为 $\\sqrt{61}>5$，只需检查最长边对应的不等式：</p>\n$$\n\\sqrt{61}<4+5=9\n$$\n<p>另外 $4+\\sqrt{61}>5$ 和 $5+\\sqrt{61}>4$ 显然成立，所以三条边确能组成三角形.</p><p>三角形中最长边所对的角最大. 设边长 $\\sqrt{61}\\mathrm{~cm}$ 所对的最大角为 $\\alpha$，由余弦定理</p>\n$$\n\\cos\\alpha=\\frac{4^{2}+5^{2}-\\left(\\sqrt{61}\\right)^{2}}{2\\times4\\times5}=\\frac{16+25-61}{40}=-\\frac{1}{2}\n$$\n<p>因为 $0^{\\circ}<\\alpha<180^{\\circ}$，余弦函数在该区间内严格递减，且 $\\cos120^{\\circ}=-\\frac{1}{2}$，所以 $\\alpha=120^{\\circ}$. 故这个三角形内最大的角是 $120^{\\circ}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "求经过圆 $2x^{2}-20x+2y^{2}+18=0$ 上一点 $P\\left(3,2\\sqrt{3}\\right)$ 的切线方程.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将圆的方程配方，得</p>\n$$\n2x^{2}-20x+2y^{2}+18=0   \\Longleftrightarrow   2\\left(x-5\\right)^{2}+2y^{2}=32   \\Longleftrightarrow   \\left(x-5\\right)^{2}+y^{2}=16\n$$\n<p>所以圆心为 $O(5,0)$，半径为 $4$. 代入 $P\\left(3,2\\sqrt{3}\\right)$ 验证：</p>\n$$\n\\left(3-5\\right)^{2}+\\left(2\\sqrt{3}\\right)^{2}=4+12=16\n$$\n<p>故 $P$ 确在圆上.</p><p>半径方向向量为</p>\n$$\n\\overrightarrow{OP}=\\left(-2,2\\sqrt{3}\\right)\n$$\n<p>设切线上的任意一点为 $Q(x,y)$，则 $\\overrightarrow{PQ}=\\left(x-3,y-2\\sqrt{3}\\right)$. 因为切线垂直于半径，故</p>\n$$\n\\overrightarrow{OP}\\cdot\\overrightarrow{PQ}=0\n$$\n<p>即</p>\n$$\n\\left(-2,2\\sqrt{3}\\right)\\cdot\\left(x-3,y-2\\sqrt{3}\\right)=0\n$$\n<p>展开并化简，得</p>\n$$\n-2\\left(x-3\\right)+2\\sqrt{3}\\left(y-2\\sqrt{3}\\right)=0   \\Longleftrightarrow   \\sqrt{3}\\,y-x-3=0\n$$\n<p>所以所求切线方程为 $\\sqrt{3}\\,y-x-3=0$.</p>"
+          "solution": "<p>将圆的方程配方，得</p>\n$$\n2x^{2}-20x+2y^{2}+18=0   \\Longleftrightarrow   2\\left(x-5\\right)^{2}+2y^{2}=32   \\Longleftrightarrow   \\left(x-5\\right)^{2}+y^{2}=16\n$$\n<p>所以圆心为 $O(5,0)$，半径为 $4$. 代入 $P\\left(3,2\\sqrt{3}\\right)$ 验证：</p>\n$$\n\\left(3-5\\right)^{2}+\\left(2\\sqrt{3}\\right)^{2}=4+12=16\n$$\n<p>故 $P$ 确在圆上.</p><p>半径方向向量为</p>\n$$\n\\overrightarrow{OP}=\\left(-2,2\\sqrt{3}\\right)\n$$\n<p>设切线上的任意一点为 $Q(x,y)$，则 $\\overrightarrow{PQ}=\\left(x-3,y-2\\sqrt{3}\\right)$. 因为切线垂直于半径，故</p>\n$$\n\\overrightarrow{OP}\\cdot\\overrightarrow{PQ}=0\n$$\n<p>即</p>\n$$\n\\left(-2,2\\sqrt{3}\\right)\\cdot\\left(x-3,y-2\\sqrt{3}\\right)=0\n$$\n<p>展开并化简，得</p>\n$$\n-2\\left(x-3\\right)+2\\sqrt{3}\\left(y-2\\sqrt{3}\\right)=0   \\Longleftrightarrow   \\sqrt{3}\\,y-x-3=0\n$$\n<p>所以所求切线方程为 $\\sqrt{3}\\,y-x-3=0$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "圆弧拱桥的拱跨径 $AB=16\\text{ 米}$，主拱高为 $2.5\\text{ 米}$，计算圆弧 $\\widehat{AB}$ 的半径是多少米？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>如图，$AB$ 是圆弧 $\\widehat{AB}$ 的弦，$CD$ 是主拱高，且 $CD\\perp AB$ 并经过圆心 $O$. 过圆心且垂直于弦的直线平分弦，所以</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/xinjiang_science/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>\n$$\nAD=DB=\\frac{1}{2}AB=8\\text{ 米}\n$$\n<p>设圆弧 $\\widehat{AB}$ 的半径为 $R\\text{ 米}$. 因为主拱高 $CD=2.5\\text{ 米}$，且 $OC=R$，所以</p>\n$$\nOD=OC-CD=R-2.5\n$$\n<p>在直角三角形 $ODB$ 中，$OB=R$，$DB=8$，由勾股定理</p>\n$$\nR^{2}=(R-2.5)^{2}+8^{2}  =R^{2}-5R+6.25+64\n$$\n<p>约去两边的 $R^{2}$，得</p><p>$5R=70.25$，$R=14.05$.</p><p>因此圆弧 $\\widehat{AB}$ 的半径是 $14.05\\text{ 米}$.</p>"
+          "solution": "<p>如图，$AB$ 是圆弧 $\\widehat{AB}$ 的弦，$CD$ 是主拱高，且 $CD\\perp AB$ 并经过圆心 $O$. 过圆心且垂直于弦的直线平分弦，所以</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/xinjiang_science/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>\n$$\nAD=DB=\\frac{1}{2}AB=8\\text{ 米}\n$$\n<p>设圆弧 $\\widehat{AB}$ 的半径为 $R\\text{ 米}$. 因为主拱高 $CD=2.5\\text{ 米}$，且 $OC=R$，所以</p>\n$$\nOD=OC-CD=R-2.5\n$$\n<p>在直角三角形 $ODB$ 中，$OB=R$，$DB=8$，由勾股定理</p>\n$$\nR^{2}=(R-2.5)^{2}+8^{2}  =R^{2}-5R+6.25+64\n$$\n<p>约去两边的 $R^{2}$，得</p><p>$5R=70.25$，$R=14.05$.</p><p>因此圆弧 $\\widehat{AB}$ 的半径是 $14.05\\text{ 米}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -90,30 +197,38 @@
         {
           "num": 11,
           "body": "解方程：$\\log_{16-3x}\\left(x-2\\right)=\\log_{8}\\left(2\\sqrt{2}\\right)$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>对数有意义要求真数为正、底数为正且底数不为 $1$，所以</p><p>$x-2>0$，$16-3x>0$，$16-3x\\neq1$.</p><p>这给出定义域</p><p>$2<x<\\frac{16}{3}$，$x\\neq5$.</p><p>又因为 $2\\sqrt{2}=2^{\\frac{3}{2}}=\\left(2^{3}\\right)^{\\frac{1}{2}}=8^{\\frac{1}{2}}$，所以</p>\n$$\n\\log_{8}\\left(2\\sqrt{2}\\right)=\\log_{8} 8^{\\frac{1}{2}}=\\frac{1}{2}\n$$\n<p>原方程化为</p>\n$$\n\\log_{16-3x}\\left(x-2\\right)=\\frac{1}{2}\n$$\n<p>在上述定义域内，依据对数的定义，这等价于</p>\n$$\nx-2=\\left(16-3x\\right)^{\\frac{1}{2}}\n$$\n<p>由于定义域给出 $x-2>0$，两边平方不会引入符号不满足原式的解，得</p>\n$$\n16-3x=(x-2)^{2}=x^{2}-4x+4\n$$\n<p>即</p>\n$$\nx^{2}-x-12=0=(x-4)(x+3)\n$$\n<p>候选值为 $x=4$ 或 $x=-3$. 其中 $x=-3$ 不满足 $x-2>0$，舍去；$x=4$ 满足 $2<x<\\frac{16}{3}$，且底数 $16-3x=4\\neq1$，代回原方程成立. 因此原方程的解为 $x=4$.</p>"
+          "solution": "<p>对数有意义要求真数为正、底数为正且底数不为 $1$，所以</p><p>$x-2>0$，$16-3x>0$，$16-3x\\neq1$.</p><p>这给出定义域</p><p>$2<x<\\frac{16}{3}$，$x\\neq5$.</p><p>又因为 $2\\sqrt{2}=2^{\\frac{3}{2}}=\\left(2^{3}\\right)^{\\frac{1}{2}}=8^{\\frac{1}{2}}$，所以</p>\n$$\n\\log_{8}\\left(2\\sqrt{2}\\right)=\\log_{8} 8^{\\frac{1}{2}}=\\frac{1}{2}\n$$\n<p>原方程化为</p>\n$$\n\\log_{16-3x}\\left(x-2\\right)=\\frac{1}{2}\n$$\n<p>在上述定义域内，依据对数的定义，这等价于</p>\n$$\nx-2=\\left(16-3x\\right)^{\\frac{1}{2}}\n$$\n<p>由于定义域给出 $x-2>0$，两边平方不会引入符号不满足原式的解，得</p>\n$$\n16-3x=(x-2)^{2}=x^{2}-4x+4\n$$\n<p>即</p>\n$$\nx^{2}-x-12=0=(x-4)(x+3)\n$$\n<p>候选值为 $x=4$ 或 $x=-3$. 其中 $x=-3$ 不满足 $x-2>0$，舍去；$x=4$ 满足 $2<x<\\frac{16}{3}$，且底数 $16-3x=4\\neq1$，代回原方程成立. 因此原方程的解为 $x=4$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "<p>已知 $0^{\\circ}<x<45^{\\circ}$，且有</p><p>$\\lg\\tan x-\\lg\\sin x=\\lg\\cos x-\\lg\\cot x+2\\lg3-\\frac{3}{2}\\lg2$，试求 $\\sin x-\\cos x$ 的值.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由 $0^{\\circ}<x<45^{\\circ}$，知 $\\sin x>0$、$\\cos x>0$、$\\tan x>0$、$\\cot x>0$，所以题中各个对数均有意义. 利用对数的商的运算性质和 $\\tan x=\\frac{\\sin x}{\\cos x}$，左边为</p>\n$$\n\\lg\\tan x-\\lg\\sin x  =\\lg\\frac{\\tan x}{\\sin x}=\\lg\\frac{1}{\\cos x}\n$$\n<p>右边利用 $\\cot x=\\frac{\\cos x}{\\sin x}$、$2\\lg3=\\lg9$ 和 $\\frac{3}{2}\\lg2=\\lg2^{\\frac{3}{2}}=\\lg(2\\sqrt{2})$，得</p>\n$$\n\\lg\\cos x-\\lg\\cot x+2\\lg3-\\frac{3}{2}\\lg2  =\\lg\\frac{\\cos x}{\\cot x}+\\lg9-\\lg(2\\sqrt{2})  =\\lg\\frac{9\\sin x}{2\\sqrt{2}}\n$$\n<p>因此</p>\n$$\n\\lg\\frac{1}{\\cos x}=\\lg\\frac{9\\sin x}{2\\sqrt{2}}\n$$\n<p>两边真数均为正，且 $\\lg t$ 在正数范围内为一一对应函数，故</p><p>$\\frac{1}{\\cos x}=\\frac{9\\sin x}{2\\sqrt{2}}$，$\\sin x\\cos x=\\frac{2\\sqrt{2}}{9}$.</p><p>由 $0^{\\circ}<x<45^{\\circ}$ 得 $\\sin x<\\cos x$，所以 $\\sin x-\\cos x<0$. 又</p>\n$$\n\\left(\\sin x-\\cos x\\right)^{2}  =\\sin^{2}x+\\cos^{2}x-2\\sin x\\cos x  =1-2\\sin x\\cos x  =1-\\frac{4\\sqrt{2}}{9}\n$$\n<p>于是</p>\n$$\n\\sin x-\\cos x=-\\sqrt{1-\\frac{4\\sqrt{2}}{9}}=-\\frac{\\sqrt{9-4\\sqrt{2}}}{3}\n$$\n<p>注意到 $9-4\\sqrt{2}=(2\\sqrt{2}-1)^{2}$，且 $2\\sqrt{2}-1>0$，所以</p>\n$$\n\\sin x-\\cos x=-\\frac{2\\sqrt{2}-1}{3}=\\frac{1-2\\sqrt{2}}{3}\n$$"
+          "solution": "<p>由 $0^{\\circ}<x<45^{\\circ}$，知 $\\sin x>0$、$\\cos x>0$、$\\tan x>0$、$\\cot x>0$，所以题中各个对数均有意义. 利用对数的商的运算性质和 $\\tan x=\\frac{\\sin x}{\\cos x}$，左边为</p>\n$$\n\\lg\\tan x-\\lg\\sin x  =\\lg\\frac{\\tan x}{\\sin x}=\\lg\\frac{1}{\\cos x}\n$$\n<p>右边利用 $\\cot x=\\frac{\\cos x}{\\sin x}$、$2\\lg3=\\lg9$ 和 $\\frac{3}{2}\\lg2=\\lg2^{\\frac{3}{2}}=\\lg(2\\sqrt{2})$，得</p>\n$$\n\\lg\\cos x-\\lg\\cot x+2\\lg3-\\frac{3}{2}\\lg2  =\\lg\\frac{\\cos x}{\\cot x}+\\lg9-\\lg(2\\sqrt{2})  =\\lg\\frac{9\\sin x}{2\\sqrt{2}}\n$$\n<p>因此</p>\n$$\n\\lg\\frac{1}{\\cos x}=\\lg\\frac{9\\sin x}{2\\sqrt{2}}\n$$\n<p>两边真数均为正，且 $\\lg t$ 在正数范围内为一一对应函数，故</p><p>$\\frac{1}{\\cos x}=\\frac{9\\sin x}{2\\sqrt{2}}$，$\\sin x\\cos x=\\frac{2\\sqrt{2}}{9}$.</p><p>由 $0^{\\circ}<x<45^{\\circ}$ 得 $\\sin x<\\cos x$，所以 $\\sin x-\\cos x<0$. 又</p>\n$$\n\\left(\\sin x-\\cos x\\right)^{2}  =\\sin^{2}x+\\cos^{2}x-2\\sin x\\cos x  =1-2\\sin x\\cos x  =1-\\frac{4\\sqrt{2}}{9}\n$$\n<p>于是</p>\n$$\n\\sin x-\\cos x=-\\sqrt{1-\\frac{4\\sqrt{2}}{9}}=-\\frac{\\sqrt{9-4\\sqrt{2}}}{3}\n$$\n<p>注意到 $9-4\\sqrt{2}=(2\\sqrt{2}-1)^{2}$，且 $2\\sqrt{2}-1>0$，所以</p>\n$$\n\\sin x-\\cos x=-\\frac{2\\sqrt{2}-1}{3}=\\frac{1-2\\sqrt{2}}{3}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "应用导数，求过曲线 $x^{2}+y^{2}-8x-2y+12=0$ 上一点 $P\\left(5,3\\right)$ 的切线方程.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>先验证给定点在曲线上：</p>\n$$\n5^{2}+3^{2}-8\\times5-2\\times3+12=25+9-40-6+12=0\n$$\n<p>所以 $P\\left(5,3\\right)$ 确在曲线上. 将 $y$ 看作 $x$ 的函数，对曲线方程两边关于 $x$ 求导，得到</p>\n$$\n2x+2y\\,y'-8-2y'=0\n$$\n<p>移项并合并含 $y'$ 的项，得</p><p>$(2y-2)y'=8-2x$，$y'=\\frac{8-2x}{2y-2}=\\frac{4-x}{y-1}$.</p><p>在点 $P\\left(5,3\\right)$ 处，分母 $y-1=2\\neq0$，切线斜率为</p>\n$$\nk=\\left.\\frac{4-x}{y-1}\\right|_{(x,y)=(5,3)}=-\\frac{1}{2}\n$$\n<p>由点斜式，切线方程为</p>\n$$\ny-3=-\\frac{1}{2}\\left(x-5\\right)\n$$\n<p>整理得</p>\n$$\ny=-\\frac{1}{2}x+\\frac{11}{2}\n$$"
+          "solution": "<p>先验证给定点在曲线上：</p>\n$$\n5^{2}+3^{2}-8\\times5-2\\times3+12=25+9-40-6+12=0\n$$\n<p>所以 $P\\left(5,3\\right)$ 确在曲线上. 将 $y$ 看作 $x$ 的函数，对曲线方程两边关于 $x$ 求导，得到</p>\n$$\n2x+2y\\,y'-8-2y'=0\n$$\n<p>移项并合并含 $y'$ 的项，得</p><p>$(2y-2)y'=8-2x$，$y'=\\frac{8-2x}{2y-2}=\\frac{4-x}{y-1}$.</p><p>在点 $P\\left(5,3\\right)$ 处，分母 $y-1=2\\neq0$，切线斜率为</p>\n$$\nk=\\left.\\frac{4-x}{y-1}\\right|_{(x,y)=(5,3)}=-\\frac{1}{2}\n$$\n<p>由点斜式，切线方程为</p>\n$$\ny-3=-\\frac{1}{2}\\left(x-5\\right)\n$$\n<p>整理得</p>\n$$\ny=-\\frac{1}{2}x+\\frac{11}{2}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "利用定积分，求椭圆 $4x^{2}+25y^{2}=100$ 的面积.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将椭圆方程两边除以 $100$，得</p>\n$$\n\\frac{x^{2}}{25}+\\frac{y^{2}}{4}=1\n$$\n<p>当 $-5\\leq x\\leq5$ 时，上、下半椭圆分别为</p><p>$y=2\\sqrt{1-\\frac{x^{2}}{25}}$，$y=-2\\sqrt{1-\\frac{x^{2}}{25}}$.</p><p>因此椭圆面积等于上、下半椭圆纵坐标之差的定积分：</p>\n$$\nS=\\int_{-5}^{5}4\\sqrt{1-\\frac{x^{2}}{25}}\\,\\mathrm{d}x  =8\\int_{0}^{5}\\sqrt{1-\\frac{x^{2}}{25}}\\,\\mathrm{d}x  =\\frac{8}{5}\\int_{0}^{5}\\sqrt{25-x^{2}}\\,\\mathrm{d}x\n$$\n<p>令 $x=5\\sin t$，则 $\\mathrm{d}x=5\\cos t\\,\\mathrm{d}t$. 当 $x=0$ 时 $t=0$，当 $x=5$ 时 $t=\\frac{\\pi}{2}$，且在此区间内 $\\cos t\\geq0$，所以 $\\sqrt{25-x^{2}}=5\\cos t$. 从而</p>\n$$\n\\int_{0}^{5}\\sqrt{25-x^{2}}\\,\\mathrm{d}x  =25\\int_{0}^{\\frac{\\pi}{2}}\\cos^{2}t\\,\\mathrm{d}t\n$$\n<p>利用 $\\cos^{2}t=\\frac{1+\\cos2t}{2}$，有</p>\n$$\n25\\int_{0}^{\\frac{\\pi}{2}}\\cos^{2}t\\,\\mathrm{d}t  =25\\left[\\frac{t}{2}+\\frac{\\sin2t}{4}\\right]_{0}^{\\frac{\\pi}{2}}=25\\cdot\\frac{\\pi}{4}\n$$\n<p>因此</p>\n$$\nS=\\frac{8}{5}\\cdot\\frac{25\\pi}{4}=10\\pi\n$$\n<p>故椭圆 $4x^{2}+25y^{2}=100$ 的面积是 $10\\pi$.</p>"
+          "solution": "<p>将椭圆方程两边除以 $100$，得</p>\n$$\n\\frac{x^{2}}{25}+\\frac{y^{2}}{4}=1\n$$\n<p>当 $-5\\leq x\\leq5$ 时，上、下半椭圆分别为</p><p>$y=2\\sqrt{1-\\frac{x^{2}}{25}}$，$y=-2\\sqrt{1-\\frac{x^{2}}{25}}$.</p><p>因此椭圆面积等于上、下半椭圆纵坐标之差的定积分：</p>\n$$\nS=\\int_{-5}^{5}4\\sqrt{1-\\frac{x^{2}}{25}}\\,\\mathrm{d}x  =8\\int_{0}^{5}\\sqrt{1-\\frac{x^{2}}{25}}\\,\\mathrm{d}x  =\\frac{8}{5}\\int_{0}^{5}\\sqrt{25-x^{2}}\\,\\mathrm{d}x\n$$\n<p>令 $x=5\\sin t$，则 $\\mathrm{d}x=5\\cos t\\,\\mathrm{d}t$. 当 $x=0$ 时 $t=0$，当 $x=5$ 时 $t=\\frac{\\pi}{2}$，且在此区间内 $\\cos t\\geq0$，所以 $\\sqrt{25-x^{2}}=5\\cos t$. 从而</p>\n$$\n\\int_{0}^{5}\\sqrt{25-x^{2}}\\,\\mathrm{d}x  =25\\int_{0}^{\\frac{\\pi}{2}}\\cos^{2}t\\,\\mathrm{d}t\n$$\n<p>利用 $\\cos^{2}t=\\frac{1+\\cos2t}{2}$，有</p>\n$$\n25\\int_{0}^{\\frac{\\pi}{2}}\\cos^{2}t\\,\\mathrm{d}t  =25\\left[\\frac{t}{2}+\\frac{\\sin2t}{4}\\right]_{0}^{\\frac{\\pi}{2}}=25\\cdot\\frac{\\pi}{4}\n$$\n<p>因此</p>\n$$\nS=\\frac{8}{5}\\cdot\\frac{25\\pi}{4}=10\\pi\n$$\n<p>故椭圆 $4x^{2}+25y^{2}=100$ 的面积是 $10\\pi$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

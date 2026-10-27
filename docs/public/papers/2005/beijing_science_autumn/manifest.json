@@ -1,8 +1,131 @@
 {
-  "title": "2005年普通高等学校招生全国统一考试",
-  "subtitle": "2005年北京卷（秋理）",
   "year": "2005",
   "slug": "beijing_science_autumn",
+  "title": "2005年北京卷（秋理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$\\complement_{U} M \\cap P=\\emptyset$"
           ],
           "answer": "",
-          "solution": "由 $x^{2}>1$ 得 $x>1$ 或 $x<-1$，所以 $P=(-\\infty,-1)\\cup(1,+\\infty)$，而 $M=(1,+\\infty)$. 因此 $M\\subsetneq P$，选项 C 正确. 另一方面，$-2\\in P$ 且 $-2\\notin M$，所以 $P\\not\\subseteq M$，选项 B 中的 $P\\subsetneq M$ 错误. 又 $\\complement_{U} M=(-\\infty,1]$，故 $\\complement_{U} M\\cap P=(-\\infty,-1)\\ne\\varnothing$，选项 D 错误；显然 $M\\ne P$，选项 A 错误. 因此正确选项为 C."
+          "solution": "由 $x^{2}>1$ 得 $x>1$ 或 $x<-1$，所以 $P=(-\\infty,-1)\\cup(1,+\\infty)$，而 $M=(1,+\\infty)$. 因此 $M\\subsetneq P$，选项 C 正确. 另一方面，$-2\\in P$ 且 $-2\\notin M$，所以 $P\\not\\subseteq M$，选项 B 中的 $P\\subsetneq M$ 错误. 又 $\\complement_{U} M=(-\\infty,1]$，故 $\\complement_{U} M\\cap P=(-\\infty,-1)\\ne\\varnothing$，选项 D 错误；显然 $M\\ne P$，选项 A 错误. 因此正确选项为 C.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +154,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "",
-          "solution": "<p>两直线 $A_{1}x+B_{1}y+C_{1}=0$ 和 $A_{2}x+B_{2}y+C_{2}=0$ 垂直的条件是 $A_{1}A_{2}+B_{1}B_{2}=0$. 本题中</p>\n$$\n(m+2)(m-2)+3m(m+2)=(m+2)(4m-2)=0\n$$\n<p>所以两直线垂直当且仅当 $m=-2$ 或 $m=\\frac{1}{2}$. 因此 $m=\\frac{1}{2}$ 能推出两直线垂直，但两直线垂直时还可能有 $m=-2$，故它是充分而不必要条件，正确选项为 B.</p>"
+          "solution": "<p>两直线 $A_{1}x+B_{1}y+C_{1}=0$ 和 $A_{2}x+B_{2}y+C_{2}=0$ 垂直的条件是 $A_{1}A_{2}+B_{1}B_{2}=0$. 本题中</p>\n$$\n(m+2)(m-2)+3m(m+2)=(m+2)(4m-2)=0\n$$\n<p>所以两直线垂直当且仅当 $m=-2$ 或 $m=\\frac{1}{2}$. 因此 $m=\\frac{1}{2}$ 能推出两直线垂直，但两直线垂直时还可能有 $m=-2$，故它是充分而不必要条件，正确选项为 B.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +168,9 @@
             "$150^{\\circ}$"
           ],
           "answer": "",
-          "solution": "<p>由 $\\mathbf{c}=\\mathbf{a}+\\mathbf{b}$ 且 $\\mathbf{c}\\perp\\mathbf{a}$，得</p>\n$$\n0=\\mathbf{c}\\cdot\\mathbf{a}=(\\mathbf{a}+\\mathbf{b})\\cdot\\mathbf{a}=|\\mathbf{a}|^{2}+\\mathbf{a}\\cdot\\mathbf{b}=1+\\mathbf{a}\\cdot\\mathbf{b}\n$$\n<p>因此 $\\mathbf{a}\\cdot\\mathbf{b}=-1$. 设 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{a}\\cdot\\mathbf{b}}{|\\mathbf{a}||\\mathbf{b}|}=\\frac{-1}{1\\cdot2}=-\\frac{1}{2}\n$$\n<p>由于 $0\\le\\theta\\le\\pi$，所以 $\\theta=120^{\\circ}$，正确选项为 C.</p>"
+          "solution": "<p>由 $\\mathbf{c}=\\mathbf{a}+\\mathbf{b}$ 且 $\\mathbf{c}\\perp\\mathbf{a}$，得</p>\n$$\n0=\\mathbf{c}\\cdot\\mathbf{a}=(\\mathbf{a}+\\mathbf{b})\\cdot\\mathbf{a}=|\\mathbf{a}|^{2}+\\mathbf{a}\\cdot\\mathbf{b}=1+\\mathbf{a}\\cdot\\mathbf{b}\n$$\n<p>因此 $\\mathbf{a}\\cdot\\mathbf{b}=-1$. 设 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{a}\\cdot\\mathbf{b}}{|\\mathbf{a}||\\mathbf{b}|}=\\frac{-1}{1\\cdot2}=-\\frac{1}{2}\n$$\n<p>由于 $0\\le\\theta\\le\\pi$，所以 $\\theta=120^{\\circ}$，正确选项为 C.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +182,9 @@
             "$6\\pi$"
           ],
           "answer": "",
-          "solution": "<p>将圆的方程化为</p>\n$$\nx^{2}+(y-6)^{2}=9\n$$\n<p>所以圆心为 $C(0,6)$，半径为 $3$，且 $OC=6$. 设两切点为 $T_{1}$，$T_{2}$，则 $CT_{1}\\perp OT_{1}$，在直角三角形 $OCT_{1}$ 中，$\\cos\\angle OCT_{1}=\\frac{CT_{1}}{OC}=\\frac{1}{2}$，从而 $\\angle OCT_{1}=60^{\\circ}$. 由对称性，$\\angle T_{1}CT_{2}=120^{\\circ}=\\frac{2\\pi}{3}$. 因此劣弧长为</p>\n$$\n3\\cdot\\frac{2\\pi}{3}=2\\pi\n$$\n<p>故正确选项为 B.</p>"
+          "solution": "<p>将圆的方程化为</p>\n$$\nx^{2}+(y-6)^{2}=9\n$$\n<p>所以圆心为 $C(0,6)$，半径为 $3$，且 $OC=6$. 设两切点为 $T_{1}$，$T_{2}$，则 $CT_{1}\\perp OT_{1}$，在直角三角形 $OCT_{1}$ 中，$\\cos\\angle OCT_{1}=\\frac{CT_{1}}{OC}=\\frac{1}{2}$，从而 $\\angle OCT_{1}=60^{\\circ}$. 由对称性，$\\angle T_{1}CT_{2}=120^{\\circ}=\\frac{2\\pi}{3}$. 因此劣弧长为</p>\n$$\n3\\cdot\\frac{2\\pi}{3}=2\\pi\n$$\n<p>故正确选项为 B.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +196,9 @@
             "$\\cos(\\alpha+\\beta)<\\cos\\alpha+\\cos\\beta$"
           ],
           "answer": "",
-          "solution": "<p>因为 $\\alpha$，$\\beta$ 都是锐角，所以 $0<\\cos\\alpha<1$，$0<\\cos\\beta<1$，并且</p>\n$$\n\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta<\\cos\\alpha\\cos\\beta<\\cos\\alpha<\\cos\\alpha+\\cos\\beta\n$$\n<p>因此选项 D 对任意锐角 $\\alpha$，$\\beta$ 都成立. 选项 A 因为 $\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta<\\sin\\alpha+\\sin\\beta$ 不成立；选项 B 取 $\\alpha=\\beta=\\frac{\\pi}{6}$ 即不成立；选项 C 取 $\\alpha=\\beta=\\frac{\\pi}{12}$，有 $\\cos(\\alpha+\\beta)=\\frac{\\sqrt{3}}{2}>2\\sin\\frac{\\pi}{12}=\\sin\\alpha+\\sin\\beta$，也不成立. 因此正确选项为 D.</p>"
+          "solution": "<p>因为 $\\alpha$，$\\beta$ 都是锐角，所以 $0<\\cos\\alpha<1$，$0<\\cos\\beta<1$，并且</p>\n$$\n\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta<\\cos\\alpha\\cos\\beta<\\cos\\alpha<\\cos\\alpha+\\cos\\beta\n$$\n<p>因此选项 D 对任意锐角 $\\alpha$，$\\beta$ 都成立. 选项 A 因为 $\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta<\\sin\\alpha+\\sin\\beta$ 不成立；选项 B 取 $\\alpha=\\beta=\\frac{\\pi}{6}$ 即不成立；选项 C 取 $\\alpha=\\beta=\\frac{\\pi}{12}$，有 $\\cos(\\alpha+\\beta)=\\frac{\\sqrt{3}}{2}>2\\sin\\frac{\\pi}{12}=\\sin\\alpha+\\sin\\beta$，也不成立. 因此正确选项为 D.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +210,9 @@
             "平面 $PAE\\perp$ 平面 $ABC$"
           ],
           "answer": "",
-          "solution": "<p>取正四面体棱长为 $1$，建立直角坐标系，使</p><p>$A=\\left(0,\\frac{\\sqrt{3}}{2},0\\right)$，$B=\\left(-\\frac{1}{2},0,0\\right)$，$C=\\left(\\frac{1}{2},0,0\\right)$，$P=\\left(0,\\frac{\\sqrt{3}}{6},\\sqrt{\\frac{2}{3}}\\right)$.</p><p>于是 $D=\\left(-\\frac{1}{4},\\frac{\\sqrt{3}}{4},0\\right)$，$E=(0,0,0)$，$F=\\left(\\frac{1}{4},\\frac{\\sqrt{3}}{4},0\\right)$.</p><p>由 $DF\\parallel BC$，且 $\\overrightarrow{DF}=\\left(\\frac{1}{2},0,0\\right)$，$\\overrightarrow{DP}=\\left(\\frac{1}{4},-\\frac{\\sqrt{3}}{12},\\sqrt{\\frac{2}{3}}\\right)$，</p><p>可取平面 $PDF$ 的法向量为</p>\n$$\n\\mathbf{n}=\\overrightarrow{DF}\\times\\overrightarrow{DP}=\\left(0,-\\frac{1}{2}\\sqrt{\\frac{2}{3}},-\\frac{\\sqrt{3}}{24}\\right)\n$$\n<p>又 $\\overrightarrow{DC}=\\left(\\frac{3}{4},-\\frac{\\sqrt{3}}{4},0\\right)$，故</p>\n$$\n\\overrightarrow{DC}\\cdot\\mathbf{n}=\\frac{\\sqrt{2}}{8}\\ne0\n$$\n<p>从而点 $C$ 不在平面 $PDF$ 内，故 $BC\\parallel$ 平面 $PDF$. 平面 $PAE$ 的方程为 $x=0$，其法向量为 $\\left(1,0,0\\right)$，而 $DF$ 平行于 $x$ 轴，所以 $DF\\perp$ 平面 $PAE$. 平面 $ABC$ 的方程为 $z=0$，法向量为 $\\left(0,0,1\\right)$，它与平面 $PAE$ 的法向量数量积为 $0$，所以平面 $PAE\\perp$ 平面 $ABC$，故 A、B、D 均成立.</p><p>平面 $PDF$ 内的两个方向向量可取 $\\overrightarrow{DF}=\\left(\\frac{1}{2},0,0\\right)$ 和 $\\overrightarrow{DP}=\\left(\\frac{1}{4},-\\frac{\\sqrt{3}}{12},\\sqrt{\\frac{2}{3}}\\right)$，其法向量可取</p>\n$$\n\\overrightarrow{DF}\\times\\overrightarrow{DP}=\\left(0,-\\frac{1}{2}\\sqrt{\\frac{2}{3}},-\\frac{\\sqrt{3}}{24}\\right)\n$$\n<p>平面 $ABC$ 的法向量为 $\\left(0,0,1\\right)$，两法向量的数量积为 $-\\frac{\\sqrt{3}}{24}\\ne0$，所以平面 $PDF$ 不垂直于平面 $ABC$. 故不成立的是 C.</p>"
+          "solution": "<p>取正四面体棱长为 $1$，建立直角坐标系，使</p><p>$A=\\left(0,\\frac{\\sqrt{3}}{2},0\\right)$，$B=\\left(-\\frac{1}{2},0,0\\right)$，$C=\\left(\\frac{1}{2},0,0\\right)$，$P=\\left(0,\\frac{\\sqrt{3}}{6},\\sqrt{\\frac{2}{3}}\\right)$.</p><p>于是 $D=\\left(-\\frac{1}{4},\\frac{\\sqrt{3}}{4},0\\right)$，$E=(0,0,0)$，$F=\\left(\\frac{1}{4},\\frac{\\sqrt{3}}{4},0\\right)$.</p><p>由 $DF\\parallel BC$，且 $\\overrightarrow{DF}=\\left(\\frac{1}{2},0,0\\right)$，$\\overrightarrow{DP}=\\left(\\frac{1}{4},-\\frac{\\sqrt{3}}{12},\\sqrt{\\frac{2}{3}}\\right)$，</p><p>可取平面 $PDF$ 的法向量为</p>\n$$\n\\mathbf{n}=\\overrightarrow{DF}\\times\\overrightarrow{DP}=\\left(0,-\\frac{1}{2}\\sqrt{\\frac{2}{3}},-\\frac{\\sqrt{3}}{24}\\right)\n$$\n<p>又 $\\overrightarrow{DC}=\\left(\\frac{3}{4},-\\frac{\\sqrt{3}}{4},0\\right)$，故</p>\n$$\n\\overrightarrow{DC}\\cdot\\mathbf{n}=\\frac{\\sqrt{2}}{8}\\ne0\n$$\n<p>从而点 $C$ 不在平面 $PDF$ 内，故 $BC\\parallel$ 平面 $PDF$. 平面 $PAE$ 的方程为 $x=0$，其法向量为 $\\left(1,0,0\\right)$，而 $DF$ 平行于 $x$ 轴，所以 $DF\\perp$ 平面 $PAE$. 平面 $ABC$ 的方程为 $z=0$，法向量为 $\\left(0,0,1\\right)$，它与平面 $PAE$ 的法向量数量积为 $0$，所以平面 $PAE\\perp$ 平面 $ABC$，故 A、B、D 均成立.</p><p>平面 $PDF$ 内的两个方向向量可取 $\\overrightarrow{DF}=\\left(\\frac{1}{2},0,0\\right)$ 和 $\\overrightarrow{DP}=\\left(\\frac{1}{4},-\\frac{\\sqrt{3}}{12},\\sqrt{\\frac{2}{3}}\\right)$，其法向量可取</p>\n$$\n\\overrightarrow{DF}\\times\\overrightarrow{DP}=\\left(0,-\\frac{1}{2}\\sqrt{\\frac{2}{3}},-\\frac{\\sqrt{3}}{24}\\right)\n$$\n<p>平面 $ABC$ 的法向量为 $\\left(0,0,1\\right)$，两法向量的数量积为 $-\\frac{\\sqrt{3}}{24}\\ne0$，所以平面 $PDF$ 不垂直于平面 $ABC$. 故不成立的是 C.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +224,9 @@
             "$\\mathrm{C}_{14}^{12}\\mathrm{C}_{12}^{4}\\mathrm{C}_{8}^{4}\\mathrm{A}_{3}^{3}$"
           ],
           "answer": "",
-          "solution": "<p>先从 $14$ 名志愿者中选出参加当天排班的 $12$ 人，再从这 $12$ 人中选出早班的 $4$ 人，接着从剩下的 $8$ 人中选出中班的 $4$ 人，最后剩下的 $4$ 人值晚班. 由于早、中、晚三班有区别，排班总数为</p>\n$$\n\\mathrm{C}_{14}^{12}\\mathrm{C}_{12}^{4}\\mathrm{C}_{8}^{4}\n$$\n<p>因此正确选项为 A.</p>"
+          "solution": "<p>先从 $14$ 名志愿者中选出参加当天排班的 $12$ 人，再从这 $12$ 人中选出早班的 $4$ 人，接着从剩下的 $8$ 人中选出中班的 $4$ 人，最后剩下的 $4$ 人值晚班. 由于早、中、晚三班有区别，排班总数为</p>\n$$\n\\mathrm{C}_{14}^{12}\\mathrm{C}_{12}^{4}\\mathrm{C}_{8}^{4}\n$$\n<p>因此正确选项为 A.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +238,9 @@
             "在 $\\left[0,\\frac{3\\pi}{2}\\right)$，$\\left(\\frac{3\\pi}{2},\\pi\\right]$ 上递增，在 $\\left[0,\\frac{\\pi}{2}\\right)$，$\\left(\\frac{\\pi}{2},2\\pi\\right]$ 上递减"
           ],
           "answer": "",
-          "solution": "<p>由 $1-\\cos2x=2\\sin^{2}x$，得 $f(x)=\\frac{\\sqrt{2}|\\sin x|}{\\cos x}$，其中 $\\cos x\\ne0$.</p><p>在 $\\left[0,\\frac{\\pi}{2}\\right)$ 和 $\\left(\\frac{\\pi}{2},\\pi\\right]$ 上，$|\\sin x|=\\sin x$，故 $f(x)=\\sqrt{2}\\tan x$，且 $f'(x)=\\sqrt{2}\\sec^{2}x>0$，所以函数递增. 在 $\\left[\\pi,\\frac{3\\pi}{2}\\right)$ 和 $\\left(\\frac{3\\pi}{2},2\\pi\\right]$ 上，$|\\sin x|=-\\sin x$，故 $f(x)=-\\sqrt{2}\\tan x$，且 $f'(x)=-\\sqrt{2}\\sec^{2}x<0$，所以函数递减. 因此正确选项为 A.</p>"
+          "solution": "<p>由 $1-\\cos2x=2\\sin^{2}x$，得 $f(x)=\\frac{\\sqrt{2}|\\sin x|}{\\cos x}$，其中 $\\cos x\\ne0$.</p><p>在 $\\left[0,\\frac{\\pi}{2}\\right)$ 和 $\\left(\\frac{\\pi}{2},\\pi\\right]$ 上，$|\\sin x|=\\sin x$，故 $f(x)=\\sqrt{2}\\tan x$，且 $f'(x)=\\sqrt{2}\\sec^{2}x>0$，所以函数递增. 在 $\\left[\\pi,\\frac{3\\pi}{2}\\right)$ 和 $\\left(\\frac{3\\pi}{2},2\\pi\\right]$ 上，$|\\sin x|=-\\sin x$，故 $f(x)=-\\sqrt{2}\\tan x$，且 $f'(x)=-\\sqrt{2}\\sec^{2}x<0$，所以函数递减. 因此正确选项为 A.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -111,44 +250,56 @@
         {
           "num": 9,
           "body": "<p>若 $z_{1}=a+2\\mathrm{i}$，$z_{2}=3-4\\mathrm{i}$，且 $\\frac{z_{1}}{z_{2}}$ 为纯虚数，则实数 $a$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-answer\"></span>$\\frac{8}{3}$</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将分式的分母有理化，得</p>\n$$\n\\frac{z_{1}}{z_{2}}=\\frac{a+2\\mathrm{i}}{3-4\\mathrm{i}}\\cdot\\frac{3+4\\mathrm{i}}{3+4\\mathrm{i}}=\\frac{(3a-8)+(4a+6)\\mathrm{i}}{25}\n$$\n<p>该复数为纯虚数，当且仅当实部为零，即 $3a-8=0$，所以 $a=\\frac{8}{3}$. 此时虚部为 $\\frac{2}{3}\\ne0$，确为纯虚数.</p>"
+          "solution": "<p>将分式的分母有理化，得</p>\n$$\n\\frac{z_{1}}{z_{2}}=\\frac{a+2\\mathrm{i}}{3-4\\mathrm{i}}\\cdot\\frac{3+4\\mathrm{i}}{3+4\\mathrm{i}}=\\frac{(3a-8)+(4a+6)\\mathrm{i}}{25}\n$$\n<p>该复数为纯虚数，当且仅当实部为零，即 $3a-8=0$，所以 $a=\\frac{8}{3}$. 此时虚部为 $\\frac{2}{3}\\ne0$，确为纯虚数.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "<p>已知 $\\tan\\frac{\\alpha}{2}=2$，则 $\\tan\\alpha$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>，$\\tan\\left(\\alpha+\\frac{\\pi}{4}\\right)$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-answer\"></span>$-\\frac{4}{3}$，$-\\frac{1}{7}$</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>令 $t=\\tan\\frac{\\alpha}{2}=2$. 由正切的二倍角公式，</p>\n$$\n\\tan\\alpha=\\frac{2t}{1-t^{2}}=\\frac{4}{1-4}=-\\frac{4}{3}\n$$\n<p>再由和角公式，</p>\n$$\n\\tan\\left(\\alpha+\\frac{\\pi}{4}\\right)=\\frac{\\tan\\alpha+1}{1-\\tan\\alpha}=\\frac{-\\frac{4}{3}+1}{1+\\frac{4}{3}}=-\\frac{1}{7}\n$$\n<p>所以两空依次为 $-\\frac{4}{3}$ 和 $-\\frac{1}{7}$.</p>"
+          "solution": "<p>令 $t=\\tan\\frac{\\alpha}{2}=2$. 由正切的二倍角公式，</p>\n$$\n\\tan\\alpha=\\frac{2t}{1-t^{2}}=\\frac{4}{1-4}=-\\frac{4}{3}\n$$\n<p>再由和角公式，</p>\n$$\n\\tan\\left(\\alpha+\\frac{\\pi}{4}\\right)=\\frac{\\tan\\alpha+1}{1-\\tan\\alpha}=\\frac{-\\frac{4}{3}+1}{1+\\frac{4}{3}}=-\\frac{1}{7}\n$$\n<p>所以两空依次为 $-\\frac{4}{3}$ 和 $-\\frac{1}{7}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "<p>$\\left(x-\\dfrac{1}{x}\\right)^{6}$ 的展开式中的常数项是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（用数字作答）</p><p><span class=\"macro macro-answer\"></span>$-20$</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "展开式的通项为 $\\mathrm{C}_{6}^{r} x^{6-r}\\left(-\\dfrac{1}{x}\\right)^{r}=(-1)^{r}\\mathrm{C}_{6}^{r} x^{6-2r}$. 要取得常数项，必须有 $6-2r=0$，所以 $r=3$，常数项为 $(-1)^{3}\\mathrm{C}_{6}^{3}=-20$."
+          "solution": "展开式的通项为 $\\mathrm{C}_{6}^{r} x^{6-r}\\left(-\\dfrac{1}{x}\\right)^{r}=(-1)^{r}\\mathrm{C}_{6}^{r} x^{6-2r}$. 要取得常数项，必须有 $6-2r=0$，所以 $r=3$，常数项为 $(-1)^{3}\\mathrm{C}_{6}^{3}=-20$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "<p>过原点作曲线 $y=\\mathrm{e}^{x}$ 的切线，则切点的坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>，切线的斜率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-answer\"></span>$(1,\\mathrm{e})$，$\\mathrm{e}$</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设切点的横坐标为 $t$，则曲线 $y=\\mathrm{e}^{x}$ 在该点处的切线为</p>\n$$\ny=\\mathrm{e}^{t}(x-t)+\\mathrm{e}^{t}=\\mathrm{e}^{t} x+\\mathrm{e}^{t}(1-t)\n$$\n<p>切线过原点，代入 $(0,0)$ 得 $\\mathrm{e}^{t}(1-t)=0$. 因为 $\\mathrm{e}^{t}\\ne0$，所以 $t=1$. 于是切点为 $(1,\\mathrm{e})$，切线斜率为导数值 $y'(1)=\\mathrm{e}$.</p>"
+          "solution": "<p>设切点的横坐标为 $t$，则曲线 $y=\\mathrm{e}^{x}$ 在该点处的切线为</p>\n$$\ny=\\mathrm{e}^{t}(x-t)+\\mathrm{e}^{t}=\\mathrm{e}^{t} x+\\mathrm{e}^{t}(1-t)\n$$\n<p>切线过原点，代入 $(0,0)$ 得 $\\mathrm{e}^{t}(1-t)=0$. 因为 $\\mathrm{e}^{t}\\ne0$，所以 $t=1$. 于是切点为 $(1,\\mathrm{e})$，切线斜率为导数值 $y'(1)=\\mathrm{e}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "<p>对于函数 $f(x)$ 定义域中任意的 $x_{1}$，$x_{2}$（$x_{1}\\neq x_{2}$），有如下结论：</p><ol class=\"enumerate\"><li><p>$f(x_{1}+x_{2})=f(x_{1})\\cdot f(x_{2})$；</p></li><li><p>$f(x_{1}\\cdot x_{2})=f(x_{1})+f(x_{2})$；</p></li><li><p>$\\dfrac{f(x_1)-f(x_2)}{x_1-x_2}>0$；</p></li><li><p>$f\\left(\\dfrac{x_1+x_2}{2}\\right)<\\dfrac{f(x_1)+f(x_2)}{2}$.</p></li></ol><p>当 $f(x)=\\lg x$ 时，上述结论中正确结论的序号是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-answer\"></span>$②$、$③$</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>函数 $f(x)=\\lg x$ 的定义域为 $(0,+\\infty)$，在该定义域上严格递增且严格凹. 对结论 $①$，取 $x_{1}=1$，$x_{2}=2$，则 $\\lg(x_{1}+x_{2})=\\lg3$，而 $f(x_{1})f(x_{2})=\\lg1\\cdot\\lg2=0$，两者不相等，所以 $①$ 错误. 由对数的乘法公式，</p>\n$$\n\\lg(x_{1}x_{2})=\\lg x_{1}+\\lg x_{2}\n$$\n<p>所以 $②$ 正确. 因为对数函数严格递增，$x_{1}-x_{2}$ 与 $\\lg x_{1}-\\lg x_{2}$ 同号，且 $x_{1}\\ne x_{2}$，所以</p>\n$$\n\\frac{\\lg x_{1}-\\lg x_{2}}{x_{1}-x_{2}}>0\n$$\n<p>即 $③$ 正确. 又由算术平均数大于几何平均数，且 $x_{1}\\ne x_{2}$，有</p>\n$$\n\\frac{x_{1}+x_{2}}{2}>\\sqrt{x_{1}x_{2}}\n$$\n<p>取对数得</p>\n$$\n\\lg\\frac{x_{1}+x_{2}}{2}>\\frac{\\lg x_{1}+\\lg x_{2}}{2}\n$$\n<p>与结论 $④$ 相反. 因此正确结论的序号为 $②$、$③$.</p>"
+          "solution": "<p>函数 $f(x)=\\lg x$ 的定义域为 $(0,+\\infty)$，在该定义域上严格递增且严格凹. 对结论 $①$，取 $x_{1}=1$，$x_{2}=2$，则 $\\lg(x_{1}+x_{2})=\\lg3$，而 $f(x_{1})f(x_{2})=\\lg1\\cdot\\lg2=0$，两者不相等，所以 $①$ 错误. 由对数的乘法公式，</p>\n$$\n\\lg(x_{1}x_{2})=\\lg x_{1}+\\lg x_{2}\n$$\n<p>所以 $②$ 正确. 因为对数函数严格递增，$x_{1}-x_{2}$ 与 $\\lg x_{1}-\\lg x_{2}$ 同号，且 $x_{1}\\ne x_{2}$，所以</p>\n$$\n\\frac{\\lg x_{1}-\\lg x_{2}}{x_{1}-x_{2}}>0\n$$\n<p>即 $③$ 正确. 又由算术平均数大于几何平均数，且 $x_{1}\\ne x_{2}$，有</p>\n$$\n\\frac{x_{1}+x_{2}}{2}>\\sqrt{x_{1}x_{2}}\n$$\n<p>取对数得</p>\n$$\n\\lg\\frac{x_{1}+x_{2}}{2}>\\frac{\\lg x_{1}+\\lg x_{2}}{2}\n$$\n<p>与结论 $④$ 相反. 因此正确结论的序号为 $②$、$③$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "<p>已知 $n$ 次多项式 $P_{n}(x)=a_{0}x^{n}+a_{1}x^{n-1}+\\cdots+a_{n-1}x+a_{n}$. 如果在一种算法中，计算 $x_{0}^{k}$（$k=2$，$3$，$4$，$\\cdots$，$n$）的值需要 $k-1$ 次乘法，计算 $P_{3}(x_{0})$ 的值共需要 $9$ 次运算（$6$ 次乘法，$3$ 次加法），那么计算 $P_{10}(x_{0})$ 的值共需要<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 次运算.</p><p>下面给出一种减少运算次数的算法：$P_{0}(x)=a_{0}$，$P_{k+1}(x)=xP_{k}(x)+a_{k+1}$（$k=0$，$1$，$2$，$\\cdots$，$n-1$）. 利用该算法，计算 $P_{3}(x_{0})$ 的值共需要 $6$ 次运算，计算 $P_{10}(x_{0})$ 的值共需要<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 次运算.</p><p><span class=\"macro macro-answer\"></span>$65$，$20$</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>按第一种算法，计算 $x_{0}^{2}$，$x_{0}^{3}$，$\\ldots$，$x_{0}^{10}$ 所需的乘法次数为</p>\n$$\n\\sum_{k=2}^{10}(k-1)=1+2+\\cdots+9=45\n$$\n<p>多项式 $P_{10}(x_{0})$ 中除常数项外有 $10$ 项，还需用 $10$ 次乘法把系数与相应幂相乘，并用 $10$ 次加法把 $11$ 项相加. 因此总运算次数为 $45+10+10=65$. 这也与题给的 $P_{3}(x_{0})$ 的计算相符：幂次计算需 $1+2=3$ 次乘法，系数相乘需 $3$ 次乘法，相加需 $3$ 次加法，共 $9$ 次.</p><p>按第二种算法，从 $P_{0}(x_{0})=a_{0}$ 递推到 $P_{10}(x_{0})$ 共进行 $10$ 次递推. 每次递推中的 $x_{0}P_{k}(x_{0})$ 需 $1$ 次乘法，再加上 $a_{k+1}$ 需 $1$ 次加法，所以共需 $10+10=20$ 次运算.</p>"
+          "solution": "<p>按第一种算法，计算 $x_{0}^{2}$，$x_{0}^{3}$，$\\ldots$，$x_{0}^{10}$ 所需的乘法次数为</p>\n$$\n\\sum_{k=2}^{10}(k-1)=1+2+\\cdots+9=45\n$$\n<p>多项式 $P_{10}(x_{0})$ 中除常数项外有 $10$ 项，还需用 $10$ 次乘法把系数与相应幂相乘，并用 $10$ 次加法把 $11$ 项相加. 因此总运算次数为 $45+10+10=65$. 这也与题给的 $P_{3}(x_{0})$ 的计算相符：幂次计算需 $1+2=3$ 次乘法，系数相乘需 $3$ 次乘法，相加需 $3$ 次加法，共 $9$ 次.</p><p>按第二种算法，从 $P_{0}(x_{0})=a_{0}$ 递推到 $P_{10}(x_{0})$ 共进行 $10$ 次递推. 每次递推中的 $x_{0}P_{k}(x_{0})$ 需 $1$ 次乘法，再加上 $a_{k+1}$ 需 $1$ 次加法，所以共需 $10+10=20$ 次运算.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -158,44 +309,56 @@
         {
           "num": 15,
           "body": "<p>已知函数 $f(x)=-x^{3}+3x^{2}+9x+a$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调减区间；</p></li><li><p>若 $f(x)$ 在区间 $[-2,2]$ 上的最大值为 $20$，求它在该区间上的最小值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=-3x^{2}+6x+9=-3(x+1)(x-3)$. 当 $x<-1$ 或 $x>3$ 时，$f'(x)<0$；当 $-1<x<3$ 时，$f'(x)>0$. 所以 $f(x)$ 的单调减区间为 $\\left(-\\infty,-1\\right)$ 和 $\\left(3,+\\infty\\right)$.</p></li><li><p>在区间 $\\left[-2,2\\right]$ 上，函数在 $\\left[-2,-1\\right]$ 上递减，在 $\\left[-1,2\\right]$ 上递增. 计算得 $f(-2)=a+2$，$f(-1)=a-5$，$f(2)=a+22$.</p><p>其中 $f(2)>f(-2)$，故区间上的最大值为 $f(2)=a+22=20$，从而 $a=-2$. 因此最小值为 $f(-1)=a-5=-7$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=-3x^{2}+6x+9=-3(x+1)(x-3)$. 当 $x<-1$ 或 $x>3$ 时，$f'(x)<0$；当 $-1<x<3$ 时，$f'(x)>0$. 所以 $f(x)$ 的单调减区间为 $\\left(-\\infty,-1\\right)$ 和 $\\left(3,+\\infty\\right)$.</p></li><li><p>在区间 $\\left[-2,2\\right]$ 上，函数在 $\\left[-2,-1\\right]$ 上递减，在 $\\left[-1,2\\right]$ 上递增. 计算得 $f(-2)=a+2$，$f(-1)=a-5$，$f(2)=a+22$.</p><p>其中 $f(2)>f(-2)$，故区间上的最大值为 $f(2)=a+22=20$，从而 $a=-2$. 因此最小值为 $f(-1)=a-5=-7$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 16,
-          "body": "<p>如图，在直四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AB=AD=2$，$DC=2\\sqrt{3}$，$AA_{1}=\\sqrt{3}$，$AD\\perp DC$，$AC\\perp BD$，垂足为 $E$.</p><ol class=\"enumerate\"><li><p>求证：$BD\\perp A_{1}C$；</p></li><li><p>求二面角 $A_{1}-BD-C_{1}$ 的大小；</p></li><li><p>求异面直线 $AD$ 与 $BC_{1}$ 所成角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science_autumn/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在直四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AB=AD=2$，$DC=2\\sqrt{3}$，$AA_{1}=\\sqrt{3}$，$AD\\perp DC$，$AC\\perp BD$，垂足为 $E$.</p><ol class=\"enumerate\"><li><p>求证：$BD\\perp A_{1}C$；</p></li><li><p>求二面角 $A_{1}-BD-C_{1}$ 的大小；</p></li><li><p>求异面直线 $AD$ 与 $BC_{1}$ 所成角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/beijing_science_autumn/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>建立空间直角坐标系，取 $D$ 为原点，$DC$ 所在直线为 $x$ 轴，$DA$ 所在直线为 $y$ 轴，直四棱柱的侧棱方向为 $z$ 轴. 于是 $D=(0,0,0)$，$A=(0,2,0)$，$C=(2\\sqrt{3},0,0)$. 设 $B=(u,v,0)$. 由 $AB=2$ 及 $AC\\perp BD$，分别得到</p>\n$$\nu^{2}+(v-2)^{2}=4\n$$\n\n$$\n(2\\sqrt{3},-2,0)\\cdot(-u,-v,0)=0\n$$\n<p>所以 $v=\\sqrt{3}u$. 代入前式得 $u^{2}+(\\sqrt{3}u-2)^{2}=4$，即 $4u(u-\\sqrt{3})=0$. 由于四棱柱的底面不退化，$B\\ne D$，故 $u=\\sqrt{3}$，$v=3$，从而 $B=(\\sqrt{3},3,0)$，$A_{1}=(0,2,\\sqrt{3})$，$C_{1}=(2\\sqrt{3},0,\\sqrt{3})$.</p><ol class=\"enumerate\"><li><p>$\\overrightarrow{BD}=(-\\sqrt{3},-3,0)$，$\\overrightarrow{A_1C}=(2\\sqrt{3},-2,-\\sqrt{3})$，所以</p>\n$$\n\\overrightarrow{BD}\\cdot\\overrightarrow{A_1C}=-6+6=0\n$$\n<p>因此 $BD\\perp A_{1}C$.</p></li><li><p>平面 $A_{1}BD$ 的两个方向向量可取 $\\overrightarrow{DB}=(\\sqrt{3},3,0)$ 和 $\\overrightarrow{DA_1}=(0,2,\\sqrt{3})$，平面 $C_{1}BD$ 的两个方向向量可取 $\\overrightarrow{DB}$ 和 $\\overrightarrow{DC_1}=(2\\sqrt{3},0,\\sqrt{3})$. 因此这两个平面的一个法向量分别为 $(3\\sqrt{3},-3,2\\sqrt{3})$ 和 $(3\\sqrt{3},-3,-6\\sqrt{3})$.</p><p>它们的数量积为 $27+9-36=0$，故两平面垂直，二面角 $A_{1}-BD-C_{1}$ 的大小为 $90^{\\circ}$.</p></li><li><p>取 $\\overrightarrow{AD}=(0,-2,0)$，则 $\\overrightarrow{BC_1}=(\\sqrt{3},-3,\\sqrt{3})$. 因此</p><p>$\\left|\\overrightarrow{AD}\\cdot\\overrightarrow{BC_1}\\right|=6$，$\\left|\\overrightarrow{AD}\\right|=2$，$\\left|\\overrightarrow{BC_1}\\right|=\\sqrt{15}$.</p><p>设异面直线所成的角为 $\\theta$，则 $\\cos\\theta=\\dfrac{6}{2\\sqrt{15}}=\\dfrac{\\sqrt{15}}{5}$，所以 $\\theta=\\arccos\\dfrac{\\sqrt{15}}{5}$.</p></li></ol>"
+          "solution": "<p>建立空间直角坐标系，取 $D$ 为原点，$DC$ 所在直线为 $x$ 轴，$DA$ 所在直线为 $y$ 轴，直四棱柱的侧棱方向为 $z$ 轴. 于是 $D=(0,0,0)$，$A=(0,2,0)$，$C=(2\\sqrt{3},0,0)$. 设 $B=(u,v,0)$. 由 $AB=2$ 及 $AC\\perp BD$，分别得到</p>\n$$\nu^{2}+(v-2)^{2}=4\n$$\n\n$$\n(2\\sqrt{3},-2,0)\\cdot(-u,-v,0)=0\n$$\n<p>所以 $v=\\sqrt{3}u$. 代入前式得 $u^{2}+(\\sqrt{3}u-2)^{2}=4$，即 $4u(u-\\sqrt{3})=0$. 由于四棱柱的底面不退化，$B\\ne D$，故 $u=\\sqrt{3}$，$v=3$，从而 $B=(\\sqrt{3},3,0)$，$A_{1}=(0,2,\\sqrt{3})$，$C_{1}=(2\\sqrt{3},0,\\sqrt{3})$.</p><ol class=\"enumerate\"><li><p>$\\overrightarrow{BD}=(-\\sqrt{3},-3,0)$，$\\overrightarrow{A_1C}=(2\\sqrt{3},-2,-\\sqrt{3})$，所以</p>\n$$\n\\overrightarrow{BD}\\cdot\\overrightarrow{A_1C}=-6+6=0\n$$\n<p>因此 $BD\\perp A_{1}C$.</p></li><li><p>平面 $A_{1}BD$ 的两个方向向量可取 $\\overrightarrow{DB}=(\\sqrt{3},3,0)$ 和 $\\overrightarrow{DA_1}=(0,2,\\sqrt{3})$，平面 $C_{1}BD$ 的两个方向向量可取 $\\overrightarrow{DB}$ 和 $\\overrightarrow{DC_1}=(2\\sqrt{3},0,\\sqrt{3})$. 因此这两个平面的一个法向量分别为 $(3\\sqrt{3},-3,2\\sqrt{3})$ 和 $(3\\sqrt{3},-3,-6\\sqrt{3})$.</p><p>它们的数量积为 $27+9-36=0$，故两平面垂直，二面角 $A_{1}-BD-C_{1}$ 的大小为 $90^{\\circ}$.</p></li><li><p>取 $\\overrightarrow{AD}=(0,-2,0)$，则 $\\overrightarrow{BC_1}=(\\sqrt{3},-3,\\sqrt{3})$. 因此</p><p>$\\left|\\overrightarrow{AD}\\cdot\\overrightarrow{BC_1}\\right|=6$，$\\left|\\overrightarrow{AD}\\right|=2$，$\\left|\\overrightarrow{BC_1}\\right|=\\sqrt{15}$.</p><p>设异面直线所成的角为 $\\theta$，则 $\\cos\\theta=\\dfrac{6}{2\\sqrt{15}}=\\dfrac{\\sqrt{15}}{5}$，所以 $\\theta=\\arccos\\dfrac{\\sqrt{15}}{5}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "<p>甲，乙两人各进行 $3$ 次射击，甲每次击中目标的概率为 $\\frac{1}{2}$，乙每次击中目标的概率为 $\\frac{2}{3}$.</p><ol class=\"enumerate\"><li><p>记甲击中目标的次数为 $\\xi$，求 $\\xi$ 的概率分布及数学期望 $E(\\xi)$；</p></li><li><p>求乙至多击中目标 $2$ 次的概率；</p></li><li><p>求甲恰好比乙多击中目标 $2$ 次的概率.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设乙击中目标的次数为 $\\eta$. 由于各次射击相互独立，$\\xi$ 服从参数为 $3$，$\\frac{1}{2}$ 的二项分布，故</p><ol class=\"enumerate\"><li><p>对 $k=0$，$1$，$2$，$3$，有 $P(\\xi=k)=\\mathrm{C}_{3}^{k}\\left(\\dfrac{1}{2}\\right)^{k}\\left(\\dfrac{1}{2}\\right)^{3-k}=\\dfrac{\\mathrm{C}_3^k}{8}$. 因此</p><p>$P(\\xi=0)=\\frac{1}{8}$，$P(\\xi=1)=\\frac{3}{8}$，$P(\\xi=2)=\\frac{3}{8}$，$P(\\xi=3)=\\frac{1}{8}$.</p><p>并且</p>\n$$\nE(\\xi)=0\\cdot\\frac{1}{8}+1\\cdot\\frac{3}{8}+2\\cdot\\frac{3}{8}+3\\cdot\\frac{1}{8}=\\frac{3}{2}\n$$\n</li><li><p>$\\eta$ 服从参数为 $3$，$\\frac{2}{3}$ 的二项分布，所以</p>\n$$\nP(\\eta\\leqslant2)=1-P(\\eta=3)=1-\\left(\\frac{2}{3}\\right)^{3}=\\frac{19}{27}\n$$\n</li><li><p>甲恰好比乙多击中目标 $2$ 次时，可能的情形为 $(\\xi,\\eta)=(2,0)$ 或 $(3,1)$. 由于甲、乙的射击相互独立，所求概率为</p>\n$$\nP(\\xi=2)P(\\eta=0)+P(\\xi=3)P(\\eta=1)  =\\frac{3}{8}\\cdot\\frac{1}{27}+\\frac{1}{8}\\cdot\\mathrm{C}_{3}^{1}\\frac{2}{3}\\left(\\frac{1}{3}\\right)^{2}  =\\frac{1}{72}+\\frac{1}{36}=\\frac{1}{24}\n$$\n</li></ol>"
+          "solution": "<p>设乙击中目标的次数为 $\\eta$. 由于各次射击相互独立，$\\xi$ 服从参数为 $3$，$\\frac{1}{2}$ 的二项分布，故</p><ol class=\"enumerate\"><li><p>对 $k=0$，$1$，$2$，$3$，有 $P(\\xi=k)=\\mathrm{C}_{3}^{k}\\left(\\dfrac{1}{2}\\right)^{k}\\left(\\dfrac{1}{2}\\right)^{3-k}=\\dfrac{\\mathrm{C}_3^k}{8}$. 因此</p><p>$P(\\xi=0)=\\frac{1}{8}$，$P(\\xi=1)=\\frac{3}{8}$，$P(\\xi=2)=\\frac{3}{8}$，$P(\\xi=3)=\\frac{1}{8}$.</p><p>并且</p>\n$$\nE(\\xi)=0\\cdot\\frac{1}{8}+1\\cdot\\frac{3}{8}+2\\cdot\\frac{3}{8}+3\\cdot\\frac{1}{8}=\\frac{3}{2}\n$$\n</li><li><p>$\\eta$ 服从参数为 $3$，$\\frac{2}{3}$ 的二项分布，所以</p>\n$$\nP(\\eta\\leqslant2)=1-P(\\eta=3)=1-\\left(\\frac{2}{3}\\right)^{3}=\\frac{19}{27}\n$$\n</li><li><p>甲恰好比乙多击中目标 $2$ 次时，可能的情形为 $(\\xi,\\eta)=(2,0)$ 或 $(3,1)$. 由于甲、乙的射击相互独立，所求概率为</p>\n$$\nP(\\xi=2)P(\\eta=0)+P(\\xi=3)P(\\eta=1)  =\\frac{3}{8}\\cdot\\frac{1}{27}+\\frac{1}{8}\\cdot\\mathrm{C}_{3}^{1}\\frac{2}{3}\\left(\\frac{1}{3}\\right)^{2}  =\\frac{1}{72}+\\frac{1}{36}=\\frac{1}{24}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，直线 $l_{1}:y=kx$（$k>0$）与直线 $l_{2}:y=-kx$ 之间的阴影区域（不含边界）记为 $W$，其左半部分记为 $W_{1}$，右半部分记为 $W_{2}$.</p><ol class=\"enumerate\"><li><p>分别用不等式组表示 $W_{1}$ 和 $W_{2}$；</p></li><li><p>若区域 $W$ 中的动点 $P(x,y)$ 到 $l_{1}$，$l_{2}$ 的距离之积等于 $d^{2}$，求点 $P$ 的轨迹 $C$ 的方程；</p></li><li><p>设不过原点 $O$ 的直线 $l$ 与（2）中的曲线 $C$ 相交于 $M_{1}$，$M_{2}$ 两点，且与 $l_{1}$，$l_{2}$ 分别交于 $M_{3}$，$M_{4}$ 两点. 求证：$\\triangle OM_{1}M_{2}$ 的重心与 $\\triangle OM_{3}M_{4}$ 的重心重合.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science_autumn/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，直线 $l_{1}:y=kx$（$k>0$）与直线 $l_{2}:y=-kx$ 之间的阴影区域（不含边界）记为 $W$，其左半部分记为 $W_{1}$，右半部分记为 $W_{2}$.</p><ol class=\"enumerate\"><li><p>分别用不等式组表示 $W_{1}$ 和 $W_{2}$；</p></li><li><p>若区域 $W$ 中的动点 $P(x,y)$ 到 $l_{1}$，$l_{2}$ 的距离之积等于 $d^{2}$，求点 $P$ 的轨迹 $C$ 的方程；</p></li><li><p>设不过原点 $O$ 的直线 $l$ 与（2）中的曲线 $C$ 相交于 $M_{1}$，$M_{2}$ 两点，且与 $l_{1}$，$l_{2}$ 分别交于 $M_{3}$，$M_{4}$ 两点. 求证：$\\triangle OM_{1}M_{2}$ 的重心与 $\\triangle OM_{3}M_{4}$ 的重心重合.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/beijing_science_autumn/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x<0$ 时，$kx<-kx$，故左半部分为</p>\n$$\nW_{1}=\\{(x,y)\\mid x<0,\\ kx<y<-kx\\}\n$$\n<p>当 $x>0$ 时，$-kx<kx$，故右半部分为</p>\n$$\nW_{2}=\\{(x,y)\\mid x>0,\\ -kx<y<kx\\}\n$$\n</li><li><p>直线 $l_{1}$，$l_{2}$ 的方程分别为 $kx-y=0$，$kx+y=0$，所以点 $P(x,y)$ 到它们的距离分别为 $\\frac{|kx-y|}{\\sqrt{1+k^{2}}}$ 和 $\\frac{|kx+y|}{\\sqrt{1+k^{2}}}$.</p><p>在区域 $W$ 内有 $y^{2}<k^{2}x^{2}$，因此距离之积为</p>\n$$\n\\frac{|kx-y||kx+y|}{1+k^{2}}=\\frac{k^{2}x^{2}-y^{2}}{1+k^{2}}\n$$\n<p>由题意，该积等于 $d^{2}$，故轨迹 $C$ 的方程为</p>\n$$\nk^{2}x^{2}-y^{2}-(1+k^{2})d^{2}=0\n$$\n</li><li><p>设不过原点的直线 $l$ 为 $y=mx+n$. 由于 $O\\notin l$，有 $n\\ne0$. 设 $M_{1}$，$M_{2}$ 的横坐标为 $x_{1}$，$x_{2}$，代入曲线方程得</p>\n$$\n(k^{2}-m^{2})x^{2}-2mnx-n^{2}-(1+k^{2})d^{2}=0\n$$\n<p>因该直线与曲线有两个交点，$m^{2}\\ne k^{2}$，由韦达定理</p>\n$$\nx_{1}+x_{2}=\\frac{2mn}{k^{2}-m^{2}}\n$$\n<p>又设 $M_{3}$，$M_{4}$ 的横坐标为 $x_{3}$，$x_{4}$，则 $x_{3}=\\frac{n}{k-m}$，$x_{4}=-\\frac{n}{k+m}$，从而 $x_{3}+x_{4}=\\frac{2mn}{k^{2}-m^{2}}$.</p><p>所以 $x_{1}+x_{2}=x_{3}+x_{4}$. 由于四点均在直线 $l$ 上，纵坐标满足 $y_{i}=mx_{i}+n$，从而</p>\n$$\ny_{1}+y_{2}=m(x_{1}+x_{2})+2n=m(x_{3}+x_{4})+2n=y_{3}+y_{4}\n$$\n<p>因此</p>\n$$\n\\overrightarrow{OM_1}+\\overrightarrow{OM_2}=\\overrightarrow{OM_3}+\\overrightarrow{OM_4}\n$$\n<p>三角形 $OM_{1}M_{2}$ 与 $OM_{3}M_{4}$ 的重心坐标分别为上述两式的三分之一，故两三角形的重心重合.</p><p>若 $l$ 为竖直直线 $x=c$，则 $c\\ne0$，且 $M_{3}=(c,kc)$，$M_{4}=(c,-kc)$，两点坐标和为 $(2c,0)$；曲线与该直线的两个交点的纵坐标互为相反数，坐标和同样为 $(2c,0)$，结论仍成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x<0$ 时，$kx<-kx$，故左半部分为</p>\n$$\nW_{1}=\\{(x,y)\\mid x<0,\\ kx<y<-kx\\}\n$$\n<p>当 $x>0$ 时，$-kx<kx$，故右半部分为</p>\n$$\nW_{2}=\\{(x,y)\\mid x>0,\\ -kx<y<kx\\}\n$$\n</li><li><p>直线 $l_{1}$，$l_{2}$ 的方程分别为 $kx-y=0$，$kx+y=0$，所以点 $P(x,y)$ 到它们的距离分别为 $\\frac{|kx-y|}{\\sqrt{1+k^{2}}}$ 和 $\\frac{|kx+y|}{\\sqrt{1+k^{2}}}$.</p><p>在区域 $W$ 内有 $y^{2}<k^{2}x^{2}$，因此距离之积为</p>\n$$\n\\frac{|kx-y||kx+y|}{1+k^{2}}=\\frac{k^{2}x^{2}-y^{2}}{1+k^{2}}\n$$\n<p>由题意，该积等于 $d^{2}$，故轨迹 $C$ 的方程为</p>\n$$\nk^{2}x^{2}-y^{2}-(1+k^{2})d^{2}=0\n$$\n</li><li><p>设不过原点的直线 $l$ 为 $y=mx+n$. 由于 $O\\notin l$，有 $n\\ne0$. 设 $M_{1}$，$M_{2}$ 的横坐标为 $x_{1}$，$x_{2}$，代入曲线方程得</p>\n$$\n(k^{2}-m^{2})x^{2}-2mnx-n^{2}-(1+k^{2})d^{2}=0\n$$\n<p>因该直线与曲线有两个交点，$m^{2}\\ne k^{2}$，由韦达定理</p>\n$$\nx_{1}+x_{2}=\\frac{2mn}{k^{2}-m^{2}}\n$$\n<p>又设 $M_{3}$，$M_{4}$ 的横坐标为 $x_{3}$，$x_{4}$，则 $x_{3}=\\frac{n}{k-m}$，$x_{4}=-\\frac{n}{k+m}$，从而 $x_{3}+x_{4}=\\frac{2mn}{k^{2}-m^{2}}$.</p><p>所以 $x_{1}+x_{2}=x_{3}+x_{4}$. 由于四点均在直线 $l$ 上，纵坐标满足 $y_{i}=mx_{i}+n$，从而</p>\n$$\ny_{1}+y_{2}=m(x_{1}+x_{2})+2n=m(x_{3}+x_{4})+2n=y_{3}+y_{4}\n$$\n<p>因此</p>\n$$\n\\overrightarrow{OM_1}+\\overrightarrow{OM_2}=\\overrightarrow{OM_3}+\\overrightarrow{OM_4}\n$$\n<p>三角形 $OM_{1}M_{2}$ 与 $OM_{3}M_{4}$ 的重心坐标分别为上述两式的三分之一，故两三角形的重心重合.</p><p>若 $l$ 为竖直直线 $x=c$，则 $c\\ne0$，且 $M_{3}=(c,kc)$，$M_{4}=(c,-kc)$，两点坐标和为 $(2c,0)$；曲线与该直线的两个交点的纵坐标互为相反数，坐标和同样为 $(2c,0)$，结论仍成立.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>设数列 $\\{a_{n}\\}$ 的首项 $a_{1}=a\\neq\\frac{1}{4}$，且</p><p>$a_{n+1}=  \\begin{cases}\\dfrac{1}{2}a_{n},&n\\text{ 为偶数},\\\\  a_{n}+\\dfrac{1}{4},&n\\text{ 为奇数}.\\end{cases}$</p><p>记 $b_{n}=a_{2n-1}-\\dfrac{1}{4}$，$n=1$，$2$，$3$，$\\cdots$.</p><ol class=\"enumerate\"><li><p>求 $a_{2}$，$a_{3}$；</p></li><li><p>判断数列 $\\{b_{n}\\}$ 是否为等比数列，并证明你的结论；</p></li><li><p>求 $\\displaystyle\\lim_{n\\to\\infty}\\left(b_{1}+b_{2}+\\cdots+b_{n}\\right)$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $1$ 为奇数，$a_{2}=a_{1}+\\frac{1}{4}=a+\\frac{1}{4}$. 因为 $2$ 为偶数，$a_{3}=\\frac{1}{2}a_{2}=\\frac{1}{2}a+\\frac{1}{8}$.</p></li><li><p>$b_{1}=a_{1}-\\frac{1}{4}=a-\\frac{1}{4}$. 对任意正整数 $n$，由递推关系有 $a_{2n}=a_{2n-1}+\\frac{1}{4}$，$a_{2n+1}=\\frac{1}{2}a_{2n}$.</p><p>所以</p>\n$$\nb_{n+1}=a_{2n+1}-\\frac{1}{4}=\\frac{1}{2}\\left(a_{2n-1}+\\frac{1}{4}\\right)-\\frac{1}{4}=\\frac{1}{2}\\left(a_{2n-1}-\\frac{1}{4}\\right)=\\frac{1}{2}b_{n}\n$$\n<p>又因为 $a\\ne\\frac{1}{4}$，所以 $b_{1}\\ne0$，从而 $\\{b_{n}\\}$ 是首项为 $a-\\frac{1}{4}$，公比为 $\\frac{1}{2}$ 的等比数列.</p></li><li><p>由等比数列求和公式</p>\n$$\nb_{1}+b_{2}+\\cdots+b_{n}=\\left(a-\\frac{1}{4}\\right)\\frac{1-\\left(\\frac{1}{2}\\right)^{n}}{1-\\frac{1}{2}}\n$$\n<p>因为 $\\left(\\frac{1}{2}\\right)^{n}\\to0$，所以</p>\n$$\n\\lim_{n\\to\\infty}(b_{1}+b_{2}+\\cdots+b_{n})=2\\left(a-\\frac{1}{4}\\right)=2a-\\frac{1}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $1$ 为奇数，$a_{2}=a_{1}+\\frac{1}{4}=a+\\frac{1}{4}$. 因为 $2$ 为偶数，$a_{3}=\\frac{1}{2}a_{2}=\\frac{1}{2}a+\\frac{1}{8}$.</p></li><li><p>$b_{1}=a_{1}-\\frac{1}{4}=a-\\frac{1}{4}$. 对任意正整数 $n$，由递推关系有 $a_{2n}=a_{2n-1}+\\frac{1}{4}$，$a_{2n+1}=\\frac{1}{2}a_{2n}$.</p><p>所以</p>\n$$\nb_{n+1}=a_{2n+1}-\\frac{1}{4}=\\frac{1}{2}\\left(a_{2n-1}+\\frac{1}{4}\\right)-\\frac{1}{4}=\\frac{1}{2}\\left(a_{2n-1}-\\frac{1}{4}\\right)=\\frac{1}{2}b_{n}\n$$\n<p>又因为 $a\\ne\\frac{1}{4}$，所以 $b_{1}\\ne0$，从而 $\\{b_{n}\\}$ 是首项为 $a-\\frac{1}{4}$，公比为 $\\frac{1}{2}$ 的等比数列.</p></li><li><p>由等比数列求和公式</p>\n$$\nb_{1}+b_{2}+\\cdots+b_{n}=\\left(a-\\frac{1}{4}\\right)\\frac{1-\\left(\\frac{1}{2}\\right)^{n}}{1-\\frac{1}{2}}\n$$\n<p>因为 $\\left(\\frac{1}{2}\\right)^{n}\\to0$，所以</p>\n$$\n\\lim_{n\\to\\infty}(b_{1}+b_{2}+\\cdots+b_{n})=2\\left(a-\\frac{1}{4}\\right)=2a-\\frac{1}{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>设 $f(x)$ 是定义在 $[0,1]$ 上的函数，若存在 $x^{*}\\in(0,1)$，使得 $f(x)$ 在 $[0,x^{*}]$ 上单调递增，在 $[x^{*},1]$ 上单调递减，则称 $f(x)$ 为 $[0,1]$ 上的单峰函数，$x^{*}$ 为峰点，包含峰点的区间为含峰区间. 对任意的 $[0,1]$ 上的单峰函数 $f(x)$，下面研究缩短其含峰区间长度的方法.</p><ol class=\"enumerate\"><li><p>证明：对任意的 $x_{1}$，$x_{2}\\in(0,1)$，$x_{1}<x_{2}$，$f(x_{1})\\ge f(x_{2})$，则 $\\left(0,x_{2}\\right)$ 为含峰区间；若 $f(x_{1})\\le f(x_{2})$，则 $\\left(x_{1},1\\right)$ 为含峰区间；</p></li><li><p>对给定的 $r$（$0<r<0.5$），证明：存在 $x_{1}$，$x_{2}\\in(0,1)$，满足 $x_{2}-x_{1}\\geqslant2r$，使得由（1）所确定的含峰区间的长度不大于 $0.5+r$；</p></li><li><p>选取 $x_{1}$，$x_{2}\\in(0,1)$，$x_{1}<x_{2}$，由（1）可确定含峰区间为 $\\left(0,x_{2}\\right)$ 或 $\\left(x_{1},1\\right)$，在所得的含峰区间内选取 $x_{3}$，由 $x_{3}$ 与 $x_{1}$ 或 $x_{3}$ 与 $x_{2}$ 类似地可确定一个新的含峰区间，在第一次确定的含峰区间为 $\\left(0,x_{2}\\right)$ 的情况下，试确定 $x_{1}$，$x_{2}$，$x_{3}$ 的值，满足两两之差的绝对值不小于 $0.02$，且使得新的含峰区间的长度缩短到 $0.34$.</p></li></ol><p>注：区间长度等于区间的右端点与左端点之差.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设峰点为 $x^{*}$. 若 $f(x_{1})\\ge f(x_{2})$，假设 $x^{*}\\ge x_{2}$，则 $x_{1}$，$x_{2}$ 均处于递增段，从而 $f(x_{1})<f(x_{2})$，矛盾. 因此 $x^{*}<x_{2}$，可取 $\\left(0,x_{2}\\right)$ 为含峰区间. 类似地，若 $f(x_{1})\\le f(x_{2})$，假设 $x^{*}\\le x_{1}$，则 $x_{1}$，$x_{2}$ 均处于递减段，从而 $f(x_{1})>f(x_{2})$，矛盾. 因此 $x^{*}>x_{1}$，可取 $\\left(x_{1},1\\right)$ 为含峰区间.</p></li><li><p>取 $x_{1}=0.5-r$，$x_{2}=0.5+r$. 由于 $0<r<0.5$，有 $x_{1}\\in(0,1)$，$x_{2}\\in(0,1)$，且 $x_{2}-x_{1}=2r$. 由第（1）问确定的含峰区间只有两种可能：$\\left(0,x_{2}\\right)$ 或 $\\left(x_{1},1\\right)$. 这两个区间的长度分别为 $x_{2}=0.5+r$ 和 $1-x_{1}=0.5+r$.</p><p>故所确定的含峰区间长度不大于 $0.5+r$.</p></li><li><p>取 $x_{1}=0.34$，$x_{2}=0.66$，$x_{3}=0.32$. 三点均在 $(0,1)$ 内，且 $|x_{2}-x_{1}|=0.32$，$|x_{1}-x_{3}|=0.02$，$|x_{2}-x_{3}|=0.34$，满足两两之差的绝对值不小于 $0.02$. 在第一次确定的含峰区间为 $\\left(0,x_{2}\\right)=\\left(0,0.66\\right)$ 的条件下，将 $x_{3}$ 与 $x_{1}$ 比较：</p><p>若 $f(x_{3})\\ge f(x_{1})$，由第（1）问可取新的含峰区间为 $\\left(0,x_{1}\\right)=\\left(0,0.34\\right)$，其长度为 $0.34$；若 $f(x_{3})\\le f(x_{1})$，由第（1）问得到 $\\left(x_{3},1\\right)$，与原含峰区间取交集后得到 $\\left(x_{3},x_{2}\\right)=\\left(0.32,0.66\\right)$，其长度仍为 $0.34$. 因此所取三点满足要求.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设峰点为 $x^{*}$. 若 $f(x_{1})\\ge f(x_{2})$，假设 $x^{*}\\ge x_{2}$，则 $x_{1}$，$x_{2}$ 均处于递增段，从而 $f(x_{1})<f(x_{2})$，矛盾. 因此 $x^{*}<x_{2}$，可取 $\\left(0,x_{2}\\right)$ 为含峰区间. 类似地，若 $f(x_{1})\\le f(x_{2})$，假设 $x^{*}\\le x_{1}$，则 $x_{1}$，$x_{2}$ 均处于递减段，从而 $f(x_{1})>f(x_{2})$，矛盾. 因此 $x^{*}>x_{1}$，可取 $\\left(x_{1},1\\right)$ 为含峰区间.</p></li><li><p>取 $x_{1}=0.5-r$，$x_{2}=0.5+r$. 由于 $0<r<0.5$，有 $x_{1}\\in(0,1)$，$x_{2}\\in(0,1)$，且 $x_{2}-x_{1}=2r$. 由第（1）问确定的含峰区间只有两种可能：$\\left(0,x_{2}\\right)$ 或 $\\left(x_{1},1\\right)$. 这两个区间的长度分别为 $x_{2}=0.5+r$ 和 $1-x_{1}=0.5+r$.</p><p>故所确定的含峰区间长度不大于 $0.5+r$.</p></li><li><p>取 $x_{1}=0.34$，$x_{2}=0.66$，$x_{3}=0.32$. 三点均在 $(0,1)$ 内，且 $|x_{2}-x_{1}|=0.32$，$|x_{1}-x_{3}|=0.02$，$|x_{2}-x_{3}|=0.34$，满足两两之差的绝对值不小于 $0.02$. 在第一次确定的含峰区间为 $\\left(0,x_{2}\\right)=\\left(0,0.66\\right)$ 的条件下，将 $x_{3}$ 与 $x_{1}$ 比较：</p><p>若 $f(x_{3})\\ge f(x_{1})$，由第（1）问可取新的含峰区间为 $\\left(0,x_{1}\\right)=\\left(0,0.34\\right)$，其长度为 $0.34$；若 $f(x_{3})\\le f(x_{1})$，由第（1）问得到 $\\left(x_{3},1\\right)$，与原含峰区间取交集后得到 $\\left(x_{3},x_{2}\\right)=\\left(0.32,0.66\\right)$，其长度仍为 $0.34$. 因此所取三点满足要求.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

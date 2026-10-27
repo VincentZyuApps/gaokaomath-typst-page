@@ -1,8 +1,71 @@
 {
-  "title": "1977年普通高等学校招生全国统一考试",
-  "subtitle": "1977年安徽卷（文）",
   "year": "1977",
   "slug": "anhui_liberal",
+  "title": "1977年安徽卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "解答题",
@@ -10,72 +73,92 @@
         {
           "num": 1,
           "body": "<p>计算：</p><ol class=\"enumerate\"><li><p>$5\\frac{1}{2}\\times\\left(-\\frac{6}{11}\\right)+0.25-(-2)^{3}\\div\\left(-2\\frac{2}{3}\\right)^{2}$；</p></li><li><p>$\\sqrt{14\\times24\\times39\\times91}+4\\sqrt{27}\\times(-\\sqrt{3})$；</p></li><li><p>$\\left(-2\\frac{3}{5}\\right)^{0}+4^{-2}\\times\\left(2\\frac{1}{4}\\right)^{-\\frac{1}{2}}-(0.01)^{0.5}$；</p></li><li><p>$\\frac{2\\lg2+\\lg3}{2+\\lg0.36+\\frac{2}{3}\\lg8}$；</p></li><li><p>$\\frac{\\tan\\left(-120^{\\circ}\\right)\\cos\\left(-240^{\\circ}\\right)\\cos480^{\\circ}}{\\tan\\left(-60^{\\circ}\\right)\\sin\\left(-1050^{\\circ}\\right)}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>先把带分数和小数化为分数，并注意减去负数所得的符号，原式 $=\\frac{11}{2}\\times\\left(-\\frac{6}{11}\\right)+\\frac{1}{4}-\\frac{-8}{\\left(-\\frac{8}{3}\\right)^{2}}=-3+\\frac{1}{4}+\\frac{9}{8}=-\\frac{13}{8}=-1\\frac{5}{8}$.</p></li><li><p>将各因数分解并配对，得 $14=(2\\times7)$、$24=(3\\times8)$、$39=(3\\times13)$、$91=(7\\times13)$，所以</p><p>$\\sqrt{14\\times24\\times39\\times91}=\\sqrt{(2\\times7)(3\\times8)(3\\times13)(7\\times13)}=\\sqrt{(4\\times3\\times7\\times13)^{2}}=4\\times3\\times7\\times13=1092$. 又 $4\\sqrt{27}\\times(-\\sqrt{3})=4\\times3\\sqrt{3}\\times(-\\sqrt{3})=-36$，故原式 $=1092-36=1056$.</p></li><li><p>因为 $-2\\frac{3}{5}\\neq0$，所以 $\\left(-2\\frac{3}{5}\\right)^{0}=1$，且 $4^{-2}=\\frac{1}{16}$，$\\left(2\\frac{1}{4}\\right)^{-\\frac{1}{2}}=\\left(\\frac{9}{4}\\right)^{-\\frac{1}{2}}=\\frac{1}{\\sqrt{\\frac{9}{4}}}=\\frac{2}{3}$，$(0.01)^{0.5}=\\sqrt{0.01}=\\frac{1}{10}$. 因此原式 $=1+\\frac{1}{16}\\times\\frac{2}{3}-\\frac{1}{10}=1+\\frac{1}{24}-\\frac{1}{10}=\\frac{113}{120}$.</p></li><li><p>由 $0.36=\\frac{36}{100}$ 及 $8=2^{3}$，得 $\\lg0.36=\\lg36-2=2\\lg2+2\\lg3-2$，$\\frac{2}{3}\\lg8=2\\lg2$. 因而分母 $=2+(2\\lg2+2\\lg3-2)+2\\lg2=2(2\\lg2+\\lg3)$. 又 $2\\lg2+\\lg3=\\lg(2^{2}\\cdot3)=\\lg12>0$，分子非零，故原式 $=\\frac{1}{2}$.</p></li><li><p>利用诱导公式，$\\tan(-120^{\\circ})=\\tan60^{\\circ}$，$\\cos(-240^{\\circ})=-\\cos60^{\\circ}$，$\\cos480^{\\circ}=-\\cos60^{\\circ}$，$\\tan(-60^{\\circ})=-\\tan60^{\\circ}$，$\\sin(-1050^{\\circ})=\\sin30^{\\circ}$. 所以原式 $=\\frac{\\tan60^{\\circ}\\cos^{2} 60^{\\circ}}{-\\tan60^{\\circ}\\sin30^{\\circ}}=-\\frac{\\cos^{2} 60^{\\circ}}{\\sin30^{\\circ}}=-\\frac{(\\frac{1}{2})^{2}}{\\frac{1}{2}}=-\\frac{1}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>先把带分数和小数化为分数，并注意减去负数所得的符号，原式 $=\\frac{11}{2}\\times\\left(-\\frac{6}{11}\\right)+\\frac{1}{4}-\\frac{-8}{\\left(-\\frac{8}{3}\\right)^{2}}=-3+\\frac{1}{4}+\\frac{9}{8}=-\\frac{13}{8}=-1\\frac{5}{8}$.</p></li><li><p>将各因数分解并配对，得 $14=(2\\times7)$、$24=(3\\times8)$、$39=(3\\times13)$、$91=(7\\times13)$，所以</p><p>$\\sqrt{14\\times24\\times39\\times91}=\\sqrt{(2\\times7)(3\\times8)(3\\times13)(7\\times13)}=\\sqrt{(4\\times3\\times7\\times13)^{2}}=4\\times3\\times7\\times13=1092$. 又 $4\\sqrt{27}\\times(-\\sqrt{3})=4\\times3\\sqrt{3}\\times(-\\sqrt{3})=-36$，故原式 $=1092-36=1056$.</p></li><li><p>因为 $-2\\frac{3}{5}\\neq0$，所以 $\\left(-2\\frac{3}{5}\\right)^{0}=1$，且 $4^{-2}=\\frac{1}{16}$，$\\left(2\\frac{1}{4}\\right)^{-\\frac{1}{2}}=\\left(\\frac{9}{4}\\right)^{-\\frac{1}{2}}=\\frac{1}{\\sqrt{\\frac{9}{4}}}=\\frac{2}{3}$，$(0.01)^{0.5}=\\sqrt{0.01}=\\frac{1}{10}$. 因此原式 $=1+\\frac{1}{16}\\times\\frac{2}{3}-\\frac{1}{10}=1+\\frac{1}{24}-\\frac{1}{10}=\\frac{113}{120}$.</p></li><li><p>由 $0.36=\\frac{36}{100}$ 及 $8=2^{3}$，得 $\\lg0.36=\\lg36-2=2\\lg2+2\\lg3-2$，$\\frac{2}{3}\\lg8=2\\lg2$. 因而分母 $=2+(2\\lg2+2\\lg3-2)+2\\lg2=2(2\\lg2+\\lg3)$. 又 $2\\lg2+\\lg3=\\lg(2^{2}\\cdot3)=\\lg12>0$，分子非零，故原式 $=\\frac{1}{2}$.</p></li><li><p>利用诱导公式，$\\tan(-120^{\\circ})=\\tan60^{\\circ}$，$\\cos(-240^{\\circ})=-\\cos60^{\\circ}$，$\\cos480^{\\circ}=-\\cos60^{\\circ}$，$\\tan(-60^{\\circ})=-\\tan60^{\\circ}$，$\\sin(-1050^{\\circ})=\\sin30^{\\circ}$. 所以原式 $=\\frac{\\tan60^{\\circ}\\cos^{2} 60^{\\circ}}{-\\tan60^{\\circ}\\sin30^{\\circ}}=-\\frac{\\cos^{2} 60^{\\circ}}{\\sin30^{\\circ}}=-\\frac{(\\frac{1}{2})^{2}}{\\frac{1}{2}}=-\\frac{1}{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "<p>化简</p><ol class=\"enumerate\"><li><p>$\\left(3\\sqrt[3]{a^{2}}\\cdot\\sqrt{b}\\right)\\left(-6\\sqrt{a}\\cdot\\sqrt[3]{b}\\right)\\div\\left(-2\\sqrt[6]{a}\\cdot\\sqrt[6]{b^{5}}\\right)$；</p></li><li><p>$\\sqrt{(\\lg x)^{2}-2\\lg x+1}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>原式有意义且分母不为零时，根式要求 $a\\geqslant0$、$b\\geqslant0$，分母不为零进一步要求 $a>0$、$b>0$. 在此条件下，利用根式的幂指数表示，原式 $=3a^{\\frac{2}{3}}b^{\\frac{1}{2}}\\cdot(-6a^{\\frac{1}{2}})b^{\\frac{1}{3}}\\div\\left[(-2a^{\\frac{1}{6}})b^{\\frac{5}{6}}\\right]$. 合并系数与同底幂，并计算指数，得原式 $=9a^{\\frac{2}{3}+\\frac{1}{2}-\\frac{1}{6}}b^{\\frac{1}{2}+\\frac{1}{3}-\\frac{5}{6}}=9a^{\\frac{4}{6}+\\frac{3}{6}-\\frac{1}{6}}b^{\\frac{3}{6}+\\frac{2}{6}-\\frac{5}{6}}=9a^{1}b^{0}=9a$.</p></li><li><p>先利用对数的定义域知 $x>0$，再配方，原式 $=\\sqrt{(\\lg x-1)^{2}}=|\\lg x-1|$. 若写成分段形式，则 $\\lg x-1\\geqslant0$ 等价于 $x\\geqslant10$，所以</p>\n$$\n\\sqrt{(\\lg x-1)^{2}}=\\begin{cases}1-\\lg x,&0<x\\leqslant10,\\\\  \\lg x-1,&x>10.\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>原式有意义且分母不为零时，根式要求 $a\\geqslant0$、$b\\geqslant0$，分母不为零进一步要求 $a>0$、$b>0$. 在此条件下，利用根式的幂指数表示，原式 $=3a^{\\frac{2}{3}}b^{\\frac{1}{2}}\\cdot(-6a^{\\frac{1}{2}})b^{\\frac{1}{3}}\\div\\left[(-2a^{\\frac{1}{6}})b^{\\frac{5}{6}}\\right]$. 合并系数与同底幂，并计算指数，得原式 $=9a^{\\frac{2}{3}+\\frac{1}{2}-\\frac{1}{6}}b^{\\frac{1}{2}+\\frac{1}{3}-\\frac{5}{6}}=9a^{\\frac{4}{6}+\\frac{3}{6}-\\frac{1}{6}}b^{\\frac{3}{6}+\\frac{2}{6}-\\frac{5}{6}}=9a^{1}b^{0}=9a$.</p></li><li><p>先利用对数的定义域知 $x>0$，再配方，原式 $=\\sqrt{(\\lg x-1)^{2}}=|\\lg x-1|$. 若写成分段形式，则 $\\lg x-1\\geqslant0$ 等价于 $x\\geqslant10$，所以</p>\n$$\n\\sqrt{(\\lg x-1)^{2}}=\\begin{cases}1-\\lg x,&0<x\\leqslant10,\\\\  \\lg x-1,&x>10.\\end{cases}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "分解因式：$a^{2}-2ab+b^{2}-6a+6b+5$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "先把同类项按 $a-b$ 组合，有 $a^{2}-2ab+b^{2}=(a-b)^{2}$、$-6a+6b=-6(a-b)$. 令 $u=a-b$，则原式 $=u^{2}-6u+5=(u-1)(u-5)$. 代回 $u=a-b$，得到原式 $=(a-b-1)(a-b-5)$."
+          "solution": "先把同类项按 $a-b$ 组合，有 $a^{2}-2ab+b^{2}=(a-b)^{2}$、$-6a+6b=-6(a-b)$. 令 $u=a-b$，则原式 $=u^{2}-6u+5=(u-1)(u-5)$. 代回 $u=a-b$，得到原式 $=(a-b-1)(a-b-5)$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "<p>求下列函数的定义域，并在数轴上把它们表示出来：</p><ol class=\"enumerate\"><li><p>$y=\\frac{\\sqrt{3+2x}}{3x-1}$；</p></li><li><p>$y=\\arcsin\\frac{x}{3}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>根式要求 $3+2x\\geqslant0$，即 $x\\ge-\\frac{3}{2}$；分母要求 $3x-1\\neq0$，即 $x\\neq\\frac{1}{3}$. 两个条件取交集，定义域为 $\\left[-\\frac{3}{2},\\frac{1}{3}\\right)\\cup\\left(\\frac{1}{3},+\\infty\\right)$. 数轴上在 $-\\frac{3}{2}$ 处取闭点，在 $\\frac{1}{3}$ 处取空心点，并标出从 $-\\frac{3}{2}$ 到 $\\frac{1}{3}$ 以及从 $\\frac{1}{3}$ 向右的两段.</p></li><li><p>反正弦函数的自变量必须属于 $[-1,1]$，故 $-1\\le\\frac{x}{3}\\leqslant1$. 由于 $3>0$，不等式同向乘以 $3$ 得 $-3\\le x\\leqslant3$. 因此定义域为 $[-3,3]$，数轴上在 $-3$、$3$ 两端均取闭点，并标出两点之间的线段.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>根式要求 $3+2x\\geqslant0$，即 $x\\ge-\\frac{3}{2}$；分母要求 $3x-1\\neq0$，即 $x\\neq\\frac{1}{3}$. 两个条件取交集，定义域为 $\\left[-\\frac{3}{2},\\frac{1}{3}\\right)\\cup\\left(\\frac{1}{3},+\\infty\\right)$. 数轴上在 $-\\frac{3}{2}$ 处取闭点，在 $\\frac{1}{3}$ 处取空心点，并标出从 $-\\frac{3}{2}$ 到 $\\frac{1}{3}$ 以及从 $\\frac{1}{3}$ 向右的两段.</p></li><li><p>反正弦函数的自变量必须属于 $[-1,1]$，故 $-1\\le\\frac{x}{3}\\leqslant1$. 由于 $3>0$，不等式同向乘以 $3$ 得 $-3\\le x\\leqslant3$. 因此定义域为 $[-3,3]$，数轴上在 $-3$、$3$ 两端均取闭点，并标出两点之间的线段.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "求证：$\\frac{\\sin\\alpha+\\sin\\beta}{\\sin(\\alpha+\\beta)}=\\frac{\\cos\\frac{\\alpha-\\beta}{2}}{\\cos\\frac{\\alpha+\\beta}{2}}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>在等式两边有意义的条件下，左边的分母要求 $\\sin(\\alpha+\\beta)\\neq0$. 由 $\\sin(\\alpha+\\beta)=2\\sin\\frac{\\alpha+\\beta}{2}\\cos\\frac{\\alpha+\\beta}{2}$，可知 $\\sin\\frac{\\alpha+\\beta}{2}\\neq0$ 且 $\\cos\\frac{\\alpha+\\beta}{2}\\neq0$，因此下面的约分合法. 由和差化积公式，$\\sin\\alpha+\\sin\\beta=2\\sin\\frac{\\alpha+\\beta}{2}\\cos\\frac{\\alpha-\\beta}{2}$，且 $\\sin(\\alpha+\\beta)=2\\sin\\frac{\\alpha+\\beta}{2}\\cos\\frac{\\alpha+\\beta}{2}$，所以</p>\n$$\n\\frac{\\sin\\alpha+\\sin\\beta}{\\sin(\\alpha+\\beta)}=\\frac{2\\sin\\frac{\\alpha+\\beta}{2}\\cos\\frac{\\alpha-\\beta}{2}}{2\\sin\\frac{\\alpha+\\beta}{2}\\cos\\frac{\\alpha+\\beta}{2}}=\\frac{\\cos\\frac{\\alpha-\\beta}{2}}{\\cos\\frac{\\alpha+\\beta}{2}}\n$$\n<p>这正是右端，故原等式成立.</p>"
+          "solution": "<p>在等式两边有意义的条件下，左边的分母要求 $\\sin(\\alpha+\\beta)\\neq0$. 由 $\\sin(\\alpha+\\beta)=2\\sin\\frac{\\alpha+\\beta}{2}\\cos\\frac{\\alpha+\\beta}{2}$，可知 $\\sin\\frac{\\alpha+\\beta}{2}\\neq0$ 且 $\\cos\\frac{\\alpha+\\beta}{2}\\neq0$，因此下面的约分合法. 由和差化积公式，$\\sin\\alpha+\\sin\\beta=2\\sin\\frac{\\alpha+\\beta}{2}\\cos\\frac{\\alpha-\\beta}{2}$，且 $\\sin(\\alpha+\\beta)=2\\sin\\frac{\\alpha+\\beta}{2}\\cos\\frac{\\alpha+\\beta}{2}$，所以</p>\n$$\n\\frac{\\sin\\alpha+\\sin\\beta}{\\sin(\\alpha+\\beta)}=\\frac{2\\sin\\frac{\\alpha+\\beta}{2}\\cos\\frac{\\alpha-\\beta}{2}}{2\\sin\\frac{\\alpha+\\beta}{2}\\cos\\frac{\\alpha+\\beta}{2}}=\\frac{\\cos\\frac{\\alpha-\\beta}{2}}{\\cos\\frac{\\alpha+\\beta}{2}}\n$$\n<p>这正是右端，故原等式成立.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "解方程 $\\sin x+\\cos x-1=0$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由原方程得 $\\sin x=1-\\cos x$. 再用半角公式 $\\sin x=2\\sin\\frac{x}{2}\\cos\\frac{x}{2}$ 和 $1-\\cos x=2\\sin^{2}\\frac{x}{2}$，得到 $2\\sin\\frac{x}{2}\\cos\\frac{x}{2}=2\\sin^{2}\\frac{x}{2}$，即 $\\sin\\frac{x}{2}\\left(\\cos\\frac{x}{2}-\\sin\\frac{x}{2}\\right)=0$.</p><p>因此分两种情况：当 $\\sin\\frac{x}{2}=0$ 时，$\\frac{x}{2}=k\\pi$，得 $x=2k\\pi$；当 $\\cos\\frac{x}{2}-\\sin\\frac{x}{2}=0$ 时，$\\cos\\frac{x}{2}\\neq0$，从而 $\\tan\\frac{x}{2}=1$，得 $\\frac{x}{2}=k\\pi+\\frac{\\pi}{4}$，即 $x=2k\\pi+\\frac{\\pi}{2}$，其中 $k\\in\\mathbb{Z}$. 回代检验：当 $x=2k\\pi$ 时，$\\sin x+\\cos x-1=0+1-1=0$；当 $x=2k\\pi+\\frac{\\pi}{2}$ 时，$\\sin x+\\cos x-1=1+0-1=0$. 因此方程的解为 $x=2k\\pi$ 或 $x=2k\\pi+\\frac{\\pi}{2}$，$k\\in\\mathbb{Z}$.</p>"
+          "solution": "<p>由原方程得 $\\sin x=1-\\cos x$. 再用半角公式 $\\sin x=2\\sin\\frac{x}{2}\\cos\\frac{x}{2}$ 和 $1-\\cos x=2\\sin^{2}\\frac{x}{2}$，得到 $2\\sin\\frac{x}{2}\\cos\\frac{x}{2}=2\\sin^{2}\\frac{x}{2}$，即 $\\sin\\frac{x}{2}\\left(\\cos\\frac{x}{2}-\\sin\\frac{x}{2}\\right)=0$.</p><p>因此分两种情况：当 $\\sin\\frac{x}{2}=0$ 时，$\\frac{x}{2}=k\\pi$，得 $x=2k\\pi$；当 $\\cos\\frac{x}{2}-\\sin\\frac{x}{2}=0$ 时，$\\cos\\frac{x}{2}\\neq0$，从而 $\\tan\\frac{x}{2}=1$，得 $\\frac{x}{2}=k\\pi+\\frac{\\pi}{4}$，即 $x=2k\\pi+\\frac{\\pi}{2}$，其中 $k\\in\\mathbb{Z}$. 回代检验：当 $x=2k\\pi$ 时，$\\sin x+\\cos x-1=0+1-1=0$；当 $x=2k\\pi+\\frac{\\pi}{2}$ 时，$\\sin x+\\cos x-1=1+0-1=0$. 因此方程的解为 $x=2k\\pi$ 或 $x=2k\\pi+\\frac{\\pi}{2}$，$k\\in\\mathbb{Z}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "求下列等式里的实数 $x$ 和 $y$ 的值：$(3x\\mathrm{i}+2x)+(y\\mathrm{i}-4)=(2y+5\\mathrm{i})-(3+x\\mathrm{i})$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将等式两边分别合并实部和虚部，左边为 $(2x-4)+(3x+y)\\mathrm{i}$，右边为 $(2y-3)+(5-x)\\mathrm{i}$. 复数相等当且仅当实部、虚部分别相等，因此 $2x-4=2y-3$，$3x+y=5-x$，即</p>\n$$\n\\begin{cases}2x-2y=1,\\\\  4x+y=5.\\end{cases}\n$$\n<p>将第一式与第二式的 2 倍相加，得 $10x=11$，所以 $x=\\frac{11}{10}$. 代入第二式，得 $y=5-4\\times\\frac{11}{10}=\\frac{3}{5}$. 检验可得两边实部均为 $-\\frac{9}{5}$，虚部均为 $\\frac{39}{10}$，故 $x=\\frac{11}{10}$，$y=\\frac{3}{5}$.</p>"
+          "solution": "<p>将等式两边分别合并实部和虚部，左边为 $(2x-4)+(3x+y)\\mathrm{i}$，右边为 $(2y-3)+(5-x)\\mathrm{i}$. 复数相等当且仅当实部、虚部分别相等，因此 $2x-4=2y-3$，$3x+y=5-x$，即</p>\n$$\n\\begin{cases}2x-2y=1,\\\\  4x+y=5.\\end{cases}\n$$\n<p>将第一式与第二式的 2 倍相加，得 $10x=11$，所以 $x=\\frac{11}{10}$. 代入第二式，得 $y=5-4\\times\\frac{11}{10}=\\frac{3}{5}$. 检验可得两边实部均为 $-\\frac{9}{5}$，虚部均为 $\\frac{39}{10}$，故 $x=\\frac{11}{10}$，$y=\\frac{3}{5}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "从山顶 $D$ 测得地面上同一方向的两点 $A$ 和 $B$ 的俯角分别是 $30^{\\circ}$ 和 $45^{\\circ}$，已知 $AB=40\\text{ 米}$，求山高. （精确到 $0.1$）",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设山脚为 $C$，则 $DC\\perp AC$，且 $A$，$B$，$C$ 在同一直线上，$B$ 位于 $A$，$C$ 之间. 俯角等于相应的仰角，所以 $\\angle DAC=30^{\\circ}$，$\\angle DBC=45^{\\circ}$. 在直角三角形 $DBC$ 中，$\\tan45^{\\circ}=\\frac{DC}{BC}=1$，从而 $BC=DC$，于是 $AC=AB+BC=40+DC$.</p><p>在直角三角形 $DAC$ 中，$\\tan30^{\\circ}=\\frac{DC}{AC}=\\frac{DC}{40+DC}$，即 $\\frac{\\sqrt{3}}{3}=\\frac{DC}{40+DC}$. 交叉相乘得 $\\sqrt{3}(40+DC)=3DC$，所以 $(3-\\sqrt{3})DC=40\\sqrt{3}$，从而 $DC=\\frac{40\\sqrt{3}}{3-\\sqrt{3}}=\\frac{40}{\\sqrt{3}-1}=20(\\sqrt{3}+1)\\approx54.641\\text{ 米}$. 按题意精确到 $0.1$，山高为 $54.6\\text{ 米}$.</p>"
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/anhui_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设山脚为 $C$，则 $DC\\perp AC$，且 $A$，$B$，$C$ 在同一直线上，$B$ 位于 $A$，$C$ 之间. 俯角等于相应的仰角，所以 $\\angle DAC=30^{\\circ}$，$\\angle DBC=45^{\\circ}$. 在直角三角形 $DBC$ 中，$\\tan45^{\\circ}=\\frac{DC}{BC}=1$，从而 $BC=DC$，于是 $AC=AB+BC=40+DC$.</p><p>在直角三角形 $DAC$ 中，$\\tan30^{\\circ}=\\frac{DC}{AC}=\\frac{DC}{40+DC}$，即 $\\frac{\\sqrt{3}}{3}=\\frac{DC}{40+DC}$. 交叉相乘得 $\\sqrt{3}(40+DC)=3DC$，所以 $(3-\\sqrt{3})DC=40\\sqrt{3}$，从而 $DC=\\frac{40\\sqrt{3}}{3-\\sqrt{3}}=\\frac{40}{\\sqrt{3}-1}=20(\\sqrt{3}+1)\\approx54.641\\text{ 米}$. 按题意精确到 $0.1$，山高为 $54.6\\text{ 米}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "红旗大队粮食产量逐年增加，1973年产量为 $90\\text{ 万斤}$，连续三年平均每年比前一年增产 $10\\%$，这个大队从1973年到1976年总共生产粮食多少万斤？（精确到 $0.1$）",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设 1973 年至 1976 年的产量分别为 $a_{0}$，$a_{1}$，$a_{2}$，$a_{3}$，单位均为万斤. 连续三年每年比前一年增产 $10\\%$，所以相邻两年的产量比为 $1+10\\%=1.1$，从而 $a_{0}=90$，$a_{1}=90\\times1.1=99$，$a_{2}=90\\times1.1^{2}=108.9$，$a_{3}=90\\times1.1^{3}=119.79$.</p><p>因此总产量 $S=a_{0}+a_{1}+a_{2}+a_{3}=90(1+1.1+1.1^{2}+1.1^{3})=90(1+1.1+1.21+1.331)=417.69\\text{ 万斤}$. 按题意精确到 $0.1$，总产量为 $417.7\\text{ 万斤}$.</p>"
+          "solution": "<p>设 1973 年至 1976 年的产量分别为 $a_{0}$，$a_{1}$，$a_{2}$，$a_{3}$，单位均为万斤. 连续三年每年比前一年增产 $10\\%$，所以相邻两年的产量比为 $1+10\\%=1.1$，从而 $a_{0}=90$，$a_{1}=90\\times1.1=99$，$a_{2}=90\\times1.1^{2}=108.9$，$a_{3}=90\\times1.1^{3}=119.79$.</p><p>因此总产量 $S=a_{0}+a_{1}+a_{2}+a_{3}=90(1+1.1+1.1^{2}+1.1^{3})=90(1+1.1+1.21+1.331)=417.69\\text{ 万斤}$. 按题意精确到 $0.1$，总产量为 $417.7\\text{ 万斤}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "求椭圆 $25x^{2}+9y^{2}=100$ 的长轴和短轴的长，焦点坐标，并且画出它的图象.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将方程两边除以 $100$，得 $\\frac{x^{2}}{4}+\\frac{y^{2}}{\\frac{100}{9}}=1$. 因为 $\\frac{100}{9}>4$，所以椭圆的长轴在 $y$ 轴上，长半轴为 $a=\\frac{10}{3}$，短半轴为 $b=2$. 因而长轴长为 $2a=\\frac{20}{3}$，短轴长为 $2b=4$.</p><p>半焦距满足 $c^{2}=a^{2}-b^{2}$，所以 $c=\\sqrt{\\frac{100}{9}-4}=\\frac{8}{3}$. 因此两个焦点为 $\\left(0,\\frac{8}{3}\\right)$ 和 $\\left(0,-\\frac{8}{3}\\right)$. 作图时以原点为中心，取长轴端点 $\\left(0,\\frac{10}{3}\\right)$、$\\left(0,-\\frac{10}{3}\\right)$ 和短轴端点 $(2,0)$、$(-2,0)$，作经过这些端点的竖直椭圆即可.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<p>将方程两边除以 $100$，得 $\\frac{x^{2}}{4}+\\frac{y^{2}}{\\frac{100}{9}}=1$. 因为 $\\frac{100}{9}>4$，所以椭圆的长轴在 $y$ 轴上，长半轴为 $a=\\frac{10}{3}$，短半轴为 $b=2$. 因而长轴长为 $2a=\\frac{20}{3}$，短轴长为 $2b=4$.</p><p>半焦距满足 $c^{2}=a^{2}-b^{2}$，所以 $c=\\sqrt{\\frac{100}{9}-4}=\\frac{8}{3}$. 因此两个焦点为 $\\left(0,\\frac{8}{3}\\right)$ 和 $\\left(0,-\\frac{8}{3}\\right)$. 作图时以原点为中心，取长轴端点 $\\left(0,\\frac{10}{3}\\right)$、$\\left(0,-\\frac{10}{3}\\right)$ 和短轴端点 $(2,0)$、$(-2,0)$，作经过这些端点的竖直椭圆即可.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/anhui_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -1,8 +1,89 @@
 {
-  "title": "1977年普通高等学校招生全国统一考试",
-  "subtitle": "1977年山东B卷",
   "year": "1977",
   "slug": "shandong_b",
+  "title": "1977年山东B卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "参考题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "解答题",
@@ -10,79 +91,101 @@
         {
           "num": 1,
           "body": "$\\sqrt{\\left( -a \\right)^{2}}=?$",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为 $\\left( -a \\right)^{2}=a^{2}$，而算术平方根的值非负，所以</p><p>$\\sqrt{\\left( -a \\right)^{2}}=\\sqrt{a^{2}}=\\lvert a\\rvert$. 当 $a\\geqslant0$ 时，$\\lvert a\\rvert=a$；当 $a<0$ 时，$\\lvert a\\rvert=-a$. 因此</p>\n$$\n\\sqrt{\\left( -a \\right)^{2}}=\\begin{cases}a,&a\\geqslant0,\\\\  -a,&a<0.\\end{cases}\n$$"
+          "solution": "<p>因为 $\\left( -a \\right)^{2}=a^{2}$，而算术平方根的值非负，所以</p><p>$\\sqrt{\\left( -a \\right)^{2}}=\\sqrt{a^{2}}=\\lvert a\\rvert$. 当 $a\\geqslant0$ 时，$\\lvert a\\rvert=a$；当 $a<0$ 时，$\\lvert a\\rvert=-a$. 因此</p>\n$$\n\\sqrt{\\left( -a \\right)^{2}}=\\begin{cases}a,&a\\geqslant0,\\\\  -a,&a<0.\\end{cases}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "$\\log_{\\frac{1}{2}}\\left[ \\left( 1-\\cos^{2}\\frac{\\pi}{6}\\right)\\left( \\cot\\frac{\\pi}{4}\\right)^{-2}\\right]=?$",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由 $\\cos\\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2}$ 和 $\\cot\\frac{\\pi}{4}=1$，得</p><p>$1-\\cos^{2}\\frac{\\pi}{6}=1-\\frac{3}{4}=\\frac{1}{4}$，$\\left( \\cot\\frac{\\pi}{4}\\right)^{-2}=1^{-2}=1$.</p><p>所以原式 $=\\log_{\\frac{1}{2}}\\frac{1}{4}$. 又因为 $\\frac{1}{4}=\\left(\\frac{1}{2}\\right)^{2}$，故原式 $=2$.</p>"
+          "solution": "<p>由 $\\cos\\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2}$ 和 $\\cot\\frac{\\pi}{4}=1$，得</p><p>$1-\\cos^{2}\\frac{\\pi}{6}=1-\\frac{3}{4}=\\frac{1}{4}$，$\\left( \\cot\\frac{\\pi}{4}\\right)^{-2}=1^{-2}=1$.</p><p>所以原式 $=\\log_{\\frac{1}{2}}\\frac{1}{4}$. 又因为 $\\frac{1}{4}=\\left(\\frac{1}{2}\\right)^{2}$，故原式 $=2$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "<p>写出下列函数的定义域：</p><ol class=\"enumerate\"><li><p>$y=\\frac{\\sqrt{\\lvert x-3\\rvert}}{x-2}$；</p></li><li><p>$y=\\lg\\left( x+3 \\right)$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>对任意实数 $x$，都有 $\\lvert x-3\\rvert\\geqslant0$，所以根式始终有意义；分母不能为零，需满足 $x-2\\ne0$. 因此定义域为 $\\{x\\in\\mathbb{R}\\mid x\\ne2\\}$.</p></li><li><p>对数的真数必须为正，需满足 $x+3>0$，所以定义域为 $\\{x\\in\\mathbb{R}\\mid x>-3\\}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>对任意实数 $x$，都有 $\\lvert x-3\\rvert\\geqslant0$，所以根式始终有意义；分母不能为零，需满足 $x-2\\ne0$. 因此定义域为 $\\{x\\in\\mathbb{R}\\mid x\\ne2\\}$.</p></li><li><p>对数的真数必须为正，需满足 $x+3>0$，所以定义域为 $\\{x\\in\\mathbb{R}\\mid x>-3\\}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "写出过 $(0,1)$ 和 $(2,3)$ 两点的直线方程.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>两点的横坐标不同，直线斜率为</p>\n$$\nk=\\frac{3-1}{2-0}=1\n$$\n<p>由点斜式，所求直线满足 $y-1=1\\left( x-0 \\right)$，即</p><p>$y=x+1$，或写成一般式 $x-y+1=0$.</p>"
+          "solution": "<p>两点的横坐标不同，直线斜率为</p>\n$$\nk=\\frac{3-1}{2-0}=1\n$$\n<p>由点斜式，所求直线满足 $y-1=1\\left( x-0 \\right)$，即</p><p>$y=x+1$，或写成一般式 $x-y+1=0$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "写出双曲线 $\\frac{x^{2}}{16}-\\frac{y^{2}}{9}=1$ 的渐近线方程.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将方程写成标准形式</p>\n$$\n\\frac{x^{2}}{4^{2}}-\\frac{y^{2}}{3^{2}}=1\n$$\n<p>因此双曲线的参数为 $a=4$，$b=3$. 对于双曲线 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，其渐近线为 $y=\\pm\\frac{b}{a}x$. 代入 $a$，$b$ 得</p>\n$$\ny=\\pm\\frac{3}{4}x\n$$\n<p>即渐近线方程为 $\\frac{x}{4}+\\frac{y}{3}=0$ 和 $\\frac{x}{4}-\\frac{y}{3}=0$.</p>"
+          "solution": "<p>将方程写成标准形式</p>\n$$\n\\frac{x^{2}}{4^{2}}-\\frac{y^{2}}{3^{2}}=1\n$$\n<p>因此双曲线的参数为 $a=4$，$b=3$. 对于双曲线 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，其渐近线为 $y=\\pm\\frac{b}{a}x$. 代入 $a$，$b$ 得</p>\n$$\ny=\\pm\\frac{3}{4}x\n$$\n<p>即渐近线方程为 $\\frac{x}{4}+\\frac{y}{3}=0$ 和 $\\frac{x}{4}-\\frac{y}{3}=0$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
-          "body": "<p>如图所示的二视图是什么几何体？</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_b/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图所示的二视图是什么几何体？</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/shandong_b/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "图中的一个视图为正方形，另一个视图为以一个顶点为顶点、以正方形的一条边为底边的等腰三角形. 这说明几何体的底面是正方形，四个侧面都是以同一个顶点为公共顶点的三角形，且顶点在底面中心的正上方. 因此该几何体是正四棱锥."
+          "solution": "图中的一个视图为正方形，另一个视图为以一个顶点为顶点、以正方形的一条边为底边的等腰三角形. 这说明几何体的底面是正方形，四个侧面都是以同一个顶点为公共顶点的三角形，且顶点在底面中心的正上方. 因此该几何体是正四棱锥.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "平行四边形 $ABCD$ 的两邻边之比为 $1:2$，$M$ 为大边 $AB$ 的中点，连接 $MD$，$MC$，求证：$\\angle DMC=\\frac{\\pi}{2}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由题意，$AB:AD=2:1$，且 $M$ 是 $AB$ 的中点，所以</p>\n$$\nAM=MB=\\frac{1}{2}AB=AD\n$$\n<p>在等腰三角形 $ADM$ 中，$AM=AD$，故</p><p>$\\angle ADM=\\angle AMD$. 又因为 $AB\\parallel DC$，且 $A$，$M$，$B$ 三点共线，所以直线 $AM\\parallel DC$，从而由平行线所成的角相等，$\\angle AMD=\\angle MDC$. 因此</p>\n$$\n\\angle ADC=\\angle ADM+\\angle MDC=2\\angle MDC\n$$\n<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_b/q7_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>平行四边形的对边相等，故 $AD=BC$，于是 $MB=BC$. 在等腰三角形 $MBC$ 中，$MB=BC$，所以 $\\angle BMC=\\angle MCB$. 由于 $MB\\parallel DC$，有 $\\angle BMC=\\angle MCD$，从而</p>\n$$\n\\angle BCD=\\angle MCB+\\angle MCD=2\\angle MCD\n$$\n<p>平行四边形的邻角互补，即 $\\angle ADC+\\angle BCD=\\pi$. 因此</p>\n$$\n\\angle MDC+\\angle MCD  =\\frac{1}{2}\\left( \\angle ADC+\\angle BCD \\right)  =\\frac{\\pi}{2}\n$$\n<p>在三角形 $DMC$ 中，三角形内角和为 $\\pi$，所以</p>\n$$\n\\angle DMC=\\pi-\\angle MDC-\\angle MCD=\\frac{\\pi}{2}\n$$"
+          "solution": "<p>由题意，$AB:AD=2:1$，且 $M$ 是 $AB$ 的中点，所以</p>\n$$\nAM=MB=\\frac{1}{2}AB=AD\n$$\n<p>在等腰三角形 $ADM$ 中，$AM=AD$，故</p><p>$\\angle ADM=\\angle AMD$. 又因为 $AB\\parallel DC$，且 $A$，$M$，$B$ 三点共线，所以直线 $AM\\parallel DC$，从而由平行线所成的角相等，$\\angle AMD=\\angle MDC$. 因此</p>\n$$\n\\angle ADC=\\angle ADM+\\angle MDC=2\\angle MDC\n$$\n<p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/shandong_b/q7_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>平行四边形的对边相等，故 $AD=BC$，于是 $MB=BC$. 在等腰三角形 $MBC$ 中，$MB=BC$，所以 $\\angle BMC=\\angle MCB$. 由于 $MB\\parallel DC$，有 $\\angle BMC=\\angle MCD$，从而</p>\n$$\n\\angle BCD=\\angle MCB+\\angle MCD=2\\angle MCD\n$$\n<p>平行四边形的邻角互补，即 $\\angle ADC+\\angle BCD=\\pi$. 因此</p>\n$$\n\\angle MDC+\\angle MCD  =\\frac{1}{2}\\left( \\angle ADC+\\angle BCD \\right)  =\\frac{\\pi}{2}\n$$\n<p>在三角形 $DMC$ 中，三角形内角和为 $\\pi$，所以</p>\n$$\n\\angle DMC=\\pi-\\angle MDC-\\angle MCD=\\frac{\\pi}{2}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "<p>$\\frac{\\sin\\alpha}{2}x^{2}+x+\\frac{1}{2\\cos\\alpha}=0$（$0<\\alpha<\\frac{\\pi}{2}$）为关于 $x$ 的二次方程.</p><ol class=\"enumerate\"><li><p>当 $\\alpha$ 为何值时，方程有两个不相等的实数根？</p></li><li><p>它的根是什么？</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $0<\\alpha<\\frac{\\pi}{2}$，所以 $\\sin\\alpha>0$，$\\cos\\alpha>0$，该方程确为关于 $x$ 的二次方程. 其二次项系数、一次项系数和常数项分别为</p><p>$A=\\frac{\\sin\\alpha}{2}$，$B=1$，$C=\\frac{1}{2\\cos\\alpha}$.</p><p>方程有两个不相等的实数根的充要条件是判别式 $\\Delta=B^{2}-4AC>0$. 计算得</p>\n$$\n\\Delta=1-4\\cdot\\frac{\\sin\\alpha}{2}\\cdot\\frac{1}{2\\cos\\alpha}=1-\\frac{\\sin\\alpha}{\\cos\\alpha}=1-\\tan\\alpha\n$$\n<p>所以需要 $\\tan\\alpha<1$. 在区间 $\\left(0,\\frac{\\pi}{2}\\right)$ 内，正切函数递增，且 $\\tan\\frac{\\pi}{4}=1$，故</p>\n$$\n0<\\alpha<\\frac{\\pi}{4}\n$$\n</li><li><p>当 $0<\\alpha<\\frac{\\pi}{4}$ 时，$\\Delta=1-\\tan\\alpha>0$. 由求根公式</p>\n$$\nx=\\frac{-B\\pm\\sqrt{\\Delta}}{2A}=\\frac{-1\\pm\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}\n$$\n<p>因此两个不相等的实数根为</p><p>$x_{1}=\\frac{-1+\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}$，$x_{2}=\\frac{-1-\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $0<\\alpha<\\frac{\\pi}{2}$，所以 $\\sin\\alpha>0$，$\\cos\\alpha>0$，该方程确为关于 $x$ 的二次方程. 其二次项系数、一次项系数和常数项分别为</p><p>$A=\\frac{\\sin\\alpha}{2}$，$B=1$，$C=\\frac{1}{2\\cos\\alpha}$.</p><p>方程有两个不相等的实数根的充要条件是判别式 $\\Delta=B^{2}-4AC>0$. 计算得</p>\n$$\n\\Delta=1-4\\cdot\\frac{\\sin\\alpha}{2}\\cdot\\frac{1}{2\\cos\\alpha}=1-\\frac{\\sin\\alpha}{\\cos\\alpha}=1-\\tan\\alpha\n$$\n<p>所以需要 $\\tan\\alpha<1$. 在区间 $\\left(0,\\frac{\\pi}{2}\\right)$ 内，正切函数递增，且 $\\tan\\frac{\\pi}{4}=1$，故</p>\n$$\n0<\\alpha<\\frac{\\pi}{4}\n$$\n</li><li><p>当 $0<\\alpha<\\frac{\\pi}{4}$ 时，$\\Delta=1-\\tan\\alpha>0$. 由求根公式</p>\n$$\nx=\\frac{-B\\pm\\sqrt{\\Delta}}{2A}=\\frac{-1\\pm\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}\n$$\n<p>因此两个不相等的实数根为</p><p>$x_{1}=\\frac{-1+\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}$，$x_{2}=\\frac{-1-\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "试比较等底等高的正四棱锥和正圆锥的侧面积，看哪个的侧面积较小.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设两几何体的底面积均为 $S>0$，高均为 $h>0$. 对正四棱锥，设正方形底面的边长为 $a$，则 $a^{2}=S$，从顶点到底面某一边中点的斜高为</p>\n$$\nl_{1}=\\sqrt{h^{2}+\\left( \\frac{a}{2}\\right)^{2}}=\\sqrt{h^{2}+\\frac{S}{4}}\n$$\n<p>因此正四棱锥的侧面积为</p>\n$$\nS_{1}=4\\cdot\\frac{1}{2}a l_{1}  =2\\sqrt{S}\\sqrt{h^{2}+\\frac{S}{4}}\n$$\n<p>从而</p>\n$$\nS_{1}^{2}=S^{2}+4Sh^{2}\n$$\n<p>对正圆锥，设底面半径为 $r$，母线长为 $l_{2}$. 由 $\\pi r^{2}=S$ 和勾股定理，得</p><p>$r=\\sqrt{\\frac{S}{\\pi}}$，$l_{2}=\\sqrt{h^{2}+r^{2}}=\\sqrt{h^{2}+\\frac{S}{\\pi}}$.</p><p>所以正圆锥的侧面积为</p>\n$$\nS_{2}=\\pi r l_{2}\n$$\n<p>从而</p>\n$$\nS_{2}^{2}=\\pi^{2}\\cdot\\frac{S}{\\pi}\\left( h^{2}+\\frac{S}{\\pi}\\right)=S^{2}+\\pi Sh^{2}\n$$\n<p>因为 $\\pi<4$ 且 $S$，$h>0$，所以 $S_{2}^{2}<S_{1}^{2}$. 两个侧面积均为正数，故 $S_{2}<S_{1}$. 因此正圆锥的侧面积较小.</p>"
+          "solution": "<p>设两几何体的底面积均为 $S>0$，高均为 $h>0$. 对正四棱锥，设正方形底面的边长为 $a$，则 $a^{2}=S$，从顶点到底面某一边中点的斜高为</p>\n$$\nl_{1}=\\sqrt{h^{2}+\\left( \\frac{a}{2}\\right)^{2}}=\\sqrt{h^{2}+\\frac{S}{4}}\n$$\n<p>因此正四棱锥的侧面积为</p>\n$$\nS_{1}=4\\cdot\\frac{1}{2}a l_{1}  =2\\sqrt{S}\\sqrt{h^{2}+\\frac{S}{4}}\n$$\n<p>从而</p>\n$$\nS_{1}^{2}=S^{2}+4Sh^{2}\n$$\n<p>对正圆锥，设底面半径为 $r$，母线长为 $l_{2}$. 由 $\\pi r^{2}=S$ 和勾股定理，得</p><p>$r=\\sqrt{\\frac{S}{\\pi}}$，$l_{2}=\\sqrt{h^{2}+r^{2}}=\\sqrt{h^{2}+\\frac{S}{\\pi}}$.</p><p>所以正圆锥的侧面积为</p>\n$$\nS_{2}=\\pi r l_{2}\n$$\n<p>从而</p>\n$$\nS_{2}^{2}=\\pi^{2}\\cdot\\frac{S}{\\pi}\\left( h^{2}+\\frac{S}{\\pi}\\right)=S^{2}+\\pi Sh^{2}\n$$\n<p>因为 $\\pi<4$ 且 $S$，$h>0$，所以 $S_{2}^{2}<S_{1}^{2}$. 两个侧面积均为正数，故 $S_{2}<S_{1}$. 因此正圆锥的侧面积较小.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "一只船以 $v\\text{ 海里/小时}$ 的速度向正北航行，在 $A$ 处望见灯塔在船的北 $\\alpha$ 度东，继续航行 $t\\text{ 小时}$ 后，在 $B$ 处望见 $S$ 在船的北 $\\beta$ 度东，求第二次望见灯塔 $S$ 时船和灯塔的距离 $BS$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_b/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>题面中的 $\\alpha$、$\\beta$ 按度数表示.</p><p>船从 $A$ 到 $B$ 向正北航行，所以</p>\n$$\nAB=vt\n$$\n<p>在三角形 $ABS$ 中，$AB$ 的方向是正北，故 $\\angle BAS=\\alpha$. 在 $B$ 点，射线 $BA$ 指向正南，而射线 $BS$ 是北 $\\beta$ 度东，所以</p>\n$$\n\\angle ABS=180^{\\circ}-\\beta\n$$\n<p>由三角形内角和，</p>\n$$\n\\angle ASB=180^{\\circ}-\\angle BAS-\\angle ABS  =180^{\\circ}-\\alpha-\\left( 180^{\\circ}-\\beta \\right)=\\beta-\\alpha\n$$\n<p>由图中灯塔位于航线东侧且在 $B$ 的北方可知 $\\beta>\\alpha$，因此该角为正. 在三角形 $ABS$ 中应用正弦定理，$BS$ 对应角 $\\alpha$，$AB$ 对应角 $\\beta-\\alpha$，于是</p>\n$$\n\\frac{BS}{\\sin\\alpha}=\\frac{AB}{\\sin\\left( \\beta-\\alpha \\right)}=\\frac{vt}{\\sin\\left( \\beta-\\alpha \\right)}\n$$\n<p>所以</p>\n$$\nBS=\\frac{vt\\sin\\alpha}{\\sin\\left( \\beta-\\alpha \\right)}\n$$"
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/shandong_b/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>题面中的 $\\alpha$、$\\beta$ 按度数表示.</p><p>船从 $A$ 到 $B$ 向正北航行，所以</p>\n$$\nAB=vt\n$$\n<p>在三角形 $ABS$ 中，$AB$ 的方向是正北，故 $\\angle BAS=\\alpha$. 在 $B$ 点，射线 $BA$ 指向正南，而射线 $BS$ 是北 $\\beta$ 度东，所以</p>\n$$\n\\angle ABS=180^{\\circ}-\\beta\n$$\n<p>由三角形内角和，</p>\n$$\n\\angle ASB=180^{\\circ}-\\angle BAS-\\angle ABS  =180^{\\circ}-\\alpha-\\left( 180^{\\circ}-\\beta \\right)=\\beta-\\alpha\n$$\n<p>由图中灯塔位于航线东侧且在 $B$ 的北方可知 $\\beta>\\alpha$，因此该角为正. 在三角形 $ABS$ 中应用正弦定理，$BS$ 对应角 $\\alpha$，$AB$ 对应角 $\\beta-\\alpha$，于是</p>\n$$\n\\frac{BS}{\\sin\\alpha}=\\frac{AB}{\\sin\\left( \\beta-\\alpha \\right)}=\\frac{vt}{\\sin\\left( \\beta-\\alpha \\right)}\n$$\n<p>所以</p>\n$$\nBS=\\frac{vt\\sin\\alpha}{\\sin\\left( \\beta-\\alpha \\right)}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 11,
-          "body": "<p>某隧道的横断面如图所示，已知隧道横断面的周长为 $23\\text{ 米}$，试根据图所示尺寸，求：</p><ol class=\"enumerate\"><li><p>当 $x$ 和 $y$ 为何值时，隧道的横断面面积最大？</p></li><li><p>最大面积是多少？</p></li></ol><p>（取 $\\pi\\approx3$）（图尺寸单位：米）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_b/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>某隧道的横断面如图所示，已知隧道横断面的周长为 $23\\text{ 米}$，试根据图所示尺寸，求：</p><ol class=\"enumerate\"><li><p>当 $x$ 和 $y$ 为何值时，隧道的横断面面积最大？</p></li><li><p>最大面积是多少？</p></li></ol><p>（取 $\\pi\\approx3$）（图尺寸单位：米）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/shandong_b/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设半圆半径为 $x$ 米，两侧直墙的高度为 $y$ 米，横断面面积为 $S$ 平方米. 按图中尺寸，半圆弧长取 $\\pi x\\approx3x$. 底部边界由两段长度为 $0.5$ 米的水平线、凹入部分的两条竖直边（每条长 $0.5$ 米）以及凹入部分的上边组成；其水平边界总长为直径 $2x$，竖直边总长为 $0.5\\times2$. 因此周长条件给出</p>\n$$\n23\\approx3x+2y+2x+0.5\\times2\n$$\n<p>从而</p>\n$$\ny\\approx\\frac{23-3x-2x-0.5\\times2}{2}=11-2.5x\n$$\n<p>隧道横断面面积等于上半圆面积加上两侧墙之间的矩形面积，再减去底部凹入的矩形面积. 其中凹入部分的宽为 $2x-1$ 米，高为 $0.5$ 米，所以</p>\n$$\nS\\approx\\frac{3x^{2}}{2}+2xy-\\left( 2x-1 \\right)\\times0.5\n$$\n<p>代入 $y=11-2.5x$，化简得</p>\n$$\nS\\approx\\frac{3x^{2}}{2}+2x\\left( 11-2.5x \\right)-\\left( 2x-1 \\right)\\times0.5=-3.5x^{2}+21x+0.5\n$$\n<p>几何尺寸还需满足 $2x-1>0$ 且 $y>0$，即 $\\frac{1}{2}<x<\\frac{22}{5}$. 在这个范围内，配方得</p>\n$$\nS\\approx-3.5\\left( x-3 \\right)^{2}+32\n$$\n<p>因为 $-3.5\\left( x-3 \\right)^{2}\\leqslant0$，且 $x=3$ 在允许范围内，所以当 $x=3$ 米时，面积取得最大值；此时</p>\n$$\ny=11-2.5\\times3=3.5\\text{ 米}\n$$\n</li><li><p>由上式直接得到</p>\n$$\nS_{\\max}=32\\text{ 平方米}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设半圆半径为 $x$ 米，两侧直墙的高度为 $y$ 米，横断面面积为 $S$ 平方米. 按图中尺寸，半圆弧长取 $\\pi x\\approx3x$. 底部边界由两段长度为 $0.5$ 米的水平线、凹入部分的两条竖直边（每条长 $0.5$ 米）以及凹入部分的上边组成；其水平边界总长为直径 $2x$，竖直边总长为 $0.5\\times2$. 因此周长条件给出</p>\n$$\n23\\approx3x+2y+2x+0.5\\times2\n$$\n<p>从而</p>\n$$\ny\\approx\\frac{23-3x-2x-0.5\\times2}{2}=11-2.5x\n$$\n<p>隧道横断面面积等于上半圆面积加上两侧墙之间的矩形面积，再减去底部凹入的矩形面积. 其中凹入部分的宽为 $2x-1$ 米，高为 $0.5$ 米，所以</p>\n$$\nS\\approx\\frac{3x^{2}}{2}+2xy-\\left( 2x-1 \\right)\\times0.5\n$$\n<p>代入 $y=11-2.5x$，化简得</p>\n$$\nS\\approx\\frac{3x^{2}}{2}+2x\\left( 11-2.5x \\right)-\\left( 2x-1 \\right)\\times0.5=-3.5x^{2}+21x+0.5\n$$\n<p>几何尺寸还需满足 $2x-1>0$ 且 $y>0$，即 $\\frac{1}{2}<x<\\frac{22}{5}$. 在这个范围内，配方得</p>\n$$\nS\\approx-3.5\\left( x-3 \\right)^{2}+32\n$$\n<p>因为 $-3.5\\left( x-3 \\right)^{2}\\leqslant0$，且 $x=3$ 在允许范围内，所以当 $x=3$ 米时，面积取得最大值；此时</p>\n$$\ny=11-2.5\\times3=3.5\\text{ 米}\n$$\n</li><li><p>由上式直接得到</p>\n$$\nS_{\\max}=32\\text{ 平方米}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -92,16 +195,20 @@
         {
           "num": 12,
           "body": "求极限：$\\lim\\limits_{x\\to0}\\frac{\\ln\\left( 1+x \\right)}{x}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>当 $x$ 趋近于 $0$ 时，$1+x>0$，所以对数函数在所需邻域内有定义. 此时分子 $\\ln\\left( 1+x \\right)\\to0$，分母 $x\\to0$，且分子、分母在该邻域内可导. 由洛必达法则，</p>\n$$\n\\lim\\limits_{x\\to0}\\frac{\\ln\\left( 1+x \\right)}{x}=\\lim\\limits_{x\\to0}\\frac{\\dfrac{1}{1+x}}{1}=\\lim\\limits_{x\\to0}\\frac{1}{1+x}=1\n$$"
+          "solution": "<p>当 $x$ 趋近于 $0$ 时，$1+x>0$，所以对数函数在所需邻域内有定义. 此时分子 $\\ln\\left( 1+x \\right)\\to0$，分母 $x\\to0$，且分子、分母在该邻域内可导. 由洛必达法则，</p>\n$$\n\\lim\\limits_{x\\to0}\\frac{\\ln\\left( 1+x \\right)}{x}=\\lim\\limits_{x\\to0}\\frac{\\dfrac{1}{1+x}}{1}=\\lim\\limits_{x\\to0}\\frac{1}{1+x}=1\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "用定积分求抛物线 $y^{2}=4x$ 与 $x^{2}=4y$ 所围成的曲边形面积.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_b/ref1_q2_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由 $y^{2}=4x$ 和 $x^{2}=4y$ 可知交点都在第一象限或原点. 联立两式，将 $y=\\frac{x^{2}}{4}$ 代入 $y^{2}=4x$，得</p>\n$$\n\\frac{x^{4}}{16}=4x   \\Longleftrightarrow   x\\left( x^{3}-64 \\right)=0\n$$\n<p>所以交点的横坐标为 $x=0$ 和 $x=4$. 在 $0\\le x\\leqslant4$ 上，上方曲线为 $y=2\\sqrt{x}$，下方曲线为 $y=\\frac{x^{2}}{4}$. 因此所围成区域的面积为</p>\n$$\nS=\\int_{0}^{4}\\left( 2\\sqrt{x}-\\frac{x^{2}}{4}\\right)\\,\\mathrm{d}x  =\\left.\\frac{4}{3}x^{\\frac{3}{2}}\\right|_{0}^{4}-\\left.\\frac{1}{12}x^{3}\\right|_{0}^{4}  =\\frac{32}{3}-\\frac{16}{3}=\\frac{16}{3}\n$$\n<p>所以曲边形面积为 $\\frac{16}{3}$ 平方单位.</p>"
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/shandong_b/ref1_q2_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由 $y^{2}=4x$ 和 $x^{2}=4y$ 可知交点都在第一象限或原点. 联立两式，将 $y=\\frac{x^{2}}{4}$ 代入 $y^{2}=4x$，得</p>\n$$\n\\frac{x^{4}}{16}=4x   \\Longleftrightarrow   x\\left( x^{3}-64 \\right)=0\n$$\n<p>所以交点的横坐标为 $x=0$ 和 $x=4$. 在 $0\\le x\\leqslant4$ 上，上方曲线为 $y=2\\sqrt{x}$，下方曲线为 $y=\\frac{x^{2}}{4}$. 因此所围成区域的面积为</p>\n$$\nS=\\int_{0}^{4}\\left( 2\\sqrt{x}-\\frac{x^{2}}{4}\\right)\\,\\mathrm{d}x  =\\left.\\frac{4}{3}x^{\\frac{3}{2}}\\right|_{0}^{4}-\\left.\\frac{1}{12}x^{3}\\right|_{0}^{4}  =\\frac{32}{3}-\\frac{16}{3}=\\frac{16}{3}\n$$\n<p>所以曲边形面积为 $\\frac{16}{3}$ 平方单位.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

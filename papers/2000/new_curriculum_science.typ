@@ -126,7 +126,15 @@ xyz=\sqrt{(xy)(xz)(yz)}=\sqrt{\sqrt{2}\cdot\sqrt{3}\cdot\sqrt{6}}=\sqrt{6}
 
 #problem(5)[
 函数 #mi(`y = -x\cos x`) 的部分图象是（ ）
-  #choices([[width=0.15\paperwidth]img/2000/new_curriculum_science/q5_optA.png], [[width=0.15\paperwidth]img/2000/new_curriculum_science/q5_optB.png], [[width=0.15\paperwidth]img/2000/new_curriculum_science/q5_optC.png], [[width=0.15\paperwidth]img/2000/new_curriculum_science/q5_optD.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2000/img/new_curriculum_science/q5_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2000/img/new_curriculum_science/q5_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2000/img/new_curriculum_science/q5_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2000/img/new_curriculum_science/q5_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D])
@@ -220,7 +228,9 @@ R=\lg\frac{a+b}{2}>\lg\sqrt{ab}=\frac{\lg a+\lg b}{2}=Q
 #problem(8)[
 图中阴影部分的面积是（ ）
 
-[max width=0.65\linewidth]img/2000/new_curriculum_science/q8_fig1.png
+
+#align(center)[#image("/papers/2000/img/new_curriculum_science/q8_fig1.png", width: 28%)]
+
   #choices([#mi(`2\sqrt{3}`)], [#mi(`9 - 2\sqrt{3}`)], [#mi(`\frac{32}{3}`)], [#mi(`\frac{35}{3}`)], cols: 2)
 ]
 
@@ -296,7 +306,9 @@ R=\lg\frac{a+b}{2}>\lg\sqrt{ab}=\frac{\lg a+\lg b}{2}=Q
 #problem(12)[
 如图，#mi(`OA`) 是圆锥底面中心 #mi(`O`) 到母线的垂线，#mi(`OA`) 绕轴旋转一周所得曲面将圆锥分成体积相等的两部分，则母线与轴的夹角为（ ）
 
-[width=0.65\linewidth]img/2000/new_curriculum_science/q12_fig1.png
+
+#align(center)[#image("/papers/2000/img/new_curriculum_science/q12_fig1.png", width: 28%)]
+
   #choices([#mi(`\arccos\frac{1}{\sqrt[3]{2}}`)], [#mi(`\arccos\frac{1}{2}`)], [#mi(`\arccos\frac{1}{\sqrt{2}}`)], [#mi(`\arccos\frac{1}{\sqrt[4]{2}}`)], cols: 1)
 ]
 
@@ -544,7 +556,9 @@ a_{n}=a_{1}\prod_{k=1}^{n-1}\frac{k}{k+1}=1\cdot\frac{1}{n}=\frac{1}{n}
 
 
 
-[width=0.75\linewidth]img/2000/new_curriculum_science/q18_fig1.png
+
+#align(center)[#image("/papers/2000/img/new_curriculum_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -569,7 +583,9 @@ a_{n}=a_{1}\prod_{k=1}^{n-1}\frac{k}{k+1}=1\cdot\frac{1}{n}=\frac{1}{n}
 
 
 
-[width=0.7\linewidth]img/2000/new_curriculum_science/q19_fig1.png
+
+#align(center)[#image("/papers/2000/img/new_curriculum_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -701,7 +717,9 @@ V_{\max}=1\times1.5\times1.2=1.8
 #problem(23)[
 如图，已知梯形 #mi(`ABCD`) 中 #mi(`|AB| = 2|CD|`)，点 #mi(`E`) 分有向线段 #mi(`\overrightarrow{AC}`) 所成的比为 #mi(`\lambda`)，双曲线过 #mi(`C`)，#mi(`D`)，#mi(`E`) 三点，且以 #mi(`A`)，#mi(`B`) 为焦点，当 #mi(`\frac{2}{3}\le \lambda \le \frac{3}{4}`) 时，求双曲线离心率 #mi(`e`) 的取值范围.
 
-[width=0.55\linewidth]img/2000/new_curriculum_science/q23_fig1.png
+
+#align(center)[#image("/papers/2000/img/new_curriculum_science/q23_fig1.png", width: 28%)]
+
 ]
 
 #solution[

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,476 +11,481 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $M = \{x | 1 + x > 0\}$，$N = \{x | (1)/(1 - x)> 0\}$，则 $M inter N =$（ ）
-  #choices([$\{x | -1 <= x < 1\}$], [$\{x | x > 1\}$], [$\{x | -1 < x < 1\}$], [$\{x | x >= -1\}$], cols: 2)
+已知集合 #mi(`M = \{x \mid 1 + x > 0\}`)，#mi(`N = \left\{x \mid \frac{1}{1 - x}> 0\right\}`)，则 #mi(`M \cap N =`)（ ）
+  #choices([#mi(`\{x\mid -1\le x < 1\}`)], [#mi(`\{x \mid x > 1\}`)], [#mi(`\{x\mid -1 < x < 1\}`)], [#mi(`\{x \mid x \ge -1\}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-由 $1+x>0$，得 $x>-1$. 又因为分子 $1$ 为正数，
-$(1)/(1-x)>0$ 等价于 $1-x>0$，即 $x<1$. 因此
-$M inter N=\{x | -1<x<1\}$，故选 C.
+由 #mi(`1+x>0`)，得 #mi(`x>-1`). 又因为分子 #mi(`1`) 为正数，
+
+#mi(`\dfrac{1}{1-x}>0`) 等价于 #mi(`1-x>0`)，即 #mi(`x<1`). 因此
+
+#mi(`M\cap N=\{x\mid -1<x<1\}`)，故选 C.
 ]
 
 #problem(2)[
-若复数 $(1 + b i )(2 + i )$ 是纯虚数（$i$ 是虚数单位，$b$ 是实数），则 $b =$（ ）
-  #choices([$-2$], [$-(1)/(2)$], [$(1)/(2)$], [$2$], cols: 4)
+若复数 #mi(`(1 + b\mathrm{i})(2 + \mathrm{i})`) 是纯虚数（#mi(`\mathrm{i}`) 是虚数单位，#mi(`b`) 是实数），则 #mi(`b =`)（ ）
+  #choices([#mi(`-2`)], [#mi(`-\frac{1}{2}`)], [#mi(`\frac{1}{2}`)], [#mi(`2`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-$ (1+b i )(2+ i )=2+ i +2 b i +b i ""^(2)=(2-b)+(1+2 b) i $
+#align(center)[#mitex(`
+(1+b\mathrm{i})(2+\mathrm{i})=2+\mathrm{i}+2b\mathrm{i}+b\mathrm{i}^{2}=(2-b)+(1+2b)\mathrm{i}
+`)]
 
-该复数为纯虚数，所以实部 $2-b=0$，从而 $b=2$，故选 D.
+
+该复数为纯虚数，所以实部 #mi(`2-b=0`)，从而 #mi(`b=2`)，故选 D.
 ]
 
 #problem(3)[
-若函数 $f(x) = x^3$（$x in RR$），则函数 $y = f(-x)$ 在其定义域上是（ ）
+若函数 #mi(`f(x) = x^{3}`)（#mi(`x \in \mathbb{R}`)），则函数 #mi(`y = f(-x)`) 在其定义域上是（ ）
   #choices([单调递减的偶函数], [单调递减的奇函数], [单调递增的偶函数], [单调递增的奇函数], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-令 $g(x)=f(-x)$，则 $g(x)=(-x)^(3)=-x^(3)$. 当 $x_(1)<x_(2)$ 时，
-$x_(1)^(3)<x_(2)^(3)$，所以 $g(x_(1))>g(x_(2))$，函数 $g$ 单调递减.
-又因为 $g(-x)=x^(3)=-g(x)$，所以 $g$ 是奇函数，故选 B.
+令 #mi(`g(x)=f(-x)`)，则 #mi(`g(x)=(-x)^{3}=-x^{3}`). 当 #mi(`x_{1}<x_{2}`) 时，
+
+#mi(`x_{1}^{3}<x_{2}^{3}`)，所以 #mi(`g(x_{1})>g(x_{2})`)，函数 #mi(`g`) 单调递减.
+
+又因为 #mi(`g(-x)=x^{3}=-g(x)`)，所以 #mi(`g`) 是奇函数，故选 B.
 ]
 
 #problem(4)[
-若向量 $bold(a)$，$bold(b)$ 满足 $|bold(a)| = |bold(b)| = 1$，$bold(a)$ 与 $bold(b)$ 的夹角为 $60^ degree$，则 $bold(a) dot bold(a)+ bold(a) dot bold(b)=$（ ）
-  #choices([$(1)/(2)$], [$(3)/(2)$], [$1 + (sqrt(3))/(2)$], [$2$], cols: 2)
+若向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 满足 #mi(`|\mathbf{a}| = |\mathbf{b}| = 1`)，#mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角为 #mi(`60^{\circ}`)，则 #mi(`\mathbf{a}\cdot \mathbf{a}+ \mathbf{a}\cdot \mathbf{b}=`)（ ）
+  #choices([#mi(`\frac{1}{2}`)], [#mi(`\frac{3}{2}`)], [#mi(`1 + \frac{\sqrt{3}}{2}`)], [#mi(`2`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由 $|bold(a)|=1$，得 $bold(a)\c d o t b o l d(a)=|bold(a)|^(2)=1$. 又
+由 #mi(`|\mathbf{a}|=1`)，得 #mi(`\mathbf{a}\cdot\mathbf{a}=|\mathbf{a}|^{2}=1`). 又
 
-$ bold(a)\c d o t b o l d(b)=|bold(a)| |bold(b)| cos 60 ""^ degree =(1)/(2) $
 
-因此 $bold(a)\c d o t b o l d(a)+bold(a)\c d o t b o l d(b)=1+(1)/(2)=(3)/(2)$，故选 B.
+#align(center)[#mitex(`
+\mathbf{a}\cdot\mathbf{b}=|\mathbf{a}|\,|\mathbf{b}|\cos 60^{\circ}=\frac{1}{2}
+`)]
+
+
+因此 #mi(`\mathbf{a}\cdot\mathbf{a}+\mathbf{a}\cdot\mathbf{b}=1+\frac{1}{2}=\frac{3}{2}`)，故选 B.
 ]
 
 #problem(5)[
-客车从甲地以 $60 k m/h$ 的速度匀速行驶 $1$ 小时到达乙地，在乙地停留了半小时，然后以 $80 k m/h$ 的速度匀速行驶 $1$ 小时到达丙地. 下列描述客车从甲地出发，经过乙地，最后到达丙地所经过的路程 $s$ 与时间 $t$ 之间关系的图象中，正确的是（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2007/img/guangdong_liberal/q5_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2007/img/guangdong_liberal/q5_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2007/img/guangdong_liberal/q5_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2007/img/guangdong_liberal/q5_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+客车从甲地以 #mi(`60\,\mathrm{km/h}`) 的速度匀速行驶 #mi(`1`) 小时到达乙地，在乙地停留了半小时，然后以 #mi(`80\,\mathrm{km/h}`) 的速度匀速行驶 #mi(`1`) 小时到达丙地. 下列描述客车从甲地出发，经过乙地，最后到达丙地所经过的路程 #mi(`s`) 与时间 #mi(`t`) 之间关系的图象中，正确的是（ ）
+  #choices([
+#align(center)[#image("/papers/2007/img/guangdong_liberal/q5_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2007/img/guangdong_liberal/q5_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2007/img/guangdong_liberal/q5_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2007/img/guangdong_liberal/q5_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设客车从甲地出发的时间为 $t=0$. 行驶第一个小时的路程为 $60 t$，
-所以 $0 <= t <= 1$ 时 $s=60 t$. 在乙地停留半小时，路程保持
-为 $60$，所以 $1 <= t <= (3)/(2)$ 时 $s=60$. 随后以
-$80 k m/h$ 行驶一个小时，故
-$s=60+80(t-(3)/(2))$，$(3)/(2) <= t <= (5)/(2)$.
-图象应先以斜率 $60$ 上升至 $60$，再保持半小时水平，最后以斜率 $80$ 上升至
-$140$，与选项 C 相符，故选 C.
+设客车从甲地出发的时间为 #mi(`t=0`). 行驶第一个小时的路程为 #mi(`60t`)，
+
+所以 #mi(`0\le t\leqslant1`) 时 #mi(`s=60t`). 在乙地停留半小时，路程保持
+
+为 #mi(`60`)，所以 #mi(`1\le t\le\frac{3}{2}`) 时 #mi(`s=60`). 随后以
+
+#mi(`80\,\mathrm{km/h}`) 行驶一个小时，故
+
+#mi(`s=60+80\left(t-\frac{3}{2}\right)`)，#mi(`\frac{3}{2}\le t\le\frac{5}{2}`).
+
+图象应先以斜率 #mi(`60`) 上升至 #mi(`60`)，再保持半小时水平，最后以斜率 #mi(`80`) 上升至
+
+#mi(`140`)，与选项 C 相符，故选 C.
 ]
 
 #problem(6)[
-若 $l$，$m$，$n$ 是互不相同的空间直线，$alpha$，$beta$ 是不重合的平面，则下列命题中为真命题的是（ ）
-  #choices([若 $alpha parallel beta , l subset alpha , n subset beta$，则 $l parallel n$], [若 $alpha bot beta$，$l subset alpha$，则 $l bot beta$], [若 $l bot n$，$m bot n$，则 $l parallel m$], [若 $l bot alpha$，$l parallel beta$，则 $alpha bot beta$], cols: 1)
+若 #mi(`l`)，#mi(`m`)，#mi(`n`) 是互不相同的空间直线，#mi(`\alpha`)，#mi(`\beta`) 是不重合的平面，则下列命题中为真命题的是（ ）
+  #choices([若 #mi(`\alpha \parallel \beta, l \subset \alpha, n \subset \beta`)，则 #mi(`l \parallel n`)], [若 #mi(`\alpha \perp \beta`)，#mi(`l \subset \alpha`)，则 #mi(`l \perp \beta`)], [若 #mi(`l \perp n`)，#mi(`m \perp n`)，则 #mi(`l \parallel m`)], [若 #mi(`l \perp \alpha`)，#mi(`l \parallel \beta`)，则 #mi(`\alpha \perp \beta`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
 选项 A 不成立，因为平行平面内任取的两条直线不一定平行. 选项 B 不成立，
-两平面垂直时，平面 $alpha$ 内任意直线不一定垂直于平面 $beta$，例如取两平面的
+
+两平面垂直时，平面 #mi(`\alpha`) 内任意直线不一定垂直于平面 #mi(`\beta`)，例如取两平面的
+
 交线. 选项 C 也不成立，空间中分别垂直于同一直线的两条直线不一定平行.
 
-若 $l bot alpha$ 且 $l parallel beta$，则平面 $beta$ 内含有一条垂直于平面
-$alpha$ 的直线. 根据平面垂直的判定定理，得 $alpha bot beta$，所以只有选项 D
+若 #mi(`l\perp\alpha`) 且 #mi(`l\parallel\beta`)，则平面 #mi(`\beta`) 内含有一条垂直于平面
+
+#mi(`\alpha`) 的直线. 根据平面垂直的判定定理，得 #mi(`\alpha\perp\beta`)，所以只有选项 D
+
 正确.
 ]
 
 #problem(7)[
-图1是某县参加2007年高考的学生身高条形统计图，从左到右的条形表示的学生人数依次记为 $A_(1)$，$A_(2)$，$dots.c$，$A_(10)$（如 $A_(2)$ 表示身高（单位：$c m$）在 $[150,155)$ 内的学生人数）. 图2是统计图1中身高在一定范围内学生人数的一个算法流程图. 现要统计身高在 $160 tilde 180 ~c m$（含 $160 ~c m$，不含 $180 ~c m$）的学生人数，那么在流程图中的判断框内应填写的条件是（ ）
+图1是某县参加2007年高考的学生身高条形统计图，从左到右的条形表示的学生人数依次记为 #mi(`A_{1}`)，#mi(`A_{2}`)，#mi(`\cdots`)，#mi(`A_{10}`)（如 #mi(`A_{2}`) 表示身高（单位：#mi(`\mathrm{cm}`)）在 #mi(`[150,155)`) 内的学生人数）. 图2是统计图1中身高在一定范围内学生人数的一个算法流程图. 现要统计身高在 #mi(`160 \sim 180 \mathrm{~cm}`)（含 #mi(`160 \mathrm{~cm}`)，不含 #mi(`180 \mathrm{~cm}`)）的学生人数，那么在流程图中的判断框内应填写的条件是（ ）
 
 
-#align(center)[#image("/papers/2007/img/guangdong_liberal/q7_fig1.png", width: 90%)]
+#align(center)[#image("/papers/2007/img/guangdong_liberal/q7_fig1.png", width: 28%)]
 
 
 
-#align(center)[#image("/papers/2007/img/guangdong_liberal/q7_fig2.png", width: 90%)]
-  #choices([$i < 9$], [$i < 8$], [$i < 7$], [$i < 6$], cols: 4)
+#align(center)[#image("/papers/2007/img/guangdong_liberal/q7_fig2.png", width: 28%)]
+
+  #choices([#mi(`i < 9`)], [#mi(`i < 8`)], [#mi(`i < 7`)], [#mi(`i < 6`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-身高区间依次为 $[145,150)$，$[150,155)$，$[155,160)$，$[160,165)$，
-$[165,170)$，$[170,175)$，$[175,180)$，$[180,185)$ 等. 因此需要累加
-$A_(4)$，$A_(5)$，$A_(6)$，$A_(7)$. 流程从 $i=4$ 开始，每次累加后令 $i=i+1$，当
-$i=8$ 时停止，所以判断条件应为 $i<8$，故选 B.
+身高区间依次为 #mi(`[145,150)`)，#mi(`[150,155)`)，#mi(`[155,160)`)，#mi(`[160,165)`)，
+
+#mi(`[165,170)`)，#mi(`[170,175)`)，#mi(`[175,180)`)，#mi(`[180,185)`) 等. 因此需要累加
+
+#mi(`A_{4}`)，#mi(`A_{5}`)，#mi(`A_{6}`)，#mi(`A_{7}`). 流程从 #mi(`i=4`) 开始，每次累加后令 #mi(`i=i+1`)，当
+
+#mi(`i=8`) 时停止，所以判断条件应为 #mi(`i<8`)，故选 B.
 ]
 
 #problem(8)[
-在一个袋子中装有分别标注数字 $1$，$2$，$3$，$4$，$5$ 的五个小球，这些小球除标注的数字外完全相同. 现从中随机取出 $2$ 个小球，则取出的小球标注的数字之和为 $3$ 或 $6$ 的概率是（ ）
-  #choices([$(3)/(10)$], [$(1)/(5)$], [$(1)/(10)$], [$(1)/(12)$], cols: 4)
+在一个袋子中装有分别标注数字 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`) 的五个小球，这些小球除标注的数字外完全相同. 现从中随机取出 #mi(`2`) 个小球，则取出的小球标注的数字之和为 #mi(`3`) 或 #mi(`6`) 的概率是（ ）
+  #choices([#mi(`\frac{3}{10}`)], [#mi(`\frac{1}{5}`)], [#mi(`\frac{1}{10}`)], [#mi(`\frac{1}{12}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-从五个小球中取出两个的基本事件数为 $C_(5)^(2)=10$. 和为 $3$ 的取法只有
-$\{1,2\}$，和为 $6$ 的取法有 $\{1,5\}$、$\{2,4\}$，共有 $3$ 种. 因此所求
-概率为 $(3)/(10)$，故选 A.
+从五个小球中取出两个的基本事件数为 #mi(`\mathrm{C}_{5}^{2}=10`). 和为 #mi(`3`) 的取法只有
+
+#mi(`\{1,2\}`)，和为 #mi(`6`) 的取法有 #mi(`\{1,5\}`)、#mi(`\{2,4\}`)，共有 #mi(`3`) 种. 因此所求
+
+概率为 #mi(`\dfrac{3}{10}`)，故选 A.
 ]
 
 #problem(9)[
-已知简谐运动 $f(x) = 2 sin ((pi)/(3)x + phi.alt )$（$| phi.alt | < (pi)/(2)$）的图象经过点 $(0,1)$，则该简谐运动的最小正周期 $T$ 和初相 $phi.alt$ 分别为（ ）
-  #choices([$T = 6, phi.alt = (pi)/(6)$], [$T = 6$，$phi.alt = (pi)/(3)$], [$T = 6 pi$，$phi.alt = (pi)/(6)$], [$T = 6 pi$，$phi.alt = (pi)/(3)$], cols: 1)
+已知简谐运动 #mi(`f(x) = 2\sin \left(\frac{\pi}{3}x + \varphi\right)`)（#mi(`|\varphi| < \frac{\pi}{2}`)）的图象经过点 #mi(`(0,1)`)，则该简谐运动的最小正周期 #mi(`T`) 和初相 #mi(`\varphi`) 分别为（ ）
+  #choices([#mi(`T = 6, \varphi = \frac{\pi}{6}`)], [#mi(`T = 6`)，#mi(`\varphi = \frac{\pi}{3}`)], [#mi(`T = 6\pi`)，#mi(`\varphi = \frac{\pi}{6}`)], [#mi(`T = 6\pi`)，#mi(`\varphi = \frac{\pi}{3}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-函数的角频率为 $(pi)/(3)$，所以最小正周期
+函数的角频率为 #mi(`\dfrac{\pi}{3}`)，所以最小正周期
 
-$ T=(2 pi)/((pi)/(3))=6 $
 
-又因为图象经过 $(0,1)$，所以 $2 sin phi.alt =1$，即
-$sin phi.alt =(1)/(2)$. 结合 $| phi.alt |<(pi)/(2)$，得
-$phi.alt =(pi)/(6)$，故选 A.
+#align(center)[#mitex(`
+T=\frac{2\pi}{\frac{\pi}{3}}=6
+`)]
+
+
+又因为图象经过 #mi(`(0,1)`)，所以 #mi(`2\sin\varphi=1`)，即
+
+#mi(`\sin\varphi=\dfrac{1}{2}`). 结合 #mi(`|\varphi|<\dfrac{\pi}{2}`)，得
+
+#mi(`\varphi=\dfrac{\pi}{6}`)，故选 A.
 ]
 
 #problem(10)[
-如图是某汽车维修公司的维修点环形分布图. 公司在年初分配给 $A$，$B$，$C$，$D$ 四个维修点某种配件各 $50" 件"$. 在使用前发现需将 $A$，$B$，$C$，$D$ 四个维修点的这批配件分别调整为 $40$，$45$，$54$，$61$ 件，但调整只能在相邻维修点之间进行，那么要完成上述调整，最少的调动件次（$n$ 件配件从一个维修点调整到相邻维修点的调动件次为 $n$）为（ ）
+如图是某汽车维修公司的维修点环形分布图. 公司在年初分配给 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 四个维修点某种配件各 #mi(`50\text{ \text{件}}`). 在使用前发现需将 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 四个维修点的这批配件分别调整为 #mi(`40`)，#mi(`45`)，#mi(`54`)，#mi(`61`) 件，但调整只能在相邻维修点之间进行，那么要完成上述调整，最少的调动件次（#mi(`n`) 件配件从一个维修点调整到相邻维修点的调动件次为 #mi(`n`)）为（ ）
 
 
+#align(center)[#image("/papers/2007/img/guangdong_liberal/q10_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/2007/img/guangdong_liberal/q10_fig1.png", width: 38%)]
   #choices([18], [17], [16], [15], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-设沿 $A B$、$B C$、$C D$、$D A$ 方向的有向调动件数分别为
-$x$，$y$，$z$，$w$，正值表示沿所标方向调动，负值表示反向调动. 四个维修点的库存变化量
-分别为 $-10$，$-5$，$4$，$11$，于是
-$x-w=10$，$y-x=5$，$z-y=-4$，$w-z=-11$.
-令 $x=t$，解得 $y=t+5$，$z=t+1$，$w=t-10$. 所以调动件次为
+设沿 #mi(`AB`)、#mi(`BC`)、#mi(`CD`)、#mi(`DA`) 方向的有向调动件数分别为
 
-$ F(t)=|t|+|t+5|+|t+1|+|t-10| $
+#mi(`x`)，#mi(`y`)，#mi(`z`)，#mi(`w`)，正值表示沿所标方向调动，负值表示反向调动. 四个维修点的库存变化量
 
-其绝对值的断点为 $-5$，$-1$，$0$，$10$. 四个断点按从小到大排列，中间两个为 $-1,0$，
-故当 $-1 <= t <= 0$ 时取得最小值. 例如取 $t=0$，有
+分别为 #mi(`-10`)，#mi(`-5`)，#mi(`4`)，#mi(`11`)，于是
 
-$ F(0)=0+5+1+10=16 $
+#mi(`x-w=10`)，#mi(`y-x=5`)，#mi(`z-y=-4`)，#mi(`w-z=-11`).
 
-因此最少调动件次为 $16$，故选 C.
+令 #mi(`x=t`)，解得 #mi(`y=t+5`)，#mi(`z=t+1`)，#mi(`w=t-10`). 所以调动件次为
+
+
+#align(center)[#mitex(`
+F(t)=|t|+|t+5|+|t+1|+|t-10|
+`)]
+
+
+其绝对值的断点为 #mi(`-5`)，#mi(`-1`)，#mi(`0`)，#mi(`10`). 四个断点按从小到大排列，中间两个为 #mi(`-1,0`)，
+
+故当 #mi(`-1\le t\leqslant0`) 时取得最小值. 例如取 #mi(`t=0`)，有
+
+
+#align(center)[#mitex(`
+F(0)=0+5+1+10=16
+`)]
+
+
+因此最少调动件次为 #mi(`16`)，故选 C.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-在平面直角坐标系 $x O y$ 中，已知抛物线关于 $x$ 轴对称，顶点在原点 $O$，且过点 $P(2,4)$，则该抛物线的方程是#blank(){}.
+在平面直角坐标系 #mi(`xOy`) 中，已知抛物线关于 #mi(`x`) 轴对称，顶点在原点 #mi(`O`)，且过点 #mi(`P(2,4)`)，则该抛物线的方程是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$y^(2)=8 x$])
+#answer([#mi(`y^{2}=8x`)])
 
 #solution[
-抛物线的顶点为原点，且关于 $x$ 轴对称，所以其轴为 $x$ 轴，方程可设为
-$y^(2)=2 p x$. 将点 $P(2,4)$ 代入，得 $16=4 p$，从而 $p=4$. 因此抛物线
-方程为 $y^(2)=8 x$.
+抛物线的顶点为原点，且关于 #mi(`x`) 轴对称，所以其轴为 #mi(`x`) 轴，方程可设为
+
+#mi(`y^{2}=2px`). 将点 #mi(`P(2,4)`) 代入，得 #mi(`16=4p`)，从而 #mi(`p=4`). 因此抛物线
+
+方程为 #mi(`y^{2}=8x`).
 ]
 
 #problem(12)[
-函数 $f(x) = x ln x$（$x > 0$）的单调递增区间是#blank(){}.
+函数 #mi(`f(x) = x \ln x`)（#mi(`x > 0`)）的单调递增区间是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[(1)/(e),+ oo )$])
+#answer([#mi(`\left[\frac{1}{\mathrm{e}},+\infty\right)`)])
 
 #solution[
-函数定义域为 $x>0$，且
+函数定义域为 #mi(`x>0`)，且
 
-$ f'(x)= ln x+1 $
 
-当 $0<x<(1)/(e)$ 时，$f'(x)<0$；当 $x>(1)/(e)$ 时，
-$f'(x)>0$，并且在 $x=(1)/(e)$ 处导数为零. 因此函数的单调递增区间为
-$[(1)/(e),+ oo )$.
+#align(center)[#mitex(`
+f'(x)=\ln x+1
+`)]
+
+
+当 #mi(`0<x<\dfrac{1}{\mathrm{e}}`) 时，#mi(`f'(x)<0`)；当 #mi(`x>\dfrac{1}{\mathrm{e}}`) 时，
+
+#mi(`f'(x)>0`)，并且在 #mi(`x=\dfrac{1}{\mathrm{e}}`) 处导数为零. 因此函数的单调递增区间为
+
+#mi(`\left[\dfrac{1}{\mathrm{e}},+\infty\right)`).
 ]
 
 #problem(13)[
-已知数列 $\{a_(n)\}$ 的前 $n$ 项和 $S_(n)=n^(2)-9 n$，则其通项 $a_(n)=$#blank(){}；若它的第 $k$ 项满足 $5<a_(k)<8$，则 $k=$#blank(){}.
+已知数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和 #mi(`S_{n}=n^{2}-9n`)，则其通项 #mi(`a_{n}=`)\underline{\hspace{2.5em}}；若它的第 #mi(`k`) 项满足 #mi(`5<a_{k}<8`)，则 #mi(`k=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$a_n=2 n-10\)，\(k=8$])
+#answer([#mi(`a_{n}=2n-10`)，#mi(`k=8`)])
 
 #solution[
-由 $S_n=n^2-9 n$，先得 $a_1=S_1=1-9=-8=2 times 1 -10$. 当 $n >= 2$ 时，
+由 #mi(`S_{n}=n^{2}-9n`)，先得 #mi(`a_{1}=S_{1}=1-9=-8=2\times1-10`). 当 #mi(`n\geqslant2`) 时，
 
-$ a_n=S_n-S_(n-1)=n^2-9 n-((n-1)^2-9(n-1))=2 n-10 $
 
-所以对所有正整数 $n$，均有 $a_n=2 n-10$. 由 $5<a_k<8$，得
+#align(center)[#mitex(`
+a_{n}=S_{n}-S_{n-1}=n^{2}-9n-\bigl((n-1)^{2}-9(n-1)\bigr)=2n-10
+`)]
 
-$ 5<2 k-10<8 $
 
-即 $(15)/(2)<k<9$. 由于 $k$ 为正整数，故 $k=8$.
+所以对所有正整数 #mi(`n`)，均有 #mi(`a_{n}=2n-10`). 由 #mi(`5<a_{k}<8`)，得
+
+
+#align(center)[#mitex(`
+5<2k-10<8
+`)]
+
+
+即 #mi(`\dfrac{15}{2}<k<9`). 由于 #mi(`k`) 为正整数，故 #mi(`k=8`).
 ]
 
 #part-header("选考题：填空题")
 
 #problem(14)[
-在极坐标系中，直线 $l$ 的方程为 $rho sin theta = 3$，则点 $(2, (pi)/(6))$ 到直线 $l$ 的距离为#blank(){}.
+在极坐标系中，直线 #mi(`l`) 的方程为 #mi(`\rho \sin \theta = 3`)，则点 #mi(`\left(2, \frac{\pi}{6}\right)`) 到直线 #mi(`l`) 的距离为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-由极坐标与直角坐标的关系 $y= rho sin theta$，直线
-$rho sin theta =3$ 即为直线 $y=3$. 点
-$(2,(pi)/(6))$ 的纵坐标为
-$2 sin (pi)/(6)=1$，所以它到直线 $y=3$ 的距离为
-$|1-3|=2$.
+由极坐标与直角坐标的关系 #mi(`y=\rho\sin\theta`)，直线
+
+#mi(`\rho\sin\theta=3`) 即为直线 #mi(`y=3`). 点
+
+#mi(`\left(2,\dfrac{\pi}{6}\right)`) 的纵坐标为
+
+#mi(`2\sin\dfrac{\pi}{6}=1`)，所以它到直线 #mi(`y=3`) 的距离为
+
+#mi(`|1-3|=2`).
 ]
 
 #problem(15)[
-如图所示，圆 $O$ 的直径 $A B = 6$，$C$ 为圆周上一点，$B C = 3$. 过 $C$ 作圆的切线 $l$，过 $A$ 作 $l$ 的垂线 $A D$，垂足为 $D$，则 $angle D A C =$#blank(){}.
+如图所示，圆 #mi(`O`) 的直径 #mi(`AB = 6`)，#mi(`C`) 为圆周上一点，#mi(`BC = 3`). 过 #mi(`C`) 作圆的切线 #mi(`l`)，过 #mi(`A`) 作 #mi(`l`) 的垂线 #mi(`AD`)，垂足为 #mi(`D`)，则 #mi(`\angle DAC =`)\underline{\hspace{2.5em}}.
 
 
+#align(center)[#image("/papers/2007/img/guangdong_liberal/q15_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/2007/img/guangdong_liberal/q15_fig1.png", width: 38%)]
 ]
 
-#answer([$30^ degree$])
+#answer([#mi(`30^{\circ}`)])
 
 #solution[
-因为 $A B$ 是直径，所以 $angle A C B=90^ degree$. 在直角三角形 $A B C$ 中，
-$A B=6$，$B C=3$，故
+因为 #mi(`AB`) 是直径，所以 #mi(`\angle ACB=90^{\circ}`). 在直角三角形 #mi(`ABC`) 中，
 
-$ cos angle A B C=(B C)/(A B)=(1)/(2) $
+#mi(`AB=6`)，#mi(`BC=3`)，故
 
-从而 $angle A B C=60^ degree$. 圆心角
-$angle A O C=2 angle A B C=120^ degree$，而 $O A=O C$，所以
 
-$ angle O C A=(180^ degree -120^ degree)/(2)=30^ degree $
+#align(center)[#mitex(`
+\cos\angle ABC=\frac{BC}{AB}=\frac{1}{2}
+`)]
 
-又因为半径 $O C$ 垂直于切线 $l$，且 $A D bot l$，所以 $A D parallel O C$. 因此
-$angle D A C= angle O C A=30^ degree$.
+
+从而 #mi(`\angle ABC=60^{\circ}`). 圆心角
+
+#mi(`\angle AOC=2\angle ABC=120^{\circ}`)，而 #mi(`OA=OC`)，所以
+
+
+#align(center)[#mitex(`
+\angle OCA=\frac{180^{\circ}-120^{\circ}}{2}=30^{\circ}
+`)]
+
+
+又因为半径 #mi(`OC`) 垂直于切线 #mi(`l`)，且 #mi(`AD\perp l`)，所以 #mi(`AD\parallel OC`). 因此
+
+#mi(`\angle DAC=\angle OCA=30^{\circ}`).
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-已知 $triangle A B C$ 顶点的直角坐标分别为 $A(3,4)$，$B(0,0)$，$C(c,0)$.
+已知 #mi(`\triangle ABC`) 顶点的直角坐标分别为 #mi(`A(3,4)`)，#mi(`B(0,0)`)，#mi(`C(c,0)`).
 
 
-+ (1) 若 $arrow(A B) dot arrow(A C)= 0$，求 $c$ 的值；
-+ (2) 若 $c = 5$，求 $sin angle A$ 的值.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $arrow(A B)=(-3,-4)$，$arrow(A C)=(c-3,-4)$，得
-$arrow(A B)\c d o t a r r o w(A C)=(-3)(c-3)+(-4)(-4)=25-3 c$.
-由题设 $25-3 c=0$，所以 $c=(25)/(3)$.
-+ (2) 当 $c=5$ 时，$|A B|=5$，$|A C|=sqrt(2^(2)+(-4)^(2))=2 sqrt(5)$，
-且 $B C=5$. 以 $B C$ 为底，点 $A$ 到 $x$ 轴的高为 $4$，所以三角形面积为
-$(1)/(2) times 5 times 4 =10$. 于是
-
-$ sin angle A=(2 S_( triangle A B C))/(|A B| |A C|)=(20)/(5 dot 2 sqrt(5))=(2 sqrt(5))/(5) $
++ (1)
 ]
 
 #problem(17)[
-已知某几何体的俯视图是如图所示的矩形，正视图（或称主视图）是一个底边长为 $8$，高为 $4$ 的等腰三角形，侧视图（或称左视图）是一个底边长为 $6$，高为 $4$ 的等腰三角形.
+已知某几何体的俯视图是如图所示的矩形，正视图（或称主视图）是一个底边长为 #mi(`8`)，高为 #mi(`4`) 的等腰三角形，侧视图（或称左视图）是一个底边长为 #mi(`6`)，高为 #mi(`4`) 的等腰三角形.
 
 
-+ (1) 求该几何体的体积 $V$；
-+ (2) 求该几何体的侧面积 $S$.
++ (1) 
 
 
 
 
-#align(center)[#image("/papers/2007/img/guangdong_liberal/q17_fig1.png", width: 35%)]
+#align(center)[#image("/papers/2007/img/guangdong_liberal/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 建立直角坐标系，使俯视图为
-$-4 <= x <= 4$，$-3 <= y <= 3$，底面为 $z=0$.
-由正视图和左视图可知，顶面高度分别受
-$z=4-|x|$，$z=4-(4)/(3)|y|$
-限制，因此实体的高度为
-$4- max \{|x|,(4)/(3)|y|\}$.
-考虑第一象限，并令 $v=(4)/(3)y$，则 $0 <= x$，$v <= 4$，且
-$d y=(3)/(4)d v$. 第一象限体积为
-
-$ (3)/(4)\i i n t_([0,4]^2)(4- max \{x,v\}) d x d v =(3)/(4) dot 2 integral_(0)^(4)x(4-x) d x =16 $
-
-四个象限全等，所以
-$V=4 times 16 =64$.
-+ (2) 由两个等腰三角形的正视图和侧视图可知，顶点在矩形底面的中心，且到底面
-的高为 $4$. 底面中边长为 $8$ 的两条边到矩形中心的距离为 $3$，所以对应
-的两个侧面斜高为 $sqrt(4^(2)+3^(2))=5$，这两个侧面的面积和为
-
-$ 2 times (1)/(2) times 8 times 5 =40 $
-
-底边长为 $6$ 的另外两个侧面斜高为 $sqrt(4^(2)+4^(2))=4 sqrt(2)$，
-这两个侧面的面积和为
-
-$ 2 times (1)/(2) times 6 times 4 sqrt(2)=24 sqrt(2) $
-
-故侧面积
-
-$ S=40+24 sqrt(2) $
++ (1)
 ]
 
 #problem(18)[
-下表提供了某厂节能降耗技术改造后生产甲产品过程中记录的产量 $x$（$"吨"$）与相应的生产能耗 $y$（$"吨标准煤"$）的几组对照数据.
+下表提供了某厂节能降耗技术改造后生产甲产品过程中记录的产量 #mi(`x`)（#mi(`\text{\text{吨}}`)）与相应的生产能耗 #mi(`y`)（#mi(`\text{\text{吨标准煤}}`)）的几组对照数据.
 
-\begin{center}
-\begin{tabular}{c|cccc}
-$x$ & 3 & 4 & 5 & 6 \\
+#mi(`x`) & 3 & 4 & 5 & 6 \\
+
 \hline
-$y$ & 2.5 & 3 & 4 & 4.5
-\end{tabular}
-\end{center}
+
+#mi(`y`) & 2.5 & 3 & 4 & 4.5
 
 
-+ (1) 请画出上表的散点图；
-+ (2) 请根据上表提供的数据，用最小二乘法求出 $y$ 关于 $x$ 的线性回归方程 $y = \h a t{b}x + \h a t{a}$；
-+ (3) 已知该厂技改前 $100" 吨"$ 甲产品的生产能耗为 $90" 吨标准煤"$. 试根据前一问求出的线性回归方程，预测生产 $100" 吨"$ 甲产品的生产能耗比技改前降低多少吨标准煤？（参考数值：$3 times 2 .5 + 4 times 3 + 5 times 4 + 6 times 4 .5 = 66.5$）
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 建立平面直角坐标系，横轴表示产量 $x$（吨），纵轴表示生产能耗 $y$（吨标准煤）.
-按表中数据在坐标系内标出四个点
-$(3,2.5)$，$(4,3)$，$(5,4)$，$(6,4.5)$，所得图形即为所求散点图.
-+ (2) $overline(x)=(3+4+5+6)/(4)=4.5$，$overline(y)=(2.5+3+4+4.5)/(4)=3.5$.
-由最小二乘法，
-
-$ \h a t{b} =(sum_(i=1)^(4)(x_i-overline(x))(y_i-overline(y)))/(sum_(i=1)^(4)(x_i-overline(x))^(2))=(1.5+0.25+0.25+1.5)/(2.25+0.25+0.25+2.25)=(3.5)/(5)=0.7 $
-
-因此
-
-$ \h a t{a}=overline(y)-\h a t{b} overline(x)=3.5-0.7 times 4 .5=0.35 $
-
-线性回归方程为 $\h a t{y}=0.7 x+0.35$.
-+ (3) 当 $x=100$ 时，回归方程预测生产能耗为
-
-$ \h a t{y}=0.7 times 100 +0.35=70.35 $
-
-吨标准煤. 与技改前的 $90" 吨标准煤"$ 相比，降低
-$90-70.35=19.65" 吨标准煤"$.
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-在平面直角坐标系 $x O y$ 中，已知圆心在第二象限，半径为 $2 sqrt(2)$ 的圆 $C$ 与直线 $y = x$ 相切于坐标原点 $O$. 椭圆 $(x^2)/(a^2)+ (y^2)/(9)= 1$ 与圆 $C$ 的一个交点到椭圆两焦点的距离之和为 $10$.
+在平面直角坐标系 #mi(`xOy`) 中，已知圆心在第二象限，半径为 #mi(`2\sqrt{2}`) 的圆 #mi(`C`) 与直线 #mi(`y = x`) 相切于坐标原点 #mi(`O`). 椭圆 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{9}= 1`) 与圆 #mi(`C`) 的一个交点到椭圆两焦点的距离之和为 #mi(`10`).
 
 
-+ (1) 求圆 $C$ 的方程；
-+ (2) 试探求 $C$ 上是否存在异于原点的点 $Q$，使 $Q$ 到椭圆右焦点 $F$ 的距离等于线段 $O F$ 的长. 若存在，请求出点 $Q$ 的坐标；若不存在，请说明理由.
++ (1)
 ]
 
 #solution[
-+ (1) 设圆心为 $C_(0)(u,v)$. 因为圆 $C$ 与直线 $y=x$ 在原点相切，
-半径 $C_(0)O$ 垂直于 $y=x$，所以 $v=-u$. 又圆心在第二象限，且半径为
-$2 sqrt(2)$，故
-$u^(2)+v^(2)=8$，$v=-u$，$u<0<v$.
-解得 $C_(0)=(-2,2)$. 因此圆 $C$ 的方程为
-
-$ (x+2)^(2)+(y-2)^(2)=8 $
-
-即 $x^(2)+y^(2)+4 x-4 y=0$.
-+ (2) 若 $a <= 3$，椭圆的长半轴不超过 $3$，任一点到两焦点的距离之和
-不超过 $6$，与题设的 $10$ 矛盾. 因此 $a>3$，椭圆上任一点到两焦点的距离
-之和等于 $2 a$. 题设给出该和为 $10$，所以 $2 a=10$，即 $a=5$. 于是椭圆方程为
-$(x^(2))/(25)+(y^(2))/(9)=1$，焦距半长为
-$c=sqrt(25-9)=4$，右焦点为 $F(4,0)$，且 $|O F|=4$.
-
-若 $Q(x,y)$ 在圆 $C$ 上且 $|Q F|=|O F|=4$，则
-
-$ (x-4)^(2)+y^(2)=16 $
-
-即 $x^(2)+y^(2)-8 x=0$. 与圆 $C$ 的方程联立，消去
-$x^(2)+y^(2)$，得
-$12 x-4 y=0$，$y=3 x$.
-代入 $x^(2)+y^(2)-8 x=0$，得
-$10 x^(2)-8 x=0$，$x(5 x-4)=0$.
-当 $x=0$ 时得到原点 $O$；当 $x=(4)/(5)$ 时，
-$y=(12)/(5)$. 后者异于原点，且满足两方程，因此存在所求点
-
-$ Q((4)/(5),(12)/(5)) $
++ (1)
 ]
 
 #problem(20)[
-已知函数 $f(x) = x^2 + x - 1$，$alpha$，$beta$ 是方程 $f(x) = 0$ 的两个根（$alpha > beta$），$f'(x)$ 是 $f(x)$ 的导数，设 $a_(1) = 1$，$a_(n + 1) = a_(n) - (f(a_(n)))/(f'(a_(n)))$（$n = 1$，$2$，$dots.c$）.
+已知函数 #mi(`f(x) = x^{2} + x - 1`)，#mi(`\alpha`)，#mi(`\beta`) 是方程 #mi(`f(x) = 0`) 的两个根（#mi(`\alpha > \beta`)），#mi(`f'(x)`) 是 #mi(`f(x)`) 的导数，设 #mi(`a_{1}= 1`)，#mi(`a_{n + 1}= a_{n}- \frac{f(a_{n})}{f'(a_{n})}`)（#mi(`n = 1`)，#mi(`2`)，#mi(`\cdots`)）.
 
 
-+ (1) 求 $alpha$，$beta$ 的值；
-+ (2) 已知对任意的正整数 $n$，都有 $a_(n) > alpha$，记 $b_(n) = ln (a_(n) - beta)/(a_(n) - alpha)$（$n = 1$，$2$，$dots.c$），求数列 $\{b_(n)\}$ 的前 $n$ 项和 $S_(n)$.
++ (1)
 ]
 
 #solution[
-+ (1) 解方程 $x^(2)+x-1=0$，得
-$alpha =(-1+sqrt(5))/(2)$，$beta =(-1-sqrt(5))/(2)$.
-+ (2) 由 $f(x)=(x- alpha )(x- beta )$ 及
-$f'(x)=2 x+1$，可得
-
-$ a_(n+1)- alpha =a_n- alpha -((a_n- alpha )(a_n- beta ))/(2 a_n+1)=((a_n- alpha )(a_n+ beta +1))/(2 a_n+1) $
-
-又因为 $alpha + beta =-1$，所以
-
-$ a_(n+1)- alpha =((a_n- alpha )^2)/(2 a_n+1) $
-
-再由递推式，
-
-$ a_(n+1)- beta =a_n- beta -((a_n- alpha )(a_n- beta ))/(2 a_n+1)=((a_n- beta )(a_n+ alpha +1))/(2 a_n+1)=((a_n- beta )^2)/(2 a_n+1) $
-
-因 $a_n> alpha > beta$，所以
-
-$ (a_(n+1)- beta)/(a_(n+1)- alpha)=((a_n- beta)/(a_n- alpha))^2 $
-
-从而 $b_(n+1)=2 b_n$. 又
-
-$ b_1= ln (1- beta)/(1- alpha)= ln ((3+sqrt(5))/(3-sqrt(5))) $
-
-所以 $b_n=2^(n-1)b_1$，前 $n$ 项和为
-
-$ S_n=b_1(1+2+ dots.c +2^(n-1)) = ln ((3+sqrt(5))/(3-sqrt(5)))(2^n-1) $
++ (1)
 ]
 
 #problem(21)[
-已知 $a$ 是实数，函数 $f(x) = 2 a x^2 + 2 x - 3 - a$. 如果函数 $y = f(x)$ 在区间 $[-1, 1]$ 上有零点，求 $a$ 的取值范围.
+已知 #mi(`a`) 是实数，函数 #mi(`f(x) = 2ax^{2} + 2x - 3 - a`). 如果函数 #mi(`y = f(x)`) 在区间 #mi(`[-1, 1]`) 上有零点，求 #mi(`a`) 的取值范围.
 ]
 
 #solution[
-记 $f_a(x)=2 a x^2+2 x-3-a$. 先计算端点值：
-$f_a(-1)=a-5$，$f_a(1)=a-1$.
-当 $1 <= a <= 5$ 时，$f_a(-1) <= 0 <= f_a(1)$，由连续性知
-区间 $[-1,1]$ 内有零点. 当 $a>5$ 时，$f_a(0)=-a-3<0$，而
-$f_a(1)=a-1>0$，由连续性知区间内也有零点.
+记 #mi(`f_{a}(x)=2ax^{2}+2x-3-a`). 先计算端点值：
 
-下面考虑 $a<1$. 当 $0<a<1$ 时，函数图象开口向上，且
-$f_a(-1)=a-5<0$、$f_a(1)=a-1<0$. 开口向上的二次函数在闭区间上的最大值
+#mi(`f_{a}(-1)=a-5`)，#mi(`f_{a}(1)=a-1`).
+
+当 #mi(`1\le a\leqslant5`) 时，#mi(`f_{a}(-1)\leqslant0\le f_{a}(1)`)，由连续性知
+
+区间 #mi(`[-1,1]`) 内有零点. 当 #mi(`a>5`) 时，#mi(`f_{a}(0)=-a-3<0`)，而
+
+#mi(`f_{a}(1)=a-1>0`)，由连续性知区间内也有零点.
+
+下面考虑 #mi(`a<1`). 当 #mi(`0<a<1`) 时，函数图象开口向上，且
+
+#mi(`f_{a}(-1)=a-5<0`)、#mi(`f_{a}(1)=a-1<0`). 开口向上的二次函数在闭区间上的最大值
+
 不超过端点函数值的较大者，所以此时区间内没有零点.
 
-当 $a<0$ 时，函数图象开口向下，顶点横坐标为
+当 #mi(`a<0`) 时，函数图象开口向下，顶点横坐标为
 
-$ x_0=-(2)/(4 a)=-(1)/(2 a) $
 
-若 $-(1)/(2)<a<0$，则 $x_0>1$，函数在 $[-1,1]$ 上递增，
-其最大值为 $f_a(1)=a-1<0$，所以无零点. 若 $a <= -(1)/(2)$，
-则 $x_0 in (0,1]$，区间上的最大值为
+#align(center)[#mitex(`
+x_{0}=-\frac{2}{4a}=-\frac{1}{2a}
+`)]
 
-$ f_a(x_0)=-3-a-(1)/(2 a) $
 
-因 $2 a<0$，条件 $f_a(x_0) >= 0$ 等价于
+若 #mi(`-\dfrac{1}{2}<a<0`)，则 #mi(`x_{0}>1`)，函数在 #mi(`[-1,1]`) 上递增，
 
-$ 2 a^2+6 a+1 >= 0 $
+其最大值为 #mi(`f_{a}(1)=a-1<0`)，所以无零点. 若 #mi(`a\le-\dfrac{1}{2}`)，
 
-该不等式的两个根为 $(-3-sqrt(7))/(2)$ 和
-$(-3+sqrt(7))/(2)$. 结合 $a<0$，得到
+则 #mi(`x_{0}\in(0,1]`)，区间上的最大值为
 
-$ a <= (-3-sqrt(7))/(2) $
 
-最后，$a=0$ 时 $f_a(x)=2 x-3<0$（$x in [-1,1]$），也无零点. 因此
+#align(center)[#mitex(`
+f_{a}(x_{0})=-3-a-\frac{1}{2a}
+`)]
 
-$ a in (- oo ,(-3-sqrt(7))/(2)] union [1,+ oo ) $
+
+因 #mi(`2a<0`)，条件 #mi(`f_{a}(x_{0})\geqslant0`) 等价于
+
+
+#align(center)[#mitex(`
+2a^{2}+6a+1\geqslant0
+`)]
+
+
+该不等式的两个根为 #mi(`\dfrac{-3-\sqrt{7}}{2}`) 和
+
+#mi(`\dfrac{-3+\sqrt{7}}{2}`). 结合 #mi(`a<0`)，得到
+
+
+#align(center)[#mitex(`
+a\le\frac{-3-\sqrt{7}}{2}
+`)]
+
+
+最后，#mi(`a=0`) 时 #mi(`f_{a}(x)=2x-3<0`)（#mi(`x\in[-1,1]`)），也无零点. 因此
+
+
+#align(center)[#mitex(`
+a\in\left(-\infty,\frac{-3-\sqrt{7}}{2}\right]\cup[1,+\infty)
+`)]
 ]
 

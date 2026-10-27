@@ -1,8 +1,143 @@
 {
-  "title": "1986年普通高等学校招生全国统一考试",
-  "subtitle": "1986年全国卷（文）",
   "year": "1986",
   "slug": "national_liberal",
+  "title": "1986年全国卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$-2\\left(\\sin \\frac{\\pi}{4}- \\mathrm{i}\\cos \\frac{\\pi}{4}\\right)$"
           ],
           "answer": "B",
-          "solution": "复数的三角形式规定为 $r\\left(\\cos\\theta+\\mathrm{i}\\sin\\theta\\right)$，其中 $r>0$. 按题目给出的现成写法比较，只有 B 的括号内是 $\\cos\\theta+\\mathrm{i}\\sin\\theta$，且外面的模长因子为 $2>0$. A 虽可再利用 $-\\sin\\frac{\\pi}{4}=\\sin\\left(-\\frac{\\pi}{4}\\right)$ 改写，但原式并未按规定形式写出；C 将正弦、余弦的位置交换，D 的外因子为负数且括号内也不是规定形式. 因此选 B."
+          "solution": "复数的三角形式规定为 $r\\left(\\cos\\theta+\\mathrm{i}\\sin\\theta\\right)$，其中 $r>0$. 按题目给出的现成写法比较，只有 B 的括号内是 $\\cos\\theta+\\mathrm{i}\\sin\\theta$，且外面的模长因子为 $2>0$. A 虽可再利用 $-\\sin\\frac{\\pi}{4}=\\sin\\left(-\\frac{\\pi}{4}\\right)$ 改写，但原式并未按规定形式写出；C 将正弦、余弦的位置交换，D 的外因子为负数且括号内也不是规定形式. 因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$y = \\log_{\\left(x - 1\\right)}5$"
           ],
           "answer": "C",
-          "solution": "由 $y=5^{x}+1$ 得 $y-1=5^{x}$. 因为 $5>0$ 且 $5\\neq1$，对两边取以 $5$ 为底的对数，得到 $x=\\log_{5}(y-1)$，并且原函数的值域为 $y>1$. 交换自变量与因变量的字母，反函数为 $y=\\log_{5}(x-1)$，其定义域为 $x>1$. 因此选 C."
+          "solution": "由 $y=5^{x}+1$ 得 $y-1=5^{x}$. 因为 $5>0$ 且 $5\\neq1$，对两边取以 $5$ 为底的对数，得到 $x=\\log_{5}(y-1)$，并且原函数的值域为 $y>1$. 交换自变量与因变量的字母，反函数为 $y=\\log_{5}(x-1)$，其定义域为 $x>1$. 因此选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$\\overline{A}\\cap\\overline{B}$"
           ],
           "answer": "D",
-          "solution": "由补集定义，$\\overline{A}=I\\mathbin{\\backslash}A=\\{1,2,6,7,8\\}$，$\\overline{B}=I\\mathbin{\\backslash}B=\\{2,4,5,7,8\\}$. 因而 $\\overline{A}\\cap\\overline{B}=\\{2,7,8\\}$，所以选 D."
+          "solution": "由补集定义，$\\overline{A}=I\\mathbin{\\backslash}A=\\{1,2,6,7,8\\}$，$\\overline{B}=I\\mathbin{\\backslash}B=\\{2,4,5,7,8\\}$. 因而 $\\overline{A}\\cap\\overline{B}=\\{2,7,8\\}$，所以选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "周期为 $\\frac{\\pi}{4}$ 的偶函数"
           ],
           "answer": "A",
-          "solution": "利用二倍角公式 $2\\sin 2x\\cos 2x=\\sin 4x$，有 $y=\\frac{\\sqrt{2}}{2}\\sin 4x$. 因为 $\\sin 4x$ 的最小正周期为 $\\frac{2\\pi}{4}=\\frac{\\pi}{2}$，所以该函数的最小正周期为 $\\frac{\\pi}{2}$. 又有 $y(-x)=\\frac{\\sqrt{2}}{2}\\sin(-4x)=-y(x)$，故它是奇函数. 因此选 A."
+          "solution": "利用二倍角公式 $2\\sin 2x\\cos 2x=\\sin 4x$，有 $y=\\frac{\\sqrt{2}}{2}\\sin 4x$. 因为 $\\sin 4x$ 的最小正周期为 $\\frac{2\\pi}{4}=\\frac{\\pi}{2}$，所以该函数的最小正周期为 $\\frac{\\pi}{2}$. 又有 $y(-x)=\\frac{\\sqrt{2}}{2}\\sin(-4x)=-y(x)$，故它是奇函数. 因此选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "$2^{c}>\\left(\\frac{1}{2}\\right)^{c}$"
           ],
           "answer": "D",
-          "solution": "由 $c>0$ 且 $4>1$，可知 $4^{c}>1$. 而 $\\displaystyle\\frac{2^{c}}{\\left(\\frac{1}{2}\\right)^{c}}=4^{c}$，所以 $2^{c}>\\left(\\frac{1}{2}\\right)^{c}$ 对一切 $c>0$ 成立. 这正是选项 D."
+          "solution": "由 $c>0$ 且 $4>1$，可知 $4^{c}>1$. 而 $\\displaystyle\\frac{2^{c}}{\\left(\\frac{1}{2}\\right)^{c}}=4^{c}$，所以 $2^{c}>\\left(\\frac{1}{2}\\right)^{c}$ 对一切 $c>0$ 成立. 这正是选项 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$1899$"
           ],
           "answer": "B",
-          "solution": "以 $90$ 为基准，20 个数的偏差依次为 $-3$，$1$，$4$，$-2$，$3$，$1$，$-1$，$-3$，$2$，$-4$，$0$，$2$，$-2$，$0$，$1$，$-4$，$-1$，$2$，$5$，$-2$，其和为 $-1$. 因此这 20 个数的和为 $20\\times90-1=1799$，所以选 B."
+          "solution": "以 $90$ 为基准，20 个数的偏差依次为 $-3$，$1$，$4$，$-2$，$3$，$1$，$-1$，$-3$，$2$，$-4$，$0$，$2$，$-2$，$0$，$1$，$-4$，$-1$，$2$，$5$，$-2$，其和为 $-1$. 因此这 20 个数的和为 $20\\times90-1=1799$，所以选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$3\\sqrt{2}a^{2}$"
           ],
           "answer": "B",
-          "solution": "设正方体的棱长为 $s$. 空间对角线长满足 $a=s\\sqrt{3}$，所以 $s=\\frac{a}{\\sqrt{3}}$. 正方体的全面积为 $6s^{2}=6\\cdot\\frac{a^{2}}{3}=2a^{2}$，因此选 B."
+          "solution": "设正方体的棱长为 $s$. 空间对角线长满足 $a=s\\sqrt{3}$，所以 $s=\\frac{a}{\\sqrt{3}}$. 正方体的全面积为 $6s^{2}=6\\cdot\\frac{a^{2}}{3}=2a^{2}$，因此选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$D = E = F$"
           ],
           "answer": "A",
-          "solution": "配方得 $\\left(x+\\frac{D}{2}\\right)^{2}+\\left(y+\\frac{E}{2}\\right)^{2}=\\frac{D^{2}+E^{2}-4F}{4}$. 由题设右端为正，所表示的曲线是圆，其圆心为 $\\left(-\\frac{D}{2},-\\frac{E}{2}\\right)$. 圆关于直线 $y=x$ 对称，当且仅当圆心在该直线上，因此必须有 $-\\frac{D}{2}=-\\frac{E}{2}$，即 $D=E$. 所以选 A."
+          "solution": "配方得 $\\left(x+\\frac{D}{2}\\right)^{2}+\\left(y+\\frac{E}{2}\\right)^{2}=\\frac{D^{2}+E^{2}-4F}{4}$. 由题设右端为正，所表示的曲线是圆，其圆心为 $\\left(-\\frac{D}{2},-\\frac{E}{2}\\right)$. 圆关于直线 $y=x$ 对称，当且仅当圆心在该直线上，因此必须有 $-\\frac{D}{2}=-\\frac{E}{2}$，即 $D=E$. 所以选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,19 +264,23 @@
             "既不充分也不必要的条件"
           ],
           "answer": "D",
-          "solution": "<p>把“甲是乙的充分条件”写成 $\\text{甲}\\Rightarrow\\text{乙}$，把“乙是丙的充要条件”写成 $\\text{乙}\\Leftrightarrow\\text{丙}$，把“丙是丁的必要条件”写成 $\\text{丁}\\Rightarrow\\text{丙}$. 已知条件只能推出 $\\text{甲}\\Rightarrow\\text{丙}$ 和 $\\text{丁}\\Rightarrow\\text{丙}$，没有推出甲与丁之间的任一方向的关系.</p><p>例如取甲、乙、丙为真而丁为假，已知三个条件仍成立，说明甲不一定推出丁，故丁不是甲的必要条件；取丁、丙、乙为真而甲为假，已知三个条件仍成立，说明丁不一定推出甲，故丁不是甲的充分条件. 因此丁对甲既不充分也不必要，选 D.</p>"
+          "solution": "<p>把“甲是乙的充分条件”写成 $\\text{甲}\\Rightarrow\\text{乙}$，把“乙是丙的充要条件”写成 $\\text{乙}\\Leftrightarrow\\text{丙}$，把“丙是丁的必要条件”写成 $\\text{丁}\\Rightarrow\\text{丙}$. 已知条件只能推出 $\\text{甲}\\Rightarrow\\text{丙}$ 和 $\\text{丁}\\Rightarrow\\text{丙}$，没有推出甲与丁之间的任一方向的关系.</p><p>例如取甲、乙、丙为真而丁为假，已知三个条件仍成立，说明甲不一定推出丁，故丁不是甲的必要条件；取丁、丙、乙为真而甲为假，已知三个条件仍成立，说明丁不一定推出甲，故丁不是甲的充分条件. 因此丁对甲既不充分也不必要，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "在下列各图中，$y = ax^{2} + bx$ 与 $y = ax + b$（$ab \\neq 0$）的图象只可能是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_liberal/q10_choiceA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_liberal/q10_choiceB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_liberal/q10_choiceC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_liberal/q10_choiceD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1986/img/national_liberal/q10_choiceA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1986/img/national_liberal/q10_choiceB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1986/img/national_liberal/q10_choiceC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1986/img/national_liberal/q10_choiceD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "C",
-          "solution": "<p>抛物线 $y=ax^{2}+bx=x(ax+b)$ 必经过原点，另一个与横轴的交点为 $\\left(-\\frac{b}{a},0\\right)$. 直线 $y=ax+b$ 的斜率为 $a$，纵截距为 $b$，横截距同样为 $-\\frac{b}{a}$. 因此两条图象除原点外还必须在同一个非零横坐标处与横轴相交.</p><p>图 C 中，抛物线开口向下，故 $a<0$；直线斜率为负且纵截距为正，故 $b>0$. 于是 $-\\frac{b}{a}>0$，两图象都经过原点并在同一个正横坐标处再次与横轴相交，完全符合上述条件. 图 A 的抛物线不经过原点，图 B 中抛物线开口方向与直线斜率不相容，图 D 中抛物线开口方向与直线斜率、纵截距不相容. 因此只可能是 C.</p>"
+          "solution": "<p>抛物线 $y=ax^{2}+bx=x(ax+b)$ 必经过原点，另一个与横轴的交点为 $\\left(-\\frac{b}{a},0\\right)$. 直线 $y=ax+b$ 的斜率为 $a$，纵截距为 $b$，横截距同样为 $-\\frac{b}{a}$. 因此两条图象除原点外还必须在同一个非零横坐标处与横轴相交.</p><p>图 C 中，抛物线开口向下，故 $a<0$；直线斜率为负且纵截距为正，故 $b>0$. 于是 $-\\frac{b}{a}>0$，两图象都经过原点并在同一个正横坐标处再次与横轴相交，完全符合上述条件. 图 A 的抛物线不经过原点，图 B 中抛物线开口方向与直线斜率不相容，图 D 中抛物线开口方向与直线斜率、纵截距不相容. 因此只可能是 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,86 +290,110 @@
         {
           "num": 11,
           "body": "求方程 $\\sqrt{25^{x^2 + x - 0.5}}= \\sqrt[4]{5}$ 的解.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "由于 $25=5^{2}$，且 $25^{x^2+x-\\frac{1}{2}}>0$，所以原方程等价于 $5^{x^2+x-\\frac{1}{2}}=5^{\\frac{1}{4}}$. 因为底数 $5>1$，故 $x^{2}+x-\\frac{1}{2}=\\frac{1}{4}$，即 $x^{2}+x-\\frac{3}{4}=0$. 因式分解得 $\\left(x-\\frac{1}{2}\\right)\\left(x+\\frac{3}{2}\\right)=0$，所以原方程的解为 $x=\\frac{1}{2}$ 或 $x=-\\frac{3}{2}$."
+          "solution": "由于 $25=5^{2}$，且 $25^{x^2+x-\\frac{1}{2}}>0$，所以原方程等价于 $5^{x^2+x-\\frac{1}{2}}=5^{\\frac{1}{4}}$. 因为底数 $5>1$，故 $x^{2}+x-\\frac{1}{2}=\\frac{1}{4}$，即 $x^{2}+x-\\frac{3}{4}=0$. 因式分解得 $\\left(x-\\frac{1}{2}\\right)\\left(x+\\frac{3}{2}\\right)=0$，所以原方程的解为 $x=\\frac{1}{2}$ 或 $x=-\\frac{3}{2}$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "已知 $\\omega = \\frac{-1 - \\sqrt{3}\\mathrm{i}}{2}$，求 $\\omega^{2} + \\omega + 1$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "由已知 $\\omega=\\frac{-1-\\sqrt{3}\\mathrm{i}}{2}$，得 $\\omega^{2}=\\frac{\\left(-1-\\sqrt{3}\\mathrm{i}\\right)^{2}}{4}=\\frac{1+2\\sqrt{3}\\mathrm{i}-3}{4}=\\frac{-1+\\sqrt{3}\\mathrm{i}}{2}$. 因而 $\\omega^{2}+\\omega+1=\\frac{-1+\\sqrt{3}\\mathrm{i}}{2}+\\frac{-1-\\sqrt{3}\\mathrm{i}}{2}+1=0$."
+          "solution": "由已知 $\\omega=\\frac{-1-\\sqrt{3}\\mathrm{i}}{2}$，得 $\\omega^{2}=\\frac{\\left(-1-\\sqrt{3}\\mathrm{i}\\right)^{2}}{4}=\\frac{1+2\\sqrt{3}\\mathrm{i}-3}{4}=\\frac{-1+\\sqrt{3}\\mathrm{i}}{2}$. 因而 $\\omega^{2}+\\omega+1=\\frac{-1+\\sqrt{3}\\mathrm{i}}{2}+\\frac{-1-\\sqrt{3}\\mathrm{i}}{2}+1=0$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "在 $xOy$ 平面上，$\\triangle ABC$ 的三个顶点坐标依次为 $(0,0)$，$(1,0)$，$(0,3)$，将这个三角形绕 $x$ 轴旋转一周，求所得到的几何体的体积.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "三角形内部由 $x$ 轴、$y$ 轴以及直线 $y=3-3x$ 围成，其中直线在 $x=0$ 时的纵坐标为 $3$，在 $x=1$ 时的纵坐标为 $0$. 绕 $x$ 轴旋转后，所得几何体是底面半径为 $3$、高为 $1$ 的圆锥，因此其体积为 $V=\\frac{1}{3}\\pi\\cdot3^{2}\\cdot1=3\\pi$."
+          "solution": "三角形内部由 $x$ 轴、$y$ 轴以及直线 $y=3-3x$ 围成，其中直线在 $x=0$ 时的纵坐标为 $3$，在 $x=1$ 时的纵坐标为 $0$. 绕 $x$ 轴旋转后，所得几何体是底面半径为 $3$、高为 $1$ 的圆锥，因此其体积为 $V=\\frac{1}{3}\\pi\\cdot3^{2}\\cdot1=3\\pi$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "求 $\\displaystyle\\lim_{n\\to\\infty}\\frac{2n^{2} + n + 7}{5n^{2} + 4}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>分子、分母同除以 $n^{2}$，得</p>\n$$\n\\displaystyle\\lim_{n\\to\\infty}\\frac{2n^{2}+n+7}{5n^{2}+4}=\\displaystyle\\lim_{n\\to\\infty}\\frac{2+\\frac{1}{n}+\\frac{7}{n^{2}}}{5+\\frac{4}{n^{2}}}=\\frac{2}{5}\n$$\n<p>因为 $\\displaystyle\\lim_{n\\to\\infty}\\frac{1}{n}=0$ 且 $\\displaystyle\\lim_{n\\to\\infty}\\frac{1}{n^{2}}=0$.</p>"
+          "solution": "<p>分子、分母同除以 $n^{2}$，得</p>\n$$\n\\displaystyle\\lim_{n\\to\\infty}\\frac{2n^{2}+n+7}{5n^{2}+4}=\\displaystyle\\lim_{n\\to\\infty}\\frac{2+\\frac{1}{n}+\\frac{7}{n^{2}}}{5+\\frac{4}{n^{2}}}=\\frac{2}{5}\n$$\n<p>因为 $\\displaystyle\\lim_{n\\to\\infty}\\frac{1}{n}=0$ 且 $\\displaystyle\\lim_{n\\to\\infty}\\frac{1}{n^{2}}=0$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "求 $\\left(2x^{3} - \\frac{1}{x^{2}}\\right)^{5}$ 展开式中的常数项.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设展开式中取了 $j$ 个 $-\\frac{1}{x^{2}}$ 因式，其中 $j=0$，$1$，$\\ldots$，$5$，则相应项为</p>\n$$\n\\mathrm{C}_{5}^{j}(2x^{3})^{5-j}\\left(-\\frac{1}{x^{2}}\\right)^{j}=\\mathrm{C}_{5}^{j}2^{5-j}(-1)^{j} x^{15-5j}\n$$\n<p>要得到常数项，必须使 $x$ 的幂为零，即 $15-5j=0$，所以 $j=3$. 此时常数项的系数为 $\\mathrm{C}_{5}^{3} 2^{2}(-1)^{3}=-40$，故展开式中的常数项为 $-40$.</p>"
+          "solution": "<p>设展开式中取了 $j$ 个 $-\\frac{1}{x^{2}}$ 因式，其中 $j=0$，$1$，$\\ldots$，$5$，则相应项为</p>\n$$\n\\mathrm{C}_{5}^{j}(2x^{3})^{5-j}\\left(-\\frac{1}{x^{2}}\\right)^{j}=\\mathrm{C}_{5}^{j}2^{5-j}(-1)^{j} x^{15-5j}\n$$\n<p>要得到常数项，必须使 $x$ 的幂为零，即 $15-5j=0$，所以 $j=3$. 此时常数项的系数为 $\\mathrm{C}_{5}^{3} 2^{2}(-1)^{3}=-40$，故展开式中的常数项为 $-40$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "求与椭圆 $\\frac{x^{2}}{9}+ \\frac{y^{2}}{4}= 1$ 有公共焦点，且离心率为 $\\frac{\\sqrt{5}}{2}$ 的双曲线方程.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "椭圆的半长轴和半短轴分别为 $3$ 和 $2$，所以其焦半距为 $c=\\sqrt{3^{2}-2^{2}}=\\sqrt{5}$. 所求双曲线与椭圆有公共焦点，故双曲线的焦点也在 $x$ 轴上，焦半距仍为 $\\sqrt{5}$. 设双曲线的半实轴为 $a$，由离心率条件 $\\frac{c}{a}=\\frac{\\sqrt{5}}{2}$，得 $a=2$. 再由双曲线的关系式 $c^{2}=a^{2}+b^{2}$，得 $b^{2}=5-4=1$. 因此双曲线方程为 $\\frac{x^{2}}{4}-y^{2}=1$."
+          "solution": "椭圆的半长轴和半短轴分别为 $3$ 和 $2$，所以其焦半距为 $c=\\sqrt{3^{2}-2^{2}}=\\sqrt{5}$. 所求双曲线与椭圆有公共焦点，故双曲线的焦点也在 $x$ 轴上，焦半距仍为 $\\sqrt{5}$. 设双曲线的半实轴为 $a$，由离心率条件 $\\frac{c}{a}=\\frac{\\sqrt{5}}{2}$，得 $a=2$. 再由双曲线的关系式 $c^{2}=a^{2}+b^{2}$，得 $b^{2}=5-4=1$. 因此双曲线方程为 $\\frac{x^{2}}{4}-y^{2}=1$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图，$AB$ 是圆 $O$ 的直径，$PA$ 垂直于圆 $O$ 所在的平面，$C$ 是圆周上不同于 $A$，$B$ 的任一点，求证：平面 $PAC$ 垂直于平面 $PBC$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，$AB$ 是圆 $O$ 的直径，$PA$ 垂直于圆 $O$ 所在的平面，$C$ 是圆周上不同于 $A$，$B$ 的任一点，求证：平面 $PAC$ 垂直于平面 $PBC$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1986/img/national_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "因为 $PA$ 垂直于圆 $O$ 所在的平面，所以 $PA\\perp AC$ 且 $PA\\perp BC$. 又因为 $AB$ 是圆的直径，$C$ 在圆周上，由圆周角定理得 $\\angle ACB=90^{\\circ}$，即 $AC\\perp BC$. 直线 $PA$ 与 $AC$ 是平面 $PAC$ 内相交的两条直线，而 $BC$ 同时垂直于这两条直线，所以直线 $BC$ 垂直于平面 $PAC$. 由于直线 $BC$ 在平面 $PBC$ 内，所以平面 $PBC$ 垂直于平面 $PAC$，即平面 $PAC\\perp$ 平面 $PBC$."
+          "solution": "因为 $PA$ 垂直于圆 $O$ 所在的平面，所以 $PA\\perp AC$ 且 $PA\\perp BC$. 又因为 $AB$ 是圆的直径，$C$ 在圆周上，由圆周角定理得 $\\angle ACB=90^{\\circ}$，即 $AC\\perp BC$. 直线 $PA$ 与 $AC$ 是平面 $PAC$ 内相交的两条直线，而 $BC$ 同时垂直于这两条直线，所以直线 $BC$ 垂直于平面 $PAC$. 由于直线 $BC$ 在平面 $PBC$ 内，所以平面 $PBC$ 垂直于平面 $PAC$，即平面 $PAC\\perp$ 平面 $PBC$.",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "求满足方程 $|z + 3 - \\sqrt{3}\\mathrm{i}| = \\sqrt{3}$ 的辐角主值最小的复数 $z$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>令 $z=x+y\\mathrm{i}$，则原方程表示以 $(-3,\\sqrt{3})$ 为圆心、以 $\\sqrt{3}$ 为半径的圆. 圆心到原点的距离为 $\\sqrt{(-3)^{2}+(\\sqrt{3})^{2}}=2\\sqrt{3}$，圆心对应的辐角为 $\\frac{5\\pi}{6}$. 从原点向此圆作切线，设切线与圆心连线的夹角为 $\\delta$，则在由原点、圆心和切点构成的直角三角形中，$\\sin\\delta=\\frac{\\sqrt{3}}{2\\sqrt{3}}=\\frac{1}{2}$，所以 $\\delta=\\frac{\\pi}{6}$. 因而圆上各点的辐角主值在 $\\frac{5\\pi}{6}-\\frac{\\pi}{6}=\\frac{2\\pi}{3}$ 与 $\\pi$ 之间，最小值在辐角为 $\\frac{2\\pi}{3}$ 的切点处取得.</p><p>设该切点对应的复数为 $z=t\\left(\\cos\\frac{2\\pi}{3}+\\mathrm{i}\\sin\\frac{2\\pi}{3}\\right)$，其中 $t>0$. 代入圆的方程，得</p>\n$$\n\\left(3-\\frac{t}{2}\\right)^{2}+3\\left(\\frac{t}{2}-1\\right)^{2}=3\n$$\n<p>即 $(t-3)^{2}=0$，所以 $t=3$. 故所求复数为 $z=3\\left(\\cos\\frac{2\\pi}{3}+\\mathrm{i}\\sin\\frac{2\\pi}{3}\\right)=-\\frac{3}{2}+\\frac{3\\sqrt{3}}{2}\\mathrm{i}$.</p>"
+          "solution": "<p>令 $z=x+y\\mathrm{i}$，则原方程表示以 $(-3,\\sqrt{3})$ 为圆心、以 $\\sqrt{3}$ 为半径的圆. 圆心到原点的距离为 $\\sqrt{(-3)^{2}+(\\sqrt{3})^{2}}=2\\sqrt{3}$，圆心对应的辐角为 $\\frac{5\\pi}{6}$. 从原点向此圆作切线，设切线与圆心连线的夹角为 $\\delta$，则在由原点、圆心和切点构成的直角三角形中，$\\sin\\delta=\\frac{\\sqrt{3}}{2\\sqrt{3}}=\\frac{1}{2}$，所以 $\\delta=\\frac{\\pi}{6}$. 因而圆上各点的辐角主值在 $\\frac{5\\pi}{6}-\\frac{\\pi}{6}=\\frac{2\\pi}{3}$ 与 $\\pi$ 之间，最小值在辐角为 $\\frac{2\\pi}{3}$ 的切点处取得.</p><p>设该切点对应的复数为 $z=t\\left(\\cos\\frac{2\\pi}{3}+\\mathrm{i}\\sin\\frac{2\\pi}{3}\\right)$，其中 $t>0$. 代入圆的方程，得</p>\n$$\n\\left(3-\\frac{t}{2}\\right)^{2}+3\\left(\\frac{t}{2}-1\\right)^{2}=3\n$$\n<p>即 $(t-3)^{2}=0$，所以 $t=3$. 故所求复数为 $z=3\\left(\\cos\\frac{2\\pi}{3}+\\mathrm{i}\\sin\\frac{2\\pi}{3}\\right)=-\\frac{3}{2}+\\frac{3\\sqrt{3}}{2}\\mathrm{i}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "已知抛物线 $y^{2} = x + 1$，定点 $A(3,1)$，$B$ 为抛物线上任意一点，点 $P$ 在线段 $AB$ 上，且有 $BP:PA = 1:2$，当点 $B$ 在抛物线上变动时，求点 $P$ 的轨迹方程，并指出这个轨迹为哪种曲线.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设抛物线上的点 $B$ 为 $B(t^{2}-1,t)$，其中 $t\\in\\mathbb{R}$. 由 $BP:PA=1:2$，点 $P$ 将线段 $BA$ 按内分比 $1:2$ 分割，所以</p>\n$$\nP=\\frac{2B+A}{3}=\\left(\\frac{2t^{2}+1}{3},\\frac{2t+1}{3}\\right)\n$$\n<p>由 $y=\\frac{2t+1}{3}$ 得 $t=\\frac{3y-1}{2}$，再由 $x=\\frac{2t^{2}+1}{3}$ 得 $6x=(3y-1)^{2}+2$. 整理得 $3y^{2}-2y-2x+1=0$，即 $3\\left(y-\\frac{1}{3}\\right)^{2}=2\\left(x-\\frac{1}{3}\\right)$. 因此点 $P$ 的轨迹是顶点为 $\\left(\\frac{1}{3},\\frac{1}{3}\\right)$、开口向右的抛物线.</p>"
+          "solution": "<p>设抛物线上的点 $B$ 为 $B(t^{2}-1,t)$，其中 $t\\in\\mathbb{R}$. 由 $BP:PA=1:2$，点 $P$ 将线段 $BA$ 按内分比 $1:2$ 分割，所以</p>\n$$\nP=\\frac{2B+A}{3}=\\left(\\frac{2t^{2}+1}{3},\\frac{2t+1}{3}\\right)\n$$\n<p>由 $y=\\frac{2t+1}{3}$ 得 $t=\\frac{3y-1}{2}$，再由 $x=\\frac{2t^{2}+1}{3}$ 得 $6x=(3y-1)^{2}+2$. 整理得 $3y^{2}-2y-2x+1=0$，即 $3\\left(y-\\frac{1}{3}\\right)^{2}=2\\left(x-\\frac{1}{3}\\right)$. 因此点 $P$ 的轨迹是顶点为 $\\left(\\frac{1}{3},\\frac{1}{3}\\right)$、开口向右的抛物线.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "甲，乙，丙，丁四个公司承包 $8$ 项工程，甲公司承包 $3$ 项，乙公司承包 $1$ 项，丙，丁两个公司各承包 $2$ 项，问共有多少种承包方式.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>$8$ 项工程彼此不同，$4$ 个公司有明确区别. 先从 $8$ 项工程中选出甲公司承包的 $3$ 项，再从余下的 $5$ 项中选出乙公司承包的 $1$ 项，然后从余下的 $4$ 项中选出丙公司承包的 $2$ 项，最后剩下的 $2$ 项由丁公司承包. 因此承包方式共有</p>\n$$\n\\mathrm{C}_{8}^{3}\\mathrm{C}_{5}^{1}\\mathrm{C}_{4}^{2}\\mathrm{C}_{2}^{2}  =56\\times5\\times6\\times1  =1680\n$$\n<p>种.</p>"
+          "solution": "<p>$8$ 项工程彼此不同，$4$ 个公司有明确区别. 先从 $8$ 项工程中选出甲公司承包的 $3$ 项，再从余下的 $5$ 项中选出乙公司承包的 $1$ 项，然后从余下的 $4$ 项中选出丙公司承包的 $2$ 项，最后剩下的 $2$ 项由丁公司承包. 因此承包方式共有</p>\n$$\n\\mathrm{C}_{8}^{3}\\mathrm{C}_{5}^{1}\\mathrm{C}_{4}^{2}\\mathrm{C}_{2}^{2}  =56\\times5\\times6\\times1  =1680\n$$\n<p>种.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知 $\\sin A + \\sin 3A + \\sin 5A = a$，$\\cos A + \\cos 3A + \\cos 5A = b$. 求证：</p><ol class=\"enumerate\"><li><p>当 $b \\neq 0$ 时，$\\tan 3A = \\frac{a}{b}$；</p></li><li><p>$\\left(1 + 2\\cos 2A\\right)^{2} = a^{2} + b^{2}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由和差化积公式，</p>\n$$\na=\\sin A+\\sin 3A+\\sin 5A=\\left(1+2\\cos 2A\\right)\\sin 3A\n$$\n\n$$\nb=\\cos A+\\cos 3A+\\cos 5A=\\left(1+2\\cos 2A\\right)\\cos 3A\n$$\n<p>当 $b\\neq0$ 时，由 $b=\\left(1+2\\cos 2A\\right)\\cos 3A\\neq0$，可知 $\\cos 3A\\neq0$，所以</p>\n$$\n\\tan 3A=\\frac{\\sin 3A}{\\cos 3A}=\\frac{\\left(1+2\\cos 2A\\right)\\sin 3A}{\\left(1+2\\cos 2A\\right)\\cos 3A}=\\frac{a}{b}\n$$\n</li><li><p>由上述两个等式以及 $\\sin^{2} 3A+\\cos^{2} 3A=1$，得</p>\n$$\na^{2}+b^{2}=\\left(1+2\\cos 2A\\right)^{2}\\left(\\sin^{2} 3A+\\cos^{2} 3A\\right)=\\left(1+2\\cos 2A\\right)^{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由和差化积公式，</p>\n$$\na=\\sin A+\\sin 3A+\\sin 5A=\\left(1+2\\cos 2A\\right)\\sin 3A\n$$\n\n$$\nb=\\cos A+\\cos 3A+\\cos 5A=\\left(1+2\\cos 2A\\right)\\cos 3A\n$$\n<p>当 $b\\neq0$ 时，由 $b=\\left(1+2\\cos 2A\\right)\\cos 3A\\neq0$，可知 $\\cos 3A\\neq0$，所以</p>\n$$\n\\tan 3A=\\frac{\\sin 3A}{\\cos 3A}=\\frac{\\left(1+2\\cos 2A\\right)\\sin 3A}{\\left(1+2\\cos 2A\\right)\\cos 3A}=\\frac{a}{b}\n$$\n</li><li><p>由上述两个等式以及 $\\sin^{2} 3A+\\cos^{2} 3A=1$，得</p>\n$$\na^{2}+b^{2}=\\left(1+2\\cos 2A\\right)^{2}\\left(\\sin^{2} 3A+\\cos^{2} 3A\\right)=\\left(1+2\\cos 2A\\right)^{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知数列 $\\{a_{n}\\}$，其中 $a_{1} = \\frac{4}{3}$，$a_{2} = \\frac{13}{9}$，且当 $n \\ge 3$ 时，$a_{n} - a_{n-1}= \\frac{1}{3}\\left(a_{n-1}- a_{n-2}\\right)$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>求 $\\displaystyle\\lim_{n\\to\\infty}a_{n}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>令 $d_{n}=a_{n}-a_{n-1}$. 由已知条件，</p>\n$$\nd_{2}=a_{2}-a_{1}=\\frac{13}{9}-\\frac{4}{3}=\\frac{1}{9}=\\frac{1}{3^{2}}\n$$\n<p>当 $n\\geqslant3$ 时，题设递推关系化为 $d_{n}=\\frac{1}{3}d_{n-1}$，所以对 $n\\geqslant2$，</p>\n$$\nd_{n}=\\frac{1}{9}\\left(\\frac{1}{3}\\right)^{n-2}=\\frac{1}{3^{n}}\n$$\n<p>因此，当 $n\\geqslant2$ 时，</p>\n$$\na_{n}=a_{1}+\\sum_{k=2}^{n}d_{k}=\\frac{4}{3}+\\sum_{k=2}^{n}\\frac{1}{3^{k}}=\\frac{4}{3}+\\frac{1}{6}\\left(1-\\frac{1}{3^{n-1}}\\right)=\\frac{3}{2}-\\frac{1}{2\\cdot3^{n}}\n$$\n<p>当 $n=1$ 时，右端为 $\\frac{3}{2}-\\frac{1}{2\\cdot3}=\\frac{4}{3}=a_{1}$，所以数列的通项公式为 $a_{n}=\\frac{3}{2}-\\frac{1}{2\\cdot3^{n}}$（$n\\geqslant1$）.</p></li><li><p>由通项公式，</p>\n$$\n\\displaystyle\\lim_{n\\to\\infty}a_{n}=\\frac{3}{2}-\\displaystyle\\lim_{n\\to\\infty}\\frac{1}{2\\cdot3^{n}}=\\frac{3}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>令 $d_{n}=a_{n}-a_{n-1}$. 由已知条件，</p>\n$$\nd_{2}=a_{2}-a_{1}=\\frac{13}{9}-\\frac{4}{3}=\\frac{1}{9}=\\frac{1}{3^{2}}\n$$\n<p>当 $n\\geqslant3$ 时，题设递推关系化为 $d_{n}=\\frac{1}{3}d_{n-1}$，所以对 $n\\geqslant2$，</p>\n$$\nd_{n}=\\frac{1}{9}\\left(\\frac{1}{3}\\right)^{n-2}=\\frac{1}{3^{n}}\n$$\n<p>因此，当 $n\\geqslant2$ 时，</p>\n$$\na_{n}=a_{1}+\\sum_{k=2}^{n}d_{k}=\\frac{4}{3}+\\sum_{k=2}^{n}\\frac{1}{3^{k}}=\\frac{4}{3}+\\frac{1}{6}\\left(1-\\frac{1}{3^{n-1}}\\right)=\\frac{3}{2}-\\frac{1}{2\\cdot3^{n}}\n$$\n<p>当 $n=1$ 时，右端为 $\\frac{3}{2}-\\frac{1}{2\\cdot3}=\\frac{4}{3}=a_{1}$，所以数列的通项公式为 $a_{n}=\\frac{3}{2}-\\frac{1}{2\\cdot3^{n}}$（$n\\geqslant1$）.</p></li><li><p>由通项公式，</p>\n$$\n\\displaystyle\\lim_{n\\to\\infty}a_{n}=\\frac{3}{2}-\\displaystyle\\lim_{n\\to\\infty}\\frac{1}{2\\cdot3^{n}}=\\frac{3}{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -1,8 +1,137 @@
 {
-  "title": "2020年普通高等学校招生全国统一考试",
-  "subtitle": "2020年上海卷（秋）",
   "year": "2020",
   "slug": "shanghai",
+  "title": "2020年上海卷（秋）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "填空题",
@@ -10,86 +139,110 @@
         {
           "num": 1,
           "body": "已知集合 $A=\\{1,2,4\\}$，集合 $B=\\{2,4,5\\}$，则 $A\\cap B=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\{2,4\\}$",
-          "solution": "因为 $A=\\{1,2,4\\}$，$B=\\{2,4,5\\}$，两集合的公共元素为 $2$，$4$，所以 $A\\cap B=\\{2,4\\}$，故答案为 $\\{2,4\\}$."
+          "choices": [],
+          "answer": "\\(\\{2,4\\}\\)",
+          "solution": "因为 $A=\\{1,2,4\\}$，$B=\\{2,4,5\\}$，两集合的公共元素为 $2$，$4$，所以 $A\\cap B=\\{2,4\\}$，故答案为 $\\{2,4\\}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "计算：$\\lim\\limits_{n\\to\\infty}\\frac{n+1}{3n-1}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{1}{3}$",
-          "solution": "因为 $n\\ne 0$，分子、分母同除以 $n$，得 $\\frac{n+1}{3n-1}=\\frac{1+\\frac{1}{n}}{3-\\frac{1}{n}}$，而 $\\frac{1}{n}\\to 0$，所以 $\\lim\\limits_{n\\to\\infty}\\frac{n+1}{3n-1}=\\lim\\limits_{n\\to\\infty}\\frac{1+\\frac{1}{n}}{3-\\frac{1}{n}}=\\frac{1}{3}$，故答案为 $\\frac{1}{3}$."
+          "choices": [],
+          "answer": "\\(\\frac{1}{3}\\)",
+          "solution": "因为 $n\\ne 0$，分子、分母同除以 $n$，得 $\\frac{n+1}{3n-1}=\\frac{1+\\frac{1}{n}}{3-\\frac{1}{n}}$，而 $\\frac{1}{n}\\to 0$，所以 $\\lim\\limits_{n\\to\\infty}\\frac{n+1}{3n-1}=\\lim\\limits_{n\\to\\infty}\\frac{1+\\frac{1}{n}}{3-\\frac{1}{n}}=\\frac{1}{3}$，故答案为 $\\frac{1}{3}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "已知复数 $z=1-2\\mathrm{i}$（$\\mathrm{i}$ 为虚数单位），则 $|z|=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\sqrt{5}$",
-          "solution": "由 $z=1-2\\mathrm{i}$，得 $|z|=\\sqrt{1^{2}+(-2)^{2}}=\\sqrt{5}$，故答案为 $\\sqrt{5}$."
+          "choices": [],
+          "answer": "\\(\\sqrt{5}\\)",
+          "solution": "由 $z=1-2\\mathrm{i}$，得 $|z|=\\sqrt{1^{2}+(-2)^{2}}=\\sqrt{5}$，故答案为 $\\sqrt{5}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "已知函数 $f(x)=x^{3}$，$f^{-1}(x)$ 是 $f(x)$ 的反函数，则 $f^{-1}(x)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\sqrt[3]{x}$",
-          "solution": "设 $y=x^{3}$，$x\\in\\mathbb{R}$，解得 $x=\\sqrt[3]{y}$，把 $x$ 与 $y$ 互换，得反函数为 $f^{-1}(x)=\\sqrt[3]{x}$，$x\\in\\mathbb{R}$，回代满足 $f\\left(f^{-1}(x)\\right)=x$，故答案为 $\\sqrt[3]{x}$."
+          "choices": [],
+          "answer": "\\(\\sqrt[3]{x}\\)",
+          "solution": "设 $y=x^{3}$，$x\\in\\mathbb{R}$，解得 $x=\\sqrt[3]{y}$，把 $x$ 与 $y$ 互换，得反函数为 $f^{-1}(x)=\\sqrt[3]{x}$，$x\\in\\mathbb{R}$，回代满足 $f\\left(f^{-1}(x)\\right)=x$，故答案为 $\\sqrt[3]{x}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
-          "body": "<p>已知 $x$，$y$ 满足 $x+y-2\\ge0$，$x+2y-3\\le0$，$y\\ge0$，</p><p>则 $z=y-2x$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$-1$",
-          "solution": "约束 $x+y-2\\ge 0$，$x+2y-3\\le 0$，$y\\ge 0$ 的可行域是以 $(2,0)$，$(3,0)$，$A(1,1)$ 为顶点的三角形及其内部，其中 $A(1,1)$ 由 $x+y-2=0$，$x+2y-3=0$ 联立解得，化目标函数 $z=y-2x$ 为 $y=2x+z$，$z$ 为直线在 $y$ 轴上的截距，代入三个顶点得 $z$ 的值分别为 $-4$，$-6$，$-1$，比较得最大值为 $-1$，在 $A(1,1)$ 处取得，故答案为 $-1$."
+          "body": "<p>已知 $x$，$y$ 满足 $x+y-2\\ge0$，$x+2y-3\\le0$，$y\\ge0$，</p><p>则 $z=y-2x$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/shanghai/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(-1\\)",
+          "solution": "约束 $x+y-2\\ge 0$，$x+2y-3\\le 0$，$y\\ge 0$ 的可行域是以 $(2,0)$，$(3,0)$，$A(1,1)$ 为顶点的三角形及其内部，其中 $A(1,1)$ 由 $x+y-2=0$，$x+2y-3=0$ 联立解得，化目标函数 $z=y-2x$ 为 $y=2x+z$，$z$ 为直线在 $y$ 轴上的截距，代入三个顶点得 $z$ 的值分别为 $-4$，$-6$，$-1$，比较得最大值为 $-1$，在 $A(1,1)$ 处取得，故答案为 $-1$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "已知行列式 $\\left|\\begin{matrix}1 & a & b\\\\\n\n2 & c & d\\\\\n\n3 & 0 & 0\\end{matrix}\\right|=6$，则 $\\left|\\begin{matrix}a & b\\\\\n\nc & d\\end{matrix}\\right|$=<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$2$",
-          "solution": "按第三行展开，$\\left|\\begin{matrix}1 & a & b\\\\ 2 & c & d\\\\ 3 & 0 & 0\\end{matrix}\\right|=1\\cdot\\left(c\\cdot 0-d\\cdot 0\\right)-a\\cdot\\left(2\\cdot 0-d\\cdot 3\\right)+b\\cdot\\left(2\\cdot 0-c\\cdot 3\\right)=3ad-3bc=3\\left(ad-bc\\right)=6$，所以 $ad-bc=2$，即 $\\left|\\begin{matrix}a & b\\\\ c & d\\end{matrix}\\right|=2$，故答案为 $2$."
+          "choices": [],
+          "answer": "\\(2\\)",
+          "solution": "按第三行展开，$\\left|\\begin{matrix}1 & a & b\\\\ 2 & c & d\\\\ 3 & 0 & 0\\end{matrix}\\right|=1\\cdot\\left(c\\cdot 0-d\\cdot 0\\right)-a\\cdot\\left(2\\cdot 0-d\\cdot 3\\right)+b\\cdot\\left(2\\cdot 0-c\\cdot 3\\right)=3ad-3bc=3\\left(ad-bc\\right)=6$，所以 $ad-bc=2$，即 $\\left|\\begin{matrix}a & b\\\\ c & d\\end{matrix}\\right|=2$，故答案为 $2$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "已知有四个数 $1$，$2$，$a$，$b$，这四个数的中位数是 $3$，平均数是 $4$，则 $ab=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$36$",
-          "solution": "四个数的平均数为 $4$，所以和为 $16$，得 $a+b=16-1-2=13$，若 $a$，$b$ 中有一个不大于 $2$，不妨设 $a\\le 2$，则 $b=13-a\\ge 11$，四个数按从小到大排列为 $a$，$1$，$2$，$b$ 或 $1$，$a$，$2$，$b$，中位数为 $\\frac{1+2}{2}$ 或 $\\frac{a+2}{2}$，前者为 $\\frac{3}{2}\\ne 3$，后者等于 $3$ 得 $a=4$，与 $a\\le 2$ 矛盾，故 $a$，$b$ 均大于 $2$，此时排序为 $1$，$2$ 及 $a$，$b$，中位数为 $\\frac{2+\\min\\left(a,b\\right)}{2}=3$，得 $\\min\\left(a,b\\right)=4$，结合 $a+b=13$ 得另一数为 $9$，回代排序后中间两数确为 $2$，$4$，中位数为 $3$，符合题意，所以 $ab=4\\times 9=36$，故答案为 $36$."
+          "choices": [],
+          "answer": "\\(36\\)",
+          "solution": "四个数的平均数为 $4$，所以和为 $16$，得 $a+b=16-1-2=13$，若 $a$，$b$ 中有一个不大于 $2$，不妨设 $a\\le 2$，则 $b=13-a\\ge 11$，四个数按从小到大排列为 $a$，$1$，$2$，$b$ 或 $1$，$a$，$2$，$b$，中位数为 $\\frac{1+2}{2}$ 或 $\\frac{a+2}{2}$，前者为 $\\frac{3}{2}\\ne 3$，后者等于 $3$ 得 $a=4$，与 $a\\le 2$ 矛盾，故 $a$，$b$ 均大于 $2$，此时排序为 $1$，$2$ 及 $a$，$b$，中位数为 $\\frac{2+\\min\\left(a,b\\right)}{2}=3$，得 $\\min\\left(a,b\\right)=4$，结合 $a+b=13$ 得另一数为 $9$，回代排序后中间两数确为 $2$，$4$，中位数为 $3$，符合题意，所以 $ab=4\\times 9=36$，故答案为 $36$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "<p>已知数列 $\\{a_{n}\\}$ 是公差不为零的等差数列，且 $a_{1}+a_{10}=a_{9}$，则</p><p>$\\frac{a_{1}+a_{2}+\\cdots+a_{9}}{a_{10}}$=<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
-          "answer": "$\\frac{27}{8}$",
-          "solution": "设公差为 $d$，$d\\ne 0$，则 $a_{n}=a_{1}+\\left(n-1\\right)d$，由 $a_{1}+a_{10}=a_{9}$ 得 $a_{1}+a_{1}+9d=a_{1}+8d$，解得 $a_{1}=-d$，前 $9$ 项和（即 $S_{9}$）为 $a_{1}+a_{2}+\\cdots+a_{9}=9a_{1}+36d=27d$，$a_{10}=a_{1}+9d=8d\\ne 0$，所以 $\\frac{a_{1}+a_{2}+\\cdots+a_{9}}{a_{10}}=\\frac{27d}{8d}=\\frac{27}{8}$，故答案为 $\\frac{27}{8}$."
+          "choices": [],
+          "answer": "\\(\\frac{27}{8}\\)",
+          "solution": "设公差为 $d$，$d\\ne 0$，则 $a_{n}=a_{1}+\\left(n-1\\right)d$，由 $a_{1}+a_{10}=a_{9}$ 得 $a_{1}+a_{1}+9d=a_{1}+8d$，解得 $a_{1}=-d$，前 $9$ 项和（即 $S_{9}$）为 $a_{1}+a_{2}+\\cdots+a_{9}=9a_{1}+36d=27d$，$a_{10}=a_{1}+9d=8d\\ne 0$，所以 $\\frac{a_{1}+a_{2}+\\cdots+a_{9}}{a_{10}}=\\frac{27d}{8d}=\\frac{27}{8}$，故答案为 $\\frac{27}{8}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "从 $6$ 个人挑选 $4$ 个人去值班，每人值班一天，第一天安排 $1$ 个人，第二天安排 $1$ 个人，第三天安排 $2$ 个人，则共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 种安排情况.",
-          "choices": null,
-          "answer": "$180$",
-          "solution": "先从$6$人中选$1$人排第一天，有$\\mathrm{C}_{6}^{1}$种，再从余下$5$人中选$1$人排第二天，有$\\mathrm{C}_{5}^{1}$种，最后从余下$4$人中选$2$人排第三天，有$\\mathrm{C}_{4}^{2}$种，故不同安排方法共有$\\mathrm{C}_{6}^{1}\\mathrm{C}_{5}^{1}\\mathrm{C}_{4}^{2}=6\\times5\\times6=180$种，故答案为$180$."
+          "choices": [],
+          "answer": "\\(180\\)",
+          "solution": "先从$6$人中选$1$人排第一天，有$\\mathrm{C}_{6}^{1}$种，再从余下$5$人中选$1$人排第二天，有$\\mathrm{C}_{5}^{1}$种，最后从余下$4$人中选$2$人排第三天，有$\\mathrm{C}_{4}^{2}$种，故不同安排方法共有$\\mathrm{C}_{6}^{1}\\mathrm{C}_{5}^{1}\\mathrm{C}_{4}^{2}=6\\times5\\times6=180$种，故答案为$180$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
-          "body": "<p>已知椭圆 $C:\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$ 的右焦点为 $F$，直线 $l$ 经过椭圆右焦点 $F$，交椭圆 $C$ 于 $P$，$Q$ 两点（点 $P$ 在第二象限），若点 $Q$ 关于 $x$ 轴对称点为 $Q'$，且满足 $PQ\\perp FQ'$，求直线 $l$ 的方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$x+y-1=0$",
-          "solution": "由$a^{2}=4$，$b^{2}=3$得$c=\\sqrt{4-3}=1$，故右焦点为$F(1,0)$.设直线$PQ$过$F$交椭圆于$P$，$Q$，记$Q(x_{Q},y_{Q})$，则$Q^{\\prime}(x_{Q},-y_{Q})$亦在椭圆上.因为$F$在椭圆内，故$\\overrightarrow{FQ}\\ne\\mathbf{0}$，且$P$，$F$，$Q$共线，所以$FQ^{\\prime}\\perp FP$等价于$\\overrightarrow{FQ}\\cdot\\overrightarrow{FQ^\\prime}=0$，即$(x_{Q}-1)^{2}-y_{Q}^{2}=0$，得$|x_{Q}-1|=|y_{Q}|$，竖直直线$x=1$此时给出$y_{Q}=0$，不可能，故直线$PQ$必有斜率.联立$\\frac{x_{Q}^{2}}{4}+\\frac{y_{Q}^{2}}{3}=1$得$7x_{Q}^{2}-8x_{Q}-8=0$，故过$F$的直线斜率为$1$或$-1$.直线$y=x-1$与椭圆的两个交点为$\\left(\\frac{4+6\\sqrt{2}}{7},\\frac{-3+6\\sqrt{2}}{7}\\right)$，$\\left(\\frac{4-6\\sqrt{2}}{7},\\frac{-3-6\\sqrt{2}}{7}\\right)$，分别位于第四、第三象限，不含第二象限点，舍去.直线$y=1-x$与椭圆的两个交点为$\\left(\\frac{4+6\\sqrt{2}}{7},\\frac{3-6\\sqrt{2}}{7}\\right)$，$\\left(\\frac{4-6\\sqrt{2}}{7},\\frac{3+6\\sqrt{2}}{7}\\right)$，后者横坐标为负、纵坐标为正，位于第二象限，可取为$P$，符合题意.故直线$PQ$的方程为$x+y-1=0$.（原 PDF 记椭圆为 $\\Gamma$，垂直条件为 $FQ'\\perp FP$，在 $P$，$F$，$Q$ 共线时与现稿等价.）"
+          "body": "<p>已知椭圆 $C:\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$ 的右焦点为 $F$，直线 $l$ 经过椭圆右焦点 $F$，交椭圆 $C$ 于 $P$，$Q$ 两点（点 $P$ 在第二象限），若点 $Q$ 关于 $x$ 轴对称点为 $Q'$，且满足 $PQ\\perp FQ'$，求直线 $l$ 的方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/shanghai/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(x+y-1=0\\)",
+          "solution": "由$a^{2}=4$，$b^{2}=3$得$c=\\sqrt{4-3}=1$，故右焦点为$F(1,0)$.设直线$PQ$过$F$交椭圆于$P$，$Q$，记$Q(x_{Q},y_{Q})$，则$Q^{\\prime}(x_{Q},-y_{Q})$亦在椭圆上.因为$F$在椭圆内，故$\\overrightarrow{FQ}\\ne\\mathbf{0}$，且$P$，$F$，$Q$共线，所以$FQ^{\\prime}\\perp FP$等价于$\\overrightarrow{FQ}\\cdot\\overrightarrow{FQ^\\prime}=0$，即$(x_{Q}-1)^{2}-y_{Q}^{2}=0$，得$|x_{Q}-1|=|y_{Q}|$，竖直直线$x=1$此时给出$y_{Q}=0$，不可能，故直线$PQ$必有斜率.联立$\\frac{x_{Q}^{2}}{4}+\\frac{y_{Q}^{2}}{3}=1$得$7x_{Q}^{2}-8x_{Q}-8=0$，故过$F$的直线斜率为$1$或$-1$.直线$y=x-1$与椭圆的两个交点为$\\left(\\frac{4+6\\sqrt{2}}{7},\\frac{-3+6\\sqrt{2}}{7}\\right)$，$\\left(\\frac{4-6\\sqrt{2}}{7},\\frac{-3-6\\sqrt{2}}{7}\\right)$，分别位于第四、第三象限，不含第二象限点，舍去.直线$y=1-x$与椭圆的两个交点为$\\left(\\frac{4+6\\sqrt{2}}{7},\\frac{3-6\\sqrt{2}}{7}\\right)$，$\\left(\\frac{4-6\\sqrt{2}}{7},\\frac{3+6\\sqrt{2}}{7}\\right)$，后者横坐标为负、纵坐标为正，位于第二象限，可取为$P$，符合题意.故直线$PQ$的方程为$x+y-1=0$.（原 PDF 记椭圆为 $\\Gamma$，垂直条件为 $FQ'\\perp FP$，在 $P$，$F$，$Q$ 共线时与现稿等价.）",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "<p>设 $a\\in\\mathbb{R}$，若存在定义域为 $\\mathbb{R}$ 的函数 $f(x)$ 同时满足下列两个条件：</p><ol class=\"enumerate\"><li><p>对任意的 $x_{0}\\in\\mathbb{R}$，$f(x_{0})$ 的值为 $x_{0}$ 或 $x_{0}^{2}$；</p></li><li><p>关于 $x$ 的方程 $f(x)=a$ 无实数解，</p></li></ol><p>则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
-          "answer": "$(-\\infty,0)\\cup(0,1)\\cup(1,+\\infty)$",
-          "solution": "对 $x_{0}=0$，$\\{x_{0},x_{0}^{2}\\}=\\{0\\}$，故必有 $f(0)=0$，对 $x_{0}=1$，$\\{x_{0},x_{0}^{2}\\}=\\{1\\}$，故必有 $f(1)=1$，所以 $0$ 与 $1$ 恒在 $f$ 的值域中，方程 $f(x)=a$ 无实数解蕴含 $a\\ne0$ 且 $a\\ne1$.反之，对任意 $a\\in\\mathbb{R}$ 且 $a\\ne0$，$a\\ne1$，定义 $f(a)=a^{2}$，其余 $x$ 处取 $f(x)=x$，则每点取值确为 $x$ 或 $x^{2}$；$f(x)=x$ 取到 $a$ 只可能在 $x=a$ 处，但该处已改为 $a^{2}\\ne a$，$f(a)=a^{2}=a$ 将推出 $a=0$ 或 $a=1$，已排除，故 $a$ 不在值域中.因此满足条件的 $a$ 恰为 $(-\\infty,0)\\cup(0,1)\\cup(1,+\\infty)$."
+          "choices": [],
+          "answer": "\\((-\\infty,0)\\cup(0,1)\\cup(1,+\\infty)\\)",
+          "solution": "对 $x_{0}=0$，$\\{x_{0},x_{0}^{2}\\}=\\{0\\}$，故必有 $f(0)=0$，对 $x_{0}=1$，$\\{x_{0},x_{0}^{2}\\}=\\{1\\}$，故必有 $f(1)=1$，所以 $0$ 与 $1$ 恒在 $f$ 的值域中，方程 $f(x)=a$ 无实数解蕴含 $a\\ne0$ 且 $a\\ne1$.反之，对任意 $a\\in\\mathbb{R}$ 且 $a\\ne0$，$a\\ne1$，定义 $f(a)=a^{2}$，其余 $x$ 处取 $f(x)=x$，则每点取值确为 $x$ 或 $x^{2}$；$f(x)=x$ 取到 $a$ 只可能在 $x=a$ 处，但该处已改为 $a^{2}\\ne a$，$f(a)=a^{2}=a$ 将推出 $a=0$ 或 $a=1$，已排除，故 $a$ 不在值域中.因此满足条件的 $a$ 恰为 $(-\\infty,0)\\cup(0,1)\\cup(1,+\\infty)$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
-          "body": "<p>已知 $\\mathbf{a}_{1}$，$\\mathbf{a}_{2}$，$\\mathbf{b}_{1}$，$\\mathbf{b}_{2}$，$\\ldots$，$\\mathbf{b}_{k}$（$k\\in\\mathbb{N}^{*}$）是平面内两两互不相等的向量，满足 $|\\mathbf{a}_{1}-\\mathbf{a}_{2}|=1$，且 $|\\mathbf{a}_{i}-\\mathbf{b}_{j}|\\in\\{1,2\\}$（其中 $i=1$，$2$，$j=1$，$2$，$\\ldots$，$k$），则 $k$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$6$",
-          "solution": "设$\\overrightarrow{OA_1}=\\mathbf{a}_{1}$，$\\overrightarrow{OA_2}=\\mathbf{a}_{2}$，则$|A_{1}A_{2}|=1$.每个$\\mathbf{b}_{j}$对应的点$B_{j}$到$A_{1}$，$A_{2}$的距离都属于$\\{1,2\\}$，故必为圆$C(A_{1},r_{1})$与$C(A_{2},r_{2})$（$r_{1},r_{2}\\in\\{1,2\\}$）的交点.圆心距$d=1$，$r_{1}=r_{2}=1$时$0<1<2$，相交于$2$点，$r_{1}=r_{2}=2$时$0<1<4$，相交于$2$点，$\\{r_{1},r_{2}\\}=\\{1,2\\}$时$|r_{1}-r_{2}|=1=d$，内切于$1$点.四组交点中，到$A_{1}$距离不同的两组不可能相交，到$A_{1}$距离同为$1$的切点落在直线$A_{1}A_{2}$上，而$(1,1)$的两交点构成等边三角形而不落在该直线上，故六点两两不同，且它们到$A_{1}$，$A_{2}$的距离非零，故与$\\mathbf{a}_{1}$，$\\mathbf{a}_{2}$及彼此都互不相等.于是$k$至多为$2+1+1+2=6$，且取这六点时取到，故$k$的最大值是$6$."
+          "body": "<p>已知 $\\mathbf{a}_{1}$，$\\mathbf{a}_{2}$，$\\mathbf{b}_{1}$，$\\mathbf{b}_{2}$，$\\ldots$，$\\mathbf{b}_{k}$（$k\\in\\mathbb{N}^{*}$）是平面内两两互不相等的向量，满足 $|\\mathbf{a}_{1}-\\mathbf{a}_{2}|=1$，且 $|\\mathbf{a}_{i}-\\mathbf{b}_{j}|\\in\\{1,2\\}$（其中 $i=1$，$2$，$j=1$，$2$，$\\ldots$，$k$），则 $k$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/shanghai/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(6\\)",
+          "solution": "设$\\overrightarrow{OA_1}=\\mathbf{a}_{1}$，$\\overrightarrow{OA_2}=\\mathbf{a}_{2}$，则$|A_{1}A_{2}|=1$.每个$\\mathbf{b}_{j}$对应的点$B_{j}$到$A_{1}$，$A_{2}$的距离都属于$\\{1,2\\}$，故必为圆$C(A_{1},r_{1})$与$C(A_{2},r_{2})$（$r_{1},r_{2}\\in\\{1,2\\}$）的交点.圆心距$d=1$，$r_{1}=r_{2}=1$时$0<1<2$，相交于$2$点，$r_{1}=r_{2}=2$时$0<1<4$，相交于$2$点，$\\{r_{1},r_{2}\\}=\\{1,2\\}$时$|r_{1}-r_{2}|=1=d$，内切于$1$点.四组交点中，到$A_{1}$距离不同的两组不可能相交，到$A_{1}$距离同为$1$的切点落在直线$A_{1}A_{2}$上，而$(1,1)$的两交点构成等边三角形而不落在该直线上，故六点两两不同，且它们到$A_{1}$，$A_{2}$的距离非零，故与$\\mathbf{a}_{1}$，$\\mathbf{a}_{2}$及彼此都互不相等.于是$k$至多为$2+1+1+2=6$，且取这六点时取到，故$k$的最大值是$6$.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -106,7 +259,9 @@
             "$a^{2}+b^{2}\\le-2ab$"
           ],
           "answer": "B",
-          "solution": "A.取 $a=1$，$b=-1$，则 $a^{2}+b^{2}=2$，$2ab=-2$，不等式 $a^{2}+b^{2}\\le2ab$ 不成立，故 A 错误；B.因为 $(a+b)^{2}\\ge0$，即 $a^{2}+b^{2}+2ab\\ge0$，所以 $a^{2}+b^{2}\\ge-2ab$ 恒成立，故 B 正确；C.取 $a=b=-1$，则 $a+b=-2$，$2\\sqrt{|ab|}=2$，不等式不成立，故 C 错误；D.按本页现稿取 $a=b=1$，则 $a^{2}+b^{2}=2$，$-2ab=-2$，不等式 $a^{2}+b^{2}\\le-2ab$ 不成立，故 D 错误.原 PDF 的选项 D 为 $a+b\\ge-2\\sqrt{|ab|}$，取 $a=-4$，$b=-1$ 得 $-5\\ge-4$ 亦不成立，故按两种题面结论同为 B.故选 B."
+          "solution": "A.取 $a=1$，$b=-1$，则 $a^{2}+b^{2}=2$，$2ab=-2$，不等式 $a^{2}+b^{2}\\le2ab$ 不成立，故 A 错误；B.因为 $(a+b)^{2}\\ge0$，即 $a^{2}+b^{2}+2ab\\ge0$，所以 $a^{2}+b^{2}\\ge-2ab$ 恒成立，故 B 正确；C.取 $a=b=-1$，则 $a+b=-2$，$2\\sqrt{|ab|}=2$，不等式不成立，故 C 错误；D.按本页现稿取 $a=b=1$，则 $a^{2}+b^{2}=2$，$-2ab=-2$，不等式 $a^{2}+b^{2}\\le-2ab$ 不成立，故 D 错误.原 PDF 的选项 D 为 $a+b\\ge-2\\sqrt{|ab|}$，取 $a=-4$，$b=-1$ 得 $-5\\ge-4$ 亦不成立，故按两种题面结论同为 B.故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
@@ -118,11 +273,13 @@
             "$x=1+4t$，$y=1-3t$（$t$ 为参数）"
           ],
           "answer": "B",
-          "solution": "按本页现稿：点 $(1,-1)$ 满足 $3\\times1+4\\times(-1)+1=0$，在直线 $3x+4y+1=0$ 上.方向向量 $(-4,3)$ 满足 $3\\times(-4)+4\\times3=0$，与直线平行，故 $x=1-4t$，$y=-1+3t$（$t$ 为参数）是该直线的一个参数方程.A 的方向向量为 $(3,-4)$，$3\\times3+4\\times(-4)\\ne0$，C 的方向向量为 $(-3,4)$，$3\\times(-3)+4\\times4\\ne0$，D 的点 $(1,1)$ 不在直线上，均不合要求.故选 B.原 PDF 四个选项为 A：$x=1+3t$，$y=-1+4t$；B：$x=1-3t$，$y=-1+4t$；C：$x=1-4t$，$y=-1-3t$；D：$x=1+4t$，$y=-1-3t$（$t$ 为参数），其中只有 D 的方向向量 $(4,-3)$ 与直线平行且过点 $(1,-1)$，故按原 PDF 题面应选 D."
+          "solution": "按本页现稿：点 $(1,-1)$ 满足 $3\\times1+4\\times(-1)+1=0$，在直线 $3x+4y+1=0$ 上.方向向量 $(-4,3)$ 满足 $3\\times(-4)+4\\times3=0$，与直线平行，故 $x=1-4t$，$y=-1+3t$（$t$ 为参数）是该直线的一个参数方程.A 的方向向量为 $(3,-4)$，$3\\times3+4\\times(-4)\\ne0$，C 的方向向量为 $(-3,4)$，$3\\times(-3)+4\\times4\\ne0$，D 的点 $(1,1)$ 不在直线上，均不合要求.故选 B.原 PDF 四个选项为 A：$x=1+3t$，$y=-1+4t$；B：$x=1-3t$，$y=-1+4t$；C：$x=1-4t$，$y=-1-3t$；D：$x=1+4t$，$y=-1-3t$（$t$ 为参数），其中只有 D 的方向向量 $(4,-3)$ 与直线平行且过点 $(1,-1)$，故按原 PDF 题面应选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
-          "body": "<p>在棱长为 $10$ 的正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$P$ 为左侧面 $ADD_{1}A_{1}$ 上一点，已知点 $P$ 到 $A_{1}D_{1}$ 的距离为 $3$，$P$ 到 $AA_{1}$ 的距离为 $2$，则过点 $P$ 且与 $A_{1}C$ 平行的直线交正方体于 $P$，$Q$ 两点，则 $Q$ 点所在的平面是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>在棱长为 $10$ 的正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$P$ 为左侧面 $ADD_{1}A_{1}$ 上一点，已知点 $P$ 到 $A_{1}D_{1}$ 的距离为 $3$，$P$ 到 $AA_{1}$ 的距离为 $2$，则过点 $P$ 且与 $A_{1}C$ 平行的直线交正方体于 $P$，$Q$ 两点，则 $Q$ 点所在的平面是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/shanghai/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$AA_{1}B_{1}B$",
             "$BB_{1}C_{1}C$",
@@ -130,7 +287,9 @@
             "$ABCD$"
           ],
           "answer": "D",
-          "solution": "建立空间直角坐标系，设$A(0,0,0)$，$B(10,0,0)$，$C(10,10,0)$，$D(0,10,0)$，$A_{1}(0,0,10)$，$C_{1}(10,10,10)$.点$P$在侧面$ADD_{1}A_{1}$即平面$x=0$上，记$P(0,y,z)$.$P$到直线$AA_{1}$（即$x=0$，$y=0$）的距离为$|y|=2$，得$y=2$（$P$ 在面内，舍去 $y=-2$），到直线$A_{1}D_{1}$（即$x=0$，$z=10$）的距离为$|10-z|=3$，得$z=7$（舍去 $z=13$），故$P(0,2,7)$.$\\overrightarrow{A_1C}=(10,10,-10)$平行于$(1,1,-1)$，过$P$且平行于$A_{1}C$的直线为$(t,2+t,7-t)$，$t\\in\\mathbb{R}$.当$t=7$时得点$(7,9,0)$，$x$，$y\\in[0,10]$ 且 $z=0$，落在底面$ABCD$上；$t<0$ 时 $x<0$ 已在体外，$t>7$ 时 $z<0$ 已在体外，故另一交点$Q$即在此处.所以点$Q$所在的面是$ABCD$，按本页现稿为选项 D，故选 D；原 PDF 同一内容为选项 A."
+          "solution": "建立空间直角坐标系，设$A(0,0,0)$，$B(10,0,0)$，$C(10,10,0)$，$D(0,10,0)$，$A_{1}(0,0,10)$，$C_{1}(10,10,10)$.点$P$在侧面$ADD_{1}A_{1}$即平面$x=0$上，记$P(0,y,z)$.$P$到直线$AA_{1}$（即$x=0$，$y=0$）的距离为$|y|=2$，得$y=2$（$P$ 在面内，舍去 $y=-2$），到直线$A_{1}D_{1}$（即$x=0$，$z=10$）的距离为$|10-z|=3$，得$z=7$（舍去 $z=13$），故$P(0,2,7)$.$\\overrightarrow{A_1C}=(10,10,-10)$平行于$(1,1,-1)$，过$P$且平行于$A_{1}C$的直线为$(t,2+t,7-t)$，$t\\in\\mathbb{R}$.当$t=7$时得点$(7,9,0)$，$x$，$y\\in[0,10]$ 且 $z=0$，落在底面$ABCD$上；$t<0$ 时 $x<0$ 已在体外，$t>7$ 时 $z<0$ 已在体外，故另一交点$Q$即在此处.所以点$Q$所在的面是$ABCD$，按本页现稿为选项 D，故选 D；原 PDF 同一内容为选项 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
@@ -142,7 +301,9 @@
             "$q_{1}$，$q_{2}$ 都不是 $p$ 的充分条件"
           ],
           "answer": "C",
-          "solution": "若$q_{1}$成立，任取$a>0$（则$a\\ne0$），对任意$x\\in\\mathbb{R}$，由$x+a>x$及$f$单调递减得$f(x+a)<f(x)$，又$f(a)>0$，故$f(x)<f(x)+f(a)$，于是$f(x+a)<f(x)+f(a)$对一切$x$成立，即$q_{1}$是$p$的充分条件.若$q_{2}$成立，取$a=x_{0}<0$（则$a\\ne0$），对任意$x\\in\\mathbb{R}$，由$x+a<x$及$f$单调递增得$f(x+a)<f(x)$，又$f(a)=f(x_{0})=0$，故$f(x)+f(a)=f(x)>f(x+a)$对一切$x$成立，即$q_{2}$也是$p$的充分条件.因此$q_{1}$，$q_{2}$都是$p$的充分条件，按本页现稿为选项 C，故选 C；原 PDF 同一内容为选项 A."
+          "solution": "若$q_{1}$成立，任取$a>0$（则$a\\ne0$），对任意$x\\in\\mathbb{R}$，由$x+a>x$及$f$单调递减得$f(x+a)<f(x)$，又$f(a)>0$，故$f(x)<f(x)+f(a)$，于是$f(x+a)<f(x)+f(a)$对一切$x$成立，即$q_{1}$是$p$的充分条件.若$q_{2}$成立，取$a=x_{0}<0$（则$a\\ne0$），对任意$x\\in\\mathbb{R}$，由$x+a<x$及$f$单调递增得$f(x+a)<f(x)$，又$f(a)=f(x_{0})=0$，故$f(x)+f(a)=f(x)>f(x+a)$对一切$x$成立，即$q_{2}$也是$p$的充分条件.因此$q_{1}$，$q_{2}$都是$p$的充分条件，按本页现稿为选项 C，故选 C；原 PDF 同一内容为选项 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -151,38 +312,48 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>已知 $ABCD$ 是边长为 $1$ 的正方形，正方形 $ABCD$ 绕 $AB$ 旋转形成一个圆柱.</p><ol class=\"enumerate\"><li><p>求该圆柱的表面积；</p></li><li><p>正方形 $ABCD$ 绕 $AB$ 逆时针旋转 $\\frac{\\pi}{2}$ 至 $ABC_{1}D_{1}$，求线段 $CD_{1}$ 与平面 $ABCD$ 所成的角.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>已知 $ABCD$ 是边长为 $1$ 的正方形，正方形 $ABCD$ 绕 $AB$ 旋转形成一个圆柱.</p><ol class=\"enumerate\"><li><p>求该圆柱的表面积；</p></li><li><p>正方形 $ABCD$ 绕 $AB$ 逆时针旋转 $\\frac{\\pi}{2}$ 至 $ABC_{1}D_{1}$，求线段 $CD_{1}$ 与平面 $ABCD$ 所成的角.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2020/img/shanghai/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>正方形边长为 $1$，绕 $AB$ 旋转时以 $AB$ 为轴，点 $C$，$D$ 到轴的距离均为 $1$，故圆柱底面半径为 $1$，高为 $AB=1$，表面积 $S=2\\pi\\times1^{2}+2\\pi\\times1\\times1=4\\pi$.</p></li><li><p>记原正方形所在平面为 $\\alpha$，旋转轴 $AB$ 上的点不动，$D$ 在与轴垂直的平面内转过 $\\frac{\\pi}{2}$ 到 $D_{1}$，则 $AD_{1}=AD=1$，$AD_{1}\\perp AD$，且 $AD_{1}$ 仍与轴 $AB$ 垂直，由 $AB\\cap AD=A$ 得 $AD_{1}\\perp\\alpha$，即 $D_{1}$ 在 $\\alpha$ 上的投影为 $A$，于是 $AC$ 为 $CD_{1}$ 在 $\\alpha$ 上的投影，所求角为 $\\angle D_{1}CA$，由 $AC=\\sqrt{2}$，$AD_{1}=1$ 得 $CD_{1}=\\sqrt{AC^{2}+AD_{1}^{2}}=\\sqrt{3}$，$\\cos\\angle D_{1}CA=\\frac{AC}{CD_{1}}=\\frac{\\sqrt{6}}{3}$，故所成角的大小为 $\\arccos\\frac{\\sqrt{6}}{3}$.</p></li></ol>（原 PDF 作绕 $BC$ 旋转至 $A_{1}BCD_{1}$、求 $AD_{1}$ 与平面 $ABCD$ 所成角，对称地结论同为 $4\\pi$ 与 $\\arccos\\frac{\\sqrt{6}}{3}$.）"
+          "solution": "<ol class=\"enumerate\"><li><p>正方形边长为 $1$，绕 $AB$ 旋转时以 $AB$ 为轴，点 $C$，$D$ 到轴的距离均为 $1$，故圆柱底面半径为 $1$，高为 $AB=1$，表面积 $S=2\\pi\\times1^{2}+2\\pi\\times1\\times1=4\\pi$.</p></li><li><p>记原正方形所在平面为 $\\alpha$，旋转轴 $AB$ 上的点不动，$D$ 在与轴垂直的平面内转过 $\\frac{\\pi}{2}$ 到 $D_{1}$，则 $AD_{1}=AD=1$，$AD_{1}\\perp AD$，且 $AD_{1}$ 仍与轴 $AB$ 垂直，由 $AB\\cap AD=A$ 得 $AD_{1}\\perp\\alpha$，即 $D_{1}$ 在 $\\alpha$ 上的投影为 $A$，于是 $AC$ 为 $CD_{1}$ 在 $\\alpha$ 上的投影，所求角为 $\\angle D_{1}CA$，由 $AC=\\sqrt{2}$，$AD_{1}=1$ 得 $CD_{1}=\\sqrt{AC^{2}+AD_{1}^{2}}=\\sqrt{3}$，$\\cos\\angle D_{1}CA=\\frac{AC}{CD_{1}}=\\frac{\\sqrt{6}}{3}$，故所成角的大小为 $\\arccos\\frac{\\sqrt{6}}{3}$.</p></li></ol>（原 PDF 作绕 $BC$ 旋转至 $A_{1}BCD_{1}$、求 $AD_{1}$ 与平面 $ABCD$ 所成角，对称地结论同为 $4\\pi$ 与 $\\arccos\\frac{\\sqrt{6}}{3}$.）",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>已知函数 $f(x)=\\sin\\omega x$，$\\omega>0$.</p><ol class=\"enumerate\"><li><p>$f(x)$ 的周期是 $4\\pi$，求 $\\omega$，并求 $f(x)=\\frac{1}{2}$ 的解集；</p></li><li><p>已知 $\\omega=1$，$g(x)=f^{2}(x)+\\sqrt{3}\\,f(-x)f\\!\\left(\\frac{\\pi}{2}-x\\right)$，$x\\in\\left[0,\\frac{\\pi}{4}\\right]$，求 $g(x)$ 的值域.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由周期 $T=\\frac{2\\pi}{\\omega}=4\\pi$ 得 $\\omega=\\frac{1}{2}$，即 $f(x)=\\sin\\frac{x}{2}$，由 $\\sin\\frac{x}{2}=\\frac{1}{2}$ 得 $\\frac{x}{2}=2k\\pi+\\frac{\\pi}{6}$ 或 $\\frac{x}{2}=2k\\pi+\\frac{5\\pi}{6}$，$k\\in\\mathbb{Z}$，故解集为 $\\{4k\\pi+\\frac{\\pi}{3},4k\\pi+\\frac{5\\pi}{3}\\mid k\\in\\mathbb{Z}\\}$.</p></li><li><p>当 $\\omega=1$ 时 $f(x)=\\sin x$，故 $g(x)=\\sin^{2}x+\\sqrt{3}\\sin(-x)\\sin\\left(\\frac{\\pi}{2}-x\\right)=\\frac{1-\\cos2x}{2}-\\frac{\\sqrt{3}}{2}\\sin2x=\\frac{1}{2}-\\sin\\left(2x+\\frac{\\pi}{6}\\right)$，由 $x\\in\\left[0,\\frac{\\pi}{4}\\right]$ 得 $2x+\\frac{\\pi}{6}\\in\\left[\\frac{\\pi}{6},\\frac{2\\pi}{3}\\right]$，$\\sin\\left(2x+\\frac{\\pi}{6}\\right)\\in\\left[\\frac{1}{2},1\\right]$，故 $g(x)\\in\\left[-\\frac{1}{2},0\\right]$，即值域为 $\\left[-\\frac{1}{2},0\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由周期 $T=\\frac{2\\pi}{\\omega}=4\\pi$ 得 $\\omega=\\frac{1}{2}$，即 $f(x)=\\sin\\frac{x}{2}$，由 $\\sin\\frac{x}{2}=\\frac{1}{2}$ 得 $\\frac{x}{2}=2k\\pi+\\frac{\\pi}{6}$ 或 $\\frac{x}{2}=2k\\pi+\\frac{5\\pi}{6}$，$k\\in\\mathbb{Z}$，故解集为 $\\{4k\\pi+\\frac{\\pi}{3},4k\\pi+\\frac{5\\pi}{3}\\mid k\\in\\mathbb{Z}\\}$.</p></li><li><p>当 $\\omega=1$ 时 $f(x)=\\sin x$，故 $g(x)=\\sin^{2}x+\\sqrt{3}\\sin(-x)\\sin\\left(\\frac{\\pi}{2}-x\\right)=\\frac{1-\\cos2x}{2}-\\frac{\\sqrt{3}}{2}\\sin2x=\\frac{1}{2}-\\sin\\left(2x+\\frac{\\pi}{6}\\right)$，由 $x\\in\\left[0,\\frac{\\pi}{4}\\right]$ 得 $2x+\\frac{\\pi}{6}\\in\\left[\\frac{\\pi}{6},\\frac{2\\pi}{3}\\right]$，$\\sin\\left(2x+\\frac{\\pi}{6}\\right)\\in\\left[\\frac{1}{2},1\\right]$，故 $g(x)\\in\\left[-\\frac{1}{2},0\\right]$，即值域为 $\\left[-\\frac{1}{2},0\\right]$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>在研究某市交通情况时，道路密度是指该路段上一定时间内通过的车辆数除以时间，车辆密度是该路段一定时间内通过的车辆数除以该路段的长度，现定义交通流量 $v=f(x)=\\frac{q}{x}$，其中 $x$ 为道路密度，$q$ 为车辆密度，且</p><p>$f(x)=100-135\\left(\\frac{1}{3}\\right)^{\\frac{80}{x}}$（$0<x<40$），</p><p>$f(x)=-k(x-40)+85$（$40\\le x\\le80$）.</p><ol class=\"enumerate\"><li><p>若交通流量 $v>95$，求道路密度 $x$ 的取值范围；</p></li><li><p>已知道路密度 $x=80$ 时，测得交通流量 $v=50$，求车辆密度 $q$ 的最大值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>原 PDF 注明 $k>0$（本页现稿遗漏），以下按 $k>0$ 求解；实测 $k=\\frac{7}{8}>0$，一致.当 $40\\le x\\le80$ 时 $f(x)=-k(x-40)+85\\le85<95$，故 $v>95$ 只可能在 $0<x<40$ 内，由 $100-135\\left(\\frac{1}{3}\\right)^{\\frac{80}{x}}>95$ 得 $\\left(\\frac{1}{3}\\right)^{\\frac{80}{x}}<\\frac{1}{27}$，即 $\\frac{80}{x}>3$，亦即 $0<x<\\frac{80}{3}$，且 $\\frac{80}{3}<40$ 自动成立，故所求取值范围为 $\\left(0,\\frac{80}{3}\\right)$.</p></li><li><p>把 $x=80$，$v=50$ 代入 $v=-k(x-40)+85$ 得 $50=-40k+85$，解得 $k=\\frac{7}{8}$，于是</p>\n$$\nq=vx=  \\begin{cases}x\\left(100-135\\left(\\frac{1}{3}\\right)^{\\frac{80}{x}}\\right),&0<x<40,\\\\  \\left(-\\frac{7}{8}(x-40)+85\\right)x,&40\\le x\\le80.\\end{cases}\n$$\n<p>当 $0<x<40$ 时 $v<100$，故 $q<4000$，当 $40\\le x\\le80$ 时 $q=-\\frac{7}{8}x^{2}+120x$，对称轴 $x=\\frac{480}{7}\\in[40,80]$，最大值为 $\\frac{28800}{7}>4000$，故 $q$ 的最大值为 $\\frac{28800}{7}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>原 PDF 注明 $k>0$（本页现稿遗漏），以下按 $k>0$ 求解；实测 $k=\\frac{7}{8}>0$，一致.当 $40\\le x\\le80$ 时 $f(x)=-k(x-40)+85\\le85<95$，故 $v>95$ 只可能在 $0<x<40$ 内，由 $100-135\\left(\\frac{1}{3}\\right)^{\\frac{80}{x}}>95$ 得 $\\left(\\frac{1}{3}\\right)^{\\frac{80}{x}}<\\frac{1}{27}$，即 $\\frac{80}{x}>3$，亦即 $0<x<\\frac{80}{3}$，且 $\\frac{80}{3}<40$ 自动成立，故所求取值范围为 $\\left(0,\\frac{80}{3}\\right)$.</p></li><li><p>把 $x=80$，$v=50$ 代入 $v=-k(x-40)+85$ 得 $50=-40k+85$，解得 $k=\\frac{7}{8}$，于是</p>\n$$\nq=vx=  \\begin{cases}x\\left(100-135\\left(\\frac{1}{3}\\right)^{\\frac{80}{x}}\\right),&0<x<40,\\\\  \\left(-\\frac{7}{8}(x-40)+85\\right)x,&40\\le x\\le80.\\end{cases}\n$$\n<p>当 $0<x<40$ 时 $v<100$，故 $q<4000$，当 $40\\le x\\le80$ 时 $q=-\\frac{7}{8}x^{2}+120x$，对称轴 $x=\\frac{480}{7}\\in[40,80]$，最大值为 $\\frac{28800}{7}>4000$，故 $q$ 的最大值为 $\\frac{28800}{7}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知双曲线 $\\Gamma_{1}:\\frac{x^{2}}{4}-\\frac{y^{2}}{b^{2}}=1$ 与圆 $\\Gamma_{2}:x^{2}+y^{2}=4+b^{2}$（$b>0$）交于点 $A(x_{A},y_{A})$（第一象限），曲线 $\\Gamma$ 为 $\\Gamma_{1}$，$\\Gamma_{2}$ 上取满足 $x>|x_{A}|$ 的部分.</p><ol class=\"enumerate\"><li><p>若 $x_{A}=\\sqrt{6}$，求 $b$ 的值；</p></li><li><p>当 $b=\\sqrt{5}$，$\\Gamma_{2}$ 与 $x$ 轴交点记作点 $F_{1}$，$F_{2}$，$P$ 是曲线 $\\Gamma$ 上一点，且在第一象限，且 $|PF_{1}|=8$，求 $\\angle F_{1}PF_{2}$；</p></li><li><p>过点 $D\\left(0,\\frac{b^{2}}{2}+2\\right)$ 斜率为 $-\\frac{b}{2}$ 的直线 $l$ 与曲线 $\\Gamma$ 只有两个交点，记为 $M$，$N$，用 $b$ 表示 $\\overrightarrow{OM}\\cdot\\overrightarrow{ON}$，并求 $\\overrightarrow{OM}\\cdot\\overrightarrow{ON}$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>点 $A$ 在第一象限且同时满足 $\\frac{x_{A}^{2}}{4}-\\frac{y_{A}^{2}}{b^{2}}=1$，$x_{A}^{2}+y_{A}^{2}=4+b^{2}$，代入 $x_{A}=\\sqrt{6}$ 得 $\\frac{y_{A}^{2}}{b^{2}}=\\frac{1}{2}$，$y_{A}^{2}=b^{2}-2$，由 $y_{A}>0$，$b>0$ 解得 $y_{A}=\\sqrt{2}$，$b=2$.</p></li><li><p>当 $b=\\sqrt{5}$ 时 $\\Gamma$ 与 $x$ 轴的交点为 $F_{1}(-3,0)$，$F_{2}(3,0)$，恰为双曲线的两焦点（本页现稿称 $F_{1}$，$F_{2}$ 为 $\\Gamma_{2}$ 的焦点，原 PDF 称为 $\\Gamma$ 与 $x$ 轴交点，此处两者一致），由联立方程得 $y_{A}^{2}=\\frac{25}{9}$，$x_{A}^{2}=\\frac{56}{9}$，圆半径为 $3$，圆上任一点 $P$ 满足 $|PF_{1}|\\le|PO|+|OF_{1}|=6<8$，故满足 $|PF_{1}|=8$ 的第一象限点 $P$ 必在双曲线右支 $x\\ge x_{A}$ 部分上，由双曲线定义 $|PF_{1}|-|PF_{2}|=4$ 得 $|PF_{2}|=4$，又 $|F_{1}F_{2}|=6$，由余弦定理 $\\cos\\angle F_{1}PF_{2}=\\frac{64+16-36}{2\\times8\\times4}=\\frac{11}{16}$，故 $\\angle F_{1}PF_{2}=\\arccos\\frac{11}{16}$.</p></li><li><p>本页现稿过点记作 $D$（原 PDF 记作 $S$，坐标同为 $\\left(0,\\frac{b^{2}}{2}+2\\right)$），记 $t=\\frac{b^{2}+4}{2}$，直线 $l$ 为 $y=-\\frac{b}{2}x+t$，原点到 $l$ 的距离为 $\\frac{t}{\\sqrt{1+b^{2}/4}}=\\sqrt{4+b^{2}}$，恰为圆半径，故 $l$ 与圆相切，切点满足 $y=\\frac{2}{b}x$，解得切点 $M(b,2)$，$l$ 斜率与渐近线 $y=-\\frac{b}{2}x$ 平行，代入双曲线后二次项相消得关于 $x$ 的一次方程 $\\frac{t}{b}x-\\frac{t^{2}}{b^{2}}-1=0$，有唯一交点 $N$，横坐标 $x_{N}=\\frac{t}{b}+\\frac{b}{t}>0$，由 $OM\\perp l$ 及 $N$ 在 $l$ 上得 $\\overrightarrow{OM}\\cdot\\overrightarrow{ON}=|\\overrightarrow{OM}|^{2}=4+b^{2}$，联立 $\\Gamma_{1}$，$\\Gamma_{2}$ 得 $y_{A}^{2}=\\frac{b^{4}}{4+b^{2}}$，$M$ 与 $A$ 同在圆 $x^{2}+y^{2}=4+b^{2}$ 上，故 $b\\ge x_{A}$ 等价于 $y_{A}\\ge2$，等价于 $b^{4}\\ge4(4+b^{2})$，即 $b^{2}\\ge2+2\\sqrt{5}$，另记 $s=b^{2}$，则 $x_{N}^{2}-x_{A}^{2}=\\frac{(s^{2}+12s+16)^{2}-32s(s+4)(s+2)}{4s(s+4)^{2}}=\\frac{(s^{2}-4s-16)^{2}}{4s(s+4)^{2}}\\ge0$，故 $x_{N}\\ge x_{A}$ 恒成立，等号仅当 $s=2+2\\sqrt{5}$（另一根 $2-2\\sqrt{5}<0$ 因 $s>0$ 不取），此时 $M=N=A$，于是 $l$ 与 $\\Gamma$ 恰有两个不同公共点当且仅当 $b^{2}>2+2\\sqrt{5}$，此时 $\\overrightarrow{OM}\\cdot\\overrightarrow{ON}=4+b^{2}$，取值范围为 $(6+2\\sqrt{5},+\\infty)$.</p></li></ol>（原 PDF 记双曲线为 $C_{1}$、圆为 $C_{2}$，曲线 $\\Gamma$ 取 $|x|\\ge x_{A}$ 部分；等号情形 $M=N=A$ 为单点，两种取法下恰有两个不同公共点当且仅当 $b^{2}>2+2\\sqrt{5}$，结论一致.）"
+          "solution": "<ol class=\"enumerate\"><li><p>点 $A$ 在第一象限且同时满足 $\\frac{x_{A}^{2}}{4}-\\frac{y_{A}^{2}}{b^{2}}=1$，$x_{A}^{2}+y_{A}^{2}=4+b^{2}$，代入 $x_{A}=\\sqrt{6}$ 得 $\\frac{y_{A}^{2}}{b^{2}}=\\frac{1}{2}$，$y_{A}^{2}=b^{2}-2$，由 $y_{A}>0$，$b>0$ 解得 $y_{A}=\\sqrt{2}$，$b=2$.</p></li><li><p>当 $b=\\sqrt{5}$ 时 $\\Gamma$ 与 $x$ 轴的交点为 $F_{1}(-3,0)$，$F_{2}(3,0)$，恰为双曲线的两焦点（本页现稿称 $F_{1}$，$F_{2}$ 为 $\\Gamma_{2}$ 的焦点，原 PDF 称为 $\\Gamma$ 与 $x$ 轴交点，此处两者一致），由联立方程得 $y_{A}^{2}=\\frac{25}{9}$，$x_{A}^{2}=\\frac{56}{9}$，圆半径为 $3$，圆上任一点 $P$ 满足 $|PF_{1}|\\le|PO|+|OF_{1}|=6<8$，故满足 $|PF_{1}|=8$ 的第一象限点 $P$ 必在双曲线右支 $x\\ge x_{A}$ 部分上，由双曲线定义 $|PF_{1}|-|PF_{2}|=4$ 得 $|PF_{2}|=4$，又 $|F_{1}F_{2}|=6$，由余弦定理 $\\cos\\angle F_{1}PF_{2}=\\frac{64+16-36}{2\\times8\\times4}=\\frac{11}{16}$，故 $\\angle F_{1}PF_{2}=\\arccos\\frac{11}{16}$.</p></li><li><p>本页现稿过点记作 $D$（原 PDF 记作 $S$，坐标同为 $\\left(0,\\frac{b^{2}}{2}+2\\right)$），记 $t=\\frac{b^{2}+4}{2}$，直线 $l$ 为 $y=-\\frac{b}{2}x+t$，原点到 $l$ 的距离为 $\\frac{t}{\\sqrt{1+b^{2}/4}}=\\sqrt{4+b^{2}}$，恰为圆半径，故 $l$ 与圆相切，切点满足 $y=\\frac{2}{b}x$，解得切点 $M(b,2)$，$l$ 斜率与渐近线 $y=-\\frac{b}{2}x$ 平行，代入双曲线后二次项相消得关于 $x$ 的一次方程 $\\frac{t}{b}x-\\frac{t^{2}}{b^{2}}-1=0$，有唯一交点 $N$，横坐标 $x_{N}=\\frac{t}{b}+\\frac{b}{t}>0$，由 $OM\\perp l$ 及 $N$ 在 $l$ 上得 $\\overrightarrow{OM}\\cdot\\overrightarrow{ON}=|\\overrightarrow{OM}|^{2}=4+b^{2}$，联立 $\\Gamma_{1}$，$\\Gamma_{2}$ 得 $y_{A}^{2}=\\frac{b^{4}}{4+b^{2}}$，$M$ 与 $A$ 同在圆 $x^{2}+y^{2}=4+b^{2}$ 上，故 $b\\ge x_{A}$ 等价于 $y_{A}\\ge2$，等价于 $b^{4}\\ge4(4+b^{2})$，即 $b^{2}\\ge2+2\\sqrt{5}$，另记 $s=b^{2}$，则 $x_{N}^{2}-x_{A}^{2}=\\frac{(s^{2}+12s+16)^{2}-32s(s+4)(s+2)}{4s(s+4)^{2}}=\\frac{(s^{2}-4s-16)^{2}}{4s(s+4)^{2}}\\ge0$，故 $x_{N}\\ge x_{A}$ 恒成立，等号仅当 $s=2+2\\sqrt{5}$（另一根 $2-2\\sqrt{5}<0$ 因 $s>0$ 不取），此时 $M=N=A$，于是 $l$ 与 $\\Gamma$ 恰有两个不同公共点当且仅当 $b^{2}>2+2\\sqrt{5}$，此时 $\\overrightarrow{OM}\\cdot\\overrightarrow{ON}=4+b^{2}$，取值范围为 $(6+2\\sqrt{5},+\\infty)$.</p></li></ol>（原 PDF 记双曲线为 $C_{1}$、圆为 $C_{2}$，曲线 $\\Gamma$ 取 $|x|\\ge x_{A}$ 部分；等号情形 $M=N=A$ 为单点，两种取法下恰有两个不同公共点当且仅当 $b^{2}>2+2\\sqrt{5}$，结论一致.）",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知数列 $\\{a_{n}\\}$ 为有限数列，满足 $|a_{1}-a_{2}|\\le|a_{1}-a_{3}|\\le\\cdots\\le|a_{1}-a_{m}|$，则称 $\\{a_{n}\\}$ 满足性质 $P$.</p><ol class=\"enumerate\"><li><p>判断数列 $3$，$2$，$5$，$1$ 和 $4$，$3$，$2$，$5$，$1$ 是否具有性质 $P$，请说明理由；</p></li><li><p>若 $a_{1}=1$，公比为 $q$ 的等比数列，项数为 $10$，具有性质 $P$，求 $q$ 的取值范围；</p></li><li><p>若 $\\{a_{n}\\}$ 是 $1$，$2$，$3$，$\\ldots$，$m$ 的一个排列（$m\\ge4$），$\\{b_{n}\\}$ 符合 $b_{k}=a_{k+1}$（$k=1$，$2$，$\\ldots$，$m-1$），$\\{a_{n}\\}$，$\\{b_{n}\\}$ 都具有性质 $P$，求所有满足条件的数列 $\\{a_{n}\\}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>数列 $3$，$2$，$5$，$1$ 的各距离为 $|2-3|=1$，$|5-3|=2$，$|1-3|=2$，满足 $1\\le2\\le2$，具有性质 $P$，数列 $4$，$3$，$2$，$5$，$1$ 的各距离为 $1$，$2$，$1$，$3$，因 $|5-4|=1<2=|2-4|$，不具有性质 $P$.</p></li><li><p>记 $a_{n}=q^{n-1}$，$n=1$，$\\ldots$，$10$，性质 $P$ 即 $|q^{j}-1|\\ge|q^{j-1}-1|$ 对 $j=1$，$\\ldots$，$9$ 成立，平方相减得 $(q-1)q^{j-1}[q^{j-1}(q+1)-2]\\ge0$，$j=1$ 时恒成立，当 $q=0$ 时数列为 $1$，$0$，$\\ldots$，$0$，距离恒为 $1$，满足性质 $P$，当 $q\\ge1$ 时 $q^{j-1}(q+1)$ 随 $j$ 递增，只需 $j=1$ 处 $q+1-2\\ge0$，恒成立，当 $0<q\\le1$ 时 $q^{j-1}(q+1)$ 随 $j$ 递减，只需 $j=1$ 处 $q+1-2\\le0$，恒成立，故一切 $q\\ge0$ 满足性质 $P$，当 $-1\\le q<0$ 时 $j=2$ 处 $|q^{2}-1|=1-q^{2}$，$|q-1|=1-q$，$1-q^{2}\\ge1-q$ 等价于 $q(q-1)\\le0$，而此时 $q(q-1)>0$，不成立，当 $q<-1$ 时 $j$ 为奇数则 $q^{j-1}>0$，$q^{j-1}(q+1)-2<0$ 恒成立，$j$ 为偶数则需 $q^{j-1}(q+1)-2\\ge0$，左端等于 $|q|^{j-1}|q+1|$ 随偶数 $j$ 递增，只需 $j=2$ 处 $q(q+1)-2=(q+2)(q-1)\\ge0$，即 $q\\le-2$，充分性由单调性保证，故 $q$ 的取值范围为 $(-\\infty,-2]\\cup[0,+\\infty)$.</p></li><li><p>设 $a_{1}=p$（本页现稿 $b_{k}=a_{k+1}$；原 PDF 作 $b_{k}=a_{k-1}$，$k=1$ 时下标越界，以下按现稿求解），若 $p=1$，则距离集为 $\\{1,\\ldots,m-1\\}$ 各恰一次，非减即迫使 $a_{i}=i$，得 $1$，$2$，$\\ldots$，$m$，其 $b$ 为 $2$，$\\ldots$，$m$，距离 $1$，$\\ldots$，$m-2$ 非减，满足条件，若 $p=m$，同理距离集为 $\\{1,\\ldots,m-1\\}$，迫使 $a$ 为 $m$，$m-1$，$\\ldots$，$1$，其 $b$ 距离 $1$，$\\ldots$，$m-2$ 非减，满足条件，若 $p=2$，则距离多重集为 $\\{1,1,2,\\ldots,m-2\\}$，$a_{2}$，$a_{3}$ 必为 $1$，$3$ 的某种排列，其后必为 $4$，$\\ldots$，$m$，若 $a_{2}=3$，则 $b_{1}=3$，$|a_{3}-b_{1}|=2$，$|a_{4}-b_{1}|=1<2$，$b$ 不具性质 $P$，故只剩 $2$，$1$，$3$，$\\ldots$，$m$，其 $b$ 距离为 $2$，$3$，$\\ldots$，$m-1$，满足条件，若 $p=m-1$，对称地 $a_{2}$，$a_{3}$ 必为 $m$，$m-2$ 的某种排列，其后必为 $m-3$，$\\ldots$，$1$，若 $a_{2}=m-2$，则 $|a_{3}-b_{1}|=2$，$|a_{4}-b_{1}|=1<2$，$b$ 不具性质 $P$，故只剩 $m-1$，$m$，$m-2$，$\\ldots$，$1$，满足条件，若 $3\\le p\\le m-2$（$m=4$ 时此情形为空），则 $p\\pm1$，$p\\pm2$ 均在 $1$，$\\ldots$，$m$ 内，$a_{2}$，$a_{3}$ 必为 $p-1$，$p+1$ 的某种排列，$a_{4}$，$a_{5}$ 必为 $p-2$，$p+2$ 的某种排列，四种组合下 $b_{1}=a_{2}$ 的距离依次为：$2$，$1$；$2$，$3$，$1$；$2$，$3$，$1$；$2$，$1$，其中每组都有一次后项严格小于前项（依次为 $1<2$；$1<3$；$1<3$；$1<2$），故 $b$ 均不具性质 $P$，于是满足条件的数列恰为以上四种：$1$，$2$，$\\ldots$，$m$；$m$，$m-1$，$\\ldots$，$1$；$2$，$1$，$3$，$\\ldots$，$m$；$m-1$，$m$，$m-2$，$\\ldots$，$1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>数列 $3$，$2$，$5$，$1$ 的各距离为 $|2-3|=1$，$|5-3|=2$，$|1-3|=2$，满足 $1\\le2\\le2$，具有性质 $P$，数列 $4$，$3$，$2$，$5$，$1$ 的各距离为 $1$，$2$，$1$，$3$，因 $|5-4|=1<2=|2-4|$，不具有性质 $P$.</p></li><li><p>记 $a_{n}=q^{n-1}$，$n=1$，$\\ldots$，$10$，性质 $P$ 即 $|q^{j}-1|\\ge|q^{j-1}-1|$ 对 $j=1$，$\\ldots$，$9$ 成立，平方相减得 $(q-1)q^{j-1}[q^{j-1}(q+1)-2]\\ge0$，$j=1$ 时恒成立，当 $q=0$ 时数列为 $1$，$0$，$\\ldots$，$0$，距离恒为 $1$，满足性质 $P$，当 $q\\ge1$ 时 $q^{j-1}(q+1)$ 随 $j$ 递增，只需 $j=1$ 处 $q+1-2\\ge0$，恒成立，当 $0<q\\le1$ 时 $q^{j-1}(q+1)$ 随 $j$ 递减，只需 $j=1$ 处 $q+1-2\\le0$，恒成立，故一切 $q\\ge0$ 满足性质 $P$，当 $-1\\le q<0$ 时 $j=2$ 处 $|q^{2}-1|=1-q^{2}$，$|q-1|=1-q$，$1-q^{2}\\ge1-q$ 等价于 $q(q-1)\\le0$，而此时 $q(q-1)>0$，不成立，当 $q<-1$ 时 $j$ 为奇数则 $q^{j-1}>0$，$q^{j-1}(q+1)-2<0$ 恒成立，$j$ 为偶数则需 $q^{j-1}(q+1)-2\\ge0$，左端等于 $|q|^{j-1}|q+1|$ 随偶数 $j$ 递增，只需 $j=2$ 处 $q(q+1)-2=(q+2)(q-1)\\ge0$，即 $q\\le-2$，充分性由单调性保证，故 $q$ 的取值范围为 $(-\\infty,-2]\\cup[0,+\\infty)$.</p></li><li><p>设 $a_{1}=p$（本页现稿 $b_{k}=a_{k+1}$；原 PDF 作 $b_{k}=a_{k-1}$，$k=1$ 时下标越界，以下按现稿求解），若 $p=1$，则距离集为 $\\{1,\\ldots,m-1\\}$ 各恰一次，非减即迫使 $a_{i}=i$，得 $1$，$2$，$\\ldots$，$m$，其 $b$ 为 $2$，$\\ldots$，$m$，距离 $1$，$\\ldots$，$m-2$ 非减，满足条件，若 $p=m$，同理距离集为 $\\{1,\\ldots,m-1\\}$，迫使 $a$ 为 $m$，$m-1$，$\\ldots$，$1$，其 $b$ 距离 $1$，$\\ldots$，$m-2$ 非减，满足条件，若 $p=2$，则距离多重集为 $\\{1,1,2,\\ldots,m-2\\}$，$a_{2}$，$a_{3}$ 必为 $1$，$3$ 的某种排列，其后必为 $4$，$\\ldots$，$m$，若 $a_{2}=3$，则 $b_{1}=3$，$|a_{3}-b_{1}|=2$，$|a_{4}-b_{1}|=1<2$，$b$ 不具性质 $P$，故只剩 $2$，$1$，$3$，$\\ldots$，$m$，其 $b$ 距离为 $2$，$3$，$\\ldots$，$m-1$，满足条件，若 $p=m-1$，对称地 $a_{2}$，$a_{3}$ 必为 $m$，$m-2$ 的某种排列，其后必为 $m-3$，$\\ldots$，$1$，若 $a_{2}=m-2$，则 $|a_{3}-b_{1}|=2$，$|a_{4}-b_{1}|=1<2$，$b$ 不具性质 $P$，故只剩 $m-1$，$m$，$m-2$，$\\ldots$，$1$，满足条件，若 $3\\le p\\le m-2$（$m=4$ 时此情形为空），则 $p\\pm1$，$p\\pm2$ 均在 $1$，$\\ldots$，$m$ 内，$a_{2}$，$a_{3}$ 必为 $p-1$，$p+1$ 的某种排列，$a_{4}$，$a_{5}$ 必为 $p-2$，$p+2$ 的某种排列，四种组合下 $b_{1}=a_{2}$ 的距离依次为：$2$，$1$；$2$，$3$，$1$；$2$，$3$，$1$；$2$，$1$，其中每组都有一次后项严格小于前项（依次为 $1<2$；$1<3$；$1<3$；$1<2$），故 $b$ 均不具性质 $P$，于是满足条件的数列恰为以上四种：$1$，$2$，$\\ldots$，$m$；$m$，$m-1$，$\\ldots$，$1$；$2$，$1$，$3$，$\\ldots$，$m$；$m-1$，$m$，$m-2$，$\\ldots$，$1$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

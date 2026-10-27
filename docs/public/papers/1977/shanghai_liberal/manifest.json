@@ -1,8 +1,59 @@
 {
-  "title": "1977年普通高等学校招生全国统一考试",
-  "subtitle": "1977年上海卷（文）",
   "year": "1977",
   "slug": "shanghai_liberal",
+  "title": "1977年上海卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "解答题",
@@ -10,58 +61,74 @@
         {
           "num": 1,
           "body": "<ol class=\"enumerate\"><li><p>计算：$\\left[\\left(\\frac{1}{2}-\\frac{1}{3}\\right)\\left(-\\frac{3}{2}\\right)-\\left(-1+\\frac{1}{3}\\right)\\times\\left(-\\frac{3}{4}\\right)\\right]\\div\\frac{3}{2}$.</p></li><li><p>某生产队去年养猪 $96\\text{ 头}$，今年养猪 $120\\text{ 头}$，问今年比去年增加百分之几？计划明年比今年多养 $40\\%$，明年养猪几头？</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\frac{1}{2}-\\frac{1}{3}=\\frac{1}{6}$，所以 $\\left(\\frac{1}{2}-\\frac{1}{3}\\right)\\left(-\\frac{3}{2}\\right)=-\\frac{1}{4}$. 又因为 $-1+\\frac{1}{3}=-\\frac{2}{3}$，所以 $\\left(-1+\\frac{1}{3}\\right)\\left(-\\frac{3}{4}\\right)=\\frac{1}{2}$. 因此原式为</p>\n$$\n\\left(-\\frac{1}{4}-\\frac{1}{2}\\right)\\div\\frac{3}{2}=-\\frac{3}{4}\\times\\frac{2}{3}=-\\frac{1}{2}\n$$\n</li><li><p>今年比去年增加的数量为 $120-96=24\\text{ 头}$，所以增加的百分数为</p><p>$\\frac{24}{96}\\times100\\%=25\\%$.</p><p>明年比今年多养 $40\\%$，因此明年养猪</p><p>$120\\left(1+40\\%\\right)=120\\times1.4=168\\text{ 头}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\frac{1}{2}-\\frac{1}{3}=\\frac{1}{6}$，所以 $\\left(\\frac{1}{2}-\\frac{1}{3}\\right)\\left(-\\frac{3}{2}\\right)=-\\frac{1}{4}$. 又因为 $-1+\\frac{1}{3}=-\\frac{2}{3}$，所以 $\\left(-1+\\frac{1}{3}\\right)\\left(-\\frac{3}{4}\\right)=\\frac{1}{2}$. 因此原式为</p>\n$$\n\\left(-\\frac{1}{4}-\\frac{1}{2}\\right)\\div\\frac{3}{2}=-\\frac{3}{4}\\times\\frac{2}{3}=-\\frac{1}{2}\n$$\n</li><li><p>今年比去年增加的数量为 $120-96=24\\text{ 头}$，所以增加的百分数为</p><p>$\\frac{24}{96}\\times100\\%=25\\%$.</p><p>明年比今年多养 $40\\%$，因此明年养猪</p><p>$120\\left(1+40\\%\\right)=120\\times1.4=168\\text{ 头}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
-          "body": "<p>在 $\\triangle ABC$ 中，$\\angle C$ 的平分线交 $AB$ 于 $D$，过 $D$ 作 $BC$ 的平行线交 $AC$ 于 $E$，已知 $BC=a$，$AC=b$，求 $DE$ 的长.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q2_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>在 $\\triangle ABC$ 中，$\\angle C$ 的平分线交 $AB$ 于 $D$，过 $D$ 作 $BC$ 的平行线交 $AC$ 于 $E$，已知 $BC=a$，$AC=b$，求 $DE$ 的长.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/shanghai_liberal/q2_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>由角平分线定理，</p><p>$\\dfrac{AD}{DB}=\\dfrac{AC}{CB}=\\dfrac{b}{a}$，从而</p><p>$\\dfrac{AD}{AB}=\\dfrac{b}{a+b}$，因为 $AB=AD+DB$.</p><p>又因为 $DE\\parallel BC$，所以 $\\triangle ADE\\sim\\triangle ABC$，从而</p><p>$\\dfrac{DE}{BC}=\\dfrac{AD}{AB}=\\dfrac{b}{a+b}$.</p><p>代入 $BC=a$，得 $DE=\\dfrac{ab}{a+b}$.</p>"
+          "solution": "<p>由角平分线定理，</p><p>$\\dfrac{AD}{DB}=\\dfrac{AC}{CB}=\\dfrac{b}{a}$，从而</p><p>$\\dfrac{AD}{AB}=\\dfrac{b}{a+b}$，因为 $AB=AD+DB$.</p><p>又因为 $DE\\parallel BC$，所以 $\\triangle ADE\\sim\\triangle ABC$，从而</p><p>$\\dfrac{DE}{BC}=\\dfrac{AD}{AB}=\\dfrac{b}{a+b}$.</p><p>代入 $BC=a$，得 $DE=\\dfrac{ab}{a+b}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "<ol class=\"enumerate\"><li><p>化简：$\\left(\\frac{a}{a+b}-\\frac{a^{2}}{a^{2}+2ab+b^{2}}\\right)\\div\\left(\\frac{a}{a+b}-\\frac{a^{2}}{a^{2}-b^{2}}\\right)$.</p></li><li><p>解不等式：$\\frac{2x-1}{3}>\\frac{3x-1}{2}-4$.</p></li><li><p>解方程：$\\frac{4}{x+3}-\\frac{1}{x-3}=1-\\frac{2x}{x^{2}-9}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>原式有意义需满足 $a+b\\ne0$、$a^{2}-b^{2}\\ne0$，且除数不为零；由于 $a^{2}-b^{2}=(a+b)(a-b)$，这些条件等价于 $a+b\\ne0$、$a-b\\ne0$，并且 $ab\\ne0$. 先化简被除数：</p>\n$$\n\\frac{a}{a+b}-\\frac{a^{2}}{(a+b)^{2}}=\\frac{a(a+b)-a^{2}}{(a+b)^{2}}=\\frac{ab}{(a+b)^{2}}\n$$\n<p>再化简除数：</p>\n$$\n\\frac{a}{a+b}-\\frac{a^{2}}{a^{2}-b^{2}}=\\frac{a(a-b)-a^{2}}{(a+b)(a-b)}=-\\frac{ab}{(a+b)(a-b)}\n$$\n<p>因此原式为</p>\n$$\n\\frac{ab}{(a+b)^{2}}\\div\\left(-\\frac{ab}{(a+b)(a-b)}\\right)  =-\\frac{a-b}{a+b}=\\frac{b-a}{a+b}\n$$\n</li><li><p>不等式两边同乘正数 $6$，得</p><p>$2(2x-1)>3(3x-1)-24$，即 $4x-2>9x-27$.</p><p>移项得 $25>5x$，所以 $x<5$.</p></li><li><p>原方程有意义的条件是 $x\\ne3$ 且 $x\\ne-3$.</p><p>因为 $x^{2}-9=(x+3)(x-3)$，原方程左边为</p>\n$$\n\\frac{4(x-3)-(x+3)}{x^{2}-9}=\\frac{3x-15}{x^{2}-9}\n$$\n<p>右边为</p>\n$$\n1-\\frac{2x}{x^{2}-9}=\\frac{x^{2}-2x-9}{x^{2}-9}\n$$\n<p>分母不为零，所以比较分子，得</p><p>$3x-15=x^{2}-2x-9$，即</p><p>$x^{2}-5x+6=0$，于是 $(x-2)(x-3)=0$.</p><p>所以 $x=2$ 或 $x=3$，但 $x=3$ 不符合原方程的定义域；代回 $x=2$ 验算，原方程左边为</p><p>$\\dfrac{4}{5}-\\dfrac{1}{-1}=\\dfrac{9}{5}$，右边为</p><p>$1-\\dfrac{4}{-5}=\\dfrac{9}{5}$，等式成立，故 $x=2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>原式有意义需满足 $a+b\\ne0$、$a^{2}-b^{2}\\ne0$，且除数不为零；由于 $a^{2}-b^{2}=(a+b)(a-b)$，这些条件等价于 $a+b\\ne0$、$a-b\\ne0$，并且 $ab\\ne0$. 先化简被除数：</p>\n$$\n\\frac{a}{a+b}-\\frac{a^{2}}{(a+b)^{2}}=\\frac{a(a+b)-a^{2}}{(a+b)^{2}}=\\frac{ab}{(a+b)^{2}}\n$$\n<p>再化简除数：</p>\n$$\n\\frac{a}{a+b}-\\frac{a^{2}}{a^{2}-b^{2}}=\\frac{a(a-b)-a^{2}}{(a+b)(a-b)}=-\\frac{ab}{(a+b)(a-b)}\n$$\n<p>因此原式为</p>\n$$\n\\frac{ab}{(a+b)^{2}}\\div\\left(-\\frac{ab}{(a+b)(a-b)}\\right)  =-\\frac{a-b}{a+b}=\\frac{b-a}{a+b}\n$$\n</li><li><p>不等式两边同乘正数 $6$，得</p><p>$2(2x-1)>3(3x-1)-24$，即 $4x-2>9x-27$.</p><p>移项得 $25>5x$，所以 $x<5$.</p></li><li><p>原方程有意义的条件是 $x\\ne3$ 且 $x\\ne-3$.</p><p>因为 $x^{2}-9=(x+3)(x-3)$，原方程左边为</p>\n$$\n\\frac{4(x-3)-(x+3)}{x^{2}-9}=\\frac{3x-15}{x^{2}-9}\n$$\n<p>右边为</p>\n$$\n1-\\frac{2x}{x^{2}-9}=\\frac{x^{2}-2x-9}{x^{2}-9}\n$$\n<p>分母不为零，所以比较分子，得</p><p>$3x-15=x^{2}-2x-9$，即</p><p>$x^{2}-5x+6=0$，于是 $(x-2)(x-3)=0$.</p><p>所以 $x=2$ 或 $x=3$，但 $x=3$ 不符合原方程的定义域；代回 $x=2$ 验算，原方程左边为</p><p>$\\dfrac{4}{5}-\\dfrac{1}{-1}=\\dfrac{9}{5}$，右边为</p><p>$1-\\dfrac{4}{-5}=\\dfrac{9}{5}$，等式成立，故 $x=2$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "<ol class=\"enumerate\"><li><p>计算：$\\frac{\\sin 225^{\\circ}+\\tan 330^{\\circ}}{\\cos(-120^{\\circ})}$.</p></li><li><p>求证：$\\tan x+\\cot x=\\frac{2}{\\sin 2x}$.</p></li><li><p>$\\triangle ABC$ 中，$\\angle A=45^{\\circ}$，$\\angle B=75^{\\circ}$，$AB=12$，求 $BC$ 的长.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$\\sin225^{\\circ}=-\\frac{\\sqrt{2}}{2}$，$\\tan330^{\\circ}=-\\frac{\\sqrt{3}}{3}$，且</p><p>$\\cos(-120^{\\circ})=\\cos120^{\\circ}=-\\frac{1}{2}$.</p><p>因此原式为</p>\n$$\n\\frac{-\\frac{\\sqrt{2}}{2}-\\frac{\\sqrt{3}}{3}}{-\\frac{1}{2}}=\\sqrt{2}+\\frac{2\\sqrt{3}}{3}=\\frac{3\\sqrt{2}+2\\sqrt{3}}{3}\n$$\n</li><li><p>在等式两边有意义时，$\\sin x\\ne0$ 且 $\\cos x\\ne0$. 此时</p>\n$$\n\\tan x+\\cot x  =\\frac{\\sin x}{\\cos x}+\\frac{\\cos x}{\\sin x}=\\frac{\\sin^{2}x+\\cos^{2}x}{\\sin x\\cos x}=\\frac{1}{\\sin x\\cos x}=\\frac{2}{2\\sin x\\cos x}=\\frac{2}{\\sin2x}\n$$\n<p>故等式成立.</p></li><li><p>三角形的第三个内角为 $\\angle C=180^{\\circ}-45^{\\circ}-75^{\\circ}=60^{\\circ}$.</p><p>由正弦定理，</p><p>$\\dfrac{BC}{\\sin45^\\circ}=\\dfrac{AB}{\\sin60^\\circ}$，所以</p>\n$$\nBC=12\\times\\frac{\\sin45^{\\circ}}{\\sin60^{\\circ}}=12\\times\\frac{\\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{3}}{2}}=4\\sqrt{6}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$\\sin225^{\\circ}=-\\frac{\\sqrt{2}}{2}$，$\\tan330^{\\circ}=-\\frac{\\sqrt{3}}{3}$，且</p><p>$\\cos(-120^{\\circ})=\\cos120^{\\circ}=-\\frac{1}{2}$.</p><p>因此原式为</p>\n$$\n\\frac{-\\frac{\\sqrt{2}}{2}-\\frac{\\sqrt{3}}{3}}{-\\frac{1}{2}}=\\sqrt{2}+\\frac{2\\sqrt{3}}{3}=\\frac{3\\sqrt{2}+2\\sqrt{3}}{3}\n$$\n</li><li><p>在等式两边有意义时，$\\sin x\\ne0$ 且 $\\cos x\\ne0$. 此时</p>\n$$\n\\tan x+\\cot x  =\\frac{\\sin x}{\\cos x}+\\frac{\\cos x}{\\sin x}=\\frac{\\sin^{2}x+\\cos^{2}x}{\\sin x\\cos x}=\\frac{1}{\\sin x\\cos x}=\\frac{2}{2\\sin x\\cos x}=\\frac{2}{\\sin2x}\n$$\n<p>故等式成立.</p></li><li><p>三角形的第三个内角为 $\\angle C=180^{\\circ}-45^{\\circ}-75^{\\circ}=60^{\\circ}$.</p><p>由正弦定理，</p><p>$\\dfrac{BC}{\\sin45^\\circ}=\\dfrac{AB}{\\sin60^\\circ}$，所以</p>\n$$\nBC=12\\times\\frac{\\sin45^{\\circ}}{\\sin60^{\\circ}}=12\\times\\frac{\\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{3}}{2}}=4\\sqrt{6}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
-          "body": "<p>六角螺帽尺寸如图，求它的体积（精确的 $1 \\mathrm{~mm}^{3}$）.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
-          "choices": null,
+          "body": "<p>六角螺帽尺寸如图，求它的体积（精确的 $1 \\mathrm{~mm}^{3}$）.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/shanghai_liberal/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>由图知，正六边形的边长为 $20 \\mathrm{~mm}$，圆孔的直径为 $20 \\mathrm{~mm}$，螺帽的高为 $10 \\mathrm{~mm}$.</p><p>正六边形可分成六个边长为 $20 \\mathrm{~mm}$ 的正三角形，所以其底面积为</p>\n$$\nS_{1}=6\\times\\frac{\\sqrt{3}}{4}\\times20^{2}=600\\sqrt{3}\\mathrm{~mm}^{2}\n$$\n<p>圆孔半径为 $10 \\mathrm{~mm}$，其面积为</p>\n$$\nS_{2}=\\pi\\times10^{2}=100\\pi\\mathrm{~mm}^{2}\n$$\n<p>因此螺帽的体积为</p>\n$$\nV=(S_{1}-S_{2})\\times10  =(600\\sqrt{3}-100\\pi)\\times10  =(6\\sqrt{3}-\\pi)\\times10^{3}\\mathrm{~mm}^{3}\n$$\n<p>取 $\\sqrt{3}\\approx1.7320508$，$\\pi\\approx3.1415926$，得</p><p>$V\\approx7250.712\\mathrm{~mm}^{3}$，所以精确到 $1 \\mathrm{~mm}^{3}$ 为 $7251 \\mathrm{~mm}^{3}$.</p>"
+          "solution": "<p>由图知，正六边形的边长为 $20 \\mathrm{~mm}$，圆孔的直径为 $20 \\mathrm{~mm}$，螺帽的高为 $10 \\mathrm{~mm}$.</p><p>正六边形可分成六个边长为 $20 \\mathrm{~mm}$ 的正三角形，所以其底面积为</p>\n$$\nS_{1}=6\\times\\frac{\\sqrt{3}}{4}\\times20^{2}=600\\sqrt{3}\\mathrm{~mm}^{2}\n$$\n<p>圆孔半径为 $10 \\mathrm{~mm}$，其面积为</p>\n$$\nS_{2}=\\pi\\times10^{2}=100\\pi\\mathrm{~mm}^{2}\n$$\n<p>因此螺帽的体积为</p>\n$$\nV=(S_{1}-S_{2})\\times10  =(600\\sqrt{3}-100\\pi)\\times10  =(6\\sqrt{3}-\\pi)\\times10^{3}\\mathrm{~mm}^{3}\n$$\n<p>取 $\\sqrt{3}\\approx1.7320508$，$\\pi\\approx3.1415926$，得</p><p>$V\\approx7250.712\\mathrm{~mm}^{3}$，所以精确到 $1 \\mathrm{~mm}^{3}$ 为 $7251 \\mathrm{~mm}^{3}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "求直线 $x+\\sqrt{3}y+3\\sqrt{3}=0$ 的斜率和倾角，并画出它的图形.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>将直线方程化为斜截式，得</p><p>$y=-\\dfrac{\\sqrt{3}}{3}x-3$，所以斜率为 $k=-\\dfrac{\\sqrt{3}}{3}$.</p><p>设倾角为 $\\theta$，则 $0^{\\circ}\\leq\\theta<180^{\\circ}$ 且 $\\tan\\theta=k$.</p><p>因为 $\\tan150^{\\circ}=-\\dfrac{\\sqrt{3}}{3}$，所以倾角为 $\\theta=150^{\\circ}$.</p><p>当 $y=0$ 时，得 $x=-3\\sqrt{3}$，直线过点 $(-3\\sqrt{3},0)$；当 $x=0$ 时，得 $y=-3$，直线过点 $(0,-3)$. 在坐标系中描出这两个点并作直线，即得所求图形.</p>"
+          "solution": "<p>将直线方程化为斜截式，得</p><p>$y=-\\dfrac{\\sqrt{3}}{3}x-3$，所以斜率为 $k=-\\dfrac{\\sqrt{3}}{3}$.</p><p>设倾角为 $\\theta$，则 $0^{\\circ}\\leq\\theta<180^{\\circ}$ 且 $\\tan\\theta=k$.</p><p>因为 $\\tan150^{\\circ}=-\\dfrac{\\sqrt{3}}{3}$，所以倾角为 $\\theta=150^{\\circ}$.</p><p>当 $y=0$ 时，得 $x=-3\\sqrt{3}$，直线过点 $(-3\\sqrt{3},0)$；当 $x=0$ 时，得 $y=-3$，直线过点 $(0,-3)$. 在坐标系中描出这两个点并作直线，即得所求图形.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "当 $x$ 为何值时，函数 $y=x^{2}-8x+5$ 的值最小，并求出这个最小值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>配方得</p>\n$$\ny=x^{2}-8x+5=(x^{2}-8x+16)-11=(x-4)^{2}-11\n$$\n<p>因为 $(x-4)^{2}\\geq0$，所以当且仅当 $x=4$ 时，$y$ 取得最小值，最小值为 $-11$.</p>"
+          "solution": "<p>配方得</p>\n$$\ny=x^{2}-8x+5=(x^{2}-8x+16)-11=(x-4)^{2}-11\n$$\n<p>因为 $(x-4)^{2}\\geq0$，所以当且仅当 $x=4$ 时，$y$ 取得最小值，最小值为 $-11$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "将浓度为 $96\\%$ 和 $36\\%$ 的甲、乙两种硫酸配制成浓度为 $70\\%$ 的硫酸 $600\\text{ 升}$，问应从甲、乙两种硫酸中各取多少升.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设应取甲种硫酸 $x\\text{ 升}$，乙种硫酸 $y\\text{ 升}$，则</p>\n$$\nx+y=600\n$$\n<p>由纯硫酸的量守恒，得 $0.96x+0.36y=0.70\\times600=420$. 由 $y=600-x$，代入上式得</p><p>$0.96x+0.36(600-x)=420$，即</p><p>$0.60x=204$，所以 $x=340$.</p><p>于是 $y=600-340=260$.</p><p>故应取甲种硫酸 $340\\text{ 升}$，乙种硫酸 $260\\text{ 升}$.</p>"
+          "solution": "<p>设应取甲种硫酸 $x\\text{ 升}$，乙种硫酸 $y\\text{ 升}$，则</p>\n$$\nx+y=600\n$$\n<p>由纯硫酸的量守恒，得 $0.96x+0.36y=0.70\\times600=420$. 由 $y=600-x$，代入上式得</p><p>$0.96x+0.36(600-x)=420$，即</p><p>$0.60x=204$，所以 $x=340$.</p><p>于是 $y=600-340=260$.</p><p>故应取甲种硫酸 $340\\text{ 升}$，乙种硫酸 $260\\text{ 升}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

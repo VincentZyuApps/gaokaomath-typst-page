@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,169 +11,217 @@
 #part-header("单选题")
 
 #problem(1)[
-设函数 $y=sqrt(4-x^2)$ 的定义域为 $A$，函数 $y= ln (1-x)$ 的定义域为 $B$，则 $A inter B=$（ ）
-  #choices([$(1,2)$], [$(1,2]$], [$(-2,1)$], [$[-2,1)$], cols: 4)
+设函数 #mi(`y=\sqrt{4-x^{2}}`) 的定义域为 #mi(`A`)，函数 #mi(`y=\ln(1-x)`) 的定义域为 #mi(`B`)，则 #mi(`A\cap B=`)（ ）
+  #choices([#mi(`(1,2)`)], [#mi(`(1,2]`)], [#mi(`\left(-2,1\right)`)], [#mi(`\left[-2,1\right)`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由根式有意义得 $4-x^2\g e q 0$，所以函数 $y=sqrt(4-x^2)$ 的定义域为 $A=[-2,2]$. 由对数真数为正得 $1-x>0$，所以函数 $y= ln (1-x)$ 的定义域为 $B=(- oo ,1)$. 因此 $A inter B=[-2,1)$，故选 D.
+由根式有意义得 #mi(`4-x^{2}\geq 0`)，所以函数 #mi(`y=\sqrt{4-x^{2}}`) 的定义域为 #mi(`A=[-2,2]`). 由对数真数为正得 #mi(`1-x>0`)，所以函数 #mi(`y=\ln(1-x)`) 的定义域为 #mi(`B=(-\infty,1)`). 因此 #mi(`A\cap B=[-2,1)`)，故选 D.
 ]
 
 #problem(2)[
-已知 $a in RR$，$i$ 是虚数单位，若 $z=a+sqrt(3) i$，$z dot \b a r z=4$，则 $a=$（ ）
-  #choices([$1$ 或 $-1$], [$sqrt(7)$ 或 $-sqrt(7)$], [$-sqrt(3)$], [$sqrt(3)$], cols: 2)
+已知 #mi(`a\in\mathbb{R}`)，#mi(`\mathrm{i}`) 是虚数单位，若 #mi(`z=a+\sqrt{3}\,\mathrm{i}`)，#mi(`z\cdot\bar z=4`)，则 #mi(`a=`)（ ）
+  #choices([#mi(`1`) 或 #mi(`-1`)], [#mi(`\sqrt{7}`) 或 #mi(`-\sqrt{7}`)], [#mi(`-\sqrt{3}`)], [#mi(`\sqrt{3}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-因为 $z=a+sqrt(3) i$，所以 $\b a r z=a-sqrt(3) i$，从而
+因为 #mi(`z=a+\sqrt{3}\,\mathrm{i}`)，所以 #mi(`\bar z=a-\sqrt{3}\,\mathrm{i}`)，从而
 
-$ z dot \b a r z=(a+sqrt(3) i )(a-sqrt(3) i )=a^2+3 $
 
-由 $z dot \b a r z=4$ 得 $a^2+3=4$，即 $a^2=1$，所以 $a=1$ 或 $a=-1$，故选 A.
+#align(center)[#mitex(`
+z\cdot\bar z=(a+\sqrt{3}\,\mathrm{i})(a-\sqrt{3}\,\mathrm{i})=a^{2}+3
+`)]
+
+
+由 #mi(`z\cdot\bar z=4`) 得 #mi(`a^{2}+3=4`)，即 #mi(`a^{2}=1`)，所以 #mi(`a=1`) 或 #mi(`a=-1`)，故选 A.
 ]
 
 #problem(3)[
-已知命题 $p: forall x>0$，$ln (x+1)>0$；命题 $q$：若 $a>b$，则 $a^2>b^2$，下列命题为真命题的是（ ）
-  #choices([$p\l a n d q$], [$p\l a n d \l n o t q$], [$\l n o t p\l a n d q$], [$\l n o t p\l a n d \l n o t q$], cols: 1)
+已知命题 #mi(`p:\forall x>0`)，#mi(`\ln(x+1)>0`)；命题 #mi(`q`)：若 #mi(`a>b`)，则 #mi(`a^{2}>b^{2}`)，下列命题为真命题的是（ ）
+  #choices([#mi(`p\land q`)], [#mi(`p\land \lnot q`)], [#mi(`\lnot p\land q`)], [#mi(`\lnot p\land \lnot q`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-当 $x>0$ 时，$x+1>1$，所以 $ln (x+1)>0$，命题 $p$ 为真. 命题 $q$ 不是真命题，例如取 $a=0$，$b=-1$，则 $a>b$，但 $a^2=0<1=b^2$，所以 $q$ 为假. 因此 $p\l a n d\l n o t q$ 为真，故选 B.
+当 #mi(`x>0`) 时，#mi(`x+1>1`)，所以 #mi(`\ln(x+1)>0`)，命题 #mi(`p`) 为真. 命题 #mi(`q`) 不是真命题，例如取 #mi(`a=0`)，#mi(`b=-1`)，则 #mi(`a>b`)，但 #mi(`a^{2}=0<1=b^{2}`)，所以 #mi(`q`) 为假. 因此 #mi(`p\land\lnot q`) 为真，故选 B.
 ]
 
 #problem(4)[
-已知 $x$，$y$ 满足约束条件
-$\b e g i n{c a s e s} x-y+3 <= 0 ,\\ 3 x+y+5 <= 0 ,\\ x+3 >= 0 , \e n d{c a s e s}$，
-则 $z=x+2 y$ 的最大值是（ ）
-  #choices([$0$], [$2$], [$5$], [$6$], cols: 4)
+已知 #mi(`x`)，#mi(`y`) 满足约束条件
+
+#mi(`\begin{cases}x-y+3\le 0,\\  3x+y+5\le 0,\\  x+3\ge 0,\end{cases}`)，
+
+则 #mi(`z=x+2y`) 的最大值是（ ）
+  #choices([#mi(`0`)], [#mi(`2`)], [#mi(`5`)], [#mi(`6`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
 约束条件可化为
-$y\g e q x+3$，$y\l e q-3 x-5$，$x\g e q-3$.
-可行域的顶点由边界直线 $y=x+3$、$y=-3 x-5$ 和 $x=-3$ 确定. 前两条直线交于
-$x+3=-3 x-5\L o n g r i g h t a r r o w x=-2$，$y=1$.
-另外两点为 $(-3,0)$ 和 $(-3,4)$. 目标函数 $z=x+2 y$ 在这些顶点处的值分别为 $-3$、$0$、$5$，所以最大值为 $5$，故选 C.
+
+#mi(`y\geq x+3`)，#mi(`y\leq-3x-5`)，#mi(`x\geq-3`).
+
+可行域的顶点由边界直线 #mi(`y=x+3`)、#mi(`y=-3x-5`) 和 #mi(`x=-3`) 确定. 前两条直线交于
+
+#mi(`x+3=-3x-5\Longrightarrow x=-2`)，#mi(`y=1`).
+
+另外两点为 #mi(`(-3,0)`) 和 #mi(`(-3,4)`). 目标函数 #mi(`z=x+2y`) 在这些顶点处的值分别为 #mi(`-3`)、#mi(`0`)、#mi(`5`)，所以最大值为 #mi(`5`)，故选 C.
 ]
 
 #problem(5)[
-为了研究某班学生的脚长 $x$（单位：厘米）和身高 $y$（单位：厘米）的关系，从该班随机抽取 10 名学生，根据测量数据的散点图可以看出 $y$ 与 $x$ 之间有线性相关关系，设其回归直线方程为 $\h a t y=\h a t b x+\h a t a$，已知 $sum_(i=1)^(10)x_i=225$，$sum_(i=1)^(10)y_i=1600$，$\h a t b=4$，该班某学生的脚长为 24，据此估计其身高为（ ）
-  #choices([$160$], [$163$], [$166$], [$170$], cols: 4)
+为了研究某班学生的脚长 #mi(`x`)（单位：厘米）和身高 #mi(`y`)（单位：厘米）的关系，从该班随机抽取 10 名学生，根据测量数据的散点图可以看出 #mi(`y`) 与 #mi(`x`) 之间有线性相关关系，设其回归直线方程为 #mi(`\hat y=\hat b x+\hat a`)，已知 #mi(`\sum_{i=1}^{10}x_{i}=225`)，#mi(`\sum_{i=1}^{10}y_{i}=1600`)，#mi(`\hat b=4`)，该班某学生的脚长为 24，据此估计其身高为（ ）
+  #choices([#mi(`160`)], [#mi(`163`)], [#mi(`166`)], [#mi(`170`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-回归直线必经过样本中心点 $(\b a r x,\b a r y)$. 由题意
-$\b a r x=(225)/(10)=22.5$，$\b a r y=(1600)/(10)=160$.
-又 $\h a t y=4 x+\h a t a$，代入样本中心点得 $160=4 times 22 .5+\h a t a$，所以 $\h a t a=70$. 当脚长 $x=24$ 时，估计身高为 $\h a t y=4 times 24 +70=166$，故选 C.
+回归直线必经过样本中心点 #mi(`(\bar x,\bar y)`). 由题意
+
+#mi(`\bar x=\frac{225}{10}=22.5`)，#mi(`\bar y=\frac{1600}{10}=160`).
+
+又 #mi(`\hat y=4x+\hat a`)，代入样本中心点得 #mi(`160=4\times22.5+\hat a`)，所以 #mi(`\hat a=70`). 当脚长 #mi(`x=24`) 时，估计身高为 #mi(`\hat y=4\times24+70=166`)，故选 C.
 ]
 
 #problem(6)[
-执行两次如图所示的程序框图，若第一次输入的 $x$ 值为 7，第二次输入的 $x$ 值为 9，则第一次，第二次输出的 $a$ 值分别为（ ）
+执行两次如图所示的程序框图，若第一次输入的 #mi(`x`) 值为 7，第二次输入的 #mi(`x`) 值为 9，则第一次，第二次输出的 #mi(`a`) 值分别为（ ）
 
 
-#align(center)[#image("/papers/2017/img/shandong_science/q6_fig1.png", width: 42%)]
-  #choices([$0,0$], [$1,1$], [$0,1$], [$1,0$], cols: 4)
+#align(center)[#image("/papers/2017/img/shandong_science/q6_fig1.png", width: 28%)]
+
+  #choices([#mi(`0,0`)], [#mi(`1,1`)], [#mi(`0,1`)], [#mi(`1,0`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-第一次输入 $x=7$ 时，初始 $b=2$. 此时 $b^2=4 not >7$，且 $7$ 不能被 $2$ 整除，于是令 $b=3$. 此时 $b^2=9>7$，程序令 $a=1$ 并输出 $1$.
+第一次输入 #mi(`x=7`) 时，初始 #mi(`b=2`). 此时 #mi(`b^{2}=4\not>7`)，且 #mi(`7`) 不能被 #mi(`2`) 整除，于是令 #mi(`b=3`). 此时 #mi(`b^{2}=9>7`)，程序令 #mi(`a=1`) 并输出 #mi(`1`).
 
-第二次输入 $x=9$ 时，初始 $b=2$. 此时 $b^2=4 not >9$，且 $9$ 不能被 $2$ 整除，于是令 $b=3$. 此时 $b^2=9 not >9$，但 $9$ 能被 $3$ 整除，程序令 $a=0$ 并输出 $0$. 因此两次输出分别为 $1,0$，故选 D.
+第二次输入 #mi(`x=9`) 时，初始 #mi(`b=2`). 此时 #mi(`b^{2}=4\not>9`)，且 #mi(`9`) 不能被 #mi(`2`) 整除，于是令 #mi(`b=3`). 此时 #mi(`b^{2}=9\not>9`)，但 #mi(`9`) 能被 #mi(`3`) 整除，程序令 #mi(`a=0`) 并输出 #mi(`0`). 因此两次输出分别为 #mi(`1,0`)，故选 D.
 ]
 
 #problem(7)[
-若 $a>b>0$，且 $a b=1$，则下列不等式成立的是（ ）
-  #choices([$a+(1)/(b)<(b)/(2 a)< log _2(a+b)$], [$(b)/(2 a)< log _2(a+b)<a+(1)/(b)$], [$a+(1)/(b)< log _2(a+b)<(b)/(2 a)$], [$log _2(a+b)<a+(1)/(b)<(b)/(2 a)$], cols: 1)
+若 #mi(`a>b>0`)，且 #mi(`ab=1`)，则下列不等式成立的是（ ）
+  #choices([#mi(`a+\dfrac{1}{b}<\dfrac{b}{2a}<\log_{2}(a+b)`)], [#mi(`\dfrac{b}{2a}<\log_{2}(a+b)<a+\dfrac{1}{b}`)], [#mi(`a+\dfrac{1}{b}<\log_{2}(a+b)<\dfrac{b}{2a}`)], [#mi(`\log_{2}(a+b)<a+\dfrac{1}{b}<\dfrac{b}{2a}`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-由 $a b=1$ 且 $a>b>0$ 得 $a>1$，并且 $(1)/(b)=a$. 因此
-$a+(1)/(b)=2 a$，$(b)/(2 a)=(1)/(2 a^2)<1$.
-又 $a+b=a+(1)/(a)>2$，所以 $log _2(a+b)>1$，从而 $(b)/(2 a)< log _2(a+b)$. 此外 $a+(1)/(a)<2 a$，且 $2 a<2^(2 a)$，于是
+由 #mi(`ab=1`) 且 #mi(`a>b>0`) 得 #mi(`a>1`)，并且 #mi(`\dfrac{1}{b}=a`). 因此
 
-$ log _2(a+b)<2 a=a+(1)/(b) $
+#mi(`a+\frac{1}{b}=2a`)，#mi(`\frac{b}{2a}=\frac{1}{2a^{2}}<1`).
 
-所以成立的不等式为 $(b)/(2 a)< log _2(a+b)<a+(1)/(b)$，故选 B.
+又 #mi(`a+b=a+\dfrac{1}{a}>2`)，所以 #mi(`\log_{2}(a+b)>1`)，从而 #mi(`\dfrac{b}{2a}<\log_{2}(a+b)`). 此外 #mi(`a+\dfrac{1}{a}<2a`)，且 #mi(`2a<2^{2a}`)，于是
+
+
+#align(center)[#mitex(`
+\log_{2}(a+b)<2a=a+\frac{1}{b}
+`)]
+
+
+所以成立的不等式为 #mi(`\dfrac{b}{2a}<\log_{2}(a+b)<a+\dfrac{1}{b}`)，故选 B.
 ]
 
 #problem(8)[
-从分别标有 $1$，$2$，$\l d o t s$，$9$ 的 9 张卡片中不放回地随机抽取 2 次，每次抽取 1 张，则抽到的 $2$ 张卡片上的数奇偶性不同的概率是（ ）
-  #choices([$(5)/(18)$], [$(4)/(9)$], [$(5)/(9)$], [$(7)/(9)$], cols: 4)
+从分别标有 #mi(`1`)，#mi(`2`)，#mi(`\ldots`)，#mi(`9`) 的 9 张卡片中不放回地随机抽取 2 次，每次抽取 1 张，则抽到的 #mi(`2`) 张卡片上的数奇偶性不同的概率是（ ）
+  #choices([#mi(`\dfrac{5}{18}`)], [#mi(`\dfrac{4}{9}`)], [#mi(`\dfrac{5}{9}`)], [#mi(`\dfrac{7}{9}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-从 $1$ 到 $9$ 的数中有 $5$ 个奇数和 $4$ 个偶数. 两次有序抽取的总数为 $9 times 8$，抽到的两张卡片奇偶性不同的情形数为 $5 times 4 +4 times 5$. 因此所求概率为
+从 #mi(`1`) 到 #mi(`9`) 的数中有 #mi(`5`) 个奇数和 #mi(`4`) 个偶数. 两次有序抽取的总数为 #mi(`9\times8`)，抽到的两张卡片奇偶性不同的情形数为 #mi(`5\times4+4\times5`). 因此所求概率为
 
-$ (5 times 4 +4 times 5)/(9 times 8)=(5)/(9) $
+
+#align(center)[#mitex(`
+\frac{5\times4+4\times5}{9\times8}=\frac{5}{9}
+`)]
+
 
 故选 C.
 ]
 
 #problem(9)[
-在 $triangle A B C$ 中，角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，若 $triangle A B C$ 为锐角三角形，且满足 $sin B(1+2 cos C)=2 sin A cos C+ cos A sin C$，则下列等式成立的是（ ）
-  #choices([$a=2 b$], [$b=2 a$], [$A=2 B$], [$B=2 A$], cols: 4)
+在 #mi(`\triangle ABC`) 中，角 #mi(`A`)，#mi(`B`)，#mi(`C`) 的对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，若 #mi(`\triangle ABC`) 为锐角三角形，且满足 #mi(`\sin B(1+2\cos C)=2\sin A\cos C+\cos A\sin C`)，则下列等式成立的是（ ）
+  #choices([#mi(`a=2b`)], [#mi(`b=2a`)], [#mi(`A=2B`)], [#mi(`B=2A`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-由 $A+B+C= pi$ 及和角公式，
+由 #mi(`A+B+C=\pi`) 及和角公式，
 
-$ 2 sin A cos C= sin (A+C)+ sin (A-C)= sin B+ sin (A-C) $
 
-将其代入已知等式并消去 $sin B$，得
+#align(center)[#mitex(`
+2\sin A\cos C=\sin(A+C)+\sin(A-C)=\sin B+\sin(A-C)
+`)]
 
-$ 2 sin B cos C= sin (A-C)+ cos A sin C= sin A cos C $
 
-因为三角形为锐角三角形，$cos C>0$，所以 $sin A=2 sin B$. 由正弦定理 $(a)/(sin A)=(b)/(sin B)$，得 $a=2 b$，故选 A.
+将其代入已知等式并消去 #mi(`\sin B`)，得
+
+
+#align(center)[#mitex(`
+2\sin B\cos C=\sin(A-C)+\cos A\sin C=\sin A\cos C
+`)]
+
+
+因为三角形为锐角三角形，#mi(`\cos C>0`)，所以 #mi(`\sin A=2\sin B`). 由正弦定理 #mi(`\dfrac a{\sin A}=\dfrac b{\sin B}`)，得 #mi(`a=2b`)，故选 A.
 ]
 
 #problem(10)[
-已知当 $x in [0,1]$ 时，函数 $y=(m x-1)^2$ 的图象与 $y=sqrt(x)+m$ 的图象有且只有一个交点，则正实数 $m$ 的取值范围是（ ）
-  #choices([$(0,1] union [2 sqrt(3),+ oo )$], [$(0,1] union [3,+ oo )$], [$(0,sqrt(2)) union [2 sqrt(3),+ oo )$], [$(0,sqrt(2)] union [3,+ oo )$], cols: 1)
+已知当 #mi(`x\in[0,1]`) 时，函数 #mi(`y=(mx-1)^{2}`) 的图象与 #mi(`y=\sqrt{x}+m`) 的图象有且只有一个交点，则正实数 #mi(`m`) 的取值范围是（ ）
+  #choices([#mi(`(0,1]\cup[2\sqrt{3},+\infty)`)], [#mi(`(0,1]\cup[3,+\infty)`)], [#mi(`(0,\sqrt{2})\cup[2\sqrt{3},+\infty)`)], [#mi(`(0,\sqrt{2}]\cup[3,+\infty)`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-令 $t=sqrt(x)$，则 $t in [0,1]$，交点方程等价于
+令 #mi(`t=\sqrt{x}`)，则 #mi(`t\in[0,1]`)，交点方程等价于
 
-$ F_m(t):=(m t^2-1)^2-t-m=0 $
+
+#align(center)[#mitex(`
+F_{m}(t):=(mt^{2}-1)^{2}-t-m=0
+`)]
+
 
 其中
-$F_m(0)=1-m$，$F_m(1)=m(m-3)$，$F_m'(t)=4 m^(2) t^3-4 m t-1$，
+
+#mi(`F_{m}(0)=1-m`)，#mi(`F_{m}(1)=m(m-3)`)，#mi(`F_{m}'(t)=4m^{2}t^{3}-4mt-1`)，
+
 且
 
-$ F_m''(t)=4 m(3 m t^2-1) $
+
+#align(center)[#mitex(`
+F_{m}''(t)=4m(3mt^{2}-1)
+`)]
 
 
-当 $0<m\l e q1$ 时，$m t^2\l e q1$，从而
+当 #mi(`0<m\leq1`) 时，#mi(`mt^{2}\leq1`)，从而
 
-$ F_m'(t)=4 m t(m t^2-1)-1<0 $
 
-所以 $F_m$ 在 $[0,1]$ 上严格递减. 当 $0<m<1$ 时，$F_m(0)>0>F_m(1)$，恰有一个零点；当 $m=1$ 时，$F_m(0)=0$，且 $F_m(t)<0$（$0<t\l e q1$），也恰有一个零点.
+#align(center)[#mitex(`
+F_{m}'(t)=4mt(mt^{2}-1)-1<0
+`)]
 
-当 $1<m<3$ 时，$F_m(0)<0$，$F_m(1)<0$. 由 $F_m''(t)$ 的符号变化可知，$F_m'(t)$ 先减后增；又因 $F_m'(0)=-1<0$，所以 $F_m'$ 至多有一个零点，$F_m$ 先减（也可能始终递减）后增，最大值只能在端点取得. 两个端点值都小于 $0$，所以区间内没有零点.
 
-当 $m\g e q3$ 时，$F_m(0)<0\l e q F_m(1)$. 同样由 $F_m''(t)$ 可知 $F_m'$ 至多有一个零点，$F_m$ 先减后增，因此从负值开始至非负端点只经过一次零点. 综上，恰有一个交点时
+所以 #mi(`F_{m}`) 在 #mi(`[0,1]`) 上严格递减. 当 #mi(`0<m<1`) 时，#mi(`F_{m}(0)>0>F_{m}(1)`)，恰有一个零点；当 #mi(`m=1`) 时，#mi(`F_{m}(0)=0`)，且 #mi(`F_{m}(t)<0`)（#mi(`0<t\leq1`)），也恰有一个零点.
 
-$ m in (0,1] union [3,+ oo ) $
+当 #mi(`1<m<3`) 时，#mi(`F_{m}(0)<0`)，#mi(`F_{m}(1)<0`). 由 #mi(`F_{m}''(t)`) 的符号变化可知，#mi(`F_{m}'(t)`) 先减后增；又因 #mi(`F_{m}'(0)=-1<0`)，所以 #mi(`F_{m}'`) 至多有一个零点，#mi(`F_{m}`) 先减（也可能始终递减）后增，最大值只能在端点取得. 两个端点值都小于 #mi(`0`)，所以区间内没有零点.
+
+当 #mi(`m\geq3`) 时，#mi(`F_{m}(0)<0\leq F_{m}(1)`). 同样由 #mi(`F_{m}''(t)`) 可知 #mi(`F_{m}'`) 至多有一个零点，#mi(`F_{m}`) 先减后增，因此从负值开始至非负端点只经过一次零点. 综上，恰有一个交点时
+
+
+#align(center)[#mitex(`
+m\in(0,1]\cup[3,+\infty)
+`)]
+
 
 故选 B.
 ]
@@ -181,347 +229,231 @@ $ m in (0,1] union [3,+ oo ) $
 #part-header("填空题")
 
 #problem(11)[
-已知 $(1+3 x)^n$ 的展开式中含有 $x^2$ 的系数是 54，则 $n=\f i l l i n b l a n k{}$.
+已知 #mi(`(1+3x)^{n}`) 的展开式中含有 #mi(`x^{2}`) 的系数是 54，则 #mi(`n=\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([4])
 
 #solution[
-展开式中 $x^2$ 的项来自选取两个 $3 x$，所以其系数为
+展开式中 #mi(`x^{2}`) 的项来自选取两个 #mi(`3x`)，所以其系数为
 
-$ C_n^2 dot 3 ""^2=54 $
 
-因此 $(n(n-1))/(2) dot 9 =54$，即 $n(n-1)=12$，解得 $n=4$ 或 $n=-3$. 由于二项式展开式中的 $n$ 为非负整数，故 $n=4$.
+#align(center)[#mitex(`
+\mathrm{C}_{n}^{2}\cdot3^{2}=54
+`)]
+
+
+因此 #mi(`\dfrac{n(n-1)}2\cdot9=54`)，即 #mi(`n(n-1)=12`)，解得 #mi(`n=4`) 或 #mi(`n=-3`). 由于二项式展开式中的 #mi(`n`) 为非负整数，故 #mi(`n=4`).
 ]
 
 #problem(12)[
-已知 $bold(e)_1$，$bold(e)_2$ 是互相垂直的单位向量，若 $sqrt(3)bold(e)_1-bold(e)_2$ 与 $bold(e)_1+\l a m b d a b o l d(e)_2$ 的夹角为 $60^ degree$，则实数 $lambda$ 的值是#blank(){}.
+已知 #mi(`\mathbf{e}_{1}`)，#mi(`\mathbf{e}_{2}`) 是互相垂直的单位向量，若 #mi(`\sqrt{3}\,\mathbf{e}_{1}-\mathbf{e}_{2}`) 与 #mi(`\mathbf{e}_{1}+\lambda\mathbf{e}_{2}`) 的夹角为 #mi(`60^{\circ}`)，则实数 #mi(`\lambda`) 的值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(sqrt(3))/(3)$])
+#answer([#mi(`\dfrac{\sqrt{3}}{3}`)])
 
 #solution[
-设 $bold(u)=sqrt(3)bold(e)_1-bold(e)_2$，$bold(v)=bold(e)_1+\l a m b d a b o l d(e)_2$. 由 $bold(e)_1$、$bold(e)_2$ 为互相垂直的单位向量，得
-$bold(u)\c d o t b o l d(v)=sqrt(3)- lambda$，$|bold(u)|=2$，$|bold(v)|=sqrt(1+ lambda ""^2)$.
-由夹角为 $60^ degree$，
+设 #mi(`\mathbf{u}=\sqrt{3}\,\mathbf{e}_{1}-\mathbf{e}_{2}`)，#mi(`\mathbf{v}=\mathbf{e}_{1}+\lambda\mathbf{e}_{2}`). 由 #mi(`\mathbf{e}_{1}`)、#mi(`\mathbf{e}_{2}`) 为互相垂直的单位向量，得
 
-$ (sqrt(3)- lambda)/(2 sqrt(1+ lambda ""^2))= cos 60 ""^ degree =(1)/(2) $
+#mi(`\mathbf{u}\cdot\mathbf{v}=\sqrt{3}-\lambda`)，#mi(`|\mathbf{u}|=2`)，#mi(`|\mathbf{v}|=\sqrt{1+\lambda^{2}}`).
 
-所以 $sqrt(3)- lambda =sqrt(1+ lambda ""^2)$. 两边平方得
+由夹角为 #mi(`60^{\circ}`)，
 
-$ 3-2 sqrt(3) lambda + lambda ""^2=1+ lambda ""^2 $
 
-从而 $lambda =(sqrt(3))/(3)$. 代回原等式可知两边均为正，故该值符合条件.
+#align(center)[#mitex(`
+\frac{\sqrt{3}-\lambda}{2\sqrt{1+\lambda^{2}}}=\cos60^{\circ}=\frac{1}{2}
+`)]
+
+
+所以 #mi(`\sqrt{3}-\lambda=\sqrt{1+\lambda^{2}}`). 两边平方得
+
+
+#align(center)[#mitex(`
+3-2\sqrt{3}\lambda+\lambda^{2}=1+\lambda^{2}
+`)]
+
+
+从而 #mi(`\lambda=\dfrac{\sqrt{3}}{3}`). 代回原等式可知两边均为正，故该值符合条件.
 ]
 
 #problem(13)[
-由一个长方体和两个 $(1)/(4)$ 圆柱体构成的几何体的三视图如图，则该几何体的体积为#blank(){}.
+由一个长方体和两个 #mi(`\dfrac{1}{4}`) 圆柱体构成的几何体的三视图如图，则该几何体的体积为\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2017/img/shandong_science/q13_fig1.png", width: 48%)]
+#align(center)[#image("/papers/2017/img/shandong_science/q13_fig1.png", width: 28%)]
+
 ]
 
-#answer([$2+(pi)/(2)$])
+#answer([#mi(`2+\dfrac{\pi}{2}`)])
 
 #solution[
-由三视图可知，该几何体由一个长为 $2$、宽为 $1$、高为 $1$ 的长方体，以及两个半径为 $1$、高为 $1$ 的四分之一圆柱体组成. 因此长方体体积为 $2 times 1 times 1 =2$，两个四分之一圆柱体的体积之和为
+由三视图可知，该几何体由一个长为 #mi(`2`)、宽为 #mi(`1`)、高为 #mi(`1`) 的长方体，以及两个半径为 #mi(`1`)、高为 #mi(`1`) 的四分之一圆柱体组成. 因此长方体体积为 #mi(`2\times1\times1=2`)，两个四分之一圆柱体的体积之和为
 
-$ 2 times (1)/(4) pi times 1 ""^2 times 1 =(pi)/(2) $
 
-所以该几何体的体积为 $2+(pi)/(2)$.
+#align(center)[#mitex(`
+2\times\frac{1}{4}\pi\times1^{2}\times1=\frac{\pi}{2}
+`)]
+
+
+所以该几何体的体积为 #mi(`2+\dfrac\pi2`).
 ]
 
 #problem(14)[
-在平面直角坐标系 $x O y$ 中，双曲线 $(x^2)/(a^2)-(y^2)/(b^2)=1$（$a>0$，$b>0$）的右支与焦点为 $F$ 的抛物线 $x^2=2 p y$（$p>0$）交于 $A$，$B$ 两点，若 $| A F|+| B F|=4| O F|$，则该双曲线的渐近线方程为#blank(){}.
+在平面直角坐标系 #mi(`xOy`) 中，双曲线 #mi(`\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1`)（#mi(`a>0`)，#mi(`b>0`)）的右支与焦点为 #mi(`F`) 的抛物线 #mi(`x^{2}=2py`)（#mi(`p>0`)）交于 #mi(`A`)，#mi(`B`) 两点，若 #mi(`\lvert AF\rvert+\lvert BF\rvert=4\lvert OF\rvert`)，则该双曲线的渐近线方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$y= +- (sqrt(2))/(2)x$])
+#answer([#mi(`y=\pm\dfrac{\sqrt{2}}{2}x`)])
 
 #solution[
-设抛物线上的交点为 $P(x,y)$. 抛物线 $x^2=2 p y$ 的焦点为 $F(0,(p)/(2))$，故由抛物线的定义，
+设抛物线上的交点为 #mi(`P(x,y)`). 抛物线 #mi(`x^{2}=2py`) 的焦点为 #mi(`F(0,\frac{p}{2})`)，故由抛物线的定义，
 
-$ |P F|=y+(p)/(2) $
 
-设交点 $A$、$B$ 的纵坐标分别为 $y_A$、$y_B$. 由已知条件
+#align(center)[#mitex(`
+|PF|=y+\frac{p}{2}
+`)]
 
-$ |A F|+|B F|=y_A+y_B+p=4|O F|=4 times (p)/(2)=2 p $
 
-得 $y_A+y_B=p$.
+设交点 #mi(`A`)、#mi(`B`) 的纵坐标分别为 #mi(`y_{A}`)、#mi(`y_{B}`). 由已知条件
 
-将 $x^2=2 p y$ 代入双曲线方程，得
 
-$ (2 p y)/(a^2)-(y^2)/(b^2)=1 $
+#align(center)[#mitex(`
+|AF|+|BF|=y_{A}+y_{B}+p=4|OF|=4\times\frac{p}{2}=2p
+`)]
 
-即交点纵坐标满足关于 $y$ 的二次方程
 
-$ (y^2)/(b^2)-(2 p)/(a^2)y+1=0 $
+得 #mi(`y_{A}+y_{B}=p`).
 
-由韦达定理，两个根的和为 $(2 p b^2)/(a^2)$，所以
-$(2 p b^2)/(a^2)=p$，$(b^2)/(a^2)=(1)/(2)$.
-双曲线的渐近线为 $y= +- (b)/(a)x$，因此所求方程为 $y= +- (sqrt(2))/(2)x$.
+将 #mi(`x^{2}=2py`) 代入双曲线方程，得
+
+
+#align(center)[#mitex(`
+\frac{2py}{a^{2}}-\frac{y^{2}}{b^{2}}=1
+`)]
+
+
+即交点纵坐标满足关于 #mi(`y`) 的二次方程
+
+
+#align(center)[#mitex(`
+\frac{y^{2}}{b^{2}}-\frac{2p}{a^{2}}y+1=0
+`)]
+
+
+由韦达定理，两个根的和为 #mi(`\dfrac{2pb^2}{a^2}`)，所以
+
+#mi(`\frac{2pb^{2}}{a^{2}}=p`)，#mi(`\frac{b^{2}}{a^{2}}=\frac{1}{2}`).
+
+双曲线的渐近线为 #mi(`y=\pm\dfrac{b}{a}x`)，因此所求方程为 #mi(`y=\pm\dfrac{\sqrt{2}}{2}x`).
 ]
 
 #problem(15)[
-若函数 $e ""^x f(x)$（$e approx 2 .71828\l d o t s$ 是自然对数的底数）在 $f(x)$ 的定义域上单调递增，则称函数 $f(x)$ 具有 $M$ 性质. 下列函数中所有具有 $M$ 性质的函数的序号为#blank(){}.
-\begin{circlelist}
-\item $f(x)=2^(-x)$
-\item $f(x)=3^(-x)$
-\item $f(x)=x^3$
-\item $f(x)=x^2+2$
-\end{circlelist}
+若函数 #mi(`\mathrm{e}^{x} f(x)`)（#mi(`\mathrm{e}\approx2.71828\ldots`) 是自然对数的底数）在 #mi(`f(x)`) 的定义域上单调递增，则称函数 #mi(`f(x)`) 具有 #mi(`M`) 性质. 下列函数中所有具有 #mi(`M`) 性质的函数的序号为\underline{\hspace{2.5em}}.
+
+
++ (1) #mi(`f(x)=2^{-x}`)
++ (2) #mi(`f(x)=3^{-x}`)
++ (3) #mi(`f(x)=x^{3}`)
++ (4) #mi(`f(x)=x^{2}+2`)
 ]
 
-#answer([$"[1]""[4]"$])
+#answer([#mi(`①④`)])
 
 #solution[
 逐一判断各函数：
 
-+ (1) $e ""^(x) f(x)=((e)/(2))^x$，因为 $(e)/(2)>1$，所以该函数在 $RR$ 上单调递增，函数 $f(x)=2^(-x)$ 具有 $M$ 性质.
-+ (2) $e ""^(x) f(x)=((e)/(3))^x$，因为 $0<(e)/(3)<1$，所以该函数单调递减，函数 $f(x)=3^(-x)$ 不具有 $M$ 性质.
-+ (3) $( e ""^(x) x^3)'= e ""^x(x^3+3 x^2)= e ""^(x) x^2(x+3)$. 当 $x<-3$ 时导数小于 $0$，所以函数 $f(x)=x^3$ 不具有 $M$ 性质.
-+ (4) $[ e ""^x(x^2+2)]'= e ""^x(x^2+2 x+2)= e ""^x[(x+1)^2+1]>0$，所以函数 $f(x)=x^2+2$ 具有 $M$ 性质.
 
-因此所有具有 $M$ 性质的函数序号为 $"[1]""[4]"$.
++ (1) 
++ (2) 
++ (3) 
+
+
+
+因此所有具有 #mi(`M`) 性质的函数序号为 #mi(`①④`).
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-设函数 $f(x)= sin \!( omega x-(pi)/(6))+ sin \!( omega x-(pi)/(2))$，其中 $0< omega <3$，已知 $f\!((pi)/(6))=0$.
+设函数 #mi(`f(x)=\sin\!\left(\omega x-\dfrac{\pi}{6}\right)+\sin\!\left(\omega x-\dfrac{\pi}{2}\right)`)，其中 #mi(`0<\omega<3`)，已知 #mi(`f\!\left(\dfrac{\pi}{6}\right)=0`).
 
 
-+ (1) 求 $omega$；
-+ (2) 将函数 $y=f(x)$ 的图象上各点的横坐标伸长为原来的 2 倍（纵坐标不变），再将得到的图象向左平移 $(pi)/(4)$ 个单位，得到函数 $y=g(x)$ 的图象，求 $g(x)$ 在 $[-(pi)/(4),(3 pi)/(4)]$上的最小值.
++ (1)
 ]
 
 #solution[
-+ (1) 由和差化积公式，
-
-$ f(x)=2 sin ( omega x-(pi)/(3)) cos (pi)/(6)=sqrt(3) sin ( omega x-(pi)/(3)) $
-
-由 $f((pi)/(6))=0$，得
-
-$ sin ((omega pi)/(6)-(pi)/(3))=0 $
-
-所以 $(omega pi)/(6)-(pi)/(3)=k pi$，即 $omega =2+6 k$. 又 $0< omega <3$，故 $k=0$，从而 $omega =2$.
-+ (2) 函数 $y=f(x)$ 的图象上各点横坐标伸长为原来的 $2$ 倍后，所得函数为
-
-$ y=f((x)/(2))=sqrt(3) sin (x-(pi)/(3)) $
-
-再向左平移 $(pi)/(4)$ 个单位，得到
-
-$ g(x)=f((x+(pi)/(4))/(2))=sqrt(3) sin (x-(\p)/(i){12}) $
-
-当 $x in [-(pi)/(4),(3 pi)/(4)]$ 时，令 $t=x-(\p)/(i){12}$，则 $t in [-(pi)/(3),(2 pi)/(3)]$. 在此区间内，$sin t$ 的最小值为 $-(sqrt(3))/(2)$，所以 $g(x)$ 的最小值为
-
-$ sqrt(3) times (-(sqrt(3))/(2))=-(3)/(2) $
++ (1)
 ]
 
 #problem(17)[
-如图，几何体是圆柱的一部分，它是由矩形 $A B C D$（及其内部）以 $A B$ 边所在直线为旋转轴旋转 $120^ degree$ 得到的，$G$ 是 $\o v e r s e t{\f r o w n}{D F}$ 的中点.
+如图，几何体是圆柱的一部分，它是由矩形 #mi(`ABCD`)（及其内部）以 #mi(`AB`) 边所在直线为旋转轴旋转 #mi(`120^{\circ}`) 得到的，#mi(`G`) 是 #mi(`\overset{\frown}{DF}`) 的中点.
 
 
-+ (1) 设 $P$ 是 $\o v e r s e t{\f r o w n}{C E}$ 上的一点，且 $A P bot B E$，求 $angle C B P$ 的大小；
-+ (2) 当 $A B=3$，$A D=2$ 时，求二面角 $E-A G-C$ 的大小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2017/img/shandong_science/q17_fig1.png", width: 55%)]
+
+#align(center)[#image("/papers/2017/img/shandong_science/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设 $A B$ 为 $z$ 轴，取 $B$ 为原点，令 $A B=h$，$A D=r$. 在旋转前取 $C=(r,0,0)$、$D=(r,0,h)$、$A=(0,0,h)$，则旋转 $120^ degree$ 后
-$E=(-(r)/(2),(sqrt(3)r)/(2),0)$，$F=(-(r)/(2),(sqrt(3)r)/(2),h)$.
-设 $P$ 在弧 $\o v e r s e t{\f r o w n}{C E}$ 上，对应的圆心角为 $theta$，则
-$P=(r cos theta ,r sin theta ,0)$，$0\l e q theta \l e q(2 pi)/(3)$.
-由 $A P bot B E$，有
-
-$ arrow(A P)\c d o t a r r o w(B E)=0 $
-
-代入 $arrow(A P)=(r cos theta ,r sin theta ,-h)$ 和 $arrow(B E)=(-(r)/(2),(sqrt(3)r)/(2),0)$，得
-
-$ (r^2)/(2)(- cos theta +sqrt(3) sin theta )=0 $
-
-所以 $tan theta =(1)/(sqrt(3))$. 结合 $theta in [0,(2 pi)/(3)]$，得 $theta =(pi)/(6)$. 而 $B C$ 与 $B P$ 都在同一底面圆内，故 $angle C B P= theta =30^ degree$.
-+ (2) 当 $A B=3$、$A D=2$ 时，取 $h=3$、$r=2$. 弧 $\o v e r s e t{\f r o w n}{D F}$ 的中点对应的圆心角为 $60^ degree$，所以
-$A=(0,0,3)$，$G=(1,sqrt(3),3)$，$E=(-1,sqrt(3),0)$，$C=(2,0,0)$.
-取 $bold(u)=arrow(A G)=(1,sqrt(3),0)$、$bold(v)=arrow(A E)=(-1,sqrt(3),-3)$、$bold(w)=arrow(A C)=(2,0,-3)$，则平面 $E A G$、$C A G$ 的法向量可分别取为
-$bold(n)_1=bold(u)\t i m e s b o l d(v)=(-3 sqrt(3),3,2 sqrt(3))$，$bold(n)_2=bold(u)\t i m e s b o l d(w)=(-3 sqrt(3),3,-2 sqrt(3))$.
-于是
-$bold(n)_1\c d o t b o l d(n)_2=24$，$|bold(n)_1|=|bold(n)_2|=4 sqrt(3)$.
-设二面角 $E-A G-C$ 为 $alpha$，则
-
-$ cos alpha =(bold(n)_1\c d o t b o l d(n)_2)/(|bold(n)_1||bold(n)_2|)=(24)/(48)=(1)/(2) $
-
-因此 $alpha =60^ degree$.
++ (1)
 ]
 
 #problem(18)[
-在心理学研究中，常采用对比试验的方法评价不同心理暗示对人的影响，具体方法如下：将参加试验的志愿者随机分成两组，一组接受甲种心理暗示，另一组接受乙种心理暗示，通过对比这两组志愿者接受心理暗示后的结果来评价两种心理暗示的作用，现有 6 名男志愿者 $A_1$，$A_2$，$A_3$，$A_4$，$A_5$，$A_6$ 和 4 名女志愿者 $B_1$，$B_2$，$B_3$，$B_4$，从中随机抽取 5 人接受甲种心理暗示，另 5 人接受乙种心理暗示.
+在心理学研究中，常采用对比试验的方法评价不同心理暗示对人的影响，具体方法如下：将参加试验的志愿者随机分成两组，一组接受甲种心理暗示，另一组接受乙种心理暗示，通过对比这两组志愿者接受心理暗示后的结果来评价两种心理暗示的作用，现有 6 名男志愿者 #mi(`A_{1}`)，#mi(`A_{2}`)，#mi(`A_{3}`)，#mi(`A_{4}`)，#mi(`A_{5}`)，#mi(`A_{6}`) 和 4 名女志愿者 #mi(`B_{1}`)，#mi(`B_{2}`)，#mi(`B_{3}`)，#mi(`B_{4}`)，从中随机抽取 5 人接受甲种心理暗示，另 5 人接受乙种心理暗示.
 
 
-+ (1) 求接受甲种心理暗示的志愿者中包含 $A_1$ 但不包含 $B_1$ 的概率；
-+ (2) 用 $X$ 表示接受乙种心理暗示的女志愿者人数，求 $X$ 的分布列与数学期望 $E(X)$.
++ (1)
 ]
 
 #solution[
-+ (1) 从 $10$ 名志愿者中随机抽取 $5$ 人接受甲种心理暗示，所有等可能的抽法共有 $C_(10)^5$ 种. 若甲组包含 $A_1$ 但不包含 $B_1$，则其余 $4$ 人从另外 $8$ 人中选取，共有 $C_8^4$ 种. 因此所求概率为
-
-$ (C_8^4)/(C_(10)^5)=(70)/(252)=(5)/(18) $
-+ (2) 乙组共有 $5$ 人，$X$ 表示其中女志愿者人数. 对 $k=0$，$1$，$2$，$3$，$4$，乙组含 $k$ 名女志愿者的概率为
-
-$ P(X=k)=(C_4^k C_6^(5-k))/(C_(10)^5) $
-
-分别计算得
-$P(X=0)=(1)/(42)$，$P(X=1)=(5)/(21)$，$P(X=2)=(10)/(21)$，$P(X=3)=(5)/(21)$，$P(X=4)=(1)/(42)$.
-因此 $X$ 的分布列为
-\begin{center}
-\begin{tabular}{c|ccccc}
-$X$ & $0$ & $1$ & $2$ & $3$ & $4$ \\
-\hline
-$P$ & $(1)/(42)$ & $(5)/(21)$ & $(10)/(21)$ & $(5)/(21)$ & $(1)/(42)$
-\end{tabular}
-\end{center}
-且
-
-$ E(X)=0 times (1)/(42)+1 times (5)/(21)+2 times (10)/(21)+3 times (5)/(21)+4 times (1)/(42)=2 $
++ (1)
 ]
 
 #problem(19)[
-已知 $\{x_n\}$ 是各项均为正数的等比数列，且 $x_1+x_2=3$，$x_3-x_2=2$.
+已知 #mi(`\{x_{n}\}`) 是各项均为正数的等比数列，且 #mi(`x_{1}+x_{2}=3`)，#mi(`x_{3}-x_{2}=2`).
 
 
-+ (1) 求数列 $\{x_n\}$ 的通项公式；
-+ (2) 如图，在平面直角坐标系 $x O y$ 中，依次连接点 $P_1(x_1,1)$，$P_2(x_2,2)$，$\l d o t s$，$P_(n+1)(x_(n+1),n+1)$ 得到折线 $P_(1) P_2 dots.c P_(n+1)$，求由该折线与直线 $y=0$，$x=x_1$，$x=x_(n+1)$ 所围成的区域的面积 $T_n$.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2017/img/shandong_science/q19_fig1.png", width: 48%)]
+
+#align(center)[#image("/papers/2017/img/shandong_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设等比数列的公比为 $q$，因为各项为正数，所以 $q>0$. 由 $x_2=x_(1) q$、$x_3=x_(1) q^2$ 及已知条件，得
-$x_1(1+q)=3$，$x_(1) q(q-1)=2$.
-由第一式 $x_1=(3)/(1+q)$，代入第二式得
-
-$ (3 q(q-1))/(1+q)=2 \L o n g r i g h t a r r o w 3 q^2-5 q-2=0 \L o n g r i g h t a r r o w (3 q+1)(q-2)=0 $
-
-因 $q>0$，所以 $q=2$，进而 $x_1=1$. 因此数列通项为 $x_n=2^(n-1)$.
-+ (2) 由 $P_i(x_i,i)$ 与 $P_(i+1)(x_(i+1),i+1)$ 及直线 $y=0$ 所围成的部分是一个梯形，其面积为
-
-$ (i+(i+1))/(2)(x_(i+1)-x_i) $
-
-将 $x_i=2^(i-1)$ 代入，得
-
-$ T_n=sum_(i=1)^n(2 i+1)/(2)(2^i-2^(i-1))=(1)/(2)sum_(i=1)^n(2 i+1)2^(i-1) $
-
-又
-$sum_(i=1)^n i2^(i-1)=(n-1)2^n+1$，$sum_(i=1)^(n) 2^(i-1)=2^n-1$，
-所以
-
-$ T_n=(1)/(2)[2((n-1)2^n+1)+(2^n-1)]=((2 n-1)2^n+1)/(2) $
++ (1)
 ]
 
 #problem(20)[
-已知函数 $f(x)=x^2+2 cos x$，$g(x)= e ""^x( cos x- sin x+2 x-2 )$，其中 $e approx 2 .71828\l d o t s$ 是自然对数的底数.
+已知函数 #mi(`f(x)=x^{2}+2\cos x`)，#mi(`g(x)=\mathrm{e}^{x}\left( \cos x-\sin x+2x-2 \right)`)，其中 #mi(`\mathrm{e}\approx2.71828\ldots`) 是自然对数的底数.
 
 
-+ (1) 求曲线 $y=f(x)$ 在点 $( pi ,f( pi ))$ 处的切线方程；
-+ (2) 令 $h(x)=g(x)-a f(x)$（$a in RR$），讨论 $h(x)$ 的单调性并判断有无极值，有极值时求出极值.
++ (1)
 ]
 
 #solution[
-+ (1) $f'(x)=2 x-2 sin x$，所以 $f'( pi )=2 pi$，又 $f( pi )= pi ""^2-2$. 因此切线方程为
-
-$ y-( pi ""^2-2)=2 pi (x- pi ) $
-
-即 $y=2 pi x- pi ""^2-2$.
-+ (2) 令 $u(x)= cos x- sin x+2 x-2$，则 $g(x)= e ""^(x) u(x)$，且
-
-$ g'(x)= e ""^x[u(x)+u'(x)]=2 e ""^x(x- sin x) $
-
-从而
-
-$ h'(x)=2(x- sin x)( e ""^x-a) $
-
-记 $phi.alt (x)=x- sin x$. 因为 $phi.alt '(x)=1- cos x\g e q0$ 且 $phi.alt (0)=0$，所以 $phi.alt (x)<0$（$x<0$），$phi.alt (x)>0$（$x>0$）.
-
-当 $a\l e q0$ 时，$e ""^x-a>0$，故 $h(x)$ 在 $(- oo ,0)$ 上单调递减，在 $(0,+ oo )$ 上单调递增，在 $x=0$ 处取得极小值
-
-$ h(0)= e ""^0(1-0-2)-a(0+2)=-1-2 a $
-
-
-当 $0<a<1$ 时，$ln a<0$. 按 $ln a$ 和 $0$ 将定义域分段，得 $h(x)$ 在 $(- oo , ln a)$、$( ln a,0)$、$(0,+ oo )$ 上分别单调递增、递减、递增. 因此 $x= ln a$ 处为极大值点，$x=0$ 处为极小值点. 令 $r= ln a$，由 $e ""^r=a$ 得
-
-$ h(r)=a( cos r- sin r+2 r-2)-a(r^2+2 cos r) =-a(r^2-2 r+ sin r+ cos r+2) $
-
-即极大值为 $-a[( ln a)^2-2 ln a+ sin ( ln a)+ cos ( ln a)+2]$，极小值为 $-1-2 a$.
-
-当 $a=1$ 时，$ln a=0$，在 $x<0$ 和 $x>0$ 时都有 $h'(x)>0$，所以 $h(x)$ 在 $RR$ 上单调递增，无极值.
-
-当 $a>1$ 时，$ln a>0$. 按 $0$ 和 $ln a$ 分段，得 $h(x)$ 在 $(- oo ,0)$、$(0, ln a)$、$( ln a,+ oo )$ 上分别单调递增、递减、递增. 因此 $x=0$ 处为极大值点，极大值为 $-1-2 a$；$x= ln a$ 处为极小值点，极小值为
-
-$ -a[( ln a)^2-2 ln a+ sin ( ln a)+ cos ( ln a)+2] $
++ (1)
 ]
 
 #problem(21)[
-在平面直角坐标系 $x O y$ 中，椭圆 $E:(x^2)/(a^2)+(y^2)/(b^2)=1$（$a>b>0$）的离心率为 $(sqrt(2))/(2)$，焦距为 2.
+在平面直角坐标系 #mi(`xOy`) 中，椭圆 #mi(`E:\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1`)（#mi(`a>b>0`)）的离心率为 #mi(`\dfrac{\sqrt{2}}{2}`)，焦距为 2.
 
 
-+ (1) 求椭圆 $E$ 的方程；
-+ (2) 如图，该直线 $l:y=k_(1) x-(sqrt(3))/(2)$ 交椭圆 $E$ 于 $A$，$B$ 两点，$C$ 是椭圆 $E$ 上的一点，直线 $O C$ 的斜率为 $k_2$，且 $k_(1) k_2=(sqrt(2))/(4)$，$M$ 是线段 $O C$ 延长线上一点，且 $| M C|:| A B|=2:3$，$\o d o t M$ 的半径为 $| M C|$，$O S$，$O T$ 是 $\o d o t M$ 的两条切线，切点分别为 $S$，$T$，求 $angle S O T$ 的最大值，并求取得最大值时直线 $l$ 的斜率.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2017/img/shandong_science/q21_fig1.png", width: 55%)]
+
+#align(center)[#image("/papers/2017/img/shandong_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设椭圆的半焦距为 $c$. 由焦距为 $2$ 得 $2 c=2$，所以 $c=1$. 又离心率 $(c)/(a)=(sqrt(2))/(2)$，故 $a=sqrt(2)$. 由 $b^2=a^2-c^2$，得 $b^2=1$，所以椭圆方程为
-
-$ (x^2)/(2)+y^2=1 $
-+ (2) 记 $k_1=k$，则 $k != 0$，且由 $k_(1) k_2=(sqrt(2))/(4)$ 得
-$k_2=(sqrt(2))/(4 k)$，$k_2^2=(1)/(8 k^2)$.
-设 $t=k^2>0$. 直线 $l:y=k x-(sqrt(3))/(2)$ 与椭圆联立，得
-
-$ ((1)/(2)+k^2)x^2-sqrt(3)k x-(1)/(4)=0 $
-
-设交点横坐标为 $x_A$，$x_B$，由一元二次方程根的差及直线斜率，弦长为
-
-$ |A B|=sqrt(1+k^2)|x_A-x_B| =(sqrt(2(1+k^2)(8 k^2+1)))/(2 k^2+1) $
-
-另一方面，点 $C$ 在椭圆上且 $O C$ 的斜率为 $k_2$，所以
-
-$ |O C|^2=(1+k_2^2)/((1)/(2)+k_2^2)=(8 t+1)/(4 t+1) $
-
-由上式及 $k^2=t$，
-
-$ ((|A B|)/(|O C|))^2 =(2(1+t)(4 t+1))/((2 t+1)^2) $
-
-记右端为 $Q(t)$，则
-
-$ Q'(t)=(2(1-4 t^2))/((4 t^2+4 t+1)^2) $
-
-所以 $Q(t)$ 在 $0<t<(1)/(2)$ 时递增，在 $t>(1)/(2)$ 时递减，最大值在 $t=(1)/(2)$ 处取得，且
-
-$ max (|A B|)/(|O C|)=sqrt(Q((1)/(2)))=(3)/(2) $
-
-由 $|M C|:|A B|=2:3$，得
-
-$ (|M C|)/(|O C|)=(2)/(3)(|A B|)/(|O C|)\l e q1 $
-
-设圆 $\o d o t M$ 的半径为 $r=|M C|$，在直角三角形 $O M S$ 中，$O S$ 为切线，所以 $angle O S M=90^ degree$. 设 $angle S O M= theta$，则
-
-$ sin theta =(M S)/(O M)=(r)/(|O M|) $
-
-由于 $M$ 在线段 $O C$ 的延长线上，$|O M|=|O C|+|C M|$，因此
-
-$ (r)/(|O M|)=(|M C|)/(|O C|+|M C|)\l e q(1)/(2) $
-
-又 $angle S O T=2 theta$，故 $angle S O T\l e q60^ degree$. 当 $t=(1)/(2)$，即 $k_1^2=(1)/(2)$ 时，$|M C|=|O C|$，从而 $sin theta =(1)/(2)$，$theta =30^ degree$，取得最大值
-
-$ angle S O T=60^ degree =(pi)/(3) $
-
-此时 $k_1= +- (sqrt(2))/(2)$.
++ (1)
 ]
 

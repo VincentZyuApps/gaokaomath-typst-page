@@ -107,7 +107,9 @@
 #problem(7)[
 在四边形 #mi(`ABCD`) 中，#mi(`E`)，#mi(`F`) 分别是对角线 #mi(`AC`)，#mi(`BD`) 的中点，#mi(`M`)，#mi(`N`) 分别是 #mi(`AB`)，#mi(`CD`) 的中点，求证 #mi(`EF`) 与 #mi(`MN`) 互相平分.
 
-[max width=5.6cm]img/1977/guangxi_science/q7_fig1.png
+
+#align(center)[#image("/papers/1977/img/guangxi_science/q7_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -121,7 +123,9 @@
 #problem(8)[
 已知正四棱锥底面边长为 #mi(`6\text{ \text{厘米}}`)，侧棱是高的 #mi(`2`) 倍. 求这棱锥的体积. （精确到 #mi(`0.1\text{ \text{立方厘米}}`)）.
 
-[max width=4.8cm]img/1977/guangxi_science/q8_fig1.png
+
+#align(center)[#image("/papers/1977/img/guangxi_science/q8_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -147,7 +151,9 @@ V_{\text{\text{棱锥}}}=\frac{1}{3}\times36\times\sqrt{6}=12\sqrt{6}\text{ \tex
 #problem(9)[
 把一块钢板冲成上面是半圆形，下面是矩形的零件，已知零件的周长是 #mi(`P`)，怎样才能使冲出的零件面积最大？
 
-[max width=6.0cm]img/1977/guangxi_science/q9_fig1.png
+
+#align(center)[#image("/papers/1977/img/guangxi_science/q9_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -214,7 +220,9 @@ h=\frac{2P-\left(\pi+2\right)\frac{2P}{\pi+4}}{4}=\frac{P}{\pi+4}
 #problem(11)[
 线段 #mi(`AB`) 之三等分点依次为 #mi(`C`)，#mi(`D`)，以 #mi(`CD`) 为直径画圆，在圆周上任取一点 #mi(`P`). 求证 #mi(`\tan\angle APC\cdot\tan\angle BPD=\frac{1}{4}`).
 
-[max width=8.0cm]img/1977/guangxi_science/q11_fig1.png
+
+#align(center)[#image("/papers/1977/img/guangxi_science/q11_fig1.png", width: 28%)]
+
 ]
 
 #solution[

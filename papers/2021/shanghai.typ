@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,323 +11,307 @@
 #part-header("填空题")
 
 #problem(1)[
-已知 $z_1=1+ i$，$z_2=2+3 i$，求 $z_1+z_2=$#blank(){}.
+已知 #mi(`z_{1}=1+\mathrm{i}`)，#mi(`z_{2}=2+3\mathrm{i}`)，求 #mi(`z_{1}+z_{2}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$3+4 i$])
+#answer([#mi(`3+4\mathrm{i}`)])
 
 #solution[
-因为 $z_1=1+ i$，$z_2=2+3 i$，所以 $z_1+z_2=3+4 i$. 故答案为 $3+4 i$.
+因为 #mi(`z_{1}=1+\mathrm{i}`)，#mi(`z_{2}=2+3\mathrm{i}`)，所以 #mi(`z_{1}+z_{2}=3+4\mathrm{i}`). 故答案为 #mi(`3+4\mathrm{i}`).
 ]
 
 #problem(2)[
-已知 $A=\{x | 2 x <= 1 \}$，$B=\{-1,0,1\}$，则 $A inter B=$#blank(){}.
+已知 #mi(`A=\{x\mid 2x\le 1\}`)，#mi(`B=\{-1,0,1\}`)，则 #mi(`A\cap B=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$\{-1,0\}$])
+#answer([#mi(`\{-1,0\}`)])
 
 #solution[
-因为 $A=\{x | 2 x <= 1 \}=\{x | x <= (1)/(2)\}$，$B=\{-1,0,1\}$，所以 $A inter B=\{-1,0\}$. 故答案为 $\{-1,0\}$.
+因为 #mi(`A=\{x\mid 2x\le 1\}=\left\{x\mid x\le \frac{1}{2}\right\}`)，#mi(`B=\{-1,0,1\}`)，所以 #mi(`A\cap B=\{-1,0\}`). 故答案为 #mi(`\{-1,0\}`).
 ]
 
 #problem(3)[
-若 $x^2+y^2-2 x-4 y=0$，求圆心坐标为#blank(){}.
+若 #mi(`x^{2}+y^{2}-2x-4y=0`)，求圆心坐标为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1,2)$])
+#answer([#mi(`(1,2)`)])
 
 #solution[
-由 $x^2+y^2-2 x-4 y=0$ 可得圆的标准方程为 $( x-1 )^2+( y-2 )^2=5$，所以圆心坐标为 $(1,2)$. 故答案为 $(1,2)$.
+由 #mi(`x^{2}+y^{2}-2x-4y=0`) 可得圆的标准方程为 #mi(`\left( x-1 \right)^{2}+\left( y-2 \right)^{2}=5`)，所以圆心坐标为 #mi(`(1,2)`). 故答案为 #mi(`(1,2)`).
 ]
 
 #problem(4)[
-如图正方形 $A B C D$ 的边长为 $3$，求 $arrow(A B) dot arrow(A C)=$#blank(){}.
+如图正方形 #mi(`ABCD`) 的边长为 #mi(`3`)，求 #mi(`\overrightarrow{AB}\cdot \overrightarrow{AC}=`)\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2021/img/shanghai/q4_fig1.png", width: 6.0cm)]
+#align(center)[#image("/papers/2021/img/shanghai/q4_fig1.png", width: 28%)]
+
 ]
 
-#answer([$9$])
+#answer([#mi(`9`)])
 
 #solution[
-由数量积的定义，可得 $arrow(A B) dot arrow(A C)=| arrow(A B)|| arrow(A C)| cos angle B A C$. 因为 $| arrow(A B)|=| arrow(A C)| cos angle B A C$，所以 $arrow(A B) dot arrow(A C)=A B^2=9$. 故答案为 $9$.
+由数量积的定义，可得 #mi(`\overrightarrow{AB}\cdot \overrightarrow{AC}=\left| \overrightarrow{AB}\right|\left| \overrightarrow{AC}\right|\cos \angle BAC`). 因为 #mi(`\left| \overrightarrow{AB}\right|=\left| \overrightarrow{AC}\right|\cos \angle BAC`)，所以 #mi(`\overrightarrow{AB}\cdot \overrightarrow{AC}=AB^{2}=9`). 故答案为 #mi(`9`).
 ]
 
 #problem(5)[
-已知 $f(x)=(3)/(x)+2$，则 $f^(-1)(1)=$#blank(){}.
+已知 #mi(`f(x)=\frac{3}{x}+2`)，则 #mi(`f^{-1}(1)=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-3$])
+#answer([#mi(`-3`)])
 
 #solution[
-因为 $f(x)=(3)/(x)+2$，令 $f(x)=1$，即 $(3)/(x)+2=1$，解得 $x=-3$，故 $f^(-1)(1)=-3$. 故答案为 $-3$.
+因为 #mi(`f(x)=\frac{3}{x}+2`)，令 #mi(`f(x)=1`)，即 #mi(`\frac{3}{x}+2=1`)，解得 #mi(`x=-3`)，故 #mi(`f^{-1}(1)=-3`). 故答案为 #mi(`-3`).
 ]
 
 #problem(6)[
-已知二项式 $(x+a)^5$ 展开式中，$x^2$ 的系数为 $80$，则 $a=$#blank(){}.
+已知二项式 #mi(`(x+a)^{5}`) 展开式中，#mi(`x^{2}`) 的系数为 #mi(`80`)，则 #mi(`a=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-$(x+a)^5$ 的展开式的通项公式为 $T_(r+1)=C_5^r x^(5-r)a^r$，所以 $x^2$ 的系数为 $C_5^3 a^3=80$，解得 $a=2$. 故答案为 $2$.
+#mi(`(x+a)^{5}`) 的展开式的通项公式为 #mi(`T_{r+1}=C_{5}^{r} x^{5-r}a^{r}`)，所以 #mi(`x^{2}`) 的系数为 #mi(`C_{5}^{3} a^{3}=80`)，解得 #mi(`a=2`). 故答案为 #mi(`2`).
 ]
 
 #problem(7)[
-已知 $x <= 3$，$2 x-y-2 >= 0$，$3 x+y-8 >= 0$，$z=x-y$，则 $z$ 的最大值为#blank(){}.
+已知 #mi(`x\le 3`)，#mi(`2x-y-2\ge 0`)，#mi(`3x+y-8\ge 0`)，#mi(`z=x-y`)，则 #mi(`z`) 的最大值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$4$])
+#answer([#mi(`4`)])
 
 #solution[
 绘制不等式组表示的平面区域如图所示，
 
+ 
+#align(center)[#image("/papers/2021/img/shanghai/q7_fig1.png", width: 28%)]
+ 
 
-#align(center)[#image("/papers/2021/img/shanghai/q7_fig1.png", width: 2.8cm)]
-
-
-目标函数即 $y=x-z$，其中 $z$ 取得最大值时，其几何意义表示直线系在 $y$ 轴上的截距的相反数. 据此结合目标函数的几何意义可知，目标函数在点 B 处取得最大值. 联立直线方程 $\b e g i n{c a s e s} x=3,\\ 3 x+y-8=0, \e n d{c a s e s}$ 可得点 B 的坐标为 $(3,-1)$. 据此可知目标函数的最大值为 $z_( max )=3-( -1 )=4$. 故答案为 $4$.
+目标函数即 #mi(`y=x-z`)，其中 #mi(`z`) 取得最大值时，其几何意义表示直线系在 #mi(`y`) 轴上的截距的相反数. 据此结合目标函数的几何意义可知，目标函数在点 B 处取得最大值. 联立直线方程 #mi(`\begin{cases}x=3,\\  3x+y-8=0,\end{cases}`) 可得点 B 的坐标为 #mi(`(3,-1)`). 据此可知目标函数的最大值为 #mi(`z_{\max}=3-\left( -1 \right)=4`). 故答案为 #mi(`4`).
 ]
 
 #problem(8)[
-已知 $\{a_n\}$ 为无穷等比数列，$a_1=3$，$a_n$ 的各项和为 $9$，$b_n=a_(2 n)$，则数列 $\{b_n\}$ 的各项和为#blank(){}.
+已知 #mi(`\{a_{n}\}`) 为无穷等比数列，#mi(`a_{1}=3`)，#mi(`a_{n}`) 的各项和为 #mi(`9`)，#mi(`b_{n}=a_{2n}`)，则数列 #mi(`\{b_{n}\}`) 的各项和为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(18)/(5)$])
+#answer([#mi(`\dfrac{18}{5}`)])
 
 #solution[
-设 $\{a_n\}$ 的公比为 $q$，由 $a_1=3$，$a_n$ 的各项和为 $9$，可得 $(3)/(1-q)=9$，解得 $q=(2)/(3)$. 所以 $a_n=3 times ( (2)/(3))^(n-1)$，$b_n=a_(2 n)=3 times ( (2)/(3))^(2 n-1)$. 可得数列 $\{b_n\}$ 是首项为 $2$，公比为 $(4)/(9)$ 的等比数列，$sum_(n=1)^( oo ) b_n=(2)/(1-(4)/(9))=(18)/(5)$. 故答案为 $(18)/(5)$.
+设 #mi(`\{a_{n}\}`) 的公比为 #mi(`q`)，由 #mi(`a_{1}=3`)，#mi(`a_{n}`) 的各项和为 #mi(`9`)，可得 #mi(`\frac{3}{1-q}=9`)，解得 #mi(`q=\frac{2}{3}`). 所以 #mi(`a_{n}=3\times \left( \frac{2}{3}\right)^{n-1}`)，#mi(`b_{n}=a_{2n}=3\times \left( \frac{2}{3}\right)^{2n-1}`). 可得数列 #mi(`\{b_{n}\}`) 是首项为 #mi(`2`)，公比为 #mi(`\frac{4}{9}`) 的等比数列，#mi(`\sum_{n=1}^{\infty}b_{n}=\frac{2}{1-\frac{4}{9}}=\frac{18}{5}`). 故答案为 #mi(`\frac{18}{5}`).
 ]
 
 #problem(9)[
-已知圆柱的底面圆半径为 $1$，高为 $2$，$A B$ 为上底面圆的一条直径，C 是下底面圆周上的一个动点，则 $triangle A B C$ 的面积的取值范围为#blank(){}.
+已知圆柱的底面圆半径为 #mi(`1`)，高为 #mi(`2`)，#mi(`AB`) 为上底面圆的一条直径，C 是下底面圆周上的一个动点，则 #mi(`\triangle ABC`) 的面积的取值范围为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[2,sqrt(5)]$])
+#answer([#mi(`[2,\sqrt{5}]`)])
 
 #solution[
-如图，上顶面圆心记为 $O$，下底面圆心记为 $O'$，
+如图，上顶面圆心记为 #mi(`O`)，下底面圆心记为 #mi(`O'`)，
 
+ 
+#align(center)[#image("/papers/2021/img/shanghai/q9_fig1.png", width: 28%)]
+ 
 
-#align(center)[#image("/papers/2021/img/shanghai/q9_fig1.png", width: 8.6cm)]
+连接 #mi(`OC`)，过点 #mi(`C`) 作 #mi(`CM\perp AB`)，垂足为点 #mi(`M`)，则 #mi(`S_{\triangle ABC}=\frac{1}{2}\times AB\times CM`). 根据题意，#mi(`AB`) 为定值 #mi(`2`)，所以 #mi(`S_{\triangle ABC}`) 的大小随着 #mi(`CM`) 的长短变化而变化.
 
+如图 #mi(`2`) 所示，当点 #mi(`M`) 与点 #mi(`O`) 重合时，#mi(`CM=OC=\sqrt{1^{2}+2^{2}}=\sqrt{5}`)，此时 #mi(`S_{\triangle ABC}=\frac{1}{2}\times 2\times \sqrt{5}=\sqrt{5}`).
 
-连接 $O C$，过点 $C$ 作 $C M bot A B$，垂足为点 $M$，则 $S_( triangle A B C)=(1)/(2) times A B times C M$. 根据题意，$A B$ 为定值 $2$，所以 $S_( triangle A B C)$ 的大小随着 $C M$ 的长短变化而变化.
+如图 #mi(`3`) 所示，当点 #mi(`M`) 与点 B 重合时，#mi(`CM`) 取最小值 #mi(`2`)，此时 #mi(`S_{\triangle ABC}=\frac{1}{2}\times 2\times 2=2`).
 
-如图 $2$ 所示，当点 $M$ 与点 $O$ 重合时，$C M=O C=sqrt(1^2+2^2)=sqrt(5)$，此时 $S_( triangle A B C)=(1)/(2) times 2 times sqrt(5)=sqrt(5)$.
-
-如图 $3$ 所示，当点 $M$ 与点 B 重合时，$C M$ 取最小值 $2$，此时 $S_( triangle A B C)=(1)/(2) times 2 times 2 =2$.
-
-综上所述，$S_( triangle A B C)$ 的取值范围为 $[2,sqrt(5)]$. 故答案为 $[2,sqrt(5)]$.
+综上所述，#mi(`S_{\triangle ABC}`) 的取值范围为 #mi(`[2,\sqrt{5}]`). 故答案为 #mi(`[2,\sqrt{5}]`).
 ]
 
 #problem(10)[
-已知花博会有四个不同的场馆 $A$，$B$，$C$，$D$，甲，乙两人每人选 $2$ 个去参观，则他们的选择中，恰有一个馆相同的概率为#blank(){}.
+已知花博会有四个不同的场馆 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`)，甲，乙两人每人选 #mi(`2`) 个去参观，则他们的选择中，恰有一个馆相同的概率为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(2)/(3)$])
+#answer([#mi(`\dfrac{2}{3}`)])
 
 #solution[
-甲选 $2$ 个去参观，有 $C_4^2=6$ 种，乙选 $2$ 个去参观，有 $C_4^2=6$ 种，共有 $6 times 6 =36$ 种. 若甲乙恰有一个馆相同，则选定确定相同的馆有 $C_4^1=4$ 种，然后从剩余 $3$ 个馆中选 $2$ 个进行排列，有 $A_3^2=6$ 种，共有 $4 times 6 =24$ 种. 则对应概率 $P=(24)/(36)=(2)/(3)$. 故答案为 $(2)/(3)$.
+甲选 #mi(`2`) 个去参观，有 #mi(`C_{4}^{2}=6`) 种，乙选 #mi(`2`) 个去参观，有 #mi(`C_{4}^{2}=6`) 种，共有 #mi(`6\times 6=36`) 种. 若甲乙恰有一个馆相同，则选定确定相同的馆有 #mi(`C_{4}^{1}=4`) 种，然后从剩余 #mi(`3`) 个馆中选 #mi(`2`) 个进行排列，有 #mi(`A_{3}^{2}=6`) 种，共有 #mi(`4\times 6=24`) 种. 则对应概率 #mi(`P=\frac{24}{36}=\frac{2}{3}`). 故答案为 #mi(`\frac{2}{3}`).
 ]
 
 #problem(11)[
-已知抛物线 $y^2=2 p x$（$p>0$），若第一象限的 $A$，$B$ 在抛物线上，焦点为 $F$，$|A F|=2$，$|B F|=4$，$|A B|=3$，求直线 $A B$ 的斜率为#blank(){}.
+已知抛物线 #mi(`y^{2}=2px`)（#mi(`p>0`)），若第一象限的 #mi(`A`)，#mi(`B`) 在抛物线上，焦点为 #mi(`F`)，#mi(`|AF|=2`)，#mi(`|BF|=4`)，#mi(`|AB|=3`)，求直线 #mi(`AB`) 的斜率为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(sqrt(5))/(2)$])
+#answer([#mi(`\dfrac{\sqrt{5}}{2}`)])
 
 #solution[
-如图所示，设抛物线的准线为 $l$，作 $A C bot l$ 于点 $C$，$B D bot l$ 于点 $D$，$A E bot B D$ 于点 $E$，
+如图所示，设抛物线的准线为 #mi(`l`)，作 #mi(`AC\perp l`) 于点 #mi(`C`)，#mi(`BD\perp l`) 于点 #mi(`D`)，#mi(`AE\perp BD`) 于点 #mi(`E`)，
 
+ 
+#align(center)[#image("/papers/2021/img/shanghai/q11_fig1.png", width: 28%)]
+ 
 
-#align(center)[#image("/papers/2021/img/shanghai/q11_fig1.png", width: 5.2cm)]
-
-
-由抛物线的定义，可得 $A C=A F=2$，$B D=B F=4$. 所以 $B E=B D-A C=4-2=2$，$A E=sqrt(A B^2-B E^2)=sqrt(9-4)=sqrt(5)$. 所以直线 $A B$ 的斜率 $k_(A B)= tan angle A B E=(A E)/(B E)=(sqrt(5))/(2)$. 故答案为 $(sqrt(5))/(2)$.
+由抛物线的定义，可得 #mi(`AC=AF=2`)，#mi(`BD=BF=4`). 所以 #mi(`BE=BD-AC=4-2=2`)，#mi(`AE=\sqrt{AB^{2}-BE^{2}}=\sqrt{9-4}=\sqrt{5}`). 所以直线 #mi(`AB`) 的斜率 #mi(`k_{AB}=\tan \angle ABE=\frac{AE}{BE}=\frac{\sqrt{5}}{2}`). 故答案为 #mi(`\frac{\sqrt{5}}{2}`).
 ]
 
 #problem(12)[
-已知 $a_i in NN ""^*$（$i=1$，$2$，$...$，$9$），对任意的 $k in NN ""^*$（$2 <= k <= 8$），$a_k=a_(k-1)+1$ 或 $a_k=a_(k+1)-1$ 中有且仅有一个成立，$a_1=6$，$a_9=9$，则 $a_1+ dots.c +a_9$ 的最小值为#blank(){}.
+已知 #mi(`a_{i}\in \mathbb{N}^{*}`)（#mi(`i=1`)，#mi(`2`)，#mi(`\dots`)，#mi(`9`)），对任意的 #mi(`k\in \mathbb{N}^{*}`)（#mi(`2\le k\le 8`)），#mi(`a_{k}=a_{k-1}+1`) 或 #mi(`a_{k}=a_{k+1}-1`) 中有且仅有一个成立，#mi(`a_{1}=6`)，#mi(`a_{9}=9`)，则 #mi(`a_{1}+\cdots+a_{9}`) 的最小值为\underline{\hspace{2.5em}}.
 ]
 
 #answer([31])
 
 #solution[
-设 $b_k=a_(k+1)-a_k$，由题意可得，$b_k$，$b_(k-1)$ 恰有一个为 $1$.
+设 #mi(`b_{k}=a_{k+1}-a_{k}`)，由题意可得，#mi(`b_{k}`)，#mi(`b_{k-1}`) 恰有一个为 #mi(`1`).
 
-如果 $b_1=b_3=b_5=b_7=1$，那么 $a_1=6$，$a_2=7$，$a_3 >= 1$，$a_4=a_3+1 >= 2$. 同样也有，$a_5 >= 1$，$a_6=a_5+1 >= 2$，$a_7 >= 1$，$a_8=a_7+1 >= 2$，全部加起来至少是 $6+7+1+2+1+2+1+2+9=31$.
+如果 #mi(`b_{1}=b_{3}=b_{5}=b_{7}=1`)，那么 #mi(`a_{1}=6`)，#mi(`a_{2}=7`)，#mi(`a_{3}\ge 1`)，#mi(`a_{4}=a_{3}+1\ge 2`). 同样也有，#mi(`a_{5}\ge 1`)，#mi(`a_{6}=a_{5}+1\ge 2`)，#mi(`a_{7}\ge 1`)，#mi(`a_{8}=a_{7}+1\ge 2`)，全部加起来至少是 #mi(`6+7+1+2+1+2+1+2+9=31`).
 
-如果 $b_2=b_4=b_6=b_8=1$，那么 $a_8=8$，$a_2 >= 1$，$a_3=a_2+1 >= 2$. 同样也有，$a_4 >= 1$，$a_5 >= 2$，$a_6 >= 1$，$a_7 >= 2$，全部加起来至少是 $6+1+2+1+2+1+2+8+9=32$.
+如果 #mi(`b_{2}=b_{4}=b_{6}=b_{8}=1`)，那么 #mi(`a_{8}=8`)，#mi(`a_{2}\ge 1`)，#mi(`a_{3}=a_{2}+1\ge 2`). 同样也有，#mi(`a_{4}\ge 1`)，#mi(`a_{5}\ge 2`)，#mi(`a_{6}\ge 1`)，#mi(`a_{7}\ge 2`)，全部加起来至少是 #mi(`6+1+2+1+2+1+2+8+9=32`).
 
-综上所述，最小应该是 $31$. 故答案为 $31$.
+综上所述，最小应该是 #mi(`31`). 故答案为 #mi(`31`).
 ]
 
 #part-header("单选题")
 
 #problem(13)[
 以下哪个函数既是奇函数，又是减函数（ ）
-  #choices([$y=-3 x$], [$y=x^3$], [$y= log _3 x$], [$y=3^x$], cols: 4)
+  #choices([#mi(`y=-3x`)], [#mi(`y=x^{3}`)], [#mi(`y=\log_{3} x`)], [#mi(`y=3^{x}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-$y=-3 x$ 在 $RR$ 上单调递减且为奇函数，$A$ 符合题意.
-因为 $y=x^3$ 在 $RR$ 上是增函数，$B$ 不符合题意.
-$y= log _3 x$，$y=3^x$ 为非奇非偶函数，$C$ 不符合题意.
+#mi(`y=-3x`) 在 #mi(`\mathbb{R}`) 上单调递减且为奇函数，#mi(`A`) 符合题意.
+
+因为 #mi(`y=x^{3}`) 在 #mi(`\mathbb{R}`) 上是增函数，#mi(`B`) 不符合题意.
+
+#mi(`y=\log_{3} x`)，#mi(`y=3^{x}`) 为非奇非偶函数，#mi(`C`) 不符合题意.
+
 故选 A.
 ]
 
 #problem(14)[
-已知参数方程 $x=3 t-4 t^3$，$y=2 t s q r t(1-t^2)$，$t in [-1,1]$，以下哪个图符合该方程（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2021/img/shanghai/q14_fig1.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2021/img/shanghai/q14_fig2.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2021/img/shanghai/q14_fig3.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2021/img/shanghai/q14_fig4.png", height: 100%, fit: "contain")]]], cols: 2)
+已知参数方程 #mi(`x=3t-4t^{3}`)，#mi(`y=2t\sqrt{1-t^{2}}`)，#mi(`t\in[-1,1]`)，以下哪个图符合该方程（ ）
+  #choices([
+#align(center)[#image("/papers/2021/img/shanghai/q14_fig1.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2021/img/shanghai/q14_fig2.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2021/img/shanghai/q14_fig3.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2021/img/shanghai/q14_fig4.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-利用特殊值法进行排除. 当 $y=0$ 时，$t=0$，$1$，$-1$. 当 $t=0$ 时，$x=0$； 当 $t=1$ 时，$x=-1$； 当 $t=-1$ 时，$x=1$. 故当 $y=0$ 时，$x=0$ 或 $1$ 或 $-1$，即图象经过 $(-1,0)$，$(0,0)$，$(1,0)$ 三个点. 对照四个选项中的图象，只有选项 B 符合要求. 故选 B.
+利用特殊值法进行排除. 当 #mi(`y=0`) 时，#mi(`t=0`)，#mi(`1`)，#mi(`-1`). 当 #mi(`t=0`) 时，#mi(`x=0`)； 当 #mi(`t=1`) 时，#mi(`x=-1`)； 当 #mi(`t=-1`) 时，#mi(`x=1`). 故当 #mi(`y=0`) 时，#mi(`x=0`) 或 #mi(`1`) 或 #mi(`-1`)，即图象经过 #mi(`(-1,0)`)，#mi(`(0,0)`)，#mi(`(1,0)`) 三个点. 对照四个选项中的图象，只有选项 B 符合要求. 故选 B.
 ]
 
 #problem(15)[
-已知 $f(x)=3 sin x+2$，对任意的 $x_1 in [ 0,(pi)/(2)]$，都存在 $x_2 in [ 0,(pi)/(2)]$，使得 $f(x_1)=2 f(x_2+ theta )+2$ 成立，则下列选项中，$theta$ 可能的值是（ ）
-  #choices([$(3 pi)/(5)$], [$(4 pi)/(5)$], [$(6 pi)/(5)$], [$(7 pi)/(5)$], cols: 4)
+已知 #mi(`f(x)=3\sin x+2`)，对任意的 #mi(`x_{1}\in\left[ 0,\frac{\pi}{2}\right]`)，都存在 #mi(`x_{2}\in\left[ 0,\frac{\pi}{2}\right]`)，使得 #mi(`f(x_{1})=2f(x_{2}+\theta)+2`) 成立，则下列选项中，#mi(`\theta`) 可能的值是（ ）
+  #choices([#mi(`\dfrac{3\pi}{5}`)], [#mi(`\dfrac{4\pi}{5}`)], [#mi(`\dfrac{6\pi}{5}`)], [#mi(`\dfrac{7\pi}{5}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-因为 $x_1 in [ 0,(pi)/(2)]$，所以 $sin x_1 in [0,1]$，从而 $f(x_1) in [2,5]$. 由题意，对任意的 $x_1 in [ 0,(pi)/(2)]$，都存在 $x_2 in [ 0,(pi)/(2)]$，使得 $f(x_1)=2 f(x_2+ theta )+2$ 成立，因此 $f(x_2+ theta )_( min ) <= 0$，$f(x_2+ theta )_( max ) >= (3)/(2)$. 又 $f(x)=3 sin x+2$，所以 $sin (x_2+ theta )_( min ) <= -(2)/(3)$，$sin (x_2+ theta )_( max ) >= -(1)/(6)$. $y= sin x$ 在 $x in [ (pi)/(2),(3 pi)/(2)]$ 上单调递减.
+因为 #mi(`x_{1}\in\left[ 0,\frac{\pi}{2}\right]`)，所以 #mi(`\sin x_{1}\in[0,1]`)，从而 #mi(`f(x_{1})\in[2,5]`). 由题意，对任意的 #mi(`x_{1}\in\left[ 0,\frac{\pi}{2}\right]`)，都存在 #mi(`x_{2}\in\left[ 0,\frac{\pi}{2}\right]`)，使得 #mi(`f(x_{1})=2f(x_{2}+\theta)+2`) 成立，因此 #mi(`f(x_{2}+\theta)_{\min}\le 0`)，#mi(`f(x_{2}+\theta)_{\max}\ge \frac{3}{2}`). 又 #mi(`f(x)=3\sin x+2`)，所以 #mi(`\sin(x_{2}+\theta)_{\min}\le -\frac{2}{3}`)，#mi(`\sin(x_{2}+\theta)_{\max}\ge -\frac{1}{6}`). #mi(`y=\sin x`) 在 #mi(`x\in\left[ \frac{\pi}{2},\frac{3\pi}{2}\right]`) 上单调递减.
 
-当 $theta =(3 pi)/(5)$ 时，$x_2+ theta in [ (3 pi)/(5),(11 pi)/(10)]$，所以 $sin (x_2+ theta )_( min )= sin (11 pi)/(10)> sin (7 pi)/(6)=-(1)/(2)$，
+当 #mi(`\theta=\frac{3\pi}{5}`) 时，#mi(`x_{2}+\theta\in\left[ \frac{3\pi}{5},\frac{11\pi}{10}\right]`)，所以 #mi(`\sin(x_{2}+\theta)_{\min}=\sin\frac{11\pi}{10}>\sin\frac{7\pi}{6}=-\frac{1}{2}`)，
+
 故 A 选项错误.
 
-当 $theta =(4 pi)/(5)$ 时，$x_2+ theta in [ (4 pi)/(5),(13 pi)/(10)]$，所以 $sin (x_2+ theta )_( min )= sin (13 pi)/(10)< sin (5 pi)/(4)=-(sqrt(2))/(2)<-(2)/(3)$，$sin (x_2+ theta )_( max )= sin (4 pi)/(5)>0$，
+当 #mi(`\theta=\frac{4\pi}{5}`) 时，#mi(`x_{2}+\theta\in\left[ \frac{4\pi}{5},\frac{13\pi}{10}\right]`)，所以 #mi(`\sin(x_{2}+\theta)_{\min}=\sin\frac{13\pi}{10}<\sin\frac{5\pi}{4}=-\frac{\sqrt{2}}{2}<-\frac{2}{3}`)，#mi(`\sin(x_{2}+\theta)_{\max}=\sin\frac{4\pi}{5}>0`)，
+
 故 B 选项正确.
 
-当 $theta =(6 pi)/(5)$ 时，$x_2+ theta in [ (6 pi)/(5),(17 pi)/(10)]$，所以 $sin (x_2+ theta )_( max )= sin (6 pi)/(5)< sin (13 pi)/(12)=-(sqrt(2)-sqrt(6))/(4)<-(1)/(6)$，
+当 #mi(`\theta=\frac{6\pi}{5}`) 时，#mi(`x_{2}+\theta\in\left[ \frac{6\pi}{5},\frac{17\pi}{10}\right]`)，所以 #mi(`\sin(x_{2}+\theta)_{\max}=\sin\frac{6\pi}{5}<\sin\frac{13\pi}{12}=-\frac{\sqrt{2}-\sqrt{6}}{4}<-\frac{1}{6}`)，
+
 故 C 选项错误.
 
-当 $theta =(7 pi)/(5)$ 时，$x_2+ theta in [ (7 pi)/(5),(19 pi)/(10)]$，所以 $sin (x_2+ theta )_( max )= sin (19 pi)/(10)< sin (23 pi)/(12)=-(sqrt(2)-sqrt(6))/(4)<-(1)/(6)$，
+当 #mi(`\theta=\frac{7\pi}{5}`) 时，#mi(`x_{2}+\theta\in\left[ \frac{7\pi}{5},\frac{19\pi}{10}\right]`)，所以 #mi(`\sin(x_{2}+\theta)_{\max}=\sin\frac{19\pi}{10}<\sin\frac{23\pi}{12}=-\frac{\sqrt{2}-\sqrt{6}}{4}<-\frac{1}{6}`)，
+
 故 D 选项错误.
 
 故选 B.
 ]
 
 #problem(16)[
-已知两两不相等的 $x_1$，$y_1$，$x_2$，$y_2$，$x_3$，$y_3$，同时满足 "①"$x_1<y_1$，$x_2<y_2$，$x_3<y_3$；"②"$x_1+y_1=x_2+y_2=x_3+y_3$；"③"$x_(1) y_1+x_(3) y_3=2 x_(2) y_2$，以下哪个选项恒成立（ ）
-  #choices([$2 x_2<x_1+x_3$], [$2 x_2>x_1+x_3$], [$x_2^2<x_(1) x_3$], [$x_2^2>x_(1) x_3$], cols: 2)
+已知两两不相等的 #mi(`x_{1}`)，#mi(`y_{1}`)，#mi(`x_{2}`)，#mi(`y_{2}`)，#mi(`x_{3}`)，#mi(`y_{3}`)，同时满足 ①#mi(`x_{1}<y_{1}`)，#mi(`x_{2}<y_{2}`)，#mi(`x_{3}<y_{3}`)；②#mi(`x_{1}+y_{1}=x_{2}+y_{2}=x_{3}+y_{3}`)；③#mi(`x_{1}y_{1}+x_{3}y_{3}=2x_{2}y_{2}`)，以下哪个选项恒成立（ ）
+  #choices([#mi(`2x_{2}<x_{1}+x_{3}`)], [#mi(`2x_{2}>x_{1}+x_{3}`)], [#mi(`x_{2}^{2}<x_{1}x_{3}`)], [#mi(`x_{2}^{2}>x_{1}x_{3}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-设 $x_1+y_1=x_2+y_2=x_3+y_3=2 m$，$x_1=m-a$，$y_1=m+a$，$x_2=m-b$，$y_2=m+b$，$x_3=m-c$，$y_3=m+c$. 根据题意，应该有 $a != b != c$，$a$，$b$，$c>0$，且 $m^2-a^2+m^2-c^2=2( m^2-b^2 )>0$，则有 $\b e g i n{c a s e s} a^2+c^2=2 b^2,\\ m^2>b^2. \e n d{c a s e s}$ 则 $x_1+x_3-2 x_2=( m-a )+( m-c )-2( m-b )=2 b-( a+c )$. 因为 $( 2 b )^2-( a+c )^2=2( a^2+c^2 )-( a+c )^2>0$，所以 $x_1+x_3-2 x_2=2 b-( a+c )>0$. 所以 A 项正确，B 错误. $x_(1) x_3-x_2^2=( m-a )( m-c )-( m-b )^2=( 2 b-a-c )m-(( a-c )^2)/(2)$. 而上面已证 $( 2 b-a-c )>0$，因为不知道 $m$ 的正负，所以该式子的正负无法恒定. 故选 A.
+设 #mi(`x_{1}+y_{1}=x_{2}+y_{2}=x_{3}+y_{3}=2m`)，#mi(`x_{1}=m-a`)，#mi(`y_{1}=m+a`)，#mi(`x_{2}=m-b`)，#mi(`y_{2}=m+b`)，#mi(`x_{3}=m-c`)，#mi(`y_{3}=m+c`). 根据题意，应该有 #mi(`a\ne b\ne c`)，#mi(`a`)，#mi(`b`)，#mi(`c>0`)，且 #mi(`m^{2}-a^{2}+m^{2}-c^{2}=2\left( m^{2}-b^{2} \right)>0`)，则有 #mi(`\begin{cases}a^{2}+c^{2}=2b^{2},\\  m^{2}>b^{2}.\end{cases}`) 则 #mi(`x_{1}+x_{3}-2x_{2}=\left( m-a \right)+\left( m-c \right)-2\left( m-b \right)=2b-\left( a+c \right)`). 因为 #mi(`\left( 2b \right)^{2}-\left( a+c \right)^{2}=2\left( a^{2}+c^{2} \right)-\left( a+c \right)^{2}>0`)，所以 #mi(`x_{1}+x_{3}-2x_{2}=2b-\left( a+c \right)>0`). 所以 A 项正确，B 错误. #mi(`x_{1}x_{3}-x_{2}^{2}=\left( m-a \right)\left( m-c \right)-\left( m-b \right)^{2}=\left( 2b-a-c \right)m-\frac{\left( a-c \right)^{2}}{2}`). 而上面已证 #mi(`\left( 2b-a-c \right)>0`)，因为不知道 #mi(`m`) 的正负，所以该式子的正负无法恒定. 故选 A.
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-如图，在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，已知 $A B=B C=2$，$A A_1=3$.
+如图，在长方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，已知 #mi(`AB=BC=2`)，#mi(`AA_{1}=3`).
 
 
-+ (1) 若 $P$ 是棱 $A_(1) D_1$ 上的动点，求三棱锥 $C-P A D$ 的体积；
-+ (2) 求直线 $A B_1$ 与平面 $A C C_(1) A_1$ 的夹角大小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2021/img/shanghai/q17_fig1.png", width: 5.2cm)]
+
+#align(center)[#image("/papers/2021/img/shanghai/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 因为平面 $P A D$ 就是长方体的左侧面，点 $C$ 到平面 $P A D$ 的距离为 $B C=2$. 又 $S_( triangle P A D)=(1)/(2) times A D times A A_1=(1)/(2) times 2 times 3 =3$，所以 $V_(C-P A D)=(1)/(3)S_( triangle P A D) times 2 =(1)/(3) times 3 times 2 =2$.
-+ (2) 连接 $A_(1) C_1$ 与 $B_(1) D_1$，交于点 $O$. 因为 $A B=B C$，所以四边形 $A_(1) B_(1) C_(1) D_1$ 为正方形，则 $O B_1 bot O A_1$. 又 $A A_1 bot O B_1$，$O A_1 inter A A_1=A_1$，所以 $O B_1 bot$ 平面 $A C C_(1) A_1$. 于是直线 $A B_1$ 与平面 $A C C_(1) A_1$ 所成的角为 $angle O A B_1$，且 $sin angle O A B_1=(O B_1)/(A B_1)=((sqrt(2^2+2^2))/(2))/(sqrt(2^2+3^2))=(sqrt(26))/(13)$. 所以直线 $A B_1$ 与平面 $A C C_(1) A_1$ 所成的角为 $arcsin (sqrt(26))/(13)$.
++ (1) 
 
 
-#align(center)[#image("/papers/2021/img/shanghai/q17_solution_fig1.png", width: 5.2cm)]
+
+ 
+#align(center)[#image("/papers/2021/img/shanghai/q17_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(18)[
-在 $triangle A B C$ 中，已知 $a=3$，$b=2 c$.
+在 #mi(`\triangle ABC`) 中，已知 #mi(`a=3`)，#mi(`b=2c`).
 
 
-+ (1) 若 $A=(2 pi)/(3)$，求 $S_( triangle A B C)$；
-+ (2) 若 $2 sin B- sin C=1$，求 $C_( triangle A B C)$.
++ (1)
 ]
 
 #solution[
-+ (1) 由余弦定理得 $cos A=-(1)/(2)=(b^2+c^2-a^2)/(2 b c)=(5 c^2-9)/(4 c^2)$，解得 $c^2=(9)/(7)$. 所以 $S_( triangle A B C)=(1)/(2)b c sin A=(sqrt(3))/(4) times 2 c^2=(9 sqrt(3))/(14)$.
-+ (2) 因为 $b=2 c$，所以由正弦定理得 $sin B=2 sin C$. 又 $2 sin B- sin C=1$，所以 $sin C=(1)/(3)$，$sin B=(2)/(3)$. 因为 $sin C< sin B$，所以 $C<B$，故 $C$ 为锐角，$cos C=sqrt(1-( (1)/(3))^2)=(2 sqrt(2))/(3)$. 由余弦定理得 $c^2=a^2+b^2-2 a b cos C$. 又 $a=3$，$b=2 c$，所以 $c^2=9+4 c^2-8 sqrt(2)c$，即 $3 c^2-8 sqrt(2)c+9=0$，解得 $c=(4 sqrt(2) +- sqrt(5))/(3)$.
-
-当 $c=(4 sqrt(2)+sqrt(5))/(3)$ 时，$b=(8 sqrt(2)+2 sqrt(5))/(3)$，所以 $C_( triangle A B C)=3+4 sqrt(2)+sqrt(5)$.
-
-当 $c=(4 sqrt(2)-sqrt(5))/(3)$ 时，$b=(8 sqrt(2)-2 sqrt(5))/(3)$，所以 $C_( triangle A B C)=3+4 sqrt(2)-sqrt(5)$.
++ (1)
 ]
 
 #problem(19)[
-已知一企业今年第一季度的营业额为 $1.1$ 亿元，往后每个季度增加 $0.05$ 亿元，第一季度的利润为 $0.16$ 亿元，往后每一季度比前一季度增长 $4\%$.
+已知一企业今年第一季度的营业额为 #mi(`1.1`) 亿元，往后每个季度增加 #mi(`0.05`) 亿元，第一季度的利润为 #mi(`0.16`) 亿元，往后每一季度比前一季度增长 #mi(`4\%`).
 
 
-+ (1) 求今年起的前 $20$ 个季度的总营业额；
-+ (2) 请问哪一季度的利润首次超过该季度营业额的 $18\%$？
++ (1)
 ]
 
 #solution[
-+ (1) 由题意可知，可将每个季度的营业额看作等差数列，则首项 $a_1=1.1$，公差 $d=0.05$. 所以 $S_(20)=20 a_1+(20( 20-1 ))/(2)d=20 times 1 .1+10 times 19 times 0 .05=31.5$. 即营业额前 $20$ 个季度的和为 $31.5$ 亿元.
-+ (2) 【法一】假设今年第一季度往后的第 $n$（$n in NN ""^*$）季度的利润首次超过该季度营业额的 $18\%$，则 $0.16 times ( 1+4\% )^n>( 1.1+0.05 n ) dot 18 \%$. 令 $f(n)=0.16 times ( 1+4\% )^n-( 1.1+0.05 n ) dot 18 \%$，$n in NN ""^*$，即要解 $f(n)>0$. 则当 $n >= 2$ 时，$f(n)-f(n-1)=0.0064 dot ( 1+4\% )^(n-1)-0.009$. 令 $f(n)-f(n-1)>0$，解得 $n >= 10$，即当 $1 <= n <= 9$ 时，$f(n)$ 递减；当 $n >= 10$ 时，$f(n)$ 递增. 由于 $f(1)<0$，因此 $f(n)>0$ 的解只能在 $n >= 10$ 时取得. 经检验，$f(24)<0$，$f(25)>0$，所以今年第一季度往后的第 $25$ 个季度的利润首次超过该季度营业额的 $18\%$.
-
-【法二】设今年第一季度往后的第 $n$（$n in NN ""^*$）季度的利润与该季度营业额的比为 $a_n$，则 $(a_(n+1))/(a_n)=(1.04( 1.05+0.05 n ))/(1.1+0.05 n)=1.04-(1.04)/(22+n)=1+0.04( 1-(26)/(22+n))$，所以数列 $\{a_n\}$ 满足 $a_1>a_2>a_3>a_4=a_5<a_6<a_7< dots.c$. 注意到，$a_(25)=0.178 dots.c$，$a_(26)=0.181 dots.c$，所以今年第一季度往后的第 $25$ 个季度利润首次超过该季度营业额的 $18\%$.
++ (1)
 ]
 
 #problem(20)[
-已知椭圆 $Gamma :(x^2)/(2)+y^2=1$，$F_1$，$F_2$ 是其左，右焦点，直线 $l$ 过点 $P(m,0)$（$m <= -sqrt(2)$），交椭圆于 $A$，$B$ 两点，且 $A$，$B$ 在 $x$ 轴上方，点 $A$ 在线段 $B P$ 上.
+已知椭圆 #mi(`\Gamma:\frac{x^{2}}{2}+y^{2}=1`)，#mi(`F_{1}`)，#mi(`F_{2}`) 是其左，右焦点，直线 #mi(`l`) 过点 #mi(`P(m,0)`)（#mi(`m\le -\sqrt{2}`)），交椭圆于 #mi(`A`)，#mi(`B`) 两点，且 #mi(`A`)，#mi(`B`) 在 #mi(`x`) 轴上方，点 #mi(`A`) 在线段 #mi(`BP`) 上.
 
 
-+ (1) 若 $B$ 是上顶点，$| arrow(B F_1)|=| arrow(P F_1)|$，求 $m$ 的值；
-+ (2) 若 $arrow(F_(1) A) dot arrow(F_(2) A)=(1)/(3)$，且原点 $O$ 到直线 $l$ 的距离为 $(4 sqrt(15))/(15)$，求直线 $l$ 的方程；
-+ (3) 证明：对于任意 $m<-sqrt(2)$，使得 $arrow(F_(1) A) parallel arrow(F_(2) B)$ 的直线有且仅有一条.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 因为 $Gamma$ 的方程为 $(x^2)/(2)+y^2=1$，所以 $a^2=2$，$b^2=1$，从而 $c^2=a^2-b^2=1$. 所以 $F_1(-1,0)$，$F_2(1,0)$. 若 $B$ 为 $Gamma$ 的上顶点，则 $B(0,1)$，所以 $| B F_1 |=sqrt(2)$，$| P F_1 |=-1-m$. 又 $| B F_1 |=| P F_1 |$，所以 $m=-1-sqrt(2)$.
-+ (2) 设点 $A( sqrt(2) cos theta , sin theta )$，则 $arrow(F_(1) A) dot arrow(F_(2) A)=( sqrt(2) cos theta +1 )( sqrt(2) cos theta -1 )+ sin ""^2 theta =2 cos ""^2 theta -1+ sin ""^2 theta =(1)/(3)$. 因为 $A$ 在线段 $B P$ 上，横坐标小于 $0$，解得 $cos theta =-(sqrt(3))/(3)$. 故 $A( -(sqrt(6))/(3),(sqrt(6))/(3))$. 设直线 $l$ 的方程为 $y=k x+(sqrt(6))/(3)k+(sqrt(6))/(3)$（$k>0$）. 由原点 $O$ 到直线 $l$ 的距离为 $(4 sqrt(15))/(15)$，$(| (sqrt(6))/(3)k+(sqrt(6))/(3)|)/(sqrt(1+k^2))=(4 sqrt(15))/(15)$，化简可得 $3 k^2-10 k+3=0$，解得 $k=3$ 或 $k=(1)/(3)$. 故直线 $l$ 的方程为 $y=3 x+(4 sqrt(6))/(3)$ 或 $y=(1)/(3)x+(4 sqrt(6))/(9)$. 其中 $y=3 x+(4 sqrt(6))/(3)$ 舍去，无法满足 $m<-sqrt(2)$. 所以直线 $l$ 的方程为 $y=(1)/(3)x+(4 sqrt(6))/(9)$.
-+ (3) 联立方程组
-\examdisplaycases{}{
-y=kx-km,\\
-\frac{x^2}{2}+y^2=1,
-}
-可得 $( 1+2 k^2 )x^2-4 k^(2) m x+2 k^(2) m^2-2=0$. 设 $A(x_1,y_1)$，$B(x_2,y_2)$，则 $x_1+x_2=(4 k^(2) m)/(1+2 k^2)$，$x_(1) x_2=(2 k^(2) m^2-2)/(1+2 k^2)$. 因为 $arrow(F_(1) A) parallel arrow(F_(2) B)$，所以 $( x_2-1 )y_1=( x_1+1 )y_2$. 又 $y=k x-k m$，故化简为 $x_1-x_2=-(2)/(1+2 k^2)$. 又
-
-$ | x_1-x_2 | =sqrt(( x_1+x_2 )^2-4 x_(1) x_2)=(sqrt(16 k^2-8 k^(2) m^2+8))/(1+2 k^2)=| -(2)/(1+2 k^2)| $
-
-两边同时平方可得 $4 k^2-2 k^(2) m^2+1=0$，整理可得 $k^2=-(1)/(4-2 m^2)$. 当 $m<-sqrt(2)$ 时，$k^2=-(1)/(4-2 m^2)>0$. 因为点 $A$，$B$ 在 $x$ 轴上方，所以 $k$ 有且仅有一个解. 故对于任意 $m<-sqrt(2)$，使得 $arrow(F_(1) A) parallel arrow(F_(2) B)$ 的直线有且仅有一条.
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-已知 $x_1$，$x_2 in RR$，若对任意的 $x_2-x_1 in S$，$f(x_2)-f(x_1) in S$，则有定义：$f(x)$ 是在 $S$ 关联的.
+已知 #mi(`x_{1}`)，#mi(`x_{2}\in \mathbb{R}`)，若对任意的 #mi(`x_{2}-x_{1}\in S`)，#mi(`f(x_{2})-f(x_{1})\in S`)，则有定义：#mi(`f(x)`) 是在 #mi(`S`) 关联的.
 
 
-+ (1) 判断和证明 $f(x)=2 x-1$ 是否在 $[0,+ oo )$ 关联？是否有 $[0,1]$ 关联？
-+ (2) 若 $f(x)$ 是在 $\{3\}$ 关联的，$f(x)$ 在 $x in [0,3)$ 时，$f(x)=x^2-2 x$，求解不等式 $2 <= f(x) <= 3$；
-+ (3) 证明：$f(x)$ 是 $\{1\}$ 关联的，且是在 $[0,+ oo )$ 关联的，当且仅当“$f(x)$ 在 $[1,2]$ 是关联的”.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) $f(x)$ 在 $[0,+ oo )$ 关联，在 $[0,1]$ 不关联. 任取 $x_1-x_2 in [0,+ oo )$，则 $f(x_1)-f(x_2)=2( x_1-x_2 ) in [0,+ oo )$. 所以 $f(x)$ 在 $[0,+ oo )$ 关联.
-
-取 $x_1=1$，$x_2=0$，则 $x_1-x_2=1 in [0,1]$，$f(x_1)-f(x_2)=2( x_1-x_2 )=2 in.not [0,1]$. 所以 $f(x)$ 在 $[0,1]$ 不关联.
-+ (2) 因为 $f(x)$ 在 $\{3\}$ 关联，所以对于任意 $x_1-x_2=3$，都有 $f(x_1)-f(x_2)=3$. 所以对任意 $x$，都有 $f(x+3)-f(x)=3$. 由 $x in [0,3)$ 时，$f(x)=x^2-2 x$，得 $f(x)$ 在 $x in [0,3)$ 的值域为 $[-1,3)$. 所以 $f(x)$ 在 $x in [3,6)$ 的值域为 $[2,6)$. 因此 $2 <= f(x) <= 3$ 仅在 $x in [0,3)$ 或 $x in [3,6)$ 上有解.
-
-当 $x in [0,3)$ 时，$f(x)=x^2-2 x$. 令 $2 <= x^2-2 x <= 3$，解得 $sqrt(3)+1 <= x<3$.
-
-当 $x in [3,6)$ 时，$f(x)=f(x-3)+3=x^2-8 x+18$. 令 $2 <= x^2-8 x+18 <= 3$，解得 $3 <= x <= 5$.
-
-所以不等式 $2 <= f(x) <= 3$ 的解为 $[sqrt(3)+1,5]$.
-+ (3) 先证明：$f(x)$ 是在 $\{1\}$ 关联的，且是在 $[0,+ oo )$ 关联的 $=> f(x)$ 在 $[1,2]$ 是关联的. 由已知条件可得 $f(x+1)=f(x)+1$，所以 $f(x+n)=f(x)+n$，$n in ZZ$. 又因为 $f(x)$ 是在 $[0,+ oo )$ 关联的，所以任意 $x_2>x_1$，都有 $f(x_2)>f(x_1)$. 若 $1 <= x_2-x_1 <= 2$，则 $x_1+1 <= x_2 <= x_1+2$，从而 $f(x_1+1) <= f(x_2) <= f(x_1+2)$，即 $f(x_1)+1 <= f(x_2) <= f(x_1)+2$，所以 $1 <= f(x_2)-f(x_1) <= 2$. 因此 $f(x)$ 是 $[1,2]$ 关联.
-
-再证明：$f(x)$ 在 $[1,2]$ 是关联的 $=> f(x)$ 是在 $\{1\}$ 关联的，且是在 $[0,+ oo )$ 关联的. 因为 $f(x)$ 在 $[1,2]$ 是关联的，所以任取 $x_1-x_2 in [1,2]$，都有 $f(x_1)-f(x_2) in [1,2]$. 下面用反证法证明 $f(x+1)-f(x)=1$. 若 $f(x+1)-f(x)>1$，则 $f(x+2)-f(x)=f(x+2)-f(x+1)+f(x+1)-f(x)>2$，这与 $f(x)$ 在 $[1,2]$ 是关联的矛盾. 若 $f(x+1)-f(x)<1$，而 $f(x)$ 在 $[1,2]$ 是关联的，则 $f(x+1)-f(x) >= 1$，矛盾. 所以 $f(x+1)-f(x)=1$ 成立，即 $f(x)$ 是在 $\{1\}$ 关联的. 再证明 $f(x)$ 是在 $[0,+ oo )$ 关联的. 任取 $x_1-x_2 in [n,+ oo )$（$n in NN$），则存在 $n in NN$，使得 $x_1-x_2 in [n,n+1]$. 于是 $1 <= x_1-(n-1)-x_2 <= 2$. 所以 $f[ x_1-(n-1) ]-f(x_2)=f(x_1)-(n-1)-f(x_2) in [1,2]$. 从而 $f(x_1)-f(x_2) in [n,n+1] subset [0,+ oo )$. 因此 $f(x)$ 是在 $[0,+ oo )$ 关联的.
-
-综上所述，$f(x)$ 是 $\{1\}$ 关联的，且是在 $[0,+ oo )$ 关联的，当且仅当“$f(x)$ 在 $[1,2]$ 是关联的”.
++ (1) 
++ (2)
 ]
 

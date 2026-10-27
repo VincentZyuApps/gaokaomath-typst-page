@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,444 +11,393 @@
 #part-header("单选题")
 
 #problem(1)[
-设集合 $A=\{1,2,4,6\}$，$B=\{2,4\}$，$C=\{x in RR | -1 <= x <= 5 \}$，则 $(A union B) inter C=$（ ）
-  #choices([$\{2\}$], [$\{1,2,4\}$], [$\{1,2,4,5\}$], [$\{x in RR | -1 <= x <= 5 \}$], cols: 2)
+设集合 #mi(`A=\{1,2,4,6\}`)，#mi(`B=\{2,4\}`)，#mi(`C=\{x\in\mathbb{R}\mid -1\le x\le 5\}`)，则 #mi(`(A\cup B)\cap C=`)（ ）
+  #choices([#mi(`\{2\}`)], [#mi(`\{1,2,4\}`)], [#mi(`\{1,2,4,5\}`)], [#mi(`\{x\in\mathbb{R}\mid -1\le x\le 5\}`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-因为 $B=\{2,4\} subset A$，所以 $A union B=A=\{1,2,4,6\}$. 集合 $C$ 包含 $1$，$2$，$4$，但不包含 $6$，故
-$(A union B) inter C=\{1,2,4\}$.
+因为 #mi(`B=\{2,4\}\subset A`)，所以 #mi(`A\cup B=A=\{1,2,4,6\}`). 集合 #mi(`C`) 包含 #mi(`1`)，#mi(`2`)，#mi(`4`)，但不包含 #mi(`6`)，故
+
+#mi(`(A\cup B)\cap C=\{1,2,4\}`).
 
 故选 B.
 ]
 
 #problem(2)[
-设变量 $x$，$y$ 满足约束条件
-$\b e g i n{c a s e s} 2 x+y >= 0 ,\\ x+2 y-2 >= 0 ,\\ x <= 0 ,\\ y <= 3 , \e n d{c a s e s}$
-则目标函数 $z=x+y$ 的最大值为（ ）
-  #choices([$(2)/(3)$], [$1$], [$(3)/(2)$], [$3$], cols: 4)
+设变量 #mi(`x`)，#mi(`y`) 满足约束条件
+
+#mi(`\begin{cases}2x+y\ge 0,\\  x+2y-2\ge 0,\\  x\le 0,\\  y\le 3,\end{cases}`)
+
+则目标函数 #mi(`z=x+y`) 的最大值为（ ）
+  #choices([#mi(`\dfrac{2}{3}`)], [#mi(`1`)], [#mi(`\dfrac{3}{2}`)], [#mi(`3`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由约束条件 $x\l e q 0$ 和 $y\l e q 3$，得目标函数
-$z=x+y\l e q 0+3=3$. 点 $(0,3)$ 满足
-$2 x+y=3\g e q 0$，$x+2 y-2=4\g e q 0$，$x=0\l e q 0$，$y=3\l e q 3$，且此时 $z=3$.
+由约束条件 #mi(`x\leq 0`) 和 #mi(`y\leq 3`)，得目标函数
 
-因此 $z$ 的最大值为 $3$，故选 D.
+#mi(`z=x+y\leq 0+3=3`). 点 #mi(`(0,3)`) 满足
+
+#mi(`2x+y=3\geq 0`)，#mi(`x+2y-2=4\geq 0`)，#mi(`x=0\leq 0`)，#mi(`y=3\leq 3`)，且此时 #mi(`z=3`).
+
+因此 #mi(`z`) 的最大值为 #mi(`3`)，故选 D.
 ]
 
 #problem(3)[
-阅读右面的程序框图，运行相应的程序，若输入 $N$ 的值为 $24$，则输出 $N$ 的值为（ ）
+阅读右面的程序框图，运行相应的程序，若输入 #mi(`N`) 的值为 #mi(`24`)，则输出 #mi(`N`) 的值为（ ）
 
 
-#align(center)[#image("/papers/2017/img/tianjin_science/q3_fig1.png", width: 4.8cm)]
-  #choices([$0$], [$1$], [$2$], [$3$], cols: 4)
+#align(center)[#image("/papers/2017/img/tianjin_science/q3_fig1.png", width: 28%)]
+
+  #choices([#mi(`0`)], [#mi(`1`)], [#mi(`2`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-按照程序框图，$N=24$ 能被 $3$ 整除，第一次循环后 $N=24\div 3 =8$. 此时 $8$ 不能被 $3$ 整除，依次减去 $1$ 得 $N=7$；$7$ 不能被 $3$ 整除，得 $N=6$.
+按照程序框图，#mi(`N=24`) 能被 #mi(`3`) 整除，第一次循环后 #mi(`N=24\div 3=8`). 此时 #mi(`8`) 不能被 #mi(`3`) 整除，依次减去 #mi(`1`) 得 #mi(`N=7`)；#mi(`7`) 不能被 #mi(`3`) 整除，得 #mi(`N=6`).
 
-此时 $6$ 能被 $3$ 整除，得 $N=2$，且 $2\l e q 3$，程序输出 $2$. 故选 C.
+此时 #mi(`6`) 能被 #mi(`3`) 整除，得 #mi(`N=2`)，且 #mi(`2\leq 3`)，程序输出 #mi(`2`). 故选 C.
 ]
 
 #problem(4)[
-设 $theta in RR$，则“$| theta -(pi)/(12)|<(pi)/(12)$”是“$sin theta <(1)/(2)$”的（ ）
+设 #mi(`\theta\in\mathbb{R}`)，则“#mi(`\left|\theta-\dfrac{\pi}{12}\right|<\dfrac{\pi}{12}`)”是“#mi(`\sin\theta<\dfrac{1}{2}`)”的（ ）
   #choices([充分而不必要条件], [必要而不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-令命题 $p$ 为 $| theta -(pi)/(12)|<(pi)/(12)$，命题 $q$ 为 $sin theta <(1)/(2)$. 由 $p$ 得
-$0< theta <(pi)/(6)$，从而 $0< sin theta < sin (pi)/(6)=(1)/(2)$，所以 $p$ 能推出 $q$.
+令命题 #mi(`p`) 为 #mi(`\left|\theta-\dfrac{\pi}{12}\right|<\dfrac{\pi}{12}`)，命题 #mi(`q`) 为 #mi(`\sin\theta<\dfrac{1}{2}`). 由 #mi(`p`) 得
 
-但取 $theta =-(pi)/(6)$，有 $sin theta =-(1)/(2)<(1)/(2)$，而
-$| theta -(pi)/(12)|=(pi)/(4)>(pi)/(12)$，所以 $q$ 不能推出 $p$.
+#mi(`0<\theta<\dfrac{\pi}{6}`)，从而 #mi(`0<\sin\theta<\sin\dfrac{\pi}{6}=\dfrac{1}{2}`)，所以 #mi(`p`) 能推出 #mi(`q`).
 
-因此，$p$ 是 $q$ 的充分而不必要条件，故选 A.
+但取 #mi(`\theta=-\dfrac{\pi}{6}`)，有 #mi(`\sin\theta=-\dfrac{1}{2}<\dfrac{1}{2}`)，而
+
+#mi(`\left|\theta-\dfrac{\pi}{12}\right|=\dfrac{\pi}{4}>\dfrac{\pi}{12}`)，所以 #mi(`q`) 不能推出 #mi(`p`).
+
+因此，#mi(`p`) 是 #mi(`q`) 的充分而不必要条件，故选 A.
 ]
 
 #problem(5)[
-已知双曲线 $(x^2)/(a^2)-(y^2)/(b^2)=1$（$a>0$，$b>0$）的左焦点为 $F$，离心率为 $sqrt(2)$. 若经过 $F$ 和 $P(0,4)$ 两点的直线平行于双曲线的一条渐近线，则双曲线的方程为（ ）
-  #choices([$(x^2)/(4)-(y^2)/(4)=1$], [$(x^2)/(8)-(y^2)/(8)=1$], [$(x^2)/(4)-(y^2)/(8)=1$], [$(x^2)/(8)-(y^2)/(4)=1$], cols: 2)
+已知双曲线 #mi(`\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1`)（#mi(`a>0`)，#mi(`b>0`)）的左焦点为 #mi(`F`)，离心率为 #mi(`\sqrt{2}`). 若经过 #mi(`F`) 和 #mi(`P(0,4)`) 两点的直线平行于双曲线的一条渐近线，则双曲线的方程为（ ）
+  #choices([#mi(`\dfrac{x^2}{4}-\dfrac{y^2}{4}=1`)], [#mi(`\dfrac{x^2}{8}-\dfrac{y^2}{8}=1`)], [#mi(`\dfrac{x^2}{4}-\dfrac{y^2}{8}=1`)], [#mi(`\dfrac{x^2}{8}-\dfrac{y^2}{4}=1`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-设双曲线的半焦距为 $c$，则 $c^2=a^2+b^2$，且由离心率得
-$(c)/(a)=sqrt(2)$，所以 $c^2=2 a^2$，进而 $b^2=a^2$. 左焦点为
-$F=(-c,0)=(-sqrt(2)a,0)$，故直线 $F P$ 的斜率为
-$(4)/(sqrt(2)a)=(2 sqrt(2))/(a)$.
+设双曲线的半焦距为 #mi(`c`)，则 #mi(`c^{2}=a^{2}+b^{2}`)，且由离心率得
 
-双曲线的渐近线斜率为 $+- (b)/(a)= +- 1$. 由于直线 $F P$ 斜率为正，题设表明
-$(2 sqrt(2))/(a)=1$，所以 $a=2 sqrt(2)$，即 $a^2=b^2=8$.
+#mi(`\dfrac{c}{a}=\sqrt{2}`)，所以 #mi(`c^{2}=2a^{2}`)，进而 #mi(`b^{2}=a^{2}`). 左焦点为
 
-因此双曲线方程为 $(x^2)/(8)-(y^2)/(8)=1$，故选 B.
+#mi(`F=(-c,0)=(-\sqrt{2}a,0)`)，故直线 #mi(`FP`) 的斜率为
+
+#mi(`\dfrac{4}{\sqrt{2}a}=\dfrac{2\sqrt{2}}{a}`).
+
+双曲线的渐近线斜率为 #mi(`\pm\dfrac{b}{a}=\pm1`). 由于直线 #mi(`FP`) 斜率为正，题设表明
+
+#mi(`\dfrac{2\sqrt{2}}{a}=1`)，所以 #mi(`a=2\sqrt{2}`)，即 #mi(`a^{2}=b^{2}=8`).
+
+因此双曲线方程为 #mi(`\dfrac{x^2}{8}-\dfrac{y^2}{8}=1`)，故选 B.
 ]
 
 #problem(6)[
-已知奇函数 $f(x)$ 在 $RR$ 上是增函数，$g(x)=x f(x)$. 若 $a=g(- log _2 5.1)$，$b=g(2^(0.8))$，$c=g(3)$，则 $a$，$b$，$c$ 的大小关系为（ ）
-  #choices([$a<b<c$], [$c<b<a$], [$b<a<c$], [$b<c<a$], cols: 4)
+已知奇函数 #mi(`f(x)`) 在 #mi(`\mathbb{R}`) 上是增函数，#mi(`g(x)=xf(x)`). 若 #mi(`a=g(-\log_{2} 5.1)`)，#mi(`b=g(2^{0.8})`)，#mi(`c=g(3)`)，则 #mi(`a`)，#mi(`b`)，#mi(`c`) 的大小关系为（ ）
+  #choices([#mi(`a<b<c`)], [#mi(`c<b<a`)], [#mi(`b<a<c`)], [#mi(`b<c<a`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由 $f(x)$ 为奇函数且在 $RR$ 上递增，知 $f(0)=0$，并且当 $x>0$ 时 $f(x)>0$. 对 $0\l e q u<v$，有
-$g(v)-g(u)=v[f(v)-f(u)]+(v-u)f(u)>0$，所以 $g$ 在 $[0,+ oo )$ 上递增.
+由 #mi(`f(x)`) 为奇函数且在 #mi(`\mathbb{R}`) 上递增，知 #mi(`f(0)=0`)，并且当 #mi(`x>0`) 时 #mi(`f(x)>0`). 对 #mi(`0\leq u<v`)，有
 
-又由奇偶性，$g(-x)=(-x)f(-x)=x f(x)=g(x)$，所以 $g$ 是偶函数.由于
-$2^(0.8)<2< log _2 5.1<3$，故
-$g(2^(0.8))<g( log _2 5.1)<g(3)$. 因此
-$b<a<c$，故选 C.
+#mi(`g(v)-g(u)=v[f(v)-f(u)]+(v-u)f(u)>0`)，所以 #mi(`g`) 在 #mi(`[0,+\infty)`) 上递增.
+
+又由奇偶性，#mi(`g(-x)=(-x)f(-x)=xf(x)=g(x)`)，所以 #mi(`g`) 是偶函数.由于
+
+#mi(`2^{0.8}<2<\log_{2} 5.1<3`)，故
+
+#mi(`g(2^{0.8})<g(\log_{2} 5.1)<g(3)`). 因此
+
+#mi(`b<a<c`)，故选 C.
 ]
 
 #problem(7)[
-设函数 $f(x)=2 sin ( omega x+ phi.alt )$，$x in RR$，其中 $omega >0$，$| phi.alt |< pi$. 若 $f((5 pi)/(8))=2$，$f((11 pi)/(8))=0$，且 $f(x)$ 的最小正周期大于 $2 pi$，则（ ）
-  #choices([$omega =(2)/(3)$，$phi.alt =(pi)/(12)$], [$omega =(2)/(3)$，$phi.alt =-(11 pi)/(12)$], [$omega =(1)/(3)$，$phi.alt =-(11 pi)/(24)$], [$omega =(1)/(3)$，$phi.alt =(7 pi)/(24)$], cols: 1)
+设函数 #mi(`f(x)=2\sin(\omega x+\varphi)`)，#mi(`x\in\mathbb{R}`)，其中 #mi(`\omega>0`)，#mi(`|\varphi|<\pi`). 若 #mi(`f\left(\dfrac{5\pi}{8}\right)=2`)，#mi(`f\left(\dfrac{11\pi}{8}\right)=0`)，且 #mi(`f(x)`) 的最小正周期大于 #mi(`2\pi`)，则（ ）
+  #choices([#mi(`\omega=\dfrac{2}{3}`)，#mi(`\varphi=\dfrac{\pi}{12}`)], [#mi(`\omega=\dfrac{2}{3}`)，#mi(`\varphi=-\dfrac{11\pi}{12}`)], [#mi(`\omega=\dfrac{1}{3}`)，#mi(`\varphi=-\dfrac{11\pi}{24}`)], [#mi(`\omega=\dfrac{1}{3}`)，#mi(`\varphi=\dfrac{7\pi}{24}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-由 $f((5 pi)/(8))=2$，得
-$sin ((5 pi omega)/(8)+ phi.alt )=1$，所以存在 $k in ZZ$，使
-$(5 pi omega)/(8)+ phi.alt =(pi)/(2)+2 k pi$. 由
-$f((11 pi)/(8))=0$，得存在 $l in ZZ$，使
-$(11 pi omega)/(8)+ phi.alt =l pi$. 两式相减，得到
-$omega =(2(2 l-4 k-1))/(3)$.
+由 #mi(`f\left(\dfrac{5\pi}{8}\right)=2`)，得
 
-函数的最小正周期为 $(2 pi)/(omega)>2 pi$，故 $0< omega <1$. 于是奇整数 $2 l-4 k-1$ 只能取 $1$，从而 $omega =(2)/(3)$. 代入第一式得
-$phi.alt =(\p)/(i){12}+2 k pi$. 结合 $| phi.alt |< pi$，可知 $k=0$，即 $phi.alt =(\p)/(i){12}$.
+#mi(`\sin\left(\dfrac{5\pi\omega}{8}+\varphi\right)=1`)，所以存在 #mi(`k\in\mathbb{Z}`)，使
+
+#mi(`\dfrac{5\pi\omega}{8}+\varphi=\dfrac\pi2+2k\pi`). 由
+
+#mi(`f\left(\dfrac{11\pi}{8}\right)=0`)，得存在 #mi(`l\in\mathbb{Z}`)，使
+
+#mi(`\dfrac{11\pi\omega}{8}+\varphi=l\pi`). 两式相减，得到
+
+#mi(`\omega=\dfrac{2(2l-4k-1)}{3}`).
+
+函数的最小正周期为 #mi(`\dfrac{2\pi}{\omega}>2\pi`)，故 #mi(`0<\omega<1`). 于是奇整数 #mi(`2l-4k-1`) 只能取 #mi(`1`)，从而 #mi(`\omega=\dfrac{2}{3}`). 代入第一式得
+
+#mi(`\varphi=\dfrac\pi{12}+2k\pi`). 结合 #mi(`|\varphi|<\pi`)，可知 #mi(`k=0`)，即 #mi(`\varphi=\dfrac\pi{12}`).
 
 故选 A.
 ]
 
 #problem(8)[
-已知函数 $f(x)= \b e g i n{c a s e s} x^2-x+3,&x <= 1 ,\\ x+(2)/(x),&x>1, \e n d{c a s e s}$
-设 $a in RR$，若关于 $x$ 的不等式 $f(x) >= |(x)/(2)+a|$ 在 $RR$ 上恒成立，则 $a$ 的取值范围是（ ）
-  #choices([$[-(47)/(16),2]$], [$[-(47)/(16),(39)/(16)]$], [$[-2 sqrt(3),2]$], [$[-2 sqrt(3),(39)/(16)]$], cols: 2)
+已知函数 #mi(`f(x)=  \begin{cases}x^{2}-x+3,&x\le 1,\\  x+\dfrac{2}{x},&x>1,\end{cases}`)
+
+设 #mi(`a\in\mathbb{R}`)，若关于 #mi(`x`) 的不等式 #mi(`f(x)\ge \left|\dfrac{x}{2}+a\right|`) 在 #mi(`\mathbb{R}`) 上恒成立，则 #mi(`a`) 的取值范围是（ ）
+  #choices([#mi(`\left[-\dfrac{47}{16},2\right]`)], [#mi(`\left[-\dfrac{47}{16},\dfrac{39}{16}\right]`)], [#mi(`\left[-2\sqrt{3},2\right]`)], [#mi(`\left[-2\sqrt{3},\dfrac{39}{16}\right]`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-不等式 $f(x)\g e q|(x)/(2)+a|$ 等价于
-$-f(x)-(x)/(2)\l e q a\l e q f(x)-(x)/(2)$. 当 $x\l e q1$ 时，
-$f(x)+(x)/(2)=(x-(1)/(4))^2+(47)/(16)$，$f(x)-(x)/(2)=(x-(3)/(4))^2+(39)/(16)$.
-因此在此区间上，前者不小于 $(47)/(16)$，后者不小于 $(39)/(16)$.
+不等式 #mi(`f(x)\geq\left|\dfrac{x}{2}+a\right|`) 等价于
 
-当 $x>1$ 时，利用基本不等式得
-$f(x)+(x)/(2)=(3 x)/(2)+(2)/(x)\g e q2 sqrt(3)>(47)/(16)$，以及
-$f(x)-(x)/(2)=(x)/(2)+(2)/(x)\g e q2$. 所以对所有实数 $x$，都有
-$f(x)+(x)/(2)\g e q(47)/(16)$，$f(x)-(x)/(2)\g e q2$.
+#mi(`-f(x)-\dfrac{x}{2}\leq a\leq f(x)-\dfrac{x}{2}`). 当 #mi(`x\leq1`) 时，
 
-于是 $-(47)/(16)\l e q a\l e q2$ 时原不等式恒成立.反之，取 $x=(1)/(4)$ 得
-$a\g e q-(47)/(16)$，取 $x=2$ 得 $a\l e q2$. 故 $a$ 的取值范围为
-$[-(47)/(16),2]$，故选 A.
+#mi(`f(x)+\frac{x}{2}=\left(x-\frac{1}{4}\right)^{2}+\frac{47}{16}`)，#mi(`f(x)-\frac{x}{2}=\left(x-\frac{3}{4}\right)^{2}+\frac{39}{16}`).
+
+因此在此区间上，前者不小于 #mi(`\dfrac{47}{16}`)，后者不小于 #mi(`\dfrac{39}{16}`).
+
+当 #mi(`x>1`) 时，利用基本不等式得
+
+#mi(`f(x)+\dfrac{x}{2}=\dfrac{3x}{2}+\dfrac{2}{x}\geq2\sqrt{3}>\dfrac{47}{16}`)，以及
+
+#mi(`f(x)-\dfrac{x}{2}=\dfrac{x}{2}+\dfrac{2}{x}\geq2`). 所以对所有实数 #mi(`x`)，都有
+
+#mi(`f(x)+\dfrac{x}{2}\geq\dfrac{47}{16}`)，#mi(`f(x)-\dfrac{x}{2}\geq2`).
+
+于是 #mi(`-\dfrac{47}{16}\leq a\leq2`) 时原不等式恒成立.反之，取 #mi(`x=\dfrac{1}{4}`) 得
+
+#mi(`a\geq-\dfrac{47}{16}`)，取 #mi(`x=2`) 得 #mi(`a\leq2`). 故 #mi(`a`) 的取值范围为
+
+#mi(`\left[-\dfrac{47}{16},2\right]`)，故选 A.
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-已知 $a in RR$，$i$ 为虚数单位，若 $(a- i)/(2+ i)$ 为实数，则 $a$ 的值为#blank(){}.
+已知 #mi(`a\in\mathbb{R}`)，#mi(`\mathrm{i}`) 为虚数单位，若 #mi(`\dfrac{a-\mathrm{i}}{2+\mathrm{i}}`) 为实数，则 #mi(`a`) 的值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-2$])
+#answer([#mi(`-2`)])
 
 #solution[
 将分式分母有理化，得
 
-$ (a- i)/(2+ i)=((a- i )(2- i ))/((2+ i )(2- i ))=(2 a-1-(a+2) i)/(5) $
 
-该复数为实数，当且仅当虚部为零，即 $a+2=0$，所以 $a=-2$.
+#align(center)[#mitex(`
+\frac{a-\mathrm{i}}{2+\mathrm{i}}=\frac{(a-\mathrm{i})(2-\mathrm{i})}{(2+\mathrm{i})(2-\mathrm{i})}=\frac{2a-1-(a+2)\mathrm{i}}{5}
+`)]
+
+
+该复数为实数，当且仅当虚部为零，即 #mi(`a+2=0`)，所以 #mi(`a=-2`).
 ]
 
 #problem(10)[
-已知一个正方体的所有顶点在一个球面上，若这个正方体的表面积为 $18$，则这个球的体积为#blank(){}.
+已知一个正方体的所有顶点在一个球面上，若这个正方体的表面积为 #mi(`18`)，则这个球的体积为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(9 pi)/(2)$])
+#answer([#mi(`\dfrac{9\pi}{2}`)])
 
 #solution[
-设正方体棱长为 $s$. 由表面积得 $6 s^2=18$，所以 $s^2=3$. 正方体的外接球半径等于体对角线的一半，即
-$R=(s s q r t(3))/(2)=(3)/(2)$. 因此球的体积为
-$V=(4)/(3) pi R^3=(4)/(3) pi ((3)/(2))^3=(9 pi)/(2)$.
+设正方体棱长为 #mi(`s`). 由表面积得 #mi(`6s^{2}=18`)，所以 #mi(`s^{2}=3`). 正方体的外接球半径等于体对角线的一半，即
+
+#mi(`R=\dfrac{s\sqrt{3}}{2}=\dfrac{3}{2}`). 因此球的体积为
+
+#mi(`V=\dfrac{4}{3}\pi R^{3}=\dfrac{4}{3}\pi\left(\dfrac{3}{2}\right)^{3}=\dfrac{9\pi}{2}`).
 ]
 
 #problem(11)[
-在极坐标系中，直线 $4 rho cos ( theta -(pi)/(6))+1=0$ 与圆 $rho =2 sin theta$ 的公共点的个数为#blank(){}.
+在极坐标系中，直线 #mi(`4\rho\cos\left(\theta-\dfrac{\pi}{6}\right)+1=0`) 与圆 #mi(`\rho=2\sin\theta`) 的公共点的个数为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-令直角坐标系中的点满足 $x= rho cos theta$，$y= rho sin theta$. 直线方程化为
-$4 rho ((sqrt(3))/(2) cos theta +(1)/(2) sin theta )+1=0$，$2 sqrt(3)x+2 y+1=0$.
-圆方程 $rho =2 sin theta$ 化为 $x^2+y^2=2 y$，即圆心为 $(0,1)$、半径为 $1$ 的圆.
+令直角坐标系中的点满足 #mi(`x=\rho\cos\theta`)，#mi(`y=\rho\sin\theta`). 直线方程化为
 
-圆心到直线的距离为 $(|2+1|)/(sqrt((2 sqrt(3))^2+2^2))=(3)/(4)<1$，所以直线与圆相交于两个点.原点不在该直线上，极坐标表示不会造成交点数的重复或遗漏，故公共点的个数为 $2$.
+#mi(`4\rho\left(\frac{\sqrt{3}}{2}\cos\theta+\frac{1}{2}\sin\theta\right)+1=0`)，#mi(`2\sqrt{3}x+2y+1=0`).
+
+圆方程 #mi(`\rho=2\sin\theta`) 化为 #mi(`x^{2}+y^{2}=2y`)，即圆心为 #mi(`(0,1)`)、半径为 #mi(`1`) 的圆.
+
+圆心到直线的距离为 #mi(`\dfrac{|2+1|}{\sqrt{(2\sqrt{3})^{2}+2^{2}}}=\dfrac{3}{4}<1`)，所以直线与圆相交于两个点.原点不在该直线上，极坐标表示不会造成交点数的重复或遗漏，故公共点的个数为 #mi(`2`).
 ]
 
 #problem(12)[
-若 $a$，$b in RR$，$a b>0$，则 $(a^4+4 b^4+1)/(a b)$ 的最小值为#blank(){}.
+若 #mi(`a`)，#mi(`b\in\mathbb{R}`)，#mi(`ab>0`)，则 #mi(`\dfrac{a^4+4b^4+1}{ab}`) 的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$4$])
+#answer([#mi(`4`)])
 
 #solution[
-因为 $a b>0$，令 $u=|a|$，$v=|b|$，则 $u$，$v>0$，且 $u v=a b$. 记 $t=u v$，则
+因为 #mi(`ab>0`)，令 #mi(`u=|a|`)，#mi(`v=|b|`)，则 #mi(`u`)，#mi(`v>0`)，且 #mi(`uv=ab`). 记 #mi(`t=uv`)，则
 
-$ u^4+4 v^4+1=(u^2-2 v^2)^2+4 t^2+1\g e q4 t^2+1 $
+
+#align(center)[#mitex(`
+u^{4}+4v^{4}+1=(u^{2}-2v^{2})^{2}+4t^{2}+1\geq4t^{2}+1
+`)]
+
 
 所以
 
-$ (a^4+4 b^4+1)/(a b)\g e q4 t+(1)/(t)\g e q4 $
 
-其中最后一个不等式由基本不等式得到.取 $t=(1)/(2)$ 且 $u^2=2 v^2$ 时等号可以同时成立，因此最小值为 $4$.
+#align(center)[#mitex(`
+\frac{a^{4}+4b^{4}+1}{ab}\geq4t+\frac{1}{t}\geq4
+`)]
+
+
+其中最后一个不等式由基本不等式得到.取 #mi(`t=\dfrac{1}{2}`) 且 #mi(`u^{2}=2v^{2}`) 时等号可以同时成立，因此最小值为 #mi(`4`).
 ]
 
 #problem(13)[
-在 $triangle A B C$ 中，$angle A=60^ degree$，$A B=3$，$A C=2$. 若 $arrow(B D)=2 arrow(D C)$，$arrow(A E)=\l a m b d a a r r o w(A C)-arrow(A B)$（$lambda in RR$），且 $arrow(A D)\c d o t a r r o w(A E)=-4$，则 $lambda$ 的值为#blank(){}.
+在 #mi(`\triangle ABC`) 中，#mi(`\angle A=60^{\circ}`)，#mi(`AB=3`)，#mi(`AC=2`). 若 #mi(`\overrightarrow{BD}=2\overrightarrow{DC}`)，#mi(`\overrightarrow{AE}=\lambda\overrightarrow{AC}-\overrightarrow{AB}`)（#mi(`\lambda\in\mathbb{R}`)），且 #mi(`\overrightarrow{AD}\cdot\overrightarrow{AE}=-4`)，则 #mi(`\lambda`) 的值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3)/(11)$])
+#answer([#mi(`\dfrac{3}{11}`)])
 
 #solution[
-取 $A$ 为原点，记 $arrow(A B)=bold(u)$，$arrow(A C)=bold(v)$. 由题意
-$bold(u)\c d o t b o l d(u)=9$，$bold(v)\c d o t b o l d(v)=4$，$bold(u)\c d o t b o l d(v)=3 times 2 cos 60 ""^ degree =3$.
+取 #mi(`A`) 为原点，记 #mi(`\overrightarrow{AB}=\mathbf{u}`)，#mi(`\overrightarrow{AC}=\mathbf{v}`). 由题意
 
-由 $arrow(B D)=2 arrow(D C)$，得
-$arrow(A D)=(1)/(3)bold(u)+(2)/(3)bold(v)$. 又
-$arrow(A E)=\l a m b d a b o l d(v)-bold(u)$，所以
+#mi(`\mathbf{u}\cdot\mathbf{u}=9`)，#mi(`\mathbf{v}\cdot\mathbf{v}=4`)，#mi(`\mathbf{u}\cdot\mathbf{v}=3\times2\cos60^{\circ}=3`).
 
-$ \b e g i n{a l i g n e d} arrow(A D)\c d o t a r r o w(A E)&=(1)/(3)(bold(u)+2 bold(v)) dot (\l a m b d a b o l d(v)-bold(u))\\ &=(1)/(3)(3 lambda -9+8 lambda -6)=(11 lambda -15)/(3). \e n d{a l i g n e d} $
+由 #mi(`\overrightarrow{BD}=2\overrightarrow{DC}`)，得
 
-由题设该数量积等于 $-4$，故 $(11 lambda -15)/(3)=-4$，解得
-$lambda =(3)/(11)$.
+#mi(`\overrightarrow{AD}=\dfrac{1}{3}\mathbf{u}+\dfrac{2}{3}\mathbf{v}`). 又
+
+#mi(`\overrightarrow{AE}=\lambda\mathbf{v}-\mathbf{u}`)，所以
+
+
+#align(center)[#mitex(`
+\begin{aligned}\overrightarrow{AD}\cdot\overrightarrow{AE}
+
+&=\frac{1}{3}(\mathbf{u}+2\mathbf{v})\cdot(\lambda\mathbf{v}-\mathbf{u})\\
+
+&=\frac{1}{3}(3\lambda-9+8\lambda-6)=\frac{11\lambda-15}{3}.\end{aligned}
+`)]
+
+
+由题设该数量积等于 #mi(`-4`)，故 #mi(`\dfrac{11\lambda-15}{3}=-4`)，解得
+
+#mi(`\lambda=\dfrac3{11}`).
 ]
 
 #problem(14)[
-用数字 $1$，$2$，$3$，$4$，$5$，$6$，$7$，$8$，$9$ 组成没有重复数字，且至多有一个数字是偶数的四位数，这样的四位数一共有#blank(){} 个. （用数字作答）
+用数字 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`)，#mi(`6`)，#mi(`7`)，#mi(`8`)，#mi(`9`) 组成没有重复数字，且至多有一个数字是偶数的四位数，这样的四位数一共有\underline{\hspace{2.5em}} 个. （用数字作答）
 ]
 
-#answer([$1080$])
+#answer([#mi(`1080`)])
 
 #solution[
 所组成的四位数首位不为零，而给出的数字中没有零，因此只需按偶数个数分类.
 
-若四位数中没有偶数，则四个数字都从 $1$，$3$，$5$，$7$，$9$ 中选取并排列，共有
-$A_5^4=5 times 4 times 3 times 2 =120$ 个.
+若四位数中没有偶数，则四个数字都从 #mi(`1`)，#mi(`3`)，#mi(`5`)，#mi(`7`)，#mi(`9`) 中选取并排列，共有
 
-若恰有一个偶数，先选偶数的位置、偶数和三个奇数，分别有 $4$，$4$，$A_5^3=5 times 4 times 3 =60$ 种，因此共有
-$4 times 4 times 60 =960$ 个.
+#mi(`\mathrm{A}_{5}^{4}=5\times4\times3\times2=120`) 个.
 
-总数为 $120+960=1080$ 个.
+若恰有一个偶数，先选偶数的位置、偶数和三个奇数，分别有 #mi(`4`)，#mi(`4`)，#mi(`\mathrm{A}_{5}^{3}=5\times4\times3=60`) 种，因此共有
+
+#mi(`4\times4\times60=960`) 个.
+
+总数为 #mi(`120+960=1080`) 个.
 ]
 
 #part-header("解答题")
 
 #problem(15)[
-在 $triangle A B C$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $a>b$，$a=5$，$c=6$，$sin B=(3)/(5)$.
+在 #mi(`\triangle ABC`) 中，内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对的边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`). 已知 #mi(`a>b`)，#mi(`a=5`)，#mi(`c=6`)，#mi(`\sin B=\dfrac{3}{5}`).
 
 
-+ (1) 求 $b$ 和 $sin A$ 的值；
-+ (2) 求 $sin ( 2 A+(pi)/(4))$ 的值.
++ (1)
 ]
 
 #solution[
-+ (1) 若角 $B$ 为钝角，则 $A<B$，这与 $a>b$ 矛盾，故 $B$ 为锐角，从而 $cos B=(4)/(5)$. 由余弦定理，
-$b^2=a^2+c^2-2 a c cos B=25+36-2 times 5 times 6 times (4)/(5)=13$，所以 $b=sqrt(13)$.
-由正弦定理，$(b)/(sin B)=(a)/(sin A)$，得
-$sin A=(a sin B)/(b)=(5 times (3)/(5))/(sqrt(13))=(3 sqrt(13))/(13)$.
-+ (2) 由余弦定理，
-$cos A=(b^2+c^2-a^2)/(2 b c)=(13+36-25)/(12 sqrt(13))=(2 sqrt(13))/(13)$. 因此
-$sin 2 A=2 sin A cos A=(12)/(13)$，$cos 2 A=1-2 sin ""^(2) A=1-(18)/(13)=-(5)/(13)$.
-于是
-
-$ sin (2 A+(pi)/(4))= sin 2 A cos (pi)/(4)+ cos 2 A sin (pi)/(4)=(1)/(sqrt(2))((12)/(13)-(5)/(13))=(7 sqrt(2))/(26) $
++ (1)
 ]
 
 #problem(16)[
-从甲地到乙地要经过 $3$ 个十字路口，设各路口信号灯工作相互独立，且在各路口遇到红灯的概率分别为 $(1)/(2)$，$(1)/(3)$，$(1)/(4)$.
+从甲地到乙地要经过 #mi(`3`) 个十字路口，设各路口信号灯工作相互独立，且在各路口遇到红灯的概率分别为 #mi(`\dfrac{1}{2}`)，#mi(`\dfrac{1}{3}`)，#mi(`\dfrac{1}{4}`).
 
 
-+ (1) 设 $X$ 表示一辆车从甲地到乙地遇到红灯的个数，求随机变量 $X$ 的分布列和数学期望；
-+ (2) 若有 $2$ 辆车独立地从甲地到乙地，求这 $2$ 辆车共遇到 $1$ 个红灯的概率.
++ (1)
 ]
 
 #solution[
-+ (1) 记三个路口遇到红灯的事件分别为 $R_1$，$R_2$，$R_3$. 由独立性，$X$ 的可能取值为 $0$，$1$，$2$，$3$，且
-$P(X=0)=(1)/(2) times (2)/(3) times (3)/(4)=(1)/(4)$，
-$P(X=3)=(1)/(2) times (1)/(3) times (1)/(4)=(1)/(24)$.
-
-恰遇到一个红灯时，分别在第一个、第二个、第三个路口遇到红灯，所以
-
-$ P(X=1)=(1)/(2) times (2)/(3) times (3)/(4)+(1)/(2) times (1)/(3) times (3)/(4)+(1)/(2) times (2)/(3) times (1)/(4)=(11)/(24) $
-
-恰遇到两个红灯时，分别漏过第三个、第二个、第一个路口，所以
-
-$ P(X=2)=(1)/(2) times (1)/(3) times (3)/(4)+(1)/(2) times (2)/(3) times (1)/(4)+(1)/(2) times (1)/(3) times (1)/(4)=(1)/(4) $
-
-因此分布列为
-$P(X=0)=(1)/(4)$，$P(X=1)=(11)/(24)$，$P(X=2)=(1)/(4)$，$P(X=3)=(1)/(24)$.
-数学期望为
-
-$ E(X)=0 times (1)/(4)+1 times (11)/(24)+2 times (1)/(4)+3 times (1)/(24)=(13)/(12) $
-+ (2) 一辆车遇到一个红灯的概率为 $(11)/(24)$，遇到零个红灯的概率为 $(1)/(4)$. 两辆车共遇到一个红灯，只有一辆车遇到一个红灯、另一辆车遇到零个红灯，且两种次序互斥，故所求概率为
-$2 times (11)/(24) times (1)/(4)=(11)/(48)$.
++ (1)
 ]
 
 #problem(17)[
-如图，在三棱锥 $P-A B C$ 中，$P A bot$ 底面 $A B C$，$angle B A C=90^ degree$. 点 $D$，$E$，$N$ 分别为棱 $P A$，$P C$，$B C$ 的中点，$M$ 是线段 $A D$ 的中点，$P A=A C=4$，$A B=2$.
+如图，在三棱锥 #mi(`P-ABC`) 中，#mi(`PA\perp`) 底面 #mi(`ABC`)，#mi(`\angle BAC=90^{\circ}`). 点 #mi(`D`)，#mi(`E`)，#mi(`N`) 分别为棱 #mi(`PA`)，#mi(`PC`)，#mi(`BC`) 的中点，#mi(`M`) 是线段 #mi(`AD`) 的中点，#mi(`PA=AC=4`)，#mi(`AB=2`).
 
 
-+ (1) 求证：$M N parallel$ 平面 $B D E$；
-+ (2) 求二面角 $C-E M-N$ 的正弦值；
-+ (3) 已知点 $H$ 在棱 $P A$ 上，且直线 $N H$ 与直线 $B E$ 所成角的余弦值为 $(sqrt(7))/(21)$，求线段 $A H$ 的长.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2017/img/tianjin_science/q17_fig1.png", width: 6.2cm)]
+
+#align(center)[#image("/papers/2017/img/tianjin_science/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-建立空间直角坐标系，取 $A$ 为原点，$A B$ 为 $x$ 轴，$A C$ 为 $y$ 轴，$A P$ 为 $z$ 轴.则
-$B=(2,0,0)$，$C=(0,4,0)$，$P=(0,0,4)$，
-$D=(0,0,2)$，$E=(0,2,2)$，$N=(1,2,0)$，$M=(0,0,1)$.
+建立空间直角坐标系，取 #mi(`A`) 为原点，#mi(`AB`) 为 #mi(`x`) 轴，#mi(`AC`) 为 #mi(`y`) 轴，#mi(`AP`) 为 #mi(`z`) 轴.则
 
-由 $B$，$D$，$E$ 三点可得平面 $B D E$ 的方程为 $x+z=2$，而 $M=(0,0,1)$ 不在该平面内.
+#mi(`B=(2,0,0)`)，#mi(`C=(0,4,0)`)，#mi(`P=(0,0,4)`)，
+
+#mi(`D=(0,0,2)`)，#mi(`E=(0,2,2)`)，#mi(`N=(1,2,0)`)，#mi(`M=(0,0,1)`).
+
+由 #mi(`B`)，#mi(`D`)，#mi(`E`) 三点可得平面 #mi(`BDE`) 的方程为 #mi(`x+z=2`)，而 #mi(`M=(0,0,1)`) 不在该平面内.
 
 
-+ (1) 有 $arrow(M N)=(1,2,-1)$，$arrow(B D)=(-2,0,2)$，$arrow(B E)=(-2,2,2)$，并且
-$arrow(M N)=-(3)/(2)arrow(B D)+arrow(B E)$. 由于 $arrow(B D)$ 与 $arrow(B E)$ 是平面 $B D E$ 内两条相交直线的方向向量，故 $M N$ 的方向向量平行于平面 $B D E$，从而 $M N parallel$ 平面 $B D E$.
-+ (2) 平面 $C E M$ 的方程为 $x=0$，可取法向量 $bold(n)_1=(1,0,0)$. 平面 $E M N$ 内有
-$arrow(E M)=(0,-2,-1)$，$arrow(E N)=(1,0,-2)$，故可取法向量
-$bold(n)_2=arrow(E M)\t i m e s a r r o w(E N)=(4,-1,2)$. 设二面角 $C-E M-N$ 的平面角为 $alpha$，则
-$cos alpha =(|bold(n)_1\c d o t b o l d(n)_2|)/(|bold(n)_1||bold(n)_2|)=(4)/(sqrt(21))$. 因此
-$sin alpha =sqrt(1-(16)/(21))=(sqrt(105))/(21)$.
-+ (3) 设 $H=(0,0,h)$，其中 $0\l e q h\l e q4$，则 $A H=h$. 取
-$arrow(N H)=(-1,-2,h)$，$arrow(B E)=(-2,2,2)$，有
-$arrow(N H)\c d o t a r r o w(B E)=2 h-2$，
-$|arrow(N H)|=sqrt(h^2+5)$，$|arrow(B E)|=2 sqrt(3)$. 直线所成的角取锐角，故
-
-$ (|h-1|)/(sqrt(3(h^2+5)))=(sqrt(7))/(21) $
-
-两边平方并化简，得 $21(h-1)^2=h^2+5$，即
-$10 h^2-21 h+8=0$，解得 $h=(8)/(5)$ 或 $h=(1)/(2)$. 二者均在 $[0,4]$ 内，故 $A H=(8)/(5)$ 或 $(1)/(2)$.
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-已知 $\{a_n\}$ 为等差数列，前 $n$ 项和为 $S_n$（$n in NN ""^*$），$\{b_n\}$ 是首项为 $2$ 的等比数列，且公比大于 $0$，$b_2+b_3=12$，$b_3=a_4-2 a_1$，$S_(11)=11 b_4$.
+已知 #mi(`\{a_{n}\}`) 为等差数列，前 #mi(`n`) 项和为 #mi(`S_{n}`)（#mi(`n\in\mathbb{N}^{*}`)），#mi(`\{b_{n}\}`) 是首项为 #mi(`2`) 的等比数列，且公比大于 #mi(`0`)，#mi(`b_{2}+b_{3}=12`)，#mi(`b_{3}=a_{4}-2a_{1}`)，#mi(`S_{11}=11b_{4}`).
 
 
-+ (1) 求 $\{a_n\}$ 和 $\{b_n\}$ 的通项公式；
-+ (2) 求数列 $\{a_(2 n)b_(2 n-1)\}$ 的前 $n$ 项和（$n in NN ""^*$）.
++ (1)
 ]
 
 #solution[
-+ (1) 设等比数列 $\{b_n\}$ 的公比为 $q$，则 $q>0$，且
-$b_n=2 q^(n-1)$. 由 $b_2+b_3=12$，得 $2 q+2 q^2=12$，即
-$q^2+q-6=0$. 因为 $q>0$，所以 $q=2$，从而 $b_n=2^n$.
-
-设等差数列 $\{a_n\}$ 的首项为 $a_1$，公差为 $d$. 由 $b_3=a_4-2 a_1$ 得
-$8=(a_1+3 d)-2 a_1=3 d-a_1$，即 $a_1=3 d-8$. 又
-$S_(11)=(11)/(2)(2 a_1+10 d)=11(a_1+5 d)=11 b_4=176$，所以 $a_1+5 d=16$. 联立解得 $d=3$，$a_1=1$，故 $a_n=3 n-2$.
-+ (2) 记所求前 $n$ 项和为 $T_n$. 由通项公式，
-$a_(2 k)b_(2 k-1)=(6 k-2)2^(2 k-1)=4(3 k-1)4^(k-1)$，所以
-
-$ T_n=4 sum_(k=1)^n(3 k-1)4^(k-1) $
-
-利用
-$sum_(k=1)^(n) 4^(k-1)=(4^n-1)/(3)$ 及
-$sum_(k=1)^(n) k4^(k-1)=(1-(n+1)4^n+n4^(n+1))/(9)$，得
-
-$ T_n=(3 n-2)/(3)4^(n+1)+(8)/(3) $
++ (1)
 ]
 
 #problem(19)[
-设椭圆 $(x^2)/(a^2)+(y^2)/(b^2)=1$（$a>b>0$）的左焦点为 $F$，右顶点为 $A$，离心率为 $(1)/(2)$. 已知 $A$ 是抛物线 $y^2=2 p x$（$p>0$）的焦点，$F$ 到抛物线的准线 $l$ 的距离为 $(1)/(2)$.
+设椭圆 #mi(`\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1`)（#mi(`a>b>0`)）的左焦点为 #mi(`F`)，右顶点为 #mi(`A`)，离心率为 #mi(`\dfrac{1}{2}`). 已知 #mi(`A`) 是抛物线 #mi(`y^{2}=2px`)（#mi(`p>0`)）的焦点，#mi(`F`) 到抛物线的准线 #mi(`l`) 的距离为 #mi(`\dfrac{1}{2}`).
 
 
-+ (1) 求椭圆的方程和抛物线的方程；
-+ (2) 设 $l$ 上两点 $P$，$Q$ 关于 $x$ 轴对称，直线 $A P$ 与椭圆相交于点 $B$（$B$ 异于点 $A$），直线 $B Q$ 与 $x$ 轴相交于点 $D$. 若 $triangle A P D$ 的面积为 $(sqrt(6))/(2)$，求直线 $A P$ 的方程.
++ (1)
 ]
 
 #solution[
-+ (1) 设椭圆的半焦距为 $c$. 由离心率得 $c=(a)/(2)$，所以
-$b^2=a^2-c^2=(3 a^2)/(4)$. 椭圆的右顶点为 $A=(a,0)$. 抛物线
-$y^2=2 p x$ 的焦点为 $((p)/(2),0)$，准线为 $x=-(p)/(2)$.
-因 $A$ 是抛物线的焦点，得 $(p)/(2)=a$. 又左焦点
-$F=(-(a)/(2),0)$ 到准线的距离为 $(a)/(2)=(1)/(2)$，故 $a=1$.
-
-于是 $c=(1)/(2)$，$b^2=(3)/(4)$，椭圆方程为
-$x^2+(4 y^2)/(3)=1$，且 $p=2$，抛物线方程为 $y^2=4 x$.
-+ (2) 设 $P=(-1,t)$，$Q=(-1,-t)$，其中 $t\n e q0$. 直线 $A P$ 的方程为
-$y=(t)/(2)(1-x)$. 将其代入椭圆方程，得
-$3 x^2+t^2(1-x)^2=3$. 已知 $x=1$ 对应于点 $A$，另一个交点 $B$ 的横坐标为
-$x_B=(t^2-3)/(t^2+3)$，从而 $y_B=(3 t)/(t^2+3)$.
-
-直线 $B Q$ 与 $x$ 轴交于 $D$. 由两点式求得
-
-$ x_D=x_B-(y_B(x_B+1))/(y_B+t)=(t^2-6)/(t^2+6) $
-
-所以 $A D=1-x_D=(12)/(t^2+6)$. 因此
-
-$ S_( triangle A P D)=(1)/(2)A D |t|=(6|t|)/(t^2+6)=(sqrt(6))/(2) $
-
-令 $s=|t|>0$，则 $12 s=sqrt(6)(s^2+6)$，即
-$s^2-2 sqrt(6)s+6=0$，所以 $s=sqrt(6)$. 于是直线 $A P$ 的斜率为
-$-(t)/(2)= +- (sqrt(6))/(2)$，故直线方程为
-$3 x+sqrt(6)y-3=0$ 或 $3 x-sqrt(6)y-3=0$.
++ (1)
 ]
 
 #problem(20)[
-设 $a in ZZ$. 已知定义在 $RR$ 上的函数 $f(x)=2 x^4+3 x^3-3 x^2-6 x+a$ 在区间 $(1,2)$ 内有一个零点 $x_0$，$g(x)$ 为 $f(x)$ 的导函数.
+设 #mi(`a\in\mathbb{Z}`). 已知定义在 #mi(`\mathbb{R}`) 上的函数 #mi(`f(x)=2x^{4}+3x^{3}-3x^{2}-6x+a`) 在区间 #mi(`(1,2)`) 内有一个零点 #mi(`x_{0}`)，#mi(`g(x)`) 为 #mi(`f(x)`) 的导函数.
 
 
-+ (1) 求 $g(x)$ 的单调区间；
-+ (2) 设 $m in [1,x_0) union (x_0,2]$，函数 $h(x)=g(x)(m-x_0)-f(m)$，求证：$h(m)h(x_0)<0$；
-+ (3) 求证：存在大于 $0$ 的常数 $A$，使得对于任意的正整数 $p$，$q$，且 $(p)/(q) in [1,x_0) union (x_0,2]$，满足 $|(p)/(q)-x_0| >= (1)/(A q^4)$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 由 $g(x)=f'(x)$，得 $g(x)=8 x^3+9 x^2-6 x-6$，从而
-$g'(x)=24 x^2+18 x-6=6(4 x-1)(x+1)$. 因此 $g'(x)>0$ 在
-$(- oo ,-1)$ 和 $((1)/(4),+ oo )$ 上成立，$g'(x)<0$ 在
-$(-1,(1)/(4))$ 上成立.所以 $g(x)$ 在
-$(- oo ,-1)$，$((1)/(4),+ oo )$ 上单调递增，在
-$(-1,(1)/(4))$ 上单调递减.
-+ (2) 当 $1\l e q x\l e q2$ 时，$g'(x)>0$，所以 $g$ 在 $[1,2]$ 上严格递增.由 $f(x_0)=0$ 及拉格朗日中值定理，存在严格介于 $m$ 与 $x_0$ 之间的 $xi$，使
-$f(m)=g( xi )(m-x_0)$. 于是
-$h(m)=[g(m)-g( xi )](m-x_0)$，
-$h(x_0)=[g(x_0)-g( xi )](m-x_0)$.
-
-若 $m>x_0$，则 $x_0< xi <m$，所以 $g(x_0)<g( xi )<g(m)$，从而
-$h(m)>0$，$h(x_0)<0$. 若 $m<x_0$，则 $m< xi <x_0$，所以
-$g(m)<g( xi )<g(x_0)$，而 $m-x_0<0$，从而 $h(m)>0$，$h(x_0)<0$. 两种情形均有
-$h(m)h(x_0)<0$.
-+ (3) 先注意到 $g(1)=5>0$，且 $g$ 在 $[1,2]$ 上递增，所以 $g(x)>0$ 在该区间上成立，进而 $f$ 在 $[1,2]$ 上严格递增.故除了 $x_0$ 外，区间 $[1,2]$ 内没有其他零点.
-
-令 $r=(p)/(q)$. 由题设，$r in [1,x_0) union (x_0,2]$，所以 $r != x_0$，从而 $f(r)\n e q0$. 又
-
-$ q^(4) f((p)/(q))=2 p^4+3 p^(3) q-3 p^(2) q^2-6 p q^3+a q^4 $
-
-是非零整数，因此 $|f((p)/(q))|\g e q(1)/(q^4)$.
-
-再次由中值定理，存在 $eta$ 介于 $r$ 与 $x_0$ 之间，使
-$|f(r)|=g( eta )|r-x_0|$. 因为 $g$ 在 $[1,2]$ 上递增，且
-$g(2)=64+36-12-6=82$，所以
-
-$ (1)/(q^4)\l e q|f(r)|\l e q82|r-x_0| $
-
-因此取 $A=82$，便有
-$|(p)/(q)-x_0|\g e q(1)/(82 q^4)$，命题得证.
++ (1) 
++ (2)
 ]
 

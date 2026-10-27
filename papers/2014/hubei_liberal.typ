@@ -141,10 +141,12 @@ a=\bar y-b\bar x=\frac{1}{4}-\left(-\frac{19}{14}\right)\frac{11}{2}=\frac{54}{7
 ]
 
 #problem(7)[
-在如图所示的空间直角坐标系 #mi(`O-xyz`) 中，一个四面体的顶点坐标分别是 #mi(`(0,0,2)`)，#mi(`(2,2,0)`)，#mi(`(1,2,1)`)，#mi(`(2,2,2)`). 给出编号为#mi(`①`)、#mi(`②`)、#mi(`③`)、#mi(`④`)的四个图，则该四面体的正视图和俯视图分别为（ ）
+在如图所示的空间直角坐标系 #mi(`O-xyz`) 中，一个四面体的顶点坐标分别是 #mi(`(0,0,2)`)，#mi(`(2,2,0)`)，#mi(`(1,2,1)`)，#mi(`(2,2,2)`). 给出编号为#mi(`①`)、#mi(`②`)、#mi(`③`)、#mi(`④`) 的四个图，则该四面体的正视图和俯视图分别为（ ）
 
-[max width=0.70\linewidth]img/2014/hubei_liberal/q7_fig1.png
-  #choices([#mi(`①`)和#mi(`②`)], [#mi(`③`)和#mi(`①`)], [#mi(`④`)和#mi(`③`)], [#mi(`④`)和#mi(`②`)], cols: 2)
+
+#align(center)[#image("/papers/2014/img/hubei_liberal/q7_fig1.png", width: 28%)]
+
+  #choices([#mi(`①`) 和#mi(`②`)], [#mi(`③`) 和#mi(`①`)], [#mi(`④`) 和#mi(`③`)], [#mi(`④`) 和#mi(`②`)], cols: 2)
 ]
 
 #answer([D])
@@ -152,11 +154,11 @@ a=\bar y-b\bar x=\frac{1}{4}-\left(-\frac{19}{14}\right)\frac{11}{2}=\frac{54}{7
 #solution[
 正视图是沿 #mi(`x`) 轴方向投影到 #mi(`yOz`) 平面. 四个顶点的投影分别为 #mi(`A'(0,2)`)、#mi(`B'(2,0)`)、#mi(`C'(2,1)`)、#mi(`D'(2,2)`).
 
-因此外轮廓为由 #mi(`A'`)、#mi(`D'`)、#mi(`B'`) 构成的直角三角形，#mi(`C'`) 在 #mi(`B'D'`) 上，投影后的内部边线与图#mi(`④`)相符，所以正视图为图#mi(`④`).
+因此外轮廓为由 #mi(`A'`)、#mi(`D'`)、#mi(`B'`) 构成的直角三角形，#mi(`C'`) 在 #mi(`B'D'`) 上，投影后的内部边线与图#mi(`④`) 相符，所以正视图为图#mi(`④`).
 
 俯视图是沿 #mi(`z`) 轴方向投影到 #mi(`xOy`) 平面. 四个顶点的投影分别为 #mi(`A''(0,0)`)、#mi(`B''(2,2)`)、#mi(`C''(1,2)`)、#mi(`D''(2,2)`).
 
-其中 #mi(`B''`) 与 #mi(`D''`) 重合，外轮廓及重合点产生的边线与图#mi(`②`)相符，所以俯视图为图#mi(`②`). 因此选择 D.
+其中 #mi(`B''`) 与 #mi(`D''`) 重合，外轮廓及重合点产生的边线与图#mi(`②`) 相符，所以俯视图为图#mi(`②`). 因此选择 D.
 ]
 
 #problem(8)[
@@ -304,7 +306,9 @@ S=\sum_{k=1}^{9}(2^{k}+k)=(2^{1}+2^{2}+\cdots+2^{9})+(1+2+\cdots+9)
 
 \problemresetlayout
 
-[max width=0.55\linewidth]img/2014/hubei_liberal/q15_fig1.png
+
+#align(center)[#image("/papers/2014/img/hubei_liberal/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`\left(0,\frac{1}{6}\right)`)])
@@ -433,7 +437,9 @@ F'(v)=\frac{76000(20l-v^{2})}{(v^{2}+18v+20l)^{2}}
 
 
 
-[max width=0.38\linewidth]img/2014/hubei_liberal/q20_fig1.png
+
+#align(center)[#image("/papers/2014/img/hubei_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[

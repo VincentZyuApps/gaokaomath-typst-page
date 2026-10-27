@@ -129,7 +129,9 @@
 #problem(6)[
 某生产队要建一个贮粮用的“土圆仓”，如果土圆仓下部圆柱和上部圆锥的底面半径都是 #mi(`1.5\text{ \text{米}}`)，高分别是 #mi(`3\text{ \text{米}}`) 和 #mi(`0.6\text{ \text{米}}`)，计算它的容积（#mi(`\pi\approx 3.14`)，精确到 #mi(`0.1\text{ \text{立方米}}`)）.
 
-[float=inline,max width=6.0cm]img/1977/zhejiang/q6_fig1.png
+
+#align(center)[#image("/papers/1977/img/zhejiang/q6_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -261,7 +263,9 @@ x^{2}-2x-15>0  \Longleftrightarrow \left(x-5\right)\left(x+3\right)>0  \Longleft
 #problem(10)[
 点 #mi(`O`) 为 #mi(`\triangle ABC`) 内任意一点，连接 #mi(`AO`) 并延长交 #mi(`BC`) 于点 #mi(`D`)，连接 #mi(`BO`) 并延长交 #mi(`AC`) 于点 #mi(`E`)，连接 #mi(`CO`) 并延长交 #mi(`AB`) 于点 #mi(`F`)，则 #mi(`\frac{OD}{AD}+\frac{OE}{BE}+\frac{OF}{CF}=1`).
 
-[float=inline,max width=6.2cm]img/1977/zhejiang/q10_fig1.png
+
+#align(center)[#image("/papers/1977/img/zhejiang/q10_fig1.png", width: 28%)]
+
 ]
 
 #solution[

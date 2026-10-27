@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,25 +11,31 @@
 #part-header("单选题")
 
 #problem(1)[
-设集合 $A=\{x | |4 x-1| >= 9 ,\ x in RR \}$，
-$B=\{x | (x)/(x+3) >= 0 ,\ x in RR \}$，则
-$A inter B=$（$$）
-  #choices([$(-3,-2]$], [$(-3,-2] union [0,(5)/(2)]$], [$(- oo ,-3] union [(5)/(2),+ oo )$], [$(- oo ,-3) union [(5)/(2),+ oo )$], cols: 1)
+设集合 #mi(`A=\{x\mid |4x-1|\geqslant9,\ x\in\mathbb{R}\}`)，
+
+#mi(`B=\left\{x\mid \dfrac{x}{x+3}\geqslant0,\ x\in\mathbb{R}\right\}`)，则
+
+#mi(`A\cap B=`)（#mi(`\quad`)）
+  #choices([#mi(`(-3,-2]`)], [#mi(`(-3,-2]\cup\left[0,\dfrac{5}{2}\right]`)], [#mi(`(-\infty,-3]\cup\left[\dfrac{5}{2},+\infty\right)`)], [#mi(`(-\infty,-3)\cup\left[\dfrac{5}{2},+\infty\right)`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-由 $|4 x-1| >= 9$，得 $4 x-1 >= 9$ 或 $4 x-1 <= -9$，所以
-$A=(- oo ,-2] union [(5)/(2),+ oo )$. 对于分式不等式，定义域要求 $x != -3$；在
-$(- oo ,-3)$、$(-3,0)$ 和 $[0,+ oo )$ 上分别判断分子、分母的符号，得到
-$B=(- oo ,-3) union [0,+ oo )$. 因而
-$A inter B=(- oo ,-3) union [(5)/(2),+ oo )$，故选 D.
+由 #mi(`|4x-1|\geqslant9`)，得 #mi(`4x-1\geqslant9`) 或 #mi(`4x-1\le-9`)，所以
+
+#mi(`A=(-\infty,-2]\cup[\frac{5}{2},+\infty)`). 对于分式不等式，定义域要求 #mi(`x\ne-3`)；在
+
+#mi(`(-\infty,-3)`)、#mi(`(-3,0)`) 和 #mi(`[0,+\infty)`) 上分别判断分子、分母的符号，得到
+
+#mi(`B=(-\infty,-3)\cup[0,+\infty)`). 因而
+
+#mi(`A\cap B=(-\infty,-3)\cup[\frac{5}{2},+\infty)`)，故选 D.
 ]
 
 #problem(2)[
-若复数 $(a+3 i)/(1+2 i)$（$a in RR$，$i$ 为虚数单位）是纯虚数，则实数 $a$ 的值为（$$）
-  #choices([$-2$], [$4$], [$-6$], [$6$], cols: 4)
+若复数 #mi(`\dfrac{a+3\mathrm{i}}{1+2\mathrm{i}}`)（#mi(`a\in\mathbb{R}`)，#mi(`\mathrm{i}`) 为虚数单位）是纯虚数，则实数 #mi(`a`) 的值为（#mi(`\quad`)）
+  #choices([#mi(`-2`)], [#mi(`4`)], [#mi(`-6`)], [#mi(`6`)], cols: 4)
 ]
 
 #answer([C])
@@ -37,530 +43,528 @@ $A inter B=(- oo ,-3) union [(5)/(2),+ oo )$，故选 D.
 #solution[
 分母有理化得
 
-$ (a+3 i)/(1+2 i)=((a+3 i )(1-2 i ))/(5)=(a+6)/(5)+(3-2 a)/(5) i $
 
-纯虚数的实部为零，所以 $(a+6)/(5)=0$，即 $a=-6$；此时虚部为
-$(3-2 a)/(5)=3 != 0$，确为纯虚数，故选 C.
+#align(center)[#mitex(`
+\frac{a+3\mathrm{i}}{1+2\mathrm{i}}=\frac{(a+3\mathrm{i})(1-2\mathrm{i})}{5}  =\frac{a+6}{5}+\frac{3-2a}{5}\mathrm{i}
+`)]
+
+
+纯虚数的实部为零，所以 #mi(`\dfrac{a+6}{5}=0`)，即 #mi(`a=-6`)；此时虚部为
+
+#mi(`\dfrac{3-2a}{5}=3\ne0`)，确为纯虚数，故选 C.
 ]
 
 #problem(3)[
 给出下列三个命题：
 
-\begin{circlelist}
-\item 若 $a >= b>-1$，则 $(a)/(1+a) >= (b)/(1+b)$；
-\item 若正整数 $m$ 和 $n$ 满足 $m <= n$，则 $sqrt(m(n-m)) <= (n)/(2)$；
-\item 设 $P(x_1,y_1)$ 为圆 $O_1:x^2+y^2=9$ 上任一点，圆 $O_2$ 以 $Q(a,b)$ 为圆心且半径为 $1$. 当 $(a-x_1)^2+(b-y_1)^2=1$ 时，圆 $O_1$ 与圆 $O_2$ 相切.
-\end{circlelist}
 
-其中假命题的个数为（$$）
-  #choices([$0$], [$1$], [$2$], [$3$], cols: 4)
++ (1) 若 #mi(`a\ge b>-1`)，则 #mi(`\dfrac{a}{1+a}\ge\dfrac{b}{1+b}`)；
++ (2) 若正整数 #mi(`m`) 和 #mi(`n`) 满足 #mi(`m\le n`)，则 #mi(`\sqrt{m(n-m)}\le\dfrac{n}{2}`)；
++ (3) 设 #mi(`P(x_{1},y_{1})`) 为圆 #mi(`O_{1}:x^{2}+y^{2}=9`) 上任一点，圆 #mi(`O_{2}`) 以 #mi(`Q(a,b)`) 为圆心且半径为 #mi(`1`). 当 #mi(`(a-x_{1})^{2}+(b-y_{1})^{2}=1`) 时，圆 #mi(`O_{1}`) 与圆 #mi(`O_{2}`) 相切.
+
+
+
+其中假命题的个数为（#mi(`\quad`)）
+  #choices([#mi(`0`)], [#mi(`1`)], [#mi(`2`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-对命题（1），函数 $g(x)=(x)/(1+x)$ 在 $x>-1$ 上满足
-$g'(x)=(1)/((1+x)^2)>0$，所以 $a >= b$ 时
-$g(a) >= g(b)$，命题（1）正确.
+对命题（1），函数 #mi(`g(x)=\dfrac{x}{1+x}`) 在 #mi(`x>-1`) 上满足
 
-对命题（2），两边非负，平方后只需证 $4 m(n-m) <= n^2$. 而
+#mi(`g'(x)=\dfrac{1}{(1+x)^2}>0`)，所以 #mi(`a\ge b`) 时
 
-$ n^2-4 m(n-m)=(n-2 m)^2 >= 0 $
+#mi(`g(a)\ge g(b)`)，命题（1）正确.
 
-所以命题（2）正确. 命题（3）的条件只说明 $P$ 同时在两圆上，不能推出两圆相切.
-例如取 $P=(3,0)$，$Q=(3,1)$，则 $P$ 在 $O_1$ 上且
-$P Q=1$，但两圆圆心距为 $sqrt(10)$，满足
-$|3-1|<sqrt(10)<3+1$，两圆相交于两个点而不相切，所以命题（3）错误.
-假命题有 $1$ 个，故选 B.
+对命题（2），两边非负，平方后只需证 #mi(`4m(n-m)\le n^{2}`). 而
+
+
+#align(center)[#mitex(`
+n^{2}-4m(n-m)=(n-2m)^{2}\geqslant0
+`)]
+
+
+所以命题（2）正确. 命题（3）的条件只说明 #mi(`P`) 同时在两圆上，不能推出两圆相切.
+
+例如取 #mi(`P=(3,0)`)，#mi(`Q=(3,1)`)，则 #mi(`P`) 在 #mi(`O_{1}`) 上且
+
+#mi(`PQ=1`)，但两圆圆心距为 #mi(`\sqrt{10}`)，满足
+
+#mi(`|3-1|<\sqrt{10}<3+1`)，两圆相交于两个点而不相切，所以命题（3）错误.
+
+假命题有 #mi(`1`) 个，故选 B.
 ]
 
 #problem(4)[
-设 $alpha$，$beta$，$gamma$ 为平面，$m$，$n$，$l$ 为直线，则
-$m bot beta$ 的一个充分条件是（$$）
-  #choices([$alpha bot beta ,\ alpha inter beta =l,\ m bot l$], [$alpha inter gamma =m$，$\ alpha bot gamma$，$\ beta bot gamma$], [$alpha bot gamma$，$\ beta bot gamma$，$\ m bot alpha$], [$n bot alpha$，$\ n bot beta$，$\ m bot alpha$], cols: 1)
+设 #mi(`\alpha`)，#mi(`\beta`)，#mi(`\gamma`) 为平面，#mi(`m`)，#mi(`n`)，#mi(`l`) 为直线，则
+
+#mi(`m\perp\beta`) 的一个充分条件是（#mi(`\quad`)）
+  #choices([#mi(`\alpha\perp\beta,\ \alpha\cap\beta=l,\ m\perp l`)], [#mi(`\alpha\cap\gamma=m`)，#mi(`\ \alpha\perp\gamma`)，#mi(`\ \beta\perp\gamma`)], [#mi(`\alpha\perp\gamma`)，#mi(`\ \beta\perp\gamma`)，#mi(`\ m\perp\alpha`)], [#mi(`n\perp\alpha`)，#mi(`\ n\perp\beta`)，#mi(`\ m\perp\alpha`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-选项 D 中，直线 $n$ 同时垂直平面 $alpha$、$beta$，两平面的法向量都与
-$n$ 平行，因此 $alpha parallel beta$（也允许两平面重合）. 又 $m bot alpha$，
-所以 $m$ 也垂直于与 $alpha$ 平行的平面 $beta$，故 D 是充分条件. 选项 A
-只给出 $m bot l$，没有说明 $m$ 在 $alpha$ 内. 例如取
-$alpha :z=0$、$beta :y=0$、$l$ 为 $x$ 轴、$m$ 为 $z$ 轴，则 A 的条件成立，
-但 $m subset beta$，所以 $m not bot beta$. 对于 B，取
-$alpha = beta :y=0$、$gamma :z=0$、$m$ 为 $x$ 轴，则 B 的条件成立，
-但 $m subset beta$. 对于 C，取 $alpha :y=0$、$beta :x=0$、$gamma :z=0$、$m$ 为 $y$ 轴，
-则 C 的条件成立，但 $m subset beta$. 因此 A、B、C 均不能保证 $m bot beta$.
+选项 D 中，直线 #mi(`n`) 同时垂直平面 #mi(`\alpha`)、#mi(`\beta`)，两平面的法向量都与
+
+#mi(`n`) 平行，因此 #mi(`\alpha\parallel\beta`)（也允许两平面重合）. 又 #mi(`m\perp\alpha`)，
+
+所以 #mi(`m`) 也垂直于与 #mi(`\alpha`) 平行的平面 #mi(`\beta`)，故 D 是充分条件. 选项 A
+
+只给出 #mi(`m\perp l`)，没有说明 #mi(`m`) 在 #mi(`\alpha`) 内. 例如取
+
+#mi(`\alpha:z=0`)、#mi(`\beta:y=0`)、#mi(`l`) 为 #mi(`x`) 轴、#mi(`m`) 为 #mi(`z`) 轴，则 A 的条件成立，
+
+但 #mi(`m\subset\beta`)，所以 #mi(`m\not\perp\beta`). 对于 B，取
+
+#mi(`\alpha=\beta:y=0`)、#mi(`\gamma:z=0`)、#mi(`m`) 为 #mi(`x`) 轴，则 B 的条件成立，
+
+但 #mi(`m\subset\beta`). 对于 C，取 #mi(`\alpha:y=0`)、#mi(`\beta:x=0`)、#mi(`\gamma:z=0`)、#mi(`m`) 为 #mi(`y`) 轴，
+
+则 C 的条件成立，但 #mi(`m\subset\beta`). 因此 A、B、C 均不能保证 #mi(`m\perp\beta`).
 ]
 
 #problem(5)[
-设双曲线以椭圆 $(x^2)/(25)+(y^2)/(9)=1$ 长轴的两个端点为焦点，其准线过椭圆的焦点，则双曲线的渐近线的斜率为（$$）
-  #choices([$+- 2$], [$+- (4)/(3)$], [$+- (1)/(2)$], [$+- (3)/(4)$], cols: 4)
+设双曲线以椭圆 #mi(`\dfrac{x^2}{25}+\dfrac{y^2}{9}=1`) 长轴的两个端点为焦点，其准线过椭圆的焦点，则双曲线的渐近线的斜率为（#mi(`\quad`)）
+  #choices([#mi(`\pm2`)], [#mi(`\pm\dfrac{4}{3}`)], [#mi(`\pm\dfrac{1}{2}`)], [#mi(`\pm\dfrac{3}{4}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-椭圆长轴端点为 $( +- 5 ,0)$，椭圆焦点为 $( +- 4 ,0)$. 设双曲线为
-$(x^2)/(p^2)-(y^2)/(q^2)=1$，则焦半距 $c=5$，且准线
-$x= +- (p^2)/(c)$ 经过 $( +- 4 ,0)$，故 $(p^2)/(5)=4$，即
-$p^2=20$. 由 $c^2=p^2+q^2$ 得 $q^2=5$，所以渐近线斜率为
-$+- (q)/(p)= +- (1)/(2)$，故选 C.
+椭圆长轴端点为 #mi(`(\pm5,0)`)，椭圆焦点为 #mi(`(\pm4,0)`). 设双曲线为
+
+#mi(`\dfrac{x^2}{p^2}-\dfrac{y^2}{q^2}=1`)，则焦半距 #mi(`c=5`)，且准线
+
+#mi(`x=\pm\dfrac{p^2}{c}`) 经过 #mi(`(\pm4,0)`)，故 #mi(`\dfrac{p^2}{5}=4`)，即
+
+#mi(`p^{2}=20`). 由 #mi(`c^{2}=p^{2}+q^{2}`) 得 #mi(`q^{2}=5`)，所以渐近线斜率为
+
+#mi(`\pm\dfrac{q}{p}=\pm\dfrac{1}{2}`)，故选 C.
 ]
 
 #problem(6)[
-从集合 $\{1,2,3, dots.c ,11\}$ 中任选两个元素作为椭圆方程
-$(x^2)/(m^2)+(y^2)/(n^2)=1$ 中的 $m$ 和 $n$，则能组成落在矩形区域
-$B=\{(x,y) | |x|<11" 且 "|y|<9\}$ 内的椭圆个数为（$$）
-  #choices([$43$], [$72$], [$86$], [$90$], cols: 4)
+从集合 #mi(`\{1,2,3,\cdots,11\}`) 中任选两个元素作为椭圆方程
+
+#mi(`\dfrac{x^2}{m^2}+\dfrac{y^2}{n^2}=1`) 中的 #mi(`m`) 和 #mi(`n`)，则能组成落在矩形区域
+
+#mi(`B=\{(x,y)\mid |x|<11\text{ \text{且} }|y|<9\}`) 内的椭圆个数为（#mi(`\quad`)）
+  #choices([#mi(`43`)], [#mi(`72`)], [#mi(`86`)], [#mi(`90`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-椭圆上点的横坐标绝对值不超过 $m$，要使整个椭圆落在 $|x|<11$ 内，必须且只需
-$m <= 10$；同理，必须且只需 $n <= 8$. 先把 $m$ 和 $n$ 看作有序取值，
-共有 $10 times 8$ 种. 题目要求选取两个不同元素，因此要删去 $m=n$ 且
-$m=n in \{1,2,\l d o t s,8\}$ 的 $8$ 种，故个数为
-$10 times 8 -8=72$，选 B.
+椭圆上点的横坐标绝对值不超过 #mi(`m`)，要使整个椭圆落在 #mi(`|x|<11`) 内，必须且只需
+
+#mi(`m\leqslant10`)；同理，必须且只需 #mi(`n\leqslant8`). 先把 #mi(`m`) 和 #mi(`n`) 看作有序取值，
+
+共有 #mi(`10\times8`) 种. 题目要求选取两个不同元素，因此要删去 #mi(`m=n`) 且
+
+#mi(`m=n\in\{1,2,\ldots,8\}`) 的 #mi(`8`) 种，故个数为
+
+#mi(`10\times8-8=72`)，选 B.
 ]
 
 #problem(7)[
-某人射击一次击中的概率为 $0.6$，经过 $3$ 次射击，此人至少有两次击中目标的概率为（$$）
-  #choices([$(81)/(125)$], [$(54)/(125)$], [$(36)/(125)$], [$(27)/(125)$], cols: 4)
+某人射击一次击中的概率为 #mi(`0.6`)，经过 #mi(`3`) 次射击，此人至少有两次击中目标的概率为（#mi(`\quad`)）
+  #choices([#mi(`\dfrac{81}{125}`)], [#mi(`\dfrac{54}{125}`)], [#mi(`\dfrac{36}{125}`)], [#mi(`\dfrac{27}{125}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-按独立重复射击计算，设 $p=0.6=(3)/(5)$，则至少击中两次包括恰好两次和三次. 因此所求概率为
+按独立重复射击计算，设 #mi(`p=0.6=\dfrac{3}{5}`)，则至少击中两次包括恰好两次和三次. 因此所求概率为
 
-$ C_3^(2) p^2(1-p)+p^3 =3((3)/(5))^2(2)/(5)+((3)/(5))^3 =(54)/(125)+(27)/(125)=(81)/(125) $
+
+#align(center)[#mitex(`
+\mathrm{C}_{3}^{2}p^{2}(1-p)+p^{3}  =3\left(\frac{3}{5}\right)^{2}\frac{2}{5}+\left(\frac{3}{5}\right)^{3}  =\frac{54}{125}+\frac{27}{125}=\frac{81}{125}
+`)]
+
 
 故选 A.
 ]
 
 #problem(8)[
-要得到函数 $y=sqrt(2) cos x$ 的图象，只需将函数
-$y=sqrt(2) sin (2 x+(pi)/(4))$ 的图象上所有的点的（$$）
-  #choices([横坐标缩短到原来的 $(1)/(2)$ 倍（纵坐标不变），再向左平行移动 $(pi)/(8)$ 个单位长度], [横坐标缩短到原来的 $(1)/(2)$ 倍（纵坐标不变），再向右平行移动 $(pi)/(4)$ 个单位长度], [横坐标伸长到原来的 $2$ 倍（纵坐标不变），再向左平行移动 $(pi)/(4)$ 个单位长度], [横坐标伸长到原来的 $2$ 倍（纵坐标不变），再向右平行移动 $(pi)/(8)$ 个单位长度], cols: 1)
+要得到函数 #mi(`y=\sqrt{2}\cos x`) 的图象，只需将函数
+
+#mi(`y=\sqrt{2}\sin\left(2x+\dfrac\pi4\right)`) 的图象上所有的点的（#mi(`\quad`)）
+  #choices([横坐标缩短到原来的 #mi(`\dfrac{1}{2}`) 倍（纵坐标不变），再向左平行移动 #mi(`\dfrac\pi8`) 个单位长度], [横坐标缩短到原来的 #mi(`\dfrac{1}{2}`) 倍（纵坐标不变），再向右平行移动 #mi(`\dfrac\pi4`) 个单位长度], [横坐标伸长到原来的 #mi(`2`) 倍（纵坐标不变），再向左平行移动 #mi(`\dfrac\pi4`) 个单位长度], [横坐标伸长到原来的 #mi(`2`) 倍（纵坐标不变），再向右平行移动 #mi(`\dfrac\pi8`) 个单位长度], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-横坐标伸长为原来的 $2$ 倍后，函数变为
-$y=sqrt(2) sin (x+(pi)/(4))$. 再向左平移 $(pi)/(4)$ 个单位，
-函数变为 $y=sqrt(2) sin (x+(pi)/(2))=sqrt(2) cos x$，故选 C.
+横坐标伸长为原来的 #mi(`2`) 倍后，函数变为
+
+#mi(`y=\sqrt{2}\sin\left(x+\dfrac\pi4\right)`). 再向左平移 #mi(`\dfrac\pi4`) 个单位，
+
+函数变为 #mi(`y=\sqrt{2}\sin\left(x+\dfrac\pi2\right)=\sqrt{2}\cos x`)，故选 C.
 ]
 
 #problem(9)[
-设 $f^(-1)(x)$ 是函数 $f(x)=(1)/(2)(a^x-a^(-x))$（$a>1$）的反函数，
-则使 $f^(-1)(x)>1$ 成立的 $x$ 的取值范围为（$$）
-  #choices([$((a^2-1)/(2 a),+ oo )$], [$(- oo ,(a^2-1)/(2 a))$], [$((a^2-1)/(2 a),a)$], [$[a,+ oo )$], cols: 2)
+设 #mi(`f^{-1}(x)`) 是函数 #mi(`f(x)=\dfrac{1}{2}(a^{x}-a^{-x})`)（#mi(`a>1`)）的反函数，
+
+则使 #mi(`f^{-1}(x)>1`) 成立的 #mi(`x`) 的取值范围为（#mi(`\quad`)）
+  #choices([#mi(`\left(\dfrac{a^2-1}{2a},+\infty\right)`)], [#mi(`\left(-\infty,\dfrac{a^2-1}{2a}\right)`)], [#mi(`\left(\dfrac{a^2-1}{2a},a\right)`)], [#mi(`[a,+\infty)`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-因为 $a>1$，有 $f'(x)=(ln a)/(2)(a^x+a^(-x))>0$，
-所以 $f$ 严格递增，且其值域为 $RR$. 因而
-$f^(-1)(x)>1$ 等价于 $x>f(1)$，而
+因为 #mi(`a>1`)，有 #mi(`f'(x)=\dfrac{\ln a}{2}(a^{x}+a^{-x})>0`)，
 
-$ f(1)=(1)/(2)(a-a^(-1))=(a^2-1)/(2 a) $
+所以 #mi(`f`) 严格递增，且其值域为 #mi(`\mathbb{R}`). 因而
 
-所求范围为 $((a^2-1)/(2 a),+ oo )$，故选 A.
+#mi(`f^{-1}(x)>1`) 等价于 #mi(`x>f(1)`)，而
+
+
+#align(center)[#mitex(`
+f(1)=\frac{1}{2}(a-a^{-1})=\frac{a^{2}-1}{2a}
+`)]
+
+
+所求范围为 #mi(`\left(\dfrac{a^2-1}{2a},+\infty\right)`)，故选 A.
 ]
 
 #problem(10)[
-若函数 $f(x)= log _a(x^3-a x)$（$a>0$，$a != 1$）在区间
-$(-(1)/(2),0)$ 内单调递增，则 $a$ 的取值范围是（$$）
-  #choices([$[(1)/(4),1)$], [$[(3)/(4),1)$], [$((9)/(4),+ oo )$], [$(1,(9)/(4))$], cols: 2)
+若函数 #mi(`f(x)=\log_{a}(x^{3}-ax)`)（#mi(`a>0`)，#mi(`a\ne1`)）在区间
+
+#mi(`\left(-\dfrac{1}{2},0\right)`) 内单调递增，则 #mi(`a`) 的取值范围是（#mi(`\quad`)）
+  #choices([#mi(`\left[\dfrac{1}{4},1\right)`)], [#mi(`\left[\dfrac{3}{4},1\right)`)], [#mi(`\left(\dfrac{9}{4},+\infty\right)`)], [#mi(`\left(1,\dfrac{9}{4}\right)`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-在 $x in (-(1)/(2),0)$ 时 $x<0$，所以真数
-$x^3-a x=x(x^2-a)>0$ 等价于 $a>x^2$. 要使真数在整个开区间内有定义，
-必要充分条件为 $a >= (1)/(4)$.
+在 #mi(`x\in\left(-\dfrac{1}{2},0\right)`) 时 #mi(`x<0`)，所以真数
 
-令 $g(x)=x^3-a x$，则 $g'(x)=3 x^2-a$. 若 $0<a<1$，对数函数递减，
-要使 $log _a g(x)$ 递增，需在整个区间内有 $g'(x)<0$. 当
-$a >= (3)/(4)$ 时，由 $x^2<(1)/(4)$ 得
-$g'(x)<(3)/(4)-a <= 0$，且不等号实际为严格不等号；当
-$(1)/(4) <= a<(3)/(4)$ 时，可取充分接近 $-(1)/(2)$ 的 $x$，使
-$3 x^2-a>0$，此时复合函数的导数为负，不能在整个区间内递增. 若 $a>1$，
-则需 $g'(x)>0$，但 $g'(x)<(3)/(4)-a<0$，不可能. 结合 $a != 1$，得
-$a in [(3)/(4),1)$，故选 B.
+#mi(`x^{3}-ax=x(x^{2}-a)>0`) 等价于 #mi(`a>x^{2}`). 要使真数在整个开区间内有定义，
+
+必要充分条件为 #mi(`a\ge\dfrac{1}{4}`).
+
+令 #mi(`g(x)=x^{3}-ax`)，则 #mi(`g'(x)=3x^{2}-a`). 若 #mi(`0<a<1`)，对数函数递减，
+
+要使 #mi(`\log_{a} g(x)`) 递增，需在整个区间内有 #mi(`g'(x)<0`). 当
+
+#mi(`a\ge\dfrac{3}{4}`) 时，由 #mi(`x^{2}<\dfrac{1}{4}`) 得
+
+#mi(`g'(x)<\dfrac{3}{4}-a\leqslant0`)，且不等号实际为严格不等号；当
+
+#mi(`\dfrac{1}{4}\le a<\dfrac{3}{4}`) 时，可取充分接近 #mi(`-\dfrac{1}{2}`) 的 #mi(`x`)，使
+
+#mi(`3x^{2}-a>0`)，此时复合函数的导数为负，不能在整个区间内递增. 若 #mi(`a>1`)，
+
+则需 #mi(`g'(x)>0`)，但 #mi(`g'(x)<\dfrac{3}{4}-a<0`)，不可能. 结合 #mi(`a\ne1`)，得
+
+#mi(`a\in\left[\dfrac{3}{4},1\right)`)，故选 B.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-设 $n in \m a t h b b N^*$，则
-$C_n^1+C_n^2 6+C_n^3 6^2+ dots.c +C_n^(n) 6^(n-1)=$#blank(){}.
+设 #mi(`n\in\mathbb{N}^{*}`)，则
+
+#mi(`\mathrm{C}_{n}^{1}+\mathrm{C}_{n}^{2} 6+\mathrm{C}_{n}^{3} 6^{2}+\cdots+\mathrm{C}_{n}^{n}6^{n-1}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(7^n-1)/(6)$])
+#answer([#mi(`\dfrac{7^n-1}{6}`)])
 
 #solution[
 由二项式定理，
 
-$ 7^n=(1+6)^n=1+C_n^1 6+C_n^2 6^2+ dots.c +C_n^(n) 6^n $
 
-两边减去 $1$ 后除以 $6$，得到原式为 $(7^n-1)/(6)$.
+#align(center)[#mitex(`
+7^{n}=(1+6)^{n}=1+\mathrm{C}_{n}^{1} 6+\mathrm{C}_{n}^{2} 6^{2}+\cdots+\mathrm{C}_{n}^{n}6^{n}
+`)]
+
+
+两边减去 #mi(`1`) 后除以 #mi(`6`)，得到原式为 #mi(`\dfrac{7^n-1}{6}`).
 ]
 
 #problem(12)[
-如图，$P A bot$ 平面 $A B C$，$angle A C B=90^ degree$ 且
-$P A=A C=B C=a$，则异面直线 $P B$ 与 $A C$ 所成角的正切值等于#blank(){}.
+如图，#mi(`PA\perp`) 平面 #mi(`ABC`)，#mi(`\angle ACB=90^{\circ}`) 且
+
+#mi(`PA=AC=BC=a`)，则异面直线 #mi(`PB`) 与 #mi(`AC`) 所成角的正切值等于\underline{\hspace{2.5em}}.
 
 
 #align(center)[#image("/papers/2005/img/tianjin_science/q12_fig1.png", width: 28%)]
+
 ]
 
-#answer([$sqrt(2)$])
+#answer([#mi(`\sqrt{2}`)])
 
 #solution[
-建立直角坐标系，取 $A=(0,0,0)$，$C=(a,0,0)$，$B=(a,a,0)$，$P=(0,0,a)$.
-则 $arrow(A C)=(a,0,0)$，$arrow(P B)=(a,a,-a)$. 设两直线所成的锐角为
-$theta$，则
+建立直角坐标系，取 #mi(`A=(0,0,0)`)，#mi(`C=(a,0,0)`)，#mi(`B=(a,a,0)`)，#mi(`P=(0,0,a)`).
 
-$ cos theta =(|arrow(A C){ dot }arrow(P B)|)/(|A C| |P B|)=(a^2)/(a\c d o t s q r t(3)a)=(1)/(sqrt(3)) $
+则 #mi(`\overrightarrow{AC}=(a,0,0)`)，#mi(`\overrightarrow{PB}=(a,a,-a)`). 设两直线所成的锐角为
 
-因而 $tan theta =sqrt((1)/(cos ""^2 theta)-1)=sqrt(2)$.
+#mi(`\theta`)，则
+
+
+#align(center)[#mitex(`
+\cos\theta  =\frac{|\overrightarrow{AC}\cdot\overrightarrow{PB}|}{|AC|\,|PB|}=\frac{a^{2}}{a\cdot\sqrt{3}a}=\frac{1}{\sqrt{3}}
+`)]
+
+
+因而 #mi(`\tan\theta=\sqrt{\dfrac1{\cos^2\theta}-1}=\sqrt{2}`).
 ]
 
 #problem(13)[
-在数列 $\{a_n\}$ 中，$a_1=1$，$a_2=2$，且
-$a_(n+2)-a_n=1+(-1)^n$（$n in \m a t h b b N^*$）. 则
-$S_(100)=$#blank(){}.
+在数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{1}=1`)，#mi(`a_{2}=2`)，且
+
+#mi(`a_{n+2}-a_{n}=1+(-1)^{n}`)（#mi(`n\in\mathbb{N}^{*}`)）. 则
+
+#mi(`S_{100}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2600$])
+#answer([#mi(`2600`)])
 
 #solution[
-当 $n$ 为奇数时，$a_(n+2)=a_n$，所以所有奇数项均为 $1$. 当 $n=2 k$ 为偶数时，
-$a_(2 k+2)=a_(2 k)+2$，结合 $a_2=2$ 得 $a_(2 k)=2 k$. 因而
+当 #mi(`n`) 为奇数时，#mi(`a_{n+2}=a_{n}`)，所以所有奇数项均为 #mi(`1`). 当 #mi(`n=2k`) 为偶数时，
 
-$ S_(100) =sum_(k=1)^(50)a_(2 k-1)+sum_(k=1)^(50)a_(2 k) =50+2 sum_(k=1)^(50)k =50+2550 =2600 $
+#mi(`a_{2k+2}=a_{2k}+2`)，结合 #mi(`a_{2}=2`) 得 #mi(`a_{2k}=2k`). 因而
+
+
+#align(center)[#mitex(`
+S_{100}=\sum_{k=1}^{50}a_{2k-1}+\sum_{k=1}^{50}a_{2k}=50+2\sum_{k=1}^{50}k  =50+2550  =2600
+`)]
 ]
 
 #problem(14)[
-在直角坐标系 $x O y$ 中，已知点 $A(0,1)$ 和点 $B(-3,4)$，若点 $C$ 在
-$angle A O B$ 的平分线上且 $|arrow(O C)|=2$，则
-$arrow(O C)=$#blank(){}.
+在直角坐标系 #mi(`xOy`) 中，已知点 #mi(`A(0,1)`) 和点 #mi(`B(-3,4)`)，若点 #mi(`C`) 在
+
+#mi(`\angle AOB`) 的平分线上且 #mi(`\left|\overrightarrow{OC}\right|=2`)，则
+
+#mi(`\overrightarrow{OC}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(-\d f r a c{sqrt(10)}5,\d f r a c{3 sqrt(10)}5)$])
+#answer([#mi(`\left(-\dfrac{\sqrt{10}}5,\dfrac{3\sqrt{10}}5\right)`)])
 
 #solution[
-$arrow(O A)=(0,1)$，$arrow(O B)=(-3,4)$，且 $|O A|=1$，$|O B|=5$.
+#mi(`\overrightarrow{OA}=(0,1)`)，#mi(`\overrightarrow{OB}=(-3,4)`)，且 #mi(`|OA|=1`)，#mi(`|OB|=5`).
+
 内角平分线方向可取单位向量之和
 
-$ (arrow(O A))/(|O A|)+(arrow(O B))/(|O B|)=(-(3)/(5),(9)/(5)) $
 
-其方向为 $(-1,3)$. 该方向的单位向量为
-$(1)/(sqrt(10))(-1,3)$，再乘以 $|O C|=2$，得
+#align(center)[#mitex(`
+\frac{\overrightarrow{OA}}{|OA|}+\frac{\overrightarrow{OB}}{|OB|}=\left(-\frac{3}{5},\frac{9}{5}\right)
+`)]
 
-$ arrow(O C)=(-(2)/(sqrt(10)),(6)/(sqrt(10))) =(-\f r a c{sqrt(10)}5,\f r a c{3 sqrt(10)}5) $
+
+其方向为 #mi(`(-1,3)`). 该方向的单位向量为
+
+#mi(`\dfrac1{\sqrt{10}}(-1,3)`)，再乘以 #mi(`|OC|=2`)，得
+
+
+#align(center)[#mitex(`
+\overrightarrow{OC}=\left(-\frac{2}{\sqrt{10}},\frac{6}{\sqrt{10}}\right)  =\left(-\frac{\sqrt{10}}{5},\frac{3\sqrt{10}}{5}\right)
+`)]
 ]
 
 #problem(15)[
-某公司有 $5" 万元"$ 资金用于投资开发项目，如果成功，一年后可获利 $12\%$，
-一旦失败，一年后将丧失全部资金的 $50\%$. 下表是过去 $200$ 例类似项目开发的实施结果：
+某公司有 #mi(`5\text{ \text{万元}}`) 资金用于投资开发项目，如果成功，一年后可获利 #mi(`12\%`)，
 
-\begin{center}
-\begin{tabular}{|c|c|}
+一旦失败，一年后将丧失全部资金的 #mi(`50\%`). 下表是过去 #mi(`200`) 例类似项目开发的实施结果：
+
 \hline
+
 投资成功 & 投资失败 \\
-\hline
-$192$ 次 & $8$ 次 \\
-\hline
-\end{tabular}
-\end{center}
 
-则该公司一年后估计可获收益的期望是#blank(){}$"元"$.
+\hline
+
+#mi(`192`) 次 & #mi(`8`) 次 \\
+
+\hline
+
+则该公司一年后估计可获收益的期望是\underline{\hspace{2.5em}}#mi(`\text{\text{元}}`).
 ]
 
-#answer([$4760$])
+#answer([#mi(`4760`)])
 
 #solution[
 由历史数据估计成功、失败的概率分别为
-$(192)/(200)=0.96$ 和 $(8)/(200)=0.04$. 成功时收益为
-$50000 times 12 \%=6000$ 元，失败时收益为
-$-50000 times 50 \%=-25000$ 元. 所以收益的期望为
 
-$ 0.96 times 6000 +0.04 times (-25000)=5760-1000=4760" 元" $
+#mi(`\dfrac{192}{200}=0.96`) 和 #mi(`\dfrac8{200}=0.04`). 成功时收益为
+
+#mi(`50000\times12\%=6000`) 元，失败时收益为
+
+#mi(`-50000\times50\%=-25000`) 元. 所以收益的期望为
+
+
+#align(center)[#mitex(`
+0.96\times6000+0.04\times(-25000)=5760-1000=4760\text{ \text{元}}
+`)]
 ]
 
 #problem(16)[
-设 $f(x)$ 是定义在 $RR$ 上的奇函数，且 $y=f(x)$ 的图象关于直线
-$x=(1)/(2)$ 对称，则
-$f(1)+f(2)+f(3)+f(4)+f(5)=$#blank(){}.
+设 #mi(`f(x)`) 是定义在 #mi(`\mathbb{R}`) 上的奇函数，且 #mi(`y=f(x)`) 的图象关于直线
+
+#mi(`x=\dfrac{1}{2}`) 对称，则
+
+#mi(`f(1)+f(2)+f(3)+f(4)+f(5)=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$0$])
+#answer([#mi(`0`)])
 
 #solution[
-关于直线 $x=(1)/(2)$ 对称意味着 $f(x)=f(1-x)$. 取 $x=1$，得
-$f(1)=f(0)=0$. 再由
+关于直线 #mi(`x=\dfrac{1}{2}`) 对称意味着 #mi(`f(x)=f(1-x)`). 取 #mi(`x=1`)，得
 
-$ f(n)=f(1-n)=-f(n-1) $
+#mi(`f(1)=f(0)=0`). 再由
 
-并结合 $f(1)=0$ 归纳得 $f(2)=f(3)=f(4)=f(5)=0$，故所求和为 $0$.
+
+#align(center)[#mitex(`
+f(n)=f(1-n)=-f(n-1)
+`)]
+
+
+并结合 #mi(`f(1)=0`) 归纳得 #mi(`f(2)=f(3)=f(4)=f(5)=0`)，故所求和为 #mi(`0`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-在 $triangle A B C$ 中，$angle A$，$angle B$，$angle C$ 所对的边长分别为
-$a$，$b$，$c$. 设 $a$，$b$，$c$ 满足条件
-$b^2+c^2-b c=a^2$ 和 $(c)/(b)=(1)/(2)+sqrt(3)$，求
-$angle A$ 和 $tan B$ 的值.
+在 #mi(`\triangle ABC`) 中，#mi(`\angle A`)，#mi(`\angle B`)，#mi(`\angle C`) 所对的边长分别为
+
+#mi(`a`)，#mi(`b`)，#mi(`c`). 设 #mi(`a`)，#mi(`b`)，#mi(`c`) 满足条件
+
+#mi(`b^{2}+c^{2}-bc=a^{2}`) 和 #mi(`\dfrac{c}{b}=\dfrac{1}{2}+\sqrt{3}`)，求
+
+#mi(`\angle A`) 和 #mi(`\tan B`) 的值.
 ]
 
 #solution[
-由余弦定理，$a^2=b^2+c^2-2 b c cos A$. 与已知等式比较得
-$2 b c cos A=b c$，所以 $cos A=(1)/(2)$，从而 $A=60^ degree$.
-又 $C=120^ degree -B$，由正弦定理
+由余弦定理，#mi(`a^{2}=b^{2}+c^{2}-2bc\cos A`). 与已知等式比较得
 
-$ (c)/(b)=(sin C)/(sin B)=(sin (120^ degree -B))/(sin B)=(sqrt(3))/(2) cot B+(1)/(2) $
+#mi(`2bc\cos A=bc`)，所以 #mi(`\cos A=\dfrac{1}{2}`)，从而 #mi(`A=60^{\circ}`).
 
-代入 $(c)/(b)=(1)/(2)+sqrt(3)$，得 $(sqrt(3))/(2) cot B=sqrt(3)$，即
-$cot B=2$，所以 $tan B=(1)/(2)$.
+又 #mi(`C=120^{\circ}-B`)，由正弦定理
+
+
+#align(center)[#mitex(`
+\frac{c}{b}=\frac{\sin C}{\sin B}=\frac{\sin(120^{\circ}-B)}{\sin B}=\frac{\sqrt{3}}{2}\cot B+\frac{1}{2}
+`)]
+
+
+代入 #mi(`\dfrac{c}{b}=\dfrac{1}{2}+\sqrt{3}`)，得 #mi(`\dfrac{\sqrt{3}}{2}\cot B=\sqrt{3}`)，即
+
+#mi(`\cot B=2`)，所以 #mi(`\tan B=\dfrac{1}{2}`).
 ]
 
 #problem(18)[
-已知 $u_n=a^n+a^(n-1)b+a^(n-2)b^2+ dots.c +a b^(n-1)+b^n$
-（$n in \m a t h b b N^*$，$\ a>0$，$\ b>0$）.
+已知 #mi(`u_{n}=a^{n}+a^{n-1}b+a^{n-2}b^{2}+\cdots+ab^{n-1}+b^{n}`)
+
+（#mi(`n\in\mathbb{N}^{*}`)，#mi(`\ a>0`)，#mi(`\ b>0`)）.
 
 
-+ (1) 当 $a=b$ 时，求数列 $\{u_n\}$ 的前 $n$ 项和 $S_n$；
-+ (2) 求 $lim_(n -> oo )(u_n)/(u_(n-1))$.
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a=b$ 时，原式的 $k+1$ 项均为 $a^k$，所以 $u_k=(k+1)a^k$. 当
-$a != 1$ 时，分别使用加权等比数列求和公式和等比数列求和公式，得
-
-$ \b e g i n{g a t h e r e d} S_n=sum_(k=1)^n(k+1)a^k=sum_(k=1)^(n) k a^k+sum_(k=1)^(n) a^k,\\ S_n=(a-(n+1)a^(n+1)+n a^(n+2))/((1-a)^2)+(a(1-a^n))/(1-a), a != 1 . \e n d{g a t h e r e d} $
-
-当 $a=1$ 时，$u_k=k+1$，所以
-
-$ S_n=sum_(k=1)^n(k+1)=(n(n+3))/(2) $
-+ (2) 当 $a != b$ 时，等比数列求和得
-
-$ u_n=(a^(n+1)-b^(n+1))/(a-b) $
-
-若 $a>b$，则
-
-$ (u_n)/(u_(n-1))=a(1-((b)/(a))^(n+1))/(1-((b)/(a))^n)\l o n g r i g h t a r r o w a $
-
-所以此时极限为 $a$.
-若 $b>a$，令 $s=(a)/(b) in (0,1)$，则
-
-$ (u_n)/(u_(n-1))=b(1-s^(n+1))/(1-s^n)\l o n g r i g h t a r r o w b $
-
-当 $a=b$ 时，
-
-$ (u_n)/(u_(n-1))=a(n+1)/(n)\l o n g r i g h t a r r o w a $
-
-综合三种情形，极限为 $max \{a,b\}$.
++ (1)
 ]
 
 #problem(19)[
-如图，在斜三棱柱 $A B C-A_(1) B_(1) C_1$ 中，
-$angle A_(1) A B= angle A_(1) A C$，$A B=A C$，$A_(1) A=A_(1) B=a$，侧面
-$B_(1) B C C_1$ 与底面 $A B C$ 所成的二面角为 $120^ degree$，$E$，$F$ 分别是棱
-$B_(1) C_1$，$A_(1) A$ 的中点.
+如图，在斜三棱柱 #mi(`ABC-A_{1}B_{1}C_{1}`) 中，
+
+#mi(`\angle A_{1}AB=\angle A_{1}AC`)，#mi(`AB=AC`)，#mi(`A_{1}A=A_{1}B=a`)，侧面
+
+#mi(`B_{1}BCC_{1}`) 与底面 #mi(`ABC`) 所成的二面角为 #mi(`120^{\circ}`)，#mi(`E`)，#mi(`F`) 分别是棱
+
+#mi(`B_{1}C_{1}`)，#mi(`A_{1}A`) 的中点.
 
 
-+ (1) 求 $A_(1) A$ 与底面 $A B C$ 所成的角；
-+ (2) 证明 $A_(1) E parallel "平面 "B_(1) F C$；
-+ (3) 求经过 $A_1$，$A$，$B$，$C$ 四点的球的体积.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2005/img/tianjin_science/q19_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2005/img/tianjin_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设 $D$ 为棱 $B C$ 的中点，$H$ 为点 $A_1$ 在底面 $A B C$ 内的射影. 因
-$A_(1) H bot$ 底面，且 $A B=A C$，由
-$angle A_(1) A B= angle A_(1) A C$ 得
-$arrow(A H)\c d o t a r r o w(A B)= arrow(A H)\c d o t a r r o w(A C)$，所以
-$A H bot B C$. 又 $A D bot B C$，故 $A$，$H$，$D$ 共线. 取底面为
-$z=0$，以 $A D$ 为 $x$ 轴并令 $D$ 的横坐标为正，可取
-$A=(0,0,0)$，$A_1=(p,0,h)$，$B=(q,t,0)$，$C=(q,-t,0)$
-其中 $q>0$，$t>0$，且 $h>0$. 过 $D$ 作垂直于 $B C$ 的截面，底面内的
-截线方向为 $(-1,0,0)$，侧面内的截线方向为 $(p,0,h)$. 因二面角为
-$120^ degree$，有
-
-$ cos 120 ""^ degree =((-1,0,0) dot (p,0,h))/(sqrt(p^2+h^2))=-(p)/(A A_1) $
-
-又 $A A_1=a$，所以 $p=(a)/(2)$，再由
-
-$ h=sqrt(a^2-p^2)=(sqrt(3))/(2)a $
-
-因而 $A_(1) A$ 与底面所成的角 $theta$ 满足
-$sin theta =(h)/(a)=(sqrt(3))/(2)$，故 $theta =60^ degree$.
-+ (2) 由平移关系，
-$B_1=(q+p,t,h)$，$C_1=(q+p,-t,h)$，
-所以
-$E=(q+p,0,h)$，$F=((p)/(2),0,(h)/(2))$.
-因此 $arrow(A_(1) E)=(q,0,0)$. 另一方面，
-$arrow(F B_1)=(q+(p)/(2),t,(h)/(2))$，$arrow(F C)=(q-(p)/(2),-t,-(h)/(2))$，
-从而 $arrow(F B_1)+arrow(F C)=(2 q,0,0)$. 这两个向量都在
-平面 $B_(1) F C$ 内，且 $q>0$，故该平面内存在一条与 $x$ 轴平行的直线.
-又由 $A_(1) B=a$ 及 $p^2+h^2=a^2$ 得
-$q^2+t^2=2 p q=a q$. 而 $arrow(A_(1) E)=(q,0,0)$ 也与 $x$ 轴平行.
-$arrow(F B_1)-arrow(F C)=(p,2 t,h)$，故平面 $B_(1) F C$ 内过 $F$ 的任一向量可写成
-$r(1,0,0)+s(p,2 t,h)$；若它等于
-$arrow(F A_1)=((p)/(2),0,(h)/(2))$，由第二坐标得 $s=0$，但第三坐标随即不可能相等.
-所以 $A_1 in.not "平面 "B_(1) F C$，故 $A_(1) E parallel "平面 "B_(1) F C$.
-+ (3) 由 $A_(1) B=a$ 以及 $p=(a)/(2)$，$h=(sqrt(3))/(2)a$，得
-$(q-p)^2+t^2+h^2=a^2$，$\L o n g r i g h t a r r o w$，$q^2+t^2=a q$.
-所以 $triangle A B C$ 的外接圆圆心为 $O=((a)/(2),0,0)$. 设球心为
-$S=((a)/(2),0,z)$，由 $S A=S A_1$ 得
-
-$ (a^2)/(4)+z^2=(z-h)^2 $
-
-故 $z=(a)/(2 sqrt(3))$. 于是球半径满足
-
-$ R^2=S A^2=(a^2)/(4)+(a^2)/(12)=(a^2)/(3) $
-
-所以
-
-$ V=(4)/(3) pi R^3=(4 sqrt(3))/(27) pi a^3 $
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-某人在一山坡 $P$ 处观看对面山顶上的一座铁塔，如图所示，塔高
-$B C=80" 米"$，塔所在的山高 $O B=220" 米"$，$O A=200" 米"$.
-图中所示的山坡可视为直线 $l$ 且点 $P$ 在直线 $l$ 上，$l$ 与水平地面的夹角为
-$alpha$，$tan alpha =(1)/(2)$. 试问此人距水平地面多高时，观看塔的视角
-$angle B P C$ 最大？（不计此人的身高）
+某人在一山坡 #mi(`P`) 处观看对面山顶上的一座铁塔，如图所示，塔高
+
+#mi(`BC=80\text{ \text{米}}`)，塔所在的山高 #mi(`OB=220\text{ \text{米}}`)，#mi(`OA=200\text{ \text{米}}`).
+
+图中所示的山坡可视为直线 #mi(`l`) 且点 #mi(`P`) 在直线 #mi(`l`) 上，#mi(`l`) 与水平地面的夹角为
+
+#mi(`\alpha`)，#mi(`\tan\alpha=\dfrac{1}{2}`). 试问此人距水平地面多高时，观看塔的视角
+
+#mi(`\angle BPC`) 最大？（不计此人的身高）
 
 
-#align(center)[#image("/papers/2005/img/tianjin_science/q20_fig1.png", width: 56%)]
+#align(center)[#image("/papers/2005/img/tianjin_science/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设 $P$ 距水平地面的高度为 $h >= 0$. 取 $O$ 为原点、水平向右为 $x$ 轴，
-则 $A=(200,0)$，$B=(0,220)$，$C=(0,300)$. 由于山坡斜率为
-$(1)/(2)$，有 $P=(200+2 h,h)$. 记 $x=200+2 h$，则
-$arrow(P B)=(-x,220-h)$，$arrow(P C)=(-x,300-h)$.
+设 #mi(`P`) 距水平地面的高度为 #mi(`h\geqslant0`). 取 #mi(`O`) 为原点、水平向右为 #mi(`x`) 轴，
+
+则 #mi(`A=(200,0)`)，#mi(`B=(0,220)`)，#mi(`C=(0,300)`). 由于山坡斜率为
+
+#mi(`\dfrac{1}{2}`)，有 #mi(`P=(200+2h,h)`). 记 #mi(`x=200+2h`)，则
+
+#mi(`\overrightarrow{PB}=(-x,220-h)`)，#mi(`\overrightarrow{PC}=(-x,300-h)`).
+
 视角为锐角，且
 
-$ tan angle B P C =(|arrow(P B){ times }arrow(P C)|)/(arrow(P B)\c d o t a r r o w(P C))=(80 x)/(x^2+(220-h)(300-h))=(160(h+100))/(5 h^2+280 h+106000) $
 
-令右端为 $T(h)$，则 $T'(h)$ 的符号由
+#align(center)[#mitex(`
+\tan\angle BPC  =\frac{|\overrightarrow{PB}\times\overrightarrow{PC}|}{\overrightarrow{PB}\cdot\overrightarrow{PC}}=\frac{80x}{x^{2}+(220-h)(300-h)}=\frac{160(h+100)}{5h^{2}+280h+106000}
+`)]
 
-$ 5 h^2+280 h+106000-(h+100)(10 h+280) =-5(h-60)(h+260) $
 
-决定. 所以 $T(h)$ 在 $0 <= h<60$ 上递增，在 $h>60$ 上递减，
-最大值在 $h=60$ 时取得. 因而此人距水平地面 $60$ 米高时视角最大.
+令右端为 #mi(`T(h)`)，则 #mi(`T'(h)`) 的符号由
+
+
+#align(center)[#mitex(`
+5h^{2}+280h+106000-(h+100)(10h+280)  =-5(h-60)(h+260)
+`)]
+
+
+决定. 所以 #mi(`T(h)`) 在 #mi(`0\le h<60`) 上递增，在 #mi(`h>60`) 上递减，
+
+最大值在 #mi(`h=60`) 时取得. 因而此人距水平地面 #mi(`60`) 米高时视角最大.
 ]
 
 #problem(21)[
-抛物线 $C$ 的方程为 $y=a x^2$（$a<0$），过抛物线 $C$ 上一点
-$P(x_0,y_0)$（$x_0 != 0$）作斜率为 $k_1$，$k_2$ 的两条直线分别交抛物线
-$C$ 于 $A(x_1,y_1)$，$B(x_2,y_2)$ 两点（$P$，$A$，$B$ 三点互不相同），
-且满足 $k_2+ lambda k_1=0$（$lambda != 0$，$lambda != -1$）.
+抛物线 #mi(`C`) 的方程为 #mi(`y=ax^{2}`)（#mi(`a<0`)），过抛物线 #mi(`C`) 上一点
+
+#mi(`P(x_{0},y_{0})`)（#mi(`x_{0}\ne0`)）作斜率为 #mi(`k_{1}`)，#mi(`k_{2}`) 的两条直线分别交抛物线
+
+#mi(`C`) 于 #mi(`A(x_{1},y_{1})`)，#mi(`B(x_{2},y_{2})`) 两点（#mi(`P`)，#mi(`A`)，#mi(`B`) 三点互不相同），
+
+且满足 #mi(`k_{2}+\lambda k_{1}=0`)（#mi(`\lambda\ne0`)，#mi(`\lambda\ne-1`)）.
 
 
-+ (1) 求抛物线 $C$ 的焦点坐标和准线方程；
-+ (2) 设直线 $A B$ 上一点 $M$，满足 $arrow(B M)=\l a m b d a a r r o w(M A)$，
-证明线段 $P M$ 的中点在 $y$ 轴上；
-+ (3) 当 $lambda =1$ 时，若点 $P$ 的坐标为 $(1,-1)$，求
-$angle P A B$ 为钝角时点 $A$ 的纵坐标 $y_1$ 的取值范围.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 将 $y=a x^2$ 写成 $x^2=(1)/(a)y=4 p y$，得 $p=(1)/(4 a)$.
-所以焦点为 $(0,(1)/(4 a))$，准线为 $y=-(1)/(4 a)$.
-+ (2) 抛物线上两点的弦斜率满足
-
-$ (y_1-y_0)/(x_1-x_0)=a(x_1+x_0) $
-
-故 $k_1=a(x_0+x_1)$，$k_2=a(x_0+x_2)$. 由条件得
-
-$ x_2+ lambda x_1+(1+ lambda )x_0=0 $
-
-又 $arrow(B M)=\l a m b d a a r r o w(M A)$ 给出
-$(1+ lambda )M=B+ lambda A$，所以
-
-$ x_M=(x_2+ lambda x_1)/(1+ lambda)=-x_0 $
-
-因而 $P M$ 的中点横坐标为 $(x_0-x_0)/(2)=0$，即线段 $P M$ 的中点在
-$y$ 轴上.
-+ (3) $P=(1,-1)$ 在抛物线上，故 $a=-1$，抛物线为 $y=-x^2$. 令 $x_1=t$，
-由 $k_1+k_2=0$ 得 $x_2=-2-t$. 于是
-$A=(t,-t^2)$，$B=(-2-t,-(t+2)^2)$.
-并且
-$arrow(A P)=(1-t)(1,-t-1)$，$arrow(A B)=-2(t+1)(1,2)$.
-因而
-
-$ arrow(A P)\c d o t a r r o w(A B)=2(1-t)(t+1)(2 t+1) $
-
-$angle P A B$ 为钝角等价于该内积小于零，即
-
-$ t in (-1,-(1)/(2)) union (1,+ oo ) $
-
-题设还排除 $t=-1$ 时 $A=B$、$t=1$ 时 $A=P$ 以及 $t=-3$ 时
-$B=P$ 的情形；其中 $t=-3$ 不在上面的钝角范围内. 因为 $y_1=-t^2$，故
-
-$ y_1 in (- oo ,-1) union (-1,-(1)/(4)) $
++ (1) 
++ (2)
 ]
 
 #problem(22)[
-设函数 $f(x)=x sin x$（$x in RR$）.
+设函数 #mi(`f(x)=x\sin x`)（#mi(`x\in\mathbb{R}`)）.
 
 
-+ (1) 证明 $f(x+2 k pi )-f(x)=2 k pi sin x$，其中 $k$ 为整数；
-+ (2) 设 $x_0$ 为 $f(x)$ 的一个极值点，证明
-$[f(x_0)]^2=(x_0^4)/(1+x_0^2)$；
-+ (3) 设 $f(x)$ 在 $(0,+ oo )$ 内的全部极值点按从小到大的顺序排列
-$a_1$，$a_2$，$\l d o t s$，$a_n$，$\l d o t s$，证明
-$(pi)/(2)<a_(n+1)-a_n< pi$（$n=1$，$2$，$\l d o t s$）.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 因为 $sin (x+2 k pi )= sin x$，所以
-
-$ f(x+2 k pi )-f(x) =(x+2 k pi ) sin x-x sin x =2 k pi sin x $
-+ (2) $f'(x)= sin x+x cos x$. 在极值点 $x_0$ 有
-$sin x_0+x_0 cos x_0=0$，即 $sin x_0=-x_0 cos x_0$. 与
-$sin ""^(2) x_0+ cos ""^(2) x_0=1$ 联立，得
-
-$ (1+x_0^2) cos ""^(2) x_0=1 $
-
-所以 $sin ""^(2) x_0=(x_0^2)/(1+x_0^2)$.
-因此
-
-$ [f(x_0)]^2=x_0^2 sin ""^(2) x_0 =(x_0^4)/(1+x_0^2) $
-+ (3) 极值点不能满足 $cos x=0$，因为此时
-$f'(x)= sin x != 0$. 因而正极值点必须满足 $tan x=-x$. 对 $x>0$，
-右端 $-x<0$，所以只需考察正切函数为负的区间
-$I_n=((n-(1)/(2)) pi ,n pi )$，$n=1$，$2$，$\l d o t s$
-令 $g(x)= tan x+x$. 在每个 $I_n$ 上，
-$g'(x)=\sec^(2) x+1>0$，且当 $x$ 从区间左端趋近时 $g(x) -> - oo$，而
-$g(n pi )=n pi >0$，所以每个 $I_n$ 内恰有一个根，记为 $a_n$. 根的两侧
-$g$ 符号相反，而 $cos x$ 在 $I_n$ 内不变号，因此
-$f'(x)= cos x g(x)$ 在 $a_n$ 两侧变号；这些根恰为全部正极值点. 由
-$a_n<n pi$ 及 $a_(n+1)>(n+(1)/(2)) pi$，得
-
-$ a_n+(pi)/(2)<(n+(1)/(2)) pi <a_(n+1) $
-
-所以 $a_(n+1)-a_n>(pi)/(2)$. 又因为
-$a_n>(n-(1)/(2)) pi$ 且 $a_n<n pi$，有 $a_n+ pi in I_(n+1)$，且
-
-$ g(a_n+ pi )= tan a_n+a_n+ pi = pi >0 $
-
-由于 $g$ 在 $I_(n+1)$ 上递增且在根处为零，根 $a_(n+1)$ 位于 $a_n+ pi$ 左侧，
-故 $a_(n+1)-a_n< pi$. 结论成立.
++ (1) 
++ (2)
 ]
 

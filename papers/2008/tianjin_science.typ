@@ -185,7 +185,9 @@ x - 1, & x \ge 0,\end{cases}`) 则不等式 #mi(`x + (x + 1)f(x + 1) \le 1`) 的
 #problem(14)[
 如图，在平行四边形 #mi(`ABCD`) 中，#mi(`\overrightarrow{AC}= (1, 2)`)，#mi(`\overrightarrow{BD}= (-3, 2)`)，则 #mi(`\overrightarrow{AD}\cdot \overrightarrow{AC}=`)\underline{\hspace{2.5em}}.
 
-[width=0.42\linewidth]img/2008/tianjin_science/q14_fig1.png
+
+#align(center)[#image("/papers/2008/img/tianjin_science/q14_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`3`)])
@@ -251,7 +253,9 @@ x - 1, & x \ge 0,\end{cases}`) 则不等式 #mi(`x + (x + 1)f(x + 1) \le 1`) 的
 
 
 
-[width=0.34\linewidth]img/2008/tianjin_science/q19_fig1.png
+
+#align(center)[#image("/papers/2008/img/tianjin_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

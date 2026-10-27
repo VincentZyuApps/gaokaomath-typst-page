@@ -34,7 +34,9 @@
 #problem(4)[
 日晷是中国古代用来测定时间的仪器，利用与晷面垂直的晷针投射到晷面的影子来测定时间. 把地球看成一个球（球心记为 #mi(`O`)），地球上一点 #mi(`A`) 的纬度是指 #mi(`OA`) 与地球赤道所在平面所成角，点 #mi(`A`) 处的水平面是指过点 #mi(`A`) 且与 #mi(`OA`) 垂直的平面. 在点 #mi(`A`) 处放置一个日晷，若晷面与赤道所在平面平行，点 #mi(`A`) 处的纬度为北纬 #mi(`40^{\circ}`)，则晷针与点 #mi(`A`) 处的水平面所成角为（ ）
 
-[float=inline,max width=0.42\linewidth]img/2020/new_gaokao_paper_2/q4_fig1.png
+
+#align(center)[#image("/papers/2020/img/new_gaokao_paper_2/q4_fig1.png", width: 28%)]
+
   #choices([#mi(`20^{\circ}`)], [#mi(`40^{\circ}`)], [#mi(`50^{\circ}`)], [#mi(`90^{\circ}`)], cols: 2)
 ]
 
@@ -73,7 +75,9 @@
 #problem(9)[
 我国新冠肺炎疫情进入常态化，各地有序推进复工复产，下面是某地连续 #mi(`11`) 天复工复产指数折线图，下列说法正确的是（ ）
 
-[float=inline,max width=0.88\linewidth]img/2020/new_gaokao_paper_2/q9_fig1.png
+
+#align(center)[#image("/papers/2020/img/new_gaokao_paper_2/q9_fig1.png", width: 28%)]
+
   #choices([这 #mi(`11`) 天复工指数和复产指数均逐日增加], [这 #mi(`11`) 天期间，复产指数增量大于复工指数的增量], [第 #mi(`3`) 天至第 #mi(`11`) 天复工复产指数均超过 #mi(`80\%`)], [第 #mi(`9`) 天至第 #mi(`11`) 天复产指数增量大于复工指数的增量], cols: 1)
 ]
 
@@ -89,7 +93,9 @@
 #problem(11)[
 下图是函数 #mi(`y=\sin(\omega x+\varphi)`) 的部分图像，则 #mi(`\sin(\omega x+\varphi)=`)（ ）
 
-[float=inline,max width=0.42\linewidth]img/2020/new_gaokao_paper_2/q11_fig1.png
+
+#align(center)[#image("/papers/2020/img/new_gaokao_paper_2/q11_fig1.png", width: 28%)]
+
   #choices([#mi(`\sin\left(x+\dfrac{\pi}{3}\right)`)], [#mi(`\sin\left(\dfrac{\pi}{3}-2x\right)`)], [#mi(`\cos\left(2x+\dfrac{\pi}{6}\right)`)], [#mi(`\cos\left(\dfrac{5\pi}{6}-2x\right)`)], cols: 1)
 ]
 
@@ -125,7 +131,9 @@
 #problem(16)[
 某中学开展劳动实习，学生加工制作零件，零件的截面如图所示. #mi(`O`) 为圆孔及轮廓圆弧 #mi(`AB`) 所在圆的圆心，#mi(`A`) 是圆弧 #mi(`AB`) 与直线 #mi(`AG`) 的切点，#mi(`B`) 是圆弧 #mi(`AB`) 与直线 #mi(`BC`) 的切点，四边形 #mi(`DEFG`) 为矩形，#mi(`BC\perp DG`)，垂足为 #mi(`C`)，#mi(`\tan\angle ODC=\dfrac{3}{5}`)，#mi(`BH\parallel DG`)，#mi(`EF=12 \mathrm{~cm}`)，#mi(`DE=2 \mathrm{~cm}`)，#mi(`A`) 到直线 #mi(`DE`) 和 #mi(`EF`) 的距离均为 #mi(`7 \mathrm{~cm}`)，圆孔半径为 #mi(`1 \mathrm{~cm}`)，则图中阴影部分的面积为\underline{\hspace{2.5em}}#mi(`\mathrm{cm}^{2}`).
 
-[float=inline,max width=0.88\linewidth]img/2020/new_gaokao_paper_2/q16_fig1.png
+
+#align(center)[#image("/papers/2020/img/new_gaokao_paper_2/q16_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`4+\dfrac{5\pi}{2}`)])
@@ -138,7 +146,7 @@
 
 + (1) #mi(`ac=\sqrt{3}`)，
 + (2) #mi(`c\sin A=3`)，
-+ (3) #mi(`c=\sqrt{3} b`)
++ (3) #mi(`c=\sqrt{3}b`)
 
 
 
@@ -209,7 +217,9 @@
 
 
 
-[float=inline,max width=0.42\linewidth]img/2020/new_gaokao_paper_2/q20_fig1.png
+
+#align(center)[#image("/papers/2020/img/new_gaokao_paper_2/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[

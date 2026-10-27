@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,85 +11,101 @@
 #part-header("单选题")
 
 #problem(1)[
-复数 $( i - (1)/(i))^3$ 等于（ ）
-  #choices([$8$], [$-8$], [$8 i$], [$-8 i$], cols: 4)
+复数 #mi(`\left(\mathrm{i}- \frac{1}{\mathrm{i}}\right)^{3}`) 等于（ ）
+  #choices([#mi(`8`)], [#mi(`-8`)], [#mi(`8\mathrm{i}`)], [#mi(`-8\mathrm{i}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-因为 $i ""^(-1)=- i$，所以
+因为 #mi(`\mathrm{i}^{-1}=-\mathrm{i}`)，所以
 
-$ ( i -(1)/(i))^3=(2 i )^3=8 i ""^3=-8 i $
+
+#align(center)[#mitex(`
+\left(\mathrm{i}-\frac{1}{\mathrm{i}}\right)^{3}=(2\mathrm{i})^{3}=8\mathrm{i}^{3}=-8\mathrm{i}
+`)]
+
 
 故选 D.
 ]
 
 #problem(2)[
-“$| x-1|<2$ 成立”是“$x(x-3)<0$ 成立”的（ ）
+“#mi(`\lvert x-1\rvert<2`) 成立”是“#mi(`x(x-3)<0`) 成立”的（ ）
   #choices([充分不必要条件], [必要不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-设命题 $\m a t h c a l A$ 为 $| x-1|<2$，命题 $\m a t h c a l B$ 为 $x(x-3)<0$. 由
-$| x-1|<2 <=> -1<x<3$，$x(x-3)<0 <=> 0<x<3$.
-可知 $\m a t h c a l B$ 成立时 $\m a t h c a l A$ 必成立，但取 $x=-(1)/(2)$ 时 $\m a t h c a l A$ 成立而 $\m a t h c a l B$ 不成立. 因此，$\m a t h c a l A$ 是 $\m a t h c a l B$ 的必要不充分条件，故选 B.
+设命题 #mi(`\mathcal{A}`) 为 #mi(`\lvert x-1\rvert<2`)，命题 #mi(`\mathcal{B}`) 为 #mi(`x(x-3)<0`). 由
+
+#mi(`\lvert x-1\rvert<2\Longleftrightarrow -1<x<3`)，#mi(`x(x-3)<0\Longleftrightarrow 0<x<3`).
+
+可知 #mi(`\mathcal{B}`) 成立时 #mi(`\mathcal{A}`) 必成立，但取 #mi(`x=-\frac{1}{2}`) 时 #mi(`\mathcal{A}`) 成立而 #mi(`\mathcal{B}`) 不成立. 因此，#mi(`\mathcal{A}`) 是 #mi(`\mathcal{B}`) 的必要不充分条件，故选 B.
 ]
 
 #problem(3)[
-已知变量 $x$，$y$ 满足条件 $\b e g i n{c a s e s} x >= 1 ,\\ x - y <= 0 ,\\ x + 2 y - 9 <= 0 , \e n d{c a s e s}$ 则 $x + y$ 的最大值是（ ）
-  #choices([$2$], [$5$], [$6$], [$8$], cols: 4)
+已知变量 #mi(`x`)，#mi(`y`) 满足条件 #mi(`\begin{cases}x \ge 1,\\  x - y \le 0,\\  x + 2y - 9 \le 0,\end{cases}`) 则 #mi(`x + y`) 的最大值是（ ）
+  #choices([#mi(`2`)], [#mi(`5`)], [#mi(`6`)], [#mi(`8`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由约束条件得 $x >= 1$，$y >= x$，且 $y <= (9-x)/(2)$. 可行域由直线 $x=1$、$y=x$ 和 $x+2 y=9$ 围成，三个顶点分别为
-$(1,1)$，$(1,4)$，$(3,3)$.
-在三个顶点处，$x+y$ 的值分别为 $2$、$5$、$6$. 线性目标函数在多边形可行域上的最大值取在顶点处，所以最大值为 $6$，故选 C.
+由约束条件得 #mi(`x\geqslant1`)，#mi(`y\ge x`)，且 #mi(`y\le\frac{9-x}{2}`). 可行域由直线 #mi(`x=1`)、#mi(`y=x`) 和 #mi(`x+2y=9`) 围成，三个顶点分别为
+
+#mi(`(1,1)`)，#mi(`(1,4)`)，#mi(`(3,3)`).
+
+在三个顶点处，#mi(`x+y`) 的值分别为 #mi(`2`)、#mi(`5`)、#mi(`6`). 线性目标函数在多边形可行域上的最大值取在顶点处，所以最大值为 #mi(`6`)，故选 C.
 ]
 
 #problem(4)[
-设随机变量 $xi$ 服从正态分布 $N(2,9)$，若 $P( xi > c + 1) = P( xi < c - 1)$，则 $c =$（ ）
-  #choices([$1$], [$2$], [$3$], [$4$], cols: 4)
+设随机变量 #mi(`\xi`) 服从正态分布 #mi(`N(2,9)`)，若 #mi(`P(\xi > c + 1) = P(\xi < c - 1)`)，则 #mi(`c =`)（ ）
+  #choices([#mi(`1`)], [#mi(`2`)], [#mi(`3`)], [#mi(`4`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-正态分布 $N(2,9)$ 的密度关于直线 $x=2$ 对称. 因而
+正态分布 #mi(`N(2,9)`) 的密度关于直线 #mi(`x=2`) 对称. 因而
 
-$ P( xi >c+1)=P( xi <4-(c+1))=P( xi <3-c) $
 
-题设还给出该概率等于 $P( xi <c-1)$. 正态分布的分布函数严格递增，所以
+#align(center)[#mitex(`
+P(\xi>c+1)=P\bigl(\xi<4-(c+1)\bigr)=P(\xi<3-c)
+`)]
 
-$ 3-c=c-1 $
 
-解得 $c=2$，故选 B.
+题设还给出该概率等于 #mi(`P(\xi<c-1)`). 正态分布的分布函数严格递增，所以
+
+
+#align(center)[#mitex(`
+3-c=c-1
+`)]
+
+
+解得 #mi(`c=2`)，故选 B.
 ]
 
 #problem(5)[
-设有直线 $m$，$n$ 和平面 $alpha$，$beta$. 下列四个命题中，正确的是（ ）
-  #choices([若 $m parallel alpha , n parallel alpha$，则 $m parallel n$], [若 $m subset alpha$，$n subset alpha$，$m parallel beta$，$n parallel beta$，则 $alpha parallel beta$], [若 $alpha bot beta$，$m subset alpha$，则 $m bot beta$], [若 $alpha bot beta$，$m bot beta$，$m not subset alpha$，则 $m parallel alpha$], cols: 1)
+设有直线 #mi(`m`)，#mi(`n`) 和平面 #mi(`\alpha`)，#mi(`\beta`). 下列四个命题中，正确的是（ ）
+  #choices([若 #mi(`m \parallel \alpha, n \parallel \alpha`)，则 #mi(`m \parallel n`)], [若 #mi(`m \subset \alpha`)，#mi(`n \subset \alpha`)，#mi(`m \parallel \beta`)，#mi(`n \parallel \beta`)，则 #mi(`\alpha \parallel \beta`)], [若 #mi(`\alpha \perp \beta`)，#mi(`m \subset \alpha`)，则 #mi(`m \perp \beta`)], [若 #mi(`\alpha \perp \beta`)，#mi(`m \perp \beta`)，#mi(`m \not\subset \alpha`)，则 #mi(`m \parallel \alpha`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-命题 A 不成立. 例如取 $alpha :z=0$，$m:\{(t,0,1):t in RR \}$，$n:\{(0,t,1):t in RR \}$，两直线都平行于 $alpha$，但相交于 $(0,0,1)$，所以不平行.
+命题 A 不成立. 例如取 #mi(`\alpha:z=0`)，#mi(`m:\{(t,0,1):t\in\mathbb{R}\}`)，#mi(`n:\{(0,t,1):t\in\mathbb{R}\}`)，两直线都平行于 #mi(`\alpha`)，但相交于 #mi(`(0,0,1)`)，所以不平行.
 
-命题 B 不成立. 取 $alpha :z=0$，$beta :x=0$，并取 $m:\{(1,t,0):t in RR \}$，$n:\{(2,t,0):t in RR \}$. 两直线都在 $alpha$ 内且都平行于 $beta$，但 $alpha$ 与 $beta$ 相交.
+命题 B 不成立. 取 #mi(`\alpha:z=0`)，#mi(`\beta:x=0`)，并取 #mi(`m:\{(1,t,0):t\in\mathbb{R}\}`)，#mi(`n:\{(2,t,0):t\in\mathbb{R}\}`). 两直线都在 #mi(`\alpha`) 内且都平行于 #mi(`\beta`)，但 #mi(`\alpha`) 与 #mi(`\beta`) 相交.
 
-命题 C 不成立. 当 $alpha bot beta$ 时，取 $m= alpha inter beta$，则 $m subset alpha$，但 $m$ 在 $beta$ 内，不能与 $beta$ 垂直.
+命题 C 不成立. 当 #mi(`\alpha\perp\beta`) 时，取 #mi(`m=\alpha\cap\beta`)，则 #mi(`m\subset\alpha`)，但 #mi(`m`) 在 #mi(`\beta`) 内，不能与 #mi(`\beta`) 垂直.
 
-对于命题 D，$m bot beta$ 表明直线 $m$ 的方向平行于平面 $beta$ 的法线. 由于 $alpha bot beta$，平面 $beta$ 的法线平行于平面 $alpha$，故 $m parallel alpha$ 或 $m subset alpha$. 题设又有 $m not subset alpha$，所以 $m parallel alpha$. 故选 D.
+对于命题 D，#mi(`m\perp\beta`) 表明直线 #mi(`m`) 的方向平行于平面 #mi(`\beta`) 的法线. 由于 #mi(`\alpha\perp\beta`)，平面 #mi(`\beta`) 的法线平行于平面 #mi(`\alpha`)，故 #mi(`m\parallel\alpha`) 或 #mi(`m\subset\alpha`). 题设又有 #mi(`m\not\subset\alpha`)，所以 #mi(`m\parallel\alpha`). 故选 D.
 ]
 
 #problem(6)[
-函数 $f(x) = sin ""^2 x + sqrt(3) sin x cos x$ 在区间 $[(pi)/(4),(pi)/(2)]$ 上的最大值是（ ）
-  #choices([$1$], [$(1 + sqrt(3))/(2)$], [$(3)/(2)$], [$1 + sqrt(3)$], cols: 2)
+函数 #mi(`f(x) = \sin^{2} x + \sqrt{3}\sin x\cos x`) 在区间 #mi(`\left[\frac{\pi}{4},\frac{\pi}{2}\right]`) 上的最大值是（ ）
+  #choices([#mi(`1`)], [#mi(`\frac{1 + \sqrt{3}}{2}`)], [#mi(`\frac{3}{2}`)], [#mi(`1 + \sqrt{3}`)], cols: 2)
 ]
 
 #answer([C])
@@ -97,76 +113,120 @@ $ 3-c=c-1 $
 #solution[
 利用二倍角公式，得
 
-$ f(x)=(1- cos 2 x)/(2)+(sqrt(3))/(2) sin 2 x =(1)/(2)+ sin (2 x-(pi)/(6)) $
 
-当 $x in [(pi)/(4),(pi)/(2)]$ 时，$2 x-(pi)/(6) in [(pi)/(3),(5 pi)/(6)]$，其中包含正弦函数取得最大值 $1$ 的点 $(pi)/(2)$. 因此 $f(x)$ 的最大值为 $(3)/(2)$，故选 C.
+#align(center)[#mitex(`
+f(x)=\frac{1-\cos 2x}{2}+\frac{\sqrt{3}}{2}\sin 2x  =\frac{1}{2}+\sin\left(2x-\frac{\pi}{6}\right)
+`)]
+
+
+当 #mi(`x\in\left[\frac{\pi}{4},\frac{\pi}{2}\right]`) 时，#mi(`2x-\frac{\pi}{6}\in\left[\frac{\pi}{3},\frac{5\pi}{6}\right]`)，其中包含正弦函数取得最大值 #mi(`1`) 的点 #mi(`\frac{\pi}{2}`). 因此 #mi(`f(x)`) 的最大值为 #mi(`\frac{3}{2}`)，故选 C.
 ]
 
 #problem(7)[
-设 $D$，$E$，$F$ 分别是 $triangle A B C$ 的三边 $B C$，$C A$，$A B$ 上的点，且 $arrow(D C)= 2 arrow(B D)$，$arrow(C E)= 2 arrow(E A)$，$arrow(A F)= 2 arrow(F B)$，则 $arrow(A D)+ arrow(B E)+ arrow(C F)$ 与 $arrow(B C)$（ ）
+设 #mi(`D`)，#mi(`E`)，#mi(`F`) 分别是 #mi(`\triangle ABC`) 的三边 #mi(`BC`)，#mi(`CA`)，#mi(`AB`) 上的点，且 #mi(`\overrightarrow{DC}= 2\overrightarrow{BD}`)，#mi(`\overrightarrow{CE}= 2\overrightarrow{EA}`)，#mi(`\overrightarrow{AF}= 2\overrightarrow{FB}`)，则 #mi(`\overrightarrow{AD}+ \overrightarrow{BE}+ \overrightarrow{CF}`) 与 #mi(`\overrightarrow{BC}`)（ ）
   #choices([反向平行], [同向平行], [互相垂直], [既不平行也不垂直], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-由 $arrow(D C)=2 arrow(B D)$，得 $arrow(B D)=(1)/(3)arrow(B C)$，从而
+由 #mi(`\overrightarrow{DC}=2\overrightarrow{BD}`)，得 #mi(`\overrightarrow{BD}=\frac{1}{3}\overrightarrow{BC}`)，从而
 
-$ arrow(A D)=arrow(A B)+(1)/(3)arrow(B C)=(2)/(3)arrow(A B)+(1)/(3)arrow(A C) $
 
-由 $arrow(C E)=2 arrow(E A)$ 及 $arrow(C A)=arrow(C E)+arrow(E A)$，得
+#align(center)[#mitex(`
+\overrightarrow{AD}=\overrightarrow{AB}+\frac{1}{3}\overrightarrow{BC}=\frac{2}{3}\overrightarrow{AB}+\frac{1}{3}\overrightarrow{AC}
+`)]
 
-$ arrow(C E)=(2)/(3)arrow(C A) $
+
+由 #mi(`\overrightarrow{CE}=2\overrightarrow{EA}`) 及 #mi(`\overrightarrow{CA}=\overrightarrow{CE}+\overrightarrow{EA}`)，得
+
+
+#align(center)[#mitex(`
+\overrightarrow{CE}=\frac{2}{3}\overrightarrow{CA}
+`)]
+
 
 因此
 
-$ arrow(B E)=arrow(B C)+arrow(C E)=(arrow(A C)-arrow(A B))-(2)/(3)arrow(A C)=(1)/(3)arrow(A C)-arrow(A B) $
 
-同样，由 $arrow(A F)=2 arrow(F B)$ 及 $arrow(A B)=arrow(A F)+arrow(F B)$，得
+#align(center)[#mitex(`
+\overrightarrow{BE}=\overrightarrow{BC}+\overrightarrow{CE}=\left(\overrightarrow{AC}-\overrightarrow{AB}\right)-\frac{2}{3}\overrightarrow{AC}=\frac{1}{3}\overrightarrow{AC}-\overrightarrow{AB}
+`)]
 
-$ arrow(A F)=(2)/(3)arrow(A B) $
+
+同样，由 #mi(`\overrightarrow{AF}=2\overrightarrow{FB}`) 及 #mi(`\overrightarrow{AB}=\overrightarrow{AF}+\overrightarrow{FB}`)，得
+
+
+#align(center)[#mitex(`
+\overrightarrow{AF}=\frac{2}{3}\overrightarrow{AB}
+`)]
+
 
 因此
 
-$ arrow(C F)=arrow(C A)+arrow(A F)=-arrow(A C)+(2)/(3)arrow(A B) $
+
+#align(center)[#mitex(`
+\overrightarrow{CF}=\overrightarrow{CA}+\overrightarrow{AF}=-\overrightarrow{AC}+\frac{2}{3}\overrightarrow{AB}
+`)]
+
 
 所以
 
-$ arrow(A D)+arrow(B E)+arrow(C F)=(1)/(3)arrow(A B)-(1)/(3)arrow(A C)=-(1)/(3)arrow(B C) $
 
-该向量与 $arrow(B C)$ 反向平行，故选 A.
+#align(center)[#mitex(`
+\overrightarrow{AD}+\overrightarrow{BE}+\overrightarrow{CF}=\frac{1}{3}\overrightarrow{AB}-\frac{1}{3}\overrightarrow{AC}=-\frac{1}{3}\overrightarrow{BC}
+`)]
+
+
+该向量与 #mi(`\overrightarrow{BC}`) 反向平行，故选 A.
 ]
 
 #problem(8)[
-若双曲线 $(x^2)/(a^2)- (y^2)/(b^2)= 1$（$a > 0$，$b > 0$）上横坐标为 $(3 a)/(2)$ 的点到右焦点的距离大于它到左准线的距离，则双曲线离心率的取值范围是（ ）
-  #choices([$(1,2)$], [$(2, + oo )$], [$(1,5)$], [$(5, + oo )$], cols: 4)
+若双曲线 #mi(`\frac{x^{2}}{a^{2}}- \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > 0`)，#mi(`b > 0`)）上横坐标为 #mi(`\frac{3a}{2}`) 的点到右焦点的距离大于它到左准线的距离，则双曲线离心率的取值范围是（ ）
+  #choices([#mi(`(1,2)`)], [#mi(`(2, +\infty)`)], [#mi(`(1,5)`)], [#mi(`(5, +\infty)`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-设双曲线的半焦距为 $c$，离心率为 $e=(c)/(a)>1$，则 $b^2=a^2(e^2-1)$. 设题设点为 $Q$，其横坐标为 $(3 a)/(2)$，由双曲线方程得
+设双曲线的半焦距为 #mi(`c`)，离心率为 #mi(`e=\frac{c}{a}>1`)，则 #mi(`b^{2}=a^{2}(e^{2}-1)`). 设题设点为 #mi(`Q`)，其横坐标为 #mi(`\frac{3a}{2}`)，由双曲线方程得
 
-$ y_Q^2=b^2((9)/(4)-1)=(5)/(4)b^2 $
 
-因此到右焦点 $(c,0)$ 的距离满足
+#align(center)[#mitex(`
+y_{Q}^{2}=b^{2}\left(\frac{9}{4}-1\right)=\frac{5}{4}b^{2}
+`)]
 
-$ Q F^2=((3 a)/(2)-c)^2+(5)/(4)b^2 =(a^2)/(4)(3 e-2)^2 $
 
-由于 $e>1$，所以 $Q F=(a)/(2)(3 e-2)$. 左准线方程为 $x=-(a^2)/(c)$，故点 $Q$ 到左准线的距离为
+因此到右焦点 #mi(`(c,0)`) 的距离满足
 
-$ Q\e l l=(3 a)/(2)+(a^2)/(c)=(a)/(2 e)(3 e+2) $
+
+#align(center)[#mitex(`
+QF^{2}=\left(\frac{3a}{2}-c\right)^{2}+\frac{5}{4}b^{2}  =\frac{a^{2}}{4}(3e-2)^{2}
+`)]
+
+
+由于 #mi(`e>1`)，所以 #mi(`QF=\frac{a}{2}(3e-2)`). 左准线方程为 #mi(`x=-\frac{a^{2}}{c}`)，故点 #mi(`Q`) 到左准线的距离为
+
+
+#align(center)[#mitex(`
+Q\ell=\frac{3a}{2}+\frac{a^{2}}{c}=\frac{a}{2e}(3e+2)
+`)]
+
 
 由题设不等式
 
-$ (a)/(2)(3 e-2)>(a)/(2 e)(3 e+2) <=> 3 e^2-5 e-2>0 <=> (3 e+1)(e-2)>0 $
 
-结合 $e>1$，得 $e>2$，故选 B.
+#align(center)[#mitex(`
+\frac{a}{2}(3e-2)>\frac{a}{2e}(3e+2)  \Longleftrightarrow 3e^{2}-5e-2>0  \Longleftrightarrow (3e+1)(e-2)>0
+`)]
+
+
+结合 #mi(`e>1`)，得 #mi(`e>2`)，故选 B.
 ]
 
 #problem(9)[
-长方体 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 的 $8$ 个顶点在同一球面上，且 $A B = 2$，$A D = sqrt(3)$，$A A_(1) = 1$，则顶点 $A$，$B$ 间的球面距离是（ ）
-  #choices([$2 sqrt(2) pi$], [$sqrt(2) pi$], [$(sqrt(2){ pi })/(2)$], [$(sqrt(2){ pi })/(4)$], cols: 2)
+长方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 的 #mi(`8`) 个顶点在同一球面上，且 #mi(`AB = 2`)，#mi(`AD = \sqrt{3}`)，#mi(`AA_{1}= 1`)，则顶点 #mi(`A`)，#mi(`B`) 间的球面距离是（ ）
+  #choices([#mi(`2\sqrt{2}\pi`)], [#mi(`\sqrt{2}\pi`)], [#mi(`\frac{\sqrt{2}\pi}{2}`)], [#mi(`\frac{\sqrt{2}\pi}{4}`)], cols: 2)
 ]
 
 #answer([C])
@@ -174,40 +234,66 @@ $ (a)/(2)(3 e-2)>(a)/(2 e)(3 e+2) <=> 3 e^2-5 e-2>0 <=> (3 e+1)(e-2)>0 $
 #solution[
 长方体的体对角线长为
 
-$ sqrt(A B^2+A D^2+A A_1^2)=sqrt(4+3+1)=2 sqrt(2) $
 
-该体对角线是外接球的直径，所以球半径为 $R=sqrt(2)$. 设球心为 $O$，$theta = angle A O B$ 为小于等于 $pi$ 的圆心角，则弦长公式给出
+#align(center)[#mitex(`
+\sqrt{AB^{2}+AD^{2}+AA_{1}^{2}}=\sqrt{4+3+1}=2\sqrt{2}
+`)]
 
-$ 2=A B=2 R sin (theta)/(2)=2 sqrt(2) sin (theta)/(2) $
 
-于是 $theta =(pi)/(2)$. 球面上两点间的最短距离为对应大圆弧长，因此
+该体对角线是外接球的直径，所以球半径为 #mi(`R=\sqrt{2}`). 设球心为 #mi(`O`)，#mi(`\theta=\angle AOB`) 为小于等于 #mi(`\pi`) 的圆心角，则弦长公式给出
 
-$ R theta =sqrt(2) dot (pi)/(2)=(sqrt(2) pi)/(2) $
+
+#align(center)[#mitex(`
+2=AB=2R\sin\frac{\theta}{2}=2\sqrt{2}\sin\frac{\theta}{2}
+`)]
+
+
+于是 #mi(`\theta=\frac{\pi}{2}`). 球面上两点间的最短距离为对应大圆弧长，因此
+
+
+#align(center)[#mitex(`
+R\theta=\sqrt{2}\cdot\frac{\pi}{2}=\frac{\sqrt{2}\pi}{2}
+`)]
+
 
 故选 C.
 ]
 
 #problem(10)[
-设 $[x]$ 表示不超过 $x$ 的最大整数（如 $[2]=2$，$[(5)/(4)]=1$ ）. 对于给定的 $n in NN ""^(*)$，定义 $C_(x)^(n) = (n(n-1) dots.c (n-[x]+1))/(x(x-1) dots.c (x-[x]+1))$， $x in [1, + oo )$，则当 $x in [(3)/(2), 3)$ 时，函数 $C_(x)^(8)$ 的值域是（ ）
-  #choices([$[(16)/(3), 28]$], [$[(16)/(3), 56)$], [$(4, (28)/(3)) union [28, 56)$], [$(4, (16)/(3)] union ((28)/(3), 28]$], cols: 1)
+设 #mi(`[x]`) 表示不超过 #mi(`x`) 的最大整数（如 #mi(`[2]=2`)，#mi(`\left[\frac{5}{4}\right]=1`) ）. 对于给定的 #mi(`n \in \mathbb{N}^{*}`)，定义 #mi(`C_{x}^{n}= \frac{n(n-1)\cdots(n-[x]+1)}{x(x-1)\cdots(x-[x]+1)}`)， #mi(`x \in [1, +\infty)`)，则当 #mi(`x \in \left[\frac{3}{2}, 3\right)`) 时，函数 #mi(`C_{x}^{8}`) 的值域是（ ）
+  #choices([#mi(`\left[\frac{16}{3}, 28\right]`)], [#mi(`\left[\frac{16}{3}, 56\right)`)], [#mi(`\left(4, \frac{28}{3}\right) \cup [28, 56)`)], [#mi(`\left(4, \frac{16}{3}\right] \cup \left(\frac{28}{3}, 28\right]`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-当 $(3)/(2) <= x<2$ 时，$[x]=1$，所以
-$C_x^8=(8)/(x)$，$4<(8)/(x) <= (16)/(3)$.
-当 $2 <= x<3$ 时，$[x]=2$，所以
+当 #mi(`\frac{3}{2}\le x<2`) 时，#mi(`[x]=1`)，所以
 
-$ C_x^8=(8 dot 7)/(x(x-1))=(56)/(x(x-1)) $
+#mi(`C_{x}^{8}=\frac{8}{x}`)，#mi(`4<\frac{8}{x}\le\frac{16}{3}`).
 
-由于 $x(x-1)$ 在 $[2,3)$ 上递增，且在 $x=2$ 时取值为 $2$，在 $x -> 3 ""^-$ 时趋近于 $6$，故
+当 #mi(`2\le x<3`) 时，#mi(`[x]=2`)，所以
 
-$ (28)/(3)<(56)/(x(x-1)) <= 28 $
+
+#align(center)[#mitex(`
+C_{x}^{8}=\frac{8\cdot7}{x(x-1)}=\frac{56}{x(x-1)}
+`)]
+
+
+由于 #mi(`x(x-1)`) 在 #mi(`[2,3)`) 上递增，且在 #mi(`x=2`) 时取值为 #mi(`2`)，在 #mi(`x\to3^{-}`) 时趋近于 #mi(`6`)，故
+
+
+#align(center)[#mitex(`
+\frac{28}{3}<\frac{56}{x(x-1)}\leqslant28
+`)]
+
 
 所以值域为
 
-$ (4,(16)/(3)] union ((28)/(3),28] $
+
+#align(center)[#mitex(`
+\left(4,\frac{16}{3}\right]\cup\left(\frac{28}{3},28\right]
+`)]
+
 
 故选 D.
 ]
@@ -215,418 +301,251 @@ $ (4,(16)/(3)] union ((28)/(3),28] $
 #part-header("填空题")
 
 #problem(11)[
-$\lim\l i m i t s_(x -> 1 ) (x - 1)/(x^(2) + 3 x - 4)=$#blank(){}.
+#mi(`\lim\limits_{x \to 1}\frac{x - 1}{x^{2}+ 3x - 4}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(5)$.])
+#answer([#mi(`\frac{1}{5}`).])
 
 #solution[
 因式分解分母，得
 
-$ x^2+3 x-4=(x-1)(x+4) $
+
+#align(center)[#mitex(`
+x^{2}+3x-4=(x-1)(x+4)
+`)]
+
 
 于是
 
-$ lim_(x -> 1 )(x-1)/(x^2+3 x-4)=lim_(x -> 1 )(1)/(x+4)=(1)/(5) $
+
+#align(center)[#mitex(`
+\lim_{x\to1}\frac{x-1}{x^{2}+3x-4}=\lim_{x\to1}\frac{1}{x+4}=\frac{1}{5}
+`)]
 ]
 
 #problem(12)[
-已知椭圆 $(x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > b > 0$）的右焦点为 $F$，右准线为 $l$，离心率 $e = (sqrt(5))/(5)$. 过顶点 $A(0, b)$ 作 $A M bot l$，垂足为 $M$，则直线 $F M$ 的斜率等于#blank(){}.
+已知椭圆 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)）的右焦点为 #mi(`F`)，右准线为 #mi(`l`)，离心率 #mi(`e = \frac{\sqrt{5}}{5}`). 过顶点 #mi(`A(0, b)`) 作 #mi(`AM \perp l`)，垂足为 #mi(`M`)，则直线 #mi(`FM`) 的斜率等于\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(2)$.])
+#answer([#mi(`\frac{1}{2}`).])
 
 #solution[
-设椭圆半焦距为 $c$，则 $c^2=a^2-b^2$，且
-$(c)/(a)=e=(sqrt(5))/(5)$，$b^2=a^2-c^2=(4)/(5)a^2$，
-从而 $b=2 c$. 右准线 $l$ 的方程为 $x=(a^2)/(c)$，所以
-$M((a^2)/(c),b)$，$F(c,0)$.
-因此直线 $F M$ 的斜率为
+设椭圆半焦距为 #mi(`c`)，则 #mi(`c^{2}=a^{2}-b^{2}`)，且
 
-$ k_(F M)=(b)/((a^2)/(c)-c)=(b)/((a^2-c^2)/(c))=(c)/(b)=(1)/(2) $
+#mi(`\frac{c}{a}=e=\frac{\sqrt{5}}{5}`)，#mi(`b^{2}=a^{2}-c^{2}=\frac{4}{5}a^{2}`)，
+
+从而 #mi(`b=2c`). 右准线 #mi(`l`) 的方程为 #mi(`x=\frac{a^{2}}{c}`)，所以
+
+#mi(`M\left(\frac{a^{2}}{c},b\right)`)，#mi(`F(c,0)`).
+
+因此直线 #mi(`FM`) 的斜率为
+
+
+#align(center)[#mitex(`
+k_{FM}=\frac{b}{\frac{a^{2}}{c}-c}=\frac{b}{\frac{a^{2}-c^{2}}{c}}=\frac{c}{b}=\frac{1}{2}
+`)]
 ]
 
 #problem(13)[
-设函数 $y = f(x)$ 存在反函数 $y = f^(-1)(x)$，且函数 $y = x - f(x)$ 的图象过点 $(1,2)$. 则函数 $y = f^(-1)(x) - x$ 的图象一定过点#blank(){}.
+设函数 #mi(`y = f(x)`) 存在反函数 #mi(`y = f^{-1}(x)`)，且函数 #mi(`y = x - f(x)`) 的图象过点 #mi(`(1,2)`). 则函数 #mi(`y = f^{-1}(x) - x`) 的图象一定过点\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(-1,2)$.])
+#answer([#mi(`(-1,2)`).])
 
 #solution[
-由图象 $y=x-f(x)$ 经过 $(1,2)$，得
-$2=1-f(1)$，$f(1)=-1$.
-所以函数 $y=f(x)$ 的图象经过 $(1,-1)$. 反函数图象关于直线 $y=x$ 对称，故 $y=f^(-1)(x)$ 经过 $(-1,1)$. 在 $x=-1$ 处，$f^(-1)(x)-x=1-(-1)=2$，所以所求点为 $(-1,2)$.
+由图象 #mi(`y=x-f(x)`) 经过 #mi(`(1,2)`)，得
+
+#mi(`2=1-f(1)`)，#mi(`f(1)=-1`).
+
+所以函数 #mi(`y=f(x)`) 的图象经过 #mi(`(1,-1)`). 反函数图象关于直线 #mi(`y=x`) 对称，故 #mi(`y=f^{-1}(x)`) 经过 #mi(`(-1,1)`). 在 #mi(`x=-1`) 处，#mi(`f^{-1}(x)-x=1-(-1)=2`)，所以所求点为 #mi(`(-1,2)`).
 ]
 
 #problem(14)[
-已知函数 $f(x) = (sqrt(3 - a x))/(a - 1)$（$a != 1$）.
+已知函数 #mi(`f(x) = \frac{\sqrt{3 - ax}}{a - 1}`)（#mi(`a \neq 1`)）.
 
-+ (1) 若 $a > 1$，则 $f(x)$ 的定义域是#blank(){}；
-+ (2) 若 $f(x)$ 在区间 $(0,1]$ 上是减函数，则实数 $a$ 的取值范围是#blank(){}.
+
++ (1)
 ]
 
-#answer([$(- oo ,(3)/(a)]$；$(- oo ,0) union (1,3]$.])
+#answer([#mi(`\left(-\infty,\frac{3}{a}\right]`)；#mi(`(-\infty,0)\cup(1,3]`).])
 
 #solution[
-+ (1) 当 $a>1$ 时，分母为正，定义域由根式条件决定：
-
-$ 3-a x >= 0 <=> x <= (3)/(a) $
-
-故定义域为 $(- oo ,(3)/(a)]$.
-+ (2) 先讨论参数所在区间. 当 $a>1$ 时，根式函数随 $x$ 增大而减小，要使 $(0,1]$ 全在定义域内，必须有 $3-a >= 0$，即 $1<a <= 3$，此时除端点外严格减小.
-
-当 $0<a<1$ 时，根式随 $x$ 增大而减小，而分母 $a-1<0$，所以 $f(x)$ 在定义域内递增，不符合条件. 当 $a=0$ 时，函数为常数，也不符合“减函数”的要求.
-
-当 $a<0$ 时，根式 $sqrt(3-a x)$ 随 $x$ 严格增大，而分母为负，故 $f(x)$ 在 $(0,1]$ 上严格减小. 因此
-
-$ a in (- oo ,0) union (1,3] $
++ (1)
 ]
 
 #problem(15)[
-对有 $n$（$n >= 4$）个元素的总体 $\{1, 2, 3, dots.c , n\}$ 进行抽样. 先将总体分成两个子总体 $\{1, 2, dots.c , m\}$ 和 $\{m + 1, m + 2, dots.c , n\}$（$m$ 是给定的正整数，且 $2 <= m <= n - 2$）. 再从每个子总体中各随机抽取 $2$ 个元素组成样本，用 $P_(i j)$ 表示元素 $i$ 和 $j$ 同时出现在样本中的概率，则 $P_(1 n) =\f i l l i n b l a n k{}$；所有 $P_(i j)$（$1 <= i < j <= n$）的和等于#blank(){}.
+对有 #mi(`n`)（#mi(`n \ge 4`)）个元素的总体 #mi(`\{1, 2, 3, \cdots, n\}`) 进行抽样. 先将总体分成两个子总体 #mi(`\{1, 2, \cdots, m\}`) 和 #mi(`\{m + 1, m + 2, \cdots, n\}`)（#mi(`m`) 是给定的正整数，且 #mi(`2 \le m \le n - 2`)）. 再从每个子总体中各随机抽取 #mi(`2`) 个元素组成样本，用 #mi(`P_{ij}`) 表示元素 #mi(`i`) 和 #mi(`j`) 同时出现在样本中的概率，则 #mi(`P_{1n}=\underline{\hspace{2.5em}}{}`)；所有 #mi(`P_{ij}`)（#mi(`1 \le i < j \le n`)）的和等于\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(4)/(m(n-m))$；$6$.])
+#answer([#mi(`\frac{4}{m(n-m)}`)；#mi(`6`).])
 
 #solution[
-元素 $1$ 在第一个子总体中，被抽中的概率为 $(2)/(m)$；元素 $n$ 在第二个子总体中，被抽中的概率为 $(2)/(n-m)$. 两个子总体的抽样相互独立，所以
-
-$ P_(1 n)=(2)/(m) dot (2)/(n-m)=(4)/(m(n-m)) $
+元素 #mi(`1`) 在第一个子总体中，被抽中的概率为 #mi(`\frac{2}{m}`)；元素 #mi(`n`) 在第二个子总体中，被抽中的概率为 #mi(`\frac{2}{n-m}`). 两个子总体的抽样相互独立，所以
 
 
-每次抽样从两个子总体各取 $2$ 个元素，样本中恰有 $4$ 个元素，因而样本内无序元素对的总数恒为
+#align(center)[#mitex(`
+P_{1n}=\frac{2}{m}\cdot\frac{2}{n-m}=\frac{4}{m(n-m)}
+`)]
 
-$ C_4^2=6 $
 
-若对每个样本中的元素对使用指示变量求和，再取数学期望，得到这些指示变量的期望之和正好是所有 $P_(i j)$ 的和. 因此
+每次抽样从两个子总体各取 #mi(`2`) 个元素，样本中恰有 #mi(`4`) 个元素，因而样本内无序元素对的总数恒为
 
-$ sum_(1 <= i<j <= n)P_(i j)=6 $
+
+#align(center)[#mitex(`
+\mathrm{C}_{4}^{2}=6
+`)]
+
+
+若对每个样本中的元素对使用指示变量求和，再取数学期望，得到这些指示变量的期望之和正好是所有 #mi(`P_{ij}`) 的和. 因此
+
+
+#align(center)[#mitex(`
+\sum_{1\le i<j\le n}P_{ij}=6
+`)]
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-甲，乙，丙三人参加了一家公司的招聘面试，面试合格者可正式签约. 甲表示只要面试合格就签约. 乙，丙则约定：两人面试都合格就一同签约，否则两人都不签约. 设每人面试合格的概率都是 $(1)/(2)$，且面试是否合格互不影响. 求：
+甲，乙，丙三人参加了一家公司的招聘面试，面试合格者可正式签约. 甲表示只要面试合格就签约. 乙，丙则约定：两人面试都合格就一同签约，否则两人都不签约. 设每人面试合格的概率都是 #mi(`\frac{1}{2}`)，且面试是否合格互不影响. 求：
 
-+ (1) 至少有 $1$ 人面试合格的概率；
-+ (2) 签约人数 $xi$ 的分布列和数学期望.
+
++ (1)
 ]
 
 #solution[
-记甲、乙、丙面试合格分别为事件 $\m a t h c a l A$、$\m a t h c a l B$、$\m a t h c a l C$. 由题设，$\m a t h c a l A$、$\m a t h c a l B$、$\m a t h c a l C$ 相互独立，且
-
-$ P(\m a t h c a l A)=P(\m a t h c a l B)=P(\m a t h c a l C)=(1)/(2) $
+记甲、乙、丙面试合格分别为事件 #mi(`\mathcal{A}`)、#mi(`\mathcal{B}`)、#mi(`\mathcal{C}`). 由题设，#mi(`\mathcal{A}`)、#mi(`\mathcal{B}`)、#mi(`\mathcal{C}`) 相互独立，且
 
 
+#align(center)[#mitex(`
+P(\mathcal{A})=P(\mathcal{B})=P(\mathcal{C})=\frac{1}{2}
+`)]
 
-+ (1) 至少有 $1$ 人面试合格的对立事件是三人都不合格，因此
 
-$ P("至少有 "1" 人合格") =1-P(overline(\m a t h c a l A)\c a p o v e r l i n e(\m a t h c a l B)\c a p o v e r l i n e(\m a t h c a l C)) =1-((1)/(2))^3 =(7)/(8) $
-+ (2) 甲签约当且仅当 $\m a t h c a l A$ 发生；乙、丙签约当且仅当 $\m a t h c a l B inter \m a t h c a l C$ 发生，且二人同时签约. 因而
 
-$ xi =bold(1)_(\m a t h c a l A)+2 bold(1)_(\m a t h c a l B inter \m a t h c a l C) $
-
-当 $\m a t h c a l A$ 不发生且 $\m a t h c a l B inter \m a t h c a l C$ 不发生时，$xi =0$，所以
-
-$ P( xi =0)=(1)/(2)(1-(1)/(4))=(3)/(8) $
-
-当 $\m a t h c a l A$ 发生且 $\m a t h c a l B inter \m a t h c a l C$ 不发生时，$xi =1$，所以
-
-$ P( xi =1)=(1)/(2)(1-(1)/(4))=(3)/(8) $
-
-当 $\m a t h c a l A$ 不发生且 $\m a t h c a l B inter \m a t h c a l C$ 发生时，$xi =2$，所以
-
-$ P( xi =2)=(1)/(2) dot (1)/(4)=(1)/(8) $
-
-当 $\m a t h c a l A$ 与 $\m a t h c a l B inter \m a t h c a l C$ 同时发生时，$xi =3$，所以
-
-$ P( xi =3)=(1)/(2) dot (1)/(4)=(1)/(8) $
-
-因此分布列为
-\begin{center}
-\begin{tabular}{c|cccc}
-$xi$ & $0$ & $1$ & $2$ & $3$\\ \hline
-$P$ & $(3)/(8)$ & $(3)/(8)$ & $(1)/(8)$ & $(1)/(8)$
-\end{tabular}
-\end{center}
-数学期望为
-
-$ E( xi )=0 dot (3)/(8)+1 dot (3)/(8)+2 dot (1)/(8)+3 dot (1)/(8)=1 $
++ (1)
 ]
 
 #problem(17)[
-如图所示，四棱锥 $P - A B C D$ 的底面 $A B C D$ 是边长为 $1$ 的菱形，$angle B C D = 60^( degree )$，$E$ 是 $C D$ 的中点，$P A bot$ 底面 $A B C D$，$P A = 2$.
-
-+ (1) 证明：平面 $P B E$ $bot$ 平面 $P A B$；
-+ (2) 求平面 $P A D$ 和平面 $P B E$ 所成二面角（锐角）的大小.
+如图所示，四棱锥 #mi(`P - ABCD`) 的底面 #mi(`ABCD`) 是边长为 #mi(`1`) 的菱形，#mi(`\angle BCD = 60^{\circ}`)，#mi(`E`) 是 #mi(`CD`) 的中点，#mi(`PA \perp`) 底面 #mi(`ABCD`)，#mi(`PA = 2`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2008/img/hunan_science/q17_fig1.png", width: 36%)]
+
+
+
+#align(center)[#image("/papers/2008/img/hunan_science/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-建立直角坐标系，使底面在 $z=0$ 内，并取
-$B=(0,0,0)$，$C=(1,0,0)$，$D=((1)/(2),(sqrt(3))/(2),0)$，$A=(-(1)/(2),(sqrt(3))/(2),0)$.
-由 $P A bot$ 底面且 $P A=2$，可取
-$P=(-(1)/(2),(sqrt(3))/(2),2)$，$E=((3)/(4),(sqrt(3))/(4),0)$.
+建立直角坐标系，使底面在 #mi(`z=0`) 内，并取
 
-+ (1) 有
-$arrow(B E)=((3)/(4),(sqrt(3))/(4),0)$，$arrow(A B)=((1)/(2),-(sqrt(3))/(2),0)$，
-从而
+#mi(`B=\left(0,0,0\right)`)，#mi(`C=\left(1,0,0\right)`)，#mi(`D=\left(\frac{1}{2},\frac{\sqrt{3}}{2},0\right)`)，#mi(`A=\left(-\frac{1}{2},\frac{\sqrt{3}}{2},0\right)`).
 
-$ arrow(B E)\c d o t a r r o w(A B)=(3)/(8)-(3)/(8)=0 $
+由 #mi(`PA\perp`) 底面且 #mi(`PA=2`)，可取
 
-又因为 $B E$ 在底面内，而 $P A bot$ 底面，过 $B$ 作直线 $b parallel P A$，则 $b subset$ 平面 $P A B$ 且 $B E bot b$. 直线 $A B$ 与 $b$ 在 $B$ 相交，且 $B E bot A B$，所以 $B E bot$ 平面 $P A B$. 由于 $B E subset$ 平面 $P B E$，得到平面 $P B E bot$ 平面 $P A B$.
-+ (2) 平面 $P A D$ 的两个方向向量可取
-$arrow(A P)=(0,0,2)$，$arrow(A D)=(1,0,0)$，
-故其一个法向量可取 $(0,1,0)$. 平面 $P B E$ 的一个法向量为
+#mi(`P=\left(-\frac{1}{2},\frac{\sqrt{3}}{2},2\right)`)，#mi(`E=\left(\frac{3}{4},\frac{\sqrt{3}}{4},0\right)`).
 
-$ arrow(B P)\t i m e s a r r o w(B E)=(-(sqrt(3))/(2),(3)/(2),-(sqrt(3))/(2)) $
 
-设两平面所成的锐角为 $theta$，则
-
-$ cos theta =(|(0,1,0) dot (-(sqrt(3))/(2),(3)/(2),-(sqrt(3))/(2))|)/(sqrt((3)/(4)+(9)/(4)+(3)/(4)))=(3)/(sqrt(15)) $
-
-由于 $theta$ 为锐角，
-
-$ sin theta =sqrt(1-(9)/(15))=\f r a c{sqrt(10)}5 $
-
-所以所求二面角的大小为 $arcsin \f r a c{sqrt(10)}5$.
++ (1)
 ]
 
 #problem(18)[
-数列 $\{a_(n)\}$ 满足 $a_(1)=1$，$a_(2)=2$，$a_(n+2)=(1+ cos ""^(2)(n pi)/(2))a_(n)+ sin ""^(2)(n pi)/(2)$，$n=1$，$2$，$3$，$dots.c$.
+数列 #mi(`\{a_{n}\}`) 满足 #mi(`a_{1}=1`)，#mi(`a_{2}=2`)，#mi(`a_{n+2}=\left(1+\cos^{2}\frac{n\pi}{2}\right)a_{n}+\sin^{2}\frac{n\pi}{2}`)，#mi(`n=1`)，#mi(`2`)，#mi(`3`)，#mi(`\cdots`).
 
-+ (1) 求 $a_(3)$，$a_(4)$ 并求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 设 $b_(n) = (a_(2 n - 1))/(a_(2 n))$，$S_(n) = b_(1) + b_(2) + ... + b_(n)$. 证明：当 $n >= 6$ 时，$|S_(n) - 2| < (1)/(n)$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 当 $n=1$ 时，$cos ""^2(n pi)/(2)=0$，$sin ""^2(n pi)/(2)=1$，所以
-
-$ a_3=a_1+1=2 $
-
-当 $n=2$ 时，$cos ""^2(n pi)/(2)=1$，$sin ""^2(n pi)/(2)=0$，所以
-
-$ a_4=2 a_2=4 $
-
-
-当 $n=2 k-1$ 时，递推式化为
-
-$ a_(2 k+1)=a_(2 k-1)+1 $
-
-奇数项构成首项为 $a_1=1$、公差为 $1$ 的等差数列，故
-
-$ a_(2 k-1)=k=(2 k-1+1)/(2) $
-
-当 $n=2 k$ 时，递推式化为
-
-$ a_(2 k+2)=2 a_(2 k) $
-
-偶数项构成首项为 $a_2=2$、公比为 $2$ 的等比数列，故
-
-$ a_(2 k)=2^k $
-
-因此
-
-$ a_n= \b e g i n{c a s e s} (n+1)/(2),&n=2 k-1,\ k in NN ""^(*),\\ 2^((n)/(2)),&n=2 k,\ k in NN ""^(*). \e n d{c a s e s} $
-+ (2) 由上式得
-$b_n=(a_(2 n-1))/(a_(2 n))=(n)/(2^n)$，$S_n=sum_(k=1)^(n)(k)/(2^k)$.
-将
-
-$ 2 S_n=1+(2)/(2)+(3)/(2^2)+ dots.c +(n)/(2^(n-1)) $
-
-与 $S_n$ 相减，得到
-
-$ S_n=1+sum_(k=1)^(n-1)(1)/(2^k)-(n)/(2^n)=2-(n+2)/(2^n) $
-
-所以
-
-$ | S_n-2|=(n+2)/(2^n) $
-
-下面证明当 $n >= 6$ 时 $n(n+2)<2^n$. 当 $n=6$ 时，$6(6+2)=48<64=2^6$. 若对某个 $r >= 6$ 有 $r(r+2)<2^r$，则
-
-$ 2 r(r+2)-(r+1)(r+3)=r^2-3>0 $
-
-从而
-
-$ (r+1)(r+3)<2 r(r+2)<2^(r+1) $
-
-由数学归纳法，$n(n+2)<2^n$ 对一切 $n >= 6$ 成立. 因此
-
-$ | S_n-2|=(n+2)/(2^n)<(1)/(n) $
++ (1)
 ]
 
 #problem(19)[
-在一个特定时段内，以点 $E$ 为中心的 $7" 海里"$ 以内海域被设为警戒水域. 点 $E$ 正北 $55" 海里"$ 处有一个雷达观测站 $A$. 某时刻测得一艘匀速直线行驶的船只位于点 $A$ 北偏东 $45^( degree )$ 且与点 $A$ 相距 $40 sqrt(2)" 海里"$ 的位置 $B$，经过 $40" 分钟"$ 又测得该船已行驶到点 $A$ 北偏东 $45^( degree ) + theta$（其中 $sin theta = (sqrt(26))/(26)$，$0^( degree ) < theta < 90^( degree )$）且与点 $A$ 相距 $10 sqrt(13)" 海里"$ 的位置 $C$.
-
-+ (1) 求该船的行驶速度（单位：海里/小时）；
-+ (2) 若该船不改变航行方向继续行驶，判断它是否会进入警戒水域，并说明理由.
+在一个特定时段内，以点 #mi(`E`) 为中心的 #mi(`7\text{ \text{海里}}`) 以内海域被设为警戒水域. 点 #mi(`E`) 正北 #mi(`55\text{ \text{海里}}`) 处有一个雷达观测站 #mi(`A`). 某时刻测得一艘匀速直线行驶的船只位于点 #mi(`A`) 北偏东 #mi(`45^{\circ}`) 且与点 #mi(`A`) 相距 #mi(`40\sqrt{2}\text{ \text{海里}}`) 的位置 #mi(`B`)，经过 #mi(`40\text{ \text{分钟}}`) 又测得该船已行驶到点 #mi(`A`) 北偏东 #mi(`45^{\circ}+ \theta`)（其中 #mi(`\sin \theta = \frac{\sqrt{26}}{26}`)，#mi(`0^{\circ}< \theta < 90^{\circ}`)）且与点 #mi(`A`) 相距 #mi(`10\sqrt{13}\text{ \text{海里}}`) 的位置 #mi(`C`).
 
 
-#align(center)[#image("/papers/2008/img/hunan_science/q19_fig1.png", width: 20%)]
++ (1) 
+
+
+
+
+#align(center)[#image("/papers/2008/img/hunan_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-建立平面直角坐标系，取点 $A$ 为原点，正东方向为 $x$ 轴正向，正北方向为 $y$ 轴正向. 因为点 $E$ 在点 $A$ 正南方 $55$ 海里处，所以
+建立平面直角坐标系，取点 #mi(`A`) 为原点，正东方向为 #mi(`x`) 轴正向，正北方向为 #mi(`y`) 轴正向. 因为点 #mi(`E`) 在点 #mi(`A`) 正南方 #mi(`55`) 海里处，所以
 
-$ E=(0,-55) $
 
-点 $B$ 在点 $A$ 北偏东 $45^( degree )$ 且距离为 $40 sqrt(2)$ 海里，故
+#align(center)[#mitex(`
+E=(0,-55)
+`)]
 
-$ B=(40,40) $
 
-由 $0^( degree )< theta <90^( degree )$ 及 $sin theta =(sqrt(26))/(26)$，得
+点 #mi(`B`) 在点 #mi(`A`) 北偏东 #mi(`45^{\circ}`) 且距离为 #mi(`40\sqrt{2}`) 海里，故
 
-$ cos theta =(5)/(sqrt(26)) $
+
+#align(center)[#mitex(`
+B=(40,40)
+`)]
+
+
+由 #mi(`0^{\circ}<\theta<90^{\circ}`) 及 #mi(`\sin\theta=\frac{\sqrt{26}}{26}`)，得
+
+
+#align(center)[#mitex(`
+\cos\theta=\frac{5}{\sqrt{26}}
+`)]
+
 
 于是
 
-$ sin (45^( degree )+ theta ) =(sqrt(2))/(2)( cos theta + sin theta ) =(3)/(sqrt(13)) $
+
+#align(center)[#mitex(`
+\sin(45^{\circ}+\theta)  =\frac{\sqrt{2}}{2}\left(\cos\theta+\sin\theta\right)  =\frac{3}{\sqrt{13}}
+`)]
 
 
-$ cos (45^( degree )+ theta ) =(sqrt(2))/(2)( cos theta - sin theta ) =(2)/(sqrt(13)) $
+
+#align(center)[#mitex(`
+\cos(45^{\circ}+\theta)  =\frac{\sqrt{2}}{2}\left(\cos\theta-\sin\theta\right)  =\frac{2}{\sqrt{13}}
+`)]
+
 
 所以
 
-$ C=(10 sqrt(13) sin (45^( degree )+ theta ), 10 sqrt(13) cos (45^( degree )+ theta ))=(30,20) $
+
+#align(center)[#mitex(`
+C=\left(10\sqrt{13}\sin(45^{\circ}+\theta),  10\sqrt{13}\cos(45^{\circ}+\theta)\right)=(30,20)
+`)]
 
 
-+ (1) 船在 $40$ 分钟内行驶的路程为
 
-$ B C=sqrt((40-30)^2+(40-20)^2)=10 sqrt(5)" 海里" $
-
-由于 $40$ 分钟为 $(2)/(3)$ 小时，船速为
-
-$ v=(10 sqrt(5))/((2)/(3))=15 sqrt(5)" 海里/小时" $
-+ (2) 直线 $B C$ 的方程为
-
-$ 2 x-y-40=0 $
-
-其从 $B$ 指向 $C$ 的方向向量为 $arrow(B C)=(-10,-20)$. 设点 $E$ 到该直线的垂足为
-
-$ H=B+t a r r o w(B C) $
-
-由 $E H bot B C$，得
-
-$ t=((E-B)\c d o t a r r o w(B C))/(\l v e r t a r r o w(B C)|^2)=((-40,-95) dot (-10,-20))/(500)=(23)/(5)>1 $
-
-所以垂足 $H$ 在船经过 $C$ 后的航线上，且
-$H=(-6,-52)$，$E H=sqrt((-6)^2+3^2)=3 sqrt(5)<7$.
-航线与以 $E$ 为中心、半径为 $7$ 海里的警戒圆的距离小于半径，故船会进入警戒水域.
++ (1)
 ]
 
 #problem(20)[
-若 $A$，$B$ 是抛物线 $y^(2) = 4 x$ 上的不同两点，弦 $A B$（不平行于 $y$ 轴）的垂直平分线与 $x$ 轴相交于点 $P$，则称弦 $A B$ 是点 $P$ 的一条“相关弦”. 已知当 $x > 2$ 时，点 $P(x, 0)$ 存在无穷多条“相关弦”. 给定 $x_0 > 2$.
+若 #mi(`A`)，#mi(`B`) 是抛物线 #mi(`y^{2}= 4x`) 上的不同两点，弦 #mi(`AB`)（不平行于 #mi(`y`) 轴）的垂直平分线与 #mi(`x`) 轴相交于点 #mi(`P`)，则称弦 #mi(`AB`) 是点 #mi(`P`) 的一条“相关弦”. 已知当 #mi(`x > 2`) 时，点 #mi(`P(x, 0)`) 存在无穷多条“相关弦”. 给定 #mi(`x_{0} > 2`).
 
-+ (1) 证明：点 $P(x_0, 0)$ 的所有“相关弦”的中点的横坐标相同；
-+ (2) 试问：点 $P(x_0, 0)$ 的“相关弦”的弦长中是否存在最大值？若存在，求其最大值（用 $x_0$ 表示）；若不存在，请说明理由.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设点 $P(x_0,0)$ 的任意一条相关弦的端点为
-$A=(x_1,y_1)$，$B=(x_2,y_2)$，$x_1 != x_2$，
-则 $y_1^2=4 x_1$，$y_2^2=4 x_2$. 若 $y_1+y_2=0$，则 $y_1^2=y_2^2$，从而 $x_1=x_2$，与题设矛盾，所以 $y_1+y_2 != 0$.
-
-设弦中点为 $M=(x_m,y_m)$，则
-$x_m=(x_1+x_2)/(2)$，$y_m=(y_1+y_2)/(2)$.
-由抛物线方程相减，得
-
-$ 4(x_1-x_2)=y_1^2-y_2^2=(y_1-y_2)(y_1+y_2) $
-
-因此弦 $A B$ 的斜率为
-
-$ k=(y_1-y_2)/(x_1-x_2)=(4)/(y_1+y_2)=(2)/(y_m) $
-
-其垂直平分线方程为
-
-$ y-y_m=-(y_m)/(2)(x-x_m) $
-
-因为点 $P(x_0,0)$ 在此直线上，所以
-
-$ -y_m=-(y_m)/(2)(x_0-x_m) $
-
-又 $y_m != 0$，故 $x_m=x_0-2$. 这说明所有相关弦的中点横坐标都相同.
-+ (2) 由端点纵坐标的和与中点定义，结合 $x_i=(y_i^2)/(4)$，可得
-
-$ (y_1-y_2)^2=(y_1+y_2)^2-4 y_(1) y_2 =4(4 x_m-y_m^2) $
-
-弦长 $l$ 满足
-
-$ l^2=(x_1-x_2)^2+(y_1-y_2)^2 =(1+(y_m^2)/(4))(y_1-y_2)^2 =(y_m^2+4)(4 x_m-y_m^2) $
-
-由端点不同及 $y_m != 0$，有
-
-$ 0<y_m^2<4 x_m=4(x_0-2) $
-
-令 $t=y_m^2$，则
-
-$ l^2=(t+4)(4 x_0-8-t) =4(x_0-1)^2-[t-2(x_0-3)]^2 $
-
-其中 $0<t<4 x_0-8$. 反过来，区间内每个 $t$ 都给出两个不同的实数端点纵坐标，因而对应题设中的一条相关弦，所以这正是参数 $t$ 的完整取值范围.
-
-当 $x_0>3$ 时，$t_0=2(x_0-3)$ 满足
-
-$ 0<t_0<4 x_0-8 $
-
-故在 $t=t_0$ 时取得最大值
-$l_( max )^2=4(x_0-1)^2$，$l_( max )=2(x_0-1)$.
-
-当 $2<x_0 <= 3$ 时，$2(x_0-3) <= 0$，而 $t>0$，所以
-
-$ (d)/(\m a t h r m d t)l^2=4(x_0-3)-2 t<0 $
-
-此时 $l^2$ 在允许的开区间上严格递减，最大的端点值只在 $t=0$ 时才可能取得，但 $t=0$ 对应 $y_m=0$，会使弦平行于 $y$ 轴，已被题设排除. 因而不存在最大弦长.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = ln ""^2 (1 + x) - (x^2)/(1 + x)$.
+已知函数 #mi(`f(x) = \ln^{2} (1 + x) - \frac{x^{2}}{1 + x}`).
 
-+ (1) 求函数 $f(x)$ 的单调区间；
-+ (2) 若不等式 $(1 + (1)/(n))^(n + alpha ) <= e$ 对任意的 $n in NN ""^*$ 都成立（其中 $e$ 是自然对数的底数），求 $alpha$ 的最大值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 函数定义域为 $(-1,+ oo )$，且
-
-$ f'(x)=(2 ln (1+x))/(1+x)-(x^2+2 x)/((1+x)^2)=(2(1+x) ln (1+x)-x^2-2 x)/((1+x)^2) $
-
-令
-
-$ g(x)=2(1+x) ln (1+x)-x^2-2 x $
-
-则
-
-$ g'(x)=2( ln (1+x)-x) $
-
-再令 $h(x)= ln (1+x)-x$，则
-
-$ h'(x)=-(x)/(1+x) $
-
-因此 $h$ 在 $(-1,0)$ 上递增，在 $(0,+ oo )$ 上递减，且 $h(0)=0$，从而 $h(x)<0$（$x != 0$）. 所以 $g'(x)<0$（$x != 0$），$g$ 在 $(-1,+ oo )$ 上递减. 又 $g(0)=0$，故
-$g(x)>0$，（$-1<x<0$），$g(x)<0$，（$x>0$）.
-由于分母 $(1+x)^2>0$，得到 $f'(x)>0$（$-1<x<0$），$f'(x)<0$（$x>0$）. 因此 $f(x)$ 在 $(-1,0)$ 上单调递增，在 $(0,+ oo )$ 上单调递减.
-+ (2) 原不等式等价于
-
-$ (n+ alpha ) ln (1+(1)/(n)) <= 1 $
-
-即
-$alpha <= G((1)/(n))$，$G(x)=(1)/(ln (1+x))-(1)/(x)$，$0<x <= 1$.
-对 $G$ 求导，得
-
-$ G'(x)=(1)/(x^2)-(1)/((1+x) ln ""^2(1+x)) $
-
-由（1）知 $f(x)<f(0)=0$（$x>0$），即
-
-$ (1+x) ln ""^2(1+x)<x^2 $
-
-所以 $G'(x)<0$，$G$ 在 $(0,1]$ 上递减. 对任意正整数 $n$，有 $(1)/(n) <= 1$，于是
-
-$ G((1)/(n)) >= G(1)=(1)/(ln 2)-1 $
-
-因此 $alpha =(1)/(ln 2)-1$ 时所有 $n$ 都满足原不等式，且 $n=1$ 时给出 $alpha <= G(1)$. 故 $alpha$ 的最大值为
-
-$ (1)/(ln 2)-1 $
++ (1)
 ]
 

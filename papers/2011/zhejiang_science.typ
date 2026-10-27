@@ -1,5 +1,4 @@
-#import "@preview/mitex:0.2.5": *
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -12,27 +11,31 @@
 #part-header("单选题")
 
 #problem(1)[
-设函数 $f(x) = \b e g i n{c a s e s} -x, & x <= 0 ,\\ x^2, & x > 0 \e n d{c a s e s}$，若 $f( alpha ) = 4$，则实数 $alpha =$（ ）
-  #choices([$-4$ 或 $-2$], [$-4$ 或 $2$], [$-2$ 或 $4$], [$-2$ 或 $2$], cols: 4)
+设函数 #mi(`f(x) = \begin{cases}-x,&x \le 0,\\  x^{2},&x > 0\end{cases}`)，若 #mi(`f(\alpha) = 4`)，则实数 #mi(`\alpha =`)（ ）
+  #choices([#mi(`-4`) 或 #mi(`-2`)], [#mi(`-4`) 或 #mi(`2`)], [#mi(`-2`) 或 #mi(`4`)], [#mi(`-2`) 或 #mi(`2`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-当 $alpha <= 0$ 时，$f( alpha )=- alpha =4$，所以 $alpha =-4$；当 $alpha >0$ 时，$f( alpha )= alpha ""^2=4$，结合 $alpha >0$ 得 $alpha =2$. 因此 $alpha =-4$ 或 $alpha =2$，故选 B.
+当 #mi(`\alpha\le 0`) 时，#mi(`f(\alpha)=-\alpha=4`)，所以 #mi(`\alpha=-4`)；当 #mi(`\alpha>0`) 时，#mi(`f(\alpha)=\alpha^{2}=4`)，结合 #mi(`\alpha>0`) 得 #mi(`\alpha=2`). 因此 #mi(`\alpha=-4`) 或 #mi(`\alpha=2`)，故选 B.
 ]
 
 #problem(2)[
-把复数 $z$ 的共轭复数记作 $overline(z)$，$i$ 为虚数单位，若 $z = 1 + i$，则 $(1 + z) dot overline(z)=$（ ）
-  #choices([$3 - i$], [$3 + i$], [$1 + 3 i$], [$3$], cols: 4)
+把复数 #mi(`z`) 的共轭复数记作 #mi(`\overline{z}`)，#mi(`\mathrm{i}`) 为虚数单位，若 #mi(`z = 1 + \mathrm{i}`)，则 #mi(`(1 + z)\cdot \overline{z}=`)（ ）
+  #choices([#mi(`3 - \mathrm{i}`)], [#mi(`3 + \mathrm{i}`)], [#mi(`1 + 3\mathrm{i}`)], [#mi(`3`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由 $z=1+ i$ 得 $overline(z)=1- i$，且 $1+z=2+ i$. 因此
+由 #mi(`z=1+\mathrm{i}`) 得 #mi(`\overline{z}=1-\mathrm{i}`)，且 #mi(`1+z=2+\mathrm{i}`). 因此
 
-$ (1+z)overline(z)=(2+ i )(1- i )=2-2 i + i - i ""^2=3- i $
+
+#align(center)[#mitex(`
+(1+z)\overline{z}=(2+\mathrm{i})(1-\mathrm{i})=2-2\mathrm{i}+\mathrm{i}-\mathrm{i}^{2}=3-\mathrm{i}
+`)]
+
 
 故选 A.
 ]
@@ -41,8 +44,17 @@ $ (1+z)overline(z)=(2+ i )(1- i )=2-2 i + i - i ""^2=3- i $
 若某几何体的三视图如图所示，则这个几何体的直观图可以是（ ）
 
 
-#align(center)[#image("/papers/2011/img/zhejiang_science/q3_fig1.png", width: 42%)]
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/zhejiang_science/q3_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/zhejiang_science/q3_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/zhejiang_science/q3_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/zhejiang_science/q3_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+#align(center)[#image("/papers/2011/img/zhejiang_science/q3_fig1.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2011/img/zhejiang_science/q3_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/zhejiang_science/q3_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/zhejiang_science/q3_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/zhejiang_science/q3_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D])
@@ -53,86 +65,100 @@ $ (1+z)overline(z)=(2+ i )(1- i )=2-2 i + i - i ""^2=3- i $
 
 #problem(4)[
 下列命题中错误的是（ ）
-  #choices([如果平面 $alpha bot$ 平面 $beta$，那么平面 $alpha$ 内一定存在直线平行于平面 $beta$], [如果平面 $alpha$ 不垂直于平面 $beta$，那么平面 $alpha$ 内一定不存在直线垂直于平面 $beta$], [如果平面 $alpha bot$ 平面 $gamma$，平面 $beta bot$ 平面 $gamma$，$alpha inter beta = l$，那么 $l bot$ 平面 $gamma$], [如果平面 $alpha bot$ 平面 $beta$，那么平面 $alpha$ 内所有直线都垂直于平面 $beta$], cols: 1)
+  #choices([如果平面 #mi(`\alpha \perp`) 平面 #mi(`\beta`)，那么平面 #mi(`\alpha`) 内一定存在直线平行于平面 #mi(`\beta`)], [如果平面 #mi(`\alpha`) 不垂直于平面 #mi(`\beta`)，那么平面 #mi(`\alpha`) 内一定不存在直线垂直于平面 #mi(`\beta`)], [如果平面 #mi(`\alpha \perp`) 平面 #mi(`\gamma`)，平面 #mi(`\beta \perp`) 平面 #mi(`\gamma`)，#mi(`\alpha \cap \beta = l`)，那么 #mi(`l \perp`) 平面 #mi(`\gamma`)], [如果平面 #mi(`\alpha \perp`) 平面 #mi(`\beta`)，那么平面 #mi(`\alpha`) 内所有直线都垂直于平面 #mi(`\beta`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-设两平面的交线为 $l$. 当 $alpha bot beta$ 时，在平面 $alpha$ 内取一条与 $l$ 平行且不与 $l$ 重合的直线 $m$. 因为 $l subset beta$，且 $m$ 与 $l$ 平行，所以 $m$ 不与平面 $beta$ 相交，从而 $m parallel beta$，故 A 正确. 若平面 $alpha$ 内存在直线垂直于平面 $beta$，则由平面与平面垂直的判定定理可得 $alpha bot beta$，其逆否命题说明 B 正确. 若 $alpha bot gamma$，$beta bot gamma$，且 $alpha inter beta =l$，则由两平面分别垂直于同一平面的性质可得 $l bot gamma$，所以 C 正确.
+设两平面的交线为 #mi(`l`). 当 #mi(`\alpha\perp\beta`) 时，在平面 #mi(`\alpha`) 内取一条与 #mi(`l`) 平行且不与 #mi(`l`) 重合的直线 #mi(`m`). 因为 #mi(`l\subset\beta`)，且 #mi(`m`) 与 #mi(`l`) 平行，所以 #mi(`m`) 不与平面 #mi(`\beta`) 相交，从而 #mi(`m\parallel\beta`)，故 A 正确. 若平面 #mi(`\alpha`) 内存在直线垂直于平面 #mi(`\beta`)，则由平面与平面垂直的判定定理可得 #mi(`\alpha\perp\beta`)，其逆否命题说明 B 正确. 若 #mi(`\alpha\perp\gamma`)，#mi(`\beta\perp\gamma`)，且 #mi(`\alpha\cap\beta=l`)，则由两平面分别垂直于同一平面的性质可得 #mi(`l\perp\gamma`)，所以 C 正确.
 
-但在 $alpha bot beta$ 时，交线 $l$ 同时在平面 $alpha$ 和平面 $beta$ 内，因而不可能垂直于平面 $beta$. 所以“平面 $alpha$ 内所有直线都垂直于平面 $beta$”错误，故选 D.
+但在 #mi(`\alpha\perp\beta`) 时，交线 #mi(`l`) 同时在平面 #mi(`\alpha`) 和平面 #mi(`\beta`) 内，因而不可能垂直于平面 #mi(`\beta`). 所以“平面 #mi(`\alpha`) 内所有直线都垂直于平面 #mi(`\beta`)”错误，故选 D.
 ]
 
 #problem(5)[
-设实数 $x$，$y$ 满足不等式组 $\b e g i n{c a s e s} x + 2 y - 5 > 0,\\ 2 x + y - 7 > 0,\\ x >= 0 , y >= 0 . \e n d{c a s e s}$ 若 $x$，$y$ 为整数，则 $3 x + 4 y$ 的最小值是（ ）
+设实数 #mi(`x`)，#mi(`y`) 满足不等式组 #mi(`\begin{cases}x + 2y - 5 > 0,\\  2x + y - 7 > 0,\\  x \ge 0, y \ge 0.\end{cases}`) 若 #mi(`x`)，#mi(`y`) 为整数，则 #mi(`3x + 4y`) 的最小值是（ ）
   #choices([14], [16], [17], [19], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由于 $x$，$y$ 为整数，三个严格不等式等价于
-$x+2 y >= 6$，$2 x+y >= 8$，$x >= 0$，$y >= 0$.
-分别讨论 $y$ 的取值. 当 $y=0$ 时，$x >= 8$，于是 $3 x+4 y >= 24$；当 $y=1$ 时，两个不等式给出 $x >= 4$，取 $(x,y)=(4,1)$ 时 $3 x+4 y=16$；当 $y=2$ 时，必须有 $x >= 3$，于是 $3 x+4 y >= 17$；当 $y=3$ 时，必须有 $x >= 3$，于是 $3 x+4 y >= 21$；当 $y >= 4$ 时，$3 x+4 y >= 16$. 因而最小值为 $16$，故选 B.
+由于 #mi(`x`)，#mi(`y`) 为整数，三个严格不等式等价于
+
+#mi(`x+2y\ge 6`)，#mi(`2x+y\ge 8`)，#mi(`x\ge 0`)，#mi(`y\ge 0`).
+
+分别讨论 #mi(`y`) 的取值. 当 #mi(`y=0`) 时，#mi(`x\ge 8`)，于是 #mi(`3x+4y\ge 24`)；当 #mi(`y=1`) 时，两个不等式给出 #mi(`x\ge 4`)，取 #mi(`(x,y)=(4,1)`) 时 #mi(`3x+4y=16`)；当 #mi(`y=2`) 时，必须有 #mi(`x\ge 3`)，于是 #mi(`3x+4y\ge 17`)；当 #mi(`y=3`) 时，必须有 #mi(`x\ge 3`)，于是 #mi(`3x+4y\ge 21`)；当 #mi(`y\ge 4`) 时，#mi(`3x+4y\ge 16`). 因而最小值为 #mi(`16`)，故选 B.
 ]
 
 #problem(6)[
-若 $0 < alpha < (pi)/(2)$，$-(pi)/(2)< beta < 0$，$cos ((pi)/(4)+ alpha ) = (1)/(3)$，$cos ((pi)/(4)- (beta)/(2)) = (sqrt(3))/(3)$，则 $cos ( alpha + (beta)/(2)) =$（ ）
-  #choices([$(sqrt(3))/(3)$], [$-(sqrt(3))/(3)$], [$(5 sqrt(3))/(9)$], [$-(sqrt(6))/(9)$], cols: 2)
+若 #mi(`0 < \alpha < \frac{\pi}{2}`)，#mi(`-\frac{\pi}{2}< \beta < 0`)，#mi(`\cos \left(\frac{\pi}{4}+ \alpha\right) = \frac{1}{3}`)，#mi(`\cos \left(\frac{\pi}{4}- \frac{\beta}{2}\right) = \frac{\sqrt{3}}{3}`)，则 #mi(`\cos \left(\alpha + \frac{\beta}{2}\right) =`)（ ）
+  #choices([#mi(`\frac{\sqrt{3}}{3}`)], [#mi(`-\frac{\sqrt{3}}{3}`)], [#mi(`\frac{5\sqrt{3}}{9}`)], [#mi(`-\frac{\sqrt{6}}{9}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-令 $u=(pi)/(4)+ alpha$，则 $u in ((pi)/(4),(3 pi)/(4))$，所以 $sin u>0$，从而 $sin u=sqrt(1- cos ""^(2) u)=(2 sqrt(2))/(3)$. 再令 $v=(pi)/(4)-(beta)/(2)$，则 $v in ((pi)/(4),(pi)/(2))$，所以 $sin v>0$，从而 $sin v=sqrt(1- cos ""^(2) v)=(sqrt(6))/(3)$.
+令 #mi(`u=\frac{\pi}{4}+\alpha`)，则 #mi(`u\in\left(\frac{\pi}{4},\frac{3\pi}{4}\right)`)，所以 #mi(`\sin u>0`)，从而 #mi(`\sin u=\sqrt{1-\cos^{2}u}=\frac{2\sqrt{2}}{3}`). 再令 #mi(`v=\frac{\pi}{4}-\frac{\beta}{2}`)，则 #mi(`v\in\left(\frac{\pi}{4},\frac{\pi}{2}\right)`)，所以 #mi(`\sin v>0`)，从而 #mi(`\sin v=\sqrt{1-\cos^{2}v}=\frac{\sqrt{6}}{3}`).
 
-注意到 $alpha +(beta)/(2)=u-v$，因此
+注意到 #mi(`\alpha+\frac{\beta}{2}=u-v`)，因此
 
-$ cos ( alpha +(beta)/(2))= cos (u-v)= cos u cos v+ sin u sin v=(sqrt(3))/(9)+(4 sqrt(3))/(9)=(5 sqrt(3))/(9) $
+
+#align(center)[#mitex(`
+\cos\left(\alpha+\frac{\beta}{2}\right)=\cos(u-v)=\cos u\cos v+\sin u\sin v=\frac{\sqrt{3}}{9}+\frac{4\sqrt{3}}{9}=\frac{5\sqrt{3}}{9}
+`)]
+
 
 故选 C.
 ]
 
 #problem(7)[
-若 $a$，$b$ 为实数，则 $0 < a b < 1$ 是“$a < (1)/(b)$ 或 $b > (1)/(a)$”的（ ）
+若 #mi(`a`)，#mi(`b`) 为实数，则 #mi(`0 < ab < 1`) 是“#mi(`a < \frac{1}{b}`) 或 #mi(`b > \frac{1}{a}`)”的（ ）
   #choices([充分而不必要条件], [必要而不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-设命题 $P$ 为 $0<a b<1$，命题 $Q$ 为 $a<(1)/(b)$ 或 $b>(1)/(a)$. 由 $P$ 知 $a$，$b$ 同号且均不为零.
+设命题 #mi(`P`) 为 #mi(`0<ab<1`)，命题 #mi(`Q`) 为 #mi(`a<\frac{1}{b}`) 或 #mi(`b>\frac{1}{a}`). 由 #mi(`P`) 知 #mi(`a`)，#mi(`b`) 同号且均不为零.
 
-当 $a>0$，$b>0$ 时，$a<(1)/(b)$ 等价于 $a b<1$，所以 $P$ 成立时 $Q$ 成立；当 $a<0$，$b<0$ 时，$b>(1)/(a)$ 等价于 $a b<1$，所以此时同样有 $P => Q$. 因此 $P$ 是 $Q$ 的充分条件.
+当 #mi(`a>0`)，#mi(`b>0`) 时，#mi(`a<\frac{1}{b}`) 等价于 #mi(`ab<1`)，所以 #mi(`P`) 成立时 #mi(`Q`) 成立；当 #mi(`a<0`)，#mi(`b<0`) 时，#mi(`b>\frac{1}{a}`) 等价于 #mi(`ab<1`)，所以此时同样有 #mi(`P\Rightarrow Q`). 因此 #mi(`P`) 是 #mi(`Q`) 的充分条件.
 
-但取 $a=2$，$b=1$，有 $b>(1)/(a)$，即 $Q$ 成立，而 $a b=2$，命题 $P$ 不成立. 因此 $P$ 不是 $Q$ 的必要条件，故选 A.
+但取 #mi(`a=2`)，#mi(`b=1`)，有 #mi(`b>\frac{1}{a}`)，即 #mi(`Q`) 成立，而 #mi(`ab=2`)，命题 #mi(`P`) 不成立. 因此 #mi(`P`) 不是 #mi(`Q`) 的必要条件，故选 A.
 ]
 
 #problem(8)[
-已知椭圆 $C_(1): (x^(2))/(a^(2))+ (y^(2))/(b^(2))= 1$ （$a > b > 0$）与双曲线 $C_2: x^(2) - (y^(2))/(4)= 1$ 有公共的焦点，$C_2$ 的一条渐近线与以 $C_1$ 的长轴为直径的圆相交于 $A$，$B$ 两点. 若 $C_1$ 恰好将线段 $A B$ 三等分，则（ ）
-  #choices([$a^2 = (13)/(2)$], [$a^2 = 13$], [$b^(2) = (1)/(2)$], [$b^(2) = 2$], cols: 2)
+已知椭圆 #mi(`C_{1}: \frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`) （#mi(`a > b > 0`)）与双曲线 #mi(`C_{2}: x^{2}- \frac{y^{2}}{4}= 1`) 有公共的焦点，#mi(`C_{2}`) 的一条渐近线与以 #mi(`C_{1}`) 的长轴为直径的圆相交于 #mi(`A`)，#mi(`B`) 两点. 若 #mi(`C_{1}`) 恰好将线段 #mi(`AB`) 三等分，则（ ）
+  #choices([#mi(`a^{2} = \frac{13}{2}`)], [#mi(`a^{2} = 13`)], [#mi(`b^{2}= \frac{1}{2}`)], [#mi(`b^{2}= 2`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-双曲线 $C_2$ 的焦点参数满足 $c^2=1+4=5$，所以椭圆的焦点条件给出
+双曲线 #mi(`C_{2}`) 的焦点参数满足 #mi(`c^{2}=1+4=5`)，所以椭圆的焦点条件给出
 
-$ a^2-b^2=5 $
 
-取双曲线的一条渐近线 $y=2 x$. 以椭圆长轴为直径的圆的方程为 $x^2+y^2=a^2$，故其与该渐近线的交点为 $A$，$B$，且 $A B$ 的端点横坐标分别为 $+- (a)/(sqrt(5))$. 椭圆与线段 $A B$ 三等分，故椭圆与该直线的两个交点横坐标为 $+- (a)/(3 sqrt(5))$.
+#align(center)[#mitex(`
+a^{2}-b^{2}=5
+`)]
 
-将交点 $((a)/(3 sqrt(5)),(2 a)/(3 sqrt(5)))$ 代入椭圆方程，得
 
-$ (1)/(45)+(4 a^2)/(45 b^2)=1 $
+取双曲线的一条渐近线 #mi(`y=2x`). 以椭圆长轴为直径的圆的方程为 #mi(`x^{2}+y^{2}=a^{2}`)，故其与该渐近线的交点为 #mi(`A`)，#mi(`B`)，且 #mi(`AB`) 的端点横坐标分别为 #mi(`\pm\frac{a}{\sqrt{5}}`). 椭圆与线段 #mi(`AB`) 三等分，故椭圆与该直线的两个交点横坐标为 #mi(`\pm\frac{a}{3\sqrt{5}}`).
 
-所以 $a^2=11 b^2$. 联立 $a^2-b^2=5$，得 $10 b^2=5$，即 $b^2=(1)/(2)$. 故选 C.
+将交点 #mi(`\left(\frac{a}{3\sqrt{5}},\frac{2a}{3\sqrt{5}}\right)`) 代入椭圆方程，得
+
+
+#align(center)[#mitex(`
+\frac{1}{45}+\frac{4a^{2}}{45b^{2}}=1
+`)]
+
+
+所以 #mi(`a^{2}=11b^{2}`). 联立 #mi(`a^{2}-b^{2}=5`)，得 #mi(`10b^{2}=5`)，即 #mi(`b^{2}=\frac{1}{2}`). 故选 C.
 ]
 
 #problem(9)[
 有 5 本不同的书，其中语文书 2 本，数学书 2 本，物理书 1 本. 若将其随机地抽取并摆放在书架的同一层上，则同一科目的书都不相邻的概率为（ ）
-  #choices([$(1)/(5)$], [$(2)/(5)$], [$(3)/(5)$], [$(4)/(5)$], cols: 4)
+  #choices([#mi(`\frac{1}{5}`)], [#mi(`\frac{2}{5}`)], [#mi(`\frac{3}{5}`)], [#mi(`\frac{4}{5}`)], cols: 2)
 ]
 
 #answer([B])
@@ -140,349 +166,267 @@ $ (1)/(45)+(4 a^2)/(45 b^2)=1 $
 #solution[
 先只按科目记录书的排列. 全部科目序列共有
 
-$ (5!)/(2!2!)=30 $
 
-种. 令事件 $E_1$ 为两本语文书相邻，事件 $E_2$ 为两本数学书相邻. 把两本语文书看成一个整体，含有该整体、两本数学书和一本物理书，共有 $(4!)/(2!)=12$ 种；同理 $| E_2|=12$. 两个科目都相邻时，把两个整体和物理书排列，共有 $3!=6$ 种.
+#align(center)[#mitex(`
+\frac{5!}{2!2!}=30
+`)]
+
+
+种. 令事件 #mi(`E_{1}`) 为两本语文书相邻，事件 #mi(`E_{2}`) 为两本数学书相邻. 把两本语文书看成一个整体，含有该整体、两本数学书和一本物理书，共有 #mi(`\frac{4!}{2!}=12`) 种；同理 #mi(`\lvert E_{2}\rvert=12`). 两个科目都相邻时，把两个整体和物理书排列，共有 #mi(`3!=6`) 种.
 
 所以同一科目都不相邻的科目序列数为
 
-$ 30-12-12+6=12 $
 
-每个科目序列对应的不同书排列数相同，故所求概率为 $(12)/(30)=(2)/(5)$，故选 B.
+#align(center)[#mitex(`
+30-12-12+6=12
+`)]
+
+
+每个科目序列对应的不同书排列数相同，故所求概率为 #mi(`\frac{12}{30}=\frac{2}{5}`)，故选 B.
 ]
 
 #problem(10)[
-设 $a$，$b$，$c$ 为实数，$f(x) = (x + a)(x^2 + b x + c)$，$g(x) = (a x + 1)(c x^2 + b x + 1)$. 记集合 $S = \{x | f(x) = 0, x in RR \}$，$T = \{x | g(x) = 0, x in RR \}$，若 $|S|$，$|T|$ 分别为集合 $S$，$T$ 的元素个数，则下列结论不可能的是（ ）
-  #choices([$|S| = 1$ 且 $|T| = 0$], [$|S| = 1$ 且 $|T| = 1$], [$|S| = 2$ 且 $|T| = 2$], [$|S| = 2$ 且 $|T| = 3$], cols: 2)
+设 #mi(`a`)，#mi(`b`)，#mi(`c`) 为实数，#mi(`f(x) = (x + a)(x^{2} + bx + c)`)，#mi(`g(x) = (ax + 1)(cx^{2} + bx + 1)`). 记集合 #mi(`S = \{x \mid f(x) = 0, x \in \mathbb{R}\}`)，#mi(`T = \{x \mid g(x) = 0, x \in \mathbb{R}\}`)，若 #mi(`|S|`)，#mi(`|T|`) 分别为集合 #mi(`S`)，#mi(`T`) 的元素个数，则下列结论不可能的是（ ）
+  #choices([#mi(`|S| = 1`) 且 #mi(`|T| = 0`)], [#mi(`|S| = 1`) 且 #mi(`|T| = 1`)], [#mi(`|S| = 2`) 且 #mi(`|T| = 2`)], [#mi(`|S| = 2`) 且 #mi(`|T| = 3`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-对任意 $x != 0$，有
+对任意 #mi(`x\neq 0`)，有
 
-$ x^(3) f((1)/(x))=x^3((1)/(x)+a)((1)/(x^2)+(b)/(x)+c)=(a x+1)(c x^2+b x+1)=g(x) $
 
-又因为 $g(0)=1$，所以 $T$ 中的每个元素都不为零. 于是若 $x in T$，则 $f((1)/(x))=0$，从而 $(1)/(x) in S$. 映射 $x\m a p s t o (1)/(x)$ 是单射，因此 $| T| <= | S|$，选项 D 中 $| T|=3>2=| S|$，不可能.
+#align(center)[#mitex(`
+x^{3}f\left(\frac{1}{x}\right)=x^{3}\left(\frac{1}{x}+a\right)\left(\frac{1}{x^{2}}+\frac{b}{x}+c\right)=(ax+1)(cx^{2}+bx+1)=g(x)
+`)]
 
-其余三项确实可以取得. 例如 $(a,b,c)=(0,0,0)$ 时 $(| S|,| T|)=(1,0)$；$(a,b,c)=(1,0,1)$ 时 $(| S|,| T|)=(1,1)$；$(a,b,c)=(1,3,2)$ 时
-$f(x)=(x+1)^2(x+2)$，$g(x)=(x+1)^2(2 x+1)$，
-故 $(| S|,| T|)=(2,2)$. 故选 D.
+
+又因为 #mi(`g(0)=1`)，所以 #mi(`T`) 中的每个元素都不为零. 于是若 #mi(`x\in T`)，则 #mi(`f(\frac{1}{x})=0`)，从而 #mi(`\frac{1}{x}\in S`). 映射 #mi(`x\mapsto \frac{1}{x}`) 是单射，因此 #mi(`\lvert T\rvert\le\lvert S\rvert`)，选项 D 中 #mi(`\lvert T\rvert=3>2=\lvert S\rvert`)，不可能.
+
+其余三项确实可以取得. 例如 #mi(`(a,b,c)=(0,0,0)`) 时 #mi(`(\lvert S\rvert,\lvert T\rvert)=(1,0)`)；#mi(`(a,b,c)=(1,0,1)`) 时 #mi(`(\lvert S\rvert,\lvert T\rvert)=(1,1)`)；#mi(`(a,b,c)=(1,3,2)`) 时
+
+#mi(`f(x)=(x+1)^{2}(x+2)`)，#mi(`g(x)=(x+1)^{2}(2x+1)`)，
+
+故 #mi(`(\lvert S\rvert,\lvert T\rvert)=(2,2)`). 故选 D.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-若函数 $f(x) = x^2 - |x + a|$ 为偶函数，则实数 $a =$#blank(){}.
+若函数 #mi(`f(x) = x^{2} - |x + a|`) 为偶函数，则实数 #mi(`a =`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$0$])
+#answer([#mi(`0`)])
 
 #solution[
-因为 $x^2$ 是偶函数，所以 $f(x)$ 为偶函数当且仅当 $| x+a|$ 为偶函数，即对任意 $x$ 都有 $| x+a|=| a-x|$. 两边平方得
+因为 #mi(`x^{2}`) 是偶函数，所以 #mi(`f(x)`) 为偶函数当且仅当 #mi(`\lvert x+a\rvert`) 为偶函数，即对任意 #mi(`x`) 都有 #mi(`\lvert x+a\rvert=\lvert a-x\rvert`). 两边平方得
 
-$ (x+a)^2=(a-x)^2 $
 
-从而 $4 a x=0$ 对任意 $x$ 成立，因此 $a=0$.
+#align(center)[#mitex(`
+(x+a)^{2}=(a-x)^{2}
+`)]
+
+
+从而 #mi(`4ax=0`) 对任意 #mi(`x`) 成立，因此 #mi(`a=0`).
 ]
 
 #problem(12)[
-某程序框图如图所示，则该程序运行后输出的 $k$ 的值是#blank(){}.
+某程序框图如图所示，则该程序运行后输出的 #mi(`k`) 的值是\underline{\hspace{2.5em}}.
 
-\begin{center}
-\texfigure[max width=0.70\linewidth]{img_repaint/2011/zhejiang_science/q12_fig1.tex}
-\end{center}
+\texfigure[max width=0.70\linewidth]img_repaint/2011/zhejiang_science/q12_fig1.tex
 ]
 
-#answer([$5$])
+#answer([#mi(`5`)])
 
 #solution[
-程序开始时 $k=2$，随后每次循环先令 $k$ 增加 $1$，再计算 $a=4^k$ 和 $b=k^4$，当 $a>b$ 时输出 $k$，否则继续循环. 逐次判断得：当 $k=3$ 时，$4^3=64<3^4=81$；当 $k=4$ 时，$4^4=256=4^4$；当 $k=5$ 时，$4^5=1024>5^4=625$. 所以程序在 $k=5$ 时输出，填 $5$.
+程序开始时 #mi(`k=2`)，随后每次循环先令 #mi(`k`) 增加 #mi(`1`)，再计算 #mi(`a=4^{k}`) 和 #mi(`b=k^{4}`)，当 #mi(`a>b`) 时输出 #mi(`k`)，否则继续循环. 逐次判断得：当 #mi(`k=3`) 时，#mi(`4^{3}=64<3^{4}=81`)；当 #mi(`k=4`) 时，#mi(`4^{4}=256=4^{4}`)；当 #mi(`k=5`) 时，#mi(`4^{5}=1024>5^{4}=625`). 所以程序在 #mi(`k=5`) 时输出，填 #mi(`5`).
 ]
 
 #problem(13)[
-设二项式 $(x - (a)/(sqrt(x)))^6$ （$a > 0$）的展开式中 $x^3$ 的系数为 $A$，常数项为 $B$. 若 $B = 4 A$，则 $a$ 的值是#blank(){}.
+设二项式 #mi(`\left(x - \frac{a}{\sqrt{x}}\right)^{6}`) （#mi(`a > 0`)）的展开式中 #mi(`x^{3}`) 的系数为 #mi(`A`)，常数项为 #mi(`B`). 若 #mi(`B = 4A`)，则 #mi(`a`) 的值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-展开式中取第二项 $j$ 次的项为
+展开式中取第二项 #mi(`j`) 次的项为
 
-$ C_6^j x^(6-j)(-(a)/(sqrt(x)))^j=C_6^j(-a)^j x^(6-(3 j)/(2)) $
 
-当幂指数为 $3$ 时，$6-(3 j)/(2)=3$，得 $j=2$，所以 $A=C_6^(2) a^2=15 a^2$. 当幂指数为零时，$6-(3 j)/(2)=0$，得 $j=4$，所以 $B=C_6^(4) a^4=15 a^4$. 由 $B=4 A$ 及 $a>0$，得 $15 a^4=60 a^2$，即 $a^2=4$，所以 $a=2$.
+#align(center)[#mitex(`
+\mathrm{C}_{6}^{j} x^{6-j}\left(-\frac{a}{\sqrt{x}}\right)^{j}=\mathrm{C}_{6}^{j}(-a)^{j} x^{6-\frac{3j}{2}}
+`)]
+
+
+当幂指数为 #mi(`3`) 时，#mi(`6-\frac{3j}{2}=3`)，得 #mi(`j=2`)，所以 #mi(`A=\mathrm{C}_{6}^{2}a^{2}=15a^{2}`). 当幂指数为零时，#mi(`6-\frac{3j}{2}=0`)，得 #mi(`j=4`)，所以 #mi(`B=\mathrm{C}_{6}^{4}a^{4}=15a^{4}`). 由 #mi(`B=4A`) 及 #mi(`a>0`)，得 #mi(`15a^{4}=60a^{2}`)，即 #mi(`a^{2}=4`)，所以 #mi(`a=2`).
 ]
 
 #problem(14)[
-若平面向量 $alpha$，$beta$ 满足 $| alpha | = 1$，$| beta | <= 1$，且以向量 $alpha$，$beta$ 为邻边的平行四边形的面积为 $(1)/(2)$，则 $alpha$ 和 $beta$ 的夹角 $theta$ 的取值范围是#blank(){}.
+若平面向量 #mi(`\alpha`)，#mi(`\beta`) 满足 #mi(`|\alpha| = 1`)，#mi(`|\beta| \le 1`)，且以向量 #mi(`\alpha`)，#mi(`\beta`) 为邻边的平行四边形的面积为 #mi(`\frac{1}{2}`)，则 #mi(`\alpha`) 和 #mi(`\beta`) 的夹角 #mi(`\theta`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[(pi)/(6),(5 pi)/(6)]$])
+#answer([#mi(`\left[\frac{\pi}{6},\frac{5\pi}{6}\right]`)])
 
 #solution[
-设 $alpha$，$beta$ 的夹角为 $theta$. 平行四边形面积等于两邻边向量的模之积再乘夹角的正弦，因此
+设 #mi(`\alpha`)，#mi(`\beta`) 的夹角为 #mi(`\theta`). 平行四边形面积等于两邻边向量的模之积再乘夹角的正弦，因此
 
-$ | alpha | | beta | sin theta =(1)/(2) $
 
-即 $| beta | sin theta =(1)/(2)$. 因为 $| beta | <= 1$，所以 $sin theta >= (1)/(2)$. 夹角满足 $0 <= theta <= pi$，故
+#align(center)[#mitex(`
+|\alpha|\,|\beta|\sin\theta=\frac{1}{2}
+`)]
 
-$ (pi)/(6) <= theta <= (5 pi)/(6) $
 
-反过来，若 $theta$ 在此范围内，则取 $| beta |=(1)/(2 sin theta) <= 1$ 即可满足面积条件，所以取值范围为 $[(pi)/(6),(5 pi)/(6)]$.
+即 #mi(`|\beta|\sin\theta=\frac{1}{2}`). 因为 #mi(`|\beta|\le 1`)，所以 #mi(`\sin\theta\ge\frac{1}{2}`). 夹角满足 #mi(`0\le\theta\le\pi`)，故
+
+
+#align(center)[#mitex(`
+\frac{\pi}{6}\le\theta\le\frac{5\pi}{6}
+`)]
+
+
+反过来，若 #mi(`\theta`) 在此范围内，则取 #mi(`|\beta|=\frac{1}{2\sin\theta}\le 1`) 即可满足面积条件，所以取值范围为 #mi(`\left[\frac{\pi}{6},\frac{5\pi}{6}\right]`).
 ]
 
 #problem(15)[
-某毕业生参加人才招聘会，分别向甲，乙，丙三个公司投递了个人简历，假定该毕业生得到甲公司面试的概率为 $(2)/(3)$，得到乙，丙公司面试的概率均为 $p$，且三个公司是否让其面试是相互独立的. 记 $X$ 为该毕业生得到面试的公司个数. 若 $P(X = 0) = (1)/(12)$，则随机变量 $X$ 的数学期望 $E(X) =\f i l l i n b l a n k{}$.
+某毕业生参加人才招聘会，分别向甲，乙，丙三个公司投递了个人简历，假定该毕业生得到甲公司面试的概率为 #mi(`\frac{2}{3}`)，得到乙，丙公司面试的概率均为 #mi(`p`)，且三个公司是否让其面试是相互独立的. 记 #mi(`X`) 为该毕业生得到面试的公司个数. 若 #mi(`P(X = 0) = \frac{1}{12}`)，则随机变量 #mi(`X`) 的数学期望 #mi(`E(X) =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(5)/(3)$])
+#answer([#mi(`\frac{5}{3}`)])
 
 #solution[
-由三个事件相互独立，且甲公司面试概率为 $(2)/(3)$，得不到任何面试的概率为
+由三个事件相互独立，且甲公司面试概率为 #mi(`\frac{2}{3}`)，得不到任何面试的概率为
 
-$ P(X=0)=(1-(2)/(3))(1-p)^2=(1)/(3)(1-p)^2=(1)/(12) $
 
-所以 $(1-p)^2=(1)/(4)$. 由于 $0 <= p <= 1$，有 $1-p >= 0$，从而 $p=(1)/(2)$. 随机变量 $X$ 为三个公司面试指示变量之和，利用期望的可加性，得
+#align(center)[#mitex(`
+P(X=0)=\left(1-\frac{2}{3}\right)(1-p)^{2}=\frac{1}{3}(1-p)^{2}=\frac{1}{12}
+`)]
 
-$ E(X)=(2)/(3)+p+p=(2)/(3)+1=(5)/(3) $
+
+所以 #mi(`(1-p)^{2}=\frac{1}{4}`). 由于 #mi(`0\le p\le 1`)，有 #mi(`1-p\ge 0`)，从而 #mi(`p=\frac{1}{2}`). 随机变量 #mi(`X`) 为三个公司面试指示变量之和，利用期望的可加性，得
+
+
+#align(center)[#mitex(`
+E(X)=\frac{2}{3}+p+p=\frac{2}{3}+1=\frac{5}{3}
+`)]
 ]
 
 #problem(16)[
-设 $x$，$y$ 为实数. 若 $4 x^(2) + y^(2) + x y = 1$，则 $2 x + y$ 的最大值是#blank(){}.
+设 #mi(`x`)，#mi(`y`) 为实数. 若 #mi(`4x^{2}+ y^{2}+ xy = 1`)，则 #mi(`2x + y`) 的最大值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(2 sqrt(10))/(5)$])
+#answer([#mi(`\frac{2\sqrt{10}}{5}`)])
 
 #solution[
 由恒成立的不等式
 
-$ (8)/(5)(4 x^2+x y+y^2)-(2 x+y)^2=(3)/(5)(2 x-y)^2 >= 0 $
 
-得 $(2 x+y)^2 <= (8)/(5)(4 x^2+x y+y^2)=(8)/(5)$. 因此 $2 x+y\l e q s l a n t s q r t((8)/(5))=(2 sqrt(10))/(5)$.
+#align(center)[#mitex(`
+\frac{8}{5}(4x^{2}+xy+y^{2})-(2x+y)^{2}=\frac{3}{5}(2x-y)^{2}\ge 0
+`)]
 
-当 $2 x-y=0$ 且 $4 x^2+x y+y^2=1$ 时可以取得等号. 由 $y=2 x$ 得 $10 x^2=1$，取 $x=(1)/(sqrt(10))$，$y=(2)/(sqrt(10))$，此时 $2 x+y=(2 sqrt(10))/(5)$. 所以最大值为 $(2 sqrt(10))/(5)$.
+
+得 #mi(`(2x+y)^{2}\le\frac{8}{5}(4x^{2}+xy+y^{2})=\frac{8}{5}`). 因此 #mi(`2x+y\le\sqrt{\frac{8}{5}}=\frac{2\sqrt{10}}{5}`).
+
+当 #mi(`2x-y=0`) 且 #mi(`4x^{2}+xy+y^{2}=1`) 时可以取得等号. 由 #mi(`y=2x`) 得 #mi(`10x^{2}=1`)，取 #mi(`x=\frac{1}{\sqrt{10}}`)，#mi(`y=\frac{2}{\sqrt{10}}`)，此时 #mi(`2x+y=\frac{2\sqrt{10}}{5}`). 所以最大值为 #mi(`\frac{2\sqrt{10}}{5}`).
 ]
 
 #problem(17)[
-设 $F_(1)$，$F_(2)$ 分别为椭圆 $(x^(2))/(3)+ y^(2) = 1$ 的焦点，点 $A$，$B$ 在椭圆上. 若 $arrow(F_(1)A)= 5 arrow(F_(2)B)$，则点 $A$ 的坐标是#blank(){}.
+设 #mi(`F_{1}`)，#mi(`F_{2}`) 分别为椭圆 #mi(`\frac{x^{2}}{3}+ y^{2}= 1`) 的焦点，点 #mi(`A`)，#mi(`B`) 在椭圆上. 若 #mi(`\overrightarrow{F_{1}A}= 5\overrightarrow{F_{2}B}`)，则点 #mi(`A`) 的坐标是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(0, +- 1 )$])
+#answer([#mi(`(0,\pm 1)`)])
 
 #solution[
-椭圆的长半轴为 $sqrt(3)$，短半轴为 $1$，所以焦半距为 $sqrt(3-1)=sqrt(2)$. 设 $F_1=(-sqrt(2),0)$，$F_2=(sqrt(2),0)$，并设 $A=(x,y)$，$B=(u,v)$. 由
-$arrow(F_(1) A)=5 arrow(F_(2) B)$，得
+椭圆的长半轴为 #mi(`\sqrt{3}`)，短半轴为 #mi(`1`)，所以焦半距为 #mi(`\sqrt{3-1}=\sqrt{2}`). 设 #mi(`F_{1}=(-\sqrt{2},0)`)，#mi(`F_{2}=(\sqrt{2},0)`)，并设 #mi(`A=(x,y)`)，#mi(`B=(u,v)`). 由
 
-$ (x+sqrt(2),y)=5(u-sqrt(2),v) $
+#mi(`\overrightarrow{F_1A}=5\overrightarrow{F_2B}`)，得
 
-即 $u=(x+6 sqrt(2))/(5)$，$v=(y)/(5)$. 因为 $A$，$B$ 都在椭圆上，所以
-$(x^2)/(3)+y^2=1$，$(u^2)/(3)+v^2=1$.
-将 $u$，$v$ 代入第二式并乘以 $75$，得到
 
-$ (x+6 sqrt(2))^2+3 y^2=75 $
+#align(center)[#mitex(`
+(x+\sqrt{2},y)=5(u-\sqrt{2},v)
+`)]
 
-而第一式乘以 $3$ 为 $x^2+3 y^2=3$. 两式相减得 $72+12 sqrt(2)x=72$，故 $x=0$. 再由椭圆方程得 $y^2=1$，所以 $A=(0, +- 1 )$.
+
+即 #mi(`u=\frac{x+6\sqrt{2}}{5}`)，#mi(`v=\frac{y}{5}`). 因为 #mi(`A`)，#mi(`B`) 都在椭圆上，所以
+
+#mi(`\frac{x^{2}}{3}+y^{2}=1`)，#mi(`\frac{u^{2}}{3}+v^{2}=1`).
+
+将 #mi(`u`)，#mi(`v`) 代入第二式并乘以 #mi(`75`)，得到
+
+
+#align(center)[#mitex(`
+(x+6\sqrt{2})^{2}+3y^{2}=75
+`)]
+
+
+而第一式乘以 #mi(`3`) 为 #mi(`x^{2}+3y^{2}=3`). 两式相减得 #mi(`72+12\sqrt{2}x=72`)，故 #mi(`x=0`). 再由椭圆方程得 #mi(`y^{2}=1`)，所以 #mi(`A=(0,\pm1)`).
 ]
 
 #part-header("解答题")
 
 #problem(18)[
-在 $triangle A B C$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $sin A + sin C = p sin B$ （$p in RR$），且 $a c = (1)/(4)b^2$.
+在 #mi(`\triangle ABC`) 中，角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对的边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`). 已知 #mi(`\sin A + \sin C = p \sin B`) （#mi(`p \in \mathbb{R}`)），且 #mi(`ac = \frac{1}{4}b^{2}`).
 
-+ (1) 当 $p = (5)/(4)$，$b = 1$ 时，求 $a$，$c$ 的值；
-+ (2) 若角 $B$ 为锐角，求 $p$ 的取值范围.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由正弦定理，存在同一个外接圆半径 $R$，使得 $sin A=(a)/(2 R)$，$sin B=(b)/(2 R)$，$sin C=(c)/(2 R)$. 因而已知条件等价于
-$a+c=p b$，$a c=(1)/(4)b^2$.
-当 $p=(5)/(4)$，$b=1$ 时，$a+c=(5)/(4)$，$a c=(1)/(4)$. 所以 $a$，$c$ 是方程
-
-$ t^2-(5)/(4)t+(1)/(4)=0 $
-
-的两个根，即 $4 t^2-5 t+1=0$，解得 $t=1$ 或 $t=(1)/(4)$. 因此 $(a,c)=(1,(1)/(4))$ 或 $((1)/(4),1)$.
-+ (2) 令 $x=(a)/(b)$，$y=(c)/(b)$，则 $x>0$，$y>0$，且 $x y=(1)/(4)$，$p=x+y$. 因为 $B$ 为锐角，由余弦定理有
-
-$ a^2+c^2>b^2 $
-
-除以 $b^2$ 得 $x^2+y^2>1$，从而
-
-$ p^2=(x+y)^2=x^2+y^2+2 x y>1+(1)/(2)=(3)/(2) $
-
-即 $p>sqrt((3)/(2))$. 另一方面，三角形的另外两个三角不等式给出 $| a-c|<b$，即 $| x-y|<1$. 因此
-
-$ p^2=(x+y)^2=(x-y)^2+4 x y<1+1=2 $
-
-即 $p<sqrt(2)$. 反过来，若 $sqrt((3)/(2))<p<sqrt(2)$，则方程
-
-$ t^2-p t+(1)/(4)=0 $
-
-的判别式为 $p^2-1>0$，且其两根均为正数. 记两根为 $x$，$y$，则
-$x+y=p$，$x y=(1)/(4)$，$| x-y|=sqrt(p^2-1)<1$.
-因为 $p>sqrt((3)/(2))>1$，有 $x+y>1$，再结合 $| x-y|<1$，三角形的三个不等式均成立；又
-
-$ x^2+y^2=p^2-2 x y=p^2-(1)/(2)>1 $
-
-所以由余弦定理可知角 $B$ 为锐角. 取 $a=x b$、$c=y b$ 即可得到满足条件的三角形. 因此
-
-$ p in (sqrt((3)/(2)),sqrt(2)) $
++ (1)
 ]
 
 #problem(19)[
-已知公差不为 $0$ 的等差数列 $\{a_(n)\}$ 的首项 $a_(1)$ 为 $a$ （$a in RR$）. 设数列的前 $n$ 项和为 $S_(n)$，且 $(1)/(a_(1))$，$(1)/(a_(2))$，$(1)/(a_(4))$ 成等比数列.
+已知公差不为 #mi(`0`) 的等差数列 #mi(`\{a_{n}\}`) 的首项 #mi(`a_{1}`) 为 #mi(`a`) （#mi(`a\in\mathbb{R}`)）. 设数列的前 #mi(`n`) 项和为 #mi(`S_{n}`)，且 #mi(`\frac{1}{a_{1}}`)，#mi(`\frac{1}{a_{2}}`)，#mi(`\frac{1}{a_{4}}`) 成等比数列.
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式及 $S_(n)$；
-+ (2) 记 $A_(n) = (1)/(S_(1))+ (1)/(S_(2))+ (1)/(S_(3))+ dots.c + (1)/(S_(n))$，$B_(n) = (1)/(a_(1))+ (1)/(a_(2))+ (1)/(a_(2^(2)))+ dots.c + (1)/(a_(2^(n-1)))$ 当 $n >= 2$ 时，试比较 $A_(n)$ 与 $B_(n)$ 的大小.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设等差数列的公差为 $d$，则 $a_1=a$，$a_2=a+d$，$a_4=a+3 d$. 由于三个倒数成等比数列，得
-$(1)/(a_2^2)=(1)/(a_(1) a_4)$，$a(a+3 d)=(a+d)^2$.
-化简可得 $d(a-d)=0$. 由 $d\n e q 0$，知 $d=a$，且因倒数有意义，$a\n e q 0$. 因此
-$a_n=a+(n-1)a=n a$，$S_n=(n(a_1+a_n))/(2)=(a n(n+1))/(2)$.
-+ (2) 由上式
-
-$ A_n=sum_(k=1)^(n)(1)/(S_k)=(2)/(a)sum_(k=1)^(n)(1)/(k(k+1))=(2)/(a)sum_(k=1)^(n)((1)/(k)-(1)/(k+1))=(2 n)/(a(n+1)) $
-
-又因为 $a_(2^j)=2^(j) a$，所以
-
-$ B_n=(1)/(a)sum_(j=0)^(n-1)(1)/(2^j)=(2)/(a)(1-(1)/(2^n)) $
-
-于是
-
-$ A_n-B_n=(2)/(a)((n)/(n+1)-1+(1)/(2^n))=(2)/(a)((1)/(2^n)-(1)/(n+1)) $
-
-当 $n >= 2$ 时，$2^n>n+1$，故括号内为负数. 因此当 $a>0$ 时 $A_n<B_n$，当 $a<0$ 时 $A_n>B_n$.
++ (1)
 ]
 
 #problem(20)[
-如图，在三棱锥 $P - A B C$ 中，$A B = A C$，$D$ 为 $B C$ 的中点，$P O bot$ 平面 $A B C$，垂足 $O$ 落在线段 $A D$ 上，已知 $B C = 8$，$P O = 4$，$A O = 3$，$O D = 2$.
-
-+ (1) 证明： $A P bot B C$；
-+ (2) 在线段 $A P$ 上是否存在点 $M$，使得二面角 $A - M C - B$ 为直二面角. 若存在，求出 $A M$ 的长；若不存在，请说明理由.
+如图，在三棱锥 #mi(`P - ABC`) 中，#mi(`AB = AC`)，#mi(`D`) 为 #mi(`BC`) 的中点，#mi(`PO \perp`) 平面 #mi(`ABC`)，垂足 #mi(`O`) 落在线段 #mi(`AD`) 上，已知 #mi(`BC = 8`)，#mi(`PO = 4`)，#mi(`AO = 3`)，#mi(`OD = 2`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2011/img/zhejiang_science/q20_fig1.png", width: 42%)]
+
+
+
+#align(center)[#image("/papers/2011/img/zhejiang_science/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 取平面 $A B C$ 为水平坐标平面，令 $D$ 为原点，$A D$ 为 $y$ 轴正方向，$B C$ 为 $x$ 轴方向. 由 $A B=A C$ 且 $D$ 为 $B C$ 的中点，得 $A D bot B C$，又由已知长度可设
-$A=(0,5,0)$，$O=(0,2,0)$，$P=(0,2,4)$，$B=(-4,0,0)$，$C=(4,0,0)$.
-于是 $arrow(A P)=(0,-3,4)$，$arrow(B C)=(8,0,0)$，所以 $arrow(A P)\c d o t a r r o w(B C)=0$，即 $A P bot B C$.
-+ (2) 设 $M$ 在线段 $A P$ 上，写成
-$M=A+t(P-A)=(0,5-3 t,4 t)$，$0 <= t <= 1$.
-取平面 $A M C$ 和平面 $B M C$ 的法向量分别为
-$bold(n)_1=arrow(M A)\t i m e s a r r o w(M C)=(-20 t,-16 t,-12 t)$，$bold(n)_2=arrow(M B)\t i m e s a r r o w(M C)=(0,-32 t,40-24 t)$.
-当 $t>0$ 时，这两个法向量均可用于判定二面角. 二面角 $A-M C-B$ 为直二面角，当且仅当两平面垂直，即 $bold(n)_1\c d o t b o l d(n)_2=0$. 计算得
-
-$ bold(n)_1\c d o t b o l d(n)_2=800 t^2-480 t=80 t(10 t-6) $
-
-因此 $t=(3)/(5)$. $t=0$ 时 $M=A$，平面 $A M C$ 退化，不构成二面角，故唯一有效取值为 $t=(3)/(5)$. 又 $A P=sqrt(3^2+4^2)=5$，所以
-
-$ A M=t A P=(3)/(5) times 5 =3 $
-
-因此存在这样的点 $M$，且 $A M=3$.
++ (1)
 ]
 
 #problem(21)[
-已知抛物线 $C_1: x^2 = y$，圆 $C_2: x^2 + (y - 4)^2 = 1$ 的圆心为点 $M$.
-
-+ (1) 求点 $M$ 到抛物线 $C_(1)$ 的准线的距离；
-+ (2) 已知点 $P$ 是抛物线 $C_(1)$ 上一点 （异于原点），过点 $P$ 作圆 $C_(2)$ 的两条切线，交抛物线 $C_(1)$ 于 $A$，$B$ 两点，若过 $M$，$P$ 两点的直线 $l$ 垂直于 $A B$，求直线 $l$ 的方程.
+已知抛物线 #mi(`C_{1}: x^{2} = y`)，圆 #mi(`C_{2}: x^{2} + (y - 4)^{2} = 1`) 的圆心为点 #mi(`M`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2011/img/zhejiang_science/q21_fig1.png", width: 42%)]
+
+
+
+#align(center)[#image("/papers/2011/img/zhejiang_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 圆 $C_2:x^2+(y-4)^2=1$ 的圆心为 $M=(0,4)$. 抛物线 $C_1:x^2=y$ 可写为 $x^2=4 p y$，所以 $p=(1)/(4)$，其准线为 $y=-(1)/(4)$. 因而
-
-$ d(M,y=-(1)/(4))=4+(1)/(4)=(17)/(4) $
-+ (2) 设 $P=(p,p^2)$，其中 $p\n e q 0$. 设抛物线上的另一点为 $Q(q)=(q,q^2)$，则直线 $P Q(q)$ 的斜率为 $p+q$，方程为
-
-$ y=(p+q)x-p q $
-
-该直线与圆 $C_2$ 相切，当且仅当圆心 $M=(0,4)$ 到直线的距离为 $1$，即
-
-$ (|p q+4|)/(sqrt((p+q)^2+1))=1 $
-
-平方并整理，得到
-
-$ (p^2-1)q^2+6 p q+15-p^2=0 $
-
-设两条切线与抛物线的另两个交点对应的参数为 $q_1$，$q_2$，则由于题中确有两个交点，$p^2\n e q 1$，且由韦达定理
-
-$ q_1+q_2=-(6 p)/(p^2-1) $
-
-弦 $A B$ 的斜率为 $q_1+q_2$，所以
-
-$ k_(A B)=-(6 p)/(p^2-1) $
-
-另一方面，直线 $M P$ 的斜率为 $(p^2-4)/(p)$. 由 $M P bot A B$，得
-
-$ (p^2-4)/(p)(-(6 p)/(p^2-1))=-1 $
-
-从而 $6(p^2-4)=p^2-1$，即 $p^2=(23)/(5)$. 因此直线 $l=M P$ 的斜率为
-
-$ k_l=(p^2-4)/(p)=(3)/(5 p)= +- (3)/(sqrt(115))= +- (3 sqrt(115))/(115) $
-
-直线经过 $M=(0,4)$，所以所求直线为
-
-$ l:y= +- (3 sqrt(115))/(115)x+4 $
-
-对于 $p^2=(23)/(5)$，上面关于 $q$ 的二次方程判别式为 $(396)/(25)>0$，确有两条不同切线，故所得两条直线均有效.
++ (1)
 ]
 
 #problem(22)[
-设函数 $f(x) = (x - a)^2 ln x$，$a in RR$.
+设函数 #mi(`f(x) = (x - a)^{2} \ln x`)，#mi(`a \in \mathbb{R}`).
 
-+ (1) 若 $x = e$ 为 $y = f(x)$ 的极值点，求实数 $a$；
-+ (2) 求实数 $a$ 的取值范围，使得对任意的 $x in (0,3 e ]$，恒有 $f(x) <= 4 e ""^2$ 成立. 注：$e$ 为自然对数的底数.
+
++ (1)
 ]
 
 #solution[
-+ (1) 函数定义域为 $x>0$，且
-
-$ f'(x)=2(x-a) ln x+((x-a)^2)/(x)=(x-a)(2 ln x+1-(a)/(x)) $
-
-当 $x= e$ 为极值点时，必须有 $f'( e )=0$，因此
-
-$ ( e -a)(3-(a)/(e))=0 $
-
-解得 $a= e$ 或 $a=3 e$. 这两个值确实都给出极值：当 $a= e$ 时，$f(x)=(x- e )^2 ln x$，在 $x= e$ 附近有 $ln x>0$，故为极小值点；当 $a=3 e$ 时，令 $g(x)=2 ln x+1-(3 e)/(x)$，则 $g( e )=0$，且 $g'( e )=(5)/(e)>0$，所以 $f'(x)=(x-3 e )g(x)$ 在 $x= e$ 两侧由正变负，故为极大值点.
-+ (2) 为处理第二问，令 $x= e t$，$a= e b$，其中 $0<t <= 3$. 则
-
-$ (f(x))/(e ""^2)=(t-b)^2(1+ ln t) $
-
-当 $0<t< e ""^(-1)$ 时，$1+ ln t<0$，不等式 $f(x) <= 4 e ""^2$ 自动成立；当 $t= e ""^(-1)$ 时左端为零. 因此只需考虑 $t in ( e ""^(-1),3]$. 记 $L=1+ ln t>0$，则所需不等式等价于
-
-$ (t-(2)/(sqrt(L))) <= b <= (t+(2)/(sqrt(L))) $
-
-令 $phi.alt (t)=t-(2)/(sqrt(1+ ln t))$，$psi (t)=t+(2)/(sqrt(1+ ln t))$. 由于
-
-$ phi.alt '(t)=1+(1)/(t(1+ ln t)^((3)/(2)))>0 $
-
-所以 $phi.alt (t)$ 在该区间递增，从而
-
-$ sup phi.alt (t)= phi.alt (3)=3-(2)/(sqrt(1+ ln 3)) $
-
-又令 $h(t)=t(1+ ln t)^((3)/(2))$，则
-
-$ h'(t)=(1+ ln t)^((1)/(2))(1+ ln t+(3)/(2))>0 $
-
-所以 $h(t)$ 在该区间递增，且 $h(1)=1$. 因此
-
-$ psi '(t)=1-(1)/(h(t)) $
-
-在 $t<1$ 时为负，在 $t>1$ 时为正，故 $psi (t)$ 在 $t=1$ 处取得最小值 $psi (1)=3$. 于是
-
-$ 3-(2)/(sqrt(1+ ln 3)) <= b <= 3 $
-
-还原 $a= e b$，得到
-
-$ a in [(3-(2)/(sqrt(1+ ln 3))) e ,3 e ] $
++ (1)
 ]
 

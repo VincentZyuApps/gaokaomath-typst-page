@@ -1,8 +1,137 @@
 {
-  "title": "2013年普通高等学校招生全国统一考试",
-  "subtitle": "2013年四川卷（理）",
   "year": "2013",
   "slug": "sichuan_science",
+  "title": "2013年四川卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,11 +146,13 @@
             "$\\varnothing$"
           ],
           "answer": "A",
-          "solution": "由 $x+2=0$ 得 $A=\\{-2\\}$，由 $x^{2}-4=0$ 得 $x=\\pm2$，所以 $B=\\{-2,2\\}$. 因而 $A\\cap B=\\{-2\\}$，故选 A."
+          "solution": "由 $x+2=0$ 得 $A=\\{-2\\}$，由 $x^{2}-4=0$ 得 $x=\\pm2$，所以 $B=\\{-2,2\\}$. 因而 $A\\cap B=\\{-2\\}$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
-          "body": "<p>如图，在复平面内，点 $A$ 表示复数 $z$ 的共轭复数，则图中表示复数 $z$ 的点是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_science/q2_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，在复平面内，点 $A$ 表示复数 $z$ 的共轭复数，则图中表示复数 $z$ 的点是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q2_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$A$",
             "$B$",
@@ -29,19 +160,23 @@
             "$D$"
           ],
           "answer": "B",
-          "solution": "设 $z=u+vi$，则 $\\overline z=u-vi$，所以表示 $z$ 与 $\\overline z$ 的点关于 $x$ 轴对称. 图中点 $A$ 表示 $\\overline z$，其关于 $x$ 轴的对称点是 $B$，故选 B."
+          "solution": "设 $z=u+vi$，则 $\\overline z=u-vi$，所以表示 $z$ 与 $\\overline z$ 的点关于 $x$ 轴对称. 图中点 $A$ 表示 $\\overline z$，其关于 $x$ 轴的对称点是 $B$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
-          "body": "<p>一个几何体的三视图如图所示，则该几何体的直观图可以是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>一个几何体的三视图如图所示，则该几何体的直观图可以是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/sichuan_science/q3_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/sichuan_science/q3_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/sichuan_science/q3_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/sichuan_science/q3_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q3_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q3_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q3_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q3_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "俯视图是一个外圆和一个内虚圆，说明该几何体的上、下相应截面均为圆，且下部圆面被上部遮挡. 选项 A、C 的俯视图含有矩形轮廓；选项 B 的下部为棱柱，俯视图的内轮廓不是圆. 只有选项 D 是上部圆台与下部圆柱的组合，正视图、侧视图分别为梯形上接矩形，俯视图为外圆内虚圆，故选 D."
+          "solution": "俯视图是一个外圆和一个内虚圆，说明该几何体的上、下相应截面均为圆，且下部圆面被上部遮挡. 选项 A、C 的俯视图含有矩形轮廓；选项 B 的下部为棱柱，俯视图的内轮廓不是圆. 只有选项 D 是上部圆台与下部圆柱的组合，正视图、侧视图分别为梯形上接矩形，俯视图为外圆内虚圆，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,11 +188,13 @@
             "$\\neg p$：$\\exists x \\in A$，$2x \\notin B$"
           ],
           "answer": "D",
-          "solution": "<p>命题 $p$ 是“对所有 $x\\in A$，都有 $2x\\in B$”. 全称命题的否定是存在一个反例，因此</p><p>$\\neg p$ 为“存在 $x\\in A$，使 $2x\\notin B$”，对应选项 D.</p>"
+          "solution": "<p>命题 $p$ 是“对所有 $x\\in A$，都有 $2x\\in B$”. 全称命题的否定是存在一个反例，因此</p><p>$\\neg p$ 为“存在 $x\\in A$，使 $2x\\notin B$”，对应选项 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
-          "body": "<p>函数 $f(x) = 2\\sin\\left(\\omega x + \\varphi\\right)$（$\\omega > 0$，$-\\frac{\\pi}{2}< \\varphi < \\frac{\\pi}{2}$）的部分图象如图所示，则 $\\omega$，$\\varphi$ 的值分别是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>函数 $f(x) = 2\\sin\\left(\\omega x + \\varphi\\right)$（$\\omega > 0$，$-\\frac{\\pi}{2}< \\varphi < \\frac{\\pi}{2}$）的部分图象如图所示，则 $\\omega$，$\\varphi$ 的值分别是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$2$，$-\\frac{\\pi}{3}$",
             "$2$，$-\\frac{\\pi}{6}$",
@@ -65,7 +202,9 @@
             "$4$，$\\frac{\\pi}{3}$"
           ],
           "answer": "A",
-          "solution": "<p>由图象可知最大值 $2$ 在 $x=\\frac{5\\pi}{12}$ 处取得，且在 $x=-\\frac{\\pi}{3}$ 处过 $x$ 轴并由正变负. 因而在这两个点之间，相位从 $\\pi$ 增加到 $\\frac{5\\pi}{2}$，故</p><p>$\\omega\\left(\\frac{5\\pi}{12}+\\frac{\\pi}{3}\\right)=\\frac{3\\pi}{2}$，$\\omega=2$.</p><p>又 $\\omega\\frac{5\\pi}{12}+\\varphi=\\frac{\\pi}{2}$，所以</p>\n$$\n\\varphi=\\frac{\\pi}{2}-2\\cdot\\frac{5\\pi}{12}=-\\frac{\\pi}{3}\n$$\n<p>满足给定范围，故选 A.</p>"
+          "solution": "<p>由图象可知最大值 $2$ 在 $x=\\frac{5\\pi}{12}$ 处取得，且在 $x=-\\frac{\\pi}{3}$ 处过 $x$ 轴并由正变负. 因而在这两个点之间，相位从 $\\pi$ 增加到 $\\frac{5\\pi}{2}$，故</p><p>$\\omega\\left(\\frac{5\\pi}{12}+\\frac{\\pi}{3}\\right)=\\frac{3\\pi}{2}$，$\\omega=2$.</p><p>又 $\\omega\\frac{5\\pi}{12}+\\varphi=\\frac{\\pi}{2}$，所以</p>\n$$\n\\varphi=\\frac{\\pi}{2}-2\\cdot\\frac{5\\pi}{12}=-\\frac{\\pi}{3}\n$$\n<p>满足给定范围，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,19 +216,23 @@
             "$\\sqrt{3}$"
           ],
           "answer": "B",
-          "solution": "<p>$y^{2}=4x$ 是标准抛物线 $y^{2}=4ax$，故 $a=1$，焦点为 $F(1,0)$. 双曲线</p><p>$x^{2}-\\frac{y^{2}}{3}=1$ 的渐近线为 $y=\\pm\\sqrt{3}x$. 点 $F$ 到直线 $\\sqrt{3}x-y=0$ 的距离为</p>\n$$\n\\frac{|\\sqrt{3}|}{\\sqrt{(\\sqrt{3})^{2}+(-1)^{2}}}=\\frac{\\sqrt{3}}{2}\n$$\n<p>两条渐近线关于 $x$ 轴对称，距离相同，故选 B.</p>"
+          "solution": "<p>$y^{2}=4x$ 是标准抛物线 $y^{2}=4ax$，故 $a=1$，焦点为 $F(1,0)$. 双曲线</p><p>$x^{2}-\\frac{y^{2}}{3}=1$ 的渐近线为 $y=\\pm\\sqrt{3}x$. 点 $F$ 到直线 $\\sqrt{3}x-y=0$ 的距离为</p>\n$$\n\\frac{|\\sqrt{3}|}{\\sqrt{(\\sqrt{3})^{2}+(-1)^{2}}}=\\frac{\\sqrt{3}}{2}\n$$\n<p>两条渐近线关于 $x$ 轴对称，距离相同，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "函数 $y = \\frac{x^{3}}{3^{x}- 1}$ 的图象大致是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/sichuan_science/q7_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/sichuan_science/q7_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/sichuan_science/q7_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/sichuan_science/q7_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q7_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q7_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q7_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q7_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "C",
-          "solution": "<p>函数定义域为 $x\\ne0$，且当 $x\\ne0$ 时 $\\frac{x^{3}}{3^{x}-1}>0$. 另外</p>\n$$\n\\lim_{x\\to0^-}\\frac{x^{3}}{3^{x}-1}=\\lim_{x\\to0^+}\\frac{x^{3}}{3^{x}-1}=0\n$$\n<p>但 $x=0$ 不在定义域内，所以原点是空心点. 当 $x\\to-\\infty$ 时函数值趋于 $+\\infty$，当 $x\\to+\\infty$ 时函数值趋于 $0^{+}$. 求导得</p>\n$$\nf'(x)=\\frac{x^{2}\\bigl[3(3^{x}-1)-x3^{x}\\ln3\\bigr]}{(3^{x}-1)^{2}}\n$$\n<p>令 $t=x\\ln3$，记 $g(t)=3(\\mathrm{e}^{t}-1)-t\\mathrm{e}^{t}$. 当 $t<0$ 时，$g'(t)=\\mathrm{e}^{t}(2-t)>0$，且 $g(0)=0$，所以 $g(t)<0$，左支递减. 当 $t>0$ 时，$g'(t)>0$（$0<t<2$），$g'(t)<0$（$t>2$），并且 $g(2)=\\mathrm{e}^{2}-3>0$、$g(3)=-3<0$，故右支先增后减. 因而图象应在原点处有空心点，左右两侧均在 $x$ 轴上方，只有选项 C 符合，故选 C.</p>"
+          "solution": "<p>函数定义域为 $x\\ne0$，且当 $x\\ne0$ 时 $\\frac{x^{3}}{3^{x}-1}>0$. 另外</p>\n$$\n\\lim_{x\\to0^-}\\frac{x^{3}}{3^{x}-1}=\\lim_{x\\to0^+}\\frac{x^{3}}{3^{x}-1}=0\n$$\n<p>但 $x=0$ 不在定义域内，所以原点是空心点. 当 $x\\to-\\infty$ 时函数值趋于 $+\\infty$，当 $x\\to+\\infty$ 时函数值趋于 $0^{+}$. 求导得</p>\n$$\nf'(x)=\\frac{x^{2}\\bigl[3(3^{x}-1)-x3^{x}\\ln3\\bigr]}{(3^{x}-1)^{2}}\n$$\n<p>令 $t=x\\ln3$，记 $g(t)=3(\\mathrm{e}^{t}-1)-t\\mathrm{e}^{t}$. 当 $t<0$ 时，$g'(t)=\\mathrm{e}^{t}(2-t)>0$，且 $g(0)=0$，所以 $g(t)<0$，左支递减. 当 $t>0$ 时，$g'(t)>0$（$0<t<2$），$g'(t)<0$（$t>2$），并且 $g(2)=\\mathrm{e}^{2}-3>0$、$g(3)=-3<0$，故右支先增后减. 因而图象应在原点处有空心点，左右两侧均在 $x$ 轴上方，只有选项 C 符合，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +244,9 @@
             "$20$"
           ],
           "answer": "C",
-          "solution": "<p>因为 $\\lg a-\\lg b=\\lg\\frac{a}{b}$，有序取两个不同的数共有 $5\\times4=20$ 种. 这些比值中只有</p><p>$\\frac{1}{3}=\\frac{3}{9}$ 和 $3=\\frac{9}{3}$ 各发生一次重复，其他比值不同. 所以不同值的个数为 $20-2=18$，故选 C.</p>"
+          "solution": "<p>因为 $\\lg a-\\lg b=\\lg\\frac{a}{b}$，有序取两个不同的数共有 $5\\times4=20$ 种. 这些比值中只有</p><p>$\\frac{1}{3}=\\frac{3}{9}$ 和 $3=\\frac{9}{3}$ 各发生一次重复，其他比值不同. 所以不同值的个数为 $20-2=18$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +258,9 @@
             "$\\frac{7}{8}$"
           ],
           "answer": "C",
-          "solution": "<p>设两串彩灯第一次闪亮的时刻分别为 $X$，$Y$，则 $(X,Y)$ 在正方形 $0\\le X\\leqslant4$，$0\\le Y\\leqslant4$ 内等可能. 不满足 $|X-Y|\\leqslant2$ 的区域是正方形的两个直角三角形，每个面积为 $\\frac{1}{2}\\cdot2^{2}=2$，总面积为 $4$. 因而</p>\n$$\nP(|X-Y|\\leqslant2)=1-\\frac{4}{4^{2}}=\\frac{3}{4}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>设两串彩灯第一次闪亮的时刻分别为 $X$，$Y$，则 $(X,Y)$ 在正方形 $0\\le X\\leqslant4$，$0\\le Y\\leqslant4$ 内等可能. 不满足 $|X-Y|\\leqslant2$ 的区域是正方形的两个直角三角形，每个面积为 $\\frac{1}{2}\\cdot2^{2}=2$，总面积为 $4$. 因而</p>\n$$\nP(|X-Y|\\leqslant2)=1-\\frac{4}{4^{2}}=\\frac{3}{4}\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +272,9 @@
             "$[\\mathrm{e}^{-1}- 1, \\mathrm{e}+ 1]$"
           ],
           "answer": "A",
-          "solution": "<p>令 $t=y_{0}=\\sin x_{0}$. 因为 $f$ 的值非负且 $f(f(t))=t$，所以 $0\\le t\\leqslant1$. 记 $u=f(t)\\geqslant0$，则 $f(u)=t$，从而</p><p>$u^{2}=\\mathrm{e}^{t}+t-a$，$t^{2}=\\mathrm{e}^{u}+u-a$.</p><p>两式相减并移项得</p>\n$$\n(u-t)(u+t+1)+(\\mathrm{e}^{u}-\\mathrm{e}^{t})=0\n$$\n<p>若 $u>t$，左式两项均为正；若 $u<t$，左式两项均为负，故只能有 $u=t$. 于是</p>\n$$\na=\\mathrm{e}^{t}+t-t^{2}\n$$\n<p>令 $h(t)=\\mathrm{e}^{t}+t-t^{2}$，则在 $0\\le t\\leqslant1$ 上</p>\n$$\nh'(t)=\\mathrm{e}^{t}+1-2t\\ge(1+t)+1-2t=2-t>0\n$$\n<p>所以 $h([0,1])=[h(0),h(1)]=[1,\\mathrm{e}]$. 反之，对任意 $t\\in[0,1]$ 都可取 $x_{0}$ 使 $\\sin x_{0}=t$，且取 $a=h(t)$ 时 $f(t)=t$，故条件确实成立. 因此 $a\\in[1,\\mathrm{e}]$，故选 A.</p>"
+          "solution": "<p>令 $t=y_{0}=\\sin x_{0}$. 因为 $f$ 的值非负且 $f(f(t))=t$，所以 $0\\le t\\leqslant1$. 记 $u=f(t)\\geqslant0$，则 $f(u)=t$，从而</p><p>$u^{2}=\\mathrm{e}^{t}+t-a$，$t^{2}=\\mathrm{e}^{u}+u-a$.</p><p>两式相减并移项得</p>\n$$\n(u-t)(u+t+1)+(\\mathrm{e}^{u}-\\mathrm{e}^{t})=0\n$$\n<p>若 $u>t$，左式两项均为正；若 $u<t$，左式两项均为负，故只能有 $u=t$. 于是</p>\n$$\na=\\mathrm{e}^{t}+t-t^{2}\n$$\n<p>令 $h(t)=\\mathrm{e}^{t}+t-t^{2}$，则在 $0\\le t\\leqslant1$ 上</p>\n$$\nh'(t)=\\mathrm{e}^{t}+1-2t\\ge(1+t)+1-2t=2-t>0\n$$\n<p>所以 $h([0,1])=[h(0),h(1)]=[1,\\mathrm{e}]$. 反之，对任意 $t\\in[0,1]$ 都可取 $x_{0}$ 使 $\\sin x_{0}=t$，且取 $a=h(t)$ 时 $f(t)=t$，故条件确实成立. 因此 $a\\in[1,\\mathrm{e}]$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,37 +284,47 @@
         {
           "num": 11,
           "body": "二项式 $(x + y)^{5}$ 的展开式中，含 $x^{2} y^{3}$ 的项的系数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$10$",
-          "solution": "<p>二项式通项为 $T_{k+1}=\\mathrm{C}_{5}^{k} x^{5-k}y^{k}$. 要得到 $x^{2}y^{3}$，需 $5-k=2$，即 $k=3$，所以其系数为</p>\n$$\n\\mathrm{C}_{5}^{3}=\\frac{5\\cdot4\\cdot3}{3\\cdot2\\cdot1}=10\n$$"
+          "choices": [],
+          "answer": "\\(10\\)",
+          "solution": "<p>二项式通项为 $T_{k+1}=\\mathrm{C}_{5}^{k} x^{5-k}y^{k}$. 要得到 $x^{2}y^{3}$，需 $5-k=2$，即 $k=3$，所以其系数为</p>\n$$\n\\mathrm{C}_{5}^{3}=\\frac{5\\cdot4\\cdot3}{3\\cdot2\\cdot1}=10\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "在平行四边形 $ABCD$ 中，对角线 $AC$ 与 $BD$ 交于点 $O$，$\\overrightarrow{AB}+ \\overrightarrow{AD}= \\lambda \\overrightarrow{AO}$，则 $\\lambda =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$2$",
-          "solution": "<p>设 $\\overrightarrow{AB}=\\mathbf{b}$，$\\overrightarrow{AD}=\\mathbf{d}$. 则</p><p>$\\overrightarrow{AC}=\\mathbf{b}+\\mathbf{d}$，而平行四边形的对角线互相平分，所以</p>\n$$\n\\overrightarrow{AO}=\\frac{1}{2}\\overrightarrow{AC}=\\frac{1}{2}(\\mathbf{b}+\\mathbf{d})\n$$\n<p>因此</p>\n$$\n\\overrightarrow{AB}+\\overrightarrow{AD}=2\\overrightarrow{AO}\n$$\n<p>故 $\\lambda=2$.</p>"
+          "choices": [],
+          "answer": "\\(2\\)",
+          "solution": "<p>设 $\\overrightarrow{AB}=\\mathbf{b}$，$\\overrightarrow{AD}=\\mathbf{d}$. 则</p><p>$\\overrightarrow{AC}=\\mathbf{b}+\\mathbf{d}$，而平行四边形的对角线互相平分，所以</p>\n$$\n\\overrightarrow{AO}=\\frac{1}{2}\\overrightarrow{AC}=\\frac{1}{2}(\\mathbf{b}+\\mathbf{d})\n$$\n<p>因此</p>\n$$\n\\overrightarrow{AB}+\\overrightarrow{AD}=2\\overrightarrow{AO}\n$$\n<p>故 $\\lambda=2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "设 $\\sin 2\\alpha = -\\sin \\alpha$，$\\alpha \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$，则 $\\tan 2\\alpha$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\sqrt{3}$",
-          "solution": "<p>由 $\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha=-\\sin\\alpha$，且</p><p>$\\alpha\\in(\\frac{\\pi}{2},\\pi)$ 时 $\\sin\\alpha\\ne0$，可得</p><p>$2\\cos\\alpha=-1$，$qquad \\cos\\alpha=-\\frac{1}{2}$.</p><p>在给定区间内 $\\alpha=\\frac{2\\pi}{3}$，所以</p>\n$$\n\\tan2\\alpha=\\tan\\frac{4\\pi}{3}=\\sqrt{3}\n$$"
+          "choices": [],
+          "answer": "\\(\\sqrt{3}\\)",
+          "solution": "<p>由 $\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha=-\\sin\\alpha$，且</p><p>$\\alpha\\in(\\frac{\\pi}{2},\\pi)$ 时 $\\sin\\alpha\\ne0$，可得</p><p>$2\\cos\\alpha=-1$，$qquad \\cos\\alpha=-\\frac{1}{2}$.</p><p>在给定区间内 $\\alpha=\\frac{2\\pi}{3}$，所以</p>\n$$\n\\tan2\\alpha=\\tan\\frac{4\\pi}{3}=\\sqrt{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "已知 $f(x)$ 是定义域为 $\\mathbb{R}$ 的偶函数，当 $x \\ge 0$ 时，$f(x) = x^{2} - 4x$，那么，不等式 $f(x + 2) < 5$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(-7,3)$",
-          "solution": "<p>由偶性，对任意实数 $t$ 有 $f(t)=f(|t|)=|t|^{2}-4|t|$. 令 $u=|x+2|\\geqslant0$，则</p>\n$$\nf(x+2)<5\\iff u^{2}-4u<5\\iff (u-5)(u+1)<0\n$$\n<p>结合 $u\\geqslant0$，得到 $0\\le u<5$，即</p>\n$$\n-5<x+2<5\n$$\n<p>所以解集为 $(-7,3)$.</p>"
+          "choices": [],
+          "answer": "\\((-7,3)\\)",
+          "solution": "<p>由偶性，对任意实数 $t$ 有 $f(t)=f(|t|)=|t|^{2}-4|t|$. 令 $u=|x+2|\\geqslant0$，则</p>\n$$\nf(x+2)<5\\iff u^{2}-4u<5\\iff (u-5)(u+1)<0\n$$\n<p>结合 $u\\geqslant0$，得到 $0\\le u<5$，即</p>\n$$\n-5<x+2<5\n$$\n<p>所以解集为 $(-7,3)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "<p>设 $P_{1}$，$P_{2}$，$\\cdots$，$P_{n}$ 为平面 $\\alpha$ 内的 $n$ 个点，在平面 $\\alpha$ 内的所有点中，若点 $P$ 到 $P_{1}$，$P_{2}$，$\\cdots$，$P_{n}$ 点的距离之和最小，则称点 $P$ 为 $P_{1}$，$P_{2}$，$\\cdots$，$P_{n}$ 点的一个“中位点”. 例如，线段 $AB$ 上的任意点都是端点 $A$，$B$ 的中位点. 则有下列命题：</p><ol class=\"enumerate\"><li><p>若三个点 $A$，$B$，$C$ 共线，$C$ 在线段 $AB$ 上，则 $C$ 是 $A$，$B$，$C$ 的中位点；</p></li><li><p>直角三角形斜边的中点是该直角三角形三个顶点的中位点；</p></li><li><p>若四个点 $A$，$B$，$C$，$D$ 共线，则它们的中位点存在且唯一；</p></li><li><p>梯形对角线的交点是该梯形四个顶点的唯一中位点.</p></li></ol><p>其中的真命题是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（写出所有真命题的序号）</p>",
-          "choices": null,
-          "answer": "$①④$",
-          "solution": "<p>对命题 $①$，任取平面内的点 $X$，由三角不等式</p><p>$XA+XB\\ge AB$，且 $XC\\geqslant0$. 当 $X=C$ 时，因 $C$ 在线段 $AB$ 上，距离和为 $CA+CB=AB$，达到下界，故命题 $①$ 为真.</p><p>对命题 $②$，取边长为 $3$，$4$，$5$ 的直角三角形. 斜边中点到三个顶点的距离均为 $\\frac{5}{2}$，距离和为 $\\frac{15}{2}$；直角顶点到三个顶点的距离和为 $3+4=7<\\frac{15}{2}$，故命题 $②$ 为假.</p><p>对命题 $③$，取同一直线上的四点 $A$，$B$，$C$，$D$ 的坐标依次为 $0$，$1$，$2$，$3$. 对任意 $x\\in[1,2]$，令 $X$ 为直线上坐标为 $x$ 的点，则到四点的距离和为</p>\n$$\nx+(x-1)+(2-x)+(3-x)=4\n$$\n<p>另一方面，对平面内任意点 $X$，由三角不等式有 $XA+XD\\ge AD=3$，$XB+XC\\ge BC=1$，故到四点的距离和不小于 $4$. 所以线段 $BC$ 上的点都是中位点，中位点不唯一，命题 $③$ 为假.</p><p>对命题 $④$，设梯形对角线 $AC$、$BD$ 交于 $O$. 对任意点 $X$，有 $XA+XC\\ge AC$，$XB+XD\\ge BD$. 当 $X=O$ 时两式均取等号，所以 $O$ 的距离和为 $AC+BD$，且达到最小值. 若同时取等号，$X$ 必须同时在线段 $AC$ 和 $BD$ 上，故只能是 $O$，所以命题 $④$ 为真. 真命题的序号为 $①$、$④$.</p>"
+          "choices": [],
+          "answer": "\\(①④\\)",
+          "solution": "<p>对命题 $①$，任取平面内的点 $X$，由三角不等式</p><p>$XA+XB\\ge AB$，且 $XC\\geqslant0$. 当 $X=C$ 时，因 $C$ 在线段 $AB$ 上，距离和为 $CA+CB=AB$，达到下界，故命题 $①$ 为真.</p><p>对命题 $②$，取边长为 $3$，$4$，$5$ 的直角三角形. 斜边中点到三个顶点的距离均为 $\\frac{5}{2}$，距离和为 $\\frac{15}{2}$；直角顶点到三个顶点的距离和为 $3+4=7<\\frac{15}{2}$，故命题 $②$ 为假.</p><p>对命题 $③$，取同一直线上的四点 $A$，$B$，$C$，$D$ 的坐标依次为 $0$，$1$，$2$，$3$. 对任意 $x\\in[1,2]$，令 $X$ 为直线上坐标为 $x$ 的点，则到四点的距离和为</p>\n$$\nx+(x-1)+(2-x)+(3-x)=4\n$$\n<p>另一方面，对平面内任意点 $X$，由三角不等式有 $XA+XD\\ge AD=3$，$XB+XC\\ge BC=1$，故到四点的距离和不小于 $4$. 所以线段 $BC$ 上的点都是中位点，中位点不唯一，命题 $③$ 为假.</p><p>对命题 $④$，设梯形对角线 $AC$、$BD$ 交于 $O$. 对任意点 $X$，有 $XA+XC\\ge AC$，$XB+XD\\ge BD$. 当 $X=O$ 时两式均取等号，所以 $O$ 的距离和为 $AC+BD$，且达到最小值. 若同时取等号，$X$ 必须同时在线段 $AC$ 和 $BD$ 上，故只能是 $O$，所以命题 $④$ 为真. 真命题的序号为 $①$、$④$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -175,44 +334,56 @@
         {
           "num": 16,
           "body": "在等差数列 $\\{a_{n}\\}$ 中，$a_{1}+ a_{3}= 8$，且 $a_{4}$ 为 $a_{2}$ 和 $a_{9}$ 的等比中项，求数列 $\\{a_{n}\\}$ 的首项，公差及前 $n$ 项和.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设首项为 $a_{1}$，公差为 $d$，则 $a_{n}=a_{1}+(n-1)d$. 由</p>\n$$\na_{1}+a_{3}=2a_{1}+2d=8\n$$\n<p>得 $a_{1}+d=4$，即 $a_{2}=4$. 又 $a_{4}$ 是 $a_{2}$、$a_{9}$ 的等比中项，所以</p>\n$$\na_{4}^{2}=a_{2}a_{9}\n$$\n<p>利用 $a_{1}=4-d$，有 $a_{4}=4+2d$，$a_{9}=4+7d$，从而</p>\n$$\n(4+2d)^{2}=4(4+7d)  \\iff 4d(d-3)=0\n$$\n<p>因此 $d=0$ 或 $d=3$.</p><p>当 $d=0$ 时，$a_{1}=4$，且 $S_{n}=4n$；当 $d=3$ 时，$a_{1}=1$，且</p>\n$$\nS_{n}=\\frac{n}{2}\\bigl(2a_{1}+(n-1)d\\bigr)=\\frac{n(3n-1)}{2}\n$$\n<p>所以答案为 $(a_{1},d,S_{n})=(4,0,4n)$ 或 $(1,3,\\frac{n(3n-1)}{2})$.</p>"
+          "solution": "<p>设首项为 $a_{1}$，公差为 $d$，则 $a_{n}=a_{1}+(n-1)d$. 由</p>\n$$\na_{1}+a_{3}=2a_{1}+2d=8\n$$\n<p>得 $a_{1}+d=4$，即 $a_{2}=4$. 又 $a_{4}$ 是 $a_{2}$、$a_{9}$ 的等比中项，所以</p>\n$$\na_{4}^{2}=a_{2}a_{9}\n$$\n<p>利用 $a_{1}=4-d$，有 $a_{4}=4+2d$，$a_{9}=4+7d$，从而</p>\n$$\n(4+2d)^{2}=4(4+7d)  \\iff 4d(d-3)=0\n$$\n<p>因此 $d=0$ 或 $d=3$.</p><p>当 $d=0$ 时，$a_{1}=4$，且 $S_{n}=4n$；当 $d=3$ 时，$a_{1}=1$，且</p>\n$$\nS_{n}=\\frac{n}{2}\\bigl(2a_{1}+(n-1)d\\bigr)=\\frac{n(3n-1)}{2}\n$$\n<p>所以答案为 $(a_{1},d,S_{n})=(4,0,4n)$ 或 $(1,3,\\frac{n(3n-1)}{2})$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "<p>在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，且 $2\\cos^{2}\\frac{A - B}{2}\\cos B - \\sin (A - B)\\sin B + \\cos (A + C) = -\\frac{3}{5}$.</p><ol class=\"enumerate\"><li><p>求 $\\cos A$ 的值；</p></li><li><p>若 $a = 4\\sqrt{2}$，$b = 5$，求向量 $\\overrightarrow{BA}$ 在 $\\overrightarrow{BC}$ 方向上的投影.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $A+B+C=\\pi$，且</p>\n$$\n2\\cos^{2}\\frac{A-B}{2}=1+\\cos(A-B)\n$$\n<p>所以题设左端为</p>\n$$\n\\begin{aligned}&\\bigl[1+\\cos(A-B)\\bigr]\\cos B-\\sin(A-B)\\sin B+\\cos(A+C)\\\\\n\n={}&\\cos B+\\cos A+\\cos(\\pi-B)=\\cos A.\\end{aligned}\n$$\n<p>因此 $\\cos A=-\\frac{3}{5}$.</p></li><li><p>由 $\\cos A=-\\frac{3}{5}$ 及 $A\\in(0,\\pi)$，得 $\\sin A=\\frac{4}{5}$. 由正弦定理</p>\n$$\n\\frac{a}{b}=\\frac{\\sin A}{\\sin B}\n$$\n<p>及 $a=4\\sqrt{2}$、$b=5$，得</p>\n$$\n\\sin B=\\frac{b\\sin A}{a}=\\frac{\\sqrt{2}}{2}\n$$\n<p>因为 $a>b$，所以 $A>B$. 若 $B=\\frac{3\\pi}{4}$，则 $A>\\frac{3\\pi}{4}$，从而 $\\cos A<\\cos\\frac{3\\pi}{4}=-\\frac{\\sqrt{2}}{2}$，这与 $\\cos A=-\\frac{3}{5}>-\\frac{\\sqrt{2}}{2}$ 矛盾. 因此 $B=\\frac{\\pi}{4}$，即 $\\cos B=\\frac{\\sqrt{2}}{2}$.</p><p>由余弦定理</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A\n$$\n<p>得</p>\n$$\n32=25+c^{2}+6c  \\iff c^{2}+6c-7=0\n$$\n<p>因 $c>0$，故 $c=1$. 向量 $\\overrightarrow{BA}$ 在 $\\overrightarrow{BC}$ 方向上的投影为</p>\n$$\n|\\overrightarrow{BA}|\\cos B=c\\cos B=1\\cdot\\frac{\\sqrt{2}}{2}=\\frac{\\sqrt{2}}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $A+B+C=\\pi$，且</p>\n$$\n2\\cos^{2}\\frac{A-B}{2}=1+\\cos(A-B)\n$$\n<p>所以题设左端为</p>\n$$\n\\begin{aligned}&\\bigl[1+\\cos(A-B)\\bigr]\\cos B-\\sin(A-B)\\sin B+\\cos(A+C)\\\\\n\n={}&\\cos B+\\cos A+\\cos(\\pi-B)=\\cos A.\\end{aligned}\n$$\n<p>因此 $\\cos A=-\\frac{3}{5}$.</p></li><li><p>由 $\\cos A=-\\frac{3}{5}$ 及 $A\\in(0,\\pi)$，得 $\\sin A=\\frac{4}{5}$. 由正弦定理</p>\n$$\n\\frac{a}{b}=\\frac{\\sin A}{\\sin B}\n$$\n<p>及 $a=4\\sqrt{2}$、$b=5$，得</p>\n$$\n\\sin B=\\frac{b\\sin A}{a}=\\frac{\\sqrt{2}}{2}\n$$\n<p>因为 $a>b$，所以 $A>B$. 若 $B=\\frac{3\\pi}{4}$，则 $A>\\frac{3\\pi}{4}$，从而 $\\cos A<\\cos\\frac{3\\pi}{4}=-\\frac{\\sqrt{2}}{2}$，这与 $\\cos A=-\\frac{3}{5}>-\\frac{\\sqrt{2}}{2}$ 矛盾. 因此 $B=\\frac{\\pi}{4}$，即 $\\cos B=\\frac{\\sqrt{2}}{2}$.</p><p>由余弦定理</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A\n$$\n<p>得</p>\n$$\n32=25+c^{2}+6c  \\iff c^{2}+6c-7=0\n$$\n<p>因 $c>0$，故 $c=1$. 向量 $\\overrightarrow{BA}$ 在 $\\overrightarrow{BC}$ 方向上的投影为</p>\n$$\n|\\overrightarrow{BA}|\\cos B=c\\cos B=1\\cdot\\frac{\\sqrt{2}}{2}=\\frac{\\sqrt{2}}{2}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>某算法的程序框图如图所示，其中输入的变量 $x$ 在 $1$，$2$，$3$，$\\cdots$，$24$ 这 24 个整数中等可能随机产生.</p><ol class=\"enumerate\"><li><p>分别求出按程序框图正确编程运行时输出 $y$ 的值为 $i$ 的概率 $P_{i}$ （$i = 1$，$2$，$3$）；</p></li><li><p>甲，乙两同学依据自己对程序框图的理解，各自编写程序重复运行 $n$ 次后，统计记录了输出 $y$ 的值为 $i$ （$i = 1$，$2$，$3$） 的频数. 以下是甲，乙所作频数统计表的部分数据. 当 $n = 2100$ 时，根据表中的数据，分别写出甲，乙所编程序各自输出 $y$ 的值为 $i$ （$i = 1$，$2$，$3$） 的频率（用分数表示），并判断两位同学中哪一位所编写程序符合算法要求的可能性较大；</p><p></p><center class=\"center\">甲的频数统计表（部分）<br><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1.2</span></span><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">运行次数</td></tr><tr><td style=\"text-align: center\">$n$</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">1 的频数</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">2 的频数</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">3 的频数</td></tr></tbody></table> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>30 </td><td style=\"text-align: center\"> 14 </td><td style=\"text-align: center\"> 6 </td><td style=\"text-align: center\"> 10 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>2100 </td><td style=\"text-align: center\"> 1027 </td><td style=\"text-align: center\"> 376 </td><td style=\"text-align: center\"> 697 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p><p></p><center class=\"center\">乙的频数统计表（部分）<br><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1.2</span></span><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">运行次数</td></tr><tr><td style=\"text-align: center\">$n$</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">1 的频数</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">2 的频数</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">3 的频数</td></tr></tbody></table> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>30 </td><td style=\"text-align: center\"> 12 </td><td style=\"text-align: center\"> 11 </td><td style=\"text-align: center\"> 7 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>2100 </td><td style=\"text-align: center\"> 1051 </td><td style=\"text-align: center\"> 696 </td><td style=\"text-align: center\"> 353 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p></li><li><p>按程序框图正确编写的程序运行 3 次，求输出 $y$ 的值为 2 的次数 $\\xi$ 的分布列及数学期望.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>某算法的程序框图如图所示，其中输入的变量 $x$ 在 $1$，$2$，$3$，$\\cdots$，$24$ 这 24 个整数中等可能随机产生.</p><ol class=\"enumerate\"><li><p>分别求出按程序框图正确编程运行时输出 $y$ 的值为 $i$ 的概率 $P_{i}$ （$i = 1$，$2$，$3$）；</p></li><li><p>甲，乙两同学依据自己对程序框图的理解，各自编写程序重复运行 $n$ 次后，统计记录了输出 $y$ 的值为 $i$ （$i = 1$，$2$，$3$） 的频数. 以下是甲，乙所作频数统计表的部分数据. 当 $n = 2100$ 时，根据表中的数据，分别写出甲，乙所编程序各自输出 $y$ 的值为 $i$ （$i = 1$，$2$，$3$） 的频率（用分数表示），并判断两位同学中哪一位所编写程序符合算法要求的可能性较大；</p><p></p><center class=\"center\">甲的频数统计表（部分）<br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">运行次数</td></tr><tr><td style=\"text-align: center\">$n$</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">1 的频数</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">2 的频数</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">3 的频数</td></tr></tbody></table> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">30 </td><td style=\"text-align: center\"> 14 </td><td style=\"text-align: center\"> 6 </td><td style=\"text-align: center\"> 10 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">2100 </td><td style=\"text-align: center\"> 1027 </td><td style=\"text-align: center\"> 376 </td><td style=\"text-align: center\"> 697 </td></tr></tbody></table></center><p></p><p></p><center class=\"center\">乙的频数统计表（部分）<br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">运行次数</td></tr><tr><td style=\"text-align: center\">$n$</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">1 的频数</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">2 的频数</td></tr></tbody></table> </td><td style=\"text-align: center\"> <table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">输出 $y$ 的值为</td></tr><tr><td style=\"text-align: center\">3 的频数</td></tr></tbody></table> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">30 </td><td style=\"text-align: center\"> 12 </td><td style=\"text-align: center\"> 11 </td><td style=\"text-align: center\"> 7 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td><td style=\"text-align: center\"> $\\cdots$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">2100 </td><td style=\"text-align: center\"> 1051 </td><td style=\"text-align: center\"> 696 </td><td style=\"text-align: center\"> 353 </td></tr></tbody></table></center><p></p></li><li><p>按程序框图正确编写的程序运行 3 次，求输出 $y$ 的值为 2 的次数 $\\xi$ 的分布列及数学期望.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$1$ 至 $24$ 中有 $12$ 个奇数，程序输出 $y=1$；有 $12$ 个偶数，其中 $6$，$12$，$18$，$24$ 共 $4$ 个能被 $3$ 整除，输出 $y=3$，其余 $8$ 个输出 $y=2$. 因而 $P_{1}=\\frac{12}{24}=\\frac{1}{2}$，$P_{2}=\\frac{8}{24}=\\frac{1}{3}$，$P_{3}=\\frac{4}{24}=\\frac{1}{6}$.</p></li><li><p>当 $n=2100$ 时，甲、乙两程序的频率分别为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"></td><td style=\"text-align: center\"> $y=1$ </td><td style=\"text-align: center\"> $y=2$ </td><td style=\"text-align: center\"> $y=3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>甲 </td><td style=\"text-align: center\"> $\\frac{1027}{2100}$ </td><td style=\"text-align: center\"> $\\frac{376}{2100}$ </td><td style=\"text-align: center\"> $\\frac{697}{2100}$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>乙 </td><td style=\"text-align: center\"> $\\frac{1051}{2100}$ </td><td style=\"text-align: center\"> $\\frac{696}{2100}$ </td><td style=\"text-align: center\"> $\\frac{353}{2100}$</td></tr></tbody></table></center><p></p><p>正确程序的理论概率为 $\\left(\\frac{1}{2},\\frac{1}{3},\\frac{1}{6}\\right)$. 以 $2100$ 为分母，甲的三项频数与理论频数 $1050$，$700$，$350$ 分别相差 $-23$，$-324$，$347$，乙分别相差 $1$，$-4$，$3$. 因而乙的频率整体更接近理论概率，乙同学所编程序符合算法要求的可能性较大.</p></li><li><p>每次运行输出 $y=2$ 的概率为 $p=\\frac{1}{3}$，三次运行相互独立. 因而 $\\xi$ 服从二项分布，可能取值为 $0$，$1$，$2$，$3$，且</p>\n$$\nP(\\xi=k)=\\mathrm{C}_{3}^{k}\\left(\\frac{1}{3}\\right)^{k}\\left(\\frac{2}{3}\\right)^{3-k}\n$$\n<p>所以分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center\"> 0 </td><td style=\"text-align: center\"> 1 </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 3 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\frac{8}{27}$ </td><td style=\"text-align: center\"> $\\frac{4}{9}$ </td><td style=\"text-align: center\"> $\\frac{2}{9}$ </td><td style=\"text-align: center\"> $\\frac{1}{27}$</td></tr></tbody></table></center><p></p><p>数学期望为</p>\n$$\nE(\\xi)=3p=3\\cdot\\frac{1}{3}=1\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$1$ 至 $24$ 中有 $12$ 个奇数，程序输出 $y=1$；有 $12$ 个偶数，其中 $6$，$12$，$18$，$24$ 共 $4$ 个能被 $3$ 整除，输出 $y=3$，其余 $8$ 个输出 $y=2$. 因而 $P_{1}=\\frac{12}{24}=\\frac{1}{2}$，$P_{2}=\\frac{8}{24}=\\frac{1}{3}$，$P_{3}=\\frac{4}{24}=\\frac{1}{6}$.</p></li><li><p>当 $n=2100$ 时，甲、乙两程序的频率分别为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"></td><td style=\"text-align: center\"> $y=1$ </td><td style=\"text-align: center\"> $y=2$ </td><td style=\"text-align: center\"> $y=3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">甲 </td><td style=\"text-align: center\"> $\\frac{1027}{2100}$ </td><td style=\"text-align: center\"> $\\frac{376}{2100}$ </td><td style=\"text-align: center\"> $\\frac{697}{2100}$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">乙 </td><td style=\"text-align: center\"> $\\frac{1051}{2100}$ </td><td style=\"text-align: center\"> $\\frac{696}{2100}$ </td><td style=\"text-align: center\"> $\\frac{353}{2100}$</td></tr></tbody></table></center><p></p><p>正确程序的理论概率为 $\\left(\\frac{1}{2},\\frac{1}{3},\\frac{1}{6}\\right)$. 以 $2100$ 为分母，甲的三项频数与理论频数 $1050$，$700$，$350$ 分别相差 $-23$，$-324$，$347$，乙分别相差 $1$，$-4$，$3$. 因而乙的频率整体更接近理论概率，乙同学所编程序符合算法要求的可能性较大.</p></li><li><p>每次运行输出 $y=2$ 的概率为 $p=\\frac{1}{3}$，三次运行相互独立. 因而 $\\xi$ 服从二项分布，可能取值为 $0$，$1$，$2$，$3$，且</p>\n$$\nP(\\xi=k)=\\mathrm{C}_{3}^{k}\\left(\\frac{1}{3}\\right)^{k}\\left(\\frac{2}{3}\\right)^{3-k}\n$$\n<p>所以分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center\"> 0 </td><td style=\"text-align: center\"> 1 </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 3 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$P$ </td><td style=\"text-align: center\"> $\\frac{8}{27}$ </td><td style=\"text-align: center\"> $\\frac{4}{9}$ </td><td style=\"text-align: center\"> $\\frac{2}{9}$ </td><td style=\"text-align: center\"> $\\frac{1}{27}$</td></tr></tbody></table></center><p></p><p>数学期望为</p>\n$$\nE(\\xi)=3p=3\\cdot\\frac{1}{3}=1\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>如图，在三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，侧棱 $AA_{1}\\perp$ 底面 $ABC$，$AB = AC = 2AA_{1}$，$\\angle BAC = 120^{\\circ}$，$D$，$D_{1}$ 分别是线段 $BC$，$B_{1}C_{1}$ 的中点，$P$ 是线段 $AD$ 的中点.</p><ol class=\"enumerate\"><li><p>在平面 $ABC$ 内，试作出过点 $P$ 与平面 $A_{1}BC$ 平行的直线 $l$，说明理由，并证明直线 $l \\perp$ 平面 $ADD_{1}A_{1}$；</p></li><li><p>设（1）中的直线 $l$ 交 $AB$ 于点 $M$，交 $AC$ 于点 $N$，求二面角 $A-A_{1}M-N$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，侧棱 $AA_{1}\\perp$ 底面 $ABC$，$AB = AC = 2AA_{1}$，$\\angle BAC = 120^{\\circ}$，$D$，$D_{1}$ 分别是线段 $BC$，$B_{1}C_{1}$ 的中点，$P$ 是线段 $AD$ 的中点.</p><ol class=\"enumerate\"><li><p>在平面 $ABC$ 内，试作出过点 $P$ 与平面 $A_{1}BC$ 平行的直线 $l$，说明理由，并证明直线 $l \\perp$ 平面 $ADD_{1}A_{1}$；</p></li><li><p>设（1）中的直线 $l$ 交 $AB$ 于点 $M$，交 $AC$ 于点 $N$，求二面角 $A-A_{1}M-N$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/sichuan_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在平面 $ABC$ 内过 $P$ 作 $l\\parallel BC$. 平面 $A_{1}BC$ 与平面 $ABC$ 的交线为 $BC$，而 $P\\notin BC$，所以 $l$ 不在平面 $A_{1}BC$ 内. 又因 $BC\\subset$ 平面 $A_{1}BC$，由直线与平面平行的判定定理，$l\\parallel$ 平面 $A_{1}BC$.</p><p>又 $AB=AC$，且 $D$ 是 $BC$ 的中点，所以 $AD\\perp BC$，从而 $AD\\perp l$. 在平面 $ADD_{1}A_{1}$ 内过 $P$ 作直线 $m\\parallel AA_{1}$，则 $m\\perp l$，且 $m$ 与 $AD$ 在 $P$ 相交. 因此 $l$ 垂直于平面 $ADD_{1}A_{1}$ 内过交点 $P$ 的两条相交直线 $AD$、$m$，故 $l\\perp$ 平面 $ADD_{1}A_{1}$.</p></li><li><p>令 $AA_{1}=1$，建立空间直角坐标系，取</p><p>$A=(0,0,0)$，$B=(2,0,0)$，$C=(-1,\\sqrt{3},0)$，$A_{1}=(0,0,1)$.</p><p>则 $D=(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0)$，$P=(\\frac{1}{4},\\frac{\\sqrt{3}}{4},0)$. 过 $P$ 作 $l\\parallel BC$，由相似关系得 $M$，$N$ 分别为 $AB$，$AC$ 的中点，因此</p><p>$M=(1,0,0)$，$N=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$.</p><p>平面 $AA_{1}M$ 的一个法向量为</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{AA_1}\\times\\overrightarrow{AM}=(0,1,0)\n$$\n<p>平面 $A_{1}MN$ 的一个法向量为</p>\n$$\n\\begin{aligned}\\mathbf{n}_{2}&=\\overrightarrow{A_1M}\\times\\overrightarrow{A_1N}\\\\&=(1,0,-1)\\times\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},-1\\right)  =\\left(\\frac{\\sqrt{3}}{2},\\frac{3}{2},\\frac{\\sqrt{3}}{2}\\right).\\end{aligned}\n$$\n<p>所以二面角的余弦为</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{\\frac{3}{2}}{\\sqrt{\\frac{3}{4}+\\frac{9}{4}+\\frac{3}{4}}}=\\frac{\\sqrt{15}}{5}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在平面 $ABC$ 内过 $P$ 作 $l\\parallel BC$. 平面 $A_{1}BC$ 与平面 $ABC$ 的交线为 $BC$，而 $P\\notin BC$，所以 $l$ 不在平面 $A_{1}BC$ 内. 又因 $BC\\subset$ 平面 $A_{1}BC$，由直线与平面平行的判定定理，$l\\parallel$ 平面 $A_{1}BC$.</p><p>又 $AB=AC$，且 $D$ 是 $BC$ 的中点，所以 $AD\\perp BC$，从而 $AD\\perp l$. 在平面 $ADD_{1}A_{1}$ 内过 $P$ 作直线 $m\\parallel AA_{1}$，则 $m\\perp l$，且 $m$ 与 $AD$ 在 $P$ 相交. 因此 $l$ 垂直于平面 $ADD_{1}A_{1}$ 内过交点 $P$ 的两条相交直线 $AD$、$m$，故 $l\\perp$ 平面 $ADD_{1}A_{1}$.</p></li><li><p>令 $AA_{1}=1$，建立空间直角坐标系，取</p><p>$A=(0,0,0)$，$B=(2,0,0)$，$C=(-1,\\sqrt{3},0)$，$A_{1}=(0,0,1)$.</p><p>则 $D=(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0)$，$P=(\\frac{1}{4},\\frac{\\sqrt{3}}{4},0)$. 过 $P$ 作 $l\\parallel BC$，由相似关系得 $M$，$N$ 分别为 $AB$，$AC$ 的中点，因此</p><p>$M=(1,0,0)$，$N=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$.</p><p>平面 $AA_{1}M$ 的一个法向量为</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{AA_1}\\times\\overrightarrow{AM}=(0,1,0)\n$$\n<p>平面 $A_{1}MN$ 的一个法向量为</p>\n$$\n\\begin{aligned}\\mathbf{n}_{2}&=\\overrightarrow{A_1M}\\times\\overrightarrow{A_1N}\\\\&=(1,0,-1)\\times\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},-1\\right)  =\\left(\\frac{\\sqrt{3}}{2},\\frac{3}{2},\\frac{\\sqrt{3}}{2}\\right).\\end{aligned}\n$$\n<p>所以二面角的余弦为</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{\\frac{3}{2}}{\\sqrt{\\frac{3}{4}+\\frac{9}{4}+\\frac{3}{4}}}=\\frac{\\sqrt{15}}{5}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知椭圆 $C: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a>b>0$）的两个焦点分别为 $F_{1}(-1,0)$，$F_{2}(1,0)$，且椭圆 $C$ 经过点 $P\\left(\\frac{4}{3}, \\frac{1}{3}\\right)$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的离心率；</p></li><li><p>设过点 $A(0,2)$ 的直线 $l$ 与椭圆 $C$ 交于 $M$，$N$ 两点，点 $Q$ 是线段 $MN$ 上的点，且 $\\frac{2}{|AQ|^{2}}= \\frac{1}{|AM|^{2}}+ \\frac{1}{|AN|^{2}}$，求点 $Q$ 的轨迹方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>椭圆焦半距 $c=1$. 由椭圆定义，点 $P$ 到两焦点的距离和为 $2a$，而</p><p>$PF_{1}=\\sqrt{\\left(\\frac{4}{3}+1\\right)^{2}+\\left(\\frac{1}{3}\\right)^{2}}=\\frac{5\\sqrt{2}}{3}$，$PF_{2}=\\sqrt{\\left(\\frac{4}{3}-1\\right)^{2}+\\left(\\frac{1}{3}\\right)^{2}}=\\frac{\\sqrt{2}}{3}$.</p><p>故 $2a=2\\sqrt{2}$，$a=\\sqrt{2}$，$b^{2}=a^{2}-c^{2}=1$. 因而离心率</p>\n$$\ne=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}\n$$\n</li><li><p>由上问，椭圆方程为 $\\frac{x^{2}}{2}+y^{2}=1$，即 $x^{2}+2y^{2}=2$.</p><p>先考虑竖直直线 $x=0$. 此时 $M=(0,1)$、$N=(0,-1)$. 设 $Q=(0,y)$，则 $Q$ 在线段 $MN$ 上，且</p>\n$$\n\\frac{2}{(2-y)^{2}}=\\frac{1}{1^{2}}+\\frac{1}{3^{2}}=\\frac{10}{9}\n$$\n<p>因 $y\\leqslant1$，得 $y=2-\\frac{3\\sqrt{5}}{5}$.</p><p>再考虑非竖直直线，设其方程为 $y=kx+2$. 联立椭圆方程，得交点横坐标 $x_{1}$，$x_{2}$ 满足</p>\n$$\n(1+2k^{2})x^{2}+8kx+6=0\n$$\n<p>因两交点不同，判别式 $16k^{2}-24>0$，即 $k^{2}>\\frac{3}{2}$. 因而</p><p>$x_{1}+x_{2}=-\\frac{8k}{1+2k^{2}}$，$x_{1}x_{2}=\\frac{6}{1+2k^{2}}$，$k^{2}>\\frac{3}{2}$.</p><p>设 $Q=(x,y)$. 因 $M$，$N$，$Q$ 在同一直线上，距离均可用横坐标表示，题设条件化为</p>\n$$\n\\frac{2}{x^{2}}=\\frac{1}{x_{1}^{2}}+\\frac{1}{x_{2}^{2}}\n$$\n<p>于是</p>\n$$\nx^{2}=\\frac{2x_{1}^{2}x_{2}^{2}}{x_{1}^{2}+x_{2}^{2}}=\\frac{18}{10k^{2}-3}\n$$\n<p>又 $k=\\frac{y-2}{x}$，消去 $k$ 得</p>\n$$\n10(y-2)^{2}-3x^{2}=18\n$$\n<p>由 $k^{2}>\\frac{3}{2}$ 得 $0<x^{2}<\\frac{3}{2}$，即</p>\n$$\n-\\frac{\\sqrt{6}}{2}<x<\\frac{\\sqrt{6}}{2}\n$$\n<p>由于 $Q$ 在线段 $MN$ 上，所以 $y\\leqslant1$，结合轨迹方程只能取下支，从而</p>\n$$\n\\frac{1}{2}<y<2-\\frac{3\\sqrt{5}}{5}\n$$\n<p>对于非竖直直线，反过来若点 $(x,y)$ 满足上述方程及范围，令 $k=\\frac{y-2}{x}$. 由轨迹方程得 $x^{2}=\\frac{18}{10k^{2}-3}$，且 $x^{2}<\\frac{3}{2}$ 从而 $k^{2}>\\frac{3}{2}$. 交点横坐标 $x_{1}$，$x_{2}$ 同号，且其符号与 $-k$ 相同；又 $\\operatorname{sgn}x=-\\operatorname{sgn}k$，并且</p>\n$$\nx^{2}=\\frac{2x_{1}^{2}x_{2}^{2}}{x_{1}^{2}+x_{2}^{2}}\n$$\n<p>是 $x_{1}^{2}$，$x_{2}^{2}$ 的调和平均数，故 $x$ 位于 $x_{1}$，$x_{2}$ 之间，即 $Q$ 在线段 $MN$ 上，且满足题设等式. 最后考虑竖直直线 $x=0$：此时 $M=(0,1)$、$N=(0,-1)$，由题设等式得 $y=2-\\frac{3\\sqrt{5}}{5}$，正好补上上端点. 因此轨迹为</p><p>$10(y-2)^{2}-3x^{2}=18$，其中 $-\\frac{\\sqrt{6}}{2}<x<\\frac{\\sqrt{6}}{2}$，$\\frac{1}{2}<y\\leqslant2-\\frac{3\\sqrt{5}}{5}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>椭圆焦半距 $c=1$. 由椭圆定义，点 $P$ 到两焦点的距离和为 $2a$，而</p><p>$PF_{1}=\\sqrt{\\left(\\frac{4}{3}+1\\right)^{2}+\\left(\\frac{1}{3}\\right)^{2}}=\\frac{5\\sqrt{2}}{3}$，$PF_{2}=\\sqrt{\\left(\\frac{4}{3}-1\\right)^{2}+\\left(\\frac{1}{3}\\right)^{2}}=\\frac{\\sqrt{2}}{3}$.</p><p>故 $2a=2\\sqrt{2}$，$a=\\sqrt{2}$，$b^{2}=a^{2}-c^{2}=1$. 因而离心率</p>\n$$\ne=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}\n$$\n</li><li><p>由上问，椭圆方程为 $\\frac{x^{2}}{2}+y^{2}=1$，即 $x^{2}+2y^{2}=2$.</p><p>先考虑竖直直线 $x=0$. 此时 $M=(0,1)$、$N=(0,-1)$. 设 $Q=(0,y)$，则 $Q$ 在线段 $MN$ 上，且</p>\n$$\n\\frac{2}{(2-y)^{2}}=\\frac{1}{1^{2}}+\\frac{1}{3^{2}}=\\frac{10}{9}\n$$\n<p>因 $y\\leqslant1$，得 $y=2-\\frac{3\\sqrt{5}}{5}$.</p><p>再考虑非竖直直线，设其方程为 $y=kx+2$. 联立椭圆方程，得交点横坐标 $x_{1}$，$x_{2}$ 满足</p>\n$$\n(1+2k^{2})x^{2}+8kx+6=0\n$$\n<p>因两交点不同，判别式 $16k^{2}-24>0$，即 $k^{2}>\\frac{3}{2}$. 因而</p><p>$x_{1}+x_{2}=-\\frac{8k}{1+2k^{2}}$，$x_{1}x_{2}=\\frac{6}{1+2k^{2}}$，$k^{2}>\\frac{3}{2}$.</p><p>设 $Q=(x,y)$. 因 $M$，$N$，$Q$ 在同一直线上，距离均可用横坐标表示，题设条件化为</p>\n$$\n\\frac{2}{x^{2}}=\\frac{1}{x_{1}^{2}}+\\frac{1}{x_{2}^{2}}\n$$\n<p>于是</p>\n$$\nx^{2}=\\frac{2x_{1}^{2}x_{2}^{2}}{x_{1}^{2}+x_{2}^{2}}=\\frac{18}{10k^{2}-3}\n$$\n<p>又 $k=\\frac{y-2}{x}$，消去 $k$ 得</p>\n$$\n10(y-2)^{2}-3x^{2}=18\n$$\n<p>由 $k^{2}>\\frac{3}{2}$ 得 $0<x^{2}<\\frac{3}{2}$，即</p>\n$$\n-\\frac{\\sqrt{6}}{2}<x<\\frac{\\sqrt{6}}{2}\n$$\n<p>由于 $Q$ 在线段 $MN$ 上，所以 $y\\leqslant1$，结合轨迹方程只能取下支，从而</p>\n$$\n\\frac{1}{2}<y<2-\\frac{3\\sqrt{5}}{5}\n$$\n<p>对于非竖直直线，反过来若点 $(x,y)$ 满足上述方程及范围，令 $k=\\frac{y-2}{x}$. 由轨迹方程得 $x^{2}=\\frac{18}{10k^{2}-3}$，且 $x^{2}<\\frac{3}{2}$ 从而 $k^{2}>\\frac{3}{2}$. 交点横坐标 $x_{1}$，$x_{2}$ 同号，且其符号与 $-k$ 相同；又 $\\operatorname{sgn}x=-\\operatorname{sgn}k$，并且</p>\n$$\nx^{2}=\\frac{2x_{1}^{2}x_{2}^{2}}{x_{1}^{2}+x_{2}^{2}}\n$$\n<p>是 $x_{1}^{2}$，$x_{2}^{2}$ 的调和平均数，故 $x$ 位于 $x_{1}$，$x_{2}$ 之间，即 $Q$ 在线段 $MN$ 上，且满足题设等式. 最后考虑竖直直线 $x=0$：此时 $M=(0,1)$、$N=(0,-1)$，由题设等式得 $y=2-\\frac{3\\sqrt{5}}{5}$，正好补上上端点. 因此轨迹为</p><p>$10(y-2)^{2}-3x^{2}=18$，其中 $-\\frac{\\sqrt{6}}{2}<x<\\frac{\\sqrt{6}}{2}$，$\\frac{1}{2}<y\\leqslant2-\\frac{3\\sqrt{5}}{5}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知函数 $f(x) = \\begin{cases}x^{2} + 2x + a,&x < 0,\\\\  \\ln x,&x > 0,\\end{cases}$ 其中 $a$ 是实数. 设 $A(x_{1}, f(x_{1}))$，$B(x_{2}, f(x_{2}))$ 为该函数图象上的两点，且 $x_{1} < x_{2}$.</p><ol class=\"enumerate\"><li><p>指出函数 $f(x)$ 的单调区间；</p></li><li><p>若函数 $f(x)$ 的图象在点 $A$，$B$ 处的切线互相垂直，且 $x_{2}< 0$，求 $x_{2}- x_{1}$ 的最小值；</p></li><li><p>若函数 $f(x)$ 的图象在点 A，B 处的切线重合，求 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x<0$ 时，$f'(x)=2x+2$，故 $f$ 在 $(-\\infty,-1)$ 上单调递减，在 $[-1,0)$ 上单调递增. 当 $x>0$ 时，$f'(x)=\\frac{1}{x}>0$，故 $f$ 在 $(0,+\\infty)$ 上单调递增.</p></li><li><p>因 $x_{2}<0$，两点均在二次函数的左支上. 两处切线斜率分别为 $2x_{1}+2$、$2x_{2}+2$，垂直条件为</p>\n$$\n(2x_{1}+2)(2x_{2}+2)=-1\n$$\n<p>令 $u=x_{1}+1$，$v=x_{2}+1$，则 $u<v<1$，且 $uv=-\\frac{1}{4}$. 因积为负，$u<0<v$，于是 $v=t\\in(0,1)$，$u=-\\frac{1}{4t}$. 因而</p>\n$$\nx_{2}-x_{1}=v-u=t+\\frac{1}{4t}\\geqslant1\n$$\n<p>等号在 $t=\\frac{1}{2}$ 时取得，此时 $x_{2}=-\\frac{1}{2}<0$，符合条件. 所以最小值为 $1$.</p></li><li><p>若 $x_{1}$，$x_{2}$ 同在负半轴，二次函数两处切线斜率相等将推出 $x_{1}=x_{2}$；若同在正半轴，对数函数两处切线斜率相等也将推出 $x_{1}=x_{2}$，均与 $x_{1}<x_{2}$ 矛盾. 因此必有 $x_{1}<0<x_{2}$.</p><p>令 $u=x_{1}$、$v=x_{2}$. 两条切线重合，先比较斜率得</p><p>$2u+2=\\frac{1}{v}$，$v=\\frac{1}{2(u+1)}$.</p><p>因为 $v>0$，故 $-1<u<0$. 再比较截距：二次函数在 $u$ 处的切线为</p>\n$$\ny=(2u+2)x+a-u^{2}\n$$\n<p>对数函数在 $v$ 处的切线为</p>\n$$\ny=\\frac{x}{v}+\\ln v-1\n$$\n<p>所以</p>\n$$\na=u^{2}+\\ln v-1=u^{2}-1-\\ln\\bigl(2(u+1)\\bigr)\n$$\n<p>令 $t=u+1\\in(0,1)$，则</p>\n$$\na=t^{2}-2t-\\ln(2t)=:h(t)\n$$\n<p>且</p><p>$h'(t)=2t-2-\\frac{1}{t}=\\frac{2t^{2}-2t-1}{t}<0$，（$0<t<1$）.</p><p>因此 $h(t)$ 在 $(0,1)$ 上递减，且</p><p>$\\lim_{t\\to0^+}h(t)=+\\infty$，$h(1)=-1-\\ln2$.</p><p>由于 $t=1$ 不属于定义域对应的 $u<0$，下端点不取，故</p>\n$$\na\\in(-1-\\ln2,+\\infty)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x<0$ 时，$f'(x)=2x+2$，故 $f$ 在 $(-\\infty,-1)$ 上单调递减，在 $[-1,0)$ 上单调递增. 当 $x>0$ 时，$f'(x)=\\frac{1}{x}>0$，故 $f$ 在 $(0,+\\infty)$ 上单调递增.</p></li><li><p>因 $x_{2}<0$，两点均在二次函数的左支上. 两处切线斜率分别为 $2x_{1}+2$、$2x_{2}+2$，垂直条件为</p>\n$$\n(2x_{1}+2)(2x_{2}+2)=-1\n$$\n<p>令 $u=x_{1}+1$，$v=x_{2}+1$，则 $u<v<1$，且 $uv=-\\frac{1}{4}$. 因积为负，$u<0<v$，于是 $v=t\\in(0,1)$，$u=-\\frac{1}{4t}$. 因而</p>\n$$\nx_{2}-x_{1}=v-u=t+\\frac{1}{4t}\\geqslant1\n$$\n<p>等号在 $t=\\frac{1}{2}$ 时取得，此时 $x_{2}=-\\frac{1}{2}<0$，符合条件. 所以最小值为 $1$.</p></li><li><p>若 $x_{1}$，$x_{2}$ 同在负半轴，二次函数两处切线斜率相等将推出 $x_{1}=x_{2}$；若同在正半轴，对数函数两处切线斜率相等也将推出 $x_{1}=x_{2}$，均与 $x_{1}<x_{2}$ 矛盾. 因此必有 $x_{1}<0<x_{2}$.</p><p>令 $u=x_{1}$、$v=x_{2}$. 两条切线重合，先比较斜率得</p><p>$2u+2=\\frac{1}{v}$，$v=\\frac{1}{2(u+1)}$.</p><p>因为 $v>0$，故 $-1<u<0$. 再比较截距：二次函数在 $u$ 处的切线为</p>\n$$\ny=(2u+2)x+a-u^{2}\n$$\n<p>对数函数在 $v$ 处的切线为</p>\n$$\ny=\\frac{x}{v}+\\ln v-1\n$$\n<p>所以</p>\n$$\na=u^{2}+\\ln v-1=u^{2}-1-\\ln\\bigl(2(u+1)\\bigr)\n$$\n<p>令 $t=u+1\\in(0,1)$，则</p>\n$$\na=t^{2}-2t-\\ln(2t)=:h(t)\n$$\n<p>且</p><p>$h'(t)=2t-2-\\frac{1}{t}=\\frac{2t^{2}-2t-1}{t}<0$，（$0<t<1$）.</p><p>因此 $h(t)$ 在 $(0,1)$ 上递减，且</p><p>$\\lim_{t\\to0^+}h(t)=+\\infty$，$h(1)=-1-\\ln2$.</p><p>由于 $t=1$ 不属于定义域对应的 $u<0$，下端点不取，故</p>\n$$\na\\in(-1-\\ln2,+\\infty)\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

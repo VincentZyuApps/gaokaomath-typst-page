@@ -59,8 +59,18 @@ M\cap N=\{-1,0,1\}\cap[0,1]=\{0,1\}
 #problem(3)[
 某几何体的正视图和侧视图均如下图所示，则该几何体的俯视图不可能是（ ）
 
-[max width=0.52\linewidth]img/2012/hunan_science/q3_fig1.png
-  #choices([[width=0.15\paperwidth]img/2012/hunan_science/q3_optA.png], [[width=0.15\paperwidth]img/2012/hunan_science/q3_optB.png], [[width=0.15\paperwidth]img/2012/hunan_science/q3_optC.png], [[width=0.15\paperwidth]img/2012/hunan_science/q3_optD.png], cols: 1)
+
+#align(center)[#image("/papers/2012/img/hunan_science/q3_fig1.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2012/img/hunan_science/q3_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/hunan_science/q3_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/hunan_science/q3_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/hunan_science/q3_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D])
@@ -308,7 +318,9 @@ x=a\sin\theta=\pm a
 #problem(11)[
 如图，过点 #mi(`P`) 的直线与 #mi(`\odot O`) 相交于 #mi(`A`)，#mi(`B`) 两点. 若 #mi(`PA=1`)，#mi(`AB=2`)，#mi(`PO=3`)，则 #mi(`\odot O`) 的半径等于\underline{\hspace{2.5em}}.
 
-[max width=0.42\linewidth]img/2012/hunan_science/q11_fig1.png
+
+#align(center)[#image("/papers/2012/img/hunan_science/q11_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`\sqrt{6}`)])
@@ -405,7 +417,9 @@ S=6\longmapsto -3\longmapsto5\longmapsto-4
 
 
 
-[max width=0.36\linewidth]img/2012/hunan_science/q15_fig1.png
+
+#align(center)[#image("/papers/2012/img/hunan_science/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`3`)；#mi(`\frac{\pi}{4}`)])
@@ -567,7 +581,9 @@ j-1=(b_{n-1}b_{n-2}\cdots b_{1}b_{0})_{2}
 
 
 
-[max width=0.72\linewidth]img/2012/hunan_science/q18_fig1.png
+
+#align(center)[#image("/papers/2012/img/hunan_science/q18_fig1.png", width: 28%)]
+
 
 
 + (1)

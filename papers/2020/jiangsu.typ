@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,493 +11,405 @@
 #part-header("填空题")
 
 #problem(1)[
-已知集合 $A=\{-1,0,1,2\}$，$B=\{0,2,3\}$，则 $A inter B=$#blank(){}.
+已知集合 #mi(`A=\{-1,0,1,2\}`)，#mi(`B=\{0,2,3\}`)，则 #mi(`A\cap B=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$\{0,2\}$])
+#answer([#mi(`\{0,2\}`)])
 
 #solution[
-交集中的元素必须同时属于 $A$ 和 $B$，所以 $A inter B=\{0,2\}$.
+交集中的元素必须同时属于 #mi(`A`) 和 #mi(`B`)，所以 #mi(`A\cap B=\{0,2\}`).
 ]
 
 #problem(2)[
-已知 $i$ 是虚数单位，则复数 $z=(1+ i )(2- i )$ 的实部是#blank(){}.
+已知 #mi(`\mathrm{i}`) 是虚数单位，则复数 #mi(`z=(1+\mathrm{i})(2-\mathrm{i})`) 的实部是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$3$])
+#answer([#mi(`3`)])
 
 #solution[
-$z=(1+ i )(2- i )=2- i +2 i - i ""^2=3+ i$，所以复数 $z$ 的实部为 $3$.
+#mi(`z=(1+\mathrm{i})(2-\mathrm{i})=2-\mathrm{i}+2\mathrm{i}-\mathrm{i}^{2}=3+\mathrm{i}`)，所以复数 #mi(`z`) 的实部为 #mi(`3`).
 ]
 
 #problem(3)[
-已知一组数据 $4$，$2 a$，$3-a$，$5$，$6$ 的平均数为 $4$，则 $a$ 的值是#blank(){}.
+已知一组数据 #mi(`4`)，#mi(`2a`)，#mi(`3-a`)，#mi(`5`)，#mi(`6`) 的平均数为 #mi(`4`)，则 #mi(`a`) 的值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-由平均数为 $4$，得 $4+2 a+(3-a)+5+6=5 times 4$，即 $a+18=20$，所以 $a=2$.
+由平均数为 #mi(`4`)，得 #mi(`4+2a+(3-a)+5+6=5\times4`)，即 #mi(`a+18=20`)，所以 #mi(`a=2`).
 ]
 
 #problem(4)[
-将一颗质地均匀的正方体骰子先后抛掷 $2$ 次，观察向上的点数，则点数和为 $5$ 的概率是#blank(){}.
+将一颗质地均匀的正方体骰子先后抛掷 #mi(`2`) 次，观察向上的点数，则点数和为 #mi(`5`) 的概率是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(9)$])
+#answer([#mi(`\dfrac{1}{9}`)])
 
 #solution[
-两次抛掷的所有结果共有 $6 times 6 =36$ 种，点数和为 $5$ 的结果为 $(1,4)$，$(2,3)$，$(3,2)$，$(4,1)$，共 $4$ 种，所以所求概率为 $(4)/(36)=(1)/(9)$.
+两次抛掷的所有结果共有 #mi(`6\times6=36`) 种，点数和为 #mi(`5`) 的结果为 #mi(`(1,4)`)，#mi(`(2,3)`)，#mi(`(3,2)`)，#mi(`(4,1)`)，共 #mi(`4`) 种，所以所求概率为 #mi(`\dfrac4{36}=\dfrac{1}{9}`).
 ]
 
 #problem(5)[
-如图是一个算法流程图，若输出 $y$ 的值为 $-2$，则输入 $x$ 的值是#blank(){}.
+如图是一个算法流程图，若输出 #mi(`y`) 的值为 #mi(`-2`)，则输入 #mi(`x`) 的值是\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2020/img/jiangsu/q5_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2020/img/jiangsu/q5_fig1.png", width: 28%)]
+
 ]
 
-#answer([$-3$])
+#answer([#mi(`-3`)])
 
 #solution[
-当 $x>0$ 时，输出 $y=2^x>0$，不可能等于 $-2$. 因而应取 $x\l e q0$ 的分支，此时 $y=x+1$. 由 $x+1=-2$，得 $x=-3$，且满足 $x\l e q0$.
+当 #mi(`x>0`) 时，输出 #mi(`y=2^{x}>0`)，不可能等于 #mi(`-2`). 因而应取 #mi(`x\leq0`) 的分支，此时 #mi(`y=x+1`). 由 #mi(`x+1=-2`)，得 #mi(`x=-3`)，且满足 #mi(`x\leq0`).
 ]
 
 #problem(6)[
-在平面直角坐标系 $x O y$ 中，若双曲线 $(x^2)/(a^2)-(y^2)/(5)=1$（$a>0$）的一条渐近线方程为 $y=(sqrt(5))/(2)x$，则该双曲线的离心率是#blank(){}.
+在平面直角坐标系 #mi(`xOy`) 中，若双曲线 #mi(`\dfrac{x^2}{a^2}-\dfrac{y^2}{5}=1`)（#mi(`a>0`)）的一条渐近线方程为 #mi(`y=\dfrac{\sqrt{5}}{2}x`)，则该双曲线的离心率是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3)/(2)$])
+#answer([#mi(`\dfrac{3}{2}`)])
 
 #solution[
-双曲线的渐近线方程为 $y= +- (sqrt(5))/(a)x$，所以 $(sqrt(5))/(a)=(sqrt(5))/(2)$，得 $a=2$. 由 $c^2=a^2+5$，得 $c=3$，故离心率 $e=(c)/(a)=(3)/(2)$.
+双曲线的渐近线方程为 #mi(`y=\pm\dfrac{\sqrt{5}}{a}x`)，所以 #mi(`\dfrac{\sqrt{5}}{a}=\dfrac{\sqrt{5}}{2}`)，得 #mi(`a=2`). 由 #mi(`c^{2}=a^{2}+5`)，得 #mi(`c=3`)，故离心率 #mi(`e=\dfrac{c}{a}=\dfrac{3}{2}`).
 ]
 
 #problem(7)[
-已知 $y=f(x)$ 是奇函数，当 $x >= 0$ 时，$f(x)=x^((2)/(3))$，则 $f(-8)$ 的值是#blank(){}.
+已知 #mi(`y=f(x)`) 是奇函数，当 #mi(`x\ge0`) 时，#mi(`f(x)=x^{\frac{2}{3}}`)，则 #mi(`f(-8)`) 的值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-4$])
+#answer([#mi(`-4`)])
 
 #solution[
-由奇函数的性质，$f(-8)=-f(8)$. 又因为 $f(8)=8^((2)/(3))=(root(3, 8))^2=4$，所以 $f(-8)=-4$.
+由奇函数的性质，#mi(`f(-8)=-f(8)`). 又因为 #mi(`f(8)=8^{\frac{2}{3}}=\left(\sqrt[3]{8}\right)^{2}=4`)，所以 #mi(`f(-8)=-4`).
 ]
 
 #problem(8)[
-已知 $sin ""^2\!((pi)/(4)+ alpha )=(2)/(3)$，则 $sin 2 alpha$ 的值是#blank(){}.
+已知 #mi(`\sin^{2}\!\left(\dfrac\pi4+\alpha\right)=\dfrac{2}{3}`)，则 #mi(`\sin2\alpha`) 的值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(3)$])
+#answer([#mi(`\dfrac{1}{3}`)])
 
 #solution[
-利用 $sin ""^(2) u=(1- cos 2 u)/(2)$，取 $u=(pi)/(4)+ alpha$，得
+利用 #mi(`\sin^{2}u=\dfrac{1-\cos2u}{2}`)，取 #mi(`u=\dfrac\pi4+\alpha`)，得
 
-$ (2)/(3)=\d f r a c{1- cos ((pi)/(2)+2 alpha )}2=(1+ sin 2 alpha)/(2) $
 
-因此 $sin 2 alpha =(1)/(3)$.
+#align(center)[#mitex(`
+\dfrac{2}{3}=\dfrac{1-\cos\left(\dfrac\pi2+2\alpha\right)}2=\dfrac{1+\sin2\alpha}2
+`)]
+
+
+因此 #mi(`\sin2\alpha=\dfrac{1}{3}`).
 ]
 
 #problem(9)[
-如图，六角螺帽毛坯是由一个正六棱柱挖去一个圆柱所构成的. 已知螺帽的底面正六边形边长为 $2~c m$，高为 $2~c m$，内孔半径为 $0.5~c m$，则此六角螺帽毛坯的体积是#blank(){}$c m^3$.
+如图，六角螺帽毛坯是由一个正六棱柱挖去一个圆柱所构成的. 已知螺帽的底面正六边形边长为 #mi(`2\mathrm{~cm}`)，高为 #mi(`2\mathrm{~cm}`)，内孔半径为 #mi(`0.5\mathrm{~cm}`)，则此六角螺帽毛坯的体积是\underline{\hspace{2.5em}}#mi(`\mathrm{cm}^{3}`).
 
 
-#align(center)[#image("/papers/2020/img/jiangsu/q9_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2020/img/jiangsu/q9_fig1.png", width: 28%)]
+
 ]
 
-#answer([$12 sqrt(3)-(pi)/(2)$])
+#answer([#mi(`12\sqrt{3}-\dfrac\pi2`)])
 
 #solution[
-正六边形可分成 $6$ 个边长为 $2$ 的正三角形，所以底面积为 $6 times (sqrt(3))/(4) times 2 ""^2=6 sqrt(3)$. 正六棱柱体积为 $6 sqrt(3) times 2 =12 sqrt(3)$. 内孔圆柱体积为 $pi times 0 .5^2 times 2 =(pi)/(2)$. 因而毛坯体积为 $12 sqrt(3)-(pi)/(2)\ c m^3$.
+正六边形可分成 #mi(`6`) 个边长为 #mi(`2`) 的正三角形，所以底面积为 #mi(`6\times\dfrac{\sqrt{3}}{4}\times2^{2}=6\sqrt{3}`). 正六棱柱体积为 #mi(`6\sqrt{3}\times2=12\sqrt{3}`). 内孔圆柱体积为 #mi(`\pi\times0.5^{2}\times2=\dfrac\pi2`). 因而毛坯体积为 #mi(`12\sqrt{3}-\dfrac\pi2\ \mathrm{cm}^{3}`).
 ]
 
 #problem(10)[
-将函数 $y=3 sin \!(2 x+(pi)/(4))$ 的图象向右平移 $(pi)/(6)$ 个单位长度，则平移后的图象中与 $y$ 轴最近的对称轴的方程是#blank(){}.
+将函数 #mi(`y=3\sin\!\left(2x+\dfrac\pi4\right)`) 的图象向右平移 #mi(`\dfrac\pi6`) 个单位长度，则平移后的图象中与 #mi(`y`) 轴最近的对称轴的方程是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$x=-(5 pi)/(24)$])
+#answer([#mi(`x=-\dfrac{5\pi}{24}`)])
 
 #solution[
-向右平移后函数变为 $y=3 sin \!(2(x-(pi)/(6))+(pi)/(4))=3 sin \!(2 x-(\p)/(i){12})$. 正弦函数的对称轴满足
-$2 x-(\p)/(i){12}=(pi)/(2)+k pi$，$k in ZZ$，
-即 $x=(7 pi)/(24)+(k pi)/(2)$. 取 $k=-1$ 时得到距离 $y$ 轴最近的对称轴 $x=-(5 pi)/(24)$.
+向右平移后函数变为 #mi(`y=3\sin\!\left(2\left(x-\dfrac\pi6\right)+\dfrac\pi4\right)=3\sin\!\left(2x-\dfrac\pi{12}\right)`). 正弦函数的对称轴满足
+
+#mi(`2x-\dfrac\pi{12}=\dfrac\pi2+k\pi`)，#mi(`k\in\mathbb{Z}`)，
+
+即 #mi(`x=\dfrac{7\pi}{24}+\dfrac{k\pi}{2}`). 取 #mi(`k=-1`) 时得到距离 #mi(`y`) 轴最近的对称轴 #mi(`x=-\dfrac{5\pi}{24}`).
 ]
 
 #problem(11)[
-设 $\{a_n\}$ 是公差为 $d$ 的等差数列，$\{b_n\}$ 是公比为 $q$ 的等比数列. 已知数列 $\{a_n+b_n\}$ 的前 $n$ 项和 $S_n=n^2-n+2^n-1$（$n in NN ""^*$），则 $d+q$ 的值是#blank(){}.
+设 #mi(`\{a_{n}\}`) 是公差为 #mi(`d`) 的等差数列，#mi(`\{b_{n}\}`) 是公比为 #mi(`q`) 的等比数列. 已知数列 #mi(`\{a_{n}+b_{n}\}`) 的前 #mi(`n`) 项和 #mi(`S_{n}=n^{2}-n+2^{n}-1`)（#mi(`n\in\mathbb{N}^{*}`)），则 #mi(`d+q`) 的值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$4$])
+#answer([#mi(`4`)])
 
 #solution[
-令 $c_n=a_n+b_n$. 由 $S_n-S_(n-1)=c_n$（并直接验证 $n=1$），得
+令 #mi(`c_{n}=a_{n}+b_{n}`). 由 #mi(`S_{n}-S_{n-1}=c_{n}`)（并直接验证 #mi(`n=1`)），得
 
-$ c_n=2 n-2+2^(n-1) $
 
-于是 $c_1=1$，且 $c_2-c_1=3$，$c_3-c_2=4$，$c_4-c_3=6$. 设 $b_1=B$，则
+#align(center)[#mitex(`
+c_{n}=2n-2+2^{n-1}
+`)]
 
-$ c_(n+1)-c_n=d+B(q-1)q^(n-1) $
+
+于是 #mi(`c_{1}=1`)，且 #mi(`c_{2}-c_{1}=3`)，#mi(`c_{3}-c_{2}=4`)，#mi(`c_{4}-c_{3}=6`). 设 #mi(`b_{1}=B`)，则
+
+
+#align(center)[#mitex(`
+c_{n+1}-c_{n}=d+B(q-1)q^{n-1}
+`)]
+
 
 相邻两项作差，得到
-$1=B(q-1)^2$，$2=B q(q-1)^2$.
-所以 $q=2$. 再由 $d+B(q-1)=3$ 和 $d+2 B(q-1)=4$，得 $B=1$，$d=2$. 因而 $d+q=4$.
+
+#mi(`1=B(q-1)^{2}`)，#mi(`2=Bq(q-1)^{2}`).
+
+所以 #mi(`q=2`). 再由 #mi(`d+B(q-1)=3`) 和 #mi(`d+2B(q-1)=4`)，得 #mi(`B=1`)，#mi(`d=2`). 因而 #mi(`d+q=4`).
 ]
 
 #problem(12)[
-已知 $5 x^(2) y^2+y^4=1$（$x$，$y in RR$），则 $x^2+y^2$ 的最小值是#blank(){}.
+已知 #mi(`5x^{2}y^{2}+y^{4}=1`)（#mi(`x`)，#mi(`y\in\mathbb{R}`)），则 #mi(`x^{2}+y^{2}`) 的最小值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(4)/(5)$])
+#answer([#mi(`\dfrac{4}{5}`)])
 
 #solution[
-令 $u=y^2$. 由题意 $u>0$，且 $u\l e q1$，并有 $x^2=(1-u^2)/(5 u)$. 因而
+令 #mi(`u=y^{2}`). 由题意 #mi(`u>0`)，且 #mi(`u\leq1`)，并有 #mi(`x^{2}=\dfrac{1-u^2}{5u}`). 因而
 
-$ x^2+y^2=(1-u^2)/(5 u)+u=(1)/(5 u)+(4)/(5)u\g e q(4)/(5) $
 
-其中等号当且仅当 $(1)/(5 u)=(4)/(5)u$，即 $u=(1)/(2)$. 所以最小值为 $(4)/(5)$.
+#align(center)[#mitex(`
+x^{2}+y^{2}=\dfrac{1-u^2}{5u}+u=\dfrac1{5u}+\dfrac{4}{5}u\geq\dfrac{4}{5}
+`)]
+
+
+其中等号当且仅当 #mi(`\dfrac1{5u}=\dfrac{4}{5}u`)，即 #mi(`u=\dfrac{1}{2}`). 所以最小值为 #mi(`\dfrac{4}{5}`).
 ]
 
 #problem(13)[
-在 $triangle A B C$ 中，$A B=4$，$A C=3$，$angle B A C=90^ degree$. $D$ 在边 $B C$ 上，延长 $A D$ 到 $P$，使得 $A P=9$. 若 $arrow(P A)=m a r r o w(P B)+((3)/(2)-m)arrow(P C)$（$m$ 为常数），则 $C D$ 的长度是#blank(){}.
+在 #mi(`\triangle ABC`) 中，#mi(`AB=4`)，#mi(`AC=3`)，#mi(`\angle BAC=90^{\circ}`). #mi(`D`) 在边 #mi(`BC`) 上，延长 #mi(`AD`) 到 #mi(`P`)，使得 #mi(`AP=9`). 若 #mi(`\overrightarrow{PA}=m\overrightarrow{PB}+\left(\dfrac{3}{2}-m\right)\overrightarrow{PC}`)（#mi(`m`) 为常数），则 #mi(`CD`) 的长度是\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2020/img/jiangsu/q13_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2020/img/jiangsu/q13_fig1.png", width: 28%)]
+
 ]
 
-#answer([$(18)/(5)$])
+#answer([#mi(`\dfrac{18}{5}`)])
 
 #solution[
-因为 $P$，$D$，$A$ 共线且 $P$ 在 $D$ 的外侧，可设 $arrow(P A)=\l a m b d a a r r o w(P D)$，其中 $lambda >0$. 代入已知向量关系，得
-
-$ arrow(P D)=(m)/(lambda)arrow(P B)+((3)/(2)-m)/(lambda)arrow(P C) $
-
-右侧是点 $B$，$C$ 的仿射组合，而其结果为点 $D$ 的位置向量；由 $D$ 在直线 $B C$ 上，两个系数之和应为 $1$，所以 $(3)/(2 lambda)=1$，得 $lambda =(3)/(2)$. 因而 $P D=(A P)/(lambda)=6$，从而 $A D=A P-P D=3$. 又 $B C=sqrt(A B^2+A C^2)=5$.
-
-设 $C D=x$，则 $B D=5-x$，令 $angle C D A= theta$，于是 $angle B D A= pi - theta$. 在 $triangle A C D$ 和 $triangle A B D$ 中分别用余弦定理，得
-
-$ cos theta =(A D^2+C D^2-A C^2)/(2 A D dot C D)=(x)/(6) $
+因为 #mi(`P`)，#mi(`D`)，#mi(`A`) 共线且 #mi(`P`) 在 #mi(`D`) 的外侧，可设 #mi(`\overrightarrow{PA}=\lambda\overrightarrow{PD}`)，其中 #mi(`\lambda>0`). 代入已知向量关系，得
 
 
-$ cos ( pi - theta )=(A D^2+B D^2-A B^2)/(2 A D dot B D)=((5-x)^2-7)/(6(5-x)) $
+#align(center)[#mitex(`
+\overrightarrow{PD}=\dfrac{m}{\lambda}\overrightarrow{PB}+\dfrac{\frac{3}{2}-m}{\lambda}\overrightarrow{PC}
+`)]
 
-由于 $cos ( pi - theta )=- cos theta$，所以
 
-$ (x)/(6)+((5-x)^2-7)/(6(5-x))=0 $
+右侧是点 #mi(`B`)，#mi(`C`) 的仿射组合，而其结果为点 #mi(`D`) 的位置向量；由 #mi(`D`) 在直线 #mi(`BC`) 上，两个系数之和应为 #mi(`1`)，所以 #mi(`\dfrac{3}{2\lambda}=1`)，得 #mi(`\lambda=\dfrac{3}{2}`). 因而 #mi(`PD=\dfrac{AP}{\lambda}=6`)，从而 #mi(`AD=AP-PD=3`). 又 #mi(`BC=\sqrt{AB^{2}+AC^{2}}=5`).
 
-化简得 $18-5 x=0$，故 $C D=x=(18)/(5)$.
+设 #mi(`CD=x`)，则 #mi(`BD=5-x`)，令 #mi(`\angle CDA=\theta`)，于是 #mi(`\angle BDA=\pi-\theta`). 在 #mi(`\triangle ACD`) 和 #mi(`\triangle ABD`) 中分别用余弦定理，得
+
+
+#align(center)[#mitex(`
+\cos\theta=\dfrac{AD^2+CD^2-AC^2}{2AD\cdot CD}=\dfrac{x}{6}
+`)]
+
+
+
+#align(center)[#mitex(`
+\cos(\pi-\theta)=\dfrac{AD^2+BD^2-AB^2}{2AD\cdot BD}=\dfrac{(5-x)^2-7}{6(5-x)}
+`)]
+
+
+由于 #mi(`\cos(\pi-\theta)=-\cos\theta`)，所以
+
+
+#align(center)[#mitex(`
+\dfrac{x}{6}+\dfrac{(5-x)^2-7}{6(5-x)}=0
+`)]
+
+
+化简得 #mi(`18-5x=0`)，故 #mi(`CD=x=\dfrac{18}{5}`).
 ]
 
 #problem(14)[
-在平面直角坐标系 $x O y$ 中，已知 $P\!((sqrt(3))/(2),0)$，$A$，$B$ 是圆 $C:x^2+(y-(1)/(2))^2=36$ 上的两个动点，满足 $P A=P B$，则 $triangle P A B$ 面积的最大值是#blank(){}.
+在平面直角坐标系 #mi(`xOy`) 中，已知 #mi(`P\!\left(\dfrac{\sqrt{3}}{2},0\right)`)，#mi(`A`)，#mi(`B`) 是圆 #mi(`C:x^{2}+\left(y-\dfrac{1}{2}\right)^{2}=36`) 上的两个动点，满足 #mi(`PA=PB`)，则 #mi(`\triangle PAB`) 面积的最大值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$10 sqrt(5)$])
+#answer([#mi(`10\sqrt{5}`)])
 
 #solution[
-记圆心为 $O_1(0,(1)/(2))$，则 $O_(1) P=1$. 由 $P A=P B$，点 $P$ 在弦 $A B$ 的垂直平分线上，所以 $O_(1) P bot A B$. 设圆心到弦 $A B$ 的距离为 $d$，其中 $0\l e q d<6$，则 $A B=2 sqrt(36-d^2)$. 对于固定的 $d$，取弦在圆心的另一侧时，点 $P$ 到弦的距离为 $d+1$，这给出最大可能的三角形面积. 因此
+记圆心为 #mi(`O_{1}\left(0,\dfrac{1}{2}\right)`)，则 #mi(`O_{1}P=1`). 由 #mi(`PA=PB`)，点 #mi(`P`) 在弦 #mi(`AB`) 的垂直平分线上，所以 #mi(`O_{1}P\perp AB`). 设圆心到弦 #mi(`AB`) 的距离为 #mi(`d`)，其中 #mi(`0\leq d<6`)，则 #mi(`AB=2\sqrt{36-d^{2}}`). 对于固定的 #mi(`d`)，取弦在圆心的另一侧时，点 #mi(`P`) 到弦的距离为 #mi(`d+1`)，这给出最大可能的三角形面积. 因此
 
-$ S_( triangle P A B)\l e q s q r t(36-d^2)(d+1) $
 
-令 $Y=(36-d^2)(d+1)^2$，则
+#align(center)[#mitex(`
+S_{\triangle PAB}\leq\sqrt{36-d^{2}}(d+1)
+`)]
 
-$ Y'=2(d+1)(36-2 d^2-d) $
 
-在 $[0,6)$ 内，$Y'=0$ 的唯一解为 $d=4$，且函数先增后减，所以面积最大值为
+令 #mi(`Y=(36-d^{2})(d+1)^{2}`)，则
 
-$ sqrt(36-4^2)(4+1)=sqrt(20) times 5 =10 sqrt(5) $
+
+#align(center)[#mitex(`
+Y'=2(d+1)(36-2d^{2}-d)
+`)]
+
+
+在 #mi(`[0,6)`) 内，#mi(`Y'=0`) 的唯一解为 #mi(`d=4`)，且函数先增后减，所以面积最大值为
+
+
+#align(center)[#mitex(`
+\sqrt{36-4^{2}}(4+1)=\sqrt{20}\times5=10\sqrt{5}
+`)]
 ]
 
 #part-header("解答题")
 
 #problem(15)[
-在三棱柱 $A B C-A_(1) B_(1) C_1$ 中，$A B bot A C$，$B_(1) C bot$ 平面 $A B C$，$E$，$F$ 分别是 $A C$，$B_(1) C$ 的中点.
+在三棱柱 #mi(`ABC-A_{1}B_{1}C_{1}`) 中，#mi(`AB\perp AC`)，#mi(`B_{1}C\perp`) 平面 #mi(`ABC`)，#mi(`E`)，#mi(`F`) 分别是 #mi(`AC`)，#mi(`B_{1}C`) 的中点.
 
 
-+ (1) 求证：$E F parallel$ 平面 $A B_(1) C_1$；
-+ (2) 求证：平面 $A B_(1) C bot$ 平面 $A B B_1$.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2020/img/jiangsu/q15_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2020/img/jiangsu/q15_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 在三角形 $A C B_1$ 中，$E$，$F$ 分别是 $A C$，$C B_1$ 的中点，所以由中位线定理得 $E F parallel A B_1$. 又因为 $A B_1 subset$ 平面 $A B_(1) C_1$，故 $E F parallel$ 平面 $A B_(1) C_1$.
-+ (2) 由 $B_(1) C bot$ 平面 $A B C$，且 $A B subset$ 平面 $A B C$，得 $B_(1) C bot A B$. 已知 $A B bot A C$，而 $A C$ 与 $B_(1) C$ 是平面 $A B_(1) C$ 内相交的两条直线，所以 $A B bot$ 平面 $A B_(1) C$. 又 $A B subset$ 平面 $A B B_1$，因此平面 $A B_(1) C bot$ 平面 $A B B_1$.
++ (1)
 ]
 
 #problem(16)[
-在 $triangle A B C$ 中，角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $a=3$，$c=sqrt(2)$，$B=45^ degree$.
+在 #mi(`\triangle ABC`) 中，角 #mi(`A`)，#mi(`B`)，#mi(`C`) 的对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，已知 #mi(`a=3`)，#mi(`c=\sqrt{2}`)，#mi(`B=45^{\circ}`).
 
 
-+ (1) 求 $sin C$ 的值；
-+ (2) 在边 $B C$ 上取一点 $D$，使得 $cos angle A D C=-(4)/(5)$，求 $tan angle D A C$ 的值.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2020/img/jiangsu/q16_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2020/img/jiangsu/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由余弦定理，$b^2=a^2+c^2-2 a c cos B=9+2-2 times 3 \t i m e s s q r t(2) times (sqrt(2))/(2)=5$，所以 $b=sqrt(5)$. 再由正弦定理，得
-
-$ sin C=(c sin B)/(b)=(sqrt(2) times (sqrt(2))/(2))/(sqrt(5))=(sqrt(5))/(5) $
-+ (2) 因为 $cos angle A D C=-(4)/(5)$，且 $angle A D C in (0, pi )$，所以 $sin angle A D C=(3)/(5)$. 由 $sin C=(sqrt(5))/(5)$ 且 $B=45^ degree$，可知 $C<90^ degree$，从而 $cos C=(2 sqrt(5))/(5)$. 在三角形 $A D C$ 中，$angle D A C= pi - angle A D C-C$，故
-
-$ sin angle D A C= sin ( angle A D C+C)=(3)/(5) dot (2 sqrt(5))/(5)-(4)/(5) dot (sqrt(5))/(5)=(2 sqrt(5))/(25) $
-
-
-$ cos angle D A C=(11 sqrt(5))/(25) $
-
-因此 $tan angle D A C=(sin angle D A C)/(cos angle D A C)=(2)/(11)$.
++ (1)
 ]
 
 #problem(17)[
-某地准备在山谷中建一座桥梁，桥址位置的竖直截面图如图所示：谷底 $O$ 在水平线 $M N$ 上，桥 $A B$ 与 $M N$ 平行，$O O'$ 为铅垂线（$O'$ 在 $A B$ 上）. 经测量，左侧曲线 $A O$ 上任一点 $D$ 到 $M N$ 的距离 $h_1$（$~m$）与 $D$ 到 $O O'$ 的距离 $a$（$~m$）之间满足关系式 $h_1=(1)/(40)a^2$；右侧曲线 $B O$ 上任一点 $F$ 到 $M N$ 的距离 $h_2$（$~m$）与 $F$ 到 $O O'$ 的距离 $b$（$~m$）之间满足关系式 $h_2=-(1)/(800)b^3+6 b$. 已知点 $B$ 到 $O O'$ 的距离为 $40~m$.
+某地准备在山谷中建一座桥梁，桥址位置的竖直截面图如图所示：谷底 #mi(`O`) 在水平线 #mi(`MN`) 上，桥 #mi(`AB`) 与 #mi(`MN`) 平行，#mi(`OO'`) 为铅垂线（#mi(`O'`) 在 #mi(`AB`) 上）. 经测量，左侧曲线 #mi(`AO`) 上任一点 #mi(`D`) 到 #mi(`MN`) 的距离 #mi(`h_{1}`)（#mi(`\mathrm{~m}`)）与 #mi(`D`) 到 #mi(`OO'`) 的距离 #mi(`a`)（#mi(`\mathrm{~m}`)）之间满足关系式 #mi(`h_{1}=\dfrac{1}{40}a^{2}`)；右侧曲线 #mi(`BO`) 上任一点 #mi(`F`) 到 #mi(`MN`) 的距离 #mi(`h_{2}`)（#mi(`\mathrm{~m}`)）与 #mi(`F`) 到 #mi(`OO'`) 的距离 #mi(`b`)（#mi(`\mathrm{~m}`)）之间满足关系式 #mi(`h_{2}=-\dfrac{1}{800}b^{3}+6b`). 已知点 #mi(`B`) 到 #mi(`OO'`) 的距离为 #mi(`40\mathrm{~m}`).
 
 
-+ (1) 求桥 $A B$ 的长度；
-+ (2) 计划在谷底两侧建造平行于 $O O'$ 的桥墩 $C D$ 和 $E F$，且 $C E$ 为 $80~m$，其中 $C$，$E$ 在 $A B$ 上（不包括端点）. 桥墩 $E F$ 每米造价 $k$（万元），桥墩 $C D$ 每米造价 $(3)/(2)k$（万元）（$k>0$）. 问 $O'E$ 为多少米时，桥墩 $C D$ 与 $E F$ 的总造价最低？
++ (1) 
 
 
 
-#align(center)[#image("/papers/2020/img/jiangsu/q17_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2020/img/jiangsu/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设 $O'A=a_A$. 因为 $B$ 到 $O O'$ 的距离为 $40~m$，所以桥面高度为
-
-$ 160=-(1)/(800) times 40 ""^3+6 times 40 $
-
-由左侧曲线关系式，$(1)/(40)a_A^2=160$，得 $a_A=80$. 因而 $A B=80+40=120\ m$.
-+ (2) 设 $O'E=x$. 由图形位置及 $C$，$E$ 不为端点，得 $0<x<40$，且 $O'C=80-x$. 桥墩长度分别为
-$E F=160+(x^3)/(800)-6 x$，$C D=160-((80-x)^2)/(40)$.
-总造价除以正数 $k$ 后为
-
-$ T(x)=160+(x^3)/(800)-6 x+(3)/(2)(160-((80-x)^2)/(40)) $
-
-所以
-
-$ T'(x)=(3 x^2)/(800)-6+(3(80-x))/(40)=(3 x(x-20))/(800) $
-
-当 $0<x<20$ 时 $T'(x)<0$，当 $20<x<40$ 时 $T'(x)>0$，故总造价在 $x=20$ 时取得最小值，即 $O'E=20\ m$.
++ (1)
 ]
 
 #problem(18)[
-在平面直角坐标系 $x O y$ 中，已知椭圆 $E:(x^2)/(4)+(y^2)/(3)=1$ 的左、右焦点分别为 $F_1$，$F_2$，点 $A$ 在椭圆 $E$ 上且在第一象限内，$A F_2 bot F_(1) F_2$，直线 $A F_1$ 与椭圆 $E$ 相交于另一点 $B$.
+在平面直角坐标系 #mi(`xOy`) 中，已知椭圆 #mi(`E:\dfrac{x^2}{4}+\dfrac{y^2}{3}=1`) 的左、右焦点分别为 #mi(`F_{1}`)，#mi(`F_{2}`)，点 #mi(`A`) 在椭圆 #mi(`E`) 上且在第一象限内，#mi(`AF_{2}\perp F_{1}F_{2}`)，直线 #mi(`AF_{1}`) 与椭圆 #mi(`E`) 相交于另一点 #mi(`B`).
 
 
-+ (1) 求 $triangle A F_(1) F_2$ 的周长；
-+ (2) 在 $x$ 轴上任取一点 $P$，直线 $A P$ 与椭圆 $E$ 的右准线相交于点 $Q$，求 $arrow(O P)\c d o t a r r o w(Q P)$ 的最小值；
-+ (3) 设点 $M$ 在椭圆 $E$ 上，记 $triangle O A B$ 与 $triangle M A B$ 的面积分别为 $S_1$，$S_2$，若 $S_2=3 S_1$，求点 $M$ 的坐标.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2020/img/jiangsu/q18_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2020/img/jiangsu/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 椭圆的长半轴为 $2$，焦距的一半为 $c=sqrt(4-3)=1$，所以 $F_1=(-1,0)$，$F_2=(1,0)$. 由 $A F_2 bot F_(1) F_2$，得 $x_A=1$. 代入椭圆方程并取第一象限的点，得 $A=(1,(3)/(2))$. 由椭圆定义，$A F_1+A F_2=4$，故三角形周长为 $4+F_(1) F_2=4+2=6$.
-+ (2) 设 $P=(p,0)$. 椭圆的右准线为 $x=4$. 直线 $A P$ 与准线交于 $Q=(4,y_Q)$，因此
-
-$ arrow(O P)\c d o t a r r o w(Q P)=(p,0) dot (p-4,-y_Q)=p(p-4)=(p-2)^2-4\g e q-4 $
-
-取 $p=2$ 时直线确与准线相交，所以最小值为 $-4$.
-+ (3) 直线 $A B$ 即直线 $A F_1$，方程为 $3 x-4 y+3=0$. 原点到此直线的距离为 $(3)/(5)$. 由两个三角形有公共底边 $A B$，且 $S_2=3 S_1$，得点 $M$ 到直线 $A B$ 的距离为 $(9)/(5)$. 因而
-
-$ |3 x_M-4 y_M+3|=9 $
-
-当 $3 x_M-4 y_M+3=9$ 时，联立椭圆方程得
-
-$ 7 x_M^2-12 x_M-4=0 $
-
-所以 $M=(2,0)$ 或 $M=(-(2)/(7),-(12)/(7))$. 当 $3 x_M-4 y_M+3=-9$ 时，联立得到 $7 x_M^2+24 x_M+32=0$，其判别式小于零，无实数解. 故点 $M$ 的坐标为 $(2,0)$ 或 $(-(2)/(7),-(12)/(7))$.
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-已知关于 $x$ 的函数 $y=f(x)$，$y=g(x)$ 与 $h(x)=k x+b$（$k$，$b in RR$）在区间 $D$ 上恒有 $f(x) >= h(x) >= g(x)$.
+已知关于 #mi(`x`) 的函数 #mi(`y=f(x)`)，#mi(`y=g(x)`) 与 #mi(`h(x)=kx+b`)（#mi(`k`)，#mi(`b\in\mathbb{R}`)）在区间 #mi(`D`) 上恒有 #mi(`f(x)\ge h(x)\ge g(x)`).
 
 
-+ (1) 若 $f(x)=x^2+2 x$，$g(x)=-x^2+2 x$，$D=(- oo ,+ oo )$，求 $h(x)$ 的表达式；
-+ (2) 若 $f(x)=x^2-x+1$，$g(x)=k ln x$，$h(x)=k x-k$，$D=(0,+ oo )$，求 $k$ 的取值范围；
-+ (3) 若 $f(x)=x^4-2 x^2$，$g(x)=4 x^2-8$，$h(x)=4(t^3-t)x-3 t^4+2 t^2$，$0<|t|\l e s q r t(2)$，$D=[m,n] subset.eq [-sqrt(2),sqrt(2)]$，证明：$n-m\l e s q r t(7)$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 因为 $f(0)=g(0)=0$，由恒有关系得 $h(0)=0$，所以 $b=0$. 当 $x>0$ 时，$-x^2+2 x\l e q k x\l e q x^2+2 x$，即 $2-x\l e q k\l e q2+x$. 令 $x -> 0 ""^+$，得 $k=2$. 直接代入可得 $x^2+2 x\g e q2 x\g e q-x^2+2 x$，所以 $h(x)=2 x$.
-+ (2) 由 $x-1\g e q ln x$（$x>0$）可知
-
-$ h(x)-g(x)=k(x-1- ln x) $
-
-当 $x != 1$ 时括号内严格为正，所以必须且只需 $k\g e q0$. 另一方面
-
-$ f(x)-h(x)=x^2-(k+1)x+(k+1) $
-
-在 $k\g e q0$ 时，这是开口向上的二次函数；要使其在 $(0,+ oo )$ 恒非负，需 $(k+1)^2-4(k+1)=(k+1)(k-3)\l e q0$，即 $0\l e q k\l e q3$. 这个范围内两项不等式均成立，故 $k in [0,3]$.
-+ (3) 先因式分解：
-
-$ f(x)-h(x)=(x-t)^2((x+t)^2+2 t^2-2) $
-
-又
-
-$ g(x)-h(x)=4 x^2-4(t^3-t)x+3 t^4-2 t^2-8 $
-
-令 $u=t^2$，并设上式的两个根为 $x_1\l e q x_2$. 因为 $D$ 非空且在 $D$ 上有 $h\g e q g$，所以根为实数，且 $D subset.eq [x_1,x_2]$. 由韦达定理，
-$x_1+x_2=t^3-t$，$(x_2-x_1)^2=t^6-5 t^4+3 t^2+8=P(u)$
-其中 $P(u)=u^3-5 u^2+3 u+8$.
-
-若 $1\l e q u\l e q2$，则 $P'(u)=(3 u-1)(u-3)<0$，从而 $P(u)\l e q P(1)=7$. 因此 $n-m\l e q x_2-x_1\l e q s q r t(7)$.
-
-下面设 $0<u<1$. 由于 $f$，$g$ 都是偶函数，且 $h_(-t)(x)=h_t(-x)$，把 $t<0$ 与区间 $[m,n]$ 同时关于原点对称不改变区间长度，所以只需考虑 $t>0$. 令
-$c=(x_1+x_2)/(2)=(t(u-1))/(2)$，$w=(x_2-x_1)/(2)=\d f r a c{sqrt(P(u))}2$，$r=sqrt(2-2 u)$.
-由 $f(x)-h(x)\g e q0$，除去可能的孤立点 $x=t$ 外，区间只能位于 $x\l e q-t-r$ 或 $x\g e q-t+r$. 此外
-
-$ g(-t)-h(-t)=7 u^2-2 u-8<0 $
-
-所以 $-t$ 位于 $(x_1,x_2)$ 内. 因而非退化的区间 $D$ 只能落在上述两个允许部分之一，其中右侧允许部分的长度至多为
-
-$ x_2-(-t+r)=w+(t(1+u))/(2)-r $
-
-左侧允许部分的长度至多为 $w-(t(1+u))/(2)-r$，故
-
-$ n-m\l e q w+(t(1+u))/(2)-r $
-
-又 $P'(u)$ 在 $(0,1)$ 内的唯一零点为 $u=(1)/(3)$，且 $P((1)/(3))=(229)/(27)<9$，所以 $w<(3)/(2)$. 由于 $0<t<1$、$0<(1+u)/(2)<1$ 且 $r>0$，因此
-
-$ n-m<(3)/(2)+1=(5)/(2)<sqrt(7) $
-
-综上，始终有 $n-m\l e q s q r t(7)$.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-已知数列 $\{a_n\}$（$n in NN ""^*$）的首项 $a_1=1$，前 $n$ 项和为 $S_n$. 设 $lambda$ 与 $k$ 是常数，若对一切正整数 $n$，均有 $S_(n+1)^((1)/(k))-S_n^((1)/(k))= lambda a_(n+1)^((1)/(k))$ 成立，则称此数列为“$lambda tilde k$”数列.
+已知数列 #mi(`\{a_{n}\}`)（#mi(`n\in\mathbb{N}^{*}`)）的首项 #mi(`a_{1}=1`)，前 #mi(`n`) 项和为 #mi(`S_{n}`). 设 #mi(`\lambda`) 与 #mi(`k`) 是常数，若对一切正整数 #mi(`n`)，均有 #mi(`S_{n+1}^{\frac{1}{k}}-S_{n}^{\frac{1}{k}}=\lambda a_{n+1}^{\frac{1}{k}}`) 成立，则称此数列为“#mi(`\lambda\sim k`)”数列.
 
 
-+ (1) 若等差数列 $\{a_n\}$ 是“$lambda tilde 1$”数列，求 $lambda$ 的值；
-+ (2) 若数列 $\{a_n\}$ 是“$(sqrt(3))/(3) tilde 2$”数列，且 $a_n>0$，求数列 $\{a_n\}$ 的通项公式；
-+ (3) 对于给定的 $lambda$，是否存在三个不同的数列 $\{a_n\}$ 为“$lambda tilde 3$”数列，且 $a_n >= 0$？若存在，求 $lambda$ 的取值范围；若不存在，说明理由.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 当 $k=1$ 时，定义式化为 $a_(n+1)= lambda a_(n+1)$. 等差数列不可能从第二项起所有项都为零，因为 $a_1=1$，所以存在某个 $n$ 使 $a_(n+1) != 0$，从而 $lambda =1$.
-+ (2) 由 $a_n>0$，有 $S_(n+1)>S_n>0$. 令 $U=sqrt(S_(n+1))$，$V=sqrt(S_n)$，则
-
-$ U-V=(sqrt(3))/(3)sqrt(U^2-V^2) $
-
-因 $U>V$，平方并约去正因子 $U-V$，得 $U-V=(U+V)/(3)$，所以 $U=2 V$，即 $S_(n+1)=4 S_n$. 由 $S_1=1$，得 $S_n=4^(n-1)$. 因而
-$a_1=1$，$a_n=S_n-S_(n-1)=3 dot 4 ""^(n-2)$，（$n >= 2$）.
-+ (3) 若某一步 $a_(n+1)>0$，令 $r=(S_(n+1)^((1)/(3)))/(S_n^((1)/(3)))>1$. 由定义式并立方化简，得
-
-$ (r-1)^2= lambda ""^3(r^2+r+1) $
-
-左边与右侧的比值为 $((r-1)^2)/(r^2+r+1)<1$，所以发生正增量必须有 $0< lambda <1$. 当 $0< lambda <1$ 时，令 $L= lambda ""^3$，方程化为
-
-$ (1-L)r^2-(2+L)r+(1-L)=0 $
-
-其判别式为 $3 L(4-L)>0$，两根乘积为 $1$，且两根和为正，因此存在唯一的根 $r>1$. 记 $R=r^3>1$. 每一步都可以选择保持 $S_(n+1)=S_n$，也可以选择跳到 $S_(n+1)=R S_n$，均满足定义式.
-
-例如，以下三个数列均满足条件：第一列只有 $a_1=1$ 非零；第二列取 $a_2=R-1$ 后其余为零；第三列取 $a_2=R-1$，$a_3=R^2-R$ 后其余为零. 它们彼此不同且各项非负. 因此存在三个不同数列的充要条件为 $0< lambda <1$.
++ (1) 
++ (2)
 ]
 
 #part-header("附加题：解答题")
 
 #problem(21)[
-平面上点 $A(2,-1)$ 在矩阵 $M=\b e g i n{b m a t r i x}a&1\\-1&b\e n d{b m a t r i x}$ 对应的变换作用下得到点 $B(3,-4)$.
+平面上点 #mi(`A(2,-1)`) 在矩阵 #mi(`M=\begin{bmatrix}a&1\\-1&b\end{bmatrix}`) 对应的变换作用下得到点 #mi(`B(3,-4)`).
 
 
-+ (1) 求实数 $a$，$b$ 的值；
-+ (2) 求矩阵 $M$ 的逆矩阵 $M^(-1)$.
++ (1)
 ]
 
 #solution[
-+ (1) 由矩阵变换关系，
-
-$ \b e g i n{b m a t r i x}a&1\\-1&b\e n d{b m a t r i x}\b e g i n{b m a t r i x}2\\-1\e n d{b m a t r i x}=\b e g i n{b m a t r i x}3\\-4\e n d{b m a t r i x} $
-
-所以 $2 a-1=3$，$-2-b=-4$，解得 $a=2$，$b=2$.
-+ (2) 此时 $M=\b e g i n{b m a t r i x}2&1\\-1&2\e n d{b m a t r i x}$，其行列式为 $5$，故
-
-$ M^(-1)=(1)/(5)\b e g i n{b m a t r i x}2&-1\\1&2\e n d{b m a t r i x} $
++ (1)
 ]
 
 #problem(22)[
-在极坐标系中，已知点 $A\!( rho _1,(pi)/(3))$ 在直线 $l: rho cos theta =2$ 上，点 $B\!( rho _2,(pi)/(6))$ 在圆 $C: rho =4 sin theta$ 上（其中 $rho >= 0$，$0 <= theta <2 pi$）.
+在极坐标系中，已知点 #mi(`A\!\left(\rho_{1},\dfrac\pi3\right)`) 在直线 #mi(`l:\rho\cos\theta=2`) 上，点 #mi(`B\!\left(\rho_{2},\dfrac\pi6\right)`) 在圆 #mi(`C:\rho=4\sin\theta`) 上（其中 #mi(`\rho\ge0`)，#mi(`0\le\theta<2\pi`)）.
 
 
-+ (1) 求 $rho _1$，$rho _2$ 的值；
-+ (2) 求出直线 $l$ 与圆 $C$ 的公共点的极坐标.
++ (1)
 ]
 
 #solution[
-+ (1) 将点 $A$ 代入直线方程，得 $rho _1 cos (pi)/(3)=2$，所以 $rho _1=4$. 将点 $B$ 代入圆方程，得 $rho _2=4 sin (pi)/(6)=2$. 极点的极坐标表示还允许 $rho _2=0$，故 $rho _2=2$ 或 $0$.
-+ (2) 公共点满足
-$rho cos theta =2$，$rho =4 sin theta$.
-消去 $rho$，得 $4 sin theta cos theta =2$，即 $sin 2 theta =1$. 在 $[0,2 pi )$ 内，$theta =(pi)/(4)$ 或 $(5 pi)/(4)$. 当 $theta =(5 pi)/(4)$ 时由直线方程得到 $rho =-2 sqrt(2)<0$，不合题设；当 $theta =(pi)/(4)$ 时 $rho =2 sqrt(2)$. 所以公共点的极坐标为 $(2 sqrt(2),(pi)/(4))$.
++ (1)
 ]
 
 #problem(23)[
-设 $x in RR$，解不等式 $2| x+1|+| x|<4$.
+设 #mi(`x\in\mathbb{R}`)，解不等式 #mi(`2\lvert x+1\rvert+\lvert x\rvert<4`).
 ]
 
 #solution[
-当 $x<-1$ 时，不等式化为 $-3 x-2<4$，得 $-2<x<-1$；当 $-1 <= x <= 0$ 时，不等式化为 $x+2<4$，该区间内所有 $x$ 均满足；当 $x>0$ 时，不等式化为 $3 x+2<4$，得 $0<x<(2)/(3)$. 因而解集为 $(-2,(2)/(3))$.
+当 #mi(`x<-1`) 时，不等式化为 #mi(`-3x-2<4`)，得 #mi(`-2<x<-1`)；当 #mi(`-1\le x\le0`) 时，不等式化为 #mi(`x+2<4`)，该区间内所有 #mi(`x`) 均满足；当 #mi(`x>0`) 时，不等式化为 #mi(`3x+2<4`)，得 #mi(`0<x<\dfrac{2}{3}`). 因而解集为 #mi(`\left(-2,\dfrac{2}{3}\right)`).
 ]
 
 #problem(24)[
-在三棱锥 $A-B C D$ 中，已知 $C B=C D=sqrt(5)$，$B D=2$，$O$ 为 $B D$ 的中点，$A O bot$ 平面 $B C D$，$A O=2$，$E$ 为 $A C$ 的中点.
+在三棱锥 #mi(`A-BCD`) 中，已知 #mi(`CB=CD=\sqrt{5}`)，#mi(`BD=2`)，#mi(`O`) 为 #mi(`BD`) 的中点，#mi(`AO\perp`) 平面 #mi(`BCD`)，#mi(`AO=2`)，#mi(`E`) 为 #mi(`AC`) 的中点.
 
 
-+ (1) 求直线 $A B$ 与 $D E$ 所成角的余弦值；
-+ (2) 若点 $F$ 在 $B C$ 上，满足 $B F=(1)/(4)B C$，设二面角 $F-D E-C$ 的大小为 $theta$，求 $sin theta$ 的值.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2020/img/jiangsu/q24_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2020/img/jiangsu/q24_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 取 $O$ 为原点，分别以 $O B$，$O C$，$O A$ 所在方向为 $x$，$y$，$z$ 轴. 由 $C B=C D$ 且 $O$ 为 $B D$ 的中点，得 $C O bot B D$，可设
-$A=(0,0,2)$，$B=(1,0,0)$，$C=(0,2,0)$，$D=(-1,0,0)$.
-于是 $E=(0,1,1)$. 取 $arrow(A B)=(1,0,-2)$，$arrow(D E)=(1,1,1)$，则
-
-$ cos angle (A B,D E)=(|arrow(A B){ dot }arrow(D E)|)/(|arrow(A B)| |arrow(D E)|)=(|-1|)/(sqrt(5)sqrt(3))=(sqrt(15))/(15) $
-+ (2) 由 $B F=(1)/(4)B C$，得 $F=((3)/(4),(1)/(2),0)$. 平面 $C D E$ 内的两条方向向量可取 $arrow(D C)=(1,2,0)$，$arrow(D E)=(1,1,1)$，所以其一个法向量为 $bold(n)_1=(-2,1,1)$. 平面 $F D E$ 内可取 $arrow(D F)=((7)/(4),(1)/(2),0)$，$arrow(D E)=(1,1,1)$，所以其一个法向量为 $bold(n)_2=(2,-7,5)$. 因而
-$bold(n)_1\c d o t b o l d(n)_2=-6$，$|bold(n)_1|=sqrt(6)$，$|bold(n)_2|=sqrt(78)$.
-二面角取两平面锐角，故
-
-$ sin theta =sqrt(1-((-6)/(sqrt(6)sqrt(78)))^2)=sqrt(1-(1)/(13))=(2 sqrt(39))/(13) $
++ (1)
 ]
 
 #problem(25)[
-甲口袋中装有 $2$ 个黑球和 $1$ 个白球，乙口袋中装有 $3$ 个白球. 现从甲，乙两口袋中各任取一个球交换放入另一口袋，重复 $n$ 次这样的操作，记甲口袋中黑球个数为 $X_n$，恰有 $2$ 个黑球的概率为 $p_n$，恰有 $1$ 个黑球的概率为 $q_n$.
+甲口袋中装有 #mi(`2`) 个黑球和 #mi(`1`) 个白球，乙口袋中装有 #mi(`3`) 个白球. 现从甲，乙两口袋中各任取一个球交换放入另一口袋，重复 #mi(`n`) 次这样的操作，记甲口袋中黑球个数为 #mi(`X_{n}`)，恰有 #mi(`2`) 个黑球的概率为 #mi(`p_{n}`)，恰有 #mi(`1`) 个黑球的概率为 #mi(`q_{n}`).
 
 
-+ (1) 求 $p_1 dot q_1$ 和 $p_2 dot q_2$；
-+ (2) 求 $2 p_n+q_n$ 与 $2 p_(n-1)+q_(n-1)$ 的递推关系式和 $X_n$ 的数学期望 $E(X_n)$（用 $n$ 表示）.
++ (1)
 ]
 
 #solution[
-+ (1) 第一次交换后，甲袋仍有 $3$ 个球. 甲袋取黑球且乙袋取白球时，黑球数变为 $1$，所以 $q_1=(2)/(3)$；甲袋取白球且乙袋取白球时，黑球数仍为 $2$，所以 $p_1=(1)/(3)$. 因而 $p_(1) q_1=(2)/(9)$.
-
-第二次交换时，若交换前甲袋有 $2$ 个黑球，则转移到 $2$ 个黑球的概率为 $(1)/(3)$，转移到 $1$ 个黑球的概率为 $(2)/(3)$. 若交换前甲袋有 $1$ 个黑球，则转移到 $2$ 个黑球的概率为 $(2)/(3) times (1)/(3)=(2)/(9)$，保持 $1$ 个黑球的概率为 $(1)/(3) times (1)/(3)+(2)/(3) times (2)/(3)=(5)/(9)$，转移到 $0$ 个黑球的概率为 $(2)/(9)$. 因此
-$p_2=(1)/(3)p_1+(2)/(9)q_1=(7)/(27)$，$q_2=(2)/(3)p_1+(5)/(9)q_1=(16)/(27)$，
-从而 $p_(2) q_2=(112)/(729)$.
-+ (2) 还需考虑甲袋有 $0$ 个黑球的状态. 对任意 $n >= 1$，由三种状态的转移概率得
-
-$ p_n=(1)/(3)p_(n-1)+(2)/(9)q_(n-1) $
-
-
-$ q_n=(2)/(3)p_(n-1)+(5)/(9)q_(n-1)+(2)/(3)(1-p_(n-1)-q_(n-1))=(2)/(3)-(1)/(9)q_(n-1) $
-
-所以
-
-$ 2 p_n+q_n=(1)/(3)(2 p_(n-1)+q_(n-1))+(2)/(3) $
-
-令 $r_n=2 p_n+q_n$，则 $r_1=(4)/(3)$，且 $r_n-1=(1)/(3)(r_(n-1)-1)$. 因而
-
-$ r_n=1+(1)/(3^n) $
-
-由于 $X_n$ 取值为 $0$，$1$，$2$，故
-
-$ E(X_n)=2 p_n+q_n=1+(1)/(3^n) $
++ (1)
 ]
 

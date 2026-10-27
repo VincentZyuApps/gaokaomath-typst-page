@@ -135,7 +135,9 @@
 #problem(11)[
 如图，在四面体 #mi(`ABCD`) 中，截面 #mi(`AEF`) 经过四面体的内切球（与四个面都相切的球）球心 #mi(`O`)，且与 #mi(`BC`)，#mi(`DC`) 分别截于 #mi(`E`)，#mi(`F`). 如果截面将四面体分为体积相等的两部分，设四棱锥 #mi(`A-BEFD`) 与三棱锥 #mi(`A-EFC`) 的表面积分别为 #mi(`S_{1}`) 和 #mi(`S_{2}`)，则必有（ ）
 
-[max width=0.42\linewidth]img/2006/jiangxi_science/q11_fig1.png
+
+#align(center)[#image("/papers/2006/img/jiangxi_science/q11_fig1.png", width: 28%)]
+
   #choices([#mi(`S_{1}< S_{2}`)], [#mi(`S_{1}> S_{2}`)], [#mi(`S_{1}= S_{2}`)], [#mi(`S_{1}`) 和 #mi(`S_{2}`) 的大小不能确定], cols: 1)
 ]
 
@@ -150,8 +152,18 @@
 #problem(12)[
 某地一年内的气温 #mi(`Q(t)`)（单位：#mi(`^{\circ}\mathrm{C}`)）与时间 #mi(`t`)（月份）之间的关系如图所示，已知该年的平均气温为 #mi(`10^{\circ}\mathrm{C}`). 令 #mi(`C(t)`) 表示时间段 #mi(`[0, t]`) 的平均气温，#mi(`C(t)`) 与 #mi(`t`) 之间的函数关系用下列图象表示，则正确的是（ ）
 
-[max width=0.42\linewidth]img/2006/jiangxi_science/q12_qgraph.png
-  #choices([[width=0.15\paperwidth]img/2006/jiangxi_science/q12_optA.png], [[width=0.15\paperwidth]img/2006/jiangxi_science/q12_optB.png], [[width=0.15\paperwidth]img/2006/jiangxi_science/q12_optC.png], [[width=0.15\paperwidth]img/2006/jiangxi_science/q12_optD.png], cols: 1)
+
+#align(center)[#image("/papers/2006/img/jiangxi_science/q12_qgraph.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2006/img/jiangxi_science/q12_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2006/img/jiangxi_science/q12_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2006/img/jiangxi_science/q12_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2006/img/jiangxi_science/q12_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
@@ -191,7 +203,9 @@
 #problem(15)[
 如图，在直三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中，底面为直角三角形，#mi(`\angle ACB = 90^{\circ}`)，#mi(`AC = 6`)，#mi(`BC = CC_{1}= \sqrt{2}`)，#mi(`P`) 是 #mi(`BC_{1}`) 上一动点，则 #mi(`CP + PA_{1}`) 的最小值为\underline{\hspace{2.5em}}.
 
-[max width=0.42\linewidth]img/2006/jiangxi_science/q15_fig1.png
+
+#align(center)[#image("/papers/2006/img/jiangxi_science/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`5\sqrt{2}`)])
@@ -258,7 +272,9 @@
 
 
 
-[max width=0.25\linewidth]img/2006/jiangxi_science/q19_fig1.png
+
+#align(center)[#image("/papers/2006/img/jiangxi_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -274,7 +290,9 @@
 
 
 
-[max width=0.42\linewidth]img/2006/jiangxi_science/q20_fig1.png
+
+#align(center)[#image("/papers/2006/img/jiangxi_science/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -290,7 +308,9 @@
 
 
 
-[max width=0.42\linewidth]img/2006/jiangxi_science/q21_fig1.png
+
+#align(center)[#image("/papers/2006/img/jiangxi_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

@@ -132,7 +132,15 @@
 
 #problem(11)[
 当 #mi(`a > 1`) 时，函数 #mi(`y = \log_{a} x`) 和 #mi(`y = (1 - a)x`) 的图象只可能是（#mi(`\quad`)）
-  #choices([[width=0.15\paperwidth]img/1994/shanghai_liberal/q11_optA_nolabel.png], [[width=0.15\paperwidth]img/1994/shanghai_liberal/q11_optB_nolabel.png], [[width=0.15\paperwidth]img/1994/shanghai_liberal/q11_optC_nolabel.png], [[width=0.15\paperwidth]img/1994/shanghai_liberal/q11_optD_nolabel.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/1994/img/shanghai_liberal/q11_optA_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1994/img/shanghai_liberal/q11_optB_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1994/img/shanghai_liberal/q11_optC_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1994/img/shanghai_liberal/q11_optD_nolabel.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B])
@@ -231,7 +239,7 @@
 #solution[
 从 #mi(`9`) 支球队中任取两队，所有等可能结果数为 #mi(`\mathrm{C}_{9}^{2}`). 要使一队为亚洲队、另一队为非洲队，先从 #mi(`5`) 支亚洲队中取一队，再从 #mi(`4`) 支非洲队中取一队，符合条件的结果数为 #mi(`\mathrm{C}_{5}^{1}\mathrm{C}_{4}^{1}`). 所以所求概率为
 
-#mi(`\dfrac{\mathrm{C_5^1}\mathrm{C_4^1}}{\mathrm{C_9^2}}`)，故选 D.
+#mi(`\dfrac{\mathrm{C}_5^1\mathrm{C}_4^1}{\mathrm{C}_9^2}`)，故选 D.
 ]
 
 #problem(19)[
@@ -304,7 +312,9 @@
 
 
 
-[max width=0.58\linewidth]img/1994/shanghai_liberal/q23_fig1.png
+
+#align(center)[#image("/papers/1994/img/shanghai_liberal/q23_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -319,7 +329,9 @@
 
 
 
-[max width=0.42\linewidth]img/1994/shanghai_liberal/q24_fig1.png
+
+#align(center)[#image("/papers/1994/img/shanghai_liberal/q24_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -353,8 +365,12 @@
 
 
 
-[max width=0.64\linewidth]img/1994/shanghai_liberal/q26_solution_fig1.png
+ 
+#align(center)[#image("/papers/1994/img/shanghai_liberal/q26_solution_fig1.png", width: 28%)]
+ 
 
-[max width=0.64\linewidth]img/1994/shanghai_liberal/q26_solution_fig2.png
+ 
+#align(center)[#image("/papers/1994/img/shanghai_liberal/q26_solution_fig2.png", width: 28%)]
+
 ]
 

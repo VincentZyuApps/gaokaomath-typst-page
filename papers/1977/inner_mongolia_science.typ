@@ -99,13 +99,15 @@ y=24\times\frac{1}{4}+14=20
 
 #mi(`C\left(0,4t-10\right)`)，#mi(`D\left(-6t\sin60^{\circ},6t\cos60^{\circ}\right)=\left(-3\sqrt{3}t,3t\right)`).
 
-[max width=3.8cm]img/1977/inner_mongolia_science/q5_solution_fig1.png
+ 
+#align(center)[#image("/papers/1977/img/inner_mongolia_science/q5_solution_fig1.png", width: 28%)]
+ 
 
 无论甲船是否已经越过 #mi(`B`)，两船距离的平方都可以由坐标直接求得：
 
 
 #align(center)[#mitex(`
-\begin{gathered}DC^2=\left(3\sqrt{3t}\right)^2+\left(3t-(4t-10)\right)^2
+\begin{gathered}DC^2=\left(3\sqrt{3}t\right)^2+\left(3t-(4t-10)\right)^2
 
 =27t^2+(10-t)^2\\
 

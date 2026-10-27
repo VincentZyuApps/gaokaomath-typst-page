@@ -1,8 +1,137 @@
 {
-  "title": "2007年普通高等学校招生全国统一考试",
-  "subtitle": "2007年湖北卷（理）",
   "year": "2007",
   "slug": "hubei_science",
+  "title": "2007年湖北卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +146,9 @@
             "$10$"
           ],
           "answer": "B",
-          "solution": "展开式的通项为 $\\mathrm{C}_{n}^{k}(3x^{2})^{n-k}\\left(-\\dfrac{2}{x^3}\\right)^{k}$，其中 $k=0$，$1$，$\\ldots$，$n$，其幂次为 $2(n-k)-3k=2n-5k$. 含有非零常数项时，必须有 $2n-5k=0$，即 $2n=5k$. 因为 $n$ 为正整数，且 $k$ 也为整数，所以 $n$ 必须是 $5$ 的倍数；取 $n=5$ 时 $k=2$ 满足 $0\\le k\\le n$. 因而最小值为 $5$，故选 B."
+          "solution": "展开式的通项为 $\\mathrm{C}_{n}^{k}(3x^{2})^{n-k}\\left(-\\dfrac{2}{x^3}\\right)^{k}$，其中 $k=0$，$1$，$\\ldots$，$n$，其幂次为 $2(n-k)-3k=2n-5k$. 含有非零常数项时，必须有 $2n-5k=0$，即 $2n=5k$. 因为 $n$ 为正整数，且 $k$ 也为整数，所以 $n$ 必须是 $5$ 的倍数；取 $n=5$ 时 $k=2$ 满足 $0\\le k\\le n$. 因而最小值为 $5$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +160,9 @@
             "$y = 2\\cos \\left(\\frac{x}{3}+ \\frac{\\pi}{12}\\right) + 2$"
           ],
           "answer": "A",
-          "solution": "<p>设原函数为 $f(x)=2\\cos\\left(\\dfrac{x}{3}+\\dfrac{\\pi}{6}\\right)$. 平移向量为 $\\left(-\\dfrac{\\pi}{4},-2\\right)$ 时，原图象上的点 $(u,f(u))$ 变为 $\\left(u-\\dfrac{\\pi}{4},f(u)-2\\right)$. 令新横坐标为 $x=u-\\dfrac{\\pi}{4}$，则 $u=x+\\dfrac{\\pi}{4}$，所以平移后的函数为</p>\n$$\ny=f\\left(x+\\frac{\\pi}{4}\\right)-2=2\\cos\\left(\\frac{x}{3}+\\frac{\\pi}{12}+\\frac{\\pi}{6}\\right)-2=2\\cos\\left(\\frac{x}{3}+\\frac{\\pi}{4}\\right)-2\n$$\n<p>故选 A.</p>"
+          "solution": "<p>设原函数为 $f(x)=2\\cos\\left(\\dfrac{x}{3}+\\dfrac{\\pi}{6}\\right)$. 平移向量为 $\\left(-\\dfrac{\\pi}{4},-2\\right)$ 时，原图象上的点 $(u,f(u))$ 变为 $\\left(u-\\dfrac{\\pi}{4},f(u)-2\\right)$. 令新横坐标为 $x=u-\\dfrac{\\pi}{4}$，则 $u=x+\\dfrac{\\pi}{4}$，所以平移后的函数为</p>\n$$\ny=f\\left(x+\\frac{\\pi}{4}\\right)-2=2\\cos\\left(\\frac{x}{3}+\\frac{\\pi}{12}+\\frac{\\pi}{6}\\right)-2=2\\cos\\left(\\frac{x}{3}+\\frac{\\pi}{4}\\right)-2\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +174,9 @@
             "$\\{x\\mid 2\\le x < 3\\}$"
           ],
           "answer": "B",
-          "solution": "由 $\\log_{2}x<1$ 且对数定义域为 $x>0$，得 $P=(0,2)$. 由 $|x-2|<1$ 得 $1<x<3$，即 $Q=(1,3)$. 因而从 $P$ 中去掉同时属于 $Q$ 的元素，得到 $P-Q=(0,1]$，故选 B."
+          "solution": "由 $\\log_{2}x<1$ 且对数定义域为 $x>0$，得 $P=(0,2)$. 由 $|x-2|<1$ 得 $1<x<3$，即 $Q=(1,3)$. 因而从 $P$ 中去掉同时属于 $Q$ 的元素，得到 $P-Q=(0,1]$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +188,9 @@
             "$4$"
           ],
           "answer": "D",
-          "solution": "<p>四个命题都不成立. 取 $\\alpha$ 为平面 $z=0$.</p><p>对于第一个命题，取直线 $m:(t,0,t+1)$ 和 $n:(0,s,s+1)$. 它们在 $\\alpha$ 内的射影分别为方向向量为 $(1,0,0)$ 和 $(0,1,0)$ 的两条直线，二者垂直；但 $m$，$n$ 的方向向量 $(1,0,1)$，$(0,1,1)$ 的数量积为 $1$，所以 $m$ 与 $n$ 不垂直.</p><p>对于第二个命题，取 $m:(t,0,t+1)$，取方向向量为 $(1,1,-1)$ 且经过 $(0,0,1)$ 的直线 $n:(s,s,1-s)$. 两条直线在 $(0,0,1)$ 相交，且方向向量数量积为 $1-1=0$，所以 $m\\perp n$；但其射影方向向量 $(1,0,0)$ 与 $(1,1,0)$ 的数量积为 $1$，所以 $m'$ 与 $n'$ 不垂直.</p><p>对于第三个命题，取 $m:(t,0,1)$，$n:(0,s,2)$. 射影 $m'$ 和 $n'$ 分别为两条相交的坐标轴，但 $m$，$n$ 位于不同的水平面内，互不相交且不重合.</p><p>对于第四个命题，取 $m:(t,0,t+1)$，$n:(s,1,2s+2)$. 射影 $m'$，$n'$ 是两条平行直线，而 $m$，$n$ 的方向向量分别为 $(1,0,1)$，$(1,0,2)$，不平行，且两直线不相交. 因此四个命题均不正确，不正确的命题个数为 $4$，故选 D.</p>"
+          "solution": "<p>四个命题都不成立. 取 $\\alpha$ 为平面 $z=0$.</p><p>对于第一个命题，取直线 $m:(t,0,t+1)$ 和 $n:(0,s,s+1)$. 它们在 $\\alpha$ 内的射影分别为方向向量为 $(1,0,0)$ 和 $(0,1,0)$ 的两条直线，二者垂直；但 $m$，$n$ 的方向向量 $(1,0,1)$，$(0,1,1)$ 的数量积为 $1$，所以 $m$ 与 $n$ 不垂直.</p><p>对于第二个命题，取 $m:(t,0,t+1)$，取方向向量为 $(1,1,-1)$ 且经过 $(0,0,1)$ 的直线 $n:(s,s,1-s)$. 两条直线在 $(0,0,1)$ 相交，且方向向量数量积为 $1-1=0$，所以 $m\\perp n$；但其射影方向向量 $(1,0,0)$ 与 $(1,1,0)$ 的数量积为 $1$，所以 $m'$ 与 $n'$ 不垂直.</p><p>对于第三个命题，取 $m:(t,0,1)$，$n:(0,s,2)$. 射影 $m'$ 和 $n'$ 分别为两条相交的坐标轴，但 $m$，$n$ 位于不同的水平面内，互不相交且不重合.</p><p>对于第四个命题，取 $m:(t,0,t+1)$，$n:(s,1,2s+2)$. 射影 $m'$，$n'$ 是两条平行直线，而 $m$，$n$ 的方向向量分别为 $(1,0,1)$，$(1,0,2)$，不平行，且两直线不相交. 因此四个命题均不正确，不正确的命题个数为 $4$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +202,9 @@
             "$\\frac{p - 1}{q - 1}$"
           ],
           "answer": "C",
-          "solution": "<p>对任意正整数 $r$，有</p>\n$$\n\\left(1+\\frac{1}{n}\\right)^{r}-1=\\frac{1}{n}\\sum_{j=0}^{r-1}\\left(1+\\frac{1}{n}\\right)^{j}\n$$\n<p>因此原极限等于</p>\n$$\n\\frac{\\sum_{j=0}^{p-1}\\left(1+\\frac{1}{n}\\right)^{j}}{\\sum_{j=0}^{q-1}\\left(1+\\frac{1}{n}\\right)^{j}}\n$$\n<p>当 $n\\to\\infty$ 时，分子趋于 $p$，分母趋于 $q$，故极限为 $\\dfrac{p}{q}$，选 C.</p>"
+          "solution": "<p>对任意正整数 $r$，有</p>\n$$\n\\left(1+\\frac{1}{n}\\right)^{r}-1=\\frac{1}{n}\\sum_{j=0}^{r-1}\\left(1+\\frac{1}{n}\\right)^{j}\n$$\n<p>因此原极限等于</p>\n$$\n\\frac{\\sum_{j=0}^{p-1}\\left(1+\\frac{1}{n}\\right)^{j}}{\\sum_{j=0}^{q-1}\\left(1+\\frac{1}{n}\\right)^{j}}\n$$\n<p>当 $n\\to\\infty$ 时，分子趋于 $p$，分母趋于 $q$，故极限为 $\\dfrac{p}{q}$，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +216,9 @@
             "甲既不是乙的充分条件也不是乙的必要条件"
           ],
           "answer": "B",
-          "solution": "<p>若数列 $\\{a_{n}\\}$ 是等比数列，设其公比为 $r$. 由定义可知各项非零，且</p>\n$$\n\\frac{a_{n+1}^{2}}{a_{n}^{2}}=r^{2}\n$$\n<p>所以它一定是等方比数列，即乙是甲的充分条件.</p><p>反过来，等方比数列的相邻两项绝对值之比相同，但相邻两项的正负号不一定按固定比例变化. 例如取 $a_{1}=1$，$a_{2}=1$，$a_{3}=-1$，并令其余各项为 $1$，则 $\\frac{a_{n+1}^{2}}{a_{n}^{2}}=1$，但相邻项之比不是常数，故它不是等比数列. 所以甲是乙的必要条件但不是充分条件，选 B.</p>"
+          "solution": "<p>若数列 $\\{a_{n}\\}$ 是等比数列，设其公比为 $r$. 由定义可知各项非零，且</p>\n$$\n\\frac{a_{n+1}^{2}}{a_{n}^{2}}=r^{2}\n$$\n<p>所以它一定是等方比数列，即乙是甲的充分条件.</p><p>反过来，等方比数列的相邻两项绝对值之比相同，但相邻两项的正负号不一定按固定比例变化. 例如取 $a_{1}=1$，$a_{2}=1$，$a_{3}=-1$，并令其余各项为 $1$，则 $\\frac{a_{n+1}^{2}}{a_{n}^{2}}=1$，但相邻项之比不是常数，故它不是等比数列. 所以甲是乙的必要条件但不是充分条件，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +230,9 @@
             "$\\frac{1}{2}$"
           ],
           "answer": "A",
-          "solution": "<p>记双曲线的焦半距为 $c=\\sqrt{a^{2}+b^{2}}$，则 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，左准线为 $x=-\\frac{a^{2}}{c}$. 设交点 $M=(x,y)$，并记 $d_{1}=|MF_{1}|$，$d_{2}=|MF_{2}|$. 由双曲线方程直接化简得</p><p>$d_{1}^{2}=\\left(\\frac{c}{a}x+a\\right)^{2}$，$d_{2}^{2}=\\left(\\frac{c}{a}x-a\\right)^{2}$.</p><p>若 $M$ 在左支，则 $x\\le-a$. 因为 $c>a$，所以 $x+\\frac{a^{2}}{c}<0$，且 $\\dfrac{c}{a}x-a<0$，从而</p><p>$d_{2}=-\\left(\\frac{c}{a}x-a\\right)=a-\\frac{c}{a}x$，$d_{2}=-\\left(x+\\frac{a^{2}}{c}\\right)=-x-\\frac{a^{2}}{c}$.</p><p>联立这两个等式得到</p>\n$$\nx=\\frac{a^{2}(c+a)}{c(c-a)}>0\n$$\n<p>与 $x\\le-a<0$ 矛盾，故 $M$ 在右支. 此时</p><p>$d_{1}=\\frac{c}{a}x+a$，$d_{2}=\\frac{c}{a}x-a$，$d_{1}-d_{2}=2a$.</p><p>又因 $M$ 在以 $F_{2}$ 为焦点、左准线为准线的抛物线上，$d_{2}=x+\\frac{a^{2}}{c}$. 联立</p>\n$$\n\\frac{c}{a}x-a=x+\\frac{a^{2}}{c}\n$$\n<p>得 $d_{2}=\\dfrac{2a^2}{c-a}$，从而 $d_{1}=\\dfrac{2ac}{c-a}$. 于是</p>\n$$\n\\frac{|F_{1}F_{2}|}{|MF_{1}|}-\\frac{|MF_{1}|}{|MF_{2}|}=\\frac{2c}{d_{1}}-\\frac{d_{1}}{d_{2}}=\\frac{c-a}{a}-\\frac{c}{a}=-1\n$$\n<p>故选 A.</p>"
+          "solution": "<p>记双曲线的焦半距为 $c=\\sqrt{a^{2}+b^{2}}$，则 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，左准线为 $x=-\\frac{a^{2}}{c}$. 设交点 $M=(x,y)$，并记 $d_{1}=|MF_{1}|$，$d_{2}=|MF_{2}|$. 由双曲线方程直接化简得</p><p>$d_{1}^{2}=\\left(\\frac{c}{a}x+a\\right)^{2}$，$d_{2}^{2}=\\left(\\frac{c}{a}x-a\\right)^{2}$.</p><p>若 $M$ 在左支，则 $x\\le-a$. 因为 $c>a$，所以 $x+\\frac{a^{2}}{c}<0$，且 $\\dfrac{c}{a}x-a<0$，从而</p><p>$d_{2}=-\\left(\\frac{c}{a}x-a\\right)=a-\\frac{c}{a}x$，$d_{2}=-\\left(x+\\frac{a^{2}}{c}\\right)=-x-\\frac{a^{2}}{c}$.</p><p>联立这两个等式得到</p>\n$$\nx=\\frac{a^{2}(c+a)}{c(c-a)}>0\n$$\n<p>与 $x\\le-a<0$ 矛盾，故 $M$ 在右支. 此时</p><p>$d_{1}=\\frac{c}{a}x+a$，$d_{2}=\\frac{c}{a}x-a$，$d_{1}-d_{2}=2a$.</p><p>又因 $M$ 在以 $F_{2}$ 为焦点、左准线为准线的抛物线上，$d_{2}=x+\\frac{a^{2}}{c}$. 联立</p>\n$$\n\\frac{c}{a}x-a=x+\\frac{a^{2}}{c}\n$$\n<p>得 $d_{2}=\\dfrac{2a^2}{c-a}$，从而 $d_{1}=\\dfrac{2ac}{c-a}$. 于是</p>\n$$\n\\frac{|F_{1}F_{2}|}{|MF_{1}|}-\\frac{|MF_{1}|}{|MF_{2}|}=\\frac{2c}{d_{1}}-\\frac{d_{1}}{d_{2}}=\\frac{c-a}{a}-\\frac{c}{a}=-1\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +244,9 @@
             "$5$"
           ],
           "answer": "D",
-          "solution": "<p>由于等差数列前 $n$ 项和是关于 $n$ 的二次式且常数项为 $0$，设</p><p>$A_{n}=\\alpha n^{2}+\\beta n$，$B_{n}=\\gamma n^{2}+\\delta n$.</p><p>由题设比例式，对所有正整数 $n$ 有</p>\n$$\n(\\alpha n^{2}+\\beta n)(n+3)=(\\gamma n^{2}+\\delta n)(7n+45)\n$$\n<p>两边均为关于 $n$ 的多项式，比较各次幂的系数，得</p><p>$\\alpha=7\\gamma$，$3\\alpha+\\beta=45\\gamma+7\\delta$，$3\\beta=45\\delta$.</p><p>由此得到 $\\beta=15\\delta$，再代入中间的等式可得 $\\delta=3\\gamma$，从而 $\\alpha=7\\gamma$，$\\ \\beta=45\\gamma$. 因此</p><p>$A_{n}=\\gamma n(7n+45)$，$B_{n}=\\gamma n(n+3)$</p><p>其中 $\\gamma\\neq0$.</p><p>令 $A_{0}=B_{0}=0$，相邻前项和之差给出</p><p>$a_{n}=A_{n}-A_{n-1}=\\gamma(14n+38)$，$b_{n}=B_{n}-B_{n-1}=\\gamma(2n+2)$.</p><p>所以</p>\n$$\n\\frac{a_{n}}{b_{n}}=\\frac{14n+38}{2n+2}=\\frac{7n+19}{n+1}=7+\\frac{12}{n+1}\n$$\n<p>该数为整数当且仅当 $n+1\\mid12$. 正整数 $n$ 对应 $n+1=2$，$3$，$4$，$6$，$12$，共有 $5$ 个，故选 D.</p>"
+          "solution": "<p>由于等差数列前 $n$ 项和是关于 $n$ 的二次式且常数项为 $0$，设</p><p>$A_{n}=\\alpha n^{2}+\\beta n$，$B_{n}=\\gamma n^{2}+\\delta n$.</p><p>由题设比例式，对所有正整数 $n$ 有</p>\n$$\n(\\alpha n^{2}+\\beta n)(n+3)=(\\gamma n^{2}+\\delta n)(7n+45)\n$$\n<p>两边均为关于 $n$ 的多项式，比较各次幂的系数，得</p><p>$\\alpha=7\\gamma$，$3\\alpha+\\beta=45\\gamma+7\\delta$，$3\\beta=45\\delta$.</p><p>由此得到 $\\beta=15\\delta$，再代入中间的等式可得 $\\delta=3\\gamma$，从而 $\\alpha=7\\gamma$，$\\ \\beta=45\\gamma$. 因此</p><p>$A_{n}=\\gamma n(7n+45)$，$B_{n}=\\gamma n(n+3)$</p><p>其中 $\\gamma\\neq0$.</p><p>令 $A_{0}=B_{0}=0$，相邻前项和之差给出</p><p>$a_{n}=A_{n}-A_{n-1}=\\gamma(14n+38)$，$b_{n}=B_{n}-B_{n-1}=\\gamma(2n+2)$.</p><p>所以</p>\n$$\n\\frac{a_{n}}{b_{n}}=\\frac{14n+38}{2n+2}=\\frac{7n+19}{n+1}=7+\\frac{12}{n+1}\n$$\n<p>该数为整数当且仅当 $n+1\\mid12$. 正整数 $n$ 对应 $n+1=2$，$3$，$4$，$6$，$12$，共有 $5$ 个，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +258,9 @@
             "$\\frac{5}{6}$"
           ],
           "answer": "C",
-          "solution": "向量 $\\mathbf{a}=(m,n)$ 与 $\\mathbf{b}=(1,-1)$ 的数量积为 $m-n$. 夹角满足 $0<\\theta\\le\\frac{\\pi}{2}$ 时必须有 $m-n\\geqslant0$，即 $m\\ge n$. 因为 $m$，$n$ 均为 $1$，$2$，$\\ldots$，$6$，且 $(m,n)$ 不可能是向量 $(1,-1)$ 的正倍数，所以 $\\theta>0$ 自动满足. 满足 $m\\ge n$ 的结果数为 $6+5+4+3+2+1=21$，总结果数为 $36$，故所求概率为 $\\frac{21}{36}=\\frac{7}{12}$，选 C."
+          "solution": "向量 $\\mathbf{a}=(m,n)$ 与 $\\mathbf{b}=(1,-1)$ 的数量积为 $m-n$. 夹角满足 $0<\\theta\\le\\frac{\\pi}{2}$ 时必须有 $m-n\\geqslant0$，即 $m\\ge n$. 因为 $m$，$n$ 均为 $1$，$2$，$\\ldots$，$6$，且 $(m,n)$ 不可能是向量 $(1,-1)$ 的正倍数，所以 $\\theta>0$ 自动满足. 满足 $m\\ge n$ 的结果数为 $6+5+4+3+2+1=21$，总结果数为 $36$，故所求概率为 $\\frac{21}{36}=\\frac{7}{12}$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +272,9 @@
             "$78$ 条"
           ],
           "answer": "A",
-          "solution": "<p>圆 $x^{2}+y^{2}=100$ 上横、纵坐标均为整数的点有 $12$ 个：$(\\pm10,0)$，$(0,\\pm10)$，$(\\pm6,\\pm8)$，$(\\pm8,\\pm6)$. 直线 $\\dfrac{x}{a}+\\dfrac{y}{b}=1$ 的横、纵截距均非零，所以它不经过原点，也不平行于坐标轴.</p><p>过这 $12$ 个点中任意两点确定的直线共有 $\\mathrm{C}_{12}^{2}=66$ 条，其中经过原点的直径有 $6$ 条，平行于坐标轴的直线有 $8$ 条，均不能写成题设形式，故割线有 $66-6-8=52$ 条.</p><p>再看切线. 过这 $12$ 个点各有一条切线，其中 $(\\pm10,0)$ 处的切线为竖直线，$(0,\\pm10)$ 处的切线为水平线，均不能写成题设形式；其余 $8$ 条切线符合题设. 因而这样的直线共有 $52+8=60$ 条，故选 A.</p>"
+          "solution": "<p>圆 $x^{2}+y^{2}=100$ 上横、纵坐标均为整数的点有 $12$ 个：$(\\pm10,0)$，$(0,\\pm10)$，$(\\pm6,\\pm8)$，$(\\pm8,\\pm6)$. 直线 $\\dfrac{x}{a}+\\dfrac{y}{b}=1$ 的横、纵截距均非零，所以它不经过原点，也不平行于坐标轴.</p><p>过这 $12$ 个点中任意两点确定的直线共有 $\\mathrm{C}_{12}^{2}=66$ 条，其中经过原点的直径有 $6$ 条，平行于坐标轴的直线有 $8$ 条，均不能写成题设形式，故割线有 $66-6-8=52$ 条.</p><p>再看切线. 过这 $12$ 个点各有一条切线，其中 $(\\pm10,0)$ 处的切线为竖直线，$(0,\\pm10)$ 处的切线为水平线，均不能写成题设形式；其余 $8$ 条切线符合题设. 因而这样的直线共有 $52+8=60$ 条，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,37 +284,47 @@
         {
           "num": 11,
           "body": "已知函数 $y = 2x - a$ 的反函数是 $y = bx + 3$，则 $a=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；$b=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$6$，$\\frac{1}{2}$",
-          "solution": "由 $y=2x-a$ 解得 $x=\\dfrac{y+a}{2}$，交换自变量与函数值后，反函数为 $y=\\dfrac{x+a}{2}$. 与已知反函数 $y=bx+3$ 比较系数，得到 $b=\\dfrac{1}{2}$，且 $\\frac{a}{2}=3$，所以 $a=6$."
+          "choices": [],
+          "answer": "\\(6\\)，\\(\\frac{1}{2}\\)",
+          "solution": "由 $y=2x-a$ 解得 $x=\\dfrac{y+a}{2}$，交换自变量与函数值后，反函数为 $y=\\dfrac{x+a}{2}$. 与已知反函数 $y=bx+3$ 比较系数，得到 $b=\\dfrac{1}{2}$，且 $\\frac{a}{2}=3$，所以 $a=6$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "复数 $z = a + b\\mathrm{i}$，$a$，$b \\in \\mathbb{R}$，且 $b \\neq 0$. 若 $z^{2} - 4bz$ 是实数，则有序实数对 $(a, b)$ 可以是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （写出一个有序实数对即可）",
-          "choices": null,
-          "answer": "$(2,1)$",
-          "solution": "<p>由 $z=a+b\\mathrm{i}$，得</p>\n$$\nz^{2}-4bz=(a^{2}-b^{2}-4ab)+(2ab-4b^{2})\\mathrm{i}\n$$\n<p>它为实数，当且仅当虚部为零，即 $2b(a-2b)=0$. 因为 $b\\neq0$，所以 $a=2b$. 取 $b=1$，则 $a=2$，故一个符合条件的有序实数对为 $(2,1)$.</p>"
+          "choices": [],
+          "answer": "\\((2,1)\\)",
+          "solution": "<p>由 $z=a+b\\mathrm{i}$，得</p>\n$$\nz^{2}-4bz=(a^{2}-b^{2}-4ab)+(2ab-4b^{2})\\mathrm{i}\n$$\n<p>它为实数，当且仅当虚部为零，即 $2b(a-2b)=0$. 因为 $b\\neq0$，所以 $a=2b$. 取 $b=1$，则 $a=2$，故一个符合条件的有序实数对为 $(2,1)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "设变量 $x$，$y$ 满足约束条件 $\\begin{cases}x - y + 3 \\ge 0,\\\\\n\nx + y \\ge 0,\\\\\n\n-2 \\le x \\le 3,\\end{cases}$ 则目标函数 $2x + y$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-\\frac{3}{2}$",
-          "solution": "<p>由约束条件得 $y\\le x+3$，且 $y\\ge-x$. 要有可行的 $y$，必须满足 $-x\\le x+3$，即 $x\\ge-\\dfrac{3}{2}$. 目标函数为</p>\n$$\n2x+y\\geqslant2x-x=x\n$$\n<p>又因 $x\\ge-\\dfrac{3}{2}$，故 $2x+y\\ge-\\dfrac{3}{2}$. 当 $x=-\\dfrac{3}{2}$，$y=\\dfrac{3}{2}$ 时，三个约束均满足，且目标函数等于 $-\\dfrac{3}{2}$，所以最小值为 $-\\dfrac{3}{2}$.</p>"
+          "choices": [],
+          "answer": "\\(-\\frac{3}{2}\\)",
+          "solution": "<p>由约束条件得 $y\\le x+3$，且 $y\\ge-x$. 要有可行的 $y$，必须满足 $-x\\le x+3$，即 $x\\ge-\\dfrac{3}{2}$. 目标函数为</p>\n$$\n2x+y\\geqslant2x-x=x\n$$\n<p>又因 $x\\ge-\\dfrac{3}{2}$，故 $2x+y\\ge-\\dfrac{3}{2}$. 当 $x=-\\dfrac{3}{2}$，$y=\\dfrac{3}{2}$ 时，三个约束均满足，且目标函数等于 $-\\dfrac{3}{2}$，所以最小值为 $-\\dfrac{3}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "某男篮球运动员在三分线投球的命中率是 $\\frac{1}{2}$，他投球 $10$ 次，恰好投进 $3$ 个球的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （用数值作答）",
-          "choices": null,
-          "answer": "$\\frac{15}{128}$",
-          "solution": "<p>设投进的次数为 $X$. 各次投球相互独立，且投进、未投进的概率均为 $\\frac{1}{2}$，所以 $X\\sim B\\left(10,\\dfrac{1}{2}\\right)$. 因而</p>\n$$\nP(X=3)=\\mathrm{C}_{10}^{3}\\left(\\frac{1}{2}\\right)^{3}\\left(\\frac{1}{2}\\right)^{7}=\\frac{120}{2^{10}}=\\frac{15}{128}\n$$"
+          "choices": [],
+          "answer": "\\(\\frac{15}{128}\\)",
+          "solution": "<p>设投进的次数为 $X$. 各次投球相互独立，且投进、未投进的概率均为 $\\frac{1}{2}$，所以 $X\\sim B\\left(10,\\dfrac{1}{2}\\right)$. 因而</p>\n$$\nP(X=3)=\\mathrm{C}_{10}^{3}\\left(\\frac{1}{2}\\right)^{3}\\left(\\frac{1}{2}\\right)^{7}=\\frac{120}{2^{10}}=\\frac{15}{128}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
-          "body": "<p>为了预防流感，某学校对教室用药熏消毒法进行消毒. 已知药物释放过程中，室内每立方米空气中的含药量 $y$（毫克）与时间 $t$（小时）成正比；药物释放完毕后，$y$ 与 $t$ 的函数关系式为 $y = \\left(\\frac{1}{16}\\right)^{t - a}$（$a$ 为常数）. 如图所示，据图中提供的信息，回答下列问题：</p><ol class=\"enumerate\"><li><p>从药物释放开始，每立方米空气中的含药量 $y$（毫克）与时间 $t$（小时）之间的函数关系式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；</p></li><li><p>据测定，当空气中每立方米的含药量降低到 $0.25$ 毫克以下时，学生方可进教室，那么药物释放开始，至少需要经过<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 小时后，学生才能回到教室.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$y=\\begin{cases}10t,&0\\le t\\le \\frac{1}{10},\\\\  \\left(\\frac{1}{16}\\right)^{t-\\frac{1}{10}},&t>\\frac{1}{10},\\end{cases}$；$0.6$",
-          "solution": "<p>释放过程中 $y$ 与 $t$ 成正比，图象经过 $(0.1,1)$，故此阶段的比例系数为 $\\frac{1}{0.1}=10$，从而 $y=10t$，其中 $0\\le t\\leqslant0.1$. 释放结束后函数为 $y=\\left(\\dfrac1{16}\\right)^{t-a}$，且图象在 $t=0.1$ 处连续并取值 $1$，所以 $\\left(\\dfrac1{16}\\right)^{0.1-a}=1$，得到 $a=0.1$. 因而</p>\n$$\ny=\\begin{cases}10t,&0\\le t\\le\\dfrac1{10},\\\\  \\left(\\dfrac1{16}\\right)^{t-\\frac{1}{10}},&t>\\dfrac1{10}.\\end{cases}\n$$\n<p>当 $t>0.1$ 时，要使含药量不超过 $0.25=\\frac{1}{4}=(\\frac{1}{16})^{\\frac{1}{2}}$，由于底数 $\\frac{1}{16}$ 小于 $1$，须有 $t-0.1\\ge\\frac{1}{2}$，即 $t\\geqslant0.6$. 所以至少经过 $0.6$ 小时.</p>"
+          "body": "<p>为了预防流感，某学校对教室用药熏消毒法进行消毒. 已知药物释放过程中，室内每立方米空气中的含药量 $y$（毫克）与时间 $t$（小时）成正比；药物释放完毕后，$y$ 与 $t$ 的函数关系式为 $y = \\left(\\frac{1}{16}\\right)^{t - a}$（$a$ 为常数）. 如图所示，据图中提供的信息，回答下列问题：</p><ol class=\"enumerate\"><li><p>从药物释放开始，每立方米空气中的含药量 $y$（毫克）与时间 $t$（小时）之间的函数关系式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；</p></li><li><p>据测定，当空气中每立方米的含药量降低到 $0.25$ 毫克以下时，学生方可进教室，那么药物释放开始，至少需要经过<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 小时后，学生才能回到教室.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/hubei_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(y=\\begin{cases}\r\n10t,&0\\le t\\le \\frac{1}{10},\\\\\r\n\\left(\\frac{1}{16}\\right)^{t-\\frac{1}{10}},&t>\\frac{1}{10},\r\n\\end{cases}\\)；\\(0.6\\)",
+          "solution": "<p>释放过程中 $y$ 与 $t$ 成正比，图象经过 $(0.1,1)$，故此阶段的比例系数为 $\\frac{1}{0.1}=10$，从而 $y=10t$，其中 $0\\le t\\leqslant0.1$. 释放结束后函数为 $y=\\left(\\dfrac1{16}\\right)^{t-a}$，且图象在 $t=0.1$ 处连续并取值 $1$，所以 $\\left(\\dfrac1{16}\\right)^{0.1-a}=1$，得到 $a=0.1$. 因而</p>\n$$\ny=\\begin{cases}10t,&0\\le t\\le\\dfrac1{10},\\\\  \\left(\\dfrac1{16}\\right)^{t-\\frac{1}{10}},&t>\\dfrac1{10}.\\end{cases}\n$$\n<p>当 $t>0.1$ 时，要使含药量不超过 $0.25=\\frac{1}{4}=(\\frac{1}{16})^{\\frac{1}{2}}$，由于底数 $\\frac{1}{16}$ 小于 $1$，须有 $t-0.1\\ge\\frac{1}{2}$，即 $t\\geqslant0.6$. 所以至少经过 $0.6$ 小时.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -175,44 +334,56 @@
         {
           "num": 16,
           "body": "<p>已知 $\\triangle ABC$ 的面积为 $3$，且满足 $0 \\le \\overrightarrow{AB}\\cdot \\overrightarrow{AC}\\le 6$，设 $\\overrightarrow{AB}$ 和 $\\overrightarrow{AC}$ 的夹角为 $\\theta$.</p><ol class=\"enumerate\"><li><p>求 $\\theta$ 的取值范围；</p></li><li><p>求函数 $f(\\theta) = 2\\sin^{2}\\left(\\frac{\\pi}{4}+ \\theta\\right) - \\sqrt{3}\\cos 2\\theta$ 的最大值与最小值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记 $u=|\\overrightarrow{AB}|\\,|\\overrightarrow{AC}|$. 由三角形面积公式和数量积公式，得</p><p>$u\\sin\\theta=6$，$0\\le u\\cos\\theta\\leqslant6$.</p><p>因为 $u>0$，所以 $0<\\theta\\le\\frac{\\pi}{2}$. 再由 $u=\\frac{6}{\\sin\\theta}$，得到 $6\\cot\\theta\\leqslant6$，即 $\\cot\\theta\\leqslant1$. 在 $(0,\\frac{\\pi}{2}]$ 上余切函数递减，故 $\\theta\\ge\\frac{\\pi}{4}$，从而 $\\theta\\in\\left[\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right]$.</p></li><li><p>利用 $2\\sin^{2}\\alpha=1-\\cos2\\alpha$，有</p>\n$$\nf(\\theta)=1+\\sin2\\theta-\\sqrt{3}\\cos2\\theta=1+2\\sin\\left(2\\theta-\\frac{\\pi}{3}\\right)\n$$\n<p>当 $\\theta\\in\\left[\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right]$ 时，$2\\theta-\\dfrac\\pi3\\in\\left[\\dfrac\\pi6,\\dfrac{2\\pi}3\\right]$. 该区间内正弦函数的最大值为 $1$，在自变量为 $\\frac{\\pi}{2}$ 时取得；最小值为 $\\frac{1}{2}$，在左端点取得. 因此 $f(\\theta)$ 的最大值为 $3$，最小值为 $2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记 $u=|\\overrightarrow{AB}|\\,|\\overrightarrow{AC}|$. 由三角形面积公式和数量积公式，得</p><p>$u\\sin\\theta=6$，$0\\le u\\cos\\theta\\leqslant6$.</p><p>因为 $u>0$，所以 $0<\\theta\\le\\frac{\\pi}{2}$. 再由 $u=\\frac{6}{\\sin\\theta}$，得到 $6\\cot\\theta\\leqslant6$，即 $\\cot\\theta\\leqslant1$. 在 $(0,\\frac{\\pi}{2}]$ 上余切函数递减，故 $\\theta\\ge\\frac{\\pi}{4}$，从而 $\\theta\\in\\left[\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right]$.</p></li><li><p>利用 $2\\sin^{2}\\alpha=1-\\cos2\\alpha$，有</p>\n$$\nf(\\theta)=1+\\sin2\\theta-\\sqrt{3}\\cos2\\theta=1+2\\sin\\left(2\\theta-\\frac{\\pi}{3}\\right)\n$$\n<p>当 $\\theta\\in\\left[\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right]$ 时，$2\\theta-\\dfrac\\pi3\\in\\left[\\dfrac\\pi6,\\dfrac{2\\pi}3\\right]$. 该区间内正弦函数的最大值为 $1$，在自变量为 $\\frac{\\pi}{2}$ 时取得；最小值为 $\\frac{1}{2}$，在左端点取得. 因此 $f(\\theta)$ 的最大值为 $3$，最小值为 $2$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>在生产过程中，测得纤维产品的纤度（表示纤维粗细的一种量）共有 $100$ 个数据，将数据分组如下表：</p><center class=\"center\"><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>分组 </td><td style=\"text-align: center; border-right: 1px solid\"> 频数 </td><td style=\"text-align: center; border-right: 1px solid\"> 频率 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[1.30,1.34)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $4$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[1.34,1.38)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $25$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[1.38,1.42)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $30$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[1.42,1.46)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $29$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[1.46,1.50)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $10$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[1.50,1.54)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>合计 </td><td style=\"text-align: center; border-right: 1px solid\"> $100$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>补全频率分布表，并画出频率分布直方图；</p></li><li><p>估计纤度落在 $[1.38, 1.50)$ 中的概率及纤度小于 $1.40$ 的概率分别是多少？</p></li><li><p>统计方法中，同一组数据常用该组区间的中点值（例如区间 $[1.30, 1.34)$ 的中点值是 $1.32$）作为代表. 据此，估计纤度的期望.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>在生产过程中，测得纤维产品的纤度（表示纤维粗细的一种量）共有 $100$ 个数据，将数据分组如下表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">分组 </td><td style=\"text-align: center; border-right: 1px solid\"> 频数 </td><td style=\"text-align: center; border-right: 1px solid\"> 频率 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[1.30,1.34)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $4$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[1.34,1.38)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $25$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[1.38,1.42)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $30$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[1.42,1.46)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $29$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[1.46,1.50)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $10$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$[1.50,1.54)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">合计 </td><td style=\"text-align: center; border-right: 1px solid\"> $100$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>补全频率分布表，并画出频率分布直方图；</p></li><li><p>估计纤度落在 $[1.38, 1.50)$ 中的概率及纤度小于 $1.40$ 的概率分别是多少？</p></li><li><p>统计方法中，同一组数据常用该组区间的中点值（例如区间 $[1.30, 1.34)$ 的中点值是 $1.32$）作为代表. 据此，估计纤度的期望.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/hubei_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>各组频率等于频数除以总数 $100$，所以从第一组到第六组依次为 $0.04$，$0.25$，$0.30$，$0.29$，$0.10$，$0.02$，总和为 $1.00$. 各组组距均为 $0.04$，故频率分布直方图中六个矩形的高，即频率/组距，依次为 $1$，$6.25$，$7.5$，$7.25$，$2.5$，$0.5$，底边分别为题目给出的六个区间.</p></li><li><p>区间 $[1.38,1.50)$ 包含第三、四、五组，故其概率约为 $0.30+0.29+0.10=0.69$. 对于小于 $1.40$ 的概率，前两组贡献 $0.04+0.25$，第三组中 $[1.38,1.40)$ 占组距的一半，估计贡献为 $0.30\\times\\dfrac{0.02}{0.04}=0.15$，所以该概率约为 $0.04+0.25+0.15=0.44$.</p></li><li><p>各组中点依次为 $1.32$，$1.36$，$1.40$，$1.44$，$1.48$，$1.52$，用频率加权得到纤度期望的估计值</p>\n$$\n1.32\\times0.04+1.36\\times0.25+1.40\\times0.30+1.44\\times0.29+1.48\\times0.10+1.52\\times0.02=1.4088\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>各组频率等于频数除以总数 $100$，所以从第一组到第六组依次为 $0.04$，$0.25$，$0.30$，$0.29$，$0.10$，$0.02$，总和为 $1.00$. 各组组距均为 $0.04$，故频率分布直方图中六个矩形的高，即频率/组距，依次为 $1$，$6.25$，$7.5$，$7.25$，$2.5$，$0.5$，底边分别为题目给出的六个区间.</p></li><li><p>区间 $[1.38,1.50)$ 包含第三、四、五组，故其概率约为 $0.30+0.29+0.10=0.69$. 对于小于 $1.40$ 的概率，前两组贡献 $0.04+0.25$，第三组中 $[1.38,1.40)$ 占组距的一半，估计贡献为 $0.30\\times\\dfrac{0.02}{0.04}=0.15$，所以该概率约为 $0.04+0.25+0.15=0.44$.</p></li><li><p>各组中点依次为 $1.32$，$1.36$，$1.40$，$1.44$，$1.48$，$1.52$，用频率加权得到纤度期望的估计值</p>\n$$\n1.32\\times0.04+1.36\\times0.25+1.40\\times0.30+1.44\\times0.29+1.48\\times0.10+1.52\\times0.02=1.4088\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，在三棱锥 $V - ABC$ 中，$VC \\perp$ 底面 $ABC$，$AC \\perp BC$，$D$ 是 $AB$ 的中点，且 $AC = BC = a$，$\\angle VDC = \\theta$（$0 < \\theta < \\frac{\\pi}{2}$）.</p><ol class=\"enumerate\"><li><p>求证：平面 $VAB \\perp$ 平面 $VCD$；</p></li><li><p>当角 $\\theta$ 变化时，求直线 $BC$ 与平面 $VAB$ 所成的角的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在三棱锥 $V - ABC$ 中，$VC \\perp$ 底面 $ABC$，$AC \\perp BC$，$D$ 是 $AB$ 的中点，且 $AC = BC = a$，$\\angle VDC = \\theta$（$0 < \\theta < \\frac{\\pi}{2}$）.</p><ol class=\"enumerate\"><li><p>求证：平面 $VAB \\perp$ 平面 $VCD$；</p></li><li><p>当角 $\\theta$ 变化时，求直线 $BC$ 与平面 $VAB$ 所成的角的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/hubei_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $AC=BC$，所以点 $C$ 在 $AB$ 的垂直平分面内；又因为 $D$ 是 $AB$ 的中点，所以 $CD\\perp AB$. 又因 $VC\\perp$ 底面 $ABC$，所以 $VC\\perp AB$. 直线 $DC$，$VC$ 是平面 $VCD$ 内相交的两条直线，且 $AB$ 同时垂直于它们，故 $AB\\perp$ 平面 $VCD$. 由于 $AB\\subset$ 平面 $VAB$，所以平面 $VAB\\perp$ 平面 $VCD$.</p></li><li><p>建立空间直角坐标系，取 $C=(0,0,0)$，$A=(a,0,0)$，$B=(0,a,0)$，$V=(0,0,h)$，其中 $h>0$. 则 $D=(\\frac{a}{2},\\frac{a}{2},0)$. 由 $\\angle VDC=\\theta$，在直角三角形 $VCD$ 中有 $CD=\\frac{a}{\\sqrt{2}}$，故</p>\n$$\nh=CD\\tan\\theta=\\frac{a}{\\sqrt{2}}\\tan\\theta\n$$\n<p>平面 $VAB$ 的一个法向量可取 $\\mathbf{n}=(h,h,a)$，直线 $BC$ 的方向向量可取 $\\mathbf{d}=(0,1,0)$. 设直线与平面所成的角为 $\\varphi$，则</p>\n$$\n\\sin\\varphi=\\frac{|\\mathbf{d}\\cdot\\mathbf{n}|}{|\\mathbf{d}|\\,|\\mathbf{n}|}=\\frac{h}{\\sqrt{2h^{2}+a^{2}}}=\\frac{\\sin\\theta}{\\sqrt{2}}\n$$\n<p>因为 $0<\\theta<\\frac{\\pi}{2}$，所以 $0<\\sin\\varphi<\\frac{1}{\\sqrt{2}}$，从而 $0<\\varphi<\\frac{\\pi}{4}$. 当 $\\theta$ 在给定范围内变化时，$\\sin\\theta$ 可取所有 $(0,1)$ 内的值，故取值范围为 $\\left(0,\\dfrac\\pi4\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $AC=BC$，所以点 $C$ 在 $AB$ 的垂直平分面内；又因为 $D$ 是 $AB$ 的中点，所以 $CD\\perp AB$. 又因 $VC\\perp$ 底面 $ABC$，所以 $VC\\perp AB$. 直线 $DC$，$VC$ 是平面 $VCD$ 内相交的两条直线，且 $AB$ 同时垂直于它们，故 $AB\\perp$ 平面 $VCD$. 由于 $AB\\subset$ 平面 $VAB$，所以平面 $VAB\\perp$ 平面 $VCD$.</p></li><li><p>建立空间直角坐标系，取 $C=(0,0,0)$，$A=(a,0,0)$，$B=(0,a,0)$，$V=(0,0,h)$，其中 $h>0$. 则 $D=(\\frac{a}{2},\\frac{a}{2},0)$. 由 $\\angle VDC=\\theta$，在直角三角形 $VCD$ 中有 $CD=\\frac{a}{\\sqrt{2}}$，故</p>\n$$\nh=CD\\tan\\theta=\\frac{a}{\\sqrt{2}}\\tan\\theta\n$$\n<p>平面 $VAB$ 的一个法向量可取 $\\mathbf{n}=(h,h,a)$，直线 $BC$ 的方向向量可取 $\\mathbf{d}=(0,1,0)$. 设直线与平面所成的角为 $\\varphi$，则</p>\n$$\n\\sin\\varphi=\\frac{|\\mathbf{d}\\cdot\\mathbf{n}|}{|\\mathbf{d}|\\,|\\mathbf{n}|}=\\frac{h}{\\sqrt{2h^{2}+a^{2}}}=\\frac{\\sin\\theta}{\\sqrt{2}}\n$$\n<p>因为 $0<\\theta<\\frac{\\pi}{2}$，所以 $0<\\sin\\varphi<\\frac{1}{\\sqrt{2}}$，从而 $0<\\varphi<\\frac{\\pi}{4}$. 当 $\\theta$ 在给定范围内变化时，$\\sin\\theta$ 可取所有 $(0,1)$ 内的值，故取值范围为 $\\left(0,\\dfrac\\pi4\\right)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>在平面直角坐标系 $xOy$ 中，过定点 $C(0,p)$ 作直线与抛物线 $x^{2}= 2py$（$p > 0$）相交于 $A$，$B$ 两点.</p><ol class=\"enumerate\"><li><p>若点 $N$ 是点 $C$ 关于坐标原点 $O$ 的对称点，求 $\\triangle ANB$ 面积的最小值；</p></li><li><p>是否存在垂直于 $y$ 轴的直线 $l$，使得 $l$ 被以 $AC$ 为直径的圆截得的弦长恒为定值？若存在，求出 $l$ 的方程；若不存在，说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>在平面直角坐标系 $xOy$ 中，过定点 $C(0,p)$ 作直线与抛物线 $x^{2}= 2py$（$p > 0$）相交于 $A$，$B$ 两点.</p><ol class=\"enumerate\"><li><p>若点 $N$ 是点 $C$ 关于坐标原点 $O$ 的对称点，求 $\\triangle ANB$ 面积的最小值；</p></li><li><p>是否存在垂直于 $y$ 轴的直线 $l$，使得 $l$ 被以 $AC$ 为直径的圆截得的弦长恒为定值？若存在，求出 $l$ 的方程；若不存在，说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/hubei_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设过 $C(0,p)$ 的直线为 $y=kx+p$，与抛物线联立得</p>\n$$\nx^{2}-2pkx-2p^{2}=0\n$$\n<p>设两根为 $x_{1}$，$x_{2}$，则 $x_{1}+x_{2}=2pk$，$x_{1}x_{2}=-2p^{2}$. 交点为 $A=(x_{1},kx_{1}+p)$，$B=(x_{2},kx_{2}+p)$，而 $N=(0,-p)$. 因此</p>\n$$\n2S_{\\triangle ANB}=\\left|\\begin{vmatrix}x_{1}&kx_{1}+2p\\\\x_{2}&kx_{2}+2p\\end{vmatrix}\\right|=2p|x_{1}-x_{2}|\n$$\n<p>由根的判别式，$|x_{1}-x_{2}|=2p\\sqrt{k^{2}+2}$，所以</p>\n$$\nS_{\\triangle ANB}=2p^{2}\\sqrt{k^{2}+2}\\geqslant2\\sqrt{2}p^{2}\n$$\n<p>当 $k=0$ 时取得等号，故面积的最小值为 $2\\sqrt{2}p^{2}$.</p></li><li><p>设抛物线上的点 $A$ 为 $\\left(u,\\dfrac{u^2}{2p}\\right)$，则以 $AC$ 为直径的圆上点 $(X,Y)$ 满足</p>\n$$\n(X-u)X+\\left(Y-\\frac{u^{2}}{2p}\\right)(Y-p)=0\n$$\n<p>若水平直线为 $Y=t$，代入圆方程得关于 $X$ 的二次方程，其两根之差的平方，也就是弦长平方，为</p>\n$$\nL^{2}=u^{2}-4\\left(t-\\frac{u^{2}}{2p}\\right)(t-p)=u^{2}\\left(\\frac{2t}{p}-1\\right)+4t(p-t)\n$$\n<p>要使弦长与任意的 $A$，即与变化的 $u$，无关，必须有 $2\\frac{t}{p}-1=0$，所以 $t=\\frac{p}{2}$. 此时 $L^{2}=p^{2}$，弦长恒为 $p$，故存在所求直线，方程为 $l:y=\\dfrac{p}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设过 $C(0,p)$ 的直线为 $y=kx+p$，与抛物线联立得</p>\n$$\nx^{2}-2pkx-2p^{2}=0\n$$\n<p>设两根为 $x_{1}$，$x_{2}$，则 $x_{1}+x_{2}=2pk$，$x_{1}x_{2}=-2p^{2}$. 交点为 $A=(x_{1},kx_{1}+p)$，$B=(x_{2},kx_{2}+p)$，而 $N=(0,-p)$. 因此</p>\n$$\n2S_{\\triangle ANB}=\\left|\\begin{vmatrix}x_{1}&kx_{1}+2p\\\\x_{2}&kx_{2}+2p\\end{vmatrix}\\right|=2p|x_{1}-x_{2}|\n$$\n<p>由根的判别式，$|x_{1}-x_{2}|=2p\\sqrt{k^{2}+2}$，所以</p>\n$$\nS_{\\triangle ANB}=2p^{2}\\sqrt{k^{2}+2}\\geqslant2\\sqrt{2}p^{2}\n$$\n<p>当 $k=0$ 时取得等号，故面积的最小值为 $2\\sqrt{2}p^{2}$.</p></li><li><p>设抛物线上的点 $A$ 为 $\\left(u,\\dfrac{u^2}{2p}\\right)$，则以 $AC$ 为直径的圆上点 $(X,Y)$ 满足</p>\n$$\n(X-u)X+\\left(Y-\\frac{u^{2}}{2p}\\right)(Y-p)=0\n$$\n<p>若水平直线为 $Y=t$，代入圆方程得关于 $X$ 的二次方程，其两根之差的平方，也就是弦长平方，为</p>\n$$\nL^{2}=u^{2}-4\\left(t-\\frac{u^{2}}{2p}\\right)(t-p)=u^{2}\\left(\\frac{2t}{p}-1\\right)+4t(p-t)\n$$\n<p>要使弦长与任意的 $A$，即与变化的 $u$，无关，必须有 $2\\frac{t}{p}-1=0$，所以 $t=\\frac{p}{2}$. 此时 $L^{2}=p^{2}$，弦长恒为 $p$，故存在所求直线，方程为 $l:y=\\dfrac{p}{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知定义在正实数集上的函数 $f(x) = \\frac{1}{2}x^{2} + 2ax$，$g(x) = 3a^{2}\\ln x + b$，其中 $a > 0$. 设两曲线 $y = f(x)$，$y = g(x)$ 有公共点，且在该点处的切线相同.</p><ol class=\"enumerate\"><li><p>用 $a$ 表示 $b$，并求 $b$ 的最大值；</p></li><li><p>求证：$f(x) \\ge g(x)$（$x > 0$）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设公共点的横坐标为 $x_{0}>0$. 由两曲线在该点相切，得</p>\n$$\nx_{0}+2a=f'(x_{0})=g'(x_{0})=\\frac{3a^{2}}{x_{0}}\n$$\n<p>于是 $x_{0}^{2}+2ax_{0}-3a^{2}=(x_{0}-a)(x_{0}+3a)=0$. 因为 $x_{0}>0$，$a>0$，所以 $x_{0}=a$. 再由公共点的函数值相等，得</p><p>$\\frac{5}{2}a^{2}=3a^{2}\\ln a+b$，$b=\\frac{5}{2}a^{2}-3a^{2}\\ln a$.</p><p>令 $B(a)=\\frac{5}{2}a^{2}-3a^{2}\\ln a$，则</p>\n$$\nB'(a)=2a-6a\\ln a=2a(1-3\\ln a)\n$$\n<p>故 $B$ 在 $(0,\\mathrm{e}^{\\frac{1}{3}})$ 上递增，在 $(\\mathrm{e}^{\\frac{1}{3}},+\\infty)$ 上递减；又 $B(a)\\to0$（$a\\to0^{+}$），且 $B(a)\\to-\\infty$（$a\\to+\\infty$），所以最大值在 $a=\\mathrm{e}^{\\frac{1}{3}}$ 处取得，为 $\\dfrac{3}{2}\\mathrm{e}^{\\frac{2}{3}}$.</p></li><li><p>令 $h(x)=f(x)-g(x)$，代入上式的 $b$ 得 $h(a)=0$. 且</p>\n$$\nh'(x)=x+2a-\\frac{3a^{2}}{x}=\\frac{(x-a)(x+3a)}{x}\n$$\n<p>当 $0<x<a$ 时，$h'(x)<0$；当 $x>a$ 时，$h'(x)>0$. 所以 $h$ 在 $x=a$ 处取得全局最小值 $0$，即对任意 $x>0$，都有 $f(x)-g(x)\\geqslant0$，从而 $f(x)\\ge g(x)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设公共点的横坐标为 $x_{0}>0$. 由两曲线在该点相切，得</p>\n$$\nx_{0}+2a=f'(x_{0})=g'(x_{0})=\\frac{3a^{2}}{x_{0}}\n$$\n<p>于是 $x_{0}^{2}+2ax_{0}-3a^{2}=(x_{0}-a)(x_{0}+3a)=0$. 因为 $x_{0}>0$，$a>0$，所以 $x_{0}=a$. 再由公共点的函数值相等，得</p><p>$\\frac{5}{2}a^{2}=3a^{2}\\ln a+b$，$b=\\frac{5}{2}a^{2}-3a^{2}\\ln a$.</p><p>令 $B(a)=\\frac{5}{2}a^{2}-3a^{2}\\ln a$，则</p>\n$$\nB'(a)=2a-6a\\ln a=2a(1-3\\ln a)\n$$\n<p>故 $B$ 在 $(0,\\mathrm{e}^{\\frac{1}{3}})$ 上递增，在 $(\\mathrm{e}^{\\frac{1}{3}},+\\infty)$ 上递减；又 $B(a)\\to0$（$a\\to0^{+}$），且 $B(a)\\to-\\infty$（$a\\to+\\infty$），所以最大值在 $a=\\mathrm{e}^{\\frac{1}{3}}$ 处取得，为 $\\dfrac{3}{2}\\mathrm{e}^{\\frac{2}{3}}$.</p></li><li><p>令 $h(x)=f(x)-g(x)$，代入上式的 $b$ 得 $h(a)=0$. 且</p>\n$$\nh'(x)=x+2a-\\frac{3a^{2}}{x}=\\frac{(x-a)(x+3a)}{x}\n$$\n<p>当 $0<x<a$ 时，$h'(x)<0$；当 $x>a$ 时，$h'(x)>0$. 所以 $h$ 在 $x=a$ 处取得全局最小值 $0$，即对任意 $x>0$，都有 $f(x)-g(x)\\geqslant0$，从而 $f(x)\\ge g(x)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知 $m$，$n$ 为正整数.</p><ol class=\"enumerate\"><li><p>用数学归纳法证明：当 $x > -1$ 时，$(1 + x)^{m}\\ge 1 + mx$；</p></li><li><p>对于 $n \\ge 6$，已知 $\\left(1 - \\frac{1}{n + 3}\\right)^{n} < \\frac{1}{2}$. 求证 $\\left(1 - \\frac{m}{n + 3}\\right)^{n} < \\frac{1}{2}$，$m = 1$，$2$，$\\cdots$，$n$；</p></li><li><p>求满足等式 $3^{n}+ 4^{n}+ \\cdots + (n + 2)^{n}= (n + 3)^{n}$ 的所有正整数 $n$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $m=1$ 时，$(1+x)^{1}=1+x$，不等式成立. 假设对某个正整数 $m$ 成立，即 $(1+x)^{m}\\geqslant1+mx$. 因为 $x>-1$，所以 $1+x>0$，从而</p>\n$$\n(1+x)^{m+1}\\ge(1+mx)(1+x)=1+(m+1)x+mx^{2}\\geqslant1+(m+1)x\n$$\n<p>由数学归纳法，结论对一切正整数 $m$ 成立.</p></li><li><p>由第（1）问，取 $x=-\\dfrac{1}{n+3}>-1$. 对 $m=1$，$2$，$\\ldots$，$n$，有</p>\n$$\n\\left(1-\\frac{1}{n+3}\\right)^{m}\\ge 1-\\frac{m}{n+3}.\n$$\n<p>因为 $m\\le n$，所以 $1-\\dfrac{m}{n+3}\\ge 1-\\dfrac{n}{n+3}=\\dfrac{3}{n+3}>0$. 两边同取 $n$ 次方，得</p>\n$$\n\\left(1-\\frac{m}{n+3}\\right)^{n}\\le\\left(1-\\frac{1}{n+3}\\right)^{mn}=\\left[\\left(1-\\frac{1}{n+3}\\right)^{n}\\right]^{m}<\\left(\\frac{1}{2}\\right)^{m}\\le\\frac{1}{2}.\n$$\n<p>故结论成立.</p></li><li><p>直接讨论原等式. 对 $n=1$，$2$，$3$，$4$，$5$，左端分别为 $3$，$25$，$216$，$2258$，$28975$，右端分别为 $4$，$25$，$216$，$2401$，$32768$，所以 $n=2$，$3$ 成立，而 $n=1$，$4$，$5$ 不成立.</p><p>当 $n\\geqslant6$ 时，令 $r_{n}=\\left(1-\\dfrac1{n+3}\\right)^{n}$. 对实数 $x\\geqslant6$，令 $H(x)=x\\ln\\left(1-\\dfrac1{x+3}\\right)$，则</p>\n$$\nH'(x)=\\ln\\left(1-\\frac{1}{x+3}\\right)+\\frac{x}{(x+2)(x+3)}< -\\frac{1}{x+3}+\\frac{x}{(x+2)(x+3)}<0\n$$\n<p>所以 $r_{n}$ 递减，且 $r_{n}\\le r_{6}=(\\frac{8}{9})^{6}<\\frac{1}{2}$. 令 $k=n+3$，则</p>\n$$\n\\frac{3^{n}+4^{n}+\\cdots+(n+2)^{n}}{(n+3)^{n}}=\\sum_{j=1}^{n}\\left(1-\\frac{j}{k}\\right)^{n}\n$$\n<p>由第（1）问对 $x=-\\frac{1}{k}$ 的结论，$\\left(1-\\frac{1}{k}\\right)^{j}\\geqslant1-\\frac{j}{k}>0$，故</p>\n$$\n\\left(1-\\frac{j}{k}\\right)^{n}\\le\\left(1-\\frac{1}{k}\\right)^{jn}=r_{n}^{j}\n$$\n<p>于是</p>\n$$\n\\frac{3^{n}+4^{n}+\\cdots+(n+2)^{n}}{(n+3)^{n}}<\\sum_{j=1}^{\\infty}r_{n}^{j}=\\frac{r_{n}}{1-r_{n}}<1\n$$\n<p>因此 $n\\geqslant6$ 时等式不可能成立，综上所有正整数解为 $n=2$，$3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $m=1$ 时，$(1+x)^{1}=1+x$，不等式成立. 假设对某个正整数 $m$ 成立，即 $(1+x)^{m}\\geqslant1+mx$. 因为 $x>-1$，所以 $1+x>0$，从而</p>\n$$\n(1+x)^{m+1}\\ge(1+mx)(1+x)=1+(m+1)x+mx^{2}\\geqslant1+(m+1)x\n$$\n<p>由数学归纳法，结论对一切正整数 $m$ 成立.</p></li><li><p>由第（1）问，取 $x=-\\dfrac{1}{n+3}>-1$. 对 $m=1$，$2$，$\\ldots$，$n$，有</p>\n$$\n\\left(1-\\frac{1}{n+3}\\right)^{m}\\ge 1-\\frac{m}{n+3}.\n$$\n<p>因为 $m\\le n$，所以 $1-\\dfrac{m}{n+3}\\ge 1-\\dfrac{n}{n+3}=\\dfrac{3}{n+3}>0$. 两边同取 $n$ 次方，得</p>\n$$\n\\left(1-\\frac{m}{n+3}\\right)^{n}\\le\\left(1-\\frac{1}{n+3}\\right)^{mn}=\\left[\\left(1-\\frac{1}{n+3}\\right)^{n}\\right]^{m}<\\left(\\frac{1}{2}\\right)^{m}\\le\\frac{1}{2}.\n$$\n<p>故结论成立.</p></li><li><p>直接讨论原等式. 对 $n=1$，$2$，$3$，$4$，$5$，左端分别为 $3$，$25$，$216$，$2258$，$28975$，右端分别为 $4$，$25$，$216$，$2401$，$32768$，所以 $n=2$，$3$ 成立，而 $n=1$，$4$，$5$ 不成立.</p><p>当 $n\\geqslant6$ 时，令 $r_{n}=\\left(1-\\dfrac1{n+3}\\right)^{n}$. 对实数 $x\\geqslant6$，令 $H(x)=x\\ln\\left(1-\\dfrac1{x+3}\\right)$，则</p>\n$$\nH'(x)=\\ln\\left(1-\\frac{1}{x+3}\\right)+\\frac{x}{(x+2)(x+3)}< -\\frac{1}{x+3}+\\frac{x}{(x+2)(x+3)}<0\n$$\n<p>所以 $r_{n}$ 递减，且 $r_{n}\\le r_{6}=(\\frac{8}{9})^{6}<\\frac{1}{2}$. 令 $k=n+3$，则</p>\n$$\n\\frac{3^{n}+4^{n}+\\cdots+(n+2)^{n}}{(n+3)^{n}}=\\sum_{j=1}^{n}\\left(1-\\frac{j}{k}\\right)^{n}\n$$\n<p>由第（1）问对 $x=-\\frac{1}{k}$ 的结论，$\\left(1-\\frac{1}{k}\\right)^{j}\\geqslant1-\\frac{j}{k}>0$，故</p>\n$$\n\\left(1-\\frac{j}{k}\\right)^{n}\\le\\left(1-\\frac{1}{k}\\right)^{jn}=r_{n}^{j}\n$$\n<p>于是</p>\n$$\n\\frac{3^{n}+4^{n}+\\cdots+(n+2)^{n}}{(n+3)^{n}}<\\sum_{j=1}^{\\infty}r_{n}^{j}=\\frac{r_{n}}{1-r_{n}}<1\n$$\n<p>因此 $n\\geqslant6$ 时等式不可能成立，综上所有正整数解为 $n=2$，$3$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

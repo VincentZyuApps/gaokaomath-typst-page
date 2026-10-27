@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -13,297 +13,368 @@
 #problem(1)[
 填表：
 
-\begin{center}
-\renewcommand{\arraystretch}{1.2}
 \setlength{\tabcolsep}{6pt}
-\begin{tabular}{|c|c|c|}
+
 \hline
- & 函数 & 使函数有意义的 $x$ 的实数范围 \\
+
+& 函数 & 使函数有意义的 #mi(`x`) 的实数范围 \\
+
 \hline
-1 & $y=sqrt(-x^2)$ &#blank(){} \\
+
+1 & #mi(`y=\sqrt{-x^{2}}`) &\underline{\hspace{2.5em}} \\
+
 \hline
-2 & $y=sqrt((-x)^2)$ &#blank(){} \\
+
+2 & #mi(`y=\sqrt{(-x)^{2}}`) &\underline{\hspace{2.5em}} \\
+
 \hline
-3 & $y= arcsin ( sin x)$ &#blank(){} \\
+
+3 & #mi(`y=\arcsin(\sin x)`) &\underline{\hspace{2.5em}} \\
+
 \hline
-4 & $y= sin ( arcsin x)$ &#blank(){} \\
+
+4 & #mi(`y=\sin(\arcsin x)`) &\underline{\hspace{2.5em}} \\
+
 \hline
-5 & $y=10^(\l g x)$ &#blank(){} \\
+
+5 & #mi(`y=10^{\lg x}`) &\underline{\hspace{2.5em}} \\
+
 \hline
-6 & $y=\l g 10^x$ &#blank(){} \\
+
+6 & #mi(`y=\lg 10^{x}`) &\underline{\hspace{2.5em}} \\
+
 \hline
-\end{tabular}
-\end{center}
 ]
 
-#answer([依次为 $\{0\}$，$RR$，$RR$，$[-1,1]$，$(0,+ oo )$，$RR$.])
+#answer([依次为 #mi(`\{0\}`)，#mi(`\mathbb{R}`)，#mi(`\mathbb{R}`)，#mi(`[-1,1]`)，#mi(`(0,+\infty)`)，#mi(`\mathbb{R}`).])
 
 #solution[
-+ (1) 根式有意义要求被开方数非负，即 $-x^2 >= 0$，所以 $x^2 <= 0$，从而 $x=0$，定义域为 $\{0\}$.
-+ (2) 因为 $(-x)^2=x^2 >= 0$ 对任意实数 $x$ 都成立，所以定义域为 $RR$.
-+ (3) 对任意 $x in RR$，都有 $-1 <= sin x <= 1$，而 $arcsin t$ 在 $[-1,1]$ 上有意义，所以定义域为 $RR$.
-+ (4) $arcsin x$ 有意义的充要条件是 $-1 <= x <= 1$，故定义域为 $[-1,1]$.
-+ (5) $\l g x$ 有意义的充要条件是 $x>0$，故定义域为 $(0,+ oo )$.
-+ (6) 对任意实数 $x$，都有 $10^x>0$，所以 $\l g 10^x$ 对任意实数 $x$ 有意义，定义域为 $RR$.
++ (1) 
++ (2) 
++ (3) 
++ (4) 
++ (5)
 ]
 
 #part-header("解答题")
 
 #problem(2)[
-+ (1) 求 $(-1+ i )^(20)$ 展开式中第 $15$ 项的数值；
-+ (2) 求 $y= cos ""^2 (x)/(3)$ 的导数.
++ (1)
 ]
 
 #solution[
-+ (1) 由二项式定理，展开式的第 $15$ 项对应 $i$ 的幂为 $14$，因此
-
-$ T_(15)=C_(20)^(14)(-1)^(20-14) i ""^(14)=C_(20)^(14) i ""^(14)=-C_(20)^(14)=-38760 $
-
-这里用到了 $i ""^(14)= i ""^(12) i ""^2=-1$.
-+ (2) 令 $u= cos (x)/(3)$，则 $y=u^2$，且
-
-$ u'=-(1)/(3) sin (x)/(3) $
-
-所以
-
-$ y'=2 u u'=-(2)/(3) cos (x)/(3) sin (x)/(3)=-(1)/(3) sin (2 x)/(3) $
++ (1)
 ]
 
 #problem(3)[
 在平面直角坐标系内，下列方程表示什么曲线？画出它们的图形.
 
 
-+ (1) $\b e g i n{v m a t r i x} 2 x & 1 & 1 \\ -3 y & 2 & 3 \\ 6 & 3 & 4 \e n d{v m a t r i x}=0$；
-+ (2) $\b e g i n{c a s e s} x=1+ cos phi.alt ,\\ y=2 sin phi.alt \e n d{c a s e s}$.
++ (1)
 ]
 
 #solution[
-+ (1) 按第一行展开行列式，得
-
-$ \b e g i n{v m a t r i x} 2 x & 1 & 1 \\ -3 y & 2 & 3 \\ 6 & 3 & 4 \e n d{v m a t r i x} =2 x(8-9)-((-3 y) dot 4 -3 dot 6 )+((-3 y) dot 3 -2 dot 6 ) =-2 x+3 y+6 $
-
-因此原方程等价于 $2 x-3 y-6=0$，即 $y=(2)/(3)x-2$，表示一条直线. 它与 $x$ 轴、$y$ 轴分别交于 $(3,0)$、$(0,-2)$，连接这两点即可作出图形.
-+ (2) 由参数方程有 $x-1= cos phi.alt$、$y=2 sin phi.alt$，于是
-
-$ (x-1)^2+(y^2)/(4)= cos ""^2 phi.alt + sin ""^2 phi.alt =1 $
-
-当 $phi.alt$ 取遍实数时，这条曲线的全部点都被取得，故它表示以 $(1,0)$ 为中心、半轴长分别为 $1$ 和 $2$ 的椭圆. 其顶点为 $(0,0)$、$(2,0)$、$(1,2)$、$(1,-2)$，据此即可作图.
++ (1)
 ]
 
 #problem(4)[
-已知圆锥体的底面半径为 $R$，高为 $H$，求内接于这个圆锥体并且体积最大的圆柱体的高 $h$（如图）.
+已知圆锥体的底面半径为 #mi(`R`)，高为 #mi(`H`)，求内接于这个圆锥体并且体积最大的圆柱体的高 #mi(`h`)（如图）.
 
 
-#align(center)[#image("/papers/1982/img/national_science/q4_fig1.png", width: 44%)]
+#align(center)[#image("/papers/1982/img/national_science/q4_fig1.png", width: 28%)]
+
 
 \FloatBarrier
 ]
 
 #solution[
-设圆柱的底面半径为 $r$，高为 $h$，其中 $0<h<H$. 由圆锥的轴截面中相似三角形关系，圆柱顶面到圆锥顶点的距离为 $H-h$，故
+设圆柱的底面半径为 #mi(`r`)，高为 #mi(`h`)，其中 #mi(`0<h<H`). 由圆锥的轴截面中相似三角形关系，圆柱顶面到圆锥顶点的距离为 #mi(`H-h`)，故
 
-$ (r)/(R)=(H-h)/(H)\L o n g r i g h t a r r o w r=(R(H-h))/(H) $
+
+#align(center)[#mitex(`
+\dfrac{r}{R}=\dfrac{H-h}{H}\Longrightarrow r=\dfrac{R(H-h)}{H}
+`)]
+
 
 圆柱体积为
 
-$ V(h)= pi r^(2) h=(pi R^2)/(H^2)h(H-h)^2 $
 
-在 $0<h<H$ 内求导，得
+#align(center)[#mitex(`
+V(h)=\pi r^{2}h=\dfrac{\pi R^2}{H^2}h(H-h)^{2}
+`)]
 
-$ V'(h)=(pi R^2)/(H^2)(H-h)(H-3 h) $
 
-因此 $0<h<(H)/(3)$ 时 $V'(h)>0$，而 $(H)/(3)<h<H$ 时 $V'(h)<0$. 体积在 $h=(H)/(3)$ 处由增转减，且两端的极限体积均为 $0$，所以最大体积对应的圆柱高为
+在 #mi(`0<h<H`) 内求导，得
 
-$ h=(H)/(3) $
+
+#align(center)[#mitex(`
+V'(h)=\dfrac{\pi R^2}{H^2}(H-h)(H-3h)
+`)]
+
+
+因此 #mi(`0<h<\dfrac{H}{3}`) 时 #mi(`V'(h)>0`)，而 #mi(`\dfrac{H}{3}<h<H`) 时 #mi(`V'(h)<0`). 体积在 #mi(`h=\dfrac{H}{3}`) 处由增转减，且两端的极限体积均为 #mi(`0`)，所以最大体积对应的圆柱高为
+
+
+#align(center)[#mitex(`
+h=\dfrac{H}{3}
+`)]
 ]
 
 #problem(5)[
-设 $0<x<1$，$a>0$，$a != 1$，比较 $| log _a(1-x)|$ 与 $| log _a(1+x)|$ 的大小. （要写出比较过程）
+设 #mi(`0<x<1`)，#mi(`a>0`)，#mi(`a\neq 1`)，比较 #mi(`\left|\log_{a}(1-x)\right|`) 与 #mi(`\left|\log_{a}(1+x)\right|`) 的大小. （要写出比较过程）
 ]
 
 #solution[
-因为 $a>0$ 且 $a\n e q1$，由换底公式
+因为 #mi(`a>0`) 且 #mi(`a\neq1`)，由换底公式
 
-$ | log _a t|=(| ln t|)/(| ln a|) $
 
-又因为 $0<x<1$，所以 $0<1-x<1<1+x$，从而
+#align(center)[#mitex(`
+\left|\log_{a} t\right|=\dfrac{|\ln t|}{|\ln a|}
+`)]
 
-$ | log _a(1-x)|=(- ln (1-x))/(| ln a|) $
+
+又因为 #mi(`0<x<1`)，所以 #mi(`0<1-x<1<1+x`)，从而
+
+
+#align(center)[#mitex(`
+\left|\log_{a}(1-x)\right|=\dfrac{-\ln(1-x)}{|\ln a|}
+`)]
+
 
 以及
 
-$ | log _a(1+x)|=(ln (1+x))/(| ln a|) $
 
-比较分子，注意到 $0<1-x^2<1$，于是 $ln (1-x^2)<0$，即
+#align(center)[#mitex(`
+\left|\log_{a}(1+x)\right|=\dfrac{\ln(1+x)}{|\ln a|}
+`)]
 
-$ - ln (1-x)- ln (1+x)=- ln (1-x^2)>0 $
+
+比较分子，注意到 #mi(`0<1-x^{2}<1`)，于是 #mi(`\ln(1-x^{2})<0`)，即
+
+
+#align(center)[#mitex(`
+-\ln(1-x)-\ln(1+x)=-\ln(1-x^{2})>0
+`)]
+
 
 因此
 
-$ | log _a(1-x)|>| log _a(1+x)| $
+
+#align(center)[#mitex(`
+\left|\log_{a}(1-x)\right|>\left|\log_{a}(1+x)\right|
+`)]
 ]
 
 #problem(6)[
-如图：已知锐角 $angle A O B=2 alpha$ 内有动点 $P$，$P M bot O A$，$P N bot O B$，且四边形 $P M O N$ 的面积等于常数 $c^2$. 今以 $O$ 为极点，$angle A O B$ 的角平分线 $O X$ 为极轴，求动点 $P$ 的轨迹的极坐标方程，并说明它表示什么曲线.
+如图：已知锐角 #mi(`\angle AOB=2\alpha`) 内有动点 #mi(`P`)，#mi(`PM\perp OA`)，#mi(`PN\perp OB`)，且四边形 #mi(`PMON`) 的面积等于常数 #mi(`c^{2}`). 今以 #mi(`O`) 为极点，#mi(`\angle AOB`) 的角平分线 #mi(`OX`) 为极轴，求动点 #mi(`P`) 的轨迹的极坐标方程，并说明它表示什么曲线.
 
 
-#align(center)[#image("/papers/1982/img/national_science/q6_fig1.png", width: 46%)]
+#align(center)[#image("/papers/1982/img/national_science/q6_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设 $O P= rho$，且以角平分线 $O X$ 为极轴，记有向角 $angle X O P= theta$. 由于 $P$ 在角 $A O B$ 内，$- alpha < theta < alpha$. 在直角三角形 $O M P$、$O N P$ 中，分别有 $O M= rho cos ( alpha - theta )$，$P M= rho sin ( alpha - theta )$.
+设 #mi(`OP=\rho`)，且以角平分线 #mi(`OX`) 为极轴，记有向角 #mi(`\angle XOP=\theta`). 由于 #mi(`P`) 在角 #mi(`AOB`) 内，#mi(`-\alpha<\theta<\alpha`). 在直角三角形 #mi(`OMP`)、#mi(`ONP`) 中，分别有 #mi(`OM=\rho\cos(\alpha-\theta)`)，#mi(`PM=\rho\sin(\alpha-\theta)`).
 
-同理，$O N= rho cos ( alpha + theta )$，$P N= rho sin ( alpha + theta )$.
-对角线 $O P$ 将四边形 $P M O N$ 分成这两个直角三角形，所以
+同理，#mi(`ON=\rho\cos(\alpha+\theta)`)，#mi(`PN=\rho\sin(\alpha+\theta)`).
 
-$ c^2=(1)/(2)O M dot P M+(1)/(2)O N dot P N =(rho ""^2)/(4)[ sin (2 alpha -2 theta )+ sin (2 alpha +2 theta )] $
+对角线 #mi(`OP`) 将四边形 #mi(`PMON`) 分成这两个直角三角形，所以
+
+
+#align(center)[#mitex(`
+c^{2}=\dfrac{1}{2}OM\cdot PM+\dfrac{1}{2}ON\cdot PN  =\dfrac{\rho^2}{4}\left[\sin(2\alpha-2\theta)+\sin(2\alpha+2\theta)\right]
+`)]
+
 
 再由和差化积公式，得
 
-$ c^2=(rho ""^2)/(2) sin 2 alpha cos 2 theta $
+
+#align(center)[#mitex(`
+c^{2}=\dfrac{\rho^2}{2}\sin2\alpha\cos2\theta
+`)]
+
 
 故动点轨迹的极坐标方程为
 
-$ rho ""^2 cos 2 theta =(2 c^2)/(sin 2 alpha) $
 
-由 $x= rho cos theta$、$y= rho sin theta$ 以及 $rho ""^2 cos 2 theta =x^2-y^2$，可化为
+#align(center)[#mitex(`
+\rho^{2}\cos2\theta=\dfrac{2c^2}{\sin2\alpha}
+`)]
 
-$ x^2-y^2=(2 c^2)/(sin 2 alpha) $
 
-右端为正，且 $P$ 在角 $A O B$ 内时 $x>0$，所以它表示双曲线 $x^2-y^2=(2 c^2)/(sin 2 alpha)$ 的右支在角 $A O B$ 内的一段.
+由 #mi(`x=\rho\cos\theta`)、#mi(`y=\rho\sin\theta`) 以及 #mi(`\rho^{2}\cos2\theta=x^{2}-y^{2}`)，可化为
+
+
+#align(center)[#mitex(`
+x^{2}-y^{2}=\dfrac{2c^2}{\sin2\alpha}
+`)]
+
+
+右端为正，且 #mi(`P`) 在角 #mi(`AOB`) 内时 #mi(`x>0`)，所以它表示双曲线 #mi(`x^{2}-y^{2}=\dfrac{2c^2}{\sin2\alpha}`) 的右支在角 #mi(`AOB`) 内的一段.
 ]
 
 #problem(7)[
-已知空间四边形 $A B C D$ 中 $A B=B C$，$C D=D A$，$M$，$N$，$P$，$Q$ 分别是边 $A B$，$B C$，$C D$，$D A$ 的中点（如图）. 求证：$M N P Q$ 是一个矩形.
+已知空间四边形 #mi(`ABCD`) 中 #mi(`AB=BC`)，#mi(`CD=DA`)，#mi(`M`)，#mi(`N`)，#mi(`P`)，#mi(`Q`) 分别是边 #mi(`AB`)，#mi(`BC`)，#mi(`CD`)，#mi(`DA`) 的中点（如图）. 求证：#mi(`MNPQ`) 是一个矩形.
 
-\begin{center}
 
-#align(center)[#image("/papers/1982/img/national_science/q7_fig1.png", width: 36%)]
+#align(center)[#image("/papers/1982/img/national_science/q7_fig1.png", width: 28%)]
 
-\end{center}
+
 \FloatBarrier
 ]
 
 #solution[
-设点 $A$，$B$，$C$，$D$ 的位置向量分别为 $bold(a)$，$bold(b)$，$bold(c)$，$bold(d)$. 由中点公式，
+设点 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 的位置向量分别为 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`)，#mi(`\mathbf{c}`)，#mi(`\mathbf{d}`). 由中点公式，
 
-$ arrow(M N)=(1)/(2)(bold(c)-bold(a))=(1)/(2)arrow(A C) $
+
+#align(center)[#mitex(`
+\overrightarrow{MN}=\dfrac{1}{2}(\mathbf{c}-\mathbf{a})=\dfrac{1}{2}\overrightarrow{AC}
+`)]
+
 
 又有
 
-$ arrow(Q P)=(1)/(2)(bold(c)-bold(a)) $
+
+#align(center)[#mitex(`
+\overrightarrow{QP}=\dfrac{1}{2}(\mathbf{c}-\mathbf{a})
+`)]
+
 
 以及
 
-$ arrow(N P)=(1)/(2)(bold(d)-bold(b))=arrow(M Q) $
 
-所以 $M N P Q$ 是平行四边形，且 $M N parallel A C$、$N P parallel B D$.
+#align(center)[#mitex(`
+\overrightarrow{NP}=\dfrac{1}{2}(\mathbf{d}-\mathbf{b})=\overrightarrow{MQ}
+`)]
 
-令 $bold(u)=bold(c)-bold(a)$，$bold(v)=bold(b)-bold(a)$，$bold(w)=bold(d)-bold(a)$. 由 $A B=B C$，有
 
-$ |bold(v)|^2=|bold(u)-bold(v)|^2 $
+所以 #mi(`MNPQ`) 是平行四边形，且 #mi(`MN\parallel AC`)、#mi(`NP\parallel BD`).
 
-从而 $bold(u)\c d o t b o l d(v)=(1)/(2)|bold(u)|^2$. 由 $C D=D A$，有
+令 #mi(`\mathbf{u}=\mathbf{c}-\mathbf{a}`)，#mi(`\mathbf{v}=\mathbf{b}-\mathbf{a}`)，#mi(`\mathbf{w}=\mathbf{d}-\mathbf{a}`). 由 #mi(`AB=BC`)，有
 
-$ |bold(u)-bold(w)|^2=|bold(w)|^2 $
 
-从而 $bold(u)\c d o t b o l d(w)=(1)/(2)|bold(u)|^2$. 因此
+#align(center)[#mitex(`
+|\mathbf{v}|^{2}=|\mathbf{u}-\mathbf{v}|^{2}
+`)]
 
-$ arrow(A C)\c d o t a r r o w(B D)=bold(u) dot (bold(w)-bold(v))=0 $
 
-即 $A C bot B D$. 于是 $M N bot N P$，平行四边形 $M N P Q$ 有一个直角，故 $M N P Q$ 是矩形.
+从而 #mi(`\mathbf{u}\cdot\mathbf{v}=\dfrac{1}{2}|\mathbf{u}|^{2}`). 由 #mi(`CD=DA`)，有
+
+
+#align(center)[#mitex(`
+|\mathbf{u}-\mathbf{w}|^{2}=|\mathbf{w}|^{2}
+`)]
+
+
+从而 #mi(`\mathbf{u}\cdot\mathbf{w}=\dfrac{1}{2}|\mathbf{u}|^{2}`). 因此
+
+
+#align(center)[#mitex(`
+\overrightarrow{AC}\cdot\overrightarrow{BD}=\mathbf{u}\cdot(\mathbf{w}-\mathbf{v})=0
+`)]
+
+
+即 #mi(`AC\perp BD`). 于是 #mi(`MN\perp NP`)，平行四边形 #mi(`MNPQ`) 有一个直角，故 #mi(`MNPQ`) 是矩形.
 ]
 
 #problem(8)[
-抛物线 $y^2=2 p x$ 的内接三角形有两边与抛物线 $x^2=2 q y$ 相切，证明这个三角形的第三边也与 $x^2=2 q y$ 相切.
+抛物线 #mi(`y^{2}=2px`) 的内接三角形有两边与抛物线 #mi(`x^{2}=2qy`) 相切，证明这个三角形的第三边也与 #mi(`x^{2}=2qy`) 相切.
 ]
 
 #solution[
-由于题中两式均表示非退化抛物线，$p$、$q$ 均不为零. 将 $y^2=2 p x$ 上参数为 $t$ 的点写成
+由于题中两式均表示非退化抛物线，#mi(`p`)、#mi(`q`) 均不为零. 将 #mi(`y^{2}=2px`) 上参数为 #mi(`t`) 的点写成
 
-$ T(t)=((p)/(2)t^2,p t) $
 
-参数为 $u$，$v$ 的两点所确定的弦方程为
+#align(center)[#mitex(`
+T(t)=\left(\dfrac{p}{2}t^{2},pt\right)
+`)]
 
-$ 2 x-(u+v)y+p u v=0 $
 
-若这条弦与 $x^2=2 q y$ 相切，先证明 $u+v\n e q0$. 若 $u+v=0$，弦方程为 $2 x-p u^2=0$，它是竖直直线；而 $q\n e q0$ 时，抛物线 $x^2=2 q y$ 在任一点 $(x_0,y_0)$ 处由隐式求导得 $(d y)/(d x)=(x_0)/(q)$，故切线方程为 $2 x_(0) x-2 q y-x_0^2=0$，其斜率有限，不可能是竖直直线，矛盾. 因此可写为
+参数为 #mi(`u`)，#mi(`v`) 的两点所确定的弦方程为
 
-$ y=(2)/(u+v)x+(p u v)/(u+v) $
 
-将其与 $x^2=2 q y$ 联立，所得关于 $x$ 的二次方程必须有重根，故
+#align(center)[#mitex(`
+2x-(u+v)y+puv=0
+`)]
 
-$ ((4 q)/(u+v))^2+(8 q p u v)/(u+v)=0 $
+
+若这条弦与 #mi(`x^{2}=2qy`) 相切，先证明 #mi(`u+v\neq0`). 若 #mi(`u+v=0`)，弦方程为 #mi(`2x-pu^{2}=0`)，它是竖直直线；而 #mi(`q\neq0`) 时，抛物线 #mi(`x^{2}=2qy`) 在任一点 #mi(`\left(x_{0},y_{0}\right)`) 处由隐式求导得 #mi(`\dfrac{dy}{dx}=\dfrac{x_0}{q}`)，故切线方程为 #mi(`2x_{0}x-2qy-x_{0}^{2}=0`)，其斜率有限，不可能是竖直直线，矛盾. 因此可写为
+
+
+#align(center)[#mitex(`
+y=\dfrac{2}{u+v}x+\dfrac{puv}{u+v}
+`)]
+
+
+将其与 #mi(`x^{2}=2qy`) 联立，所得关于 #mi(`x`) 的二次方程必须有重根，故
+
+
+#align(center)[#mitex(`
+\left(\dfrac{4q}{u+v}\right)^{2}+\dfrac{8qpuv}{u+v}=0
+`)]
+
 
 即
 
-$ p u v(u+v)+2 q=0 $
+
+#align(center)[#mitex(`
+puv(u+v)+2q=0
+`)]
 
 
-设三角形三个顶点的参数为 $u$，$v$，$w$，不妨设边 $T(u)T(v)$、$T(v)T(w)$ 与第二条抛物线相切. 由这个相切条件，分别有
+设三角形三个顶点的参数为 #mi(`u`)，#mi(`v`)，#mi(`w`)，不妨设边 #mi(`T(u)T(v)`)、#mi(`T(v)T(w)`) 与第二条抛物线相切. 由这个相切条件，分别有
 
-$ p u v(u+v)+2 q=0 $
+
+#align(center)[#mitex(`
+puv(u+v)+2q=0
+`)]
+
 
 和
 
-$ p v w(v+w)+2 q=0 $
 
-由于 $q\n e q0$，有 $v\n e q0$，两式相减得
+#align(center)[#mitex(`
+pvw(v+w)+2q=0
+`)]
 
-$ u(u+v)=w(v+w) $
+
+由于 #mi(`q\neq0`)，有 #mi(`v\neq0`)，两式相减得
+
+
+#align(center)[#mitex(`
+u(u+v)=w(v+w)
+`)]
+
 
 即
 
-$ (u-w)(u+v+w)=0 $
 
-三角形非退化，所以 $u != w$，从而 $u+v+w=0$. 又因 $v\n e q0$，有 $u+w=-v\n e q0$，因此
+#align(center)[#mitex(`
+(u-w)(u+v+w)=0
+`)]
 
-$ p u w(u+w)+2 q=-p u v w+2 q=p u v(u+v)+2 q=0 $
 
-再由同一相切判定，边 $T(u)T(w)$ 也与 $x^2=2 q y$ 相切，证毕.
+三角形非退化，所以 #mi(`u\neq w`)，从而 #mi(`u+v+w=0`). 又因 #mi(`v\neq0`)，有 #mi(`u+w=-v\neq0`)，因此
+
+
+#align(center)[#mitex(`
+puw(u+w)+2q=-puvw+2q=puv(u+v)+2q=0
+`)]
+
+
+再由同一相切判定，边 #mi(`T(u)T(w)`) 也与 #mi(`x^{2}=2qy`) 相切，证毕.
 ]
 
 #part-header("附加题")
 
 #problem(9)[
-已知数列 $a_1$，$a_2$，$dots.c$，$a_n$，$dots.c$ 和数列 $b_1$，$b_2$，$dots.c$，$b_n$，$dots.c$，其中 $a_1=p$，$b_1=q$，$a_n=p a_(n-1)$，$b_n=q a_(n-1)+r b_(n-1)$（$n >= 2$），$p$，$q$，$r$ 是已知常数，且 $q != 0$，$p>r>0$.
+已知数列 #mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`\cdots`)，#mi(`a_{n}`)，#mi(`\cdots`) 和数列 #mi(`b_{1}`)，#mi(`b_{2}`)，#mi(`\cdots`)，#mi(`b_{n}`)，#mi(`\cdots`)，其中 #mi(`a_{1}=p`)，#mi(`b_{1}=q`)，#mi(`a_{n}=pa_{n-1}`)，#mi(`b_{n}=qa_{n-1}+rb_{n-1}`)（#mi(`n\ge 2`)），#mi(`p`)，#mi(`q`)，#mi(`r`) 是已知常数，且 #mi(`q\neq 0`)，#mi(`p>r>0`).
 
 
-+ (1) 用 $p$，$q$，$r$，$n$ 表示 $b_n$，并用数学归纳法加以证明；
-+ (2) 求 $lim_(n -> oo )(b_n)/(sqrt(a_n^2+b_n^2))$.
++ (1)
 ]
 
 #solution[
-+ (1) 先由 $a_1=p$ 及递推式归纳得到
-
-$ a_n=p^n $
-
-确实，$a_1=p=p^1$；若 $a_(n-1)=p^(n-1)$，则 $a_n=p a_(n-1)=p^n$.
-
-据此猜想
-
-$ b_n=(q(p^n-r^n))/(p-r) $
-
-当 $n=1$ 时，右端为 $q((p-r))/((p-r))=q=b_1$，命题成立. 假设对某个 $n-1 >= 1$ 成立，则
-
-$ b_n=q a_(n-1)+r b_(n-1)=q p^(n-1)+r dot (q(p^(n-1)-r^(n-1)))/(p-r) $
-
-
-$ b_n=(q((p-r)p^(n-1)+r p^(n-1)-r^n))/(p-r)=(q(p^n-r^n))/(p-r) $
-
-所以由数学归纳法，对所有正整数 $n$ 都有
-
-$ b_n=(q(p^n-r^n))/(p-r) $
-+ (2) 因为 $p>r>0$，所以 $p^n>0$，并且
-
-$ (b_n)/(p^n)=(q)/(p-r)(1-((r)/(p))^n)\l o n g r i g h t a r r o w(q)/(p-r) $
-
-于是
-
-$ (b_n)/(sqrt(a_n^2+b_n^2))=((b_n)/(p^n))/(sqrt(1+((b_n)/(p^n))^2)) $
-
-因此
-
-$ lim_(n -> oo )(b_n)/(sqrt(a_n^2+b_n^2))=((q)/((p-r)))/(sqrt(1+(q^2)/((p-r)^2)))=(q)/(sqrt((p-r)^2+q^2)) $
++ (1)
 ]
 

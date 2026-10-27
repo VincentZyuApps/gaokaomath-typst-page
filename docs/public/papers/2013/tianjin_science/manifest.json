@@ -1,8 +1,131 @@
 {
-  "title": "2013年普通高等学校招生全国统一考试",
-  "subtitle": "2013年天津卷（理）",
   "year": "2013",
   "slug": "tianjin_science",
+  "title": "2013年天津卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$[-2, 1]$"
           ],
           "answer": "D",
-          "solution": "由 $A= [-2,2]$，$B=(-\\infty,1]$，所以 $A\\cap B=[-2,1]$，故选 D."
+          "solution": "由 $A= [-2,2]$，$B=(-\\infty,1]$，所以 $A\\cap B=[-2,1]$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,11 +154,13 @@
             "2"
           ],
           "answer": "A",
-          "solution": "<p>三个约束的边界直线分别为 $3x+y-6=0$，$x-y-2=0$ 和 $y=3$. 可行域的顶点为 $(1,3)$，$(5,3)$ 和 $(2,0)$，其中 $(1,3)$ 是第一条边界直线与 $y=3$ 的交点，$(5,3)$ 是第二条边界直线与 $y=3$ 的交点，$(2,0)$ 是前两条边界直线的交点. 线性目标函数在可行域的顶点处取得最小值，且</p><p>$z(1,3)=3-2\\cdot1=1$，$z(5,3)=3-2\\cdot5=-7$，$z(2,0)=0-2\\cdot2=-4$.</p><p>因此 $z$ 的最小值为 $-7$，故选 A.</p>"
+          "solution": "<p>三个约束的边界直线分别为 $3x+y-6=0$，$x-y-2=0$ 和 $y=3$. 可行域的顶点为 $(1,3)$，$(5,3)$ 和 $(2,0)$，其中 $(1,3)$ 是第一条边界直线与 $y=3$ 的交点，$(5,3)$ 是第二条边界直线与 $y=3$ 的交点，$(2,0)$ 是前两条边界直线的交点. 线性目标函数在可行域的顶点处取得最小值，且</p><p>$z(1,3)=3-2\\cdot1=1$，$z(5,3)=3-2\\cdot5=-7$，$z(2,0)=0-2\\cdot2=-4$.</p><p>因此 $z$ 的最小值为 $-7$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
-          "body": "<p>阅读如图的程序框图，运行相应的程序，若输入 $x$ 的值为 1，则输出 $S$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>阅读如图的程序框图，运行相应的程序，若输入 $x$ 的值为 1，则输出 $S$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/tianjin_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "64",
             "73",
@@ -41,7 +168,9 @@
             "585"
           ],
           "answer": "B",
-          "solution": "初始时 $S=0$，$x=1$. 第一次循环后 $S=0+1^{3}=1<50$，于是 $x=2$；第二次循环后 $S=1+2^{3}=9<50$，于是 $x=4$；第三次循环后 $S=9+4^{3}=73\\ge 50$，程序输出 $S=73$，故选 B."
+          "solution": "初始时 $S=0$，$x=1$. 第一次循环后 $S=0+1^{3}=1<50$，于是 $x=2$；第二次循环后 $S=1+2^{3}=9<50$，于是 $x=4$；第三次循环后 $S=9+4^{3}=73\\ge 50$，程序输出 $S=73$，故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +182,9 @@
             "$②③$"
           ],
           "answer": "C",
-          "solution": "<p>命题$①$中，球的体积与半径的三次方成正比，半径变为原来的 $\\frac{1}{2}$ 后，体积变为原来的 $\\left(\\frac{1}{2}\\right)^{3}=\\frac{1}{8}$，命题$①$为真.</p><p>命题$②$不成立. 例如两组数据 $0,2$ 和 $1,1$ 的平均数都为 $1$，但第一组数据的标准差不为零，而第二组数据的标准差为零.</p><p>命题$③$中，圆心为原点，半径为 $\\sqrt{\\frac{1}{2}}=\\frac{1}{\\sqrt{2}}$，原点到直线 $x+y+1=0$ 的距离为 $\\frac{1}{\\sqrt{1^{2}+1^{2}}}=\\frac{1}{\\sqrt{2}}$，所以直线与圆相切，命题$③$为真. 因而真命题的序号为 $①$，$③$，故选 C.</p>"
+          "solution": "<p>命题$①$中，球的体积与半径的三次方成正比，半径变为原来的 $\\frac{1}{2}$ 后，体积变为原来的 $\\left(\\frac{1}{2}\\right)^{3}=\\frac{1}{8}$，命题$①$为真.</p><p>命题$②$不成立. 例如两组数据 $0,2$ 和 $1,1$ 的平均数都为 $1$，但第一组数据的标准差不为零，而第二组数据的标准差为零.</p><p>命题$③$中，圆心为原点，半径为 $\\sqrt{\\frac{1}{2}}=\\frac{1}{\\sqrt{2}}$，原点到直线 $x+y+1=0$ 的距离为 $\\frac{1}{\\sqrt{1^{2}+1^{2}}}=\\frac{1}{\\sqrt{2}}$，所以直线与圆相切，命题$③$为真. 因而真命题的序号为 $①$，$③$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +196,9 @@
             "3"
           ],
           "answer": "C",
-          "solution": "<p>双曲线的渐近线为 $y=\\pm\\frac{b}{a}x$，抛物线 $y^{2}=2px$ 的准线为 $x=-\\frac{p}{2}$. 因此两交点的纵坐标的绝对值均为 $\\frac{bp}{2a}$，从而 $AB=\\frac{bp}{a}$，原点到直线 $AB$ 的距离为 $\\frac{p}{2}$. 所以</p>\n$$\n[\\triangle AOB]=\\frac{1}{2}\\cdot\\frac{bp}{a}\\cdot\\frac{p}{2}=\\frac{bp^{2}}{4a}\n$$\n<p>由双曲线离心率为 $2$，得 $\\frac{c}{a}=2$，即 $c=2a$. 又 $c^{2}=a^{2}+b^{2}$，所以 $b^{2}=3a^{2}$，即 $\\frac{b}{a}=\\sqrt{3}$. 代入面积条件得 $\\frac{\\sqrt{3}p^{2}}{4}=\\sqrt{3}$，故 $p^{2}=4$. 因为 $p>0$，所以 $p=2$，故选 C.</p>"
+          "solution": "<p>双曲线的渐近线为 $y=\\pm\\frac{b}{a}x$，抛物线 $y^{2}=2px$ 的准线为 $x=-\\frac{p}{2}$. 因此两交点的纵坐标的绝对值均为 $\\frac{bp}{2a}$，从而 $AB=\\frac{bp}{a}$，原点到直线 $AB$ 的距离为 $\\frac{p}{2}$. 所以</p>\n$$\n[\\triangle AOB]=\\frac{1}{2}\\cdot\\frac{bp}{a}\\cdot\\frac{p}{2}=\\frac{bp^{2}}{4a}\n$$\n<p>由双曲线离心率为 $2$，得 $\\frac{c}{a}=2$，即 $c=2a$. 又 $c^{2}=a^{2}+b^{2}$，所以 $b^{2}=3a^{2}$，即 $\\frac{b}{a}=\\sqrt{3}$. 代入面积条件得 $\\frac{\\sqrt{3}p^{2}}{4}=\\sqrt{3}$，故 $p^{2}=4$. 因为 $p>0$，所以 $p=2$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +210,9 @@
             "$\\frac{\\sqrt{5}}{5}$"
           ],
           "answer": "C",
-          "solution": "<p>由余弦定理，</p>\n$$\nAC^{2}=AB^{2}+BC^{2}-2AB\\cdot BC\\cos\\angle ABC  =2+9-2\\cdot\\sqrt{2}\\cdot3\\cdot\\frac{\\sqrt{2}}{2}=5\n$$\n<p>所以 $AC=\\sqrt{5}$. 三角形 $ABC$ 的面积既可表示为</p>\n$$\n\\frac{1}{2}AB\\cdot BC\\sin\\angle ABC  =\\frac{1}{2}\\cdot\\sqrt{2}\\cdot3\\cdot\\frac{\\sqrt{2}}{2}=\\frac{3}{2}\n$$\n<p>也可表示为 $\\frac{1}{2}AB\\cdot AC\\sin\\angle BAC$. 因此</p>\n$$\n\\sin\\angle BAC=\\frac{2\\cdot\\frac{3}{2}}{\\sqrt{2}\\cdot\\sqrt{5}}=\\frac{3\\sqrt{10}}{10}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>由余弦定理，</p>\n$$\nAC^{2}=AB^{2}+BC^{2}-2AB\\cdot BC\\cos\\angle ABC  =2+9-2\\cdot\\sqrt{2}\\cdot3\\cdot\\frac{\\sqrt{2}}{2}=5\n$$\n<p>所以 $AC=\\sqrt{5}$. 三角形 $ABC$ 的面积既可表示为</p>\n$$\n\\frac{1}{2}AB\\cdot BC\\sin\\angle ABC  =\\frac{1}{2}\\cdot\\sqrt{2}\\cdot3\\cdot\\frac{\\sqrt{2}}{2}=\\frac{3}{2}\n$$\n<p>也可表示为 $\\frac{1}{2}AB\\cdot AC\\sin\\angle BAC$. 因此</p>\n$$\n\\sin\\angle BAC=\\frac{2\\cdot\\frac{3}{2}}{\\sqrt{2}\\cdot\\sqrt{5}}=\\frac{3\\sqrt{10}}{10}\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +224,9 @@
             "4"
           ],
           "answer": "B",
-          "solution": "<p>定义域为 $x>0$. 方程 $f(x)=0$ 等价于</p><p>$2^{x}|\\log_{0.5}x|=1$.</p><p>当 $0<x<1$ 时，$|\\log_{0.5}x|=-\\log_{2}x$. 令 $\\phi(x)=2^{x}(-\\log_{2}x)$，则</p><p>$\\phi'(x)=2^{x}\\left(-\\ln x-\\frac{1}{x\\ln 2}\\right)<0$，因为 $-x\\ln x\\le\\frac{1}{\\mathrm{e}}<\\frac{1}{\\ln 2}$. 又 $\\phi(0^{+})=+\\infty$，$\\phi(1^{-})=0$，所以 $\\phi(x)=1$ 在 $(0,1)$ 内有且只有一个根.</p><p>当 $x>1$ 时，令 $\\psi(x)=2^{x}\\log_{2}x$，则</p><p>$\\psi'(x)=2^{x}\\left(\\ln2\\cdot\\log_{2}x+\\frac{1}{x\\ln2}\\right)>0$.</p><p>又 $\\psi(1^{+})=0$，$\\psi(+\\infty)=+\\infty$，所以 $\\psi(x)=1$ 在 $(1,+\\infty)$ 内有且只有一个根. 因此零点共有 $2$ 个，故选 B.</p>"
+          "solution": "<p>定义域为 $x>0$. 方程 $f(x)=0$ 等价于</p><p>$2^{x}|\\log_{0.5}x|=1$.</p><p>当 $0<x<1$ 时，$|\\log_{0.5}x|=-\\log_{2}x$. 令 $\\phi(x)=2^{x}(-\\log_{2}x)$，则</p><p>$\\phi'(x)=2^{x}\\left(-\\ln x-\\frac{1}{x\\ln 2}\\right)<0$，因为 $-x\\ln x\\le\\frac{1}{\\mathrm{e}}<\\frac{1}{\\ln 2}$. 又 $\\phi(0^{+})=+\\infty$，$\\phi(1^{-})=0$，所以 $\\phi(x)=1$ 在 $(0,1)$ 内有且只有一个根.</p><p>当 $x>1$ 时，令 $\\psi(x)=2^{x}\\log_{2}x$，则</p><p>$\\psi'(x)=2^{x}\\left(\\ln2\\cdot\\log_{2}x+\\frac{1}{x\\ln2}\\right)>0$.</p><p>又 $\\psi(1^{+})=0$，$\\psi(+\\infty)=+\\infty$，所以 $\\psi(x)=1$ 在 $(1,+\\infty)$ 内有且只有一个根. 因此零点共有 $2$ 个，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +238,9 @@
             "$\\left(-\\infty, \\frac{1 - \\sqrt{5}}{2}\\right)$"
           ],
           "answer": "A",
-          "solution": "<p>取 $x=0$. 若 $a>0$，则 $f(a)=a(1+a^{2})>0=f(0)$，不满足题设；若 $a=0$，不等式也不成立. 因而设 $a=-t$，其中 $t>0$.</p><p>对 $x\\in\\left[-\\frac{1}{2},\\frac{1}{2}\\right]$，有</p>\n$$\nf(x-t)-f(x)=-t\\left[1+(x-t)|x-t|-x|x|\\right]\n$$\n<p>由于 $-t<0$，原不等式对所有这些 $x$ 成立，当且仅当</p><p>$D(x):=x|x|-(x-t)|x-t|<1$.</p><p>当 $-\\frac{1}{2}\\le x\\leqslant0$ 时，$D(x)=t^{2}-2tx$，故最大值为 $t^{2}+t$，在 $x=-\\frac{1}{2}$ 处取得. 当 $0\\le x\\le\\min\\{t,\\frac{1}{2}\\}$ 时，$D(x)=x^{2}+(x-t)^{2}$ 是开口向上的二次函数，其最大值在端点处取得，且不超过 $t^{2}+t$. 当 $t\\le x\\le\\frac{1}{2}$ 时（此区间存在时），$D(x)=2tx-t^{2}$，其最大值为 $t-t^{2}<t^{2}+t$. 因此整个区间上 $D(x)$ 的最大值为 $t^{2}+t$.</p><p>故所需条件为 $t^{2}+t<1$. 结合 $t>0$，得 $0<t<\\frac{\\sqrt{5}-1}{2}$，即</p><p>$\\frac{1-\\sqrt{5}}{2}<a<0$.</p><p>故选 A.</p>"
+          "solution": "<p>取 $x=0$. 若 $a>0$，则 $f(a)=a(1+a^{2})>0=f(0)$，不满足题设；若 $a=0$，不等式也不成立. 因而设 $a=-t$，其中 $t>0$.</p><p>对 $x\\in\\left[-\\frac{1}{2},\\frac{1}{2}\\right]$，有</p>\n$$\nf(x-t)-f(x)=-t\\left[1+(x-t)|x-t|-x|x|\\right]\n$$\n<p>由于 $-t<0$，原不等式对所有这些 $x$ 成立，当且仅当</p><p>$D(x):=x|x|-(x-t)|x-t|<1$.</p><p>当 $-\\frac{1}{2}\\le x\\leqslant0$ 时，$D(x)=t^{2}-2tx$，故最大值为 $t^{2}+t$，在 $x=-\\frac{1}{2}$ 处取得. 当 $0\\le x\\le\\min\\{t,\\frac{1}{2}\\}$ 时，$D(x)=x^{2}+(x-t)^{2}$ 是开口向上的二次函数，其最大值在端点处取得，且不超过 $t^{2}+t$. 当 $t\\le x\\le\\frac{1}{2}$ 时（此区间存在时），$D(x)=2tx-t^{2}$，其最大值为 $t-t^{2}<t^{2}+t$. 因此整个区间上 $D(x)$ 的最大值为 $t^{2}+t$.</p><p>故所需条件为 $t^{2}+t<1$. 结合 $t>0$，得 $0<t<\\frac{\\sqrt{5}-1}{2}$，即</p><p>$\\frac{1-\\sqrt{5}}{2}<a<0$.</p><p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -111,44 +250,56 @@
         {
           "num": 9,
           "body": "已知 $a$，$b\\in\\mathbb{R}$，$\\mathrm{i}$ 是虚数单位. 若 $(a + \\mathrm{i})(1 + \\mathrm{i}) = b\\mathrm{i}$，则 $a + b\\mathrm{i}=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$1+2\\mathrm{i}$",
-          "solution": "展开等式得 $(a+\\mathrm{i})(1+\\mathrm{i})=(a-1)+(a+1)\\mathrm{i}=b\\mathrm{i}$. 比较实部和虚部，得到 $a-1=0$，$a+1=b$，所以 $a=1$，$b=2$，从而 $a+b\\mathrm{i}=1+2\\mathrm{i}$."
+          "choices": [],
+          "answer": "\\(1+2\\mathrm{i}\\)",
+          "solution": "展开等式得 $(a+\\mathrm{i})(1+\\mathrm{i})=(a-1)+(a+1)\\mathrm{i}=b\\mathrm{i}$. 比较实部和虚部，得到 $a-1=0$，$a+1=b$，所以 $a=1$，$b=2$，从而 $a+b\\mathrm{i}=1+2\\mathrm{i}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "$\\left(x - \\frac{1}{\\sqrt{x}}\\right)^{6}$ 的二项展开式中的常数项为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$15$",
-          "solution": "<p>二项展开式的一般项为</p><p>$\\mathrm{C}_{6}^{k} x^{6-k}\\left(-\\frac{1}{\\sqrt{x}}\\right)^{k}=(-1)^{k}\\mathrm{C}_{6}^{k} x^{6-\\frac{3k}{2}}$.</p><p>要取得常数项，需满足 $6-\\frac{3k}{2}=0$，所以 $k=4$. 此时常数项为 $(-1)^{4}\\mathrm{C}_{6}^{4}=15$.</p>"
+          "choices": [],
+          "answer": "\\(15\\)",
+          "solution": "<p>二项展开式的一般项为</p><p>$\\mathrm{C}_{6}^{k} x^{6-k}\\left(-\\frac{1}{\\sqrt{x}}\\right)^{k}=(-1)^{k}\\mathrm{C}_{6}^{k} x^{6-\\frac{3k}{2}}$.</p><p>要取得常数项，需满足 $6-\\frac{3k}{2}=0$，所以 $k=4$. 此时常数项为 $(-1)^{4}\\mathrm{C}_{6}^{4}=15$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "已知圆的极坐标方程为 $\\rho = 4\\cos \\theta$，圆心为 $C$，点 $P$ 的极坐标为 $\\left(4, \\frac{\\pi}{3}\\right)$，则 $|CP| =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$2\\sqrt{3}$",
-          "solution": "由极坐标方程 $\\rho=4\\cos\\theta$，得 $\\rho^{2}=4\\rho\\cos\\theta$，即 $x^{2}+y^{2}=4x$，所以圆心为 $C=(2,0)$. 点 $P$ 的直角坐标为 $\\left(4\\cos\\frac{\\pi}{3},4\\sin\\frac{\\pi}{3}\\right)=(2,2\\sqrt{3})$. 因此 $|CP|=2\\sqrt{3}$."
+          "choices": [],
+          "answer": "\\(2\\sqrt{3}\\)",
+          "solution": "由极坐标方程 $\\rho=4\\cos\\theta$，得 $\\rho^{2}=4\\rho\\cos\\theta$，即 $x^{2}+y^{2}=4x$，所以圆心为 $C=(2,0)$. 点 $P$ 的直角坐标为 $\\left(4\\cos\\frac{\\pi}{3},4\\sin\\frac{\\pi}{3}\\right)=(2,2\\sqrt{3})$. 因此 $|CP|=2\\sqrt{3}$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "在平行四边形 $ABCD$ 中，$AD = 1$，$\\angle BAD = 60^{\\circ}$，$E$ 为 $CD$ 的中点. 若 $\\overrightarrow{AC}\\cdot \\overrightarrow{BE}= 1$，则 $AB$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\frac{1}{2}$",
-          "solution": "<p>设 $\\overrightarrow{AB}=\\mathbf{u}$，$\\overrightarrow{AD}=\\mathbf{v}$，则 $|\\mathbf{v}|=1$，$|\\mathbf{u}|=AB$，且 $\\mathbf{u}\\cdot\\mathbf{v}=AB\\cos60^{\\circ}=\\frac{AB}{2}$. 取 $A$ 为原点，则 $\\overrightarrow{AC}=\\mathbf{u}+\\mathbf{v}$. 因为 $E$ 为 $CD$ 的中点，所以 $\\overrightarrow{BE}=\\mathbf{v}-\\frac{1}{2}\\mathbf{u}$. 于是</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{BE}=(\\mathbf{u}+\\mathbf{v})\\cdot\\left(\\mathbf{v}-\\frac{1}{2}\\mathbf{u}\\right)  =1+\\frac{AB}{4}-\\frac{AB^{2}}{2}\n$$\n<p>由题意该内积等于 $1$，故 $AB\\left(\\frac{1}{4}-\\frac{AB}{2}\\right)=0$. 因平行四边形非退化，$AB>0$，所以 $AB=\\frac{1}{2}$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{1}{2}\\)",
+          "solution": "<p>设 $\\overrightarrow{AB}=\\mathbf{u}$，$\\overrightarrow{AD}=\\mathbf{v}$，则 $|\\mathbf{v}|=1$，$|\\mathbf{u}|=AB$，且 $\\mathbf{u}\\cdot\\mathbf{v}=AB\\cos60^{\\circ}=\\frac{AB}{2}$. 取 $A$ 为原点，则 $\\overrightarrow{AC}=\\mathbf{u}+\\mathbf{v}$. 因为 $E$ 为 $CD$ 的中点，所以 $\\overrightarrow{BE}=\\mathbf{v}-\\frac{1}{2}\\mathbf{u}$. 于是</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{BE}=(\\mathbf{u}+\\mathbf{v})\\cdot\\left(\\mathbf{v}-\\frac{1}{2}\\mathbf{u}\\right)  =1+\\frac{AB}{4}-\\frac{AB^{2}}{2}\n$$\n<p>由题意该内积等于 $1$，故 $AB\\left(\\frac{1}{4}-\\frac{AB}{2}\\right)=0$. 因平行四边形非退化，$AB>0$，所以 $AB=\\frac{1}{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
-          "body": "<p>如图，$\\triangle ABC$ 为圆的内接三角形，$BD$ 为圆的弦，且 $BD \\parallel AC$. 过点 $A$ 作圆的切线与 $DB$ 的延长线交于点 $E$，$AD$ 与 $BC$ 交于点 $F$. 若 $AB = AC$，$AE = 6$，$BD = 5$，则线段 $CF$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{8}{3}$",
-          "solution": "<p>由点 $E$ 的切线与割线定理，$EA^{2}=EB\\cdot ED$. 设 $EB=x$，则 $ED=x+BD=x+5$，所以 $x(x+5)=36$，解得 $x=4$（舍去负根），即 $EB=4$.</p><p>由切线弦定理和 $BD\\parallel AC$，有 $\\angle EAB=\\angle DAC$，又有 $\\angle EBA=\\angle ACD$，故 $\\triangle EAB\\sim\\triangle DAC$. 因 $AB=AC$，相似比为 $1$，于是 $AD=AE=6$，$CD=EB=4$，且 $AB=AC$.</p><p>因 $A$，$B$，$D$，$C$ 四点共圆且 $AC\\parallel BD$，四边形 $ABDC$ 是圆内接梯形，故为等腰梯形，从而 $AB=CD=4$. 结合 $AB=AC$，得 $AC=4$. 等腰梯形的两条对角线相等，所以 $BC=AD=6$. 又因为 $AC\\parallel BD$，且 $F\\in AD$、$F\\in BC$，所以 $\\triangle AFC\\sim\\triangle FDB$，从而</p><p>$\\frac{CF}{FB}=\\frac{AC}{BD}=\\frac{4}{5}$.</p><p>由 $BC=CF+FB=6$，得 $CF=\\frac{4}{4+5}\\cdot6=\\frac{8}{3}$.</p>"
+          "body": "<p>如图，$\\triangle ABC$ 为圆的内接三角形，$BD$ 为圆的弦，且 $BD \\parallel AC$. 过点 $A$ 作圆的切线与 $DB$ 的延长线交于点 $E$，$AD$ 与 $BC$ 交于点 $F$. 若 $AB = AC$，$AE = 6$，$BD = 5$，则线段 $CF$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/tianjin_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{8}{3}\\)",
+          "solution": "<p>由点 $E$ 的切线与割线定理，$EA^{2}=EB\\cdot ED$. 设 $EB=x$，则 $ED=x+BD=x+5$，所以 $x(x+5)=36$，解得 $x=4$（舍去负根），即 $EB=4$.</p><p>由切线弦定理和 $BD\\parallel AC$，有 $\\angle EAB=\\angle DAC$，又有 $\\angle EBA=\\angle ACD$，故 $\\triangle EAB\\sim\\triangle DAC$. 因 $AB=AC$，相似比为 $1$，于是 $AD=AE=6$，$CD=EB=4$，且 $AB=AC$.</p><p>因 $A$，$B$，$D$，$C$ 四点共圆且 $AC\\parallel BD$，四边形 $ABDC$ 是圆内接梯形，故为等腰梯形，从而 $AB=CD=4$. 结合 $AB=AC$，得 $AC=4$. 等腰梯形的两条对角线相等，所以 $BC=AD=6$. 又因为 $AC\\parallel BD$，且 $F\\in AD$、$F\\in BC$，所以 $\\triangle AFC\\sim\\triangle FDB$，从而</p><p>$\\frac{CF}{FB}=\\frac{AC}{BD}=\\frac{4}{5}$.</p><p>由 $BC=CF+FB=6$，得 $CF=\\frac{4}{4+5}\\cdot6=\\frac{8}{3}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "设 $a + b = 2$，$b > 0$，则当 $a =\\underline{\\hspace{2.5em}}{}$ 时，$\\frac{1}{2|a|}+ \\frac{|a|}{b}$ 取得最小值.",
-          "choices": null,
-          "answer": "$-2$",
-          "solution": "<p>因式子中含有 $|a|$，且 $b=2-a>0$. 先讨论 $a>0$. 此时 $0<a<2$，令</p><p>$g(a)=\\frac{1}{2a}+\\frac{a}{2-a}$.</p><p>有 $g'(a)=-\\frac{1}{2a^{2}}+\\frac{2}{(2-a)^{2}}$. 当 $0<a<\\frac{2}{3}$ 时 $g'(a)<0$，当 $\\frac{2}{3}<a<2$ 时 $g'(a)>0$. 令 $g'(a)=0$，得 $2a=2-a$，即 $a=\\frac{2}{3}$，此时 $g(a)=\\frac{5}{4}$，这是正半轴上的最小值.</p><p>再讨论 $a<0$. 令 $t=-a>0$，则 $b=2+t$，且</p><p>$g=\\frac{1}{2t}+\\frac{t}{2+t}$.</p><p>有 $g'(t)=-\\frac{1}{2t^{2}}+\\frac{2}{(2+t)^{2}}$. 当 $0<t<2$ 时 $g'(t)<0$，当 $t>2$ 时 $g'(t)>0$. 令 $g'(t)=0$，得 $2t=2+t$，即 $t=2$，所以 $a=-2$，此时 $g=\\frac{1}{4}+\\frac{1}{2}=\\frac{3}{4}$. 当 $t\\to0^{+}$ 时 $g(t)\\to+\\infty$，当 $t\\to+\\infty$ 时 $g(t)\\to1>\\frac{3}{4}$，结合上述导数符号可知这是负半轴上的最小值.</p><p>比较两个分支的最小值 $\\frac{3}{4}<\\frac{5}{4}$，所以当 $a=-2$ 时原式取得最小值.</p>"
+          "choices": [],
+          "answer": "\\(-2\\)",
+          "solution": "<p>因式子中含有 $|a|$，且 $b=2-a>0$. 先讨论 $a>0$. 此时 $0<a<2$，令</p><p>$g(a)=\\frac{1}{2a}+\\frac{a}{2-a}$.</p><p>有 $g'(a)=-\\frac{1}{2a^{2}}+\\frac{2}{(2-a)^{2}}$. 当 $0<a<\\frac{2}{3}$ 时 $g'(a)<0$，当 $\\frac{2}{3}<a<2$ 时 $g'(a)>0$. 令 $g'(a)=0$，得 $2a=2-a$，即 $a=\\frac{2}{3}$，此时 $g(a)=\\frac{5}{4}$，这是正半轴上的最小值.</p><p>再讨论 $a<0$. 令 $t=-a>0$，则 $b=2+t$，且</p><p>$g=\\frac{1}{2t}+\\frac{t}{2+t}$.</p><p>有 $g'(t)=-\\frac{1}{2t^{2}}+\\frac{2}{(2+t)^{2}}$. 当 $0<t<2$ 时 $g'(t)<0$，当 $t>2$ 时 $g'(t)>0$. 令 $g'(t)=0$，得 $2t=2+t$，即 $t=2$，所以 $a=-2$，此时 $g=\\frac{1}{4}+\\frac{1}{2}=\\frac{3}{4}$. 当 $t\\to0^{+}$ 时 $g(t)\\to+\\infty$，当 $t\\to+\\infty$ 时 $g(t)\\to1>\\frac{3}{4}$，结合上述导数符号可知这是负半轴上的最小值.</p><p>比较两个分支的最小值 $\\frac{3}{4}<\\frac{5}{4}$，所以当 $a=-2$ 时原式取得最小值.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -158,44 +309,56 @@
         {
           "num": 15,
           "body": "<p>已知函数 $f(x) = -\\sqrt{2}\\sin \\left(2x + \\frac{\\pi}{4}\\right) + 6 \\sin x \\cos x - 2 \\cos^{2} x + 1$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的最小正周期；</p></li><li><p>求 $f(x)$ 在区间 $[0, \\frac{\\pi}{2}]$ 上的最大值和最小值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由和差公式、二倍角公式，</p>\n$$\nf(x)=-\\left(\\sin2x+\\cos2x\\right)+3\\sin2x-\\left(1+\\cos2x\\right)+1=2\\sin2x-2\\cos2x=2\\sqrt{2}\\sin\\left(2x-\\frac{\\pi}{4}\\right)\n$$\n<p>因为正弦函数的最小正周期为 $2\\pi$，所以 $f(x)$ 的最小正周期为 $\\pi$.</p></li><li><p>当 $x\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，令 $u=2x$，则 $u\\in[0,\\pi]$，且 $f(x)=2(\\sin u-\\cos u)$. 记 $h(u)=2(\\sin u-\\cos u)$，则 $h'(u)=2(\\sin u+\\cos u)$. 区间内的驻点为 $u=\\frac{3\\pi}{4}$. 比较端点和驻点的函数值：</p><p>$h(0)=-2$，$h(\\pi)=2$，$h\\left(\\frac{3\\pi}{4}\\right)=2\\sqrt{2}$. 因此最大值为 $2\\sqrt{2}$，最小值为 $-2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由和差公式、二倍角公式，</p>\n$$\nf(x)=-\\left(\\sin2x+\\cos2x\\right)+3\\sin2x-\\left(1+\\cos2x\\right)+1=2\\sin2x-2\\cos2x=2\\sqrt{2}\\sin\\left(2x-\\frac{\\pi}{4}\\right)\n$$\n<p>因为正弦函数的最小正周期为 $2\\pi$，所以 $f(x)$ 的最小正周期为 $\\pi$.</p></li><li><p>当 $x\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，令 $u=2x$，则 $u\\in[0,\\pi]$，且 $f(x)=2(\\sin u-\\cos u)$. 记 $h(u)=2(\\sin u-\\cos u)$，则 $h'(u)=2(\\sin u+\\cos u)$. 区间内的驻点为 $u=\\frac{3\\pi}{4}$. 比较端点和驻点的函数值：</p><p>$h(0)=-2$，$h(\\pi)=2$，$h\\left(\\frac{3\\pi}{4}\\right)=2\\sqrt{2}$. 因此最大值为 $2\\sqrt{2}$，最小值为 $-2$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>一个盒子里装有7张卡片，其中有红色卡片4张，编号分别为1， 2， 3， 4；白色卡片3张，编号分别为2， 3， 4. 从盒子中任取4张卡片（假设取到任何一张卡片的可能性相同）.</p><ol class=\"enumerate\"><li><p>求取出的 4 张卡片中，含有编号为 3 的卡片的概率.</p></li><li><p>在取出的 4 张卡片中，红色卡片编号的最大值设为 $X$，求随机变量 $X$ 的分布列和数学期望.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>从 7 张卡片中任取 4 张，共有 $\\mathrm{C}_{7}^{4}=35$ 种等可能结果. 编号为 3 的卡片有红、白两张，不含编号为 3 的卡片时只能从其余 5 张中取 4 张，因此</p><p>$P(\\text{含有编号为 3 的卡片})=1-\\frac{\\mathrm{C}_{5}^{4}}{\\mathrm{C}_{7}^{4}}=1-\\frac{5}{35}=\\frac{6}{7}$.</p></li><li><p>设红色卡片编号的最大值为 $X$. 事件 $X\\le m$ 表示所取卡片中没有编号大于 $m$ 的红色卡片. 因此</p><p>$P(X=1)=\\frac{\\mathrm{C}_{3}^{3}}{\\mathrm{C}_{7}^{4}}=\\frac{1}{35}$，</p><p>$P(X=2)=\\frac{\\mathrm{C}_{5}^{4}-\\mathrm{C}_{3}^{3}}{\\mathrm{C}_{7}^{4}}=\\frac{4}{35}$，</p><p>$P(X=3)=\\frac{\\mathrm{C}_{6}^{4}-\\mathrm{C}_{5}^{4}}{\\mathrm{C}_{7}^{4}}=\\frac{10}{35}=\\frac{2}{7}$，</p><p>$P(X=4)=\\frac{\\mathrm{C}_{7}^{4}-\\mathrm{C}_{6}^{4}}{\\mathrm{C}_{7}^{4}}=\\frac{20}{35}=\\frac{4}{7}$.</p><p>故 $X$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> 1 </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 3 </td><td style=\"text-align: center\"> 4 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\frac{1}{35}$ </td><td style=\"text-align: center\"> $\\frac{4}{35}$ </td><td style=\"text-align: center\"> $\\frac{2}{7}$ </td><td style=\"text-align: center\"> $\\frac{4}{7}$</td></tr></tbody></table></center><p></p><p>数学期望为 $E(X)=1\\cdot\\frac{1}{35}+2\\cdot\\frac{4}{35}+3\\cdot\\frac{2}{7}+4\\cdot\\frac{4}{7}=\\frac{17}{5}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>从 7 张卡片中任取 4 张，共有 $\\mathrm{C}_{7}^{4}=35$ 种等可能结果. 编号为 3 的卡片有红、白两张，不含编号为 3 的卡片时只能从其余 5 张中取 4 张，因此</p><p>$P(\\text{含有编号为 3 的卡片})=1-\\frac{\\mathrm{C}_{5}^{4}}{\\mathrm{C}_{7}^{4}}=1-\\frac{5}{35}=\\frac{6}{7}$.</p></li><li><p>设红色卡片编号的最大值为 $X$. 事件 $X\\le m$ 表示所取卡片中没有编号大于 $m$ 的红色卡片. 因此</p><p>$P(X=1)=\\frac{\\mathrm{C}_{3}^{3}}{\\mathrm{C}_{7}^{4}}=\\frac{1}{35}$，</p><p>$P(X=2)=\\frac{\\mathrm{C}_{5}^{4}-\\mathrm{C}_{3}^{3}}{\\mathrm{C}_{7}^{4}}=\\frac{4}{35}$，</p><p>$P(X=3)=\\frac{\\mathrm{C}_{6}^{4}-\\mathrm{C}_{5}^{4}}{\\mathrm{C}_{7}^{4}}=\\frac{10}{35}=\\frac{2}{7}$，</p><p>$P(X=4)=\\frac{\\mathrm{C}_{7}^{4}-\\mathrm{C}_{6}^{4}}{\\mathrm{C}_{7}^{4}}=\\frac{20}{35}=\\frac{4}{7}$.</p><p>故 $X$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> 1 </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 3 </td><td style=\"text-align: center\"> 4 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$P$ </td><td style=\"text-align: center\"> $\\frac{1}{35}$ </td><td style=\"text-align: center\"> $\\frac{4}{35}$ </td><td style=\"text-align: center\"> $\\frac{2}{7}$ </td><td style=\"text-align: center\"> $\\frac{4}{7}$</td></tr></tbody></table></center><p></p><p>数学期望为 $E(X)=1\\cdot\\frac{1}{35}+2\\cdot\\frac{4}{35}+3\\cdot\\frac{2}{7}+4\\cdot\\frac{4}{7}=\\frac{17}{5}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图所示，在四棱柱 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，侧棱 $A_{1}A \\perp$ 底面 $ABCD$，$AB \\parallel DC$，$AB \\perp AD$，$AD = CD = 1$，$AA_{1}= AB = 2$，$E$ 为棱 $AA_{1}$ 的中点.</p><ol class=\"enumerate\"><li><p>证明： $B_{1}C_{1}\\perp CE$；</p></li><li><p>求二面角 $B_{1}- CE - C_{1}$ 的平面角的正弦值；</p></li><li><p>设点 $M$ 在线段 $C_{1}E$ 上，且直线 $AM$ 与平面 $ADD_{1}A_{1}$ 所成角的正弦值为 $\\frac{\\sqrt{2}}{6}$，求线段 $AM$ 的长.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图所示，在四棱柱 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，侧棱 $A_{1}A \\perp$ 底面 $ABCD$，$AB \\parallel DC$，$AB \\perp AD$，$AD = CD = 1$，$AA_{1}= AB = 2$，$E$ 为棱 $AA_{1}$ 的中点.</p><ol class=\"enumerate\"><li><p>证明： $B_{1}C_{1}\\perp CE$；</p></li><li><p>求二面角 $B_{1}- CE - C_{1}$ 的平面角的正弦值；</p></li><li><p>设点 $M$ 在线段 $C_{1}E$ 上，且直线 $AM$ 与平面 $ADD_{1}A_{1}$ 所成角的正弦值为 $\\frac{\\sqrt{2}}{6}$，求线段 $AM$ 的长.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/tianjin_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>建立直角坐标系，令 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,1,0)$，$C=(1,1,0)$，并令棱柱的高沿 $z$ 轴方向. 则</p><p>$A_{1}=(0,0,2)$，$B_{1}=(2,0,2)$，$C_{1}=(1,1,2)$，$D_{1}=(0,1,2)$，$E=(0,0,1)$.</p><ol class=\"enumerate\"><li><p>$\\overrightarrow{B_{1}C_{1}}=(-1,1,0)$，$\\overrightarrow{CE}=(-1,-1,1)$，所以</p><p>$\\overrightarrow{B_{1}C_{1}}\\cdot\\overrightarrow{CE}=1-1+0=0$.</p><p>故 $B_{1}C_{1}\\perp CE$.</p></li><li><p>取平面 $B_{1}CE$ 和平面 $C_{1}CE$ 的法向量</p><p>$\\mathbf{n}_{1}=\\overrightarrow{CB_{1}}\\times\\overrightarrow{CE}=(1,-3,-2)$，$\\mathbf{n}_{2}=\\overrightarrow{CC_{1}}\\times\\overrightarrow{CE}=(2,-2,0)$.</p><p>两平面夹角的余弦值为</p>\n$$\n\\cos\\alpha=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{8}{\\sqrt{14}\\cdot2\\sqrt{2}}=\\frac{2}{\\sqrt{7}}\n$$\n<p>因此</p><p>$\\sin\\alpha=\\sqrt{1-\\frac{4}{7}}=\\frac{\\sqrt{21}}{7}$.</p></li><li><p>设 $M$ 在线段 $EC_{1}$ 上，令 $M=E+\\lambda(C_{1}-E)$，则 $0\\le\\lambda\\leqslant1$，且 $M=(\\lambda,\\lambda,1+\\lambda)$. 平面 $ADD_{1}A_{1}$ 的方程为 $x=0$，其法向量可取 $\\mathbf{n}=(1,0,0)$. 设直线 $AM$ 与该平面所成的角为 $\\beta$，则</p>\n$$\n\\sin\\beta=\\frac{|\\overrightarrow{AM}\\cdot\\mathbf{n}|}{|\\overrightarrow{AM}|}=\\frac{\\lambda}{\\sqrt{\\lambda^{2}+\\lambda^{2}+(1+\\lambda)^{2}}}=\\frac{\\lambda}{\\sqrt{3\\lambda^{2}+2\\lambda+1}}\n$$\n<p>由题意 $\\frac{\\lambda}{\\sqrt{3\\lambda^{2}+2\\lambda+1}}=\\frac{\\sqrt{2}}{6}$，平方并整理得 $15\\lambda^{2}-2\\lambda-1=0$. 解得 $\\lambda=\\frac{1}{3}$ 或 $\\lambda=-\\frac{1}{5}$，结合 $0\\le\\lambda\\leqslant1$，得 $\\lambda=\\frac{1}{3}$. 所以</p><p>$AM=\\sqrt{\\left(\\frac{1}{3}\\right)^{2}+\\left(\\frac{1}{3}\\right)^{2}+\\left(\\frac{4}{3}\\right)^{2}}=\\sqrt{2}$.</p></li></ol>"
+          "solution": "<p>建立直角坐标系，令 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,1,0)$，$C=(1,1,0)$，并令棱柱的高沿 $z$ 轴方向. 则</p><p>$A_{1}=(0,0,2)$，$B_{1}=(2,0,2)$，$C_{1}=(1,1,2)$，$D_{1}=(0,1,2)$，$E=(0,0,1)$.</p><ol class=\"enumerate\"><li><p>$\\overrightarrow{B_{1}C_{1}}=(-1,1,0)$，$\\overrightarrow{CE}=(-1,-1,1)$，所以</p><p>$\\overrightarrow{B_{1}C_{1}}\\cdot\\overrightarrow{CE}=1-1+0=0$.</p><p>故 $B_{1}C_{1}\\perp CE$.</p></li><li><p>取平面 $B_{1}CE$ 和平面 $C_{1}CE$ 的法向量</p><p>$\\mathbf{n}_{1}=\\overrightarrow{CB_{1}}\\times\\overrightarrow{CE}=(1,-3,-2)$，$\\mathbf{n}_{2}=\\overrightarrow{CC_{1}}\\times\\overrightarrow{CE}=(2,-2,0)$.</p><p>两平面夹角的余弦值为</p>\n$$\n\\cos\\alpha=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{8}{\\sqrt{14}\\cdot2\\sqrt{2}}=\\frac{2}{\\sqrt{7}}\n$$\n<p>因此</p><p>$\\sin\\alpha=\\sqrt{1-\\frac{4}{7}}=\\frac{\\sqrt{21}}{7}$.</p></li><li><p>设 $M$ 在线段 $EC_{1}$ 上，令 $M=E+\\lambda(C_{1}-E)$，则 $0\\le\\lambda\\leqslant1$，且 $M=(\\lambda,\\lambda,1+\\lambda)$. 平面 $ADD_{1}A_{1}$ 的方程为 $x=0$，其法向量可取 $\\mathbf{n}=(1,0,0)$. 设直线 $AM$ 与该平面所成的角为 $\\beta$，则</p>\n$$\n\\sin\\beta=\\frac{|\\overrightarrow{AM}\\cdot\\mathbf{n}|}{|\\overrightarrow{AM}|}=\\frac{\\lambda}{\\sqrt{\\lambda^{2}+\\lambda^{2}+(1+\\lambda)^{2}}}=\\frac{\\lambda}{\\sqrt{3\\lambda^{2}+2\\lambda+1}}\n$$\n<p>由题意 $\\frac{\\lambda}{\\sqrt{3\\lambda^{2}+2\\lambda+1}}=\\frac{\\sqrt{2}}{6}$，平方并整理得 $15\\lambda^{2}-2\\lambda-1=0$. 解得 $\\lambda=\\frac{1}{3}$ 或 $\\lambda=-\\frac{1}{5}$，结合 $0\\le\\lambda\\leqslant1$，得 $\\lambda=\\frac{1}{3}$. 所以</p><p>$AM=\\sqrt{\\left(\\frac{1}{3}\\right)^{2}+\\left(\\frac{1}{3}\\right)^{2}+\\left(\\frac{4}{3}\\right)^{2}}=\\sqrt{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>设椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ （$a > b > 0$）的左焦点为 $F$，离心率为 $\\frac{\\sqrt{3}}{3}$，过点 $F$ 且与 $x$ 轴垂直的直线被椭圆截得的线段长为 $\\frac{4\\sqrt{3}}{3}$.</p><ol class=\"enumerate\"><li><p>求椭圆的方程；</p></li><li><p>设 $A$，$B$ 分别为椭圆的左，右顶点，过点 $F$ 且斜率为 $k$ 的直线与椭圆交于 $C$，$D$ 两点. 若 $\\overrightarrow{AC}\\cdot \\overrightarrow{DB}+ \\overrightarrow{AD}\\cdot \\overrightarrow{CB}= 8$，求 $k$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$，则离心率 $e=\\frac{c}{a}=\\frac{\\sqrt{3}}{3}$，左焦点为 $F=(-c,0)$. 直线 $x=-c$ 与椭圆交点的纵坐标满足</p><p>$\\frac{c^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$，所以弦长为</p>\n$$\n2b\\sqrt{1-\\frac{c^{2}}{a^{2}}}=2b\\sqrt{1-e^{2}}=2b\\sqrt{\\frac{2}{3}}=\\frac{4\\sqrt{3}}{3}\n$$\n<p>由此得 $b^{2}=2$. 又 $c^{2}=a^{2}-b^{2}$，且 $c^{2}=\\frac{a^{2}}{3}$，所以 $\\frac{a^{2}}{3}=a^{2}-2$，解得 $a^{2}=3$. 因而椭圆方程为</p><p>$\\frac{x^{2}}{3}+\\frac{y^{2}}{2}=1$.</p></li><li><p>此时 $A=(-\\sqrt{3},0)$，$B=(\\sqrt{3},0)$，$F=(-1,0)$. 直线过 $F$ 且斜率为 $k$，故交点 $C$，$D$ 的横坐标 $x_{1}$，$x_{2}$ 满足 $y=k(x+1)$ 以及</p>\n$$\n2x^{2}+3k^{2}(x+1)^{2}=6\n$$\n<p>由韦达定理，</p><p>$x_{1}+x_{2}=-\\frac{6k^{2}}{2+3k^{2}}$，$x_{1}x_{2}=\\frac{3k^{2}-6}{2+3k^{2}}$.</p><p>又 $y_{i}=k(x_{i}+1)$，所以</p>\n$$\ny_{1}y_{2}=k^{2}(x_{1}+1)(x_{2}+1)=-\\frac{4k^{2}}{2+3k^{2}}\n$$\n<p>由</p><p>$\\overrightarrow{AC}=(x_{1}+\\sqrt{3},y_{1})$，</p><p>$\\overrightarrow{DB}=(\\sqrt{3}-x_{2},-y_{2})$，</p><p>$\\overrightarrow{AD}=(x_{2}+\\sqrt{3},y_{2})$，</p><p>$\\overrightarrow{CB}=(\\sqrt{3}-x_{1},-y_{1})$，展开向量内积得</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{DB}+\\overrightarrow{AD}\\cdot\\overrightarrow{CB}=6-2(x_{1}x_{2}+y_{1}y_{2})\n$$\n<p>题设等式给出 $x_{1}x_{2}+y_{1}y_{2}=-1$. 又</p><p>$x_{1}x_{2}+y_{1}y_{2}=-\\frac{k^{2}+6}{2+3k^{2}}$，故 $-\\frac{k^{2}+6}{2+3k^{2}}=-1$，解得 $k^{2}=2$. 因此 $k=\\pm\\sqrt{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$，则离心率 $e=\\frac{c}{a}=\\frac{\\sqrt{3}}{3}$，左焦点为 $F=(-c,0)$. 直线 $x=-c$ 与椭圆交点的纵坐标满足</p><p>$\\frac{c^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$，所以弦长为</p>\n$$\n2b\\sqrt{1-\\frac{c^{2}}{a^{2}}}=2b\\sqrt{1-e^{2}}=2b\\sqrt{\\frac{2}{3}}=\\frac{4\\sqrt{3}}{3}\n$$\n<p>由此得 $b^{2}=2$. 又 $c^{2}=a^{2}-b^{2}$，且 $c^{2}=\\frac{a^{2}}{3}$，所以 $\\frac{a^{2}}{3}=a^{2}-2$，解得 $a^{2}=3$. 因而椭圆方程为</p><p>$\\frac{x^{2}}{3}+\\frac{y^{2}}{2}=1$.</p></li><li><p>此时 $A=(-\\sqrt{3},0)$，$B=(\\sqrt{3},0)$，$F=(-1,0)$. 直线过 $F$ 且斜率为 $k$，故交点 $C$，$D$ 的横坐标 $x_{1}$，$x_{2}$ 满足 $y=k(x+1)$ 以及</p>\n$$\n2x^{2}+3k^{2}(x+1)^{2}=6\n$$\n<p>由韦达定理，</p><p>$x_{1}+x_{2}=-\\frac{6k^{2}}{2+3k^{2}}$，$x_{1}x_{2}=\\frac{3k^{2}-6}{2+3k^{2}}$.</p><p>又 $y_{i}=k(x_{i}+1)$，所以</p>\n$$\ny_{1}y_{2}=k^{2}(x_{1}+1)(x_{2}+1)=-\\frac{4k^{2}}{2+3k^{2}}\n$$\n<p>由</p><p>$\\overrightarrow{AC}=(x_{1}+\\sqrt{3},y_{1})$，</p><p>$\\overrightarrow{DB}=(\\sqrt{3}-x_{2},-y_{2})$，</p><p>$\\overrightarrow{AD}=(x_{2}+\\sqrt{3},y_{2})$，</p><p>$\\overrightarrow{CB}=(\\sqrt{3}-x_{1},-y_{1})$，展开向量内积得</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{DB}+\\overrightarrow{AD}\\cdot\\overrightarrow{CB}=6-2(x_{1}x_{2}+y_{1}y_{2})\n$$\n<p>题设等式给出 $x_{1}x_{2}+y_{1}y_{2}=-1$. 又</p><p>$x_{1}x_{2}+y_{1}y_{2}=-\\frac{k^{2}+6}{2+3k^{2}}$，故 $-\\frac{k^{2}+6}{2+3k^{2}}=-1$，解得 $k^{2}=2$. 因此 $k=\\pm\\sqrt{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知首项为 $\\frac{3}{2}$ 的等比数列 $\\{a_{n}\\}$ 不是递减数列. 其前 $n$ 项和为 $S_{n}$ （$n \\in \\mathbb{N}^{*}$），且 $S_{3}+ a_{3}$，$S_{5}+ a_{5}$，$S_{4}+ a_{4}$ 成等差数列.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $T_{n}= S_{n}- \\frac{1}{S_{n}}$ （$n \\in \\mathbb{N}^{*}$），求数列 $\\{T_{n}\\}$ 的最大项的值与最小项的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等比数列的公比为 $q$，并记 $U_{n}=S_{n}+a_{n}$. 则</p><p>$U_{3}=\\frac{3}{2}(1+q+2q^{2})$，$U_{4}=\\frac{3}{2}(1+q+q^{2}+2q^{3})$，$U_{5}=\\frac{3}{2}(1+q+q^{2}+q^{3}+2q^{4})$.</p><p>题目按 $U_{3}$，$U_{5}$，$U_{4}$ 的顺序说明三项成等差数列，所以 $2U_{5}=U_{3}+U_{4}$，即</p><p>$q^{2}(4q^{2}-1)=0$.</p><p>当 $q=0$ 或 $q=\\frac{1}{2}$ 时，数列为递减数列，与题设矛盾，故 $q=-\\frac{1}{2}$. 因此</p><p>$a_{n}=\\frac{3}{2}\\left(-\\frac{1}{2}\\right)^{n-1}$.</p><p>由等比数列求和公式，</p><p>$S_{n}=\\frac{\\frac{3}{2}\\left[1-\\left(-\\frac{1}{2}\\right)^{n}\\right]}{1+\\frac{1}{2}}=1-\\left(-\\frac{1}{2}\\right)^{n}$.</p></li><li><p>令 $h(u)=u-\\frac{1}{u}$，则 $h'(u)=1+\\frac{1}{u^{2}}>0$. 当 $n$ 为奇数时，$S_{n}=1+2^{-n}>1$，且随 $n$ 增大而减小，所以 $T_{n}=h(S_{n})$ 的最大值在 $n=1$ 时取得，为</p><p>$T_{1}=\\frac{3}{2}-\\frac{2}{3}=\\frac{5}{6}$.</p><p>当 $n$ 为偶数时，$S_{n}=1-2^{-n}<1$，且随 $n$ 增大而增大，所以 $T_{n}=h(S_{n})$ 的最小值在 $n=2$ 时取得，为</p><p>$T_{2}=\\frac{3}{4}-\\frac{4}{3}=-\\frac{7}{12}$.</p><p>奇数项的 $T_{n}$ 为正，偶数项的 $T_{n}$ 为负，故数列 $\\{T_{n}\\}$ 的最大项的值为 $\\frac{5}{6}$，最小项的值为 $-\\frac{7}{12}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等比数列的公比为 $q$，并记 $U_{n}=S_{n}+a_{n}$. 则</p><p>$U_{3}=\\frac{3}{2}(1+q+2q^{2})$，$U_{4}=\\frac{3}{2}(1+q+q^{2}+2q^{3})$，$U_{5}=\\frac{3}{2}(1+q+q^{2}+q^{3}+2q^{4})$.</p><p>题目按 $U_{3}$，$U_{5}$，$U_{4}$ 的顺序说明三项成等差数列，所以 $2U_{5}=U_{3}+U_{4}$，即</p><p>$q^{2}(4q^{2}-1)=0$.</p><p>当 $q=0$ 或 $q=\\frac{1}{2}$ 时，数列为递减数列，与题设矛盾，故 $q=-\\frac{1}{2}$. 因此</p><p>$a_{n}=\\frac{3}{2}\\left(-\\frac{1}{2}\\right)^{n-1}$.</p><p>由等比数列求和公式，</p><p>$S_{n}=\\frac{\\frac{3}{2}\\left[1-\\left(-\\frac{1}{2}\\right)^{n}\\right]}{1+\\frac{1}{2}}=1-\\left(-\\frac{1}{2}\\right)^{n}$.</p></li><li><p>令 $h(u)=u-\\frac{1}{u}$，则 $h'(u)=1+\\frac{1}{u^{2}}>0$. 当 $n$ 为奇数时，$S_{n}=1+2^{-n}>1$，且随 $n$ 增大而减小，所以 $T_{n}=h(S_{n})$ 的最大值在 $n=1$ 时取得，为</p><p>$T_{1}=\\frac{3}{2}-\\frac{2}{3}=\\frac{5}{6}$.</p><p>当 $n$ 为偶数时，$S_{n}=1-2^{-n}<1$，且随 $n$ 增大而增大，所以 $T_{n}=h(S_{n})$ 的最小值在 $n=2$ 时取得，为</p><p>$T_{2}=\\frac{3}{4}-\\frac{4}{3}=-\\frac{7}{12}$.</p><p>奇数项的 $T_{n}$ 为正，偶数项的 $T_{n}$ 为负，故数列 $\\{T_{n}\\}$ 的最大项的值为 $\\frac{5}{6}$，最小项的值为 $-\\frac{7}{12}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知函数 $f(x) = x^{2} \\ln x$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的单调区间；</p></li><li><p>证明：对任意的 $t > 0$，存在唯一的 $s$，使 $t = f(s)$.</p></li><li><p>设（2）中所确定的 $s$ 关于 $t$ 的函数为 $s = g(t)$，证明：当 $t > \\mathrm{e}^{2}$ 时，有 $\\frac{2}{5}< \\frac{\\ln g(t)}{\\ln t}< \\frac{1}{2}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,+\\infty)$，且 $f'(x)=2x\\ln x+x=x(2\\ln x+1)$. 因为 $x>0$，所以当 $0<x<\\frac{1}{\\sqrt{\\mathrm{e}}}$ 时 $f'(x)<0$，当 $x>\\frac{1}{\\sqrt{\\mathrm{e}}}$ 时 $f'(x)>0$. 故 $f(x)$ 在 $\\left(0,\\frac{1}{\\sqrt{\\mathrm{e}}}\\right)$ 上单调递减，在 $\\left(\\frac{1}{\\sqrt{\\mathrm{e}}},+\\infty\\right)$ 上单调递增.</p></li><li><p>当 $t>0$ 时，若 $0<s\\leqslant1$，则 $f(s)\\leqslant0$，所以满足 $t=f(s)$ 的 $s$ 必须大于 1. 函数 $f$ 在 $[1,+\\infty)$ 上连续且严格递增，且 $f(1)=0$，$\\lim_{s\\to+\\infty}f(s)=+\\infty$. 因此由连续性存在 $s>1$ 使 $f(s)=t$，由严格单调性知该 $s$ 唯一.</p></li><li><p>由 $t>\\mathrm{e}^{2}=f(\\mathrm{e})$ 及 $f$ 在 $(1,+\\infty)$ 上严格递增，得 $g(t)>\\mathrm{e}$. 令 $u=\\ln g(t)$，则 $u>1$，且</p><p>$\\ln t=\\ln\\left(g(t)^{2}\\ln g(t)\\right)=2u+\\ln u$.</p><p>因为 $u>1$，所以 $2u+\\ln u>2u$，从而 $\\frac{\\ln g(t)}{\\ln t}=\\frac{u}{2u+\\ln u}<\\frac{1}{2}$.</p><p>另一方面，令 $r(u)=u-2\\ln u$，则 $r'(u)=1-\\frac{2}{u}$，故 $r(u)$ 在 $(0,2)$ 上递减、在 $(2,+\\infty)$ 上递增，从而 $r(u)\\ge r(2)=2-2\\ln2>0$. 因此 $u>2\\ln u$，即 $2\\ln u<u$. 于是</p><p>$5u>4u+2\\ln u=2(2u+\\ln u)$，所以 $\\frac{\\ln g(t)}{\\ln t}=\\frac{u}{2u+\\ln u}>\\frac{2}{5}$.</p><p>综上，$\\frac{2}{5}<\\frac{\\ln g(t)}{\\ln t}<\\frac{1}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,+\\infty)$，且 $f'(x)=2x\\ln x+x=x(2\\ln x+1)$. 因为 $x>0$，所以当 $0<x<\\frac{1}{\\sqrt{\\mathrm{e}}}$ 时 $f'(x)<0$，当 $x>\\frac{1}{\\sqrt{\\mathrm{e}}}$ 时 $f'(x)>0$. 故 $f(x)$ 在 $\\left(0,\\frac{1}{\\sqrt{\\mathrm{e}}}\\right)$ 上单调递减，在 $\\left(\\frac{1}{\\sqrt{\\mathrm{e}}},+\\infty\\right)$ 上单调递增.</p></li><li><p>当 $t>0$ 时，若 $0<s\\leqslant1$，则 $f(s)\\leqslant0$，所以满足 $t=f(s)$ 的 $s$ 必须大于 1. 函数 $f$ 在 $[1,+\\infty)$ 上连续且严格递增，且 $f(1)=0$，$\\lim_{s\\to+\\infty}f(s)=+\\infty$. 因此由连续性存在 $s>1$ 使 $f(s)=t$，由严格单调性知该 $s$ 唯一.</p></li><li><p>由 $t>\\mathrm{e}^{2}=f(\\mathrm{e})$ 及 $f$ 在 $(1,+\\infty)$ 上严格递增，得 $g(t)>\\mathrm{e}$. 令 $u=\\ln g(t)$，则 $u>1$，且</p><p>$\\ln t=\\ln\\left(g(t)^{2}\\ln g(t)\\right)=2u+\\ln u$.</p><p>因为 $u>1$，所以 $2u+\\ln u>2u$，从而 $\\frac{\\ln g(t)}{\\ln t}=\\frac{u}{2u+\\ln u}<\\frac{1}{2}$.</p><p>另一方面，令 $r(u)=u-2\\ln u$，则 $r'(u)=1-\\frac{2}{u}$，故 $r(u)$ 在 $(0,2)$ 上递减、在 $(2,+\\infty)$ 上递增，从而 $r(u)\\ge r(2)=2-2\\ln2>0$. 因此 $u>2\\ln u$，即 $2\\ln u<u$. 于是</p><p>$5u>4u+2\\ln u=2(2u+\\ln u)$，所以 $\\frac{\\ln g(t)}{\\ln t}=\\frac{u}{2u+\\ln u}>\\frac{2}{5}$.</p><p>综上，$\\frac{2}{5}<\\frac{\\ln g(t)}{\\ln t}<\\frac{1}{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

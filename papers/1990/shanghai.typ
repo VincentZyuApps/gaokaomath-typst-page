@@ -433,7 +433,9 @@ A=\left[\frac{(a+1)^{2}-(a-1)^{2}}{2},\frac{(a+1)^{2}+(a-1)^{2}}{2}\right]=[2a,a
 
 
 
-[float=inline,max width=0.48\linewidth]img/1990/shanghai/q26_fig1.png
+
+#align(center)[#image("/papers/1990/img/shanghai/q26_fig1.png", width: 28%)]
+
 
 \FloatBarrier
 ]

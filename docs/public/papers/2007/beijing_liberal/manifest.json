@@ -1,8 +1,131 @@
 {
-  "title": "2007年普通高等学校招生全国统一考试",
-  "subtitle": "2007年北京卷（文）",
   "year": "2007",
   "slug": "beijing_liberal",
+  "title": "2007年北京卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "第一或第四象限角"
           ],
           "answer": "C.",
-          "solution": "<p>因为 $\\tan\\theta=\\dfrac{\\sin\\theta}{\\cos\\theta}$，且题设中的式子有意义，所以 $\\cos\\theta\\neq0$. 于是</p><p>$\\cos\\theta\\cdot\\tan\\theta=\\sin\\theta<0$，故 $\\theta$ 是第三或第四象限角，选 C.</p>"
+          "solution": "<p>因为 $\\tan\\theta=\\dfrac{\\sin\\theta}{\\cos\\theta}$，且题设中的式子有意义，所以 $\\cos\\theta\\neq0$. 于是</p><p>$\\cos\\theta\\cdot\\tan\\theta=\\sin\\theta<0$，故 $\\theta$ 是第三或第四象限角，选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +154,9 @@
             "$[9, +\\infty)$"
           ],
           "answer": "B.",
-          "solution": "当 $0<x\\leqslant2$ 时，$f(x)=3^{x}$ 的值域为 $\\left(3^{0},3^{2}\\right]=(1,9]$. 反函数的定义域等于原函数的值域，所以选 B."
+          "solution": "当 $0<x\\leqslant2$ 时，$f(x)=3^{x}$ 的值域为 $\\left(3^{0},3^{2}\\right]=(1,9]$. 反函数的定义域等于原函数的值域，所以选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +168,9 @@
             "$4\\pi$"
           ],
           "answer": "B.",
-          "solution": "<p>由</p><p>$f(x)=\\sin2x-\\cos2x=\\sqrt{2}\\sin\\left(2x-\\dfrac{\\pi}{4}\\right)$，可知其角频率为 $2$，所以最小正周期为 $\\dfrac{2\\pi}{2}=\\pi$，选 B.</p>"
+          "solution": "<p>由</p><p>$f(x)=\\sin2x-\\cos2x=\\sqrt{2}\\sin\\left(2x-\\dfrac{\\pi}{4}\\right)$，可知其角频率为 $2$，所以最小正周期为 $\\dfrac{2\\pi}{2}=\\pi$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +182,9 @@
             "$\\left[\\frac{\\sqrt{2}}{2}, 1\\right)$"
           ],
           "answer": "D.",
-          "solution": "<p>设椭圆半焦距为 $c$，离心率为 $e=\\dfrac{c}{a}$. 两条准线为 $x=\\pm\\dfrac{a}{e}$，因此</p><p>$|MN|=\\dfrac{2a}{e}$，而 $|F_{1}F_{2}|=2c=2ae$. 由题设</p><p>$\\dfrac{2a}{e}\\leqslant2\\cdot2ae$，得 $e^{2}\\ge\\dfrac{1}{2}$. 又 $0<e<1$，故 $e\\in\\left[\\dfrac{\\sqrt{2}}{2},1\\right)$，选 D.</p>"
+          "solution": "<p>设椭圆半焦距为 $c$，离心率为 $e=\\dfrac{c}{a}$. 两条准线为 $x=\\pm\\dfrac{a}{e}$，因此</p><p>$|MN|=\\dfrac{2a}{e}$，而 $|F_{1}F_{2}|=2c=2ae$. 由题设</p><p>$\\dfrac{2a}{e}\\leqslant2\\cdot2ae$，得 $e^{2}\\ge\\dfrac{1}{2}$. 又 $0<e<1$，故 $e\\in\\left[\\dfrac{\\sqrt{2}}{2},1\\right)$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +196,9 @@
             "$\\mathrm{A}_{26}^{2}10^{4}$ 个"
           ],
           "answer": "A.",
-          "solution": "两个英文字母各有 $26$ 种选择，允许重复，故有 $26^{2}=\\left(\\mathrm{C}_{26}^{1}\\right)^{2}$ 种选法. 四个数字互不相同且有顺序，故有 $\\mathrm{A}_{10}^{4}$ 种选法. 所以牌照号码共有 $\\left(\\mathrm{C}_{26}^{1}\\right)^{2}\\mathrm{A}_{10}^{4}$ 个，选 A."
+          "solution": "两个英文字母各有 $26$ 种选择，允许重复，故有 $26^{2}=\\left(\\mathrm{C}_{26}^{1}\\right)^{2}$ 种选法. 四个数字互不相同且有顺序，故有 $\\mathrm{A}_{10}^{4}$ 种选法. 所以牌照号码共有 $\\left(\\mathrm{C}_{26}^{1}\\right)^{2}\\mathrm{A}_{10}^{4}$ 个，选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +210,9 @@
             "$a < 5$ 或 $a \\ge 7$"
           ],
           "answer": "C.",
-          "solution": "不等式组等价于 $0\\le x\\leqslant2$，且 $a\\le y\\le x+5$. 当 $a<5$ 时，直线 $y=a$ 与两条边界 $x=0$，$x=2$ 都相交，区域为四边形；当 $a=5$ 时，左侧交点退化为 $(0,5)$，区域为三角形；当 $5<a<7$ 时，直线 $y=a$ 与 $y=x+5$ 交于 $(a-5,a)$，并与 $x=2$ 相交，区域仍为三角形；当 $a\\geqslant7$ 时，区域至多退化为一点或为空集. 因此 $5\\le a<7$，选 C."
+          "solution": "不等式组等价于 $0\\le x\\leqslant2$，且 $a\\le y\\le x+5$. 当 $a<5$ 时，直线 $y=a$ 与两条边界 $x=0$，$x=2$ 都相交，区域为四边形；当 $a=5$ 时，左侧交点退化为 $(0,5)$，区域为三角形；当 $5<a<7$ 时，直线 $y=a$ 与 $y=x+5$ 交于 $(a-5,a)$，并与 $x=2$ 相交，区域仍为三角形；当 $a\\geqslant7$ 时，区域至多退化为一点或为空集. 因此 $5\\le a<7$，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +224,9 @@
             "存在两条异面直线 $a$，$b$，$a \\subset \\alpha$，$b \\subset \\beta$，$a \\parallel \\beta$，$b \\parallel \\alpha$"
           ],
           "answer": "D.",
-          "solution": "<p>若两平面不平行而相交，设交线为 $l$. 取一条与 $l$ 平行且不在两平面内的直线，可满足选项 A；在平面 $\\alpha$ 内取一条与 $l$ 平行的直线，可满足选项 B；分别在 $\\alpha$，$\\beta$ 内取两条与 $l$ 平行的直线，可满足选项 C. 因而 A，B，C 都不是充分条件.</p><p>对选项 D，$a\\subset\\alpha$ 且 $a\\parallel\\beta$，所以 $a$ 不与 $\\beta$ 相交，只能在平面 $\\alpha$ 内与交线 $l$ 平行；同理 $b\\parallel l$. 于是 $a\\parallel b$，与题设两直线异面矛盾. 因此 $\\alpha$，$\\beta$ 不可能相交，只能平行，选 D.</p>"
+          "solution": "<p>若两平面不平行而相交，设交线为 $l$. 取一条与 $l$ 平行且不在两平面内的直线，可满足选项 A；在平面 $\\alpha$ 内取一条与 $l$ 平行的直线，可满足选项 B；分别在 $\\alpha$，$\\beta$ 内取两条与 $l$ 平行的直线，可满足选项 C. 因而 A，B，C 都不是充分条件.</p><p>对选项 D，$a\\subset\\alpha$ 且 $a\\parallel\\beta$，所以 $a$ 不与 $\\beta$ 相交，只能在平面 $\\alpha$ 内与交线 $l$ 平行；同理 $b\\parallel l$. 于是 $a\\parallel b$，与题设两直线异面矛盾. 因此 $\\alpha$，$\\beta$ 不可能相交，只能平行，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +238,9 @@
             "③"
           ],
           "answer": "C.",
-          "solution": "对函数 $①$，$f(x+2)=|x+4|$ 不是偶函数，且 $f(x)$ 的折点为 $-2$，不满足命题乙. 对函数 $②$，$f(x+2)=x^{2}$ 是偶函数，且 $f(x)=(x-2)^{2}$ 在 $(-\\infty,2)$ 上递减、在 $(2,+\\infty)$ 上递增. 对函数 $③$，$f(x+2)=\\cos x$ 是偶函数，但余弦函数在给出的两个无穷区间上都不保持题述的单调性. 因此只有函数 $②$ 满足两个命题，选 C."
+          "solution": "对函数 $①$，$f(x+2)=|x+4|$ 不是偶函数，且 $f(x)$ 的折点为 $-2$，不满足命题乙. 对函数 $②$，$f(x+2)=x^{2}$ 是偶函数，且 $f(x)=(x-2)^{2}$ 在 $(-\\infty,2)$ 上递减、在 $(2,+\\infty)$ 上递增. 对函数 $③$，$f(x+2)=\\cos x$ 是偶函数，但余弦函数在给出的两个无穷区间上都不保持题述的单调性. 因此只有函数 $②$ 满足两个命题，选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -111,44 +250,56 @@
         {
           "num": 9,
           "body": "$f'(x)$ 是 $f(x) = \\frac{1}{3}x^{3} + 2x + 1$ 的导函数，则 $f'(-1)$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$3$.",
-          "solution": "由幂函数求导法则，$f'(x)=x^{2}+2$. 因而 $f'(-1)=(-1)^{2}+2=3$."
+          "choices": [],
+          "answer": "\\(3\\).",
+          "solution": "由幂函数求导法则，$f'(x)=x^{2}+2$. 因而 $f'(-1)=(-1)^{2}+2=3$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "若数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}= n^{2}- 10n$（$n = 1$，$2$，$3$，$\\dots$），则此数列的通项公式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$2n-11$.",
-          "solution": "<p>当 $n=1$ 时，$a_{1}=S_{1}=1-10=-9=2\\times1-11$. 当 $n\\geqslant2$ 时，</p><p>$a_{n}=S_{n}-S_{n-1}=n^{2}-10n-\\left((n-1)^{2}-10(n-1)\\right)=2n-11$. 所以数列的通项公式为 $a_{n}=2n-11$.</p>"
+          "choices": [],
+          "answer": "\\(2n-11\\).",
+          "solution": "<p>当 $n=1$ 时，$a_{1}=S_{1}=1-10=-9=2\\times1-11$. 当 $n\\geqslant2$ 时，</p><p>$a_{n}=S_{n}-S_{n-1}=n^{2}-10n-\\left((n-1)^{2}-10(n-1)\\right)=2n-11$. 所以数列的通项公式为 $a_{n}=2n-11$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "已知向量 $\\mathbf{a}= (2,4)$，$\\mathbf{b}= (1,1)$. 若向量 $\\mathbf{b}\\perp (\\mathbf{a}+ \\lambda \\mathbf{b})$，则实数 $\\lambda$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$-3$.",
-          "solution": "<p>由垂直条件，$\\mathbf{b}\\cdot\\left(\\mathbf{a}+\\lambda\\mathbf{b}\\right)=0$. 代入 $\\mathbf{a}=(2,4)$，$\\mathbf{b}=(1,1)$，得</p><p>$(1,1)\\cdot(2+\\lambda,4+\\lambda)=6+2\\lambda=0$，所以 $\\lambda=-3$.</p>"
+          "choices": [],
+          "answer": "\\(-3\\).",
+          "solution": "<p>由垂直条件，$\\mathbf{b}\\cdot\\left(\\mathbf{a}+\\lambda\\mathbf{b}\\right)=0$. 代入 $\\mathbf{a}=(2,4)$，$\\mathbf{b}=(1,1)$，得</p><p>$(1,1)\\cdot(2+\\lambda,4+\\lambda)=6+2\\lambda=0$，所以 $\\lambda=-3$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "在 $\\triangle ABC$ 中，若 $\\tan A = \\frac{1}{3}$，$C = 150^{\\circ}$，$BC = 1$，则 $AB =\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\frac{\\sqrt{10}}{2}$.",
-          "solution": "<p>因为 $A+B+C=180^{\\circ}$ 且 $C=150^{\\circ}$，所以 $0<A<30^{\\circ}$，从而 $A$ 为锐角. 由 $\\tan A=\\dfrac{1}{3}$，得 $\\sin A=\\dfrac{1}{\\sqrt{10}}$. 根据正弦定理，</p><p>$\\dfrac{AB}{\\sin C}=\\dfrac{BC}{\\sin A}$，故</p><p>$AB=\\dfrac{\\sin150^{\\circ}}{\\sin A}=\\dfrac{\\frac{1}{2}}{\\frac{1}{\\sqrt{10}}}=\\dfrac{\\sqrt{10}}2$.</p>"
+          "choices": [],
+          "answer": "\\(\\frac{\\sqrt{10}}{2}\\).",
+          "solution": "<p>因为 $A+B+C=180^{\\circ}$ 且 $C=150^{\\circ}$，所以 $0<A<30^{\\circ}$，从而 $A$ 为锐角. 由 $\\tan A=\\dfrac{1}{3}$，得 $\\sin A=\\dfrac{1}{\\sqrt{10}}$. 根据正弦定理，</p><p>$\\dfrac{AB}{\\sin C}=\\dfrac{BC}{\\sin A}$，故</p><p>$AB=\\dfrac{\\sin150^{\\circ}}{\\sin A}=\\dfrac{\\frac{1}{2}}{\\frac{1}{\\sqrt{10}}}=\\dfrac{\\sqrt{10}}2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
-          "body": "<p>2002 年在北京召开的国际数学家大会，会标是以我国古代数学家赵爽的弦图为基础设计的. 弦图是由四个全等直角三角形与一个小正方形拼成的一个大正方形（如图）. 如果小正方形的面积为 $1$，大正方形的面积为 $25$，直角三角形中较小的锐角为 $\\theta$，那么 $\\cos 2\\theta$ 的值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\frac{7}{25}$.",
-          "solution": "<p>设弦图中直角三角形的两条直角边分别为 $u$，$v$，斜边为大正方形的边长 $5$. 小正方形边长为 $1$，故 $|u-v|=1$，且 $u^{2}+v^{2}=25$. 于是</p><p>$2uv=u^{2}+v^{2}-(u-v)^{2}=25-1=24$，从而 $(u+v)^{2}=25+24=49$，即 $u+v=7$. 取 $u>v$，则较小锐角 $\\theta$ 的余弦为 $\\dfrac{u}{5}$，所以</p><p>$\\cos2\\theta=2\\cos^{2}\\theta-1=\\dfrac{2u^2-25}{25}=\\dfrac{u^2-v^2}{25}=\\dfrac{(u-v)(u+v)}{25}=\\dfrac7{25}$.</p>"
+          "body": "<p>2002 年在北京召开的国际数学家大会，会标是以我国古代数学家赵爽的弦图为基础设计的. 弦图是由四个全等直角三角形与一个小正方形拼成的一个大正方形（如图）. 如果小正方形的面积为 $1$，大正方形的面积为 $25$，直角三角形中较小的锐角为 $\\theta$，那么 $\\cos 2\\theta$ 的值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/beijing_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\frac{7}{25}\\).",
+          "solution": "<p>设弦图中直角三角形的两条直角边分别为 $u$，$v$，斜边为大正方形的边长 $5$. 小正方形边长为 $1$，故 $|u-v|=1$，且 $u^{2}+v^{2}=25$. 于是</p><p>$2uv=u^{2}+v^{2}-(u-v)^{2}=25-1=24$，从而 $(u+v)^{2}=25+24=49$，即 $u+v=7$. 取 $u>v$，则较小锐角 $\\theta$ 的余弦为 $\\dfrac{u}{5}$，所以</p><p>$\\cos2\\theta=2\\cos^{2}\\theta-1=\\dfrac{2u^2-25}{25}=\\dfrac{u^2-v^2}{25}=\\dfrac{(u-v)(u+v)}{25}=\\dfrac7{25}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
-          "body": "<p>已知函数 $f(x)$，$g(x)$ 分别由下表给出</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$x$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $3$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$f(x)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table><br>  <br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$x$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $3$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$g(x)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>则 $f[g(1)]$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；当 $g[f(x)] = 2$ 时，$x =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
-          "answer": "$1$，$1$.",
-          "solution": "由表得 $g(1)=3$，所以 $f[g(1)]=f(3)=1$. 又由表可知 $g(t)=2$ 当且仅当 $t=2$，故 $g[f(x)]=2$ 等价于 $f(x)=2$. 查表得 $f(x)=2$ 当且仅当 $x=1$. 因此两空依次为 $1$，$1$."
+          "body": "<p>已知函数 $f(x)$，$g(x)$ 分别由下表给出</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$x$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $3$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$f(x)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td></tr></tbody></table><br>  <br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$x$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $3$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\">$g(x)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td></tr></tbody></table></center><p>则 $f[g(1)]$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；当 $g[f(x)] = 2$ 时，$x =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": [],
+          "answer": "\\(1\\)，\\(1\\).",
+          "solution": "由表得 $g(1)=3$，所以 $f[g(1)]=f(3)=1$. 又由表可知 $g(t)=2$ 当且仅当 $t=2$，故 $g[f(x)]=2$ 等价于 $f(x)=2$. 查表得 $f(x)=2$ 当且仅当 $x=1$. 因此两空依次为 $1$，$1$.",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -158,44 +309,56 @@
         {
           "num": 15,
           "body": "<p>记关于 $x$ 的不等式 $\\frac{x - a}{x + 1}< 0$ 的解集为 $P$，不等式 $|x - 1| \\le 1$ 的解集为 $Q$.</p><ol class=\"enumerate\"><li><p>若 $a = 3$，求 $P$.</p></li><li><p>若 $Q \\subseteq P$，求正数 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=3$ 时，分式的分子、分母分别在 $x=3$，$x=-1$ 处变号. 由于分式小于零时分子、分母异号，且 $x=-1$ 不在定义域内，所以 $P=\\left(-1,3\\right)$.</p></li><li><p>由 $|x-1|\\leqslant1$，得 $Q=[0,2]$. 因为 $a>0$，不等式 $\\dfrac{x-a}{x+1}<0$ 的解集为 $P=\\left(-1,a\\right)$. 要使 $[0,2]\\subset\\left(-1,a\\right)$，只需且必须有 $a>2$. 因此正数 $a$ 的取值范围为 $(2,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=3$ 时，分式的分子、分母分别在 $x=3$，$x=-1$ 处变号. 由于分式小于零时分子、分母异号，且 $x=-1$ 不在定义域内，所以 $P=\\left(-1,3\\right)$.</p></li><li><p>由 $|x-1|\\leqslant1$，得 $Q=[0,2]$. 因为 $a>0$，不等式 $\\dfrac{x-a}{x+1}<0$ 的解集为 $P=\\left(-1,a\\right)$. 要使 $[0,2]\\subset\\left(-1,a\\right)$，只需且必须有 $a>2$. 因此正数 $a$ 的取值范围为 $(2,+\\infty)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>数列 $\\{a_{n}\\}$ 中，$a_{1}= 2$，$a_{n + 1}= a_{n}+ cn$（$c$ 是常数，$n = 1$，$2$，$3$，$\\dots$），且 $a_{1}$，$a_{2}$，$a_{3}$ 成公比不为 1 的等比数列.</p><ol class=\"enumerate\"><li><p>求 $c$ 的值.</p></li><li><p>求 $\\{a_{n}\\}$ 的通项公式.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由递推关系，$a_{2}=2+c$，$a_{3}=2+3c$. 因为 $a_{1}$，$a_{2}$，$a_{3}$ 成等比数列，所以</p><p>$(2+c)^{2}=2(2+3c)$，即 $c(c-2)=0$. 当 $c=0$ 时三项均为 $2$，公比为 $1$，不符合题意，故 $c=2$.</p></li><li><p>由递推关系，$a_{n}=a_{1}+c\\sum_{k=1}^{n-1}k=2+2\\cdot\\dfrac{n(n-1)}2=n^{2}-n+2$. 当 $n=1$ 时该式也成立，所以 $a_{n}=n^{2}-n+2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由递推关系，$a_{2}=2+c$，$a_{3}=2+3c$. 因为 $a_{1}$，$a_{2}$，$a_{3}$ 成等比数列，所以</p><p>$(2+c)^{2}=2(2+3c)$，即 $c(c-2)=0$. 当 $c=0$ 时三项均为 $2$，公比为 $1$，不符合题意，故 $c=2$.</p></li><li><p>由递推关系，$a_{n}=a_{1}+c\\sum_{k=1}^{n-1}k=2+2\\cdot\\dfrac{n(n-1)}2=n^{2}-n+2$. 当 $n=1$ 时该式也成立，所以 $a_{n}=n^{2}-n+2$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图，在 $\\mathrm{Rt}\\triangle AOB$ 中，$\\angle OAB = \\frac{\\pi}{6}$，斜边 $AB = 4$. $\\mathrm{Rt}\\triangle AOC$ 可以通过 $\\mathrm{Rt}\\triangle AOB$ 以直线 $AO$ 为轴旋转得到，且二面角 $B-AO-C$ 是直二面角. $D$ 是 $AB$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：平面 $COD$ $\\perp$ 平面 $AOB$.</p></li><li><p>求异面直线 $AO$ 与 $CD$ 所成角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在 $\\mathrm{Rt}\\triangle AOB$ 中，$\\angle OAB = \\frac{\\pi}{6}$，斜边 $AB = 4$. $\\mathrm{Rt}\\triangle AOC$ 可以通过 $\\mathrm{Rt}\\triangle AOB$ 以直线 $AO$ 为轴旋转得到，且二面角 $B-AO-C$ 是直二面角. $D$ 是 $AB$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：平面 $COD$ $\\perp$ 平面 $AOB$.</p></li><li><p>求异面直线 $AO$ 与 $CD$ 所成角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/beijing_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\triangle AOB$，$\\triangle AOC$ 都是直角三角形，所以 $AO\\perp OB$，$AO\\perp OC$. 二面角 $B-AO-C$ 为直二面角，故 $OB\\perp OC$. 于是直线 $OC$ 垂直于平面 $AOB$ 内相交的两条直线 $AO$，$OB$，从而 $OC\\perp\\text{平面 }AOB$. 又 $OC\\subset\\text{平面 }COD$，所以平面 $COD\\perp$ 平面 $AOB$.</p></li><li><p>在平面 $AOB$ 内过 $D$ 作 $DE\\perp OB$，垂足为 $E$，并连接 $CE$. 因为 $D$ 是 $AB$ 的中点，得 $DE\\parallel AO$，$DE=\\dfrac{AO}{2}$，$OE=\\dfrac{OB}{2}$. 在直角三角形 $AOB$ 中，$AO=AB\\cos\\dfrac\\pi6=2\\sqrt{3}$，$OB=AB\\sin\\dfrac\\pi6=2$，所以 $DE=\\sqrt{3}$，$OE=1$. 又 $OC=OB=2$，且 $OC\\perp OB$，故 $CE=\\sqrt{OC^{2}+OE^{2}}=\\sqrt{5}$. 由于 $DE\\parallel AO$，$\\angle CDE$ 就是异面直线 $AO$ 与 $CD$ 所成的角；又 $AO$ 同时垂直于 $OC$ 和 $OE$，故 $DE\\perp$ 平面 $OCE$，从而 $CE\\perp DE$. 在直角三角形 $CDE$ 中，$\\tan\\angle CDE=\\dfrac{CE}{DE}=\\dfrac{\\sqrt{5}}{\\sqrt{3}}=\\dfrac{\\sqrt{15}}3$. 因此所求角为 $\\arctan\\dfrac{\\sqrt{15}}3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\triangle AOB$，$\\triangle AOC$ 都是直角三角形，所以 $AO\\perp OB$，$AO\\perp OC$. 二面角 $B-AO-C$ 为直二面角，故 $OB\\perp OC$. 于是直线 $OC$ 垂直于平面 $AOB$ 内相交的两条直线 $AO$，$OB$，从而 $OC\\perp\\text{平面 }AOB$. 又 $OC\\subset\\text{平面 }COD$，所以平面 $COD\\perp$ 平面 $AOB$.</p></li><li><p>在平面 $AOB$ 内过 $D$ 作 $DE\\perp OB$，垂足为 $E$，并连接 $CE$. 因为 $D$ 是 $AB$ 的中点，得 $DE\\parallel AO$，$DE=\\dfrac{AO}{2}$，$OE=\\dfrac{OB}{2}$. 在直角三角形 $AOB$ 中，$AO=AB\\cos\\dfrac\\pi6=2\\sqrt{3}$，$OB=AB\\sin\\dfrac\\pi6=2$，所以 $DE=\\sqrt{3}$，$OE=1$. 又 $OC=OB=2$，且 $OC\\perp OB$，故 $CE=\\sqrt{OC^{2}+OE^{2}}=\\sqrt{5}$. 由于 $DE\\parallel AO$，$\\angle CDE$ 就是异面直线 $AO$ 与 $CD$ 所成的角；又 $AO$ 同时垂直于 $OC$ 和 $OE$，故 $DE\\perp$ 平面 $OCE$，从而 $CE\\perp DE$. 在直角三角形 $CDE$ 中，$\\tan\\angle CDE=\\dfrac{CE}{DE}=\\dfrac{\\sqrt{5}}{\\sqrt{3}}=\\dfrac{\\sqrt{15}}3$. 因此所求角为 $\\arctan\\dfrac{\\sqrt{15}}3$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>某条公共汽车线路沿线共有 $11$ 个车站（包括起点站和终点站）. 在起点站开出的一辆公共汽车上有 $6$ 位乘客，假设每位乘客在起点站之外的各个车站下车是等可能的，求：</p><ol class=\"enumerate\"><li><p>这 $6$ 位乘客在互不相同的车站下车的概率.</p></li><li><p>这 $6$ 位乘客中恰有 $3$ 人在终点站下车的概率.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>起点站之外共有 $10$ 个车站，每位乘客有 $10$ 种等可能的下车选择，基本事件总数为 $10^{6}$. 六位乘客在互不相同的车站下车的有序选法数为 $\\mathrm{A}_{10}^{6}$，所以所求概率为</p><p>$\\dfrac{\\mathrm{A}_{10}^{6}}{10^6}=\\dfrac{10\\cdot9\\cdot8\\cdot7\\cdot6\\cdot5}{10^6}=\\dfrac{189}{1250}$.</p></li><li><p>先从六位乘客中选出在终点站下车的三人，有 $\\mathrm{C}_{6}^{3}$ 种选法；其余三人不能在终点站下车，各有 $9$ 个车站可选. 所以所求概率为</p><p>$\\dfrac{\\mathrm{C}_6^3\\cdot9^3}{10^6}=\\dfrac{20\\cdot729}{10^6}=\\dfrac{729}{50000}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>起点站之外共有 $10$ 个车站，每位乘客有 $10$ 种等可能的下车选择，基本事件总数为 $10^{6}$. 六位乘客在互不相同的车站下车的有序选法数为 $\\mathrm{A}_{10}^{6}$，所以所求概率为</p><p>$\\dfrac{\\mathrm{A}_{10}^{6}}{10^6}=\\dfrac{10\\cdot9\\cdot8\\cdot7\\cdot6\\cdot5}{10^6}=\\dfrac{189}{1250}$.</p></li><li><p>先从六位乘客中选出在终点站下车的三人，有 $\\mathrm{C}_{6}^{3}$ 种选法；其余三人不能在终点站下车，各有 $9$ 个车站可选. 所以所求概率为</p><p>$\\dfrac{\\mathrm{C}_6^3\\cdot9^3}{10^6}=\\dfrac{20\\cdot729}{10^6}=\\dfrac{729}{50000}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>如图，矩形 $ABCD$ 的两条对角线相交于点 $M(2,0)$，$AB$ 边所在直线的方程为 $x - 3y - 6 = 0$，点 $T(-1,1)$ 在 $AD$ 边所在直线上.</p><ol class=\"enumerate\"><li><p>求 $AD$ 边所在直线的方程.</p></li><li><p>求矩形 $ABCD$ 外接圆的方程.</p></li><li><p>若动圆 $P$ 过点 $N(-2,0)$，且与矩形 $ABCD$ 的外接圆外切，求动圆 $P$ 的圆心的轨迹方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，矩形 $ABCD$ 的两条对角线相交于点 $M(2,0)$，$AB$ 边所在直线的方程为 $x - 3y - 6 = 0$，点 $T(-1,1)$ 在 $AD$ 边所在直线上.</p><ol class=\"enumerate\"><li><p>求 $AD$ 边所在直线的方程.</p></li><li><p>求矩形 $ABCD$ 外接圆的方程.</p></li><li><p>若动圆 $P$ 过点 $N(-2,0)$，且与矩形 $ABCD$ 的外接圆外切，求动圆 $P$ 的圆心的轨迹方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/beijing_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>直线 $AB$ 的斜率为 $\\dfrac{1}{3}$，所以 $AD\\perp AB$ 的斜率为 $-3$. 又 $T(-1,1)$ 在 $AD$ 上，故 $y-1=-3(x+1)$，即 $AD$ 边所在直线的方程为 $3x+y+2=0$.</p></li><li><p>联立 $x-3y-6=0$ 与 $3x+y+2=0$，得 $A=(0,-2)$. 矩形的两条对角线互相平分且相等，所以其交点 $M(2,0)$ 是外接圆圆心. 因而半径 $MA=\\sqrt{(2-0)^{2}+(0+2)^{2}}=2\\sqrt{2}$，外接圆方程为 $\\left(x-2\\right)^{2}+y^{2}=8$.</p></li><li><p>设动圆圆心为 $P(x,y)$，则动圆半径为 $PN$. 固定圆的圆心为 $M(2,0)$，半径为 $2\\sqrt{2}$，外切条件给出 $PM=PN+2\\sqrt{2}$，即 $PM-PN=2\\sqrt{2}$. 因此 $P$ 到两个定点 $M(2,0)$，$N(-2,0)$ 的距离之差为定值 $2\\sqrt{2}$，轨迹是双曲线的左支. 其半焦距为 $c=2$，实半轴为 $a=\\sqrt{2}$，虚半轴满足 $b^{2}=c^{2}-a^{2}=2$. 所以轨迹方程为</p><p>$\\dfrac{x^2}{2}-\\dfrac{y^2}{2}=1$，并取左支 $x\\le-\\sqrt{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>直线 $AB$ 的斜率为 $\\dfrac{1}{3}$，所以 $AD\\perp AB$ 的斜率为 $-3$. 又 $T(-1,1)$ 在 $AD$ 上，故 $y-1=-3(x+1)$，即 $AD$ 边所在直线的方程为 $3x+y+2=0$.</p></li><li><p>联立 $x-3y-6=0$ 与 $3x+y+2=0$，得 $A=(0,-2)$. 矩形的两条对角线互相平分且相等，所以其交点 $M(2,0)$ 是外接圆圆心. 因而半径 $MA=\\sqrt{(2-0)^{2}+(0+2)^{2}}=2\\sqrt{2}$，外接圆方程为 $\\left(x-2\\right)^{2}+y^{2}=8$.</p></li><li><p>设动圆圆心为 $P(x,y)$，则动圆半径为 $PN$. 固定圆的圆心为 $M(2,0)$，半径为 $2\\sqrt{2}$，外切条件给出 $PM=PN+2\\sqrt{2}$，即 $PM-PN=2\\sqrt{2}$. 因此 $P$ 到两个定点 $M(2,0)$，$N(-2,0)$ 的距离之差为定值 $2\\sqrt{2}$，轨迹是双曲线的左支. 其半焦距为 $c=2$，实半轴为 $a=\\sqrt{2}$，虚半轴满足 $b^{2}=c^{2}-a^{2}=2$. 所以轨迹方程为</p><p>$\\dfrac{x^2}{2}-\\dfrac{y^2}{2}=1$，并取左支 $x\\le-\\sqrt{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知函数 $y = kx$ 与 $y = x^{2} + 2$（$x \\ge 0$）的图象相交于 $A(x_{1}, y_{1})$，$B(x_{2}, y_{2})$. $l_{1}$，$l_{2}$ 分别是 $y = x^{2} + 2$（$x \\ge 0$）的图象在 $A$，$B$ 两点的切线，$M$，$N$ 分别是 $l_{1}$，$l_{2}$ 与 $x$ 轴的交点.</p><ol class=\"enumerate\"><li><p>求 $k$ 的取值范围.</p></li><li><p>设 $t$ 为点 $M$ 的横坐标，当 $x_{1}< x_{2}$ 时，写出 $t$ 以 $x_{1}$ 为自变量的函数式，并求其定义域和值域.</p></li><li><p>试比较 $|OM|$ 与 $|ON|$ 的大小，并说明理由（$O$ 是坐标原点）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>联立两图象的方程，得 $x^{2}-kx+2=0$. 由于交点 $A$，$B$ 对应两个不同的正根，需有 $k^{2}-8>0$，且两根之和 $k>0$. 因而 $k>2\\sqrt{2}$.</p></li><li><p>抛物线 $y=x^{2}+2$ 在横坐标为 $x_{1}$ 处的切线为 $y=2x_{1}x-x_{1}^{2}+2$. 令 $y=0$，得点 $M$ 的横坐标 $t=\\dfrac{x_1^2-2}{2x_1}=\\dfrac{x_1}{2}-\\dfrac1{x_1}$. 交点横坐标满足 $x_{1}x_{2}=2$，且 $x_{1}<x_{2}$，所以 $0<x_{1}<\\sqrt{2}$. 函数 $t(x_{1})$ 的导数为 $\\dfrac{1}{2}+\\dfrac1{x_1^2}>0$，故定义域为 $(0,\\sqrt{2})$，值域为 $(-\\infty,0)$.</p></li><li><p>同理，点 $N$ 的横坐标为 $\\dfrac{x_2}{2}-\\dfrac1{x_2}$. 由 $x_{1}x_{2}=2$，有 $\\dfrac{x_2}{2}-\\dfrac1{x_2}=\\dfrac1{x_1}-\\dfrac{x_1}{2}=-\\left(\\dfrac{x_1}{2}-\\dfrac1{x_1}\\right)=-t$. 因此 $|OM|=|t|=|ON|$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>联立两图象的方程，得 $x^{2}-kx+2=0$. 由于交点 $A$，$B$ 对应两个不同的正根，需有 $k^{2}-8>0$，且两根之和 $k>0$. 因而 $k>2\\sqrt{2}$.</p></li><li><p>抛物线 $y=x^{2}+2$ 在横坐标为 $x_{1}$ 处的切线为 $y=2x_{1}x-x_{1}^{2}+2$. 令 $y=0$，得点 $M$ 的横坐标 $t=\\dfrac{x_1^2-2}{2x_1}=\\dfrac{x_1}{2}-\\dfrac1{x_1}$. 交点横坐标满足 $x_{1}x_{2}=2$，且 $x_{1}<x_{2}$，所以 $0<x_{1}<\\sqrt{2}$. 函数 $t(x_{1})$ 的导数为 $\\dfrac{1}{2}+\\dfrac1{x_1^2}>0$，故定义域为 $(0,\\sqrt{2})$，值域为 $(-\\infty,0)$.</p></li><li><p>同理，点 $N$ 的横坐标为 $\\dfrac{x_2}{2}-\\dfrac1{x_2}$. 由 $x_{1}x_{2}=2$，有 $\\dfrac{x_2}{2}-\\dfrac1{x_2}=\\dfrac1{x_1}-\\dfrac{x_1}{2}=-\\left(\\dfrac{x_1}{2}-\\dfrac1{x_1}\\right)=-t$. 因此 $|OM|=|t|=|ON|$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

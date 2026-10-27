@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,83 +11,84 @@
 #part-header("单选题")
 
 #problem(1)[
-圆 $(x + 2)^(2) + y^(2) = 5$ 关于原点 $(0,0)$ 对称的圆的方程为（ ）
-  #choices([$(x - 2)^(2) + y^(2) = 5$], [$x^(2) + (y - 2)^(2) = 5$], [$(x + 2)^(2) + (y + 2)^(2) = 5$], [$x^(2) + (y + 2)^(2) = 5$], cols: 1)
+圆 #mi(`(x + 2)^{2}+ y^{2}= 5`) 关于原点 #mi(`(0,0)`) 对称的圆的方程为（ ）
+  #choices([#mi(`(x - 2)^{2}+ y^{2}= 5`)], [#mi(`x^{2}+ (y - 2)^{2}= 5`)], [#mi(`(x + 2)^{2}+ (y + 2)^{2}= 5`)], [#mi(`x^{2}+ (y + 2)^{2}= 5`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-原圆的圆心为 $(-2,0)$，关于原点对称后圆心变为 $(2,0)$，半径不变，仍为 $sqrt(5)$. 因此所求圆的方程为 $(x-2)^2+y^2=5$，故选 A.
+原圆的圆心为 #mi(`(-2,0)`)，关于原点对称后圆心变为 #mi(`(2,0)`)，半径不变，仍为 #mi(`\sqrt{5}`). 因此所求圆的方程为 #mi(`(x-2)^{2}+y^{2}=5`)，故选 A.
 ]
 
 #problem(2)[
-$( cos (pi)/(12)- sin (pi)/(12))( cos (pi)/(12)+ sin (pi)/(12))=$（ ）
-  #choices([$-(sqrt(3))/(2)$], [$-(1)/(2)$], [$(1)/(2)$], [$(sqrt(3))/(2)$], cols: 2)
+#mi(`\left(\cos \frac{\pi}{12}- \sin \frac{\pi}{12}\right)\left(\cos \frac{\pi}{12}+ \sin \frac{\pi}{12}\right)=`)（ ）
+  #choices([#mi(`-\frac{\sqrt{3}}{2}`)], [#mi(`-\frac{1}{2}`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{\sqrt{3}}{2}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-利用平方差公式，原式等于 $cos ""^2(pi)/(12)- sin ""^2(pi)/(12)= cos (pi)/(6)=(sqrt(3))/(2)$，故选 D.
+利用平方差公式，原式等于 #mi(`\cos^{2}\frac{\pi}{12}-\sin^{2}\frac{\pi}{12}=\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}`)，故选 D.
 ]
 
 #problem(3)[
-若函数 $f(x)$ 是定义在 $RR$ 上的偶函数，在 $(- oo , 0]$ 上是减函数，且 $f(2) = 0$，则使得 $f(x) < 0$ 的 $x$ 的取值范围是（ ）
-  #choices([$(- oo , 2)$], [$(2, + oo )$], [$(- oo , -2) union (2, + oo )$], [$(-2, 2)$], cols: 2)
+若函数 #mi(`f(x)`) 是定义在 #mi(`\mathbb{R}`) 上的偶函数，在 #mi(`(- \infty, 0]`) 上是减函数，且 #mi(`f(2) = 0`)，则使得 #mi(`f(x) < 0`) 的 #mi(`x`) 的取值范围是（ ）
+  #choices([#mi(`(-\infty, 2)`)], [#mi(`(2, +\infty)`)], [#mi(`(-\infty, -2) \cup (2, +\infty)`)], [#mi(`(-2, 2)`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-因为 $f$ 在 $(- oo ,0]$ 上严格递减且为偶函数，$f(-2)=f(2)=0$. 当 $x in (-2,0]$ 时，由严格递减性得 $f(x)<f(-2)=0$；当 $x in [0,2)$ 时，$-x in (-2,0]$，从而 $f(x)=f(-x)<0$. 当 $x<-2$ 时，$f(x)>f(-2)=0$，再由偶性知当 $x>2$ 时也有 $f(x)>0$，而 $x= +- 2$ 时函数值为零. 因此 $f(x)<0$ 的取值范围为 $(-2,2)$，故选 D.
+因为 #mi(`f`) 在 #mi(`(-\infty,0]`) 上严格递减且为偶函数，#mi(`f(-2)=f(2)=0`). 当 #mi(`x\in(-2,0]`) 时，由严格递减性得 #mi(`f(x)<f(-2)=0`)；当 #mi(`x\in[0,2)`) 时，#mi(`-x\in(-2,0]`)，从而 #mi(`f(x)=f(-x)<0`). 当 #mi(`x<-2`) 时，#mi(`f(x)>f(-2)=0`)，再由偶性知当 #mi(`x>2`) 时也有 #mi(`f(x)>0`)，而 #mi(`x=\pm2`) 时函数值为零. 因此 #mi(`f(x)<0`) 的取值范围为 #mi(`(-2,2)`)，故选 D.
 ]
 
 #problem(4)[
-设向量 $bold(a)= (-1, 2)$，$bold(b)= (2, -1)$，则 $(bold(a) dot bold(b))(bold(a)+ bold(b))$ 等于（ ）
-  #choices([$(1, 1)$], [$(-4, -4)$], [$-4$], [$(-2, -2)$], cols: 4)
+设向量 #mi(`\mathbf{a}= (-1, 2)`)，#mi(`\mathbf{b}= (2, -1)`)，则 #mi(`(\mathbf{a}\cdot \mathbf{b})(\mathbf{a}+ \mathbf{b})`) 等于（ ）
+  #choices([#mi(`(1, 1)`)], [#mi(`(-4, -4)`)], [#mi(`-4`)], [#mi(`(-2, -2)`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-先求数量积：$bold(a)\c d o t b o l d(b)=(-1) times 2 +2 times (-1)=-4$，又 $bold(a)+bold(b)=(1,1)$. 所以 $(bold(a)\c d o t b o l d(b))(bold(a)+bold(b))=-4(1,1)=(-4,-4)$，故选 B.
+先求数量积：#mi(`\mathbf{a}\cdot\mathbf{b}=(-1)\times2+2\times(-1)=-4`)，又 #mi(`\mathbf{a}+\mathbf{b}=(1,1)`). 所以 #mi(`(\mathbf{a}\cdot\mathbf{b})(\mathbf{a}+\mathbf{b})=-4(1,1)=(-4,-4)`)，故选 B.
 ]
 
 #problem(5)[
-不等式组 $\b e g i n{c a s e s} |x-2|<2,\\ log _(2)(x^(2)-1)>1 \e n d{c a s e s}$ 的解集为（ ）
-  #choices([$(0, sqrt(3))$], [$(sqrt(3), 2)$], [$(sqrt(3), 4)$], [$(2,4)$], cols: 4)
+不等式组 #mi(`\begin{cases}|x-2|<2,\\  \log_{2}(x^{2}-1)>1\end{cases}`) 的解集为（ ）
+  #choices([#mi(`(0, \sqrt{3})`)], [#mi(`(\sqrt{3}, 2)`)], [#mi(`(\sqrt{3}, 4)`)], [#mi(`(2,4)`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-由 $|x-2|<2$ 得 $0<x<4$. 对数不等式还要求 $x^2-1>0$，且由于底数 $2>1$，有 $log _2(x^2-1)>1 <=> x^2-1>2$，即 $x^2>3$. 与 $0<x<4$ 交集为 $(sqrt(3),4)$，故选 C.
+由 #mi(`|x-2|<2`) 得 #mi(`0<x<4`). 对数不等式还要求 #mi(`x^{2}-1>0`)，且由于底数 #mi(`2>1`)，有 #mi(`\log_{2}(x^{2}-1)>1\Longleftrightarrow x^{2}-1>2`)，即 #mi(`x^{2}>3`). 与 #mi(`0<x<4`) 交集为 #mi(`(\sqrt{3},4)`)，故选 C.
 ]
 
 #problem(6)[
-已知 $alpha$，$beta$ 均为锐角，若 $p: sin alpha < sin ( alpha + beta )$，$q: alpha + beta < (pi)/(2)$，则 $p$ 是 $q$ 的（ ）
+已知 #mi(`\alpha`)，#mi(`\beta`) 均为锐角，若 #mi(`p: \sin \alpha < \sin (\alpha + \beta)`)，#mi(`q: \alpha + \beta < \frac{\pi}{2}`)，则 #mi(`p`) 是 #mi(`q`) 的（ ）
   #choices([充分而不必要条件], [必要而不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由和差化积公式，$sin ( alpha + beta )- sin alpha =2 cos ( alpha +(beta)/(2)) sin (beta)/(2)$. 由于 $beta$ 为锐角，$sin (beta)/(2)>0$，所以命题 $p$ 等价于 $alpha +(beta)/(2)<(pi)/(2)$. 若命题 $q$ 成立，则 $alpha +(beta)/(2)< alpha + beta <(pi)/(2)$，故 $q => p$. 但取 $alpha =(7 pi)/(18)$，$beta =(pi)/(6)$，有 $alpha +(beta)/(2)=(5 pi)/(12)<(pi)/(2)$，命题 $p$ 成立，而 $alpha + beta =(5 pi)/(9)>(pi)/(2)$，命题 $q$ 不成立. 因此 $p$ 是 $q$ 的必要而不充分条件，故选 B.
+由和差化积公式，#mi(`\sin(\alpha+\beta)-\sin\alpha=2\cos\left(\alpha+\frac{\beta}{2}\right)\sin\frac{\beta}{2}`). 由于 #mi(`\beta`) 为锐角，#mi(`\sin\frac{\beta}{2}>0`)，所以命题 #mi(`p`) 等价于 #mi(`\alpha+\frac{\beta}{2}<\frac{\pi}{2}`). 若命题 #mi(`q`) 成立，则 #mi(`\alpha+\frac{\beta}{2}<\alpha+\beta<\frac{\pi}{2}`)，故 #mi(`q\Rightarrow p`). 但取 #mi(`\alpha=\frac{7\pi}{18}`)，#mi(`\beta=\frac{\pi}{6}`)，有 #mi(`\alpha+\frac{\beta}{2}=\frac{5\pi}{12}<\frac{\pi}{2}`)，命题 #mi(`p`) 成立，而 #mi(`\alpha+\beta=\frac{5\pi}{9}>\frac{\pi}{2}`)，命题 #mi(`q`) 不成立. 因此 #mi(`p`) 是 #mi(`q`) 的必要而不充分条件，故选 B.
 ]
 
 #problem(7)[
-对于不重合的两个平面 $alpha$ 与 $beta$，给定下列条件：
+对于不重合的两个平面 #mi(`\alpha`) 与 #mi(`\beta`)，给定下列条件：
 
-\begin{circlelist}
-\item 存在平面 $gamma$，使得 $alpha$，$beta$ 都垂直于 $gamma$；
-\item 存在平面 $gamma$，使得 $alpha$，$beta$ 都平行于 $gamma$；
-\item 存在直线 $l subset alpha$，直线 $m subset beta$，使得 $l parallel m$；
-\item 存在异面直线 $l$，$m$，使得 $l parallel alpha$，$l parallel beta$，$m parallel alpha$，$m parallel beta$.
-\end{circlelist}
 
-其中，可以判定 $alpha$ 与 $beta$ 平行的条件有（ ）
-  #choices([$1$ 个], [$2$ 个], [$3$ 个], [$4$ 个], cols: 4)
++ (1) 存在平面 #mi(`\gamma`)，使得 #mi(`\alpha`)，#mi(`\beta`) 都垂直于 #mi(`\gamma`)；
++ (2) 存在平面 #mi(`\gamma`)，使得 #mi(`\alpha`)，#mi(`\beta`) 都平行于 #mi(`\gamma`)；
++ (3) 存在直线 #mi(`l \subset \alpha`)，直线 #mi(`m \subset \beta`)，使得 #mi(`l \parallel m`)；
++ (4) 存在异面直线 #mi(`l`)，#mi(`m`)，使得 #mi(`l \parallel \alpha`)，#mi(`l \parallel \beta`)，#mi(`m \parallel \alpha`)，#mi(`m \parallel \beta`).
+
+
+
+其中，可以判定 #mi(`\alpha`) 与 #mi(`\beta`) 平行的条件有（ ）
+  #choices([#mi(`1`) 个], [#mi(`2`) 个], [#mi(`3`) 个], [#mi(`4`) 个], cols: 4)
 ]
 
 #answer([B])
@@ -95,199 +96,196 @@ $( cos (pi)/(12)- sin (pi)/(12))( cos (pi)/(12)+ sin (pi)/(12))=$（ ）
 #solution[
 条件 1 不能判定两平面平行，因为两个相交平面也可以同时垂直于同一个平面. 例如取一个平面为水平面，两个不同的竖直平面即可满足条件 1 而相交.
 
-条件 2 可以判定两平面平行：若 $alpha$ 和 $beta$ 都平行于 $gamma$，则它们的法向量都与 $gamma$ 的法向量平行，从而 $alpha$ 与 $beta$ 的法向量平行. 又因两平面不重合，所以 $alpha parallel beta$.
+条件 2 可以判定两平面平行：若 #mi(`\alpha`) 和 #mi(`\beta`) 都平行于 #mi(`\gamma`)，则它们的法向量都与 #mi(`\gamma`) 的法向量平行，从而 #mi(`\alpha`) 与 #mi(`\beta`) 的法向量平行. 又因两平面不重合，所以 #mi(`\alpha\parallel\beta`).
 
-条件 3 不能判定两平面平行. 若 $alpha$ 与 $beta$ 相交于直线 $r$，可分别在两个平面内取与 $r$ 平行的直线 $l$ 和 $m$，仍能满足 $l parallel m$.
+条件 3 不能判定两平面平行. 若 #mi(`\alpha`) 与 #mi(`\beta`) 相交于直线 #mi(`r`)，可分别在两个平面内取与 #mi(`r`) 平行的直线 #mi(`l`) 和 #mi(`m`)，仍能满足 #mi(`l\parallel m`).
 
-条件 4 可以判定两平面平行. 若 $alpha$ 与 $beta$ 相交于直线 $r$，则既平行于 $alpha$ 又平行于 $beta$ 的直线，其方向只能平行于两平面的交线 $r$，所以题设中的 $l$ 与 $m$ 必相互平行，不可能异面. 这与条件 4 矛盾. 因此 $alpha$ 与 $beta$ 不相交；结合两平面不重合，只能有 $alpha parallel beta$.
+条件 4 可以判定两平面平行. 若 #mi(`\alpha`) 与 #mi(`\beta`) 相交于直线 #mi(`r`)，则既平行于 #mi(`\alpha`) 又平行于 #mi(`\beta`) 的直线，其方向只能平行于两平面的交线 #mi(`r`)，所以题设中的 #mi(`l`) 与 #mi(`m`) 必相互平行，不可能异面. 这与条件 4 矛盾. 因此 #mi(`\alpha`) 与 #mi(`\beta`) 不相交；结合两平面不重合，只能有 #mi(`\alpha\parallel\beta`).
 
 所以满足条件 2 和条件 4，共有 2 个条件，故选 B.
 ]
 
 #problem(8)[
-若 $(1 + 2 x)^(n)$ 展开式中含 $x^(3)$ 项的系数等于含 $x$ 项的系数的$8$ 倍，则 $n$ 等于（ ）
-  #choices([$5$], [$7$], [$9$], [$11$], cols: 4)
+若 #mi(`(1 + 2x)^{n}`) 展开式中含 #mi(`x^{3}`) 项的系数等于含 #mi(`x`) 项的系数的#mi(`8`) 倍，则 #mi(`n`) 等于（ ）
+  #choices([#mi(`5`)], [#mi(`7`)], [#mi(`9`)], [#mi(`11`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-在 $(1+2 x)^n$ 的二项展开式中，含 $x$ 项的系数为 $C_n^1 2=2 n$，含 $x^3$ 项的系数为 $C_n^3 2^3=8 C_n^3$. 由题意，$8 C_n^3=8 times 2 n$，所以 $C_n^3=2 n$. 因含有 $x^3$ 项，$n >= 3$，故可约去 $n$，得到 $((n-1)(n-2))/(6)=2$，即 $(n-1)(n-2)=12$. 解得 $n=5$ 或 $n=-2$，舍去负值，故选 A.
+在 #mi(`(1+2x)^{n}`) 的二项展开式中，含 #mi(`x`) 项的系数为 #mi(`\mathrm{C}_{n}^{1} 2=2n`)，含 #mi(`x^{3}`) 项的系数为 #mi(`\mathrm{C}_{n}^{3} 2^{3}=8\mathrm{C}_{n}^{3}`). 由题意，#mi(`8\mathrm{C}_{n}^{3}=8\times2n`)，所以 #mi(`\mathrm{C}_{n}^{3}=2n`). 因含有 #mi(`x^{3}`) 项，#mi(`n\geqslant3`)，故可约去 #mi(`n`)，得到 #mi(`\frac{(n-1)(n-2)}{6}=2`)，即 #mi(`(n-1)(n-2)=12`). 解得 #mi(`n=5`) 或 #mi(`n=-2`)，舍去负值，故选 A.
 ]
 
 #problem(9)[
-若动点 $(x, y)$ 在曲线 $(x^2)/(4)+ (y^2)/(b^2)= 1$（$b > 0$）上变化，则 $x^2 + 2 y$ 的最大值为（ ）
+若动点 #mi(`(x, y)`) 在曲线 #mi(`\frac{x^{2}}{4}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`b > 0`)）上变化，则 #mi(`x^{2} + 2y`) 的最大值为（ ）
 
-\frac{b^2}{4} +4, & 0 < b < 2,\\
-2b, & b\geqslant 2.
-\end{cases}\)}
-    {$(b^2)/(4)+ 4$}
-    {$2 b$}
-  #choices([\(\begin{cases], [b^2}{4], [cases}\)], [\(\begin{cases], cols: 4)
+\endcases\)}
+
+#mi(`\begin{cases}\frac{b^2}{4}+4,&0 < b < 2,\\  2b,&b\ge 2.\end{cases}`)
+
+#mi(`\frac{b^{2}}{4}+ 4`)
+
+#mi(`2b`)
 ]
 
 #answer([A])
 
 #solution[
-由椭圆方程得 $x^2=4(1-(y^2)/(b^2))$，且 $-b <= y <= b$. 因此 $x^2+2 y=4+2 y-(4 y^2)/(b^2)$. 这是关于 $y$ 的开口向下的二次函数，其顶点横坐标为 $y=(b^2)/(4)$.
+由椭圆方程得 #mi(`x^{2}=4\left(1-\frac{y^{2}}{b^{2}}\right)`)，且 #mi(`-b\le y\le b`). 因此 #mi(`x^{2}+2y=4+2y-\frac{4y^{2}}{b^{2}}`). 这是关于 #mi(`y`) 的开口向下的二次函数，其顶点横坐标为 #mi(`y=\frac{b^{2}}{4}`).
 
-当 $0<b<4$ 时，$(b^2)/(4)<b$，顶点在区间 $[-b,b]$ 内，最大值为 $4+(b^2)/(4)$. 当 $b >= 4$ 时，顶点横坐标不小于右端点，二次函数在 $[-b,b]$ 上的最大值在 $y=b$ 处取得，最大值为 $2 b$. 当 $b=4$ 时两式均为 $8$，故选 A.
+当 #mi(`0<b<4`) 时，#mi(`\frac{b^{2}}{4}<b`)，顶点在区间 #mi(`[-b,b]`) 内，最大值为 #mi(`4+\frac{b^{2}}{4}`). 当 #mi(`b\geqslant4`) 时，顶点横坐标不小于右端点，二次函数在 #mi(`[-b,b]`) 上的最大值在 #mi(`y=b`) 处取得，最大值为 #mi(`2b`). 当 #mi(`b=4`) 时两式均为 #mi(`8`)，故选 A.
 ]
 
 #problem(10)[
-有一塔形几何体由若干个正方体构成，构成方式如图所示. 上层正方体下底面的四个顶点是下层正方体上底面各连接中点，已知最底层正方体的棱长为 $2$，且该塔形的表面积（含最底层正方体的底面面积）超过 $39$，则该塔形中正方体的个数至少是（ ）
+有一塔形几何体由若干个正方体构成，构成方式如图所示. 上层正方体下底面的四个顶点是下层正方体上底面各连接中点，已知最底层正方体的棱长为 #mi(`2`)，且该塔形的表面积（含最底层正方体的底面面积）超过 #mi(`39`)，则该塔形中正方体的个数至少是（ ）
 
 
-#align(center)[#image("/papers/2005/img/chongqing_liberal/q10_fig1.png", width: 56%)]
-  #choices([$4$], [$5$], [$6$], [$7$], cols: 4)
+#align(center)[#image("/papers/2005/img/chongqing_liberal/q10_fig1.png", width: 28%)]
+
+  #choices([#mi(`4`)], [#mi(`5`)], [#mi(`6`)], [#mi(`7`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-设从下到上共有 $n$ 个正方体，最底层棱长为 $s_1=2$. 相邻两层中，上层正方体下底面是下层正方体上底面四边中点所围成的正方形，因此 $s_(i+1)=(s_i)/(sqrt(2))$，从而 $s_i^2=4((1)/(2))^(i-1)$.
+设从下到上共有 #mi(`n`) 个正方体，最底层棱长为 #mi(`s_{1}=2`). 相邻两层中，上层正方体下底面是下层正方体上底面四边中点所围成的正方形，因此 #mi(`s_{i+1}=\frac{s_{i}}{\sqrt{2}}`)，从而 #mi(`s_{i}^{2}=4\left(\frac{1}{2}\right)^{i-1}`).
 
-每个正方体的四个侧面均露出. 底面总面积为 $s_1^2$，各层侧面面积总和为 $4 sum_(i=1)^n s_i^2$. 除最底层底面外，水平方向露出的面积为 $s_n^2+sum_(i=1)^(n-1)(s_i^2-s_(i+1)^2)=s_1^2$，所以塔形表面积为 $T_n=2 s_1^2+4 sum_(i=1)^n s_i^2=8+16 sum_(i=0)^(n-1)((1)/(2))^i=40-(32)/(2^n)$.
+每个正方体的四个侧面均露出. 底面总面积为 #mi(`s_{1}^{2}`)，各层侧面面积总和为 #mi(`4\sum_{i=1}^{n} s_{i}^{2}`). 除最底层底面外，水平方向露出的面积为 #mi(`s_{n}^{2}+\sum_{i=1}^{n-1}(s_{i}^{2}-s_{i+1}^{2})=s_{1}^{2}`)，所以塔形表面积为 #mi(`T_{n}=2s_{1}^{2}+4\sum_{i=1}^{n} s_{i}^{2}=8+16\sum_{i=0}^{n-1}\left(\frac{1}{2}\right)^{i}=40-\frac{32}{2^{n}}`).
 
-当 $n=5$ 时，$T_5=39$，不满足超过 $39$；当 $n=6$ 时，$T_6=39.5>39$. 由于 $T_n$ 随 $n$ 增大而增大，正方体的个数至少为 $6$，故选 C.
+当 #mi(`n=5`) 时，#mi(`T_{5}=39`)，不满足超过 #mi(`39`)；当 #mi(`n=6`) 时，#mi(`T_{6}=39.5>39`). 由于 #mi(`T_{n}`) 随 #mi(`n`) 增大而增大，正方体的个数至少为 #mi(`6`)，故选 C.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-若集合 $A = \{x in RR | x^2 - 4 x + 3 < 0\}$，集合 $B = \{x in RR | (x - 2)(x - 5) < 0\}$，则 $A inter B =\f i l l i n b l a n k{}$.
+若集合 #mi(`A = \{x \in \mathbb{R}\mid x^{2} - 4x + 3 < 0\}`)，集合 #mi(`B = \{x \in \mathbb{R}\mid (x - 2)(x - 5) < 0\}`)，则 #mi(`A \cap B =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(2,3)$])
+#answer([#mi(`(2,3)`)])
 
 #solution[
-由 $x^2-4 x+3=(x-1)(x-3)$，得 $A=(1,3)$. 又由 $(x-2)(x-5)<0$，得 $B=(2,5)$. 因此 $A inter B=(2,3)$.
+由 #mi(`x^{2}-4x+3=(x-1)(x-3)`)，得 #mi(`A=(1,3)`). 又由 #mi(`(x-2)(x-5)<0`)，得 #mi(`B=(2,5)`). 因此 #mi(`A\cap B=(2,3)`).
 ]
 
 #problem(12)[
-曲线 $y = x^3$ 在点 $(1,1)$ 处的切线与 $x$ 轴，直线 $x = 2$ 所围成的三角形的面积为#blank(){}.
+曲线 #mi(`y = x^{3}`) 在点 #mi(`(1,1)`) 处的切线与 #mi(`x`) 轴，直线 #mi(`x = 2`) 所围成的三角形的面积为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(8)/(3)$])
+#answer([#mi(`\frac{8}{3}`)])
 
 #solution[
-曲线 $y=x^3$ 的导数为 $y'=3 x^2$，所以在 $(1,1)$ 处的切线斜率为 $3$，切线方程为 $y-1=3(x-1)$，即 $y=3 x-2$. 它与 $x$ 轴交于 $((2)/(3),0)$，与直线 $x=2$ 交于 $(2,4)$，而 $x=2$ 与 $x$ 轴交于 $(2,0)$. 三角形的底为 $2-(2)/(3)=(4)/(3)$，高为 $4$，所以面积为 $(1)/(2) times (4)/(3) times 4 =(8)/(3)$.
+曲线 #mi(`y=x^{3}`) 的导数为 #mi(`y'=3x^{2}`)，所以在 #mi(`(1,1)`) 处的切线斜率为 #mi(`3`)，切线方程为 #mi(`y-1=3(x-1)`)，即 #mi(`y=3x-2`). 它与 #mi(`x`) 轴交于 #mi(`\left(\frac{2}{3},0\right)`)，与直线 #mi(`x=2`) 交于 #mi(`(2,4)`)，而 #mi(`x=2`) 与 #mi(`x`) 轴交于 #mi(`(2,0)`). 三角形的底为 #mi(`2-\frac{2}{3}=\frac{4}{3}`)，高为 #mi(`4`)，所以面积为 #mi(`\frac{1}{2}\times\frac{4}{3}\times4=\frac{8}{3}`).
 ]
 
 #problem(13)[
-已知 $alpha$，$beta$ 均为锐角，且 $cos ( alpha + beta ) = sin ( alpha - beta )$，则 $tan alpha =$#blank(){}.
+已知 #mi(`\alpha`)，#mi(`\beta`) 均为锐角，且 #mi(`\cos (\alpha + \beta) = \sin (\alpha - \beta)`)，则 #mi(`\tan \alpha =`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #solution[
-由题意，$cos ( alpha + beta )= sin ( alpha - beta )$. 展开两边，得 $cos alpha cos beta - sin alpha sin beta = sin alpha cos beta - cos alpha sin beta$，即 $( cos alpha - sin alpha )( cos beta + sin beta )=0$. 因为 $beta$ 为锐角，$cos beta + sin beta >0$，所以 $cos alpha = sin alpha$. 又 $alpha$ 为锐角，故 $alpha =(pi)/(4)$，从而 $tan alpha =1$.
+由题意，#mi(`\cos(\alpha+\beta)=\sin(\alpha-\beta)`). 展开两边，得 #mi(`\cos\alpha\cos\beta-\sin\alpha\sin\beta=\sin\alpha\cos\beta-\cos\alpha\sin\beta`)，即 #mi(`(\cos\alpha-\sin\alpha)(\cos\beta+\sin\beta)=0`). 因为 #mi(`\beta`) 为锐角，#mi(`\cos\beta+\sin\beta>0`)，所以 #mi(`\cos\alpha=\sin\alpha`). 又 #mi(`\alpha`) 为锐角，故 #mi(`\alpha=\frac{\pi}{4}`)，从而 #mi(`\tan\alpha=1`).
 ]
 
 #problem(14)[
-若 $x^(2) + y^(2) = 4$，则 $x - y$ 的最大值是#blank(){}.
+若 #mi(`x^{2}+ y^{2}= 4`)，则 #mi(`x - y`) 的最大值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2 sqrt(2)$])
+#answer([#mi(`2\sqrt{2}`)])
 
 #solution[
-由柯西不等式，$x-y=(x,y) dot (1,-1)\l e q s l a n t s q r t(x^2+y^2)sqrt(1^2+(-1)^2)=2 sqrt(2)$. 当 $(x,y)=sqrt(2)(1,-1)$ 时满足 $x^2+y^2=4$，且等号成立. 因此 $x-y$ 的最大值为 $2 sqrt(2)$.
+由柯西不等式，#mi(`x-y=(x,y)\cdot(1,-1)\le\sqrt{x^{2}+y^{2}}\sqrt{1^{2}+(-1)^{2}}=2\sqrt{2}`). 当 #mi(`(x,y)=\sqrt{2}(1,-1)`) 时满足 #mi(`x^{2}+y^{2}=4`)，且等号成立. 因此 #mi(`x-y`) 的最大值为 #mi(`2\sqrt{2}`).
 ]
 
 #problem(15)[
-若 $10$ 把钥匙中只有 $2$ 把能打开某锁，则从中任取 $2$ 把能将该锁打开的概率为#blank(){}.
+若 #mi(`10`) 把钥匙中只有 #mi(`2`) 把能打开某锁，则从中任取 #mi(`2`) 把能将该锁打开的概率为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(17)/(45)$])
+#answer([#mi(`\frac{17}{45}`)])
 
 #solution[
-从 $10$ 把钥匙中任取 $2$ 把，共有 $C_(10)^2=45$ 种等可能取法. 不能打开锁的情形是两把都来自不能开锁的 $8$ 把钥匙，共有 $C_8^2=28$ 种. 因此能打开锁的取法数为 $45-28=17$，所求概率为 $(17)/(45)$.
+从 #mi(`10`) 把钥匙中任取 #mi(`2`) 把，共有 #mi(`\mathrm{C}_{10}^{2}=45`) 种等可能取法. 不能打开锁的情形是两把都来自不能开锁的 #mi(`8`) 把钥匙，共有 #mi(`\mathrm{C}_{8}^{2}=28`) 种. 因此能打开锁的取法数为 #mi(`45-28=17`)，所求概率为 #mi(`\frac{17}{45}`).
 ]
 
 #problem(16)[
-已知 $A(-(1)/(2),0)$，$B$ 是圆 $F:(x - (1)/(2))^2 + y^2 = 4$（$F$ 为圆心）上一动点，线段 $A B$ 的垂直平分线交 $B F$ 于 $P$，则动点 $P$ 的轨迹方程为#blank(){}.
+已知 #mi(`A\left(-\frac{1}{2},0\right)`)，#mi(`B`) 是圆 #mi(`F:\left(x - \frac{1}{2}\right)^{2} + y^{2} = 4`)（#mi(`F`) 为圆心）上一动点，线段 #mi(`AB`) 的垂直平分线交 #mi(`BF`) 于 #mi(`P`)，则动点 #mi(`P`) 的轨迹方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$x^(2)+(4)/(3)y^(2)=1$])
+#answer([#mi(`x^{2}+\frac{4}{3}y^{2}=1`)])
 
 #solution[
-取直角坐标系，记圆心 $F=((1)/(2),0)$，固定点 $A=(-(1)/(2),0)$. 设 $P$ 在直线 $B F$ 上，并以从 $F$ 指向 $B$ 的单位向量为 $bold(e)$，令 $arrow(F P)=t b o l d(e)$，则 $arrow(F B)=2 bold(e)$，其中 $t$ 暂为实数.
+取直角坐标系，记圆心 #mi(`F=\left(\frac{1}{2},0\right)`)，固定点 #mi(`A=\left(-\frac{1}{2},0\right)`). 设 #mi(`P`) 在直线 #mi(`BF`) 上，并以从 #mi(`F`) 指向 #mi(`B`) 的单位向量为 #mi(`\mathbf{e}`)，令 #mi(`\overrightarrow{FP}=t\mathbf{e}`)，则 #mi(`\overrightarrow{FB}=2\mathbf{e}`)，其中 #mi(`t`) 暂为实数.
 
-因为 $P$ 在线段 $A B$ 的垂直平分线上，所以 $P A=P B$. 设 $bold(e)$ 与 $x$ 轴正向的夹角为 $theta$，则 $P=F+t b o l d(e)$，从而 $P A^2=1+2 t cos theta +t^2$，而 $P B^2=(2-t)^2$. 由 $P A^2=P B^2$ 得 $t(2 cos theta +4)=3$. 由于 $2 cos theta +4 >= 2$，所以 $t>0$，这也说明交点确实位于从 $F$ 指向 $B$ 的射线上. 又由 $x-(1)/(2)=t cos theta$，所以 $4 t=4-2 x$，即 $t=1-(x)/(2)$.
+因为 #mi(`P`) 在线段 #mi(`AB`) 的垂直平分线上，所以 #mi(`PA=PB`). 设 #mi(`\mathbf{e}`) 与 #mi(`x`) 轴正向的夹角为 #mi(`\theta`)，则 #mi(`P=F+t\mathbf{e}`)，从而 #mi(`PA^{2}=1+2t\cos\theta+t^{2}`)，而 #mi(`PB^{2}=(2-t)^{2}`). 由 #mi(`PA^{2}=PB^{2}`) 得 #mi(`t(2\cos\theta+4)=3`). 由于 #mi(`2\cos\theta+4\geqslant2`)，所以 #mi(`t>0`)，这也说明交点确实位于从 #mi(`F`) 指向 #mi(`B`) 的射线上. 又由 #mi(`x-\frac{1}{2}=t\cos\theta`)，所以 #mi(`4t=4-2x`)，即 #mi(`t=1-\frac{x}{2}`).
 
-再由 $t^2=P F^2=(x-(1)/(2))^2+y^2$，得到 $(x-(1)/(2))^2+y^2=(1-(x)/(2))^2$，化简为 $x^2+(4)/(3)y^2=1$. 反过来，椭圆上任一点都满足 $t=1-(x)/(2)>0$ 及上述距离关系；取从 $F$ 指向该点的单位向量为 $bold(e)$，令 $B=F+2 bold(e)$，即可得到相应的圆上动点 $B$ 和垂直平分线交点 $P$. 故这就是动点 $P$ 的轨迹方程.
+再由 #mi(`t^{2}=PF^{2}=\left(x-\frac{1}{2}\right)^{2}+y^{2}`)，得到 #mi(`\left(x-\frac{1}{2}\right)^{2}+y^{2}=\left(1-\frac{x}{2}\right)^{2}`)，化简为 #mi(`x^{2}+\frac{4}{3}y^{2}=1`). 反过来，椭圆上任一点都满足 #mi(`t=1-\frac{x}{2}>0`) 及上述距离关系；取从 #mi(`F`) 指向该点的单位向量为 #mi(`\mathbf{e}`)，令 #mi(`B=F+2\mathbf{e}`)，即可得到相应的圆上动点 #mi(`B`) 和垂直平分线交点 #mi(`P`). 故这就是动点 #mi(`P`) 的轨迹方程.
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-若函数 $f(x) = (1 + cos 2 x)/(2 sin ((pi)/(2)- x))+ sin x + a^2 sin (x + (pi)/(4))$ 的最大值为 $sqrt(2)+ 3$，试确定常数 $a$ 的值.
+若函数 #mi(`f(x) = \frac{1 + \cos 2x}{2\sin\left(\frac{\pi}{2} - x\right)}+ \sin x + a^{2} \sin \left(x + \frac{\pi}{4}\right)`) 的最大值为 #mi(`\sqrt{2}+ 3`)，试确定常数 #mi(`a`) 的值.
 
-$1+ cos 2 x=2 cos ""^(2) x$，且定义域要求 $cos x != 0$，所以 $(1+ cos 2 x)/(2 sin ((pi)/(2)-x))=(2 cos ""^(2) x)/(2 cos x)= cos x$. 因此 $f(x)= cos x+ sin x+a^2 sin (x+(pi)/(4))=(sqrt(2)+a^2) sin (x+(pi)/(4))$. 由于 $sqrt(2)+a^2>0$，且取 $x=(pi)/(4)+2 k pi$ 时原式有定义并使正弦值为 $1$，故函数最大值为 $sqrt(2)+a^2$. 由题设 $sqrt(2)+a^2=sqrt(2)+3$，得 $a^2=3$，所以 $a=\p m s q r t(3)$.
+#mi(`1+\cos2x=2\cos^{2}x`)，且定义域要求 #mi(`\cos x\ne0`)，所以 #mi(`\frac{1+\cos2x}{2\sin\left(\frac{\pi}{2}-x\right)}=\frac{2\cos^{2}x}{2\cos x}=\cos x`). 因此 #mi(`f(x)=\cos x+\sin x+a^{2}\sin\left(x+\frac{\pi}{4}\right)=(\sqrt{2}+a^{2})\sin\left(x+\frac{\pi}{4}\right)`). 由于 #mi(`\sqrt{2}+a^{2}>0`)，且取 #mi(`x=\frac{\pi}{4}+2k\pi`) 时原式有定义并使正弦值为 #mi(`1`)，故函数最大值为 #mi(`\sqrt{2}+a^{2}`). 由题设 #mi(`\sqrt{2}+a^{2}=\sqrt{2}+3`)，得 #mi(`a^{2}=3`)，所以 #mi(`a=\pm\sqrt{3}`).
 ]
 
 #problem(18)[
-加工某种零件需经过三道工序，设第一、二、三道工序的合格率分别为 $(9)/(10)$，$(8)/(9)$，$(7)/(8)$，且各道工序互不影响.
+加工某种零件需经过三道工序，设第一、二、三道工序的合格率分别为 #mi(`\frac{9}{10}`)，#mi(`\frac{8}{9}`)，#mi(`\frac{7}{8}`)，且各道工序互不影响.
 
 
-+ (1) 求该种零件的合格率；
-+ (2) 从该种零件中任取 $3$ 件，求恰好取到一件合格品的概率和至少取到一件合格品的概率.
++ (1) 
 
 
 
-+ (1) 设一件零件合格的事件为 $A$. 由于三道工序相互独立，该零件合格必须三道工序都合格，所以 $P(A)=(9)/(10) times (8)/(9) times (7)/(8)=(7)/(10)=0.7$.
-+ (2) 任取的 $3$ 件零件可看作独立重复试验，每件合格的概率为 $p=0.7$，不合格的概率为 $1-p=0.3$. 恰好取到一件合格品的概率为 $C_3^1(0.7)(0.3)^2=0.189$. 至少取到一件合格品的概率用对立事件计算，为 $1-(0.3)^3=0.973$.
+
++ (1)
 ]
 
 #problem(19)[
-设函数 $f(x) = 2 x^(3) - 3(a + 1)x^(2) + 6 a x + 8$，其中 $a in RR$.
+设函数 #mi(`f(x) = 2x^{3}- 3(a + 1)x^{2}+ 6ax + 8`)，其中 #mi(`a \in \mathbb{R}`).
 
 
-+ (1) 若 $f(x)$ 在 $x = 3$ 处取得极值，求常数 $a$ 的值；
-+ (2) 若 $f(x)$ 在 $(- oo ,0)$ 上为增函数，求 $a$ 的取值范围.
++ (1) 
 
 
 
-+ (1) 函数可导，若在 $x=3$ 处取得极值，则必须有 $f'(3)=0$. 而 $f'(x)=6 x^2-6(a+1)x+6 a=6(x-1)(x-a)$，所以 $0=f'(3)=12(3-a)$，得 $a=3$. 当 $a=3$ 时，$f'(x)=6(x-1)(x-3)$，在 $x=3$ 左侧为负、右侧为正，确实在 $x=3$ 处取得极小值.
-+ (2) 由 $f'(x)=6(x-1)(x-a)$，当 $x<0$ 时有 $x-1<0$. 要使 $f$ 在 $(- oo ,0)$ 上为增函数，需对一切 $x<0$ 有 $f'(x)>0$，这等价于 $x-a<0$ 对一切 $x<0$ 成立，也就是 $a >= 0$. 当 $a >= 0$ 时确有 $x-a<0$，故 $f'(x)>0$；若 $a<0$，取 $x in (a,0)$，则 $f'(x)<0$. 故 $a in [0,+ oo )$.
+
++ (1)
 ]
 
 #problem(20)[
-如图，在四棱锥 $P - A B C D$ 中，底面 $A B C D$ 为矩形，$P D bot$ 底面 $A B C D$，$E$ 是 $A B$ 上一点，$P E bot E C$. 已知 $P D = sqrt(2)$，$C D = 2$，$A E = (1)/(2)$，求：
+如图，在四棱锥 #mi(`P - ABCD`) 中，底面 #mi(`ABCD`) 为矩形，#mi(`PD \perp`) 底面 #mi(`ABCD`)，#mi(`E`) 是 #mi(`AB`) 上一点，#mi(`PE \perp EC`). 已知 #mi(`PD = \sqrt{2}`)，#mi(`CD = 2`)，#mi(`AE = \frac{1}{2}`)，求：
 
 
-+ (1) 异面直线 $P D$ 与 $E C$ 的距离；
-+ (2) 二面角 $E - P C - D$ 的大小.
++ (1) 
 
 
 
-+ (1) 建立空间直角坐标系，令 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,h,0)$，$C=(2,h,0)$，$P=(0,h,sqrt(2))$，$E=((1)/(2),0,0)$. 由 $P E bot E C$ 得 $arrow(E P)=(-(1)/(2),h,sqrt(2))$，$arrow(E C)=((3)/(2),h,0)$，从而 $arrow(E P)\c d o t a r r o w(E C)=h^2-(3)/(4)=0$，所以 $h=(sqrt(3))/(2)$. 又 $arrow(E D)=(-(1)/(2),h,0)$，故 $arrow(E D)\c d o t a r r o w(E C)=h^2-(3)/(4)=0$，即 $E D bot E C$. 显然 $E D bot P D$，所以 $E D$ 是异面直线 $P D$ 与 $E C$ 的公垂线，且 $E D=sqrt((1)/(4)+h^2)=1$.
-+ (2) 取平面 $E P C$ 和平面 $D P C$ 的法向量. 令 $arrow(P C)=(2,0,-sqrt(2))$，$arrow(P E)=((1)/(2),-h,-sqrt(2))$，$arrow(P D)=(0,0,-sqrt(2))$，则可取 $bold(n)_1=arrow(P C)\t i m e s a r r o w(P E)=(-sqrt(2)h,(3 sqrt(2))/(2),-2 h)$，$bold(n)_2=arrow(P C)\t i m e s a r r o w(P D)=(0,2 sqrt(2),0)$. 代入 $h=(sqrt(3))/(2)$，有 $|bold(n)_1|=3$，$|bold(n)_2|=2 sqrt(2)$，且 $|bold(n)_1\c d o t b o l d(n)_2|=6$. 因此二面角的平面角 $theta$ 满足 $cos theta =(6)/(3 times 2 sqrt(2))=(sqrt(2))/(2)$，从而 $theta =(pi)/(4)$.
+
++ (1)
 ]
 
 #problem(21)[
-已知中心在原点的双曲线 $C$ 的右焦点为 $(2,0)$，右顶点为 $(sqrt(3),0)$.
+已知中心在原点的双曲线 #mi(`C`) 的右焦点为 #mi(`(2,0)`)，右顶点为 #mi(`(\sqrt{3},0)`).
 
 
-+ (1) 求双曲线 $C$ 的方程；
-+ (2) 若直线 $l: y = k x + sqrt(2)$ 与双曲线 $C$ 恒有两个不同的交点 $A$ 和 $B$，且 $arrow(O A) dot arrow(O B)> 2$（其中 $O$ 为原点）. 求 $k$ 的取值范围.
++ (1) 
 
 
 
-+ (1) 设双曲线的标准方程为 $(x^2)/(a^2)-(y^2)/(b^2)=1$，则右焦点横坐标为 $c=2$，右顶点横坐标为 $a=sqrt(3)$. 由 $c^2=a^2+b^2$ 得 $b^2=4-3=1$，所以双曲线方程为 $(x^2)/(3)-y^2=1$.
-+ (2) 将 $y=k x+sqrt(2)$ 代入双曲线方程，得 $((1)/(3)-k^2)x^2-2 sqrt(2)k x-3=0$. 要有两个不同的交点，首先判别式 $Delta =(-2 sqrt(2)k)^2-4((1)/(3)-k^2)(-3)=4(1-k^2)>0$，故 $|k|<1$；同时二次项系数不能为零，否则只有一个有限交点，所以 $k != +- (sqrt(3))/(3)$. 设两交点横坐标为 $x_1$，$x_2$，由韦达定理得 $x_1+x_2=(2 sqrt(2)k)/((1)/(3)-k^2)$，$x_(1) x_2=-(3)/((1)/(3)-k^2)$. 由于 $y_i=k x_i+sqrt(2)$，有 $arrow(O A)\c d o t a r r o w(O B)=x_(1) x_2+y_(1) y_2=(1+k^2)x_(1) x_2+sqrt(2)k(x_1+x_2)+2$. 代入上式化简，得到 $arrow(O A)\c d o t a r r o w(O B)-2=(k^2-3)/((1)/(3)-k^2)$. 在 $|k|<1$ 时分子恒为负，因此该式大于零当且仅当 $(1)/(3)-k^2<0$，即 $|k|>(sqrt(3))/(3)$. 故 $k in (-1,-(sqrt(3))/(3)) union ((sqrt(3))/(3),1)$.
+
++ (1)
 ]
 
 #problem(22)[
-数列 $\{a_(n)\}$ 满足 $a_1 = 1$ 且 $8 a_(n + 1)a_n - 16 a_(n + 1) + 2 a_n + 5 = 0$（$n >= 1$）. 记 $b_(n) = (1)/(a_(n) - (1)/(2))$（$n >= 1$）.
+数列 #mi(`\{a_{n}\}`) 满足 #mi(`a_{1} = 1`) 且 #mi(`8a_{n + 1}a_{n} - 16a_{n + 1}+ 2a_{n} + 5 = 0`)（#mi(`n \ge 1`)）. 记 #mi(`b_{n}= \frac{1}{a_{n}- \frac{1}{2}}`)（#mi(`n \ge 1`)）.
 
 
-+ (1) 求 $b_(1)$，$b_(2)$，$b_(3)$，$b_(4)$ 的值；
-+ (2) 求数列 $\{b_n\}$ 的通项公式及数列 $\{a_n b_n\}$ 的前 $n$ 项和 $S_n$.
++ (1) 
 
 
 
-+ (1) 由 $a_1=1$ 得 $b_1=(1)/(1-(1)/(2))=2$. 由递推式解出 $a_(n+1)=(2 a_n+5)/(16-8 a_n)$，从而 $a_(n+1)-(1)/(2)=(3(2 a_n-1))/(8(2-a_n))$. 由 $a_1 != (1)/(2)$，且上式表明只要 $a_n != (1)/(2)$，$2$ 就有 $a_(n+1) != (1)/(2)$；而 $a_n=2$ 会使原递推式变为 $9=0$，不可能，所以归纳可知各项 $a_n != (1)/(2)$. 因而代入 $b_n=(1)/(a_n-(1)/(2))$ 可得 $b_(n+1)=2 b_n-(4)/(3)$. 于是 $b_2=2 times 2 -(4)/(3)=(8)/(3)$，$b_3=2 times (8)/(3)-(4)/(3)=4$，$b_4=2 times 4 -(4)/(3)=(20)/(3)$.
-+ (2) 令 $c_n=b_n-(4)/(3)$，则 $c_(n+1)=2 c_n$，且 $c_1=(2)/(3)$，所以 $c_n=(2)/(3)2^(n-1)=(2^n)/(3)$，从而 $b_n=(2^n+4)/(3)$. 又由 $b_n=(1)/(a_n-(1)/(2))$ 得 $a_n=(1)/(2)+(1)/(b_n)$，故 $a_(n) b_n=(b_n)/(2)+1=(2^n+10)/(6)$. 因此 $S_n=sum_(i=1)^n a_(i) b_i=(1)/(6)(sum_(i=1)^(n) 2^i+10 n)=(1)/(6)(2^(n+1)-2+10 n)=(2^n+5 n-1)/(3)$.
+
++ (1)
 ]
 

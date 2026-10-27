@@ -12,7 +12,7 @@
 
 #problem(1)[
 #mi(`(1+5\mathrm{i})\mathrm{i}`) 的虚部为（ ）
-  #choices([#mi(`-1`)], [#mi(`0`)], [#mi(`1`)], [#mi(`6`)], cols: 2)
+  #choices([#mi(`-1`)], [#mi(`0`)], [#mi(`1`)], [#mi(`6`)], cols: 4)
 ]
 
 #answer([C])
@@ -23,7 +23,7 @@
 
 #problem(2)[
 设全集 #mi(`U=\{x \mid x \text{ \text{是小于}9\text{的正整数}}\}`)，集合 #mi(`A=\{1,3,5\}`)，则 #mi(`\complement_{U} A`) 中元素个数为（ ）
-  #choices([#mi(`0`)], [#mi(`3`)], [#mi(`5`)], [#mi(`8`)], cols: 2)
+  #choices([#mi(`0`)], [#mi(`3`)], [#mi(`5`)], [#mi(`8`)], cols: 4)
 ]
 
 #answer([C])
@@ -104,8 +104,10 @@
 
 \hline
 
-[max width=6.0cm]img/2025/national_paper_1/q6_fig2.png
-  #choices([轻风], [微风], [和风], [劲风], cols: 2)
+
+#align(center)[#image("/papers/2025/img/national_paper_1/q6_fig2.png", width: 28%)]
+
+  #choices([轻风], [微风], [和风], [劲风], cols: 4)
 ]
 
 #answer([A])
@@ -126,7 +128,9 @@
 
 由此圆心 #mi(`E(0,-2)`) 到直线 #mi(`y = \sqrt{3}x + 2`) 的距离为 #mi(`d=\frac{\left|0 \times \sqrt{3}-(-2) \times 1+2\right|}{\sqrt{(\sqrt{3})^{2}+(-1)^{2}}}=2`).
 
-[max width=3.1cm]img/2025/national_paper_1/q7_solution_fig1.png
+ 
+#align(center)[#image("/papers/2025/img/national_paper_1/q7_solution_fig1.png", width: 28%)]
+ 
 
 到直线 #mi(`y=\sqrt{3}x+2`) 的距离为 #mi(`1`) 的点的轨迹是两条平行直线，分别为 #mi(`y=\sqrt{3}x`) 和 #mi(`y=\sqrt{3}x+4`). 点 #mi(`E(0,-2)`) 到这两条直线的距离分别为 #mi(`\frac{|0-(-2)+0|}{2}=1`) 和 #mi(`\frac{|0-(-2)+4|}{2}=3`). 所以当 #mi(`r=1`) 时，圆只与直线 #mi(`y=\sqrt{3}x`) 相切，因此圆上恰有 #mi(`1`) 个点到直线 #mi(`y = \sqrt{3}x + 2`) 的距离等于 #mi(`1`)；当 #mi(`r=3`) 时，圆与直线 #mi(`y=\sqrt{3}x+4`) 相切，同时与直线 #mi(`y=\sqrt{3}x`) 相交于两点，因此圆上恰有 #mi(`3`) 个点到直线 #mi(`y = \sqrt{3}x + 2`) 的距离等于 #mi(`1`)；当 #mi(`r`) 的取值范围为 #mi(`(1,3)`) 时，圆 #mi(`x^{2} + (y+2)^{2} = r^{2}`)（#mi(`r>0`)）上有且仅有两个点到直线 #mi(`y = \sqrt{3}x + 2`) 的距离等于 #mi(`1`). 故选：B.
 ]
@@ -157,7 +161,9 @@
 
 根据指数函数的单调性，易知各方程只有唯一的根. 作出函数 #mi(`y = 2^{x-2}`)，#mi(`y = 3^{x-3}`)，#mi(`y = 5^{x-5}`) 的图象，以上方程的根分别是函数 #mi(`y = 2^{x-2}`)，#mi(`y = 3^{x-3}`)，#mi(`y = 5^{x-5}`) 的图象与直线 #mi(`x = m`) 的交点纵坐标，如图所示：
 
-[max width=3.6cm]img/2025/national_paper_1/q8_solution_fig1.png
+ 
+#align(center)[#image("/papers/2025/img/national_paper_1/q8_solution_fig1.png", width: 28%)]
+ 
 
 易知，随着 #mi(`m`) 的变化可能出现：#mi(`x > y > z`)，#mi(`y > x > z`)，#mi(`y > z > x`)，#mi(`z > y > x`)，故选：B.
 ]
@@ -166,7 +172,7 @@
 
 #problem(9)[
 在正三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中，#mi(`D`) 为 #mi(`BC`) 中点，则（ ）
-  #choices([#mi(`AD \perp A_{1}C`)], [#mi(`B_{1}C_{1} \perp \text{\text{平面}}AA_{1}D`)], [#mi(`AD \parallel A_{1}B_{1}`)], [#mi(`CC_{1} \parallel \text{\text{平面}}AA_{1}D`)], cols: 2)
+  #choices([#mi(`AD \perp A_{1}C`)], [#mi(`B_{1}C_{1} \perp \text{\text{平面}}AA_{1}D`)], [#mi(`AD \parallel A_{1}B_{1}`)], [#mi(`CC_{1} \parallel \text{\text{平面}}AA_{1}D`)], cols: 1)
 ]
 
 #answer([BD])
@@ -178,7 +184,9 @@
 
 #mi(`\overrightarrow{A_1A}\cdot \overrightarrow{AD}= 0`).
 
-[max width=3.0cm]img/2025/national_paper_1/q9_solution_fig1.png
+ 
+#align(center)[#image("/papers/2025/img/national_paper_1/q9_solution_fig1.png", width: 28%)]
+ 
 
 因为 #mi(`\triangle ABC`) 是正三角形，#mi(`D`) 为 #mi(`BC`) 中点，所以 #mi(`AD \perp BC`)，从而
 
@@ -218,7 +226,9 @@
 
 #mi(`D(0,0,0)`)，#mi(`A(\sqrt{3},0,0)`)，#mi(`A_{1}(\sqrt{3},0,h)`)，#mi(`C(0,-1,0)`)，#mi(`C_{1}(0,-1,h)`)，#mi(`B(0,1,0)`)，#mi(`B_{1}(0,1,h)`).
 
-[max width=3.2cm]img/2025/national_paper_1/q9_solution_fig2.png
+ 
+#align(center)[#image("/papers/2025/img/national_paper_1/q9_solution_fig2.png", width: 28%)]
+ 
 
 对于 A，
 
@@ -273,7 +283,9 @@
 #solution[
 【法一】先分别判断各选项. 对于 A，抛物线 #mi(`C: y^{2} = 6x`) 中 #mi(`p = 3`)，其准线方程为 #mi(`x = -\frac{3}{2}`)，焦点为 #mi(`F\left(\frac{3}{2},0\right)`).
 
-[max width=3.0cm]img/2025/national_paper_1/q10_solution_fig1.png
+ 
+#align(center)[#image("/papers/2025/img/national_paper_1/q10_solution_fig1.png", width: 28%)]
+ 
 
 其中 #mi(`|AD|`) 为抛物线上点 #mi(`A`) 到准线的距离，#mi(`|AF|`) 为点 #mi(`A`) 到焦点的距离. 抛物线上任一点到焦点的距离等于到准线的距离，所以
 
@@ -378,7 +390,7 @@ D 正确.
 
 #problem(11)[
 已知 #mi(`\triangle ABC`) 的面积为 #mi(`\frac{1}{4}`)，若 #mi(`\cos 2A + \cos 2B + 2\sin C = 2`)，#mi(`\cos A \cos B \sin C = \frac{1}{4}`)，则（ ）
-  #choices([#mi(`\sin C = \sin^{2} A + \sin^{2} B`)], [#mi(`AB = \sqrt{2}`)], [#mi(`\sin A + \sin B = \frac{\sqrt{6}}{2}`)], [#mi(`AC^{2} + BC^{2} = 3`)], cols: 2)
+  #choices([#mi(`\sin C = \sin^{2} A + \sin^{2} B`)], [#mi(`AB = \sqrt{2}`)], [#mi(`\sin A + \sin B = \frac{\sqrt{6}}{2}`)], [#mi(`AC^{2} + BC^{2} = 3`)], cols: 1)
 ]
 
 #answer([ABC])
@@ -532,7 +544,9 @@ AC^{2}+BC^{2}=(8+4\sqrt{3})\left(\frac{\sqrt{3}-1}{2}\right)^{2}=2=AB^{2}
 
 故 D 错误.
 
-[max width=3.4cm]img/2025/national_paper_1/q11_solution_fig1.png
+ 
+#align(center)[#image("/papers/2025/img/national_paper_1/q11_solution_fig1.png", width: 28%)]
+ 
 
 故选：ABC.
 ]
@@ -719,7 +733,9 @@ E(X)=1\cdot P(X=1)+2\cdot P(X=2)+3\cdot P(X=3)=1\cdot\frac{5}{125}+2\cdot\frac{1
 
 
 
-[max width=6.0cm]img/2025/national_paper_1/q17_fig1.png
+
+#align(center)[#image("/papers/2025/img/national_paper_1/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[

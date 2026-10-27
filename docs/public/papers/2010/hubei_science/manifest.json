@@ -1,15 +1,144 @@
 {
-  "title": "2010年普通高等学校招生全国统一考试",
-  "subtitle": "2010年湖北卷（理）",
   "year": "2010",
   "slug": "hubei_science",
+  "title": "2010年湖北卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "<p>若 $\\mathrm{i}$ 为虚数单位，图中复平面内点 $Z$ 表示复数 $z$，则表示复数 $\\frac{z}{1+\\mathrm{i}}$ 的点是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q1_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>若 $\\mathrm{i}$ 为虚数单位，图中复平面内点 $Z$ 表示复数 $z$，则表示复数 $\\frac{z}{1+\\mathrm{i}}$ 的点是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/hubei_science/q1_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$E$",
             "$F$",
@@ -17,7 +146,9 @@
             "$H$"
           ],
           "answer": "D",
-          "solution": "<p>由图可读出点 $Z$ 的坐标为 $(3,1)$，所以 $z=3+\\mathrm{i}$.于是</p>\n$$\n\\frac{z}{1+\\mathrm{i}}=\\frac{(3+\\mathrm{i})(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac{4-2\\mathrm{i}}{2}=2-\\mathrm{i}\n$$\n<p>复数 $2-\\mathrm{i}$ 对应复平面内横坐标为 $2$、纵坐标为 $-1$ 的点，即图中的 $H$，故选 D.</p>"
+          "solution": "<p>由图可读出点 $Z$ 的坐标为 $(3,1)$，所以 $z=3+\\mathrm{i}$.于是</p>\n$$\n\\frac{z}{1+\\mathrm{i}}=\\frac{(3+\\mathrm{i})(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac{4-2\\mathrm{i}}{2}=2-\\mathrm{i}\n$$\n<p>复数 $2-\\mathrm{i}$ 对应复平面内横坐标为 $2$、纵坐标为 $-1$ 的点，即图中的 $H$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +160,9 @@
             "1"
           ],
           "answer": "A",
-          "solution": "<p>因为 $3^{x}>0$，交点只能位于椭圆的上半部分.令</p>\n$$\n\\phi(x)=\\frac{x^{2}}{4}+\\frac{9^{x}}{16}\n$$\n<p>交点的横坐标正好是方程 $\\phi(x)=1$ 的根.又</p>\n$$\n\\phi''(x)=\\frac{1}{2}+\\frac{(\\ln9)^{2} 9^{x}}{16}>0\n$$\n<p>所以 $\\phi$ 严格凸，方程 $\\phi(x)=1$ 至多有两个根.</p><p>另一方面，</p><p>$\\phi(-2)=1+\\frac{1}{144}>1$，$\\phi(0)=\\frac{1}{16}<1$，$\\phi(1)=\\frac{13}{16}<1$.</p><p>当 $x=\\log_{3} 4$ 时，$9^{x}=16$，故</p>\n$$\n\\phi(\\log_{3} 4)=\\frac{(\\log_{3} 4)^{2}}{4}+1>1\n$$\n<p>由连续性，方程在 $(-2,0)$ 和 $(1,\\log_{3} 4)$ 内各有一个根；结合至多两个根，恰有两个交点.因此 $A\\cap B$ 有两个元素，其子集个数为 $2^{2}=4$，故选 A.</p>"
+          "solution": "<p>因为 $3^{x}>0$，交点只能位于椭圆的上半部分.令</p>\n$$\n\\phi(x)=\\frac{x^{2}}{4}+\\frac{9^{x}}{16}\n$$\n<p>交点的横坐标正好是方程 $\\phi(x)=1$ 的根.又</p>\n$$\n\\phi''(x)=\\frac{1}{2}+\\frac{(\\ln9)^{2} 9^{x}}{16}>0\n$$\n<p>所以 $\\phi$ 严格凸，方程 $\\phi(x)=1$ 至多有两个根.</p><p>另一方面，</p><p>$\\phi(-2)=1+\\frac{1}{144}>1$，$\\phi(0)=\\frac{1}{16}<1$，$\\phi(1)=\\frac{13}{16}<1$.</p><p>当 $x=\\log_{3} 4$ 时，$9^{x}=16$，故</p>\n$$\n\\phi(\\log_{3} 4)=\\frac{(\\log_{3} 4)^{2}}{4}+1>1\n$$\n<p>由连续性，方程在 $(-2,0)$ 和 $(1,\\log_{3} 4)$ 内各有一个根；结合至多两个根，恰有两个交点.因此 $A\\cap B$ 有两个元素，其子集个数为 $2^{2}=4$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +174,9 @@
             "$\\frac{\\sqrt{6}}{3}$"
           ],
           "answer": "D",
-          "solution": "<p>由正弦定理，</p><p>$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$，$\\sin B=\\frac{b\\sin A}{a}=\\frac{10\\sin60^{\\circ}}{15}=\\frac{\\sqrt{3}}{3}$.</p><p>因 $a>b$，所以 $A>B$，从而 $0<B<60^{\\circ}$，应取正的余弦值.因此</p>\n$$\n\\cos B=\\sqrt{1-\\sin^{2}B}=\\sqrt{1-\\frac{1}{3}}=\\frac{\\sqrt{6}}{3}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>由正弦定理，</p><p>$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$，$\\sin B=\\frac{b\\sin A}{a}=\\frac{10\\sin60^{\\circ}}{15}=\\frac{\\sqrt{3}}{3}$.</p><p>因 $a>b$，所以 $A>B$，从而 $0<B<60^{\\circ}$，应取正的余弦值.因此</p>\n$$\n\\cos B=\\sqrt{1-\\sin^{2}B}=\\sqrt{1-\\frac{1}{3}}=\\frac{\\sqrt{6}}{3}\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +188,9 @@
             "$\\frac{3}{4}$"
           ],
           "answer": "C",
-          "solution": "<p>事件 $A$ 与 $B$ 相互独立，且</p><p>$P(A)=\\frac{1}{2}$，$P(B)=\\frac{1}{6}$.</p><p>用对立事件，</p>\n$$\n\\begin{aligned}P(A\\cup B)\n\n&=1-P(\\overline A\\cap\\overline B)\\\\\n\n&=1-P(\\overline A)P(\\overline B)\\\\\n\n&=1-\\frac{1}{2}\\cdot\\frac{5}{6}\n\n=\\frac{7}{12}.\\end{aligned}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>事件 $A$ 与 $B$ 相互独立，且</p><p>$P(A)=\\frac{1}{2}$，$P(B)=\\frac{1}{6}$.</p><p>用对立事件，</p>\n$$\n\\begin{aligned}P(A\\cup B)\n\n&=1-P(\\overline A\\cap\\overline B)\\\\\n\n&=1-P(\\overline A)P(\\overline B)\\\\\n\n&=1-\\frac{1}{2}\\cdot\\frac{5}{6}\n\n=\\frac{7}{12}.\\end{aligned}\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +202,9 @@
             "5"
           ],
           "answer": "B",
-          "solution": "<p>设点 $A$，$B$，$C$，$M$ 的位置向量分别为</p><p>$\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$，$\\mathbf{m}$.由条件</p>\n$$\n(\\mathbf{a}-\\mathbf{m})+(\\mathbf{b}-\\mathbf{m})  +(\\mathbf{c}-\\mathbf{m})=0\n$$\n<p>得</p>\n$$\n\\mathbf{a}+\\mathbf{b}+\\mathbf{c}=3\\mathbf{m}\n$$\n<p>于是</p>\n$$\n\\begin{aligned}\\overrightarrow{AB}+\\overrightarrow{AC}\n\n&=(\\mathbf{b}-\\mathbf{a})+(\\mathbf{c}-\\mathbf{a})\\\\\n\n&=\\mathbf{b}+\\mathbf{c}-2\\mathbf{a}\\\\\n\n&=3(\\mathbf{m}-\\mathbf{a})\n\n=3\\overrightarrow{AM}.\\end{aligned}\n$$\n<p>与题设比较得到 $m=3$，故选 B.</p>"
+          "solution": "<p>设点 $A$，$B$，$C$，$M$ 的位置向量分别为</p><p>$\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$，$\\mathbf{m}$.由条件</p>\n$$\n(\\mathbf{a}-\\mathbf{m})+(\\mathbf{b}-\\mathbf{m})  +(\\mathbf{c}-\\mathbf{m})=0\n$$\n<p>得</p>\n$$\n\\mathbf{a}+\\mathbf{b}+\\mathbf{c}=3\\mathbf{m}\n$$\n<p>于是</p>\n$$\n\\begin{aligned}\\overrightarrow{AB}+\\overrightarrow{AC}\n\n&=(\\mathbf{b}-\\mathbf{a})+(\\mathbf{c}-\\mathbf{a})\\\\\n\n&=\\mathbf{b}+\\mathbf{c}-2\\mathbf{a}\\\\\n\n&=3(\\mathbf{m}-\\mathbf{a})\n\n=3\\overrightarrow{AM}.\\end{aligned}\n$$\n<p>与题设比较得到 $m=3$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,11 +216,13 @@
             "24, 17, 9"
           ],
           "answer": "B",
-          "solution": "<p>系统抽样的抽样间隔为</p>\n$$\n\\frac{600}{50}=12\n$$\n<p>随机抽到的第一个号码为 $003$，所以样本号码为</p><p>$3$，$15$，$27$，$\\ldots$，$3+49\\times12=591$.</p><p>第 $I$ 营区中的号码满足 $3+12j\\leqslant300$，即</p><p>$j=0$，$1$，$\\ldots$，$24$，共有 $25$ 人.第 $II$ 营区中的号码为</p><p>$303$，$315$，$\\ldots$，$495$</p><p>共有 $17$ 人；其余</p><p>$507$，$519$，$\\ldots$，$591$</p><p>在第 $III$ 营区，共有 $8$ 人.因此人数依次为</p><p>$(25,17,8)$，故选 B.</p>"
+          "solution": "<p>系统抽样的抽样间隔为</p>\n$$\n\\frac{600}{50}=12\n$$\n<p>随机抽到的第一个号码为 $003$，所以样本号码为</p><p>$3$，$15$，$27$，$\\ldots$，$3+49\\times12=591$.</p><p>第 $I$ 营区中的号码满足 $3+12j\\leqslant300$，即</p><p>$j=0$，$1$，$\\ldots$，$24$，共有 $25$ 人.第 $II$ 营区中的号码为</p><p>$303$，$315$，$\\ldots$，$495$</p><p>共有 $17$ 人；其余</p><p>$507$，$519$，$\\ldots$，$591$</p><p>在第 $III$ 营区，共有 $8$ 人.因此人数依次为</p><p>$(25,17,8)$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
-          "body": "<p>如图，在半径为 $r$ 的圆内作内接正六边形，再作正六边形的内切圆，又在此内切圆内作内接正六边形，如此无限继续下去，设 $S_{n}$ 为前 $n$ 个圆的面积之和，则 $\\lim\\limits_{n\\to\\infty}S_{n}=$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，在半径为 $r$ 的圆内作内接正六边形，再作正六边形的内切圆，又在此内切圆内作内接正六边形，如此无限继续下去，设 $S_{n}$ 为前 $n$ 个圆的面积之和，则 $\\lim\\limits_{n\\to\\infty}S_{n}=$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/hubei_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$2\\pi r^{2}$",
             "$\\frac{8}{3}\\pi r^{2}$",
@@ -89,7 +230,9 @@
             "$6\\pi r^{2}$"
           ],
           "answer": "C",
-          "solution": "<p>设第一个圆的半径为 $r_{1}=r$，以后各圆的半径依次为</p><p>$r_{2}$，$r_{3}$，$\\ldots$.正六边形的内切圆半径等于该正六边形外接圆半径的</p><p>$\\cos30^{\\circ}$ 倍，所以</p><p>$r_{n+1}=\\frac{\\sqrt{3}}{2}r_{n}$，$\\pi r_{n+1}^{2}=\\frac{3}{4}\\pi r_{n}^{2}$.</p><p>因此前 $n$ 个圆的面积和是等比数列的前 $n$ 项，首项为</p><p>$\\pi r^{2}$，公比为 $\\frac{3}{4}$.于是</p>\n$$\n\\lim_{n\\to\\infty}S_{n}  =\\frac{\\pi r^{2}}{1-\\frac{3}{4}}=4\\pi r^{2}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>设第一个圆的半径为 $r_{1}=r$，以后各圆的半径依次为</p><p>$r_{2}$，$r_{3}$，$\\ldots$.正六边形的内切圆半径等于该正六边形外接圆半径的</p><p>$\\cos30^{\\circ}$ 倍，所以</p><p>$r_{n+1}=\\frac{\\sqrt{3}}{2}r_{n}$，$\\pi r_{n+1}^{2}=\\frac{3}{4}\\pi r_{n}^{2}$.</p><p>因此前 $n$ 个圆的面积和是等比数列的前 $n$ 项，首项为</p><p>$\\pi r^{2}$，公比为 $\\frac{3}{4}$.于是</p>\n$$\n\\lim_{n\\to\\infty}S_{n}  =\\frac{\\pi r^{2}}{1-\\frac{3}{4}}=4\\pi r^{2}\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +244,9 @@
             "54"
           ],
           "answer": "B",
-          "solution": "<p>司机工作只能由丙、丁、戊承担.</p><p>若有两人从事司机工作，先从这三人中选出两人，有</p><p>$\\mathrm{C}_{3}^{2}$ 种；剩下三人分别从事另外三项工作，有 $3!$ 种，共有</p>\n$$\n\\mathrm{C}_{3}^{2}\\cdot3!=18\n$$\n<p>种.</p><p>若只有一人从事司机工作，先选出司机，有 $\\mathrm{C}_{3}^{1}$ 种.剩下四人安排到翻译、导游、礼仪三项工作且每项至少一人，利用容斥原理，安排数为</p>\n$$\n3^{4}-\\mathrm{C}_{3}^{1} 2^{4}+\\mathrm{C}_{3}^{2} 1^{4}  =81-48+3=36\n$$\n<p>此时共有</p>\n$$\n\\mathrm{C}_{3}^{1}\\cdot36=108\n$$\n<p>种.因此总数为</p>\n$$\n18+108=126\n$$\n<p>故选 B.</p>"
+          "solution": "<p>司机工作只能由丙、丁、戊承担.</p><p>若有两人从事司机工作，先从这三人中选出两人，有</p><p>$\\mathrm{C}_{3}^{2}$ 种；剩下三人分别从事另外三项工作，有 $3!$ 种，共有</p>\n$$\n\\mathrm{C}_{3}^{2}\\cdot3!=18\n$$\n<p>种.</p><p>若只有一人从事司机工作，先选出司机，有 $\\mathrm{C}_{3}^{1}$ 种.剩下四人安排到翻译、导游、礼仪三项工作且每项至少一人，利用容斥原理，安排数为</p>\n$$\n3^{4}-\\mathrm{C}_{3}^{1} 2^{4}+\\mathrm{C}_{3}^{2} 1^{4}  =81-48+3=36\n$$\n<p>此时共有</p>\n$$\n\\mathrm{C}_{3}^{1}\\cdot36=108\n$$\n<p>种.因此总数为</p>\n$$\n18+108=126\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +258,9 @@
             "$[1 - \\sqrt{2},3]$"
           ],
           "answer": "C",
-          "solution": "<p>曲线的定义域为 $0\\le x\\leqslant4$.直线与曲线有公共点时，公共点的横坐标 $x$ 满足</p>\n$$\nb=3-x-\\sqrt{4x-x^{2}}\n$$\n<p>令 $t=x-2$，则 $t\\in[-2,2]$，上式右端化为</p>\n$$\n\\psi(t)=1-t-\\sqrt{4-t^{2}}\n$$\n<p>在 $(-2,2)$ 内，</p>\n$$\n\\psi'(t)=-1+\\frac{t}{\\sqrt{4-t^{2}}}\n$$\n<p>唯一的驻点为 $t=\\sqrt{2}$，且函数在此处由减变增，取得最小值</p>\n$$\n\\psi(\\sqrt{2})=1-2\\sqrt{2}\n$$\n<p>端点处</p><p>$\\psi(-2)=3$，$\\psi(2)=-1$，</p><p>故最大值为 $3$.由连续性，$b$ 的取值范围为</p>\n$$\n1-2\\sqrt{2}\\le b\\leqslant3\n$$\n<p>故选 C.</p>"
+          "solution": "<p>曲线的定义域为 $0\\le x\\leqslant4$.直线与曲线有公共点时，公共点的横坐标 $x$ 满足</p>\n$$\nb=3-x-\\sqrt{4x-x^{2}}\n$$\n<p>令 $t=x-2$，则 $t\\in[-2,2]$，上式右端化为</p>\n$$\n\\psi(t)=1-t-\\sqrt{4-t^{2}}\n$$\n<p>在 $(-2,2)$ 内，</p>\n$$\n\\psi'(t)=-1+\\frac{t}{\\sqrt{4-t^{2}}}\n$$\n<p>唯一的驻点为 $t=\\sqrt{2}$，且函数在此处由减变增，取得最小值</p>\n$$\n\\psi(\\sqrt{2})=1-2\\sqrt{2}\n$$\n<p>端点处</p><p>$\\psi(-2)=3$，$\\psi(2)=-1$，</p><p>故最大值为 $3$.由连续性，$b$ 的取值范围为</p>\n$$\n1-2\\sqrt{2}\\le b\\leqslant3\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +272,9 @@
             "既不充分也不必要的条件"
           ],
           "answer": "A",
-          "solution": "<p>因为 $a\\le b\\le c$，所以</p><p>$\\frac{c}{a}$ 是三个比值中的最大值，而最小值是</p>\n$$\n\\min\\left\\{\\frac{a}{b},\\frac{b}{c}\\right\\}\n$$\n<p>若 $a=b=c$，则三个比值都为 $1$，从而 $t=1$，所以</p><p>$t=1$ 是等边三角形的必要条件.</p><p>但它不是充分条件. 例如取 $a=b=2$，$c=3$，这三数满足三角形不等式，构成等腰但非等边三角形，且</p>\n$$\n\\max\\left\\{1,\\frac{2}{3},\\frac{3}{2}\\right\\}  \\min\\left\\{1,\\frac{2}{3},\\frac{3}{2}\\right\\}  =\\frac{3}{2}\\cdot\\frac{2}{3}=1\n$$\n<p>故 $t=1$ 必要而不充分，选 A.</p>"
+          "solution": "<p>因为 $a\\le b\\le c$，所以</p><p>$\\frac{c}{a}$ 是三个比值中的最大值，而最小值是</p>\n$$\n\\min\\left\\{\\frac{a}{b},\\frac{b}{c}\\right\\}\n$$\n<p>若 $a=b=c$，则三个比值都为 $1$，从而 $t=1$，所以</p><p>$t=1$ 是等边三角形的必要条件.</p><p>但它不是充分条件. 例如取 $a=b=2$，$c=3$，这三数满足三角形不等式，构成等腰但非等边三角形，且</p>\n$$\n\\max\\left\\{1,\\frac{2}{3},\\frac{3}{2}\\right\\}  \\min\\left\\{1,\\frac{2}{3},\\frac{3}{2}\\right\\}  =\\frac{3}{2}\\cdot\\frac{2}{3}=1\n$$\n<p>故 $t=1$ 必要而不充分，选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -135,37 +284,47 @@
         {
           "num": 11,
           "body": "在 $(x + \\sqrt[4]{3}y)^{20}$ 的展开式中，系数为有理数的项共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 项.",
-          "choices": null,
-          "answer": "$6$",
-          "solution": "<p>展开式的通项为</p><p>$T_{k+1}=\\mathrm{C}_{20}^{k} x^{20-k}(\\sqrt[4]{3}y)^{k} =\\mathrm{C}_{20}^{k}3^{\\frac{k}{4}}x^{20-k}y^{k}$，$k=0$，$1$，$\\ldots$，$20$.</p><p>由于 $\\mathrm{C}_{20}^{k}$ 是整数，系数为有理数当且仅当</p><p>$3^{\\frac{k}{4}}$ 为有理数，即 $k$ 是 $4$ 的倍数. 因此</p><p>$k=0$，$4$，$8$，$12$，$16$，$20$</p><p>共有 $6$ 项.</p>"
+          "choices": [],
+          "answer": "\\(6\\)",
+          "solution": "<p>展开式的通项为</p><p>$T_{k+1}=\\mathrm{C}_{20}^{k} x^{20-k}(\\sqrt[4]{3}y)^{k} =\\mathrm{C}_{20}^{k}3^{\\frac{k}{4}}x^{20-k}y^{k}$，$k=0$，$1$，$\\ldots$，$20$.</p><p>由于 $\\mathrm{C}_{20}^{k}$ 是整数，系数为有理数当且仅当</p><p>$3^{\\frac{k}{4}}$ 为有理数，即 $k$ 是 $4$ 的倍数. 因此</p><p>$k=0$，$4$，$8$，$12$，$16$，$20$</p><p>共有 $6$ 项.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "已知 $z = 2x - y$，式中变量 $x$，$y$ 满足约束条件 $\\begin{cases}y \\le x,\\\\\n\nx + y \\ge 1,\\\\\n\nx \\le 2,\\end{cases}$ 则 $z$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$5$",
-          "solution": "<p>由 $x+y\\geqslant1$ 得 $y\\geqslant1-x$.对于固定的 $x$，</p><p>$z=2x-y$ 随 $y$ 增大而减小，所以要使 $z$ 最大，应取最小的允许值</p><p>$y=1-x$.此时</p>\n$$\nz=2x-(1-x)=3x-1\n$$\n<p>条件 $y\\le x$ 与 $y=1-x$ 给出 $x\\ge\\frac{1}{2}$，再结合</p><p>$x\\leqslant2$，可知 $x\\in[\\frac{1}{2},2]$.故</p>\n$$\nz=3x-1\\leqslant3\\cdot2-1=5\n$$\n<p>当 $x=2$，$y=-1$ 时，三个约束均满足，且 $z=5$，所以最大值为 $5$.</p>"
+          "choices": [],
+          "answer": "\\(5\\)",
+          "solution": "<p>由 $x+y\\geqslant1$ 得 $y\\geqslant1-x$.对于固定的 $x$，</p><p>$z=2x-y$ 随 $y$ 增大而减小，所以要使 $z$ 最大，应取最小的允许值</p><p>$y=1-x$.此时</p>\n$$\nz=2x-(1-x)=3x-1\n$$\n<p>条件 $y\\le x$ 与 $y=1-x$ 给出 $x\\ge\\frac{1}{2}$，再结合</p><p>$x\\leqslant2$，可知 $x\\in[\\frac{1}{2},2]$.故</p>\n$$\nz=3x-1\\leqslant3\\cdot2-1=5\n$$\n<p>当 $x=2$，$y=-1$ 时，三个约束均满足，且 $z=5$，所以最大值为 $5$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
-          "body": "<p>圆柱形容器内部盛有高度为 $8 \\mathrm{~cm}$ 的水，若放入三个相同的球 （球半径与圆柱的底面半径相同） 后，水恰好淹没最上面的球 （如图所示）. 则球的半径是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> $\\mathrm{cm}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$4$",
-          "solution": "<p>设球的半径以及圆柱的底面半径均为 $r$.三个球竖直相切并放在容器底部，最上面球的顶部高度为 $6r$.水恰好淹没最上面的球，所以放球后水和球共同占据的圆柱部分高度为 $6r$，三个球均完全浸没.</p><p>由体积守恒，放球前水的体积等于放球后圆柱体积减去三个球的体积，即</p>\n$$\n8\\pi r^{2}  =6\\pi r^{3}-3\\cdot\\frac{4}{3}\\pi r^{3}  =2\\pi r^{3}\n$$\n<p>因 $r>0$，得 $r=4$，所以球的半径为 $4 \\mathrm{~cm}$.</p>"
+          "body": "<p>圆柱形容器内部盛有高度为 $8 \\mathrm{~cm}$ 的水，若放入三个相同的球 （球半径与圆柱的底面半径相同） 后，水恰好淹没最上面的球 （如图所示）. 则球的半径是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> $\\mathrm{cm}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/hubei_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(4\\)",
+          "solution": "<p>设球的半径以及圆柱的底面半径均为 $r$.三个球竖直相切并放在容器底部，最上面球的顶部高度为 $6r$.水恰好淹没最上面的球，所以放球后水和球共同占据的圆柱部分高度为 $6r$，三个球均完全浸没.</p><p>由体积守恒，放球前水的体积等于放球后圆柱体积减去三个球的体积，即</p>\n$$\n8\\pi r^{2}  =6\\pi r^{3}-3\\cdot\\frac{4}{3}\\pi r^{3}  =2\\pi r^{3}\n$$\n<p>因 $r>0$，得 $r=4$，所以球的半径为 $4 \\mathrm{~cm}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
-          "body": "<p>某射手射击所得环数 $\\xi$ 的分布列如下：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center\"> $7$ </td><td style=\"text-align: center\"> $8$ </td><td style=\"text-align: center\"> $9$ </td><td style=\"text-align: center\"> $10$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $x$ </td><td style=\"text-align: center\"> $0.1$ </td><td style=\"text-align: center\"> $0.3$ </td><td style=\"text-align: center\"> $y$</td></tr></tbody></table></center><p>已知 $\\xi$ 的期望 $E(\\xi) = 8.9$，则 $y$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
-          "answer": "$0.4$",
-          "solution": "<p>由概率和为 $1$，得</p><p>$x+0.1+0.3+y=1$，$x+y=0.6$.</p><p>由期望公式，</p>\n$$\n7x+8\\times0.1+9\\times0.3+10y=8.9\n$$\n<p>即</p>\n$$\n7x+10y=5.4\n$$\n<p>与 $x=0.6-y$ 联立，得</p><p>$7(0.6-y)+10y=5.4$，$y=0.4$.</p>"
+          "body": "<p>某射手射击所得环数 $\\xi$ 的分布列如下：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center\"> $7$ </td><td style=\"text-align: center\"> $8$ </td><td style=\"text-align: center\"> $9$ </td><td style=\"text-align: center\"> $10$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$P$ </td><td style=\"text-align: center\"> $x$ </td><td style=\"text-align: center\"> $0.1$ </td><td style=\"text-align: center\"> $0.3$ </td><td style=\"text-align: center\"> $y$</td></tr></tbody></table></center><p>已知 $\\xi$ 的期望 $E(\\xi) = 8.9$，则 $y$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": [],
+          "answer": "\\(0.4\\)",
+          "solution": "<p>由概率和为 $1$，得</p><p>$x+0.1+0.3+y=1$，$x+y=0.6$.</p><p>由期望公式，</p>\n$$\n7x+8\\times0.1+9\\times0.3+10y=8.9\n$$\n<p>即</p>\n$$\n7x+10y=5.4\n$$\n<p>与 $x=0.6-y$ 联立，得</p><p>$7(0.6-y)+10y=5.4$，$y=0.4$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
-          "body": "<p>设 $a > 0$，$b > 0$. 称 $\\frac{2ab}{a + b}$ 为 $a$，$b$ 的调和平均数. 如图，$C$ 为线段 $AB$ 上的点，且 $AC = a$，$CB = b$，$O$ 为 $AB$ 中点，以 $AB$ 为直径做半圆. 过点 $C$ 作 $AB$ 的垂线交半圆于 $D$. 连接 $OD$，$AD$，$BD$. 过点 $C$ 作 $OD$ 的垂线，垂足为 $E$. 则图中线段 $OD$ 的长度是 $a$，$b$ 的算术平均数，线段<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 的长度是 $a$，$b$ 的几何平均数，线段<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 的长度是 $a$，$b$ 的调和平均数.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$CD$；$DE$",
-          "solution": "<p>设 $AB=a+b$，取 $A$ 为原点，令 $AB$ 为 $x$ 轴，则 $C$ 的横坐标为</p><p>$a$，$O$ 的横坐标为 $\\frac{a+b}{2}$. 因为 $CD\\perp AB$，且 $D$ 在以</p><p>$AB$ 为直径的半圆上，由圆的几何性质</p>\n$$\nCD^{2}=AC\\cdot CB=ab\n$$\n<p>所以 $CD=\\sqrt{ab}$，即为几何平均数.</p><p>又因为 $OD$ 是半圆半径，</p>\n$$\nOD=\\frac{AB}{2}=\\frac{a+b}{2}\n$$\n<p>即为算术平均数.</p><p>在直角三角形 $OCD$ 中，$CE\\perp OD$，由射影定理</p>\n$$\nOD\\cdot DE=CD^{2}\n$$\n<p>因此</p>\n$$\nDE=\\frac{CD^{2}}{OD}=\\frac{ab}{\\frac{(a+b)}{2}}=\\frac{2ab}{a+b}\n$$\n<p>即为调和平均数.故两空依次为 $CD$、$DE$.</p>"
+          "body": "<p>设 $a > 0$，$b > 0$. 称 $\\frac{2ab}{a + b}$ 为 $a$，$b$ 的调和平均数. 如图，$C$ 为线段 $AB$ 上的点，且 $AC = a$，$CB = b$，$O$ 为 $AB$ 中点，以 $AB$ 为直径做半圆. 过点 $C$ 作 $AB$ 的垂线交半圆于 $D$. 连接 $OD$，$AD$，$BD$. 过点 $C$ 作 $OD$ 的垂线，垂足为 $E$. 则图中线段 $OD$ 的长度是 $a$，$b$ 的算术平均数，线段<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 的长度是 $a$，$b$ 的几何平均数，线段<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 的长度是 $a$，$b$ 的调和平均数.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/hubei_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(CD\\)；\\(DE\\)",
+          "solution": "<p>设 $AB=a+b$，取 $A$ 为原点，令 $AB$ 为 $x$ 轴，则 $C$ 的横坐标为</p><p>$a$，$O$ 的横坐标为 $\\frac{a+b}{2}$. 因为 $CD\\perp AB$，且 $D$ 在以</p><p>$AB$ 为直径的半圆上，由圆的几何性质</p>\n$$\nCD^{2}=AC\\cdot CB=ab\n$$\n<p>所以 $CD=\\sqrt{ab}$，即为几何平均数.</p><p>又因为 $OD$ 是半圆半径，</p>\n$$\nOD=\\frac{AB}{2}=\\frac{a+b}{2}\n$$\n<p>即为算术平均数.</p><p>在直角三角形 $OCD$ 中，$CE\\perp OD$，由射影定理</p>\n$$\nOD\\cdot DE=CD^{2}\n$$\n<p>因此</p>\n$$\nDE=\\frac{CD^{2}}{OD}=\\frac{ab}{\\frac{(a+b)}{2}}=\\frac{2ab}{a+b}\n$$\n<p>即为调和平均数.故两空依次为 $CD$、$DE$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -175,44 +334,56 @@
         {
           "num": 16,
           "body": "<p>已知函数 $f(x) = \\cos \\left( \\frac{\\pi}{3}+ x \\right) \\cos \\left( \\frac{\\pi}{3}- x \\right)$，$g(x) = \\frac{1}{2}\\sin 2x - \\frac{1}{4}$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的最小正周期；</p></li><li><p>求函数 $h(x) = f(x) - g(x)$ 的最大值，并求使 $h(x)$ 取得最大值的 $x$ 的集合.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由积化和差公式，</p>\n$$\nf(x)=\\frac{1}{2}\\left[\\cos\\left(\\frac{2\\pi}{3}\\right)+\\cos2x\\right]  =\\frac{1}{2}\\cos2x-\\frac{1}{4}\n$$\n<p>函数 $\\cos2x$ 的最小正周期为 $\\pi$，乘以非零常数并作常数平移不改变周期，所以 $f(x)$ 的最小正周期为 $\\pi$.</p></li><li><p>由上式和 $g(x)=\\frac{1}{2}\\sin2x-\\frac{1}{4}$，</p>\n$$\nh(x)=f(x)-g(x)  =\\frac{1}{2}(\\cos2x-\\sin2x)  =\\frac{\\sqrt{2}}{2}\\cos\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n<p>因此</p>\n$$\nh(x)\\le\\frac{\\sqrt{2}}{2}\n$$\n<p>最大值为 $\\frac{\\sqrt{2}}{2}$，等号成立当且仅当</p><p>$2x+\\frac{\\pi}{4}=2k\\pi$，$k\\in\\mathbb{Z}$，</p><p>即</p><p>$x=k\\pi-\\frac{\\pi}{8}$，$k\\in\\mathbb{Z}$.</p><p>此时使 $h(x)$ 取得最大值的 $x$ 的集合为 $\\left\\{x\\mathrel{}\\middle|\\mathrel{}x=k\\pi-\\frac{\\pi}{8},\\,k\\in\\mathbb{Z}\\right\\}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由积化和差公式，</p>\n$$\nf(x)=\\frac{1}{2}\\left[\\cos\\left(\\frac{2\\pi}{3}\\right)+\\cos2x\\right]  =\\frac{1}{2}\\cos2x-\\frac{1}{4}\n$$\n<p>函数 $\\cos2x$ 的最小正周期为 $\\pi$，乘以非零常数并作常数平移不改变周期，所以 $f(x)$ 的最小正周期为 $\\pi$.</p></li><li><p>由上式和 $g(x)=\\frac{1}{2}\\sin2x-\\frac{1}{4}$，</p>\n$$\nh(x)=f(x)-g(x)  =\\frac{1}{2}(\\cos2x-\\sin2x)  =\\frac{\\sqrt{2}}{2}\\cos\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n<p>因此</p>\n$$\nh(x)\\le\\frac{\\sqrt{2}}{2}\n$$\n<p>最大值为 $\\frac{\\sqrt{2}}{2}$，等号成立当且仅当</p><p>$2x+\\frac{\\pi}{4}=2k\\pi$，$k\\in\\mathbb{Z}$，</p><p>即</p><p>$x=k\\pi-\\frac{\\pi}{8}$，$k\\in\\mathbb{Z}$.</p><p>此时使 $h(x)$ 取得最大值的 $x$ 的集合为 $\\left\\{x\\mathrel{}\\middle|\\mathrel{}x=k\\pi-\\frac{\\pi}{8},\\,k\\in\\mathbb{Z}\\right\\}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
           "body": "<p>为了在夏季降温和冬季供暖时减少能源损耗，房屋的房顶和外墙需要建造隔热层. 某幢建筑物要建造可使用 $20\\text{ 年}$ 的隔热层，每厘米厚的隔热层建造成本为 $6\\text{ 万元}$. 该建筑物每年的能源消耗费用 $C$（单位：万元）与隔热层厚度 $x$（单位：cm）满足关系：$C(x) = \\frac{k}{3x + 5}$（$0 \\le x \\le 10$），若不建隔热层，每年能源消耗费用为 $8\\text{ 万元}$. 设 $f(x)$ 为隔热层建造费用与 $20\\text{ 年}$ 的能源消耗费用之和.</p><ol class=\"enumerate\"><li><p>求 $k$ 的值及 $f(x)$ 的表达式.</p></li><li><p>隔热层修建多厚时，总费用 $f(x)$ 达到最小，并求最小值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>不建隔热层时 $x=0$，所以</p>\n$$\nC(0)=\\frac{k}{5}=8\n$$\n<p>得 $k=40$. 厚度为 $x\\text{ cm}$ 时，隔热层建造费用为 $6x\\text{ 万元}$，$20\\text{ 年}$能源消耗费用为</p>\n$$\n20C(x)=\\frac{800}{3x+5}\n$$\n<p>故</p><p>$f(x)=6x+\\frac{800}{3x+5}$，$0\\le x\\leqslant10$.</p></li><li><p>对 $f(x)$ 求导，得</p>\n$$\nf'(x)=6-\\frac{2400}{(3x+5)^{2}}\n$$\n<p>在给定区间内 $3x+5>0$，所以</p>\n$$\nf'(x)=0  \\Longleftrightarrow (3x+5)^{2}=400  \\Longleftrightarrow x=5\n$$\n<p>当 $0\\le x<5$ 时 $3x+5<20$，故 $f'(x)<0$；当</p><p>$5<x\\leqslant10$ 时 $3x+5>20$，故 $f'(x)>0$. 因此 $f(x)$ 在</p><p>$[0,5]$ 上递减、在 $[5,10]$ 上递增，最小值在 $x=5$ 处取得，且</p>\n$$\nf(5)=6\\times5+\\frac{800}{20}=70\n$$\n<p>所以隔热层厚 $5 \\mathrm{~cm}$ 时总费用最小，最小值为 $70\\text{ 万元}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>不建隔热层时 $x=0$，所以</p>\n$$\nC(0)=\\frac{k}{5}=8\n$$\n<p>得 $k=40$. 厚度为 $x\\text{ cm}$ 时，隔热层建造费用为 $6x\\text{ 万元}$，$20\\text{ 年}$能源消耗费用为</p>\n$$\n20C(x)=\\frac{800}{3x+5}\n$$\n<p>故</p><p>$f(x)=6x+\\frac{800}{3x+5}$，$0\\le x\\leqslant10$.</p></li><li><p>对 $f(x)$ 求导，得</p>\n$$\nf'(x)=6-\\frac{2400}{(3x+5)^{2}}\n$$\n<p>在给定区间内 $3x+5>0$，所以</p>\n$$\nf'(x)=0  \\Longleftrightarrow (3x+5)^{2}=400  \\Longleftrightarrow x=5\n$$\n<p>当 $0\\le x<5$ 时 $3x+5<20$，故 $f'(x)<0$；当</p><p>$5<x\\leqslant10$ 时 $3x+5>20$，故 $f'(x)>0$. 因此 $f(x)$ 在</p><p>$[0,5]$ 上递减、在 $[5,10]$ 上递增，最小值在 $x=5$ 处取得，且</p>\n$$\nf(5)=6\\times5+\\frac{800}{20}=70\n$$\n<p>所以隔热层厚 $5 \\mathrm{~cm}$ 时总费用最小，最小值为 $70\\text{ 万元}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，在四面体 $ABOC$ 中，$OC \\perp OA$，$OC \\perp OB$，$\\angle AOB = 120^{\\circ}$，且 $OA = OB = OC = 1$.</p><ol class=\"enumerate\"><li><p>设 $P$ 为 $AC$ 的中点，证明：在 $AB$ 上存在一点 $Q$，使 $PQ \\perp OA$，并计算 $\\frac{AB}{AQ}$ 的值；</p></li><li><p>求二面角 $O - AC - B$ 的平面角的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在四面体 $ABOC$ 中，$OC \\perp OA$，$OC \\perp OB$，$\\angle AOB = 120^{\\circ}$，且 $OA = OB = OC = 1$.</p><ol class=\"enumerate\"><li><p>设 $P$ 为 $AC$ 的中点，证明：在 $AB$ 上存在一点 $Q$，使 $PQ \\perp OA$，并计算 $\\frac{AB}{AQ}$ 的值；</p></li><li><p>求二面角 $O - AC - B$ 的平面角的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/hubei_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>建立空间直角坐标系，使 $O$ 为原点，$OA$ 在 $x$ 轴正方向，$OC$ 在</p><p>$z$ 轴正方向.由已知可取</p><p>$A(1,0,0)$，$B\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$C(0,0,1)$.</p><ol class=\"enumerate\"><li><p>设 $Q$ 将线段 $AB$ 按比例 $t$ 分割，即</p><p>$Q=A+t\\overrightarrow{AB}=\\left(1-\\frac{3}{2}t,\\frac{\\sqrt{3}}{2}t,0\\right)$，$0\\le t\\leqslant1$.</p><p>点 $P$ 为 $AC$ 的中点，所以 $P(\\frac{1}{2},0,\\frac{1}{2})$.于是</p><p>$\\overrightarrow{PQ}=\\left(\\frac{1}{2}-\\frac{3}{2}t,\\frac{\\sqrt{3}}{2}t,-\\frac{1}{2}\\right)$，$\\overrightarrow{OA}=(1,0,0)$.</p><p>条件 $PQ\\perp OA$ 等价于</p>\n$$\n\\overrightarrow{PQ}\\cdot\\overrightarrow{OA}=0\n$$\n<p>从而</p><p>$\\frac{1}{2}-\\frac{3}{2}t=0$，$t=\\frac{1}{3}$.</p><p>这个 $t$ 属于 $[0,1]$，所以确有这样的点 $Q$ 在 $AB$ 上.又</p><p>$AQ=t\\,AB$，故</p>\n$$\n\\frac{AB}{AQ}=\\frac{1}{t}=3\n$$\n</li><li><p>平面 $OAC$ 的一个法向量可取</p><p>$\\mathbf{n}_{1}=(0,1,0)$.平面 $ABC$ 的两个方向向量为</p><p>$\\overrightarrow{AB}=\\left(-\\frac{3}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$\\overrightarrow{AC}=(-1,0,1)$，</p><p>故其法向量可取</p><p>$\\mathbf{n}_{2}=\\overrightarrow{AB}\\times\\overrightarrow{AC}=\\left(\\frac{\\sqrt{3}}{2},\\frac{3}{2},\\frac{\\sqrt{3}}{2}\\right)$，$|\\mathbf{n}_{2}|=\\frac{\\sqrt{15}}{2}$.</p><p>二面角的平面角取两平面的锐角，所以其余弦为两法向量夹角余弦的绝对值.于是</p>\n$$\n\\cos\\theta  =\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{\\frac{3}{2}}{\\frac{\\sqrt{15}}{2}}=\\frac{\\sqrt{15}}{5}\n$$\n</li></ol>"
+          "solution": "<p>建立空间直角坐标系，使 $O$ 为原点，$OA$ 在 $x$ 轴正方向，$OC$ 在</p><p>$z$ 轴正方向.由已知可取</p><p>$A(1,0,0)$，$B\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$C(0,0,1)$.</p><ol class=\"enumerate\"><li><p>设 $Q$ 将线段 $AB$ 按比例 $t$ 分割，即</p><p>$Q=A+t\\overrightarrow{AB}=\\left(1-\\frac{3}{2}t,\\frac{\\sqrt{3}}{2}t,0\\right)$，$0\\le t\\leqslant1$.</p><p>点 $P$ 为 $AC$ 的中点，所以 $P(\\frac{1}{2},0,\\frac{1}{2})$.于是</p><p>$\\overrightarrow{PQ}=\\left(\\frac{1}{2}-\\frac{3}{2}t,\\frac{\\sqrt{3}}{2}t,-\\frac{1}{2}\\right)$，$\\overrightarrow{OA}=(1,0,0)$.</p><p>条件 $PQ\\perp OA$ 等价于</p>\n$$\n\\overrightarrow{PQ}\\cdot\\overrightarrow{OA}=0\n$$\n<p>从而</p><p>$\\frac{1}{2}-\\frac{3}{2}t=0$，$t=\\frac{1}{3}$.</p><p>这个 $t$ 属于 $[0,1]$，所以确有这样的点 $Q$ 在 $AB$ 上.又</p><p>$AQ=t\\,AB$，故</p>\n$$\n\\frac{AB}{AQ}=\\frac{1}{t}=3\n$$\n</li><li><p>平面 $OAC$ 的一个法向量可取</p><p>$\\mathbf{n}_{1}=(0,1,0)$.平面 $ABC$ 的两个方向向量为</p><p>$\\overrightarrow{AB}=\\left(-\\frac{3}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$\\overrightarrow{AC}=(-1,0,1)$，</p><p>故其法向量可取</p><p>$\\mathbf{n}_{2}=\\overrightarrow{AB}\\times\\overrightarrow{AC}=\\left(\\frac{\\sqrt{3}}{2},\\frac{3}{2},\\frac{\\sqrt{3}}{2}\\right)$，$|\\mathbf{n}_{2}|=\\frac{\\sqrt{15}}{2}$.</p><p>二面角的平面角取两平面的锐角，所以其余弦为两法向量夹角余弦的绝对值.于是</p>\n$$\n\\cos\\theta  =\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{\\frac{3}{2}}{\\frac{\\sqrt{15}}{2}}=\\frac{\\sqrt{15}}{5}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>已知一条曲线 $C$ 在 $y$ 轴的右边，$C$ 上每一点到点 $F(1,0)$ 的距离减去它到 $y$ 轴距离的差都是 1.</p><ol class=\"enumerate\"><li><p>求曲线 $C$ 的方程；</p></li><li><p>是否存在正数 $m$，对于过点 $M(m,0)$ 且与曲线 $C$ 有两个交点 $A$，$B$ 的任一直线，都有 $\\overrightarrow{FA}\\cdot \\overrightarrow{FB}< 0$？若存在，求出 $m$ 的取值范围；若不存在，请说明理由.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $C$ 上任一点为 $P(x,y)$.因 $P$ 在 $y$ 轴右侧，$x>0$，且点</p><p>$P$ 到 $y$ 轴的距离为 $x$.由题意，</p>\n$$\n\\sqrt{(x-1)^{2}+y^{2}}-x=1\n$$\n<p>于是 $\\sqrt{(x-1)^{2}+y^{2}}=x+1>0$，两边平方得</p><p>$(x-1)^{2}+y^{2}=(x+1)^{2}$，$y^{2}=4x$.</p><p>反过来，若 $x>0$ 且 $y^{2}=4x$，则</p>\n$$\n\\sqrt{(x-1)^{2}+y^{2}}=\\sqrt{(x+1)^{2}}=x+1\n$$\n<p>满足原条件.因此曲线 $C$ 的方程为</p><p>$y^{2}=4x$，$x>0$.</p></li><li><p>先设直线不垂直于 $x$ 轴，写成 $y=k(x-m)$.设它与 $C$ 的两个交点为</p><p>$A(x_{1},y_{1})$、$B(x_{2},y_{2})$，则</p>\n$$\nk^{2}(x-m)^{2}=4x\n$$\n<p>即</p>\n$$\nk^{2}x^{2}-(2mk^{2}+4)x+m^{2}k^{2}=0\n$$\n<p>由韦达定理，</p><p>$x_{1}+x_{2}=2m+\\frac{4}{k^{2}}$，$x_{1}x_{2}=m^{2}$.</p><p>又 $y_{i}=k(x_{i}-m)$，所以</p>\n$$\ny_{1}y_{2}=k^{2}(x_{1}-m)(x_{2}-m)=-4m\n$$\n<p>因此</p>\n$$\n\\begin{aligned}\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=(x_{1}-1)(x_{2}-1)+y_{1}y_{2}\\\\&=x_{1}x_{2}-(x_{1}+x_{2})+1+y_{1}y_{2}\\\\&=m^{2}-6m+1-\\frac{4}{k^2}.\\end{aligned}\n$$\n<p>若 $m^{2}-6m+1<0$，上式必小于 $0$，所以所有这类直线都满足题设不等式.</p><p>还需考虑垂直于 $x$ 轴的直线 $x=m$.它与 $C$ 的两个交点为</p><p>$(m,2\\sqrt{m})$、$(m,-2\\sqrt{m})$，且</p>\n$$\n\\overrightarrow{FA}\\cdot\\overrightarrow{FB}=(m-1)^{2}-4m=m^{2}-6m+1\n$$\n<p>因此题设的严格不等式对任意直线成立，当且仅当</p>\n$$\nm^{2}-6m+1<0\n$$\n<p>解得</p>\n$$\n3-2\\sqrt{2}<m<3+2\\sqrt{2}\n$$\n<p>由于 $3-2\\sqrt{2}>0$，这正是所求正数 $m$ 的取值范围.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $C$ 上任一点为 $P(x,y)$.因 $P$ 在 $y$ 轴右侧，$x>0$，且点</p><p>$P$ 到 $y$ 轴的距离为 $x$.由题意，</p>\n$$\n\\sqrt{(x-1)^{2}+y^{2}}-x=1\n$$\n<p>于是 $\\sqrt{(x-1)^{2}+y^{2}}=x+1>0$，两边平方得</p><p>$(x-1)^{2}+y^{2}=(x+1)^{2}$，$y^{2}=4x$.</p><p>反过来，若 $x>0$ 且 $y^{2}=4x$，则</p>\n$$\n\\sqrt{(x-1)^{2}+y^{2}}=\\sqrt{(x+1)^{2}}=x+1\n$$\n<p>满足原条件.因此曲线 $C$ 的方程为</p><p>$y^{2}=4x$，$x>0$.</p></li><li><p>先设直线不垂直于 $x$ 轴，写成 $y=k(x-m)$.设它与 $C$ 的两个交点为</p><p>$A(x_{1},y_{1})$、$B(x_{2},y_{2})$，则</p>\n$$\nk^{2}(x-m)^{2}=4x\n$$\n<p>即</p>\n$$\nk^{2}x^{2}-(2mk^{2}+4)x+m^{2}k^{2}=0\n$$\n<p>由韦达定理，</p><p>$x_{1}+x_{2}=2m+\\frac{4}{k^{2}}$，$x_{1}x_{2}=m^{2}$.</p><p>又 $y_{i}=k(x_{i}-m)$，所以</p>\n$$\ny_{1}y_{2}=k^{2}(x_{1}-m)(x_{2}-m)=-4m\n$$\n<p>因此</p>\n$$\n\\begin{aligned}\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=(x_{1}-1)(x_{2}-1)+y_{1}y_{2}\\\\&=x_{1}x_{2}-(x_{1}+x_{2})+1+y_{1}y_{2}\\\\&=m^{2}-6m+1-\\frac{4}{k^2}.\\end{aligned}\n$$\n<p>若 $m^{2}-6m+1<0$，上式必小于 $0$，所以所有这类直线都满足题设不等式.</p><p>还需考虑垂直于 $x$ 轴的直线 $x=m$.它与 $C$ 的两个交点为</p><p>$(m,2\\sqrt{m})$、$(m,-2\\sqrt{m})$，且</p>\n$$\n\\overrightarrow{FA}\\cdot\\overrightarrow{FB}=(m-1)^{2}-4m=m^{2}-6m+1\n$$\n<p>因此题设的严格不等式对任意直线成立，当且仅当</p>\n$$\nm^{2}-6m+1<0\n$$\n<p>解得</p>\n$$\n3-2\\sqrt{2}<m<3+2\\sqrt{2}\n$$\n<p>由于 $3-2\\sqrt{2}>0$，这正是所求正数 $m$ 的取值范围.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知数列 $\\{a_{n}\\}$ 满足： $a_{1} = \\frac{1}{2}$，$\\frac{3(1 + a_{n + 1})}{1 - a_{n}}= \\frac{2(1 + a_{n})}{1 - a_{n + 1}}$，$a_{n} a_{n + 1}< 0$ （$n \\ge 1$）；数列 $\\{b_{n}\\}$ 满足： $b_{n} = a_{n+1}^{2} - a_{n}^{2}$ （$n \\ge 1$）.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$， $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>证明：数列 $\\{b_{n}\\}$ 中的任意三项不可能成等差数列.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由题设递推式交叉相乘，得</p>\n$$\n3(1+a_{n+1})(1-a_{n+1})  =2(1+a_{n})(1-a_{n})\n$$\n<p>即</p>\n$$\n1-a_{n+1}^{2}=\\frac{2}{3}(1-a_{n}^{2})\n$$\n<p>令 $c_{n}=1-a_{n}^{2}$，则 $c_{n+1}=\\frac{2}{3}c_{n}$，且</p><p>$c_{1}=1-\\frac{1}{4}=\\frac{3}{4}$.所以</p><p>$c_{n}=\\frac{3}{4}\\left(\\frac{2}{3}\\right)^{n-1}$，$a_{n}^{2}=1-\\frac{3}{4}\\left(\\frac{2}{3}\\right)^{n-1}$.</p><p>由 $a_{1}>0$ 以及 $a_{n}a_{n+1}<0$，数列 $\\{a_{n}\\}$ 的符号交替，故</p>\n$$\na_{n}=(-1)^{n-1}\\sqrt{1-\\frac{3}{4}\\left(\\frac{2}{3}\\right)^{n-1}}\n$$\n<p>再由 $b_{n}=a_{n+1}^{2}-a_{n}^{2}$，</p>\n$$\n\\begin{aligned}b_{n}&=\\left[1-\\frac{3}{4}\\left(\\frac{2}{3}\\right)^{n}\\right]  -\\left[1-\\frac{3}{4}\\left(\\frac{2}{3}\\right)^{n-1}\\right]\\\\&=\\frac{1}{4}\\left(\\frac{2}{3}\\right)^{n-1}.\\end{aligned}\n$$\n</li><li><p>由 $b_{n}=\\frac{1}{4}\\left(\\frac{2}{3}\\right)^{n-1}$，数列 $\\{b_{n}\\}$ 严格递减.</p><p>任取三个不同的项，设它们的下标为 $i<j<k$，并令</p><p>$p=j-i$、$r=k-i$，则 $1\\le p<r$.若三项成等差数列，由大小关系知</p><p>中间项为 $b_{j}$，从而</p><p>$2b_{j}=b_{i}+b_{k}$，$2\\left(\\frac{2}{3}\\right)^{p}=1+\\left(\\frac{2}{3}\\right)^{r}$.</p><p>右端大于 $1$，所以 $2(\\frac{2}{3})^{p}>1$，只能有 $p=1$.此时</p><p>$\\left(\\frac{2}{3}\\right)^{r}=\\frac{1}{3}$，$2^{r}=3^{r-1}$</p><p>但 $r\\geqslant2$ 时左边为偶数、右边为奇数，矛盾.因此</p><p>$\\{b_{n}\\}$ 中任意三项都不可能成等差数列.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由题设递推式交叉相乘，得</p>\n$$\n3(1+a_{n+1})(1-a_{n+1})  =2(1+a_{n})(1-a_{n})\n$$\n<p>即</p>\n$$\n1-a_{n+1}^{2}=\\frac{2}{3}(1-a_{n}^{2})\n$$\n<p>令 $c_{n}=1-a_{n}^{2}$，则 $c_{n+1}=\\frac{2}{3}c_{n}$，且</p><p>$c_{1}=1-\\frac{1}{4}=\\frac{3}{4}$.所以</p><p>$c_{n}=\\frac{3}{4}\\left(\\frac{2}{3}\\right)^{n-1}$，$a_{n}^{2}=1-\\frac{3}{4}\\left(\\frac{2}{3}\\right)^{n-1}$.</p><p>由 $a_{1}>0$ 以及 $a_{n}a_{n+1}<0$，数列 $\\{a_{n}\\}$ 的符号交替，故</p>\n$$\na_{n}=(-1)^{n-1}\\sqrt{1-\\frac{3}{4}\\left(\\frac{2}{3}\\right)^{n-1}}\n$$\n<p>再由 $b_{n}=a_{n+1}^{2}-a_{n}^{2}$，</p>\n$$\n\\begin{aligned}b_{n}&=\\left[1-\\frac{3}{4}\\left(\\frac{2}{3}\\right)^{n}\\right]  -\\left[1-\\frac{3}{4}\\left(\\frac{2}{3}\\right)^{n-1}\\right]\\\\&=\\frac{1}{4}\\left(\\frac{2}{3}\\right)^{n-1}.\\end{aligned}\n$$\n</li><li><p>由 $b_{n}=\\frac{1}{4}\\left(\\frac{2}{3}\\right)^{n-1}$，数列 $\\{b_{n}\\}$ 严格递减.</p><p>任取三个不同的项，设它们的下标为 $i<j<k$，并令</p><p>$p=j-i$、$r=k-i$，则 $1\\le p<r$.若三项成等差数列，由大小关系知</p><p>中间项为 $b_{j}$，从而</p><p>$2b_{j}=b_{i}+b_{k}$，$2\\left(\\frac{2}{3}\\right)^{p}=1+\\left(\\frac{2}{3}\\right)^{r}$.</p><p>右端大于 $1$，所以 $2(\\frac{2}{3})^{p}>1$，只能有 $p=1$.此时</p><p>$\\left(\\frac{2}{3}\\right)^{r}=\\frac{1}{3}$，$2^{r}=3^{r-1}$</p><p>但 $r\\geqslant2$ 时左边为偶数、右边为奇数，矛盾.因此</p><p>$\\{b_{n}\\}$ 中任意三项都不可能成等差数列.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知函数 $f(x) = ax + \\frac{b}{x}+ c$（$a > 0$）的图象在点$(1, f(1))$处的切线方程为 $y = x - 1$.</p><ol class=\"enumerate\"><li><p>用 $a$ 表示出 $b$，$c$；</p></li><li><p>若 $f(x) \\ge \\ln x$ 在 $[1, +\\infty)$ 上恒成立，求 $a$ 的取值范围.</p></li><li><p>证明： $1 + \\frac{1}{2}+ \\frac{1}{3}+ \\cdots + \\frac{1}{n}> \\ln (n + 1) + \\frac{n}{2(n + 1)}$（$n \\ge 1$）.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为切线 $y=x-1$ 在 $x=1$ 处，所以切点的纵坐标为 $0$，且切线斜率为 $1$.由此</p><p>$f(1)=a+b+c=0$，$f'(1)=a-b=1$.</p><p>解得</p><p>$b=a-1$，$c=1-2a$.</p></li><li><p>代入上面的 $b$，$c$，得</p>\n$$\nf(x)=ax+\\frac{a-1}{x}+1-2a\n$$\n<p>令 $G_{a}(x)=f(x)-\\ln x$.将 $a=\\frac{1}{2}$ 的情形分离出来，有</p>\n$$\nG_{a}(x)=\\left(\\frac{1}{2}x-\\frac{1}{2x}-\\ln x\\right)  +\\left(a-\\frac{1}{2}\\right)\\left(x+\\frac{1}{x}-2\\right)\n$$\n<p>记</p>\n$$\nG_{\\frac{1}{2}}(x)=\\frac{1}{2}x-\\frac{1}{2x}-\\ln x\n$$\n<p>则 $G_{\\frac{1}{2}}(1)=0$，且</p>\n$$\nG'_{\\frac{1}{2}}(x)  =\\frac{1}{2}+\\frac{1}{2x^{2}}-\\frac{1}{x}=\\frac{(x-1)^{2}}{2x^{2}}\\geqslant0\n$$\n<p>所以当 $x\\geqslant1$ 时，$G_{\\frac{1}{2}}(x)\\geqslant0$.又</p>\n$$\nx+\\frac{1}{x}-2=\\frac{(x-1)^{2}}{x}\\geqslant0\n$$\n<p>故 $a\\ge\\frac{1}{2}$ 时 $G_{a}(x)\\geqslant0$，即题设不等式恒成立.</p><p>反之，若 $0<a<\\frac{1}{2}$，则</p>\n$$\n\\lim_{x\\to1^+}\\frac{G_{\\frac{1}{2}}(x)}{x+\\frac{1}{x}-2}=\\lim_{x\\to1^+}\\frac{\\frac{(x-1)^{2}}{(2x^{2})}}{1-\\frac{1}{x^{2}}}=\\lim_{x\\to1^+}\\frac{x-1}{2(x+1)}=0\n$$\n<p>因此当 $x>1$ 充分接近 $1$ 时，</p>\n$$\n\\frac{G_{a}(x)}{x+\\frac{1}{x}-2}<0\n$$\n<p>从而 $G_{a}(x)<0$，不可能在 $[1,+\\infty)$ 上恒成立.故</p>\n$$\na\\in\\left[\\frac{1}{2},+\\infty\\right)\n$$\n</li><li><p>对任意 $k\\geqslant1$，由</p>\n$$\nt-\\ln(1+t)=\\int_{0}^{t}\\frac{u}{1+u}\\,\\mathrm{d}u\n$$\n<p>以及 $0\\le u\\le t$，有</p><p>$t-\\ln(1+t)> \\int_{0}^{t}\\frac{u}{1+t}\\,\\mathrm{d}u =\\frac{t^{2}}{2(1+t)}$，（$t>0$）.</p><p>取 $t=\\frac{1}{k}$，得到</p>\n$$\n\\frac{1}{k}-\\ln\\left(1+\\frac{1}{k}\\right)  >\\frac{1}{2k(k+1)}\n$$\n<p>对 $k=1$，$2$，$\\ldots$，$n$ 求和，并注意</p>\n$$\n\\sum_{k=1}^{n}\\ln\\left(1+\\frac{1}{k}\\right)  =\\ln(n+1)\n$$\n<p>便有</p>\n$$\n\\begin{aligned}1+\\frac{1}{2}+\\cdots+\\frac{1}{n}-\\ln(n+1)&>\\frac{1}{2}\\sum_{k=1}^{n}\\left(\\frac{1}{k}-\\frac{1}{k+1}\\right)\\\\&=\\frac{1}{2}\\left(1-\\frac{1}{n+1}\\right)  =\\frac{n}{2(n+1)}.\\end{aligned}\n$$\n<p>即得所证不等式.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为切线 $y=x-1$ 在 $x=1$ 处，所以切点的纵坐标为 $0$，且切线斜率为 $1$.由此</p><p>$f(1)=a+b+c=0$，$f'(1)=a-b=1$.</p><p>解得</p><p>$b=a-1$，$c=1-2a$.</p></li><li><p>代入上面的 $b$，$c$，得</p>\n$$\nf(x)=ax+\\frac{a-1}{x}+1-2a\n$$\n<p>令 $G_{a}(x)=f(x)-\\ln x$.将 $a=\\frac{1}{2}$ 的情形分离出来，有</p>\n$$\nG_{a}(x)=\\left(\\frac{1}{2}x-\\frac{1}{2x}-\\ln x\\right)  +\\left(a-\\frac{1}{2}\\right)\\left(x+\\frac{1}{x}-2\\right)\n$$\n<p>记</p>\n$$\nG_{\\frac{1}{2}}(x)=\\frac{1}{2}x-\\frac{1}{2x}-\\ln x\n$$\n<p>则 $G_{\\frac{1}{2}}(1)=0$，且</p>\n$$\nG'_{\\frac{1}{2}}(x)  =\\frac{1}{2}+\\frac{1}{2x^{2}}-\\frac{1}{x}=\\frac{(x-1)^{2}}{2x^{2}}\\geqslant0\n$$\n<p>所以当 $x\\geqslant1$ 时，$G_{\\frac{1}{2}}(x)\\geqslant0$.又</p>\n$$\nx+\\frac{1}{x}-2=\\frac{(x-1)^{2}}{x}\\geqslant0\n$$\n<p>故 $a\\ge\\frac{1}{2}$ 时 $G_{a}(x)\\geqslant0$，即题设不等式恒成立.</p><p>反之，若 $0<a<\\frac{1}{2}$，则</p>\n$$\n\\lim_{x\\to1^+}\\frac{G_{\\frac{1}{2}}(x)}{x+\\frac{1}{x}-2}=\\lim_{x\\to1^+}\\frac{\\frac{(x-1)^{2}}{(2x^{2})}}{1-\\frac{1}{x^{2}}}=\\lim_{x\\to1^+}\\frac{x-1}{2(x+1)}=0\n$$\n<p>因此当 $x>1$ 充分接近 $1$ 时，</p>\n$$\n\\frac{G_{a}(x)}{x+\\frac{1}{x}-2}<0\n$$\n<p>从而 $G_{a}(x)<0$，不可能在 $[1,+\\infty)$ 上恒成立.故</p>\n$$\na\\in\\left[\\frac{1}{2},+\\infty\\right)\n$$\n</li><li><p>对任意 $k\\geqslant1$，由</p>\n$$\nt-\\ln(1+t)=\\int_{0}^{t}\\frac{u}{1+u}\\,\\mathrm{d}u\n$$\n<p>以及 $0\\le u\\le t$，有</p><p>$t-\\ln(1+t)> \\int_{0}^{t}\\frac{u}{1+t}\\,\\mathrm{d}u =\\frac{t^{2}}{2(1+t)}$，（$t>0$）.</p><p>取 $t=\\frac{1}{k}$，得到</p>\n$$\n\\frac{1}{k}-\\ln\\left(1+\\frac{1}{k}\\right)  >\\frac{1}{2k(k+1)}\n$$\n<p>对 $k=1$，$2$，$\\ldots$，$n$ 求和，并注意</p>\n$$\n\\sum_{k=1}^{n}\\ln\\left(1+\\frac{1}{k}\\right)  =\\ln(n+1)\n$$\n<p>便有</p>\n$$\n\\begin{aligned}1+\\frac{1}{2}+\\cdots+\\frac{1}{n}-\\ln(n+1)&>\\frac{1}{2}\\sum_{k=1}^{n}\\left(\\frac{1}{k}-\\frac{1}{k+1}\\right)\\\\&=\\frac{1}{2}\\left(1-\\frac{1}{n+1}\\right)  =\\frac{n}{2(n+1)}.\\end{aligned}\n$$\n<p>即得所证不等式.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

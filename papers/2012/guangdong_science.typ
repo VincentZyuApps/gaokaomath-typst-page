@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,303 +11,289 @@
 #part-header("单选题")
 
 #problem(1)[
-设 $i$ 为虚数单位，则复数 $(5 - 6 i)/(i)=$（ ）
-  #choices([$6 + 5 i$], [$6 - 5 i$], [$-6 + 5 i$], [$-6 - 5 i$], cols: 4)
+设 #mi(`\mathrm{i}`) 为虚数单位，则复数 #mi(`\frac{5 - 6\mathrm{i}}{\mathrm{i}}=`)（ ）
+  #choices([#mi(`6 + 5\mathrm{i}`)], [#mi(`6 - 5\mathrm{i}`)], [#mi(`-6 + 5\mathrm{i}`)], [#mi(`-6 - 5\mathrm{i}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由 $i ""^2=-1$ 得 $(1)/(i)=- i$，所以
-$(5-6 i)/(i)=(5-6 i )(- i )=-5 i +6 i ""^2=-6-5 i$，故选 D.
+由 #mi(`\mathrm{i}^{2}=-1`) 得 #mi(`\dfrac{1}{\mathrm{i}}=-\mathrm{i}`)，所以
+
+#mi(`\dfrac{5-6\mathrm{i}}{\mathrm{i}}=(5-6\mathrm{i})(-\mathrm{i})=-5\mathrm{i}+6\mathrm{i}^{2}=-6-5\mathrm{i}`)，故选 D.
 ]
 
 #problem(2)[
-设集合 $U = \{1, 2, 3, 4, 5, 6\}$，$M = \{1, 2, 4\}$，则 $\c o m p l e m e n t_U M =$（ ）
-  #choices([$U$], [$\{1, 3, 5\}$], [$\{3, 5, 6\}$], [$\{2, 4, 6\}$], cols: 4)
+设集合 #mi(`U = \{1, 2, 3, 4, 5, 6\}`)，#mi(`M = \{1, 2, 4\}`)，则 #mi(`\complement_{U} M =`)（ ）
+  #choices([#mi(`U`)], [#mi(`\{1, 3, 5\}`)], [#mi(`\{3, 5, 6\}`)], [#mi(`\{2, 4, 6\}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-补集 $\c o m p l e m e n t_U M$ 由全集 $U$ 中不属于 $M$ 的元素组成. 由 $U=\{1,2,3,4,5,6\}$ 和 $M=\{1,2,4\}$，删去 $1$，$2$，$4$ 后得到 $\c o m p l e m e n t_U M=\{3,5,6\}$，故选 C.
+补集 #mi(`\complement_{U} M`) 由全集 #mi(`U`) 中不属于 #mi(`M`) 的元素组成. 由 #mi(`U=\{1,2,3,4,5,6\}`) 和 #mi(`M=\{1,2,4\}`)，删去 #mi(`1`)，#mi(`2`)，#mi(`4`) 后得到 #mi(`\complement_{U} M=\{3,5,6\}`)，故选 C.
 ]
 
 #problem(3)[
-若向量 $arrow(B A)= (2, 3)$，$arrow(C A)= (4, 7)$，则 $arrow(B C)=$（ ）
-  #choices([$(-2, -4)$], [$(3, 4)$], [$(6, 10)$], [$(-6, -10)$], cols: 4)
+若向量 #mi(`\overrightarrow{BA}= (2, 3)`)，#mi(`\overrightarrow{CA}= (4, 7)`)，则 #mi(`\overrightarrow{BC}=`)（ ）
+  #choices([#mi(`(-2, -4)`)], [#mi(`(3, 4)`)], [#mi(`(6, 10)`)], [#mi(`(-6, -10)`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由三角形法则，$arrow(B C)=arrow(B A)+arrow(A C)=arrow(B A)-arrow(C A)$. 因此
-$arrow(B C)=(2,3)-(4,7)=(-2,-4)$，故选 A.
+由三角形法则，#mi(`\overrightarrow{BC}=\overrightarrow{BA}+\overrightarrow{AC}=\overrightarrow{BA}-\overrightarrow{CA}`). 因此
+
+#mi(`\overrightarrow{BC}=(2,3)-(4,7)=(-2,-4)`)，故选 A.
 ]
 
 #problem(4)[
-下列函数中，在区间 $(0,+ oo )$ 上为增函数的是（ ）
-  #choices([$y = ln (x + 2)$], [$y = -sqrt(x + 1)$], [$y = ((1)/(2))^x$], [$y = x + (1)/(x)$], cols: 2)
+下列函数中，在区间 #mi(`(0,+\infty)`) 上为增函数的是（ ）
+  #choices([#mi(`y = \ln (x + 2)`)], [#mi(`y = -\sqrt{x + 1}`)], [#mi(`y = \left(\frac{1}{2}\right)^{x}`)], [#mi(`y = x + \frac{1}{x}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-在 $(0,+ oo )$ 上，$ln (x+2)$ 的导数为 $(1)/(x+2)>0$，所以选项 A 中的函数为增函数. 选项 B 的导数 $-(1)/(2 sqrt(x+1))<0$，选项 C 的导数 $((1)/(2))^x ln (1)/(2)<0$，选项 D 的导数 $1-(1)/(x^2)$ 在 $x=1$ 两侧符号不同，均不能在整个区间上为增函数，故选 A.
+在 #mi(`(0,+\infty)`) 上，#mi(`\ln(x+2)`) 的导数为 #mi(`\dfrac{1}{x+2}>0`)，所以选项 A 中的函数为增函数. 选项 B 的导数 #mi(`-\dfrac{1}{2\sqrt{x+1}}<0`)，选项 C 的导数 #mi(`\left(\dfrac{1}{2}\right)^{x}\ln\dfrac{1}{2}<0`)，选项 D 的导数 #mi(`1-\dfrac{1}{x^2}`) 在 #mi(`x=1`) 两侧符号不同，均不能在整个区间上为增函数，故选 A.
 ]
 
 #problem(5)[
-已知变量 $x$，$y$ 满足约束条件 $\b e g i n{c a s e s} y <= 2 ,\\ x + y >= 1 ,\\ x - y <= 1 , \e n d{c a s e s}$ 则 $z = 3 x + y$ 的最大值为（ ）
-  #choices([$12$], [$11$], [$3$], [$-1$], cols: 4)
+已知变量 #mi(`x`)，#mi(`y`) 满足约束条件 #mi(`\begin{cases}y \le 2,\\
+
+x + y \ge 1,\\
+
+x - y \le 1,\end{cases}`) 则 #mi(`z = 3x + y`) 的最大值为（ ）
+  #choices([#mi(`12`)], [#mi(`11`)], [#mi(`3`)], [#mi(`-1`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由 $x+y >= 1$ 和 $x-y <= 1$ 得 $1-y <= x <= y+1$，从而 $y >= 0$. 又有 $y <= 2$，所以可行域的顶点为 $(1,0)$、$(-1,2)$、$(3,2)$. 在这些顶点处，$z=3 x+y$ 的值分别为 $3$、$-1$、$11$，故最大值为 $11$，选 B.
+由 #mi(`x+y\geqslant1`) 和 #mi(`x-y\leqslant1`) 得 #mi(`1-y\le x\le y+1`)，从而 #mi(`y\geqslant0`). 又有 #mi(`y\leqslant2`)，所以可行域的顶点为 #mi(`(1,0)`)、#mi(`(-1,2)`)、#mi(`(3,2)`). 在这些顶点处，#mi(`z=3x+y`) 的值分别为 #mi(`3`)、#mi(`-1`)、#mi(`11`)，故最大值为 #mi(`11`)，选 B.
 ]
 
 #problem(6)[
 某几何体的三视图如图所示，则它的体积为（ ）
 
 
-#align(center)[#image("/papers/2012/img/guangdong_science/q6_fig1.png", width: 74%)]
-  #choices([$12 pi$], [$45 pi$], [$57 pi$], [$81 pi$], cols: 4)
+#align(center)[#image("/papers/2012/img/guangdong_science/q6_fig1.png", width: 28%)]
+
+  #choices([#mi(`12\pi`)], [#mi(`45\pi`)], [#mi(`57\pi`)], [#mi(`81\pi`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由三视图可知，该几何体由底面半径为 $3$、高为 $5$ 的圆柱和底面半径为 $3$ 的圆锥组成. 圆锥的母线长为 $5$，故其高为 $sqrt(5^2-3^2)=4$. 所以体积为
-$pi dot 3 ""^2 dot 5 +(1)/(3) pi dot 3 ""^2 dot 4 =45 pi +12 pi =57 pi$，故选 C.
+由三视图可知，该几何体由底面半径为 #mi(`3`)、高为 #mi(`5`) 的圆柱和底面半径为 #mi(`3`) 的圆锥组成. 圆锥的母线长为 #mi(`5`)，故其高为 #mi(`\sqrt{5^{2}-3^{2}}=4`). 所以体积为
+
+#mi(`\pi\cdot3^{2}\cdot5+\dfrac{1}{3}\pi\cdot3^{2}\cdot4=45\pi+12\pi=57\pi`)，故选 C.
 ]
 
 #problem(7)[
-从个位数与十位数之和为奇数的两位数中任取一个，其个位数为 $0$ 的概率是（ ）
-  #choices([$(4)/(9)$], [$(1)/(3)$], [$(2)/(9)$], [$(1)/(9)$], cols: 4)
+从个位数与十位数之和为奇数的两位数中任取一个，其个位数为 #mi(`0`) 的概率是（ ）
+  #choices([#mi(`\frac{4}{9}`)], [#mi(`\frac{1}{3}`)], [#mi(`\frac{2}{9}`)], [#mi(`\frac{1}{9}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-设十位数字为 $a$，个位数字为 $b$. 当 $a$ 为奇数、$b$ 为偶数时有 $5 times 5 =25$ 个两位数；当 $a$ 为非零偶数、$b$ 为奇数时有 $4 times 5 =20$ 个. 因此总数为 $45$. 个位数字为 $0$ 且数位和为奇数时，十位数字必须为奇数，共有 $5$ 个，所求概率为 $(5)/(45)=(1)/(9)$，故选 D.
+设十位数字为 #mi(`a`)，个位数字为 #mi(`b`). 当 #mi(`a`) 为奇数、#mi(`b`) 为偶数时有 #mi(`5\times5=25`) 个两位数；当 #mi(`a`) 为非零偶数、#mi(`b`) 为奇数时有 #mi(`4\times5=20`) 个. 因此总数为 #mi(`45`). 个位数字为 #mi(`0`) 且数位和为奇数时，十位数字必须为奇数，共有 #mi(`5`) 个，所求概率为 #mi(`\dfrac{5}{45}=\dfrac{1}{9}`)，故选 D.
 ]
 
 #problem(8)[
-对任意两个非零的平面向量 $bold( alpha )$ 和 $bold( beta )$，定义 $bold( alpha ) degree bold( beta )= (bold( alpha ){ dot } bold( beta ))/(bold( beta ) dot bold( beta ))$. 若平面向量 $bold(a)$，$bold(b)$ 满足 $|bold(a)| >= |bold(b)| > 0$，$bold(a)$ 与 $bold(b)$ 的夹角 $theta in ( 0, (pi)/(4))$，且 $bold(a) degree bold(b)$ 和 $bold(b) degree bold(a)$ 都在集合 $\{ (n)/(2) | n in ZZ \}$ 中，则 $bold(a) degree bold(b)=$（ ）
-  #choices([$(1)/(2)$], [$1$], [$(3)/(2)$], [$(5)/(2)$], cols: 4)
+对任意两个非零的平面向量 #mi(`\mathbf{\alpha}`) 和 #mi(`\mathbf{\beta}`)，定义 #mi(`\mathbf{\alpha}\circ \mathbf{\beta}= \frac{\mathbf{\alpha} \cdot \mathbf{\beta}}{\mathbf{\beta} \cdot \mathbf{\beta}}`). 若平面向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 满足 #mi(`|\mathbf{a}| \ge |\mathbf{b}| > 0`)，#mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角 #mi(`\theta \in \left( 0, \frac{\pi}{4}\right)`)，且 #mi(`\mathbf{a}\circ \mathbf{b}`) 和 #mi(`\mathbf{b}\circ \mathbf{a}`) 都在集合 #mi(`\left\{ \frac{n}{2}\mid n \in \mathbb{Z}\right\}`) 中，则 #mi(`\mathbf{a}\circ \mathbf{b}=`)（ ）
+  #choices([#mi(`\frac{1}{2}`)], [#mi(`1`)], [#mi(`\frac{3}{2}`)], [#mi(`\frac{5}{2}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-记 $p=bold(a)\c i r c b o l d(b)$，$q=bold(b)\c i r c b o l d(a)$. 设 $r=(|bold(a)|)/(|bold(b)|) >= 1$，则由夹角条件
-$p=r cos theta$，$q=(cos theta)/(r)$. 因为 $0< theta <(pi)/(4)$，所以 $0<q<1$，而 $q$ 是 $(1)/(2)$ 的整数倍，故 $q=(1)/(2)$. 又 $p q= cos ""^2 theta$，从而
-$(1)/(2)<p q<1$，即 $1<p<2$. 同样由于 $p$ 是 $(1)/(2)$ 的整数倍，得到 $p=(3)/(2)$，故选 C.
+记 #mi(`p=\mathbf{a}\circ\mathbf{b}`)，#mi(`q=\mathbf{b}\circ\mathbf{a}`). 设 #mi(`r=\dfrac{|\mathbf{a}|}{|\mathbf{b}|}\geqslant1`)，则由夹角条件
+
+#mi(`p=r\cos\theta`)，#mi(`q=\dfrac{\cos\theta}{r}`). 因为 #mi(`0<\theta<\dfrac{\pi}{4}`)，所以 #mi(`0<q<1`)，而 #mi(`q`) 是 #mi(`\dfrac{1}{2}`) 的整数倍，故 #mi(`q=\dfrac{1}{2}`). 又 #mi(`pq=\cos^{2}\theta`)，从而
+
+#mi(`\dfrac{1}{2}<pq<1`)，即 #mi(`1<p<2`). 同样由于 #mi(`p`) 是 #mi(`\dfrac{1}{2}`) 的整数倍，得到 #mi(`p=\dfrac{3}{2}`)，故选 C.
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-不等式 $|x + 2| - |x| <= 1$ 的解集为#blank(){}.
+不等式 #mi(`|x + 2| - |x| \le 1`) 的解集为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(- oo ,-(1)/(2)]$])
+#answer([#mi(`\left(-\infty,-\frac{1}{2}\right]`)])
 
 #solution[
-按 $x$ 与 $-2,0$ 的大小规律讨论. 当 $x<-2$ 时，$|x+2|-|x|=-2 <= 1$；当 $-2 <= x<0$ 时，$|x+2|-|x|=2 x+2 <= 1$，故 $x <= -(1)/(2)$；当 $x >= 0$ 时，$|x+2|-|x|=2>1$. 合并得解集为 $(- oo ,-(1)/(2)]$.
+按 #mi(`x`) 与 #mi(`-2,0`) 的大小规律讨论. 当 #mi(`x<-2`) 时，#mi(`|x+2|-|x|=-2\leqslant1`)；当 #mi(`-2\le x<0`) 时，#mi(`|x+2|-|x|=2x+2\leqslant1`)，故 #mi(`x\le-\dfrac{1}{2}`)；当 #mi(`x\geqslant0`) 时，#mi(`|x+2|-|x|=2>1`). 合并得解集为 #mi(`\left(-\infty,-\dfrac{1}{2}\right]`).
 ]
 
 #problem(10)[
-$(x^(2) + (1)/(x))^(6)$ 的展开式中 $x^(3)$ 的系数为#blank(){}. （用数字作答）
+#mi(`\left(x^{2}+ \frac{1}{x}\right)^{6}`) 的展开式中 #mi(`x^{3}`) 的系数为\underline{\hspace{2.5em}}. （用数字作答）
 ]
 
 #answer([20])
 
 #solution[
-展开式的通项为 $C_6^k(x^2)^k((1)/(x))^(6-k)=C_6^k x^(3 k-6)$. 要得到 $x^3$，需满足 $3 k-6=3$，解得 $k=3$，所以所求系数为 $C_6^3=20$.
+展开式的通项为 #mi(`\mathrm{C}_{6}^{k}(x^{2})^{k}\left(\dfrac{1}{x}\right)^{6-k}=\mathrm{C}_{6}^{k} x^{3k-6}`). 要得到 #mi(`x^{3}`)，需满足 #mi(`3k-6=3`)，解得 #mi(`k=3`)，所以所求系数为 #mi(`\mathrm{C}_{6}^{3}=20`).
 ]
 
 #problem(11)[
-已知递增的等差数列 $\{a_(n)\}$ 满足 $a_(1) = 1$，$a_(3) = a_(2)^(2) - 4$，则 $a_(n) =$#blank(){}.
+已知递增的等差数列 #mi(`\{a_{n}\}`) 满足 #mi(`a_{1}= 1`)，#mi(`a_{3}= a_{2}^{2}- 4`)，则 #mi(`a_{n}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2 n-1$])
+#answer([#mi(`2n-1`)])
 
 #solution[
-设等差数列的公差为 $d$. 由递增性知 $d>0$，且 $a_2=1+d$，$a_3=1+2 d$. 代入条件得
-$1+2 d=(1+d)^2-4$，即 $d^2=4$. 结合 $d>0$ 得 $d=2$，故 $a_n=a_1+(n-1)d=1+2(n-1)=2 n-1$.
+设等差数列的公差为 #mi(`d`). 由递增性知 #mi(`d>0`)，且 #mi(`a_{2}=1+d`)，#mi(`a_{3}=1+2d`). 代入条件得
+
+#mi(`1+2d=(1+d)^{2}-4`)，即 #mi(`d^{2}=4`). 结合 #mi(`d>0`) 得 #mi(`d=2`)，故 #mi(`a_{n}=a_{1}+(n-1)d=1+2(n-1)=2n-1`).
 ]
 
 #problem(12)[
-曲线 $y = x^(3) - x + 3$ 在点 $(1,3)$ 处的切线方程为#blank(){}.
+曲线 #mi(`y = x^{3}- x + 3`) 在点 #mi(`(1,3)`) 处的切线方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$y=2 x+1$])
+#answer([#mi(`y=2x+1`)])
 
 #solution[
-令 $f(x)=x^3-x+3$，则 $f'(x)=3 x^2-1$，所以在 $x=1$ 处的切线斜率为 $f'(1)=2$. 利用点斜式，切线方程为 $y-3=2(x-1)$，即 $y=2 x+1$.
+令 #mi(`f(x)=x^{3}-x+3`)，则 #mi(`f'(x)=3x^{2}-1`)，所以在 #mi(`x=1`) 处的切线斜率为 #mi(`f'(1)=2`). 利用点斜式，切线方程为 #mi(`y-3=2(x-1)`)，即 #mi(`y=2x+1`).
 ]
 
 #problem(13)[
-执行如图所示的程序框图，若输入 $n$ 的值为 8，则输出 $s$ 的值为#blank(){}.
+执行如图所示的程序框图，若输入 #mi(`n`) 的值为 8，则输出 #mi(`s`) 的值为\underline{\hspace{2.5em}}.
 
-\texfigure[max width=0.38\linewidth]{img_repaint/2012/guangdong_science/q13_fig1.tex}
+\texfigure[max width=0.38\linewidth]img_repaint/2012/guangdong_science/q13_fig1.tex
 ]
 
 #answer([8])
 
 #solution[
-初始值为 $i=2$、$k=1$、$s=1$. 循环每次先将 $s$ 乘以 $i$ 再除以 $k$，然后令 $i$ 增加 $2$、$k$ 增加 $1$：
-当 $i=2$ 时，$s=2$，随后 $(i,k)=(4,2)$；当 $i=4$ 时，$s=4$，随后 $(i,k)=(6,3)$；当 $i=6$ 时，$s=8$，随后 $(i,k)=(8,4)$. 此时 $i<n$ 不成立，输出 $s=8$.
+初始值为 #mi(`i=2`)、#mi(`k=1`)、#mi(`s=1`). 循环每次先将 #mi(`s`) 乘以 #mi(`i`) 再除以 #mi(`k`)，然后令 #mi(`i`) 增加 #mi(`2`)、#mi(`k`) 增加 #mi(`1`)：
+
+当 #mi(`i=2`) 时，#mi(`s=2`)，随后 #mi(`(i,k)=(4,2)`)；当 #mi(`i=4`) 时，#mi(`s=4`)，随后 #mi(`(i,k)=(6,3)`)；当 #mi(`i=6`) 时，#mi(`s=8`)，随后 #mi(`(i,k)=(8,4)`). 此时 #mi(`i<n`) 不成立，输出 #mi(`s=8`).
 ]
 
 #part-header("选考题：填空题")
 
 #problem(14)[
-在平面直角坐标系 $x O y$ 中，曲线 $C_1$ 和 $C_2$ 的参数方程分别为 $\b e g i n{c a s e s} x = t,\\ y = sqrt(t), \e n d{c a s e s}$ （$t$ 为参数） 和 $\b e g i n{c a s e s} x = sqrt(2) cos theta ,\\ y = sqrt(2) sin theta , \e n d{c a s e s}$ （$theta$ 为参数），则曲线 $C_1$ 和 $C_2$ 的交点坐标为#blank(){}.
+在平面直角坐标系 #mi(`xOy`) 中，曲线 #mi(`C_{1}`) 和 #mi(`C_{2}`) 的参数方程分别为 #mi(`\begin{cases}x = t,\\
+
+y = \sqrt{t},\end{cases}`) （#mi(`t`) 为参数） 和 #mi(`\begin{cases}x = \sqrt{2}\cos \theta,\\
+
+y = \sqrt{2}\sin \theta,\end{cases}`) （#mi(`\theta`) 为参数），则曲线 #mi(`C_{1}`) 和 #mi(`C_{2}`) 的交点坐标为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1,1)$])
+#answer([#mi(`(1,1)`)])
 
 #solution[
-由 $C_1$ 的参数方程得 $x=t >= 0$，且 $y=sqrt(t) >= 0$，从而 $x=y^2$. 由 $C_2$ 的参数方程得 $x^2+y^2=2$. 代入 $x=y^2$，得 $y^4+y^2-2=0$，即 $(y^2-1)(y^2+2)=0$. 因为 $y >= 0$，所以 $y=1$，进而 $x=1$，交点为 $(1,1)$.
+由 #mi(`C_{1}`) 的参数方程得 #mi(`x=t\geqslant0`)，且 #mi(`y=\sqrt{t}\geqslant0`)，从而 #mi(`x=y^{2}`). 由 #mi(`C_{2}`) 的参数方程得 #mi(`x^{2}+y^{2}=2`). 代入 #mi(`x=y^{2}`)，得 #mi(`y^{4}+y^{2}-2=0`)，即 #mi(`(y^{2}-1)(y^{2}+2)=0`). 因为 #mi(`y\geqslant0`)，所以 #mi(`y=1`)，进而 #mi(`x=1`)，交点为 #mi(`(1,1)`).
 ]
 
 #problem(15)[
-如图，圆 $O$ 的半径为 $1$，点 $A$、$B$、$C$ 是圆周上的三点. 满足 $angle A B C = 30^( degree )$，过点 $A$ 作圆 $O$ 的切线与 $O C$ 的延长线交于点 $P$，则 $P A =\f i l l i n b l a n k{}$.
+如图，圆 #mi(`O`) 的半径为 #mi(`1`)，点 #mi(`A`)、#mi(`B`)、#mi(`C`) 是圆周上的三点. 满足 #mi(`\angle ABC = 30^{\circ}`)，过点 #mi(`A`) 作圆 #mi(`O`) 的切线与 #mi(`OC`) 的延长线交于点 #mi(`P`)，则 #mi(`PA =\underline{\hspace{2.5em}}{}`).
 
 
-#align(center)[#image("/papers/2012/img/guangdong_science/q15_fig1.png", width: 45%)]
+#align(center)[#image("/papers/2012/img/guangdong_science/q15_fig1.png", width: 28%)]
+
 ]
 
-#answer([$sqrt(3)$])
+#answer([#mi(`\sqrt{3}`)])
 
 #solution[
-连接 $O A$、$O C$. 由圆周角定理，$angle A O C=2 angle A B C=60^( degree )$. 又因为 $P A$ 是圆 $O$ 在 $A$ 处的切线，所以 $O A bot P A$；由于 $O$，$C$，$P$ 共线，$angle A O P=60^( degree )$. 在直角三角形 $A O P$ 中，$O A=1$，故
-$P A=O A tan 60 ""^( degree )=sqrt(3)$.
+连接 #mi(`OA`)、#mi(`OC`). 由圆周角定理，#mi(`\angle AOC=2\angle ABC=60^{\circ}`). 又因为 #mi(`PA`) 是圆 #mi(`O`) 在 #mi(`A`) 处的切线，所以 #mi(`OA\perp PA`)；由于 #mi(`O`)，#mi(`C`)，#mi(`P`) 共线，#mi(`\angle AOP=60^{\circ}`). 在直角三角形 #mi(`AOP`) 中，#mi(`OA=1`)，故
+
+#mi(`PA=OA\tan60^{\circ}=\sqrt{3}`).
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-已知函数 $f(x) = 2 cos ( omega x + (pi)/(6))$ （其中 $omega > 0$，$x in RR$ 的最小正周期为 $10 pi$）.
+已知函数 #mi(`f(x) = 2\cos \left( \omega x + \frac{\pi}{6}\right)`) （其中 #mi(`\omega > 0`)，#mi(`x \in \mathbb{R}`) 的最小正周期为 #mi(`10\pi`)）.
 
-+ (1) 求 $omega$ 的值；
-+ (2) 设 $alpha$，$beta in [0, (pi)/(2)]$，$f( 5 alpha + (5)/(3) pi ) = -(6)/(5)$，$f( 5 beta - (5)/(6) pi ) = (16)/(17)$，求 $cos ( alpha + beta )$ 的值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 函数 $f(x)=2 cos ( omega x+(pi)/(6))$ 的最小正周期为 $(2 pi)/(omega)$. 由题意，$(2 pi)/(omega)=10 pi$，且 $omega >0$，所以 $omega =(1)/(5)$.
-+ (2) 由 $omega =(1)/(5)$，得
-$f(5 alpha +(5 pi)/(3))=2 cos ( alpha +(pi)/(2))=-2 sin alpha$. 因此 $sin alpha =(3)/(5)$. 因为 $alpha in [0,(pi)/(2)]$，所以 $cos alpha =(4)/(5)$. 同理，
-$f(5 beta -(5 pi)/(6))=2 cos beta =(16)/(17)$，从而 $cos beta =(8)/(17)$. 由 $beta in [0,(pi)/(2)]$，得 $sin beta =(15)/(17)$. 所以
-$cos ( alpha + beta )= cos alpha cos beta - sin alpha sin beta =(4)/(5) dot (8)/(17)-(3)/(5) dot (15)/(17)=-(13)/(85)$.
++ (1)
 ]
 
 #problem(17)[
-某班 50 位学生期中考试数学成绩的频率分布直方图如图所示，其中成绩分组区间是：$[40,50)$，$[50,60)$，$[60,70)$，$[70,80)$，$[80,90)$，$[90,100]$.
+某班 50 位学生期中考试数学成绩的频率分布直方图如图所示，其中成绩分组区间是：#mi(`[40,50)`)，#mi(`[50,60)`)，#mi(`[60,70)`)，#mi(`[70,80)`)，#mi(`[80,90)`)，#mi(`[90,100]`).
 
 
-+ (1) 求图中 $x$ 的值；
-+ (2) 从成绩不低于 80 分的学生中随机选取 2 人，该 2 人中成绩在 90 分以上 （含 90 分） 的人数记为 $xi$，求 $xi$ 的数学期望.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2012/img/guangdong_science/q17_fig1.png", width: 62%)]
+
+#align(center)[#image("/papers/2012/img/guangdong_science/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由直方图可读出各组的组距均为 $10$，且前三个已知高度分别为 $0.006$、$0.006$、$0.010$，第四、六组高度分别为 $0.054$、$0.006$. 频率之和为 $1$，故
-$10 dot 0 .006+10 dot 0 .006+10 dot 0 .010+10 dot 0 .054+10 x+10 dot 0 .006=1$，解得 $x=0.018$.
-+ (2) 各组人数分别为 $50 times 10 times 0 .006=3$、$3$、$5$、$27$、$9$、$3$. 所以成绩不低于 $80$ 分的学生共有 $9+3=12$ 人，其中成绩不低于 $90$ 分的有 $3$ 人. 随机变量 $xi$ 的取值为 $0$，$1$，$2$，且
-$P( xi =0)=(C_9^2)/(C_(12)^2)=(6)/(11)$，$P( xi =1)=(C_9^1 C_3^1)/(C_(12)^2)=(9)/(22)$，$P( xi =2)=(C_3^2)/(C_(12)^2)=(1)/(22)$. 因此
-$E xi =0 dot (6)/(11)+1 dot (9)/(22)+2 dot (1)/(22)=(1)/(2)$.
++ (1)
 ]
 
 #problem(18)[
-如图所示，在四棱锥 $P - A B C D$ 中，底面 $A B C D$ 为矩形，$P A bot$ 平面 $A B C D$，点 $E$ 在线段 $P C$ 上，$P C bot$ 平面 $B D E$.
-
-+ (1) 证明： $B D bot$ 平面 $P A C$；
-+ (2) 若 $P A = 1$，$A D = 2$，求二面角 $B - P C - A$ 的正切值.
+如图所示，在四棱锥 #mi(`P - ABCD`) 中，底面 #mi(`ABCD`) 为矩形，#mi(`PA \perp`) 平面 #mi(`ABCD`)，点 #mi(`E`) 在线段 #mi(`PC`) 上，#mi(`PC \perp`) 平面 #mi(`BDE`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2012/img/guangdong_science/q18_fig1.png", width: 46%)]
+
+
+
+#align(center)[#image("/papers/2012/img/guangdong_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 因为 $P A bot$ 平面 $A B C D$，且 $B D$ 在平面 $A B C D$ 内，所以 $P A bot B D$. 又因为 $P C bot$ 平面 $B D E$，且 $B D$ 在平面 $B D E$ 内，所以 $P C bot B D$. 直线 $P A$、$P C$ 相交于 $P$，且都在平面 $P A C$ 内，因此 $B D bot$ 平面 $P A C$.
-+ (2) 设 $A C$ 与 $B D$ 的交点为 $O$. 由（1）知 $B D bot A C$，而矩形的两条对角线互相垂直时该矩形为正方形，所以 $A B=A D=2$，从而 $A C=2 sqrt(2)$，$B O=O C=sqrt(2)$. 由于 $P A bot$ 平面 $A B C D$，所以 $P A bot A C$，在直角三角形 $P A C$ 中
-$P C=sqrt(P A^2+A C^2)=3$.
-
-由 $P C bot$ 平面 $B D E$，且 $B E$、$O E$ 都在平面 $B D E$ 内，得 $B E bot P C$、$O E bot P C$. 又由 $B D bot$ 平面 $P A C$，得 $B O bot O E$. 直线 $B E$ 在平面 $B P C$ 内，直线 $O E$ 在平面 $A P C$ 内，且二者都垂直于棱 $P C$，故 $angle B E O$ 是二面角 $B-P C-A$ 的平面角.
-
-在直角三角形 $E O C$ 和 $P A C$ 中，$angle E C O= angle P C A$，所以两三角形相似，进而 $(O E)/(O C)=(P A)/(P C)=(1)/(3)$，即 $O E=(sqrt(2))/(3)$. 于是
-$tan angle B E O=(B O)/(O E)=(sqrt(2))/((sqrt(2))/(3))=3$，所以二面角的正切值为 $3$.
++ (1)
 ]
 
 #problem(19)[
-设数列 $\{a_(n)\}$ 的前 $n$ 项和为 $S_(n)$，满足 $2 S_(n) = a_(n + 1) - 2^(n + 1) + 1$，$n in bold(N)^(*)$，且 $a_(1)$，$a_(2) + 5$，$a_(3)$ 成等差数列.
+设数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)，满足 #mi(`2S_{n}= a_{n + 1}- 2^{n + 1}+ 1`)，#mi(`n \in \mathbf{N}^{*}`)，且 #mi(`a_{1}`)，#mi(`a_{2}+ 5`)，#mi(`a_{3}`) 成等差数列.
 
-+ (1) 求 $a_(1)$ 的值；
-+ (2) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (3) 证明：对一切正整数 $n$，有 $(1)/(a_1)+ (1)/(a_2)+ (1)/(a_3)+ dots.c + (1)/(a_n)< (3)/(2)$.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 令 $n=1$，由 $2 S_n=a_(n+1)-2^(n+1)+1$ 得 $2 a_1=a_2-3$，即 $a_2=2 a_1+3$. 令 $n=2$，得 $2(a_1+a_2)=a_3-7$，所以 $a_3=2 a_1+2 a_2+7=6 a_1+13$. 又因为 $a_1$、$a_2+5$、$a_3$ 成等差数列，所以 $2(a_2+5)=a_1+a_3$. 代入前两式，得 $4 a_1+16=7 a_1+13$，从而 $a_1=1$.
-+ (2) 将已知关系分别取 $n+1$ 和 $n$ 后相减，得
-$2 a_(n+1)=a_(n+2)-a_(n+1)-2^(n+1)$，即 $a_(n+2)=3 a_(n+1)+2^(n+1)$. 令下标整体减去 $1$，得到 $a_(n+1)=3 a_n+2^n$. 由（1）知 $a_1=1$，且 $a_2=2 a_1+3=5$，该递推式对 $n=1$ 也成立. 于是
-$a_(n+1)+2^(n+1)=3(a_n+2^n)$. 由于 $a_1+2=3$，所以 $a_n+2^n=3^n$，故 $a_n=3^n-2^n$.
-+ (3) 对任意正整数 $k$，有 $a_k=3^k-2^k$，且
-$a_k-3^(k-1)=2(3^(k-1)-2^(k-1)) >= 0$，所以 $a_k >= 3 ""^(k-1)>0$. 因此
-$sum_(k=1)^(n)(1)/(a_k)\l e q s l a n t s u m_(k=1)^(n)(1)/(3^(k-1))=(1-((1)/(3))^n)/(1-(1)/(3))<(3)/(2)$，命题得证.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-在平面直角坐标系 $x O y$ 中，已知椭圆 $C: (x^(2))/(a^(2))+ (y^(2))/(b^(2))= 1$ （$a > b > 0$）的离心率 $e = sqrt((2)/(3))$，且椭圆 $C$ 上的点到点 $Q(0,2)$ 的距离的最大值为 $3$.
+在平面直角坐标系 #mi(`xOy`) 中，已知椭圆 #mi(`C: \frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`) （#mi(`a > b > 0`)）的离心率 #mi(`e = \sqrt{\frac{2}{3}}`)，且椭圆 #mi(`C`) 上的点到点 #mi(`Q(0,2)`) 的距离的最大值为 #mi(`3`).
 
-+ (1) 求椭圆 $C$ 的方程；
-+ (2) 在椭圆 $C$ 上，是否存在点 $M(m, n)$，使得直线 $l: m x + n y = 1$ 与圆 $O: x^2 + y^2 = 1$ 相交于不同的两点 $A$，$B$，且 $triangle O A B$ 的面积最大？若存在，求出点 $M$ 的坐标及相对应的 $triangle O A B$ 的面积；若不存在，请说明理由.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设椭圆的半焦距为 $c$. 由离心率条件 $e=(c)/(a)=sqrt((2)/(3))$，以及 $c^2=a^2-b^2$，得 $a^2=3 b^2$，所以椭圆方程可写为 $x^2+3 y^2=3 b^2$.
-
-设椭圆上一点为 $(x,y)$，则 $-b <= y <= b$，且 $x^2=3 b^2-3 y^2$. 该点到 $Q(0,2)$ 的距离记为 $d$，则
-$d^2=x^2+(y-2)^2=3 b^2+6-2(y+1)^2$.
-
-当 $b >= 1$ 时，区间 $[-b,b]$ 含有 $-1$，故 $d_( max )^2=3 b^2+6$. 由 $d_( max )=3$ 得 $b=1$. 当 $0<b<1$ 时，$y+1>0$，且其最小值在 $y=-b$ 处取得，故 $d_( max )^2=(b+2)^2$，由 $d_( max )=3$ 得 $b=1$，与 $b<1$ 矛盾. 因此 $b=1$，$a^2=3$，椭圆方程为 $(x^2)/(3)+y^2=1$.
-+ (2) 设圆心 $O$ 到直线 $l:m x+n y=1$ 的距离为 $d_0$. 因为直线与单位圆交于不同两点，所以 $0<d_0<1$，且 $d_0=(1)/(sqrt(m^2+n^2))$. 弦长为 $A B=2 sqrt(1-d_0^2)$，于是
-$S_( triangle O A B)=(1)/(2)A B dot d_0=d_0 sqrt(1-d_0^2) <= (1)/(2)$，等号当且仅当 $d_0^2=(1)/(2)$. 所以面积最大时 $m^2+n^2=2$. 又点 $M(m,n)$ 在椭圆上，故
-
-$ \b e g i n{c a s e s} m^2+n^2=2,\\ (m^2)/(3)+n^2=1. \e n d{c a s e s} $
-
-解得 $m^2=(3)/(2)$，$n^2=(1)/(2)$. 因此存在四个点
-$M((sqrt(6))/(2),(sqrt(2))/(2))$、$M(-(sqrt(6))/(2),(sqrt(2))/(2))$、$M((sqrt(6))/(2),-(sqrt(2))/(2))$、$M(-(sqrt(6))/(2),-(sqrt(2))/(2))$，相应的面积为 $(1)/(2)$.
++ (1)
 ]
 
 #problem(21)[
-设 $a < 1$，集合 $A = \{x in RR | x > 0\}$，$B = \{x in RR | 2 x^2 - 3(1 + a)x + 6 a > 0\}$，$D = A inter B$.
+设 #mi(`a < 1`)，集合 #mi(`A = \{x \in \mathbb{R}\mid x > 0\}`)，#mi(`B = \{x \in \mathbb{R}\mid 2x^{2} - 3(1 + a)x + 6a > 0\}`)，#mi(`D = A \cap B`).
 
-+ (1) 求集合 $D$ （用区间表示）；
-+ (2) 求函数 $f(x) = 2 x^3 - 3(1 + a)x^2 + 6 a x$ 在 $D$ 内的极值点.
+
++ (1)
 ]
 
 #solution[
-令 $h(x)=2 x^2-3(1+a)x+6 a$. 其判别式为
-$Delta =9(1+a)^2-48 a=(3 a-1)(3 a-9)$. 当 $a <= (1)/(3)$ 时，令
-$x_(1)=(3+3 a-sqrt(Delta))/(4)$，
-$x_(2)=(3+3 a+sqrt(Delta))/(4)$，其中 $x_1 <= x_2$，且仅当 $a=(1)/(3)$ 时等号成立.
+令 #mi(`h(x)=2x^{2}-3(1+a)x+6a`). 其判别式为
 
-+ (1) 当 $(1)/(3)<a<1$ 时，$Delta <0$，且二次函数 $h(x)$ 的开口向上，所以 $h(x)>0$ 对一切实数 $x$ 成立. 当 $a=(1)/(3)$ 时，$h(x)=2(x-1)^2$.
+#mi(`\Delta=9(1+a)^{2}-48a=(3a-1)(3a-9)`). 当 #mi(`a\le\dfrac{1}{3}`) 时，令
 
-当 $a<(1)/(3)$ 时，$Delta >0$，且 $h(0)=6 a$、$h(1)=3 a-1$、$x_(1) x_2=3 a$. 若 $0<a<(1)/(3)$，则 $h(0)>0$、$h(1)<0$，从而 $0<x_1<1<x_2$；又 $h(a)=a(3-a)>0$ 且 $a<1$，所以 $a<x_1$. 若 $a <= 0$，则 $x_(1) x_2 <= 0$，从而 $x_1 <= 0 <x_2$；再由 $h(1)<0$ 得 $x_2>1$. 因此
-$D=\b e g i n{c a s e s} (0,+ oo ),&(1)/(3)<a<1,\\ (0,1) union (1,+ oo ),&a=(1)/(3),\\ (0,x_(1)) union (x_(2),+ oo ),&0<a<(1)/(3),\\ (x_(2),+ oo ),&a <= 0 . \e n d{c a s e s}$
-其中，当 $0<a<(1)/(3)$ 时有 $0<a<x_1<1<x_2$；当 $a <= 0$ 时有 $x_1 <= 0 <1<x_2$.
-+ (2) 函数导数为 $f'(x)=6 x^2-6(1+a)x+6 a=6(x-1)(x-a)$. 由于 $a<1$，函数在 $(- oo ,a)$、$(1,+ oo )$ 上递增，在 $(a,1)$ 上递减.
+#mi(`x_{1}=\dfrac{3+3a-\sqrt{\Delta}}{4}`)，
 
-当 $(1)/(3)<a<1$ 时，$a$，$1 in D$，所以极大值点为 $a$，极小值点为 $1$；当 $a=(1)/(3)$ 时，$a in D$ 而 $1 in.not D$，所以极大值点为 $(1)/(3)$；当 $0<a<(1)/(3)$ 时，$a in (0,x_1) subset D$ 而 $1 in.not D$，所以极大值点为 $a$；当 $a <= 0$ 时，$D=(x_2,+ oo ) subset (1,+ oo )$，函数在 $D$ 上递增，故无极值点.
+#mi(`x_{2}=\dfrac{3+3a+\sqrt{\Delta}}{4}`)，其中 #mi(`x_{1}\le x_{2}`)，且仅当 #mi(`a=\dfrac{1}{3}`) 时等号成立.
+
+
++ (1)
 ]
 

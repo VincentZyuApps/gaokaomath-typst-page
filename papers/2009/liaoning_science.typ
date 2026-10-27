@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,66 +11,80 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $M = \{x | -3 < x <= 5 \}$，$N = \{x | -5 < x < 5\}$，则 $M inter N =$（ ）
-  #choices([$\{x | -5 < x < 5\}$], [$\{x | -3 < x < 5\}$], [$\{x | -5 < x <= 5 \}$], [$\{x | -3 < x <= 5 \}$], cols: 2)
+已知集合 #mi(`M = \{x \mid -3 < x \le 5\}`)，#mi(`N = \{x \mid -5 < x < 5\}`)，则 #mi(`M \cap N =`)（ ）
+  #choices([#mi(`\{x\mid -5 < x < 5\}`)], [#mi(`\{x\mid -3 < x < 5\}`)], [#mi(`\{x\mid -5 < x \le 5\}`)], [#mi(`\{x\mid -3 < x \le 5\}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
 集合的交集中的元素必须同时属于两个集合，因此
-$M inter N=\{x | -3<x<5\}$.
+
+#mi(`M\cap N=\{x\mid -3<x<5\}`).
+
 所以选 B.
 ]
 
 #problem(2)[
-已知复数 $z = 1 - 2 i$，那么 $(1)/(overline(z))=$（ ）
-  #choices([$(sqrt(5))/(5)+ (2 sqrt(5))/(5) i$], [$(sqrt(5))/(5)-(2 sqrt(5))/(5) i$], [$(1)/(5)+ (2)/(5) i$], [$(1)/(5)-(2)/(5) i$], cols: 1)
+已知复数 #mi(`z = 1 - 2\mathrm{i}`)，那么 #mi(`\frac{1}{\overline{z}}=`)（ ）
+  #choices([#mi(`\frac{\sqrt{5}}{5}+ \frac{2\sqrt{5}}{5}\mathrm{i}`)], [#mi(`\frac{\sqrt{5}}{5}-\frac{2\sqrt{5}}{5}\mathrm{i}`)], [#mi(`\frac{1}{5}+ \frac{2}{5}\mathrm{i}`)], [#mi(`\frac{1}{5}-\frac{2}{5}\mathrm{i}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-由 $z=1-2 i$ 得 $overline(z)=1+2 i$，所以
+由 #mi(`z=1-2\mathrm{i}`) 得 #mi(`\overline{z}=1+2\mathrm{i}`)，所以
 
-$ (1)/(overline(z))=(1)/(1+2 i)=(1-2 i)/((1+2 i )(1-2 i ))=(1-2 i)/(5)=(1)/(5)-(2)/(5) i $
+
+#align(center)[#mitex(`
+\frac{1}{\overline{z}}=\frac{1}{1+2\mathrm{i}}=\frac{1-2\mathrm{i}}{(1+2\mathrm{i})(1-2\mathrm{i})}=\frac{1-2\mathrm{i}}{5}=\frac{1}{5}-\frac{2}{5}\mathrm{i}
+`)]
+
 
 所以选 D.
 ]
 
 #problem(3)[
-平面向量 $bold(a)$ 与 $bold(b)$ 的夹角为 $60^( degree )$，$bold(a)= (2,0)$，$|bold(b)| = 1$，则 $|bold(a)+ 2 bold(b)| =$（ ）
-  #choices([$sqrt(3)$], [$2 sqrt(3)$], [$4$], [$12$], cols: 4)
+平面向量 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角为 #mi(`60^{\circ}`)，#mi(`\mathbf{a}= (2,0)`)，#mi(`|\mathbf{b}| = 1`)，则 #mi(`|\mathbf{a}+ 2\mathbf{b}| =`)（ ）
+  #choices([#mi(`\sqrt{3}`)], [#mi(`2\sqrt{3}`)], [#mi(`4`)], [#mi(`12`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由向量数量积公式，$bold(a)\c d o t b o l d(b)=|bold(a)| |bold(b)| cos 60 ""^( degree )=2 dot 1 dot (1)/(2)=1$. 因此
+由向量数量积公式，#mi(`\mathbf{a}\cdot\mathbf{b}=|\mathbf{a}|\,|\mathbf{b}|\cos60^{\circ}=2\cdot1\cdot\frac{1}{2}=1`). 因此
 
-$ |bold(a)+2 bold(b)|^2=|bold(a)|^2+4|bold(b)|^2+4 bold(a)\c d o t b o l d(b)=4+4+4=12 $
 
-由于模长为正，$|bold(a)+2 bold(b)|=2 sqrt(3)$. 所以选 B.
+#align(center)[#mitex(`
+|\mathbf{a}+2\mathbf{b}|^{2}=|\mathbf{a}|^{2}+4|\mathbf{b}|^{2}+4\mathbf{a}\cdot\mathbf{b}=4+4+4=12
+`)]
+
+
+由于模长为正，#mi(`|\mathbf{a}+2\mathbf{b}|=2\sqrt{3}`). 所以选 B.
 ]
 
 #problem(4)[
-已知圆 $C$ 与直线 $x - y = 0$ 及 $x - y - 4 = 0$ 都相切，圆心在直线 $x + y = 0$ 上，则圆 $C$ 的方程为（ ）
-  #choices([$(x + 1)^2 +(y - 1)^2 = 2$], [$(x - 1)^2 +(y + 1)^2 = 2$], [$(x - 1)^2 +(y - 1)^2 = 2$], [$(x + 1)^2 +(y + 1)^2 = 2$], cols: 2)
+已知圆 #mi(`C`) 与直线 #mi(`x - y = 0`) 及 #mi(`x - y - 4 = 0`) 都相切，圆心在直线 #mi(`x + y = 0`) 上，则圆 #mi(`C`) 的方程为（ ）
+  #choices([#mi(`(x + 1)^{2} +(y - 1)^{2} = 2`)], [#mi(`(x - 1)^{2} +(y + 1)^{2} = 2`)], [#mi(`(x - 1)^{2} +(y - 1)^{2} = 2`)], [#mi(`(x + 1)^{2} +(y + 1)^{2} = 2`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-两条平行切线 $x-y=0$ 与 $x-y-4=0$ 的距离为 $(4)/(sqrt(2))=2 sqrt(2)$，所以圆的半径为 $sqrt(2)$. 圆心到两条切线距离相等，故圆心在中线 $x-y-2=0$ 上；又圆心在 $x+y=0$ 上. 联立得圆心为 $(1,-1)$，从而圆的方程为
+两条平行切线 #mi(`x-y=0`) 与 #mi(`x-y-4=0`) 的距离为 #mi(`\frac{4}{\sqrt{2}}=2\sqrt{2}`)，所以圆的半径为 #mi(`\sqrt{2}`). 圆心到两条切线距离相等，故圆心在中线 #mi(`x-y-2=0`) 上；又圆心在 #mi(`x+y=0`) 上. 联立得圆心为 #mi(`(1,-1)`)，从而圆的方程为
 
-$ (x-1)^2+(y+1)^2=2 $
+
+#align(center)[#mitex(`
+(x-1)^{2}+(y+1)^{2}=2
+`)]
+
 
 所以选 B.
 ]
 
 #problem(5)[
-从 $5$ 名男医生，$4$ 名女医生中选 $3$ 名医生组成一个医疗小分队，要求其中男，女医生都有，则不同的组队方案共有（ ）
-  #choices([$70$ 种], [$80$ 种], [$100$ 种], [$140$ 种], cols: 4)
+从 #mi(`5`) 名男医生，#mi(`4`) 名女医生中选 #mi(`3`) 名医生组成一个医疗小分队，要求其中男，女医生都有，则不同的组队方案共有（ ）
+  #choices([#mi(`70`) 种], [#mi(`80`) 种], [#mi(`100`) 种], [#mi(`140`) 种], cols: 4)
 ]
 
 #answer([A])
@@ -78,150 +92,216 @@ $ (x-1)^2+(y+1)^2=2 $
 #solution[
 按男医生人数分类，三人中有男有女的方案数为
 
-$ C_5^1 C_4^2+C_5^2 C_4^1=5 dot 6 +10 dot 4 =70 $
+
+#align(center)[#mitex(`
+\mathrm{C}_{5}^{1}\mathrm{C}_{4}^{2}+\mathrm{C}_{5}^{2}\mathrm{C}_{4}^{1}=5\cdot6+10\cdot4=70
+`)]
+
 
 所以选 A.
 ]
 
 #problem(6)[
-设等比数列 $\{a_(n)\}$ 的前 $n$ 项和为 $S_(n)$，若 $(S_(6))/(S_(3))= 3$，则 $(S_(9))/(S_(6))=$（ ）
-  #choices([$2$], [$(7)/(3)$], [$(8)/(3)$], [$3$], cols: 4)
+设等比数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)，若 #mi(`\frac{S_{6}}{S_{3}}= 3`)，则 #mi(`\frac{S_{9}}{S_{6}}=`)（ ）
+  #choices([#mi(`2`)], [#mi(`\frac{7}{3}`)], [#mi(`\frac{8}{3}`)], [#mi(`3`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-设等比数列的公比为 $q$. 前三项和不为零，且
+设等比数列的公比为 #mi(`q`). 前三项和不为零，且
 
-$ S_6=S_3+q^(3) S_3 $
 
-由 $(S_6)/(S_3)=3$ 得 $1+q^3=3$，即 $q^3=2$. 又
+#align(center)[#mitex(`
+S_{6}=S_{3}+q^{3}S_{3}
+`)]
 
-$ S_9=S_6+q^(6) S_3=(3+4)S_3=7 S_3 $
 
-所以 $(S_9)/(S_6)=(7)/(3)$. 因此选 B.
+由 #mi(`\frac{S_{6}}{S_{3}}=3`) 得 #mi(`1+q^{3}=3`)，即 #mi(`q^{3}=2`). 又
+
+
+#align(center)[#mitex(`
+S_{9}=S_{6}+q^{6}S_{3}=(3+4)S_{3}=7S_{3}
+`)]
+
+
+所以 #mi(`\frac{S_{9}}{S_{6}}=\frac{7}{3}`). 因此选 B.
 ]
 
 #problem(7)[
-曲线 $y = (x)/(x - 2)$ 在点 $(1,-1)$ 处的切线方程为（ ）
-  #choices([$y = x - 2$], [$y = -3 x + 2$], [$y = 2 x - 3$], [$y = -2 x + 1$], cols: 4)
+曲线 #mi(`y = \frac{x}{x - 2}`) 在点 #mi(`(1,-1)`) 处的切线方程为（ ）
+  #choices([#mi(`y = x - 2`)], [#mi(`y = -3x + 2`)], [#mi(`y = 2x - 3`)], [#mi(`y = -2x + 1`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-函数 $y=(x)/(x-2)$ 的导数为
+函数 #mi(`y=\frac{x}{x-2}`) 的导数为
 
-$ y'=((x-2)-x)/((x-2)^2)=-(2)/((x-2)^2) $
 
-在 $x=1$ 处的切线斜率为 $-2$，故切线为
+#align(center)[#mitex(`
+y'=\frac{(x-2)-x}{(x-2)^{2}}=-\frac{2}{(x-2)^{2}}
+`)]
 
-$ y+1=-2(x-1) $
 
-即 $y=-2 x+1$. 所以选 D.
+在 #mi(`x=1`) 处的切线斜率为 #mi(`-2`)，故切线为
+
+
+#align(center)[#mitex(`
+y+1=-2(x-1)
+`)]
+
+
+即 #mi(`y=-2x+1`). 所以选 D.
 ]
 
 #problem(8)[
-已知函数 $f(x) = A cos ( omega x + phi.alt )$ 的图象如图所示，$f((pi)/(2)) = -(2)/(3)$，则 $f(0) =$（ ）
+已知函数 #mi(`f(x) = A\cos (\omega x + \varphi)`) 的图象如图所示，#mi(`f\left(\frac{\pi}{2}\right) = -\frac{2}{3}`)，则 #mi(`f(0) =`)（ ）
 
 
-#align(center)[#image("/papers/2009/img/liaoning_science/q8_fig1.png", width: 9.4cm)]
-  #choices([$-(2)/(3)$], [$(2)/(3)$], [$-(1)/(2)$], [$(1)/(2)$], cols: 4)
+#align(center)[#image("/papers/2009/img/liaoning_science/q8_fig1.png", width: 28%)]
+
+  #choices([#mi(`-\frac{2}{3}`)], [#mi(`\frac{2}{3}`)], [#mi(`-\frac{1}{2}`)], [#mi(`\frac{1}{2}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由图像可知，$x=(7 pi)/(12)$ 和 $x=(11 pi)/(12)$ 是相邻零点，零点间距为 $(pi)/(3)$，所以半个周期为 $(pi)/(3)$，从而 $omega =3$. 在 $x=(7 pi)/(12)$ 处函数由负值向正值穿过横轴，可写成
+由图像可知，#mi(`x=\frac{7\pi}{12}`) 和 #mi(`x=\frac{11\pi}{12}`) 是相邻零点，零点间距为 #mi(`\frac{\pi}{3}`)，所以半个周期为 #mi(`\frac{\pi}{3}`)，从而 #mi(`\omega=3`). 在 #mi(`x=\frac{7\pi}{12}`) 处函数由负值向正值穿过横轴，可写成
 
-$ f(x)=A sin (3 x-(7 pi)/(4)) $
 
-代入 $f((pi)/(2))=-(2)/(3)$，得
+#align(center)[#mitex(`
+f(x)=A\sin\left(3x-\frac{7\pi}{4}\right)
+`)]
 
-$ -A sin (pi)/(4)=-(2)/(3) $
 
-所以 $A=(2 sqrt(2))/(3)$. 因此
+代入 #mi(`f\left(\frac{\pi}{2}\right)=-\frac{2}{3}`)，得
 
-$ f(0)=A sin (-(7 pi)/(4))=(2 sqrt(2))/(3) dot (sqrt(2))/(2)=(2)/(3) $
+
+#align(center)[#mitex(`
+-A\sin\frac{\pi}{4}=-\frac{2}{3}
+`)]
+
+
+所以 #mi(`A=\frac{2\sqrt{2}}{3}`). 因此
+
+
+#align(center)[#mitex(`
+f(0)=A\sin\left(-\frac{7\pi}{4}\right)=\frac{2\sqrt{2}}{3}\cdot\frac{\sqrt{2}}{2}=\frac{2}{3}
+`)]
+
 
 所以选 B.
 ]
 
 #problem(9)[
-已知偶函数 $f(x)$ 在区间 $[0, + oo )$ 单调增加，则满足 $f(2 x - 1) < f((1)/(3))$ 的 $x$ 取值范围是（ ）
-  #choices([$((1)/(3), (2)/(3))$], [$[(1)/(3), (2)/(3))$], [$((1)/(2), (2)/(3))$], [$[(1)/(2), (2)/(3))$], cols: 2)
+已知偶函数 #mi(`f(x)`) 在区间 #mi(`[0, +\infty)`) 单调增加，则满足 #mi(`f(2x - 1) < f\left(\frac{1}{3}\right)`) 的 #mi(`x`) 取值范围是（ ）
+  #choices([#mi(`\left(\frac{1}{3}, \frac{2}{3}\right)`)], [#mi(`\left[\frac{1}{3}, \frac{2}{3}\right)`)], [#mi(`\left(\frac{1}{2}, \frac{2}{3}\right)`)], [#mi(`\left[\frac{1}{2}, \frac{2}{3}\right)`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-由于 $f$ 为偶函数，$f(2 x-1)=f(|2 x-1|)$. 又 $f$ 在 $[0,+ oo )$ 上单调增加，所以
+由于 #mi(`f`) 为偶函数，#mi(`f(2x-1)=f(|2x-1|)`). 又 #mi(`f`) 在 #mi(`[0,+\infty)`) 上单调增加，所以
 
-$ f(2 x-1)<f((1)/(3)) <=> |2 x-1|<(1)/(3) $
+
+#align(center)[#mitex(`
+f(2x-1)<f\left(\frac{1}{3}\right)\quad\Longleftrightarrow\quad |2x-1|<\frac{1}{3}
+`)]
+
 
 解得
 
-$ -(1)/(3)<2 x-1<(1)/(3) <=> (1)/(3)<x<(2)/(3) $
+
+#align(center)[#mitex(`
+-\frac{1}{3}<2x-1<\frac{1}{3}\quad\Longleftrightarrow\quad \frac{1}{3}<x<\frac{2}{3}
+`)]
+
 
 所以选 A.
 ]
 
 #problem(10)[
-某店一个月的收入和支出总共记录了 $N$ 个数据 $a_1$，$a_2$，$...$，$a_N$，其中收入记为正数，支出记为负数. 该店用下边的程序框图计算月总收入 $S$ 和月净盈利 $V$，那么在图中空白的判断框和处理框中，应分别填入下列四个选项中的（ ）
+某店一个月的收入和支出总共记录了 #mi(`N`) 个数据 #mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`\dots`)，#mi(`a_{N}`)，其中收入记为正数，支出记为负数. 该店用下边的程序框图计算月总收入 #mi(`S`) 和月净盈利 #mi(`V`)，那么在图中空白的判断框和处理框中，应分别填入下列四个选项中的（ ）
 
-\texfigure[max width=0.60\linewidth,width=0.60\linewidth]{img_repaint/2009/liaoning_science/q10_fig1.tex}
-  #choices([$A > 0$，$V = S - T$], [$A < 0$，$V = S - T$], [$A > 0$，$V = S + T$], [$A < 0$，$V = S + T$], cols: 2)
+\texfigure[max width=0.60\linewidth,width=0.60\linewidth]img_repaint/2009/liaoning_science/q10_fig1.tex
+  #choices([#mi(`A > 0`)，#mi(`V = S - T`)], [#mi(`A < 0`)，#mi(`V = S - T`)], [#mi(`A > 0`)，#mi(`V = S + T`)], [#mi(`A < 0`)，#mi(`V = S + T`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-收入记为正数，因此当 $A>0$ 时应把 $A$ 累加到收入总额 $S$，判断框应为 $A>0$. 支出记为负数，故 $T$ 是所有支出数据之和，月净盈利为收入加上负的支出，即 $V=S+T$. 所以选 C.
+收入记为正数，因此当 #mi(`A>0`) 时应把 #mi(`A`) 累加到收入总额 #mi(`S`)，判断框应为 #mi(`A>0`). 支出记为负数，故 #mi(`T`) 是所有支出数据之和，月净盈利为收入加上负的支出，即 #mi(`V=S+T`). 所以选 C.
 ]
 
 #problem(11)[
-正六棱锥 $P - A B C D E F$ 中，$G$ 为 $P B$ 的中点，则三棱锥 $D - G A C$ 与三棱锥 $P - G A C$ 体积之比为（ ）
-  #choices([$1: 1$], [$1:2$], [$2: 1$], [$3:2$], cols: 4)
+正六棱锥 #mi(`P - ABCDEF`) 中，#mi(`G`) 为 #mi(`PB`) 的中点，则三棱锥 #mi(`D - GAC`) 与三棱锥 #mi(`P - GAC`) 体积之比为（ ）
+  #choices([#mi(`1: 1`)], [#mi(`1:2`)], [#mi(`2: 1`)], [#mi(`3:2`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-取正六边形外接圆半径为 $1$，设棱锥高为 $h$，建立直角坐标系，使底面在 $z=0$ 上，令 $A=(1,0,0)$，$B=((1)/(2),(sqrt(3))/(2),0)$，$C=(-(1)/(2),(sqrt(3))/(2),0)$，$D=(-1,0,0)$，$P=(0,0,h)$. 则 $G$ 为 $P B$ 的中点，故 $G=((1)/(4),(sqrt(3))/(4),(h)/(2))$. 由三点 $G$，$A$，$C$ 可得平面 $G A C$ 的方程为 $x+sqrt(3)y=1$. 点 $D$ 到该平面的距离为 $(|-1-1|)/(sqrt(1+3))=1$，点 $P$ 到该平面的距离为 $(|0-1|)/(sqrt(1+3))=(1)/(2)$.
-两个三棱锥的底面同为 $triangle G A C$，所以体积比等于高之比，即
+取正六边形外接圆半径为 #mi(`1`)，设棱锥高为 #mi(`h`)，建立直角坐标系，使底面在 #mi(`z=0`) 上，令 #mi(`A=(1,0,0)`)，#mi(`B=\left(\frac{1}{2},\frac{\sqrt{3}}{2},0\right)`)，#mi(`C=\left(-\frac{1}{2},\frac{\sqrt{3}}{2},0\right)`)，#mi(`D=(-1,0,0)`)，#mi(`P=(0,0,h)`). 则 #mi(`G`) 为 #mi(`PB`) 的中点，故 #mi(`G=\left(\frac{1}{4},\frac{\sqrt{3}}{4},\frac{h}{2}\right)`). 由三点 #mi(`G`)，#mi(`A`)，#mi(`C`) 可得平面 #mi(`GAC`) 的方程为 #mi(`x+\sqrt{3}y=1`). 点 #mi(`D`) 到该平面的距离为 #mi(`\frac{|-1-1|}{\sqrt{1+3}}=1`)，点 #mi(`P`) 到该平面的距离为 #mi(`\frac{|0-1|}{\sqrt{1+3}}=\frac{1}{2}`).
 
-$ V_(D-G A C):V_(P-G A C)=1:(1)/(2)=2:1 $
+两个三棱锥的底面同为 #mi(`\triangle GAC`)，所以体积比等于高之比，即
+
+
+#align(center)[#mitex(`
+V_{D-GAC}:V_{P-GAC}=1:\frac{1}{2}=2:1
+`)]
+
 
 所以选 C.
 ]
 
 #problem(12)[
-若 $x_(1)$ 满足 $2 x + 2^(x) = 5$，$x_(2)$ 满足 $2 x + 2 log _(2)(x - 1) = 5$，则 $x_(1) + x_(2) =$（ ）
-  #choices([$(5)/(2)$], [$3$], [$(7)/(2)$], [$4$], cols: 4)
+若 #mi(`x_{1}`) 满足 #mi(`2x + 2^{x}= 5`)，#mi(`x_{2}`) 满足 #mi(`2x + 2\log_{2}(x - 1) = 5`)，则 #mi(`x_{1}+ x_{2}=`)（ ）
+  #choices([#mi(`\frac{5}{2}`)], [#mi(`3`)], [#mi(`\frac{7}{2}`)], [#mi(`4`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-令 $h(x)=2 x+2^x$，则
+令 #mi(`h(x)=2x+2^{x}`)，则
 
-$ h'(x)=2+2^x ln 2 >0 $
 
-所以 $h(x)$ 在 $RR$ 上严格增加，故 $x_1$ 唯一. 令
+#align(center)[#mitex(`
+h'(x)=2+2^{x}\ln2>0
+`)]
 
-$ y=2^(x_1-1)=(5)/(2)-x_1>0 $
 
-则 $log _(2) y=x_1-1$，从而
+所以 #mi(`h(x)`) 在 #mi(`\mathbb{R}`) 上严格增加，故 #mi(`x_{1}`) 唯一. 令
 
-$ y+ log _(2) y=((5)/(2)-x_1)+(x_1-1)=(3)/(2) $
 
-而 $x_2$ 满足的方程等价于
+#align(center)[#mitex(`
+y=2^{x_1-1}=\frac{5}{2}-x_{1}>0
+`)]
 
-$ (x_2-1)+ log _2(x_2-1)=(3)/(2) $
 
-函数 $y+ log _(2) y$ 在 $(0,+ oo )$ 上严格增加，因此其正根唯一，故 $x_2-1=y$. 所以
+则 #mi(`\log_{2}y=x_{1}-1`)，从而
 
-$ x_1+x_2=x_1+1+y=x_1+1+(5)/(2)-x_1=(7)/(2) $
+
+#align(center)[#mitex(`
+y+\log_{2}y=\left(\frac{5}{2}-x_{1}\right)+(x_{1}-1)=\frac{3}{2}
+`)]
+
+
+而 #mi(`x_{2}`) 满足的方程等价于
+
+
+#align(center)[#mitex(`
+(x_{2}-1)+\log_{2}(x_{2}-1)=\frac{3}{2}
+`)]
+
+
+函数 #mi(`y+\log_{2}y`) 在 #mi(`(0,+\infty)`) 上严格增加，因此其正根唯一，故 #mi(`x_{2}-1=y`). 所以
+
+
+#align(center)[#mitex(`
+x_{1}+x_{2}=x_{1}+1+y=x_{1}+1+\frac{5}{2}-x_{1}=\frac{7}{2}
+`)]
+
 
 所以选 C.
 ]
@@ -229,309 +309,244 @@ $ x_1+x_2=x_1+1+y=x_1+1+(5)/(2)-x_1=(7)/(2) $
 #part-header("填空题")
 
 #problem(13)[
-某企业有 $3$ 个分厂生产同一种电子产品，第一，二，三分厂的产量之比为 $1:2:1$，用分层抽样方法（每个分厂的产品为一层）从 $3$ 个分厂生产的电子产品中共取 $100$ 件作使用寿命的测试，由所得的测试结果算得从第一，二，三分厂取出的产品的使用寿命的平均值分别为 $980 ~h$，$1020 ~h$，$1032 ~h$，则抽取的 $100$ 件产品的使用寿命的平均值为#blank(){}$h$.
+某企业有 #mi(`3`) 个分厂生产同一种电子产品，第一，二，三分厂的产量之比为 #mi(`1:2:1`)，用分层抽样方法（每个分厂的产品为一层）从 #mi(`3`) 个分厂生产的电子产品中共取 #mi(`100`) 件作使用寿命的测试，由所得的测试结果算得从第一，二，三分厂取出的产品的使用寿命的平均值分别为 #mi(`980 \mathrm{~h}`)，#mi(`1020 \mathrm{~h}`)，#mi(`1032 \mathrm{~h}`)，则抽取的 #mi(`100`) 件产品的使用寿命的平均值为\underline{\hspace{2.5em}}#mi(`\mathrm{h}`).
 ]
 
-#answer([$1013$])
+#answer([#mi(`1013`)])
 
 #solution[
-产量之比为 $1:2:1$，分层抽样也按此比例抽取，所以三厂分别抽取 $25$、$50$、$25$ 件. 样本平均寿命为加权平均数
+产量之比为 #mi(`1:2:1`)，分层抽样也按此比例抽取，所以三厂分别抽取 #mi(`25`)、#mi(`50`)、#mi(`25`) 件. 样本平均寿命为加权平均数
 
-$ (25 dot 980 +50 dot 1020 +25 dot 1032)/(100)=1013 $
 
-因此填 $1013$.
+#align(center)[#mitex(`
+\frac{25\cdot980+50\cdot1020+25\cdot1032}{100}=1013
+`)]
+
+
+因此填 #mi(`1013`).
 ]
 
 #problem(14)[
-等差数列 $\{a_(n)\}$ 的前 $n$ 项和为 $S_(n)$，且 $6 S_(5) - 5 S_(3) = 5$，则 $a_(4) =$#blank(){}.
+等差数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)，且 #mi(`6S_{5}- 5S_{3}= 5`)，则 #mi(`a_{4}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(3)$])
+#answer([#mi(`\frac{1}{3}`)])
 
 #solution[
-设等差数列首项为 $a_1$，公差为 $d$. 由等差数列前 $n$ 项和公式，$S_5=5 a_3$，$S_3=3 a_2$. 因而
+设等差数列首项为 #mi(`a_{1}`)，公差为 #mi(`d`). 由等差数列前 #mi(`n`) 项和公式，#mi(`S_{5}=5a_{3}`)，#mi(`S_{3}=3a_{2}`). 因而
 
-$ 6 S_5-5 S_3=30 a_3-15 a_2=15(2 a_3-a_2)=15 a_4 $
 
-由题设 $15 a_4=5$，所以 $a_4=(1)/(3)$.
+#align(center)[#mitex(`
+6S_{5}-5S_{3}=30a_{3}-15a_{2}=15(2a_{3}-a_{2})=15a_{4}
+`)]
+
+
+由题设 #mi(`15a_{4}=5`)，所以 #mi(`a_{4}=\frac{1}{3}`).
 ]
 
 #problem(15)[
-设某几何体的三视图如下（尺寸的长度单位为 $m$）. 则该几何体的体积为#blank(){}$m^(3)$.
+设某几何体的三视图如下（尺寸的长度单位为 #mi(`\mathrm{m}`)）. 则该几何体的体积为\underline{\hspace{2.5em}}#mi(`\mathrm{m}^{3}`).
 
 
-#align(center)[#image("/papers/2009/img/liaoning_science/q15_fig1.png", width: 56%)]
+#align(center)[#image("/papers/2009/img/liaoning_science/q15_fig1.png", width: 28%)]
+
 ]
 
-#answer([$4$])
+#answer([#mi(`4`)])
 
 #solution[
-由三视图可知，该几何体是一个三棱锥. 取俯视图所示的三角形为底面，它的底和高分别为 $4~m$ 与 $3~m$，故底面积为
+由三视图可知，该几何体是一个三棱锥. 取俯视图所示的三角形为底面，它的底和高分别为 #mi(`4\mathrm{~m}`) 与 #mi(`3\mathrm{~m}`)，故底面积为
 
-$ S=(1)/(2) dot 4 dot 3 =6~m^2 $
 
-由正视图和侧视图可知，三棱锥的高为 $2~m$. 因此体积为
+#align(center)[#mitex(`
+S=\frac{1}{2}\cdot4\cdot3=6\mathrm{~m}^{2}
+`)]
 
-$ V=(1)/(3)S h=(1)/(3) dot 6 dot 2 =4~m^3 $
 
-所以填 $4$.
+由正视图和侧视图可知，三棱锥的高为 #mi(`2\mathrm{~m}`). 因此体积为
+
+
+#align(center)[#mitex(`
+V=\frac{1}{3}Sh=\frac{1}{3}\cdot6\cdot2=4\mathrm{~m}^{3}
+`)]
+
+
+所以填 #mi(`4`).
 ]
 
 #problem(16)[
-已知 $F$ 是双曲线 $(x^2)/(4)- (y^2)/(12)= 1$ 的左焦点，$A(1,4)$，$P$ 是双曲线右支上的动点，则 $|P F| + |P A|$ 的最小值为#blank(){}.
+已知 #mi(`F`) 是双曲线 #mi(`\frac{x^{2}}{4}- \frac{y^{2}}{12}= 1`) 的左焦点，#mi(`A(1,4)`)，#mi(`P`) 是双曲线右支上的动点，则 #mi(`|PF| + |PA|`) 的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$9$])
+#answer([#mi(`9`)])
 
 #solution[
-双曲线的焦距参数为 $c=sqrt(4+12)=4$，左、右焦点分别为 $F=(-4,0)$ 和 $F_1=(4,0)$. 设 $P=(x,y)$ 在右支上，则 $x >= 2$，且由双曲线方程得 $y^2=3 x^2-12$. 于是
+双曲线的焦距参数为 #mi(`c=\sqrt{4+12}=4`)，左、右焦点分别为 #mi(`F=(-4,0)`) 和 #mi(`F_{1}=(4,0)`). 设 #mi(`P=(x,y)`) 在右支上，则 #mi(`x\geqslant2`)，且由双曲线方程得 #mi(`y^{2}=3x^{2}-12`). 于是
 
-$ |P F_1|^2=(x-4)^2+y^2=4(x-1)^2 $
 
-所以 $|P F_1|=2 x-2$，并且由双曲线定义 $|P F|=|P F_1|+4$. 因此
+#align(center)[#mitex(`
+|PF_{1}|^{2}=(x-4)^{2}+y^{2}=4(x-1)^{2}
+`)]
 
-$ |P F|+|P A|=2 x+2+|P A| $
 
-下面证明 $|P A|+2 x >= 7$. 当 $x >= (7)/(2)$ 时显然成立. 当 $2 <= x<(7)/(2)$ 时，$7-2 x>0$，且
+所以 #mi(`|PF_{1}|=2x-2`)，并且由双曲线定义 #mi(`|PF|=|PF_{1}|+4`). 因此
 
-$ |P A|^2-(7-2 x)^2=(x-1)^2+(y-4)^2-(7-2 x)^2=2(13 x-4 y-22) $
 
-另一方面，利用 $y^2=3 x^2-12$，有
+#align(center)[#mitex(`
+|PF|+|PA|=2x+2+|PA|
+`)]
 
-$ (13 x-22)^2-(4 y)^2=121(x-(286)/(121))^2 >= 0 $
 
-由于 $x >= 2$，$13 x-22>0$，故 $13 x-22 >= 4 |y| >= 4 y$. 从而 $|P A|^2 >= (7-2 x)^2$，即 $|P A|+2 x >= 7$. 等号在 $P=((286)/(121),(264)/(121))$ 时取得，所以
+下面证明 #mi(`|PA|+2x\geqslant7`). 当 #mi(`x\ge\frac{7}{2}`) 时显然成立. 当 #mi(`2\le x<\frac{7}{2}`) 时，#mi(`7-2x>0`)，且
 
-$ |P F|+|P A| >= 9 $
 
-故最小值为 $9$.
+#align(center)[#mitex(`
+|PA|^{2}-(7-2x)^{2}=(x-1)^{2}+(y-4)^{2}-(7-2x)^{2}=2(13x-4y-22)
+`)]
+
+
+另一方面，利用 #mi(`y^{2}=3x^{2}-12`)，有
+
+
+#align(center)[#mitex(`
+(13x-22)^{2}-(4y)^{2}=121\left(x-\frac{286}{121}\right)^{2}\geqslant0
+`)]
+
+
+由于 #mi(`x\geqslant2`)，#mi(`13x-22>0`)，故 #mi(`13x-22\geqslant4|y|\geqslant4y`). 从而 #mi(`|PA|^{2}\ge(7-2x)^{2}`)，即 #mi(`|PA|+2x\geqslant7`). 等号在 #mi(`P=\left(\frac{286}{121},\frac{264}{121}\right)`) 时取得，所以
+
+
+#align(center)[#mitex(`
+|PF|+|PA|\geqslant9
+`)]
+
+
+故最小值为 #mi(`9`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-如图，$A$，$B$，$C$，$D$ 都在同一个与水平面垂直的平面内，$B$，$D$ 为两岛上的两座灯塔的塔顶. 测量船于水面 $A$ 处测得 $B$ 点和 $D$ 点的仰角分别为 $75^( degree )$，$30^( degree )$，于水面 $C$ 处测得 $B$ 点和 $D$ 点的仰角均为 $60^( degree )$，$A C = 0.1 ~k m$. 试探究图中 $B$，$D$ 间距离与另外哪两点间距离相等，然后求 $B$，$D$ 的距离.（计算结果精确到 $0.01 ~k m$，$sqrt(2) approx 1 .414$，$sqrt(6) approx 2 .449$）
+如图，#mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 都在同一个与水平面垂直的平面内，#mi(`B`)，#mi(`D`) 为两岛上的两座灯塔的塔顶. 测量船于水面 #mi(`A`) 处测得 #mi(`B`) 点和 #mi(`D`) 点的仰角分别为 #mi(`75^{\circ}`)，#mi(`30^{\circ}`)，于水面 #mi(`C`) 处测得 #mi(`B`) 点和 #mi(`D`) 点的仰角均为 #mi(`60^{\circ}`)，#mi(`AC = 0.1 \mathrm{~km}`). 试探究图中 #mi(`B`)，#mi(`D`) 间距离与另外哪两点间距离相等，然后求 #mi(`B`)，#mi(`D`) 的距离.（计算结果精确到 #mi(`0.01 \mathrm{~km}`)，#mi(`\sqrt{2}\approx 1.414`)，#mi(`\sqrt{6}\approx 2.449`)）
 
 
-#align(center)[#image("/papers/2009/img/liaoning_science/q17_fig1.png", width: 48%)]
+#align(center)[#image("/papers/2009/img/liaoning_science/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设 $A C=l=0.1~k m$. 由仰角可知，在三角形 $A B C$ 中，$angle B A C=105^( degree )$，$angle B C A=60^( degree )$，所以 $angle A B C=15^( degree )$. 在三角形 $A C D$ 中，$angle C A D=30^( degree )$，$angle A C D=120^( degree )$，所以 $angle A D C=30^( degree )$. 因此
+设 #mi(`AC=l=0.1\mathrm{~km}`). 由仰角可知，在三角形 #mi(`ABC`) 中，#mi(`\angle BAC=105^{\circ}`)，#mi(`\angle BCA=60^{\circ}`)，所以 #mi(`\angle ABC=15^{\circ}`). 在三角形 #mi(`ACD`) 中，#mi(`\angle CAD=30^{\circ}`)，#mi(`\angle ACD=120^{\circ}`)，所以 #mi(`\angle ADC=30^{\circ}`). 因此
 
-$ A B^2=l^2(sin ""^(2) 60^( degree ))/(sin ""^(2) 15^( degree ))=l^2(6+3 sqrt(3)) $
 
-且由正弦定理 $B C=l(sin 75 ""^( degree ))/(sin 15 ""^( degree ))=l(2+sqrt(3))$，$C D=l$. 又 $angle B C D=60^( degree )$，所以由余弦定理
+#align(center)[#mitex(`
+AB^{2}=l^{2}\frac{\sin^{2}60^{\circ}}{\sin^{2}15^{\circ}}=l^{2}(6+3\sqrt{3})
+`)]
 
-$ B D^2=B C^2+C D^2-2 B C dot C D cos 60 ""^( degree )=l^2(6+3 sqrt(3))=A B^2 $
 
-长度均为正，故 $B D=B A$. 于是
+且由正弦定理 #mi(`BC=l\frac{\sin75^{\circ}}{\sin15^{\circ}}=l(2+\sqrt{3})`)，#mi(`CD=l`). 又 #mi(`\angle BCD=60^{\circ}`)，所以由余弦定理
 
-$ B D=A B=l(sin 60 ""^( degree ))/(sin 15 ""^( degree ))=0.1 dot (3 sqrt(2)+sqrt(6))/(2) approx 0 .33~k m $
+
+#align(center)[#mitex(`
+BD^{2}=BC^{2}+CD^{2}-2BC\cdot CD\cos60^{\circ}=l^{2}(6+3\sqrt{3})=AB^{2}
+`)]
+
+
+长度均为正，故 #mi(`BD=BA`). 于是
+
+
+#align(center)[#mitex(`
+BD=AB=l\frac{\sin60^{\circ}}{\sin15^{\circ}}=0.1\cdot\frac{3\sqrt{2}+\sqrt{6}}{2}\approx0.33\mathrm{~km}
+`)]
 ]
 
 #problem(18)[
-如图，已知两个正方形 $A B C D$ 和 $D C E F$ 不在同一平面内，$M$，$N$ 分别为 $A B$，$D F$ 的中点.
-
-+ (1) 若平面 $A B C D$ $bot$ 平面 $D C E F$，求直线 $M N$ 与平面 $D C E F$ 所成角的正弦值；
-+ (2) 用反证法证明：直线 $M E$ 与 $B N$ 是两条异面直线.
+如图，已知两个正方形 #mi(`ABCD`) 和 #mi(`DCEF`) 不在同一平面内，#mi(`M`)，#mi(`N`) 分别为 #mi(`AB`)，#mi(`DF`) 的中点.
 
 
++ (1) 
 
-#align(center)[#image("/papers/2009/img/liaoning_science/q18_fig1.png", width: 46%)]
+
+
+
+#align(center)[#image("/papers/2009/img/liaoning_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设正方形边长为 $a$，取 $D=(a,0,0)$，$C=(0,0,0)$，$B=(0,0,a)$，$A=(a,0,a)$，并令第二个正方形所在平面为 $z=0$，则 $F=(a,a,0)$. 因此 $M=((a)/(2),0,a)$，$N=(a,(a)/(2),0)$.
-直线 $M N$ 的方向向量可取 $((a)/(2),(a)/(2),-a)$，其长度为 $a s q r t((3)/(2))$. 与平面 $D C E F$ 所成角的正弦等于方向向量的竖直分量绝对值与向量长度之比，所以
-
-$ sin theta =(a)/(a s q r t((3)/(2)))=(sqrt(6))/(3) $
-+ (2) 反设直线 $M E$ 与 $B N$ 共面. 设正方形边长为 $a>0$，以 $C$ 为原点，取单位向量 $bold(e)$，$bold(u)$，$bold(v)$ 分别沿 $C D$，$C B$，$C E$ 方向，则 $bold(e)$，$bold(u)$，$bold(v)$ 线性无关. 于是
-$C=0$，$D=a b o l d(e)$，$B=a b o l d(u)$，$A=a(bold(e)+bold(u))$，$E=a b o l d(v)$，$F=a(bold(e)+bold(v))$. 因而 $M=a((1)/(2)bold(e)+bold(u))$，$N=a(bold(e)+(1)/(2)bold(v))$.
-两直线的方向向量分别为 $-(1)/(2)bold(e)-bold(u)+bold(v)$ 和 $bold(e)-bold(u)+(1)/(2)bold(v)$，它们不成比例，所以不平行. 共面且不平行则必相交. 若交点对应参数 $t$，$s$，则
-
-$ M+t(E-M)=B+s(N-B) $
-
-比较 $bold(e)$，$bold(u)$，$bold(v)$ 的系数，得到
-
-$ \b e g i n{c a s e s} (1-t)/(2)=s,\\ 1-t=1-s,\\ t=(s)/(2)\e n d{c a s e s} $
-
-后两式给出 $t=s$ 与 $t=(s)/(2)$，所以 $s=t=0$，代入第一式却得 $(1)/(2)=0$，矛盾. 因此两直线不共面；结合它们不平行，直线 $M E$ 与 $B N$ 是两条异面直线.
++ (1)
 ]
 
 #problem(19)[
-某人向一目标射击 $4$ 次，每次击中目标的概率为 $(1)/(3)$. 该目标分为 $3$ 个不同的部分，第一，二，三部分面积之比为 $1:3:6$. 击中目标时，击中任何一部分的概率与其面积成正比.
+某人向一目标射击 #mi(`4`) 次，每次击中目标的概率为 #mi(`\frac{1}{3}`). 该目标分为 #mi(`3`) 个不同的部分，第一，二，三部分面积之比为 #mi(`1:3:6`). 击中目标时，击中任何一部分的概率与其面积成正比.
 
-+ (1) 设 $X$ 表示目标被击中的次数，求 $X$ 的分布列；
-+ (2) 若目标被击中 $2$ 次，$A$ 表示事件“第一部分至少被击中 $1$ 次或第二部分被击中 $2$ 次”，求 $P(A)$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 每次击中目标的概率为 $p=(1)/(3)$，所以 $X tilde B(4,(1)/(3))$. 于是
-
-$ P(X=k)=C_4^k((1)/(3))^k((2)/(3))^(4-k) $
-
-其中 $k=0$，$1$，$2$，$3$，$4$.
-因此分布列为
-\begin{center}
-\begin{tabular}{c|ccccc}
-$X$&$0$&$1$&$2$&$3$&$4$\\ \hline
-$P(X=k)$&$(16)/(81)$&$(32)/(81)$&$(8)/(27)$&$(8)/(81)$&$(1)/(81)$
-\end{tabular}
-\end{center}
-+ (2) 在已击中目标的条件下，击中第一、二、三部分的概率分别为 $(1)/(10)$，$(3)/(10)$，$(6)/(10)$. 事件 $A$ 中“第一部分至少被击中一次”和“第二部分被击中两次”互斥，故
-
-$ P(A)=[1-((9)/(10))^2]+((3)/(10))^2=(19)/(100)+(9)/(100)=0.28 $
++ (1)
 ]
 
 #problem(20)[
-已知椭圆 $C$ 过点 $A(1, (3)/(2))$，两个焦点为 $(-1,0)$，$(1,0)$.
+已知椭圆 #mi(`C`) 过点 #mi(`A\left(1, \frac{3}{2}\right)`)，两个焦点为 #mi(`(-1,0)`)，#mi(`(1,0)`).
 
-+ (1) 求椭圆 $C$ 的方程；
-+ (2) $E$，$F$ 是椭圆 $C$ 上的两个动点. 如果直线 $A E$ 的斜率与 $A F$ 的斜率互为相反数，证明直线 $E F$ 的斜率为定值，并求出这个定值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设椭圆方程为 $(x^2)/(a^2)+(y^2)/(b^2)=1$，则 $a^2-b^2=1$. 代入 $A(1,(3)/(2))$ 得
-
-$ (1)/(a^2)+(9)/(4 b^2)=1 $
-
-令 $a^2=u$，则 $b^2=u-1$，从而
-
-$ (1)/(u)+(9)/(4(u-1))=1 <=> 4 u^2-17 u+4=0 $
-
-解得 $u=4$ 或 $u=(1)/(4)$. 因为 $a^2>c^2=1$，只能取 $a^2=4$，故 $b^2=3$，椭圆方程为
-
-$ (x^2)/(4)+(y^2)/(3)=1 $
-+ (2) 设直线 $A E$ 的斜率为 $m$，则直线 $A F$ 的斜率为 $-m$. 在斜率为 $m$ 的直线上令 $x=1+u$，$y=(3)/(2)+mu$.
-代入椭圆方程，因 $u=0$ 对应点 $A$，另一个交点对应
-
-$ u_m=-((1)/(2)+m)/((1)/(4)+(m^2)/(3))=-(6(1+2 m))/(3+4 m^2) $
-
-同理，点 $F$ 对应
-
-$ u_(-m)=-(6(1-2 m))/(3+4 m^2) $
-
-由于直线 $E F$ 已定义且 $E$，$F$ 为不同点，$m != 0$，并且
-
-$ u_m-u_(-m)=-(24 m)/(3+4 m^2) != 0 $
-
-故
-
-$ (y_E-y_F)/(x_E-x_F)=(m u_m-(-m)u_(-m))/(u_m-u_(-m))=m(u_m+u_(-m))/(u_m-u_(-m))=(1)/(2) $
-
-所以直线 $E F$ 的斜率为定值 $(1)/(2)$.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = (1)/(2)x^2 - a x + (a - 1) ln x$，$a > 1$.
+已知函数 #mi(`f(x) = \frac{1}{2}x^{2} - ax + (a - 1)\ln x`)，#mi(`a > 1`).
 
-+ (1) 讨论函数 $f(x)$ 的单调性；
-+ (2) 证明：若 $a < 5$，则对于任意 $x_(1)$，$x_(2) in (0, + oo )$，$x_(1) != x_(2)$，有 $(f(x_(1)) - f(x_(2)))/(x_(1) - x_(2))> -1$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 函数定义域为 $(0,+ oo )$，且
-
-$ f'(x)=x-a+(a-1)/(x)=((x-1)(x-a+1))/(x) $
-
-当 $1<a<2$ 时，$0<a-1<1$，故 $f'(x)$ 在 $(0,a-1)$、$(1,+ oo )$ 上为正，在 $(a-1,1)$ 上为负. 因此 $f(x)$ 在 $(0,a-1)$、$(1,+ oo )$ 上单调增加，在 $(a-1,1)$ 上单调减少.
-
-当 $a=2$ 时，$f'(x)=((x-1)^2)/(x) >= 0$，故 $f(x)$ 在 $(0,+ oo )$ 上单调增加.
-
-当 $a>2$ 时，$1<a-1$，故 $f'(x)$ 在 $(0,1)$、$(a-1,+ oo )$ 上为正，在 $(1,a-1)$ 上为负. 因此 $f(x)$ 在 $(0,1)$、$(a-1,+ oo )$ 上单调增加，在 $(1,a-1)$ 上单调减少.
-+ (2) 令 $g(x)=f(x)+x=(1)/(2)x^2-(a-1)x+(a-1) ln x$. 当 $1<a<5$ 时，
-
-$ g'(x)=(x^2-(a-1)x+(a-1))/(x) $
-
-分子是关于 $x$ 的二次式，其判别式为
-
-$ Delta =(a-1)^2-4(a-1)=(a-1)(a-5)<0 $
-
-因二次式首项系数为正，分子恒正；又 $x>0$，所以 $g'(x)>0$，即 $g(x)$ 在 $(0,+ oo )$ 上严格增加. 因此对任意不同的 $x_1$，$x_2>0$，
-
-$ (f(x_1)-f(x_2))/(x_1-x_2)+1=(g(x_1)-g(x_2))/(x_1-x_2)>0 $
-
-从而
-
-$ (f(x_1)-f(x_2))/(x_1-x_2)>-1 $
++ (1)
 ]
 
 #part-header("选做题")
 
 #problem(22)[
-已知 $triangle A B C$ 中，$A B = A C$，$D$ 是 $triangle A B C$ 外接圆劣弧 $\w i d e h a t{A C}$ 上的点（不与点 $A$，$C$ 重合），延长 $B D$ 至 $E$.
+已知 #mi(`\triangle ABC`) 中，#mi(`AB = AC`)，#mi(`D`) 是 #mi(`\triangle ABC`) 外接圆劣弧 #mi(`\widehat{AC}`) 上的点（不与点 #mi(`A`)，#mi(`C`) 重合），延长 #mi(`BD`) 至 #mi(`E`).
 
 
-+ (1) 求证：$A D$ 的延长线平分 $angle C D E$；
-+ (2) 若 $angle B A C = 30^( degree )$，$triangle A B C$ 中 $B C$ 边上的高为 $2 + sqrt(3)$，求 $triangle A B C$ 外接圆的面积.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2009/img/liaoning_science/q22_fig1.png", width: 34%)]
+
+#align(center)[#image("/papers/2009/img/liaoning_science/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设 $A'$ 为 $A D$ 的延长线上满足 $D$ 在 $A$ 与 $A'$ 之间的点. 按圆周上的顺序记弧为 $\w i d e h a t{A D}$，$\w i d e h a t{D C}$，$\w i d e h a t{C B}$，$\w i d e h a t{B A}$. 因为 $A B=A C$，对应的弧相等，所以
-
-$ m(\w i d e h a t{B A})=m(\w i d e h a t{A D})+m(\w i d e h a t{D C}) $
-
-由圆周角定理，
-
-$ angle C D A=(1)/(2)[m(\w i d e h a t{C B})+m(\w i d e h a t{B A})] $
-
-又因为 $B$，$D$，$E$ 共线且 $D E$ 是 $D B$ 的延长线，三角形 $A B D$ 的外角定理给出
-
-$ angle A D E= angle D A B+ angle A B D=(1)/(2)[m(\w i d e h a t{D C})+m(\w i d e h a t{C B})+m(\w i d e h a t{A D})] $
-
-利用上述弧的相等关系，得 $angle A D E= angle C D A$. 由于 $D A'$ 与 $D A$ 为反向射线，有 $angle C D A'=180^( degree )- angle C D A$，$angle A'D E=180^( degree )- angle A D E$，故 $angle C D A'= angle A'D E$. 因而 $A D$ 的延长线平分 $angle C D E$.
-+ (2) 设从 $A$ 向 $B C$ 作高，垂足为 $H$. 因为 $A B=A C$，所以 $A H$ 也是中线和角平分线，$A H=2+sqrt(3)$，$angle B A H=15^( degree )$. 在直角三角形 $A B H$ 中，
-
-$ B H=A H tan 15 ""^( degree )=(2+sqrt(3))(2-sqrt(3))=1 $
-
-所以 $B C=2$. 由正弦定理 $B C=2 R sin 30 ""^( degree )=R$，故外接圆半径 $R=2$，面积为 $pi R^2=4 pi$.
++ (1)
 ]
 
 #problem(23)[
-在直角坐标系 $x O y$ 中，以 $O$ 为极点，$x$ 正半轴为极轴建立极坐标系，曲线 $C$ 的极坐标方程为 $rho cos ( theta - (pi)/(3)) = 1$，$M$，$N$ 分别为 $C$ 与 $x$ 轴，$y$ 轴的交点.
+在直角坐标系 #mi(`xOy`) 中，以 #mi(`O`) 为极点，#mi(`x`) 正半轴为极轴建立极坐标系，曲线 #mi(`C`) 的极坐标方程为 #mi(`\rho \cos \left(\theta - \frac{\pi}{3}\right) = 1`)，#mi(`M`)，#mi(`N`) 分别为 #mi(`C`) 与 #mi(`x`) 轴，#mi(`y`) 轴的交点.
 
-+ (1) 写出 $C$ 的直角坐标方程，并求 $M$，$N$ 的极坐标；
-+ (2) 设 $M N$ 的中点为 $P$，求直线 $O P$ 的极坐标方程.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由 $x= rho cos theta$、$y= rho sin theta$，有
-
-$ rho cos ( theta -(pi)/(3))=(x+sqrt(3)y)/(2)=1 $
-
-所以曲线的直角坐标方程为 $x+sqrt(3)y=2$. 与 $x$ 轴交于 $M=(2,0)$，与 $y$ 轴交于 $N=(0,(2 sqrt(3))/(3))$，故
-$M(2,0)$，$N((2 sqrt(3))/(3),(pi)/(2))$ 为它们的极坐标.
-+ (2) 中点为 $P=(1,(1)/(sqrt(3)))$. 因此 $O P$ 的斜率为 $(1)/(sqrt(3))= tan (pi)/(6)$，其极角为 $(pi)/(6)$. 直线包含两个方向，故极坐标方程为 $theta =(pi)/(6)$，其中 $rho in RR$.
++ (1)
 ]
 
 #problem(24)[
-设函数 $f(x) = |x - 1| + |x - a|$.
+设函数 #mi(`f(x) = |x - 1| + |x - a|`).
 
-+ (1) 若 $a = -1$，解不等式 $f(x) >= 3$；
-+ (2) 如果 $forall x in RR$，$f(x) >= 2$，求 $a$ 的取值范围.
+
++ (1)
 ]
 
 #solution[
-+ (1) 当 $a=-1$ 时，$f(x)=|x-1|+|x+1|$. 分三段讨论：
-
-$ f(x)= \b e g i n{c a s e s} -2 x,&x <= -1,\\ 2,&-1 <= x <= 1 ,\\ 2 x,&x >= 1 \e n d{c a s e s} $
-
-因此 $f(x) >= 3$ 等价于 $x <= -(3)/(2)$ 或 $x >= (3)/(2)$，解集为
-
-$ (- oo ,-(3)/(2)] union [(3)/(2),+ oo ) $
-+ (2) 对任意 $x$，由三角不等式
-
-$ f(x)=|x-1|+|x-a| >= |(x-1)-(x-a)|=|a-1| $
-
-当 $x$ 位于 $a$ 与 $1$ 之间时等号成立，所以 $f(x)$ 的最小值为 $|a-1|$. 题设等价于 $|a-1| >= 2$，即
-
-$ a <= -1 "或"a >= 3 $
-
-故 $a in (- oo ,-1] union [3,+ oo )$.
++ (1)
 ]
 

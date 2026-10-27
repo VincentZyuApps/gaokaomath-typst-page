@@ -1,8 +1,149 @@
 {
-  "title": "2016年普通高等学校招生全国统一考试",
-  "subtitle": "2016年上海卷（秋理）",
   "year": "2016",
   "slug": "shanghai_science",
+  "title": "2016年上海卷（秋理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "填空题",
@@ -10,100 +151,128 @@
         {
           "num": 1,
           "body": "设 $x\\in\\mathbb{R}$，则不等式 $|x-3|<1$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$(2,4)$",
-          "solution": "由绝对值不等式的定义，$-1<x-3<1$，所以 $2<x<4$，解集为 $(2,4)$."
+          "choices": [],
+          "answer": "\\((2,4)\\)",
+          "solution": "由绝对值不等式的定义，$-1<x-3<1$，所以 $2<x<4$，解集为 $(2,4)$.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "设 $z=\\dfrac{3+2\\mathrm{i}}{\\mathrm{i}}$，其中 $\\mathrm{i}$ 为虚数单位，则 $\\operatorname{Im}z=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$-3$",
-          "solution": "<p>因为 $\\frac{1}{\\mathrm{i}}=-\\mathrm{i}$，所以</p>\n$$\nz=(3+2\\mathrm{i})(-\\mathrm{i})=2-3\\mathrm{i}\n$$\n<p>因此 $\\operatorname{Im}z=-3$.</p>"
+          "choices": [],
+          "answer": "\\(-3\\)",
+          "solution": "<p>因为 $\\frac{1}{\\mathrm{i}}=-\\mathrm{i}$，所以</p>\n$$\nz=(3+2\\mathrm{i})(-\\mathrm{i})=2-3\\mathrm{i}\n$$\n<p>因此 $\\operatorname{Im}z=-3$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "已知平行直线 $l_{1}:2x+y-1=0$，$l_{2}:2x+y+1=0$，则 $l_{1}$ 与 $l_{2}$ 的距离是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{2\\sqrt{5}}{5}$",
-          "solution": "<p>两条直线的左端系数相同，故可用平行直线距离公式. 取 $l_{1}$ 上任一点，得到</p>\n$$\nd=\\frac{|(-1)-1|}{\\sqrt{2^{2}+1^{2}}}=\\frac{2}{\\sqrt{5}}=\\frac{2\\sqrt{5}}{5}\n$$"
+          "choices": [],
+          "answer": "\\(\\dfrac{2\\sqrt{5}}{5}\\)",
+          "solution": "<p>两条直线的左端系数相同，故可用平行直线距离公式. 取 $l_{1}$ 上任一点，得到</p>\n$$\nd=\\frac{|(-1)-1|}{\\sqrt{2^{2}+1^{2}}}=\\frac{2}{\\sqrt{5}}=\\frac{2\\sqrt{5}}{5}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "某次体检，$6$ 位同学的身高（单位：米）分别为 $1.72$，$1.78$，$1.75$，$1.80$，$1.69$，$1.77$，则这组数据的中位数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{米}$.",
-          "choices": null,
-          "answer": "$1.76$",
-          "solution": "<p>将身高从小到大排列为 $1.69$，$1.72$，$1.75$，$1.77$，$1.78$，$1.80$. 数据个数为 $6$，中位数是第3、4个数据的平均数，因此中位数为</p>\n$$\n\\frac{1.75+1.77}{2}=1.76\n$$"
+          "choices": [],
+          "answer": "\\(1.76\\)",
+          "solution": "<p>将身高从小到大排列为 $1.69$，$1.72$，$1.75$，$1.77$，$1.78$，$1.80$. 数据个数为 $6$，中位数是第3、4个数据的平均数，因此中位数为</p>\n$$\n\\frac{1.75+1.77}{2}=1.76\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "已知点 $(3,9)$ 在函数 $f(x)=1+a^{x}$ 的图像上，则 $f(x)$ 的反函数 $f^{-1}(x)=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\log_{2}(x-1)$",
-          "solution": "<p>由点 $(3,9)$ 在图像上，得 $9=1+a^{3}$，所以 $a=2$. 令 $y=1+2^{x}$，则 $2^{x}=y-1$，从而 $x=\\log_{2}(y-1)$. 交换 $x$，$y$，并注意反函数的定义域为 $x>1$，得</p><p>$f^{-1}(x)=\\log_{2}(x-1)$，（$x>1$）.</p>"
+          "choices": [],
+          "answer": "\\(\\log_2(x-1)\\)",
+          "solution": "<p>由点 $(3,9)$ 在图像上，得 $9=1+a^{3}$，所以 $a=2$. 令 $y=1+2^{x}$，则 $2^{x}=y-1$，从而 $x=\\log_{2}(y-1)$. 交换 $x$，$y$，并注意反函数的定义域为 $x>1$，得</p><p>$f^{-1}(x)=\\log_{2}(x-1)$，（$x>1$）.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
-          "body": "<p>如图，在正四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，底面 $ABCD$ 的边长为 $3$，$BD_{1}$ 与底面所成角的大小为 $\\arctan\\dfrac{2}{3}$，则该正四棱柱的高等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$2\\sqrt{2}$",
-          "solution": "<p>设正四棱柱的高为 $h$. 线段 $BD_{1}$ 在底面上的射影为 $BD$，且 $DD_{1}\\perp$ 底面，所以 $\\angle DBD_{1}$ 是 $BD_{1}$ 与底面所成的角. 正方形底面边长为 $3$，故 $BD=3\\sqrt{2}$. 因而</p>\n$$\n\\tan\\angle DBD_{1}=\\frac{DD_{1}}{BD}=\\frac{h}{3\\sqrt{2}}=\\frac{2}{3}\n$$\n<p>解得 $h=2\\sqrt{2}$.</p>"
+          "body": "<p>如图，在正四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，底面 $ABCD$ 的边长为 $3$，$BD_{1}$ 与底面所成角的大小为 $\\arctan\\dfrac{2}{3}$，则该正四棱柱的高等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/shanghai_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(2\\sqrt{2}\\)",
+          "solution": "<p>设正四棱柱的高为 $h$. 线段 $BD_{1}$ 在底面上的射影为 $BD$，且 $DD_{1}\\perp$ 底面，所以 $\\angle DBD_{1}$ 是 $BD_{1}$ 与底面所成的角. 正方形底面边长为 $3$，故 $BD=3\\sqrt{2}$. 因而</p>\n$$\n\\tan\\angle DBD_{1}=\\frac{DD_{1}}{BD}=\\frac{h}{3\\sqrt{2}}=\\frac{2}{3}\n$$\n<p>解得 $h=2\\sqrt{2}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "方程 $3\\sin x=1+\\cos2x$ 在区间 $[0,2\\pi]$ 上的解为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{\\pi}{6}$，$\\dfrac{5\\pi}{6}$",
-          "solution": "<p>利用 $\\cos2x=1-2\\sin^{2}x$，原方程化为</p>\n$$\n3\\sin x=2-2\\sin^{2}x\n$$\n<p>即</p><p>$2\\sin^{2}x+3\\sin x-2=0$，$(2\\sin x-1)(\\sin x+2)=0$.</p><p>因为 $-1\\leq\\sin x\\leq1$，只能有 $\\sin x=\\dfrac{1}{2}$. 在 $[0,2\\pi]$ 内，解为 $x=\\dfrac\\pi6$，$\\dfrac{5\\pi}6$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{\\pi}{6}\\)，\\(\\dfrac{5\\pi}{6}\\)",
+          "solution": "<p>利用 $\\cos2x=1-2\\sin^{2}x$，原方程化为</p>\n$$\n3\\sin x=2-2\\sin^{2}x\n$$\n<p>即</p><p>$2\\sin^{2}x+3\\sin x-2=0$，$(2\\sin x-1)(\\sin x+2)=0$.</p><p>因为 $-1\\leq\\sin x\\leq1$，只能有 $\\sin x=\\dfrac{1}{2}$. 在 $[0,2\\pi]$ 内，解为 $x=\\dfrac\\pi6$，$\\dfrac{5\\pi}6$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "在 $\\left(\\sqrt[3]{x}-\\dfrac{2}{x}\\right)^{n}$ 的二项展开式中，所有项的二项式系数之和为 $256$，则常数项等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$112$",
-          "solution": "<p>二项式系数之和为 $2^{n}$，所以 $2^{n}=256=2^{8}$，即 $n=8$. 展开式通项可写为</p>\n$$\nT_{r+1}=\\mathrm{C}_{8}^{r}\\left(\\sqrt[3]{x}\\right)^{8-r}\\left(-\\frac{2}{x}\\right)^{r}  =\\mathrm{C}_{8}^{r}(-2)^{r} x^{\\frac{(8-4r)}{3}}\n$$\n<p>常数项要求 $\\frac{(8-4r)}{3}=0$，故 $r=2$，其系数为</p>\n$$\n\\mathrm{C}_{8}^{2}(-2)^{2}=28\\times4=112\n$$"
+          "choices": [],
+          "answer": "\\(112\\)",
+          "solution": "<p>二项式系数之和为 $2^{n}$，所以 $2^{n}=256=2^{8}$，即 $n=8$. 展开式通项可写为</p>\n$$\nT_{r+1}=\\mathrm{C}_{8}^{r}\\left(\\sqrt[3]{x}\\right)^{8-r}\\left(-\\frac{2}{x}\\right)^{r}  =\\mathrm{C}_{8}^{r}(-2)^{r} x^{\\frac{(8-4r)}{3}}\n$$\n<p>常数项要求 $\\frac{(8-4r)}{3}=0$，故 $r=2$，其系数为</p>\n$$\n\\mathrm{C}_{8}^{2}(-2)^{2}=28\\times4=112\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "已知 $\\triangle ABC$ 的三边长分别为 $3$，$5$，$7$，则该三角形的外接圆半径等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{7\\sqrt{3}}{3}$",
-          "solution": "<p>设边长 $3$，$5$，$7$ 所对的角分别为 $A$，$B$，$C$，则由余弦定理</p>\n$$\n\\cos C=\\frac{3^{2}+5^{2}-7^{2}}{2\\times3\\times5}=-\\frac{1}{2}\n$$\n<p>三角形内角满足 $0<C<\\pi$，所以 $\\sin C=\\dfrac{\\sqrt{3}}{2}$. 由正弦定理 $7=2R\\sin C$，得</p>\n$$\nR=\\frac{7}{2\\sin C}=\\frac{7}{\\sqrt{3}}=\\frac{7\\sqrt{3}}{3}\n$$"
+          "choices": [],
+          "answer": "\\(\\dfrac{7\\sqrt{3}}{3}\\)",
+          "solution": "<p>设边长 $3$，$5$，$7$ 所对的角分别为 $A$，$B$，$C$，则由余弦定理</p>\n$$\n\\cos C=\\frac{3^{2}+5^{2}-7^{2}}{2\\times3\\times5}=-\\frac{1}{2}\n$$\n<p>三角形内角满足 $0<C<\\pi$，所以 $\\sin C=\\dfrac{\\sqrt{3}}{2}$. 由正弦定理 $7=2R\\sin C$，得</p>\n$$\nR=\\frac{7}{2\\sin C}=\\frac{7}{\\sqrt{3}}=\\frac{7\\sqrt{3}}{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "<p>设 $a>0$，$b>0$，若关于 $x$，$y$ 的方程组 $\\begin{cases}ax+y=1,\\\\  x+by=1\\end{cases}$</p><p>无解，则 $a+b$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
-          "answer": "$(2,+\\infty)$",
-          "solution": "<p>若 $ab\\ne1$，方程组的系数行列式不为零，方程组有唯一解. 因此无解时必须有 $ab=1$. 当 $ab=1$ 且 $a=b=1$ 时两方程相同，有无穷多解；所以还必须有 $a\\ne1$. 由 $a>0$，得 $b=\\frac{1}{a}>0$，且</p>\n$$\na+b=a+\\frac{1}{a}>2\n$$\n<p>反之，对任意 $a>0$ 且 $a\\ne1$，令 $b=\\frac{1}{a}$，两方程的系数成比例而常数项不成相同比例，方程组无解. 对任意 $s>2$，取 $a=\\frac{(s+\\sqrt{s^{2}-4})}{2}>1$，则 $a+\\frac{1}{a}=s$，所以 $a+\\frac{1}{a}$ 恰可取得每个大于 $2$ 的值. 因此取值范围为 $(2,+\\infty)$.</p>"
+          "choices": [],
+          "answer": "\\((2,+\\infty)\\)",
+          "solution": "<p>若 $ab\\ne1$，方程组的系数行列式不为零，方程组有唯一解. 因此无解时必须有 $ab=1$. 当 $ab=1$ 且 $a=b=1$ 时两方程相同，有无穷多解；所以还必须有 $a\\ne1$. 由 $a>0$，得 $b=\\frac{1}{a}>0$，且</p>\n$$\na+b=a+\\frac{1}{a}>2\n$$\n<p>反之，对任意 $a>0$ 且 $a\\ne1$，令 $b=\\frac{1}{a}$，两方程的系数成比例而常数项不成相同比例，方程组无解. 对任意 $s>2$，取 $a=\\frac{(s+\\sqrt{s^{2}-4})}{2}>1$，则 $a+\\frac{1}{a}=s$，所以 $a+\\frac{1}{a}$ 恰可取得每个大于 $2$ 的值. 因此取值范围为 $(2,+\\infty)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "无穷数列 $\\{a_{n}\\}$ 由 $k$ 个不同的数组成，$S_{n}$ 为 $\\{a_{n}\\}$ 的前 $n$ 项和. 若对任意的 $n\\in\\mathbb{N}^{*}$，$S_{n}\\in\\{2,3\\}$，则 $k$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$4$",
-          "solution": "<p>因为 $S_{n}$ 只能取 $2,3$，所以 $a_{1}=S_{1}\\in\\{2,3\\}$，而对 $n\\ge2$，有</p>\n$$\na_{n}=S_{n}-S_{n-1}\\in\\{-1,0,1\\}\n$$\n<p>故数列中的不同数至多为 $1+3=4$ 个. 取前若干项和依次为</p><p>$S_{1}$，$S_{2}$，$S_{3}$，$S_{4}$，$S_{5}$，$\\ldots=2$，$3$，$3$，$2$，$2$，$3$，$3$，$2$，$\\ldots$，</p><p>则对应的数列以 $2$，$1$，$0$，$-1$，$0$，$1$，$0$，$-1$，$\\ldots$ 开头，恰有 $2$，$1$，$0$，$-1$ 四个不同的数. 因此 $k$ 的最大值为 $4$.</p>"
+          "choices": [],
+          "answer": "\\(4\\)",
+          "solution": "<p>因为 $S_{n}$ 只能取 $2,3$，所以 $a_{1}=S_{1}\\in\\{2,3\\}$，而对 $n\\ge2$，有</p>\n$$\na_{n}=S_{n}-S_{n-1}\\in\\{-1,0,1\\}\n$$\n<p>故数列中的不同数至多为 $1+3=4$ 个. 取前若干项和依次为</p><p>$S_{1}$，$S_{2}$，$S_{3}$，$S_{4}$，$S_{5}$，$\\ldots=2$，$3$，$3$，$2$，$2$，$3$，$3$，$2$，$\\ldots$，</p><p>则对应的数列以 $2$，$1$，$0$，$-1$，$0$，$1$，$0$，$-1$，$\\ldots$ 开头，恰有 $2$，$1$，$0$，$-1$ 四个不同的数. 因此 $k$ 的最大值为 $4$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "在平面直角坐标系中，已知 $A(1,0)$，$B(0,-1)$，$P$ 是曲线 $y=\\sqrt{1-x^{2}}$ 上一个动点，则 $\\overrightarrow{BP}\\cdot\\overrightarrow{BA}$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$[0,1+\\sqrt{2}]$",
-          "solution": "<p>设 $P=(x,y)$，则 $-1\\le x\\le1$，$y=\\sqrt{1-x^{2}}\\ge0$. 又</p><p>$\\overrightarrow{BP}=(x,y+1)$，$\\overrightarrow{BA}=(1,1)$，</p><p>所以</p>\n$$\n\\overrightarrow{BP}\\cdot\\overrightarrow{BA}=x+y+1\n$$\n<p>在上半单位圆上，$x+y\\ge-1$，等号在 $(x,y)=(-1,0)$ 处取得；由柯西不等式，$x+y\\le\\sqrt{2}$，等号在 $x=y=\\dfrac1{\\sqrt{2}}$ 处取得. 因此所求范围为 $[0,1+\\sqrt{2}]$.</p>"
+          "choices": [],
+          "answer": "\\([0,1+\\sqrt{2}]\\)",
+          "solution": "<p>设 $P=(x,y)$，则 $-1\\le x\\le1$，$y=\\sqrt{1-x^{2}}\\ge0$. 又</p><p>$\\overrightarrow{BP}=(x,y+1)$，$\\overrightarrow{BA}=(1,1)$，</p><p>所以</p>\n$$\n\\overrightarrow{BP}\\cdot\\overrightarrow{BA}=x+y+1\n$$\n<p>在上半单位圆上，$x+y\\ge-1$，等号在 $(x,y)=(-1,0)$ 处取得；由柯西不等式，$x+y\\le\\sqrt{2}$，等号在 $x=y=\\dfrac1{\\sqrt{2}}$ 处取得. 因此所求范围为 $[0,1+\\sqrt{2}]$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "设 $a$，$b\\in\\mathbb{R}$，$c\\in[0,2\\pi)$，若对任意实数 $x$ 都有 $2\\sin\\!\\left(3x-\\dfrac{\\pi}{3}\\right)=a\\sin(bx+c)$，则满足条件的有序实数组 $(a,b,c)$ 的组数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$4$",
-          "solution": "<p>左边展开为</p>\n$$\n2\\sin\\left(3x-\\frac{\\pi}{3}\\right)=\\sin3x-\\sqrt{3}\\cos3x\n$$\n<p>由于左边是非恒定的频率为 $3$ 的正弦型函数，必须有 $|b|=3$，且 $a\\ne0$.</p><p>当 $b=3$ 时，比较 $\\sin3x$ 与 $\\cos3x$ 的系数，得</p><p>$a\\cos c=1$，$a\\sin c=-\\sqrt{3}$.</p><p>故 $a=2$，$c=\\dfrac{5\\pi}{3}$，或 $a=-2$，$c=\\dfrac{2\\pi}{3}$.</p><p>当 $b=-3$ 时，$a\\sin(c-3x)=-a\\cos c\\sin3x+a\\sin c\\cos3x$，从而</p><p>$a\\cos c=-1$，$a\\sin c=-\\sqrt{3}$.</p><p>故 $a=2$，$c=\\dfrac{4\\pi}{3}$，或 $a=-2$，$c=\\dfrac\\pi3$. 这些 $c$ 均属于 $[0,2\\pi)$，共得到 $4$ 组.</p>"
+          "choices": [],
+          "answer": "\\(4\\)",
+          "solution": "<p>左边展开为</p>\n$$\n2\\sin\\left(3x-\\frac{\\pi}{3}\\right)=\\sin3x-\\sqrt{3}\\cos3x\n$$\n<p>由于左边是非恒定的频率为 $3$ 的正弦型函数，必须有 $|b|=3$，且 $a\\ne0$.</p><p>当 $b=3$ 时，比较 $\\sin3x$ 与 $\\cos3x$ 的系数，得</p><p>$a\\cos c=1$，$a\\sin c=-\\sqrt{3}$.</p><p>故 $a=2$，$c=\\dfrac{5\\pi}{3}$，或 $a=-2$，$c=\\dfrac{2\\pi}{3}$.</p><p>当 $b=-3$ 时，$a\\sin(c-3x)=-a\\cos c\\sin3x+a\\sin c\\cos3x$，从而</p><p>$a\\cos c=-1$，$a\\sin c=-\\sqrt{3}$.</p><p>故 $a=2$，$c=\\dfrac{4\\pi}{3}$，或 $a=-2$，$c=\\dfrac\\pi3$. 这些 $c$ 均属于 $[0,2\\pi)$，共得到 $4$ 组.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
-          "body": "<p>如图，在平面直角坐标系 $xOy$ 中，$O$ 为正八边形 $A_{1}A_{2}\\cdots A_{8}$ 的中心，$A_{1}(1,0)$，任取不同的两点 $A_{i}$，$A_{j}$，点 $P$ 满足 $\\overrightarrow{OP}+\\overrightarrow{OA_i}+\\overrightarrow{OA_j}=\\mathbf{0}$，则点 $P$ 落在第一象限的概率是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\dfrac5{28}$",
-          "solution": "<p>正八边形的顶点在单位圆上，顶点辐角依次为 $0$，$\\dfrac\\pi4$，$\\dfrac\\pi2$，$\\ldots$，$\\dfrac{7\\pi}4$. 任选不同的两点共有 $\\mathrm{C}_{8}^{2}=28$ 种等可能结果. 由题设</p>\n$$\n\\overrightarrow{OP}=-\\left(\\overrightarrow{OA_i}+\\overrightarrow{OA_j}\\right)\n$$\n<p>所以 $P$ 在第一象限，当且仅当所选两顶点的坐标和的横、纵坐标都为负.</p><p>各顶点坐标为 $A_{1}=(1,0)$，$A_{2}=(\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2})$，$A_{3}=(0,1)$，$A_{4}=(-\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2})$，$A_{5}=(-1,0)$，$A_{6}=(-\\frac{\\sqrt{2}}{2},-\\frac{\\sqrt{2}}{2})$，$A_{7}=(0,-1)$，$A_{8}=(\\frac{\\sqrt{2}}{2},-\\frac{\\sqrt{2}}{2})$. 逐一检验坐标和的横、纵坐标均为负，满足条件的无序点对为</p><p>$(A_{4},A_{7})$，$\\ (A_{5},A_{6})$，$\\ (A_{5},A_{7})$，$\\ (A_{5},A_{8})$，$\\ (A_{6},A_{7})$</p><p>共 $5$ 对. 因此所求概率为 $\\dfrac5{28}$.</p>"
+          "body": "<p>如图，在平面直角坐标系 $xOy$ 中，$O$ 为正八边形 $A_{1}A_{2}\\cdots A_{8}$ 的中心，$A_{1}(1,0)$，任取不同的两点 $A_{i}$，$A_{j}$，点 $P$ 满足 $\\overrightarrow{OP}+\\overrightarrow{OA_i}+\\overrightarrow{OA_j}=\\mathbf{0}$，则点 $P$ 落在第一象限的概率是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/shanghai_science/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\dfrac5{28}\\)",
+          "solution": "<p>正八边形的顶点在单位圆上，顶点辐角依次为 $0$，$\\dfrac\\pi4$，$\\dfrac\\pi2$，$\\ldots$，$\\dfrac{7\\pi}4$. 任选不同的两点共有 $\\mathrm{C}_{8}^{2}=28$ 种等可能结果. 由题设</p>\n$$\n\\overrightarrow{OP}=-\\left(\\overrightarrow{OA_i}+\\overrightarrow{OA_j}\\right)\n$$\n<p>所以 $P$ 在第一象限，当且仅当所选两顶点的坐标和的横、纵坐标都为负.</p><p>各顶点坐标为 $A_{1}=(1,0)$，$A_{2}=(\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2})$，$A_{3}=(0,1)$，$A_{4}=(-\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2})$，$A_{5}=(-1,0)$，$A_{6}=(-\\frac{\\sqrt{2}}{2},-\\frac{\\sqrt{2}}{2})$，$A_{7}=(0,-1)$，$A_{8}=(\\frac{\\sqrt{2}}{2},-\\frac{\\sqrt{2}}{2})$. 逐一检验坐标和的横、纵坐标均为负，满足条件的无序点对为</p><p>$(A_{4},A_{7})$，$\\ (A_{5},A_{6})$，$\\ (A_{5},A_{7})$，$\\ (A_{5},A_{8})$，$\\ (A_{6},A_{7})$</p><p>共 $5$ 对. 因此所求概率为 $\\dfrac5{28}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -120,11 +289,13 @@
             "既非充分也非必要条件"
           ],
           "answer": "A",
-          "solution": "若 $a>1$，则 $a^{2}>1$，所以前者是后者的充分条件. 反之，$a^{2}>1$ 还可能由 $a<-1$ 导致，例如 $a=-2$ 时 $a^{2}>1$ 但 $a>1$ 不成立，故不是必要条件. 因此选 A."
+          "solution": "若 $a>1$，则 $a^{2}>1$，所以前者是后者的充分条件. 反之，$a^{2}>1$ 还可能由 $a<-1$ 导致，例如 $a=-2$ 时 $a^{2}>1$ 但 $a>1$ 不成立，故不是必要条件. 因此选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
-          "body": "<p>下列极坐标方程中，对应的曲线为下图的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>下列极坐标方程中，对应的曲线为下图的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/shanghai_science/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\rho=6+5\\cos\\theta$",
             "$\\rho=6+5\\sin\\theta$",
@@ -132,7 +303,9 @@
             "$\\rho=6-5\\sin\\theta$"
           ],
           "answer": "D",
-          "solution": "曲线 $\\rho=6-5\\sin\\theta$ 在 $\\theta=\\dfrac\\pi2$ 时取最小值 $1$，在 $\\theta=\\dfrac{3\\pi}2$ 时取最大值 $11$，故凹陷朝向正 $y$ 轴、主体向下方延伸，与图形相符. 因此选 D."
+          "solution": "曲线 $\\rho=6-5\\sin\\theta$ 在 $\\theta=\\dfrac\\pi2$ 时取最小值 $1$，在 $\\theta=\\dfrac{3\\pi}2$ 时取最大值 $11$，故凹陷朝向正 $y$ 轴、主体向下方延伸，与图形相符. 因此选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 17,
@@ -144,7 +317,9 @@
             "$a_{1}<0$，$\\ -0.8<q<-0.7$"
           ],
           "answer": "B",
-          "solution": "<p>无穷等比数列的和存在，故 $|q|<1$，且</p><p>$S=\\frac{a_{1}}{1-q}$，$S_{n}=S(1-q^{n})$.</p><p>条件 $2S_{n}<S$ 等价于</p><p>$S(1-2q^{n})<0$，（$n\\in\\mathbb{N}^{*}$）.</p><p>选项 A、C 中 $S>0$，但当 $n$ 足够大时 $q^{n}$ 接近 $0$，有 $1-2q^{n}>0$，不满足条件. 选项 B 中 $S<0$，且 $-0.7<q<-0.6$：当 $n$ 为奇数时 $1-2q^{n}>0$，当 $n$ 为偶数时 $0<q^{n}<0.7^{2}<\\dfrac{1}{2}$，仍有 $1-2q^{n}>0$，所以恒成立. 选项 D 中取偶数 $n=2$ 时，若 $|q|>\\frac{1}{\\sqrt{2}}$，则 $1-2q^{2}<0$，不能恒成立. 因此选 B.</p>"
+          "solution": "<p>无穷等比数列的和存在，故 $|q|<1$，且</p><p>$S=\\frac{a_{1}}{1-q}$，$S_{n}=S(1-q^{n})$.</p><p>条件 $2S_{n}<S$ 等价于</p><p>$S(1-2q^{n})<0$，（$n\\in\\mathbb{N}^{*}$）.</p><p>选项 A、C 中 $S>0$，但当 $n$ 足够大时 $q^{n}$ 接近 $0$，有 $1-2q^{n}>0$，不满足条件. 选项 B 中 $S<0$，且 $-0.7<q<-0.6$：当 $n$ 为奇数时 $1-2q^{n}>0$，当 $n$ 为偶数时 $0<q^{n}<0.7^{2}<\\dfrac{1}{2}$，仍有 $1-2q^{n}>0$，所以恒成立. 选项 D 中取偶数 $n=2$ 时，若 $|q|>\\frac{1}{\\sqrt{2}}$，则 $1-2q^{2}<0$，不能恒成立. 因此选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 18,
@@ -156,7 +331,9 @@
             "$①$ 为假命题，$②$ 为真命题"
           ],
           "answer": "D",
-          "solution": "<p>先判断命题 $①$. 令 $p=f+g$，$q=f+h$，$r=g+h$，并定义</p><p>$f=\\frac{p+q-r}{2}$，$g=\\frac{p+r-q}{2}$，$h=\\frac{q+r-p}{2}$.</p><p>取</p>\n$$\np(x)=\\begin{cases}x,&x\\le1,\\\\  3x-2,&x>1,\\end{cases}   q(x)=\\begin{cases}x,&x\\le0,\\\\  3x,&0<x\\le1,\\\\  x+2,&x>1,\\end{cases}   r(x)=\\begin{cases}3x,&x\\le0,\\\\  x,&x>0.\\end{cases}\n$$\n<p>三个函数 $p$，$q$，$r$ 都是增函数，因此 $f+g=p$，$f+h=q$，$g+h=r$ 都是增函数. 但在区间 $(-\\infty,0)$、$(0,1)$、$(1,+\\infty)$ 上，$(f',g',h')$ 分别为</p><p>$\\left(-\\frac{1}{2},\\frac{3}{2},\\frac{3}{2}\\right)$，$\\left(\\frac{3}{2},-\\frac{1}{2},\\frac{3}{2}\\right)$，$\\left(\\frac{3}{2},\\frac{3}{2},-\\frac{1}{2}\\right)$.</p><p>所以 $f$，$g$，$h$ 均不是增函数，命题 $①$ 为假.</p><p>再判断命题 $②$. 若三个和函数都以 $T$ 为周期，记</p><p>$F=f(x+T)-f(x)$，$G=g(x+T)-g(x)$，$H=h(x+T)-h(x)$.</p><p>则 $F+G=F+H=G+H=0$. 两两相加可得 $2F=2G=2H=0$，所以 $F=G=H=0$，即 $f$，$g$，$h$ 都以 $T$ 为周期. 命题 $②$ 为真. 因此选 D.</p>"
+          "solution": "<p>先判断命题 $①$. 令 $p=f+g$，$q=f+h$，$r=g+h$，并定义</p><p>$f=\\frac{p+q-r}{2}$，$g=\\frac{p+r-q}{2}$，$h=\\frac{q+r-p}{2}$.</p><p>取</p>\n$$\np(x)=\\begin{cases}x,&x\\le1,\\\\  3x-2,&x>1,\\end{cases}   q(x)=\\begin{cases}x,&x\\le0,\\\\  3x,&0<x\\le1,\\\\  x+2,&x>1,\\end{cases}   r(x)=\\begin{cases}3x,&x\\le0,\\\\  x,&x>0.\\end{cases}\n$$\n<p>三个函数 $p$，$q$，$r$ 都是增函数，因此 $f+g=p$，$f+h=q$，$g+h=r$ 都是增函数. 但在区间 $(-\\infty,0)$、$(0,1)$、$(1,+\\infty)$ 上，$(f',g',h')$ 分别为</p><p>$\\left(-\\frac{1}{2},\\frac{3}{2},\\frac{3}{2}\\right)$，$\\left(\\frac{3}{2},-\\frac{1}{2},\\frac{3}{2}\\right)$，$\\left(\\frac{3}{2},\\frac{3}{2},-\\frac{1}{2}\\right)$.</p><p>所以 $f$，$g$，$h$ 均不是增函数，命题 $①$ 为假.</p><p>再判断命题 $②$. 若三个和函数都以 $T$ 为周期，记</p><p>$F=f(x+T)-f(x)$，$G=g(x+T)-g(x)$，$H=h(x+T)-h(x)$.</p><p>则 $F+G=F+H=G+H=0$. 两两相加可得 $2F=2G=2H=0$，所以 $F=G=H=0$，即 $f$，$g$，$h$ 都以 $T$ 为周期. 命题 $②$ 为真. 因此选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -165,38 +342,48 @@
       "problems": [
         {
           "num": 19,
-          "body": "<p>将边长为 $1$ 的正方形 $AA_{1}O_{1}O$（及其内部）绕 $OO_{1}$ 旋转一周形成圆柱，如图，$\\widehat{AC}$ 长为 $\\dfrac{2\\pi}{3}$，$\\widehat{A_1B_1}$ 长为 $\\dfrac{\\pi}{3}$，其中 $B_{1}$ 与 $C$ 在平面 $AA_{1}O_{1}O$ 的同侧.</p><ol class=\"enumerate\"><li><p>求三棱锥 $C-O_{1}A_{1}B_{1}$ 的体积；</p></li><li><p>求异面直线 $B_{1}C$ 与 $AA_{1}$ 所成角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>将边长为 $1$ 的正方形 $AA_{1}O_{1}O$（及其内部）绕 $OO_{1}$ 旋转一周形成圆柱，如图，$\\widehat{AC}$ 长为 $\\dfrac{2\\pi}{3}$，$\\widehat{A_1B_1}$ 长为 $\\dfrac{\\pi}{3}$，其中 $B_{1}$ 与 $C$ 在平面 $AA_{1}O_{1}O$ 的同侧.</p><ol class=\"enumerate\"><li><p>求三棱锥 $C-O_{1}A_{1}B_{1}$ 的体积；</p></li><li><p>求异面直线 $B_{1}C$ 与 $AA_{1}$ 所成角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/shanghai_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取圆柱的轴线 $OO_{1}$ 为 $z$ 轴，并令正方形所在平面为 $y=0$. 设</p><p>$O=(0,0,0)$，$O_{1}=(0,0,1)$，$A=(1,0,0)$，$A_{1}=(1,0,1)$.</p><p>由于底面圆的半径为 $1$，且弧 $\\widehat{AC}$ 长为 $2\\frac{\\pi}{3}$，弧 $\\widehat{A_1B_1}$ 长为 $\\frac{\\pi}{3}$，又 $B_{1}$，$C$ 在所给平面的同侧，可取</p><p>$C=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$B_{1}=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},1\\right)$.</p><p>以 $O_{1}$ 为顶点取三个棱向量，则</p><p>$\\overrightarrow{O_1C}=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},-1\\right)$，$\\overrightarrow{O_1A_1}=(1,0,0)$，$\\overrightarrow{O_1B_1}=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$.</p><p>所以三棱锥体积为</p>\n$$\nV=\\frac{1}{6}\\left|\\det\\begin{pmatrix}-\\frac{1}{2}&1&\\frac{1}{2}\\\\\n\n\\frac{\\sqrt{3}}{2}&0&\\frac{\\sqrt{3}}{2}\\\\\n\n-1&0&0\\end{pmatrix}\\right|=\\frac{\\sqrt{3}}{12}\n$$\n</li><li><p>由上述坐标，直线 $B_{1}C$ 的方向向量可取</p>\n$$\n\\overrightarrow{CB_1}=(1,0,1)\n$$\n<p>而直线 $AA_{1}$ 的方向向量为 $(0,0,1)$. 设两异面直线所成的角为 $\\alpha$，则</p>\n$$\n\\cos\\alpha=\\frac{|(1,0,1)\\cdot(0,0,1)|}{\\sqrt{1^{2}+1^{2}}}=\\frac{1}{\\sqrt{2}}\n$$\n<p>由于 $0\\leq\\alpha\\leq\\frac{\\pi}{2}$，得 $\\alpha=\\dfrac\\pi4$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取圆柱的轴线 $OO_{1}$ 为 $z$ 轴，并令正方形所在平面为 $y=0$. 设</p><p>$O=(0,0,0)$，$O_{1}=(0,0,1)$，$A=(1,0,0)$，$A_{1}=(1,0,1)$.</p><p>由于底面圆的半径为 $1$，且弧 $\\widehat{AC}$ 长为 $2\\frac{\\pi}{3}$，弧 $\\widehat{A_1B_1}$ 长为 $\\frac{\\pi}{3}$，又 $B_{1}$，$C$ 在所给平面的同侧，可取</p><p>$C=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$B_{1}=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},1\\right)$.</p><p>以 $O_{1}$ 为顶点取三个棱向量，则</p><p>$\\overrightarrow{O_1C}=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},-1\\right)$，$\\overrightarrow{O_1A_1}=(1,0,0)$，$\\overrightarrow{O_1B_1}=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$.</p><p>所以三棱锥体积为</p>\n$$\nV=\\frac{1}{6}\\left|\\det\\begin{pmatrix}-\\frac{1}{2}&1&\\frac{1}{2}\\\\\n\n\\frac{\\sqrt{3}}{2}&0&\\frac{\\sqrt{3}}{2}\\\\\n\n-1&0&0\\end{pmatrix}\\right|=\\frac{\\sqrt{3}}{12}\n$$\n</li><li><p>由上述坐标，直线 $B_{1}C$ 的方向向量可取</p>\n$$\n\\overrightarrow{CB_1}=(1,0,1)\n$$\n<p>而直线 $AA_{1}$ 的方向向量为 $(0,0,1)$. 设两异面直线所成的角为 $\\alpha$，则</p>\n$$\n\\cos\\alpha=\\frac{|(1,0,1)\\cdot(0,0,1)|}{\\sqrt{1^{2}+1^{2}}}=\\frac{1}{\\sqrt{2}}\n$$\n<p>由于 $0\\leq\\alpha\\leq\\frac{\\pi}{2}$，得 $\\alpha=\\dfrac\\pi4$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>有一块正方形菜地 $EFGH$，$EH$ 所在直线是一条小河，收获的蔬菜可送到 $F$ 点或河边运走. 于是，菜地分为两个区域 $S_{1}$ 和 $S_{2}$，其中 $S_{1}$ 中的蔬菜运到河边较近，$S_{2}$ 中的蔬菜运到 $F$ 点较近，而菜地内 $S_{1}$ 和 $S_{2}$ 的分界线 $C$ 上的点到河边与到 $F$ 点的距离相等. 现建立平面直角坐标系，其中原点 $O$ 为 $EF$ 的中点，点 $F$ 的坐标为 $(1,0)$，如图.</p><ol class=\"enumerate\"><li><p>求菜地内的分界线 $C$ 的方程；</p></li><li><p>菜农从蔬菜运量估计出 $S_{1}$ 面积是 $S_{2}$ 面积的两倍，由此得到 $S_{1}$ 面积的“经验值”为 $\\dfrac{8}{3}$. 设 $M$ 是 $C$ 上纵坐标为 $1$ 的点，请计算以 $EH$ 为一边，另有一边过点 $M$ 的矩形的面积，及五边形 $EOMGH$ 的面积，并判别哪一个更接近于 $S_{1}$ 面积的“经验值”.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>有一块正方形菜地 $EFGH$，$EH$ 所在直线是一条小河，收获的蔬菜可送到 $F$ 点或河边运走. 于是，菜地分为两个区域 $S_{1}$ 和 $S_{2}$，其中 $S_{1}$ 中的蔬菜运到河边较近，$S_{2}$ 中的蔬菜运到 $F$ 点较近，而菜地内 $S_{1}$ 和 $S_{2}$ 的分界线 $C$ 上的点到河边与到 $F$ 点的距离相等. 现建立平面直角坐标系，其中原点 $O$ 为 $EF$ 的中点，点 $F$ 的坐标为 $(1,0)$，如图.</p><ol class=\"enumerate\"><li><p>求菜地内的分界线 $C$ 的方程；</p></li><li><p>菜农从蔬菜运量估计出 $S_{1}$ 面积是 $S_{2}$ 面积的两倍，由此得到 $S_{1}$ 面积的“经验值”为 $\\dfrac{8}{3}$. 设 $M$ 是 $C$ 上纵坐标为 $1$ 的点，请计算以 $EH$ 为一边，另有一边过点 $M$ 的矩形的面积，及五边形 $EOMGH$ 的面积，并判别哪一个更接近于 $S_{1}$ 面积的“经验值”.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/shanghai_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由图可知正方形的四个顶点为 $E=(-1,0)$，$F=(1,0)$，$G=(1,2)$，$H=(-1,2)$. 设分界线上点为 $(x,y)$，则它到河边直线 $x=-1$ 的距离为 $x+1$，到 $F$ 的距离为 $\\sqrt{(x-1)^{2}+y^{2}}$. 由两距离相等，得</p>\n$$\n(x+1)^{2}=(x-1)^{2}+y^{2}\n$$\n<p>即 $y^{2}=4x$. 因为点在菜地 $[-1,1]\\times[0,2]$ 内，分界线的实际部分为</p><p>$x=\\frac{y^{2}}{4}$，$0\\le y\\le2$.</p></li><li><p>令 $y=1$，得 $M=\\left(\\dfrac{1}{4},1\\right)$. 以 $EH$ 为一边的矩形的高为 $EH=2$，另一条平行于 $EH$ 的边过 $M$，所以矩形的宽为 $\\dfrac{1}{4}-(-1)=\\dfrac{5}{4}$，面积为</p>\n$$\n2\\times\\frac{5}{4}=\\frac{5}{2}\n$$\n<p>五边形 $EOMGH$ 的顶点依次为 $(-1,0)$，$(0,0)$，$(\\frac{1}{4},1)$，$(1,2)$，$(-1,2)$. 由鞋带公式</p>\n$$\nS_{EOMGH}=\\frac{1}{2}\\left|\\left(\\frac{1}{2}+2\\right)-\\left(1-2-2\\right)\\right|=\\frac{11}{4}\n$$\n<p>与经验值 $\\dfrac{8}{3}$ 比较：</p><p>$\\left|\\frac{5}{2}-\\frac{8}{3}\\right|=\\frac{1}{6}$，$\\left|\\frac{11}{4}-\\frac{8}{3}\\right|=\\frac{1}{12}$.</p><p>因此五边形 $EOMGH$ 的面积更接近经验值.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由图可知正方形的四个顶点为 $E=(-1,0)$，$F=(1,0)$，$G=(1,2)$，$H=(-1,2)$. 设分界线上点为 $(x,y)$，则它到河边直线 $x=-1$ 的距离为 $x+1$，到 $F$ 的距离为 $\\sqrt{(x-1)^{2}+y^{2}}$. 由两距离相等，得</p>\n$$\n(x+1)^{2}=(x-1)^{2}+y^{2}\n$$\n<p>即 $y^{2}=4x$. 因为点在菜地 $[-1,1]\\times[0,2]$ 内，分界线的实际部分为</p><p>$x=\\frac{y^{2}}{4}$，$0\\le y\\le2$.</p></li><li><p>令 $y=1$，得 $M=\\left(\\dfrac{1}{4},1\\right)$. 以 $EH$ 为一边的矩形的高为 $EH=2$，另一条平行于 $EH$ 的边过 $M$，所以矩形的宽为 $\\dfrac{1}{4}-(-1)=\\dfrac{5}{4}$，面积为</p>\n$$\n2\\times\\frac{5}{4}=\\frac{5}{2}\n$$\n<p>五边形 $EOMGH$ 的顶点依次为 $(-1,0)$，$(0,0)$，$(\\frac{1}{4},1)$，$(1,2)$，$(-1,2)$. 由鞋带公式</p>\n$$\nS_{EOMGH}=\\frac{1}{2}\\left|\\left(\\frac{1}{2}+2\\right)-\\left(1-2-2\\right)\\right|=\\frac{11}{4}\n$$\n<p>与经验值 $\\dfrac{8}{3}$ 比较：</p><p>$\\left|\\frac{5}{2}-\\frac{8}{3}\\right|=\\frac{1}{6}$，$\\left|\\frac{11}{4}-\\frac{8}{3}\\right|=\\frac{1}{12}$.</p><p>因此五边形 $EOMGH$ 的面积更接近经验值.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>双曲线 $x^{2}-\\dfrac{y^2}{b^2}=1$（$b>0$）的左、右焦点分别为 $F_{1}$，$F_{2}$，直线 $l$ 过 $F_{2}$ 且与双曲线交于 $A$，$B$ 两点.</p><ol class=\"enumerate\"><li><p>若 $l$ 的倾斜角为 $\\dfrac{\\pi}{2}$，$\\triangle F_{1}AB$ 是等边三角形，求双曲线的渐近线方程；</p></li><li><p>设 $b=\\sqrt{3}$，若 $l$ 的斜率存在，且 $(\\overrightarrow{F_1A}+\\overrightarrow{F_1B})\\cdot\\overrightarrow{AB}=0$，求 $l$ 的斜率.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设双曲线的半焦距为 $c$，则 $c^{2}=1+b^{2}$，焦点为 $F_{1}=(-c,0)$，$F_{2}=(c,0)$. 当 $l$ 的倾斜角为 $\\frac{\\pi}{2}$ 时，直线为 $x=c$，与双曲线的交点可设为</p><p>$A=(c,b^{2})$，$B=(c,-b^{2})$.</p><p>于是 $AB=2b^{2}$. 因为 $\\triangle F_{1}AB$ 为等边三角形，所以</p><p>$F_{1}A^{2}=AB^{2}$，$(2c)^{2}+b^{4}=4b^{4}$.</p><p>代入 $c^{2}=1+b^{2}$，得</p>\n$$\n4(1+b^{2})=3b^{4}\n$$\n<p>令 $u=b^{2}>0$，则 $3u^{2}-4u-4=0$，解得 $u=2$，即 $b=\\sqrt{2}$. 因而双曲线渐近线为</p>\n$$\ny=\\pm bx=\\pm\\sqrt{2}x\n$$\n</li><li><p>当 $b=\\sqrt{3}$ 时，$c=2$，故 $F_{1}=(-2,0)$，$F_{2}=(2,0)$. 设 $l$ 的斜率为 $k$，则 $l:y=k(x-2)$. 设 $A=(x_{1},y_{1})$，$B=(x_{2},y_{2})$，联立双曲线方程得</p>\n$$\n(3-k^{2})x^{2}+4k^{2}x-(4k^{2}+3)=0\n$$\n<p>因 $l$ 与双曲线有两个交点，故 $k^{2}\\ne3$，从而由韦达定理</p><p>$x_{1}+x_{2}=-\\frac{4k^{2}}{3-k^{2}}$，$y_{1}+y_{2}=k(x_{1}+x_{2}-4)$.</p><p>又 $\\overrightarrow{AB}=(x_{2}-x_{1})(1,k)$，所以题设条件等价于</p>\n$$\n0=(x_{2}-x_{1})\\bigl[x_{1}+x_{2}+4+k(y_{1}+y_{2})\\bigr]\n$$\n<p>因 $A\\ne B$，有</p>\n$$\n(1+k^{2})(x_{1}+x_{2})+4(1-k^{2})=0\n$$\n<p>即 $x_{1}+x_{2}=\\dfrac{4(k^2-1)}{1+k^2}$. 与韦达公式联立，令 $u=k^{2}$，得</p><p>$-\\frac{4u}{3-u}=\\frac{4(u-1)}{1+u}$，$u=\\frac{3}{5}$.</p><p>故 $k=\\pm\\sqrt{\\dfrac{3}{5}}=\\pm\\dfrac{\\sqrt{15}}5$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设双曲线的半焦距为 $c$，则 $c^{2}=1+b^{2}$，焦点为 $F_{1}=(-c,0)$，$F_{2}=(c,0)$. 当 $l$ 的倾斜角为 $\\frac{\\pi}{2}$ 时，直线为 $x=c$，与双曲线的交点可设为</p><p>$A=(c,b^{2})$，$B=(c,-b^{2})$.</p><p>于是 $AB=2b^{2}$. 因为 $\\triangle F_{1}AB$ 为等边三角形，所以</p><p>$F_{1}A^{2}=AB^{2}$，$(2c)^{2}+b^{4}=4b^{4}$.</p><p>代入 $c^{2}=1+b^{2}$，得</p>\n$$\n4(1+b^{2})=3b^{4}\n$$\n<p>令 $u=b^{2}>0$，则 $3u^{2}-4u-4=0$，解得 $u=2$，即 $b=\\sqrt{2}$. 因而双曲线渐近线为</p>\n$$\ny=\\pm bx=\\pm\\sqrt{2}x\n$$\n</li><li><p>当 $b=\\sqrt{3}$ 时，$c=2$，故 $F_{1}=(-2,0)$，$F_{2}=(2,0)$. 设 $l$ 的斜率为 $k$，则 $l:y=k(x-2)$. 设 $A=(x_{1},y_{1})$，$B=(x_{2},y_{2})$，联立双曲线方程得</p>\n$$\n(3-k^{2})x^{2}+4k^{2}x-(4k^{2}+3)=0\n$$\n<p>因 $l$ 与双曲线有两个交点，故 $k^{2}\\ne3$，从而由韦达定理</p><p>$x_{1}+x_{2}=-\\frac{4k^{2}}{3-k^{2}}$，$y_{1}+y_{2}=k(x_{1}+x_{2}-4)$.</p><p>又 $\\overrightarrow{AB}=(x_{2}-x_{1})(1,k)$，所以题设条件等价于</p>\n$$\n0=(x_{2}-x_{1})\\bigl[x_{1}+x_{2}+4+k(y_{1}+y_{2})\\bigr]\n$$\n<p>因 $A\\ne B$，有</p>\n$$\n(1+k^{2})(x_{1}+x_{2})+4(1-k^{2})=0\n$$\n<p>即 $x_{1}+x_{2}=\\dfrac{4(k^2-1)}{1+k^2}$. 与韦达公式联立，令 $u=k^{2}$，得</p><p>$-\\frac{4u}{3-u}=\\frac{4(u-1)}{1+u}$，$u=\\frac{3}{5}$.</p><p>故 $k=\\pm\\sqrt{\\dfrac{3}{5}}=\\pm\\dfrac{\\sqrt{15}}5$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<p>已知 $a\\in\\mathbb{R}$，函数 $f(x)=\\log_{2}\\!\\left(\\dfrac{1}{x}+a\\right)$.</p><ol class=\"enumerate\"><li><p>当 $a=5$ 时，解不等式 $f(x)>0$；</p></li><li><p>若关于 $x$ 的方程 $f(x)-\\log_{2}[(a-4)x+2a-5]=0$ 的解集中恰有一个元素，求 $a$ 的取值范围；</p></li><li><p>设 $a>0$，若对任意 $t\\in\\left[\\dfrac{1}{2},1\\right]$，函数 $f(x)$ 在区间 $[t,t+1]$ 上的最大值和最小值的差不超过 $1$，求 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=5$ 时，$f(x)>0$ 等价于</p>\n$$\n\\frac{1}{x}+5>1\n$$\n<p>即 $\\frac{1}{x}>-4$. 当 $x>0$ 时不等式恒成立；当 $x<0$ 时不等式等价于 $x<-\\frac{1}{4}$. 所以解集为</p>\n$$\n\\left(-\\infty,-\\frac{1}{4}\\right)\\cup(0,+\\infty)\n$$\n</li><li><p>方程两边的对数真数均须为正，且由对数函数的单调性，原方程等价于</p>\n$$\n\\frac{1}{x}+a=(a-4)x+2a-5\n$$\n<p>因为 $x\\ne0$，两边乘以 $x$ 并因式分解，得</p>\n$$\n(a-4)x^{2}+(a-5)x-1=0\n$$\n<p>即</p>\n$$\n(x+1)\\bigl((a-4)x-1\\bigr)=0\n$$\n<p>根 $x=-1$ 有效的条件是 $a-1>0$，即 $a>1$. 当 $a\\ne4$ 时，另一根为 $x=\\frac{1}{(a-4)}$，代回真数得 $2a-4>0$，故它有效当且仅当 $a>2$. 当 $a=3$ 时两根重合，只有一个不同的解；当 $a=4$ 时方程退化为 $x=-1$，且该根有效. 于是恰有一个解的情形为</p>\n$$\na\\in(1,2]\\cup\\{3,4\\}\n$$\n</li><li><p>当 $a>0$ 且 $x>0$ 时，</p>\n$$\nf'(x)=-\\frac{1}{x(ax+1)\\ln2}<0\n$$\n<p>所以在 $[t,t+1]$ 上最大值为 $f(t)$，最小值为 $f(t+1)$. 条件等价于</p>\n$$\n\\log_{2}\\frac{a+\\frac{1}{t}}{a+\\frac{1}{(t+1)}}\\le1\n$$\n<p>即</p>\n$$\n\\frac{a+\\frac{1}{t}}{a+\\frac{1}{(t+1)}}\\le2\n$$\n<p>由于 $t>0$，化简为</p><p>$a t(t+1)\\ge1-t$，$a\\ge\\frac{1-t}{t(t+1)}$.</p><p>函数 $\\dfrac{1-t}{t(t+1)}$ 在 $[\\frac{1}{2},1]$ 上递减，最大值在 $t=\\frac{1}{2}$ 处取得，为 $\\frac{2}{3}$. 因而所求范围为</p>\n$$\na\\in\\left[\\frac{2}{3},+\\infty\\right)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=5$ 时，$f(x)>0$ 等价于</p>\n$$\n\\frac{1}{x}+5>1\n$$\n<p>即 $\\frac{1}{x}>-4$. 当 $x>0$ 时不等式恒成立；当 $x<0$ 时不等式等价于 $x<-\\frac{1}{4}$. 所以解集为</p>\n$$\n\\left(-\\infty,-\\frac{1}{4}\\right)\\cup(0,+\\infty)\n$$\n</li><li><p>方程两边的对数真数均须为正，且由对数函数的单调性，原方程等价于</p>\n$$\n\\frac{1}{x}+a=(a-4)x+2a-5\n$$\n<p>因为 $x\\ne0$，两边乘以 $x$ 并因式分解，得</p>\n$$\n(a-4)x^{2}+(a-5)x-1=0\n$$\n<p>即</p>\n$$\n(x+1)\\bigl((a-4)x-1\\bigr)=0\n$$\n<p>根 $x=-1$ 有效的条件是 $a-1>0$，即 $a>1$. 当 $a\\ne4$ 时，另一根为 $x=\\frac{1}{(a-4)}$，代回真数得 $2a-4>0$，故它有效当且仅当 $a>2$. 当 $a=3$ 时两根重合，只有一个不同的解；当 $a=4$ 时方程退化为 $x=-1$，且该根有效. 于是恰有一个解的情形为</p>\n$$\na\\in(1,2]\\cup\\{3,4\\}\n$$\n</li><li><p>当 $a>0$ 且 $x>0$ 时，</p>\n$$\nf'(x)=-\\frac{1}{x(ax+1)\\ln2}<0\n$$\n<p>所以在 $[t,t+1]$ 上最大值为 $f(t)$，最小值为 $f(t+1)$. 条件等价于</p>\n$$\n\\log_{2}\\frac{a+\\frac{1}{t}}{a+\\frac{1}{(t+1)}}\\le1\n$$\n<p>即</p>\n$$\n\\frac{a+\\frac{1}{t}}{a+\\frac{1}{(t+1)}}\\le2\n$$\n<p>由于 $t>0$，化简为</p><p>$a t(t+1)\\ge1-t$，$a\\ge\\frac{1-t}{t(t+1)}$.</p><p>函数 $\\dfrac{1-t}{t(t+1)}$ 在 $[\\frac{1}{2},1]$ 上递减，最大值在 $t=\\frac{1}{2}$ 处取得，为 $\\frac{2}{3}$. 因而所求范围为</p>\n$$\na\\in\\left[\\frac{2}{3},+\\infty\\right)\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "<p>若无穷数列 $\\{a_{n}\\}$ 满足：只要 $a_{p}=a_{q}$（$p$，$q\\in\\mathbb{N}^{*}$），必有 $a_{p+1}=a_{q+1}$，则称 $\\{a_{n}\\}$ 具有性质 $P$.</p><ol class=\"enumerate\"><li><p>若 $\\{a_{n}\\}$ 具有性质 $P$，且 $a_{1}=1$，$a_{2}=2$，$a_{4}=3$，$a_{5}=2$，$a_{6}+a_{7}+a_{8}=21$，求 $a_{3}$；</p></li><li><p>若无穷数列 $\\{b_{n}\\}$ 是等差数列，无穷数列 $\\{c_{n}\\}$ 是公比为正数的等比数列，$b_{1}=c_{5}=1$，$b_{5}=c_{1}=81$，$a_{n}=b_{n}+c_{n}$，判断 $\\{a_{n}\\}$ 是否具有性质 $P$，并说明理由；</p></li><li><p>设 $\\{b_{n}\\}$ 是无穷数列，已知 $a_{n+1}=b_{n}+\\sin a_{n}$（$n\\in\\mathbb{N}^{*}$），求证：“对任意 $a_{1}$，$\\{a_{n}\\}$ 都具有性质 $P$”的充要条件为“$\\{b_{n}\\}$ 是常数列”.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $a_{2}=a_{5}=2$，由性质 $P$ 得 $a_{3}=a_{6}$. 又因 $a_{3}=a_{6}$，再次利用性质 $P$ 得 $a_{4}=a_{7}$，即 $a_{7}=3$. 由于 $a_{4}=a_{7}=3$，再得 $a_{5}=a_{8}$，即 $a_{8}=2$. 因此</p>\n$$\na_{6}+a_{7}+a_{8}=a_{3}+3+2=21\n$$\n<p>解得 $a_{3}=16$.</p></li><li><p>由 $b_{1}=1$，$b_{5}=81$，得等差数列公差</p><p>$d=\\frac{81-1}{4}=20$，$b_{n}=20n-19$.</p><p>由 $c_{1}=81$，$c_{5}=1$ 且公比为正，得</p><p>$q^{4}=\\frac{1}{81}$，$q=\\frac{1}{3}$，$c_{n}=\\frac{81}{3^{n-1}}=3^{5-n}$.</p><p>所以 $a_{n}=20n-19+3^{5-n}$. 特别地，</p>\n$$\na_{1}=1+81=82=a_{5}=81+1\n$$\n<p>但</p>\n$$\na_{2}=21+27=48\\ne101+\\frac{1}{3}=a_{6}\n$$\n<p>存在 $a_{1}=a_{5}$ 而 $a_{2}\\ne a_{6}$，故 $\\{a_{n}\\}$ 不具有性质 $P$.</p></li><li><p>先证充分性. 若 $\\{b_{n}\\}$ 为常数列，设其各项为 $b$. 若 $a_{p}=a_{q}$，则</p>\n$$\na_{p+1}=b+\\sin a_{p}=b+\\sin a_{q}=a_{q+1}\n$$\n<p>故对任意初值 $a_{1}$，数列具有性质 $P$.</p><p>再证必要性. 假设对任意 $a_{1}$，数列都具有性质 $P$. 对任意实数 $B$，方程</p>\n$$\nx=B+\\sin x\n$$\n<p>有解，因为函数 $x-\\sin x$ 连续且当 $x\\to\\pm\\infty$ 时分别趋于 $\\pm\\infty$. 固定这样的解 $x$，并取初值 $a_{1}=x$. 若已知 $b_{1}=b_{2}=\\cdots=b_{n}=B$，则由递推关系可归纳得到</p>\n$$\na_{1}=a_{2}=\\cdots=a_{n+1}=x\n$$\n<p>性质 $P$ 使 $a_{n+1}=a_{n+2}$，而</p><p>$a_{n+1}=B+\\sin x$，$a_{n+2}=b_{n+1}+\\sin x$，</p><p>从而 $b_{n+1}=B$. 先取 $n=1$，得到 $b_{2}=b_{1}$；再归纳可得所有 $b_{n}$ 都等于 $b_{1}$，即 $\\{b_{n}\\}$ 是常数列. 综上，所述充要条件成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $a_{2}=a_{5}=2$，由性质 $P$ 得 $a_{3}=a_{6}$. 又因 $a_{3}=a_{6}$，再次利用性质 $P$ 得 $a_{4}=a_{7}$，即 $a_{7}=3$. 由于 $a_{4}=a_{7}=3$，再得 $a_{5}=a_{8}$，即 $a_{8}=2$. 因此</p>\n$$\na_{6}+a_{7}+a_{8}=a_{3}+3+2=21\n$$\n<p>解得 $a_{3}=16$.</p></li><li><p>由 $b_{1}=1$，$b_{5}=81$，得等差数列公差</p><p>$d=\\frac{81-1}{4}=20$，$b_{n}=20n-19$.</p><p>由 $c_{1}=81$，$c_{5}=1$ 且公比为正，得</p><p>$q^{4}=\\frac{1}{81}$，$q=\\frac{1}{3}$，$c_{n}=\\frac{81}{3^{n-1}}=3^{5-n}$.</p><p>所以 $a_{n}=20n-19+3^{5-n}$. 特别地，</p>\n$$\na_{1}=1+81=82=a_{5}=81+1\n$$\n<p>但</p>\n$$\na_{2}=21+27=48\\ne101+\\frac{1}{3}=a_{6}\n$$\n<p>存在 $a_{1}=a_{5}$ 而 $a_{2}\\ne a_{6}$，故 $\\{a_{n}\\}$ 不具有性质 $P$.</p></li><li><p>先证充分性. 若 $\\{b_{n}\\}$ 为常数列，设其各项为 $b$. 若 $a_{p}=a_{q}$，则</p>\n$$\na_{p+1}=b+\\sin a_{p}=b+\\sin a_{q}=a_{q+1}\n$$\n<p>故对任意初值 $a_{1}$，数列具有性质 $P$.</p><p>再证必要性. 假设对任意 $a_{1}$，数列都具有性质 $P$. 对任意实数 $B$，方程</p>\n$$\nx=B+\\sin x\n$$\n<p>有解，因为函数 $x-\\sin x$ 连续且当 $x\\to\\pm\\infty$ 时分别趋于 $\\pm\\infty$. 固定这样的解 $x$，并取初值 $a_{1}=x$. 若已知 $b_{1}=b_{2}=\\cdots=b_{n}=B$，则由递推关系可归纳得到</p>\n$$\na_{1}=a_{2}=\\cdots=a_{n+1}=x\n$$\n<p>性质 $P$ 使 $a_{n+1}=a_{n+2}$，而</p><p>$a_{n+1}=B+\\sin x$，$a_{n+2}=b_{n+1}+\\sin x$，</p><p>从而 $b_{n+1}=B$. 先取 $n=1$，得到 $b_{2}=b_{1}$；再归纳可得所有 $b_{n}$ 都等于 $b_{1}$，即 $\\{b_{n}\\}$ 是常数列. 综上，所述充要条件成立.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

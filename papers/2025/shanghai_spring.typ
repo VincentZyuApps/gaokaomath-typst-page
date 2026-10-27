@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,275 +11,279 @@
 #part-header("填空题")
 
 #problem(1)[
-已知集合 $A=\{x | x>0\}$，$B=\{-1,0,1,2\}$，则 $A inter B=\f i l l i n b l a n k{}$.
+已知集合 #mi(`A=\{x\mid x>0\}`)，#mi(`B=\{-1,0,1,2\}`)，则 #mi(`A\cap B=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$\{1,2\}$])
+#answer([#mi(`\{1,2\}`)])
 
 #solution[
-由交集定义，取 $B$ 中满足 $x>0$ 的元素，得 $A inter B=\{1,2\}$.
+由交集定义，取 #mi(`B`) 中满足 #mi(`x>0`) 的元素，得 #mi(`A\cap B=\{1,2\}`).
 ]
 
 #problem(2)[
-不等式 $(x)/(x-1)<0$ 的解集为#blank(){}.
+不等式 #mi(`\dfrac{x}{x-1}<0`) 的解集为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(0,1)$])
+#answer([#mi(`(0,1)`)])
 
 #solution[
-不等式等价于 $x(x-1)<0$，故 $0<x<1$，解集为 $(0,1)$.
+不等式等价于 #mi(`x(x-1)<0`)，故 #mi(`0<x<1`)，解集为 #mi(`(0,1)`).
 ]
 
 #problem(3)[
-已知复数 $z=(2+ i)/(i)$，其中 $i$ 为虚数单位，则 $|z|=\f i l l i n b l a n k{}$.
+已知复数 #mi(`z=\dfrac{2+\mathrm{i}}{\mathrm{i}}`)，其中 #mi(`\mathrm{i}`) 为虚数单位，则 #mi(`|z|=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$sqrt(5)$])
+#answer([#mi(`\sqrt{5}`)])
 
 #solution[
-$z=(i (2+ i ))/(i ""^2)=1-2 i$，所以 $|z|=sqrt(1^2+(-2)^2)=sqrt(5)$.
+#mi(`z=\dfrac{\mathrm{i}(2+\mathrm{i})}{\mathrm{i}^2}=1-2\mathrm{i}`)，所以 #mi(`|z|=\sqrt{1^{2}+(-2)^{2}}=\sqrt{5}`).
 ]
 
 #problem(4)[
-已知 $bold(a)=(2,1)$，$bold(b)=(1,x)$，若 $bold(a)\p a r a l l e l b o l d(b)$，则 $x=\f i l l i n b l a n k{}$.
+已知 #mi(`\mathbf{a}=(2,1)`)，#mi(`\mathbf{b}=(1,x)`)，若 #mi(`\mathbf{a}\parallel\mathbf{b}`)，则 #mi(`x=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(1)/(2)$])
+#answer([#mi(`\dfrac{1}{2}`)])
 
 #solution[
-由平面向量共线条件，$2 x-1=0$，故 $x=(1)/(2)$.
+由平面向量共线条件，#mi(`2x-1=0`)，故 #mi(`x=\dfrac{1}{2}`).
 ]
 
 #problem(5)[
-已知 $tan alpha =1$，则 $cos ( alpha +(pi)/(4))=\f i l l i n b l a n k{}$.
+已知 #mi(`\tan\alpha=1`)，则 #mi(`\cos\left(\alpha+\dfrac{\pi}{4}\right)=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$0$])
+#answer([#mi(`0`)])
 
 #solution[
-由 $tan alpha =1$ 得 $sin alpha = cos alpha$，因此
-$cos ( alpha +(pi)/(4))=(sqrt(2))/(2)( cos alpha - sin alpha )=0$.
+由 #mi(`\tan\alpha=1`) 得 #mi(`\sin\alpha=\cos\alpha`)，因此
+
+#mi(`\cos\left(\alpha+\dfrac{\pi}{4}\right)=\dfrac{\sqrt{2}}{2}(\cos\alpha-\sin\alpha)=0`).
 ]
 
 #problem(6)[
-已知 $(x+(m)/(x))^6$ 的展开式中常数项为 $20$，则实数 $m$ 的值为#blank(){}.
+已知 #mi(`\left(x+\dfrac{m}{x}\right)^{6}`) 的展开式中常数项为 #mi(`20`)，则实数 #mi(`m`) 的值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #solution[
-通项为 $C_6^r m^r x^(6-2 r)$. 常数项对应 $r=3$，故 $C_6^(3) m^3=20$，即 $m=1$.
+通项为 #mi(`\mathrm{C}_{6}^{r} m^{r} x^{6-2r}`). 常数项对应 #mi(`r=3`)，故 #mi(`\mathrm{C}_{6}^{3}m^{3}=20`)，即 #mi(`m=1`).
 ]
 
 #problem(7)[
-已知 $\{a_n\}$ 是首项为 $1$，公差为 $1$ 的等差数列，$\{b_n\}$ 是首项为 $1$，公比为 $q$（$q>0$） 的等比数列. 若数列 $\{a_(n) b_n\}$ 的前三项和为 $2$，则 $q=\f i l l i n b l a n k{}$.
+已知 #mi(`\{a_{n}\}`) 是首项为 #mi(`1`)，公差为 #mi(`1`) 的等差数列，#mi(`\{b_{n}\}`) 是首项为 #mi(`1`)，公比为 #mi(`q`)（#mi(`q>0`)） 的等比数列. 若数列 #mi(`\{a_{n}b_{n}\}`) 的前三项和为 #mi(`2`)，则 #mi(`q=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(1)/(3)$])
+#answer([#mi(`\dfrac{1}{3}`)])
 
 #solution[
-$a_n=n$，$b_n=q^(n-1)$，故前三项和为 $1+2 q+3 q^2=2$. 解得 $q=(1)/(3)$ 或 $-1$，由 $q>0$ 知 $q=(1)/(3)$.
+#mi(`a_{n}=n`)，#mi(`b_{n}=q^{n-1}`)，故前三项和为 #mi(`1+2q+3q^{2}=2`). 解得 #mi(`q=\dfrac{1}{3}`) 或 #mi(`-1`)，由 #mi(`q>0`) 知 #mi(`q=\dfrac{1}{3}`).
 ]
 
 #problem(8)[
-关于 $x$ 的方程 $|x-1|+| pi -x|= pi -1$ 的解集为#blank(){}.
+关于 #mi(`x`) 的方程 #mi(`|x-1|+|\pi-x|=\pi-1`) 的解集为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[1, pi ]$])
+#answer([#mi(`[1,\pi]`)])
 
 #solution[
-分三段讨论：当 $x <= 1$ 时左端为 $pi +1-2 x$，仅 $x=1$ 成立；当 $1<x< pi$ 时左端恒为 $pi -1$；当 $x >= pi$ 时左端为 $2 x- pi -1$，仅 $x= pi$ 成立. 故解集为 $[1, pi ]$.
+分三段讨论：当 #mi(`x\le1`) 时左端为 #mi(`\pi+1-2x`)，仅 #mi(`x=1`) 成立；当 #mi(`1<x<\pi`) 时左端恒为 #mi(`\pi-1`)；当 #mi(`x\ge\pi`) 时左端为 #mi(`2x-\pi-1`)，仅 #mi(`x=\pi`) 成立. 故解集为 #mi(`[1,\pi]`).
 ]
 
 #problem(9)[
-已知 $P$ 是一个圆锥的顶点，$P A$ 是母线，$P A=2$，该圆锥的底面半径是 $1$. $B$，$C$ 分别在圆锥的底面上，则异面直线 $P A$ 与 $B C$ 所成角的最小值为#blank(){}.
+已知 #mi(`P`) 是一个圆锥的顶点，#mi(`PA`) 是母线，#mi(`PA=2`)，该圆锥的底面半径是 #mi(`1`). #mi(`B`)，#mi(`C`) 分别在圆锥的底面上，则异面直线 #mi(`PA`) 与 #mi(`BC`) 所成角的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(pi)/(3)$])
+#answer([#mi(`\dfrac{\pi}{3}`)])
 
 #solution[
-过 $A$ 作底面弦 $A D parallel B C$，并连接 $P D$，则 $P A=P D=2$. 在等腰三角形 $P A D$ 中，底面弦 $A D <= 2$，故
-$cos angle P A D=(P A^2+A D^2-P D^2)/(2 P A dot A D)=(A D)/(4) <= (1)/(2)$.
-由于 $angle P A D in (0,(pi)/(2))$，得 $angle P A D >= (pi)/(3)$，且当 $A D=2$ 时取等号. 因而最小值为 $(pi)/(3)$.
+过 #mi(`A`) 作底面弦 #mi(`AD\parallel BC`)，并连接 #mi(`PD`)，则 #mi(`PA=PD=2`). 在等腰三角形 #mi(`PAD`) 中，底面弦 #mi(`AD\le2`)，故
+
+#mi(`\cos\angle PAD=\dfrac{PA^2+AD^2-PD^2}{2PA\cdot AD}=\dfrac{AD}{4}\le\dfrac{1}{2}`).
+
+由于 #mi(`\angle PAD\in(0,\frac{\pi}{2})`)，得 #mi(`\angle PAD\ge\frac{\pi}{3}`)，且当 #mi(`AD=2`) 时取等号. 因而最小值为 #mi(`\dfrac\pi3`).
 ]
 
 #problem(10)[
-已知双曲线 $(x^2)/(a^2)-(y^2)/(6-a^2)=1$（$a>0$） 的左，右焦点分别为 $F_1$，$F_2$. 通过 $F_2$ 且倾斜角为 $(pi)/(3)$ 的直线与双曲线交于第一象限的点 $A$，延长 $A F_2$ 至 $B$ 使得 $A B=A F_1$. 若 $triangle B F_(1) F_2$ 的面积为 $3 sqrt(6)$，则 $a=\f i l l i n b l a n k{}$.
+已知双曲线 #mi(`\dfrac{x^2}{a^2}-\dfrac{y^2}{6-a^2}=1`)（#mi(`a>0`)） 的左，右焦点分别为 #mi(`F_{1}`)，#mi(`F_{2}`). 通过 #mi(`F_{2}`) 且倾斜角为 #mi(`\dfrac\pi3`) 的直线与双曲线交于第一象限的点 #mi(`A`)，延长 #mi(`AF_{2}`) 至 #mi(`B`) 使得 #mi(`AB=AF_{1}`). 若 #mi(`\triangle BF_{1}F_{2}`) 的面积为 #mi(`3\sqrt{6}`)，则 #mi(`a=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$sqrt(3)$])
+#answer([#mi(`\sqrt{3}`)])
 
 #solution[
-令 $b^2=6-a^2$，则焦半距 $c=sqrt(a^2+b^2)=sqrt(6)$，所以 $F_1=(-sqrt(6),0)$，$F_2=(sqrt(6),0)$. 设 $B=(x_B,y_B)$，由面积条件
-$(1)/(2)| y_B| dot 2 sqrt(6)=3 sqrt(6)$，得 $y_B=-3$. 直线 $A B$ 斜率为 $tan (pi)/(3)=sqrt(3)$，故其方程为 $y=sqrt(3)(x-sqrt(6))$，从而 $x_B=sqrt(6)-sqrt(3)$. 又双曲线定义给出 $| A F_1|-| A F_2|=2 a$，而 $A B=A F_1$，故 $B F_2=2 a$. 计算 $B F_2=sqrt((x_B-sqrt(6))^2+y_B^2)=2 sqrt(3)$，得 $a=sqrt(3)$.
+令 #mi(`b^{2}=6-a^{2}`)，则焦半距 #mi(`c=\sqrt{a^{2}+b^{2}}=\sqrt{6}`)，所以 #mi(`F_{1}=(-\sqrt{6},0)`)，#mi(`F_{2}=(\sqrt{6},0)`). 设 #mi(`B=(x_{B},y_{B})`)，由面积条件
+
+#mi(`\dfrac{1}{2}\lvert y_{B}\rvert\cdot2\sqrt{6}=3\sqrt{6}`)，得 #mi(`y_{B}=-3`). 直线 #mi(`AB`) 斜率为 #mi(`\tan\dfrac\pi3=\sqrt{3}`)，故其方程为 #mi(`y=\sqrt{3}(x-\sqrt{6})`)，从而 #mi(`x_{B}=\sqrt{6}-\sqrt{3}`). 又双曲线定义给出 #mi(`\lvert AF_{1}\rvert-\lvert AF_{2}\rvert=2a`)，而 #mi(`AB=AF_{1}`)，故 #mi(`BF_{2}=2a`). 计算 #mi(`BF_{2}=\sqrt{(x_{B}-\sqrt{6})^{2}+y_{B}^{2}}=2\sqrt{3}`)，得 #mi(`a=\sqrt{3}`).
 ]
 
 #problem(11)[
-如图，正方形 $A B C D$ 是一块边长为 $4$ 的工程用料，阴影部分是被腐蚀的区域，其余部分完好，曲线 $M N$ 为以 $A D$ 为对称轴的抛物线的一部分，且 $D M=D N=3$. 工人师傅现要从完好的部分中截取一块矩形原料 $B Q P R$，当其面积有最大值时，$A Q$ 的长为#blank(){}.
+如图，正方形 #mi(`ABCD`) 是一块边长为 #mi(`4`) 的工程用料，阴影部分是被腐蚀的区域，其余部分完好，曲线 #mi(`MN`) 为以 #mi(`AD`) 为对称轴的抛物线的一部分，且 #mi(`DM=DN=3`). 工人师傅现要从完好的部分中截取一块矩形原料 #mi(`BQPR`)，当其面积有最大值时，#mi(`AQ`) 的长为\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2025/img/shanghai_spring/q11_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2025/img/shanghai_spring/q11_fig1.png", width: 28%)]
+
 ]
 
-#answer([$(4+sqrt(7))/(3)$])
+#answer([#mi(`\dfrac{4+\sqrt{7}}{3}`)])
 
 #solution[
-以 $A$ 为原点，$A D$ 为 $y$ 轴建立直角坐标系，则 $M(0,1)$，$N(3,4)$. 设抛物线为 $y= alpha x^2+1$，由 $N$ 得 $alpha =(1)/(3)$. 令 $A Q=x$. 当 $x >= 3$ 时矩形面积不超过 $4$；当 $0<x<3$ 时，$P(x,(1)/(3)x^2+1)$，矩形面积
-$S=(4-x)((1)/(3)x^2+1)=-(1)/(3)x^3+(4)/(3)x^2-x+4$.
-$S'=-x^2+(8)/(3)x-1$，故驻点为 $x=(4\p m s q r t(7))/(3)$. 比较单调性及端点值，最大值在 $x=(4+sqrt(7))/(3)$ 处取得.
+以 #mi(`A`) 为原点，#mi(`AD`) 为 #mi(`y`) 轴建立直角坐标系，则 #mi(`M(0,1)`)，#mi(`N(3,4)`). 设抛物线为 #mi(`y=\alpha x^{2}+1`)，由 #mi(`N`) 得 #mi(`\alpha=\dfrac{1}{3}`). 令 #mi(`AQ=x`). 当 #mi(`x\ge3`) 时矩形面积不超过 #mi(`4`)；当 #mi(`0<x<3`) 时，#mi(`P\left(x,\dfrac{1}{3}x^{2}+1\right)`)，矩形面积
+
+#mi(`S=(4-x)\left(\dfrac{1}{3}x^{2}+1\right)=-\dfrac{1}{3}x^{3}+\dfrac{4}{3}x^{2}-x+4`).
+
+#mi(`S'=-x^{2}+\dfrac{8}{3}x-1`)，故驻点为 #mi(`x=\dfrac{4\pm\sqrt{7}}{3}`). 比较单调性及端点值，最大值在 #mi(`x=\dfrac{4+\sqrt{7}}{3}`) 处取得.
 ]
 
 #problem(12)[
-在平面中，$bold(e)_1$ 和 $bold(e)_2$ 是互相垂直的单位向量，向量 $bold(a)$ 满足 $|bold(a)-4 bold(e)_1|=2$，向量 $bold(b)$ 满足 $|bold(b)-6 bold(e)_2|=1$，求 $bold(b)$ 在 $bold(a)$ 方向上的数量投影的最大值#blank(){}.
+在平面中，#mi(`\mathbf{e}_{1}`) 和 #mi(`\mathbf{e}_{2}`) 是互相垂直的单位向量，向量 #mi(`\mathbf{a}`) 满足 #mi(`|\mathbf{a}-4\mathbf{e}_{1}|=2`)，向量 #mi(`\mathbf{b}`) 满足 #mi(`|\mathbf{b}-6\mathbf{e}_{2}|=1`)，求 #mi(`\mathbf{b}`) 在 #mi(`\mathbf{a}`) 方向上的数量投影的最大值\underline{\hspace{2.5em}}.
 ]
 
-#answer([$4$])
+#answer([#mi(`4`)])
 
 #solution[
-取 $bold(e)_1=(1,0)$，$bold(e)_2=(0,1)$，令 $bold(u)=(bold(a))/(|bold(a)|)$，则 $A=|bold(a)|bold(u)$ 在圆 $C_1:(x-4)^2+y^2=4$ 上. 设 $bold(u)=( cos theta , sin theta )$，直线 $O b o l d(u)$ 与 $C_1$ 有交点，故圆心到该直线的距离不超过半径，即 $| sin theta | <= (1)/(2)$. 又 $bold(b)=6 bold(e)_2+bold(v)$，其中 $|bold(v)|=1$，所以
-$bold(b)\c d o t b o l d(u)=6 sin theta +bold(v)\c d o t b o l d(u) <= 6 sin theta +1 <= 4$.
-当 $theta =(pi)/(6)$ 且 $bold(v)=bold(u)$ 时取等号，故最大值为 $4$.
+取 #mi(`\mathbf{e}_{1}=(1,0)`)，#mi(`\mathbf{e}_{2}=(0,1)`)，令 #mi(`\mathbf{u}=\frac{\mathbf{a}}{|\mathbf{a}|}`)，则 #mi(`A=|\mathbf{a}|\mathbf{u}`) 在圆 #mi(`C_{1}:(x-4)^{2}+y^{2}=4`) 上. 设 #mi(`\mathbf{u}=(\cos\theta,\sin\theta)`)，直线 #mi(`O\mathbf{u}`) 与 #mi(`C_{1}`) 有交点，故圆心到该直线的距离不超过半径，即 #mi(`|\sin\theta|\le\dfrac{1}{2}`). 又 #mi(`\mathbf{b}=6\mathbf{e}_{2}+\mathbf{v}`)，其中 #mi(`|\mathbf{v}|=1`)，所以
+
+#mi(`\mathbf{b}\cdot\mathbf{u}=6\sin\theta+\mathbf{v}\cdot\mathbf{u}\le6\sin\theta+1\le4`).
+
+当 #mi(`\theta=\dfrac\pi6`) 且 #mi(`\mathbf{v}=\mathbf{u}`) 时取等号，故最大值为 #mi(`4`).
 ]
 
 #part-header("单选题")
 
 #problem(13)[
-如图，$A B C D-A_(1) B_(1) C_(1) D_1$ 是正四棱台，则下列各组直线中属于异面直线的是（ ）.
+如图，#mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 是正四棱台，则下列各组直线中属于异面直线的是（ ）.
 
 
-#align(center)[#image("/papers/2025/img/shanghai_spring/q13_fig1.png", width: 48%)]
-  #choices([$A B$ 和 $C_(1) D_1$], [$A A_1$ 和 $CC_1$], [$B D_1$ 和 $B_(1) D$], [$A_(1) D_1$ 和 $A B$], cols: 2)
+#align(center)[#image("/papers/2025/img/shanghai_spring/q13_fig1.png", width: 28%)]
+
+  #choices([#mi(`AB`) 和 #mi(`C_{1}D_{1}`)], [#mi(`AA_{1}`) 和 #mi(`CC_{1}`)], [#mi(`BD_{1}`) 和 #mi(`B_{1}D`)], [#mi(`A_{1}D_{1}`) 和 #mi(`AB`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-$A B parallel C_(1) D_1$，选项 A 错；侧棱延长后相交，故 $A A_1$ 与 $CC_1$ 相交，选项 B 错；B，$D_1$，$B_1$，D 共面，选项 C 错. $A_(1) D_1$ 与 $A B$ 既不平行，不相交，又不共面，故选 D.
+#mi(`AB\parallel C_{1}D_{1}`)，选项 A 错；侧棱延长后相交，故 #mi(`AA_{1}`) 与 #mi(`CC_{1}`) 相交，选项 B 错；B，#mi(`D_{1}`)，#mi(`B_{1}`)，D 共面，选项 C 错. #mi(`A_{1}D_{1}`) 与 #mi(`AB`) 既不平行，不相交，又不共面，故选 D.
 ]
 
 #problem(14)[
-幂函数 $y=x^ alpha$ 在 $(0,+ oo )$ 上是严格减函数，且经过 $(-1,-1)$，则 $alpha$ 的值可能是（ ）.
-  #choices([$-(2)/(3)$], [$-(1)/(3)$], [$(1)/(3)$], [$3$], cols: 4)
+幂函数 #mi(`y=x^{\alpha}`) 在 #mi(`(0,+\infty)`) 上是严格减函数，且经过 #mi(`(-1,-1)`)，则 #mi(`\alpha`) 的值可能是（ ）.
+  #choices([#mi(`-\dfrac{2}{3}`)], [#mi(`-\dfrac{1}{3}`)], [#mi(`\dfrac{1}{3}`)], [#mi(`3`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-严格递减要求 $alpha <0$. 当 $alpha =-(2)/(3)$ 时，$(-1)^(-(2)/(3))=1$；当 $alpha =-(1)/(3)$ 时，$(-1)^(-(1)/(3))=-1$. 故选 B.
+严格递减要求 #mi(`\alpha<0`). 当 #mi(`\alpha=-\dfrac{2}{3}`) 时，#mi(`(-1)^{-\frac{2}{3}}=1`)；当 #mi(`\alpha=-\dfrac{1}{3}`) 时，#mi(`(-1)^{-\frac{1}{3}}=-1`). 故选 B.
 ]
 
 #problem(15)[
-有一四边形 $A B C D$，对其四边 $A B$，$B C$，$C D$，$D A$ 按顺序分别抛掷一枚质量均匀的硬币：如硬币正面朝上，则将其擦去；如硬币反面朝上，则不擦去. 最后，以 $A$ 为起点沿着尚未擦去的边出发，可以到达 $C$ 点的概率为（ ）.
-  #choices([$(1)/(2)$], [$(7)/(16)$], [$(1)/(4)$], [$(3)/(16)$], cols: 4)
+有一四边形 #mi(`ABCD`)，对其四边 #mi(`AB`)，#mi(`BC`)，#mi(`CD`)，#mi(`DA`) 按顺序分别抛掷一枚质量均匀的硬币：如硬币正面朝上，则将其擦去；如硬币反面朝上，则不擦去. 最后，以 #mi(`A`) 为起点沿着尚未擦去的边出发，可以到达 #mi(`C`) 点的概率为（ ）.
+  #choices([#mi(`\dfrac{1}{2}`)], [#mi(`\dfrac7{16}`)], [#mi(`\dfrac{1}{4}`)], [#mi(`\dfrac3{16}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-四条边保留或擦去共有 $2^4=16$ 种等可能结果. 保留 $A B$，$B C$ 时，$C D$，$D A$ 可任意；保留 $A D$，$D C$ 时，$A B$，$B C$ 可任意，但有一种与前者重复. 故可达情形有 $4+4-1=7$ 种，概率为 $(7)/(16)$，选 B.
+四条边保留或擦去共有 #mi(`2^{4}=16`) 种等可能结果. 保留 #mi(`AB`)，#mi(`BC`) 时，#mi(`CD`)，#mi(`DA`) 可任意；保留 #mi(`AD`)，#mi(`DC`) 时，#mi(`AB`)，#mi(`BC`) 可任意，但有一种与前者重复. 故可达情形有 #mi(`4+4-1=7`) 种，概率为 #mi(`\dfrac7{16}`)，选 B.
 ]
 
 #problem(16)[
-已知 $a in RR$，不等式 $[ tan ((pi)/(6)x)-a][ tan ((pi)/(6)x)-a-1]<0$ 在 $(0,2025)$ 中的整数解有 $m$ 个. 关于 $m$ 的个数，以下不可能的是（ ）.
-  #choices([$0$], [$338$], [$674$], [$1012$], cols: 4)
+已知 #mi(`a\in\mathbb{R}`)，不等式 #mi(`\left[\tan\left(\dfrac\pi6x\right)-a\right]\left[\tan\left(\dfrac\pi6x\right)-a-1\right]<0`) 在 #mi(`(0,2025)`) 中的整数解有 #mi(`m`) 个. 关于 #mi(`m`) 的个数，以下不可能的是（ ）.
+  #choices([#mi(`0`)], [#mi(`338`)], [#mi(`674`)], [#mi(`1012`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-不等式等价于 $a< tan ((pi)/(6)x)<a+1$. 函数周期为 $6$，且在每个周期的整数点 $0$，$1$，$2$，$4$，$5$，$6$ 上取值为 $0$，$(sqrt(3))/(3)$，$sqrt(3)$，$-sqrt(3)$，$-(sqrt(3))/(3)$，$0$. 在 $1 <= x <= 2024$ 的整数中，余数为 $0$，$4$，$5$ 的各有 $337$ 个，余数为 $1,2$ 的各有 $338$ 个，余数为 $3$ 时正切无定义. 区间 $(a,a+1)$ 至多包含上述五个函数值中的两个，因此解数至多为 $338+338=676<1012$，选 D.
+不等式等价于 #mi(`a<\tan\left(\dfrac\pi6x\right)<a+1`). 函数周期为 #mi(`6`)，且在每个周期的整数点 #mi(`0`)，#mi(`1`)，#mi(`2`)，#mi(`4`)，#mi(`5`)，#mi(`6`) 上取值为 #mi(`0`)，#mi(`\dfrac{\sqrt{3}}{3}`)，#mi(`\sqrt{3}`)，#mi(`-\sqrt{3}`)，#mi(`-\dfrac{\sqrt{3}}{3}`)，#mi(`0`). 在 #mi(`1\le x\le2024`) 的整数中，余数为 #mi(`0`)，#mi(`4`)，#mi(`5`) 的各有 #mi(`337`) 个，余数为 #mi(`1,2`) 的各有 #mi(`338`) 个，余数为 #mi(`3`) 时正切无定义. 区间 #mi(`(a,a+1)`) 至多包含上述五个函数值中的两个，因此解数至多为 #mi(`338+338=676<1012`)，选 D.
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-在三棱锥 $P-A B C$ 中，平面 $P A C bot$ 平面 $A B C$，$P A=A C=C P=2$，$A B=B C=sqrt(2)$.
+在三棱锥 #mi(`P-ABC`) 中，平面 #mi(`PAC\perp`) 平面 #mi(`ABC`)，#mi(`PA=AC=CP=2`)，#mi(`AB=BC=\sqrt{2}`).
 
 
-+ (1) 若 $O$ 是棱 $A C$ 的中点，证明：$B O bot$ 平面 $P A C$，并求三棱锥 $B-O P A$ 的体积；
-+ (2) 求二面角 $B-P C-A$ 的大小.
++ (1) 
 
 
 
 
-#align(center)[#image("/papers/2025/img/shanghai_spring/q17_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2025/img/shanghai_spring/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 连接 $B O$. 因为 $A B=B C$，且 $O$ 是 $A C$ 的中点，所以 $B O bot A C$. 又平面 $P A C bot$ 平面 $A B C$，交线为 $A C$，故 $B O bot$ 平面 $P A C$. 在等腰三角形 $P A C$ 中，$P O bot A C$，$A O=1$，故 $P O=sqrt(P A^2-A O^2)=sqrt(3)$. 在直角三角形 $A B O$ 中，$B O=sqrt(A B^2-A O^2)=1$. 因而 $V_(B-O P A)=(1)/(3) dot (1)/(2) dot O P dot A O dot B O=(sqrt(3))/(6)$.
-+ (2) 由（1）知 $B O bot O C$，$B O bot O P$，且 $O P bot O C$，所以 $O B$，$O C$，$O P$ 两两垂直. 以 $O$ 为原点，令 $B(1,0,0)$，$P(0,0,sqrt(3))$，$C(0,1,0)$，$A(0,-1,0)$. 则
-$arrow(B P)=(-1,0,sqrt(3))$，$arrow(C P)=(0,-1,sqrt(3))$. 设平面 $B P C$，$P C A$ 的法向量分别为 $bold(m)=(x,y,z)$，$bold(n)=(1,0,0)$. 由 $bold(m)\c d o t a r r o w(B P)=bold(m)\c d o t a r r o w(C P)=0$，取 $bold(m)=(sqrt(3),sqrt(3),1)$. 因而 $cos \l a n g l e b o l d(m),bold(n) chevron.r =(sqrt(3))/(sqrt(7))=\d f r a c{sqrt(21)}7$. 二面角为锐角，故其大小为 $arccos \d f r a c{sqrt(21)}7$.
++ (1)
 ]
 
 #problem(18)[
-在 $triangle A B C$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，且 $c=5$.
+在 #mi(`\triangle ABC`) 中，角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对的边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，且 #mi(`c=5`).
 
-+ (1) 若 $(a)/(4 b)=(sin B)/(sin A)$，$C=(pi)/(2)$，求 $a$；
-+ (2) 若 $a b=20$，求 $triangle A B C$ 面积的最大值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由正弦定理，$(sin B)/(sin A)=(b)/(a)$，故 $a=2 b$. 又 $C=(pi)/(2)$，所以 $a^2+b^2=25$，得 $b=sqrt(5)$，$a=2 sqrt(5)$.
-+ (2) 由余弦定理，$cos C=(a^2+b^2-25)/(40) >= (2 a b-25)/(40)=(3)/(8)$，等号当且仅当 $a=b=2 sqrt(5)$. 因而 $sin C\l e s q r t(1-((3)/(8))^2)=\d f r a c{sqrt(55)}8$，面积 $S=(1)/(2)a b sin C=10 sin C <= \d f r a c{5 sqrt(55)}4$. 最大值为 $\d f r a c{5 sqrt(55)}4$.
++ (1)
 ]
 
 #problem(19)[
 甲，乙是两个体育社团的小组，给出两组组员身高的茎叶图（单位：厘米），以身高的百位数和十位数作为“茎”排列在中间，个位数作为“叶”分列在两边.
 
-\begin{center}
-\begin{tabular}{c|c|c}
 甲 & 茎 & 乙\\
+
 \hline
- & $15$ & $9$\\
-$7$，$7$，$5$，$5$，$4$ & $16$ & $0$，$3$，$5$，$5$，$6$，$7$，$8$，$8$\\
-$8$，$5$，$4$，$3$，$2$，$2$ & $17$ & $2$\\
-$3$ & $18$ &
-\end{tabular}
-\end{center}
+
+& #mi(`15`) & #mi(`9`)\\
+
+#mi(`7`)，#mi(`7`)，#mi(`5`)，#mi(`5`)，#mi(`4`) & #mi(`16`) & #mi(`0`)，#mi(`3`)，#mi(`5`)，#mi(`5`)，#mi(`6`)，#mi(`7`)，#mi(`8`)，#mi(`8`)\\
+
+#mi(`8`)，#mi(`5`)，#mi(`4`)，#mi(`3`)，#mi(`2`)，#mi(`2`) & #mi(`17`) & #mi(`2`)\\
+
+#mi(`3`) & #mi(`18`) &
 
 
-+ (1) 分别求甲，乙两组组员身高的第 $60$ 百分位数；
-+ (2) 从甲，乙两组各选取一个组员，求两人身高均在 $170" 厘米"$ 以上的概率；
-+ (3) 为使两组人数相同，从甲组中调派一个队员到乙组. 是否存在甲组的一个组员，将他调派至乙组后，甲，乙两组的平均身高都增大？
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 甲组有 $12$ 人，$12 times 60 \%=7.2$，故第 $60$ 百分位数为从小到大排列的第 $8$ 个数 $173$. 乙组有 $10$ 人，第 $60$ 百分位数为第 $6$，第 $7$ 个数的平均值，即 $(166+167)/(2)=166.5$.
-+ (2) 甲组身高不低于 $170" 厘米"$ 的有 $7$ 人，乙组有 $1$ 人，故所求概率为 $(C_7^1 C_1^1)/(C_(12)^1 C_(10)^1)=(7)/(120)$.
-+ (3) 甲，乙两组原平均身高分别为：
-
-甲组平均身高 $\b a r x_("甲")=(167 times 2 +165 times 2 +164+178+175+174+173+172 times 2 +183)/(12)=171.25$，乙组平均身高 $\b a r x_("乙")=(159+160+163+165 times 2 +166+167+168 times 2 +172)/(10)=165.3$. 调派身高在两平均数之间的成员时，甲组去掉该成员后平均身高增大，乙组加入后平均身高也增大. 因而调派甲组中身高 $167" 厘米"$ 的成员即可.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-在平面直角坐标系中，已知曲线 $Gamma :(x^2)/(4)+y^2=1$（$y >= 0$），点 $P$，$Q$ 分别为 $Gamma$ 上不同的两点，$T(t,0)$.
-
-+ (1) 求 $Gamma$ 所在椭圆的离心率；
-+ (2) 若 $T(1,0)$，$Q$ 在 $y$ 轴上，且 $T$ 到直线 $P Q$ 的距离为 $(sqrt(5))/(5)$，求 $P$ 的坐标；
-+ (3) 是否存在 $t$，使得 $triangle T P Q$ 是以 $T$ 为直角顶点的等腰直角三角形？若存在，求 $t$ 的取值范围；若不存在，请说明理由.
+在平面直角坐标系中，已知曲线 #mi(`\Gamma:\dfrac{x^2}{4}+y^{2}=1`)（#mi(`y\ge0`)），点 #mi(`P`)，#mi(`Q`) 分别为 #mi(`\Gamma`) 上不同的两点，#mi(`T(t,0)`).
 
 
++ (1) 
++ (2) 
 
-#align(center)[#image("/papers/2025/img/shanghai_spring/q20_fig1.png", width: 42%)]
+
+
+
+#align(center)[#image("/papers/2025/img/shanghai_spring/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 椭圆长半轴 $a=2$，短半轴 $b=1$，焦半距 $c=sqrt(3)$，故离心率 $e=(sqrt(3))/(2)$.
-+ (2) 由 $Q$ 在 $y$ 轴上且在上半椭圆上知 $Q=(0,1)$. 设直线 $P Q$ 为 $y=n x+1$. 由点到直线距离公式，$(|n+1|)/(sqrt(1+n^2))=(sqrt(5))/(5)$，得 $n=-(1)/(2)$ 或 $n=-2$. 当 $n=-(1)/(2)$ 时，与椭圆联立得交点 $(0,1)$，$(2,0)$；当 $n=-2$ 时另一交点不在上半椭圆. 故 $P=(2,0)$.
-+ (3) 设 $P Q:y=k x+m$，与椭圆联立. 由判别式得 $sqrt(4 k^2+1)>m>2|k| >= 0$. 当 $k=0$ 时由对称性得到 $t=0$. 当 $k != 0$ 时，弦中点为 $A(-(4 k m)/(1+4 k^2),(m)/(1+4 k^2))$，且 $T A bot P Q$ 要求 $t=-(3 k m)/(1+4 k^2)$. 再由 $arrow(T P)\c d o t a r r o w(T Q)=0$ 得 $t^2=(9 k^(2) m^2)/((1+4 k^2)^2)$，化简为 $m^2=(4)/(5)(4 k^2+1)$，从而 $0<k^2 <= 1$ 且 $t^2 <= (36)/(25)$. 合并 $k=0$ 情形，得 $t in [-(6)/(5),(6)/(5)]$.
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-已知函数 $y=f(x)$ 的定义域是 $D$. 对于 $t in D$，定义集合 $S_f(t)=\{x | f(x) >= f(t)\}$.
+已知函数 #mi(`y=f(x)`) 的定义域是 #mi(`D`). 对于 #mi(`t\in D`)，定义集合 #mi(`S_{f}(t)=\{x\mid f(x)\ge f(t)\}`).
 
-+ (1) $f(x)= log _(2) x$，求 $S_f(16)$；
-+ (2) 对于集合 $A$，若对任意 $x in A$ 都有 $-x in A$，则称 $A$ 是对称集. 若 $D$ 是对称集，证明：“函数 $y=f(x)$ 是偶函数”的充要条件是“对任意 $t in D$，$S_f(t)$ 是对称集”；
-+ (3) 若 $x in RR$，$f(x)= e ""^x-(1)/(2)m x^2$. 求 $m$ 的取值范围，使得对于任意 $t_1<t_2 in D$，都有 $S_f(t_2) subset.eq S_f(t_1)$.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) $S_f(16)=\{x | log _(2) x >= 4 \}=\{x | x >= 16 \}=[16,+ oo )$.
-+ (2) 若 $f$ 为偶函数，则 $x in S_f(t) => f(-x)=f(x) >= f(t)$，故 $-x in S_f(t)$，每个 $S_f(t)$ 都是对称集. 反之，任取 $t in D$. 由 $t in S_f(t)$ 及对称性知 $-t in S_f(t)$，故 $f(-t) >= f(t)$. 再将 $t$ 换为 $-t$，得 $f(t) >= f(-t)$. 因而 $f(t)=f(-t)$，即 $f$ 为偶函数.
-+ (3) 条件等价于 $f$ 在 $RR$ 上单调不减，故需 $f'(x)= e ""^x-m x >= 0$ 对任意 $x$ 成立. 当 $x>0$ 时要求 $m <= (e ""^x)/(x)$，而 $(e ""^x)/(x)$ 在 $(0,1)$ 上递减，在 $(1,+ oo )$ 上递增，最小值为 $e$，故 $m <= e$. 当 $x<0$ 时要求 $m >= (e ""^x)/(x)$，右端趋于 $- oo$，故只需 $m >= 0$. 综上 $m in [0, e ]$.
++ (1) 
++ (2)
 ]
 

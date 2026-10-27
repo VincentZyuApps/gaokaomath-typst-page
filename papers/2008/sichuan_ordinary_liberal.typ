@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,272 +11,257 @@
 #part-header("单选题")
 
 #problem(1)[
-设集合 $U = \{1, 2, 3, 4, 5\}$，$A = \{1, 2, 3\}$，$B = \{2, 3, 4\}$，则 $\c o m p l e m e n t_U(A inter B) =$（ ）
-  #choices([$\{2, 3\}$], [$\{1, 4, 5\}$], [$\{4, 5\}$], [$\{1, 5\}$], cols: 4)
+设集合 #mi(`U = \{1, 2, 3, 4, 5\}`)，#mi(`A = \{1, 2, 3\}`)，#mi(`B = \{2, 3, 4\}`)，则 #mi(`\complement_{U}(A \cap B) =`)（ ）
+  #choices([#mi(`\{2, 3\}`)], [#mi(`\{1, 4, 5\}`)], [#mi(`\{4, 5\}`)], [#mi(`\{1, 5\}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由 $A inter B=\{2,3\}$，直接取全集 $U$ 中除去 $2$，$3$ 之外的元素，得 $\c o m p l e m e n t_U(A inter B)=\{1,4,5\}$. 故选 B.
+由 #mi(`A\cap B=\{2,3\}`)，直接取全集 #mi(`U`) 中除去 #mi(`2`)，#mi(`3`) 之外的元素，得 #mi(`\complement_{U}(A\cap B)=\{1,4,5\}`). 故选 B.
 ]
 
 #problem(2)[
-函数 $y = ln (2 x + 1)$（$x > -(1)/(2)$）的反函数是（ ）
-  #choices([$y = (1)/(2) e ""^(x) - 1$（$x in RR$）], [$y = e ""^(2 x) - 1$（$x in RR$）], [$y = (1)/(2)( e ""^(x) - 1)$（$x in RR$）], [$y = e ""^((x)/(2)) - 1$（$x in RR$）], cols: 1)
+函数 #mi(`y = \ln(2x + 1)`)（#mi(`x > -\frac{1}{2}`)）的反函数是（ ）
+  #choices([#mi(`y = \frac{1}{2}\mathrm{e}^{x}- 1`)（#mi(`x \in \mathbb{R}`)）], [#mi(`y = \mathrm{e}^{2x}- 1`)（#mi(`x \in \mathbb{R}`)）], [#mi(`y = \frac{1}{2}(\mathrm{e}^{x}- 1)`)（#mi(`x \in \mathbb{R}`)）], [#mi(`y = \mathrm{e}^{\frac{x}{2}}- 1`)（#mi(`x \in \mathbb{R}`)）], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-设原函数的反函数为 $y=g(x)$. 由 $y= ln (2 x+1)$，得 $e ""^(y)=2 x+1$，从而 $x=(e ""^(y)-1)/(2)$. 交换 $x$，$y$ 后，反函数为 $y=(1)/(2)( e ""^(x)-1)$. 原函数的值域为 $RR$，所以反函数的定义域为 $x in RR$. 故选 C.
+设原函数的反函数为 #mi(`y=g(x)`). 由 #mi(`y=\ln(2x+1)`)，得 #mi(`\mathrm{e}^{y}=2x+1`)，从而 #mi(`x=\frac{\mathrm{e}^{y}-1}{2}`). 交换 #mi(`x`)，#mi(`y`) 后，反函数为 #mi(`y=\frac{1}{2}(\mathrm{e}^{x}-1)`). 原函数的值域为 #mi(`\mathbb{R}`)，所以反函数的定义域为 #mi(`x\in\mathbb{R}`). 故选 C.
 ]
 
 #problem(3)[
-设平面向量 $bold(a)= (3, 5)$，$bold(b)= (-2, 1)$，则 $bold(a)- 2 bold(b)=$（ ）
-  #choices([$(7, 3)$], [$(7, 7)$], [$(1, 7)$], [$(1, 3)$], cols: 4)
+设平面向量 #mi(`\mathbf{a}= (3, 5)`)，#mi(`\mathbf{b}= (-2, 1)`)，则 #mi(`\mathbf{a}- 2\mathbf{b}=`)（ ）
+  #choices([#mi(`(7, 3)`)], [#mi(`(7, 7)`)], [#mi(`(1, 7)`)], [#mi(`(1, 3)`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-$bold(a)-2 bold(b)=(3,5)-2(-2,1)=(3,5)-(-4,2)=(7,3)$. 故选 A.
+#mi(`\mathbf{a}-2\mathbf{b}=\left(3,5\right)-2\left(-2,1\right)=\left(3,5\right)-\left(-4,2\right)=\left(7,3\right)`). 故选 A.
 ]
 
 #problem(4)[
-$( tan x + cot x) cos ""^(2)x =$（ ）
-  #choices([$tan x$], [$sin x$], [$cos x$], [$cot x$], cols: 4)
+#mi(`(\tan x + \cot x)\cos^{2}x =`)（ ）
+  #choices([#mi(`\tan x`)], [#mi(`\sin x`)], [#mi(`\cos x`)], [#mi(`\cot x`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-在表达式有意义的范围内，$sin x != 0$，$cos x != 0$. 因而
-$( tan x+ cot x) cos ""^(2)x=((sin x)/(cos x)+(cos x)/(sin x)) cos ""^(2)x=(sin ""^(2){x}+ cos ""^(2)x)/(sin x) cos x= cot x$. 故选 D.
+在表达式有意义的范围内，#mi(`\sin x\ne0`)，#mi(`\cos x\ne0`). 因而
+
+#mi(`(\tan x+\cot x)\cos^{2}x=\left(\frac{\sin x}{\cos x}+\frac{\cos x}{\sin x}\right)\cos^{2}x=\frac{\sin^{2}x+\cos^{2}x}{\sin x}\cos x=\cot x`). 故选 D.
 ]
 
 #problem(5)[
-不等式 $|x^(2) - x| < 2$ 的解集为（ ）
-  #choices([$(-1, 2)$], [$(-1, 1)$], [$(-2, 1)$], [$(-2, 2)$], cols: 4)
+不等式 #mi(`|x^{2}- x| < 2`) 的解集为（ ）
+  #choices([#mi(`(-1, 2)`)], [#mi(`(-1, 1)`)], [#mi(`(-2, 1)`)], [#mi(`(-2, 2)`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-由 $| x^(2)-x|<2$，得 $-2<x^(2)-x<2$. 其中
-$x^(2)-x>-2$ 等价于 $x^(2)-x+2=(x-(1)/(2))^(2)+(7)/(4)>0$，恒成立；而 $x^(2)-x<2$ 等价于 $x^(2)-x-2<0$，即 $(x-2)(x+1)<0$，所以 $-1<x<2$. 故选 A.
+由 #mi(`\left\lvert x^{2}-x\right\rvert<2`)，得 #mi(`-2<x^{2}-x<2`). 其中
+
+#mi(`x^{2}-x>-2`) 等价于 #mi(`x^{2}-x+2=\left(x-\frac{1}{2}\right)^{2}+\frac{7}{4}>0`)，恒成立；而 #mi(`x^{2}-x<2`) 等价于 #mi(`x^{2}-x-2<0`)，即 #mi(`(x-2)(x+1)<0`)，所以 #mi(`-1<x<2`). 故选 A.
 ]
 
 #problem(6)[
-直线 $y = 3 x$ 绕原点逆时针旋转 $90^( degree )$，再向右平移 $1$ 个单位，所得到的直线为（ ）
-  #choices([$y = -(1)/(3)x + (1)/(3)$], [$y = -(1)/(3)x + 1$], [$y = 3 x - 3$], [$y = 3 x + 1$], cols: 2)
+直线 #mi(`y = 3x`) 绕原点逆时针旋转 #mi(`90^{\circ}`)，再向右平移 #mi(`1`) 个单位，所得到的直线为（ ）
+  #choices([#mi(`y = -\frac{1}{3}x + \frac{1}{3}`)], [#mi(`y = -\frac{1}{3}x + 1`)], [#mi(`y = 3x - 3`)], [#mi(`y = 3x + 1`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-取原直线上一点 $(t,3 t)$. 绕原点逆时针旋转 $90^( degree )$ 后变为 $(-3 t,t)$，故旋转后的直线满足 $Y=-(1)/(3)X$. 再向右平移 $1$ 个单位，令 $x=X+1$，$y=Y$，得 $y=-(1)/(3)(x-1)=-(1)/(3)x+(1)/(3)$. 故选 A.
+取原直线上一点 #mi(`\left(t,3t\right)`). 绕原点逆时针旋转 #mi(`90^{\circ}`) 后变为 #mi(`\left(-3t,t\right)`)，故旋转后的直线满足 #mi(`Y=-\frac{1}{3}X`). 再向右平移 #mi(`1`) 个单位，令 #mi(`x=X+1`)，#mi(`y=Y`)，得 #mi(`y=-\frac{1}{3}(x-1)=-\frac{1}{3}x+\frac{1}{3}`). 故选 A.
 ]
 
 #problem(7)[
-$triangle A B C$ 的三个内角 $A$，$B$，$C$ 的对边边长分别是 $a$，$b$，$c$. 若 $a = (sqrt(5))/(2)b$，$A = 2 B$，则 $cos B =$（ ）
-  #choices([$(sqrt(5))/(3)$], [$(sqrt(5))/(4)$], [$(sqrt(5))/(5)$], [$(sqrt(5))/(6)$], cols: 4)
+#mi(`\triangle ABC`) 的三个内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 的对边边长分别是 #mi(`a`)，#mi(`b`)，#mi(`c`). 若 #mi(`a = \frac{\sqrt{5}}{2}b`)，#mi(`A = 2B`)，则 #mi(`\cos B =`)（ ）
+  #choices([#mi(`\frac{\sqrt{5}}{3}`)], [#mi(`\frac{\sqrt{5}}{4}`)], [#mi(`\frac{\sqrt{5}}{5}`)], [#mi(`\frac{\sqrt{5}}{6}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由正弦定理，$(a)/(b)=(sin A)/(sin B)=(sin 2 B)/(sin B)=2 cos B$. 结合 $a=(sqrt(5))/(2)b$，得 $2 cos B=(sqrt(5))/(2)$，所以 $cos B=(sqrt(5))/(4)$. 故选 B.
+由正弦定理，#mi(`\frac{a}{b}=\frac{\sin A}{\sin B}=\frac{\sin 2B}{\sin B}=2\cos B`). 结合 #mi(`a=\frac{\sqrt{5}}{2}b`)，得 #mi(`2\cos B=\frac{\sqrt{5}}{2}`)，所以 #mi(`\cos B=\frac{\sqrt{5}}{4}`). 故选 B.
 ]
 
 #problem(8)[
-设 $M$ 是球 $O$ 的半径 $O P$ 的中点，分别过 $M$，$O$ 作垂直于 $O P$ 的平面，截球面得到两个圆，则这两个圆的面积比值为（ ）
-  #choices([$(1)/(4)$], [$(1)/(2)$], [$(2)/(3)$], [$(3)/(4)$], cols: 4)
+设 #mi(`M`) 是球 #mi(`O`) 的半径 #mi(`OP`) 的中点，分别过 #mi(`M`)，#mi(`O`) 作垂直于 #mi(`OP`) 的平面，截球面得到两个圆，则这两个圆的面积比值为（ ）
+  #choices([#mi(`\frac{1}{4}`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{2}{3}`)], [#mi(`\frac{3}{4}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-设球的半径为 $R$. 过球心 $O$ 的截面圆半径为 $R$，面积为 $S_O= pi R^(2)$. 由于 $M$ 是 $O P$ 的中点，$O M=(R)/(2)$，过 $M$ 的截面圆半径 $r$ 满足 $r^(2)=R^(2)-O M^(2)=R^(2)-(R^(2))/(4)=(3)/(4)R^(2)$. 因而 $S_M=(3)/(4) pi R^(2)$，所以两个圆的面积比为 $(S_M)/(S_O)=(3)/(4)$. 故选 D.
+设球的半径为 #mi(`R`). 过球心 #mi(`O`) 的截面圆半径为 #mi(`R`)，面积为 #mi(`S_{O}=\pi R^{2}`). 由于 #mi(`M`) 是 #mi(`OP`) 的中点，#mi(`OM=\frac{R}{2}`)，过 #mi(`M`) 的截面圆半径 #mi(`r`) 满足 #mi(`r^{2}=R^{2}-OM^{2}=R^{2}-\frac{R^{2}}{4}=\frac{3}{4}R^{2}`). 因而 #mi(`S_{M}=\frac{3}{4}\pi R^{2}`)，所以两个圆的面积比为 #mi(`\frac{S_{M}}{S_{O}}=\frac{3}{4}`). 故选 D.
 ]
 
 #problem(9)[
-设定义在 $RR$ 上的函数 $f(x)$ 满足 $f(x) dot f(x + 2) = 13$，若 $f(1) = 2$，则 $f(99) =$（ ）
-  #choices([$13$], [$2$], [$(13)/(2)$], [$(2)/(13)$], cols: 4)
+设定义在 #mi(`\mathbb{R}`) 上的函数 #mi(`f(x)`) 满足 #mi(`f(x) \cdot f(x + 2) = 13`)，若 #mi(`f(1) = 2`)，则 #mi(`f(99) =`)（ ）
+  #choices([#mi(`13`)], [#mi(`2`)], [#mi(`\frac{13}{2}`)], [#mi(`\frac{2}{13}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-由 $f(x)f(x+2)=13$，知 $f(x) != 0$，且 $f(x+2)=(13)/(f(x))$. 再将 $x$ 换成 $x+2$，得 $f(x+4)=(13)/(f(x+2))=f(x)$，所以 $f$ 以 $4$ 为一个周期. 因为 $99=1+4 times 24 +2$，故 $f(99)=f(3)=(13)/(f(1))=(13)/(2)$. 故选 C.
+由 #mi(`f(x)f(x+2)=13`)，知 #mi(`f(x)\ne0`)，且 #mi(`f(x+2)=\frac{13}{f(x)}`). 再将 #mi(`x`) 换成 #mi(`x+2`)，得 #mi(`f(x+4)=\frac{13}{f(x+2)}=f(x)`)，所以 #mi(`f`) 以 #mi(`4`) 为一个周期. 因为 #mi(`99=1+4\times24+2`)，故 #mi(`f(99)=f(3)=\frac{13}{f(1)}=\frac{13}{2}`). 故选 C.
 ]
 
 #problem(10)[
-设直线 $l subset$ 平面 $alpha$，过平面 $alpha$ 外一点 $A$ 与 $l$，$alpha$ 都成 $30^( degree )$ 角的直线有且只有（ ）
-  #choices([$1$ 条], [$2$ 条], [$3$ 条], [$4$ 条], cols: 4)
+设直线 #mi(`l \subset`) 平面 #mi(`\alpha`)，过平面 #mi(`\alpha`) 外一点 #mi(`A`) 与 #mi(`l`)，#mi(`\alpha`) 都成 #mi(`30^{\circ}`) 角的直线有且只有（ ）
+  #choices([#mi(`1`) 条], [#mi(`2`) 条], [#mi(`3`) 条], [#mi(`4`) 条], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-取单位方向向量 $bold(u)=(u_(1),u_(2),u_(3))$，其中 $u_(3)$ 沿平面 $alpha$ 的法向，且取 $l$ 的方向为第一个坐标轴. 直线与平面 $alpha$ 成 $30^( degree )$ 角，故 $| u_(3)|= sin 30 ""^( degree )=(1)/(2)$；直线与 $l$ 成 $30^( degree )$ 角，故 $| u_(1)|= cos 30 ""^( degree )=(sqrt(3))/(2)$. 由 $u_(1)^(2)+u_(2)^(2)+u_(3)^(2)=1$，得 $u_(2)=0$. 取 $u_(1)>0$ 消去方向相反的重复表示后，$u_(3)=(1)/(2)$ 或 $u_(3)=-(1)/(2)$，对应两条不同的直线. 故选 B.
+取单位方向向量 #mi(`\mathbf{u}=\left(u_{1},u_{2},u_{3}\right)`)，其中 #mi(`u_{3}`) 沿平面 #mi(`\alpha`) 的法向，且取 #mi(`l`) 的方向为第一个坐标轴. 直线与平面 #mi(`\alpha`) 成 #mi(`30^{\circ}`) 角，故 #mi(`\lvert u_{3}\rvert=\sin30^{\circ}=\frac{1}{2}`)；直线与 #mi(`l`) 成 #mi(`30^{\circ}`) 角，故 #mi(`\lvert u_{1}\rvert=\cos30^{\circ}=\frac{\sqrt{3}}{2}`). 由 #mi(`u_{1}^{2}+u_{2}^{2}+u_{3}^{2}=1`)，得 #mi(`u_{2}=0`). 取 #mi(`u_{1}>0`) 消去方向相反的重复表示后，#mi(`u_{3}=\frac{1}{2}`) 或 #mi(`u_{3}=-\frac{1}{2}`)，对应两条不同的直线. 故选 B.
 ]
 
 #problem(11)[
-已知双曲线 $C: (x^(2))/(9)- (y^(2))/(16)= 1$ 的左，右焦点分别为 $F_(1)$，$F_(2)$，$P$ 为 $C$ 的右支上一点，且 $|P F_(2)| = |F_(1)F_(2)|$，则 $triangle P F_(1)F_(2)$ 的面积等于（ ）
-  #choices([$24$], [$36$], [$48$], [$96$], cols: 4)
+已知双曲线 #mi(`C: \frac{x^{2}}{9}- \frac{y^{2}}{16}= 1`) 的左，右焦点分别为 #mi(`F_{1}`)，#mi(`F_{2}`)，#mi(`P`) 为 #mi(`C`) 的右支上一点，且 #mi(`|PF_{2}| = |F_{1}F_{2}|`)，则 #mi(`\triangle PF_{1}F_{2}`) 的面积等于（ ）
+  #choices([#mi(`24`)], [#mi(`36`)], [#mi(`48`)], [#mi(`96`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-双曲线的半长轴、半短轴分别为 $a=3$，$b=4$，故半焦距 $c=sqrt(a^(2)+b^(2))=5$，从而 $F_(1)F_(2)=2 c=10$. $P$ 在右支上，满足 $P F_(1)-P F_(2)=2 a=6$；结合 $P F_(2)=10$，得 $P F_(1)=16$. 于是三角形 $P F_(1)F_(2)$ 的三边为 $16$，$10$，$10$，半周长为 $18$. 由海伦公式，面积为 $sqrt(18 times 2 times 8 times 8)=48$. 故选 C.
+双曲线的半长轴、半短轴分别为 #mi(`a=3`)，#mi(`b=4`)，故半焦距 #mi(`c=\sqrt{a^{2}+b^{2}}=5`)，从而 #mi(`F_{1}F_{2}=2c=10`). #mi(`P`) 在右支上，满足 #mi(`PF_{1}-PF_{2}=2a=6`)；结合 #mi(`PF_{2}=10`)，得 #mi(`PF_{1}=16`). 于是三角形 #mi(`PF_{1}F_{2}`) 的三边为 #mi(`16`)，#mi(`10`)，#mi(`10`)，半周长为 #mi(`18`). 由海伦公式，面积为 #mi(`\sqrt{18\times2\times8\times8}=48`). 故选 C.
 ]
 
 #problem(12)[
-若三棱柱的一个侧面是边长为 $2$ 的正方形，另外两个侧面都是有一个内角为 $60^( degree )$ 的菱形，则该棱柱的体积为（ ）
-  #choices([$sqrt(2)$], [$2 sqrt(2)$], [$3 sqrt(2)$], [$4 sqrt(2)$], cols: 4)
+若三棱柱的一个侧面是边长为 #mi(`2`) 的正方形，另外两个侧面都是有一个内角为 #mi(`60^{\circ}`) 的菱形，则该棱柱的体积为（ ）
+  #choices([#mi(`\sqrt{2}`)], [#mi(`2\sqrt{2}`)], [#mi(`3\sqrt{2}`)], [#mi(`4\sqrt{2}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-设三棱柱为 $A B C-A_(1)B_(1)C_(1)$，令 $bold(v)=arrow(A A_(1))$. 一个侧面为边长 $2$ 的正方形，取其底边为 $A B$，则 $| A B|=\l v e r t b o l d(v)|=2$，且 $bold(v) bot A B$. 另外两个侧面为菱形，所以 $| A C|=| B C|=2$. 因而底面三角形 $A B C$ 为边长 $2$ 的正三角形，面积为 $sqrt(3)$.
+设三棱柱为 #mi(`ABC-A_{1}B_{1}C_{1}`)，令 #mi(`\mathbf{v}=\overrightarrow{AA_{1}}`). 一个侧面为边长 #mi(`2`) 的正方形，取其底边为 #mi(`AB`)，则 #mi(`\lvert AB\rvert=\lvert\mathbf{v}\rvert=2`)，且 #mi(`\mathbf{v}\perp AB`). 另外两个侧面为菱形，所以 #mi(`\lvert AC\rvert=\lvert BC\rvert=2`). 因而底面三角形 #mi(`ABC`) 为边长 #mi(`2`) 的正三角形，面积为 #mi(`\sqrt{3}`).
 
-在底面内取坐标 $A=(0,0,0)$，$B=(2,0,0)$，$C=(1,sqrt(3),0)$，设 $bold(v)=(0,u,w)$. 由于侧面菱形有一个内角为 $60^( degree )$，$\l v e r t b o l d(v)\c d o t a r r o w(A C)|=\l v e r t b o l d(v)|\l v e r t a r r o w(A C)| cos 60 ""^( degree )=2$，所以 $| u\r v e r t s q r t(3)=2$，即 $u^(2)=(4)/(3)$. 又 $\l v e r t b o l d(v)|^(2)=4$，得 $w^(2)=4-(4)/(3)=(8)/(3)$. 棱柱的高为 $| w|=2 sqrt((2)/(3))$，故体积为 $sqrt(3) dot 2 sqrt((2)/(3))=2 sqrt(2)$. 故选 B.
+在底面内取坐标 #mi(`A=(0,0,0)`)，#mi(`B=(2,0,0)`)，#mi(`C=(1,\sqrt{3},0)`)，设 #mi(`\mathbf{v}=(0,u,w)`). 由于侧面菱形有一个内角为 #mi(`60^{\circ}`)，#mi(`\lvert\mathbf{v}\cdot\overrightarrow{AC}\rvert=\lvert\mathbf{v}\rvert\lvert\overrightarrow{AC}\rvert\cos60^{\circ}=2`)，所以 #mi(`\lvert u\rvert\sqrt{3}=2`)，即 #mi(`u^{2}=\frac{4}{3}`). 又 #mi(`\lvert\mathbf{v}\rvert^{2}=4`)，得 #mi(`w^{2}=4-\frac{4}{3}=\frac{8}{3}`). 棱柱的高为 #mi(`\lvert w\rvert=2\sqrt{\frac{2}{3}}`)，故体积为 #mi(`\sqrt{3}\cdot2\sqrt{\frac{2}{3}}=2\sqrt{2}`). 故选 B.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-$(1 + 2 x)^(3)(1 - x)^(4)$ 展开式中 $x$ 的系数为#blank(){}.
+#mi(`(1 + 2x)^{3}(1 - x)^{4}`) 展开式中 #mi(`x`) 的系数为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-要得到 $x$ 项，只有两种取法：从 $(1+2 x)^(3)$ 取一次 $x$，从 $(1-x)^(4)$ 取常数；或从前者取常数，从后者取一次 $x$. 因此 $x$ 的系数为 $C_(3)^(1) dot 2 +C_(4)^(1) dot (-1)=6-4=2$.
+要得到 #mi(`x`) 项，只有两种取法：从 #mi(`(1+2x)^{3}`) 取一次 #mi(`x`)，从 #mi(`(1-x)^{4}`) 取常数；或从前者取常数，从后者取一次 #mi(`x`). 因此 #mi(`x`) 的系数为 #mi(`\mathrm{C}_{3}^{1}\cdot2+\mathrm{C}_{4}^{1}\cdot(-1)=6-4=2`).
 ]
 
 #problem(14)[
-已知直线 $l: x - y + 4 = 0$ 与圆 $C: (x - 1)^(2) + (y - 1)^(2) = 2$，则 $C$ 上各点到 $l$ 的距离的最小值为#blank(){}.
+已知直线 #mi(`l: x - y + 4 = 0`) 与圆 #mi(`C: (x - 1)^{2}+ (y - 1)^{2}= 2`)，则 #mi(`C`) 上各点到 #mi(`l`) 的距离的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$sqrt(2)$])
+#answer([#mi(`\sqrt{2}`)])
 
 #solution[
-圆心为 $O=(1,1)$，半径为 $r=sqrt(2)$. 圆心到直线 $l$ 的距离为 $d=(\l v e r t1-1+4|)/(sqrt(1^(2)+(-1)^(2)))=2 sqrt(2)$. 因为 $d>r$，圆上各点到直线的最小距离等于 $d-r=2 sqrt(2)-sqrt(2)=sqrt(2)$.
+圆心为 #mi(`O=\left(1,1\right)`)，半径为 #mi(`r=\sqrt{2}`). 圆心到直线 #mi(`l`) 的距离为 #mi(`d=\frac{\lvert1-1+4\rvert}{\sqrt{1^{2}+(-1)^{2}}}=2\sqrt{2}`). 因为 #mi(`d>r`)，圆上各点到直线的最小距离等于 #mi(`d-r=2\sqrt{2}-\sqrt{2}=\sqrt{2}`).
 ]
 
 #problem(15)[
-从甲，乙等 $10$ 名同学中挑选 $4$ 名参加某项公益活动，要求甲，乙中至少有 $1$ 人参加，则不同的挑选方法有#blank(){}种.
+从甲，乙等 #mi(`10`) 名同学中挑选 #mi(`4`) 名参加某项公益活动，要求甲，乙中至少有 #mi(`1`) 人参加，则不同的挑选方法有\underline{\hspace{2.5em}}种.
 ]
 
-#answer([$140$])
+#answer([#mi(`140`)])
 
 #solution[
-从 $10$ 名同学中任选四人的方法数为 $C_(10)^(4)$. 不满足条件的情形是甲、乙都不参加，此时从其余 $8$ 人中选 $4$ 人，有 $C_(8)^(4)$ 种. 所求方法数为 $C_(10)^(4)-C_(8)^(4)=210-70=140$ 种.
+从 #mi(`10`) 名同学中任选四人的方法数为 #mi(`\mathrm{C}_{10}^{4}`). 不满足条件的情形是甲、乙都不参加，此时从其余 #mi(`8`) 人中选 #mi(`4`) 人，有 #mi(`\mathrm{C}_{8}^{4}`) 种. 所求方法数为 #mi(`\mathrm{C}_{10}^{4}-\mathrm{C}_{8}^{4}=210-70=140`) 种.
 ]
 
 #problem(16)[
-设数列 $\{a_(n)\}$ 中，$a_(1) = 2$，$a_(n+1) = a_(n) + n + 1$，则通项 $a_(n) =$#blank(){}.
+设数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{1}= 2`)，#mi(`a_{n+1}= a_{n}+ n + 1`)，则通项 #mi(`a_{n}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(n^(2) + n + 2)/(2)$])
+#answer([#mi(`\frac{n^{2}+ n + 2}{2}`)])
 
 #solution[
-由递推式逐项相加，得 $a_(n)=a_(1)+sum_(k=1)^(n-1)(k+1)=2+(n(n-1))/(2)+n-1=(n^(2)+n+2)/(2)$.
+由递推式逐项相加，得 #mi(`a_{n}=a_{1}+\sum_{k=1}^{n-1}(k+1)=2+\frac{n(n-1)}{2}+n-1=\frac{n^{2}+n+2}{2}`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-求函数 $y = 7 - 4 sin x cos x + 4 cos ""^(2)x - 4 cos ""^(4)x$ 的最大值与最小值.
+求函数 #mi(`y = 7 - 4\sin x\cos x + 4\cos^{2}x - 4\cos^{4}x`) 的最大值与最小值.
 ]
 
 #solution[
-令 $t= sin x cos x$. 由 $t=(1)/(2) sin 2 x$，得 $-(1)/(2) <= t <= (1)/(2)$. 又 $4 cos ""^(2)x-4 cos ""^(4)x=4 sin ""^(2)x cos ""^(2)x=4 t^(2)$，所以 $y=4 t^(2)-4 t+7=4(t-(1)/(2))^(2)+6$. 当 $t=(1)/(2)$ 时，$y$ 取得最小值 $6$；当 $t=-(1)/(2)$ 时，$y$ 取得最大值 $10$. 因此最大值为 $10$，最小值为 $6$.
+令 #mi(`t=\sin x\cos x`). 由 #mi(`t=\frac{1}{2}\sin 2x`)，得 #mi(`-\frac{1}{2}\le t\le\frac{1}{2}`). 又 #mi(`4\cos^{2}x-4\cos^{4}x=4\sin^{2}x\cos^{2}x=4t^{2}`)，所以 #mi(`y=4t^{2}-4t+7=4\left(t-\frac{1}{2}\right)^{2}+6`). 当 #mi(`t=\frac{1}{2}`) 时，#mi(`y`) 取得最小值 #mi(`6`)；当 #mi(`t=-\frac{1}{2}`) 时，#mi(`y`) 取得最大值 #mi(`10`). 因此最大值为 #mi(`10`)，最小值为 #mi(`6`).
 ]
 
 #problem(18)[
-设进入某商场的每一位顾客购买甲种商品的概率为 $0.5$，购买乙种商品的概率为 $0.6$，且购买甲种商品与购买乙种商品相互独立，各顾客之间购买商品也相互独立.
+设进入某商场的每一位顾客购买甲种商品的概率为 #mi(`0.5`)，购买乙种商品的概率为 #mi(`0.6`)，且购买甲种商品与购买乙种商品相互独立，各顾客之间购买商品也相互独立.
 
 
-+ (1) 求进入商场的 $1$ 位顾客购买甲、乙两种商品中的一种的概率；
-+ (2) 求进入该商场的 $3$ 位顾客中，至少有 $2$ 位顾客既未购买甲种也未购买乙种商品的概率.
++ (1)
 ]
 
 #solution[
-+ (1) 设顾客购买甲、乙两种商品分别为事件 $A$，$B$. 因为 $A$，$B$ 相互独立，所以购买甲、乙两种商品中的一种的概率为 $P(A o v e r l i n e(B))+P(overline(A)B)=0.5 times 0 .4+0.5 times 0 .6=0.5$.
-+ (2) 一位顾客既未购买甲种商品也未购买乙种商品的概率为 $P(overline(A)\c a p o v e r l i n e(B))=0.5 times 0 .4=0.2$. 设进入商场的 $3$ 位顾客中既未购买甲种商品也未购买乙种商品的人数为 $X$，则 $X tilde B(3,0.2)$. 因此至少有 $2$ 位顾客既未购买甲种商品也未购买乙种商品的概率为 $P(X >= 2 )=C_3^2(0.2)^(2)(0.8)+(0.2)^(3)=0.104$.
++ (1)
 ]
 
 #problem(19)[
-如图，平面 $A B E F bot$ 平面 $A B C D$，四边形 $A B E F$ 与 $A B C D$ 都是直角梯形，$angle B A D = angle F A B = 90^( degree )$，$arrow(B C)=(1)/(2)arrow(A D)$，$arrow(B E)=(1)/(2)arrow(A F)$，$G$，$H$ 分别是 $F A$，$F D$ 的中点.
+如图，平面 #mi(`ABEF \perp`) 平面 #mi(`ABCD`)，四边形 #mi(`ABEF`) 与 #mi(`ABCD`) 都是直角梯形，#mi(`\angle BAD = \angle FAB = 90^{\circ}`)，#mi(`\overrightarrow{BC}=\frac{1}{2}\overrightarrow{AD}`)，#mi(`\overrightarrow{BE}=\frac{1}{2}\overrightarrow{AF}`)，#mi(`G`)，#mi(`H`) 分别是 #mi(`FA`)，#mi(`FD`) 的中点.
 
 
-+ (1) 证明：四边形 $B C H G$ 是平行四边形；
-+ (2) $C$，$D$，$E$，$F$ 四点是否共面？为什么？
-+ (3) 设 $A B = B E$. 证明：平面 $A D E bot$ 平面 $C D E$.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2008/img/sichuan_ordinary_liberal/q19_fig1.png", width: 52%)]
+
+#align(center)[#image("/papers/2008/img/sichuan_ordinary_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 在三角形 $F A D$ 中，$G$，$H$ 分别是 $F A$，$F D$ 的中点，所以 $G H parallel A D$，且 $G H=(1)/(2)A D$. 由题设 $B C parallel A D$，且 $B C=(1)/(2)A D$，从而 $G H parallel B C$，$G H=B C$. 因此四边形 $B C H G$ 是平行四边形.
-+ (2) 由题设 $arrow(B C)=(1)/(2)arrow(A D)$，$arrow(B E)=(1)/(2)arrow(A F)$，有 $arrow(C E)=arrow(C B)+arrow(B E)=(1)/(2)(arrow(A F)-arrow(A D))=(1)/(2)arrow(D F)$. 因此 $C E parallel D F$，所以直线 $C E$ 与直线 $D F$ 共面，故点 $C$，$D$，$E$，$F$ 共面.
-+ (3) 由平面 $A B E F bot$ 平面 $A B C D$，且 $A F bot A B$，得 $A F bot$ 平面 $A B C D$. 以 $A$ 为原点，分别以 $A B$，平面 $A B C D$ 内垂直于 $A B$ 的方向，$A F$ 为三个坐标轴正方向，设 $A B=a$，$B C=b$，$B E=c$，则可取 $A(0,0,0)$，$B(a,0,0)$，$C(a,b,0)$，$D(0,2 b,0)$，$E(a,0,c)$. 由 $A B=B E$ 得 $a=c$. 于是平面 $A D E$ 的一个法向量为 $arrow(A D)\t i m e s a r r o w(A E)=(0,2 b,0) times (a,0,a)=(2 a b,0,-2 a b)$，平面 $C D E$ 的一个法向量为 $arrow(D C)\t i m e s a r r o w(D E)=(a,-b,0) times (a,-2 b,a)=(-a b,-a^(2),-a b)$. 两法向量的数量积为 $-2 a^(2)b^(2)+2 a^(2)b^(2)=0$，所以平面 $A D E bot$ 平面 $C D E$.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-设 $x = 1$ 和 $x = 2$ 是函数 $f(x) = x^(5) + a x^(3) + b x + 1$ 的两个极值点.
+设 #mi(`x = 1`) 和 #mi(`x = 2`) 是函数 #mi(`f(x) = x^{5}+ ax^{3}+ bx + 1`) 的两个极值点.
 
 
-+ (1) 求 $a$ 和 $b$ 的值；
-+ (2) 求 $f(x)$ 的单调区间.
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $f(x)$ 可导，且 $x=1$，$x=2$ 是极值点，所以 $f'(1)=f'(2)=0$. 由 $f'(x)=5 x^(4)+3 a x^(2)+b$，得
-$\b e g i n{c a s e s} 5+3 a+b=0,\\ 80+12 a+b=0. \e n d{c a s e s}$.
-两式相减得 $9 a+75=0$，所以 $a=-(25)/(3)$，代回得 $b=20$.
-+ (2) 由 $a=-(25)/(3)$，$b=20$，得 $f'(x)=5 x^(4)-25 x^(2)+20=5(x^(2)-1)(x^(2)-4)$. 当 $x in (- oo ,-2) union (-1,1) union (2,+ oo )$ 时，$f'(x)>0$；当 $x in (-2,-1) union (1,2)$ 时，$f'(x)<0$. 因此 $f(x)$ 的单调递增区间为 $(- oo ,-2)$，$(-1,1)$，$(2,+ oo )$，单调递减区间为 $(-2,-1)$，$(1,2)$.
++ (1)
 ]
 
 #problem(21)[
-已知数列 $\{a_(n)\}$ 的前 $n$ 项和 $S_(n) = 2 a_(n) - 2^(n)$.
+已知数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和 #mi(`S_{n}= 2a_{n}- 2^{n}`).
 
 
-+ (1) 求 $a_(3)$，$a_(4)$；
-+ (2) 证明：数列 $\{a_(n+1) - 2 a_(n)\}$ 是等比数列；
-+ (3) 求 $\{a_(n)\}$ 的通项公式.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 令 $n=1$，由 $S_(1)=a_(1)=2 a_(1)-2$，得 $a_(1)=2$. 令 $n=2$，由 $S_(2)=a_(1)+a_(2)=2 a_(2)-4$，得 $a_(2)=6$. 令 $n=3$，由 $S_(3)=a_(1)+a_(2)+a_(3)=2 a_(3)-8$，得 $a_(3)=16$. 令 $n=4$，由 $S_(4)=a_(1)+a_(2)+a_(3)+a_(4)=2 a_(4)-16$，得 $a_(4)=40$.
-+ (2) 对任意正整数 $n$，由 $S_(n+1)-S_(n)=a_(n+1)$ 及已知条件，得 $a_(n+1)=2 a_(n+1)-2 a_(n)-2^(n)$，即 $a_(n+1)-2 a_(n)=2^(n)$. 因此数列 $\{a_(n+1)-2 a_(n)\}$ 的第 $n$ 项为 $2^(n)$，相邻两项的比为 $2$，所以它是等比数列.
-+ (3) 由上式 $a_(n+1)=2 a_(n)+2^(n)$. 令 $u_(n)=(a_(n))/(2^(n-1))$，则 $u_(1)=2$，且 $u_(n+1)=(a_(n+1))/(2^(n))=(2 a_(n)+2^(n))/(2^(n))=u_(n)+1$. 所以 $u_(n)=u_(1)+n-1=n+1$，从而 $a_(n)=(n+1)2^(n-1)$.
++ (1) 
++ (2)
 ]
 
 #problem(22)[
-设椭圆 $(x^(2))/(a^(2))+ (y^(2))/(b^(2))= 1$（$a > b > 0$）的左、右焦点分别为 $F_(1)$，$F_(2)$，离心率 $e = (sqrt(2))/(2)$，点 $F_(2)$ 到右准线 $l$ 的距离为 $sqrt(2)$.
+设椭圆 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)）的左、右焦点分别为 #mi(`F_{1}`)，#mi(`F_{2}`)，离心率 #mi(`e = \frac{\sqrt{2}}{2}`)，点 #mi(`F_{2}`) 到右准线 #mi(`l`) 的距离为 #mi(`\sqrt{2}`).
 
 
-+ (1) 求 $a$，$b$ 的值；
-+ (2) 设 $M$，$N$ 是右准线 $l$ 上两个动点，满足 $arrow(F_(1)M) dot arrow(F_(2)N)= 0$. 证明：当 $|M N|$ 取最小值时，$arrow(F_(2)F_(1))+ arrow(F_(2)M)+ arrow(F_(2)N)= 0$.
++ (1)
 ]
 
 #solution[
-+ (1) 设椭圆的半焦距为 $c$. 由离心率定义，$e=(c)/(a)=(sqrt(2))/(2)$，所以 $c=(sqrt(2))/(2)a$. 右准线方程为 $x=(a)/(e)$，故 $F_(2)$ 到右准线的距离为 $(a)/(e)-c=a((1)/(e)-e)=(sqrt(2))/(2)a$. 由题设 $(sqrt(2))/(2)a=sqrt(2)$，得 $a=2$，$c=sqrt(2)$. 再由 $b^(2)=a^(2)-c^(2)=4-2=2$，得 $b=sqrt(2)$.
-+ (2) 由上问，$F_(1)(-sqrt(2),0)$，$F_(2)(sqrt(2),0)$，右准线 $l$ 的方程为 $x=(a)/(e)=2 sqrt(2)$. 设 $M(2 sqrt(2),m)$，$N(2 sqrt(2),n)$，则 $arrow(F_(1)M)=(3 sqrt(2),m)$，$arrow(F_(2)N)=(sqrt(2),n)$. 由题设
-$arrow(F_(1)M)\c d o t a r r o w(F_(2)N)=3 sqrt(2)\t i m e s s q r t(2)+m n=0$，得 $m n=-6$，且 $m\n e q0$，所以 $n=-(6)/(m)$.
-
-于是 $|M N|=|m-n|=|m+(6)/(m)| >= 2 sqrt(6)$，当且仅当 $m^(2)=6$，即 $m=\p m s q r t(6)$ 时取等号；此时 $n=-(6)/(m)=-m$，所以 $m+n=0$. 从而
-
-$ arrow(F_(2)F_(1))+arrow(F_(2)M)+arrow(F_(2)N)=(-2 sqrt(2),0)+(sqrt(2),m)+(sqrt(2),n)=(0,m+n)=0 $
-
-故当 $|M N|$ 取最小值时，$arrow(F_(2)F_(1))+arrow(F_(2)M)+arrow(F_(2)N)=0$.
++ (1)
 ]
 

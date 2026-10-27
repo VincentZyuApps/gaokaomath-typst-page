@@ -1,8 +1,131 @@
 {
-  "title": "2018年普通高等学校招生全国统一考试",
-  "subtitle": "2018年天津卷（理）",
   "year": "2018",
   "slug": "tianjin_science",
+  "title": "2018年天津卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$\\{x\\mid 0<x<2\\}$"
           ],
           "answer": "B",
-          "solution": "<p>由 $C_{\\mathbb{R}}B=\\{x\\mid x<1\\}$，所以</p>\n$$\nA\\cap(C_{\\mathbb{R}}B)=\\{x\\mid 0<x<2\\}\\cap\\{x\\mid x<1\\}=\\{x\\mid 0<x<1\\}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>由 $C_{\\mathbb{R}}B=\\{x\\mid x<1\\}$，所以</p>\n$$\nA\\cap(C_{\\mathbb{R}}B)=\\{x\\mid 0<x<2\\}\\cap\\{x\\mid x<1\\}=\\{x\\mid 0<x<1\\}\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,11 +154,13 @@
             "$45$"
           ],
           "answer": "C",
-          "solution": "<p>将约束改写为</p><p>$y\\ge 2x-4$，$y\\le x+1$，$y\\le5-x$，$y\\ge0$.</p><p>边界直线 $y=0$ 与 $y=x+1$ 相交于 $(-1,0)$，与 $y=2x-4$ 相交于 $(2,0)$；直线 $y=2x-4$ 与 $y=5-x$ 相交于 $(3,2)$，直线 $y=x+1$ 与 $y=5-x$ 相交于 $(2,3)$.这四个交点均满足全部约束，且构成可行域的四个顶点.目标函数在这些顶点处的值分别为</p><p>$-3$，$6$，$21$，$19$.</p><p>因此目标函数的最大值为 $21$，故选 C.</p>"
+          "solution": "<p>将约束改写为</p><p>$y\\ge 2x-4$，$y\\le x+1$，$y\\le5-x$，$y\\ge0$.</p><p>边界直线 $y=0$ 与 $y=x+1$ 相交于 $(-1,0)$，与 $y=2x-4$ 相交于 $(2,0)$；直线 $y=2x-4$ 与 $y=5-x$ 相交于 $(3,2)$，直线 $y=x+1$ 与 $y=5-x$ 相交于 $(2,3)$.这四个交点均满足全部约束，且构成可行域的四个顶点.目标函数在这些顶点处的值分别为</p><p>$-3$，$6$，$21$，$19$.</p><p>因此目标函数的最大值为 $21$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
-          "body": "<p>阅读如图的程序框图，运行相应的程序，若输入 $N$ 的值为 $20$，则输出 $T$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>阅读如图的程序框图，运行相应的程序，若输入 $N$ 的值为 $20$，则输出 $T$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/tianjin_science/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$1$",
             "$2$",
@@ -41,7 +168,9 @@
             "$4$"
           ],
           "answer": "B",
-          "solution": "程序开始时 $i=2$，$T=0$.当 $i=2$ 时，$\\frac{20}{i}=10$ 为整数，故 $T$ 变为 $1$，再令 $i=3$.当 $i=3$ 时，$\\frac{20}{i}$ 不是整数，不改变 $T$，再令 $i=4$.当 $i=4$ 时，$\\frac{20}{i}=5$ 为整数，故 $T$ 变为 $2$，再令 $i=5$.此时满足 $i\\ge5$，程序输出 $T=2$.故选 B."
+          "solution": "程序开始时 $i=2$，$T=0$.当 $i=2$ 时，$\\frac{20}{i}=10$ 为整数，故 $T$ 变为 $1$，再令 $i=3$.当 $i=3$ 时，$\\frac{20}{i}$ 不是整数，不改变 $T$，再令 $i=4$.当 $i=4$ 时，$\\frac{20}{i}=5$ 为整数，故 $T$ 变为 $2$，再令 $i=5$.此时满足 $i\\ge5$，程序输出 $T=2$.故选 B.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +182,9 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>由</p>\n$$\n\\left\\lvert x-\\frac{1}{2}\\right\\rvert<\\frac{1}{2}\\Longleftrightarrow -\\frac{1}{2}<x-\\frac{1}{2}<\\frac{1}{2}\\Longleftrightarrow 0<x<1\n$$\n<p>对任意实数 $x$，函数 $x^{3}$ 单调递增，因此 $x^{3}<1\\Longleftrightarrow x<1$.所以 $0<x<1$ 能推出 $x^{3}<1$，但 $x^{3}<1$ 不能推出 $x>0$，例如 $x=-1$ 满足 $x^{3}<1$ 而不满足 $0<x<1$.故前者是后者的充分而不必要条件，选 A.</p>"
+          "solution": "<p>由</p>\n$$\n\\left\\lvert x-\\frac{1}{2}\\right\\rvert<\\frac{1}{2}\\Longleftrightarrow -\\frac{1}{2}<x-\\frac{1}{2}<\\frac{1}{2}\\Longleftrightarrow 0<x<1\n$$\n<p>对任意实数 $x$，函数 $x^{3}$ 单调递增，因此 $x^{3}<1\\Longleftrightarrow x<1$.所以 $0<x<1$ 能推出 $x^{3}<1$，但 $x^{3}<1$ 不能推出 $x>0$，例如 $x=-1$ 满足 $x^{3}<1$ 而不满足 $0<x<1$.故前者是后者的充分而不必要条件，选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +196,9 @@
             "$c>a>b$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $0<\\ln2<1$，所以</p>\n$$\na=\\log_{2}\\mathrm{e}=\\frac{1}{\\ln2}>\\ln2=b\n$$\n<p>又因为 $\\ln3>1$，所以</p>\n$$\nc=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\frac{\\ln(\\frac{1}{3})}{\\ln(\\frac{1}{2})}=\\frac{\\ln3}{\\ln2}>\\frac{1}{\\ln2}=a\n$$\n<p>因此 $c>a>b$，故选 D.</p>"
+          "solution": "<p>因为 $0<\\ln2<1$，所以</p>\n$$\na=\\log_{2}\\mathrm{e}=\\frac{1}{\\ln2}>\\ln2=b\n$$\n<p>又因为 $\\ln3>1$，所以</p>\n$$\nc=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\frac{\\ln(\\frac{1}{3})}{\\ln(\\frac{1}{2})}=\\frac{\\ln3}{\\ln2}>\\frac{1}{\\ln2}=a\n$$\n<p>因此 $c>a>b$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +210,9 @@
             "在区间 $\\left[\\dfrac{3\\pi}{2},2\\pi\\right]$ 上单调递减"
           ],
           "answer": "A",
-          "solution": "<p>向右平移 $\\frac{\\pi}{10}$ 后，横坐标 $x$ 应替换为 $x-\\frac{\\pi}{10}$，所以所得函数为</p>\n$$\ny=\\sin\\left(2\\left(x-\\frac{\\pi}{10}\\right)+\\frac{\\pi}{5}\\right)=\\sin2x\n$$\n<p>其导数为 $y'=2\\cos2x$.在区间 $[\\frac{3\\pi}{4},\\frac{5\\pi}{4}]$ 上，$2x\\in[\\frac{3\\pi}{2},\\frac{5\\pi}{2}]$，从而 $\\cos2x\\ge0$，函数单调递增.选项 B 的区间上导数为正，故不可能单调递减；选项 C 的区间上导数为负，故不可能单调递增；选项 D 的区间包含导数变号点，函数不单调递减.因此选 A.</p>"
+          "solution": "<p>向右平移 $\\frac{\\pi}{10}$ 后，横坐标 $x$ 应替换为 $x-\\frac{\\pi}{10}$，所以所得函数为</p>\n$$\ny=\\sin\\left(2\\left(x-\\frac{\\pi}{10}\\right)+\\frac{\\pi}{5}\\right)=\\sin2x\n$$\n<p>其导数为 $y'=2\\cos2x$.在区间 $[\\frac{3\\pi}{4},\\frac{5\\pi}{4}]$ 上，$2x\\in[\\frac{3\\pi}{2},\\frac{5\\pi}{2}]$，从而 $\\cos2x\\ge0$，函数单调递增.选项 B 的区间上导数为正，故不可能单调递减；选项 C 的区间上导数为负，故不可能单调递增；选项 D 的区间包含导数变号点，函数不单调递减.因此选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,11 +224,13 @@
             "$\\dfrac{x^2}{9}-\\dfrac{y^2}{3}=1$"
           ],
           "answer": "C",
-          "solution": "<p>设双曲线的半焦距为 $c$.由离心率 $e=2$，有 $c=2a$，再由 $c^{2}=a^{2}+b^{2}$ 得 $b^{2}=3a^{2}$.右焦点为 $(2a,0)$，故过右焦点且垂直于 $x$ 轴的直线为 $x=2a$.代入双曲线方程得</p><p>$4-\\frac{y^{2}}{b^{2}}=1$，$y=\\pm\\sqrt{3}b=\\pm3a$.</p><p>取渐近线 $y=\\sqrt{3}x$，两交点到该直线的距离之和为</p>\n$$\n\\frac{\\lvert2\\sqrt{3}a-3a\\rvert}{2}+\\frac{\\lvert2\\sqrt{3}a+3a\\rvert}{2}=2\\sqrt{3}a\n$$\n<p>由 $d_{1}+d_{2}=6$ 得 $a=\\sqrt{3}$，进而 $a^{2}=3$，$b^{2}=9$.所以双曲线方程为</p>\n$$\n\\frac{x^{2}}{3}-\\frac{y^{2}}{9}=1\n$$\n<p>故选 C.</p>"
+          "solution": "<p>设双曲线的半焦距为 $c$.由离心率 $e=2$，有 $c=2a$，再由 $c^{2}=a^{2}+b^{2}$ 得 $b^{2}=3a^{2}$.右焦点为 $(2a,0)$，故过右焦点且垂直于 $x$ 轴的直线为 $x=2a$.代入双曲线方程得</p><p>$4-\\frac{y^{2}}{b^{2}}=1$，$y=\\pm\\sqrt{3}b=\\pm3a$.</p><p>取渐近线 $y=\\sqrt{3}x$，两交点到该直线的距离之和为</p>\n$$\n\\frac{\\lvert2\\sqrt{3}a-3a\\rvert}{2}+\\frac{\\lvert2\\sqrt{3}a+3a\\rvert}{2}=2\\sqrt{3}a\n$$\n<p>由 $d_{1}+d_{2}=6$ 得 $a=\\sqrt{3}$，进而 $a^{2}=3$，$b^{2}=9$.所以双曲线方程为</p>\n$$\n\\frac{x^{2}}{3}-\\frac{y^{2}}{9}=1\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
-          "body": "<p>如图，在平面四边形 $ABCD$ 中，$AB\\perp BC$，$AD\\perp CD$，$\\angle BAD=120^{\\circ}$，$AB=AD=1$. 若点 $E$ 为边 $CD$ 上的动点，则 $\\overrightarrow{AE}\\cdot\\overrightarrow{BE}$ 的最小值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，在平面四边形 $ABCD$ 中，$AB\\perp BC$，$AD\\perp CD$，$\\angle BAD=120^{\\circ}$，$AB=AD=1$. 若点 $E$ 为边 $CD$ 上的动点，则 $\\overrightarrow{AE}\\cdot\\overrightarrow{BE}$ 的最小值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/tianjin_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\dfrac{21}{16}$",
             "$\\dfrac{3}{2}$",
@@ -101,7 +238,9 @@
             "$3$"
           ],
           "answer": "A",
-          "solution": "<p>取 $A=(0,0)$，$B=(1,0)$.由 $\\angle BAD=120^{\\circ}$ 及 $AD=1$，可取 $D=(-\\frac{1}{2},\\frac{\\sqrt{3}}{2})$.由 $BC\\perp AB$ 及 $CD\\perp AD$，得 $C=(1,\\sqrt{3})$.设 $E=D+s(C-D)$，其中 $0\\le s\\le1$，则</p>\n$$\nE=\\left(-\\frac{1}{2}+\\frac{3s}{2},\\frac{\\sqrt{3}(1+s)}{2}\\right)\n$$\n<p>于是</p>\n$$\n\\overrightarrow{AE}\\cdot\\overrightarrow{BE}=|E|^{2}-\\overrightarrow{AE}\\cdot\\overrightarrow{AB}=3s^{2}+1-\\left(-\\frac{1}{2}+\\frac{3s}{2}\\right)  =3s^{2}-\\frac{3}{2}s+\\frac{3}{2}\n$$\n<p>配方得</p>\n$$\n3s^{2}-\\frac{3}{2}s+\\frac{3}{2}=3\\left(s-\\frac{1}{4}\\right)^{2}+\\frac{21}{16}\n$$\n<p>当 $s=\\frac{1}{4}$ 时取到最小值 $\\frac{21}{16}$，故选 A.</p>"
+          "solution": "<p>取 $A=(0,0)$，$B=(1,0)$.由 $\\angle BAD=120^{\\circ}$ 及 $AD=1$，可取 $D=(-\\frac{1}{2},\\frac{\\sqrt{3}}{2})$.由 $BC\\perp AB$ 及 $CD\\perp AD$，得 $C=(1,\\sqrt{3})$.设 $E=D+s(C-D)$，其中 $0\\le s\\le1$，则</p>\n$$\nE=\\left(-\\frac{1}{2}+\\frac{3s}{2},\\frac{\\sqrt{3}(1+s)}{2}\\right)\n$$\n<p>于是</p>\n$$\n\\overrightarrow{AE}\\cdot\\overrightarrow{BE}=|E|^{2}-\\overrightarrow{AE}\\cdot\\overrightarrow{AB}=3s^{2}+1-\\left(-\\frac{1}{2}+\\frac{3s}{2}\\right)  =3s^{2}-\\frac{3}{2}s+\\frac{3}{2}\n$$\n<p>配方得</p>\n$$\n3s^{2}-\\frac{3}{2}s+\\frac{3}{2}=3\\left(s-\\frac{1}{4}\\right)^{2}+\\frac{21}{16}\n$$\n<p>当 $s=\\frac{1}{4}$ 时取到最小值 $\\frac{21}{16}$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -111,44 +250,56 @@
         {
           "num": 9,
           "body": "$i$ 是虚数单位，复数 $\\dfrac{6+7i}{1+2i}=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$4-i$",
-          "solution": "<p>分子分母同乘 $1-2i$，得</p>\n$$\n\\frac{6+7i}{1+2i}=\\frac{(6+7i)(1-2i)}{(1+2i)(1-2i)}=\\frac{20-5i}{5}=4-i\n$$"
+          "choices": [],
+          "answer": "\\(4-i\\)",
+          "solution": "<p>分子分母同乘 $1-2i$，得</p>\n$$\n\\frac{6+7i}{1+2i}=\\frac{(6+7i)(1-2i)}{(1+2i)(1-2i)}=\\frac{20-5i}{5}=4-i\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "在 $\\left(x-\\dfrac1{2\\sqrt{x}}\\right)^{5}$ 的展开式中，$x^{2}$ 的系数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{5}{2}$",
-          "solution": "<p>展开式的通项为</p>\n$$\n\\mathrm{C}_{5}^{k} x^{5-k}\\left(-\\frac{1}{2\\sqrt{x}}\\right)^{k}  =\\mathrm{C}_{5}^{k}(-1)^{k}2^{-k}x^{5-\\frac{3}{2}k}\n$$\n<p>要得到 $x^{2}$ 项，需要 $5-\\frac{3}{2}k=2$，解得 $k=2$.因此 $x^{2}$ 的系数为</p>\n$$\n\\mathrm{C}_{5}^{2}\\left(-\\frac{1}{2}\\right)^{2}=\\frac{10}{4}=\\frac{5}{2}\n$$"
+          "choices": [],
+          "answer": "\\(\\dfrac{5}{2}\\)",
+          "solution": "<p>展开式的通项为</p>\n$$\n\\mathrm{C}_{5}^{k} x^{5-k}\\left(-\\frac{1}{2\\sqrt{x}}\\right)^{k}  =\\mathrm{C}_{5}^{k}(-1)^{k}2^{-k}x^{5-\\frac{3}{2}k}\n$$\n<p>要得到 $x^{2}$ 项，需要 $5-\\frac{3}{2}k=2$，解得 $k=2$.因此 $x^{2}$ 的系数为</p>\n$$\n\\mathrm{C}_{5}^{2}\\left(-\\frac{1}{2}\\right)^{2}=\\frac{10}{4}=\\frac{5}{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
-          "body": "<p>已知正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 的棱长为 $1$，除面 $ABCD$ 外，该正方体其余各面的中心分别为点 $E$，$F$，$G$，$H$，$M$（如图），则四棱锥 $M-EFGH$ 的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\dfrac1{12}$",
-          "solution": "<p>建立直角坐标系，令正方体为 $0\\le x$，$y$，$z\\le1$，且 $ABCD$ 在 $z=0$ 平面上.则顶面中心 $M=(\\frac{1}{2},\\frac{1}{2},1)$，四个侧面中心 $E$，$F$，$G$，$H$ 均在平面 $z=\\frac{1}{2}$ 上.四边形 $EFGH$ 是正方形，其两条对角线长度均为 $1$，故</p>\n$$\nS_{EFGH}=\\frac{1}{2}\n$$\n<p>点 $M$ 到平面 $EFGH$ 的距离为 $\\frac{1}{2}$，所以</p>\n$$\nV_{M-EFGH}=\\frac{1}{3}S_{EFGH}\\cdot\\frac{1}{2}=\\frac{1}{3}\\cdot\\frac{1}{2}\\cdot\\frac{1}{2}=\\frac{1}{12}\n$$"
+          "body": "<p>已知正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 的棱长为 $1$，除面 $ABCD$ 外，该正方体其余各面的中心分别为点 $E$，$F$，$G$，$H$，$M$（如图），则四棱锥 $M-EFGH$ 的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/tianjin_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\dfrac1{12}\\)",
+          "solution": "<p>建立直角坐标系，令正方体为 $0\\le x$，$y$，$z\\le1$，且 $ABCD$ 在 $z=0$ 平面上.则顶面中心 $M=(\\frac{1}{2},\\frac{1}{2},1)$，四个侧面中心 $E$，$F$，$G$，$H$ 均在平面 $z=\\frac{1}{2}$ 上.四边形 $EFGH$ 是正方形，其两条对角线长度均为 $1$，故</p>\n$$\nS_{EFGH}=\\frac{1}{2}\n$$\n<p>点 $M$ 到平面 $EFGH$ 的距离为 $\\frac{1}{2}$，所以</p>\n$$\nV_{M-EFGH}=\\frac{1}{3}S_{EFGH}\\cdot\\frac{1}{2}=\\frac{1}{3}\\cdot\\frac{1}{2}\\cdot\\frac{1}{2}=\\frac{1}{12}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "已知圆 $x^{2}+y^{2}-2x=0$ 的圆心为 $C$，直线 $x=-1+\\dfrac{\\sqrt{2}}{2}t$，$y=3-\\dfrac{\\sqrt{2}}{2}t$（$t$ 为参数）与该圆相交于 $A$，$B$ 两点，则 $\\triangle ABC$ 的面积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{1}{2}$",
-          "solution": "<p>圆方程化为</p>\n$$\n(x-1)^{2}+y^{2}=1\n$$\n<p>所以圆心 $C=(1,0)$，半径为 $1$.由参数方程消去 $t$，得直线 $x+y=2$.圆心到直线的距离为</p>\n$$\nd=\\frac{|1+0-2|}{\\sqrt{2}}=\\frac{1}{\\sqrt{2}}\n$$\n<p>弦 $AB$ 的长度为</p>\n$$\nAB=2\\sqrt{1-d^{2}}=2\\sqrt{1-\\frac{1}{2}}=\\sqrt{2}\n$$\n<p>以 $AB$ 为底，三角形 $ABC$ 的高为 $d$，故</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}\\cdot\\sqrt{2}\\cdot\\frac{1}{\\sqrt{2}}=\\frac{1}{2}\n$$"
+          "choices": [],
+          "answer": "\\(\\dfrac{1}{2}\\)",
+          "solution": "<p>圆方程化为</p>\n$$\n(x-1)^{2}+y^{2}=1\n$$\n<p>所以圆心 $C=(1,0)$，半径为 $1$.由参数方程消去 $t$，得直线 $x+y=2$.圆心到直线的距离为</p>\n$$\nd=\\frac{|1+0-2|}{\\sqrt{2}}=\\frac{1}{\\sqrt{2}}\n$$\n<p>弦 $AB$ 的长度为</p>\n$$\nAB=2\\sqrt{1-d^{2}}=2\\sqrt{1-\\frac{1}{2}}=\\sqrt{2}\n$$\n<p>以 $AB$ 为底，三角形 $ABC$ 的高为 $d$，故</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}\\cdot\\sqrt{2}\\cdot\\frac{1}{\\sqrt{2}}=\\frac{1}{2}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "已知 $a$，$b\\in\\mathbb{R}$，且 $a-3b+6=0$，则 $2^{a}+\\dfrac1{8^b}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{1}{4}$",
-          "solution": "<p>由 $a-3b+6=0$，得 $a=3b-6$.令 $t=2^{3b}>0$，则</p>\n$$\n2^{a}+\\frac{1}{8^{b}}=2^{3b-6}+2^{-3b}=\\frac{t}{64}+\\frac{1}{t}\n$$\n<p>由基本不等式，</p>\n$$\n\\frac{t}{64}+\\frac{1}{t}\\ge2\\sqrt{\\frac{t}{64}\\cdot\\frac{1}{t}}=\\frac{1}{4}\n$$\n<p>当 $\\frac{t}{64}=\\frac{1}{t}$，即 $t=8$ 时取等号，此时 $b=1$，$a=-3$.所以最小值为 $\\frac{1}{4}$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{1}{4}\\)",
+          "solution": "<p>由 $a-3b+6=0$，得 $a=3b-6$.令 $t=2^{3b}>0$，则</p>\n$$\n2^{a}+\\frac{1}{8^{b}}=2^{3b-6}+2^{-3b}=\\frac{t}{64}+\\frac{1}{t}\n$$\n<p>由基本不等式，</p>\n$$\n\\frac{t}{64}+\\frac{1}{t}\\ge2\\sqrt{\\frac{t}{64}\\cdot\\frac{1}{t}}=\\frac{1}{4}\n$$\n<p>当 $\\frac{t}{64}=\\frac{1}{t}$，即 $t=8$ 时取等号，此时 $b=1$，$a=-3$.所以最小值为 $\\frac{1}{4}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "<p>已知 $a>0$，函数</p><p>$f(x)=\\begin{cases}x^{2}+2ax+a,&x\\le0,\\\\  -x^{2}+2ax-2a,&x>0\\end{cases}$</p><p>若关于 $x$ 的方程 $f(x)=ax$ 恰有 2 个互异的实数解，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
-          "answer": "$(4,8)$",
-          "solution": "<p>当 $x\\le0$ 时，方程化为</p>\n$$\nx^{2}+2ax+a=ax\\Longleftrightarrow x^{2}+ax+a=0\n$$\n<p>其判别式为 $a(a-4)$.当 $0<a<4$ 时无实根；当 $a=4$ 时有一个重根 $x=-2$；当 $a>4$ 时有两个根，且两根之和为 $-a<0$、积为 $a>0$，所以两根均为负数，均满足 $x\\le0$.</p><p>当 $x>0$ 时，方程化为</p>\n$$\n-x^{2}+2ax-2a=ax\\Longleftrightarrow x^{2}-ax+2a=0\n$$\n<p>其判别式为 $a(a-8)$.当 $0<a<8$ 时无实根；当 $a=8$ 时有一个正的重根 $x=4$；当 $a>8$ 时两根之和为 $a>0$、积为 $2a>0$，且判别式为正，所以两根均为正数.</p><p>合并两段的根数：$0<a\\le4$ 时不超过一个根，$4<a<8$ 时恰有左段的两个根，$a=8$ 时有三个根，$a>8$ 时有四个根.因此恰有两个互异实根当且仅当</p>\n$$\na\\in(4,8)\n$$"
+          "choices": [],
+          "answer": "\\((4,8)\\)",
+          "solution": "<p>当 $x\\le0$ 时，方程化为</p>\n$$\nx^{2}+2ax+a=ax\\Longleftrightarrow x^{2}+ax+a=0\n$$\n<p>其判别式为 $a(a-4)$.当 $0<a<4$ 时无实根；当 $a=4$ 时有一个重根 $x=-2$；当 $a>4$ 时有两个根，且两根之和为 $-a<0$、积为 $a>0$，所以两根均为负数，均满足 $x\\le0$.</p><p>当 $x>0$ 时，方程化为</p>\n$$\n-x^{2}+2ax-2a=ax\\Longleftrightarrow x^{2}-ax+2a=0\n$$\n<p>其判别式为 $a(a-8)$.当 $0<a<8$ 时无实根；当 $a=8$ 时有一个正的重根 $x=4$；当 $a>8$ 时两根之和为 $a>0$、积为 $2a>0$，且判别式为正，所以两根均为正数.</p><p>合并两段的根数：$0<a\\le4$ 时不超过一个根，$4<a<8$ 时恰有左段的两个根，$a=8$ 时有三个根，$a>8$ 时有四个根.因此恰有两个互异实根当且仅当</p>\n$$\na\\in(4,8)\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -158,44 +309,56 @@
         {
           "num": 15,
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $b\\sin A=a\\cos\\left(B-\\dfrac{\\pi}{6}\\right)$.</p><ol class=\"enumerate\"><li><p>求角 $B$ 的大小；</p></li><li><p>设 $a=2$，$c=3$，求 $b$ 和 $\\sin(2A-B)$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在 $\\triangle ABC$ 中，由正弦定理，</p>\n$$\n\\frac{a}{\\sin A}=\\frac{b}{\\sin B}\n$$\n<p>所以 $b\\sin A=a\\sin B$.结合题设得</p>\n$$\n\\sin B=\\cos\\left(B-\\frac{\\pi}{6}\\right)  =\\frac{\\sqrt{3}}{2}\\cos B+\\frac{1}{2}\\sin B\n$$\n<p>即 $\\sin B=\\sqrt{3}\\cos B$.因为 $B\\in(0,\\pi)$，且上式使 $\\cos B>0$，故</p><p>$\\tan B=\\sqrt{3}$，$B=\\frac{\\pi}{3}$.</p></li><li><p>由余弦定理，</p>\n$$\nb^{2}=a^{2}+c^{2}-2ac\\cos B  =2^{2}+3^{2}-2\\cdot2\\cdot3\\cdot\\frac{1}{2}=7\n$$\n<p>所以 $b=\\sqrt{7}$.又由题设，</p>\n$$\n\\sin A=\\frac{a}{b}\\cos\\left(B-\\frac{\\pi}{6}\\right)  =\\frac{2}{\\sqrt{7}}\\cos\\frac{\\pi}{6}=\\frac{\\sqrt{3}}{\\sqrt{7}}\n$$\n<p>由余弦定理，</p>\n$$\n\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{7+9-4}{6\\sqrt{7}}=\\frac{2}{\\sqrt{7}}>0\n$$\n<p>因此</p><p>$\\sin2A=2\\sin A\\cos A=\\frac{4\\sqrt{3}}{7}$，$\\cos2A=2\\cos^{2}A-1=\\frac{1}{7}$.</p><p>于是</p>\n$$\n\\sin(2A-B)=\\sin2A\\cos B-\\cos2A\\sin B  =\\frac{4\\sqrt{3}}{7}\\cdot\\frac{1}{2}-\\frac{1}{7}\\cdot\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{14}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在 $\\triangle ABC$ 中，由正弦定理，</p>\n$$\n\\frac{a}{\\sin A}=\\frac{b}{\\sin B}\n$$\n<p>所以 $b\\sin A=a\\sin B$.结合题设得</p>\n$$\n\\sin B=\\cos\\left(B-\\frac{\\pi}{6}\\right)  =\\frac{\\sqrt{3}}{2}\\cos B+\\frac{1}{2}\\sin B\n$$\n<p>即 $\\sin B=\\sqrt{3}\\cos B$.因为 $B\\in(0,\\pi)$，且上式使 $\\cos B>0$，故</p><p>$\\tan B=\\sqrt{3}$，$B=\\frac{\\pi}{3}$.</p></li><li><p>由余弦定理，</p>\n$$\nb^{2}=a^{2}+c^{2}-2ac\\cos B  =2^{2}+3^{2}-2\\cdot2\\cdot3\\cdot\\frac{1}{2}=7\n$$\n<p>所以 $b=\\sqrt{7}$.又由题设，</p>\n$$\n\\sin A=\\frac{a}{b}\\cos\\left(B-\\frac{\\pi}{6}\\right)  =\\frac{2}{\\sqrt{7}}\\cos\\frac{\\pi}{6}=\\frac{\\sqrt{3}}{\\sqrt{7}}\n$$\n<p>由余弦定理，</p>\n$$\n\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{7+9-4}{6\\sqrt{7}}=\\frac{2}{\\sqrt{7}}>0\n$$\n<p>因此</p><p>$\\sin2A=2\\sin A\\cos A=\\frac{4\\sqrt{3}}{7}$，$\\cos2A=2\\cos^{2}A-1=\\frac{1}{7}$.</p><p>于是</p>\n$$\n\\sin(2A-B)=\\sin2A\\cos B-\\cos2A\\sin B  =\\frac{4\\sqrt{3}}{7}\\cdot\\frac{1}{2}-\\frac{1}{7}\\cdot\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{14}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>已知某单位甲，乙，丙三个部门的员工人数分别为 $24$，$16$，$16$. 现采用分层抽样的方法从中抽取 $7$ 人，进行睡眠时间的调查.</p><ol class=\"enumerate\"><li><p>应从甲，乙，丙三个部门的员工中分别抽取多少人？</p></li><li><p>若抽出的 $7$ 人中有 $4$ 人睡眠不足，$3$ 人睡眠充足，现从这 $7$ 人中随机抽取 $3$ 人做进一步的身体检查.</p><p></p><ol class=\"enumerate\"><li><p>用 $X$ 表示抽取的 $3$ 人中睡眠不足的员工人数，求随机变量 $X$ 的分布列与数学期望；</p></li><li><p>设 $A$ 为事件“抽取的 $3$ 人中，既有睡眠充足的员工，也有睡眠不足的员工”，求事件 $A$ 发生的概率.</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>三个部门的员工人数之比为 $24:16:16=3:2:2$.分层抽样时各层抽样比例相同，抽取总人数为 $7$，所以应从甲、乙、丙三个部门分别抽取 $3$，$2$，$2$ 人.</p></li><li><p></p><ol class=\"enumerate\"><li><p>随机变量 $X$ 的所有可能取值为 $0$，$1$，$2$，$3$.从 $4$ 名睡眠不足员工和 $3$ 名睡眠充足员工中抽取 $3$ 人，故</p><p>$P(X=k)=\\frac{\\mathrm{C}_{4}^{k}\\mathrm{C}_{3}^{3-k}}{\\mathrm{C}_{7}^{3}}$，$k=0$，$1$，$2$，$3$.</p><p>因此</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$</td><td style=\"text-align: center\">$0$</td><td style=\"text-align: center\">$1$</td><td style=\"text-align: center\">$2$</td><td style=\"text-align: center\">$3$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$</td><td style=\"text-align: center\">$\\frac{1}{35}$</td><td style=\"text-align: center\">$\\frac{12}{35}$</td><td style=\"text-align: center\">$\\frac{18}{35}$</td><td style=\"text-align: center\">$\\frac{4}{35}$</td></tr></tbody></table></center><p></p><p>并且</p>\n$$\nE(X)=0\\cdot\\frac{1}{35}+1\\cdot\\frac{12}{35}+2\\cdot\\frac{18}{35}+3\\cdot\\frac{4}{35}=\\frac{12}{7}\n$$\n</li><li><p>事件 $A$ 是抽取的 $3$ 人中两类员工均出现.其对立事件是抽到的 $3$ 人全为睡眠不足或全为睡眠充足，因此</p>\n$$\nP(A)=1-\\frac{\\mathrm{C}_{4}^{3}+\\mathrm{C}_{3}^{3}}{\\mathrm{C}_{7}^{3}}=1-\\frac{4+1}{35}=\\frac{6}{7}\n$$\n</li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>三个部门的员工人数之比为 $24:16:16=3:2:2$.分层抽样时各层抽样比例相同，抽取总人数为 $7$，所以应从甲、乙、丙三个部门分别抽取 $3$，$2$，$2$ 人.</p></li><li><p></p><ol class=\"enumerate\"><li><p>随机变量 $X$ 的所有可能取值为 $0$，$1$，$2$，$3$.从 $4$ 名睡眠不足员工和 $3$ 名睡眠充足员工中抽取 $3$ 人，故</p><p>$P(X=k)=\\frac{\\mathrm{C}_{4}^{k}\\mathrm{C}_{3}^{3-k}}{\\mathrm{C}_{7}^{3}}$，$k=0$，$1$，$2$，$3$.</p><p>因此</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$</td><td style=\"text-align: center\">$0$</td><td style=\"text-align: center\">$1$</td><td style=\"text-align: center\">$2$</td><td style=\"text-align: center\">$3$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$P$</td><td style=\"text-align: center\">$\\frac{1}{35}$</td><td style=\"text-align: center\">$\\frac{12}{35}$</td><td style=\"text-align: center\">$\\frac{18}{35}$</td><td style=\"text-align: center\">$\\frac{4}{35}$</td></tr></tbody></table></center><p></p><p>并且</p>\n$$\nE(X)=0\\cdot\\frac{1}{35}+1\\cdot\\frac{12}{35}+2\\cdot\\frac{18}{35}+3\\cdot\\frac{4}{35}=\\frac{12}{7}\n$$\n</li><li><p>事件 $A$ 是抽取的 $3$ 人中两类员工均出现.其对立事件是抽到的 $3$ 人全为睡眠不足或全为睡眠充足，因此</p>\n$$\nP(A)=1-\\frac{\\mathrm{C}_{4}^{3}+\\mathrm{C}_{3}^{3}}{\\mathrm{C}_{7}^{3}}=1-\\frac{4+1}{35}=\\frac{6}{7}\n$$\n</li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图，$AD\\parallel BC$ 且 $AD=2BC$，$AD\\perp CD$，$EG\\parallel AD$ 且 $EG=AD$，$CD\\parallel FG$ 且 $CD=2FG$，$DG\\perp$ 平面 $ABCD$，$DA=DC=DG=2$.</p><ol class=\"enumerate\"><li><p>若 $M$ 为 $CF$ 的中点，$N$ 为 $EG$ 的中点，求证：$MN\\parallel$ 平面 $CDE$；</p></li><li><p>求二面角 $E-BC-F$ 的正弦值；</p></li><li><p>若点 $P$ 在线段 $DG$ 上，且直线 $BP$ 与平面 $ADGE$ 所成的角为 $60^{\\circ}$，求线段 $DP$ 的长.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，$AD\\parallel BC$ 且 $AD=2BC$，$AD\\perp CD$，$EG\\parallel AD$ 且 $EG=AD$，$CD\\parallel FG$ 且 $CD=2FG$，$DG\\perp$ 平面 $ABCD$，$DA=DC=DG=2$.</p><ol class=\"enumerate\"><li><p>若 $M$ 为 $CF$ 的中点，$N$ 为 $EG$ 的中点，求证：$MN\\parallel$ 平面 $CDE$；</p></li><li><p>求二面角 $E-BC-F$ 的正弦值；</p></li><li><p>若点 $P$ 在线段 $DG$ 上，且直线 $BP$ 与平面 $ADGE$ 所成的角为 $60^{\\circ}$，求线段 $DP$ 的长.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/tianjin_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>以 $D$ 为原点，分别以 $\\overrightarrow{DA}$，$\\overrightarrow{DC}$，$\\overrightarrow{DG}$ 的方向为 $x$，$y$，$z$ 轴正方向建立空间直角坐标系.由题设</p><p>$D=(0,0,0)$，$A=(2,0,0)$，$C=(0,2,0)$，$G=(0,0,2)$</p><p>$B=(1,2,0)$，$E=(2,0,2)$，$F=(0,1,2)$.</p><p>于是</p><p>$M=\\left(0,\\frac{3}{2},1\\right)$，$N=(1,0,2)$，</p><p>从而</p>\n$$\n\\overrightarrow{MN}=\\left(1,-\\frac{3}{2},1\\right)\n$$\n<p>平面 $CDE$ 内有 $\\overrightarrow{DC}=(0,2,0)$，$\\overrightarrow{DE}=(2,0,2)$.取其法向量 $\\mathbf{n}=(1,0,-1)$，则</p>\n$$\n\\overrightarrow{MN}\\cdot\\mathbf{n}=1-1=0\n$$\n<p>又 $M$ 不在平面 $CDE$ 上，所以 $MN\\parallel$ 平面 $CDE$.</p></li><li><p>由坐标可得</p><p>$\\overrightarrow{BC}=(-1,0,0)$，$\\overrightarrow{BE}=(1,-2,2)$，$\\overrightarrow{BF}=(-1,-1,2)$.</p><p>设平面 $BCE$ 的法向量为 $\\mathbf{n}$，则 $\\mathbf{n}\\perp\\overrightarrow{BC}$，$\\overrightarrow{BE}$，可取 $\\mathbf{n}=(0,1,1)$.设平面 $BCF$ 的法向量为 $\\mathbf{m}$，则 $\\mathbf{m}\\perp\\overrightarrow{BC}$，$\\overrightarrow{BF}$，可取 $\\mathbf{m}=(0,2,1)$.于是两平面夹角的余弦的绝对值为</p>\n$$\n\\left|\\cos\\theta\\right|  =\\frac{|\\mathbf{m}\\cdot\\mathbf{n}|}{|\\mathbf{m}||\\mathbf{n}|}=\\frac{3}{\\sqrt{5}\\sqrt{2}}=\\frac{3\\sqrt{10}}{10}\n$$\n<p>所以二面角 $E-BC-F$ 的正弦值为</p>\n$$\n\\sin\\theta=\\sqrt{1-\\frac{9}{10}}=\\frac{\\sqrt{10}}{10}\n$$\n</li><li><p>设 $DP=h$，则 $0\\le h\\le2$，且 $P=(0,0,h)$.因此</p>\n$$\n\\overrightarrow{BP}=(-1,-2,h)\n$$\n<p>平面 $ADGE$ 为 $y=0$ 平面，可取法向量 $\\overrightarrow{DC}=(0,2,0)$.直线与平面所成角为 $60^{\\circ}$，所以</p>\n$$\n\\sin60^{\\circ}  =\\frac{|\\overrightarrow{BP}\\cdot\\overrightarrow{DC}|}{|\\overrightarrow{BP}||\\overrightarrow{DC}|}=\\frac{2}{\\sqrt{h^{2}+5}}\n$$\n<p>解得</p>\n$$\n\\frac{\\sqrt{3}}{2}=\\frac{2}{\\sqrt{h^{2}+5}}\\Longrightarrow h^{2}=\\frac{1}{3}\n$$\n<p>因 $h\\ge0$，故 $DP=h=\\frac{\\sqrt{3}}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>以 $D$ 为原点，分别以 $\\overrightarrow{DA}$，$\\overrightarrow{DC}$，$\\overrightarrow{DG}$ 的方向为 $x$，$y$，$z$ 轴正方向建立空间直角坐标系.由题设</p><p>$D=(0,0,0)$，$A=(2,0,0)$，$C=(0,2,0)$，$G=(0,0,2)$</p><p>$B=(1,2,0)$，$E=(2,0,2)$，$F=(0,1,2)$.</p><p>于是</p><p>$M=\\left(0,\\frac{3}{2},1\\right)$，$N=(1,0,2)$，</p><p>从而</p>\n$$\n\\overrightarrow{MN}=\\left(1,-\\frac{3}{2},1\\right)\n$$\n<p>平面 $CDE$ 内有 $\\overrightarrow{DC}=(0,2,0)$，$\\overrightarrow{DE}=(2,0,2)$.取其法向量 $\\mathbf{n}=(1,0,-1)$，则</p>\n$$\n\\overrightarrow{MN}\\cdot\\mathbf{n}=1-1=0\n$$\n<p>又 $M$ 不在平面 $CDE$ 上，所以 $MN\\parallel$ 平面 $CDE$.</p></li><li><p>由坐标可得</p><p>$\\overrightarrow{BC}=(-1,0,0)$，$\\overrightarrow{BE}=(1,-2,2)$，$\\overrightarrow{BF}=(-1,-1,2)$.</p><p>设平面 $BCE$ 的法向量为 $\\mathbf{n}$，则 $\\mathbf{n}\\perp\\overrightarrow{BC}$，$\\overrightarrow{BE}$，可取 $\\mathbf{n}=(0,1,1)$.设平面 $BCF$ 的法向量为 $\\mathbf{m}$，则 $\\mathbf{m}\\perp\\overrightarrow{BC}$，$\\overrightarrow{BF}$，可取 $\\mathbf{m}=(0,2,1)$.于是两平面夹角的余弦的绝对值为</p>\n$$\n\\left|\\cos\\theta\\right|  =\\frac{|\\mathbf{m}\\cdot\\mathbf{n}|}{|\\mathbf{m}||\\mathbf{n}|}=\\frac{3}{\\sqrt{5}\\sqrt{2}}=\\frac{3\\sqrt{10}}{10}\n$$\n<p>所以二面角 $E-BC-F$ 的正弦值为</p>\n$$\n\\sin\\theta=\\sqrt{1-\\frac{9}{10}}=\\frac{\\sqrt{10}}{10}\n$$\n</li><li><p>设 $DP=h$，则 $0\\le h\\le2$，且 $P=(0,0,h)$.因此</p>\n$$\n\\overrightarrow{BP}=(-1,-2,h)\n$$\n<p>平面 $ADGE$ 为 $y=0$ 平面，可取法向量 $\\overrightarrow{DC}=(0,2,0)$.直线与平面所成角为 $60^{\\circ}$，所以</p>\n$$\n\\sin60^{\\circ}  =\\frac{|\\overrightarrow{BP}\\cdot\\overrightarrow{DC}|}{|\\overrightarrow{BP}||\\overrightarrow{DC}|}=\\frac{2}{\\sqrt{h^{2}+5}}\n$$\n<p>解得</p>\n$$\n\\frac{\\sqrt{3}}{2}=\\frac{2}{\\sqrt{h^{2}+5}}\\Longrightarrow h^{2}=\\frac{1}{3}\n$$\n<p>因 $h\\ge0$，故 $DP=h=\\frac{\\sqrt{3}}{3}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>设 $\\{a_{n}\\}$ 是等比数列，公比大于 $0$，其前 $n$ 项和为 $S_{n}$ （$n\\in\\mathbb{N}^{*}$），$\\{b_{n}\\}$ 是等差数列. 已知 $a_{1}=1$，$a_{3}=a_{2}+2$，$a_{4}=b_{3}+b_{5}$，$a_{5}=b_{4}+2b_{6}$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>设数列 $\\{S_{n}\\}$ 的前 $n$ 项和为 $T_{n}$ （$n\\in\\mathbb{N}^{*}$），</p><p></p><ol class=\"enumerate\"><li><p>求 $T_{n}$；</p></li><li><p>证明 $\\displaystyle \\sum_{k=1}^{n} \\frac{(T_{k}+b_{k}+2)b_{k}}{(k+1)(k+2)}=\\frac{2^{n+2}}{n+2}-2$ （$n\\in\\mathbb{N}^{*}$）.</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等比数列 $\\{a_{n}\\}$ 的公比为 $q$.由 $a_{1}=1$ 及 $a_{3}=a_{2}+2$，得</p>\n$$\nq^{2}=q+2\\Longrightarrow(q-2)(q+1)=0\n$$\n<p>因为 $q>0$，所以 $q=2$，从而</p>\n$$\na_{n}=2^{n-1}\n$$\n<p>设等差数列 $\\{b_{n}\\}$ 的首项为 $b_{1}$，公差为 $d$.由 $a_{4}=8=b_{3}+b_{5}$，得</p>\n$$\n8=(b_{1}+2d)+(b_{1}+4d)\n$$\n<p>即 $b_{1}+3d=4$.又由 $a_{5}=16=b_{4}+2b_{6}$，得</p>\n$$\n16=(b_{1}+3d)+2(b_{1}+5d)\n$$\n<p>即 $3b_{1}+13d=16$.联立可得 $d=1$，$b_{1}=1$，所以</p>\n$$\nb_{n}=n\n$$\n</li><li><p></p><ol class=\"enumerate\"><li><p>由 $a_{n}=2^{n-1}$，得</p>\n$$\nS_{n}=\\sum_{j=1}^{n}2^{j-1}=2^{n}-1\n$$\n<p>因此</p>\n$$\nT_{n}=\\sum_{k=1}^{n}S_{k}  =\\sum_{k=1}^{n}(2^{k}-1)  =2^{n+1}-n-2\n$$\n</li><li><p>由上式及 $b_{k}=k$，有</p>\n$$\nT_{k}+b_{k}+2=(2^{k+1}-k-2)+k+2=2^{k+1}\n$$\n<p>所以</p>\n$$\n\\frac{(T_{k}+b_{k}+2)b_{k}}{(k+1)(k+2)}=\\frac{k2^{k+1}}{(k+1)(k+2)}=\\frac{2^{k+2}}{k+2}-\\frac{2^{k+1}}{k+1}\n$$\n<p>对 $k=1$，$2$，$\\ldots$，$n$ 求和，得到</p>\n$$\n\\sum_{k=1}^{n}\\frac{(T_{k}+b_{k}+2)b_{k}}{(k+1)(k+2)}=\\sum_{k=1}^{n}\\left(\\frac{2^{k+2}}{k+2}-\\frac{2^{k+1}}{k+1}\\right)  =\\frac{2^{n+2}}{n+2}-\\frac{2^{2}}{2}=\\frac{2^{n+2}}{n+2}-2\n$$\n</li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等比数列 $\\{a_{n}\\}$ 的公比为 $q$.由 $a_{1}=1$ 及 $a_{3}=a_{2}+2$，得</p>\n$$\nq^{2}=q+2\\Longrightarrow(q-2)(q+1)=0\n$$\n<p>因为 $q>0$，所以 $q=2$，从而</p>\n$$\na_{n}=2^{n-1}\n$$\n<p>设等差数列 $\\{b_{n}\\}$ 的首项为 $b_{1}$，公差为 $d$.由 $a_{4}=8=b_{3}+b_{5}$，得</p>\n$$\n8=(b_{1}+2d)+(b_{1}+4d)\n$$\n<p>即 $b_{1}+3d=4$.又由 $a_{5}=16=b_{4}+2b_{6}$，得</p>\n$$\n16=(b_{1}+3d)+2(b_{1}+5d)\n$$\n<p>即 $3b_{1}+13d=16$.联立可得 $d=1$，$b_{1}=1$，所以</p>\n$$\nb_{n}=n\n$$\n</li><li><p></p><ol class=\"enumerate\"><li><p>由 $a_{n}=2^{n-1}$，得</p>\n$$\nS_{n}=\\sum_{j=1}^{n}2^{j-1}=2^{n}-1\n$$\n<p>因此</p>\n$$\nT_{n}=\\sum_{k=1}^{n}S_{k}  =\\sum_{k=1}^{n}(2^{k}-1)  =2^{n+1}-n-2\n$$\n</li><li><p>由上式及 $b_{k}=k$，有</p>\n$$\nT_{k}+b_{k}+2=(2^{k+1}-k-2)+k+2=2^{k+1}\n$$\n<p>所以</p>\n$$\n\\frac{(T_{k}+b_{k}+2)b_{k}}{(k+1)(k+2)}=\\frac{k2^{k+1}}{(k+1)(k+2)}=\\frac{2^{k+2}}{k+2}-\\frac{2^{k+1}}{k+1}\n$$\n<p>对 $k=1$，$2$，$\\ldots$，$n$ 求和，得到</p>\n$$\n\\sum_{k=1}^{n}\\frac{(T_{k}+b_{k}+2)b_{k}}{(k+1)(k+2)}=\\sum_{k=1}^{n}\\left(\\frac{2^{k+2}}{k+2}-\\frac{2^{k+1}}{k+1}\\right)  =\\frac{2^{n+2}}{n+2}-\\frac{2^{2}}{2}=\\frac{2^{n+2}}{n+2}-2\n$$\n</li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>设椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$ （$a>b>0$） 的左焦点为 $F$，上顶点为 $B$. 已知椭圆的离心率为 $\\dfrac{\\sqrt{5}}{3}$，点 $A$ 的坐标为 $(b,0)$，且 $FB\\cdot AB=6\\sqrt{2}$.</p><ol class=\"enumerate\"><li><p>求椭圆的方程；</p></li><li><p>设直线 $l:y=kx$ （$k>0$） 与椭圆在第一象限的交点为 $P$，且 $l$ 与直线 $AB$ 交于点 $Q$.</p><p>若 $\\dfrac{AQ}{PQ}=\\dfrac{5\\sqrt{2}}{4}\\sin\\angle AOQ$（$O$ 为原点），求 $k$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆半焦距为 $c$.由离心率</p>\n$$\n\\frac{c}{a}=\\frac{\\sqrt{5}}{3}\n$$\n<p>及 $a^{2}=b^{2}+c^{2}$，得</p>\n$$\n\\frac{b^{2}}{a^{2}}=1-\\frac{c^{2}}{a^{2}}=1-\\frac{5}{9}=\\frac{4}{9}\n$$\n<p>所以 $b=\\frac{2a}{3}$.左焦点为 $F=(-c,0)$，上顶点为 $B=(0,b)$，故</p>\n$$\nFB=\\sqrt{c^{2}+b^{2}}=a\n$$\n<p>又 $A=(b,0)$，所以</p>\n$$\nAB=b\\sqrt{2}\n$$\n<p>由 $FB\\cdot AB=6\\sqrt{2}$，得 $ab=6$.结合 $b=\\frac{2a}{3}$，得 $a=3$，$b=2$.所以椭圆方程为</p>\n$$\n\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1\n$$\n</li><li><p>设 $P=(x_{1},y_{1})$，$Q=(x_{2},y_{2})$.因为 $P$，$Q$ 在同一条过原点的直线 $y=kx$ 上，且 $P$ 在椭圆第一象限内，所以 $y_{1}>y_{2}>0$.直线 $AB$ 为 $x+y=2$，且 $\\angle OAB=\\frac{\\pi}{4}$.因此</p>\n$$\n|AQ|=\\frac{y_{2}}{\\sin\\angle OAB}=\\sqrt{2}y_{2}\n$$\n<p>又 $PQ$ 与 $OQ$ 同方向，故</p>\n$$\n|PQ|\\sin\\angle AOQ=y_{1}-y_{2}\n$$\n<p>将这两式代入题设条件，得</p>\n$$\n\\sqrt{2}y_{2}=\\frac{5\\sqrt{2}}{4}(y_{1}-y_{2})  \\Longrightarrow 5y_{1}=9y_{2}\n$$\n<p>由 $P\\in y=kx$ 且 $P$ 在椭圆上，</p>\n$$\n\\frac{x_{1}^{2}}{9}+\\frac{k^{2}x_{1}^{2}}{4}=1\n$$\n<p>从而</p>\n$$\ny_{1}=kx_{1}=\\frac{6k}{\\sqrt{9k^{2}+4}}\n$$\n<p>由 $Q\\in y=kx$ 且 $x_{2}+y_{2}=2$，得</p>\n$$\ny_{2}=\\frac{2k}{k+1}\n$$\n<p>代入 $5y_{1}=9y_{2}$，并利用 $k>0$，得</p>\n$$\n5(k+1)=3\\sqrt{9k^{2}+4}\n$$\n<p>两边平方并整理，得</p>\n$$\n56k^{2}-50k+11=0\n$$\n<p>所以</p>\n$$\nk=\\frac{50\\pm6}{112}\n$$\n<p>即 $k=\\frac{1}{2}$ 或 $k=\\frac{11}{28}$.两值均为正，且均满足平方前的等式.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆半焦距为 $c$.由离心率</p>\n$$\n\\frac{c}{a}=\\frac{\\sqrt{5}}{3}\n$$\n<p>及 $a^{2}=b^{2}+c^{2}$，得</p>\n$$\n\\frac{b^{2}}{a^{2}}=1-\\frac{c^{2}}{a^{2}}=1-\\frac{5}{9}=\\frac{4}{9}\n$$\n<p>所以 $b=\\frac{2a}{3}$.左焦点为 $F=(-c,0)$，上顶点为 $B=(0,b)$，故</p>\n$$\nFB=\\sqrt{c^{2}+b^{2}}=a\n$$\n<p>又 $A=(b,0)$，所以</p>\n$$\nAB=b\\sqrt{2}\n$$\n<p>由 $FB\\cdot AB=6\\sqrt{2}$，得 $ab=6$.结合 $b=\\frac{2a}{3}$，得 $a=3$，$b=2$.所以椭圆方程为</p>\n$$\n\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1\n$$\n</li><li><p>设 $P=(x_{1},y_{1})$，$Q=(x_{2},y_{2})$.因为 $P$，$Q$ 在同一条过原点的直线 $y=kx$ 上，且 $P$ 在椭圆第一象限内，所以 $y_{1}>y_{2}>0$.直线 $AB$ 为 $x+y=2$，且 $\\angle OAB=\\frac{\\pi}{4}$.因此</p>\n$$\n|AQ|=\\frac{y_{2}}{\\sin\\angle OAB}=\\sqrt{2}y_{2}\n$$\n<p>又 $PQ$ 与 $OQ$ 同方向，故</p>\n$$\n|PQ|\\sin\\angle AOQ=y_{1}-y_{2}\n$$\n<p>将这两式代入题设条件，得</p>\n$$\n\\sqrt{2}y_{2}=\\frac{5\\sqrt{2}}{4}(y_{1}-y_{2})  \\Longrightarrow 5y_{1}=9y_{2}\n$$\n<p>由 $P\\in y=kx$ 且 $P$ 在椭圆上，</p>\n$$\n\\frac{x_{1}^{2}}{9}+\\frac{k^{2}x_{1}^{2}}{4}=1\n$$\n<p>从而</p>\n$$\ny_{1}=kx_{1}=\\frac{6k}{\\sqrt{9k^{2}+4}}\n$$\n<p>由 $Q\\in y=kx$ 且 $x_{2}+y_{2}=2$，得</p>\n$$\ny_{2}=\\frac{2k}{k+1}\n$$\n<p>代入 $5y_{1}=9y_{2}$，并利用 $k>0$，得</p>\n$$\n5(k+1)=3\\sqrt{9k^{2}+4}\n$$\n<p>两边平方并整理，得</p>\n$$\n56k^{2}-50k+11=0\n$$\n<p>所以</p>\n$$\nk=\\frac{50\\pm6}{112}\n$$\n<p>即 $k=\\frac{1}{2}$ 或 $k=\\frac{11}{28}$.两值均为正，且均满足平方前的等式.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知函数 $f(x)=a^{x}$，$g(x)=\\log_{a} x$，其中 $a>1$.</p><ol class=\"enumerate\"><li><p>求函数 $h(x)=f(x)-x\\ln a$ 的单调区间；</p></li><li><p>若曲线 $y=f(x)$ 在点 $(x_{1},f(x_{1}))$ 处的切线与曲线 $y=g(x)$ 在点 $(x_{2},g(x_{2}))$ 处的切线平行，证明 $x_{1}+g(x_{2})=-\\frac{2\\ln\\ln a}{\\ln a}$；</p></li><li><p>证明当 $a\\ge \\mathrm{e}^{\\frac{1}{\\mathrm{e}}}$ 时，存在直线 $l$，使 $l$ 是曲线 $y=f(x)$ 的切线，也是曲线 $y=g(x)$ 的切线.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记 $L=\\ln a$，则 $L>0$，且</p>\n$$\nh'(x)=a^{x}\\ln a-\\ln a=L(a^{x}-1)\n$$\n<p>因为 $a^{x}<1$ 当 $x<0$，$a^{x}=1$ 当 $x=0$，$a^{x}>1$ 当 $x>0$，所以 $h(x)$ 在 $(-\\infty,0)$ 上单调递减，在 $(0,+\\infty)$ 上单调递增.</p></li><li><p>两条切线平行，所以斜率相等.由</p><p>$f'(x_{1})=a^{x_1}\\ln a$，$g'(x_{2})=\\frac{1}{x_{2}\\ln a}$</p><p>得</p>\n$$\na^{x_1}\\ln a=\\frac{1}{x_{2}\\ln a}\n$$\n<p>两边取自然对数，得</p>\n$$\nx_{1}\\ln a+\\ln x_{2}+2\\ln\\ln a=0\n$$\n<p>除以 $\\ln a$，并注意 $g(x_{2})=\\frac{\\ln x_{2}}{\\ln a}$，可得</p>\n$$\nx_{1}+g(x_{2})=-\\frac{2\\ln\\ln a}{\\ln a}\n$$\n</li><li><p>仍记 $L=\\ln a$.在 $x_{1}$ 处，曲线 $y=f(x)$ 的切线为</p>\n$$\nl_{1}:\\ y=a^{x_1}+a^{x_1}L(x-x_{1})\n$$\n<p>在 $x_{2}$ 处，曲线 $y=g(x)$ 的切线为</p>\n$$\nl_{2}:\\ y=\\frac{\\ln x_{2}}{L}+\\frac{1}{x_{2}L}(x-x_{2})\n$$\n<p>若两切线重合，首先必须有斜率相等，即</p>\n$$\na^{x_1}L=\\frac{1}{x_{2}L}\n$$\n<p>此时</p>\n$$\nx_{2}=\\frac{1}{a^{x_1}L^{2}}>0\n$$\n<p>将其代入两条切线的截距相等条件，得到只含 $x_{1}$ 的方程</p>\n$$\nu(x_{1})=a^{x_1}(1-Lx_{1})+x_{1}+\\frac{1}{L}+\\frac{2\\ln L}{L}=0\n$$\n<p>其中</p>\n$$\nu(x)=a^{x}(1-Lx)+x+\\frac{1}{L}+\\frac{2\\ln L}{L}\n$$\n<p>下面证明当 $L\\ge\\frac{1}{\\mathrm{e}}$ 时 $u$ 有零点.其导数为</p>\n$$\nu'(x)=1-L^{2}xa^{x}\n$$\n<p>当 $x<0$ 时，$u'(x)>0$.当 $x>0$ 时，</p>\n$$\nu''(x)=-L^{2}a^{x}(1+Lx)<0\n$$\n<p>所以 $u'(x)$ 在 $(0,+\\infty)$ 上递减.又</p><p>$u'(0)=1>0$，$u'\\left(\\frac{1}{L^{2}}\\right)=1-a^{\\frac{1}{L^{2}}}<0$，</p><p>故存在唯一的 $x_{0}>0$ 使 $u'(x_{0})=0$，且 $u$ 在 $x_{0}$ 处取得最大值.由 $u'(x_{0})=0$，得</p>\n$$\nL^{2}x_{0}a^{x_0}=1\n$$\n<p>从而</p>\n$$\nu(x_{0})=\\frac{1}{L^{2}x_{0}}+x_{0}+\\frac{2\\ln L}{L}\\ge\\frac{2}{L}+\\frac{2\\ln L}{L}=\\frac{2(1+\\ln L)}{L}\\ge0\n$$\n<p>另一方面，由 $a^{x}=\\mathrm{e}^{Lx}\\ge1+Lx$，当 $x>\\frac{1}{L}$ 时有</p>\n$$\nu(x)\\le(1+Lx)(1-Lx)+x+\\frac{1}{L}+\\frac{2\\ln L}{L}\n$$\n<p>右端是关于 $x$ 的二次式，且当 $x\\to+\\infty$ 时趋于 $-\\infty$.因此可取充分大的 $x_{1}>x_{0}$，使 $u(x_{1})<0$.由连续函数零点定理，方程 $u(x)=0$ 在 $x_{0}$ 与该 $x_{1}$ 之间有解.</p><p>取这个解为 $x_{1}$，再令</p>\n$$\nx_{2}=\\frac{1}{a^{x_1}L^{2}}>0\n$$\n<p>则两条切线斜率相等且截距相等，因而重合为同一直线.由 $L\\ge\\frac{1}{\\mathrm{e}}\\Longleftrightarrow a\\ge \\mathrm{e}^{\\frac{1}{\\mathrm{e}}}$，结论得证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记 $L=\\ln a$，则 $L>0$，且</p>\n$$\nh'(x)=a^{x}\\ln a-\\ln a=L(a^{x}-1)\n$$\n<p>因为 $a^{x}<1$ 当 $x<0$，$a^{x}=1$ 当 $x=0$，$a^{x}>1$ 当 $x>0$，所以 $h(x)$ 在 $(-\\infty,0)$ 上单调递减，在 $(0,+\\infty)$ 上单调递增.</p></li><li><p>两条切线平行，所以斜率相等.由</p><p>$f'(x_{1})=a^{x_1}\\ln a$，$g'(x_{2})=\\frac{1}{x_{2}\\ln a}$</p><p>得</p>\n$$\na^{x_1}\\ln a=\\frac{1}{x_{2}\\ln a}\n$$\n<p>两边取自然对数，得</p>\n$$\nx_{1}\\ln a+\\ln x_{2}+2\\ln\\ln a=0\n$$\n<p>除以 $\\ln a$，并注意 $g(x_{2})=\\frac{\\ln x_{2}}{\\ln a}$，可得</p>\n$$\nx_{1}+g(x_{2})=-\\frac{2\\ln\\ln a}{\\ln a}\n$$\n</li><li><p>仍记 $L=\\ln a$.在 $x_{1}$ 处，曲线 $y=f(x)$ 的切线为</p>\n$$\nl_{1}:\\ y=a^{x_1}+a^{x_1}L(x-x_{1})\n$$\n<p>在 $x_{2}$ 处，曲线 $y=g(x)$ 的切线为</p>\n$$\nl_{2}:\\ y=\\frac{\\ln x_{2}}{L}+\\frac{1}{x_{2}L}(x-x_{2})\n$$\n<p>若两切线重合，首先必须有斜率相等，即</p>\n$$\na^{x_1}L=\\frac{1}{x_{2}L}\n$$\n<p>此时</p>\n$$\nx_{2}=\\frac{1}{a^{x_1}L^{2}}>0\n$$\n<p>将其代入两条切线的截距相等条件，得到只含 $x_{1}$ 的方程</p>\n$$\nu(x_{1})=a^{x_1}(1-Lx_{1})+x_{1}+\\frac{1}{L}+\\frac{2\\ln L}{L}=0\n$$\n<p>其中</p>\n$$\nu(x)=a^{x}(1-Lx)+x+\\frac{1}{L}+\\frac{2\\ln L}{L}\n$$\n<p>下面证明当 $L\\ge\\frac{1}{\\mathrm{e}}$ 时 $u$ 有零点.其导数为</p>\n$$\nu'(x)=1-L^{2}xa^{x}\n$$\n<p>当 $x<0$ 时，$u'(x)>0$.当 $x>0$ 时，</p>\n$$\nu''(x)=-L^{2}a^{x}(1+Lx)<0\n$$\n<p>所以 $u'(x)$ 在 $(0,+\\infty)$ 上递减.又</p><p>$u'(0)=1>0$，$u'\\left(\\frac{1}{L^{2}}\\right)=1-a^{\\frac{1}{L^{2}}}<0$，</p><p>故存在唯一的 $x_{0}>0$ 使 $u'(x_{0})=0$，且 $u$ 在 $x_{0}$ 处取得最大值.由 $u'(x_{0})=0$，得</p>\n$$\nL^{2}x_{0}a^{x_0}=1\n$$\n<p>从而</p>\n$$\nu(x_{0})=\\frac{1}{L^{2}x_{0}}+x_{0}+\\frac{2\\ln L}{L}\\ge\\frac{2}{L}+\\frac{2\\ln L}{L}=\\frac{2(1+\\ln L)}{L}\\ge0\n$$\n<p>另一方面，由 $a^{x}=\\mathrm{e}^{Lx}\\ge1+Lx$，当 $x>\\frac{1}{L}$ 时有</p>\n$$\nu(x)\\le(1+Lx)(1-Lx)+x+\\frac{1}{L}+\\frac{2\\ln L}{L}\n$$\n<p>右端是关于 $x$ 的二次式，且当 $x\\to+\\infty$ 时趋于 $-\\infty$.因此可取充分大的 $x_{1}>x_{0}$，使 $u(x_{1})<0$.由连续函数零点定理，方程 $u(x)=0$ 在 $x_{0}$ 与该 $x_{1}$ 之间有解.</p><p>取这个解为 $x_{1}$，再令</p>\n$$\nx_{2}=\\frac{1}{a^{x_1}L^{2}}>0\n$$\n<p>则两条切线斜率相等且截距相等，因而重合为同一直线.由 $L\\ge\\frac{1}{\\mathrm{e}}\\Longleftrightarrow a\\ge \\mathrm{e}^{\\frac{1}{\\mathrm{e}}}$，结论得证.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

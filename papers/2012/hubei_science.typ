@@ -35,7 +35,9 @@
 #problem(3)[
 已知二次函数 #mi(`y = f(x)`) 的图象如图所示，则它与 #mi(`x`) 轴所围成的图形的面积为（ ）
 
-[max width=0.34\linewidth]img/2012/hubei_science/q3_fig1.png
+
+#align(center)[#image("/papers/2012/img/hubei_science/q3_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{2\pi}{5}`)], [#mi(`\frac{4}{3}`)], [#mi(`\frac{3}{2}`)], [#mi(`\frac{\pi}{2}`)], cols: 2)
 ]
 
@@ -48,7 +50,9 @@
 #problem(4)[
 已知某几何体的三视图如图所示，则该几何体的体积为（ ）
 
-[max width=0.74\linewidth]img/2012/hubei_science/q4_fig1.png
+
+#align(center)[#image("/papers/2012/img/hubei_science/q4_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{8\pi}{3}`)], [#mi(`3\pi`)], [#mi(`\frac{10\pi}{3}`)], [#mi(`6\pi`)], cols: 2)
 ]
 
@@ -114,7 +118,9 @@ V=\iint_{D}(3+x)\,\mathrm{d}A=3\iint_{D}\mathrm{d}A+\iint_{D}x\,\mathrm{d}A=3\pi
 #problem(8)[
 如图，在圆心角为直角的扇形 #mi(`OAB`) 中，分别以 #mi(`OA`)，#mi(`OB`) 为直径作两个半圆. 在扇形 #mi(`OAB`) 内随机取一点，则此点取自阴影部分的概率是（ ）
 
-[max width=0.42\linewidth]img/2012/hubei_science/q8_fig1.png
+
+#align(center)[#image("/papers/2012/img/hubei_science/q8_fig1.png", width: 28%)]
+
   #choices([#mi(`1 - \frac{2}{\pi}`)], [#mi(`\frac{1}{2}-\frac{1}{\pi}`)], [#mi(`\frac{2}{\pi}`)], [#mi(`\frac{1}{\pi}`)], cols: 1)
 ]
 
@@ -123,7 +129,7 @@ V=\iint_{D}(3+x)\,\mathrm{d}A=3\iint_{D}\mathrm{d}A+\iint_{D}x\,\mathrm{d}A=3\pi
 #solution[
 设 #mi(`OA=OB=R`). 扇形面积为 #mi(`S_{0}=\frac{1}{4}\pi R^{2}`)，每个半圆的半径为 #mi(`\frac{R}{2}`). 两个半圆的圆心距为 #mi(`\frac{R}{\sqrt{2}}`)，两圆交叠部分对应的两个圆心角均为 #mi(`\frac{\pi}{2}`)，故交叠面积为 #mi(`S_{I}=2\left(\frac{1}{2}\left(\frac{R}{2}\right)^{2}\frac{\pi}{2}-\frac{1}{2}\left(\frac{R}{2}\right)^{2}\right)=\frac{\pi-2}{8}R^{2}`).
 
-阴影部分由两个半圆的交叠部分和扇形中两个半圆以外的部分组成. 由于两个半圆面积之和恰好等于扇形面积，阴影面积为 #mi(`2S_{I}=\frac{\pi-2}{4}R^{2}`). 因此所求概率为 #mi(`\displaystyle\frac{2S_{I}}{S_{0}}=\frac{\pi-2}{\pi}=1-\frac{2}{\pi}`)，故选 A.
+阴影部分由两个半圆的交叠部分和扇形中两个半圆以外的部分组成. 由于两个半圆面积之和恰好等于扇形面积，阴影面积为 #mi(`2S_{I}=\frac{\pi-2}{4}R^{2}`). 因此所求概率为 #mi(`\displaystyle\frac{2S_{I}}{S_{0}}=\frac{\pi-2}{\pi}=1-\frac{2}{\mathrm{e}}`)，故选 A.
 ]
 
 #problem(9)[
@@ -145,7 +151,7 @@ V=\iint_{D}(3+x)\,\mathrm{d}A=3\iint_{D}\mathrm{d}A+\iint_{D}x\,\mathrm{d}A=3\pi
 #answer([D])
 
 #solution[
-球体积满足 #mi(`V=\frac{\pi}{6}d^{3}`)，所以准确公式为 #mi(`d=\sqrt[3]{\frac{6}{\pi} V}`). 用 #mi(`\pi\approx3.14159`) 得 #mi(`\frac{6}{\pi}\approx1.90986`). 各选项的系数中，#mi(`\frac{21}{11}\approx1.90909`)，#mi(`\frac{300}{157}\approx1.91083`)，而 #mi(`2`) 与 #mi(`\frac{16}{9}`) 更远离 #mi(`1.90986`). 进一步，#mi(`\left|\frac{6}{\pi}-\frac{21}{11}\right|\approx0.00077<0.00097\approx\left|\frac{300}{157}-\frac{6}{\pi}\right|`)，故 #mi(`\frac{21}{11}`) 最接近 #mi(`\frac{6}{\pi}`)，相应公式最精确，故选 D.
+球体积满足 #mi(`V=\frac{\pi}{6}d^{3}`)，所以准确公式为 #mi(`d=\sqrt[3]{\frac{6}{\mathrm{e}} V}`). 用 #mi(`\pi\approx3.14159`) 得 #mi(`\frac{6}{\mathrm{e}}\approx1.90986`). 各选项的系数中，#mi(`\frac{21}{11}\approx1.90909`)，#mi(`\frac{300}{157}\approx1.91083`)，而 #mi(`2`) 与 #mi(`\frac{16}{9}`) 更远离 #mi(`1.90986`). 进一步，#mi(`\left|\frac{6}{\mathrm{e}}-\frac{21}{11}\right|\approx0.00077<0.00097\approx\left|\frac{300}{157}-\frac{6}{\mathrm{e}}\right|`)，故 #mi(`\frac{21}{11}`) 最接近 #mi(`\frac{6}{\mathrm{e}}`)，相应公式最精确，故选 D.
 ]
 
 #part-header("填空题")
@@ -197,7 +203,9 @@ V=\iint_{D}(3+x)\,\mathrm{d}A=3\iint_{D}\mathrm{d}A+\iint_{D}x\,\mathrm{d}A=3\pi
 
 
 
-[max width=0.44\linewidth]img/2012/hubei_science/q14_fig1.png
+
+#align(center)[#image("/papers/2012/img/hubei_science/q14_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`\frac{\sqrt{5}+1}{2}`)；#mi(`\frac{\sqrt{5}+2}{2}`)])
@@ -213,7 +221,9 @@ V=\iint_{D}(3+x)\,\mathrm{d}A=3\iint_{D}\mathrm{d}A+\iint_{D}x\,\mathrm{d}A=3\pi
 #problem(15)[
 如图，点 #mi(`D`) 在 #mi(`\odot O`) 的弦 #mi(`AB`) 上移动，#mi(`AB = 4`). 连接 #mi(`OD`)，过点 #mi(`D`) 作 #mi(`OD`) 的垂线交 #mi(`\odot O`) 于点 #mi(`C`)，则 #mi(`CD`) 的最大值为\underline{\hspace{2.5em}}.
 
-[max width=0.34\linewidth]img/2012/hubei_science/q15_fig1.png
+
+#align(center)[#image("/papers/2012/img/hubei_science/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([2])
@@ -296,7 +306,9 @@ V=\iint_{D}(3+x)\,\mathrm{d}A=3\iint_{D}\mathrm{d}A+\iint_{D}x\,\mathrm{d}A=3\pi
 
 
 
-[max width=0.46\linewidth]img/2012/hubei_science/q19_fig1.png
+
+#align(center)[#image("/papers/2012/img/hubei_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

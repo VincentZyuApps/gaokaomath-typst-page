@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,249 +11,249 @@
 #part-header("单选题")
 
 #problem(1)[
-设 $S$，$T$ 是两个非空集合，且 $S not subset.eq T$，$T not subset.eq S$，令 $X = S inter T$，那么 $S union X$ 等于（ ）
-  #choices([$X$], [$T$], [$emptyset$], [$S$], cols: 4)
+设 #mi(`S`)，#mi(`T`) 是两个非空集合，且 #mi(`S \not\subseteq T`)，#mi(`T \not\subseteq S`)，令 #mi(`X = S \cap T`)，那么 #mi(`S \cup X`) 等于（ ）
+  #choices([#mi(`X`)], [#mi(`T`)], [#mi(`\varnothing`)], [#mi(`S`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由 $X=S inter T$ 可知，$X subset.eq S$. 集合与其子集的并仍等于这个集合，因此 $S union X=S$，故选 D.
+由 #mi(`X=S\cap T`) 可知，#mi(`X\subseteq S`). 集合与其子集的并仍等于这个集合，因此 #mi(`S\cup X=S`)，故选 D.
 ]
 
 #problem(2)[
-设椭圆方程为 $(x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > b > 0$），令 $c = sqrt(a^2 - b^2)$，那么它的准线方程为（ ）
-  #choices([$y = +- (a^2)/(c)$], [$y = +- (b^2)/(c)$], [$x = +- (a^2)/(c)$], [$x = +- (b^2)/(c)$], cols: 2)
+设椭圆方程为 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)），令 #mi(`c = \sqrt{a^{2} - b^{2}}`)，那么它的准线方程为（ ）
+  #choices([#mi(`y = \pm \frac{a^{2}}{c}`)], [#mi(`y = \pm \frac{b^{2}}{c}`)], [#mi(`x = \pm \frac{a^{2}}{c}`)], [#mi(`x = \pm \frac{b^{2}}{c}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-因为 $a>b>0$，分母较大的 $a^2$ 对应长轴，所以椭圆的长轴在 $x$ 轴上，焦点为 $F_1(c,0)$ 和 $F_2(-c,0)$. 其离心率为 $e=(c)/(a)$. 椭圆的准线垂直于长轴，且标准椭圆的两条准线分别为 $x= +- (a)/(e)$. 代入 $e=(c)/(a)$，得 $x= +- (a^2)/(c)$，故选 C.
+因为 #mi(`a>b>0`)，分母较大的 #mi(`a^{2}`) 对应长轴，所以椭圆的长轴在 #mi(`x`) 轴上，焦点为 #mi(`F_{1}(c,0)`) 和 #mi(`F_{2}(-c,0)`). 其离心率为 #mi(`e=\frac{c}{a}`). 椭圆的准线垂直于长轴，且标准椭圆的两条准线分别为 #mi(`x=\pm\frac{a}{e}`). 代入 #mi(`e=\frac{c}{a}`)，得 #mi(`x=\pm\frac{a^{2}}{c}`)，故选 C.
 ]
 
 #problem(3)[
-设 $log _3 4 dot log _4 8 dot log _8 m = log _4 16$，那么 $m$ 等于（ ）
-  #choices([$(9)/(2)$], [$9$], [$18$], [$27$], cols: 4)
+设 #mi(`\log_{3} 4 \cdot \log_{4} 8 \cdot \log_{8} m = \log_{4} 16`)，那么 #mi(`m`) 等于（ ）
+  #choices([#mi(`\frac{9}{2}`)], [#mi(`9`)], [#mi(`18`)], [#mi(`27`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由对数换底公式，$log _3 4 dot log _4 8= log _3 8$，从而原等式左边为 $log _3 8 dot log _(8) m= log _(3) m$. 右边 $log _4 16=2$，所以 $log _(3) m=2$，解得 $m=3^2=9$. 该值满足对数真数 $m>0$，故选 B.
+由对数换底公式，#mi(`\log_{3} 4\cdot\log_{4} 8=\log_{3} 8`)，从而原等式左边为 #mi(`\log_{3} 8\cdot\log_{8}m=\log_{3}m`). 右边 #mi(`\log_{4} 16=2`)，所以 #mi(`\log_{3}m=2`)，解得 #mi(`m=3^{2}=9`). 该值满足对数真数 #mi(`m>0`)，故选 B.
 ]
 
 #problem(4)[
-复数 $sin 40 ""^ degree - i cos 40 ""^ degree$ 的辐角为（ ）
-  #choices([$40^ degree$], [$140^ degree$], [$220^ degree$], [$310^ degree$], cols: 4)
+复数 #mi(`\sin 40^{\circ} - \mathrm{i}\cos 40^{\circ}`) 的辐角为（ ）
+  #choices([#mi(`40^{\circ}`)], [#mi(`140^{\circ}`)], [#mi(`220^{\circ}`)], [#mi(`310^{\circ}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-利用余函数关系，$sin 40 ""^ degree = cos 50 ""^ degree$，$cos 40 ""^ degree = sin 50 ""^ degree$，因此 $sin 40 ""^ degree - i cos 40 ""^ degree = cos 50 ""^ degree - i sin 50 ""^ degree$. 又 $cos (-50^ degree )= cos 50 ""^ degree$，$sin (-50^ degree )=- sin 50 ""^ degree$，所以该复数可写为 $cos (-50^ degree )+ i sin (-50^ degree )$. 它的辐角为 $-50^ degree +360^ degree k$（$k in ZZ$），在给出的 $0^ degree$ 到 $360^ degree$ 的选项中对应 $310^ degree$，故选 D.
+利用余函数关系，#mi(`\sin40^{\circ}=\cos50^{\circ}`)，#mi(`\cos40^{\circ}=\sin50^{\circ}`)，因此 #mi(`\sin40^{\circ}-\mathrm{i}\cos40^{\circ}=\cos50^{\circ}-\mathrm{i}\sin50^{\circ}`). 又 #mi(`\cos(-50^{\circ})=\cos50^{\circ}`)，#mi(`\sin(-50^{\circ})=-\sin50^{\circ}`)，所以该复数可写为 #mi(`\cos(-50^{\circ})+\mathrm{i}\sin(-50^{\circ})`). 它的辐角为 #mi(`-50^{\circ}+360^{\circ} k`)（#mi(`k\in\mathbb{Z}`)），在给出的 #mi(`0^{\circ}`) 到 #mi(`360^{\circ}`) 的选项中对应 #mi(`310^{\circ}`)，故选 D.
 ]
 
 #problem(5)[
-二次函数 $y = f(x)$ 的图象如图所示，那么此函数为（ ）
+二次函数 #mi(`y = f(x)`) 的图象如图所示，那么此函数为（ ）
 
 
+#align(center)[#image("/papers/1987/img/national_liberal/q5_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/1987/img/national_liberal/q5_fig1.png", width: 44%)]
-  #choices([$y = x^2 - 4$], [$y = 4 - x^2$], [$y = (3)/(4)(4 - x^2)$], [$y = (3)/(4)(2 - x^2)$], cols: 2)
+  #choices([#mi(`y = x^{2} - 4`)], [#mi(`y = 4 - x^{2}`)], [#mi(`y = \frac{3}{4}\left(4 - x^{2}\right)`)], [#mi(`y = \frac{3}{4}\left(2 - x^{2}\right)`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-由图象可知抛物线的顶点为 $(0,3)$，且与 $x$ 轴交于 $(-2,0)$ 和 $(2,0)$. 因为对称轴为 $y$ 轴，可设函数为 $f(x)=A x^2+3$. 代入图象上的点 $(2,0)$，得 $4 A+3=0$，所以 $A=-(3)/(4)$. 于是 $f(x)=3-(3)/(4)x^2=(3)/(4)(4-x^2)$，故选 C.
+由图象可知抛物线的顶点为 #mi(`(0,3)`)，且与 #mi(`x`) 轴交于 #mi(`(-2,0)`) 和 #mi(`(2,0)`). 因为对称轴为 #mi(`y`) 轴，可设函数为 #mi(`f(x)=Ax^{2}+3`). 代入图象上的点 #mi(`(2,0)`)，得 #mi(`4A+3=0`)，所以 #mi(`A=-\frac{3}{4}`). 于是 #mi(`f(x)=3-\frac{3}{4}x^{2}=\frac{3}{4}\left(4-x^{2}\right)`)，故选 C.
 ]
 
 #problem(6)[
-在区间 $(- oo ,0)$ 上为增函数的是（ ）
-  #choices([$y = - log _((1)/(2))(-x)$], [$y = (x)/(1 - x)$], [$y = -(x + 1)^2$], [$y = 1 + x^2$], cols: 2)
+在区间 #mi(`(-\infty,0)`) 上为增函数的是（ ）
+  #choices([#mi(`y = -\log_{\frac{1}{2}}(-x)`)], [#mi(`y = \frac{x}{1 - x}`)], [#mi(`y = -(x + 1)^{2}`)], [#mi(`y = 1 + x^{2}`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-在区间 $(- oo ,0)$ 内分别判断各函数的导数. 选项 A 中 $y'=-(1)/(x ln (1)/(2))<0$，因为 $x<0$ 且 $ln (1)/(2)<0$，所以它是减函数. 选项 B 中 $y'=((1-x)+x)/((1-x)^2)=(1)/((1-x)^2)>0$，所以它在整个区间上为增函数. 选项 C 中 $y'=-2(x+1)$，当 $x<-1$ 时导数为正，当 $-1<x<0$ 时导数为负，不能在整个区间上保持增性. 选项 D 中 $y'=2 x<0$，为减函数. 因此只有选项 B 符合，故选 B.
+在区间 #mi(`(-\infty,0)`) 内分别判断各函数的导数. 选项 A 中 #mi(`y'=-\frac{1}{x\ln\frac{1}{2}}<0`)，因为 #mi(`x<0`) 且 #mi(`\ln\frac{1}{2}<0`)，所以它是减函数. 选项 B 中 #mi(`y'=\frac{(1-x)+x}{(1-x)^{2}}=\frac{1}{(1-x)^{2}}>0`)，所以它在整个区间上为增函数. 选项 C 中 #mi(`y'=-2(x+1)`)，当 #mi(`x<-1`) 时导数为正，当 #mi(`-1<x<0`) 时导数为负，不能在整个区间上保持增性. 选项 D 中 #mi(`y'=2x<0`)，为减函数. 因此只有选项 B 符合，故选 B.
 ]
 
 #problem(7)[
-已知平面上一点 $P$ 在原坐标系中的坐标为 $(0,m)$（$m != 0$），而在平移后的新坐标系中的坐标为 $(m,0)$，那么新坐标系的原点 $O'$ 在原坐标系中的坐标为（ ）
-  #choices([$(-m,m)$], [$(m,-m)$], [$(m,m)$], [$(-m,-m)$], cols: 4)
+已知平面上一点 #mi(`P`) 在原坐标系中的坐标为 #mi(`(0,m)`)（#mi(`m \neq 0`)），而在平移后的新坐标系中的坐标为 #mi(`(m,0)`)，那么新坐标系的原点 #mi(`O'`) 在原坐标系中的坐标为（ ）
+  #choices([#mi(`(-m,m)`)], [#mi(`(m,-m)`)], [#mi(`(m,m)`)], [#mi(`(-m,-m)`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-设新坐标系原点 $O'$ 在原坐标系中的坐标为 $(h,k)$. 平移只改变原点，不改变坐标轴的方向，所以任一点的“新坐标”都等于它的原坐标减去 $(h,k)$. 点 $P$ 的两组坐标满足 $(0-h,m-k)=(m,0)$. 比较两个坐标，得到 $h=-m$，$k=m$，所以 $O'$ 的原坐标为 $(-m,m)$，故选 A.
+设新坐标系原点 #mi(`O'`) 在原坐标系中的坐标为 #mi(`(h,k)`). 平移只改变原点，不改变坐标轴的方向，所以任一点的“新坐标”都等于它的原坐标减去 #mi(`(h,k)`). 点 #mi(`P`) 的两组坐标满足 #mi(`(0-h,m-k)=(m,0)`). 比较两个坐标，得到 #mi(`h=-m`)，#mi(`k=m`)，所以 #mi(`O'`) 的原坐标为 #mi(`(-m,m)`)，故选 A.
 ]
 
 #problem(8)[
-要得到函数 $y = sin (2 x - (pi)/(3))$ 的图象，只需将函数 $y = sin 2 x$ 的图象（如图）（ ）
+要得到函数 #mi(`y = \sin \left(2x - \frac{\pi}{3}\right)`) 的图象，只需将函数 #mi(`y = \sin 2x`) 的图象（如图）（ ）
 
 
-#align(center)[#image("/papers/1987/img/national_liberal/q8_fig1.png", width: 50%)]
-  #choices([向左平行移动 $(pi)/(3)$], [向右平行移动 $(pi)/(3)$], [向左平行移动 $(pi)/(6)$], [向右平行移动 $(pi)/(6)$], cols: 2)
+#align(center)[#image("/papers/1987/img/national_liberal/q8_fig1.png", width: 28%)]
+
+  #choices([向左平行移动 #mi(`\frac{\pi}{3}`)], [向右平行移动 #mi(`\frac{\pi}{3}`)], [向左平行移动 #mi(`\frac{\pi}{6}`)], [向右平行移动 #mi(`\frac{\pi}{6}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-将自变量中的式子配成 $2$ 与平移量的形式：$2 x-(pi)/(3)=2(x-(pi)/(6))$. 因此 $y= sin (2(x-(pi)/(6)))$ 是把 $y= sin 2 x$ 中的 $x$ 换成 $x-(pi)/(6)$ 得到的图象，也就是向右平移 $(pi)/(6)$，故选 D.
+将自变量中的式子配成 #mi(`2`) 与平移量的形式：#mi(`2x-\frac{\pi}{3}=2\left(x-\frac{\pi}{6}\right)`). 因此 #mi(`y=\sin\left(2\left(x-\frac{\pi}{6}\right)\right)`) 是把 #mi(`y=\sin2x`) 中的 #mi(`x`) 换成 #mi(`x-\frac{\pi}{6}`) 得到的图象，也就是向右平移 #mi(`\frac{\pi}{6}`)，故选 D.
 ]
 
 #part-header("解答题")
 
 #problem(9)[
-求函数 $y = sin ""^2 2 x$ 的周期.
+求函数 #mi(`y = \sin^{2} 2x`) 的周期.
 ]
 
 #solution[
-由降幂公式，$y= sin ""^2 2 x=(1- cos 4 x)/(2)$. 函数 $cos 4 x$ 的最小正周期为 $(2 pi)/(4)=(pi)/(2)$，加上常数并乘以非零常数不会改变周期，因此 $y= sin ""^(2) 2 x$ 的最小正周期为 $(pi)/(2)$.
+由降幂公式，#mi(`y=\sin^{2} 2x=\frac{1-\cos4x}{2}`). 函数 #mi(`\cos4x`) 的最小正周期为 #mi(`\frac{2\pi}{4}=\frac{\pi}{2}`)，加上常数并乘以非零常数不会改变周期，因此 #mi(`y=\sin^{2}2x`) 的最小正周期为 #mi(`\frac{\pi}{2}`).
 ]
 
 #problem(10)[
-已知方程 $(x^2)/(2 + lambda)- (y^2)/(1 + lambda)= 1$ 表示双曲线，求 $lambda$ 的范围.
+已知方程 #mi(`\frac{x^{2}}{2 + \lambda}- \frac{y^{2}}{1 + \lambda}= 1`) 表示双曲线，求 #mi(`\lambda`) 的范围.
 ]
 
 #solution[
-当 $lambda =-2$ 或 $lambda =-1$ 时，方程中的一个分母为零，方程没有意义，所以这两个值必须排除. 将方程写成 $A x^2+B y^2=1$，其中 $A=(1)/(lambda +2)$，$B=-(1)/(lambda +1)$. 要表示非退化双曲线，$x^2$ 与 $y^2$ 的系数必须异号，即 $A B<0$. 于是 $A B=-(1)/(( lambda +2)( lambda +1))<0$ 等价于 $( lambda +2)( lambda +1)>0$. 在临界点 $-2$，$-1$ 两侧作符号判断，得 $lambda <-2$ 或 $lambda >-1$.
+当 #mi(`\lambda=-2`) 或 #mi(`\lambda=-1`) 时，方程中的一个分母为零，方程没有意义，所以这两个值必须排除. 将方程写成 #mi(`Ax^{2}+By^{2}=1`)，其中 #mi(`A=\frac{1}{\lambda+2}`)，#mi(`B=-\frac{1}{\lambda+1}`). 要表示非退化双曲线，#mi(`x^{2}`) 与 #mi(`y^{2}`) 的系数必须异号，即 #mi(`AB<0`). 于是 #mi(`AB=-\frac{1}{(\lambda+2)(\lambda+1)}<0`) 等价于 #mi(`(\lambda+2)(\lambda+1)>0`). 在临界点 #mi(`-2`)，#mi(`-1`) 两侧作符号判断，得 #mi(`\lambda<-2`) 或 #mi(`\lambda>-1`).
 ]
 
 #problem(11)[
-若 $(1 + x)^n$ 的展开式中，$x^3$ 的系数等于 $x$ 的系数的 $7$ 倍，求 $n$.
+若 #mi(`(1 + x)^{n}`) 的展开式中，#mi(`x^{3}`) 的系数等于 #mi(`x`) 的系数的 #mi(`7`) 倍，求 #mi(`n`).
 ]
 
 #solution[
-这里 $n$ 为正整数. 若 $n<3$，则 $x^3$ 的系数为 $0$，而 $x$ 的系数为 $n>0$，不可能满足题设，所以 $n\g e q3$. 由二项式定理，$x$ 的系数为 $C_n^1=n$，$x^3$ 的系数为 $C_n^3=(n(n-1)(n-2))/(6)$. 根据题意，$(n(n-1)(n-2))/(6)=7 n$. 因 $n>0$，约去 $n$，得 $(n-1)(n-2)=42$，即 $n^2-3 n-40=0$. 因式分解得 $(n-8)(n+5)=0$，所以 $n=8$ 或 $n=-5$. 结合 $n$ 为正整数，得 $n=8$.
+这里 #mi(`n`) 为正整数. 若 #mi(`n<3`)，则 #mi(`x^{3}`) 的系数为 #mi(`0`)，而 #mi(`x`) 的系数为 #mi(`n>0`)，不可能满足题设，所以 #mi(`n\geq3`). 由二项式定理，#mi(`x`) 的系数为 #mi(`\mathrm{C}_{n}^{1}=n`)，#mi(`x^{3}`) 的系数为 #mi(`\mathrm{C}_{n}^{3}=\frac{n(n-1)(n-2)}{6}`). 根据题意，#mi(`\frac{n(n-1)(n-2)}{6}=7n`). 因 #mi(`n>0`)，约去 #mi(`n`)，得 #mi(`(n-1)(n-2)=42`)，即 #mi(`n^{2}-3n-40=0`). 因式分解得 #mi(`(n-8)(n+5)=0`)，所以 #mi(`n=8`) 或 #mi(`n=-5`). 结合 #mi(`n`) 为正整数，得 #mi(`n=8`).
 ]
 
 #problem(12)[
-求极限：$lim_(n -> oo )((1)/(n^2)+ (2)/(n^2)+ (3)/(n^2)+ dots.c + (2 n)/(n^2))$.
+求极限：#mi(`\displaystyle\lim_{n\to\infty}\left(\frac{1}{n^{2}}+ \frac{2}{n^{2}}+ \frac{3}{n^{2}}+ \cdots + \frac{2n}{n^{2}}\right)`).
 ]
 
 #solution[
-括号内的分子依次为从 $1$ 到 $2 n$ 的连续整数，因此 $(1)/(n^2)+(2)/(n^2)+ dots.c +(2 n)/(n^2)=(1)/(n^2)sum_(k=1)^(2 n)k$. 利用等差数列求和公式，$(1)/(n^2)sum_(k=1)^(2 n)k=(1)/(n^2) dot (2 n(2 n+1))/(2)=(2 n^2+n)/(n^2)=2+(1)/(n)$. 当 $n -> oo$ 时，$(1)/(n) -> 0$，所以原极限为 $2$.
+括号内的分子依次为从 #mi(`1`) 到 #mi(`2n`) 的连续整数，因此 #mi(`\frac{1}{n^{2}}+\frac{2}{n^{2}}+\cdots+\frac{2n}{n^{2}}=\frac{1}{n^{2}}\sum_{k=1}^{2n}k`). 利用等差数列求和公式，#mi(`\frac{1}{n^{2}}\sum_{k=1}^{2n}k=\frac{1}{n^{2}}\cdot\frac{2n(2n+1)}{2}=\frac{2n^{2}+n}{n^{2}}=2+\frac{1}{n}`). 当 #mi(`n\to\infty`) 时，#mi(`\frac{1}{n}\to0`)，所以原极限为 #mi(`2`).
 ]
 
 #problem(13)[
-由数字 $1$，$2$，$3$，$4$，$5$ 组成没有重复数字且数字 $1$ 与 $2$ 不相邻的五位数，求这种五位数的个数.
+由数字 #mi(`1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`) 组成没有重复数字且数字 #mi(`1`) 与 #mi(`2`) 不相邻的五位数，求这种五位数的个数.
 ]
 
 #solution[
-五个数字各使用一次，且首位数字不可能为 $0$，所以不考虑相邻条件时，五位数共有 $5!=120$ 个. 再数出 $1$ 与 $2$ 相邻的情形：把 $1,2$ 看作一个整体，这个整体内部可以排成 $12$ 或 $21$，有 $2$ 种；这个整体再与 $3$，$4$，$5$ 一起排列，共有 $4!$ 种. 因此相邻的五位数有 $2 dot 4 !=48$ 个. 由排除法，不相邻的五位数共有 $5!-2 dot 4 !=120-48=72$，故答案为 $72$.
+五个数字各使用一次，且首位数字不可能为 #mi(`0`)，所以不考虑相邻条件时，五位数共有 #mi(`5!=120`) 个. 再数出 #mi(`1`) 与 #mi(`2`) 相邻的情形：把 #mi(`1,2`) 看作一个整体，这个整体内部可以排成 #mi(`12`) 或 #mi(`21`)，有 #mi(`2`) 种；这个整体再与 #mi(`3`)，#mi(`4`)，#mi(`5`) 一起排列，共有 #mi(`4!`) 种. 因此相邻的五位数有 #mi(`2\cdot4!=48`) 个. 由排除法，不相邻的五位数共有 #mi(`5!-2\cdot4!=120-48=72`)，故答案为 #mi(`72`).
 ]
 
 #problem(14)[
-求函数 $y = log _2(1 + 2 x - 3 x^2)$ 的定义域.
+求函数 #mi(`y = \log_{2}(1 + 2x - 3x^{2})`) 的定义域.
 ]
 
 #solution[
-因为对数的底数 $2>0$ 且 $2 != 1$，只需令真数为正：$1+2 x-3 x^2>0$. 将左边因式分解，得 $1+2 x-3 x^2=-(3 x+1)(x-1)$，所以不等式等价于 $(3 x+1)(x-1)<0$. 两个零点为 $-(1)/(3)$ 和 $1$，由于二次项系数为正，乘积在两个零点之间为负，故定义域为 $(-(1)/(3),1)$.
+因为对数的底数 #mi(`2>0`) 且 #mi(`2\ne1`)，只需令真数为正：#mi(`1+2x-3x^{2}>0`). 将左边因式分解，得 #mi(`1+2x-3x^{2}=-(3x+1)(x-1)`)，所以不等式等价于 #mi(`(3x+1)(x-1)<0`). 两个零点为 #mi(`-\frac{1}{3}`) 和 #mi(`1`)，由于二次项系数为正，乘积在两个零点之间为负，故定义域为 #mi(`\left(-\frac{1}{3},1\right)`).
 ]
 
 #problem(15)[
-圆锥底面积为 $3 pi$，母线与底面所成的角为 $60^ degree$，求它的体积.
+圆锥底面积为 #mi(`3\pi`)，母线与底面所成的角为 #mi(`60^{\circ}`)，求它的体积.
 ]
 
 #solution[
-设圆锥底面半径为 $r$，高为 $h$，母线长为 $s$. 由底面积条件 $pi r^2=3 pi$，得 $r^2=3$，即 $r=sqrt(3)$. 在圆锥的轴截面中，母线在底面上的射影是底面半径，母线与底面所成的角就是母线与该射影所成的角. 因此在轴截面的直角三角形中，$tan 60 ""^ degree =(h)/(r)$. 代入 $r=sqrt(3)$ 和 $tan 60 ""^ degree =sqrt(3)$，得 $h=3$. 所以圆锥体积为 $V=(1)/(3) pi r^(2) h=(1)/(3) dot 3 pi dot 3 =3 pi$.
+设圆锥底面半径为 #mi(`r`)，高为 #mi(`h`)，母线长为 #mi(`s`). 由底面积条件 #mi(`\pi r^{2}=3\pi`)，得 #mi(`r^{2}=3`)，即 #mi(`r=\sqrt{3}`). 在圆锥的轴截面中，母线在底面上的射影是底面半径，母线与底面所成的角就是母线与该射影所成的角. 因此在轴截面的直角三角形中，#mi(`\tan60^{\circ}=\frac{h}{r}`). 代入 #mi(`r=\sqrt{3}`) 和 #mi(`\tan60^{\circ}=\sqrt{3}`)，得 #mi(`h=3`). 所以圆锥体积为 #mi(`V=\frac{1}{3}\pi r^{2}h=\frac{1}{3}\cdot3\pi\cdot3=3\pi`).
 ]
 
 #problem(16)[
-发电厂发出的电是三相交流电，它的三根导线上的电流强度分别是时间 $t$ 的函数：$I_A = I sin omega t$，$I_B = I sin ( omega t + 120^ degree )$，$I_C = I sin ( omega t + 240^ degree )$，求 $I_A + I_B + I_C$ 的值.
+发电厂发出的电是三相交流电，它的三根导线上的电流强度分别是时间 #mi(`t`) 的函数：#mi(`I_{A} = I\sin \omega t`)，#mi(`I_{B} = I\sin(\omega t + 120^{\circ})`)，#mi(`I_{C} = I\sin(\omega t + 240^{\circ})`)，求 #mi(`I_{A} + I_{B} + I_{C}`) 的值.
 ]
 
 #solution[
-令 $theta = omega t$. 由和角公式，$sin ( theta +120^ degree )=-(1)/(2) sin theta +(sqrt(3))/(2) cos theta$，$sin ( theta +240^ degree )=-(1)/(2) sin theta -(sqrt(3))/(2) cos theta$. 因此
-$\b e g i n{a l i g n e d} I_A+I_B+I_C &=I[ sin theta + sin ( theta +120^ degree )+ sin ( theta +240^ degree )]\\ &=I[ sin theta -(1)/(2) sin theta +(sqrt(3))/(2) cos theta -(1)/(2) sin theta -(sqrt(3))/(2) cos theta ]=0. \e n d{a l i g n e d}$
+令 #mi(`\theta=\omega t`). 由和角公式，#mi(`\sin(\theta+120^{\circ})=-\frac{1}{2}\sin\theta+\frac{\sqrt{3}}{2}\cos\theta`)，#mi(`\sin(\theta+240^{\circ})=-\frac{1}{2}\sin\theta-\frac{\sqrt{3}}{2}\cos\theta`). 因此
+
+#mi(`\begin{aligned}I_{A}+I_{B}+I_{C}&=I\left[\sin\theta+\sin(\theta+120^{\circ})+\sin(\theta+240^{\circ})\right]\\&=I\left[\sin\theta-\frac{1}{2}\sin\theta+\frac{\sqrt{3}}{2}\cos\theta-\frac{1}{2}\sin\theta-\frac{\sqrt{3}}{2}\cos\theta\right]=0.\end{aligned}`)
 ]
 
 #problem(17)[
-在复平面内，已知等边三角形的两个顶点表示的复数分别为 $2$，$(1)/(2)+ (sqrt(3))/(2) i$，求第三个顶点表示的复数.
+在复平面内，已知等边三角形的两个顶点表示的复数分别为 #mi(`2`)，#mi(`\frac{1}{2}+ \frac{\sqrt{3}}{2}\mathrm{i}`)，求第三个顶点表示的复数.
 ]
 
 #solution[
-设已知两个顶点对应的复数为 $z_1=2$，$z_2=(1)/(2)+(sqrt(3))/(2) i$，并令 $w=z_2-z_1=-(3)/(2)+(sqrt(3))/(2) i$. 等边三角形的第三个顶点到第一个顶点的向量，必须是把 $w$ 旋转 $60^ degree$ 或 $-60^ degree$ 得到的向量. 因此第三个顶点对应的复数为 $z_3=2+((1)/(2)+(sqrt(3))/(2) i )w$ 或 $z_3=2+((1)/(2)-(sqrt(3))/(2) i )w$. 分别计算：
-$((1)/(2)+(sqrt(3))/(2) i )(-(3)/(2)+(sqrt(3))/(2) i )=-(3)/(2)-(sqrt(3))/(2) i$，所以第一种情形给出 $z_3=2-(3)/(2)-(sqrt(3))/(2) i =(1)/(2)-(sqrt(3))/(2) i$. 又 $((1)/(2)-(sqrt(3))/(2) i )(-(3)/(2)+(sqrt(3))/(2) i )=sqrt(3) i$，所以第二种情形给出 $z_3=2+sqrt(3) i$. 故第三个顶点表示的复数为 $(1)/(2)-(sqrt(3))/(2) i$ 或 $2+sqrt(3) i$.
+设已知两个顶点对应的复数为 #mi(`z_{1}=2`)，#mi(`z_{2}=\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}`)，并令 #mi(`w=z_{2}-z_{1}=-\frac{3}{2}+\frac{\sqrt{3}}{2}\mathrm{i}`). 等边三角形的第三个顶点到第一个顶点的向量，必须是把 #mi(`w`) 旋转 #mi(`60^{\circ}`) 或 #mi(`-60^{\circ}`) 得到的向量. 因此第三个顶点对应的复数为 #mi(`z_{3}=2+\left(\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)w`) 或 #mi(`z_{3}=2+\left(\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}\right)w`). 分别计算：
+
+#mi(`\left(\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\left(-\frac{3}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)=-\frac{3}{2}-\frac{\sqrt{3}}{2}\mathrm{i}`)，所以第一种情形给出 #mi(`z_{3}=2-\frac{3}{2}-\frac{\sqrt{3}}{2}\mathrm{i}=\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}`). 又 #mi(`\left(\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}\right)\left(-\frac{3}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)=\sqrt{3}\mathrm{i}`)，所以第二种情形给出 #mi(`z_{3}=2+\sqrt{3}\mathrm{i}`). 故第三个顶点表示的复数为 #mi(`\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}`) 或 #mi(`2+\sqrt{3}\mathrm{i}`).
 ]
 
 #problem(18)[
-如图，三棱锥 $P-A B C$ 中，已知 $P A bot B C$，$P A = B C = L$，$P A$，$B C$ 的公垂线 $E D = h$. 求证：三棱锥 $P-A B C$ 的体积 $V = (1)/(6)L^(2) h$.
+如图，三棱锥 #mi(`P-ABC`) 中，已知 #mi(`PA \perp BC`)，#mi(`PA = BC = L`)，#mi(`PA`)，#mi(`BC`) 的公垂线 #mi(`ED = h`). 求证：三棱锥 #mi(`P-ABC`) 的体积 #mi(`V = \frac{1}{6}L^{2}h`).
 
 
-#align(center)[#image("/papers/1987/img/national_liberal/q18_fig1.png", width: 34%)]
+#align(center)[#image("/papers/1987/img/national_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-由 $E D$ 是 $P A$ 与 $B C$ 的公垂线，得 $E in P A$，$D in B C$，且 $E D bot P A$，$E D bot B C$. 直线 $P A$ 与 $E D$ 相交并且都在平面 $P A D$ 内；而 $B C$ 同时垂直于这两条相交直线，所以 $B C bot "平面 "P A D$.
+由 #mi(`ED`) 是 #mi(`PA`) 与 #mi(`BC`) 的公垂线，得 #mi(`E\in PA`)，#mi(`D\in BC`)，且 #mi(`ED\perp PA`)，#mi(`ED\perp BC`). 直线 #mi(`PA`) 与 #mi(`ED`) 相交并且都在平面 #mi(`PAD`) 内；而 #mi(`BC`) 同时垂直于这两条相交直线，所以 #mi(`BC\perp\text{\text{平面} }PAD`).
 
-在平面 $P A D$ 内，$P A bot E D$，故以 $P A$ 和 $E D$ 为两条直角边的三角形 $P A D$ 的面积为 $S_( triangle P A D)=(1)/(2)P A dot E D=(1)/(2)L h$.
+在平面 #mi(`PAD`) 内，#mi(`PA\perp ED`)，故以 #mi(`PA`) 和 #mi(`ED`) 为两条直角边的三角形 #mi(`PAD`) 的面积为 #mi(`S_{\triangle PAD}=\frac{1}{2}PA\cdot ED=\frac{1}{2}Lh`).
 
-点 $B$，$C$，$D$ 在直线 $B C$ 上，且 $B C bot "平面 "P A D$，所以以三角形 $P A D$ 为底面时，三棱锥 $B-P A D$ 和 $C-P A D$ 的高分别为 $B D$ 和 $C D$. 当 $D$ 在边 $B C$ 上时，原三棱锥被这两个三棱锥分割，且 $B D+C D=B C=L$. 于是
-$\b e g i n{a l i g n e d} V&=(1)/(3)S_( triangle P A D) dot B D+(1)/(3)S_( triangle P A D) dot C D\\ &=(1)/(3)S_( triangle P A D)(B D+C D)=(1)/(3) dot (1)/(2)L h dot L=(1)/(6)L^(2) h. \e n d{a l i g n e d}$
+点 #mi(`B`)，#mi(`C`)，#mi(`D`) 在直线 #mi(`BC`) 上，且 #mi(`BC\perp\text{\text{平面} }PAD`)，所以以三角形 #mi(`PAD`) 为底面时，三棱锥 #mi(`B-PAD`) 和 #mi(`C-PAD`) 的高分别为 #mi(`BD`) 和 #mi(`CD`). 当 #mi(`D`) 在边 #mi(`BC`) 上时，原三棱锥被这两个三棱锥分割，且 #mi(`BD+CD=BC=L`). 于是
+
+#mi(`\begin{aligned}V&=\frac{1}{3}S_{\triangle PAD}\cdot BD+\frac{1}{3}S_{\triangle PAD}\cdot CD\\&=\frac{1}{3}S_{\triangle PAD}(BD+CD)=\frac{1}{3}\cdot\frac{1}{2}Lh\cdot L=\frac{1}{6}L^{2}h.\end{aligned}`)
+
 命题得证.
 ]
 
 #problem(19)[
-设对所有实数 $x$，不等式 $x^2 log _2 (4(a + 1))/(a)+ 2 x log _2 (2 a)/(a + 1)+ log _2 ((a + 1)^2)/(4 a^2)> 0$ 恒成立，求 $a$ 的取值范围.
+设对所有实数 #mi(`x`)，不等式 #mi(`x^{2}\log_{2} \frac{4(a + 1)}{a}+ 2x\log_{2} \frac{2a}{a + 1}+ \log_{2} \frac{(a + 1)^{2}}{4a^{2}}> 0`) 恒成立，求 #mi(`a`) 的取值范围.
 ]
 
 #solution[
-令 $r=(2 a)/(a+1)$. 原不等式中各对数的真数都必须为正. 若 $r>0$，则 $(4(a+1))/(a)=(8)/(r)>0$，$((a+1)^2)/(4 a^2)=(1)/(r^2)>0$，所以只需先要求 $r>0$. 这给出 $a>0$ 或 $a<-1$.
+令 #mi(`r=\frac{2a}{a+1}`). 原不等式中各对数的真数都必须为正. 若 #mi(`r>0`)，则 #mi(`\frac{4(a+1)}{a}=\frac{8}{r}>0`)，#mi(`\frac{(a+1)^{2}}{4a^{2}}=\frac{1}{r^{2}}>0`)，所以只需先要求 #mi(`r>0`). 这给出 #mi(`a>0`) 或 #mi(`a<-1`).
 
-令 $u= log _(2) r$，则 $log _2(4(a+1))/(a)= log _2(8)/(r)=3-u$，$log _2((a+1)^2)/(4 a^2)= log _2(1)/(r^2)=-2 u$. 原不等式化为 $q(x)=(3-u)x^2+2 u x-2 u>0$ 对所有实数 $x$ 恒成立.
+令 #mi(`u=\log_{2}r`)，则 #mi(`\log_{2}\frac{4(a+1)}{a}=\log_{2}\frac{8}{r}=3-u`)，#mi(`\log_{2}\frac{(a+1)^{2}}{4a^{2}}=\log_{2}\frac{1}{r^{2}}=-2u`). 原不等式化为 #mi(`q(x)=(3-u)x^{2}+2ux-2u>0`) 对所有实数 #mi(`x`) 恒成立.
 
-若 $3-u<0$，则 $x -> oo$ 时 $q(x) -> - oo$，不可能恒正；若 $3-u=0$，则 $q(x)=6 x-6$，也不可能对所有 $x$ 恒正. 因此必须 $3-u>0$. 在此条件下，二次函数对所有实数恒正的充要条件是判别式小于零. 其判别式为 $Delta =(2 u)^2-4(3-u)(-2 u)=4 u(6-u)<0$. 所以 $u<0$ 或 $u>6$，与 $u<3$ 合并得 $u<0$. 由于对数函数 $log _2 r$ 的底数大于 $1$，$u<0$ 等价于 $0<r<1$.
+若 #mi(`3-u<0`)，则 #mi(`x\to\infty`) 时 #mi(`q(x)\to-\infty`)，不可能恒正；若 #mi(`3-u=0`)，则 #mi(`q(x)=6x-6`)，也不可能对所有 #mi(`x`) 恒正. 因此必须 #mi(`3-u>0`). 在此条件下，二次函数对所有实数恒正的充要条件是判别式小于零. 其判别式为 #mi(`\Delta=(2u)^{2}-4(3-u)(-2u)=4u(6-u)<0`). 所以 #mi(`u<0`) 或 #mi(`u>6`)，与 #mi(`u<3`) 合并得 #mi(`u<0`). 由于对数函数 #mi(`\log_{2} r`) 的底数大于 #mi(`1`)，#mi(`u<0`) 等价于 #mi(`0<r<1`).
 
-现在解 $0<(2 a)/(a+1)<1$. 当 $a>0$ 时，第二个不等式给出 $2 a<a+1$，即 $a<1$，从而 $0<a<1$. 当 $a<-1$ 时，因分母为负，$(2 a)/(a+1)<1$ 等价于 $2 a>a+1$，即 $a>1$，与 $a<-1$ 矛盾. 因此 $a$ 的取值范围为 $(0,1)$.
+现在解 #mi(`0<\frac{2a}{a+1}<1`). 当 #mi(`a>0`) 时，第二个不等式给出 #mi(`2a<a+1`)，即 #mi(`a<1`)，从而 #mi(`0<a<1`). 当 #mi(`a<-1`) 时，因分母为负，#mi(`\frac{2a}{a+1}<1`) 等价于 #mi(`2a>a+1`)，即 #mi(`a>1`)，与 #mi(`a<-1`) 矛盾. 因此 #mi(`a`) 的取值范围为 #mi(`(0,1)`).
 ]
 
 #problem(20)[
-设复数 $z_1$ 和 $z_2$ 满足关系式 $z_1 overline(z_2)+ overline(A)z_1 + A o v e r l i n e(z_2)= 0$，其中 $A$ 为不等于 $0$ 的复数. 证明：
+设复数 #mi(`z_{1}`) 和 #mi(`z_{2}`) 满足关系式 #mi(`z_{1}\overline{z_2}+ \overline{A}z_{1} + A\overline{z_2}= 0`)，其中 #mi(`A`) 为不等于 #mi(`0`) 的复数. 证明：
 
 
-+ (1) $|z_1 + A||z_2 + A| = |A|^2$；
-+ (2) $(z_1 + A)/(z_2 + A)= |(z_1 + A)/(z_2 + A)|$.
++ (1)
 ]
 
 #solution[
-把已知等式左边与 $(z_1+A)overline((z_2+A))$ 展开式比较：$(z_1+A)overline((z_2+A))=z_1 overline(z_2)+z_1\overline A+A o v e r l i n e(z_2)+A\overline A$. 利用题设的前三项之和为 $0$，得到 $(z_1+A)overline((z_2+A))=|A|^2$.
+把已知等式左边与 #mi(`(z_{1}+A)\overline{(z_2+A)}`) 展开式比较：#mi(`(z_{1}+A)\overline{(z_2+A)}=z_{1}\overline{z_2}+z_{1}\overline A+A\overline{z_2}+A\overline A`). 利用题设的前三项之和为 #mi(`0`)，得到 #mi(`(z_{1}+A)\overline{(z_2+A)}=|A|^{2}`).
 
 
-+ (1) 因为 $A != 0$，所以 $|A|^2>0$. 上式右边非零，因而 $z_2+A != 0$，同时 $z_1+A != 0$，题中的模和与分式均有意义. 两边取模，得到 $|z_1+A| |overline(z_2+A)|=|A|^2$. 又 $|overline(z_2+A)|=|z_2+A|$，所以 $|z_1+A||z_2+A|=|A|^2$，第 1 问得证.
-+ (2) 由 $z_2+A != 0$，可将上式除以 $|z_2+A|^2=(z_2+A)overline((z_2+A))$，得到 $(z_1+A)/(z_2+A)=(|A|^2)/(|z_2+A|^2)>0$. 左边是正实数，正实数的模等于其本身，因此 $(z_1+A)/(z_2+A)=|(z_1+A)/(z_2+A)|$，第 2 问得证.
++ (1)
 ]
 
 #problem(21)[
-设数列 $a_1$，$a_2$，$dots.c$，$a_n$，$dots.c$ 的前 $n$ 项的和 $S_n$ 与 $a_n$ 满足 $S_n = k a_n + 1$（其中 $k$ 是与 $n$ 无关的常数，且 $k != 1$）.
+设数列 #mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`\cdots`)，#mi(`a_{n}`)，#mi(`\cdots`) 的前 #mi(`n`) 项的和 #mi(`S_{n}`) 与 #mi(`a_{n}`) 满足 #mi(`S_{n} = ka_{n} + 1`)（其中 #mi(`k`) 是与 #mi(`n`) 无关的常数，且 #mi(`k \neq 1`)）.
 
 
-+ (1) 试写出用 $n$，$k$ 表示的 $a_n$ 的表达式；
-+ (2) 若 $lim_(n -> oo )S_n = 1$，求 $k$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 取 $n=1$，由 $S_1=a_1=k a_1+1$ 得 $a_1=(1)/(1-k)$. 对 $n\g e q1$，利用 $S_(n+1)-S_n=a_(n+1)$ 以及题设关系，得 $a_(n+1)=k(a_(n+1)-a_n)$，即 $(k-1)a_(n+1)=k a_n$.
-
-当 $k != 0$ 时，$a_1 != 0$，且递推式给出 $(a_(n+1))/(a_n)=(k)/(k-1)$. 因此 $a_n=a_1((k)/(k-1))^(n-1)=(1)/(1-k)((k)/(k-1))^(n-1)$. 当 $k=0$ 时，题设直接给出 $S_n=1$，所以 $a_1=S_1=1$，并且 $a_n=S_n-S_(n-1)=0$（$n\g e q2$）.
-+ (2) 由 $S_n-1=k a_n$，所求条件等价于 $k a_n -> 0$. 当 $k=0$ 时，$S_n=1$ 对所有 $n$ 成立，条件满足. 当 $k != 0$ 时，由上面的通项式，$k a_n$ 是非零常数乘以 $((k)/(k-1))^(n-1)$. 该幂数列趋于 $0$ 的充要条件为 $|(k)/(k-1)|<1$. 因 $k$ 为实数且 $k != 1$，两边平方得 $k^2<(k-1)^2=k^2-2 k+1$，即 $2 k<1$，所以 $k<(1)/(2)$. 其中已包含 $k=0$，且不会包含被题设排除的 $k=1$，故最终范围为 $k<(1)/(2)$.
++ (1)
 ]
 
 #problem(22)[
-正方形 $A B C D$ 在直角坐标平面内，已知其一条边 $A B$ 在直线 $y = x + 4$ 上，$C$，$D$ 在抛物线 $x = y^2$ 上，求正方形 $A B C D$ 的面积.
+正方形 #mi(`ABCD`) 在直角坐标平面内，已知其一条边 #mi(`AB`) 在直线 #mi(`y = x + 4`) 上，#mi(`C`)，#mi(`D`) 在抛物线 #mi(`x = y^{2}`) 上，求正方形 #mi(`ABCD`) 的面积.
 ]
 
 #solution[
-正方形的对边平行，所以 $C D parallel A B$. 设直线 $C D$ 的方程为 $y=x+b$，即 $x=y-b$. 设 $C$，$D$ 的纵坐标分别为 $y_1$，$y_2$. 因为 $C$，$D$ 在抛物线 $x=y^2$ 和直线 $x=y-b$ 上，所以 $y_1$，$y_2$ 是方程 $y^2=y-b$，即 $y^2-y+b=0$ 的两个根. 由韦达定理，$y_1+y_2=1$，$y_(1) y_2=b$，从而 $(y_1-y_2)^2=(y_1+y_2)^2-4 y_(1) y_2=1-4 b$.
+正方形的对边平行，所以 #mi(`CD\parallel AB`). 设直线 #mi(`CD`) 的方程为 #mi(`y=x+b`)，即 #mi(`x=y-b`). 设 #mi(`C`)，#mi(`D`) 的纵坐标分别为 #mi(`y_{1}`)，#mi(`y_{2}`). 因为 #mi(`C`)，#mi(`D`) 在抛物线 #mi(`x=y^{2}`) 和直线 #mi(`x=y-b`) 上，所以 #mi(`y_{1}`)，#mi(`y_{2}`) 是方程 #mi(`y^{2}=y-b`)，即 #mi(`y^{2}-y+b=0`) 的两个根. 由韦达定理，#mi(`y_{1}+y_{2}=1`)，#mi(`y_{1}y_{2}=b`)，从而 #mi(`(y_{1}-y_{2})^{2}=(y_{1}+y_{2})^{2}-4y_{1}y_{2}=1-4b`).
 
-对应点的横坐标为 $x_i=y_i-b$，所以 $x_1-x_2=y_1-y_2$. 因此 $C D^2=(x_1-x_2)^2+(y_1-y_2)^2=2(1-4 b)=2-8 b$.
+对应点的横坐标为 #mi(`x_{i}=y_{i}-b`)，所以 #mi(`x_{1}-x_{2}=y_{1}-y_{2}`). 因此 #mi(`CD^{2}=(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}=2(1-4b)=2-8b`).
 
-两条平行直线 $A B:y=x+4$ 与 $C D:y=x+b$ 的距离为 $(|4-b|)/(sqrt(2))$. 这正是正方形的边长，因为它等于两条对边之间的距离；又 $A B=C D$，故 $((4-b)^2)/(2)=C D^2=2-8 b$. 化简得 $(4-b)^2=4-16 b$，即 $b^2+8 b+12=0$，所以 $b=-2$ 或 $b=-6$. 两者都使 $1-4 b>0$，因而直线 $C D$ 都与抛物线有两个不同交点，确实能形成相应的正方形.
+两条平行直线 #mi(`AB:y=x+4`) 与 #mi(`CD:y=x+b`) 的距离为 #mi(`\frac{|4-b|}{\sqrt{2}}`). 这正是正方形的边长，因为它等于两条对边之间的距离；又 #mi(`AB=CD`)，故 #mi(`\frac{(4-b)^{2}}{2}=CD^{2}=2-8b`). 化简得 #mi(`(4-b)^{2}=4-16b`)，即 #mi(`b^{2}+8b+12=0`)，所以 #mi(`b=-2`) 或 #mi(`b=-6`). 两者都使 #mi(`1-4b>0`)，因而直线 #mi(`CD`) 都与抛物线有两个不同交点，确实能形成相应的正方形.
 
-当 $b=-2$ 时，正方形面积为 $C D^2=2-8(-2)=18$；当 $b=-6$ 时，正方形面积为 $C D^2=2-8(-6)=50$. 故正方形的面积为 $18$ 或 $50$.
+当 #mi(`b=-2`) 时，正方形面积为 #mi(`CD^{2}=2-8(-2)=18`)；当 #mi(`b=-6`) 时，正方形面积为 #mi(`CD^{2}=2-8(-6)=50`). 故正方形的面积为 #mi(`18`) 或 #mi(`50`).
 ]
 

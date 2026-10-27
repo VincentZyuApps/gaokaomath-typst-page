@@ -1,8 +1,149 @@
 {
-  "title": "2017年普通高等学校招生全国统一考试",
-  "subtitle": "2017年全国I卷（理）",
   "year": "2017",
   "slug": "national_paper_1_science",
+  "title": "2017年全国I卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,11 +158,13 @@
             "$A\\cap B=\\varnothing$"
           ],
           "answer": "A",
-          "solution": "由 $3^{x}<1=3^{0}$，且底数 $3>1$，得 $x<0$，所以 $B=\\{x\\mid x<0\\}$. 于是 $A\\cap B=\\{x\\mid x<0\\}$，故选 A."
+          "solution": "由 $3^{x}<1=3^{0}$，且底数 $3>1$，得 $x<0$，所以 $B=\\{x\\mid x<0\\}$. 于是 $A\\cap B=\\{x\\mid x<0\\}$，故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
-          "body": "<p>如图，正方形 $ABCD$ 内的图形来自中国古代的太极图. 正方形内切圆中的黑色部分和白色部分关于正方形的中心成中心对称. 在正方形内随机取一点，则此点取自黑色部分的概率是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q2_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，正方形 $ABCD$ 内的图形来自中国古代的太极图. 正方形内切圆中的黑色部分和白色部分关于正方形的中心成中心对称. 在正方形内随机取一点，则此点取自黑色部分的概率是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2017/img/national_paper_1_science/q2_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\dfrac{1}{4}$",
             "$\\dfrac{\\pi}{8}$",
@@ -29,7 +172,9 @@
             "$\\dfrac{\\pi}{4}$"
           ],
           "answer": "B",
-          "solution": "<p>设正方形内切圆的半径为 $r$，则正方形边长为 $2r$. 由黑色部分和白色部分关于正方形的中心成中心对称，黑色部分的面积等于内切圆面积的一半，即 $\\dfrac{1}{2}\\pi r^{2}$. 因此在正方形内随机取一点取自黑色部分的概率为</p>\n$$\n\\frac{\\dfrac{1}{2}\\pi r^{2}}{(2r)^{2}}=\\frac{\\pi}{8}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>设正方形内切圆的半径为 $r$，则正方形边长为 $2r$. 由黑色部分和白色部分关于正方形的中心成中心对称，黑色部分的面积等于内切圆面积的一半，即 $\\dfrac{1}{2}\\pi r^{2}$. 因此在正方形内随机取一点取自黑色部分的概率为</p>\n$$\n\\frac{\\dfrac{1}{2}\\pi r^{2}}{(2r)^{2}}=\\frac{\\pi}{8}\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +186,9 @@
             "$p_{2}$，$p_{4}$"
           ],
           "answer": "B",
-          "solution": "<p>对 $p_{1}$，由 $\\dfrac{1}{z}\\in\\mathbb{R}$ 可知 $z\\ne0$，且 $z$ 是非零实数的倒数，所以 $z\\in\\mathbb{R}$，$p_{1}$ 为真.</p><p>对 $p_{2}$，取 $z=\\mathrm{i}$，则 $z^{2}=-1\\in\\mathbb{R}$，但 $z\\notin\\mathbb{R}$，所以 $p_{2}$ 为假.</p><p>对 $p_{3}$，取 $z_{1}=1$，$z_{2}=2$，则 $z_{1}z_{2}=2\\in\\mathbb{R}$，但 $z_{1}\\ne\\overline{z_2}$，所以 $p_{3}$ 为假.</p><p>对 $p_{4}$，若 $z\\in\\mathbb{R}$，则 $\\overline z=z\\in\\mathbb{R}$，所以 $p_{4}$ 为真. 因此真命题为 $p_{1}$，$p_{4}$，故选 B.</p>"
+          "solution": "<p>对 $p_{1}$，由 $\\dfrac{1}{z}\\in\\mathbb{R}$ 可知 $z\\ne0$，且 $z$ 是非零实数的倒数，所以 $z\\in\\mathbb{R}$，$p_{1}$ 为真.</p><p>对 $p_{2}$，取 $z=\\mathrm{i}$，则 $z^{2}=-1\\in\\mathbb{R}$，但 $z\\notin\\mathbb{R}$，所以 $p_{2}$ 为假.</p><p>对 $p_{3}$，取 $z_{1}=1$，$z_{2}=2$，则 $z_{1}z_{2}=2\\in\\mathbb{R}$，但 $z_{1}\\ne\\overline{z_2}$，所以 $p_{3}$ 为假.</p><p>对 $p_{4}$，若 $z\\in\\mathbb{R}$，则 $\\overline z=z\\in\\mathbb{R}$，所以 $p_{4}$ 为真. 因此真命题为 $p_{1}$，$p_{4}$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +200,9 @@
             "$8$"
           ],
           "answer": "C",
-          "solution": "<p>设等差数列首项为 $a_{1}$，公差为 $d$. 由 $a_{4}+a_{5}=24$，得</p>\n$$\n2a_{1}+7d=24\n$$\n<p>又由 $S_{6}=\\dfrac{6}{2}(2a_{1}+5d)=48$，得 $2a_{1}+5d=16$. 两式相减得 $2d=8$，所以 $d=4$，故选 C.</p>"
+          "solution": "<p>设等差数列首项为 $a_{1}$，公差为 $d$. 由 $a_{4}+a_{5}=24$，得</p>\n$$\n2a_{1}+7d=24\n$$\n<p>又由 $S_{6}=\\dfrac{6}{2}(2a_{1}+5d)=48$，得 $2a_{1}+5d=16$. 两式相减得 $2d=8$，所以 $d=4$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +214,9 @@
             "$[1,3]$"
           ],
           "answer": "D",
-          "solution": "<p>由奇函数性质 $f(-1)=-f(1)=1$. 因 $f$ 在 $\\mathbb{R}$ 上单调递减，</p>\n$$\n-1=f(1)\\le f(x-2)\\le f(-1)=1\n$$\n<p>等价于 $1\\ge x-2\\ge-1$. 因此 $1\\le x\\le3$，故选 D.</p>"
+          "solution": "<p>由奇函数性质 $f(-1)=-f(1)=1$. 因 $f$ 在 $\\mathbb{R}$ 上单调递减，</p>\n$$\n-1=f(1)\\le f(x-2)\\le f(-1)=1\n$$\n<p>等价于 $1\\ge x-2\\ge-1$. 因此 $1\\le x\\le3$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,11 +228,13 @@
             "$35$"
           ],
           "answer": "C",
-          "solution": "由 $1\\cdot(1+x)^{6}$ 贡献的 $x^{2}$ 系数为 $\\mathrm{C}_{6}^{2}=15$；由 $x^{-2}(1+x)^{6}$ 贡献的 $x^{2}$ 系数来自 $(1+x)^{6}$ 的 $x^{4}$ 项，为 $\\mathrm{C}_{6}^{4}=15$. 所以所求系数为 $15+15=30$，故选 C."
+          "solution": "由 $1\\cdot(1+x)^{6}$ 贡献的 $x^{2}$ 系数为 $\\mathrm{C}_{6}^{2}=15$；由 $x^{-2}(1+x)^{6}$ 贡献的 $x^{2}$ 系数来自 $(1+x)^{6}$ 的 $x^{4}$ 项，为 $\\mathrm{C}_{6}^{4}=15$. 所以所求系数为 $15+15=30$，故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
-          "body": "<p>某多面体的三视图如图所示，其中正视图和左视图都由正方形和等腰直角三角形组成，正方形的边长为 $2$，俯视图为等腰直角三角形，该多面体的各个面中有若干个是梯形，这些梯形的面积之和为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>某多面体的三视图如图所示，其中正视图和左视图都由正方形和等腰直角三角形组成，正方形的边长为 $2$，俯视图为等腰直角三角形，该多面体的各个面中有若干个是梯形，这些梯形的面积之和为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2017/img/national_paper_1_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$10$",
             "$12$",
@@ -89,11 +242,13 @@
             "$16$"
           ],
           "answer": "B",
-          "solution": "<p>由正视图、左视图和俯视图可将该多面体还原为一个三棱柱与一个三棱锥拼成的组合体. 正视图和左视图中的两个等腰直角三角形对应三棱锥的两个侧面，两个正方形部分对应三棱柱的侧面；因此组合体的表面中只有两个全等的梯形面. 由三视图中的长度关系，这两个梯形的两底分别为正方形的边长 $2$ 和由正方形的一条边与等腰直角三角形的一条直角边首尾相接形成的长度 $4$，两底间的距离为正方形的边长 $2$. 所以每个梯形的面积为</p>\n$$\n\\frac{1}{2}(2+4)\\times2=6\n$$\n<p>因此梯形面积之和为 $2\\times6=12$，故选 B.</p>"
+          "solution": "<p>由正视图、左视图和俯视图可将该多面体还原为一个三棱柱与一个三棱锥拼成的组合体. 正视图和左视图中的两个等腰直角三角形对应三棱锥的两个侧面，两个正方形部分对应三棱柱的侧面；因此组合体的表面中只有两个全等的梯形面. 由三视图中的长度关系，这两个梯形的两底分别为正方形的边长 $2$ 和由正方形的一条边与等腰直角三角形的一条直角边首尾相接形成的长度 $4$，两底间的距离为正方形的边长 $2$. 所以每个梯形的面积为</p>\n$$\n\\frac{1}{2}(2+4)\\times2=6\n$$\n<p>因此梯形面积之和为 $2\\times6=12$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
-          "body": "<p>如图程序框图是为了求出满足 $3^{n}-2^{n}>1000$ 的最小偶数 $n$，那么在 $\\diamond$ 和 $\\square$ 两个空白框中，可以分别填入（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图程序框图是为了求出满足 $3^{n}-2^{n}>1000$ 的最小偶数 $n$，那么在 $\\diamond$ 和 $\\square$ 两个空白框中，可以分别填入（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2017/img/national_paper_1_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$A>1000$ 和 $n=n+1$",
             "$A>1000$ 和 $n=n+2$",
@@ -101,7 +256,9 @@
             "$A\\le 1000$ 和 $n=n+2$"
           ],
           "answer": "D",
-          "solution": "程序开始时 $n=0$，并计算 $A=3^{n}-2^{n}$. 若 $A\\le1000$，说明当前的 $n$ 尚未满足条件，应继续循环；为了保持 $n$ 为偶数，应令 $n=n+2$. 当 $A>1000$ 时停止并输出 $n$. 因此两个空框分别为 $A\\le1000$ 和 $n=n+2$，故选 D."
+          "solution": "程序开始时 $n=0$，并计算 $A=3^{n}-2^{n}$. 若 $A\\le1000$，说明当前的 $n$ 尚未满足条件，应继续循环；为了保持 $n$ 为偶数，应令 $n=n+2$. 当 $A>1000$ 时停止并输出 $n$. 因此两个空框分别为 $A\\le1000$ 和 $n=n+2$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +270,9 @@
             "把 $C_{1}$ 上各点的横坐标缩短到原来的 $\\dfrac{1}{2}$，纵坐标不变，再把得到的曲线向左平移 $\\dfrac{\\pi}{12}$ 个单位长度，得到曲线 $C_{2}$"
           ],
           "answer": "D",
-          "solution": "<p>将 $C_{1}$ 的横坐标缩短为原来的 $\\dfrac{1}{2}$，得到 $y=\\cos2x$. 再向左平移 $\\dfrac\\pi{12}$，所得函数为</p>\n$$\ny=\\cos\\left(2\\left(x+\\frac{\\pi}{12}\\right)\\right)=\\cos\\left(2x+\\frac{\\pi}{6}\\right)=\\sin\\left(2x+\\frac{2\\pi}{3}\\right)\n$$\n<p>这正是 $C_{2}$，故选 D.</p>"
+          "solution": "<p>将 $C_{1}$ 的横坐标缩短为原来的 $\\dfrac{1}{2}$，得到 $y=\\cos2x$. 再向左平移 $\\dfrac\\pi{12}$，所得函数为</p>\n$$\ny=\\cos\\left(2\\left(x+\\frac{\\pi}{12}\\right)\\right)=\\cos\\left(2x+\\frac{\\pi}{6}\\right)=\\sin\\left(2x+\\frac{2\\pi}{3}\\right)\n$$\n<p>这正是 $C_{2}$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +284,9 @@
             "$10$"
           ],
           "answer": "A",
-          "solution": "<p>抛物线 $y^{2}=4x$ 的焦点为 $F(1,0)$. 过 $F$ 的竖直直线为 $x=1$，其垂线为 $y=0$，而 $y=0$ 只与抛物线相切，所以竖直直线不能作为 $l_{1}$ 或 $l_{2}$. 对其余过 $F$ 的直线，设其中一条为 $x=my+1$. 若 $m=0$，该直线本身为 $y=0$，同样只有切点，故必须有 $m\\ne0$，另一条垂线为 $x=-\\dfrac{1}{m}y+1$.</p><p>设第一条直线与抛物线交点的纵坐标为 $y_{1}$，$y_{2}$，代入得 $y^{2}-4my-4=0$，所以 $\\lvert y_{1}-y_{2}\\rvert=4\\sqrt{m^{2}+1}$. 沿直线的距离还要乘以方向向量长度 $\\sqrt{m^{2}+1}$，故</p>\n$$\n\\lvert AB\\rvert=4(m^{2}+1)\n$$\n<p>第二条直线的斜率参数为 $-\\frac{1}{m}$，将 $m$ 换为 $-\\frac{1}{m}$ 代入上面的弦长公式，得到</p>\n$$\n\\lvert DE\\rvert=4\\left(1+\\frac{1}{m^{2}}\\right)\n$$\n<p>于是</p>\n$$\n\\lvert AB\\rvert+\\lvert DE\\rvert  =4\\left(m^{2}+\\frac{1}{m^{2}}+2\\right)  \\ge4(2+2)=16\n$$\n<p>等号在 $m^{2}=1$ 时取得. 因此最小值为 $16$，故选 A.</p>"
+          "solution": "<p>抛物线 $y^{2}=4x$ 的焦点为 $F(1,0)$. 过 $F$ 的竖直直线为 $x=1$，其垂线为 $y=0$，而 $y=0$ 只与抛物线相切，所以竖直直线不能作为 $l_{1}$ 或 $l_{2}$. 对其余过 $F$ 的直线，设其中一条为 $x=my+1$. 若 $m=0$，该直线本身为 $y=0$，同样只有切点，故必须有 $m\\ne0$，另一条垂线为 $x=-\\dfrac{1}{m}y+1$.</p><p>设第一条直线与抛物线交点的纵坐标为 $y_{1}$，$y_{2}$，代入得 $y^{2}-4my-4=0$，所以 $\\lvert y_{1}-y_{2}\\rvert=4\\sqrt{m^{2}+1}$. 沿直线的距离还要乘以方向向量长度 $\\sqrt{m^{2}+1}$，故</p>\n$$\n\\lvert AB\\rvert=4(m^{2}+1)\n$$\n<p>第二条直线的斜率参数为 $-\\frac{1}{m}$，将 $m$ 换为 $-\\frac{1}{m}$ 代入上面的弦长公式，得到</p>\n$$\n\\lvert DE\\rvert=4\\left(1+\\frac{1}{m^{2}}\\right)\n$$\n<p>于是</p>\n$$\n\\lvert AB\\rvert+\\lvert DE\\rvert  =4\\left(m^{2}+\\frac{1}{m^{2}}+2\\right)  \\ge4(2+2)=16\n$$\n<p>等号在 $m^{2}=1$ 时取得. 因此最小值为 $16$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +298,9 @@
             "$3y<2x<5z$"
           ],
           "answer": "D",
-          "solution": "<p>设公共值为 $u$，则 $u>1$，且</p><p>$x=\\frac{\\ln u}{\\ln2}$，$y=\\frac{\\ln u}{\\ln3}$，$z=\\frac{\\ln u}{\\ln5}$.</p><p>因此</p><p>$2x=\\frac{2\\ln u}{\\ln2}$，$3y=\\frac{3\\ln u}{\\ln3}$，$5z=\\frac{5\\ln u}{\\ln5}$.</p><p>由于 $\\ln8<\\ln9$，即 $3\\ln2<2\\ln3$，得 $\\dfrac3{\\ln3}<\\dfrac2{\\ln2}$；由于 $\\ln25<\\ln32$，即 $2\\ln5<5\\ln2$，得 $\\dfrac2{\\ln2}<\\dfrac5{\\ln5}$. 又 $\\ln u>0$，所以 $3y<2x<5z$，故选 D.</p>"
+          "solution": "<p>设公共值为 $u$，则 $u>1$，且</p><p>$x=\\frac{\\ln u}{\\ln2}$，$y=\\frac{\\ln u}{\\ln3}$，$z=\\frac{\\ln u}{\\ln5}$.</p><p>因此</p><p>$2x=\\frac{2\\ln u}{\\ln2}$，$3y=\\frac{3\\ln u}{\\ln3}$，$5z=\\frac{5\\ln u}{\\ln5}$.</p><p>由于 $\\ln8<\\ln9$，即 $3\\ln2<2\\ln3$，得 $\\dfrac3{\\ln3}<\\dfrac2{\\ln2}$；由于 $\\ln25<\\ln32$，即 $2\\ln5<5\\ln2$，得 $\\dfrac2{\\ln2}<\\dfrac5{\\ln5}$. 又 $\\ln u>0$，所以 $3y<2x<5z$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +312,9 @@
             "$110$"
           ],
           "answer": "A",
-          "solution": "<p>把数列按组分为第 $m$ 组 $(1,2^{1},\\ldots,2^{m-1})$，第 $m$ 组有 $m$ 项，组和为 $2^{m}-1$. 记 $T_{m}=1+2+\\cdots+m=\\dfrac{m(m+1)}2$. 若前 $N$ 项在第 $m$ 组中，设 $N=T_{m-1}+r$，其中 $1\\le r\\le m$，则</p>\n$$\nS_{N}=\\sum_{j=1}^{m-1}(2^{j}-1)+\\sum_{j=0}^{r-1}2^{j}  =2^{m}+2^{r}-m-2\n$$\n<p>因为 $N>100$，而 $T_{13}=91$，$T_{14}=105$，故 $m\\ge14$. 当 $r=m$ 时，$S_{N}=2^{m+1}-m-2$，且 $2^{m}>m+2$，所以 $2^{m}<S_{N}<2^{m+1}$，不可能是 $2$ 的整数幂. 当 $r<m$ 时，$m\\ge14$ 保证</p>\n$$\n2^{m-1}<S_{N}<2^{m+1}\n$$\n<p>所以若 $S_{N}$ 是 $2$ 的整数幂，只能有 $S_{N}=2^{m}$，即 $2^{r}=m+2$. 由于 $m\\ge14$，必有 $r\\ge4$. 当 $r=4$ 时 $m=14$，但此时 $N=T_{13}+4=95\\le100$；取下一个可能的 $r=5$，得 $m=30$，而更大的 $r$ 给出更大的 $m$，故最小可行值为</p><p>$N=T_{29}+5=\\frac{29\\times30}{2}+5=440$，且此时 $S_{N}=2^{30}$.</p><p>因此最小整数 $N=440$，故选 A.</p>"
+          "solution": "<p>把数列按组分为第 $m$ 组 $(1,2^{1},\\ldots,2^{m-1})$，第 $m$ 组有 $m$ 项，组和为 $2^{m}-1$. 记 $T_{m}=1+2+\\cdots+m=\\dfrac{m(m+1)}2$. 若前 $N$ 项在第 $m$ 组中，设 $N=T_{m-1}+r$，其中 $1\\le r\\le m$，则</p>\n$$\nS_{N}=\\sum_{j=1}^{m-1}(2^{j}-1)+\\sum_{j=0}^{r-1}2^{j}  =2^{m}+2^{r}-m-2\n$$\n<p>因为 $N>100$，而 $T_{13}=91$，$T_{14}=105$，故 $m\\ge14$. 当 $r=m$ 时，$S_{N}=2^{m+1}-m-2$，且 $2^{m}>m+2$，所以 $2^{m}<S_{N}<2^{m+1}$，不可能是 $2$ 的整数幂. 当 $r<m$ 时，$m\\ge14$ 保证</p>\n$$\n2^{m-1}<S_{N}<2^{m+1}\n$$\n<p>所以若 $S_{N}$ 是 $2$ 的整数幂，只能有 $S_{N}=2^{m}$，即 $2^{r}=m+2$. 由于 $m\\ge14$，必有 $r\\ge4$. 当 $r=4$ 时 $m=14$，但此时 $N=T_{13}+4=95\\le100$；取下一个可能的 $r=5$，得 $m=30$，而更大的 $r$ 给出更大的 $m$，故最小可行值为</p><p>$N=T_{29}+5=\\frac{29\\times30}{2}+5=440$，且此时 $S_{N}=2^{30}$.</p><p>因此最小整数 $N=440$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +324,38 @@
         {
           "num": 13,
           "body": "已知向量 $\\mathbf{a}$，$\\mathbf{b}$ 的夹角为 $60^{\\circ}$，$\\lvert\\mathbf{a}\\rvert=2$，$\\lvert\\mathbf{b}\\rvert=1$，则 $\\lvert\\mathbf{a}+2\\mathbf{b}\\rvert=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$2\\sqrt{3}$",
-          "solution": "<p>由向量数量积公式，</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=\\lvert\\mathbf{a}\\rvert\\lvert\\mathbf{b}\\rvert\\cos60^{\\circ}=2\\times1\\times\\frac{1}{2}=1\n$$\n<p>所以</p>\n$$\n\\lvert\\mathbf{a}+2\\mathbf{b}\\rvert^{2}  =\\lvert\\mathbf{a}\\rvert^{2}+4\\lvert\\mathbf{b}\\rvert^{2}+4\\mathbf{a}\\cdot\\mathbf{b}  =4+4+4=12\n$$\n<p>由于长度为正，$\\lvert\\mathbf{a}+2\\mathbf{b}\\rvert=2\\sqrt{3}$.</p>"
+          "choices": [],
+          "answer": "\\(2\\sqrt{3}\\)",
+          "solution": "<p>由向量数量积公式，</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=\\lvert\\mathbf{a}\\rvert\\lvert\\mathbf{b}\\rvert\\cos60^{\\circ}=2\\times1\\times\\frac{1}{2}=1\n$$\n<p>所以</p>\n$$\n\\lvert\\mathbf{a}+2\\mathbf{b}\\rvert^{2}  =\\lvert\\mathbf{a}\\rvert^{2}+4\\lvert\\mathbf{b}\\rvert^{2}+4\\mathbf{a}\\cdot\\mathbf{b}  =4+4+4=12\n$$\n<p>由于长度为正，$\\lvert\\mathbf{a}+2\\mathbf{b}\\rvert=2\\sqrt{3}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "<p>设 $x$，$y$ 满足约束条件</p><p>$\\begin{cases}x+2y\\le1,\\\\  2x+y\\ge-1,\\\\  x-y\\le0\\end{cases}$</p><p>则 $z=3x-2y$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
-          "answer": "$-5$",
-          "solution": "<p>可行域的边界为 $x+2y=1$、$2x+y=-1$、$x-y=0$. 三条边界两两相交得到</p><p>$(-1,1)$，$\\left(\\frac{1}{3},\\frac{1}{3}\\right)$，$\\left(-\\frac{1}{3},-\\frac{1}{3}\\right)$.</p><p>在线性目标函数的可行域为多边形时，最小值在顶点取得. 计算得</p><p>$3(-1)-2(1)=-5$，$3\\cdot\\frac{1}{3}-2\\cdot\\frac{1}{3}=\\frac{1}{3}$，$3\\cdot\\left(-\\frac{1}{3}\\right)-2\\cdot\\left(-\\frac{1}{3}\\right)=-\\frac{1}{3}$.</p><p>故 $z$ 的最小值为 $-5$.</p>"
+          "choices": [],
+          "answer": "\\(-5\\)",
+          "solution": "<p>可行域的边界为 $x+2y=1$、$2x+y=-1$、$x-y=0$. 三条边界两两相交得到</p><p>$(-1,1)$，$\\left(\\frac{1}{3},\\frac{1}{3}\\right)$，$\\left(-\\frac{1}{3},-\\frac{1}{3}\\right)$.</p><p>在线性目标函数的可行域为多边形时，最小值在顶点取得. 计算得</p><p>$3(-1)-2(1)=-5$，$3\\cdot\\frac{1}{3}-2\\cdot\\frac{1}{3}=\\frac{1}{3}$，$3\\cdot\\left(-\\frac{1}{3}\\right)-2\\cdot\\left(-\\frac{1}{3}\\right)=-\\frac{1}{3}$.</p><p>故 $z$ 的最小值为 $-5$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "已知双曲线 $C:\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$（$a>0$，$b>0$）的右顶点为 $A$，以 $A$ 为圆心，$b$ 为半径作圆 $A$，圆 $A$ 与双曲线 $C$ 的一条渐近线交于 $M$，$N$ 两点. 若 $\\angle MAN=60^{\\circ}$，则 $C$ 的离心率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{2\\sqrt{3}}{3}$",
-          "solution": "<p>双曲线的一条渐近线可取 $y=\\dfrac{b}{a}x$，其一般式为 $bx-ay=0$. 右顶点 $A(a,0)$ 到该直线的距离为</p>\n$$\nd=\\frac{ab}{\\sqrt{a^{2}+b^{2}}}\n$$\n<p>又 $M$，$N$ 在以 $A$ 为圆心、$b$ 为半径的圆上，且 $\\angle MAN=60^{\\circ}$，所以从圆心 $A$ 到弦 $MN$ 所在直线的距离为</p>\n$$\nb\\cos30^{\\circ}=\\frac{\\sqrt{3}}{2}b\n$$\n<p>于是</p>\n$$\n\\frac{ab}{\\sqrt{a^{2}+b^{2}}}=\\frac{\\sqrt{3}}{2}b\n$$\n<p>从而 $4a^{2}=3(a^{2}+b^{2})$，即 $a^{2}=3b^{2}$. 双曲线的离心率为</p>\n$$\ne=\\frac{\\sqrt{a^{2}+b^{2}}}{a}=\\frac{2b}{\\sqrt{3}b}=\\frac{2\\sqrt{3}}{3}\n$$"
+          "choices": [],
+          "answer": "\\(\\dfrac{2\\sqrt{3}}{3}\\)",
+          "solution": "<p>双曲线的一条渐近线可取 $y=\\dfrac{b}{a}x$，其一般式为 $bx-ay=0$. 右顶点 $A(a,0)$ 到该直线的距离为</p>\n$$\nd=\\frac{ab}{\\sqrt{a^{2}+b^{2}}}\n$$\n<p>又 $M$，$N$ 在以 $A$ 为圆心、$b$ 为半径的圆上，且 $\\angle MAN=60^{\\circ}$，所以从圆心 $A$ 到弦 $MN$ 所在直线的距离为</p>\n$$\nb\\cos30^{\\circ}=\\frac{\\sqrt{3}}{2}b\n$$\n<p>于是</p>\n$$\n\\frac{ab}{\\sqrt{a^{2}+b^{2}}}=\\frac{\\sqrt{3}}{2}b\n$$\n<p>从而 $4a^{2}=3(a^{2}+b^{2})$，即 $a^{2}=3b^{2}$. 双曲线的离心率为</p>\n$$\ne=\\frac{\\sqrt{a^{2}+b^{2}}}{a}=\\frac{2b}{\\sqrt{3}b}=\\frac{2\\sqrt{3}}{3}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
-          "body": "<p>如图，圆形纸片的圆心为 $O$，半径为 $5\\mathrm{~cm}$，该纸片上的等边三角形 $ABC$ 的中心为 $O$. $D$，$E$，$F$ 为圆 $O$ 上的点，$\\triangle DBC$，$\\triangle ECA$，$\\triangle FAB$ 分别是以 $BC$，$CA$，$AB$ 为底边的等腰三角形. 沿虚线剪开后，分别以 $BC$，$CA$，$AB$ 为折痕折起 $\\triangle DBC$，$\\triangle ECA$，$\\triangle FAB$，使得 $D$，$E$，$F$ 重合，得到三棱锥. 当 $\\triangle ABC$ 的边长变化时，所得三棱锥体积（单位：$\\mathrm{cm}^{3}$）的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$4\\sqrt{15}$",
-          "solution": "<p>设等边三角形 $ABC$ 的边长 $BC=2x$. 连接 $OD$，交 $BC$ 于 $H$. 由于 $ABC$ 为等边三角形且中心为 $O$，$OD$ 是边 $BC$ 的垂直平分线，且图示位置满足 $O$ 在 $H$ 与 $D$ 之间. 因此 $OH=\\dfrac{x}{\\sqrt{3}}$，由 $OD=5$ 得</p>\n$$\nDH=5-\\frac{x}{\\sqrt{3}}\n$$\n<p>又因等边三角形的外接圆半径为 $\\dfrac{2x}{\\sqrt{3}}$，且该三角形在半径为 $5$ 的圆形纸片内，故</p>\n$$\n0<x\\le\\frac{5\\sqrt{3}}{2}\n$$\n<p>折叠后 $D$，$E$，$F$ 重合为三棱锥顶点. 由三等分旋转对称性，三条侧棱相等；设侧棱长为 $l$，则</p>\n$$\nl^{2}=DB^{2}=x^{2}+\\left(5-\\frac{x}{\\sqrt{3}}\\right)^{2}\n$$\n<p>底面 $ABC$ 的外接圆半径为 $\\dfrac{2x}{\\sqrt{3}}$，所以三棱锥的高 $h$ 满足</p>\n$$\nh^{2}=l^{2}-\\left(\\frac{2x}{\\sqrt{3}}\\right)^{2}  =25-\\frac{10\\sqrt{3}}{3}x\n$$\n<p>底面面积为 $\\sqrt{3}x^{2}$，故体积</p>\n$$\nV=\\frac{\\sqrt{3}}{3}x^{2}\\sqrt{25-\\frac{10\\sqrt{3}}{3}x}\n$$\n<p>令 $c=\\dfrac{10\\sqrt{3}}{3}$，则 $V^{2}=\\dfrac{1}{3}x^{4}(25-cx)$，而</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}x}\\bigl[x^{4}(25-cx)\\bigr]  =5x^{3}(20-cx)\n$$\n<p>因此 $V$ 在 $x=\\dfrac{20}{c}=2\\sqrt{3}$ 时取得最大值. 此时 $h^{2}=5$，所以</p>\n$$\nV_{\\max}=\\frac{1}{3}\\cdot\\sqrt{3}(2\\sqrt{3})^{2}\\cdot\\sqrt{5}=4\\sqrt{15}\n$$"
+          "body": "<p>如图，圆形纸片的圆心为 $O$，半径为 $5\\mathrm{~cm}$，该纸片上的等边三角形 $ABC$ 的中心为 $O$. $D$，$E$，$F$ 为圆 $O$ 上的点，$\\triangle DBC$，$\\triangle ECA$，$\\triangle FAB$ 分别是以 $BC$，$CA$，$AB$ 为底边的等腰三角形. 沿虚线剪开后，分别以 $BC$，$CA$，$AB$ 为折痕折起 $\\triangle DBC$，$\\triangle ECA$，$\\triangle FAB$，使得 $D$，$E$，$F$ 重合，得到三棱锥. 当 $\\triangle ABC$ 的边长变化时，所得三棱锥体积（单位：$\\mathrm{cm}^{3}$）的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2017/img/national_paper_1_science/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(4\\sqrt{15}\\)",
+          "solution": "<p>设等边三角形 $ABC$ 的边长 $BC=2x$. 连接 $OD$，交 $BC$ 于 $H$. 由于 $ABC$ 为等边三角形且中心为 $O$，$OD$ 是边 $BC$ 的垂直平分线，且图示位置满足 $O$ 在 $H$ 与 $D$ 之间. 因此 $OH=\\dfrac{x}{\\sqrt{3}}$，由 $OD=5$ 得</p>\n$$\nDH=5-\\frac{x}{\\sqrt{3}}\n$$\n<p>又因等边三角形的外接圆半径为 $\\dfrac{2x}{\\sqrt{3}}$，且该三角形在半径为 $5$ 的圆形纸片内，故</p>\n$$\n0<x\\le\\frac{5\\sqrt{3}}{2}\n$$\n<p>折叠后 $D$，$E$，$F$ 重合为三棱锥顶点. 由三等分旋转对称性，三条侧棱相等；设侧棱长为 $l$，则</p>\n$$\nl^{2}=DB^{2}=x^{2}+\\left(5-\\frac{x}{\\sqrt{3}}\\right)^{2}\n$$\n<p>底面 $ABC$ 的外接圆半径为 $\\dfrac{2x}{\\sqrt{3}}$，所以三棱锥的高 $h$ 满足</p>\n$$\nh^{2}=l^{2}-\\left(\\frac{2x}{\\sqrt{3}}\\right)^{2}  =25-\\frac{10\\sqrt{3}}{3}x\n$$\n<p>底面面积为 $\\sqrt{3}x^{2}$，故体积</p>\n$$\nV=\\frac{\\sqrt{3}}{3}x^{2}\\sqrt{25-\\frac{10\\sqrt{3}}{3}x}\n$$\n<p>令 $c=\\dfrac{10\\sqrt{3}}{3}$，则 $V^{2}=\\dfrac{1}{3}x^{4}(25-cx)$，而</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}x}\\bigl[x^{4}(25-cx)\\bigr]  =5x^{3}(20-cx)\n$$\n<p>因此 $V$ 在 $x=\\dfrac{20}{c}=2\\sqrt{3}$ 时取得最大值. 此时 $h^{2}=5$，所以</p>\n$$\nV_{\\max}=\\frac{1}{3}\\cdot\\sqrt{3}(2\\sqrt{3})^{2}\\cdot\\sqrt{5}=4\\sqrt{15}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,37 +365,47 @@
         {
           "num": 17,
           "body": "<p>$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $\\triangle ABC$ 的面积为 $\\dfrac{a^2}{3\\sin A}$.</p><ol class=\"enumerate\"><li><p>求 $\\sin B\\sin C$；</p></li><li><p>若 $6\\cos B\\cos C=1$，$a=3$，求 $\\triangle ABC$ 的周长.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由三角形面积公式和正弦定理，</p><p>$\\frac{1}{2}bc\\sin A=\\frac{a^{2}}{3\\sin A}$，$\\frac{b}{a}=\\frac{\\sin B}{\\sin A}$，$\\frac{c}{a}=\\frac{\\sin C}{\\sin A}$.</p><p>将前式乘以 $2\\sin A$，并代入后两式，得</p><p>$bc\\sin^{2}A=\\frac{2}{3}a^{2}$，即 $a^{2}\\sin B\\sin C=\\frac{2}{3}a^{2}$.</p><p>由于 $a>0$，所以 $\\sin B\\sin C=\\dfrac{2}{3}$.</p></li><li><p>由第一问和已知条件，</p><p>$\\sin B\\sin C=\\frac{2}{3}$，$\\cos B\\cos C=\\frac{1}{6}$.</p><p>于是</p>\n$$\n\\cos(B+C)=\\cos B\\cos C-\\sin B\\sin C=-\\frac{1}{2}\n$$\n<p>又 $B+C=\\pi-A$，所以 $-\\cos A=-\\dfrac{1}{2}$，即 $A=\\dfrac\\pi3$. 由正弦定理 $a=2R\\sin A$，得 $R=\\sqrt{3}$. 此外</p>\n$$\nS_{\\triangle ABC}=\\frac{a^{2}}{3\\sin A}=2\\sqrt{3}\n$$\n<p>且 $S_{\\triangle ABC}=\\dfrac{1}{2}bc\\sin A$，故 $bc=8$. 由余弦定理，</p>\n$$\nb^{2}+c^{2}=a^{2}+2bc\\cos A=9+8=17\n$$\n<p>因此</p>\n$$\n(b+c)^{2}=b^{2}+c^{2}+2bc=17+16=33\n$$\n<p>从而 $b+c=\\sqrt{33}$. 三角形周长为 $a+b+c=3+\\sqrt{33}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由三角形面积公式和正弦定理，</p><p>$\\frac{1}{2}bc\\sin A=\\frac{a^{2}}{3\\sin A}$，$\\frac{b}{a}=\\frac{\\sin B}{\\sin A}$，$\\frac{c}{a}=\\frac{\\sin C}{\\sin A}$.</p><p>将前式乘以 $2\\sin A$，并代入后两式，得</p><p>$bc\\sin^{2}A=\\frac{2}{3}a^{2}$，即 $a^{2}\\sin B\\sin C=\\frac{2}{3}a^{2}$.</p><p>由于 $a>0$，所以 $\\sin B\\sin C=\\dfrac{2}{3}$.</p></li><li><p>由第一问和已知条件，</p><p>$\\sin B\\sin C=\\frac{2}{3}$，$\\cos B\\cos C=\\frac{1}{6}$.</p><p>于是</p>\n$$\n\\cos(B+C)=\\cos B\\cos C-\\sin B\\sin C=-\\frac{1}{2}\n$$\n<p>又 $B+C=\\pi-A$，所以 $-\\cos A=-\\dfrac{1}{2}$，即 $A=\\dfrac\\pi3$. 由正弦定理 $a=2R\\sin A$，得 $R=\\sqrt{3}$. 此外</p>\n$$\nS_{\\triangle ABC}=\\frac{a^{2}}{3\\sin A}=2\\sqrt{3}\n$$\n<p>且 $S_{\\triangle ABC}=\\dfrac{1}{2}bc\\sin A$，故 $bc=8$. 由余弦定理，</p>\n$$\nb^{2}+c^{2}=a^{2}+2bc\\cos A=9+8=17\n$$\n<p>因此</p>\n$$\n(b+c)^{2}=b^{2}+c^{2}+2bc=17+16=33\n$$\n<p>从而 $b+c=\\sqrt{33}$. 三角形周长为 $a+b+c=3+\\sqrt{33}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，在四棱锥 $P-ABCD$ 中，$AB\\parallel CD$，且 $\\angle BAP=\\angle CDP=90^{\\circ}$.</p><ol class=\"enumerate\"><li><p>证明：平面 $PAB\\perp$ 平面 $PAD$；</p></li><li><p>若 $PA=PD=AB=DC$，$\\angle APD=90^{\\circ}$，求二面角 $A-PB-C$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在四棱锥 $P-ABCD$ 中，$AB\\parallel CD$，且 $\\angle BAP=\\angle CDP=90^{\\circ}$.</p><ol class=\"enumerate\"><li><p>证明：平面 $PAB\\perp$ 平面 $PAD$；</p></li><li><p>若 $PA=PD=AB=DC$，$\\angle APD=90^{\\circ}$，求二面角 $A-PB-C$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2017/img/national_paper_1_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\angle BAP=90^{\\circ}$，所以 $AB\\perp AP$. 又 $AB\\parallel CD$，而 $\\angle CDP=90^{\\circ}$，所以 $AB\\perp DP$. 直线 $AP$，$DP$ 相交于 $P$，且都在平面 $PAD$ 内，因此 $AB\\perp$ 平面 $PAD$. 又 $AB\\subset$ 平面 $PAB$，故平面 $PAB\\perp$ 平面 $PAD$.</p></li><li><p>由 $AB\\parallel CD$ 且 $AB=CD$，底面四边形 $ABCD$ 为平行四边形. 由第一问 $AB\\perp$ 平面 $PAD$，故 $AB\\perp AD$，所以 $ABCD$ 为矩形. 二面角的余弦值不随整体缩放改变，令</p>\n$$\nPA=PD=AB=CD=2\n$$\n<p>在直角三角形 $APD$ 中，$AD=2\\sqrt{2}$. 建立直角坐标系，取</p><p>$A(0,0,0)$，$B(2,0,0)$，$D(0,2\\sqrt{2},0)$，$C(2,2\\sqrt{2},0)$，$P(0,\\sqrt{2},\\sqrt{2})$.</p><p>确有 $PA=PD=2$ 且 $\\angle APD=90^{\\circ}$. 取平面 $APB$、$CPB$ 的法向量</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{PA}\\times\\overrightarrow{PB}=(0,-2\\sqrt{2},2\\sqrt{2})\n$$\n\n$$\n\\mathbf{n}_{2}=\\overrightarrow{PC}\\times\\overrightarrow{PB}=(-4,0,-4\\sqrt{2})\n$$\n<p>按二面角 $A-PB-C$ 的两侧取向，$\\mathbf{n}_{1}$，$\\mathbf{n}_{2}$ 的夹角就是该二面角，因此</p>\n$$\n\\cos\\angle(A-PB-C)  =\\frac{\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}}{\\lvert\\mathbf{n}_{1}\\rvert\\lvert\\mathbf{n}_{2}\\rvert}=\\frac{-16}{4\\cdot4\\sqrt{3}}=-\\frac{\\sqrt{3}}{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\angle BAP=90^{\\circ}$，所以 $AB\\perp AP$. 又 $AB\\parallel CD$，而 $\\angle CDP=90^{\\circ}$，所以 $AB\\perp DP$. 直线 $AP$，$DP$ 相交于 $P$，且都在平面 $PAD$ 内，因此 $AB\\perp$ 平面 $PAD$. 又 $AB\\subset$ 平面 $PAB$，故平面 $PAB\\perp$ 平面 $PAD$.</p></li><li><p>由 $AB\\parallel CD$ 且 $AB=CD$，底面四边形 $ABCD$ 为平行四边形. 由第一问 $AB\\perp$ 平面 $PAD$，故 $AB\\perp AD$，所以 $ABCD$ 为矩形. 二面角的余弦值不随整体缩放改变，令</p>\n$$\nPA=PD=AB=CD=2\n$$\n<p>在直角三角形 $APD$ 中，$AD=2\\sqrt{2}$. 建立直角坐标系，取</p><p>$A(0,0,0)$，$B(2,0,0)$，$D(0,2\\sqrt{2},0)$，$C(2,2\\sqrt{2},0)$，$P(0,\\sqrt{2},\\sqrt{2})$.</p><p>确有 $PA=PD=2$ 且 $\\angle APD=90^{\\circ}$. 取平面 $APB$、$CPB$ 的法向量</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{PA}\\times\\overrightarrow{PB}=(0,-2\\sqrt{2},2\\sqrt{2})\n$$\n\n$$\n\\mathbf{n}_{2}=\\overrightarrow{PC}\\times\\overrightarrow{PB}=(-4,0,-4\\sqrt{2})\n$$\n<p>按二面角 $A-PB-C$ 的两侧取向，$\\mathbf{n}_{1}$，$\\mathbf{n}_{2}$ 的夹角就是该二面角，因此</p>\n$$\n\\cos\\angle(A-PB-C)  =\\frac{\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}}{\\lvert\\mathbf{n}_{1}\\rvert\\lvert\\mathbf{n}_{2}\\rvert}=\\frac{-16}{4\\cdot4\\sqrt{3}}=-\\frac{\\sqrt{3}}{3}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>为了监控某种零件的一条生产线的生产过程，检验员每天从该生产线上随机抽取 $16$ 个零件，并测量其尺寸（单位：$\\mathrm{cm}$）. 根据长期生产经验，可以认为这条生产线正常状态下生产的零件的尺寸服从正态分布 $N(\\mu,\\sigma^{2})$.</p><ol class=\"enumerate\"><li><p>假设生产状态正常，记 $X$ 表示一天内抽取的 $16$ 个零件中其尺寸在 $(\\mu-3\\sigma,\\mu+3\\sigma)$ 之外的零件数，求 $P(X\\ge1)$ 及 $X$ 的数学期望；</p></li><li><p>一天内抽检零件中，如果出现了尺寸在 $(\\mu-3\\sigma,\\mu+3\\sigma)$ 之外的零件，就认为这条生产线在这一天的生产过程可能出现了异常情况，需对当天的生产过程进行检查.</p><p></p><ol class=\"enumerate\"><li><p>试说明上述监控生产过程方法的合理性；</p></li><li><p>下面是检验员在一天内抽取的 $16$ 个零件的尺寸：</p><p><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">0.8</span></span><br></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">$9.95$ </td><td style=\"text-align: center\"> $10.12$ </td><td style=\"text-align: center\"> $9.96$ </td><td style=\"text-align: center\"> $9.96$ </td><td style=\"text-align: center\"> $10.01$ </td><td style=\"text-align: center\"> $9.92$ </td><td style=\"text-align: center\"> $9.98$ </td><td style=\"text-align: center\"> $10.04$ </td></tr><tr><td style=\"text-align: center\"><br>$10.26$ </td><td style=\"text-align: center\"> $9.91$ </td><td style=\"text-align: center\"> $10.13$ </td><td style=\"text-align: center\"> $10.02$ </td><td style=\"text-align: center\"> $9.22$ </td><td style=\"text-align: center\"> $10.04$ </td><td style=\"text-align: center\"> $10.05$ </td><td style=\"text-align: center\"> $9.95$</td></tr></tbody></table></center><p></p><p>经计算得 $\\bar x=\\dfrac1{16}\\sum_{i=1}^{16}x_{i}=9.97$，</p><p>$s=\\sqrt{\\dfrac1{16}\\sum_{i=1}^{16}(x_{i}-\\bar x)^{2}}=\\sqrt{\\dfrac1{16}\\left(\\sum_{i=1}^{16}x_{i}^{2}-16\\bar x^{2}\\right)}\\approx0.212$，</p><p>其中 $x_{i}$ 为抽取的第 $i$ 个零件的尺寸，$i=1$，$2$，$\\dots$，$16$.</p><p>用样本平均数作为 $\\mu$ 的估计值，用样本标准差 $s$ 作为 $\\sigma$ 的估计值，利用估计值判断是否需对当天的生产过程进行检查？剔除 $(\\hat\\mu-3\\hat\\sigma,\\hat\\mu+3\\hat\\sigma)$ 之外的数据，用剩下的数据估计 $\\mu$ 和 $\\sigma$（精确到 $0.01$）.</p></li></ol><p></p></li></ol><p>附：若随机变量 $Z$ 服从正态分布 $N(\\mu,\\sigma^{2})$，则 $P(\\mu-3\\sigma<Z<\\mu+3\\sigma)=0.9974$，$0.9974^{16}\\approx0.9592$，$\\sqrt{0.008}\\approx0.09$.</p>",
-          "choices": null,
+          "body": "<p>为了监控某种零件的一条生产线的生产过程，检验员每天从该生产线上随机抽取 $16$ 个零件，并测量其尺寸（单位：$\\mathrm{cm}$）. 根据长期生产经验，可以认为这条生产线正常状态下生产的零件的尺寸服从正态分布 $N(\\mu,\\sigma^{2})$.</p><ol class=\"enumerate\"><li><p>假设生产状态正常，记 $X$ 表示一天内抽取的 $16$ 个零件中其尺寸在 $(\\mu-3\\sigma,\\mu+3\\sigma)$ 之外的零件数，求 $P(X\\ge1)$ 及 $X$ 的数学期望；</p></li><li><p>一天内抽检零件中，如果出现了尺寸在 $(\\mu-3\\sigma,\\mu+3\\sigma)$ 之外的零件，就认为这条生产线在这一天的生产过程可能出现了异常情况，需对当天的生产过程进行检查.</p><p></p><ol class=\"enumerate\"><li><p>试说明上述监控生产过程方法的合理性；</p></li><li><p>下面是检验员在一天内抽取的 $16$ 个零件的尺寸：</p><p><br></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">$9.95$ </td><td style=\"text-align: center\"> $10.12$ </td><td style=\"text-align: center\"> $9.96$ </td><td style=\"text-align: center\"> $9.96$ </td><td style=\"text-align: center\"> $10.01$ </td><td style=\"text-align: center\"> $9.92$ </td><td style=\"text-align: center\"> $9.98$ </td><td style=\"text-align: center\"> $10.04$ </td></tr><tr><td style=\"text-align: center\">$10.26$ </td><td style=\"text-align: center\"> $9.91$ </td><td style=\"text-align: center\"> $10.13$ </td><td style=\"text-align: center\"> $10.02$ </td><td style=\"text-align: center\"> $9.22$ </td><td style=\"text-align: center\"> $10.04$ </td><td style=\"text-align: center\"> $10.05$ </td><td style=\"text-align: center\"> $9.95$</td></tr></tbody></table></center><p></p><p>经计算得 $\\bar x=\\dfrac1{16}\\sum_{i=1}^{16}x_{i}=9.97$，</p><p>$s=\\sqrt{\\dfrac1{16}\\sum_{i=1}^{16}(x_{i}-\\bar x)^{2}}=\\sqrt{\\dfrac1{16}\\left(\\sum_{i=1}^{16}x_{i}^{2}-16\\bar x^{2}\\right)}\\approx0.212$，</p><p>其中 $x_{i}$ 为抽取的第 $i$ 个零件的尺寸，$i=1$，$2$，$\\dots$，$16$.</p><p>用样本平均数作为 $\\mu$ 的估计值，用样本标准差 $s$ 作为 $\\sigma$ 的估计值，利用估计值判断是否需对当天的生产过程进行检查？剔除 $(\\hat\\mu-3\\hat\\sigma,\\hat\\mu+3\\hat\\sigma)$ 之外的数据，用剩下的数据估计 $\\mu$ 和 $\\sigma$（精确到 $0.01$）.</p></li></ol><p></p></li></ol><p>附：若随机变量 $Z$ 服从正态分布 $N(\\mu,\\sigma^{2})$，则 $P(\\mu-3\\sigma<Z<\\mu+3\\sigma)=0.9974$，$0.9974^{16}\\approx0.9592$，$\\sqrt{0.008}\\approx0.09$.</p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>单个零件的尺寸落在区间 $(\\mu-3\\sigma,\\mu+3\\sigma)$ 外的概率为</p>\n$$\np=1-0.9974=0.0026\n$$\n<p>因此 $X\\sim B(16,0.0026)$，从而</p>\n$$\nP(X\\ge1)=1-P(X=0)=1-0.9974^{16}\\approx1-0.9592=0.0408\n$$\n<p>二项分布的数学期望为</p>\n$$\nE(X)=16\\times0.0026=0.0416\n$$\n</li><li><p></p><ol class=\"enumerate\"><li><p>若生产线处于正常状态，一天抽取的 $16$ 个零件中至少有一个尺寸落在上述区间外的概率仅为 $0.0408$，约为 $4.08\\%$. 因此出现区间外数据是小概率事件，以此作为异常预警并要求检查，能够在正常状态下保持较低的误报概率，方法是合理的.</p></li><li><p>用样本估计值时，区间为</p>\n$$\n(\\hat\\mu-3\\hat\\sigma,\\hat\\mu+3\\hat\\sigma)  =(9.97-3\\times0.212,\\;9.97+3\\times0.212)  =(9.334,\\;10.606)\n$$\n<p>给出的数据中只有 $9.22$ 不在此区间内，所以应对当天生产过程进行检查.</p><p>剔除 $9.22$ 后，剩余 $15$ 个数据的和为</p>\n$$\n16\\times9.97-9.22=150.30\n$$\n<p>故新的样本平均数为</p>\n$$\n\\hat\\mu=\\frac{150.30}{15}=10.02\n$$\n<p>又</p>\n$$\n\\sum_{i=1}^{15}(x_{i}-10.02)^{2}=0.1222\n$$\n<p>所以按题给标准差的定义，</p>\n$$\n\\hat\\sigma=\\sqrt{\\frac{0.1222}{15}}\\approx0.0903\\approx0.09\n$$\n</li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>单个零件的尺寸落在区间 $(\\mu-3\\sigma,\\mu+3\\sigma)$ 外的概率为</p>\n$$\np=1-0.9974=0.0026\n$$\n<p>因此 $X\\sim B(16,0.0026)$，从而</p>\n$$\nP(X\\ge1)=1-P(X=0)=1-0.9974^{16}\\approx1-0.9592=0.0408\n$$\n<p>二项分布的数学期望为</p>\n$$\nE(X)=16\\times0.0026=0.0416\n$$\n</li><li><p></p><ol class=\"enumerate\"><li><p>若生产线处于正常状态，一天抽取的 $16$ 个零件中至少有一个尺寸落在上述区间外的概率仅为 $0.0408$，约为 $4.08\\%$. 因此出现区间外数据是小概率事件，以此作为异常预警并要求检查，能够在正常状态下保持较低的误报概率，方法是合理的.</p></li><li><p>用样本估计值时，区间为</p>\n$$\n(\\hat\\mu-3\\hat\\sigma,\\hat\\mu+3\\hat\\sigma)  =(9.97-3\\times0.212,\\;9.97+3\\times0.212)  =(9.334,\\;10.606)\n$$\n<p>给出的数据中只有 $9.22$ 不在此区间内，所以应对当天生产过程进行检查.</p><p>剔除 $9.22$ 后，剩余 $15$ 个数据的和为</p>\n$$\n16\\times9.97-9.22=150.30\n$$\n<p>故新的样本平均数为</p>\n$$\n\\hat\\mu=\\frac{150.30}{15}=10.02\n$$\n<p>又</p>\n$$\n\\sum_{i=1}^{15}(x_{i}-10.02)^{2}=0.1222\n$$\n<p>所以按题给标准差的定义，</p>\n$$\n\\hat\\sigma=\\sqrt{\\frac{0.1222}{15}}\\approx0.0903\\approx0.09\n$$\n</li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$），四点 $P_{1}(1,1)$，$P_{2}(0,1)$，$P_{3}\\left(-1,\\dfrac{\\sqrt{3}}{2}\\right)$，$P_{4}\\left(1,\\dfrac{\\sqrt{3}}{2}\\right)$ 中恰有三点在椭圆 $C$ 上.</p><ol class=\"enumerate\"><li><p>求 $C$ 的方程；</p></li><li><p>设直线 $l$ 不经过 $P_{2}$ 点且与 $C$ 相交于 $A$，$B$ 两点. 若直线 $P_{2}A$ 与直线 $P_{2}B$ 的斜率的和为 $-1$，证明：$l$ 过定点.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>点 $P_{3}$ 与 $P_{4}$ 关于 $y$ 轴对称，代入椭圆方程所得值相同. 若这两个点都不在椭圆上，则至多只有 $P_{1}$，$P_{2}$ 两点在椭圆上，与恰有三点在椭圆上矛盾，所以 $P_{3}$，$P_{4}$ 都在椭圆上. 又 $P_{1}$ 与 $P_{3}$ 同时在椭圆上会导致</p>\n$$\n\\frac{1}{a^{2}}+\\frac{1}{b^{2}}=\\frac{1}{a^{2}}+\\frac{3}{4b^{2}}\n$$\n<p>从而 $1=\\dfrac{3}{4}$，矛盾，故 $P_{1}$ 不在椭圆上，$P_{2}$ 在椭圆上. 代入 $P_{2}(0,1)$ 得 $b^{2}=1$，再代入 $P_{3}$ 得</p>\n$$\n\\frac{1}{a^{2}}+\\frac{3}{4}=1\n$$\n<p>所以 $a^{2}=4$. 因此椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+y^{2}=1\n$$\n</li><li><p>先考虑非竖直直线，设 $l:y=kx+b$. 因为 $l$ 不经过 $P_{2}(0,1)$，所以 $b\\ne1$. 设 $l$ 与椭圆交点 $A$，$B$ 的横坐标为 $x_{1}$，$x_{2}$，代入椭圆方程得</p>\n$$\n(1+4k^{2})x^{2}+8kbx+4b^{2}-4=0\n$$\n<p>由韦达定理，</p><p>$x_{1}+x_{2}=-\\frac{8kb}{1+4k^{2}}$，$x_{1}x_{2}=\\frac{4b^{2}-4}{1+4k^{2}}$.</p><p>两条直线 $P_{2}A$，$P_{2}B$ 的斜率分别为</p><p>$k+\\frac{b-1}{x_{1}}$，$k+\\frac{b-1}{x_{2}}$.</p><p>题设的斜率存在，故 $b\\ne-1$；于是由斜率和为 $-1$，得</p>\n$$\n2k+(b-1)\\frac{x_{1}+x_{2}}{x_{1}x_{2}}=2k-\\frac{2kb}{b+1}=\\frac{2k}{b+1}=-1\n$$\n<p>所以 $b=-2k-1$，从而 $2k+b=-1$. 因此点 $(2,-1)$ 在直线 $l:y=kx+b$ 上.</p><p>若 $l$ 为竖直直线，设其方程为 $x=t$. 因其为过两点的割线，$-2<t<2$，交点的纵坐标互为相反数，故两条连线的斜率之和为</p>\n$$\n\\frac{y_{1}-1}{t}+\\frac{y_{2}-1}{t}=-\\frac{2}{t}\n$$\n<p>令其等于 $-1$ 得 $t=2$，这与 $-2<t<2$ 矛盾. 因此不存在满足条件的竖直割线. 综上，$l$ 必过定点 $(2,-1)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>点 $P_{3}$ 与 $P_{4}$ 关于 $y$ 轴对称，代入椭圆方程所得值相同. 若这两个点都不在椭圆上，则至多只有 $P_{1}$，$P_{2}$ 两点在椭圆上，与恰有三点在椭圆上矛盾，所以 $P_{3}$，$P_{4}$ 都在椭圆上. 又 $P_{1}$ 与 $P_{3}$ 同时在椭圆上会导致</p>\n$$\n\\frac{1}{a^{2}}+\\frac{1}{b^{2}}=\\frac{1}{a^{2}}+\\frac{3}{4b^{2}}\n$$\n<p>从而 $1=\\dfrac{3}{4}$，矛盾，故 $P_{1}$ 不在椭圆上，$P_{2}$ 在椭圆上. 代入 $P_{2}(0,1)$ 得 $b^{2}=1$，再代入 $P_{3}$ 得</p>\n$$\n\\frac{1}{a^{2}}+\\frac{3}{4}=1\n$$\n<p>所以 $a^{2}=4$. 因此椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+y^{2}=1\n$$\n</li><li><p>先考虑非竖直直线，设 $l:y=kx+b$. 因为 $l$ 不经过 $P_{2}(0,1)$，所以 $b\\ne1$. 设 $l$ 与椭圆交点 $A$，$B$ 的横坐标为 $x_{1}$，$x_{2}$，代入椭圆方程得</p>\n$$\n(1+4k^{2})x^{2}+8kbx+4b^{2}-4=0\n$$\n<p>由韦达定理，</p><p>$x_{1}+x_{2}=-\\frac{8kb}{1+4k^{2}}$，$x_{1}x_{2}=\\frac{4b^{2}-4}{1+4k^{2}}$.</p><p>两条直线 $P_{2}A$，$P_{2}B$ 的斜率分别为</p><p>$k+\\frac{b-1}{x_{1}}$，$k+\\frac{b-1}{x_{2}}$.</p><p>题设的斜率存在，故 $b\\ne-1$；于是由斜率和为 $-1$，得</p>\n$$\n2k+(b-1)\\frac{x_{1}+x_{2}}{x_{1}x_{2}}=2k-\\frac{2kb}{b+1}=\\frac{2k}{b+1}=-1\n$$\n<p>所以 $b=-2k-1$，从而 $2k+b=-1$. 因此点 $(2,-1)$ 在直线 $l:y=kx+b$ 上.</p><p>若 $l$ 为竖直直线，设其方程为 $x=t$. 因其为过两点的割线，$-2<t<2$，交点的纵坐标互为相反数，故两条连线的斜率之和为</p>\n$$\n\\frac{y_{1}-1}{t}+\\frac{y_{2}-1}{t}=-\\frac{2}{t}\n$$\n<p>令其等于 $-1$ 得 $t=2$，这与 $-2<t<2$ 矛盾. 因此不存在满足条件的竖直割线. 综上，$l$ 必过定点 $(2,-1)$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知函数 $f(x)=a\\mathrm{e}^{2x}+(a-2)\\mathrm{e}^{x}-x$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>若 $f(x)$ 有两个零点，求 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>求导得</p>\n$$\nf'(x)=2a\\mathrm{e}^{2x}+(a-2)\\mathrm{e}^{x}-1=(2\\mathrm{e}^{x}+1)(a\\mathrm{e}^{x}-1)\n$$\n<p>若 $a\\le0$，则 $2\\mathrm{e}^{x}+1>0$ 且 $a\\mathrm{e}^{x}-1<0$，所以 $f'(x)<0$，$f(x)$ 在 $\\mathbb{R}$ 上单调递减.</p><p>若 $a>0$，则 $a\\mathrm{e}^{x}-1=0$ 等价于 $x=\\ln\\dfrac{1}{a}$. 因此</p><p>$f'(x)<0$，（$x<\\ln\\frac{1}{a}$），$f'(x)>0$，（$x>\\ln\\frac{1}{a}$）.</p><p>故 $f(x)$ 在 $\\left(-\\infty,\\ln\\dfrac{1}{a}\\right)$ 上单调递减，在 $\\left(\\ln\\dfrac{1}{a},+\\infty\\right)$ 上单调递增.</p></li><li><p>当 $a\\le0$ 时，$f$ 单调递减，至多有一个零点，所以必须 $a>0$. 当 $a>0$ 时，函数在</p>\n$$\nx_{0}=\\ln\\frac{1}{a}\n$$\n<p>处取得最小值，且 $f(x)\\to+\\infty$（当 $x\\to\\pm\\infty$）. 因此有两个零点当且仅当 $f(x_{0})<0$. 计算得</p>\n$$\nf(x_{0})=1-\\frac{1}{a}+\\ln a\n$$\n<p>令 $t=\\dfrac{1}{a}>0$，则条件化为</p>\n$$\n1-t-\\ln t<0\n$$\n<p>设 $h(t)=1-t-\\ln t$，则 $h'(t)=-1-\\dfrac{1}{t}<0$，且 $h(1)=0$，所以 $h(t)<0$ 当且仅当 $t>1$，即 $0<a<1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>求导得</p>\n$$\nf'(x)=2a\\mathrm{e}^{2x}+(a-2)\\mathrm{e}^{x}-1=(2\\mathrm{e}^{x}+1)(a\\mathrm{e}^{x}-1)\n$$\n<p>若 $a\\le0$，则 $2\\mathrm{e}^{x}+1>0$ 且 $a\\mathrm{e}^{x}-1<0$，所以 $f'(x)<0$，$f(x)$ 在 $\\mathbb{R}$ 上单调递减.</p><p>若 $a>0$，则 $a\\mathrm{e}^{x}-1=0$ 等价于 $x=\\ln\\dfrac{1}{a}$. 因此</p><p>$f'(x)<0$，（$x<\\ln\\frac{1}{a}$），$f'(x)>0$，（$x>\\ln\\frac{1}{a}$）.</p><p>故 $f(x)$ 在 $\\left(-\\infty,\\ln\\dfrac{1}{a}\\right)$ 上单调递减，在 $\\left(\\ln\\dfrac{1}{a},+\\infty\\right)$ 上单调递增.</p></li><li><p>当 $a\\le0$ 时，$f$ 单调递减，至多有一个零点，所以必须 $a>0$. 当 $a>0$ 时，函数在</p>\n$$\nx_{0}=\\ln\\frac{1}{a}\n$$\n<p>处取得最小值，且 $f(x)\\to+\\infty$（当 $x\\to\\pm\\infty$）. 因此有两个零点当且仅当 $f(x_{0})<0$. 计算得</p>\n$$\nf(x_{0})=1-\\frac{1}{a}+\\ln a\n$$\n<p>令 $t=\\dfrac{1}{a}>0$，则条件化为</p>\n$$\n1-t-\\ln t<0\n$$\n<p>设 $h(t)=1-t-\\ln t$，则 $h'(t)=-1-\\dfrac{1}{t}<0$，且 $h(1)=0$，所以 $h(t)<0$ 当且仅当 $t>1$，即 $0<a<1$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -232,16 +415,20 @@
         {
           "num": 22,
           "body": "<p>在直角坐标系 $xOy$ 中，曲线 $C$ 的参数方程为</p><p>$\\begin{cases}x=3\\cos\\theta,\\\\\n\ny=\\sin\\theta\\end{cases}$（$\\theta$ 为参数），直线 $l$ 的参数方程为</p><p>$\\begin{cases}x=a+4t,\\\\  y=1-t\\end{cases}$（$t$ 为参数）.</p><ol class=\"enumerate\"><li><p>若 $a=-1$，求 $C$ 与 $l$ 的交点坐标；</p></li><li><p>若 $C$ 上的点到 $l$ 距离的最大值为 $\\sqrt{17}$，求 $a$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>消去参数得曲线 $C$ 的普通方程</p>\n$$\n\\frac{x^{2}}{9}+y^{2}=1\n$$\n<p>当 $a=-1$ 时，直线 $l$ 的方程为</p>\n$$\nx+4y-3=0\n$$\n<p>联立两式，得</p>\n$$\n25x^{2}-54x-63=0\n$$\n<p>所以 $x=3$ 或 $x=-\\dfrac{21}{25}$. 代回直线方程，分别得到 $y=0$ 和 $y=\\dfrac{24}{25}$，故交点为</p><p>$(3,0)$，$\\left(-\\frac{21}{25},\\frac{24}{25}\\right)$.</p></li><li><p>由直线参数方程消去 $t$，得</p>\n$$\nl:x+4y-a-4=0\n$$\n<p>曲线 $C$ 上任一点可写为 $P(3\\cos\\theta,\\sin\\theta)$，点 $P$ 到直线 $l$ 的距离为</p>\n$$\nd=\\frac{\\left|3\\cos\\theta+4\\sin\\theta-a-4\\right|}{\\sqrt{17}}\n$$\n<p>因为 $3\\cos\\theta+4\\sin\\theta$ 的取值范围为 $[-5,5]$，所以分子绝对值的最大值为</p>\n$$\n\\max\\left\\{\\left|-5-a-4\\right|,\\left|5-a-4\\right|\\right\\}  =5+\\lvert a+4\\rvert\n$$\n<p>题设最大距离为 $\\sqrt{17}$，故</p>\n$$\n\\frac{5+\\lvert a+4\\rvert}{\\sqrt{17}}=\\sqrt{17}\n$$\n<p>即 $\\lvert a+4\\rvert=12$. 因此 $a=8$ 或 $a=-16$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>消去参数得曲线 $C$ 的普通方程</p>\n$$\n\\frac{x^{2}}{9}+y^{2}=1\n$$\n<p>当 $a=-1$ 时，直线 $l$ 的方程为</p>\n$$\nx+4y-3=0\n$$\n<p>联立两式，得</p>\n$$\n25x^{2}-54x-63=0\n$$\n<p>所以 $x=3$ 或 $x=-\\dfrac{21}{25}$. 代回直线方程，分别得到 $y=0$ 和 $y=\\dfrac{24}{25}$，故交点为</p><p>$(3,0)$，$\\left(-\\frac{21}{25},\\frac{24}{25}\\right)$.</p></li><li><p>由直线参数方程消去 $t$，得</p>\n$$\nl:x+4y-a-4=0\n$$\n<p>曲线 $C$ 上任一点可写为 $P(3\\cos\\theta,\\sin\\theta)$，点 $P$ 到直线 $l$ 的距离为</p>\n$$\nd=\\frac{\\left|3\\cos\\theta+4\\sin\\theta-a-4\\right|}{\\sqrt{17}}\n$$\n<p>因为 $3\\cos\\theta+4\\sin\\theta$ 的取值范围为 $[-5,5]$，所以分子绝对值的最大值为</p>\n$$\n\\max\\left\\{\\left|-5-a-4\\right|,\\left|5-a-4\\right|\\right\\}  =5+\\lvert a+4\\rvert\n$$\n<p>题设最大距离为 $\\sqrt{17}$，故</p>\n$$\n\\frac{5+\\lvert a+4\\rvert}{\\sqrt{17}}=\\sqrt{17}\n$$\n<p>即 $\\lvert a+4\\rvert=12$. 因此 $a=8$ 或 $a=-16$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "<p>已知函数 $f(x)=-x^{2}+ax+4$，$g(x)=\\lvert x+1\\rvert+\\lvert x-1\\rvert$.</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，求不等式 $f(x)\\ge g(x)$ 的解集；</p></li><li><p>若不等式 $f(x)\\ge g(x)$ 的解集包含 $[-1,1]$，求 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li>\n$$\ng(x)=  \\begin{cases}-2x,&x\\le-1,\\\\  2,&-1\\le x\\le1,\\\\  2x,&x\\ge1.\\end{cases}\n$$\n<p>当 $x\\le-1$ 时，$f(x)\\ge g(x)$ 等价于</p>\n$$\n-x^{2}+3x+4\\ge0   \\Longleftrightarrow   (x-4)(x+1)\\le0\n$$\n<p>与 $x\\le-1$ 合得 $x=-1$. 当 $-1\\le x\\le1$ 时，不等式等价于</p>\n$$\n-x^{2}+x+2\\ge0   \\Longleftrightarrow   (x-2)(x+1)\\le0\n$$\n<p>故该区间内全部满足. 当 $x\\ge1$ 时，不等式等价于</p>\n$$\n-x^{2}-x+4\\ge0   \\Longleftrightarrow   x^{2}+x-4\\le0\n$$\n<p>解方程 $x^{2}+x-4=0$，得</p>\n$$\nx\\in\\left[\\frac{-1-\\sqrt{17}}{2},\\frac{-1+\\sqrt{17}}{2}\\right]\n$$\n<p>与 $x\\ge1$ 取交集后为 $\\left[1,\\dfrac{-1+\\sqrt{17}}2\\right]$. 合并三段，解集为</p>\n$$\n\\left[-1,\\frac{-1+\\sqrt{17}}{2}\\right]\n$$\n</li><li><p>对任意 $x\\in[-1,1]$，有 $g(x)=2$. 因此题设等价于 $f(x)\\ge2$ 在 $[-1,1]$ 上恒成立. 函数 $f(x)=-x^{2}+ax+4$ 为开口向下的二次函数，在闭区间上的最小值取在端点，所以只需</p><p>$f(-1)=3-a\\ge2$，$f(1)=3+a\\ge2$.</p><p>这给出 $a\\le1$ 且 $a\\ge-1$，即 $a\\in[-1,1]$. 反之在此范围内两端点不等式成立，故整个区间上的不等式均成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li>\n$$\ng(x)=  \\begin{cases}-2x,&x\\le-1,\\\\  2,&-1\\le x\\le1,\\\\  2x,&x\\ge1.\\end{cases}\n$$\n<p>当 $x\\le-1$ 时，$f(x)\\ge g(x)$ 等价于</p>\n$$\n-x^{2}+3x+4\\ge0   \\Longleftrightarrow   (x-4)(x+1)\\le0\n$$\n<p>与 $x\\le-1$ 合得 $x=-1$. 当 $-1\\le x\\le1$ 时，不等式等价于</p>\n$$\n-x^{2}+x+2\\ge0   \\Longleftrightarrow   (x-2)(x+1)\\le0\n$$\n<p>故该区间内全部满足. 当 $x\\ge1$ 时，不等式等价于</p>\n$$\n-x^{2}-x+4\\ge0   \\Longleftrightarrow   x^{2}+x-4\\le0\n$$\n<p>解方程 $x^{2}+x-4=0$，得</p>\n$$\nx\\in\\left[\\frac{-1-\\sqrt{17}}{2},\\frac{-1+\\sqrt{17}}{2}\\right]\n$$\n<p>与 $x\\ge1$ 取交集后为 $\\left[1,\\dfrac{-1+\\sqrt{17}}2\\right]$. 合并三段，解集为</p>\n$$\n\\left[-1,\\frac{-1+\\sqrt{17}}{2}\\right]\n$$\n</li><li><p>对任意 $x\\in[-1,1]$，有 $g(x)=2$. 因此题设等价于 $f(x)\\ge2$ 在 $[-1,1]$ 上恒成立. 函数 $f(x)=-x^{2}+ax+4$ 为开口向下的二次函数，在闭区间上的最小值取在端点，所以只需</p><p>$f(-1)=3-a\\ge2$，$f(1)=3+a\\ge2$.</p><p>这给出 $a\\le1$ 且 $a\\ge-1$，即 $a\\in[-1,1]$. 反之在此范围内两端点不等式成立，故整个区间上的不等式均成立.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

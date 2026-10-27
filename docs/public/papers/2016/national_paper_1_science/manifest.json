@@ -1,8 +1,155 @@
 {
-  "title": "2016年普通高等学校招生全国统一考试",
-  "subtitle": "2016年全国I卷（理）",
   "year": "2016",
   "slug": "national_paper_1_science",
+  "title": "2016年全国I卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 23,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 24,
+      "type": "选考题：解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +164,9 @@
             "$\\left(\\dfrac{3}{2},3\\right)$"
           ],
           "answer": "D",
-          "solution": "<p>由 $x^{2}-4x+3=(x-1)(x-3)$，得 $A=(1,3)$. 又由 $2x-3>0$，得 $B=(\\dfrac{3}{2},+\\infty)$. 因此</p>\n$$\nA\\cap B=\\left(\\dfrac{3}{2},3\\right)\n$$\n<p>故选 D.</p>"
+          "solution": "<p>由 $x^{2}-4x+3=(x-1)(x-3)$，得 $A=(1,3)$. 又由 $2x-3>0$，得 $B=(\\dfrac{3}{2},+\\infty)$. 因此</p>\n$$\nA\\cap B=\\left(\\dfrac{3}{2},3\\right)\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +178,9 @@
             "$2$"
           ],
           "answer": "B",
-          "solution": "<p>由复数相等，$(1+\\mathrm{i})x=x+x\\mathrm{i}=1+y\\mathrm{i}$，所以 $x=1$，$y=1$. 因此</p>\n$$\n|x+y\\mathrm{i}|=|1+\\mathrm{i}|=\\sqrt{1^{2}+1^{2}}=\\sqrt{2}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>由复数相等，$(1+\\mathrm{i})x=x+x\\mathrm{i}=1+y\\mathrm{i}$，所以 $x=1$，$y=1$. 因此</p>\n$$\n|x+y\\mathrm{i}|=|1+\\mathrm{i}|=\\sqrt{1^{2}+1^{2}}=\\sqrt{2}\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +192,9 @@
             "$97$"
           ],
           "answer": "C",
-          "solution": "<p>设等差数列的公差为 $d$. 由等差数列中项的性质，</p>\n$$\nS_{9}=9a_{5}=27\n$$\n<p>故 $a_{5}=3$. 又 $a_{10}=a_{5}+5d=8$，所以 $d=1$. 从而</p>\n$$\na_{100}=a_{5}+95d=3+95=98\n$$\n<p>故选 C.</p>"
+          "solution": "<p>设等差数列的公差为 $d$. 由等差数列中项的性质，</p>\n$$\nS_{9}=9a_{5}=27\n$$\n<p>故 $a_{5}=3$. 又 $a_{10}=a_{5}+5d=8$，所以 $d=1$. 从而</p>\n$$\na_{100}=a_{5}+95d=3+95=98\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +206,9 @@
             "$\\dfrac{3}{4}$"
           ],
           "answer": "B",
-          "solution": "<p>把 $7{:}50$ 至 $8{:}30$ 看作长度为 $40$ 分钟的等可能时间区间. 到达时间在 $7{:}50$ 至 $8{:}00$ 时可乘 $8{:}00$ 的班车，到达时间在 $8{:}20$ 至 $8{:}30$ 时可乘 $8{:}30$ 的班车；这两段有利时间总长为 $20$ 分钟. 因此</p>\n$$\n\\frac{20}{40}=\\frac{1}{2}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>把 $7{:}50$ 至 $8{:}30$ 看作长度为 $40$ 分钟的等可能时间区间. 到达时间在 $7{:}50$ 至 $8{:}00$ 时可乘 $8{:}00$ 的班车，到达时间在 $8{:}20$ 至 $8{:}30$ 时可乘 $8{:}30$ 的班车；这两段有利时间总长为 $20$ 分钟. 因此</p>\n$$\n\\frac{20}{40}=\\frac{1}{2}\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,11 +220,13 @@
             "$(0,\\sqrt{3})$"
           ],
           "answer": "A",
-          "solution": "<p>要使方程表示双曲线，必须有</p><p>$m^{2}+n>0$，$3m^{2}-n>0$.</p><p>此时双曲线的焦半距满足</p>\n$$\nc^{2}=(m^{2}+n)+(3m^{2}-n)=4m^{2}\n$$\n<p>由两焦点间的距离为 $4$，得 $2c=4$，即 $c=2$，所以 $m^{2}=1$. 代回两个正性条件，得到</p><p>$1+n>0$，$3-n>0$，</p><p>即 $-1<n<3$. 故选 A.</p>"
+          "solution": "<p>要使方程表示双曲线，必须有</p><p>$m^{2}+n>0$，$3m^{2}-n>0$.</p><p>此时双曲线的焦半距满足</p>\n$$\nc^{2}=(m^{2}+n)+(3m^{2}-n)=4m^{2}\n$$\n<p>由两焦点间的距离为 $4$，得 $2c=4$，即 $c=2$，所以 $m^{2}=1$. 代回两个正性条件，得到</p><p>$1+n>0$，$3-n>0$，</p><p>即 $-1<n<3$. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
-          "body": "<p>如图，某几何体的三视图是三个半径相等的圆及每个圆中两条相互垂直的半径. 若该几何体的体积是 $28\\frac{\\pi}{3}$，则它的表面积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，某几何体的三视图是三个半径相等的圆及每个圆中两条相互垂直的半径. 若该几何体的体积是 $28\\frac{\\pi}{3}$，则它的表面积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_1_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$17\\pi$",
             "$18\\pi$",
@@ -77,19 +234,23 @@
             "$28\\pi$"
           ],
           "answer": "A",
-          "solution": "<p>由三视图可知，该几何体是半径为 $r$ 的球去掉一个八分之一球后形成的部分；三个互相垂直的半径对应三个互相垂直的截面. 因此其体积为球体积的 $\\dfrac{7}{8}$，所以</p>\n$$\n\\frac{7}{8}\\cdot\\frac{4}{3}\\pi r^{3}=\\frac{28\\pi}{3}\n$$\n<p>解得 $r=2$. 几何体保留的球面面积为</p>\n$$\n\\frac{7}{8}\\cdot4\\pi r^{2}=14\\pi\n$$\n<p>去掉八分之一球后新增三个互相垂直的四分之一圆面，每个面积为 $\\dfrac{1}{4}\\pi r^{2}=\\pi$. 因此表面积为</p>\n$$\n14\\pi+3\\pi=17\\pi\n$$\n<p>故选 A.</p>"
+          "solution": "<p>由三视图可知，该几何体是半径为 $r$ 的球去掉一个八分之一球后形成的部分；三个互相垂直的半径对应三个互相垂直的截面. 因此其体积为球体积的 $\\dfrac{7}{8}$，所以</p>\n$$\n\\frac{7}{8}\\cdot\\frac{4}{3}\\pi r^{3}=\\frac{28\\pi}{3}\n$$\n<p>解得 $r=2$. 几何体保留的球面面积为</p>\n$$\n\\frac{7}{8}\\cdot4\\pi r^{2}=14\\pi\n$$\n<p>去掉八分之一球后新增三个互相垂直的四分之一圆面，每个面积为 $\\dfrac{1}{4}\\pi r^{2}=\\pi$. 因此表面积为</p>\n$$\n14\\pi+3\\pi=17\\pi\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "函数 $y=2x^{2}-\\mathrm{e}^{|x|}$ 在 $[-2,2]$ 的图象大致为（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_1_science/q7_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_1_science/q7_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_1_science/q7_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_1_science/q7_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_1_science/q7_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_1_science/q7_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_1_science/q7_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_1_science/q7_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "<p>函数为偶函数. 对 $x\\geqslant0$，有 $f(x)=2x^{2}-\\mathrm{e}^{x}$.</p><p>$f(0)=-1<0$，$f(2)=8-\\mathrm{e}^{2}>0$.</p><p>又 $f'(x)=4x-\\mathrm{e}^{x}$. 令 $g(x)=4x-\\mathrm{e}^{x}$，则 $g'(x)=4-\\mathrm{e}^{x}$. 因此 $g$ 在 $[0,\\ln4]$ 上递增，在 $[\\ln4,2]$ 上递减；又 $g(0)=-1<0$、$g(\\ln4)=4\\ln4-4>0$、$g(2)=8-\\mathrm{e}^{2}>0$，所以 $g$ 在 $[0,2]$ 内只有一个零点，函数在正半轴先减后增. 结合偶性、$f(0)=-1<0$ 和 $f(2)=8-\\mathrm{e}^{2}>0$，只有选项 D 的图象符合，故选 D.</p>"
+          "solution": "<p>函数为偶函数. 对 $x\\geqslant0$，有 $f(x)=2x^{2}-\\mathrm{e}^{x}$.</p><p>$f(0)=-1<0$，$f(2)=8-\\mathrm{e}^{2}>0$.</p><p>又 $f'(x)=4x-\\mathrm{e}^{x}$. 令 $g(x)=4x-\\mathrm{e}^{x}$，则 $g'(x)=4-\\mathrm{e}^{x}$. 因此 $g$ 在 $[0,\\ln4]$ 上递增，在 $[\\ln4,2]$ 上递减；又 $g(0)=-1<0$、$g(\\ln4)=4\\ln4-4>0$、$g(2)=8-\\mathrm{e}^{2}>0$，所以 $g$ 在 $[0,2]$ 内只有一个零点，函数在正半轴先减后增. 结合偶性、$f(0)=-1<0$ 和 $f(2)=8-\\mathrm{e}^{2}>0$，只有选项 D 的图象符合，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,11 +262,13 @@
             "$\\log_{a} c<\\log_{b} c$"
           ],
           "answer": "C",
-          "solution": "<p>因为 $0<c<1$，所以 $x^{c}$ 在正数范围内单调递增，故 $a^{c}>b^{c}$，选项 A 错误. 又因 $c-1<0$，有 $a^{c-1}<b^{c-1}$，即 $ab^{c}>ba^{c}$，选项 B 错误.</p><p>对选项 C，由 $\\ln c<0$、$\\ln a>\\ln b>0$，</p>\n$$\na\\log_{b} c<b\\log_{a} c  \\Longleftrightarrow  \\frac{a\\ln c}{\\ln b}<\\frac{b\\ln c}{\\ln a}\\Longleftrightarrow a\\ln a>b\\ln b\n$$\n<p>函数 $x\\ln x$ 在 $x>1$ 上单调递增，而 $a>b>1$，故 C 正确. 对选项 D，由 $\\ln c<0$ 且 $\\ln a>\\ln b>0$，有 $\\log_{a} c>\\log_{b} c$，故 D 错误. 因此选 C.</p>"
+          "solution": "<p>因为 $0<c<1$，所以 $x^{c}$ 在正数范围内单调递增，故 $a^{c}>b^{c}$，选项 A 错误. 又因 $c-1<0$，有 $a^{c-1}<b^{c-1}$，即 $ab^{c}>ba^{c}$，选项 B 错误.</p><p>对选项 C，由 $\\ln c<0$、$\\ln a>\\ln b>0$，</p>\n$$\na\\log_{b} c<b\\log_{a} c  \\Longleftrightarrow  \\frac{a\\ln c}{\\ln b}<\\frac{b\\ln c}{\\ln a}\\Longleftrightarrow a\\ln a>b\\ln b\n$$\n<p>函数 $x\\ln x$ 在 $x>1$ 上单调递增，而 $a>b>1$，故 C 正确. 对选项 D，由 $\\ln c<0$ 且 $\\ln a>\\ln b>0$，有 $\\log_{a} c>\\log_{b} c$，故 D 错误. 因此选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
-          "body": "<p>执行下面的程序图，如果输入的 $x=0$，$y=1$，$n=1$，则输出 $x$，$y$ 的值满足（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>执行下面的程序图，如果输入的 $x=0$，$y=1$，$n=1$，则输出 $x$，$y$ 的值满足（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_1_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$y=2x$",
             "$y=3x$",
@@ -113,7 +276,9 @@
             "$y=5x$"
           ],
           "answer": "C",
-          "solution": "<p>按程序框图逐次计算. 初始 $x=0$，$y=1$，$n=1$. 第一次循环后</p><p>$x=0+\\frac{1-1}{2}=0$，$y=1\\cdot1=1$，$x^{2}+y^{2}=1<36$，</p><p>故 $n$ 变为 $2$. 第二次循环后</p><p>$x=0+\\frac{2-1}{2}=\\frac{1}{2}$，$y=2\\cdot2=2$，$x^{2}+y^{2}=\\frac{17}{4}<36$，</p><p>故 $n$ 变为 $3$. 第三次循环后</p><p>$x=\\frac{1}{2}+\\frac{3-1}{2}=\\frac{3}{2}$，$y=3\\cdot2=6$，$x^{2}+y^{2}=\\frac{9}{4}+36>36$.</p><p>程序停止，输出满足</p>\n$$\n\\frac{y}{x}=\\frac{6}{\\frac{3}{2}}=4\n$$\n<p>即 $y=4x$，故选 C.</p>"
+          "solution": "<p>按程序框图逐次计算. 初始 $x=0$，$y=1$，$n=1$. 第一次循环后</p><p>$x=0+\\frac{1-1}{2}=0$，$y=1\\cdot1=1$，$x^{2}+y^{2}=1<36$，</p><p>故 $n$ 变为 $2$. 第二次循环后</p><p>$x=0+\\frac{2-1}{2}=\\frac{1}{2}$，$y=2\\cdot2=2$，$x^{2}+y^{2}=\\frac{17}{4}<36$，</p><p>故 $n$ 变为 $3$. 第三次循环后</p><p>$x=\\frac{1}{2}+\\frac{3-1}{2}=\\frac{3}{2}$，$y=3\\cdot2=6$，$x^{2}+y^{2}=\\frac{9}{4}+36>36$.</p><p>程序停止，输出满足</p>\n$$\n\\frac{y}{x}=\\frac{6}{\\frac{3}{2}}=4\n$$\n<p>即 $y=4x$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +290,9 @@
             "$8$"
           ],
           "answer": "B",
-          "solution": "<p>设抛物线为 $y^{2}=2px$，其中 $p>0$. 此时焦点为 $(\\frac{p}{2},0)$，准线为 $x=-\\frac{p}{2}$，所以焦点到准线的距离为 $p$. 设圆心为原点、半径为 $r$，并设 $A=(x_{0},y_{0})$、$B=(x_{0},-y_{0})$. 由 $|AB|=4\\sqrt{2}$，得 $y_{0}=2\\sqrt{2}$，从而 $y_{0}^{2}=8$. 因 $A$ 在抛物线上，</p><p>$8=2px_{0}$，$x_{0}=\\frac{4}{p}$.</p><p>又 $A$ 在圆上，所以 $r^{2}=x_{0}^{2}+y_{0}^{2}=\\dfrac{16}{p^2}+8$. 准线与圆的交点为 $D$，$E$，弦 $DE$ 的半长为 $\\sqrt{5}$，圆心到准线的距离为 $\\frac{p}{2}$，故</p>\n$$\nr^{2}-\\frac{p^{2}}{4}=5\n$$\n<p>令 $u=p^{2}$，联立得</p>\n$$\n\\frac{16}{u}+8-\\frac{u}{4}=5   \\Longleftrightarrow   u^{2}-12u-64=0\n$$\n<p>故 $u=16$ 或 $u=-4$. 因 $u>0$，得 $p=4$. 所以焦点到准线的距离为 $4$，故选 B.</p>"
+          "solution": "<p>设抛物线为 $y^{2}=2px$，其中 $p>0$. 此时焦点为 $(\\frac{p}{2},0)$，准线为 $x=-\\frac{p}{2}$，所以焦点到准线的距离为 $p$. 设圆心为原点、半径为 $r$，并设 $A=(x_{0},y_{0})$、$B=(x_{0},-y_{0})$. 由 $|AB|=4\\sqrt{2}$，得 $y_{0}=2\\sqrt{2}$，从而 $y_{0}^{2}=8$. 因 $A$ 在抛物线上，</p><p>$8=2px_{0}$，$x_{0}=\\frac{4}{p}$.</p><p>又 $A$ 在圆上，所以 $r^{2}=x_{0}^{2}+y_{0}^{2}=\\dfrac{16}{p^2}+8$. 准线与圆的交点为 $D$，$E$，弦 $DE$ 的半长为 $\\sqrt{5}$，圆心到准线的距离为 $\\frac{p}{2}$，故</p>\n$$\nr^{2}-\\frac{p^{2}}{4}=5\n$$\n<p>令 $u=p^{2}$，联立得</p>\n$$\n\\frac{16}{u}+8-\\frac{u}{4}=5   \\Longleftrightarrow   u^{2}-12u-64=0\n$$\n<p>故 $u=16$ 或 $u=-4$. 因 $u>0$，得 $p=4$. 所以焦点到准线的距离为 $4$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,7 +304,9 @@
             "$\\dfrac{1}{3}$"
           ],
           "answer": "A",
-          "solution": "<p>建立空间直角坐标系，令正方体棱长为 $1$，取</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$，$B_{1}=(1,0,1)$，$D_{1}=(0,1,1)$.</p><p>平面 $CB_{1}D_{1}$ 的一个法向量为 $(1,1,1)$，所以过 $A$ 且平行于它的平面 $\\alpha$ 为 $x+y+z=0$. 因而</p><p>$m: x+y=0$，$n: x+z=0$.</p><p>分别取两直线的方向向量 $\\mathbf{u}=(1,-1,0)$、$\\mathbf{v}=(1,0,-1)$，则</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}||\\mathbf{v}|}=\\frac{1}{2}\n$$\n<p>所以</p>\n$$\n\\sin\\theta=\\sqrt{1-\\cos^{2}\\theta}=\\frac{\\sqrt{3}}{2}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>建立空间直角坐标系，令正方体棱长为 $1$，取</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$，$B_{1}=(1,0,1)$，$D_{1}=(0,1,1)$.</p><p>平面 $CB_{1}D_{1}$ 的一个法向量为 $(1,1,1)$，所以过 $A$ 且平行于它的平面 $\\alpha$ 为 $x+y+z=0$. 因而</p><p>$m: x+y=0$，$n: x+z=0$.</p><p>分别取两直线的方向向量 $\\mathbf{u}=(1,-1,0)$、$\\mathbf{v}=(1,0,-1)$，则</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}||\\mathbf{v}|}=\\frac{1}{2}\n$$\n<p>所以</p>\n$$\n\\sin\\theta=\\sqrt{1-\\cos^{2}\\theta}=\\frac{\\sqrt{3}}{2}\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -149,7 +318,9 @@
             "$5$"
           ],
           "answer": "B",
-          "solution": "<p>由 $x=-\\dfrac\\pi4$ 是零点，$x=\\dfrac\\pi4$ 是对称轴，正弦函数从零点到极值点的相位差为奇数个 $\\dfrac\\pi2$，故</p><p>$\\omega\\cdot\\frac{\\pi}{2}=\\frac{(2k+1)\\pi}{2}$，$k\\in\\mathbb{Z}$，</p><p>从而 $\\omega=2k+1$，即 $\\omega$ 是正奇数. 题中单调区间长度为</p>\n$$\n\\frac{5\\pi}{36}-\\frac{\\pi}{18}=\\frac{\\pi}{12}\n$$\n<p>一个正弦函数的单调区间长度不超过半个周期 $\\dfrac\\pi\\omega$，所以 $\\omega\\leqslant12$. 由于 $\\omega$ 为正奇数，只需先检验最大的候选值 $11$. 当 $\\omega=11$ 时，零点条件为 $-11\\frac{\\pi}{4}+\\varphi=k\\pi$. 结合 $|\\varphi|\\le\\frac{\\pi}{2}$，只能取 $\\varphi=-\\frac{\\pi}{4}$. 此时给定区间两端的相位分别为</p><p>$11\\cdot\\frac{\\pi}{18}-\\frac{\\pi}{4}=\\frac{13\\pi}{36}$，$11\\cdot\\frac{5\\pi}{36}-\\frac{\\pi}{4}=\\frac{23\\pi}{18}$，</p><p>其中包含相位 $\\dfrac\\pi2$，函数在区间内先增后减，不单调，故 $\\omega=11$ 不可取.</p><p>当 $\\omega=9$ 时，零点条件给出 $\\varphi=\\frac{\\pi}{4}$，相位在给定区间内从 $3\\frac{\\pi}{4}$ 变到 $3\\frac{\\pi}{2}$，而 $\\cos t<0$（$3\\frac{\\pi}{4}<t<3\\frac{\\pi}{2}$），所以函数在该区间上单调递减，$\\omega=9$ 可以取. 因此 $\\omega$ 的最大值为 $9$，故选 B.</p>"
+          "solution": "<p>由 $x=-\\dfrac\\pi4$ 是零点，$x=\\dfrac\\pi4$ 是对称轴，正弦函数从零点到极值点的相位差为奇数个 $\\dfrac\\pi2$，故</p><p>$\\omega\\cdot\\frac{\\pi}{2}=\\frac{(2k+1)\\pi}{2}$，$k\\in\\mathbb{Z}$，</p><p>从而 $\\omega=2k+1$，即 $\\omega$ 是正奇数. 题中单调区间长度为</p>\n$$\n\\frac{5\\pi}{36}-\\frac{\\pi}{18}=\\frac{\\pi}{12}\n$$\n<p>一个正弦函数的单调区间长度不超过半个周期 $\\dfrac\\pi\\omega$，所以 $\\omega\\leqslant12$. 由于 $\\omega$ 为正奇数，只需先检验最大的候选值 $11$. 当 $\\omega=11$ 时，零点条件为 $-11\\frac{\\pi}{4}+\\varphi=k\\pi$. 结合 $|\\varphi|\\le\\frac{\\pi}{2}$，只能取 $\\varphi=-\\frac{\\pi}{4}$. 此时给定区间两端的相位分别为</p><p>$11\\cdot\\frac{\\pi}{18}-\\frac{\\pi}{4}=\\frac{13\\pi}{36}$，$11\\cdot\\frac{5\\pi}{36}-\\frac{\\pi}{4}=\\frac{23\\pi}{18}$，</p><p>其中包含相位 $\\dfrac\\pi2$，函数在区间内先增后减，不单调，故 $\\omega=11$ 不可取.</p><p>当 $\\omega=9$ 时，零点条件给出 $\\varphi=\\frac{\\pi}{4}$，相位在给定区间内从 $3\\frac{\\pi}{4}$ 变到 $3\\frac{\\pi}{2}$，而 $\\cos t<0$（$3\\frac{\\pi}{4}<t<3\\frac{\\pi}{2}$），所以函数在该区间上单调递减，$\\omega=9$ 可以取. 因此 $\\omega$ 的最大值为 $9$，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +330,38 @@
         {
           "num": 13,
           "body": "设向量 $\\mathbf{a}=(m,1)$，$\\mathbf{b}=(1,2)$，且 $|\\mathbf{a}+\\mathbf{b}|^{2}=|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}$，则 $m=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$-2$",
-          "solution": "<p>由向量恒等式</p>\n$$\n|\\mathbf{a}+\\mathbf{b}|^{2}=|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}+2\\mathbf{a}\\cdot\\mathbf{b}\n$$\n<p>结合题设得 $\\mathbf{a}\\cdot\\mathbf{b}=0$. 而</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=(m,1)\\cdot(1,2)=m+2\n$$\n<p>所以 $m=-2$.</p>"
+          "choices": [],
+          "answer": "\\(-2\\)",
+          "solution": "<p>由向量恒等式</p>\n$$\n|\\mathbf{a}+\\mathbf{b}|^{2}=|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}+2\\mathbf{a}\\cdot\\mathbf{b}\n$$\n<p>结合题设得 $\\mathbf{a}\\cdot\\mathbf{b}=0$. 而</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=(m,1)\\cdot(1,2)=m+2\n$$\n<p>所以 $m=-2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "$\\left(2x+\\sqrt{x}\\right)^{5}$ 的展开式中，$x^{3}$ 的系数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （用数字填写答案）",
-          "choices": null,
+          "choices": [],
           "answer": "10",
-          "solution": "<p>展开式通项中取 $k$ 个 $\\sqrt{x}$ 因子时，所得项为</p>\n$$\n\\mathrm{C}_{5}^{k}(2x)^{5-k}(\\sqrt{x})^{k}  =\\mathrm{C}_{5}^{k}2^{5-k}x^{5-\\frac{k}{2}}\n$$\n<p>要得到 $x^{3}$，需 $5-\\dfrac{k}{2}=3$，即 $k=4$. 因此 $x^{3}$ 的系数为</p>\n$$\n\\mathrm{C}_{5}^{4} 2^{1}=10\n$$"
+          "solution": "<p>展开式通项中取 $k$ 个 $\\sqrt{x}$ 因子时，所得项为</p>\n$$\n\\mathrm{C}_{5}^{k}(2x)^{5-k}(\\sqrt{x})^{k}  =\\mathrm{C}_{5}^{k}2^{5-k}x^{5-\\frac{k}{2}}\n$$\n<p>要得到 $x^{3}$，需 $5-\\dfrac{k}{2}=3$，即 $k=4$. 因此 $x^{3}$ 的系数为</p>\n$$\n\\mathrm{C}_{5}^{4} 2^{1}=10\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "设等比数列 $\\{a_{n}\\}$ 满足 $a_{1}+a_{3}=10$，$a_{2}+a_{4}=5$，则 $a_{1}a_{2}\\cdots a_{n}$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "64",
-          "solution": "<p>设等比数列的首项为 $a_{1}$，公比为 $q$. 由已知，</p><p>$a_{1}(1+q^{2})=10$，$a_{1}q(1+q^{2})=5$.</p><p>因 $1+q^{2}>0$，两式相除得 $q=\\dfrac{1}{2}$，再得 $a_{1}=8$. 因而</p>\n$$\na_{1}a_{2}\\cdots a_{n}=\\prod_{k=1}^{n}8\\left(\\frac{1}{2}\\right)^{k-1}=2^{3n-\\frac{n(n-1)}{2}}=2^{\\frac{7n-n^{2}}{2}}\n$$\n<p>这里 $n$ 为正整数. 指数 $\\dfrac{7n-n^2}{2}$ 在 $n=3$，$4$ 时均为最大值 $6$，所以乘积的最大值为 $2^{6}=64$.</p>"
+          "solution": "<p>设等比数列的首项为 $a_{1}$，公比为 $q$. 由已知，</p><p>$a_{1}(1+q^{2})=10$，$a_{1}q(1+q^{2})=5$.</p><p>因 $1+q^{2}>0$，两式相除得 $q=\\dfrac{1}{2}$，再得 $a_{1}=8$. 因而</p>\n$$\na_{1}a_{2}\\cdots a_{n}=\\prod_{k=1}^{n}8\\left(\\frac{1}{2}\\right)^{k-1}=2^{3n-\\frac{n(n-1)}{2}}=2^{\\frac{7n-n^{2}}{2}}\n$$\n<p>这里 $n$ 为正整数. 指数 $\\dfrac{7n-n^2}{2}$ 在 $n=3$，$4$ 时均为最大值 $6$，所以乘积的最大值为 $2^{6}=64$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "某高科技企业生产产品 $A$ 和产品 $B$，需要甲，乙两种新型材料. 生产一件产品 $A$ 需要甲材料 $1.5\\text{ kg}$，乙材料 $1\\text{ kg}$，用 $5$ 个工时；生产一件产品 $B$ 需要甲材料 $0.5\\text{ kg}$，乙材料 $0.3\\text{ kg}$，用 $3$ 个工时，生产一件产品 $A$ 的利润为 $2100$ 元，生产一件产品 $B$ 的利润为 $900$ 元. 该企业现有甲材料 $150\\text{ kg}$，乙材料 $90\\text{ kg}$，则在不超过 $600$ 个工时的条件下，生产产品 $A$，产品 $B$ 的利润之和的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 元.",
-          "choices": null,
+          "choices": [],
           "answer": "216000",
-          "solution": "<p>设生产产品 $A$，$B$ 的数量分别为 $x$，$y$，则 $x\\geqslant0$、$y\\geqslant0$，并且资源约束为</p>\n$$\n\\begin{cases}1.5x+0.5y\\leqslant150,\\\\  x+0.3y\\leqslant90,\\\\  5x+3y\\leqslant600.\\end{cases}\n$$\n<p>分别化为</p>\n$$\n\\begin{cases}3x+y\\leqslant300,\\\\  10x+3y\\leqslant900,\\\\  5x+3y\\leqslant600,\\\\  x\\geqslant0, y\\geqslant0.\\end{cases}\n$$\n<p>利润函数为 $z=2100x+900y$. 可行域的顶点为</p><p>$(0,0)$，$\\ (0,200)$，$\\ (60,100)$，$\\ (90,0)$.</p><p>在这些顶点处，利润分别为 $0$、$180000$、$216000$、$189000$ 元. 因此最大利润为 $216000$ 元.</p>"
+          "solution": "<p>设生产产品 $A$，$B$ 的数量分别为 $x$，$y$，则 $x\\geqslant0$、$y\\geqslant0$，并且资源约束为</p>\n$$\n\\begin{cases}1.5x+0.5y\\leqslant150,\\\\  x+0.3y\\leqslant90,\\\\  5x+3y\\leqslant600.\\end{cases}\n$$\n<p>分别化为</p>\n$$\n\\begin{cases}3x+y\\leqslant300,\\\\  10x+3y\\leqslant900,\\\\  5x+3y\\leqslant600,\\\\  x\\geqslant0, y\\geqslant0.\\end{cases}\n$$\n<p>利润函数为 $z=2100x+900y$. 可行域的顶点为</p><p>$(0,0)$，$\\ (0,200)$，$\\ (60,100)$，$\\ (90,0)$.</p><p>在这些顶点处，利润分别为 $0$、$180000$、$216000$、$189000$ 元. 因此最大利润为 $216000$ 元.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,37 +371,47 @@
         {
           "num": 17,
           "body": "<p>$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $2\\cos C\\left(a\\cos B+b\\cos A\\right)=c$.</p><ol class=\"enumerate\"><li><p>求 $C$；</p></li><li><p>若 $c=\\sqrt{7}$，$\\triangle ABC$ 的面积为 $\\dfrac{3\\sqrt{3}}{2}$，求 $\\triangle ABC$ 的周长.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，设三角形外接圆半径为 $R$，则 $a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$，从而</p>\n$$\na\\cos B+b\\cos A  =2R\\sin A\\cos B+2R\\sin B\\cos A  =2R\\sin(A+B)  =2R\\sin C=c\n$$\n<p>题设于是化为 $2c\\cos C=c$. 因 $c>0$，得 $\\cos C=\\dfrac{1}{2}$. 又 $0<C<\\pi$，所以 $C=\\dfrac\\pi3$.</p></li><li><p>由面积公式</p>\n$$\n\\frac{1}{2}ab\\sin C=\\frac{3\\sqrt{3}}{2}\n$$\n<p>代入 $\\sin C=\\dfrac{\\sqrt{3}}{2}$，得 $ab=6$. 又由余弦定理</p>\n$$\nc^{2}=a^{2}+b^{2}-2ab\\cos C\n$$\n<p>及 $c^{2}=7$，得 $a^{2}+b^{2}=13$. 因此</p>\n$$\n(a+b)^{2}=a^{2}+b^{2}+2ab=25\n$$\n<p>由于 $a$，$b>0$，所以 $a+b=5$. 三角形周长为 $a+b+c=5+\\sqrt{7}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，设三角形外接圆半径为 $R$，则 $a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$，从而</p>\n$$\na\\cos B+b\\cos A  =2R\\sin A\\cos B+2R\\sin B\\cos A  =2R\\sin(A+B)  =2R\\sin C=c\n$$\n<p>题设于是化为 $2c\\cos C=c$. 因 $c>0$，得 $\\cos C=\\dfrac{1}{2}$. 又 $0<C<\\pi$，所以 $C=\\dfrac\\pi3$.</p></li><li><p>由面积公式</p>\n$$\n\\frac{1}{2}ab\\sin C=\\frac{3\\sqrt{3}}{2}\n$$\n<p>代入 $\\sin C=\\dfrac{\\sqrt{3}}{2}$，得 $ab=6$. 又由余弦定理</p>\n$$\nc^{2}=a^{2}+b^{2}-2ab\\cos C\n$$\n<p>及 $c^{2}=7$，得 $a^{2}+b^{2}=13$. 因此</p>\n$$\n(a+b)^{2}=a^{2}+b^{2}+2ab=25\n$$\n<p>由于 $a$，$b>0$，所以 $a+b=5$. 三角形周长为 $a+b+c=5+\\sqrt{7}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
-          "body": "<p>如图，在以 $A$，$B$，$C$，$D$，$E$，$F$ 为顶点的五面体中，面 $ABEF$ 为正方形，$AF=2FD$，$\\angle AFD=90^{\\circ}$，且二面角 $D-AF-E$ 与二面角 $C-BE-F$ 都是 $60^{\\circ}$.</p><ol class=\"enumerate\"><li><p>证明平面 $ABEF\\perp$ 平面 $EFDC$；</p></li><li><p>求二面角 $E-BC-A$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在以 $A$，$B$，$C$，$D$，$E$，$F$ 为顶点的五面体中，面 $ABEF$ 为正方形，$AF=2FD$，$\\angle AFD=90^{\\circ}$，且二面角 $D-AF-E$ 与二面角 $C-BE-F$ 都是 $60^{\\circ}$.</p><ol class=\"enumerate\"><li><p>证明平面 $ABEF\\perp$ 平面 $EFDC$；</p></li><li><p>求二面角 $E-BC-A$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_1_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因 $ABEF$ 为正方形，$AF\\perp FE$. 又已知 $AF\\perp FD$，且 $FE$、$FD$ 是平面 $EFDC$ 内相交的两条直线，所以 $AF\\perp$ 平面 $EFDC$. 而 $AF\\subset$ 平面 $ABEF$，故平面 $ABEF\\perp$ 平面 $EFDC$.</p></li><li><p>设正方形边长为 $s$，建立空间直角坐标系</p><p>$F=(0,0,0)$，$A=(s,0,0)$，$E=(0,s,0)$，$B=(s,s,0)$.</p><p>由 $AF=2FD$ 及 $\\angle AFD=90^{\\circ}$，得 $FD=\\frac{s}{2}$. 二面角 $D-AF-E=60^{\\circ}$ 表明 $\\angle DFE=60^{\\circ}$，故可取</p>\n$$\nD=\\left(0,\\frac{s}{4},\\frac{\\sqrt{3}s}{4}\\right)\n$$\n<p>由于 $AB\\parallel EF$，且两平面 $ABCD$、$EFDC$ 的交线为 $CD$，有 $CD\\parallel EF$. 因此 $C$ 与 $D$ 的 $x$、$z$ 坐标分别相同，设</p>\n$$\nC=\\left(0,y,\\frac{\\sqrt{3}s}{4}\\right)\n$$\n<p>二面角 $C-BE-F=60^{\\circ}$ 给出 $\\angle CEF=60^{\\circ}$. 由于 $\\overrightarrow{EF}=(0,-s,0)$，$\\overrightarrow{EC}=(0,y-s,\\sqrt{3}\\frac{s}{4})$，故</p>\n$$\n\\frac{s-y}{\\sqrt{(s-y)^{2}+3\\frac{s^2}{16}}}=\\frac{1}{2}\n$$\n<p>由二面角为锐角知 $s-y>0$，解得 $s-y=\\frac{s}{4}$，即 $y=3\\frac{s}{4}$. 取 $s=4$，则</p><p>$A=(4,0,0)$，$B=(4,4,0)$，$C=(0,3,\\sqrt{3})$，$E=(0,4,0)$.</p><p>取平面 $EBC$、$ABC$ 的法向量</p><p>$\\mathbf{n}_{1}=\\overrightarrow{EC}\\times\\overrightarrow{EB}=(0,4\\sqrt{3},4)$，$\\mathbf{n}_{2}=\\overrightarrow{BA}\\times\\overrightarrow{BC}=(-4\\sqrt{3},0,-16)$.</p><p>按二面角 $E-BC-A$ 的两侧取上述法向量，二面角余弦为</p>\n$$\n\\frac{\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{-64}{8\\cdot4\\sqrt{19}}=-\\frac{2\\sqrt{19}}{19}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因 $ABEF$ 为正方形，$AF\\perp FE$. 又已知 $AF\\perp FD$，且 $FE$、$FD$ 是平面 $EFDC$ 内相交的两条直线，所以 $AF\\perp$ 平面 $EFDC$. 而 $AF\\subset$ 平面 $ABEF$，故平面 $ABEF\\perp$ 平面 $EFDC$.</p></li><li><p>设正方形边长为 $s$，建立空间直角坐标系</p><p>$F=(0,0,0)$，$A=(s,0,0)$，$E=(0,s,0)$，$B=(s,s,0)$.</p><p>由 $AF=2FD$ 及 $\\angle AFD=90^{\\circ}$，得 $FD=\\frac{s}{2}$. 二面角 $D-AF-E=60^{\\circ}$ 表明 $\\angle DFE=60^{\\circ}$，故可取</p>\n$$\nD=\\left(0,\\frac{s}{4},\\frac{\\sqrt{3}s}{4}\\right)\n$$\n<p>由于 $AB\\parallel EF$，且两平面 $ABCD$、$EFDC$ 的交线为 $CD$，有 $CD\\parallel EF$. 因此 $C$ 与 $D$ 的 $x$、$z$ 坐标分别相同，设</p>\n$$\nC=\\left(0,y,\\frac{\\sqrt{3}s}{4}\\right)\n$$\n<p>二面角 $C-BE-F=60^{\\circ}$ 给出 $\\angle CEF=60^{\\circ}$. 由于 $\\overrightarrow{EF}=(0,-s,0)$，$\\overrightarrow{EC}=(0,y-s,\\sqrt{3}\\frac{s}{4})$，故</p>\n$$\n\\frac{s-y}{\\sqrt{(s-y)^{2}+3\\frac{s^2}{16}}}=\\frac{1}{2}\n$$\n<p>由二面角为锐角知 $s-y>0$，解得 $s-y=\\frac{s}{4}$，即 $y=3\\frac{s}{4}$. 取 $s=4$，则</p><p>$A=(4,0,0)$，$B=(4,4,0)$，$C=(0,3,\\sqrt{3})$，$E=(0,4,0)$.</p><p>取平面 $EBC$、$ABC$ 的法向量</p><p>$\\mathbf{n}_{1}=\\overrightarrow{EC}\\times\\overrightarrow{EB}=(0,4\\sqrt{3},4)$，$\\mathbf{n}_{2}=\\overrightarrow{BA}\\times\\overrightarrow{BC}=(-4\\sqrt{3},0,-16)$.</p><p>按二面角 $E-BC-A$ 的两侧取上述法向量，二面角余弦为</p>\n$$\n\\frac{\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{-64}{8\\cdot4\\sqrt{19}}=-\\frac{2\\sqrt{19}}{19}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
-          "body": "<p>某公司计划购买 $2$ 台机器，该种机器使用三年后即被淘汰. 机器有一易损零件，在购进机器时，可以额外购买这种零件作为备件，每个 $200$ 元. 在机器使用期间，如果备件不足再购买，则每个 $500$ 元. 现需决策在购买机器时应同时购买几个易损零件，为此搜集并整理了 $100$ 台这种机器在三年使用期内更换的易损零件数，得下面柱状图：</p><p>以这 $100$ 台机器更换的易损零件数的频率代替 $1$ 台机器更换的易损零件数发生的概率，记 $X$ 表示 $2$ 台机器三年内共需更换的易损零件数，$n$ 表示购买 $2$ 台机器的同时购买的易损零件数.</p><ol class=\"enumerate\"><li><p>求 $X$ 的分布列；</p></li><li><p>若要求 $P(X\\le n)\\ge 0.5$，确定 $n$ 的最小值；</p></li><li><p>以购买易损零件所需费用的期望值为决策依据，在 $n=19$ 与 $n=20$ 之中选其一，应选用哪个？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>某公司计划购买 $2$ 台机器，该种机器使用三年后即被淘汰. 机器有一易损零件，在购进机器时，可以额外购买这种零件作为备件，每个 $200$ 元. 在机器使用期间，如果备件不足再购买，则每个 $500$ 元. 现需决策在购买机器时应同时购买几个易损零件，为此搜集并整理了 $100$ 台这种机器在三年使用期内更换的易损零件数，得下面柱状图：</p><p>以这 $100$ 台机器更换的易损零件数的频率代替 $1$ 台机器更换的易损零件数发生的概率，记 $X$ 表示 $2$ 台机器三年内共需更换的易损零件数，$n$ 表示购买 $2$ 台机器的同时购买的易损零件数.</p><ol class=\"enumerate\"><li><p>求 $X$ 的分布列；</p></li><li><p>若要求 $P(X\\le n)\\ge 0.5$，确定 $n$ 的最小值；</p></li><li><p>以购买易损零件所需费用的期望值为决策依据，在 $n=19$ 与 $n=20$ 之中选其一，应选用哪个？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_1_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由柱状图，1 台机器更换 $8$、$9$、$10$、$11$ 个零件的概率分别为</p><p>$0.2$，$0.4$，$0.2$，$0.2$.</p><p>设一台机器更换零件数为 $Y$，两台机器的更换数相互独立，且 $X=Y_{1}+Y_{2}$. 逐项卷积得</p><p>具体地，$P(X=16)=0.2^{2}=0.04$，$P(X=17)=2(0.2)(0.4)=0.16$，$P(X=18)=0.2^{2}+0.4^{2}+0.2^{2}=0.24$，$P(X=19)=2(0.2)(0.2)+2(0.4)(0.2)=0.24$，$P(X=20)=2(0.4)(0.2)+0.2^{2}=0.20$，$P(X=21)=2(0.2)(0.2)=0.08$，$P(X=22)=0.2^{2}=0.04$.</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$x$ </td><td style=\"text-align: center\"> $16$ </td><td style=\"text-align: center\"> $17$ </td><td style=\"text-align: center\"> $18$ </td><td style=\"text-align: center\"> $19$ </td><td style=\"text-align: center\"> $20$ </td><td style=\"text-align: center\"> $21$ </td><td style=\"text-align: center\"> $22$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P(X=x)$ </td><td style=\"text-align: center\"> $0.04$ </td><td style=\"text-align: center\"> $0.16$ </td><td style=\"text-align: center\"> $0.24$ </td><td style=\"text-align: center\"> $0.24$ </td><td style=\"text-align: center\"> $0.20$ </td><td style=\"text-align: center\"> $0.08$ </td><td style=\"text-align: center\"> $0.04$</td></tr></tbody></table></center><p></p><p>表中概率和为 $1$.</p></li><li><p>因为 $X$ 只能取 $16$ 至 $22$ 的整数值，</p>\n$$\nP(X\\leqslant18)=0.04+0.16+0.24=0.44<0.5\n$$\n\n$$\nP(X\\leqslant19)=0.44+0.24=0.68\\geqslant0.5\n$$\n<p>所以满足条件的最小整数为 $n=19$.</p></li><li><p>若预购 $n$ 个，购买和临时补购的总费用为</p>\n$$\nY=200n+500\\max(X-n,0)\n$$\n<p>当 $n=19$ 时，只有 $X>19$ 需要补购，因此</p>\n$$\nE(Y)=200\\cdot19+500\\bigl[1\\cdot0.20+2\\cdot0.08+3\\cdot0.04\\bigr]=4040\n$$\n<p>当 $n=20$ 时，只有 $X=21$，$22$ 需要补购，因此</p>\n$$\nE(Y)=200\\cdot20+500\\bigl[1\\cdot0.08+2\\cdot0.04\\bigr]=4080\n$$\n<p>因为 $4040<4080$，所以应选购 $19$ 个易损零件.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由柱状图，1 台机器更换 $8$、$9$、$10$、$11$ 个零件的概率分别为</p><p>$0.2$，$0.4$，$0.2$，$0.2$.</p><p>设一台机器更换零件数为 $Y$，两台机器的更换数相互独立，且 $X=Y_{1}+Y_{2}$. 逐项卷积得</p><p>具体地，$P(X=16)=0.2^{2}=0.04$，$P(X=17)=2(0.2)(0.4)=0.16$，$P(X=18)=0.2^{2}+0.4^{2}+0.2^{2}=0.24$，$P(X=19)=2(0.2)(0.2)+2(0.4)(0.2)=0.24$，$P(X=20)=2(0.4)(0.2)+0.2^{2}=0.20$，$P(X=21)=2(0.2)(0.2)=0.08$，$P(X=22)=0.2^{2}=0.04$.</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$x$ </td><td style=\"text-align: center\"> $16$ </td><td style=\"text-align: center\"> $17$ </td><td style=\"text-align: center\"> $18$ </td><td style=\"text-align: center\"> $19$ </td><td style=\"text-align: center\"> $20$ </td><td style=\"text-align: center\"> $21$ </td><td style=\"text-align: center\"> $22$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\">$P(X=x)$ </td><td style=\"text-align: center\"> $0.04$ </td><td style=\"text-align: center\"> $0.16$ </td><td style=\"text-align: center\"> $0.24$ </td><td style=\"text-align: center\"> $0.24$ </td><td style=\"text-align: center\"> $0.20$ </td><td style=\"text-align: center\"> $0.08$ </td><td style=\"text-align: center\"> $0.04$</td></tr></tbody></table></center><p></p><p>表中概率和为 $1$.</p></li><li><p>因为 $X$ 只能取 $16$ 至 $22$ 的整数值，</p>\n$$\nP(X\\leqslant18)=0.04+0.16+0.24=0.44<0.5\n$$\n\n$$\nP(X\\leqslant19)=0.44+0.24=0.68\\geqslant0.5\n$$\n<p>所以满足条件的最小整数为 $n=19$.</p></li><li><p>若预购 $n$ 个，购买和临时补购的总费用为</p>\n$$\nY=200n+500\\max(X-n,0)\n$$\n<p>当 $n=19$ 时，只有 $X>19$ 需要补购，因此</p>\n$$\nE(Y)=200\\cdot19+500\\bigl[1\\cdot0.20+2\\cdot0.08+3\\cdot0.04\\bigr]=4040\n$$\n<p>当 $n=20$ 时，只有 $X=21$，$22$ 需要补购，因此</p>\n$$\nE(Y)=200\\cdot20+500\\bigl[1\\cdot0.08+2\\cdot0.04\\bigr]=4080\n$$\n<p>因为 $4040<4080$，所以应选购 $19$ 个易损零件.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>设圆 $x^{2}+y^{2}+2x-15=0$ 的圆心为 $A$，直线 $l$ 过点 $B(1,0)$ 且与 $x$ 轴不重合，$l$ 交圆 $A$ 于 $C$，$D$ 两点，过 $B$ 作 $AC$ 的平行线交 $AD$ 于点 $E$.</p><ol class=\"enumerate\"><li><p>证明 $|EA|+|EB|$ 为定值，并写出点 $E$ 的轨迹方程；</p></li><li><p>设点 $E$ 的轨迹为曲线 $C_{1}$，直线 $l$ 交 $C_{1}$ 于 $M$，$N$ 两点，过 $B$ 且与 $l$ 垂直的直线与圆 $A$ 交于 $P$，$Q$ 两点，求四边形 $MPNQ$ 面积的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将圆方程化为</p>\n$$\n(x+1)^{2}+y^{2}=16\n$$\n<p>所以 $A=(-1,0)$，圆半径为 $4$，而 $B=(1,0)$ 在圆内. 由于 $C$，$D$ 在圆上，$AC=AD$，故 $\\angle ACD=\\angle CDA$. 又因 $BE\\parallel AC$、$B$，$D$，$C$ 共线、$A$，$D$，$E$ 共线，有 $\\angle EBD=\\angle ACD$，$\\angle EDB=\\angle CDA$，从而 $EB=ED$. 又因 $E$ 在线段 $AD$ 上，</p>\n$$\nEA+EB=EA+ED=AD=4\n$$\n<p>因此 $E$ 的轨迹是以 $A$，$B$ 为焦点、焦距为 $2$、长轴长为 $4$ 的椭圆. 椭圆中心为原点，半长轴为 $2$，半焦距为 $1$，故半短轴平方为 $2^{2}-1^{2}=3$，轨迹方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n</li><li><p>先设 $l:y=k(x-1)$，其中 $k\\ne0$. 将其代入椭圆方程，得</p>\n$$\n(3+4k^{2})x^{2}-8k^{2}x+4k^{2}-12=0\n$$\n<p>其两根之差的绝对值为 $12\\frac{\\sqrt{1+k^{2}}}{(3+4k^{2})}$，再乘以直线的距离因子 $\\sqrt{1+k^{2}}$，得到</p>\n$$\n|MN|=\\frac{12(1+k^{2})}{4k^{2}+3}\n$$\n<p>过 $B$ 且垂直于 $l$ 的直线为 $x+ky-1=0$. 圆心 $A$ 到此直线的距离为 $\\frac{2}{\\sqrt{1+k^{2}}}$，故圆的弦 $PQ$ 长为</p>\n$$\n|PQ|=4\\sqrt{\\frac{4k^{2}+3}{1+k^{2}}}\n$$\n<p>两条弦 $MN$、$PQ$ 所在直线互相垂直，并交于圆内点 $B$，所以四边形 $MPNQ$ 的两条对角线为 $MN$、$PQ$，且</p>\n$$\nS_{MPNQ}=\\frac{1}{2}|MN|\\cdot|PQ|  =24\\sqrt{\\frac{1+k^{2}}{4k^{2}+3}}\n$$\n<p>令 $t=k^{2}>0$，则</p>\n$$\n\\frac{1+t}{4t+3}\n$$\n<p>严格递减，且当 $t\\to0^{+}$ 时趋于 $\\frac{1}{3}$，当 $t\\to+\\infty$ 时趋于 $\\frac{1}{4}$. 因此斜率有限且非零时</p>\n$$\n12<S_{MPNQ}<8\\sqrt{3}\n$$\n<p>当 $l$ 为竖直线 $x=1$ 时，$MN$ 为椭圆的竖直弦，$|MN|=3$，$PQ$ 为圆的水平弦，$|PQ|=8$，面积为 $12$. 故取值范围为</p>\n$$\n[12,8\\sqrt{3})\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将圆方程化为</p>\n$$\n(x+1)^{2}+y^{2}=16\n$$\n<p>所以 $A=(-1,0)$，圆半径为 $4$，而 $B=(1,0)$ 在圆内. 由于 $C$，$D$ 在圆上，$AC=AD$，故 $\\angle ACD=\\angle CDA$. 又因 $BE\\parallel AC$、$B$，$D$，$C$ 共线、$A$，$D$，$E$ 共线，有 $\\angle EBD=\\angle ACD$，$\\angle EDB=\\angle CDA$，从而 $EB=ED$. 又因 $E$ 在线段 $AD$ 上，</p>\n$$\nEA+EB=EA+ED=AD=4\n$$\n<p>因此 $E$ 的轨迹是以 $A$，$B$ 为焦点、焦距为 $2$、长轴长为 $4$ 的椭圆. 椭圆中心为原点，半长轴为 $2$，半焦距为 $1$，故半短轴平方为 $2^{2}-1^{2}=3$，轨迹方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n</li><li><p>先设 $l:y=k(x-1)$，其中 $k\\ne0$. 将其代入椭圆方程，得</p>\n$$\n(3+4k^{2})x^{2}-8k^{2}x+4k^{2}-12=0\n$$\n<p>其两根之差的绝对值为 $12\\frac{\\sqrt{1+k^{2}}}{(3+4k^{2})}$，再乘以直线的距离因子 $\\sqrt{1+k^{2}}$，得到</p>\n$$\n|MN|=\\frac{12(1+k^{2})}{4k^{2}+3}\n$$\n<p>过 $B$ 且垂直于 $l$ 的直线为 $x+ky-1=0$. 圆心 $A$ 到此直线的距离为 $\\frac{2}{\\sqrt{1+k^{2}}}$，故圆的弦 $PQ$ 长为</p>\n$$\n|PQ|=4\\sqrt{\\frac{4k^{2}+3}{1+k^{2}}}\n$$\n<p>两条弦 $MN$、$PQ$ 所在直线互相垂直，并交于圆内点 $B$，所以四边形 $MPNQ$ 的两条对角线为 $MN$、$PQ$，且</p>\n$$\nS_{MPNQ}=\\frac{1}{2}|MN|\\cdot|PQ|  =24\\sqrt{\\frac{1+k^{2}}{4k^{2}+3}}\n$$\n<p>令 $t=k^{2}>0$，则</p>\n$$\n\\frac{1+t}{4t+3}\n$$\n<p>严格递减，且当 $t\\to0^{+}$ 时趋于 $\\frac{1}{3}$，当 $t\\to+\\infty$ 时趋于 $\\frac{1}{4}$. 因此斜率有限且非零时</p>\n$$\n12<S_{MPNQ}<8\\sqrt{3}\n$$\n<p>当 $l$ 为竖直线 $x=1$ 时，$MN$ 为椭圆的竖直弦，$|MN|=3$，$PQ$ 为圆的水平弦，$|PQ|=8$，面积为 $12$. 故取值范围为</p>\n$$\n[12,8\\sqrt{3})\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知函数 $f(x)=(x-2)\\mathrm{e}^{x}+a(x-1)^{2}$ 有两个零点.</p><ol class=\"enumerate\"><li><p>求 $a$ 的取值范围；</p></li><li><p>设 $x_{1}$，$x_{2}$ 是 $f(x)$ 的两个零点，证明：$x_{1}+x_{2}<2$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>先求导得</p>\n$$\nf'(x)=(x-1)(\\mathrm{e}^{x}+2a)\n$$\n<p>当 $a>0$ 时，$\\mathrm{e}^{x}+2a>0$，故 $f$ 在 $(-\\infty,1)$ 上递减、在 $(1,+\\infty)$ 上递增，且</p><p>$\\lim_{x\\to-\\infty}f(x)=+\\infty$，$f(1)=-\\mathrm{e}<0$，$\\lim_{x\\to+\\infty}f(x)=+\\infty$.</p><p>所以此时恰有两个零点. 若 $a=0$，则 $f(x)=(x-2)\\mathrm{e}^{x}$，只有一个零点 $x=2$.</p><p>若 $a<0$，令 $x_{0}=\\ln(-2a)$. 当 $x_{0}<1$ 时，唯一可能的左侧极值点为 $x_{0}$，且</p>\n$$\nf(x_{0})=-\\frac{\\mathrm{e}^{x_0}}{2}\\bigl[(x_{0}-2)^{2}+1\\bigr]<0\n$$\n<p>左侧极大值小于零，左侧没有零点；当 $x_{0}\\geqslant1$ 时，$f$ 在 $(-\\infty,1]$ 上递增，在 $[1,x_{0}]$ 上递减，在 $[x_{0},+\\infty)$ 上递增，而 $f(1)=-\\mathrm{e}<0$、$f(x_{0})<0$，也只有右侧一个零点. 因此</p>\n$$\na\\in(0,+\\infty)\n$$\n</li><li><p>由第一问 $a>0$，两个零点满足 $x_{1}<1<x_{2}$. 因 $f(2)=a>0$，且 $f$ 在 $(1,+\\infty)$ 上递增，有 $x_{2}<2$. 令 $t=x_{2}-1$，则 $0<t<1$，且由 $f(x_{2})=0$ 得</p>\n$$\na=\\frac{(1-t)\\mathrm{e}^{1+t}}{t^{2}}\n$$\n\n$$\nf(2-x_{2})=f(1-t)=-(1+t)\\mathrm{e}^{1-t}+at^{2}  =\\mathrm{e}^{1-t}\\bigl[(1-t)\\mathrm{e}^{2t}-(1+t)\\bigr]\n$$\n<p>令</p>\n$$\n\\phi(t)=\\ln\\frac{1+t}{1-t}-2t\n$$\n<p>则 $\\phi(0)=0$，且</p><p>$\\phi'(t)=\\frac{1}{1+t}+\\frac{1}{1-t}-2 =\\frac{2t^{2}}{1-t^{2}}>0$，（$0<t<1$）.</p><p>所以 $\\phi(t)>0$，即 $(1-t)\\mathrm{e}^{2t}<1+t$，从而 $f(2-x_{2})<0$. 由于 $f$ 在 $(-\\infty,1)$ 上严格递减，且 $f(x_{1})=0$，故 $x_{1}<2-x_{2}$，即 $x_{1}+x_{2}<2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>先求导得</p>\n$$\nf'(x)=(x-1)(\\mathrm{e}^{x}+2a)\n$$\n<p>当 $a>0$ 时，$\\mathrm{e}^{x}+2a>0$，故 $f$ 在 $(-\\infty,1)$ 上递减、在 $(1,+\\infty)$ 上递增，且</p><p>$\\lim_{x\\to-\\infty}f(x)=+\\infty$，$f(1)=-\\mathrm{e}<0$，$\\lim_{x\\to+\\infty}f(x)=+\\infty$.</p><p>所以此时恰有两个零点. 若 $a=0$，则 $f(x)=(x-2)\\mathrm{e}^{x}$，只有一个零点 $x=2$.</p><p>若 $a<0$，令 $x_{0}=\\ln(-2a)$. 当 $x_{0}<1$ 时，唯一可能的左侧极值点为 $x_{0}$，且</p>\n$$\nf(x_{0})=-\\frac{\\mathrm{e}^{x_0}}{2}\\bigl[(x_{0}-2)^{2}+1\\bigr]<0\n$$\n<p>左侧极大值小于零，左侧没有零点；当 $x_{0}\\geqslant1$ 时，$f$ 在 $(-\\infty,1]$ 上递增，在 $[1,x_{0}]$ 上递减，在 $[x_{0},+\\infty)$ 上递增，而 $f(1)=-\\mathrm{e}<0$、$f(x_{0})<0$，也只有右侧一个零点. 因此</p>\n$$\na\\in(0,+\\infty)\n$$\n</li><li><p>由第一问 $a>0$，两个零点满足 $x_{1}<1<x_{2}$. 因 $f(2)=a>0$，且 $f$ 在 $(1,+\\infty)$ 上递增，有 $x_{2}<2$. 令 $t=x_{2}-1$，则 $0<t<1$，且由 $f(x_{2})=0$ 得</p>\n$$\na=\\frac{(1-t)\\mathrm{e}^{1+t}}{t^{2}}\n$$\n\n$$\nf(2-x_{2})=f(1-t)=-(1+t)\\mathrm{e}^{1-t}+at^{2}  =\\mathrm{e}^{1-t}\\bigl[(1-t)\\mathrm{e}^{2t}-(1+t)\\bigr]\n$$\n<p>令</p>\n$$\n\\phi(t)=\\ln\\frac{1+t}{1-t}-2t\n$$\n<p>则 $\\phi(0)=0$，且</p><p>$\\phi'(t)=\\frac{1}{1+t}+\\frac{1}{1-t}-2 =\\frac{2t^{2}}{1-t^{2}}>0$，（$0<t<1$）.</p><p>所以 $\\phi(t)>0$，即 $(1-t)\\mathrm{e}^{2t}<1+t$，从而 $f(2-x_{2})<0$. 由于 $f$ 在 $(-\\infty,1)$ 上严格递减，且 $f(x_{1})=0$，故 $x_{1}<2-x_{2}$，即 $x_{1}+x_{2}<2$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -231,24 +420,30 @@
       "problems": [
         {
           "num": 22,
-          "body": "<p>如图，$\\triangle OAB$ 是等腰三角形，$\\angle AOB=120^{\\circ}$. 以 $O$ 为圆心，$\\dfrac{1}{2}OA$ 为半径作圆.</p><ol class=\"enumerate\"><li><p>证明：直线 $AB$ 与 $\\odot O$ 相切；</p></li><li><p>点 $C$，$D$ 在 $\\odot O$ 上，且 $A$，$B$，$C$，$D$ 四点共圆，证明：$AB\\parallel CD$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，$\\triangle OAB$ 是等腰三角形，$\\angle AOB=120^{\\circ}$. 以 $O$ 为圆心，$\\dfrac{1}{2}OA$ 为半径作圆.</p><ol class=\"enumerate\"><li><p>证明：直线 $AB$ 与 $\\odot O$ 相切；</p></li><li><p>点 $C$，$D$ 在 $\\odot O$ 上，且 $A$，$B$，$C$，$D$ 四点共圆，证明：$AB\\parallel CD$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_1_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $OA=OB=R$，取 $P$ 为 $AB$ 的中点. 等腰三角形的中线 $OP$ 同时是高，所以 $OP\\perp AB$，且</p>\n$$\nOP=OA\\cos\\frac{\\angle AOB}{2}=R\\cos60^{\\circ}=\\frac{R}{2}\n$$\n<p>而 $\\odot O$ 的半径为 $\\frac{R}{2}$，所以圆心 $O$ 到直线 $AB$ 的距离等于圆半径，故 $AB$ 与 $\\odot O$ 相切.</p></li><li><p>设过 $A$，$B$，$C$，$D$ 的圆心为 $O'$，取 $Q$ 为 $CD$ 的中点. 因为 $P$、$Q$ 分别是圆 $O'$ 的两条弦 $AB$、$CD$ 的中点，所以</p><p>$O'P\\perp AB$，$O'Q\\perp CD$.</p><p>又因为 $A$，$B$，$C$，$D$ 在 $\\odot O$ 上，且 $A$，$B$ 不在半径为 $\\frac{R}{2}$ 的 $\\odot O$ 上，所以 $O'\\ne O$，并且</p><p>$OP\\perp AB$，$OQ\\perp CD$.</p><p>两条过 $P$ 且垂直于 $AB$ 的直线重合，故 $O$，$O'$，$P$ 共线；同理 $O$，$O'$，$Q$ 共线. 因此 $P$，$O$，$Q$ 共线，而 $AB$、$CD$ 都垂直于 $POQ$，所以 $AB\\parallel CD$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $OA=OB=R$，取 $P$ 为 $AB$ 的中点. 等腰三角形的中线 $OP$ 同时是高，所以 $OP\\perp AB$，且</p>\n$$\nOP=OA\\cos\\frac{\\angle AOB}{2}=R\\cos60^{\\circ}=\\frac{R}{2}\n$$\n<p>而 $\\odot O$ 的半径为 $\\frac{R}{2}$，所以圆心 $O$ 到直线 $AB$ 的距离等于圆半径，故 $AB$ 与 $\\odot O$ 相切.</p></li><li><p>设过 $A$，$B$，$C$，$D$ 的圆心为 $O'$，取 $Q$ 为 $CD$ 的中点. 因为 $P$、$Q$ 分别是圆 $O'$ 的两条弦 $AB$、$CD$ 的中点，所以</p><p>$O'P\\perp AB$，$O'Q\\perp CD$.</p><p>又因为 $A$，$B$，$C$，$D$ 在 $\\odot O$ 上，且 $A$，$B$ 不在半径为 $\\frac{R}{2}$ 的 $\\odot O$ 上，所以 $O'\\ne O$，并且</p><p>$OP\\perp AB$，$OQ\\perp CD$.</p><p>两条过 $P$ 且垂直于 $AB$ 的直线重合，故 $O$，$O'$，$P$ 共线；同理 $O$，$O'$，$Q$ 共线. 因此 $P$，$O$，$Q$ 共线，而 $AB$、$CD$ 都垂直于 $POQ$，所以 $AB\\parallel CD$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 23,
           "body": "<p>在直角坐标系 $xOy$ 中，曲线 $C_{1}$ 的参数方程为</p><p>$\\begin{cases}x=a\\cos t,\\\\\n\ny=1+a\\sin t\\end{cases}$</p><p>（$t$ 为参数，$a>0$）.</p><p>在以坐标原点为极点，$x$ 轴正半轴为极轴的极坐标系中，曲线 $C_{2}:\\rho=4\\cos\\theta$.</p><ol class=\"enumerate\"><li><p>说明 $C_{1}$ 是哪种曲线，并将 $C_{1}$ 的方程化为极坐标方程；</p></li><li><p>直线 $C_{3}$ 的极坐标方程为 $\\theta=\\alpha_{0}$，其中 $\\alpha_{0}$ 满足 $\\tan\\alpha_{0}=2$，若曲线 $C_{1}$ 与 $C_{2}$ 的公共点都在 $C_{3}$ 上，求 $a$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由参数方程</p>\n$$\nx^{2}+(y-1)^{2}=a^{2}\n$$\n<p>所以 $C_{1}$ 是圆心为 $(0,1)$、半径为 $a$ 的圆. 代入 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$，得其极坐标方程</p>\n$$\n\\rho^{2}-2\\rho\\sin\\theta+1-a^{2}=0\n$$\n</li><li><p>$C_{2}:\\rho=4\\cos\\theta$ 化为 $x^{2}+y^{2}=4x$，而 $\\tan\\alpha_{0}=2$ 的直线 $C_{3}$ 可写为 $y=2x$. 联立 $C_{2}$ 与 $C_{3}$：</p>\n$$\n5x^{2}=4x\n$$\n<p>所以 $C_{2}$ 与 $C_{3}$ 的交点只能是 $O=(0,0)$ 和 $R=(\\frac{4}{5},\\frac{8}{5})$. 题设公共点存在且都在 $C_{3}$ 上，故任取公共点都必须是这两个点之一；而这两个点到 $C_{1}$ 圆心 $(0,1)$ 的距离均为</p><p>$|O-(0,1)|=1$，$|R-(0,1)|=\\sqrt{\\left(\\frac{4}{5}\\right)^{2}+\\left(\\frac{3}{5}\\right)^{2}}=1$.</p><p>因此公共点在 $C_{1}$ 上要求</p>\n$$\na^{2}=1\n$$\n<p>因 $a>0$，得 $a=1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由参数方程</p>\n$$\nx^{2}+(y-1)^{2}=a^{2}\n$$\n<p>所以 $C_{1}$ 是圆心为 $(0,1)$、半径为 $a$ 的圆. 代入 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$，得其极坐标方程</p>\n$$\n\\rho^{2}-2\\rho\\sin\\theta+1-a^{2}=0\n$$\n</li><li><p>$C_{2}:\\rho=4\\cos\\theta$ 化为 $x^{2}+y^{2}=4x$，而 $\\tan\\alpha_{0}=2$ 的直线 $C_{3}$ 可写为 $y=2x$. 联立 $C_{2}$ 与 $C_{3}$：</p>\n$$\n5x^{2}=4x\n$$\n<p>所以 $C_{2}$ 与 $C_{3}$ 的交点只能是 $O=(0,0)$ 和 $R=(\\frac{4}{5},\\frac{8}{5})$. 题设公共点存在且都在 $C_{3}$ 上，故任取公共点都必须是这两个点之一；而这两个点到 $C_{1}$ 圆心 $(0,1)$ 的距离均为</p><p>$|O-(0,1)|=1$，$|R-(0,1)|=\\sqrt{\\left(\\frac{4}{5}\\right)^{2}+\\left(\\frac{3}{5}\\right)^{2}}=1$.</p><p>因此公共点在 $C_{1}$ 上要求</p>\n$$\na^{2}=1\n$$\n<p>因 $a>0$，得 $a=1$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 24,
-          "body": "<p>已知函数 $f(x)=|x+1|-|2x-3|$.</p><ol class=\"enumerate\"><li><p>在图中画出 $y=f(x)$ 的图象；</p></li><li><p>求不等式 $|f(x)|>1$ 的解集.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_science/q24_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
-          "choices": null,
+          "body": "<p>已知函数 $f(x)=|x+1|-|2x-3|$.</p><ol class=\"enumerate\"><li><p>在图中画出 $y=f(x)$ 的图象；</p></li><li><p>求不等式 $|f(x)|>1$ 的解集.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_1_science/q24_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>按 $x=-1$ 与 $x=\\dfrac{3}{2}$ 分段，有</p>\n$$\nf(x)=\\begin{cases}x-4,&x\\le-1,\\\\  3x-2,&-1<x<\\dfrac{3}{2},\\\\  4-x,&x\\ge\\dfrac{3}{2}.\\end{cases}\n$$\n<p>左段经过连接点 $(-1,-5)$，中段经过 $(-1,-5)$、$(\\frac{3}{2},\\frac{5}{2})$，右段从 $(\\frac{3}{2},\\frac{5}{2})$ 出发；中段与 $x$ 轴交于 $(\\frac{2}{3},0)$. 据此在题图坐标系中作出三段直线.</p></li><li><p>分段解 $|f(x)|>1$. 当 $x\\le-1$ 时，$f(x)=x-4\\le-5$，故整段都满足不等式；当 $-1<x<\\dfrac{3}{2}$ 时，</p>\n$$\n|3x-2|>1  \\Longleftrightarrow x<\\frac{1}{3}\\ \\text{或}\\ x>1;\n$$\n\n$$\nx\\ge\\frac{3}{2}\\Rightarrow |4-x|>1  \\Rightarrow x<3\\ \\text{或}\\ x>5\n$$\n<p>合并三段并注意不等式严格，解集为</p>\n$$\n\\left(-\\infty,\\frac{1}{3}\\right)\\cup(1,3)\\cup(5,+\\infty)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>按 $x=-1$ 与 $x=\\dfrac{3}{2}$ 分段，有</p>\n$$\nf(x)=\\begin{cases}x-4,&x\\le-1,\\\\  3x-2,&-1<x<\\dfrac{3}{2},\\\\  4-x,&x\\ge\\dfrac{3}{2}.\\end{cases}\n$$\n<p>左段经过连接点 $(-1,-5)$，中段经过 $(-1,-5)$、$(\\frac{3}{2},\\frac{5}{2})$，右段从 $(\\frac{3}{2},\\frac{5}{2})$ 出发；中段与 $x$ 轴交于 $(\\frac{2}{3},0)$. 据此在题图坐标系中作出三段直线.</p></li><li><p>分段解 $|f(x)|>1$. 当 $x\\le-1$ 时，$f(x)=x-4\\le-5$，故整段都满足不等式；当 $-1<x<\\dfrac{3}{2}$ 时，</p>\n$$\n|3x-2|>1  \\Longleftrightarrow x<\\frac{1}{3}\\ \\text{或}\\ x>1;\n$$\n\n$$\nx\\ge\\frac{3}{2}\\Rightarrow |4-x|>1  \\Rightarrow x<3\\ \\text{或}\\ x>5\n$$\n<p>合并三段并注意不等式严格，解集为</p>\n$$\n\\left(-\\infty,\\frac{1}{3}\\right)\\cup(1,3)\\cup(5,+\\infty)\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

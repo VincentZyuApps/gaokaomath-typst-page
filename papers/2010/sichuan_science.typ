@@ -31,7 +31,15 @@
 
 #problem(2)[
 下列四个图象所表示的函数，在点 #mi(`x = 0`) 处连续的是（ ）
-  #choices([[width=0.15\paperwidth]img/2010/sichuan_science/q2_optA_clean.png], [[width=0.15\paperwidth]img/2010/sichuan_science/q2_optB_clean.png], [[width=0.15\paperwidth]img/2010/sichuan_science/q2_optC_clean.png], [[width=0.15\paperwidth]img/2010/sichuan_science/q2_optD_clean.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/2010/img/sichuan_science/q2_optA_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/sichuan_science/q2_optB_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/sichuan_science/q2_optC_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2010/img/sichuan_science/q2_optD_clean.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D])
@@ -269,7 +277,9 @@ FP=e\left(\frac{a}{e}-x\right)=a-ex
 #problem(11)[
 半径为 #mi(`R`) 的球 #mi(`O`) 的直径 #mi(`AB`) 垂直于平面 #mi(`\alpha`)，垂足为 #mi(`B`)，#mi(`\triangle BCD`) 是平面 #mi(`\alpha`) 内边长为 #mi(`R`) 的正三角形，线段 #mi(`AC`)，#mi(`AD`) 分别与球面交于点 #mi(`M`)，#mi(`N`)，那么 #mi(`M`)，#mi(`N`) 两点间的球面距离是（ ）
 
-[max width=0.62\linewidth]img/2010/sichuan_science/q11_fig1.png
+
+#align(center)[#image("/papers/2010/img/sichuan_science/q11_fig1.png", width: 28%)]
+
   #choices([#mi(`R\arccos \frac{17}{25}`)], [#mi(`R\arccos \frac{18}{25}`)], [#mi(`\frac{1}{3}\pi R`)], [#mi(`\frac{4}{15}\pi R`)], cols: 2)
 ]
 
@@ -395,7 +405,9 @@ d=\frac{|5|}{\sqrt{1^{2}+(-2)^{2}}}=\sqrt{5}
 #problem(15)[
 如图，二面角 #mi(`\alpha - l - \beta`) 的大小是 #mi(`60^{\circ}`)，#mi(`AB \subset \alpha`)，#mi(`B \in l`)，#mi(`AB`) 与 #mi(`l`) 所成的角为 #mi(`30^{\circ}`)，则 #mi(`AB`) 与平面 #mi(`\beta`) 所成角的正弦值是\underline{\hspace{2.5em}}.
 
-[max width=0.72\linewidth]img/2010/sichuan_science/q15_fig1.png
+
+#align(center)[#image("/papers/2010/img/sichuan_science/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`\frac{\sqrt{3}}{4}`)])
@@ -482,7 +494,9 @@ d=\frac{|5|}{\sqrt{1^{2}+(-2)^{2}}}=\sqrt{5}
 
 
 
-[max width=0.84\linewidth]img/2010/sichuan_science/q18_fig1.png
+
+#align(center)[#image("/papers/2010/img/sichuan_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[

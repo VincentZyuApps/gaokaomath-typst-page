@@ -133,7 +133,9 @@ M_{\text{\text{水}}}=\frac{n_{1}V_{1}}{m_{1}+n_{1}}+\frac{n_{2}V_{2}}{m_{2}+n_{
 #problem(7)[
 设 #mi(`CEDF`) 是一个已知圆的内接矩形，过 #mi(`D`) 作该圆的切线与 #mi(`CE`) 的延长线相交于点 #mi(`A`)，与 #mi(`CF`) 的延长线相交于点 #mi(`B`). 求证：#mi(`\frac{BF}{AE}= \frac{BC^{3}}{AC^{3}}`).
 
-[float=inline,width=8.5cm]img/1979/national_liberal/q4_fig1.png
+
+#align(center)[#image("/papers/1979/img/national_liberal/q4_fig1.png", width: 28%)]
+
 ]
 
 #solution[

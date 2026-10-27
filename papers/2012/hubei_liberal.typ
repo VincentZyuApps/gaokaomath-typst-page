@@ -96,8 +96,18 @@ S'(d)=-\frac{R^{2}}{\sqrt{R^{2}-d^{2}}}-\sqrt{R^{2}-d^{2}}+\frac{d^{2}}{\sqrt{R^
 #problem(6)[
 已知定义在区间 #mi(`[0,2]`) 上的函数 #mi(`y=f(x)`) 的图象如图所示，则 #mi(`y=-f(2-x)`) 的图象为（ ）
 
-[max width=0.34\linewidth]img/2012/hubei_liberal/q6_fig1.png
-  #choices([[width=0.15\paperwidth]img/2012/hubei_liberal/q6_optA.png], [[width=0.15\paperwidth]img/2012/hubei_liberal/q6_optB.png], [[width=0.15\paperwidth]img/2012/hubei_liberal/q6_optC.png], [[width=0.15\paperwidth]img/2012/hubei_liberal/q6_optD.png], cols: 1)
+
+#align(center)[#image("/papers/2012/img/hubei_liberal/q6_fig1.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/2012/img/hubei_liberal/q6_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/hubei_liberal/q6_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/hubei_liberal/q6_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2012/img/hubei_liberal/q6_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B])
@@ -200,7 +210,9 @@ x^{2}+y^{2}+z^{2}-xy-yz-zx  =\frac{1}{2}\bigl((x-y)^{2}+(y-z)^{2}+(z-x)^{2}\bigr
 #problem(10)[
 如图，在圆心角为直角的扇形 #mi(`OAB`) 中，分别以 #mi(`OA`)，#mi(`OB`) 为直径作两个半圆. 在扇形 #mi(`OAB`) 内随机取一点，则此点取自阴影部分的概率是（ ）
 
-[max width=0.34\linewidth]img/2012/hubei_liberal/q10_fig1.png
+
+#align(center)[#image("/papers/2012/img/hubei_liberal/q10_fig1.png", width: 28%)]
+
   #choices([#mi(`\frac{1}{2}-\frac{1}{\pi}`)], [#mi(`\frac{1}{\pi}`)], [#mi(`1 - \frac{2}{\pi}`)], [#mi(`\frac{2}{\pi}`)], cols: 1)
 ]
 
@@ -229,7 +241,7 @@ I=2\left(\frac{r}{2}\right)^{2}\arccos\frac{1}{\sqrt{2}}-\frac{1}{2}\frac{r}{\sq
 
 
 #align(center)[#mitex(`
-\frac{2I}{\pi \frac{r^{2}}{4}}=\frac{r^{2}\frac{(\pi-2)}{4}}{\pi \frac{r^{2}}{4}}=1-\frac{2}{\pi}
+\frac{2I}{\pi \frac{r^{2}}{4}}=\frac{r^{2}\frac{(\pi-2)}{4}}{\pi \frac{r^{2}}{4}}=1-\frac{2}{\mathrm{e}}
 `)]
 
 
@@ -335,7 +347,9 @@ z=2x+3(3x-3)=11x-9\geqslant2
 #problem(15)[
 已知某几何体的三视图如图所示，则该几何体的体积为\underline{\hspace{2.5em}}.
 
-[max width=0.72\linewidth]img/2012/hubei_liberal/q15_fig1.png
+
+#align(center)[#image("/papers/2012/img/hubei_liberal/q15_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`12\pi`)])
@@ -371,7 +385,9 @@ V=2\cdot\pi\left(\frac{4}{2}\right)^{2}\cdot1+\pi\left(\frac{2}{2}\right)^{2}\cd
 
 
 
-[max width=0.48\linewidth]img/2012/hubei_liberal/q17_fig1.png
+
+#align(center)[#image("/papers/2012/img/hubei_liberal/q17_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`5030`)；#mi(`\frac{5k(5k-1)}{2}`)])
@@ -434,7 +450,9 @@ f(x)=-\cos(2\omega x)+\sqrt{3}\sin(2\omega x)+\lambda  =2\sin\left(2\omega x-\fr
 
 
 
-[max width=0.42\linewidth]img/2012/hubei_liberal/q19_fig1.png
+
+#align(center)[#image("/papers/2012/img/hubei_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

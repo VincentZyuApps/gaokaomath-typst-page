@@ -1,8 +1,143 @@
 {
-  "title": "2023年普通高等学校招生全国统一考试",
-  "subtitle": "2023年新高考II卷",
   "year": "2023",
   "slug": "new_gaokao_paper_2",
+  "title": "2023年新高考II卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "多选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "多选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "多选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "多选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "第四象限"
           ],
           "answer": "A",
-          "solution": "计算得 $(1+3\\mathrm{i})(3-\\mathrm{i})=3-\\mathrm{i}+9\\mathrm{i}-3\\mathrm{i}^{2}=6+8\\mathrm{i}$. 对应点为 $(6,8)$，位于第一象限. 故选 A."
+          "solution": "计算得 $(1+3\\mathrm{i})(3-\\mathrm{i})=3-\\mathrm{i}+9\\mathrm{i}-3\\mathrm{i}^{2}=6+8\\mathrm{i}$. 对应点为 $(6,8)$，位于第一象限. 故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$-1$"
           ],
           "answer": "B",
-          "solution": "<p>因为 $0\\in A$ 且 $A\\subseteq B$，故 $0\\in B$. 于是 $a-2=0$ 或 $2a-2=0$，即 $a=2$ 或 $a=1$.</p><p>当 $a=2$ 时，$A=\\{0,-2\\}$，$B=\\{1,0,2\\}$，不满足 $A\\subseteq B$.</p><p>当 $a=1$ 时，$A=\\{0,-1\\}$，$B=\\{1,-1,0\\}$，满足条件. 故选 B.</p>"
+          "solution": "<p>因为 $0\\in A$ 且 $A\\subseteq B$，故 $0\\in B$. 于是 $a-2=0$ 或 $2a-2=0$，即 $a=2$ 或 $a=1$.</p><p>当 $a=2$ 时，$A=\\{0,-2\\}$，$B=\\{1,0,2\\}$，不满足 $A\\subseteq B$.</p><p>当 $a=1$ 时，$A=\\{0,-1\\}$，$B=\\{1,-1,0\\}$，满足条件. 故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$\\dbinom{400}{40}\\dbinom{200}{20}$ 种"
           ],
           "answer": "D",
-          "solution": "由于是比例分配分层抽样，初中部与高中部的抽取比应与人数比相同. 设初中部抽取 $x$ 人，则 $\\frac{x}{400}=\\frac{60}{400+200}$，解得 $x=40$. 因此高中部抽取 $20$ 人. 所以不同抽样结果共有 $\\binom{400}{40}\\binom{200}{20}$ 种. 故选 D."
+          "solution": "由于是比例分配分层抽样，初中部与高中部的抽取比应与人数比相同. 设初中部抽取 $x$ 人，则 $\\frac{x}{400}=\\frac{60}{400+200}$，解得 $x=40$. 因此高中部抽取 $20$ 人. 所以不同抽样结果共有 $\\binom{400}{40}\\binom{200}{20}$ 种. 故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "1"
           ],
           "answer": "B",
-          "solution": "<p>由偶函数性质 $f(-x)=f(x)$. 取 $x=1$，则 $f(-1)=f(1)$，即 $(-1+a)\\ln 3=(1+a)\\ln\\frac{1}{3}$.</p><p>而 $\\ln\\frac{1}{3}=-\\ln 3$，代入得 $(-1+a)\\ln 3=-(1+a)\\ln 3$，解得 $a=0$. 故选 B.</p>"
+          "solution": "<p>由偶函数性质 $f(-x)=f(x)$. 取 $x=1$，则 $f(-1)=f(1)$，即 $(-1+a)\\ln 3=(1+a)\\ln\\frac{1}{3}$.</p><p>而 $\\ln\\frac{1}{3}=-\\ln 3$，代入得 $(-1+a)\\ln 3=-(1+a)\\ln 3$，解得 $a=0$. 故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "$-\\dfrac{2}{3}$"
           ],
           "answer": "C",
-          "solution": "<p>两三角形共底边 $AB$，故只需比较对应高. 设 $AB$ 与 $x$ 轴交于 $K$，从 $F_{1}$，$F_{2}$ 向 $AB$ 作垂线，垂足分别为 $G$，$I$. 则 $\\frac{S_{\\triangle F_1AB}}{S_{\\triangle F_2AB}}=\\frac{|F_{1}G|}{|F_{2}I|}=2$. 由图可知 $\\triangle F_{1}KG\\sim \\triangle F_{2}KI$，故 $\\frac{|F_{1}K|}{|F_{2}K|}=2$. 椭圆半焦距 $c=\\sqrt{3-1}=\\sqrt{2}$，所以 $|F_{1}F_{2}|=2\\sqrt{2}$，$|F_{2}K|=\\frac{1}{3}|F_{1}F_{2}|=\\frac{2\\sqrt{2}}{3}$.</p><p>$|OK|=|OF_{1}|-|F_{1}K|=\\frac{\\sqrt{2}}{3}$，故 $K\\left(\\frac{\\sqrt{2}}{3},0\\right)$. 代入 $y=x+m$ 得 $0=\\frac{\\sqrt{2}}{3}+m$，所以 $m=-\\frac{\\sqrt{2}}{3}$. 故选 C.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_2/q5_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<p>两三角形共底边 $AB$，故只需比较对应高. 设 $AB$ 与 $x$ 轴交于 $K$，从 $F_{1}$，$F_{2}$ 向 $AB$ 作垂线，垂足分别为 $G$，$I$. 则 $\\frac{S_{\\triangle F_1AB}}{S_{\\triangle F_2AB}}=\\frac{|F_{1}G|}{|F_{2}I|}=2$. 由图可知 $\\triangle F_{1}KG\\sim \\triangle F_{2}KI$，故 $\\frac{|F_{1}K|}{|F_{2}K|}=2$. 椭圆半焦距 $c=\\sqrt{3-1}=\\sqrt{2}$，所以 $|F_{1}F_{2}|=2\\sqrt{2}$，$|F_{2}K|=\\frac{1}{3}|F_{1}F_{2}|=\\frac{2\\sqrt{2}}{3}$.</p><p>$|OK|=|OF_{1}|-|F_{1}K|=\\frac{\\sqrt{2}}{3}$，故 $K\\left(\\frac{\\sqrt{2}}{3},0\\right)$. 代入 $y=x+m$ 得 $0=\\frac{\\sqrt{2}}{3}+m$，所以 $m=-\\frac{\\sqrt{2}}{3}$. 故选 C.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/new_gaokao_paper_2/q5_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$\\mathrm{e}^{-2}$"
           ],
           "answer": "C",
-          "solution": "由 $f'(x)=a\\mathrm{e}^{x}-\\frac{1}{x}$. 要使 $f(x)$ 在 $(1,2)$ 上单调递增，需 $a\\mathrm{e}^{x}-\\frac{1}{x}\\ge0$，即 $a\\ge\\frac{1}{x\\mathrm{e}^{x}}$. 令 $g(x)=x\\mathrm{e}^{x}$（$1<x<2$），则 $g'(x)=(x+1)\\mathrm{e}^{x}>0$，故 $g(x)$ 在 $(1,2)$ 上递增，因此 $\\frac{1}{g(x)}<\\frac{1}{g(1)}=\\frac{1}{\\mathrm{e}}$. 所以 $a$ 的最小值为 $\\frac{1}{\\mathrm{e}}=\\mathrm{e}^{-1}$. 故选 C."
+          "solution": "由 $f'(x)=a\\mathrm{e}^{x}-\\frac{1}{x}$. 要使 $f(x)$ 在 $(1,2)$ 上单调递增，需 $a\\mathrm{e}^{x}-\\frac{1}{x}\\ge0$，即 $a\\ge\\frac{1}{x\\mathrm{e}^{x}}$. 令 $g(x)=x\\mathrm{e}^{x}$（$1<x<2$），则 $g'(x)=(x+1)\\mathrm{e}^{x}>0$，故 $g(x)$ 在 $(1,2)$ 上递增，因此 $\\frac{1}{g(x)}<\\frac{1}{g(1)}=\\frac{1}{\\mathrm{e}}$. 所以 $a$ 的最小值为 $\\frac{1}{\\mathrm{e}}=\\mathrm{e}^{-1}$. 故选 C.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$\\dfrac{-1+\\sqrt{5}}{4}$"
           ],
           "answer": "D",
-          "solution": "由半角公式 $\\cos\\alpha=1-2\\sin^{2}\\frac{\\alpha}{2}$. 代入得 $1-2\\sin^{2}\\frac{\\alpha}{2}=\\frac{1+\\sqrt{5}}{4}$，故 $\\sin^{2}\\frac{\\alpha}{2}=\\frac{3-\\sqrt{5}}{8}=\\frac{(\\sqrt{5}-1)^{2}}{16}$. 因为 $\\alpha$ 为锐角，所以 $\\frac{\\alpha}{2}\\in(0,\\frac{\\pi}{4})$，故 $\\sin\\frac{\\alpha}{2}=\\frac{\\sqrt{5}-1}{4}$. 故选 D."
+          "solution": "由半角公式 $\\cos\\alpha=1-2\\sin^{2}\\frac{\\alpha}{2}$. 代入得 $1-2\\sin^{2}\\frac{\\alpha}{2}=\\frac{1+\\sqrt{5}}{4}$，故 $\\sin^{2}\\frac{\\alpha}{2}=\\frac{3-\\sqrt{5}}{8}=\\frac{(\\sqrt{5}-1)^{2}}{16}$. 因为 $\\alpha$ 为锐角，所以 $\\frac{\\alpha}{2}\\in(0,\\frac{\\pi}{4})$，故 $\\sin\\frac{\\alpha}{2}=\\frac{\\sqrt{5}-1}{4}$. 故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "$-120$"
           ],
           "answer": "C",
-          "solution": "<p>设 $S_{2}=m$，则 $S_{6}=21m$. 因为等比数列各段和也成等比，故 $S_{2}$，$\\ S_{4}-S_{2}$，$\\ S_{6}-S_{4}$，$\\ S_{8}-S_{6}$ 成等比数列. 于是 $(-5-m)^{2}=m(21m+5)$. 解得 $m=-1$ 或 $m=\\frac{5}{4}$. 若 $m=\\frac{5}{4}$，则</p><p>$\\frac{S_{4}-S_{2}}{S_{2}}=\\frac{-5-\\frac{5}{4}}{\\frac{5}{4}}=-5$，但该比值应为公比的平方，矛盾；故 $m=-1$.</p><p>此时 $S_{4}-S_{2}=-4$，$S_{6}-S_{4}=-16$，所以 $S_{8}-S_{6}=-64$. 故</p>\n$$\nS_{8}=S_{6}-64=21(-1)-64=-85\n$$\n<p>故选 C.</p>"
+          "solution": "<p>设 $S_{2}=m$，则 $S_{6}=21m$. 因为等比数列各段和也成等比，故 $S_{2}$，$\\ S_{4}-S_{2}$，$\\ S_{6}-S_{4}$，$\\ S_{8}-S_{6}$ 成等比数列. 于是 $(-5-m)^{2}=m(21m+5)$. 解得 $m=-1$ 或 $m=\\frac{5}{4}$. 若 $m=\\frac{5}{4}$，则</p><p>$\\frac{S_{4}-S_{2}}{S_{2}}=\\frac{-5-\\frac{5}{4}}{\\frac{5}{4}}=-5$，但该比值应为公比的平方，矛盾；故 $m=-1$.</p><p>此时 $S_{4}-S_{2}=-4$，$S_{6}-S_{4}=-16$，所以 $S_{8}-S_{6}=-64$. 故</p>\n$$\nS_{8}=S_{6}-64=21(-1)-64=-85\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -118,7 +269,9 @@
             "$\\triangle PAC$ 的面积为 $\\sqrt{3}$"
           ],
           "answer": "AC",
-          "solution": "<p>由 $AB$ 为直径且 $\\angle APB=120^{\\circ}$，得 $\\angle APO=60^{\\circ}$. 所以 $OP=AP\\cos 60^{\\circ}=1$，$OA=AP\\sin 60^{\\circ}=\\sqrt{3}$. 于是圆锥体积</p>\n$$\nV=\\frac{1}{3}\\pi r^{2}h=\\frac{1}{3}\\pi(\\sqrt{3})^{2}\\cdot 1=\\pi\n$$\n<p>故 A 正确.</p><p>侧面积 $S=\\pi rl=\\pi\\cdot\\sqrt{3}\\cdot2=2\\sqrt{3}\\pi$，故 B 错误.</p><p>取 $AC$ 中点 $Q$，连接 $PQ$，$OQ$. 由 $OA=OC$，$PA=PC$ 得 $AC\\perp OQ$，$AC\\perp PQ$. 因此 $\\angle PQO$ 为二面角 $P-AC-O$ 的平面角. 由题意 $\\angle PQO=45^{\\circ}$，故 $OQ=OP=1$. 于是 $AQ=\\sqrt{OA^{2}-OQ^{2}}=\\sqrt{2}$，所以 $AC=2AQ=2\\sqrt{2}$，故 C 正确.</p><p>又 $PQ=\\sqrt{OP^{2}+OQ^{2}}=\\sqrt{2}$，所以</p>\n$$\nS_{\\triangle PAC}=\\frac{1}{2}AC\\cdot PQ=\\frac{1}{2}\\cdot2\\sqrt{2}\\cdot\\sqrt{2}=2\n$$\n<p>故 D 错误. 故选 AC.</p>"
+          "solution": "<p>由 $AB$ 为直径且 $\\angle APB=120^{\\circ}$，得 $\\angle APO=60^{\\circ}$. 所以 $OP=AP\\cos 60^{\\circ}=1$，$OA=AP\\sin 60^{\\circ}=\\sqrt{3}$. 于是圆锥体积</p>\n$$\nV=\\frac{1}{3}\\pi r^{2}h=\\frac{1}{3}\\pi(\\sqrt{3})^{2}\\cdot 1=\\pi\n$$\n<p>故 A 正确.</p><p>侧面积 $S=\\pi rl=\\pi\\cdot\\sqrt{3}\\cdot2=2\\sqrt{3}\\pi$，故 B 错误.</p><p>取 $AC$ 中点 $Q$，连接 $PQ$，$OQ$. 由 $OA=OC$，$PA=PC$ 得 $AC\\perp OQ$，$AC\\perp PQ$. 因此 $\\angle PQO$ 为二面角 $P-AC-O$ 的平面角. 由题意 $\\angle PQO=45^{\\circ}$，故 $OQ=OP=1$. 于是 $AQ=\\sqrt{OA^{2}-OQ^{2}}=\\sqrt{2}$，所以 $AC=2AQ=2\\sqrt{2}$，故 C 正确.</p><p>又 $PQ=\\sqrt{OP^{2}+OQ^{2}}=\\sqrt{2}$，所以</p>\n$$\nS_{\\triangle PAC}=\\frac{1}{2}AC\\cdot PQ=\\frac{1}{2}\\cdot2\\sqrt{2}\\cdot\\sqrt{2}=2\n$$\n<p>故 D 错误. 故选 AC.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -130,7 +283,9 @@
             "$\\triangle OMN$ 为等腰三角形"
           ],
           "answer": "AC",
-          "solution": "<p>直线 $y=-\\sqrt{3}(x-1)$ 与 $x$ 轴交于 $(1,0)$，而它过抛物线焦点，所以焦点为 $F(1,0)$. 故 $\\frac{p}{2}=1$，$p=2$. A 正确.</p><p>于是抛物线方程为 $y^{2}=4x$. 联立 $y=-\\sqrt{3}(x-1)$ 得 $3x^{2}-10x+3=0$，故 $x=3$ 或 $x=\\frac{1}{3}$. 对应点可取 $M(3,-2\\sqrt{3})$，$N\\left(\\frac{1}{3},\\frac{2\\sqrt{3}}{3}\\right)$. 于是</p>\n$$\n|MN|=x_{1}+x_{2}+p=3+\\frac{1}{3}+2=\\frac{16}{3}\n$$\n<p>故 B 错.</p><p>准线为 $x=-1$. 而 $MN$ 的中点横坐标为 $\\frac{x_{1}+x_{2}}{2}=\\frac{5}{3}$，故中点到准线的距离为 $\\frac{5}{3}-(-1)=\\frac{8}{3}=\\frac{1}{2}|MN|$. 所以以 $MN$ 为直径的圆与准线相切，C 正确.</p><p>再算 $|OM|=\\sqrt{3^{2}+(-2\\sqrt{3})^{2}}=\\sqrt{21}$，$|ON|=\\sqrt{\\left(\\frac{1}{3}\\right)^{2}+\\left(\\frac{2\\sqrt{3}}{3}\\right)^{2}}=\\frac{\\sqrt{13}}{3}$，三边不等，故 D 错. 故选 AC.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_2/q9_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<p>直线 $y=-\\sqrt{3}(x-1)$ 与 $x$ 轴交于 $(1,0)$，而它过抛物线焦点，所以焦点为 $F(1,0)$. 故 $\\frac{p}{2}=1$，$p=2$. A 正确.</p><p>于是抛物线方程为 $y^{2}=4x$. 联立 $y=-\\sqrt{3}(x-1)$ 得 $3x^{2}-10x+3=0$，故 $x=3$ 或 $x=\\frac{1}{3}$. 对应点可取 $M(3,-2\\sqrt{3})$，$N\\left(\\frac{1}{3},\\frac{2\\sqrt{3}}{3}\\right)$. 于是</p>\n$$\n|MN|=x_{1}+x_{2}+p=3+\\frac{1}{3}+2=\\frac{16}{3}\n$$\n<p>故 B 错.</p><p>准线为 $x=-1$. 而 $MN$ 的中点横坐标为 $\\frac{x_{1}+x_{2}}{2}=\\frac{5}{3}$，故中点到准线的距离为 $\\frac{5}{3}-(-1)=\\frac{8}{3}=\\frac{1}{2}|MN|$. 所以以 $MN$ 为直径的圆与准线相切，C 正确.</p><p>再算 $|OM|=\\sqrt{3^{2}+(-2\\sqrt{3})^{2}}=\\sqrt{21}$，$|ON|=\\sqrt{\\left(\\frac{1}{3}\\right)^{2}+\\left(\\frac{2\\sqrt{3}}{3}\\right)^{2}}=\\frac{\\sqrt{13}}{3}$，三边不等，故 D 错. 故选 AC.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/new_gaokao_paper_2/q9_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -142,7 +297,9 @@
             "$ac<0$"
           ],
           "answer": "BCD",
-          "solution": "<p>由 $f'(x)=\\frac{a}{x}-\\frac{b}{x^{2}}-\\frac{2c}{x^{3}}=\\frac{ax^{2}-bx-2c}{x^{3}}$（$x>0$）. 因为 $f(x)$ 既有极大值又有极小值，所以方程 $ax^{2}-bx-2c=0$ 在 $(0,+\\infty)$ 内有两个不相等实根. 故 $\\Delta=b^{2}+8ac>0$，所以 C 正确.</p><p>又两根同为正数，故 $\\frac{-2c}{a}>0$，$\\frac{b}{a}>0$. 从而 $ac<0$，$ab>0$. 故 B，D 正确.</p><p>由 $a$，$c$ 异号且 $a$，$b$ 同号，可知 $b$，$c$ 异号，所以 $bc<0$，A 错. 故选 BCD.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_2/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<p>由 $f'(x)=\\frac{a}{x}-\\frac{b}{x^{2}}-\\frac{2c}{x^{3}}=\\frac{ax^{2}-bx-2c}{x^{3}}$（$x>0$）. 因为 $f(x)$ 既有极大值又有极小值，所以方程 $ax^{2}-bx-2c=0$ 在 $(0,+\\infty)$ 内有两个不相等实根. 故 $\\Delta=b^{2}+8ac>0$，所以 C 正确.</p><p>又两根同为正数，故 $\\frac{-2c}{a}>0$，$\\frac{b}{a}>0$. 从而 $ac<0$，$ab>0$. 故 B，D 正确.</p><p>由 $a$，$c$ 异号且 $a$，$b$ 同号，可知 $b$，$c$ 异号，所以 $bc<0$，A 错. 故选 BCD.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/new_gaokao_paper_2/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
@@ -154,7 +311,9 @@
             "当 $0<\\alpha<0.5$ 时，若发送 $0$，则采用三次传输方案译码为 $0$ 的概率大于采用单次传输方案译码为 $0$ 的概率"
           ],
           "answer": "ABD",
-          "solution": "<p>A：单次传输时，依次收到 $1$，$0$，$1$ 的概率为 $(1-\\beta)(1-\\alpha)(1-\\beta)=(1-\\alpha)(1-\\beta)^{2}$. 正确.</p><p>B：三次传输发送 $1$，依次收到 $1$，$0$，$1$ 的概率为 $(1-\\beta)\\beta(1-\\beta)=\\beta(1-\\beta)^{2}$. 正确.</p><p>C：三次传输发送 $1$，译码为 $1$ 需收到至少两个 $1$，故概率为</p><p>$\\binom32(1-\\beta)^{2}\\beta+(1-\\beta)^{3}=3(1-\\beta)^{2}\\beta+(1-\\beta)^{3}$. 题中少了系数 $3$，故错误.</p><p>D：单次传输发送 $0$ 时，译码为 $0$ 的概率为 $1-\\alpha$.</p><p>三次传输发送 $0$ 时，设收到 $0$ 的个数为 $Y\\sim B(3,1-\\alpha)$，则译码为 $0$ 的概率为 $P(Y=2)+P(Y=3)=3(1-\\alpha)^{2}\\alpha+(1-\\alpha)^{3}$.</p><p>两者作差得</p>\n$$\n3(1-\\alpha)^{2}\\alpha+(1-\\alpha)^{3}-(1-\\alpha)=(1-\\alpha)(1-2\\alpha)\\alpha>0\n$$\n<p>（因为 $0<\\alpha<0.5$）.</p><p>故 D 正确. 故选 ABD.</p>"
+          "solution": "<p>A：单次传输时，依次收到 $1$，$0$，$1$ 的概率为 $(1-\\beta)(1-\\alpha)(1-\\beta)=(1-\\alpha)(1-\\beta)^{2}$. 正确.</p><p>B：三次传输发送 $1$，依次收到 $1$，$0$，$1$ 的概率为 $(1-\\beta)\\beta(1-\\beta)=\\beta(1-\\beta)^{2}$. 正确.</p><p>C：三次传输发送 $1$，译码为 $1$ 需收到至少两个 $1$，故概率为</p><p>$\\binom32(1-\\beta)^{2}\\beta+(1-\\beta)^{3}=3(1-\\beta)^{2}\\beta+(1-\\beta)^{3}$. 题中少了系数 $3$，故错误.</p><p>D：单次传输发送 $0$ 时，译码为 $0$ 的概率为 $1-\\alpha$.</p><p>三次传输发送 $0$ 时，设收到 $0$ 的个数为 $Y\\sim B(3,1-\\alpha)$，则译码为 $0$ 的概率为 $P(Y=2)+P(Y=3)=3(1-\\alpha)^{2}\\alpha+(1-\\alpha)^{3}$.</p><p>两者作差得</p>\n$$\n3(1-\\alpha)^{2}\\alpha+(1-\\alpha)^{3}-(1-\\alpha)=(1-\\alpha)(1-2\\alpha)\\alpha>0\n$$\n<p>（因为 $0<\\alpha<0.5$）.</p><p>故 D 正确. 故选 ABD.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -164,30 +323,38 @@
         {
           "num": 13,
           "body": "已知向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $|\\mathbf{a}-\\mathbf{b}|=\\sqrt{3}$，$|\\mathbf{a}+\\mathbf{b}|=|2\\mathbf{a}-\\mathbf{b}|$，则 $|\\mathbf{b}|=\\underline{\\hspace{2.5em}}{}$.",
-          "choices": null,
-          "answer": "$\\sqrt{3}$",
-          "solution": "<p>由 $|\\mathbf{a}-\\mathbf{b}|^{2}=3$ 得 $|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}-2\\mathbf{a}\\cdot\\mathbf{b}=3$（1）.</p><p>又 $|\\mathbf{a}+\\mathbf{b}|^{2}=|2\\mathbf{a}-\\mathbf{b}|^{2}$，即 $|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}+2\\mathbf{a}\\cdot\\mathbf{b}=4|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}-4\\mathbf{a}\\cdot\\mathbf{b}$，</p><p>化简得 $|\\mathbf{a}|^{2}-2\\mathbf{a}\\cdot\\mathbf{b}=0$.</p><p>代入 （1） 得 $|\\mathbf{b}|^{2}=3$，所以 $|\\mathbf{b}|=\\sqrt{3}$.</p>"
+          "choices": [],
+          "answer": "\\(\\sqrt{3}\\)",
+          "solution": "<p>由 $|\\mathbf{a}-\\mathbf{b}|^{2}=3$ 得 $|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}-2\\mathbf{a}\\cdot\\mathbf{b}=3$（1）.</p><p>又 $|\\mathbf{a}+\\mathbf{b}|^{2}=|2\\mathbf{a}-\\mathbf{b}|^{2}$，即 $|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}+2\\mathbf{a}\\cdot\\mathbf{b}=4|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}-4\\mathbf{a}\\cdot\\mathbf{b}$，</p><p>化简得 $|\\mathbf{a}|^{2}-2\\mathbf{a}\\cdot\\mathbf{b}=0$.</p><p>代入 （1） 得 $|\\mathbf{b}|^{2}=3$，所以 $|\\mathbf{b}|=\\sqrt{3}$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "底面边长为 $4$ 的正四棱锥被平行于其底面的平面所截，截去一个底面边长为 $2$，高为 $3$ 的正四棱锥，所得棱台的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "28",
-          "solution": "<p>两四棱锥相似，边长比为 $\\frac{2}{4}=\\frac{1}{2}$，故体积比为 $\\left(\\frac{1}{2}\\right)^{3}=\\frac{1}{8}$.</p><p>设截去的小四棱锥体积为 $V_{1}$，原四棱锥体积为 $V$，则 $V=8V_{1}$，故棱台体积为 $V-V_{1}=7V_{1}$.</p><p>而 $V_{1}=\\frac{1}{3}\\cdot 2^{2}\\cdot 3=4$，所以棱台体积为 $7\\cdot 4=28$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_2/q14_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<p>两四棱锥相似，边长比为 $\\frac{2}{4}=\\frac{1}{2}$，故体积比为 $\\left(\\frac{1}{2}\\right)^{3}=\\frac{1}{8}$.</p><p>设截去的小四棱锥体积为 $V_{1}$，原四棱锥体积为 $V$，则 $V=8V_{1}$，故棱台体积为 $V-V_{1}=7V_{1}$.</p><p>而 $V_{1}=\\frac{1}{3}\\cdot 2^{2}\\cdot 3=4$，所以棱台体积为 $7\\cdot 4=28$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/new_gaokao_paper_2/q14_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "已知直线 $x-my+1=0$ 与圆 $C:(x-1)^{2}+y^{2}=4$ 交于 $A$，$B$ 两点，写出满足“$\\triangle ABC$ 的面积为 $\\frac{8}{5}$”的 $m$ 的一个值<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "2（答案不唯一，也可填 $-2$，$\\ \\frac{1}{2}$，$\\ -\\frac{1}{2}$）",
-          "solution": "<p>设圆心 $C(1,0)$ 到直线 $AB$ 的距离为 $d$（$d>0$）. 则</p><p>所以 $S_{\\triangle ABC}=\\frac{1}{2}|AB|\\cdot d$，且 $|AB|=2\\sqrt{4-d^{2}}$，所以 $\\sqrt{(4-d^{2})d^{2}}=\\frac{8}{5}$，得 $d=\\frac{2}{\\sqrt{5}}$ 或 $d=\\frac{4}{\\sqrt{5}}$.</p><p>由点到直线距离公式，$d=\\frac{|1+1|}{\\sqrt{1+m^{2}}}=\\frac{2}{\\sqrt{1+m^{2}}}$.</p><p>于是 $\\frac{2}{\\sqrt{1+m^{2}}}=\\frac{2}{\\sqrt{5}}$ 或 $\\frac{2}{\\sqrt{1+m^{2}}}=\\frac{4}{\\sqrt{5}}$，故 $m=\\pm 2$ 或 $m=\\pm\\frac{1}{2}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_2/q15_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "choices": [],
+          "answer": "2（答案不唯一，也可填 \\(-2\\)，\\(\\ \\frac{1}{2}\\)，\\(\\ -\\frac{1}{2}\\)）",
+          "solution": "<p>设圆心 $C(1,0)$ 到直线 $AB$ 的距离为 $d$（$d>0$）. 则</p><p>所以 $S_{\\triangle ABC}=\\frac{1}{2}|AB|\\cdot d$，且 $|AB|=2\\sqrt{4-d^{2}}$，所以 $\\sqrt{(4-d^{2})d^{2}}=\\frac{8}{5}$，得 $d=\\frac{2}{\\sqrt{5}}$ 或 $d=\\frac{4}{\\sqrt{5}}$.</p><p>由点到直线距离公式，$d=\\frac{|1+1|}{\\sqrt{1+m^{2}}}=\\frac{2}{\\sqrt{1+m^{2}}}$.</p><p>于是 $\\frac{2}{\\sqrt{1+m^{2}}}=\\frac{2}{\\sqrt{5}}$ 或 $\\frac{2}{\\sqrt{1+m^{2}}}=\\frac{4}{\\sqrt{5}}$，故 $m=\\pm 2$ 或 $m=\\pm\\frac{1}{2}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/new_gaokao_paper_2/q15_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
-          "body": "<p>已知函数 $f(x)=\\sin(\\omega x+\\varphi)$，如图，$A$，$B$ 是直线 $y=\\frac{1}{2}$ 与曲线 $y=f(x)$ 的两个交点，若 $|AB|=\\frac{\\pi}{6}$，则 $f(\\pi)=\\underline{\\hspace{2.5em}}{}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_2/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$-\\dfrac{\\sqrt{3}}{2}$",
-          "solution": "<p>由 $\\sin(\\omega x+\\varphi)=\\frac{1}{2}$ 得</p><p>$\\omega x+\\varphi=2k\\pi+\\frac{\\pi}{6}$ 或 $\\omega x+\\varphi=2k\\pi+\\frac{5\\pi}{6}$.</p><p>由图知对应两交点 $A$，$B$ 满足 $\\omega(x_{B}-x_{A})=\\frac{2\\pi}{3}$，故 $|AB|=x_{B}-x_{A}=\\frac{2\\pi}{3\\omega}$，由 $|AB|=\\frac{\\pi}{6}$ 得 $\\omega=4$.</p><p>又图中 $x=\\frac{2\\pi}{3}$ 为增区间上的零点，所以 $\\frac{8\\pi}{3}+\\varphi=2n\\pi$，从而 $\\varphi=2n\\pi-\\frac{8\\pi}{3}$.</p><p>因此</p><p>$f(\\pi)=\\sin\\left(4\\pi-\\frac{8\\pi}{3}\\right)=\\sin\\left(-\\frac{2\\pi}{3}\\right)=-\\frac{\\sqrt{3}}{2}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_2/q16_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "body": "<p>已知函数 $f(x)=\\sin(\\omega x+\\varphi)$，如图，$A$，$B$ 是直线 $y=\\frac{1}{2}$ 与曲线 $y=f(x)$ 的两个交点，若 $|AB|=\\frac{\\pi}{6}$，则 $f(\\pi)=\\underline{\\hspace{2.5em}}{}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/new_gaokao_paper_2/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(-\\dfrac{\\sqrt{3}}{2}\\)",
+          "solution": "<p>由 $\\sin(\\omega x+\\varphi)=\\frac{1}{2}$ 得</p><p>$\\omega x+\\varphi=2k\\pi+\\frac{\\pi}{6}$ 或 $\\omega x+\\varphi=2k\\pi+\\frac{5\\pi}{6}$.</p><p>由图知对应两交点 $A$，$B$ 满足 $\\omega(x_{B}-x_{A})=\\frac{2\\pi}{3}$，故 $|AB|=x_{B}-x_{A}=\\frac{2\\pi}{3\\omega}$，由 $|AB|=\\frac{\\pi}{6}$ 得 $\\omega=4$.</p><p>又图中 $x=\\frac{2\\pi}{3}$ 为增区间上的零点，所以 $\\frac{8\\pi}{3}+\\varphi=2n\\pi$，从而 $\\varphi=2n\\pi-\\frac{8\\pi}{3}$.</p><p>因此</p><p>$f(\\pi)=\\sin\\left(4\\pi-\\frac{8\\pi}{3}\\right)=\\sin\\left(-\\frac{2\\pi}{3}\\right)=-\\frac{\\sqrt{3}}{2}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/new_gaokao_paper_2/q16_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -197,44 +364,56 @@
         {
           "num": 17,
           "body": "<p>记 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $\\triangle ABC$ 的面积为 $\\sqrt{3}$，$D$ 为 $BC$ 的中点，且 $AD=1$.</p><ol class=\"enumerate\"><li><p>若 $\\angle ADC=\\dfrac{\\pi}{3}$，求 $\\tan B$；</p></li><li><p>若 $b^{2}+c^{2}=8$，求 $b$，$c$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\angle ADC=\\frac{\\pi}{3}$，所以 $\\angle ADB=\\frac{2\\pi}{3}$.</p><p>又 $D$ 为 $BC$ 中点，所以 $S_{\\triangle ABD}=\\frac{1}{2}S_{\\triangle ABC}=\\frac{\\sqrt{3}}{2}$.</p><p>而 $S_{\\triangle ABD}=\\frac{1}{2}AD\\cdot BD\\cdot \\sin\\angle ADB=\\frac{1}{2}\\cdot 1\\cdot BD\\cdot \\frac{\\sqrt{3}}{2}$，故 $BD=2$.</p><p>在 $\\triangle ABD$ 中，由余弦定理，$AB^{2}=AD^{2}+BD^{2}-2AD\\cdot BD\\cos\\angle ADB=1^{2}+2^{2}-2\\cdot 1\\cdot 2\\cdot\\left(-\\frac{1}{2}\\right)=7$，所以 $AB=\\sqrt{7}$.</p><p>由正弦定理，$\\frac{AB}{\\sin\\angle ADB}=\\frac{AD}{\\sin B}$，得</p><p>$\\sin B=\\frac{AD\\sin\\angle ADB}{AB}=\\frac{1\\cdot \\frac{\\sqrt{3}}{2}}{\\sqrt{7}}=\\frac{\\sqrt{3}}{2\\sqrt{7}}$.</p><p>因为 $B$ 为锐角，所以 $\\cos B=\\sqrt{1-\\sin^{2}B}=\\frac{5}{2\\sqrt{7}}$，故</p><p>$\\tan B=\\frac{\\sin B}{\\cos B}=\\frac{\\sqrt{3}}{5}$.</p></li><li><p>由面积公式，$\\frac{1}{2}bc\\sin A=\\sqrt{3}$，即 $bc\\sin A=2\\sqrt{3}$（1）.</p><p>又因为 $D$ 为 $BC$ 中点，$\\overrightarrow{AD}=\\frac{1}{2}(\\overrightarrow{AB}+\\overrightarrow{AC})$，所以 $4AD^{2}=AB^{2}+AC^{2}+2\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$. 代入 $AD=1$，$AB=c$，$AC=b$，得 $b^{2}+c^{2}+2bc\\cos A=4$.</p><p>由 $b^{2}+c^{2}=8$ 得 $bc\\cos A=-2$（2）.</p><p>由（1）（2）平方相加得 $b^{2}c^{2}(\\sin^{2}A+\\cos^{2}A)=16$，所以 $bc=4$.</p><p>又 $b^{2}+c^{2}=8$，故 $(b+c)^{2}=8+2bc=16$，</p><p>于是 $b+c=4$. 结合 $bc=4$，得 $b=c=2$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_2/q17_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\angle ADC=\\frac{\\pi}{3}$，所以 $\\angle ADB=\\frac{2\\pi}{3}$.</p><p>又 $D$ 为 $BC$ 中点，所以 $S_{\\triangle ABD}=\\frac{1}{2}S_{\\triangle ABC}=\\frac{\\sqrt{3}}{2}$.</p><p>而 $S_{\\triangle ABD}=\\frac{1}{2}AD\\cdot BD\\cdot \\sin\\angle ADB=\\frac{1}{2}\\cdot 1\\cdot BD\\cdot \\frac{\\sqrt{3}}{2}$，故 $BD=2$.</p><p>在 $\\triangle ABD$ 中，由余弦定理，$AB^{2}=AD^{2}+BD^{2}-2AD\\cdot BD\\cos\\angle ADB=1^{2}+2^{2}-2\\cdot 1\\cdot 2\\cdot\\left(-\\frac{1}{2}\\right)=7$，所以 $AB=\\sqrt{7}$.</p><p>由正弦定理，$\\frac{AB}{\\sin\\angle ADB}=\\frac{AD}{\\sin B}$，得</p><p>$\\sin B=\\frac{AD\\sin\\angle ADB}{AB}=\\frac{1\\cdot \\frac{\\sqrt{3}}{2}}{\\sqrt{7}}=\\frac{\\sqrt{3}}{2\\sqrt{7}}$.</p><p>因为 $B$ 为锐角，所以 $\\cos B=\\sqrt{1-\\sin^{2}B}=\\frac{5}{2\\sqrt{7}}$，故</p><p>$\\tan B=\\frac{\\sin B}{\\cos B}=\\frac{\\sqrt{3}}{5}$.</p></li><li><p>由面积公式，$\\frac{1}{2}bc\\sin A=\\sqrt{3}$，即 $bc\\sin A=2\\sqrt{3}$（1）.</p><p>又因为 $D$ 为 $BC$ 中点，$\\overrightarrow{AD}=\\frac{1}{2}(\\overrightarrow{AB}+\\overrightarrow{AC})$，所以 $4AD^{2}=AB^{2}+AC^{2}+2\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$. 代入 $AD=1$，$AB=c$，$AC=b$，得 $b^{2}+c^{2}+2bc\\cos A=4$.</p><p>由 $b^{2}+c^{2}=8$ 得 $bc\\cos A=-2$（2）.</p><p>由（1）（2）平方相加得 $b^{2}c^{2}(\\sin^{2}A+\\cos^{2}A)=16$，所以 $bc=4$.</p><p>又 $b^{2}+c^{2}=8$，故 $(b+c)^{2}=8+2bc=16$，</p><p>于是 $b+c=4$. 结合 $bc=4$，得 $b=c=2$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/new_gaokao_paper_2/q17_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>已知 $\\{a_{n}\\}$ 为等差数列，$b_{n}=a_{n}-6$（$n$ 为奇数），$b_{n}=2a_{n}$（$n$ 为偶数）. 记 $S_{n}$，$T_{n}$ 分别为 $\\{a_{n}\\}$，$\\{b_{n}\\}$ 的前 $n$ 项和，且 $S_{4}=32$，$T_{3}=16$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>证明：当 $n>5$ 时，$T_{n}>S_{n}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等差数列首项为 $a_{1}$，公差为 $d$. 由 $S_{4}=4a_{1}+6d=32$（1）且</p>\n$$\nT_{3}=(a_{1}-6)+2(a_{1}+d)+(a_{1}+2d-6)=4a_{1}+4d-12=16\n$$\n<p>联立以上两式得 $a_{1}=5$，$d=2$，故 $a_{n}=a_{1}+(n-1)d=2n+3$.</p></li><li><p>由（1）得 $S_{n}=\\frac{n(a_{1}+a_{n})}{2}=\\frac{n(5+2n+3)}{2}=n^{2}+4n$.</p><p>当 $n>5$ 为偶数时，$T_{n}=(a_{1}+a_{3}+\\cdots+a_{n-1})-6\\cdot\\frac{n}{2}+2(a_{2}+a_{4}+\\cdots+a_{n})$，并且 $a_{1}+a_{3}+\\cdots+a_{n-1}=\\frac{n^{2}+3n}{2}$，$a_{2}+a_{4}+\\cdots+a_{n}=\\frac{n^{2}+5n}{2}$.</p><p>故 $T_{n}=\\frac{3n^{2}+7n}{2}$，于是</p>\n$$\nT_{n}-S_{n}=\\frac{3n^{2}+7n}{2}-(n^{2}+4n)=\\frac{n^{2}-n}{2}>0\n$$\n<p>当 $n>5$ 为奇数时，$T_{n}=T_{n+1}-b_{n+1}$. 因为 $n+1$ 为偶数，$T_{n+1}=\\frac{3(n+1)^{2}+7(n+1)}{2}$，$b_{n+1}=2a_{n+1}=2(2n+5)$.</p><p>所以 $T_{n}=\\frac{3n^{2}+5n-10}{2}$，从而</p>\n$$\nT_{n}-S_{n}=\\frac{3n^{2}+5n-10}{2}-(n^{2}+4n)=\\frac{(n+2)(n-5)}{2}>0\n$$\n<p>综上，当 $n>5$ 时，恒有 $T_{n}>S_{n}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列首项为 $a_{1}$，公差为 $d$. 由 $S_{4}=4a_{1}+6d=32$（1）且</p>\n$$\nT_{3}=(a_{1}-6)+2(a_{1}+d)+(a_{1}+2d-6)=4a_{1}+4d-12=16\n$$\n<p>联立以上两式得 $a_{1}=5$，$d=2$，故 $a_{n}=a_{1}+(n-1)d=2n+3$.</p></li><li><p>由（1）得 $S_{n}=\\frac{n(a_{1}+a_{n})}{2}=\\frac{n(5+2n+3)}{2}=n^{2}+4n$.</p><p>当 $n>5$ 为偶数时，$T_{n}=(a_{1}+a_{3}+\\cdots+a_{n-1})-6\\cdot\\frac{n}{2}+2(a_{2}+a_{4}+\\cdots+a_{n})$，并且 $a_{1}+a_{3}+\\cdots+a_{n-1}=\\frac{n^{2}+3n}{2}$，$a_{2}+a_{4}+\\cdots+a_{n}=\\frac{n^{2}+5n}{2}$.</p><p>故 $T_{n}=\\frac{3n^{2}+7n}{2}$，于是</p>\n$$\nT_{n}-S_{n}=\\frac{3n^{2}+7n}{2}-(n^{2}+4n)=\\frac{n^{2}-n}{2}>0\n$$\n<p>当 $n>5$ 为奇数时，$T_{n}=T_{n+1}-b_{n+1}$. 因为 $n+1$ 为偶数，$T_{n+1}=\\frac{3(n+1)^{2}+7(n+1)}{2}$，$b_{n+1}=2a_{n+1}=2(2n+5)$.</p><p>所以 $T_{n}=\\frac{3n^{2}+5n-10}{2}$，从而</p>\n$$\nT_{n}-S_{n}=\\frac{3n^{2}+5n-10}{2}-(n^{2}+4n)=\\frac{(n+2)(n-5)}{2}>0\n$$\n<p>综上，当 $n>5$ 时，恒有 $T_{n}>S_{n}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>某研究小组经过研究发现某种疾病的患病者与未患病者的某项医学指标有明显差异. 经过大量调查，得到如下的患病者和未患病者该项指标的频率分布直方图：</p><p>利用该指标制定一个检测标准，需要确定临界值 $c$，将该指标大于 $c$ 的人判定为阳性，小于或等于 $c$ 的人判定为阴性. 此检测标准的漏诊率是将患病者判定为阴性的概率，记为 $p(c)$；误诊率是将未患病者判定为阳性的概率，记为 $q(c)$. 假设数据在组内均匀分布，以事件发生的频率作为相应事件发生的概率.</p><ol class=\"enumerate\"><li><p>当漏诊率 $p(c)=0.5\\%$ 时，求临界值 $c$ 和误诊率 $q(c)$；</p></li><li><p>设函数 $f(c)=p(c)+q(c)$. 当 $c\\in[95,105]$ 时，求 $f(c)$ 的解析式，并求 $f(c)$ 在区间 $[95,105]$ 的最小值.</p></li></ol><center class=\"center\"><span class=\"macro macro-texfigure\"></span>[max width=8.0cm]img_repaint/2023/new_gaokao_paper_2/q19_fig1.tex</center>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由患病者的频率分布图可知，$[95,100)$ 这一组的频率为 $5\\times 0.002=0.01>0.005$. 所以 $c\\in[95,100)$，且 $(c-95)\\times 0.002=0.005$.</p><p>解得 $c=97.5$.</p><p>此时未患病者中指标大于 $97.5$ 的概率为 $(100-97.5)\\times 0.01+5\\times 0.002=0.035$，故 $q(c)=3.5\\%$.</p></li><li><p>当 $95\\le c<100$ 时，$p(c)=(c-95)\\times 0.002$，$q(c)=(100-c)\\times 0.01+5\\times 0.002$，所以 $f(c)=p(c)+q(c)=-0.008c+0.82$.</p><p>当 $100\\le c\\le 105$ 时，$p(c)=5\\times 0.002+(c-100)\\times 0.012$，$q(c)=(105-c)\\times 0.002$，故 $f(c)=0.01c-0.98$.</p><p>因此</p>\n$$\nf(c)=  \\begin{cases}-0.008c+0.82,&95\\le c<100,\\\\  0.01c-0.98,&100\\le c\\le 105.\\end{cases}\n$$\n<p>并且在两段上分别有 $f(c)>-0.008\\cdot 100+0.82=0.02$ 与</p><p>$f(c)\\ge 0.01\\cdot 100-0.98=0.02$. 故最小值为 $f_{\\min}=0.02$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由患病者的频率分布图可知，$[95,100)$ 这一组的频率为 $5\\times 0.002=0.01>0.005$. 所以 $c\\in[95,100)$，且 $(c-95)\\times 0.002=0.005$.</p><p>解得 $c=97.5$.</p><p>此时未患病者中指标大于 $97.5$ 的概率为 $(100-97.5)\\times 0.01+5\\times 0.002=0.035$，故 $q(c)=3.5\\%$.</p></li><li><p>当 $95\\le c<100$ 时，$p(c)=(c-95)\\times 0.002$，$q(c)=(100-c)\\times 0.01+5\\times 0.002$，所以 $f(c)=p(c)+q(c)=-0.008c+0.82$.</p><p>当 $100\\le c\\le 105$ 时，$p(c)=5\\times 0.002+(c-100)\\times 0.012$，$q(c)=(105-c)\\times 0.002$，故 $f(c)=0.01c-0.98$.</p><p>因此</p>\n$$\nf(c)=  \\begin{cases}-0.008c+0.82,&95\\le c<100,\\\\  0.01c-0.98,&100\\le c\\le 105.\\end{cases}\n$$\n<p>并且在两段上分别有 $f(c)>-0.008\\cdot 100+0.82=0.02$ 与</p><p>$f(c)\\ge 0.01\\cdot 100-0.98=0.02$. 故最小值为 $f_{\\min}=0.02$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，三棱锥 $A-BCD$ 中，$DA=DB=DC$，$BD\\perp CD$，$\\angle ADB=\\angle ADC=60^{\\circ}$，$E$ 为 $BC$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$BC\\perp DA$；</p></li><li><p>点 $F$ 满足 $\\overrightarrow{EF}=\\overrightarrow{DA}$，求二面角 $D-AB-F$ 的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_2/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，三棱锥 $A-BCD$ 中，$DA=DB=DC$，$BD\\perp CD$，$\\angle ADB=\\angle ADC=60^{\\circ}$，$E$ 为 $BC$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$BC\\perp DA$；</p></li><li><p>点 $F$ 满足 $\\overrightarrow{EF}=\\overrightarrow{DA}$，求二面角 $D-AB-F$ 的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/new_gaokao_paper_2/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $DA=DB=DC$ 且 $\\angle ADB=\\angle ADC=60^{\\circ}$，所以 $\\triangle ADB$ 与 $\\triangle ADC$ 都是正三角形，故 $AB=AC$.</p><p>又 $E$ 为 $BC$ 中点，所以 $AE\\perp BC$，$DE\\perp BC$. 因为 $AE$，$DE\\subset \\text{平面 }ADE$ 且相交于 $E$，所以 $BC\\perp \\text{平面 }ADE$. 而 $DA\\subset \\text{平面 }ADE$，故 $BC\\perp DA$.</p></li><li><p>不妨设 $DA=DB=DC=2$. 则 $AB=AC=2$，$BC=\\sqrt{DB^{2}+DC^{2}}=2\\sqrt{2}$.</p><p>因为 $E$ 是 $BC$ 中点，所以 $BE=CE=DE=\\sqrt{2}$，且 $AE=\\sqrt{AC^{2}-CE^{2}}=\\sqrt{2}$.</p><p>故 $AE^{2}+DE^{2}=AD^{2}$，所以 $AE\\perp DE$. 于是可取 E 为原点建立空间直角坐标系：$A(0,0,\\sqrt{2})$，$D(\\sqrt{2},0,0)$，$B(0,\\sqrt{2},0)$.</p><p>由 $\\overrightarrow{EF}=\\overrightarrow{DA}$ 可知四边形 $ADEF$ 为平行四边形，从而 $\\overrightarrow{FA}=\\overrightarrow{ED}=(\\sqrt{2},0,0)$.</p><p>设平面 $DAB$ 的法向量为 $\\mathbf{m}=(x_{1},y_{1},z_{1})$，平面 $ABF$ 的法向量为 $\\mathbf{n}=(x_{2},y_{2},z_{2})$. 则</p>\n$$\n\\begin{cases}\\mathbf{m}\\cdot \\overrightarrow{DA}=-\\sqrt{2}x_{1}+\\sqrt{2}z_{1}=0,\\\\  \\mathbf{m}\\cdot \\overrightarrow{AB}=\\sqrt{2}y_{1}-\\sqrt{2}z_{1}=0.\\end{cases}\n$$\n<p>令 $x_{1}=1$，则 $y_{1}=1$，$z_{1}=1$.</p><p>所以 $\\mathbf{m}=(1,1,1)$ 是平面 $DAB$ 的一个法向量.</p>\n$$\n\\begin{cases}\\mathbf{n}\\cdot \\overrightarrow{AB}=\\sqrt{2}y_{2}-\\sqrt{2}z_{2}=0,\\\\  \\mathbf{n}\\cdot \\overrightarrow{FA}=\\sqrt{2}x_{2}=0.\\end{cases}\n$$\n<p>令 $y_{2}=1$，则 $x_{2}=0$，$z_{2}=1$.</p><p>所以 $\\mathbf{n}=(0,1,1)$ 是平面 $ABF$ 的一个法向量.</p><p>于是 $\\cos\\langle \\mathbf{m},\\mathbf{n}\\rangle=\\frac{\\mathbf{m}\\cdot \\mathbf{n}}{|\\mathbf{m}||\\mathbf{n}|}=\\frac{2}{\\sqrt{3}\\cdot \\sqrt{2}}=\\frac{\\sqrt{6}}{3}$. 故所求二面角的正弦值为 $\\sqrt{1-\\left(\\frac{\\sqrt{6}}{3}\\right)^{2}}=\\frac{\\sqrt{3}}{3}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_2/q20_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $DA=DB=DC$ 且 $\\angle ADB=\\angle ADC=60^{\\circ}$，所以 $\\triangle ADB$ 与 $\\triangle ADC$ 都是正三角形，故 $AB=AC$.</p><p>又 $E$ 为 $BC$ 中点，所以 $AE\\perp BC$，$DE\\perp BC$. 因为 $AE$，$DE\\subset \\text{平面 }ADE$ 且相交于 $E$，所以 $BC\\perp \\text{平面 }ADE$. 而 $DA\\subset \\text{平面 }ADE$，故 $BC\\perp DA$.</p></li><li><p>不妨设 $DA=DB=DC=2$. 则 $AB=AC=2$，$BC=\\sqrt{DB^{2}+DC^{2}}=2\\sqrt{2}$.</p><p>因为 $E$ 是 $BC$ 中点，所以 $BE=CE=DE=\\sqrt{2}$，且 $AE=\\sqrt{AC^{2}-CE^{2}}=\\sqrt{2}$.</p><p>故 $AE^{2}+DE^{2}=AD^{2}$，所以 $AE\\perp DE$. 于是可取 E 为原点建立空间直角坐标系：$A(0,0,\\sqrt{2})$，$D(\\sqrt{2},0,0)$，$B(0,\\sqrt{2},0)$.</p><p>由 $\\overrightarrow{EF}=\\overrightarrow{DA}$ 可知四边形 $ADEF$ 为平行四边形，从而 $\\overrightarrow{FA}=\\overrightarrow{ED}=(\\sqrt{2},0,0)$.</p><p>设平面 $DAB$ 的法向量为 $\\mathbf{m}=(x_{1},y_{1},z_{1})$，平面 $ABF$ 的法向量为 $\\mathbf{n}=(x_{2},y_{2},z_{2})$. 则</p>\n$$\n\\begin{cases}\\mathbf{m}\\cdot \\overrightarrow{DA}=-\\sqrt{2}x_{1}+\\sqrt{2}z_{1}=0,\\\\  \\mathbf{m}\\cdot \\overrightarrow{AB}=\\sqrt{2}y_{1}-\\sqrt{2}z_{1}=0.\\end{cases}\n$$\n<p>令 $x_{1}=1$，则 $y_{1}=1$，$z_{1}=1$.</p><p>所以 $\\mathbf{m}=(1,1,1)$ 是平面 $DAB$ 的一个法向量.</p>\n$$\n\\begin{cases}\\mathbf{n}\\cdot \\overrightarrow{AB}=\\sqrt{2}y_{2}-\\sqrt{2}z_{2}=0,\\\\  \\mathbf{n}\\cdot \\overrightarrow{FA}=\\sqrt{2}x_{2}=0.\\end{cases}\n$$\n<p>令 $y_{2}=1$，则 $x_{2}=0$，$z_{2}=1$.</p><p>所以 $\\mathbf{n}=(0,1,1)$ 是平面 $ABF$ 的一个法向量.</p><p>于是 $\\cos\\langle \\mathbf{m},\\mathbf{n}\\rangle=\\frac{\\mathbf{m}\\cdot \\mathbf{n}}{|\\mathbf{m}||\\mathbf{n}|}=\\frac{2}{\\sqrt{3}\\cdot \\sqrt{2}}=\\frac{\\sqrt{6}}{3}$. 故所求二面角的正弦值为 $\\sqrt{1-\\left(\\frac{\\sqrt{6}}{3}\\right)^{2}}=\\frac{\\sqrt{3}}{3}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/new_gaokao_paper_2/q20_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
           "body": "<p>已知双曲线 $C$ 的中心为坐标原点，左焦点为 $(-2\\sqrt{5},0)$，离心率为 $\\sqrt{5}$.</p><ol class=\"enumerate\"><li><p>求 $C$ 的方程；</p></li><li><p>记 $C$ 的左，右顶点分别为 $A_{1}$，$A_{2}$，过点 $(-4,0)$ 的直线与 $C$ 的左支交于 $M$，$N$ 两点，$M$ 在第二象限，直线 $MA_{1}$ 与 $NA_{2}$ 交于点 $P$，证明：点 $P$ 在定直线上.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设双曲线方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$.</p><p>由左焦点知 $c=2\\sqrt{5}$. 又离心率 $e=\\frac{c}{a}=\\sqrt{5}$，故 $a=2$. 于是 $b=\\sqrt{c^{2}-a^{2}}=\\sqrt{20-4}=4$. 所以 $C:\\frac{x^{2}}{4}-\\frac{y^{2}}{16}=1$.</p></li><li><p>设 $A_{1}(-2,0)$，$A_{2}(2,0)$. 设直线 $MN$ 的方程为 $x=my-4$，由它与双曲线左支有两个交点知 $-\\frac{1}{2}<m<\\frac{1}{2}$. 与双曲线方程联立得 $(4m^{2}-1)y^{2}-32my+48=0$. 设 $M(x_{1},y_{1})$，$N(x_{2},y_{2})$，则 $y_{1}+y_{2}=\\frac{32m}{4m^{2}-1}$，$y_{1}y_{2}=\\frac{48}{4m^{2}-1}$.</p><p>直线 $MA_{1}$ 方程为 $y=\\frac{y_{1}}{x_{1}+2}(x+2)$，直线 $NA_{2}$ 方程为 $y=\\frac{y_{2}}{x_{2}-2}(x-2)$.</p><p>联立直线 $MA_{1}$ 与直线 $NA_{2}$ 的方程可得 $\\frac{x+2}{x-2}=\\frac{y_{2}(x_{1}+2)}{y_{1}(x_{2}-2)}$.</p><p>再利用 $x_{1}=my_{1}-4$，$x_{2}=my_{2}-4$，得 $\\frac{x+2}{x-2}=\\frac{m\\cdot \\frac{48}{4m^2-1}-2\\cdot \\frac{32m}{4m^2-1}+2y_{1}}{m\\cdot \\frac{48}{4m^2-1}-6y_{1}}=\\frac{-\\frac{16m}{4m^2-1}+2y_{1}}{\\frac{48m}{4m^2-1}-6y_{1}}=-\\frac{1}{3}$.</p><p>因此 $x=-1$，点 $P$ 恒在定直线 $x=-1$ 上.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_2/q21_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设双曲线方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$.</p><p>由左焦点知 $c=2\\sqrt{5}$. 又离心率 $e=\\frac{c}{a}=\\sqrt{5}$，故 $a=2$. 于是 $b=\\sqrt{c^{2}-a^{2}}=\\sqrt{20-4}=4$. 所以 $C:\\frac{x^{2}}{4}-\\frac{y^{2}}{16}=1$.</p></li><li><p>设 $A_{1}(-2,0)$，$A_{2}(2,0)$. 设直线 $MN$ 的方程为 $x=my-4$，由它与双曲线左支有两个交点知 $-\\frac{1}{2}<m<\\frac{1}{2}$. 与双曲线方程联立得 $(4m^{2}-1)y^{2}-32my+48=0$. 设 $M(x_{1},y_{1})$，$N(x_{2},y_{2})$，则 $y_{1}+y_{2}=\\frac{32m}{4m^{2}-1}$，$y_{1}y_{2}=\\frac{48}{4m^{2}-1}$.</p><p>直线 $MA_{1}$ 方程为 $y=\\frac{y_{1}}{x_{1}+2}(x+2)$，直线 $NA_{2}$ 方程为 $y=\\frac{y_{2}}{x_{2}-2}(x-2)$.</p><p>联立直线 $MA_{1}$ 与直线 $NA_{2}$ 的方程可得 $\\frac{x+2}{x-2}=\\frac{y_{2}(x_{1}+2)}{y_{1}(x_{2}-2)}$.</p><p>再利用 $x_{1}=my_{1}-4$，$x_{2}=my_{2}-4$，得 $\\frac{x+2}{x-2}=\\frac{m\\cdot \\frac{48}{4m^2-1}-2\\cdot \\frac{32m}{4m^2-1}+2y_{1}}{m\\cdot \\frac{48}{4m^2-1}-6y_{1}}=\\frac{-\\frac{16m}{4m^2-1}+2y_{1}}{\\frac{48m}{4m^2-1}-6y_{1}}=-\\frac{1}{3}$.</p><p>因此 $x=-1$，点 $P$ 恒在定直线 $x=-1$ 上.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/new_gaokao_paper_2/q21_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "<ol class=\"enumerate\"><li><p>证明：当 $0<x<1$ 时，$x-x^{2}<\\sin x<x$.</p></li><li><p>已知函数 $f(x)=\\cos ax-\\ln(1-x^{2})$，若 $x=0$ 是 $f(x)$ 的极大值点，求 $a$ 的取值范围.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>令 $h(x)=x-x^{2}-\\sin x$. 则 $h(0)=0$，$h'(x)=1-2x-\\cos x$，$h'(0)=0$，$h''(x)=-2+\\sin x<0$（$0<x<1$）.</p><p>故 $h'(x)$ 在 $(0,1)$ 上单调递减，从而 $h'(x)<h'(0)=0$，于是 $h(x)$ 在 $(0,1)$ 上单调递减，$h(x)<h(0)=0$，所以 $x-x^{2}<\\sin x$.</p><p>再令 $g(x)=x-\\sin x$. 则 $g(0)=0$，$g'(x)=1-\\cos x\\ge 0$. 故 $g(x)$ 在 $(0,1)$ 上单调递增，于是 $g(x)>g(0)=0$，即 $\\sin x<x$.</p></li><li><p>函数 $f(x)=\\cos ax-\\ln(1-x^{2})$ 为偶函数，因此 $f'(0)=0$. 又 $f''(x)=-a^{2}\\cos ax+\\frac{2+2x^{2}}{(1-x^{2})^{2}}$，故 $f''(0)=2-a^{2}$.</p><p>若 $|a|<\\sqrt{2}$，则 $f''(0)>0$，这说明 $x=0$ 为极小值点，与题意矛盾.</p><p>若 $|a|=\\sqrt{2}$，以 $a=\\sqrt{2}$ 为例，$f'(x)=-\\sqrt{2}\\sin(\\sqrt{2}x)+\\frac{2x}{1-x^{2}}$. 由 $\\sin(\\sqrt{2}x)<\\sqrt{2}x$（当 $0<x<\\frac{1}{\\sqrt{2}}$）得</p>\n$$\nf'(x)>-2x+\\frac{2x}{1-x^{2}}=2x\\left(\\frac{1}{1-x^{2}}-1\\right)>0\n$$\n<p>故 $f(x)$ 在 $0<x<\\frac{1}{\\sqrt{2}}$ 上递增，不可能在 $x=0$ 处取得极大值. 若 $a=-\\sqrt{2}$，则 $f'(x)=-\\sqrt{2}\\sin(\\sqrt{2}x)+\\frac{2x}{1-x^{2}}$. 由同样的不等式可知，当 $0<x<\\frac{1}{\\sqrt{2}}$ 时，$f'(x)>0$.</p><p>因此 $f(x)$ 在 $0$ 右侧同样递增，也不可能在 $x=0$ 处取得极大值.</p><p>若 $|a|>\\sqrt{2}$，则 $f''(0)=2-a^{2}<0$.</p><p>由二阶导数判别法知，$x=0$ 为 $f(x)$ 的极大值点.</p><p>综上，</p><p>$a<-\\sqrt{2}$或$a>\\sqrt{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>令 $h(x)=x-x^{2}-\\sin x$. 则 $h(0)=0$，$h'(x)=1-2x-\\cos x$，$h'(0)=0$，$h''(x)=-2+\\sin x<0$（$0<x<1$）.</p><p>故 $h'(x)$ 在 $(0,1)$ 上单调递减，从而 $h'(x)<h'(0)=0$，于是 $h(x)$ 在 $(0,1)$ 上单调递减，$h(x)<h(0)=0$，所以 $x-x^{2}<\\sin x$.</p><p>再令 $g(x)=x-\\sin x$. 则 $g(0)=0$，$g'(x)=1-\\cos x\\ge 0$. 故 $g(x)$ 在 $(0,1)$ 上单调递增，于是 $g(x)>g(0)=0$，即 $\\sin x<x$.</p></li><li><p>函数 $f(x)=\\cos ax-\\ln(1-x^{2})$ 为偶函数，因此 $f'(0)=0$. 又 $f''(x)=-a^{2}\\cos ax+\\frac{2+2x^{2}}{(1-x^{2})^{2}}$，故 $f''(0)=2-a^{2}$.</p><p>若 $|a|<\\sqrt{2}$，则 $f''(0)>0$，这说明 $x=0$ 为极小值点，与题意矛盾.</p><p>若 $|a|=\\sqrt{2}$，以 $a=\\sqrt{2}$ 为例，$f'(x)=-\\sqrt{2}\\sin(\\sqrt{2}x)+\\frac{2x}{1-x^{2}}$. 由 $\\sin(\\sqrt{2}x)<\\sqrt{2}x$（当 $0<x<\\frac{1}{\\sqrt{2}}$）得</p>\n$$\nf'(x)>-2x+\\frac{2x}{1-x^{2}}=2x\\left(\\frac{1}{1-x^{2}}-1\\right)>0\n$$\n<p>故 $f(x)$ 在 $0<x<\\frac{1}{\\sqrt{2}}$ 上递增，不可能在 $x=0$ 处取得极大值. 若 $a=-\\sqrt{2}$，则 $f'(x)=-\\sqrt{2}\\sin(\\sqrt{2}x)+\\frac{2x}{1-x^{2}}$. 由同样的不等式可知，当 $0<x<\\frac{1}{\\sqrt{2}}$ 时，$f'(x)>0$.</p><p>因此 $f(x)$ 在 $0$ 右侧同样递增，也不可能在 $x=0$ 处取得极大值.</p><p>若 $|a|>\\sqrt{2}$，则 $f''(0)=2-a^{2}<0$.</p><p>由二阶导数判别法知，$x=0$ 为 $f(x)$ 的极大值点.</p><p>综上，</p><p>$a<-\\sqrt{2}$或$a>\\sqrt{2}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,321 +11,273 @@
 #part-header("单选题")
 
 #problem(1)[
-设集合 $A=\{1,2\}$，$B=\{2,4,6\}$，则 $A union B=$（ ）
-  #choices([$\{2\}$], [$\{1,2\}$], [$\{2,4,6\}$], [$\{1,2,4,6\}$], cols: 4)
+设集合 #mi(`A=\{1,2\}`)，#mi(`B=\{2,4,6\}`)，则 #mi(`A\cup B=`)（ ）
+  #choices([#mi(`\{2\}`)], [#mi(`\{1,2\}`)], [#mi(`\{2,4,6\}`)], [#mi(`\{1,2,4,6\}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由并集的定义，$A union B$ 由属于 $A$ 或属于 $B$ 的元素组成，即 $\{1,2,4,6\}$，故选 D.
+由并集的定义，#mi(`A\cup B`) 由属于 #mi(`A`) 或属于 #mi(`B`) 的元素组成，即 #mi(`\{1,2,4,6\}`)，故选 D.
 ]
 
 #problem(2)[
-已知 $a$，$b in RR$，且 $a+3 i =(b+ i ) i$（$i$ 为虚数单位），则（ ）
-  #choices([$a=1$，$b=-3$], [$a=-1$，$b=3$], [$a=-1$，$b=-3$], [$a=1$，$b=3$], cols: 4)
+已知 #mi(`a`)，#mi(`b\in\mathbb{R}`)，且 #mi(`a+3\mathrm{i}=(b+\mathrm{i})\mathrm{i}`)（#mi(`\mathrm{i}`) 为虚数单位），则（ ）
+  #choices([#mi(`a=1`)，#mi(`b=-3`)], [#mi(`a=-1`)，#mi(`b=3`)], [#mi(`a=-1`)，#mi(`b=-3`)], [#mi(`a=1`)，#mi(`b=3`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-$(b+ i ) i =b i + i ""^2=-1+b i$，与 $a+3 i$ 比较实部与虚部，得 $a=-1$，$b=3$，故选 B.
+#mi(`(b+\mathrm{i})\mathrm{i}=b\mathrm{i}+\mathrm{i}^{2}=-1+b\mathrm{i}`)，与 #mi(`a+3\mathrm{i}`) 比较实部与虚部，得 #mi(`a=-1`)，#mi(`b=3`)，故选 B.
 ]
 
 #problem(3)[
-若实数 $x$，$y$ 满足约束条件
-$\b e g i n{c a s e s} x-2 >= 0 ,\\ 2 x+y-7 <= 0 ,\\ x-y-2 <= 0 , \e n d{c a s e s}$，
-则 $z=3 x+4 y$ 的最大值是（ ）
-  #choices([$20$], [$18$], [$13$], [$6$], cols: 4)
+若实数 #mi(`x`)，#mi(`y`) 满足约束条件
+
+#mi(`\begin{cases}x-2\ge 0,\\  2x+y-7\le 0,\\  x-y-2\le 0,\end{cases}`)，
+
+则 #mi(`z=3x+4y`) 的最大值是（ ）
+  #choices([#mi(`20`)], [#mi(`18`)], [#mi(`13`)], [#mi(`6`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-直线 $x=2$ 与 $2 x+y=7$ 交于 $(2,3)$，与 $x-y=2$ 交于 $(2,0)$；$2 x+y=7$ 与 $x-y=2$ 交于 $(3,1)$，三点围成可行域. $z=3 x+4 y$ 在三顶点处的值依次为 $18$，$6$，$13$，故最大值为 $18$，选 B.
+直线 #mi(`x=2`) 与 #mi(`2x+y=7`) 交于 #mi(`(2,3)`)，与 #mi(`x-y=2`) 交于 #mi(`(2,0)`)；#mi(`2x+y=7`) 与 #mi(`x-y=2`) 交于 #mi(`(3,1)`)，三点围成可行域. #mi(`z=3x+4y`) 在三顶点处的值依次为 #mi(`18`)，#mi(`6`)，#mi(`13`)，故最大值为 #mi(`18`)，选 B.
 ]
 
 #problem(4)[
-设 $x in RR$，则“$sin x=1$”是“$cos x=0$”的（ ）
+设 #mi(`x\in\mathbb{R}`)，则“#mi(`\sin x=1`)”是“#mi(`\cos x=0`)”的（ ）
   #choices([充分不必要条件], [必要不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-$sin x=1$ 时 $x=(pi)/(2)+2 k pi$（$k in ZZ$），此时 $cos x=0$；反之 $cos x=0$ 时 $x=(pi)/(2)+k pi$，$sin x= +- 1$，不一定等于 $1$. 故是充分不必要条件，选 A.
+#mi(`\sin x=1`) 时 #mi(`x=\frac{\pi}{2}+2k\pi`)（#mi(`k\in\mathbb{Z}`)），此时 #mi(`\cos x=0`)；反之 #mi(`\cos x=0`) 时 #mi(`x=\frac{\pi}{2}+k\pi`)，#mi(`\sin x=\pm1`)，不一定等于 #mi(`1`). 故是充分不必要条件，选 A.
 ]
 
 #problem(5)[
-某几何体的三视图如图所示（单位：$c m$），则该几何体的体积（单位：$c m^3$）是（ ）
+某几何体的三视图如图所示（单位：#mi(`\mathrm{cm}`)），则该几何体的体积（单位：#mi(`\mathrm{cm}^{3}`)）是（ ）
 
 
 #align(center)[#image("/papers/2022/img/zhejiang/q5_fig1.png", width: 28%)]
-  #choices([$22 pi$], [$8 pi$], [$(22 pi)/(3)$], [$(16 pi)/(3)$], cols: 4)
+
+  #choices([#mi(`22\pi`)], [#mi(`8\pi`)], [#mi(`\dfrac{22\pi}{3}`)], [#mi(`\dfrac{16\pi}{3}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-由三视图可知，几何体自下而上依次为圆台、圆柱和半球. 圆台下底直径为 $4$，上底直径为 $2$，高为 $2$，体积为 $(1)/(3) pi dot 2 dot (2^2+2 dot 1 +1^2)=(14 pi)/(3)$；圆柱底面直径为 $2$，高为 $2$，体积为 $2 pi$；半球半径为 $1$，体积为 $(2 pi)/(3)$. 总体积为 $(14 pi)/(3)+2 pi +(2 pi)/(3)=(22 pi)/(3)$，故选 C.
+由三视图可知，几何体自下而上依次为圆台、圆柱和半球. 圆台下底直径为 #mi(`4`)，上底直径为 #mi(`2`)，高为 #mi(`2`)，体积为 #mi(`\frac{1}{3}\pi\cdot2\cdot(2^{2}+2\cdot1+1^{2})=\frac{14\pi}{3}`)；圆柱底面直径为 #mi(`2`)，高为 #mi(`2`)，体积为 #mi(`2\pi`)；半球半径为 #mi(`1`)，体积为 #mi(`\frac{2\pi}{3}`). 总体积为 #mi(`\frac{14\pi}{3}+2\pi+\frac{2\pi}{3}=\frac{22\pi}{3}`)，故选 C.
 ]
 
 #problem(6)[
-为了得到函数 $y=2 sin 3 x$ 的图象，只要把函数 $y=2 sin (3 x+(pi)/(5))$ 图象上所有的点（ ）
-  #choices([向左平移 $(pi)/(5)$ 个单位长度], [向右平移 $(pi)/(5)$ 个单位长度], [向左平移 $(pi)/(15)$ 个单位长度], [向右平移 $(pi)/(15)$ 个单位长度], cols: 2)
+为了得到函数 #mi(`y=2\sin 3x`) 的图象，只要把函数 #mi(`y=2\sin\left(3x+\frac{\pi}{5}\right)`) 图象上所有的点（ ）
+  #choices([向左平移 #mi(`\dfrac{\pi}{5}`) 个单位长度], [向右平移 #mi(`\dfrac{\pi}{5}`) 个单位长度], [向左平移 #mi(`\dfrac{\pi}{15}`) 个单位长度], [向右平移 #mi(`\dfrac{\pi}{15}`) 个单位长度], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-$2 sin (3 x+(pi)/(5))=2 sin 3 (x+(\p)/(i){15})$，将其图象上所有点向右平移 $(\p)/(i){15}$ 个单位长度即得 $y=2 sin 3 x$ 的图象，故选 D.
+#mi(`2\sin\left(3x+\frac{\pi}{5}\right)=2\sin3\left(x+\frac{\pi}{15}\right)`)，将其图象上所有点向右平移 #mi(`\frac{\pi}{15}`) 个单位长度即得 #mi(`y=2\sin3x`) 的图象，故选 D.
 ]
 
 #problem(7)[
-已知 $2^a=5$，$log _8 3=b$，则 $4^(a-3 b)=$（ ）
-  #choices([$25$], [$5$], [$(25)/(9)$], [$(5)/(3)$], cols: 4)
+已知 #mi(`2^{a}=5`)，#mi(`\log_{8} 3=b`)，则 #mi(`4^{a-3b}=`)（ ）
+  #choices([#mi(`25`)], [#mi(`5`)], [#mi(`\dfrac{25}{9}`)], [#mi(`\dfrac{5}{3}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-$4^a=(2^a)^2=25$. 由 $log _(8) 3=b$ 得 $2^(3 b)=3$，故 $4^(3 b)=2^(6 b)=9$. 于是 $4^(a-3 b)=(25)/(9)$，故选 C.
+#mi(`4^{a}=(2^{a})^{2}=25`). 由 #mi(`\log_{8}3=b`) 得 #mi(`2^{3b}=3`)，故 #mi(`4^{3b}=2^{6b}=9`). 于是 #mi(`4^{a-3b}=\frac{25}{9}`)，故选 C.
 ]
 
 #problem(8)[
-如图，已知正三棱柱 $A B C-A_(1) B_(1) C_1$，$A C=A A_1$，$E$，$F$ 分别是棱 $B C$，$A_(1) C_1$ 上的点. 记 $E F$ 与 $A A_1$ 所成的角为 $alpha$，$E F$ 与平面 $A B C$ 所成的角为 $beta$，二面角 $F-B C-A$ 的平面角为 $gamma$，则（ ）
+如图，已知正三棱柱 #mi(`ABC-A_{1}B_{1}C_{1}`)，#mi(`AC=AA_{1}`)，#mi(`E`)，#mi(`F`) 分别是棱 #mi(`BC`)，#mi(`A_{1}C_{1}`) 上的点. 记 #mi(`EF`) 与 #mi(`AA_{1}`) 所成的角为 #mi(`\alpha`)，#mi(`EF`) 与平面 #mi(`ABC`) 所成的角为 #mi(`\beta`)，二面角 #mi(`F-BC-A`) 的平面角为 #mi(`\gamma`)，则（ ）
 
 
 #align(center)[#image("/papers/2022/img/zhejiang/q8_fig1.png", width: 28%)]
-  #choices([$alpha <= beta <= gamma$], [$beta <= alpha <= gamma$], [$beta <= gamma <= alpha$], [$alpha <= gamma <= beta$], cols: 2)
+
+  #choices([#mi(`\alpha\le \beta\le \gamma`)], [#mi(`\beta\le \alpha\le \gamma`)], [#mi(`\beta\le \gamma\le \alpha`)], [#mi(`\alpha\le \gamma\le \beta`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-记棱柱的高为 $h$，则底面是边长为 $h$ 的正三角形. 设 $F'$ 为 $F$ 在平面 $A B C$ 上的投影，则 $F'$ 在边 $A C$ 上，$E F$ 的竖直分量为 $h$，故 $cos alpha =(h)/(|E F|)$，$sin beta =(h)/(|E F|)$，即 $alpha + beta =(pi)/(2)$. 记 $d$ 为 $E$ 与 $F'$ 之间的水平距离，则 $|E F|^2=h^2+d^2$. $E$ 在 $B C$ 上，$F'$ 在 $A C$ 上，两点间距离不超过 $h$（$B$ 到线段 $A C$ 上各点的距离以端点处最大，为 $h$），故 $d <= h$，$cos alpha >= (sqrt(2))/(2)$，$alpha <= (pi)/(4) <= beta$. 又平面 $F B C$ 含直线 $B C$，沿 $B C$ 的二面角满足 $tan gamma =(h)/(d_1)$，其中 $d_1$ 为 $F'$ 到直线 $B C$ 的距离；而 $tan beta =(h)/(d)$. 因 $E$ 在直线 $B C$ 上，$d_1 <= d$，故 $tan gamma >= tan beta$，$beta$，$gamma$ 均为锐角（或直角），得 $beta <= gamma$. 综上 $alpha <= beta <= gamma$，故选 A.
+记棱柱的高为 #mi(`h`)，则底面是边长为 #mi(`h`) 的正三角形. 设 #mi(`F'`) 为 #mi(`F`) 在平面 #mi(`ABC`) 上的投影，则 #mi(`F'`) 在边 #mi(`AC`) 上，#mi(`EF`) 的竖直分量为 #mi(`h`)，故 #mi(`\cos\alpha=\frac{h}{|EF|}`)，#mi(`\sin\beta=\frac{h}{|EF|}`)，即 #mi(`\alpha+\beta=\frac{\pi}{2}`). 记 #mi(`d`) 为 #mi(`E`) 与 #mi(`F'`) 之间的水平距离，则 #mi(`|EF|^{2}=h^{2}+d^{2}`). #mi(`E`) 在 #mi(`BC`) 上，#mi(`F'`) 在 #mi(`AC`) 上，两点间距离不超过 #mi(`h`)（#mi(`B`) 到线段 #mi(`AC`) 上各点的距离以端点处最大，为 #mi(`h`)），故 #mi(`d\le h`)，#mi(`\cos\alpha\ge\frac{\sqrt{2}}{2}`)，#mi(`\alpha\le\frac{\pi}{4}\le\beta`). 又平面 #mi(`FBC`) 含直线 #mi(`BC`)，沿 #mi(`BC`) 的二面角满足 #mi(`\tan\gamma=\frac{h}{d_{1}}`)，其中 #mi(`d_{1}`) 为 #mi(`F'`) 到直线 #mi(`BC`) 的距离；而 #mi(`\tan\beta=\frac{h}{d}`). 因 #mi(`E`) 在直线 #mi(`BC`) 上，#mi(`d_{1}\le d`)，故 #mi(`\tan\gamma\ge\tan\beta`)，#mi(`\beta`)，#mi(`\gamma`) 均为锐角（或直角），得 #mi(`\beta\le\gamma`). 综上 #mi(`\alpha\le\beta\le\gamma`)，故选 A.
 ]
 
 #problem(9)[
-已知 $a$，$b in RR$. 若对任意 $x in RR$，$a|x-b|+|x-4|-|2 x-5| >= 0$，则（ ）
-  #choices([$a <= 1$，$b >= 3$], [$a <= 1$，$b <= 3$], [$a >= 1$，$b >= 3$], [$a >= 1$，$b <= 3$], cols: 2)
+已知 #mi(`a`)，#mi(`b\in\mathbb{R}`). 若对任意 #mi(`x\in\mathbb{R}`)，#mi(`a|x-b|+|x-4|-|2x-5|\ge 0`)，则（ ）
+  #choices([#mi(`a\le 1`)，#mi(`b\ge 3`)], [#mi(`a\le 1`)，#mi(`b\le 3`)], [#mi(`a\ge 1`)，#mi(`b\ge 3`)], [#mi(`a\ge 1`)，#mi(`b\le 3`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-记 $f(x)=a|x-b|+|x-4|-|2 x-5|$. 当 $x$ 充分大时 $f(x)=(a-1)x+(1-a b)$，$f(x) >= 0$ 恒成立要求 $a >= 1$，否则 $x -> + oo$ 时 $f(x) -> - oo$. 取 $x=b$ 得 $|b-4|-|2 b-5| >= 0$. 若 $b >= 4$，则左边为 $(b-4)-(2 b-5)=1-b >= 0$，即 $b <= 1$，矛盾；若 $2.5 <= b<4$，则左边为 $(4-b)-(2 b-5)=9-3 b >= 0$，得 $b <= 3$；若 $b<2.5$，自然有 $b <= 3$. 故 $b <= 3$. 因此 $a >= 1$，$b <= 3$，故选 D.
+记 #mi(`f(x)=a|x-b|+|x-4|-|2x-5|`). 当 #mi(`x`) 充分大时 #mi(`f(x)=(a-1)x+(1-ab)`)，#mi(`f(x)\ge0`) 恒成立要求 #mi(`a\ge1`)，否则 #mi(`x\to+\infty`) 时 #mi(`f(x)\to-\infty`). 取 #mi(`x=b`) 得 #mi(`|b-4|-|2b-5|\ge0`). 若 #mi(`b\ge4`)，则左边为 #mi(`(b-4)-(2b-5)=1-b\ge0`)，即 #mi(`b\le1`)，矛盾；若 #mi(`2.5\le b<4`)，则左边为 #mi(`(4-b)-(2b-5)=9-3b\ge0`)，得 #mi(`b\le3`)；若 #mi(`b<2.5`)，自然有 #mi(`b\le3`). 故 #mi(`b\le3`). 因此 #mi(`a\ge1`)，#mi(`b\le3`)，故选 D.
 ]
 
 #problem(10)[
-已知数列 $\{a_n\}$ 满足 $a_1=1$，$a_(n+1)=a_n-(1)/(3)a_n^2$（$n in NN ""^*$），则（ ）
-  #choices([$2<100 a_(100)<(5)/(2)$], [$(5)/(2)<100 a_(100)<3$], [$3<100 a_(100)<(7)/(2)$], [$(7)/(2)<100 a_(100)<4$], cols: 2)
+已知数列 #mi(`\{a_{n}\}`) 满足 #mi(`a_{1}=1`)，#mi(`a_{n+1}=a_{n}-\frac{1}{3}a_{n}^{2}`)（#mi(`n\in\mathbb{N}^{*}`)），则（ ）
+  #choices([#mi(`2<100a_{100}<\dfrac{5}{2}`)], [#mi(`\dfrac{5}{2}<100a_{100}<3`)], [#mi(`3<100a_{100}<\dfrac{7}{2}`)], [#mi(`\dfrac{7}{2}<100a_{100}<4`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-由 $0<a_n <= 1$ 得 $a_(n+1)=a_n(1-(a_n)/(3)) in (0,a_n)$，故 $\{a_n\}$ 为正的递减数列. 于是 $(1)/(a_(n+1))-(1)/(a_n)=(1)/(3-a_n)$. 用归纳法可得 $a_n <= (3)/(n+2)$：$n=1$ 时取等号；若结论对 $n$ 成立，因 $g(t)=t-(t^2)/(3)$ 在 $(0,(3)/(2))$ 上递增，故 $a_(n+1)=g(a_n) <= g((3)/(n+2))=(3)/(n+2)-(3)/((n+2)^2) <= (3)/(n+3)$，其中最后一步等价于 $(n+1)(n+3) <= (n+2)^2$. 由此 $(1)/(a_(100))=1+sum_(n=1)^(99)(1)/(3-a_n)>1+99 dot (1)/(3)=34$，故 $100 a_(100)<(100)/(34)<3$. 另一方面 $(1)/(3-a_n) <= (1)/(3-(3)/((n+2)))=(1)/(3)(1+(1)/(n+1))$，求和得 $(1)/(a_(100)) <= 1 +(1)/(3)(98+H_(100))$，其中 $H_(100)=1+(1)/(2)+ dots.c +(1)/(100)<1+ ln 100 <1+18=19$. 故 $(1)/(a_(100))<1+(117)/(3)=40$，即 $100 a_(100)>(5)/(2)$. 综上 $(5)/(2)<100 a_(100)<3$，故选 B.
+由 #mi(`0<a_{n}\le1`) 得 #mi(`a_{n+1}=a_{n}\left(1-\frac{a_{n}}{3}\right)\in(0,a_{n})`)，故 #mi(`\{a_{n}\}`) 为正的递减数列. 于是 #mi(`\frac{1}{a_{n+1}}-\frac{1}{a_{n}}=\frac{1}{3-a_{n}}`). 用归纳法可得 #mi(`a_{n}\le\frac{3}{n+2}`)：#mi(`n=1`) 时取等号；若结论对 #mi(`n`) 成立，因 #mi(`g(t)=t-\frac{t^{2}}{3}`) 在 #mi(`(0,\frac{3}{2})`) 上递增，故 #mi(`a_{n+1}=g(a_{n})\le g\left(\frac{3}{n+2}\right)=\frac{3}{n+2}-\frac{3}{(n+2)^{2}}\le\frac{3}{n+3}`)，其中最后一步等价于 #mi(`(n+1)(n+3)\le(n+2)^{2}`). 由此 #mi(`\frac{1}{a_{100}}=1+\sum_{n=1}^{99}\frac{1}{3-a_{n}}>1+99\cdot\frac{1}{3}=34`)，故 #mi(`100a_{100}<\frac{100}{34}<3`). 另一方面 #mi(`\frac{1}{3-a_{n}}\le\frac{1}{3-\frac{3}{(n+2)}}=\frac{1}{3}\left(1+\frac{1}{n+1}\right)`)，求和得 #mi(`\frac{1}{a_{100}}\le1+\frac{1}{3}(98+H_{100})`)，其中 #mi(`H_{100}=1+\frac{1}{2}+\cdots+\frac{1}{100}<1+\ln100<1+18=19`). 故 #mi(`\frac{1}{a_{100}}<1+\frac{117}{3}=40`)，即 #mi(`100a_{100}>\frac{5}{2}`). 综上 #mi(`\frac{5}{2}<100a_{100}<3`)，故选 B.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-我国南宋著名数学家秦九韶，发现了从三角形三边求面积的公式，他把这种方法称为“三斜求积”，它填补了我国传统数学的一个空白. 如果把这个方法写成公式，就是 $S=sqrt((1)/(4)[c^(2) a^2-((c^2+a^2-b^2)/(2))^2])$，其中 $a$，$b$，$c$ 是三角形的三边，$S$ 是三角形的面积. 设某三角形的三边 $a=sqrt(2)$，$b=sqrt(3)$，$c=2$，则该三角形的面积 $S=$#blank(){}.
+我国南宋著名数学家秦九韶，发现了从三角形三边求面积的公式，他把这种方法称为“三斜求积”，它填补了我国传统数学的一个空白. 如果把这个方法写成公式，就是 #mi(`S=\sqrt{\frac{1}{4}\left[c^{2}a^{2}-\left(\frac{c^2+a^2-b^2}{2}\right)^{2}\right]}`)，其中 #mi(`a`)，#mi(`b`)，#mi(`c`) 是三角形的三边，#mi(`S`) 是三角形的面积. 设某三角形的三边 #mi(`a=\sqrt{2}`)，#mi(`b=\sqrt{3}`)，#mi(`c=2`)，则该三角形的面积 #mi(`S=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(sqrt(23))/(4)$])
+#answer([#mi(`\dfrac{\sqrt{23}}{4}`)])
 
 #solution[
-$c^(2) a^2=4 dot 2 =8$，$(c^2+a^2-b^2)/(2)=(4+2-3)/(2)=(3)/(2)$，故 $S=sqrt((1)/(4)(8-(9)/(4)))=\f r a c{sqrt(23)}4$.
+#mi(`c^{2}a^{2}=4\cdot2=8`)，#mi(`\frac{c^{2}+a^{2}-b^{2}}{2}=\frac{4+2-3}{2}=\frac{3}{2}`)，故 #mi(`S=\sqrt{\frac{1}{4}\left(8-\frac{9}{4}\right)}=\frac{\sqrt{23}}{4}`).
 ]
 
 #problem(12)[
-已知多项式 $(x+2)(x-1)^4=a_0+a_(1) x+a_(2) x^2+a_(3) x^3+a_(4) x^4+a_(5) x^5$，则 $a_2=$#blank(){}，$a_1+a_2+a_3+a_4+a_5=$#blank(){}.
+已知多项式 #mi(`(x+2)(x-1)^{4}=a_{0}+a_{1}x+a_{2}x^{2}+a_{3}x^{3}+a_{4}x^{4}+a_{5}x^{5}`)，则 #mi(`a_{2}=`)\underline{\hspace{2.5em}}，#mi(`a_{1}+a_{2}+a_{3}+a_{4}+a_{5}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$8\)，\(-2$])
+#answer([#mi(`8`)，#mi(`-2`)])
 
 #solution[
-$(x-1)^4=x^4-4 x^3+6 x^2-4 x+1$，乘以 $x+2$ 后 $x^2$ 的系数为 $1 dot (-4)+2 dot 6 =8$. 记 $P(x)=(x+2)(x-1)^4$，则 $a_1+ dots.c +a_5=P(1)-a_0=0-2=-2$.
+#mi(`(x-1)^{4}=x^{4}-4x^{3}+6x^{2}-4x+1`)，乘以 #mi(`x+2`) 后 #mi(`x^{2}`) 的系数为 #mi(`1\cdot(-4)+2\cdot6=8`). 记 #mi(`P(x)=(x+2)(x-1)^{4}`)，则 #mi(`a_{1}+\cdots+a_{5}=P(1)-a_{0}=0-2=-2`).
 ]
 
 #problem(13)[
-若 $3 sin alpha - sin beta =sqrt(10)$，$alpha + beta =(pi)/(2)$，则 $sin alpha =$#blank(){}，$cos 2 beta =$#blank(){}.
+若 #mi(`3\sin\alpha-\sin\beta=\sqrt{10}`)，#mi(`\alpha+\beta=\frac{\pi}{2}`)，则 #mi(`\sin\alpha=`)\underline{\hspace{2.5em}}，#mi(`\cos 2\beta=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3 sqrt(10))/(10)\)，\((4)/(5)$])
+#answer([#mi(`\dfrac{3\sqrt{10}}{10}`)，#mi(`\dfrac{4}{5}`)])
 
 #solution[
-由 $beta =(pi)/(2)- alpha$ 得 $sin beta = cos alpha$，故 $3 sin alpha - cos alpha =sqrt(10)$. 两边平方并与 $sin ""^2 alpha + cos ""^2 alpha =1$ 联立，整理得 $( sin alpha +3 cos alpha )^2=0$，故 $sin alpha =-3 cos alpha$. 代入得 $-10 cos alpha =sqrt(10)$，即 $cos alpha =-(sqrt(10))/(10)$，$sin alpha =(3 sqrt(10))/(10)$. 又 $cos 2 beta = cos ( pi -2 alpha )=- cos 2 alpha =1-2 cos ""^2 alpha =(4)/(5)$.
+由 #mi(`\beta=\frac{\pi}{2}-\alpha`) 得 #mi(`\sin\beta=\cos\alpha`)，故 #mi(`3\sin\alpha-\cos\alpha=\sqrt{10}`). 两边平方并与 #mi(`\sin^{2}\alpha+\cos^{2}\alpha=1`) 联立，整理得 #mi(`(\sin\alpha+3\cos\alpha)^{2}=0`)，故 #mi(`\sin\alpha=-3\cos\alpha`). 代入得 #mi(`-10\cos\alpha=\sqrt{10}`)，即 #mi(`\cos\alpha=-\frac{\sqrt{10}}{10}`)，#mi(`\sin\alpha=\frac{3\sqrt{10}}{10}`). 又 #mi(`\cos2\beta=\cos(\pi-2\alpha)=-\cos2\alpha=1-2\cos^{2}\alpha=\frac{4}{5}`).
 ]
 
 #problem(14)[
 已知函数
-$f(x)=\b e g i n{c a s e s} -x^2+2,&x <= 1 ,\\ x+(1)/(x)-1,&x>1, \e n d{c a s e s}$，
-则 $f(f((1)/(2)))=$#blank(){}；若当 $x in [a,b]$ 时，$1 <= f(x) <= 3$，则 $b-a$ 的最大值是#blank(){}.
+
+#mi(`f(x)=\begin{cases}-x^{2}+2,&x\le 1,\\  x+\dfrac{1}{x}-1,&x>1,\end{cases}`)，
+
+则 #mi(`f\left(f\left(\frac{1}{2}\right)\right)=`)\underline{\hspace{2.5em}}；若当 #mi(`x\in[a,b]`) 时，#mi(`1\le f(x)\le 3`)，则 #mi(`b-a`) 的最大值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(37)/(28)\)，\(3+sqrt(3)$])
+#answer([#mi(`\dfrac{37}{28}`)，#mi(`3+\sqrt{3}`)])
 
 #solution[
-$f((1)/(2))=-(1)/(4)+2=(7)/(4)>1$，故 $f(f((1)/(2)))=(7)/(4)+(4)/(7)-1=(37)/(28)$. 当 $x <= 1$ 时 $f(x)=-x^2+2$，$1 <= f(x)$ 得 $x^2 <= 1$，即 $-1 <= x <= 1$；当 $x>1$ 时 $f(x)=x+(1)/(x)-1$ 单调递增，$f(1)=1$，由 $f(x)=3$ 得 $x=2+sqrt(3)$（舍去小于 $1$ 的根 $2-sqrt(3)$），故 $1 <= f(x) <= 3$ 得 $1<x <= 2 +sqrt(3)$. 合在一起，满足 $1 <= f(x) <= 3$ 的最大区间为 $[-1,2+sqrt(3)]$，$b-a$ 的最大值为 $3+sqrt(3)$.
+#mi(`f\left(\frac{1}{2}\right)=-\frac{1}{4}+2=\frac{7}{4}>1`)，故 #mi(`f\left(f\left(\frac{1}{2}\right)\right)=\frac{7}{4}+\frac{4}{7}-1=\frac{37}{28}`). 当 #mi(`x\le1`) 时 #mi(`f(x)=-x^{2}+2`)，#mi(`1\le f(x)`) 得 #mi(`x^{2}\le1`)，即 #mi(`-1\le x\le1`)；当 #mi(`x>1`) 时 #mi(`f(x)=x+\frac{1}{x}-1`) 单调递增，#mi(`f(1)=1`)，由 #mi(`f(x)=3`) 得 #mi(`x=2+\sqrt{3}`)（舍去小于 #mi(`1`) 的根 #mi(`2-\sqrt{3}`)），故 #mi(`1\le f(x)\le3`) 得 #mi(`1<x\le2+\sqrt{3}`). 合在一起，满足 #mi(`1\le f(x)\le3`) 的最大区间为 #mi(`[-1,2+\sqrt{3}]`)，#mi(`b-a`) 的最大值为 #mi(`3+\sqrt{3}`).
 ]
 
 #problem(15)[
-现有 7 张卡片，分别写上数字 $1$，$2$，$2$，$3$，$4$，$5$，$6$. 从这 7 张卡片中随机抽取 3 张，记所抽取卡片上数字的最小值为 $xi$，则 $P( xi =2)=$#blank(){}，$E( xi )=$#blank(){}.
+现有 7 张卡片，分别写上数字 #mi(`1`)，#mi(`2`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`)，#mi(`6`). 从这 7 张卡片中随机抽取 3 张，记所抽取卡片上数字的最小值为 #mi(`\xi`)，则 #mi(`P(\xi=2)=`)\underline{\hspace{2.5em}}，#mi(`E(\xi)=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(16)/(35)\)，\((12)/(7)$])
+#answer([#mi(`\dfrac{16}{35}`)，#mi(`\dfrac{12}{7}`)])
 
 #solution[
-随机抽取共有 $C_7^3=35$ 种等可能结果. $xi =1$ 当且仅当抽到卡片 $1$，有 $C_6^2=15$ 种；$xi =2$ 当且仅当未抽到 $1$ 但抽到 $2$，有 $C_6^3-C_4^3=16$ 种，故 $P( xi =2)=(16)/(35)$. 又 $xi =3$ 有 $C_3^2=3$ 种，$xi =4$ 有 $1$ 种，故 $E( xi )=(15 dot 1 +16 dot 2 +3 dot 3 +1 dot 4)/(35)=(12)/(7)$.
+随机抽取共有 #mi(`\mathrm{C}_{7}^{3}=35`) 种等可能结果. #mi(`\xi=1`) 当且仅当抽到卡片 #mi(`1`)，有 #mi(`\mathrm{C}_{6}^{2}=15`) 种；#mi(`\xi=2`) 当且仅当未抽到 #mi(`1`) 但抽到 #mi(`2`)，有 #mi(`\mathrm{C}_{6}^{3}-\mathrm{C}_{4}^{3}=16`) 种，故 #mi(`P(\xi=2)=\frac{16}{35}`). 又 #mi(`\xi=3`) 有 #mi(`\mathrm{C}_{3}^{2}=3`) 种，#mi(`\xi=4`) 有 #mi(`1`) 种，故 #mi(`E(\xi)=\frac{15\cdot1+16\cdot2+3\cdot3+1\cdot4}{35}=\frac{12}{7}`).
 ]
 
 #problem(16)[
-已知双曲线 $(x^2)/(a^2)-(y^2)/(b^2)=1$（$a>0$，$b>0$）的左焦点为 $F$，过 $F$ 且斜率为 $(b)/(4 a)$ 的直线交双曲线于点 $A(x_1,y_1)$，交双曲线的渐近线于点 $B(x_2,y_2)$，且 $x_1<0<x_2$. 若 $|F B|=3|F A|$，则双曲线的离心率是#blank(){}.
+已知双曲线 #mi(`\frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1`)（#mi(`a>0`)，#mi(`b>0`)）的左焦点为 #mi(`F`)，过 #mi(`F`) 且斜率为 #mi(`\frac{b}{4a}`) 的直线交双曲线于点 #mi(`A(x_{1},y_{1})`)，交双曲线的渐近线于点 #mi(`B(x_{2},y_{2})`)，且 #mi(`x_{1}<0<x_{2}`). 若 #mi(`|FB|=3|FA|`)，则双曲线的离心率是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3 sqrt(6))/(4)$])
+#answer([#mi(`\dfrac{3\sqrt{6}}{4}`)])
 
 #solution[
-设 $F=(-c,0)$，直线为 $y=(b)/(4 a)(x+c)$. 与渐近线 $y=(b)/(a)x$ 联立得 $x_2=(c)/(3)$，$y_2=(b c)/(3 a)$. 由 $|F B|=3|F A|$，$A$ 为 $F+ lambda (B-F)$ 且 $| lambda |=(1)/(3)$. 若 $lambda =-(1)/(3)$，则 $x_1=-(13 c)/(9)$，$y_1=-(b c)/(9 a)$，代入双曲线得 $e^2=(27)/(56)<1$，不可能. 故 $lambda =(1)/(3)$，即 $x_1=-(5 c)/(9)$，$y_1=(b c)/(9 a)$. 代入双曲线方程得 $(25 c^2)/(81 a^2)-(c^2)/(81 a^2)=1$，即 $e^2=(27)/(8)$，故离心率为 $(3 sqrt(6))/(4)$.
+设 #mi(`F=(-c,0)`)，直线为 #mi(`y=\frac{b}{4a}(x+c)`). 与渐近线 #mi(`y=\frac{b}{a}x`) 联立得 #mi(`x_{2}=\frac{c}{3}`)，#mi(`y_{2}=\frac{bc}{3a}`). 由 #mi(`|FB|=3|FA|`)，#mi(`A`) 为 #mi(`F+ \lambda(B-F)`) 且 #mi(`|\lambda|=\frac{1}{3}`). 若 #mi(`\lambda=-\frac{1}{3}`)，则 #mi(`x_{1}=-\frac{13c}{9}`)，#mi(`y_{1}=-\frac{bc}{9a}`)，代入双曲线得 #mi(`e^{2}=\frac{27}{56}<1`)，不可能. 故 #mi(`\lambda=\frac{1}{3}`)，即 #mi(`x_{1}=-\frac{5c}{9}`)，#mi(`y_{1}=\frac{bc}{9a}`). 代入双曲线方程得 #mi(`\frac{25c^{2}}{81a^{2}}-\frac{c^{2}}{81a^{2}}=1`)，即 #mi(`e^{2}=\frac{27}{8}`)，故离心率为 #mi(`\frac{3\sqrt{6}}{4}`).
 ]
 
 #problem(17)[
-设点 $P$ 在单位圆的内接正八边形 $A_(1) A_2 dots.c A_8$ 的边 $A_(1) A_2$ 上，则 $arrow(P A_1)^( 2)+arrow(P A_2)^( 2)+ dots.c +arrow(P A_8)^( 2)$ 的取值范围是#blank(){}.
+设点 #mi(`P`) 在单位圆的内接正八边形 #mi(`A_{1}A_{2}\cdots A_{8}`) 的边 #mi(`A_{1}A_{2}`) 上，则 #mi(`\overrightarrow{PA_1}^{\,2}+\overrightarrow{PA_2}^{\,2}+\cdots+\overrightarrow{PA_8}^{\,2}`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[12+2 sqrt(2),16]$])
+#answer([#mi(`[12+2\sqrt{2},16]`)])
 
 #solution[
-$sum_(k=1)^8 arrow(P A_k)^2=sum_(k=1)^8(|P|^2+1-2 P dot A_k)=8|P|^2+8-2 P\c d o t s u m_(k=1)^(8) A_k=8|P|^2+8$，其中用到正八边形顶点关于原点对称，和向量为零. $P$ 在边 $A_(1) A_2$ 上，$|P|$ 在边中点处最小，为 $cos (pi)/(8)$，在端点处最大，为 $1$. 故取值范围为 $[8 cos ""^2(pi)/(8)+8,16]=[12+2 sqrt(2),16]$.
+#mi(`\sum_{k=1}^{8}\overrightarrow{PA_k}^{2}=\sum_{k=1}^{8}(|P|^{2}+1-2P\cdot A_{k})=8|P|^{2}+8-2P\cdot\sum_{k=1}^{8}A_{k}=8|P|^{2}+8`)，其中用到正八边形顶点关于原点对称，和向量为零. #mi(`P`) 在边 #mi(`A_{1}A_{2}`) 上，#mi(`|P|`) 在边中点处最小，为 #mi(`\cos\frac{\pi}{8}`)，在端点处最大，为 #mi(`1`). 故取值范围为 #mi(`[8\cos^{2}\frac{\pi}{8}+8,16]=[12+2\sqrt{2},16]`).
 ]
 
 #part-header("解答题")
 
 #problem(18)[
-在 $triangle A B C$ 中，角 $A$，$B$，$C$ 所对边分别为 $a$，$b$，$c$. 已知 $4 a=sqrt(5)c$，$cos C=(3)/(5)$.
+在 #mi(`\triangle ABC`) 中，角 #mi(`A`)，#mi(`B`)，#mi(`C`) 所对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`). 已知 #mi(`4a=\sqrt{5}\,c`)，#mi(`\cos C=\frac{3}{5}`).
 
 
-+ (1) 求 $sin A$ 的值；
-+ (2) 若 $b=11$，求 $triangle A B C$ 的面积.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $cos C=(3)/(5)$ 得 $sin C=(4)/(5)$. 由正弦定理及 $4 a=sqrt(5)c$ 得 $sin A=(a)/(c) sin C=(sqrt(5))/(4) dot (4)/(5)=(sqrt(5))/(5)$.
-+ (2) $a<c$，故 $A$ 为锐角，$cos A=(2 sqrt(5))/(5)$. 于是 $sin B= sin (A+C)= sin A cos C+ cos A sin C=(sqrt(5))/(5) dot (3)/(5)+(2 sqrt(5))/(5) dot (4)/(5)=(11 sqrt(5))/(25)$. 由 $b=11$ 及正弦定理得 $c=(b sin C)/(sin B)=4 sqrt(5)$，故面积为 $(1)/(2)b c sin A=(1)/(2) dot 11 dot 4 sqrt(5) dot (sqrt(5))/(5)=22$.
++ (1)
 ]
 
 #problem(19)[
-如图，已知 $A B C D$ 和 $C D E F$ 都是直角梯形，$A B parallel D C$，$D C parallel E F$，$A B=5$，$D C=3$，$E F=1$，$angle B A D= angle C D E=60^ degree$，二面角 $F-D C-B$ 的平面角为 $60^ degree$. 设 $M$，$N$ 分别为 $A E$，$B C$ 的中点.
+如图，已知 #mi(`ABCD`) 和 #mi(`CDEF`) 都是直角梯形，#mi(`AB\parallel DC`)，#mi(`DC\parallel EF`)，#mi(`AB=5`)，#mi(`DC=3`)，#mi(`EF=1`)，#mi(`\angle BAD=\angle CDE=60^{\circ}`)，二面角 #mi(`F-DC-B`) 的平面角为 #mi(`60^{\circ}`). 设 #mi(`M`)，#mi(`N`) 分别为 #mi(`AE`)，#mi(`BC`) 的中点.
 
 
-+ (1) 证明：$F N bot A D$；
-+ (2) 求直线 $B M$ 与平面 $A D E$ 所成角的正弦值.
++ (1) 
+
 
 
 
 #align(center)[#image("/papers/2022/img/zhejiang/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 取 $D=(0,0,0)$，$C=(3,0,0)$，梯形 $A B C D$ 在 $z=0$ 平面内. 由 $A B parallel D C$，$A B=5$，$angle B A D=60^ degree$ 及直角梯形得 $A=(-2,2 sqrt(3),0)$，$B=(3,2 sqrt(3),0)$. 平面 $C D E F$ 过直线 $D C$，设 $E=(2,p,q)$，则 $F=E+(1,0,0)=(3,p,q)$. 由 $angle C D E=60^ degree$ 得 $|D E|=4$，故 $p^2+q^2=12$；由二面角 $F-D C-B$ 的平面角为 $60^ degree$ 得 $|p|=sqrt(3)$. 按题图取 $E$ 与 $B$ 在直线 $D C$ 同侧，得 $p=sqrt(3)$，$q=3$，即 $E=(2,sqrt(3),3)$，$F=(3,sqrt(3),3)$. $N$ 为 $B C$ 的中点，即 $N=(3,sqrt(3),0)$，故 $arrow(F N)=(0,0,-3)$. 又 $arrow(A D)=(2,-2 sqrt(3),0)$，点积为 $0$，所以 $F N bot A D$.
-+ (2) $M$ 为 $A E$ 的中点，即 $M=(0,(3 sqrt(3))/(2),(3)/(2))$，故 $arrow(B M)=(-3,-(sqrt(3))/(2),(3)/(2))$. 平面 $A D E$ 的两个方向向量为 $arrow(A D)=(2,-2 sqrt(3),0)$，$arrow(A E)=(4,-sqrt(3),3)$，可取法向量 $bold(n)=(-6 sqrt(3),-6,6 sqrt(3))$. 直线 $B M$ 与平面 $A D E$ 所成角记为 $theta$，则 $sin theta =(|arrow(B M){ dot }bold(n)|)/(|arrow(B M)| dot |bold(n)|)=(30 sqrt(3))/(2 sqrt(3) dot 6 sqrt(7))=(5 sqrt(7))/(14)$.
++ (1)
 ]
 
 #problem(20)[
-已知等差数列 $\{a_n\}$ 的首项 $a_1=-1$，公差 $d>1$. 记 $\{a_n\}$ 的前 $n$ 项和为 $S_n$（$n in NN ""^*$）.
+已知等差数列 #mi(`\{a_{n}\}`) 的首项 #mi(`a_{1}=-1`)，公差 #mi(`d>1`). 记 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)（#mi(`n\in\mathbb{N}^{*}`)）.
 
 
-+ (1) 若 $S_4-2 a_(2) a_3+6=0$，求 $S_n$；
-+ (2) 若对于每个 $n in NN ""^*$，存在实数 $c_n$，使 $a_n+c_n$，$a_(n+1)+4 c_n$，$a_(n+2)+15 c_n$ 成等比数列，求 $d$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) $S_4=4 a_1+6 d=-4+6 d$，$a_2=-1+d$，$a_3=-1+2 d$. 代入 $S_4-2 a_(2) a_3+6=0$ 得 $2+6 d-2(1-3 d+2 d^2)=12 d-4 d^2=0$，结合 $d>1$ 得 $d=3$. 故 $S_n=-n+(3 n(n-1))/(2)=(3 n^2-5 n)/(2)$（$n in NN ""^*$）.
-+ (2) 记 $A=a_n$，$a_n+c_n$，$a_(n+1)+4 c_n$，$a_(n+2)+15 c_n$ 成等比数列即 $(A+d+4 c_n)^2=(A+c_n)(A+2 d+15 c_n)$，展开得 $c_n^2+(6 d-8 A)c_n+d^2=0$. 关于 $c_n$ 有实数解当且仅当判别式 $(6 d-8 A)^2-4 d^2 >= 0$，即 $A <= (d)/(2)$ 或 $A >= d$. 对每个 $n$，$a_n=-1+(n-1)d$ 须满足其一. $n=1$ 时 $-1<(d)/(2)$ 恒成立；$n=2$ 时 $d-1 >= d$ 不可能，故须 $d-1 <= (d)/(2)$，即 $d <= 2$；$n >= 3$ 时 $a_n >= -1+2 d >= d$（因 $d>1$）成立. 故 $d$ 的取值范围为 $1<d <= 2$.
++ (1)
 ]
 
 #problem(21)[
-如图，已知椭圆 $(x^2)/(12)+y^2=1$. 设 $A$，$B$ 是椭圆上异于 $P(0,1)$ 的两点，且点 $Q(0,(1)/(2))$ 在线段 $A B$ 上，直线 $P A$，$P B$ 分别交直线 $y=-(1)/(2)x+3$ 于 $C$，$D$ 两点.
+如图，已知椭圆 #mi(`\frac{x^{2}}{12}+y^{2}=1`). 设 #mi(`A`)，#mi(`B`) 是椭圆上异于 #mi(`P(0,1)`) 的两点，且点 #mi(`Q\left(0,\frac{1}{2}\right)`) 在线段 #mi(`AB`) 上，直线 #mi(`PA`)，#mi(`PB`) 分别交直线 #mi(`y=-\frac{1}{2}x+3`) 于 #mi(`C`)，#mi(`D`) 两点.
 
 
-+ (1) 求点 $P$ 到椭圆上点的距离的最大值；
-+ (2) 求 $|C D|$ 的最小值.
++ (1) 
+
 
 
 
 #align(center)[#image("/papers/2022/img/zhejiang/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设椭圆上一点为 $(x,y)$，它到 $P(0,1)$ 的距离平方为 $x^2+(y-1)^2=12(1-y^2)+(y-1)^2=-11 y^2-2 y+13=-11(y+(1)/(11))^2+(144)/(11) <= (144)/(11)$，故最大值为 $(12)/(sqrt(11))=(12 sqrt(11))/(11)$.
-+ (2) 过 $Q$ 的竖直线 $x=0$ 只交椭圆于 $P$ 与 $(0,-1)$，$A$，$B$ 异于 $P$，故只需考虑斜率为 $k$ 的直线 $y=k x+(1)/(2)$. 代入椭圆得 $(1+12 k^2)x^2+12 k x-9=0$，记两根为 $x_1$，$x_2$，则 $x_1+x_2=-(12 k)/(1+12 k^2)$，$x_(1) x_2=-(9)/(1+12 k^2)$. 直线 $P A$ 为 $y=1+(y_1-1)/(x_1)x$，与 $L$ 的交点 $C$ 满足 $1+(y_1-1)/(x_1)x_C=-(1)/(2)x_C+3$，用 $y_1=k x_1+(1)/(2)$ 化简得 $x_C=(4 x_1)/(2 t x_1-1)$，其中 $t=k+(1)/(2)$；同理 $x_D=(4 x_2)/(2 t x_2-1)$. 于是 $x_C-x_D=(4(x_2-x_1))/((2 t x_1-1)(2 t x_2-1))$，分母等于 $4 t^(2) x_(1) x_2-2 t(x_1+x_2)+1=(-8(3 k+1))/(1+12 k^2)$，故 $|x_C-x_D|=(3 sqrt(16 k^2+1))/(|3 k+1|)$. $C$，$D$ 在斜率为 $-(1)/(2)$ 的直线 $L$ 上，故 $|C D|=(sqrt(5))/(2)|x_C-x_D|=(3 sqrt(5))/(2) dot (sqrt(16 k^2+1))/(|3 k+1|)$. 记 $u(k)=(16 k^2+1)/((3 k+1)^2)$（$3 k+1=0$ 时 $|C D|$ 无界，不取最小值），$u'(k)=(32 k-6)/((3 k+1)^3)$，最小值在 $k=(3)/(16)$ 处取得，为 $(16)/(25)$. 故 $|C D|$ 的最小值为 $(3 sqrt(5))/(2) dot (4)/(5)=(6 sqrt(5))/(5)$.
++ (1)
 ]
 
 #problem(22)[
-设函数 $f(x)=(e)/(2 x)+ ln x$（$x>0$）.
+设函数 #mi(`f(x)=\frac{\mathrm{e}}{2x}+\ln x`)（#mi(`x>0`)）.
 
 
-+ (1) 求 $f(x)$ 的单调区间；
-+ (2) 已知 $a$，$b in RR$，曲线 $y=f(x)$ 上不同的三点 $(x_1,f(x_1))$，$(x_2,f(x_2))$，$(x_3,f(x_3))$ 处的切线都经过点 $(a,b)$. 证明：
++ (1) 
 
-\begin{enumerate}
-+ (3) 若 $a> e$，则 $0<b-f(a)<(1)/(2)((a)/(e)-1)$；
-+ (4) 若 $0<a< e$，$x_1<x_2<x_3$，则 $(2)/(e)+(e -a)/(6 e ""^2)<(1)/(x_1)+(1)/(x_3)<(2)/(a)-(e -a)/(6 e ""^2)$.
 
-\end{enumerate}
 
-（注：$e =2.71828 dots.c$ 是自然对数的底数）
+（注：#mi(`\mathrm{e}=2.71828\cdots`) 是自然对数的底数）
 ]
 
 #solution[
-+ (1) $f'(x)=-(e)/(2 x^2)+(1)/(x)=(2 x- e)/(2 x^2)$，故 $f(x)$ 在 $(0,(e)/(2))$ 上单调递减，在 $((e)/(2),+ oo )$ 上单调递增.
-+ (2) \begin{enumerate}
-+ (3) 设切点为 $(x_0,f(x_0))$，切线过 $(a,b)$ 即 $b=G(x_0)$，其中 $G(x)=f(x)+f'(x)(a-x)$. $G'(x)=f''(x)(a-x)$，$f''(x)=(e -x)/(x^3)$. 当 $a> e$ 时，$G$ 在 $(0, e )$ 上递增，在 $( e ,a)$ 上递减，在 $(a,+ oo )$ 上递增；$lim_(x -> 0 ""^+)G(x)=- oo$，$lim_(x -> + oo )G(x)=+ oo$，$G(a)=f(a)$. 三条不同切线当且仅当 $f(a)<b<G( e )$. 于是 $0<b-f(a)<G( e )-f(a)$. 又 $G( e )=f( e )+f'( e )(a- e )=(3)/(2)+(a- e)/(2 e)$，故 $G( e )-f(a)=(1)/(2)((a)/(e)-1)+(3)/(2)-(e)/(2 a)- ln a$. 记 $u(a)= ln a+(e)/(2 a)$，则 $u'(a)=(2 a- e)/(2 a^2)>0$（$a> e$），$u( e )=(3)/(2)$，故 $u(a)>(3)/(2)$，即 $G( e )-f(a)<(1)/(2)((a)/(e)-1)$. 得证.
-+ (4) 由 $G'(x)=((x-a)(x- e ))/(x^3)$ 及 $0<a< e$ 可知，方程 $G(x)=b$ 有三个不同正根时 $x_1<a<x_2< e <x_3$. 令 $t_i=(1)/(x_i)$（$i=1$，$2$，$3$），则
-
-$ t_3<(1)/(e)<t_2<(1)/(a)<t_1. $
-
-把 $x=(1)/(t)$ 代入 $G(x)=b$，得 $t_1$，$t_3$ 是方程
-
-$ -(a e)/(2)t^2+(a+ e )t- ln t-1-b=0 $
-
-的两个根. 两式相减并除以 $t_1-t_3$，得
-
-$ t_1+t_3=(2)/(a)+(2)/(e)-(2)/(a e) dot (ln t_1- ln t_3)/(t_1-t_3). $
-
-记 $alpha =(2)/(e)+(e -a)/(6 e ""^2)$，$beta =(2)/(a)-(e -a)/(6 e ""^2)$. 要证 $alpha <t_1+t_3< beta$，只需证 $(t_1+t_3- alpha )(t_1+t_3- beta )<0$. 代入上式并整理，等价于
-
-$ (2)/(a e) dot (ln t_1- ln t_3)/(t_1-t_3)(t_1+t_3)> alpha beta . $
-
-设 $u=(t_1)/(t_3)$，由 $t_1>(1)/(a)$、$t_3<(1)/(e)$ 得 $u>(e)/(a)>1$，上式化为
-
-$ ln u dot (u+1)/(u-1)>(a e)/(2) alpha beta . $
-
-记 $G_1(u)=2 ln u dot (u+1)/(u-1)$，则
-
-$ G_1'(u)=(2)/((u-1)^2)(u-(1)/(u)-2 ln u)>0 (u>1), $
-
-故 $G_1(u)$ 在 $(1,+ oo )$ 上单调递增. 记 $w=(e)/(a)>1$，则 $u>w$，从而 $G_1(u)>G_1(w)$. 又
-
-$ (a e)/(2) alpha beta =((13 w-1)(12 w^2-w+1))/(72 w^3), $
-
-故只需证
-
-$ 2 ln w dot (w+1)/(w-1)>((13 w-1)(12 w^2-w+1))/(36 w^3). $
-
-令
-
-$ H(w)=2 ln w-((13 w-1)(12 w^2-w+1)(w-1))/(36 w^3(w+1)), $
-
-则 $H(1)=0$，且
-
-$ H'(w)=((w-1)^2(72 w^3-49 w^2-20 w+3))/(36 w^4(w+1)^2)>0 (w>1), $
-
-因为 $72 w^3-49 w^2-20 w+3=49 w^2(w-1)+20 w(w^2-1)+3(w^3+1)>0$. 故 $H(w)$ 在 $(1,+ oo )$ 上单调递增，$H(w)>H(1)=0$，从而所证不等式成立.
-
-\end{enumerate}
++ (1)
 ]
 

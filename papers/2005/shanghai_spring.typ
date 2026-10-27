@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,412 +11,441 @@
 #part-header("填空题")
 
 #problem(1)[
-方程 $\l g x^(2)-\l g(x+2)=0$ 的解集是#blank(){}.
+方程 #mi(`\lg x^{2}-\lg(x+2)=0`) 的解集是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$\{-1,2\}$])
+#answer([#mi(`\{-1,2\}`)])
 
 #solution[
-由对数的定义域，得 $x^(2)>0$ 且 $x+2>0$，所以 $x>-2$ 且 $x\n e q0$. 原方程等价于 $\l g(x^(2))/(x+2)=0$，从而 $(x^(2))/(x+2)=1$，即 $x^(2)-x-2=0$. 因此 $x=2$ 或 $x=-1$，两根都满足定义域条件，故解集为 $\{-1,2\}$.
+由对数的定义域，得 #mi(`x^{2}>0`) 且 #mi(`x+2>0`)，所以 #mi(`x>-2`) 且 #mi(`x\neq0`). 原方程等价于 #mi(`\lg\dfrac{x^{2}}{x+2}=0`)，从而 #mi(`\dfrac{x^{2}}{x+2}=1`)，即 #mi(`x^{2}-x-2=0`). 因此 #mi(`x=2`) 或 #mi(`x=-1`)，两根都满足定义域条件，故解集为 #mi(`\{-1,2\}`).
 ]
 
 #problem(2)[
-$lim_(n -> oo )(n + 2)/(1 + 2 + dots.c + n)=$#blank(){}.
+#mi(`\displaystyle\lim_{n\to \infty}\frac{n + 2}{1 + 2 + \cdots + n}=`)\underline{\hspace{2.5em}}.
 ]
 
 #answer([0])
 
 #solution[
-因为 $1+2+ dots.c +n=(n(n+1))/(2)$，所以
-$(n+2)/(1+2+ dots.c +n)=(2(n+2))/(n(n+1))=(2(1+(2)/(n)))/(n+1)$.
-当 $n -> oo$ 时，分子趋于 $2$，分母趋于 $+ oo$，故极限为 $0$.
+因为 #mi(`1+2+\cdots+n=\dfrac{n(n+1)}{2}`)，所以
+
+#mi(`\displaystyle\frac{n+2}{1+2+\cdots+n}=\frac{2(n+2)}{n(n+1)}=\frac{2(1+\frac{2}{n})}{n+1}`).
+
+当 #mi(`n\to\infty`) 时，分子趋于 #mi(`2`)，分母趋于 #mi(`+\infty`)，故极限为 #mi(`0`).
 ]
 
 #problem(3)[
-若 $cos alpha = (3)/(5)$，且 $alpha in (0, (pi)/(2))$，则 $tan (alpha)/(2)=$#blank(){}.
+若 #mi(`\cos \alpha = \frac{3}{5}`)，且 #mi(`\alpha \in \left(0, \frac{\pi}{2}\right)`)，则 #mi(`\tan \frac{\alpha}{2}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(2)$])
+#answer([#mi(`\dfrac{1}{2}`)])
 
 #solution[
-由于 $alpha in (0,(pi)/(2))$，$sin alpha >0$，所以
-$sin alpha =sqrt(1- cos ""^(2) alpha)=(4)/(5)$. 又由半角公式，
-$tan (alpha)/(2)=(sin alpha)/(1+ cos alpha)=((4)/(5))/(1+(3)/(5))=(1)/(2)$.
+由于 #mi(`\alpha\in\left(0,\dfrac{\pi}{2}\right)`)，#mi(`\sin\alpha>0`)，所以
+
+#mi(`\sin\alpha=\sqrt{1-\cos^{2}\alpha}=\dfrac{4}{5}`). 又由半角公式，
+
+#mi(`\displaystyle\tan\frac{\alpha}{2}=\frac{\sin\alpha}{1+\cos\alpha}=\frac{\frac{4}{5}}{1+\frac{3}{5}}=\frac{1}{2}`).
 ]
 
 #problem(4)[
-函数 $f(x) = -x^(2)$（$x in (- oo , -2]$）的反函数 $f^(-1)(x) =$#blank(){}.
+函数 #mi(`f(x) = -x^{2}`)（#mi(`x \in (-\infty, -2]`)）的反函数 #mi(`f^{-1}(x) =`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$f^(-1)(x)=-sqrt(-x)$（$x <= -4$）])
+#answer([#mi(`f^{-1}(x)=-\sqrt{-x}`)（#mi(`x\le-4`)）])
 
 #solution[
-由 $y=-x^(2)$ 且 $x <= -2$，可知值域为 $y <= -4$. 交换 $x$，$y$ 得 $x=-y^(2)$，即 $y^(2)=-x$. 因为原函数的自变量满足 $y <= -2$，所以应取负平方根，得到 $y=-sqrt(-x)$，且 $x <= -4$. 因此 $f^(-1)(x)=-sqrt(-x)$（$x <= -4$）.
+由 #mi(`y=-x^{2}`) 且 #mi(`x\le-2`)，可知值域为 #mi(`y\le-4`). 交换 #mi(`x`)，#mi(`y`) 得 #mi(`x=-y^{2}`)，即 #mi(`y^{2}=-x`). 因为原函数的自变量满足 #mi(`y\le-2`)，所以应取负平方根，得到 #mi(`y=-\sqrt{-x}`)，且 #mi(`x\le-4`). 因此 #mi(`f^{-1}(x)=-\sqrt{-x}`)（#mi(`x\le-4`)）.
 ]
 
 #problem(5)[
-在 $triangle A B C$ 中，若 $angle C = 90^( degree )$，$A C = B C = 4$，则 $arrow(B A) dot arrow(B C)=$#blank(){}.
+在 #mi(`\triangle ABC`) 中，若 #mi(`\angle C = 90^{\circ}`)，#mi(`AC = BC = 4`)，则 #mi(`\overrightarrow{BA}\cdot \overrightarrow{BC}=`)\underline{\hspace{2.5em}}.
 ]
 
 #answer([16])
 
 #solution[
-取直角坐标系使 $C=(0,0)$，$A=(4,0)$，$B=(0,4)$. 则
-$arrow(B A)=A-B=(4,-4)$，$arrow(B C)=C-B=(0,-4)$，从而
-$arrow(B A)\c d o t a r r o w(B C)=4 times 0 +(-4) times (-4)=16$.
+取直角坐标系使 #mi(`C=(0,0)`)，#mi(`A=(4,0)`)，#mi(`B=(0,4)`). 则
+
+#mi(`\overrightarrow{BA}=A-B=(4,-4)`)，#mi(`\overrightarrow{BC}=C-B=(0,-4)`)，从而
+
+#mi(`\overrightarrow{BA}\cdot\overrightarrow{BC}=4\times0+(-4)\times(-4)=16`).
 ]
 
 #problem(6)[
-某班共有 $40$ 名学生，其中只有一对双胞胎，若从中一次随机抽查三位学生的作业，则这对双胞胎的作业同时被抽中的概率是#blank(){}. （结果用最简分数表示）
+某班共有 #mi(`40`) 名学生，其中只有一对双胞胎，若从中一次随机抽查三位学生的作业，则这对双胞胎的作业同时被抽中的概率是\underline{\hspace{2.5em}}. （结果用最简分数表示）
 ]
 
-#answer([$(1)/(260)$])
+#answer([#mi(`\dfrac{1}{260}`)])
 
 #solution[
-从 $40$ 名学生中抽取三人，共有 $C_(40)^(3)$ 种等可能结果. 若双胞胎同时被抽中，第三人可从其余 $38$ 人中任选，有 $C_(38)^(1)$ 种结果. 因此所求概率为 $(C_(38)^(1))/(C_(40)^(3))=(38)/(40 times 39 times (38)/(6))=(1)/(260)$.
+从 #mi(`40`) 名学生中抽取三人，共有 #mi(`\mathrm{C}_{40}^{3}`) 种等可能结果. 若双胞胎同时被抽中，第三人可从其余 #mi(`38`) 人中任选，有 #mi(`\mathrm{C}_{38}^{1}`) 种结果. 因此所求概率为 #mi(`\displaystyle\frac{\mathrm{C}_{38}^{1}}{\mathrm{C}_{40}^{3}}=\frac{38}{40\times39\times\frac{38}{6}}=\frac{1}{260}`).
 ]
 
 #problem(7)[
-双曲线 $9 x^(2)-16 y^(2)=1$ 的焦距是#blank(){}.
+双曲线 #mi(`9x^{2}-16y^{2}=1`) 的焦距是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(5)/(6)$])
+#answer([#mi(`\dfrac{5}{6}`)])
 
 #solution[
-将方程化为 $(x^(2))/((1)/(9))-(y^(2))/((1)/(16))=1$，所以
-$a=(1)/(3)$，$b=(1)/(4)$. 双曲线的焦半距参数满足
-$c^(2)=a^(2)+b^(2)$，因此
-$c=sqrt((1)/(9)+(1)/(16))=sqrt((25)/(144))=(5)/(12)$.
-焦距是两焦点间的距离 $2 c$，故焦距为 $(5)/(6)$.
+将方程化为 #mi(`\displaystyle\frac{x^{2}}{\frac{1}{9}}-\frac{y^{2}}{\frac{1}{16}}=1`)，所以
+
+#mi(`a=\dfrac{1}{3}`)，#mi(`b=\dfrac{1}{4}`). 双曲线的焦半距参数满足
+
+#mi(`c^{2}=a^{2}+b^{2}`)，因此
+
+#mi(`\displaystyle c=\sqrt{\frac{1}{9}+\frac{1}{16}}=\sqrt{\frac{25}{144}}=\frac{5}{12}`).
+
+焦距是两焦点间的距离 #mi(`2c`)，故焦距为 #mi(`\dfrac{5}{6}`).
 ]
 
 #problem(8)[
-若 $(x+2)^(n)=x^(n)+ dots.c +a x^(3)+b x^(2)+c x+2^(n)$（$n in NN$，$n >= 3$），且 $a:b=3:2$，则 $n=$#blank(){}.
+若 #mi(`(x+2)^{n}=x^{n}+\cdots+ax^{3}+bx^{2}+cx+2^{n}`)（#mi(`n\in\mathbb{N}`)，#mi(`n\geqslant3`)），且 #mi(`a:b=3:2`)，则 #mi(`n=`)\underline{\hspace{2.5em}}.
 ]
 
 #answer([11])
 
 #solution[
-二项式展开式中，$x^(3)$ 的系数为 $a=C_(n)^(3)2^(n-3)$，$x^(2)$ 的系数为 $b=C_(n)^(2)2^(n-2)$. 因而 $(a)/(b)=(C_(n)^(3)2^(n-3))/(C_(n)^(2)2^(n-2))=(n-2)/(6)$. 由 $a:b=3:2$，得 $(n-2)/(6)=(3)/(2)$，所以 $n=11$.
+二项式展开式中，#mi(`x^{3}`) 的系数为 #mi(`a=\mathrm{C}_{n}^{3}2^{n-3}`)，#mi(`x^{2}`) 的系数为 #mi(`b=\mathrm{C}_{n}^{2}2^{n-2}`). 因而 #mi(`\displaystyle\frac{a}{b}=\frac{\mathrm{C}_{n}^{3}2^{n-3}}{\mathrm{C}_{n}^{2}2^{n-2}}=\frac{n-2}{6}`). 由 #mi(`a:b=3:2`)，得 #mi(`\dfrac{n-2}{6}=\dfrac{3}{2}`)，所以 #mi(`n=11`).
 ]
 
 #problem(9)[
-设数列 $\{a_n\}$ 的前 $n$ 项和为 $S_(n)$（$n in NN$）.关于数列 $\{a_n\}$ 有下列三个命题：
+设数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)（#mi(`n \in \mathbb{N}`)）.关于数列 #mi(`\{a_{n}\}`) 有下列三个命题：
 
-\begin{circlelist}
-\item 若 $\{a_(n)\}$ 既是等差数列又是等比数列，则 $a_(n) = a_(n + 1)$（$n in NN$）；
-\item 若 $S_(n) = a n^(2) + b n$（$a$，$b in RR$），则 $\{a_(n)\}$ 是等差数列；
-\item 若 $S_(n) = 1 - (-1)^(n)$，则 $\{a_(n)\}$ 是等比数列.
-\end{circlelist}
 
-这些命题中，真命题的序号是#blank(){}.
++ (1) 若 #mi(`\{a_{n}\}`) 既是等差数列又是等比数列，则 #mi(`a_{n}= a_{n + 1}`)（#mi(`n \in \mathbb{N}`)）；
++ (2) 若 #mi(`S_{n}= an^{2}+ bn`)（#mi(`a`)，#mi(`b \in \mathbb{R}`)），则 #mi(`\{a_{n}\}`) 是等差数列；
++ (3) 若 #mi(`S_{n}= 1 - (-1)^{n}`)，则 #mi(`\{a_{n}\}`) 是等比数列.
+
+
+
+这些命题中，真命题的序号是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$"[1]""[2]""[3]"$])
+#answer([#mi(`①②③`)])
 
 #solution[
-设首项为 $a_1$，公差为 $d$. 若 $a_1=0$，因为它同时是等比数列，$a_2=a_(1) q=0$，从而各项均为 $0$，命题$"[1]"$成立. 若 $a_1\n e q0$，等差数列和等比数列的前三项分别满足
-$a_2=a_1+d$，$a_3=a_1+2 d$ 以及 $a_2^2=a_(1) a_3$. 因此
-$(a_1+d)^2=a_1(a_1+2 d)$，化简得 $d^2=0$，即 $d=0$. 此时各项相等，故命题$"[1]"$正确.
+设首项为 #mi(`a_{1}`)，公差为 #mi(`d`). 若 #mi(`a_{1}=0`)，因为它同时是等比数列，#mi(`a_{2}=a_{1}q=0`)，从而各项均为 #mi(`0`)，命题#mi(`①`) 成立. 若 #mi(`a_{1}\neq0`)，等差数列和等比数列的前三项分别满足
 
-令 $a_0=0$. 由 $S_n=a n^(2)+b n$，对 $n in NN$ 有
+#mi(`a_{2}=a_{1}+d`)，#mi(`a_{3}=a_{1}+2d`) 以及 #mi(`a_{2}^{2}=a_{1}a_{3}`). 因此
 
-$ a_n=S_n-S_(n-1)=a n^2+b n-(a(n-1)^2+b(n-1))=a(2 n-1)+b $
+#mi(`(a_{1}+d)^{2}=a_{1}(a_{1}+2d)`)，化简得 #mi(`d^{2}=0`)，即 #mi(`d=0`). 此时各项相等，故命题#mi(`①`) 正确.
 
-这是关于 $n$ 的一次式，相邻两项之差恒为 $2 a$，所以 $\{a_n\}$ 是等差数列，命题$"[2]"$正确.
+令 #mi(`a_{0}=0`). 由 #mi(`S_{n}=an^{2}+bn`)，对 #mi(`n\in\mathbb{N}`) 有
 
-由 $S_n=1-(-1)^n$，并令 $S_0=0$，得
-$a_n=S_n-S_(n-1)=2(-1)^(n+1)$. 于是
-$(a_(n+1))/(a_n)=-1$，各项均非零，故 $\{a_n\}$ 是等比数列，命题$"[3]"$正确. 因此真命题的序号是 $"[1]"$，$"[2]"$，$"[3]"$.
+
+#align(center)[#mitex(`
+a_{n}=S_{n}-S_{n-1}=an^{2}+bn-\bigl(a(n-1)^{2}+b(n-1)\bigr)=a(2n-1)+b
+`)]
+
+
+这是关于 #mi(`n`) 的一次式，相邻两项之差恒为 #mi(`2a`)，所以 #mi(`\{a_{n}\}`) 是等差数列，命题#mi(`②`) 正确.
+
+由 #mi(`S_{n}=1-(-1)^{n}`)，并令 #mi(`S_{0}=0`)，得
+
+#mi(`a_{n}=S_{n}-S_{n-1}=2(-1)^{n+1}`). 于是
+
+#mi(`\displaystyle\frac{a_{n+1}}{a_{n}}=-1`)，各项均非零，故 #mi(`\{a_{n}\}`) 是等比数列，命题#mi(`③`) 正确. 因此真命题的序号是 #mi(`①`)，#mi(`②`)，#mi(`③`).
 ]
 
 #problem(10)[
-若集合 $A = \{x | 3 cos 2 pi x = 3^x, x in RR \}$，集合 $B = \{y | y^2 = 1, y in RR \}$，则 $A inter B =\f i l l i n b l a n k{}$.
+若集合 #mi(`A = \{x \mid 3\cos 2\pi x = 3^{x}, x \in \mathbb{R}\}`)，集合 #mi(`B = \{y \mid y^{2} = 1, y \in \mathbb{R}\}`)，则 #mi(`A \cap B =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$\{1\}$])
+#answer([#mi(`\{1\}`)])
 
 #solution[
-由 $y^(2)=1$ 且 $y in RR$，得 $B=\{-1,1\}$. 当 $x=-1$ 时，$3 cos (-2 pi )=3$，而 $3^(-1)=(1)/(3)$，不满足方程；当 $x=1$ 时，$3 cos (2 pi )=3=3^(1)$，满足方程. 所以 $A inter B=\{1\}$.
+由 #mi(`y^{2}=1`) 且 #mi(`y\in\mathbb{R}`)，得 #mi(`B=\{-1,1\}`). 当 #mi(`x=-1`) 时，#mi(`3\cos(-2\pi)=3`)，而 #mi(`3^{-1}=\dfrac{1}{3}`)，不满足方程；当 #mi(`x=1`) 时，#mi(`3\cos(2\pi)=3=3^{1}`)，满足方程. 所以 #mi(`A\cap B=\{1\}`).
 ]
 
 #problem(11)[
-函数 $y = sin x + arcsin x$ 的值域是#blank(){}.
+函数 #mi(`y = \sin x + \arcsin x`) 的值域是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[-(pi)/(2)- sin 1 ,(pi)/(2)+ sin 1 ]$])
+#answer([#mi(`\left[-\dfrac{\pi}{2}-\sin1,\dfrac{\pi}{2}+\sin1\right]`)])
 
 #solution[
-函数的定义域由 $arcsin x$ 确定为 $[-1,1]$. 在 $[-1,1]$ 上，$sin x$ 严格递增，$arcsin x$ 也严格递增，所以两者之和
-$y= sin x+ arcsin x$ 在该区间上严格递增. 因此
-$y(-1)=- sin 1 -(pi)/(2)$ 为最小值，
-$y(1)= sin 1 +(pi)/(2)$ 为最大值，值域为
-$[-(pi)/(2)- sin 1 ,(pi)/(2)+ sin 1 ]$.
+函数的定义域由 #mi(`\arcsin x`) 确定为 #mi(`[-1,1]`). 在 #mi(`[-1,1]`) 上，#mi(`\sin x`) 严格递增，#mi(`\arcsin x`) 也严格递增，所以两者之和
+
+#mi(`y=\sin x+\arcsin x`) 在该区间上严格递增. 因此
+
+#mi(`y(-1)=-\sin1-\dfrac\pi2`) 为最小值，
+
+#mi(`y(1)=\sin1+\dfrac\pi2`) 为最大值，值域为
+
+#mi(`\left[-\dfrac\pi2-\sin1,\dfrac\pi2+\sin1\right]`).
 ]
 
 #problem(12)[
-已知函数 $f(x) = 2^x + log _2 x$，数列 $\{a_n\}$ 的通项公式是 $a_n = 0.1 n$（$n in NN$），当 $|f(a_n) - 2005|$ 取得最小值时，$n =$#blank(){}.
+已知函数 #mi(`f(x) = 2^{x} + \log_{2} x`)，数列 #mi(`\{a_{n}\}`) 的通项公式是 #mi(`a_{n} = 0.1n`)（#mi(`n \in \mathbb{N}`)），当 #mi(`|f(a_{n}) - 2005|`) 取得最小值时，#mi(`n =`)\underline{\hspace{2.5em}}.
 ]
 
 #answer([110])
 
 #solution[
-在 $x>0$ 上，
-$f'(x)=2^x ln 2 +(1)/(x ln 2)>0$，所以 $f$ 严格递增.
-由于 $a_n=0.1 n$，只需比较 $a_(110)=11$ 与相邻的 $a_(109)=10.9$. 计算得
-$f(10.9)=2^(10.9)+ log _2(10.9) approx 1914 .30$，
-$f(11)=2^(11)+ log _2 11 approx 2051 .46$，于是
+在 #mi(`x>0`) 上，
 
-$ 2005-f(10.9) approx 90 .70>46.46 approx f(11)-2005 $
+#mi(`\displaystyle f'(x)=2^{x}\ln2+\frac{1}{x\ln2}>0`)，所以 #mi(`f`) 严格递增.
 
-因此 $f(11)$ 比 $f(10.9)$ 更接近 $2005$. 对 $n <= 109$，由单调性有
-$f(a_n) <= f(10.9)<2005$，其距离不小于 $2005-f(10.9)$；对 $n >= 111$，有
-$f(a_n) >= f(11.1)>f(11)>2005$，其距离大于 $f(11)-2005$. 所以最小值在 $a_(110)=11$ 时取得，故 $n=110$.
+由于 #mi(`a_{n}=0.1n`)，只需比较 #mi(`a_{110}=11`) 与相邻的 #mi(`a_{109}=10.9`). 计算得
+
+#mi(`f(10.9)=2^{10.9}+\log_{2}(10.9)\approx1914.30`)，
+
+#mi(`f(11)=2^{11}+\log_{2} 11\approx2051.46`)，于是
+
+
+#align(center)[#mitex(`
+2005-f(10.9)\approx90.70>46.46\approx f(11)-2005
+`)]
+
+
+因此 #mi(`f(11)`) 比 #mi(`f(10.9)`) 更接近 #mi(`2005`). 对 #mi(`n\leqslant109`)，由单调性有
+
+#mi(`f(a_{n})\le f(10.9)<2005`)，其距离不小于 #mi(`2005-f(10.9)`)；对 #mi(`n\geqslant111`)，有
+
+#mi(`f(a_{n})\ge f(11.1)>f(11)>2005`)，其距离大于 #mi(`f(11)-2005`). 所以最小值在 #mi(`a_{110}=11`) 时取得，故 #mi(`n=110`).
 ]
 
 #part-header("单选题")
 
 #problem(13)[
-已知直线 $l$，$m$，$n$ 及平面 $alpha$，下列命题中的假命题是（ ）
-  #choices([若 $l parallel m$，$m parallel n$，则 $l parallel n$], [若 $l bot alpha$，$n parallel alpha$，则 $l bot n$], [若 $l bot m$，$m parallel n$，则 $l bot n$], [若 $l parallel alpha$，$n parallel alpha$，则 $l parallel n$], cols: 1)
+已知直线 #mi(`l`)，#mi(`m`)，#mi(`n`) 及平面 #mi(`\alpha`)，下列命题中的假命题是（ ）
+  #choices([若 #mi(`l \parallel m`)，#mi(`m \parallel n`)，则 #mi(`l \parallel n`)], [若 #mi(`l \perp \alpha`)，#mi(`n \parallel \alpha`)，则 #mi(`l \perp n`)], [若 #mi(`l \perp m`)，#mi(`m \parallel n`)，则 #mi(`l \perp n`)], [若 #mi(`l \parallel \alpha`)，#mi(`n \parallel \alpha`)，则 #mi(`l \parallel n`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-直线的平行关系具有传递性，所以命题 A 正确；若 $l bot alpha$，而 $n parallel alpha$，则 $n$ 的方向与平面 $alpha$ 平行，故 $l bot n$，命题 B 正确. 直线 $m$ 与 $n$ 平行时，$l bot m$ 可推出 $l bot n$，命题 C 正确. 但两条分别平行于同一平面的直线不一定互相平行，例如它们可以有不同方向，故命题 D 错误. 因此假命题为 D.
+直线的平行关系具有传递性，所以命题 A 正确；若 #mi(`l\perp\alpha`)，而 #mi(`n\parallel\alpha`)，则 #mi(`n`) 的方向与平面 #mi(`\alpha`) 平行，故 #mi(`l\perp n`)，命题 B 正确. 直线 #mi(`m`) 与 #mi(`n`) 平行时，#mi(`l\perp m`) 可推出 #mi(`l\perp n`)，命题 C 正确. 但两条分别平行于同一平面的直线不一定互相平行，例如它们可以有不同方向，故命题 D 错误. 因此假命题为 D.
 ]
 
 #problem(14)[
-在 $triangle A B C$ 中，若 $(a)/(cos A)= (b)/(cos B)= (c)/(cos C)$，则 $triangle A B C$ 是（ ）
+在 #mi(`\triangle ABC`) 中，若 #mi(`\frac{a}{\cos A}= \frac{b}{\cos B}= \frac{c}{\cos C}`)，则 #mi(`\triangle ABC`) 是（ ）
   #choices([直角三角形], [等边三角形], [钝角三角形], [等腰直角三角形], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-三角形的角不能为直角，否则相应的余弦为零，题设比值无意义. 若有一个角为钝角，则该角的余弦为负，而另外两个角为锐角、余弦为正；由于 $a$，$b$，$c>0$，三个比值不可能相等. 因而 $A$，$B$，$C$ 均为锐角.
-由正弦定理，存在外接圆半径 $R$，使得
-$a=2 R sin A$，$b=2 R sin B$，$c=2 R sin C$. 题设等式遂等价于
-$tan A= tan B= tan C$. 正切函数在 $(0,(pi)/(2))$ 上严格递增，所以
-$A=B=C$. 又 $A+B+C= pi$，故
-$A=B=C=(pi)/(3)$，三角形为等边三角形，选 B.
+三角形的角不能为直角，否则相应的余弦为零，题设比值无意义. 若有一个角为钝角，则该角的余弦为负，而另外两个角为锐角、余弦为正；由于 #mi(`a`)，#mi(`b`)，#mi(`c>0`)，三个比值不可能相等. 因而 #mi(`A`)，#mi(`B`)，#mi(`C`) 均为锐角.
+
+由正弦定理，存在外接圆半径 #mi(`R`)，使得
+
+#mi(`a=2R\sin A`)，#mi(`b=2R\sin B`)，#mi(`c=2R\sin C`). 题设等式遂等价于
+
+#mi(`\tan A=\tan B=\tan C`). 正切函数在 #mi(`\left(0,\dfrac\pi2\right)`) 上严格递增，所以
+
+#mi(`A=B=C`). 又 #mi(`A+B+C=\pi`)，故
+
+#mi(`A=B=C=\dfrac\pi3`)，三角形为等边三角形，选 B.
 ]
 
 #problem(15)[
-若 $a$，$b$，$c$ 是常数，则“$a > 0$ 且 $b^2 - 4 a c < 0$”是对“任意 $x in RR$，有 $a x^2 + b x + c > 0$”的（ ）
+若 #mi(`a`)，#mi(`b`)，#mi(`c`) 是常数，则“#mi(`a > 0`) 且 #mi(`b^{2} - 4ac < 0`)”是对“任意 #mi(`x \in \mathbb{R}`)，有 #mi(`ax^{2} + bx + c > 0`)”的（ ）
   #choices([充分不必要条件], [必要不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-若 $a>0$ 且 $Delta =b^(2)-4 a c<0$，二次函数的图象开口向上且没有与 $x$ 轴的交点，因此对任意 $x in RR$，都有
-$a x^(2)+b x+c>0$，题设条件是充分条件.
-但它不是必要条件. 例如取 $a=0$，$b=0$，$c=1$，则对任意 $x in RR$ 有
-$a x^(2)+b x+c=1>0$，而 $a>0$ 不成立. 因此该条件是充分不必要条件，选 A.
+若 #mi(`a>0`) 且 #mi(`\Delta=b^{2}-4ac<0`)，二次函数的图象开口向上且没有与 #mi(`x`) 轴的交点，因此对任意 #mi(`x\in\mathbb{R}`)，都有
+
+#mi(`ax^{2}+bx+c>0`)，题设条件是充分条件.
+
+但它不是必要条件. 例如取 #mi(`a=0`)，#mi(`b=0`)，#mi(`c=1`)，则对任意 #mi(`x\in\mathbb{R}`) 有
+
+#mi(`ax^{2}+bx+c=1>0`)，而 #mi(`a>0`) 不成立. 因此该条件是充分不必要条件，选 A.
 ]
 
 #problem(16)[
-设函数 $f(x)$ 的定义域为 $RR$，有下列三个命题：
+设函数 #mi(`f(x)`) 的定义域为 #mi(`\mathbb{R}`)，有下列三个命题：
 
-\begin{circlelist}
-\item 若存在常数 $M$，使得对任意 $x in RR$，有 $f(x) <= M$，则 $M$ 是函数 $f(x)$ 的最大值；
-\item 若存在 $x_0 in RR$，使得对任意 $x in RR$，且 $x != x_0$，有 $f(x) < f(x_0)$，则 $f(x_0)$ 是函数 $f(x)$ 的最大值；
-\item 若存在 $x_0 in RR$，使得对任意 $x in RR$，有 $f(x) <= f(x_0)$，则 $f(x_0)$ 是函数 $f(x)$ 的最小值.
-\end{circlelist}
+
++ (1) 若存在常数 #mi(`M`)，使得对任意 #mi(`x \in \mathbb{R}`)，有 #mi(`f(x) \le M`)，则 #mi(`M`) 是函数 #mi(`f(x)`) 的最大值；
++ (2) 若存在 #mi(`x_{0} \in \mathbb{R}`)，使得对任意 #mi(`x \in \mathbb{R}`)，且 #mi(`x \neq x_{0}`)，有 #mi(`f(x) < f(x_{0})`)，则 #mi(`f(x_{0})`) 是函数 #mi(`f(x)`) 的最大值；
++ (3) 若存在 #mi(`x_{0} \in \mathbb{R}`)，使得对任意 #mi(`x \in \mathbb{R}`)，有 #mi(`f(x) \le f(x_{0})`)，则 #mi(`f(x_{0})`) 是函数 #mi(`f(x)`) 的最小值.
+
+
 
 这些命题中，真命题的个数是（ ）
-  #choices([$0$ 个], [$1$ 个], [$2$ 个], [$3$ 个], cols: 4)
+  #choices([#mi(`0`) 个], [#mi(`1`) 个], [#mi(`2`) 个], [#mi(`3`) 个], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-第一个命题不正确. 例如取 $f(x)=0$，常数 $M=1$ 满足对任意 $x in RR$ 有 $f(x) <= M$，但函数的最大值是 $0$，不是 $1$.
+第一个命题不正确. 例如取 #mi(`f(x)=0`)，常数 #mi(`M=1`) 满足对任意 #mi(`x\in\mathbb{R}`) 有 #mi(`f(x)\le M`)，但函数的最大值是 #mi(`0`)，不是 #mi(`1`).
 
-第二个命题正确. 当 $x=x_0$ 时有 $f(x)=f(x_0)$；当 $x != x_0$ 时题设给出 $f(x)<f(x_0)$. 因而对所有 $x in RR$ 都有 $f(x) <= f(x_0)$，且等号在 $x=x_0$ 处取得，所以 $f(x_0)$ 是最大值.
+第二个命题正确. 当 #mi(`x=x_{0}`) 时有 #mi(`f(x)=f(x_{0})`)；当 #mi(`x\neq x_{0}`) 时题设给出 #mi(`f(x)<f(x_{0})`). 因而对所有 #mi(`x\in\mathbb{R}`) 都有 #mi(`f(x)\le f(x_{0})`)，且等号在 #mi(`x=x_{0}`) 处取得，所以 #mi(`f(x_{0})`) 是最大值.
 
-第三个命题不正确. 题设不等式恰好说明 $f(x_0)$ 是最大值，而不能说明它是最小值. 例如取 $f(x)=-(x-1)^2$，$x_0=1$，则对任意 $x in RR$ 有 $f(x) <= f(1)=0$，但函数没有最小值，故 $f(1)$ 不是最小值. 因此只有一个命题为真，选 B.
+第三个命题不正确. 题设不等式恰好说明 #mi(`f(x_{0})`) 是最大值，而不能说明它是最小值. 例如取 #mi(`f(x)=-(x-1)^{2}`)，#mi(`x_{0}=1`)，则对任意 #mi(`x\in\mathbb{R}`) 有 #mi(`f(x)\le f(1)=0`)，但函数没有最小值，故 #mi(`f(1)`) 不是最小值. 因此只有一个命题为真，选 B.
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知 $z$ 是复数，$z + 2 i$，$(z)/(2 - i)$ 均为实数（$i$ 为虚数单位），且复数 $(z + a i )^2$ 在复平面上对应的点在第一象限，求实数 $a$ 的取值范围.
+已知 #mi(`z`) 是复数，#mi(`z + 2\mathrm{i}`)，#mi(`\frac{z}{2 - \mathrm{i}}`) 均为实数（#mi(`\mathrm{i}`) 为虚数单位），且复数 #mi(`(z + a\mathrm{i})^{2}`) 在复平面上对应的点在第一象限，求实数 #mi(`a`) 的取值范围.
 ]
 
 #solution[
-设 $z=x+y i$，其中 $x$，$y in RR$. 因为 $z+2 i$ 为实数，其虚部为零，所以 $y+2=0$，即 $y=-2$，从而 $z=x-2 i$.
+设 #mi(`z=x+y\mathrm{i}`)，其中 #mi(`x`)，#mi(`y\in\mathbb{R}`). 因为 #mi(`z+2\mathrm{i}`) 为实数，其虚部为零，所以 #mi(`y+2=0`)，即 #mi(`y=-2`)，从而 #mi(`z=x-2\mathrm{i}`).
 
 又
 
-$ (z)/(2- i)=((x-2 i )(2+ i ))/((2- i )(2+ i ))=(2 x+2+(x-4) i)/(5)=(2 x+2)/(5)+(x-4)/(5) i $
 
-该复数为实数，当且仅当虚部为零，即 $x-4=0$. 因此 $z=4-2 i$.
+#align(center)[#mitex(`
+\frac{z}{2-\mathrm{i}}=\frac{(x-2\mathrm{i})(2+\mathrm{i})}{(2-\mathrm{i})(2+\mathrm{i})}=\frac{2x+2+(x-4)\mathrm{i}}{5}=\frac{2x+2}{5}+\frac{x-4}{5}\mathrm{i}
+`)]
+
+
+该复数为实数，当且仅当虚部为零，即 #mi(`x-4=0`). 因此 #mi(`z=4-2\mathrm{i}`).
 
 于是
 
-$ (z+a i )^2=(4+(a-2) i )^2 =(16-(a-2)^2)+8(a-2) i $
+
+#align(center)[#mitex(`
+(z+a\mathrm{i})^{2}=\left(4+(a-2)\mathrm{i}\right)^{2}  =\left(16-(a-2)^{2}\right)+8(a-2)\mathrm{i}
+`)]
+
 
 复平面上对应的点在第一象限，当且仅当实部、虚部均为正，即
-$16-(a-2)^2>0$ 且 $8(a-2)>0$. 前一个不等式等价于
-$-2<a<6$，后一个不等式等价于 $a>2$. 联立得
-$2<a<6$.
+
+#mi(`16-(a-2)^{2}>0`) 且 #mi(`8(a-2)>0`). 前一个不等式等价于
+
+#mi(`-2<a<6`)，后一个不等式等价于 #mi(`a>2`). 联立得
+
+#mi(`2<a<6`).
 ]
 
 #problem(18)[
-已知正三棱锥 $P - A B C$ 的体积为 $72 sqrt(3)$，侧面与底面所成的二面角的大小为 $60^( degree )$.
+已知正三棱锥 #mi(`P - ABC`) 的体积为 #mi(`72\sqrt{3}`)，侧面与底面所成的二面角的大小为 #mi(`60^{\circ}`).
 
 
-+ (1) 证明： $P A bot B C$；
-+ (2) 求底面中心 $O$ 到侧面的距离.
++ (1)
 ]
 
 #solution[
-设正三角形底面 $A B C$ 的边长为 $s$，中心为 $O$，$M$ 为 $A B$ 的中点. 正三棱锥的高为 $P O$，且 $P O bot$ 平面 $A B C$. 由于 $P$ 在底面中心 $O$ 的正上方，侧面三角形 $P A B$ 为等腰三角形，所以 $P M bot A B$；同时 $O M bot A B$. 因而平面 $P O M bot A B$，侧面与底面所成的二面角为 $angle P M O=60^ degree$.
+设正三角形底面 #mi(`ABC`) 的边长为 #mi(`s`)，中心为 #mi(`O`)，#mi(`M`) 为 #mi(`AB`) 的中点. 正三棱锥的高为 #mi(`PO`)，且 #mi(`PO\perp`) 平面 #mi(`ABC`). 由于 #mi(`P`) 在底面中心 #mi(`O`) 的正上方，侧面三角形 #mi(`PAB`) 为等腰三角形，所以 #mi(`PM\perp AB`)；同时 #mi(`OM\perp AB`). 因而平面 #mi(`POM\perp AB`)，侧面与底面所成的二面角为 #mi(`\angle PMO=60^{\circ}`).
 
 正三角形的内切半径为
-$O M=(sqrt(3))/(6)s$. 在直角三角形 $P O M$ 中，
-$P O=O M tan 60 ""^ degree =(s)/(2)$.
-底面面积为 $(sqrt(3))/(4)s^2$，所以由体积条件
 
-$ 72 sqrt(3)=(1)/(3) dot (sqrt(3))/(4)s^2 dot (s)/(2)=(sqrt(3))/(24)s^3 $
+#mi(`\displaystyle OM=\frac{\sqrt{3}}{6}s`). 在直角三角形 #mi(`POM`) 中，
 
-故 $s^3=1728$，且 $s>0$，从而 $s=12$. 因此
-$P O=6$，$O M=2 sqrt(3)$，并由勾股定理得
-$P M=sqrt(P O^2+O M^2)=sqrt(36+12)=4 sqrt(3)$.
+#mi(`\displaystyle PO=OM\tan60^{\circ}=\frac{s}{2}`).
+
+底面面积为 #mi(`\displaystyle\frac{\sqrt{3}}{4}s^{2}`)，所以由体积条件
 
 
-+ (1) 在底面正三角形 $A B C$ 中，中心线 $A O$ 垂直于边 $B C$. 又 $P O bot$ 平面 $A B C$，故 $P O bot B C$. 直线 $A O$ 与 $P O$ 在平面 $P A O$ 内相交，且 $B C$ 同时垂直于这两条相交直线，所以 $B C bot$ 平面 $P A O$. 由于 $P A subset$ 平面 $P A O$，得到 $P A bot B C$.
-+ (2) 以侧面 $P A B$ 为例. 平面 $P O M$ 垂直于 $A B$，它与平面 $P A B$ 的交线为 $P M$，故点 $O$ 到平面 $P A B$ 的距离等于点 $O$ 到直线 $P M$ 的距离. 在直角三角形 $P O M$ 中，$O$ 到斜边 $P M$ 的高为
+#align(center)[#mitex(`
+72\sqrt{3}=\frac{1}{3}\cdot\frac{\sqrt{3}}{4}s^{2}\cdot\frac{s}{2}=\frac{\sqrt{3}}{24}s^{3}
+`)]
 
-$ d=(P O dot O M)/(P M)=(6 dot 2 sqrt(3))/(4 sqrt(3))=3 $
 
-由正三棱锥的对称性，$O$ 到任一侧面的距离都相同，所以所求距离为 $3$.
+故 #mi(`s^{3}=1728`)，且 #mi(`s>0`)，从而 #mi(`s=12`). 因此
+
+#mi(`PO=6`)，#mi(`OM=2\sqrt{3}`)，并由勾股定理得
+
+#mi(`PM=\sqrt{PO^{2}+OM^{2}}=\sqrt{36+12}=4\sqrt{3}`).
+
+
++ (1)
 ]
 
 #problem(19)[
-已知 $tan alpha$ 是方程 $x^(2) + 2 x\sec alpha + 1 = 0$ 的两个根中较小的根，求 $alpha$ 的值.
+已知 #mi(`\tan \alpha`) 是方程 #mi(`x^{2}+ 2x\sec \alpha + 1 = 0`) 的两个根中较小的根，求 #mi(`\alpha`) 的值.
 ]
 
 #solution[
-因为题设说 $tan alpha$ 是根，所以 $tan alpha$ 有定义，即 $cos alpha \n e q0$. 将 $x= tan alpha$ 代入方程，得
+因为题设说 #mi(`\tan\alpha`) 是根，所以 #mi(`\tan\alpha`) 有定义，即 #mi(`\cos\alpha\neq0`). 将 #mi(`x=\tan\alpha`) 代入方程，得
 
-$ tan ""^2 alpha +2 tan alpha \sec alpha +1 =\sec^2 alpha +2 tan alpha \sec alpha =\sec alpha (\sec alpha +2 tan alpha )=0 $
 
-由于 $\sec alpha \n e q0$，所以 $\sec alpha +2 tan alpha =0$. 两边同乘 $cos alpha$，得
-$1+2 sin alpha =0$，即 $sin alpha =-(1)/(2)$.
+#align(center)[#mitex(`
+\tan^{2}\alpha+2\tan\alpha\sec\alpha+1  =\sec^{2}\alpha+2\tan\alpha\sec\alpha  =\sec\alpha\left(\sec\alpha+2\tan\alpha\right)=0
+`)]
+
+
+由于 #mi(`\sec\alpha\neq0`)，所以 #mi(`\sec\alpha+2\tan\alpha=0`). 两边同乘 #mi(`\cos\alpha`)，得
+
+#mi(`1+2\sin\alpha=0`)，即 #mi(`\sin\alpha=-\dfrac{1}{2}`).
 
 因此
-$alpha =(7 pi)/(6)+2 k pi$ 或
-$alpha =(11 pi)/(6)+2 k pi$，其中 $k in ZZ$.
-当 $alpha =(7 pi)/(6)+2 k pi$ 时，
-$tan alpha =(1)/(sqrt(3))$，
-$\sec alpha =-(2)/(sqrt(3))$. 原方程为
-$x^2-(4)/(sqrt(3))x+1=0$，其两根为
-$(1)/(sqrt(3))$ 和 $sqrt(3)$，所以 $tan alpha$ 是较小根.
 
-当 $alpha =(11 pi)/(6)+2 k pi$ 时，
-$tan alpha =-(1)/(sqrt(3))$，
-$\sec alpha =(2)/(sqrt(3))$. 原方程为
-$x^2+(4)/(sqrt(3))x+1=0$，其两根为
-$-sqrt(3)$ 和 $-(1)/(sqrt(3))$，此时 $tan alpha =-(1)/(sqrt(3))$ 是较大根，不合题意. 故
-$alpha =(7 pi)/(6)+2 k pi$，$k in ZZ$.
+#mi(`\displaystyle\alpha=\frac{7\pi}{6}+2k\pi`) 或
+
+#mi(`\displaystyle\alpha=\frac{11\pi}{6}+2k\pi`)，其中 #mi(`k\in\mathbb{Z}`).
+
+当 #mi(`\displaystyle\alpha=\frac{7\pi}{6}+2k\pi`) 时，
+
+#mi(`\displaystyle\tan\alpha=\frac{1}{\sqrt{3}}`)，
+
+#mi(`\displaystyle\sec\alpha=-\frac{2}{\sqrt{3}}`). 原方程为
+
+#mi(`x^{2}-\dfrac4{\sqrt{3}}x+1=0`)，其两根为
+
+#mi(`\displaystyle\frac{1}{\sqrt{3}}`) 和 #mi(`\sqrt{3}`)，所以 #mi(`\tan\alpha`) 是较小根.
+
+当 #mi(`\displaystyle\alpha=\frac{11\pi}{6}+2k\pi`) 时，
+
+#mi(`\displaystyle\tan\alpha=-\frac{1}{\sqrt{3}}`)，
+
+#mi(`\displaystyle\sec\alpha=\frac{2}{\sqrt{3}}`). 原方程为
+
+#mi(`x^{2}+\dfrac4{\sqrt{3}}x+1=0`)，其两根为
+
+#mi(`-\sqrt{3}`) 和 #mi(`-\dfrac1{\sqrt{3}}`)，此时 #mi(`\tan\alpha=-\dfrac1{\sqrt{3}}`) 是较大根，不合题意. 故
+
+#mi(`\displaystyle\alpha=\frac{7\pi}{6}+2k\pi`)，#mi(`k\in\mathbb{Z}`).
 ]
 
 #problem(20)[
-某市 $2004$ 年底有住房面积 $1200" 万平方米"$，计划从 $2005$ 年起，每年拆除 $20" 万平方米"$ 的旧住房，假定该市每年新建住房面积是上年年底住房面积的 $5\%$.
+某市 #mi(`2004`) 年底有住房面积 #mi(`1200\text{ \text{万平方米}}`)，计划从 #mi(`2005`) 年起，每年拆除 #mi(`20\text{ \text{万平方米}}`) 的旧住房，假定该市每年新建住房面积是上年年底住房面积的 #mi(`5\%`).
 
 
-+ (1) 分别求 $2005$ 年底和 $2006$ 年底的住房面积；
-+ (2) 求 $2024$ 年底的住房面积. （计算结果以万平方米为单位，且精确到 $0.01$）
++ (1)
 ]
 
 #solution[
-设 $A_n$ 表示第 $2004+n$ 年年底的住房面积，单位为万平方米. 由题意，$A_0=1200$. 从第 $2005$ 年起，第 $n$ 年新建面积为上一年年底面积的 $5\%$，同时拆除 $20$ 万平方米，所以
-$A_n=A_(n-1)+0.05 A_(n-1)-20=1.05 A_(n-1)-20$.
+设 #mi(`A_{n}`) 表示第 #mi(`2004+n`) 年年底的住房面积，单位为万平方米. 由题意，#mi(`A_{0}=1200`). 从第 #mi(`2005`) 年起，第 #mi(`n`) 年新建面积为上一年年底面积的 #mi(`5\%`)，同时拆除 #mi(`20`) 万平方米，所以
+
+#mi(`A_{n}=A_{n-1}+0.05A_{n-1}-20=1.05A_{n-1}-20`).
 
 
-+ (1) 由递推式得 $A_1=1.05 times 1200 -20=1240$，$A_2=1.05 times 1240 -20=1282$. 因此 2005 年底和 2006 年底的住房面积分别为 $1240$ 万平方米和 $1282$ 万平方米.
-+ (2) 令 $B_n=A_n-400$. 由递推式得
-$B_n=1.05 A_(n-1)-420=1.05(A_(n-1)-400)=1.05 B_(n-1)$，且 $B_0=800$. 因此
-$B_n=800 times 1 .05^n$，即
-$A_n=400+800 times 1 .05^n$.
-2024 年底对应 $n=2024-2004=20$，所以
-$A_(20)=400+800 times 1 .05^(20) approx 2522 .6382$.
-精确到 $0.01$ 得 $A_(20) approx 2522 .64$，即 2024 年底住房面积为 $2522.64$ 万平方米.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = x + (a)/(x)$ 的定义域为 $(0, + oo )$，且 $f(2) = 2 + (sqrt(2))/(2)$. 设点 $P$ 是函数图象上的任意一点，过点 $P$ 分别作直线 $y = x$ 和 $y$ 轴的垂线，垂足分别为 $M$，$N$.
+已知函数 #mi(`f(x) = x + \frac{a}{x}`) 的定义域为 #mi(`(0, +\infty)`)，且 #mi(`f(2) = 2 + \frac{\sqrt{2}}{2}`). 设点 #mi(`P`) 是函数图象上的任意一点，过点 #mi(`P`) 分别作直线 #mi(`y = x`) 和 #mi(`y`) 轴的垂线，垂足分别为 #mi(`M`)，#mi(`N`).
 
 
-+ (1) 求 $a$ 的值；
-+ (2) 问： $|P M| dot |P N|$ 是否为定值？若是，则求出该定值；若不是，则说明理由；
-+ (3) 设 $O$ 为坐标原点，求四边形 $O M P N$ 面积的最小值.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2005/img/shanghai_spring/q21_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2005/img/shanghai_spring/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 由 $f(2)=2+(a)/(2)=2+(sqrt(2))/(2)$，得 $a=sqrt(2)$. 设 $P=(x,y)$，则 $x>0$，且
-$y=x+(sqrt(2))/(x)$.
-+ (2) 点 $N$ 是点 $P$ 在 $y$ 轴上的垂足，所以 $N=(0,y)$，从而 $P N=x$. 点 $M$ 是点 $P$ 到直线 $y=x$ 的垂足. 由 $x>0$ 和 $a=sqrt(2)>0$，有 $y-x=(sqrt(2))/(x)>0$，故点到直线 $y=x$ 的距离为
-$P M=(y-x)/(sqrt(2))=(1)/(x)$.
-于是
-$|P M| dot |P N|=(1)/(x) dot x=1$，与 $P$ 的位置无关，所以是定值 $1$.
-+ (3) 记 $d=y-x=(sqrt(2))/(x)>0$. 由于 $P M bot y=x$，垂足为
-$M=(x+(d)/(2),x+(d)/(2))$，而 $N=(0,x+d)$.
-四边形 $O M P N$ 的对角线 $O P$ 将其分成三角形 $O M P$ 和 $O P N$. 因此
-
-$ S_(O M P N) =(1)/(2)(x+(d)/(2))d+(1)/(2)x(x+d) =(x^2)/(2)+x d+(d^2)/(4) $
-
-代入 $d=(sqrt(2))/(x)$，得
-
-$ S_(O M P N) =(x^2)/(2)+sqrt(2)+(1)/(2 x^2)=sqrt(2)+(1)/(2)(x^2+(1)/(x^2)) $
-
-因为 $x>0$，由基本不等式
-$x^2+(1)/(x^2) >= 2$，等号当且仅当 $x^2=1$，结合 $x>0$ 得 $x=1$. 所以四边形 $O M P N$ 面积的最小值为 $1+sqrt(2)$.
++ (1) 
++ (2)
 ]
 
 #problem(22)[
-+ (1) 求右焦点坐标是 $(2,0)$，且经过点 $(-2, -sqrt(2))$ 的椭圆的标准方程；
-+ (2) 已知椭圆 $C$ 的方程是 $(x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > b > 0$）.设斜率为 $k$ 的直线 $l$ 交椭圆 $C$ 于 $A$，$B$ 两点，$A B$ 的中点为 $M$.证明：当直线 $l$ 平行移动时，动点 $M$ 在一条过原点的定直线上；
-+ (3) 利用上一问所揭示的椭圆几何性质，用作图方法找出下面给定椭圆的中心，简要写出作图步骤，并在图中标出椭圆的中心.
++ (1) 
++ (2) 
 
 
 
 
-#align(center)[#image("/papers/2005/img/shanghai_spring/q22_fig1.png", width: 40%)]
+#align(center)[#image("/papers/2005/img/shanghai_spring/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 右焦点为 $(2,0)$，所以椭圆焦半距 $c=2$，且长轴在 $x$ 轴上. 设其标准方程为
-$(x^2)/(a^2)+(y^2)/(b^2)=1$，其中 $a > b > 0$. 由
-$c^2=a^2-b^2$ 得 $a^2-b^2=4$.
-又因为 $(-2,-sqrt(2))$ 在椭圆上，
-$(4)/(a^2)+(2)/(b^2)=1$. 令 $A=a^2$，则
-$b^2=A-4$，且 $A>4$. 代入得
-$(4)/(A)+(2)/(A-4)=1$，$\L o n g r i g h t a r r o w$，$4(A-4)+2 A=A(A-4)$，$\L o n g r i g h t a r r o w$，$A^2-10 A+16=0$.
-故 $A=2$ 或 $A=8$，由 $A>4$ 舍去 $A=2$，得到
-$a^2=8$，$b^2=4$. 所求椭圆方程为
-$(x^2)/(8)+(y^2)/(4)=1$.
-+ (2) 设直线 $l$ 的方程为 $y=k x+t$，其中斜率 $k$ 固定，截距 $t$ 随平行移动而变化. 代入椭圆方程并整理，得
-
-$ (b^2+a^(2) k^2)x^2+2 a^(2) k t x+a^2(t^2-b^2)=0 $
-
-设交点 $A$，$B$ 的横坐标分别为 $x_1$，$x_2$，则由韦达定理，
-
-$ x_M=(x_1+x_2)/(2)=-(a^(2) k t)/(b^2+a^(2) k^2) $
-
-又因为 $M$ 在直线 $l$ 上，
-
-$ y_M=k x_M+t =(b^(2) t)/(b^2+a^(2) k^2) $
-
-消去 $t$，可得 $a^(2) k y_M+b^(2) x_M=0$. 这是一条过原点的直线，且方程中不含平行移动参数 $t$，所以当 $l$ 平行移动时，弦 $A B$ 的中点 $M$ 始终在这条定直线上. 当 $k=0$ 时，方程变为 $x_M=0$，仍是过原点的定直线.
-+ (3) 在给定椭圆内任选一个方向，作两条互不重合且与椭圆相交的平行弦，分别作出两条弦的中点，并连接这两个中点. 由上一问，所得直线必经过椭圆中心. 再取一个不同的方向，重复上述作图，得到另一条经过椭圆中心的直线. 两条中点连线不平行，故其交点唯一，该交点就是椭圆中心，在图中将它标为 $O$.
++ (1) 
++ (2)
 ]
 

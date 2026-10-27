@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,133 +11,185 @@
 #part-header("单选题")
 
 #problem(1)[
-设 $bold(a)$，$bold(b)$ 是向量，命题“若 $bold(a)= -bold(b)$，则 $|bold(a)| = |bold(b)|$”的逆命题是（ ）
-  #choices([若 $bold(a) != -bold(b)$，则 $|bold(a)| != |bold(b)|$], [若 $bold(a)= -bold(b)$，则 $|bold(a)| != |bold(b)|$], [若 $|bold(a)| != |bold(b)|$，则 $bold(a) != -bold(b)$], [若 $|bold(a)| = |bold(b)|$，则 $bold(a)= -bold(b)$], cols: 1)
+设 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 是向量，命题“若 #mi(`\mathbf{a}= -\mathbf{b}`)，则 #mi(`|\mathbf{a}| = |\mathbf{b}|`)”的逆命题是（ ）
+  #choices([若 #mi(`\mathbf{a}\neq -\mathbf{b}`)，则 #mi(`|\mathbf{a}| \neq |\mathbf{b}|`)], [若 #mi(`\mathbf{a}= -\mathbf{b}`)，则 #mi(`|\mathbf{a}| \neq |\mathbf{b}|`)], [若 #mi(`|\mathbf{a}| \neq |\mathbf{b}|`)，则 #mi(`\mathbf{a}\neq -\mathbf{b}`)], [若 #mi(`|\mathbf{a}| = |\mathbf{b}|`)，则 #mi(`\mathbf{a}= -\mathbf{b}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-设原命题的条件为 $P$：$bold(a)=-bold(b)$，结论为 $Q$：$|bold(a)|=|bold(b)|$. 逆命题就是把条件和结论互换，即由 $Q$ 推出 $P$：若 $|bold(a)|=|bold(b)|$，则 $bold(a)=-bold(b)$. 这正是选项 D，故选 D.
+设原命题的条件为 #mi(`P`)：#mi(`\mathbf{a}=-\mathbf{b}`)，结论为 #mi(`Q`)：#mi(`|\mathbf{a}|=|\mathbf{b}|`). 逆命题就是把条件和结论互换，即由 #mi(`Q`) 推出 #mi(`P`)：若 #mi(`|\mathbf{a}|=|\mathbf{b}|`)，则 #mi(`\mathbf{a}=-\mathbf{b}`). 这正是选项 D，故选 D.
 ]
 
 #problem(2)[
-设抛物线的顶点在原点，准线方程为 $x = -2$，则抛物线的方程是（ ）
-  #choices([$y^(2) = -8 x$], [$y^(2) = -4 x$], [$y^(2) = 8 x$], [$y^(2) = 4 x$], cols: 4)
+设抛物线的顶点在原点，准线方程为 #mi(`x = -2`)，则抛物线的方程是（ ）
+  #choices([#mi(`y^{2}= -8x`)], [#mi(`y^{2}= -4x`)], [#mi(`y^{2}= 8x`)], [#mi(`y^{2}= 4x`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-顶点在原点且焦点在 $x$ 轴上的抛物线可写为 $y^2=4 p x$，其中准线方程为 $x=-p$. 题设准线为 $x=-2$，所以 $-p=-2$，从而 $p=2$. 因此抛物线方程为 $y^2=8 x$，对应选项 C，故选 C.
+顶点在原点且焦点在 #mi(`x`) 轴上的抛物线可写为 #mi(`y^{2}=4px`)，其中准线方程为 #mi(`x=-p`). 题设准线为 #mi(`x=-2`)，所以 #mi(`-p=-2`)，从而 #mi(`p=2`). 因此抛物线方程为 #mi(`y^{2}=8x`)，对应选项 C，故选 C.
 ]
 
 #problem(3)[
-设 $0 < a < b$，则下列不等式中正确的是（ ）
-  #choices([$a < b < sqrt(a b)< (a + b)/(2)$], [$a < sqrt(a b)< (a + b)/(2)< b$], [$a < sqrt(a b)< b < (a + b)/(2)$], [$sqrt(a b)< a < (a + b)/(2)< b$], cols: 1)
+设 #mi(`0 < a < b`)，则下列不等式中正确的是（ ）
+  #choices([#mi(`a < b < \sqrt{ab}< \frac{a + b}{2}`)], [#mi(`a < \sqrt{ab}< \frac{a + b}{2}< b`)], [#mi(`a < \sqrt{ab}< b < \frac{a + b}{2}`)], [#mi(`\sqrt{ab}< a < \frac{a + b}{2}< b`)], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-由 $0<a<b$，并且平方根函数在正数上单调递增，有
-$a^2<a b<b^2\i m p l i e s a<sqrt(a b)<b$.
+由 #mi(`0<a<b`)，并且平方根函数在正数上单调递增，有
+
+#mi(`a^{2}<ab<b^{2}\implies a<\sqrt{ab}<b`).
+
 另外，
 
-$ (a+b)/(2)-sqrt(a b)=((sqrt(b)-sqrt(a))^2)/(2)>0 $
 
-所以 $sqrt(a b)<(a+b)/(2)$. 又因 $a<b$，有 $(a+b)/(2)<b$. 合并得
+#align(center)[#mitex(`
+\frac{a+b}{2}-\sqrt{ab}=\frac{(\sqrt{b}-\sqrt{a})^{2}}{2}>0
+`)]
 
-$ a<sqrt(a b)<(a+b)/(2)<b $
+
+所以 #mi(`\sqrt{ab}<\frac{a+b}{2}`). 又因 #mi(`a<b`)，有 #mi(`\frac{a+b}{2}<b`). 合并得
+
+
+#align(center)[#mitex(`
+a<\sqrt{ab}<\frac{a+b}{2}<b
+`)]
+
 
 故选 B.
 ]
 
 #problem(4)[
-函数 $y = x^((1)/(3))$ 的图象是（ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/shaanxi_liberal/q4_optA_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/shaanxi_liberal/q4_optB_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/shaanxi_liberal/q4_optC_clean.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2011/img/shaanxi_liberal/q4_optD_clean.png", height: 100%, fit: "contain")]]], cols: 2)
+函数 #mi(`y = x^{\frac{1}{3}}`) 的图象是（ ）
+  #choices([
+#align(center)[#image("/papers/2011/img/shaanxi_liberal/q4_optA_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/shaanxi_liberal/q4_optB_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/shaanxi_liberal/q4_optC_clean.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2011/img/shaanxi_liberal/q4_optD_clean.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-函数 $y=x^((1)/(3))$ 的定义域和值域都是 $RR$，且是奇函数、严格增函数，经过 $(-1,-1)$、$(0,0)$、$(1,1)$. 对 $x != 0$，其导数为
+函数 #mi(`y=x^{\frac{1}{3}}`) 的定义域和值域都是 #mi(`\mathbb{R}`)，且是奇函数、严格增函数，经过 #mi(`(-1,-1)`)、#mi(`(0,0)`)、#mi(`(1,1)`). 对 #mi(`x\ne0`)，其导数为
 
-$ y'=(1)/(3 x^((2)/(3)))>0 $
 
-当 $x$ 趋近于 $0$ 时，$y'$ 趋于正无穷；当 $|x|$ 增大时，$y'$ 变小. 因此图象在原点处较陡，在两端较平缓，并关于原点中心对称. 四个图形中只有第二个图形符合这些特征，故选 B.
+#align(center)[#mitex(`
+y'=\frac{1}{3x^{\frac{2}{3}}}>0
+`)]
+
+
+当 #mi(`x`) 趋近于 #mi(`0`) 时，#mi(`y'`) 趋于正无穷；当 #mi(`|x|`) 增大时，#mi(`y'`) 变小. 因此图象在原点处较陡，在两端较平缓，并关于原点中心对称. 四个图形中只有第二个图形符合这些特征，故选 B.
 ]
 
 #problem(5)[
 某几何体的三视图如图所示，则它的体积是（ ）
 
 
-#align(center)[#image("/papers/2011/img/shaanxi_liberal/q5_fig1.png", width: 42%)]
-  #choices([$8 - (2 pi)/(3)$], [$8 - (pi)/(3)$], [$8 - 2 pi$], [$(2 pi)/(3)$], cols: 2)
+#align(center)[#image("/papers/2011/img/shaanxi_liberal/q5_fig1.png", width: 28%)]
+
+  #choices([#mi(`8 - \frac{2\pi}{3}`)], [#mi(`8 - \frac{\pi}{3}`)], [#mi(`8 - 2\pi`)], [#mi(`\frac{2\pi}{3}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由正视图和左视图的外轮廓可知外部是棱长为 $2$ 的正方体；俯视图为直径 $2$ 的圆，且正、左视图中的虚线表示从这个圆面向另一侧顶点形成的圆锥空腔. 因此该几何体的体积等于正方体体积减去圆锥体积. 正方体体积为
+由正视图和左视图的外轮廓可知外部是棱长为 #mi(`2`) 的正方体；俯视图为直径 #mi(`2`) 的圆，且正、左视图中的虚线表示从这个圆面向另一侧顶点形成的圆锥空腔. 因此该几何体的体积等于正方体体积减去圆锥体积. 正方体体积为
 
-$ V_("方")=2^3=8 $
 
-圆锥底面半径为 $1$，高为 $2$，所以
+#align(center)[#mitex(`
+V_{\text{\text{方}}}=2^{3}=8
+`)]
 
-$ V_("锥")=(1)/(3) pi dot 1 ""^2 dot 2 =(2 pi)/(3) $
+
+圆锥底面半径为 #mi(`1`)，高为 #mi(`2`)，所以
+
+
+#align(center)[#mitex(`
+V_{\text{\text{锥}}}=\frac{1}{3}\pi\cdot1^{2}\cdot2=\frac{2\pi}{3}
+`)]
+
 
 故几何体体积为
 
-$ V=8-(2 pi)/(3) $
+
+#align(center)[#mitex(`
+V=8-\frac{2\pi}{3}
+`)]
+
 
 对应选项 A，故选 A.
 ]
 
 #problem(6)[
-方程 $|x| = cos x$ 在 $(- oo , + oo )$ 内（ ）
+方程 #mi(`|x| = \cos x`) 在 #mi(`(- \infty, + \infty)`) 内（ ）
   #choices([没有根], [有且仅有一个根], [有且仅有两个根], [有无穷多个根], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-若 $|x|= cos x$，则右端必须非负，且 $|x| <= 1$，故所有根都在 $[-1,1]$ 内. 先考察 $[0,1]$. 此时 $|x|=x$，方程化为 $x= cos x$. 令
+若 #mi(`|x|=\cos x`)，则右端必须非负，且 #mi(`|x|\leqslant1`)，故所有根都在 #mi(`[-1,1]`) 内. 先考察 #mi(`[0,1]`). 此时 #mi(`|x|=x`)，方程化为 #mi(`x=\cos x`). 令
 
-$ h(x)=x- cos x $
 
-则 $h(0)=-1<0$，$h(1)=1- cos 1 >0$，所以由连续性知 $[0,1]$ 内至少有一个根；并且
-$h'(x)=1+ sin x>0$，（$0 <= x <= 1$），
-故 $h$ 严格递增，根至多一个. 因此 $[0,1]$ 内恰有一个根，且它不是 $0$. 方程两边都是偶函数，所以这个正根的相反数也是根；反之，所有负根都对应于该正根. 于是方程恰有两个根，故选 C.
+#align(center)[#mitex(`
+h(x)=x-\cos x
+`)]
+
+
+则 #mi(`h(0)=-1<0`)，#mi(`h(1)=1-\cos1>0`)，所以由连续性知 #mi(`[0,1]`) 内至少有一个根；并且
+
+#mi(`h'(x)=1+\sin x>0`)，（#mi(`0\le x\leqslant1`)），
+
+故 #mi(`h`) 严格递增，根至多一个. 因此 #mi(`[0,1]`) 内恰有一个根，且它不是 #mi(`0`). 方程两边都是偶函数，所以这个正根的相反数也是根；反之，所有负根都对应于该正根. 于是方程恰有两个根，故选 C.
 ]
 
 #problem(7)[
-下面的框图中，当 $x_(1) = 6$，$x_(2) = 9$，$p = 8.5$ 时，$x_(3)$ 等于（ ）
+下面的框图中，当 #mi(`x_{1}= 6`)，#mi(`x_{2}= 9`)，#mi(`p = 8.5`) 时，#mi(`x_{3}`) 等于（ ）
 
-\texfigure[float=inline,max width=0.52\linewidth]{img_repaint/2011/shaanxi_liberal/q7_fig1.tex}
+\texfigure[float=inline,max width=0.52\linewidth]img_repaint/2011/shaanxi_liberal/q7_fig1.tex
+
 \FloatBarrier
-  #choices([$7$], [$8$], [$10$], [$11$], cols: 4)
+  #choices([#mi(`7`)], [#mi(`8`)], [#mi(`10`)], [#mi(`11`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-判定框检验的条件是 $|x_1-x_2|<|x_2-x_3|$. 若条件成立，程序输出
+判定框检验的条件是 #mi(`|x_{1}-x_{2}|<|x_{2}-x_{3}|`). 若条件成立，程序输出
 
-$ p=(x_1+x_2)/(2)=(6+9)/(2)=7.5 $
 
-但题设给出 $p=8.5$，二者不相等，所以该条件不成立. 程序应沿“否”分支，输出
+#align(center)[#mitex(`
+p=\frac{x_{1}+x_{2}}{2}=\frac{6+9}{2}=7.5
+`)]
 
-$ p=(x_2+x_3)/(2) $
+
+但题设给出 #mi(`p=8.5`)，二者不相等，所以该条件不成立. 程序应沿“否”分支，输出
+
+
+#align(center)[#mitex(`
+p=\frac{x_{2}+x_{3}}{2}
+`)]
+
 
 代入已知数值得
-$8.5=(9+x_3)/(2)$，解得 $x_3=17-9=8$.
-此时 $|x_1-x_2|=3$，$|x_2-x_3|=1$，确实满足“否”分支的条件，故选 B.
+
+#mi(`8.5=\frac{9+x_{3}}{2}`)，解得 #mi(`x_{3}=17-9=8`).
+
+此时 #mi(`|x_{1}-x_{2}|=3`)，#mi(`|x_{2}-x_{3}|=1`)，确实满足“否”分支的条件，故选 B.
 ]
 
 #problem(8)[
-设集合 $M = \{y | y = | cos ""^2 x - sin ""^2 x|, x in RR \}$，$N = \{x | |(x)/(i)| < 1,\ i " 为虚数单位",\ x in RR \}$，则 $M inter N$ 为（ ）
-  #choices([$(0,1)$], [$(0,1]$], [$[0,1)$], [$[0,1]$], cols: 4)
+设集合 #mi(`M = \{y \mid y = |\cos^{2} x - \sin^{2} x|, x \in \mathbb{R}\}`)，#mi(`N = \left\{x \mid \left|\frac{x}{\mathrm{i}}\right| < 1,\ \mathrm{i}\text{ \text{为虚数单位}},\ x \in \mathbb{R}\right\}`)，则 #mi(`M \cap N`) 为（ ）
+  #choices([#mi(`(0,1)`)], [#mi(`(0,1]`)], [#mi(`[0,1)`)], [#mi(`[0,1]`)], cols: 4)
 ]
 
 #answer([C])
@@ -145,271 +197,341 @@ $8.5=(9+x_3)/(2)$，解得 $x_3=17-9=8$.
 #solution[
 利用二倍角公式，
 
-$ cos ""^(2) x- sin ""^(2) x= cos 2 x $
 
-当 $x$ 遍历 $RR$ 时，$2 x$ 也遍历 $RR$，所以 $| cos 2 x|$ 的最小值为 $0$，最大值为 $1$，且中间各值都能取得，从而 $M=[0,1]$. 对实数 $x$，虚数单位满足 $| i |=1$，因此
+#align(center)[#mitex(`
+\cos^{2}x-\sin^{2}x=\cos2x
+`)]
 
-$ |(x)/(i)|=(|x|)/(| i |)=|x| $
 
-于是 $N=\{x in RR | |x|<1\}=(-1,1)$. 最后
+当 #mi(`x`) 遍历 #mi(`\mathbb{R}`) 时，#mi(`2x`) 也遍历 #mi(`\mathbb{R}`)，所以 #mi(`|\cos2x|`) 的最小值为 #mi(`0`)，最大值为 #mi(`1`)，且中间各值都能取得，从而 #mi(`M=[0,1]`). 对实数 #mi(`x`)，虚数单位满足 #mi(`|\mathrm{i}|=1`)，因此
 
-$ M inter N=[0,1) $
+
+#align(center)[#mitex(`
+\left|\frac{x}{\mathrm{i}}\right|=\frac{|x|}{|\mathrm{i}|}=|x|
+`)]
+
+
+于是 #mi(`N=\{x\in\mathbb{R}\mid |x|<1\}=(-1,1)`). 最后
+
+
+#align(center)[#mitex(`
+M\cap N=[0,1)
+`)]
+
 
 故选 C.
 ]
 
 #problem(9)[
-设 $(x_(1), y_(1))$，$(x_(2), y_(2))$，$dots.c$，$(x_(n), y_(n))$ 是变量 $x$ 和 $y$ 的 $n$ 个样本点，直线 $l$ 是由这些样本点通过最小二乘法得到的线性回归直线（如图），以下结论中正确的是（ ）
+设 #mi(`(x_{1}, y_{1})`)，#mi(`(x_{2}, y_{2})`)，#mi(`\cdots`)，#mi(`(x_{n}, y_{n})`) 是变量 #mi(`x`) 和 #mi(`y`) 的 #mi(`n`) 个样本点，直线 #mi(`l`) 是由这些样本点通过最小二乘法得到的线性回归直线（如图），以下结论中正确的是（ ）
 
 
-#align(center)[#image("/papers/2011/img/shaanxi_liberal/q9_fig1.png", width: 36%)]
-  #choices([直线 $l$ 过点 $(overline(x), overline(y))$], [$x$ 和 $y$ 的相关系数为直线 $l$ 的斜率], [$x$ 和 $y$ 的相关系数在 $0$ 到 $1$ 之间], [当 $n$ 为偶数时，分布在 $l$ 两侧的样本点的个数一定相同], cols: 1)
+#align(center)[#image("/papers/2011/img/shaanxi_liberal/q9_fig1.png", width: 28%)]
+
+  #choices([直线 #mi(`l`) 过点 #mi(`(\overline{x}, \overline{y})`)], [#mi(`x`) 和 #mi(`y`) 的相关系数为直线 #mi(`l`) 的斜率], [#mi(`x`) 和 #mi(`y`) 的相关系数在 #mi(`0`) 到 #mi(`1`) 之间], [当 #mi(`n`) 为偶数时，分布在 #mi(`l`) 两侧的样本点的个数一定相同], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-设最小二乘回归直线为 $l:y=\h a t a+\h a t b x$. 正规方程中的截距关系为
+设最小二乘回归直线为 #mi(`l:y=\hat a+\hat b x`). 正规方程中的截距关系为
 
-$ \h a t a=\overline y-\h a t b \overline x $
 
-因此当 $x=\overline x$ 时，$l$ 上的纵坐标为 $\h a t a+\h a t b\overline x=\overline y$，即直线必过 $(\overline x,\overline y)$，选项 A 正确. 相关系数为
+#align(center)[#mitex(`
+\hat a=\overline y-\hat b\,\overline x
+`)]
 
-$ r=(S_(x y))/(sqrt(S_(x x)S_(y y))) $
 
-而回归直线斜率为 $\h a t b=(S_(x y))/(S_(x x))$，二者一般不相等；相关系数的取值范围是 $[-1,1]$，不一定在 $0$ 到 $1$ 之间；样本点在回归直线两侧的个数也不由 $n$ 的奇偶性决定. 因此正确结论只有 A.
+因此当 #mi(`x=\overline x`) 时，#mi(`l`) 上的纵坐标为 #mi(`\hat a+\hat b\overline x=\overline y`)，即直线必过 #mi(`(\overline x,\overline y)`)，选项 A 正确. 相关系数为
+
+
+#align(center)[#mitex(`
+r=\frac{S_{xy}}{\sqrt{S_{xx}S_{yy}}}
+`)]
+
+
+而回归直线斜率为 #mi(`\hat b=\frac{S_{xy}}{S_{xx}}`)，二者一般不相等；相关系数的取值范围是 #mi(`[-1,1]`)，不一定在 #mi(`0`) 到 #mi(`1`) 之间；样本点在回归直线两侧的个数也不由 #mi(`n`) 的奇偶性决定. 因此正确结论只有 A.
 ]
 
 #problem(10)[
-植树节某班 $20$ 名同学在一段直线公路一侧植树，每人植一棵，相邻两棵树相距 $10" 米"$，开始时需将树苗集中放置在某一树坑旁边，现将树坑从 $1$ 到 $20$ 依次编号，为使各位同学从各自树坑前来领取树苗所走的路程总和最小，树苗可以放置的两个最佳坑位的编号为（ ）
-  #choices([$1$ 和 $20$], [$9$ 和 $10$], [$9$ 和 $11$], [$10$ 和 $11$], cols: 4)
+植树节某班 #mi(`20`) 名同学在一段直线公路一侧植树，每人植一棵，相邻两棵树相距 #mi(`10\text{ \text{米}}`)，开始时需将树苗集中放置在某一树坑旁边，现将树坑从 #mi(`1`) 到 #mi(`20`) 依次编号，为使各位同学从各自树坑前来领取树苗所走的路程总和最小，树苗可以放置的两个最佳坑位的编号为（ ）
+  #choices([#mi(`1`) 和 #mi(`20`)], [#mi(`9`) 和 #mi(`10`)], [#mi(`9`) 和 #mi(`11`)], [#mi(`10`) 和 #mi(`11`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-若把树苗放在第 $k$ 个坑旁，所有同学取树苗所走的总路程为
+若把树苗放在第 #mi(`k`) 个坑旁，所有同学取树苗所走的总路程为
 
-$ S_k=10 sum_(j=1)^(20)|j-k| $
 
-把放置点从第 $k$ 个坑移到第 $k+1$ 个坑时，第 $1$ 至第 $k$ 个坑的同学各多走 $10$ 米，第 $k+1$ 至第 $20$ 个坑的同学各少走 $10$ 米，所以
+#align(center)[#mitex(`
+S_{k}=10\sum_{j=1}^{20}|j-k|
+`)]
 
-$ S_(k+1)-S_k=10 k-10(20-k)=10(2 k-20) $
 
-当 $k<10$ 时，$S_(k+1)<S_k$；当 $k=10$ 时，$S_(k+1)=S_k$；当 $k>10$ 时，$S_(k+1)>S_k$. 因此总路程先减小，在第 $10$ 个坑和第 $11$ 个坑处相同达到最小，随后增大. 两个最佳坑位的编号为 $10$ 和 $11$，故选 D.
+把放置点从第 #mi(`k`) 个坑移到第 #mi(`k+1`) 个坑时，第 #mi(`1`) 至第 #mi(`k`) 个坑的同学各多走 #mi(`10`) 米，第 #mi(`k+1`) 至第 #mi(`20`) 个坑的同学各少走 #mi(`10`) 米，所以
+
+
+#align(center)[#mitex(`
+S_{k+1}-S_{k}=10k-10(20-k)=10(2k-20)
+`)]
+
+
+当 #mi(`k<10`) 时，#mi(`S_{k+1}<S_{k}`)；当 #mi(`k=10`) 时，#mi(`S_{k+1}=S_{k}`)；当 #mi(`k>10`) 时，#mi(`S_{k+1}>S_{k}`). 因此总路程先减小，在第 #mi(`10`) 个坑和第 #mi(`11`) 个坑处相同达到最小，随后增大. 两个最佳坑位的编号为 #mi(`10`) 和 #mi(`11`)，故选 D.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-设函数 $f(x) = \b e g i n{c a s e s} \l g x, & x > 0,\\ 10^x, & x <= 0 . \e n d{c a s e s}$ 则 $f(f(-2)) =$#blank(){}.
+设函数 #mi(`f(x) = \begin{cases}\lg x,&x > 0,\\  10^{x},&x \le 0.\end{cases}`) 则 #mi(`f(f(-2)) =`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-2$])
+#answer([#mi(`-2`)])
 
 #solution[
-因为 $-2 <= 0$，第一次代入分段函数的下半段，得
+因为 #mi(`-2\leqslant0`)，第一次代入分段函数的下半段，得
 
-$ f(-2)=10^(-2)>0 $
 
-这个结果为正数，所以第二次代入时使用上半段 $f(x)=\l g x$，从而
+#align(center)[#mitex(`
+f(-2)=10^{-2}>0
+`)]
 
-$ f(f(-2))=\l g(10^(-2))=-2 $
+
+这个结果为正数，所以第二次代入时使用上半段 #mi(`f(x)=\lg x`)，从而
+
+
+#align(center)[#mitex(`
+f(f(-2))=\lg(10^{-2})=-2
+`)]
 ]
 
 #problem(12)[
-如图，点 $(x, y)$ 在四边形 $A B C D$ 内部和边界上运动，那么 $2 x - y$ 的最小值为#blank(){}.
+如图，点 #mi(`(x, y)`) 在四边形 #mi(`ABCD`) 内部和边界上运动，那么 #mi(`2x - y`) 的最小值为\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2011/img/shaanxi_liberal/q12_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2011/img/shaanxi_liberal/q12_fig1.png", width: 28%)]
+
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #solution[
-由图可读出四边形的顶点为 $A(1,1)$、$B(sqrt(3),sqrt(2))$、$C(sqrt(5),1)$、$D(1,0)$. 目标函数 $2 x-y$ 在每条边上都是关于位置参数的一次函数，所以在每条边上的最小值都在端点取得；因此只需比较四个顶点处的值：
-
-$ 2 x_A-y_A=2 dot 1 -1=1 $
+由图可读出四边形的顶点为 #mi(`A(1,1)`)、#mi(`B(\sqrt{3},\sqrt{2})`)、#mi(`C(\sqrt{5},1)`)、#mi(`D(1,0)`). 目标函数 #mi(`2x-y`) 在每条边上都是关于位置参数的一次函数，所以在每条边上的最小值都在端点取得；因此只需比较四个顶点处的值：
 
 
-$ 2 x_B-y_B=2 sqrt(3)-sqrt(2) $
+#align(center)[#mitex(`
+2x_{A}-y_{A}=2\cdot1-1=1
+`)]
 
-$2 x_C-y_C=2 sqrt(5)-1$，$2 x_D-y_D=2 dot 1 -0=2$. 由于 $2 sqrt(3)-sqrt(2)=sqrt(3)+(sqrt(3)-sqrt(2))>sqrt(3)>1$，且 $2 sqrt(5)-1>1$，故四个值的最小值为 $1$.
+
+
+#align(center)[#mitex(`
+2x_{B}-y_{B}=2\sqrt{3}-\sqrt{2}
+`)]
+
+
+#mi(`2x_{C}-y_{C}=2\sqrt{5}-1`)，#mi(`2x_{D}-y_{D}=2\cdot1-0=2`). 由于 #mi(`2\sqrt{3}-\sqrt{2}=\sqrt{3}+(\sqrt{3}-\sqrt{2})>\sqrt{3}>1`)，且 #mi(`2\sqrt{5}-1>1`)，故四个值的最小值为 #mi(`1`).
 ]
 
 #problem(13)[
-观察下列等式 $1 = 1$，$2 + 3 + 4 = 9$，$3 + 4 + 5 + 6 + 7 = 25$，$4 + 5 + 6 + 7 + 8 + 9 + 10 = 49$，$...$. 照此规律，第五个等式应为#blank(){}.
+观察下列等式 #mi(`1 = 1`)，#mi(`2 + 3 + 4 = 9`)，#mi(`3 + 4 + 5 + 6 + 7 = 25`)，#mi(`4 + 5 + 6 + 7 + 8 + 9 + 10 = 49`)，#mi(`\dots`). 照此规律，第五个等式应为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$5+6+ dots.c +13=81$])
+#answer([#mi(`5+6+\cdots+13=81`)])
 
 #solution[
-第 $n$ 个等式从 $n$ 开始，每次加 $1$，共有 $2 n-1$ 项，末项为
+第 #mi(`n`) 个等式从 #mi(`n`) 开始，每次加 #mi(`1`)，共有 #mi(`2n-1`) 项，末项为
 
-$ n+(2 n-2)=3 n-2 $
 
-因此第 $n$ 个等式左边的和为
+#align(center)[#mitex(`
+n+(2n-2)=3n-2
+`)]
 
-$ (n+(3 n-2))/(2)(2 n-1)=(2 n-1)^2 $
 
-这与题目给出的前四个等式相符. 取 $n=5$，共有 $9$ 项，末项为 $13$，所以第五个等式为
+因此第 #mi(`n`) 个等式左边的和为
 
-$ 5+6+7+8+9+10+11+12+13=81 $
+
+#align(center)[#mitex(`
+\frac{n+(3n-2)}{2}(2n-1)=(2n-1)^{2}
+`)]
+
+
+这与题目给出的前四个等式相符. 取 #mi(`n=5`)，共有 #mi(`9`) 项，末项为 #mi(`13`)，所以第五个等式为
+
+
+#align(center)[#mitex(`
+5+6+7+8+9+10+11+12+13=81
+`)]
 ]
 
 #problem(14)[
-设 $n in NN _(+)$，一元二次方程 $x^(2) - 4 x + n = 0$ 有整数根的充要条件是 $n=$#blank(){}.
+设 #mi(`n \in \N_{+}`)，一元二次方程 #mi(`x^{2}- 4x + n = 0`) 有整数根的充要条件是 #mi(`n=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$3\) 或 \(4$])
+#answer([#mi(`3`) 或 #mi(`4`)])
 
 #solution[
-若方程有一个整数根 $r$，则由韦达定理，另一个根为 $4-r$，也是整数，记为 $s$. 于是
-$r+s=4$，$r s=n$
-又因为 $n in NN _+$，所以 $r s>0$；结合 $r+s=4>0$，可知 $r$，$s$ 都是正整数. 正整数中和为 $4$ 的组合只有 $(r,s)=(1,3)$、$(2,2)$ 及交换次序的情形，因此
+若方程有一个整数根 #mi(`r`)，则由韦达定理，另一个根为 #mi(`4-r`)，也是整数，记为 #mi(`s`). 于是
 
-$ n=r s=3 "或"n=r s=4 $
+#mi(`r+s=4`)，#mi(`rs=n`)
 
-反过来，$n=3$ 时
+又因为 #mi(`n\in\N_{+}`)，所以 #mi(`rs>0`)；结合 #mi(`r+s=4>0`)，可知 #mi(`r`)，#mi(`s`) 都是正整数. 正整数中和为 #mi(`4`) 的组合只有 #mi(`(r,s)=(1,3)`)、#mi(`(2,2)`) 及交换次序的情形，因此
 
-$ x^2-4 x+3=(x-1)(x-3) $
 
-有整数根；$n=4$ 时
+#align(center)[#mitex(`
+n=rs=3\quad\text{\text{或}}\quad n=rs=4
+`)]
 
-$ x^2-4 x+4=(x-2)^2 $
 
-也有整数根. 所以充要条件为 $n=3$ 或 $n=4$.
+反过来，#mi(`n=3`) 时
+
+
+#align(center)[#mitex(`
+x^{2}-4x+3=(x-1)(x-3)
+`)]
+
+
+有整数根；#mi(`n=4`) 时
+
+
+#align(center)[#mitex(`
+x^{2}-4x+4=(x-2)^{2}
+`)]
+
+
+也有整数根. 所以充要条件为 #mi(`n=3`) 或 #mi(`n=4`).
 ]
 
 #part-header("选做题")
 
 #problem(15)[
-若不等式 $|x+1|+|x-2| >= a$ 对任意 $x in RR$ 恒成立，则 $a$ 的取值范围是#blank(){}.
+若不等式 #mi(`|x+1|+|x-2|\ge a`) 对任意 #mi(`x\in\mathbb{R}`) 恒成立，则 #mi(`a`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(- oo ,3]$])
+#answer([#mi(`(-\infty,3]`)])
 
 #solution[
 由三角不等式，
 
-$ |x+1|+|x-2| >= |(x+1)-(x-2)|=3 $
 
-当且仅当 $x+1$ 与 $x-2$ 异号或其中一个为零，即 $-1 <= x <= 2$ 时取等号. 因此左端对所有实数 $x$ 的最小值为 $3$. 要使
+#align(center)[#mitex(`
+|x+1|+|x-2|\ge |(x+1)-(x-2)|=3
+`)]
 
-$ |x+1|+|x-2| >= a $
 
-对任意 $x in RR$ 恒成立，必要且充分条件就是 $a <= 3$. 故 $a$ 的取值范围为 $(- oo ,3]$.
+当且仅当 #mi(`x+1`) 与 #mi(`x-2`) 异号或其中一个为零，即 #mi(`-1\le x\leqslant2`) 时取等号. 因此左端对所有实数 #mi(`x`) 的最小值为 #mi(`3`). 要使
+
+
+#align(center)[#mitex(`
+|x+1|+|x-2|\ge a
+`)]
+
+
+对任意 #mi(`x\in\mathbb{R}`) 恒成立，必要且充分条件就是 #mi(`a\leqslant3`). 故 #mi(`a`) 的取值范围为 #mi(`(-\infty,3]`).
 ]
 
 #problem(16)[
-如图，$angle B = angle D$，$A E bot B C$，$angle A C D = 90^( degree )$，且 $A B = 6$，$A C = 4$，$A D = 12$，则 $A E =$#blank(){}.
+如图，#mi(`\angle B = \angle D`)，#mi(`AE \perp BC`)，#mi(`\angle ACD = 90^{\circ}`)，且 #mi(`AB = 6`)，#mi(`AC = 4`)，#mi(`AD = 12`)，则 #mi(`AE =`)\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2011/img/shaanxi_liberal/q15_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2011/img/shaanxi_liberal/q15_fig1.png", width: 28%)]
+
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-在直角三角形 $A C D$ 中，$angle A C D=90^ degree$，所以 $A D$ 是斜边. 设 $angle A D C= theta$，由正弦定义有
+在直角三角形 #mi(`ACD`) 中，#mi(`\angle ACD=90^{\circ}`)，所以 #mi(`AD`) 是斜边. 设 #mi(`\angle ADC=\theta`)，由正弦定义有
 
-$ sin theta =(A C)/(A D)=(4)/(12)=(1)/(3) $
 
-题设 $angle B= angle D$，即 $angle A B C= angle A D C= theta$，所以
+#align(center)[#mitex(`
+\sin\theta=\frac{AC}{AD}=\frac{4}{12}=\frac{1}{3}
+`)]
 
-$ sin angle A B C=(1)/(3) $
 
-又因 $A E bot B C$，三角形 $A B E$ 在 $E$ 处为直角，且 $angle A B E= angle A B C$. 于是
+题设 #mi(`\angle B=\angle D`)，即 #mi(`\angle ABC=\angle ADC=\theta`)，所以
 
-$ A E=A B sin angle A B E =6 sin angle A B C =6 dot (1)/(3)=2 $
 
-故 $A E=2$.
+#align(center)[#mitex(`
+\sin\angle ABC=\frac{1}{3}
+`)]
+
+
+又因 #mi(`AE\perp BC`)，三角形 #mi(`ABE`) 在 #mi(`E`) 处为直角，且 #mi(`\angle ABE=\angle ABC`). 于是
+
+
+#align(center)[#mitex(`
+AE=AB\sin\angle ABE  =6\sin\angle ABC  =6\cdot\frac{1}{3}=2
+`)]
+
+
+故 #mi(`AE=2`).
 ]
 
 #problem(17)[
-直角坐标系 $x O y$ 中，以原点为极点，$x$ 轴正半轴为极轴建立极坐标系，设点 $A$，$B$ 分别在曲线 $C_1: \b e g i n{c a s e s} x = 3 + cos theta ,\\ y = sin theta , \e n d{c a s e s}$ （$theta$ 为参数）和曲线 $C_2: rho = 1$ 上，则 $|A B|$ 的最小值为#blank(){}.
+直角坐标系 #mi(`xOy`) 中，以原点为极点，#mi(`x`) 轴正半轴为极轴建立极坐标系，设点 #mi(`A`)，#mi(`B`) 分别在曲线 #mi(`C_{1}: \begin{cases}x = 3 + \cos \theta,\\
+
+y = \sin \theta,\end{cases}`) （#mi(`\theta`) 为参数）和曲线 #mi(`C_{2}: \rho = 1`) 上，则 #mi(`|AB|`) 的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #solution[
 由参数方程
 
-$ (x-3)^2+y^2= cos ""^2 theta + sin ""^2 theta =1 $
 
-可知 $C_1$ 是圆心为 $(3,0)$、半径为 $1$ 的圆. 极坐标方程 $rho =1$ 表示圆心为原点、半径为 $1$ 的圆 $C_2$. 对任意 $A in C_1$，由三角不等式有
+#align(center)[#mitex(`
+(x-3)^{2}+y^{2}=\cos^{2}\theta+\sin^{2}\theta=1
+`)]
 
-$ |O A| >= 3 -1=2 $
 
-而任意 $B in C_2$ 都满足 $|O B|=1$，所以
+可知 #mi(`C_{1}`) 是圆心为 #mi(`(3,0)`)、半径为 #mi(`1`) 的圆. 极坐标方程 #mi(`\rho=1`) 表示圆心为原点、半径为 #mi(`1`) 的圆 #mi(`C_{2}`). 对任意 #mi(`A\in C_{1}`)，由三角不等式有
 
-$ |A B| >= ||O A|-|O B|| >= 2 -1=1 $
 
-取 $theta = pi$，得 $A=(2,0)$；再取 $B=(1,0)$，此时 $|A B|=1$，下界可以取得. 因此 $|A B|$ 的最小值为 $1$.
+#align(center)[#mitex(`
+|OA|\ge 3-1=2
+`)]
+
+
+而任意 #mi(`B\in C_{2}`) 都满足 #mi(`|OB|=1`)，所以
+
+
+#align(center)[#mitex(`
+|AB|\ge\bigl||OA|-|OB|\bigr|\geqslant2-1=1
+`)]
+
+
+取 #mi(`\theta=\pi`)，得 #mi(`A=(2,0)`)；再取 #mi(`B=(1,0)`)，此时 #mi(`|AB|=1`)，下界可以取得. 因此 #mi(`|AB|`) 的最小值为 #mi(`1`).
 ]
 
 #part-header("解答题")
 
 #problem(18)[
-如图，在 $triangle A B C$ 中，$angle A B C = 45^( degree )$，$angle B A C = 90^( degree )$，$A D$ 是 $B C$ 上的高，沿 $A D$ 把 $triangle A B D$ 折起，使 $angle B D C = 90^( degree )$.
+如图，在 #mi(`\triangle ABC`) 中，#mi(`\angle ABC = 45^{\circ}`)，#mi(`\angle BAC = 90^{\circ}`)，#mi(`AD`) 是 #mi(`BC`) 上的高，沿 #mi(`AD`) 把 #mi(`\triangle ABD`) 折起，使 #mi(`\angle BDC = 90^{\circ}`).
 
 
-+ (1) 证明：平面 $A D B bot$ 平面 $B D C$；
-+ (2) 若 $B D = 1$，求三棱锥 $D - A B C$ 的表面积.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2011/img/shaanxi_liberal/q16_fig1.png", width: 78%)]
+
+#align(center)[#image("/papers/2011/img/shaanxi_liberal/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 折叠前 $A D bot B C$，而 $D C subset B C$，所以 $A D bot D C$. 折叠沿 $A D$ 进行，平面 $A C D$ 保持不动，故折叠后仍有 $A D bot D C$. 三角形 $A B D$ 的形状在折叠中不变，且折叠前 $A D bot B D$，所以折叠后仍有 $A D bot B D$. 题设 $angle B D C=90^ degree$，即 $B D bot D C$. 于是 $D C$ 垂直于平面 $A D B$ 内相交的两条直线 $A D$、$B D$，从而 $D C bot$ 平面 $A D B$. 又因为 $D C subset$ 平面 $B D C$，平面 $B D C$ 内含有一条垂直于平面 $A D B$ 的直线，所以平面 $A D B bot$ 平面 $B D C$.
-+ (2) 在三角形 $A B C$ 中，$angle B A C=90^ degree$、$angle A B C=45^ degree$，所以 $angle A C B=45^ degree$，从而 $A B=A C$. 三角形 $A B D$、$A C D$ 都是直角三角形，斜边分别为 $A B$、$A C$，且有公共直角边 $A D$. 由斜边直角边判定，两三角形全等，故 $B D=D C$. 由 $B D=1$ 得 $D C=1$. 又在直角三角形 $A B D$ 中，$angle A B D= angle A B C=45^ degree$，所以 $angle B A D=45^ degree$，从而 $A D=B D=1$. 折叠后 $A D$、$B D$、$D C$ 两两垂直，因此
-$A B^2=A D^2+B D^2=2$、$A C^2=A D^2+D C^2=2$、$B C^2=B D^2+D C^2=2$.
-故三角形 $A B C$ 是边长为 $sqrt(2)$ 的正三角形，其面积为
-
-$ S_(A B C)=(sqrt(3))/(4)(sqrt(2))^2=(sqrt(3))/(2) $
-
-三个侧面 $D A B$、$D B C$、$D C A$ 都是直角边为 $1$、$1$ 的直角三角形，面积均为 $(1)/(2)$. 所以三棱锥的表面积为
-
-$ S=S_(A B C)+S_(D A B)+S_(D B C)+S_(D C A)=(sqrt(3))/(2)+3 dot (1)/(2)=(3+sqrt(3))/(2) $
++ (1)
 ]
 
 #problem(19)[
-设椭圆 $C: (x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > b > 0$）过点 $(0,4)$，离心率为 $(3)/(5)$.
+设椭圆 #mi(`C: \frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)）过点 #mi(`(0,4)`)，离心率为 #mi(`\frac{3}{5}`).
 
 
-+ (1) 求 $C$ 的方程；
-+ (2) 求过点 $(3,0)$ 且斜率为 $(4)/(5)$ 的直线被 $C$ 所截线段的中点坐标.
++ (1)
 ]
 
 #solution[
-+ (1) 椭圆过点 $(0,4)$，代入方程得
-
-$ (16)/(b^2)=1 $
-
-由于 $b>0$，所以 $b=4$. 设焦半距为 $c$，则 $c^2=a^2-b^2=a^2-16$. 由离心率 $e=(c)/(a)=(3)/(5)$，得 $c^2=9(a^2)/(25)$，于是
-$a^2-16=(9)/(25)a^2$，即 $(16)/(25)a^2=16$，所以 $a^2=25$.
-因为 $a>0$，所以 $a=5$. 故椭圆方程为
-
-$ (x^2)/(25)+(y^2)/(16)=1 $
-+ (2) 过 $(3,0)$ 且斜率为 $(4)/(5)$ 的直线为
-
-$ y=(4)/(5)(x-3) $
-
-代入椭圆方程，得
-$(x^2)/(25)+(((4)/(5)(x-3))^2)/(16)=1$，化简得 $x^2+(x-3)^2=25$，
-即
-
-$ x^2-3 x-8=0 $
-
-其判别式为 $9+32=41>0$，所以直线与椭圆有两个交点. 设两交点横坐标为 $x_1$，$x_2$，由韦达定理 $x_1+x_2=3$. 对应纵坐标满足 $y_i=(4)/(5)(x_i-3)$，故
-
-$ y_1+y_2=(4)/(5)(x_1+x_2-6)=(4)/(5)(3-6)=-(12)/(5) $
-
-因此截线段中点坐标为
-
-$ ((x_1+x_2)/(2),(y_1+y_2)/(2))=((3)/(2),-(6)/(5)) $
++ (1)
 ]
 
 #problem(20)[
@@ -417,139 +539,111 @@ $ ((x_1+x_2)/(2),(y_1+y_2)/(2))=((3)/(2),-(6)/(5)) $
 ]
 
 #solution[
-在三角形 $A B C$ 中，记
-$a=|B C|$、$b=|C A|$、$c=|A B|$，
-并令 $A= angle B A C$、$B= angle C B A$、$C= angle A C B$. 余弦定理为 $a^2=b^2+c^2-2 b c cos A$、$b^2=c^2+a^2-2 c a cos B$、$c^2=a^2+b^2-2 a b cos C$.
-证明第一式. 建立直角坐标系，取 $A$ 为原点，$A B$ 沿 $x$ 轴正方向，则可设
-$B=(c,0)$，$C=(b cos A,b sin A)$，
+在三角形 #mi(`ABC`) 中，记
+
+#mi(`a=|BC|`)、#mi(`b=|CA|`)、#mi(`c=|AB|`)，
+
+并令 #mi(`A=\angle BAC`)、#mi(`B=\angle CBA`)、#mi(`C=\angle ACB`). 余弦定理为 #mi(`a^{2}=b^{2}+c^{2}-2bc\cos A`)、#mi(`b^{2}=c^{2}+a^{2}-2ca\cos B`)、#mi(`c^{2}=a^{2}+b^{2}-2ab\cos C`).
+
+证明第一式. 建立直角坐标系，取 #mi(`A`) 为原点，#mi(`AB`) 沿 #mi(`x`) 轴正方向，则可设
+
+#mi(`B=(c,0)`)，#mi(`C=(b\cos A,b\sin A)`)，
+
 于是
 
-$ \b e g i n{g a t h e r e d} a^2=|B C|^2=(b cos A-c)^2+(b sin A)^2\\ =b^2 cos ""^(2) A-2 b c cos A+c^2+b^2 sin ""^(2) A=b^2+c^2-2 b c cos A \e n d{g a t h e r e d} $
 
-其中最后一步使用了 $sin ""^(2) A+ cos ""^(2) A=1$. 再以 $B$ 为原点、$B A$ 所在直线为 $x$ 轴正方向，取
-$A=(c,0)$，$C=(a cos B,a sin B)$，
+#align(center)[#mitex(`
+\begin{gathered}a^2=|BC|^2=(b\cos A-c)^2+(b\sin A)^2\\
+
+=b^2\cos^2A-2bc\cos A+c^2+b^2\sin^2A=b^2+c^2-2bc\cos A\end{gathered}
+`)]
+
+
+其中最后一步使用了 #mi(`\sin^{2}A+\cos^{2}A=1`). 再以 #mi(`B`) 为原点、#mi(`BA`) 所在直线为 #mi(`x`) 轴正方向，取
+
+#mi(`A=(c,0)`)，#mi(`C=(a\cos B,a\sin B)`)，
+
 则
 
-$ b^2=|C A|^2=(a cos B-c)^2+(a sin B)^2=a^2+c^2-2 a c cos B $
 
-最后以 $C$ 为原点、$C B$ 所在直线为 $x$ 轴正方向，取
-$B=(a,0)$，$A=(b cos C,b sin C)$，
+#align(center)[#mitex(`
+b^{2}=|CA|^{2}=(a\cos B-c)^{2}+(a\sin B)^{2}=a^{2}+c^{2}-2ac\cos B
+`)]
+
+
+最后以 #mi(`C`) 为原点、#mi(`CB`) 所在直线为 #mi(`x`) 轴正方向，取
+
+#mi(`B=(a,0)`)，#mi(`A=(b\cos C,b\sin C)`)，
+
 则
 
-$ c^2=|A B|^2=(b cos C-a)^2+(b sin C)^2=a^2+b^2-2 a b cos C $
+
+#align(center)[#mitex(`
+c^{2}=|AB|^{2}=(b\cos C-a)^{2}+(b\sin C)^{2}=a^{2}+b^{2}-2ab\cos C
+`)]
+
 
 三式均成立，故余弦定理得证.
 ]
 
 #problem(21)[
-如图，从点 $P_(1)(0,0)$ 作 $x$ 轴的垂线交曲线 $y = e ""^(x)$ 于点 $Q_(1)(0,1)$，曲线在 $Q_(1)$ 点处的切线与 $x$ 轴交于点 $P_(2)$，再从 $P_(2)$ 作 $x$ 轴的垂线交曲线于点 $Q_(2)$，依次重复上述过程得到一系列点：$P_(1)$，$Q_(1)$；$P_(2)$，$Q_(2)$；$dots.c$；$P_(n)$，$Q_(n)$，记 $P_(k)$ 点的坐标为 $(x_(k), 0)$（$k = 1$，$2$，$dots.c$，$n$）.
+如图，从点 #mi(`P_{1}(0,0)`) 作 #mi(`x`) 轴的垂线交曲线 #mi(`y = \mathrm{e}^{x}`) 于点 #mi(`Q_{1}(0,1)`)，曲线在 #mi(`Q_{1}`) 点处的切线与 #mi(`x`) 轴交于点 #mi(`P_{2}`)，再从 #mi(`P_{2}`) 作 #mi(`x`) 轴的垂线交曲线于点 #mi(`Q_{2}`)，依次重复上述过程得到一系列点：#mi(`P_{1}`)，#mi(`Q_{1}`)；#mi(`P_{2}`)，#mi(`Q_{2}`)；#mi(`\cdots`)；#mi(`P_{n}`)，#mi(`Q_{n}`)，记 #mi(`P_{k}`) 点的坐标为 #mi(`(x_{k}, 0)`)（#mi(`k = 1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`n`)）.
 
 
-+ (1) 试求 $x_(k)$ 与 $x_(k-1)$ 的关系（$2 <= k <= n$）；
-+ (2) 求 $|P_(1)Q_(1)|+|P_(2)Q_(2)|+|P_(3)Q_(3)|+ dots.c +|P_(n)Q_(n)|$.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2011/img/shaanxi_liberal/q19_fig1.png", width: 46%)]
+
+#align(center)[#image("/papers/2011/img/shaanxi_liberal/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设 $P_(k-1)=(x_(k-1),0)$. 因为 $P_(k-1)$ 的垂线与曲线交于 $Q_(k-1)$，所以
-
-$ Q_(k-1)=(x_(k-1), e ""^(x_(k-1))) $
-
-函数 $y= e ""^x$ 的导数为 $y'= e ""^x$，故曲线在 $Q_(k-1)$ 处的切线方程为
-
-$ y- e ""^(x_(k-1))= e ""^(x_(k-1))(x-x_(k-1)) $
-
-该切线与 $x$ 轴交于 $P_k=(x_k,0)$. 代入 $y=0$，$x=x_k$，并利用 $e ""^(x_(k-1))>0$，得
-$- e ""^(x_(k-1))= e ""^(x_(k-1))(x_k-x_(k-1))$，解得 $x_k=x_(k-1)-1$（$2 <= k <= n$）.
-+ (2) 由 $x_1=0$ 和递推关系，逐项得到
-
-$ x_k=x_1-(k-1)=1-k $
-
-由于 $P_(k) Q_k$ 是竖直线段，且 $Q_k=(x_k, e ""^(x_k))$，所以
-
-$ |P_(k) Q_k|= e ""^(x_k)= e ""^(1-k) $
-
-故所求和为首项 $1$、公比 $e ""^(-1)$ 的等比数列前 $n$ 项和：
-
-$ \b e g i n{a l i g n e d} sum_(k=1)^(n)|P_(k) Q_k|=sum_(k=1)^(n) e ""^(1-k)=1+ e ""^(-1)+ dots.c + e ""^(-(n-1))\\ =(1- e ""^(-n))/(1- e ""^(-1))=(e (1- e ""^(-n)))/(e -1)\e n d{a l i g n e d} $
++ (1)
 ]
 
 #problem(22)[
-如图，$A$ 地到火车站共有两条路径 $L_(1)$ 和 $L_(2)$，现随机抽取 $100$ 位从 $A$ 地到达火车站的人进行调查，调查结果如下：
+如图，#mi(`A`) 地到火车站共有两条路径 #mi(`L_{1}`) 和 #mi(`L_{2}`)，现随机抽取 #mi(`100`) 位从 #mi(`A`) 地到达火车站的人进行调查，调查结果如下：
 
-\begin{center}
-\begin{tabular}{c|ccccc}
 \hline
-所用时间（分钟） & $10 tilde 20$ & $20 tilde 30$ & $30 tilde 40$ & $40 tilde 50$ & $50 tilde 60$ \\
+
+所用时间（分钟） & #mi(`10\sim20`) & #mi(`20\sim30`) & #mi(`30\sim40`) & #mi(`40\sim50`) & #mi(`50\sim60`) \\
+
 \hline
-选择 $L_(1)$ 的人数 & $6$ & $12$ & $18$ & $12$ & $12$ \\
-选择 $L_(2)$ 的人数 & $0$ & $4$ & $16$ & $16$ & $4$ \\
+
+选择 #mi(`L_{1}`) 的人数 & #mi(`6`) & #mi(`12`) & #mi(`18`) & #mi(`12`) & #mi(`12`) \\
+
+选择 #mi(`L_{2}`) 的人数 & #mi(`0`) & #mi(`4`) & #mi(`16`) & #mi(`16`) & #mi(`4`) \\
+
 \hline
-\end{tabular}
-\end{center}
 
 
-+ (1) 试估计 $40" 分钟"$ 内不能赶到火车站的概率；
-+ (2) 分别求通过路径 $L_(1)$ 和 $L_(2)$ 所用时间落在上表中各时间段内的频率；
-+ (3) 现甲，乙两人分别有 $40" 分钟"$ 和 $50" 分钟"$ 时间用于赶往火车站，为了尽最大可能在允许的时间内赶到火车站，试通过计算说明，他们应如何选择各自的路径.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2011/img/shaanxi_liberal/q20_fig1.png", width: 44%)]
+
+#align(center)[#image("/papers/2011/img/shaanxi_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 调查总人数为 $100$. 按表中分组，所用时间超过 $40$ 分钟的人数为选择 $L_1$ 的 $12+12$ 人与选择 $L_2$ 的 $16+4$ 人，共
-
-$ (12+12)+(16+4)=44 $
-
-所以估计 $40$ 分钟内不能赶到火车站的概率为
-
-$ (44)/(100)=0.44 $
-+ (2) 选择路径 $L_1$ 的人数为
-
-$ 6+12+18+12+12=60 $
-
-所以 $L_1$ 在五个时间段内的频率依次为 $(6)/(60)=0.1$，$(12)/(60)=0.2$，$(18)/(60)=0.3$，$(12)/(60)=0.2$，$(12)/(60)=0.2$.
-选择路径 $L_2$ 的人数为
-
-$ 0+4+16+16+4=40 $
-
-所以 $L_2$ 在五个时间段内的频率依次为 $(0)/(40)=0$，$(4)/(40)=0.1$，$(16)/(40)=0.4$，$(16)/(40)=0.4$，$(4)/(40)=0.1$.
-+ (3) 甲有 $40$ 分钟. 若选 $L_1$，在允许时间内到达的人数为 $6+12+18=36$，估计概率为
-
-$ (36)/(60)=0.6 $
-
-若选 $L_2$，相应概率为
-
-$ (0+4+16)/(40)=(20)/(40)=0.5 $
-
-因为 $0.6>0.5$，甲应选择 $L_1$. 乙有 $50$ 分钟，选择 $L_1$ 时的估计概率为
-
-$ (6+12+18+12)/(60)=(48)/(60)=0.8 $
-
-选择 $L_2$ 时的估计概率为
-
-$ (0+4+16+16)/(40)=(36)/(40)=0.9 $
-
-因为 $0.9>0.8$，乙应选择 $L_2$.
++ (1) 
++ (2)
 ]
 
 #problem(23)[
-设 $f(x) = ln x$，$g(x) = f(x) + f'(x)$.
+设 #mi(`f(x) = \ln x`)，#mi(`g(x) = f(x) + f'(x)`).
 
 
-+ (1) 求 $g(x)$ 的单调区间和最小值；
-+ (2) 讨论 $g(x)$ 与 $g((1)/(x))$ 的大小关系；
-+ (3) 求 $a$ 的取值范围，使得 $g(a) - g(x) < (1)/(a)$ 对任意 $x > 0$ 成立.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 因为 $f(x)= ln x$，所以 $f'(x)=(1)/(x)$，从而 $g(x)= ln x+(1)/(x)$，$x>0$. 求导得 $g'(x)=(1)/(x)-(1)/(x^2)=(x-1)/(x^2)$. 由于 $x^2>0$，当 $0<x<1$ 时 $g'(x)<0$，当 $x>1$ 时 $g'(x)>0$. 因此 $g(x)$ 在 $(0,1)$ 上单调递减，在 $(1,+ oo )$ 上单调递增，最小值在 $x=1$ 处取得，且 $g(1)= ln 1 +1=1$.
-+ (2) 先计算 $g((1)/(x))= ln (1)/(x)+x=- ln x+x$. 令 $h(x)=g(x)-g((1)/(x))=2 ln x+(1)/(x)-x$. 则 $h(1)=0$，且 $h'(x)=(2)/(x)-(1)/(x^2)-1=-((x-1)^2)/(x^2) <= 0$. 所以 $h$ 在 $(0,+ oo )$ 上单调递减. 由 $h(1)=0$ 可得：当 $0<x<1$ 时 $h(x)>0$，即 $g(x)>g((1)/(x))$；当 $x=1$ 时二者相等；当 $x>1$ 时 $h(x)<0$，即 $g(x)<g((1)/(x))$.
-+ (3) 由第（1）问，任意 $x>0$ 都有 $g(x) >= 1$，且 $x=1$ 时取等号. 因此 $g(a)-g(x) <= g(a)-1$. 要使 $g(a)-g(x)<(1)/(a)$ 对所有 $x>0$ 成立，必要性由取 $x=1$ 得出，充分性则由上面的上界得出，所以充要条件为 $g(a)-1<(1)/(a)$. 代入 $g(a)= ln a+(1)/(a)$，得到 $ln a+(1)/(a)-1<(1)/(a) <=> ln a<1$. 结合定义域 $a>0$，可得 $0<a< e$.
++ (1) 
++ (2)
 ]
 

@@ -35,7 +35,9 @@
 #problem(3)[
 某城市为了了解游客人数的变化规律，提高旅游服务质量，收集并整理了 2014 年 1 月至 2016 年 12 月期间月接待游客量（单位：#mi(`\text{\text{万人}}`)）的数据，绘制了下面的折线图.
 
-[width=0.92\linewidth]img/2017/national_paper_3_science/q3_fig1.png
+
+#align(center)[#image("/papers/2017/img/national_paper_3_science/q3_fig1.png", width: 28%)]
+
 
 根据该折线图，下列结论错误的是（ ）
   #choices([月接待游客量逐月增加], [年接待游客量逐年增加], [各年的月接待游客量高峰期大致在 #mi(`7`)，#mi(`8`) 月], [各年 1 月至 6 月的月接待游客量相对于 7 月至 12 月，波动性更小，变化比较平稳], cols: 1)
@@ -97,7 +99,9 @@
 #problem(7)[
 执行如图的程序框图，为使输出 #mi(`S`) 的值小于 #mi(`91`)，则输入的正整数 #mi(`N`) 的最小值为（ ）
 
-[width=0.62\linewidth]img/2017/national_paper_3_science/q7_fig1.png
+
+#align(center)[#image("/papers/2017/img/national_paper_3_science/q7_fig1.png", width: 28%)]
+
   #choices([#mi(`5`)], [#mi(`4`)], [#mi(`3`)], [#mi(`2`)], cols: 4)
 ]
 
@@ -145,7 +149,7 @@
 
 由于 #mi(`a>0`)，约去 #mi(`a`) 并平方得 #mi(`\frac{4b^{2}}{a^{2}+b^{2}}=1`)，即 #mi(`a^{2}=3b^{2}`).
 
-椭圆的离心率为 #mi(`e=\frac{\sqrt{a^{2}-b^{2}}}{a}=\frac{\sqrt{2b^{2}}}{\sqrt{3b}}=\frac{\sqrt{6}}{3}`).
+椭圆的离心率为 #mi(`e=\frac{\sqrt{a^{2}-b^{2}}}{a}=\frac{\sqrt{2b^{2}}}{\sqrt{3}b}=\frac{\sqrt{6}}{3}`).
 
 故选 A.
 ]
@@ -284,7 +288,9 @@ y\ge 0,\end{cases}`)，
 
 
 
-[width=0.52\linewidth]img/2017/national_paper_3_science/q19_fig1.png
+
+#align(center)[#image("/papers/2017/img/national_paper_3_science/q19_fig1.png", width: 28%)]
+
 ]
 
 #solution[

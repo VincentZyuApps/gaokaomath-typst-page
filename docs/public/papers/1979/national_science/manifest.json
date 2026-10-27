@@ -1,8 +1,71 @@
 {
-  "title": "1979年普通高等学校招生全国统一考试",
-  "subtitle": "1979年全国卷（理）",
   "year": "1979",
   "slug": "national_science",
+  "title": "1979年全国卷（理）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "解答题",
@@ -10,72 +73,92 @@
         {
           "num": 1,
           "body": "若 $\\left(z-x\\right)^{2}-4\\left(x-y\\right)\\left(y-z\\right)=0$，求证：$x$，$y$，$z$ 成等差数列.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>令 $a=x-y$，$b=y-z$.</p><p>则 $z-x=-(a+b)$.</p><p>代入已知等式，得到</p>\n$$\n(a+b)^{2}-4ab=0\n$$\n<p>展开左边并因式分解，得</p>\n$$\n(a-b)^{2}=0\n$$\n<p>实数的平方等于零只能说明该实数本身等于零，所以</p><p>$a=b$，即</p>\n$$\nx-y=y-z\n$$\n<p>这正是数列 $x$，$y$，$z$ 成等差数列的判定条件，故命题得证.</p>"
+          "solution": "<p>令 $a=x-y$，$b=y-z$.</p><p>则 $z-x=-(a+b)$.</p><p>代入已知等式，得到</p>\n$$\n(a+b)^{2}-4ab=0\n$$\n<p>展开左边并因式分解，得</p>\n$$\n(a-b)^{2}=0\n$$\n<p>实数的平方等于零只能说明该实数本身等于零，所以</p><p>$a=b$，即</p>\n$$\nx-y=y-z\n$$\n<p>这正是数列 $x$，$y$，$z$ 成等差数列的判定条件，故命题得证.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "化简： $\\frac{1}{1-\\frac{1}{1-\\frac{1}{1-\\csc^{2} x}}}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设 $u=\\csc^{2}x$.</p><p>首先确定原式的定义域. 必须有 $\\sin x\\ne0$，并且最内层分式的分母</p><p>$1-\\csc^{2}x\\ne0$，即 $u\\ne1$. 因为 $u=\\frac{1}{\\sin^{2}x}\\geq1$，排除 $u=1$ 后有 $u>1$. 这两个条件等价于</p><p>$x\\notin\\frac{\\pi}{2}\\mathbb{Z}$.</p><p>在这个定义域内，先化简最内层的下一层分母：</p>\n$$\n1-\\frac{1}{1-u}=\\frac{1-u-1}{1-u}=\\frac{-u}{1-u}=\\frac{u}{u-1}\n$$\n<p>由于 $u>1$，这个分母不为零. 因此原式最外层分母为</p>\n$$\n1-\\frac{1}{1-\\frac{1}{1-u}}=1-\\frac{1}{\\frac{u}{(u-1)}}=1-\\frac{u-1}{u}=\\frac{1}{u}\n$$\n<p>于是原式的值为</p>\n$$\n\\frac{1}{\\frac{1}{u}}=u=\\csc^{2}x\n$$\n<p>所以化简结果为 $\\csc^{2}x$，但必须附带原式的定义域</p><p>$x\\notin\\frac{\\pi}{2}\\mathbb{Z}$</p><p>（$\\mathbb{Z}$ 表示整数集）.</p>"
+          "solution": "<p>设 $u=\\csc^{2}x$.</p><p>首先确定原式的定义域. 必须有 $\\sin x\\ne0$，并且最内层分式的分母</p><p>$1-\\csc^{2}x\\ne0$，即 $u\\ne1$. 因为 $u=\\frac{1}{\\sin^{2}x}\\geq1$，排除 $u=1$ 后有 $u>1$. 这两个条件等价于</p><p>$x\\notin\\frac{\\pi}{2}\\mathbb{Z}$.</p><p>在这个定义域内，先化简最内层的下一层分母：</p>\n$$\n1-\\frac{1}{1-u}=\\frac{1-u-1}{1-u}=\\frac{-u}{1-u}=\\frac{u}{u-1}\n$$\n<p>由于 $u>1$，这个分母不为零. 因此原式最外层分母为</p>\n$$\n1-\\frac{1}{1-\\frac{1}{1-u}}=1-\\frac{1}{\\frac{u}{(u-1)}}=1-\\frac{u-1}{u}=\\frac{1}{u}\n$$\n<p>于是原式的值为</p>\n$$\n\\frac{1}{\\frac{1}{u}}=u=\\csc^{2}x\n$$\n<p>所以化简结果为 $\\csc^{2}x$，但必须附带原式的定义域</p><p>$x\\notin\\frac{\\pi}{2}\\mathbb{Z}$</p><p>（$\\mathbb{Z}$ 表示整数集）.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "甲，乙二容器内都盛有酒精，甲有 $V_{1}\\text{ 公斤}$，乙有 $V_{2}\\text{ 公斤}$. 甲中纯酒精与水（重量）之比为 $m_{1}:n_{1}$，乙中纯酒精与水之比为 $m_{2}:n_{2}$. 问将二者混合后所得液体中纯酒精与水之比是多少？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>把每个容器中的总重量看作相应比例的总份数. 甲中纯酒精与水的重量比为 $m_{1}:n_{1}$，所以甲中纯酒精和水的重量分别为</p><p>$\\frac{m_{1}V_{1}}{m_{1}+n_{1}}$，$\\frac{n_{1}V_{1}}{m_{1}+n_{1}}$.</p><p>同理，乙中纯酒精和水的重量分别为</p><p>$\\frac{m_{2}V_{2}}{m_{2}+n_{2}}$，$\\frac{n_{2}V_{2}}{m_{2}+n_{2}}$.</p><p>混合时两种物质的重量分别相加. 因此混合后纯酒精与水的重量之比为</p>\n$$\n\\left(\\frac{m_{1}V_{1}}{m_{1}+n_{1}}+\\frac{m_{2}V_{2}}{m_{2}+n_{2}}\\right):\\left(\\frac{n_{1}V_{1}}{m_{1}+n_{1}}+\\frac{n_{2}V_{2}}{m_{2}+n_{2}}\\right)\n$$\n<p>比例两项可以同时乘以正数 $\\left(m_{1}+n_{1}\\right)\\left(m_{2}+n_{2}\\right)$，不改变比例值，故所求之比为</p>\n$$\n\\bigl[m_{1}V_{1}(m_{2}+n_{2})+m_{2}V_{2}(m_{1}+n_{1})\\bigr]:\\bigl[n_{1}V_{1}(m_{2}+n_{2})+n_{2}V_{2}(m_{1}+n_{1})\\bigr]\n$$"
+          "solution": "<p>把每个容器中的总重量看作相应比例的总份数. 甲中纯酒精与水的重量比为 $m_{1}:n_{1}$，所以甲中纯酒精和水的重量分别为</p><p>$\\frac{m_{1}V_{1}}{m_{1}+n_{1}}$，$\\frac{n_{1}V_{1}}{m_{1}+n_{1}}$.</p><p>同理，乙中纯酒精和水的重量分别为</p><p>$\\frac{m_{2}V_{2}}{m_{2}+n_{2}}$，$\\frac{n_{2}V_{2}}{m_{2}+n_{2}}$.</p><p>混合时两种物质的重量分别相加. 因此混合后纯酒精与水的重量之比为</p>\n$$\n\\left(\\frac{m_{1}V_{1}}{m_{1}+n_{1}}+\\frac{m_{2}V_{2}}{m_{2}+n_{2}}\\right):\\left(\\frac{n_{1}V_{1}}{m_{1}+n_{1}}+\\frac{n_{2}V_{2}}{m_{2}+n_{2}}\\right)\n$$\n<p>比例两项可以同时乘以正数 $\\left(m_{1}+n_{1}\\right)\\left(m_{2}+n_{2}\\right)$，不改变比例值，故所求之比为</p>\n$$\n\\bigl[m_{1}V_{1}(m_{2}+n_{2})+m_{2}V_{2}(m_{1}+n_{1})\\bigr]:\\bigl[n_{1}V_{1}(m_{2}+n_{2})+n_{2}V_{2}(m_{1}+n_{1})\\bigr]\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "叙述并证明勾股定理.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>勾股定理：直角三角形两条直角边的平方和等于斜边的平方.</p><p>设 $\\triangle ABC$ 为直角三角形，且 $\\angle C=90^{\\circ}$. 记</p><p>$BC=a$，$CA=b$，$AB=c$.</p><p>从点 $C$ 向斜边 $AB$ 作垂线，垂足为 $H$.</p><p>因为 $\\angle AHC=\\angle ACB=90^{\\circ}$，且 $\\angle CAH=\\angle CAB$，所以</p><p>$\\triangle ACH\\sim\\triangle ABC$.</p><p>对应边的比例给出</p>\n$$\n\\frac{AC}{AB}=\\frac{AH}{AC}\n$$\n<p>从而</p>\n$$\nAC^{2}=AB\\cdot AH\n$$\n<p>同理，$\\angle BHC=\\angle BCA=90^{\\circ}$，且 $\\angle CBH=\\angle CBA$，所以</p><p>$\\triangle BCH\\sim\\triangle BCA$.</p><p>因此</p>\n$$\n\\frac{BC}{BA}=\\frac{BH}{BC}\n$$\n<p>从而</p>\n$$\nBC^{2}=AB\\cdot BH\n$$\n<p>将这两个等式相加，并利用 $H$ 在线段 $AB$ 上、故 $AH+BH=AB$，得到</p>\n$$\na^{2}+b^{2}=BC^{2}+CA^{2}=AB\\cdot BH+AB\\cdot AH=AB\\left(AH+BH\\right)=AB^{2}=c^{2}\n$$\n<p>所以直角三角形两条直角边的平方和等于斜边的平方，勾股定理得证.</p>"
+          "solution": "<p>勾股定理：直角三角形两条直角边的平方和等于斜边的平方.</p><p>设 $\\triangle ABC$ 为直角三角形，且 $\\angle C=90^{\\circ}$. 记</p><p>$BC=a$，$CA=b$，$AB=c$.</p><p>从点 $C$ 向斜边 $AB$ 作垂线，垂足为 $H$.</p><p>因为 $\\angle AHC=\\angle ACB=90^{\\circ}$，且 $\\angle CAH=\\angle CAB$，所以</p><p>$\\triangle ACH\\sim\\triangle ABC$.</p><p>对应边的比例给出</p>\n$$\n\\frac{AC}{AB}=\\frac{AH}{AC}\n$$\n<p>从而</p>\n$$\nAC^{2}=AB\\cdot AH\n$$\n<p>同理，$\\angle BHC=\\angle BCA=90^{\\circ}$，且 $\\angle CBH=\\angle CBA$，所以</p><p>$\\triangle BCH\\sim\\triangle BCA$.</p><p>因此</p>\n$$\n\\frac{BC}{BA}=\\frac{BH}{BC}\n$$\n<p>从而</p>\n$$\nBC^{2}=AB\\cdot BH\n$$\n<p>将这两个等式相加，并利用 $H$ 在线段 $AB$ 上、故 $AH+BH=AB$，得到</p>\n$$\na^{2}+b^{2}=BC^{2}+CA^{2}=AB\\cdot BH+AB\\cdot AH=AB\\left(AH+BH\\right)=AB^{2}=c^{2}\n$$\n<p>所以直角三角形两条直角边的平方和等于斜边的平方，勾股定理得证.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "外国船只除特许外不得进入离我海岸线 $D\\text{ 里}$ 以内的区域. 设 $A$ 及 $B$ 是我们的观测站，$A$ 及 $B$ 间的距离为 $S\\text{ 里}$，海岸线是过 $A$，$B$ 的直线，一外国船在 $P$ 点，在 $A$ 站测得 $\\angle BAP=\\alpha$，同时在 $B$ 站测得 $\\angle ABP=\\beta$. 则 $\\alpha$ 及 $\\beta$ 满足什么简单的三角函数值不等式，就应当向此未经特许的外国船发出警告，命令退出我海域？",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>取海岸线 $AB$ 为 $x$ 轴，令</p><p>$A=(0,0)$，$B=(S,0)$.</p><p>设外国船在海岸线同侧的坐标为 $P=(t,d)$，其中 $d>0$.</p><p>这里的 $d$ 正是船到海岸线的距离，且不预先假定 $P$ 的正射影落在线段 $AB$ 内.</p><p>由 $\\overrightarrow{AB}=(S,0)$，$\\overrightarrow{AP}=(t,d)$ 可得</p><p>$\\cos\\alpha=\\frac{t}{\\sqrt{t^{2}+d^{2}}}$，$\\sin\\alpha=\\frac{d}{\\sqrt{t^{2}+d^{2}}}$，$\\cot\\alpha=\\frac{t}{d}$.</p><p>在 $B$ 点，观测基准方向是 $\\overrightarrow{BA}=(-S,0)$，而</p><p>$\\overrightarrow{BP}=(t-S,d)$，</p><p>因此</p><p>$\\cos\\beta=\\frac{S-t}{\\sqrt{(S-t)^{2}+d^{2}}}$，$\\sin\\beta=\\frac{d}{\\sqrt{(S-t)^{2}+d^{2}}}$，$\\cot\\beta=\\frac{S-t}{d}$.</p><p>因此</p>\n$$\n\\cot\\alpha+\\cot\\beta  =\\frac{t}{d}+\\frac{S-t}{d}=\\frac{S}{d}\n$$\n<p>从而</p>\n$$\nd=\\frac{S}{\\cot\\alpha+\\cot\\beta}\n$$\n<p>这里使用有向的水平分量，所以即使船的正射影落在线段 $AB$ 外，公式仍然成立. 船进入距海岸线不超过 $D$ 里的区域时应发出警告，即 $d\\leq D$. 又因为 $d>0$，所以 $\\cot\\alpha+\\cot\\beta=\\frac{S}{d}>0$，代入上式得到</p>\n$$\n\\frac{S}{\\cot\\alpha+\\cot\\beta}\\leq D   \\Longleftrightarrow   \\cot\\alpha+\\cot\\beta\\geq\\frac{S}{D}\n$$\n<p>因此应满足的三角函数值不等式为</p><p>$\\cot\\alpha+\\cot\\beta\\geq\\frac{S}{D}$.</p>"
+          "solution": "<p>取海岸线 $AB$ 为 $x$ 轴，令</p><p>$A=(0,0)$，$B=(S,0)$.</p><p>设外国船在海岸线同侧的坐标为 $P=(t,d)$，其中 $d>0$.</p><p>这里的 $d$ 正是船到海岸线的距离，且不预先假定 $P$ 的正射影落在线段 $AB$ 内.</p><p>由 $\\overrightarrow{AB}=(S,0)$，$\\overrightarrow{AP}=(t,d)$ 可得</p><p>$\\cos\\alpha=\\frac{t}{\\sqrt{t^{2}+d^{2}}}$，$\\sin\\alpha=\\frac{d}{\\sqrt{t^{2}+d^{2}}}$，$\\cot\\alpha=\\frac{t}{d}$.</p><p>在 $B$ 点，观测基准方向是 $\\overrightarrow{BA}=(-S,0)$，而</p><p>$\\overrightarrow{BP}=(t-S,d)$，</p><p>因此</p><p>$\\cos\\beta=\\frac{S-t}{\\sqrt{(S-t)^{2}+d^{2}}}$，$\\sin\\beta=\\frac{d}{\\sqrt{(S-t)^{2}+d^{2}}}$，$\\cot\\beta=\\frac{S-t}{d}$.</p><p>因此</p>\n$$\n\\cot\\alpha+\\cot\\beta  =\\frac{t}{d}+\\frac{S-t}{d}=\\frac{S}{d}\n$$\n<p>从而</p>\n$$\nd=\\frac{S}{\\cot\\alpha+\\cot\\beta}\n$$\n<p>这里使用有向的水平分量，所以即使船的正射影落在线段 $AB$ 外，公式仍然成立. 船进入距海岸线不超过 $D$ 里的区域时应发出警告，即 $d\\leq D$. 又因为 $d>0$，所以 $\\cot\\alpha+\\cot\\beta=\\frac{S}{d}>0$，代入上式得到</p>\n$$\n\\frac{S}{\\cot\\alpha+\\cot\\beta}\\leq D   \\Longleftrightarrow   \\cot\\alpha+\\cot\\beta\\geq\\frac{S}{D}\n$$\n<p>因此应满足的三角函数值不等式为</p><p>$\\cot\\alpha+\\cot\\beta\\geq\\frac{S}{D}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "设三棱锥 $V - ABC$ 中，$\\angle AVB = \\angle BVC = \\angle CVA = 90^{\\circ}$. 求证：$\\triangle ABC$ 是锐角三角形.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设 $\\mathbf{a}=\\overrightarrow{VA}$，$\\mathbf{b}=\\overrightarrow{VB}$，$\\mathbf{c}=\\overrightarrow{VC}$.</p><p>因为三个棱间的夹角均为直角，所以</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=\\mathbf{b}\\cdot\\mathbf{c}=\\mathbf{c}\\cdot\\mathbf{a}=0\n$$\n<p>在点 $A$ 处，$\\overrightarrow{AB}=\\mathbf{b}-\\mathbf{a}$，$\\overrightarrow{AC}=\\mathbf{c}-\\mathbf{a}$.</p><p>于是</p>\n$$\n\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=(\\mathbf{b}-\\mathbf{a})\\cdot(\\mathbf{c}-\\mathbf{a})  =\\mathbf{b}\\cdot\\mathbf{c}-\\mathbf{b}\\cdot\\mathbf{a}-\\mathbf{a}\\cdot\\mathbf{c}+\\lvert\\mathbf{a}\\rvert^{2}  =\\lvert\\mathbf{a}\\rvert^{2}>0\n$$\n<p>两条非零向量的内积为正，说明它们的夹角小于 $90^{\\circ}$，所以 $\\angle BAC$ 为锐角.</p><p>在点 $B$ 处，$\\overrightarrow{BA}=\\mathbf{a}-\\mathbf{b}$，$\\overrightarrow{BC}=\\mathbf{c}-\\mathbf{b}$.</p><p>因此</p>\n$$\n\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=(\\mathbf{a}-\\mathbf{b})\\cdot(\\mathbf{c}-\\mathbf{b})  =\\mathbf{a}\\cdot\\mathbf{c}-\\mathbf{a}\\cdot\\mathbf{b}-\\mathbf{b}\\cdot\\mathbf{c}+\\lvert\\mathbf{b}\\rvert^{2}  =\\lvert\\mathbf{b}\\rvert^{2}>0\n$$\n<p>故 $\\angle ABC$ 为锐角.</p><p>在点 $C$ 处，$\\overrightarrow{CA}=\\mathbf{a}-\\mathbf{c}$，$\\overrightarrow{CB}=\\mathbf{b}-\\mathbf{c}$.</p><p>所以</p>\n$$\n\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=(\\mathbf{a}-\\mathbf{c})\\cdot(\\mathbf{b}-\\mathbf{c})  =\\mathbf{a}\\cdot\\mathbf{b}-\\mathbf{a}\\cdot\\mathbf{c}-\\mathbf{c}\\cdot\\mathbf{b}+\\lvert\\mathbf{c}\\rvert^{2}  =\\lvert\\mathbf{c}\\rvert^{2}>0\n$$\n<p>故 $\\angle ACB$ 也为锐角. 于是 $\\triangle ABC$ 的三个内角均为锐角，故 $\\triangle ABC$ 是锐角三角形.</p>"
+          "solution": "<p>设 $\\mathbf{a}=\\overrightarrow{VA}$，$\\mathbf{b}=\\overrightarrow{VB}$，$\\mathbf{c}=\\overrightarrow{VC}$.</p><p>因为三个棱间的夹角均为直角，所以</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{b}=\\mathbf{b}\\cdot\\mathbf{c}=\\mathbf{c}\\cdot\\mathbf{a}=0\n$$\n<p>在点 $A$ 处，$\\overrightarrow{AB}=\\mathbf{b}-\\mathbf{a}$，$\\overrightarrow{AC}=\\mathbf{c}-\\mathbf{a}$.</p><p>于是</p>\n$$\n\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=(\\mathbf{b}-\\mathbf{a})\\cdot(\\mathbf{c}-\\mathbf{a})  =\\mathbf{b}\\cdot\\mathbf{c}-\\mathbf{b}\\cdot\\mathbf{a}-\\mathbf{a}\\cdot\\mathbf{c}+\\lvert\\mathbf{a}\\rvert^{2}  =\\lvert\\mathbf{a}\\rvert^{2}>0\n$$\n<p>两条非零向量的内积为正，说明它们的夹角小于 $90^{\\circ}$，所以 $\\angle BAC$ 为锐角.</p><p>在点 $B$ 处，$\\overrightarrow{BA}=\\mathbf{a}-\\mathbf{b}$，$\\overrightarrow{BC}=\\mathbf{c}-\\mathbf{b}$.</p><p>因此</p>\n$$\n\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=(\\mathbf{a}-\\mathbf{b})\\cdot(\\mathbf{c}-\\mathbf{b})  =\\mathbf{a}\\cdot\\mathbf{c}-\\mathbf{a}\\cdot\\mathbf{b}-\\mathbf{b}\\cdot\\mathbf{c}+\\lvert\\mathbf{b}\\rvert^{2}  =\\lvert\\mathbf{b}\\rvert^{2}>0\n$$\n<p>故 $\\angle ABC$ 为锐角.</p><p>在点 $C$ 处，$\\overrightarrow{CA}=\\mathbf{a}-\\mathbf{c}$，$\\overrightarrow{CB}=\\mathbf{b}-\\mathbf{c}$.</p><p>所以</p>\n$$\n\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=(\\mathbf{a}-\\mathbf{c})\\cdot(\\mathbf{b}-\\mathbf{c})  =\\mathbf{a}\\cdot\\mathbf{b}-\\mathbf{a}\\cdot\\mathbf{c}-\\mathbf{c}\\cdot\\mathbf{b}+\\lvert\\mathbf{c}\\rvert^{2}  =\\lvert\\mathbf{c}\\rvert^{2}>0\n$$\n<p>故 $\\angle ACB$ 也为锐角. 于是 $\\triangle ABC$ 的三个内角均为锐角，故 $\\triangle ABC$ 是锐角三角形.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "美国的物价从 1939 年的 $100$ 增加到四十年后 1979 年的 $500$，如果每年物价增长率相同，问每年增长百分之几？（注意：$x < 0.1$，可用：$\\ln\\left(1+x\\right) \\approx x$，取 $\\lg 2 = 0.3$，$\\ln 10 = 2.3$）",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设每年的物价增长率为 $x$. 因为物价逐年增长，所以 $x>0$. 经过四十年，物价满足</p>\n$$\n100(1+x)^{40}=500\n$$\n<p>两边除以 $100$，得</p>\n$$\n\\left(1+x\\right)^{40}=5\n$$\n<p>两边取自然对数，得</p>\n$$\n40\\ln\\left(1+x\\right)=\\ln5\n$$\n<p>由换底关系 $\\ln a=(\\lg a)\\ln10$，以及题给的 $\\lg2=0.3$，可得</p>\n$$\n\\ln2=0.3\\times2.3=0.69\n$$\n<p>又因为 $\\lg5=\\lg10-\\lg2=1-0.3=0.7$，所以</p>\n$$\n\\ln5=(\\lg5)\\ln10=0.7\\times2.3=1.61\n$$\n<p>因此</p>\n$$\n\\ln\\left(1+x\\right)=\\frac{1.61}{40}=0.04025\n$$\n<p>根据题设给出的近似式 $\\ln(1+x)\\approx x$，得到</p>\n$$\nx\\approx0.04025=4.025\\%\n$$\n<p>这个数小于题设给出的 $0.1$，与近似条件相符. 因此每年物价增长率约为 $4.025\\%$，按题目数据通常取为约 $4\\%$.</p>"
+          "solution": "<p>设每年的物价增长率为 $x$. 因为物价逐年增长，所以 $x>0$. 经过四十年，物价满足</p>\n$$\n100(1+x)^{40}=500\n$$\n<p>两边除以 $100$，得</p>\n$$\n\\left(1+x\\right)^{40}=5\n$$\n<p>两边取自然对数，得</p>\n$$\n40\\ln\\left(1+x\\right)=\\ln5\n$$\n<p>由换底关系 $\\ln a=(\\lg a)\\ln10$，以及题给的 $\\lg2=0.3$，可得</p>\n$$\n\\ln2=0.3\\times2.3=0.69\n$$\n<p>又因为 $\\lg5=\\lg10-\\lg2=1-0.3=0.7$，所以</p>\n$$\n\\ln5=(\\lg5)\\ln10=0.7\\times2.3=1.61\n$$\n<p>因此</p>\n$$\n\\ln\\left(1+x\\right)=\\frac{1.61}{40}=0.04025\n$$\n<p>根据题设给出的近似式 $\\ln(1+x)\\approx x$，得到</p>\n$$\nx\\approx0.04025=4.025\\%\n$$\n<p>这个数小于题设给出的 $0.1$，与近似条件相符. 因此每年物价增长率约为 $4.025\\%$，按题目数据通常取为约 $4\\%$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
-          "body": "<p>设 $CEDF$ 是一个已知圆的内接矩形，过 $D$ 作该圆的切线与 $CE$ 的延长线相交于点 $A$，与 $CF$ 的延长线相交于点 $B$. 求证：$\\frac{BF}{AE}= \\frac{BC^{3}}{AC^{3}}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
-          "choices": null,
+          "body": "<p>设 $CEDF$ 是一个已知圆的内接矩形，过 $D$ 作该圆的切线与 $CE$ 的延长线相交于点 $A$，与 $CF$ 的延长线相交于点 $B$. 求证：$\\frac{BF}{AE}= \\frac{BC^{3}}{AC^{3}}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1979/img/national_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为 $CEDF$ 是矩形，所以 $CE\\perp CF$. 又因为 $A$，$C$，$E$ 共线、$B$，$C$，$F$ 共线，所以</p>\n$$\n\\angle ACB=90^{\\circ}\n$$\n<p>矩形的两个对角顶点为 $C$，$D$，因此对角线 $CD$ 是该圆的直径. 圆在 $D$ 点的切线 $AB$ 垂直于半径 $OD$，而 $O$，$C$，$D$ 共线，故</p>\n$$\nCD\\perp AB\n$$\n<p>于是 $CD$ 是直角三角形 $ACB$ 斜边 $AB$ 上的高，$\\triangle ACD$ 和 $\\triangle BCD$ 都是直角三角形.</p><p>由 $\\triangle ACD\\sim\\triangle ABC$，有</p>\n$$\n\\frac{AD}{AC}=\\frac{AC}{AB}\n$$\n<p>所以</p>\n$$\nAD=\\frac{AC^{2}}{AB}\n$$\n<p>同理，由 $\\triangle BCD\\sim\\triangle BCA$，有</p>\n$$\n\\frac{BD}{BC}=\\frac{BC}{BA}\n$$\n<p>所以</p>\n$$\nBD=\\frac{BC^{2}}{AB}\n$$\n<p>两式相除，得到</p>\n$$\n\\frac{BD}{AD}=\\frac{BC^{2}}{AC^{2}}\n$$\n<p>再由切线与割线的点幂定理，在点 $A$ 处切线段为 $AD$，割线依次交圆于 $E$，$C$，故</p>\n$$\nAD^{2}=AE\\cdot AC\n$$\n<p>在点 $B$ 处切线段为 $BD$，割线依次交圆于 $F$，$C$，故</p>\n$$\nBD^{2}=BF\\cdot BC\n$$\n<p>由此</p><p>$AE=\\frac{AD^{2}}{AC}$，$BF=\\frac{BD^{2}}{BC}$.</p><p>于是</p>\n$$\n\\frac{BF}{AE}=\\frac{\\frac{BD^{2}}{BC}}{\\frac{AD^{2}}{AC}}=\\left(\\frac{BD}{AD}\\right)^{2}\\frac{AC}{BC}=\\left(\\frac{BC^{2}}{AC^{2}}\\right)^{2}\\frac{AC}{BC}=\\frac{BC^{3}}{AC^{3}}\n$$\n<p>故命题得证.</p>"
+          "solution": "<p>因为 $CEDF$ 是矩形，所以 $CE\\perp CF$. 又因为 $A$，$C$，$E$ 共线、$B$，$C$，$F$ 共线，所以</p>\n$$\n\\angle ACB=90^{\\circ}\n$$\n<p>矩形的两个对角顶点为 $C$，$D$，因此对角线 $CD$ 是该圆的直径. 圆在 $D$ 点的切线 $AB$ 垂直于半径 $OD$，而 $O$，$C$，$D$ 共线，故</p>\n$$\nCD\\perp AB\n$$\n<p>于是 $CD$ 是直角三角形 $ACB$ 斜边 $AB$ 上的高，$\\triangle ACD$ 和 $\\triangle BCD$ 都是直角三角形.</p><p>由 $\\triangle ACD\\sim\\triangle ABC$，有</p>\n$$\n\\frac{AD}{AC}=\\frac{AC}{AB}\n$$\n<p>所以</p>\n$$\nAD=\\frac{AC^{2}}{AB}\n$$\n<p>同理，由 $\\triangle BCD\\sim\\triangle BCA$，有</p>\n$$\n\\frac{BD}{BC}=\\frac{BC}{BA}\n$$\n<p>所以</p>\n$$\nBD=\\frac{BC^{2}}{AB}\n$$\n<p>两式相除，得到</p>\n$$\n\\frac{BD}{AD}=\\frac{BC^{2}}{AC^{2}}\n$$\n<p>再由切线与割线的点幂定理，在点 $A$ 处切线段为 $AD$，割线依次交圆于 $E$，$C$，故</p>\n$$\nAD^{2}=AE\\cdot AC\n$$\n<p>在点 $B$ 处切线段为 $BD$，割线依次交圆于 $F$，$C$，故</p>\n$$\nBD^{2}=BF\\cdot BC\n$$\n<p>由此</p><p>$AE=\\frac{AD^{2}}{AC}$，$BF=\\frac{BD^{2}}{BC}$.</p><p>于是</p>\n$$\n\\frac{BF}{AE}=\\frac{\\frac{BD^{2}}{BC}}{\\frac{AD^{2}}{AC}}=\\left(\\frac{BD}{AD}\\right)^{2}\\frac{AC}{BC}=\\left(\\frac{BC^{2}}{AC^{2}}\\right)^{2}\\frac{AC}{BC}=\\frac{BC^{3}}{AC^{3}}\n$$\n<p>故命题得证.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 9,
           "body": "试问数列 $\\lg 100$，$\\lg \\left(100\\sin \\frac{\\pi}{4}\\right)$，$\\lg \\left(100\\sin^{2}\\frac{\\pi}{4}\\right)$，$\\cdots$，$\\lg \\left(100\\sin^{n-1}\\frac{\\pi}{4}\\right)$ 前多少项的和的值最大？并求这最大值. （$\\lg 2 = 0.301$）",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>记第 $k$ 项为 $a_{k}$，其中 $k\\geq1$. 由于</p>\n$$\n\\sin\\frac{\\pi}{4}=\\frac{\\sqrt{2}}{2}=2^{-\\frac{1}{2}}\n$$\n<p>且 $\\lg100=2$，所以</p>\n$$\na_{k}=\\lg\\left(100\\left(\\sin\\frac{\\pi}{4}\\right)^{k-1}\\right)  =\\lg\\left(100\\cdot2^{-\\frac{(k-1)}{2}}\\right)  =2-\\frac{k-1}{2}\\lg2  =2-0.1505(k-1)\n$$\n<p>所以 $a_{k}$ 随 $k$ 增大而严格递减. 记前 $k$ 项的和为 $S_{k}$，则</p>\n$$\nS_{k+1}-S_{k}=a_{k+1}=2-0.1505k\n$$\n<p>考察最大值附近的两项：</p>\n$$\na_{14}=2-0.1505\\times13=0.0435>0\n$$\n\n$$\na_{15}=2-0.1505\\times14=-0.107<0\n$$\n<p>因此 $S_{14}-S_{13}=a_{14}>0$，而 $S_{15}-S_{14}=a_{15}<0$. 又因为所有 $a_{k}$ 递减，所以前 $14$ 项的加法过程一直增加到 $S_{14}$，从第 $15$ 项起继续加项都会使和减小，故最大值在前 $14$ 项处取得.</p><p>前 $14$ 项构成首项为 $2$、第 $14$ 项为 $0.0435$ 的等差数列，故其和为</p>\n$$\nS_{14}=\\frac{14(2+0.0435)}{2}=14.3045\n$$\n<p>所以前 $14$ 项的和最大，最大值为 $14.3045$（按给定近似数据约为 $14.30$）.</p>"
+          "solution": "<p>记第 $k$ 项为 $a_{k}$，其中 $k\\geq1$. 由于</p>\n$$\n\\sin\\frac{\\pi}{4}=\\frac{\\sqrt{2}}{2}=2^{-\\frac{1}{2}}\n$$\n<p>且 $\\lg100=2$，所以</p>\n$$\na_{k}=\\lg\\left(100\\left(\\sin\\frac{\\pi}{4}\\right)^{k-1}\\right)  =\\lg\\left(100\\cdot2^{-\\frac{(k-1)}{2}}\\right)  =2-\\frac{k-1}{2}\\lg2  =2-0.1505(k-1)\n$$\n<p>所以 $a_{k}$ 随 $k$ 增大而严格递减. 记前 $k$ 项的和为 $S_{k}$，则</p>\n$$\nS_{k+1}-S_{k}=a_{k+1}=2-0.1505k\n$$\n<p>考察最大值附近的两项：</p>\n$$\na_{14}=2-0.1505\\times13=0.0435>0\n$$\n\n$$\na_{15}=2-0.1505\\times14=-0.107<0\n$$\n<p>因此 $S_{14}-S_{13}=a_{14}>0$，而 $S_{15}-S_{14}=a_{15}<0$. 又因为所有 $a_{k}$ 递减，所以前 $14$ 项的加法过程一直增加到 $S_{14}$，从第 $15$ 项起继续加项都会使和减小，故最大值在前 $14$ 项处取得.</p><p>前 $14$ 项构成首项为 $2$、第 $14$ 项为 $0.0435$ 的等差数列，故其和为</p>\n$$\nS_{14}=\\frac{14(2+0.0435)}{2}=14.3045\n$$\n<p>所以前 $14$ 项的和最大，最大值为 $14.3045$（按给定近似数据约为 $14.30$）.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 10,
           "body": "<p>设等腰 $\\triangle OAB$ 的顶角为 $2\\theta$，高为 $h$.</p><ol class=\"enumerate\"><li><p>$\\triangle OAB$ 内有一动点 $P$，到三边 $OA$，$OB$，$AB$ 的距离分别为 $\\lvert PD\\rvert$，$\\lvert PF\\rvert$，$\\lvert PE\\rvert$，并且满足关系 $\\lvert PD\\rvert \\cdot \\lvert PF\\rvert = \\lvert PE\\rvert^{2}$. 求 $P$ 点的轨迹；</p></li><li><p>在上述轨迹中定出点 $P$ 的坐标，使得 $\\lvert PD\\rvert + \\lvert PE\\rvert = \\lvert PF\\rvert$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取 $O$ 为原点，以高从 $O$ 指向边 $AB$ 的方向为 $x$ 轴正向，以垂直于高的方向为 $y$ 轴正向，并取 $A$ 位于 $x$ 轴上方. 由于顶角为 $2\\theta$，有 $0<\\theta<90^{\\circ}$，于是</p><p>$A=(h,h\\tan\\theta)$，$B=(h,-h\\tan\\theta)$.</p><p>设 $P=(x,y)$. 因为 $P$ 在三角形内部，所以</p><p>$0<x<h$，$-x\\tan\\theta<y<x\\tan\\theta$.</p><p>三边所在直线分别为</p><p>$OA: y=x\\tan\\theta$，$OB: y=-x\\tan\\theta$，$AB: x=h$.</p><p>由点到直线的距离公式，且利用 $\\sqrt{1+\\tan^{2}\\theta}=\\frac{1}{\\cos\\theta}$，可得</p>\n$$\n\\lvert PD\\rvert  =\\frac{x\\tan\\theta-y}{\\sqrt{1+\\tan^{2}\\theta}}=x\\sin\\theta-y\\cos\\theta\n$$\n\n$$\n\\lvert PF\\rvert  =\\frac{x\\tan\\theta+y}{\\sqrt{1+\\tan^{2}\\theta}}=x\\sin\\theta+y\\cos\\theta\n$$\n<p>并且</p>\n$$\n\\lvert PE\\rvert=h-x\n$$\n<p>这些量在三角形内部均为正.</p><p>代入 $\\lvert PD\\rvert\\lvert PF\\rvert=\\lvert PE\\rvert^{2}$，得到</p>\n$$\nx^{2}\\sin^{2}\\theta-y^{2}\\cos^{2}\\theta=(h-x)^{2}\n$$\n<p>展开右边并移项，得</p><p>$c^{2}\\left(x^{2}+y^{2}\\right)-2hx+h^{2}=0$，$c=\\cos\\theta$.</p><p>将 $c$ 换回 $\\cos\\theta$，配方得</p>\n$$\n\\left(x-\\frac{h}{\\cos^{2}\\theta}\\right)^{2}+y^{2}  =\\left(\\frac{h\\sin\\theta}{\\cos^{2}\\theta}\\right)^{2}\n$$\n<p>因此，满足距离乘积条件的点在上述圆上；但题目还要求 $P$ 位于三角形内部，所以实际轨迹是该圆满足</p><p>$0<x<h$，$-x\\tan\\theta<y<x\\tan\\theta$</p><p>的那一段（边界因 $P$ 在三角形内部而不取）.</p></li><li><p>由 $\\lvert PD\\rvert+\\lvert PE\\rvert=\\lvert PF\\rvert$，有</p>\n$$\nx\\sin\\theta-y\\cos\\theta+h-x=x\\sin\\theta+y\\cos\\theta\n$$\n<p>从而</p>\n$$\nh-x=2y\\cos\\theta\n$$\n<p>因为 $0<x<h$ 且 $\\cos\\theta>0$，所以 $y>0$.</p><p>把 $y\\cos\\theta=\\frac{(h-x)}{2}$ 代入乘积条件的等价形式，得到</p>\n$$\nx^{2}\\sin^{2}\\theta-\\frac{(h-x)^{2}}{4}=(h-x)^{2}\n$$\n<p>整理为</p>\n$$\n4x^{2}\\sin^{2}\\theta=5(h-x)^{2}\n$$\n<p>由于 $x>0$、$\\sin\\theta>0$ 且 $h-x>0$，等式两边取正平方根，得到</p>\n$$\n2x\\sin\\theta=\\sqrt{5}\\left(h-x\\right)\n$$\n<p>解得</p>\n$$\nx=\\frac{\\sqrt{5}h}{\\sqrt{5}+2\\sin\\theta}\n$$\n<p>再由 $h-x=2y\\cos\\theta$，得到</p>\n$$\ny=\\frac{h-x}{2\\cos\\theta}=\\frac{h\\tan\\theta}{\\sqrt{5}+2\\sin\\theta}\n$$\n<p>所以所求点的坐标为</p>\n$$\nP=\\left(\\frac{\\sqrt{5}h}{\\sqrt{5}+2\\sin\\theta},  \\frac{h\\tan\\theta}{\\sqrt{5}+2\\sin\\theta}\\right)\n$$\n<p>最后验证位置条件：分母大于 $\\sqrt{5}$，所以 $0<x<h$，并且</p>\n$$\n\\frac{y}{x\\tan\\theta}=\\frac{1}{\\sqrt{5}}<1\n$$\n<p>由于 $y>0$，故 $-x\\tan\\theta<y<x\\tan\\theta$，该点确实在三角形内部；代回上面的等式可知它也在第一问所得轨迹上.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取 $O$ 为原点，以高从 $O$ 指向边 $AB$ 的方向为 $x$ 轴正向，以垂直于高的方向为 $y$ 轴正向，并取 $A$ 位于 $x$ 轴上方. 由于顶角为 $2\\theta$，有 $0<\\theta<90^{\\circ}$，于是</p><p>$A=(h,h\\tan\\theta)$，$B=(h,-h\\tan\\theta)$.</p><p>设 $P=(x,y)$. 因为 $P$ 在三角形内部，所以</p><p>$0<x<h$，$-x\\tan\\theta<y<x\\tan\\theta$.</p><p>三边所在直线分别为</p><p>$OA: y=x\\tan\\theta$，$OB: y=-x\\tan\\theta$，$AB: x=h$.</p><p>由点到直线的距离公式，且利用 $\\sqrt{1+\\tan^{2}\\theta}=\\frac{1}{\\cos\\theta}$，可得</p>\n$$\n\\lvert PD\\rvert  =\\frac{x\\tan\\theta-y}{\\sqrt{1+\\tan^{2}\\theta}}=x\\sin\\theta-y\\cos\\theta\n$$\n\n$$\n\\lvert PF\\rvert  =\\frac{x\\tan\\theta+y}{\\sqrt{1+\\tan^{2}\\theta}}=x\\sin\\theta+y\\cos\\theta\n$$\n<p>并且</p>\n$$\n\\lvert PE\\rvert=h-x\n$$\n<p>这些量在三角形内部均为正.</p><p>代入 $\\lvert PD\\rvert\\lvert PF\\rvert=\\lvert PE\\rvert^{2}$，得到</p>\n$$\nx^{2}\\sin^{2}\\theta-y^{2}\\cos^{2}\\theta=(h-x)^{2}\n$$\n<p>展开右边并移项，得</p><p>$c^{2}\\left(x^{2}+y^{2}\\right)-2hx+h^{2}=0$，$c=\\cos\\theta$.</p><p>将 $c$ 换回 $\\cos\\theta$，配方得</p>\n$$\n\\left(x-\\frac{h}{\\cos^{2}\\theta}\\right)^{2}+y^{2}  =\\left(\\frac{h\\sin\\theta}{\\cos^{2}\\theta}\\right)^{2}\n$$\n<p>因此，满足距离乘积条件的点在上述圆上；但题目还要求 $P$ 位于三角形内部，所以实际轨迹是该圆满足</p><p>$0<x<h$，$-x\\tan\\theta<y<x\\tan\\theta$</p><p>的那一段（边界因 $P$ 在三角形内部而不取）.</p></li><li><p>由 $\\lvert PD\\rvert+\\lvert PE\\rvert=\\lvert PF\\rvert$，有</p>\n$$\nx\\sin\\theta-y\\cos\\theta+h-x=x\\sin\\theta+y\\cos\\theta\n$$\n<p>从而</p>\n$$\nh-x=2y\\cos\\theta\n$$\n<p>因为 $0<x<h$ 且 $\\cos\\theta>0$，所以 $y>0$.</p><p>把 $y\\cos\\theta=\\frac{(h-x)}{2}$ 代入乘积条件的等价形式，得到</p>\n$$\nx^{2}\\sin^{2}\\theta-\\frac{(h-x)^{2}}{4}=(h-x)^{2}\n$$\n<p>整理为</p>\n$$\n4x^{2}\\sin^{2}\\theta=5(h-x)^{2}\n$$\n<p>由于 $x>0$、$\\sin\\theta>0$ 且 $h-x>0$，等式两边取正平方根，得到</p>\n$$\n2x\\sin\\theta=\\sqrt{5}\\left(h-x\\right)\n$$\n<p>解得</p>\n$$\nx=\\frac{\\sqrt{5}h}{\\sqrt{5}+2\\sin\\theta}\n$$\n<p>再由 $h-x=2y\\cos\\theta$，得到</p>\n$$\ny=\\frac{h-x}{2\\cos\\theta}=\\frac{h\\tan\\theta}{\\sqrt{5}+2\\sin\\theta}\n$$\n<p>所以所求点的坐标为</p>\n$$\nP=\\left(\\frac{\\sqrt{5}h}{\\sqrt{5}+2\\sin\\theta},  \\frac{h\\tan\\theta}{\\sqrt{5}+2\\sin\\theta}\\right)\n$$\n<p>最后验证位置条件：分母大于 $\\sqrt{5}$，所以 $0<x<h$，并且</p>\n$$\n\\frac{y}{x\\tan\\theta}=\\frac{1}{\\sqrt{5}}<1\n$$\n<p>由于 $y>0$，故 $-x\\tan\\theta<y<x\\tan\\theta$，该点确实在三角形内部；代回上面的等式可知它也在第一问所得轨迹上.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -1,8 +1,41 @@
 {
-  "title": "1955年普通高等学校招生全国统一考试",
-  "subtitle": "1955年全国卷",
   "year": "1955",
   "slug": "national",
+  "title": "1955年全国卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "解答题",
@@ -10,37 +43,47 @@
         {
           "num": 1,
           "body": "<ol class=\"enumerate\"><li><p>以二次方程 $x^{2}-3x-1=0$ 的两根的平方为两根作一二次方程.</p></li><li><p>等腰三角形一腰的长是底边的 $4$ 倍，求这三角形各角的余弦.</p></li><li><p>已知正四棱锥底边的长为 $a$，侧棱与底面的交角为 $45^{\\circ}$，求这棱锥的高.</p></li><li><p>写出：二面角的平面角的定义.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设方程 $x^{2}-3x-1=0$ 的两根为 $\\alpha$、$\\beta$，由韦达定理得 $\\alpha+\\beta=3$，$\\alpha\\beta=-1$. 以 $\\alpha^{2}$、$\\beta^{2}$ 为根的二次方程的根和为 $\\alpha^{2}+\\beta^{2}=\\left(\\alpha+\\beta\\right)^{2}-2\\alpha\\beta=3^{2}-2\\left(-1\\right)=11$，根积为 $\\alpha^{2}\\beta^{2}=\\left(\\alpha\\beta\\right)^{2}=1$. 因此所求方程为 $y^{2}-11y+1=0$.</p></li><li><p>设 $\\triangle ABC$ 中 $AB=AC=4BC$，$AD\\perp BC$. 由于三角形为等腰三角形，$D$ 是 $BC$ 的中点，因此 $BD=DC=\\frac{1}{2}BC$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q1_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由余弦定理，$\\cos A=\\dfrac{AB^{2}+AC^{2}-BC^{2}}{2AB\\cdot AC}=\\dfrac{16BC^{2}+16BC^{2}-BC^{2}}{2\\cdot 4BC\\cdot 4BC}=\\dfrac{31}{32}$. 在直角三角形 $ACD$ 中，$\\cos C=\\dfrac{CD}{CA}=\\dfrac{\\frac{1}{2}BC}{4BC}=\\dfrac{1}{8}$，又因 $B=C$，所以 $\\cos B=\\cos C=\\dfrac{1}{8}$.</p></li><li><p>设 $S-ABCD$ 为正四棱锥，$H$ 为正方形底面 $ABCD$ 的中心，$SH$ 为棱锥的高. 由于 $SH\\perp$ 底面，$AH$ 是侧棱 $SA$ 在底面上的射影，所以侧棱与底面的交角为 $\\angle SAH=45^{\\circ}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q1_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>在直角三角形 $SHA$ 中，$\\angle SHA=90^{\\circ}$，且 $\\angle SAH=45^{\\circ}$，故 $\\angle ASH=45^{\\circ}$，从而 $\\triangle SHA$ 为等腰直角三角形，$SH=AH$. 正方形底面的对角线为 $a\\sqrt{2}$，而 $H$ 是其中心，所以 $AH=\\dfrac{a\\sqrt{2}}{2}$. 因此棱锥的高为 $SH=\\dfrac{a\\sqrt{2}}{2}$.</p></li><li><p>在二面角的棱上任取一点，在二面角的两个面内分别过该点作棱的垂线；这两条垂线在两个面内所夹的角，叫做这个二面角的平面角.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设方程 $x^{2}-3x-1=0$ 的两根为 $\\alpha$、$\\beta$，由韦达定理得 $\\alpha+\\beta=3$，$\\alpha\\beta=-1$. 以 $\\alpha^{2}$、$\\beta^{2}$ 为根的二次方程的根和为 $\\alpha^{2}+\\beta^{2}=\\left(\\alpha+\\beta\\right)^{2}-2\\alpha\\beta=3^{2}-2\\left(-1\\right)=11$，根积为 $\\alpha^{2}\\beta^{2}=\\left(\\alpha\\beta\\right)^{2}=1$. 因此所求方程为 $y^{2}-11y+1=0$.</p></li><li><p>设 $\\triangle ABC$ 中 $AB=AC=4BC$，$AD\\perp BC$. 由于三角形为等腰三角形，$D$ 是 $BC$ 的中点，因此 $BD=DC=\\frac{1}{2}BC$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1955/img/national/q1_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由余弦定理，$\\cos A=\\dfrac{AB^{2}+AC^{2}-BC^{2}}{2AB\\cdot AC}=\\dfrac{16BC^{2}+16BC^{2}-BC^{2}}{2\\cdot 4BC\\cdot 4BC}=\\dfrac{31}{32}$. 在直角三角形 $ACD$ 中，$\\cos C=\\dfrac{CD}{CA}=\\dfrac{\\frac{1}{2}BC}{4BC}=\\dfrac{1}{8}$，又因 $B=C$，所以 $\\cos B=\\cos C=\\dfrac{1}{8}$.</p></li><li><p>设 $S-ABCD$ 为正四棱锥，$H$ 为正方形底面 $ABCD$ 的中心，$SH$ 为棱锥的高. 由于 $SH\\perp$ 底面，$AH$ 是侧棱 $SA$ 在底面上的射影，所以侧棱与底面的交角为 $\\angle SAH=45^{\\circ}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1955/img/national/q1_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>在直角三角形 $SHA$ 中，$\\angle SHA=90^{\\circ}$，且 $\\angle SAH=45^{\\circ}$，故 $\\angle ASH=45^{\\circ}$，从而 $\\triangle SHA$ 为等腰直角三角形，$SH=AH$. 正方形底面的对角线为 $a\\sqrt{2}$，而 $H$ 是其中心，所以 $AH=\\dfrac{a\\sqrt{2}}{2}$. 因此棱锥的高为 $SH=\\dfrac{a\\sqrt{2}}{2}$.</p></li><li><p>在二面角的棱上任取一点，在二面角的两个面内分别过该点作棱的垂线；这两条垂线在两个面内所夹的角，叫做这个二面角的平面角.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
           "body": "<p>求 $b$，$c$，$d$ 的值，使多项式 $x^{3}+bx^{2}+cx+d$ 适合下列三条件：</p><ol class=\"enumerate\"><li><p>被 $x-1$ 整除；</p></li><li><p>被 $x-3$ 除时余 $2$；</p></li><li><p>被 $x+2$ 除与被 $x-2$ 除时余数相等.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设 $P(x)=x^{3}+bx^{2}+cx+d$. 由余式定理，$P(x)$ 被 $x-1$ 整除，所以 $P(1)=0$，即 $1+b+c+d=0$. 又因 $P(x)$ 被 $x-3$ 除时余数为 $2$，所以 $P(3)=2$，即 $27+9b+3c+d=2$. 第三个条件给出 $P(-2)=P(2)$，即 $-8+4b-2c+d=8+4b+2c+d$.</p><p>化简第三个等式得 $-16-4c=0$，所以 $c=-4$. 代入前两个等式，分别得到 $b+d=3$ 和 $9b+d=-13$. 两式相减得 $8b=-16$，从而 $b=-2$，再由 $b+d=3$ 得 $d=5$. 因此 $(b,c,d)=(-2,-4,5)$.</p>"
+          "solution": "<p>设 $P(x)=x^{3}+bx^{2}+cx+d$. 由余式定理，$P(x)$ 被 $x-1$ 整除，所以 $P(1)=0$，即 $1+b+c+d=0$. 又因 $P(x)$ 被 $x-3$ 除时余数为 $2$，所以 $P(3)=2$，即 $27+9b+3c+d=2$. 第三个条件给出 $P(-2)=P(2)$，即 $-8+4b-2c+d=8+4b+2c+d$.</p><p>化简第三个等式得 $-16-4c=0$，所以 $c=-4$. 代入前两个等式，分别得到 $b+d=3$ 和 $9b+d=-13$. 两式相减得 $8b=-16$，从而 $b=-2$，再由 $b+d=3$ 得 $d=5$. 因此 $(b,c,d)=(-2,-4,5)$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "由直角三角形勾上一点 $D$ 作弦 $AB$ 的垂线交弦于 $E$，股的延长线于 $F$，外接圆周于 $Q$，求证：$EQ$ 为 $EA$ 与 $EB$ 的比例中项，又为 $ED$ 与 $EF$ 的比例中项.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q3_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由题意，$\\triangle ABC$ 在 $C$ 处为直角，$AB$ 是其斜边，$D$ 在直角边 $AC$ 上，且 $DE\\perp AB$，$F$ 在直角边 $BC$ 的延长线上，$Q$ 是直线 $DE$ 与外接圆的交点. 因为 $\\triangle ABC$ 是直角三角形，$AB$ 是其外接圆的直径，所以 $\\angle AQB=90^{\\circ}$. 又 $QE\\perp AB$，故 $QE$ 是直角三角形 $AQB$ 斜边 $AB$ 上的高.</p><p>连结 $QA$、$QB$. 由 $\\triangle AQE\\sim\\triangle QEB$，得 $\\dfrac{EA}{QE}=\\dfrac{QE}{EB}$，所以 $EQ^{2}=EA\\cdot EB$. 这说明 $EQ$ 是 $EA$ 与 $EB$ 的比例中项.</p><p>再证第二个结论. 因为 $AD$ 与 $AC$ 共线，所以 $\\angle EAD=\\angle CAB$. 又 $BF$ 与 $BC$ 共线，故 $\\angle ABF=\\angle ABC$. 在直角三角形 $ABC$ 中，$\\angle CAB+\\angle ABC=90^{\\circ}$. 另一方面，$FE\\perp AB$，所以 $\\angle EFB+\\angle ABF=90^{\\circ}$. 因而 $\\angle EAD=\\angle EFB$，并且 $\\angle AED=\\angle FEB=90^{\\circ}$，从而 $\\triangle AED\\sim\\triangle FEB$.</p><p>对应边成比例，故 $\\dfrac{EA}{EF}=\\dfrac{ED}{EB}$，即 $EA\\cdot EB=ED\\cdot EF$. 结合前面得到的 $EQ^{2}=EA\\cdot EB$，可得 $EQ^{2}=ED\\cdot EF$. 由于各线段长度均为正，$EQ$ 是 $ED$ 与 $EF$ 的比例中项.</p>"
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1955/img/national/q3_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由题意，$\\triangle ABC$ 在 $C$ 处为直角，$AB$ 是其斜边，$D$ 在直角边 $AC$ 上，且 $DE\\perp AB$，$F$ 在直角边 $BC$ 的延长线上，$Q$ 是直线 $DE$ 与外接圆的交点. 因为 $\\triangle ABC$ 是直角三角形，$AB$ 是其外接圆的直径，所以 $\\angle AQB=90^{\\circ}$. 又 $QE\\perp AB$，故 $QE$ 是直角三角形 $AQB$ 斜边 $AB$ 上的高.</p><p>连结 $QA$、$QB$. 由 $\\triangle AQE\\sim\\triangle QEB$，得 $\\dfrac{EA}{QE}=\\dfrac{QE}{EB}$，所以 $EQ^{2}=EA\\cdot EB$. 这说明 $EQ$ 是 $EA$ 与 $EB$ 的比例中项.</p><p>再证第二个结论. 因为 $AD$ 与 $AC$ 共线，所以 $\\angle EAD=\\angle CAB$. 又 $BF$ 与 $BC$ 共线，故 $\\angle ABF=\\angle ABC$. 在直角三角形 $ABC$ 中，$\\angle CAB+\\angle ABC=90^{\\circ}$. 另一方面，$FE\\perp AB$，所以 $\\angle EFB+\\angle ABF=90^{\\circ}$. 因而 $\\angle EAD=\\angle EFB$，并且 $\\angle AED=\\angle FEB=90^{\\circ}$，从而 $\\triangle AED\\sim\\triangle FEB$.</p><p>对应边成比例，故 $\\dfrac{EA}{EF}=\\dfrac{ED}{EB}$，即 $EA\\cdot EB=ED\\cdot EF$. 结合前面得到的 $EQ^{2}=EA\\cdot EB$，可得 $EQ^{2}=ED\\cdot EF$. 由于各线段长度均为正，$EQ$ 是 $ED$ 与 $EF$ 的比例中项.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "解方程 $\\cos 2x=\\cos x+\\sin x$，求 $x$ 的通值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由 $\\cos 2x=\\cos^{2}x-\\sin^{2}x$，原方程等价于 $\\cos^{2}x-\\sin^{2}x-\\cos x-\\sin x=0$. 因式分解得 $\\left(\\cos x+\\sin x\\right)\\left(\\cos x-\\sin x-1\\right)=0$.</p><p>因此分两种情况讨论.</p><p>当 $\\cos x+\\sin x=0$ 时，$\\sqrt{2}\\sin\\left(x+\\dfrac{\\pi}{4}\\right)=0$，所以 $x+\\dfrac{\\pi}{4}=n\\pi$，即 $x=n\\pi-\\dfrac{\\pi}{4}$，其中 $n\\in\\mathbb{Z}$.</p><p>当 $\\cos x-\\sin x-1=0$ 时，$\\cos x-\\sin x=1$. 两边同除以 $\\sqrt{2}$，得 $\\cos\\left(x+\\dfrac{\\pi}{4}\\right)=\\dfrac{1}{\\sqrt{2}}=\\cos\\dfrac{\\pi}{4}$.</p><p>所以 $x+\\dfrac{\\pi}{4}=2n\\pi\\pm\\dfrac{\\pi}{4}$，从而 $x=2n\\pi$ 或 $x=2n\\pi-\\dfrac{\\pi}{2}$，其中 $n\\in\\mathbb{Z}$.</p><p>综上，方程的通解为 $x=n\\pi-\\dfrac{\\pi}{4}$，或 $x=2n\\pi$，或 $x=2n\\pi-\\dfrac{\\pi}{2}$，其中 $n\\in\\mathbb{Z}$.</p>"
+          "solution": "<p>由 $\\cos 2x=\\cos^{2}x-\\sin^{2}x$，原方程等价于 $\\cos^{2}x-\\sin^{2}x-\\cos x-\\sin x=0$. 因式分解得 $\\left(\\cos x+\\sin x\\right)\\left(\\cos x-\\sin x-1\\right)=0$.</p><p>因此分两种情况讨论.</p><p>当 $\\cos x+\\sin x=0$ 时，$\\sqrt{2}\\sin\\left(x+\\dfrac{\\pi}{4}\\right)=0$，所以 $x+\\dfrac{\\pi}{4}=n\\pi$，即 $x=n\\pi-\\dfrac{\\pi}{4}$，其中 $n\\in\\mathbb{Z}$.</p><p>当 $\\cos x-\\sin x-1=0$ 时，$\\cos x-\\sin x=1$. 两边同除以 $\\sqrt{2}$，得 $\\cos\\left(x+\\dfrac{\\pi}{4}\\right)=\\dfrac{1}{\\sqrt{2}}=\\cos\\dfrac{\\pi}{4}$.</p><p>所以 $x+\\dfrac{\\pi}{4}=2n\\pi\\pm\\dfrac{\\pi}{4}$，从而 $x=2n\\pi$ 或 $x=2n\\pi-\\dfrac{\\pi}{2}$，其中 $n\\in\\mathbb{Z}$.</p><p>综上，方程的通解为 $x=n\\pi-\\dfrac{\\pi}{4}$，或 $x=2n\\pi$，或 $x=2n\\pi-\\dfrac{\\pi}{2}$，其中 $n\\in\\mathbb{Z}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "一三角形三边的长成等差级数，其周长为 $12\\text{ 尺}$，面积为 $6\\text{ 平方尺}$，求证这三角形为一直角三角形.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设三角形三边按等差数列的顺序为 $x-y$、$x$、$x+y$（单位均为 $\\text{尺}$），其中 $x$ 是中项，$y$ 是公差. 由周长为 $12\\text{ 尺}$，得 $(x-y)+x+(x+y)=12$，所以 $3x=12$，即 $x=4$.</p><p>三角形半周长为 $s=6\\text{ 尺}$. 由海伦公式 $S^{2}=s\\left(s-(x-y)\\right)\\left(s-x\\right)\\left(s-(x+y)\\right)$，代入面积 $S=6\\text{ 平方尺}$ 和 $s=6\\text{ 尺}$，得 $36=6(6-x+y)(6-x)(6-x-y)$.</p><p>代入 $x=4$，得 $36=6(2+y)\\cdot 2\\cdot(2-y)=12(4-y^{2})$，所以 $y^{2}=1$，即 $y=\\pm1$. 当 $y=1$ 时三边为 $3\\text{ 尺}$、$4\\text{ 尺}$、$5\\text{ 尺}$；当 $y=-1$ 时三边只是顺序相反，仍为 $3\\text{ 尺}$、$4\\text{ 尺}$、$5\\text{ 尺}$.</p><p>最后，$3^{2}+4^{2}=9+16=25=5^{2}$. 由勾股定理的逆定理，最长边为 $5\\text{ 尺}$ 的这个三角形为直角三角形.</p>"
+          "solution": "<p>设三角形三边按等差数列的顺序为 $x-y$、$x$、$x+y$（单位均为 $\\text{尺}$），其中 $x$ 是中项，$y$ 是公差. 由周长为 $12\\text{ 尺}$，得 $(x-y)+x+(x+y)=12$，所以 $3x=12$，即 $x=4$.</p><p>三角形半周长为 $s=6\\text{ 尺}$. 由海伦公式 $S^{2}=s\\left(s-(x-y)\\right)\\left(s-x\\right)\\left(s-(x+y)\\right)$，代入面积 $S=6\\text{ 平方尺}$ 和 $s=6\\text{ 尺}$，得 $36=6(6-x+y)(6-x)(6-x-y)$.</p><p>代入 $x=4$，得 $36=6(2+y)\\cdot 2\\cdot(2-y)=12(4-y^{2})$，所以 $y^{2}=1$，即 $y=\\pm1$. 当 $y=1$ 时三边为 $3\\text{ 尺}$、$4\\text{ 尺}$、$5\\text{ 尺}$；当 $y=-1$ 时三边只是顺序相反，仍为 $3\\text{ 尺}$、$4\\text{ 尺}$、$5\\text{ 尺}$.</p><p>最后，$3^{2}+4^{2}=9+16=25=5^{2}$. 由勾股定理的逆定理，最长边为 $5\\text{ 尺}$ 的这个三角形为直角三角形.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

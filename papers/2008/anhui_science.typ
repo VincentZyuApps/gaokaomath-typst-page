@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,466 +11,398 @@
 #part-header("单选题")
 
 #problem(1)[
-复数 $i ""^3 (1 + i )^2 =$（ ）
-  #choices([$2$], [$-2$], [$2 i$], [$-2 i$], cols: 4)
+复数 #mi(`\mathrm{i}^{3} (1 + \mathrm{i})^{2} =`)（ ）
+  #choices([#mi(`2`)], [#mi(`-2`)], [#mi(`2\mathrm{i}`)], [#mi(`-2\mathrm{i}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-因为 $(1+ i )^2=2 i$，且 $i ""^3=- i$，所以
+因为 #mi(`(1+\mathrm{i})^{2}=2\mathrm{i}`)，且 #mi(`\mathrm{i}^{3}=-\mathrm{i}`)，所以
 
-$ i ""^3(1+ i )^2=(- i )(2 i )=2 $
+
+#align(center)[#mitex(`
+\mathrm{i}^{3}(1+\mathrm{i})^{2}=(-\mathrm{i})(2\mathrm{i})=2
+`)]
+
 
 故选 A.
 ]
 
 #problem(2)[
-集合 $A = \{y in RR | y = \l g x, x > 1\}$，$B = \{-2, -1, 1, 2\}$ 则下列结论正确的是（ ）
-  #choices([$A inter B = \{-2, -1\}$], [$(\c o m p l e m e n t_( RR )A) union B = (- oo ,0)$], [$A union B = (0, + oo )$], [$(\c o m p l e m e n t_( RR )A) inter B = \{-2, -1\}$], cols: 1)
+集合 #mi(`A = \{y \in \mathbb{R}\mid y = \lg x, x > 1\}`)，#mi(`B = \{-2, -1, 1, 2\}`) 则下列结论正确的是（ ）
+  #choices([#mi(`A \cap B = \{-2, -1\}`)], [#mi(`(\complement_{\mathbb{R}}A)\cup B = (-\infty ,0)`)], [#mi(`A \cup B = (0, +\infty)`)], [#mi(`(\complement_{\mathbb{R}}A)\cap B = \{-2, -1\}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-当 $x>1$ 时，$\l g x>0$，故 $A=(0,+ oo )$. 因此 $A inter B=\{1,2\}$，$\c o m p l e m e n t_( RR )A=(- oo ,0]$. 从而 $(\c o m p l e m e n t_( RR )A) inter B=\{-2,-1\}$. 逐项核对可得，选项 A 把交集误写为 $\{-2,-1\}$；选项 B 的左端点应包含 $0$，且还包含 $1,2$；选项 C 还包含 $-2,-1$，所以均不成立，故选 D.
+当 #mi(`x>1`) 时，#mi(`\lg x>0`)，故 #mi(`A=(0,+\infty)`). 因此 #mi(`A\cap B=\{1,2\}`)，#mi(`\complement_{\mathbb{R}}A=(-\infty,0]`). 从而 #mi(`(\complement_{\mathbb{R}}A)\cap B=\{-2,-1\}`). 逐项核对可得，选项 A 把交集误写为 #mi(`\{-2,-1\}`)；选项 B 的左端点应包含 #mi(`0`)，且还包含 #mi(`1,2`)；选项 C 还包含 #mi(`-2,-1`)，所以均不成立，故选 D.
 ]
 
 #problem(3)[
-在平行四边形 $A B C D$ 中，$A C$ 为一条对角线，若 $arrow(A B)= (2, 4)$，$arrow(A C)= (1, 3)$，则 $arrow(B D)=$（ ）
-  #choices([$(-2, - 4)$], [$(-3, - 5)$], [$(3, 5)$], [$(2, 4)$], cols: 4)
+在平行四边形 #mi(`ABCD`) 中，#mi(`AC`) 为一条对角线，若 #mi(`\overrightarrow{AB}= (2, 4)`)，#mi(`\overrightarrow{AC}= (1, 3)`)，则 #mi(`\overrightarrow{BD}=`)（ ）
+  #choices([#mi(`(-2, - 4)`)], [#mi(`(-3, - 5)`)], [#mi(`(3, 5)`)], [#mi(`(2, 4)`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-在平行四边形中，$arrow(B C)=arrow(A C)-arrow(A B)$，所以
+在平行四边形中，#mi(`\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}`)，所以
 
-$ arrow(B D)=arrow(B C)-arrow(A B)=arrow(A C)-2 arrow(A B)=(1,3)-2(2,4)=(-3,-5) $
+
+#align(center)[#mitex(`
+\overrightarrow{BD}=\overrightarrow{BC}-\overrightarrow{AB}=\overrightarrow{AC}-2\overrightarrow{AB}=(1,3)-2(2,4)=(-3,-5)
+`)]
+
 
 故选 B.
 ]
 
 #problem(4)[
-已知 $m$，$n$ 是两条不同直线，$alpha$，$beta$，$gamma$ 是三个不同平面，下列命题中正确的是（ ）
-  #choices([若 $m parallel alpha , n parallel alpha$，则 $m parallel n$], [若 $alpha bot gamma$，$beta bot gamma$，则 $alpha parallel beta$], [若 $m parallel alpha$，$m parallel beta$，则 $alpha parallel beta$], [若 $m bot alpha$，$n bot alpha$，则 $m parallel n$], cols: 1)
+已知 #mi(`m`)，#mi(`n`) 是两条不同直线，#mi(`\alpha`)，#mi(`\beta`)，#mi(`\gamma`) 是三个不同平面，下列命题中正确的是（ ）
+  #choices([若 #mi(`m \parallel \alpha, n \parallel \alpha`)，则 #mi(`m \parallel n`)], [若 #mi(`\alpha \perp \gamma`)，#mi(`\beta \perp \gamma`)，则 #mi(`\alpha \parallel \beta`)], [若 #mi(`m \parallel \alpha`)，#mi(`m \parallel \beta`)，则 #mi(`\alpha \parallel \beta`)], [若 #mi(`m \perp \alpha`)，#mi(`n \perp \alpha`)，则 #mi(`m \parallel n`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-取平面 $alpha :z=0$，直线 $m:y=0$，$z=1$ 与 $n:x=0$，$z=1$. 两直线都平行于 $alpha$，但在 $(0,0,1)$ 相交，所以 A 不正确.
+取平面 #mi(`\alpha:z=0`)，直线 #mi(`m:y=0`)，#mi(`z=1`) 与 #mi(`n:x=0`)，#mi(`z=1`). 两直线都平行于 #mi(`\alpha`)，但在 #mi(`(0,0,1)`) 相交，所以 A 不正确.
 
-取平面 $gamma :z=0$，平面 $alpha :x=0$ 与 $beta :y=0$. 两平面都垂直于 $gamma$，但 $alpha$ 与 $beta$ 相交于 $z$ 轴，所以 B 不正确.
+取平面 #mi(`\gamma:z=0`)，平面 #mi(`\alpha:x=0`) 与 #mi(`\beta:y=0`). 两平面都垂直于 #mi(`\gamma`)，但 #mi(`\alpha`) 与 #mi(`\beta`) 相交于 #mi(`z`) 轴，所以 B 不正确.
 
-取直线 $m:x=1$，$y=1$，平面 $alpha :x=0$ 与 $beta :y=0$. 直线 $m$ 同时平行于 $alpha$、$beta$，但 $alpha$ 与 $beta$ 相交，所以 C 不正确.
+取直线 #mi(`m:x=1`)，#mi(`y=1`)，平面 #mi(`\alpha:x=0`) 与 #mi(`\beta:y=0`). 直线 #mi(`m`) 同时平行于 #mi(`\alpha`)、#mi(`\beta`)，但 #mi(`\alpha`) 与 #mi(`\beta`) 相交，所以 C 不正确.
 
-若直线垂直于平面，则其方向平行于该平面的法线. 因而 $m$ 与 $n$ 都平行于平面 $alpha$ 的同一法线方向；又因 $m$，$n$ 是不同直线，故 $m parallel n$，选 D.
+若直线垂直于平面，则其方向平行于该平面的法线. 因而 #mi(`m`) 与 #mi(`n`) 都平行于平面 #mi(`\alpha`) 的同一法线方向；又因 #mi(`m`)，#mi(`n`) 是不同直线，故 #mi(`m\parallel n`)，选 D.
 ]
 
 #problem(5)[
-将函数 $y = sin (2 x + (pi)/(3))$ 的图象按向量 $bold(a)$ 平移后所得的图象关于点 $(-(pi)/(12), 0)$ 中心对称，则向量 $bold(a)$ 的坐标可能为（ ）
-  #choices([$(-(pi)/(12),0)$], [$(-(pi)/(6),0)$], [$((pi)/(12),0)$], [$((pi)/(6),0)$], cols: 2)
+将函数 #mi(`y = \sin \left(2x + \frac{\pi}{3}\right)`) 的图象按向量 #mi(`\mathbf{a}`) 平移后所得的图象关于点 #mi(`\left(-\frac{\pi}{12}, 0\right)`) 中心对称，则向量 #mi(`\mathbf{a}`) 的坐标可能为（ ）
+  #choices([#mi(`\left(-\frac{\pi}{12},0\right)`)], [#mi(`\left(-\frac{\pi}{6},0\right)`)], [#mi(`\left(\frac{\pi}{12},0\right)`)], [#mi(`\left(\frac{\pi}{6},0\right)`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-设平移向量为 $bold(a)=(h,k)$，平移后的函数为
+设平移向量为 #mi(`\mathbf{a}=(h,k)`)，平移后的函数为
 
-$ y= sin (2(x-h)+(pi)/(3))+k $
 
-正弦曲线的中心对称点的纵坐标等于其竖直平移量，所以题给中心对称点的纵坐标为 $0$ 时必须有 $k=0$. 又因为该点在图象上，故存在 $t in ZZ$，使
+#align(center)[#mitex(`
+y=\sin\left(2(x-h)+\frac{\pi}{3}\right)+k
+`)]
 
-$ 2(-(pi)/(12)-h)+(pi)/(3)=t pi $
 
-于是 $h=(pi)/(12)-(t pi)/(2)$. 取 $t=0$，得 $bold(a)=((pi)/(12),0)$，故选 C.
+正弦曲线的中心对称点的纵坐标等于其竖直平移量，所以题给中心对称点的纵坐标为 #mi(`0`) 时必须有 #mi(`k=0`). 又因为该点在图象上，故存在 #mi(`t\in\mathbb{Z}`)，使
+
+
+#align(center)[#mitex(`
+2\left(-\frac{\pi}{12}-h\right)+\frac{\pi}{3}=t\pi
+`)]
+
+
+于是 #mi(`h=\frac{\pi}{12}-\frac{t\pi}{2}`). 取 #mi(`t=0`)，得 #mi(`\mathbf{a}=\left(\frac{\pi}{12},0\right)`)，故选 C.
 ]
 
 #problem(6)[
-设 $(1 + x)^(8) = a_(0) + a_(1)x + ... +a_(8)x^(8)$，则 $a_0$，$a_1$，$...$，$a_8$ 中奇数的个数为（ ）
-  #choices([$2$], [$3$], [$4$], [$5$], cols: 4)
+设 #mi(`(1 + x)^{8}= a_{0}+ a_{1}x + \dots +a_{8}x^{8}`)，则 #mi(`a_{0}`)，#mi(`a_{1}`)，#mi(`\dots`)，#mi(`a_{8}`) 中奇数的个数为（ ）
+  #choices([#mi(`2`)], [#mi(`3`)], [#mi(`4`)], [#mi(`5`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-由二项式定理，$a_k=C_8^k$. 逐项计算得
+由二项式定理，#mi(`a_{k}=\mathrm{C}_{8}^{k}`). 逐项计算得
 
-$ (a_0,a_1,\l d o t s,a_8)=(1,8,28,56,70,56,28,8,1) $
 
-其中只有 $a_0$ 和 $a_8$ 是奇数，共有 $2$ 个，故选 A.
+#align(center)[#mitex(`
+(a_{0},a_{1},\ldots,a_{8})=(1,8,28,56,70,56,28,8,1)
+`)]
+
+
+其中只有 #mi(`a_{0}`) 和 #mi(`a_{8}`) 是奇数，共有 #mi(`2`) 个，故选 A.
 ]
 
 #problem(7)[
-$a < 0$ 是方程 $a x^2 + 2 x + 1 = 0$ 至少有一个负数根的（ ）
+#mi(`a < 0`) 是方程 #mi(`ax^{2} + 2x + 1 = 0`) 至少有一个负数根的（ ）
   #choices([必要不充分条件], [充分不必要条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-若 $a<0$，则方程的判别式为 $Delta =4-4 a>0$，且两根之积为 $(1)/(a)<0$，所以方程有一个负根，故 $a<0$ 是充分条件.
+若 #mi(`a<0`)，则方程的判别式为 #mi(`\Delta=4-4a>0`)，且两根之积为 #mi(`\frac{1}{a}<0`)，所以方程有一个负根，故 #mi(`a<0`) 是充分条件.
 
-但它不是必要条件，例如取 $a=1$，方程为 $x^2+2 x+1=0$，根为 $-1$，仍有负根. 因此选 B，即充分不必要条件.
+但它不是必要条件，例如取 #mi(`a=1`)，方程为 #mi(`x^{2}+2x+1=0`)，根为 #mi(`-1`)，仍有负根. 因此选 B，即充分不必要条件.
 ]
 
 #problem(8)[
-若过点 $A(4,0)$ 的直线 $l$ 与曲线 $(x - 2)^2 + y^2 = 1$ 有公共点，则直线 $l$ 的斜率的取值范围为（ ）
-  #choices([$[- sqrt(3), sqrt(3)]$], [$(- sqrt(3), sqrt(3)]$], [$[-(sqrt(3))/(3), (sqrt(3))/(3)]$], [$(-(sqrt(3))/(3), (sqrt(3))/(3))$], cols: 1)
+若过点 #mi(`A(4,0)`) 的直线 #mi(`l`) 与曲线 #mi(`(x - 2)^{2} + y^{2} = 1`) 有公共点，则直线 #mi(`l`) 的斜率的取值范围为（ ）
+  #choices([#mi(`[- \sqrt{3}, \sqrt{3}]`)], [#mi(`(- \sqrt{3}, \sqrt{3}]`)], [#mi(`\left[-\frac{\sqrt{3}}{3}, \frac{\sqrt{3}}{3}\right]`)], [#mi(`\left(-\frac{\sqrt{3}}{3}, \frac{\sqrt{3}}{3}\right)`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-设直线 $l$ 的斜率为 $k$，则其方程为 $y=k(x-4)$，即
+设直线 #mi(`l`) 的斜率为 #mi(`k`)，则其方程为 #mi(`y=k(x-4)`)，即
 
-$ k x-y-4 k=0 $
 
-圆心 $(2,0)$ 到直线的距离不超过半径 $1$，所以
+#align(center)[#mitex(`
+kx-y-4k=0
+`)]
 
-$ (|2 k-4 k|)/(sqrt(k^2+1)) <= 1 $
 
-化简得 $4 k^2 <= k^2+1$，即 $|k| <= (sqrt(3))/(3)$. 因此斜率的取值范围为 $[-(sqrt(3))/(3),(sqrt(3))/(3)]$，故选 C.
+圆心 #mi(`(2,0)`) 到直线的距离不超过半径 #mi(`1`)，所以
+
+
+#align(center)[#mitex(`
+\frac{|2k-4k|}{\sqrt{k^{2}+1}}\leqslant1
+`)]
+
+
+化简得 #mi(`4k^{2}\le k^{2}+1`)，即 #mi(`|k|\le\frac{\sqrt{3}}{3}`). 因此斜率的取值范围为 #mi(`\left[-\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3}\right]`)，故选 C.
 ]
 
 #problem(9)[
-在同一平面直角坐标系中，函数 $y = g(x)$ 的图象与 $y = e ""^(x)$ 的图象关于直线 $y = x$ 对称. 而函数 $y = f(x)$ 的图象与 $y = g(x)$ 的图象关于 $y$ 轴对称. 若 $f(m) = -1$，则 $m$ 的值是（ ）
-  #choices([$- e$], [$-(1)/(e)$], [$e$], [$(1)/(e)$], cols: 4)
+在同一平面直角坐标系中，函数 #mi(`y = g(x)`) 的图象与 #mi(`y = \mathrm{e}^{x}`) 的图象关于直线 #mi(`y = x`) 对称. 而函数 #mi(`y = f(x)`) 的图象与 #mi(`y = g(x)`) 的图象关于 #mi(`y`) 轴对称. 若 #mi(`f(m) = -1`)，则 #mi(`m`) 的值是（ ）
+  #choices([#mi(`-\mathrm{e}`)], [#mi(`-\frac{1}{\mathrm{e}}`)], [#mi(`\mathrm{e}`)], [#mi(`\frac{1}{\mathrm{e}}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-图象关于直线 $y=x$ 对称意味着互为反函数，因此 $g(x)= ln x$（$x>0$）. 图象关于 $y$ 轴对称意味着 $f(x)=g(-x)= ln (-x)$（$x<0$）.
+图象关于直线 #mi(`y=x`) 对称意味着互为反函数，因此 #mi(`g(x)=\ln x`)（#mi(`x>0`)）. 图象关于 #mi(`y`) 轴对称意味着 #mi(`f(x)=g(-x)=\ln(-x)`)（#mi(`x<0`)）.
 
-由 $f(m)=-1$，得 $ln (-m)=-1$，所以 $-m= e ""^(-1)$，即 $m=-(1)/(e)$，故选 B.
+由 #mi(`f(m)=-1`)，得 #mi(`\ln(-m)=-1`)，所以 #mi(`-m=\mathrm{e}^{-1}`)，即 #mi(`m=-\frac{1}{\mathrm{e}}`)，故选 B.
 ]
 
 #problem(10)[
-设两个正态分布 $N( mu _1, sigma _1^2)$（$sigma _1 > 0$）和 $N( mu _2, sigma _2^2)$（$sigma _2 > 0$）的密度函数图象如图所示，则有（ ）
+设两个正态分布 #mi(`N(\mu_{1}, \sigma_{1}^{2})`)（#mi(`\sigma_{1} > 0`)）和 #mi(`N(\mu_{2}, \sigma_{2}^{2})`)（#mi(`\sigma_{2} > 0`)）的密度函数图象如图所示，则有（ ）
 
 
-#align(center)[#image("/papers/2008/img/anhui_science/q10_fig1.png", width: 42%)]
-  #choices([$mu _(1) < mu _(2)$，$sigma _(1) < sigma _(2)$], [$mu _(1) < mu _(2)$，$sigma _(1) > sigma _(2)$], [$mu _(1) > mu _(2)$，$sigma _(1) < sigma _(2)$], [$mu _(1) > mu _(2)$，$sigma _(1) > sigma _(2)$], cols: 1)
+#align(center)[#image("/papers/2008/img/anhui_science/q10_fig1.png", width: 28%)]
+
+  #choices([#mi(`\mu_{1}< \mu_{2}`)，#mi(`\sigma_{1}< \sigma_{2}`)], [#mi(`\mu_{1}< \mu_{2}`)，#mi(`\sigma_{1}> \sigma_{2}`)], [#mi(`\mu_{1}> \mu_{2}`)，#mi(`\sigma_{1}< \sigma_{2}`)], [#mi(`\mu_{1}> \mu_{2}`)，#mi(`\sigma_{1}> \sigma_{2}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-正态分布密度曲线的对称轴为 $x= mu$，曲线在对称轴处取得最大值 $(1)/(sqrt(2 pi) sigma)$. 图中第一条曲线的对称轴在左侧，且峰值较高；第二条曲线的对称轴在右侧，且峰值较低.
+正态分布密度曲线的对称轴为 #mi(`x=\mu`)，曲线在对称轴处取得最大值 #mi(`\frac{1}{\sqrt{2\pi}\sigma}`). 图中第一条曲线的对称轴在左侧，且峰值较高；第二条曲线的对称轴在右侧，且峰值较低.
 
-因此 $mu _1< mu _2$，并且 $(1)/(sigma _1)>(1)/(sigma _2)$，即 $sigma _1< sigma _2$，故选 A.
+因此 #mi(`\mu_{1}<\mu_{2}`)，并且 #mi(`\frac{1}{\sigma_{1}}>\frac{1}{\sigma_{2}}`)，即 #mi(`\sigma_{1}<\sigma_{2}`)，故选 A.
 ]
 
 #problem(11)[
-若函数 $f(x)$，$g(x)$ 分别是 $RR$ 上的奇函数，偶函数，且满足 $f(x) - g(x) = e ""^(x)$，则有（ ）
-  #choices([$f(2) < f(3) < g(0)$], [$g(0) < f(3) < f(2)$], [$f(2) < g(0) < f(3)$], [$g(0) < f(2) < f(3)$], cols: 2)
+若函数 #mi(`f(x)`)，#mi(`g(x)`) 分别是 #mi(`\mathbb{R}`) 上的奇函数，偶函数，且满足 #mi(`f(x) - g(x) = \mathrm{e}^{x}`)，则有（ ）
+  #choices([#mi(`f(2) < f(3) < g(0)`)], [#mi(`g(0) < f(3) < f(2)`)], [#mi(`f(2) < g(0) < f(3)`)], [#mi(`g(0) < f(2) < f(3)`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-将条件中的 $x$ 换成 $-x$，由 $f$ 为奇函数、$g$ 为偶函数，得
+将条件中的 #mi(`x`) 换成 #mi(`-x`)，由 #mi(`f`) 为奇函数、#mi(`g`) 为偶函数，得
 
-$ -f(x)-g(x)= e ""^(-x) $
 
-与原式 $f(x)-g(x)= e ""^x$ 相加、相减，得到
-$f(x)=(e ""^x- e ""^(-x))/(2)$，$g(x)=-(e ""^x+ e ""^(-x))/(2)$.
-所以 $g(0)=-1$，且 $f(2)>0$，$f(3)>f(2)$，从而 $g(0)<f(2)<f(3)$，故选 D.
+#align(center)[#mitex(`
+-f(x)-g(x)=\mathrm{e}^{-x}
+`)]
+
+
+与原式 #mi(`f(x)-g(x)=\mathrm{e}^{x}`) 相加、相减，得到
+
+#mi(`f(x)=\frac{\mathrm{e}^{x}-\mathrm{e}^{-x}}{2}`)，#mi(`g(x)=-\frac{\mathrm{e}^{x}+\mathrm{e}^{-x}}{2}`).
+
+所以 #mi(`g(0)=-1`)，且 #mi(`f(2)>0`)，#mi(`f(3)>f(2)`)，从而 #mi(`g(0)<f(2)<f(3)`)，故选 D.
 ]
 
 #problem(12)[
-$12$ 名同学合影，站成前排 $4$ 人后排 $8$ 人，现摄影师要从后排 $8$ 人中抽 $2$ 人调整到前排，若其他人的相对顺序不变，则不同调整方法的总数是（ ）
-  #choices([$C_8^2 A_3^2$], [$C_8^2 A_6^6$], [$C_8^2 A_6^2$], [$C_8^2 A_5^2$], cols: 4)
+#mi(`12`) 名同学合影，站成前排 #mi(`4`) 人后排 #mi(`8`) 人，现摄影师要从后排 #mi(`8`) 人中抽 #mi(`2`) 人调整到前排，若其他人的相对顺序不变，则不同调整方法的总数是（ ）
+  #choices([#mi(`\mathrm{C}_{8}^{2}\mathrm{A}_{3}^{2}`)], [#mi(`\mathrm{C}_{8}^{2}\mathrm{A}_{6}^{6}`)], [#mi(`\mathrm{C}_{8}^{2}\mathrm{A}_{6}^{2}`)], [#mi(`\mathrm{C}_{8}^{2}\mathrm{A}_{5}^{2}`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-先从后排 $8$ 人中选出调整到前排的 $2$ 人，有 $C_8^2$ 种方法. 将这两人调入前排后，前排共有 $6$ 个位置；为了保持原前排 $4$ 人的相对顺序，从这 $6$ 个位置中选出两个位置安排被调入的两人，并将原前排同学依次填入其余位置. 被调入的两人还可以交换顺序，因此安排方法有 $A_6^2$ 种.
+先从后排 #mi(`8`) 人中选出调整到前排的 #mi(`2`) 人，有 #mi(`\mathrm{C}_{8}^{2}`) 种方法. 将这两人调入前排后，前排共有 #mi(`6`) 个位置；为了保持原前排 #mi(`4`) 人的相对顺序，从这 #mi(`6`) 个位置中选出两个位置安排被调入的两人，并将原前排同学依次填入其余位置. 被调入的两人还可以交换顺序，因此安排方法有 #mi(`\mathrm{A}_{6}^{2}`) 种.
 
-因此不同调整方法的总数为 $C_8^2 A_6^2$，故选 C.
+因此不同调整方法的总数为 #mi(`\mathrm{C}_{8}^{2}\mathrm{A}_{6}^{2}`)，故选 C.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-函数 $f(x) = (sqrt(|x - 2| - 1))/(log _2(x - 1))$ 的定义域为#blank(){}.
+函数 #mi(`f(x) = \frac{\sqrt{|x - 2| - 1}}{\log_{2}(x - 1)}`) 的定义域为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[3, + oo )$])
+#answer([#mi(`[3, +\infty)`)])
 
 #solution[
-根式有意义要求 $|x-2|-1 >= 0$，即 $x <= 1$ 或 $x >= 3$. 同时对数要求 $x-1>0$，且分母不能为零，故 $x>1$ 且 $x-1\n e q1$. 取交集得函数的定义域为 $[3,+ oo )$.
+根式有意义要求 #mi(`|x-2|-1\geqslant0`)，即 #mi(`x\leqslant1`) 或 #mi(`x\geqslant3`). 同时对数要求 #mi(`x-1>0`)，且分母不能为零，故 #mi(`x>1`) 且 #mi(`x-1\neq1`). 取交集得函数的定义域为 #mi(`[3,+\infty)`).
 ]
 
 #problem(14)[
-在数列 $\{a_(n)\}$ 中，$a_(n) = 4 n - (5)/(2)$，$a_(1) + a_(2) + dots.c + a_(n) = a n^(2) + b n$，$n in NN ""^*$，其中 $a$，$b$ 为常数，则 $lim_(n -> oo ) (a^(n) - b^(n))/(a^(n) + b^(n))$ 的值是#blank(){}.
+在数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{n}= 4n - \frac{5}{2}`)，#mi(`a_{1}+ a_{2}+ \cdots + a_{n}= an^{2}+ bn`)，#mi(`n \in \mathbb{N}^{*}`)，其中 #mi(`a`)，#mi(`b`) 为常数，则 #mi(`\displaystyle\lim_{n \to \infty}\frac{a^{n}- b^{n}}{a^{n}+ b^{n}}`) 的值是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$1$])
+#answer([#mi(`1`)])
 
 #solution[
-数列前 $n$ 项和为
+数列前 #mi(`n`) 项和为
 
-$ sum_(k=1)^(n)(4 k-(5)/(2))=2 n(n+1)-(5)/(2)n=2 n^2-(1)/(2)n $
 
-所以 $a=2$，$b=-(1)/(2)$. 因而
+#align(center)[#mitex(`
+\sum_{k=1}^{n}\left(4k-\frac{5}{2}\right)=2n(n+1)-\frac{5}{2}n=2n^{2}-\frac{1}{2}n
+`)]
 
-$ lim_(n -> oo )(a^n-b^n)/(a^n+b^n)=lim_(n -> oo )(1-(-(1)/(4))^n)/(1+(-(1)/(4))^n)=1 $
+
+所以 #mi(`a=2`)，#mi(`b=-\frac{1}{2}`). 因而
+
+
+#align(center)[#mitex(`
+\lim_{n\to\infty}\frac{a^{n}-b^{n}}{a^{n}+b^{n}}=\lim_{n\to\infty}\frac{1-\left(-\frac{1}{4}\right)^{n}}{1+\left(-\frac{1}{4}\right)^{n}}=1
+`)]
 ]
 
 #problem(15)[
-若 $A$ 为不等式组 $\b e g i n{c a s e s} x <= 0 ,\\ y >= 0 ,\\ y - x <= 2 \e n d{c a s e s}$ 表示的平面区域，则当 $a$ 从 $-2$ 连续变化到 1 时，动直线 $x + y = a$ 扫过 $A$ 中的那部分区域的面积为#blank(){}.
+若 #mi(`A`) 为不等式组 #mi(`\begin{cases}x \le 0,\\
+
+y \ge 0,\\
+
+y - x \le 2\end{cases}`) 表示的平面区域，则当 #mi(`a`) 从 #mi(`-2`) 连续变化到 1 时，动直线 #mi(`x + y = a`) 扫过 #mi(`A`) 中的那部分区域的面积为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(7)/(4)$])
+#answer([#mi(`\frac{7}{4}`)])
 
 #solution[
-由 $x <= 0$、$y >= 0$ 和 $y <= x+2$，可知区域 $A$ 是顶点为 $(-2,0)$、$(0,0)$、$(0,2)$ 的三角形，面积为 $2$.
+由 #mi(`x\leqslant0`)、#mi(`y\geqslant0`) 和 #mi(`y\le x+2`)，可知区域 #mi(`A`) 是顶点为 #mi(`(-2,0)`)、#mi(`(0,0)`)、#mi(`(0,2)`) 的三角形，面积为 #mi(`2`).
 
-当 $-2 <= a <= 1$ 时，直线 $x+y=a$ 从顶点 $(-2,0)$ 扫到直线 $x+y=1$. 未被扫过的部分是由 $(0,1)$、$(0,2)$、$(-(1)/(2),(3)/(2))$ 围成的三角形，面积为 $(1)/(2) times 1 times (1)/(2)=(1)/(4)$. 所以扫过区域的面积为
+当 #mi(`-2\le a\leqslant1`) 时，直线 #mi(`x+y=a`) 从顶点 #mi(`(-2,0)`) 扫到直线 #mi(`x+y=1`). 未被扫过的部分是由 #mi(`(0,1)`)、#mi(`(0,2)`)、#mi(`\left(-\frac{1}{2},\frac{3}{2}\right)`) 围成的三角形，面积为 #mi(`\frac{1}{2}\times1\times\frac{1}{2}=\frac{1}{4}`). 所以扫过区域的面积为
 
-$ 2-(1)/(4)=(7)/(4) $
+
+#align(center)[#mitex(`
+2-\frac{1}{4}=\frac{7}{4}
+`)]
 ]
 
 #problem(16)[
-已知 $A$，$B$，$C$，$D$ 在同一个球面上，$A B bot$ 平面 $B C D$，$B C bot C D$，若 $A B = 6$，$A C = 2 sqrt(13)$，$A D = 8$，则 $B$，$C$ 两点间的球面距离是#blank(){}.
+已知 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 在同一个球面上，#mi(`AB \perp`) 平面 #mi(`BCD`)，#mi(`BC \perp CD`)，若 #mi(`AB = 6`)，#mi(`AC = 2\sqrt{13}`)，#mi(`AD = 8`)，则 #mi(`B`)，#mi(`C`) 两点间的球面距离是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(4)/(3) pi$])
+#answer([#mi(`\frac{4}{3}\pi`)])
 
 #solution[
-因为 $A B bot$ 平面 $B C D$，所以
-$B C=sqrt(A C^2-A B^2)=sqrt(52-36)=4$，$B D=sqrt(A D^2-A B^2)=sqrt(64-36)=2 sqrt(7)$.
-又因为 $B C bot C D$，所以在平面 $B C D$ 内，$angle B C D=90^( degree )$，从而 $B D$ 是该平面内截得圆的直径，截圆半径为 $(B D)/(2)=sqrt(7)$.
+因为 #mi(`AB\perp`) 平面 #mi(`BCD`)，所以
 
-设球心为 $S$. 由于 $A B bot$ 平面 $B C D$，球心到 $A$、$B$ 等距，故 $S$ 在弦 $A B$ 的垂直平分面内；该平面平行于平面 $B C D$，且与之相距 $(A B)/(2)=3$. 因此球心到平面 $B C D$ 的距离为 $3$，球半径满足
+#mi(`BC=\sqrt{AC^{2}-AB^{2}}=\sqrt{52-36}=4`)，#mi(`BD=\sqrt{AD^{2}-AB^{2}}=\sqrt{64-36}=2\sqrt{7}`).
 
-$ R^2=(sqrt(7))^2+3^2=16 $
+又因为 #mi(`BC\perp CD`)，所以在平面 #mi(`BCD`) 内，#mi(`\angle BCD=90^{\circ}`)，从而 #mi(`BD`) 是该平面内截得圆的直径，截圆半径为 #mi(`\frac{BD}{2}=\sqrt{7}`).
 
-即 $R=4$. 设 $B$，$C$ 两点所对的较小圆心角为 $theta$，则
-$B C=2 R sin (theta)/(2)$，$\L o n g r i g h t a r r o w$，$4=8 sin (theta)/(2)$，
-所以 $theta =(pi)/(3)$. 因而两点间的球面距离为
+设球心为 #mi(`S`). 由于 #mi(`AB\perp`) 平面 #mi(`BCD`)，球心到 #mi(`A`)、#mi(`B`) 等距，故 #mi(`S`) 在弦 #mi(`AB`) 的垂直平分面内；该平面平行于平面 #mi(`BCD`)，且与之相距 #mi(`\frac{AB}{2}=3`). 因此球心到平面 #mi(`BCD`) 的距离为 #mi(`3`)，球半径满足
 
-$ R theta =4 dot (pi)/(3)=(4 pi)/(3) $
+
+#align(center)[#mitex(`
+R^{2}=\left(\sqrt{7}\right)^{2}+3^{2}=16
+`)]
+
+
+即 #mi(`R=4`). 设 #mi(`B`)，#mi(`C`) 两点所对的较小圆心角为 #mi(`\theta`)，则
+
+#mi(`BC=2R\sin\frac{\theta}{2}`)，#mi(`\Longrightarrow`)，#mi(`4=8\sin\frac{\theta}{2}`)，
+
+所以 #mi(`\theta=\frac{\pi}{3}`). 因而两点间的球面距离为
+
+
+#align(center)[#mitex(`
+R\theta=4\cdot\frac{\pi}{3}=\frac{4\pi}{3}
+`)]
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-+ (1) 已知函数 $f(x) = cos (2 x - (pi)/(3)) + 2 sin (x - (pi)/(4)) sin (x + (pi)/(4))$. 求函数 $f(x)$ 的最小正周期和图象的对称轴方程；
-+ (2) 求函数 $f(x)$ 在区间 $[-(pi)/(12), (pi)/(2)]$ 上的值域.
++ (1)
 ]
 
 #solution[
-+ (1) 由积化和差公式，
-
-$ 2 sin (x-(pi)/(4)) sin (x+(pi)/(4)) = cos (-(pi)/(2))- cos 2 x=- cos 2 x $
-
-所以
-
-$ f(x)= cos (2 x-(pi)/(3))- cos 2 x = sin (2 x-(pi)/(6)) $
-
-因此函数的最小正周期为 $T= pi$. 图象的对称轴满足
-$2 x-(pi)/(6)=(pi)/(2)+k pi$，（$k in ZZ$）
-即 $x=(pi)/(3)+(k pi)/(2)$.
-+ (2) 当 $x in [-(\p)/(i){12},(pi)/(2)]$ 时，令 $t=2 x-(pi)/(6)$，则 $t in [-(pi)/(3),(5 pi)/(6)]$. 在此区间内，正弦函数在 $t=(pi)/(2)$ 处取得最大值 $1$，在左端点取得最小值 $-(sqrt(3))/(2)$，故值域为 $[-(sqrt(3))/(2),1]$.
++ (1)
 ]
 
 #problem(18)[
-如图，在四棱锥 $O - A B C D$ 中，底面 $A B C D$ 四边长为 $1$ 的菱形，$angle A B C = (pi)/(4)$，$O A bot$ 底面 $A B C D$，$O A = 2$，$M$ 为 $O A$ 的中点，$N$ 为 $B C$ 的中点.
+如图，在四棱锥 #mi(`O - ABCD`) 中，底面 #mi(`ABCD`) 四边长为 #mi(`1`) 的菱形，#mi(`\angle ABC = \frac{\pi}{4}`)，#mi(`OA \perp`) 底面 #mi(`ABCD`)，#mi(`OA = 2`)，#mi(`M`) 为 #mi(`OA`) 的中点，#mi(`N`) 为 #mi(`BC`) 的中点.
 
 
-+ (1) 证明：直线 $M N parallel$ 平面 $O C D$；
-+ (2) 求异面直线 $A B$ 与 $M D$ 所成角的大小；
-+ (3) 求点 $B$ 到平面 $O C D$ 的距离.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2008/img/anhui_science/q18_fig1.png", width: 34%)]
+
+#align(center)[#image("/papers/2008/img/anhui_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-建立直角坐标系，使 $A=(0,0,0)$，底面为 $z=0$，取 $B=(1,0,0)$. 由菱形边长为 $1$ 且 $angle A B C=(pi)/(4)$，可取
-$C=(1-(sqrt(2))/(2),(sqrt(2))/(2),0)$，$D=(-(sqrt(2))/(2),(sqrt(2))/(2),0)$.
-又因为 $O A=2$，所以 $O=(0,0,2)$，从而
-$M=(0,0,1)$，$N=(1-(sqrt(2))/(4),(sqrt(2))/(4),0)$.
+建立直角坐标系，使 #mi(`A=(0,0,0)`)，底面为 #mi(`z=0`)，取 #mi(`B=(1,0,0)`). 由菱形边长为 #mi(`1`) 且 #mi(`\angle ABC=\frac{\pi}{4}`)，可取
+
+#mi(`C=\left(1-\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2},0\right)`)，#mi(`D=\left(-\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2},0\right)`).
+
+又因为 #mi(`OA=2`)，所以 #mi(`O=(0,0,2)`)，从而
+
+#mi(`M=(0,0,1)`)，#mi(`N=\left(1-\frac{\sqrt{2}}{4},\frac{\sqrt{2}}{4},0\right)`).
 
 
-+ (1) 由平行四边形关系 $D=A+C-B$，并结合 $A=(0,0,0)$，有
-
-$ arrow(M N)=\f r a c{arrow(A B)+arrow(A C)-arrow(A O)}2 =arrow(O C)-(1)/(2)arrow(O D) $
-
-右端是平面 $O C D$ 内两条相交直线方向向量的线性组合，所以 $M N$ 的方向平行于平面 $O C D$. 又因底面与平面 $O C D$ 的交线为 $C D$，而 $A in.not C D$，直线 $O A$ 与平面 $O C D$ 只有交点 $O$，故其中点 $M != O$ 不在平面 $O C D$ 内. 因此 $M N parallel$ 平面 $O C D$.
-+ (2) $arrow(A B)=(1,0,0)$，$arrow(M D)=(-(sqrt(2))/(2),(sqrt(2))/(2),-1)$，所以
-$|arrow(A B)\c d o t a r r o w(M D)|=(sqrt(2))/(2)$，$|A B|=1$，$|M D|=sqrt(2)$.
-设异面直线所成的锐角为 $theta$，则
-
-$ cos theta =(|arrow(A B){ dot }arrow(M D)|)/(|A B| |M D|)=(1)/(2) $
-
-故 $theta =(pi)/(3)$.
-+ (3) 由坐标可得
-	
-$ arrow(O C)\t i m e s a r r o w(O D)=(0,2,(sqrt(2))/(2)) $
-
-	所以可取平面 $O C D$ 的一个法向量为 $(0,4,sqrt(2))$，其方程为
-	
-$ 4 y+sqrt(2)z-2 sqrt(2)=0 $
-
-	所以点 $B=(1,0,0)$ 到该平面的距离为
-	
-$ (|4 dot 0 +sqrt(2) dot 0 -2 sqrt(2)|)/(sqrt(4^2+(sqrt(2))^2))=(2)/(3) $
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-为防止风沙危害，某地决定建设防护绿化带，种植杨树，沙柳等植物. 某人一次种植了 $n$ 株沙柳，各株沙柳成活与否是相互独立的，成活率为 $p$. 设 $xi$ 为成活沙柳的株数，数学期望 $E_( xi ) = 3$，标准差 $sigma _( xi )$ 为 $(sqrt(6))/(2)$.
+为防止风沙危害，某地决定建设防护绿化带，种植杨树，沙柳等植物. 某人一次种植了 #mi(`n`) 株沙柳，各株沙柳成活与否是相互独立的，成活率为 #mi(`p`). 设 #mi(`\xi`) 为成活沙柳的株数，数学期望 #mi(`E_{\xi}= 3`)，标准差 #mi(`\sigma_{\xi}`) 为 #mi(`\frac{\sqrt{6}}{2}`).
 
 
-+ (1) 求 $n$，$p$ 的值，并写出 $xi$ 的分布列；
-+ (2) 若有 $3$ 株或 $3$ 株以上的沙柳未成活，则需要补种，求需要补种沙柳的概率.
++ (1)
 ]
 
 #solution[
-+ (1) 各株沙柳是否成活相互独立，故 $xi tilde B(n,p)$. 由二项分布的期望和方差公式，
-$n p=E xi =3$，$n p(1-p)= sigma _( xi )^(2)=(3)/(2)$.
-两式相除得 $1-p=(1)/(2)$，所以 $p=(1)/(2)$，再由 $n p=3$ 得 $n=6$.
-
-因此对 $k=0$，$1$，$\l d o t s$，$6$，
-
-$ P( xi =k)=C_6^k((1)/(2))^k((1)/(2))^(6-k)=(C_6^k)/(64) $
-
-分布列为
-\begin{center}
-\begin{tabular}{c|ccccccc}
- $k$&$0$&$1$&$2$&$3$&$4$&$5$&$6$\\ \hline
- $P( xi =k)$&$(1)/(64)$&$(6)/(64)$&$(15)/(64)$&$(20)/(64)$&$(15)/(64)$&$(6)/(64)$&$(1)/(64)$
-\end{tabular}
-\end{center}
-+ (2) 未成活的株数为 $6- xi$. 需要补种当且仅当 $6- xi >= 3$，即 $xi <= 3$，所以所求概率为
-
-$ P( xi <= 3 )=(C_6^0+C_6^1+C_6^2+C_6^3)/(64)=(1+6+15+20)/(64)=(21)/(32) $
++ (1)
 ]
 
 #problem(20)[
-设函数 $f(x) = (1)/(x ln x)$（$x > 0$ 且 $x != 1$）.
+设函数 #mi(`f(x) = \frac{1}{x \ln x}`)（#mi(`x > 0`) 且 #mi(`x \neq 1`)）.
 
 
-+ (1) 求函数 $f(x)$ 的单调区间；
-+ (2) 已知 $2^((1)/(x)) > x^(a)$ 对任意 $x in (0,1)$ 成立，求实数 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 函数定义域为 $(0,1) union (1,+ oo )$，且
-
-$ f'(x)=-(ln x+1)/((x ln x)^2) $
-
-因为分母恒为正，所以在 $(0, e ""^(-1))$ 上 $f'(x)>0$，在 $( e ""^(-1),1)$ 和 $(1,+ oo )$ 上 $f'(x)<0$. 因此 $f(x)$ 的单调递增区间为 $(0, e ""^(-1))$，单调递减区间为 $( e ""^(-1),1)$ 和 $(1,+ oo )$.
-+ (2) 对任意 $x in (0,1)$，两边均为正，取自然对数得
-
-$ (ln 2)/(x)>a ln x $
-
-由于 $ln x<0$，上式等价于
-
-$ a>(ln 2)/(x ln x) $
-
-由第一问，函数 $(1)/(x ln x)$ 在 $(0,1)$ 上的最大值为
-
-$ (1)/(e ""^(-1) ln ( e ""^(-1)))=- e $
-
-故右端的最大值为 $- e ln 2$. 因为原不等式是严格不等式，且在 $x= e ""^(-1)$ 处取得这个最大值，所以必须且只需
-
-$ a>- e ln 2 $
++ (1)
 ]
 
 #problem(21)[
-设数列 $\{a_(n)\}$ 满足 $a_0 = 0$，$a_(n+1) = c a_n^3 + 1 - c$，$n in NN ""^*$，其中 $c$ 为实数.
+设数列 #mi(`\{a_{n}\}`) 满足 #mi(`a_{0} = 0`)，#mi(`a_{n+1}= c a_{n}^{3} + 1 - c`)，#mi(`n \in \mathbb{N}^{*}`)，其中 #mi(`c`) 为实数.
 
 
-+ (1) 证明：$a_(n) in [0,1]$ 对任意 $n in NN ""^*$ 成立的充分必要条件是 $c in [0,1]$；
-+ (2) 设 $0 < c < (1)/(3)$. 证明：$a_(n) >= 1 - (3 c)^(n-1)$，$n in NN ""^*$；
-+ (3) 设 $0 < c < (1)/(3)$. 证明：$a_1^2 + a_2^2 + dots.c + a_n^2 > n + 1 - (2)/(1 - 3 c)$，$n in NN ""^*$.
++ (1) 
++ (2)
 ]
 
 #solution[
-原卷清晰印作 $n in NN ""^*$，但同时给出 $a_0$ 并要求从 $a_1$ 起的结论. 若按通常约定 $NN ""^*=\{1,2,\l d o t s\}$ 严格理解，递推式没有定义 $a_1$，题目不封闭. 以下按题面显然意图，将递推式用于 $n=0$，$1$，$2$，$\l d o t s$ 后求解，并保留这一索引风险.
+原卷清晰印作 #mi(`n\in\mathbb{N}^{*}`)，但同时给出 #mi(`a_{0}`) 并要求从 #mi(`a_{1}`) 起的结论. 若按通常约定 #mi(`\mathbb{N}^{*}=\{1,2,\ldots\}`) 严格理解，递推式没有定义 #mi(`a_{1}`)，题目不封闭. 以下按题面显然意图，将递推式用于 #mi(`n=0`)，#mi(`1`)，#mi(`2`)，#mi(`\ldots`) 后求解，并保留这一索引风险.
 
-由递推式取 $n=0$，得 $a_1=1-c$.
+由递推式取 #mi(`n=0`)，得 #mi(`a_{1}=1-c`).
 
 
-+ (1) 若 $c in [0,1]$，则 $a_1 in [0,1]$. 假设 $a_n in [0,1]$，则
-$0 <= c a_n^3 <= c$，$1-c <= a_(n+1)=c a_n^3+1-c <= 1$，
-所以 $a_(n+1) in [0,1]$. 由数学归纳法，$a_n in [0,1]$ 对任意 $n in NN ""^*$ 成立.
-
-反之，若对任意 $n in NN ""^*$ 都有 $a_n in [0,1]$，则 $a_1=1-c in [0,1]$，从而 $c in [0,1]$. 因此所述条件的充分必要条件是 $c in [0,1]$.
-+ (2) 以下设 $0<c<(1)/(3)$. 由第一问知 $0 <= a_n <= 1$. 先证第二问：当 $n=1$ 时，$a_1=1-c >= 0 =1-(3 c)^0$. 若 $a_n >= 1 -(3 c)^(n-1)$，则
-
-$ 1-a_(n+1)=c(1-a_n^3)=c(1-a_n)(1+a_n+a_n^2) <= 3 c(1-a_n) <= (3 c)^n $
-
-故 $a_(n+1) >= 1 -(3 c)^n$，结论成立.
-+ (3) 令 $q=3 c in (0,1)$. 由第二问，且 $a_k >= 0$，有
-
-$ a_k^2 >= (1-q^(k-1))^2 =1-2 q^(k-1)+q^(2 k-2) $
-
-于是
-
-$ sum_(k=1)^(n)a_k^2 >= n-(2(1-q^n))/(1-q)+(1-q^(2 n))/(1-q^2) $
-
-将右端与 $n+1-(2)/(1-q)$ 相减，所得为
-
-$ (2 q^n)/(1-q)+(1-q^(2 n))/(1-q^2)-1>0 $
-
-其中 $(2 q^n)/(1-q)>0$，且 $(1-q^(2 n))/(1-q^2) >= 1$. 故
-
-$ sum_(k=1)^(n)a_k^2>n+1-(2)/(1-q)=n+1-(2)/(1-3 c) $
++ (1) 
++ (2)
 ]
 
 #problem(22)[
-设椭圆 $C: (x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > b > 0$）过点 $M(sqrt(2), 1)$. 且左焦点为 $F_1(-sqrt(2), 0)$.
+设椭圆 #mi(`C: \frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)）过点 #mi(`M(\sqrt{2}, 1)`). 且左焦点为 #mi(`F_{1}(-\sqrt{2}, 0)`).
 
 
-+ (1) 求椭圆 $C$ 的方程；
-+ (2) 当过点 $P(4,1)$ 的动直线 $l$ 与椭圆 $C$ 相交于两不同点 $A$，$B$ 时，在线段 $A B$ 上取点 $Q$，满足 $|arrow(A P)| dot |arrow(Q B)| = |arrow(A Q)| dot |arrow(P B)|$，证明：点 $Q$ 总在某定直线上.
++ (1)
 ]
 
 #solution[
-+ (1) 设椭圆的半焦距为 $c$. 由左焦点为 $F_1(-sqrt(2),0)$，得 $c=sqrt(2)$，所以
-
-$ a^2-b^2=c^2=2 $
-
-又因为点 $M(sqrt(2),1)$ 在椭圆上，故
-
-$ (2)/(a^2)+(1)/(b^2)=1 $
-
-令 $A=a^2$，则 $b^2=A-2$，代入上式得
-$(2)/(A)+(1)/(A-2)=1$，$\L o n g r i g h t a r r o w$，$2(A-2)+A=A(A-2)$
-即 $A^2-5 A+4=0$. 因而 $A=1$ 或 $A=4$. 由 $a>b>0$ 且 $a^2-b^2=2$，只能取 $a^2=4$，于是 $b^2=2$. 椭圆方程为
-
-$ (x^2)/(4)+(y^2)/(2)=1 $
-+ (2) 设过 $P(4,1)$ 的动直线的方向向量为 $bold(u)=( alpha , beta )$，用参数 $t$ 表示直线上的点：
-
-$ X=P+t b o l d(u) $
-
-由于 $P(4,1)$ 在椭圆外，且可把 $bold(u)$ 取为从 $P$ 指向椭圆的方向，设直线与椭圆的交点对应的参数为 $t_1$，$t_2$，并取标号使 $0<t_1<t_2$. 将 $x=4+t alpha$、$y=1+t beta$ 代入椭圆方程，得
-
-$ ((alpha ""^2)/(4)+(beta ""^2)/(2))t^2+(2 alpha + beta )t+(7)/(2)=0 $
-
-记 $A_0=(alpha ""^2)/(4)+(beta ""^2)/(2)$，由韦达定理，
-$t_1+t_2=-(2 alpha + beta)/(A_0)$，$t_(1) t_2=(7)/(2 A_0)$.
-
-交换 $A$，$B$ 不改变题设等式的内容，故可设 $A=P+t_1 bold(u)$，$B=P+t_2 bold(u)$. 点 $Q$ 在线段 $A B$ 上，题设条件等价于
-
-$ (|A Q|)/(|Q B|)=(|A P|)/(|P B|)=(t_1)/(t_2) $
-
-若 $Q=P+t_Q b o l d(u)$，则 $|A Q|=(t_Q-t_1)|bold(u)|$、$|Q B|=(t_2-t_Q)|bold(u)|$，所以
-$t_1(t_2-t_Q)=t_2(t_Q-t_1)$，$t_Q=(2 t_(1) t_2)/(t_1+t_2)=-(7)/(2 alpha + beta)$.
-这里 $t_Q$ 是正数 $t_1$，$t_2$ 的调和平均数，确实满足 $t_1<t_Q<t_2$. 又因 $2 alpha + beta \n e q0$，否则上面的交点方程无两个不同实根. 因而若 $Q=(x,y)$，则
-$x=4-(7 alpha)/(2 alpha + beta)$，$y=1-(7 beta)/(2 alpha + beta)$.
-于是
-
-$ 2 x+y-2=7-(7(2 alpha + beta ))/(2 alpha + beta)=0 $
-
-所以点 $Q$ 总在定直线 $2 x+y-2=0$ 上.
++ (1)
 ]
 

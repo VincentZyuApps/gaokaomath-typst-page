@@ -1,8 +1,53 @@
 {
-  "title": "1977年普通高等学校招生全国统一考试",
-  "subtitle": "1977年天津卷",
   "year": "1977",
   "slug": "tianjin",
+  "title": "1977年天津卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "附加题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "附加题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "解答题",
@@ -10,37 +55,47 @@
         {
           "num": 1,
           "body": "<ol class=\"enumerate\"><li><p>在什么条件下，$\\frac{y}{2x}$</p><p></p><ol class=\"enumerate\"><li><p>是正数；</p></li><li><p>是负数；</p></li><li><p>等于零；</p></li><li><p>没有意义？</p></li></ol><p></p></li><li><p>比较下列各组数的大小，并说明理由.</p><p></p><ol class=\"enumerate\"><li><p>$\\cos31^{\\circ}$ 与 $\\cos30^{\\circ}$.</p></li><li><p>$\\log_{2} 1$ 与 $\\log_{2} \\frac{1}{4}$.</p></li></ol><p></p></li><li><p>求值：</p><p></p><ol class=\"enumerate\"><li><p>$\\tan\\left(5\\arcsin\\frac{\\sqrt{3}}{2}\\right)$.</p></li><li><p>$\\left(-2\\right)^{0}\\times\\left(0.01\\right)^{\\frac{1}{2}}$.</p></li></ol><p></p></li><li><p>计算：$\\lg 12.5-\\lg\\frac{5}{8}+\\lg\\sin 30^{\\circ}$.</p></li><li><p>解方程：$\\frac{4x}{x^{2}-4}-\\frac{2}{x-2}=1-\\frac{1}{x+2}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>分式的分母为 $2x$，所以必须先有 $x\\ne0$.</p><p>当 $x\\ne0$ 时，$2>0$，故 $\\frac{y}{2x}>0\\Longleftrightarrow xy>0$，即 $x$，$y$ 同号；同理，$\\frac{y}{2x}<0\\Longleftrightarrow xy<0$，即 $x$，$y$ 异号.</p><p>当 $y=0$ 且 $x\\ne0$ 时，$\\dfrac{y}{2x}=0$. 当 $x=0$ 时分母为零，分式没有意义.</p></li><li><p>在区间 $[0^{\\circ},180^{\\circ}]$ 上，余弦函数随角度增大而减小. 因为 $31^{\\circ}>30^{\\circ}$，所以</p><p>$\\cos31^{\\circ}<\\cos30^{\\circ}$.</p><p>又因为 $\\log_{2} 1=0$，$\\log_{2}\\frac{1}{4}=-2$，所以 $\\log_{2} 1>\\log_{2}\\dfrac{1}{4}$.</p></li><li><p>由反正弦函数的值域可知</p><p>$\\arcsin\\frac{\\sqrt{3}}{2}=60^{\\circ}$.</p><p>因此</p>\n$$\n\\tan\\left(5\\arcsin\\frac{\\sqrt{3}}{2}\\right)  =\\tan300^{\\circ}=-\\sqrt{3}\n$$\n<p>又因为 $(-2)\\ne0$，所以 $(-2)^{0}=1$，且</p><p>$\\left(0.01\\right)^{\\frac{1}{2}}=0.1$，</p><p>故</p><p>$\\left(-2\\right)^{0}\\left(0.01\\right)^{\\frac{1}{2}}=\\frac{1}{10}$.</p></li><li><p>因为 $\\sin30^{\\circ}=\\dfrac{1}{2}$，由对数的运算法则，</p>\n$$\n\\lg 12.5-\\lg\\frac{5}{8}+\\lg\\sin30^{\\circ}  =\\lg\\left(12.5\\cdot\\frac{\\frac{1}{2}}{\\frac{5}{8}}\\right)=\\lg10=1\n$$\n</li><li><p>原方程的定义域为 $x\\ne2$ 且 $x\\ne-2$. 因为</p><p>$x^{2}-4=\\left(x-2\\right)\\left(x+2\\right)$，</p><p>所以在定义域内，原方程左边为</p>\n$$\n\\frac{4x}{\\left(x-2\\right)\\left(x+2\\right)}-\\frac{2}{x-2}=\\frac{4x-2\\left(x+2\\right)}{\\left(x-2\\right)\\left(x+2\\right)}=\\frac{2}{x+2}\n$$\n<p>于是 $\\frac{2}{x+2}=1-\\frac{1}{x+2}$.</p><p>由于 $x+2\\ne0$，两边同乘 $x+2$，得 $2=x+1$，所以 $x=1$. 代入原方程可知成立，故方程的解为 $x=1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>分式的分母为 $2x$，所以必须先有 $x\\ne0$.</p><p>当 $x\\ne0$ 时，$2>0$，故 $\\frac{y}{2x}>0\\Longleftrightarrow xy>0$，即 $x$，$y$ 同号；同理，$\\frac{y}{2x}<0\\Longleftrightarrow xy<0$，即 $x$，$y$ 异号.</p><p>当 $y=0$ 且 $x\\ne0$ 时，$\\dfrac{y}{2x}=0$. 当 $x=0$ 时分母为零，分式没有意义.</p></li><li><p>在区间 $[0^{\\circ},180^{\\circ}]$ 上，余弦函数随角度增大而减小. 因为 $31^{\\circ}>30^{\\circ}$，所以</p><p>$\\cos31^{\\circ}<\\cos30^{\\circ}$.</p><p>又因为 $\\log_{2} 1=0$，$\\log_{2}\\frac{1}{4}=-2$，所以 $\\log_{2} 1>\\log_{2}\\dfrac{1}{4}$.</p></li><li><p>由反正弦函数的值域可知</p><p>$\\arcsin\\frac{\\sqrt{3}}{2}=60^{\\circ}$.</p><p>因此</p>\n$$\n\\tan\\left(5\\arcsin\\frac{\\sqrt{3}}{2}\\right)  =\\tan300^{\\circ}=-\\sqrt{3}\n$$\n<p>又因为 $(-2)\\ne0$，所以 $(-2)^{0}=1$，且</p><p>$\\left(0.01\\right)^{\\frac{1}{2}}=0.1$，</p><p>故</p><p>$\\left(-2\\right)^{0}\\left(0.01\\right)^{\\frac{1}{2}}=\\frac{1}{10}$.</p></li><li><p>因为 $\\sin30^{\\circ}=\\dfrac{1}{2}$，由对数的运算法则，</p>\n$$\n\\lg 12.5-\\lg\\frac{5}{8}+\\lg\\sin30^{\\circ}  =\\lg\\left(12.5\\cdot\\frac{\\frac{1}{2}}{\\frac{5}{8}}\\right)=\\lg10=1\n$$\n</li><li><p>原方程的定义域为 $x\\ne2$ 且 $x\\ne-2$. 因为</p><p>$x^{2}-4=\\left(x-2\\right)\\left(x+2\\right)$，</p><p>所以在定义域内，原方程左边为</p>\n$$\n\\frac{4x}{\\left(x-2\\right)\\left(x+2\\right)}-\\frac{2}{x-2}=\\frac{4x-2\\left(x+2\\right)}{\\left(x-2\\right)\\left(x+2\\right)}=\\frac{2}{x+2}\n$$\n<p>于是 $\\frac{2}{x+2}=1-\\frac{1}{x+2}$.</p><p>由于 $x+2\\ne0$，两边同乘 $x+2$，得 $2=x+1$，所以 $x=1$. 代入原方程可知成立，故方程的解为 $x=1$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
-          "body": "<ol class=\"enumerate\"><li><p>某工厂准备在仓库的一侧建立一个矩形储料场（如图），现有 $50\\text{ 米}$ 长的铁丝网，如果用它来围成这个储料场，那么长和宽各是多少时，这个储料场的面积最大？并求出这个最大的面积.</p></li><li><p>如图，已知 $AB$，$DE$ 是圆 $O$ 的直径，$AC$ 是弦，$AC\\parallel DE$，求证：$CE=EB$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q2_1_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q2_2_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<ol class=\"enumerate\"><li><p>某工厂准备在仓库的一侧建立一个矩形储料场（如图），现有 $50\\text{ 米}$ 长的铁丝网，如果用它来围成这个储料场，那么长和宽各是多少时，这个储料场的面积最大？并求出这个最大的面积.</p></li><li><p>如图，已知 $AB$，$DE$ 是圆 $O$ 的直径，$AC$ 是弦，$AC\\parallel DE$，求证：$CE=EB$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/tianjin/q2_1_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/tianjin/q2_2_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设储料场垂直于仓库的一边为 $x$，平行于仓库的一边为 $y$. 因为仓库的一边可以直接作为围栏的一边，所以铁丝网只需围三边. 由围栏长度关系 $2x+y=50$，得 $y=50-2x$.</p><p>由于 $x>0$ 且 $y>0$，有 $0<x<25$. 储料场面积为</p>\n$$\nS=xy=x\\left(50-2x\\right)=-2x^{2}+50x  =-2\\left(x-\\frac{25}{2}\\right)^{2}+\\frac{625}{2}\n$$\n<p>所以当 $x=\\dfrac{25}{2}\\mathrm{~m}$ 时，面积取得最大值. 此时 $y=50-2\\cdot\\frac{25}{2}=25\\mathrm{~m}$，且 $S_{\\max}=\\frac{625}{2}\\mathrm{~m}^{2}$.</p><p>即长为 $25\\mathrm{~m}$，宽为 $\\dfrac{25}{2}\\mathrm{~m}$ 时，面积最大.</p></li><li><p>建立直角坐标系，使圆心 $O$ 为原点，直径 $DE$ 在 $y$ 轴上，设圆的半径为 $R$，并取 $E=\\left(0,R\\right)$. 设</p><p>$A=\\left(u,v\\right)$.</p><p>由于 $AB$ 是直径，$O$ 是 $AB$ 的中点，所以</p><p>$B=\\left(-u,-v\\right)$.</p><p>又因为 $AC\\parallel DE$，而 $DE$ 在 $y$ 轴上，所以 $AC$ 是竖直弦，点 $C$ 与点 $A$ 的横坐标相同. 圆的方程为 $x^{2}+y^{2}=R^{2}$，同一条竖直直线与圆的两个交点的纵坐标互为相反数，故</p><p>$C=\\left(u,-v\\right)$.</p><p>于是由两点间距离公式，$CE^{2}=u^{2}+\\left(-v-R\\right)^{2}$，$EB^{2}=\\left(-u\\right)^{2}+\\left(-v-R\\right)^{2}$.</p><p>两式右端相等，所以 $CE^{2}=EB^{2}$. 由于线段长度非负，得到 $CE=EB$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设储料场垂直于仓库的一边为 $x$，平行于仓库的一边为 $y$. 因为仓库的一边可以直接作为围栏的一边，所以铁丝网只需围三边. 由围栏长度关系 $2x+y=50$，得 $y=50-2x$.</p><p>由于 $x>0$ 且 $y>0$，有 $0<x<25$. 储料场面积为</p>\n$$\nS=xy=x\\left(50-2x\\right)=-2x^{2}+50x  =-2\\left(x-\\frac{25}{2}\\right)^{2}+\\frac{625}{2}\n$$\n<p>所以当 $x=\\dfrac{25}{2}\\mathrm{~m}$ 时，面积取得最大值. 此时 $y=50-2\\cdot\\frac{25}{2}=25\\mathrm{~m}$，且 $S_{\\max}=\\frac{625}{2}\\mathrm{~m}^{2}$.</p><p>即长为 $25\\mathrm{~m}$，宽为 $\\dfrac{25}{2}\\mathrm{~m}$ 时，面积最大.</p></li><li><p>建立直角坐标系，使圆心 $O$ 为原点，直径 $DE$ 在 $y$ 轴上，设圆的半径为 $R$，并取 $E=\\left(0,R\\right)$. 设</p><p>$A=\\left(u,v\\right)$.</p><p>由于 $AB$ 是直径，$O$ 是 $AB$ 的中点，所以</p><p>$B=\\left(-u,-v\\right)$.</p><p>又因为 $AC\\parallel DE$，而 $DE$ 在 $y$ 轴上，所以 $AC$ 是竖直弦，点 $C$ 与点 $A$ 的横坐标相同. 圆的方程为 $x^{2}+y^{2}=R^{2}$，同一条竖直直线与圆的两个交点的纵坐标互为相反数，故</p><p>$C=\\left(u,-v\\right)$.</p><p>于是由两点间距离公式，$CE^{2}=u^{2}+\\left(-v-R\\right)^{2}$，$EB^{2}=\\left(-u\\right)^{2}+\\left(-v-R\\right)^{2}$.</p><p>两式右端相等，所以 $CE^{2}=EB^{2}$. 由于线段长度非负，得到 $CE=EB$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "如果已知 $bx^{2}-4bx+2\\left(a+c\\right)=0$（$b\\neq0$）有两个相等的实数根，求证：$a$，$b$，$c$ 成等差数列.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>因为二次方程有两个相等的实数根，所以其判别式等于零. 由 $b\\neq0$，该方程确为二次方程，故</p>\n$$\n\\Delta=\\left(-4b\\right)^{2}-4b\\cdot2\\left(a+c\\right)  =16b^{2}-8b\\left(a+c\\right)=0\n$$\n<p>提取非零因子 $8b$，得 $2b-a-c=0$，即 $a+c=2b$.</p><p>这正说明 $b$ 是 $a$，$c$ 的算术平均数，所以 $a$，$b$，$c$ 成等差数列.</p>"
+          "solution": "<p>因为二次方程有两个相等的实数根，所以其判别式等于零. 由 $b\\neq0$，该方程确为二次方程，故</p>\n$$\n\\Delta=\\left(-4b\\right)^{2}-4b\\cdot2\\left(a+c\\right)  =16b^{2}-8b\\left(a+c\\right)=0\n$$\n<p>提取非零因子 $8b$，得 $2b-a-c=0$，即 $a+c=2b$.</p><p>这正说明 $b$ 是 $a$，$c$ 的算术平均数，所以 $a$，$b$，$c$ 成等差数列.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
-          "body": "<ol class=\"enumerate\"><li><p>如图，为求河对岸某建筑物的高 $AB$，在地面上引一条基线 $CD=a$，测得 $\\angle ACB=\\alpha$，$\\angle BCD=\\beta$，$\\angle BDC=\\gamma$，求 $AB$.</p></li><li><p>如果 $\\alpha=30^{\\circ}$，$\\beta=75^{\\circ}$，$\\gamma=45^{\\circ}$，$a=33\\text{ 米}$，求建筑物 $AB$ 的高（保留一位小数）.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<ol class=\"enumerate\"><li><p>如图，为求河对岸某建筑物的高 $AB$，在地面上引一条基线 $CD=a$，测得 $\\angle ACB=\\alpha$，$\\angle BCD=\\beta$，$\\angle BDC=\\gamma$，求 $AB$.</p></li><li><p>如果 $\\alpha=30^{\\circ}$，$\\beta=75^{\\circ}$，$\\gamma=45^{\\circ}$，$a=33\\text{ 米}$，求建筑物 $AB$ 的高（保留一位小数）.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/tianjin/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>建筑物的高 $AB$ 垂直于地面，且 $BC$ 在地面上，所以 $AB\\perp BC$. 在直角三角形 $ABC$ 中，$\\tan\\alpha=\\dfrac{AB}{BC}$，所以 $AB=BC\\tan\\alpha$.</p><p>在三角形 $BCD$ 中，</p><p>$\\angle CBD=180^{\\circ}-\\beta-\\gamma$.</p><p>由正弦定理以及 $CD=a$，有</p>\n$$\n\\frac{BC}{\\sin\\gamma}=\\frac{CD}{\\sin\\angle CBD}=\\frac{a}{\\sin\\left(\\beta+\\gamma\\right)}\n$$\n<p>其中使用了 $\\sin\\left(180^{\\circ}-\\theta\\right)=\\sin\\theta$. 因此</p><p>$BC=\\frac{a\\sin\\gamma}{\\sin\\left(\\beta+\\gamma\\right)}$.</p><p>代入 $AB=BC\\tan\\alpha$，得到</p><p>$AB=\\frac{a\\sin\\gamma\\tan\\alpha}{\\sin\\left(\\beta+\\gamma\\right)}$.</p></li><li><p>当 $\\alpha=30^{\\circ}$，$\\beta=75^{\\circ}$，$\\gamma=45^{\\circ}$，$a=33\\mathrm{~m}$ 时，</p>\n$$\nBC=\\frac{33\\sin45^{\\circ}}{\\sin120^{\\circ}}=11\\sqrt{6}\\mathrm{~m}\n$$\n\n$$\nAB=BC\\tan30^{\\circ}  =11\\sqrt{6}\\cdot\\frac{\\sqrt{3}}{3}\\mathrm{~m}=11\\sqrt{2}\\mathrm{~m}\n$$\n<p>因为 $11\\sqrt{2}\\approx15.556$，所以建筑物的高约为 $15.6\\mathrm{~m}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>建筑物的高 $AB$ 垂直于地面，且 $BC$ 在地面上，所以 $AB\\perp BC$. 在直角三角形 $ABC$ 中，$\\tan\\alpha=\\dfrac{AB}{BC}$，所以 $AB=BC\\tan\\alpha$.</p><p>在三角形 $BCD$ 中，</p><p>$\\angle CBD=180^{\\circ}-\\beta-\\gamma$.</p><p>由正弦定理以及 $CD=a$，有</p>\n$$\n\\frac{BC}{\\sin\\gamma}=\\frac{CD}{\\sin\\angle CBD}=\\frac{a}{\\sin\\left(\\beta+\\gamma\\right)}\n$$\n<p>其中使用了 $\\sin\\left(180^{\\circ}-\\theta\\right)=\\sin\\theta$. 因此</p><p>$BC=\\frac{a\\sin\\gamma}{\\sin\\left(\\beta+\\gamma\\right)}$.</p><p>代入 $AB=BC\\tan\\alpha$，得到</p><p>$AB=\\frac{a\\sin\\gamma\\tan\\alpha}{\\sin\\left(\\beta+\\gamma\\right)}$.</p></li><li><p>当 $\\alpha=30^{\\circ}$，$\\beta=75^{\\circ}$，$\\gamma=45^{\\circ}$，$a=33\\mathrm{~m}$ 时，</p>\n$$\nBC=\\frac{33\\sin45^{\\circ}}{\\sin120^{\\circ}}=11\\sqrt{6}\\mathrm{~m}\n$$\n\n$$\nAB=BC\\tan30^{\\circ}  =11\\sqrt{6}\\cdot\\frac{\\sqrt{3}}{3}\\mathrm{~m}=11\\sqrt{2}\\mathrm{~m}\n$$\n<p>因为 $11\\sqrt{2}\\approx15.556$，所以建筑物的高约为 $15.6\\mathrm{~m}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "<ol class=\"enumerate\"><li><p>求直线 $3x-2y+1=0$ 和 $x+3y+4=0$ 的交点坐标.</p></li><li><p>求通过上述交点，并同直线 $x+3y+4=0$ 垂直的直线方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>联立两条直线的方程，得</p>\n$$\n\\begin{cases}3x-2y=-1,\\\\  x+3y=-4\\end{cases}\n$$\n<p>将第二式乘以 $3$，得 $3x+9y=-12$. 用此式减去第一式，得到 $11y=-11$，所以 $y=-1$. 代入 $x+3y=-4$，得 $x=-1$. 因此交点坐标为 $\\left(-1,-1\\right)$.</p></li><li><p>直线 $x+3y+4=0$ 可写成 $y=-\\dfrac{1}{3}x-\\dfrac{4}{3}$，其斜率为 $-\\dfrac{1}{3}$. 与它垂直的直线斜率为 $3$. 由点斜式，所求直线满足</p><p>$y+1=3\\left(x+1\\right)$.</p><p>整理得所求直线方程为 $y=3x+2$，即 $3x-y+2=0$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>联立两条直线的方程，得</p>\n$$\n\\begin{cases}3x-2y=-1,\\\\  x+3y=-4\\end{cases}\n$$\n<p>将第二式乘以 $3$，得 $3x+9y=-12$. 用此式减去第一式，得到 $11y=-11$，所以 $y=-1$. 代入 $x+3y=-4$，得 $x=-1$. 因此交点坐标为 $\\left(-1,-1\\right)$.</p></li><li><p>直线 $x+3y+4=0$ 可写成 $y=-\\dfrac{1}{3}x-\\dfrac{4}{3}$，其斜率为 $-\\dfrac{1}{3}$. 与它垂直的直线斜率为 $3$. 由点斜式，所求直线满足</p><p>$y+1=3\\left(x+1\\right)$.</p><p>整理得所求直线方程为 $y=3x+2$，即 $3x-y+2=0$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     },
@@ -50,16 +105,20 @@
         {
           "num": 6,
           "body": "求 $\\displaystyle\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}-\\mathrm{e}^{-x}-2x}{x-\\sin nx}$ 的值.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设 $n$ 为题中固定的实数. 分子和分母在 $x\\to0$ 时都趋于零. 先求导数：</p><p>$\\left(\\mathrm{e}^{x}-\\mathrm{e}^{-x}-2x\\right)'=\\mathrm{e}^{x}+\\mathrm{e}^{-x}-2$，$\\left(x-\\sin(nx)\\right)'=1-n\\cos(nx)$.</p><p>当 $n\\ne1$ 时，分母导数在 $x=0$ 处的值为 $1-n\\ne0$. 由洛必达法则，</p>\n$$\n\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}-\\mathrm{e}^{-x}-2x}{x-\\sin(nx)}=\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}+\\mathrm{e}^{-x}-2}{1-n\\cos(nx)}=\\frac{1+1-2}{1-n}=0\n$$\n<p>当 $n=1$ 时，第一次使用洛必达法则后仍是 $\\frac{0}{0}$. 再求导，有</p><p>$\\left(\\mathrm{e}^{x}+\\mathrm{e}^{-x}-2\\right)'=\\mathrm{e}^{x}-\\mathrm{e}^{-x}$，$\\left(1-\\cos x\\right)'=\\sin x$.</p><p>第二次使用洛必达法则后仍是 $\\frac{0}{0}$，再求一次导数并使用洛必达法则，得到</p>\n$$\n\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}-\\mathrm{e}^{-x}-2x}{x-\\sin x}=\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}+\\mathrm{e}^{-x}-2}{1-\\cos x}=\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}-\\mathrm{e}^{-x}}{\\sin x}=\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}+\\mathrm{e}^{-x}}{\\cos x}=2\n$$\n<p>因此原极限为</p>\n$$\n\\begin{cases}0,&n\\ne1,\\\\  2,&n=1.\\end{cases}\n$$"
+          "solution": "<p>设 $n$ 为题中固定的实数. 分子和分母在 $x\\to0$ 时都趋于零. 先求导数：</p><p>$\\left(\\mathrm{e}^{x}-\\mathrm{e}^{-x}-2x\\right)'=\\mathrm{e}^{x}+\\mathrm{e}^{-x}-2$，$\\left(x-\\sin(nx)\\right)'=1-n\\cos(nx)$.</p><p>当 $n\\ne1$ 时，分母导数在 $x=0$ 处的值为 $1-n\\ne0$. 由洛必达法则，</p>\n$$\n\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}-\\mathrm{e}^{-x}-2x}{x-\\sin(nx)}=\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}+\\mathrm{e}^{-x}-2}{1-n\\cos(nx)}=\\frac{1+1-2}{1-n}=0\n$$\n<p>当 $n=1$ 时，第一次使用洛必达法则后仍是 $\\frac{0}{0}$. 再求导，有</p><p>$\\left(\\mathrm{e}^{x}+\\mathrm{e}^{-x}-2\\right)'=\\mathrm{e}^{x}-\\mathrm{e}^{-x}$，$\\left(1-\\cos x\\right)'=\\sin x$.</p><p>第二次使用洛必达法则后仍是 $\\frac{0}{0}$，再求一次导数并使用洛必达法则，得到</p>\n$$\n\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}-\\mathrm{e}^{-x}-2x}{x-\\sin x}=\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}+\\mathrm{e}^{-x}-2}{1-\\cos x}=\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}-\\mathrm{e}^{-x}}{\\sin x}=\\lim_{x\\to0}\\frac{\\mathrm{e}^{x}+\\mathrm{e}^{-x}}{\\cos x}=2\n$$\n<p>因此原极限为</p>\n$$\n\\begin{cases}0,&n\\ne1,\\\\  2,&n=1.\\end{cases}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "计算：$\\int_{0}^{4}\\frac{x+2}{\\sqrt{2x+1}}\\mathrm{d}x$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>令 $t=\\sqrt{2x+1}$，则 $t>0$，且</p><p>$t^{2}=2x+1$，$x=\\frac{t^{2}-1}{2}$，$\\mathrm{d}x=t\\,\\mathrm{d}t$，$x+2=\\frac{t^{2}+3}{2}$.</p><p>当 $x=0$ 时 $t=1$，当 $x=4$ 时 $t=3$. 代换后分母 $\\sqrt{2x+1}$ 就是 $t$，所以</p>\n$$\n\\begin{aligned}\\int_{0}^{4}\\frac{x+2}{\\sqrt{2x+1}}\\,\\mathrm{d}x&=\\int_{1}^{3}\\frac{\\frac{t^2+3}{2}}{t}\\,t\\,\\mathrm{d}t  =\\frac{1}{2}\\int_{1}^{3}(t^{2}+3)\\,\\mathrm{d}t\\\\&=\\frac{1}{2}\\left[\\frac{t^3}{3}+3t\\right]_{1}^{3}  =\\frac{1}{2}\\left(18-\\frac{10}{3}\\right)=\\frac{22}{3}.\\end{aligned}\n$$"
+          "solution": "<p>令 $t=\\sqrt{2x+1}$，则 $t>0$，且</p><p>$t^{2}=2x+1$，$x=\\frac{t^{2}-1}{2}$，$\\mathrm{d}x=t\\,\\mathrm{d}t$，$x+2=\\frac{t^{2}+3}{2}$.</p><p>当 $x=0$ 时 $t=1$，当 $x=4$ 时 $t=3$. 代换后分母 $\\sqrt{2x+1}$ 就是 $t$，所以</p>\n$$\n\\begin{aligned}\\int_{0}^{4}\\frac{x+2}{\\sqrt{2x+1}}\\,\\mathrm{d}x&=\\int_{1}^{3}\\frac{\\frac{t^2+3}{2}}{t}\\,t\\,\\mathrm{d}t  =\\frac{1}{2}\\int_{1}^{3}(t^{2}+3)\\,\\mathrm{d}t\\\\&=\\frac{1}{2}\\left[\\frac{t^3}{3}+3t\\right]_{1}^{3}  =\\frac{1}{2}\\left(18-\\frac{10}{3}\\right)=\\frac{22}{3}.\\end{aligned}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

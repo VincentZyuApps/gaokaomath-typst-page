@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,73 +11,91 @@
 #part-header("解答题")
 
 #problem(1)[
-$sqrt(( -a )^2)=?$
+#mi(`\sqrt{\left( -a \right)^{2}}=?`)
 ]
 
 #solution[
-因为 $( -a )^2=a^2$，而算术平方根的值非负，所以
-$sqrt(( -a )^2)=sqrt(a^2)=| a|$. 当 $a >= 0$ 时，$| a|=a$；当 $a<0$ 时，$| a|=-a$. 因此
+因为 #mi(`\left( -a \right)^{2}=a^{2}`)，而算术平方根的值非负，所以
 
-$ sqrt(( -a )^2)=\b e g i n{c a s e s} a, & a >= 0 ,\\ -a, & a<0. \e n d{c a s e s} $
+#mi(`\sqrt{\left( -a \right)^{2}}=\sqrt{a^{2}}=\lvert a\rvert`). 当 #mi(`a\geqslant0`) 时，#mi(`\lvert a\rvert=a`)；当 #mi(`a<0`) 时，#mi(`\lvert a\rvert=-a`). 因此
+
+
+#align(center)[#mitex(`
+\sqrt{\left( -a \right)^{2}}=\begin{cases}a,&a\geqslant0,\\  -a,&a<0.\end{cases}
+`)]
 ]
 
 #problem(2)[
-$log _((1)/(2))[ ( 1- cos ""^2(pi)/(6))( cot (pi)/(4))^(-2) ]=?$
+#mi(`\log_{\frac{1}{2}}\left[ \left( 1-\cos^{2}\frac{\pi}{6}\right)\left( \cot\frac{\pi}{4}\right)^{-2}\right]=?`)
 ]
 
 #solution[
-由 $cos (pi)/(6)=(sqrt(3))/(2)$ 和 $cot (pi)/(4)=1$，得
-$1- cos ""^2(pi)/(6)=1-(3)/(4)=(1)/(4)$，$( cot (pi)/(4))^(-2)=1^(-2)=1$.
-所以原式 $= log _((1)/(2))(1)/(4)$. 又因为 $(1)/(4)=((1)/(2))^2$，故原式 $=2$.
+由 #mi(`\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}`) 和 #mi(`\cot\frac{\pi}{4}=1`)，得
+
+#mi(`1-\cos^{2}\frac{\pi}{6}=1-\frac{3}{4}=\frac{1}{4}`)，#mi(`\left( \cot\frac{\pi}{4}\right)^{-2}=1^{-2}=1`).
+
+所以原式 #mi(`=\log_{\frac{1}{2}}\frac{1}{4}`). 又因为 #mi(`\frac{1}{4}=\left(\frac{1}{2}\right)^{2}`)，故原式 #mi(`=2`).
 ]
 
 #problem(3)[
 写出下列函数的定义域：
 
 
-+ (1) $y=(sqrt(| x-3|))/(x-2)$；
-+ (2) $y=\l g( x+3 )$.
++ (1)
 ]
 
 #solution[
-+ (1) 对任意实数 $x$，都有 $| x-3| >= 0$，所以根式始终有意义；分母不能为零，需满足 $x-2 != 0$. 因此定义域为 $\{x in RR | x != 2 \}$.
-+ (2) 对数的真数必须为正，需满足 $x+3>0$，所以定义域为 $\{x in RR | x>-3\}$.
++ (1)
 ]
 
 #problem(4)[
-写出过 $(0,1)$ 和 $(2,3)$ 两点的直线方程.
+写出过 #mi(`(0,1)`) 和 #mi(`(2,3)`) 两点的直线方程.
 ]
 
 #solution[
 两点的横坐标不同，直线斜率为
 
-$ k=(3-1)/(2-0)=1 $
 
-由点斜式，所求直线满足 $y-1=1( x-0 )$，即
-$y=x+1$，或写成一般式 $x-y+1=0$.
+#align(center)[#mitex(`
+k=\frac{3-1}{2-0}=1
+`)]
+
+
+由点斜式，所求直线满足 #mi(`y-1=1\left( x-0 \right)`)，即
+
+#mi(`y=x+1`)，或写成一般式 #mi(`x-y+1=0`).
 ]
 
 #problem(5)[
-写出双曲线 $(x^2)/(16)-(y^2)/(9)=1$ 的渐近线方程.
+写出双曲线 #mi(`\frac{x^{2}}{16}-\frac{y^{2}}{9}=1`) 的渐近线方程.
 ]
 
 #solution[
 将方程写成标准形式
 
-$ (x^2)/(4^2)-(y^2)/(3^2)=1 $
 
-因此双曲线的参数为 $a=4$，$b=3$. 对于双曲线 $(x^2)/(a^2)-(y^2)/(b^2)=1$，其渐近线为 $y= +- (b)/(a)x$. 代入 $a$，$b$ 得
+#align(center)[#mitex(`
+\frac{x^{2}}{4^{2}}-\frac{y^{2}}{3^{2}}=1
+`)]
 
-$ y= +- (3)/(4)x $
 
-即渐近线方程为 $(x)/(4)+(y)/(3)=0$ 和 $(x)/(4)-(y)/(3)=0$.
+因此双曲线的参数为 #mi(`a=4`)，#mi(`b=3`). 对于双曲线 #mi(`\frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1`)，其渐近线为 #mi(`y=\pm\frac{b}{a}x`). 代入 #mi(`a`)，#mi(`b`) 得
+
+
+#align(center)[#mitex(`
+y=\pm\frac{3}{4}x
+`)]
+
+
+即渐近线方程为 #mi(`\frac{x}{4}+\frac{y}{3}=0`) 和 #mi(`\frac{x}{4}-\frac{y}{3}=0`).
 ]
 
 #problem(6)[
 如图所示的二视图是什么几何体？
 
 
-#align(center)[#image("/papers/1977/img/shandong_b/q6_fig1.png", width: 6.0cm)]
+#align(center)[#image("/papers/1977/img/shandong_b/q6_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -85,62 +103,65 @@ $ y= +- (3)/(4)x $
 ]
 
 #problem(7)[
-平行四边形 $A B C D$ 的两邻边之比为 $1:2$，$M$ 为大边 $A B$ 的中点，连接 $M D$，$M C$，求证：$angle D M C=(pi)/(2)$.
+平行四边形 #mi(`ABCD`) 的两邻边之比为 #mi(`1:2`)，#mi(`M`) 为大边 #mi(`AB`) 的中点，连接 #mi(`MD`)，#mi(`MC`)，求证：#mi(`\angle DMC=\frac{\pi}{2}`).
 ]
 
 #solution[
-由题意，$A B:A D=2:1$，且 $M$ 是 $A B$ 的中点，所以
-
-$ A M=M B=(1)/(2)A B=A D $
-
-在等腰三角形 $A D M$ 中，$A M=A D$，故
-$angle A D M= angle A M D$. 又因为 $A B parallel D C$，且 $A$，$M$，$B$ 三点共线，所以直线 $A M parallel D C$，从而由平行线所成的角相等，$angle A M D= angle M D C$. 因此
-
-$ angle A D C= angle A D M+ angle M D C=2 angle M D C $
+由题意，#mi(`AB:AD=2:1`)，且 #mi(`M`) 是 #mi(`AB`) 的中点，所以
 
 
-
-#align(center)[#image("/papers/1977/img/shandong_b/q7_solution_fig1.png", width: 6.0cm)]
-
-
-平行四边形的对边相等，故 $A D=B C$，于是 $M B=B C$. 在等腰三角形 $M B C$ 中，$M B=B C$，所以 $angle B M C= angle M C B$. 由于 $M B parallel D C$，有 $angle B M C= angle M C D$，从而
-
-$ angle B C D= angle M C B+ angle M C D=2 angle M C D $
+#align(center)[#mitex(`
+AM=MB=\frac{1}{2}AB=AD
+`)]
 
 
-平行四边形的邻角互补，即 $angle A D C+ angle B C D= pi$. 因此
+在等腰三角形 #mi(`ADM`) 中，#mi(`AM=AD`)，故
 
-$ angle M D C+ angle M C D =(1)/(2)( angle A D C+ angle B C D ) =(pi)/(2) $
+#mi(`\angle ADM=\angle AMD`). 又因为 #mi(`AB\parallel DC`)，且 #mi(`A`)，#mi(`M`)，#mi(`B`) 三点共线，所以直线 #mi(`AM\parallel DC`)，从而由平行线所成的角相等，#mi(`\angle AMD=\angle MDC`). 因此
 
-在三角形 $D M C$ 中，三角形内角和为 $pi$，所以
 
-$ angle D M C= pi - angle M D C- angle M C D=(pi)/(2) $
+#align(center)[#mitex(`
+\angle ADC=\angle ADM+\angle MDC=2\angle MDC
+`)]
+
+
+ 
+#align(center)[#image("/papers/1977/img/shandong_b/q7_solution_fig1.png", width: 28%)]
+ 
+
+平行四边形的对边相等，故 #mi(`AD=BC`)，于是 #mi(`MB=BC`). 在等腰三角形 #mi(`MBC`) 中，#mi(`MB=BC`)，所以 #mi(`\angle BMC=\angle MCB`). 由于 #mi(`MB\parallel DC`)，有 #mi(`\angle BMC=\angle MCD`)，从而
+
+
+#align(center)[#mitex(`
+\angle BCD=\angle MCB+\angle MCD=2\angle MCD
+`)]
+
+
+平行四边形的邻角互补，即 #mi(`\angle ADC+\angle BCD=\pi`). 因此
+
+
+#align(center)[#mitex(`
+\angle MDC+\angle MCD  =\frac{1}{2}\left( \angle ADC+\angle BCD \right)  =\frac{\pi}{2}
+`)]
+
+
+在三角形 #mi(`DMC`) 中，三角形内角和为 #mi(`\pi`)，所以
+
+
+#align(center)[#mitex(`
+\angle DMC=\pi-\angle MDC-\angle MCD=\frac{\pi}{2}
+`)]
 ]
 
 #problem(8)[
-$(sin alpha)/(2)x^2+x+(1)/(2 cos alpha)=0$（$0< alpha <(pi)/(2)$）为关于 $x$ 的二次方程.
+#mi(`\frac{\sin\alpha}{2}x^{2}+x+\frac{1}{2\cos\alpha}=0`)（#mi(`0<\alpha<\frac{\pi}{2}`)）为关于 #mi(`x`) 的二次方程.
 
 
-+ (1) 当 $alpha$ 为何值时，方程有两个不相等的实数根？
-+ (2) 它的根是什么？
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $0< alpha <(pi)/(2)$，所以 $sin alpha >0$，$cos alpha >0$，该方程确为关于 $x$ 的二次方程. 其二次项系数、一次项系数和常数项分别为
-$A=(sin alpha)/(2)$，$B=1$，$C=(1)/(2 cos alpha)$.
-方程有两个不相等的实数根的充要条件是判别式 $Delta =B^2-4 A C>0$. 计算得
-
-$ Delta =1-4 dot (sin alpha)/(2) dot (1)/(2 cos alpha)=1-(sin alpha)/(cos alpha)=1- tan alpha $
-
-所以需要 $tan alpha <1$. 在区间 $(0,(pi)/(2))$ 内，正切函数递增，且 $tan (pi)/(4)=1$，故
-
-$ 0< alpha <(pi)/(4) $
-+ (2) 当 $0< alpha <(pi)/(4)$ 时，$Delta =1- tan alpha >0$. 由求根公式
-
-$ x=(-B\p m s q r t(Delta))/(2 A)=(-1\p m s q r t(1- tan alpha))/(sin alpha) $
-
-因此两个不相等的实数根为
-$x_1=(-1+sqrt(1- tan alpha))/(sin alpha)$，$x_2=(-1-sqrt(1- tan alpha))/(sin alpha)$.
++ (1)
 ]
 
 #problem(9)[
@@ -148,135 +169,163 @@ $x_1=(-1+sqrt(1- tan alpha))/(sin alpha)$，$x_2=(-1-sqrt(1- tan alpha))/(sin al
 ]
 
 #solution[
-设两几何体的底面积均为 $S>0$，高均为 $h>0$. 对正四棱锥，设正方形底面的边长为 $a$，则 $a^2=S$，从顶点到底面某一边中点的斜高为
+设两几何体的底面积均为 #mi(`S>0`)，高均为 #mi(`h>0`). 对正四棱锥，设正方形底面的边长为 #mi(`a`)，则 #mi(`a^{2}=S`)，从顶点到底面某一边中点的斜高为
 
-$ l_1=sqrt(h^2+( (a)/(2))^2)=sqrt(h^2+(S)/(4)) $
+
+#align(center)[#mitex(`
+l_{1}=\sqrt{h^{2}+\left( \frac{a}{2}\right)^{2}}=\sqrt{h^{2}+\frac{S}{4}}
+`)]
+
 
 因此正四棱锥的侧面积为
 
-$ S_1=4 dot (1)/(2)a l_1 =2 sqrt(S)sqrt(h^2+(S)/(4)) $
+
+#align(center)[#mitex(`
+S_{1}=4\cdot\frac{1}{2}a l_{1}  =2\sqrt{S}\sqrt{h^{2}+\frac{S}{4}}
+`)]
+
 
 从而
 
-$ S_1^2=S^2+4 S h^2 $
+
+#align(center)[#mitex(`
+S_{1}^{2}=S^{2}+4Sh^{2}
+`)]
 
 
-对正圆锥，设底面半径为 $r$，母线长为 $l_2$. 由 $pi r^2=S$ 和勾股定理，得
-$r=sqrt((S)/(pi))$，$l_2=sqrt(h^2+r^2)=sqrt(h^2+(S)/(pi))$.
+对正圆锥，设底面半径为 #mi(`r`)，母线长为 #mi(`l_{2}`). 由 #mi(`\pi r^{2}=S`) 和勾股定理，得
+
+#mi(`r=\sqrt{\frac{S}{\pi}}`)，#mi(`l_{2}=\sqrt{h^{2}+r^{2}}=\sqrt{h^{2}+\frac{S}{\pi}}`).
+
 所以正圆锥的侧面积为
 
-$ S_2= pi r l_2 $
+
+#align(center)[#mitex(`
+S_{2}=\pi r l_{2}
+`)]
+
 
 从而
 
-$ S_2^2= pi ""^2 dot (S)/(pi)( h^2+(S)/(pi))=S^2+ pi S h^2 $
+
+#align(center)[#mitex(`
+S_{2}^{2}=\pi^{2}\cdot\frac{S}{\pi}\left( h^{2}+\frac{S}{\pi}\right)=S^{2}+\pi Sh^{2}
+`)]
 
 
-因为 $pi <4$ 且 $S$，$h>0$，所以 $S_2^2<S_1^2$. 两个侧面积均为正数，故 $S_2<S_1$. 因此正圆锥的侧面积较小.
+因为 #mi(`\pi<4`) 且 #mi(`S`)，#mi(`h>0`)，所以 #mi(`S_{2}^{2}<S_{1}^{2}`). 两个侧面积均为正数，故 #mi(`S_{2}<S_{1}`). 因此正圆锥的侧面积较小.
 ]
 
 #problem(10)[
-一只船以 $v" 海里/小时"$ 的速度向正北航行，在 $A$ 处望见灯塔在船的北 $alpha$ 度东，继续航行 $t" 小时"$ 后，在 $B$ 处望见 $S$ 在船的北 $beta$ 度东，求第二次望见灯塔 $S$ 时船和灯塔的距离 $B S$.
+一只船以 #mi(`v\text{ \text{海里}/\text{小时}}`) 的速度向正北航行，在 #mi(`A`) 处望见灯塔在船的北 #mi(`\alpha`) 度东，继续航行 #mi(`t\text{ \text{小时}}`) 后，在 #mi(`B`) 处望见 #mi(`S`) 在船的北 #mi(`\beta`) 度东，求第二次望见灯塔 #mi(`S`) 时船和灯塔的距离 #mi(`BS`).
 ]
 
 #solution[
-#align(center)[#image("/papers/1977/img/shandong_b/q10_solution_fig1.png", width: 4.2cm)]
+
+#align(center)[#image("/papers/1977/img/shandong_b/q10_solution_fig1.png", width: 28%)]
+ 
+
+题面中的 #mi(`\alpha`)、#mi(`\beta`) 按度数表示.
+
+船从 #mi(`A`) 到 #mi(`B`) 向正北航行，所以
 
 
-题面中的 $alpha$、$beta$ 按度数表示.
-船从 $A$ 到 $B$ 向正北航行，所以
+#align(center)[#mitex(`
+AB=vt
+`)]
 
-$ A B=v t $
 
-在三角形 $A B S$ 中，$A B$ 的方向是正北，故 $angle B A S= alpha$. 在 $B$ 点，射线 $B A$ 指向正南，而射线 $B S$ 是北 $beta$ 度东，所以
+在三角形 #mi(`ABS`) 中，#mi(`AB`) 的方向是正北，故 #mi(`\angle BAS=\alpha`). 在 #mi(`B`) 点，射线 #mi(`BA`) 指向正南，而射线 #mi(`BS`) 是北 #mi(`\beta`) 度东，所以
 
-$ angle A B S=180^ degree - beta $
+
+#align(center)[#mitex(`
+\angle ABS=180^{\circ}-\beta
+`)]
+
 
 由三角形内角和，
 
-$ angle A S B=180^ degree - angle B A S- angle A B S =180^ degree - alpha -( 180^ degree - beta )= beta - alpha $
 
-由图中灯塔位于航线东侧且在 $B$ 的北方可知 $beta > alpha$，因此该角为正. 在三角形 $A B S$ 中应用正弦定理，$B S$ 对应角 $alpha$，$A B$ 对应角 $beta - alpha$，于是
+#align(center)[#mitex(`
+\angle ASB=180^{\circ}-\angle BAS-\angle ABS  =180^{\circ}-\alpha-\left( 180^{\circ}-\beta \right)=\beta-\alpha
+`)]
 
-$ (B S)/(sin alpha)=(A B)/(sin ( beta - alpha ))=(v t)/(sin ( beta - alpha )) $
+
+由图中灯塔位于航线东侧且在 #mi(`B`) 的北方可知 #mi(`\beta>\alpha`)，因此该角为正. 在三角形 #mi(`ABS`) 中应用正弦定理，#mi(`BS`) 对应角 #mi(`\alpha`)，#mi(`AB`) 对应角 #mi(`\beta-\alpha`)，于是
+
+
+#align(center)[#mitex(`
+\frac{BS}{\sin\alpha}=\frac{AB}{\sin\left( \beta-\alpha \right)}=\frac{vt}{\sin\left( \beta-\alpha \right)}
+`)]
+
 
 所以
 
-$ B S=(v t sin alpha)/(sin ( beta - alpha )) $
+
+#align(center)[#mitex(`
+BS=\frac{vt\sin\alpha}{\sin\left( \beta-\alpha \right)}
+`)]
 ]
 
 #problem(11)[
-某隧道的横断面如图所示，已知隧道横断面的周长为 $23" 米"$，试根据图所示尺寸，求：
+某隧道的横断面如图所示，已知隧道横断面的周长为 #mi(`23\text{ \text{米}}`)，试根据图所示尺寸，求：
 
 
-+ (1) 当 $x$ 和 $y$ 为何值时，隧道的横断面面积最大？
-+ (2) 最大面积是多少？
++ (1) 
 
 
-（取 $pi approx 3$）（图尺寸单位：米）
+
+（取 #mi(`\pi\approx3`)）（图尺寸单位：米）
 
 
-#align(center)[#image("/papers/1977/img/shandong_b/q11_fig1.png", width: 4.8cm)]
+#align(center)[#image("/papers/1977/img/shandong_b/q11_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设半圆半径为 $x$ 米，两侧直墙的高度为 $y$ 米，横断面面积为 $S$ 平方米. 按图中尺寸，半圆弧长取 $pi x approx 3 x$. 底部边界由两段长度为 $0.5$ 米的水平线、凹入部分的两条竖直边（每条长 $0.5$ 米）以及凹入部分的上边组成；其水平边界总长为直径 $2 x$，竖直边总长为 $0.5 times 2$. 因此周长条件给出
-
-$ 23 approx 3 x+2 y+2 x+0.5 times 2 $
-
-从而
-
-$ y approx (23-3 x-2 x-0.5 times 2)/(2)=11-2.5 x $
-
-
-隧道横断面面积等于上半圆面积加上两侧墙之间的矩形面积，再减去底部凹入的矩形面积. 其中凹入部分的宽为 $2 x-1$ 米，高为 $0.5$ 米，所以
-
-$ S approx (3 x^2)/(2)+2 x y-( 2 x-1 ) times 0 .5 $
-
-代入 $y=11-2.5 x$，化简得
-
-$ S approx (3 x^2)/(2)+2 x( 11-2.5 x )-( 2 x-1 ) times 0 .5=-3.5 x^2+21 x+0.5 $
-
-几何尺寸还需满足 $2 x-1>0$ 且 $y>0$，即 $(1)/(2)<x<(22)/(5)$. 在这个范围内，配方得
-
-$ S approx -3.5( x-3 )^2+32 $
-
-因为 $-3.5( x-3 )^2 <= 0$，且 $x=3$ 在允许范围内，所以当 $x=3$ 米时，面积取得最大值；此时
-
-$ y=11-2.5 times 3 =3.5" 米" $
-+ (2) 由上式直接得到
-
-$ S_( max )=32" 平方米" $
++ (1)
 ]
 
 #part-header("参考题")
 
 #problem(12)[
-求极限：$\lim\l i m i t s_(x -> 0 )(ln ( 1+x ))/(x)$.
+求极限：#mi(`\lim\limits_{x\to0}\frac{\ln\left( 1+x \right)}{x}`).
 ]
 
 #solution[
-当 $x$ 趋近于 $0$ 时，$1+x>0$，所以对数函数在所需邻域内有定义. 此时分子 $ln ( 1+x ) -> 0$，分母 $x -> 0$，且分子、分母在该邻域内可导. 由洛必达法则，
+当 #mi(`x`) 趋近于 #mi(`0`) 时，#mi(`1+x>0`)，所以对数函数在所需邻域内有定义. 此时分子 #mi(`\ln\left( 1+x \right)\to0`)，分母 #mi(`x\to0`)，且分子、分母在该邻域内可导. 由洛必达法则，
 
-$ \lim\l i m i t s_(x -> 0 )(ln ( 1+x ))/(x)=\lim\l i m i t s_(x -> 0 )((1)/(1+x))/(1)=\lim\l i m i t s_(x -> 0 )(1)/(1+x)=1 $
+
+#align(center)[#mitex(`
+\lim\limits_{x\to0}\frac{\ln\left( 1+x \right)}{x}=\lim\limits_{x\to0}\frac{\dfrac{1}{1+x}}{1}=\lim\limits_{x\to0}\frac{1}{1+x}=1
+`)]
 ]
 
 #problem(13)[
-用定积分求抛物线 $y^2=4 x$ 与 $x^2=4 y$ 所围成的曲边形面积.
+用定积分求抛物线 #mi(`y^{2}=4x`) 与 #mi(`x^{2}=4y`) 所围成的曲边形面积.
 ]
 
 #solution[
-#align(center)[#image("/papers/1977/img/shandong_b/ref1_q2_solution_fig1.png", width: 5.0cm)]
+
+#align(center)[#image("/papers/1977/img/shandong_b/ref1_q2_solution_fig1.png", width: 28%)]
+ 
+
+由 #mi(`y^{2}=4x`) 和 #mi(`x^{2}=4y`) 可知交点都在第一象限或原点. 联立两式，将 #mi(`y=\frac{x^{2}}{4}`) 代入 #mi(`y^{2}=4x`)，得
 
 
-由 $y^2=4 x$ 和 $x^2=4 y$ 可知交点都在第一象限或原点. 联立两式，将 $y=(x^2)/(4)$ 代入 $y^2=4 x$，得
+#align(center)[#mitex(`
+\frac{x^{4}}{16}=4x  \quad\Longleftrightarrow\quad  x\left( x^{3}-64 \right)=0
+`)]
 
-$ (x^4)/(16)=4 x <=> x( x^3-64 )=0 $
 
-所以交点的横坐标为 $x=0$ 和 $x=4$. 在 $0 <= x <= 4$ 上，上方曲线为 $y=2 sqrt(x)$，下方曲线为 $y=(x^2)/(4)$. 因此所围成区域的面积为
+所以交点的横坐标为 #mi(`x=0`) 和 #mi(`x=4`). 在 #mi(`0\le x\leqslant4`) 上，上方曲线为 #mi(`y=2\sqrt{x}`)，下方曲线为 #mi(`y=\frac{x^{2}}{4}`). 因此所围成区域的面积为
 
-$ S=\i n t_0^4( 2 sqrt(x)-(x^2)/(4)) d x =.(4)/(3)x^((3)/(2))|_0^4-.(1)/(12)x^3|_0^4 =(32)/(3)-(16)/(3)=(16)/(3) $
 
-所以曲边形面积为 $(16)/(3)$ 平方单位.
+#align(center)[#mitex(`
+S=\int_{0}^{4}\left( 2\sqrt{x}-\frac{x^{2}}{4}\right)\,\mathrm{d}x  =\left.\frac{4}{3}x^{\frac{3}{2}}\right|_{0}^{4}-\left.\frac{1}{12}x^{3}\right|_{0}^{4}  =\frac{32}{3}-\frac{16}{3}=\frac{16}{3}
+`)]
+
+
+所以曲边形面积为 #mi(`\frac{16}{3}`) 平方单位.
 ]
 

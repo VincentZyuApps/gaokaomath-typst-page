@@ -1,8 +1,131 @@
 {
-  "title": "2022年普通高等学校招生全国统一考试",
-  "subtitle": "2022年天津卷",
   "year": "2022",
   "slug": "tianjin",
+  "title": "2022年天津卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +140,9 @@
             "$\\{-1,0,1,2\\}$"
           ],
           "answer": "A",
-          "solution": "<p>由全集 $U$ 可得 $C_{U}B=\\{-2,0,1\\}$，因此</p><p>$A\\cap(C_{U}B)=\\{0,1,2\\}\\cap\\{-2,0,1\\}=\\{0,1\\}$，故选 A.</p>"
+          "solution": "<p>由全集 $U$ 可得 $C_{U}B=\\{-2,0,1\\}$，因此</p><p>$A\\cap(C_{U}B)=\\{0,1,2\\}\\cap\\{-2,0,1\\}=\\{0,1\\}$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,23 +154,27 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "若 $x$ 为整数，则 $2x+1$ 是整数，所以“$x$ 为整数”是“$2x+1$ 为整数”的充分条件. 反之，取 $x=\\dfrac{1}{2}$，则 $2x+1=2$ 为整数，而 $x$ 不是整数，所以必要性不成立. 故选 A."
+          "solution": "若 $x$ 为整数，则 $2x+1$ 是整数，所以“$x$ 为整数”是“$2x+1$ 为整数”的充分条件. 反之，取 $x=\\dfrac{1}{2}$，则 $2x+1=2$ 为整数，而 $x$ 不是整数，所以必要性不成立. 故选 A.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "函数 $y=\\dfrac{|x^2-1|}{x}$ 的图象大致为（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin/q3_option_a.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin/q3_option_b.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin/q3_option_c.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin/q3_option_d.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2022/img/tianjin/q3_option_a.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2022/img/tianjin/q3_option_b.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2022/img/tianjin/q3_option_c.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2022/img/tianjin/q3_option_d.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "<p>函数的定义域为 $x\\ne0$，且</p>\n$$\ny=\\begin{cases}x-\\dfrac{1}{x},&x\\le -1\\text{ 或 }x\\ge1,\\\\  \\dfrac{1}{x}-x,&-1<x<0\\text{ 或 }0<x<1.\\end{cases}\n$$\n<p>当 $x>0$ 时，函数值为正；当 $x<0$ 时，函数值为负，且 $f(-x)=-f(x)$. 又因为 $f(1)=0$，当 $0<x<1$ 时函数从正无穷递减到 $0$，当 $x>1$ 时函数从 $0$ 递增. 因此图象应为选项 A，故选 A.</p>"
+          "solution": "<p>函数的定义域为 $x\\ne0$，且</p>\n$$\ny=\\begin{cases}x-\\dfrac{1}{x},&x\\le -1\\text{ 或 }x\\ge1,\\\\  \\dfrac{1}{x}-x,&-1<x<0\\text{ 或 }0<x<1.\\end{cases}\n$$\n<p>当 $x>0$ 时，函数值为正；当 $x<0$ 时，函数值为负，且 $f(-x)=-f(x)$. 又因为 $f(1)=0$，当 $0<x<1$ 时函数从正无穷递减到 $0$，当 $x>1$ 时函数从 $0$ 递增. 因此图象应为选项 A，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
-          "body": "<p>将 1916 年到 2015 年的全球年平均气温（单位：${}^{\\circ}\\mathrm{C}$），共 100 个数据，分成 6 组：$[13.55,13.75)$，$[13.75,13.95)$，$[13.95,14.15)$，$[14.15,14.35)$，$[14.35,14.55)$，$[14.55,14.75]$，并整理得到如下的频率分布直方图，则全球年平均气温在区间 $[14.35,14.75]$ 内的有（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>将 1916 年到 2015 年的全球年平均气温（单位：${}^{\\circ}\\mathrm{C}$），共 100 个数据，分成 6 组：$[13.55,13.75)$，$[13.75,13.95)$，$[13.95,14.15)$，$[14.15,14.35)$，$[14.35,14.55)$，$[14.55,14.75]$，并整理得到如下的频率分布直方图，则全球年平均气温在区间 $[14.35,14.75]$ 内的有（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2022/img/tianjin/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$22\\text{ 年}$",
             "$23\\text{ 年}$",
@@ -53,7 +182,9 @@
             "$35\\text{ 年}$"
           ],
           "answer": "B",
-          "solution": "<p>由直方图可读出各组的组距均为 $0.20$，相应的频率分布直方图高度依次为 $0.40$，$1.30$，$1.55$，$0.60$，$0.50$，$0.65$.</p><p>区间 $[14.35,14.75]$ 对应第五、六组，其频率为</p><p>$0.20(0.50+0.65)=0.23$，故数据个数为 $100\\times0.23=23$，选 B.</p>"
+          "solution": "<p>由直方图可读出各组的组距均为 $0.20$，相应的频率分布直方图高度依次为 $0.40$，$1.30$，$1.55$，$0.60$，$0.50$，$0.65$.</p><p>区间 $[14.35,14.75]$ 对应第五、六组，其频率为</p><p>$0.20(0.50+0.65)=0.23$，故数据个数为 $100\\times0.23=23$，选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +196,9 @@
             "$c<b<a$"
           ],
           "answer": "D",
-          "solution": "因为 $a=2^{0.7}>1$，$0<b=\\left(\\dfrac{1}{3}\\right)^{0.7}<1$，而 $c=\\log_{2}\\dfrac{1}{3}<0$，所以 $c<b<a$，故选 D."
+          "solution": "因为 $a=2^{0.7}>1$，$0<b=\\left(\\dfrac{1}{3}\\right)^{0.7}<1$，而 $c=\\log_{2}\\dfrac{1}{3}<0$，所以 $c<b<a$，故选 D.",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +210,9 @@
             "$\\dfrac{5}{2}$"
           ],
           "answer": "C",
-          "solution": "<p>设 $t=\\log_{2} 3$，则 $\\log_{4} 3=\\dfrac{t}{2}$，$\\log_{8} 3=\\dfrac{t}{3}$，$\\log_{3} 2=\\dfrac{1}{t}$，$\\log_{9} 2=\\dfrac{1}{2t}$. 因此原式等于</p>\n$$\n\\left(t+\\dfrac{t}{3}\\right)\\left(\\dfrac{1}{t}+\\dfrac{1}{2t}\\right)=\\dfrac{4t}{3}\\cdot\\dfrac{3}{2t}=2\n$$\n<p>故选 C.</p>"
+          "solution": "<p>设 $t=\\log_{2} 3$，则 $\\log_{4} 3=\\dfrac{t}{2}$，$\\log_{8} 3=\\dfrac{t}{3}$，$\\log_{3} 2=\\dfrac{1}{t}$，$\\log_{9} 2=\\dfrac{1}{2t}$. 因此原式等于</p>\n$$\n\\left(t+\\dfrac{t}{3}\\right)\\left(\\dfrac{1}{t}+\\dfrac{1}{2t}\\right)=\\dfrac{4t}{3}\\cdot\\dfrac{3}{2t}=2\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,11 +224,13 @@
             "$x^{2}-\\dfrac{y^2}{4}=1$"
           ],
           "answer": "D",
-          "solution": "<p>设双曲线的半焦距为 $c$. 抛物线的准线为 $x=-\\sqrt{5}$，故 $F_{1}=(-\\sqrt{5},0)$，从而 $c=\\sqrt{5}$，即 $a^{2}+b^{2}=5$. 双曲线的渐近线为 $y=\\pm\\dfrac{b}{a}x$，所以直线 $x=-\\sqrt{5}$ 与渐近线的交点可取 $A=(-\\sqrt{5},\\pm\\dfrac{b\\sqrt{5}}{a})$.</p><p>此时 $F_{2}=(\\sqrt{5},0)$，故 $\\overrightarrow{F_2F_1}=(-2\\sqrt{5},0)$，且 $\\overrightarrow{F_2A}=(-2\\sqrt{5},\\pm\\dfrac{b\\sqrt{5}}{a})$. 由夹角为 $\\dfrac{\\pi}{4}$，得</p>\n$$\n\\tan\\angle F_{1}F_{2}A=\\dfrac{b\\frac{\\sqrt{5}}{a}}{2\\sqrt{5}}=\\dfrac{b}{2a}=1\n$$\n<p>所以 $b=2a$. 代入 $a^{2}+b^{2}=5$，得 $5a^{2}=5$，即 $a=1$，$b=2$. 故双曲线方程为 $x^{2}-\\dfrac{y^2}{4}=1$，选 D.</p>"
+          "solution": "<p>设双曲线的半焦距为 $c$. 抛物线的准线为 $x=-\\sqrt{5}$，故 $F_{1}=(-\\sqrt{5},0)$，从而 $c=\\sqrt{5}$，即 $a^{2}+b^{2}=5$. 双曲线的渐近线为 $y=\\pm\\dfrac{b}{a}x$，所以直线 $x=-\\sqrt{5}$ 与渐近线的交点可取 $A=(-\\sqrt{5},\\pm\\dfrac{b\\sqrt{5}}{a})$.</p><p>此时 $F_{2}=(\\sqrt{5},0)$，故 $\\overrightarrow{F_2F_1}=(-2\\sqrt{5},0)$，且 $\\overrightarrow{F_2A}=(-2\\sqrt{5},\\pm\\dfrac{b\\sqrt{5}}{a})$. 由夹角为 $\\dfrac{\\pi}{4}$，得</p>\n$$\n\\tan\\angle F_{1}F_{2}A=\\dfrac{b\\frac{\\sqrt{5}}{a}}{2\\sqrt{5}}=\\dfrac{b}{2a}=1\n$$\n<p>所以 $b=2a$. 代入 $a^{2}+b^{2}=5$，得 $5a^{2}=5$，即 $a=1$，$b=2$. 故双曲线方程为 $x^{2}-\\dfrac{y^2}{4}=1$，选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
-          "body": "<p>“十字歇山顶”是中国古代建筑屋顶的经典样式之一，图 1 中的故宫角楼的顶部即为十字歇山顶. 其上部可视为由两个相同的直三棱柱交叠而成的几何体（图 2）. 这两个直三棱柱有一个公共侧面 $ABCD$，在底面 $BCE$ 中，若 $BE=CE=3$，$\\angle BEC=120^{\\circ}$，则该几何体的体积为（ ）</p><p><span class=\"macro macro-examfiguregroup\"></span>[float=inline]img/2022/tianjin/q8_fig1.png<br></p><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\"><span class=\"macro macro-bitmapinclude\"></span>[max width=6.0cm]img/2022/tianjin/q8_fig1.png </td><td style=\"text-align: center\"><br><span class=\"macro macro-bitmapinclude\"></span>[max width=6.0cm]img/2022/tianjin/q8_fig2.png</td></tr></tbody></table><br><p></p>",
+          "body": "<p>“十字歇山顶”是中国古代建筑屋顶的经典样式之一，图 1 中的故宫角楼的顶部即为十字歇山顶. 其上部可视为由两个相同的直三棱柱交叠而成的几何体（图 2）. 这两个直三棱柱有一个公共侧面 $ABCD$，在底面 $BCE$ 中，若 $BE=CE=3$，$\\angle BEC=120^{\\circ}$，则该几何体的体积为（ ）</p><p><span class=\"macro macro-examfiguregroup\"></span>[float=inline]img/2022/tianjin/q8_fig1.png<br></p><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\"><span class=\"macro macro-bitmapinclude\"></span>[max width=6.0cm]img/2022/tianjin/q8_fig1.png </td><td style=\"text-align: center\"><span class=\"macro macro-bitmapinclude\"></span>[max width=6.0cm]img/2022/tianjin/q8_fig2.png</td></tr></tbody></table><br><p></p>",
           "choices": [
             "$\\dfrac{27}{2}$",
             "$\\dfrac{27\\sqrt{3}}{2}$",
@@ -101,7 +238,9 @@
             "$27\\sqrt{3}$"
           ],
           "answer": "C",
-          "solution": "<p>记底面三角形 $BCE$ 的面积为 $S$，则</p>\n$$\nS=\\frac{1}{2}\\cdot BE\\cdot CE\\cdot\\sin\\angle BEC  =\\frac{1}{2}\\cdot3\\cdot3\\cdot\\sin120^{\\circ}  =\\frac{9\\sqrt{3}}{4}\n$$\n<p>由余弦定理，</p>\n$$\nBC^{2}=BE^{2}-2BE\\cdot CE\\cos120^{\\circ}+CE^{2}  =9+9+9=27\n$$\n<p>所以 $BC=3\\sqrt{3}$.</p><p>由图中两个全等棱柱的对应关系，共同侧面 $ABCD$ 的边 $BC$ 在一个棱柱中是底面边，在另一个棱柱中是侧棱；同理，$CD$ 在前一个棱柱中是侧棱，在后一个棱柱中是底面边. 因此 $CD=BC$. 令 $h=BC=CD=3\\sqrt{3}$，则 $ABCD$ 为边长 $h$ 的正方形.</p><p>建立空间直角坐标系，使</p><p>$B=(0,0,0)$，$C=(h,0,0)$，$A=(0,h,0)$，$D=(h,h,0)$. 由等腰三角形 $BCE$ 的对称性，取</p><p>$E=\\left(\\dfrac{h}{2},0,\\dfrac{h}{2\\sqrt{3}}\\right)$. 设另一个棱柱底面中与 $E$ 对应的顶点为 $G$，则可取</p><p>$G=\\left(0,\\dfrac{h}{2},\\dfrac{h}{2\\sqrt{3}}\\right)$.</p><p>在 $0\\leq t\\leq h$ 上令</p><p>$\\varphi(t)=\\dfrac1{\\sqrt{3}}\\min\\{t,h-t\\}$. 第一个棱柱在点 $(x,y,z)$ 上的范围为 $0\\leq z\\leq\\varphi(x)$，第二个棱柱的范围为 $0\\leq z\\leq\\varphi(y)$. 第一个棱柱的体积为 $Sh$.</p><p>考虑第二个棱柱在第一个棱柱外的部分. 当 $0\\leq x\\leq y\\leq\\dfrac{h}{2}$ 时，该部分为一个三棱锥，其四个顶点为</p><p>$B$、$M=\\left(0,\\dfrac{h}{2},0\\right)$、$G$ 以及</p><p>$H=\\left(\\dfrac{h}{2},\\dfrac{h}{2},\\dfrac{h}{2\\sqrt{3}}\\right)$. 其底面 $\\triangle MGH$ 在平面 $y=\\dfrac{h}{2}$ 内，且</p>\n$$\nS_{\\triangle MGH}=\\frac{1}{2}\\cdot\\frac{h}{2}\\cdot\\frac{h}{2\\sqrt{3}}=\\frac{h^{2}}{8\\sqrt{3}}\n$$\n<p>顶点 $B$ 到该底面的距离为 $\\dfrac{h}{2}$，所以该三棱锥的体积为</p>\n$$\nV_{1}=\\frac{1}{3}\\cdot\\frac{h^{2}}{8\\sqrt{3}}\\cdot\\frac{h}{2}=\\frac{h^{3}}{48\\sqrt{3}}\n$$\n<p>由关于 $x=\\dfrac{h}{2}$ 和 $y=\\dfrac{h}{2}$ 的对称性，第二个棱柱在第一个棱柱外的部分由 4 个全等的上述三棱锥组成. 因此</p>\n$$\nV=Sh+4V_{1}  =\\frac{9\\sqrt{3}}{4}\\cdot3\\sqrt{3}+4\\cdot\\frac{(3\\sqrt{3})^{3}}{48\\sqrt{3}}=\\frac{81}{4}+\\frac{27}{4}=27\n$$\n<p>故选 C.</p>"
+          "solution": "<p>记底面三角形 $BCE$ 的面积为 $S$，则</p>\n$$\nS=\\frac{1}{2}\\cdot BE\\cdot CE\\cdot\\sin\\angle BEC  =\\frac{1}{2}\\cdot3\\cdot3\\cdot\\sin120^{\\circ}  =\\frac{9\\sqrt{3}}{4}\n$$\n<p>由余弦定理，</p>\n$$\nBC^{2}=BE^{2}-2BE\\cdot CE\\cos120^{\\circ}+CE^{2}  =9+9+9=27\n$$\n<p>所以 $BC=3\\sqrt{3}$.</p><p>由图中两个全等棱柱的对应关系，共同侧面 $ABCD$ 的边 $BC$ 在一个棱柱中是底面边，在另一个棱柱中是侧棱；同理，$CD$ 在前一个棱柱中是侧棱，在后一个棱柱中是底面边. 因此 $CD=BC$. 令 $h=BC=CD=3\\sqrt{3}$，则 $ABCD$ 为边长 $h$ 的正方形.</p><p>建立空间直角坐标系，使</p><p>$B=(0,0,0)$，$C=(h,0,0)$，$A=(0,h,0)$，$D=(h,h,0)$. 由等腰三角形 $BCE$ 的对称性，取</p><p>$E=\\left(\\dfrac{h}{2},0,\\dfrac{h}{2\\sqrt{3}}\\right)$. 设另一个棱柱底面中与 $E$ 对应的顶点为 $G$，则可取</p><p>$G=\\left(0,\\dfrac{h}{2},\\dfrac{h}{2\\sqrt{3}}\\right)$.</p><p>在 $0\\leq t\\leq h$ 上令</p><p>$\\varphi(t)=\\dfrac1{\\sqrt{3}}\\min\\{t,h-t\\}$. 第一个棱柱在点 $(x,y,z)$ 上的范围为 $0\\leq z\\leq\\varphi(x)$，第二个棱柱的范围为 $0\\leq z\\leq\\varphi(y)$. 第一个棱柱的体积为 $Sh$.</p><p>考虑第二个棱柱在第一个棱柱外的部分. 当 $0\\leq x\\leq y\\leq\\dfrac{h}{2}$ 时，该部分为一个三棱锥，其四个顶点为</p><p>$B$、$M=\\left(0,\\dfrac{h}{2},0\\right)$、$G$ 以及</p><p>$H=\\left(\\dfrac{h}{2},\\dfrac{h}{2},\\dfrac{h}{2\\sqrt{3}}\\right)$. 其底面 $\\triangle MGH$ 在平面 $y=\\dfrac{h}{2}$ 内，且</p>\n$$\nS_{\\triangle MGH}=\\frac{1}{2}\\cdot\\frac{h}{2}\\cdot\\frac{h}{2\\sqrt{3}}=\\frac{h^{2}}{8\\sqrt{3}}\n$$\n<p>顶点 $B$ 到该底面的距离为 $\\dfrac{h}{2}$，所以该三棱锥的体积为</p>\n$$\nV_{1}=\\frac{1}{3}\\cdot\\frac{h^{2}}{8\\sqrt{3}}\\cdot\\frac{h}{2}=\\frac{h^{3}}{48\\sqrt{3}}\n$$\n<p>由关于 $x=\\dfrac{h}{2}$ 和 $y=\\dfrac{h}{2}$ 的对称性，第二个棱柱在第一个棱柱外的部分由 4 个全等的上述三棱锥组成. 因此</p>\n$$\nV=Sh+4V_{1}  =\\frac{9\\sqrt{3}}{4}\\cdot3\\sqrt{3}+4\\cdot\\frac{(3\\sqrt{3})^{3}}{48\\sqrt{3}}=\\frac{81}{4}+\\frac{27}{4}=27\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +252,9 @@
             "4"
           ],
           "answer": "A",
-          "solution": "<p>函数 $f(x)=\\dfrac{1}{2}\\sin2x$ 的最小正周期为 $\\pi$，所以结论 1 错误.</p><p>在区间 $\\left[-\\dfrac\\pi4,\\dfrac\\pi4\\right]$ 上，$2x\\in\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]$，正弦函数在该区间上单调递增，所以结论 2 正确.</p><p>当 $x\\in\\left[-\\dfrac\\pi6,\\dfrac\\pi3\\right]$ 时，$2x\\in\\left[-\\dfrac\\pi3,\\dfrac{2\\pi}3\\right]$. 在此区间上，$\\sin2x$ 的最小值为 $-\\dfrac{\\sqrt{3}}{2}$，最大值为 $1$，故</p><p>$f(x)\\in\\left[-\\dfrac{\\sqrt{3}}{4},\\dfrac{1}{2}\\right]$，不是题给范围，结论 3 错误.</p><p>又</p><p>$g\\left(x-\\dfrac\\pi8\\right)=\\dfrac{1}{2}\\sin\\left(2x-\\dfrac\\pi4+\\dfrac\\pi4\\right)=f(x)$，所以 $f(x)$ 的图象由 $g(x)$ 的图象向右平移 $\\dfrac\\pi8$ 个单位长度得到，结论 4 错误. 正确结论只有 1 个，故选 A.</p>"
+          "solution": "<p>函数 $f(x)=\\dfrac{1}{2}\\sin2x$ 的最小正周期为 $\\pi$，所以结论 1 错误.</p><p>在区间 $\\left[-\\dfrac\\pi4,\\dfrac\\pi4\\right]$ 上，$2x\\in\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]$，正弦函数在该区间上单调递增，所以结论 2 正确.</p><p>当 $x\\in\\left[-\\dfrac\\pi6,\\dfrac\\pi3\\right]$ 时，$2x\\in\\left[-\\dfrac\\pi3,\\dfrac{2\\pi}3\\right]$. 在此区间上，$\\sin2x$ 的最小值为 $-\\dfrac{\\sqrt{3}}{2}$，最大值为 $1$，故</p><p>$f(x)\\in\\left[-\\dfrac{\\sqrt{3}}{4},\\dfrac{1}{2}\\right]$，不是题给范围，结论 3 错误.</p><p>又</p><p>$g\\left(x-\\dfrac\\pi8\\right)=\\dfrac{1}{2}\\sin\\left(2x-\\dfrac\\pi4+\\dfrac\\pi4\\right)=f(x)$，所以 $f(x)$ 的图象由 $g(x)$ 的图象向右平移 $\\dfrac\\pi8$ 个单位长度得到，结论 4 错误. 正确结论只有 1 个，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -123,44 +264,56 @@
         {
           "num": 10,
           "body": "已知 $\\mathrm{i}$ 是虚数单位，化简 $\\dfrac{11-3\\mathrm{i}}{1+2\\mathrm{i}}$ 的结果为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$1-5\\mathrm{i}$",
-          "solution": "<p>分子、分母同乘分母的共轭复数 $1-2\\mathrm{i}$，得</p>\n$$\n\\frac{11-3\\mathrm{i}}{1+2\\mathrm{i}}=\\frac{(11-3\\mathrm{i})(1-2\\mathrm{i})}{(1+2\\mathrm{i})(1-2\\mathrm{i})}=\\frac{11-22\\mathrm{i}-3\\mathrm{i}+6\\mathrm{i}^{2}}{5}=\\frac{5-25\\mathrm{i}}{5}=1-5\\mathrm{i}\n$$"
+          "choices": [],
+          "answer": "\\(1-5\\mathrm{i}\\)",
+          "solution": "<p>分子、分母同乘分母的共轭复数 $1-2\\mathrm{i}$，得</p>\n$$\n\\frac{11-3\\mathrm{i}}{1+2\\mathrm{i}}=\\frac{(11-3\\mathrm{i})(1-2\\mathrm{i})}{(1+2\\mathrm{i})(1-2\\mathrm{i})}=\\frac{11-22\\mathrm{i}-3\\mathrm{i}+6\\mathrm{i}^{2}}{5}=\\frac{5-25\\mathrm{i}}{5}=1-5\\mathrm{i}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
           "body": "在 $\\left(\\sqrt{x}+\\dfrac{3}{x^2}\\right)^{5}$ 的展开式中，常数项是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "15",
-          "solution": "<p>展开式的通项为</p>\n$$\n\\mathrm{C}_{5}^{r}(\\sqrt{x})^{r}\\left(\\frac{3}{x^{2}}\\right)^{5-r}=\\mathrm{C}_{5}^{r}3^{5-r}x^{\\frac{r}{2}-2(5-r)}=\\mathrm{C}_{5}^{r}3^{5-r}x^{\\frac{5r}{2}-10}\n$$\n<p>要得到常数项，必须有 $\\dfrac{5r}{2}-10=0$，即 $r=4$. 所以常数项为 $\\mathrm{C}_{5}^{4}\\cdot3=15$.</p>"
+          "solution": "<p>展开式的通项为</p>\n$$\n\\mathrm{C}_{5}^{r}(\\sqrt{x})^{r}\\left(\\frac{3}{x^{2}}\\right)^{5-r}=\\mathrm{C}_{5}^{r}3^{5-r}x^{\\frac{r}{2}-2(5-r)}=\\mathrm{C}_{5}^{r}3^{5-r}x^{\\frac{5r}{2}-10}\n$$\n<p>要得到常数项，必须有 $\\dfrac{5r}{2}-10=0$，即 $r=4$. 所以常数项为 $\\mathrm{C}_{5}^{4}\\cdot3=15$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
           "body": "若直线 $x-y+m=0$（$m>0$）被圆 $(x-1)^{2}+(y-1)^{2}=3$ 截得的弦长等于 $m$，则 $m$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
+          "choices": [],
           "answer": "2",
-          "solution": "<p>圆心为 $O(1,1)$，半径为 $r=\\sqrt{3}$. 圆心到直线的距离为</p>\n$$\nd=\\frac{|1-1+m|}{\\sqrt{1^{2}+(-1)^{2}}}=\\frac{m}{\\sqrt{2}}\n$$\n<p>由弦长公式，</p>\n$$\nm=2\\sqrt{r^{2}-d^{2}}=2\\sqrt{3-\\frac{m^{2}}{2}}\n$$\n<p>两边平方得 $m^{2}=12-2m^{2}$，所以 $m^{2}=4$. 又 $m>0$，故 $m=2$.</p>"
+          "solution": "<p>圆心为 $O(1,1)$，半径为 $r=\\sqrt{3}$. 圆心到直线的距离为</p>\n$$\nd=\\frac{|1-1+m|}{\\sqrt{1^{2}+(-1)^{2}}}=\\frac{m}{\\sqrt{2}}\n$$\n<p>由弦长公式，</p>\n$$\nm=2\\sqrt{r^{2}-d^{2}}=2\\sqrt{3-\\frac{m^{2}}{2}}\n$$\n<p>两边平方得 $m^{2}=12-2m^{2}$，所以 $m^{2}=4$. 又 $m>0$，故 $m=2$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 13,
           "body": "现有 52 张扑克牌（去掉大小王），每次取一张，取后不放回，则两次都抽到 $A$ 的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；在第一次抽到 $A$ 的条件下，第二次也抽到 $A$ 的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{1}{221}$；$\\dfrac{1}{17}$",
-          "solution": "<p>52 张牌中有 4 张 $A$. 两次都抽到 $A$ 的概率为</p>\n$$\n\\frac{4}{52}\\cdot\\frac{3}{51}=\\frac{1}{221}\n$$\n<p>在第一次抽到 $A$ 的条件下，剩余 51 张牌中有 3 张 $A$，所以第二次也抽到 $A$ 的条件概率为</p>\n$$\n\\frac{3}{51}=\\frac{1}{17}\n$$"
+          "choices": [],
+          "answer": "\\(\\dfrac{1}{221}\\)；\\(\\dfrac{1}{17}\\)",
+          "solution": "<p>52 张牌中有 4 张 $A$. 两次都抽到 $A$ 的概率为</p>\n$$\n\\frac{4}{52}\\cdot\\frac{3}{51}=\\frac{1}{221}\n$$\n<p>在第一次抽到 $A$ 的条件下，剩余 51 张牌中有 3 张 $A$，所以第二次也抽到 $A$ 的条件概率为</p>\n$$\n\\frac{3}{51}=\\frac{1}{17}\n$$",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "在 $\\triangle ABC$ 中，点 $D$ 为 $AC$ 的中点，点 $E$ 满足 $\\overrightarrow{CB}=2\\overrightarrow{BE}$. 记 $\\overrightarrow{CA}=\\mathbf{a}$，$\\overrightarrow{CB}=\\mathbf{b}$，用 $\\mathbf{a}$，$\\mathbf{b}$ 表示 $\\overrightarrow{DE}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；若 $\\overrightarrow{AB}\\perp\\overrightarrow{DE}$，则 $\\angle ACB$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{3}{2}\\mathbf{b}-\\dfrac{1}{2}\\mathbf{a}$；$\\dfrac{\\pi}{6}$",
-          "solution": "<p>以 $C$ 为起点，用位置向量表示各点，则</p><p>$\\overrightarrow{CA}=\\mathbf{a}$，$\\overrightarrow{CB}=\\mathbf{b}$，且 $D$ 为 $AC$ 的中点，所以</p><p>$\\overrightarrow{CD}=\\dfrac{1}{2}\\mathbf{a}$. 由</p><p>$\\overrightarrow{CB}=2\\overrightarrow{BE}$，得</p><p>$\\overrightarrow{BE}=\\dfrac{1}{2}\\mathbf{b}$，从而</p><p>$\\overrightarrow{CE}=\\overrightarrow{CB}+\\overrightarrow{BE}=\\dfrac{3}{2}\\mathbf{b}$. 因此</p>\n$$\n\\overrightarrow{DE}=\\overrightarrow{CE}-\\overrightarrow{CD}=\\frac{3}{2}\\mathbf{b}-\\frac{1}{2}\\mathbf{a}\n$$\n<p>又 $\\overrightarrow{AB}=\\mathbf{b}-\\mathbf{a}$，所以垂直条件给出</p>\n$$\n(\\mathbf{b}-\\mathbf{a})\\cdot(3\\mathbf{b}-\\mathbf{a})=0\n$$\n<p>即</p>\n$$\n3|\\mathbf{b}|^{2}+|\\mathbf{a}|^{2}-4\\mathbf{a}\\cdot\\mathbf{b}=0\n$$\n<p>设 $\\theta=\\angle ACB$，并令 $t=\\dfrac{|\\mathbf{a|}}{|\\mathbf{b|}}>0$. 由 $\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}||\\mathbf{b}|\\cos\\theta$，上式化为</p>\n$$\nt^{2}-4t\\cos\\theta+3=0\n$$\n<p>因此 $4t\\cos\\theta=t^{2}+3>0$，从而 $\\cos\\theta>0$. 该关于 $t$ 的方程有正实根，判别式必须满足</p>\n$$\n16\\cos^{2}\\theta-12\\geq0\n$$\n<p>结合 $\\cos\\theta>0$ 和 $0<\\theta<\\pi$，得</p><p>$\\cos\\theta\\geq\\dfrac{\\sqrt{3}}{2}$，所以 $\\theta\\leq\\dfrac\\pi6$. 当 $\\cos\\theta=\\dfrac{\\sqrt{3}}{2}$、$t=\\sqrt{3}$ 时等号可以取得，故最大值为 $\\dfrac\\pi6$.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{3}{2}\\mathbf {b}-\\dfrac{1}{2}\\mathbf {a}\\)；\\(\\dfrac{\\pi}{6}\\)",
+          "solution": "<p>以 $C$ 为起点，用位置向量表示各点，则</p><p>$\\overrightarrow{CA}=\\mathbf{a}$，$\\overrightarrow{CB}=\\mathbf{b}$，且 $D$ 为 $AC$ 的中点，所以</p><p>$\\overrightarrow{CD}=\\dfrac{1}{2}\\mathbf{a}$. 由</p><p>$\\overrightarrow{CB}=2\\overrightarrow{BE}$，得</p><p>$\\overrightarrow{BE}=\\dfrac{1}{2}\\mathbf{b}$，从而</p><p>$\\overrightarrow{CE}=\\overrightarrow{CB}+\\overrightarrow{BE}=\\dfrac{3}{2}\\mathbf{b}$. 因此</p>\n$$\n\\overrightarrow{DE}=\\overrightarrow{CE}-\\overrightarrow{CD}=\\frac{3}{2}\\mathbf{b}-\\frac{1}{2}\\mathbf{a}\n$$\n<p>又 $\\overrightarrow{AB}=\\mathbf{b}-\\mathbf{a}$，所以垂直条件给出</p>\n$$\n(\\mathbf{b}-\\mathbf{a})\\cdot(3\\mathbf{b}-\\mathbf{a})=0\n$$\n<p>即</p>\n$$\n3|\\mathbf{b}|^{2}+|\\mathbf{a}|^{2}-4\\mathbf{a}\\cdot\\mathbf{b}=0\n$$\n<p>设 $\\theta=\\angle ACB$，并令 $t=\\dfrac{|\\mathbf{a|}}{|\\mathbf{b|}}>0$. 由 $\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}||\\mathbf{b}|\\cos\\theta$，上式化为</p>\n$$\nt^{2}-4t\\cos\\theta+3=0\n$$\n<p>因此 $4t\\cos\\theta=t^{2}+3>0$，从而 $\\cos\\theta>0$. 该关于 $t$ 的方程有正实根，判别式必须满足</p>\n$$\n16\\cos^{2}\\theta-12\\geq0\n$$\n<p>结合 $\\cos\\theta>0$ 和 $0<\\theta<\\pi$，得</p><p>$\\cos\\theta\\geq\\dfrac{\\sqrt{3}}{2}$，所以 $\\theta\\leq\\dfrac\\pi6$. 当 $\\cos\\theta=\\dfrac{\\sqrt{3}}{2}$、$t=\\sqrt{3}$ 时等号可以取得，故最大值为 $\\dfrac\\pi6$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
           "body": "设 $a\\in\\mathbb{R}$，对任意实数 $x$，记 $f(x)$ 表示 $|x|-2$，$x^{2}-ax+3a-5$ 中的较小者. 若函数 $f(x)$ 至少有 3 个零点，则 $a$ 的取值范围为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$[10,+\\infty)$",
-          "solution": "<p>令 $p(x)=|x|-2$，$q(x)=x^{2}-ax+3a-5$. 因为 $f(x)=\\min\\{p(x),q(x)\\}$，所以 $f(x)=0$ 当且仅当 $p(x)\\geq0$，$q(x)\\geq0$，且 $p(x)=0$ 或 $q(x)=0$.</p><p>当 $p(x)=0$ 时，$x=\\pm2$. 分别计算</p><p>$q(2)=a-1$，$q(-2)=5a-1$. 因此 $x=2$ 是零点的条件为 $a\\geq1$，$x=-2$ 是零点的条件为 $a\\geq\\dfrac{1}{5}$.</p><p>其余零点必须是方程 $q(x)=0$ 且满足 $|x|>2$ 的根. 方程 $q(x)=0$ 的判别式为</p>\n$$\n\\Delta=a^{2}-4(3a-5)=(a-2)(a-10)\n$$\n<p>当 $a<2$ 时，二次函数的顶点横坐标为 $\\dfrac{a}{2}<1$，所以在 $x\\geq2$ 上严格递增，方程 $q(x)=0$ 在 $x>2$ 上至多有一个根；若有这样的根，则 $q(2)<0$，从而 $x=2$ 不是 $f$ 的零点. 在 $x\\leq-2$ 上，若 $a\\geq-4$，则 $q'(x)=2x-a\\leq-4-a\\leq0$，方程 $q(x)=0$ 在 $x<-2$ 上至多有一个根；若 $a<-4$，则顶点在 $-2$ 的左侧，且 $q(-2)=5a-1<0$，所以左支至多有一个根落在 $x<-2$，另一个根若存在则大于 $-2$. 因此 $q(x)=0$ 在 $|x|>2$ 上至多有两个根，且一旦有 $x<-2$ 的根，就有 $q(-2)<0$，从而 $x=-2$ 也不是 $f$ 的零点. 结合 $x=\\pm2$ 的情况可知，此时至多得到两个零点，不能满足至少 3 个零点的要求.</p><p>当 $a=2$ 时，$q(x)=(x-1)^{2}$，其唯一零点 $x=1$ 不满足 $p(x)\\geq0$，所以仍只有 $x=\\pm2$ 两个零点. 当 $2<a<10$ 时，$\\Delta<0$，故 $q(x)>0$ 对任意 $x$ 成立，只有 $x=\\pm2$ 两个零点. $a=10$ 时，</p><p>$q(x)=x^{2}-10x+25=(x-5)^{2}$，所以 $x=-2$，$x=2$ 和 $x=5$ 均为零点，恰有 3 个零点.</p><p>当 $a>10$ 时，方程 $q(x)=0$ 有两个根</p>\n$$\nx_{1,2}=\\frac{a\\mp\\sqrt{(a-2)(a-10)}}{2}\n$$\n<p>其中较小根满足 $x_{1}>2$：因为 $x_{1}>2$ 等价于 $a-4>\\sqrt{(a-2)(a-10)}$，而 $a>10$ 时两边均为正，平方后等价于 $4(a-1)>0$. 故两个根都大于 2，再加上 $x=\\pm2$，零点数至少为 4.</p><p>综上，函数至少有 3 个零点当且仅当 $a\\geq10$，故填 $[10,+\\infty)$.</p>"
+          "choices": [],
+          "answer": "\\([10,+\\infty)\\)",
+          "solution": "<p>令 $p(x)=|x|-2$，$q(x)=x^{2}-ax+3a-5$. 因为 $f(x)=\\min\\{p(x),q(x)\\}$，所以 $f(x)=0$ 当且仅当 $p(x)\\geq0$，$q(x)\\geq0$，且 $p(x)=0$ 或 $q(x)=0$.</p><p>当 $p(x)=0$ 时，$x=\\pm2$. 分别计算</p><p>$q(2)=a-1$，$q(-2)=5a-1$. 因此 $x=2$ 是零点的条件为 $a\\geq1$，$x=-2$ 是零点的条件为 $a\\geq\\dfrac{1}{5}$.</p><p>其余零点必须是方程 $q(x)=0$ 且满足 $|x|>2$ 的根. 方程 $q(x)=0$ 的判别式为</p>\n$$\n\\Delta=a^{2}-4(3a-5)=(a-2)(a-10)\n$$\n<p>当 $a<2$ 时，二次函数的顶点横坐标为 $\\dfrac{a}{2}<1$，所以在 $x\\geq2$ 上严格递增，方程 $q(x)=0$ 在 $x>2$ 上至多有一个根；若有这样的根，则 $q(2)<0$，从而 $x=2$ 不是 $f$ 的零点. 在 $x\\leq-2$ 上，若 $a\\geq-4$，则 $q'(x)=2x-a\\leq-4-a\\leq0$，方程 $q(x)=0$ 在 $x<-2$ 上至多有一个根；若 $a<-4$，则顶点在 $-2$ 的左侧，且 $q(-2)=5a-1<0$，所以左支至多有一个根落在 $x<-2$，另一个根若存在则大于 $-2$. 因此 $q(x)=0$ 在 $|x|>2$ 上至多有两个根，且一旦有 $x<-2$ 的根，就有 $q(-2)<0$，从而 $x=-2$ 也不是 $f$ 的零点. 结合 $x=\\pm2$ 的情况可知，此时至多得到两个零点，不能满足至少 3 个零点的要求.</p><p>当 $a=2$ 时，$q(x)=(x-1)^{2}$，其唯一零点 $x=1$ 不满足 $p(x)\\geq0$，所以仍只有 $x=\\pm2$ 两个零点. 当 $2<a<10$ 时，$\\Delta<0$，故 $q(x)>0$ 对任意 $x$ 成立，只有 $x=\\pm2$ 两个零点. $a=10$ 时，</p><p>$q(x)=x^{2}-10x+25=(x-5)^{2}$，所以 $x=-2$，$x=2$ 和 $x=5$ 均为零点，恰有 3 个零点.</p><p>当 $a>10$ 时，方程 $q(x)=0$ 有两个根</p>\n$$\nx_{1,2}=\\frac{a\\mp\\sqrt{(a-2)(a-10)}}{2}\n$$\n<p>其中较小根满足 $x_{1}>2$：因为 $x_{1}>2$ 等价于 $a-4>\\sqrt{(a-2)(a-10)}$，而 $a>10$ 时两边均为正，平方后等价于 $4(a-1)>0$. 故两个根都大于 2，再加上 $x=\\pm2$，零点数至少为 4.</p><p>综上，函数至少有 3 个零点当且仅当 $a\\geq10$，故填 $[10,+\\infty)$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -170,37 +323,47 @@
         {
           "num": 16,
           "body": "<p>在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $a=\\sqrt{6}$，$b=2c$，$\\cos A=-\\dfrac{1}{4}$.</p><ol class=\"enumerate\"><li><p>求 $c$ 的值；</p></li><li><p>求 $\\sin B$ 的值；</p></li><li><p>求 $\\sin(2A-B)$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A$. 代入 $a=\\sqrt{6}$，$b=2c$，$\\cos A=-\\dfrac{1}{4}$，得 $6=4c^{2}+c^{2}+c^{2}=6c^{2}$. 由于边长 $c>0$，所以 $c=1$.</p></li><li><p>由 $a=\\sqrt{6}$ 及 $\\cos A=-\\dfrac{1}{4}$，得 $\\sin A=\\sqrt{1-\\cos^{2}A}=\\dfrac{\\sqrt{15}}4$. 由正弦定理，$\\dfrac{\\sin B}{b}=\\dfrac{\\sin A}{a}$，又 $b=2$，所以 $\\sin B=\\dfrac{2\\cdot\\frac{\\sqrt{15}}{4}}{\\sqrt{6}}=\\dfrac{\\sqrt{10}}4$.</p></li><li><p>由余弦定理，$\\cos B=\\dfrac{a^2+c^2-b^2}{2ac}=\\dfrac{6+1-4}{2\\sqrt{6}}=\\dfrac{\\sqrt{6}}{4}$. 又 $\\sin 2A=2\\sin A\\cos A=-\\dfrac{\\sqrt{15}}8$，$\\cos 2A=2\\cos^{2}A-1=-\\dfrac{7}{8}$，故</p>\n$$\n\\sin(2A-B)=\\sin2A\\cos B-\\cos2A\\sin B  =-\\dfrac{\\sqrt{15}}8\\cdot\\dfrac{\\sqrt{6}}{4}+\\dfrac{7}{8}\\cdot\\dfrac{\\sqrt{10}}4  =\\dfrac{\\sqrt{10}}8\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A$. 代入 $a=\\sqrt{6}$，$b=2c$，$\\cos A=-\\dfrac{1}{4}$，得 $6=4c^{2}+c^{2}+c^{2}=6c^{2}$. 由于边长 $c>0$，所以 $c=1$.</p></li><li><p>由 $a=\\sqrt{6}$ 及 $\\cos A=-\\dfrac{1}{4}$，得 $\\sin A=\\sqrt{1-\\cos^{2}A}=\\dfrac{\\sqrt{15}}4$. 由正弦定理，$\\dfrac{\\sin B}{b}=\\dfrac{\\sin A}{a}$，又 $b=2$，所以 $\\sin B=\\dfrac{2\\cdot\\frac{\\sqrt{15}}{4}}{\\sqrt{6}}=\\dfrac{\\sqrt{10}}4$.</p></li><li><p>由余弦定理，$\\cos B=\\dfrac{a^2+c^2-b^2}{2ac}=\\dfrac{6+1-4}{2\\sqrt{6}}=\\dfrac{\\sqrt{6}}{4}$. 又 $\\sin 2A=2\\sin A\\cos A=-\\dfrac{\\sqrt{15}}8$，$\\cos 2A=2\\cos^{2}A-1=-\\dfrac{7}{8}$，故</p>\n$$\n\\sin(2A-B)=\\sin2A\\cos B-\\cos2A\\sin B  =-\\dfrac{\\sqrt{15}}8\\cdot\\dfrac{\\sqrt{6}}{4}+\\dfrac{7}{8}\\cdot\\dfrac{\\sqrt{10}}4  =\\dfrac{\\sqrt{10}}8\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 17,
-          "body": "<p>如图，在直三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$AC\\perp AB$，点 $D$，$E$，$F$ 分别为 $A_{1}B_{1}$，$AA_{1}$，$CD$ 的中点，$AB=AC=AA_{1}=2$.</p><ol class=\"enumerate\"><li><p>求证：$EF\\parallel$ 平面 $ABC$；</p></li><li><p>求直线 $BE$ 与平面 $CC_{1}D$ 所成角的正弦值；</p></li><li><p>求平面 $A_{1}CD$ 与平面 $CC_{1}D$ 所成二面角的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在直三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$AC\\perp AB$，点 $D$，$E$，$F$ 分别为 $A_{1}B_{1}$，$AA_{1}$，$CD$ 的中点，$AB=AC=AA_{1}=2$.</p><ol class=\"enumerate\"><li><p>求证：$EF\\parallel$ 平面 $ABC$；</p></li><li><p>求直线 $BE$ 与平面 $CC_{1}D$ 所成角的正弦值；</p></li><li><p>求平面 $A_{1}CD$ 与平面 $CC_{1}D$ 所成二面角的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2022/img/tianjin/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，使 $A$ 为原点，$AB$，$AC$，$AA_{1}$ 分别为 $x$ 轴，$y$ 轴，$z$ 轴，则 $A(0,0,0)$，$B(2,0,0)$，$C(0,2,0)$，$A_{1}(0,0,2)$，$B_{1}(2,0,2)$，$C_{1}(0,2,2)$. 由中点坐标公式得 $D(1,0,2)$，$E(0,0,1)$，$F(\\dfrac{1}{2},1,1)$，从而 $\\overrightarrow{EF}=(\\dfrac{1}{2},1,0)$. 该向量的 $z$ 坐标为 $0$，且 $\\overrightarrow{EF}=\\dfrac{1}{4}\\overrightarrow{AB}+\\dfrac{1}{2}\\overrightarrow{AC}$，所以 $EF\\parallel$ 平面 $ABC$.</p></li><li><p>由 $\\overrightarrow{CC_1}=(0,0,2)$，$\\overrightarrow{CD}=(1,-2,2)$，可取平面 $CC_{1}D$ 的一个法向量为 $\\mathbf{n}=(2,1,0)$. 又 $\\overrightarrow{BE}=(-2,0,1)$，所以直线 $BE$ 与平面 $CC_{1}D$ 所成角的正弦值为</p>\n$$\n\\dfrac{|\\overrightarrow{BE}\\cdot\\mathbf{n|}}{|\\overrightarrow{BE}|\\cdot|\\mathbf{n|}}=\\dfrac{4}{\\sqrt{5}\\sqrt{5}}=\\dfrac{4}{5}\n$$\n</li><li><p>平面 $A_{1}CD$ 的一个法向量可取 $\\mathbf{m}=(0,1,1)$，平面 $CC_{1}D$ 的一个法向量为 $\\mathbf{n}=(2,1,0)$. 因此两平面所成二面角的余弦值为</p>\n$$\n\\dfrac{|\\mathbf{m}\\cdot\\mathbf{n|}}{|\\mathbf{m|}\\cdot|\\mathbf{n|}}=\\dfrac{1}{\\sqrt{2}\\sqrt{5}}=\\dfrac{\\sqrt{10}}{10}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，使 $A$ 为原点，$AB$，$AC$，$AA_{1}$ 分别为 $x$ 轴，$y$ 轴，$z$ 轴，则 $A(0,0,0)$，$B(2,0,0)$，$C(0,2,0)$，$A_{1}(0,0,2)$，$B_{1}(2,0,2)$，$C_{1}(0,2,2)$. 由中点坐标公式得 $D(1,0,2)$，$E(0,0,1)$，$F(\\dfrac{1}{2},1,1)$，从而 $\\overrightarrow{EF}=(\\dfrac{1}{2},1,0)$. 该向量的 $z$ 坐标为 $0$，且 $\\overrightarrow{EF}=\\dfrac{1}{4}\\overrightarrow{AB}+\\dfrac{1}{2}\\overrightarrow{AC}$，所以 $EF\\parallel$ 平面 $ABC$.</p></li><li><p>由 $\\overrightarrow{CC_1}=(0,0,2)$，$\\overrightarrow{CD}=(1,-2,2)$，可取平面 $CC_{1}D$ 的一个法向量为 $\\mathbf{n}=(2,1,0)$. 又 $\\overrightarrow{BE}=(-2,0,1)$，所以直线 $BE$ 与平面 $CC_{1}D$ 所成角的正弦值为</p>\n$$\n\\dfrac{|\\overrightarrow{BE}\\cdot\\mathbf{n|}}{|\\overrightarrow{BE}|\\cdot|\\mathbf{n|}}=\\dfrac{4}{\\sqrt{5}\\sqrt{5}}=\\dfrac{4}{5}\n$$\n</li><li><p>平面 $A_{1}CD$ 的一个法向量可取 $\\mathbf{m}=(0,1,1)$，平面 $CC_{1}D$ 的一个法向量为 $\\mathbf{n}=(2,1,0)$. 因此两平面所成二面角的余弦值为</p>\n$$\n\\dfrac{|\\mathbf{m}\\cdot\\mathbf{n|}}{|\\mathbf{m|}\\cdot|\\mathbf{n|}}=\\dfrac{1}{\\sqrt{2}\\sqrt{5}}=\\dfrac{\\sqrt{10}}{10}\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>设 $\\{a_{n}\\}$ 为等差数列，$\\{b_{n}\\}$ 为等比数列，且 $a_{1}=b_{1}=a_{2}-b_{2}=a_{3}-b_{3}=1$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>记 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，求证：$\\left(S_{n+1}+a_{n+1}\\right)b_{n}=S_{n+1}b_{n+1}-S_{n}b_{n}$；</p></li><li><p>求 $\\displaystyle\\sum_{k=1}^{2n}\\left[a_{k+1}-(-1)^{k}a_{k}\\right]b_{k}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$，等比数列 $\\{b_{n}\\}$ 的公比为 $q$. 由题意，$a_{2}=1+d$，$a_{3}=1+2d$，$b_{2}=q$，$b_{3}=q^{2}$，所以 $d=q$，且 $2q-q^{2}=0$. 等比数列的公比不为 $0$，故 $q=2$，从而 $d=2$. 因此 $a_{n}=1+2(n-1)=2n-1$，$b_{n}=2^{n-1}$.</p></li><li><p>由 $a_{k}=2k-1$ 得 $S_{n}=\\sum_{k=1}^{n}(2k-1)=n^{2}$. 于是</p>\n$$\n(S_{n+1}+a_{n+1})b_{n}=((n+1)^{2}+2n+1)2^{n-1}=(n^{2}+4n+2)2^{n-1}\n$$\n<p>而</p>\n$$\nS_{n+1}b_{n+1}-S_{n}b_{n}=((n+1)^{2}\\cdot2^{n}-n^{2}\\cdot2^{n-1})=(n^{2}+4n+2)2^{n-1}\n$$\n<p>所以 $(S_{n+1}+a_{n+1})b_{n}=S_{n+1}b_{n+1}-S_{n}b_{n}$.</p></li><li><p>由通项公式，原式为</p>\n$$\n\\sum_{k=1}^{2n}\\left[2k+1-(-1)^{k}(2k-1)\\right]2^{k-1}\n$$\n<p>当 $k=2j-1$ 时，对应项为 $(8j-4)4^{j-1}$；当 $k=2j$ 时，对应项为 $4\\cdot4^{j-1}$. 因此原式等于</p>\n$$\n\\sum_{j=1}^{n}8j4^{j-1}=8\\sum_{j=1}^{n} j4^{j-1}\n$$\n<p>设 $T=\\sum_{j=1}^{n} j4^{j-1}$，则</p>\n$$\n3T=4T-T=n4^{n}-\\sum_{j=1}^{n}4^{j-1}=n4^{n}-\\dfrac{4^n-1}{3}\n$$\n<p>故 $T=\\dfrac{(3n-1)4^n+1}{9}$，原式为 $\\dfrac{8\\left((3n-1)4^n+1\\right)}{9}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$，等比数列 $\\{b_{n}\\}$ 的公比为 $q$. 由题意，$a_{2}=1+d$，$a_{3}=1+2d$，$b_{2}=q$，$b_{3}=q^{2}$，所以 $d=q$，且 $2q-q^{2}=0$. 等比数列的公比不为 $0$，故 $q=2$，从而 $d=2$. 因此 $a_{n}=1+2(n-1)=2n-1$，$b_{n}=2^{n-1}$.</p></li><li><p>由 $a_{k}=2k-1$ 得 $S_{n}=\\sum_{k=1}^{n}(2k-1)=n^{2}$. 于是</p>\n$$\n(S_{n+1}+a_{n+1})b_{n}=((n+1)^{2}+2n+1)2^{n-1}=(n^{2}+4n+2)2^{n-1}\n$$\n<p>而</p>\n$$\nS_{n+1}b_{n+1}-S_{n}b_{n}=((n+1)^{2}\\cdot2^{n}-n^{2}\\cdot2^{n-1})=(n^{2}+4n+2)2^{n-1}\n$$\n<p>所以 $(S_{n+1}+a_{n+1})b_{n}=S_{n+1}b_{n+1}-S_{n}b_{n}$.</p></li><li><p>由通项公式，原式为</p>\n$$\n\\sum_{k=1}^{2n}\\left[2k+1-(-1)^{k}(2k-1)\\right]2^{k-1}\n$$\n<p>当 $k=2j-1$ 时，对应项为 $(8j-4)4^{j-1}$；当 $k=2j$ 时，对应项为 $4\\cdot4^{j-1}$. 因此原式等于</p>\n$$\n\\sum_{j=1}^{n}8j4^{j-1}=8\\sum_{j=1}^{n} j4^{j-1}\n$$\n<p>设 $T=\\sum_{j=1}^{n} j4^{j-1}$，则</p>\n$$\n3T=4T-T=n4^{n}-\\sum_{j=1}^{n}4^{j-1}=n4^{n}-\\dfrac{4^n-1}{3}\n$$\n<p>故 $T=\\dfrac{(3n-1)4^n+1}{9}$，原式为 $\\dfrac{8\\left((3n-1)4^n+1\\right)}{9}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "<p>椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的右焦点为 $F$，右顶点为 $A$，上顶点为 $B$，且满足 $\\dfrac{|BF|}{|AB|}=\\dfrac{\\sqrt{3}}{2}$.</p><ol class=\"enumerate\"><li><p>求椭圆的离心率 $e$；</p></li><li><p>直线 $l$ 与椭圆有唯一公共点 $M$，与 $y$ 轴相交于 $N$（$N$ 异于 $M$）. 记 $O$ 为坐标原点，若 $|OM|=|ON|$，且 $\\triangle OMN$ 的面积为 $\\sqrt{3}$，求椭圆的标准方程.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$，则 $c^{2}=a^{2}-b^{2}$，且 $F=(c,0)$. 因为 $B=(0,b)$，所以 $|BF|=\\sqrt{b^{2}+c^{2}}=a$，又 $|AB|=\\sqrt{a^{2}+b^{2}}$. 由题设</p>\n$$\n\\dfrac{a}{\\sqrt{a^{2}+b^{2}}}=\\dfrac{\\sqrt{3}}{2}\n$$\n<p>得 $4a^{2}=3a^{2}+3b^{2}$，即 $a^{2}=3b^{2}$. 因此 $e=\\dfrac{c}{a}=\\sqrt{1-\\dfrac{b^2}{a^2}}=\\sqrt{\\dfrac{2}{3}}=\\dfrac{\\sqrt{6}}{3}$.</p></li><li><p>设唯一公共点为 $M=(x_{0},y_{0})$. 由 $a^{2}=3b^{2}$，椭圆方程给出 $x_{0}^{2}=3b^{2}-3y_{0}^{2}$. 直线 $l$ 为椭圆在 $M$ 处的切线，其方程为 $\\dfrac{x x_0}{a^2}+\\dfrac{y y_0}{b^2}=1$，故它与 $y$ 轴的交点为 $N=(0,\\dfrac{b^2}{y_0})$. 条件 $|OM|=|ON|$ 给出</p>\n$$\nx_{0}^{2}+y_{0}^{2}=\\dfrac{b^4}{y_0^2}\n$$\n<p>令 $t=\\dfrac{y_0^2}{b^2}$，则 $0<t<1$，代入 $x_{0}^{2}=3b^{2}(1-t)$ 得 $3-2t=\\dfrac{1}{t}$，即 $2t^{2}-3t+1=0$. 所以 $t=1$ 或 $t=\\dfrac{1}{2}$. $t=1$ 时 $x_{0}=0$，三角形面积为 $0$，与题设矛盾，故 $t=\\dfrac{1}{2}$.</p><p>又因为 $\\triangle OMN$ 的面积为 $\\sqrt{3}$，所以</p>\n$$\n\\sqrt{3}=\\dfrac{1}{2}|x_{0}|\\left|\\dfrac{b^2}{y_0}\\right|=\\dfrac{\\sqrt{3}}{2}b^{2}\n$$\n<p>从而 $b^{2}=2$，$a^{2}=6$. 故椭圆的标准方程为 $\\dfrac{x^2}{6}+\\dfrac{y^2}{2}=1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$，则 $c^{2}=a^{2}-b^{2}$，且 $F=(c,0)$. 因为 $B=(0,b)$，所以 $|BF|=\\sqrt{b^{2}+c^{2}}=a$，又 $|AB|=\\sqrt{a^{2}+b^{2}}$. 由题设</p>\n$$\n\\dfrac{a}{\\sqrt{a^{2}+b^{2}}}=\\dfrac{\\sqrt{3}}{2}\n$$\n<p>得 $4a^{2}=3a^{2}+3b^{2}$，即 $a^{2}=3b^{2}$. 因此 $e=\\dfrac{c}{a}=\\sqrt{1-\\dfrac{b^2}{a^2}}=\\sqrt{\\dfrac{2}{3}}=\\dfrac{\\sqrt{6}}{3}$.</p></li><li><p>设唯一公共点为 $M=(x_{0},y_{0})$. 由 $a^{2}=3b^{2}$，椭圆方程给出 $x_{0}^{2}=3b^{2}-3y_{0}^{2}$. 直线 $l$ 为椭圆在 $M$ 处的切线，其方程为 $\\dfrac{x x_0}{a^2}+\\dfrac{y y_0}{b^2}=1$，故它与 $y$ 轴的交点为 $N=(0,\\dfrac{b^2}{y_0})$. 条件 $|OM|=|ON|$ 给出</p>\n$$\nx_{0}^{2}+y_{0}^{2}=\\dfrac{b^4}{y_0^2}\n$$\n<p>令 $t=\\dfrac{y_0^2}{b^2}$，则 $0<t<1$，代入 $x_{0}^{2}=3b^{2}(1-t)$ 得 $3-2t=\\dfrac{1}{t}$，即 $2t^{2}-3t+1=0$. 所以 $t=1$ 或 $t=\\dfrac{1}{2}$. $t=1$ 时 $x_{0}=0$，三角形面积为 $0$，与题设矛盾，故 $t=\\dfrac{1}{2}$.</p><p>又因为 $\\triangle OMN$ 的面积为 $\\sqrt{3}$，所以</p>\n$$\n\\sqrt{3}=\\dfrac{1}{2}|x_{0}|\\left|\\dfrac{b^2}{y_0}\\right|=\\dfrac{\\sqrt{3}}{2}b^{2}\n$$\n<p>从而 $b^{2}=2$，$a^{2}=6$. 故椭圆的标准方程为 $\\dfrac{x^2}{6}+\\dfrac{y^2}{2}=1$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
           "body": "<p>已知 $a$，$b\\in\\mathbb{R}$，函数 $f(x)=\\mathrm{e}^{x}-a\\sin x$，$g(x)=b\\sqrt{x}$.</p><ol class=\"enumerate\"><li><p>求函数 $y=f(x)$ 在点 $(0,f(0))$ 处的切线方程；</p></li><li><p>若 $y=f(x)$ 和 $y=g(x)$ 有公共点，</p><p></p><ol class=\"enumerate\"><li><p>当 $a=0$ 时，求 $b$ 的取值范围；</p></li><li><p>求证：$a^{2}+b^{2}>\\mathrm{e}$.</p></li></ol><p></p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f(0)=1$，$f'(x)=\\mathrm{e}^{x}-a\\cos x$，所以 $f'(0)=1-a$. 因此曲线在 $(0,f(0))=(0,1)$ 处的切线方程为 $y-1=(1-a)x$，即 $y=(1-a)x+1$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>当 $a=0$ 时，公共点的横坐标满足 $x>0$，并且 $\\mathrm{e}^{x}=b\\sqrt{x}$，即 $b=\\dfrac{\\mathrm{e}^x}{\\sqrt{x}}$. 若 $b\\le0$，等式不可能成立. 令 $h(x)=\\dfrac{\\mathrm{e}^x}{\\sqrt{x}}$，则</p>\n$$\nh'(x)=\\dfrac{\\mathrm{e}^x}{x^{\\frac{3}{2}}}\\left(x-\\dfrac{1}{2}\\right)\n$$\n<p>所以 $h(x)$ 在 $(0,\\dfrac{1}{2})$ 上递减，在 $(\\dfrac{1}{2},+\\infty)$ 上递增，最小值为 $h(\\dfrac{1}{2})=\\sqrt{2\\mathrm{e}}$. 故 $b\\in[\\sqrt{2\\mathrm{e}},+\\infty)$.</p></li><li><p>公共点的横坐标不能为 $0$，设其为 $x>0$. 由公共点条件，$\\mathrm{e}^{x}=a\\sin x+b\\sqrt{x}$. 由柯西不等式，</p>\n$$\n\\mathrm{e}^{2x}\\le(a^{2}+b^{2})(\\sin^{2}x+x)\n$$\n<p>对任意 $x>0$，都有 $\\sin^{2}x<x$：当 $0<x<1$ 时，$\\sin^{2}x<x^{2}<x$；当 $x\\ge1$ 时，$\\sin^{2}x\\le1\\le x$，且 $x=1$ 时仍为严格不等式. 因此 $x+\\sin^{2}x<2x$. 又由 $\\mathrm{e}^{u}\\ge1+u$（取 $u=2x-1$），得 $\\mathrm{e}^{2x-1}\\ge2x$，从而 $\\mathrm{e}^{2x-1}>x+\\sin^{2}x$. 于是</p>\n$$\na^{2}+b^{2}\\ge\\dfrac{\\mathrm{e}^{2x}}{x+\\sin^2x}>\\mathrm{e}\n$$\n<p>即 $a^{2}+b^{2}>\\mathrm{e}$.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f(0)=1$，$f'(x)=\\mathrm{e}^{x}-a\\cos x$，所以 $f'(0)=1-a$. 因此曲线在 $(0,f(0))=(0,1)$ 处的切线方程为 $y-1=(1-a)x$，即 $y=(1-a)x+1$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>当 $a=0$ 时，公共点的横坐标满足 $x>0$，并且 $\\mathrm{e}^{x}=b\\sqrt{x}$，即 $b=\\dfrac{\\mathrm{e}^x}{\\sqrt{x}}$. 若 $b\\le0$，等式不可能成立. 令 $h(x)=\\dfrac{\\mathrm{e}^x}{\\sqrt{x}}$，则</p>\n$$\nh'(x)=\\dfrac{\\mathrm{e}^x}{x^{\\frac{3}{2}}}\\left(x-\\dfrac{1}{2}\\right)\n$$\n<p>所以 $h(x)$ 在 $(0,\\dfrac{1}{2})$ 上递减，在 $(\\dfrac{1}{2},+\\infty)$ 上递增，最小值为 $h(\\dfrac{1}{2})=\\sqrt{2\\mathrm{e}}$. 故 $b\\in[\\sqrt{2\\mathrm{e}},+\\infty)$.</p></li><li><p>公共点的横坐标不能为 $0$，设其为 $x>0$. 由公共点条件，$\\mathrm{e}^{x}=a\\sin x+b\\sqrt{x}$. 由柯西不等式，</p>\n$$\n\\mathrm{e}^{2x}\\le(a^{2}+b^{2})(\\sin^{2}x+x)\n$$\n<p>对任意 $x>0$，都有 $\\sin^{2}x<x$：当 $0<x<1$ 时，$\\sin^{2}x<x^{2}<x$；当 $x\\ge1$ 时，$\\sin^{2}x\\le1\\le x$，且 $x=1$ 时仍为严格不等式. 因此 $x+\\sin^{2}x<2x$. 又由 $\\mathrm{e}^{u}\\ge1+u$（取 $u=2x-1$），得 $\\mathrm{e}^{2x-1}\\ge2x$，从而 $\\mathrm{e}^{2x-1}>x+\\sin^{2}x$. 于是</p>\n$$\na^{2}+b^{2}\\ge\\dfrac{\\mathrm{e}^{2x}}{x+\\sin^2x}>\\mathrm{e}\n$$\n<p>即 $a^{2}+b^{2}>\\mathrm{e}$.</p></li></ol><p></p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

@@ -61,7 +61,9 @@ B
 #problem(5)[
 某三棱锥的三视图如图所示，则该三棱锥的表面积是（ ）
 
-[max width=0.65\linewidth]img/2015/beijing_science/q5_fig1.png
+
+#align(center)[#image("/papers/2015/img/beijing_science/q5_fig1.png", width: 28%)]
+
 
 C
 
@@ -105,7 +107,9 @@ a_{2}^{2}-a_{1}a_{3}=(a_{1}+d)^{2}-a_{1}(a_{1}+2d)=d^{2}>0
 #problem(7)[
 如图，函数 #mi(`f(x)`) 的图象为折线 #mi(`ACB`)，则不等式 #mi(`f(x) \ge \log_{2}(x + 1)`) 的解集是（ ）
 
-[max width=0.5\linewidth]img/2015/beijing_science/q7_fig1.png
+
+#align(center)[#image("/papers/2015/img/beijing_science/q7_fig1.png", width: 28%)]
+
 
 C
 
@@ -116,16 +120,18 @@ C
 ]
 
 #problem(8)[
-汽车的“燃油效率”，是指汽车每消耗#mi(`1\text{ \text{升}}`)汽油行驶的里程，下图描述了甲，乙，丙三辆汽车在不同速度下的燃油效率情况. 下列叙述中正确的是（ ）
+汽车的“燃油效率”，是指汽车每消耗#mi(`1\text{ \text{升}}`) 汽油行驶的里程，下图描述了甲，乙，丙三辆汽车在不同速度下的燃油效率情况. 下列叙述中正确的是（ ）
 
-[max width=0.55\linewidth]img/2015/beijing_science/q8_fig1.png
+
+#align(center)[#image("/papers/2015/img/beijing_science/q8_fig1.png", width: 28%)]
+
 
 D
 
 燃油效率越大，在相同路程下消耗的汽油越少. 由图可知，乙车的燃油效率最大值超过 #mi(`5\text{ \text{千米}/\text{升}}`)，故 A 错；在相同速度和路程下，甲车的燃油效率高于丙车，故甲车不可能消耗汽油最多，B 错；甲车以 #mi(`80\text{ \text{千米}/\text{小时}}`) 行驶 #mi(`1`) 小时的路程为 #mi(`80\text{ \text{千米}}`)，图中该速度下燃油效率为 #mi(`10\text{ \text{千米}/\text{升}}`)，所以消耗汽油 #mi(`80\div10=8\text{ \text{升}}`)，C 错.
 
 在不超过 #mi(`80\text{ \text{千米}/\text{小时}}`) 的速度范围内，图中丙车的燃油效率不低于乙车，因此相同条件下丙车消耗的汽油不多于乙车，故 D 正确.
-  #choices([消耗#mi(`1\text{ \text{升}}`)汽油，乙车最多可行驶#mi(`5\text{ \text{千米}}`)], [以相同速度行驶相同路程，三辆车中，甲车消耗汽油最多], [甲车以#mi(`80\text{ \text{千米}/\text{小时}}`)的速度行驶#mi(`1\text{ \text{小时}}`)，消耗#mi(`10\text{ \text{升}}`)汽油], [某城市机动车最高限速为#mi(`80\text{ \text{千米}/\text{小时}}`). 相同条件下，在该市用丙车比用乙车更省油], cols: 1)
+  #choices([消耗#mi(`1\text{ \text{升}}`) 汽油，乙车最多可行驶#mi(`5\text{ \text{千米}}`)], [以相同速度行驶相同路程，三辆车中，甲车消耗汽油最多], [甲车以#mi(`80\text{ \text{千米}/\text{小时}}`) 的速度行驶#mi(`1\text{ \text{小时}}`)，消耗#mi(`10\text{ \text{升}}`) 汽油], [某城市机动车最高限速为#mi(`80\text{ \text{千米}/\text{小时}}`). 相同条件下，在该市用丙车比用乙车更省油], cols: 1)
 ]
 
 #part-header("填空题")
@@ -250,7 +256,9 @@ D
 
 
 
-[max width=0.45\linewidth]img/2015/beijing_science/q17_fig1.png
+
+#align(center)[#image("/papers/2015/img/beijing_science/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[

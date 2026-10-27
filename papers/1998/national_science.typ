@@ -25,7 +25,15 @@
 
 #problem(2)[
 函数 #mi(`y=a^{|x|}`)（#mi(`a>1`)）的图象是（ ）
-  #choices([[width=0.15\paperwidth]img/1998/national_science/q2_optA_nolabel.png], [[width=0.15\paperwidth]img/1998/national_science/q2_optB_nolabel.png], [[width=0.15\paperwidth]img/1998/national_science/q2_optC_nolabel.png], [[width=0.15\paperwidth]img/1998/national_science/q2_optD_nolabel.png], cols: 1)
+  #choices([
+#align(center)[#image("/papers/1998/img/national_science/q2_optA_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1998/img/national_science/q2_optB_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1998/img/national_science/q2_optC_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1998/img/national_science/q2_optD_nolabel.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B])
@@ -138,8 +146,18 @@
 #problem(10)[
 向高为 #mi(`H`) 的水瓶中注水，注满为止，如果注水量 #mi(`V`) 与水深 #mi(`h`) 的函数关系的图象如下图所示，那么水瓶的形状是（ ）
 
-[max width=0.30\linewidth]img/1998/national_science/q10_fig1.png
-  #choices([[width=0.15\paperwidth]img/1998/national_science/q10_optA_nolabel.png], [[width=0.15\paperwidth]img/1998/national_science/q10_optB_nolabel.png], [[width=0.15\paperwidth]img/1998/national_science/q10_optC_nolabel.png], [[width=0.15\paperwidth]img/1998/national_science/q10_optD_nolabel.png], cols: 1)
+
+#align(center)[#image("/papers/1998/img/national_science/q10_fig1.png", width: 28%)]
+
+  #choices([
+#align(center)[#image("/papers/1998/img/national_science/q10_optA_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1998/img/national_science/q10_optB_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1998/img/national_science/q10_optC_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/1998/img/national_science/q10_optD_nolabel.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([B])
@@ -373,7 +391,9 @@
 #problem(21)[
 如图，直线 #mi(`l_{1}`) 和 #mi(`l_{2}`) 相交于点 #mi(`M`)，#mi(`l_{1}\perp l_{2}`)，点 #mi(`N \in l_{1}`)，以 #mi(`A`)，#mi(`B`) 为端点的曲线段 #mi(`C`) 上的任一点到 #mi(`l_{2}`) 的距离与到点 #mi(`N`) 的距离相等. 若 #mi(`\triangle AMN`) 为锐角三角形，#mi(`|AM| = \sqrt{17}`)，#mi(`|AN| = 3`)，且 #mi(`|BN| = 6`). 建立适当的坐标系，求曲线段 #mi(`C`) 的方程.
 
-[max width=5.6cm]img/1998/national_science/q21_fig1.png
+
+#align(center)[#image("/papers/1998/img/national_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -415,7 +435,9 @@ BN^{2}=(x_{B}-n)^{2}+y_{B}^{2}=x_{B}^{2}
 #problem(22)[
 如图，为处理含有某种杂质的水污染，要制造一底宽为 #mi(`2\text{ \text{米}}`) 的无盖长方体沉淀箱，污水从 #mi(`A`) 汇流入，经沉淀后从 #mi(`B`) 汇流出. 设箱体的长度为 #mi(`a\text{ \text{米}}`)，高度为 #mi(`b\text{ \text{米}}`). 已知流出的水中该杂质的质量分数与 #mi(`a`)，#mi(`b`) 的乘积 #mi(`ab`) 成反比. 现有制箱材料 #mi(`60\text{ \text{平方米}}`). 问当 #mi(`a`)，#mi(`b`) 各为多少米时，经沉淀后流出的水中该杂质的质量分数最小. （#mi(`A`)，#mi(`B`) 孔的面积忽略不计）
 
-[max width=6.2cm]img/1998/national_science/q22_fig1.png
+
+#align(center)[#image("/papers/1998/img/national_science/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -477,7 +499,9 @@ u^{2}+2\sqrt{2}u\leq30
 
 
 
-[max width=6.2cm]img/1998/national_science/q23_fig1.png
+
+#align(center)[#image("/papers/1998/img/national_science/q23_fig1.png", width: 28%)]
+
 ]
 
 #solution[

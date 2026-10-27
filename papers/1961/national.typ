@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,177 +11,210 @@
 #part-header("解答题")
 
 #problem(1)[
-+ (1) 求 $(2-x)^(10)$ 展开式里 $x^7$ 的系数.
-+ (2) 解方程 $2\l g x=\l g(x+12)$. （注：$\l g$ 是以 $10$ 为底的对数的符号.）
-+ (3) 求函数 $y=(sqrt(x-1))/(x-5)$ 的自变量 $x$ 的允许值的范围.
-+ (4) 求 $sin (pi)/(12) sin (5 pi)/(12)$ 的值.
-+ (5) 一个水平放着的圆柱形排水管，内半径是 $12" 厘米"$. 排水管的圆截面上被水淹没部分的弧含有 $150^ degree$（如图）. 求这个截面上有水部分的面积. （取 $pi =3.14$）
-+ (6) 已知 $triangle A B C$ 的一边 $B C$ 在平面 $N$ 内，$triangle A B C$ 所在的平面与平面 $N$ 组成二面角 $a$（$a<90^ degree$）. 从 $A$ 点作平面 $N$ 的垂线 $A A'$，$A'$ 是垂足. 设 $triangle A B C$ 的面积是 $S$，求证 $triangle A'B C$ 的面积是 $S cos a$.
++ (1) 
++ (2) 
++ (3) 
++ (4) 
++ (5) 
 
 
 
 
-#align(center)[#image("/papers/1961/img/national/q1_5_fig1.png", width: 6.0cm)]
+#align(center)[#image("/papers/1961/img/national/q1_5_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 二项式展开式的通项为 $C_(10)^(r)2^(10-r)(-x)^r$，其中 $r=0$，$1$，$\l d o t s$，$10$. 要得到 $x^7$，必须取 $r=7$，所以所求系数为
-
-$ C_(10)^(7)2^3(-1)^7=-C_(10)^(3) dot 8 =-(10 dot 9 dot 8)/(1 dot 2 dot 3) dot 8 =-960 $
-+ (2) 由对数的定义，原方程有意义必须满足 $x>0$，且此时 $x+12>0$ 自动成立. 在此条件下，$2\l g x=\l g x^2$，故原方程等价于 $\l g x^2=\l g(x+12)$，从而 $x^2=x+12$. 因此
-$x^2-x-12=0$，$(x-4)(x+3)=0$.
-解得 $x=4$ 或 $x=-3$. 其中 $x=-3$ 不满足 $x>0$，代回原方程也使 $\l g x$ 无意义，舍去；$x=4$ 满足定义域且代入原方程成立. 所以原方程的解为 $x=4$.
-+ (3) 根式有意义要求 $x-1\g e q0$，即 $x\g e q1$. 分母不能为零，要求 $x-5\n e q0$，即 $x\n e q5$. 因此自变量 $x$ 的允许值的范围为 $x in [1,5) union (5,+ oo )$.
-+ (4) 因为 $(5 pi)/(12)=(pi)/(2)-(pi)/(12)$，所以 $sin (5 pi)/(12)= cos (pi)/(12)$. 从而
-
-$ sin (pi)/(12) sin (5 pi)/(12)= sin (pi)/(12) cos (pi)/(12)=(1)/(2) sin (pi)/(6)=(1)/(4) $
-
-
-也可以利用积化和差公式：
-
-$ sin (pi)/(12) sin (5 pi)/(12)=(1)/(2)( cos (pi)/(3)- cos (pi)/(2))=(1)/(2)((1)/(2)-0)=(1)/(4) $
-+ (5) 设圆心为 $O$，水面弦的端点为 $A$、$B$，水淹没的弧为弧 $A C B$. 因为弧 $A C B$ 所对的圆心角为 $150^ degree$，所以扇形 $O"-"A C B$ 的面积为
-
-$ (150)/(360) pi dot 12 ""^2=60 pi " 平方厘米" $
-
-三角形 $O A B$ 的两边 $O A=O B=12$，夹角为 $150^ degree$，所以
-
-$ S_( triangle O A B)=(1)/(2) dot 12 ""^2 sin 150 ""^ degree =36" 平方厘米" $
-
-水面以下的部分是扇形 $O"-"A C B$ 减去三角形 $O A B$，故其面积为
-
-$ 60 pi -36=60 times 3 .14-36=152.4" 平方厘米" $
-
-所以这个截面上有水部分的面积是 $152.4" 平方厘米"$.
-+ (6) 作 $A D bot B C$ 于 $D$，并连接 $A'D$. 由于 $A D$ 在平面 $N$ 上的正投影为 $A'D$，而 $A D bot B C$，且 $B C$ 是平面 $N$ 与平面 $A B C$ 的交线，所以 $A'D bot B C$. 因而由两平面分别作出的垂直于交线的直线可知，$angle A D A'$ 是二面角的平面角，故 $angle A D A'=a$.
-
-
-#align(center)[#image("/papers/1961/img/national/q1_6_solution_fig1.png", width: 4.2cm)]
-
-
-因为 $A A' bot$ 平面 $N$，所以 $A A' bot A'D$，三角形 $A A'D$ 是直角三角形，且 $A D$ 是斜边. 因此 $A'D=A D cos a$. 又 $A D$ 是三角形 $A B C$ 对底边 $B C$ 的高，所以
-
-$ S_( triangle A'B C)=(1)/(2)B C dot A'D=(1)/(2)B C dot A D cos a=S cos a $
-
-故三角形 $A'B C$ 的面积为 $S cos a$.
++ (1) 
++ (2) 
++ (3) 
++ (4) 
++ (5)
 ]
 
 #problem(2)[
-一个机器制造厂的三年生产计划，每年比上一年增产机器的台数相同. 如果第三年比原计划多生产 $1" 千台"$，那末每年比上一年增长的百分数就相同，而且第三年生产的台数恰等于原计划三年生产总台数的一半，原计划每年各生产机器多少台？
+一个机器制造厂的三年生产计划，每年比上一年增产机器的台数相同. 如果第三年比原计划多生产 #mi(`1\text{ \text{千台}}`)，那末每年比上一年增长的百分数就相同，而且第三年生产的台数恰等于原计划三年生产总台数的一半，原计划每年各生产机器多少台？
 ]
 
 #solution[
-解法一：设原计划第一、二、三年生产机器的台数分别为 $x" 千台"$、$(x+y)" 千台"$、$(x+2 y)" 千台"$，则新计划第三年为 $(x+2 y+1)" 千台"$. 原计划每年增加 $y" 千台"$，因此新计划第一年到第二年的增长率为 $(y)/(x)$，第二年到第三年的增长率为 $(y+1)/(x+y)$. 题意给出这两个增长率相同，所以
+解法一：设原计划第一、二、三年生产机器的台数分别为 #mi(`x\text{ \text{千台}}`)、#mi(`(x+y)\text{ \text{千台}}`)、#mi(`(x+2y)\text{ \text{千台}}`)，则新计划第三年为 #mi(`(x+2y+1)\text{ \text{千台}}`). 原计划每年增加 #mi(`y\text{ \text{千台}}`)，因此新计划第一年到第二年的增长率为 #mi(`\frac{y}{x}`)，第二年到第三年的增长率为 #mi(`\frac{y+1}{x+y}`). 题意给出这两个增长率相同，所以
 
-$ (y)/(x)=(y+1)/(x+y) $
 
-交叉相乘得 $y(x+y)=x(y+1)$，即 $y^2=x$. 又因为新计划第三年产量等于原计划三年总产量的一半，所以
+#align(center)[#mitex(`
+\frac{y}{x}=\frac{y+1}{x+y}
+`)]
 
-$ x+2 y+1=(1)/(2)[x+(x+y)+(x+2 y)] $
 
-化简得 $x-y-2=0$. 因而需要解
+交叉相乘得 #mi(`y(x+y)=x(y+1)`)，即 #mi(`y^{2}=x`). 又因为新计划第三年产量等于原计划三年总产量的一半，所以
 
-$ \b e g i n{c a s e s} y^2-x=0,\\ x-y-2=0. \e n d{c a s e s} $
 
-由 $x=y+2$，代入第一式得 $y^2-y-2=0$，即 $(y-2)(y+1)=0$. 所以 $y=2$ 或 $y=-1$. 当 $y=2$ 时，$x=4$，三年的产量依次为 $4" 千台"$、$6" 千台"$、$8" 千台"$；当 $y=-1$ 时，三年的产量为 $1" 千台"$、$0" 千台"$、$-1" 千台"$，且增长率中的分母 $x+y=0$，不符合生产计划的实际意义，舍去.
+#align(center)[#mitex(`
+x+2y+1=\frac{1}{2}\left[x+(x+y)+(x+2y)\right]
+`)]
 
-解法二：设原计划第一、二、三年生产机器的台数分别为 $(x-y)" 千台"$、$x" 千台"$、$(x+y)" 千台"$，则新计划第三年为 $(x+y+1)" 千台"$. 由相邻两年的增长率相同，得
 
-$ (y)/(x-y)=(y+1)/(x) $
+化简得 #mi(`x-y-2=0`). 因而需要解
 
-即 $x y=(x-y)(y+1)$，化简为 $y^2+y-x=0$. 又由总产量条件，得
 
-$ x+y+1=(1)/(2)[(x-y)+x+(x+y)] $
+#align(center)[#mitex(`
+\begin{cases}y^{2}-x=0,\\  x-y-2=0.\end{cases}
+`)]
 
-所以 $x-2 y-2=0$. 于是
 
-$ \b e g i n{c a s e s} y^2+y-x=0,\\ x-2 y-2=0. \e n d{c a s e s} $
+由 #mi(`x=y+2`)，代入第一式得 #mi(`y^{2}-y-2=0`)，即 #mi(`(y-2)(y+1)=0`). 所以 #mi(`y=2`) 或 #mi(`y=-1`). 当 #mi(`y=2`) 时，#mi(`x=4`)，三年的产量依次为 #mi(`4\text{ \text{千台}}`)、#mi(`6\text{ \text{千台}}`)、#mi(`8\text{ \text{千台}}`)；当 #mi(`y=-1`) 时，三年的产量为 #mi(`1\text{ \text{千台}}`)、#mi(`0\text{ \text{千台}}`)、#mi(`-1\text{ \text{千台}}`)，且增长率中的分母 #mi(`x+y=0`)，不符合生产计划的实际意义，舍去.
 
-由 $x=2 y+2$，代入第一式得 $y^2-y-2=0$，所以 $y=2$ 或 $y=-1$. 当 $y=2$ 时，$x=6$，原计划产量为 $4" 千台"$、$6" 千台"$、$8" 千台"$；当 $y=-1$ 时，原计划第二、三年产量不符合题意，舍去. 因此原计划第一、二、三年各生产机器 $4" 千台"$、$6" 千台"$、$8" 千台"$.
+解法二：设原计划第一、二、三年生产机器的台数分别为 #mi(`(x-y)\text{ \text{千台}}`)、#mi(`x\text{ \text{千台}}`)、#mi(`(x+y)\text{ \text{千台}}`)，则新计划第三年为 #mi(`(x+y+1)\text{ \text{千台}}`). 由相邻两年的增长率相同，得
+
+
+#align(center)[#mitex(`
+\frac{y}{x-y}=\frac{y+1}{x}
+`)]
+
+
+即 #mi(`xy=(x-y)(y+1)`)，化简为 #mi(`y^{2}+y-x=0`). 又由总产量条件，得
+
+
+#align(center)[#mitex(`
+x+y+1=\frac{1}{2}\left[(x-y)+x+(x+y)\right]
+`)]
+
+
+所以 #mi(`x-2y-2=0`). 于是
+
+
+#align(center)[#mitex(`
+\begin{cases}y^{2}+y-x=0,\\  x-2y-2=0.\end{cases}
+`)]
+
+
+由 #mi(`x=2y+2`)，代入第一式得 #mi(`y^{2}-y-2=0`)，所以 #mi(`y=2`) 或 #mi(`y=-1`). 当 #mi(`y=2`) 时，#mi(`x=6`)，原计划产量为 #mi(`4\text{ \text{千台}}`)、#mi(`6\text{ \text{千台}}`)、#mi(`8\text{ \text{千台}}`)；当 #mi(`y=-1`) 时，原计划第二、三年产量不符合题意，舍去. 因此原计划第一、二、三年各生产机器 #mi(`4\text{ \text{千台}}`)、#mi(`6\text{ \text{千台}}`)、#mi(`8\text{ \text{千台}}`).
 ]
 
 #problem(3)[
-有一块圆环形的铁皮，它的内半径是 $45" 厘米"$，外半径是 $75" 厘米"$. 用它的五分之一（如图中的阴影部分），作圆台形水桶的侧面，这个水桶的容积是多少立方厘米？
+有一块圆环形的铁皮，它的内半径是 #mi(`45\text{ \text{厘米}}`)，外半径是 #mi(`75\text{ \text{厘米}}`). 用它的五分之一（如图中的阴影部分），作圆台形水桶的侧面，这个水桶的容积是多少立方厘米？
 
 
+#align(center)[#image("/papers/1961/img/national/q3_fig1.png", width: 28%)]
 
-#align(center)[#image("/papers/1961/img/national/q3_fig1.png", width: 6.0cm)]
 ]
 
 #solution[
 将圆环形铁皮的五分之一卷成圆台侧面时，内、外圆弧分别成为水桶下底和上底的圆周. 因此水桶下底半径为
 
-$ r=(1)/(5) times 45 =9" 厘米" $
+
+#align(center)[#mitex(`
+r=\frac{1}{5}\times45=9\text{ \text{厘米}}
+`)]
+
 
 上底半径为
 
-$ R=(1)/(5) times 75 =15" 厘米" $
 
-圆台的母线就是圆环的宽度，所以母线长为 $75-45=30" 厘米"$. 过圆台轴作截面，得到直角三角形，其斜边为母线，另一直角边为两底半径之差 $R-r=6" 厘米"$. 因此圆台的高为
+#align(center)[#mitex(`
+R=\frac{1}{5}\times75=15\text{ \text{厘米}}
+`)]
 
-$ h=sqrt(30^2-6^2)=sqrt(864)=12 sqrt(6)" 厘米" $
+
+圆台的母线就是圆环的宽度，所以母线长为 #mi(`75-45=30\text{ \text{厘米}}`). 过圆台轴作截面，得到直角三角形，其斜边为母线，另一直角边为两底半径之差 #mi(`R-r=6\text{ \text{厘米}}`). 因此圆台的高为
+
+
+#align(center)[#mitex(`
+h=\sqrt{30^{2}-6^{2}}=\sqrt{864}=12\sqrt{6}\text{ \text{厘米}}
+`)]
+
 
 圆台容积为
 
-$ V=(1)/(3) pi h(R^2+R r+r^2)=(1)/(3) pi dot 12 sqrt(6)(15^2+15 times 9 +9^2)=1764 sqrt(6) pi " 立方厘米" $
 
-所以水桶的容积是 $1764 sqrt(6) pi " 立方厘米"$.
+#align(center)[#mitex(`
+V=\frac{1}{3}\pi h\left(R^{2}+Rr+r^{2}\right)=\frac{1}{3}\pi\cdot12\sqrt{6}\left(15^{2}+15\times9+9^{2}\right)=1764\sqrt{6}\pi\text{ \text{立方厘米}}
+`)]
+
+
+所以水桶的容积是 #mi(`1764\sqrt{6}\pi\text{ \text{立方厘米}}`).
 ]
 
 #problem(4)[
-在平地上有 $A$、$B$ 两点. $A$ 在山的正东. $B$ 在山的东南，且在 $A$ 的西 $65^ degree$ 南 $300" 米"$ 的地方. 在 $A$ 测得山顶的仰角是 $30^ degree$，求山高. （$sin 70 ""^ degree =0.940$，精确到 $10" 米"$.）
+在平地上有 #mi(`A`)、#mi(`B`) 两点. #mi(`A`) 在山的正东. #mi(`B`) 在山的东南，且在 #mi(`A`) 的西 #mi(`65^{\circ}`) 南 #mi(`300\text{ \text{米}}`) 的地方. 在 #mi(`A`) 测得山顶的仰角是 #mi(`30^{\circ}`)，求山高. （#mi(`\sin70^{\circ}=0.940`)，精确到 #mi(`10\text{ \text{米}}`).）
 ]
 
 #solution[
-设山顶为 $D$，山脚在平地上的垂足为 $C$，则 $C D$ 是山高. 由 $A$ 在山的正东、$B$ 在山的东南，得地面三角形 $A B C$ 中 $angle A C B=45^ degree$. 又由 $B$ 在 $A$ 的西 $65^ degree$ 南，得 $angle C A B=65^ degree$. 因而
-
-$ angle A B C=180^ degree -45^ degree -65^ degree =70^ degree $
-
-在三角形 $A B C$ 中，已知 $A B=300" 米"$，由正弦定理
-
-$ (A C)/(sin 70 ""^ degree)=(A B)/(sin 45 ""^ degree) $
-
-所以 $A C=(300 sin 70 ""^ degree)/(sin 45 ""^ degree)=300 sqrt(2) sin 70 ""^ degree " 米"$.
-在直角三角形 $A C D$ 中，$angle C A D=30^ degree$，所以
-
-$ C D=A C tan 30 ""^ degree =300 sqrt(2) sin 70 ""^ degree dot (1)/(sqrt(3))=100 sqrt(6) sin 70 ""^ degree " 米" $
-
-代入 $sin 70 ""^ degree =0.940$，并取 $sqrt(6) approx 2 .45$，得 $C D approx 100 times 2 .45 times 0 .940=230.3" 米"$. 按题意精确到 $10" 米"$，山高为 $230" 米"$.
+设山顶为 #mi(`D`)，山脚在平地上的垂足为 #mi(`C`)，则 #mi(`CD`) 是山高. 由 #mi(`A`) 在山的正东、#mi(`B`) 在山的东南，得地面三角形 #mi(`ABC`) 中 #mi(`\angle ACB=45^{\circ}`). 又由 #mi(`B`) 在 #mi(`A`) 的西 #mi(`65^{\circ}`) 南，得 #mi(`\angle CAB=65^{\circ}`). 因而
 
 
-#align(center)[#image("/papers/1961/img/national/q4_solution_fig1.png", width: 4.2cm)]
+#align(center)[#mitex(`
+\angle ABC=180^{\circ}-45^{\circ}-65^{\circ}=70^{\circ}
+`)]
+
+
+在三角形 #mi(`ABC`) 中，已知 #mi(`AB=300\text{ \text{米}}`)，由正弦定理
+
+
+#align(center)[#mitex(`
+\frac{AC}{\sin70^{\circ}}=\frac{AB}{\sin45^{\circ}}
+`)]
+
+
+所以 #mi(`AC=\frac{300\sin70^{\circ}}{\sin45^{\circ}}=300\sqrt{2}\sin70^{\circ}\text{ \text{米}}`).
+
+在直角三角形 #mi(`ACD`) 中，#mi(`\angle CAD=30^{\circ}`)，所以
+
+
+#align(center)[#mitex(`
+CD=AC\tan30^{\circ}=300\sqrt{2}\sin70^{\circ}\cdot\frac{1}{\sqrt{3}}=100\sqrt{6}\sin70^{\circ}\text{ \text{米}}
+`)]
+
+
+代入 #mi(`\sin70^{\circ}=0.940`)，并取 #mi(`\sqrt{6}\approx2.45`)，得 #mi(`CD\approx100\times2.45\times0.940=230.3\text{ \text{米}}`). 按题意精确到 #mi(`10\text{ \text{米}}`)，山高为 #mi(`230\text{ \text{米}}`).
+
+ 
+#align(center)[#image("/papers/1961/img/national/q4_solution_fig1.png", width: 28%)]
+
 ]
 
 #part-header("选作题")
 
 #problem(5)[
-$k$ 是什么实数的时候，方程 $x^2-2(k+3)x+3 k^2+1=0$ 有实数根？
+#mi(`k`) 是什么实数的时候，方程 #mi(`x^{2}-2\left(k+3\right)x+3k^{2}+1=0`) 有实数根？
 ]
 
 #solution[
-因为二次项系数为 $1$，方程有实数根的充要条件是判别式不小于零. 这里
+因为二次项系数为 #mi(`1`)，方程有实数根的充要条件是判别式不小于零. 这里
 
-$ Delta =[-2(k+3)]^2-4(3 k^2+1) =4[(k+3)^2-(3 k^2+1)] =4(-2 k^2+6 k+8) $
 
-所以 $Delta \g e q0$ 等价于 $-2 k^2+6 k+8\g e q0$. 两边同除以 $-2$ 时不等号方向改变，得
-$k^2-3 k-4\l e q0$，$(k+1)(k-4)\l e q0$.
-因此 $-1\l e q k\l e q4$. 当 $k=-1$ 或 $k=4$ 时判别式为零，有重实根；当 $-1<k<4$ 时判别式为正，有两个不相等的实根. 所以所求实数范围为 $[-1,4]$.
+#align(center)[#mitex(`
+\Delta=\left[-2\left(k+3\right)\right]^{2}-4\left(3k^{2}+1\right)  =4\left[\left(k+3\right)^{2}-\left(3k^{2}+1\right)\right]  =4\left(-2k^{2}+6k+8\right)
+`)]
+
+
+所以 #mi(`\Delta\geq0`) 等价于 #mi(`-2k^{2}+6k+8\geq0`). 两边同除以 #mi(`-2`) 时不等号方向改变，得
+
+#mi(`k^{2}-3k-4\leq0`)，#mi(`\left(k+1\right)\left(k-4\right)\leq0`).
+
+因此 #mi(`-1\leq k\leq4`). 当 #mi(`k=-1`) 或 #mi(`k=4`) 时判别式为零，有重实根；当 #mi(`-1<k<4`) 时判别式为正，有两个不相等的实根. 所以所求实数范围为 #mi(`\left[-1,4\right]`).
 ]
 
 #problem(6)[
-设方程 $8 x^2-(8 sin a)x+2+ cos 2 a=0$ 的两个根相等，求 $a$.
+设方程 #mi(`8x^{2}-\left(8\sin a\right)x+2+\cos2a=0`) 的两个根相等，求 #mi(`a`).
 ]
 
 #solution[
-该方程是关于 $x$ 的二次方程，且二次项系数 $8\n e q0$. 两根相等的充要条件是判别式为零，因此
+该方程是关于 #mi(`x`) 的二次方程，且二次项系数 #mi(`8\neq0`). 两根相等的充要条件是判别式为零，因此
 
-$ (8 sin a)^2-4 dot 8 (2+ cos 2 a)=0 $
 
-两边除以 $32$，得 $2 sin ""^(2) a-(2+ cos 2 a)=0$. 利用 $cos 2 a=1-2 sin ""^(2) a$，可得
-$2 sin ""^(2) a-(3-2 sin ""^(2) a)=0$，$4 sin ""^(2) a-3=0$.
-所以 $sin a= +- (sqrt(3))/(2)$.
+#align(center)[#mitex(`
+\left(8\sin a\right)^{2}-4\cdot8\left(2+\cos2a\right)=0
+`)]
 
-当 $sin a=(sqrt(3))/(2)$ 时，$a=n pi +(-1)^n(pi)/(3)$，其中 $n in ZZ$；当 $sin a=-(sqrt(3))/(2)$ 时，$a=n pi -(-1)^n(pi)/(3)$，其中 $n in ZZ$. 合并两类解，得到
-$a=n pi +- (pi)/(3)$，$n in ZZ$.
+
+两边除以 #mi(`32`)，得 #mi(`2\sin^{2}a-\left(2+\cos2a\right)=0`). 利用 #mi(`\cos2a=1-2\sin^{2}a`)，可得
+
+#mi(`2\sin^{2}a-\left(3-2\sin^{2}a\right)=0`)，#mi(`4\sin^{2}a-3=0`).
+
+所以 #mi(`\sin a=\pm\frac{\sqrt{3}}{2}`).
+
+当 #mi(`\sin a=\frac{\sqrt{3}}{2}`) 时，#mi(`a=n\pi+\left(-1\right)^{n}\frac{\pi}{3}`)，其中 #mi(`n\in\mathbb{Z}`)；当 #mi(`\sin a=-\frac{\sqrt{3}}{2}`) 时，#mi(`a=n\pi-\left(-1\right)^{n}\frac{\pi}{3}`)，其中 #mi(`n\in\mathbb{Z}`). 合并两类解，得到
+
+#mi(`a=n\pi\pm\frac{\pi}{3}`)，#mi(`n\in\mathbb{Z}`).
 ]
 

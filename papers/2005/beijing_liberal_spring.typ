@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,33 +11,45 @@
 #part-header("单选题")
 
 #problem(1)[
-$i -2$ 的共轭复数是（$$）
-  #choices([$2+ i$], [$2- i$], [$-2+ i$], [$-2- i$], cols: 4)
+#mi(`\mathrm{i}-2`) 的共轭复数是（#mi(`\quad`)）
+  #choices([#mi(`2+\mathrm{i}`)], [#mi(`2-\mathrm{i}`)], [#mi(`-2+\mathrm{i}`)], [#mi(`-2-\mathrm{i}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-令 $z= i -2=-2+ i$. 共轭复数只改变虚部的符号，因此 $\overline z=-2- i$，故选 D.
+令 #mi(`z=\mathrm{i}-2=-2+\mathrm{i}`). 共轭复数只改变虚部的符号，因此 #mi(`\overline z=-2-\mathrm{i}`)，故选 D.
 ]
 
 #problem(2)[
-函数 $y=| log _(2) x|$ 的图象是（$$）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2005/img/beijing_liberal_spring/q2_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2005/img/beijing_liberal_spring/q2_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2005/img/beijing_liberal_spring/q2_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2005/img/beijing_liberal_spring/q2_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+函数 #mi(`y=|\log_{2}x|`) 的图象是（#mi(`\quad`)）
+  #choices([
+#align(center)[#image("/papers/2005/img/beijing_liberal_spring/q2_optA.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2005/img/beijing_liberal_spring/q2_optB.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2005/img/beijing_liberal_spring/q2_optC.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2005/img/beijing_liberal_spring/q2_optD.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由对数真数的条件，函数的定义域为 $x>0$. 在此定义域内，按 $log _(2) x$ 的正负分段，得
+由对数真数的条件，函数的定义域为 #mi(`x>0`). 在此定义域内，按 #mi(`\log_{2}x`) 的正负分段，得
 
-$ y=| log _(2) x|=\b e g i n{c a s e s} - log _(2) x,&0<x<1,\\ log _(2) x,&x\g e q 1. \e n d{c a s e s} $
 
-当 $0<x<1$ 时，$log _(2) x<0$，所以图象是 $y= log _(2) x$ 在 $x$ 轴下方部分关于 $x$ 轴的对称图象；当 $x\g e q1$ 时，图象就是 $y= log _(2) x$. 因而图象经过 $(1,0)$，在该点取得最小值，左支单调递减，右支单调递增，故选 A.
+#align(center)[#mitex(`
+y=|\log_{2}x|=\begin{cases}-\log_{2}x,&0<x<1,\\  \log_{2}x,&x\geq 1.\end{cases}
+`)]
+
+
+当 #mi(`0<x<1`) 时，#mi(`\log_{2}x<0`)，所以图象是 #mi(`y=\log_{2}x`) 在 #mi(`x`) 轴下方部分关于 #mi(`x`) 轴的对称图象；当 #mi(`x\geq1`) 时，图象就是 #mi(`y=\log_{2}x`). 因而图象经过 #mi(`(1,0)`)，在该点取得最小值，左支单调递减，右支单调递增，故选 A.
 ]
 
 #problem(3)[
-下列命题中，正确的是（$$）
+下列命题中，正确的是（#mi(`\quad`)）
   #choices([经过不同的三点有且只有一个平面], [分别在两个平面内的两条直线一定是异面直线], [垂直于同一个平面的两条直线是平行直线], [垂直于同一个平面的两个平面平行], cols: 2)
 ]
 
@@ -48,453 +60,384 @@ $ y=| log _(2) x|=\b e g i n{c a s e s} - log _(2) x,&0<x<1,\\ log _(2) x,&x\g e
 
 命题（B）不正确. 例如取两个相交平面，分别在两个平面内取经过它们交线同一点的两条直线，这两条直线可以相交，所以不一定是异面直线.
 
-命题（C）正确. 若两条直线都垂直于平面 $alpha$，则它们都平行于平面 $alpha$ 的法线，因而两条直线互相平行.
+命题（C）正确. 若两条直线都垂直于平面 #mi(`\alpha`)，则它们都平行于平面 #mi(`\alpha`) 的法线，因而两条直线互相平行.
 
-命题（D）不正确. 例如平面 $x O y$ 与平面 $y O z$、平面 $x O z$ 都垂直，但后两个平面相交于 $z$ 轴，所以它们不一定平行. 因此正确命题为（C），故选 C.
+命题（D）不正确. 例如平面 #mi(`xOy`) 与平面 #mi(`yOz`)、平面 #mi(`xOz`) 都垂直，但后两个平面相交于 #mi(`z`) 轴，所以它们不一定平行. 因此正确命题为（C），故选 C.
 ]
 
 #problem(4)[
-如果函数 $f(x)= sin ( pi x+ theta )$（$0< theta <2 pi$）的最小正周期是 $T$，且当 $x=2$ 时取得最大值，那么（$$）
-  #choices([$T=2$，$theta =(pi)/(2)$], [$T=1$，$theta = pi$], [$T=2$，$theta = pi$], [$T=1$，$theta =(pi)/(2)$], cols: 2)
+如果函数 #mi(`f(x)=\sin(\pi x+\theta)`)（#mi(`0<\theta<2\pi`)）的最小正周期是 #mi(`T`)，且当 #mi(`x=2`) 时取得最大值，那么（#mi(`\quad`)）
+  #choices([#mi(`T=2`)，#mi(`\theta=\dfrac{\pi}{2}`)], [#mi(`T=1`)，#mi(`\theta=\pi`)], [#mi(`T=2`)，#mi(`\theta=\pi`)], [#mi(`T=1`)，#mi(`\theta=\dfrac{\pi}{2}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-对于函数 $sin ( omega x+ theta )$，最小正周期为 $(2 pi)/(| omega |)$. 这里 $omega = pi$，所以 $T=2$. 当 $x=2$ 时取得最大值，必须有
+对于函数 #mi(`\sin(\omega x+\theta)`)，最小正周期为 #mi(`\dfrac{2\pi}{|\omega|}`). 这里 #mi(`\omega=\pi`)，所以 #mi(`T=2`). 当 #mi(`x=2`) 时取得最大值，必须有
 
-$ sin (2 pi + theta )= sin theta =1 $
 
-因此 $theta =(pi)/(2)+2 k pi$. 结合 $0< theta <2 pi$，只能取 $theta =(pi)/(2)$，故选 A.
+#align(center)[#mitex(`
+\sin(2\pi+\theta)=\sin\theta=1
+`)]
+
+
+因此 #mi(`\theta=\dfrac{\pi}{2}+2k\pi`). 结合 #mi(`0<\theta<2\pi`)，只能取 #mi(`\theta=\dfrac{\pi}{2}`)，故选 A.
 ]
 
 #problem(5)[
-设 $a b c != 0$，“$a c>0$”是“曲线 $a x^2+b y^2=c$ 为椭圆”的（$$）
+设 #mi(`abc\ne0`)，“#mi(`ac>0`)”是“曲线 #mi(`ax^{2}+by^{2}=c`) 为椭圆”的（#mi(`\quad`)）
   #choices([充分非必要条件], [必要非充分条件], [充分必要条件], [既非充分又非必要条件], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-若曲线 $a x^2+b y^2=c$ 是椭圆，由于 $a$，$b$，$c != 0$，将等式除以 $c$ 后，$x^2$ 和 $y^2$ 的系数必须同为正，故 $a$，$b$，$c$ 必须同号，从而必有 $a c>0$. 所以 $a c>0$ 是必要条件.
+若曲线 #mi(`ax^{2}+by^{2}=c`) 是椭圆，由于 #mi(`a`)，#mi(`b`)，#mi(`c\ne0`)，将等式除以 #mi(`c`) 后，#mi(`x^{2}`) 和 #mi(`y^{2}`) 的系数必须同为正，故 #mi(`a`)，#mi(`b`)，#mi(`c`) 必须同号，从而必有 #mi(`ac>0`). 所以 #mi(`ac>0`) 是必要条件.
 
-但它不是充分条件. 例如取 $a=c=1$，$b=-1$，则 $a c=1>0$，而曲线变为 $x^2-y^2=1$，这是双曲线，不是椭圆. 因此 $a c>0$ 是必要非充分条件，故选 B.
+但它不是充分条件. 例如取 #mi(`a=c=1`)，#mi(`b=-1`)，则 #mi(`ac=1>0`)，而曲线变为 #mi(`x^{2}-y^{2}=1`)，这是双曲线，不是椭圆. 因此 #mi(`ac>0`) 是必要非充分条件，故选 B.
 ]
 
 #problem(6)[
-直线 $x+sqrt(3)y-2=0$ 被圆 $(x-1)^2+y^2=1$ 所截得的线段的长为（$$）
-  #choices([$1$], [$sqrt(2)$], [$sqrt(3)$], [$2$], cols: 4)
+直线 #mi(`x+\sqrt{3}y-2=0`) 被圆 #mi(`(x-1)^{2}+y^{2}=1`) 所截得的线段的长为（#mi(`\quad`)）
+  #choices([#mi(`1`)], [#mi(`\sqrt{2}`)], [#mi(`\sqrt{3}`)], [#mi(`2`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-圆心为 $C(1,0)$，半径为 $r=1$. 圆心到直线的距离为
+圆心为 #mi(`C(1,0)`)，半径为 #mi(`r=1`). 圆心到直线的距离为
 
-$ d=(|1+sqrt(3){ dot }0-2|)/(sqrt(1+(sqrt(3))^2))=(1)/(2) $
+
+#align(center)[#mitex(`
+d=\frac{|1+\sqrt{3}\cdot0-2|}{\sqrt{1+(\sqrt{3})^{2}}}=\frac{1}{2}
+`)]
+
 
 设弦的中点为圆心到直线的垂足，则圆心、弦中点和弦端点组成直角三角形，故截得弦长为
 
-$ 2 sqrt(1^2-d^2)=2 sqrt(1-(1)/(4))=sqrt(3) $
+
+#align(center)[#mitex(`
+2\sqrt{1^{2}-d^{2}}=2\sqrt{1-\frac{1}{4}}=\sqrt{3}
+`)]
+
 
 故选 C.
 ]
 
 #problem(7)[
-在 $triangle A B C$ 中，已知 $2 sin A cos B= sin C$，那么 $triangle A B C$ 一定是（$$）
+在 #mi(`\triangle ABC`) 中，已知 #mi(`2\sin A\cos B=\sin C`)，那么 #mi(`\triangle ABC`) 一定是（#mi(`\quad`)）
   #choices([直角三角形], [等腰三角形], [等腰直角三角形], [正三角形], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-由三角形内角和，$C= pi -A-B$，于是
+由三角形内角和，#mi(`C=\pi-A-B`)，于是
 
-$ sin C= sin (A+B)= sin A cos B+ cos A sin B $
 
-代入题设 $2 sin A cos B= sin C$，得 $sin A cos B= cos A sin B$，即
+#align(center)[#mitex(`
+\sin C=\sin(A+B)=\sin A\cos B+\cos A\sin B
+`)]
 
-$ sin A cos B- cos A sin B= sin (A-B)=0 $
 
-因为 $0<A< pi$，$0<B< pi$，所以 $- pi <A-B< pi$，在此范围内 $sin (A-B)=0$ 只能推出 $A-B=0$，即 $A=B$. 因而 $A$，$B$ 所对的边 $B C$，$C A$ 相等，三角形为等腰三角形，故选 B.
+代入题设 #mi(`2\sin A\cos B=\sin C`)，得 #mi(`\sin A\cos B=\cos A\sin B`)，即
+
+
+#align(center)[#mitex(`
+\sin A\cos B-\cos A\sin B=\sin(A-B)=0
+`)]
+
+
+因为 #mi(`0<A<\pi`)，#mi(`0<B<\pi`)，所以 #mi(`-\pi<A-B<\pi`)，在此范围内 #mi(`\sin(A-B)=0`) 只能推出 #mi(`A-B=0`)，即 #mi(`A=B`). 因而 #mi(`A`)，#mi(`B`) 所对的边 #mi(`BC`)，#mi(`CA`) 相等，三角形为等腰三角形，故选 B.
 ]
 
 #problem(8)[
-若不等式 $(-1)^(n) a<2+((-1)^(n+1))/(n)$ 对于任意正整数 $n$ 恒成立，则实数 $a$ 的取值范围是（$$）
-  #choices([$[-2,(3)/(2))$], [$(-2,(3)/(2))$], [$[-3,(3)/(2))$], [$(-3,(3)/(2))$], cols: 4)
+若不等式 #mi(`(-1)^{n}a<2+\dfrac{(-1)^{n+1}}{n}`) 对于任意正整数 #mi(`n`) 恒成立，则实数 #mi(`a`) 的取值范围是（#mi(`\quad`)）
+  #choices([#mi(`\left[-2,\dfrac{3}{2}\right)`)], [#mi(`\left(-2,\dfrac{3}{2}\right)`)], [#mi(`\left[-3,\dfrac{3}{2}\right)`)], [#mi(`\left(-3,\dfrac{3}{2}\right)`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-当 $n=2 m$ 为偶数时，$(-1)^n=1$，$(-1)^(n+1)=-1$，所以不等式化为
+当 #mi(`n=2m`) 为偶数时，#mi(`(-1)^{n}=1`)，#mi(`(-1)^{n+1}=-1`)，所以不等式化为
 
-$ a<2-(1)/(2 m) $
 
-对所有正整数 $m$，右端的最小值在 $m=1$ 时为 $(3)/(2)$，故偶数情形等价于 $a<(3)/(2)$.
+#align(center)[#mitex(`
+a<2-\frac{1}{2m}
+`)]
 
-当 $n=2 m-1$ 为奇数时，$(-1)^n=-1$，$(-1)^(n+1)=1$，所以
 
-$ -a<2+(1)/(2 m-1) $
+对所有正整数 #mi(`m`)，右端的最小值在 #mi(`m=1`) 时为 #mi(`\dfrac{3}{2}`)，故偶数情形等价于 #mi(`a<\dfrac{3}{2}`).
 
-即 $a>-2-(1)/(2 m-1)$. 若 $a\g e q-2$，这个不等式对所有 $m$ 都成立. 若 $a<-2$，令 $\v a r e p s i l o n=-a-2>0$，取正整数 $m$ 使 $2 m-1>(1)/(\v a r e p s i l o n)$，则 $(1)/(2 m-1)<\v a r e p s i l o n$，从而
+当 #mi(`n=2m-1`) 为奇数时，#mi(`(-1)^{n}=-1`)，#mi(`(-1)^{n+1}=1`)，所以
 
-$ -2-(1)/(2 m-1)>-2-\v a r e p s i l o n=a $
 
-这与所需的 $a>-2-(1)/(2 m-1)$ 矛盾. 因此奇数情形等价于 $a\g e q-2$.
+#align(center)[#mitex(`
+-a<2+\frac{1}{2m-1}
+`)]
 
-综上，$a$ 的取值范围为 $[-2,(3)/(2))$，故选 A.
+
+即 #mi(`a>-2-\dfrac{1}{2m-1}`). 若 #mi(`a\geq-2`)，这个不等式对所有 #mi(`m`) 都成立. 若 #mi(`a<-2`)，令 #mi(`\varepsilon=-a-2>0`)，取正整数 #mi(`m`) 使 #mi(`2m-1>\dfrac1\varepsilon`)，则 #mi(`\dfrac1{2m-1}<\varepsilon`)，从而
+
+
+#align(center)[#mitex(`
+-2-\frac{1}{2m-1}>-2-\varepsilon=a
+`)]
+
+
+这与所需的 #mi(`a>-2-\dfrac1{2m-1}`) 矛盾. 因此奇数情形等价于 #mi(`a\geq-2`).
+
+综上，#mi(`a`) 的取值范围为 #mi(`\left[-2,\dfrac{3}{2}\right)`)，故选 A.
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-$lim_(n -> oo )(n^2)/(2 n^2-3)=$#blank(){}.
+#mi(`\displaystyle\lim_{n\to\infty}\dfrac{n^2}{2n^2-3}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(2)$])
+#answer([#mi(`\dfrac{1}{2}`)])
 
 #solution[
-因为 $n != 0$，分子、分母同除以 $n^2$，有
+因为 #mi(`n\ne0`)，分子、分母同除以 #mi(`n^{2}`)，有
 
-$ (n^2)/(2 n^2-3)=(1)/(2-(3)/(n^2)) $
 
-当 $n -> oo$ 时，$(3)/(n^2) -> 0$，且分母的极限为 $2 != 0$，所以
+#align(center)[#mitex(`
+\frac{n^{2}}{2n^{2}-3}=\frac{1}{2-\frac{3}{n^{2}}}
+`)]
 
-$ lim_(n -> oo )(n^2)/(2 n^2-3)=(1)/(2-0)=(1)/(2) $
+
+当 #mi(`n\to\infty`) 时，#mi(`\dfrac{3}{n^2}\to0`)，且分母的极限为 #mi(`2\ne0`)，所以
+
+
+#align(center)[#mitex(`
+\displaystyle\lim_{n\to\infty}\frac{n^{2}}{2n^{2}-3}=\frac{1}{2-0}=\frac{1}{2}
+`)]
 ]
 
 #problem(10)[
-椭圆 $(x^2)/(25)+(y^2)/(9)=1$ 的离心率是#blank(){}，准线方程是#blank(){}.
+椭圆 #mi(`\dfrac{x^2}{25}+\dfrac{y^2}{9}=1`) 的离心率是\underline{\hspace{2.5em}}，准线方程是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(4)/(5)\)，\(x= +- (25)/(4)$])
+#answer([#mi(`\dfrac{4}{5}`)，#mi(`x=\pm\dfrac{25}{4}`)])
 
 #solution[
-将方程与标准形式比较，长半轴为 $a=5$，短半轴为 $b=3$，焦半距满足
+将方程与标准形式比较，长半轴为 #mi(`a=5`)，短半轴为 #mi(`b=3`)，焦半距满足
 
-$ c^2=a^2-b^2=25-9=16 $
 
-所以 $c=4$. 因而离心率为 $e=(c)/(a)=(4)/(5)$. 椭圆焦点在 $x$ 轴上，准线方程为 $x= +- (a)/(e)$，故
+#align(center)[#mitex(`
+c^{2}=a^{2}-b^{2}=25-9=16
+`)]
 
-$ x= +- (5)/((4)/(5))= +- (25)/(4) $
+
+所以 #mi(`c=4`). 因而离心率为 #mi(`e=\dfrac{c}{a}=\dfrac{4}{5}`). 椭圆焦点在 #mi(`x`) 轴上，准线方程为 #mi(`x=\pm\dfrac{a}{e}`)，故
+
+
+#align(center)[#mitex(`
+x=\pm\frac{5}{\frac{4}{5}}=\pm\frac{25}{4}
+`)]
 ]
 
 #problem(11)[
-已知 $sin (theta)/(2)+ cos (theta)/(2)=(2 sqrt(3))/(3)$，那么 $sin theta$ 的值为#blank(){}，$cos 2 theta$ 的值为#blank(){}.
+已知 #mi(`\sin\dfrac{\theta}{2}+\cos\dfrac{\theta}{2}=\dfrac{2\sqrt{3}}{3}`)，那么 #mi(`\sin\theta`) 的值为\underline{\hspace{2.5em}}，#mi(`\cos2\theta`) 的值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(3)\)，\((7)/(9)$])
+#answer([#mi(`\dfrac{1}{3}`)，#mi(`\dfrac{7}{9}`)])
 
 #solution[
 将已知等式两边平方，得
 
-$ sin ""^2(theta)/(2)+ cos ""^2(theta)/(2)+2 sin (theta)/(2) cos (theta)/(2)=(4)/(3) $
 
-利用 $sin ""^2(theta)/(2)+ cos ""^2(theta)/(2)=1$ 以及 $2 sin (theta)/(2) cos (theta)/(2)= sin theta$，可得 $1+ sin theta =(4)/(3)$，所以 $sin theta =(1)/(3)$. 再用二倍角公式，
+#align(center)[#mitex(`
+\sin^{2}\frac{\theta}{2}+\cos^{2}\frac{\theta}{2}+2\sin\frac{\theta}{2}\cos\frac{\theta}{2}=\frac{4}{3}
+`)]
 
-$ cos 2 theta =1-2 sin ""^2 theta =1-2((1)/(3))^2=(7)/(9) $
+
+利用 #mi(`\sin^{2}\dfrac\theta2+\cos^{2}\dfrac\theta2=1`) 以及 #mi(`2\sin\dfrac\theta2\cos\dfrac\theta2=\sin\theta`)，可得 #mi(`1+\sin\theta=\dfrac{4}{3}`)，所以 #mi(`\sin\theta=\dfrac{1}{3}`). 再用二倍角公式，
+
+
+#align(center)[#mitex(`
+\cos2\theta=1-2\sin^{2}\theta=1-2\left(\frac{1}{3}\right)^{2}=\frac{7}{9}
+`)]
 ]
 
 #problem(12)[
-如图，正方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 的棱长为 $a$，将该正方体沿对角面 $B B_(1) D_(1) D$ 切成两块，再将这两块拼接成一个不是正方体的四棱柱，那么所得四棱柱的全面积为#blank(){}.
+如图，正方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 的棱长为 #mi(`a`)，将该正方体沿对角面 #mi(`BB_{1}D_{1}D`) 切成两块，再将这两块拼接成一个不是正方体的四棱柱，那么所得四棱柱的全面积为\underline{\hspace{2.5em}}.
 
-\begin{center}
 
-#align(center)[#image("/papers/2005/img/beijing_liberal_spring/q12_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2005/img/beijing_liberal_spring/q12_fig1.png", width: 28%)]
 
-\end{center}
 ]
 
-#answer([$(4+2 sqrt(2))a^2$])
+#answer([#mi(`(4+2\sqrt{2})a^{2}`)])
 
 #solution[
-切面 $B B_(1) D_(1) D$ 的底边为正方形的对角线，切开后得到两个全等的直三棱柱. 每个三棱柱的三角形底面为直角等腰三角形，直角边均为 $a$，斜边为 $a s q r t(2)$. 因此两个三角形底面的面积之和为
+切面 #mi(`BB_{1}D_{1}D`) 的底边为正方形的对角线，切开后得到两个全等的直三棱柱. 每个三棱柱的三角形底面为直角等腰三角形，直角边均为 #mi(`a`)，斜边为 #mi(`a\sqrt{2}`). 因此两个三角形底面的面积之和为
 
-$ 2 dot (1)/(2)a^2=a^2 $
+
+#align(center)[#mitex(`
+2\cdot\frac{1}{2}a^{2}=a^{2}
+`)]
+
 
 三个侧面的面积之和为
 
-$ a dot a+a dot a+a dot a s q r t(2)=(2+sqrt(2))a^2 $
 
-所以一个三棱柱的表面积为 $(3+sqrt(2))a^2$.
+#align(center)[#mitex(`
+a\cdot a+a\cdot a+a\cdot a\sqrt{2}=(2+\sqrt{2})a^{2}
+`)]
 
-若沿切面 $B B_(1) D_(1) D$ 对应的矩形侧面相接，该侧面的面积为 $a^2 sqrt(2)$，两个三角形底面恰好拼成正方形 $A B C D$，所得棱柱就是原正方体；由于题设要求所得四棱柱不是正方体，不能沿此矩形侧面相接，只能沿面积为 $a^2$ 的正方形侧面相接. 相接的两个面变为内部面，不再计入外表面积. 所得四棱柱的全面积为
 
-$ 2(3+sqrt(2))a^2-2 a^2=(4+2 sqrt(2))a^2 $
+所以一个三棱柱的表面积为 #mi(`(3+\sqrt{2})a^{2}`).
+
+若沿切面 #mi(`BB_{1}D_{1}D`) 对应的矩形侧面相接，该侧面的面积为 #mi(`a^{2}\sqrt{2}`)，两个三角形底面恰好拼成正方形 #mi(`ABCD`)，所得棱柱就是原正方体；由于题设要求所得四棱柱不是正方体，不能沿此矩形侧面相接，只能沿面积为 #mi(`a^{2}`) 的正方形侧面相接. 相接的两个面变为内部面，不再计入外表面积. 所得四棱柱的全面积为
+
+
+#align(center)[#mitex(`
+2(3+\sqrt{2})a^{2}-2a^{2}=(4+2\sqrt{2})a^{2}
+`)]
 ]
 
 #problem(13)[
-从 $0$，$1$，$2$，$3$ 这四个数中选三个不同的数作为函数 $f(x)=a x^2+b x+c$ 的系数，可组成不同的一次函数有#blank(){}个，不同的二次函数有#blank(){}个.（用数字作答）
+从 #mi(`0`)，#mi(`1`)，#mi(`2`)，#mi(`3`) 这四个数中选三个不同的数作为函数 #mi(`f(x)=ax^{2}+bx+c`) 的系数，可组成不同的一次函数有\underline{\hspace{2.5em}}个，不同的二次函数有\underline{\hspace{2.5em}}个.（用数字作答）
 ]
 
-#answer([$6\)，\(18$])
+#answer([#mi(`6`)，#mi(`18`)])
 
 #solution[
-一次函数要求二次项系数 $a=0$. 此时 $b$，$c$ 必须从 $1$，$2$，$3$ 中选取两个不同的数，并且分别放在 $b$，$c$ 的位置上，因此有 $3 times 2 =6$ 个.
+一次函数要求二次项系数 #mi(`a=0`). 此时 #mi(`b`)，#mi(`c`) 必须从 #mi(`1`)，#mi(`2`)，#mi(`3`) 中选取两个不同的数，并且分别放在 #mi(`b`)，#mi(`c`) 的位置上，因此有 #mi(`3\times2=6`) 个.
 
-二次函数要求 $a != 0$. 先从 $1$，$2$，$3$ 中选取 $a$，有 $3$ 种；确定 $a$ 后，还剩下 $0$ 以及另外两个非零数共三个数，从中有序选取两个分别作为 $b$，$c$，有 $3 times 2$ 种. 因此不同的二次函数有 $3 times 3 times 2 =18$ 个.
+二次函数要求 #mi(`a\ne0`). 先从 #mi(`1`)，#mi(`2`)，#mi(`3`) 中选取 #mi(`a`)，有 #mi(`3`) 种；确定 #mi(`a`) 后，还剩下 #mi(`0`) 以及另外两个非零数共三个数，从中有序选取两个分别作为 #mi(`b`)，#mi(`c`)，有 #mi(`3\times2`) 种. 因此不同的二次函数有 #mi(`3\times3\times2=18`) 个.
 ]
 
 #problem(14)[
-若关于 $x$ 的不等式 $x^2-a x-a>0$ 的解集为 $(- oo ,+ oo )$，则实数 $a$ 的取值范围是#blank(){}.
+若关于 #mi(`x`) 的不等式 #mi(`x^{2}-ax-a>0`) 的解集为 #mi(`(-\infty,+\infty)`)，则实数 #mi(`a`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(-4,0)$])
+#answer([#mi(`(-4,0)`)])
 
 #solution[
-令 $h(x)=x^2-a x-a$. 这是开口向上的二次函数. 要使不等式的解集为全体实数，必须使 $h(x)$ 对任意实数都严格为正；若判别式等于零，函数会在重根处取零，因此必须且只需
+令 #mi(`h(x)=x^{2}-ax-a`). 这是开口向上的二次函数. 要使不等式的解集为全体实数，必须使 #mi(`h(x)`) 对任意实数都严格为正；若判别式等于零，函数会在重根处取零，因此必须且只需
 
-$ Delta =(-a)^2-4 dot 1 dot (-a)=a^2+4 a<0 $
 
-解不等式得 $a(a+4)<0$，所以 $-4<a<0$. 因此实数 $a$ 的取值范围为 $(-4,0)$.
+#align(center)[#mitex(`
+\Delta=(-a)^{2}-4\cdot1\cdot(-a)=a^{2}+4a<0
+`)]
+
+
+解不等式得 #mi(`a(a+4)<0`)，所以 #mi(`-4<a<0`). 因此实数 #mi(`a`) 的取值范围为 #mi(`(-4,0)`).
 ]
 
 #part-header("解答题")
 
 #problem(15)[
-设函数 $f(x)=\l g(2 x-3)$ 的定义域为集合 $M$，函数 $g(x)=sqrt((x-3)(x-1))$ 的定义域为集合 $N$. 求：
+设函数 #mi(`f(x)=\lg(2x-3)`) 的定义域为集合 #mi(`M`)，函数 #mi(`g(x)=\sqrt{(x-3)(x-1)}`) 的定义域为集合 #mi(`N`). 求：
 
 
-+ (1) 集合 $M$，$N$；
-+ (2) 集合 $M inter N$，$M union N$.
++ (1)
 ]
 
 #solution[
-+ (1) 对数的真数必须为正，因此 $2 x-3>0$，解得
-
-$ M=((3)/(2),+ oo ) $
-
-根式内的式子必须非负，因此
-
-$ (x-3)(x-1)\g e q0 $
-
-临界点为 $1,3$，作符号判断可得
-
-$ N=(- oo ,1] union [3,+ oo ) $
-+ (2) 交集要求同时属于 $M$ 和 $N$. 由于 $M$ 中的数大于 $(3)/(2)$，只有 $N$ 的右半部分与之相交，故
-
-$ M inter N=[3,+ oo ) $
-
-并集把两个集合的所有部分合并，故
-
-$ M union N=(- oo ,1] union ((3)/(2),+ oo ) $
++ (1)
 ]
 
 #problem(16)[
-如图，正三棱锥 $S-A B C$ 中，底面边长是 $3$，棱锥的侧面积等于底面积的 $2$ 倍，$M$ 是 $B C$ 的中点. 求：
+如图，正三棱锥 #mi(`S-ABC`) 中，底面边长是 #mi(`3`)，棱锥的侧面积等于底面积的 #mi(`2`) 倍，#mi(`M`) 是 #mi(`BC`) 的中点. 求：
 
 
-+ (1) $(A M)/(S M)$ 的值；
-+ (2) 二面角 $S-B C-A$ 的大小；
-+ (3) 正三棱锥 $S-A B C$ 的体积.
++ (1) 
++ (2) 
 
 
-\begin{center}
 
-#align(center)[#image("/papers/2005/img/beijing_liberal_spring/q16_fig1.png", width: 48%)]
 
-\end{center}
+#align(center)[#image("/papers/2005/img/beijing_liberal_spring/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设顶点 $S$ 在底面上的射影为正三角形中心 $O$. 底面是边长为 $3$ 的正三角形，面积为 $(9 sqrt(3))/(4)$. 侧面积是底面积的两倍，且三个侧面全等，所以每个侧面的面积为
-
-$ (1)/(3) dot 2 dot (9 sqrt(3))/(4)=(3 sqrt(3))/(2) $
+设顶点 #mi(`S`) 在底面上的射影为正三角形中心 #mi(`O`). 底面是边长为 #mi(`3`) 的正三角形，面积为 #mi(`\dfrac{9\sqrt{3}}{4}`). 侧面积是底面积的两倍，且三个侧面全等，所以每个侧面的面积为
 
 
-
-+ (1) 在正三角形 $A B C$ 中，中线 $A M$ 也是高，所以 $A M=(3 sqrt(3))/(2)$. 侧面 $S B C$ 是等腰三角形，且 $M$ 是 $B C$ 的中点，因此 $S M bot B C$，$S M$ 是该侧面的高. 由侧面面积得
-
-$ (1)/(2) dot B C dot S M=(1)/(2) dot 3 dot S M=(3 sqrt(3))/(2) $
-
-从而 $S M=sqrt(3)$. 因此
-
-$ (A M)/(S M)=(3(sqrt(3))/(2))/(sqrt(3))=(3)/(2) $
-+ (2) 正三角形的重心、外心、内心重合，所以 $A$，$O$，$M$ 共线，且重心把中线按顶点到中点的方向分成 $2:1$. 因此
-$O M=(1)/(3)A M=(sqrt(3))/(2)$，$A O=(2)/(3)A M=sqrt(3)$.
-由于 $S O bot$ 底面，$S O bot O M$，在直角三角形 $S O M$ 中
-
-$ S O=sqrt(S M^2-O M^2)=sqrt(3-(3)/(4))=(3)/(2) $
-
-又因为 $S O bot A O$，在直角三角形 $S O A$ 中
-
-$ A S^2=S O^2+A O^2=(9)/(4)+3=(21)/(4) $
+#align(center)[#mitex(`
+\frac{1}{3}\cdot2\cdot\frac{9\sqrt{3}}{4}=\frac{3\sqrt{3}}{2}
+`)]
 
 
-二面角 $S-B C-A$ 的平面角是直线 $S M$ 与 $A M$ 的夹角. 在三角形 $S A M$ 中，设该角为 $phi.alt$，则
 
-$ cos phi.alt =(S M^2+A M^2-A S^2)/(2 dot S M dot A M)=(3+(27)/(4)-(21)/(4))/(2\c d o t s q r t(3) dot (3 sqrt(3))/(2))=(1)/(2) $
-
-因为 $0^ degree < phi.alt <180^ degree$，所以 $phi.alt =60^ degree$. 这里 $S M$ 和 $A M$ 都垂直于棱 $B C$，故它们的夹角就是二面角 $S-B C-A$ 的平面角.
-+ (3) 正三棱锥的高为 $S O=(3)/(2)$，所以体积为
-
-$ V=(1)/(3) dot (9 sqrt(3))/(4) dot S O=(1)/(3) dot (9 sqrt(3))/(4) dot (3)/(2)=(9 sqrt(3))/(8) $
++ (1) 
++ (2)
 ]
 
 #problem(17)[
-已知 $\{a_n\}$ 是等比数列，$a_1=2$，$a_4=54$；$\{b_n\}$ 是等差数列，$b_1=2$，$b_1+b_2+b_3+b_4=a_1+a_2+a_3$.
+已知 #mi(`\{a_{n}\}`) 是等比数列，#mi(`a_{1}=2`)，#mi(`a_{4}=54`)；#mi(`\{b_{n}\}`) 是等差数列，#mi(`b_{1}=2`)，#mi(`b_{1}+b_{2}+b_{3}+b_{4}=a_{1}+a_{2}+a_{3}`).
 
 
-+ (1) 求数列 $\{a_n\}$ 的通项公式及前 $n$ 项和 $S_n$ 的公式；
-+ (2) 求数列 $\{b_n\}$ 的通项公式；
-+ (3) 设 $U_n=b_1+b_4+b_7+ dots.c +b_(3 n-2)$，其中 $n=1$，$2$，$dots.c$，求 $U_(10)$ 的值.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 设等比数列 $\{a_n\}$ 的公比为 $q$. 由 $a_1=2$、$a_4=54$，有
-$a_4=a_(1) q^3$，$\L o n g r i g h t a r r o w$，$2 q^3=54$，$\L o n g r i g h t a r r o w$，$q^3=27$.
-由于 $q$ 为实数，得 $q=3$. 所以
-
-$ a_n=a_(1) q^(n-1)=2 dot 3 ""^(n-1) $
-
-前 $n$ 项和为
-
-$ S_n=a_1(q^n-1)/(q-1)=2 dot (3^n-1)/(2)=3^n-1 $
-+ (2) 由上问，$a_1+a_2+a_3=2+6+18=26$. 设等差数列 $\{b_n\}$ 的公差为 $d$，则 $b_4=2+3 d$，四项和为
-
-$ b_1+b_2+b_3+b_4=(4(b_1+b_4))/(2)=(4(2+2+3 d))/(2)=8+6 d $
-
-由题设 $8+6 d=26$，解得 $d=3$. 因此
-
-$ b_n=b_1+(n-1)d=2+3(n-1)=3 n-1 $
-+ (3) 按题目给出的下标，$b_1$，$b_4$，$b_7$，$\l d o t s$，$b_(3 n-2)$ 构成首项为 $b_1=2$、公差为 $3 d=9$ 的等差数列. 当 $n=10$ 时，末项下标为 $3 times 10 -2=28$，故
-
-$ b_(28)=3 dot 28 -1=83 $
-
-所以
-
-$ U_(10)=(10(2+83))/(2)=425 $
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-如图，$O$ 为坐标原点，过点 $P(2,0)$ 且斜率为 $k$ 的直线 $l$ 交抛物线 $y^2=2 x$ 于 $M(x_1,y_1)$，$N(x_2,y_2)$ 两点.
+如图，#mi(`O`) 为坐标原点，过点 #mi(`P(2,0)`) 且斜率为 #mi(`k`) 的直线 #mi(`l`) 交抛物线 #mi(`y^{2}=2x`) 于 #mi(`M(x_{1},y_{1})`)，#mi(`N(x_{2},y_{2})`) 两点.
 
 
-+ (1) 写出直线 $l$ 的截距式方程；
-+ (2) 求 $x_(1) x_2$ 与 $y_(1) y_2$ 的值；
-+ (3) 求证：$O M bot O N$.
++ (1) 
++ (2) 
 
 
-\begin{center}
 
-#align(center)[#image("/papers/2005/img/beijing_liberal_spring/q18_fig1.png", width: 42%)]
 
-\end{center}
+#align(center)[#image("/papers/2005/img/beijing_liberal_spring/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-直线 $l$ 过 $P(2,0)$，且与抛物线交于两个点. 若 $k=0$，则 $l$ 为 $x$ 轴，与 $y^2=2 x$ 只有一个交点 $O$，故 $k != 0$. 由点斜式，直线方程为 $y=k(x-2)$.
+直线 #mi(`l`) 过 #mi(`P(2,0)`)，且与抛物线交于两个点. 若 #mi(`k=0`)，则 #mi(`l`) 为 #mi(`x`) 轴，与 #mi(`y^{2}=2x`) 只有一个交点 #mi(`O`)，故 #mi(`k\ne0`). 由点斜式，直线方程为 #mi(`y=k(x-2)`).
 
 
-+ (1) 令 $y=0$，得直线在 $x$ 轴上的截距为 $2$；令 $x=0$，得直线在 $y$ 轴上的截距为 $-2 k$. 因此截距式方程为
-
-$ (x)/(2)+(y)/(-2 k)=1 $
-
-即 $(x)/(2)-(y)/(2 k)=1$.
-+ (2) 由直线方程得 $x=2+(y)/(k)$. 代入抛物线方程，得
-
-$ y^2=2(2+(y)/(k)) $
-
-即
-
-$ y^2-(2)/(k)y-4=0 $
-
-由于 $M$，$N$ 是直线与抛物线的两个交点，$y_1$，$y_2$ 是这个关于 $y$ 的二次方程的两个根. 由韦达定理，
-
-$ y_(1) y_2=-4 $
-
-又由抛物线方程 $x_i=(y_i^2)/(2)$，所以
-
-$ x_(1) x_2=(y_1^2)/(2) dot (y_2^2)/(2)=((y_(1) y_2)^2)/(4)=4 $
-+ (3) 由 $y_(1) y_2=-4 != 0$，可知 $y_1$，$y_2 != 0$，从而 $x_1$，$x_2>0$，直线 $O M$，$O N$ 的斜率存在. 利用 $x_i=(y_i^2)/(2)$，有
-$k_(O M)=(y_1)/(x_1)=(2)/(y_1)$，$k_(O N)=(y_2)/(x_2)=(2)/(y_2)$.
-因此
-
-$ k_(O M)k_(O N)=(4)/(y_(1) y_2)=-1 $
-
-两条非竖直直线斜率之积为 $-1$，所以 $O M bot O N$.
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-经过长期观测得到：在交通繁忙的时段内，某公路段汽车的车流量 $y$（$"千辆/小时"$）与汽车的平均速度 $v$（$"千米/小时"$）之间的函数关系为：
-$y=(920 v)/(v^2+3 v+1600)$（$v>0$）.
+经过长期观测得到：在交通繁忙的时段内，某公路段汽车的车流量 #mi(`y`)（#mi(`\text{\text{千辆}/\text{小时}}`)）与汽车的平均速度 #mi(`v`)（#mi(`\text{\text{千米}/\text{小时}}`)）之间的函数关系为：
+
+#mi(`y=\dfrac{920v}{v^2+3v+1600}`)（#mi(`v>0`)）.
 
 
-+ (1) 在该时段内，当汽车的平均速度 $v$ 为多少时，车流量最大？最大车流量为多少？（精确到 $0.1" 千辆/小时"$）
-+ (2) 若要求在该时段内车流量超过 $10" 千辆/小时"$，则汽车的平均速度应在什么范围内？
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $v>0$，有
-
-$ v+(1600)/(v)\g e q2 sqrt(1600)=80 $
-
-于是
-
-$ v^2+3 v+1600=v(v+3+(1600)/(v))\g e q83 v $
-
-分母为正，所以
-
-$ y=(920 v)/(v^2+3 v+1600)\l e q(920)/(83) $
-
-基本不等式取等号当且仅当 $v=(1600)/(v)$. 结合 $v>0$，得 $v=40$. 因此平均速度为 $40" 千米/小时"$ 时车流量最大，最大车流量为
-
-$ (920)/(83) approx 11 .1" 千辆/小时" $
-+ (2) 因为分母为正，车流量超过 $10" 千辆/小时"$ 等价于
-
-$ (920 v)/(v^2+3 v+1600)>10 $
-
-即
-
-$ 920 v>10 v^2+30 v+16000 $
-
-整理并除以正数 $10$，得
-
-$ v^2-89 v+1600<0 $
-
-由于
-
-$ v^2-89 v+1600=(v-25)(v-64) $
-
-抛物线开口向上，故不等式的解为 $25<v<64$. 这已经满足题设 $v>0$，所以所求速度范围为 $(25,64)" 千米/小时"$.
++ (1)
 ]
 
 #problem(20)[
-现有一组互不相同且从小到大排列的数据：$a_0$，$a_1$，$a_2$，$a_3$，$a_4$，$a_5$，其中 $a_0=0$. 为提取反映数据间差异程度的某种指标，今对其进行如下加工：记 $T=a_0+a_1+ dots.c +a_5$，$x_n=(n)/(5)$，$y_n=(1)/(T)(a_0+a_1+ dots.c +a_n)$，作函数 $y=f(x)$，使其图象为逐点依次连接点 $P_n(x_n,y_n)$（$n=0$，$1$，$2$，$dots.c$，$5$）的折线.
+现有一组互不相同且从小到大排列的数据：#mi(`a_{0}`)，#mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`a_{3}`)，#mi(`a_{4}`)，#mi(`a_{5}`)，其中 #mi(`a_{0}=0`). 为提取反映数据间差异程度的某种指标，今对其进行如下加工：记 #mi(`T=a_{0}+a_{1}+\cdots+a_{5}`)，#mi(`x_{n}=\dfrac{n}{5}`)，#mi(`y_{n}=\dfrac{1}{T}(a_{0}+a_{1}+\cdots+a_{n})`)，作函数 #mi(`y=f(x)`)，使其图象为逐点依次连接点 #mi(`P_{n}(x_{n},y_{n})`)（#mi(`n=0`)，#mi(`1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`5`)）的折线.
 
 
-+ (1) 求 $f(0)$ 和 $f(1)$ 的值；
-+ (2) 设 $P_(n-1)P_n$ 的斜率为 $k_n$（$n=1$，$2$，$3$，$4$，$5$），判断 $k_1$，$k_2$，$k_3$，$k_4$，$k_5$ 的大小关系；
-+ (3) 证明：$f(x_n)<x_n$（$n=1$，$2$，$3$，$4$）.
++ (1) 
++ (2)
 ]
 
 #solution[
-由题设 $0=a_0<a_1<a_2<a_3<a_4<a_5$，所以各项均为正，且 $T>0$. 记
-
-$ R_n=a_0+a_1+ dots.c +a_n $
-
-则 $y_n=(R_n)/(T)$，并且折线在节点处满足 $f(x_n)=y_n$.
+由题设 #mi(`0=a_{0}<a_{1}<a_{2}<a_{3}<a_{4}<a_{5}`)，所以各项均为正，且 #mi(`T>0`). 记
 
 
-+ (1) 因为 $x_0=0$，且 $R_0=a_0=0$，所以 $P_0=(0,0)$，从而 $f(0)=0$. 又因为 $x_5=1$，且 $R_5=T$，所以 $P_5=(1,1)$，从而 $f(1)=1$.
-+ (2) 相邻两点的横坐标之差为 $x_n-x_(n-1)=(1)/(5)$，纵坐标之差为 $y_n-y_(n-1)=(R_n-R_(n-1))/(T)=(a_n)/(T)$. 因此
+#align(center)[#mitex(`
+R_{n}=a_{0}+a_{1}+\cdots+a_{n}
+`)]
 
-$ k_n=(y_n-y_(n-1))/(x_n-x_(n-1))=((a_n)/(T))/((1)/(5))=(5 a_n)/(T) $
 
-因为 $T>0$，且 $a_1<a_2<a_3<a_4<a_5$，所以
+则 #mi(`y_{n}=\dfrac{R_n}{T}`)，并且折线在节点处满足 #mi(`f(x_{n})=y_{n}`).
 
-$ k_1<k_2<k_3<k_4<k_5 $
-+ (3) 对 $n=1$，$2$，$3$，$4$，由 $a_(n+1)$，$\l d o t s$，$a_5$ 中每一项都大于 $a_n$，有
 
-$ T-R_n=a_(n+1)+ dots.c +a_5>(5-n)a_n $
-
-另一方面，$a_0=0$，且 $a_1$，$\l d o t s$，$a_n$ 均不大于 $a_n$，所以 $R_n\l e q n a_n$. 因此
-
-$ n T-5 R_n=n(T-R_n)-(5-n)R_n>n(5-n)a_n-(5-n)R_n\g e q0 $
-
-所以 $n T>5 R_n$. 再由 $f(x_n)=y_n=(R_n)/(T)$ 及 $x_n=(n)/(5)$，得到
-
-$ f(x_n)=(R_n)/(T)<(n)/(5)=x_n $
++ (1) 
++ (2)
 ]
 

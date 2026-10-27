@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,280 +11,305 @@
 #part-header("单选题")
 
 #problem(1)[
-不等式组 $\b e g i n{c a s e s} x^(2)-1<0,\\ x^(2)-3 x<0 \e n d{c a s e s}$ 的解集为（ ）
-  #choices([$\{x | -1<x<1\}$], [$\{x | 0<x<3\}$], [$\{x | 0<x<1\}$], [$\{x | -1<x<3\}$], cols: 2)
+不等式组 #mi(`\begin{cases}x^{2}-1<0,\\  x^{2}-3x<0\end{cases}`) 的解集为（ ）
+  #choices([#mi(`\{x\mid -1<x<1\}`)], [#mi(`\{x\mid 0<x<3\}`)], [#mi(`\{x\mid 0<x<1\}`)], [#mi(`\{x\mid -1<x<3\}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-由 $x^(2)-1<0$，得 $(x-1)(x+1)<0$，所以 $-1<x<1$. 由 $x^(2)-3 x<0$，得 $x(x-3)<0$，所以 $0<x<3$. 两个不等式同时成立时，$x in (-1,1) inter (0,3)=(0,1)$，故选 C.
+由 #mi(`x^{2}-1<0`)，得 #mi(`(x-1)(x+1)<0`)，所以 #mi(`-1<x<1`). 由 #mi(`x^{2}-3x<0`)，得 #mi(`x(x-3)<0`)，所以 #mi(`0<x<3`). 两个不等式同时成立时，#mi(`x\in(-1,1)\cap(0,3)=(0,1)`)，故选 C.
 ]
 
 #problem(2)[
-已知三条直线 $m$，$n$，$l$，三个平面 $alpha$，$beta$，$gamma$，下列四个命题中，正确的是（ ）
-    {$\b e g i n{c a s e s} m parallel gamma ,\\ n parallel gamma \e n d{c a s e s} => m parallel n$}
-    {$\b e g i n{c a s e s} m bot gamma ,\\ n bot gamma \e n d{c a s e s} => m parallel n$}
-  #choices([\(\begin{cases], [cases}\Rightarrow\alpha\parallel\beta\)], [\(\begin{cases], [cases}\Rightarrow l\perp\beta\)], cols: 1)
+已知三条直线 #mi(`m`)，#mi(`n`)，#mi(`l`)，三个平面 #mi(`\alpha`)，#mi(`\beta`)，#mi(`\gamma`)，下列四个命题中，正确的是（ ）
+
+\endcases\Rightarrow\alpha\parallel\beta\)}
+
+#mi(`\begin{cases}m\parallel\beta,\\
+
+l\perp m\end{cases}\Rightarrow l\perp\beta`)
+
+#mi(`\begin{cases}m\parallel\gamma,\\
+
+n\parallel\gamma\end{cases}\Rightarrow m\parallel n`)
+
+#mi(`\begin{cases}m\perp\gamma,\\
+
+n\perp\gamma\end{cases}\Rightarrow m\parallel n`)
 ]
 
 #answer([D])
 
 #solution[
-两个平面都垂直于同一个平面时，它们可能相交，故命题 A 不一定成立. 直线 $m parallel beta$ 且 $l bot m$ 时，$l$ 不一定垂直于平面 $beta$，故命题 B 不一定成立. 两条直线分别平行于同一个平面时，它们可能相交或异面，故命题 C 不一定成立. 垂直于同一个平面的两条直线都与该平面的法线方向平行，因此互相平行，命题 D 正确，故选 D.
+两个平面都垂直于同一个平面时，它们可能相交，故命题 A 不一定成立. 直线 #mi(`m\parallel\beta`) 且 #mi(`l\perp m`) 时，#mi(`l`) 不一定垂直于平面 #mi(`\beta`)，故命题 B 不一定成立. 两条直线分别平行于同一个平面时，它们可能相交或异面，故命题 C 不一定成立. 垂直于同一个平面的两条直线都与该平面的法线方向平行，因此互相平行，命题 D 正确，故选 D.
 ]
 
 #problem(3)[
-已知椭圆的焦点是 $F_(1)$，$F_(2)$，$P$ 是椭圆上的一个动点. 如果延长 $F_(1)P$ 到 $Q$，使得 $| P Q|=| P F_(2)|$，那么动点 $Q$ 的轨迹是（ ）
+已知椭圆的焦点是 #mi(`F_{1}`)，#mi(`F_{2}`)，#mi(`P`) 是椭圆上的一个动点. 如果延长 #mi(`F_{1}P`) 到 #mi(`Q`)，使得 #mi(`\lvert PQ\rvert=\lvert PF_{2}\rvert`)，那么动点 #mi(`Q`) 的轨迹是（ ）
   #choices([圆], [椭圆], [双曲线的一支], [抛物线], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-设椭圆的长半轴为 $a$. 对椭圆上任意点 $P$，由椭圆定义有 $| F_(1)P|+| P F_(2)|=2 a$. 由于 $Q$ 在从 $F_(1)$ 经过 $P$ 的射线上，且 $| P Q|=| P F_(2)|$，所以
-$| F_(1)Q|=| F_(1)P|+| P Q|=| F_(1)P|+| P F_(2)|=2 a$. 因而 $Q$ 到定点 $F_(1)$ 的距离恒为 $2 a$. 反过来，椭圆上各点从焦点 $F_(1)$ 出发的射线覆盖所有方向，所以 $Q$ 遍历以 $F_(1)$ 为圆心、$2 a$ 为半径的圆，故选 A.
+设椭圆的长半轴为 #mi(`a`). 对椭圆上任意点 #mi(`P`)，由椭圆定义有 #mi(`\lvert F_{1}P\rvert+\lvert PF_{2}\rvert=2a`). 由于 #mi(`Q`) 在从 #mi(`F_{1}`) 经过 #mi(`P`) 的射线上，且 #mi(`\lvert PQ\rvert=\lvert PF_{2}\rvert`)，所以
+
+#mi(`\lvert F_{1}Q\rvert=\lvert F_{1}P\rvert+\lvert PQ\rvert=\lvert F_{1}P\rvert+\lvert PF_{2}\rvert=2a`). 因而 #mi(`Q`) 到定点 #mi(`F_{1}`) 的距离恒为 #mi(`2a`). 反过来，椭圆上各点从焦点 #mi(`F_{1}`) 出发的射线覆盖所有方向，所以 #mi(`Q`) 遍历以 #mi(`F_{1}`) 为圆心、#mi(`2a`) 为半径的圆，故选 A.
 ]
 
 #problem(4)[
-如果 $theta in ((pi)/(2), pi )$，那么复数 $(1+ i )( cos theta + i sin theta )$ 的辐角的主值是（ ）
-  #choices([$theta +(9 pi)/(4)$], [$theta +(pi)/(4)$], [$theta -(pi)/(4)$], [$theta +(7 pi)/(4)$], cols: 2)
+如果 #mi(`\theta\in\left(\dfrac{\pi}{2},\pi\right)`)，那么复数 #mi(`(1+\mathrm{i})(\cos\theta+\mathrm{i}\sin\theta)`) 的辐角的主值是（ ）
+  #choices([#mi(`\theta+\dfrac{9\pi}{4}`)], [#mi(`\theta+\dfrac{\pi}{4}`)], [#mi(`\theta-\dfrac{\pi}{4}`)], [#mi(`\theta+\dfrac{7\pi}{4}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-有 $1+ i =sqrt(2)( cos (pi)/(4)+ i sin (pi)/(4))$，故
-$(1+ i )( cos theta + i sin theta )=sqrt(2)( cos ( theta +(pi)/(4))+ i sin ( theta +(pi)/(4)))$. 由 $(pi)/(2)< theta < pi$，得 $(3 pi)/(4)< theta +(pi)/(4)<(5 pi)/(4)<2 pi$. 因此在辐角主值取 $[0,2 pi )$ 的约定下，主值就是 $theta +(pi)/(4)$，故选 B.
+有 #mi(`1+\mathrm{i}=\sqrt{2}\left(\cos\dfrac{\pi}{4}+\mathrm{i}\sin\dfrac{\pi}{4}\right)`)，故
+
+#mi(`\left(1+\mathrm{i}\right)\left(\cos\theta+\mathrm{i}\sin\theta\right)=\sqrt{2}\left(\cos\left(\theta+\dfrac{\pi}{4}\right)+\mathrm{i}\sin\left(\theta+\dfrac{\pi}{4}\right)\right)`). 由 #mi(`\dfrac{\pi}{2}<\theta<\pi`)，得 #mi(`\dfrac{3\pi}{4}<\theta+\dfrac{\pi}{4}<\dfrac{5\pi}{4}<2\pi`). 因此在辐角主值取 #mi(`[0,2\pi)`) 的约定下，主值就是 #mi(`\theta+\dfrac{\pi}{4}`)，故选 B.
 ]
 
 #problem(5)[
-若角 $alpha$ 满足条件 $sin 2 alpha <0$，$cos alpha - sin alpha <0$，则 $alpha$ 在（ ）
+若角 #mi(`\alpha`) 满足条件 #mi(`\sin2\alpha<0`)，#mi(`\cos\alpha-\sin\alpha<0`)，则 #mi(`\alpha`) 在（ ）
   #choices([第一象限], [第二象限], [第三象限], [第四象限], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-在一个周期内，$sin 2 alpha <0$ 时，$alpha$ 只能位于第二或第四象限. 在第二象限，$cos alpha <0$，$sin alpha >0$，所以 $cos alpha - sin alpha <0$. 在第四象限，$cos alpha >0$，$sin alpha <0$，所以 $cos alpha - sin alpha >0$，不符合条件. 严格不等式又排除了坐标轴，故 $alpha$ 在第二象限，选 B.
+在一个周期内，#mi(`\sin2\alpha<0`) 时，#mi(`\alpha`) 只能位于第二或第四象限. 在第二象限，#mi(`\cos\alpha<0`)，#mi(`\sin\alpha>0`)，所以 #mi(`\cos\alpha-\sin\alpha<0`). 在第四象限，#mi(`\cos\alpha>0`)，#mi(`\sin\alpha<0`)，所以 #mi(`\cos\alpha-\sin\alpha>0`)，不符合条件. 严格不等式又排除了坐标轴，故 #mi(`\alpha`) 在第二象限，选 B.
 ]
 
 #problem(6)[
-从 $6$ 名志愿者中选出 $4$ 人分别从事翻译、导游、导购、保洁 $4$ 项不同工作. 若其中甲、乙两名支援者都不能从事翻译工作，则选派方案共有（ ）
-  #choices([$280$ 种], [$240$ 种], [$180$ 种], [$96$ 种], cols: 4)
+从 #mi(`6`) 名志愿者中选出 #mi(`4`) 人分别从事翻译、导游、导购、保洁 #mi(`4`) 项不同工作. 若其中甲、乙两名支援者都不能从事翻译工作，则选派方案共有（ ）
+  #choices([#mi(`280`) 种], [#mi(`240`) 种], [#mi(`180`) 种], [#mi(`96`) 种], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-甲、乙不能从事翻译工作，所以翻译人员只能从其余 $4$ 人中选出，方法数为 $4$. 确定翻译人员后，从剩下的 $5$ 人中选出 $3$ 人并分别安排导游、导购、保洁，方法数为 $A_(5)^(3)=5 times 4 times 3 =60$. 因此选派方案数为 $4 times 60 =240$，故选 B.
+甲、乙不能从事翻译工作，所以翻译人员只能从其余 #mi(`4`) 人中选出，方法数为 #mi(`4`). 确定翻译人员后，从剩下的 #mi(`5`) 人中选出 #mi(`3`) 人并分别安排导游、导购、保洁，方法数为 #mi(`\mathrm{A}_{5}^{3}=5\times4\times3=60`). 因此选派方案数为 #mi(`4\times60=240`)，故选 B.
 ]
 
 #problem(7)[
-在 $triangle A B C$ 中，$A B=2$，$B C=1.5$，$angle A B C=120^( degree )$. 若使三角形绕直线 $B C$ 旋转一周，则所形成的几何体的体积是（ ）
-  #choices([$(3)/(2) pi$], [$(5)/(2) pi$], [$(7)/(2) pi$], [$(9)/(2) pi$], cols: 4)
+在 #mi(`\triangle ABC`) 中，#mi(`AB=2`)，#mi(`BC=1.5`)，#mi(`\angle ABC=120^{\circ}`). 若使三角形绕直线 #mi(`BC`) 旋转一周，则所形成的几何体的体积是（ ）
+  #choices([#mi(`\dfrac{3}{2}\pi`)], [#mi(`\dfrac{5}{2}\pi`)], [#mi(`\dfrac{7}{2}\pi`)], [#mi(`\dfrac{9}{2}\pi`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-从 $A$ 向直线 $B C$ 作垂线，垂足为 $H$. 在直角三角形 $A B H$ 中，
-$A H=A B sin 120 ""^( degree )=2 dot (sqrt(3))/(2)=sqrt(3)$，且 $B H=| A B cos 120 ""^( degree )|=1$. 因为 $angle A B C=120^( degree )$，垂足 $H$ 在 $B$ 的外侧，故 $C H=B C+B H=(3)/(2)+1=(5)/(2)$.
+从 #mi(`A`) 向直线 #mi(`BC`) 作垂线，垂足为 #mi(`H`). 在直角三角形 #mi(`ABH`) 中，
 
-旋转后，三角形所扫出的几何体等于以 $C$ 为顶点、底面半径 $A H$、高 $C H$ 的圆锥，减去以 $B$ 为顶点、底面半径 $A H$、高 $B H$ 的圆锥. 所以体积为
-$V=(1)/(3) pi A H^(2)(C H-B H)=(1)/(3) pi dot 3 dot ((5)/(2)-1)=(3)/(2) pi$，故选 A.
+#mi(`AH=AB\sin120^{\circ}=2\cdot\dfrac{\sqrt{3}}{2}=\sqrt{3}`)，且 #mi(`BH=\lvert AB\cos120^{\circ}\rvert=1`). 因为 #mi(`\angle ABC=120^{\circ}`)，垂足 #mi(`H`) 在 #mi(`B`) 的外侧，故 #mi(`CH=BC+BH=\dfrac{3}{2}+1=\dfrac{5}{2}`).
+
+旋转后，三角形所扫出的几何体等于以 #mi(`C`) 为顶点、底面半径 #mi(`AH`)、高 #mi(`CH`) 的圆锥，减去以 #mi(`B`) 为顶点、底面半径 #mi(`AH`)、高 #mi(`BH`) 的圆锥. 所以体积为
+
+#mi(`V=\dfrac{1}{3}\pi AH^{2}(CH-BH)=\dfrac{1}{3}\pi\cdot3\cdot\left(\dfrac{5}{2}-1\right)=\dfrac{3}{2}\pi`)，故选 A.
 ]
 
 #problem(8)[
-圆 $2 x^(2)+2 y^(2)=1$ 与直线 $x sin theta +y-1=0$（$theta in RR$，$theta != (pi)/(2)+k pi$，$k in ZZ$）的位置关系是（ ）
+圆 #mi(`2x^{2}+2y^{2}=1`) 与直线 #mi(`x\sin\theta+y-1=0`)（#mi(`\theta\in\mathbb{R}`)，#mi(`\theta\ne\dfrac{\pi}{2}+k\pi`)，#mi(`k\in\mathbb{Z}`)）的位置关系是（ ）
   #choices([相交], [相切], [相离或相切], [不能确定], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-圆 $2 x^(2)+2 y^(2)=1$ 的圆心为原点，半径为 $(1)/(sqrt(2))$. 直线 $x sin theta +y-1=0$ 到原点的距离为
-$d=(1)/(sqrt(1+ sin ""^(2) theta))$. 题设 $theta != (pi)/(2)+k pi$ 保证 $| sin theta |<1$，所以 $d>(1)/(sqrt(2))$. 因而圆与直线相离. 选项中包含“相离”的只有“相离或相切”，故选 C.
+圆 #mi(`2x^{2}+2y^{2}=1`) 的圆心为原点，半径为 #mi(`\dfrac{1}{\sqrt{2}}`). 直线 #mi(`x\sin\theta+y-1=0`) 到原点的距离为
+
+#mi(`d=\dfrac{1}{\sqrt{1+\sin^{2}\theta}}`). 题设 #mi(`\theta\ne\dfrac{\pi}{2}+k\pi`) 保证 #mi(`\lvert\sin\theta\rvert<1`)，所以 #mi(`d>\dfrac{1}{\sqrt{2}}`). 因而圆与直线相离. 选项中包含“相离”的只有“相离或相切”，故选 C.
 ]
 
 #problem(9)[
-在极坐标系中，如果一个圆的方程 $rho =4 cos theta +6 sin theta$，那么过圆心且与极轴平行的直线方程是（ ）
-  #choices([$rho sin theta =3$], [$rho sin theta =-3$], [$rho cos theta =2$], [$rho cos theta =-2$], cols: 2)
+在极坐标系中，如果一个圆的方程 #mi(`\rho=4\cos\theta+6\sin\theta`)，那么过圆心且与极轴平行的直线方程是（ ）
+  #choices([#mi(`\rho\sin\theta=3`)], [#mi(`\rho\sin\theta=-3`)], [#mi(`\rho\cos\theta=2`)], [#mi(`\rho\cos\theta=-2`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由极坐标与直角坐标的关系 $x= rho cos theta$，$y= rho sin theta$，原方程化为 $rho ""^(2)=4 rho cos theta +6 rho sin theta$，即 $x^(2)+y^(2)=4 x+6 y$. 配方得 $(x-2)^(2)+(y-3)^(2)=13$，所以圆心为 $(2,3)$. 过圆心且与极轴平行的直线是 $y=3$，其极坐标方程为 $rho sin theta =3$，故选 A.
+由极坐标与直角坐标的关系 #mi(`x=\rho\cos\theta`)，#mi(`y=\rho\sin\theta`)，原方程化为 #mi(`\rho^{2}=4\rho\cos\theta+6\rho\sin\theta`)，即 #mi(`x^{2}+y^{2}=4x+6y`). 配方得 #mi(`(x-2)^{2}+(y-3)^{2}=13`)，所以圆心为 #mi(`(2,3)`). 过圆心且与极轴平行的直线是 #mi(`y=3`)，其极坐标方程为 #mi(`\rho\sin\theta=3`)，故选 A.
 ]
 
 #problem(10)[
-对于二项式 $((1)/(x)+x^(3))^(n)$ 的展开式（$n in NN ""^(*)$），四位同学作出了四种判断：
-\begin{circlelist}
-\item 存在 $n in NN ""^(*)$，展开式中有常数项；
-\item 对任意 $n in NN ""^(*)$，展开式中没有常数项；
-\item 对任意 $n in NN ""^(*)$，展开式中没有 $x$ 的一次项；
-\item 存在 $n in NN ""^(*)$，展开式中有 $x$ 的一次项.
-\end{circlelist}
+对于二项式 #mi(`\left(\dfrac{1}{x}+x^{3}\right)^{n}`) 的展开式（#mi(`n\in\mathbb{N}^{*}`)），四位同学作出了四种判断：
+
+
++ (1) 存在 #mi(`n\in\mathbb{N}^{*}`)，展开式中有常数项；
++ (2) 对任意 #mi(`n\in\mathbb{N}^{*}`)，展开式中没有常数项；
++ (3) 对任意 #mi(`n\in\mathbb{N}^{*}`)，展开式中没有 #mi(`x`) 的一次项；
++ (4) 存在 #mi(`n\in\mathbb{N}^{*}`)，展开式中有 #mi(`x`) 的一次项.
+
+
+
 上述判断中正确的是（ ）
-  #choices(["①"与"③"], ["②"与"③"], ["①"与"④"], ["②"与"④"], cols: 4)
+  #choices([①与③], [②与③], [①与④], [②与④], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-展开式通项为 $C_(n)^(k)((1)/(x))^(n-k)(x^(3))^(k)=C_(n)^(k)x^(4 k-n)$，其中 $k=0$，$1$，$\l d o t s$，$n$.
+展开式通项为 #mi(`\mathrm{C}_{n}^{k}\left(\dfrac{1}{x}\right)^{n-k}\left(x^{3}\right)^{k}=\mathrm{C}_{n}^{k}x^{4k-n}`)，其中 #mi(`k=0`)，#mi(`1`)，#mi(`\ldots`)，#mi(`n`).
 
-常数项要求 $4 k-n=0$，取 $n=4$，$k=1$ 即可满足，因此判断 $"[1]"$ 正确，判断 $"[2]"$ 错误. 一次项要求 $4 k-n=1$，取 $k=1$，$n=3$ 即可满足，因此判断 $"[4]"$ 正确，判断 $"[3]"$ 错误. 所以正确的判断是 $"[1]"$ 与 $"[4]"$，故选 C.
+常数项要求 #mi(`4k-n=0`)，取 #mi(`n=4`)，#mi(`k=1`) 即可满足，因此判断 #mi(`①`) 正确，判断 #mi(`②`) 错误. 一次项要求 #mi(`4k-n=1`)，取 #mi(`k=1`)，#mi(`n=3`) 即可满足，因此判断 #mi(`④`) 正确，判断 #mi(`③`) 错误. 所以正确的判断是 #mi(`①`) 与 #mi(`④`)，故选 C.
 ]
 
 #problem(11)[
 若一个等差数列前 3 项的和为 34，最后 3 项的和为 146，且所有项的和为 390，则这个数列有（ ）
-  #choices([$13$ 项], [$12$ 项], [$11$ 项], [$10$ 项], cols: 4)
+  #choices([#mi(`13`) 项], [#mi(`12`) 项], [#mi(`11`) 项], [#mi(`10`) 项], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-设等差数列为 $a_(1)$，$a_(2)$，$\l d o t s$，$a_(n)$，公差为 $d$. 前三项的和为 $3 a_(2)=34$，最后三项的和为 $3 a_(n-1)=146$，所以 $a_(2)=(34)/(3)$，$a_(n-1)=(146)/(3)$. 又 $a_(1)=a_(2)-d$，$a_(n)=a_(n-1)+d$，从而 $a_(1)+a_(n)=a_(2)+a_(n-1)=60$. 因此总和为 $390=(n)/(2)(a_(1)+a_(n))=30 n$，解得 $n=13$，故选 A.
+设等差数列为 #mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`\ldots`)，#mi(`a_{n}`)，公差为 #mi(`d`). 前三项的和为 #mi(`3a_{2}=34`)，最后三项的和为 #mi(`3a_{n-1}=146`)，所以 #mi(`a_{2}=\dfrac{34}{3}`)，#mi(`a_{n-1}=\dfrac{146}{3}`). 又 #mi(`a_{1}=a_{2}-d`)，#mi(`a_{n}=a_{n-1}+d`)，从而 #mi(`a_{1}+a_{n}=a_{2}+a_{n-1}=60`). 因此总和为 #mi(`390=\dfrac{n}{2}(a_{1}+a_{n})=30n`)，解得 #mi(`n=13`)，故选 A.
 ]
 
 #problem(12)[
-用一张钢板制作一个容积为 $4~m^(3)$ 的无盖长方体水箱. 可用的长方形钢板有四种不同的规格（长$times$宽的尺寸如各选项所示，单位均为 $m$），若既要够用，又要所剩最少，则应选钢板的规格是（ ）
-  #choices([$2 times 5$], [$2 times 5 .5$], [$2 times 6 .1$], [$3 times 5$], cols: 4)
+用一张钢板制作一个容积为 #mi(`4\mathrm{~m}^{3}`) 的无盖长方体水箱. 可用的长方形钢板有四种不同的规格（长#mi(`\times`) 宽的尺寸如各选项所示，单位均为 #mi(`\mathrm{m}`)），若既要够用，又要所剩最少，则应选钢板的规格是（ ）
+  #choices([#mi(`2\times5`)], [#mi(`2\times5.5`)], [#mi(`2\times6.1`)], [#mi(`3\times5`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设水箱底面长、宽、高分别为 $x$，$y$，$z$，则 $x y z=4$. 无盖水箱所需钢板面积为 $S=x y+2 x z+2 y z$. 由基本不等式，
-$S >= 3 root(3, (x y)(2 x z)(2 y z))=3\sqrt[3]{4 x^(2)y^(2)z^(2)}=12$. 因而钢板面积至少为 $12~m^(2)$，规格 $2 times 5$ 和 $2 times 5 .5$ 的面积分别只有 $10~m^(2)$ 和 $11~m^(2)$，不可能够用.
+设水箱底面长、宽、高分别为 #mi(`x`)，#mi(`y`)，#mi(`z`)，则 #mi(`xyz=4`). 无盖水箱所需钢板面积为 #mi(`S=xy+2xz+2yz`). 由基本不等式，
 
-当 $x=y=2$，$z=1$ 时，容积为 $4~m^(3)$，所需五块钢板的尺寸为一块 $2 times 2$ 的底板和四块 $2 times 1$ 的侧板. 规格 $2 times 6 .1$ 可沿长边排下这五块板，总长度为 $2+4 times 1 =6$，剩余面积为 $2 times 0 .1=0.2~m^(2)$. 规格 $3 times 5$ 也能排下这些板：先在一端放置 $2 times 2$ 的底板，余下的 $2 times 3$ 区域放置三块 $2 times 1$ 的侧板，再在剩下的 $1 times 2$ 区域放置一块旋转 $90^ degree$ 后的侧板. 但其面积为 $15~m^(2)$，剩余面积为 $3~m^(2)$. 因此在够用的规格中，$2 times 6 .1$ 所剩最少，故选 C.
+#mi(`S\geqslant3\sqrt[3]{(xy)(2xz)(2yz)}=3\sqrt[3]{4x^{2}y^{2}z^{2}}=12`). 因而钢板面积至少为 #mi(`12\mathrm{~m}^{2}`)，规格 #mi(`2\times5`) 和 #mi(`2\times5.5`) 的面积分别只有 #mi(`10\mathrm{~m}^{2}`) 和 #mi(`11\mathrm{~m}^{2}`)，不可能够用.
+
+当 #mi(`x=y=2`)，#mi(`z=1`) 时，容积为 #mi(`4\mathrm{~m}^{3}`)，所需五块钢板的尺寸为一块 #mi(`2\times2`) 的底板和四块 #mi(`2\times1`) 的侧板. 规格 #mi(`2\times6.1`) 可沿长边排下这五块板，总长度为 #mi(`2+4\times1=6`)，剩余面积为 #mi(`2\times0.1=0.2\mathrm{~m}^{2}`). 规格 #mi(`3\times5`) 也能排下这些板：先在一端放置 #mi(`2\times2`) 的底板，余下的 #mi(`2\times3`) 区域放置三块 #mi(`2\times1`) 的侧板，再在剩下的 #mi(`1\times2`) 区域放置一块旋转 #mi(`90^{\circ}`) 后的侧板. 但其面积为 #mi(`15\mathrm{~m}^{2}`)，剩余面积为 #mi(`3\mathrm{~m}^{2}`). 因此在够用的规格中，#mi(`2\times6.1`) 所剩最少，故选 C.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-若双曲线 $(x^(2))/(4)-(y^(2))/(m)=1$ 的渐近线方程为 $y= +- (sqrt(3))/(2)x$，则双曲线的焦点坐标是#blank(){}.
+若双曲线 #mi(`\dfrac{x^{2}}{4}-\dfrac{y^{2}}{m}=1`) 的渐近线方程为 #mi(`y=\pm\dfrac{\sqrt{3}}{2}x`)，则双曲线的焦点坐标是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(-sqrt(7),0)\)，\((sqrt(7),0)$])
+#answer([#mi(`\left(-\sqrt{7},0\right)`)，#mi(`\left(\sqrt{7},0\right)`)])
 
 #solution[
-双曲线的标准形式为 $(x^(2))/(a^(2))-(y^(2))/(b^(2))=1$，所以 $a^(2)=4$，$a=2$，且 $b^(2)=m$. 其渐近线为 $y= +- (b)/(a)x$. 由题设 $(b)/(2)=(sqrt(3))/(2)$，得 $b=sqrt(3)$，从而 $m=b^(2)=3$. 双曲线的半焦距满足 $c^(2)=a^(2)+b^(2)=4+3=7$，故两个焦点坐标为 $(-sqrt(7),0)$，$(sqrt(7),0)$.
+双曲线的标准形式为 #mi(`\dfrac{x^{2}}{a^{2}}-\dfrac{y^{2}}{b^{2}}=1`)，所以 #mi(`a^{2}=4`)，#mi(`a=2`)，且 #mi(`b^{2}=m`). 其渐近线为 #mi(`y=\pm\dfrac{b}{a}x`). 由题设 #mi(`\dfrac{b}{2}=\dfrac{\sqrt{3}}{2}`)，得 #mi(`b=\sqrt{3}`)，从而 #mi(`m=b^{2}=3`). 双曲线的半焦距满足 #mi(`c^{2}=a^{2}+b^{2}=4+3=7`)，故两个焦点坐标为 #mi(`\left(-\sqrt{7},0\right)`)，#mi(`\left(\sqrt{7},0\right)`).
 ]
 
 #problem(14)[
-如果 $cos theta =-(12)/(13)$，$theta in ( pi ,(3 pi)/(2))$，那么 $cos ( theta +(pi)/(4))$ 的值等于#blank(){}.
+如果 #mi(`\cos\theta=-\dfrac{12}{13}`)，#mi(`\theta\in\left(\pi,\dfrac{3\pi}{2}\right)`)，那么 #mi(`\cos\left(\theta+\dfrac{\pi}{4}\right)`) 的值等于\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-(7 sqrt(2))/(26)$])
+#answer([#mi(`-\dfrac{7\sqrt{2}}{26}`)])
 
 #solution[
-因为 $theta in ( pi ,(3 pi)/(2))$，所以 $sin theta <0$. 由 $cos theta =-(12)/(13)$，得
-$sin theta =-sqrt(1- cos ""^(2) theta)=-sqrt(1-(144)/(169))=-(5)/(13)$. 于是由余弦和角公式，
-$cos ( theta +(pi)/(4))= cos theta cos (pi)/(4)- sin theta sin (pi)/(4)=(-(12)/(13)+(5)/(13))(sqrt(2))/(2)=-(7 sqrt(2))/(26)$.
+因为 #mi(`\theta\in\left(\pi,\dfrac{3\pi}{2}\right)`)，所以 #mi(`\sin\theta<0`). 由 #mi(`\cos\theta=-\dfrac{12}{13}`)，得
+
+#mi(`\sin\theta=-\sqrt{1-\cos^{2}\theta}=-\sqrt{1-\dfrac{144}{169}}=-\dfrac{5}{13}`). 于是由余弦和角公式，
+
+#mi(`\cos\left(\theta+\dfrac{\pi}{4}\right)=\cos\theta\cos\dfrac{\pi}{4}-\sin\theta\sin\dfrac{\pi}{4}=\left(-\dfrac{12}{13}+\dfrac{5}{13}\right)\dfrac{\sqrt{2}}{2}=-\dfrac{7\sqrt{2}}{26}`).
 ]
 
 #problem(15)[
-正方形 $A B C D$ 的边长是 $2$，$E$，$F$ 分别是 $A B$ 和 $C D$ 的中点，将正方形沿 $E F$ 折成直二面角（如图所示）. $M$ 为矩形 $A E F D$ 内一点，如果 $angle M B E= angle M B C$，$M B$ 和平面 $B C F$ 所成角的正切值为 $(1)/(2)$，那么点 $M$ 到直线 $E F$ 的距离为#blank(){}.
+正方形 #mi(`ABCD`) 的边长是 #mi(`2`)，#mi(`E`)，#mi(`F`) 分别是 #mi(`AB`) 和 #mi(`CD`) 的中点，将正方形沿 #mi(`EF`) 折成直二面角（如图所示）. #mi(`M`) 为矩形 #mi(`AEFD`) 内一点，如果 #mi(`\angle MBE=\angle MBC`)，#mi(`MB`) 和平面 #mi(`BCF`) 所成角的正切值为 #mi(`\dfrac{1}{2}`)，那么点 #mi(`M`) 到直线 #mi(`EF`) 的距离为\underline{\hspace{2.5em}}.
 
-#align(center)[#image("/papers/2002/img/jing_meng_wan_science_spring/q15_fig1.png", width: 52%)]
+
+#align(center)[#image("/papers/2002/img/jing_meng_wan_science_spring/q15_fig1.png", width: 28%)]
+
 ]
 
-#answer([$(sqrt(2))/(2)$])
+#answer([#mi(`\dfrac{\sqrt{2}}{2}`)])
 
 #solution[
-折叠后建立空间直角坐标系，令折痕 $E F$ 为 $x$ 轴，取 $E=(0,0,0)$，$F=(2,0,0)$，使平面 $B C F$ 为 $z=0$，并令 $B=(0,1,0)$，$C=(2,1,0)$. 由于 $M$ 在矩形 $A E F D$ 内，可设 $M=(t,0,h)$，其中 $0<t<2$，$0<h<1$.
+折叠后建立空间直角坐标系，令折痕 #mi(`EF`) 为 #mi(`x`) 轴，取 #mi(`E=(0,0,0)`)，#mi(`F=(2,0,0)`)，使平面 #mi(`BCF`) 为 #mi(`z=0`)，并令 #mi(`B=(0,1,0)`)，#mi(`C=(2,1,0)`). 由于 #mi(`M`) 在矩形 #mi(`AEFD`) 内，可设 #mi(`M=(t,0,h)`)，其中 #mi(`0<t<2`)，#mi(`0<h<1`).
 
-于是 $arrow(B M)=(t,-1,h)$，$arrow(B E)=(0,-1,0)$，$arrow(B C)=(2,0,0)$. 由题设两角相等，且两角均为锐角，比较余弦得
-$(arrow(B M){ dot }arrow(B E))/(| B M|| B E|)=(1)/(sqrt(t^(2)+1+h^(2)))$，$(arrow(B M){ dot }arrow(B C))/(| B M|| B C|)=(t)/(sqrt(t^(2)+1+h^(2)))$. 因而 $t=1$.
+于是 #mi(`\overrightarrow{BM}=(t,-1,h)`)，#mi(`\overrightarrow{BE}=(0,-1,0)`)，#mi(`\overrightarrow{BC}=(2,0,0)`). 由题设两角相等，且两角均为锐角，比较余弦得
 
-直线 $M B$ 在平面 $B C F$ 上的射影长度为 $sqrt(t^(2)+1)=sqrt(2)$. 设 $M B$ 与平面 $B C F$ 所成的角为 $phi.alt$，则 $tan phi.alt =(h)/(sqrt(2))=(1)/(2)$，所以 $h=(sqrt(2))/(2)$. 此时 $M=(1,0,h)$，而 $E F$ 是 $x$ 轴，故点 $M$ 到直线 $E F$ 的距离为 $sqrt(0^(2)+h^(2))=h=(sqrt(2))/(2)$.
+#mi(`\dfrac{\overrightarrow{BM}\cdot\overrightarrow{BE}}{\lvert BM\rvert\lvert BE\rvert}=\dfrac{1}{\sqrt{t^{2}+1+h^{2}}}`)，#mi(`\dfrac{\overrightarrow{BM}\cdot\overrightarrow{BC}}{\lvert BM\rvert\lvert BC\rvert}=\dfrac{t}{\sqrt{t^{2}+1+h^{2}}}`). 因而 #mi(`t=1`).
+
+直线 #mi(`MB`) 在平面 #mi(`BCF`) 上的射影长度为 #mi(`\sqrt{t^{2}+1}=\sqrt{2}`). 设 #mi(`MB`) 与平面 #mi(`BCF`) 所成的角为 #mi(`\varphi`)，则 #mi(`\tan\varphi=\dfrac{h}{\sqrt{2}}=\dfrac{1}{2}`)，所以 #mi(`h=\dfrac{\sqrt{2}}{2}`). 此时 #mi(`M=(1,0,h)`)，而 #mi(`EF`) 是 #mi(`x`) 轴，故点 #mi(`M`) 到直线 #mi(`EF`) 的距离为 #mi(`\sqrt{0^{2}+h^{2}}=h=\dfrac{\sqrt{2}}{2}`).
 ]
 
 #problem(16)[
-对于任意两个复数 $z_(1)=x_(1)+y_(1) i$，$z_(2)=x_(2)+y_(2) i$（$x_(1) in RR$，$y_(1) in RR$，$x_(2) in RR$，$y_(2) in RR$），定义运算 $\o d o t$ 为：$z_(1)\o d o t z_(2)=x_(1)x_(2)+y_(1)y_(2)$. 设非零复数 $w_(1)$，$w_(2)$ 在复平面内对应的点分别为 $P_(1)$，$P_(2)$，点 $O$ 为坐标原点. 如果 $w_(1)\o d o t w_(2)=0$，那么在 $triangle P_(1)O P_(2)$ 中，$angle P_(1)O P_(2)$ 的大小为#blank(){}.
+对于任意两个复数 #mi(`z_{1}=x_{1}+y_{1}\mathrm{i}`)，#mi(`z_{2}=x_{2}+y_{2}\mathrm{i}`)（#mi(`x_{1}\in\mathbb{R}`)，#mi(`y_{1}\in\mathbb{R}`)，#mi(`x_{2}\in\mathbb{R}`)，#mi(`y_{2}\in\mathbb{R}`)），定义运算 #mi(`\odot`) 为：#mi(`z_{1}\odot z_{2}=x_{1}x_{2}+y_{1}y_{2}`). 设非零复数 #mi(`w_{1}`)，#mi(`w_{2}`) 在复平面内对应的点分别为 #mi(`P_{1}`)，#mi(`P_{2}`)，点 #mi(`O`) 为坐标原点. 如果 #mi(`w_{1}\odot w_{2}=0`)，那么在 #mi(`\triangle P_{1}OP_{2}`) 中，#mi(`\angle P_{1}OP_{2}`) 的大小为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(pi)/(2)$])
+#answer([#mi(`\dfrac{\pi}{2}`)])
 
 #solution[
-复数 $w_(1)$，$w_(2)$ 对应的向量分别为 $arrow(O P_(1))=(x_(1),y_(1))$，$arrow(O P_(2))=(x_(2),y_(2))$. 由新定义，
-$arrow(O P_(1))\c d o t a r r o w(O P_(2))=x_(1)x_(2)+y_(1)y_(2)=w_(1)\o d o t w_(2)=0$. 由于 $w_(1)$，$w_(2)$ 均非零，两个向量均非零；非零向量内积为零等价于两向量垂直. 因此 $angle P_(1)O P_(2)=(pi)/(2)$.
+复数 #mi(`w_{1}`)，#mi(`w_{2}`) 对应的向量分别为 #mi(`\overrightarrow{OP_{1}}=(x_{1},y_{1})`)，#mi(`\overrightarrow{OP_{2}}=(x_{2},y_{2})`). 由新定义，
+
+#mi(`\overrightarrow{OP_{1}}\cdot\overrightarrow{OP_{2}}=x_{1}x_{2}+y_{1}y_{2}=w_{1}\odot w_{2}=0`). 由于 #mi(`w_{1}`)，#mi(`w_{2}`) 均非零，两个向量均非零；非零向量内积为零等价于两向量垂直. 因此 #mi(`\angle P_{1}OP_{2}=\dfrac{\pi}{2}`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-在 $triangle A B C$ 中，已知 $A$，$B$，$C$ 成等差数列，求 $tan (A)/(2)+ tan (C)/(2)+sqrt(3) tan (A)/(2) tan (C)/(2)$ 的值.
+在 #mi(`\triangle ABC`) 中，已知 #mi(`A`)，#mi(`B`)，#mi(`C`) 成等差数列，求 #mi(`\tan\dfrac{A}{2}+\tan\dfrac{C}{2}+\sqrt{3}\tan\dfrac{A}{2}\tan\dfrac{C}{2}`) 的值.
 
-因为 $A$，$B$，$C$ 成等差数列，所以 $A+C=2 B$. 又因为 $A+B+C= pi$，所以 $3 B= pi$，从而 $B=(pi)/(3)$，且 $(A+C)/(2)=(pi)/(3)$. 设 $x= tan (A)/(2)$，$y= tan (C)/(2)$. 由于 $A>0$，$C>0$，且 $(A)/(2)+(C)/(2)=(pi)/(3)<(pi)/(2)$，有 $tan (A+C)/(2)=(x+y)/(1-x y)=sqrt(3)$. 因此 $x+y=sqrt(3)(1-x y)$，即 $x+y+sqrt(3)x y=sqrt(3)$. 所以所求值为 $sqrt(3)$.
+因为 #mi(`A`)，#mi(`B`)，#mi(`C`) 成等差数列，所以 #mi(`A+C=2B`). 又因为 #mi(`A+B+C=\pi`)，所以 #mi(`3B=\pi`)，从而 #mi(`B=\dfrac{\pi}{3}`)，且 #mi(`\dfrac{A+C}{2}=\dfrac{\pi}{3}`). 设 #mi(`x=\tan\dfrac{A}{2}`)，#mi(`y=\tan\dfrac{C}{2}`). 由于 #mi(`A>0`)，#mi(`C>0`)，且 #mi(`\dfrac{A}{2}+\dfrac{C}{2}=\dfrac{\pi}{3}<\dfrac{\pi}{2}`)，有 #mi(`\tan\dfrac{A+C}{2}=\dfrac{x+y}{1-xy}=\sqrt{3}`). 因此 #mi(`x+y=\sqrt{3}(1-xy)`)，即 #mi(`x+y+\sqrt{3}xy=\sqrt{3}`). 所以所求值为 #mi(`\sqrt{3}`).
 ]
 
 #problem(18)[
-已知函数 $f(x)$ 是偶函数，而且在 $(0,+ oo )$ 上是增函数，判断 $f(x)$ 在 $(- oo ,0)$ 上是增函数还是减函数，并证明你的判断.
+已知函数 #mi(`f(x)`) 是偶函数，而且在 #mi(`(0,+\infty)`) 上是增函数，判断 #mi(`f(x)`) 在 #mi(`\left(-\infty,0\right)`) 上是增函数还是减函数，并证明你的判断.
 
-在 $(- oo ,0)$ 上是减函数. 任取 $x_(1)$，$x_(2) in (- oo ,0)$，且 $x_(1)<x_(2)<0$，则 $-x_(1)>-x_(2)>0$. 由 $f(x)$ 在 $(0,+ oo )$ 上是增函数，得 $f(-x_(1))>f(-x_(2))$. 又因为 $f(x)$ 是偶函数，所以 $f(x_(1))=f(-x_(1))$，$f(x_(2))=f(-x_(2))$，从而 $f(x_(1))>f(x_(2))$. 因此，当 $x_(1)<x_(2)<0$ 时总有 $f(x_(1))>f(x_(2))$，故 $f(x)$ 在 $(- oo ,0)$ 上是减函数.
+在 #mi(`\left(-\infty,0\right)`) 上是减函数. 任取 #mi(`x_{1}`)，#mi(`x_{2}\in\left(-\infty,0\right)`)，且 #mi(`x_{1}<x_{2}<0`)，则 #mi(`-x_{1}>-x_{2}>0`). 由 #mi(`f(x)`) 在 #mi(`(0,+\infty)`) 上是增函数，得 #mi(`f(-x_{1})>f(-x_{2})`). 又因为 #mi(`f(x)`) 是偶函数，所以 #mi(`f(x_{1})=f(-x_{1})`)，#mi(`f(x_{2})=f(-x_{2})`)，从而 #mi(`f(x_{1})>f(x_{2})`). 因此，当 #mi(`x_{1}<x_{2}<0`) 时总有 #mi(`f(x_{1})>f(x_{2})`)，故 #mi(`f(x)`) 在 #mi(`\left(-\infty,0\right)`) 上是减函数.
 ]
 
 #problem(19)[
-在三棱锥 $S-A B C$ 中，如图，$angle S A B= angle S A C= angle A C B=90^( degree )$，$A C=2$，$B C=sqrt(13)$，$S B=sqrt(29)$.
-
-+ (1) 证明：$S C bot B C$；
-+ (2) 求侧面 $S B C$ 与底面 $A B C$ 所成的二面角大小；
-+ (3) 求异面直线 $S C$ 与 $A B$ 所成的角的大小（用反三角函数表示）.
+在三棱锥 #mi(`S-ABC`) 中，如图，#mi(`\angle SAB=\angle SAC=\angle ACB=90^{\circ}`)，#mi(`AC=2`)，#mi(`BC=\sqrt{13}`)，#mi(`SB=\sqrt{29}`).
 
 
-#align(center)[#image("/papers/2002/img/jing_meng_wan_science_spring/q19_fig1.png", width: 42%)]
++ (1) 
++ (2) 
 
 
 
-+ (1) 由 $angle S A B= angle S A C=90^( degree )$，且直线 $A B$，$A C$ 在平面 $A B C$ 内相交于 $A$，可知 $S A bot "平面 "A B C$. 取直角坐标系，使 $A=(0,0,0)$，$C=(2,0,0)$，$B=(2,sqrt(13),0)$，则由 $S B=sqrt(29)$ 得 $S=(0,0,h)$，且 $4+13+h^(2)=29$，所以 $h=2 sqrt(3)$. 因此 $arrow(S C)=(2,0,-2 sqrt(3))$，$arrow(B C)=(0,-sqrt(13),0)$，从而 $arrow(S C)\c d o t a r r o w(B C)=0$，故 $S C bot B C$.
-+ (2) 由第（1）问，直线 $S C$ 垂直于棱 $B C$，而直线 $A C$ 也垂直于 $B C$，所以侧面 $S B C$ 与底面 $A B C$ 所成的二面角等于 $angle A C S$. 又 $arrow(C A)=(-2,0,0)$，$arrow(C S)=(-2,0,2 sqrt(3))$，故 $| C A|=2$，$| C S|=4$，且 $arrow(C A)\c d o t a r r o w(C S)=4$. 因而 $cos angle A C S=(4)/(2 times 4)=(1)/(2)$，所以二面角大小为 $(pi)/(3)$.
-+ (3) 直线 $S C$ 与 $A B$ 的方向向量可分别取 $arrow(C S)=(-2,0,2 sqrt(3))$ 和 $arrow(A B)=(2,sqrt(13),0)$. 两向量的数量积为 $-4$，长度分别为 $4$ 和 $sqrt(17)$. 设异面直线所成的锐角为 $phi.alt$，则 $cos phi.alt =(|-4|)/(4 sqrt(17))=(1)/(sqrt(17))$，所以 $phi.alt = arccos (1)/(sqrt(17))= arctan 4$.
+
+#align(center)[#image("/papers/2002/img/jing_meng_wan_science_spring/q19_fig1.png", width: 28%)]
+
+
+
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-假设 $A$ 型进口车关税税率在 $2001" 年"$是 $100\%$，在 $2006" 年"$是 $25\%$，$2001" 年"$ $A$ 型进口车每辆价格为 $64" 万元"$（其中含 $32" 万元"$关税税款）.
-
-+ (1) 已知与 $A$ 型车性能相近的 $B$ 型国产车，$2001" 年"$每辆价格为 $46" 万元"$，若 $A$ 型车的价格只受关税降低的影响，为了保证 $2006" 年"$ $B$ 型车的价格不高于 $A$ 型车价格的 $90\%$，$B$ 型车价格要逐年降低，问平均每年至少下降多少万元？
-+ (2) 某人在 $2001" 年"$将 $33" 万元"$存入银行，假设银行扣利息税后的年利率为 $1.8\%$（$5" 年"$内不变），且每年按复利计算（上一年的利息计入第二年的本金），那么五年到期时这笔钱连本带息是否一定够买按（1）中所述降价后的 $B$ 型车一辆？
+假设 #mi(`A`) 型进口车关税税率在 #mi(`2001\text{ \text{年}}`) 是 #mi(`100\%`)，在 #mi(`2006\text{ \text{年}}`) 是 #mi(`25\%`)，#mi(`2001\text{ \text{年}}`) #mi(`A`) 型进口车每辆价格为 #mi(`64\text{ \text{万元}}`)（其中含 #mi(`32\text{ \text{万元}}`) 关税税款）.
 
 
++ (1) 
 
-+ (1) 设 $A$ 型车的完税前价格为 $p$ 万元. 由 $2001" 年"$的关税税率为 $100\%$，且关税为 $32" 万元"$，得 $p=32$. 因而 $2006" 年"$的 $A$ 型车价格为 $32(1+25\%)=40$ 万元. 为使 $B$ 型车价格不高于该价格的 $90\%$，其 $2006" 年"$价格至多为 $40 times 90 \%=36$ 万元. 由 $2001" 年"$的 $46$ 万元降至至多 $36$ 万元，五年间至少下降 $46-36=10$ 万元. 因此平均每年至少下降 $(10)/(2006-2001)=2$ 万元.
-+ (2) 按每年至少下降 $2$ 万元计算，$2006" 年"$的 $B$ 型车价格至多为 $36$ 万元. 五年后存款本息为 $33(1+1.8\%)^(5)=33(1.018)^(5) approx 36 .08$ 万元，而 $36.08>36$. 所以五年到期时这笔钱一定够买按上述降价后的 $B$ 型车一辆.
+
+
+
++ (1)
 ]
 
 #problem(21)[
-已知点的序列 $A_n(x_n,0)$，$n in NN$，其中 $x_1=0$，$x_2=a$（$a<0$），$A_3$ 是线段 $A_(1) A_2$ 的中点，$A_4$ 是线段 $A_(2) A_3$ 的中点，$dots.c$，$A_n$ 是线段 $A_(n-2)A_(n-1)$ 的中点，$dots.c$.
-
-+ (1) 写出 $x_n$ 与 $x_(n-1)$，$x_(n-2)$ 之间的关系式（$n >= 3$）；
-+ (2) 设 $a_n=x_(n+1)-x_n$，计算 $a_1$，$a_2$，$a_3$，由此推测数列 $\{a_n\}$ 的通项公式，并加以证明；
-+ (3) 求 $lim_(n -> oo )x_n$.
+已知点的序列 #mi(`A_{n}(x_{n},0)`)，#mi(`n\in\mathbb{N}`)，其中 #mi(`x_{1}=0`)，#mi(`x_{2}=a`)（#mi(`a<0`)），#mi(`A_{3}`) 是线段 #mi(`A_{1}A_{2}`) 的中点，#mi(`A_{4}`) 是线段 #mi(`A_{2}A_{3}`) 的中点，#mi(`\cdots`)，#mi(`A_{n}`) 是线段 #mi(`A_{n-2}A_{n-1}`) 的中点，#mi(`\cdots`).
 
 
++ (1) 
++ (2) 
 
-+ (1) 因为 $A_n$ 是线段 $A_(n-2)A_(n-1)$ 的中点，所以 $x_n=(x_(n-2)+x_(n-1))/(2)$，即 $2 x_n=x_(n-1)+x_(n-2)$（$n >= 3$）.
-+ (2) 由 $x_1=0$，$x_2=a$，得 $x_3=(x_1+x_2)/(2)=(a)/(2)$，$x_4=(x_2+x_3)/(2)=(3 a)/(4)$. 因而 $a_1=x_2-x_1=a$，$a_2=x_3-x_2=-(a)/(2)$，$a_3=x_4-x_3=(a)/(4)$. 对任意 $n >= 1$，由递推关系有 $a_(n+1)=x_(n+2)-x_(n+1)=(x_n+x_(n+1))/(2)-x_(n+1)=-(1)/(2)a_n$. 所以 $\{a_n\}$ 是首项为 $a$、公比为 $-(1)/(2)$ 的等比数列，从而 $a_n=a(-(1)/(2))^(n-1)$.
-+ (3) 由 $x_n=x_1+sum_(k=1)^(n-1)a_k$，得 $x_n=a s u m_(k=0)^(n-2)(-(1)/(2))^k=(2 a)/(3)(1-(-(1)/(2))^(n-1))$. 因为 $(-(1)/(2))^(n-1) -> 0$，所以 $lim_(n -> oo )x_n=(2 a)/(3)$.
+
+
+
++ (1) 
++ (2)
 ]
 
 #problem(22)[
-已知某椭圆的焦点是 $F_1(-4,0)$，$F_2(4,0)$，过点 $F_2$，并垂直于 $x$ 轴的直线与椭圆的一个交点为 $B$，且 $| F_(1) B|+| F_(2) B|=10$. 椭圆上不同的两点 $A(x_1,y_1)$，$C(x_2,y_2)$ 满足条件：$| F_(2) A|$，$| F_(2) B|$，$| F_(2) C|$ 成等差数列.
-
-+ (1) 求该椭圆的方程；
-+ (2) 求弦 $A C$ 中点的横坐标；
-+ (3) 设弦 $A C$ 的垂直平分线的方程为 $y=k x+m$，求 $m$ 的取值范围.
+已知某椭圆的焦点是 #mi(`F_{1}(-4,0)`)，#mi(`F_{2}(4,0)`)，过点 #mi(`F_{2}`)，并垂直于 #mi(`x`) 轴的直线与椭圆的一个交点为 #mi(`B`)，且 #mi(`\lvert F_{1}B\rvert+\lvert F_{2}B\rvert=10`). 椭圆上不同的两点 #mi(`A(x_{1},y_{1})`)，#mi(`C(x_{2},y_{2})`) 满足条件：#mi(`\lvert F_{2}A\rvert`)，#mi(`\lvert F_{2}B\rvert`)，#mi(`\lvert F_{2}C\rvert`) 成等差数列.
 
 
++ (1) 
++ (2) 
 
-+ (1) 设椭圆的长半轴为 $a_(0)$，短半轴为 $b_(0)$，半焦距为 $c_(0)$. 由焦点坐标得 $c_(0)=4$. 又因为 $B$ 在椭圆上，故 $| F_(1)B|+| F_(2)B|=2 a_(0)=10$，从而 $a_(0)=5$，且 $b_(0)^(2)=a_(0)^(2)-c_(0)^(2)=25-16=9$. 所以椭圆方程为 $(x^(2))/(25)+(y^(2))/(9)=1$.
-+ (2) 对椭圆上任意点 $P(x,y)$，记 $r_(1)=| F_(1)P|$，$r_(2)=| F_(2)P|$. 由椭圆定义，$r_(1)+r_(2)=10$，又 $r_(1)^(2)-r_(2)^(2)=(x+4)^(2)+y^(2)-((x-4)^(2)+y^(2))=16 x$，所以 $r_(1)-r_(2)=(8)/(5)x$，从而 $| F_(2)P|=r_(2)=5-(4)/(5)x$. 由第（1）问，点 $B$ 的横坐标为 $4$，故 $| F_(2)B|=5-(4)/(5) times 4 =(9)/(5)$. 设 $M$ 为弦 $A C$ 的中点. 由三项成等差数列，$| F_(2)A|+| F_(2)C|=2| F_(2)B|=(18)/(5)$. 若 $M=(x_(M),y_(M))$，则 $x_(M)=(x_(A)+x_(C))/(2)=(1)/(2)[(5)/(4)(5-| F_(2)A|)+(5)/(4)(5-| F_(2)C|)]=4$. 所以弦 $A C$ 中点的横坐标为 $4$.
-+ (3) 记弦 $A C$ 的中点为 $M=(4,y_(M))$，并设 $A=(x_(A),y_(A))$，$C=(x_(C),y_(C))$. 由两点在椭圆上，作差得 $(x_(A)^(2)-x_(C)^(2))/(25)+(y_(A)^(2)-y_(C)^(2))/(9)=0$. 又 $x_(A)+x_(C)=8$，$y_(A)+y_(C)=2 y_(M)$，所以弦的方向向量 $(x_(A)-x_(C),y_(A)-y_(C))$ 满足 $(8)/(25)(x_(A)-x_(C))+(2 y_(M))/(9)(y_(A)-y_(C))=0$. 因而向量 $((8)/(25),(2 y_(M))/(9))$ 是弦的一个法向量，弦的垂直平分线斜率为 $k=((2(y_(M))/(9)))/(((8)/(25)))=(25 y_(M))/(36)$，这个推导也包含 $y_(M)=0$ 的情形. 该直线经过 $M$，故 $m=y_(M)-4 k=-(16)/(9)y_(M)$.
 
-又因为 $M$ 是椭圆内一个非边界点，且 $x_(M)=4$，所以 $(16)/(25)+(y_(M)^(2))/(9)<1$，即 $-(9)/(5)<y_(M)<(9)/(5)$. 反之，直线 $x=4$ 上任意满足此不等式的点均在椭圆内部，均可作为某条非退化弦的中点，故取值范围没有遗漏. 由 $m=-(16)/(9)y_(M)$，得 $-(16)/(5)<m<(16)/(5)$.
+
+
++ (1) 
++ (2)
 ]
 

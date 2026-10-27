@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -14,245 +14,209 @@
 化简，计算：
 
 
-+ (1) $(-2 m n)/(m-3 n)sqrt(((m+3 n)^2)/(2 m n))-6$（$0<m<3 n$）；
-+ (2) $((1)/(4))^(-1.5) dot [((7)/(11))^0]^(-3)-((3)/(5))^(-2)\div(2(7)/(9))^((1)/(2))$.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $0<m<3 n$ 可得 $n>(m)/(3)>0$，所以 $2 m n>0$，且 $m+3 n>0$. 因而 $sqrt(((m+3 n)^2)/(2 m n))=(m+3 n)/(sqrt(2 m n))$. 又因为 $m-3 n<0$，所以原式为
-
-$ (-2 m n)/(m-3 n)sqrt(((m+3 n)^2)/(2 m n))-6 =(2 m n)/(3 n-m) dot (m+3 n)/(sqrt(2 m n))-6 =((m+3 n)sqrt(2 m n))/(3 n-m)-6 $
-+ (2) 先将小数指数和带分数化为分数，得 $1.5=(3)/(2)$，$2(7)/(9)=(25)/(9)$. 由于 $((7)/(11))^0=1$，且 $sqrt((25)/(9))=(5)/(3)$，所以
-
-$ ((1)/(4))^(-1.5)[((7)/(11))^0]^(-3)-((3)/(5))^(-2)\div(2(7)/(9))^((1)/(2)) =4^((3)/(2)) dot 1 ""^(-3)-((5)/(3))^2\d i v s q r t((25)/(9))=8-(25)/(9)\div(5)/(3)=8-(25)/(9) dot (3)/(5)=(19)/(3) $
++ (1)
 ]
 
 #problem(2)[
 在实数范围内分解因式：
 
 
-+ (1) $a^4-10 a^2+16$；
-+ (2) $x^2-4 x y+4 y^2-3 x+6 y+2$.
++ (1)
 ]
 
 #solution[
-+ (1) 令 $u=a^2$，则
-
-$ a^4-10 a^2+16=u^2-10 u+16=(u-2)(u-8) $
-
-代回 $u=a^2$，并在实数范围内继续分解，得
-
-$ a^4-10 a^2+16=(a^2-2)(a^2-8) =(a-sqrt(2))(a+sqrt(2))(a-2 sqrt(2))(a+2 sqrt(2)) $
-+ (2) 将含有 $x$，$y$ 的项按 $x-2 y$ 重新组合，得
-
-$ x^2-4 x y+4 y^2-3 x+6 y+2 =(x-2 y)^2-3(x-2 y)+2 $
-
-令 $v=x-2 y$，则
-
-$ v^2-3 v+2=(v-1)(v-2) $
-
-代回 $v=x-2 y$，得
-
-$ x^2-4 x y+4 y^2-3 x+6 y+2=(x-2 y-1)(x-2 y-2) $
++ (1)
 ]
 
 #problem(3)[
-求 $x$：
+求 #mi(`x`)：
 
 
-+ (1) $(2 x+1)/(x-3)-(5 x-11)/(x^2-4 x+3)=(3)/(x-1)$.
-+ (2) $sqrt(2 x-4)-sqrt(x+5)=1$.
-+ (3) $log _(x-1)(2 x^2-3 x-1)=2$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 因为分母中出现 $x-3$ 和 $x^2-4 x+3$，且 $x^2-4 x+3=(x-1)(x-3)$，所以原方程的定义域为 $x != 1$，$3$. 在这个条件下，两边同乘 $(x-1)(x-3)$，得到
-
-$ (2 x+1)(x-1)-(5 x-11)=3(x-3) $
-
-展开并移项，得
-$2 x^2-6 x+10=3 x-9$，$2 x^2-9 x+19=0$.
-这个二次方程的判别式为 $Delta =(-9)^2-4 times 2 times 19 =81-152=-71<0$，所以它没有实数根，原方程无实数解.
-+ (2) 两个根式都有意义，首先要求 $2 x-4 >= 0$，即 $x >= 2$. 移项得 $sqrt(2 x-4)=1+sqrt(x+5)$. 两边非负，可以平方，得 $2 x-4=1+x+5+2 sqrt(x+5)$，即 $x-10=2 sqrt(x+5)$. 右端非负，所以还必须有 $x >= 10$. 在此条件下再次平方，得
-$(x-10)^2=4(x+5)$，$x^2-24 x+80=0$.
-解得 $x=4$ 或 $x=20$. 结合 $x >= 10$ 只保留 $x=20$，并检验 $sqrt(2 times 20 -4)-sqrt(20+5)=6-5=1$，因此原方程的解为 $x=20$.
-+ (3) 对数底数的条件为 $x-1>0$ 且 $x-1 != 1$，即 $x>1$ 且 $x != 2$. 真数还必须为正. 方程 $2 x^2-3 x-1=0$ 的根为 $x=(3\p m s q r t(17))/(4)$. 在 $x>1$ 的范围内，真数为正还要求 $x>\d f r a c{3+sqrt(17)}4$. 在这些定义域条件下，由对数定义，原方程等价于 $2 x^2-3 x-1=(x-1)^2$. 整理得 $x^2-x-2=0$，即 $(x-2)(x+1)=0$，所以候选值为 $x=2$，$-1$. 但 $x=2$ 时底数为 $1$，$x=-1$ 时底数为负数，二者均不在定义域内，因此原方程无实数解.
++ (1) 
++ (2)
 ]
 
 #problem(4)[
 求下列函数的定义域：
 
 
-+ (1) $y=(1)/(1-sqrt(x-1))$；
-+ (2) $y=\l g( tan x)$.
++ (1)
 ]
 
 #solution[
-+ (1) 根式有意义要求 $x-1 >= 0$，即 $x >= 1$. 同时分母不能为零，故 $1-sqrt(x-1) != 0$，这等价于 $sqrt(x-1) != 1$，即 $x != 2$. 因此定义域为 $x >= 1$ 且 $x != 2$，也可写为 $[1,2) union (2,+ oo )$.
-+ (2) $\l g$ 的真数必须为正，因此要求 $tan x>0$. 这个条件同时排除了正切函数无定义的点. 正切函数在每个周期内为正的区间是
-$(k pi ,k pi +(pi)/(2))$，$k in ZZ$.
-所以定义域为
-
-$ \b i g c u p_(k in ZZ )(k pi ,k pi +(pi)/(2)) $
++ (1)
 ]
 
 #problem(5)[
 不查表：
 
 
-+ (1) 求 $4^(1- log _2(2)/(5)+ log _2 sqrt(2))$.
-+ (2) 解三角形：已知 $triangle A B C$ 中，$angle B=120^ degree$，$angle C=15^ degree$，$b=100$，求 $c$（可用根式表示结果）.
-+ (3) 将直角坐标方程 $x^2-y^2=a^2$ 化成极坐标方程.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 由对数的商和幂的运算性质，$log _2(2)/(5)= log _2 2- log _2 5=1- log _2 5$，且 $log _2 sqrt(2)=(1)/(2)$. 因此原式的指数为
-
-$ 1- log _2(2)/(5)+ log _2 sqrt(2)=1-(1- log _2 5)+(1)/(2)=(1)/(2)+ log _2 5 $
-
-于是
-
-$ 4^(1- log _2(2)/(5)+ log _2 sqrt(2))=(2^2)^((1)/(2)+ log _2 5)=2^(1+2 log _2 5)=2 dot 5 ""^2=50 $
-+ (2) 由三角形内角和，$angle A=180^ degree -120^ degree -15^ degree =45^ degree$. 由正弦定理，$(c)/(sin 15 ""^ degree)=(b)/(sin 120 ""^ degree)$. 又因为
-
-$ sin 15 ""^ degree = sin (45^ degree -30^ degree )= sin 45 ""^ degree cos 30 ""^ degree - cos 45 ""^ degree sin 30 ""^ degree =(sqrt(6)-sqrt(2))/(4) $
-
-同时 $sin 120 ""^ degree = sin 60 ""^ degree =(sqrt(3))/(2)$，所以
-
-$ c=100 dot (sin 15 ""^ degree)/(sin 120 ""^ degree)=100 dot ((sqrt(6)-sqrt(2))/(4))/((sqrt(3))/(2))=(50(sqrt(6)-sqrt(2)))/(sqrt(3))=(50)/(3)(3 sqrt(2)-sqrt(6)) $
-+ (3) 设动点的极坐标为 $(r, theta )$，则 $x=r cos theta$，$y=r sin theta$. 代入 $x^2-y^2=a^2$，得 $r^2 cos ""^2 theta -r^2 sin ""^2 theta =a^2$. 利用 $cos ""^2 theta - sin ""^2 theta = cos 2 theta$，得到极坐标方程
-
-$ r^2 cos 2 theta =a^2 $
++ (1) 
++ (2)
 ]
 
 #problem(6)[
-$triangle A B C$ 的 $angle A$ 的平分线交 $B C$ 于 $D$，延长 $A D$ 交三角形的外接圆于 $E$，求证：$A B dot A C=A D dot A E$.
+#mi(`\triangle ABC`) 的 #mi(`\angle A`) 的平分线交 #mi(`BC`) 于 #mi(`D`)，延长 #mi(`AD`) 交三角形的外接圆于 #mi(`E`)，求证：#mi(`AB\cdot AC=AD\cdot AE`).
 ]
 
 #solution[
-设 $A B=m$，$A C=n$，$B D=p$，$D C=q$. 由于 $A D$ 是角平分线，角平分线定理给出 $(p)/(q)=(m)/(n)$，即 $n p=m q$.
-在三角形 $A B C$ 中对截线 $A D$ 使用斯特瓦特定理，得
+设 #mi(`AB=m`)，#mi(`AC=n`)，#mi(`BD=p`)，#mi(`DC=q`). 由于 #mi(`AD`) 是角平分线，角平分线定理给出 #mi(`\dfrac{p}{q}=\dfrac{m}{n}`)，即 #mi(`np=mq`).
 
-$ n^(2) p+m^(2) q=(p+q)(A D^2+p q) $
+在三角形 #mi(`ABC`) 中对截线 #mi(`AD`) 使用斯特瓦特定理，得
 
-由 $n p=m q$，斯特瓦特定理左端为
 
-$ n^(2) p+m^(2) q=n(n p)+m(m q)=m n q+m n p=m n(p+q) $
+#align(center)[#mitex(`
+n^{2}p+m^{2}q=\left(p+q\right)\left(AD^{2}+pq\right)
+`)]
 
-因此 $m n(p+q)=(p+q)(A D^2+p q)$. 因为 $p+q=B C>0$，约去 $p+q$，得到 $A D^2=m n-p q=A B dot A C-B D dot D C$. 又因为 $A$，$B$，$C$，$E$ 共圆，且弦 $A E$ 与弦 $B C$ 交于 $D$，由相交弦定理 $A D dot D E=B D dot D C$. 由题意，点的顺序为 $A$，$D$，$E$，所以 $A E=A D+D E$. 于是
 
-$ A B dot A C=A D^2+B D dot D C=A D^2+A D dot D E=A D(A D+D E)=A D dot A E $
+由 #mi(`np=mq`)，斯特瓦特定理左端为
 
-故 $A B dot A C=A D dot A E$.
+
+#align(center)[#mitex(`
+n^{2}p+m^{2}q=n(np)+m(mq)=mnq+mnp=mn\left(p+q\right)
+`)]
+
+
+因此 #mi(`mn\left(p+q\right)=\left(p+q\right)\left(AD^{2}+pq\right)`). 因为 #mi(`p+q=BC>0`)，约去 #mi(`p+q`)，得到 #mi(`AD^{2}=mn-pq=AB\cdot AC-BD\cdot DC`). 又因为 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`E`) 共圆，且弦 #mi(`AE`) 与弦 #mi(`BC`) 交于 #mi(`D`)，由相交弦定理 #mi(`AD\cdot DE=BD\cdot DC`). 由题意，点的顺序为 #mi(`A`)，#mi(`D`)，#mi(`E`)，所以 #mi(`AE=AD+DE`). 于是
+
+
+#align(center)[#mitex(`
+AB\cdot AC=AD^{2}+BD\cdot DC=AD^{2}+AD\cdot DE=AD\left(AD+DE\right)=AD\cdot AE
+`)]
+
+
+故 #mi(`AB\cdot AC=AD\cdot AE`).
 ]
 
 #problem(7)[
-已知正三棱锥 $P-A B C$ 的底面边长是 $6~c m$，侧面与底面所成的角是 $60^ degree$，求它的体积（结果可用根式表示）.
+已知正三棱锥 #mi(`P-ABC`) 的底面边长是 #mi(`6\mathrm{~cm}`)，侧面与底面所成的角是 #mi(`60^{\circ}`)，求它的体积（结果可用根式表示）.
 ]
 
 #solution[
-设正三角形 $A B C$ 的中心为 $O$，$P O$ 为棱锥的高，$M$ 为 $B C$ 的中点. 正三棱锥的高垂直于底面，且侧面三角形 $P B C$ 为等腰三角形，因此 $P O bot "平面 "A B C$，$P M bot B C$，$O M bot B C$.
-所以侧面 $P B C$ 与底面 $A B C$ 所成的二面角等于 $angle P M O=60^ degree$，且三角形 $P O M$ 在 $O$ 处为直角三角形.
+设正三角形 #mi(`ABC`) 的中心为 #mi(`O`)，#mi(`PO`) 为棱锥的高，#mi(`M`) 为 #mi(`BC`) 的中点. 正三棱锥的高垂直于底面，且侧面三角形 #mi(`PBC`) 为等腰三角形，因此 #mi(`PO\perp\text{\text{平面} }ABC`)，#mi(`PM\perp BC`)，#mi(`OM\perp BC`).
 
-正三角形边长为 $6~c m$，其中心到边的距离为内切圆半径，故 $O M=(6 sqrt(3))/(6)=sqrt(3)~c m$. 底面积为 $S_( triangle A B C)=(6^2 sqrt(3))/(4)=9 sqrt(3)~c m^2$. 在直角三角形 $P O M$ 中，$tan 60 ""^ degree =(P O)/(O M)$，所以 $P O=O M tan 60 ""^ degree =sqrt(3)\c d o t s q r t(3)=3~c m$.
+所以侧面 #mi(`PBC`) 与底面 #mi(`ABC`) 所成的二面角等于 #mi(`\angle PMO=60^{\circ}`)，且三角形 #mi(`POM`) 在 #mi(`O`) 处为直角三角形.
+
+正三角形边长为 #mi(`6\mathrm{~cm}`)，其中心到边的距离为内切圆半径，故 #mi(`OM=\dfrac{6\sqrt{3}}{6}=\sqrt{3}\mathrm{~cm}`). 底面积为 #mi(`S_{\triangle ABC}=\dfrac{6^2\sqrt{3}}{4}=9\sqrt{3}\mathrm{~cm}^{2}`). 在直角三角形 #mi(`POM`) 中，#mi(`\tan60^{\circ}=\dfrac{PO}{OM}`)，所以 #mi(`PO=OM\tan60^{\circ}=\sqrt{3}\cdot\sqrt{3}=3\mathrm{~cm}`).
+
 因此棱锥体积为
 
-$ V=(1)/(3)S_( triangle A B C) dot P O=(1)/(3) dot 9 sqrt(3) dot 3 =9 sqrt(3)~c m^3 $
+
+#align(center)[#mitex(`
+V=\dfrac{1}{3}S_{\triangle ABC}\cdot PO=\dfrac{1}{3}\cdot9\sqrt{3}\cdot3=9\sqrt{3}\mathrm{~cm}^{3}
+`)]
 ]
 
 #problem(8)[
-已知 $a$，$b$，$c$ 为三角形的三条边，求证：$b^(2) x^2+(b^2+c^2-a^2)x+c^2=0$ 无实数根.
+已知 #mi(`a`)，#mi(`b`)，#mi(`c`) 为三角形的三条边，求证：#mi(`b^{2}x^{2}+\left(b^{2}+c^{2}-a^{2}\right)x+c^{2}=0`) 无实数根.
 ]
 
 #solution[
-因为 $a$，$b$，$c$ 是三角形的三条边，所以满足严格三角不等式 $|b-c|<a<b+c$. 三边均为正数，平方后得到
+因为 #mi(`a`)，#mi(`b`)，#mi(`c`) 是三角形的三条边，所以满足严格三角不等式 #mi(`\left|b-c\right|<a<b+c`). 三边均为正数，平方后得到
 
-$ (b-c)^2<a^2<(b+c)^2 $
 
-将两端展开并移项，得 $-2 b c<b^2+c^2-a^2<2 b c$. 由于 $b$，$c>0$，上式说明 $|b^2+c^2-a^2|<2 b c$，从而
+#align(center)[#mitex(`
+\left(b-c\right)^{2}<a^{2}<\left(b+c\right)^{2}
+`)]
 
-$ (b^2+c^2-a^2)^2<4 b^(2) c^2 $
 
-原方程的二次项系数为 $b^2>0$，其判别式为 $Delta =(b^2+c^2-a^2)^2-4 b^(2) c^2<0$.
+将两端展开并移项，得 #mi(`-2bc<b^{2}+c^{2}-a^{2}<2bc`). 由于 #mi(`b`)，#mi(`c>0`)，上式说明 #mi(`\left|b^{2}+c^{2}-a^{2}\right|<2bc`)，从而
+
+
+#align(center)[#mitex(`
+\left(b^{2}+c^{2}-a^{2}\right)^{2}<4b^{2}c^{2}
+`)]
+
+
+原方程的二次项系数为 #mi(`b^{2}>0`)，其判别式为 #mi(`\Delta=\left(b^{2}+c^{2}-a^{2}\right)^{2}-4b^{2}c^{2}<0`).
+
 因此原方程无实数根.
 ]
 
 #problem(9)[
-方程 $x^2-( tan theta + cot theta )x+1=0$ 有一根为 $2+sqrt(3)$，求 $sin 2 theta$.
+方程 #mi(`x^{2}-\left(\tan\theta+\cot\theta\right)x+1=0`) 有一根为 #mi(`2+\sqrt{3}`)，求 #mi(`\sin 2\theta`).
 ]
 
 #solution[
-设方程的另一根为 $x_2$. 由韦达定理，两根之积为 $1$，所以 $(2+sqrt(3))x_2=1$，即 $x_2=(1)/(2+sqrt(3))=2-sqrt(3)$. 再由两根之和，得到 $tan theta + cot theta =(2+sqrt(3))+(2-sqrt(3))=4$. 因为题目中的 $tan theta$ 和 $cot theta$ 均有意义，所以 $sin theta cos theta != 0$. 因而
+设方程的另一根为 #mi(`x_{2}`). 由韦达定理，两根之积为 #mi(`1`)，所以 #mi(`\left(2+\sqrt{3}\right)x_{2}=1`)，即 #mi(`x_{2}=\dfrac{1}{2+\sqrt{3}}=2-\sqrt{3}`). 再由两根之和，得到 #mi(`\tan\theta+\cot\theta=\left(2+\sqrt{3}\right)+\left(2-\sqrt{3}\right)=4`). 因为题目中的 #mi(`\tan\theta`) 和 #mi(`\cot\theta`) 均有意义，所以 #mi(`\sin\theta\cos\theta\ne0`). 因而
 
-$ tan theta + cot theta =(sin ""^2 theta + cos ""^2 theta)/(sin theta cos theta)=(1)/(sin theta cos theta)=(2)/(sin 2 theta) $
 
-所以 $(2)/(sin 2 theta)=4$，从而 $sin 2 theta =(1)/(2)$.
+#align(center)[#mitex(`
+\tan\theta+\cot\theta=\dfrac{\sin^2\theta+\cos^2\theta}{\sin\theta\cos\theta}=\dfrac{1}{\sin\theta\cos\theta}=\dfrac{2}{\sin2\theta}
+`)]
+
+
+所以 #mi(`\dfrac{2}{\sin2\theta}=4`)，从而 #mi(`\sin2\theta=\dfrac{1}{2}`).
 ]
 
 #problem(10)[
-汽车与自行车分别从相距 $75~k m$ 的 $A$，$B$ 两地同时出发（$A$ 地在 $B$ 地的正东方向），汽车从 $A$ 地向正西方向行驶，自行车从 $B$ 地向正南方向行驶，已知汽车和自行车的速度分别为 $30~k m/h$ 和 $15~k m/h$，问出发后多少小时两车相距最短？
+汽车与自行车分别从相距 #mi(`75\mathrm{~km}`) 的 #mi(`A`)，#mi(`B`) 两地同时出发（#mi(`A`) 地在 #mi(`B`) 地的正东方向），汽车从 #mi(`A`) 地向正西方向行驶，自行车从 #mi(`B`) 地向正南方向行驶，已知汽车和自行车的速度分别为 #mi(`30\mathrm{~km/h}`) 和 #mi(`15\mathrm{~km/h}`)，问出发后多少小时两车相距最短？
 ]
 
 #solution[
-取 $B$ 为坐标原点，正东方向为 $x$ 轴正向，正北方向为 $y$ 轴正向，则 $A=(75,0)$. 设出发 $t~h$ 后两车的位置分别为 $C$、$D$，其中 $t >= 0$. 由速度和方向，汽车位置为 $C=(75-30 t,0)$，自行车位置为 $D=(0,-15 t)$. 所以两车距离的平方为
+取 #mi(`B`) 为坐标原点，正东方向为 #mi(`x`) 轴正向，正北方向为 #mi(`y`) 轴正向，则 #mi(`A=\left(75,0\right)`). 设出发 #mi(`t\mathrm{~h}`) 后两车的位置分别为 #mi(`C`)、#mi(`D`)，其中 #mi(`t\geqslant0`). 由速度和方向，汽车位置为 #mi(`C=\left(75-30t,0\right)`)，自行车位置为 #mi(`D=\left(0,-15t\right)`). 所以两车距离的平方为
 
-$ C D^2=(75-30 t)^2+(15 t)^2 =1125 t^2-4500 t+5625 =1125(t-2)^2+1125 $
 
-距离本身非负，而平方距离在 $t >= 0$ 上于 $t=2$ 时取得最小值，因此出发后 $2~h$ 两车相距最短.
+#align(center)[#mitex(`
+CD^{2}=\left(75-30t\right)^{2}+\left(15t\right)^{2}  =1125t^{2}-4500t+5625  =1125\left(t-2\right)^{2}+1125
+`)]
+
+
+距离本身非负，而平方距离在 #mi(`t\geqslant0`) 上于 #mi(`t=2`) 时取得最小值，因此出发后 #mi(`2\mathrm{~h}`) 两车相距最短.
 ]
 
 #problem(11)[
-已知等差数列有 $10$ 项，偶数项之和为 $55$，奇数项之和为 $45$，求此数列的第五项.
+已知等差数列有 #mi(`10`) 项，偶数项之和为 #mi(`55`)，奇数项之和为 #mi(`45`)，求此数列的第五项.
 ]
 
 #solution[
-设等差数列的首项为 $a_1$，公差为 $d$. 其第 $k$ 项为 $a_k=a_1+(k-1)d$. 因而奇数项之和为
+设等差数列的首项为 #mi(`a_{1}`)，公差为 #mi(`d`). 其第 #mi(`k`) 项为 #mi(`a_{k}=a_{1}+(k-1)d`). 因而奇数项之和为
 
-$ a_1+a_3+a_5+a_7+a_9=5 a_1+(0+2+4+6+8)d=5 a_1+20 d=45 $
+
+#align(center)[#mitex(`
+a_{1}+a_{3}+a_{5}+a_{7}+a_{9}=5a_{1}+\left(0+2+4+6+8\right)d=5a_{1}+20d=45
+`)]
+
 
 偶数项之和为
 
-$ a_2+a_4+a_6+a_8+a_(10)=5 a_1+(1+3+5+7+9)d=5 a_1+25 d=55 $
 
-两式相减，得 $5 d=10$，所以 $d=2$. 代入奇数项之和，得 $5 a_1+40=45$，从而 $a_1=1$. 因此 $a_5=a_1+4 d=1+4 times 2 =9$.
+#align(center)[#mitex(`
+a_{2}+a_{4}+a_{6}+a_{8}+a_{10}=5a_{1}+\left(1+3+5+7+9\right)d=5a_{1}+25d=55
+`)]
+
+
+两式相减，得 #mi(`5d=10`)，所以 #mi(`d=2`). 代入奇数项之和，得 #mi(`5a_{1}+40=45`)，从而 #mi(`a_{1}=1`). 因此 #mi(`a_{5}=a_{1}+4d=1+4\times2=9`).
 ]
 
 #problem(12)[
-一动点到直线 $x=8$ 的距离是它到点 $A(2,0)$ 的距离的 $2$ 倍.
+一动点到直线 #mi(`x=8`) 的距离是它到点 #mi(`A\left(2,0\right)`) 的距离的 #mi(`2`) 倍.
 
 
-+ (1) 求这动点的轨迹方程；
-+ (2) 判断这轨迹是何曲线；
-+ (3) 求经过这曲线上一点 $B(2,3)$ 的切线方程.
++ (1) 
++ (2)
 ]
 
 #solution[
-设动点为 $P(x,y)$.
+设动点为 #mi(`P\left(x,y\right)`).
 
-+ (1) 点 $P$ 到直线 $x=8$ 的距离为 $|x-8|$，到点 $A(2,0)$ 的距离为 $sqrt((x-2)^2+y^2)$. 因此
 
-$ |x-8|=2 sqrt((x-2)^2+y^2) $
-
-两边均非负，平方是等价变形，不引入增根，得
-
-$ (x-8)^2=4((x-2)^2+y^2) $
-
-展开化简：
-$x^2-16 x+64=4 x^2-16 x+16+4 y^2$，$3 x^2+4 y^2=48$.
-所以轨迹方程为
-
-$ (x^2)/(16)+(y^2)/(12)=1 $
-+ (2) 将轨迹方程写成标准形式
-
-$ (x^2)/(4^2)+(y^2)/((2 sqrt(3))^2)=1 $
-
-所以这条轨迹是以原点为中心、长轴在 $x$ 轴上的椭圆，半长轴为 $4$，半短轴为 $2 sqrt(3)$.
-+ (3) 先检验给定点：
-
-$ (2^2)/(16)+(3^2)/(12)=(1)/(4)+(3)/(4)=1 $
-
-故 $B(2,3)$ 在椭圆上. 对等价方程 $3 x^2+4 y^2=48$ 隐式求导，得 $6 x+8 y y'=0$. 在 $B(2,3)$ 处，$y'=-(6 times 2)/(8 times 3)=-(1)/(2)$.
-因此切线方程为
-$y-3=-(1)/(2)(x-2)$，$x+2 y=8$.
++ (1) 
++ (2)
 ]
 

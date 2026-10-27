@@ -91,7 +91,9 @@
 
 #mi(`a\ge 2`).
 
-[max width=0.42\linewidth]img/2023/new_gaokao_paper_1/q4_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q4_solution_fig1.png", width: 28%)]
+ 
 
 故选 D.
 ]
@@ -155,7 +157,9 @@
 `)]
 
 
-[max width=0.42\linewidth]img/2023/new_gaokao_paper_1/q6_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q6_solution_fig1.png", width: 28%)]
+ 
 
 故选 B.
 ]
@@ -371,7 +375,9 @@ D 项，注意到圆柱的高很小，不妨将圆柱近似看成圆，故先分
 
 所以可以想象，底面直径为 #mi(`1.2\text{m}`)，高为 #mi(`0.01\text{m}`) 的圆柱体能够放进正方体容器，故 D 项正确.
 
-[max width=0.62\linewidth]img/2023/new_gaokao_paper_1/q12_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q12_solution_fig1.png", width: 28%)]
+ 
 
 故选 ABD.
 ]
@@ -431,7 +437,9 @@ h=A_{1}E=\sqrt{AA_{1}^{2}-AE^{2}}=\sqrt{2-\frac{1}{2}}=\sqrt{\frac{3}{2}}=\frac{
 `)]
 
 
-[max width=0.5\linewidth]img/2023/new_gaokao_paper_1/q14_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q14_solution_fig1.png", width: 28%)]
+ 
 
 又上，下底面积分别为
 
@@ -461,7 +469,9 @@ h=A_{1}E=\sqrt{AA_{1}^{2}-AE^{2}}=\sqrt{2-\frac{1}{2}}=\sqrt{\frac{3}{2}}=\frac{
 
 #mi(`2\le \omega<3`).
 
-[max width=0.6\linewidth]img/2023/new_gaokao_paper_1/q15_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q15_solution_fig1.png", width: 28%)]
+
 ]
 
 #problem(16)[
@@ -509,7 +519,9 @@ h=A_{1}E=\sqrt{AA_{1}^{2}-AE^{2}}=\sqrt{2-\frac{1}{2}}=\sqrt{\frac{3}{2}}=\frac{
 
 #mi(`\frac{c}{a}=\frac{3\sqrt{5}}{5}`).
 
-[max width=0.5\linewidth]img/2023/new_gaokao_paper_1/q16_solution_fig1.png
+ 
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q16_solution_fig1.png", width: 28%)]
+
 ]
 
 #part-header("解答题")
@@ -533,7 +545,9 @@ h=A_{1}E=\sqrt{AA_{1}^{2}-AE^{2}}=\sqrt{2-\frac{1}{2}}=\sqrt{\frac{3}{2}}=\frac{
 
 
 
-[max width=0.42\linewidth]img/2023/new_gaokao_paper_1/q18_fig1.png
+
+#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[

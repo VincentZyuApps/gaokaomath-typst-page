@@ -112,7 +112,9 @@
 #problem(10)[
 执行如图所示的程序框图，则输出的 #mi(`S`) 值是（ ）
 
-[max width=0.78\linewidth]img/2012/liaoning_liberal/q10_fig1.png
+
+#align(center)[#image("/papers/2012/img/liaoning_liberal/q10_fig1.png", width: 28%)]
+
   #choices([#mi(`4`)], [#mi(`\frac{3}{2}`)], [#mi(`\frac{2}{3}`)], [#mi(`-1`)], cols: 2)
 ]
 
@@ -149,7 +151,9 @@
 #problem(13)[
 一个几何体的三视图如图所示，则该几何体的体积为\underline{\hspace{2.5em}}.
 
-[max width=0.92\linewidth]img/2012/liaoning_liberal/q13_fig1.png
+
+#align(center)[#image("/papers/2012/img/liaoning_liberal/q13_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`12 + \pi`)])
@@ -217,7 +221,9 @@
 
 
 
-[max width=0.62\linewidth]img/2012/liaoning_liberal/q18_fig1.png
+
+#align(center)[#image("/papers/2012/img/liaoning_liberal/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -242,7 +248,9 @@
 
 #mi(`k`) & #mi(`3.841`) & #mi(`6.635`)
 
-[width=0.5\linewidth]img/2012/liaoning_liberal/q19_fig2.png
+
+#align(center)[#image("/papers/2012/img/liaoning_liberal/q19_fig2.png", width: 28%)]
+
 ]
 
 #solution[
@@ -257,7 +265,9 @@
 
 
 
-[max width=0.72\linewidth]img/2012/liaoning_liberal/q20_fig1.png
+
+#align(center)[#image("/papers/2012/img/liaoning_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -285,7 +295,9 @@
 
 
 
-[max width=0.46\linewidth]img/2012/liaoning_liberal/q22_fig1_rgb.png
+
+#align(center)[#image("/papers/2012/img/liaoning_liberal/q22_fig1_rgb.png", width: 28%)]
+
 ]
 
 #solution[

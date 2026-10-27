@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,278 +11,390 @@
 #part-header("填空题")
 
 #problem(1)[
-计算：$lim_(n -> oo )(3 n-2)/(4 n+3)=$#blank(){}.
+计算：#mi(`\displaystyle\lim_{n\to\infty}\dfrac{3n-2}{4n+3}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3)/(4)$])
+#answer([#mi(`\dfrac{3}{4}`)])
 
 #solution[
-将分子、分母同除以 $n$，得
+将分子、分母同除以 #mi(`n`)，得
 
-$ (3 n-2)/(4 n+3)=(3-(2)/(n))/(4+(3)/(n)) $
 
-当 $n -> oo$ 时，$(2)/(n) -> 0$，$(3)/(n) -> 0$，所以
+#align(center)[#mitex(`
+\frac{3n-2}{4n+3}=\frac{3-\frac{2}{n}}{4+\frac{3}{n}}
+`)]
 
-$ lim_(n -> oo )(3 n-2)/(4 n+3)=(3)/(4) $
 
-因此填 $(3)/(4)$.
+当 #mi(`n\to\infty`) 时，#mi(`\frac{2}{n}\to0`)，#mi(`\frac{3}{n}\to0`)，所以
+
+
+#align(center)[#mitex(`
+\lim_{n\to\infty}\frac{3n-2}{4n+3}=\frac{3}{4}
+`)]
+
+
+因此填 #mi(`\dfrac{3}{4}`).
 ]
 
 #problem(2)[
-方程 $log _3(2 x-1)=1$ 的解 $x=$#blank(){}.
+方程 #mi(`\log_{3}(2x-1)=1`) 的解 #mi(`x=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-由对数的真数必须为正，得 $2 x-1>0$. 由方程
+由对数的真数必须为正，得 #mi(`2x-1>0`). 由方程
 
-$ log _3(2 x-1)=1 $
 
-可得 $2 x-1=3^1=3$，从而 $x=2$. 由于 $2>(1)/(2)$，满足定义域条件，因此方程的解为 $2$.
+#align(center)[#mitex(`
+\log_{3}(2x-1)=1
+`)]
+
+
+可得 #mi(`2x-1=3^{1}=3`)，从而 #mi(`x=2`). 由于 #mi(`2>\frac{1}{2}`)，满足定义域条件，因此方程的解为 #mi(`2`).
 ]
 
 #problem(3)[
-函数 $f(x)=3 x+5$（$x in [0,1]$）的反函数 $f^(-1)(x)=$#blank(){}.
+函数 #mi(`f(x)=3x+5`)（#mi(`x\in[0,1]`)）的反函数 #mi(`f^{-1}(x)=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(1)/(3)(x-5)\)，\(x in [5,8]$])
+#answer([#mi(`\dfrac{1}{3}(x-5)`)，#mi(`x\in[5,8]`)])
 
 #solution[
-设 $y=3 x+5$，且 $0 <= x <= 1$. 因为一次函数 $3 x+5$ 在 $[0,1]$ 上递增，所以其值域为 $[5,8]$. 由 $y=3 x+5$ 解得
+设 #mi(`y=3x+5`)，且 #mi(`0\le x\le1`). 因为一次函数 #mi(`3x+5`) 在 #mi(`[0,1]`) 上递增，所以其值域为 #mi(`[5,8]`). 由 #mi(`y=3x+5`) 解得
 
-$ x=(y-5)/(3) $
+
+#align(center)[#mitex(`
+x=\frac{y-5}{3}
+`)]
+
 
 交换自变量和因变量，得到反函数
-$f^(-1)(x)=(x-5)/(3)$，$x in [5,8]$.
+
+#mi(`f^{-1}(x)=\frac{x-5}{3}`)，#mi(`x\in[5,8]`).
 ]
 
 #problem(4)[
-不等式 $(1-2 x)/(x+1)>0$ 的解集是#blank(){}.
+不等式 #mi(`\dfrac{1-2x}{x+1}>0`) 的解集是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(-1,(1)/(2))$])
+#answer([#mi(`\left(-1,\dfrac{1}{2}\right)`)])
 
 #solution[
-分式的分子、分母分别在 $x=(1)/(2)$、$x=-1$ 处为零或无意义. 当 $x<-1$ 时，分子为正、分母为负，分式为负；当 $-1<x<(1)/(2)$ 时，分子、分母均为正，分式为正；当 $x>(1)/(2)$ 时，分子为负、分母为正，分式为负.
-由于不等式要求分式大于零，且 $x=-1$ 不在定义域内、$x=(1)/(2)$ 使分式等于零，故解集为 $(-1,(1)/(2))$.
+分式的分子、分母分别在 #mi(`x=\frac{1}{2}`)、#mi(`x=-1`) 处为零或无意义. 当 #mi(`x<-1`) 时，分子为正、分母为负，分式为负；当 #mi(`-1<x<\frac{1}{2}`) 时，分子、分母均为正，分式为正；当 #mi(`x>\frac{1}{2}`) 时，分子为负、分母为正，分式为负.
+
+由于不等式要求分式大于零，且 #mi(`x=-1`) 不在定义域内、#mi(`x=\frac{1}{2}`) 使分式等于零，故解集为 #mi(`\left(-1,\frac{1}{2}\right)`).
 ]
 
 #problem(5)[
-已知圆 $C:(x+5)^2+y^2=r^2$（$r>0$）和直线 $l:3 x+y+5=0$. 若圆 $C$ 与直线 $l$ 没有公共点，则 $r$ 的取值范围是#blank(){}.
+已知圆 #mi(`C:(x+5)^{2}+y^{2}=r^{2}`)（#mi(`r>0`)）和直线 #mi(`l:3x+y+5=0`). 若圆 #mi(`C`) 与直线 #mi(`l`) 没有公共点，则 #mi(`r`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(0,sqrt(10))$])
+#answer([#mi(`(0,\sqrt{10})`)])
 
 #solution[
-圆心为 $C_0(-5,0)$. 圆心到直线 $l:3 x+y+5=0$ 的距离为
+圆心为 #mi(`C_{0}(-5,0)`). 圆心到直线 #mi(`l:3x+y+5=0`) 的距离为
 
-$ d=(|3(-5)+0+5|)/(sqrt(3^2+1^2))=(10)/(sqrt(10))=sqrt(10) $
 
-圆与直线没有公共点，当且仅当圆心到直线的距离大于半径，即 $r<sqrt(10)$. 又已知 $r>0$，所以
+#align(center)[#mitex(`
+d=\frac{|3(-5)+0+5|}{\sqrt{3^{2}+1^{2}}}=\frac{10}{\sqrt{10}}=\sqrt{10}
+`)]
 
-$ 0<r<sqrt(10) $
+
+圆与直线没有公共点，当且仅当圆心到直线的距离大于半径，即 #mi(`r<\sqrt{10}`). 又已知 #mi(`r>0`)，所以
+
+
+#align(center)[#mitex(`
+0<r<\sqrt{10}
+`)]
 ]
 
 #problem(6)[
-已知函数 $f(x)$ 是定义在 $(- oo ,+ oo )$ 上的偶函数. 当 $x in (- oo ,0)$ 时，$f(x)=x-x^4$，则当 $x in (0,+ oo )$ 时，$f(x)=$#blank(){}.
+已知函数 #mi(`f(x)`) 是定义在 #mi(`(-\infty,+\infty)`) 上的偶函数. 当 #mi(`x\in(-\infty,0)`) 时，#mi(`f(x)=x-x^{4}`)，则当 #mi(`x\in(0,+\infty)`) 时，#mi(`f(x)=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-x-x^4$])
+#answer([#mi(`-x-x^{4}`)])
 
 #solution[
-当 $x>0$ 时，$-x<0$. 由偶函数的定义，$f(x)=f(-x)$. 将 $-x$ 代入已知的负半轴解析式，得
+当 #mi(`x>0`) 时，#mi(`-x<0`). 由偶函数的定义，#mi(`f(x)=f(-x)`). 将 #mi(`-x`) 代入已知的负半轴解析式，得
 
-$ f(x)=f(-x)=(-x)-(-x)^4=-x-x^4 $
 
-因此当 $x in (0,+ oo )$ 时，$f(x)=-x-x^4$.
+#align(center)[#mitex(`
+f(x)=f(-x)=(-x)-(-x)^{4}=-x-x^{4}
+`)]
+
+
+因此当 #mi(`x\in(0,+\infty)`) 时，#mi(`f(x)=-x-x^{4}`).
 ]
 
 #problem(7)[
-电视台连续播放 $6$ 个广告，其中含 $4$ 个不同的商业广告和 $2$ 个不同的公益广告，要求首尾必须播放公益广告，则共有#blank(){} 种不同的播放方式（结果用数值表示）.
+电视台连续播放 #mi(`6`) 个广告，其中含 #mi(`4`) 个不同的商业广告和 #mi(`2`) 个不同的公益广告，要求首尾必须播放公益广告，则共有\underline{\hspace{2.5em}} 种不同的播放方式（结果用数值表示）.
 ]
 
-#answer([$48$])
+#answer([#mi(`48`)])
 
 #solution[
-首、尾位置必须放置两个不同的公益广告，两个公益广告在首尾的排列方式有 $2!$ 种. 中间四个位置放置四个不同的商业广告，排列方式有 $4!$ 种. 因此播放方式共有
+首、尾位置必须放置两个不同的公益广告，两个公益广告在首尾的排列方式有 #mi(`2!`) 种. 中间四个位置放置四个不同的商业广告，排列方式有 #mi(`4!`) 种. 因此播放方式共有
 
-$ 2! dot 4 !=2 dot 24 =48 $
+
+#align(center)[#mitex(`
+2!\cdot4!=2\cdot24=48
+`)]
+
 
 种.
 ]
 
 #problem(8)[
-正四棱锥底面边长为 $4$，侧棱长为 $3$，则其体积为#blank(){}.
+正四棱锥底面边长为 #mi(`4`)，侧棱长为 #mi(`3`)，则其体积为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(16)/(3)$])
+#answer([#mi(`\dfrac{16}{3}`)])
 
 #solution[
-设正四棱锥的顶点为 $S$，底面中心为 $O$，底面正方形的一个顶点为 $A$. 由于是正四棱锥，$S O bot$ 底面，且
+设正四棱锥的顶点为 #mi(`S`)，底面中心为 #mi(`O`)，底面正方形的一个顶点为 #mi(`A`). 由于是正四棱锥，#mi(`SO\perp`) 底面，且
 
-$ O A=(4 sqrt(2))/(2)=2 sqrt(2) $
 
-在直角三角形 $S O A$ 中，侧棱 $S A=3$，所以
+#align(center)[#mitex(`
+OA=\frac{4\sqrt{2}}{2}=2\sqrt{2}
+`)]
 
-$ S O=sqrt(S A^2-O A^2)=sqrt(3^2-(2 sqrt(2))^2)=1 $
 
-底面积为 $4^2=16$，故体积为
+在直角三角形 #mi(`SOA`) 中，侧棱 #mi(`SA=3`)，所以
 
-$ V=(1)/(3) dot 16 dot 1 =(16)/(3) $
+
+#align(center)[#mitex(`
+SO=\sqrt{SA^{2}-OA^{2}}=\sqrt{3^{2}-(2\sqrt{2})^{2}}=1
+`)]
+
+
+底面积为 #mi(`4^{2}=16`)，故体积为
+
+
+#align(center)[#mitex(`
+V=\frac{1}{3}\cdot16\cdot1=\frac{16}{3}
+`)]
 ]
 
 #problem(9)[
-在 $triangle A B C$ 中，已知 $B C=8$，$A C=5$，三角形面积为 $12$，则 $cos 2 C=$#blank(){}.
+在 #mi(`\triangle ABC`) 中，已知 #mi(`BC=8`)，#mi(`AC=5`)，三角形面积为 #mi(`12`)，则 #mi(`\cos2C=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(7)/(25)$])
+#answer([#mi(`\dfrac{7}{25}`)])
 
 #solution[
 由三角形面积公式
 
-$ 12=(1)/(2) dot A C dot B C dot sin C =(1)/(2) dot 5 dot 8 dot sin C $
 
-得 $sin C=(3)/(5)$. 因为 $C$ 是三角形内角，虽不能仅由正弦值确定 $cos C$ 的正负，但有
+#align(center)[#mitex(`
+12=\frac{1}{2}\cdot AC\cdot BC\cdot\sin C  =\frac{1}{2}\cdot5\cdot8\cdot\sin C
+`)]
 
-$ cos ""^(2) C=1- sin ""^(2) C=1-(9)/(25)=(16)/(25) $
+
+得 #mi(`\sin C=\frac{3}{5}`). 因为 #mi(`C`) 是三角形内角，虽不能仅由正弦值确定 #mi(`\cos C`) 的正负，但有
+
+
+#align(center)[#mitex(`
+\cos^{2}C=1-\sin^{2}C=1-\frac{9}{25}=\frac{16}{25}
+`)]
+
 
 于是
 
-$ cos 2 C=2 cos ""^(2) C-1=2 dot (16)/(25)-1=(7)/(25) $
+
+#align(center)[#mitex(`
+\cos2C=2\cos^{2}C-1=2\cdot\frac{16}{25}-1=\frac{7}{25}
+`)]
 ]
 
 #problem(10)[
-若向量 $bold(a)$，$bold(b)$ 的夹角为 $150^ degree$，$|bold(a)|=sqrt(3)$，$|bold(b)|=4$，则 $|2 bold(a)+bold(b)|=$#blank(){}.
+若向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 的夹角为 #mi(`150^{\circ}`)，#mi(`|\mathbf{a}|=\sqrt{3}`)，#mi(`|\mathbf{b}|=4`)，则 #mi(`|2\mathbf{a}+\mathbf{b}|=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
 由向量夹角公式，
 
-$ bold(a)\c d o t b o l d(b)=|bold(a)| |bold(b)| cos 150 ""^ degree =sqrt(3) dot 4 dot (-(sqrt(3))/(2))=-6 $
+
+#align(center)[#mitex(`
+\mathbf{a}\cdot\mathbf{b}=|\mathbf{a}|\,|\mathbf{b}|\cos150^{\circ}  =\sqrt{3}\cdot4\cdot\left(-\frac{\sqrt{3}}{2}\right)=-6
+`)]
+
 
 因此
 
-$ |2 bold(a)+bold(b)|^2=4|bold(a)|^2+4 bold(a)\c d o t b o l d(b)+|bold(b)|^2=4 dot 3 +4(-6)+16=4 $
 
-由于向量的模非负，得 $|2 bold(a)+bold(b)|=2$.
+#align(center)[#mitex(`
+|2\mathbf{a}+\mathbf{b}|^{2}=4|\mathbf{a}|^{2}+4\mathbf{a}\cdot\mathbf{b}+|\mathbf{b}|^{2}=4\cdot3+4(-6)+16=4
+`)]
+
+
+由于向量的模非负，得 #mi(`|2\mathbf{a}+\mathbf{b}|=2`).
 ]
 
 #problem(11)[
-已知直线 $l$ 过点 $P(2,1)$，且与 $x$ 轴，$y$ 轴的正半轴分别交于 $A$，$B$ 两点，$O$ 为坐标原点，则三角形 $O A B$ 面积的最小值为#blank(){}.
+已知直线 #mi(`l`) 过点 #mi(`P(2,1)`)，且与 #mi(`x`) 轴，#mi(`y`) 轴的正半轴分别交于 #mi(`A`)，#mi(`B`) 两点，#mi(`O`) 为坐标原点，则三角形 #mi(`OAB`) 面积的最小值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$4$])
+#answer([#mi(`4`)])
 
 #solution[
-设直线与正半轴的交点为 $A(a,0)$、$B(0,b)$，其中 $a>0$、$b>0$. 直线方程为
+设直线与正半轴的交点为 #mi(`A(a,0)`)、#mi(`B(0,b)`)，其中 #mi(`a>0`)、#mi(`b>0`). 直线方程为
 
-$ (x)/(a)+(y)/(b)=1 $
 
-点 $P(2,1)$ 在直线上，所以
+#align(center)[#mitex(`
+\frac{x}{a}+\frac{y}{b}=1
+`)]
 
-$ (2)/(a)+(1)/(b)=1 $
 
-令 $u=(2)/(a)$、$v=(1)/(b)$，则 $u>0$、$v>0$、$u+v=1$. 三角形面积为
+点 #mi(`P(2,1)`) 在直线上，所以
 
-$ S_( triangle O A B)=(1)/(2)a b=(1)/(2) dot (2)/(u) dot (1)/(v)=(1)/(u v) $
 
-由 $u+v=1$ 及均值不等式，$u v <= ((u+v)/(2))^2=(1)/(4)$，故
+#align(center)[#mitex(`
+\frac{2}{a}+\frac{1}{b}=1
+`)]
 
-$ S_( triangle O A B) >= 4 $
 
-当且仅当 $u=v=(1)/(2)$，即 $a=4$、$b=2$ 时取等号. 所以面积的最小值为 $4$.
+令 #mi(`u=\frac{2}{a}`)、#mi(`v=\frac{1}{b}`)，则 #mi(`u>0`)、#mi(`v>0`)、#mi(`u+v=1`). 三角形面积为
+
+
+#align(center)[#mitex(`
+S_{\triangle OAB}=\frac{1}{2}ab=\frac{1}{2}\cdot\frac{2}{u}\cdot\frac{1}{v}=\frac{1}{uv}
+`)]
+
+
+由 #mi(`u+v=1`) 及均值不等式，#mi(`uv\le\left(\frac{u+v}{2}\right)^{2}=\frac{1}{4}`)，故
+
+
+#align(center)[#mitex(`
+S_{\triangle OAB}\ge4
+`)]
+
+
+当且仅当 #mi(`u=v=\frac{1}{2}`)，即 #mi(`a=4`)、#mi(`b=2`) 时取等号. 所以面积的最小值为 #mi(`4`).
 ]
 
 #problem(12)[
-同学们都知道，在一次考试后，如果按顺序去掉一些高分，那么班级的平均分将降低；反之，如果按顺序去掉一些低分，那么班级的平均分将提高. 这两个事实可以用数学语言描述为：若有限数列 $a_1$，$a_2$，$dots.c$，$a_n$ 满足 $a_1 <= a_2 <= dots.c <= a_n$，则（结论用数学式子表示）#blank(){}.
+同学们都知道，在一次考试后，如果按顺序去掉一些高分，那么班级的平均分将降低；反之，如果按顺序去掉一些低分，那么班级的平均分将提高. 这两个事实可以用数学语言描述为：若有限数列 #mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`\cdots`)，#mi(`a_{n}`) 满足 #mi(`a_{1}\le a_{2}\le\cdots\le a_{n}`)，则（结论用数学式子表示）\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(a_1+a_2+ dots.c +a_m)/(m) <= (a_1+a_2+ dots.c +a_n)/(n)$（$1 <= m<n$），且 $(a_(m+1)+a_(m+2)+ dots.c +a_n)/(n-m) >= (a_1+a_2+ dots.c +a_n)/(n)$（$1 <= m<n$）.])
+#answer([#mi(`\dfrac{a_1+a_2+\cdots+a_m}{m}\le\dfrac{a_1+a_2+\cdots+a_n}{n}`)（#mi(`1\le m<n`)），且 #mi(`\dfrac{a_{m+1}+a_{m+2}+\cdots+a_n}{n-m}\ge\dfrac{a_1+a_2+\cdots+a_n}{n}`)（#mi(`1\le m<n`)）.])
 
 #solution[
-取任意 $1 <= m<n$. 因为 $a_1 <= dots.c <= a_m <= a_(m+1) <= dots.c <= a_n$，所以
+取任意 #mi(`1\le m<n`). 因为 #mi(`a_{1}\le\cdots\le a_{m}\le a_{m+1}\le\cdots\le a_{n}`)，所以
 
-$ (a_1+ dots.c +a_m)/(m) <= a_m <= a_(m+1) <= (a_(m+1)+ dots.c +a_n)/(n-m) $
 
-记前一部分的平均数为 $u$，后一部分的平均数为 $v$，则 $u <= v$. 全部数列的平均数是两部分平均数按项数加权的平均：
+#align(center)[#mitex(`
+\frac{a_{1}+\cdots+a_{m}}{m}\le a_{m}\le a_{m+1}\le\frac{a_{m+1}+\cdots+a_{n}}{n-m}
+`)]
 
-$ (a_1+ dots.c +a_n)/(n)=(m)/(n)u+(n-m)/(n)v $
 
-因此 $u <= (m)/(n)u+(n-m)/(n)v <= v$，即
-$(a_1+ dots.c +a_m)/(m) <= (a_1+ dots.c +a_n)/(n)$，$(a_(m+1)+ dots.c +a_n)/(n-m) >= (a_1+ dots.c +a_n)/(n)$.
+记前一部分的平均数为 #mi(`u`)，后一部分的平均数为 #mi(`v`)，则 #mi(`u\le v`). 全部数列的平均数是两部分平均数按项数加权的平均：
+
+
+#align(center)[#mitex(`
+\frac{a_{1}+\cdots+a_{n}}{n}=\frac{m}{n}u+\frac{n-m}{n}v
+`)]
+
+
+因此 #mi(`u\le\frac{m}{n}u+\frac{n-m}{n}v\le v`)，即
+
+#mi(`\frac{a_{1}+\cdots+a_{m}}{m}\le\frac{a_{1}+\cdots+a_{n}}{n}`)，#mi(`\frac{a_{m+1}+\cdots+a_{n}}{n-m}\ge\frac{a_{1}+\cdots+a_{n}}{n}`).
 ]
 
 #part-header("单选题")
 
 #problem(13)[
-抛物线 $y^2=4 x$ 的焦点坐标为（ ）
-  #choices([$(0,1)$], [$(1,0)$], [$(0,2)$], [$(2,0)$], cols: 4)
+抛物线 #mi(`y^{2}=4x`) 的焦点坐标为（ ）
+  #choices([#mi(`(0,1)`)], [#mi(`(1,0)`)], [#mi(`(0,2)`)], [#mi(`(2,0)`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-抛物线的标准形式为 $y^2=2 p x$，其焦点为 $((p)/(2),0)$. 由 $y^2=4 x$ 得 $2 p=4$，所以 $p=2$，焦点为 $(1,0)$，对应选项 B.
+抛物线的标准形式为 #mi(`y^{2}=2px`)，其焦点为 #mi(`\left(\frac{p}{2},0\right)`). 由 #mi(`y^{2}=4x`) 得 #mi(`2p=4`)，所以 #mi(`p=2`)，焦点为 #mi(`(1,0)`)，对应选项 B.
 ]
 
 #problem(14)[
-若 $a$，$b$，$c in RR$，$a>b$，则下列不等式成立的是（ ）
-  #choices([$(1)/(a)<(1)/(b)$], [$a^2>b^2$], [$(a)/(c^2+1)>(b)/(c^2+1)$], [$a|c|>b|c|$], cols: 2)
+若 #mi(`a`)，#mi(`b`)，#mi(`c\in\mathbb{R}`)，#mi(`a>b`)，则下列不等式成立的是（ ）
+  #choices([#mi(`\dfrac{1}{a}<\dfrac{1}{b}`)], [#mi(`a^{2}>b^{2}`)], [#mi(`\dfrac{a}{c^2+1}>\dfrac{b}{c^2+1}`)], [#mi(`a|c|>b|c|`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-因为 $c^2+1>0$，所以不等式 $a>b$ 两边同除以 $c^2+1$ 后方向不变，恒有
+因为 #mi(`c^{2}+1>0`)，所以不等式 #mi(`a>b`) 两边同除以 #mi(`c^{2}+1`) 后方向不变，恒有
 
-$ (a)/(c^2+1)>(b)/(c^2+1) $
 
-故选项 C 一定成立. 其余选项不恒成立：取 $a=1$，$b=-1$ 可否定 A，取 $a=-1$，$b=-2$ 可否定 B，取 $c=0$ 可否定 D. 因此选 C.
+#align(center)[#mitex(`
+\frac{a}{c^{2}+1}>\frac{b}{c^{2}+1}
+`)]
+
+
+故选项 C 一定成立. 其余选项不恒成立：取 #mi(`a=1`)，#mi(`b=-1`) 可否定 A，取 #mi(`a=-1`)，#mi(`b=-2`) 可否定 B，取 #mi(`c=0`) 可否定 D. 因此选 C.
 ]
 
 #problem(15)[
-若 $k in RR$，则“$k>3$”是“方程 $(x^2)/(k-3)-(y^2)/(k+3)=1$ 表示双曲线”的（ ）
+若 #mi(`k\in\mathbb{R}`)，则“#mi(`k>3`)”是“方程 #mi(`\dfrac{x^2}{k-3}-\dfrac{y^2}{k+3}=1`) 表示双曲线”的（ ）
   #choices([充分不必要条件], [必要不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-当 $k>3$ 时，$k-3>0$、$k+3>0$，方程可写为
+当 #mi(`k>3`) 时，#mi(`k-3>0`)、#mi(`k+3>0`)，方程可写为
 
-$ (x^2)/(k-3)-(y^2)/(k+3)=1 $
 
-这是实轴在 $x$ 轴上的双曲线，所以 $k>3$ 是充分条件.
+#align(center)[#mitex(`
+\frac{x^{2}}{k-3}-\frac{y^{2}}{k+3}=1
+`)]
 
-但它不是必要条件. 例如取 $k=-4$，则
 
-$ (x^2)/(-7)-(y^2)/(-1)=1 <=> (y^2)/(1)-(x^2)/(7)=1 $
+这是实轴在 #mi(`x`) 轴上的双曲线，所以 #mi(`k>3`) 是充分条件.
 
-仍表示双曲线，而 $-4 not >3$. 因此“$k>3$”是“方程表示双曲线”的充分不必要条件，选 A.
+但它不是必要条件. 例如取 #mi(`k=-4`)，则
+
+
+#align(center)[#mitex(`
+\frac{x^{2}}{-7}-\frac{y^{2}}{-1}=1  \quad\Longleftrightarrow\quad  \frac{y^{2}}{1}-\frac{x^{2}}{7}=1
+`)]
+
+
+仍表示双曲线，而 #mi(`-4\not>3`). 因此“#mi(`k>3`)”是“方程表示双曲线”的充分不必要条件，选 A.
 ]
 
 #problem(16)[
-若集合 $A=\{y | y=x^((1)/(3)),-1 <= x <= 1 \}$，$B=\{y | y=2-(1)/(x),0<x <= 1 \}$，则 $A inter B$ 等于（ ）
-  #choices([$(- oo ,1]$], [$[-1,1]$], [$emptyset$], [$\{1\}$], cols: 4)
+若集合 #mi(`A=\left\{y\mid y=x^{\frac{1}{3}},-1\le x\le1\right\}`)，#mi(`B=\left\{y\mid y=2-\dfrac{1}{x},0<x\le1\right\}`)，则 #mi(`A\cap B`) 等于（ ）
+  #choices([#mi(`(-\infty,1]`)], [#mi(`[-1,1]`)], [#mi(`\varnothing`)], [#mi(`\{1\}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-因为函数 $y=x^((1)/(3))$ 在实数集上递增，且 $-1 <= x <= 1$，所以
+因为函数 #mi(`y=x^{\frac{1}{3}}`) 在实数集上递增，且 #mi(`-1\le x\le1`)，所以
 
-$ A=[-1,1] $
 
-对 $B$，当 $0<x <= 1$ 时，$(1)/(x) >= 1$，从而 $2-(1)/(x) <= 1$. 当 $x -> 0 ""^+$ 时，$2-(1)/(x) -> - oo$，且在 $x=1$ 时取到最大值 $1$，所以
+#align(center)[#mitex(`
+A=\left[-1,1\right]
+`)]
 
-$ B=(- oo ,1] $
+
+对 #mi(`B`)，当 #mi(`0<x\le1`) 时，#mi(`\frac{1}{x}\ge1`)，从而 #mi(`2-\frac{1}{x}\le1`). 当 #mi(`x\to0^{+}`) 时，#mi(`2-\frac{1}{x}\to-\infty`)，且在 #mi(`x=1`) 时取到最大值 #mi(`1`)，所以
+
+
+#align(center)[#mitex(`
+B=(-\infty,1]
+`)]
+
 
 于是
 
-$ A inter B=[-1,1] $
+
+#align(center)[#mitex(`
+A\cap B=[-1,1]
+`)]
+
 
 故选 B.
 ]
@@ -290,202 +402,144 @@ $ A inter B=[-1,1] $
 #part-header("解答题")
 
 #problem(17)[
-在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，已知 $D A=D C=4$，$D D_1=3$，求异面直线 $A_(1) B$ 与 $B_(1) C$ 所成角的大小（结果用反三角函数值表示）.
+在长方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，已知 #mi(`DA=DC=4`)，#mi(`DD_{1}=3`)，求异面直线 #mi(`A_{1}B`) 与 #mi(`B_{1}C`) 所成角的大小（结果用反三角函数值表示）.
 
 
-#align(center)[#image("/papers/2006/img/shanghai_spring/q17_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2006/img/shanghai_spring/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-【法一】连接 $A_(1) D$. 因为 $A_(1) D parallel B_(1) C$，所以 $angle B A_(1) D$ 为异面直线 $A_(1) B$ 与 $B_(1) C$ 所成的角. 连接 $B D$. 在 $triangle A_(1) D B$ 中，$A_(1) B=A_(1) D=5$，$B D=4 sqrt(2)$，故
-
-$ cos angle B A_(1) D=(A_(1) B^2+A_(1) D^2-B D^2)/(2 A_(1) B dot A_(1) D)=(25+25-32)/(2 dot 5 dot 5)=(9)/(25) $
-
-因此，异面直线 $A_(1) B$ 与 $B_(1) C$ 所成角的大小为 $arccos (9)/(25)$.
+【法一】连接 #mi(`A_{1}D`). 因为 #mi(`A_{1}D\parallel B_{1}C`)，所以 #mi(`\angle BA_{1}D`) 为异面直线 #mi(`A_{1}B`) 与 #mi(`B_{1}C`) 所成的角. 连接 #mi(`BD`). 在 #mi(`\triangle A_{1}DB`) 中，#mi(`A_{1}B=A_{1}D=5`)，#mi(`BD=4\sqrt{2}`)，故
 
 
-#align(center)[#image("/papers/2006/img/shanghai_spring/q17_solution_fig1.png", width: 42%)]
+#align(center)[#mitex(`
+\cos\angle BA_{1}D=\dfrac{A_1B^2+A_1D^2-BD^2}{2A_1B\cdot A_1D}=\dfrac{25+25-32}{2\cdot5\cdot5}=\dfrac{9}{25}
+`)]
 
 
-【法二】以 $D$ 为坐标原点，分别以 $D A$，$D C$，$D D_1$ 所在直线为 $x$ 轴，$y$ 轴，$z$ 轴，建立空间直角坐标系. 则 $A_1(4,0,3)$，$B(4,4,0)$，$B_1(4,4,3)$，$C(0,4,0)$，从而 $arrow(A_(1) B)=(0,4,-3)$，$arrow(B_(1) C)=(-4,0,-3)$.
+因此，异面直线 #mi(`A_{1}B`) 与 #mi(`B_{1}C`) 所成角的大小为 #mi(`\arccos\dfrac{9}{25}`).
 
+ 
+#align(center)[#image("/papers/2006/img/shanghai_spring/q17_solution_fig1.png", width: 28%)]
+ 
 
-#align(center)[#image("/papers/2006/img/shanghai_spring/q17_solution_fig2.png", width: 42%)]
+【法二】以 #mi(`D`) 为坐标原点，分别以 #mi(`DA`)，#mi(`DC`)，#mi(`DD_{1}`) 所在直线为 #mi(`x`) 轴，#mi(`y`) 轴，#mi(`z`) 轴，建立空间直角坐标系. 则 #mi(`A_{1}(4,0,3)`)，#mi(`B(4,4,0)`)，#mi(`B_{1}(4,4,3)`)，#mi(`C(0,4,0)`)，从而 #mi(`\overrightarrow{A_1B}=(0,4,-3)`)，#mi(`\overrightarrow{B_1C}=(-4,0,-3)`).
 
+ 
+#align(center)[#image("/papers/2006/img/shanghai_spring/q17_solution_fig2.png", width: 28%)]
+ 
 
-设 $arrow(A_(1) B)$ 与 $arrow(B_(1) C)$ 的夹角为 $theta$，则
-$cos theta =(arrow(A_(1) B){ dot }arrow(B_(1) C))/(|arrow(A_(1) B)| dot |arrow(B_(1) C)|)=(9)/(25)$.
-因此，异面直线 $A_(1) B$ 与 $B_(1) C$ 所成角的大小为 $arccos (9)/(25)$.
+设 #mi(`\overrightarrow{A_1B}`) 与 #mi(`\overrightarrow{B_1C}`) 的夹角为 #mi(`\theta`)，则
+
+#mi(`\cos\theta=\dfrac{\overrightarrow{A_1B}\cdot\overrightarrow{B_1C}}{|\overrightarrow{A_1B}|\cdot|\overrightarrow{B_1C}|}=\dfrac{9}{25}`).
+
+因此，异面直线 #mi(`A_{1}B`) 与 #mi(`B_{1}C`) 所成角的大小为 #mi(`\arccos\dfrac{9}{25}`).
 ]
 
 #problem(18)[
-已知复数 $w$ 满足 $w-4=(3-2 w) i$（$i$ 为虚数单位），$z=(5)/(w)+|w-2|$，求一个以 $z$ 为根的实系数一元二次方程.
+已知复数 #mi(`w`) 满足 #mi(`w-4=(3-2w)\mathrm{i}`)（#mi(`\mathrm{i}`) 为虚数单位），#mi(`z=\dfrac{5}{w}+|w-2|`)，求一个以 #mi(`z`) 为根的实系数一元二次方程.
 ]
 
 #solution[
-【法一】因为 $w(1+2 i )=4+3 i$，所以 $w=(4+3 i)/(1+2 i)=2- i$.
-从而 $z=(5)/(2- i)+|- i |=3+ i$.
-若实系数一元二次方程有虚根 $z=3+ i$，则必有共轭虚根 $\b a r z=3- i$. 又 $z+\b a r z=6$，$z\b a r z=10$，所以所求的一个一元二次方程可以是 $x^2-6 x+10=0$.
+【法一】因为 #mi(`w(1+2\mathrm{i})=4+3\mathrm{i}`)，所以 #mi(`w=\dfrac{4+3\mathrm{i}}{1+2\mathrm{i}}=2-\mathrm{i}`).
 
-【法二】设 $w=a+b i$（$a$，$b in RR$）. 由 $a+b i -4=3 i -2 a i +2 b$
+从而 #mi(`z=\dfrac{5}{2-\mathrm{i}}+|-\mathrm{i}|=3+\mathrm{i}`).
+
+若实系数一元二次方程有虚根 #mi(`z=3+\mathrm{i}`)，则必有共轭虚根 #mi(`\bar z=3-\mathrm{i}`). 又 #mi(`z+\bar z=6`)，#mi(`z\bar z=10`)，所以所求的一个一元二次方程可以是 #mi(`x^{2}-6x+10=0`).
+
+【法二】设 #mi(`w=a+b\mathrm{i}`)（#mi(`a`)，#mi(`b\in\mathbb{R}`)）. 由 #mi(`a+b\mathrm{i}-4=3\mathrm{i}-2a\mathrm{i}+2b`)
+
 得
 
-$ \b e g i n{c a s e s} a-4=2 b,\\ b=3-2 a. \e n d{c a s e s} $
+
+#align(center)[#mitex(`
+\begin{cases}a-4=2b,\\  b=3-2a.\end{cases}
+`)]
+
 
 解得
 
-$ \b e g i n{c a s e s} a=2,\\ b=-1. \e n d{c a s e s} $
 
-故 $w=2- i$. 以下同【法一】所求的一个一元二次方程可以是 $x^2-6 x+10=0$.
+#align(center)[#mitex(`
+\begin{cases}a=2,\\  b=-1.\end{cases}
+`)]
+
+
+故 #mi(`w=2-\mathrm{i}`). 以下同【法一】所求的一个一元二次方程可以是 #mi(`x^{2}-6x+10=0`).
 ]
 
 #problem(19)[
-已知函数 $f(x)=2 sin (x+(pi)/(6))-2 cos x$，$x in [(pi)/(2), pi ]$.
+已知函数 #mi(`f(x)=2\sin\left(x+\dfrac{\pi}{6}\right)-2\cos x`)，#mi(`x\in\left[\dfrac{\pi}{2},\pi\right]`).
 
 
-+ (1) 若 $sin x=(4)/(5)$，求函数 $f(x)$ 的值；
-+ (2) 求函数 $f(x)$ 的值域.
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $sin x=(4)/(5)$，且 $x in [(pi)/(2), pi ]$，所以 $cos x=-(3)/(5)$. 又 $f(x)=2((sqrt(3))/(2) sin x+(1)/(2) cos x)-2 cos x=sqrt(3) sin x- cos x$，故 $f(x)=(4 sqrt(3))/(5)+(3)/(5)$.
-+ (2) 由 $f(x)=2 sin (x-(pi)/(6))$，且 $x in [(pi)/(2), pi ]$，得 $(pi)/(3) <= x-(pi)/(6) <= (5 pi)/(6)$. 因此 $(1)/(2) <= sin (x-(pi)/(6)) <= 1$，从而函数 $f(x)$ 的值域为 $[1,2]$.
++ (1)
 ]
 
 #problem(20)[
-学校科技小组在计算机上模拟航天器变轨返回试验. 设计方案如图：航天器运行（按顺时针方向）的轨迹方程为 $(x^2)/(100)+(y^2)/(25)=1$，变轨（即航天器运行轨迹由椭圆变为抛物线）后返回的轨迹是以 $y$ 轴为对称轴，$M(0,(64)/(7))$ 为顶点的抛物线的实线部分，降落点为 $D(8,0)$. 观测点 $A(4,0)$，$B(6,0)$ 同时跟踪航天器.
+学校科技小组在计算机上模拟航天器变轨返回试验. 设计方案如图：航天器运行（按顺时针方向）的轨迹方程为 #mi(`\dfrac{x^2}{100}+\dfrac{y^2}{25}=1`)，变轨（即航天器运行轨迹由椭圆变为抛物线）后返回的轨迹是以 #mi(`y`) 轴为对称轴，#mi(`M\left(0,\dfrac{64}{7}\right)`) 为顶点的抛物线的实线部分，降落点为 #mi(`D(8,0)`). 观测点 #mi(`A(4,0)`)，#mi(`B(6,0)`) 同时跟踪航天器.
 
 
-+ (1) 求航天器变轨后的运行轨迹所在的曲线方程；
-+ (2) 当航天器在 $x$ 轴上方时，观测点 $A$，$B$ 测得离航天器的距离分别为多少时，应向航天器发出变轨指令？
++ (1) 
 
 
 
-#align(center)[#image("/papers/2006/img/shanghai_spring/q20_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2006/img/shanghai_spring/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设曲线方程为 $y=a x^2+(64)/(7)$. 由题意知抛物线过点 $D(8,0)$，故 $0=64 a+(64)/(7)$，所以 $a=-(1)/(7)$. 因此，航天器变轨后的运行轨迹所在的曲线方程为 $y=-(1)/(7)x^2+(64)/(7)$.
 
-
-
-#align(center)[#image("/papers/2006/img/shanghai_spring/q20_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2006/img/shanghai_spring/q20_fig1.png", width: 28%)]
+ 
 
 \FloatBarrier
 
 
 + (1) \setcounter{enumi}{1}
-+ (2) 设变轨点为 $C(x,y)$. 由题意可知
-
-$ \b e g i n{c a s e s} (x^2)/(100)+(y^2)/(25)=1,\\ y=-(1)/(7)x^2+(64)/(7). \e n d{c a s e s} $
-
-消去 $x$ 得 $4 y^2-7 y-36=0$，故 $y=4$ 或 $y=-(9)/(4)$. 因为航天器在 $x$ 轴上方，所以 $y=4$. 再代回得 $x=6$ 或 $x=-6$. 结合图形取 $x=6$，故 $C(6,4)$.
-
-于是 $|A C|=sqrt((6-4)^2+4^2)=2 sqrt(5)$，$|B C|=sqrt((6-6)^2+4^2)=4$.
-答：当观测点 $A$，$B$ 测得离航天器的距离分别为 $2 sqrt(5)$ 和 $4$ 时，应向航天器发出变轨指令.
 ]
 
 #problem(21)[
-设函数 $f(x)=|x^2-4 x-5|$.
+设函数 #mi(`f(x)=|x^{2}-4x-5|`).
 
 
-+ (1) 在区间 $[-2,6]$ 上画出函数 $f(x)$ 的图象；
-+ (2) 设集合 $A=\{x | f(x) >= 5 \}$，$B=(- oo ,-2] union [0,4] union [6,+ oo )$. 试判断集合 $A$ 和 $B$ 之间的关系，并给出证明；
-+ (3) 当 $k>2$ 时，求证：在区间 $[-1,5]$ 上，$y=k(x+3)$ 的图象位于函数 $f(x)$ 图象的上方.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2006/img/shanghai_spring/q21_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2006/img/shanghai_spring/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 函数 $y=x^2-4 x-5$ 的零点为 $-1,5$，顶点为 $(2,-9)$. 因此，在区间 $[-2,6]$ 上，函数 $f(x)=|x^2-4 x-5|$ 的图象由抛物线 $y=x^2-4 x-5$ 在 $x <= -1$ 与 $x >= 5$ 部分，以及其在 $[-1,5]$ 上关于 $x$ 轴对称所得的曲线组成.
 
-
-
-#align(center)[#image("/papers/2006/img/shanghai_spring/q21_solution_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2006/img/shanghai_spring/q21_solution_fig1.png", width: 28%)]
+ 
 
 \FloatBarrier
 
 
 + (1) \setcounter{enumi}{1}
-+ (2) 方程 $f(x)=5$ 的解分别是 $2-sqrt(14)$，$0$，$4$，$2+sqrt(14)$. 由于 $f(x)$ 在 $(- oo ,-1]$ 和 $[2,5]$ 上单调递减，在 $[-1,2]$ 和 $[5,+ oo )$ 上单调递增，所以 $A=(- oo ,2-sqrt(14)] union [0,4] union [2+sqrt(14),+ oo )$.
-又因为 $2+sqrt(14)<6$，$2-sqrt(14)>-2$，所以 $B subset A$.
-+ (3) 【法一】当 $x in [-1,5]$ 时，$f(x)=-(x^2-4 x-5)=-x^2+4 x+5$. 令
-
-$ g(x)=k(x+3)-f(x)=x^2+(k-4)x+(3 k-5)=(x-(4-k)/(2))^2-(k^2-20 k+36)/(4) $
-
-因为 $k>2$，所以 $(4-k)/(2)<1$.
-
-\begin{circlelist}
-+ (4) 当 $-1 <= (4-k)/(2)<1$，即 $2<k <= 6$ 时，取 $x=(4-k)/(2)$，则 $g(x)_( min )=-(k^2-20 k+36)/(4)=-(1)/(4)[(k-10)^2-64]$. 因为 $16 <= (k-10)^2<64$，所以 $g(x)_( min )>0$.
-+ (5) 当 $(4-k)/(2)<-1$，即 $k>6$ 时，取 $x=-1$，则 $g(x)_( min )=2 k>0$.
-\end{circlelist}
-
-由上述两种情况可知，当 $k>2$ 时，$g(x)>0$（$x in [-1,5]$）. 因此，在区间 $[-1,5]$ 上，$y=k(x+3)$ 的图象位于函数 $f(x)$ 图象的上方.
-
-【法二】当 $x in [-1,5]$ 时，$f(x)=-x^2+4 x+5$. 联立
-
-$ \b e g i n{c a s e s} y=k(x+3),\\ y=-x^2+4 x+5 \e n d{c a s e s} $
-
-得 $x^2+(k-4)x+(3 k-5)=0$. 令 $Delta =(k-4)^2-4(3 k-5)=0$，解得 $k=2$ 或 $k=18$. 在区间 $[-1,5]$ 上，当 $k=2$ 时，直线 $y=2(x+3)$ 与函数 $f(x)$ 的图象只交于一点 $(1,8)$；当 $k=18$ 时，直线 $y=18(x+3)$ 与函数 $f(x)$ 的图象没有交点.
-
-又直线 $y=k(x+3)$ 过点 $(-3,0)$，当 $k>2$ 时，它由直线 $y=2(x+3)$ 绕点 $(-3,0)$ 逆时针方向旋转得到，所以在区间 $[-1,5]$ 上，$y=k(x+3)$ 的图象位于函数 $f(x)$ 图象的上方.
++ (2)
 ]
 
 #problem(22)[
-已知数列 $a_1$，$a_2$，$dots.c$，$a_(30)$，其中 $a_1$，$a_2$，$dots.c$，$a_(10)$ 是首项为 $1$，公差为 $1$ 的等差数列；$a_(10)$，$a_(11)$，$dots.c$，$a_(20)$ 是公差为 $d$ 的等差数列；$a_(20)$，$a_(21)$，$dots.c$，$a_(30)$ 是公差为 $d^2$ 的等差数列（$d != 0$）.
+已知数列 #mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`\cdots`)，#mi(`a_{30}`)，其中 #mi(`a_{1}`)，#mi(`a_{2}`)，#mi(`\cdots`)，#mi(`a_{10}`) 是首项为 #mi(`1`)，公差为 #mi(`1`) 的等差数列；#mi(`a_{10}`)，#mi(`a_{11}`)，#mi(`\cdots`)，#mi(`a_{20}`) 是公差为 #mi(`d`) 的等差数列；#mi(`a_{20}`)，#mi(`a_{21}`)，#mi(`\cdots`)，#mi(`a_{30}`) 是公差为 #mi(`d^{2}`) 的等差数列（#mi(`d\ne0`)）.
 
 
-+ (1) 若 $a_(20)=40$，求 $d$；
-+ (2) 试写出 $a_(30)$ 关于 $d$ 的关系式，并求 $a_(30)$ 的取值范围；
-+ (3) 续写已知数列，使得 $a_(30)$，$a_(31)$，$dots.c$，$a_(40)$ 是公差为 $d^3$ 的等差数列，……，依次类推，把已知数列推广为无穷数列. 提出同第 $2$ 问类似的问题，并使第 $2$ 问作为特例进行研究，你能得到什么样的结论？
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) $a_(10)=10$. 又 $a_(20)=10+10 d=40$，所以 $d=3$.
-+ (2) 由题意，$a_(30)=a_(20)+10 d^2=10(1+d+d^2)$（$d != 0$）. 于是 $a_(30)=10[(d+(1)/(2))^2+(3)/(4)]$. 当 $d in (- oo ,0) union (0,+ oo )$ 时，$a_(30) in [(15)/(2),+ oo )$.
-+ (3) 所给数列可推广为无穷数列 $\{a_n\}$. 其中 $a_1$，$a_2$，$dots.c$，$a_(10)$ 是首项为 $1$，公差为 $1$ 的等差数列；当 $n >= 1$ 时，数列 $a_(1 0 n)$，$a_(10 n+1)$，$dots.c$，$a_(10(n+1))$ 是公差为 $d^n$ 的等差数列.
-
-研究的问题可以是：试写出 $a_(10(n+1))$ 关于 $d$ 的关系式，并在 $d != 0$ 的条件下求 $a_(10(n+1))$ 的取值范围，其中 $n$ 为正整数.
-
-每个长度为 10 的等差数列区段包含 10 个公差，因此对 $n >= 1$ 有递推关系
-$a_(10(n+1))=a_(1 0 n)+10 d^n$，$a_(10)=10$.
-逐项展开可得
-
-$ a_(10(n+1))=10(1+d+ dots.c +d^n)= \b e g i n{c a s e s} 10 times (1-d^(n+1))/(1-d), & d != 1 ,\\ 10(n+1), & d=1. \e n d{c a s e s} $
-
-令 $F_n(d)=10(1+d+ dots.c +d^n)$. 当 $n=2$ 时，$F_2(d)=10[(d+(1)/(2))^2+(3)/(4)]$，所以 $F_2(d)$ 的取值范围为 $[(15)/(2),+ oo )$，正好得到第 $2$ 问的结论.
-
-下面研究一般的固定正整数 $n$. 若 $n$ 为奇数，则
-
-$ F_n(d)-10=10 d(1+d+ dots.c +d^(n-1)) $
-
-当 $d=1$ 时，$1+d+ dots.c +d^(n-1)=n>0$；当 $d != 1$ 时，
-
-$ 1+d+ dots.c +d^(n-1)=(d^n-1)/(d-1)>0 $
-
-这里不等号成立是因为 $n$ 为奇数：当 $d<0$ 时分子、分母均为负；当 $0<d<1$ 时分子、分母也均为负；当 $d>1$ 时分子、分母均为正. 所以 $F_n(d)<10$（$d<0$）或 $F_n(d)>10$（$d>0$）. 又当 $d -> - oo$ 时 $F_n(d) -> - oo$，当 $d -> 0 ""^-$ 时 $F_n(d) -> 10$，由连续性可知负数 $d$ 对应的取值范围为 $(- oo ,10)$；同理，正数 $d$ 对应的取值范围为 $(10,+ oo )$. 因而当 $n$ 为奇数时，
-
-$ F_n(d) in (- oo ,10) union (10,+ oo ) $
-
-
-若 $n$ 为偶数，则 $F_n(d)$ 是偶次多项式，且首项系数为正，所以当 $|d| -> + oo$ 时 $F_n(d) -> + oo$，从而它在实数集上有最小值. 记
-
-$ m_n=10 min _(d in RR )(1+d+ dots.c +d^n) $
-
-去掉题设不允许的 $d=0$ 不会改变值域，因为 $F_n(0)=10$，而 $n$ 为偶数时 $F_n(-1)=10$. 因此当 $n$ 为偶数时，
-
-$ F_n(d) in [m_n,+ oo ) $
-
-最小值点满足
-
-$ 1+2 d+3 d^2+ dots.c +n d^(n-1)=0 $
-
-综上，推广后的结论是：
-
-$ a_(10(n+1)) in \b e g i n{c a s e s} (- oo ,10) union (10,+ oo ), & n"为奇数",\\ [m_n,+ oo ), & n"为偶数", \e n d{c a s e s} d != 0 $
-
-其中 $m_n=10 min _(d in RR )(1+d+ dots.c +d^n)$. 当 $n=2$ 时，$m_2=(15)/(2)$，故确实包含第 $2$ 问作为特例.
++ (1) 
++ (2)
 ]
 

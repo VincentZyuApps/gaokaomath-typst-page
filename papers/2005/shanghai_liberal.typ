@@ -31,7 +31,7 @@
 ]
 
 #problem(3)[
-若 #mi(`x`)，#mi(`y`) 满足条件 #mi(`\left\{\begin{aligned}&x + y \le 3, \\&y \le 2x,\end{aligned}\right.`) 则 #mi(`z = 3x + 4y`) 的最大值是\underline{\hspace{2.5em}}.
+若 #mi(`x`)，#mi(`y`) 满足条件 #mi(`\left\{\begin{aligned}&x + y \le 3, \\&y \le 2x,\end{aligned}\right.}`) 则 #mi(`z = 3x + 4y`) 的最大值是\underline{\hspace{2.5em}}.
 ]
 
 #answer([#mi(`11`)])
@@ -187,7 +187,9 @@ BC^{2}=AB^{2}+AC^{2}-2AB\cdot AC\cos A
 #problem(12)[
 有两个相同的直三棱柱，高为 #mi(`\frac{2}{a}`)，底面三角形的三边长分别为 #mi(`3a`)，#mi(`4a`)，#mi(`5a`)（#mi(`a>0`)）. 用它们拼成一个三棱柱或四棱柱，在所有可能的情形中，全面积最小的是一个四棱柱，则 #mi(`a`) 的取值范围是\underline{\hspace{2.5em}}.
 
-[max width=0.92\linewidth]img/2005/shanghai_liberal/q12_fig1.png
+
+#align(center)[#image("/papers/2005/img/shanghai_liberal/q12_fig1.png", width: 28%)]
+
 ]
 
 #answer([#mi(`0<a<\sqrt{\frac{5}{3}}`)])
@@ -329,7 +331,9 @@ b_{1}+b_{2}+\cdots+b_{120}=\left(-1+2-3+4-5\right)\times360=-3\times360=-1080
 #problem(17)[
 已知长方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`M`)，#mi(`N`) 分别是 #mi(`BB_{1}`) 和 #mi(`BC`) 的中点，#mi(`AB = 4`)，#mi(`AD = 2`)，#mi(`B_{1}D`) 与平面 #mi(`ABCD`) 所成角的大小为 #mi(`60^{\circ}`)，求异面直线 #mi(`B_{1}D`) 与 #mi(`MN`) 所成角的大小. （结果用反三角函数值表示）
 
-[max width=0.42\linewidth]img/2005/shanghai_liberal/q17_fig1.png
+
+#align(center)[#image("/papers/2005/img/shanghai_liberal/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
@@ -408,7 +412,9 @@ z=-\frac{1}{2}\pm\frac{\sqrt{3}}{2}\mathrm{i}
 
 
 
-[max width=0.42\linewidth]img/2005/shanghai_liberal/q21_fig1.png
+
+#align(center)[#image("/papers/2005/img/shanghai_liberal/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[

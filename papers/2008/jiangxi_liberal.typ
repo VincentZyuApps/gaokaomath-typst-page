@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,305 +11,298 @@
 #part-header("单选题")
 
 #problem(1)[
-“ $|x| = |y|$ ”是“ $x = y$ ”的（ ）
+“ #mi(`|x| = |y|`) ”是“ #mi(`x = y`) ”的（ ）
   #choices([充分不必要条件], [必要不充分条件], [充要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-若 $x=y$，则两边取绝对值得 $|x|=|y|$，所以 $x=y$ 是 $|x|=|y|$ 的充分条件.反之，$|x|=|y|$ 只说明 $x=y$ 或 $x=-y$，例如 $x=1$，$y=-1$ 时前者成立而后者不成立.因此 $|x|=|y|$ 是 $x=y$ 的必要不充分条件，正确选项为 B.
+若 #mi(`x=y`)，则两边取绝对值得 #mi(`|x|=|y|`)，所以 #mi(`x=y`) 是 #mi(`|x|=|y|`) 的充分条件.反之，#mi(`|x|=|y|`) 只说明 #mi(`x=y`) 或 #mi(`x=-y`)，例如 #mi(`x=1`)，#mi(`y=-1`) 时前者成立而后者不成立.因此 #mi(`|x|=|y|`) 是 #mi(`x=y`) 的必要不充分条件，正确选项为 B.
 ]
 
 #problem(2)[
-定义集合运算： $A * B = \{z | z = x y, x in A, y in B\}$. 设 $A = \{1, 2\}$，$B = \{0, 2\}$，则集合 $A * B$ 的所有元素之和为（ ）
-  #choices([$0$], [$2$], [$3$], [$6$], cols: 4)
+定义集合运算： #mi(`A * B = \{z \mid z = xy, x \in A, y \in B\}`). 设 #mi(`A = \{1, 2\}`)，#mi(`B = \{0, 2\}`)，则集合 #mi(`A * B`) 的所有元素之和为（ ）
+  #choices([#mi(`0`)], [#mi(`2`)], [#mi(`3`)], [#mi(`6`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-分别计算 $x in A$，$y in B$ 时的乘积，得到 $1 dot 0 =0$，$1 dot 2 =2$，$2 dot 0 =0$，$2 dot 2 =4$，所以 $A*B=\{0,2,4\}$.其所有元素之和为 $0+2+4=6$，正确选项为 D.
+分别计算 #mi(`x\in A`)，#mi(`y\in B`) 时的乘积，得到 #mi(`1\cdot0=0`)，#mi(`1\cdot2=2`)，#mi(`2\cdot0=0`)，#mi(`2\cdot2=4`)，所以 #mi(`A*B=\{0,2,4\}`) .其所有元素之和为 #mi(`0+2+4=6`)，正确选项为 D.
 ]
 
 #problem(3)[
-若函数 $y = f(x)$ 的定义域是 $[0, 2]$，则函数 $g(x) = (f(2 x))/(x - 1)$ 的定义域是（ ）
-  #choices([$[0,1]$], [$[0,1)$], [$[0,1) union (1,4]$], [$(0,1)$], cols: 2)
+若函数 #mi(`y = f(x)`) 的定义域是 #mi(`[0, 2]`)，则函数 #mi(`g(x) = \frac{f(2x)}{x - 1}`) 的定义域是（ ）
+  #choices([#mi(`[0,1]`)], [#mi(`[0,1)`)], [#mi(`[0,1)\cup (1,4]`)], [#mi(`(0,1)`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-要使 $f(2 x)$ 有意义，必须有 $2 x in [0,2]$，即 $x in [0,1]$.同时分母不能为零，所以 $x != 1$.因此 $g(x)$ 的定义域为 $[0,1)$，正确选项为 B.
+要使 #mi(`f(2x)`) 有意义，必须有 #mi(`2x\in[0,2]`)，即 #mi(`x\in[0,1]`) .同时分母不能为零，所以 #mi(`x\ne1`) .因此 #mi(`g(x)`) 的定义域为 #mi(`[0,1)`)，正确选项为 B.
 ]
 
 #problem(4)[
-若 $0 < x < y < 1$，则（ ）
-  #choices([$3^(y) < 3^(x)$], [$log _(x)3 < log _(y)3$], [$log _(4) x < log _(4) y$], [$((1)/(4))^x < ((1)/(4))^y$], cols: 2)
+若 #mi(`0 < x < y < 1`)，则（ ）
+  #choices([#mi(`3^{y}< 3^{x}`)], [#mi(`\log_{x}3 < \log_{y}3`)], [#mi(`\log_{4}x < \log_{4}y`)], [#mi(`\left(\frac{1}{4}\right)^{x} < \left(\frac{1}{4}\right)^{y}`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-因为 $3>1$，指数函数 $3^t$ 在 $\m a t h b b R$ 上递增，所以 $3^x<3^y$，选项 A 错误.又因为 $0<x<y<1$，有 $ln x< ln y<0$，从而 $log _(x) 3=(ln 3)/(ln x)>(ln 3)/(ln y)= log _(y) 3$，选项 B 错误.由于 $4>1$，对数函数 $log _(4) t$ 递增，故 $log _(4) x< log _(4) y$，选项 C 正确.最后 $0<(1)/(4)<1$，所以 $((1)/(4))^x>((1)/(4))^y$，选项 D 错误.因此正确选项为 C.
+因为 #mi(`3>1`)，指数函数 #mi(`3^{t}`) 在 #mi(`\mathbb{R}`) 上递增，所以 #mi(`3^{x}<3^{y}`)，选项 A 错误.又因为 #mi(`0<x<y<1`)，有 #mi(`\ln x<\ln y<0`)，从而 #mi(`\log_{x}3=\dfrac{\ln3}{\ln x}>\dfrac{\ln3}{\ln y}=\log_{y}3`)，选项 B 错误.由于 #mi(`4>1`)，对数函数 #mi(`\log_{4}t`) 递增，故 #mi(`\log_{4}x<\log_{4}y`)，选项 C 正确.最后 #mi(`0<\frac{1}{4}<1`)，所以 #mi(`\left(\frac{1}{4}\right)^{x}>\left(\frac{1}{4}\right)^{y}`)，选项 D 错误.因此正确选项为 C.
 ]
 
 #problem(5)[
-在数列 $\{a_(n)\}$ 中，$a_(1) = 2$，$a_(n+1) = a_(n) + ln (1 + (1)/(n))$，则 $a_(n) =$（ ）
-  #choices([$2 + ln n$], [$2 + (n - 1) ln n$], [$2 + n ln n$], [$1 + n + ln n$], cols: 2)
+在数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{1}= 2`)，#mi(`a_{n+1}= a_{n}+ \ln \left(1 + \frac{1}{n}\right)`)，则 #mi(`a_{n}=`)（ ）
+  #choices([#mi(`2 + \ln n`)], [#mi(`2 + (n - 1)\ln n`)], [#mi(`2 + n\ln n`)], [#mi(`1 + n + \ln n`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由递推式，逐项相加得 $a_n=a_1+sum_(k=1)^(n-1) ln (1+(1)/(k))=2+\l n p r o d_(k=1)^(n-1)(k+1)/(k)$.乘积裂项后为 $n$，所以 $a_n=2+ ln n$，正确选项为 A.
+由递推式，逐项相加得 #mi(`a_{n}=a_{1}+\displaystyle\sum_{k=1}^{n-1}\ln\left(1+\frac{1}{k}\right)=2+\ln\displaystyle\prod_{k=1}^{n-1}\frac{k+1}{k}`) .乘积裂项后为 #mi(`n`)，所以 #mi(`a_{n}=2+\ln n`)，正确选项为 A.
 ]
 
 #problem(6)[
-函数 $f(x) = (sin x)/(sin x + 2 sin (x)/(2))$ 是（ ）
-  #choices([以 $4 pi$ 为周期的偶函数], [以 $2 pi$ 为周期的奇函数], [以 $2 pi$ 为周期的偶函数], [以 $4 pi$ 为周期的奇函数], cols: 2)
+函数 #mi(`f(x) = \frac{\sin x}{\sin x + 2\sin \frac{x}{2}}`) 是（ ）
+  #choices([以 #mi(`4\pi`) 为周期的偶函数], [以 #mi(`2\pi`) 为周期的奇函数], [以 #mi(`2\pi`) 为周期的偶函数], [以 #mi(`4\pi`) 为周期的奇函数], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-有 $sin x+2 sin (x)/(2)=2 sin (x)/(2)( cos (x)/(2)+1)$.在定义域内可约去公因式，得到 $f(x)=(cos ((x)/(2)))/(1+ cos ((x)/(2)))$，其中原函数的定义域排除了分母为零的点.因为余弦函数为偶函数，$f(-x)=f(x)$，所以 $f$ 为偶函数.$cos ((x)/(2))$ 的最小正周期为 $4 pi$，而代入 $x+2 pi$ 会将 $cos ((x)/(2))$ 变为其相反数，函数不保持不变，故最小正周期为 $4 pi$.正确选项为 A.
+有 #mi(`\sin x+2\sin\frac{x}{2}=2\sin\frac{x}{2}\left(\cos\frac{x}{2}+1\right)`) .在定义域内可约去公因式，得到 #mi(`f(x)=\dfrac{\cos(\frac{x}{2})}{1+\cos(\frac{x}{2})}`)，其中原函数的定义域排除了分母为零的点.因为余弦函数为偶函数，#mi(`f(-x)=f(x)`)，所以 #mi(`f`) 为偶函数.#mi(`\cos(\frac{x}{2})`) 的最小正周期为 #mi(`4\pi`)，而代入 #mi(`x+2\pi`) 会将 #mi(`\cos(\frac{x}{2})`) 变为其相反数，函数不保持不变，故最小正周期为 #mi(`4\pi`) .正确选项为 A.
 ]
 
 #problem(7)[
-已知 $F_(1)$，$F_(2)$ 是椭圆的两个焦点，满足 $arrow(M F_(1)) dot arrow(M F_(2))= 0$ 的点 $M$ 总在椭圆内部，则椭圆离心率的取值范围是（ ）
-  #choices([$(0,1)$], [$(0, (1)/(2)]$], [$(0, (sqrt(2))/(2))$], [$[(sqrt(2))/(2), 1)$], cols: 2)
+已知 #mi(`F_{1}`)，#mi(`F_{2}`) 是椭圆的两个焦点，满足 #mi(`\overrightarrow{MF_{1}}\cdot \overrightarrow{MF_{2}}= 0`) 的点 #mi(`M`) 总在椭圆内部，则椭圆离心率的取值范围是（ ）
+  #choices([#mi(`(0,1)`)], [#mi(`\left(0, \frac{1}{2}\right]`)], [#mi(`\left(0, \frac{\sqrt{2}}{2}\right)`)], [#mi(`\left[\frac{\sqrt{2}}{2}, 1\right)`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-设椭圆的半长轴、半短轴和半焦距分别为 $a$，$b$，$c$，则 $a>b>0$，且 $c^2=a^2-b^2$.取焦点为 $F_1(-c,0)$，$F_2(c,0)$，设 $M(x,y)$，则 $arrow(M F_1)\c d o t a r r o w(M F_2)=(-c-x,-y) dot (c-x,-y)=x^2+y^2-c^2$.
+设椭圆的半长轴、半短轴和半焦距分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，则 #mi(`a>b>0`)，且 #mi(`c^{2}=a^{2}-b^{2}`) .取焦点为 #mi(`F_{1}(-c,0)`)，#mi(`F_{2}(c,0)`)，设 #mi(`M(x,y)`)，则 #mi(`\overrightarrow{MF_1}\cdot\overrightarrow{MF_2}=(-c-x,-y)\cdot(c-x,-y)=x^{2}+y^{2}-c^{2}`).
 
-因此满足垂直条件的点在圆 $x^2+y^2=c^2$ 上.圆上点在椭圆中的表达式 $(x^2)/(a^2)+(y^2)/(b^2)$ 的最大值为 $(c^2)/(b^2)$，要使圆上所有点都在椭圆内部，必须且只须 $(c^2)/(b^2)<1$.于是 $a^2-b^2<b^2$，即 $a^2<2 b^2$.用离心率 $e=(c)/(a)$ 表示，得 $e^2<1-e^2$，所以 $0<e<(sqrt(2))/(2)$.正确选项为 C.
+因此满足垂直条件的点在圆 #mi(`x^{2}+y^{2}=c^{2}`) 上.圆上点在椭圆中的表达式 #mi(`\frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}`) 的最大值为 #mi(`\frac{c^{2}}{b^{2}}`)，要使圆上所有点都在椭圆内部，必须且只须 #mi(`\frac{c^{2}}{b^{2}}<1`) .于是 #mi(`a^{2}-b^{2}<b^{2}`)，即 #mi(`a^{2}<2b^{2}`) .用离心率 #mi(`e=\frac{c}{a}`) 表示，得 #mi(`e^{2}<1-e^{2}`)，所以 #mi(`0<e<\frac{\sqrt{2}}{2}`) .正确选项为 C.
 ]
 
 #problem(8)[
-$(1 + x)^(10)(1 + (1)/(x))^(10)$ 展开式中的常数项为（ ）
-  #choices([$1$], [$(C_(10)^(1))^(2)$], [$C_(20)^(1)$], [$C_(20)^(10)$], cols: 2)
+#mi(`(1 + x)^{10}\left(1 + \frac{1}{x}\right)^{10}`) 展开式中的常数项为（ ）
+  #choices([#mi(`1`)], [#mi(`(\mathrm{C}_{10}^{1})^{2}`)], [#mi(`\mathrm{C}_{20}^{1}`)], [#mi(`\mathrm{C}_{20}^{10}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-将式子化为 $(1+x)^(10)(1+(1)/(x))^(10)=x^(-10)(1+x)^(20)$.常数项来自 $(1+x)^(20)$ 中的 $x^(10)$ 项，其系数为 $C_(20)^(10)$，正确选项为 D.
+将式子化为 #mi(`(1+x)^{10}\left(1+\frac{1}{x}\right)^{10}=x^{-10}(1+x)^{20}`) .常数项来自 #mi(`(1+x)^{20}`) 中的 #mi(`x^{10}`) 项，其系数为 #mi(`\mathrm{C}_{20}^{10}`)，正确选项为 D.
 ]
 
 #problem(9)[
-设直线 $m$ 与平面 $alpha$ 相交但不垂直，则下列说法中正确的是（ ）
-  #choices([在平面 $alpha$ 内有且只有一条直线与直线 $m$ 垂直], [过直线 $m$ 有且只有一个平面与平面 $alpha$ 垂直], [与直线 $m$ 垂直的直线不可能与平面 $alpha$ 平行], [与直线 $m$ 平行的平面不可能与平面 $alpha$ 垂直], cols: 1)
+设直线 #mi(`m`) 与平面 #mi(`\alpha`) 相交但不垂直，则下列说法中正确的是（ ）
+  #choices([在平面 #mi(`\alpha`) 内有且只有一条直线与直线 #mi(`m`) 垂直], [过直线 #mi(`m`) 有且只有一个平面与平面 #mi(`\alpha`) 垂直], [与直线 #mi(`m`) 垂直的直线不可能与平面 #mi(`\alpha`) 平行], [与直线 #mi(`m`) 平行的平面不可能与平面 #mi(`\alpha`) 垂直], cols: 1)
 ]
 
 #answer([B])
 
 #solution[
-设 $P=m inter alpha$，取坐标使 $alpha$ 为 $z=0$，并令 $P=(0,0,0)$，$m$ 的方向向量为 $(u,0,v)$，其中 $u != 0$，$v != 0$.$m$ 在 $alpha$ 上的射影方向为 $(u,0,0)$.若过 $m$ 的平面 $beta$ 垂直于 $alpha$，则 $beta inter alpha$ 必须是过 $P$ 且垂直于该射影的直线，因而 $beta$ 被 $m$ 和这条射影唯一确定.例如 $beta :y=0$，所以选项 B 正确.
+设 #mi(`P=m\cap\alpha`)，取坐标使 #mi(`\alpha`) 为 #mi(`z=0`)，并令 #mi(`P=(0,0,0)`)，#mi(`m`) 的方向向量为 #mi(`(u,0,v)`)，其中 #mi(`u\ne0`)，#mi(`v\ne0`).#mi(`m`) 在 #mi(`\alpha`) 上的射影方向为 #mi(`(u,0,0)`) .若过 #mi(`m`) 的平面 #mi(`\beta`) 垂直于 #mi(`\alpha`)，则 #mi(`\beta\cap\alpha`) 必须是过 #mi(`P`) 且垂直于该射影的直线，因而 #mi(`\beta`) 被 #mi(`m`) 和这条射影唯一确定.例如 #mi(`\beta:y=0`)，所以选项 B 正确.
 
-选项 A 中，$alpha$ 内所有方向为 $(0,1,0)$ 的直线都与 $m$ 所成的角为直角，存在无数条，故不能说有且只有一条.选项 C 可取直线 $l$ 的方向为 $(0,1,0)$，并令 $l$ 位于 $z=1$ 的平面内，则 $l bot m$ 且 $l parallel alpha$，故 C 错误.选项 D 可取平面 $gamma :y=1$，其方向包含 $(u,0,v)$，所以 $gamma parallel m$，且 $gamma bot alpha$，故 D 错误.因此正确选项为 B.
+选项 A 中，#mi(`\alpha`) 内所有方向为 #mi(`(0,1,0)`) 的直线都与 #mi(`m`) 所成的角为直角，存在无数条，故不能说有且只有一条.选项 C 可取直线 #mi(`l`) 的方向为 #mi(`(0,1,0)`)，并令 #mi(`l`) 位于 #mi(`z=1`) 的平面内，则 #mi(`l\perp m`) 且 #mi(`l\parallel\alpha`)，故 C 错误.选项 D 可取平面 #mi(`\gamma:y=1`)，其方向包含 #mi(`(u,0,v)`)，所以 #mi(`\gamma\parallel m`)，且 #mi(`\gamma\perp\alpha`)，故 D 错误.因此正确选项为 B.
 ]
 
 #problem(10)[
-函数 $y = tan x + sin x - | tan x - sin x|$ 在区间 $((pi)/(2), (3 pi)/(2))$ 内的图象大致是 （ ）
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2008/img/jiangxi_liberal/q10_optA_nolabel.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2008/img/jiangxi_liberal/q10_optB_nolabel.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2008/img/jiangxi_liberal/q10_optC_nolabel.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2008/img/jiangxi_liberal/q10_optD_nolabel.png", height: 100%, fit: "contain")]]], cols: 2)
+函数 #mi(`y = \tan x + \sin x - |\tan x - \sin x|`) 在区间 #mi(`\left(\frac{\pi}{2}, \frac{3\pi}{2}\right)`) 内的图象大致是 （ ）
+  #choices([
+#align(center)[#image("/papers/2008/img/jiangxi_liberal/q10_optA_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2008/img/jiangxi_liberal/q10_optB_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2008/img/jiangxi_liberal/q10_optC_nolabel.png", width: 28%)]
+], [
+#align(center)[#image("/papers/2008/img/jiangxi_liberal/q10_optD_nolabel.png", width: 28%)]
+], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-在 $((pi)/(2), pi )$ 内，$tan x- sin x<0$，所以 $y=2 tan x$.该分支从 $x -> (pi)/(2)+$ 时的负无穷递增到 $x -> pi -$ 时的 $0$.在 $( pi ,(3 pi)/(2))$ 内，$tan x- sin x>0$，所以 $y=2 sin x$，它从 $( pi ,0)$ 递减并在右端趋近 $-2$.因此图象应为左侧从负无穷上升至原点、右侧从原点下降至 $((3 pi)/(2),-2)$ 附近的图形，正确选项为 D.
+在 #mi(`\left(\frac{\pi}{2},\pi\right)`) 内，#mi(`\tan x-\sin x<0`)，所以 #mi(`y=2\tan x`) .该分支从 #mi(`x\to\frac{\pi}{2}+`) 时的负无穷递增到 #mi(`x\to\pi-`) 时的 #mi(`0`) .在 #mi(`\left(\pi,\frac{3\pi}{2}\right)`) 内，#mi(`\tan x-\sin x>0`)，所以 #mi(`y=2\sin x`)，它从 #mi(`(\pi,0)`) 递减并在右端趋近 #mi(`-2`) .因此图象应为左侧从负无穷上升至原点、右侧从原点下降至 #mi(`\left(\frac{3\pi}{2},-2\right)`) 附近的图形，正确选项为 D.
 ]
 
 #problem(11)[
-电子钟一天显示的时间是从 $00{:}00$ 到 $23{:}59$，每一时刻都由四个数字组成，则一天中任一时刻显示的四个数字之和为 $23$ 的概率为（ ）
-  #choices([$(1)/(180)$], [$(1)/(288)$], [$(1)/(360)$], [$(1)/(480)$], cols: 4)
+电子钟一天显示的时间是从 #mi(`00{:}00`) 到 #mi(`23{:}59`)，每一时刻都由四个数字组成，则一天中任一时刻显示的四个数字之和为 #mi(`23`) 的概率为（ ）
+  #choices([#mi(`\frac{1}{180}`)], [#mi(`\frac{1}{288}`)], [#mi(`\frac{1}{360}`)], [#mi(`\frac{1}{480}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-一天共有 $24 times 60 =1440$ 个等可能时刻.设时、分四位数字分别为 $a$，$b$，$c$，$d$，其中 $a$，$b$ 为小时的十位和个位，$c$，$d$ 为分钟的十位和个位.当小时为 $00$ 至 $09$ 时，$a=0$，需 $b+c+d=23$.因 $b <= 9$，且 $c+d <= 14$，所以必须 $b=9$，再由 $c+d=14$ 得 $c=5$，$d=9$，只有 $09{:}59$ 满足，共 $1$ 个时刻.当小时为 $10$ 至 $19$ 时，$a=1$，需 $b+c+d=22$.由 $c+d <= 14$ 得 $b >= 8$.当 $b=8$ 时，$c+d=14$，只有 $(c,d)=(5,9)$；当 $b=9$ 时，$c+d=13$，有 $(c,d)=(4,9)$，$(5,8)$，共 $3$ 个时刻.当小时为 $20$ 至 $23$ 时，四位数字之和的最大值为 $2+3+5+9=19<23$，没有满足条件的时刻.
+一天共有 #mi(`24\times60=1440`) 个等可能时刻.设时、分四位数字分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，#mi(`d`)，其中 #mi(`a`)，#mi(`b`) 为小时的十位和个位，#mi(`c`)，#mi(`d`) 为分钟的十位和个位.当小时为 #mi(`00`) 至 #mi(`09`) 时，#mi(`a=0`)，需 #mi(`b+c+d=23`) .因 #mi(`b\leqslant9`)，且 #mi(`c+d\leqslant14`)，所以必须 #mi(`b=9`)，再由 #mi(`c+d=14`) 得 #mi(`c=5`)，#mi(`d=9`)，只有 #mi(`09{:}59`) 满足，共 #mi(`1`) 个时刻.当小时为 #mi(`10`) 至 #mi(`19`) 时，#mi(`a=1`)，需 #mi(`b+c+d=22`) .由 #mi(`c+d\leqslant14`) 得 #mi(`b\geqslant8`) .当 #mi(`b=8`) 时，#mi(`c+d=14`)，只有 #mi(`(c,d)=(5,9)`)；当 #mi(`b=9`) 时，#mi(`c+d=13`)，有 #mi(`(c,d)=(4,9)`)，#mi(`(5,8)`)，共 #mi(`3`) 个时刻.当小时为 #mi(`20`) 至 #mi(`23`) 时，四位数字之和的最大值为 #mi(`2+3+5+9=19<23`)，没有满足条件的时刻.
 
-所以所求概率为 $(1+3)/(1440)=(1)/(360)$，正确选项为 C.
+所以所求概率为 #mi(`\dfrac{1+3}{1440}=\dfrac1{360}`)，正确选项为 C.
 ]
 
 #problem(12)[
-已知函数 $f(x) = 2 x^(2) + (4 - m)x + 4 - m$，$g(x) = m x$，若对于任一实数 $x$，$f(x)$ 与 $g(x)$ 的值至少有一个为正数，则实数 $m$ 的取值范围是（ ）
-  #choices([$[-4, 4]$], [$(-4, 4)$], [$(- oo , 4)$], [$(- oo , -4)$], cols: 4)
+已知函数 #mi(`f(x) = 2x^{2}+ (4 - m)x + 4 - m`)，#mi(`g(x) = mx`)，若对于任一实数 #mi(`x`)，#mi(`f(x)`) 与 #mi(`g(x)`) 的值至少有一个为正数，则实数 #mi(`m`) 的取值范围是（ ）
+  #choices([#mi(`[-4, 4]`)], [#mi(`(-4, 4)`)], [#mi(`(- \infty, 4)`)], [#mi(`(- \infty, -4)`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-条件“对任一实数 $x$，$f(x)$ 与 $g(x)$ 至少有一个为正数”等价于不存在某个 $x$ 使二者都不大于零.若 $m<0$，当 $x<0$ 时 $g(x)>0$，当 $x >= 0$ 时 $4-m>0$，从而 $f(x)=2 x^2+(4-m)x+4-m>0$.$m=0$ 时，$g(x)=0$，且 $f(x)=2(x+1)^2+2>0$，也满足条件.
+条件“对任一实数 #mi(`x`)，#mi(`f(x)`) 与 #mi(`g(x)`) 至少有一个为正数”等价于不存在某个 #mi(`x`) 使二者都不大于零.若 #mi(`m<0`)，当 #mi(`x<0`) 时 #mi(`g(x)>0`)，当 #mi(`x\geqslant0`) 时 #mi(`4-m>0`)，从而 #mi(`f(x)=2x^{2}+(4-m)x+4-m>0`).#mi(`m=0`) 时，#mi(`g(x)=0`)，且 #mi(`f(x)=2(x+1)^{2}+2>0`)，也满足条件.
 
-若 $0<m<4$，对 $x <= 0$ 令 $t=-x >= 0$，则 $f(x)=2 t^2-(4-m)t+(4-m)$.其最小值为 $(4-m)-((4-m)^2)/(8)=((4-m)(4+m))/(8)>0$，故仍满足条件；对 $x>0$ 有 $g(x)>0$.
+若 #mi(`0<m<4`)，对 #mi(`x\leqslant0`) 令 #mi(`t=-x\geqslant0`)，则 #mi(`f(x)=2t^{2}-(4-m)t+(4-m)`) .其最小值为 #mi(`(4-m)-\frac{(4-m)^{2}}{8}=\frac{(4-m)(4+m)}{8}>0`)，故仍满足条件；对 #mi(`x>0`) 有 #mi(`g(x)>0`).
 
-当 $m=4$ 时，取 $x=0$，有 $f(0)=g(0)=0$，条件不成立；当 $m>4$ 时同样取 $x=0$，有 $f(0)=4-m<0$，而 $g(0)=0$，条件也不成立.因此 $m<4$，正确选项为 C.
+当 #mi(`m=4`) 时，取 #mi(`x=0`)，有 #mi(`f(0)=g(0)=0`)，条件不成立；当 #mi(`m>4`) 时同样取 #mi(`x=0`)，有 #mi(`f(0)=4-m<0`)，而 #mi(`g(0)=0`)，条件也不成立.因此 #mi(`m<4`)，正确选项为 C.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-不等式 $2^(x^2 + 2 x - 4) <= (1)/(2)$ 的解集为#blank(){}.
+不等式 #mi(`2^{x^2 + 2x - 4}\le \frac{1}{2}`) 的解集为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[-3,1]$])
+#answer([#mi(`[-3,1]`)])
 
 #solution[
-因为底数 $2>1$，所以指数不等式等价于 $x^2+2 x-4 <= -1$，即 $x^2+2 x-3 <= 0$.因式分解得 $(x+3)(x-1) <= 0$，所以解集为 $[-3,1]$.
+因为底数 #mi(`2>1`)，所以指数不等式等价于 #mi(`x^{2}+2x-4\le-1`)，即 #mi(`x^{2}+2x-3\leqslant0`) .因式分解得 #mi(`(x+3)(x-1)\leqslant0`)，所以解集为 #mi(`[-3,1]`).
 ]
 
 #problem(14)[
-已知双曲线 $(x^2)/(a^2)- (y^2)/(b^2)= 1$（$a > 0$，$b > 0$）的两条渐近线方程为 $y = +- (sqrt(3))/(3)x$，若顶点到渐近线的距离为 $1$，则双曲线方程为#blank(){}.
+已知双曲线 #mi(`\frac{x^{2}}{a^{2}}- \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > 0`)，#mi(`b > 0`)）的两条渐近线方程为 #mi(`y = \pm \frac{\sqrt{3}}{3}x`)，若顶点到渐近线的距离为 #mi(`1`)，则双曲线方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(x^2)/(4)- (3 y^2)/(4)= 1$])
+#answer([#mi(`\frac{x^{2}}{4}- \frac{3y^{2}}{4}= 1`)])
 
 #solution[
-双曲线的渐近线斜率为 $(b)/(a)$，所以 $(b)/(a)=(sqrt(3))/(3)$，即 $b=(a)/(sqrt(3))$.右顶点为 $(a,0)$，它到渐近线 $(sqrt(3))/(3)x-y=0$ 的距离为
-$((a)/(sqrt(3)))/(sqrt((1)/(3)+1))=(a)/(2)$.由题意 $a=2$，从而 $b^2=(4)/(3)$.代入双曲线方程，得 $(x^2)/(4)-(3 y^2)/(4)=1$.
+双曲线的渐近线斜率为 #mi(`\frac{b}{a}`)，所以 #mi(`\frac{b}{a}=\frac{\sqrt{3}}{3}`)，即 #mi(`b=\frac{a}{\sqrt{3}}`) .右顶点为 #mi(`(a,0)`)，它到渐近线 #mi(`\frac{\sqrt{3}}{3}x-y=0`) 的距离为
+
+#mi(`\dfrac{\frac{a}{\sqrt{3}}}{\sqrt{\frac{1}{3}+1}}=\dfrac{a}{2}`) .由题意 #mi(`a=2`)，从而 #mi(`b^{2}=\frac{4}{3}`) .代入双曲线方程，得 #mi(`\frac{x^{2}}{4}-\frac{3y^{2}}{4}=1`).
 ]
 
 #problem(15)[
-连结球面上两点的线段称为球的弦. 半径为 $4$ 的球的两条弦 $A B$，$C D$ 的长度分别等于 $2 sqrt(7)$，$4 sqrt(3)$，每条弦的两端都在球面上运动，则两弦中点之间距离的最大值为#blank(){}.
+连结球面上两点的线段称为球的弦. 半径为 #mi(`4`) 的球的两条弦 #mi(`AB`)，#mi(`CD`) 的长度分别等于 #mi(`2\sqrt{7}`)，#mi(`4\sqrt{3}`)，每条弦的两端都在球面上运动，则两弦中点之间距离的最大值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$5$])
+#answer([#mi(`5`)])
 
 #solution[
-设球心为 $O$，两弦中点分别为 $M$，$N$.球心到弦中点的连线垂直于弦，所以
-$O M=sqrt(4^2-((2 sqrt(7))/(2))^2)=3$，$O N=sqrt(4^2-((4 sqrt(3))/(2))^2)=2$.两弦可在球面上任意转动，故 $M$，$N$ 的方向可以相反，且由三角不等式 $M N <= O M+O N=5$.当 $M$，$O$，$N$ 共线且 $O$ 在 $M N$ 之间时取等号，因此最大值为 $5$.
+设球心为 #mi(`O`)，两弦中点分别为 #mi(`M`)，#mi(`N`) .球心到弦中点的连线垂直于弦，所以
+
+#mi(`OM=\sqrt{4^{2}-\left(\frac{2\sqrt{7}}{2}\right)^{2}}=3`)，#mi(`ON=\sqrt{4^{2}-\left(\frac{4\sqrt{3}}{2}\right)^{2}}=2`) .两弦可在球面上任意转动，故 #mi(`M`)，#mi(`N`) 的方向可以相反，且由三角不等式 #mi(`MN\le OM+ON=5`) .当 #mi(`M`)，#mi(`O`)，#mi(`N`) 共线且 #mi(`O`) 在 #mi(`MN`) 之间时取等号，因此最大值为 #mi(`5`).
 ]
 
 #problem(16)[
-如图，正六边形 $A B C D E F$ 中，有下列四个命题：
-\begin{circlelist}
-\item $arrow(A C)+ arrow(A F)= 2 arrow(B C)$；
-\item $arrow(A D)= 2 arrow(A B)+ 2 arrow(A F)$；
-\item $arrow(A C) dot arrow(A D)= arrow(A D) dot arrow(A B)$；
-\item $(arrow(A D) dot arrow(A F))arrow(E F)= arrow(A D)(arrow(A F) dot arrow(E F))$.
-\end{circlelist}
-其中真命题的代号是#blank(){}.（写出所有真命题的代号）
+如图，正六边形 #mi(`ABCDEF`) 中，有下列四个命题：
 
 
-#align(center)[#image("/papers/2008/img/jiangxi_liberal/q16_fig1.png", width: 42%)]
++ (1) #mi(`\overrightarrow{AC}+ \overrightarrow{AF}= 2\overrightarrow{BC}`)；
++ (2) #mi(`\overrightarrow{AD}= 2\overrightarrow{AB}+ 2\overrightarrow{AF}`)；
++ (3) #mi(`\overrightarrow{AC}\cdot \overrightarrow{AD}= \overrightarrow{AD}\cdot \overrightarrow{AB}`)；
++ (4) #mi(`(\overrightarrow{AD}\cdot \overrightarrow{AF})\overrightarrow{EF}= \overrightarrow{AD}(\overrightarrow{AF}\cdot \overrightarrow{EF})`).
+
+
+
+其中真命题的代号是\underline{\hspace{2.5em}}.（写出所有真命题的代号）
+
+
+#align(center)[#image("/papers/2008/img/jiangxi_liberal/q16_fig1.png", width: 28%)]
+
 ]
 
 #answer([A，B，D])
 
 #solution[
-取正六边形边长为 $1$，建立直角坐标系，令 $A=(0,0)$，$B=(1,0)$，则 $C=((3)/(2),(sqrt(3))/(2))$，$D=(1,sqrt(3))$，$E=(0,sqrt(3))$，$F=(-(1)/(2),(sqrt(3))/(2))$.于是
-$arrow(A C)=((3)/(2),(sqrt(3))/(2))$，$arrow(A F)=(-(1)/(2),(sqrt(3))/(2))$，$arrow(B C)=((1)/(2),(sqrt(3))/(2))$，从而 $arrow(A C)+arrow(A F)=(1,sqrt(3))=2 arrow(B C)$，命题 A 正确.
+取正六边形边长为 #mi(`1`)，建立直角坐标系，令 #mi(`A=(0,0)`)，#mi(`B=(1,0)`)，则 #mi(`C=(\frac{3}{2},\frac{\sqrt{3}}{2})`)，#mi(`D=(1,\sqrt{3})`)，#mi(`E=(0,\sqrt{3})`)，#mi(`F=(-\frac{1}{2},\frac{\sqrt{3}}{2})`) .于是
 
-又 $arrow(A D)=(1,sqrt(3))$，所以 $2 arrow(A B)+2 arrow(A F)=(2,0)+(-1,sqrt(3))=(1,sqrt(3))=arrow(A D)$，命题 B 正确.数量积为 $arrow(A C)\c d o t a r r o w(A D)=3$，而 $arrow(A D)\c d o t a r r o w(A B)=1$，命题 C 错误.
+#mi(`\overrightarrow{AC}=(\frac{3}{2},\frac{\sqrt{3}}{2})`)，#mi(`\overrightarrow{AF}=(-\frac{1}{2},\frac{\sqrt{3}}{2})`)，#mi(`\overrightarrow{BC}=(\frac{1}{2},\frac{\sqrt{3}}{2})`)，从而 #mi(`\overrightarrow{AC}+\overrightarrow{AF}=(1,\sqrt{3})=2\overrightarrow{BC}`)，命题 A 正确.
 
-最后，$arrow(A D)\c d o t a r r o w(A F)=1$，$arrow(E F)=(-(1)/(2),-(sqrt(3))/(2))$，且 $arrow(A F)\c d o t a r r o w(E F)=-(1)/(2)$.因此左边等于 $arrow(E F)$，右边等于 $-(1)/(2)arrow(A D)=arrow(E F)$，命题 D 正确.故真命题的代号为 A，B，D.
+又 #mi(`\overrightarrow{AD}=(1,\sqrt{3})`)，所以 #mi(`2\overrightarrow{AB}+2\overrightarrow{AF}=(2,0)+(-1,\sqrt{3})=(1,\sqrt{3})=\overrightarrow{AD}`)，命题 B 正确.数量积为 #mi(`\overrightarrow{AC}\cdot\overrightarrow{AD}=3`)，而 #mi(`\overrightarrow{AD}\cdot\overrightarrow{AB}=1`)，命题 C 错误.
+
+最后，#mi(`\overrightarrow{AD}\cdot\overrightarrow{AF}=1`)，#mi(`\overrightarrow{EF}=(-\frac{1}{2},-\frac{\sqrt{3}}{2})`)，且 #mi(`\overrightarrow{AF}\cdot\overrightarrow{EF}=-\frac{1}{2}`) .因此左边等于 #mi(`\overrightarrow{EF}`)，右边等于 #mi(`-\frac{1}{2}\overrightarrow{AD}=\overrightarrow{EF}`)，命题 D 正确.故真命题的代号为 A，B，D.
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知 $tan alpha = -(1)/(3)$，$cos beta = (sqrt(5))/(5)$，$alpha$，$beta in (0, pi )$.
+已知 #mi(`\tan \alpha = -\frac{1}{3}`)，#mi(`\cos \beta = \frac{\sqrt{5}}{5}`)，#mi(`\alpha`)，#mi(`\beta \in (0, \pi)`).
 
-+ (1) 求 $tan ( alpha + beta )$ 的值；
-+ (2) 求函数 $f(x)=sqrt(2) sin (x- alpha )+ cos (x+ beta )$ 的最大值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $alpha in (0, pi )$ 且 $tan alpha <0$，所以 $alpha in ((pi)/(2), pi )$，从而 $sin alpha =(1)/(sqrt(10))$，$cos alpha =-(3)/(sqrt(10))$.又因为 $beta in (0, pi )$ 且 $cos beta =(sqrt(5))/(5)>0$，所以 $beta in (0,(pi)/(2))$，$sin beta =(2)/(sqrt(5))$，$tan beta =2$.因此
-$tan ( alpha + beta )=(tan alpha + tan beta)/(1- tan alpha tan beta)=(-(1)/(3)+2)/(1-(-(1)/(3)) dot 2)=1$.
-+ (2) 展开函数得
-$f(x)=(sqrt(2) cos alpha - sin beta ) sin x+(-sqrt(2) sin alpha + cos beta ) cos x$.代入上面的三角函数值，得到 $sqrt(2) cos alpha - sin beta =-sqrt(5)$，且 $-sqrt(2) sin alpha + cos beta =0$，所以 $f(x)=-sqrt(5) sin x$.由于 $-1 <= sin x <= 1$，函数的最大值为 $sqrt(5)$.
++ (1)
 ]
 
 #problem(18)[
-因冰雪灾害，某柑桔基地果林严重受损. 为此有关专家提出一种拯救果树的方案，该方案需分两年实施且相互独立. 该方案预计第一年可以使柑桔产量恢复到灾前的 $1.0$ 倍，$0.9$ 倍，$0.8$ 倍的概率分别是 $0.2$，$0.4$，$0.4$；第二年可以使柑桔产量为第一年产量的 $1.5$ 倍，$1.25$ 倍，$1.0$ 倍的概率分别是 $0.3$，$0.3$，$0.4$.
+因冰雪灾害，某柑桔基地果林严重受损. 为此有关专家提出一种拯救果树的方案，该方案需分两年实施且相互独立. 该方案预计第一年可以使柑桔产量恢复到灾前的 #mi(`1.0`) 倍，#mi(`0.9`) 倍，#mi(`0.8`) 倍的概率分别是 #mi(`0.2`)，#mi(`0.4`)，#mi(`0.4`)；第二年可以使柑桔产量为第一年产量的 #mi(`1.5`) 倍，#mi(`1.25`) 倍，#mi(`1.0`) 倍的概率分别是 #mi(`0.3`)，#mi(`0.3`)，#mi(`0.4`).
 
-+ (1) 求两年后柑桔产量恰好达到灾前产量的概率；
-+ (2) 求两年后柑桔产量超过灾前产量的概率.
+
++ (1)
 ]
 
 #solution[
-+ (1) 两年后产量恰好为灾前产量的情形只有两种：第一年为 $1.0$ 倍、第二年乘 $1.0$ 倍，概率为 $0.2 times 0 .4$；第一年为 $0.8$ 倍、第二年乘 $1.25$ 倍，概率为 $0.4 times 0 .3$.由独立性，所求概率为 $0.2 times 0 .4+0.4 times 0 .3=0.08+0.12=0.20$.
-+ (2) 两年后产量超过灾前产量的组合为 $1.0 times 1 .5$，$1.0 times 1 .25$，$0.9 times 1 .5$，$0.9 times 1 .25$，$0.8 times 1 .5$.由独立性，所求概率为 $0.2 times 0 .3+0.2 times 0 .3+0.4 times 0 .3+0.4 times 0 .3+0.4 times 0 .3=0.06+0.06+0.12+0.12+0.12=0.48$.
++ (1)
 ]
 
 #problem(19)[
-等差数列 $\{a_(n)\}$ 各项均为正整数，$a_(1) = 3$. 前 $n$ 项和为 $S_(n)$，等比数列 $\{b_(n)\}$ 中，$b_(1) = 1$，且 $b_(2)S_(2) = 64$，$b_(3)S_(3) = 960$.
+等差数列 #mi(`\{a_{n}\}`) 各项均为正整数，#mi(`a_{1}= 3`). 前 #mi(`n`) 项和为 #mi(`S_{n}`)，等比数列 #mi(`\{b_{n}\}`) 中，#mi(`b_{1}= 1`)，且 #mi(`b_{2}S_{2}= 64`)，#mi(`b_{3}S_{3}= 960`).
 
-+ (1) 求 $a_(n)$ 与 $b_(n)$；
-+ (2) 求 $(1)/(S_1)+ (1)/(S_2)+ dots.c + (1)/(S_n)$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设等差数列 $\{a_n\}$ 的公差为 $d$，等比数列 $\{b_n\}$ 的公比为 $q$.因为各项 $a_n$ 都是整数且 $a_1=3$，所以 $d$ 为整数.由 $a_2=3+d$，$a_3=3+2 d$，得 $S_2=6+d$，$S_3=9+3 d=3(3+d)$.又 $b_2=q$，$b_3=q^2$，所以
-$q(6+d)=64$，$3 q^2(3+d)=960$.消去 $q$ 得 $64(3+d)=5(6+d)^2$，即 $5 d^2-4 d-12=0$，解得 $d=2$ 或 $d=-(6)/(5)$.由于 $d$ 为整数，故 $d=2$，再由 $q(6+d)=64$ 得 $q=8$.因此 $a_n=3+2(n-1)=2 n+1$，$b_n=8^(n-1)$.
-+ (2) 由 $a_k=2 k+1$，前 $k$ 项和为 $S_k=(k(3+2 k+1))/(2)=k(k+2)$.于是
-$(1)/(S_1)+ dots.c +(1)/(S_n)=sum_(k=1)^n(1)/(k(k+2))=(1)/(2)sum_(k=1)^n((1)/(k)-(1)/(k+2))$.
-相邻项消去后得到 $(1)/(2)(1+(1)/(2)-(1)/(n+1)-(1)/(n+2))=(3)/(4)-(2 n+3)/(2(n+1)(n+2))$.
++ (1)
 ]
 
 #problem(20)[
-如图，正三棱锥 $O - A B C$ 的三条侧棱 $O A$，$O B$，$O C$ 两两垂直，且长度均为 $2$. $E$，$F$ 分别是 $A B$，$A C$ 的中点，$H$ 是 $E F$ 的中点，过 $E F$ 的一个平面与侧棱 $O A$，$O B$，$O C$ 或其延长线分别相交于 $A_(1)$，$B_(1)$，$C_(1)$，已知 $O A_(1) = (3)/(2)$.
+如图，正三棱锥 #mi(`O - ABC`) 的三条侧棱 #mi(`OA`)，#mi(`OB`)，#mi(`OC`) 两两垂直，且长度均为 #mi(`2`). #mi(`E`)，#mi(`F`) 分别是 #mi(`AB`)，#mi(`AC`) 的中点，#mi(`H`) 是 #mi(`EF`) 的中点，过 #mi(`EF`) 的一个平面与侧棱 #mi(`OA`)，#mi(`OB`)，#mi(`OC`) 或其延长线分别相交于 #mi(`A_{1}`)，#mi(`B_{1}`)，#mi(`C_{1}`)，已知 #mi(`OA_{1}= \frac{3}{2}`).
 
 
-+ (1) 证明： $B_(1)C_(1) bot$ 平面 $O A H$；
-+ (2) 求二面角 $O - A_(1)B_(1) - C_(1)$ 的大小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2008/img/jiangxi_liberal/q20_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2008/img/jiangxi_liberal/q20_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 建立空间直角坐标系，取 $O=(0,0,0)$，$A=(2,0,0)$，$B=(0,2,0)$，$C=(0,0,2)$.则 $E=(1,1,0)$，$F=(1,0,1)$，$H=(1,(1)/(2),(1)/(2))$.过 $E$，$F$，$A_1$ 的平面设为 $u x+v y+w z=1$.由 $A_1=((3)/(2),0,0)$，$E$，$F$ 在此平面上，得到 $u=(2)/(3)$，$v=w=(1)/(3)$，所以平面方程为 $2 x+y+z=3$.因此 $B_1=(0,3,0)$，$C_1=(0,0,3)$.
-
-向量 $arrow(B_(1) C_1)=(0,-3,3)$，而平面 $O A H$ 内两条相交方向向量可取 $arrow(O A)=(2,0,0)$ 与 $arrow(O H)=(1,(1)/(2),(1)/(2))$.有 $arrow(B_(1) C_1)\c d o t a r r o w(O A)=0$，且 $arrow(B_(1) C_1)\c d o t a r r o w(O H)=0$，故 $arrow(B_(1) C_1)$ 垂直于平面 $O A H$ 的两个独立方向.又平面 $O A H$ 的方程为 $y=z$，直线 $B_(1) C_1$ 可写为 $(0,3-3 t,3 t)$，在 $t=(1)/(2)$ 时与该平面交于 $(0,(3)/(2),(3)/(2))$.因此 $B_(1) C_1$ 与平面 $O A H$ 相交且方向垂直于该平面，从而 $B_(1) C_1 bot$ 平面 $O A H$.
-+ (2) 平面 $O A_(1) B_1$ 的方程为 $z=0$，取其法向量 $bold(n)_1=(0,0,1)$.平面 $A_(1) B_(1) C_1$ 的方程仍为 $2 x+y+z=3$，取法向量 $bold(n)_2=(2,1,1)$.设二面角为 $theta$，则
-$cos theta =(|bold(n)_1\c d o t b o l d(n)_2|)/(|bold(n)_1||bold(n)_2|)=(1)/(sqrt(6))$.由于二面角取锐角，$tan theta =sqrt(5)$，故 $theta =\a r c t a n s q r t(5)$.
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x) = (1)/(4)x^4 + (1)/(3)a x^3 - a^(2) x^2 + a^4$（$a > 0$）.
+已知函数 #mi(`f(x) = \frac{1}{4}x^{4} + \frac{1}{3}ax^{3} - a^{2}x^{2} + a^{4}`)（#mi(`a > 0`)）.
 
-+ (1) 求函数 $y = f(x)$ 的单调区间；
-+ (2) 若函数 $y = f(x)$ 的图象与直线 $y = 1$ 恰有两个交点，求 $a$ 的取值范围.
+
++ (1)
 ]
 
 #solution[
-+ (1) 求导得 $f'(x)=x^3+a x^2-2 a^(2) x=x(x+2 a)(x-a)$.因为 $a>0$，临界点按顺序为 $-2 a$，$0$，$a$.在 $(- oo ,-2 a)$，$(-2 a,0)$，$(0,a)$，$(a,+ oo )$ 上，$f'(x)$ 的符号依次为负、正、负、正.因此函数的递增区间为 $(-2 a,0)$ 与 $(a,+ oo )$，递减区间为 $(- oo ,-2 a)$ 与 $(0,a)$.
-+ (2) 由上面的单调性以及 $lim_(x -> +- oo )f(x)=+ oo$，计算三个极值点的函数值：$f(-2 a)=-(5)/(3)a^4$，$f(0)=a^4$，$f(a)=(7)/(12)a^4$.左侧极小值始终小于 $1$.
-
-若 $a^4<1$，则中间极大值也小于 $1$，图象在左侧下降支和右侧上升支各与 $y=1$ 相交一次，共两个交点.若 $a^4=1$，还会在极大值点产生交点，不符合恰有两个交点的要求.若 $a^4>1$，左侧下降支和中间上升支已经各有一个交点；此时只有当右侧极小值高于 $1$，即 $(7)/(12)a^4>1$ 时，右侧两支没有交点.等号时右侧极小值本身还会产生一个交点，也不符合要求.
-
-所以必须且只须 $a^4<1$ 或 $a^4>(12)/(7)$，即 $0<a<1$ 或 $a>\sqrt[4]{(12)/(7)}$.
++ (1)
 ]
 
 #problem(22)[
-已知抛物线 $y = x^2$ 和三个点 $M(x_0, y_0)$，$P(0, y_0)$，$N(-x_0, y_0)$（$y_0 != x_0^2$，$y_0 > 0$），过点 $M$ 的一条直线交抛物线于 $A$，$B$ 两点，$A P$，$B P$ 的延长线分别交抛物线于 $E$，$F$.
+已知抛物线 #mi(`y = x^{2}`) 和三个点 #mi(`M(x_{0}, y_{0})`)，#mi(`P(0, y_{0})`)，#mi(`N(-x_{0}, y_{0})`)（#mi(`y_{0} \neq x_{0}^{2}`)，#mi(`y_{0} > 0`)），过点 #mi(`M`) 的一条直线交抛物线于 #mi(`A`)，#mi(`B`) 两点，#mi(`AP`)，#mi(`BP`) 的延长线分别交抛物线于 #mi(`E`)，#mi(`F`).
 
 
-+ (1) 证明 $E$，$F$，$N$ 三点共线；
-+ (2) 如果 $A$，$B$，$M$，$N$ 四点共线，问：是否存在 $y_0$，使以线段 $A B$ 为直径的圆与抛物线有异于 $A$，$B$ 的交点？如果存在，求出 $y_0$ 的取值范围，并求出该交点到直线 $A B$ 的距离；若不存在，请说明理由.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2008/img/jiangxi_liberal/q22_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2008/img/jiangxi_liberal/q22_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 设 $A=(u,u^2)$，$B=(v,v^2)$，其中 $u != v$.由于 $E$，$F$ 是相应直线与抛物线的另一交点，$u != 0$，$v != 0$；否则相应的直线 $A P$ 或 $B P$ 为 $x=0$，只与抛物线相切于原交点.连接抛物线上横坐标为 $u$，$v$ 的两点所得弦所在直线方程为 $y=(u+v)x-u v$，因为 $M$ 在该直线上，所以 $y_0=(u+v)x_0-u v$.
-
-设 $E=(e,e^2)$.直线 $A E$ 的方程为 $y=(u+e)x-u e$，而它经过 $P=(0,y_0)$，故 $-u e=y_0$，即 $e=-(y_0)/(u)$.再设 $F=(f,f^2)$.直线 $B F$ 的方程为 $y=(v+f)x-v f$，代入 $P=(0,y_0)$ 得 $-v f=y_0$，即 $f=-(y_0)/(v)$.于是 $E$，$F$ 所在直线的方程为 $y=(e+f)x-e f$.在 $x=-x_0$ 处，该直线的纵坐标为 $(e+f)(-x_0)-e f=(y_0(u+v)x_0-y_0^2)/(u v)=(y_0((u+v)x_0-y_0))/(u v)=y_0$.因此点 $N=(-x_0,y_0)$ 在直线 $E F$ 上，故 $E$，$F$，$N$ 三点共线.
-+ (2) 因 $M$，$N$ 为题中两个不同点，四点共线时 $x_0 != 0$.由 $M$，$N$ 都在直线 $A B$ 上，分别代入弦方程，得 $y_0=(u+v)x_0-u v$ 和 $y_0=-(u+v)x_0-u v$，从而 $u+v=0$.因此 $v=-u$，且 $y_0=-u v=u^2$，直线 $A B$ 为 $y=y_0$，其端点为 $(u,y_0)$ 与 $(-u,y_0)$.
-
-以 $A B$ 为直径的圆的圆心为 $(0,y_0)$，半径平方为 $u^2=y_0$，方程为 $x^2+(y-y_0)^2=y_0$.将 $y=x^2$ 代入，得 $x^2+(x^2-y_0)^2=y_0$，即 $(x^2-y_0)(x^2-y_0+1)=0$.第一因子给出原来的点 $A$，$B$，第二因子给出异于 $A$，$B$ 的交点，要求 $x^2=y_0-1 >= 0$，所以存在这样的交点当且仅当 $y_0 >= 1$.
-
-当 $y_0=1$ 时新增交点为 $(0,0)$；当 $y_0>1$ 时新增交点为 $(\p m s q r t(y_0-1),y_0-1)$.这些交点到直线 $A B:y=y_0$ 的距离均为 $y_0-(y_0-1)=1$.
++ (1)
 ]
 

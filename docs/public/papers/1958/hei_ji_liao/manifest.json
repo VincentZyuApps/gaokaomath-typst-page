@@ -1,67 +1,134 @@
 {
-  "title": "1958年普通高等学校招生全国统一考试",
-  "subtitle": "1958年黑吉辽卷",
   "year": "1958",
   "slug": "hei_ji_liao",
+  "title": "1958年黑吉辽卷",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "解答题",
       "problems": [
         {
           "num": 1,
-          "body": "<p>已知：圆 $O$ 内直交的二弦 $AB$，$CD$ 相交于 $P$. 求证：$PA^{2}+PB^{2}+PC^{2}+PD^{2}$ 为一定值.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hei_ji_liao/q1_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>已知：圆 $O$ 内直交的二弦 $AB$，$CD$ 相交于 $P$. 求证：$PA^{2}+PB^{2}+PC^{2}+PD^{2}$ 为一定值.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/hei_ji_liao/q1_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>设 $PA=u$，$PB=v$，$PC=w$，$PD=z$，其中 $u$，$v$，$w$，$z>0$. 以 $P$ 为原点，以 $AB$，$CD$ 所在直线为坐标轴，则</p><p>$A=\\left(-u,0\\right)$，$B=\\left(v,0\\right)$，$C=\\left(0,w\\right)$，$D=\\left(0,-z\\right)$. 设圆的方程为</p>\n$$\nx^{2}+y^{2}-2\\lambda x-2\\mu y+c=0\n$$\n<p>将 $A$，$B$ 的坐标代入，得到关于 $x$ 的二次方程</p><p>$x^{2}-2\\lambda x+c=0$，其两个根为 $-u$，$v$，所以</p><p>$2\\lambda=v-u$，$c=-uv$. 再将 $C$，$D$ 的坐标代入，得到关于 $y$ 的二次方程</p><p>$y^{2}-2\\mu y+c=0$，其两个根为 $w$，$-z$，所以 $2\\mu=w-z$，$c=-wz$. 因此 $uv=wz$.</p><p>圆心为 $\\left(\\lambda,\\mu\\right)$，设半径为 $R$，则 $R^{2}=\\lambda^{2}+\\mu^{2}-c$. 从而</p>\n$$\n4R^{2}=\\left(v-u\\right)^{2}+\\left(w-z\\right)^{2}+4uv=u^{2}+v^{2}+w^{2}+z^{2}+2uv-2wz=u^{2}+v^{2}+w^{2}+z^{2}\n$$\n<p>代回 $u$，$v$，$w$，$z$ 的定义，得</p><p>$PA^{2}+PB^{2}+PC^{2}+PD^{2}=4R^{2}$. 因而所求一定值为圆的直径的平方.</p>"
+          "solution": "<p>设 $PA=u$，$PB=v$，$PC=w$，$PD=z$，其中 $u$，$v$，$w$，$z>0$. 以 $P$ 为原点，以 $AB$，$CD$ 所在直线为坐标轴，则</p><p>$A=\\left(-u,0\\right)$，$B=\\left(v,0\\right)$，$C=\\left(0,w\\right)$，$D=\\left(0,-z\\right)$. 设圆的方程为</p>\n$$\nx^{2}+y^{2}-2\\lambda x-2\\mu y+c=0\n$$\n<p>将 $A$，$B$ 的坐标代入，得到关于 $x$ 的二次方程</p><p>$x^{2}-2\\lambda x+c=0$，其两个根为 $-u$，$v$，所以</p><p>$2\\lambda=v-u$，$c=-uv$. 再将 $C$，$D$ 的坐标代入，得到关于 $y$ 的二次方程</p><p>$y^{2}-2\\mu y+c=0$，其两个根为 $w$，$-z$，所以 $2\\mu=w-z$，$c=-wz$. 因此 $uv=wz$.</p><p>圆心为 $\\left(\\lambda,\\mu\\right)$，设半径为 $R$，则 $R^{2}=\\lambda^{2}+\\mu^{2}-c$. 从而</p>\n$$\n4R^{2}=\\left(v-u\\right)^{2}+\\left(w-z\\right)^{2}+4uv=u^{2}+v^{2}+w^{2}+z^{2}+2uv-2wz=u^{2}+v^{2}+w^{2}+z^{2}\n$$\n<p>代回 $u$，$v$，$w$，$z$ 的定义，得</p><p>$PA^{2}+PB^{2}+PC^{2}+PD^{2}=4R^{2}$. 因而所求一定值为圆的直径的平方.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 2,
-          "body": "<p>工地上有沙堆，其下底面为矩形，长，宽各为 $a\\text{ 米}$，$b\\text{ 米}$，其各侧面都与地平面夹成 $45^{\\circ}$ 角，上，下底距离为 $h\\text{ 米}$，求沙堆体积.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hei_ji_liao/q2_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>工地上有沙堆，其下底面为矩形，长，宽各为 $a\\text{ 米}$，$b\\text{ 米}$，其各侧面都与地平面夹成 $45^{\\circ}$ 角，上，下底距离为 $h\\text{ 米}$，求沙堆体积.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/hei_ji_liao/q2_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>在垂直于下底面一条边的截面内，侧面与地平面的夹角为 $45^{\\circ}$，所以沙堆上升 $h\\text{ 米}$ 时，水平方向向内收进 $h\\text{ 米}$. 四个侧面都如此收进，故上底面的长，宽分别为</p><p>$c=a-2h$，$d=b-2h$，并且应有 $a\\ge2h$，$b\\ge2h$.</p><p>将沙堆分解为一个底为 $c\\times d$、高为 $h$ 的直棱柱，沿 $c$ 方向的两块底为直角三角形且两直角边均为 $h$ 的三棱柱，沿 $d$ 方向的另外两块同类三棱柱，以及四个底面为边长 $h$ 的正方形、高为 $h$ 的棱锥. 因此</p>\n$$\nV=cdh+2\\left(\\frac{1}{2}h^{2}c\\right)+2\\left(\\frac{1}{2}h^{2}d\\right)+4\\left(\\frac{1}{3}h^{3}\\right)=h\\left(a-2h\\right)\\left(b-2h\\right)+h^{2}\\left(a+b-4h\\right)+\\frac{4}{3}h^{3}\n$$\n\n$$\nV=abh-(a+b)h^{2}+\\frac{4}{3}h^{3}\n$$\n<p>所以沙堆体积为 $abh-(a+b)h^{2}+\\frac{4}{3}h^{3}\\text{ 立方米}$.</p>"
+          "solution": "<p>在垂直于下底面一条边的截面内，侧面与地平面的夹角为 $45^{\\circ}$，所以沙堆上升 $h\\text{ 米}$ 时，水平方向向内收进 $h\\text{ 米}$. 四个侧面都如此收进，故上底面的长，宽分别为</p><p>$c=a-2h$，$d=b-2h$，并且应有 $a\\ge2h$，$b\\ge2h$.</p><p>将沙堆分解为一个底为 $c\\times d$、高为 $h$ 的直棱柱，沿 $c$ 方向的两块底为直角三角形且两直角边均为 $h$ 的三棱柱，沿 $d$ 方向的另外两块同类三棱柱，以及四个底面为边长 $h$ 的正方形、高为 $h$ 的棱锥. 因此</p>\n$$\nV=cdh+2\\left(\\frac{1}{2}h^{2}c\\right)+2\\left(\\frac{1}{2}h^{2}d\\right)+4\\left(\\frac{1}{3}h^{3}\\right)=h\\left(a-2h\\right)\\left(b-2h\\right)+h^{2}\\left(a+b-4h\\right)+\\frac{4}{3}h^{3}\n$$\n\n$$\nV=abh-(a+b)h^{2}+\\frac{4}{3}h^{3}\n$$\n<p>所以沙堆体积为 $abh-(a+b)h^{2}+\\frac{4}{3}h^{3}\\text{ 立方米}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 3,
           "body": "求根式：$\\sqrt[3]{a}$ 与 $\\sqrt{5-a}$ 的乘积.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>实数根式有意义的条件是 $5-a\\ge0$，即 $a\\le5$. 当 $0\\le a\\le5$ 时，$\\sqrt[3]{a}=\\sqrt[6]{a^{2}}$，于是</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=\\sqrt[6]{a^{2}}\\sqrt[6]{\\left(5-a\\right)^{3}}=\\sqrt[6]{a^{2}\\left(5-a\\right)^{3}}\n$$\n<p>当 $a<0$ 时，$\\sqrt[3]{a}=-\\sqrt[6]{a^{2}}$，而 $\\sqrt{5-a}=\\sqrt[6]{(5-a)^{3}}>0$，所以</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=-\\sqrt[6]{a^{2}\\left(5-a\\right)^{3}}\n$$\n<p>因此，在实数范围内</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=\\begin{cases}\\sqrt[6]{a^2\\left(5-a\\right)^3},&0\\le a\\le5,\\\\  -\\sqrt[6]{a^2\\left(5-a\\right)^3},&a<0.\\end{cases}\n$$"
+          "solution": "<p>实数根式有意义的条件是 $5-a\\ge0$，即 $a\\le5$. 当 $0\\le a\\le5$ 时，$\\sqrt[3]{a}=\\sqrt[6]{a^{2}}$，于是</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=\\sqrt[6]{a^{2}}\\sqrt[6]{\\left(5-a\\right)^{3}}=\\sqrt[6]{a^{2}\\left(5-a\\right)^{3}}\n$$\n<p>当 $a<0$ 时，$\\sqrt[3]{a}=-\\sqrt[6]{a^{2}}$，而 $\\sqrt{5-a}=\\sqrt[6]{(5-a)^{3}}>0$，所以</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=-\\sqrt[6]{a^{2}\\left(5-a\\right)^{3}}\n$$\n<p>因此，在实数范围内</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=\\begin{cases}\\sqrt[6]{a^2\\left(5-a\\right)^3},&0\\le a\\le5,\\\\  -\\sqrt[6]{a^2\\left(5-a\\right)^3},&a<0.\\end{cases}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 4,
           "body": "解方程：$x^{1+\\lg x}=20^{\\log_{20}100}$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由对数的定义，$20^{\\log_{20}100}=100$，所以原方程为 $x^{1+\\lg x}=100$. 令 $t=\\lg x$，则定义域要求 $x>0$，且 $x=10^{t}$. 于是</p>\n$$\n10^{t\\left(1+t\\right)}=10^{2}\n$$\n<p>从而 $t(1+t)=2$，即</p><p>$t^{2}+t-2=0$，$\\left(t+2\\right)\\left(t-1\\right)=0$.</p><p>所以 $t=1$ 或 $t=-2$，相应地 $x=10$ 或 $x=10^{-2}=\\frac{1}{100}$. 两个数都大于零，并且分别代入可得 $10^{1+1}=100$，$\\left(10^{-2}\\right)^{1-2}=10^{2}=100$，故原方程的解为 $x=10$，$x=\\frac{1}{100}$.</p>"
+          "solution": "<p>由对数的定义，$20^{\\log_{20}100}=100$，所以原方程为 $x^{1+\\lg x}=100$. 令 $t=\\lg x$，则定义域要求 $x>0$，且 $x=10^{t}$. 于是</p>\n$$\n10^{t\\left(1+t\\right)}=10^{2}\n$$\n<p>从而 $t(1+t)=2$，即</p><p>$t^{2}+t-2=0$，$\\left(t+2\\right)\\left(t-1\\right)=0$.</p><p>所以 $t=1$ 或 $t=-2$，相应地 $x=10$ 或 $x=10^{-2}=\\frac{1}{100}$. 两个数都大于零，并且分别代入可得 $10^{1+1}=100$，$\\left(10^{-2}\\right)^{1-2}=10^{2}=100$，故原方程的解为 $x=10$，$x=\\frac{1}{100}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 5,
           "body": "<ol class=\"enumerate\"><li><p>解方程组：$\\begin{cases}2x-5z=10-6a,\\\\  x-2y+3z=2a+1,\\\\  5x-6y+9z=23-10a.\\end{cases}$</p></li><li><p>若 $x$ 为某直角三角形的斜边，$y$ 及 $z$ 为直角边，试确定 $a$ 的值.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将第二式乘以 $3$，得 $3x-6y+9z=6a+3$. 用第三式减去这个等式，得到</p><p>$2x=20-16a$，所以 $x=10-8a$. 代入第一式，得</p><p>$2\\left(10-8a\\right)-5z=10-6a$，所以 $z=2-2a$. 再将 $x$，$z$ 代入第二式，得</p>\n$$\n10-8a-2y+3\\left(2-2a\\right)=2a+1\n$$\n<p>即 $y=\\frac{15-16a}{2}$. 因而方程组的解为</p><p>$x=10-8a$，$y=\\frac{15-16a}{2}$，$z=2-2a$.</p></li><li><p>三条边长必须为正，且由勾股定理</p>\n$$\n(10-8a)^{2}=\\left(\\frac{15-16a}{2}\\right)^{2}+(2-2a)^{2}\n$$\n<p>两边乘以 $4$，并展开，得到</p>\n$$\n400-640a+256a^{2}=225-480a+256a^{2}+16-32a+16a^{2}\n$$\n<p>即 $16a^{2}+128a-159=0$. 因而</p>\n$$\na=\\frac{-128\\pm\\sqrt{128^2+4\\cdot16\\cdot159}}{32}=\\frac{-128\\pm8\\sqrt{415}}{32}=\\frac{-16\\pm\\sqrt{415}}{4}\n$$\n<p>由于 $20<\\sqrt{415}<21$，正根 $a_{+}=\\frac{-16+\\sqrt{415}}{4}$ 满足 $1<a_{+}<\\frac{5}{4}$，于是 $z=2-2a_{+}<0$，且 $y=\\frac{15-16a_{+}}{2}<0$，不符合直角边为边长的要求. 负根 $a_{-}=\\frac{-16-\\sqrt{415}}{4}<-9$ 时，$x=10-8a_{-}>0$，$y=\\frac{15-16a_{-}}{2}>0$，$z=2-2a_{-}>0$，且已经满足上面的勾股等式，因此有效. 故 $a=\\frac{-16-\\sqrt{415}}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将第二式乘以 $3$，得 $3x-6y+9z=6a+3$. 用第三式减去这个等式，得到</p><p>$2x=20-16a$，所以 $x=10-8a$. 代入第一式，得</p><p>$2\\left(10-8a\\right)-5z=10-6a$，所以 $z=2-2a$. 再将 $x$，$z$ 代入第二式，得</p>\n$$\n10-8a-2y+3\\left(2-2a\\right)=2a+1\n$$\n<p>即 $y=\\frac{15-16a}{2}$. 因而方程组的解为</p><p>$x=10-8a$，$y=\\frac{15-16a}{2}$，$z=2-2a$.</p></li><li><p>三条边长必须为正，且由勾股定理</p>\n$$\n(10-8a)^{2}=\\left(\\frac{15-16a}{2}\\right)^{2}+(2-2a)^{2}\n$$\n<p>两边乘以 $4$，并展开，得到</p>\n$$\n400-640a+256a^{2}=225-480a+256a^{2}+16-32a+16a^{2}\n$$\n<p>即 $16a^{2}+128a-159=0$. 因而</p>\n$$\na=\\frac{-128\\pm\\sqrt{128^2+4\\cdot16\\cdot159}}{32}=\\frac{-128\\pm8\\sqrt{415}}{32}=\\frac{-16\\pm\\sqrt{415}}{4}\n$$\n<p>由于 $20<\\sqrt{415}<21$，正根 $a_{+}=\\frac{-16+\\sqrt{415}}{4}$ 满足 $1<a_{+}<\\frac{5}{4}$，于是 $z=2-2a_{+}<0$，且 $y=\\frac{15-16a_{+}}{2}<0$，不符合直角边为边长的要求. 负根 $a_{-}=\\frac{-16-\\sqrt{415}}{4}<-9$ 时，$x=10-8a_{-}>0$，$y=\\frac{15-16a_{-}}{2}>0$，$z=2-2a_{-}>0$，且已经满足上面的勾股等式，因此有效. 故 $a=\\frac{-16-\\sqrt{415}}{4}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 6,
           "body": "已知：$\\alpha$，$\\beta$ 皆为锐角，求证：$\\sin(\\alpha+\\beta)\\leq\\sin\\alpha+\\sin\\beta$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由两角和的正弦公式，</p>\n$$\n\\sin\\left(\\alpha+\\beta\\right)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta\n$$\n<p>因为 $\\alpha$，$\\beta$ 都是锐角，所以 $\\sin\\alpha>0$，$\\sin\\beta>0$，且 $0<\\cos\\alpha<1$，$0<\\cos\\beta<1$. 因此</p>\n$$\n\\sin\\alpha+\\sin\\beta-\\sin\\left(\\alpha+\\beta\\right)  =\\sin\\alpha\\left(1-\\cos\\beta\\right)+\\sin\\beta\\left(1-\\cos\\alpha\\right)>0\n$$\n<p>这里 $\\sin\\alpha$，$\\sin\\beta$，$1-\\cos\\alpha$，$1-\\cos\\beta$ 都为正数，所以</p>\n$$\n\\sin\\left(\\alpha+\\beta\\right)<\\sin\\alpha+\\sin\\beta\n$$\n<p>严格不等式必然推出题中的不等式，故命题得证.</p>"
+          "solution": "<p>由两角和的正弦公式，</p>\n$$\n\\sin\\left(\\alpha+\\beta\\right)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta\n$$\n<p>因为 $\\alpha$，$\\beta$ 都是锐角，所以 $\\sin\\alpha>0$，$\\sin\\beta>0$，且 $0<\\cos\\alpha<1$，$0<\\cos\\beta<1$. 因此</p>\n$$\n\\sin\\alpha+\\sin\\beta-\\sin\\left(\\alpha+\\beta\\right)  =\\sin\\alpha\\left(1-\\cos\\beta\\right)+\\sin\\beta\\left(1-\\cos\\alpha\\right)>0\n$$\n<p>这里 $\\sin\\alpha$，$\\sin\\beta$，$1-\\cos\\alpha$，$1-\\cos\\beta$ 都为正数，所以</p>\n$$\n\\sin\\left(\\alpha+\\beta\\right)<\\sin\\alpha+\\sin\\beta\n$$\n<p>严格不等式必然推出题中的不等式，故命题得证.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 7,
           "body": "已知，正方形 $ABCD$ 边长为 $a$，连接相邻各边中点，得一正方形 $A_{1}B_{1}C_{1}D_{1}$，再连接 $A_{1}B_{1}C_{1}D_{1}$ 相邻各边中点又得一个正方形 $A_{2}B_{2}C_{2}D_{2}$，如此相继下去，可得无数多个正方形. 求这些正方形面积的总和.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设第 $n$ 个正方形的边长为 $l_{n}$，面积为 $S_{n}$，其中原正方形是第一个正方形. 在边长为 $l_{n}$ 的正方形中，相邻两边中点的距离为</p>\n$$\nl_{n+1}=\\sqrt{\\left(\\frac{l_n}{2}\\right)^{2}+\\left(\\frac{l_n}{2}\\right)^{2}}=\\frac{\\sqrt{2}}{2}l_{n}\n$$\n<p>所以相邻两个正方形的面积满足 $S_{n+1}=\\frac{1}{2}S_{n}$，且 $S_{1}=a^{2}$. 前 $N$ 个正方形的面积和为</p>\n$$\nS_{1}+S_{2}+\\cdots+S_{N}=a^{2}\\frac{1-\\left(\\frac{1}{2}\\right)^{N}}{1-\\frac{1}{2}}=2a^{2}\\left(1-\\left(\\frac{1}{2}\\right)^{N}\\right)\n$$\n<p>令 $N$ 无限增大，$\\left(\\frac{1}{2}\\right)^{N}$ 趋于 $0$，故这些正方形面积的总和为 $2a^{2}$.</p>"
+          "solution": "<p>设第 $n$ 个正方形的边长为 $l_{n}$，面积为 $S_{n}$，其中原正方形是第一个正方形. 在边长为 $l_{n}$ 的正方形中，相邻两边中点的距离为</p>\n$$\nl_{n+1}=\\sqrt{\\left(\\frac{l_n}{2}\\right)^{2}+\\left(\\frac{l_n}{2}\\right)^{2}}=\\frac{\\sqrt{2}}{2}l_{n}\n$$\n<p>所以相邻两个正方形的面积满足 $S_{n+1}=\\frac{1}{2}S_{n}$，且 $S_{1}=a^{2}$. 前 $N$ 个正方形的面积和为</p>\n$$\nS_{1}+S_{2}+\\cdots+S_{N}=a^{2}\\frac{1-\\left(\\frac{1}{2}\\right)^{N}}{1-\\frac{1}{2}}=2a^{2}\\left(1-\\left(\\frac{1}{2}\\right)^{N}\\right)\n$$\n<p>令 $N$ 无限增大，$\\left(\\frac{1}{2}\\right)^{N}$ 趋于 $0$，故这些正方形面积的总和为 $2a^{2}$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 8,
           "body": "解不等式：$2\\cos^{2}x-\\left(2+\\sqrt{3}\\right)\\cos x+\\sqrt{3}<0$.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>令 $t=\\cos x$，则 $-1\\le t\\le1$，并且</p>\n$$\n2t^{2}-\\left(2+\\sqrt{3}\\right)t+\\sqrt{3}=(t-1)(2t-\\sqrt{3})\n$$\n<p>因此原不等式等价于 $\\left(t-1\\right)\\left(2t-\\sqrt{3}\\right)<0$. 在 $-1\\le t\\le1$ 内，始终有 $t-1\\le0$. 要使乘积为负，必须同时满足 $t-1<0$ 和 $2t-\\sqrt{3}>0$，即</p>\n$$\n\\frac{\\sqrt{3}}{2}<\\cos x<1\n$$\n<p>由 $\\cos x>\\frac{\\sqrt{3}}{2}$，得 $2k\\pi-\\frac{\\pi}{6}<x<2k\\pi+\\frac{\\pi}{6}$，其中 $k\\in\\mathbb{Z}$. 条件 $\\cos x<1$ 排除各区间中心的 $x=2k\\pi$. 所以原不等式的解集为</p>\n$$\nx\\in\\bigcup_{k\\in\\mathbb{Z}}\\left[\\left(2k\\pi-\\frac{\\pi}{6},2k\\pi\\right)\\cup\\left(2k\\pi,2k\\pi+\\frac{\\pi}{6}\\right)\\right]\n$$"
+          "solution": "<p>令 $t=\\cos x$，则 $-1\\le t\\le1$，并且</p>\n$$\n2t^{2}-\\left(2+\\sqrt{3}\\right)t+\\sqrt{3}=(t-1)(2t-\\sqrt{3})\n$$\n<p>因此原不等式等价于 $\\left(t-1\\right)\\left(2t-\\sqrt{3}\\right)<0$. 在 $-1\\le t\\le1$ 内，始终有 $t-1\\le0$. 要使乘积为负，必须同时满足 $t-1<0$ 和 $2t-\\sqrt{3}>0$，即</p>\n$$\n\\frac{\\sqrt{3}}{2}<\\cos x<1\n$$\n<p>由 $\\cos x>\\frac{\\sqrt{3}}{2}$，得 $2k\\pi-\\frac{\\pi}{6}<x<2k\\pi+\\frac{\\pi}{6}$，其中 $k\\in\\mathbb{Z}$. 条件 $\\cos x<1$ 排除各区间中心的 $x=2k\\pi$. 所以原不等式的解集为</p>\n$$\nx\\in\\bigcup_{k\\in\\mathbb{Z}}\\left[\\left(2k\\pi-\\frac{\\pi}{6},2k\\pi\\right)\\cup\\left(2k\\pi,2k\\pi+\\frac{\\pi}{6}\\right)\\right]\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }

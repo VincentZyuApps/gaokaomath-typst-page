@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,8 +11,8 @@
 #part-header("单选题")
 
 #problem(1)[
-设 $i$ 是虚数单位，复数 $(1 + a i)/(2 - i)$ 为纯虚数，则实数 $a$ 为（ ）
-  #choices([$2$], [$-2$], [$-(1)/(2)$], [$(1)/(2)$], cols: 4)
+设 #mi(`\mathrm{i}`) 是虚数单位，复数 #mi(`\frac{1 + a\mathrm{i}}{2 - \mathrm{i}}`) 为纯虚数，则实数 #mi(`a`) 为（ ）
+  #choices([#mi(`2`)], [#mi(`-2`)], [#mi(`-\frac{1}{2}`)], [#mi(`\frac{1}{2}`)], cols: 2)
 ]
 
 #answer([A])
@@ -20,14 +20,18 @@
 #solution[
 分母乘以共轭复数，得
 
-$ (1+a i)/(2- i)=((1+a i )(2+ i ))/(5)=(2-a+(1+2 a) i)/(5) $
 
-复数为纯虚数，所以实部为零，即 $2-a=0$，解得 $a=2$，故选 A.
+#align(center)[#mitex(`
+\frac{1+a\mathrm{i}}{2-\mathrm{i}}=\frac{(1+a\mathrm{i})(2+\mathrm{i})}{5}=\frac{2-a+(1+2a)\mathrm{i}}{5}
+`)]
+
+
+复数为纯虚数，所以实部为零，即 #mi(`2-a=0`)，解得 #mi(`a=2`)，故选 A.
 ]
 
 #problem(2)[
-双曲线 $2 x^(2) - y^(2) = 8$ 的实轴长是（ ）
-  #choices([$2$], [$2 sqrt(2)$], [$4$], [$4 sqrt(2)$], cols: 4)
+双曲线 #mi(`2x^{2}- y^{2}= 8`) 的实轴长是（ ）
+  #choices([#mi(`2`)], [#mi(`2\sqrt{2}`)], [#mi(`4`)], [#mi(`4\sqrt{2}`)], cols: 2)
 ]
 
 #answer([C])
@@ -35,29 +39,37 @@ $ (1+a i)/(2- i)=((1+a i )(2+ i ))/(5)=(2-a+(1+2 a) i)/(5) $
 #solution[
 将方程化为标准形式：
 
-$ (x^(2))/(4)-(y^(2))/(8)=1 $
 
-因此双曲线的实半轴长为 $2$，实轴长为 $2 times 2 =4$，故选 C.
+#align(center)[#mitex(`
+\frac{x^{2}}{4}-\frac{y^{2}}{8}=1
+`)]
+
+
+因此双曲线的实半轴长为 #mi(`2`)，实轴长为 #mi(`2\times2=4`)，故选 C.
 ]
 
 #problem(3)[
-设 $f(x)$ 是定义在 $RR$ 上的奇函数，当 $x <= 0$ 时，$f(x) = 2 x^2 - x$，则 $f(1) =$（ ）
-  #choices([$-3$], [$-1$], [$1$], [$3$], cols: 4)
+设 #mi(`f(x)`) 是定义在 #mi(`\mathbb{R}`) 上的奇函数，当 #mi(`x \le 0`) 时，#mi(`f(x) = 2x^{2} - x`)，则 #mi(`f(1) =`)（ ）
+  #choices([#mi(`-3`)], [#mi(`-1`)], [#mi(`1`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-因为 $-1 <= 0$，所以
+因为 #mi(`-1\leqslant0`)，所以
 
-$ f(-1)=2(-1)^2-(-1)=3 $
 
-函数为奇函数，故 $f(1)=-f(-1)=-3$，故选 A.
+#align(center)[#mitex(`
+f(-1)=2(-1)^{2}-(-1)=3
+`)]
+
+
+函数为奇函数，故 #mi(`f(1)=-f(-1)=-3`)，故选 A.
 ]
 
 #problem(4)[
-设变量 $x$，$y$ 满足 $|x| + |y| <= 1$，则 $x + 2 y$ 的最大值和最小值分别为（ ）
-  #choices([$1$，$-1$], [$2$，$-2$], [$1$，$-2$], [$2$，$-1$], cols: 4)
+设变量 #mi(`x`)，#mi(`y`) 满足 #mi(`|x| + |y| \le 1`)，则 #mi(`x + 2y`) 的最大值和最小值分别为（ ）
+  #choices([#mi(`1`)，#mi(`-1`)], [#mi(`2`)，#mi(`-2`)], [#mi(`1`)，#mi(`-2`)], [#mi(`2`)，#mi(`-1`)], cols: 2)
 ]
 
 #answer([B])
@@ -65,30 +77,46 @@ $ f(-1)=2(-1)^2-(-1)=3 $
 #solution[
 由三角不等式，
 
-$ x+2 y <= |x|+2|y|=(|x|+|y|)+|y| <= 2 $
 
-当 $(x,y)=(0,1)$ 时取到上界. 类似地，
+#align(center)[#mitex(`
+x+2y\le |x|+2|y|=(|x|+|y|)+|y|\leqslant2
+`)]
 
-$ x+2 y >= -|x|-2|y| >= -2 $
 
-当 $(x,y)=(0,-1)$ 时取到下界. 因此最大值和最小值分别为 $2$，$-2$，故选 B.
+当 #mi(`(x,y)=(0,1)`) 时取到上界. 类似地，
+
+
+#align(center)[#mitex(`
+x+2y\ge-|x|-2|y|\ge-2
+`)]
+
+
+当 #mi(`(x,y)=(0,-1)`) 时取到下界. 因此最大值和最小值分别为 #mi(`2`)，#mi(`-2`)，故选 B.
 ]
 
 #problem(5)[
-在极坐标系中，点 $(2, (pi)/(3))$ 到圆 $rho = 2 cos theta$ 的圆心的距离为（ ）
-  #choices([$2$], [$sqrt(4 + (pi ""^2)/(9))$], [$sqrt(1 + (pi ""^2)/(9))$], [$sqrt(3)$], cols: 2)
+在极坐标系中，点 #mi(`\left(2, \frac{\pi}{3}\right)`) 到圆 #mi(`\rho = 2\cos \theta`) 的圆心的距离为（ ）
+  #choices([#mi(`2`)], [#mi(`\sqrt{4 + \frac{\pi^{2}}{9}}`)], [#mi(`\sqrt{1 + \frac{\pi^{2}}{9}}`)], [#mi(`\sqrt{3}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-极坐标点 $(2,(pi)/(3))$ 的直角坐标为
+极坐标点 #mi(`\left(2,\frac{\pi}{3}\right)`) 的直角坐标为
 
-$ (2 cos (pi)/(3),2 sin (pi)/(3))=(1,sqrt(3)) $
 
-圆的方程满足 $rho ""^2=2 rho cos theta$，所以其直角坐标方程为 $x^2+y^2=2 x$，即 $(x-1)^2+y^2=1$，圆心为 $(1,0)$. 所求距离为
+#align(center)[#mitex(`
+\left(2\cos\frac{\pi}{3},2\sin\frac{\pi}{3}\right)=(1,\sqrt{3})
+`)]
 
-$ sqrt((1-1)^2+(sqrt(3)-0)^2)=sqrt(3) $
+
+圆的方程满足 #mi(`\rho^{2}=2\rho\cos\theta`)，所以其直角坐标方程为 #mi(`x^{2}+y^{2}=2x`)，即 #mi(`(x-1)^{2}+y^{2}=1`)，圆心为 #mi(`(1,0)`). 所求距离为
+
+
+#align(center)[#mitex(`
+\sqrt{(1-1)^{2}+\left(\sqrt{3}-0\right)^{2}}=\sqrt{3}
+`)]
+
 
 故选 D.
 ]
@@ -97,359 +125,363 @@ $ sqrt((1-1)^2+(sqrt(3)-0)^2)=sqrt(3) $
 一个空间几何体的三视图如图所示，则该几何体的表面积为（ ）
 
 
-#align(center)[#image("/papers/2011/img/anhui_science/q6_fig1.png", width: 62%)]
-  #choices([$48$], [$32 + 8 sqrt(17)$], [$48 + 8 sqrt(17)$], [$80$], cols: 2)
+#align(center)[#image("/papers/2011/img/anhui_science/q6_fig1.png", width: 28%)]
+
+  #choices([#mi(`48`)], [#mi(`32 + 8\sqrt{17}`)], [#mi(`48 + 8\sqrt{17}`)], [#mi(`80`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-由三视图可知，该几何体是以等腰梯形为底面的直棱柱. 等腰梯形的上底、下底和高分别为 $2$，$4$，$4$，直棱柱的高为 $4$. 梯形两腰长为
+由三视图可知，该几何体是以等腰梯形为底面的直棱柱. 等腰梯形的上底、下底和高分别为 #mi(`2`)，#mi(`4`)，#mi(`4`)，直棱柱的高为 #mi(`4`). 梯形两腰长为
 
-$ sqrt(4^2+((4-2)/(2))^2)=sqrt(17) $
+
+#align(center)[#mitex(`
+\sqrt{4^{2}+\left(\frac{4-2}{2}\right)^{2}}=\sqrt{17}
+`)]
+
 
 因此一个底面的面积为
 
-$ (2+4)/(2) times 4 =12 $
 
-两个底面的面积和为 $24$，四个侧面的面积和为
+#align(center)[#mitex(`
+\frac{2+4}{2}\times4=12
+`)]
 
-$ 4(2+4+2 sqrt(17))=24+8 sqrt(17) $
 
-所以表面积为 $24+24+8 sqrt(17)=48+8 sqrt(17)$，故选 C.
+两个底面的面积和为 #mi(`24`)，四个侧面的面积和为
+
+
+#align(center)[#mitex(`
+4\left(2+4+2\sqrt{17}\right)=24+8\sqrt{17}
+`)]
+
+
+所以表面积为 #mi(`24+24+8\sqrt{17}=48+8\sqrt{17}`)，故选 C.
 ]
 
 #problem(7)[
-命题“所有能被 $2$ 整除的整数都是偶数”的否定是（ ）
-  #choices([所有不能被 $2$ 整除的整数都是偶数], [所有能被 $2$ 整除的整数都不是偶数], [存在一个不能被 $2$ 整除的整数是偶数], [存在一个能被 $2$ 整除的整数不是偶数], cols: 2)
+命题“所有能被 #mi(`2`) 整除的整数都是偶数”的否定是（ ）
+  #choices([所有不能被 #mi(`2`) 整除的整数都是偶数], [所有能被 #mi(`2`) 整除的整数都不是偶数], [存在一个不能被 #mi(`2`) 整除的整数是偶数], [存在一个能被 #mi(`2`) 整除的整数不是偶数], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-原命题是“对所有整数，若该整数能被 $2$ 整除，则它是偶数”. 否定全称命题时，将“所有”改为“存在一个”，并否定结论，因此否定为“存在一个能被 $2$ 整除的整数不是偶数”，故选 D.
+原命题是“对所有整数，若该整数能被 #mi(`2`) 整除，则它是偶数”. 否定全称命题时，将“所有”改为“存在一个”，并否定结论，因此否定为“存在一个能被 #mi(`2`) 整除的整数不是偶数”，故选 D.
 ]
 
 #problem(8)[
-设集合 $A = \{1, 2, 3, 4, 5, 6\}$，$B = \{4, 5, 6, 7, 8\}$，则满足 $S subset.eq A$ 且 $S inter B != emptyset$ 的集合 $S$ 的个数是（ ）
-  #choices([$57$], [$56$], [$49$], [$8$], cols: 4)
+设集合 #mi(`A = \{1, 2, 3, 4, 5, 6\}`)，#mi(`B = \{4, 5, 6, 7, 8\}`)，则满足 #mi(`S \subseteq A`) 且 #mi(`S \cap B \neq \varnothing`) 的集合 #mi(`S`) 的个数是（ ）
+  #choices([#mi(`57`)], [#mi(`56`)], [#mi(`49`)], [#mi(`8`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-集合 $A$ 有 $2^6=64$ 个子集. 因为 $S subset.eq A$，所以 $S inter B=S inter \{4,5,6\}$. 不满足条件的子集必须不含 $4$，$5$，$6$，只能从 $\{1,2,3\}$ 中取，计有 $2^3=8$ 个. 因此满足条件的集合数为
+集合 #mi(`A`) 有 #mi(`2^{6}=64`) 个子集. 因为 #mi(`S\subseteq A`)，所以 #mi(`S\cap B=S\cap\{4,5,6\}`). 不满足条件的子集必须不含 #mi(`4`)，#mi(`5`)，#mi(`6`)，只能从 #mi(`\{1,2,3\}`) 中取，计有 #mi(`2^{3}=8`) 个. 因此满足条件的集合数为
 
-$ 2^6-2^3=64-8=56 $
+
+#align(center)[#mitex(`
+2^{6}-2^{3}=64-8=56
+`)]
+
 
 故选 B.
 ]
 
 #problem(9)[
-已知函数 $f(x) = sin (2 x + phi.alt )$，其中 $phi.alt$ 为实数，若 $f(x) <= |f((pi)/(6))|$ 对 $x in RR$ 恒成立，且 $f((pi)/(2)) > f( pi )$，则 $f(x)$ 的单调递增区间是（ ）
-  #choices([$[k pi - (pi)/(3), k pi + (pi)/(6)]$（$k in ZZ$）], [$[k pi , k pi + (pi)/(2)]$（$k in ZZ$）], [$[k pi + (pi)/(6), k pi + (2 pi)/(3)]$（$k in ZZ$）], [$[k pi - (pi)/(2), k pi ]$（$k in ZZ$）], cols: 1)
+已知函数 #mi(`f(x) = \sin (2x + \varphi)`)，其中 #mi(`\varphi`) 为实数，若 #mi(`f(x) \le \left|f\left(\frac{\pi}{6}\right)\right|`) 对 #mi(`x \in \mathbb{R}`) 恒成立，且 #mi(`f\left(\frac{\pi}{2}\right) > f(\pi)`)，则 #mi(`f(x)`) 的单调递增区间是（ ）
+  #choices([#mi(`\left[k\pi - \frac{\pi}{3}, k\pi + \frac{\pi}{6}\right]`)（#mi(`k \in \mathbb{Z}`)）], [#mi(`\left[k\pi, k\pi + \frac{\pi}{2}\right]`)（#mi(`k \in \mathbb{Z}`)）], [#mi(`\left[k\pi + \frac{\pi}{6}, k\pi + \frac{2\pi}{3}\right]`)（#mi(`k \in \mathbb{Z}`)）], [#mi(`\left[k\pi - \frac{\pi}{2}, k\pi\right]`)（#mi(`k \in \mathbb{Z}`)）], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-函数 $f$ 的最大值为 $1$，由题设恒成立不等式可知
+函数 #mi(`f`) 的最大值为 #mi(`1`)，由题设恒成立不等式可知
 
-$ 1 <= |f((pi)/(6))| <= 1 $
 
-故 $| sin ((pi)/(3)+ phi.alt )|=1$，从而
-$phi.alt =(pi)/(6)+k pi$，$k in ZZ$.
+#align(center)[#mitex(`
+1\le\left|f\left(\frac{\pi}{6}\right)\right|\leqslant1
+`)]
+
+
+故 #mi(`\left|\sin\left(\frac{\pi}{3}+\varphi\right)\right|=1`)，从而
+
+#mi(`\varphi=\frac{\pi}{6}+k\pi`)，#mi(`k\in\mathbb{Z}`).
+
 又
-$f((pi)/(2))=- sin phi.alt$，$f( pi )= sin phi.alt$.
-由题设得 $sin phi.alt <0$. 于是 $k$ 为奇数，故可将 $phi.alt$ 写成 $(7 pi)/(6)+2 m pi$.
+
+#mi(`f\left(\frac{\pi}{2}\right)=-\sin\varphi`)，#mi(`f(\pi)=\sin\varphi`).
+
+由题设得 #mi(`\sin\varphi<0`). 于是 #mi(`k`) 为奇数，故可将 #mi(`\varphi`) 写成 #mi(`\frac{7\pi}{6}+2m\pi`).
 
 因为
 
-$ f'(x)=2 cos (2 x+ phi.alt ) $
 
-所以函数递增当且仅当 $-(pi)/(2)+2 j pi <= 2 x+ phi.alt <= (pi)/(2)+2 j pi$. 代入 $phi.alt =(7 pi)/(6)+2 m pi$，并整理得
+#align(center)[#mitex(`
+f'(x)=2\cos(2x+\varphi)
+`)]
 
-$ j pi -(5 pi)/(6) <= x <= j pi -(pi)/(3) $
 
-将整数下标重新记为 $k-1$，递增区间为 $[k pi +(pi)/(6),k pi +(2 pi)/(3)]$，故选 C.
+所以函数递增当且仅当 #mi(`-\frac{\pi}{2}+2j\pi\leqslant2x+\varphi\le\frac{\pi}{2}+2j\pi`). 代入 #mi(`\varphi=\frac{7\pi}{6}+2m\pi`)，并整理得
+
+
+#align(center)[#mitex(`
+j\pi-\frac{5\pi}{6}\le x\le j\pi-\frac{\pi}{3}
+`)]
+
+
+将整数下标重新记为 #mi(`k-1`)，递增区间为 #mi(`\left[k\pi+\frac{\pi}{6},k\pi+\frac{2\pi}{3}\right]`)，故选 C.
 ]
 
 #problem(10)[
-函数 $f(x) = a x^(m)(1 - x)^n$ 在区间 $[0,1]$ 上的图象如图所示，则 $m$，$n$ 的值可能是（ ）
+函数 #mi(`f(x) = ax^{m}(1 - x)^{n}`) 在区间 #mi(`[0,1]`) 上的图象如图所示，则 #mi(`m`)，#mi(`n`) 的值可能是（ ）
 
 
-#align(center)[#image("/papers/2011/img/anhui_science/q10_fig1.png", width: 46%)]
-  #choices([$m = 1$，$n = 1$], [$m = 1$，$n = 2$], [$m = 2$，$n = 1$], [$m = 3$，$n = 1$], cols: 4)
+#align(center)[#image("/papers/2011/img/anhui_science/q10_fig1.png", width: 28%)]
+
+  #choices([#mi(`m = 1`)，#mi(`n = 1`)], [#mi(`m = 1`)，#mi(`n = 2`)], [#mi(`m = 2`)，#mi(`n = 1`)], [#mi(`m = 3`)，#mi(`n = 1`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-对候选的正整数 $m$，$n$，有
+对候选的正整数 #mi(`m`)，#mi(`n`)，有
 
-$ f'(x)=a x^(m-1)(1-x)^(n-1)[m-(m+n)x] $
 
-图象的最高点位于 $0.5$ 左侧，因此极大值点应满足 $(m)/(m+n)<(1)/(2)$，即 $m<n$. 四个选项中只有 $m=1$，$n=2$ 满足这一条件；并且此时右端点因子为 $(1-x)^2$，图象在 $x=1$ 处与横轴相切，与图形一致，故选 B.
+#align(center)[#mitex(`
+f'(x)=a x^{m-1}(1-x)^{n-1}\bigl[m-(m+n)x\bigr]
+`)]
+
+
+图象的最高点位于 #mi(`0.5`) 左侧，因此极大值点应满足 #mi(`\frac{m}{m+n}<\frac{1}{2}`)，即 #mi(`m<n`). 四个选项中只有 #mi(`m=1`)，#mi(`n=2`) 满足这一条件；并且此时右端点因子为 #mi(`(1-x)^{2}`)，图象在 #mi(`x=1`) 处与横轴相切，与图形一致，故选 B.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-如图所示，程序框图（算法流程图）的输出结果是#blank(){}.
+如图所示，程序框图（算法流程图）的输出结果是\underline{\hspace{2.5em}}.
 
 
-#align(center)[#image("/papers/2011/img/anhui_science/q11_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2011/img/anhui_science/q11_fig1.png", width: 28%)]
+
 ]
 
-#answer([$15$])
+#answer([#mi(`15`)])
 
 #solution[
-初始时 $T=0$，$k=0$. 每次先执行 $T=T+k$，若结果不超过 $105$，再令 $k=k+1$ 并进入下一轮. 因此依次累加 $0$，$1$，$\l d o t s$，$14$ 后，
+初始时 #mi(`T=0`)，#mi(`k=0`). 每次先执行 #mi(`T=T+k`)，若结果不超过 #mi(`105`)，再令 #mi(`k=k+1`) 并进入下一轮. 因此依次累加 #mi(`0`)，#mi(`1`)，#mi(`\ldots`)，#mi(`14`) 后，
 
-$ T=0+1+ dots.c +14=(14 times 15)/(2)=105 $
 
-此时条件 $T>105$ 不成立，令 $k=15$. 下一轮得到 $T=105+15=120>105$，所以输出 $k=15$.
+#align(center)[#mitex(`
+T=0+1+\cdots+14=\frac{14\times15}{2}=105
+`)]
+
+
+此时条件 #mi(`T>105`) 不成立，令 #mi(`k=15`). 下一轮得到 #mi(`T=105+15=120>105`)，所以输出 #mi(`k=15`).
 ]
 
 #problem(12)[
-设 $(x - 1)^(21) = a_0 + a_(1) x + a_(2) x^2 + ... + a_(21)x^(21)$，则 $a_(10) + a_(11) =\f i l l i n b l a n k{}$.
+设 #mi(`(x - 1)^{21}= a_{0} + a_{1}x + a_{2}x^{2} + \dots + a_{21}x^{21}`)，则 #mi(`a_{10}+ a_{11}=\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$0$])
+#answer([#mi(`0`)])
 
 #solution[
-由二项式定理，$x^j$ 的系数为 $a_j=C_(21)^(j)(-1)^(21-j)$. 于是
-$a_(10)=C_(21)^(10)(-1)^(11)=-C_(21)^(10)$，$a_(11)=C_(21)^(11)(-1)^(10)=C_(21)^(11)$.
-又 $C_(21)^(10)=C_(21)^(11)$，故 $a_(10)+a_(11)=0$.
+由二项式定理，#mi(`x^{j}`) 的系数为 #mi(`a_{j}=\mathrm{C}_{21}^{j}(-1)^{21-j}`). 于是
+
+#mi(`a_{10}=\mathrm{C}_{21}^{10}(-1)^{11}=-\mathrm{C}_{21}^{10}`)，#mi(`a_{11}=\mathrm{C}_{21}^{11}(-1)^{10}=\mathrm{C}_{21}^{11}`).
+
+又 #mi(`\mathrm{C}_{21}^{10}=\mathrm{C}_{21}^{11}`)，故 #mi(`a_{10}+a_{11}=0`).
 ]
 
 #problem(13)[
-已知向量 $bold(a)$，$bold(b)$ 满足 $(bold(a)+ 2 bold(b)) dot (bold(a)- bold(b)) = -6$，且 $|bold(a)| = 1$，$|bold(b)| = 2$，则 $bold(a)$ 与 $bold(b)$ 的夹角为#blank(){}.
+已知向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 满足 #mi(`(\mathbf{a}+ 2\mathbf{b}) \cdot (\mathbf{a}- \mathbf{b}) = -6`)，且 #mi(`|\mathbf{a}| = 1`)，#mi(`|\mathbf{b}| = 2`)，则 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(pi)/(3)$])
+#answer([#mi(`\frac{\pi}{3}`)])
 
 #solution[
 展开数量积，得
 
-$ (bold(a)+2 bold(b)) dot (bold(a)-bold(b))=|bold(a)|^2+bold(a)\c d o t b o l d(b)-2|bold(b)|^2 $
+
+#align(center)[#mitex(`
+(\mathbf{a}+2\mathbf{b})\cdot(\mathbf{a}-\mathbf{b})=|\mathbf{a}|^{2}+\mathbf{a}\cdot\mathbf{b}-2|\mathbf{b}|^{2}
+`)]
+
 
 代入已知条件，
 
-$ 1+bold(a)\c d o t b o l d(b)-2 times 4 =-6 $
 
-所以 $bold(a)\c d o t b o l d(b)=1$. 设两向量夹角为 $theta$，则
+#align(center)[#mitex(`
+1+\mathbf{a}\cdot\mathbf{b}-2\times4=-6
+`)]
 
-$ cos theta =(bold(a){ dot }bold(b))/(|bold(a)| |bold(b)|)=(1)/(2) $
 
-由于 $0 <= theta <= pi$，故 $theta =(pi)/(3)$.
+所以 #mi(`\mathbf{a}\cdot\mathbf{b}=1`). 设两向量夹角为 #mi(`\theta`)，则
+
+
+#align(center)[#mitex(`
+\cos\theta=\frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}|\,|\mathbf{b}|}=\frac{1}{2}
+`)]
+
+
+由于 #mi(`0\le\theta\le\pi`)，故 #mi(`\theta=\frac{\pi}{3}`).
 ]
 
 #problem(14)[
-已知 $triangle A B C$ 的一个内角为 $120^( degree )$，并且三边长构成公差为 $4$ 的等差数列，则 $triangle A B C$ 的面积为#blank(){}.
+已知 #mi(`\triangle ABC`) 的一个内角为 #mi(`120^{\circ}`)，并且三边长构成公差为 #mi(`4`) 的等差数列，则 #mi(`\triangle ABC`) 的面积为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$15 sqrt(3)$])
+#answer([#mi(`15\sqrt{3}`)])
 
 #solution[
-设三边按从小到大排列为 $x-4$，$x$，$x+4$，其中最大边 $x+4$ 对应最大角 $120^( degree )$. 由余弦定理，
+设三边按从小到大排列为 #mi(`x-4`)，#mi(`x`)，#mi(`x+4`)，其中最大边 #mi(`x+4`) 对应最大角 #mi(`120^{\circ}`). 由余弦定理，
 
-$ (x+4)^2=x^2+(x-4)^2-2 x(x-4) cos 120 ""^( degree )=x^2+(x-4)^2+x(x-4) $
 
-化简得 $2 x(x-10)=0$. 因边长为正且 $x>4$，所以 $x=10$，三边长为 $6$，$10$，$14$. 因此面积为
+#align(center)[#mitex(`
+(x+4)^{2}=x^{2}+(x-4)^{2}-2x(x-4)\cos120^{\circ}=x^{2}+(x-4)^{2}+x(x-4)
+`)]
 
-$ (1)/(2) times 6 times 10 times sin 120 ""^( degree )=15 sqrt(3) $
+
+化简得 #mi(`2x(x-10)=0`). 因边长为正且 #mi(`x>4`)，所以 #mi(`x=10`)，三边长为 #mi(`6`)，#mi(`10`)，#mi(`14`). 因此面积为
+
+
+#align(center)[#mitex(`
+\frac{1}{2}\times6\times10\times\sin120^{\circ}=15\sqrt{3}
+`)]
 ]
 
 #problem(15)[
-在平面直角坐标系中，如果 $x$ 与 $y$ 都是整数，就称点 $(x, y)$ 为整点，下列命题中正确的是#blank(){}. （写出所有正确命题的编号）
+在平面直角坐标系中，如果 #mi(`x`) 与 #mi(`y`) 都是整数，就称点 #mi(`(x, y)`) 为整点，下列命题中正确的是\underline{\hspace{2.5em}}. （写出所有正确命题的编号）
 
-\begin{circlelist}
-\item 存在这样的直线，既不与坐标轴平行又不经过任何整点；
-\item 如果 $k$ 与 $b$ 都是无理数，则直线 $y = k x + b$ 不经过任何整点；
-\item 直线 $l$ 经过无穷多个整点，当且仅当 $l$ 经过两个不同的整点；
-\item 直线 $y = k x + b$ 经过无穷多个整点的充分必要条件是：$k$ 与 $b$ 都是有理数；
-\item 存在恰经过一个整点的直线.
-\end{circlelist}
+
++ (1) 存在这样的直线，既不与坐标轴平行又不经过任何整点；
++ (2) 如果 #mi(`k`) 与 #mi(`b`) 都是无理数，则直线 #mi(`y = kx + b`) 不经过任何整点；
++ (3) 直线 #mi(`l`) 经过无穷多个整点，当且仅当 #mi(`l`) 经过两个不同的整点；
++ (4) 直线 #mi(`y = kx + b`) 经过无穷多个整点的充分必要条件是：#mi(`k`) 与 #mi(`b`) 都是有理数；
++ (5) 存在恰经过一个整点的直线.
 ]
 
-#answer([$1\)，\(3\)，\(5$])
+#answer([#mi(`1`)，#mi(`3`)，#mi(`5`)])
 
 #solution[
-对命题 1，取直线 $y=sqrt(2)x+(1)/(2)$. 它的斜率非零且有限，故不与坐标轴平行；当 $x$ 为非零整数时，$sqrt(2)x+(1)/(2)$ 为无理数，当 $x=0$ 时纵坐标为 $(1)/(2)$，所以该直线不经过任何整点，命题 1 正确.
+对命题 1，取直线 #mi(`y=\sqrt{2}x+\frac{1}{2}`). 它的斜率非零且有限，故不与坐标轴平行；当 #mi(`x`) 为非零整数时，#mi(`\sqrt{2}x+\frac{1}{2}`) 为无理数，当 #mi(`x=0`) 时纵坐标为 #mi(`\frac{1}{2}`)，所以该直线不经过任何整点，命题 1 正确.
 
-命题 2 不正确. 例如取 $k=sqrt(2)$，$b=1-sqrt(2)$，二者均为无理数，但直线经过整点 $(1,1)$.
+命题 2 不正确. 例如取 #mi(`k=\sqrt{2}`)，#mi(`b=1-\sqrt{2}`)，二者均为无理数，但直线经过整点 #mi(`(1,1)`).
 
-对命题 3，若直线经过无穷多个整点，必然经过其中两个不同的整点. 反之，若直线经过两个不同的整点 $(x_1,y_1)$，$(x_2,y_2)$，令 $d=(x_2-x_1,y_2-y_1)$，则对任意整数 $t$，点 $(x_1,y_1)+t d$ 都是整点且在该直线上，并且随 $t$ 取不同整数而互不相同，所以直线经过无穷多个整点，命题 3 正确.
+对命题 3，若直线经过无穷多个整点，必然经过其中两个不同的整点. 反之，若直线经过两个不同的整点 #mi(`(x_{1},y_{1})`)，#mi(`(x_{2},y_{2})`)，令 #mi(`d=(x_{2}-x_{1},y_{2}-y_{1})`)，则对任意整数 #mi(`t`)，点 #mi(`(x_{1},y_{1})+td`) 都是整点且在该直线上，并且随 #mi(`t`) 取不同整数而互不相同，所以直线经过无穷多个整点，命题 3 正确.
 
-命题 4 不正确. 例如直线 $y=(1)/(2)x+(1)/(3)$ 中的斜率和截距都是有理数，但若 $x$，$y$ 都是整数，则 $6 y=3 x+2$. 左边模 $3$ 为 $0$，右边模 $3$ 为 $2$，不可能相等，因此该直线没有整点，更不可能经过无穷多个整点.
+命题 4 不正确. 例如直线 #mi(`y=\frac{1}{2}x+\frac{1}{3}`) 中的斜率和截距都是有理数，但若 #mi(`x`)，#mi(`y`) 都是整数，则 #mi(`6y=3x+2`). 左边模 #mi(`3`) 为 #mi(`0`)，右边模 #mi(`3`) 为 #mi(`2`)，不可能相等，因此该直线没有整点，更不可能经过无穷多个整点.
 
-对命题 5，直线 $y=sqrt(2)x$ 经过整点 $(0,0)$. 若 $x$ 是非零整数，则 $y=sqrt(2)x$ 是无理数，不可能为整数，因此它恰经过一个整点，命题 5 正确. 故正确命题的编号为 $1$，$3$，$5$.
+对命题 5，直线 #mi(`y=\sqrt{2}x`) 经过整点 #mi(`(0,0)`). 若 #mi(`x`) 是非零整数，则 #mi(`y=\sqrt{2}x`) 是无理数，不可能为整数，因此它恰经过一个整点，命题 5 正确. 故正确命题的编号为 #mi(`1`)，#mi(`3`)，#mi(`5`).
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-设 $f(x) = (e ""^x)/(1 + a x^2)$，其中 $a$ 为正实数.
+设 #mi(`f(x) = \frac{\mathrm{e}^{x}}{1 + ax^{2}}`)，其中 #mi(`a`) 为正实数.
 
 
-+ (1) 当 $a=(4)/(3)$ 时，求 $f(x)$ 的极值点；
-+ (2) 若 $f(x)$ 为 $RR$ 上的单调函数，求 $a$ 的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 对任意 $a>0$，分母 $1+a x^2>0$，且
-
-$ f'(x)=(e ""^x(a x^2-2 a x+1))/((1+a x^2)^2) $
-
-当 $a=(4)/(3)$ 时，
-
-$ a x^2-2 a x+1=(1)/(3)(2 x-1)(2 x-3) $
-
-所以 $f'(x)$ 在 $(- oo ,(1)/(2))$ 和 $((3)/(2),+ oo )$ 上为正，在 $((1)/(2),(3)/(2))$ 上为负. 因此 $f(x)$ 的极大值点为 $x=(1)/(2)$，极大值为 $f((1)/(2))=\f r a c{3 sqrt(e)}4$；极小值点为 $x=(3)/(2)$，极小值为 $f((3)/(2))=\f r a c{ e ""^((3)/(2))}4$.
-+ (2) 因为 $e ""^x$ 和分母的平方始终为正，$f'(x)$ 的符号由
-
-$ q(x)=a x^2-2 a x+1=a(x-1)^2+1-a $
-
-决定. 当 $0<a<1$ 时，$q(x)>0$；当 $a=1$ 时，$q(x)=(x-1)^2 >= 0$，故此时 $f$ 在 $RR$ 上单调递增. 当 $a>1$ 时，$q(x)=0$ 有两个根 $1-sqrt(1-(1)/(a))$ 和 $1+sqrt(1-(1)/(a))$，且 $q(x)$ 在两根之间为负、两根外为正，函数先增、后减、再增，不是单调函数. 因此 $a$ 的取值范围为 $0<a <= 1$.
++ (1)
 ]
 
 #problem(17)[
-如图，$A B E D F C$ 为多面体，平面 $A B E D$ 与平面 $A C F D$ 垂直，点 $O$ 在线段 $A D$ 上，$O A = 1$，$O D = 2$，$triangle O A B$，$triangle O A C$，$triangle O D E$，$triangle O D F$ 都是正三角形.
+如图，#mi(`ABEDFC`) 为多面体，平面 #mi(`ABED`) 与平面 #mi(`ACFD`) 垂直，点 #mi(`O`) 在线段 #mi(`AD`) 上，#mi(`OA = 1`)，#mi(`OD = 2`)，#mi(`\triangle OAB`)，#mi(`\triangle OAC`)，#mi(`\triangle ODE`)，#mi(`\triangle ODF`) 都是正三角形.
 
 
-+ (1) 证明直线 $B C parallel E F$；
-+ (2) 求棱锥 $F-O B E D$ 的体积.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2011/img/anhui_science/q17_fig1.png", width: 44%)]
+
+#align(center)[#image("/papers/2011/img/anhui_science/q17_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 建立直角坐标系，使 $A=(0,0,0)$，$A D$ 为 $x$ 轴，平面 $A B E D$ 为 $x O y$ 平面，平面 $A C F D$ 为 $x O z$ 平面. 由 $O A=1$，$O D=2$ 得
-$O=(1,0,0)$，$D=(3,0,0)$.
-按图取各正三角形所在的一侧，则
-$B=((1)/(2),-(sqrt(3))/(2),0)$，$C=((1)/(2),0,(sqrt(3))/(2))$
-$E=(2,-sqrt(3),0)$，$F=(2,0,sqrt(3))$.
-于是
-$arrow(B C)=(0,(sqrt(3))/(2),(sqrt(3))/(2))$，$arrow(E F)=(0,sqrt(3),sqrt(3))=2 arrow(B C)$，
-故 $B C parallel E F$.
-+ (2) 底面 $O B E D$ 在平面 $A B E D$ 内. 沿对角线 $O E$ 分成两个三角形，由坐标或底乘高公式，
-$S_( triangle O B E)=(1)/(2)|(-(1)/(2))(-sqrt(3))-(-(sqrt(3))/(2))(1)|=(sqrt(3))/(2)$，$S_( triangle O E D)=(1)/(2) times O D\t i m e s s q r t(3)=sqrt(3)$.
-所以底面积为 $S_(O B E D)=(3 sqrt(3))/(2)$. 点 $F$ 到底面所在平面的距离为 $sqrt(3)$，故棱锥体积为
-
-$ V_(F-O B E D)=(1)/(3)S_(O B E D)\c d o t s q r t(3)=(1)/(3) times (3 sqrt(3))/(2)\t i m e s s q r t(3)=(3)/(2) $
++ (1)
 ]
 
 #problem(18)[
-在数 $1$ 和 $100$ 之间插入 $n$ 个实数，使得这 $n + 2$ 个数构成递增的等比数列，将这 $n + 2$ 个数的乘积记作 $T_(n)$，再令 $a_(n) = \l g T_(n)$，$n >= 1$.
+在数 #mi(`1`) 和 #mi(`100`) 之间插入 #mi(`n`) 个实数，使得这 #mi(`n + 2`) 个数构成递增的等比数列，将这 #mi(`n + 2`) 个数的乘积记作 #mi(`T_{n}`)，再令 #mi(`a_{n}= \lg T_{n}`)，#mi(`n \ge 1`).
 
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 设 $b_(n) = tan a_(n) dot tan a_(n+1)$，求数列 $\{b_(n)\}$ 的前 $n$ 项和 $S_(n)$.
++ (1)
 ]
 
 #solution[
-+ (1) 设等比数列的公比为 $r$. 因为数列递增且首末两项为 $1,100$，所以 $r>1$，并且 $r^(n+1)=100$，从而 $\l g r=(2)/(n+1)$. 这 $n+2$ 项为 $1$，$r$，$r^2$，$\l d o t s$，$r^(n+1)$，故
-
-$ T_n=r^(0+1+ dots.c +(n+1))=r^(((n+1)(n+2))/(2)) $
-
-因此
-
-$ a_n=\l g T_n=((n+1)(n+2))/(2)\l g r=n+2 $
-+ (2) 由上式，$b_n= tan (n+2) tan (n+3)$. 利用正切差角公式
-
-$ tan 1 =(tan (j+1)- tan j)/(1+ tan (j+1) tan j) $
-
-得
-
-$ tan j tan (j+1)=(tan (j+1)- tan j)/(tan 1)-1 $
-
-令 $j=3$，$4$，$\l d o t s$，$n+2$ 并求和，得到
-
-$ S_n=sum_(j=3)^(n+2) tan j tan (j+1) =(tan (n+3)- tan 3)/(tan 1)-n $
++ (1)
 ]
 
 #problem(19)[
-+ (1) 设 $x >= 1$，$y >= 1$，证明 $x + y + (1)/(x y) <= (1)/(x)+ (1)/(y)+ x y$；
-+ (2) $1 < a <= b <= c$，证明 $log _(a) b + log _(b) c + log _(c) a <= log _(b) a + log _(c) b + log _(a) c$.
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $x y>0$，原不等式等价于
-
-$ x^(2) y^2-x^(2) y-x y^2+x+y-1 >= 0 $
-
-左端可因式分解为
-
-$ (x-1)(y-1)(x y-1) $
-
-由 $x >= 1$，$y >= 1$ 可知三个因式均非负，所以原不等式成立.
-+ (2) 令 $u= ln a$，$v= ln b$，$w= ln c$，则 $0<u <= v <= w$. 由换底公式，所要证明的不等式等价于
-
-$ (v)/(u)+(w)/(v)+(u)/(w) <= (u)/(v)+(v)/(w)+(w)/(u) $
-
-再令 $x=(v)/(u) >= 1$，$y=(w)/(v) >= 1$，则 $(w)/(u)=x y$，上式化为
-
-$ x+y+(1)/(x y) <= (1)/(x)+(1)/(y)+x y $
-
-这正是第（1）问已经证明的不等式，故原不等式成立.
++ (1)
 ]
 
 #problem(20)[
-工作人员需进入核电站完成某项具有高辐射危险的任务，每次只派一个人进去，且每个人只派一次，工作时间不超过 $10$ 分钟，如果前一个人 $10$ 分钟内不能完成任务则撤出，再派下一个人. 现在一共只有甲，乙，丙三个人可派. 他们各自能完成任务的概率分别 $p_(1)$，$p_(2)$，$p_(3)$. 假设 $p_(1)$，$p_(2)$，$p_(3)$ 互不相等，且假定各人能否完成任务的事件相互独立.
+工作人员需进入核电站完成某项具有高辐射危险的任务，每次只派一个人进去，且每个人只派一次，工作时间不超过 #mi(`10`) 分钟，如果前一个人 #mi(`10`) 分钟内不能完成任务则撤出，再派下一个人. 现在一共只有甲，乙，丙三个人可派. 他们各自能完成任务的概率分别 #mi(`p_{1}`)，#mi(`p_{2}`)，#mi(`p_{3}`). 假设 #mi(`p_{1}`)，#mi(`p_{2}`)，#mi(`p_{3}`) 互不相等，且假定各人能否完成任务的事件相互独立.
 
 
-+ (1) 如果按甲最先，乙次之，丙最后的顺序派人，求任务能被完成的概率. 若改变三个人被派出的先后顺序，任务能被完成的概率是否发生变化？
-+ (2) 若按某指定顺序派人，这三个人各自能完成任务的概率依次为 $q_(1)$，$q_(2)$，$q_(3)$，其中 $q_(1)$，$q_(2)$，$q_(3)$ 是 $p_(1)$，$p_(2)$，$p_(3)$ 的一个排列. 求所需派出人员数目 $X$ 的分布列和均值（数学期望）$E(X)$；
-+ (3) 假定 $1 > p_(1) > p_(2) > p_(3)$，试分析以怎样的先后顺序派出人员，可使所需派出的人员数目的均值（数学期望）达到最小.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 任务不能完成，当且仅当甲、乙、丙都没有完成任务. 由相互独立性，其概率为 $(1-p_1)(1-p_2)(1-p_3)$，所以任务能完成的概率为
-
-$ 1-(1-p_1)(1-p_2)(1-p_3) $
-
-这个事件只由三个人是否成功决定，与派出顺序无关，因此改变顺序不会改变任务能被完成的概率.
-+ (2) 当第一个人完成任务时，$X=1$，所以 $P(X=1)=q_1$；当第一个人失败而第二个人成功时，$X=2$，所以 $P(X=2)=(1-q_1)q_2$；当前两个人都失败时，必须派出第三个人，无论第三个人成功与否均有 $X=3$，所以 $P(X=3)=(1-q_1)(1-q_2)$. 这三个概率之和为 $1$，故分布列由上述三式给出. 数学期望为
-
-$ E(X)=q_1+2(1-q_1)q_2+3(1-q_1)(1-q_2)=3-2 q_1-q_2+q_(1) q_2 $
-+ (3) 先比较前两人的顺序. 若交换前两人的成功概率，期望之差为
-
-$ E(q_1,q_2)-E(q_2,q_1)=q_2-q_1 $
-
-因此前两人的成功概率中较大的应放在前面. 再固定第一人的概率为 $q_1<1$，比较第二、第三人的顺序，有
-
-$ E(q_1,q_2)-E(q_1,q_3)=(q_3-q_2)(1-q_1) $
-
-若 $q_2>q_3$，上式小于零，所以第二人应选成功概率较大的. 由 $p_1>p_2>p_3$，先甲、再乙、后丙时均值最小.
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-设 $lambda > 0$，点 $A$ 的坐标为 $(1,1)$，点 $B$ 在抛物线 $y = x^2$ 上运动，点 $Q$ 满足 $arrow(B Q)= lambda arrow(Q A)$，经过点 $Q$ 与 $x$ 轴垂直的直线交抛物线于点 $M$，点 $P$ 满足 $arrow(Q M)= lambda arrow(M P)$，求点 $P$ 的轨迹方程.
+设 #mi(`\lambda > 0`)，点 #mi(`A`) 的坐标为 #mi(`(1,1)`)，点 #mi(`B`) 在抛物线 #mi(`y = x^{2}`) 上运动，点 #mi(`Q`) 满足 #mi(`\overrightarrow{BQ}= \lambda \overrightarrow{QA}`)，经过点 #mi(`Q`) 与 #mi(`x`) 轴垂直的直线交抛物线于点 #mi(`M`)，点 #mi(`P`) 满足 #mi(`\overrightarrow{QM}= \lambda \overrightarrow{MP}`)，求点 #mi(`P`) 的轨迹方程.
 
 
-#align(center)[#image("/papers/2011/img/anhui_science/q21_fig1.png", width: 42%)]
+#align(center)[#image("/papers/2011/img/anhui_science/q21_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-设 $B=(t,t^2)$，并设 $Q=(u,v)$. 由 $arrow(B Q)=\l a m b d a a r r o w(Q A)$，有
+设 #mi(`B=(t,t^{2})`)，并设 #mi(`Q=(u,v)`). 由 #mi(`\overrightarrow{BQ}=\lambda\overrightarrow{QA}`)，有
 
-$ (u-t,v-t^2)= lambda (1-u,1-v) $
+
+#align(center)[#mitex(`
+(u-t,v-t^{2})=\lambda(1-u,1-v)
+`)]
+
 
 因此
-$u=(t+ lambda)/(1+ lambda)$，$v=(t^2+ lambda)/(1+ lambda)$.
-过 $Q$ 的竖直直线与抛物线交于 $M=(u,u^2)$. 再由 $arrow(Q M)=\l a m b d a a r r o w(M P)$，设 $P=(u,w)$，则
-$u^2-v= lambda (w-u^2)$，$w=u^2+(u^2-v)/(lambda)$.
-由 $t=(1+ lambda )u- lambda$，可得
 
-$ v=(((1+ lambda )u- lambda )^2+ lambda)/(1+ lambda)=(1+ lambda )u^2-2 lambda u+ lambda $
+#mi(`u=\frac{t+\lambda}{1+\lambda}`)，#mi(`v=\frac{t^{2}+\lambda}{1+\lambda}`).
+
+过 #mi(`Q`) 的竖直直线与抛物线交于 #mi(`M=(u,u^{2})`). 再由 #mi(`\overrightarrow{QM}=\lambda\overrightarrow{MP}`)，设 #mi(`P=(u,w)`)，则
+
+#mi(`u^{2}-v=\lambda(w-u^{2})`)，#mi(`w=u^{2}+\frac{u^{2}-v}{\lambda}`).
+
+由 #mi(`t=(1+\lambda)u-\lambda`)，可得
+
+
+#align(center)[#mitex(`
+v=\frac{\bigl((1+\lambda)u-\lambda\bigr)^{2}+\lambda}{1+\lambda}=(1+\lambda)u^{2}-2\lambda u+\lambda
+`)]
+
 
 所以
-$u^2-v=- lambda (u-1)^2$，$w=u^2-(u-1)^2=2 u-1$.
-点 $P$ 的横坐标 $u=(t+ lambda)/(1+ lambda)$ 随 $t$ 取遍全体实数，故轨迹为整条直线
 
-$ y=2 x-1 $
+#mi(`u^{2}-v=-\lambda(u-1)^{2}`)，#mi(`w=u^{2}-(u-1)^{2}=2u-1`).
+
+点 #mi(`P`) 的横坐标 #mi(`u=\frac{t+\lambda}{1+\lambda}`) 随 #mi(`t`) 取遍全体实数，故轨迹为整条直线
+
+
+#align(center)[#mitex(`
+y=2x-1
+`)]
 ]
 

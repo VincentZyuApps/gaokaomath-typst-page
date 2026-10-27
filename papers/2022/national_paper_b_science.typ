@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,801 +11,811 @@
 #part-header("单选题")
 
 #problem(1)[
-设全集 $U=\{1,2,3,4,5\}$，集合 $M$ 满足 $\c o m p l e m e n t_U M=\{1,3\}$，则（ ）
-  #choices([$2 in M$], [$3 in M$], [$4 in.not M$], [$5 in.not M$], cols: 4)
+设全集 #mi(`U=\{1,2,3,4,5\}`)，集合 #mi(`M`) 满足 #mi(`\complement_{U} M=\{1,3\}`)，则（ ）
+  #choices([#mi(`2\in M`)], [#mi(`3\in M`)], [#mi(`4\notin M`)], [#mi(`5\notin M`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由 $U=\{1,2,3,4,5\}$，$\c o m p l e m e n t_U M=\{1,3\}$，所以 $M=\{2,4,5\}$.
-所以 $2 in M$，$3 in.not M$，$4 in M$，$5 in M$.
-$A$ 正确，$B$，$C$，$D$ 错误.
+由 #mi(`U=\{1,2,3,4,5\}`)，#mi(`\complement_{U} M=\{1,3\}`)，所以 #mi(`M=\{2,4,5\}`).
+
+所以 #mi(`2\in M`)，#mi(`3\notin M`)，#mi(`4\in M`)，#mi(`5\in M`).
+
+#mi(`A`) 正确，#mi(`B`)，#mi(`C`)，#mi(`D`) 错误.
+
 故选 A.
 ]
 
 #problem(2)[
-已知 $z=1-2 i$，且 $z+a\overline z+b=0$，其中 $a$，$b$ 为实数，则（ ）
-  #choices([$a=1$，$b=-2$], [$a=-1$，$b=2$], [$a=1$，$b=2$], [$a=-1$，$b=-2$], cols: 4)
+已知 #mi(`z=1-2\mathrm{i}`)，且 #mi(`z+a\overline z+b=0`)，其中 #mi(`a`)，#mi(`b`) 为实数，则（ ）
+  #choices([#mi(`a=1`)，#mi(`b=-2`)], [#mi(`a=-1`)，#mi(`b=2`)], [#mi(`a=1`)，#mi(`b=2`)], [#mi(`a=-1`)，#mi(`b=-2`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-因为 $z=1-2 i$，所以 $\overline z=1+2 i$.
-由 $z+a\overline z+b=0$，得
-$1-2 i +a( 1+2 i )+b=0$，
+因为 #mi(`z=1-2\mathrm{i}`)，所以 #mi(`\overline z=1+2\mathrm{i}`).
+
+由 #mi(`z+a\overline z+b=0`)，得
+
+#mi(`1-2\mathrm{i}+a\left( 1+2\mathrm{i}\right)+b=0`)，
+
 即
-$( 1+a+b )+( 2 a-2 ) i =0$.
-所以由上式得 $1+a+b=0$，$2 a-2=0$.
-解得 $a=1$，$b=-2$.
+
+#mi(`\left( 1+a+b \right)+\left( 2a-2 \right)\mathrm{i}=0`).
+
+所以由上式得 #mi(`1+a+b=0`)，#mi(`2a-2=0`).
+
+解得 #mi(`a=1`)，#mi(`b=-2`).
+
 故选 A.
 ]
 
 #problem(3)[
-已知向量 $bold(a)$，$bold(b)$ 满足 $|bold(a)|=1$，$|bold(b)|=sqrt(3)$，$|bold(a)-2 bold(b)|=3$，则 $bold(a)\c d o t b o l d(b)=$（ ）
-  #choices([$-2$], [$-1$], [$1$], [$2$], cols: 4)
+已知向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 满足 #mi(`|\mathbf{a}|=1`)，#mi(`|\mathbf{b}|=\sqrt{3}`)，#mi(`|\mathbf{a}-2\mathbf{b}|=3`)，则 #mi(`\mathbf{a}\cdot\mathbf{b}=`)（ ）
+  #choices([#mi(`-2`)], [#mi(`-1`)], [#mi(`1`)], [#mi(`2`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
 因为
-$|bold(a)-2 bold(b)|^2=|bold(a)|^2-4 bold(a)\c d o t b o l d(b)+4|bold(b)|^2$，
-又 $|bold(a)|=1$，$|bold(b)|=sqrt(3)$，$|bold(a)-2 bold(b)|=3$，所以
-$9=1-4 bold(a)\c d o t b o l d(b)+4 times 3 =13-4 bold(a)\c d o t b o l d(b)$.
+
+#mi(`|\mathbf{a}-2\mathbf{b}|^{2}=|\mathbf{a}|^{2}-4\mathbf{a}\cdot\mathbf{b}+4|\mathbf{b}|^{2}`)，
+
+又 #mi(`|\mathbf{a}|=1`)，#mi(`|\mathbf{b}|=\sqrt{3}`)，#mi(`|\mathbf{a}-2\mathbf{b}|=3`)，所以
+
+#mi(`9=1-4\mathbf{a}\cdot\mathbf{b}+4\times 3=13-4\mathbf{a}\cdot\mathbf{b}`).
+
 因此
-$bold(a)\c d o t b o l d(b)=1$.
+
+#mi(`\mathbf{a}\cdot\mathbf{b}=1`).
+
 故选 C.
 ]
 
 #problem(4)[
-嫦娥二号卫星在完成探月任务后，继续进行深空探测，成为我国第一颗环绕太阳飞行的人造行星，为研究嫦娥二号绕日周期与地球绕日周期的比值，用到数列 $\{b_n\}$：$b_1=1+(1)/(alpha _1)$，$b_2=1+(1)/(alpha _1+(1)/(alpha _2))$，$b_3=1+(1)/(alpha _1+(1)/(alpha _2+(1)/(alpha _3)))$，…，依此类推，其中 $alpha _k in NN ""^*$（$k=1$，$2$，$...$），则（ ）
-  #choices([$b_1<b_5$], [$b_3<b_8$], [$b_6<b_2$], [$b_4<b_7$], cols: 4)
+嫦娥二号卫星在完成探月任务后，继续进行深空探测，成为我国第一颗环绕太阳飞行的人造行星，为研究嫦娥二号绕日周期与地球绕日周期的比值，用到数列 #mi(`\{b_{n}\}`)：#mi(`b_{1}=1+\frac{1}{\alpha_{1}}`)，#mi(`b_{2}=1+\frac{1}{\alpha_{1}+\frac{1}{\alpha_2}}`)，#mi(`b_{3}=1+\frac{1}{\alpha_{1}+\frac{1}{\alpha_2+\frac{1}{\alpha_3}}}`)，…，依此类推，其中 #mi(`\alpha_{k}\in\mathbb{N}^{*}`)（#mi(`k=1`)，#mi(`2`)，#mi(`\dots`)），则（ ）
+  #choices([#mi(`b_{1}<b_{5}`)], [#mi(`b_{3}<b_{8}`)], [#mi(`b_{6}<b_{2}`)], [#mi(`b_{4}<b_{7}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-因为 $alpha _k in NN ""^*$（$k=1$，$2$，$...$），所以
-$alpha _1< alpha _1+(1)/(alpha _2)$，
+因为 #mi(`\alpha_{k}\in\mathbb{N}^{*}`)（#mi(`k=1`)，#mi(`2`)，#mi(`\dots`)），所以
+
+#mi(`\alpha_{1}<\alpha_{1}+\frac{1}{\alpha_{2}}`)，
+
 从而
-$(1)/(alpha _1)>(1)/(alpha _1+(1)/(alpha _2))$，
-即 $b_1>b_2$.
+
+#mi(`\frac{1}{\alpha_{1}}>\frac{1}{\alpha_{1}+\frac{1}{\alpha_2}}`)，
+
+即 #mi(`b_{1}>b_{2}`).
+
 又因为
-$(1)/(alpha _2)>(1)/(alpha _2+(1)/(alpha _3))$，
+
+#mi(`\frac{1}{\alpha_{2}}>\frac{1}{\alpha_{2}+\frac{1}{\alpha_3}}`)，
+
 所以
-$alpha _1+(1)/(alpha _2)> alpha _1+(1)/(alpha _2+(1)/(alpha _3))$，
-从而 $b_2<b_3$，且 $b_1>b_3$.
-$alpha _1+(1)/(alpha _2+(1)/(alpha _3+(1)/(alpha _4+(1)/(alpha _5))))> alpha _1$，
-所以 $b_1>b_5$.
-又因为 $(1)/(alpha _3)>(1)/(alpha _3+(1)/(alpha _4+(1)/(alpha _5+(1)/(alpha _6+(1)/(alpha _7+(1)/(alpha _8))))))$，所以 $alpha _2+(1)/(alpha _3)> alpha _2+(1)/(alpha _3+(1)/(alpha _4+(1)/(alpha _5+(1)/(alpha _6+(1)/(alpha _7+(1)/(alpha _8))))))$，从而 $(1)/(alpha _2+(1)/(alpha _3))<(1)/(alpha _2+(1)/(alpha _3+(1)/(alpha _4+(1)/(alpha _5+(1)/(alpha _6+(1)/(alpha _7+(1)/(alpha _8)))))))$，即 $b_3>b_8$.
-又因为 $alpha _2< alpha _2+(1)/(alpha _3+(1)/(alpha _4+(1)/(alpha _5+(1)/(alpha _6))))$，所以 $(1)/(alpha _2)>(1)/(alpha _2+(1)/(alpha _3+(1)/(alpha _4+(1)/(alpha _5+(1)/(alpha _6)))))$，即 $b_2<b_6$.
-又因为 $alpha _4< alpha _4+(1)/(alpha _5+(1)/(alpha _6+(1)/(alpha _7)))$，所以 $(1)/(alpha _4)>(1)/(alpha _4+(1)/(alpha _5+(1)/(alpha _6+(1)/(alpha _7))))$，从而 $alpha _3+(1)/(alpha _4)> alpha _3+(1)/(alpha _4+(1)/(alpha _5+(1)/(alpha _6+(1)/(alpha _7))))$，于是 $(1)/(alpha _3+(1)/(alpha _4))<(1)/(alpha _3+(1)/(alpha _4+(1)/(alpha _5+(1)/(alpha _6+(1)/(alpha _7)))))$，所以 $alpha _2+(1)/(alpha _3+(1)/(alpha _4))< alpha _2+(1)/(alpha _3+(1)/(alpha _4+(1)/(alpha _5+(1)/(alpha _6+(1)/(alpha _7)))))$，从而 $(1)/(alpha _2+(1)/(alpha _3+(1)/(alpha _4)))>(1)/(alpha _2+(1)/(alpha _3+(1)/(alpha _4+(1)/(alpha _5+(1)/(alpha _6+(1)/(alpha _7))))))$，即 $b_4<b_7$.
-$b_1>b_3>b_5>b_7> dots.c$，
-$b_2<b_4<b_6<b_8< dots.c$，
+
+#mi(`\alpha_{1}+\frac{1}{\alpha_{2}}>\alpha_{1}+\frac{1}{\alpha_{2}+\frac{1}{\alpha_3}}`)，
+
+从而 #mi(`b_{2}<b_{3}`)，且 #mi(`b_{1}>b_{3}`).
+
+#mi(`\alpha_{1}+\frac{1}{\alpha_{2}+\frac{1}{\alpha_3+\frac{1}{\alpha_4+\frac{1}{\alpha_5}}}}>\alpha_{1}`)，
+
+所以 #mi(`b_{1}>b_{5}`).
+
+又因为 #mi(`\frac{1}{\alpha_{3}}>\frac{1}{\alpha_{3}+\frac{1}{\alpha_4+\frac{1}{\alpha_5+\frac{1}{\alpha_6+\frac{1}{\alpha_7+\frac{1}{\alpha_8}}}}}}`)，所以 #mi(`\alpha_{2}+\frac{1}{\alpha_{3}}>\alpha_{2}+\frac{1}{\alpha_{3}+\frac{1}{\alpha_4+\frac{1}{\alpha_5+\frac{1}{\alpha_6+\frac{1}{\alpha_7+\frac{1}{\alpha_8}}}}}}`)，从而 #mi(`\frac{1}{\alpha_{2}+\frac{1}{\alpha_3}}<\frac{1}{\alpha_{2}+\frac{1}{\alpha_3+\frac{1}{\alpha_4+\frac{1}{\alpha_5+\frac{1}{\alpha_6+\frac{1}{\alpha_7+\frac{1}{\alpha_8}}}}}}}`)，即 #mi(`b_{3}>b_{8}`).
+
+又因为 #mi(`\alpha_{2}<\alpha_{2}+\frac{1}{\alpha_{3}+\frac{1}{\alpha_4+\frac{1}{\alpha_5+\frac{1}{\alpha_6}}}}`)，所以 #mi(`\frac{1}{\alpha_{2}}>\frac{1}{\alpha_{2}+\frac{1}{\alpha_3+\frac{1}{\alpha_4+\frac{1}{\alpha_5+\frac{1}{\alpha_6}}}}}`)，即 #mi(`b_{2}<b_{6}`).
+
+又因为 #mi(`\alpha_{4}< \alpha_{4}+\frac{1}{\alpha_{5}+\frac{1}{\alpha_6+\frac{1}{\alpha_7}}}`)，所以 #mi(`\frac{1}{\alpha_{4}}>\frac{1}{\alpha_{4}+\frac{1}{\alpha_5+\frac{1}{\alpha_6+\frac{1}{\alpha_7}}}}`)，从而 #mi(`\alpha_{3}+\frac{1}{\alpha_{4}}>\alpha_{3}+\frac{1}{\alpha_{4}+\frac{1}{\alpha_5+\frac{1}{\alpha_6+\frac{1}{\alpha_7}}}}`)，于是 #mi(`\frac{1}{\alpha_{3}+\frac{1}{\alpha_4}}<\frac{1}{\alpha_{3}+\frac{1}{\alpha_4+\frac{1}{\alpha_5+\frac{1}{\alpha_6+\frac{1}{\alpha_7}}}}}`)，所以 #mi(`\alpha_{2}+\frac{1}{\alpha_{3}+\frac{1}{\alpha_4}}<\alpha_{2}+\frac{1}{\alpha_{3}+\frac{1}{\alpha_4+\frac{1}{\alpha_5+\frac{1}{\alpha_6+\frac{1}{\alpha_7}}}}}`)，从而 #mi(`\frac{1}{\alpha_{2}+\frac{1}{\alpha_3+\frac{1}{\alpha_4}}}>\frac{1}{\alpha_{2}+\frac{1}{\alpha_3+\frac{1}{\alpha_4+\frac{1}{\alpha_5+\frac{1}{\alpha_6+\frac{1}{\alpha_7}}}}}}`)，即 #mi(`b_{4}<b_{7}`).
+
+#mi(`b_{1}>b_{3}>b_{5}>b_{7}>\cdots`)，
+
+#mi(`b_{2}<b_{4}<b_{6}<b_{8}<\cdots`)，
+
 并且任意奇数项都大于任意偶数项.
-$b_1>b_5$，$b_3>b_8$，$b_2<b_6$，$b_4<b_7$.
+
+#mi(`b_{1}>b_{5}`)，#mi(`b_{3}>b_{8}`)，#mi(`b_{2}<b_{6}`)，#mi(`b_{4}<b_{7}`).
+
 故选 D.
 ]
 
 #problem(5)[
-设 $F$ 为抛物线 $C:y^2=4 x$ 的焦点，点 $A$ 在 $C$ 上，点 $B(3,0)$，若 $A F=B F$，则 $A B=$（ ）
-  #choices([$2$], [$2 sqrt(2)$], [$3$], [$3 sqrt(2)$], cols: 4)
+设 #mi(`F`) 为抛物线 #mi(`C:y^{2}=4x`) 的焦点，点 #mi(`A`) 在 #mi(`C`) 上，点 #mi(`B(3,0)`)，若 #mi(`AF=BF`)，则 #mi(`AB=`)（ ）
+  #choices([#mi(`2`)], [#mi(`2\sqrt{2}`)], [#mi(`3`)], [#mi(`3\sqrt{2}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由题意得 $F(1,0)$，则
-$B F=sqrt(( 3-1 )^2+0^2)=2$.
-因为 $A F=B F$，所以 $A F=2$.
-抛物线上的点到焦点与准线的距离相等，所以点 $A$ 到准线 $x=-1$ 的距离为 $2$，故点 $A$ 的横坐标为 $1$.
-不妨设点 $A$ 在 $x$ 轴上方，代入 $y^2=4 x$ 得 $A(1,2)$.
+由题意得 #mi(`F(1,0)`)，则
+
+#mi(`BF=\sqrt{\left( 3-1 \right)^{2}+0^{2}}=2`).
+
+因为 #mi(`AF=BF`)，所以 #mi(`AF=2`).
+
+抛物线上的点到焦点与准线的距离相等，所以点 #mi(`A`) 到准线 #mi(`x=-1`) 的距离为 #mi(`2`)，故点 #mi(`A`) 的横坐标为 #mi(`1`).
+
+不妨设点 #mi(`A`) 在 #mi(`x`) 轴上方，代入 #mi(`y^{2}=4x`) 得 #mi(`A(1,2)`).
+
 所以
-$A B=sqrt(( 3-1 )^2+( 0-2 )^2)=2 sqrt(2)$.
+
+#mi(`AB=\sqrt{\left( 3-1 \right)^{2}+\left( 0-2 \right)^{2}}=2\sqrt{2}`).
+
 故选 B.
 ]
 
 #problem(6)[
-执行下边的程序框图，输出的 $n=$（ ）
+执行下边的程序框图，输出的 #mi(`n=`)（ ）
 
-\texfigure[max width=6.0cm]{img_repaint/2022/national_paper_b_science/q6_fig1.tex}
-  #choices([$3$], [$4$], [$5$], [$6$], cols: 4)
+\texfigure[max width=6.0cm]img_repaint/2022/national_paper_b_science/q6_fig1.tex
+  #choices([#mi(`3`)], [#mi(`4`)], [#mi(`5`)], [#mi(`6`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
 执行第一次循环，
-$b=b+2 a=1+2=3$，
-$a=b-a=3-1=2$，$n=n+1=2$，
-$| (b^2)/(a^2)-2 | =| (3^2)/(2^2)-2 | =(1)/(4)>0.01$.
+
+#mi(`b=b+2a=1+2=3`)，
+
+#mi(`a=b-a=3-1=2`)，#mi(`n=n+1=2`)，
+
+#mi(`\left| \frac{b^{2}}{a^{2}}-2 \right| =\left| \frac{3^{2}}{2^{2}}-2 \right| =\frac{1}{4}>0.01`).
+
 执行第二次循环，
-$b=b+2 a=3+4=7$，
-$a=b-a=7-2=5$，$n=n+1=3$，
-$| (b^2)/(a^2)-2 | =| (7^2)/(5^2)-2 | =(1)/(25)>0.01$.
+
+#mi(`b=b+2a=3+4=7`)，
+
+#mi(`a=b-a=7-2=5`)，#mi(`n=n+1=3`)，
+
+#mi(`\left| \frac{b^{2}}{a^{2}}-2 \right| =\left| \frac{7^{2}}{5^{2}}-2 \right| =\frac{1}{25}>0.01`).
+
 执行第三次循环，
-$b=b+2 a=7+10=17$，
-$a=b-a=17-5=12$，$n=n+1=4$，
-$| (b^2)/(a^2)-2 | =| (17^2)/(12^2)-2 | =(1)/(144)<0.01$.
-此时输出 $n=4$.
+
+#mi(`b=b+2a=7+10=17`)，
+
+#mi(`a=b-a=17-5=12`)，#mi(`n=n+1=4`)，
+
+#mi(`\left| \frac{b^{2}}{a^{2}}-2 \right| =\left| \frac{17^{2}}{12^{2}}-2 \right| =\frac{1}{144}<0.01`).
+
+此时输出 #mi(`n=4`).
+
 故选 B.
 ]
 
 #problem(7)[
-在正方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$E$，$F$ 分别为 $A B$，$B C$ 的中点，则（ ）
-  #choices([$"平面 "B_(1) E F bot "平面 "B D D_1$], [$"平面 "B_(1) E F bot "平面 "A_(1) B D$], [$"平面 "B_(1) E F parallel "平面 "A_(1) A C$], [$"平面 "B_(1) E F parallel "平面 "A_(1) C_(1) D$], cols: 1)
+在正方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`E`)，#mi(`F`) 分别为 #mi(`AB`)，#mi(`BC`) 的中点，则（ ）
+  #choices([#mi(`\text{\text{平面} }B_{1}EF\perp \text{\text{平面} }BDD_{1}`)], [#mi(`\text{\text{平面} }B_{1}EF\perp \text{\text{平面} }A_{1}BD`)], [#mi(`\text{\text{平面} }B_{1}EF // \text{\text{平面} }A_{1}AC`)], [#mi(`\text{\text{平面} }B_{1}EF // \text{\text{平面} }A_{1}C_{1}D`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-在正方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$A C bot B D$，且 $D D_1 bot "平面 "A B C D$.
-又因为 $E F subset "平面 "A B C D$，所以 $E F bot D D_1$.
-因为 $E$，$F$ 分别为 $A B$，$B C$ 的中点，所以 $E F parallel A C$，从而 $E F bot B D$.
-又 $B D inter D D_1=D$，所以 $E F bot "平面 "B D D_1$.
-因为 $E F subset "平面 "B_(1) E F$，所以 $"平面 "B_(1) E F bot "平面 "B D D_1$.
+在正方体 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`AC\perp BD`)，且 #mi(`DD_{1}\perp \text{\text{平面} }ABCD`).
+
+又因为 #mi(`EF\subset \text{\text{平面} }ABCD`)，所以 #mi(`EF\perp DD_{1}`).
+
+因为 #mi(`E`)，#mi(`F`) 分别为 #mi(`AB`)，#mi(`BC`) 的中点，所以 #mi(`EF // AC`)，从而 #mi(`EF\perp BD`).
+
+又 #mi(`BD\cap DD_{1}=D`)，所以 #mi(`EF\perp \text{\text{平面} }BDD_{1}`).
+
+因为 #mi(`EF\subset \text{\text{平面} }B_{1}EF`)，所以 #mi(`\text{\text{平面} }B_{1}EF\perp \text{\text{平面} }BDD_{1}`).
+
 故选 A.
 ]
 
 #problem(8)[
-已知等比数列 $\{a_n\}$ 的前 $3$ 项和为 $168$，$a_2-a_5=42$，则 $a_6=$（ ）
-  #choices([$14$], [$12$], [$6$], [$3$], cols: 4)
+已知等比数列 #mi(`\{a_{n}\}`) 的前 #mi(`3`) 项和为 #mi(`168`)，#mi(`a_{2}-a_{5}=42`)，则 #mi(`a_{6}=`)（ ）
+  #choices([#mi(`14`)], [#mi(`12`)], [#mi(`6`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-设等比数列 $\{a_n\}$ 的首项为 $a_1$，公比为 $q$.
-若 $q=1$，则 $a_2-a_5=0$，与题意矛盾，所以 $q != 1$.
+设等比数列 #mi(`\{a_{n}\}`) 的首项为 #mi(`a_{1}`)，公比为 #mi(`q`).
+
+若 #mi(`q=1`)，则 #mi(`a_{2}-a_{5}=0`)，与题意矛盾，所以 #mi(`q\neq 1`).
+
 由题意得
-$a_1+a_2+a_3=(a_1( 1-q^3 ))/(1-q)=168$，
-$a_2-a_5=a_(1) q-a_(1) q^4=42$.
+
+#mi(`a_{1}+a_{2}+a_{3}=\frac{a_{1}\left( 1-q^{3} \right)}{1-q}=168`)，
+
+#mi(`a_{2}-a_{5}=a_{1}q-a_{1}q^{4}=42`).
+
 解得
-$a_1=96$，$q=(1)/(2)$.
+
+#mi(`a_{1}=96`)，#mi(`q=\frac{1}{2}`).
+
 所以
-$a_6=a_(1) q^5=96 times ( (1)/(2))^5=3$.
+
+#mi(`a_{6}=a_{1}q^{5}=96\times \left( \frac{1}{2}\right)^{5}=3`).
+
 故选 D.
 ]
 
 #problem(9)[
-已知球 $O$ 的半径为 $1$，四棱锥的顶点为 $O$，底面的四个顶点均在球 $O$ 的球面上，则当该四棱锥的体积最大时，其高为（ ）
-  #choices([$(1)/(3)$], [$(1)/(2)$], [$(sqrt(3))/(3)$], [$(sqrt(2))/(2)$], cols: 4)
+已知球 #mi(`O`) 的半径为 #mi(`1`)，四棱锥的顶点为 #mi(`O`)，底面的四个顶点均在球 #mi(`O`) 的球面上，则当该四棱锥的体积最大时，其高为（ ）
+  #choices([#mi(`\frac{1}{3}`)], [#mi(`\frac{1}{2}`)], [#mi(`\frac{\sqrt{3}}{3}`)], [#mi(`\frac{\sqrt{2}}{2}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设该四棱锥底面为四边形 $A B C D$，四边形 $A B C D$ 所在小圆半径为 $r$，四棱锥的高为 $h$.
-因为四边形 $A B C D$ 的四个顶点都在同一圆上，设其对角线夹角为 $alpha$，则 $S_(A B C D)=(1)/(2) dot A C dot B D dot sin alpha <= (1)/(2) dot A C dot B D <= (1)/(2) dot 2 r dot 2 r=2 r^2$.
-当且仅当四边形 $A B C D$ 为正方形时等号成立.
-又因为球半径为 $1$，所以
-$r^2+h^2=1$.
+设该四棱锥底面为四边形 #mi(`ABCD`)，四边形 #mi(`ABCD`) 所在小圆半径为 #mi(`r`)，四棱锥的高为 #mi(`h`).
+
+因为四边形 #mi(`ABCD`) 的四个顶点都在同一圆上，设其对角线夹角为 #mi(`\alpha`)，则 #mi(`S_{ABCD}=\frac{1}{2}\cdot AC\cdot BD\cdot \sin \alpha\le \frac{1}{2}\cdot AC\cdot BD\le \frac{1}{2}\cdot 2r\cdot 2r=2r^{2}`).
+
+当且仅当四边形 #mi(`ABCD`) 为正方形时等号成立.
+
+又因为球半径为 #mi(`1`)，所以
+
+#mi(`r^{2}+h^{2}=1`).
+
 于是四棱锥体积
-$V=(1)/(3) dot S_(A B C D) dot h <= (1)/(3) dot 2 r^(2) h$.
-由 $r^2+h^2=1$，得
-$V <= (2)/(3)r^(2) h$.
-当 $r^2=2 h^2$ 时取到最大值，因此
-$1=r^2+h^2=2 h^2+h^2=3 h^2$，
+
+#mi(`V=\frac{1}{3}\cdot S_{ABCD}\cdot h \le \frac{1}{3}\cdot 2r^{2}h`).
+
+由 #mi(`r^{2}+h^{2}=1`)，得
+
+#mi(`V\le \frac{2}{3}r^{2}h`).
+
+当 #mi(`r^{2}=2h^{2}`) 时取到最大值，因此
+
+#mi(`1=r^{2}+h^{2}=2h^{2}+h^{2}=3h^{2}`)，
+
 所以
-$h=(sqrt(3))/(3)$.
+
+#mi(`h=\frac{\sqrt{3}}{3}`).
+
 故选 C.
 ]
 
 #problem(10)[
-某棋手与甲，乙，丙三位棋手各比赛一盘，各盘比赛结果相互独立. 已知该棋手与甲，乙，丙比赛获胜的概率分别为 $p_1$，$p_2$，$p_3$，且 $p_3>p_2>p_1>0$. 记该棋手连胜两盘的概率为 $p$，则（ ）
-  #choices([$p$ 与该棋手和甲，乙，丙的比赛次序无关], [该棋手在第二盘与甲比赛，$p$ 最大], [该棋手在第二盘与乙比赛，$p$ 最大], [该棋手在第二盘与丙比赛，$p$ 最大], cols: 2)
+某棋手与甲，乙，丙三位棋手各比赛一盘，各盘比赛结果相互独立. 已知该棋手与甲，乙，丙比赛获胜的概率分别为 #mi(`p_{1}`)，#mi(`p_{2}`)，#mi(`p_{3}`)，且 #mi(`p_{3}>p_{2}>p_{1}>0`). 记该棋手连胜两盘的概率为 #mi(`p`)，则（ ）
+  #choices([#mi(`p`) 与该棋手和甲，乙，丙的比赛次序无关], [该棋手在第二盘与甲比赛，#mi(`p`) 最大], [该棋手在第二盘与乙比赛，#mi(`p`) 最大], [该棋手在第二盘与丙比赛，#mi(`p`) 最大], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
 该棋手连胜两盘，则第二盘为必胜盘.
-记该棋手在第二盘与甲比赛且连胜两盘的概率为 $p_("甲")$. 此时比赛顺序可能为乙甲丙或丙甲乙，两种顺序概率相同，所以 $p_("甲")=(1)/(2)[ ( 1-p_2 )p_(1) p_3+p_(2) p_1( 1-p_3 ) ]=(1)/(2)[ ( 1-p_3 )p_(1) p_2+p_(3) p_1( 1-p_2 ) ]=p_1( p_2+p_3 )-2 p_(1) p_(2) p_3$.
-记该棋手在第二盘与乙比赛且连胜两盘的概率为 $p_("乙")$. 此时比赛顺序可能为甲乙丙或丙乙甲，两种顺序下连胜两盘的概率分别为 $( 1-p_1 )p_(2) p_3+p_(1) p_2( 1-p_3 )$ 和 $( 1-p_3 )p_(2) p_1+p_(3) p_2( 1-p_1 )$. 这两个式子相等，所以 $p_("乙")=( 1-p_1 )p_(2) p_3+p_(1) p_2( 1-p_3 )=p_2( p_1+p_3 )-2 p_(1) p_(2) p_3$.
-记该棋手在第二盘与丙比赛且连胜两盘的概率为 $p_("丙")$. 此时比赛顺序可能为甲丙乙或乙丙甲，两种顺序下连胜两盘的概率分别为 $( 1-p_1 )p_(3) p_2+p_(1) p_3( 1-p_2 )$ 和 $( 1-p_2 )p_(3) p_1+p_(2) p_3( 1-p_1 )$. 这两个式子也相等，所以 $p_("丙")=( 1-p_1 )p_(3) p_2+p_(1) p_3( 1-p_2 )=p_3( p_1+p_2 )-2 p_(1) p_(2) p_3$.
+
+记该棋手在第二盘与甲比赛且连胜两盘的概率为 #mi(`p_{\text{\text{甲}}}`). 此时比赛顺序可能为乙甲丙或丙甲乙，两种顺序概率相同，所以 #mi(`p_{\text{\text{甲}}}=\frac{1}{2}\left[ \left( 1-p_{2} \right)p_{1}p_{3}+p_{2}p_{1}\left( 1-p_{3} \right) \right]=\frac{1}{2}\left[ \left( 1-p_{3} \right)p_{1}p_{2}+p_{3}p_{1}\left( 1-p_{2} \right) \right]=p_{1}\left( p_{2}+p_{3} \right)-2p_{1}p_{2}p_{3}`).
+
+记该棋手在第二盘与乙比赛且连胜两盘的概率为 #mi(`p_{\text{\text{乙}}}`). 此时比赛顺序可能为甲乙丙或丙乙甲，两种顺序下连胜两盘的概率分别为 #mi(`\left( 1-p_{1} \right)p_{2}p_{3}+p_{1}p_{2}\left( 1-p_{3} \right)`) 和 #mi(`\left( 1-p_{3} \right)p_{2}p_{1}+p_{3}p_{2}\left( 1-p_{1} \right)`). 这两个式子相等，所以 #mi(`p_{\text{\text{乙}}}=\left( 1-p_{1} \right)p_{2}p_{3}+p_{1}p_{2}\left( 1-p_{3} \right)=p_{2}\left( p_{1}+p_{3} \right)-2p_{1}p_{2}p_{3}`).
+
+记该棋手在第二盘与丙比赛且连胜两盘的概率为 #mi(`p_{\text{\text{丙}}}`). 此时比赛顺序可能为甲丙乙或乙丙甲，两种顺序下连胜两盘的概率分别为 #mi(`\left( 1-p_{1} \right)p_{3}p_{2}+p_{1}p_{3}\left( 1-p_{2} \right)`) 和 #mi(`\left( 1-p_{2} \right)p_{3}p_{1}+p_{2}p_{3}\left( 1-p_{1} \right)`). 这两个式子也相等，所以 #mi(`p_{\text{\text{丙}}}=\left( 1-p_{1} \right)p_{3}p_{2}+p_{1}p_{3}\left( 1-p_{2} \right)=p_{3}\left( p_{1}+p_{2} \right)-2p_{1}p_{2}p_{3}`).
+
 于是
-$p_("甲")-p_("乙") =( p_1-p_2 )p_3<0$，
-$p_("乙")-p_("丙") =( p_2-p_3 )p_1<0$.
+
+#mi(`p_{\text{\text{甲}}}-p_{\text{\text{乙}}}=\left( p_{1}-p_{2} \right)p_{3}<0`)，
+
+#mi(`p_{\text{\text{乙}}}-p_{\text{\text{丙}}}=\left( p_{2}-p_{3} \right)p_{1}<0`).
+
 所以
-$p_("甲")<p_("乙")<p_("丙")$.
-因此该棋手在第二盘与丙比赛时，$p$ 最大.
+
+#mi(`p_{\text{\text{甲}}}<p_{\text{\text{乙}}}<p_{\text{\text{丙}}}`).
+
+因此该棋手在第二盘与丙比赛时，#mi(`p`) 最大.
+
 故选 D.
 ]
 
 #problem(11)[
-双曲线 $C$ 的两个焦点为 $F_1$，$F_2$，以 $C$ 的实轴为直径的圆记为 $D$，过 $F_1$ 作 $D$ 的切线与 $C$ 交于 $M$，$N$ 两点，且 $cos angle F_(1) N F_2=(3)/(5)$，则 $C$ 的离心率为（ ）
-  #choices([$(sqrt(5))/(2)$], [$(3)/(2)$], [$(sqrt(13))/(2)$], [$(sqrt(17))/(2)$], cols: 2)
+双曲线 #mi(`C`) 的两个焦点为 #mi(`F_{1}`)，#mi(`F_{2}`)，以 #mi(`C`) 的实轴为直径的圆记为 #mi(`D`)，过 #mi(`F_{1}`) 作 #mi(`D`) 的切线与 #mi(`C`) 交于 #mi(`M`)，#mi(`N`) 两点，且 #mi(`\cos \angle F_{1}NF_{2}=\frac{3}{5}`)，则 #mi(`C`) 的离心率为（ ）
+  #choices([#mi(`\frac{\sqrt{5}}{2}`)], [#mi(`\frac{3}{2}`)], [#mi(`\frac{\sqrt{13}}{2}`)], [#mi(`\frac{\sqrt{17}}{2}`)], cols: 2)
 ]
 
 #answer([AC])
 
 #solution[
-依题意不妨设双曲线焦点在 $x$ 轴，设过 $F_1$ 作圆 $D$ 的切线切点为 $B$.
-设 $angle F_(1) N F_2= alpha$，由题意
-$cos alpha =(3)/(5)$，
+依题意不妨设双曲线焦点在 #mi(`x`) 轴，设过 #mi(`F_{1}`) 作圆 #mi(`D`) 的切线切点为 #mi(`B`).
+
+设 #mi(`\angle F_{1}NF_{2}=\alpha`)，由题意
+
+#mi(`\cos \alpha=\frac{3}{5}`)，
+
 所以
-$sin alpha =(4)/(5)$.
+
+#mi(`\sin \alpha=\frac{4}{5}`).
+
 分两种情况讨论.
 
-当 $M$，$N$ 在双曲线的同一支上时，因为 $cos angle F_(1) N F_2>0$，所以 $N$ 在双曲线的左支.
-设 $|O B|=a$，$|O F_1|=c$，$|F_(1) B|=b$，则
-$|N A|=(3)/(2)a$，$|N F_2|=(5)/(2)a$.
+当 #mi(`M`)，#mi(`N`) 在双曲线的同一支上时，因为 #mi(`\cos \angle F_{1}NF_{2}>0`)，所以 #mi(`N`) 在双曲线的左支.
+
+设 #mi(`|OB|=a`)，#mi(`|OF_{1}|=c`)，#mi(`|F_{1}B|=b`)，则
+
+#mi(`|NA|=\frac{3}{2}a`)，#mi(`|NF_{2}|=\frac{5}{2}a`).
+
 又因为
-$|N F_2|-|N F_1|=2 a$，
+
+#mi(`|NF_{2}|-|NF_{1}|=2a`)，
+
 所以
-$(5)/(2)a-( (3)/(2)a-2 b )=2 a$，
+
+#mi(`\frac{5}{2}a-\left( \frac{3}{2}a-2b \right)=2a`)，
+
 即
-$2 b=a$.
-于是 $e=(c)/(a)=sqrt(1+( (b)/(a))^2)=sqrt(1+( (1)/(2))^2)=(sqrt(5))/(2)$.
+
+#mi(`2b=a`).
+
+于是 #mi(`e=\frac{c}{a}=\sqrt{1+\left( \frac{b}{a}\right)^{2}}=\sqrt{1+\left( \frac{1}{2}\right)^{2}}=\frac{\sqrt{5}}{2}`).
+
 故此时选 A.
 
-当 $M$，$N$ 在双曲线的两支上时，因为 $cos angle F_(1) N F_2>0$，所以 $N$ 在双曲线的右支.
-设 $angle F_(1) N F_2= alpha$，由
-$cos angle F_(1) N F_2=(3)/(5)$，
+当 #mi(`M`)，#mi(`N`) 在双曲线的两支上时，因为 #mi(`\cos \angle F_{1}NF_{2}>0`)，所以 #mi(`N`) 在双曲线的右支.
+
+设 #mi(`\angle F_{1}NF_{2}=\alpha`)，由
+
+#mi(`\cos \angle F_{1}NF_{2}=\frac{3}{5}`)，
+
 即
-$cos alpha =(3)/(5)$，
+
+#mi(`\cos \alpha=\frac{3}{5}`)，
+
 则
-$sin alpha =(4)/(5)$.
+
+#mi(`\sin \alpha=\frac{4}{5}`).
+
 因此
-$|N A|=(3)/(2)a$，$|N F_2|=(5)/(2)a$，
+
+#mi(`|NA|=\frac{3}{2}a`)，#mi(`|NF_{2}|=\frac{5}{2}a`)，
+
 又因为
-$|N F_1|-|N F_2|=2 a$，
+
+#mi(`|NF_{1}|-|NF_{2}|=2a`)，
+
 所以
-$(3)/(2)a+2 b-(5)/(2)a=2 a$，
+
+#mi(`\frac{3}{2}a+2b-\frac{5}{2}a=2a`)，
+
 即
-$2 b=3 a$.
-于是 $e=(c)/(a)=sqrt(1+( (b)/(a))^2)=sqrt(1+( (3)/(2))^2)=(sqrt(13))/(2)$.
+
+#mi(`2b=3a`).
+
+于是 #mi(`e=\frac{c}{a}=\sqrt{1+\left( \frac{b}{a}\right)^{2}}=\sqrt{1+\left( \frac{3}{2}\right)^{2}}=\frac{\sqrt{13}}{2}`).
+
 故此时选 C.
+
 综上，故选 AC.
 ]
 
 #problem(12)[
-已知函数 $f(x)$，$g(x)$ 的定义域均为 $RR$，且 $f(x)+g(2-x)=5$，$g(x)-f(x-4)=7$. 若 $y=g(x)$ 的图像关于直线 $x=2$ 对称，$g(2)=4$，则 $sum_(k=1)^(22)f(k)=$（ ）
-  #choices([$-21$], [$-22$], [$-23$], [$-24$], cols: 4)
+已知函数 #mi(`f(x)`)，#mi(`g(x)`) 的定义域均为 #mi(`\mathbb{R}`)，且 #mi(`f(x)+g(2-x)=5`)，#mi(`g(x)-f(x-4)=7`). 若 #mi(`y=g(x)`) 的图像关于直线 #mi(`x=2`) 对称，#mi(`g(2)=4`)，则 #mi(`\sum_{k=1}^{22}f(k)=`)（ ）
+  #choices([#mi(`-21`)], [#mi(`-22`)], [#mi(`-23`)], [#mi(`-24`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-因为 $y=g(x)$ 的图像关于直线 $x=2$ 对称，所以
-$g(2-x)=g(x+2)$.
+因为 #mi(`y=g(x)`) 的图像关于直线 #mi(`x=2`) 对称，所以
+
+#mi(`g(2-x)=g(x+2)`).
+
 又因为
-$g(x)-f(x-4)=7$，
+
+#mi(`g(x)-f(x-4)=7`)，
+
 所以
-$g(x+2)-f(x-2)=7$，
+
+#mi(`g(x+2)-f(x-2)=7`)，
+
 即
-$g(x+2)=7+f(x-2)$.
+
+#mi(`g(x+2)=7+f(x-2)`).
+
 由
-$f(x)+g(2-x)=5$
-和 $g(2-x)=g(x+2)$，得
-$f(x)+g(x+2)=5$.
+
+#mi(`f(x)+g(2-x)=5`)
+
+和 #mi(`g(2-x)=g(x+2)`)，得
+
+#mi(`f(x)+g(x+2)=5`).
+
 代入上式，得
-$f(x)+[ 7+f(x-2) ]=5$，
+
+#mi(`f(x)+\left[ 7+f(x-2) \right]=5`)，
+
 即
-$f(x)+f(x-2)=-2$.
+
+#mi(`f(x)+f(x-2)=-2`).
+
 于是
-$f(3)+f(5)+ dots.c +f(21)=-10$，
-$f(4)+f(6)+ dots.c +f(22)=-10$.
+
+#mi(`f(3)+f(5)+\cdots+f(21)=-10`)，
+
+#mi(`f(4)+f(6)+\cdots+f(22)=-10`).
+
 又因为
-$f(x)+g(2-x)=5$，
-取 $x=0$，得
-$f(0)+g(2)=5$，
+
+#mi(`f(x)+g(2-x)=5`)，
+
+取 #mi(`x=0`)，得
+
+#mi(`f(0)+g(2)=5`)，
+
 所以
-$f(0)=1$.
+
+#mi(`f(0)=1`).
+
 再由
-$f(2)+f(0)=-2$，
+
+#mi(`f(2)+f(0)=-2`)，
+
 得
-$f(2)=-3$.
+
+#mi(`f(2)=-3`).
+
 又因为
-$g(x)-f(x-4)=7$，
+
+#mi(`g(x)-f(x-4)=7`)，
+
 所以
-$g(x+4)-f(x)=7$.
+
+#mi(`g(x+4)-f(x)=7`).
+
 联立
-$f(x)+g(2-x)=5$，
+
+#mi(`f(x)+g(2-x)=5`)，
+
 得
-$g(2-x)+g(x+4)=12$.
-因此 $y=g(x)$ 的图像关于点 $(3,6)$ 中心对称.
-因为函数 $g(x)$ 的定义域为 $RR$，所以
-$g(3)=6$.
+
+#mi(`g(2-x)+g(x+4)=12`).
+
+因此 #mi(`y=g(x)`) 的图像关于点 #mi(`(3,6)`) 中心对称.
+
+因为函数 #mi(`g(x)`) 的定义域为 #mi(`\mathbb{R}`)，所以
+
+#mi(`g(3)=6`).
+
 再由
-$f(x)+g(x+2)=5$，
-取 $x=1$，得
-$f(1)=5-g(3)=-1$.
-所以 $sum_(k=1)^(22)f(k) =f(1)+f(2)+[ f(3)+f(5)+ dots.c +f(21) ]+[ f(4)+f(6)+ dots.c +f(22) ]=-1-3-10-10=-24$.
+
+#mi(`f(x)+g(x+2)=5`)，
+
+取 #mi(`x=1`)，得
+
+#mi(`f(1)=5-g(3)=-1`).
+
+所以 #mi(`\sum_{k=1}^{22}f(k) =f(1)+f(2)+\left[ f(3)+f(5)+\cdots+f(21) \right]+\left[ f(4)+f(6)+\cdots+f(22) \right]=-1-3-10-10=-24`).
+
 故选 D.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-从甲，乙等 $5$ 名同学中随机选 $3$ 名参加社区服务工作，则甲，乙都入选的概率为#blank(){}.
+从甲，乙等 #mi(`5`) 名同学中随机选 #mi(`3`) 名参加社区服务工作，则甲，乙都入选的概率为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3)/(10)\) 或 \(0.3$])
+#answer([#mi(`\frac{3}{10}`) 或 #mi(`0.3`)])
 
 #solution[
-从 $5$ 名同学中随机选 $3$ 名，共有
-$binom(5, 3)=10$
+从 #mi(`5`) 名同学中随机选 #mi(`3`) 名，共有
+
+#mi(`\binom{5}{3}=10`)
+
 种选法.
-其中甲，乙都入选时，还需从其余 $3$ 名同学中再选 $1$ 名，共有
-$binom(3, 1)=3$
+
+其中甲，乙都入选时，还需从其余 #mi(`3`) 名同学中再选 #mi(`1`) 名，共有
+
+#mi(`\binom{3}{1}=3`)
+
 种选法.
+
 所以所求概率
-$P=(3)/(10)$.
-故答案为 $(3)/(10)$ 或 $0.3$.
+
+#mi(`P=\frac{3}{10}`).
+
+故答案为 #mi(`\frac{3}{10}`) 或 #mi(`0.3`).
 ]
 
 #problem(14)[
-过四点 $(0,0)$，$(4,0)$，$(-1,1)$，$(4,2)$ 中的三点的一个圆的方程为#blank(){}.
+过四点 #mi(`(0,0)`)，#mi(`(4,0)`)，#mi(`(-1,1)`)，#mi(`(4,2)`) 中的三点的一个圆的方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(x-2)^2+(y-3)^2=13\) 或 \((x-2)^2+(y-1)^2=5\) 或 \(( x-(4)/(3))^2+( y-(7)/(3))^2=(65)/(9)\) 或 \(( x-(8)/(5))^2+(y-1)^2=(169)/(25)$])
+#answer([#mi(`(x-2)^{2}+(y-3)^{2}=13`) 或 #mi(`(x-2)^{2}+(y-1)^{2}=5`) 或 #mi(`\left( x-\frac{4}{3}\right)^{2}+\left( y-\frac{7}{3}\right)^{2}=\frac{65}{9}`) 或 #mi(`\left( x-\frac{8}{5}\right)^{2}+(y-1)^{2}=\frac{169}{25}`)])
 
 #solution[
-设圆的方程为 $x^2+y^2+D x+E y+F=0$.
+设圆的方程为 #mi(`x^{2}+y^{2}+Dx+Ey+F=0`).
 
-$1^(\o d o t)$ 若圆过 $(0,0)$，$(4,0)$，$(-1,1)$，则 $F=0$，$16+4 D+F=0$，$1+1-D+E+F=0$.
-解得
-$D=-4$，$E=-6$，$F=0$.
-所以圆的方程为
-$x^2+y^2-4 x-6 y=0$，
-即
-$( x-2 )^2+( y-3 )^2=13$.
+#mi(`1^{\odot}`) 若圆过 #mi(`(0,0)`)，#mi(`(4,0)`)，#mi(`(-1,1)`)，则 #mi(`F=0`)，#mi(`16+4D+F=0`)，#mi(`1+1-D+E+F=0`).
 
-$2^(\o d o t)$ 若圆过 $(0,0)$，$(4,0)$，$(4,2)$，则 $F=0$，$16+4 D+F=0$，$16+4+4 D+2 E+F=0$.
 解得
-$D=-4$，$E=-2$，$F=0$.
-所以圆的方程为
-$x^2+y^2-4 x-2 y=0$，
-即
-$( x-2 )^2+( y-1 )^2=5$.
 
-$3^(\o d o t)$ 若圆过 $(0,0)$，$(4,2)$，$(-1,1)$，则 $F=0$，$1+1-D+E+F=0$，$16+4+4 D+2 E+F=0$.
-解得
-$D=-(8)/(3)$，$E=-(14)/(3)$，$F=0$.
-所以圆的方程为
-$x^2+y^2-(8)/(3)x-(14)/(3)y=0$，
-即
-$( x-(4)/(3))^2+( y-(7)/(3))^2=(65)/(9)$.
+#mi(`D=-4`)，#mi(`E=-6`)，#mi(`F=0`).
 
-$4^(\o d o t)$ 若圆过 $(-1,1)$，$(4,0)$，$(4,2)$，则 $1+1-D+E+F=0$，$16+4 D+F=0$，$16+4+4 D+2 E+F=0$.
-解得
-$D=-(16)/(5)$，$E=-2$，$F=-(16)/(5)$.
 所以圆的方程为
-$x^2+y^2-(16)/(5)x-2 y-(16)/(5)=0$，
+
+#mi(`x^{2}+y^{2}-4x-6y=0`)，
+
 即
-$( x-(8)/(5))^2+( y-1 )^2=(169)/(25)$.
-故答案为 $( x-2 )^2+( y-3 )^2=13$ 或 $( x-2 )^2+( y-1 )^2=5$ 或 $( x-(4)/(3))^2+( y-(7)/(3))^2=(65)/(9)$ 或 $( x-(8)/(5))^2+( y-1 )^2=(169)/(25)$.
+
+#mi(`\left( x-2 \right)^{2}+\left( y-3 \right)^{2}=13`).
+
+#mi(`2^{\odot}`) 若圆过 #mi(`(0,0)`)，#mi(`(4,0)`)，#mi(`(4,2)`)，则 #mi(`F=0`)，#mi(`16+4D+F=0`)，#mi(`16+4+4D+2E+F=0`).
+
+解得
+
+#mi(`D=-4`)，#mi(`E=-2`)，#mi(`F=0`).
+
+所以圆的方程为
+
+#mi(`x^{2}+y^{2}-4x-2y=0`)，
+
+即
+
+#mi(`\left( x-2 \right)^{2}+\left( y-1 \right)^{2}=5`).
+
+#mi(`3^{\odot}`) 若圆过 #mi(`(0,0)`)，#mi(`(4,2)`)，#mi(`(-1,1)`)，则 #mi(`F=0`)，#mi(`1+1-D+E+F=0`)，#mi(`16+4+4D+2E+F=0`).
+
+解得
+
+#mi(`D=-\frac{8}{3}`)，#mi(`E=-\frac{14}{3}`)，#mi(`F=0`).
+
+所以圆的方程为
+
+#mi(`x^{2}+y^{2}-\frac{8}{3}x-\frac{14}{3}y=0`)，
+
+即
+
+#mi(`\left( x-\frac{4}{3}\right)^{2}+\left( y-\frac{7}{3}\right)^{2}=\frac{65}{9}`).
+
+#mi(`4^{\odot}`) 若圆过 #mi(`(-1,1)`)，#mi(`(4,0)`)，#mi(`(4,2)`)，则 #mi(`1+1-D+E+F=0`)，#mi(`16+4D+F=0`)，#mi(`16+4+4D+2E+F=0`).
+
+解得
+
+#mi(`D=-\frac{16}{5}`)，#mi(`E=-2`)，#mi(`F=-\frac{16}{5}`).
+
+所以圆的方程为
+
+#mi(`x^{2}+y^{2}-\frac{16}{5}x-2y-\frac{16}{5}=0`)，
+
+即
+
+#mi(`\left( x-\frac{8}{5}\right)^{2}+\left( y-1 \right)^{2}=\frac{169}{25}`).
+
+故答案为 #mi(`\left( x-2 \right)^{2}+\left( y-3 \right)^{2}=13`) 或 #mi(`\left( x-2 \right)^{2}+\left( y-1 \right)^{2}=5`) 或 #mi(`\left( x-\frac{4}{3}\right)^{2}+\left( y-\frac{7}{3}\right)^{2}=\frac{65}{9}`) 或 #mi(`\left( x-\frac{8}{5}\right)^{2}+\left( y-1 \right)^{2}=\frac{169}{25}`).
 ]
 
 #problem(15)[
-记函数 $f(x)= cos ( omega x+ phi.alt )$（$omega >0$，$0< phi.alt < pi$）的最小正周期为 $T$，若 $f(T)=(sqrt(3))/(2)$，$x=(pi)/(9)$ 为 $f(x)$ 的零点，则 $omega$ 的最小值为#blank(){}.
+记函数 #mi(`f(x)=\cos \left( \omega x+\varphi \right)`)（#mi(`\omega>0`)，#mi(`0<\varphi<\pi`)）的最小正周期为 #mi(`T`)，若 #mi(`f(T)=\frac{\sqrt{3}}{2}`)，#mi(`x=\frac{\pi}{9}`) 为 #mi(`f(x)`) 的零点，则 #mi(`\omega`) 的最小值为\underline{\hspace{2.5em}}.
 ]
 
 #answer([3])
 
 #solution[
 因为
-$f(x)= cos ( omega x+ phi.alt )$，
+
+#mi(`f(x)=\cos \left( \omega x+\varphi \right)`)，
+
 所以最小正周期
-$T=(2 pi)/(omega)$.
-由 $f(T)=(sqrt(3))/(2)$，得 $f(T)= cos ( omega dot (2 pi)/(omega)+ phi.alt )= cos ( 2 pi + phi.alt )= cos phi.alt =(sqrt(3))/(2)$.
-又 $0< phi.alt < pi$，所以
-$phi.alt =(pi)/(6)$.
+
+#mi(`T=\frac{2\pi}{\omega}`).
+
+由 #mi(`f(T)=\frac{\sqrt{3}}{2}`)，得 #mi(`f(T)=\cos \left( \omega\cdot \frac{2\pi}{\omega}+\varphi \right)=\cos \left( 2\pi+\varphi \right)=\cos \varphi=\frac{\sqrt{3}}{2}`).
+
+又 #mi(`0<\varphi<\pi`)，所以
+
+#mi(`\varphi=\frac{\pi}{6}`).
+
 于是
-$f(x)= cos ( omega x+(pi)/(6))$.
-又 $x=(pi)/(9)$ 为 $f(x)$ 的零点，所以
-$(pi)/(9) omega +(pi)/(6)=(pi)/(2)+k pi$，$k in ZZ$.
+
+#mi(`f(x)=\cos \left( \omega x+\frac{\pi}{6}\right)`).
+
+又 #mi(`x=\frac{\pi}{9}`) 为 #mi(`f(x)`) 的零点，所以
+
+#mi(`\frac{\pi}{9}\omega+\frac{\pi}{6}=\frac{\pi}{2}+k\pi`)，#mi(`k\in \mathbb{Z}`).
+
 解得
-$omega =3+9 k$，$k in ZZ$.
-因为 $omega >0$，所以当 $k=0$ 时，$omega$ 的最小值为 $3$.
-故答案为 $3$.
+
+#mi(`\omega=3+9k`)，#mi(`k\in \mathbb{Z}`).
+
+因为 #mi(`\omega>0`)，所以当 #mi(`k=0`) 时，#mi(`\omega`) 的最小值为 #mi(`3`).
+
+故答案为 #mi(`3`).
 ]
 
 #problem(16)[
-已知 $x=x_1$ 和 $x=x_2$ 分别是函数 $f(x)=2 a^x- e x^2$（$a>0$ 且 $a != 1$）的极小值点和极大值点. 若 $x_1<x_2$，则 $a$ 的取值范围是#blank(){}.
+已知 #mi(`x=x_{1}`) 和 #mi(`x=x_{2}`) 分别是函数 #mi(`f(x)=2a^{x}-\mathrm{e}x^{2}`)（#mi(`a>0`) 且 #mi(`a\neq 1`)）的极小值点和极大值点. 若 #mi(`x_{1}<x_{2}`)，则 #mi(`a`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$( (1)/(e),1 )$])
+#answer([#mi(`\left( \frac{1}{\mathrm{e}},1 \right)`)])
 
 #solution[
 因为
-$f'(x)=2 ln a dot a^x-2 e x$，
+
+#mi(`f'(x)=2\ln a\cdot a^{x}-2\mathrm{e}x`)，
+
 所以方程
-$2 ln a dot a^x-2 e x=0$
-的两个根为 $x_1$，$x_2$.
+
+#mi(`2\ln a\cdot a^{x}-2\mathrm{e}x=0`)
+
+的两个根为 #mi(`x_{1}`)，#mi(`x_{2}`).
+
 即方程
-$ln a dot a^x= e x$
-有两个不同的实根，也就是函数 $y= ln a dot a^x$ 与函数 $y= e x$ 的图像有两个不同的交点.
-因为 $x_1$，$x_2$ 分别是函数 $f(x)=2 a^x- e x^2$ 的极小值点和极大值点，且 $x_1<x_2$，所以函数 $f(x)$ 在 $(- oo ,x_1)$ 和 $(x_2,+ oo )$ 上递减，在 $(x_1,x_2)$ 上递增.
-因此当 $x in (- oo ,x_1) union (x_2,+ oo )$ 时，$f'(x)<0$，即直线 $y= e x$ 在曲线 $y= ln a dot a^x$ 上方；当 $x in (x_1,x_2)$ 时，$f'(x)>0$，即直线 $y= e x$ 在曲线 $y= ln a dot a^x$ 下方.
-若 $a>1$，则 $ln a>0$，从而对任意 $x$ 都有 $ln a dot a^x>0$；而当 $x<0$ 时，$e x<0$. 这说明在 $x<0$ 的范围内，直线 $y= e x$ 不可能在曲线 $y= ln a dot a^x$ 上方，更不可能与它相交，这与在 $(- oo ,x_1)$ 上恒有 $f'(x)<0$ 矛盾. 所以
-$0<a<1$.
+
+#mi(`\ln a\cdot a^{x}=\mathrm{e}x`)
+
+有两个不同的实根，也就是函数 #mi(`y=\ln a\cdot a^{x}`) 与函数 #mi(`y=\mathrm{e}x`) 的图像有两个不同的交点.
+
+因为 #mi(`x_{1}`)，#mi(`x_{2}`) 分别是函数 #mi(`f(x)=2a^{x}-\mathrm{e}x^{2}`) 的极小值点和极大值点，且 #mi(`x_{1}<x_{2}`)，所以函数 #mi(`f(x)`) 在 #mi(`(-\infty,x_{1})`) 和 #mi(`(x_{2},+\infty)`) 上递减，在 #mi(`(x_{1},x_{2})`) 上递增.
+
+因此当 #mi(`x\in (-\infty,x_{1})\cup (x_{2},+\infty)`) 时，#mi(`f'(x)<0`)，即直线 #mi(`y=\mathrm{e}x`) 在曲线 #mi(`y=\ln a\cdot a^{x}`) 上方；当 #mi(`x\in (x_{1},x_{2})`) 时，#mi(`f'(x)>0`)，即直线 #mi(`y=\mathrm{e}x`) 在曲线 #mi(`y=\ln a\cdot a^{x}`) 下方.
+
+若 #mi(`a>1`)，则 #mi(`\ln a>0`)，从而对任意 #mi(`x`) 都有 #mi(`\ln a\cdot a^{x}>0`)；而当 #mi(`x<0`) 时，#mi(`\mathrm{e}x<0`). 这说明在 #mi(`x<0`) 的范围内，直线 #mi(`y=\mathrm{e}x`) 不可能在曲线 #mi(`y=\ln a\cdot a^{x}`) 上方，更不可能与它相交，这与在 #mi(`(-\infty,x_{1})`) 上恒有 #mi(`f'(x)<0`) 矛盾. 所以
+
+#mi(`0<a<1`).
+
 令
-$g(x)= ln a dot a^x$，
+
+#mi(`g(x)=\ln a\cdot a^{x}`)，
+
 则
-$g'(x)= ln ""^2 a dot a^x$.
-设过原点且与函数 $y=g(x)$ 的图像相切的直线的切点为 $( x_0, ln a dot a^(x_0) )$，则该切线斜率为
-$g'(x_0)= ln ""^2 a dot a^(x_0)$.
+
+#mi(`g'(x)=\ln^{2} a\cdot a^{x}`).
+
+设过原点且与函数 #mi(`y=g(x)`) 的图像相切的直线的切点为 #mi(`\left( x_{0},\ln a\cdot a^{x_0}\right)`)，则该切线斜率为
+
+#mi(`g'(x_{0})=\ln^{2} a\cdot a^{x_0}`).
+
 切线方程为
-$y- ln a dot a^(x_0)= ln ""^2 a dot a^(x_0)( x-x_0 )$.
+
+#mi(`y-\ln a\cdot a^{x_0}=\ln^{2} a\cdot a^{x_0}\left( x-x_{0} \right)`).
+
 因为该切线过原点，所以
-$0- ln a dot a^(x_0)= ln ""^2 a dot a^(x_0)( 0-x_0 )$，
+
+#mi(`0-\ln a\cdot a^{x_0}=\ln^{2} a\cdot a^{x_0}\left( 0-x_{0} \right)`)，
+
 解得
-$x_0=(1)/(ln a)$.
+
+#mi(`x_{0}=\frac{1}{\ln a}`).
+
 于是切线斜率
-$g'(x_0)= ln ""^2 a dot a^((1)/(ln a))= e ln ""^2 a$.
-因为函数 $y= ln a dot a^x$ 与函数 $y= e x$ 的图像有两个不同的交点，所以
-$e ln ""^2 a< e$，
+
+#mi(`g'(x_{0})=\ln^{2} a\cdot a^{\frac{1}{\ln a}}=\mathrm{e}\ln^{2} a`).
+
+因为函数 #mi(`y=\ln a\cdot a^{x}`) 与函数 #mi(`y=\mathrm{e}x`) 的图像有两个不同的交点，所以
+
+#mi(`\mathrm{e}\ln^{2} a<\mathrm{e}`)，
+
 即
-$ln ""^2 a<1$.
+
+#mi(`\ln^{2} a<1`).
+
 解得
-$(1)/(e)<a< e$.
-再结合 $0<a<1$，得
-$(1)/(e)<a<1$.
-故答案为 $( (1)/(e),1 )$.
+
+#mi(`\frac{1}{\mathrm{e}}<a<\mathrm{e}`).
+
+再结合 #mi(`0<a<1`)，得
+
+#mi(`\frac{1}{\mathrm{e}}<a<1`).
+
+故答案为 #mi(`\left( \frac{1}{\mathrm{e}},1 \right)`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-记 $triangle A B C$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $sin C sin ( A-B )= sin B sin ( C-A )$.
+记 #mi(`\triangle ABC`) 的内角 #mi(`A`)，#mi(`B`)，#mi(`C`) 的对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`)，已知 #mi(`\sin C\sin \left( A-B \right)=\sin B\sin \left( C-A \right)`).
 
-+ (1) 证明：$2 a^2=b^2+c^2$；
-+ (2) 若 $a=5$，$cos A=(25)/(31)$，求 $triangle A B C$ 的周长.
+
++ (1)
 ]
 
 #solution[
-+ (1) 证明：因为
-$sin C sin ( A-B )= sin B sin ( C-A )$，
-所以
-$sin C sin A cos B- sin C sin B cos A = sin B sin C cos A- sin B sin A cos C$.
-由正弦定理与余弦定理可得 $a c dot (a^2+c^2-b^2)/(2 a c)-2 b c dot (b^2+c^2-a^2)/(2 b c)=-a b dot (a^2+b^2-c^2)/(2 a b)$.
-化简得
-$(a^2+c^2-b^2)/(2)-( b^2+c^2-a^2 ) =-(a^2+b^2-c^2)/(2)$，
-所以
-$2 a^2=b^2+c^2$.
-+ (2) 因为 $a=5$，$cos A=(25)/(31)$，由（1）得
-$b^2+c^2=2 a^2=50$.
-由余弦定理
-$a^2=b^2+c^2-2 b c cos A$，
-得
-$25=50-2 b c dot (25)/(31)$，
-所以
-$b c=(31)/(2)$.
-于是
-$( b+c )^2=b^2+c^2+2 b c=50+31=81$，
-所以
-$b+c=9$.
-因此 $triangle A B C$ 的周长为
-$a+b+c=5+9=14$.
++ (1)
 ]
 
 #problem(18)[
-如图，四面体 $A B C D$ 中，$A D bot C D$，$A D=C D$，$angle A D B= angle B D C$，$E$ 为 $A C$ 的中点.
+如图，四面体 #mi(`ABCD`) 中，#mi(`AD\perp CD`)，#mi(`AD=CD`)，#mi(`\angle ADB=\angle BDC`)，#mi(`E`) 为 #mi(`AC`) 的中点.
 
 
-+ (1) 证明：$"平面 "B E D bot "平面 "A C D$；
-+ (2) 设 $A B=B D=2$，$angle A C B=60^ degree$，点 $F$ 在 $B D$ 上. 当 $triangle A F C$ 面积最小时，求 $C F$ 与平面 $A B D$ 所成的角的正弦值.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2022/img/national_paper_b_science/q18_fig1.png", width: 6.0cm)]
+
+#align(center)[#image("/papers/2022/img/national_paper_b_science/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 证明：因为 $A D=C D$，$E$ 为 $A C$ 的中点，所以
-$A C bot D E$.
-在 $triangle A B D$ 和 $triangle C B D$ 中，
-$A D=C D$，$angle A D B= angle C D B$，$D B=D B$，
-所以
-$triangle A B D\c o n g triangle C B D$.
-因此
-$A B=C B$.
-又因为 $E$ 为 $A C$ 的中点，所以
-$A C bot B E$.
-因为 $D E$，$B E subset "平面 "B E D$，且 $D E inter B E=E$，所以
-$A C bot "平面 "B E D$.
-又因为 $A C subset "平面 "A C D$，所以
-$"平面 "B E D bot "平面 "A C D$.
-+ (2) 连接 $E F$. 由（1）知 $A C bot "平面 "B E D$，因为 $E F subset "平面 "B E D$，所以
-$A C bot E F$.
-于是
-$S_( triangle A F C)=(1)/(2) dot A C dot E F$.
-当 $E F bot B D$ 时，$E F$ 最小，此时 $triangle A F C$ 面积最小.
-因为 $triangle A B D\c o n g triangle C B D$，所以
-$C B=A B=2$.
-又因为 $angle A C B=60^ degree$，所以 $triangle A B C$ 是等边三角形.
-因为 $E$ 为 $A C$ 的中点，所以
-$A E=E C=1$，$B E=sqrt(3)$.
-又因为 $A D bot C D$，且 $A D=C D$，所以在等腰直角三角形 $A D C$ 中，
-$D E=(1)/(2)A C=1$.
-在 $triangle D E B$ 中，
-$D E^2+B E^2=1^2+( sqrt(3))^2=4=B D^2$，
-所以
-$B E bot D E$.
-以 $E$ 为坐标原点建立空间直角坐标系 $E-x y z$，则
-$A(1,0,0)$，$B(0,sqrt(3),0)$，$D(0,0,1)$，$C(-1,0,0)$.
-于是
-$arrow(A D)=(-1,0,1)$，$arrow(A B)=(-1,sqrt(3),0)$.
-设平面 $A B D$ 的一个法向量为 $bold(n)=(x,y,z)$，则
-$bold(n) dot arrow(A D)=-x+z=0$，$bold(n) dot arrow(A B)=-x+sqrt(3)y=0$.
-取 $y=sqrt(3)$，得
-$bold(n)=(3,sqrt(3),3)$.
-当 $E F bot B D$ 时，$F$ 为 $B D$ 上到 $E$ 的垂足. 由向量投影可得
-$F( 0,(sqrt(3))/(4),(3)/(4))$.
-所以
-$arrow(C F)=( 1,(sqrt(3))/(4),(3)/(4))$.
-设 $C F$ 与平面 $A B D$ 所成角为 $theta$，则 $sin theta = cos angle ( bold(n),arrow(C F))=(| bold(n){ dot } arrow(C F)|)/(|bold(n)| dot |arrow(C F)|)$.
-计算得 $bold(n) dot arrow(C F)=3+(3)/(4)+(9)/(4)=6$，$|bold(n)|=sqrt(9+3+9)=sqrt(21)$，$|arrow(C F)|=sqrt(1+(3)/(16)+(9)/(16))=sqrt((7)/(4))$，所以 $cos angle ( bold(n),arrow(C F))=(6)/(sqrt(21) dot sqrt((7)/(4)))=(4 sqrt(3))/(7)$.
-因此
-$sin theta =(4 sqrt(3))/(7)$.
-所以 $C F$ 与平面 $A B D$ 所成角的正弦值为
-$(4 sqrt(3))/(7)$.
++ (1)
 ]
 
 #problem(19)[
-某地经过多年的环境治理，已将荒山改造成了绿水青山. 为估计一林区某种树木的总材积量，随机选取了 $10$ 棵这种树木，测量每棵树的根部横截面积（单位：$m^2$）和材积量（单位：$m^3$），得到如下数据：
+某地经过多年的环境治理，已将荒山改造成了绿水青山. 为估计一林区某种树木的总材积量，随机选取了 #mi(`10`) 棵这种树木，测量每棵树的根部横截面积（单位：#mi(`\mathrm{m}^{2}`)）和材积量（单位：#mi(`\mathrm{m}^{3}`)），得到如下数据：
 
-\begin{center}
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|c|c|c|c|c|c|}
 \hline
-样本号 $i$ & 1 & 2 & 3 & 4 & 5 \\
-\hline
-根部横截面积 $x_i$ & 0.04 & 0.06 & 0.04 & 0.08 & 0.08 \\
-\hline
-材积量 $y_i$ & 0.25 & 0.40 & 0.22 & 0.54 & 0.51 \\
-\hline
-\end{tabular}
-\end{center}
 
-\begin{center}
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|c|c|c|c|c|c|c|}
-\hline
-样本号 $i$ & 6 & 7 & 8 & 9 & 10 & 总和 \\
-\hline
-根部横截面积 $x_i$ & 0.05 & 0.05 & 0.07 & 0.07 & 0.06 & 0.6 \\
-\hline
-材积量 $y_i$ & 0.34 & 0.36 & 0.46 & 0.42 & 0.40 & 3.9 \\
-\hline
-\end{tabular}
-\end{center}
+样本号 #mi(`i`) & 1 & 2 & 3 & 4 & 5 \\
 
-并计算得 $sum_(i=1)^(10)x_i^2=0.038$，$sum_(i=1)^(10)y_i^2=1.6158$，$sum_(i=1)^(10)x_(i) y_i=0.2474$.
+\hline
 
-附：相关系数 $r=(sum_(i=1)^(n)( x_i-overline(x))( y_i-overline(y)))/(sqrt(sum_(i=1)^(n)( x_i-overline(x))^2 sum_(i=1)^(n)( y_i-overline(y))^2))$，$sqrt(1.896) approx 1 .377$.
+根部横截面积 #mi(`x_{i}`) & 0.04 & 0.06 & 0.04 & 0.08 & 0.08 \\
+
+\hline
+
+材积量 #mi(`y_{i}`) & 0.25 & 0.40 & 0.22 & 0.54 & 0.51 \\
+
+\hline
+
+\hline
+
+样本号 #mi(`i`) & 6 & 7 & 8 & 9 & 10 & 总和 \\
+
+\hline
+
+根部横截面积 #mi(`x_{i}`) & 0.05 & 0.05 & 0.07 & 0.07 & 0.06 & 0.6 \\
+
+\hline
+
+材积量 #mi(`y_{i}`) & 0.34 & 0.36 & 0.46 & 0.42 & 0.40 & 3.9 \\
+
+\hline
+
+并计算得 #mi(`\sum_{i=1}^{10}x_{i}^{2}=0.038`)，#mi(`\sum_{i=1}^{10}y_{i}^{2}=1.6158`)，#mi(`\sum_{i=1}^{10}x_{i}y_{i}=0.2474`).
+
+附：相关系数 #mi(`r=\frac{\sum_{i=1}^{n}\left( x_{i}-\bar{x}\right)\left( y_{i}-\bar{y}\right)}{\sqrt{\sum_{i=1}^{n}\left( x_{i}-\bar{x}\right)^{2}\sum_{i=1}^{n}\left( y_{i}-\bar{y}\right)^{2}}}`)，#mi(`\sqrt{1.896}\approx1.377`).
 
 
-+ (1) 估计该林区这种树木平均一棵的根部横截面积与平均一棵的材积量；
-+ (2) 求该林区这种树木的根部横截面积与材积量的样本相关系数（精确到 $0.01$）；
-+ (3) 现测量了该林区所有这种树木的根部横截面积，并得到所有这种树木的根部横截面积总和为 $186 m^2$. 已知树木的材积量与其根部横截面积近似成正比. 利用以上数据给出该林区这种树木的总材积量的估计值.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 样本中 $10$ 棵这种树木的根部横截面积的平均值
-$overline(x)=(0.6)/(10)=0.06$.
-样本中 $10$ 棵这种树木的材积量的平均值
-$overline(y)=(3.9)/(10)=0.39$.
-据此可估计该林区这种树木平均一棵的根部横截面积为 $0.06 m^2$，平均一棵的材积量为 $0.39 m^3$.
-+ (2) 于是 $r=(sum_(i=1)^(10)( x_i-overline(x))( y_i-overline(y)))/(sqrt(sum_(i=1)^(10)( x_i-overline(x))^2 sum_(i=1)^(10)( y_i-overline(y))^2))=(sum_(i=1)^(10)x_(i) y_i-10 overline(x)overline(y))/(sqrt(( sum_(i=1)^(10)x_i^2-10 overline(x)^2 )( sum_(i=1)^(10)y_i^2-10 overline(y)^2 )))$.
-所以 $r=(0.2474-10 times 0 .06 times 0 .39)/(sqrt(( 0.038-10 times 0 .06^2 )( 1.6158-10 times 0 .39^2 )))=(0.0134)/(sqrt(0.0001896)) approx (0.0134)/(0.01377) approx 0 .97$.
-故样本相关系数约为 $0.97$.
-+ (3) 设该林区这种树木的总材积量的估计值为 $Y m^3$.
-又已知树木的材积量与其根部横截面积近似成正比，所以
-$(0.06)/(0.39)=(186)/(Y)$.
-解得
-$Y=1209$.
-故该林区这种树木的总材积量估计值为 $1209 m^3$.
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-已知椭圆 $E$ 的中心为坐标原点，对称轴为 $x$ 轴，$y$ 轴，且过 $A(0,-2)$，$B( (3)/(2),-1 )$ 两点.
+已知椭圆 #mi(`E`) 的中心为坐标原点，对称轴为 #mi(`x`) 轴，#mi(`y`) 轴，且过 #mi(`A(0,-2)`)，#mi(`B\left( \frac{3}{2},-1 \right)`) 两点.
 
-+ (1) 求 $E$ 的方程；
-+ (2) 设过点 $P(1,-2)$ 的直线交 $E$ 于 $M$，$N$ 两点，过 $M$ 且平行于 $x$ 轴的直线与线段 $A B$ 交于点 $T$，点 $H$ 满足 $M T=T H$. 证明：直线 $H N$ 过定点.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设椭圆 $E$ 的方程为
-$m x^2+n y^2=1$.
-由椭圆过 $A(0,-2)$，$B( (3)/(2),-1 )$，得 $4 n=1$，$(9)/(4)m+n=1$.
-解得
-$m=(1)/(3)$，$n=(1)/(4)$.
-所以椭圆 $E$ 的方程为
-$(y^2)/(4)+(x^2)/(3)=1$.
-+ (2) 由 $A(0,-2)$，$B( (3)/(2),-1 )$，得直线 $A B$ 的方程为
-$y+2=(2)/(3)x$.
-\begin{enumerate}
-+ (3) 若过点 $P(1,-2)$ 的直线斜率不存在，则直线方程为
-$x=1$.
-联立 $x=1$ 和 $(x^2)/(3)+(y^2)/(4)=1$，可得
-$M( 1,-(2 sqrt(6))/(3))$，$N( 1,(2 sqrt(6))/(3))$.
-将 $M$ 的纵坐标代入 $A B$ 的方程，得
-$T( -sqrt(6)+3,-(2 sqrt(6))/(3))$.
-由 $M T=T H$ 得
-$H( -2 sqrt(6)+5,-(2 sqrt(6))/(3))$.
-于是直线 $H N$ 的方程为
-$y=( 2+(2 sqrt(6))/(3))x-2$，
-显然过点 $(0,-2)$.
-+ (4) 若过点 $P(1,-2)$ 的直线斜率存在，设直线方程为
-$k x-y-(k+2)=0$，
-设
-$M(x_1,y_1)$，$N(x_2,y_2)$.
-联立 $k x-y-(k+2)=0$ 和 $(x^2)/(3)+(y^2)/(4)=1$，得
-$( 3 k^2+4 )x^2-6 k(k+2)x+3 k(k+4)=0$.
-所以 $x_1+x_2=(6 k(k+2))/(3 k^2+4)$，$x_(1) x_2=(3 k(k+4))/(3 k^2+4)$.
-又因为 $y=k x-(k+2)$，所以 $y_1+y_2=(-8(k+2))/(3 k^2+4)$，$y_(1) y_2=(4(4+4 k-2 k^2))/(3 k^2+4)$，$x_(1) y_2+x_(2) y_1=(-24 k)/(3 k^2+4)$.
-由 $y=y_1$ 和 $y=(2)/(3)x-2$
-可得
-$T( (3)/(2)y_1+3,y_1 )$.
-又由 $M T=T H$，得
-$H( 3 y_1+6-x_1,y_1 )$.
-于是
-$H N:\ y-y_2=(y_1-y_2)/(3 y_1+6-x_1-x_2)(x-x_2)$.
-将 $(0,-2)$ 代入并整理，需证 $2(x_1+x_2)-6(y_1+y_2)+x_(1) y_2+x_(2) y_1-3 y_(1) y_2-12=0$.
-代入上面各式得 $(24 k(k+2)+48(k+2)-24 k-12(4+4 k-2 k^2)-12(3 k^2+4))/(3 k^2+4)=0$，
-恒成立.
-因此直线 $H N$ 过定点
-$(0,-2)$.
-
-\end{enumerate}
++ (1)
 ]
 
 #problem(21)[
-已知函数 $f(x)= ln (1+x)+a x e ""^(-x)$.
+已知函数 #mi(`f(x)=\ln(1+x)+ax\mathrm{e}^{-x}`).
 
-+ (1) 当 $a=1$ 时，求曲线 $y=f(x)$ 在点 $( 0,f(0) )$ 处的切线方程；
-+ (2) 若 $f(x)$ 在区间 $(-1,0)$，$(0,+ oo )$ 各恰有一个零点，求 $a$ 的取值范围.
+
++ (1)
 ]
 
 #solution[
-+ (1) 函数 $f(x)$ 的定义域为 $(-1,+ oo )$.
-当 $a=1$ 时，
-$f(x)= ln (1+x)+(x)/(e ""^x)$，$f(0)=0$.
-所以
-$f'(x)=(1)/(1+x)+(1-x)/(e ""^x)$，
-从而
-$f'(0)=2$.
-故曲线 $y=f(x)$ 在点 $( 0,f(0) )$ 处的切线方程为
-$y=2 x$.
-+ (2) 因为
-$f(x)= ln (1+x)+(a x)/(e ""^x)$，
-所以
-$f'(x)=(1)/(1+x)+(a(1-x))/(e ""^x)=(e ""^x+a(1-x^2))/((1+x) e ""^x)$.
-设
-$g(x)= e ""^x+a(1-x^2)$.
-\begin{enumerate}
-+ (3) 若 $a>0$，当 $x in (-1,0)$ 时，
-$g(x)= e ""^x+a(1-x^2)>0$，
-所以 $f'(x)>0$.
-故 $f(x)$ 在 $(-1,0)$ 上单调递增，而 $f(x)<f(0)=0$，所以 $f(x)$ 在 $(-1,0)$ 上没有零点，不合题意.
-+ (4) 若 $-1 <= a <= 0$，当 $x in (0,+ oo )$ 时，
-$g'(x)= e ""^x-2 a x>0$，
-所以 $g(x)$ 在 $(0,+ oo )$ 上单调递增，从而
-$g(x)>g(0)=1+a >= 0$.
-于是 $f'(x)>0$，故 $f(x)$ 在 $(0,+ oo )$ 上单调递增，而 $f(x)>f(0)=0$，所以 $f(x)$ 在 $(0,+ oo )$ 上没有零点，不合题意.
-+ (5) 若 $a<-1$.
-先看区间 $(0,+ oo )$. 因为
-$g'(x)= e ""^x-2 a x>0$，
-所以 $g(x)$ 在 $(0,+ oo )$ 上单调递增.
-又
-$g(0)=1+a<0$，$g(1)= e >0$，
-所以存在 $m in (0,1)$，使得
-$g(m)=0$，
-即 $f'(m)=0$.
-当 $x in (0,m)$ 时，$f'(x)<0$，$f(x)$ 单调递减；当 $x in (m,+ oo )$ 时，$f'(x)>0$，$f(x)$ 单调递增.
-于是
-$f(x)<f(0)=0$（$x in (0,m)$），
-且
-$\lim\l i m i t s_(x -> + oo )f(x)=+ oo$，
-故 $f(x)$ 在 $(0,+ oo )$ 上恰有一个零点.
-再看区间 $(-1,0)$. 此时
-$g'(x)= e ""^x-2 a x$.
-设
-$h(x)=g'(x)= e ""^x-2 a x$，
-则
-$h'(x)= e ""^x-2 a>0$.
-所以 $g'(x)$ 在 $(-1,0)$ 上单调递增.
-又
-$g'(-1)=(1)/(e)+2 a<0$，$g'(0)=1>0$，
-所以存在 $n in (-1,0)$，使得
-$g'(n)=0$.
-当 $x in (-1,n)$ 时，$g'(x)<0$，$g(x)$ 单调递减；当 $x in (n,0)$ 时，$g'(x)>0$，$g(x)$ 单调递增.
-又
-$g(0)=1+a<0$，$g(-1)=(1)/(e)>0$，
-所以存在 $t in (-1,n)$，使得
-$g(t)=0$，
-即 $f'(t)=0$.
-当 $x in (-1,t)$ 时，$f(x)$ 单调递增；当 $x in (t,0)$ 时，$f(x)$ 单调递减.
-因为
-$\lim\l i m i t s_(x -> -1^+)f(x)=- oo$，$f(0)=0$，
-所以当 $x in (t,0)$ 时，$f(x)>0$.
-故 $f(x)$ 在 $(-1,t)$ 上有唯一零点，在 $(t,0)$ 上无零点，从而 $f(x)$ 在 $(-1,0)$ 上恰有一个零点.
-综上，$a$ 的取值范围为
-$(- oo ,-1)$.
-
-\end{enumerate}
++ (1)
 ]
 
 #part-header("选考题：解答题")
 
 #problem(22)[
-在直角坐标系 $x O y$ 中，曲线 $C$ 的参数方程为 $x=sqrt(3) cos 2 t$，$y=2 sin t$（$t$ 为参数），以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系，已知直线 $l$ 的极坐标方程为 $rho sin ( theta +(pi)/(3))+m=0$.
+在直角坐标系 #mi(`xOy`) 中，曲线 #mi(`C`) 的参数方程为 #mi(`x=\sqrt{3}\cos 2t`)，#mi(`y=2\sin t`)（#mi(`t`) 为参数），以坐标原点为极点，#mi(`x`) 轴正半轴为极轴建立极坐标系，已知直线 #mi(`l`) 的极坐标方程为 #mi(`\rho \sin \left( \theta+\frac{\pi}{3}\right)+m=0`).
 
-+ (1) 写出 $l$ 的直角坐标方程；
-+ (2) 若 $l$ 与 C 有公共点，求 $m$ 的取值范围.
+
++ (1)
 ]
 
 #solution[
-+ (1) 因为
-$rho sin ( theta +(pi)/(3))+m=0$，
-所以
-$(1)/(2) rho sin theta +(sqrt(3))/(2) rho cos theta +m=0$.
-又因为
-$rho sin theta =y$，$rho cos theta =x$，
-所以
-$(1)/(2)y+(sqrt(3))/(2)x+m=0$.
-整理得 $l$ 的直角坐标方程为
-$sqrt(3)x+y+2 m=0$.
-+ (2) 【法一】把
-$x=sqrt(3) cos 2 t$，$y=2 sin t$
-代入
-$sqrt(3)x+y+2 m=0$，
-得
-$3 cos 2 t+2 sin t+2 m=0$.
-由
-$cos 2 t=1-2 sin ""^2 t$，
-得
-$-6 sin ""^2 t+2 sin t+3+2 m=0$.
-令
-$sin t=a$，$a in [-1,1]$，
-则
-$2 m=6 a^2-2 a-3$.
-设
-$f(a)=6 a^2-2 a-3$，$-1 <= a <= 1$.
-因为抛物线开口向上，对称轴为
-$a=(1)/(6)$，
-所以
-$f(a)_( max )=f(-1)=5$，$f(a)_( min )=f( (1)/(6))=-(19)/(6)$.
-因此
-$-(19)/(6) <= 2 m <= 5$，
-即
-$-(19)/(12) <= m <= (5)/(2)$.
-故 $m$ 的取值范围为
-$[ -(19)/(12),(5)/(2)]$.
++ (1)
 ]
 
 #problem(23)[
-已知 $a$，$b$，$c$ 都是正数，且 $a^((3)/(2))+b^((3)/(2))+c^((3)/(2))=1$，证明：
+已知 #mi(`a`)，#mi(`b`)，#mi(`c`) 都是正数，且 #mi(`a^{\frac{3}{2}}+b^{\frac{3}{2}}+c^{\frac{3}{2}}=1`)，证明：
 
-+ (1) $a b c <= (1)/(9)$；
-+ (2) $(a)/(b+c)+(b)/(a+c)+(c)/(a+b) <= (1)/(2 sqrt(a b c))$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 证明：因为 $a>0$，$b>0$，$c>0$，所以 $a^((3)/(2))>0$，$b^((3)/(2))>0$，$c^((3)/(2))>0$.
-由均值不等式得 $(a^((3)/(2))+b^((3)/(2))+c^((3)/(2)))/(3) >= \sqrt[3]{a^((3)/(2))b^((3)/(2))c^((3)/(2))}$.
-因为
-$a^((3)/(2))+b^((3)/(2))+c^((3)/(2))=1$，
-所以
-$(1)/(3) >= (a b c)^((1)/(2))$.
-于是
-$a b c <= (1)/(9)$.
-当且仅当
-$a^((3)/(2))=b^((3)/(2))=c^((3)/(2))$
-时取等号.
-+ (2) 证明：因为
-$b+c >= 2 sqrt(b c)$，$a+c >= 2 sqrt(a c)$，$a+b >= 2 sqrt(a b)$，
-所以
-$(a)/(b+c) <= (a)/(2 sqrt(b c))=(a^((3)/(2)))/(2 sqrt(a b c))$，
-$(b)/(a+c) <= (b)/(2 sqrt(a c))=(b^((3)/(2)))/(2 sqrt(a b c))$，
-$(c)/(a+b) <= (c)/(2 sqrt(a b))=(c^((3)/(2)))/(2 sqrt(a b c))$.
-三式相加得
-所以 $(a)/(b+c)+(b)/(a+c)+(c)/(a+b) <= (a^((3)/(2))+b^((3)/(2))+c^((3)/(2)))/(2 sqrt(a b c))=(1)/(2 sqrt(a b c))$.
-当且仅当 $a=b=c$ 时取等号.
++ (1)
 ]
 

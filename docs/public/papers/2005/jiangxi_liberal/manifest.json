@@ -1,8 +1,143 @@
 {
-  "title": "2005年普通高等学校招生全国统一考试",
-  "subtitle": "2005年江西卷（文）",
   "year": "2005",
   "slug": "jiangxi_liberal",
+  "title": "2005年江西卷（文）",
+  "pageCount": 0,
+  "hasVectorSvg": false,
+  "questions": [
+    {
+      "num": 1,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 2,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 3,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 4,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 5,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 6,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 7,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 8,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 9,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 10,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 11,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 12,
+      "type": "单选题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 13,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 14,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 15,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 16,
+      "type": "填空题",
+      "hasAnswer": true,
+      "hasSolution": true
+    },
+    {
+      "num": 17,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 18,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 19,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 20,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 21,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    },
+    {
+      "num": 22,
+      "type": "解答题",
+      "hasAnswer": false,
+      "hasSolution": true
+    }
+  ],
   "sections": [
     {
       "name": "单选题",
@@ -17,7 +152,9 @@
             "$\\{0, 1, 2\\}$"
           ],
           "answer": "D",
-          "solution": "<p>由 $|x|<3$ 且 $x\\in\\mathbb{Z}$，可得</p>\n$$\nI=\\{-2,-1,0,1,2\\}\n$$\n<p>因此</p>\n$$\n\\complement_{I} B=I\\smallsetminus B=\\{0,1\\}\n$$\n<p>从而</p>\n$$\nA\\cup(\\complement_{I} B)=\\{1,2\\}\\cup\\{0,1\\}=\\{0,1,2\\}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>由 $|x|<3$ 且 $x\\in\\mathbb{Z}$，可得</p>\n$$\nI=\\{-2,-1,0,1,2\\}\n$$\n<p>因此</p>\n$$\n\\complement_{I} B=I\\smallsetminus B=\\{0,1\\}\n$$\n<p>从而</p>\n$$\nA\\cup(\\complement_{I} B)=\\{1,2\\}\\cup\\{0,1\\}=\\{0,1,2\\}\n$$\n<p>故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 2,
@@ -29,7 +166,9 @@
             "$-\\frac{3}{5}$"
           ],
           "answer": "B",
-          "solution": "<p>由半角正切的二倍角公式</p>\n$$\n\\cos\\alpha=\\frac{1-\\tan^{2}\\dfrac{\\alpha}{2}}{1+\\tan^{2}\\dfrac{\\alpha}{2}}\n$$\n<p>代入 $\\tan\\dfrac{\\alpha}{2}=3$，得</p>\n$$\n\\cos\\alpha=\\frac{1-3^{2}}{1+3^{2}}=-\\frac{4}{5}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>由半角正切的二倍角公式</p>\n$$\n\\cos\\alpha=\\frac{1-\\tan^{2}\\dfrac{\\alpha}{2}}{1+\\tan^{2}\\dfrac{\\alpha}{2}}\n$$\n<p>代入 $\\tan\\dfrac{\\alpha}{2}=3$，得</p>\n$$\n\\cos\\alpha=\\frac{1-3^{2}}{1+3^{2}}=-\\frac{4}{5}\n$$\n<p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 3,
@@ -41,7 +180,9 @@
             "$1$ 项"
           ],
           "answer": "B",
-          "solution": "<p>在二项式展开式中，设某项取了 $j$ 个 $\\sqrt[3]{x}$，则 $0\\le j\\leqslant12$，该项中 $x$ 的幂为</p>\n$$\n\\left(x^{\\frac{1}{2}}\\right)^{12-j}\\left(x^{\\frac{1}{3}}\\right)^{j}  =x^{\\frac{12-j}{2}+\\frac{j}{3}}=x^{6-\\frac{j}{6}}\n$$\n<p>要使指数 $6-\\dfrac{j}{6}$ 是正整数，必须且只须 $j$ 是 $6$ 的倍数. 由 $0\\le j\\leqslant12$，可取 $j=0$，$6$，$12$，对应指数分别为 $6$，$5$，$4$，所以共有 $3$ 项.</p><p>故选 B.</p>"
+          "solution": "<p>在二项式展开式中，设某项取了 $j$ 个 $\\sqrt[3]{x}$，则 $0\\le j\\leqslant12$，该项中 $x$ 的幂为</p>\n$$\n\\left(x^{\\frac{1}{2}}\\right)^{12-j}\\left(x^{\\frac{1}{3}}\\right)^{j}  =x^{\\frac{12-j}{2}+\\frac{j}{3}}=x^{6-\\frac{j}{6}}\n$$\n<p>要使指数 $6-\\dfrac{j}{6}$ 是正整数，必须且只须 $j$ 是 $6$ 的倍数. 由 $0\\le j\\leqslant12$，可取 $j=0$，$6$，$12$，对应指数分别为 $6$，$5$，$4$，所以共有 $3$ 项.</p><p>故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 4,
@@ -53,7 +194,9 @@
             "$[1,3]$"
           ],
           "answer": "A",
-          "solution": "<p>对数的真数必须为正，且分母不能为零. 先由</p>\n$$\n-x^{2}+4x-3=-(x-1)(x-3)>0\n$$\n<p>得 $1<x<3$. 在此范围内还必须有</p>\n$$\n\\log_{2}(-x^{2}+4x-3)\\neq0\n$$\n<p>即 $-x^{2}+4x-3\\neq1$. 解方程</p>\n$$\n-x^{2}+4x-3=1  \\Longleftrightarrow (x-2)^{2}=0\n$$\n<p>得 $x=2$. 因此定义域为 $(1,2)\\cup(2,3)$，故选 A.</p>"
+          "solution": "<p>对数的真数必须为正，且分母不能为零. 先由</p>\n$$\n-x^{2}+4x-3=-(x-1)(x-3)>0\n$$\n<p>得 $1<x<3$. 在此范围内还必须有</p>\n$$\n\\log_{2}(-x^{2}+4x-3)\\neq0\n$$\n<p>即 $-x^{2}+4x-3\\neq1$. 解方程</p>\n$$\n-x^{2}+4x-3=1  \\Longleftrightarrow (x-2)^{2}=0\n$$\n<p>得 $x=2$. 因此定义域为 $(1,2)\\cup(2,3)$，故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 5,
@@ -65,7 +208,9 @@
             "非周期函数"
           ],
           "answer": "B",
-          "solution": "<p>因为</p>\n$$\nf(x)=\\sin3x+|\\sin3x|=2\\max\\{\\sin3x,0\\}\n$$\n<p>所以</p>\n$$\nf\\left(x+\\frac{2\\pi}{3}\\right)=f(x)\n$$\n<p>即 $\\dfrac{2\\pi}{3}$ 是一个正周期.</p><p>设 $T>0$ 是任意一个正周期. 由于 $f\\left(\\dfrac\\pi6\\right)=2$，周期性要求</p>\n$$\nf\\left(\\frac{\\pi}{6}+T\\right)=2\n$$\n<p>函数值达到 $2$ 时必须有 $\\sin\\left(\\dfrac\\pi2+3T\\right)=1$，故 $3T=2m\\pi$，其中 $m$ 为正整数. 因而 $T=\\dfrac{2m\\pi}{3}$，最小正周期为 $\\dfrac{2\\pi}{3}$. 故选 B.</p>"
+          "solution": "<p>因为</p>\n$$\nf(x)=\\sin3x+|\\sin3x|=2\\max\\{\\sin3x,0\\}\n$$\n<p>所以</p>\n$$\nf\\left(x+\\frac{2\\pi}{3}\\right)=f(x)\n$$\n<p>即 $\\dfrac{2\\pi}{3}$ 是一个正周期.</p><p>设 $T>0$ 是任意一个正周期. 由于 $f\\left(\\dfrac\\pi6\\right)=2$，周期性要求</p>\n$$\nf\\left(\\frac{\\pi}{6}+T\\right)=2\n$$\n<p>函数值达到 $2$ 时必须有 $\\sin\\left(\\dfrac\\pi2+3T\\right)=1$，故 $3T=2m\\pi$，其中 $m$ 为正整数. 因而 $T=\\dfrac{2m\\pi}{3}$，最小正周期为 $\\dfrac{2\\pi}{3}$. 故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 6,
@@ -77,7 +222,9 @@
             "$150^{\\circ}$"
           ],
           "answer": "C",
-          "solution": "<p>由</p>\n$$\n\\mathbf{a}+\\mathbf{b}=(1,2)+(-2,-4)=(-1,-2)=-\\mathbf{a}\n$$\n<p>得</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{c}=-\\left(\\mathbf{a}+\\mathbf{b}\\right)\\cdot\\mathbf{c}=-\\frac{5}{2}\n$$\n<p>又 $|\\mathbf{a}|=\\sqrt{1^{2}+2^{2}}=\\sqrt{5}$. 设 $\\mathbf{a}$ 与 $\\mathbf{c}$ 的夹角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{a}\\cdot\\mathbf{c}}{|\\mathbf{a}|\\,|\\mathbf{c}|}=\\frac{-\\frac{5}{2}}{\\sqrt{5}\\sqrt{5}}=-\\frac{1}{2}\n$$\n<p>由于 $0\\le\\theta\\le\\pi$，所以 $\\theta=\\dfrac{2\\pi}{3}=120^{\\circ}$，故选 C.</p>"
+          "solution": "<p>由</p>\n$$\n\\mathbf{a}+\\mathbf{b}=(1,2)+(-2,-4)=(-1,-2)=-\\mathbf{a}\n$$\n<p>得</p>\n$$\n\\mathbf{a}\\cdot\\mathbf{c}=-\\left(\\mathbf{a}+\\mathbf{b}\\right)\\cdot\\mathbf{c}=-\\frac{5}{2}\n$$\n<p>又 $|\\mathbf{a}|=\\sqrt{1^{2}+2^{2}}=\\sqrt{5}$. 设 $\\mathbf{a}$ 与 $\\mathbf{c}$ 的夹角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{a}\\cdot\\mathbf{c}}{|\\mathbf{a}|\\,|\\mathbf{c}|}=\\frac{-\\frac{5}{2}}{\\sqrt{5}\\sqrt{5}}=-\\frac{1}{2}\n$$\n<p>由于 $0\\le\\theta\\le\\pi$，所以 $\\theta=\\dfrac{2\\pi}{3}=120^{\\circ}$，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 7,
@@ -89,7 +236,9 @@
             "$840$"
           ],
           "answer": "A",
-          "solution": "<p>甲、乙已经同组，还需从其余 $7$ 人中选出 $1$ 人与他们组成这一组，有 $\\mathrm{C}_{7}^{1}=7$ 种选法. 剩余 $6$ 人分成两个不标号的三人组，有</p>\n$$\n\\frac{\\mathrm{C}_{6}^{3}}{2!}=10\n$$\n<p>种分法. 因而不同分组方法共有</p>\n$$\n\\mathrm{C}_{7}^{1}\\frac{\\mathrm{C}_{6}^{3}}{2!}=7\\times10=70\n$$\n<p>故选 A.</p>"
+          "solution": "<p>甲、乙已经同组，还需从其余 $7$ 人中选出 $1$ 人与他们组成这一组，有 $\\mathrm{C}_{7}^{1}=7$ 种选法. 剩余 $6$ 人分成两个不标号的三人组，有</p>\n$$\n\\frac{\\mathrm{C}_{6}^{3}}{2!}=10\n$$\n<p>种分法. 因而不同分组方法共有</p>\n$$\n\\mathrm{C}_{7}^{1}\\frac{\\mathrm{C}_{6}^{3}}{2!}=7\\times10=70\n$$\n<p>故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 8,
@@ -101,7 +250,9 @@
             "既不充分又不必要条件"
           ],
           "answer": "C",
-          "solution": "<p>若 $q$ 成立，则 $A=B=C=\\dfrac\\pi3$，且 $a=b=c$，所以</p>\n$$\n\\frac{a}{\\sin B}=\\frac{b}{\\sin C}=\\frac{c}{\\sin A}\n$$\n<p>即 $q\\Rightarrow p$.</p><p>反过来设 $p$ 成立. 由正弦定理，存在正数 $2R$，使得</p><p>$a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$.</p><p>代入命题 $p$，得到</p>\n$$\n\\frac{\\sin A}{\\sin B}=\\frac{\\sin B}{\\sin C}=\\frac{\\sin C}{\\sin A}\n$$\n<p>这三个比值均为正，且相乘等于 $1$，因此每个比值都等于 $1$，从而</p>\n$$\n\\sin A=\\sin B=\\sin C\n$$\n<p>由于 $A$，$B$，$C\\in(0,\\pi)$，由 $\\sin A=\\sin B$ 可知 $A=B$ 或 $A+B=\\pi$. 后一种情形会导致 $C=0$，与三角形内角条件矛盾，所以 $A=B$. 同理可得 $B=C$，再由内角和得 $A=B=C=\\dfrac\\pi3$，三角形为等边三角形，即 $p\\Rightarrow q$.</p><p>因此 $p$ 是 $q$ 的充分必要条件，故选 C.</p>"
+          "solution": "<p>若 $q$ 成立，则 $A=B=C=\\dfrac\\pi3$，且 $a=b=c$，所以</p>\n$$\n\\frac{a}{\\sin B}=\\frac{b}{\\sin C}=\\frac{c}{\\sin A}\n$$\n<p>即 $q\\Rightarrow p$.</p><p>反过来设 $p$ 成立. 由正弦定理，存在正数 $2R$，使得</p><p>$a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$.</p><p>代入命题 $p$，得到</p>\n$$\n\\frac{\\sin A}{\\sin B}=\\frac{\\sin B}{\\sin C}=\\frac{\\sin C}{\\sin A}\n$$\n<p>这三个比值均为正，且相乘等于 $1$，因此每个比值都等于 $1$，从而</p>\n$$\n\\sin A=\\sin B=\\sin C\n$$\n<p>由于 $A$，$B$，$C\\in(0,\\pi)$，由 $\\sin A=\\sin B$ 可知 $A=B$ 或 $A+B=\\pi$. 后一种情形会导致 $C=0$，与三角形内角条件矛盾，所以 $A=B$. 同理可得 $B=C$，再由内角和得 $A=B=C=\\dfrac\\pi3$，三角形为等边三角形，即 $p\\Rightarrow q$.</p><p>因此 $p$ 是 $q$ 的充分必要条件，故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 9,
@@ -113,7 +264,9 @@
             "$\\frac{125}{3}\\pi$"
           ],
           "answer": "C",
-          "solution": "<p>折叠后 $AC$ 仍为公共棱，且</p>\n$$\nAC=\\sqrt{AB^{2}+BC^{2}}=5\n$$\n<p>以 $AC$ 为 $x$ 轴，含 $B$ 的面为 $xy$ 平面，含 $D$ 的面为 $xz$ 平面，取</p><p>$A=(0,0,0)$，$C=(5,0,0)$.</p><p>设 $B=(u,v,0)$. 由 $AB=4$、$BC=3$，有</p><p>$u^{2}+v^{2}=16$，$(u-5)^{2}+v^{2}=9$.</p><p>两式相减得 $u=\\dfrac{16}{5}$，再由第一式取 $v=\\dfrac{12}{5}$，即</p>\n$$\nB=\\left(\\frac{16}{5},\\frac{12}{5},0\\right)\n$$\n<p>同理，由 $AD=3$、$CD=4$，可取</p>\n$$\nD=\\left(\\frac{9}{5},0,\\frac{12}{5}\\right)\n$$\n<p>设外接球球心为 $O=(\\xi,\\eta,\\zeta)$. 由 $OA=OC$，得 $\\xi=\\dfrac{5}{2}$. 又因 $OA=OB$，有</p>\n$$\n2O\\cdot B=|B|^{2}=16\n$$\n<p>代入坐标得</p>\n$$\n2\\left(\\frac{5}{2}\\cdot\\frac{16}{5}+\\eta\\cdot\\frac{12}{5}\\right)=16\n$$\n<p>所以 $\\eta=0$. 同理，由 $OA=OD$，有</p>\n$$\n2\\left(\\frac{5}{2}\\cdot\\frac{9}{5}+\\zeta\\cdot\\frac{12}{5}\\right)=9\n$$\n<p>所以 $\\zeta=0$. 因而 $O=\\left(\\dfrac{5}{2},0,0\\right)$，外接球半径为 $R=OA=\\dfrac{5}{2}$.</p><p>于是外接球体积为</p>\n$$\nV=\\frac{4}{3}\\pi R^{3}=\\frac{4}{3}\\pi\\left(\\frac{5}{2}\\right)^{3}=\\frac{125}{6}\\pi\n$$\n<p>故选 C.</p>"
+          "solution": "<p>折叠后 $AC$ 仍为公共棱，且</p>\n$$\nAC=\\sqrt{AB^{2}+BC^{2}}=5\n$$\n<p>以 $AC$ 为 $x$ 轴，含 $B$ 的面为 $xy$ 平面，含 $D$ 的面为 $xz$ 平面，取</p><p>$A=(0,0,0)$，$C=(5,0,0)$.</p><p>设 $B=(u,v,0)$. 由 $AB=4$、$BC=3$，有</p><p>$u^{2}+v^{2}=16$，$(u-5)^{2}+v^{2}=9$.</p><p>两式相减得 $u=\\dfrac{16}{5}$，再由第一式取 $v=\\dfrac{12}{5}$，即</p>\n$$\nB=\\left(\\frac{16}{5},\\frac{12}{5},0\\right)\n$$\n<p>同理，由 $AD=3$、$CD=4$，可取</p>\n$$\nD=\\left(\\frac{9}{5},0,\\frac{12}{5}\\right)\n$$\n<p>设外接球球心为 $O=(\\xi,\\eta,\\zeta)$. 由 $OA=OC$，得 $\\xi=\\dfrac{5}{2}$. 又因 $OA=OB$，有</p>\n$$\n2O\\cdot B=|B|^{2}=16\n$$\n<p>代入坐标得</p>\n$$\n2\\left(\\frac{5}{2}\\cdot\\frac{16}{5}+\\eta\\cdot\\frac{12}{5}\\right)=16\n$$\n<p>所以 $\\eta=0$. 同理，由 $OA=OD$，有</p>\n$$\n2\\left(\\frac{5}{2}\\cdot\\frac{9}{5}+\\zeta\\cdot\\frac{12}{5}\\right)=9\n$$\n<p>所以 $\\zeta=0$. 因而 $O=\\left(\\dfrac{5}{2},0,0\\right)$，外接球半径为 $R=OA=\\dfrac{5}{2}$.</p><p>于是外接球体积为</p>\n$$\nV=\\frac{4}{3}\\pi R^{3}=\\frac{4}{3}\\pi\\left(\\frac{5}{2}\\right)^{3}=\\frac{125}{6}\\pi\n$$\n<p>故选 C.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 10,
@@ -125,7 +278,9 @@
             "$4$ 个"
           ],
           "answer": "B",
-          "solution": "<p>两边取自然对数，得</p>\n$$\na\\ln2=b\\ln3\n$$\n<p>所以</p>\n$$\nb=\\frac{\\ln2}{\\ln3}a\n$$\n<p>记 $r=\\dfrac{\\ln2}{\\ln3}$，因为 $1<2<3$，所以 $0<r<1$. 当 $a>0$ 时，$0<b<a$，第 1 个关系式可以成立；当 $a<0$ 时，乘以 $0<r<1$ 会使负数变大，故 $a<b<0$，第 2 个关系式可以成立；当 $a=0$ 时，$b=0$，第 5 个关系式可以成立.</p><p>第 3、4 个关系式均不可能成立，所以不可能成立的关系式有 $2$ 个，故选 B.</p>"
+          "solution": "<p>两边取自然对数，得</p>\n$$\na\\ln2=b\\ln3\n$$\n<p>所以</p>\n$$\nb=\\frac{\\ln2}{\\ln3}a\n$$\n<p>记 $r=\\dfrac{\\ln2}{\\ln3}$，因为 $1<2<3$，所以 $0<r<1$. 当 $a>0$ 时，$0<b<a$，第 1 个关系式可以成立；当 $a<0$ 时，乘以 $0<r<1$ 会使负数变大，故 $a<b<0$，第 2 个关系式可以成立；当 $a=0$ 时，$b=0$，第 5 个关系式可以成立.</p><p>第 3、4 个关系式均不可能成立，所以不可能成立的关系式有 $2$ 个，故选 B.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 11,
@@ -137,11 +292,13 @@
             "$\\frac{\\pi}{2}$"
           ],
           "answer": "D",
-          "solution": "<p>由行列式，三角形面积为</p>\n$$\nS=\\frac{1}{2}\\left|\\begin{vmatrix}1&\\cos\\theta\\\\ \\sin\\theta&1\\end{vmatrix}\\right|  =\\frac{1}{2}|1-\\sin\\theta\\cos\\theta|\n$$\n<p>当 $\\theta\\in\\left(0,\\dfrac\\pi2\\right]$ 时，$\\sin\\theta\\cos\\theta\\geqslant0$，且 $\\sin\\theta\\cos\\theta\\le\\dfrac{1}{2}$，所以绝对值内的数非负，故</p>\n$$\nS=\\frac{1}{2}\\left(1-\\sin\\theta\\cos\\theta\\right)\n$$\n<p>要使 $S$ 最大，就要使 $\\sin\\theta\\cos\\theta$ 最小. 该乘积在给定区间的最小值为 $0$，且在 $\\theta=\\dfrac\\pi2$ 时取得. 因此面积最大时 $\\theta=\\dfrac\\pi2$，故选 D.</p>"
+          "solution": "<p>由行列式，三角形面积为</p>\n$$\nS=\\frac{1}{2}\\left|\\begin{vmatrix}1&\\cos\\theta\\\\ \\sin\\theta&1\\end{vmatrix}\\right|  =\\frac{1}{2}|1-\\sin\\theta\\cos\\theta|\n$$\n<p>当 $\\theta\\in\\left(0,\\dfrac\\pi2\\right]$ 时，$\\sin\\theta\\cos\\theta\\geqslant0$，且 $\\sin\\theta\\cos\\theta\\le\\dfrac{1}{2}$，所以绝对值内的数非负，故</p>\n$$\nS=\\frac{1}{2}\\left(1-\\sin\\theta\\cos\\theta\\right)\n$$\n<p>要使 $S$ 最大，就要使 $\\sin\\theta\\cos\\theta$ 最小. 该乘积在给定区间的最小值为 $0$，且在 $\\theta=\\dfrac\\pi2$ 时取得. 因此面积最大时 $\\theta=\\dfrac\\pi2$，故选 D.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 12,
-          "body": "<p>为了解某校高三学生的视力情况，随机地抽查了该校 $100$ 名高三学生的视力情况，得到频率分布直方图. 由于不慎将部分数据丢失，但知道前 $4$ 组的频数成等比数列，后 $6$ 组的频数成等差数列，设最大频率为 $a$，视力在 $4.6$ 到 $5.0$ 之间的学生数为 $b$，则 $a$，$b$ 的值分别为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>为了解某校高三学生的视力情况，随机地抽查了该校 $100$ 名高三学生的视力情况，得到频率分布直方图. 由于不慎将部分数据丢失，但知道前 $4$ 组的频数成等比数列，后 $6$ 组的频数成等差数列，设最大频率为 $a$，视力在 $4.6$ 到 $5.0$ 之间的学生数为 $b$，则 $a$，$b$ 的值分别为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/jiangxi_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$0.27$，$78$",
             "$0.27$，$83$",
@@ -149,7 +306,9 @@
             "$2.7$，$83$"
           ],
           "answer": "A",
-          "solution": "<p>图中各组组距为 $0.1$，纵轴表示频率与组距的比值. 前两组的直方图高度分别为 $0.1$、$0.3$，所以前两组频率分别为 $0.01$、$0.03$. 前 $4$ 组频数成等比数列，故公比为 $3$，前 $4$ 组频率为</p><p>$0.01$，$0.03$，$0.09$，$0.27$.</p><p>因此最大频率为 $a=0.27$.</p><p>前 $4$ 组与后 $6$ 组重合一组，后 $6$ 组的首项为 $0.27$. 设后 $6$ 组频率的公差为 $d$. 全部频率之和为 $1$，所以后 $6$ 组频率之和为</p>\n$$\n1-(0.01+0.03+0.09+0.27)+0.27=0.87\n$$\n<p>于是</p>\n$$\n\\frac{6}{2}\\left[0.27+(0.27+5d)\\right]=0.87\n$$\n<p>解得 $d=-0.05$. 后六组频率依次为 $0.27$，$0.22$，$0.17$，$0.12$，$0.07$，$0.02$. 视力在 $4.6$ 到 $5.0$ 之间对应前四个组中的后一个与后六组中的前三个，频率之和为</p>\n$$\n0.27+0.22+0.17+0.12=0.78\n$$\n<p>所以学生数 $b=100\\times0.78=78$. 故选 A.</p>"
+          "solution": "<p>图中各组组距为 $0.1$，纵轴表示频率与组距的比值. 前两组的直方图高度分别为 $0.1$、$0.3$，所以前两组频率分别为 $0.01$、$0.03$. 前 $4$ 组频数成等比数列，故公比为 $3$，前 $4$ 组频率为</p><p>$0.01$，$0.03$，$0.09$，$0.27$.</p><p>因此最大频率为 $a=0.27$.</p><p>前 $4$ 组与后 $6$ 组重合一组，后 $6$ 组的首项为 $0.27$. 设后 $6$ 组频率的公差为 $d$. 全部频率之和为 $1$，所以后 $6$ 组频率之和为</p>\n$$\n1-(0.01+0.03+0.09+0.27)+0.27=0.87\n$$\n<p>于是</p>\n$$\n\\frac{6}{2}\\left[0.27+(0.27+5d)\\right]=0.87\n$$\n<p>解得 $d=-0.05$. 后六组频率依次为 $0.27$，$0.22$，$0.17$，$0.12$，$0.07$，$0.02$. 视力在 $4.6$ 到 $5.0$ 之间对应前四个组中的后一个与后六组中的前三个，频率之和为</p>\n$$\n0.27+0.22+0.17+0.12=0.78\n$$\n<p>所以学生数 $b=100\\times0.78=78$. 故选 A.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -159,30 +318,38 @@
         {
           "num": 13,
           "body": "若函数 $f(x)=\\log_{a}\\left(x+\\sqrt{x^{2}+2a^{2}}\\right)$ 是奇函数，则 $a=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
-          "choices": null,
-          "answer": "$\\dfrac{\\sqrt{2}}{2}$",
-          "solution": "<p>对数的底数要求 $a>0$ 且 $a\\neq1$. 记</p>\n$$\ng(x)=x+\\sqrt{x^{2}+2a^{2}}\n$$\n<p>因为 $\\sqrt{x^{2}+2a^{2}}>|x|$，所以 $g(x)>0$，函数的定义域为 $\\mathbb{R}$. 若 $f$ 是奇函数，则</p>\n$$\n\\log_{a} g(-x)=-\\log_{a} g(x)=\\log_{a}\\frac{1}{g(x)}\n$$\n<p>由于对数函数是单调函数，得 $g(-x)=\\dfrac1{g(x)}$. 另一方面，</p>\n$$\ng(x)g(-x)=\\left(x+\\sqrt{x^{2}+2a^{2}}\\right)\\left(-x+\\sqrt{x^{2}+2a^{2}}\\right)=2a^{2}\n$$\n<p>所以必须有 $2a^{2}=1$. 结合 $a>0$，得</p>\n$$\na=\\frac{\\sqrt{2}}{2}\n$$\n<p>当 $a=\\dfrac{\\sqrt{2}}{2}$ 时，$g(x)g(-x)=1$，上述推导反向成立，故函数确为奇函数.</p>"
+          "choices": [],
+          "answer": "\\(\\dfrac{\\sqrt{2}}{2}\\)",
+          "solution": "<p>对数的底数要求 $a>0$ 且 $a\\neq1$. 记</p>\n$$\ng(x)=x+\\sqrt{x^{2}+2a^{2}}\n$$\n<p>因为 $\\sqrt{x^{2}+2a^{2}}>|x|$，所以 $g(x)>0$，函数的定义域为 $\\mathbb{R}$. 若 $f$ 是奇函数，则</p>\n$$\n\\log_{a} g(-x)=-\\log_{a} g(x)=\\log_{a}\\frac{1}{g(x)}\n$$\n<p>由于对数函数是单调函数，得 $g(-x)=\\dfrac1{g(x)}$. 另一方面，</p>\n$$\ng(x)g(-x)=\\left(x+\\sqrt{x^{2}+2a^{2}}\\right)\\left(-x+\\sqrt{x^{2}+2a^{2}}\\right)=2a^{2}\n$$\n<p>所以必须有 $2a^{2}=1$. 结合 $a>0$，得</p>\n$$\na=\\frac{\\sqrt{2}}{2}\n$$\n<p>当 $a=\\dfrac{\\sqrt{2}}{2}$ 时，$g(x)g(-x)=1$，上述推导反向成立，故函数确为奇函数.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 14,
           "body": "<p>设实数 $x$，$y$ 满足</p><p>$\\begin{cases}x-y-2\\leqslant0,\\\\  x+2y-4>0,\\\\  2y-3\\leqslant0\\end{cases}$，</p><p>则 $\\dfrac{y}{x}$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "不存在",
-          "solution": "<p>前两个不等式分别给出</p><p>$x\\le y+2$，$x>4-2y$.</p><p>要使这样的 $x$ 存在，必须有 $4-2y<y+2$，即 $y>\\dfrac{2}{3}$. 再结合 $2y-3\\leqslant0$，得</p>\n$$\n\\frac{2}{3}<y\\le\\frac{3}{2}\n$$\n<p>于是 $4-2y\\geqslant1$，从而 $x>0$ 且 $y>0$. 对固定的 $y$，由于 $x>4-2y$，有</p>\n$$\n\\frac{y}{x}<\\frac{y}{4-2y}\n$$\n<p>函数 $h(y)=\\dfrac{y}{4-2y}$ 在 $\\left(\\dfrac{2}{3},\\dfrac{3}{2}\\right]$ 上满足</p>\n$$\nh'(y)=\\frac{4}{(4-2y)^{2}}>0\n$$\n<p>因此</p>\n$$\n\\frac{y}{x}<\\frac{y}{4-2y}\\le h\\left(\\frac{3}{2}\\right)=\\frac{3}{2}\n$$\n<p>但对任意 $0<\\varepsilon\\le\\dfrac{5}{2}$，取 $y=\\dfrac{3}{2}$、$x=1+\\varepsilon$，则三项约束均满足，且</p><p>$\\frac{y}{x}=\\frac{3}{2(1+\\varepsilon)}\\longrightarrow\\frac{3}{2}$，$(\\varepsilon\\to0^{+})$.</p><p>所以 $\\dfrac{3}{2}$ 是上确界，但不能取到，$\\dfrac{y}{x}$ 不存在最大值.</p>"
+          "solution": "<p>前两个不等式分别给出</p><p>$x\\le y+2$，$x>4-2y$.</p><p>要使这样的 $x$ 存在，必须有 $4-2y<y+2$，即 $y>\\dfrac{2}{3}$. 再结合 $2y-3\\leqslant0$，得</p>\n$$\n\\frac{2}{3}<y\\le\\frac{3}{2}\n$$\n<p>于是 $4-2y\\geqslant1$，从而 $x>0$ 且 $y>0$. 对固定的 $y$，由于 $x>4-2y$，有</p>\n$$\n\\frac{y}{x}<\\frac{y}{4-2y}\n$$\n<p>函数 $h(y)=\\dfrac{y}{4-2y}$ 在 $\\left(\\dfrac{2}{3},\\dfrac{3}{2}\\right]$ 上满足</p>\n$$\nh'(y)=\\frac{4}{(4-2y)^{2}}>0\n$$\n<p>因此</p>\n$$\n\\frac{y}{x}<\\frac{y}{4-2y}\\le h\\left(\\frac{3}{2}\\right)=\\frac{3}{2}\n$$\n<p>但对任意 $0<\\varepsilon\\le\\dfrac{5}{2}$，取 $y=\\dfrac{3}{2}$、$x=1+\\varepsilon$，则三项约束均满足，且</p><p>$\\frac{y}{x}=\\frac{3}{2(1+\\varepsilon)}\\longrightarrow\\frac{3}{2}$，$(\\varepsilon\\to0^{+})$.</p><p>所以 $\\dfrac{3}{2}$ 是上确界，但不能取到，$\\dfrac{y}{x}$ 不存在最大值.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 15,
-          "body": "<p>如图，在三棱锥 $P-ABC$ 中，$PA=PB=PC=BC$，且 $\\angle BAC=\\dfrac\\pi2$，则 $PA$ 与底面 $ABC$ 所成角为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
-          "answer": "$\\dfrac\\pi3$",
-          "solution": "<p>设 $H$ 是点 $P$ 在底面 $ABC$ 上的射影. 由于 $PA=PB=PC$，在直角三角形 $PHA$、$PHB$、$PHC$ 中分别应用勾股定理，得</p>\n$$\nHA^{2}=PA^{2}-PH^{2}=PB^{2}-PH^{2}=HB^{2}\n$$\n<p>同理可得 $HA=HC$. 因而 $H$ 是 $\\triangle ABC$ 的外心.</p><p>由于 $\\angle BAC=\\dfrac\\pi2$，$BC$ 是直角三角形 $ABC$ 的斜边，故外心 $H$ 是 $BC$ 的中点，并且</p>\n$$\nHA=\\frac{BC}{2}\n$$\n<p>又由题设 $PA=BC$，在直角三角形 $PHA$ 中，</p>\n$$\nPH=\\sqrt{PA^{2}-HA^{2}}=\\sqrt{BC^{2}-\\left(\\frac{BC}{2}\\right)^{2}}=\\frac{\\sqrt{3}}{2}BC\n$$\n<p>设 $PA$ 与底面所成的角为 $\\theta$. 该角为 $\\angle PAH$，所以</p>\n$$\n\\sin\\theta=\\frac{PH}{PA}=\\frac{\\sqrt{3}}{2}\n$$\n<p>由于 $0<\\theta<\\dfrac\\pi2$，得 $\\theta=\\dfrac\\pi3$.</p>"
+          "body": "<p>如图，在三棱锥 $P-ABC$ 中，$PA=PB=PC=BC$，且 $\\angle BAC=\\dfrac\\pi2$，则 $PA$ 与底面 $ABC$ 所成角为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/jiangxi_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
+          "answer": "\\(\\dfrac\\pi3\\)",
+          "solution": "<p>设 $H$ 是点 $P$ 在底面 $ABC$ 上的射影. 由于 $PA=PB=PC$，在直角三角形 $PHA$、$PHB$、$PHC$ 中分别应用勾股定理，得</p>\n$$\nHA^{2}=PA^{2}-PH^{2}=PB^{2}-PH^{2}=HB^{2}\n$$\n<p>同理可得 $HA=HC$. 因而 $H$ 是 $\\triangle ABC$ 的外心.</p><p>由于 $\\angle BAC=\\dfrac\\pi2$，$BC$ 是直角三角形 $ABC$ 的斜边，故外心 $H$ 是 $BC$ 的中点，并且</p>\n$$\nHA=\\frac{BC}{2}\n$$\n<p>又由题设 $PA=BC$，在直角三角形 $PHA$ 中，</p>\n$$\nPH=\\sqrt{PA^{2}-HA^{2}}=\\sqrt{BC^{2}-\\left(\\frac{BC}{2}\\right)^{2}}=\\frac{\\sqrt{3}}{2}BC\n$$\n<p>设 $PA$ 与底面所成的角为 $\\theta$. 该角为 $\\angle PAH$，所以</p>\n$$\n\\sin\\theta=\\frac{PH}{PA}=\\frac{\\sqrt{3}}{2}\n$$\n<p>由于 $0<\\theta<\\dfrac\\pi2$，得 $\\theta=\\dfrac\\pi3$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         },
         {
           "num": 16,
           "body": "<p>以下四个关于圆锥曲线的命题中：</p><ol class=\"enumerate\"><li><p>设 $A$、$B$ 为两个定点，$k$ 为非零常数，$\\left|\\overrightarrow{PA}\\right|-\\left|\\overrightarrow{PB}\\right|=k$，则动点 $P$ 的轨迹为双曲线；</p></li><li><p>设圆 $C$ 上一定点 $A$，作圆的动点弦 $AB$，$O$ 为坐标原点，若 $\\overrightarrow{OP}=\\dfrac{1}{2}\\left(\\overrightarrow{OA}+\\overrightarrow{OB}\\right)$，则动点 $P$ 的轨迹为椭圆；</p></li><li><p>方程 $2x^{2}-5x+2=0$ 的两根可分别作为椭圆和双曲线的离心率；</p></li><li><p>双曲线 $\\dfrac{x^2}{25}-\\dfrac{y^2}{9}=1$ 与椭圆 $\\dfrac{x^2}{35}+y^{2}=1$ 有相同的焦点.</p></li></ol><p>其中真命题的序号为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（写出所有真命题的序号）</p>",
-          "choices": null,
-          "answer": "$3$，$4$",
-          "solution": "<p>第 1 个命题不一定成立. 双曲线定义要求常数差的绝对值小于两焦点间距离，即需要 $|k|<AB$. 题目只给出 $k\\neq0$，例如取 $|k|\\ge AB$ 时，轨迹不是非退化双曲线，所以第 1 个命题为假.</p><p>第 2 个命题中，设圆心为 $O_{0}$，半径为 $R$. 由</p>\n$$\n\\overrightarrow{OP}=\\frac{1}{2}\\left(\\overrightarrow{OA}+\\overrightarrow{OB}\\right)\n$$\n<p>可知 $P$ 是线段 $AB$ 的中点. 因为 $A$ 固定、$B$ 在圆 $C$ 上运动，所以 $\\overrightarrow{OP}=\\dfrac{1}{2}\\overrightarrow{OA}+\\dfrac{1}{2}\\overrightarrow{OB}$ 表明 $P$ 是固定向量 $\\dfrac{1}{2}\\overrightarrow{OA}$ 加上动向量 $\\dfrac{1}{2}\\overrightarrow{OB}$. 因而 $P$ 的轨迹是半径为 $\\dfrac{R}{2}$ 的圆，而不是题目所称的椭圆，故第 2 个命题为假.</p><p>第 3 个命题的两个根为</p>\n$$\nx=\\frac{5\\pm\\sqrt{25-16}}{4}=\\frac{5\\pm3}{4}\n$$\n<p>即 $2$ 和 $\\dfrac{1}{2}$. 椭圆的离心率满足 $0<e<1$，双曲线的离心率满足 $e>1$，所以 $\\dfrac{1}{2}$ 和 $2$ 可分别作为椭圆和双曲线的离心率，第 3 个命题为真.</p><p>第 4 个命题中，双曲线的焦半距满足</p>\n$$\nc^{2}=25+9=34\n$$\n<p>椭圆的焦半距满足</p>\n$$\nc^{2}=35-1=34\n$$\n<p>两者的焦点均为 $(\\pm\\sqrt{34},0)$，所以第 4 个命题为真.</p><p>因此真命题的序号为 $3,4$.</p>"
+          "choices": [],
+          "answer": "\\(3\\)，\\(4\\)",
+          "solution": "<p>第 1 个命题不一定成立. 双曲线定义要求常数差的绝对值小于两焦点间距离，即需要 $|k|<AB$. 题目只给出 $k\\neq0$，例如取 $|k|\\ge AB$ 时，轨迹不是非退化双曲线，所以第 1 个命题为假.</p><p>第 2 个命题中，设圆心为 $O_{0}$，半径为 $R$. 由</p>\n$$\n\\overrightarrow{OP}=\\frac{1}{2}\\left(\\overrightarrow{OA}+\\overrightarrow{OB}\\right)\n$$\n<p>可知 $P$ 是线段 $AB$ 的中点. 因为 $A$ 固定、$B$ 在圆 $C$ 上运动，所以 $\\overrightarrow{OP}=\\dfrac{1}{2}\\overrightarrow{OA}+\\dfrac{1}{2}\\overrightarrow{OB}$ 表明 $P$ 是固定向量 $\\dfrac{1}{2}\\overrightarrow{OA}$ 加上动向量 $\\dfrac{1}{2}\\overrightarrow{OB}$. 因而 $P$ 的轨迹是半径为 $\\dfrac{R}{2}$ 的圆，而不是题目所称的椭圆，故第 2 个命题为假.</p><p>第 3 个命题的两个根为</p>\n$$\nx=\\frac{5\\pm\\sqrt{25-16}}{4}=\\frac{5\\pm3}{4}\n$$\n<p>即 $2$ 和 $\\dfrac{1}{2}$. 椭圆的离心率满足 $0<e<1$，双曲线的离心率满足 $e>1$，所以 $\\dfrac{1}{2}$ 和 $2$ 可分别作为椭圆和双曲线的离心率，第 3 个命题为真.</p><p>第 4 个命题中，双曲线的焦半距满足</p>\n$$\nc^{2}=25+9=34\n$$\n<p>椭圆的焦半距满足</p>\n$$\nc^{2}=35-1=34\n$$\n<p>两者的焦点均为 $(\\pm\\sqrt{34},0)$，所以第 4 个命题为真.</p><p>因此真命题的序号为 $3,4$.</p>",
+          "hasAnswer": true,
+          "hasSolution": true
         }
       ]
     },
@@ -192,44 +359,56 @@
         {
           "num": 17,
           "body": "<p>已知函数 $f(x)=\\dfrac{x^2}{ax+b}$（$a$、$b$ 为常数），且方程 $f(x)-x+12=0$ 有两个实根 $x_{1}=3$、$x_{2}=4$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的解析式；</p></li><li><p>设 $k>1$，解关于 $x$ 的不等式：$f(x)<\\dfrac{(k+1)x-k}{2-x}$.</p></li></ol>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将 $x=3$、$x=4$ 代入方程，分别得</p><p>$\\frac{9}{3a+b}-3+12=0$，$\\frac{16}{4a+b}-4+12=0$.</p><p>因此</p><p>$3a+b=-1$，$4a+b=-2$，</p><p>解得 $a=-1$、$b=2$. 所以</p><p>$f(x)=\\frac{x^{2}}{2-x}$，$x\\neq2$.</p></li><li><p>由定义域知 $x\\neq2$. 原不等式化为</p>\n$$\n\\frac{x^{2}-(k+1)x+k}{2-x}<0  \\Longleftrightarrow  \\frac{(x-1)(x-k)}{2-x}<0\n$$\n<p>当 $1<k<2$ 时，临界点顺序为 $1<k<2$，符号分析得</p>\n$$\nx\\in(1,k)\\cup(2,+\\infty)\n$$\n<p>当 $k=2$ 时，原式为 $-\\dfrac{x-1}{1}$（仍需排除 $x=2$），故</p>\n$$\nx\\in(1,2)\\cup(2,+\\infty)\n$$\n<p>当 $k>2$ 时，临界点顺序为 $1<2<k$，符号分析得</p>\n$$\nx\\in(1,2)\\cup(k,+\\infty)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将 $x=3$、$x=4$ 代入方程，分别得</p><p>$\\frac{9}{3a+b}-3+12=0$，$\\frac{16}{4a+b}-4+12=0$.</p><p>因此</p><p>$3a+b=-1$，$4a+b=-2$，</p><p>解得 $a=-1$、$b=2$. 所以</p><p>$f(x)=\\frac{x^{2}}{2-x}$，$x\\neq2$.</p></li><li><p>由定义域知 $x\\neq2$. 原不等式化为</p>\n$$\n\\frac{x^{2}-(k+1)x+k}{2-x}<0  \\Longleftrightarrow  \\frac{(x-1)(x-k)}{2-x}<0\n$$\n<p>当 $1<k<2$ 时，临界点顺序为 $1<k<2$，符号分析得</p>\n$$\nx\\in(1,k)\\cup(2,+\\infty)\n$$\n<p>当 $k=2$ 时，原式为 $-\\dfrac{x-1}{1}$（仍需排除 $x=2$），故</p>\n$$\nx\\in(1,2)\\cup(2,+\\infty)\n$$\n<p>当 $k>2$ 时，临界点顺序为 $1<2<k$，符号分析得</p>\n$$\nx\\in(1,2)\\cup(k,+\\infty)\n$$\n</li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 18,
           "body": "<p>已知向量 $\\mathbf{a}=\\left(2\\cos\\dfrac{x}{2},\\tan\\left(\\dfrac{x}{2}+\\dfrac\\pi4\\right)\\right)$，$\\mathbf{b}=\\left(\\sqrt{2}\\sin\\left(\\dfrac{x}{2}+\\dfrac\\pi4\\right),\\tan\\left(\\dfrac{x}{2}-\\dfrac\\pi4\\right)\\right)$，</p><p>令 $f(x)=\\mathbf{a}\\cdot\\mathbf{b}$. 求函数 $f(x)$ 的最大值，最小正周期，并写出 $f(x)$ 在 $[0,\\pi]$ 上的单调区间.</p>",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>令 $t=\\dfrac{x}{2}$. 当两个正切函数都有定义时，</p>\n$$\n\\tan\\left(t+\\frac{\\pi}{4}\\right)\\tan\\left(t-\\frac{\\pi}{4}\\right)  =\\frac{\\sin t+\\cos t}{\\cos t-\\sin t}\\frac{\\sin t-\\cos t}{\\cos t+\\sin t}=-1\n$$\n<p>又 $\\sqrt{2}\\sin\\left(t+\\dfrac\\pi4\\right)=\\sin t+\\cos t$，所以</p>\n$$\nf(x)=2\\cos t(\\sin t+\\cos t)-1=\\sin x+\\cos x\n$$\n<p>两个正切函数的定义条件给出</p>\n$$\n\\mathcal{D}=\\left\\{x\\in\\mathbb{R}\\mid x\\neq\\frac{\\pi}{2}+n\\pi,\\ n\\in\\mathbb{Z}\\right\\}\n$$\n<p>因此在定义域上 $f(x)=\\sin x+\\cos x=\\sqrt{2}\\sin\\left(x+\\dfrac\\pi4\\right)$，最大值为 $\\sqrt{2}$，且在 $x=\\dfrac\\pi4+2n\\pi$ 处取得.</p><p>若 $T$ 是函数的正周期，则它必须把定义域的缺点集合 $\\left\\{\\dfrac\\pi2+n\\pi\\mid n\\in\\mathbb{Z}\\right\\}$ 映射为自身，所以 $T$ 是 $\\pi$ 的整数倍. 但</p>\n$$\nf(x+\\pi)=-f(x)\n$$\n<p>而 $f(x+2\\pi)=f(x)$，所以最小正周期为 $2\\pi$.</p><p>在 $[0,\\pi]$ 的定义域内，除去 $x=\\dfrac\\pi2$，且</p>\n$$\nf'(x)=\\cos x-\\sin x\n$$\n<p>当 $0\\le x<\\dfrac\\pi4$ 时，$f'(x)>0$；当 $\\dfrac\\pi4<x<\\pi$ 时，$f'(x)<0$. 所以 $f(x)$ 在 $\\left[0,\\dfrac\\pi4\\right]$ 上单调递增，在 $\\left[\\dfrac\\pi4,\\dfrac\\pi2\\right)$ 和 $\\left(\\dfrac\\pi2,\\pi\\right]$ 上单调递减.</p>"
+          "solution": "<p>令 $t=\\dfrac{x}{2}$. 当两个正切函数都有定义时，</p>\n$$\n\\tan\\left(t+\\frac{\\pi}{4}\\right)\\tan\\left(t-\\frac{\\pi}{4}\\right)  =\\frac{\\sin t+\\cos t}{\\cos t-\\sin t}\\frac{\\sin t-\\cos t}{\\cos t+\\sin t}=-1\n$$\n<p>又 $\\sqrt{2}\\sin\\left(t+\\dfrac\\pi4\\right)=\\sin t+\\cos t$，所以</p>\n$$\nf(x)=2\\cos t(\\sin t+\\cos t)-1=\\sin x+\\cos x\n$$\n<p>两个正切函数的定义条件给出</p>\n$$\n\\mathcal{D}=\\left\\{x\\in\\mathbb{R}\\mid x\\neq\\frac{\\pi}{2}+n\\pi,\\ n\\in\\mathbb{Z}\\right\\}\n$$\n<p>因此在定义域上 $f(x)=\\sin x+\\cos x=\\sqrt{2}\\sin\\left(x+\\dfrac\\pi4\\right)$，最大值为 $\\sqrt{2}$，且在 $x=\\dfrac\\pi4+2n\\pi$ 处取得.</p><p>若 $T$ 是函数的正周期，则它必须把定义域的缺点集合 $\\left\\{\\dfrac\\pi2+n\\pi\\mid n\\in\\mathbb{Z}\\right\\}$ 映射为自身，所以 $T$ 是 $\\pi$ 的整数倍. 但</p>\n$$\nf(x+\\pi)=-f(x)\n$$\n<p>而 $f(x+2\\pi)=f(x)$，所以最小正周期为 $2\\pi$.</p><p>在 $[0,\\pi]$ 的定义域内，除去 $x=\\dfrac\\pi2$，且</p>\n$$\nf'(x)=\\cos x-\\sin x\n$$\n<p>当 $0\\le x<\\dfrac\\pi4$ 时，$f'(x)>0$；当 $\\dfrac\\pi4<x<\\pi$ 时，$f'(x)<0$. 所以 $f(x)$ 在 $\\left[0,\\dfrac\\pi4\\right]$ 上单调递增，在 $\\left[\\dfrac\\pi4,\\dfrac\\pi2\\right)$ 和 $\\left(\\dfrac\\pi2,\\pi\\right]$ 上单调递减.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 19,
           "body": "A、B 两位同学各有五张卡片，现以投掷均匀硬币的形式进行游戏，当出现正面朝上时 A 赢得 B 一张卡片，否则 B 赢得 A 一张卡片，如果某人已赢得所有卡片，则游戏终止. 求掷硬币的次数不大于 $7$ 次时游戏终止的概率.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>设第 $n$ 次投掷后正面次数与反面次数之差为 $D_{n}$. 每次投掷使 $D_{n}$ 增加 $1$ 或减少 $1$，游戏在 $D_{n}=5$ 或 $D_{n}=-5$ 时终止.</p><p>由于 $D_{n}$ 与 $n$ 具有相同的奇偶性，且前 $4$ 次不可能达到 $\\pm5$，所以 $7$ 次以内终止的时刻只有 $5$ 和 $7$.</p><p>第 $5$ 次终止时，前 $5$ 次必须全为正面或全为反面，因此</p>\n$$\nP(T=5)=\\frac{2}{2^{5}}=\\frac{1}{16}\n$$\n<p>第 $7$ 次以正面终止时，前 $6$ 次必须有 $5$ 次正面、$1$ 次反面，且反面必须位于前 $5$ 个位置；若反面在第 $6$ 个位置，则前 $5$ 次全为正面，游戏已经在第 $5$ 次终止. 因而这种序列有 $5$ 个. 以反面终止同理也有 $5$ 个，所以</p>\n$$\nP(T=7)=\\frac{10}{2^{7}}=\\frac{5}{64}\n$$\n<p>于是</p>\n$$\nP(T\\leqslant7)=P(T=5)+P(T=7)=\\frac{1}{16}+\\frac{5}{64}=\\frac{9}{64}\n$$"
+          "solution": "<p>设第 $n$ 次投掷后正面次数与反面次数之差为 $D_{n}$. 每次投掷使 $D_{n}$ 增加 $1$ 或减少 $1$，游戏在 $D_{n}=5$ 或 $D_{n}=-5$ 时终止.</p><p>由于 $D_{n}$ 与 $n$ 具有相同的奇偶性，且前 $4$ 次不可能达到 $\\pm5$，所以 $7$ 次以内终止的时刻只有 $5$ 和 $7$.</p><p>第 $5$ 次终止时，前 $5$ 次必须全为正面或全为反面，因此</p>\n$$\nP(T=5)=\\frac{2}{2^{5}}=\\frac{1}{16}\n$$\n<p>第 $7$ 次以正面终止时，前 $6$ 次必须有 $5$ 次正面、$1$ 次反面，且反面必须位于前 $5$ 个位置；若反面在第 $6$ 个位置，则前 $5$ 次全为正面，游戏已经在第 $5$ 次终止. 因而这种序列有 $5$ 个. 以反面终止同理也有 $5$ 个，所以</p>\n$$\nP(T=7)=\\frac{10}{2^{7}}=\\frac{5}{64}\n$$\n<p>于是</p>\n$$\nP(T\\leqslant7)=P(T=5)+P(T=7)=\\frac{1}{16}+\\frac{5}{64}=\\frac{9}{64}\n$$",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 20,
-          "body": "<p>如图，在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AD=AA_{1}=1$，$AB=2$，点 $E$ 在棱 $AB$ 上移动.</p><ol class=\"enumerate\"><li><p>证明：$D_{1}E\\perp A_{1}D$；</p></li><li><p>当 $E$ 为 $AB$ 的中点时，求点 $E$ 到面 $ACD_{1}$ 的距离；</p></li><li><p>$AE$ 等于何值时，二面角 $D_{1}-EC-D$ 的大小为 $\\dfrac\\pi4$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AD=AA_{1}=1$，$AB=2$，点 $E$ 在棱 $AB$ 上移动.</p><ol class=\"enumerate\"><li><p>证明：$D_{1}E\\perp A_{1}D$；</p></li><li><p>当 $E$ 为 $AB$ 的中点时，求点 $E$ 到面 $ACD_{1}$ 的距离；</p></li><li><p>$AE$ 等于何值时，二面角 $D_{1}-EC-D$ 的大小为 $\\dfrac\\pi4$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/jiangxi_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<p>以 $D$ 为坐标原点，$DA$、$DC$、$DD_{1}$ 分别为 $x$、$y$、$z$ 轴正方向. 设 $AE=t$，则 $0\\le t\\leqslant2$，各点坐标为</p><p>$D=(0,0,0)$，$A=(1,0,0)$，$C=(0,2,0)$，$D_{1}=(0,0,1)$</p><p>$A_{1}=(1,0,1)$，$E=(1,t,0)$.</p><ol class=\"enumerate\"><li><p>有</p><p>$\\overrightarrow{D_1E}=(1,t,-1)$，$\\overrightarrow{A_1D}=(-1,0,-1)$，</p><p>所以</p>\n$$\n\\overrightarrow{D_1E}\\cdot\\overrightarrow{A_1D}=-1+1=0\n$$\n<p>故 $D_{1}E\\perp A_{1}D$.</p></li><li><p>当 $E$ 为 $AB$ 的中点时，$E=(1,1,0)$. 平面 $ACD_{1}$ 的一个法向量为</p>\n$$\n\\overrightarrow{AC}\\times\\overrightarrow{AD_1}=(2,1,2)\n$$\n<p>故平面方程为</p>\n$$\n2x+y+2z-2=0\n$$\n<p>于是点 $E$ 到该平面的距离为</p>\n$$\n\\frac{|2\\times1+1+2\\times0-2|}{\\sqrt{2^{2}+1^{2}+2^{2}}}=\\frac{1}{3}\n$$\n</li><li><p>平面 $D_{1}EC$ 的一个法向量为</p>\n$$\n\\overrightarrow{D_1E}\\times\\overrightarrow{D_1C}=(2-t,1,2)\n$$\n<p>平面 $DEC$ 是底面 $ABCD$，可取法向量 $(0,0,1)$. 设二面角 $D_{1}-EC-D$ 为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{|(2-t,1,2)\\cdot(0,0,1)|}{\\sqrt{(2-t)^{2}+1+4}}=\\frac{2}{\\sqrt{(2-t)^{2}+5}}\n$$\n<p>当 $\\theta=\\dfrac\\pi4$ 时，</p>\n$$\n\\frac{2}{\\sqrt{(2-t)^{2}+5}}=\\frac{\\sqrt{2}}{2}\\Longrightarrow (2-t)^{2}=3\n$$\n<p>由 $0\\le t\\leqslant2$，知 $2-t\\geqslant0$，所以 $t=2-\\sqrt{3}$. 因而 $AE=2-\\sqrt{3}$.</p></li></ol>"
+          "solution": "<p>以 $D$ 为坐标原点，$DA$、$DC$、$DD_{1}$ 分别为 $x$、$y$、$z$ 轴正方向. 设 $AE=t$，则 $0\\le t\\leqslant2$，各点坐标为</p><p>$D=(0,0,0)$，$A=(1,0,0)$，$C=(0,2,0)$，$D_{1}=(0,0,1)$</p><p>$A_{1}=(1,0,1)$，$E=(1,t,0)$.</p><ol class=\"enumerate\"><li><p>有</p><p>$\\overrightarrow{D_1E}=(1,t,-1)$，$\\overrightarrow{A_1D}=(-1,0,-1)$，</p><p>所以</p>\n$$\n\\overrightarrow{D_1E}\\cdot\\overrightarrow{A_1D}=-1+1=0\n$$\n<p>故 $D_{1}E\\perp A_{1}D$.</p></li><li><p>当 $E$ 为 $AB$ 的中点时，$E=(1,1,0)$. 平面 $ACD_{1}$ 的一个法向量为</p>\n$$\n\\overrightarrow{AC}\\times\\overrightarrow{AD_1}=(2,1,2)\n$$\n<p>故平面方程为</p>\n$$\n2x+y+2z-2=0\n$$\n<p>于是点 $E$ 到该平面的距离为</p>\n$$\n\\frac{|2\\times1+1+2\\times0-2|}{\\sqrt{2^{2}+1^{2}+2^{2}}}=\\frac{1}{3}\n$$\n</li><li><p>平面 $D_{1}EC$ 的一个法向量为</p>\n$$\n\\overrightarrow{D_1E}\\times\\overrightarrow{D_1C}=(2-t,1,2)\n$$\n<p>平面 $DEC$ 是底面 $ABCD$，可取法向量 $(0,0,1)$. 设二面角 $D_{1}-EC-D$ 为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{|(2-t,1,2)\\cdot(0,0,1)|}{\\sqrt{(2-t)^{2}+1+4}}=\\frac{2}{\\sqrt{(2-t)^{2}+5}}\n$$\n<p>当 $\\theta=\\dfrac\\pi4$ 时，</p>\n$$\n\\frac{2}{\\sqrt{(2-t)^{2}+5}}=\\frac{\\sqrt{2}}{2}\\Longrightarrow (2-t)^{2}=3\n$$\n<p>由 $0\\le t\\leqslant2$，知 $2-t\\geqslant0$，所以 $t=2-\\sqrt{3}$. 因而 $AE=2-\\sqrt{3}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 21,
-          "body": "<p>如图，$M$ 是抛物线 $y^{2}=x$ 上的一点，动弦 $ME$、$MF$ 分别交 $x$ 轴于 $A$、$B$ 两点，且 $MA=MB$.</p><ol class=\"enumerate\"><li><p>若 $M$ 为定点，证明：直线 $EF$ 的斜率为定值；</p></li><li><p>若 $M$ 为动点，且 $\\angle EMF=90^{\\circ}$，求 $\\triangle EMF$ 的重心 $G$ 的轨迹方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
-          "choices": null,
+          "body": "<p>如图，$M$ 是抛物线 $y^{2}=x$ 上的一点，动弦 $ME$、$MF$ 分别交 $x$ 轴于 $A$、$B$ 两点，且 $MA=MB$.</p><ol class=\"enumerate\"><li><p>若 $M$ 为定点，证明：直线 $EF$ 的斜率为定值；</p></li><li><p>若 $M$ 为动点，且 $\\angle EMF=90^{\\circ}$，求 $\\triangle EMF$ 的重心 $G$ 的轨迹方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/jiangxi_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": [],
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $M=(u^{2},u)$、$E=(v^{2},v)$、$F=(w^{2},w)$. 抛物线上参数为 $r$、$s$ 的两点 $(r^{2},r)$、$(s^{2},s)$ 所在直线满足</p>\n$$\nx=(r+s)y-rs\n$$\n<p>因为代入 $y=r$ 或 $y=s$ 均成立. 因而弦 $ME$、$MF$ 与 $x$ 轴的交点分别为</p><p>$A=(-uv,0)$，$B=(-uw,0)$.</p><p>题目中的 $A$、$B$ 是两个不同的交点，所以 $u\\neq0$. 由坐标计算</p><p>$MA^{2}=u^{2}\\left((u+v)^{2}+1\\right)$，$MB^{2}=u^{2}\\left((u+w)^{2}+1\\right)$.</p><p>由 $MA=MB$ 得 $(u+v)^{2}=(u+w)^{2}$. 若 $v=w$，则 $E=F$，与两条动弦对应不同端点矛盾，因此只能有</p>\n$$\nv+w=-2u\n$$\n<p>又因 $v\\neq w$，直线 $EF$ 的斜率为</p>\n$$\n\\frac{w-v}{w^{2}-v^{2}}=\\frac{1}{v+w}=-\\frac{1}{2u}\n$$\n<p>它只由定点 $M=(u^{2},u)$ 决定，所以为定值.</p></li><li><p>由上面的关系令 $s=u+v$，则 $u+w=-s$，从而 $v=s-u$、$w=-s-u$. 若 $s=0$，则 $v=w=-u$，导致 $E=F$，故 $s\\neq0$. 两条弦的斜率分别为</p><p>$k_{ME}=\\frac{1}{u+v}=\\frac{1}{s}$，$k_{MF}=\\frac{1}{u+w}=-\\frac{1}{s}$.</p><p>由 $\\angle EMF=90^{\\circ}$，得</p>\n$$\nk_{ME}k_{MF}=-1\\Longrightarrow -\\frac{1}{s^{2}}=-1\n$$\n<p>所以 $s=\\pm1$. 设重心 $G=(x,y)$，则</p>\n$$\nx=\\frac{u^{2}+(s-u)^{2}+(-s-u)^{2}}{3}=u^{2}+\\frac{2}{3}\n$$\n\n$$\ny=\\frac{u+(s-u)+(-s-u)}{3}=-\\frac{u}{3}\n$$\n<p>消去 $u$，得</p>\n$$\nx=9y^{2}+\\frac{2}{3},  \\qquad\\text{即}\\qquad  y^{2}=\\frac{1}{9}x-\\frac{2}{27}\n$$\n<p>由于 $u\\neq0$，有 $x=u^{2}+\\dfrac{2}{3}>\\dfrac{2}{3}$. 因而轨迹方程为</p><p>$y^{2}=\\frac{1}{9}x-\\frac{2}{27}$，$x>\\frac{2}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $M=(u^{2},u)$、$E=(v^{2},v)$、$F=(w^{2},w)$. 抛物线上参数为 $r$、$s$ 的两点 $(r^{2},r)$、$(s^{2},s)$ 所在直线满足</p>\n$$\nx=(r+s)y-rs\n$$\n<p>因为代入 $y=r$ 或 $y=s$ 均成立. 因而弦 $ME$、$MF$ 与 $x$ 轴的交点分别为</p><p>$A=(-uv,0)$，$B=(-uw,0)$.</p><p>题目中的 $A$、$B$ 是两个不同的交点，所以 $u\\neq0$. 由坐标计算</p><p>$MA^{2}=u^{2}\\left((u+v)^{2}+1\\right)$，$MB^{2}=u^{2}\\left((u+w)^{2}+1\\right)$.</p><p>由 $MA=MB$ 得 $(u+v)^{2}=(u+w)^{2}$. 若 $v=w$，则 $E=F$，与两条动弦对应不同端点矛盾，因此只能有</p>\n$$\nv+w=-2u\n$$\n<p>又因 $v\\neq w$，直线 $EF$ 的斜率为</p>\n$$\n\\frac{w-v}{w^{2}-v^{2}}=\\frac{1}{v+w}=-\\frac{1}{2u}\n$$\n<p>它只由定点 $M=(u^{2},u)$ 决定，所以为定值.</p></li><li><p>由上面的关系令 $s=u+v$，则 $u+w=-s$，从而 $v=s-u$、$w=-s-u$. 若 $s=0$，则 $v=w=-u$，导致 $E=F$，故 $s\\neq0$. 两条弦的斜率分别为</p><p>$k_{ME}=\\frac{1}{u+v}=\\frac{1}{s}$，$k_{MF}=\\frac{1}{u+w}=-\\frac{1}{s}$.</p><p>由 $\\angle EMF=90^{\\circ}$，得</p>\n$$\nk_{ME}k_{MF}=-1\\Longrightarrow -\\frac{1}{s^{2}}=-1\n$$\n<p>所以 $s=\\pm1$. 设重心 $G=(x,y)$，则</p>\n$$\nx=\\frac{u^{2}+(s-u)^{2}+(-s-u)^{2}}{3}=u^{2}+\\frac{2}{3}\n$$\n\n$$\ny=\\frac{u+(s-u)+(-s-u)}{3}=-\\frac{u}{3}\n$$\n<p>消去 $u$，得</p>\n$$\nx=9y^{2}+\\frac{2}{3},  \\qquad\\text{即}\\qquad  y^{2}=\\frac{1}{9}x-\\frac{2}{27}\n$$\n<p>由于 $u\\neq0$，有 $x=u^{2}+\\dfrac{2}{3}>\\dfrac{2}{3}$. 因而轨迹方程为</p><p>$y^{2}=\\frac{1}{9}x-\\frac{2}{27}$，$x>\\frac{2}{3}$.</p></li></ol>",
+          "hasAnswer": false,
+          "hasSolution": true
         },
         {
           "num": 22,
           "body": "已知数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}$ 满足 $S_{n}-S_{n-2}=3\\left(-\\dfrac{1}{2}\\right)^{n-1}$（$n\\geqslant3$），且 $S_{1}=1$、$S_{2}=-\\dfrac{3}{2}$. 求数列 $\\{a_{n}\\}$ 的通项公式.",
-          "choices": null,
+          "choices": [],
           "answer": "",
-          "solution": "<p>由已知初值</p><p>$a_{1}=S_{1}=1$，$a_{2}=S_{2}-S_{1}=-\\frac{5}{2}$.</p><p>当 $n\\geqslant3$ 时，</p>\n$$\na_{n-1}+a_{n}=S_{n}-S_{n-2}=3\\left(-\\frac{1}{2}\\right)^{n-1}\n$$\n<p>令</p>\n$$\nb_{n}=(-1)^{n-1}a_{n}\n$$\n<p>由于 $a_{n}=(-1)^{n-1}b_{n}$、$a_{n-1}=-(-1)^{n-1}b_{n-1}$，上式化为</p><p>$b_{n}-b_{n-1}=\\frac{3}{2^{n-1}}$，（$n\\geqslant3$）.</p><p>又 $b_{2}=-a_{2}=\\dfrac{5}{2}$，所以对 $n\\geqslant2$，</p>\n$$\nb_{n}=\\frac{5}{2}+3\\sum_{j=3}^{n}\\frac{1}{2^{j-1}}=\\frac{5}{2}+3\\left(\\frac{1}{2}-\\frac{1}{2^{n-1}}\\right)  =4-\\frac{3}{2^{n-1}}\n$$\n<p>当 $n=1$ 时，$b_{1}=a_{1}=1=4-3$，同样成立. 因而</p><p>$a_{n}=(-1)^{n-1}\\left(4-3\\left(\\frac{1}{2}\\right)^{n-1}\\right)$，$n\\geqslant1$.</p>"
+          "solution": "<p>由已知初值</p><p>$a_{1}=S_{1}=1$，$a_{2}=S_{2}-S_{1}=-\\frac{5}{2}$.</p><p>当 $n\\geqslant3$ 时，</p>\n$$\na_{n-1}+a_{n}=S_{n}-S_{n-2}=3\\left(-\\frac{1}{2}\\right)^{n-1}\n$$\n<p>令</p>\n$$\nb_{n}=(-1)^{n-1}a_{n}\n$$\n<p>由于 $a_{n}=(-1)^{n-1}b_{n}$、$a_{n-1}=-(-1)^{n-1}b_{n-1}$，上式化为</p><p>$b_{n}-b_{n-1}=\\frac{3}{2^{n-1}}$，（$n\\geqslant3$）.</p><p>又 $b_{2}=-a_{2}=\\dfrac{5}{2}$，所以对 $n\\geqslant2$，</p>\n$$\nb_{n}=\\frac{5}{2}+3\\sum_{j=3}^{n}\\frac{1}{2^{j-1}}=\\frac{5}{2}+3\\left(\\frac{1}{2}-\\frac{1}{2^{n-1}}\\right)  =4-\\frac{3}{2^{n-1}}\n$$\n<p>当 $n=1$ 时，$b_{1}=a_{1}=1=4-3$，同样成立. 因而</p><p>$a_{n}=(-1)^{n-1}\\left(4-3\\left(\\frac{1}{2}\\right)^{n-1}\\right)$，$n\\geqslant1$.</p>",
+          "hasAnswer": false,
+          "hasSolution": true
         }
       ]
     }
