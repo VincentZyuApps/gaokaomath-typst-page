@@ -108,7 +108,16 @@
               :key="prob.num"
               class="continuous-prob-item"
             >
-              <div class="continuous-prob-num">{{ prob.num }}.</div>
+              <div class="continuous-prob-num-col">
+                <div class="continuous-prob-num">{{ prob.num }}.</div>
+                <button
+                  class="focus-q-btn-mini"
+                  @click="focusQuestionInSingleMode(prob.num)"
+                  title="单题独立卡片聚焦"
+                >
+                  🎯 聚焦
+                </button>
+              </div>
               <div class="continuous-prob-content">
                 <div class="problem-body" v-html="renderMath(prob.body)"></div>
                 <div v-if="prob.choices && prob.choices.length === 4" class="choices-grid">
@@ -183,6 +192,21 @@
         </div>
       </div>
 
+      <!-- 题号快速跳转条 (移至题目上方，方便直接点击跳题无需滚屏到底部) -->
+      <div class="question-matrix">
+        <div class="matrix-section">
+          <span class="matrix-label">题号跳转:</span>
+          <button
+            v-for="i in totalQuestions"
+            :key="i"
+            :class="['num-pill', { active: currentQIndex === i - 1 }]"
+            @click="jumpToQuestion(i - 1)"
+          >
+            {{ i }}
+          </button>
+        </div>
+      </div>
+
       <!-- 单题视口 (支持鼠标拖拽平移与滚轮无限缩放) -->
       <div
         class="panzoom-viewport"
@@ -237,20 +261,6 @@
         </div>
       </div>
 
-      <!-- 底部题号矩阵 -->
-      <div class="question-matrix">
-        <div class="matrix-section">
-          <span class="matrix-label">题号跳转:</span>
-          <button
-            v-for="i in totalQuestions"
-            :key="i"
-            :class="['num-pill', { active: currentQIndex === i - 1 }]"
-            @click="jumpToQuestion(i - 1)"
-          >
-            {{ i }}
-          </button>
-        </div>
-      </div>
     </div>
 
     <!-- 模式 3: 原生交互做题文档模式 (自适应支持历年所有 777 套试卷) -->
@@ -303,8 +313,17 @@
             class="problem-card"
           >
             <div class="problem-card-header">
-              <span class="problem-num-badge">第 {{ prob.num }} 题</span>
-              <span class="problem-type-badge">{{ sec.name }}</span>
+              <div class="problem-card-header-left">
+                <span class="problem-num-badge">第 {{ prob.num }} 题</span>
+                <span class="problem-type-badge">{{ sec.name }}</span>
+              </div>
+              <button
+                class="focus-q-btn"
+                @click="focusQuestionInSingleMode(prob.num)"
+                title="聚焦到单题独立卡片做题"
+              >
+                🎯 单题聚焦
+              </button>
             </div>
 
             <!-- 题干 -->
@@ -582,6 +601,18 @@ function nextQuestion() {
 function jumpToQuestion(idx: number) {
   currentQIndex.value = idx;
   resetZoom();
+}
+
+function focusQuestionInSingleMode(probNum: number) {
+  const idx = allProblems.value.findIndex(p => p.num === probNum);
+  if (idx !== -1) {
+    jumpToQuestion(idx);
+  }
+  currentMode.value = 'single';
+  const el = document.querySelector('.exam-viewer-wrapper');
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
 
 // Panzoom 平移与缩放
@@ -1815,6 +1846,60 @@ onUnmounted(() => {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.problem-card-header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.focus-q-btn {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 3px 10px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-brand-1);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.2, 0, 0, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.focus-q-btn:hover {
+  background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-1px);
+}
+
+.continuous-prob-num-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  flex-shrink: 0;
+  min-width: 3.2rem;
+}
+
+.focus-q-btn-mini {
+  font-size: 0.72rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  border: 1px solid var(--vp-c-divider);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.focus-q-btn-mini:hover {
+  color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
 }
 
 .problem-num-badge {
