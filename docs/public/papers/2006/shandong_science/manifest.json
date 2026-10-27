@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "函数$y=1+a^{x}$（$0&#x3C;a&#x3C;1$）的反函数的图象大致是（ ）",
+          "body": "函数$y=1+a^{x}$（$0<a<1$）的反函数的图象大致是（ ）",
           "choices": [
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_science/q2_choice_a.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_science/q2_choice_b.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
@@ -29,11 +29,11 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_science/q2_choice_d.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "由$0&#x3C;a&#x3C;1$，函数$y=1+a^{x}$单调递减，值域为$(1,+\\infty)$，且图象经过点$(0,2)$. 反函数的图象是原函数图象关于直线$y=x$的对称图象，所以反函数的定义域为$(1,+\\infty)$，并经过点$(2,0)$，同时仍然单调递减. 当$x\\to1^{+}$时，反函数值趋于$+\\infty$，故其图象具有竖直渐近线$x=1$，并经过$(2,0)$，符合选项 A."
+          "solution": "由$0<a<1$，函数$y=1+a^{x}$单调递减，值域为$(1,+\\infty)$，且图象经过点$(0,2)$. 反函数的图象是原函数图象关于直线$y=x$的对称图象，所以反函数的定义域为$(1,+\\infty)$，并经过点$(2,0)$，同时仍然单调递减. 当$x\\to1^{+}$时，反函数值趋于$+\\infty$，故其图象具有竖直渐近线$x=1$，并经过$(2,0)$，符合选项 A."
         },
         {
           "num": 3,
-          "body": "设$f(x)=\\begin{cases}2\\mathrm{e}^{x-1},&#x26;x&#x3C;2,\\\\  \\log_{3}(x^{2}-1),&#x26;x\\geqslant2,\\end{cases}$ 则不等式$f(x)>2$的解集为（ ）",
+          "body": "设$f(x)=\\begin{cases}2\\mathrm{e}^{x-1},&x<2,\\\\  \\log_{3}(x^{2}-1),&x\\geqslant2,\\end{cases}$ 则不等式$f(x)>2$的解集为（ ）",
           "choices": [
             "$(1,2)\\cup(3,+\\infty)$",
             "$(\\sqrt{10},+\\infty)$",
@@ -41,7 +41,7 @@
             "$(1,2)$"
           ],
           "answer": "C",
-          "solution": "当$x&#x3C;2$时，$2\\mathrm{e}^{x-1}>2$等价于$\\mathrm{e}^{x-1}>1$，即$x>1$，所以这一段的解为$(1,2)$. 当$x\\geqslant2$时，$\\log_{3}(x^{2}-1)>2$等价于$x^{2}-1>3^{2}$，即$x^{2}>10$. 结合$x\\geqslant2$，得到$x>\\sqrt{10}$. 因此原不等式的解集为$(1,2)\\cup(\\sqrt{10},+\\infty)$，故选 C."
+          "solution": "当$x<2$时，$2\\mathrm{e}^{x-1}>2$等价于$\\mathrm{e}^{x-1}>1$，即$x>1$，所以这一段的解为$(1,2)$. 当$x\\geqslant2$时，$\\log_{3}(x^{2}-1)>2$等价于$x^{2}-1>3^{2}$，即$x^{2}>10$. 结合$x\\geqslant2$，得到$x>\\sqrt{10}$. 因此原不等式的解集为$(1,2)\\cup(\\sqrt{10},+\\infty)$，故选 C."
         },
         {
           "num": 4,
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "设$p:x^{2}-x-20>0$，$q:\\dfrac{1-x^2}{|x|-2}&#x3C;0$，则$p$是$q$的（ ）",
+          "body": "设$p:x^{2}-x-20>0$，$q:\\dfrac{1-x^2}{|x|-2}<0$，则$p$是$q$的（ ）",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -101,7 +101,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>因为$x^{2}-x-20=(x-5)(x+4)$，</p><p>所以$p$的解集为$(-\\infty,-4)\\cup(5,+\\infty)$. 令$t=|x|$，则$\\dfrac{1-x^2}{|x|-2}=\\dfrac{1-t^2}{t-2}$.</p><p>当$0\\le t&#x3C;1$时，分子为正、分母为负，分式小于$0$；当$1&#x3C;t&#x3C;2$时，分子、分母均为负，分式大于$0$；当$t>2$时，分子为负、分母为正，分式小于$0$. 另外$t=1$使分子为$0$，$t=2$使分母为$0$，均不满足不等式. 因此$q$的解集为$(-\\infty,-2)\\cup(-1,1)\\cup(2,+\\infty)$.</p><p>由$(-\\infty,-4)\\cup(5,+\\infty)\\subset(-\\infty,-2)\\cup(2,+\\infty)$，可知$p$是$q$的充分条件；例如$x=0$满足$q$而不满足$p$，所以$p$不是$q$的必要条件. 因此$p$是$q$的充分不必要条件，故选 A.</p>"
+          "solution": "<p>因为$x^{2}-x-20=(x-5)(x+4)$，</p><p>所以$p$的解集为$(-\\infty,-4)\\cup(5,+\\infty)$. 令$t=|x|$，则$\\dfrac{1-x^2}{|x|-2}=\\dfrac{1-t^2}{t-2}$.</p><p>当$0\\le t<1$时，分子为正、分母为负，分式小于$0$；当$1<t<2$时，分子、分母均为负，分式大于$0$；当$t>2$时，分子为负、分母为正，分式小于$0$. 另外$t=1$使分子为$0$，$t=2$使分母为$0$，均不满足不等式. 因此$q$的解集为$(-\\infty,-2)\\cup(-1,1)\\cup(2,+\\infty)$.</p><p>由$(-\\infty,-4)\\cup(5,+\\infty)\\subset(-\\infty,-2)\\cup(2,+\\infty)$，可知$p$是$q$的充分条件；例如$x=0$满足$q$而不满足$p$，所以$p$不是$q$的必要条件. 因此$p$是$q$的充分不必要条件，故选 A.</p>"
         },
         {
           "num": 9,
@@ -191,17 +191,17 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>已知函数$f(x)=A\\sin^{2}(\\omega x+\\varphi)$（$A>0$，$\\omega>0$，$0&#x3C;\\varphi&#x3C;\\dfrac{\\pi}{2}$），且$y=f(x)$的最大值为$2$，其图象相邻两对称轴间的距离为$2$，并过点$(1,2)$.</p><ol class=\"enumerate\"><li><p>求$\\varphi$；</p></li><li><p>计算$f(1)+f(2)+\\cdots+f(2008)$.</p></li></ol>",
+          "body": "<p>已知函数$f(x)=A\\sin^{2}(\\omega x+\\varphi)$（$A>0$，$\\omega>0$，$0<\\varphi<\\dfrac{\\pi}{2}$），且$y=f(x)$的最大值为$2$，其图象相邻两对称轴间的距离为$2$，并过点$(1,2)$.</p><ol class=\"enumerate\"><li><p>求$\\varphi$；</p></li><li><p>计算$f(1)+f(2)+\\cdots+f(2008)$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为$\\sin^{2}$的最大值为$1$，所以$A=2$. 函数$\\sin^{2} t$的相邻对称轴对应的自变量之差为$\\dfrac{\\pi}{2}$，故$\\dfrac{\\pi}{2\\omega}=2$，</p><p>从而$\\omega=\\dfrac{\\pi}{4}$. 又$f(1)=2$，所以</p><p>$2\\sin^{2}\\left(\\dfrac{\\pi}{4}+\\varphi\\right)=2$，</p><p>即$\\sin^{2}\\left(\\dfrac{\\pi}{4}+\\varphi\\right)=1$. 由$0&#x3C;\\varphi&#x3C;\\dfrac{\\pi}{2}$，有$\\dfrac{\\pi}{4}+\\varphi\\in\\left(\\dfrac{\\pi}{4},\\dfrac{3\\pi}{4}\\right)$，故</p><p>$\\varphi=\\dfrac{\\pi}{4}$.</p></li><li><p>由上面的参数，$f(k)=2\\sin^{2}\\left(\\dfrac{(k+1)\\pi}{4}\\right)$. 所以$f(1)=2$，$f(2)=1$，$f(3)=0$，$f(4)=1$，且每四项循环一次. 因为$2008=4\\times502$，故$f(1)+f(2)+\\cdots+f(2008)=502(2+1+0+1)=2008$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为$\\sin^{2}$的最大值为$1$，所以$A=2$. 函数$\\sin^{2} t$的相邻对称轴对应的自变量之差为$\\dfrac{\\pi}{2}$，故$\\dfrac{\\pi}{2\\omega}=2$，</p><p>从而$\\omega=\\dfrac{\\pi}{4}$. 又$f(1)=2$，所以</p><p>$2\\sin^{2}\\left(\\dfrac{\\pi}{4}+\\varphi\\right)=2$，</p><p>即$\\sin^{2}\\left(\\dfrac{\\pi}{4}+\\varphi\\right)=1$. 由$0<\\varphi<\\dfrac{\\pi}{2}$，有$\\dfrac{\\pi}{4}+\\varphi\\in\\left(\\dfrac{\\pi}{4},\\dfrac{3\\pi}{4}\\right)$，故</p><p>$\\varphi=\\dfrac{\\pi}{4}$.</p></li><li><p>由上面的参数，$f(k)=2\\sin^{2}\\left(\\dfrac{(k+1)\\pi}{4}\\right)$. 所以$f(1)=2$，$f(2)=1$，$f(3)=0$，$f(4)=1$，且每四项循环一次. 因为$2008=4\\times502$，故$f(1)+f(2)+\\cdots+f(2008)=502(2+1+0+1)=2008$.</p></li></ol>"
         },
         {
           "num": 18,
           "body": "设函数$f(x)=ax-(a+1)\\ln(x+1)$，其中$a\\ge-1$，求$f(x)$的单调区间.",
           "choices": null,
           "answer": "",
-          "solution": "<p>函数定义域为$(-1,+\\infty)$，且$f'(x)=a-\\dfrac{a+1}{x+1}=\\dfrac{ax-1}{x+1}$.</p><p>当$-1\\le a\\leqslant0$时，对任意$x>-1$，都有$ax-1&#x3C;0$，而$x+1>0$，所以$f'(x)&#x3C;0$，函数在$(-1,+\\infty)$上单调递减.</p><p>当$a>0$时，$f'(x)=0$的唯一解为$x=\\dfrac{1}{a}$，并且在$\\left(-1,\\dfrac{1}{a}\\right)$上$f'(x)&#x3C;0$，在$\\left(\\dfrac{1}{a},+\\infty\\right)$上$f'(x)>0$.</p><p>因此当$a>0$时，函数在$\\left(-1,\\dfrac{1}{a}\\right)$上单调递减，在$\\left(\\dfrac{1}{a},+\\infty\\right)$上单调递增.</p>"
+          "solution": "<p>函数定义域为$(-1,+\\infty)$，且$f'(x)=a-\\dfrac{a+1}{x+1}=\\dfrac{ax-1}{x+1}$.</p><p>当$-1\\le a\\leqslant0$时，对任意$x>-1$，都有$ax-1<0$，而$x+1>0$，所以$f'(x)<0$，函数在$(-1,+\\infty)$上单调递减.</p><p>当$a>0$时，$f'(x)=0$的唯一解为$x=\\dfrac{1}{a}$，并且在$\\left(-1,\\dfrac{1}{a}\\right)$上$f'(x)<0$，在$\\left(\\dfrac{1}{a},+\\infty\\right)$上$f'(x)>0$.</p><p>因此当$a>0$时，函数在$\\left(-1,\\dfrac{1}{a}\\right)$上单调递减，在$\\left(\\dfrac{1}{a},+\\infty\\right)$上单调递增.</p>"
         },
         {
           "num": 19,
@@ -215,7 +215,7 @@
           "body": "<p>袋中装有标有数字$1$，$2$，$3$，$4$，$5$的小球各$2$个，从袋中任取$3$个小球，按$3$个小球上最大数字的$9$倍计分，每小球被取出的可能性都相等，用$\\xi$表示取出的$3$个小球上的最大数字，求：</p><ol class=\"enumerate\"><li><p>取出的$3$个小球上的数字互不相同的概率；</p></li><li><p>随机变量$\\xi$的概率分布和数学期望；</p></li><li><p>计分介于$20$分到$40$分之间的概率.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>总的取法数为$\\mathrm{C}_{10}^{3}=120$. 数字互不相同时，先从$5$个数字中选$3$个，再从每个数字的$2$个小球中各取$1$个，取法数为$\\mathrm{C}_{5}^{3}\\cdot2^{3}=80$.</p><p>所以所求概率为$\\dfrac{80}{120}=\\dfrac{2}{3}$.</p></li><li><p>最大数字为$k$时，先从标号不超过$k$的$2k$个球中取$3$个，再排除全部来自前$k-1$个数字的取法，取法数为$\\mathrm{C}_{2k}^{3}-\\mathrm{C}_{2k-2}^{3}$. 因而随机变量$\\xi$的概率分布为：$P(\\xi=1)=0$，$P(\\xi=2)=\\dfrac1{30}$，$P(\\xi=3)=\\dfrac2{15}$，$P(\\xi=4)=\\dfrac3{10}$，$P(\\xi=5)=\\dfrac8{15}$.</p><p>并且</p>\n$$\nE(\\xi)  =2\\cdot\\frac{1}{30}+3\\cdot\\frac{2}{15}+4\\cdot\\frac{3}{10}+5\\cdot\\frac{8}{15}=\\frac{13}{3}\n$$\n</li><li><p>得分为$9\\xi$. 由于$20&#x3C;9\\xi&#x3C;40$时$\\xi=3$，$4$，所求概率为$P(\\xi=3)+P(\\xi=4)=\\dfrac2{15}+\\dfrac3{10}=\\dfrac{13}{30}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>总的取法数为$\\mathrm{C}_{10}^{3}=120$. 数字互不相同时，先从$5$个数字中选$3$个，再从每个数字的$2$个小球中各取$1$个，取法数为$\\mathrm{C}_{5}^{3}\\cdot2^{3}=80$.</p><p>所以所求概率为$\\dfrac{80}{120}=\\dfrac{2}{3}$.</p></li><li><p>最大数字为$k$时，先从标号不超过$k$的$2k$个球中取$3$个，再排除全部来自前$k-1$个数字的取法，取法数为$\\mathrm{C}_{2k}^{3}-\\mathrm{C}_{2k-2}^{3}$. 因而随机变量$\\xi$的概率分布为：$P(\\xi=1)=0$，$P(\\xi=2)=\\dfrac1{30}$，$P(\\xi=3)=\\dfrac2{15}$，$P(\\xi=4)=\\dfrac3{10}$，$P(\\xi=5)=\\dfrac8{15}$.</p><p>并且</p>\n$$\nE(\\xi)  =2\\cdot\\frac{1}{30}+3\\cdot\\frac{2}{15}+4\\cdot\\frac{3}{10}+5\\cdot\\frac{8}{15}=\\frac{13}{3}\n$$\n</li><li><p>得分为$9\\xi$. 由于$20<9\\xi<40$时$\\xi=3$，$4$，所求概率为$P(\\xi=3)+P(\\xi=4)=\\dfrac2{15}+\\dfrac3{10}=\\dfrac{13}{30}$.</p></li></ol>"
         },
         {
           "num": 21,

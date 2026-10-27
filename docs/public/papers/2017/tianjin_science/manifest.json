@@ -45,7 +45,7 @@
         },
         {
           "num": 4,
-          "body": "设 $\\theta\\in\\mathbb{R}$，则“$\\left|\\theta-\\dfrac{\\pi}{12}\\right|&#x3C;\\dfrac{\\pi}{12}$”是“$\\sin\\theta&#x3C;\\dfrac{1}{2}$”的（ ）",
+          "body": "设 $\\theta\\in\\mathbb{R}$，则“$\\left|\\theta-\\dfrac{\\pi}{12}\\right|<\\dfrac{\\pi}{12}$”是“$\\sin\\theta<\\dfrac{1}{2}$”的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -53,7 +53,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>令命题 $p$ 为 $\\left|\\theta-\\dfrac{\\pi}{12}\\right|&#x3C;\\dfrac{\\pi}{12}$，命题 $q$ 为 $\\sin\\theta&#x3C;\\dfrac{1}{2}$. 由 $p$ 得</p><p>$0&#x3C;\\theta&#x3C;\\dfrac{\\pi}{6}$，从而 $0&#x3C;\\sin\\theta&#x3C;\\sin\\dfrac{\\pi}{6}=\\dfrac{1}{2}$，所以 $p$ 能推出 $q$.</p><p>但取 $\\theta=-\\dfrac{\\pi}{6}$，有 $\\sin\\theta=-\\dfrac{1}{2}&#x3C;\\dfrac{1}{2}$，而</p><p>$\\left|\\theta-\\dfrac{\\pi}{12}\\right|=\\dfrac{\\pi}{4}>\\dfrac{\\pi}{12}$，所以 $q$ 不能推出 $p$.</p><p>因此，$p$ 是 $q$ 的充分而不必要条件，故选 A.</p>"
+          "solution": "<p>令命题 $p$ 为 $\\left|\\theta-\\dfrac{\\pi}{12}\\right|<\\dfrac{\\pi}{12}$，命题 $q$ 为 $\\sin\\theta<\\dfrac{1}{2}$. 由 $p$ 得</p><p>$0<\\theta<\\dfrac{\\pi}{6}$，从而 $0<\\sin\\theta<\\sin\\dfrac{\\pi}{6}=\\dfrac{1}{2}$，所以 $p$ 能推出 $q$.</p><p>但取 $\\theta=-\\dfrac{\\pi}{6}$，有 $\\sin\\theta=-\\dfrac{1}{2}<\\dfrac{1}{2}$，而</p><p>$\\left|\\theta-\\dfrac{\\pi}{12}\\right|=\\dfrac{\\pi}{4}>\\dfrac{\\pi}{12}$，所以 $q$ 不能推出 $p$.</p><p>因此，$p$ 是 $q$ 的充分而不必要条件，故选 A.</p>"
         },
         {
           "num": 5,
@@ -71,17 +71,17 @@
           "num": 6,
           "body": "已知奇函数 $f(x)$ 在 $\\mathbb{R}$ 上是增函数，$g(x)=xf(x)$. 若 $a=g(-\\log_{2} 5.1)$，$b=g(2^{0.8})$，$c=g(3)$，则 $a$，$b$，$c$ 的大小关系为（ ）",
           "choices": [
-            "$a&#x3C;b&#x3C;c$",
-            "$c&#x3C;b&#x3C;a$",
-            "$b&#x3C;a&#x3C;c$",
-            "$b&#x3C;c&#x3C;a$"
+            "$a<b<c$",
+            "$c<b<a$",
+            "$b<a<c$",
+            "$b<c<a$"
           ],
           "answer": "C",
-          "solution": "<p>由 $f(x)$ 为奇函数且在 $\\mathbb{R}$ 上递增，知 $f(0)=0$，并且当 $x>0$ 时 $f(x)>0$. 对 $0\\leq u&#x3C;v$，有</p><p>$g(v)-g(u)=v[f(v)-f(u)]+(v-u)f(u)>0$，所以 $g$ 在 $[0,+\\infty)$ 上递增.</p><p>又由奇偶性，$g(-x)=(-x)f(-x)=xf(x)=g(x)$，所以 $g$ 是偶函数.由于</p><p>$2^{0.8}&#x3C;2&#x3C;\\log_{2} 5.1&#x3C;3$，故</p><p>$g(2^{0.8})&#x3C;g(\\log_{2} 5.1)&#x3C;g(3)$. 因此</p><p>$b&#x3C;a&#x3C;c$，故选 C.</p>"
+          "solution": "<p>由 $f(x)$ 为奇函数且在 $\\mathbb{R}$ 上递增，知 $f(0)=0$，并且当 $x>0$ 时 $f(x)>0$. 对 $0\\leq u<v$，有</p><p>$g(v)-g(u)=v[f(v)-f(u)]+(v-u)f(u)>0$，所以 $g$ 在 $[0,+\\infty)$ 上递增.</p><p>又由奇偶性，$g(-x)=(-x)f(-x)=xf(x)=g(x)$，所以 $g$ 是偶函数.由于</p><p>$2^{0.8}<2<\\log_{2} 5.1<3$，故</p><p>$g(2^{0.8})<g(\\log_{2} 5.1)<g(3)$. 因此</p><p>$b<a<c$，故选 C.</p>"
         },
         {
           "num": 7,
-          "body": "设函数 $f(x)=2\\sin(\\omega x+\\varphi)$，$x\\in\\mathbb{R}$，其中 $\\omega>0$，$|\\varphi|&#x3C;\\pi$. 若 $f\\left(\\dfrac{5\\pi}{8}\\right)=2$，$f\\left(\\dfrac{11\\pi}{8}\\right)=0$，且 $f(x)$ 的最小正周期大于 $2\\pi$，则（ ）",
+          "body": "设函数 $f(x)=2\\sin(\\omega x+\\varphi)$，$x\\in\\mathbb{R}$，其中 $\\omega>0$，$|\\varphi|<\\pi$. 若 $f\\left(\\dfrac{5\\pi}{8}\\right)=2$，$f\\left(\\dfrac{11\\pi}{8}\\right)=0$，且 $f(x)$ 的最小正周期大于 $2\\pi$，则（ ）",
           "choices": [
             "$\\omega=\\dfrac{2}{3}$，$\\varphi=\\dfrac{\\pi}{12}$",
             "$\\omega=\\dfrac{2}{3}$，$\\varphi=-\\dfrac{11\\pi}{12}$",
@@ -89,11 +89,11 @@
             "$\\omega=\\dfrac{1}{3}$，$\\varphi=\\dfrac{7\\pi}{24}$"
           ],
           "answer": "A",
-          "solution": "<p>由 $f\\left(\\dfrac{5\\pi}{8}\\right)=2$，得</p><p>$\\sin\\left(\\dfrac{5\\pi\\omega}{8}+\\varphi\\right)=1$，所以存在 $k\\in\\mathbb{Z}$，使</p><p>$\\dfrac{5\\pi\\omega}{8}+\\varphi=\\dfrac\\pi2+2k\\pi$. 由</p><p>$f\\left(\\dfrac{11\\pi}{8}\\right)=0$，得存在 $l\\in\\mathbb{Z}$，使</p><p>$\\dfrac{11\\pi\\omega}{8}+\\varphi=l\\pi$. 两式相减，得到</p><p>$\\omega=\\dfrac{2(2l-4k-1)}{3}$.</p><p>函数的最小正周期为 $\\dfrac{2\\pi}{\\omega}>2\\pi$，故 $0&#x3C;\\omega&#x3C;1$. 于是奇整数 $2l-4k-1$ 只能取 $1$，从而 $\\omega=\\dfrac{2}{3}$. 代入第一式得</p><p>$\\varphi=\\dfrac\\pi{12}+2k\\pi$. 结合 $|\\varphi|&#x3C;\\pi$，可知 $k=0$，即 $\\varphi=\\dfrac\\pi{12}$.</p><p>故选 A.</p>"
+          "solution": "<p>由 $f\\left(\\dfrac{5\\pi}{8}\\right)=2$，得</p><p>$\\sin\\left(\\dfrac{5\\pi\\omega}{8}+\\varphi\\right)=1$，所以存在 $k\\in\\mathbb{Z}$，使</p><p>$\\dfrac{5\\pi\\omega}{8}+\\varphi=\\dfrac\\pi2+2k\\pi$. 由</p><p>$f\\left(\\dfrac{11\\pi}{8}\\right)=0$，得存在 $l\\in\\mathbb{Z}$，使</p><p>$\\dfrac{11\\pi\\omega}{8}+\\varphi=l\\pi$. 两式相减，得到</p><p>$\\omega=\\dfrac{2(2l-4k-1)}{3}$.</p><p>函数的最小正周期为 $\\dfrac{2\\pi}{\\omega}>2\\pi$，故 $0<\\omega<1$. 于是奇整数 $2l-4k-1$ 只能取 $1$，从而 $\\omega=\\dfrac{2}{3}$. 代入第一式得</p><p>$\\varphi=\\dfrac\\pi{12}+2k\\pi$. 结合 $|\\varphi|<\\pi$，可知 $k=0$，即 $\\varphi=\\dfrac\\pi{12}$.</p><p>故选 A.</p>"
         },
         {
           "num": 8,
-          "body": "<p>已知函数 $f(x)=  \\begin{cases}x^{2}-x+3,&#x26;x\\le 1,\\\\  x+\\dfrac{2}{x},&#x26;x>1,\\end{cases}$</p><p>设 $a\\in\\mathbb{R}$，若关于 $x$ 的不等式 $f(x)\\ge \\left|\\dfrac{x}{2}+a\\right|$ 在 $\\mathbb{R}$ 上恒成立，则 $a$ 的取值范围是（ ）</p>",
+          "body": "<p>已知函数 $f(x)=  \\begin{cases}x^{2}-x+3,&x\\le 1,\\\\  x+\\dfrac{2}{x},&x>1,\\end{cases}$</p><p>设 $a\\in\\mathbb{R}$，若关于 $x$ 的不等式 $f(x)\\ge \\left|\\dfrac{x}{2}+a\\right|$ 在 $\\mathbb{R}$ 上恒成立，则 $a$ 的取值范围是（ ）</p>",
           "choices": [
             "$\\left[-\\dfrac{47}{16},2\\right]$",
             "$\\left[-\\dfrac{47}{16},\\dfrac{39}{16}\\right]$",
@@ -127,7 +127,7 @@
           "body": "在极坐标系中，直线 $4\\rho\\cos\\left(\\theta-\\dfrac{\\pi}{6}\\right)+1=0$ 与圆 $\\rho=2\\sin\\theta$ 的公共点的个数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$2$",
-          "solution": "<p>令直角坐标系中的点满足 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$. 直线方程化为</p><p>$4\\rho\\left(\\frac{\\sqrt{3}}{2}\\cos\\theta+\\frac{1}{2}\\sin\\theta\\right)+1=0$，$2\\sqrt{3}x+2y+1=0$.</p><p>圆方程 $\\rho=2\\sin\\theta$ 化为 $x^{2}+y^{2}=2y$，即圆心为 $(0,1)$、半径为 $1$ 的圆.</p><p>圆心到直线的距离为 $\\dfrac{|2+1|}{\\sqrt{(2\\sqrt{3})^{2}+2^{2}}}=\\dfrac{3}{4}&#x3C;1$，所以直线与圆相交于两个点.原点不在该直线上，极坐标表示不会造成交点数的重复或遗漏，故公共点的个数为 $2$.</p>"
+          "solution": "<p>令直角坐标系中的点满足 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$. 直线方程化为</p><p>$4\\rho\\left(\\frac{\\sqrt{3}}{2}\\cos\\theta+\\frac{1}{2}\\sin\\theta\\right)+1=0$，$2\\sqrt{3}x+2y+1=0$.</p><p>圆方程 $\\rho=2\\sin\\theta$ 化为 $x^{2}+y^{2}=2y$，即圆心为 $(0,1)$、半径为 $1$ 的圆.</p><p>圆心到直线的距离为 $\\dfrac{|2+1|}{\\sqrt{(2\\sqrt{3})^{2}+2^{2}}}=\\dfrac{3}{4}<1$，所以直线与圆相交于两个点.原点不在该直线上，极坐标表示不会造成交点数的重复或遗漏，故公共点的个数为 $2$.</p>"
         },
         {
           "num": 12,
@@ -141,7 +141,7 @@
           "body": "在 $\\triangle ABC$ 中，$\\angle A=60^{\\circ}$，$AB=3$，$AC=2$. 若 $\\overrightarrow{BD}=2\\overrightarrow{DC}$，$\\overrightarrow{AE}=\\lambda\\overrightarrow{AC}-\\overrightarrow{AB}$（$\\lambda\\in\\mathbb{R}$），且 $\\overrightarrow{AD}\\cdot\\overrightarrow{AE}=-4$，则 $\\lambda$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\dfrac{3}{11}$",
-          "solution": "<p>取 $A$ 为原点，记 $\\overrightarrow{AB}=\\mathbf{u}$，$\\overrightarrow{AC}=\\mathbf{v}$. 由题意</p><p>$\\mathbf{u}\\cdot\\mathbf{u}=9$，$\\mathbf{v}\\cdot\\mathbf{v}=4$，$\\mathbf{u}\\cdot\\mathbf{v}=3\\times2\\cos60^{\\circ}=3$.</p><p>由 $\\overrightarrow{BD}=2\\overrightarrow{DC}$，得</p><p>$\\overrightarrow{AD}=\\dfrac{1}{3}\\mathbf{u}+\\dfrac{2}{3}\\mathbf{v}$. 又</p><p>$\\overrightarrow{AE}=\\lambda\\mathbf{v}-\\mathbf{u}$，所以</p>\n$$\n\\begin{aligned}\\overrightarrow{AD}\\cdot\\overrightarrow{AE}\n\n&#x26;=\\frac{1}{3}(\\mathbf{u}+2\\mathbf{v})\\cdot(\\lambda\\mathbf{v}-\\mathbf{u})\\\\\n\n&#x26;=\\frac{1}{3}(3\\lambda-9+8\\lambda-6)=\\frac{11\\lambda-15}{3}.\\end{aligned}\n$$\n<p>由题设该数量积等于 $-4$，故 $\\dfrac{11\\lambda-15}{3}=-4$，解得</p><p>$\\lambda=\\dfrac3{11}$.</p>"
+          "solution": "<p>取 $A$ 为原点，记 $\\overrightarrow{AB}=\\mathbf{u}$，$\\overrightarrow{AC}=\\mathbf{v}$. 由题意</p><p>$\\mathbf{u}\\cdot\\mathbf{u}=9$，$\\mathbf{v}\\cdot\\mathbf{v}=4$，$\\mathbf{u}\\cdot\\mathbf{v}=3\\times2\\cos60^{\\circ}=3$.</p><p>由 $\\overrightarrow{BD}=2\\overrightarrow{DC}$，得</p><p>$\\overrightarrow{AD}=\\dfrac{1}{3}\\mathbf{u}+\\dfrac{2}{3}\\mathbf{v}$. 又</p><p>$\\overrightarrow{AE}=\\lambda\\mathbf{v}-\\mathbf{u}$，所以</p>\n$$\n\\begin{aligned}\\overrightarrow{AD}\\cdot\\overrightarrow{AE}\n\n&=\\frac{1}{3}(\\mathbf{u}+2\\mathbf{v})\\cdot(\\lambda\\mathbf{v}-\\mathbf{u})\\\\\n\n&=\\frac{1}{3}(3\\lambda-9+8\\lambda-6)=\\frac{11\\lambda-15}{3}.\\end{aligned}\n$$\n<p>由题设该数量积等于 $-4$，故 $\\dfrac{11\\lambda-15}{3}=-4$，解得</p><p>$\\lambda=\\dfrac3{11}$.</p>"
         },
         {
           "num": 14,
@@ -160,7 +160,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $a>b$，$a=5$，$c=6$，$\\sin B=\\dfrac{3}{5}$.</p><ol class=\"enumerate\"><li><p>求 $b$ 和 $\\sin A$ 的值；</p></li><li><p>求 $\\sin\\left( 2A+\\dfrac{\\pi}{4}\\right)$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>若角 $B$ 为钝角，则 $A&#x3C;B$，这与 $a>b$ 矛盾，故 $B$ 为锐角，从而 $\\cos B=\\dfrac{4}{5}$. 由余弦定理，</p><p>$b^{2}=a^{2}+c^{2}-2ac\\cos B=25+36-2\\times5\\times6\\times\\dfrac{4}{5}=13$，所以 $b=\\sqrt{13}$.</p><p>由正弦定理，$\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}$，得</p><p>$\\sin A=\\dfrac{a\\sin B}{b}=\\dfrac{5\\times\\frac{3}{5}}{\\sqrt{13}}=\\dfrac{3\\sqrt{13}}{13}$.</p></li><li><p>由余弦定理，</p><p>$\\cos A=\\dfrac{b^2+c^2-a^2}{2bc}=\\dfrac{13+36-25}{12\\sqrt{13}}=\\dfrac{2\\sqrt{13}}{13}$. 因此</p><p>$\\sin2A=2\\sin A\\cos A=\\dfrac{12}{13}$，$\\cos2A=1-2\\sin^{2}A=1-\\dfrac{18}{13}=-\\dfrac5{13}$.</p><p>于是</p>\n$$\n\\sin\\left(2A+\\frac{\\pi}{4}\\right)=\\sin2A\\cos\\frac{\\pi}{4}+\\cos2A\\sin\\frac{\\pi}{4}  =\\frac{1}{\\sqrt{2}}\\left(\\frac{12}{13}-\\frac{5}{13}\\right)=\\frac{7\\sqrt{2}}{26}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>若角 $B$ 为钝角，则 $A<B$，这与 $a>b$ 矛盾，故 $B$ 为锐角，从而 $\\cos B=\\dfrac{4}{5}$. 由余弦定理，</p><p>$b^{2}=a^{2}+c^{2}-2ac\\cos B=25+36-2\\times5\\times6\\times\\dfrac{4}{5}=13$，所以 $b=\\sqrt{13}$.</p><p>由正弦定理，$\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}$，得</p><p>$\\sin A=\\dfrac{a\\sin B}{b}=\\dfrac{5\\times\\frac{3}{5}}{\\sqrt{13}}=\\dfrac{3\\sqrt{13}}{13}$.</p></li><li><p>由余弦定理，</p><p>$\\cos A=\\dfrac{b^2+c^2-a^2}{2bc}=\\dfrac{13+36-25}{12\\sqrt{13}}=\\dfrac{2\\sqrt{13}}{13}$. 因此</p><p>$\\sin2A=2\\sin A\\cos A=\\dfrac{12}{13}$，$\\cos2A=1-2\\sin^{2}A=1-\\dfrac{18}{13}=-\\dfrac5{13}$.</p><p>于是</p>\n$$\n\\sin\\left(2A+\\frac{\\pi}{4}\\right)=\\sin2A\\cos\\frac{\\pi}{4}+\\cos2A\\sin\\frac{\\pi}{4}  =\\frac{1}{\\sqrt{2}}\\left(\\frac{12}{13}-\\frac{5}{13}\\right)=\\frac{7\\sqrt{2}}{26}\n$$\n</li></ol>"
         },
         {
           "num": 16,
@@ -192,10 +192,10 @@
         },
         {
           "num": 20,
-          "body": "<p>设 $a\\in\\mathbb{Z}$. 已知定义在 $\\mathbb{R}$ 上的函数 $f(x)=2x^{4}+3x^{3}-3x^{2}-6x+a$ 在区间 $(1,2)$ 内有一个零点 $x_{0}$，$g(x)$ 为 $f(x)$ 的导函数.</p><ol class=\"enumerate\"><li><p>求 $g(x)$ 的单调区间；</p></li><li><p>设 $m\\in[1,x_{0})\\cup(x_{0},2]$，函数 $h(x)=g(x)(m-x_{0})-f(m)$，求证：$h(m)h(x_{0})&#x3C;0$；</p></li><li><p>求证：存在大于 $0$ 的常数 $A$，使得对于任意的正整数 $p$，$q$，且 $\\dfrac{p}{q}\\in[1,x_{0})\\cup(x_{0},2]$，满足 $\\left|\\dfrac{p}{q}-x_{0}\\right|\\ge \\dfrac{1}{Aq^4}$.</p></li></ol>",
+          "body": "<p>设 $a\\in\\mathbb{Z}$. 已知定义在 $\\mathbb{R}$ 上的函数 $f(x)=2x^{4}+3x^{3}-3x^{2}-6x+a$ 在区间 $(1,2)$ 内有一个零点 $x_{0}$，$g(x)$ 为 $f(x)$ 的导函数.</p><ol class=\"enumerate\"><li><p>求 $g(x)$ 的单调区间；</p></li><li><p>设 $m\\in[1,x_{0})\\cup(x_{0},2]$，函数 $h(x)=g(x)(m-x_{0})-f(m)$，求证：$h(m)h(x_{0})<0$；</p></li><li><p>求证：存在大于 $0$ 的常数 $A$，使得对于任意的正整数 $p$，$q$，且 $\\dfrac{p}{q}\\in[1,x_{0})\\cup(x_{0},2]$，满足 $\\left|\\dfrac{p}{q}-x_{0}\\right|\\ge \\dfrac{1}{Aq^4}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $g(x)=f'(x)$，得 $g(x)=8x^{3}+9x^{2}-6x-6$，从而</p><p>$g'(x)=24x^{2}+18x-6=6(4x-1)(x+1)$. 因此 $g'(x)>0$ 在</p><p>$(-\\infty,-1)$ 和 $\\left(\\dfrac{1}{4},+\\infty\\right)$ 上成立，$g'(x)&#x3C;0$ 在</p><p>$\\left(-1,\\dfrac{1}{4}\\right)$ 上成立.所以 $g(x)$ 在</p><p>$(-\\infty,-1)$，$\\left(\\dfrac{1}{4},+\\infty\\right)$ 上单调递增，在</p><p>$\\left(-1,\\dfrac{1}{4}\\right)$ 上单调递减.</p></li><li><p>当 $1\\leq x\\leq2$ 时，$g'(x)>0$，所以 $g$ 在 $[1,2]$ 上严格递增.由 $f(x_{0})=0$ 及拉格朗日中值定理，存在严格介于 $m$ 与 $x_{0}$ 之间的 $\\xi$，使</p><p>$f(m)=g(\\xi)(m-x_{0})$. 于是</p><p>$h(m)=[g(m)-g(\\xi)](m-x_{0})$，</p><p>$h(x_{0})=[g(x_{0})-g(\\xi)](m-x_{0})$.</p><p>若 $m>x_{0}$，则 $x_{0}&#x3C;\\xi&#x3C;m$，所以 $g(x_{0})&#x3C;g(\\xi)&#x3C;g(m)$，从而</p><p>$h(m)>0$，$h(x_{0})&#x3C;0$. 若 $m&#x3C;x_{0}$，则 $m&#x3C;\\xi&#x3C;x_{0}$，所以</p><p>$g(m)&#x3C;g(\\xi)&#x3C;g(x_{0})$，而 $m-x_{0}&#x3C;0$，从而 $h(m)>0$，$h(x_{0})&#x3C;0$. 两种情形均有</p><p>$h(m)h(x_{0})&#x3C;0$.</p></li><li><p>先注意到 $g(1)=5>0$，且 $g$ 在 $[1,2]$ 上递增，所以 $g(x)>0$ 在该区间上成立，进而 $f$ 在 $[1,2]$ 上严格递增.故除了 $x_{0}$ 外，区间 $[1,2]$ 内没有其他零点.</p><p>令 $r=\\dfrac{p}{q}$. 由题设，$r\\in[1,x_{0})\\cup(x_{0},2]$，所以 $r\\neq x_{0}$，从而 $f(r)\\neq0$. 又</p>\n$$\nq^{4}f\\left(\\frac{p}{q}\\right)=2p^{4}+3p^{3}q-3p^{2}q^{2}-6pq^{3}+aq^{4}\n$$\n<p>是非零整数，因此 $\\left|f\\left(\\dfrac{p}{q}\\right)\\right|\\geq\\dfrac1{q^4}$.</p><p>再次由中值定理，存在 $\\eta$ 介于 $r$ 与 $x_{0}$ 之间，使</p><p>$\\left|f(r)\\right|=g(\\eta)|r-x_{0}|$. 因为 $g$ 在 $[1,2]$ 上递增，且</p><p>$g(2)=64+36-12-6=82$，所以</p>\n$$\n\\frac{1}{q^{4}}\\leq\\left|f(r)\\right|\\leq82\\left|r-x_{0}\\right|\n$$\n<p>因此取 $A=82$，便有</p><p>$\\left|\\dfrac{p}{q}-x_{0}\\right|\\geq\\dfrac1{82q^4}$，命题得证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $g(x)=f'(x)$，得 $g(x)=8x^{3}+9x^{2}-6x-6$，从而</p><p>$g'(x)=24x^{2}+18x-6=6(4x-1)(x+1)$. 因此 $g'(x)>0$ 在</p><p>$(-\\infty,-1)$ 和 $\\left(\\dfrac{1}{4},+\\infty\\right)$ 上成立，$g'(x)<0$ 在</p><p>$\\left(-1,\\dfrac{1}{4}\\right)$ 上成立.所以 $g(x)$ 在</p><p>$(-\\infty,-1)$，$\\left(\\dfrac{1}{4},+\\infty\\right)$ 上单调递增，在</p><p>$\\left(-1,\\dfrac{1}{4}\\right)$ 上单调递减.</p></li><li><p>当 $1\\leq x\\leq2$ 时，$g'(x)>0$，所以 $g$ 在 $[1,2]$ 上严格递增.由 $f(x_{0})=0$ 及拉格朗日中值定理，存在严格介于 $m$ 与 $x_{0}$ 之间的 $\\xi$，使</p><p>$f(m)=g(\\xi)(m-x_{0})$. 于是</p><p>$h(m)=[g(m)-g(\\xi)](m-x_{0})$，</p><p>$h(x_{0})=[g(x_{0})-g(\\xi)](m-x_{0})$.</p><p>若 $m>x_{0}$，则 $x_{0}<\\xi<m$，所以 $g(x_{0})<g(\\xi)<g(m)$，从而</p><p>$h(m)>0$，$h(x_{0})<0$. 若 $m<x_{0}$，则 $m<\\xi<x_{0}$，所以</p><p>$g(m)<g(\\xi)<g(x_{0})$，而 $m-x_{0}<0$，从而 $h(m)>0$，$h(x_{0})<0$. 两种情形均有</p><p>$h(m)h(x_{0})<0$.</p></li><li><p>先注意到 $g(1)=5>0$，且 $g$ 在 $[1,2]$ 上递增，所以 $g(x)>0$ 在该区间上成立，进而 $f$ 在 $[1,2]$ 上严格递增.故除了 $x_{0}$ 外，区间 $[1,2]$ 内没有其他零点.</p><p>令 $r=\\dfrac{p}{q}$. 由题设，$r\\in[1,x_{0})\\cup(x_{0},2]$，所以 $r\\neq x_{0}$，从而 $f(r)\\neq0$. 又</p>\n$$\nq^{4}f\\left(\\frac{p}{q}\\right)=2p^{4}+3p^{3}q-3p^{2}q^{2}-6pq^{3}+aq^{4}\n$$\n<p>是非零整数，因此 $\\left|f\\left(\\dfrac{p}{q}\\right)\\right|\\geq\\dfrac1{q^4}$.</p><p>再次由中值定理，存在 $\\eta$ 介于 $r$ 与 $x_{0}$ 之间，使</p><p>$\\left|f(r)\\right|=g(\\eta)|r-x_{0}|$. 因为 $g$ 在 $[1,2]$ 上递增，且</p><p>$g(2)=64+36-12-6=82$，所以</p>\n$$\n\\frac{1}{q^{4}}\\leq\\left|f(r)\\right|\\leq82\\left|r-x_{0}\\right|\n$$\n<p>因此取 $A=82$，便有</p><p>$\\left|\\dfrac{p}{q}-x_{0}\\right|\\geq\\dfrac1{82q^4}$，命题得证.</p></li></ol>"
         }
       ]
     }

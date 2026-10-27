@@ -9,15 +9,15 @@
       "problems": [
         {
           "num": 1,
-          "body": "若集合 $A=\\{x\\mid -2&#x3C;x&#x3C;1\\}$，$B=\\{x\\mid x&#x3C;-1\\text{ 或 }x>3\\}$，则 $A\\cap B=$（ ）",
+          "body": "若集合 $A=\\{x\\mid -2<x<1\\}$，$B=\\{x\\mid x<-1\\text{ 或 }x>3\\}$，则 $A\\cap B=$（ ）",
           "choices": [
-            "$\\{x\\mid -2&#x3C;x&#x3C;-1\\}$",
-            "$\\{x\\mid -2&#x3C;x&#x3C;3\\}$",
-            "$\\{x\\mid -1&#x3C;x&#x3C;1\\}$",
-            "$\\{x\\mid 1&#x3C;x&#x3C;3\\}$"
+            "$\\{x\\mid -2<x<-1\\}$",
+            "$\\{x\\mid -2<x<3\\}$",
+            "$\\{x\\mid -1<x<1\\}$",
+            "$\\{x\\mid 1<x<3\\}$"
           ],
           "answer": "A",
-          "solution": "若 $x\\in A\\cap B$，则 $-2&#x3C;x&#x3C;1$，且 $x&#x3C;-1$ 或 $x>3$.由于 $x&#x3C;1$，不可能有 $x>3$，所以必须满足 $-2&#x3C;x&#x3C;-1$.因此 $A\\cap B=\\{x\\mid -2&#x3C;x&#x3C;-1\\}$，故选 A."
+          "solution": "若 $x\\in A\\cap B$，则 $-2<x<1$，且 $x<-1$ 或 $x>3$.由于 $x<1$，不可能有 $x>3$，所以必须满足 $-2<x<-1$.因此 $A\\cap B=\\{x\\mid -2<x<-1\\}$，故选 A."
         },
         {
           "num": 2,
@@ -29,7 +29,7 @@
             "$(-1,+\\infty)$"
           ],
           "answer": "B",
-          "solution": "$$\n(1-\\mathrm{i})(a+\\mathrm{i})=a+\\mathrm{i}-a\\mathrm{i}-\\mathrm{i}^{2}=(a+1)+(1-a)\\mathrm{i}\n$$\n<p>复数对应的点在第二象限，当且仅当实部小于零、虚部大于零，即 $a+1&#x3C;0$ 且 $1-a>0$.两者合并得 $a&#x3C;-1$，故选 B.</p>"
+          "solution": "$$\n(1-\\mathrm{i})(a+\\mathrm{i})=a+\\mathrm{i}-a\\mathrm{i}-\\mathrm{i}^{2}=(a+1)+(1-a)\\mathrm{i}\n$$\n<p>复数对应的点在第二象限，当且仅当实部小于零、虚部大于零，即 $a+1<0$ 且 $1-a>0$.两者合并得 $a<-1$，故选 B.</p>"
         },
         {
           "num": 3,
@@ -41,7 +41,7 @@
             "$\\dfrac{8}{5}$"
           ],
           "answer": "C",
-          "solution": "<p>程序开始时 $k=0$，$s=1$.每次先计算 $s\\leftarrow\\dfrac{s+1}{s}$，再令 $k\\leftarrow k+1$，然后判断是否继续循环.因此各次循环后的数值为</p><p>当 $k=0$ 时，计算得 $s=\\frac{1+1}{1}=2$，随后 $k=1$；当 $k=1$ 时，计算得 $s=\\frac{2+1}{2}=\\frac{3}{2}$，随后 $k=2$；当 $k=2$ 时，计算得 $s=\\frac{\\frac{3}{2}+1}{\\frac{3}{2}}=\\frac{5}{3}$，随后 $k=3$.</p><p>此时 $k&#x3C;3$ 不成立，输出 $s=\\dfrac{5}{3}$，故选 C.</p>"
+          "solution": "<p>程序开始时 $k=0$，$s=1$.每次先计算 $s\\leftarrow\\dfrac{s+1}{s}$，再令 $k\\leftarrow k+1$，然后判断是否继续循环.因此各次循环后的数值为</p><p>当 $k=0$ 时，计算得 $s=\\frac{1+1}{1}=2$，随后 $k=1$；当 $k=1$ 时，计算得 $s=\\frac{2+1}{2}=\\frac{3}{2}$，随后 $k=2$；当 $k=2$ 时，计算得 $s=\\frac{\\frac{3}{2}+1}{\\frac{3}{2}}=\\frac{5}{3}$，随后 $k=3$.</p><p>此时 $k<3$ 不成立，输出 $s=\\dfrac{5}{3}$，故选 C.</p>"
         },
         {
           "num": 4,
@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "设 $\\mathbf{m}$，$\\mathbf{n}$ 为非零向量，则“存在负数 $\\lambda$，使得 $\\mathbf{m}=\\lambda\\mathbf{n}$”是“$\\mathbf{m}\\cdot \\mathbf{n}&#x3C;0$”的（ ）",
+          "body": "设 $\\mathbf{m}$，$\\mathbf{n}$ 为非零向量，则“存在负数 $\\lambda$，使得 $\\mathbf{m}=\\lambda\\mathbf{n}$”是“$\\mathbf{m}\\cdot \\mathbf{n}<0$”的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -77,7 +77,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>若存在负数 $\\lambda$ 使 $\\mathbf{m}=\\lambda\\mathbf{n}$，则</p>\n$$\n\\mathbf{m}\\cdot\\mathbf{n}=\\lambda\\mathbf{n}\\cdot\\mathbf{n}=\\lambda\\lVert\\mathbf{n}\\rVert^{2}&#x3C;0\n$$\n<p>所以该条件是 $\\mathbf{m}\\cdot\\mathbf{n}&#x3C;0$ 的充分条件.反之，取 $\\mathbf{n}=(1,0)$，$\\mathbf{m}=(-1,1)$，有 $\\mathbf{m}\\cdot\\mathbf{n}=-1&#x3C;0$，但 $\\mathbf{m}$ 不是 $\\mathbf{n}$ 的实数倍，故不是必要条件.因此选 A.</p>"
+          "solution": "<p>若存在负数 $\\lambda$ 使 $\\mathbf{m}=\\lambda\\mathbf{n}$，则</p>\n$$\n\\mathbf{m}\\cdot\\mathbf{n}=\\lambda\\mathbf{n}\\cdot\\mathbf{n}=\\lambda\\lVert\\mathbf{n}\\rVert^{2}<0\n$$\n<p>所以该条件是 $\\mathbf{m}\\cdot\\mathbf{n}<0$ 的充分条件.反之，取 $\\mathbf{n}=(1,0)$，$\\mathbf{m}=(-1,1)$，有 $\\mathbf{m}\\cdot\\mathbf{n}=-1<0$，但 $\\mathbf{m}$ 不是 $\\mathbf{n}$ 的实数倍，故不是必要条件.因此选 A.</p>"
         },
         {
           "num": 7,
@@ -160,7 +160,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，$\\angle A=60^{\\circ}$，$c=\\dfrac{3}{7}a$.</p><ol class=\"enumerate\"><li><p>求 $\\sin C$ 的值；</p></li><li><p>若 $a=7$，求 $\\triangle ABC$ 的面积.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，</p>\n$$\n\\frac{c}{\\sin C}=\\frac{a}{\\sin A}\n$$\n<p>所以</p>\n$$\n\\sin C=\\frac{c}{a}\\sin A=\\frac{3}{7}\\cdot\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{14}\n$$\n</li><li><p>当 $a=7$ 时，$c=3$.由 $c&#x3C;a$ 以及三角形中大边对大角可知 $C&#x3C;A=60^{\\circ}$，所以</p>\n$$\n\\cos C=\\sqrt{1-\\sin^{2}C}=\\sqrt{1-\\frac{27}{196}}=\\frac{13}{14}\n$$\n<p>于是</p>\n$$\n\\begin{aligned}\\sin B&#x26;=\\sin(180^{\\circ}-A-C)=\\sin(A+C)\\\\&#x26;=\\sin A\\cos C+\\cos A\\sin C\\\\&#x26;=\\frac{\\sqrt{3}}{2}\\cdot\\frac{13}{14}+\\frac{1}{2}\\cdot\\frac{3\\sqrt{3}}{14}=\\frac{4\\sqrt{3}}{7}.\\end{aligned}\n$$\n<p>因此</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}ac\\sin B  =\\frac{1}{2}\\cdot7\\cdot3\\cdot\\frac{4\\sqrt{3}}{7}=6\\sqrt{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，</p>\n$$\n\\frac{c}{\\sin C}=\\frac{a}{\\sin A}\n$$\n<p>所以</p>\n$$\n\\sin C=\\frac{c}{a}\\sin A=\\frac{3}{7}\\cdot\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{14}\n$$\n</li><li><p>当 $a=7$ 时，$c=3$.由 $c<a$ 以及三角形中大边对大角可知 $C<A=60^{\\circ}$，所以</p>\n$$\n\\cos C=\\sqrt{1-\\sin^{2}C}=\\sqrt{1-\\frac{27}{196}}=\\frac{13}{14}\n$$\n<p>于是</p>\n$$\n\\begin{aligned}\\sin B&=\\sin(180^{\\circ}-A-C)=\\sin(A+C)\\\\&=\\sin A\\cos C+\\cos A\\sin C\\\\&=\\frac{\\sqrt{3}}{2}\\cdot\\frac{13}{14}+\\frac{1}{2}\\cdot\\frac{3\\sqrt{3}}{14}=\\frac{4\\sqrt{3}}{7}.\\end{aligned}\n$$\n<p>因此</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}ac\\sin B  =\\frac{1}{2}\\cdot7\\cdot3\\cdot\\frac{4\\sqrt{3}}{7}=6\\sqrt{3}\n$$\n</li></ol>"
         },
         {
           "num": 16,
@@ -174,7 +174,7 @@
           "body": "<p>为了研究一种新药的疗效，选 $100$ 名患者随机分成两组，每组各 $50$ 名，一组服药，另一组不服药. 一段时间后，记录了两组患者的生理指标 $x$ 和 $y$ 的数据，并制成下图，其中“$*$”表示服药者，“+”表示未服药者.</p><ol class=\"enumerate\"><li><p>从服药的 $50$ 名患者中随机选出一人，求此人指标 $y$ 的值小于 $60$ 的概率；</p></li><li><p>从图中 $A$，$B$，$C$，$D$ 四人中随机选出两人，记 $\\xi$ 为选出的两人中指标 $x$ 的值大于 $1.7$ 的人数，求 $\\xi$ 的分布列和数学期望 $E(\\xi)$；</p></li><li><p>试判断这 $100$ 名患者中服药者指标 $y$ 数据的方差与未服药者指标 $y$ 数据的方差的大小（只需写出结论）.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由散点图可数得服药者中指标 $y&#x3C;60$ 的患者有 $15$ 名.因此所求概率为</p>\n$$\nP=\\frac{15}{50}=\\frac{3}{10}\n$$\n</li><li><p>由图可知，$A$、$C$ 的指标 $x>1.7$，$B$、$D$ 的指标 $x&#x3C;1.7$.从四人中任选两人的基本事件数为 $\\mathrm{C}_{4}^{2}=6$.所以</p>\n$$\nP(\\xi=0)=\\frac{\\mathrm{C}_{2}^{2}}{\\mathrm{C}_{4}^{2}}=\\frac{1}{6}\n$$\n<p>因为只有选中 $B$，$D$ 时 $\\xi=0$；</p>\n$$\nP(\\xi=2)=\\frac{\\mathrm{C}_{2}^{2}}{\\mathrm{C}_{4}^{2}}=\\frac{1}{6}\n$$\n<p>因为只有选中 $A$，$C$ 时 $\\xi=2$；</p>\n$$\nP(\\xi=1)=\\frac{\\mathrm{C}_{2}^{1}\\mathrm{C}_{2}^{1}}{\\mathrm{C}_{4}^{2}}=\\frac{4}{6}=\\frac{2}{3}\n$$\n<p>因此 $\\xi$ 的分布列为</p><p>$P(\\xi=0)=\\frac{1}{6}$，$P(\\xi=1)=\\frac{2}{3}$，$P(\\xi=2)=\\frac{1}{6}$.</p><p>其数学期望为</p>\n$$\nE(\\xi)=0\\cdot\\frac{1}{6}+1\\cdot\\frac{2}{3}+2\\cdot\\frac{1}{6}=1\n$$\n</li><li><p>从散点图看，服药者的指标 $y$ 在纵轴方向上的分布比未服药者更分散，所以服药者指标 $y$ 数据的方差大于未服药者指标 $y$ 数据的方差.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由散点图可数得服药者中指标 $y<60$ 的患者有 $15$ 名.因此所求概率为</p>\n$$\nP=\\frac{15}{50}=\\frac{3}{10}\n$$\n</li><li><p>由图可知，$A$、$C$ 的指标 $x>1.7$，$B$、$D$ 的指标 $x<1.7$.从四人中任选两人的基本事件数为 $\\mathrm{C}_{4}^{2}=6$.所以</p>\n$$\nP(\\xi=0)=\\frac{\\mathrm{C}_{2}^{2}}{\\mathrm{C}_{4}^{2}}=\\frac{1}{6}\n$$\n<p>因为只有选中 $B$，$D$ 时 $\\xi=0$；</p>\n$$\nP(\\xi=2)=\\frac{\\mathrm{C}_{2}^{2}}{\\mathrm{C}_{4}^{2}}=\\frac{1}{6}\n$$\n<p>因为只有选中 $A$，$C$ 时 $\\xi=2$；</p>\n$$\nP(\\xi=1)=\\frac{\\mathrm{C}_{2}^{1}\\mathrm{C}_{2}^{1}}{\\mathrm{C}_{4}^{2}}=\\frac{4}{6}=\\frac{2}{3}\n$$\n<p>因此 $\\xi$ 的分布列为</p><p>$P(\\xi=0)=\\frac{1}{6}$，$P(\\xi=1)=\\frac{2}{3}$，$P(\\xi=2)=\\frac{1}{6}$.</p><p>其数学期望为</p>\n$$\nE(\\xi)=0\\cdot\\frac{1}{6}+1\\cdot\\frac{2}{3}+2\\cdot\\frac{1}{6}=1\n$$\n</li><li><p>从散点图看，服药者的指标 $y$ 在纵轴方向上的分布比未服药者更分散，所以服药者指标 $y$ 数据的方差大于未服药者指标 $y$ 数据的方差.</p></li></ol>"
         },
         {
           "num": 18,
@@ -195,7 +195,7 @@
           "body": "<p>设 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 是两个等差数列，记 $c_{n}=\\max\\{b_{1}-a_{1}n,b_{2}-a_{2}n,\\dots,b_{n}-a_{n}n\\}$（$n=1$，$2$，$3$，$\\dots$），其中 $\\max\\{x_{1},x_{2},\\dots,x_{s}\\}$ 表示 $x_{1}$，$x_{2}$，$\\dots$，$x_{s}$ 这 $s$ 个数中最大的数.</p><ol class=\"enumerate\"><li><p>若 $a_{n}=n$，$b_{n}=2n-1$，求 $c_{1}$，$c_{2}$，$c_{3}$ 的值，并证明 $\\{c_{n}\\}$ 是等差数列；</p></li><li><p>证明：或者对任意正数 $M$，存在正整数 $m$，当 $n\\ge m$ 时，$\\dfrac{c_n}{n}>M$；或者存在正整数 $m$，使得 $c_{m}$，$c_{m+1}$，$c_{m+2}$，… 是等差数列.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>此时</p>\n$$\nb_{i}-a_{i}n=(2i-1)-in=1-n+(i-1)(2-n)\n$$\n<p>当 $n=1$ 时，$c_{1}=0$；当 $n=2$ 时，所有候选值均为 $-1$，所以 $c_{2}=-1$；当 $n\\ge2$ 时，$2-n\\le0$，候选值随 $i$ 不增，最大值在 $i=1$ 处取得，故 $c_{n}=1-n$.特别地，$c_{3}=-2$.于是</p><p>$c_{1}=0$，$c_{2}=-1$，$c_{3}=-2$，</p><p>且对任意正整数 $n$，都有 $c_{n+1}-c_{n}=-1$，所以 $\\{c_{n}\\}$ 是等差数列.</p></li><li><p>设 $\\{a_{n}\\}$、$\\{b_{n}\\}$ 的公差分别为 $d_{a}$、$d_{b}$.对固定的 $n$，记</p><p>$t_{i,n}=b_{i}-a_{i}n$，（$1\\le i\\le n$）.</p><p>由等差数列通项公式，</p>\n$$\nt_{i,n}=b_{1}-a_{1}n+(i-1)(d_{b}-nd_{a})\n$$\n<p>因此，当 $d_{b}-nd_{a}\\le0$ 时，$c_{n}=t_{1,n}=b_{1}-a_{1}n$；当 $d_{b}-nd_{a}\\ge0$ 时，$c_{n}=t_{n,n}=b_{n}-a_{n}n$.</p><p>若 $d_{a}=0$，则 $d_{b}-nd_{a}=d_{b}$ 与 $n$ 无关.如果 $d_{b}\\le0$，则对所有 $n$，$c_{n}=b_{1}-a_{1}n$；如果 $d_{b}>0$，则对所有 $n$，$c_{n}=b_{n}-a_{1}n$.这两种情形中的 $c_{n}$ 都是关于 $n$ 的一次式，所以取 $m=1$ 即可.</p><p>若 $d_{a}>0$，则存在正整数 $m$，使得当 $n\\ge m$ 时，$d_{b}-nd_{a}\\le0$.此时</p><p>$c_{n}=b_{1}-a_{1}n$，（$n\\ge m$），</p><p>所以 $c_{m}$，$c_{m+1}$，$\\dots$ 是等差数列.</p><p>若 $d_{a}&#x3C;0$，则存在正整数 $m_{0}$，使得当 $n\\ge m_{0}$ 时，$d_{b}-nd_{a}>0$.此时</p>\n$$\n\\begin{aligned}c_{n}&#x26;=b_{n}-a_{n}n\\\\&#x26;=-d_{a}n^{2}+(d_{b}-a_{1}+d_{a})n+b_{1}-d_{b},\\end{aligned}\n$$\n<p>从而</p><p>$\\frac{c_{n}}{n}=An+B+\\frac{C}{n}$，$A=-d_{a}>0$，$B=d_{b}-a_{1}+d_{a}$，$C=b_{1}-d_{b}$.</p><p>现任取正数 $M$.若 $C\\ge0$，取</p>\n$$\nm=\\max\\left\\{m_{0},\\left\\lfloor\\frac{M-B}{A}\\right\\rfloor+1\\right\\};\n$$\n<p>当 $n\\ge m$ 时，$\\frac{C}{n}\\ge0$，且</p>\n$$\n\\frac{c_{n}}{n}\\ge An+B\\ge Am+B>M\n$$\n<p>若 $C&#x3C;0$，取</p>\n$$\nm=\\max\\left\\{m_{0},\\left\\lfloor\\frac{M-B-C}{A}\\right\\rfloor+1\\right\\}\n$$\n<p>当 $n\\ge m$ 时，因 $n\\ge1$ 且 $C&#x3C;0$，有 $\\frac{C}{n}\\ge C$，故</p>\n$$\n\\frac{c_{n}}{n}\\ge An+B+C\\ge Am+B+C>M\n$$\n<p>所以在 $d_{a}&#x3C;0$ 时，第一种结论成立.综上，题述两个结论至少有一个成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>此时</p>\n$$\nb_{i}-a_{i}n=(2i-1)-in=1-n+(i-1)(2-n)\n$$\n<p>当 $n=1$ 时，$c_{1}=0$；当 $n=2$ 时，所有候选值均为 $-1$，所以 $c_{2}=-1$；当 $n\\ge2$ 时，$2-n\\le0$，候选值随 $i$ 不增，最大值在 $i=1$ 处取得，故 $c_{n}=1-n$.特别地，$c_{3}=-2$.于是</p><p>$c_{1}=0$，$c_{2}=-1$，$c_{3}=-2$，</p><p>且对任意正整数 $n$，都有 $c_{n+1}-c_{n}=-1$，所以 $\\{c_{n}\\}$ 是等差数列.</p></li><li><p>设 $\\{a_{n}\\}$、$\\{b_{n}\\}$ 的公差分别为 $d_{a}$、$d_{b}$.对固定的 $n$，记</p><p>$t_{i,n}=b_{i}-a_{i}n$，（$1\\le i\\le n$）.</p><p>由等差数列通项公式，</p>\n$$\nt_{i,n}=b_{1}-a_{1}n+(i-1)(d_{b}-nd_{a})\n$$\n<p>因此，当 $d_{b}-nd_{a}\\le0$ 时，$c_{n}=t_{1,n}=b_{1}-a_{1}n$；当 $d_{b}-nd_{a}\\ge0$ 时，$c_{n}=t_{n,n}=b_{n}-a_{n}n$.</p><p>若 $d_{a}=0$，则 $d_{b}-nd_{a}=d_{b}$ 与 $n$ 无关.如果 $d_{b}\\le0$，则对所有 $n$，$c_{n}=b_{1}-a_{1}n$；如果 $d_{b}>0$，则对所有 $n$，$c_{n}=b_{n}-a_{1}n$.这两种情形中的 $c_{n}$ 都是关于 $n$ 的一次式，所以取 $m=1$ 即可.</p><p>若 $d_{a}>0$，则存在正整数 $m$，使得当 $n\\ge m$ 时，$d_{b}-nd_{a}\\le0$.此时</p><p>$c_{n}=b_{1}-a_{1}n$，（$n\\ge m$），</p><p>所以 $c_{m}$，$c_{m+1}$，$\\dots$ 是等差数列.</p><p>若 $d_{a}<0$，则存在正整数 $m_{0}$，使得当 $n\\ge m_{0}$ 时，$d_{b}-nd_{a}>0$.此时</p>\n$$\n\\begin{aligned}c_{n}&=b_{n}-a_{n}n\\\\&=-d_{a}n^{2}+(d_{b}-a_{1}+d_{a})n+b_{1}-d_{b},\\end{aligned}\n$$\n<p>从而</p><p>$\\frac{c_{n}}{n}=An+B+\\frac{C}{n}$，$A=-d_{a}>0$，$B=d_{b}-a_{1}+d_{a}$，$C=b_{1}-d_{b}$.</p><p>现任取正数 $M$.若 $C\\ge0$，取</p>\n$$\nm=\\max\\left\\{m_{0},\\left\\lfloor\\frac{M-B}{A}\\right\\rfloor+1\\right\\};\n$$\n<p>当 $n\\ge m$ 时，$\\frac{C}{n}\\ge0$，且</p>\n$$\n\\frac{c_{n}}{n}\\ge An+B\\ge Am+B>M\n$$\n<p>若 $C<0$，取</p>\n$$\nm=\\max\\left\\{m_{0},\\left\\lfloor\\frac{M-B-C}{A}\\right\\rfloor+1\\right\\}\n$$\n<p>当 $n\\ge m$ 时，因 $n\\ge1$ 且 $C<0$，有 $\\frac{C}{n}\\ge C$，故</p>\n$$\n\\frac{c_{n}}{n}\\ge An+B+C\\ge Am+B+C>M\n$$\n<p>所以在 $d_{a}<0$ 时，第一种结论成立.综上，题述两个结论至少有一个成立.</p></li></ol>"
         }
       ]
     }

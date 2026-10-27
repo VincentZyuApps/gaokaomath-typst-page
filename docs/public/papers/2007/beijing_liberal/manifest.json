@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知 $\\cos \\theta \\cdot \\tan \\theta &#x3C; 0$，那么角 $\\theta$ 是（ ）",
+          "body": "已知 $\\cos \\theta \\cdot \\tan \\theta < 0$，那么角 $\\theta$ 是（ ）",
           "choices": [
             "第一或第二象限角",
             "第二或第三象限角",
@@ -17,11 +17,11 @@
             "第一或第四象限角"
           ],
           "answer": "C.",
-          "solution": "<p>因为 $\\tan\\theta=\\dfrac{\\sin\\theta}{\\cos\\theta}$，且题设中的式子有意义，所以 $\\cos\\theta\\neq0$. 于是</p><p>$\\cos\\theta\\cdot\\tan\\theta=\\sin\\theta&#x3C;0$，故 $\\theta$ 是第三或第四象限角，选 C.</p>"
+          "solution": "<p>因为 $\\tan\\theta=\\dfrac{\\sin\\theta}{\\cos\\theta}$，且题设中的式子有意义，所以 $\\cos\\theta\\neq0$. 于是</p><p>$\\cos\\theta\\cdot\\tan\\theta=\\sin\\theta<0$，故 $\\theta$ 是第三或第四象限角，选 C.</p>"
         },
         {
           "num": 2,
-          "body": "函数 $f(x) = 3^{x}$（$0 &#x3C; x \\le 2$）的反函数的定义域为（ ）",
+          "body": "函数 $f(x) = 3^{x}$（$0 < x \\le 2$）的反函数的定义域为（ ）",
           "choices": [
             "$(0, +\\infty)$",
             "$(1, 9]$",
@@ -29,7 +29,7 @@
             "$[9, +\\infty)$"
           ],
           "answer": "B.",
-          "solution": "当 $0&#x3C;x\\leqslant2$ 时，$f(x)=3^{x}$ 的值域为 $\\left(3^{0},3^{2}\\right]=(1,9]$. 反函数的定义域等于原函数的值域，所以选 B."
+          "solution": "当 $0<x\\leqslant2$ 时，$f(x)=3^{x}$ 的值域为 $\\left(3^{0},3^{2}\\right]=(1,9]$. 反函数的定义域等于原函数的值域，所以选 B."
         },
         {
           "num": 3,
@@ -53,7 +53,7 @@
             "$\\left[\\frac{\\sqrt{2}}{2}, 1\\right)$"
           ],
           "answer": "D.",
-          "solution": "<p>设椭圆半焦距为 $c$，离心率为 $e=\\dfrac{c}{a}$. 两条准线为 $x=\\pm\\dfrac{a}{e}$，因此</p><p>$|MN|=\\dfrac{2a}{e}$，而 $|F_{1}F_{2}|=2c=2ae$. 由题设</p><p>$\\dfrac{2a}{e}\\leqslant2\\cdot2ae$，得 $e^{2}\\ge\\dfrac{1}{2}$. 又 $0&#x3C;e&#x3C;1$，故 $e\\in\\left[\\dfrac{\\sqrt{2}}{2},1\\right)$，选 D.</p>"
+          "solution": "<p>设椭圆半焦距为 $c$，离心率为 $e=\\dfrac{c}{a}$. 两条准线为 $x=\\pm\\dfrac{a}{e}$，因此</p><p>$|MN|=\\dfrac{2a}{e}$，而 $|F_{1}F_{2}|=2c=2ae$. 由题设</p><p>$\\dfrac{2a}{e}\\leqslant2\\cdot2ae$，得 $e^{2}\\ge\\dfrac{1}{2}$. 又 $0<e<1$，故 $e\\in\\left[\\dfrac{\\sqrt{2}}{2},1\\right)$，选 D.</p>"
         },
         {
           "num": 5,
@@ -69,15 +69,15 @@
         },
         {
           "num": 6,
-          "body": "若不等式组 $\\begin{cases}x-y+5&#x26;\\geqslant0,\\\\\n\ny&#x26;\\ge a,\\\\\n\n0&#x26;\\le x\\leqslant2\\end{cases}$ 表示的平面区域是一个三角形，则 $a$ 的取值范围是（ ）",
+          "body": "若不等式组 $\\begin{cases}x-y+5&\\geqslant0,\\\\\n\ny&\\ge a,\\\\\n\n0&\\le x\\leqslant2\\end{cases}$ 表示的平面区域是一个三角形，则 $a$ 的取值范围是（ ）",
           "choices": [
-            "$a &#x3C; 5$",
+            "$a < 5$",
             "$a \\ge 7$",
-            "$5 \\le a &#x3C; 7$",
-            "$a &#x3C; 5$ 或 $a \\ge 7$"
+            "$5 \\le a < 7$",
+            "$a < 5$ 或 $a \\ge 7$"
           ],
           "answer": "C.",
-          "solution": "不等式组等价于 $0\\le x\\leqslant2$，且 $a\\le y\\le x+5$. 当 $a&#x3C;5$ 时，直线 $y=a$ 与两条边界 $x=0$，$x=2$ 都相交，区域为四边形；当 $a=5$ 时，左侧交点退化为 $(0,5)$，区域为三角形；当 $5&#x3C;a&#x3C;7$ 时，直线 $y=a$ 与 $y=x+5$ 交于 $(a-5,a)$，并与 $x=2$ 相交，区域仍为三角形；当 $a\\geqslant7$ 时，区域至多退化为一点或为空集. 因此 $5\\le a&#x3C;7$，选 C."
+          "solution": "不等式组等价于 $0\\le x\\leqslant2$，且 $a\\le y\\le x+5$. 当 $a<5$ 时，直线 $y=a$ 与两条边界 $x=0$，$x=2$ 都相交，区域为四边形；当 $a=5$ 时，左侧交点退化为 $(0,5)$，区域为三角形；当 $5<a<7$ 时，直线 $y=a$ 与 $y=x+5$ 交于 $(a-5,a)$，并与 $x=2$ 相交，区域仍为三角形；当 $a\\geqslant7$ 时，区域至多退化为一点或为空集. 因此 $5\\le a<7$，选 C."
         },
         {
           "num": 7,
@@ -134,7 +134,7 @@
           "body": "在 $\\triangle ABC$ 中，若 $\\tan A = \\frac{1}{3}$，$C = 150^{\\circ}$，$BC = 1$，则 $AB =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$\\frac{\\sqrt{10}}{2}$.",
-          "solution": "<p>因为 $A+B+C=180^{\\circ}$ 且 $C=150^{\\circ}$，所以 $0&#x3C;A&#x3C;30^{\\circ}$，从而 $A$ 为锐角. 由 $\\tan A=\\dfrac{1}{3}$，得 $\\sin A=\\dfrac{1}{\\sqrt{10}}$. 根据正弦定理，</p><p>$\\dfrac{AB}{\\sin C}=\\dfrac{BC}{\\sin A}$，故</p><p>$AB=\\dfrac{\\sin150^{\\circ}}{\\sin A}=\\dfrac{\\frac{1}{2}}{\\frac{1}{\\sqrt{10}}}=\\dfrac{\\sqrt{10}}2$.</p>"
+          "solution": "<p>因为 $A+B+C=180^{\\circ}$ 且 $C=150^{\\circ}$，所以 $0<A<30^{\\circ}$，从而 $A$ 为锐角. 由 $\\tan A=\\dfrac{1}{3}$，得 $\\sin A=\\dfrac{1}{\\sqrt{10}}$. 根据正弦定理，</p><p>$\\dfrac{AB}{\\sin C}=\\dfrac{BC}{\\sin A}$，故</p><p>$AB=\\dfrac{\\sin150^{\\circ}}{\\sin A}=\\dfrac{\\frac{1}{2}}{\\frac{1}{\\sqrt{10}}}=\\dfrac{\\sqrt{10}}2$.</p>"
         },
         {
           "num": 13,
@@ -157,10 +157,10 @@
       "problems": [
         {
           "num": 15,
-          "body": "<p>记关于 $x$ 的不等式 $\\frac{x - a}{x + 1}&#x3C; 0$ 的解集为 $P$，不等式 $|x - 1| \\le 1$ 的解集为 $Q$.</p><ol class=\"enumerate\"><li><p>若 $a = 3$，求 $P$.</p></li><li><p>若 $Q \\subseteq P$，求正数 $a$ 的取值范围.</p></li></ol>",
+          "body": "<p>记关于 $x$ 的不等式 $\\frac{x - a}{x + 1}< 0$ 的解集为 $P$，不等式 $|x - 1| \\le 1$ 的解集为 $Q$.</p><ol class=\"enumerate\"><li><p>若 $a = 3$，求 $P$.</p></li><li><p>若 $Q \\subseteq P$，求正数 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=3$ 时，分式的分子、分母分别在 $x=3$，$x=-1$ 处变号. 由于分式小于零时分子、分母异号，且 $x=-1$ 不在定义域内，所以 $P=\\left(-1,3\\right)$.</p></li><li><p>由 $|x-1|\\leqslant1$，得 $Q=[0,2]$. 因为 $a>0$，不等式 $\\dfrac{x-a}{x+1}&#x3C;0$ 的解集为 $P=\\left(-1,a\\right)$. 要使 $[0,2]\\subset\\left(-1,a\\right)$，只需且必须有 $a>2$. 因此正数 $a$ 的取值范围为 $(2,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=3$ 时，分式的分子、分母分别在 $x=3$，$x=-1$ 处变号. 由于分式小于零时分子、分母异号，且 $x=-1$ 不在定义域内，所以 $P=\\left(-1,3\\right)$.</p></li><li><p>由 $|x-1|\\leqslant1$，得 $Q=[0,2]$. 因为 $a>0$，不等式 $\\dfrac{x-a}{x+1}<0$ 的解集为 $P=\\left(-1,a\\right)$. 要使 $[0,2]\\subset\\left(-1,a\\right)$，只需且必须有 $a>2$. 因此正数 $a$ 的取值范围为 $(2,+\\infty)$.</p></li></ol>"
         },
         {
           "num": 16,
@@ -192,10 +192,10 @@
         },
         {
           "num": 20,
-          "body": "<p>已知函数 $y = kx$ 与 $y = x^{2} + 2$（$x \\ge 0$）的图象相交于 $A(x_{1}, y_{1})$，$B(x_{2}, y_{2})$. $l_{1}$，$l_{2}$ 分别是 $y = x^{2} + 2$（$x \\ge 0$）的图象在 $A$，$B$ 两点的切线，$M$，$N$ 分别是 $l_{1}$，$l_{2}$ 与 $x$ 轴的交点.</p><ol class=\"enumerate\"><li><p>求 $k$ 的取值范围.</p></li><li><p>设 $t$ 为点 $M$ 的横坐标，当 $x_{1}&#x3C; x_{2}$ 时，写出 $t$ 以 $x_{1}$ 为自变量的函数式，并求其定义域和值域.</p></li><li><p>试比较 $|OM|$ 与 $|ON|$ 的大小，并说明理由（$O$ 是坐标原点）.</p></li></ol>",
+          "body": "<p>已知函数 $y = kx$ 与 $y = x^{2} + 2$（$x \\ge 0$）的图象相交于 $A(x_{1}, y_{1})$，$B(x_{2}, y_{2})$. $l_{1}$，$l_{2}$ 分别是 $y = x^{2} + 2$（$x \\ge 0$）的图象在 $A$，$B$ 两点的切线，$M$，$N$ 分别是 $l_{1}$，$l_{2}$ 与 $x$ 轴的交点.</p><ol class=\"enumerate\"><li><p>求 $k$ 的取值范围.</p></li><li><p>设 $t$ 为点 $M$ 的横坐标，当 $x_{1}< x_{2}$ 时，写出 $t$ 以 $x_{1}$ 为自变量的函数式，并求其定义域和值域.</p></li><li><p>试比较 $|OM|$ 与 $|ON|$ 的大小，并说明理由（$O$ 是坐标原点）.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>联立两图象的方程，得 $x^{2}-kx+2=0$. 由于交点 $A$，$B$ 对应两个不同的正根，需有 $k^{2}-8>0$，且两根之和 $k>0$. 因而 $k>2\\sqrt{2}$.</p></li><li><p>抛物线 $y=x^{2}+2$ 在横坐标为 $x_{1}$ 处的切线为 $y=2x_{1}x-x_{1}^{2}+2$. 令 $y=0$，得点 $M$ 的横坐标 $t=\\dfrac{x_1^2-2}{2x_1}=\\dfrac{x_1}{2}-\\dfrac1{x_1}$. 交点横坐标满足 $x_{1}x_{2}=2$，且 $x_{1}&#x3C;x_{2}$，所以 $0&#x3C;x_{1}&#x3C;\\sqrt{2}$. 函数 $t(x_{1})$ 的导数为 $\\dfrac{1}{2}+\\dfrac1{x_1^2}>0$，故定义域为 $(0,\\sqrt{2})$，值域为 $(-\\infty,0)$.</p></li><li><p>同理，点 $N$ 的横坐标为 $\\dfrac{x_2}{2}-\\dfrac1{x_2}$. 由 $x_{1}x_{2}=2$，有 $\\dfrac{x_2}{2}-\\dfrac1{x_2}=\\dfrac1{x_1}-\\dfrac{x_1}{2}=-\\left(\\dfrac{x_1}{2}-\\dfrac1{x_1}\\right)=-t$. 因此 $|OM|=|t|=|ON|$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>联立两图象的方程，得 $x^{2}-kx+2=0$. 由于交点 $A$，$B$ 对应两个不同的正根，需有 $k^{2}-8>0$，且两根之和 $k>0$. 因而 $k>2\\sqrt{2}$.</p></li><li><p>抛物线 $y=x^{2}+2$ 在横坐标为 $x_{1}$ 处的切线为 $y=2x_{1}x-x_{1}^{2}+2$. 令 $y=0$，得点 $M$ 的横坐标 $t=\\dfrac{x_1^2-2}{2x_1}=\\dfrac{x_1}{2}-\\dfrac1{x_1}$. 交点横坐标满足 $x_{1}x_{2}=2$，且 $x_{1}<x_{2}$，所以 $0<x_{1}<\\sqrt{2}$. 函数 $t(x_{1})$ 的导数为 $\\dfrac{1}{2}+\\dfrac1{x_1^2}>0$，故定义域为 $(0,\\sqrt{2})$，值域为 $(-\\infty,0)$.</p></li><li><p>同理，点 $N$ 的横坐标为 $\\dfrac{x_2}{2}-\\dfrac1{x_2}$. 由 $x_{1}x_{2}=2$，有 $\\dfrac{x_2}{2}-\\dfrac1{x_2}=\\dfrac1{x_1}-\\dfrac{x_1}{2}=-\\left(\\dfrac{x_1}{2}-\\dfrac1{x_1}\\right)=-t$. 因此 $|OM|=|t|=|ON|$.</p></li></ol>"
         }
       ]
     }

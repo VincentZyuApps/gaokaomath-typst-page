@@ -29,7 +29,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/beijing_liberal_spring/q2_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "<p>由对数真数的条件，函数的定义域为 $x>0$. 在此定义域内，按 $\\log_{2}x$ 的正负分段，得</p>\n$$\ny=|\\log_{2}x|=\\begin{cases}-\\log_{2}x,&#x26;0&#x3C;x&#x3C;1,\\\\  \\log_{2}x,&#x26;x\\geq 1.\\end{cases}\n$$\n<p>当 $0&#x3C;x&#x3C;1$ 时，$\\log_{2}x&#x3C;0$，所以图象是 $y=\\log_{2}x$ 在 $x$ 轴下方部分关于 $x$ 轴的对称图象；当 $x\\geq1$ 时，图象就是 $y=\\log_{2}x$. 因而图象经过 $(1,0)$，在该点取得最小值，左支单调递减，右支单调递增，故选 A.</p>"
+          "solution": "<p>由对数真数的条件，函数的定义域为 $x>0$. 在此定义域内，按 $\\log_{2}x$ 的正负分段，得</p>\n$$\ny=|\\log_{2}x|=\\begin{cases}-\\log_{2}x,&0<x<1,\\\\  \\log_{2}x,&x\\geq 1.\\end{cases}\n$$\n<p>当 $0<x<1$ 时，$\\log_{2}x<0$，所以图象是 $y=\\log_{2}x$ 在 $x$ 轴下方部分关于 $x$ 轴的对称图象；当 $x\\geq1$ 时，图象就是 $y=\\log_{2}x$. 因而图象经过 $(1,0)$，在该点取得最小值，左支单调递减，右支单调递增，故选 A.</p>"
         },
         {
           "num": 3,
@@ -45,7 +45,7 @@
         },
         {
           "num": 4,
-          "body": "如果函数 $f(x)=\\sin(\\pi x+\\theta)$（$0&#x3C;\\theta&#x3C;2\\pi$）的最小正周期是 $T$，且当 $x=2$ 时取得最大值，那么（$ $）",
+          "body": "如果函数 $f(x)=\\sin(\\pi x+\\theta)$（$0<\\theta<2\\pi$）的最小正周期是 $T$，且当 $x=2$ 时取得最大值，那么（$ $）",
           "choices": [
             "$T=2$，$\\theta=\\dfrac{\\pi}{2}$",
             "$T=1$，$\\theta=\\pi$",
@@ -53,7 +53,7 @@
             "$T=1$，$\\theta=\\dfrac{\\pi}{2}$"
           ],
           "answer": "A",
-          "solution": "<p>对于函数 $\\sin(\\omega x+\\theta)$，最小正周期为 $\\dfrac{2\\pi}{|\\omega|}$. 这里 $\\omega=\\pi$，所以 $T=2$. 当 $x=2$ 时取得最大值，必须有</p>\n$$\n\\sin(2\\pi+\\theta)=\\sin\\theta=1\n$$\n<p>因此 $\\theta=\\dfrac{\\pi}{2}+2k\\pi$. 结合 $0&#x3C;\\theta&#x3C;2\\pi$，只能取 $\\theta=\\dfrac{\\pi}{2}$，故选 A.</p>"
+          "solution": "<p>对于函数 $\\sin(\\omega x+\\theta)$，最小正周期为 $\\dfrac{2\\pi}{|\\omega|}$. 这里 $\\omega=\\pi$，所以 $T=2$. 当 $x=2$ 时取得最大值，必须有</p>\n$$\n\\sin(2\\pi+\\theta)=\\sin\\theta=1\n$$\n<p>因此 $\\theta=\\dfrac{\\pi}{2}+2k\\pi$. 结合 $0<\\theta<2\\pi$，只能取 $\\theta=\\dfrac{\\pi}{2}$，故选 A.</p>"
         },
         {
           "num": 5,
@@ -89,11 +89,11 @@
             "正三角形"
           ],
           "answer": "B",
-          "solution": "<p>由三角形内角和，$C=\\pi-A-B$，于是</p>\n$$\n\\sin C=\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B\n$$\n<p>代入题设 $2\\sin A\\cos B=\\sin C$，得 $\\sin A\\cos B=\\cos A\\sin B$，即</p>\n$$\n\\sin A\\cos B-\\cos A\\sin B=\\sin(A-B)=0\n$$\n<p>因为 $0&#x3C;A&#x3C;\\pi$，$0&#x3C;B&#x3C;\\pi$，所以 $-\\pi&#x3C;A-B&#x3C;\\pi$，在此范围内 $\\sin(A-B)=0$ 只能推出 $A-B=0$，即 $A=B$. 因而 $A$，$B$ 所对的边 $BC$，$CA$ 相等，三角形为等腰三角形，故选 B.</p>"
+          "solution": "<p>由三角形内角和，$C=\\pi-A-B$，于是</p>\n$$\n\\sin C=\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B\n$$\n<p>代入题设 $2\\sin A\\cos B=\\sin C$，得 $\\sin A\\cos B=\\cos A\\sin B$，即</p>\n$$\n\\sin A\\cos B-\\cos A\\sin B=\\sin(A-B)=0\n$$\n<p>因为 $0<A<\\pi$，$0<B<\\pi$，所以 $-\\pi<A-B<\\pi$，在此范围内 $\\sin(A-B)=0$ 只能推出 $A-B=0$，即 $A=B$. 因而 $A$，$B$ 所对的边 $BC$，$CA$ 相等，三角形为等腰三角形，故选 B.</p>"
         },
         {
           "num": 8,
-          "body": "若不等式 $(-1)^{n}a&#x3C;2+\\dfrac{(-1)^{n+1}}{n}$ 对于任意正整数 $n$ 恒成立，则实数 $a$ 的取值范围是（$ $）",
+          "body": "若不等式 $(-1)^{n}a<2+\\dfrac{(-1)^{n+1}}{n}$ 对于任意正整数 $n$ 恒成立，则实数 $a$ 的取值范围是（$ $）",
           "choices": [
             "$\\left[-2,\\dfrac{3}{2}\\right)$",
             "$\\left(-2,\\dfrac{3}{2}\\right)$",
@@ -101,7 +101,7 @@
             "$\\left(-3,\\dfrac{3}{2}\\right)$"
           ],
           "answer": "A",
-          "solution": "<p>当 $n=2m$ 为偶数时，$(-1)^{n}=1$，$(-1)^{n+1}=-1$，所以不等式化为</p>\n$$\na&#x3C;2-\\frac{1}{2m}\n$$\n<p>对所有正整数 $m$，右端的最小值在 $m=1$ 时为 $\\dfrac{3}{2}$，故偶数情形等价于 $a&#x3C;\\dfrac{3}{2}$.</p><p>当 $n=2m-1$ 为奇数时，$(-1)^{n}=-1$，$(-1)^{n+1}=1$，所以</p>\n$$\n-a&#x3C;2+\\frac{1}{2m-1}\n$$\n<p>即 $a>-2-\\dfrac{1}{2m-1}$. 若 $a\\geq-2$，这个不等式对所有 $m$ 都成立. 若 $a&#x3C;-2$，令 $\\varepsilon=-a-2>0$，取正整数 $m$ 使 $2m-1>\\dfrac1\\varepsilon$，则 $\\dfrac1{2m-1}&#x3C;\\varepsilon$，从而</p>\n$$\n-2-\\frac{1}{2m-1}>-2-\\varepsilon=a\n$$\n<p>这与所需的 $a>-2-\\dfrac1{2m-1}$ 矛盾. 因此奇数情形等价于 $a\\geq-2$.</p><p>综上，$a$ 的取值范围为 $\\left[-2,\\dfrac{3}{2}\\right)$，故选 A.</p>"
+          "solution": "<p>当 $n=2m$ 为偶数时，$(-1)^{n}=1$，$(-1)^{n+1}=-1$，所以不等式化为</p>\n$$\na<2-\\frac{1}{2m}\n$$\n<p>对所有正整数 $m$，右端的最小值在 $m=1$ 时为 $\\dfrac{3}{2}$，故偶数情形等价于 $a<\\dfrac{3}{2}$.</p><p>当 $n=2m-1$ 为奇数时，$(-1)^{n}=-1$，$(-1)^{n+1}=1$，所以</p>\n$$\n-a<2+\\frac{1}{2m-1}\n$$\n<p>即 $a>-2-\\dfrac{1}{2m-1}$. 若 $a\\geq-2$，这个不等式对所有 $m$ 都成立. 若 $a<-2$，令 $\\varepsilon=-a-2>0$，取正整数 $m$ 使 $2m-1>\\dfrac1\\varepsilon$，则 $\\dfrac1{2m-1}<\\varepsilon$，从而</p>\n$$\n-2-\\frac{1}{2m-1}>-2-\\varepsilon=a\n$$\n<p>这与所需的 $a>-2-\\dfrac1{2m-1}$ 矛盾. 因此奇数情形等价于 $a\\geq-2$.</p><p>综上，$a$ 的取值范围为 $\\left[-2,\\dfrac{3}{2}\\right)$，故选 A.</p>"
         }
       ]
     },
@@ -148,7 +148,7 @@
           "body": "若关于 $x$ 的不等式 $x^{2}-ax-a>0$ 的解集为 $(-\\infty,+\\infty)$，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(-4,0)$",
-          "solution": "<p>令 $h(x)=x^{2}-ax-a$. 这是开口向上的二次函数. 要使不等式的解集为全体实数，必须使 $h(x)$ 对任意实数都严格为正；若判别式等于零，函数会在重根处取零，因此必须且只需</p>\n$$\n\\Delta=(-a)^{2}-4\\cdot1\\cdot(-a)=a^{2}+4a&#x3C;0\n$$\n<p>解不等式得 $a(a+4)&#x3C;0$，所以 $-4&#x3C;a&#x3C;0$. 因此实数 $a$ 的取值范围为 $(-4,0)$.</p>"
+          "solution": "<p>令 $h(x)=x^{2}-ax-a$. 这是开口向上的二次函数. 要使不等式的解集为全体实数，必须使 $h(x)$ 对任意实数都严格为正；若判别式等于零，函数会在重根处取零，因此必须且只需</p>\n$$\n\\Delta=(-a)^{2}-4\\cdot1\\cdot(-a)=a^{2}+4a<0\n$$\n<p>解不等式得 $a(a+4)<0$，所以 $-4<a<0$. 因此实数 $a$ 的取值范围为 $(-4,0)$.</p>"
         }
       ]
     },
@@ -167,7 +167,7 @@
           "body": "<p>如图，正三棱锥 $S-ABC$ 中，底面边长是 $3$，棱锥的侧面积等于底面积的 $2$ 倍，$M$ 是 $BC$ 的中点. 求：</p><ol class=\"enumerate\"><li><p>$\\dfrac{AM}{SM}$ 的值；</p></li><li><p>二面角 $S-BC-A$ 的大小；</p></li><li><p>正三棱锥 $S-ABC$ 的体积.</p></li></ol><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal_spring/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设顶点 $S$ 在底面上的射影为正三角形中心 $O$. 底面是边长为 $3$ 的正三角形，面积为 $\\dfrac{9\\sqrt{3}}{4}$. 侧面积是底面积的两倍，且三个侧面全等，所以每个侧面的面积为</p>\n$$\n\\frac{1}{3}\\cdot2\\cdot\\frac{9\\sqrt{3}}{4}=\\frac{3\\sqrt{3}}{2}\n$$\n<ol class=\"enumerate\"><li><p>在正三角形 $ABC$ 中，中线 $AM$ 也是高，所以 $AM=\\dfrac{3\\sqrt{3}}{2}$. 侧面 $SBC$ 是等腰三角形，且 $M$ 是 $BC$ 的中点，因此 $SM\\perp BC$，$SM$ 是该侧面的高. 由侧面面积得</p>\n$$\n\\frac{1}{2}\\cdot BC\\cdot SM=\\frac{1}{2}\\cdot3\\cdot SM=\\frac{3\\sqrt{3}}{2}\n$$\n<p>从而 $SM=\\sqrt{3}$. 因此</p>\n$$\n\\frac{AM}{SM}=\\frac{3\\frac{\\sqrt{3}}{2}}{\\sqrt{3}}=\\frac{3}{2}\n$$\n</li><li><p>正三角形的重心、外心、内心重合，所以 $A$，$O$，$M$ 共线，且重心把中线按顶点到中点的方向分成 $2:1$. 因此</p><p>$OM=\\frac{1}{3}AM=\\frac{\\sqrt{3}}{2}$，$AO=\\frac{2}{3}AM=\\sqrt{3}$.</p><p>由于 $SO\\perp$ 底面，$SO\\perp OM$，在直角三角形 $SOM$ 中</p>\n$$\nSO=\\sqrt{SM^{2}-OM^{2}}=\\sqrt{3-\\frac{3}{4}}=\\frac{3}{2}\n$$\n<p>又因为 $SO\\perp AO$，在直角三角形 $SOA$ 中</p>\n$$\nAS^{2}=SO^{2}+AO^{2}=\\frac{9}{4}+3=\\frac{21}{4}\n$$\n<p>二面角 $S-BC-A$ 的平面角是直线 $SM$ 与 $AM$ 的夹角. 在三角形 $SAM$ 中，设该角为 $\\varphi$，则</p>\n$$\n\\cos\\varphi=\\frac{SM^{2}+AM^{2}-AS^{2}}{2\\cdot SM\\cdot AM}=\\frac{3+\\frac{27}{4}-\\frac{21}{4}}{2\\cdot\\sqrt{3}\\cdot\\frac{3\\sqrt{3}}{2}}=\\frac{1}{2}\n$$\n<p>因为 $0^{\\circ}&#x3C;\\varphi&#x3C;180^{\\circ}$，所以 $\\varphi=60^{\\circ}$. 这里 $SM$ 和 $AM$ 都垂直于棱 $BC$，故它们的夹角就是二面角 $S-BC-A$ 的平面角.</p></li><li><p>正三棱锥的高为 $SO=\\dfrac{3}{2}$，所以体积为</p>\n$$\nV=\\frac{1}{3}\\cdot\\frac{9\\sqrt{3}}{4}\\cdot SO=\\frac{1}{3}\\cdot\\frac{9\\sqrt{3}}{4}\\cdot\\frac{3}{2}=\\frac{9\\sqrt{3}}{8}\n$$\n</li></ol>"
+          "solution": "<p>设顶点 $S$ 在底面上的射影为正三角形中心 $O$. 底面是边长为 $3$ 的正三角形，面积为 $\\dfrac{9\\sqrt{3}}{4}$. 侧面积是底面积的两倍，且三个侧面全等，所以每个侧面的面积为</p>\n$$\n\\frac{1}{3}\\cdot2\\cdot\\frac{9\\sqrt{3}}{4}=\\frac{3\\sqrt{3}}{2}\n$$\n<ol class=\"enumerate\"><li><p>在正三角形 $ABC$ 中，中线 $AM$ 也是高，所以 $AM=\\dfrac{3\\sqrt{3}}{2}$. 侧面 $SBC$ 是等腰三角形，且 $M$ 是 $BC$ 的中点，因此 $SM\\perp BC$，$SM$ 是该侧面的高. 由侧面面积得</p>\n$$\n\\frac{1}{2}\\cdot BC\\cdot SM=\\frac{1}{2}\\cdot3\\cdot SM=\\frac{3\\sqrt{3}}{2}\n$$\n<p>从而 $SM=\\sqrt{3}$. 因此</p>\n$$\n\\frac{AM}{SM}=\\frac{3\\frac{\\sqrt{3}}{2}}{\\sqrt{3}}=\\frac{3}{2}\n$$\n</li><li><p>正三角形的重心、外心、内心重合，所以 $A$，$O$，$M$ 共线，且重心把中线按顶点到中点的方向分成 $2:1$. 因此</p><p>$OM=\\frac{1}{3}AM=\\frac{\\sqrt{3}}{2}$，$AO=\\frac{2}{3}AM=\\sqrt{3}$.</p><p>由于 $SO\\perp$ 底面，$SO\\perp OM$，在直角三角形 $SOM$ 中</p>\n$$\nSO=\\sqrt{SM^{2}-OM^{2}}=\\sqrt{3-\\frac{3}{4}}=\\frac{3}{2}\n$$\n<p>又因为 $SO\\perp AO$，在直角三角形 $SOA$ 中</p>\n$$\nAS^{2}=SO^{2}+AO^{2}=\\frac{9}{4}+3=\\frac{21}{4}\n$$\n<p>二面角 $S-BC-A$ 的平面角是直线 $SM$ 与 $AM$ 的夹角. 在三角形 $SAM$ 中，设该角为 $\\varphi$，则</p>\n$$\n\\cos\\varphi=\\frac{SM^{2}+AM^{2}-AS^{2}}{2\\cdot SM\\cdot AM}=\\frac{3+\\frac{27}{4}-\\frac{21}{4}}{2\\cdot\\sqrt{3}\\cdot\\frac{3\\sqrt{3}}{2}}=\\frac{1}{2}\n$$\n<p>因为 $0^{\\circ}<\\varphi<180^{\\circ}$，所以 $\\varphi=60^{\\circ}$. 这里 $SM$ 和 $AM$ 都垂直于棱 $BC$，故它们的夹角就是二面角 $S-BC-A$ 的平面角.</p></li><li><p>正三棱锥的高为 $SO=\\dfrac{3}{2}$，所以体积为</p>\n$$\nV=\\frac{1}{3}\\cdot\\frac{9\\sqrt{3}}{4}\\cdot SO=\\frac{1}{3}\\cdot\\frac{9\\sqrt{3}}{4}\\cdot\\frac{3}{2}=\\frac{9\\sqrt{3}}{8}\n$$\n</li></ol>"
         },
         {
           "num": 17,
@@ -188,14 +188,14 @@
           "body": "<p>经过长期观测得到：在交通繁忙的时段内，某公路段汽车的车流量 $y$（$\\text{千辆/小时}$）与汽车的平均速度 $v$（$\\text{千米/小时}$）之间的函数关系为：</p><p>$y=\\dfrac{920v}{v^2+3v+1600}$（$v>0$）.</p><ol class=\"enumerate\"><li><p>在该时段内，当汽车的平均速度 $v$ 为多少时，车流量最大？最大车流量为多少？（精确到 $0.1\\text{ 千辆/小时}$）</p></li><li><p>若要求在该时段内车流量超过 $10\\text{ 千辆/小时}$，则汽车的平均速度应在什么范围内？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $v>0$，有</p>\n$$\nv+\\frac{1600}{v}\\geq2\\sqrt{1600}=80\n$$\n<p>于是</p>\n$$\nv^{2}+3v+1600=v\\left(v+3+\\frac{1600}{v}\\right)\\geq83v\n$$\n<p>分母为正，所以</p>\n$$\ny=\\frac{920v}{v^{2}+3v+1600}\\leq\\frac{920}{83}\n$$\n<p>基本不等式取等号当且仅当 $v=\\dfrac{1600}{v}$. 结合 $v>0$，得 $v=40$. 因此平均速度为 $40\\text{ 千米/小时}$ 时车流量最大，最大车流量为</p>\n$$\n\\frac{920}{83}\\approx11.1\\text{ 千辆/小时}\n$$\n</li><li><p>因为分母为正，车流量超过 $10\\text{ 千辆/小时}$ 等价于</p>\n$$\n\\frac{920v}{v^{2}+3v+1600}>10\n$$\n<p>即</p>\n$$\n920v>10v^{2}+30v+16000\n$$\n<p>整理并除以正数 $10$，得</p>\n$$\nv^{2}-89v+1600&#x3C;0\n$$\n<p>由于</p>\n$$\nv^{2}-89v+1600=(v-25)(v-64)\n$$\n<p>抛物线开口向上，故不等式的解为 $25&#x3C;v&#x3C;64$. 这已经满足题设 $v>0$，所以所求速度范围为 $(25,64)\\text{ 千米/小时}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $v>0$，有</p>\n$$\nv+\\frac{1600}{v}\\geq2\\sqrt{1600}=80\n$$\n<p>于是</p>\n$$\nv^{2}+3v+1600=v\\left(v+3+\\frac{1600}{v}\\right)\\geq83v\n$$\n<p>分母为正，所以</p>\n$$\ny=\\frac{920v}{v^{2}+3v+1600}\\leq\\frac{920}{83}\n$$\n<p>基本不等式取等号当且仅当 $v=\\dfrac{1600}{v}$. 结合 $v>0$，得 $v=40$. 因此平均速度为 $40\\text{ 千米/小时}$ 时车流量最大，最大车流量为</p>\n$$\n\\frac{920}{83}\\approx11.1\\text{ 千辆/小时}\n$$\n</li><li><p>因为分母为正，车流量超过 $10\\text{ 千辆/小时}$ 等价于</p>\n$$\n\\frac{920v}{v^{2}+3v+1600}>10\n$$\n<p>即</p>\n$$\n920v>10v^{2}+30v+16000\n$$\n<p>整理并除以正数 $10$，得</p>\n$$\nv^{2}-89v+1600<0\n$$\n<p>由于</p>\n$$\nv^{2}-89v+1600=(v-25)(v-64)\n$$\n<p>抛物线开口向上，故不等式的解为 $25<v<64$. 这已经满足题设 $v>0$，所以所求速度范围为 $(25,64)\\text{ 千米/小时}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "<p>现有一组互不相同且从小到大排列的数据：$a_{0}$，$a_{1}$，$a_{2}$，$a_{3}$，$a_{4}$，$a_{5}$，其中 $a_{0}=0$. 为提取反映数据间差异程度的某种指标，今对其进行如下加工：记 $T=a_{0}+a_{1}+\\cdots+a_{5}$，$x_{n}=\\dfrac{n}{5}$，$y_{n}=\\dfrac{1}{T}(a_{0}+a_{1}+\\cdots+a_{n})$，作函数 $y=f(x)$，使其图象为逐点依次连接点 $P_{n}(x_{n},y_{n})$（$n=0$，$1$，$2$，$\\cdots$，$5$）的折线.</p><ol class=\"enumerate\"><li><p>求 $f(0)$ 和 $f(1)$ 的值；</p></li><li><p>设 $P_{n-1}P_{n}$ 的斜率为 $k_{n}$（$n=1$，$2$，$3$，$4$，$5$），判断 $k_{1}$，$k_{2}$，$k_{3}$，$k_{4}$，$k_{5}$ 的大小关系；</p></li><li><p>证明：$f(x_{n})&#x3C;x_{n}$（$n=1$，$2$，$3$，$4$）.</p></li></ol>",
+          "body": "<p>现有一组互不相同且从小到大排列的数据：$a_{0}$，$a_{1}$，$a_{2}$，$a_{3}$，$a_{4}$，$a_{5}$，其中 $a_{0}=0$. 为提取反映数据间差异程度的某种指标，今对其进行如下加工：记 $T=a_{0}+a_{1}+\\cdots+a_{5}$，$x_{n}=\\dfrac{n}{5}$，$y_{n}=\\dfrac{1}{T}(a_{0}+a_{1}+\\cdots+a_{n})$，作函数 $y=f(x)$，使其图象为逐点依次连接点 $P_{n}(x_{n},y_{n})$（$n=0$，$1$，$2$，$\\cdots$，$5$）的折线.</p><ol class=\"enumerate\"><li><p>求 $f(0)$ 和 $f(1)$ 的值；</p></li><li><p>设 $P_{n-1}P_{n}$ 的斜率为 $k_{n}$（$n=1$，$2$，$3$，$4$，$5$），判断 $k_{1}$，$k_{2}$，$k_{3}$，$k_{4}$，$k_{5}$ 的大小关系；</p></li><li><p>证明：$f(x_{n})<x_{n}$（$n=1$，$2$，$3$，$4$）.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由题设 $0=a_{0}&#x3C;a_{1}&#x3C;a_{2}&#x3C;a_{3}&#x3C;a_{4}&#x3C;a_{5}$，所以各项均为正，且 $T>0$. 记</p>\n$$\nR_{n}=a_{0}+a_{1}+\\cdots+a_{n}\n$$\n<p>则 $y_{n}=\\dfrac{R_n}{T}$，并且折线在节点处满足 $f(x_{n})=y_{n}$.</p><ol class=\"enumerate\"><li><p>因为 $x_{0}=0$，且 $R_{0}=a_{0}=0$，所以 $P_{0}=(0,0)$，从而 $f(0)=0$. 又因为 $x_{5}=1$，且 $R_{5}=T$，所以 $P_{5}=(1,1)$，从而 $f(1)=1$.</p></li><li><p>相邻两点的横坐标之差为 $x_{n}-x_{n-1}=\\dfrac{1}{5}$，纵坐标之差为 $y_{n}-y_{n-1}=\\dfrac{R_n-R_{n-1}}{T}=\\dfrac{a_n}{T}$. 因此</p>\n$$\nk_{n}=\\frac{y_{n}-y_{n-1}}{x_{n}-x_{n-1}}=\\frac{\\frac{a_{n}}{T}}{\\frac{1}{5}}=\\frac{5a_{n}}{T}\n$$\n<p>因为 $T>0$，且 $a_{1}&#x3C;a_{2}&#x3C;a_{3}&#x3C;a_{4}&#x3C;a_{5}$，所以</p>\n$$\nk_{1}&#x3C;k_{2}&#x3C;k_{3}&#x3C;k_{4}&#x3C;k_{5}\n$$\n</li><li><p>对 $n=1$，$2$，$3$，$4$，由 $a_{n+1}$，$\\ldots$，$a_{5}$ 中每一项都大于 $a_{n}$，有</p>\n$$\nT-R_{n}=a_{n+1}+\\cdots+a_{5}>(5-n)a_{n}\n$$\n<p>另一方面，$a_{0}=0$，且 $a_{1}$，$\\ldots$，$a_{n}$ 均不大于 $a_{n}$，所以 $R_{n}\\leq na_{n}$. 因此</p>\n$$\nnT-5R_{n}=n(T-R_{n})-(5-n)R_{n}>n(5-n)a_{n}-(5-n)R_{n}\\geq0\n$$\n<p>所以 $nT>5R_{n}$. 再由 $f(x_{n})=y_{n}=\\dfrac{R_n}{T}$ 及 $x_{n}=\\dfrac{n}{5}$，得到</p>\n$$\nf(x_{n})=\\frac{R_{n}}{T}&#x3C;\\frac{n}{5}=x_{n}\n$$\n</li></ol>"
+          "solution": "<p>由题设 $0=a_{0}<a_{1}<a_{2}<a_{3}<a_{4}<a_{5}$，所以各项均为正，且 $T>0$. 记</p>\n$$\nR_{n}=a_{0}+a_{1}+\\cdots+a_{n}\n$$\n<p>则 $y_{n}=\\dfrac{R_n}{T}$，并且折线在节点处满足 $f(x_{n})=y_{n}$.</p><ol class=\"enumerate\"><li><p>因为 $x_{0}=0$，且 $R_{0}=a_{0}=0$，所以 $P_{0}=(0,0)$，从而 $f(0)=0$. 又因为 $x_{5}=1$，且 $R_{5}=T$，所以 $P_{5}=(1,1)$，从而 $f(1)=1$.</p></li><li><p>相邻两点的横坐标之差为 $x_{n}-x_{n-1}=\\dfrac{1}{5}$，纵坐标之差为 $y_{n}-y_{n-1}=\\dfrac{R_n-R_{n-1}}{T}=\\dfrac{a_n}{T}$. 因此</p>\n$$\nk_{n}=\\frac{y_{n}-y_{n-1}}{x_{n}-x_{n-1}}=\\frac{\\frac{a_{n}}{T}}{\\frac{1}{5}}=\\frac{5a_{n}}{T}\n$$\n<p>因为 $T>0$，且 $a_{1}<a_{2}<a_{3}<a_{4}<a_{5}$，所以</p>\n$$\nk_{1}<k_{2}<k_{3}<k_{4}<k_{5}\n$$\n</li><li><p>对 $n=1$，$2$，$3$，$4$，由 $a_{n+1}$，$\\ldots$，$a_{5}$ 中每一项都大于 $a_{n}$，有</p>\n$$\nT-R_{n}=a_{n+1}+\\cdots+a_{5}>(5-n)a_{n}\n$$\n<p>另一方面，$a_{0}=0$，且 $a_{1}$，$\\ldots$，$a_{n}$ 均不大于 $a_{n}$，所以 $R_{n}\\leq na_{n}$. 因此</p>\n$$\nnT-5R_{n}=n(T-R_{n})-(5-n)R_{n}>n(5-n)a_{n}-(5-n)R_{n}\\geq0\n$$\n<p>所以 $nT>5R_{n}$. 再由 $f(x_{n})=y_{n}=\\dfrac{R_n}{T}$ 及 $x_{n}=\\dfrac{n}{5}$，得到</p>\n$$\nf(x_{n})=\\frac{R_{n}}{T}<\\frac{n}{5}=x_{n}\n$$\n</li></ol>"
         }
       ]
     }

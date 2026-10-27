@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "若 $\\alpha \\in \\mathbb{R}$，则“$\\alpha = 0$”是“$\\sin \\alpha &#x3C; \\cos \\alpha$”的（ ）",
+          "body": "若 $\\alpha \\in \\mathbb{R}$，则“$\\alpha = 0$”是“$\\sin \\alpha < \\cos \\alpha$”的（ ）",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -41,7 +41,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "当 $\\alpha=0$ 时，$\\sin\\alpha=0&#x3C;1=\\cos\\alpha$，所以“$\\alpha=0$”是“$\\sin\\alpha&#x3C;\\cos\\alpha$”的充分条件. 又例如 $\\alpha=-\\frac{\\pi}{4}$ 时，$\\sin\\alpha&#x3C;\\cos\\alpha$，但 $\\alpha\\ne0$，所以不是必要条件，故选 A."
+          "solution": "当 $\\alpha=0$ 时，$\\sin\\alpha=0<1=\\cos\\alpha$，所以“$\\alpha=0$”是“$\\sin\\alpha<\\cos\\alpha$”的充分条件. 又例如 $\\alpha=-\\frac{\\pi}{4}$ 时，$\\sin\\alpha<\\cos\\alpha$，但 $\\alpha\\ne0$，所以不是必要条件，故选 A."
         },
         {
           "num": 4,
@@ -84,12 +84,12 @@
           "body": "已知 $a$，$b$，$c \\in \\mathbb{R}$，函数 $f(x) = ax^{2} + bx + c$，若 $f(0) = f(4) > f(1)$，则（ ）",
           "choices": [
             "$a > 0$，$4a + b = 0$",
-            "$a &#x3C; 0$，$4a + b = 0$",
+            "$a < 0$，$4a + b = 0$",
             "$a > 0$，$2a + b = 0$",
-            "$a &#x3C; 0$，$2a + b = 0$"
+            "$a < 0$，$2a + b = 0$"
           ],
           "answer": "A",
-          "solution": "<p>由 $f(0)=f(4)$ 得</p>\n$$\nc=16a+4b+c\n$$\n<p>所以 $4a+b=0$. 又由 $f(0)>f(1)$ 得</p>\n$$\nc>a+b+c\n$$\n<p>即 $a+b&#x3C;0$. 代入 $b=-4a$，得 $-3a&#x3C;0$，所以 $a>0$，故选 A.</p>"
+          "solution": "<p>由 $f(0)=f(4)$ 得</p>\n$$\nc=16a+4b+c\n$$\n<p>所以 $4a+b=0$. 又由 $f(0)>f(1)$ 得</p>\n$$\nc>a+b+c\n$$\n<p>即 $a+b<0$. 代入 $b=-4a$，得 $-3a<0$，所以 $a>0$，故选 A.</p>"
         },
         {
           "num": 8,
@@ -113,11 +113,11 @@
             "$\\frac{\\sqrt{6}}{2}$"
           ],
           "answer": "D",
-          "solution": "<p>椭圆 $C_{1}$ 的长半轴为 $2$，半焦距为</p><p>$c=\\sqrt{2^{2}-1^{2}}=\\sqrt{3}$，故 $|F_{1}F_{2}|=2c=2\\sqrt{3}$. 令</p><p>$x=|AF_{1}|$，$y=|AF_{2}|$. 由椭圆定义，</p>\n$$\nx+y=4\n$$\n<p>又因四边形 $AF_{1}BF_{2}$ 为矩形，$\\angle F_{1}AF_{2}=90^{\\circ}$，在直角三角形 $AF_{1}F_{2}$ 中</p>\n$$\nx^{2}+y^{2}=|F_{1}F_{2}|^{2}=12\n$$\n<p>因为点 $A$ 在第二象限，设其横坐标为 $x_{A}&#x3C;0$，则</p>\n$$\n|AF_{2}|^{2}-|AF_{1}|^{2}=(x_{A}-\\sqrt{3})^{2}-(x_{A}+\\sqrt{3})^{2}=-4\\sqrt{3}x_{A}>0\n$$\n<p>所以 $AF_{1}&#x3C;AF_{2}$，从而 $x=2-\\sqrt{2}$、$y=2+\\sqrt{2}$. 双曲线 $C_{2}$ 的焦点为 $F_{1}$，$F_{2}$，且点 $A$ 在左支上，所以</p><p>$2a=y-x=2\\sqrt{2}$，$2c=2\\sqrt{3}$.</p><p>因此其离心率为</p>\n$$\ne=\\frac{c}{a}=\\frac{\\sqrt{3}}{\\sqrt{2}}=\\frac{\\sqrt{6}}{2}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>椭圆 $C_{1}$ 的长半轴为 $2$，半焦距为</p><p>$c=\\sqrt{2^{2}-1^{2}}=\\sqrt{3}$，故 $|F_{1}F_{2}|=2c=2\\sqrt{3}$. 令</p><p>$x=|AF_{1}|$，$y=|AF_{2}|$. 由椭圆定义，</p>\n$$\nx+y=4\n$$\n<p>又因四边形 $AF_{1}BF_{2}$ 为矩形，$\\angle F_{1}AF_{2}=90^{\\circ}$，在直角三角形 $AF_{1}F_{2}$ 中</p>\n$$\nx^{2}+y^{2}=|F_{1}F_{2}|^{2}=12\n$$\n<p>因为点 $A$ 在第二象限，设其横坐标为 $x_{A}<0$，则</p>\n$$\n|AF_{2}|^{2}-|AF_{1}|^{2}=(x_{A}-\\sqrt{3})^{2}-(x_{A}+\\sqrt{3})^{2}=-4\\sqrt{3}x_{A}>0\n$$\n<p>所以 $AF_{1}<AF_{2}$，从而 $x=2-\\sqrt{2}$、$y=2+\\sqrt{2}$. 双曲线 $C_{2}$ 的焦点为 $F_{1}$，$F_{2}$，且点 $A$ 在左支上，所以</p><p>$2a=y-x=2\\sqrt{2}$，$2c=2\\sqrt{3}$.</p><p>因此其离心率为</p>\n$$\ne=\\frac{c}{a}=\\frac{\\sqrt{3}}{\\sqrt{2}}=\\frac{\\sqrt{6}}{2}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 10,
-          "body": "<p>设 $a$，$b \\in \\mathbb{R}$，定义运算“$\\wedge$”和“$\\vee$”如下：</p><p>$a \\wedge b = \\begin{cases}a, &#x26; a \\le b,\\\\\n\nb, &#x26; a > b,\\end{cases}$</p><p>$a \\vee b = \\begin{cases}b, &#x26; a \\le b,\\\\\n\na, &#x26; a > b.\\end{cases}$ 若正数 $a$，$b$，$c$，$d$ 满足 $ab \\ge 4$，$c + d \\le 4$，则（ ）</p>",
+          "body": "<p>设 $a$，$b \\in \\mathbb{R}$，定义运算“$\\wedge$”和“$\\vee$”如下：</p><p>$a \\wedge b = \\begin{cases}a, & a \\le b,\\\\\n\nb, & a > b,\\end{cases}$</p><p>$a \\vee b = \\begin{cases}b, & a \\le b,\\\\\n\na, & a > b.\\end{cases}$ 若正数 $a$，$b$，$c$，$d$ 满足 $ab \\ge 4$，$c + d \\le 4$，则（ ）</p>",
           "choices": [
             "$a \\wedge b \\ge 2$，$c \\wedge d \\le 2$",
             "$a \\wedge b \\ge 2$，$c \\vee d \\ge 2$",
@@ -125,7 +125,7 @@
             "$a \\vee b \\ge 2$，$c \\vee d \\ge 2$"
           ],
           "answer": "C",
-          "solution": "由定义，$a\\wedge b=\\min\\{a,b\\}$，$a\\vee b=\\max\\{a,b\\}$. 若 $a\\vee b&#x3C;2$，则 $a&#x3C;2$、$b&#x3C;2$，从而 $ab&#x3C;4$，与 $ab\\geqslant4$ 矛盾，所以 $a\\vee b\\geqslant2$. 若 $c\\wedge d>2$，则 $c>2$、$d>2$，从而 $c+d>4$，与 $c+d\\leqslant4$ 矛盾，所以 $c\\wedge d\\leqslant2$. 因而选项 C 的两个不等式恒成立. 选项 A、B 均可由 $a=1$、$b=4$、$c=d=1$ 否定，因为此时 $ab=4$、$c+d=2$，但 $a\\wedge b=1&#x3C;2$；选项 D 可由 $a=b=2$、$c=d=1$ 否定，因为此时 $c\\vee d=1&#x3C;2$. 故选 C."
+          "solution": "由定义，$a\\wedge b=\\min\\{a,b\\}$，$a\\vee b=\\max\\{a,b\\}$. 若 $a\\vee b<2$，则 $a<2$、$b<2$，从而 $ab<4$，与 $ab\\geqslant4$ 矛盾，所以 $a\\vee b\\geqslant2$. 若 $c\\wedge d>2$，则 $c>2$、$d>2$，从而 $c+d>4$，与 $c+d\\leqslant4$ 矛盾，所以 $c\\wedge d\\leqslant2$. 因而选项 C 的两个不等式恒成立. 选项 A、B 均可由 $a=1$、$b=4$、$c=d=1$ 否定，因为此时 $ab=4$、$c+d=2$，但 $a\\wedge b=1<2$；选项 D 可由 $a=b=2$、$c=d=1$ 否定，因为此时 $c\\vee d=1<2$. 故选 C."
         }
       ]
     },
@@ -172,7 +172,7 @@
           "body": "设 $a$，$b \\in \\mathbb{R}$，若 $x \\ge 0$ 时恒有 $0 \\le x^{4} - x^{3} + ax + b \\le (x^{2} - 1)^{2}$，则 $ab =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-1$",
-          "solution": "<p>令 $P(x)=x^{4}-x^{3}+ax+b$. 取 $x=1$，由</p><p>$0\\le P(1)\\le(1-1)^{2}=0$，得</p>\n$$\na+b=0\n$$\n<p>于是 $b=-a$，并且</p>\n$$\nP(x)=x^{4}-x^{3}+a(x-1)=(x-1)(x^{3}+a)\n$$\n<p>当 $0\\le x&#x3C;1$ 时，$x-1&#x3C;0$，为使 $P(x)\\geqslant0$，必须有 $x^{3}+a\\leqslant0$；令 $x\\to1^{-}$ 得 $a+1\\leqslant0$. 当 $x>1$ 时，必须有 $x^{3}+a\\geqslant0$；令 $x\\to1^{+}$ 得 $a+1\\geqslant0$. 所以 $a=-1$，$b=1$. 此时</p><p>$P(x)=(x-1)^{2}(x^{2}+x+1)$，$(x^{2}-1)^{2}-P(x)=x(x-1)^{2}$</p><p>对所有 $x\\geqslant0$，有 $x^{2}+x+1>0$、$x(x-1)^{2}\\geqslant0$，所以确实满足题设不等式，故 $ab=-1$.</p>"
+          "solution": "<p>令 $P(x)=x^{4}-x^{3}+ax+b$. 取 $x=1$，由</p><p>$0\\le P(1)\\le(1-1)^{2}=0$，得</p>\n$$\na+b=0\n$$\n<p>于是 $b=-a$，并且</p>\n$$\nP(x)=x^{4}-x^{3}+a(x-1)=(x-1)(x^{3}+a)\n$$\n<p>当 $0\\le x<1$ 时，$x-1<0$，为使 $P(x)\\geqslant0$，必须有 $x^{3}+a\\leqslant0$；令 $x\\to1^{-}$ 得 $a+1\\leqslant0$. 当 $x>1$ 时，必须有 $x^{3}+a\\geqslant0$；令 $x\\to1^{+}$ 得 $a+1\\geqslant0$. 所以 $a=-1$，$b=1$. 此时</p><p>$P(x)=(x-1)^{2}(x^{2}+x+1)$，$(x^{2}-1)^{2}-P(x)=x(x-1)^{2}$</p><p>对所有 $x\\geqslant0$，有 $x^{2}+x+1>0$、$x(x-1)^{2}\\geqslant0$，所以确实满足题设不等式，故 $ab=-1$.</p>"
         },
         {
           "num": 17,
@@ -195,10 +195,10 @@
         },
         {
           "num": 19,
-          "body": "<p>在公差为 $d$ 的等差数列 $\\{a_{n}\\}$ 中，已知 $a_{1} = 10$，且 $a_{1}$，$2a_{2} + 2$，$5a_{3}$ 成等比数列.</p><ol class=\"enumerate\"><li><p>求 $d$，$a_{n}$；</p></li><li><p>若 $d &#x3C; 0$，求 $\\left|a_{1}\\right| + \\left|a_{2}\\right| + \\left|a_{3}\\right| + \\cdots + \\left|a_{n}\\right|$.</p></li></ol>",
+          "body": "<p>在公差为 $d$ 的等差数列 $\\{a_{n}\\}$ 中，已知 $a_{1} = 10$，且 $a_{1}$，$2a_{2} + 2$，$5a_{3}$ 成等比数列.</p><ol class=\"enumerate\"><li><p>求 $d$，$a_{n}$；</p></li><li><p>若 $d < 0$，求 $\\left|a_{1}\\right| + \\left|a_{2}\\right| + \\left|a_{3}\\right| + \\cdots + \\left|a_{n}\\right|$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>等差数列的通项为 $a_{n}=10+(n-1)d$，故 $a_{2}=10+d$，$a_{3}=10+2d$. 由三项成等比数列，</p>\n$$\n(2a_{2}+2)^{2}=a_{1}\\cdot5a_{3}\n$$\n<p>即</p>\n$$\n(22+2d)^{2}=10(50+10d)\n$$\n<p>整理得 $d^{2}-3d-4=0$，所以 $d=-1$ 或 $d=4$. 相应地</p><p>$a_{n}=10+(n-1)(-1)=11-n$，$a_{n}=10+(n-1)4=4n+6$.</p></li><li><p>因为 $d&#x3C;0$，只能取 $d=-1$，此时 $a_{n}=11-n$. 设 $n\\in\\Z_{>0}$. 当 $n\\leqslant11$ 时，前 $n$ 项均非负，故</p>\n$$\n\\sum_{k=1}^{n}|a_{k}|=\\sum_{k=1}^{n}(11-k)=\\frac{21n-n^{2}}{2}\n$$\n<p>当 $n\\geqslant12$ 时，前 11 项的绝对值和为 $10+9+\\cdots+0=55$，且</p>\n$$\n\\sum_{k=12}^{n}|a_{k}|=\\sum_{k=12}^{n}(k-11)=\\frac{(n-11)(n-10)}{2}\n$$\n<p>所以前 $n$ 项的绝对值和等于 $55+\\frac{(n-11)(n-10)}{2}$.</p><p>所以</p>\n$$\n\\sum_{k=1}^{n}|a_{k}|=  \\begin{cases}-\\frac{1}{2}n^{2}+\\frac{21}{2}n,&#x26;n\\leqslant11,\\\\  \\frac{1}{2}n^{2}-\\frac{21}{2}n+110,&#x26;n\\geqslant12.\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>等差数列的通项为 $a_{n}=10+(n-1)d$，故 $a_{2}=10+d$，$a_{3}=10+2d$. 由三项成等比数列，</p>\n$$\n(2a_{2}+2)^{2}=a_{1}\\cdot5a_{3}\n$$\n<p>即</p>\n$$\n(22+2d)^{2}=10(50+10d)\n$$\n<p>整理得 $d^{2}-3d-4=0$，所以 $d=-1$ 或 $d=4$. 相应地</p><p>$a_{n}=10+(n-1)(-1)=11-n$，$a_{n}=10+(n-1)4=4n+6$.</p></li><li><p>因为 $d<0$，只能取 $d=-1$，此时 $a_{n}=11-n$. 设 $n\\in\\Z_{>0}$. 当 $n\\leqslant11$ 时，前 $n$ 项均非负，故</p>\n$$\n\\sum_{k=1}^{n}|a_{k}|=\\sum_{k=1}^{n}(11-k)=\\frac{21n-n^{2}}{2}\n$$\n<p>当 $n\\geqslant12$ 时，前 11 项的绝对值和为 $10+9+\\cdots+0=55$，且</p>\n$$\n\\sum_{k=12}^{n}|a_{k}|=\\sum_{k=12}^{n}(k-11)=\\frac{(n-11)(n-10)}{2}\n$$\n<p>所以前 $n$ 项的绝对值和等于 $55+\\frac{(n-11)(n-10)}{2}$.</p><p>所以</p>\n$$\n\\sum_{k=1}^{n}|a_{k}|=  \\begin{cases}-\\frac{1}{2}n^{2}+\\frac{21}{2}n,&n\\leqslant11,\\\\  \\frac{1}{2}n^{2}-\\frac{21}{2}n+110,&n\\geqslant12.\\end{cases}\n$$\n</li></ol>"
         },
         {
           "num": 20,
@@ -212,7 +212,7 @@
           "body": "<p>已知 $a \\in \\mathbb{R}$，函数 $f(x) = 2x^{3} - 3(a + 1)x^{2} + 6ax$.</p><ol class=\"enumerate\"><li><p>若 $a = 1$，求曲线 $y = f(x)$ 在点 $(2, f(2))$ 处的切线方程；</p></li><li><p>若 $|a| > 1$，求 $f(x)$ 在闭区间 $[0, 2|a|]$ 上的最小值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，$f(x)=2x^{3}-6x^{2}+6x$，故</p><p>$f(2)=4$，$f'(x)=6x^{2}-12x+6$，$f'(2)=6$.</p><p>所以切线方程为</p>\n$$\ny-4=6(x-2)\n$$\n<p>即 $y=6x-8$.</p></li><li><p>对任意 $a$，</p>\n$$\nf'(x)=6x^{2}-6(a+1)x+6a=6(x-1)(x-a)\n$$\n<p>若 $a&#x3C;-1$，区间为 $[0,-2a]$，其中只有临界点 $x=1$. 函数在 $[0,1]$ 上递减、在 $[1,-2a]$ 上递增，故最小值为</p>\n$$\nf(1)=2-3(a+1)+6a=3a-1\n$$\n<p>若 $a>1$，区间为 $[0,2a]$，临界点为 $x=1$，$a$. 函数在 $[0,1]$ 上递增、在 $[1,a]$ 上递减、在 $[a,2a]$ 上递增. 计算端点和极小点的函数值：</p><p>$f(0)=0$，$f(a)=a^{2}(3-a)$，$f(2a)=4a^{3}>0$.</p><p>因此只需比较 $0$ 与 $a^{2}(3-a)$：当 $1&#x3C;a\\leqslant3$ 时最小值为 $0$；当 $a>3$ 时最小值为 $a^{2}(3-a)$. 综上，最小值为</p>\n$$\n\\begin{cases}3a-1,&#x26;a&#x3C;-1,\\\\  0,&#x26;1&#x3C;a\\leqslant3,\\\\  a^{2}(3-a),&#x26;a>3.\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，$f(x)=2x^{3}-6x^{2}+6x$，故</p><p>$f(2)=4$，$f'(x)=6x^{2}-12x+6$，$f'(2)=6$.</p><p>所以切线方程为</p>\n$$\ny-4=6(x-2)\n$$\n<p>即 $y=6x-8$.</p></li><li><p>对任意 $a$，</p>\n$$\nf'(x)=6x^{2}-6(a+1)x+6a=6(x-1)(x-a)\n$$\n<p>若 $a<-1$，区间为 $[0,-2a]$，其中只有临界点 $x=1$. 函数在 $[0,1]$ 上递减、在 $[1,-2a]$ 上递增，故最小值为</p>\n$$\nf(1)=2-3(a+1)+6a=3a-1\n$$\n<p>若 $a>1$，区间为 $[0,2a]$，临界点为 $x=1$，$a$. 函数在 $[0,1]$ 上递增、在 $[1,a]$ 上递减、在 $[a,2a]$ 上递增. 计算端点和极小点的函数值：</p><p>$f(0)=0$，$f(a)=a^{2}(3-a)$，$f(2a)=4a^{3}>0$.</p><p>因此只需比较 $0$ 与 $a^{2}(3-a)$：当 $1<a\\leqslant3$ 时最小值为 $0$；当 $a>3$ 时最小值为 $a^{2}(3-a)$. 综上，最小值为</p>\n$$\n\\begin{cases}3a-1,&a<-1,\\\\  0,&1<a\\leqslant3,\\\\  a^{2}(3-a),&a>3.\\end{cases}\n$$\n</li></ol>"
         },
         {
           "num": 22,

@@ -59,13 +59,13 @@
           "num": 5,
           "body": "不等式 $\\frac{x^{2} - x - 6}{x - 1}> 0$ 的解集为（ ）",
           "choices": [
-            "$\\{x\\mid x &#x3C; -2 \\text{或}x > 3\\}$",
-            "$\\{x\\mid x &#x3C; -2 \\text{或}1 &#x3C; x &#x3C; 3\\}$",
-            "$\\{x\\mid -2 &#x3C; x &#x3C; 1 \\text{或}x > 3\\}$",
-            "$\\{x\\mid -2 &#x3C; x &#x3C; 1 \\text{或}1 &#x3C; x &#x3C; 3\\}$"
+            "$\\{x\\mid x < -2 \\text{或}x > 3\\}$",
+            "$\\{x\\mid x < -2 \\text{或}1 < x < 3\\}$",
+            "$\\{x\\mid -2 < x < 1 \\text{或}x > 3\\}$",
+            "$\\{x\\mid -2 < x < 1 \\text{或}1 < x < 3\\}$"
           ],
           "answer": "C",
-          "solution": "<p>将分子因式分解，得</p>\n$$\n\\frac{x^{2}-x-6}{x-1}=\\frac{(x+2)(x-3)}{x-1}\n$$\n<p>临界点为 $-2$，$1$，$3$，其中 $x=1$ 不在定义域内. 在区间</p><p>$(-\\infty,-2)$，$(-2,1)$，$(1,3)$，$(3,+\\infty)$</p><p>上分别判断三个因式的符号，原式的符号依次为负、正、负、正. 因为要求原式大于 $0$，且 $-2$，$3$ 也不能取，所以解集为</p>\n$$\n\\{x\\mid -2&#x3C;x&#x3C;1\\text{或}x>3\\}\n$$\n<p>所以选 C.</p>"
+          "solution": "<p>将分子因式分解，得</p>\n$$\n\\frac{x^{2}-x-6}{x-1}=\\frac{(x+2)(x-3)}{x-1}\n$$\n<p>临界点为 $-2$，$1$，$3$，其中 $x=1$ 不在定义域内. 在区间</p><p>$(-\\infty,-2)$，$(-2,1)$，$(1,3)$，$(3,+\\infty)$</p><p>上分别判断三个因式的符号，原式的符号依次为负、正、负、正. 因为要求原式大于 $0$，且 $-2$，$3$ 也不能取，所以解集为</p>\n$$\n\\{x\\mid -2<x<1\\text{或}x>3\\}\n$$\n<p>所以选 C.</p>"
         },
         {
           "num": 6,
@@ -113,7 +113,7 @@
             "$3$"
           ],
           "answer": "C",
-          "solution": "<p>设正方形底面的边长为 $s$，棱锥的高为 $h$，底面中心为 $O$. 因为</p><p>$OA=\\frac{s}{\\sqrt{2}}$，$SA^{2}=h^{2}+OA^{2}=12$，</p><p>所以</p>\n$$\ns^{2}=2(12-h^{2})\n$$\n<p>棱锥体积为</p>\n$$\nV=\\frac{1}{3}s^{2}h=\\frac{2}{3}(12-h^{2})h\n$$\n<p>令 $u=h^{2}$，则 $0&#x3C;u&#x3C;12$，且</p><p>$V=\\frac{2}{3}(12-u)\\sqrt{u}$，$V'(u)=\\frac{4-u}{\\sqrt{u}}$.</p><p>因此 $V$ 在 $0&#x3C;u&#x3C;4$ 时递增，在 $4&#x3C;u&#x3C;12$ 时递减，体积最大时 $u=4$，从而 $h=2$. 所以选 C.</p>"
+          "solution": "<p>设正方形底面的边长为 $s$，棱锥的高为 $h$，底面中心为 $O$. 因为</p><p>$OA=\\frac{s}{\\sqrt{2}}$，$SA^{2}=h^{2}+OA^{2}=12$，</p><p>所以</p>\n$$\ns^{2}=2(12-h^{2})\n$$\n<p>棱锥体积为</p>\n$$\nV=\\frac{1}{3}s^{2}h=\\frac{2}{3}(12-h^{2})h\n$$\n<p>令 $u=h^{2}$，则 $0<u<12$，且</p><p>$V=\\frac{2}{3}(12-u)\\sqrt{u}$，$V'(u)=\\frac{4-u}{\\sqrt{u}}$.</p><p>因此 $V$ 在 $0<u<4$ 时递增，在 $4<u<12$ 时递减，体积最大时 $u=4$，从而 $h=2$. 所以选 C.</p>"
         },
         {
           "num": 10,
@@ -161,7 +161,7 @@
           "body": "已知 $\\alpha$ 是第二象限的角，$\\tan\\left(\\pi + 2\\alpha\\right) = -\\frac{4}{3}$，则 $\\tan\\alpha =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-\\frac{1}{2}$",
-          "solution": "<p>由正切函数的周期性，</p>\n$$\n\\tan(\\pi+2\\alpha)=\\tan2\\alpha=-\\frac{4}{3}\n$$\n<p>令 $t=\\tan\\alpha$，则</p>\n$$\n\\frac{2t}{1-t^{2}}=-\\frac{4}{3}\n$$\n<p>因为题目中的正切有定义，所以 $t^{2}\\ne1$，交叉相乘得</p><p>$6t=-4(1-t^{2})$，$2t^{2}-3t-2=0$，</p><p>即</p>\n$$\n(2t+1)(t-2)=0\n$$\n<p>所以 $t=-\\frac{1}{2}$ 或 $t=2$. 由于 $\\alpha$ 是第二象限的角，$\\tan\\alpha&#x3C;0$，故 $\\tan\\alpha=-\\frac{1}{2}$.</p>"
+          "solution": "<p>由正切函数的周期性，</p>\n$$\n\\tan(\\pi+2\\alpha)=\\tan2\\alpha=-\\frac{4}{3}\n$$\n<p>令 $t=\\tan\\alpha$，则</p>\n$$\n\\frac{2t}{1-t^{2}}=-\\frac{4}{3}\n$$\n<p>因为题目中的正切有定义，所以 $t^{2}\\ne1$，交叉相乘得</p><p>$6t=-4(1-t^{2})$，$2t^{2}-3t-2=0$，</p><p>即</p>\n$$\n(2t+1)(t-2)=0\n$$\n<p>所以 $t=-\\frac{1}{2}$ 或 $t=2$. 由于 $\\alpha$ 是第二象限的角，$\\tan\\alpha<0$，故 $\\tan\\alpha=-\\frac{1}{2}$.</p>"
         },
         {
           "num": 14,
@@ -194,7 +194,7 @@
           "body": "$\\triangle ABC$ 中，$D$ 为边 $BC$ 上的一点，$BD = 33$，$\\sin B = \\frac{5}{13}$，$\\cos \\angle ADC = \\frac{3}{5}$，求 $AD$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $\\angle ADC=\\theta$，则 $\\cos\\theta=\\frac{3}{5}$，且 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$，所以 $\\sin\\theta=\\frac{4}{5}$. 由于 $B$，$D$，$C$ 三点共线，$\\angle ADB=\\pi-\\theta$，从而 $\\cos\\angle ADB=-\\frac{3}{5}$，$\\sin\\angle ADB=\\frac{4}{5}$. 又因为 $\\angle ADB>\\frac{\\pi}{2}$，在三角形 $ABD$ 中有 $B&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$，故 $\\cos B=\\frac{12}{13}$.</p><p>由三角形内角和及正弦的差角公式，得</p>\n$$\n\\sin\\angle BAD=\\sin(\\theta-B)=\\sin\\theta\\cos B-\\cos\\theta\\sin B=\\frac{4}{5}\\cdot\\frac{12}{13}-\\frac{3}{5}\\cdot\\frac{5}{13}=\\frac{33}{65}\n$$\n<p>在三角形 $ABD$ 中，由正弦定理得</p>\n$$\n\\frac{AD}{\\sin B}=\\frac{BD}{\\sin\\angle BAD}\n$$\n<p>所以 $AD=33\\cdot\\frac{5}{13}\\cdot\\frac{65}{33}=25$，即 $AD=25$.</p>"
+          "solution": "<p>设 $\\angle ADC=\\theta$，则 $\\cos\\theta=\\frac{3}{5}$，且 $0<\\theta<\\frac{\\pi}{2}$，所以 $\\sin\\theta=\\frac{4}{5}$. 由于 $B$，$D$，$C$ 三点共线，$\\angle ADB=\\pi-\\theta$，从而 $\\cos\\angle ADB=-\\frac{3}{5}$，$\\sin\\angle ADB=\\frac{4}{5}$. 又因为 $\\angle ADB>\\frac{\\pi}{2}$，在三角形 $ABD$ 中有 $B<\\theta<\\frac{\\pi}{2}$，故 $\\cos B=\\frac{12}{13}$.</p><p>由三角形内角和及正弦的差角公式，得</p>\n$$\n\\sin\\angle BAD=\\sin(\\theta-B)=\\sin\\theta\\cos B-\\cos\\theta\\sin B=\\frac{4}{5}\\cdot\\frac{12}{13}-\\frac{3}{5}\\cdot\\frac{5}{13}=\\frac{33}{65}\n$$\n<p>在三角形 $ABD$ 中，由正弦定理得</p>\n$$\n\\frac{AD}{\\sin B}=\\frac{BD}{\\sin\\angle BAD}\n$$\n<p>所以 $AD=33\\cdot\\frac{5}{13}\\cdot\\frac{65}{33}=25$，即 $AD=25$.</p>"
         },
         {
           "num": 18,
@@ -234,7 +234,7 @@
           "body": "<p>设函数 $f(x) = 1 - \\mathrm{e}^{-x}$.</p><ol class=\"enumerate\"><li><p>证明：当 $x > -1$ 时，$f(x) \\ge \\frac{x}{x + 1}$；</p></li><li><p>设当 $x \\ge 0$ 时，$f(x) \\le \\frac{x}{ax + 1}$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x>-1$ 时，$x+1>0$，且</p>\n$$\nf(x)-\\frac{x}{x+1}=1-\\mathrm{e}^{-x}-\\frac{x}{x+1}=\\frac{\\mathrm{e}^{x}-x-1}{(x+1)\\mathrm{e}^{x}}\n$$\n<p>令 $g(x)=\\mathrm{e}^{x}-x-1$，则 $g'(x)=\\mathrm{e}^{x}-1$. 当 $x&#x3C;0$ 时，$g'(x)&#x3C;0$；当 $x>0$ 时，$g'(x)>0$，所以 $g(x)$ 在 $x=0$ 处取得最小值 $g(0)=0$. 故 $f(x)\\ge\\frac{x}{x+1}$.</p></li><li><p>若 $a&#x3C;0$，则 $x=-\\frac{1}{a}>0$ 时 $ax+1=0$，右端无定义；并且取 $x>-\\frac{1}{a}$ 时右端为负，而 $f(x)=1-\\mathrm{e}^{-x}>0$，不等式也不可能对所有 $x\\geqslant0$ 成立. 因此必须有 $a\\geqslant0$. 此时 $ax+1>0$，原不等式等价于</p>\n$$\na\\le\\frac{x-1+\\mathrm{e}^{-x}}{x(1-\\mathrm{e}^{-x})}=:\\varphi(x)\n$$\n<p>又</p>\n$$\n\\varphi(x)-\\frac{1}{2}=\\frac{x-2+(x+2)\\mathrm{e}^{-x}}{2x(1-\\mathrm{e}^{-x})}\n$$\n<p>令 $h(x)=x-2+(x+2)\\mathrm{e}^{-x}$，则 $h(0)=0$，且</p>\n$$\nh'(x)=1-(x+1)\\mathrm{e}^{-x}=\\mathrm{e}^{-x}\\bigl(\\mathrm{e}^{x}-x-1\\bigr)\\geqslant0\n$$\n<p>所以 $h(x)\\geqslant0$，从而 $\\varphi(x)\\ge\\frac{1}{2}$. 另一方面，分子、分母在 $x\\to0^{+}$ 时都趋于 $0$，连续使用两次洛必达法则得</p>\n$$\n\\lim_{x\\to0^+}\\varphi(x)  =\\lim_{x\\to0^+}\\frac{1-\\mathrm{e}^{-x}}{1-\\mathrm{e}^{-x}+x\\mathrm{e}^{-x}}=\\lim_{x\\to0^+}\\frac{\\mathrm{e}^{-x}}{(2-x)\\mathrm{e}^{-x}}=\\frac{1}{2}\n$$\n<p>故必要条件为 $0\\le a\\le\\frac{1}{2}$. 当 $0\\le a\\le\\frac{1}{2}$ 时，由 $a\\le\\varphi(x)$ 可反推得原不等式对一切 $x>0$ 成立，且 $x=0$ 时两边均为 $0$. 因此 $a$ 的取值范围是 $\\left[0,\\frac{1}{2}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x>-1$ 时，$x+1>0$，且</p>\n$$\nf(x)-\\frac{x}{x+1}=1-\\mathrm{e}^{-x}-\\frac{x}{x+1}=\\frac{\\mathrm{e}^{x}-x-1}{(x+1)\\mathrm{e}^{x}}\n$$\n<p>令 $g(x)=\\mathrm{e}^{x}-x-1$，则 $g'(x)=\\mathrm{e}^{x}-1$. 当 $x<0$ 时，$g'(x)<0$；当 $x>0$ 时，$g'(x)>0$，所以 $g(x)$ 在 $x=0$ 处取得最小值 $g(0)=0$. 故 $f(x)\\ge\\frac{x}{x+1}$.</p></li><li><p>若 $a<0$，则 $x=-\\frac{1}{a}>0$ 时 $ax+1=0$，右端无定义；并且取 $x>-\\frac{1}{a}$ 时右端为负，而 $f(x)=1-\\mathrm{e}^{-x}>0$，不等式也不可能对所有 $x\\geqslant0$ 成立. 因此必须有 $a\\geqslant0$. 此时 $ax+1>0$，原不等式等价于</p>\n$$\na\\le\\frac{x-1+\\mathrm{e}^{-x}}{x(1-\\mathrm{e}^{-x})}=:\\varphi(x)\n$$\n<p>又</p>\n$$\n\\varphi(x)-\\frac{1}{2}=\\frac{x-2+(x+2)\\mathrm{e}^{-x}}{2x(1-\\mathrm{e}^{-x})}\n$$\n<p>令 $h(x)=x-2+(x+2)\\mathrm{e}^{-x}$，则 $h(0)=0$，且</p>\n$$\nh'(x)=1-(x+1)\\mathrm{e}^{-x}=\\mathrm{e}^{-x}\\bigl(\\mathrm{e}^{x}-x-1\\bigr)\\geqslant0\n$$\n<p>所以 $h(x)\\geqslant0$，从而 $\\varphi(x)\\ge\\frac{1}{2}$. 另一方面，分子、分母在 $x\\to0^{+}$ 时都趋于 $0$，连续使用两次洛必达法则得</p>\n$$\n\\lim_{x\\to0^+}\\varphi(x)  =\\lim_{x\\to0^+}\\frac{1-\\mathrm{e}^{-x}}{1-\\mathrm{e}^{-x}+x\\mathrm{e}^{-x}}=\\lim_{x\\to0^+}\\frac{\\mathrm{e}^{-x}}{(2-x)\\mathrm{e}^{-x}}=\\frac{1}{2}\n$$\n<p>故必要条件为 $0\\le a\\le\\frac{1}{2}$. 当 $0\\le a\\le\\frac{1}{2}$ 时，由 $a\\le\\varphi(x)$ 可反推得原不等式对一切 $x>0$ 成立，且 $x=0$ 时两边均为 $0$. 因此 $a$ 的取值范围是 $\\left[0,\\frac{1}{2}\\right]$.</p></li></ol>"
         }
       ]
     }

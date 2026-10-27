@@ -12,7 +12,7 @@
           "body": "$\\sqrt{\\left( -a \\right)^{2}}=?$",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $\\left( -a \\right)^{2}=a^{2}$，而算术平方根的值非负，所以</p><p>$\\sqrt{\\left( -a \\right)^{2}}=\\sqrt{a^{2}}=\\lvert a\\rvert$. 当 $a\\geqslant0$ 时，$\\lvert a\\rvert=a$；当 $a&#x3C;0$ 时，$\\lvert a\\rvert=-a$. 因此</p>\n$$\n\\sqrt{\\left( -a \\right)^{2}}=\\begin{cases}a,&#x26;a\\geqslant0,\\\\  -a,&#x26;a&#x3C;0.\\end{cases}\n$$"
+          "solution": "<p>因为 $\\left( -a \\right)^{2}=a^{2}$，而算术平方根的值非负，所以</p><p>$\\sqrt{\\left( -a \\right)^{2}}=\\sqrt{a^{2}}=\\lvert a\\rvert$. 当 $a\\geqslant0$ 时，$\\lvert a\\rvert=a$；当 $a<0$ 时，$\\lvert a\\rvert=-a$. 因此</p>\n$$\n\\sqrt{\\left( -a \\right)^{2}}=\\begin{cases}a,&a\\geqslant0,\\\\  -a,&a<0.\\end{cases}\n$$"
         },
         {
           "num": 2,
@@ -58,17 +58,17 @@
         },
         {
           "num": 8,
-          "body": "<p>$\\frac{\\sin\\alpha}{2}x^{2}+x+\\frac{1}{2\\cos\\alpha}=0$（$0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$）为关于 $x$ 的二次方程.</p><ol class=\"enumerate\"><li><p>当 $\\alpha$ 为何值时，方程有两个不相等的实数根？</p></li><li><p>它的根是什么？</p></li></ol>",
+          "body": "<p>$\\frac{\\sin\\alpha}{2}x^{2}+x+\\frac{1}{2\\cos\\alpha}=0$（$0<\\alpha<\\frac{\\pi}{2}$）为关于 $x$ 的二次方程.</p><ol class=\"enumerate\"><li><p>当 $\\alpha$ 为何值时，方程有两个不相等的实数根？</p></li><li><p>它的根是什么？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$，所以 $\\sin\\alpha>0$，$\\cos\\alpha>0$，该方程确为关于 $x$ 的二次方程. 其二次项系数、一次项系数和常数项分别为</p><p>$A=\\frac{\\sin\\alpha}{2}$，$B=1$，$C=\\frac{1}{2\\cos\\alpha}$.</p><p>方程有两个不相等的实数根的充要条件是判别式 $\\Delta=B^{2}-4AC>0$. 计算得</p>\n$$\n\\Delta=1-4\\cdot\\frac{\\sin\\alpha}{2}\\cdot\\frac{1}{2\\cos\\alpha}=1-\\frac{\\sin\\alpha}{\\cos\\alpha}=1-\\tan\\alpha\n$$\n<p>所以需要 $\\tan\\alpha&#x3C;1$. 在区间 $\\left(0,\\frac{\\pi}{2}\\right)$ 内，正切函数递增，且 $\\tan\\frac{\\pi}{4}=1$，故</p>\n$$\n0&#x3C;\\alpha&#x3C;\\frac{\\pi}{4}\n$$\n</li><li><p>当 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{4}$ 时，$\\Delta=1-\\tan\\alpha>0$. 由求根公式</p>\n$$\nx=\\frac{-B\\pm\\sqrt{\\Delta}}{2A}=\\frac{-1\\pm\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}\n$$\n<p>因此两个不相等的实数根为</p><p>$x_{1}=\\frac{-1+\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}$，$x_{2}=\\frac{-1-\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $0<\\alpha<\\frac{\\pi}{2}$，所以 $\\sin\\alpha>0$，$\\cos\\alpha>0$，该方程确为关于 $x$ 的二次方程. 其二次项系数、一次项系数和常数项分别为</p><p>$A=\\frac{\\sin\\alpha}{2}$，$B=1$，$C=\\frac{1}{2\\cos\\alpha}$.</p><p>方程有两个不相等的实数根的充要条件是判别式 $\\Delta=B^{2}-4AC>0$. 计算得</p>\n$$\n\\Delta=1-4\\cdot\\frac{\\sin\\alpha}{2}\\cdot\\frac{1}{2\\cos\\alpha}=1-\\frac{\\sin\\alpha}{\\cos\\alpha}=1-\\tan\\alpha\n$$\n<p>所以需要 $\\tan\\alpha<1$. 在区间 $\\left(0,\\frac{\\pi}{2}\\right)$ 内，正切函数递增，且 $\\tan\\frac{\\pi}{4}=1$，故</p>\n$$\n0<\\alpha<\\frac{\\pi}{4}\n$$\n</li><li><p>当 $0<\\alpha<\\frac{\\pi}{4}$ 时，$\\Delta=1-\\tan\\alpha>0$. 由求根公式</p>\n$$\nx=\\frac{-B\\pm\\sqrt{\\Delta}}{2A}=\\frac{-1\\pm\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}\n$$\n<p>因此两个不相等的实数根为</p><p>$x_{1}=\\frac{-1+\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}$，$x_{2}=\\frac{-1-\\sqrt{1-\\tan\\alpha}}{\\sin\\alpha}$.</p></li></ol>"
         },
         {
           "num": 9,
           "body": "试比较等底等高的正四棱锥和正圆锥的侧面积，看哪个的侧面积较小.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设两几何体的底面积均为 $S>0$，高均为 $h>0$. 对正四棱锥，设正方形底面的边长为 $a$，则 $a^{2}=S$，从顶点到底面某一边中点的斜高为</p>\n$$\nl_{1}=\\sqrt{h^{2}+\\left( \\frac{a}{2}\\right)^{2}}=\\sqrt{h^{2}+\\frac{S}{4}}\n$$\n<p>因此正四棱锥的侧面积为</p>\n$$\nS_{1}=4\\cdot\\frac{1}{2}a l_{1}  =2\\sqrt{S}\\sqrt{h^{2}+\\frac{S}{4}}\n$$\n<p>从而</p>\n$$\nS_{1}^{2}=S^{2}+4Sh^{2}\n$$\n<p>对正圆锥，设底面半径为 $r$，母线长为 $l_{2}$. 由 $\\pi r^{2}=S$ 和勾股定理，得</p><p>$r=\\sqrt{\\frac{S}{\\pi}}$，$l_{2}=\\sqrt{h^{2}+r^{2}}=\\sqrt{h^{2}+\\frac{S}{\\pi}}$.</p><p>所以正圆锥的侧面积为</p>\n$$\nS_{2}=\\pi r l_{2}\n$$\n<p>从而</p>\n$$\nS_{2}^{2}=\\pi^{2}\\cdot\\frac{S}{\\pi}\\left( h^{2}+\\frac{S}{\\pi}\\right)=S^{2}+\\pi Sh^{2}\n$$\n<p>因为 $\\pi&#x3C;4$ 且 $S$，$h>0$，所以 $S_{2}^{2}&#x3C;S_{1}^{2}$. 两个侧面积均为正数，故 $S_{2}&#x3C;S_{1}$. 因此正圆锥的侧面积较小.</p>"
+          "solution": "<p>设两几何体的底面积均为 $S>0$，高均为 $h>0$. 对正四棱锥，设正方形底面的边长为 $a$，则 $a^{2}=S$，从顶点到底面某一边中点的斜高为</p>\n$$\nl_{1}=\\sqrt{h^{2}+\\left( \\frac{a}{2}\\right)^{2}}=\\sqrt{h^{2}+\\frac{S}{4}}\n$$\n<p>因此正四棱锥的侧面积为</p>\n$$\nS_{1}=4\\cdot\\frac{1}{2}a l_{1}  =2\\sqrt{S}\\sqrt{h^{2}+\\frac{S}{4}}\n$$\n<p>从而</p>\n$$\nS_{1}^{2}=S^{2}+4Sh^{2}\n$$\n<p>对正圆锥，设底面半径为 $r$，母线长为 $l_{2}$. 由 $\\pi r^{2}=S$ 和勾股定理，得</p><p>$r=\\sqrt{\\frac{S}{\\pi}}$，$l_{2}=\\sqrt{h^{2}+r^{2}}=\\sqrt{h^{2}+\\frac{S}{\\pi}}$.</p><p>所以正圆锥的侧面积为</p>\n$$\nS_{2}=\\pi r l_{2}\n$$\n<p>从而</p>\n$$\nS_{2}^{2}=\\pi^{2}\\cdot\\frac{S}{\\pi}\\left( h^{2}+\\frac{S}{\\pi}\\right)=S^{2}+\\pi Sh^{2}\n$$\n<p>因为 $\\pi<4$ 且 $S$，$h>0$，所以 $S_{2}^{2}<S_{1}^{2}$. 两个侧面积均为正数，故 $S_{2}<S_{1}$. 因此正圆锥的侧面积较小.</p>"
         },
         {
           "num": 10,
@@ -82,7 +82,7 @@
           "body": "<p>某隧道的横断面如图所示，已知隧道横断面的周长为 $23\\text{ 米}$，试根据图所示尺寸，求：</p><ol class=\"enumerate\"><li><p>当 $x$ 和 $y$ 为何值时，隧道的横断面面积最大？</p></li><li><p>最大面积是多少？</p></li></ol><p>（取 $\\pi\\approx3$）（图尺寸单位：米）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_b/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设半圆半径为 $x$ 米，两侧直墙的高度为 $y$ 米，横断面面积为 $S$ 平方米. 按图中尺寸，半圆弧长取 $\\pi x\\approx3x$. 底部边界由两段长度为 $0.5$ 米的水平线、凹入部分的两条竖直边（每条长 $0.5$ 米）以及凹入部分的上边组成；其水平边界总长为直径 $2x$，竖直边总长为 $0.5\\times2$. 因此周长条件给出</p>\n$$\n23\\approx3x+2y+2x+0.5\\times2\n$$\n<p>从而</p>\n$$\ny\\approx\\frac{23-3x-2x-0.5\\times2}{2}=11-2.5x\n$$\n<p>隧道横断面面积等于上半圆面积加上两侧墙之间的矩形面积，再减去底部凹入的矩形面积. 其中凹入部分的宽为 $2x-1$ 米，高为 $0.5$ 米，所以</p>\n$$\nS\\approx\\frac{3x^{2}}{2}+2xy-\\left( 2x-1 \\right)\\times0.5\n$$\n<p>代入 $y=11-2.5x$，化简得</p>\n$$\nS\\approx\\frac{3x^{2}}{2}+2x\\left( 11-2.5x \\right)-\\left( 2x-1 \\right)\\times0.5=-3.5x^{2}+21x+0.5\n$$\n<p>几何尺寸还需满足 $2x-1>0$ 且 $y>0$，即 $\\frac{1}{2}&#x3C;x&#x3C;\\frac{22}{5}$. 在这个范围内，配方得</p>\n$$\nS\\approx-3.5\\left( x-3 \\right)^{2}+32\n$$\n<p>因为 $-3.5\\left( x-3 \\right)^{2}\\leqslant0$，且 $x=3$ 在允许范围内，所以当 $x=3$ 米时，面积取得最大值；此时</p>\n$$\ny=11-2.5\\times3=3.5\\text{ 米}\n$$\n</li><li><p>由上式直接得到</p>\n$$\nS_{\\max}=32\\text{ 平方米}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设半圆半径为 $x$ 米，两侧直墙的高度为 $y$ 米，横断面面积为 $S$ 平方米. 按图中尺寸，半圆弧长取 $\\pi x\\approx3x$. 底部边界由两段长度为 $0.5$ 米的水平线、凹入部分的两条竖直边（每条长 $0.5$ 米）以及凹入部分的上边组成；其水平边界总长为直径 $2x$，竖直边总长为 $0.5\\times2$. 因此周长条件给出</p>\n$$\n23\\approx3x+2y+2x+0.5\\times2\n$$\n<p>从而</p>\n$$\ny\\approx\\frac{23-3x-2x-0.5\\times2}{2}=11-2.5x\n$$\n<p>隧道横断面面积等于上半圆面积加上两侧墙之间的矩形面积，再减去底部凹入的矩形面积. 其中凹入部分的宽为 $2x-1$ 米，高为 $0.5$ 米，所以</p>\n$$\nS\\approx\\frac{3x^{2}}{2}+2xy-\\left( 2x-1 \\right)\\times0.5\n$$\n<p>代入 $y=11-2.5x$，化简得</p>\n$$\nS\\approx\\frac{3x^{2}}{2}+2x\\left( 11-2.5x \\right)-\\left( 2x-1 \\right)\\times0.5=-3.5x^{2}+21x+0.5\n$$\n<p>几何尺寸还需满足 $2x-1>0$ 且 $y>0$，即 $\\frac{1}{2}<x<\\frac{22}{5}$. 在这个范围内，配方得</p>\n$$\nS\\approx-3.5\\left( x-3 \\right)^{2}+32\n$$\n<p>因为 $-3.5\\left( x-3 \\right)^{2}\\leqslant0$，且 $x=3$ 在允许范围内，所以当 $x=3$ 米时，面积取得最大值；此时</p>\n$$\ny=11-2.5\\times3=3.5\\text{ 米}\n$$\n</li><li><p>由上式直接得到</p>\n$$\nS_{\\max}=32\\text{ 平方米}\n$$\n</li></ol>"
         }
       ]
     },

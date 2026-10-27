@@ -29,11 +29,11 @@
             "$-\\frac{24}{7}$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $x\\in\\left(-\\frac{\\pi}{2},0\\right)$，所以 $\\sin x&#x3C;0$，从而</p><p>$\\sin x=-\\sqrt{1-\\cos^{2}x}=-\\frac{3}{5}$，$\\tan x=-\\frac{3}{4}$.</p><p>因此</p>\n$$\n\\tan2x=\\frac{2\\tan x}{1-\\tan^{2}x}=\\frac{-\\frac{3}{2}}{1-\\frac{9}{16}}=-\\frac{24}{7}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>因为 $x\\in\\left(-\\frac{\\pi}{2},0\\right)$，所以 $\\sin x<0$，从而</p><p>$\\sin x=-\\sqrt{1-\\cos^{2}x}=-\\frac{3}{5}$，$\\tan x=-\\frac{3}{4}$.</p><p>因此</p>\n$$\n\\tan2x=\\frac{2\\tan x}{1-\\tan^{2}x}=\\frac{-\\frac{3}{2}}{1-\\frac{9}{16}}=-\\frac{24}{7}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 3,
-          "body": "设函数 $f(x) = \\begin{cases}2^{-x}- 1,&#x26;x \\le 0,\\\\  x^{\\frac{1}{2}},&#x26;x > 0,\\end{cases}$ 若 $f(x_{0}) > 1$，则 $x_{0}$ 的取值范围是（ ）",
+          "body": "设函数 $f(x) = \\begin{cases}2^{-x}- 1,&x \\le 0,\\\\  x^{\\frac{1}{2}},&x > 0,\\end{cases}$ 若 $f(x_{0}) > 1$，则 $x_{0}$ 的取值范围是（ ）",
           "choices": [
             "$(-1,1)$",
             "$(-1, +\\infty)$",
@@ -41,7 +41,7 @@
             "$(- \\infty, -1) \\cup (1, +\\infty)$"
           ],
           "answer": "D",
-          "solution": "<p>当 $x_{0}\\leqslant0$ 时，</p>\n$$\nf(x_{0})>1\\Longleftrightarrow 2^{-x_0}-1>1\\Longleftrightarrow x_{0}&#x3C;-1\n$$\n<p>当 $x_{0}>0$ 时，</p>\n$$\nf(x_{0})>1\\Longleftrightarrow \\sqrt{x_{0}}>1\\Longleftrightarrow x_{0}>1\n$$\n<p>所以</p>\n$$\nx_{0}\\in(-\\infty,-1)\\cup(1,+\\infty)\n$$\n<p>故选 D.</p>"
+          "solution": "<p>当 $x_{0}\\leqslant0$ 时，</p>\n$$\nf(x_{0})>1\\Longleftrightarrow 2^{-x_0}-1>1\\Longleftrightarrow x_{0}<-1\n$$\n<p>当 $x_{0}>0$ 时，</p>\n$$\nf(x_{0})>1\\Longleftrightarrow \\sqrt{x_{0}}>1\\Longleftrightarrow x_{0}>1\n$$\n<p>所以</p>\n$$\nx_{0}\\in(-\\infty,-1)\\cup(1,+\\infty)\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 4,
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "已知长方形的四个顶点 $A(0,0)$，$B(2,0)$，$C(2,1)$ 和 $D(0,1)$，一质点从 $AB$ 的中点 $P_{0}$ 沿与 $AB$ 的夹角 $\\theta$ 的方向射到 $BC$ 上的点 $P_{1}$ 后，依次反射到 $CD$，$DA$ 和 $AB$ 上的点 $P_{2}$，$P_{3}$ 和 $P_{4}$（入射角等于反射角）. 设 $P_{4}$ 的坐标为 $(x_{4},0)$，若 $1 &#x3C; x_{4} &#x3C; 2$，则 $\\tan \\theta$ 的取值范围是（ ）",
+          "body": "已知长方形的四个顶点 $A(0,0)$，$B(2,0)$，$C(2,1)$ 和 $D(0,1)$，一质点从 $AB$ 的中点 $P_{0}$ 沿与 $AB$ 的夹角 $\\theta$ 的方向射到 $BC$ 上的点 $P_{1}$ 后，依次反射到 $CD$，$DA$ 和 $AB$ 上的点 $P_{2}$，$P_{3}$ 和 $P_{4}$（入射角等于反射角）. 设 $P_{4}$ 的坐标为 $(x_{4},0)$，若 $1 < x_{4} < 2$，则 $\\tan \\theta$ 的取值范围是（ ）",
           "choices": [
             "$\\left(\\frac{1}{3}, 1\\right)$",
             "$\\left(\\frac{1}{3}, \\frac{2}{3}\\right)$",
@@ -125,7 +125,7 @@
             "$\\left(\\frac{2}{5},\\frac{2}{3}\\right)$"
           ],
           "answer": "C",
-          "solution": "<p>设 $t=\\tan\\theta$. 由运动方向和连续反射过程可知 $t>0$. 从 $P_{0}=(1,0)$ 出发，第一次到达右边界时的竖直位移为 $t$，故</p>\n$$\nP_{1}=(2,t)\n$$\n<p>在 $P_{1}$ 处反射后，水平方向反向而竖直方向不变，所以从 $P_{1}$ 到 $P_{2}$ 的斜率为 $-t$. 令 $P_{2}=(x_{2},1)$，则</p>\n$$\n1-t=-t(x_{2}-2)\\Longrightarrow x_{2}=3-\\frac{1}{t}\n$$\n<p>即 $P_{2}=\\left(3-\\frac{1}{t},1\\right)$. 在 $P_{2}$ 处反射后，竖直方向反向而水平方向不变；令 $P_{3}=(0,y_{3})$，则从 $P_{2}$ 到 $P_{3}$ 的斜率为 $t$，从而</p>\n$$\ny_{3}-1=t(0-x_{2})\\Longrightarrow y_{3}=1-t\\left(3-\\frac{1}{t}\\right)=2-3t\n$$\n<p>因此 $P_{3}=(0,2-3t)$. 在 $P_{3}$ 处再次反射后，令 $P_{4}=(x_{4},0)$，由斜率为 $-t$ 得</p>\n$$\n-y_{3}=-tx_{4}\\Longrightarrow x_{4}=\\frac{y_{3}}{t}=\\frac{2}{t}-3\n$$\n<p>所以 $P_{4}=\\left(\\frac{2}{t}-3,0\\right)$.</p><p>题设给出 $1&#x3C;x_{4}&#x3C;2$，所以</p>\n$$\n1&#x3C;\\frac{2}{t}-3&#x3C;2\\Longleftrightarrow \\frac{2}{5}&#x3C;t&#x3C;\\frac{1}{2}\n$$\n<p>在此范围内，$P_{1}$，$P_{2}$，$P_{3}$ 分别位于 $BC$，$CD$，$DA$ 的内部，反射顺序和边界条件均满足. 因此 $\\tan\\theta$ 的取值范围为 $\\left(\\dfrac{2}{5},\\dfrac{1}{2}\\right)$，故选 C.</p>"
+          "solution": "<p>设 $t=\\tan\\theta$. 由运动方向和连续反射过程可知 $t>0$. 从 $P_{0}=(1,0)$ 出发，第一次到达右边界时的竖直位移为 $t$，故</p>\n$$\nP_{1}=(2,t)\n$$\n<p>在 $P_{1}$ 处反射后，水平方向反向而竖直方向不变，所以从 $P_{1}$ 到 $P_{2}$ 的斜率为 $-t$. 令 $P_{2}=(x_{2},1)$，则</p>\n$$\n1-t=-t(x_{2}-2)\\Longrightarrow x_{2}=3-\\frac{1}{t}\n$$\n<p>即 $P_{2}=\\left(3-\\frac{1}{t},1\\right)$. 在 $P_{2}$ 处反射后，竖直方向反向而水平方向不变；令 $P_{3}=(0,y_{3})$，则从 $P_{2}$ 到 $P_{3}$ 的斜率为 $t$，从而</p>\n$$\ny_{3}-1=t(0-x_{2})\\Longrightarrow y_{3}=1-t\\left(3-\\frac{1}{t}\\right)=2-3t\n$$\n<p>因此 $P_{3}=(0,2-3t)$. 在 $P_{3}$ 处再次反射后，令 $P_{4}=(x_{4},0)$，由斜率为 $-t$ 得</p>\n$$\n-y_{3}=-tx_{4}\\Longrightarrow x_{4}=\\frac{y_{3}}{t}=\\frac{2}{t}-3\n$$\n<p>所以 $P_{4}=\\left(\\frac{2}{t}-3,0\\right)$.</p><p>题设给出 $1<x_{4}<2$，所以</p>\n$$\n1<\\frac{2}{t}-3<2\\Longleftrightarrow \\frac{2}{5}<t<\\frac{1}{2}\n$$\n<p>在此范围内，$P_{1}$，$P_{2}$，$P_{3}$ 分别位于 $BC$，$CD$，$DA$ 的内部，反射顺序和边界条件均满足. 因此 $\\tan\\theta$ 的取值范围为 $\\left(\\dfrac{2}{5},\\dfrac{1}{2}\\right)$，故选 C.</p>"
         },
         {
           "num": 11,
@@ -208,7 +208,7 @@
           "body": "设 $a > 0$，求函数 $f(x) = \\sqrt{x}- \\ln (x + a)$（$x \\in (0, +\\infty)$）的单调区间.",
           "choices": null,
           "answer": "",
-          "solution": "$$\nf'(x)=\\frac{1}{2\\sqrt{x}}-\\frac{1}{x+a}=\\frac{x+a-2\\sqrt{x}}{2\\sqrt{x}(x+a)}\n$$\n<p>分母在 $x>0$ 时恒为正. 令 $t=\\sqrt{x}>0$，则分子为</p>\n$$\nt^{2}-2t+a=(t-1)^{2}+a-1\n$$\n<p>当 $a\\geqslant1$ 时，该式非负，且除至多一个点外为正，所以函数在 $(0,+\\infty)$ 上单调递增.</p><p>当 $0&#x3C;a&#x3C;1$ 时，分子在</p><p>$t=1-\\sqrt{1-a}$，$t=1+\\sqrt{1-a}$</p><p>处为零，并在两根外为正、两根之间为负. 将两根平方，得到</p><p>$x_{1}=2-a-2\\sqrt{1-a}$，$x_{2}=2-a+2\\sqrt{1-a}$.</p><p>因此函数在 $(0,x_{1})$ 和 $(x_{2},+\\infty)$ 上单调递增，在 $(x_{1},x_{2})$ 上单调递减.</p>"
+          "solution": "$$\nf'(x)=\\frac{1}{2\\sqrt{x}}-\\frac{1}{x+a}=\\frac{x+a-2\\sqrt{x}}{2\\sqrt{x}(x+a)}\n$$\n<p>分母在 $x>0$ 时恒为正. 令 $t=\\sqrt{x}>0$，则分子为</p>\n$$\nt^{2}-2t+a=(t-1)^{2}+a-1\n$$\n<p>当 $a\\geqslant1$ 时，该式非负，且除至多一个点外为正，所以函数在 $(0,+\\infty)$ 上单调递增.</p><p>当 $0<a<1$ 时，分子在</p><p>$t=1-\\sqrt{1-a}$，$t=1+\\sqrt{1-a}$</p><p>处为零，并在两根外为正、两根之间为负. 将两根平方，得到</p><p>$x_{1}=2-a-2\\sqrt{1-a}$，$x_{2}=2-a+2\\sqrt{1-a}$.</p><p>因此函数在 $(0,x_{1})$ 和 $(x_{2},+\\infty)$ 上单调递增，在 $(x_{1},x_{2})$ 上单调递减.</p>"
         },
         {
           "num": 20,
@@ -222,14 +222,14 @@
           "body": "已知常数 $a > 0$，向量 $\\mathbf{c}= (0, a)$，$\\mathbf{i}= (1, 0)$. 经过原点 $O$ 以 $\\mathbf{c}+ \\lambda \\mathbf{i}$ 为方向向量的直线与经过定点 $A(0, a)$ 以 $\\mathbf{i}- 2\\lambda \\mathbf{c}$ 为方向向量的直线相交于 $P$，其中 $\\lambda \\in \\mathbb{R}$. 试问：是否存在两个定点 $E$，$F$，使得 $|PE| + |PF|$ 为定值. 若存在，求出 $E$，$F$ 的坐标；若不存在，说明理由.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设第一条直线上的交点参数为 $s$，第二条直线上的交点参数为 $t$，则</p>\n$$\nP=s(\\lambda,a)=(t,a-2a\\lambda t)\n$$\n<p>因此 $x=t=s\\lambda$，$y=as$，从而</p><p>$y=a-2a\\lambda x=a-2\\lambda^{2}y$，$y=\\frac{a}{1+2\\lambda^{2}}$，$x=\\frac{\\lambda}{1+2\\lambda^{2}}$.</p><p>消去 $\\lambda$，得到</p>\n$$\n2a^{2}x^{2}+y^{2}-ay=0\n$$\n<p>即</p>\n$$\n\\frac{x^{2}}{\\frac{1}{8}}+\\frac{\\left(y-\\frac{a}{2}\\right)^{2}}{\\frac{a^{2}}{4}}=1\n$$\n<p>当 $\\lambda$ 遍历 $\\mathbb{R}$ 时，$P$ 遍历这个椭圆除去原点的部分；缺少一个极限点不影响椭圆焦点距离和的结论.</p><p>当 $a=\\dfrac{\\sqrt{2}}{2}$ 时，椭圆退化为以 $(0,\\dfrac{a}{2})$ 为圆心的圆. 圆只有在两个焦点重合于圆心时才有相应的焦点距离和；题意要求两个定点，故此时不存在符合要求的两个定点.</p><p>当 $0&#x3C;a&#x3C;\\dfrac{\\sqrt{2}}{2}$ 时，横轴为长轴，半长轴为 $\\dfrac{\\sqrt{2}}{4}$，焦距的一半为</p>\n$$\nc=\\sqrt{\\left(\\frac{\\sqrt{2}}{4}\\right)^{2}-\\left(\\frac{a}{2}\\right)^{2}}=\\frac{1}{2}\\sqrt{\\frac{1}{2}-a^{2}}\n$$\n<p>所以可取</p><p>$E=\\left(\\frac{1}{2}\\sqrt{\\frac{1}{2}-a^{2}},\\frac{a}{2}\\right)$，$F=\\left(-\\frac{1}{2}\\sqrt{\\frac{1}{2}-a^{2}},\\frac{a}{2}\\right)$，</p><p>且 $|PE|+|PF|=\\dfrac{\\sqrt{2}}{2}$.</p><p>当 $a>\\dfrac{\\sqrt{2}}{2}$ 时，纵轴为长轴，半长轴为 $\\dfrac{a}{2}$，焦距的一半为</p>\n$$\nc=\\sqrt{\\left(\\frac{a}{2}\\right)^{2}-\\left(\\frac{\\sqrt{2}}{4}\\right)^{2}}=\\frac{1}{2}\\sqrt{a^{2}-\\frac{1}{2}}\n$$\n<p>所以可取</p><p>$E=\\left(0,\\frac{a+\\sqrt{a^{2}-\\frac{1}{2}}}{2}\\right)$，$F=\\left(0,\\frac{a-\\sqrt{a^{2}-\\frac{1}{2}}}{2}\\right)$，</p><p>且 $|PE|+|PF|=a$.</p>"
+          "solution": "<p>设第一条直线上的交点参数为 $s$，第二条直线上的交点参数为 $t$，则</p>\n$$\nP=s(\\lambda,a)=(t,a-2a\\lambda t)\n$$\n<p>因此 $x=t=s\\lambda$，$y=as$，从而</p><p>$y=a-2a\\lambda x=a-2\\lambda^{2}y$，$y=\\frac{a}{1+2\\lambda^{2}}$，$x=\\frac{\\lambda}{1+2\\lambda^{2}}$.</p><p>消去 $\\lambda$，得到</p>\n$$\n2a^{2}x^{2}+y^{2}-ay=0\n$$\n<p>即</p>\n$$\n\\frac{x^{2}}{\\frac{1}{8}}+\\frac{\\left(y-\\frac{a}{2}\\right)^{2}}{\\frac{a^{2}}{4}}=1\n$$\n<p>当 $\\lambda$ 遍历 $\\mathbb{R}$ 时，$P$ 遍历这个椭圆除去原点的部分；缺少一个极限点不影响椭圆焦点距离和的结论.</p><p>当 $a=\\dfrac{\\sqrt{2}}{2}$ 时，椭圆退化为以 $(0,\\dfrac{a}{2})$ 为圆心的圆. 圆只有在两个焦点重合于圆心时才有相应的焦点距离和；题意要求两个定点，故此时不存在符合要求的两个定点.</p><p>当 $0<a<\\dfrac{\\sqrt{2}}{2}$ 时，横轴为长轴，半长轴为 $\\dfrac{\\sqrt{2}}{4}$，焦距的一半为</p>\n$$\nc=\\sqrt{\\left(\\frac{\\sqrt{2}}{4}\\right)^{2}-\\left(\\frac{a}{2}\\right)^{2}}=\\frac{1}{2}\\sqrt{\\frac{1}{2}-a^{2}}\n$$\n<p>所以可取</p><p>$E=\\left(\\frac{1}{2}\\sqrt{\\frac{1}{2}-a^{2}},\\frac{a}{2}\\right)$，$F=\\left(-\\frac{1}{2}\\sqrt{\\frac{1}{2}-a^{2}},\\frac{a}{2}\\right)$，</p><p>且 $|PE|+|PF|=\\dfrac{\\sqrt{2}}{2}$.</p><p>当 $a>\\dfrac{\\sqrt{2}}{2}$ 时，纵轴为长轴，半长轴为 $\\dfrac{a}{2}$，焦距的一半为</p>\n$$\nc=\\sqrt{\\left(\\frac{a}{2}\\right)^{2}-\\left(\\frac{\\sqrt{2}}{4}\\right)^{2}}=\\frac{1}{2}\\sqrt{a^{2}-\\frac{1}{2}}\n$$\n<p>所以可取</p><p>$E=\\left(0,\\frac{a+\\sqrt{a^{2}-\\frac{1}{2}}}{2}\\right)$，$F=\\left(0,\\frac{a-\\sqrt{a^{2}-\\frac{1}{2}}}{2}\\right)$，</p><p>且 $|PE|+|PF|=a$.</p>"
         },
         {
           "num": 22,
           "body": "<p>设 $a_{0}$ 为常数，且 $a_{n} = 3^{n-1}- 2a_{n-1}$（$n \\in \\mathbb{N}^{*}$）.</p><ol class=\"enumerate\"><li><p>证明对任意 $n \\ge 1$，$a_{n} = \\frac{1}{5}\\left[3^{n} + (-1)^{n-1}\\cdot 2^{n}\\right] + (-1)^{n} \\cdot 2^{n} a_{0}$；</p></li><li><p>假设对任意 $n \\ge 1$ 有 $a_{n} > a_{n-1}$，求 $a_{0}$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>先验证初始情形. 由递推式</p>\n$$\na_{1}=1-2a_{0}\n$$\n<p>可得</p>\n$$\na_{1}-a_{0}=1-3a_{0}\n$$\n<p>设对某个 $n\\geqslant1$ 已有</p>\n$$\na_{n}=\\frac{1}{5}\\left[3^{n}+(-1)^{n-1}2^{n}\\right]+(-1)^{n}2^{n}a_{0}\n$$\n<p>则</p>\n$$\na_{n+1}=3^{n}-2a_{n}=\\frac{1}{5}\\left[3^{n+1}+(-1)^{n}2^{n+1}\\right]+(-1)^{n+1}2^{n+1}a_{0}\n$$\n<p>这正是把 $n$ 换成 $n+1$ 后的公式，结合 $n=1$ 时公式成立，归纳得</p>\n$$\na_{n}=\\frac{1}{5}\\left[3^{n}+(-1)^{n-1}2^{n}\\right]+(-1)^{n}2^{n}a_{0}\n$$\n</li><li><p>由上式计算相邻两项之差，得</p>\n$$\na_{n}-a_{n-1}=\\frac{2\\cdot3^{n-1}+3(-1)^{n-1}2^{n-1}(1-5a_{0})}{5}\n$$\n<p>取 $n=1$，$2$，分别得到</p><p>$a_{1}-a_{0}=1-3a_{0}>0$，$a_{2}-a_{1}=6a_{0}>0$，</p><p>所以必须有 $0&#x3C;a_{0}&#x3C;\\dfrac{1}{3}$.</p><p>反之，设 $0&#x3C;a_{0}&#x3C;\\dfrac{1}{3}$. 当 $n$ 为奇数且 $n\\geqslant3$ 时，由 $1-5a_{0}>-\\dfrac{2}{3}$，有</p>\n$$\n5(a_{n}-a_{n-1})>2\\cdot3^{n-1}-2\\cdot2^{n-1}>0\n$$\n<p>当 $n=1$ 时，前面已经有 $a_{1}-a_{0}>0$. 当 $n$ 为偶数且 $a_{0}\\ge\\dfrac{1}{5}$ 时，$1-5a_{0}\\leqslant0$，所以</p>\n$$\n5(a_{n}-a_{n-1})=2\\cdot3^{n-1}-3\\cdot2^{n-1}(1-5a_{0})\\geqslant2\\cdot3^{n-1}>0\n$$\n<p>若 $0&#x3C;a_{0}&#x3C;\\dfrac{1}{5}$，则</p>\n$$\n5(a_{n}-a_{n-1})>2\\cdot3^{n-1}-3\\cdot2^{n-1}\\geqslant0\n$$\n<p>且在可能取等的 $n=2$ 时因 $a_{0}>0$ 实际为正. 因此对任意 $n\\geqslant1$ 都有 $a_{n}>a_{n-1}$.</p><p>所以 $a_{0}$ 的取值范围为</p>\n$$\n\\left(0,\\frac{1}{3}\\right)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>先验证初始情形. 由递推式</p>\n$$\na_{1}=1-2a_{0}\n$$\n<p>可得</p>\n$$\na_{1}-a_{0}=1-3a_{0}\n$$\n<p>设对某个 $n\\geqslant1$ 已有</p>\n$$\na_{n}=\\frac{1}{5}\\left[3^{n}+(-1)^{n-1}2^{n}\\right]+(-1)^{n}2^{n}a_{0}\n$$\n<p>则</p>\n$$\na_{n+1}=3^{n}-2a_{n}=\\frac{1}{5}\\left[3^{n+1}+(-1)^{n}2^{n+1}\\right]+(-1)^{n+1}2^{n+1}a_{0}\n$$\n<p>这正是把 $n$ 换成 $n+1$ 后的公式，结合 $n=1$ 时公式成立，归纳得</p>\n$$\na_{n}=\\frac{1}{5}\\left[3^{n}+(-1)^{n-1}2^{n}\\right]+(-1)^{n}2^{n}a_{0}\n$$\n</li><li><p>由上式计算相邻两项之差，得</p>\n$$\na_{n}-a_{n-1}=\\frac{2\\cdot3^{n-1}+3(-1)^{n-1}2^{n-1}(1-5a_{0})}{5}\n$$\n<p>取 $n=1$，$2$，分别得到</p><p>$a_{1}-a_{0}=1-3a_{0}>0$，$a_{2}-a_{1}=6a_{0}>0$，</p><p>所以必须有 $0<a_{0}<\\dfrac{1}{3}$.</p><p>反之，设 $0<a_{0}<\\dfrac{1}{3}$. 当 $n$ 为奇数且 $n\\geqslant3$ 时，由 $1-5a_{0}>-\\dfrac{2}{3}$，有</p>\n$$\n5(a_{n}-a_{n-1})>2\\cdot3^{n-1}-2\\cdot2^{n-1}>0\n$$\n<p>当 $n=1$ 时，前面已经有 $a_{1}-a_{0}>0$. 当 $n$ 为偶数且 $a_{0}\\ge\\dfrac{1}{5}$ 时，$1-5a_{0}\\leqslant0$，所以</p>\n$$\n5(a_{n}-a_{n-1})=2\\cdot3^{n-1}-3\\cdot2^{n-1}(1-5a_{0})\\geqslant2\\cdot3^{n-1}>0\n$$\n<p>若 $0<a_{0}<\\dfrac{1}{5}$，则</p>\n$$\n5(a_{n}-a_{n-1})>2\\cdot3^{n-1}-3\\cdot2^{n-1}\\geqslant0\n$$\n<p>且在可能取等的 $n=2$ 时因 $a_{0}>0$ 实际为正. 因此对任意 $n\\geqslant1$ 都有 $a_{n}>a_{n-1}$.</p><p>所以 $a_{0}$ 的取值范围为</p>\n$$\n\\left(0,\\frac{1}{3}\\right)\n$$\n</li></ol>"
         }
       ]
     }

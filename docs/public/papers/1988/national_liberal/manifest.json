@@ -45,7 +45,7 @@
         },
         {
           "num": 4,
-          "body": "函数 $y = a^{x}$（$0 &#x3C; a &#x3C; 1$）的图象是（ ）",
+          "body": "函数 $y = a^{x}$（$0 < a < 1$）的图象是（ ）",
           "choices": [
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_liberal/q4_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_liberal/q4_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
@@ -53,7 +53,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_liberal/q4_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "B",
-          "solution": "<p>由于 $0&#x3C;a&#x3C;1$，当 $x_{1}&#x3C;x_{2}$ 时，$a^{x_2-x_1}&#x3C;1$，从而</p><p>$a^{x_2}=a^{x_1}a^{x_2-x_1}&#x3C;a^{x_1}$，所以函数在 $\\mathbb{R}$ 上单调递减. 另外，$a^{x}>0$，且 $a^{0}=1$；当 $x\\to+\\infty$ 时，$a^{x}\\to0$，当 $x\\to-\\infty$ 时，$a^{x}\\to+\\infty$. 只有第二个图象同时满足这些性质，因此选 B.</p>"
+          "solution": "<p>由于 $0<a<1$，当 $x_{1}<x_{2}$ 时，$a^{x_2-x_1}<1$，从而</p><p>$a^{x_2}=a^{x_1}a^{x_2-x_1}<a^{x_1}$，所以函数在 $\\mathbb{R}$ 上单调递减. 另外，$a^{x}>0$，且 $a^{0}=1$；当 $x\\to+\\infty$ 时，$a^{x}\\to0$，当 $x\\to-\\infty$ 时，$a^{x}\\to+\\infty$. 只有第二个图象同时满足这些性质，因此选 B.</p>"
         },
         {
           "num": 5,
@@ -125,7 +125,7 @@
             "$a = -1$"
           ],
           "answer": "C",
-          "solution": "<p>两条直线的法向量分别为 $\\left(1,a\\right)$ 和 $\\left(a,1\\right)$. 它们平行的必要条件是法向量平行，即</p><p>$\\begin{vmatrix}1&#x26;a\\\\a&#x26;1\\end{vmatrix}=1-a^{2}=0$，所以只能有 $a=1$ 或 $a=-1$.</p><p>当 $a=1$ 时，两条直线分别为 $x+y=4$ 和 $x+y=2$，左端系数相同而常数项不同，因此平行且不重合. 当 $a=-1$ 时，第一条直线为 $x-y=0$，第二条直线为 $-x+y=0$，二者表示同一条直线，属于重合情形. 因而满足“平行且不重合”的充要条件是 $a=1$，选 C.</p>"
+          "solution": "<p>两条直线的法向量分别为 $\\left(1,a\\right)$ 和 $\\left(a,1\\right)$. 它们平行的必要条件是法向量平行，即</p><p>$\\begin{vmatrix}1&a\\\\a&1\\end{vmatrix}=1-a^{2}=0$，所以只能有 $a=1$ 或 $a=-1$.</p><p>当 $a=1$ 时，两条直线分别为 $x+y=4$ 和 $x+y=2$，左端系数相同而常数项不同，因此平行且不重合. 当 $a=-1$ 时，第一条直线为 $x-y=0$，第二条直线为 $-x+y=0$，二者表示同一条直线，属于重合情形. 因而满足“平行且不重合”的充要条件是 $a=1$，选 C.</p>"
         },
         {
           "num": 11,
@@ -197,7 +197,7 @@
           "body": "求复数 $\\sqrt{3}- \\mathrm{i}$ 的模和辐角的主值，分别为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>，<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$2$，$\\frac{11\\pi}{6}$",
-          "solution": "<p>设 $z=\\sqrt{3}-\\mathrm{i}$. 由模的定义，</p><p>$\\lvert z\\rvert=\\sqrt{\\left(\\sqrt{3}\\right)^{2}+(-1)^{2}}=\\sqrt{4}=2$.</p><p>设辐角主值为 $\\varphi$. 因为实部为正、虚部为负，向量位于第四象限；又</p><p>$\\cos\\varphi=\\dfrac{\\sqrt{3}}{2}$，$\\sin\\varphi=-\\dfrac{1}{2}$. 在本题采用的 $0\\leq\\varphi&#x3C;2\\pi$ 的主值约定下，第四象限对应的角为 $\\varphi=\\dfrac{11\\pi}{6}$. 因而所求的模和辐角主值分别为 $2$、$\\dfrac{11\\pi}{6}$.</p>"
+          "solution": "<p>设 $z=\\sqrt{3}-\\mathrm{i}$. 由模的定义，</p><p>$\\lvert z\\rvert=\\sqrt{\\left(\\sqrt{3}\\right)^{2}+(-1)^{2}}=\\sqrt{4}=2$.</p><p>设辐角主值为 $\\varphi$. 因为实部为正、虚部为负，向量位于第四象限；又</p><p>$\\cos\\varphi=\\dfrac{\\sqrt{3}}{2}$，$\\sin\\varphi=-\\dfrac{1}{2}$. 在本题采用的 $0\\leq\\varphi<2\\pi$ 的主值约定下，第四象限对应的角为 $\\varphi=\\dfrac{11\\pi}{6}$. 因而所求的模和辐角主值分别为 $2$、$\\dfrac{11\\pi}{6}$.</p>"
         },
         {
           "num": 17,
@@ -208,10 +208,10 @@
         },
         {
           "num": 18,
-          "body": "已知 $\\sin\\theta = -\\frac{3}{5}$，$3\\pi &#x3C; \\theta &#x3C; \\frac{7\\pi}{2}$，求 $\\tan\\frac{\\theta}{2}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知 $\\sin\\theta = -\\frac{3}{5}$，$3\\pi < \\theta < \\frac{7\\pi}{2}$，求 $\\tan\\frac{\\theta}{2}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-3$",
-          "solution": "<p>由 $3\\pi&#x3C;\\theta&#x3C;\\dfrac{7\\pi}{2}$，减去 $2\\pi$ 后得到</p><p>$\\pi&#x3C;\\theta-2\\pi&#x3C;\\dfrac{3\\pi}{2}$，所以 $\\theta$ 的终边在第三象限，$\\cos\\theta&#x3C;0$. 因而</p><p>$\\cos^{2}\\theta=1-\\sin^{2}\\theta=1-\\dfrac9{25}=\\dfrac{16}{25}$，结合符号得 $\\cos\\theta=-\\dfrac{4}{5}$.</p><p>半角公式给出</p><p>$\\tan\\dfrac\\theta2=\\dfrac{\\sin\\theta}{1+\\cos\\theta}=\\dfrac{-\\frac{3}{5}}{1-\\frac{4}{5}}=\\dfrac{-\\frac{3}{5}}{\\frac{1}{5}}=-3$，所以填 $-3$.</p>"
+          "solution": "<p>由 $3\\pi<\\theta<\\dfrac{7\\pi}{2}$，减去 $2\\pi$ 后得到</p><p>$\\pi<\\theta-2\\pi<\\dfrac{3\\pi}{2}$，所以 $\\theta$ 的终边在第三象限，$\\cos\\theta<0$. 因而</p><p>$\\cos^{2}\\theta=1-\\sin^{2}\\theta=1-\\dfrac9{25}=\\dfrac{16}{25}$，结合符号得 $\\cos\\theta=-\\dfrac{4}{5}$.</p><p>半角公式给出</p><p>$\\tan\\dfrac\\theta2=\\dfrac{\\sin\\theta}{1+\\cos\\theta}=\\dfrac{-\\frac{3}{5}}{1-\\frac{4}{5}}=\\dfrac{-\\frac{3}{5}}{\\frac{1}{5}}=-3$，所以填 $-3$.</p>"
         },
         {
           "num": 19,
@@ -244,21 +244,21 @@
           "body": "<p>如图，四棱锥 $S - ABCD$ 的底面是边长为 $1$ 的正方形，侧棱 $SB$ 垂直于底面，并且 $SB = \\sqrt{3}$，用 $\\alpha$ 表示 $\\angle ASD$，求 $\\sin\\alpha$ 的值.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>以 $B$ 为原点，取 $BA$、$BC$、$BS$ 分别为 $x$、$y$、$z$ 轴的正向. 因为底面是边长为 $1$ 的正方形，且 $SB\\perp$ 底面、$SB=\\sqrt{3}$，所以</p><p>$B=(0,0,0)$、$A=(1,0,0)$、$C=(0,1,0)$、$D=(1,1,0)$、$S=(0,0,\\sqrt{3})$.</p><p>角 $ASD$ 的两条边对应的向量为 $\\overrightarrow{SA}=A-S=(1,0,-\\sqrt{3})$、$\\overrightarrow{SD}=D-S=(1,1,-\\sqrt{3})$. 因此</p><p>$\\overrightarrow{SA}\\cdot\\overrightarrow{SD}=1+3=4$，并且 $\\lvert\\overrightarrow{SA}\\rvert=\\sqrt{1+3}=2$，$\\lvert\\overrightarrow{SD}\\rvert=\\sqrt{1+1+3}=\\sqrt{5}$.</p><p>由向量夹角公式，$\\cos\\alpha=\\dfrac{\\overrightarrow{SA}\\cdot\\overrightarrow{SD}}{\\lvert\\overrightarrow{SA}\\rvert\\lvert\\overrightarrow{SD}\\rvert}=\\dfrac4{2\\sqrt{5}}=\\dfrac{2\\sqrt{5}}{5}$. 因为 $0&#x3C;\\alpha&#x3C;\\pi$，$\\sin\\alpha>0$，所以</p><p>$\\sin\\alpha=\\sqrt{1-\\cos^{2}\\alpha}=\\sqrt{1-\\dfrac{4}{5}}=\\dfrac{\\sqrt{5}}{5}$.</p>"
+          "solution": "<p>以 $B$ 为原点，取 $BA$、$BC$、$BS$ 分别为 $x$、$y$、$z$ 轴的正向. 因为底面是边长为 $1$ 的正方形，且 $SB\\perp$ 底面、$SB=\\sqrt{3}$，所以</p><p>$B=(0,0,0)$、$A=(1,0,0)$、$C=(0,1,0)$、$D=(1,1,0)$、$S=(0,0,\\sqrt{3})$.</p><p>角 $ASD$ 的两条边对应的向量为 $\\overrightarrow{SA}=A-S=(1,0,-\\sqrt{3})$、$\\overrightarrow{SD}=D-S=(1,1,-\\sqrt{3})$. 因此</p><p>$\\overrightarrow{SA}\\cdot\\overrightarrow{SD}=1+3=4$，并且 $\\lvert\\overrightarrow{SA}\\rvert=\\sqrt{1+3}=2$，$\\lvert\\overrightarrow{SD}\\rvert=\\sqrt{1+1+3}=\\sqrt{5}$.</p><p>由向量夹角公式，$\\cos\\alpha=\\dfrac{\\overrightarrow{SA}\\cdot\\overrightarrow{SD}}{\\lvert\\overrightarrow{SA}\\rvert\\lvert\\overrightarrow{SD}\\rvert}=\\dfrac4{2\\sqrt{5}}=\\dfrac{2\\sqrt{5}}{5}$. 因为 $0<\\alpha<\\pi$，$\\sin\\alpha>0$，所以</p><p>$\\sin\\alpha=\\sqrt{1-\\cos^{2}\\alpha}=\\sqrt{1-\\dfrac{4}{5}}=\\dfrac{\\sqrt{5}}{5}$.</p>"
         },
         {
           "num": 23,
           "body": "在双曲线 $x^{2} - y^{2} = 1$ 的右支上求点 $P(a,b)$，使该点到直线 $y = x$ 的距离为 $\\sqrt{2}$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>直线 $y=x$ 可写为 $x-y=0$，所以点 $P(a,b)$ 到该直线的距离为 $\\dfrac{\\lvert a-b\\rvert}{\\sqrt{1^{2}+(-1)^{2}}}=\\dfrac{\\lvert a-b\\rvert}{\\sqrt{2}}$. 由题意 $\\dfrac{\\lvert a-b\\rvert}{\\sqrt{2}}=\\sqrt{2}$，从而 $\\lvert a-b\\rvert=2$，需要分两种情况.</p><p>当 $a-b=2$ 时，双曲线方程给出 $1=a^{2}-b^{2}=(a-b)(a+b)=2(a+b)$，所以 $a+b=\\dfrac{1}{2}$. 联立两式，</p><p>$a=\\dfrac{(a-b)+(a+b)}2=\\dfrac{2+\\frac{1}{2}}{2}=\\dfrac{5}{4}$，$b=\\dfrac{(a+b)-(a-b)}2=\\dfrac{\\frac{1}{2}-2}{2}=-\\dfrac{3}{4}$. 此时 $a=\\dfrac{5}{4}>0$，确实在双曲线右支上.</p><p>当 $a-b=-2$ 时，$1=(a-b)(a+b)=-2(a+b)$，所以 $a+b=-\\dfrac{1}{2}$. 于是 $a=\\dfrac{-2-\\frac{1}{2}}{2}=-\\dfrac{5}{4}&#x3C;0$，该点在左支上，不符合右支条件.</p><p>因此所求点为 $P\\left(\\dfrac{5}{4},-\\dfrac{3}{4}\\right)$.</p>"
+          "solution": "<p>直线 $y=x$ 可写为 $x-y=0$，所以点 $P(a,b)$ 到该直线的距离为 $\\dfrac{\\lvert a-b\\rvert}{\\sqrt{1^{2}+(-1)^{2}}}=\\dfrac{\\lvert a-b\\rvert}{\\sqrt{2}}$. 由题意 $\\dfrac{\\lvert a-b\\rvert}{\\sqrt{2}}=\\sqrt{2}$，从而 $\\lvert a-b\\rvert=2$，需要分两种情况.</p><p>当 $a-b=2$ 时，双曲线方程给出 $1=a^{2}-b^{2}=(a-b)(a+b)=2(a+b)$，所以 $a+b=\\dfrac{1}{2}$. 联立两式，</p><p>$a=\\dfrac{(a-b)+(a+b)}2=\\dfrac{2+\\frac{1}{2}}{2}=\\dfrac{5}{4}$，$b=\\dfrac{(a+b)-(a-b)}2=\\dfrac{\\frac{1}{2}-2}{2}=-\\dfrac{3}{4}$. 此时 $a=\\dfrac{5}{4}>0$，确实在双曲线右支上.</p><p>当 $a-b=-2$ 时，$1=(a-b)(a+b)=-2(a+b)$，所以 $a+b=-\\dfrac{1}{2}$. 于是 $a=\\dfrac{-2-\\frac{1}{2}}{2}=-\\dfrac{5}{4}<0$，该点在左支上，不符合右支条件.</p><p>因此所求点为 $P\\left(\\dfrac{5}{4},-\\dfrac{3}{4}\\right)$.</p>"
         },
         {
           "num": 24,
-          "body": "解不等式：$\\lg\\left(x-\\frac{1}{x}\\right) &#x3C; 0$.",
+          "body": "解不等式：$\\lg\\left(x-\\frac{1}{x}\\right) < 0$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $\\lg u$（底数为 $10$）在 $u>0$ 上单调递增，所以原不等式等价于 $0&#x3C;x-\\dfrac{1}{x}&#x3C;1$. 先解定义域条件：$x-\\dfrac{1}{x}=\\dfrac{(x-1)(x+1)}x>0$. 由关键点 $-1$、$0$、$1$ 分段作符号判断，得到 $x\\in(-1,0)\\cup(1,+\\infty)$.</p><p>在区间 $(-1,0)$ 内，解 $x-\\dfrac{1}{x}&#x3C;1$ 时乘以负数 $x$，不等号方向改变，得到 $x^{2}-x-1>0$. 在区间 $(1,+\\infty)$ 内乘以正数 $x$，得到 $x^{2}-x-1&#x3C;0$. 方程 $x^{2}-x-1=0$ 的根为 $r_{1}=\\dfrac{1-\\sqrt{5}}{2}$、$r_{2}=\\dfrac{1+\\sqrt{5}}{2}$，且 $r_{1}\\in(-1,0)$、$r_{2}>1$.</p><p>因此在 $(-1,0)$ 内取 $(-1,r_{1})$，在 $(1,+\\infty)$ 内取 $(1,r_{2})$. 原不等式的解集为 $\\left(-1,\\dfrac{1-\\sqrt{5}}{2}\\right)\\cup\\left(1,\\dfrac{1+\\sqrt{5}}{2}\\right)$.</p>"
+          "solution": "<p>因为 $\\lg u$（底数为 $10$）在 $u>0$ 上单调递增，所以原不等式等价于 $0<x-\\dfrac{1}{x}<1$. 先解定义域条件：$x-\\dfrac{1}{x}=\\dfrac{(x-1)(x+1)}x>0$. 由关键点 $-1$、$0$、$1$ 分段作符号判断，得到 $x\\in(-1,0)\\cup(1,+\\infty)$.</p><p>在区间 $(-1,0)$ 内，解 $x-\\dfrac{1}{x}<1$ 时乘以负数 $x$，不等号方向改变，得到 $x^{2}-x-1>0$. 在区间 $(1,+\\infty)$ 内乘以正数 $x$，得到 $x^{2}-x-1<0$. 方程 $x^{2}-x-1=0$ 的根为 $r_{1}=\\dfrac{1-\\sqrt{5}}{2}$、$r_{2}=\\dfrac{1+\\sqrt{5}}{2}$，且 $r_{1}\\in(-1,0)$、$r_{2}>1$.</p><p>因此在 $(-1,0)$ 内取 $(-1,r_{1})$，在 $(1,+\\infty)$ 内取 $(1,r_{2})$. 原不等式的解集为 $\\left(-1,\\dfrac{1-\\sqrt{5}}{2}\\right)\\cup\\left(1,\\dfrac{1+\\sqrt{5}}{2}\\right)$.</p>"
         },
         {
           "num": 25,

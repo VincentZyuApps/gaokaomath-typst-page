@@ -113,7 +113,7 @@
             "$2-\\dfrac1{2^7}$"
           ],
           "answer": "C",
-          "solution": "循环过程给出 $s=1+\\dfrac{1}{2}+\\dfrac1{2^2}+\\cdots+\\dfrac1{2^5}$，且此时下一次的 $x=\\dfrac1{2^6}&#x3C;0.01$. 因此 $s=2-\\dfrac1{2^6}$. 故选 C."
+          "solution": "循环过程给出 $s=1+\\dfrac{1}{2}+\\dfrac1{2^2}+\\cdots+\\dfrac1{2^5}$，且此时下一次的 $x=\\dfrac1{2^6}<0.01$. 因此 $s=2-\\dfrac1{2^6}$. 故选 C."
         },
         {
           "num": 10,
@@ -149,7 +149,7 @@
             "$f\\!\\left(2^{-\\frac{2}{3}}\\right)>f\\!\\left(2^{-\\frac{3}{2}}\\right)>f\\!\\left(\\log_{3}\\frac{1}{4}\\right)$"
           ],
           "answer": "C",
-          "solution": "因为 $f$ 是偶函数，所以 $f\\!\\left(\\log_{3}\\dfrac{1}{4}\\right)=f\\!\\left(\\log_{3} 4\\right)$. 又因为 $0&#x3C;2^{-\\frac{3}{2}}&#x3C;2^{-\\frac{2}{3}}&#x3C;1&#x3C;\\log_{3} 4$，且 $f(x)$ 在 $(0,+\\infty)$ 单调递减，所以 $f\\!\\left(2^{-\\frac{3}{2}}\\right)>f\\!\\left(2^{-\\frac{2}{3}}\\right)>f\\!\\left(\\log_{3}\\dfrac{1}{4}\\right)$. 故选 C."
+          "solution": "因为 $f$ 是偶函数，所以 $f\\!\\left(\\log_{3}\\dfrac{1}{4}\\right)=f\\!\\left(\\log_{3} 4\\right)$. 又因为 $0<2^{-\\frac{3}{2}}<2^{-\\frac{2}{3}}<1<\\log_{3} 4$，且 $f(x)$ 在 $(0,+\\infty)$ 单调递减，所以 $f\\!\\left(2^{-\\frac{3}{2}}\\right)>f\\!\\left(2^{-\\frac{2}{3}}\\right)>f\\!\\left(\\log_{3}\\dfrac{1}{4}\\right)$. 故选 C."
         }
       ]
     },
@@ -175,7 +175,7 @@
           "body": "设 $F_{1}$，$F_{2}$ 为椭圆 $C:\\dfrac{x^2}{36}+\\dfrac{y^2}{20}=1$ 的两个焦点，$M$ 为 $C$ 上一点且在第一象限. 若 $\\triangle MF_{1}F_{2}$ 为等腰三角形，则 $M$ 的坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(3,\\sqrt{15})$",
-          "solution": "<p>设 $M=(m,n)$，且 $m$，$n>0$. 椭圆 $C$ 的 $a=6$，$b=2\\sqrt{5}$，$c=4$，$e=\\dfrac{c}{a}=\\dfrac{2}{3}$. 由于 $M$ 为 $C$ 上一点且在第一象限，可得 $|MF_{1}|>|MF_{2}|$. 又 $\\triangle MF_{1}F_{2}$ 为等腰三角形，所以可能有 $|MF_{1}|=2c$ 或 $|MF_{2}|=2c$.</p><p>由椭圆的焦半径公式，$|MF_{1}|=a+em=6+\\dfrac{2}{3}m$，$|MF_{2}|=a-em=6-\\dfrac{2}{3}m$. 若 $6+\\dfrac{2}{3}m=8$，则 $m=3$，代入椭圆方程得 $n=\\sqrt{15}$. 若 $6-\\dfrac{2}{3}m=8$，则 $m=-3&#x3C;0$，舍去.</p><p>故 $M=(3,\\sqrt{15})$.</p>"
+          "solution": "<p>设 $M=(m,n)$，且 $m$，$n>0$. 椭圆 $C$ 的 $a=6$，$b=2\\sqrt{5}$，$c=4$，$e=\\dfrac{c}{a}=\\dfrac{2}{3}$. 由于 $M$ 为 $C$ 上一点且在第一象限，可得 $|MF_{1}|>|MF_{2}|$. 又 $\\triangle MF_{1}F_{2}$ 为等腰三角形，所以可能有 $|MF_{1}|=2c$ 或 $|MF_{2}|=2c$.</p><p>由椭圆的焦半径公式，$|MF_{1}|=a+em=6+\\dfrac{2}{3}m$，$|MF_{2}|=a-em=6-\\dfrac{2}{3}m$. 若 $6+\\dfrac{2}{3}m=8$，则 $m=3$，代入椭圆方程得 $n=\\sqrt{15}$. 若 $6-\\dfrac{2}{3}m=8$，则 $m=-3<0$，舍去.</p><p>故 $M=(3,\\sqrt{15})$.</p>"
         },
         {
           "num": 16,
@@ -201,7 +201,7 @@
           "body": "<p>$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $a\\sin\\frac{A+C}{2}=b\\sin A$.</p><ol class=\"enumerate\"><li><p>求 $B$；</p></li><li><p>若 $\\triangle ABC$ 为锐角三角形，且 $c=1$，求 $\\triangle ABC$ 面积的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $A+B+C=\\pi$，可得 $\\dfrac{A+C}{2}=\\dfrac{\\pi-B}{2}$. 因此 $a\\sin\\dfrac{A+C}{2}=b\\sin A$，即 $a\\sin\\dfrac{\\pi-B}{2}=a\\cos\\dfrac{B}{2}=b\\sin A$. 由正弦定理，$a=2R\\sin A$，$b=2R\\sin B$，所以 $\\sin A\\cos\\dfrac{B}{2}=\\sin B\\sin A=2\\sin\\dfrac{B}{2}\\cos\\dfrac{B}{2}\\sin A$. 因为 $\\sin A>0$，所以 $\\cos\\dfrac{B}{2}=2\\sin\\dfrac{B}{2}\\cos\\dfrac{B}{2}$. 若 $\\cos\\dfrac{B}{2}=0$，则 $B=(2k+1)\\pi$（$k\\in\\mathbb{Z}$）不成立；因此 $\\sin\\dfrac{B}{2}=\\dfrac{1}{2}$. 又 $0&#x3C;B&#x3C;\\pi$，故 $B=\\dfrac{\\pi}{3}$.</p></li><li><p>若 $\\triangle ABC$ 为锐角三角形，且 $c=1$，由余弦定理可得 $b=\\sqrt{a^{2}+1-2a\\cos\\dfrac{\\pi}{3}}=\\sqrt{a^{2}-a+1}$. 由 $\\triangle ABC$ 为锐角三角形，可得 $a^{2}+a^{2}-a+1>1$，$1+a^{2}-a+1>a^{2}$，解得 $\\dfrac{1}{2}&#x3C;a&#x3C;2$. 于是 $S_{\\triangle ABC}=\\dfrac{1}{2}a\\cdot1\\cdot\\sin\\dfrac{\\pi}{3}=\\dfrac{\\sqrt{3}}{4}a$，故 $S_{\\triangle ABC}\\in\\left(\\dfrac{\\sqrt{3}}{8},\\dfrac{\\sqrt{3}}{2}\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $A+B+C=\\pi$，可得 $\\dfrac{A+C}{2}=\\dfrac{\\pi-B}{2}$. 因此 $a\\sin\\dfrac{A+C}{2}=b\\sin A$，即 $a\\sin\\dfrac{\\pi-B}{2}=a\\cos\\dfrac{B}{2}=b\\sin A$. 由正弦定理，$a=2R\\sin A$，$b=2R\\sin B$，所以 $\\sin A\\cos\\dfrac{B}{2}=\\sin B\\sin A=2\\sin\\dfrac{B}{2}\\cos\\dfrac{B}{2}\\sin A$. 因为 $\\sin A>0$，所以 $\\cos\\dfrac{B}{2}=2\\sin\\dfrac{B}{2}\\cos\\dfrac{B}{2}$. 若 $\\cos\\dfrac{B}{2}=0$，则 $B=(2k+1)\\pi$（$k\\in\\mathbb{Z}$）不成立；因此 $\\sin\\dfrac{B}{2}=\\dfrac{1}{2}$. 又 $0<B<\\pi$，故 $B=\\dfrac{\\pi}{3}$.</p></li><li><p>若 $\\triangle ABC$ 为锐角三角形，且 $c=1$，由余弦定理可得 $b=\\sqrt{a^{2}+1-2a\\cos\\dfrac{\\pi}{3}}=\\sqrt{a^{2}-a+1}$. 由 $\\triangle ABC$ 为锐角三角形，可得 $a^{2}+a^{2}-a+1>1$，$1+a^{2}-a+1>a^{2}$，解得 $\\dfrac{1}{2}<a<2$. 于是 $S_{\\triangle ABC}=\\dfrac{1}{2}a\\cdot1\\cdot\\sin\\dfrac{\\pi}{3}=\\dfrac{\\sqrt{3}}{4}a$，故 $S_{\\triangle ABC}\\in\\left(\\dfrac{\\sqrt{3}}{8},\\dfrac{\\sqrt{3}}{2}\\right)$.</p></li></ol>"
         },
         {
           "num": 19,
@@ -212,10 +212,10 @@
         },
         {
           "num": 20,
-          "body": "<p>已知函数 $f(x)=2x^{3}-ax^{2}+2$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>当 $0&#x3C;a&#x3C;3$ 时，记 $f(x)$ 在区间 $[0,1]$ 的最大值为 $M$，最小值为 $m$，求 $M-m$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知函数 $f(x)=2x^{3}-ax^{2}+2$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>当 $0<a<3$ 时，记 $f(x)$ 在区间 $[0,1]$ 的最大值为 $M$，最小值为 $m$，求 $M-m$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=6x^{2}-2ax=2x(3x-a)$.</p><p>令 $f'(x)=0$，得 $x=0$ 或 $x=\\dfrac{a}{3}$.</p><p>若 $a>0$，则当 $x\\in(-\\infty,0)\\cup\\left(\\dfrac{a}{3},+\\infty\\right)$ 时，$f'(x)>0$；当 $x\\in\\left(0,\\dfrac{a}{3}\\right)$ 时，$f'(x)&#x3C;0$.</p><p>故 $f(x)$ 在 $(-\\infty,0)$，$\\left(\\dfrac{a}{3},+\\infty\\right)$ 上单调递增，在 $\\left(0,\\dfrac{a}{3}\\right)$ 上单调递减.</p><p>若 $a=0$，则 $f(x)$ 在 $(-\\infty,+\\infty)$ 上单调递增.</p><p>若 $a&#x3C;0$，则当 $x\\in\\left(-\\infty,\\dfrac{a}{3}\\right)\\cup(0,+\\infty)$ 时，$f'(x)>0$；当 $x\\in\\left(\\dfrac{a}{3},0\\right)$ 时，$f'(x)&#x3C;0$.</p><p>故 $f(x)$ 在 $\\left(-\\infty,\\dfrac{a}{3}\\right)$，$(0,+\\infty)$ 上单调递增，在 $\\left(\\dfrac{a}{3},0\\right)$ 上单调递减.</p></li><li><p>当 $0&#x3C;a&#x3C;3$ 时，由（1）知，$f(x)$ 在 $\\left(0,\\dfrac{a}{3}\\right)$ 上单调递减，在 $\\left(\\dfrac{a}{3},1\\right)$ 上单调递增.</p><p>因此 $f(x)$ 在区间 $[0,1]$ 的最小值为 $f\\!\\left(\\frac{a}{3}\\right)=2-\\frac{a^{3}}{27}$，最大值为 $f(0)=2$ 或 $f(1)=4-a$.</p><p>于是 $m=2-\\dfrac{a^3}{27}$，$M=\\begin{cases}4-a,&#x26;0&#x3C;a&#x3C;2,\\\\  2,&#x26;2\\le a&#x3C;3.\\end{cases}$.</p><p>故 $M-m=\\begin{cases}2-a+\\dfrac{a^3}{27},&#x26;0&#x3C;a&#x3C;2,\\\\[6pt]  \\dfrac{a^3}{27},&#x26;2\\le a&#x3C;3.\\end{cases}$.</p><p>当 $0&#x3C;a&#x3C;2$ 时，$2-a+\\dfrac{a^3}{27}$ 单调递减，所以 $M-m$ 的取值范围是 $\\left(\\dfrac{8}{27},2\\right)$.</p><p>当 $2\\le a&#x3C;3$ 时，$\\dfrac{a^3}{27}$ 单调递增，所以 $M-m$ 的取值范围是 $\\left[\\dfrac{8}{27},1\\right)$.</p><p>综上，$M-m\\in\\left[\\frac{8}{27},2\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=6x^{2}-2ax=2x(3x-a)$.</p><p>令 $f'(x)=0$，得 $x=0$ 或 $x=\\dfrac{a}{3}$.</p><p>若 $a>0$，则当 $x\\in(-\\infty,0)\\cup\\left(\\dfrac{a}{3},+\\infty\\right)$ 时，$f'(x)>0$；当 $x\\in\\left(0,\\dfrac{a}{3}\\right)$ 时，$f'(x)<0$.</p><p>故 $f(x)$ 在 $(-\\infty,0)$，$\\left(\\dfrac{a}{3},+\\infty\\right)$ 上单调递增，在 $\\left(0,\\dfrac{a}{3}\\right)$ 上单调递减.</p><p>若 $a=0$，则 $f(x)$ 在 $(-\\infty,+\\infty)$ 上单调递增.</p><p>若 $a<0$，则当 $x\\in\\left(-\\infty,\\dfrac{a}{3}\\right)\\cup(0,+\\infty)$ 时，$f'(x)>0$；当 $x\\in\\left(\\dfrac{a}{3},0\\right)$ 时，$f'(x)<0$.</p><p>故 $f(x)$ 在 $\\left(-\\infty,\\dfrac{a}{3}\\right)$，$(0,+\\infty)$ 上单调递增，在 $\\left(\\dfrac{a}{3},0\\right)$ 上单调递减.</p></li><li><p>当 $0<a<3$ 时，由（1）知，$f(x)$ 在 $\\left(0,\\dfrac{a}{3}\\right)$ 上单调递减，在 $\\left(\\dfrac{a}{3},1\\right)$ 上单调递增.</p><p>因此 $f(x)$ 在区间 $[0,1]$ 的最小值为 $f\\!\\left(\\frac{a}{3}\\right)=2-\\frac{a^{3}}{27}$，最大值为 $f(0)=2$ 或 $f(1)=4-a$.</p><p>于是 $m=2-\\dfrac{a^3}{27}$，$M=\\begin{cases}4-a,&0<a<2,\\\\  2,&2\\le a<3.\\end{cases}$.</p><p>故 $M-m=\\begin{cases}2-a+\\dfrac{a^3}{27},&0<a<2,\\\\[6pt]  \\dfrac{a^3}{27},&2\\le a<3.\\end{cases}$.</p><p>当 $0<a<2$ 时，$2-a+\\dfrac{a^3}{27}$ 单调递减，所以 $M-m$ 的取值范围是 $\\left(\\dfrac{8}{27},2\\right)$.</p><p>当 $2\\le a<3$ 时，$\\dfrac{a^3}{27}$ 单调递增，所以 $M-m$ 的取值范围是 $\\left[\\dfrac{8}{27},1\\right)$.</p><p>综上，$M-m\\in\\left[\\frac{8}{27},2\\right)$.</p></li></ol>"
         },
         {
           "num": 21,

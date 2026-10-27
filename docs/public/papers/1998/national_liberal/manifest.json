@@ -173,7 +173,7 @@
             "$\\frac{\\sqrt{2\\sqrt{5}+2}}{2}$"
           ],
           "answer": "C",
-          "solution": "设直角三角形的两个锐角按大小记为 $0&#x3C;\\alpha\\le\\beta&#x3C;\\frac{\\pi}{2}$. 若 $\\alpha=\\beta$，则三项正弦值中前两项相等，等比条件将给出 $\\sin^{2}\\alpha=\\sin\\alpha$，这与 $0&#x3C;\\sin\\alpha&#x3C;1$ 矛盾，故 $0&#x3C;\\alpha&#x3C;\\beta&#x3C;\\frac{\\pi}{2}$. 三个内角的正弦值按从小到大排列为 $\\sin\\alpha$、$\\sin\\beta$、$1$，成等比数列，因此 $\\sin^{2}\\beta=\\sin\\alpha$. 又 $\\alpha+\\beta=\\frac{\\pi}{2}$，所以 $\\sin\\alpha=\\cos\\beta$. 令 $s=\\sin\\alpha$，则 $\\sin\\beta=\\sqrt{1-s^{2}}$，等比条件给出 $1-s^{2}=s$，即 $s^{2}+s-1=0$. 因为 $s>0$，所以 $s=\\frac{\\sqrt{5}-1}{2}$. 因此正确选项为 C."
+          "solution": "设直角三角形的两个锐角按大小记为 $0<\\alpha\\le\\beta<\\frac{\\pi}{2}$. 若 $\\alpha=\\beta$，则三项正弦值中前两项相等，等比条件将给出 $\\sin^{2}\\alpha=\\sin\\alpha$，这与 $0<\\sin\\alpha<1$ 矛盾，故 $0<\\alpha<\\beta<\\frac{\\pi}{2}$. 三个内角的正弦值按从小到大排列为 $\\sin\\alpha$、$\\sin\\beta$、$1$，成等比数列，因此 $\\sin^{2}\\beta=\\sin\\alpha$. 又 $\\alpha+\\beta=\\frac{\\pi}{2}$，所以 $\\sin\\alpha=\\cos\\beta$. 令 $s=\\sin\\alpha$，则 $\\sin\\beta=\\sqrt{1-s^{2}}$，等比条件给出 $1-s^{2}=s$，即 $s^{2}+s-1=0$. 因为 $s>0$，所以 $s=\\frac{\\sqrt{5}-1}{2}$. 因此正确选项为 C."
         },
         {
           "num": 15,
@@ -185,7 +185,7 @@
             "$\\pm \\frac{\\sqrt{6}}{2}$"
           ],
           "answer": "D",
-          "solution": "<p>等比数列的公比为 $q=-\\frac{1}{2}$，且 $|q|&#x3C;1$，所以</p><p>$\\displaystyle\\lim_{n\\to\\infty}S_{n}=\\frac{a_{1}}{1-q}=\\frac{2a_{1}}{3}$. 由题设</p><p>$\\frac{2a_{1}}{3}=\\frac{1}{a_{1}}$，得 $2a_{1}^{2}=3$. 因而</p><p>$a_{1}=\\pm\\sqrt{\\frac{3}{2}}=\\pm\\frac{\\sqrt{6}}{2}$，故选 D.</p>"
+          "solution": "<p>等比数列的公比为 $q=-\\frac{1}{2}$，且 $|q|<1$，所以</p><p>$\\displaystyle\\lim_{n\\to\\infty}S_{n}=\\frac{a_{1}}{1-q}=\\frac{2a_{1}}{3}$. 由题设</p><p>$\\frac{2a_{1}}{3}=\\frac{1}{a_{1}}$，得 $2a_{1}^{2}=3$. 因而</p><p>$a_{1}=\\pm\\sqrt{\\frac{3}{2}}=\\pm\\frac{\\sqrt{6}}{2}$，故选 D.</p>"
         }
       ]
     },
@@ -237,7 +237,7 @@
           "body": "在 $\\triangle ABC$ 中，$a$，$b$，$c$ 分别是 $A$，$B$，$C$ 的对边，设 $a + c = 2b$，$A - C = \\frac{\\pi}{3}$，求 $\\sin B$ 的值.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由正弦定理，$a+c=2b$ 等价于 $\\sin A+\\sin C=2\\sin B$. 由和差化积公式及 $A-C=\\frac{\\pi}{3}$，有 $\\sin A+\\sin C=2\\sin\\frac{A+C}{2}\\cos\\frac{\\pi}{6}$. 又因为 $A+B+C=\\pi$，所以 $\\sin\\frac{A+C}{2}=\\cos\\frac{B}{2}$. 因而</p>\n$$\n\\sqrt{3}\\cos\\frac{B}{2}=2\\sin B=4\\sin\\frac{B}{2}\\cos\\frac{B}{2}\n$$\n<p>三角形内角满足 $0&#x3C;B&#x3C;\\pi$，故 $\\cos\\frac{B}{2}>0$，约去后得 $\\sin\\frac{B}{2}=\\frac{\\sqrt{3}}{4}$. 于是 $\\cos\\frac{B}{2}=\\sqrt{1-\\frac{3}{16}}=\\frac{\\sqrt{13}}{4}$，从而 $\\sin B=2\\sin\\frac{B}{2}\\cos\\frac{B}{2}=\\frac{\\sqrt{39}}{8}$.</p>"
+          "solution": "<p>由正弦定理，$a+c=2b$ 等价于 $\\sin A+\\sin C=2\\sin B$. 由和差化积公式及 $A-C=\\frac{\\pi}{3}$，有 $\\sin A+\\sin C=2\\sin\\frac{A+C}{2}\\cos\\frac{\\pi}{6}$. 又因为 $A+B+C=\\pi$，所以 $\\sin\\frac{A+C}{2}=\\cos\\frac{B}{2}$. 因而</p>\n$$\n\\sqrt{3}\\cos\\frac{B}{2}=2\\sin B=4\\sin\\frac{B}{2}\\cos\\frac{B}{2}\n$$\n<p>三角形内角满足 $0<B<\\pi$，故 $\\cos\\frac{B}{2}>0$，约去后得 $\\sin\\frac{B}{2}=\\frac{\\sqrt{3}}{4}$. 于是 $\\cos\\frac{B}{2}=\\sqrt{1-\\frac{3}{16}}=\\frac{\\sqrt{13}}{4}$，从而 $\\sin B=2\\sin\\frac{B}{2}\\cos\\frac{B}{2}=\\frac{\\sqrt{39}}{8}$.</p>"
         },
         {
           "num": 22,
@@ -265,7 +265,7 @@
           "body": "<p>已知数列 $\\{b_{n}\\}$ 是等差数列，$b_{1}= 1$，$b_{1}+ b_{2}+ \\cdots + b_{10}= 145$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{b_{n}\\}$ 的通项 $b_{n}$；</p></li><li><p>设数列 $\\{a_{n}\\}$ 的通项 $a_{n} = \\lg\\left(1 + \\frac{1}{b_{n}}\\right)$（其中 $a > 0$，且 $a \\neq 1$），记 $S_{n}$ 是数列 $\\{a_{n}\\}$ 的前 $n$ 项和. 试比较 $S_{n}$ 与 $\\frac{1}{2}\\lg b_{n} + 1$ 的大小，并证明你的结论.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设等差数列 $\\{b_{n}\\}$ 的公差为 $d$. 由 $b_{1}=1$ 和前十项和公式，得 $145=\\frac{10}{2}\\bigl(2+9d\\bigr)$，所以 $d=3$，从而 $b_{n}=1+3(n-1)=3n-2$.</p><p>由此 $b_{n}>0$，且 $a_{n}=\\lg\\left(1+\\frac{1}{b_{n}}\\right)=\\lg\\frac{3n-1}{3n-2}$. 令</p><p>$P_{n}=\\prod_{k=1}^{n}\\frac{3k-1}{3k-2}$，则</p><p>$S_{n}=\\sum_{k=1}^{n}\\lg\\frac{3k-1}{3k-2}=\\lg P_{n}$. 令</p><p>$R_{n}=\\frac{P_{n}}{\\sqrt{b_{n}}}=\\frac{1}{\\sqrt{3n-2}}\\prod_{k=1}^{n}\\frac{3k-1}{3k-2}$.</p><p>为判断 $R_{n}$ 的大小，计算得</p>\n$$\n\\left(\\frac{R_{n+1}}{R_{n}}\\right)^{2}  =\\frac{(3n+2)^{2}(3n-2)}{(3n+1)^{3}}\n$$\n<p>又</p>\n$$\n(3n+1)^{3}-(3n-2)(3n+2)^{2}=9n^{2}+21n+9>0\n$$\n<p>所以 $R_{n+1}&#x3C;R_{n}$. 由于 $R_{1}=2$，可得 $R_{n}\\leqslant2&#x3C;10$，即</p><p>$P_{n}&#x3C;10\\sqrt{b_{n}}$. 取常用对数并利用 $\\lg x$ 的增性，得</p><p>$S_{n}=\\lg P_{n}&#x3C;\\lg\\left(10\\sqrt{b_{n}}\\right)=1+\\frac{1}{2}\\lg b_{n}$.</p><p>因此，对任意正整数 $n$，都有 $S_{n}&#x3C;\\frac{1}{2}\\lg b_{n}+1$.</p>"
+          "solution": "<p>设等差数列 $\\{b_{n}\\}$ 的公差为 $d$. 由 $b_{1}=1$ 和前十项和公式，得 $145=\\frac{10}{2}\\bigl(2+9d\\bigr)$，所以 $d=3$，从而 $b_{n}=1+3(n-1)=3n-2$.</p><p>由此 $b_{n}>0$，且 $a_{n}=\\lg\\left(1+\\frac{1}{b_{n}}\\right)=\\lg\\frac{3n-1}{3n-2}$. 令</p><p>$P_{n}=\\prod_{k=1}^{n}\\frac{3k-1}{3k-2}$，则</p><p>$S_{n}=\\sum_{k=1}^{n}\\lg\\frac{3k-1}{3k-2}=\\lg P_{n}$. 令</p><p>$R_{n}=\\frac{P_{n}}{\\sqrt{b_{n}}}=\\frac{1}{\\sqrt{3n-2}}\\prod_{k=1}^{n}\\frac{3k-1}{3k-2}$.</p><p>为判断 $R_{n}$ 的大小，计算得</p>\n$$\n\\left(\\frac{R_{n+1}}{R_{n}}\\right)^{2}  =\\frac{(3n+2)^{2}(3n-2)}{(3n+1)^{3}}\n$$\n<p>又</p>\n$$\n(3n+1)^{3}-(3n-2)(3n+2)^{2}=9n^{2}+21n+9>0\n$$\n<p>所以 $R_{n+1}<R_{n}$. 由于 $R_{1}=2$，可得 $R_{n}\\leqslant2<10$，即</p><p>$P_{n}<10\\sqrt{b_{n}}$. 取常用对数并利用 $\\lg x$ 的增性，得</p><p>$S_{n}=\\lg P_{n}<\\lg\\left(10\\sqrt{b_{n}}\\right)=1+\\frac{1}{2}\\lg b_{n}$.</p><p>因此，对任意正整数 $n$，都有 $S_{n}<\\frac{1}{2}\\lg b_{n}+1$.</p>"
         }
       ]
     }

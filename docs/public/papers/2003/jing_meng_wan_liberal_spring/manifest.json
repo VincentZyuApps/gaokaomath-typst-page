@@ -57,12 +57,12 @@
         },
         {
           "num": 5,
-          "body": "<p>若 $A$，$B$，$C$ 是 $\\triangle ABC$ 的三个内角，且 $A&#x3C;B&#x3C;C$（$C\\neq\\dfrac{\\pi}{2}$），则下列结论中正确的是（ ）</p><p><span class=\"macro macro-answer\"></span>C</p><p>由 $A+B+C=\\pi$ 以及 $A&#x3C;B&#x3C;C$，可得 $A&#x3C;\\dfrac{\\pi}{3}$，$C>\\dfrac{\\pi}{3}$.</p><p>若 $C&#x3C;\\dfrac{\\pi}{2}$，则正弦函数在 $\\left(0,\\dfrac{\\pi}{2}\\right)$ 上递增，因而 $\\sin A&#x3C;\\sin C$. 若 $C>\\dfrac{\\pi}{2}$，则 $A+B=\\pi-C&#x3C;\\dfrac{\\pi}{2}$，并且 $A+B>A$，所以 $\\sin C=\\sin(A+B)>\\sin A$. 因此选项 C 对所有情况都成立.</p><p>余切函数和余弦函数在 $(0,\\pi)$ 上均递减，故 $A&#x3C;C$ 时有 $\\cot A>\\cot C$ 和 $\\cos A>\\cos C$，选项 B、D 错误. 当 $C>\\dfrac{\\pi}{2}$ 时，$\\tan A>0>\\tan C$，选项 A 也不成立. 故选 C.</p>",
+          "body": "<p>若 $A$，$B$，$C$ 是 $\\triangle ABC$ 的三个内角，且 $A<B<C$（$C\\neq\\dfrac{\\pi}{2}$），则下列结论中正确的是（ ）</p><p><span class=\"macro macro-answer\"></span>C</p><p>由 $A+B+C=\\pi$ 以及 $A<B<C$，可得 $A<\\dfrac{\\pi}{3}$，$C>\\dfrac{\\pi}{3}$.</p><p>若 $C<\\dfrac{\\pi}{2}$，则正弦函数在 $\\left(0,\\dfrac{\\pi}{2}\\right)$ 上递增，因而 $\\sin A<\\sin C$. 若 $C>\\dfrac{\\pi}{2}$，则 $A+B=\\pi-C<\\dfrac{\\pi}{2}$，并且 $A+B>A$，所以 $\\sin C=\\sin(A+B)>\\sin A$. 因此选项 C 对所有情况都成立.</p><p>余切函数和余弦函数在 $(0,\\pi)$ 上均递减，故 $A<C$ 时有 $\\cot A>\\cot C$ 和 $\\cos A>\\cos C$，选项 B、D 错误. 当 $C>\\dfrac{\\pi}{2}$ 时，$\\tan A>0>\\tan C$，选项 A 也不成立. 故选 C.</p>",
           "choices": [
-            "$\\tan A&#x3C;\\tan C$",
-            "$\\cot A&#x3C;\\cot C$",
-            "$\\sin A&#x3C;\\sin C$",
-            "$\\cos A&#x3C;\\cos C$"
+            "$\\tan A<\\tan C$",
+            "$\\cot A<\\cot C$",
+            "$\\sin A<\\sin C$",
+            "$\\cos A<\\cos C$"
           ],
           "answer": "",
           "solution": ""
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "<p>在同一坐标系中，方程 $a^{2}x^{2}+b^{2}y^{2}=1$ 与 $ax+by^{2}=0$（$a>b>0$）的曲线大致是（ ）</p><p><span class=\"macro macro-answer\"></span>D</p><p>将第一个方程写成</p>\n$$\n\\frac{x^{2}}{\\frac{1}{a^{2}}}+\\frac{y^{2}}{\\frac{1}{b^{2}}}=1\n$$\n<p>由于 $a>b>0$，有 $\\frac{1}{a}&#x3C;\\frac{1}{b}$，所以它表示长轴在 $y$ 轴上的椭圆.</p><p>第二个方程可化为</p>\n$$\ny^{2}=-\\frac{a}{b}x\n$$\n<p>因为 $\\frac{a}{b}>0$，这是顶点在原点、关于 $x$ 轴对称并向左开口的抛物线. 因此应选图形 D.</p>",
+          "body": "<p>在同一坐标系中，方程 $a^{2}x^{2}+b^{2}y^{2}=1$ 与 $ax+by^{2}=0$（$a>b>0$）的曲线大致是（ ）</p><p><span class=\"macro macro-answer\"></span>D</p><p>将第一个方程写成</p>\n$$\n\\frac{x^{2}}{\\frac{1}{a^{2}}}+\\frac{y^{2}}{\\frac{1}{b^{2}}}=1\n$$\n<p>由于 $a>b>0$，有 $\\frac{1}{a}<\\frac{1}{b}$，所以它表示长轴在 $y$ 轴上的椭圆.</p><p>第二个方程可化为</p>\n$$\ny^{2}=-\\frac{a}{b}x\n$$\n<p>因为 $\\frac{a}{b}>0$，这是顶点在原点、关于 $x$ 轴对称并向左开口的抛物线. 因此应选图形 D.</p>",
           "choices": [
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jing_meng_wan_liberal_spring/q9_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jing_meng_wan_liberal_spring/q9_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
@@ -191,7 +191,7 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>解不等式：$\\log_{2}(x^{2}-x-2)>\\log_{2}(2x-2)$.</p><p>因为对数的真数必须为正数，所以必须同时满足 $x^{2}-x-2>0$ 和 $2x-2>0$. 分别因式分解，得 $(x-2)(x+1)>0$，从而 $x&#x3C;-1$ 或 $x>2$；又由 $2x-2>0$ 得 $x>1$. 因此定义域为 $x>2$.</p><p>因为底数 $2>1$，对数函数在正数范围内递增，所以原不等式等价于</p>\n$$\nx^{2}-x-2>2x-2  \\Longleftrightarrow x^{2}-3x>0  \\Longleftrightarrow x(x-3)>0\n$$\n<p>其解为 $x&#x3C;0$ 或 $x>3$. 与定义域 $x>2$ 取交集，得 $x>3$. 所以原不等式的解集为 $(3,+\\infty)$.</p>",
+          "body": "<p>解不等式：$\\log_{2}(x^{2}-x-2)>\\log_{2}(2x-2)$.</p><p>因为对数的真数必须为正数，所以必须同时满足 $x^{2}-x-2>0$ 和 $2x-2>0$. 分别因式分解，得 $(x-2)(x+1)>0$，从而 $x<-1$ 或 $x>2$；又由 $2x-2>0$ 得 $x>1$. 因此定义域为 $x>2$.</p><p>因为底数 $2>1$，对数函数在正数范围内递增，所以原不等式等价于</p>\n$$\nx^{2}-x-2>2x-2  \\Longleftrightarrow x^{2}-3x>0  \\Longleftrightarrow x(x-3)>0\n$$\n<p>其解为 $x<0$ 或 $x>3$. 与定义域 $x>2$ 取交集，得 $x>3$. 所以原不等式的解集为 $(3,+\\infty)$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -226,7 +226,7 @@
         },
         {
           "num": 22,
-          "body": "<p>如图，在边长为 $l$ 的等边 $\\triangle ABC$ 中，圆 $O_{1}$ 为 $\\triangle ABC$ 的内切圆，圆 $O_{2}$ 与圆 $O_{1}$ 外切，且与 $AB$，$BC$ 相切，$\\cdots$，圆 $O_{n+1}$ 与圆 $O_{n}$ 外切，且与 $AB$，$BC$ 相切，如此无限继续下去. 记圆 $O_{n}$ 的面积为 $a_{n}$（$n\\in\\mathbb{N}$）.</p><ol class=\"enumerate\"><li><p>证明 $\\{a_{n}\\}$ 是等比数列；</p></li><li><p>求 $\\displaystyle\\lim_{n\\to\\infty}(a_{1}+a_{2}+\\cdots+a_{n})$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jing_meng_wan_liberal_spring/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>记圆 $O_{n}$ 的半径为 $\\rho_{n}$. 由于每个圆都与 $AB$，$BC$ 相切，其圆心均在 $\\angle B$ 的内部角平分线上. 又因为 $\\angle B=60^{\\circ}$，圆心到点 $B$ 的距离满足</p>\n$$\nBO_{n}=\\frac{\\rho_{n}}{\\sin30^{\\circ}}=2\\rho_{n}\n$$\n<p>相邻的两个圆外切，且 $O_{n+1}$ 位于 $O_{n}$ 与点 $B$ 之间，所以</p>\n$$\nO_{n}O_{n+1}=BO_{n}-BO_{n+1}=2(\\rho_{n}-\\rho_{n+1})\n$$\n<p>另一方面，外切圆的圆心距等于半径之和，即</p>\n$$\nO_{n}O_{n+1}=\\rho_{n}+\\rho_{n+1}\n$$\n<p>联立得</p>\n$$\n2(\\rho_{n}-\\rho_{n+1})=\\rho_{n}+\\rho_{n+1}\\Longleftrightarrow \\rho_{n}=3\\rho_{n+1}\n$$\n<p>所以 $\\rho_{n+1}=\\dfrac{1}{3}\\rho_{n}$，从而</p>\n$$\n\\frac{a_{n+1}}{a_{n}}=\\frac{\\pi\\rho_{n+1}^{2}}{\\pi\\rho_{n}^{2}}=\\frac{1}{9}\n$$\n<p>因此 $\\{a_{n}\\}$ 是首项为 $a_{1}$、公比为 $\\dfrac{1}{9}$ 的等比数列.</p><p>等边三角形内切圆半径为</p>\n$$\n\\rho_{1}=\\frac{l\\sqrt{3}}{6}\n$$\n<p>所以</p>\n$$\na_{1}=\\pi\\rho_{1}^{2}=\\frac{\\pi l^{2}}{12}\n$$\n<p>前 $n$ 项和为</p>\n$$\na_{1}+a_{2}+\\cdots+a_{n}  =a_{1}\\frac{1-(\\frac{1}{9})^{n}}{1-\\frac{1}{9}}\n$$\n<p>令 $n\\to\\infty$，由于 $\\left|\\dfrac{1}{9}\\right|&#x3C;1$，得到</p>\n$$\n\\lim_{n\\to\\infty}(a_{1}+a_{2}+\\cdots+a_{n})  =\\frac{\\pi l^{2}}{12}\\cdot\\frac{1}{1-\\frac{1}{9}}=\\frac{3\\pi l^{2}}{32}\n$$",
+          "body": "<p>如图，在边长为 $l$ 的等边 $\\triangle ABC$ 中，圆 $O_{1}$ 为 $\\triangle ABC$ 的内切圆，圆 $O_{2}$ 与圆 $O_{1}$ 外切，且与 $AB$，$BC$ 相切，$\\cdots$，圆 $O_{n+1}$ 与圆 $O_{n}$ 外切，且与 $AB$，$BC$ 相切，如此无限继续下去. 记圆 $O_{n}$ 的面积为 $a_{n}$（$n\\in\\mathbb{N}$）.</p><ol class=\"enumerate\"><li><p>证明 $\\{a_{n}\\}$ 是等比数列；</p></li><li><p>求 $\\displaystyle\\lim_{n\\to\\infty}(a_{1}+a_{2}+\\cdots+a_{n})$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jing_meng_wan_liberal_spring/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>记圆 $O_{n}$ 的半径为 $\\rho_{n}$. 由于每个圆都与 $AB$，$BC$ 相切，其圆心均在 $\\angle B$ 的内部角平分线上. 又因为 $\\angle B=60^{\\circ}$，圆心到点 $B$ 的距离满足</p>\n$$\nBO_{n}=\\frac{\\rho_{n}}{\\sin30^{\\circ}}=2\\rho_{n}\n$$\n<p>相邻的两个圆外切，且 $O_{n+1}$ 位于 $O_{n}$ 与点 $B$ 之间，所以</p>\n$$\nO_{n}O_{n+1}=BO_{n}-BO_{n+1}=2(\\rho_{n}-\\rho_{n+1})\n$$\n<p>另一方面，外切圆的圆心距等于半径之和，即</p>\n$$\nO_{n}O_{n+1}=\\rho_{n}+\\rho_{n+1}\n$$\n<p>联立得</p>\n$$\n2(\\rho_{n}-\\rho_{n+1})=\\rho_{n}+\\rho_{n+1}\\Longleftrightarrow \\rho_{n}=3\\rho_{n+1}\n$$\n<p>所以 $\\rho_{n+1}=\\dfrac{1}{3}\\rho_{n}$，从而</p>\n$$\n\\frac{a_{n+1}}{a_{n}}=\\frac{\\pi\\rho_{n+1}^{2}}{\\pi\\rho_{n}^{2}}=\\frac{1}{9}\n$$\n<p>因此 $\\{a_{n}\\}$ 是首项为 $a_{1}$、公比为 $\\dfrac{1}{9}$ 的等比数列.</p><p>等边三角形内切圆半径为</p>\n$$\n\\rho_{1}=\\frac{l\\sqrt{3}}{6}\n$$\n<p>所以</p>\n$$\na_{1}=\\pi\\rho_{1}^{2}=\\frac{\\pi l^{2}}{12}\n$$\n<p>前 $n$ 项和为</p>\n$$\na_{1}+a_{2}+\\cdots+a_{n}  =a_{1}\\frac{1-(\\frac{1}{9})^{n}}{1-\\frac{1}{9}}\n$$\n<p>令 $n\\to\\infty$，由于 $\\left|\\dfrac{1}{9}\\right|<1$，得到</p>\n$$\n\\lim_{n\\to\\infty}(a_{1}+a_{2}+\\cdots+a_{n})  =\\frac{\\pi l^{2}}{12}\\cdot\\frac{1}{1-\\frac{1}{9}}=\\frac{3\\pi l^{2}}{32}\n$$",
           "choices": null,
           "answer": "",
           "solution": ""

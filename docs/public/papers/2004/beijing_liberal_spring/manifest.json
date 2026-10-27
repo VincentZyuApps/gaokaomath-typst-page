@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "当 $m&#x3C;1$ 时，复数 $z=2+(m-1)\\mathrm{i}$ 在复平面上对应的点位于（ ）",
+          "body": "当 $m<1$ 时，复数 $z=2+(m-1)\\mathrm{i}$ 在复平面上对应的点位于（ ）",
           "choices": [
             "第一象限",
             "第二象限",
@@ -29,7 +29,7 @@
             "第四象限"
           ],
           "answer": "D",
-          "solution": "复数 $z=2+(m-1)\\mathrm{i}$ 在复平面上对应的点的横坐标为 $2>0$，纵坐标为 $m-1&#x3C;0$. 所以该点位于第四象限，故选 D."
+          "solution": "复数 $z=2+(m-1)\\mathrm{i}$ 在复平面上对应的点的横坐标为 $2>0$，纵坐标为 $m-1<0$. 所以该点位于第四象限，故选 D."
         },
         {
           "num": 3,
@@ -53,19 +53,19 @@
             "$75^{\\circ}$"
           ],
           "answer": "C",
-          "solution": "设圆锥的底面半径为 $r$，母线长为 $l$. 由侧面积是底面面积的 $2$ 倍，得 $\\pi rl=2\\pi r^{2}$，从而 $l=2r$. 设母线与底面所成的角为 $\\theta$，在轴截面的直角三角形中，母线在底面上的投影长为 $r$，因此 $\\cos\\theta=\\dfrac{r}{l}=\\dfrac{1}{2}$. 由于 $0&#x3C;\\theta&#x3C;90^{\\circ}$，得 $\\theta=60^{\\circ}$，故选 C."
+          "solution": "设圆锥的底面半径为 $r$，母线长为 $l$. 由侧面积是底面面积的 $2$ 倍，得 $\\pi rl=2\\pi r^{2}$，从而 $l=2r$. 设母线与底面所成的角为 $\\theta$，在轴截面的直角三角形中，母线在底面上的投影长为 $r$，因此 $\\cos\\theta=\\dfrac{r}{l}=\\dfrac{1}{2}$. 由于 $0<\\theta<90^{\\circ}$，得 $\\theta=60^{\\circ}$，故选 C."
         },
         {
           "num": 5,
-          "body": "已知 $\\sin(\\theta+\\pi)&#x3C;0$，$\\cos(\\theta-\\pi)>0$，则下列不等关系中必定成立的是（ ）",
+          "body": "已知 $\\sin(\\theta+\\pi)<0$，$\\cos(\\theta-\\pi)>0$，则下列不等关系中必定成立的是（ ）",
           "choices": [
-            "$\\sin\\theta&#x3C;0$，$\\cos\\theta>0$",
-            "$\\sin\\theta>0$，$\\cos\\theta&#x3C;0$",
+            "$\\sin\\theta<0$，$\\cos\\theta>0$",
+            "$\\sin\\theta>0$，$\\cos\\theta<0$",
             "$\\sin\\theta>0$，$\\cos\\theta>0$",
-            "$\\sin\\theta&#x3C;0$，$\\cos\\theta&#x3C;0$"
+            "$\\sin\\theta<0$，$\\cos\\theta<0$"
           ],
           "answer": "B",
-          "solution": "由 $\\sin(\\theta+\\pi)=-\\sin\\theta$，得 $-\\sin\\theta&#x3C;0$，即 $\\sin\\theta>0$. 由 $\\cos(\\theta-\\pi)=-\\cos\\theta$，得 $-\\cos\\theta>0$，即 $\\cos\\theta&#x3C;0$. 所以角 $\\theta$ 的终边位于第二象限，必有 $\\sin\\theta>0$ 且 $\\cos\\theta&#x3C;0$，故选 B."
+          "solution": "由 $\\sin(\\theta+\\pi)=-\\sin\\theta$，得 $-\\sin\\theta<0$，即 $\\sin\\theta>0$. 由 $\\cos(\\theta-\\pi)=-\\cos\\theta$，得 $-\\cos\\theta>0$，即 $\\cos\\theta<0$. 所以角 $\\theta$ 的终边位于第二象限，必有 $\\sin\\theta>0$ 且 $\\cos\\theta<0$，故选 B."
         },
         {
           "num": 6,
@@ -137,7 +137,7 @@
           "body": "直线 $x-\\sqrt{3}y+a=0$（$a$ 为常实数）的倾斜角的大小是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$30^{\\circ}$",
-          "solution": "将直线方程化为斜截式，得 $y=\\dfrac{1}{\\sqrt{3}}x+\\dfrac{a}{\\sqrt{3}}$，所以直线的斜率为 $\\dfrac{1}{\\sqrt{3}}$. 设倾斜角为 $\\alpha$，则 $\\tan\\alpha=\\dfrac{1}{\\sqrt{3}}$，且 $0\\leq\\alpha&#x3C;180^{\\circ}$，故 $\\alpha=30^{\\circ}$."
+          "solution": "将直线方程化为斜截式，得 $y=\\dfrac{1}{\\sqrt{3}}x+\\dfrac{a}{\\sqrt{3}}$，所以直线的斜率为 $\\dfrac{1}{\\sqrt{3}}$. 设倾斜角为 $\\alpha$，则 $\\tan\\alpha=\\dfrac{1}{\\sqrt{3}}$，且 $0\\leq\\alpha<180^{\\circ}$，故 $\\alpha=30^{\\circ}$."
         },
         {
           "num": 12,
@@ -157,8 +157,8 @@
           "num": 14,
           "body": "若直线 $mx+ny-3=0$ 与圆 $x^{2}+y^{2}=3$ 没有公共点，则 $m$，$n$ 满足的关系式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；以 $(m,n)$ 为点 $P$ 的坐标，过点 $P$ 的一条直线与椭圆 $\\dfrac{x^{2}}7+\\dfrac{y^{2}}3=1$ 的公共点有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>个.",
           "choices": null,
-          "answer": "$m^{2}+n^{2}&#x3C;3$；$2$",
-          "solution": "<p>由于题目已说明 $mx+ny-3=0$ 是一条直线，所以 $m$，$n$ 不同时为 $0$. 圆 $x^{2}+y^{2}=3$ 的圆心为原点，半径为 $\\sqrt{3}$. 直线 $mx+ny-3=0$ 到原点的距离为 $\\dfrac{3}{\\sqrt{m^{2}+n^{2}}}$，因此直线与圆没有公共点的充要条件是</p><p>$\\dfrac{3}{\\sqrt{m^{2}+n^{2}}}>\\sqrt{3}$，即 $m^{2}+n^{2}&#x3C;3$.</p><p>结合 $m^{2}+n^{2}>0$，可知实际上 $0&#x3C;m^{2}+n^{2}&#x3C;3$，填空中的关系式通常记为 $m^{2}+n^{2}&#x3C;3$.</p><p>由此，点 $P\\left(m,n\\right)$ 满足 $\\dfrac{m^{2}}{7}+\\dfrac{n^{2}}{3}\\leq\\dfrac{m^{2}+n^{2}}{3}&#x3C;1$，所以 $P$ 在椭圆 $\\dfrac{x^{2}}7+\\dfrac{y^{2}}3=1$ 的内部. 任取过 $P$ 的直线，设其参数方程为 $\\left(x,y\\right)=\\left(m,n\\right)+t\\left(u,v\\right)$，其中 $\\left(u,v\\right)\\ne\\left(0,0\\right)$. 代入椭圆方程，得到关于 $t$ 的二次方程 $At^{2}+2Bt+C=0$，其中 $A=\\dfrac{u^{2}}7+\\dfrac{v^{2}}3>0$，$C=\\dfrac{m^{2}}7+\\dfrac{n^{2}}3-1&#x3C;0$. 因此两根的乘积 $\\dfrac{C}{A}&#x3C;0$，方程有两个异号的实根，过点 $P$ 的直线与椭圆有两个公共点.</p>"
+          "answer": "$m^{2}+n^{2}<3$；$2$",
+          "solution": "<p>由于题目已说明 $mx+ny-3=0$ 是一条直线，所以 $m$，$n$ 不同时为 $0$. 圆 $x^{2}+y^{2}=3$ 的圆心为原点，半径为 $\\sqrt{3}$. 直线 $mx+ny-3=0$ 到原点的距离为 $\\dfrac{3}{\\sqrt{m^{2}+n^{2}}}$，因此直线与圆没有公共点的充要条件是</p><p>$\\dfrac{3}{\\sqrt{m^{2}+n^{2}}}>\\sqrt{3}$，即 $m^{2}+n^{2}<3$.</p><p>结合 $m^{2}+n^{2}>0$，可知实际上 $0<m^{2}+n^{2}<3$，填空中的关系式通常记为 $m^{2}+n^{2}<3$.</p><p>由此，点 $P\\left(m,n\\right)$ 满足 $\\dfrac{m^{2}}{7}+\\dfrac{n^{2}}{3}\\leq\\dfrac{m^{2}+n^{2}}{3}<1$，所以 $P$ 在椭圆 $\\dfrac{x^{2}}7+\\dfrac{y^{2}}3=1$ 的内部. 任取过 $P$ 的直线，设其参数方程为 $\\left(x,y\\right)=\\left(m,n\\right)+t\\left(u,v\\right)$，其中 $\\left(u,v\\right)\\ne\\left(0,0\\right)$. 代入椭圆方程，得到关于 $t$ 的二次方程 $At^{2}+2Bt+C=0$，其中 $A=\\dfrac{u^{2}}7+\\dfrac{v^{2}}3>0$，$C=\\dfrac{m^{2}}7+\\dfrac{n^{2}}3-1<0$. 因此两根的乘积 $\\dfrac{C}{A}<0$，方程有两个异号的实根，过点 $P$ 的直线与椭圆有两个公共点.</p>"
         }
       ]
     },
@@ -170,7 +170,7 @@
           "body": "解不等式：$\\sqrt{2x-1}>x-2$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为根式有意义，必须有 $2x-1\\geq0$，即 $x\\geq\\dfrac{1}{2}$.</p><p>当 $\\dfrac{1}{2}\\leq x&#x3C;2$ 时，$\\left(x-2\\right)&#x3C;0$，而 $\\sqrt{2x-1}\\geq0$，所以不等式恒成立.</p><p>当 $x\\geq2$ 时，不等式两边均为非负数，可以平方，得 $2x-1>\\left(x-2\\right)^{2}$，即 $x^{2}-6x+5&#x3C;0$，所以 $\\left(x-1\\right)\\left(x-5\\right)&#x3C;0$，从而 $1&#x3C;x&#x3C;5$. 结合 $x\\geq2$，得 $2\\leq x&#x3C;5$.</p><p>综上，原不等式的解集为 $\\left[\\dfrac{1}{2},5\\right)$.</p>"
+          "solution": "<p>因为根式有意义，必须有 $2x-1\\geq0$，即 $x\\geq\\dfrac{1}{2}$.</p><p>当 $\\dfrac{1}{2}\\leq x<2$ 时，$\\left(x-2\\right)<0$，而 $\\sqrt{2x-1}\\geq0$，所以不等式恒成立.</p><p>当 $x\\geq2$ 时，不等式两边均为非负数，可以平方，得 $2x-1>\\left(x-2\\right)^{2}$，即 $x^{2}-6x+5<0$，所以 $\\left(x-1\\right)\\left(x-5\\right)<0$，从而 $1<x<5$. 结合 $x\\geq2$，得 $2\\leq x<5$.</p><p>综上，原不等式的解集为 $\\left[\\dfrac{1}{2},5\\right)$.</p>"
         },
         {
           "num": 16,
@@ -198,14 +198,14 @@
           "body": "<p>某服装厂生产一种服装，每件服装的成本为 $40$ 元，出厂单价定为 $60$ 元，该厂为鼓励销售商订购，决定当一次订购量超过 $100$ 件时，每多订购一件，订购的全部服装的出厂单价就降低 $0.02$ 元. 根据市场调查，经销商一次订购量不会超过 $500$ 件.</p><ol class=\"enumerate\"><li><p>设一次订购量为 $x$ 件，服装的实际出厂单价为 $P$ 元，写出函数 $P=f(x)$ 的表达式；</p></li><li><p>当销售商一次订购 $400$ 件服装时，该服装厂获得的利润是多少元？（服装厂售出一件服装的$\\text{利润}= \\text{实际出厂单价}- \\text{成本}$）</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $1\\leq x\\leq100$ 时，订购量没有超过 $100$ 件，实际出厂单价仍为 $60$ 元. 当 $100&#x3C;x\\leq500$ 时，超过 $100$ 件的部分有 $x-100$ 件，订购的全部服装每件降低 $0.02\\left(x-100\\right)$ 元，所以实际出厂单价为 $60-0.02\\left(x-100\\right)=62-0.02x$ 元. 因此</p>\n$$\nP=f(x)=  \\begin{cases}60,&#x26;1\\leq x\\leq100,\\\\  62-0.02x,&#x26;100&#x3C;x\\leq500.\\end{cases}\n$$\n</li><li><p>订购 $400$ 件时，超过 $100$ 件的部分为 $400-100=300$ 件，所以每件服装的实际出厂单价为 $60-0.02\\times300=54$ 元. 每件服装的利润为 $54-40=14$ 元，故服装厂获得的总利润为 $400\\times14=5600$ 元.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $1\\leq x\\leq100$ 时，订购量没有超过 $100$ 件，实际出厂单价仍为 $60$ 元. 当 $100<x\\leq500$ 时，超过 $100$ 件的部分有 $x-100$ 件，订购的全部服装每件降低 $0.02\\left(x-100\\right)$ 元，所以实际出厂单价为 $60-0.02\\left(x-100\\right)=62-0.02x$ 元. 因此</p>\n$$\nP=f(x)=  \\begin{cases}60,&1\\leq x\\leq100,\\\\  62-0.02x,&100<x\\leq500.\\end{cases}\n$$\n</li><li><p>订购 $400$ 件时，超过 $100$ 件的部分为 $400-100=300$ 件，所以每件服装的实际出厂单价为 $60-0.02\\times300=54$ 元. 每件服装的利润为 $54-40=14$ 元，故服装厂获得的总利润为 $400\\times14=5600$ 元.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>下表给出一个“等差数阵”.</p><center class=\"center\"><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1.15</span></span><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$4$</td><td style=\"text-align: center; border-right: 1px solid\">$7$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$</td><td style=\"text-align: center; border-right: 1px solid\">$a_{1j}$</td><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$</td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$7$</td><td style=\"text-align: center; border-right: 1px solid\">$12$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$</td><td style=\"text-align: center; border-right: 1px solid\">$a_{2j}$</td><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$</td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$</td><td style=\"text-align: center; border-right: 1px solid\">$a_{3j}$</td><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$</td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\left(\\ \\right)$</td><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$</td><td style=\"text-align: center; border-right: 1px solid\">$a_{4j}$</td><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$</td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$a_{i1}$</td><td style=\"text-align: center; border-right: 1px solid\">$a_{i2}$</td><td style=\"text-align: center; border-right: 1px solid\">$a_{i3}$</td><td style=\"text-align: center; border-right: 1px solid\">$a_{i4}$</td><td style=\"text-align: center; border-right: 1px solid\">$a_{i5}$</td><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$</td><td style=\"text-align: center; border-right: 1px solid\">$a_{ij}$</td><td style=\"text-align: center; border-right: 1px solid\">$\\cdots$</td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td><td style=\"text-align: center; border-right: 1px solid\">$\\vdots$</td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"> </td></tr></tbody></table></center><p>其中每行，每列都是等差数列，$a_{ij}$ 表示位于第 $i$ 行第 $j$ 列的数.</p><ol class=\"enumerate\"><li><p>写出 $a_{45}$ 的值；</p></li><li><p>写出 $a_{ij}$ 的计算公式以及 $2008$ 这个数在等差数阵中所在的位置.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记第 $i$ 行的公差为 $h_{i}$，第 $j$ 列的公差为 $v_{j}$. 由表中前两行、前两列可得 $h_{1}=7-4=3$，$h_{2}=12-7=5$，$v_{1}=7-4=3$，$v_{2}=12-7=5$. 对任意 $i$，$j$，从 $a_{ij}$ 先向右再向下，或先向下再向右，都可到达 $a_{i+1,j+1}$，所以 $h_{i}+v_{j+1}=v_{j}+h_{i+1}$，即 $h_{i+1}-h_{i}=v_{j+1}-v_{j}$. 因此这些相邻公差的增量都是 $2$，从而 $h_{i}=3+2\\left(i-1\\right)=2i+1$.</p><p>又 $a_{i1}=4+3\\left(i-1\\right)=3i+1$，所以 $a_{ij}=a_{i1}+\\left(j-1\\right)h_{i}=3i+1+\\left(j-1\\right)\\left(2i+1\\right)=2ij+i+j$. 于是 $a_{45}=2\\times4\\times5+4+5=49$.</p></li><li><p>由上式，令 $a_{ij}=2008$，得</p>\n$$\n2ij+i+j=2008\\Longleftrightarrow(2i+1)(2j+1)=4017=3\\times13\\times103\n$$\n<p>由于 $i$，$j$ 为正整数，$2i+1$，$2j+1$ 是大于 $1$ 的奇数. 因而所有可能的有序因数对为</p>\n$$\n\\begin{split}(2i+1,2j+1)\\in\\{&#x26;(3,1339),(13,309),(39,103),\\\\&#x26;(103,39),(309,13),(1339,3)\\}.\\end{split}\n$$\n<p>所以</p>\n$$\n(i,j)\\in\\{(1,669),(6,154),(19,51),(51,19),(154,6),(669,1)\\}\n$$\n<p>即 $2008$ 位于第 $1$ 行第 $669$ 列、第 $6$ 行第 $154$ 列、第 $19$ 行第 $51$ 列、第 $51$ 行第 $19$ 列、第 $154$ 行第 $6$ 列和第 $669$ 行第 $1$ 列.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记第 $i$ 行的公差为 $h_{i}$，第 $j$ 列的公差为 $v_{j}$. 由表中前两行、前两列可得 $h_{1}=7-4=3$，$h_{2}=12-7=5$，$v_{1}=7-4=3$，$v_{2}=12-7=5$. 对任意 $i$，$j$，从 $a_{ij}$ 先向右再向下，或先向下再向右，都可到达 $a_{i+1,j+1}$，所以 $h_{i}+v_{j+1}=v_{j}+h_{i+1}$，即 $h_{i+1}-h_{i}=v_{j+1}-v_{j}$. 因此这些相邻公差的增量都是 $2$，从而 $h_{i}=3+2\\left(i-1\\right)=2i+1$.</p><p>又 $a_{i1}=4+3\\left(i-1\\right)=3i+1$，所以 $a_{ij}=a_{i1}+\\left(j-1\\right)h_{i}=3i+1+\\left(j-1\\right)\\left(2i+1\\right)=2ij+i+j$. 于是 $a_{45}=2\\times4\\times5+4+5=49$.</p></li><li><p>由上式，令 $a_{ij}=2008$，得</p>\n$$\n2ij+i+j=2008\\Longleftrightarrow(2i+1)(2j+1)=4017=3\\times13\\times103\n$$\n<p>由于 $i$，$j$ 为正整数，$2i+1$，$2j+1$ 是大于 $1$ 的奇数. 因而所有可能的有序因数对为</p>\n$$\n\\begin{split}(2i+1,2j+1)\\in\\{&(3,1339),(13,309),(39,103),\\\\&(103,39),(309,13),(1339,3)\\}.\\end{split}\n$$\n<p>所以</p>\n$$\n(i,j)\\in\\{(1,669),(6,154),(19,51),(51,19),(154,6),(669,1)\\}\n$$\n<p>即 $2008$ 位于第 $1$ 行第 $669$ 列、第 $6$ 行第 $154$ 列、第 $19$ 行第 $51$ 列、第 $51$ 行第 $19$ 列、第 $154$ 行第 $6$ 列和第 $669$ 行第 $1$ 列.</p></li></ol>"
         }
       ]
     }

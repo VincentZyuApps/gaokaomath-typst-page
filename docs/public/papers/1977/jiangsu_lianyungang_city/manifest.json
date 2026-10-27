@@ -31,7 +31,7 @@
           "body": "<p>对于下列函数，写出自变量 $x$ 的取值范围：</p><ol class=\"enumerate\"><li><p>$y=\\frac{6x-1}{2x-1}$；</p></li><li><p>$y=\\sqrt{x}+\\sqrt{-x}$；</p></li><li><p>$y=\\sqrt{\\log_{\\frac{1}{2}}(x+1)}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>分式有意义的条件是分母不为零，即 $2x-1\\neq0$，所以 $x\\neq\\frac{1}{2}$. 因此自变量的取值范围为 $\\left(-\\infty,\\frac{1}{2}\\right)\\cup\\left(\\frac{1}{2},+\\infty\\right)$.</p></li><li><p>由 $\\sqrt{x}$ 有意义，得 $x\\geqslant0$；由 $\\sqrt{-x}$ 有意义，得 $-x\\geqslant0$，即 $x\\leqslant0$. 两个条件同时成立时只能有 $x=0$，所以自变量的取值范围为 $\\{0\\}$.</p></li><li><p>首先，必须有 $x+1>0$，以保证对数有意义. 其次，外层平方根要求 $\\log_{\\frac{1}{2}}(x+1)\\geqslant0$. 因为底数 $\\frac{1}{2}$ 在 $0$ 与 $1$ 之间，对数函数单调递减，所以 $\\log_{\\frac{1}{2}}(x+1)\\geqslant0\\Longleftrightarrow 0&#x3C;x+1\\leqslant1$. 于是 $-1&#x3C;x\\leqslant0$，自变量的取值范围为 $(-1,0]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>分式有意义的条件是分母不为零，即 $2x-1\\neq0$，所以 $x\\neq\\frac{1}{2}$. 因此自变量的取值范围为 $\\left(-\\infty,\\frac{1}{2}\\right)\\cup\\left(\\frac{1}{2},+\\infty\\right)$.</p></li><li><p>由 $\\sqrt{x}$ 有意义，得 $x\\geqslant0$；由 $\\sqrt{-x}$ 有意义，得 $-x\\geqslant0$，即 $x\\leqslant0$. 两个条件同时成立时只能有 $x=0$，所以自变量的取值范围为 $\\{0\\}$.</p></li><li><p>首先，必须有 $x+1>0$，以保证对数有意义. 其次，外层平方根要求 $\\log_{\\frac{1}{2}}(x+1)\\geqslant0$. 因为底数 $\\frac{1}{2}$ 在 $0$ 与 $1$ 之间，对数函数单调递减，所以 $\\log_{\\frac{1}{2}}(x+1)\\geqslant0\\Longleftrightarrow 0<x+1\\leqslant1$. 于是 $-1<x\\leqslant0$，自变量的取值范围为 $(-1,0]$.</p></li></ol>"
         },
         {
           "num": 4,

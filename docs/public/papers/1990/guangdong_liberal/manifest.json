@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "如果 $0&#x3C;\\theta&#x3C;\\pi$，且 $\\cos\\theta=-\\frac{\\sqrt{3}}{2}$，那么 $\\theta$ 等于（ ）",
+          "body": "如果 $0<\\theta<\\pi$，且 $\\cos\\theta=-\\frac{\\sqrt{3}}{2}$，那么 $\\theta$ 等于（ ）",
           "choices": [
             "$\\frac{5\\pi}{6}$",
             "$\\frac{2\\pi}{3}$",
@@ -17,7 +17,7 @@
             "$\\frac{\\pi}{6}$"
           ],
           "answer": "A",
-          "solution": "在区间 $0&#x3C;\\theta&#x3C;\\pi$ 内，$\\cos\\theta=-\\frac{\\sqrt{3}}{2}$ 只能在第二象限取得. 由于 $\\cos\\frac{5\\pi}{6}=-\\frac{\\sqrt{3}}{2}$，故 $\\theta=\\frac{5\\pi}{6}$，选择 A."
+          "solution": "在区间 $0<\\theta<\\pi$ 内，$\\cos\\theta=-\\frac{\\sqrt{3}}{2}$ 只能在第二象限取得. 由于 $\\cos\\frac{5\\pi}{6}=-\\frac{\\sqrt{3}}{2}$，故 $\\theta=\\frac{5\\pi}{6}$，选择 A."
         },
         {
           "num": 2,
@@ -213,7 +213,7 @@
         },
         {
           "num": 18,
-          "body": "<p>已知下图（图 4-6-6）是 $y=2\\sin(\\omega x+\\varphi)$（$\\left|\\varphi\\right|&#x3C;\\frac{\\pi}{2}$）的图象，那么（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>已知下图（图 4-6-6）是 $y=2\\sin(\\omega x+\\varphi)$（$\\left|\\varphi\\right|<\\frac{\\pi}{2}$）的图象，那么（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\omega=2,\\ \\varphi=-\\frac{\\pi}{6}$",
             "$\\omega=2$，$\\ \\varphi=\\frac{\\pi}{6}$",
@@ -221,7 +221,7 @@
             "$\\omega=\\frac{10}{11}$，$\\ \\varphi=-\\frac{\\pi}{6}$"
           ],
           "answer": "B",
-          "solution": "由图象在 $x=0$ 处的函数值为 $1$，且曲线向上经过该点，得 $2\\sin\\varphi=1$. 结合 $\\left|\\varphi\\right|&#x3C;\\frac{\\pi}{2}$，可得 $\\varphi=\\frac{\\pi}{6}$. 图中在 $x=\\frac{11\\pi}{12}$ 处向上穿过 $x$ 轴，因此此处相位为 $2\\pi$，从而 $\\frac{11\\pi}{12}\\omega+\\frac{\\pi}{6}=2\\pi$，解得 $\\omega=2$. 所以选择 B."
+          "solution": "由图象在 $x=0$ 处的函数值为 $1$，且曲线向上经过该点，得 $2\\sin\\varphi=1$. 结合 $\\left|\\varphi\\right|<\\frac{\\pi}{2}$，可得 $\\varphi=\\frac{\\pi}{6}$. 图中在 $x=\\frac{11\\pi}{12}$ 处向上穿过 $x$ 轴，因此此处相位为 $2\\pi$，从而 $\\frac{11\\pi}{12}\\omega+\\frac{\\pi}{6}=2\\pi$，解得 $\\omega=2$. 所以选择 B."
         },
         {
           "num": 19,
@@ -317,7 +317,7 @@
           "body": "已知 $\\sin\\alpha=\\frac{3}{5}$，$\\alpha\\in\\left( \\frac{\\pi}{2},\\pi \\right)$，那么 $\\sin \\frac{\\alpha}{2}$ 的值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{3\\sqrt{10}}{10}$",
-          "solution": "因为 $\\alpha\\in\\left(\\frac{\\pi}{2},\\pi\\right)$，所以 $\\cos\\alpha&#x3C;0$. 由 $\\sin^{2}\\alpha+\\cos^{2}\\alpha=1$，得 $\\cos\\alpha=-\\sqrt{1-\\frac{9}{25}}=-\\frac{4}{5}$. 又 $0&#x3C;\\frac{\\alpha}{2}&#x3C;\\frac{\\pi}{2}$，故半角公式中的正号适用，$\\sin\\frac{\\alpha}{2}=\\sqrt{\\frac{1-\\cos\\alpha}{2}}=\\sqrt{\\frac{1+\\frac{4}{5}}{2}}=\\sqrt{\\frac{9}{10}}=\\frac{3\\sqrt{10}}{10}$."
+          "solution": "因为 $\\alpha\\in\\left(\\frac{\\pi}{2},\\pi\\right)$，所以 $\\cos\\alpha<0$. 由 $\\sin^{2}\\alpha+\\cos^{2}\\alpha=1$，得 $\\cos\\alpha=-\\sqrt{1-\\frac{9}{25}}=-\\frac{4}{5}$. 又 $0<\\frac{\\alpha}{2}<\\frac{\\pi}{2}$，故半角公式中的正号适用，$\\sin\\frac{\\alpha}{2}=\\sqrt{\\frac{1-\\cos\\alpha}{2}}=\\sqrt{\\frac{1+\\frac{4}{5}}{2}}=\\sqrt{\\frac{9}{10}}=\\frac{3\\sqrt{10}}{10}$."
         },
         {
           "num": 27,
@@ -357,7 +357,7 @@
           "body": "<p>已知 $f(x)=\\log_{3}\\left( 4+3x-x^{2} \\right)-\\log_{3}\\left( 2x-1 \\right)$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的定义域；</p></li><li><p>解不等式 $f(x)>\\log_{3} 2$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>对数的真数必须为正，故定义域由不等式组</p>\n$$\n\\begin{cases}4+3x-x^{2}>0,\\\\  2x-1>0.\\end{cases}\n$$\n<p>第一式可化为 $(x+1)(x-4)&#x3C;0$，所以 $-1&#x3C;x&#x3C;4$；第二式给出 $x>\\frac{1}{2}$. 取交集得 $\\frac{1}{2}&#x3C;x&#x3C;4$，所以函数 $f(x)$ 的定义域是 $\\left\\{x\\mid\\frac{1}{2}&#x3C;x&#x3C;4\\right\\}$.</p></li><li><p>在上述定义域内，由于对数的底数 $3>1$，不等式等价于</p>\n$$\n\\log_{3}\\frac{4+3x-x^{2}}{2x-1}>\\log_{3} 2\n$$\n<p>即</p>\n$$\n\\begin{cases}\\frac{1}{2}&#x3C;x&#x3C;4,\\\\  4+3x-x^{2}>2(2x-1).\\end{cases}\n$$\n<p>第二个不等式化为 $x^{2}+x-6&#x3C;0$，即 $-3&#x3C;x&#x3C;2$. 与定义域取交集，得 $\\frac{1}{2}&#x3C;x&#x3C;2$. 因此不等式的解集是 $\\left\\{x\\mid\\frac{1}{2}&#x3C;x&#x3C;2\\right\\}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>对数的真数必须为正，故定义域由不等式组</p>\n$$\n\\begin{cases}4+3x-x^{2}>0,\\\\  2x-1>0.\\end{cases}\n$$\n<p>第一式可化为 $(x+1)(x-4)<0$，所以 $-1<x<4$；第二式给出 $x>\\frac{1}{2}$. 取交集得 $\\frac{1}{2}<x<4$，所以函数 $f(x)$ 的定义域是 $\\left\\{x\\mid\\frac{1}{2}<x<4\\right\\}$.</p></li><li><p>在上述定义域内，由于对数的底数 $3>1$，不等式等价于</p>\n$$\n\\log_{3}\\frac{4+3x-x^{2}}{2x-1}>\\log_{3} 2\n$$\n<p>即</p>\n$$\n\\begin{cases}\\frac{1}{2}<x<4,\\\\  4+3x-x^{2}>2(2x-1).\\end{cases}\n$$\n<p>第二个不等式化为 $x^{2}+x-6<0$，即 $-3<x<2$. 与定义域取交集，得 $\\frac{1}{2}<x<2$. 因此不等式的解集是 $\\left\\{x\\mid\\frac{1}{2}<x<2\\right\\}$.</p></li></ol>"
         },
         {
           "num": 32,

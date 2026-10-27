@@ -12,12 +12,12 @@
           "body": "已知函数 $f(x) = \\frac{1}{\\sqrt{1 - x}}$ 的定义域为 $M$，$g(x) = \\ln (1 + x)$ 的定义域为 $N$，则 $M \\cap N =$（ ）",
           "choices": [
             "$\\{x \\mid x > -1\\}$",
-            "$\\{x \\mid x &#x3C; 1\\}$",
-            "$\\{x \\mid -1 &#x3C; x &#x3C; 1\\}$",
+            "$\\{x \\mid x < 1\\}$",
+            "$\\{x \\mid -1 < x < 1\\}$",
             "$\\varnothing$"
           ],
           "answer": "C",
-          "solution": "<p>函数 $f(x)$ 有意义需要根式内为正且分母不为零，因此 $1-x>0$，即 $x&#x3C;1$，所以 $M=\\{x\\mid x&#x3C;1\\}$. 函数 $g(x)=\\ln(1+x)$ 有意义需要 $1+x>0$，所以 $N=\\{x\\mid x>-1\\}$. 因而</p>\n$$\nM\\cap N=\\{x\\mid -1&#x3C;x&#x3C;1\\}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>函数 $f(x)$ 有意义需要根式内为正且分母不为零，因此 $1-x>0$，即 $x<1$，所以 $M=\\{x\\mid x<1\\}$. 函数 $g(x)=\\ln(1+x)$ 有意义需要 $1+x>0$，所以 $N=\\{x\\mid x>-1\\}$. 因而</p>\n$$\nM\\cap N=\\{x\\mid -1<x<1\\}\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 2,
@@ -53,11 +53,11 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/guangdong_science/q5_optD_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "B",
-          "solution": "<p>客车出发后前 $1$ 小时行驶 $60$ 千米，所以在 $t=1$ 时 $s=60$. 在乙地停留半小时，故 $1\\le t\\leqslant1.5$ 时路程保持为 $60$. 随后以 $80\\,\\mathrm{km/h}$ 行驶 $1$ 小时，到达丙地时 $t=2.5$，总路程为 $60+80=140$ 千米.</p><p>因此路程函数为</p>\n$$\ns=\\begin{cases}60t,&#x26;0\\le t\\leqslant1,\\\\  60,&#x26;1\\le t\\leqslant1.5,\\\\  60+80(t-1.5),&#x26;1.5\\le t\\leqslant2.5.\\end{cases}\n$$\n<p>图象应先以斜率 $60$ 上升，再水平停留半小时，最后以更大的斜率 $80$ 上升至 $(2.5,140)$，故选 B.</p>"
+          "solution": "<p>客车出发后前 $1$ 小时行驶 $60$ 千米，所以在 $t=1$ 时 $s=60$. 在乙地停留半小时，故 $1\\le t\\leqslant1.5$ 时路程保持为 $60$. 随后以 $80\\,\\mathrm{km/h}$ 行驶 $1$ 小时，到达丙地时 $t=2.5$，总路程为 $60+80=140$ 千米.</p><p>因此路程函数为</p>\n$$\ns=\\begin{cases}60t,&0\\le t\\leqslant1,\\\\  60,&1\\le t\\leqslant1.5,\\\\  60+80(t-1.5),&1.5\\le t\\leqslant2.5.\\end{cases}\n$$\n<p>图象应先以斜率 $60$ 上升，再水平停留半小时，最后以更大的斜率 $80$ 上升至 $(2.5,140)$，故选 B.</p>"
         },
         {
           "num": 5,
-          "body": "已知数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}= n^{2}- 9n$，第 $k$ 项满足 $5 &#x3C; a_{k}&#x3C; 8$，则 $k =$（ ）",
+          "body": "已知数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}= n^{2}- 9n$，第 $k$ 项满足 $5 < a_{k}< 8$，则 $k =$（ ）",
           "choices": [
             "$9$",
             "$8$",
@@ -65,19 +65,19 @@
             "$6$"
           ],
           "answer": "B",
-          "solution": "<p>令 $S_{0}=0$. 由前 $n$ 项和得到</p>\n$$\na_{k}=S_{k}-S_{k-1}=k^{2}-9k-\\bigl((k-1)^{2}-9(k-1)\\bigr)=2k-10\n$$\n<p>所以</p>\n$$\n5&#x3C;2k-10&#x3C;8 \\Longleftrightarrow  15&#x3C;2k&#x3C;18 \\Longleftrightarrow  \\frac{15}{2}&#x3C;k&#x3C;9\n$$\n<p>由于 $k$ 是正整数，只能取 $k=8$，故选 B.</p>"
+          "solution": "<p>令 $S_{0}=0$. 由前 $n$ 项和得到</p>\n$$\na_{k}=S_{k}-S_{k-1}=k^{2}-9k-\\bigl((k-1)^{2}-9(k-1)\\bigr)=2k-10\n$$\n<p>所以</p>\n$$\n5<2k-10<8 \\Longleftrightarrow  15<2k<18 \\Longleftrightarrow  \\frac{15}{2}<k<9\n$$\n<p>由于 $k$ 是正整数，只能取 $k=8$，故选 B.</p>"
         },
         {
           "num": 6,
           "body": "<p>图1是某县参加2007年高考的学生身高条形统计图，从左到右的各条形表示的学生人数依次记为 $A_{1}$，$A_{2}$，$\\dots$，$A_{10}$ （如 $A_{2}$ 表示身高（单位：$\\mathrm{cm}$）在 $[150, 155)$ 内的学生人数）. 图2是统计图1中身高在一定范围内学生人数的一个算法流程图. 现要统计身高在 $160 \\sim 180 \\mathrm{~cm}$ （含 $160 \\mathrm{~cm}$，不含 $180 \\mathrm{~cm}$）的学生人数，那么在流程图中的判断框内应填写的条件是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_science/q6_chart.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-texfigure\"></span>[float=inline,max width=0.9<span class=\"macro macro-linewidth\"></span>]img_repaint/2007/guangdong_science/q6_flowchart.tex</p>",
           "choices": [
-            "$i &#x3C; 6$",
-            "$i &#x3C; 7$",
-            "$i &#x3C; 8$",
-            "$i &#x3C; 9$"
+            "$i < 6$",
+            "$i < 7$",
+            "$i < 8$",
+            "$i < 9$"
           ],
           "answer": "C",
-          "solution": "<p>图1中 $A_{1}$，$A_{2}$，$A_{3}$，$A_{4}$，$\\ldots$ 分别对应区间 $[145,150)$，$[150,155)$，$[155,160)$，$[160,165)$，$\\ldots$. 因而身高在 $[160,180)$ 内的学生人数是</p>\n$$\nA_{4}+A_{5}+A_{6}+A_{7}\n$$\n<p>流程图先令 $i=4$，判断成立时累加 $A_{i}$，再令 $i=i+1$. 为恰好累加 $A_{4}$ 至 $A_{7}$，判断应在 $i=4$，$5$，$6$，$7$ 时成立，在 $i=8$ 时不成立，所以条件为 $i&#x3C;8$，故选 C.</p>"
+          "solution": "<p>图1中 $A_{1}$，$A_{2}$，$A_{3}$，$A_{4}$，$\\ldots$ 分别对应区间 $[145,150)$，$[150,155)$，$[155,160)$，$[160,165)$，$\\ldots$. 因而身高在 $[160,180)$ 内的学生人数是</p>\n$$\nA_{4}+A_{5}+A_{6}+A_{7}\n$$\n<p>流程图先令 $i=4$，判断成立时累加 $A_{i}$，再令 $i=i+1$. 为恰好累加 $A_{4}$ 至 $A_{7}$，判断应在 $i=4$，$5$，$6$，$7$ 时成立，在 $i=8$ 时不成立，所以条件为 $i<8$，故选 C.</p>"
         },
         {
           "num": 7,
@@ -153,7 +153,7 @@
           "body": "设函数 $f(x) = |2x - 1| + x + 3$，则 $f(-2) =\\underline{\\hspace{2.5em}}{}$；若 $f(x) \\le 5$，则 $x$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$6$，$[-1,1]$",
-          "solution": "$$\nf(-2)=|2(-2)-1|+(-2)+3=5+1=6\n$$\n<p>再分情况解不等式. 当 $x&#x3C;\\frac{1}{2}$ 时，</p>\n$$\nf(x)=1-2x+x+3=4-x\\leqslant5\n$$\n<p>所以 $x\\ge-1$，得到 $[-1,\\frac{1}{2})$. 当 $x\\ge\\frac{1}{2}$ 时，</p>\n$$\nf(x)=2x-1+x+3=3x+2\\leqslant5\n$$\n<p>所以 $x\\leqslant1$，得到 $[\\frac{1}{2},1]$. 合并两种情况，$x$ 的取值范围为 $[-1,1]$.</p>"
+          "solution": "$$\nf(-2)=|2(-2)-1|+(-2)+3=5+1=6\n$$\n<p>再分情况解不等式. 当 $x<\\frac{1}{2}$ 时，</p>\n$$\nf(x)=1-2x+x+3=4-x\\leqslant5\n$$\n<p>所以 $x\\ge-1$，得到 $[-1,\\frac{1}{2})$. 当 $x\\ge\\frac{1}{2}$ 时，</p>\n$$\nf(x)=2x-1+x+3=3x+2\\leqslant5\n$$\n<p>所以 $x\\leqslant1$，得到 $[\\frac{1}{2},1]$. 合并两种情况，$x$ 的取值范围为 $[-1,1]$.</p>"
         },
         {
           "num": 15,
@@ -172,7 +172,7 @@
           "body": "<p>已知 $\\triangle ABC$ 顶点的直角坐标分别为 $A(3,4)$，$B(0,0)$，$C(c,0)$.</p><ol class=\"enumerate\"><li><p>若 $c = 5$，求 $\\sin \\angle A$ 的值；</p></li><li><p>若 $\\angle A$ 是钝角，求 $c$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$\\overrightarrow{AB}=(-3,-4)$，$\\overrightarrow{AC}=(2,-4)$，所以</p>\n$$\n\\sin\\angle A=\\frac{\\left|\\overrightarrow{AB}\\times\\overrightarrow{AC}\\right|}{|\\overrightarrow{AB}|\\,|\\overrightarrow{AC}|}=\\frac{|(-3)(-4)-(-4)\\cdot2|}{5\\cdot2\\sqrt{5}}=\\frac{2\\sqrt{5}}{5}\n$$\n</li><li><p>$\\overrightarrow{AB}=(-3,-4)$，$\\overrightarrow{AC}=(c-3,-4)$. 当且仅当</p>\n$$\n\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=-3(c-3)+(-4)(-4)=25-3c&#x3C;0\n$$\n<p>时，$\\angle A$ 是钝角，因此 $c>\\dfrac{25}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$\\overrightarrow{AB}=(-3,-4)$，$\\overrightarrow{AC}=(2,-4)$，所以</p>\n$$\n\\sin\\angle A=\\frac{\\left|\\overrightarrow{AB}\\times\\overrightarrow{AC}\\right|}{|\\overrightarrow{AB}|\\,|\\overrightarrow{AC}|}=\\frac{|(-3)(-4)-(-4)\\cdot2|}{5\\cdot2\\sqrt{5}}=\\frac{2\\sqrt{5}}{5}\n$$\n</li><li><p>$\\overrightarrow{AB}=(-3,-4)$，$\\overrightarrow{AC}=(c-3,-4)$. 当且仅当</p>\n$$\n\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=-3(c-3)+(-4)(-4)=25-3c<0\n$$\n<p>时，$\\angle A$ 是钝角，因此 $c>\\dfrac{25}{3}$.</p></li></ol>"
         },
         {
           "num": 17,
@@ -186,14 +186,14 @@
           "body": "<p>在平面直角坐标系 $xOy$ 中，已知圆心在第二象限，半径为 $2\\sqrt{2}$ 的圆 $C$ 与直线 $y = x$ 相切于坐标原点 $O$. 椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{9}= 1$ 与圆 $C$ 的一个交点到椭圆两焦点的距离之和为 $10$.</p><ol class=\"enumerate\"><li><p>求圆 $C$ 的方程；</p></li><li><p>试探求 $C$ 上是否存在异于原点的点 $Q$，使 $Q$ 到椭圆右焦点 $F$ 的距离等于线段 $OF$ 的长. 若存在，请求出点 $Q$ 的坐标. 若不存在，请说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设圆心为 $M(m,n)$. 因为圆在原点与直线 $y=x$ 相切，所以半径 $OM$ 垂直于直线 $y=x$，从而 $m+n=0$. 又因为半径为 $2\\sqrt{2}$，且原点在圆上，所以</p>\n$$\nm^{2}+n^{2}=8\n$$\n<p>由 $m&#x3C;0$，$n>0$，得 $M(-2,2)$，故圆 $C$ 的方程为</p>\n$$\n(x+2)^{2}+(y-2)^{2}=8\n$$\n</li><li><p>椭圆上任一点到两焦点的距离之和为 $2a$，所以 $2a=10$，即 $a=5$. 因而椭圆的焦半距为</p>\n$$\nc=\\sqrt{a^{2}-3^{2}}=\\sqrt{25-9}=4\n$$\n<p>椭圆右焦点为 $F(4,0)$，且 $|OF|=4$.</p><p>若存在符合条件的点 $Q(x,y)$，则它同时满足</p>\n$$\n\\begin{cases}(x+2)^{2}+(y-2)^{2}=8\\\\  (x-4)^{2}+y^{2}=16\\end{cases}\n$$\n<p>两式分别化为 $x^{2}+y^{2}+4x-4y=0$ 与 $x^{2}+y^{2}-8x=0$，相减得 $y=3x$. 代入后得 $10x^{2}-8x=0$，所以 $x=0$ 或 $x=\\frac{4}{5}$.</p><p>当 $x=0$ 时得到原点 $O$，舍去；当 $x=\\frac{4}{5}$ 时，$y=\\frac{12}{5}$. 因此存在异于原点的点，且</p>\n$$\nQ\\left(\\frac{4}{5},\\frac{12}{5}\\right)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设圆心为 $M(m,n)$. 因为圆在原点与直线 $y=x$ 相切，所以半径 $OM$ 垂直于直线 $y=x$，从而 $m+n=0$. 又因为半径为 $2\\sqrt{2}$，且原点在圆上，所以</p>\n$$\nm^{2}+n^{2}=8\n$$\n<p>由 $m<0$，$n>0$，得 $M(-2,2)$，故圆 $C$ 的方程为</p>\n$$\n(x+2)^{2}+(y-2)^{2}=8\n$$\n</li><li><p>椭圆上任一点到两焦点的距离之和为 $2a$，所以 $2a=10$，即 $a=5$. 因而椭圆的焦半距为</p>\n$$\nc=\\sqrt{a^{2}-3^{2}}=\\sqrt{25-9}=4\n$$\n<p>椭圆右焦点为 $F(4,0)$，且 $|OF|=4$.</p><p>若存在符合条件的点 $Q(x,y)$，则它同时满足</p>\n$$\n\\begin{cases}(x+2)^{2}+(y-2)^{2}=8\\\\  (x-4)^{2}+y^{2}=16\\end{cases}\n$$\n<p>两式分别化为 $x^{2}+y^{2}+4x-4y=0$ 与 $x^{2}+y^{2}-8x=0$，相减得 $y=3x$. 代入后得 $10x^{2}-8x=0$，所以 $x=0$ 或 $x=\\frac{4}{5}$.</p><p>当 $x=0$ 时得到原点 $O$，舍去；当 $x=\\frac{4}{5}$ 时，$y=\\frac{12}{5}$. 因此存在异于原点的点，且</p>\n$$\nQ\\left(\\frac{4}{5},\\frac{12}{5}\\right)\n$$\n</li></ol>"
         },
         {
           "num": 19,
           "body": "<p>如图所示，等腰 $\\triangle ABC$ 的底边 $AB = 6\\sqrt{6}$，高 $CD = 3$，点 $E$ 是线段 $BD$ 上异于点 $B$，$D$ 的动点，点 $F$ 在 $BC$ 边上，且 $EF \\perp AB$. 现沿 $EF$ 将 $\\triangle BEF$ 折起到 $\\triangle PEF$ 的位置，使 $PE \\perp AC$，记 $BE = x$，$V(x)$ 表示四棱锥 $P - ACFE$ 的体积.</p><ol class=\"enumerate\"><li><p>求 $V(x)$ 的表达式；</p></li><li><p>当 $x$ 为何值时，$V(x)$ 取得最大值？</p></li><li><p>当 $V(x)$ 取得最大值时，求异面直线 $AC$ 与 $PF$ 所成的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，使 $D$ 为原点，$AB$ 在 $xOy$ 平面内，取 $A(-3\\sqrt{6},0,0)$，$B(3\\sqrt{6},0,0)$，$C(0,3,0)$.</p><p>因为 $BE=x$，且 $E$ 在 $BD$ 上，所以 $E(3\\sqrt{6}-x,0,0)$. 直线 $BC$ 的斜率为 $-\\dfrac{1}{\\sqrt{6}}$，又 $EF\\perp AB$，故 $F\\left(3\\sqrt{6}-x,\\frac{x}{\\sqrt{6}},0\\right)$，$EF=\\frac{x}{\\sqrt{6}}$，且 $0&#x3C;x&#x3C;3\\sqrt{6}$.</p><p>折叠后，$PE=BE=x$，并且 $PE\\perp EF$. 由于 $EF$ 的方向为 $y$ 轴方向，设 $P-E=(u,0,v)$. 又</p>\n$$\n\\overrightarrow{AC}=(3\\sqrt{6},3,0)\n$$\n<p>且 $PE\\perp AC$，所以 $3\\sqrt{6}u=0$，即 $u=0$. 由 $PE=x$ 得 $|v|=x$，故四棱锥的高为 $x$.</p><p>四边形 $ACFE$ 与三角形 $BEF$ 构成三角形 $ABC$，于是</p>\n$$\nS_{ACFE}=S_{ABC}-S_{BEF}=\\frac{1}{2}\\cdot6\\sqrt{6}\\cdot3-\\frac{1}{2}\\cdot x\\cdot\\frac{x}{\\sqrt{6}}=9\\sqrt{6}-\\frac{x^{2}}{2\\sqrt{6}}\n$$\n<p>因此</p>\n$$\nV(x)=\\frac{1}{3}x\\left(9\\sqrt{6}-\\frac{x^{2}}{2\\sqrt{6}}\\right)=\\frac{x(108-x^{2})}{6\\sqrt{6}}\n$$\n<p>且 $0&#x3C;x&#x3C;3\\sqrt{6}$.</p></li><li><p>对上式求导，得</p>\n$$\nV'(x)=\\frac{36-x^{2}}{2\\sqrt{6}}\n$$\n<p>当 $0&#x3C;x&#x3C;6$ 时，$V'(x)>0$；当 $6&#x3C;x&#x3C;3\\sqrt{6}$ 时，$V'(x)&#x3C;0$. 所以当 $x=6$ 时，$V(x)$ 取得最大值.</p></li><li><p>当 $x=6$ 时，</p><p>$F\\left(3\\sqrt{6}-6,\\sqrt{6},0\\right)$，$P\\left(3\\sqrt{6}-6,0,6\\right)$.</p><p>取方向向量 $\\overrightarrow{AC}=(3\\sqrt{6},3,0)$，$\\overrightarrow{PF}=(0,\\sqrt{6},-6)$，则异面直线所成角的余弦为</p>\n$$\n\\cos\\theta=\\frac{|\\overrightarrow{AC}\\cdot\\overrightarrow{PF}|}{|\\overrightarrow{AC}|\\,|\\overrightarrow{PF}|}=\\frac{3\\sqrt{6}}{3\\sqrt{7}\\cdot\\sqrt{42}}=\\frac{1}{7}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，使 $D$ 为原点，$AB$ 在 $xOy$ 平面内，取 $A(-3\\sqrt{6},0,0)$，$B(3\\sqrt{6},0,0)$，$C(0,3,0)$.</p><p>因为 $BE=x$，且 $E$ 在 $BD$ 上，所以 $E(3\\sqrt{6}-x,0,0)$. 直线 $BC$ 的斜率为 $-\\dfrac{1}{\\sqrt{6}}$，又 $EF\\perp AB$，故 $F\\left(3\\sqrt{6}-x,\\frac{x}{\\sqrt{6}},0\\right)$，$EF=\\frac{x}{\\sqrt{6}}$，且 $0<x<3\\sqrt{6}$.</p><p>折叠后，$PE=BE=x$，并且 $PE\\perp EF$. 由于 $EF$ 的方向为 $y$ 轴方向，设 $P-E=(u,0,v)$. 又</p>\n$$\n\\overrightarrow{AC}=(3\\sqrt{6},3,0)\n$$\n<p>且 $PE\\perp AC$，所以 $3\\sqrt{6}u=0$，即 $u=0$. 由 $PE=x$ 得 $|v|=x$，故四棱锥的高为 $x$.</p><p>四边形 $ACFE$ 与三角形 $BEF$ 构成三角形 $ABC$，于是</p>\n$$\nS_{ACFE}=S_{ABC}-S_{BEF}=\\frac{1}{2}\\cdot6\\sqrt{6}\\cdot3-\\frac{1}{2}\\cdot x\\cdot\\frac{x}{\\sqrt{6}}=9\\sqrt{6}-\\frac{x^{2}}{2\\sqrt{6}}\n$$\n<p>因此</p>\n$$\nV(x)=\\frac{1}{3}x\\left(9\\sqrt{6}-\\frac{x^{2}}{2\\sqrt{6}}\\right)=\\frac{x(108-x^{2})}{6\\sqrt{6}}\n$$\n<p>且 $0<x<3\\sqrt{6}$.</p></li><li><p>对上式求导，得</p>\n$$\nV'(x)=\\frac{36-x^{2}}{2\\sqrt{6}}\n$$\n<p>当 $0<x<6$ 时，$V'(x)>0$；当 $6<x<3\\sqrt{6}$ 时，$V'(x)<0$. 所以当 $x=6$ 时，$V(x)$ 取得最大值.</p></li><li><p>当 $x=6$ 时，</p><p>$F\\left(3\\sqrt{6}-6,\\sqrt{6},0\\right)$，$P\\left(3\\sqrt{6}-6,0,6\\right)$.</p><p>取方向向量 $\\overrightarrow{AC}=(3\\sqrt{6},3,0)$，$\\overrightarrow{PF}=(0,\\sqrt{6},-6)$，则异面直线所成角的余弦为</p>\n$$\n\\cos\\theta=\\frac{|\\overrightarrow{AC}\\cdot\\overrightarrow{PF}|}{|\\overrightarrow{AC}|\\,|\\overrightarrow{PF}|}=\\frac{3\\sqrt{6}}{3\\sqrt{7}\\cdot\\sqrt{42}}=\\frac{1}{7}\n$$\n</li></ol>"
         },
         {
           "num": 20,

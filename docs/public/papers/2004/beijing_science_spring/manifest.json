@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "当 $\\dfrac{2}{3}&#x3C;m&#x3C;1$ 时，复数 $z=(3m-2)+(m-1)\\mathrm{i}$ 在复平面上对应的点位于（ ）",
+          "body": "当 $\\dfrac{2}{3}<m<1$ 时，复数 $z=(3m-2)+(m-1)\\mathrm{i}$ 在复平面上对应的点位于（ ）",
           "choices": [
             "第一象限",
             "第二象限",
@@ -29,7 +29,7 @@
             "第四象限"
           ],
           "answer": "D",
-          "solution": "由 $\\dfrac{2}{3}&#x3C;m&#x3C;1$，得 $3m-2>0$，且 $m-1&#x3C;0$. 复数 $z=(3m-2)+(m-1)\\mathrm{i}$ 的实部为正、虚部为负，所以它在复平面上对应的点位于第四象限，故选 D."
+          "solution": "由 $\\dfrac{2}{3}<m<1$，得 $3m-2>0$，且 $m-1<0$. 复数 $z=(3m-2)+(m-1)\\mathrm{i}$ 的实部为正、虚部为负，所以它在复平面上对应的点位于第四象限，故选 D."
         },
         {
           "num": 3,
@@ -53,7 +53,7 @@
             "$75^{\\circ}$"
           ],
           "answer": "C",
-          "solution": "设圆锥的底面半径为 $r$，母线长为 $l$. 由侧面积是底面积的 $2$ 倍，得 $\\pi rl=2\\pi r^{2}$，所以 $l=2r$. 设母线与底面所成的角为 $\\alpha$，在圆锥的轴截面中，母线在底面上的射影长为 $r$，故 $\\cos\\alpha=\\dfrac{r}{l}=\\dfrac{1}{2}$. 因为 $0^{\\circ}&#x3C;\\alpha&#x3C;90^{\\circ}$，所以 $\\alpha=60^{\\circ}$，故选 C."
+          "solution": "设圆锥的底面半径为 $r$，母线长为 $l$. 由侧面积是底面积的 $2$ 倍，得 $\\pi rl=2\\pi r^{2}$，所以 $l=2r$. 设母线与底面所成的角为 $\\alpha$，在圆锥的轴截面中，母线在底面上的射影长为 $r$，故 $\\cos\\alpha=\\dfrac{r}{l}=\\dfrac{1}{2}$. 因为 $0^{\\circ}<\\alpha<90^{\\circ}$，所以 $\\alpha=60^{\\circ}$，故选 C."
         },
         {
           "num": 5,
@@ -69,15 +69,15 @@
         },
         {
           "num": 6,
-          "body": "已知 $\\sin(\\theta+\\pi)&#x3C;0$，$\\cos(\\theta-\\pi)>0$，则下列不等关系中必定成立的是（ ）",
+          "body": "已知 $\\sin(\\theta+\\pi)<0$，$\\cos(\\theta-\\pi)>0$，则下列不等关系中必定成立的是（ ）",
           "choices": [
-            "$\\tan\\dfrac{\\theta}{2}&#x3C;\\cot\\dfrac{\\theta}{2}$",
+            "$\\tan\\dfrac{\\theta}{2}<\\cot\\dfrac{\\theta}{2}$",
             "$\\tan\\dfrac{\\theta}{2}>\\cot\\dfrac{\\theta}{2}$",
-            "$\\sin\\dfrac{\\theta}{2}&#x3C;\\cos\\dfrac{\\theta}{2}$",
+            "$\\sin\\dfrac{\\theta}{2}<\\cos\\dfrac{\\theta}{2}$",
             "$\\sin\\dfrac{\\theta}{2}>\\cos\\dfrac{\\theta}{2}$"
           ],
           "answer": "B",
-          "solution": "由 $\\sin(\\theta+\\pi)=-\\sin\\theta&#x3C;0$，得 $\\sin\\theta>0$；由 $\\cos(\\theta-\\pi)=-\\cos\\theta>0$，得 $\\cos\\theta&#x3C;0$. 因而存在 $k\\in\\mathbb{Z}$，使得 $\\dfrac{\\pi}{2}+2k\\pi&#x3C;\\theta&#x3C;\\pi+2k\\pi$. 于是 $\\dfrac{\\theta}{2}-k\\pi\\in\\left(\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right)$，从而 $\\tan\\dfrac{\\theta}{2}=\\tan\\left(\\dfrac{\\theta}{2}-k\\pi\\right)>1>\\cot\\left(\\dfrac{\\theta}{2}-k\\pi\\right)=\\cot\\dfrac{\\theta}{2}$，故选 B."
+          "solution": "由 $\\sin(\\theta+\\pi)=-\\sin\\theta<0$，得 $\\sin\\theta>0$；由 $\\cos(\\theta-\\pi)=-\\cos\\theta>0$，得 $\\cos\\theta<0$. 因而存在 $k\\in\\mathbb{Z}$，使得 $\\dfrac{\\pi}{2}+2k\\pi<\\theta<\\pi+2k\\pi$. 于是 $\\dfrac{\\theta}{2}-k\\pi\\in\\left(\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right)$，从而 $\\tan\\dfrac{\\theta}{2}=\\tan\\left(\\dfrac{\\theta}{2}-k\\pi\\right)>1>\\cot\\left(\\dfrac{\\theta}{2}-k\\pi\\right)=\\cot\\dfrac{\\theta}{2}$，故选 B."
         },
         {
           "num": 7,
@@ -157,8 +157,8 @@
           "num": 14,
           "body": "若直线 $mx+ny-3=0$ 与圆 $x^{2}+y^{2}=3$ 没有公共点，则 $m$，$n$ 满足的关系式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；以 $(m,n)$ 为点 $P$ 的坐标，过点 $P$ 的一条直线与椭圆 $\\dfrac{x^2}{7}+\\dfrac{y^2}{3}=1$ 的公共点有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{个}$.",
           "choices": null,
-          "answer": "$m^{2}+n^{2}&#x3C;3$；$2$",
-          "solution": "<p>若 $m=n=0$，则方程 $mx+ny-3=0$ 化为 $-3=0$，没有点满足，且 $m^{2}+n^{2}=0&#x3C;3$. 若 $(m,n)\\ne(0,0)$，则直线 $mx+ny-3=0$ 到原点的距离为 $\\dfrac{3}{\\sqrt{m^{2}+n^{2}}}$. 该直线与半径为 $\\sqrt{3}$ 的圆没有公共点，当且仅当这段距离大于圆的半径，因此 $\\dfrac{3}{\\sqrt{m^{2}+n^{2}}}>\\sqrt{3}$，从而 $m^{2}+n^{2}&#x3C;3$. 综上，所求关系式为 $m^{2}+n^{2}&#x3C;3$.</p><p>由 $m^{2}+n^{2}&#x3C;3$，有 $\\dfrac{m^2}{7}+\\dfrac{n^2}{3}\\le\\dfrac{m^2+n^2}{3}&#x3C;1$，所以点 $P(m,n)$ 在椭圆 $\\dfrac{x^2}{7}+\\dfrac{y^2}{3}=1$ 的内部. 任取一条过 $P$ 的直线，设其方向向量为 $(u,v)\\ne(0,0)$，则直线上的点可表示为 $(x,y)=(m,n)+t(u,v)$. 代入椭圆方程，令左边减去 $1$ 所得的式子为 $F(t)$，则 $F(t)=0$ 是关于 $t$ 的二次方程，其二次项系数 $A=\\dfrac{u^2}{7}+\\dfrac{v^2}{3}>0$，且 $C=F(0)=\\dfrac{m^2}{7}+\\dfrac{n^2}{3}-1&#x3C;0$. 将其写成 $At^{2}+2Ht+C=0$，其判别式为 $4(H^{2}-AC)>0$，故有两个不相等的实根；两根之积为 $\\dfrac{C}{A}&#x3C;0$，所以两根异号. 因此该直线与椭圆有且只有 $2$ 个公共点.</p>"
+          "answer": "$m^{2}+n^{2}<3$；$2$",
+          "solution": "<p>若 $m=n=0$，则方程 $mx+ny-3=0$ 化为 $-3=0$，没有点满足，且 $m^{2}+n^{2}=0<3$. 若 $(m,n)\\ne(0,0)$，则直线 $mx+ny-3=0$ 到原点的距离为 $\\dfrac{3}{\\sqrt{m^{2}+n^{2}}}$. 该直线与半径为 $\\sqrt{3}$ 的圆没有公共点，当且仅当这段距离大于圆的半径，因此 $\\dfrac{3}{\\sqrt{m^{2}+n^{2}}}>\\sqrt{3}$，从而 $m^{2}+n^{2}<3$. 综上，所求关系式为 $m^{2}+n^{2}<3$.</p><p>由 $m^{2}+n^{2}<3$，有 $\\dfrac{m^2}{7}+\\dfrac{n^2}{3}\\le\\dfrac{m^2+n^2}{3}<1$，所以点 $P(m,n)$ 在椭圆 $\\dfrac{x^2}{7}+\\dfrac{y^2}{3}=1$ 的内部. 任取一条过 $P$ 的直线，设其方向向量为 $(u,v)\\ne(0,0)$，则直线上的点可表示为 $(x,y)=(m,n)+t(u,v)$. 代入椭圆方程，令左边减去 $1$ 所得的式子为 $F(t)$，则 $F(t)=0$ 是关于 $t$ 的二次方程，其二次项系数 $A=\\dfrac{u^2}{7}+\\dfrac{v^2}{3}>0$，且 $C=F(0)=\\dfrac{m^2}{7}+\\dfrac{n^2}{3}-1<0$. 将其写成 $At^{2}+2Ht+C=0$，其判别式为 $4(H^{2}-AC)>0$，故有两个不相等的实根；两根之积为 $\\dfrac{C}{A}<0$，所以两根异号. 因此该直线与椭圆有且只有 $2$ 个公共点.</p>"
         }
       ]
     },
@@ -167,10 +167,10 @@
       "problems": [
         {
           "num": 15,
-          "body": "当 $0&#x3C;a&#x3C;1$ 时，解关于 $x$ 的不等式：$a^{\\sqrt{2x-1}}&#x3C;a^{x-2}$.",
+          "body": "当 $0<a<1$ 时，解关于 $x$ 的不等式：$a^{\\sqrt{2x-1}}<a^{x-2}$.",
           "choices": null,
           "answer": "",
-          "solution": "由根式有意义，得 $2x-1\\ge0$，即 $x\\ge\\dfrac{1}{2}$. 因为 $0&#x3C;a&#x3C;1$，函数 $y=a^{t}$ 在 $\\mathbb{R}$ 上单调递减，所以原不等式等价于 $\\sqrt{2x-1}>x-2$. 令 $t=\\sqrt{2x-1}$，则 $t\\ge0$，且 $x=\\dfrac{t^2+1}{2}$，于是 $t>\\dfrac{t^2+1}{2}-2$，即 $t^{2}-2t-3&#x3C;0$，所以 $\\left(t-3\\right)\\left(t+1\\right)&#x3C;0$. 结合 $t\\ge0$，得 $0\\le t&#x3C;3$，从而 $0\\le2x-1&#x3C;9$. 因此不等式的解集为 $\\left[\\dfrac{1}{2},5\\right)$."
+          "solution": "由根式有意义，得 $2x-1\\ge0$，即 $x\\ge\\dfrac{1}{2}$. 因为 $0<a<1$，函数 $y=a^{t}$ 在 $\\mathbb{R}$ 上单调递减，所以原不等式等价于 $\\sqrt{2x-1}>x-2$. 令 $t=\\sqrt{2x-1}$，则 $t\\ge0$，且 $x=\\dfrac{t^2+1}{2}$，于是 $t>\\dfrac{t^2+1}{2}-2$，即 $t^{2}-2t-3<0$，所以 $\\left(t-3\\right)\\left(t+1\\right)<0$. 结合 $t\\ge0$，得 $0\\le t<3$，从而 $0\\le2x-1<9$. 因此不等式的解集为 $\\left[\\dfrac{1}{2},5\\right)$."
         },
         {
           "num": 16,
@@ -198,7 +198,7 @@
           "body": "<p>某厂生产某种零件，每个零件的成本为 $40\\text{ 元}$，出厂单价定为 $60\\text{ 元}$. 该厂为鼓励销售商订购，决定当一次订购量超过 $100\\text{ 个}$ 时，每多订购 $1\\text{ 个}$，订购的全部零件的出厂单价就降低 $0.02\\text{ 元}$，但实际出厂单价不能低于 $51\\text{ 元}$.</p><ol class=\"enumerate\"><li><p>当一次订购量为多少$\\text{个}$时，零件的实际出厂单价恰降为 $51\\text{ 元}$？</p></li><li><p>设一次订购量为 $x\\text{ 个}$，零件的实际出厂单价为 $P\\text{ 元}$，写出函数 $P=f(x)$ 的表达式；</p></li><li><p>当销售商一次订购 $500\\text{ 个}$零件时，该厂获得的利润是多少$\\text{元}$？如果订购 $1000\\text{ 个}$，利润又是多少$\\text{元}$？（工厂售出一个零件的利润 $=$ 实际出厂单价 $-$ 成本）</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x>100$ 时，按规则计算得到的单价为 $60-0.02(x-100)=62-0.02x$. 令实际单价降为 $51\\text{ 元}$，得 $62-0.02x=51$，解得 $x=550$. 因此一次订购 $550\\text{ 个}$时，实际出厂单价恰为 $51\\text{ 元}$.</p></li><li><p>当 $0&#x3C;x\\le100$ 时，单价仍为 $60\\text{ 元}$；当 $100&#x3C;x&#x3C;550$ 时，单价为 $62-0.02x\\text{ 元}$；当 $x\\ge550$ 时，按规定单价不再降低，保持为 $51\\text{ 元}$. 所以</p>\n$$\nP=f(x)=  \\begin{cases}60,&#x26;0&#x3C;x\\le100,\\\\  62-0.02x,&#x26;100&#x3C;x&#x3C;550,\\\\  51,&#x26;x\\ge550.\\end{cases}\n$$\n</li><li><p>订购 $500\\text{ 个}$时，单价为 $62-0.02\\times500=52\\text{ 元}$，每个零件的利润为 $52-40=12\\text{ 元}$，所以总利润为 $500\\times12=6000\\text{ 元}$. 订购 $1000\\text{ 个}$时，单价为 $51\\text{ 元}$，每个零件的利润为 $51-40=11\\text{ 元}$，所以总利润为 $1000\\times11=11000\\text{ 元}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x>100$ 时，按规则计算得到的单价为 $60-0.02(x-100)=62-0.02x$. 令实际单价降为 $51\\text{ 元}$，得 $62-0.02x=51$，解得 $x=550$. 因此一次订购 $550\\text{ 个}$时，实际出厂单价恰为 $51\\text{ 元}$.</p></li><li><p>当 $0<x\\le100$ 时，单价仍为 $60\\text{ 元}$；当 $100<x<550$ 时，单价为 $62-0.02x\\text{ 元}$；当 $x\\ge550$ 时，按规定单价不再降低，保持为 $51\\text{ 元}$. 所以</p>\n$$\nP=f(x)=  \\begin{cases}60,&0<x\\le100,\\\\  62-0.02x,&100<x<550,\\\\  51,&x\\ge550.\\end{cases}\n$$\n</li><li><p>订购 $500\\text{ 个}$时，单价为 $62-0.02\\times500=52\\text{ 元}$，每个零件的利润为 $52-40=12\\text{ 元}$，所以总利润为 $500\\times12=6000\\text{ 元}$. 订购 $1000\\text{ 个}$时，单价为 $51\\text{ 元}$，每个零件的利润为 $51-40=11\\text{ 元}$，所以总利润为 $1000\\times11=11000\\text{ 元}$.</p></li></ol>"
         },
         {
           "num": 20,

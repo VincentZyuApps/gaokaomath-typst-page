@@ -17,7 +17,7 @@
             "$(-\\infty, 0) \\cup (1, +\\infty)$"
           ],
           "answer": "D.",
-          "solution": "移项并因式分解得 $x^{2}-x=x(x-1)>0$. 当 $x&#x3C;0$ 或 $x>1$ 时两因式同号，乘积为正；当 $0\\le x\\leqslant1$ 时乘积不为正. 因此解集为 $(-\\infty,0)\\cup(1,+\\infty)$，故选 D."
+          "solution": "移项并因式分解得 $x^{2}-x=x(x-1)>0$. 当 $x<0$ 或 $x>1$ 时两因式同号，乘积为正；当 $0\\le x\\leqslant1$ 时乘积不为正. 因此解集为 $(-\\infty,0)\\cup(1,+\\infty)$，故选 D."
         },
         {
           "num": 2,
@@ -65,7 +65,7 @@
             "$11$"
           ],
           "answer": "C.",
-          "solution": "<p>展开式中 $x^{k}$ 的系数为 $\\mathrm{C}_{n}^{k}$，且</p>\n$$\n\\frac{\\mathrm{C}_{n}^{k+1}}{\\mathrm{C}_{n}^{k}}=\\frac{n-k}{k+1}\n$$\n<p>要使 $x^{5}$ 项存在，必须有 $n\\geqslant5$. 当 $n=5$ 时其系数为 $1$，</p><p>而常数项的系数为 $\\mathrm{C}_{5}^{0}=1$，最大系数不唯一，故不合题意.</p><p>当 $n\\geqslant6$ 时，比较 $x^{5}$ 项与相邻两项：</p><p>$\\frac{\\mathrm{C}_{n}^{5}}{\\mathrm{C}_{n}^{4}}=\\frac{n-4}{5}$，$\\frac{\\mathrm{C}_{n}^{6}}{\\mathrm{C}_{n}^{5}}=\\frac{n-5}{6}$.</p><p>若 $x^{5}$ 的系数是唯一最大值，必须同时满足</p><p>$\\frac{n-4}{5}>1$，$\\frac{n-5}{6}&#x3C;1$</p><p>即 $n>9$ 且 $n&#x3C;11$，所以 $n=10$. 直接验证</p><p>$\\frac{\\mathrm{C}_{10}^{5}}{\\mathrm{C}_{10}^{4}}=\\frac{6}{5}>1$、$\\frac{\\mathrm{C}_{10}^{6}}{\\mathrm{C}_{10}^{5}}=\\frac{5}{6}&#x3C;1$，</p><p>并且二项式系数先增后减，故 $x^{5}$ 项确为唯一最大项. 因此选 C.</p>"
+          "solution": "<p>展开式中 $x^{k}$ 的系数为 $\\mathrm{C}_{n}^{k}$，且</p>\n$$\n\\frac{\\mathrm{C}_{n}^{k+1}}{\\mathrm{C}_{n}^{k}}=\\frac{n-k}{k+1}\n$$\n<p>要使 $x^{5}$ 项存在，必须有 $n\\geqslant5$. 当 $n=5$ 时其系数为 $1$，</p><p>而常数项的系数为 $\\mathrm{C}_{5}^{0}=1$，最大系数不唯一，故不合题意.</p><p>当 $n\\geqslant6$ 时，比较 $x^{5}$ 项与相邻两项：</p><p>$\\frac{\\mathrm{C}_{n}^{5}}{\\mathrm{C}_{n}^{4}}=\\frac{n-4}{5}$，$\\frac{\\mathrm{C}_{n}^{6}}{\\mathrm{C}_{n}^{5}}=\\frac{n-5}{6}$.</p><p>若 $x^{5}$ 的系数是唯一最大值，必须同时满足</p><p>$\\frac{n-4}{5}>1$，$\\frac{n-5}{6}<1$</p><p>即 $n>9$ 且 $n<11$，所以 $n=10$. 直接验证</p><p>$\\frac{\\mathrm{C}_{10}^{5}}{\\mathrm{C}_{10}^{4}}=\\frac{6}{5}>1$、$\\frac{\\mathrm{C}_{10}^{6}}{\\mathrm{C}_{10}^{5}}=\\frac{5}{6}<1$，</p><p>并且二项式系数先增后减，故 $x^{5}$ 项确为唯一最大项. 因此选 C.</p>"
         },
         {
           "num": 6,
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "函数 $f(x) = \\begin{cases}4x - 4,&#x26;x \\le 1,  \\\\  x^{2} - 4x + 3,&#x26;x > 1,\\end{cases}$ 的图象和函数 $g(x) = \\log_{2} x$ 的图象的交点个数是（ ）",
+          "body": "函数 $f(x) = \\begin{cases}4x - 4,&x \\le 1,  \\\\  x^{2} - 4x + 3,&x > 1,\\end{cases}$ 的图象和函数 $g(x) = \\log_{2} x$ 的图象的交点个数是（ ）",
           "choices": [
             "$1$",
             "$2$",
@@ -101,7 +101,7 @@
             "$4$"
           ],
           "answer": "C.",
-          "solution": "<p>由于 $g(x)=\\log_{2}x$ 的定义域为 $x>0$，先考察 $0&#x3C;x\\leqslant1$. 令</p><p>$h_{1}(x)=4x-4-\\log_{2}x$，则</p><p>$h_{1}'(x)=4-\\dfrac1{x\\ln2}$，$h_{1}''(x)=\\dfrac1{x^{2}\\ln2}>0$. 因此 $h_{1}'$ 严格递增，$h_{1}$ 只有一个极小值点. 又 $h_{1}(x)\\to+\\infty$（$x\\to0^{+}$），$h_{1}(1)=0$，且 $h_{1}\\left(\\frac{1}{2}\\right)=-1&#x3C;0$，所以这一段有两个交点.</p><p>再考察 $x>1$，令 $h_{2}(x)=x^{2}-4x+3-\\log_{2}x$. 有</p><p>$h_{2}'(x)=2x-4-\\dfrac1{x\\ln2}$，$h_{2}''(x)=2+\\dfrac1{x^{2}\\ln2}>0$. 函数 $h_{2}'$ 严格递增，且 $h_{2}'(1)&#x3C;0$，$h_{2}(1)=0$，故 $h_{2}$ 在 $1$ 的右邻域为负；又 $h_{2}(x)\\to+\\infty$（$x\\to+\\infty$），所以 $h_{2}(x)=0$ 在 $x>1$ 内恰有一个根. 两段合计有 $2+1=3$ 个交点，故选 C.</p>"
+          "solution": "<p>由于 $g(x)=\\log_{2}x$ 的定义域为 $x>0$，先考察 $0<x\\leqslant1$. 令</p><p>$h_{1}(x)=4x-4-\\log_{2}x$，则</p><p>$h_{1}'(x)=4-\\dfrac1{x\\ln2}$，$h_{1}''(x)=\\dfrac1{x^{2}\\ln2}>0$. 因此 $h_{1}'$ 严格递增，$h_{1}$ 只有一个极小值点. 又 $h_{1}(x)\\to+\\infty$（$x\\to0^{+}$），$h_{1}(1)=0$，且 $h_{1}\\left(\\frac{1}{2}\\right)=-1<0$，所以这一段有两个交点.</p><p>再考察 $x>1$，令 $h_{2}(x)=x^{2}-4x+3-\\log_{2}x$. 有</p><p>$h_{2}'(x)=2x-4-\\dfrac1{x\\ln2}$，$h_{2}''(x)=2+\\dfrac1{x^{2}\\ln2}>0$. 函数 $h_{2}'$ 严格递增，且 $h_{2}'(1)<0$，$h_{2}(1)=0$，故 $h_{2}$ 在 $1$ 的右邻域为负；又 $h_{2}(x)\\to+\\infty$（$x\\to+\\infty$），所以 $h_{2}(x)=0$ 在 $x>1$ 内恰有一个根. 两段合计有 $2+1=3$ 个交点，故选 C.</p>"
         },
         {
           "num": 9,
@@ -125,7 +125,7 @@
             "$13$"
           ],
           "answer": "B.",
-          "solution": "<p>设每个二元子集写成 $\\{i,j\\}$，其中 $i&#x3C;j$. 对应的数为 $\\frac{i}{j}$. 逐一列出 $1\\le i&#x3C;j\\leqslant6$ 后，不同的数恰为</p><p>$\\frac{1}{2}$，$\\frac{1}{3}$，$\\frac{2}{3}$，$\\frac{1}{4}$，$\\frac{3}{4}$，$\\frac{1}{5}$，$\\frac{2}{5}$，$\\frac{3}{5}$，$\\frac{4}{5}$，$\\frac{1}{6}$，$\\frac{5}{6}$，共 $11$ 个. 每个不同的数至多选取一个子集；而这 $11$ 个数均可由相应子集取得，所以最大值为 $11$，故选 B.</p>"
+          "solution": "<p>设每个二元子集写成 $\\{i,j\\}$，其中 $i<j$. 对应的数为 $\\frac{i}{j}$. 逐一列出 $1\\le i<j\\leqslant6$ 后，不同的数恰为</p><p>$\\frac{1}{2}$，$\\frac{1}{3}$，$\\frac{2}{3}$，$\\frac{1}{4}$，$\\frac{3}{4}$，$\\frac{1}{5}$，$\\frac{2}{5}$，$\\frac{3}{5}$，$\\frac{4}{5}$，$\\frac{1}{6}$，$\\frac{5}{6}$，共 $11$ 个. 每个不同的数至多选取一个子集；而这 $11$ 个数均可由相应子集取得，所以最大值为 $11$，故选 B.</p>"
         }
       ]
     },
@@ -144,7 +144,7 @@
           "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，若 $a = 1$，$c = \\sqrt{3}$，$C = \\frac{\\pi}{3}$，则 $A =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{\\pi}{6}$.",
-          "solution": "<p>由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{c}{\\sin C}$，所以</p><p>$\\sin A=\\dfrac{a\\sin C}{c}=\\dfrac{1\\cdot\\frac{\\sqrt{3}}{2}}{\\sqrt{3}}=\\frac{1}{2}$. 故 $A=\\frac{\\pi}{6}$ 或 $A=\\frac{5\\pi}{6}$. 但三角形内角满足 $A+C&#x3C;\\pi$，而 $\\frac{5\\pi}{6}+\\frac{\\pi}{3}>\\pi$，舍去后者，故 $A=\\frac{\\pi}{6}$.</p>"
+          "solution": "<p>由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{c}{\\sin C}$，所以</p><p>$\\sin A=\\dfrac{a\\sin C}{c}=\\dfrac{1\\cdot\\frac{\\sqrt{3}}{2}}{\\sqrt{3}}=\\frac{1}{2}$. 故 $A=\\frac{\\pi}{6}$ 或 $A=\\frac{5\\pi}{6}$. 但三角形内角满足 $A+C<\\pi$，而 $\\frac{5\\pi}{6}+\\frac{\\pi}{3}>\\pi$，舍去后者，故 $A=\\frac{\\pi}{6}$.</p>"
         },
         {
           "num": 13,
@@ -158,7 +158,7 @@
           "body": "<p>设集合 $A = \\{(x, y) \\mid y \\ge |x - 2|, x \\ge 0\\}$，$B = \\{(x, y) \\mid y \\le -x + b\\}$，$A \\cap B \\neq \\emptyset$.</p><ol class=\"enumerate\"><li><p>$b$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；</p></li><li><p>若 $(x, y) \\in A \\cap B$，且 $x + 2y$ 的最大值为 9，则 $b$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p></li></ol>",
           "choices": null,
           "answer": "$\\left[2,+\\infty\\right)$，$\\frac{9}{2}$.",
-          "solution": "<p>要使 $A\\cap B\\neq\\emptyset$，需存在 $x\\geqslant0$ 使</p><p>$|x-2|\\le -x+b$，即 $b\\ge x+|x-2|$. 而</p>\n$$\nx+|x-2|=\\begin{cases}2,&#x26;0\\le x\\leqslant2,\\\\  2x-2,&#x26;x\\geqslant2,\\end{cases}\n$$\n<p>其最小值为 $2$，所以 $b\\geqslant2$，即 $b\\in[2,+\\infty)$.</p><p>对任意 $(x,y)\\in A\\cap B$，有 $y\\le-x+b$，从而</p><p>$x+2y\\le x+2(-x+b)=2b-x\\leqslant2b$. 当 $x=0$、$y=b$ 时，只要 $b\\geqslant2$，点 $(0,b)$ 同时属于 $A$ 和 $B$，上述上界可以取得. 因此 $x+2y$ 的最大值为 $2b$. 由 $2b=9$，得 $b=\\frac{9}{2}$.</p>"
+          "solution": "<p>要使 $A\\cap B\\neq\\emptyset$，需存在 $x\\geqslant0$ 使</p><p>$|x-2|\\le -x+b$，即 $b\\ge x+|x-2|$. 而</p>\n$$\nx+|x-2|=\\begin{cases}2,&0\\le x\\leqslant2,\\\\  2x-2,&x\\geqslant2,\\end{cases}\n$$\n<p>其最小值为 $2$，所以 $b\\geqslant2$，即 $b\\in[2,+\\infty)$.</p><p>对任意 $(x,y)\\in A\\cap B$，有 $y\\le-x+b$，从而</p><p>$x+2y\\le x+2(-x+b)=2b-x\\leqslant2b$. 当 $x=0$、$y=b$ 时，只要 $b\\geqslant2$，点 $(0,b)$ 同时属于 $A$ 和 $B$，上述上界可以取得. 因此 $x+2y$ 的最大值为 $2b$. 由 $2b=9$，得 $b=\\frac{9}{2}$.</p>"
         },
         {
           "num": 15,
@@ -212,7 +212,7 @@
           "body": "<p>已知函数 $f(x) = \\frac{1}{3}x^{3} + \\frac{1}{2}ax^{2} + bx$ 在区间 $[-1, 1)$，$(1, 3]$ 内各有一个极值点.</p><ol class=\"enumerate\"><li><p>求 $a^{2} - 4b$ 的最大值；</p></li><li><p>当 $a^{2} - 4b = 8$ 时，设函数 $y = f(x)$ 在点 $A(1, f(1))$ 处的切线为 $l$. 若 $l$ 在点 $A$ 处穿过 $y = f(x)$ 的图象（即动点在点 $A$ 附近沿曲线 $y = f(x)$ 运动，经过点 $A$ 时，从 $l$ 的一侧进入另一侧），求函数 $f(x)$ 的表达式.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=x^{2}+ax+b$. 设 $f'$ 的两个根分别为</p><p>$r_{1}$，$r_{2}$，则由题意</p>\n$$\n-1\\le r_{1}&#x3C;1&#x3C;r_{2}\\leqslant3\n$$\n<p>由于二次项系数为正，这两个根分别对应两个极值点，且</p>\n$$\na^{2}-4b=(r_{2}-r_{1})^{2}\n$$\n<p>由根所在区间，</p>\n$$\nr_{2}-r_{1}\\leqslant3-(-1)=4\n$$\n<p>所以 $a^{2}-4b\\leqslant16$. 当 $r_{1}=-1$，$r_{2}=3$ 时条件成立，</p><p>且 $a^{2}-4b=16$，故最大值为 $16$.</p></li><li><p>设切线为 $l$，令 $g(x)=f(x)-l(x)$. 因为 $l$ 是</p><p>$x=1$ 处的切线，所以 $g(1)=g'(1)=0$，且</p>\n$$\ng'(x)=f'(x)-f'(1)  =(x-1)(x+a+1)\n$$\n<p>若 $a\\ne-2$，则 $x=1$ 是 $g'$ 的单根，因而 $g$ 在</p><p>$x=1$ 处取得局部极值，曲线不能在点 $A$ 处从直线的一侧穿到另一侧.</p><p>所以必须有 $a=-2$. 此时</p><p>$a^{2}-4b=8$，$\\Longrightarrow$，$4-4b=8$，$\\Longrightarrow$，$b=-1$.</p><p>于是</p>\n$$\nf(x)=\\frac{1}{3}x^{3}-x^{2}-x\n$$\n<p>验证 $f'(x)=x^{2}-2x-1$ 的两个根为 $1-\\sqrt{2}$ 和 $1+\\sqrt{2}$，</p><p>分别属于 $[-1,1)$ 和 $(1,3]$. 又因 $a=-2$，</p><p>$g'(x)=(x-1)^{2}$，$g(x)=\\frac{1}{3}(x-1)^{3}$</p><p>它在 $x=1$ 两侧异号，确实满足穿过条件.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=x^{2}+ax+b$. 设 $f'$ 的两个根分别为</p><p>$r_{1}$，$r_{2}$，则由题意</p>\n$$\n-1\\le r_{1}<1<r_{2}\\leqslant3\n$$\n<p>由于二次项系数为正，这两个根分别对应两个极值点，且</p>\n$$\na^{2}-4b=(r_{2}-r_{1})^{2}\n$$\n<p>由根所在区间，</p>\n$$\nr_{2}-r_{1}\\leqslant3-(-1)=4\n$$\n<p>所以 $a^{2}-4b\\leqslant16$. 当 $r_{1}=-1$，$r_{2}=3$ 时条件成立，</p><p>且 $a^{2}-4b=16$，故最大值为 $16$.</p></li><li><p>设切线为 $l$，令 $g(x)=f(x)-l(x)$. 因为 $l$ 是</p><p>$x=1$ 处的切线，所以 $g(1)=g'(1)=0$，且</p>\n$$\ng'(x)=f'(x)-f'(1)  =(x-1)(x+a+1)\n$$\n<p>若 $a\\ne-2$，则 $x=1$ 是 $g'$ 的单根，因而 $g$ 在</p><p>$x=1$ 处取得局部极值，曲线不能在点 $A$ 处从直线的一侧穿到另一侧.</p><p>所以必须有 $a=-2$. 此时</p><p>$a^{2}-4b=8$，$\\Longrightarrow$，$4-4b=8$，$\\Longrightarrow$，$b=-1$.</p><p>于是</p>\n$$\nf(x)=\\frac{1}{3}x^{3}-x^{2}-x\n$$\n<p>验证 $f'(x)=x^{2}-2x-1$ 的两个根为 $1-\\sqrt{2}$ 和 $1+\\sqrt{2}$，</p><p>分别属于 $[-1,1)$ 和 $(1,3]$. 又因 $a=-2$，</p><p>$g'(x)=(x-1)^{2}$，$g(x)=\\frac{1}{3}(x-1)^{3}$</p><p>它在 $x=1$ 两侧异号，确实满足穿过条件.</p></li></ol>"
         }
       ]
     }

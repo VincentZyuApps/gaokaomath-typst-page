@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "函数 $y = \\ln \\cos x$（$-\\frac{\\pi}{2}&#x3C; x &#x3C; \\frac{\\pi}{2}$）的图象是（ ）",
+          "body": "函数 $y = \\ln \\cos x$（$-\\frac{\\pi}{2}< x < \\frac{\\pi}{2}$）的图象是（ ）",
           "choices": [
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_liberal/q3_optA_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_liberal/q3_optB_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
@@ -41,7 +41,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_liberal/q3_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "<p>在给定定义域内，</p>\n$$\nf(-x)=\\ln\\cos(-x)=\\ln\\cos x=f(x)\n$$\n<p>，所以图象关于 $y$ 轴对称. 又因为 $0&#x3C;\\cos x\\leqslant1$，所以 $f(x)\\leqslant0$，且 $f(0)=0$. 当 $x\\to\\pm\\frac{\\pi}{2}$ 时，$\\cos x\\to0^{+}$，故 $f(x)\\to-\\infty$. 因此图象在原点取得最大值，向两端均下降，符合选项 A.</p>"
+          "solution": "<p>在给定定义域内，</p>\n$$\nf(-x)=\\ln\\cos(-x)=\\ln\\cos x=f(x)\n$$\n<p>，所以图象关于 $y$ 轴对称. 又因为 $0<\\cos x\\leqslant1$，所以 $f(x)\\leqslant0$，且 $f(0)=0$. 当 $x\\to\\pm\\frac{\\pi}{2}$ 时，$\\cos x\\to0^{+}$，故 $f(x)\\to-\\infty$. 因此图象在原点取得最大值，向两端均下降，符合选项 A.</p>"
         },
         {
           "num": 4,
@@ -53,11 +53,11 @@
             "$0$"
           ],
           "answer": "C",
-          "solution": "<p>设原命题为 $P\\Rightarrow Q$，其中 $P$ 表示“$f$ 是幂函数”，$Q$ 表示“图象不过第四象限”. 幂函数在其定义域内的图象不会出现 $x>0$，$y&#x3C;0$ 的点，因此原命题为真，故其逆否命题也为真.</p><p>逆命题 $Q\\Rightarrow P$ 不成立，例如函数 $y=x^{2}+1$ 的图象不过第四象限，但它不是幂函数. 否命题 $\\lnot P\\Rightarrow\\lnot Q$ 与逆命题等价，也为假. 因此三个命题中只有一个真命题，选 C.</p>"
+          "solution": "<p>设原命题为 $P\\Rightarrow Q$，其中 $P$ 表示“$f$ 是幂函数”，$Q$ 表示“图象不过第四象限”. 幂函数在其定义域内的图象不会出现 $x>0$，$y<0$ 的点，因此原命题为真，故其逆否命题也为真.</p><p>逆命题 $Q\\Rightarrow P$ 不成立，例如函数 $y=x^{2}+1$ 的图象不过第四象限，但它不是幂函数. 否命题 $\\lnot P\\Rightarrow\\lnot Q$ 与逆命题等价，也为假. 因此三个命题中只有一个真命题，选 C.</p>"
         },
         {
           "num": 5,
-          "body": "设函数 $f(x) = \\begin{cases}1 - x^{2},&#x26;x \\le 1,\\\\  x^{2} + x - 2,&#x26;x > 1,\\end{cases}$ 则 $f\\left(\\frac{1}{f(2)}\\right)$ 的值为（ ）",
+          "body": "设函数 $f(x) = \\begin{cases}1 - x^{2},&x \\le 1,\\\\  x^{2} + x - 2,&x > 1,\\end{cases}$ 则 $f\\left(\\frac{1}{f(2)}\\right)$ 的值为（ ）",
           "choices": [
             "$\\frac{15}{16}$",
             "$-\\frac{27}{16}$",
@@ -101,7 +101,7 @@
             "$\\frac{\\pi}{3}$，$\\frac{\\pi}{3}$"
           ],
           "answer": "C",
-          "solution": "<p>由 $\\mathbf{m}\\perp\\mathbf{n}$，得 $\\mathbf{m}\\cdot\\mathbf{n}=\\sqrt{3}\\cos A-\\sin A=0$. 由于 $0&#x3C;A&#x3C;\\pi$，所以 $\\tan A=\\sqrt{3}$，从而 $A=\\frac{\\pi}{3}$.</p><p>由正弦定理 $a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$，原等式化为 $2R(\\sin A\\cos B+\\sin B\\cos A)=2R\\sin^{2}C$. 左边为 $2R\\sin(A+B)=2R\\sin C$，故 $\\sin C=\\sin^{2}C$. 三角形中 $0&#x3C;C&#x3C;\\pi$，所以 $\\sin C>0$，只能有 $\\sin C=1$，即 $C=\\frac{\\pi}{2}$. 于是 $B=\\pi-A-C=\\frac{\\pi}{6}$.</p><p>故 $A=\\frac{\\pi}{3}$，$B=\\frac{\\pi}{6}$，选 C.</p>"
+          "solution": "<p>由 $\\mathbf{m}\\perp\\mathbf{n}$，得 $\\mathbf{m}\\cdot\\mathbf{n}=\\sqrt{3}\\cos A-\\sin A=0$. 由于 $0<A<\\pi$，所以 $\\tan A=\\sqrt{3}$，从而 $A=\\frac{\\pi}{3}$.</p><p>由正弦定理 $a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$，原等式化为 $2R(\\sin A\\cos B+\\sin B\\cos A)=2R\\sin^{2}C$. 左边为 $2R\\sin(A+B)=2R\\sin C$，故 $\\sin C=\\sin^{2}C$. 三角形中 $0<C<\\pi$，所以 $\\sin C>0$，只能有 $\\sin C=1$，即 $C=\\frac{\\pi}{2}$. 于是 $B=\\pi-A-C=\\frac{\\pi}{6}$.</p><p>故 $A=\\frac{\\pi}{3}$，$B=\\frac{\\pi}{6}$，选 C.</p>"
         },
         {
           "num": 9,
@@ -143,13 +143,13 @@
           "num": 12,
           "body": "<p>已知函数 $f(x)=\\log_{a}(2^{x}+b-1)$（$a>0$，$a\\neq1$）的图象如图所示，则 $a$，$b$ 满足的关系是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$0 &#x3C; a^{-1}&#x3C; b &#x3C; 1$",
-            "$0 &#x3C; b &#x3C; a^{-1}&#x3C; 1$",
-            "$0 &#x3C; b^{-1}&#x3C; a &#x3C; -1$",
-            "$0 &#x3C; a^{-1}&#x3C; b^{-1}&#x3C; 1$"
+            "$0 < a^{-1}< b < 1$",
+            "$0 < b < a^{-1}< 1$",
+            "$0 < b^{-1}< a < -1$",
+            "$0 < a^{-1}< b^{-1}< 1$"
           ],
           "answer": "A",
-          "solution": "<p>由图象单调递增，知 $a>1$. 图象在 $y$ 轴上的截距位于 $-1$ 与 $0$ 之间，所以</p>\n$$\n-1&#x3C; f(0)=\\log_{a} b&#x3C;0\n$$\n<p>由于 $a>1$ 时对数函数单调递增，且 $\\log_{a}(a^{-1})=-1$、$\\log_{a}1=0$，故</p>\n$$\na^{-1}&#x3C;b&#x3C;1\n$$\n<p>结合 $b>0$，得到 $0&#x3C;a^{-1}&#x3C;b&#x3C;1$，选 A.</p>"
+          "solution": "<p>由图象单调递增，知 $a>1$. 图象在 $y$ 轴上的截距位于 $-1$ 与 $0$ 之间，所以</p>\n$$\n-1< f(0)=\\log_{a} b<0\n$$\n<p>由于 $a>1$ 时对数函数单调递增，且 $\\log_{a}(a^{-1})=-1$、$\\log_{a}1=0$，故</p>\n$$\na^{-1}<b<1\n$$\n<p>结合 $b>0$，得到 $0<a^{-1}<b<1$，选 A.</p>"
         }
       ]
     },
@@ -168,7 +168,7 @@
           "body": "<p>执行下面的程序框图，若 $p = 0.8$，则输出的 $n =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$4$",
-          "solution": "<p>初始时 $n=1$，$S=0$. 逐次判断并更新：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$n$ </td><td style=\"text-align: center; border-right: 1px solid\"> $S$ </td><td style=\"text-align: center\"> $S&#x3C;p?$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0$ </td><td style=\"text-align: center\"> $0&#x3C;0.8$，更新为 $S=\\frac{1}{2}$，$n=2$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $\\frac{1}{2}$ </td><td style=\"text-align: center\"> $\\frac{1}{2}&#x3C;0.8$，更新为 $S=\\frac{3}{4}$，$n=3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $\\frac{3}{4}$ </td><td style=\"text-align: center\"> $\\frac{3}{4}&#x3C;0.8$，更新为 $S=\\frac{3}{4}+\\frac{1}{8}=\\frac{7}{8}$，$n=4$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$4$ </td><td style=\"text-align: center; border-right: 1px solid\"> $\\frac{7}{8}$ </td><td style=\"text-align: center\"> $\\frac{7}{8}=0.875>0.8$，停止</td></tr></tbody></table></center><p>因此输出 $n=4$.</p>"
+          "solution": "<p>初始时 $n=1$，$S=0$. 逐次判断并更新：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$n$ </td><td style=\"text-align: center; border-right: 1px solid\"> $S$ </td><td style=\"text-align: center\"> $S<p?$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0$ </td><td style=\"text-align: center\"> $0<0.8$，更新为 $S=\\frac{1}{2}$，$n=2$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $\\frac{1}{2}$ </td><td style=\"text-align: center\"> $\\frac{1}{2}<0.8$，更新为 $S=\\frac{3}{4}$，$n=3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $\\frac{3}{4}$ </td><td style=\"text-align: center\"> $\\frac{3}{4}<0.8$，更新为 $S=\\frac{3}{4}+\\frac{1}{8}=\\frac{7}{8}$，$n=4$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$4$ </td><td style=\"text-align: center; border-right: 1px solid\"> $\\frac{7}{8}$ </td><td style=\"text-align: center\"> $\\frac{7}{8}=0.875>0.8$，停止</td></tr></tbody></table></center><p>因此输出 $n=4$.</p>"
         },
         {
           "num": 15,
@@ -191,10 +191,10 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>已知函数 $f(x) = \\sqrt{3}\\sin (\\omega x + \\varphi) - \\cos (\\omega x + \\varphi)$（$0 &#x3C; \\varphi &#x3C; \\pi$，$\\omega > 0$）为偶函数，且函数 $y = f(x)$ 图象的两相邻对称轴间的距离为 $\\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>求 $f\\left(\\frac{\\pi}{8}\\right)$ 的值；</p></li><li><p>将函数 $y = f(x)$ 的图象向右平移 $\\frac{\\pi}{6}$ 个单位后，得到函数 $y = g(x)$ 的图象，求 $g(x)$ 的单调递减区间.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = \\sqrt{3}\\sin (\\omega x + \\varphi) - \\cos (\\omega x + \\varphi)$（$0 < \\varphi < \\pi$，$\\omega > 0$）为偶函数，且函数 $y = f(x)$ 图象的两相邻对称轴间的距离为 $\\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>求 $f\\left(\\frac{\\pi}{8}\\right)$ 的值；</p></li><li><p>将函数 $y = f(x)$ 的图象向右平移 $\\frac{\\pi}{6}$ 个单位后，得到函数 $y = g(x)$ 的图象，求 $g(x)$ 的单调递减区间.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>先合并同角三角函数，得 $f(x)=2\\sin\\left(\\omega x+\\varphi-\\frac{\\pi}{6}\\right)$. 令 $\\delta=\\varphi-\\frac{\\pi}{6}$. 因 $f$ 为偶函数，对任意 $x$ 有 $0=f(x)-f(-x)=4\\cos\\delta\\sin(\\omega x)$. 由于 $\\omega>0$，这对任意 $x$ 成立只能有 $\\cos\\delta=0$. 又 $-\\frac{\\pi}{6}&#x3C;\\delta&#x3C;\\frac{5\\pi}{6}$，故 $\\delta=\\frac{\\pi}{2}$，从而 $\\varphi=\\frac{2\\pi}{3}$，并且 $f(x)=2\\cos(\\omega x)$. 函数 $2\\cos(\\omega x)$ 的相邻对称轴间距为 $\\frac{\\pi}{\\omega}$，所以 $\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，即 $\\omega=2$. 于是 $f\\left(\\frac{\\pi}{8}\\right)=2\\cos\\frac{\\pi}{4}=\\sqrt{2}$.</p></li><li><p>图象向右平移 $\\frac{\\pi}{6}$ 后，$g(x)=f\\left(x-\\frac{\\pi}{6}\\right)=2\\cos\\left(2x-\\frac{\\pi}{3}\\right)$，从而 $g'(x)=-4\\sin\\left(2x-\\frac{\\pi}{3}\\right)$. 因此 $g$ 递减当且仅当 $\\sin\\left(2x-\\frac{\\pi}{3}\\right)>0$，即存在 $k\\in\\mathbb{Z}$，使 $2k\\pi&#x3C;2x-\\frac{\\pi}{3}&#x3C;(2k+1)\\pi$. 所以 $g(x)$ 的单调递减区间为 $\\left(k\\pi+\\frac{\\pi}{6},k\\pi+\\frac{2\\pi}{3}\\right)$. 按通常教材将端点并入单调区间的记法，写为 $\\left[k\\pi+\\frac{\\pi}{6},k\\pi+\\frac{2\\pi}{3}\\right]$，其中 $k\\in\\mathbb{Z}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>先合并同角三角函数，得 $f(x)=2\\sin\\left(\\omega x+\\varphi-\\frac{\\pi}{6}\\right)$. 令 $\\delta=\\varphi-\\frac{\\pi}{6}$. 因 $f$ 为偶函数，对任意 $x$ 有 $0=f(x)-f(-x)=4\\cos\\delta\\sin(\\omega x)$. 由于 $\\omega>0$，这对任意 $x$ 成立只能有 $\\cos\\delta=0$. 又 $-\\frac{\\pi}{6}<\\delta<\\frac{5\\pi}{6}$，故 $\\delta=\\frac{\\pi}{2}$，从而 $\\varphi=\\frac{2\\pi}{3}$，并且 $f(x)=2\\cos(\\omega x)$. 函数 $2\\cos(\\omega x)$ 的相邻对称轴间距为 $\\frac{\\pi}{\\omega}$，所以 $\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，即 $\\omega=2$. 于是 $f\\left(\\frac{\\pi}{8}\\right)=2\\cos\\frac{\\pi}{4}=\\sqrt{2}$.</p></li><li><p>图象向右平移 $\\frac{\\pi}{6}$ 后，$g(x)=f\\left(x-\\frac{\\pi}{6}\\right)=2\\cos\\left(2x-\\frac{\\pi}{3}\\right)$，从而 $g'(x)=-4\\sin\\left(2x-\\frac{\\pi}{3}\\right)$. 因此 $g$ 递减当且仅当 $\\sin\\left(2x-\\frac{\\pi}{3}\\right)>0$，即存在 $k\\in\\mathbb{Z}$，使 $2k\\pi<2x-\\frac{\\pi}{3}<(2k+1)\\pi$. 所以 $g(x)$ 的单调递减区间为 $\\left(k\\pi+\\frac{\\pi}{6},k\\pi+\\frac{2\\pi}{3}\\right)$. 按通常教材将端点并入单调区间的记法，写为 $\\left[k\\pi+\\frac{\\pi}{6},k\\pi+\\frac{2\\pi}{3}\\right]$，其中 $k\\in\\mathbb{Z}$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -215,7 +215,7 @@
           "body": "<p>将数列 $\\{a_{n}\\}$ 中的所有项按每一行比上一行多一项的规则排成如下数表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">$a_{1}$ </td><td style=\"text-align: center\"> </td><td style=\"text-align: center\"> </td><td style=\"text-align: center\"> </td></tr><tr><td style=\"text-align: center\"><br>$a_{2}$ </td><td style=\"text-align: center\"> $a_{3}$ </td><td style=\"text-align: center\"> </td><td style=\"text-align: center\"> </td></tr><tr><td style=\"text-align: center\"><br>$a_{4}$ </td><td style=\"text-align: center\"> $a_{5}$ </td><td style=\"text-align: center\"> $a_{6}$ </td><td style=\"text-align: center\"> </td></tr><tr><td style=\"text-align: center\"><br>$a_{7}$ </td><td style=\"text-align: center\"> $a_{8}$ </td><td style=\"text-align: center\"> $a_{9}$ </td><td style=\"text-align: center\"> $a_{10}$</td></tr></tbody></table></center><p>记表中的第一列数 $a_{1}$，$a_{2}$，$a_{4}$，$a_{7}$，$\\cdots$ 构成的数列为 $\\{b_{n}\\}$，$b_{1} = a_{1} = 1$. $S_{n}$ 为数列 $\\{b_{n}\\}$ 的前 $n$ 项和，且满足 $\\frac{2b_{n}}{b_{n} S_{n} - S_{n}^{2}}= 1$（$n \\ge 2$）.</p><ol class=\"enumerate\"><li><p>证明数列 $\\left\\{\\frac{1}{S_{n}}\\right\\}$ 成等差数列，并求数列 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>上表中，若从第三行起，每一行中的数按从左到右的顺序均构成等比数列，且公比为同一个正数. 当 $a_{81}= -\\frac{4}{91}$ 时，求上表中第 $k$（$k \\ge 3$）行所有项和的和.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $b_{n}=S_{n}-S_{n-1}$，原条件可化为</p>\n$$\n2b_{n}=b_{n}S_{n}-S_{n}^{2}=S_{n}(b_{n}-S_{n})=-S_{n}S_{n-1}\n$$\n<p>题设分式有意义，所以 $S_{n}\\neq0$. 若 $S_{n-1}=0$，上式将给出 $b_{n}=0$，进而 $S_{n}=S_{n-1}+b_{n}=0$，矛盾；故 $S_{n}S_{n-1}\\neq0$，可以相除，得到</p>\n$$\n\\frac{1}{S_{n}}-\\frac{1}{S_{n-1}}=\\frac{1}{2}\n$$\n<p>而 $S_{1}=b_{1}=1$，所以 $\\left\\{\\frac{1}{S_{n}}\\right\\}$ 是首项为 $1$、公差为 $\\frac{1}{2}$ 的等差数列，</p>\n$$\n\\frac{1}{S_{n}}=1+\\frac{n-1}{2}=\\frac{n+1}{2}\n$$\n<p>于是 $S_{n}=\\frac{2}{n+1}$.</p>\n$$\nb_{n}=\\begin{cases}1, &#x26; n=1,\\\\\n\n-\\dfrac{2}{n(n+1)}, &#x26; n\\ge 2\\end{cases}\n$$\n</li><li><p>第 $k$ 行的第一个数是 $b_{k}$. 因为前 $12$ 行共有</p>\n$$\n1+2+\\cdots+12=78\n$$\n<p>项，而前 $13$ 行共有 $91$ 项，所以 $a_{81}$ 是第 $13$ 行从左数第 $3$ 项. 由 $b_{13}=-\\frac{1}{91}$，设各行公比为 $q>0$，则</p>\n$$\na_{81}=b_{13}q^{2}=-\\frac{4}{91}\n$$\n<p>从而 $q^{2}=4$，即 $q=2$. 因此第 $k$ 行的和为</p><p>$T_{k}=b_{k}(1+q+\\cdots+q^{k-1}) =-\\frac{2}{k(k+1)}(1+2+\\cdots+2^{k-1}) =\\frac{2(1-2^{k})}{k(k+1)}$，（$k\\geqslant3$）</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $b_{n}=S_{n}-S_{n-1}$，原条件可化为</p>\n$$\n2b_{n}=b_{n}S_{n}-S_{n}^{2}=S_{n}(b_{n}-S_{n})=-S_{n}S_{n-1}\n$$\n<p>题设分式有意义，所以 $S_{n}\\neq0$. 若 $S_{n-1}=0$，上式将给出 $b_{n}=0$，进而 $S_{n}=S_{n-1}+b_{n}=0$，矛盾；故 $S_{n}S_{n-1}\\neq0$，可以相除，得到</p>\n$$\n\\frac{1}{S_{n}}-\\frac{1}{S_{n-1}}=\\frac{1}{2}\n$$\n<p>而 $S_{1}=b_{1}=1$，所以 $\\left\\{\\frac{1}{S_{n}}\\right\\}$ 是首项为 $1$、公差为 $\\frac{1}{2}$ 的等差数列，</p>\n$$\n\\frac{1}{S_{n}}=1+\\frac{n-1}{2}=\\frac{n+1}{2}\n$$\n<p>于是 $S_{n}=\\frac{2}{n+1}$.</p>\n$$\nb_{n}=\\begin{cases}1, & n=1,\\\\\n\n-\\dfrac{2}{n(n+1)}, & n\\ge 2\\end{cases}\n$$\n</li><li><p>第 $k$ 行的第一个数是 $b_{k}$. 因为前 $12$ 行共有</p>\n$$\n1+2+\\cdots+12=78\n$$\n<p>项，而前 $13$ 行共有 $91$ 项，所以 $a_{81}$ 是第 $13$ 行从左数第 $3$ 项. 由 $b_{13}=-\\frac{1}{91}$，设各行公比为 $q>0$，则</p>\n$$\na_{81}=b_{13}q^{2}=-\\frac{4}{91}\n$$\n<p>从而 $q^{2}=4$，即 $q=2$. 因此第 $k$ 行的和为</p><p>$T_{k}=b_{k}(1+q+\\cdots+q^{k-1}) =-\\frac{2}{k(k+1)}(1+2+\\cdots+2^{k-1}) =\\frac{2(1-2^{k})}{k(k+1)}$，（$k\\geqslant3$）</p></li></ol>"
         },
         {
           "num": 21,

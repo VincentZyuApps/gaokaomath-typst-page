@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "<p>不等式 $\\frac{x-1}{x+2}&#x3C;0$ 的解集为（ ）</p><p>C</p><p>分式有意义的条件是 $x\\ne-2$，并且分子、分母的零点分别为 $1$ 和 $-2$. 在三个区间上判断符号：当 $x\\in(-\\infty,-2)$ 时，分子、分母均为负，分式为正；当 $x\\in(-2,1)$ 时，分子为负而分母为正，分式为负；当 $x\\in(1,+\\infty)$ 时，分式为正. 因此不等式的解集为 $(-2,1)$，故选 C.</p>",
+          "body": "<p>不等式 $\\frac{x-1}{x+2}<0$ 的解集为（ ）</p><p>C</p><p>分式有意义的条件是 $x\\ne-2$，并且分子、分母的零点分别为 $1$ 和 $-2$. 在三个区间上判断符号：当 $x\\in(-\\infty,-2)$ 时，分子、分母均为负，分式为正；当 $x\\in(-2,1)$ 时，分子为负而分母为正，分式为负；当 $x\\in(1,+\\infty)$ 时，分式为正. 因此不等式的解集为 $(-2,1)$，故选 C.</p>",
           "choices": [
             "$(1,+\\infty)$",
             "$(-\\infty,-2)$",
@@ -83,9 +83,9 @@
           "num": 7,
           "body": "<p>已知 $a=\\log_{2}3+\\log_{2}\\sqrt{3}$，$b=\\log_{2}9-\\log_{2}\\sqrt{3}$，$c=\\log_{3}2$，则 $a$，$b$，$c$ 的大小关系是（ ）</p><p>B</p><p>设 $t=\\log_{2} 3$. 因为 $3>2$，所以 $t>1$. 利用对数的运算性质，$a=\\log_{2}(3\\sqrt{3})=\\log_{2}(3^{\\frac{3}{2}})=\\frac{3}{2}t$，$b=\\log_{2}\\frac{9}{\\sqrt{3}}=\\log_{2}(3^{\\frac{3}{2}})=\\frac{3}{2}t$，故 $a=b$. 又 $c=\\log_{3} 2=\\frac{1}{\\log_{2} 3}=\\frac{1}{t}$，且 $t>1$ 时 $\\frac{3}{2}t>\\frac{1}{t}$，所以 $a=b>c$，故选 B.</p>",
           "choices": [
-            "$a=b&#x3C;c$",
+            "$a=b<c$",
             "$a=b>c$",
-            "$a&#x3C;b&#x3C;c$",
+            "$a<b<c$",
             "$a>b>c$"
           ],
           "answer": "",
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "<p>设四面体的六条棱的长分别为 $1$，$1$，$1$，$1$，$\\sqrt{2}$ 和 $a$，且长为 $a$ 的棱与长为 $\\sqrt{2}$ 的棱异面，则 $a$ 的取值范围是（ ）</p><p>A</p><p>设长为 $a$ 的一条棱为 $AB$，与之异面的长为 $\\sqrt{2}$ 的棱为 $CD$，则另外四条棱 $AC$，$AD$，$BC$，$BD$ 的长均为 $1$. 取 $AB$ 的中点为原点，使 $A=(-\\frac{a}{2},0,0)$，$B=(\\frac{a}{2},0,0)$. 由 $AC=BC=1$ 及 $AD=BD=1$，可设 $C=(0,u,v)$，$D=(0,s,t)$，并有 $u^{2}+v^{2}=s^{2}+t^{2}=1-\\frac{a^{2}}{4}$. 记 $r=\\sqrt{1-\\frac{a^{2}}{4}}$，则 $C$，$D$ 位于同一圆心为原点、半径为 $r$ 的圆上.</p><p>因为 $CD=\\sqrt{2}$，由三角不等式得 $\\sqrt{2}=|CD|\\leq|C|+|D|=2r$，所以 $2\\leq4-a^{2}$，即 $a^{2}\\leq2$. 若 $a=\\sqrt{2}$，则 $CD=2r$，等号成立时 $D=-C$，四点 $A$，$B$，$C$，$D$ 共面，不能构成非退化四面体，故必须有 $a&#x3C;\\sqrt{2}$. 又棱长 $a>0$，所以 $0&#x3C;a&#x3C;\\sqrt{2}$.</p><p>反过来，任取 $0&#x3C;a&#x3C;\\sqrt{2}$，则 $2r>\\sqrt{2}$，可在该圆上取两点 $C$，$D$，使 $CD=\\sqrt{2}$ 且 $D\\ne-C$，从而四点不共面并满足六条棱的长度条件. 因此 $a$ 的取值范围为 $(0,\\sqrt{2})$，故选 A.</p>",
+          "body": "<p>设四面体的六条棱的长分别为 $1$，$1$，$1$，$1$，$\\sqrt{2}$ 和 $a$，且长为 $a$ 的棱与长为 $\\sqrt{2}$ 的棱异面，则 $a$ 的取值范围是（ ）</p><p>A</p><p>设长为 $a$ 的一条棱为 $AB$，与之异面的长为 $\\sqrt{2}$ 的棱为 $CD$，则另外四条棱 $AC$，$AD$，$BC$，$BD$ 的长均为 $1$. 取 $AB$ 的中点为原点，使 $A=(-\\frac{a}{2},0,0)$，$B=(\\frac{a}{2},0,0)$. 由 $AC=BC=1$ 及 $AD=BD=1$，可设 $C=(0,u,v)$，$D=(0,s,t)$，并有 $u^{2}+v^{2}=s^{2}+t^{2}=1-\\frac{a^{2}}{4}$. 记 $r=\\sqrt{1-\\frac{a^{2}}{4}}$，则 $C$，$D$ 位于同一圆心为原点、半径为 $r$ 的圆上.</p><p>因为 $CD=\\sqrt{2}$，由三角不等式得 $\\sqrt{2}=|CD|\\leq|C|+|D|=2r$，所以 $2\\leq4-a^{2}$，即 $a^{2}\\leq2$. 若 $a=\\sqrt{2}$，则 $CD=2r$，等号成立时 $D=-C$，四点 $A$，$B$，$C$，$D$ 共面，不能构成非退化四面体，故必须有 $a<\\sqrt{2}$. 又棱长 $a>0$，所以 $0<a<\\sqrt{2}$.</p><p>反过来，任取 $0<a<\\sqrt{2}$，则 $2r>\\sqrt{2}$，可在该圆上取两点 $C$，$D$，使 $CD=\\sqrt{2}$ 且 $D\\ne-C$，从而四点不共面并满足六条棱的长度条件. 因此 $a$ 的取值范围为 $(0,\\sqrt{2})$，故选 A.</p>",
           "choices": [
             "$(0,\\sqrt{2})$",
             "$(0,\\sqrt{3})$",
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "<p>设函数 $f(x)=x^{2}-4x+3$，$g(x)=3x-2$，集合 $M=\\{x\\in\\mathbb{R}\\mid f(g(x))>0\\}$，$N=\\{x\\in\\mathbb{R}\\mid g(x)&#x3C;2\\}$，则 $M\\cap N$ 为（ ）</p><p>D</p><p>先求 $f(g(x))$：</p>\n$$\nf(g(x))=(3x-2)^{2}-4(3x-2)+3=9x^{2}-24x+15=3(3x-5)(x-1).\n$$\n<p>所以 $f(g(x))>0$ 的解集为 $x&#x3C;1$ 或 $x>\\frac{5}{3}$. 另一方面，$g(x)&#x3C;2$ 等价于 $3x-2&#x3C;2$，即 $x&#x3C;\\frac{4}{3}$. 取交集时，区间 $(\\frac{5}{3},+\\infty)$ 与 $(-\\infty,\\frac{4}{3})$ 无交集，因此 $M\\cap N=(-\\infty,1)$，故选 D.</p>",
+          "body": "<p>设函数 $f(x)=x^{2}-4x+3$，$g(x)=3x-2$，集合 $M=\\{x\\in\\mathbb{R}\\mid f(g(x))>0\\}$，$N=\\{x\\in\\mathbb{R}\\mid g(x)<2\\}$，则 $M\\cap N$ 为（ ）</p><p>D</p><p>先求 $f(g(x))$：</p>\n$$\nf(g(x))=(3x-2)^{2}-4(3x-2)+3=9x^{2}-24x+15=3(3x-5)(x-1).\n$$\n<p>所以 $f(g(x))>0$ 的解集为 $x<1$ 或 $x>\\frac{5}{3}$. 另一方面，$g(x)<2$ 等价于 $3x-2<2$，即 $x<\\frac{4}{3}$. 取交集时，区间 $(\\frac{5}{3},+\\infty)$ 与 $(-\\infty,\\frac{4}{3})$ 无交集，因此 $M\\cap N=(-\\infty,1)$，故选 D.</p>",
           "choices": [
             "$(1,+\\infty)$",
             "$(0,1)$",
@@ -148,7 +148,7 @@
         },
         {
           "num": 13,
-          "body": "<p>设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，且 $a=1$，$b=2$，$\\cos C=\\frac{1}{4}$，则 $\\sin B=\\underline{\\hspace{2.5em}}{}$.</p><p>$\\frac{\\sqrt{15}}{4}$</p><p>由余弦定理，$c^{2}=a^{2}+b^{2}-2ab\\cos C=1^{2}+2^{2}-2\\times1\\times2\\times\\frac{1}{4}=4$，所以 $c=2$. 又 $0&#x3C;C&#x3C;\\pi$，故 $\\sin C=\\sqrt{1-\\cos^{2}C}=\\sqrt{1-\\frac{1}{16}}=\\frac{\\sqrt{15}}{4}$. 由正弦定理 $\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$，且 $b=c=2$，得到 $\\sin B=\\sin C=\\frac{\\sqrt{15}}{4}$.</p>",
+          "body": "<p>设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，且 $a=1$，$b=2$，$\\cos C=\\frac{1}{4}$，则 $\\sin B=\\underline{\\hspace{2.5em}}{}$.</p><p>$\\frac{\\sqrt{15}}{4}$</p><p>由余弦定理，$c^{2}=a^{2}+b^{2}-2ab\\cos C=1^{2}+2^{2}-2\\times1\\times2\\times\\frac{1}{4}=4$，所以 $c=2$. 又 $0<C<\\pi$，故 $\\sin C=\\sqrt{1-\\cos^{2}C}=\\sqrt{1-\\frac{1}{16}}=\\frac{\\sqrt{15}}{4}$. 由正弦定理 $\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$，且 $b=c=2$，得到 $\\sin B=\\sin C=\\frac{\\sqrt{15}}{4}$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -195,10 +195,10 @@
         },
         {
           "num": 19,
-          "body": "<p>设函数 $f(x)=A\\sin(\\omega x+\\varphi)$（其中 $A>0$，$\\omega>0$，$-\\pi&#x3C;\\varphi\\le \\pi$）在 $x=\\frac{\\pi}{6}$ 处取得最大值 2，其图象与 $x$ 轴的相邻两个交点的距离为 $\\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的解析式；</p></li><li><p>求函数 $g(x)=\\frac{6\\cos^{4}x-\\sin^{2}x-1}{f\\left(x+\\frac{\\pi}{6}\\right)}$ 的值域.</p></li></ol>",
+          "body": "<p>设函数 $f(x)=A\\sin(\\omega x+\\varphi)$（其中 $A>0$，$\\omega>0$，$-\\pi<\\varphi\\le \\pi$）在 $x=\\frac{\\pi}{6}$ 处取得最大值 2，其图象与 $x$ 轴的相邻两个交点的距离为 $\\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的解析式；</p></li><li><p>求函数 $g(x)=\\frac{6\\cos^{4}x-\\sin^{2}x-1}{f\\left(x+\\frac{\\pi}{6}\\right)}$ 的值域.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为函数的最大值为 $A$，所以 $A=2$. 正弦函数相邻两个零点对应的自变量之差为 $\\frac{\\pi}{\\omega}$，由题意得 $\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，故 $\\omega=2$. 又函数在 $x=\\frac{\\pi}{6}$ 处取得最大值，所以 $\\frac{\\pi}{3}+\\varphi=\\frac{\\pi}{2}+2k\\pi$，即 $\\varphi=\\frac{\\pi}{6}+2k\\pi$. 结合 $-\\pi&#x3C;\\varphi\\le\\pi$，得 $\\varphi=\\frac{\\pi}{6}$. 因此 $f(x)=2\\sin\\left(2x+\\frac{\\pi}{6}\\right)$.</p></li><li><p>先化简分子：</p>\n$$\n6\\cos^{4}x-\\sin^{2}x-1=6\\cos^{4}x+\\cos^{2}x-2=(3\\cos^{2}x+2)(2\\cos^{2}x-1)=(3\\cos^{2}x+2)\\cos 2x.\n$$\n<p>又</p>\n$$\nf\\left(x+\\frac{\\pi}{6}\\right)=2\\sin\\left(2x+\\frac{\\pi}{2}\\right)=2\\cos 2x.\n$$\n<p>当 $\\cos 2x\\ne0$ 时，$g(x)=\\frac{3\\cos^{2}x+2}{2}$. 当 $\\cos 2x=0$ 时原式分母为零，故这些点不在定义域内；而 $\\cos 2x=0$ 等价于 $\\cos^{2}x=\\frac{1}{2}$. 因此 $\\cos^{2}x$ 的取值为 $[0,1]$ 中除去 $\\frac{1}{2}$ 的所有数，从而 $g(x)$ 的值域为 $\\left[1,\\frac{7}{4}\\right)\\cup\\left(\\frac{7}{4},\\frac{5}{2}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为函数的最大值为 $A$，所以 $A=2$. 正弦函数相邻两个零点对应的自变量之差为 $\\frac{\\pi}{\\omega}$，由题意得 $\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，故 $\\omega=2$. 又函数在 $x=\\frac{\\pi}{6}$ 处取得最大值，所以 $\\frac{\\pi}{3}+\\varphi=\\frac{\\pi}{2}+2k\\pi$，即 $\\varphi=\\frac{\\pi}{6}+2k\\pi$. 结合 $-\\pi<\\varphi\\le\\pi$，得 $\\varphi=\\frac{\\pi}{6}$. 因此 $f(x)=2\\sin\\left(2x+\\frac{\\pi}{6}\\right)$.</p></li><li><p>先化简分子：</p>\n$$\n6\\cos^{4}x-\\sin^{2}x-1=6\\cos^{4}x+\\cos^{2}x-2=(3\\cos^{2}x+2)(2\\cos^{2}x-1)=(3\\cos^{2}x+2)\\cos 2x.\n$$\n<p>又</p>\n$$\nf\\left(x+\\frac{\\pi}{6}\\right)=2\\sin\\left(2x+\\frac{\\pi}{2}\\right)=2\\cos 2x.\n$$\n<p>当 $\\cos 2x\\ne0$ 时，$g(x)=\\frac{3\\cos^{2}x+2}{2}$. 当 $\\cos 2x=0$ 时原式分母为零，故这些点不在定义域内；而 $\\cos 2x=0$ 等价于 $\\cos^{2}x=\\frac{1}{2}$. 因此 $\\cos^{2}x$ 的取值为 $[0,1]$ 中除去 $\\frac{1}{2}$ 的所有数，从而 $g(x)$ 的值域为 $\\left[1,\\frac{7}{4}\\right)\\cup\\left(\\frac{7}{4},\\frac{5}{2}\\right]$.</p></li></ol>"
         },
         {
           "num": 20,

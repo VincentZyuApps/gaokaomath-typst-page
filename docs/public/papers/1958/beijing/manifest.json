@@ -19,7 +19,7 @@
           "body": "已知 $\\lg 2=0.3010$，试利用对数性质判定 $2^{7}\\cdot 8^{11}\\cdot 5^{10}$ 是几位数.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $N=2^{7}\\cdot 8^{11}\\cdot 5^{10}$. 由 $8=2^{3}$ 及 $5^{10}=\\frac{10^{10}}{2^{10}}$，得 $N=2^{7}\\cdot 2^{33}\\cdot \\frac{10^{10}}{2^{10}}=2^{30}\\cdot 10^{10}$. 因而</p>\n$$\n\\lg N=30\\lg 2+10=30\\times 0.3010+10=19.030\n$$\n<p>于是 $10^{19}&#x3C;N&#x3C;10^{20}$. 正整数的位数等于其常用对数的整数部分加 $1$，所以 $N$ 是 $20$ 位数.</p>"
+          "solution": "<p>设 $N=2^{7}\\cdot 8^{11}\\cdot 5^{10}$. 由 $8=2^{3}$ 及 $5^{10}=\\frac{10^{10}}{2^{10}}$，得 $N=2^{7}\\cdot 2^{33}\\cdot \\frac{10^{10}}{2^{10}}=2^{30}\\cdot 10^{10}$. 因而</p>\n$$\n\\lg N=30\\lg 2+10=30\\times 0.3010+10=19.030\n$$\n<p>于是 $10^{19}<N<10^{20}$. 正整数的位数等于其常用对数的整数部分加 $1$，所以 $N$ 是 $20$ 位数.</p>"
         },
         {
           "num": 3,
@@ -58,10 +58,10 @@
         },
         {
           "num": 8,
-          "body": "<p>已知二次函数 $y=3+2x-x^{2}$.</p><ol class=\"enumerate\"><li><p>问 $x$ 在什么范围内 $y>0$？又 $x$ 在什么范围内 $y&#x3C;0$？</p></li><li><p>求出这个函数图象的顶点坐标和对称轴方程；</p></li><li><p>画出这个函数的图象.</p></li></ol>",
+          "body": "<p>已知二次函数 $y=3+2x-x^{2}$.</p><ol class=\"enumerate\"><li><p>问 $x$ 在什么范围内 $y>0$？又 $x$ 在什么范围内 $y<0$？</p></li><li><p>求出这个函数图象的顶点坐标和对称轴方程；</p></li><li><p>画出这个函数的图象.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $y>0$ 时，$3+2x-x^{2}>0$，即 $x^{2}-2x-3&#x3C;0$. 因式分解得 $\\left( x+1 \\right)\\left( x-3 \\right)&#x3C;0$，所以 $-1&#x3C;x&#x3C;3$. 当 $y&#x3C;0$ 时，$3+2x-x^{2}&#x3C;0$，即 $\\left( x+1 \\right)\\left( x-3 \\right)>0$，所以 $x&#x3C;-1$ 或 $x>3$. 因此，$y>0$ 的范围为 $\\left( -1,3 \\right)$，$y&#x3C;0$ 的范围为 $\\left( -\\infty,-1 \\right)\\cup\\left( 3,+\\infty \\right)$.</p></li><li><p>配方得 $y=3+2x-x^{2}=-\\left( x-1 \\right)^{2}+4$. 因为 $\\left( x-1 \\right)^{2}\\geq 0$，所以抛物线的最高点在 $x=1$ 时取得，顶点坐标为 $(1,4)$，对称轴方程为 $x=1$.</p></li><li><p>该抛物线开口向下，与 $x$ 轴交于 $(-1,0)$，$(3,0)$，与 $y$ 轴交于 $(0,3)$，顶点为 $(1,4)$，对称轴为 $x=1$. 根据这些点和开口方向即可画出函数图象.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $y>0$ 时，$3+2x-x^{2}>0$，即 $x^{2}-2x-3<0$. 因式分解得 $\\left( x+1 \\right)\\left( x-3 \\right)<0$，所以 $-1<x<3$. 当 $y<0$ 时，$3+2x-x^{2}<0$，即 $\\left( x+1 \\right)\\left( x-3 \\right)>0$，所以 $x<-1$ 或 $x>3$. 因此，$y>0$ 的范围为 $\\left( -1,3 \\right)$，$y<0$ 的范围为 $\\left( -\\infty,-1 \\right)\\cup\\left( 3,+\\infty \\right)$.</p></li><li><p>配方得 $y=3+2x-x^{2}=-\\left( x-1 \\right)^{2}+4$. 因为 $\\left( x-1 \\right)^{2}\\geq 0$，所以抛物线的最高点在 $x=1$ 时取得，顶点坐标为 $(1,4)$，对称轴方程为 $x=1$.</p></li><li><p>该抛物线开口向下，与 $x$ 轴交于 $(-1,0)$，$(3,0)$，与 $y$ 轴交于 $(0,3)$，顶点为 $(1,4)$，对称轴为 $x=1$. 根据这些点和开口方向即可画出函数图象.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
         },
         {
           "num": 9,
@@ -75,7 +75,7 @@
           "body": "有甲，乙两容器，甲容器是直圆柱形，高 $2\\text{ 寸}$，底半径 $1\\text{ 寸}$，乙容器是直圆锥形（锥底向上），高 $2\\text{ 寸}$，底面半径 $2\\sqrt{3}\\text{ 寸}$，若将甲容器灌满水，然后把甲容器的一部分水倒入乙容器，使得甲乙两个容器的水面一样高，问这时水面的高度是多少？",
           "choices": null,
           "answer": "",
-          "solution": "<p>设两容器共同的水面高度为 $h\\text{ 寸}$，且设乙容器中水面处的半径为 $R\\text{ 寸}$. 由于乙容器是锥底向上，水面处的截面与底面相似，所以</p><p>$\\frac{R}{2\\sqrt{3}}=\\frac{h}{2}$，从而 $R=\\sqrt{3}h$. 甲容器中剩余水的体积为圆柱体积 $V_{1}=\\pi\\cdot 1^{2}\\cdot h=\\pi h$，乙容器中水的体积为以水面为底的圆锥体积</p>\n$$\nV_{2}=\\frac{1}{3}\\pi R^{2}h=\\frac{1}{3}\\pi\\left(\\sqrt{3}h\\right)^{2}h=\\pi h^{3}\n$$\n<p>甲容器原来装满水，水的总体积为 $2\\pi$，所以体积守恒给出 $\\pi h+\\pi h^{3}=2\\pi$，即 $h^{3}+h-2=0$. 因为 $h=1$ 是该方程的根，且</p>\n$$\nh^{3}+h-2=\\left( h-1 \\right)\\left( h^{2}+h+2 \\right)\n$$\n<p>而 $h^{2}+h+2=\\left( h+\\frac{1}{2}\\right)^{2}+\\frac{7}{4}>0$，所以方程只有实根 $h=1$. 该值满足 $0&#x3C;h&#x3C;2$，符合容器高度限制. 因此水面的高度为 $1\\text{ 寸}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<p>设两容器共同的水面高度为 $h\\text{ 寸}$，且设乙容器中水面处的半径为 $R\\text{ 寸}$. 由于乙容器是锥底向上，水面处的截面与底面相似，所以</p><p>$\\frac{R}{2\\sqrt{3}}=\\frac{h}{2}$，从而 $R=\\sqrt{3}h$. 甲容器中剩余水的体积为圆柱体积 $V_{1}=\\pi\\cdot 1^{2}\\cdot h=\\pi h$，乙容器中水的体积为以水面为底的圆锥体积</p>\n$$\nV_{2}=\\frac{1}{3}\\pi R^{2}h=\\frac{1}{3}\\pi\\left(\\sqrt{3}h\\right)^{2}h=\\pi h^{3}\n$$\n<p>甲容器原来装满水，水的总体积为 $2\\pi$，所以体积守恒给出 $\\pi h+\\pi h^{3}=2\\pi$，即 $h^{3}+h-2=0$. 因为 $h=1$ 是该方程的根，且</p>\n$$\nh^{3}+h-2=\\left( h-1 \\right)\\left( h^{2}+h+2 \\right)\n$$\n<p>而 $h^{2}+h+2=\\left( h+\\frac{1}{2}\\right)^{2}+\\frac{7}{4}>0$，所以方程只有实根 $h=1$. 该值满足 $0<h<2$，符合容器高度限制. 因此水面的高度为 $1\\text{ 寸}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
         },
         {
           "num": 11,

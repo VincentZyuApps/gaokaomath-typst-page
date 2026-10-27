@@ -23,13 +23,13 @@
           "num": 2,
           "body": "不等式 $\\frac{2x - 1}{3x + 1}> 0$ 的解集是（ ）",
           "choices": [
-            "$\\left\\{x\\mid x &#x3C; - \\frac{1}{3}\\text{\\ 或\\ }x > \\frac{1}{2}\\right\\}$",
-            "$\\left\\{x\\mid -\\frac{1}{3}&#x3C; x &#x3C; \\frac{1}{2}\\right\\}$",
+            "$\\left\\{x\\mid x < - \\frac{1}{3}\\text{\\ 或\\ }x > \\frac{1}{2}\\right\\}$",
+            "$\\left\\{x\\mid -\\frac{1}{3}< x < \\frac{1}{2}\\right\\}$",
             "$\\left\\{x\\mid x > \\frac{3}{2}\\right\\}$",
             "$\\left\\{x\\mid x > -\\frac{1}{3}\\right\\}$"
           ],
           "answer": "A",
-          "solution": "<p>分式有意义的条件是 $3x+1\\neq0$，即 $x\\neq-\\frac{1}{3}$. 分子</p><p>$2x-1$ 的零点为 $x=\\frac{1}{2}$，所以两个临界点按从小到大排列为</p><p>$-\\frac{1}{3}$，$\\frac{1}{2}$. 在区间</p><p>$\\left(-\\infty,-\\frac{1}{3}\\right)$，$\\left(-\\frac{1}{3},\\frac{1}{2}\\right)$，</p><p>$\\left(\\frac{1}{2},+\\infty\\right)$ 内分别取 $x=-1$，$x=0$，$x=1$，</p><p>分式的符号依次为正、负、正. 由于不等式是严格不等式，$x=-\\frac{1}{3}$</p><p>和 $x=\\frac{1}{2}$ 均不能取，因此解集为</p><p>$\\left\\{x\\mid x&#x3C; -\\frac{1}{3}\\text{ 或 }x>\\frac{1}{2}\\right\\}$. 故选 A.</p>"
+          "solution": "<p>分式有意义的条件是 $3x+1\\neq0$，即 $x\\neq-\\frac{1}{3}$. 分子</p><p>$2x-1$ 的零点为 $x=\\frac{1}{2}$，所以两个临界点按从小到大排列为</p><p>$-\\frac{1}{3}$，$\\frac{1}{2}$. 在区间</p><p>$\\left(-\\infty,-\\frac{1}{3}\\right)$，$\\left(-\\frac{1}{3},\\frac{1}{2}\\right)$，</p><p>$\\left(\\frac{1}{2},+\\infty\\right)$ 内分别取 $x=-1$，$x=0$，$x=1$，</p><p>分式的符号依次为正、负、正. 由于不等式是严格不等式，$x=-\\frac{1}{3}$</p><p>和 $x=\\frac{1}{2}$ 均不能取，因此解集为</p><p>$\\left\\{x\\mid x< -\\frac{1}{3}\\text{ 或 }x>\\frac{1}{2}\\right\\}$. 故选 A.</p>"
         },
         {
           "num": 3,
@@ -53,7 +53,7 @@
             "$\\left[\\frac{\\pi}{2}, \\pi\\right]$"
           ],
           "answer": "C",
-          "solution": "<p>函数的导数为 $y'=-2\\sin2x$. 当 $0&#x3C;x&#x3C;\\frac{\\pi}{2}$ 时，</p><p>$0&#x3C;2x&#x3C;\\pi$，所以 $\\sin2x>0$，从而 $y'&#x3C;0$. 由导数符号可知，</p><p>函数在 $\\left[0,\\frac{\\pi}{2}\\right]$ 上是减函数.</p><p>再检验其余选项：在 $\\left(-\\frac{\\pi}{4},0\\right)$ 内，$\\sin2x&#x3C;0$，</p><p>所以函数递增；在 $\\left(\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right)$ 内，</p><p>$\\sin2x$ 在 $x=\\frac{\\pi}{2}$ 两侧符号相反，函数先减后增；在</p><p>$\\left(\\frac{\\pi}{2},\\pi\\right)$ 内，$\\sin2x&#x3C;0$，函数递增. 因此只有选项 C 正确.</p>"
+          "solution": "<p>函数的导数为 $y'=-2\\sin2x$. 当 $0<x<\\frac{\\pi}{2}$ 时，</p><p>$0<2x<\\pi$，所以 $\\sin2x>0$，从而 $y'<0$. 由导数符号可知，</p><p>函数在 $\\left[0,\\frac{\\pi}{2}\\right]$ 上是减函数.</p><p>再检验其余选项：在 $\\left(-\\frac{\\pi}{4},0\\right)$ 内，$\\sin2x<0$，</p><p>所以函数递增；在 $\\left(\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right)$ 内，</p><p>$\\sin2x$ 在 $x=\\frac{\\pi}{2}$ 两侧符号相反，函数先减后增；在</p><p>$\\left(\\frac{\\pi}{2},\\pi\\right)$ 内，$\\sin2x<0$，函数递增. 因此只有选项 C 正确.</p>"
         },
         {
           "num": 5,
@@ -62,22 +62,22 @@
             "当 $x > 0$ 且 $x \\neq 1$ 时，$\\lg x + \\frac{1}{\\lg x}\\ge 2$",
             "当 $x > 0$ 时，$\\sqrt{x}+ \\frac{1}{\\sqrt{x}}\\ge 2$",
             "当 $x \\ge 2$ 时，$x + \\frac{1}{x}$ 的最小值为 2",
-            "当 $0 &#x3C; x \\le 2$ 时，$x - \\frac{1}{x}$ 无最大值"
+            "当 $0 < x \\le 2$ 时，$x - \\frac{1}{x}$ 无最大值"
           ],
           "answer": "B",
-          "solution": "<p>对选项 B，令 $t=\\sqrt{x}$，则 $t>0$. 因为</p><p>$t+\\frac{1}{t}-2=\\frac{(t-1)^{2}}{t}\\geqslant0$，所以</p><p>$\\sqrt{x}+\\frac{1}{\\sqrt{x}}=t+\\frac{1}{t}\\geqslant2$. 当且仅当</p><p>$t=1$，即 $x=1$ 时取等号，故选项 B 正确.</p><p>选项 A 不恒成立：取 $\\lg x=-1$，即 $x=10^{-1}>0$，则</p><p>$\\lg x+\\frac{1}{\\lg x}=-1-1=-2&#x3C;2$. 对选项 C，令</p><p>$h(x)=x+\\frac{1}{x}$，则在 $x\\geqslant2$ 时</p><p>$h'(x)=1-\\frac{1}{x^{2}}>0$，所以最小值在 $x=2$ 处取得，为</p><p>$h(2)=\\frac{5}{2}$，不是 2. 对选项 D，令</p><p>$r(x)=x-\\frac{1}{x}$，则 $r'(x)=1+\\frac{1}{x^{2}}>0$，</p><p>所以在 $0&#x3C;x\\leqslant2$ 上最大值在 $x=2$ 处取得，为 $r(2)=\\frac{3}{2}$，</p><p>并非无最大值.</p>"
+          "solution": "<p>对选项 B，令 $t=\\sqrt{x}$，则 $t>0$. 因为</p><p>$t+\\frac{1}{t}-2=\\frac{(t-1)^{2}}{t}\\geqslant0$，所以</p><p>$\\sqrt{x}+\\frac{1}{\\sqrt{x}}=t+\\frac{1}{t}\\geqslant2$. 当且仅当</p><p>$t=1$，即 $x=1$ 时取等号，故选项 B 正确.</p><p>选项 A 不恒成立：取 $\\lg x=-1$，即 $x=10^{-1}>0$，则</p><p>$\\lg x+\\frac{1}{\\lg x}=-1-1=-2<2$. 对选项 C，令</p><p>$h(x)=x+\\frac{1}{x}$，则在 $x\\geqslant2$ 时</p><p>$h'(x)=1-\\frac{1}{x^{2}}>0$，所以最小值在 $x=2$ 处取得，为</p><p>$h(2)=\\frac{5}{2}$，不是 2. 对选项 D，令</p><p>$r(x)=x-\\frac{1}{x}$，则 $r'(x)=1+\\frac{1}{x^{2}}>0$，</p><p>所以在 $0<x\\leqslant2$ 上最大值在 $x=2$ 处取得，为 $r(2)=\\frac{3}{2}$，</p><p>并非无最大值.</p>"
         },
         {
           "num": 6,
           "body": "<p>若函数 $f(x) = a^{x - b}$ 的图象如图，其中 $a$，$b$ 为常数，则下列结论正确的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$a > 1$，$b &#x3C; 0$",
+            "$a > 1$，$b < 0$",
             "$a > 1$，$b > 0$",
-            "$0 &#x3C; a &#x3C; 1$，$b > 0$",
-            "$0 &#x3C; a &#x3C; 1$，$b &#x3C; 0$"
+            "$0 < a < 1$，$b > 0$",
+            "$0 < a < 1$，$b < 0$"
           ],
           "answer": "D",
-          "solution": "<p>指数函数 $y=a^{x-b}$ 的定义要求 $a>0$ 且 $a\\neq1$. 图象从左向右递减，</p><p>因此 $0&#x3C;a&#x3C;1$. 又因为 $f(b)=a^{b-b}=1$，所以图象与直线 $y=1$ 的</p><p>交点横坐标就是 $b$. 由题图可见该交点位于 $y$ 轴左侧，因此 $b&#x3C;0$. 故选 D.</p>"
+          "solution": "<p>指数函数 $y=a^{x-b}$ 的定义要求 $a>0$ 且 $a\\neq1$. 图象从左向右递减，</p><p>因此 $0<a<1$. 又因为 $f(b)=a^{b-b}=1$，所以图象与直线 $y=1$ 的</p><p>交点横坐标就是 $b$. 由题图可见该交点位于 $y$ 轴左侧，因此 $b<0$. 故选 D.</p>"
         },
         {
           "num": 7,
@@ -191,10 +191,10 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>已知 $-\\frac{\\pi}{2}&#x3C; x &#x3C; 0$，$\\sin x + \\cos x = \\frac{1}{5}$.</p><ol class=\"enumerate\"><li><p>求 $\\sin x - \\cos x$ 的值；</p></li><li><p>求 $\\frac{\\sin 2x + 2\\sin^{2}x}{1 - \\tan x}$ 的值.</p></li></ol>",
+          "body": "<p>已知 $-\\frac{\\pi}{2}< x < 0$，$\\sin x + \\cos x = \\frac{1}{5}$.</p><ol class=\"enumerate\"><li><p>求 $\\sin x - \\cos x$ 的值；</p></li><li><p>求 $\\frac{\\sin 2x + 2\\sin^{2}x}{1 - \\tan x}$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记 $s=\\sin x$，$c=\\cos x$. 因为 $-\\frac{\\pi}{2}&#x3C;x&#x3C;0$，所以</p><p>$s&#x3C;0$，$c>0$，且 $s^{2}+c^{2}=1$. 由 $s+c=\\frac{1}{5}$，有</p>\n$$\n(s+c)^{2}=s^{2}+c^{2}+2sc=\\frac{1}{25}\n$$\n<p>从而 $2sc=\\frac{1}{25}-1=-\\frac{24}{25}$，即</p><p>$sc=-\\frac{12}{25}$. 因此</p>\n$$\n(s-c)^{2}=s^{2}+c^{2}-2sc=1+\\frac{24}{25}=\\frac{49}{25}\n$$\n<p>又因 $s&#x3C;0&#x3C;c$，所以 $s-c&#x3C;0$，故 $s-c=-\\frac{7}{5}$. 因而</p><p>$\\sin x-\\cos x=-\\frac{7}{5}$.</p></li><li><p>先化简分子. 由 $\\sin2x=2sc$ 和 $s+c=\\frac{1}{5}$，得</p>\n$$\n\\sin2x+2\\sin^{2}x=2sc+2s^{2}=2s(s+c)=\\frac{2s}{5}\n$$\n<p>又因为 $c>0$，所以 $1-\\tan x$ 有意义，并且</p>\n$$\n1-\\tan x=1-\\frac{s}{c}=\\frac{c-s}{c}=\\frac{\\frac{7}{5}}{c}=\\frac{7}{5c}\n$$\n<p>于是</p>\n$$\n\\frac{\\sin2x+2\\sin^{2}x}{1-\\tan x}=\\frac{2s}{5}\\cdot\\frac{5c}{7}=\\frac{2sc}{7}=\\frac{2}{7}\\left(-\\frac{12}{25}\\right)  =-\\frac{24}{175}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记 $s=\\sin x$，$c=\\cos x$. 因为 $-\\frac{\\pi}{2}<x<0$，所以</p><p>$s<0$，$c>0$，且 $s^{2}+c^{2}=1$. 由 $s+c=\\frac{1}{5}$，有</p>\n$$\n(s+c)^{2}=s^{2}+c^{2}+2sc=\\frac{1}{25}\n$$\n<p>从而 $2sc=\\frac{1}{25}-1=-\\frac{24}{25}$，即</p><p>$sc=-\\frac{12}{25}$. 因此</p>\n$$\n(s-c)^{2}=s^{2}+c^{2}-2sc=1+\\frac{24}{25}=\\frac{49}{25}\n$$\n<p>又因 $s<0<c$，所以 $s-c<0$，故 $s-c=-\\frac{7}{5}$. 因而</p><p>$\\sin x-\\cos x=-\\frac{7}{5}$.</p></li><li><p>先化简分子. 由 $\\sin2x=2sc$ 和 $s+c=\\frac{1}{5}$，得</p>\n$$\n\\sin2x+2\\sin^{2}x=2sc+2s^{2}=2s(s+c)=\\frac{2s}{5}\n$$\n<p>又因为 $c>0$，所以 $1-\\tan x$ 有意义，并且</p>\n$$\n1-\\tan x=1-\\frac{s}{c}=\\frac{c-s}{c}=\\frac{\\frac{7}{5}}{c}=\\frac{7}{5c}\n$$\n<p>于是</p>\n$$\n\\frac{\\sin2x+2\\sin^{2}x}{1-\\tan x}=\\frac{2s}{5}\\cdot\\frac{5c}{7}=\\frac{2sc}{7}=\\frac{2}{7}\\left(-\\frac{12}{25}\\right)  =-\\frac{24}{175}\n$$\n</li></ol>"
         },
         {
           "num": 18,
@@ -208,14 +208,14 @@
           "body": "<p>已知 $\\{a_{n}\\}$ 是公比为 $q$ 的等比数列，且 $a_{1}$，$a_{3}$，$a_{2}$ 成等差数列.</p><ol class=\"enumerate\"><li><p>求 $q$ 的值；</p></li><li><p>设 $\\{b_{n}\\}$ 是以 2 为首项，$q$ 为公差的等差数列，其前 $n$ 项和为 $S_{n}$，当 $n \\ge 2$ 时，比较 $S_{n}$ 与 $b_{n}$ 的大小，并说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由等比数列的通项关系，$a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$. 因为 $a_{1}$，$a_{3}$，$a_{2}$</p><p>成等差数列，且中间项是 $a_{3}$，所以</p>\n$$\n2a_{3}=a_{1}+a_{2}\n$$\n<p>代入 $a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$，得</p><p>$a_{1}(2q^{2}-q-1)=0$. 等比数列的首项不能为零，所以 $a_{1}\\ne0$，从而</p>\n$$\n2q^{2}-q-1=(2q+1)(q-1)=0\n$$\n<p>所以 $q=1$ 或 $q=-\\frac{1}{2}$.</p></li><li><p>等差数列 $\\{b_{n}\\}$ 的首项为 $2$，公差为 $q$，故</p><p>$b_{n}=2+(n-1)q$，且</p><p>$S_{n}=\\frac{n}{2}\\left[2b_{1}+(n-1)q\\right]  =\\frac{n}{2}\\left[4+(n-1)q\\right]$.</p><p>当 $q=1$ 时，$b_{n}=n+1$，$S_{n}=\\frac{n(n+3)}{2}$，因此</p>\n$$\nS_{n}-b_{n}=\\frac{n(n+3)}{2}-(n+1)=\\frac{(n-1)(n+2)}{2}>0\n$$\n<p>对一切 $n\\geqslant2$ 成立，所以 $S_{n}>b_{n}$.</p><p>当 $q=-\\frac{1}{2}$ 时，$b_{n}=2-\\frac{n-1}{2}=\\frac{5-n}{2}$，且</p><p>$S_{n}=\\frac{n(9-n)}{4}$. 因而</p>\n$$\nS_{n}-b_{n}=\\frac{n(9-n)}{4}-\\frac{5-n}{2}=\\frac{(n-1)(10-n)}{4}\n$$\n<p>当 $n\\geqslant2$ 时，$n-1>0$，所以差值的符号由 $10-n$ 决定. 因此</p><p>当 $2\\le n\\leqslant9$ 时 $S_{n}>b_{n}$，当 $n=10$ 时 $S_{n}=b_{n}$，</p><p>当 $n\\geqslant11$ 时 $S_{n}&#x3C;b_{n}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由等比数列的通项关系，$a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$. 因为 $a_{1}$，$a_{3}$，$a_{2}$</p><p>成等差数列，且中间项是 $a_{3}$，所以</p>\n$$\n2a_{3}=a_{1}+a_{2}\n$$\n<p>代入 $a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$，得</p><p>$a_{1}(2q^{2}-q-1)=0$. 等比数列的首项不能为零，所以 $a_{1}\\ne0$，从而</p>\n$$\n2q^{2}-q-1=(2q+1)(q-1)=0\n$$\n<p>所以 $q=1$ 或 $q=-\\frac{1}{2}$.</p></li><li><p>等差数列 $\\{b_{n}\\}$ 的首项为 $2$，公差为 $q$，故</p><p>$b_{n}=2+(n-1)q$，且</p><p>$S_{n}=\\frac{n}{2}\\left[2b_{1}+(n-1)q\\right]  =\\frac{n}{2}\\left[4+(n-1)q\\right]$.</p><p>当 $q=1$ 时，$b_{n}=n+1$，$S_{n}=\\frac{n(n+3)}{2}$，因此</p>\n$$\nS_{n}-b_{n}=\\frac{n(n+3)}{2}-(n+1)=\\frac{(n-1)(n+2)}{2}>0\n$$\n<p>对一切 $n\\geqslant2$ 成立，所以 $S_{n}>b_{n}$.</p><p>当 $q=-\\frac{1}{2}$ 时，$b_{n}=2-\\frac{n-1}{2}=\\frac{5-n}{2}$，且</p><p>$S_{n}=\\frac{n(9-n)}{4}$. 因而</p>\n$$\nS_{n}-b_{n}=\\frac{n(9-n)}{4}-\\frac{5-n}{2}=\\frac{(n-1)(10-n)}{4}\n$$\n<p>当 $n\\geqslant2$ 时，$n-1>0$，所以差值的符号由 $10-n$ 决定. 因此</p><p>当 $2\\le n\\leqslant9$ 时 $S_{n}>b_{n}$，当 $n=10$ 时 $S_{n}=b_{n}$，</p><p>当 $n\\geqslant11$ 时 $S_{n}<b_{n}$.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>已知函数 $f(x) = x^{3} + bx^{2} + ax + d$ 的图象过点 $P(0,2)$，且在点 $M(-1, f(-1))$ 处的切线方程为 $6x - y + 7 = 0$.</p><ol class=\"enumerate\"><li><p>求函数 $y = f(x)$ 的解析式；</p></li><li><p>求函数 $y = f(x)$ 的单调区间.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为图象过点 $P(0,2)$，所以 $f(0)=d=2$. 切线方程</p><p>$6x-y+7=0$ 可写成 $y=6x+7$. 点 $M$ 的横坐标为 $-1$，所以</p><p>$f(-1)=6(-1)+7=1$，且切线斜率给出 $f'(-1)=6$. 另一方面，</p><p>$f(-1)=-1+b-a+d$，$f'(x)=3x^{2}+2bx+a$，</p><p>所以</p><p>$-1+b-a+2=1$，$3-2b+a=6$.</p><p>即 $b-a=0$，$a-2b=3$. 由 $a=b$ 代入第二式得 $-b=3$，</p><p>从而 $a=b=-3$. 因此</p>\n$$\nf(x)=x^{3}-3x^{2}-3x+2\n$$\n</li><li><p>对上式求导，得</p>\n$$\nf'(x)=3x^{2}-6x-3=3\\left[(x-1)^{2}-2\\right]\n$$\n<p>令 $f'(x)=0$，得 $x=1-\\sqrt{2}$ 或 $x=1+\\sqrt{2}$. 因为</p><p>$f'(x)$ 是开口向上的二次函数，所以</p>\n$$\nf'(x)>0 \\text{当 }x&#x3C;1-\\sqrt{2}\\text{ 或 }x>1+\\sqrt{2}\n$$\n\n$$\nf'(x)&#x3C;0 \\text{当 }1-\\sqrt{2}&#x3C;x&#x3C;1+\\sqrt{2}\n$$\n<p>所以函数在 $(-\\infty,1-\\sqrt{2})$ 和 $(1+\\sqrt{2},+\\infty)$ 上单调递增，</p><p>在 $(1-\\sqrt{2},1+\\sqrt{2})$ 上单调递减.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为图象过点 $P(0,2)$，所以 $f(0)=d=2$. 切线方程</p><p>$6x-y+7=0$ 可写成 $y=6x+7$. 点 $M$ 的横坐标为 $-1$，所以</p><p>$f(-1)=6(-1)+7=1$，且切线斜率给出 $f'(-1)=6$. 另一方面，</p><p>$f(-1)=-1+b-a+d$，$f'(x)=3x^{2}+2bx+a$，</p><p>所以</p><p>$-1+b-a+2=1$，$3-2b+a=6$.</p><p>即 $b-a=0$，$a-2b=3$. 由 $a=b$ 代入第二式得 $-b=3$，</p><p>从而 $a=b=-3$. 因此</p>\n$$\nf(x)=x^{3}-3x^{2}-3x+2\n$$\n</li><li><p>对上式求导，得</p>\n$$\nf'(x)=3x^{2}-6x-3=3\\left[(x-1)^{2}-2\\right]\n$$\n<p>令 $f'(x)=0$，得 $x=1-\\sqrt{2}$ 或 $x=1+\\sqrt{2}$. 因为</p><p>$f'(x)$ 是开口向上的二次函数，所以</p>\n$$\nf'(x)>0 \\text{当 }x<1-\\sqrt{2}\\text{ 或 }x>1+\\sqrt{2}\n$$\n\n$$\nf'(x)<0 \\text{当 }1-\\sqrt{2}<x<1+\\sqrt{2}\n$$\n<p>所以函数在 $(-\\infty,1-\\sqrt{2})$ 和 $(1+\\sqrt{2},+\\infty)$ 上单调递增，</p><p>在 $(1-\\sqrt{2},1+\\sqrt{2})$ 上单调递减.</p></li></ol>"
         },
         {
           "num": 21,

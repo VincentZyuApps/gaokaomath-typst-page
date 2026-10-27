@@ -53,7 +53,7 @@
             "$(0, +\\infty)$"
           ],
           "answer": "A",
-          "solution": "当 $-1&#x3C;x&#x3C;0$ 时，$0&#x3C;x+1&#x3C;1$. 对任意 $t\\in(0,1)$，有 $\\log_{c} t>0$ 当且仅当 $0&#x3C;c&#x3C;1$. 因此必须有 $0&#x3C;2a&#x3C;1$，即 $0&#x3C;a&#x3C;\\frac{1}{2}$. 这也保证对数的底数满足 $2a>0$ 且 $2a\\neq1$，故选 A."
+          "solution": "当 $-1<x<0$ 时，$0<x+1<1$. 对任意 $t\\in(0,1)$，有 $\\log_{c} t>0$ 当且仅当 $0<c<1$. 因此必须有 $0<2a<1$，即 $0<a<\\frac{1}{2}$. 这也保证对数的底数满足 $2a>0$ 且 $2a\\neq1$，故选 A."
         },
         {
           "num": 5,
@@ -81,15 +81,15 @@
         },
         {
           "num": 7,
-          "body": "若 $0 &#x3C; \\alpha &#x3C; \\beta &#x3C; \\frac{\\pi}{4}$，$\\sin \\alpha + \\cos \\alpha = a$，$\\sin \\beta + \\cos \\beta = b$，则（ ）",
+          "body": "若 $0 < \\alpha < \\beta < \\frac{\\pi}{4}$，$\\sin \\alpha + \\cos \\alpha = a$，$\\sin \\beta + \\cos \\beta = b$，则（ ）",
           "choices": [
-            "$a &#x3C; b$",
+            "$a < b$",
             "$a > b$",
-            "$ab &#x3C; 1$",
+            "$ab < 1$",
             "$ab > 2$"
           ],
           "answer": "A",
-          "solution": "<p>设 $g(t)=\\sin t+\\cos t$. 当 $0&#x3C;t&#x3C;\\frac{\\pi}{4}$ 时，</p><p>$g'(t)=\\cos t-\\sin t>0$，所以 $g(t)$ 在该区间上单调递增. 由 $\\alpha&#x3C;\\beta$，得到</p><p>$a=g(\\alpha)&#x3C;g(\\beta)=b$，故选 A.</p>"
+          "solution": "<p>设 $g(t)=\\sin t+\\cos t$. 当 $0<t<\\frac{\\pi}{4}$ 时，</p><p>$g'(t)=\\cos t-\\sin t>0$，所以 $g(t)$ 在该区间上单调递增. 由 $\\alpha<\\beta$，得到</p><p>$a=g(\\alpha)<g(\\beta)=b$，故选 A.</p>"
         },
         {
           "num": 8,
@@ -182,7 +182,7 @@
           "body": "设 $\\{a_{n}\\}$ 是公比为 $q$ 的等比数列，$S_{n}$ 是它的前 $n$ 项和. 若 $|S_{n}|$ 是等差数列，则 $q =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "1",
-          "solution": "<p>按本题所用等比数列的定义，首项 $a_{1}\\ne0$，公比 $q\\ne0$. 设 $c=|a_{1}|>0$. 由 $S_{1}=a_{1}$、$S_{2}=a_{1}(1+q)$、$S_{3}=a_{1}(1+q+q^{2})$，且 $q^{2}+q+1>0$，得</p><p>$|S_{1}|=c$，$|S_{2}|=c|1+q|$，$|S_{3}|=c(1+q+q^{2})$.</p><p>因 $|S_{n}|$ 为等差数列，前三项满足</p><p>$2|S_{2}|=|S_{1}|+|S_{3}|$，</p><p>即 $2|1+q|=q^{2}+q+2$.</p><p>若 $q\\geq-1$，则左边为 $2q+2$，从而 $q^{2}-q=0$，得 $q=0$ 或 $q=1$. 因为 $q\\ne0$，故此时 $q=1$. 若 $q&#x3C;-1$，则上式化为 $-2q-2=q^{2}+q+2$，即 $q^{2}+3q+4=0$，其判别式 $9-16&#x3C;0$，无实数解. 因此 $q=1$.</p>"
+          "solution": "<p>按本题所用等比数列的定义，首项 $a_{1}\\ne0$，公比 $q\\ne0$. 设 $c=|a_{1}|>0$. 由 $S_{1}=a_{1}$、$S_{2}=a_{1}(1+q)$、$S_{3}=a_{1}(1+q+q^{2})$，且 $q^{2}+q+1>0$，得</p><p>$|S_{1}|=c$，$|S_{2}|=c|1+q|$，$|S_{3}|=c(1+q+q^{2})$.</p><p>因 $|S_{n}|$ 为等差数列，前三项满足</p><p>$2|S_{2}|=|S_{1}|+|S_{3}|$，</p><p>即 $2|1+q|=q^{2}+q+2$.</p><p>若 $q\\geq-1$，则左边为 $2q+2$，从而 $q^{2}-q=0$，得 $q=0$ 或 $q=1$. 因为 $q\\ne0$，故此时 $q=1$. 若 $q<-1$，则上式化为 $-2q-2=q^{2}+q+2$，即 $q^{2}+3q+4=0$，其判别式 $9-16<0$，无实数解. 因此 $q=1$.</p>"
         }
       ]
     },
@@ -198,7 +198,7 @@
         },
         {
           "num": 18,
-          "body": "<p>设计一幅宣传画，要求画面面积为 $4840\\mathrm{~cm}^{2}$，画面的宽与高的比为 $\\lambda$（$\\lambda &#x3C; 1$），画面的上，下各有 $8\\mathrm{~cm}$ 空白，左，右各有 $5\\mathrm{~cm}$ 空白. 怎样确定画面的高与宽尺寸，能使宣传画所用纸张面积最小？</p><p>由宽高比及画面面积可知 $0&#x3C;\\lambda&#x3C;1$. 设画面高为 $x\\mathrm{~cm}$，则宽为 $\\lambda x\\mathrm{~cm}$，且 $\\lambda x^{2}=4840$. 纸张面积 $S=(x+16)(\\lambda x+10)=4840+(16\\lambda+10)x+160$.</p><p>由 $x=22\\frac{\\sqrt{10}}{\\sqrt{\\lambda}}$，得</p>\n$$\nS=5000+44\\sqrt{10}\\left(8\\sqrt{\\lambda}+\\frac{5}{\\sqrt{\\lambda}}\\right)\n$$\n<p>由均值不等式，</p><p>$8\\sqrt{\\lambda}+\\dfrac5{\\sqrt{\\lambda}}\\geq2\\sqrt{40}$，等号成立当且仅当</p><p>$8\\sqrt{\\lambda}=\\dfrac5{\\sqrt{\\lambda}}$. 因此 $S$ 在 $\\lambda=\\frac{5}{8}$ 时取最小值. 此时 $x=88$，画面宽为 $\\lambda x=55$，故画面高、宽分别为 $88\\mathrm{~cm}$、$55\\mathrm{~cm}$.</p>",
+          "body": "<p>设计一幅宣传画，要求画面面积为 $4840\\mathrm{~cm}^{2}$，画面的宽与高的比为 $\\lambda$（$\\lambda < 1$），画面的上，下各有 $8\\mathrm{~cm}$ 空白，左，右各有 $5\\mathrm{~cm}$ 空白. 怎样确定画面的高与宽尺寸，能使宣传画所用纸张面积最小？</p><p>由宽高比及画面面积可知 $0<\\lambda<1$. 设画面高为 $x\\mathrm{~cm}$，则宽为 $\\lambda x\\mathrm{~cm}$，且 $\\lambda x^{2}=4840$. 纸张面积 $S=(x+16)(\\lambda x+10)=4840+(16\\lambda+10)x+160$.</p><p>由 $x=22\\frac{\\sqrt{10}}{\\sqrt{\\lambda}}$，得</p>\n$$\nS=5000+44\\sqrt{10}\\left(8\\sqrt{\\lambda}+\\frac{5}{\\sqrt{\\lambda}}\\right)\n$$\n<p>由均值不等式，</p><p>$8\\sqrt{\\lambda}+\\dfrac5{\\sqrt{\\lambda}}\\geq2\\sqrt{40}$，等号成立当且仅当</p><p>$8\\sqrt{\\lambda}=\\dfrac5{\\sqrt{\\lambda}}$. 因此 $S$ 在 $\\lambda=\\frac{5}{8}$ 时取最小值. 此时 $x=88$，画面宽为 $\\lambda x=55$，故画面高、宽分别为 $88\\mathrm{~cm}$、$55\\mathrm{~cm}$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -238,10 +238,10 @@
         },
         {
           "num": 23,
-          "body": "<p>设 $0 &#x3C; \\theta &#x3C; \\frac{\\pi}{2}$，曲线 $x^{2}\\sin\\theta + y^{2}\\cos\\theta = 1$ 和 $x^{2}\\cos\\theta - y^{2}\\sin\\theta = 1$ 有 $4$ 个不同的交点.</p><ol class=\"enumerate\"><li><p>求 $\\theta$ 的取值范围；</p></li><li><p>证明这 $4$ 个交点共圆，并求圆半径的取值范围.</p></li></ol>",
+          "body": "<p>设 $0 < \\theta < \\frac{\\pi}{2}$，曲线 $x^{2}\\sin\\theta + y^{2}\\cos\\theta = 1$ 和 $x^{2}\\cos\\theta - y^{2}\\sin\\theta = 1$ 有 $4$ 个不同的交点.</p><ol class=\"enumerate\"><li><p>求 $\\theta$ 的取值范围；</p></li><li><p>证明这 $4$ 个交点共圆，并求圆半径的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>令 $u=x^{2}$，$v=y^{2}$，联立两曲线方程，相加、相减得</p>\n$$\n\\begin{cases}(\\sin\\theta+\\cos\\theta)u+(\\cos\\theta-\\sin\\theta)v=2,\\\\\n\n(\\sin\\theta-\\cos\\theta)u+(\\sin\\theta+\\cos\\theta)v=0\\end{cases}\n$$\n<p>解得 $u=\\sin\\theta+\\cos\\theta$，$v=\\cos\\theta-\\sin\\theta$. 要有四个不同交点，必须且只需 $x^{2}>0$、$y^{2}>0$，此时 $x$、$y$ 分别可取正、负两个值，共有四个组合. 对于 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$，有 $\\sin\\theta+\\cos\\theta>0$，而</p><p>$\\cos\\theta-\\sin\\theta>0$ 等价于 $\\theta&#x3C;\\frac{\\pi}{4}$，所以 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{4}$.</p></li><li><p>由上式，$x^{2}+y^{2}=(\\sin\\theta+\\cos\\theta)+(\\cos\\theta-\\sin\\theta)=2\\cos\\theta$，故四个交点都满足以原点为圆心、半径 $r=\\sqrt{2\\cos\\theta}$ 的圆方程，因而共圆. 当 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{4}$ 时，$\\sqrt[4]{2}&#x3C;r&#x3C;\\sqrt{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>令 $u=x^{2}$，$v=y^{2}$，联立两曲线方程，相加、相减得</p>\n$$\n\\begin{cases}(\\sin\\theta+\\cos\\theta)u+(\\cos\\theta-\\sin\\theta)v=2,\\\\\n\n(\\sin\\theta-\\cos\\theta)u+(\\sin\\theta+\\cos\\theta)v=0\\end{cases}\n$$\n<p>解得 $u=\\sin\\theta+\\cos\\theta$，$v=\\cos\\theta-\\sin\\theta$. 要有四个不同交点，必须且只需 $x^{2}>0$、$y^{2}>0$，此时 $x$、$y$ 分别可取正、负两个值，共有四个组合. 对于 $0<\\theta<\\frac{\\pi}{2}$，有 $\\sin\\theta+\\cos\\theta>0$，而</p><p>$\\cos\\theta-\\sin\\theta>0$ 等价于 $\\theta<\\frac{\\pi}{4}$，所以 $0<\\theta<\\frac{\\pi}{4}$.</p></li><li><p>由上式，$x^{2}+y^{2}=(\\sin\\theta+\\cos\\theta)+(\\cos\\theta-\\sin\\theta)=2\\cos\\theta$，故四个交点都满足以原点为圆心、半径 $r=\\sqrt{2\\cos\\theta}$ 的圆方程，因而共圆. 当 $0<\\theta<\\frac{\\pi}{4}$ 时，$\\sqrt[4]{2}<r<\\sqrt{2}$.</p></li></ol>"
         }
       ]
     }

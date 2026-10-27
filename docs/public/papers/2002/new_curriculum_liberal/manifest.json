@@ -41,19 +41,19 @@
             "$\\frac{1}{4}$"
           ],
           "answer": "B",
-          "solution": "当 $a>1$ 时，函数 $y=a^{x}$ 在 $[0,1]$ 上递增，最小值为 $1$，最大值为 $a$，所以 $1+a=3$，得 $a=2$. 当 $0&#x3C;a&#x3C;1$ 时，函数递减，最大值为 $1$，最小值为 $a$，仍需 $1+a=3$，这与 $0&#x3C;a&#x3C;1$ 矛盾；当 $a=1$ 时最大值与最小值之和为 $2$. 因此 $a=2$，选 B."
+          "solution": "当 $a>1$ 时，函数 $y=a^{x}$ 在 $[0,1]$ 上递增，最小值为 $1$，最大值为 $a$，所以 $1+a=3$，得 $a=2$. 当 $0<a<1$ 时，函数递减，最大值为 $1$，最小值为 $a$，仍需 $1+a=3$，这与 $0<a<1$ 矛盾；当 $a=1$ 时最大值与最小值之和为 $2$. 因此 $a=2$，选 B."
         },
         {
           "num": 4,
           "body": "不等式 $(1 + x)(1 - |x|) > 0$ 的解集是（ ）",
           "choices": [
-            "$\\{x\\mid 0\\le x &#x3C; 1\\}$",
-            "$\\{x\\mid x &#x3C; 0 \\text{ 且 }x\\neq -1\\}$",
-            "$\\{x\\mid -1 &#x3C; x &#x3C; 1\\}$",
-            "$\\{x\\mid x &#x3C; 1 \\text{ 且 }x\\neq -1\\}$"
+            "$\\{x\\mid 0\\le x < 1\\}$",
+            "$\\{x\\mid x < 0 \\text{ 且 }x\\neq -1\\}$",
+            "$\\{x\\mid -1 < x < 1\\}$",
+            "$\\{x\\mid x < 1 \\text{ 且 }x\\neq -1\\}$"
           ],
           "answer": "D",
-          "solution": "当 $x&#x3C;0$ 时，$|x|=-x$，原不等式化为 $(1+x)^{2}>0$，所以解为 $x&#x3C;0$ 且 $x\\neq-1$. 当 $x\\geqslant0$ 时，原不等式化为 $(1+x)(1-x)>0$；因 $1+x>0$，所以 $0\\le x&#x3C;1$. 合并两种情况，解集为 $\\{x\\mid x&#x3C;1\\text{ 且 }x\\neq-1\\}$，选 D."
+          "solution": "当 $x<0$ 时，$|x|=-x$，原不等式化为 $(1+x)^{2}>0$，所以解为 $x<0$ 且 $x\\neq-1$. 当 $x\\geqslant0$ 时，原不等式化为 $(1+x)(1-x)>0$；因 $1+x>0$，所以 $0\\le x<1$. 合并两种情况，解集为 $\\{x\\mid x<1\\text{ 且 }x\\neq-1\\}$，选 D."
         },
         {
           "num": 5,
@@ -65,7 +65,7 @@
             "$\\left(\\frac{\\pi}{4},\\pi\\right)\\cup \\left(\\frac{5\\pi}{4},\\frac{3\\pi}{2}\\right)$"
           ],
           "answer": "C",
-          "solution": "由 $\\sin x>\\cos x$ 得 $\\sin x-\\cos x>0$，即 $\\sqrt{2}\\sin\\left(x-\\frac{\\pi}{4}\\right)>0$. 在 $0&#x3C;x&#x3C;2\\pi$ 内，正弦值为正的部分满足 $0&#x3C;x-\\frac{\\pi}{4}&#x3C;\\pi$，从而 $\\frac{\\pi}{4}&#x3C;x&#x3C;\\frac{5\\pi}{4}$. 因此选 C."
+          "solution": "由 $\\sin x>\\cos x$ 得 $\\sin x-\\cos x>0$，即 $\\sqrt{2}\\sin\\left(x-\\frac{\\pi}{4}\\right)>0$. 在 $0<x<2\\pi$ 内，正弦值为正的部分满足 $0<x-\\frac{\\pi}{4}<\\pi$，从而 $\\frac{\\pi}{4}<x<\\frac{5\\pi}{4}$. 因此选 C."
         },
         {
           "num": 6,
@@ -110,22 +110,22 @@
             "$b \\ge 0$",
             "$b \\le 0$",
             "$b > 0$",
-            "$b &#x3C; 0$"
+            "$b < 0$"
           ],
           "answer": "A",
-          "solution": "<p>任取 $0\\le x&#x3C;y$，有</p><p>$f(y)-f(x)=(y-x)(x+y+b)$.</p><p>若 $b\\geqslant0$，则 $x+y+b>0$，所以 $f(y)>f(x)$，函数在 $[0,+\\infty)$ 上单调递增. 若 $b&#x3C;0$，取 $x=0$，$y=-\\frac{b}{2}$，则 $f(y)-f(0)&#x3C;0$；又取 $x=-b$，$y=-b+1$，则 $f(y)-f(x)>0$. 此时函数既不单调递增也不单调递减. 所以充要条件是 $b\\geqslant0$，选 A.</p>"
+          "solution": "<p>任取 $0\\le x<y$，有</p><p>$f(y)-f(x)=(y-x)(x+y+b)$.</p><p>若 $b\\geqslant0$，则 $x+y+b>0$，所以 $f(y)>f(x)$，函数在 $[0,+\\infty)$ 上单调递增. 若 $b<0$，取 $x=0$，$y=-\\frac{b}{2}$，则 $f(y)-f(0)<0$；又取 $x=-b$，$y=-b+1$，则 $f(y)-f(x)>0$. 此时函数既不单调递增也不单调递减. 所以充要条件是 $b\\geqslant0$，选 A.</p>"
         },
         {
           "num": 10,
-          "body": "已知 $0 &#x3C; x &#x3C; y &#x3C; a &#x3C; 1$，则有（ ）",
+          "body": "已知 $0 < x < y < a < 1$，则有（ ）",
           "choices": [
-            "$\\log_{a}(xy) &#x3C; 0$",
-            "$0 &#x3C; \\log_{a}(xy) &#x3C; 1$",
-            "$1 &#x3C; \\log_{a}(xy) &#x3C; 2$",
+            "$\\log_{a}(xy) < 0$",
+            "$0 < \\log_{a}(xy) < 1$",
+            "$1 < \\log_{a}(xy) < 2$",
             "$\\log_{a}(xy) > 2$"
           ],
           "answer": "D",
-          "solution": "<p>由 $0&#x3C;x&#x3C;a$，$0&#x3C;y&#x3C;a$，得 $0&#x3C;xy&#x3C;a^{2}$. 因为 $0&#x3C;a&#x3C;1$，函数 $\\log_{a} t$ 在正数范围内递减，所以</p><p>$\\log_{a}(xy)>\\log_{a}(a^{2})=2$.</p><p>因此选 D.</p>"
+          "solution": "<p>由 $0<x<a$，$0<y<a$，得 $0<xy<a^{2}$. 因为 $0<a<1$，函数 $\\log_{a} t$ 在正数范围内递减，所以</p><p>$\\log_{a}(xy)>\\log_{a}(a^{2})=2$.</p><p>因此选 D.</p>"
         },
         {
           "num": 11,
@@ -201,7 +201,7 @@
           "body": "已知 $\\sin^{2} 2\\alpha + \\sin 2\\alpha \\cos \\alpha - \\cos 2\\alpha = 1$（$\\alpha \\in \\left(0, \\frac{\\pi}{2}\\right)$），求 $\\sin \\alpha$，$\\tan \\alpha$ 的值.",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $s=\\sin\\alpha$，$c=\\cos\\alpha$. 由 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$ 知 $0&#x3C;s&#x3C;1$，且 $c^{2}=1-s^{2}$. 把 $\\sin2\\alpha=2sc$、$\\cos2\\alpha=c^{2}-s^{2}$ 代入原式，得</p>\n$$\n4s^{2}c^{2}+2sc^{2}-(c^{2}-s^{2})=1\n$$\n<p>再代入 $c^{2}=1-s^{2}$，并移项化简，得到</p>\n$$\n2s^{4}+s^{3}-3s^{2}-s+1=0\n$$\n<p>因式分解得</p>\n$$\n(2s-1)(s-1)(s+1)^{2}=0\n$$\n<p>由于 $0&#x3C;s&#x3C;1$，只能取 $s=\\frac{1}{2}$，于是 $c=\\frac{\\sqrt{3}}{2}$. 因此 $\\sin\\alpha=\\frac{1}{2}$，$\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{\\sqrt{3}}{3}$.</p>"
+          "solution": "<p>令 $s=\\sin\\alpha$，$c=\\cos\\alpha$. 由 $0<\\alpha<\\frac{\\pi}{2}$ 知 $0<s<1$，且 $c^{2}=1-s^{2}$. 把 $\\sin2\\alpha=2sc$、$\\cos2\\alpha=c^{2}-s^{2}$ 代入原式，得</p>\n$$\n4s^{2}c^{2}+2sc^{2}-(c^{2}-s^{2})=1\n$$\n<p>再代入 $c^{2}=1-s^{2}$，并移项化简，得到</p>\n$$\n2s^{4}+s^{3}-3s^{2}-s+1=0\n$$\n<p>因式分解得</p>\n$$\n(2s-1)(s-1)(s+1)^{2}=0\n$$\n<p>由于 $0<s<1$，只能取 $s=\\frac{1}{2}$，于是 $c=\\frac{\\sqrt{3}}{2}$. 因此 $\\sin\\alpha=\\frac{1}{2}$，$\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{\\sqrt{3}}{3}$.</p>"
         }
       ]
     },
@@ -217,7 +217,7 @@
         },
         {
           "num": 20,
-          "body": "<p>如图，正方形 $ABCD$，$ABEF$ 的边长都是 $1$，而且平面 $ABCD$，$ABEF$ 互相垂直. 点 $M$ 在 $AC$ 上移动，点 $N$ 在 $BF$ 上移动，若 $CM = BN = a$（$0 &#x3C; a &#x3C; \\sqrt{2}$）.</p><ol class=\"enumerate\"><li><p>求 $MN$ 的长；</p></li><li><p>$a$ 为何值时，$MN$ 的长最小；</p></li><li><p>当 $MN$ 的长最小时，求面 $MNA$ 与面 $MNB$ 所成二面角 $\\alpha$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "body": "<p>如图，正方形 $ABCD$，$ABEF$ 的边长都是 $1$，而且平面 $ABCD$，$ABEF$ 互相垂直. 点 $M$ 在 $AC$ 上移动，点 $N$ 在 $BF$ 上移动，若 $CM = BN = a$（$0 < a < \\sqrt{2}$）.</p><ol class=\"enumerate\"><li><p>求 $MN$ 的长；</p></li><li><p>$a$ 为何值时，$MN$ 的长最小；</p></li><li><p>当 $MN$ 的长最小时，求面 $MNA$ 与面 $MNB$ 所成二面角 $\\alpha$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>建立直角坐标系，取 $A(0,0,0)$，$B(1,0,0)$，$C(1,1,0)$，$D(0,1,0)$，$E(1,0,1)$，$F(0,0,1)$.</p><p>此时平面 $ABCD$ 为 $z=0$，平面 $ABEF$ 为 $y=0$，二者互相垂直. 因为 $|AC|=|BF|=\\sqrt{2}$，且 $CM=BN=a$，所以</p>\n$$\nM=C+\\frac{a}{\\sqrt{2}}\\overrightarrow{CA}=\\left(1-\\frac{a}{\\sqrt{2}},1-\\frac{a}{\\sqrt{2}},0\\right)\n$$\n\n$$\nN=B+\\frac{a}{\\sqrt{2}}\\overrightarrow{BF}=\\left(1-\\frac{a}{\\sqrt{2}},0,\\frac{a}{\\sqrt{2}}\\right)\n$$\n<p>因此</p>\n$$\nMN^{2}=\\left(1-\\frac{a}{\\sqrt{2}}\\right)^{2}+\\left(\\frac{a}{\\sqrt{2}}\\right)^{2}=\\left(a-\\frac{\\sqrt{2}}{2}\\right)^{2}+\\frac{1}{2}\n$$\n<p>故 $MN=\\sqrt{\\left(a-\\frac{\\sqrt{2}}{2}\\right)^{2}+\\frac{1}{2}}$.</p></li><li><p>由上式可知，当 $a=\\frac{\\sqrt{2}}{2}$ 时，$MN$ 取得最小值 $\\frac{\\sqrt{2}}{2}$.</p></li><li><p>当 $a=\\frac{\\sqrt{2}}{2}$ 时，$M\\left(\\frac{1}{2},\\frac{1}{2},0\\right)$，$N\\left(\\frac{1}{2},0,\\frac{1}{2}\\right)$. 取 $MN$ 的中点 $H$. 由中点公式得 $H\\left(\\frac{1}{2},\\frac{1}{4},\\frac{1}{4}\\right)$，并且</p><p>$\\overrightarrow{HA}=\\left(-\\frac{1}{2},-\\frac{1}{4},-\\frac{1}{4}\\right)$，</p><p>$\\overrightarrow{HB}=\\left(\\frac{1}{2},-\\frac{1}{4},-\\frac{1}{4}\\right)$.</p><p>由前述坐标可得 $AM=AN=MN=BM=BN=\\frac{\\sqrt{2}}{2}$，所以 $\\triangle AMN$ 与 $\\triangle BMN$ 都是正三角形，从而 $HA\\perp MN$，$HB\\perp MN$. 因此 $\\angle AHB$ 是所求二面角的平面角. 于是</p>\n$$\n\\cos\\alpha=\\frac{\\overrightarrow{HA}\\cdot\\overrightarrow{HB}}{|HA||HB|}=\\frac{-\\frac{1}{8}}{\\frac{3}{8}}=-\\frac{1}{3}\n$$\n<p>所以 $\\alpha=\\arccos\\left(-\\frac{1}{3}\\right)$.</p></li></ol>"
@@ -232,14 +232,14 @@
           "body": "<p>某单位 $6$ 个员工借助互联网开展工作，每个员工上网的概率都是 $0.5$（相互独立）.</p><ol class=\"enumerate\"><li><p>求至少 $3$ 人同时上网的概率；</p></li><li><p>至少几人同时上网的概率小于 $0.3$？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设同时上网的员工人数为随机变量 $X$. 由于每个员工上网与否相互独立，且上网概率均为 $0.5$，所以恰有 $k$ 人同时上网的概率为 $\\frac{\\mathrm{C}_{6}^{k}}{2^{6}}$.</p><ol class=\"enumerate\"><li><p>至少 $3$ 人同时上网的概率为</p>\n$$\nP(X\\geqslant3)=\\frac{\\mathrm{C}_{6}^{3}+\\mathrm{C}_{6}^{4}+\\mathrm{C}_{6}^{5}+\\mathrm{C}_{6}^{6}}{2^{6}}=1-\\frac{\\mathrm{C}_{6}^{0}+\\mathrm{C}_{6}^{1}+\\mathrm{C}_{6}^{2}}{2^{6}}=1-\\frac{1+6+15}{64}=\\frac{21}{32}\n$$\n</li><li><p>至少 $4$ 人同时上网的概率为</p>\n$$\nP(X\\geqslant4)=\\frac{\\mathrm{C}_{6}^{4}+\\mathrm{C}_{6}^{5}+\\mathrm{C}_{6}^{6}}{64}=\\frac{15+6+1}{64}=\\frac{22}{64}>0.3\n$$\n<p>而至少 $5$ 人同时上网的概率为</p>\n$$\nP(X\\geqslant5)=\\frac{\\mathrm{C}_{6}^{5}+\\mathrm{C}_{6}^{6}}{64}=\\frac{6+1}{64}=\\frac{7}{64}&#x3C;0.3\n$$\n<p>因此，至少 $5$ 人同时上网时，该概率小于 $0.3$.</p></li></ol>"
+          "solution": "<p>设同时上网的员工人数为随机变量 $X$. 由于每个员工上网与否相互独立，且上网概率均为 $0.5$，所以恰有 $k$ 人同时上网的概率为 $\\frac{\\mathrm{C}_{6}^{k}}{2^{6}}$.</p><ol class=\"enumerate\"><li><p>至少 $3$ 人同时上网的概率为</p>\n$$\nP(X\\geqslant3)=\\frac{\\mathrm{C}_{6}^{3}+\\mathrm{C}_{6}^{4}+\\mathrm{C}_{6}^{5}+\\mathrm{C}_{6}^{6}}{2^{6}}=1-\\frac{\\mathrm{C}_{6}^{0}+\\mathrm{C}_{6}^{1}+\\mathrm{C}_{6}^{2}}{2^{6}}=1-\\frac{1+6+15}{64}=\\frac{21}{32}\n$$\n</li><li><p>至少 $4$ 人同时上网的概率为</p>\n$$\nP(X\\geqslant4)=\\frac{\\mathrm{C}_{6}^{4}+\\mathrm{C}_{6}^{5}+\\mathrm{C}_{6}^{6}}{64}=\\frac{15+6+1}{64}=\\frac{22}{64}>0.3\n$$\n<p>而至少 $5$ 人同时上网的概率为</p>\n$$\nP(X\\geqslant5)=\\frac{\\mathrm{C}_{6}^{5}+\\mathrm{C}_{6}^{6}}{64}=\\frac{6+1}{64}=\\frac{7}{64}<0.3\n$$\n<p>因此，至少 $5$ 人同时上网时，该概率小于 $0.3$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "<p>已知 $a > 0$，函数 $f(x) = x^{3} - a$（$x \\in (0, +\\infty)$）. 设 $x_{1} > 0$，记曲线 $y = f(x)$ 在点 $(x_{1}, f(x_{1}))$ 处的切线为 $l$.</p><ol class=\"enumerate\"><li><p>求 $l$ 的方程；</p></li><li><p>设 $l$ 与 $x$ 轴交点为 $(x_{2}, 0)$. 证明：</p><p></p><ol class=\"enumerate\"><li><p>$x_{2}\\ge a^{\\frac{1}{3}}$；</p></li><li><p>若 $x_{2}> a^{\\frac{1}{3}}$，则 $a^{\\frac{1}{3}}&#x3C; x_{2}&#x3C; x_{1}$.</p></li></ol><p></p></li></ol>",
+          "body": "<p>已知 $a > 0$，函数 $f(x) = x^{3} - a$（$x \\in (0, +\\infty)$）. 设 $x_{1} > 0$，记曲线 $y = f(x)$ 在点 $(x_{1}, f(x_{1}))$ 处的切线为 $l$.</p><ol class=\"enumerate\"><li><p>求 $l$ 的方程；</p></li><li><p>设 $l$ 与 $x$ 轴交点为 $(x_{2}, 0)$. 证明：</p><p></p><ol class=\"enumerate\"><li><p>$x_{2}\\ge a^{\\frac{1}{3}}$；</p></li><li><p>若 $x_{2}> a^{\\frac{1}{3}}$，则 $a^{\\frac{1}{3}}< x_{2}< x_{1}$.</p></li></ol><p></p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $f'(x)=3x^{2}$，所以曲线在 $(x_{1},f(x_{1}))$ 处的切线斜率为 $3x_{1}^{2}$. 由点斜式，切线方程为</p>\n$$\ny-(x_{1}^{3}-a)=3x_{1}^{2}(x-x_{1})\n$$\n<p>即 $l$ 的方程为 $y=3x_{1}^{2}x-2x_{1}^{3}-a$.</p></li><li><p>令 $y=0$，得切线与 $x$ 轴交点的横坐标</p>\n$$\nx_{2}=\\frac{2x_{1}^{3}+a}{3x_{1}^{2}}\n$$\n<p></p><ol class=\"enumerate\"><li><p>令 $t=a^{\\frac{1}{3}}>0$，则</p>\n$$\nx_{2}-t=\\frac{2x_{1}^{3}+t^{3}-3tx_{1}^{2}}{3x_{1}^{2}}=\\frac{(x_{1}-t)^{2}(2x_{1}+t)}{3x_{1}^{2}}\\geqslant0\n$$\n<p>所以 $x_{2}\\ge a^{\\frac{1}{3}}$，等号成立当且仅当 $x_{1}=t$.</p></li><li><p>原题给出的条件 $x_{2}>a^{\\frac{1}{3}}$ 只能说明 $x_{1}\\neq a^{\\frac{1}{3}}$，并不能推出 $x_{2}&#x3C;x_{1}$. 事实上</p>\n$$\nx_{1}-x_{2}=\\frac{x_{1}^{3}-a}{3x_{1}^{2}}=\\frac{(x_{1}-t)(x_{1}^{2}+tx_{1}+t^{2})}{3x_{1}^{2}}\n$$\n<p>因为 $x_{1}^{2}+tx_{1}+t^{2}>0$，所以 $x_{1}-x_{2}$ 与 $x_{1}-t$ 同号. 结合第（i）问，全部情形为：当 $0&#x3C;x_{1}&#x3C;t$ 时，$0&#x3C;x_{1}&#x3C;t&#x3C;x_{2}$；当 $x_{1}=t$ 时，$x_{1}=x_{2}=t$；当 $x_{1}>t$ 时，$t&#x3C;x_{2}&#x3C;x_{1}$. 因此，原条件 $x_{2}>t$ 同时允许第一、第三种情形，第（2）（ii）问是错误命题. 例如取 $a=1$，$x_{1}=\\frac{1}{2}$，此时切线为 $y=\\frac{3}{4}x-\\frac{5}{4}$，故 $x_{2}=\\frac{5}{3}>1=t$，却有 $x_{2}>x_{1}$，反例满足原题全部条件. 原题字面下的完整结论是上述三种情形；在 $x_{2}>t$ 的条件下，$t&#x3C;x_{2}&#x3C;x_{1}$ 成立当且仅当 $x_{1}>t$，不能由原条件单独推出.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $f'(x)=3x^{2}$，所以曲线在 $(x_{1},f(x_{1}))$ 处的切线斜率为 $3x_{1}^{2}$. 由点斜式，切线方程为</p>\n$$\ny-(x_{1}^{3}-a)=3x_{1}^{2}(x-x_{1})\n$$\n<p>即 $l$ 的方程为 $y=3x_{1}^{2}x-2x_{1}^{3}-a$.</p></li><li><p>令 $y=0$，得切线与 $x$ 轴交点的横坐标</p>\n$$\nx_{2}=\\frac{2x_{1}^{3}+a}{3x_{1}^{2}}\n$$\n<p></p><ol class=\"enumerate\"><li><p>令 $t=a^{\\frac{1}{3}}>0$，则</p>\n$$\nx_{2}-t=\\frac{2x_{1}^{3}+t^{3}-3tx_{1}^{2}}{3x_{1}^{2}}=\\frac{(x_{1}-t)^{2}(2x_{1}+t)}{3x_{1}^{2}}\\geqslant0\n$$\n<p>所以 $x_{2}\\ge a^{\\frac{1}{3}}$，等号成立当且仅当 $x_{1}=t$.</p></li><li><p>原题给出的条件 $x_{2}>a^{\\frac{1}{3}}$ 只能说明 $x_{1}\\neq a^{\\frac{1}{3}}$，并不能推出 $x_{2}<x_{1}$. 事实上</p>\n$$\nx_{1}-x_{2}=\\frac{x_{1}^{3}-a}{3x_{1}^{2}}=\\frac{(x_{1}-t)(x_{1}^{2}+tx_{1}+t^{2})}{3x_{1}^{2}}\n$$\n<p>因为 $x_{1}^{2}+tx_{1}+t^{2}>0$，所以 $x_{1}-x_{2}$ 与 $x_{1}-t$ 同号. 结合第（i）问，全部情形为：当 $0<x_{1}<t$ 时，$0<x_{1}<t<x_{2}$；当 $x_{1}=t$ 时，$x_{1}=x_{2}=t$；当 $x_{1}>t$ 时，$t<x_{2}<x_{1}$. 因此，原条件 $x_{2}>t$ 同时允许第一、第三种情形，第（2）（ii）问是错误命题. 例如取 $a=1$，$x_{1}=\\frac{1}{2}$，此时切线为 $y=\\frac{3}{4}x-\\frac{5}{4}$，故 $x_{2}=\\frac{5}{3}>1=t$，却有 $x_{2}>x_{1}$，反例满足原题全部条件. 原题字面下的完整结论是上述三种情形；在 $x_{2}>t$ 的条件下，$t<x_{2}<x_{1}$ 成立当且仅当 $x_{1}>t$，不能由原条件单独推出.</p></li></ol><p></p></li></ol>"
         },
         {
           "num": 23,

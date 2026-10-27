@@ -137,7 +137,7 @@
             "$[1,+\\infty)$"
           ],
           "answer": "D",
-          "solution": "<p>函数在 $(1,+\\infty)$ 上的导数为 $f'(x)=k-\\frac{1}{x}$. 若 $k\\geqslant1$，则对任意 $x>1$ 有 $\\frac{1}{x}&#x3C;1\\le k$，从而 $f'(x)>0$，所以函数单调递增.</p><p>若 $k\\leqslant0$，任取 $x>1$ 都有 $f'(x)=k-\\frac{1}{x}&#x3C;0$，不可能在整个区间上单调递增；若 $0&#x3C;k&#x3C;1$，取 $x$ 满足 $1&#x3C;x&#x3C;\\frac{1}{k}$，则 $\\frac{1}{x}>k$，仍有 $f'(x)&#x3C;0$. 因此 $k\\geqslant1$，故选 D.</p>"
+          "solution": "<p>函数在 $(1,+\\infty)$ 上的导数为 $f'(x)=k-\\frac{1}{x}$. 若 $k\\geqslant1$，则对任意 $x>1$ 有 $\\frac{1}{x}<1\\le k$，从而 $f'(x)>0$，所以函数单调递增.</p><p>若 $k\\leqslant0$，任取 $x>1$ 都有 $f'(x)=k-\\frac{1}{x}<0$，不可能在整个区间上单调递增；若 $0<k<1$，取 $x$ 满足 $1<x<\\frac{1}{k}$，则 $\\frac{1}{x}>k$，仍有 $f'(x)<0$. 因此 $k\\geqslant1$，故选 D.</p>"
         },
         {
           "num": 12,
@@ -194,7 +194,7 @@
           "body": "<p>四边形 $ABCD$ 的内角 $A$ 与 $C$ 互补，$AB=1$，$BC=3$，$CD=DA=2$.</p><ol class=\"enumerate\"><li><p>求 $\\angle C$ 和 $BD$；</p></li><li><p>求四边形 $ABCD$ 的面积.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记 $\\angle C=\\gamma$. 因为 $\\angle A+\\angle C=180^{\\circ}$，所以四边形 $ABCD$ 为圆内接四边形，且 $\\angle A=180^{\\circ}-\\gamma$. 在三角形 $BCD$ 和 $BAD$ 中分别使用余弦定理，得</p><p>$BD^{2}=BC^{2}+CD^{2}-2BC\\cdot CD\\cos\\gamma=13-12\\cos\\gamma$，</p><p>$BD^{2}=AB^{2}+AD^{2}-2AB\\cdot AD\\cos(180^{\\circ}-\\gamma)=5+4\\cos\\gamma$.</p><p>两式相等，得 $13-12\\cos\\gamma=5+4\\cos\\gamma$，所以 $\\cos\\gamma=\\frac{1}{2}$. 因为 $0^{\\circ}&#x3C;\\gamma&#x3C;180^{\\circ}$，故 $\\gamma=60^{\\circ}$，且 $BD^{2}=13-12\\cdot\\frac{1}{2}=7$，从而 $BD=\\sqrt{7}$.</p></li><li><p>四边形面积等于两个三角形面积之和，因此</p><p>$S_{ABCD}=\\frac{1}{2}AB\\cdot AD\\sin\\angle A+\\frac{1}{2}BC\\cdot CD\\sin\\angle C$.</p><p>又 $\\sin\\angle A=\\sin\\angle C=\\sin60^{\\circ}=\\frac{\\sqrt{3}}{2}$，所以 $S_{ABCD}=\\sin60^{\\circ}+3\\sin60^{\\circ}=2\\sqrt{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记 $\\angle C=\\gamma$. 因为 $\\angle A+\\angle C=180^{\\circ}$，所以四边形 $ABCD$ 为圆内接四边形，且 $\\angle A=180^{\\circ}-\\gamma$. 在三角形 $BCD$ 和 $BAD$ 中分别使用余弦定理，得</p><p>$BD^{2}=BC^{2}+CD^{2}-2BC\\cdot CD\\cos\\gamma=13-12\\cos\\gamma$，</p><p>$BD^{2}=AB^{2}+AD^{2}-2AB\\cdot AD\\cos(180^{\\circ}-\\gamma)=5+4\\cos\\gamma$.</p><p>两式相等，得 $13-12\\cos\\gamma=5+4\\cos\\gamma$，所以 $\\cos\\gamma=\\frac{1}{2}$. 因为 $0^{\\circ}<\\gamma<180^{\\circ}$，故 $\\gamma=60^{\\circ}$，且 $BD^{2}=13-12\\cdot\\frac{1}{2}=7$，从而 $BD=\\sqrt{7}$.</p></li><li><p>四边形面积等于两个三角形面积之和，因此</p><p>$S_{ABCD}=\\frac{1}{2}AB\\cdot AD\\sin\\angle A+\\frac{1}{2}BC\\cdot CD\\sin\\angle C$.</p><p>又 $\\sin\\angle A=\\sin\\angle C=\\sin60^{\\circ}=\\frac{\\sqrt{3}}{2}$，所以 $S_{ABCD}=\\sin60^{\\circ}+3\\sin60^{\\circ}=2\\sqrt{3}$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -215,14 +215,14 @@
           "body": "<p>设 $F_{1}$，$F_{2}$ 分别是椭圆 $C:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$（$a>b>0$）的左，右焦点，$M$ 是 $C$ 上一点且 $MF_{2}$ 与 $x$ 轴垂直，直线 $MF_{1}$ 与 $C$ 的另一个交点为 $N$.</p><ol class=\"enumerate\"><li><p>若直线 $MN$ 的斜率为 $\\frac{3}{4}$，求 $C$ 的离心率；</p></li><li><p>若直线 $MN$ 在 $y$ 轴上的截距为 $2$，且 $|MN|=5|F_{1}N|$，求 $a$，$b$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆焦距的一半为 $c=\\sqrt{a^{2}-b^{2}}$，则 $F_{1}=(-c,0)$，$F_{2}=(c,0)$. 因为 $MF_{2}$ 垂直于 $x$ 轴，所以 $M$ 的横坐标为 $c$. 将 $x=c$ 代入椭圆方程，得 $y_{M}^{2}=b^{2}(1-\\frac{c^{2}}{a^{2}})=\\frac{b^{4}}{a^{2}}$. 题设斜率为正，故取 $M$ 在上半平面，即 $M=(c,\\frac{b^{2}}{a})$. 直线 $MN$ 与 $MF_{1}$ 是同一直线，故其斜率为 $\\frac{b^{2}}{2ac}$. 由题设</p><p>$\\frac{b^{2}}{2ac}=\\frac{3}{4}$. 令 $e=\\frac{c}{a}$，并用 $b^{2}=a^{2}-c^{2}$，得 $1-e^{2}=\\frac{3}{2}e$，即 $2e^{2}+3e-2=0$. 因 $0&#x3C;e&#x3C;1$，所以 $e=\\frac{1}{2}$.</p></li><li><p>直线 $F_{1}M$ 在 $y$ 轴上的截距为 $2$，且 $F_{1}=(-c,0)$，故该直线斜率为 $\\frac{2}{c}$. 当 $x=c$ 时 $y=4$，所以 $M=(c,4)$，从椭圆方程得 $\\frac{c^{2}}{a^{2}}+\\frac{16}{b^{2}}=1$，即 $b^{2}=4a$. 在直线上取参数表示 $X(s)=(-c,0)+s(c,2)$，则 $F_{1}$ 对应 $s=0$，$M$ 对应 $s=2$. 因 $F_{1}$ 在椭圆内部，另一个交点 $N$ 对应的参数 $s_{N}&#x3C;0$. 由 $|MN|=5|F_{1}N|$ 得 $2-s_{N}=5(-s_{N})$，所以 $s_{N}=-\\frac{1}{2}$，从而 $N=(-\\frac{3c}{2},-1)$.</p><p>又 $c^{2}=a^{2}-b^{2}=a^{2}-4a$，将 $N$ 代入椭圆方程，得</p><p>$\\frac{9c^{2}}{4a^{2}}+\\frac{1}{b^{2}}=1$，即 $\\frac{9(a^{2}-4a)}{4a^{2}}+\\frac{1}{4a}=1$. 两边乘以 $4a^{2}$，得 $9a^{2}-36a+a=4a^{2}$，即 $5a(a-7)=0$. 由 $a>0$ 得 $a=7$，于是 $b^{2}=4a=28$，所以 $b=2\\sqrt{7}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆焦距的一半为 $c=\\sqrt{a^{2}-b^{2}}$，则 $F_{1}=(-c,0)$，$F_{2}=(c,0)$. 因为 $MF_{2}$ 垂直于 $x$ 轴，所以 $M$ 的横坐标为 $c$. 将 $x=c$ 代入椭圆方程，得 $y_{M}^{2}=b^{2}(1-\\frac{c^{2}}{a^{2}})=\\frac{b^{4}}{a^{2}}$. 题设斜率为正，故取 $M$ 在上半平面，即 $M=(c,\\frac{b^{2}}{a})$. 直线 $MN$ 与 $MF_{1}$ 是同一直线，故其斜率为 $\\frac{b^{2}}{2ac}$. 由题设</p><p>$\\frac{b^{2}}{2ac}=\\frac{3}{4}$. 令 $e=\\frac{c}{a}$，并用 $b^{2}=a^{2}-c^{2}$，得 $1-e^{2}=\\frac{3}{2}e$，即 $2e^{2}+3e-2=0$. 因 $0<e<1$，所以 $e=\\frac{1}{2}$.</p></li><li><p>直线 $F_{1}M$ 在 $y$ 轴上的截距为 $2$，且 $F_{1}=(-c,0)$，故该直线斜率为 $\\frac{2}{c}$. 当 $x=c$ 时 $y=4$，所以 $M=(c,4)$，从椭圆方程得 $\\frac{c^{2}}{a^{2}}+\\frac{16}{b^{2}}=1$，即 $b^{2}=4a$. 在直线上取参数表示 $X(s)=(-c,0)+s(c,2)$，则 $F_{1}$ 对应 $s=0$，$M$ 对应 $s=2$. 因 $F_{1}$ 在椭圆内部，另一个交点 $N$ 对应的参数 $s_{N}<0$. 由 $|MN|=5|F_{1}N|$ 得 $2-s_{N}=5(-s_{N})$，所以 $s_{N}=-\\frac{1}{2}$，从而 $N=(-\\frac{3c}{2},-1)$.</p><p>又 $c^{2}=a^{2}-b^{2}=a^{2}-4a$，将 $N$ 代入椭圆方程，得</p><p>$\\frac{9c^{2}}{4a^{2}}+\\frac{1}{b^{2}}=1$，即 $\\frac{9(a^{2}-4a)}{4a^{2}}+\\frac{1}{4a}=1$. 两边乘以 $4a^{2}$，得 $9a^{2}-36a+a=4a^{2}$，即 $5a(a-7)=0$. 由 $a>0$ 得 $a=7$，于是 $b^{2}=4a=28$，所以 $b=2\\sqrt{7}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "<p>已知函数 $f(x)=x^{3}-3x^{2}+ax+2$，曲线 $y=f(x)$ 在点 $(0,2)$ 处的切线与 $x$ 轴交点的横坐标为 $-2$.</p><ol class=\"enumerate\"><li><p>求 $a$；</p></li><li><p>证明：当 $k&#x3C;1$ 时，曲线 $y=f(x)$ 与直线 $y=kx-2$ 只有一个交点.</p></li></ol>",
+          "body": "<p>已知函数 $f(x)=x^{3}-3x^{2}+ax+2$，曲线 $y=f(x)$ 在点 $(0,2)$ 处的切线与 $x$ 轴交点的横坐标为 $-2$.</p><ol class=\"enumerate\"><li><p>求 $a$；</p></li><li><p>证明：当 $k<1$ 时，曲线 $y=f(x)$ 与直线 $y=kx-2$ 只有一个交点.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-6x+a$，所以曲线在 $(0,2)$ 处的切线方程为 $y-2=ax$. 它与 $x$ 轴交点的横坐标为 $-2$，故 $0-2=-2a$，从而 $a=1$.</p></li><li><p>代入 $a=1$，交点的横坐标满足</p><p>$x^{3}-3x^{2}+x+2=kx-2$，即 $g(x)=x^{3}-3x^{2}+(1-k)x+4=0$.</p><p>当 $k\\le-2$ 时，$g'(x)=3(x-1)^{2}-(k+2)\\geqslant0$，且至多在孤立点 $x=1$ 处为零，故 $g$ 严格递增. 又 $g$ 从负无穷趋于正无穷，所以 $g(x)=0$ 只有一个实根.</p><p>当 $-2&#x3C;k&#x3C;1$ 时，令 $r=\\sqrt{\\frac{k+2}{3}}$，则 $0&#x3C;r&#x3C;1$，且 $k=3r^{2}-2$. 此时 $g'(x)=0$ 的两个根为 $1-r$、$1+r$，其中 $1+r$ 是极小值点. 将 $x=1+s$ 代入并利用 $k=3r^{2}-2$，得 $g(1+s)=5-3r^{2}-3r^{2}s+s^{3}$. 所以</p><p>$g(1+r)=5-3r^{2}-2r^{3}=(1-r)(2r^{2}+5r+5)>0$.</p><p>极小值仍为正，且 $g(x)\\to-\\infty$（$x\\to-\\infty$），$g(x)\\to+\\infty$（$x\\to+\\infty$），故方程只有极小值点左侧的一个实根. 两种情形均表明交点只有一个.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-6x+a$，所以曲线在 $(0,2)$ 处的切线方程为 $y-2=ax$. 它与 $x$ 轴交点的横坐标为 $-2$，故 $0-2=-2a$，从而 $a=1$.</p></li><li><p>代入 $a=1$，交点的横坐标满足</p><p>$x^{3}-3x^{2}+x+2=kx-2$，即 $g(x)=x^{3}-3x^{2}+(1-k)x+4=0$.</p><p>当 $k\\le-2$ 时，$g'(x)=3(x-1)^{2}-(k+2)\\geqslant0$，且至多在孤立点 $x=1$ 处为零，故 $g$ 严格递增. 又 $g$ 从负无穷趋于正无穷，所以 $g(x)=0$ 只有一个实根.</p><p>当 $-2<k<1$ 时，令 $r=\\sqrt{\\frac{k+2}{3}}$，则 $0<r<1$，且 $k=3r^{2}-2$. 此时 $g'(x)=0$ 的两个根为 $1-r$、$1+r$，其中 $1+r$ 是极小值点. 将 $x=1+s$ 代入并利用 $k=3r^{2}-2$，得 $g(1+s)=5-3r^{2}-3r^{2}s+s^{3}$. 所以</p><p>$g(1+r)=5-3r^{2}-2r^{3}=(1-r)(2r^{2}+5r+5)>0$.</p><p>极小值仍为正，且 $g(x)\\to-\\infty$（$x\\to-\\infty$），$g(x)\\to+\\infty$（$x\\to+\\infty$），故方程只有极小值点左侧的一个实根. 两种情形均表明交点只有一个.</p></li></ol>"
         },
         {
           "num": 22,
@@ -240,10 +240,10 @@
         },
         {
           "num": 24,
-          "body": "<p>设函数 $f(x)=\\left|x+\\frac{1}{a}\\right|+\\left|x-a\\right|$（$a>0$）.</p><ol class=\"enumerate\"><li><p>证明：$f(x)\\ge 2$；</p></li><li><p>若 $f(3)&#x3C;5$，求 $a$ 的取值范围.</p></li></ol>",
+          "body": "<p>设函数 $f(x)=\\left|x+\\frac{1}{a}\\right|+\\left|x-a\\right|$（$a>0$）.</p><ol class=\"enumerate\"><li><p>证明：$f(x)\\ge 2$；</p></li><li><p>若 $f(3)<5$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由三角不等式和基本不等式，得</p><p>$f(x)=\\left|x+\\frac{1}{a}\\right|+|x-a|\\ge\\left|\\left(x+\\frac{1}{a}\\right)-(x-a)\\right|=a+\\frac{1}{a}\\geqslant2$.</p></li><li><p>因 $a>0$，且 $3+\\frac{1}{a}>0$，分 $0&#x3C;a\\leqslant3$ 与 $a>3$ 讨论.</p><p>当 $0&#x3C;a\\leqslant3$ 时，$f(3)=3+\\frac{1}{a}+3-a=6+\\frac{1}{a}-a&#x3C;5$，所以 $a^{2}-a-1>0$，结合 $a>0$ 得 $a>\\frac{1+\\sqrt{5}}{2}$.</p><p>当 $a>3$ 时，$f(3)=3+\\frac{1}{a}+a-3=a+\\frac{1}{a}&#x3C;5$，所以 $a^{2}-5a+1&#x3C;0$，即 $\\frac{5-\\sqrt{21}}{2}&#x3C;a&#x3C;\\frac{5+\\sqrt{21}}{2}$. 与 $a>3$ 合并，得到 $3&#x3C;a&#x3C;\\frac{5+\\sqrt{21}}{2}$.</p><p>综合两种情形，$a$ 的取值范围为 $\\displaystyle\\frac{1+\\sqrt{5}}{2}&#x3C;a&#x3C;\\frac{5+\\sqrt{21}}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由三角不等式和基本不等式，得</p><p>$f(x)=\\left|x+\\frac{1}{a}\\right|+|x-a|\\ge\\left|\\left(x+\\frac{1}{a}\\right)-(x-a)\\right|=a+\\frac{1}{a}\\geqslant2$.</p></li><li><p>因 $a>0$，且 $3+\\frac{1}{a}>0$，分 $0<a\\leqslant3$ 与 $a>3$ 讨论.</p><p>当 $0<a\\leqslant3$ 时，$f(3)=3+\\frac{1}{a}+3-a=6+\\frac{1}{a}-a<5$，所以 $a^{2}-a-1>0$，结合 $a>0$ 得 $a>\\frac{1+\\sqrt{5}}{2}$.</p><p>当 $a>3$ 时，$f(3)=3+\\frac{1}{a}+a-3=a+\\frac{1}{a}<5$，所以 $a^{2}-5a+1<0$，即 $\\frac{5-\\sqrt{21}}{2}<a<\\frac{5+\\sqrt{21}}{2}$. 与 $a>3$ 合并，得到 $3<a<\\frac{5+\\sqrt{21}}{2}$.</p><p>综合两种情形，$a$ 的取值范围为 $\\displaystyle\\frac{1+\\sqrt{5}}{2}<a<\\frac{5+\\sqrt{21}}{2}$.</p></li></ol>"
         }
       ]
     }

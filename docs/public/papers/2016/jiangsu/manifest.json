@@ -9,10 +9,10 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{-1,2,3,6\\}$，$B=\\{x\\mid -2&#x3C;x&#x3C;3\\}$，则 $A\\cap B=\\underline{\\hspace{2.5em}}{}$.",
+          "body": "已知集合 $A=\\{-1,2,3,6\\}$，$B=\\{x\\mid -2<x<3\\}$，则 $A\\cap B=\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$\\{-1,2\\}$",
-          "solution": "交集中的元素必须同时属于 $A$ 和 $B$. 集合 $A$ 中，满足 $-2&#x3C;x&#x3C;3$ 的元素只有 $-1$ 和 $2$，而 $3$ 不满足严格不等式，因此 $A\\cap B=\\{-1,2\\}$."
+          "solution": "交集中的元素必须同时属于 $A$ 和 $B$. 集合 $A$ 中，满足 $-2<x<3$ 的元素只有 $-1$ 和 $2$，而 $3$ 不满足严格不等式，因此 $A\\cap B=\\{-1,2\\}$."
         },
         {
           "num": 2,
@@ -79,7 +79,7 @@
         },
         {
           "num": 11,
-          "body": "<p>设 $f(x)$ 是定义在 $\\mathbb{R}$ 上且周期为 $2$ 的函数. 在区间 $[-1,1)$ 上，</p><p>$f(x)=  \\begin{cases}x+a,&#x26;-1\\le x&#x3C;0,\\\\\n\n\\left|\\dfrac{2}{5}-x\\right|,&#x26;0\\le x&#x3C;1,\\end{cases}$</p><p>其中 $a\\in\\mathbb{R}$. 若 $f\\left(-\\dfrac{5}{2}\\right)=f\\left(\\dfrac{9}{2}\\right)$，则 $f(5a)$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "body": "<p>设 $f(x)$ 是定义在 $\\mathbb{R}$ 上且周期为 $2$ 的函数. 在区间 $[-1,1)$ 上，</p><p>$f(x)=  \\begin{cases}x+a,&-1\\le x<0,\\\\\n\n\\left|\\dfrac{2}{5}-x\\right|,&0\\le x<1,\\end{cases}$</p><p>其中 $a\\in\\mathbb{R}$. 若 $f\\left(-\\dfrac{5}{2}\\right)=f\\left(\\dfrac{9}{2}\\right)$，则 $f(5a)$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
           "choices": null,
           "answer": "$-\\dfrac{2}{5}$",
           "solution": "<p>由周期为 $2$，有 $f\\left(-\\dfrac{5}{2}\\right)=f\\left(-\\dfrac{1}{2}\\right)$，$f\\left(\\dfrac{9}{2}\\right)=f\\left(\\dfrac{1}{2}\\right)$. 因而</p>\n$$\n-\\dfrac{1}{2}+a=\\left|\\dfrac{2}{5}-\\dfrac{1}{2}\\right|=\\dfrac1{10}\n$$\n<p>解得 $a=\\dfrac{3}{5}$. 又 $5a=3$，且 $3$ 与 $-1$ 相差 $4$，所以 $f(5a)=f(3)=f(-1)=-1+a=-\\dfrac{2}{5}$.</p>"
@@ -103,7 +103,7 @@
           "body": "在锐角三角形 $ABC$ 中，若 $\\sin A=2\\sin B\\sin C$，则 $\\tan A\\tan B\\tan C$ 的最小值是 $\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$8$",
-          "solution": "<p>由 $A+B+C=\\pi$，得 $\\sin A=\\sin(B+C)$. 结合题设并除以正数 $\\sin B\\sin C$，得到</p>\n$$\n\\cot B+\\cot C=2\n$$\n<p>令 $u=\\cot B$，$v=\\cot C$，则 $u>0$，$v>0$，且 $u+v=2$. 由</p>\n$$\n\\cot A=-\\cot(B+C)=\\dfrac{1-uv}{2}\n$$\n<p>以及 $A$ 为锐角，知 $0&#x3C;uv&#x3C;1$. 因而</p>\n$$\n\\tan A\\tan B\\tan C=\\dfrac{1}{uv\\cot A}=\\dfrac{2}{uv(1-uv)}\n$$\n<p>对 $0&#x3C;uv&#x3C;1$，有 $uv(1-uv)\\le\\dfrac{1}{4}$，所以 $\\tan A\\tan B\\tan C\\ge8$. 当 $uv=\\dfrac{1}{2}$ 时等号成立；此时可取 $u=1+\\dfrac{\\sqrt{2}}{2}$，$v=1-\\dfrac{\\sqrt{2}}{2}$，对应的 $B$，$C$，$A$ 均为锐角. 因此最小值为 $8$.</p>"
+          "solution": "<p>由 $A+B+C=\\pi$，得 $\\sin A=\\sin(B+C)$. 结合题设并除以正数 $\\sin B\\sin C$，得到</p>\n$$\n\\cot B+\\cot C=2\n$$\n<p>令 $u=\\cot B$，$v=\\cot C$，则 $u>0$，$v>0$，且 $u+v=2$. 由</p>\n$$\n\\cot A=-\\cot(B+C)=\\dfrac{1-uv}{2}\n$$\n<p>以及 $A$ 为锐角，知 $0<uv<1$. 因而</p>\n$$\n\\tan A\\tan B\\tan C=\\dfrac{1}{uv\\cot A}=\\dfrac{2}{uv(1-uv)}\n$$\n<p>对 $0<uv<1$，有 $uv(1-uv)\\le\\dfrac{1}{4}$，所以 $\\tan A\\tan B\\tan C\\ge8$. 当 $uv=\\dfrac{1}{2}$ 时等号成立；此时可取 $u=1+\\dfrac{\\sqrt{2}}{2}$，$v=1-\\dfrac{\\sqrt{2}}{2}$，对应的 $B$，$C$，$A$ 均为锐角. 因此最小值为 $8$.</p>"
         }
       ]
     },
@@ -129,28 +129,28 @@
           "body": "<p>现需要设计一个仓库，它由上下两部分组成，上部的形状是正四棱锥 $P-A_{1}B_{1}C_{1}D_{1}$，下部的形状是正四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$（如图所示），并要求正四棱柱的高 $O_{1}O$ 是正四棱锥的高 $PO_{1}$ 的 $4$ 倍.</p><ol class=\"enumerate\"><li><p>若 $AB=6\\text{ m}$，$PO_{1}=2\\text{ m}$，则仓库的容积是多少？</p></li><li><p>若正四棱锥的侧棱长为 $6\\text{ m}$，则当 $PO_{1}$ 为多少时，仓库的容积最大？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>正四棱柱的高为 $O_{1}O=4PO_{1}=8 \\mathrm{~m}$，所以正四棱柱的容积为 $6^{2}\\cdot8=288 \\mathrm{~m}^{3}$. 正四棱锥的容积为 $\\dfrac{1}{3}\\cdot6^{2}\\cdot2=24 \\mathrm{~m}^{3}$，故仓库的容积为 $288+24=312 \\mathrm{~m}^{3}$.</p></li><li><p>设 $PO_{1}=x \\mathrm{~m}$，正四棱柱的底面边长为 $s \\mathrm{~m}$. 正四棱锥的底面中心为 $O_{1}$，所以 $PA_{1}^{2}=PO_{1}^{2}+O_{1}A_{1}^{2}=x^{2}+\\dfrac{s^2}{2}=36$，从而 $s^{2}=2(36-x^{2})$，且 $0&#x3C;x&#x3C;6$. 仓库的容积为 $V=4xs^{2}+\\dfrac{1}{3}xs^{2}=\\dfrac{13}{3}x\\cdot2(36-x^{2})=\\dfrac{26}{3}x(36-x^{2})$. 于是 $V'(x)=\\dfrac{26}{3}(36-3x^{2})$. 当 $0&#x3C;x&#x3C;2\\sqrt{3}$ 时 $V'(x)>0$，当 $2\\sqrt{3}&#x3C;x&#x3C;6$ 时 $V'(x)&#x3C;0$，所以 $V$ 在 $x=2\\sqrt{3}$ 处取得最大值，即当 $PO_{1}=2\\sqrt{3}\\mathrm{~m}$ 时，仓库的容积最大.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>正四棱柱的高为 $O_{1}O=4PO_{1}=8 \\mathrm{~m}$，所以正四棱柱的容积为 $6^{2}\\cdot8=288 \\mathrm{~m}^{3}$. 正四棱锥的容积为 $\\dfrac{1}{3}\\cdot6^{2}\\cdot2=24 \\mathrm{~m}^{3}$，故仓库的容积为 $288+24=312 \\mathrm{~m}^{3}$.</p></li><li><p>设 $PO_{1}=x \\mathrm{~m}$，正四棱柱的底面边长为 $s \\mathrm{~m}$. 正四棱锥的底面中心为 $O_{1}$，所以 $PA_{1}^{2}=PO_{1}^{2}+O_{1}A_{1}^{2}=x^{2}+\\dfrac{s^2}{2}=36$，从而 $s^{2}=2(36-x^{2})$，且 $0<x<6$. 仓库的容积为 $V=4xs^{2}+\\dfrac{1}{3}xs^{2}=\\dfrac{13}{3}x\\cdot2(36-x^{2})=\\dfrac{26}{3}x(36-x^{2})$. 于是 $V'(x)=\\dfrac{26}{3}(36-3x^{2})$. 当 $0<x<2\\sqrt{3}$ 时 $V'(x)>0$，当 $2\\sqrt{3}<x<6$ 时 $V'(x)<0$，所以 $V$ 在 $x=2\\sqrt{3}$ 处取得最大值，即当 $PO_{1}=2\\sqrt{3}\\mathrm{~m}$ 时，仓库的容积最大.</p></li></ol>"
         },
         {
           "num": 18,
           "body": "<p>如图，在平面直角坐标系 $xOy$ 中，已知以 $M$ 为圆心的圆 $M:x^{2}+y^{2}-12x-14y+60=0$ 及其上一点 $A(2,4)$.</p><ol class=\"enumerate\"><li><p>设圆 $N$ 与 $x$ 轴相切，与圆 $M$ 外切，且圆心 $N$ 在直线 $x=6$ 上，求圆 $N$ 的标准方程；</p></li><li><p>设平行于 $OA$ 的直线 $l$ 与圆 $M$ 相交于 $B$，$C$ 两点，且 $BC=OA$，求直线 $l$ 的方程；</p></li><li><p>设点 $T(t,0)$ 满足：存在圆 $M$ 上的两点 $P$ 和 $Q$，使得 $\\overrightarrow{TA}+\\overrightarrow{TP}=\\overrightarrow{TQ}$，求实数 $t$ 的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将圆 $M$ 的方程配方，得 $(x-6)^{2}+(y-7)^{2}=25$，所以圆 $M$ 的圆心为 $M(6,7)$，半径为 $5$. 设圆 $N$ 的圆心为 $N(6,u)$，由于圆 $N$ 与 $x$ 轴相切，半径为 $|u|$. 两圆外切给出 $|u-7|=5+|u|$. 当 $u\\ge0$ 时，只有 $u=1$ 满足此式；当 $u&#x3C;0$ 时等式无解. 因此圆 $N$ 的圆心为 $(6,1)$，半径为 $1$，标准方程为 $(x-6)^{2}+(y-1)^{2}=1$.</p></li><li><p>因为 $OA$ 的斜率为 $2$，所以直线 $l$ 可设为 $2x-y+c=0$. 又 $OA=\\sqrt{2^{2}+4^{2}}=2\\sqrt{5}$. 设圆心 $M$ 到直线 $l$ 的距离为 $d$，则弦 $BC$ 的长满足 $BC=2\\sqrt{5^{2}-d^{2}}$. 由 $BC=OA=2\\sqrt{5}$，得 $d=2\\sqrt{5}$. 于是 $\\dfrac{|2\\cdot6-7+c|}{\\sqrt{5}}=2\\sqrt{5}$，即 $|5+c|=10$，所以 $c=5$ 或 $c=-15$. 因此直线 $l$ 的方程为 $2x-y+5=0$ 或 $2x-y-15=0$.</p></li><li><p>由 $\\overrightarrow{TA}+\\overrightarrow{TP}=\\overrightarrow{TQ}$，得 $Q=A+P-T$，所以 $\\overrightarrow{PQ}=\\overrightarrow{TA}$. 因为 $P$，$Q$ 是同一圆上的两点，弦 $PQ$ 的长不超过直径 $10$，故 $TA^{2}=(t-2)^{2}+4^{2}\\le100$. 这等价于 $(t-2)^{2}\\le84$，即 $2-2\\sqrt{21}\\le t\\le2+2\\sqrt{21}$. 反之，设 $d=TA\\le10$. 当 $d>0$ 时，取单位向量 $\\mathbf{e}$ 与 $\\overrightarrow{TA}$ 同向，再取垂直于 $\\mathbf{e}$ 且长度为 $\\sqrt{25-\\dfrac{d^2}{4}}$ 的向量 $\\mathbf{w}$，令 $P=M-\\dfrac{d}{2}\\mathbf{e}+\\mathbf{w}$，$Q=M+\\dfrac{d}{2}\\mathbf{e}+\\mathbf{w}$，则 $MP^{2}=MQ^{2}=25$，且 $\\overrightarrow{PQ}=d\\mathbf{e}=\\overrightarrow{TA}$. 当 $d=0$ 时取圆 $M$ 上任意一点为 $P=Q$. 因此该不等式也充分，$t$ 的取值范围为 $\\left[2-2\\sqrt{21},2+2\\sqrt{21}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将圆 $M$ 的方程配方，得 $(x-6)^{2}+(y-7)^{2}=25$，所以圆 $M$ 的圆心为 $M(6,7)$，半径为 $5$. 设圆 $N$ 的圆心为 $N(6,u)$，由于圆 $N$ 与 $x$ 轴相切，半径为 $|u|$. 两圆外切给出 $|u-7|=5+|u|$. 当 $u\\ge0$ 时，只有 $u=1$ 满足此式；当 $u<0$ 时等式无解. 因此圆 $N$ 的圆心为 $(6,1)$，半径为 $1$，标准方程为 $(x-6)^{2}+(y-1)^{2}=1$.</p></li><li><p>因为 $OA$ 的斜率为 $2$，所以直线 $l$ 可设为 $2x-y+c=0$. 又 $OA=\\sqrt{2^{2}+4^{2}}=2\\sqrt{5}$. 设圆心 $M$ 到直线 $l$ 的距离为 $d$，则弦 $BC$ 的长满足 $BC=2\\sqrt{5^{2}-d^{2}}$. 由 $BC=OA=2\\sqrt{5}$，得 $d=2\\sqrt{5}$. 于是 $\\dfrac{|2\\cdot6-7+c|}{\\sqrt{5}}=2\\sqrt{5}$，即 $|5+c|=10$，所以 $c=5$ 或 $c=-15$. 因此直线 $l$ 的方程为 $2x-y+5=0$ 或 $2x-y-15=0$.</p></li><li><p>由 $\\overrightarrow{TA}+\\overrightarrow{TP}=\\overrightarrow{TQ}$，得 $Q=A+P-T$，所以 $\\overrightarrow{PQ}=\\overrightarrow{TA}$. 因为 $P$，$Q$ 是同一圆上的两点，弦 $PQ$ 的长不超过直径 $10$，故 $TA^{2}=(t-2)^{2}+4^{2}\\le100$. 这等价于 $(t-2)^{2}\\le84$，即 $2-2\\sqrt{21}\\le t\\le2+2\\sqrt{21}$. 反之，设 $d=TA\\le10$. 当 $d>0$ 时，取单位向量 $\\mathbf{e}$ 与 $\\overrightarrow{TA}$ 同向，再取垂直于 $\\mathbf{e}$ 且长度为 $\\sqrt{25-\\dfrac{d^2}{4}}$ 的向量 $\\mathbf{w}$，令 $P=M-\\dfrac{d}{2}\\mathbf{e}+\\mathbf{w}$，$Q=M+\\dfrac{d}{2}\\mathbf{e}+\\mathbf{w}$，则 $MP^{2}=MQ^{2}=25$，且 $\\overrightarrow{PQ}=d\\mathbf{e}=\\overrightarrow{TA}$. 当 $d=0$ 时取圆 $M$ 上任意一点为 $P=Q$. 因此该不等式也充分，$t$ 的取值范围为 $\\left[2-2\\sqrt{21},2+2\\sqrt{21}\\right]$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "<p>已知函数 $f(x)=a^{x}+b^{x}$（$a>0$，$b>0$，$a\\ne1$，$b\\ne1$）.</p><ol class=\"enumerate\"><li><p>设 $a=2$，$b=\\dfrac{1}{2}$.</p><p></p><ol class=\"enumerate\"><li><p>求方程 $f(x)=2$ 的根；</p></li><li><p>若对于任意 $x\\in\\mathbb{R}$，不等式 $f(2x)\\ge mf(x)-6$ 恒成立，求实数 $m$ 的最大值；</p></li></ol><p></p></li><li><p>若 $0&#x3C;a&#x3C;1$，$b>1$，函数 $g(x)=f(x)-2$ 有且只有 $1$ 个零点，求 $ab$ 的值.</p></li></ol>",
+          "body": "<p>已知函数 $f(x)=a^{x}+b^{x}$（$a>0$，$b>0$，$a\\ne1$，$b\\ne1$）.</p><ol class=\"enumerate\"><li><p>设 $a=2$，$b=\\dfrac{1}{2}$.</p><p></p><ol class=\"enumerate\"><li><p>求方程 $f(x)=2$ 的根；</p></li><li><p>若对于任意 $x\\in\\mathbb{R}$，不等式 $f(2x)\\ge mf(x)-6$ 恒成立，求实数 $m$ 的最大值；</p></li></ol><p></p></li><li><p>若 $0<a<1$，$b>1$，函数 $g(x)=f(x)-2$ 有且只有 $1$ 个零点，求 $ab$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p></p><ol class=\"enumerate\"><li><p>令 $u=2^{x}>0$，则方程 $f(x)=2$ 化为 $u+\\dfrac{1}{u}=2$，即 $(u-1)^{2}=0$. 所以 $u=1$，从而 $x=0$.</p></li><li><p>令 $t=f(x)=2^{x}+2^{-x}$. 由均值不等式，$t\\ge2$. 又因 $u=2^{x}$ 可取遍正数，且对任意 $t\\ge2$，方程 $u^{2}-tu+1=0$ 有正根 $u=\\dfrac{t+\\sqrt{t^{2}-4}}2$，所以当 $x$ 取遍 $\\mathbb{R}$ 时，$t$ 的取值恰为 $[2,+\\infty)$. 另外 $f(2x)=4^{x}+4^{-x}=t^{2}-2$. 原不等式等价于 $t^{2}-mt+4\\ge0$ 对一切 $t\\ge2$ 成立. 取 $t=2$ 可得 $4-2m+4\\ge0$，所以 $m\\le4$. 当 $m=4$ 时，左边为 $t^{2}-4t+4=(t-2)^{2}\\ge0$，恒成立. 因此 $m$ 的最大值为 $4$.</p></li></ol><p></p></li><li><p>令 $p=\\ln a&#x3C;0$，$q=\\ln b>0$，则 $f(x)=\\mathrm{e}^{px}+\\mathrm{e}^{qx}$，且 $f(0)=2$，所以 $x=0$ 总是 $g(x)=0$ 的一个零点. 又 $f''(x)=p^{2}\\mathrm{e}^{px}+q^{2}\\mathrm{e}^{qx}>0$，故 $f$ 严格凸；并且当 $x\\to\\pm\\infty$ 时 $f(x)\\to+\\infty$. 若 $p+q>0$，则 $f'(0)>0$，因此在 $0$ 左侧足够接近 $0$ 处有 $f(x)&#x3C;f(0)=2$；结合 $x\\to-\\infty$ 时 $f(x)\\to+\\infty$，由连续性可知还存在一个负零点. 若 $p+q&#x3C;0$，则 $f'(0)&#x3C;0$，因此在 $0$ 右侧足够接近 $0$ 处有 $f(x)&#x3C;f(0)=2$；结合 $x\\to+\\infty$ 时 $f(x)\\to+\\infty$，由连续性可知还存在一个正零点. 因此 $g$ 只有一个零点时必须 $p+q=0$，即 $\\ln(ab)=0$，从而 $ab=1$. 反之，若 $p+q=0$，则 $q=-p>0$，并且</p>\n$$\nf(x)=\\mathrm{e}^{px}+\\mathrm{e}^{-px}\\ge2\\sqrt{\\mathrm{e}^{px}\\mathrm{e}^{-px}}=2\n$$\n<p>等号成立当且仅当 $\\mathrm{e}^{px}=\\mathrm{e}^{-px}$，即 $x=0$. 所以 $g$ 确有且只有一个零点.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p></p><ol class=\"enumerate\"><li><p>令 $u=2^{x}>0$，则方程 $f(x)=2$ 化为 $u+\\dfrac{1}{u}=2$，即 $(u-1)^{2}=0$. 所以 $u=1$，从而 $x=0$.</p></li><li><p>令 $t=f(x)=2^{x}+2^{-x}$. 由均值不等式，$t\\ge2$. 又因 $u=2^{x}$ 可取遍正数，且对任意 $t\\ge2$，方程 $u^{2}-tu+1=0$ 有正根 $u=\\dfrac{t+\\sqrt{t^{2}-4}}2$，所以当 $x$ 取遍 $\\mathbb{R}$ 时，$t$ 的取值恰为 $[2,+\\infty)$. 另外 $f(2x)=4^{x}+4^{-x}=t^{2}-2$. 原不等式等价于 $t^{2}-mt+4\\ge0$ 对一切 $t\\ge2$ 成立. 取 $t=2$ 可得 $4-2m+4\\ge0$，所以 $m\\le4$. 当 $m=4$ 时，左边为 $t^{2}-4t+4=(t-2)^{2}\\ge0$，恒成立. 因此 $m$ 的最大值为 $4$.</p></li></ol><p></p></li><li><p>令 $p=\\ln a<0$，$q=\\ln b>0$，则 $f(x)=\\mathrm{e}^{px}+\\mathrm{e}^{qx}$，且 $f(0)=2$，所以 $x=0$ 总是 $g(x)=0$ 的一个零点. 又 $f''(x)=p^{2}\\mathrm{e}^{px}+q^{2}\\mathrm{e}^{qx}>0$，故 $f$ 严格凸；并且当 $x\\to\\pm\\infty$ 时 $f(x)\\to+\\infty$. 若 $p+q>0$，则 $f'(0)>0$，因此在 $0$ 左侧足够接近 $0$ 处有 $f(x)<f(0)=2$；结合 $x\\to-\\infty$ 时 $f(x)\\to+\\infty$，由连续性可知还存在一个负零点. 若 $p+q<0$，则 $f'(0)<0$，因此在 $0$ 右侧足够接近 $0$ 处有 $f(x)<f(0)=2$；结合 $x\\to+\\infty$ 时 $f(x)\\to+\\infty$，由连续性可知还存在一个正零点. 因此 $g$ 只有一个零点时必须 $p+q=0$，即 $\\ln(ab)=0$，从而 $ab=1$. 反之，若 $p+q=0$，则 $q=-p>0$，并且</p>\n$$\nf(x)=\\mathrm{e}^{px}+\\mathrm{e}^{-px}\\ge2\\sqrt{\\mathrm{e}^{px}\\mathrm{e}^{-px}}=2\n$$\n<p>等号成立当且仅当 $\\mathrm{e}^{px}=\\mathrm{e}^{-px}$，即 $x=0$. 所以 $g$ 确有且只有一个零点.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "<p>记 $U=\\{1,2,\\cdots,100\\}$. 对数列 $\\{a_{n}\\}$（$n\\in\\mathbb{N}^{*}$）和 $U$ 的子集 $T$，若 $T=\\varnothing$，定义 $S_{T}=0$；若 $T=\\{t_{1},t_{2},\\cdots,t_{k}\\}$，定义 $S_{T}=a_{t_1}+a_{t_2}+\\cdots+a_{t_k}$. 例如：$T=\\{1,3,66\\}$ 时，$S_{T}=a_{1}+a_{3}+a_{66}$. 现设 $\\{a_{n}\\}$（$n\\in\\mathbb{N}^{*}$）是公比为 $3$ 的等比数列，且当 $T=\\{2,4\\}$ 时，$S_{T}=30$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>对任意正整数 $k$（$1\\le k\\le100$），若 $T\\subseteq\\{1,2,\\cdots,k\\}$，求证：$S_{T}&#x3C;a_{k+1}$；</p></li><li><p>设 $C\\subseteq U$，$D\\subseteq U$，$S_{C}\\ge S_{D}$，求证：$S_{C}+S_{C\\cap D}\\ge2S_{D}$.</p></li></ol>",
+          "body": "<p>记 $U=\\{1,2,\\cdots,100\\}$. 对数列 $\\{a_{n}\\}$（$n\\in\\mathbb{N}^{*}$）和 $U$ 的子集 $T$，若 $T=\\varnothing$，定义 $S_{T}=0$；若 $T=\\{t_{1},t_{2},\\cdots,t_{k}\\}$，定义 $S_{T}=a_{t_1}+a_{t_2}+\\cdots+a_{t_k}$. 例如：$T=\\{1,3,66\\}$ 时，$S_{T}=a_{1}+a_{3}+a_{66}$. 现设 $\\{a_{n}\\}$（$n\\in\\mathbb{N}^{*}$）是公比为 $3$ 的等比数列，且当 $T=\\{2,4\\}$ 时，$S_{T}=30$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>对任意正整数 $k$（$1\\le k\\le100$），若 $T\\subseteq\\{1,2,\\cdots,k\\}$，求证：$S_{T}<a_{k+1}$；</p></li><li><p>设 $C\\subseteq U$，$D\\subseteq U$，$S_{C}\\ge S_{D}$，求证：$S_{C}+S_{C\\cap D}\\ge2S_{D}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $a_{1}=a$. 由 $a_{2}+a_{4}=30$ 及公比为 $3$，得 $3a+27a=30$，所以 $a_{1}=1$. 因此数列的通项公式为 $a_{n}=3^{n-1}$.</p></li><li><p>因为各项 $a_{n}$ 均为正数，且 $T\\subseteq\\{1,2,\\ldots,k\\}$，所以 $S_{T}\\le a_{1}+a_{2}+\\cdots+a_{k}=\\dfrac{3^k-1}{3-1}=\\dfrac{3^k-1}{2}&#x3C;3^{k}=a_{k+1}$，得证.</p></li><li><p>若 $C=D$，则 $C\\cap D=C=D$，从而 $S_{C}+S_{C\\cap D}=S_{C}+S_{C}=2S_{D}$. 以下设 $C\\ne D$，记 $X=C\\mathbin{\\backslash}D$，$Y=D\\mathbin{\\backslash}C$，并令 $r$ 为 $X\\cup Y$ 中的最大元素. 由 $S_{C}\\ge S_{D}$ 可知 $r\\in X$，否则 $r\\in Y$ 时，$a_{r}=3^{r-1}$ 大于 $1$ 到 $r-1$ 项的和 $\\dfrac{3^{r-1}-1}{2}$，将有 $S_{Y}>S_{X}$，进而 $S_{D}>S_{C}$，矛盾. 于是 $S_{X}\\ge a_{r}=3^{r-1}$，而 $Y\\subseteq\\{1,2,\\ldots,r-1\\}$，故 $2S_{Y}\\le2(a_{1}+\\cdots+a_{r-1})=3^{r-1}-1&#x3C;S_{X}$. 又 $S_{C}=S_{C\\cap D}+S_{X}$，$S_{D}=S_{C\\cap D}+S_{Y}$，所以 $S_{C}+S_{C\\cap D}-2S_{D}=S_{X}-2S_{Y}\\ge0$，得证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $a_{1}=a$. 由 $a_{2}+a_{4}=30$ 及公比为 $3$，得 $3a+27a=30$，所以 $a_{1}=1$. 因此数列的通项公式为 $a_{n}=3^{n-1}$.</p></li><li><p>因为各项 $a_{n}$ 均为正数，且 $T\\subseteq\\{1,2,\\ldots,k\\}$，所以 $S_{T}\\le a_{1}+a_{2}+\\cdots+a_{k}=\\dfrac{3^k-1}{3-1}=\\dfrac{3^k-1}{2}<3^{k}=a_{k+1}$，得证.</p></li><li><p>若 $C=D$，则 $C\\cap D=C=D$，从而 $S_{C}+S_{C\\cap D}=S_{C}+S_{C}=2S_{D}$. 以下设 $C\\ne D$，记 $X=C\\mathbin{\\backslash}D$，$Y=D\\mathbin{\\backslash}C$，并令 $r$ 为 $X\\cup Y$ 中的最大元素. 由 $S_{C}\\ge S_{D}$ 可知 $r\\in X$，否则 $r\\in Y$ 时，$a_{r}=3^{r-1}$ 大于 $1$ 到 $r-1$ 项的和 $\\dfrac{3^{r-1}-1}{2}$，将有 $S_{Y}>S_{X}$，进而 $S_{D}>S_{C}$，矛盾. 于是 $S_{X}\\ge a_{r}=3^{r-1}$，而 $Y\\subseteq\\{1,2,\\ldots,r-1\\}$，故 $2S_{Y}\\le2(a_{1}+\\cdots+a_{r-1})=3^{r-1}-1<S_{X}$. 又 $S_{C}=S_{C\\cap D}+S_{X}$，$S_{D}=S_{C\\cap D}+S_{Y}$，所以 $S_{C}+S_{C\\cap D}-2S_{D}=S_{X}-2S_{Y}\\ge0$，得证.</p></li></ol>"
         }
       ]
     },
@@ -166,10 +166,10 @@
         },
         {
           "num": 22,
-          "body": "已知矩阵 $A=\\begin{bmatrix}1&#x26;2\\\\0&#x26;-2\\end{bmatrix}$，矩阵 $B$ 的逆矩阵 $B^{-1}=\\begin{bmatrix}1&#x26;-\\dfrac{1}{2}\\\\0&#x26;2\\end{bmatrix}$，求矩阵 $AB$.",
+          "body": "已知矩阵 $A=\\begin{bmatrix}1&2\\\\0&-2\\end{bmatrix}$，矩阵 $B$ 的逆矩阵 $B^{-1}=\\begin{bmatrix}1&-\\dfrac{1}{2}\\\\0&2\\end{bmatrix}$，求矩阵 $AB$.",
           "choices": null,
           "answer": "",
-          "solution": "由 $B^{-1}=\\begin{bmatrix}1&#x26;-\\dfrac{1}{2}\\\\0&#x26;2\\end{bmatrix}$，得 $B=(B^{-1})^{-1}=\\begin{bmatrix}1&#x26;\\dfrac{1}{4}\\\\0&#x26;\\dfrac{1}{2}\\end{bmatrix}$. 因此 $AB=\\begin{bmatrix}1&#x26;2\\\\0&#x26;-2\\end{bmatrix}\\begin{bmatrix}1&#x26;\\dfrac{1}{4}\\\\0&#x26;\\dfrac{1}{2}\\end{bmatrix}=\\begin{bmatrix}1&#x26;\\dfrac{5}{4}\\\\0&#x26;-1\\end{bmatrix}$."
+          "solution": "由 $B^{-1}=\\begin{bmatrix}1&-\\dfrac{1}{2}\\\\0&2\\end{bmatrix}$，得 $B=(B^{-1})^{-1}=\\begin{bmatrix}1&\\dfrac{1}{4}\\\\0&\\dfrac{1}{2}\\end{bmatrix}$. 因此 $AB=\\begin{bmatrix}1&2\\\\0&-2\\end{bmatrix}\\begin{bmatrix}1&\\dfrac{1}{4}\\\\0&\\dfrac{1}{2}\\end{bmatrix}=\\begin{bmatrix}1&\\dfrac{5}{4}\\\\0&-1\\end{bmatrix}$."
         },
         {
           "num": 23,
@@ -180,17 +180,17 @@
         },
         {
           "num": 24,
-          "body": "设 $a>0$，$|x-1|&#x3C;\\dfrac{a}{3}$，$|y-2|&#x3C;\\dfrac{a}{3}$，求证：$|2x+y-4|&#x3C;a$.",
+          "body": "设 $a>0$，$|x-1|<\\dfrac{a}{3}$，$|y-2|<\\dfrac{a}{3}$，求证：$|2x+y-4|<a$.",
           "choices": null,
           "answer": "",
-          "solution": "由三角不等式，$|2x+y-4|=|2(x-1)+(y-2)|\\le2|x-1|+|y-2|&#x3C;\\dfrac{2a}{3}+\\dfrac{a}{3}=a$，所以 $|2x+y-4|&#x3C;a$."
+          "solution": "由三角不等式，$|2x+y-4|=|2(x-1)+(y-2)|\\le2|x-1|+|y-2|<\\dfrac{2a}{3}+\\dfrac{a}{3}=a$，所以 $|2x+y-4|<a$."
         },
         {
           "num": 25,
           "body": "<p>如图，在平面直角坐标系 $xOy$ 中，已知直线 $l:x-y-2=0$，抛物线 $C:y^{2}=2px$（$p>0$）.</p><ol class=\"enumerate\"><li><p>若直线 $l$ 过抛物线 $C$ 的焦点，求抛物线 $C$ 的方程；</p></li><li><p>已知抛物线 $C$ 上存在关于直线 $l$ 对称的相异两点 $P$ 和 $Q$.</p><p></p><ol class=\"enumerate\"><li><p>求证：线段 $PQ$ 的中点坐标为 $(2-p,-p)$；</p></li><li><p>求 $p$ 的取值范围.</p></li></ol><p></p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=2px$ 可写成 $y^{2}=4\\cdot\\dfrac{p}{2}x$，所以其焦点为 $\\left(\\dfrac{p}{2},0\\right)$. 由直线 $l:x-y-2=0$ 过焦点，得 $\\dfrac{p}{2}-2=0$，即 $p=4$. 因此抛物线 $C$ 的方程为 $y^{2}=8x$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>设 $P$，$Q$ 的坐标分别为 $(x_{1},y_{1})$，$(x_{2},y_{2})$，其中 $y_{i}^{2}=2px_{i}$. 因为 $P$，$Q$ 关于直线 $l$ 对称，所以线段 $PQ$ 垂直于 $l$，从而直线 $PQ$ 的方程可写为 $x+y=c$，且其中点在 $l$ 上. 由 $x_{i}=\\dfrac{y_i^2}{2p}$ 及 $x_{i}+y_{i}=c$，得 $y_{i}^{2}+2py_{i}-2pc=0$. 因此 $y_{1}+y_{2}=-2p$，中点的纵坐标为 $-p$. 又中点在 $l$ 上，满足 $x-y-2=0$，所以其中点的横坐标为 $2-p$. 故线段 $PQ$ 的中点坐标为 $(2-p,-p)$.</p></li><li><p>由上面的中点坐标，直线 $PQ$ 的方程为 $x+y=2-2p$. 将 $x=2-2p-y$ 代入抛物线方程，得 $y^{2}+2py+4p^{2}-4p=0$. 要使抛物线与该直线有相异两交点，判别式必须大于 $0$，即 $\\Delta=(2p)^{2}-4(4p^{2}-4p)=4p(4-3p)>0$. 结合 $p>0$，得 $0&#x3C;p&#x3C;\\dfrac{4}{3}$. 当该条件成立时确有两个相异交点，且它们的中点在 $l$ 上、连线垂直于 $l$，故关于 $l$ 对称. 因此 $p\\in\\left(0,\\dfrac{4}{3}\\right)$.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=2px$ 可写成 $y^{2}=4\\cdot\\dfrac{p}{2}x$，所以其焦点为 $\\left(\\dfrac{p}{2},0\\right)$. 由直线 $l:x-y-2=0$ 过焦点，得 $\\dfrac{p}{2}-2=0$，即 $p=4$. 因此抛物线 $C$ 的方程为 $y^{2}=8x$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>设 $P$，$Q$ 的坐标分别为 $(x_{1},y_{1})$，$(x_{2},y_{2})$，其中 $y_{i}^{2}=2px_{i}$. 因为 $P$，$Q$ 关于直线 $l$ 对称，所以线段 $PQ$ 垂直于 $l$，从而直线 $PQ$ 的方程可写为 $x+y=c$，且其中点在 $l$ 上. 由 $x_{i}=\\dfrac{y_i^2}{2p}$ 及 $x_{i}+y_{i}=c$，得 $y_{i}^{2}+2py_{i}-2pc=0$. 因此 $y_{1}+y_{2}=-2p$，中点的纵坐标为 $-p$. 又中点在 $l$ 上，满足 $x-y-2=0$，所以其中点的横坐标为 $2-p$. 故线段 $PQ$ 的中点坐标为 $(2-p,-p)$.</p></li><li><p>由上面的中点坐标，直线 $PQ$ 的方程为 $x+y=2-2p$. 将 $x=2-2p-y$ 代入抛物线方程，得 $y^{2}+2py+4p^{2}-4p=0$. 要使抛物线与该直线有相异两交点，判别式必须大于 $0$，即 $\\Delta=(2p)^{2}-4(4p^{2}-4p)=4p(4-3p)>0$. 结合 $p>0$，得 $0<p<\\dfrac{4}{3}$. 当该条件成立时确有两个相异交点，且它们的中点在 $l$ 上、连线垂直于 $l$，故关于 $l$ 对称. 因此 $p\\in\\left(0,\\dfrac{4}{3}\\right)$.</p></li></ol><p></p></li></ol>"
         },
         {
           "num": 26,

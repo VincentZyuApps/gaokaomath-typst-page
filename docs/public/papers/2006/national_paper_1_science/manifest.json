@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $M = \\{x \\mid x^{2} - x &#x3C; 0\\}$，$N = \\{x \\mid |x| &#x3C; 2\\}$，则（ ）",
+          "body": "设集合 $M = \\{x \\mid x^{2} - x < 0\\}$，$N = \\{x \\mid |x| < 2\\}$，则（ ）",
           "choices": [
             "$M \\cap N = \\varnothing$",
             "$M \\cap N = M$",
@@ -17,7 +17,7 @@
             "$M \\cup N = \\mathbb{R}$"
           ],
           "answer": "B",
-          "solution": "由 $x^{2}-x&#x3C;0$ 得 $x(x-1)&#x3C;0$，所以 $M=(0,1)$；又 $N=(-2,2)$，从而 $M\\subset N$，故 $M\\cap N=M$，选 B."
+          "solution": "由 $x^{2}-x<0$ 得 $x(x-1)<0$，所以 $M=(0,1)$；又 $N=(-2,2)$，从而 $M\\subset N$，故 $M\\cap N=M$，选 B."
         },
         {
           "num": 2,
@@ -41,7 +41,7 @@
             "$\\frac{1}{4}$"
           ],
           "answer": "A",
-          "solution": "因为曲线是双曲线，所以 $m&#x3C;0$，原方程可写为 $\\dfrac{y^2}{1}-\\dfrac{x^2}{\\frac{1}{(-m)}}=1$. 因此实半轴长为 $1$，虚半轴长为 $\\dfrac{1}{\\sqrt{-m}}$，实轴长和虚轴长分别为 $2$ 和 $\\dfrac{2}{\\sqrt{-m}}$. 由题意，$\\dfrac{2}{\\sqrt{-m}}=2\\times2$，所以 $\\sqrt{-m}=\\dfrac{1}{2}$，从而 $m=-\\dfrac{1}{4}$，选 A."
+          "solution": "因为曲线是双曲线，所以 $m<0$，原方程可写为 $\\dfrac{y^2}{1}-\\dfrac{x^2}{\\frac{1}{(-m)}}=1$. 因此实半轴长为 $1$，虚半轴长为 $\\dfrac{1}{\\sqrt{-m}}$，实轴长和虚轴长分别为 $2$ 和 $\\dfrac{2}{\\sqrt{-m}}$. 由题意，$\\dfrac{2}{\\sqrt{-m}}=2\\times2$，所以 $\\sqrt{-m}=\\dfrac{1}{2}$，从而 $m=-\\dfrac{1}{4}$，选 A."
         },
         {
           "num": 4,
@@ -101,7 +101,7 @@
             "$3$"
           ],
           "answer": "A",
-          "solution": "<p>设抛物线上点的坐标为 $(x,-x^{2})$. 它到直线的距离为</p>\n$$\nd=\\frac{|4x+3(-x^{2})-8|}{\\sqrt{4^{2}+3^{2}}}=\\frac{|-3x^{2}+4x-8|}{5}\n$$\n<p>由于 $-3x^{2}+4x-8&#x3C;0$（其判别式为 $4^{2}-4\\cdot(-3)\\cdot(-8)=-80&#x3C;0$，且二次项系数为负），所以 $d=\\dfrac{3x^2-4x+8}{5}=\\dfrac{3\\left(x-\\frac{2}{3}\\right)^2+\\frac{20}{3}}{5}\\geq\\dfrac{4}{3}$. 故选 A.</p>"
+          "solution": "<p>设抛物线上点的坐标为 $(x,-x^{2})$. 它到直线的距离为</p>\n$$\nd=\\frac{|4x+3(-x^{2})-8|}{\\sqrt{4^{2}+3^{2}}}=\\frac{|-3x^{2}+4x-8|}{5}\n$$\n<p>由于 $-3x^{2}+4x-8<0$（其判别式为 $4^{2}-4\\cdot(-3)\\cdot(-8)=-80<0$，且二次项系数为负），所以 $d=\\dfrac{3x^2-4x+8}{5}=\\dfrac{3\\left(x-\\frac{2}{3}\\right)^2+\\frac{20}{3}}{5}\\geq\\dfrac{4}{3}$. 故选 A.</p>"
         },
         {
           "num": 9,
@@ -179,10 +179,10 @@
         },
         {
           "num": 16,
-          "body": "函数 $f(x)=\\cos(\\sqrt{3}x+\\varphi)$（$0&#x3C;\\varphi&#x3C;\\pi$）. 若 $f(x)+f'(x)$ 是奇函数，则 $\\varphi=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "函数 $f(x)=\\cos(\\sqrt{3}x+\\varphi)$（$0<\\varphi<\\pi$）. 若 $f(x)+f'(x)$ 是奇函数，则 $\\varphi=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\dfrac{\\pi}{6}$",
-          "solution": "<p>令 $t=\\sqrt{3}x+\\varphi$，则 $f'(x)=-\\sqrt{3}\\sin t$，从而</p>\n$$\nf(x)+f'(x)=\\cos t-\\sqrt{3}\\sin t=2\\cos\\left(\\sqrt{3}x+\\varphi+\\frac{\\pi}{3}\\right)\n$$\n<p>函数 $2\\cos(\\sqrt{3}x+\\alpha)$ 为奇函数，当且仅当 $\\cos\\alpha=0$，所以 $\\alpha=\\dfrac{\\pi}{2}+k\\pi$，即 $\\varphi=\\dfrac{\\pi}{6}+k\\pi$. 结合 $0&#x3C;\\varphi&#x3C;\\pi$，只能取 $\\varphi=\\dfrac{\\pi}{6}$.</p>"
+          "solution": "<p>令 $t=\\sqrt{3}x+\\varphi$，则 $f'(x)=-\\sqrt{3}\\sin t$，从而</p>\n$$\nf(x)+f'(x)=\\cos t-\\sqrt{3}\\sin t=2\\cos\\left(\\sqrt{3}x+\\varphi+\\frac{\\pi}{3}\\right)\n$$\n<p>函数 $2\\cos(\\sqrt{3}x+\\alpha)$ 为奇函数，当且仅当 $\\cos\\alpha=0$，所以 $\\alpha=\\dfrac{\\pi}{2}+k\\pi$，即 $\\varphi=\\dfrac{\\pi}{6}+k\\pi$. 结合 $0<\\varphi<\\pi$，只能取 $\\varphi=\\dfrac{\\pi}{6}$.</p>"
         }
       ]
     },
@@ -194,7 +194,7 @@
           "body": "$\\triangle ABC$ 的三个内角为 $A$，$B$，$C$，求当 $A$ 为何值时，$\\cos A+2\\cos\\frac{B+C}{2}$ 取得最大值，并求出这个最大值.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $A+B+C=\\pi$，所以</p>\n$$\n\\cos A+2\\cos\\frac{B+C}{2}=\\cos A+2\\cos\\left(\\frac{\\pi-A}{2}\\right)=\\cos A+2\\sin\\frac{A}{2}\n$$\n<p>令 $u=\\sin\\dfrac{A}{2}$. 由于三角形内角满足 $0&#x3C;A&#x3C;\\pi$，所以 $0&#x3C;u&#x3C;1$，且 $\\cos A=1-2u^{2}$. 于是原式</p>\n$$\n1-2u^{2}+2u=\\frac{3}{2}-2\\left(u-\\frac{1}{2}\\right)^{2}\\leq\\frac{3}{2}\n$$\n<p>当且仅当 $u=\\dfrac{1}{2}$ 时等号成立，即 $\\sin\\dfrac{A}{2}=\\dfrac{1}{2}$. 由 $0&#x3C;\\dfrac{A}{2}&#x3C;\\dfrac{\\pi}{2}$，得 $\\dfrac{A}{2}=\\dfrac{\\pi}{6}$，所以 $A=\\dfrac{\\pi}{3}$. 此时可取 $B+C=\\dfrac{2\\pi}{3}$，确为三角形内角，故最大值为 $\\dfrac{3}{2}$.</p>"
+          "solution": "<p>因为 $A+B+C=\\pi$，所以</p>\n$$\n\\cos A+2\\cos\\frac{B+C}{2}=\\cos A+2\\cos\\left(\\frac{\\pi-A}{2}\\right)=\\cos A+2\\sin\\frac{A}{2}\n$$\n<p>令 $u=\\sin\\dfrac{A}{2}$. 由于三角形内角满足 $0<A<\\pi$，所以 $0<u<1$，且 $\\cos A=1-2u^{2}$. 于是原式</p>\n$$\n1-2u^{2}+2u=\\frac{3}{2}-2\\left(u-\\frac{1}{2}\\right)^{2}\\leq\\frac{3}{2}\n$$\n<p>当且仅当 $u=\\dfrac{1}{2}$ 时等号成立，即 $\\sin\\dfrac{A}{2}=\\dfrac{1}{2}$. 由 $0<\\dfrac{A}{2}<\\dfrac{\\pi}{2}$，得 $\\dfrac{A}{2}=\\dfrac{\\pi}{6}$，所以 $A=\\dfrac{\\pi}{3}$. 此时可取 $B+C=\\dfrac{2\\pi}{3}$，确为三角形内角，故最大值为 $\\dfrac{3}{2}$.</p>"
         },
         {
           "num": 18,
@@ -215,21 +215,21 @@
           "body": "<p>在平面直角坐标系 $xOy$ 中，有一个以 $F_{1}(0,-\\sqrt{3})$ 和 $F_{2}(0,\\sqrt{3})$ 为焦点，离心率为 $\\frac{\\sqrt{3}}{2}$ 的椭圆，设椭圆在第一象限的部分为曲线 $C$，动点 $P$ 在 $C$ 上，$C$ 在点 $P$ 处的切线与 $x$，$y$ 轴的交点分别为 $A$，$B$，且向量 $\\overrightarrow{OM}=\\overrightarrow{OA}+\\overrightarrow{OB}$. 求：</p><ol class=\"enumerate\"><li><p>点 $M$ 的轨迹方程.</p></li><li><p>$|\\overrightarrow{OM}|$ 的最小值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由焦点坐标可知椭圆的半焦距为 $c=\\sqrt{3}$. 又离心率 $e=\\dfrac{c}{a}=\\dfrac{\\sqrt{3}}{2}$，所以长半轴 $a=2$，短半轴满足 $b^{2}=a^{2}-c^{2}=1$. 椭圆方程为 $\\dfrac{x^2}{4}+y^{2}=1$.</p><p>设 $P=(x_{0},y_{0})$ 为第一象限内的点，则 $0&#x3C;x_{0}&#x3C;2$，$0&#x3C;y_{0}&#x3C;1$. 在 $P$ 处的切线方程为 $\\frac{x_{0}x}{4}+y_{0}y=1$.</p><p>所以切线与两坐标轴的交点分别为 $A=\\left(\\dfrac4{x_0},0\\right)$，$B=\\left(0,\\dfrac1{y_0}\\right)$. 设 $M=(u,v)$，由 $\\overrightarrow{OM}=\\overrightarrow{OA}+\\overrightarrow{OB}$ 得 $u=\\dfrac4{x_0}$，$v=\\dfrac1{y_0}$. 将 $x_{0}=\\dfrac{4}{u}$，$y_{0}=\\dfrac{1}{v}$ 代入椭圆方程，得到</p>\n$$\n\\frac{4}{u^{2}}+\\frac{1}{v^{2}}=1\n$$\n<p>且 $u>2$，$v>1$. 反之，若 $u>2$，$v>1$ 且满足该方程，令 $x_{0}=\\dfrac{4}{u}$，$y_{0}=\\dfrac{1}{v}$，则 $0&#x3C;x_{0}&#x3C;2$，$0&#x3C;y_{0}&#x3C;1$，并且 $\\dfrac{x_0^2}{4}+y_{0}^{2}=1$，故 $(x_{0},y_{0})$ 是曲线 $C$ 上的点，且相应切线的两个截距之和正是 $(u,v)$. 因此点 $M$ 的轨迹方程为上述方程.</p><p>令 $p=u^{2}$，$q=v^{2}$，则 $p>4$，$q>1$，且 $\\dfrac{4}{p}+\\dfrac{1}{q}=1$，从而 $q=\\dfrac p{p-4}$. 于是</p>\n$$\n|\\overrightarrow{OM}|^{2}=p+q=p+\\frac{p}{p-4}=5+(p-4)+\\frac{4}{p-4}\\geq5+4=9\n$$\n<p>其中等号当且仅当 $p-4=2$，即 $p=6$，此时 $q=3$，满足 $u>2$，$v>1$. 所以 $|\\overrightarrow{OM}|$ 的最小值为 $3$.</p>"
+          "solution": "<p>由焦点坐标可知椭圆的半焦距为 $c=\\sqrt{3}$. 又离心率 $e=\\dfrac{c}{a}=\\dfrac{\\sqrt{3}}{2}$，所以长半轴 $a=2$，短半轴满足 $b^{2}=a^{2}-c^{2}=1$. 椭圆方程为 $\\dfrac{x^2}{4}+y^{2}=1$.</p><p>设 $P=(x_{0},y_{0})$ 为第一象限内的点，则 $0<x_{0}<2$，$0<y_{0}<1$. 在 $P$ 处的切线方程为 $\\frac{x_{0}x}{4}+y_{0}y=1$.</p><p>所以切线与两坐标轴的交点分别为 $A=\\left(\\dfrac4{x_0},0\\right)$，$B=\\left(0,\\dfrac1{y_0}\\right)$. 设 $M=(u,v)$，由 $\\overrightarrow{OM}=\\overrightarrow{OA}+\\overrightarrow{OB}$ 得 $u=\\dfrac4{x_0}$，$v=\\dfrac1{y_0}$. 将 $x_{0}=\\dfrac{4}{u}$，$y_{0}=\\dfrac{1}{v}$ 代入椭圆方程，得到</p>\n$$\n\\frac{4}{u^{2}}+\\frac{1}{v^{2}}=1\n$$\n<p>且 $u>2$，$v>1$. 反之，若 $u>2$，$v>1$ 且满足该方程，令 $x_{0}=\\dfrac{4}{u}$，$y_{0}=\\dfrac{1}{v}$，则 $0<x_{0}<2$，$0<y_{0}<1$，并且 $\\dfrac{x_0^2}{4}+y_{0}^{2}=1$，故 $(x_{0},y_{0})$ 是曲线 $C$ 上的点，且相应切线的两个截距之和正是 $(u,v)$. 因此点 $M$ 的轨迹方程为上述方程.</p><p>令 $p=u^{2}$，$q=v^{2}$，则 $p>4$，$q>1$，且 $\\dfrac{4}{p}+\\dfrac{1}{q}=1$，从而 $q=\\dfrac p{p-4}$. 于是</p>\n$$\n|\\overrightarrow{OM}|^{2}=p+q=p+\\frac{p}{p-4}=5+(p-4)+\\frac{4}{p-4}\\geq5+4=9\n$$\n<p>其中等号当且仅当 $p-4=2$，即 $p=6$，此时 $q=3$，满足 $u>2$，$v>1$. 所以 $|\\overrightarrow{OM}|$ 的最小值为 $3$.</p>"
         },
         {
           "num": 21,
           "body": "<p>已知函数 $f(x)=\\frac{1+x}{1-x}\\mathrm{e}^{-ax}$.</p><ol class=\"enumerate\"><li><p>设 $a>0$，讨论 $y=f(x)$ 的单调性.</p></li><li><p>若对任意 $x\\in(0,1)$ 恒有 $f(x)>1$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x\\in\\mathbb{R}$ 且 $x\\ne1$. 求导得</p>\n$$\nf'(x)=\\mathrm{e}^{-ax}\\left[\\frac{2}{(1-x)^{2}}-\\frac{a(1+x)}{1-x}\\right]=\\frac{\\mathrm{e}^{-ax}}{(1-x)^{2}}\\left(2-a+ax^{2}\\right)\n$$\n<p>由于 $\\mathrm{e}^{-ax}>0$，$(1-x)^{2}>0$，故 $f'(x)$ 的符号由 $2-a+ax^{2}$ 决定.</p><p>当 $0&#x3C;a&#x3C;2$ 时，$2-a+ax^{2}>0$；当 $a=2$ 时，$2-a+ax^{2}=2x^{2}$，只在 $x=0$ 处为零. 因此在任意两个属于同一连通定义区间的不同点之间，导数除至多一个点外均为正，$f(x)$ 在 $(-\\infty,1)$ 和 $(1,+\\infty)$ 上均为增函数.</p><p>当 $a>2$ 时，令 $\\alpha=\\sqrt{1-\\dfrac{2}{a}}$，则 $0&#x3C;\\alpha&#x3C;1$，并且</p><p>$2-a+ax^{2}=a(x-\\alpha)(x+\\alpha)$. 因此 $f(x)$ 在 $(-\\infty,-\\alpha)$，$(\\alpha,1)$，$(1,+\\infty)$ 上均为增函数，在 $(-\\alpha,\\alpha)$ 上为减函数.</p></li><li><p>对 $x\\in(0,1)$，原不等式等价于 $\\ln\\frac{1+x}{1-x}-ax>0$.</p><p>令 $h(x)=\\dfrac{1}{x}\\ln\\dfrac{1+x}{1-x}$. 先证 $h(x)>2$：令 $g(x)=\\ln\\dfrac{1+x}{1-x}-2x$，则 $g(0)=0$，且</p>\n$$\ng'(x)=\\frac{1}{1+x}+\\frac{1}{1-x}-2=\\frac{2x^{2}}{1-x^{2}}>0\n$$\n<p>所以 $g(x)>0$，即 $h(x)>2$. 另一方面，$\\displaystyle\\lim_{x\\to0^+}h(x)=2$. 因此当 $a\\leq2$ 时，$\\ln\\dfrac{1+x}{1-x}>2x\\geq ax$，原不等式对所有 $x\\in(0,1)$ 成立；当 $a>2$ 时，由 $h(x)\\to2$，可取充分小的正数 $x$ 使 $h(x)&#x3C;a$，此时原不等式不成立. 故 $a$ 的取值范围为 $a\\leq2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x\\in\\mathbb{R}$ 且 $x\\ne1$. 求导得</p>\n$$\nf'(x)=\\mathrm{e}^{-ax}\\left[\\frac{2}{(1-x)^{2}}-\\frac{a(1+x)}{1-x}\\right]=\\frac{\\mathrm{e}^{-ax}}{(1-x)^{2}}\\left(2-a+ax^{2}\\right)\n$$\n<p>由于 $\\mathrm{e}^{-ax}>0$，$(1-x)^{2}>0$，故 $f'(x)$ 的符号由 $2-a+ax^{2}$ 决定.</p><p>当 $0<a<2$ 时，$2-a+ax^{2}>0$；当 $a=2$ 时，$2-a+ax^{2}=2x^{2}$，只在 $x=0$ 处为零. 因此在任意两个属于同一连通定义区间的不同点之间，导数除至多一个点外均为正，$f(x)$ 在 $(-\\infty,1)$ 和 $(1,+\\infty)$ 上均为增函数.</p><p>当 $a>2$ 时，令 $\\alpha=\\sqrt{1-\\dfrac{2}{a}}$，则 $0<\\alpha<1$，并且</p><p>$2-a+ax^{2}=a(x-\\alpha)(x+\\alpha)$. 因此 $f(x)$ 在 $(-\\infty,-\\alpha)$，$(\\alpha,1)$，$(1,+\\infty)$ 上均为增函数，在 $(-\\alpha,\\alpha)$ 上为减函数.</p></li><li><p>对 $x\\in(0,1)$，原不等式等价于 $\\ln\\frac{1+x}{1-x}-ax>0$.</p><p>令 $h(x)=\\dfrac{1}{x}\\ln\\dfrac{1+x}{1-x}$. 先证 $h(x)>2$：令 $g(x)=\\ln\\dfrac{1+x}{1-x}-2x$，则 $g(0)=0$，且</p>\n$$\ng'(x)=\\frac{1}{1+x}+\\frac{1}{1-x}-2=\\frac{2x^{2}}{1-x^{2}}>0\n$$\n<p>所以 $g(x)>0$，即 $h(x)>2$. 另一方面，$\\displaystyle\\lim_{x\\to0^+}h(x)=2$. 因此当 $a\\leq2$ 时，$\\ln\\dfrac{1+x}{1-x}>2x\\geq ax$，原不等式对所有 $x\\in(0,1)$ 成立；当 $a>2$ 时，由 $h(x)\\to2$，可取充分小的正数 $x$ 使 $h(x)<a$，此时原不等式不成立. 故 $a$ 的取值范围为 $a\\leq2$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "<p>设数列 $a_{n}$ 的前 $n$ 项的和 $S_{n}=\\frac{4}{3}a_{n}-\\frac{1}{3}\\times2^{n+1}+\\frac{2}{3}$，$n=1$，$2$，$3$，$\\ldots$.</p><ol class=\"enumerate\"><li><p>求首项 $a_{1}$ 与通项 $a_{n}$.</p></li><li><p>设 $T_{n}=\\frac{2^{n}}{S_{n}}$，$n=1$，$2$，$3$，$\\ldots$，证明：$\\sum_{i=1}^{n}T_{i}&#x3C;\\frac{3}{2}$.</p></li></ol>",
+          "body": "<p>设数列 $a_{n}$ 的前 $n$ 项的和 $S_{n}=\\frac{4}{3}a_{n}-\\frac{1}{3}\\times2^{n+1}+\\frac{2}{3}$，$n=1$，$2$，$3$，$\\ldots$.</p><ol class=\"enumerate\"><li><p>求首项 $a_{1}$ 与通项 $a_{n}$.</p></li><li><p>设 $T_{n}=\\frac{2^{n}}{S_{n}}$，$n=1$，$2$，$3$，$\\ldots$，证明：$\\sum_{i=1}^{n}T_{i}<\\frac{3}{2}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取 $n=1$，由 $S_{1}=a_{1}$ 得</p>\n$$\na_{1}=\\frac{4}{3}a_{1}-\\frac{1}{3}\\cdot2^{2}+\\frac{2}{3}=\\frac{4}{3}a_{1}-\\frac{2}{3}\n$$\n<p>所以 $a_{1}=2$. 当 $n\\geq2$ 时，$a_{n}=S_{n}-S_{n-1}$，从而</p>\n$$\na_{n}=\\frac{4}{3}(a_{n}-a_{n-1})-\\frac{1}{3}\\left(2^{n+1}-2^{n}\\right)=\\frac{4}{3}(a_{n}-a_{n-1})-\\frac{2^{n}}{3}\n$$\n<p>整理得 $a_{n}=4a_{n-1}+2^{n}$. 对应齐次递推式的通项为 $C4^{n-1}$. 设一个特解为 $\\lambda2^{n}$，代入递推式得 $\\lambda2^{n}=4\\lambda2^{n-1}+2^{n}=(2\\lambda+1)2^{n}$，所以 $\\lambda=-1$. 因此 $a_{n}=C4^{n-1}-2^{n}$，再由 $a_{1}=2$ 得 $C=4$，所以</p>\n$$\na_{n}=4^{n}-2^{n}\n$$\n</li><li><p>将 $a_{n}=4^{n}-2^{n}$ 代入已知关系，得</p>\n$$\nS_{n}=\\frac{4^{n+1}-3\\cdot2^{n+1}+2}{3}=\\frac{2}{3}(2^{n+1}-1)(2^{n}-1)>0\n$$\n<p>因此</p>\n$$\nT_{n}=\\frac{2^{n}}{S_{n}}=\\frac{3}{2}\\left(\\frac{1}{2^{n}-1}-\\frac{1}{2^{n+1}-1}\\right)\n$$\n<p>于是</p>\n$$\n\\sum_{i=1}^{n}T_{i}=\\frac{3}{2}\\left(\\frac{1}{2^{1}-1}-\\frac{1}{2^{n+1}-1}\\right)=\\frac{3}{2}\\left(1-\\frac{1}{2^{n+1}-1}\\right)&#x3C;\\frac{3}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取 $n=1$，由 $S_{1}=a_{1}$ 得</p>\n$$\na_{1}=\\frac{4}{3}a_{1}-\\frac{1}{3}\\cdot2^{2}+\\frac{2}{3}=\\frac{4}{3}a_{1}-\\frac{2}{3}\n$$\n<p>所以 $a_{1}=2$. 当 $n\\geq2$ 时，$a_{n}=S_{n}-S_{n-1}$，从而</p>\n$$\na_{n}=\\frac{4}{3}(a_{n}-a_{n-1})-\\frac{1}{3}\\left(2^{n+1}-2^{n}\\right)=\\frac{4}{3}(a_{n}-a_{n-1})-\\frac{2^{n}}{3}\n$$\n<p>整理得 $a_{n}=4a_{n-1}+2^{n}$. 对应齐次递推式的通项为 $C4^{n-1}$. 设一个特解为 $\\lambda2^{n}$，代入递推式得 $\\lambda2^{n}=4\\lambda2^{n-1}+2^{n}=(2\\lambda+1)2^{n}$，所以 $\\lambda=-1$. 因此 $a_{n}=C4^{n-1}-2^{n}$，再由 $a_{1}=2$ 得 $C=4$，所以</p>\n$$\na_{n}=4^{n}-2^{n}\n$$\n</li><li><p>将 $a_{n}=4^{n}-2^{n}$ 代入已知关系，得</p>\n$$\nS_{n}=\\frac{4^{n+1}-3\\cdot2^{n+1}+2}{3}=\\frac{2}{3}(2^{n+1}-1)(2^{n}-1)>0\n$$\n<p>因此</p>\n$$\nT_{n}=\\frac{2^{n}}{S_{n}}=\\frac{3}{2}\\left(\\frac{1}{2^{n}-1}-\\frac{1}{2^{n+1}-1}\\right)\n$$\n<p>于是</p>\n$$\n\\sum_{i=1}^{n}T_{i}=\\frac{3}{2}\\left(\\frac{1}{2^{1}-1}-\\frac{1}{2^{n+1}-1}\\right)=\\frac{3}{2}\\left(1-\\frac{1}{2^{n+1}-1}\\right)<\\frac{3}{2}\n$$\n</li></ol>"
         }
       ]
     }

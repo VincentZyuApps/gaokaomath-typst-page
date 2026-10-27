@@ -53,7 +53,7 @@
             "$2$"
           ],
           "answer": "D",
-          "solution": "<p>程序开始时 $i=0$，$s=2$. 当 $i&#x3C;4$ 时，先令 $i\\leftarrow i+1$，再计算 $s\\leftarrow\\dfrac{s-1}{s+1}$. 因此共循环 4 次：</p><p>$s=2\\to\\dfrac{1}{3}\\to-\\dfrac{1}{2}\\to-3\\to2$. 此时 $i=4$，条件不成立，输出 $s=2$. 故选 D.</p>"
+          "solution": "<p>程序开始时 $i=0$，$s=2$. 当 $i<4$ 时，先令 $i\\leftarrow i+1$，再计算 $s\\leftarrow\\dfrac{s-1}{s+1}$. 因此共循环 4 次：</p><p>$s=2\\to\\dfrac{1}{3}\\to-\\dfrac{1}{2}\\to-3\\to2$. 此时 $i=4$，条件不成立，输出 $s=2$. 故选 D.</p>"
         },
         {
           "num": 5,
@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "<p>根据统计，一名工人组装第 $x$ 件某产品所用的时间（单位：分钟）为</p><p>$f(x) = \\begin{cases}\\dfrac{c}{\\sqrt{x}}, &#x26; x &#x3C; A,\\\\\n\n\\dfrac{c}{\\sqrt{A}}, &#x26; x \\ge A,\\end{cases}$</p><p>（$A$，$c$ 为常数）. 已知工人组装第 $4$ 件产品用时 $30$ 分钟，组装第 $A$ 件产品用时 $15$ 分钟，那么 $c$ 和 $A$ 的值分别是（ ）</p>",
+          "body": "<p>根据统计，一名工人组装第 $x$ 件某产品所用的时间（单位：分钟）为</p><p>$f(x) = \\begin{cases}\\dfrac{c}{\\sqrt{x}}, & x < A,\\\\\n\n\\dfrac{c}{\\sqrt{A}}, & x \\ge A,\\end{cases}$</p><p>（$A$，$c$ 为常数）. 已知工人组装第 $4$ 件产品用时 $30$ 分钟，组装第 $A$ 件产品用时 $15$ 分钟，那么 $c$ 和 $A$ 的值分别是（ ）</p>",
           "choices": [
             "$(75, 25)$",
             "$(75, 16)$",
@@ -101,7 +101,7 @@
             "$\\{10, 11, 12\\}$"
           ],
           "answer": "C",
-          "solution": "<p>令横截面所在的高度为 $y=j$，其中内部整点只能有 $j=1$，$2$，$3$. 平行四边形可参数表示为</p><p>$(x,y)=(4u+tv,4v)$，其中 $0&#x3C;u&#x3C;1$，$0&#x3C;v&#x3C;1$. 固定 $y=j$ 后，$v=\\dfrac{j}{4}$，所以横坐标满足</p><p>$\\dfrac{jt}{4}&#x3C;x&#x3C;4+\\dfrac{jt}{4}$.</p><p>这个开区间长度为 $4$：当 $\\dfrac{jt}{4}$ 为整数时，内部整数有 $3$ 个；当 $\\dfrac{jt}{4}$ 不是整数时，内部整数有 $4$ 个. 因此 $N(t)$ 等于 $12$ 减去满足 $\\dfrac{jt}{4}\\in\\mathbb{Z}$ 的 $j\\in\\{1,2,3\\}$ 的个数.</p><p>若 $\\dfrac{t}{4}\\in\\mathbb{Z}$，三个横截面各有 $3$ 个整点，得到 $N(t)=9$；若只有 $\\dfrac{t}{2}$ 或 $\\dfrac{3t}{4}$ 为整数，得到 $N(t)=11$；若三者均不是整数，得到 $N(t)=12$. 不可能恰有两个条件成立，因为任意两者成立都会推出 $\\dfrac{t}{4}\\in\\mathbb{Z}$. 取 $t=0$、$t=2$、$t=1$ 分别可得到 $N(t)=9$、$11$、$12$，故值域为 $\\{9,11,12\\}$，选 C.</p>"
+          "solution": "<p>令横截面所在的高度为 $y=j$，其中内部整点只能有 $j=1$，$2$，$3$. 平行四边形可参数表示为</p><p>$(x,y)=(4u+tv,4v)$，其中 $0<u<1$，$0<v<1$. 固定 $y=j$ 后，$v=\\dfrac{j}{4}$，所以横坐标满足</p><p>$\\dfrac{jt}{4}<x<4+\\dfrac{jt}{4}$.</p><p>这个开区间长度为 $4$：当 $\\dfrac{jt}{4}$ 为整数时，内部整数有 $3$ 个；当 $\\dfrac{jt}{4}$ 不是整数时，内部整数有 $4$ 个. 因此 $N(t)$ 等于 $12$ 减去满足 $\\dfrac{jt}{4}\\in\\mathbb{Z}$ 的 $j\\in\\{1,2,3\\}$ 的个数.</p><p>若 $\\dfrac{t}{4}\\in\\mathbb{Z}$，三个横截面各有 $3$ 个整点，得到 $N(t)=9$；若只有 $\\dfrac{t}{2}$ 或 $\\dfrac{3t}{4}$ 为整数，得到 $N(t)=11$；若三者均不是整数，得到 $N(t)=12$. 不可能恰有两个条件成立，因为任意两者成立都会推出 $\\dfrac{t}{4}\\in\\mathbb{Z}$. 取 $t=0$、$t=2$、$t=1$ 分别可得到 $N(t)=9$、$11$、$12$，故值域为 $\\{9,11,12\\}$，选 C.</p>"
         }
       ]
     },
@@ -120,7 +120,7 @@
           "body": "已知向量 $\\mathbf{a}= (\\sqrt{3}, 1)$，$\\mathbf{b}= (0, -1)$，$\\mathbf{c}= (k, \\sqrt{3})$. 若 $\\mathbf{a}- 2\\mathbf{b}$ 与 $\\mathbf{c}$ 共线，则 $k=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "1",
-          "solution": "<p>$\\mathbf{a}-2\\mathbf{b}=(\\sqrt{3},1)-2(0,-1)=(\\sqrt{3},3)$. 两向量共线等价于行列式为零，因此</p><p>$\\begin{vmatrix}\\sqrt{3}&#x26;3\\\\ k&#x26;\\sqrt{3}\\end{vmatrix}=3-3k=0$，解得 $k=1$.</p>"
+          "solution": "<p>$\\mathbf{a}-2\\mathbf{b}=(\\sqrt{3},1)-2(0,-1)=(\\sqrt{3},3)$. 两向量共线等价于行列式为零，因此</p><p>$\\begin{vmatrix}\\sqrt{3}&3\\\\ k&\\sqrt{3}\\end{vmatrix}=3-3k=0$，解得 $k=1$.</p>"
         },
         {
           "num": 11,
@@ -138,10 +138,10 @@
         },
         {
           "num": 13,
-          "body": "<p>已知函数 $f(x) = \\begin{cases}\\dfrac{2}{x},&#x26;x \\ge 2,\\\\  (x - 1)^{3},&#x26;x &#x3C; 2,\\end{cases}$</p><p>若关于 $x$ 的方程 $f(x) = k$ 有两个不同的实根，则实数 $k$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "body": "<p>已知函数 $f(x) = \\begin{cases}\\dfrac{2}{x},&x \\ge 2,\\\\  (x - 1)^{3},&x < 2,\\end{cases}$</p><p>若关于 $x$ 的方程 $f(x) = k$ 有两个不同的实根，则实数 $k$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
           "choices": null,
           "answer": "$(0, 1)$",
-          "solution": "<p>当 $x&#x3C;2$ 时，$f(x)=(x-1)^{3}$ 在 $(-\\infty,2)$ 上严格递增，值域为 $(-\\infty,1)$，所以对每个 $k&#x3C;1$ 有一个来自这一段的根.</p><p>当 $x\\geqslant2$ 时，$f(x)=\\dfrac{2}{x}$，值域为 $(0,1]$，所以对每个 $0&#x3C;k\\leqslant1$ 有一个来自这一段的根. 若 $0&#x3C;k&#x3C;1$，两段各有一个根，且一个满足 $x&#x3C;2$、另一个满足 $x>2$，故有两个不同实根；当 $k=1$ 时，左段方程的根为 $x=2$，但不满足 $x&#x3C;2$，右段只有根 $x=2$，所以只有一个根. 其余 $k$ 至多有一个根. 因此 $k\\in(0,1)$.</p>"
+          "solution": "<p>当 $x<2$ 时，$f(x)=(x-1)^{3}$ 在 $(-\\infty,2)$ 上严格递增，值域为 $(-\\infty,1)$，所以对每个 $k<1$ 有一个来自这一段的根.</p><p>当 $x\\geqslant2$ 时，$f(x)=\\dfrac{2}{x}$，值域为 $(0,1]$，所以对每个 $0<k\\leqslant1$ 有一个来自这一段的根. 若 $0<k<1$，两段各有一个根，且一个满足 $x<2$、另一个满足 $x>2$，故有两个不同实根；当 $k=1$ 时，左段方程的根为 $x=2$，但不满足 $x<2$，右段只有根 $x=2$，所以只有一个根. 其余 $k$ 至多有一个根. 因此 $k\\in(0,1)$.</p>"
         },
         {
           "num": 14,
@@ -178,7 +178,7 @@
         },
         {
           "num": 18,
-          "body": "<p>已知函数 $f(x) = (x - k)^{2}\\mathrm{e}^{\\frac{x}{k}}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>若对于任意的 $x \\in (0, +\\infty)$，都有 $f(x) \\le \\frac{1}{\\mathrm{e}}$，求 $k$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>由于 $k\\ne0$，求导得 $f'(x)=2(x-k)\\mathrm{e}^{\\frac{x}{k}}+\\dfrac{1}{k}(x-k)^{2}\\mathrm{e}^{\\frac{x}{k}}=\\dfrac{\\mathrm{e}^{\\frac{x}{k}}}{k}(x-k)(x+k)$. 因 $\\mathrm{e}^{\\frac{x}{k}}>0$，只需讨论 $\\dfrac{(x-k)(x+k)}k$ 的符号.</p><p>当 $k>0$ 时，$f'(x)>0$ 在 $(-\\infty,-k)$ 和 $(k,+\\infty)$ 上成立，$f'(x)&#x3C;0$ 在 $(-k,k)$ 上成立. 因此递增区间为 $(-\\infty,-k)$、$(k,+\\infty)$，递减区间为 $(-k,k)$.</p><p>当 $k&#x3C;0$ 时，因分母 $k$ 为负，符号相反，故递减区间为 $(-\\infty,k)$、$(-k,+\\infty)$，递增区间为 $(k,-k)$.</p></li><li><p>若 $k>0$，则当 $x\\to+\\infty$ 时，$(x-k)^{2}\\mathrm{e}^{\\frac{x}{k}}\\to+\\infty$，不可能对所有 $x>0$ 有 $f(x)\\le\\dfrac1\\mathrm{e}$.</p><p>令 $k=-a$，其中 $a>0$. 此时 $f(x)=(x+a)^{2}\\mathrm{e}^{-\\frac{x}{a}}$，且 $f'(x)=\\dfrac{\\mathrm{e}^{-\\frac{x}{a}}}a(a-x)(a+x)$. 所以 $f$ 在 $(0,a)$ 上递增，在 $(a,+\\infty)$ 上递减，最大值为 $f(a)=\\dfrac{4a^2}{\\mathrm{e}}$. 要使最大值不超过 $\\dfrac1\\mathrm{e}$，必须且只需 $4a^{2}\\leqslant1$，即 $0&#x3C;a\\le\\dfrac{1}{2}$. 因此 $-\\dfrac{1}{2}\\le k&#x3C;0$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = (x - k)^{2}\\mathrm{e}^{\\frac{x}{k}}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>若对于任意的 $x \\in (0, +\\infty)$，都有 $f(x) \\le \\frac{1}{\\mathrm{e}}$，求 $k$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>由于 $k\\ne0$，求导得 $f'(x)=2(x-k)\\mathrm{e}^{\\frac{x}{k}}+\\dfrac{1}{k}(x-k)^{2}\\mathrm{e}^{\\frac{x}{k}}=\\dfrac{\\mathrm{e}^{\\frac{x}{k}}}{k}(x-k)(x+k)$. 因 $\\mathrm{e}^{\\frac{x}{k}}>0$，只需讨论 $\\dfrac{(x-k)(x+k)}k$ 的符号.</p><p>当 $k>0$ 时，$f'(x)>0$ 在 $(-\\infty,-k)$ 和 $(k,+\\infty)$ 上成立，$f'(x)<0$ 在 $(-k,k)$ 上成立. 因此递增区间为 $(-\\infty,-k)$、$(k,+\\infty)$，递减区间为 $(-k,k)$.</p><p>当 $k<0$ 时，因分母 $k$ 为负，符号相反，故递减区间为 $(-\\infty,k)$、$(-k,+\\infty)$，递增区间为 $(k,-k)$.</p></li><li><p>若 $k>0$，则当 $x\\to+\\infty$ 时，$(x-k)^{2}\\mathrm{e}^{\\frac{x}{k}}\\to+\\infty$，不可能对所有 $x>0$ 有 $f(x)\\le\\dfrac{1}{\\mathrm{e}}$.</p><p>令 $k=-a$，其中 $a>0$. 此时 $f(x)=(x+a)^{2}\\mathrm{e}^{-\\frac{x}{a}}$，且 $f'(x)=\\dfrac{\\mathrm{e}^{-\\frac{x}{a}}}a(a-x)(a+x)$. 所以 $f$ 在 $(0,a)$ 上递增，在 $(a,+\\infty)$ 上递减，最大值为 $f(a)=\\dfrac{4a^2}{\\mathrm{e}}$. 要使最大值不超过 $\\dfrac{1}{\\mathrm{e}}$，必须且只需 $4a^{2}\\leqslant1$，即 $0<a\\le\\dfrac{1}{2}$. 因此 $-\\dfrac{1}{2}\\le k<0$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

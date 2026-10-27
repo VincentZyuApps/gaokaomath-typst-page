@@ -14,7 +14,7 @@
             "$\\varnothing$",
             "$\\{x\\mid x\\ge 1\\}$",
             "$\\{x \\mid x > 1\\}$",
-            "$\\{x\\mid x\\ge 1 \\text{\\ 或\\ }x &#x3C; 0\\}$"
+            "$\\{x\\mid x\\ge 1 \\text{\\ 或\\ }x < 0\\}$"
           ],
           "answer": "C",
           "solution": "由 $x(x-1)\\geqslant0$，在两个零点 $0$，$1$ 之间符号为负，在区间外符号为非负，因此 $P=(-\\infty,0]\\cup[1,+\\infty)$. 分式的分子 $1$ 始终为正，且分母不能为零，所以 $\\dfrac{1}{x-1}>0$ 当且仅当 $x-1>0$，从而 $Q=(1,+\\infty)$. 因此 $P\\cap Q=(1,+\\infty)=\\{x\\mid x>1\\}$，选 C."
@@ -49,23 +49,23 @@
           "choices": [
             "$p: a > b$，$q: a^{2} > b^{2}$",
             "$p: a > b$，$q: 2^{a}> 2^{b}$",
-            "$p: ax^{2} + by^{2} = c$ 为双曲线，$q: ab &#x3C; 0$",
+            "$p: ax^{2} + by^{2} = c$ 为双曲线，$q: ab < 0$",
             "$p: ax^{2} + bx + c > 0$，$q: \\frac{c}{x^{2}}+ \\frac{b}{x}+ a > 0$"
           ],
           "answer": "D",
-          "solution": "<p>先逐项判断条件之间的推出关系. 对选项 A，取 $(a,b)=(1,-2)$，有 $a>b$ 而 $a^{2}\\le b^{2}$，所以 $p$ 不能推出 $q$；取 $(a,b)=(-1,0)$，有 $a^{2}>b^{2}$ 而 $a\\le b$，所以 $q$ 也不能推出 $p$. 这不是必要或充分关系.</p><p>对选项 B，指数函数 $2^{x}$ 在 $\\mathbb{R}$ 上严格递增，故 $a>b$ 当且仅当 $2^{a}>2^{b}$，两个条件等价.</p><p>对选项 C，若 $ax^{2}+by^{2}=c$ 表示双曲线，则二次项系数必须异号，即 $ab&#x3C;0$，所以 $p\\Rightarrow q$. 但 $q$ 不一定推出 $p$，例如 $a=1$，$b=-1$，$c=0$ 时，方程为两条相交直线而不是双曲线，因此 $p$ 是 $q$ 的充分不必要条件.</p><p>对选项 D，当 $x\\ne0$ 时，$q$ 可写为 $\\dfrac{ax^2+bx+c}{x^2}>0$. 由于 $x^{2}>0$，有 $q\\Rightarrow p$. 反过来，$p$ 在 $x=0$ 且 $c>0$ 时可以成立，而 $q$ 在 $x=0$ 时无意义，所以 $p\\not\\Rightarrow q$. 因此 D 中 $p$ 是 $q$ 的必要不充分条件，选 D.</p>"
+          "solution": "<p>先逐项判断条件之间的推出关系. 对选项 A，取 $(a,b)=(1,-2)$，有 $a>b$ 而 $a^{2}\\le b^{2}$，所以 $p$ 不能推出 $q$；取 $(a,b)=(-1,0)$，有 $a^{2}>b^{2}$ 而 $a\\le b$，所以 $q$ 也不能推出 $p$. 这不是必要或充分关系.</p><p>对选项 B，指数函数 $2^{x}$ 在 $\\mathbb{R}$ 上严格递增，故 $a>b$ 当且仅当 $2^{a}>2^{b}$，两个条件等价.</p><p>对选项 C，若 $ax^{2}+by^{2}=c$ 表示双曲线，则二次项系数必须异号，即 $ab<0$，所以 $p\\Rightarrow q$. 但 $q$ 不一定推出 $p$，例如 $a=1$，$b=-1$，$c=0$ 时，方程为两条相交直线而不是双曲线，因此 $p$ 是 $q$ 的充分不必要条件.</p><p>对选项 D，当 $x\\ne0$ 时，$q$ 可写为 $\\dfrac{ax^2+bx+c}{x^2}>0$. 由于 $x^{2}>0$，有 $q\\Rightarrow p$. 反过来，$p$ 在 $x=0$ 且 $c>0$ 时可以成立，而 $q$ 在 $x=0$ 时无意义，所以 $p\\not\\Rightarrow q$. 因此 D 中 $p$ 是 $q$ 的必要不充分条件，选 D.</p>"
         },
         {
           "num": 5,
           "body": "对于 $\\mathbb{R}$ 上可导的任意函数 $f(x)$，若满足 $(x - 1)f'(x) \\ge 0$，则必有（ ）",
           "choices": [
-            "$f(0) + f(2) &#x3C; 2f(1)$",
+            "$f(0) + f(2) < 2f(1)$",
             "$f(0) + f(2)\\le 2f(1)$",
             "$f(0) + f(2)\\ge 2f(1)$",
             "$f(0) + f(2) > 2f(1)$"
           ],
           "answer": "C",
-          "solution": "当 $x&#x3C;1$ 时，$x-1&#x3C;0$，由 $(x-1)f'(x)\\geqslant0$ 可得 $f'(x)\\leqslant0$，所以 $f$ 在 $(-\\infty,1)$ 上单调不增，从而 $f(0)\\ge f(1)$. 当 $x>1$ 时，$x-1>0$，于是 $f'(x)\\geqslant0$，所以 $f$ 在 $(1,+\\infty)$ 上单调不减，从而 $f(2)\\ge f(1)$. 两式相加，得到 $f(0)+f(2)\\geqslant2f(1)$，选 C."
+          "solution": "当 $x<1$ 时，$x-1<0$，由 $(x-1)f'(x)\\geqslant0$ 可得 $f'(x)\\leqslant0$，所以 $f$ 在 $(-\\infty,1)$ 上单调不增，从而 $f(0)\\ge f(1)$. 当 $x>1$ 时，$x-1>0$，于是 $f'(x)\\geqslant0$，所以 $f$ 在 $(1,+\\infty)$ 上单调不减，从而 $f(2)\\ge f(1)$. 两式相加，得到 $f(0)+f(2)\\geqslant2f(1)$，选 C."
         },
         {
           "num": 6,
@@ -77,7 +77,7 @@
             "$-3$"
           ],
           "answer": "C",
-          "solution": "<p>在给定区间内 $x>0$，将不等式除以 $x$ 得 $x+a+\\dfrac{1}{x}\\geqslant0$，即 $a\\ge-\\left(x+\\dfrac{1}{x}\\right)$. 令 $g(x)=x+\\dfrac{1}{x}$，则 $g'(x)=1-\\dfrac1{x^2}&#x3C;0$（$0&#x3C;x\\le\\dfrac{1}{2}$），所以 $g$ 在 $\\left(0,\\dfrac{1}{2}\\right]$ 上递减，最小值在 $x=\\dfrac{1}{2}$ 处取得，且为 $g\\left(\\dfrac{1}{2}\\right)=\\dfrac{5}{2}$. 因而所有 $x$ 对应的下界中最大的一个是 $-\\dfrac{5}{2}$，必须且只需 $a\\ge-\\dfrac{5}{2}$.</p><p>取 $a=-\\dfrac{5}{2}$ 时，$x^{2}+ax+1=\\left(x-\\dfrac{1}{2}\\right)(x-2)$. 对 $0&#x3C;x\\le\\dfrac{1}{2}$，两个因式均非正，乘积非负，所以该取值确实满足题设. 因此最小值为 $-\\dfrac{5}{2}$，选 C.</p>"
+          "solution": "<p>在给定区间内 $x>0$，将不等式除以 $x$ 得 $x+a+\\dfrac{1}{x}\\geqslant0$，即 $a\\ge-\\left(x+\\dfrac{1}{x}\\right)$. 令 $g(x)=x+\\dfrac{1}{x}$，则 $g'(x)=1-\\dfrac1{x^2}<0$（$0<x\\le\\dfrac{1}{2}$），所以 $g$ 在 $\\left(0,\\dfrac{1}{2}\\right]$ 上递减，最小值在 $x=\\dfrac{1}{2}$ 处取得，且为 $g\\left(\\dfrac{1}{2}\\right)=\\dfrac{5}{2}$. 因而所有 $x$ 对应的下界中最大的一个是 $-\\dfrac{5}{2}$，必须且只需 $a\\ge-\\dfrac{5}{2}$.</p><p>取 $a=-\\dfrac{5}{2}$ 时，$x^{2}+ax+1=\\left(x-\\dfrac{1}{2}\\right)(x-2)$. 对 $0<x\\le\\dfrac{1}{2}$，两个因式均非正，乘积非负，所以该取值确实满足题设. 因此最小值为 $-\\dfrac{5}{2}$，选 C.</p>"
         },
         {
           "num": 7,
@@ -191,10 +191,10 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>已知函数 $f(x) = x^{3} + ax^{2} + bx + c$ 在 $x = -\\frac{2}{3}$ 与 $x = 1$ 时都取得极值.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$ 的值与函数 $f(x)$ 的单调区间；</p></li><li><p>若对 $x \\in [-1, 2]$，不等式 $f(x) &#x3C; c^{2}$ 恒成立，求 $c$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = x^{3} + ax^{2} + bx + c$ 在 $x = -\\frac{2}{3}$ 与 $x = 1$ 时都取得极值.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$ 的值与函数 $f(x)$ 的单调区间；</p></li><li><p>若对 $x \\in [-1, 2]$，不等式 $f(x) < c^{2}$ 恒成立，求 $c$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为两个点都是极值点，故导数在这两个点为零. 于是二次函数 $f'(x)=3x^{2}+2ax+b$ 的两个根为 $-\\dfrac{2}{3}$ 和 $1$，从而</p><p>$f'(x)=3\\left(x+\\dfrac{2}{3}\\right)(x-1)=3x^{2}-x-2$. 比较系数，得到 $2a=-1$，$b=-2$，即 $a=-\\dfrac{1}{2}$，$b=-2$.</p><p>由于 $f'(x)$ 的二次项系数为正，故在 $x&#x3C;-\\dfrac{2}{3}$ 和 $x>1$ 时 $f'(x)>0$，在 $-\\dfrac{2}{3}&#x3C;x&#x3C;1$ 时 $f'(x)&#x3C;0$. 所以 $f(x)$ 的单调递增区间为 $\\left(-\\infty,-\\dfrac{2}{3}\\right)$ 和 $(1,+\\infty)$，单调递减区间为 $\\left(-\\dfrac{2}{3},1\\right)$.</p></li><li><p>由上面的单调性，闭区间 $[-1,2]$ 上的最大值只需比较端点和驻点 $-1$，$-\\dfrac{2}{3}$，$1$，$2$ 处的函数值. 令 $h(x)=x^{3}-\\dfrac{1}{2}x^{2}-2x$，则 $f(x)=h(x)+c$. 逐一计算</p><p>$h(-1)=\\dfrac{1}{2}$，$h\\left(-\\dfrac{2}{3}\\right)=\\dfrac{22}{27}$，$h(1)=-\\dfrac{3}{2}$，$h(2)=2$. 其中最大值为 $h(2)=2$，所以 $\\max_{x\\in[-1,2]}f(x)=c+2$.</p><p>题设要求对区间内每个 $x$ 都有严格不等式 $f(x)&#x3C;c^{2}$，这等价于最大值也严格小于 $c^{2}$，即 $c+2&#x3C;c^{2}$. 移项并因式分解得 $(c-2)(c+1)>0$，所以 $c&#x3C;-1$ 或 $c>2$. 因此 $c$ 的取值范围为 $\\left(-\\infty,-1\\right)\\cup(2,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为两个点都是极值点，故导数在这两个点为零. 于是二次函数 $f'(x)=3x^{2}+2ax+b$ 的两个根为 $-\\dfrac{2}{3}$ 和 $1$，从而</p><p>$f'(x)=3\\left(x+\\dfrac{2}{3}\\right)(x-1)=3x^{2}-x-2$. 比较系数，得到 $2a=-1$，$b=-2$，即 $a=-\\dfrac{1}{2}$，$b=-2$.</p><p>由于 $f'(x)$ 的二次项系数为正，故在 $x<-\\dfrac{2}{3}$ 和 $x>1$ 时 $f'(x)>0$，在 $-\\dfrac{2}{3}<x<1$ 时 $f'(x)<0$. 所以 $f(x)$ 的单调递增区间为 $\\left(-\\infty,-\\dfrac{2}{3}\\right)$ 和 $(1,+\\infty)$，单调递减区间为 $\\left(-\\dfrac{2}{3},1\\right)$.</p></li><li><p>由上面的单调性，闭区间 $[-1,2]$ 上的最大值只需比较端点和驻点 $-1$，$-\\dfrac{2}{3}$，$1$，$2$ 处的函数值. 令 $h(x)=x^{3}-\\dfrac{1}{2}x^{2}-2x$，则 $f(x)=h(x)+c$. 逐一计算</p><p>$h(-1)=\\dfrac{1}{2}$，$h\\left(-\\dfrac{2}{3}\\right)=\\dfrac{22}{27}$，$h(1)=-\\dfrac{3}{2}$，$h(2)=2$. 其中最大值为 $h(2)=2$，所以 $\\max_{x\\in[-1,2]}f(x)=c+2$.</p><p>题设要求对区间内每个 $x$ 都有严格不等式 $f(x)<c^{2}$，这等价于最大值也严格小于 $c^{2}$，即 $c+2<c^{2}$. 移项并因式分解得 $(c-2)(c+1)>0$，所以 $c<-1$ 或 $c>2$. 因此 $c$ 的取值范围为 $\\left(-\\infty,-1\\right)\\cup(2,+\\infty)$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -219,10 +219,10 @@
         },
         {
           "num": 21,
-          "body": "<p>如图，椭圆 $Q: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的右焦点为 $F(c, 0)$，过点 $F$ 的一动直线 $m$ 绕点 $F$ 转动，并且交椭圆于 $A$，$B$ 两点，$P$ 为线段 $AB$ 的中点.</p><ol class=\"enumerate\"><li><p>求点 $P$ 的轨迹 $H$ 的方程；</p></li><li><p>在 $Q$ 的方程中，令 $a^{2} = 1 + \\cos \\theta + \\sin \\theta$，$b^{2} = \\sin \\theta$（$0 &#x3C; \\theta \\le \\frac{\\pi}{2}$），设轨迹 $H$ 的最高点和最低点分别为 $M$ 和 $N$. 当 $\\theta$ 为何值时，$\\triangle MNF$ 为一个正三角形？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，椭圆 $Q: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的右焦点为 $F(c, 0)$，过点 $F$ 的一动直线 $m$ 绕点 $F$ 转动，并且交椭圆于 $A$，$B$ 两点，$P$ 为线段 $AB$ 的中点.</p><ol class=\"enumerate\"><li><p>求点 $P$ 的轨迹 $H$ 的方程；</p></li><li><p>在 $Q$ 的方程中，令 $a^{2} = 1 + \\cos \\theta + \\sin \\theta$，$b^{2} = \\sin \\theta$（$0 < \\theta \\le \\frac{\\pi}{2}$），设轨迹 $H$ 的最高点和最低点分别为 $M$ 和 $N$. 当 $\\theta$ 为何值时，$\\triangle MNF$ 为一个正三角形？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>先考虑非竖直直线 $m$，设其斜率为 $k$，则 $m$ 的方程为 $y=k(x-c)$. 代入椭圆方程得</p><p>$\\dfrac{x^2}{a^2}+\\dfrac{k^2(x-c)^2}{b^2}=1$，即</p><p>$(b^{2}+a^{2}k^{2})x^{2}-2a^{2}k^{2}cx+a^{2}k^{2}c^{2}-a^{2}b^{2}=0$.</p><p>设两个交点的横坐标为 $x_{1}$，$x_{2}$，由韦达定理</p><p>$x_{1}+x_{2}=\\dfrac{2a^2k^2c}{b^2+a^2k^2}$. 因为 $P$ 是弦中点，所以</p><p>$x_{P}=\\dfrac{x_1+x_2}{2}=\\dfrac{a^2k^2c}{b^2+a^2k^2}$.</p><p>又因 $P$ 在直线 $m$ 上，</p><p>$y_{P}=k(x_{P}-c)=-\\dfrac{b^2kc}{b^2+a^2k^2}$.</p><p>由 $c-x_{P}=\\dfrac{b^2c}{b^2+a^2k^2}$，得到</p><p>$\\dfrac{x_P}{c-x_P}=\\dfrac{a^2k^2}{b^2}$，且 $k=-\\dfrac{y_P}{c-x_P}$. 消去 $k$，得</p><p>$a^{2}y_{P}^{2}=b^{2}x_{P}(c-x_{P})$. 配方可得</p><p>$b^{2}\\left(x_{P}-\\dfrac{c}{2}\\right)^{2}+a^{2}y_{P}^{2}=\\dfrac{b^2c^2}{4}$.</p><p>当 $m$ 为过 $F$ 的竖直直线 $x=c$ 时，弦中点为 $P=(c,0)$，代入上式仍成立. 所以点 $P$ 的轨迹为</p><p>$H:\\ b^{2}\\left(x-\\dfrac{c}{2}\\right)^{2}+a^{2}y^{2}=\\dfrac{b^2c^2}{4}$.</p><p>反过来，若点 $P=(x_{P},y_{P})$ 满足该方程且 $x_{P}&#x3C;c$，令</p><p>$k=-\\dfrac{y_P}{c-x_P}$. 由等价关系</p><p>$a^{2}y_{P}^{2}=b^{2}x_{P}(c-x_{P})$ 得</p><p>$a^{2}k^{2}(c-x_{P})=b^{2}x_{P}$，从而</p><p>$x_{P}=\\dfrac{a^2k^2c}{b^2+a^2k^2}$，并且</p><p>$y_{P}=k(x_{P}-c)$. 因此直线 $y=k(x-c)$ 与椭圆所成弦的中点正是 $P$；当 $x_{P}=c$ 时，轨迹方程给出 $y_{P}=0$，对应竖直弦. 所以该椭圆恰为点 $P$ 的完整轨迹.</p></li><li><p>由椭圆焦点关系 $c^{2}=a^{2}-b^{2}$，结合题设得 $c^{2}=1+\\cos\\theta$. 将轨迹方程化为</p><p>$\\dfrac{\\left(x-\\frac{c}{2}\\right)^2}{(\\frac{c}{2})^2}+\\dfrac{y^2}{(b\\frac{c}{(2a)})^2}=1$，所以</p><p>$M=\\left(\\dfrac{c}{2},\\dfrac{bc}{2a}\\right)$，$N=\\left(\\dfrac{c}{2},-\\dfrac{bc}{2a}\\right)$.</p><p>因此 $MN=\\dfrac{bc}{a}$，且</p><p>$FM^{2}=FN^{2}=\\left(\\dfrac{c}{2}\\right)^{2}+\\left(\\dfrac{bc}{2a}\\right)^{2}=\\dfrac{c^2(a^2+b^2)}{4a^2}$.</p><p>三角形 $MNF$ 已有 $FM=FN$，要成为正三角形只需且必须再有 $FM=MN$. 两边平方，利用 $a$，$b$，$c>0$，得到</p><p>$\\dfrac{c^2(a^2+b^2)}{4a^2}=\\dfrac{b^2c^2}{a^2}$，即 $a^{2}=3b^{2}$.</p><p>代入 $a^{2}=1+\\cos\\theta+\\sin\\theta$，$b^{2}=\\sin\\theta$，得到</p><p>$1+\\cos\\theta=2\\sin\\theta$. 令 $s=\\sin\\theta$，则 $\\cos\\theta=2s-1$. 联立</p><p>$s^{2}+(2s-1)^{2}=1$，得 $5s^{2}-4s=0$. 因 $0&#x3C;\\theta\\le\\dfrac\\pi2$，有 $s>0$，所以 $s=\\dfrac{4}{5}$，$\\cos\\theta=\\dfrac{3}{5}$. 因而</p><p>$\\theta=\\arctan\\dfrac{4}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>先考虑非竖直直线 $m$，设其斜率为 $k$，则 $m$ 的方程为 $y=k(x-c)$. 代入椭圆方程得</p><p>$\\dfrac{x^2}{a^2}+\\dfrac{k^2(x-c)^2}{b^2}=1$，即</p><p>$(b^{2}+a^{2}k^{2})x^{2}-2a^{2}k^{2}cx+a^{2}k^{2}c^{2}-a^{2}b^{2}=0$.</p><p>设两个交点的横坐标为 $x_{1}$，$x_{2}$，由韦达定理</p><p>$x_{1}+x_{2}=\\dfrac{2a^2k^2c}{b^2+a^2k^2}$. 因为 $P$ 是弦中点，所以</p><p>$x_{P}=\\dfrac{x_1+x_2}{2}=\\dfrac{a^2k^2c}{b^2+a^2k^2}$.</p><p>又因 $P$ 在直线 $m$ 上，</p><p>$y_{P}=k(x_{P}-c)=-\\dfrac{b^2kc}{b^2+a^2k^2}$.</p><p>由 $c-x_{P}=\\dfrac{b^2c}{b^2+a^2k^2}$，得到</p><p>$\\dfrac{x_P}{c-x_P}=\\dfrac{a^2k^2}{b^2}$，且 $k=-\\dfrac{y_P}{c-x_P}$. 消去 $k$，得</p><p>$a^{2}y_{P}^{2}=b^{2}x_{P}(c-x_{P})$. 配方可得</p><p>$b^{2}\\left(x_{P}-\\dfrac{c}{2}\\right)^{2}+a^{2}y_{P}^{2}=\\dfrac{b^2c^2}{4}$.</p><p>当 $m$ 为过 $F$ 的竖直直线 $x=c$ 时，弦中点为 $P=(c,0)$，代入上式仍成立. 所以点 $P$ 的轨迹为</p><p>$H:\\ b^{2}\\left(x-\\dfrac{c}{2}\\right)^{2}+a^{2}y^{2}=\\dfrac{b^2c^2}{4}$.</p><p>反过来，若点 $P=(x_{P},y_{P})$ 满足该方程且 $x_{P}<c$，令</p><p>$k=-\\dfrac{y_P}{c-x_P}$. 由等价关系</p><p>$a^{2}y_{P}^{2}=b^{2}x_{P}(c-x_{P})$ 得</p><p>$a^{2}k^{2}(c-x_{P})=b^{2}x_{P}$，从而</p><p>$x_{P}=\\dfrac{a^2k^2c}{b^2+a^2k^2}$，并且</p><p>$y_{P}=k(x_{P}-c)$. 因此直线 $y=k(x-c)$ 与椭圆所成弦的中点正是 $P$；当 $x_{P}=c$ 时，轨迹方程给出 $y_{P}=0$，对应竖直弦. 所以该椭圆恰为点 $P$ 的完整轨迹.</p></li><li><p>由椭圆焦点关系 $c^{2}=a^{2}-b^{2}$，结合题设得 $c^{2}=1+\\cos\\theta$. 将轨迹方程化为</p><p>$\\dfrac{\\left(x-\\frac{c}{2}\\right)^2}{(\\frac{c}{2})^2}+\\dfrac{y^2}{(b\\frac{c}{(2a)})^2}=1$，所以</p><p>$M=\\left(\\dfrac{c}{2},\\dfrac{bc}{2a}\\right)$，$N=\\left(\\dfrac{c}{2},-\\dfrac{bc}{2a}\\right)$.</p><p>因此 $MN=\\dfrac{bc}{a}$，且</p><p>$FM^{2}=FN^{2}=\\left(\\dfrac{c}{2}\\right)^{2}+\\left(\\dfrac{bc}{2a}\\right)^{2}=\\dfrac{c^2(a^2+b^2)}{4a^2}$.</p><p>三角形 $MNF$ 已有 $FM=FN$，要成为正三角形只需且必须再有 $FM=MN$. 两边平方，利用 $a$，$b$，$c>0$，得到</p><p>$\\dfrac{c^2(a^2+b^2)}{4a^2}=\\dfrac{b^2c^2}{a^2}$，即 $a^{2}=3b^{2}$.</p><p>代入 $a^{2}=1+\\cos\\theta+\\sin\\theta$，$b^{2}=\\sin\\theta$，得到</p><p>$1+\\cos\\theta=2\\sin\\theta$. 令 $s=\\sin\\theta$，则 $\\cos\\theta=2s-1$. 联立</p><p>$s^{2}+(2s-1)^{2}=1$，得 $5s^{2}-4s=0$. 因 $0<\\theta\\le\\dfrac\\pi2$，有 $s>0$，所以 $s=\\dfrac{4}{5}$，$\\cos\\theta=\\dfrac{3}{5}$. 因而</p><p>$\\theta=\\arctan\\dfrac{4}{3}$.</p></li></ol>"
         },
         {
           "num": 22,

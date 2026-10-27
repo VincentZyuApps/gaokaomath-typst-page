@@ -194,7 +194,7 @@
           "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $A - C = 90^{\\circ}$，$a + c = \\sqrt{2}b$，求 $C$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由三角形内角和及 $A-C=90^{\\circ}$，得 $A=C+90^{\\circ}$，$B=90^{\\circ}-2C$，所以 $0&#x3C;C&#x3C;45^{\\circ}$. 根据正弦定理，条件 $a+c=\\sqrt{2}b$ 等价于</p>\n$$\n\\sin A+\\sin C=\\sqrt{2}\\sin B\n$$\n<p>代入 $A=C+90^{\\circ}$ 和 $B=90^{\\circ}-2C$，得 $\\cos C+\\sin C=\\sqrt{2}\\cos 2C$，即</p>\n$$\n\\cos\\left(C-45^{\\circ}\\right)=\\cos 2C\n$$\n<p>因为 $C-45^{\\circ}\\in(-45^{\\circ},0)$，而 $2C\\in(0,90^{\\circ})$，两角的余弦相等时只能有 $C-45^{\\circ}=-2C$. 因此 $3C=45^{\\circ}$，故 $C=15^{\\circ}$.</p>"
+          "solution": "<p>由三角形内角和及 $A-C=90^{\\circ}$，得 $A=C+90^{\\circ}$，$B=90^{\\circ}-2C$，所以 $0<C<45^{\\circ}$. 根据正弦定理，条件 $a+c=\\sqrt{2}b$ 等价于</p>\n$$\n\\sin A+\\sin C=\\sqrt{2}\\sin B\n$$\n<p>代入 $A=C+90^{\\circ}$ 和 $B=90^{\\circ}-2C$，得 $\\cos C+\\sin C=\\sqrt{2}\\cos 2C$，即</p>\n$$\n\\cos\\left(C-45^{\\circ}\\right)=\\cos 2C\n$$\n<p>因为 $C-45^{\\circ}\\in(-45^{\\circ},0)$，而 $2C\\in(0,90^{\\circ})$，两角的余弦相等时只能有 $C-45^{\\circ}=-2C$. 因此 $3C=45^{\\circ}$，故 $C=15^{\\circ}$.</p>"
         },
         {
           "num": 18,
@@ -212,10 +212,10 @@
         },
         {
           "num": 20,
-          "body": "<p>设数列 $\\{a_{n}\\}$ 满足 $a_{1} = 0$ 且 $\\frac{1}{1 - a_{n + 1}}-\\frac{1}{1 - a_{n}}= 1$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $b_{n} = \\frac{1 - \\sqrt{a_{n+1}}}{\\sqrt{n}}$，记 $S_{n} = \\sum_{k=1}^{n}b_{k}$，证明：$S_{n} &#x3C; 1$.</p></li></ol>",
+          "body": "<p>设数列 $\\{a_{n}\\}$ 满足 $a_{1} = 0$ 且 $\\frac{1}{1 - a_{n + 1}}-\\frac{1}{1 - a_{n}}= 1$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $b_{n} = \\frac{1 - \\sqrt{a_{n+1}}}{\\sqrt{n}}$，记 $S_{n} = \\sum_{k=1}^{n}b_{k}$，证明：$S_{n} < 1$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $c_{n}=\\frac{1}{1-a_{n}}$，则 $c_{1}=1$，且题设递推式给出 $c_{n+1}-c_{n}=1$. 因此 $\\{c_{n}\\}$ 是首项为 $1$、公差为 $1$ 的等差数列，故 $c_{n}=n$，从而</p>\n$$\na_{n}=1-\\frac{1}{n}=\\frac{n-1}{n}\n$$\n<p>由此 $a_{n+1}=\\frac{n}{n+1}$，所以</p>\n$$\nb_{n}=\\frac{1-\\sqrt{\\frac{n}{n+1}}}{\\sqrt{n}}=\\frac{\\sqrt{n+1}-\\sqrt{n}}{\\sqrt{n}\\sqrt{n+1}}=\\frac{1}{\\sqrt{n}}-\\frac{1}{\\sqrt{n+1}}\n$$\n<p>于是</p>\n$$\nS_{n}=\\sum_{k=1}^{n}\\left(\\frac{1}{\\sqrt{k}}-\\frac{1}{\\sqrt{k+1}}\\right)=1-\\frac{1}{\\sqrt{n+1}}&#x3C;1\n$$"
+          "solution": "<p>令 $c_{n}=\\frac{1}{1-a_{n}}$，则 $c_{1}=1$，且题设递推式给出 $c_{n+1}-c_{n}=1$. 因此 $\\{c_{n}\\}$ 是首项为 $1$、公差为 $1$ 的等差数列，故 $c_{n}=n$，从而</p>\n$$\na_{n}=1-\\frac{1}{n}=\\frac{n-1}{n}\n$$\n<p>由此 $a_{n+1}=\\frac{n}{n+1}$，所以</p>\n$$\nb_{n}=\\frac{1-\\sqrt{\\frac{n}{n+1}}}{\\sqrt{n}}=\\frac{\\sqrt{n+1}-\\sqrt{n}}{\\sqrt{n}\\sqrt{n+1}}=\\frac{1}{\\sqrt{n}}-\\frac{1}{\\sqrt{n+1}}\n$$\n<p>于是</p>\n$$\nS_{n}=\\sum_{k=1}^{n}\\left(\\frac{1}{\\sqrt{k}}-\\frac{1}{\\sqrt{k+1}}\\right)=1-\\frac{1}{\\sqrt{n+1}}<1\n$$"
         },
         {
           "num": 21,
@@ -226,10 +226,10 @@
         },
         {
           "num": 22,
-          "body": "<ol class=\"enumerate\"><li><p>设函数 $f(x) = \\ln (1 + x) - \\frac{2x}{x + 2}$. 证明：当 $x > 0$ 时，$f(x) > 0$；</p></li><li><p>从编号 $1$ 到 $100$ 的 $100$ 张卡片中每次随机抽取一张，然后放回，用这种方式连续抽取 $20$ 次. 设抽得的 $20$ 个号码互不相同的概率为 $p$. 证明：$p &#x3C; \\left(\\frac{9}{10}\\right)^{19}&#x3C; \\frac{1}{\\mathrm{e}^{2}}$.</p></li></ol>",
+          "body": "<ol class=\"enumerate\"><li><p>设函数 $f(x) = \\ln (1 + x) - \\frac{2x}{x + 2}$. 证明：当 $x > 0$ 时，$f(x) > 0$；</p></li><li><p>从编号 $1$ 到 $100$ 的 $100$ 张卡片中每次随机抽取一张，然后放回，用这种方式连续抽取 $20$ 次. 设抽得的 $20$ 个号码互不相同的概率为 $p$. 证明：$p < \\left(\\frac{9}{10}\\right)^{19}< \\frac{1}{\\mathrm{e}^{2}}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $x>-1$，且 $f(0)=0$. 对 $x>-1$ 求导，得</p>\n$$\nf'(x)=\\frac{1}{1+x}-\\frac{4}{(x+2)^{2}}=\\frac{x^{2}}{(x+1)(x+2)^{2}}\n$$\n<p>当 $x>0$ 时，分子 $x^{2}>0$，分母 $(x+1)(x+2)^{2}>0$，所以 $f'(x)>0$. 因而 $f(x)$ 在 $(0,+\\infty)$ 上单调递增，故对任意 $x>0$，有 $f(x)>f(0)=0$.</p></li><li><p>连续抽取且每次放回时，第一次抽取没有限制，后面第 $k+1$ 次抽取要避开前面已经抽到的 $k$ 个号码，因此</p>\n$$\np=\\frac{100}{100}\\cdot\\frac{99}{100}\\cdot\\frac{98}{100}\\cdots\\frac{81}{100}=\\prod_{k=1}^{19}\\left(1-\\frac{k}{100}\\right)\n$$\n<p>对 $k=1$，$2$，$\\ldots$，$9$，将第 $k$ 个因子和第 $20-k$ 个因子配对，有</p>\n$$\n\\left(1-\\frac{k}{100}\\right)\\left(1-\\frac{20-k}{100}\\right)  =\\left(\\frac{9}{10}+\\frac{10-k}{100}\\right)\\left(\\frac{9}{10}-\\frac{10-k}{100}\\right)&#x3C;\\left(\\frac{9}{10}\\right)^{2}\n$$\n<p>中间因子为 $1-\\frac{10}{100}=\\frac{9}{10}$，所以 $p&#x3C;\\left(\\frac{9}{10}\\right)^{19}$.</p><p>由第（1）问已证结论，取 $x=\\frac{1}{9}$，得</p>\n$$\n\\ln\\frac{10}{9}>\\frac{2\\cdot\\frac{1}{9}}{2+\\frac{1}{9}}=\\frac{2}{19}\n$$\n<p>于是 $19\\ln\\frac{9}{10}=-19\\ln\\frac{10}{9}&#x3C;-2$. 由于指数函数单调递增，得到 $\\left(\\frac{9}{10}\\right)^{19}&#x3C;\\mathrm{e}^{-2}=\\frac{1}{\\mathrm{e}^{2}}$. 综上，$p &#x3C; \\left(\\frac{9}{10}\\right)^{19}&#x3C; \\frac{1}{\\mathrm{e}^{2}}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $x>-1$，且 $f(0)=0$. 对 $x>-1$ 求导，得</p>\n$$\nf'(x)=\\frac{1}{1+x}-\\frac{4}{(x+2)^{2}}=\\frac{x^{2}}{(x+1)(x+2)^{2}}\n$$\n<p>当 $x>0$ 时，分子 $x^{2}>0$，分母 $(x+1)(x+2)^{2}>0$，所以 $f'(x)>0$. 因而 $f(x)$ 在 $(0,+\\infty)$ 上单调递增，故对任意 $x>0$，有 $f(x)>f(0)=0$.</p></li><li><p>连续抽取且每次放回时，第一次抽取没有限制，后面第 $k+1$ 次抽取要避开前面已经抽到的 $k$ 个号码，因此</p>\n$$\np=\\frac{100}{100}\\cdot\\frac{99}{100}\\cdot\\frac{98}{100}\\cdots\\frac{81}{100}=\\prod_{k=1}^{19}\\left(1-\\frac{k}{100}\\right)\n$$\n<p>对 $k=1$，$2$，$\\ldots$，$9$，将第 $k$ 个因子和第 $20-k$ 个因子配对，有</p>\n$$\n\\left(1-\\frac{k}{100}\\right)\\left(1-\\frac{20-k}{100}\\right)  =\\left(\\frac{9}{10}+\\frac{10-k}{100}\\right)\\left(\\frac{9}{10}-\\frac{10-k}{100}\\right)<\\left(\\frac{9}{10}\\right)^{2}\n$$\n<p>中间因子为 $1-\\frac{10}{100}=\\frac{9}{10}$，所以 $p<\\left(\\frac{9}{10}\\right)^{19}$.</p><p>由第（1）问已证结论，取 $x=\\frac{1}{9}$，得</p>\n$$\n\\ln\\frac{10}{9}>\\frac{2\\cdot\\frac{1}{9}}{2+\\frac{1}{9}}=\\frac{2}{19}\n$$\n<p>于是 $19\\ln\\frac{9}{10}=-19\\ln\\frac{10}{9}<-2$. 由于指数函数单调递增，得到 $\\left(\\frac{9}{10}\\right)^{19}<\\mathrm{e}^{-2}=\\frac{1}{\\mathrm{e}^{2}}$. 综上，$p < \\left(\\frac{9}{10}\\right)^{19}< \\frac{1}{\\mathrm{e}^{2}}$.</p></li></ol>"
         }
       ]
     }

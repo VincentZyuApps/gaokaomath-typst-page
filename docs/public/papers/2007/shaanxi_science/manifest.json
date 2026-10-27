@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "已知全集 $U = \\{1, 2, 3, 4, 5\\}$，集合 $A = \\{x \\in \\mathbb{Z}\\mid |x - 3| &#x3C; 2\\}$，则集合 $\\complement_{U} A$ 等于（ ）",
+          "body": "已知全集 $U = \\{1, 2, 3, 4, 5\\}$，集合 $A = \\{x \\in \\mathbb{Z}\\mid |x - 3| < 2\\}$，则集合 $\\complement_{U} A$ 等于（ ）",
           "choices": [
             "$\\{1, 2, 3, 4\\}$",
             "$\\{2, 3, 4\\}$",
@@ -29,7 +29,7 @@
             "$\\{5\\}$"
           ],
           "answer": "C",
-          "solution": "<p>由 $|x-3|&#x3C;2$，得 $1&#x3C;x&#x3C;5$. 又 $x\\in\\mathbb{Z}$，所以</p><p>$A=\\{2,3,4\\}$. 因而</p><p>$\\complement_{U} A=\\{1,5\\}$，故选 C.</p>"
+          "solution": "<p>由 $|x-3|<2$，得 $1<x<5$. 又 $x\\in\\mathbb{Z}$，所以</p><p>$A=\\{2,3,4\\}$. 因而</p><p>$\\complement_{U} A=\\{1,5\\}$，故选 C.</p>"
         },
         {
           "num": 3,
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "<p>给出如下三个命题：</p><ol class=\"enumerate\"><li><p>四个非零实数 $a$，$b$，$c$，$d$ 依次成等比数列的充要条件是 $ad = bc$；</p></li><li><p>设 $a$，$b \\in \\mathbb{R}$，且 $ab \\neq 0$，若 $\\frac{a}{b}&#x3C; 1$，则 $\\frac{b}{a}> 1$；</p></li><li><p>若 $f(x)=\\log_{2}x$，则 $f(|x|)$ 是偶函数.</p></li></ol><p>其中不正确的序号是（ ）</p>",
+          "body": "<p>给出如下三个命题：</p><ol class=\"enumerate\"><li><p>四个非零实数 $a$，$b$，$c$，$d$ 依次成等比数列的充要条件是 $ad = bc$；</p></li><li><p>设 $a$，$b \\in \\mathbb{R}$，且 $ab \\neq 0$，若 $\\frac{a}{b}< 1$，则 $\\frac{b}{a}> 1$；</p></li><li><p>若 $f(x)=\\log_{2}x$，则 $f(|x|)$ 是偶函数.</p></li></ol><p>其中不正确的序号是（ ）</p>",
           "choices": [
             "①②③",
             "①②",
@@ -113,7 +113,7 @@
             "①③"
           ],
           "answer": "B",
-          "solution": "<p>命题$①$不正确. 例如取 $a=1$，$b=2$，$c=1$，$d=2$，则 $ad=bc=2$，但相邻三项的比值依次为 $2$，$\\frac{1}{2}$，$2$，不是等比数列.</p><p>命题$②$不正确. 例如取 $a=-1$，$b=1$，则 $ab\\neq0$，且 $\\frac{a}{b}=-1&#x3C;1$，但 $\\frac{b}{a}=-1$ 不大于 $1$.</p><p>第三个命题正确. 对定义域内任意 $x\\neq0$，有</p>\n$$\nf(|-x|)=\\log_{2}|-x|=\\log_{2}|x|=f(|x|)\n$$\n<p>所以 $f(|x|)$ 是偶函数. 因此不正确的命题序号为 $1$，$2$，故选 B.</p>"
+          "solution": "<p>命题$①$不正确. 例如取 $a=1$，$b=2$，$c=1$，$d=2$，则 $ad=bc=2$，但相邻三项的比值依次为 $2$，$\\frac{1}{2}$，$2$，不是等比数列.</p><p>命题$②$不正确. 例如取 $a=-1$，$b=1$，则 $ab\\neq0$，且 $\\frac{a}{b}=-1<1$，但 $\\frac{b}{a}=-1$ 不大于 $1$.</p><p>第三个命题正确. 对定义域内任意 $x\\neq0$，有</p>\n$$\nf(|-x|)=\\log_{2}|-x|=\\log_{2}|x|=f(|x|)\n$$\n<p>所以 $f(|x|)$ 是偶函数. 因此不正确的命题序号为 $1$，$2$，故选 B.</p>"
         },
         {
           "num": 10,
@@ -129,7 +129,7 @@
         },
         {
           "num": 11,
-          "body": "$f(x)$ 是定义在 $(0, + \\infty)$ 上的非负可导函数，且满足 $x f'(x) + f(x) \\le 0$. 对任意正数 $a$，$b$，若 $a &#x3C; b$，则必有（ ）",
+          "body": "$f(x)$ 是定义在 $(0, + \\infty)$ 上的非负可导函数，且满足 $x f'(x) + f(x) \\le 0$. 对任意正数 $a$，$b$，若 $a < b$，则必有（ ）",
           "choices": [
             "$a f(b)\\le b f(a)$",
             "$b f(a)\\le a f(b)$",
@@ -137,7 +137,7 @@
             "$b f(b)\\le f(a)$"
           ],
           "answer": "A",
-          "solution": "<p>由题设</p>\n$$\n(xf(x))'=xf'(x)+f(x)\\leqslant0\n$$\n<p>所以函数 $xf(x)$ 在 $(0,+\\infty)$ 上单调不增. 同时由 $xf'(x)+f(x)\\leqslant0$ 及 $x>0$、$f(x)\\geqslant0$，得 $f'(x)\\leqslant0$，故 $f(x)$ 单调不增.</p><p>当 $a&#x3C;b$ 时，$f(b)\\le f(a)$，且 $f(a)\\geqslant0$，于是</p>\n$$\na f(b)\\le a f(a)\\le b f(a)\n$$\n<p>因此必有 $a f(b)\\le b f(a)$，故选 A.</p>"
+          "solution": "<p>由题设</p>\n$$\n(xf(x))'=xf'(x)+f(x)\\leqslant0\n$$\n<p>所以函数 $xf(x)$ 在 $(0,+\\infty)$ 上单调不增. 同时由 $xf'(x)+f(x)\\leqslant0$ 及 $x>0$、$f(x)\\geqslant0$，得 $f'(x)\\leqslant0$，故 $f(x)$ 单调不增.</p><p>当 $a<b$ 时，$f(b)\\le f(a)$，且 $f(a)\\geqslant0$，于是</p>\n$$\na f(b)\\le a f(a)\\le b f(a)\n$$\n<p>因此必有 $a f(b)\\le b f(a)$，故选 A.</p>"
         },
         {
           "num": 12,
@@ -215,7 +215,7 @@
           "body": "<p>设函数 $f(x) = \\frac{\\mathrm{e}^{x}}{x^{2} + a x + a}$，其中 $a$ 为实数.</p><ol class=\"enumerate\"><li><p>若 $f(x)$ 的定义域为 $\\mathbb{R}$，求 $a$ 的取值范围；</p></li><li><p>当 $f(x)$ 的定义域为 $\\mathbb{R}$ 时，求 $f(x)$ 的单调减区间.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f(x)$ 的定义域为 $\\mathbb{R}$，等价于分母 $x^{2}+ax+a$ 对任意实数 $x$ 都不为零. 因为该二次式的二次项系数为正，所以这等价于其判别式小于零，即</p>\n$$\n\\Delta=a^{2}-4a&#x3C;0\n$$\n<p>解得 $0&#x3C;a&#x3C;4$.</p></li><li><p>当 $0&#x3C;a&#x3C;4$ 时，分母始终为正. 求导得</p>\n$$\nf'(x)=\\frac{\\mathrm{e}^{x}(x^{2}+ax+a)-\\mathrm{e}^{x}(2x+a)}{(x^{2}+ax+a)^{2}}=\\frac{\\mathrm{e}^{x} x(x+a-2)}{(x^{2}+ax+a)^{2}}\n$$\n<p>由于 $\\mathrm{e}^{x}>0$ 且分母平方大于零，$f'(x)$ 的符号由 $x(x+a-2)$ 决定. 当 $0&#x3C;a&#x3C;2$ 时，$0&#x3C;2-a$，故 $f'(x)&#x3C;0$ 的区间为 $(0,2-a)$；当 $a=2$ 时，$f'(x)\\geqslant0$，没有单调减区间；当 $2&#x3C;a&#x3C;4$ 时，$2-a&#x3C;0$，故 $f'(x)&#x3C;0$ 的区间为 $(2-a,0)$. 所以单调减区间为</p>\n$$\n\\begin{cases}(0,2-a),&#x26;0&#x3C;a&#x3C;2,\\\\  \\varnothing,&#x26;a=2,\\\\  (2-a,0),&#x26;2&#x3C;a&#x3C;4.\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f(x)$ 的定义域为 $\\mathbb{R}$，等价于分母 $x^{2}+ax+a$ 对任意实数 $x$ 都不为零. 因为该二次式的二次项系数为正，所以这等价于其判别式小于零，即</p>\n$$\n\\Delta=a^{2}-4a<0\n$$\n<p>解得 $0<a<4$.</p></li><li><p>当 $0<a<4$ 时，分母始终为正. 求导得</p>\n$$\nf'(x)=\\frac{\\mathrm{e}^{x}(x^{2}+ax+a)-\\mathrm{e}^{x}(2x+a)}{(x^{2}+ax+a)^{2}}=\\frac{\\mathrm{e}^{x} x(x+a-2)}{(x^{2}+ax+a)^{2}}\n$$\n<p>由于 $\\mathrm{e}^{x}>0$ 且分母平方大于零，$f'(x)$ 的符号由 $x(x+a-2)$ 决定. 当 $0<a<2$ 时，$0<2-a$，故 $f'(x)<0$ 的区间为 $(0,2-a)$；当 $a=2$ 时，$f'(x)\\geqslant0$，没有单调减区间；当 $2<a<4$ 时，$2-a<0$，故 $f'(x)<0$ 的区间为 $(2-a,0)$. 所以单调减区间为</p>\n$$\n\\begin{cases}(0,2-a),&0<a<2,\\\\  \\varnothing,&a=2,\\\\  (2-a,0),&2<a<4.\\end{cases}\n$$\n</li></ol>"
         },
         {
           "num": 21,

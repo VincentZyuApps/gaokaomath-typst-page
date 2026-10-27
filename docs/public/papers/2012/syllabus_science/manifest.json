@@ -89,7 +89,7 @@
             "$\\frac{\\sqrt{5}}{3}$"
           ],
           "answer": "A",
-          "solution": "<p>平方得</p>\n$$\n(\\sin\\alpha+\\cos\\alpha)^{2}=1+\\sin2\\alpha=\\frac{1}{3}\n$$\n<p>所以 $\\sin2\\alpha=-\\frac{2}{3}$. 又因 $\\alpha$ 为第二象限角，$\\sin\\alpha>0$、$\\cos\\alpha&#x3C;0$，故 $\\sin\\alpha-\\cos\\alpha>0$. 从而</p>\n$$\n(\\sin\\alpha-\\cos\\alpha)^{2}=1-\\sin2\\alpha=\\frac{5}{3}\n$$\n<p>并且</p>\n$$\n\\cos2\\alpha=(\\cos\\alpha-\\sin\\alpha)(\\cos\\alpha+\\sin\\alpha)  =-(\\sin\\alpha-\\cos\\alpha)(\\sin\\alpha+\\cos\\alpha)  =-\\frac{\\sqrt{5}}{3}\n$$\n<p>因此选 A.</p>"
+          "solution": "<p>平方得</p>\n$$\n(\\sin\\alpha+\\cos\\alpha)^{2}=1+\\sin2\\alpha=\\frac{1}{3}\n$$\n<p>所以 $\\sin2\\alpha=-\\frac{2}{3}$. 又因 $\\alpha$ 为第二象限角，$\\sin\\alpha>0$、$\\cos\\alpha<0$，故 $\\sin\\alpha-\\cos\\alpha>0$. 从而</p>\n$$\n(\\sin\\alpha-\\cos\\alpha)^{2}=1-\\sin2\\alpha=\\frac{5}{3}\n$$\n<p>并且</p>\n$$\n\\cos2\\alpha=(\\cos\\alpha-\\sin\\alpha)(\\cos\\alpha+\\sin\\alpha)  =-(\\sin\\alpha-\\cos\\alpha)(\\sin\\alpha+\\cos\\alpha)  =-\\frac{\\sqrt{5}}{3}\n$$\n<p>因此选 A.</p>"
         },
         {
           "num": 8,
@@ -101,19 +101,19 @@
             "$\\frac{4}{5}$"
           ],
           "answer": "C",
-          "solution": "<p>双曲线写成</p>\n$$\n\\frac{x^{2}}{2}-\\frac{y^{2}}{2}=1\n$$\n<p>故 $a=b=\\sqrt{2}$、$c=\\sqrt{a^{2}+b^{2}}=2$，两焦点间距离为 $2c=4$. 设 $PF_{2}=r$，则由已知 $PF_{1}=2r$. 左支上的点满足 $PF_{1}&#x3C;PF_{2}$，而已知 $PF_{1}>PF_{2}$，所以 $P$ 在右支上，且双曲线定义给出</p>\n$$\nPF_{1}-PF_{2}=2a=2\\sqrt{2}\n$$\n<p>解得 $PF_{2}=2\\sqrt{2}$、$PF_{1}=4\\sqrt{2}$. 在三角形 $F_{1}PF_{2}$ 中用余弦定理：</p>\n$$\n4^{2}=(4\\sqrt{2})^{2}+(2\\sqrt{2})^{2}  -2(4\\sqrt{2})(2\\sqrt{2})\\cos\\angle F_{1}PF_{2}\n$$\n<p>所以 $\\cos\\angle F_{1}PF_{2}=\\frac{3}{4}$. 因此选 C.</p>"
+          "solution": "<p>双曲线写成</p>\n$$\n\\frac{x^{2}}{2}-\\frac{y^{2}}{2}=1\n$$\n<p>故 $a=b=\\sqrt{2}$、$c=\\sqrt{a^{2}+b^{2}}=2$，两焦点间距离为 $2c=4$. 设 $PF_{2}=r$，则由已知 $PF_{1}=2r$. 左支上的点满足 $PF_{1}<PF_{2}$，而已知 $PF_{1}>PF_{2}$，所以 $P$ 在右支上，且双曲线定义给出</p>\n$$\nPF_{1}-PF_{2}=2a=2\\sqrt{2}\n$$\n<p>解得 $PF_{2}=2\\sqrt{2}$、$PF_{1}=4\\sqrt{2}$. 在三角形 $F_{1}PF_{2}$ 中用余弦定理：</p>\n$$\n4^{2}=(4\\sqrt{2})^{2}+(2\\sqrt{2})^{2}  -2(4\\sqrt{2})(2\\sqrt{2})\\cos\\angle F_{1}PF_{2}\n$$\n<p>所以 $\\cos\\angle F_{1}PF_{2}=\\frac{3}{4}$. 因此选 C.</p>"
         },
         {
           "num": 9,
           "body": "已知 $x = \\ln \\pi$，$y = \\log_{5} 2$，$z = \\mathrm{e}^{-\\frac{1}{2}}$，则（ ）",
           "choices": [
-            "$x &#x3C; y &#x3C; z$",
-            "$z &#x3C; x &#x3C; y$",
-            "$z &#x3C; y &#x3C; x$",
-            "$y &#x3C; z &#x3C; x$"
+            "$x < y < z$",
+            "$z < x < y$",
+            "$z < y < x$",
+            "$y < z < x$"
           ],
           "answer": "D",
-          "solution": "<p>先比较 $y$ 与 $\\frac{1}{2}$. 因为 $1&#x3C;2&#x3C;\\sqrt{5}$，所以</p>\n$$\n0&#x3C;y=\\log_{5} 2&#x3C;\\frac{1}{2}\n$$\n<p>又 $\\mathrm{e}^{\\frac{1}{2}}&#x3C;2$，故 $z=\\mathrm{e}^{-\\frac{1}{2}}>\\frac{1}{2}$，且 $z&#x3C;1$. 另外 $\\pi>\\mathrm{e}$，所以 $x=\\ln\\pi>1$. 综合得到</p>\n$$\ny&#x3C;z&#x3C;x\n$$\n<p>因此选 D.</p>"
+          "solution": "<p>先比较 $y$ 与 $\\frac{1}{2}$. 因为 $1<2<\\sqrt{5}$，所以</p>\n$$\n0<y=\\log_{5} 2<\\frac{1}{2}\n$$\n<p>又 $\\mathrm{e}^{\\frac{1}{2}}<2$，故 $z=\\mathrm{e}^{-\\frac{1}{2}}>\\frac{1}{2}$，且 $z<1$. 另外 $\\pi>\\mathrm{e}$，所以 $x=\\ln\\pi>1$. 综合得到</p>\n$$\ny<z<x\n$$\n<p>因此选 D.</p>"
         },
         {
           "num": 10,
@@ -165,10 +165,10 @@
         },
         {
           "num": 14,
-          "body": "当函数 $y = \\sin x - \\sqrt{3}\\cos x$（$0 \\le x &#x3C; 2\\pi$）取得最大值时，$x =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "当函数 $y = \\sin x - \\sqrt{3}\\cos x$（$0 \\le x < 2\\pi$）取得最大值时，$x =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{5\\pi}{6}$",
-          "solution": "<p>利用辅助角公式，</p>\n$$\ny=\\sin x-\\sqrt{3}\\cos x  =2\\left(\\frac{1}{2}\\sin x-\\frac{\\sqrt{3}}{2}\\cos x\\right)  =2\\sin\\left(x-\\frac{\\pi}{3}\\right)\n$$\n<p>函数最大值为 $2$，当且仅当</p>\n$$\nx-\\frac{\\pi}{3}=\\frac{\\pi}{2}+2k\\pi\n$$\n<p>在 $0\\le x&#x3C;2\\pi$ 内得到 $x=\\frac{5\\pi}{6}$.</p>"
+          "solution": "<p>利用辅助角公式，</p>\n$$\ny=\\sin x-\\sqrt{3}\\cos x  =2\\left(\\frac{1}{2}\\sin x-\\frac{\\sqrt{3}}{2}\\cos x\\right)  =2\\sin\\left(x-\\frac{\\pi}{3}\\right)\n$$\n<p>函数最大值为 $2$，当且仅当</p>\n$$\nx-\\frac{\\pi}{3}=\\frac{\\pi}{2}+2k\\pi\n$$\n<p>在 $0\\le x<2\\pi$ 内得到 $x=\\frac{5\\pi}{6}$.</p>"
         },
         {
           "num": 15,
@@ -194,7 +194,7 @@
           "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $\\cos (A - C) + \\cos B = 1$，$a = 2c$，求 $C$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由三角形内角和，$A+B+C=\\pi$，所以 $\\cos B=-\\cos(A+C)$. 于是</p>\n$$\n\\cos(A-C)+\\cos B=\\cos(A-C)-\\cos(A+C)=2\\sin A\\sin C=1\n$$\n<p>由正弦定理及 $a=2c$，得 $\\sin A=2\\sin C$，从而</p><p>$4\\sin^{2}C=1$. 因为 $0&#x3C;C&#x3C;\\pi$，所以 $C=\\frac{\\pi}{6}$ 或 $C=\\frac{5\\pi}{6}$. 若 $C=\\frac{5\\pi}{6}$，则 $\\sin A=1$，从而 $A=\\frac{\\pi}{2}$，这与 $A+C&#x3C;\\pi$ 矛盾；而 $C=\\frac{\\pi}{6}$ 时可取 $A=\\frac{\\pi}{2}$，三角形确实存在. 因此 $C=\\frac{\\pi}{6}$.</p>"
+          "solution": "<p>由三角形内角和，$A+B+C=\\pi$，所以 $\\cos B=-\\cos(A+C)$. 于是</p>\n$$\n\\cos(A-C)+\\cos B=\\cos(A-C)-\\cos(A+C)=2\\sin A\\sin C=1\n$$\n<p>由正弦定理及 $a=2c$，得 $\\sin A=2\\sin C$，从而</p><p>$4\\sin^{2}C=1$. 因为 $0<C<\\pi$，所以 $C=\\frac{\\pi}{6}$ 或 $C=\\frac{5\\pi}{6}$. 若 $C=\\frac{5\\pi}{6}$，则 $\\sin A=1$，从而 $A=\\frac{\\pi}{2}$，这与 $A+C<\\pi$ 矛盾；而 $C=\\frac{\\pi}{6}$ 时可取 $A=\\frac{\\pi}{2}$，三角形确实存在. 因此 $C=\\frac{\\pi}{6}$.</p>"
         },
         {
           "num": 18,
@@ -215,7 +215,7 @@
           "body": "<p>设函数 $f(x) = ax + \\cos x$，$x \\in [0, \\pi]$：</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>设 $f(x) \\le 1 + \\sin x$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=a-\\sin x$. 当 $a\\leqslant0$ 时，$f'(x)\\leqslant0$，所以 $f(x)$ 在 $[0,\\pi]$ 上单调递减；当 $a\\geqslant1$ 时，$f'(x)\\geqslant0$，所以 $f(x)$ 在 $[0,\\pi]$ 上单调递增. 当 $0&#x3C;a&#x3C;1$ 时，令 $x_{1}=\\arcsin a$，$x_{2}=\\pi-\\arcsin a$，则 $f'(x)$ 在 $[0,x_{1}]$、$[x_{2},\\pi]$ 上非负，在 $[x_{1},x_{2}]$ 上非正，故 $f(x)$ 在前两个区间上单调递增，在 $[x_{1},x_{2}]$ 上单调递减.</p></li><li><p>对任意 $x\\in[0,\\pi]$，题设不等式等价于</p><p>$ax\\le 1+\\sin x-\\cos x$. 令 $g(x)=1+\\sin x-\\cos x$，则 $g(0)=0$，$g(\\pi)=2$，且 $g''(x)=-\\sin x\\leqslant0$. 由凹函数图象位于端点弦的上方，</p><p>$g(x)\\ge\\frac{2}{\\pi}x$（$0\\le x\\le\\pi$）. 因此当 $a\\le\\frac{2}{\\pi}$ 时，$ax\\le\\frac{2}{\\pi}x\\le g(x)$，不等式对所有 $x$ 成立. 反之，令 $x=\\pi$，得 $a\\pi-1\\leqslant1$，即 $a\\le\\frac{2}{\\pi}$. 所以 $a$ 的取值范围为 $\\left(-\\infty,\\frac{2}{\\pi}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=a-\\sin x$. 当 $a\\leqslant0$ 时，$f'(x)\\leqslant0$，所以 $f(x)$ 在 $[0,\\pi]$ 上单调递减；当 $a\\geqslant1$ 时，$f'(x)\\geqslant0$，所以 $f(x)$ 在 $[0,\\pi]$ 上单调递增. 当 $0<a<1$ 时，令 $x_{1}=\\arcsin a$，$x_{2}=\\pi-\\arcsin a$，则 $f'(x)$ 在 $[0,x_{1}]$、$[x_{2},\\pi]$ 上非负，在 $[x_{1},x_{2}]$ 上非正，故 $f(x)$ 在前两个区间上单调递增，在 $[x_{1},x_{2}]$ 上单调递减.</p></li><li><p>对任意 $x\\in[0,\\pi]$，题设不等式等价于</p><p>$ax\\le 1+\\sin x-\\cos x$. 令 $g(x)=1+\\sin x-\\cos x$，则 $g(0)=0$，$g(\\pi)=2$，且 $g''(x)=-\\sin x\\leqslant0$. 由凹函数图象位于端点弦的上方，</p><p>$g(x)\\ge\\frac{2}{\\pi}x$（$0\\le x\\le\\pi$）. 因此当 $a\\le\\frac{2}{\\pi}$ 时，$ax\\le\\frac{2}{\\pi}x\\le g(x)$，不等式对所有 $x$ 成立. 反之，令 $x=\\pi$，得 $a\\pi-1\\leqslant1$，即 $a\\le\\frac{2}{\\pi}$. 所以 $a$ 的取值范围为 $\\left(-\\infty,\\frac{2}{\\pi}\\right]$.</p></li></ol>"
         },
         {
           "num": 21,
@@ -226,10 +226,10 @@
         },
         {
           "num": 22,
-          "body": "<p>函数 $f(x) = x^{2} - 2x - 3$. 定义数列 $\\{x_{n}\\}$ 如下： $x_{1} = 2$，$x_{n+1}$ 是过两点 $P(4,5)$，$Q_{n}(x_{n}, f(x_{n}))$ 的直线 $PQ_{n}$ 与 $x$ 轴交点的横坐标.</p><ol class=\"enumerate\"><li><p>证明： $2 \\le x_{n}&#x3C; x_{n+1}&#x3C; 3$.</p></li><li><p>求数列 $\\{x_{n}\\}$ 的通项公式.</p></li></ol>",
+          "body": "<p>函数 $f(x) = x^{2} - 2x - 3$. 定义数列 $\\{x_{n}\\}$ 如下： $x_{1} = 2$，$x_{n+1}$ 是过两点 $P(4,5)$，$Q_{n}(x_{n}, f(x_{n}))$ 的直线 $PQ_{n}$ 与 $x$ 轴交点的横坐标.</p><ol class=\"enumerate\"><li><p>证明： $2 \\le x_{n}< x_{n+1}< 3$.</p></li><li><p>求数列 $\\{x_{n}\\}$ 的通项公式.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $x_{n}=x$，则 $Q_{n}=(x,f(x))$，且</p><p>$f(x)=(x-3)(x+1)$. 直线 $PQ_{n}$ 与 $x$ 轴交点的横坐标为</p>\n$$\nx_{n+1}=\\frac{5x-4f(x)}{5-f(x)}\n$$\n<p>由 $x_{1}=2$ 先知 $2\\le x_{1}&#x3C;3$. 若 $2\\le x_{n}=x&#x3C;3$，则 $f(x)&#x3C;0$，且 $5-f(x)>0$. 直接计算得</p>\n$$\nx_{n+1}-x=\\frac{f(x)(x-4)}{5-f(x)}>0\n$$\n<p>以及</p>\n$$\n3-x_{n+1}=\\frac{(x-3)(x-4)}{5-f(x)}>0\n$$\n<p>所以 $2\\le x_{n}&#x3C;x_{n+1}&#x3C;3$，归纳可知该不等式对所有正整数 $n$ 成立.</p></li><li><p>令 $s_{n}=3-x_{n}$，则 $0&#x3C;s_{n}\\leqslant1$，且 $f(x_{n})=-s_{n}(4-s_{n})$. 由上式可得</p>\n$$\ns_{n+1}=\\frac{s_{n}(1+s_{n})}{5+4s_{n}-s_{n}^{2}}\n$$\n<p>令 $t_{n}=\\frac{4}{s_{n}}$，则</p>\n$$\nt_{n+1}=\\frac{4(5+4s_{n}-s_{n}^{2})}{s_{n}(1+s_{n})}=\\frac{4(5-s_{n})}{s_{n}}=5t_{n}-4\n$$\n<p>又 $t_{1}=4$，故 $t_{n}-1=5^{n-1}(t_{1}-1)=3\\cdot5^{n-1}$. 因此</p><p>$s_{n}=\\frac{4}{3\\cdot5^{n-1}+1}$，$x_{n}=3-s_{n}=3-\\frac{4}{3\\cdot5^{n-1}+1}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $x_{n}=x$，则 $Q_{n}=(x,f(x))$，且</p><p>$f(x)=(x-3)(x+1)$. 直线 $PQ_{n}$ 与 $x$ 轴交点的横坐标为</p>\n$$\nx_{n+1}=\\frac{5x-4f(x)}{5-f(x)}\n$$\n<p>由 $x_{1}=2$ 先知 $2\\le x_{1}<3$. 若 $2\\le x_{n}=x<3$，则 $f(x)<0$，且 $5-f(x)>0$. 直接计算得</p>\n$$\nx_{n+1}-x=\\frac{f(x)(x-4)}{5-f(x)}>0\n$$\n<p>以及</p>\n$$\n3-x_{n+1}=\\frac{(x-3)(x-4)}{5-f(x)}>0\n$$\n<p>所以 $2\\le x_{n}<x_{n+1}<3$，归纳可知该不等式对所有正整数 $n$ 成立.</p></li><li><p>令 $s_{n}=3-x_{n}$，则 $0<s_{n}\\leqslant1$，且 $f(x_{n})=-s_{n}(4-s_{n})$. 由上式可得</p>\n$$\ns_{n+1}=\\frac{s_{n}(1+s_{n})}{5+4s_{n}-s_{n}^{2}}\n$$\n<p>令 $t_{n}=\\frac{4}{s_{n}}$，则</p>\n$$\nt_{n+1}=\\frac{4(5+4s_{n}-s_{n}^{2})}{s_{n}(1+s_{n})}=\\frac{4(5-s_{n})}{s_{n}}=5t_{n}-4\n$$\n<p>又 $t_{1}=4$，故 $t_{n}-1=5^{n-1}(t_{1}-1)=3\\cdot5^{n-1}$. 因此</p><p>$s_{n}=\\frac{4}{3\\cdot5^{n-1}+1}$，$x_{n}=3-s_{n}=3-\\frac{4}{3\\cdot5^{n-1}+1}$.</p></li></ol>"
         }
       ]
     }

@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "<p>设 $p: 1 &#x3C; x &#x3C; 2$，$q: 2^{x} > 1$，则 $p$ 是 $q$ 成立的（ ）</p><p><span class=\"macro macro-answer\"></span>A</p><p>由 $1&#x3C;x&#x3C;2$ 可知 $x>0$，而底数 $2>1$，所以 $2^{x}>1$，即 $p\\Rightarrow q$. 但 $x=3$ 时 $2^{x}>1$ 成立而 $1&#x3C;x&#x3C;2$ 不成立，故 $q$ 不能推出 $p$. 因此 $p$ 是 $q$ 成立的充分不必要条件，选 A.</p>",
+          "body": "<p>设 $p: 1 < x < 2$，$q: 2^{x} > 1$，则 $p$ 是 $q$ 成立的（ ）</p><p><span class=\"macro macro-answer\"></span>A</p><p>由 $1<x<2$ 可知 $x>0$，而底数 $2>1$，所以 $2^{x}>1$，即 $p\\Rightarrow q$. 但 $x=3$ 时 $2^{x}>1$ 成立而 $1<x<2$ 不成立，故 $q$ 不能推出 $p$. 因此 $p$ 是 $q$ 成立的充分不必要条件，选 A.</p>",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -105,24 +105,24 @@
         },
         {
           "num": 9,
-          "body": "<p>函数 $f(x) = \\frac{ax + b}{(x + c)^{2}}$ 的图象如图所示，则下列结论成立的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-answer\"></span>C</p><p>由图象的竖直渐近线在 $y$ 轴右侧，且渐近线为 $x=-c$，可知 $-c>0$，所以 $c&#x3C;0$. 图象在 $x=0$ 处位于 $x$ 轴上方，而</p><p>$f(0)=\\dfrac{b}{c^2}>0$，故 $b>0$. 图象与 $x$ 轴的交点在正半轴上，零点 $-\\dfrac{b}{a}>0$，结合 $b>0$ 得 $a&#x3C;0$. 因此只有选项 C 正确.</p>",
+          "body": "<p>函数 $f(x) = \\frac{ax + b}{(x + c)^{2}}$ 的图象如图所示，则下列结论成立的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-answer\"></span>C</p><p>由图象的竖直渐近线在 $y$ 轴右侧，且渐近线为 $x=-c$，可知 $-c>0$，所以 $c<0$. 图象在 $x=0$ 处位于 $x$ 轴上方，而</p><p>$f(0)=\\dfrac{b}{c^2}>0$，故 $b>0$. 图象与 $x$ 轴的交点在正半轴上，零点 $-\\dfrac{b}{a}>0$，结合 $b>0$ 得 $a<0$. 因此只有选项 C 正确.</p>",
           "choices": [
-            "$a > 0$，$b > 0$，$c &#x3C; 0$",
-            "$a &#x3C; 0$，$b > 0$，$c > 0$",
-            "$a &#x3C; 0$，$b > 0$，$c &#x3C; 0$",
-            "$a &#x3C; 0$，$b &#x3C; 0$，$c &#x3C; 0$"
+            "$a > 0$，$b > 0$，$c < 0$",
+            "$a < 0$，$b > 0$，$c > 0$",
+            "$a < 0$，$b > 0$，$c < 0$",
+            "$a < 0$，$b < 0$，$c < 0$"
           ],
           "answer": "",
           "solution": ""
         },
         {
           "num": 10,
-          "body": "<p>已知函数 $f(x) = A \\sin (\\omega x + \\varphi)$ （$A$，$\\omega$，$\\varphi$ 均为正的常数） 的最小正周期为 $\\pi$，当 $x = \\frac{2\\pi}{3}$ 时，函数 $f(x)$ 取得最小值，则下列结论正确的是（ ）</p><p><span class=\"macro macro-answer\"></span>A</p><p>最小正周期满足 $\\dfrac{2\\pi}{\\omega}=\\pi$，所以 $\\omega=2$. 在 $x=\\frac{2\\pi}{3}$ 时取得最小值，故</p>\n$$\n\\sin\\left(\\frac{4\\pi}{3}+\\varphi\\right)=-1\n$$\n<p>从而 $\\varphi=\\frac{\\pi}{6}+2k\\pi$. 相位相差整数个周期不改变函数，故可取</p><p>$f(x)=A\\sin\\left(2x+\\frac{\\pi}{6}\\right)$.</p><p>因为 $7\\frac{\\pi}{6}&#x3C;4&#x3C;4\\frac{\\pi}{3}$，所以 $\\sin4&#x3C;0$，并且</p><p>$\\frac{\\pi}{6}-4$ 加上 $2\\pi$ 后落在 $(5\\frac{\\pi}{6},\\pi)$ 内. 于是</p>\n$$\nf(2)-f(-2)=A\\left[\\sin\\left(4+\\frac{\\pi}{6}\\right)-\\sin\\left(\\frac{\\pi}{6}-4\\right)\\right]=A\\sqrt{3}\\sin4&#x3C;0\n$$\n<p>且 $f(-2)=A\\sin(\\frac{\\pi}{6}-4)&#x3C;A\\sin\\frac{\\pi}{6}=f(0)$. 因此</p><p>$f(2)&#x3C;f(-2)&#x3C;f(0)$，选 A.</p>",
+          "body": "<p>已知函数 $f(x) = A \\sin (\\omega x + \\varphi)$ （$A$，$\\omega$，$\\varphi$ 均为正的常数） 的最小正周期为 $\\pi$，当 $x = \\frac{2\\pi}{3}$ 时，函数 $f(x)$ 取得最小值，则下列结论正确的是（ ）</p><p><span class=\"macro macro-answer\"></span>A</p><p>最小正周期满足 $\\dfrac{2\\pi}{\\omega}=\\pi$，所以 $\\omega=2$. 在 $x=\\frac{2\\pi}{3}$ 时取得最小值，故</p>\n$$\n\\sin\\left(\\frac{4\\pi}{3}+\\varphi\\right)=-1\n$$\n<p>从而 $\\varphi=\\frac{\\pi}{6}+2k\\pi$. 相位相差整数个周期不改变函数，故可取</p><p>$f(x)=A\\sin\\left(2x+\\frac{\\pi}{6}\\right)$.</p><p>因为 $7\\frac{\\pi}{6}<4<4\\frac{\\pi}{3}$，所以 $\\sin4<0$，并且</p><p>$\\frac{\\pi}{6}-4$ 加上 $2\\pi$ 后落在 $(5\\frac{\\pi}{6},\\pi)$ 内. 于是</p>\n$$\nf(2)-f(-2)=A\\left[\\sin\\left(4+\\frac{\\pi}{6}\\right)-\\sin\\left(\\frac{\\pi}{6}-4\\right)\\right]=A\\sqrt{3}\\sin4<0\n$$\n<p>且 $f(-2)=A\\sin(\\frac{\\pi}{6}-4)<A\\sin\\frac{\\pi}{6}=f(0)$. 因此</p><p>$f(2)<f(-2)<f(0)$，选 A.</p>",
           "choices": [
-            "$f(2) &#x3C; f(-2) &#x3C; f(0)$",
-            "$f(0) &#x3C; f(2) &#x3C; f(-2)$",
-            "$f(-2) &#x3C; f(0) &#x3C; f(2)$",
-            "$f(2) &#x3C; f(0) &#x3C; f(-2)$"
+            "$f(2) < f(-2) < f(0)$",
+            "$f(0) < f(2) < f(-2)$",
+            "$f(-2) < f(0) < f(2)$",
+            "$f(2) < f(0) < f(-2)$"
           ],
           "answer": "",
           "solution": ""
@@ -148,7 +148,7 @@
         },
         {
           "num": 13,
-          "body": "<p>执行如图所示的程序框图（算法流程图），输出的 $n$ 为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-answer\"></span>4</p><p>初始时 $a=1$，$n=1$. 第一次判断满足 $|1-1.414|=0.414\\geqslant0.005$，更新为</p><p>$a=1+\\frac{1}{1+1}=1.5$，$n=2$.</p><p>第二次判断仍满足条件，更新为</p><p>$a=1+\\frac{1}{1+1.5}=1.4$，$n=3$.</p><p>第三次判断仍满足条件，更新为</p><p>$a=1+\\frac{1}{1+1.4}=1+\\frac{5}{12}=\\frac{17}{12}$，$n=4$.</p><p>此时</p>\n$$\n\\left|\\frac{17}{12}-1.414\\right|=\\frac{17}{12}-\\frac{707}{500}=\\frac{2}{750}&#x3C;0.005\n$$\n<p>条件不成立，程序输出 $n=4$.</p>",
+          "body": "<p>执行如图所示的程序框图（算法流程图），输出的 $n$ 为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-answer\"></span>4</p><p>初始时 $a=1$，$n=1$. 第一次判断满足 $|1-1.414|=0.414\\geqslant0.005$，更新为</p><p>$a=1+\\frac{1}{1+1}=1.5$，$n=2$.</p><p>第二次判断仍满足条件，更新为</p><p>$a=1+\\frac{1}{1+1.5}=1.4$，$n=3$.</p><p>第三次判断仍满足条件，更新为</p><p>$a=1+\\frac{1}{1+1.4}=1+\\frac{5}{12}=\\frac{17}{12}$，$n=4$.</p><p>此时</p>\n$$\n\\left|\\frac{17}{12}-1.414\\right|=\\frac{17}{12}-\\frac{707}{500}=\\frac{2}{750}<0.005\n$$\n<p>条件不成立，程序输出 $n=4$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -162,7 +162,7 @@
         },
         {
           "num": 15,
-          "body": "<p>设 $x^{3}+ ax + b = 0$，其中 $a$，$b$ 均为实数. 下列条件中，使得该三次方程仅有一个实根的是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><ol class=\"enumerate\"><li><p>$a = -3$，$b = -3$；</p></li><li><p>$a = -3$，$b = 2$；</p></li><li><p>$a = -3$，$b > 2$；</p></li><li><p>$a = 0$，$b = 2$；</p></li><li><p>$a = 1$，$b = 2$.</p></li></ol><p><span class=\"macro macro-answer\"></span>$①③④⑤$</p><p>令 $g(x)=x^{3}+ax+b$，则 $g'(x)=3x^{2}+a$.</p><p>当 $a=-3$ 时，$g'(x)=3(x^{2}-1)$，极值点为 $x=-1$，$1$，且</p><p>$g(-1)=b+2$，$g(1)=b-2$.</p><p>条件①中 $b=-3$，两个极值点的函数值均为负，曲线只在 $x>1$ 上与 $x$ 轴相交一次；条件②中 $b=2$，方程为</p><p>$x^{3}-3x+2=(x-1)^{2}(x+2)=0$，有两个不同的实根，故不满足；条件③中 $b>2$，两个极值点的函数值均为正，曲线只在 $x&#x3C;-1$ 上与 $x$ 轴相交一次.</p><p>条件④中方程为 $x^{3}+2=0$，函数 $x^{3}+2$ 严格递增，只有一个实根；条件⑤中 $g'(x)=3x^{2}+1>0$，函数严格递增，也只有一个实根. 所以正确条件为 $①$，$③$，$④$，$⑤$.</p>",
+          "body": "<p>设 $x^{3}+ ax + b = 0$，其中 $a$，$b$ 均为实数. 下列条件中，使得该三次方程仅有一个实根的是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><ol class=\"enumerate\"><li><p>$a = -3$，$b = -3$；</p></li><li><p>$a = -3$，$b = 2$；</p></li><li><p>$a = -3$，$b > 2$；</p></li><li><p>$a = 0$，$b = 2$；</p></li><li><p>$a = 1$，$b = 2$.</p></li></ol><p><span class=\"macro macro-answer\"></span>$①③④⑤$</p><p>令 $g(x)=x^{3}+ax+b$，则 $g'(x)=3x^{2}+a$.</p><p>当 $a=-3$ 时，$g'(x)=3(x^{2}-1)$，极值点为 $x=-1$，$1$，且</p><p>$g(-1)=b+2$，$g(1)=b-2$.</p><p>条件①中 $b=-3$，两个极值点的函数值均为负，曲线只在 $x>1$ 上与 $x$ 轴相交一次；条件②中 $b=2$，方程为</p><p>$x^{3}-3x+2=(x-1)^{2}(x+2)=0$，有两个不同的实根，故不满足；条件③中 $b>2$，两个极值点的函数值均为正，曲线只在 $x<-1$ 上与 $x$ 轴相交一次.</p><p>条件④中方程为 $x^{3}+2=0$，函数 $x^{3}+2$ 严格递增，只有一个实根；条件⑤中 $g'(x)=3x^{2}+1>0$，函数严格递增，也只有一个实根. 所以正确条件为 $①$，$③$，$④$，$⑤$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -209,7 +209,7 @@
         },
         {
           "num": 21,
-          "body": "<p>设函数 $f(x) = x^{2}- ax + b$.</p><ol class=\"enumerate\"><li><p>讨论函数 $f(\\sin x)$ 在 $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ 内的单调性并判断有无极值. 有极值时求出极值；</p></li><li><p>记 $f_{0}(x) = x^{2}- a_{0}x + b_{0}$，求函数 $|f(\\sin x) - f_{0}(\\sin x)|$ 在 $\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$ 上的最大值 $D$；</p></li><li><p>在上一问中，取 $a_{0} = b_{0} = 0$，求 $z = b - \\frac{a^{2}}{4}$ 满足 $D \\le 1$ 时的最大值.</p></li></ol><ol class=\"enumerate\"><li><p>设 $h(x)=f(\\sin x)=\\sin^{2}x-a\\sin x+b$. 则</p>\n$$\nh'(x)=(2\\sin x-a)\\cos x\n$$\n<p>在给定区间内 $\\cos x>0$，所以单调性由 $2\\sin x-a$ 的符号决定.</p><p>当 $a\\le-2$ 时，对任意 $x\\in(-\\frac{\\pi}{2},\\frac{\\pi}{2})$，有 $2\\sin x-a>0$，故 $h(x)$ 单调递增且无极值. 当 $a\\geqslant2$ 时，有 $2\\sin x-a&#x3C;0$，故 $h(x)$ 单调递减且无极值. 当 $-2&#x3C;a&#x3C;2$ 时，方程 $2\\sin x-a=0$ 在区间内有唯一解 $x_{0}=\\arcsin\\frac{a}{2}$，函数先减后增，在 $x_{0}$ 处取得极小值</p>\n$$\nh(x_{0})=\\left(\\frac{a}{2}\\right)^{2}-a\\cdot\\frac{a}{2}+b=b-\\frac{a^{2}}{4}\n$$\n</li><li><p>令 $t=\\sin x$，则 $t\\in[-1,1]$，并且</p>\n$$\nf(t)-f_{0}(t)=-(a-a_{0})t+(b-b_{0})\n$$\n<p>因此</p>\n$$\nD=\\max_{-1\\le t\\leqslant1}|-(a-a_{0})t+(b-b_{0})|  =\\max\\{|b-b_{0}-(a-a_{0})|,|b-b_{0}+(a-a_{0})|\\}\n$$\n<p>根据 $\\max\\{|u-v|,|u+v|\\}=|u|+|v|$，得到</p>\n$$\nD=|a-a_{0}|+|b-b_{0}|\n$$\n</li><li><p>此时 $D=|a|+|b|\\leqslant1$. 于是</p>\n$$\nz=b-\\frac{a^{2}}{4}\\le b\\le|b|\\leqslant1-|a|\\leqslant1\n$$\n<p>取 $a=0$，$b=1$ 时 $D=1$，且 $z=1$，所以 $z$ 的最大值为 $1$.</p></li></ol>",
+          "body": "<p>设函数 $f(x) = x^{2}- ax + b$.</p><ol class=\"enumerate\"><li><p>讨论函数 $f(\\sin x)$ 在 $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ 内的单调性并判断有无极值. 有极值时求出极值；</p></li><li><p>记 $f_{0}(x) = x^{2}- a_{0}x + b_{0}$，求函数 $|f(\\sin x) - f_{0}(\\sin x)|$ 在 $\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$ 上的最大值 $D$；</p></li><li><p>在上一问中，取 $a_{0} = b_{0} = 0$，求 $z = b - \\frac{a^{2}}{4}$ 满足 $D \\le 1$ 时的最大值.</p></li></ol><ol class=\"enumerate\"><li><p>设 $h(x)=f(\\sin x)=\\sin^{2}x-a\\sin x+b$. 则</p>\n$$\nh'(x)=(2\\sin x-a)\\cos x\n$$\n<p>在给定区间内 $\\cos x>0$，所以单调性由 $2\\sin x-a$ 的符号决定.</p><p>当 $a\\le-2$ 时，对任意 $x\\in(-\\frac{\\pi}{2},\\frac{\\pi}{2})$，有 $2\\sin x-a>0$，故 $h(x)$ 单调递增且无极值. 当 $a\\geqslant2$ 时，有 $2\\sin x-a<0$，故 $h(x)$ 单调递减且无极值. 当 $-2<a<2$ 时，方程 $2\\sin x-a=0$ 在区间内有唯一解 $x_{0}=\\arcsin\\frac{a}{2}$，函数先减后增，在 $x_{0}$ 处取得极小值</p>\n$$\nh(x_{0})=\\left(\\frac{a}{2}\\right)^{2}-a\\cdot\\frac{a}{2}+b=b-\\frac{a^{2}}{4}\n$$\n</li><li><p>令 $t=\\sin x$，则 $t\\in[-1,1]$，并且</p>\n$$\nf(t)-f_{0}(t)=-(a-a_{0})t+(b-b_{0})\n$$\n<p>因此</p>\n$$\nD=\\max_{-1\\le t\\leqslant1}|-(a-a_{0})t+(b-b_{0})|  =\\max\\{|b-b_{0}-(a-a_{0})|,|b-b_{0}+(a-a_{0})|\\}\n$$\n<p>根据 $\\max\\{|u-v|,|u+v|\\}=|u|+|v|$，得到</p>\n$$\nD=|a-a_{0}|+|b-b_{0}|\n$$\n</li><li><p>此时 $D=|a|+|b|\\leqslant1$. 于是</p>\n$$\nz=b-\\frac{a^{2}}{4}\\le b\\le|b|\\leqslant1-|a|\\leqslant1\n$$\n<p>取 $a=0$，$b=1$ 时 $D=1$，且 $z=1$，所以 $z$ 的最大值为 $1$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

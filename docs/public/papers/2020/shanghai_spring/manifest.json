@@ -19,7 +19,7 @@
           "body": "不等式 $\\dfrac{1}{x}>3$ 的解集为 $\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$\\left(0,\\dfrac{1}{3}\\right)$",
-          "solution": "由 $\\dfrac{1}{x}>3$ 得 $\\dfrac{1-3x}{x}>0$，则 $x(1-3x)>0$，即 $x(3x-1)&#x3C;0$，解得 $0&#x3C;x&#x3C;\\dfrac{1}{3}$，所以不等式的解集是 $\\left(0,\\dfrac{1}{3}\\right)$."
+          "solution": "由 $\\dfrac{1}{x}>3$ 得 $\\dfrac{1-3x}{x}>0$，则 $x(1-3x)>0$，即 $x(3x-1)<0$，解得 $0<x<\\dfrac{1}{3}$，所以不等式的解集是 $\\left(0,\\dfrac{1}{3}\\right)$."
         },
         {
           "num": 3,
@@ -72,7 +72,7 @@
         },
         {
           "num": 10,
-          "body": "已知 $A=\\{-3,-2,-1,0,1,2,3\\}$，$a$，$b\\in A$，则 $|a|&#x3C;|b|$ 的情况有 $\\underline{\\hspace{2.5em}}{}$ 种.",
+          "body": "已知 $A=\\{-3,-2,-1,0,1,2,3\\}$，$a$，$b\\in A$，则 $|a|<|b|$ 的情况有 $\\underline{\\hspace{2.5em}}{}$ 种.",
           "choices": null,
           "answer": "$18$",
           "solution": "当 $a=-3$ 时，有 $0$ 种；当 $a=-2$ 时，有 $2$ 种；当 $a=-1$ 时，有 $4$ 种；当 $a=0$ 时，有 $6$ 种；当 $a=1$ 时，有 $4$ 种；当 $a=2$ 时，有 $2$ 种；当 $a=3$ 时，有 $0$ 种，故共有 $2+4+6+4+2=18$ 种."
@@ -119,10 +119,10 @@
         },
         {
           "num": 16,
-          "body": "数列 $\\{a_{n}\\}$ 各项均为实数，对任意 $n\\in\\mathbb{N}^{*}$ 满足 $a_{n+3}=a_{n}$，且行列式 $\\begin{vmatrix}a_{n}&#x26;a_{n+1}\\\\a_{n+2}&#x26;a_{n+3}\\end{vmatrix}=c$ 为定值，则下列选项中不可能的是（ ）.",
+          "body": "数列 $\\{a_{n}\\}$ 各项均为实数，对任意 $n\\in\\mathbb{N}^{*}$ 满足 $a_{n+3}=a_{n}$，且行列式 $\\begin{vmatrix}a_{n}&a_{n+1}\\\\a_{n+2}&a_{n+3}\\end{vmatrix}=c$ 为定值，则下列选项中不可能的是（ ）.",
           "choices": null,
           "answer": "B",
-          "solution": "<p>行列式 $\\begin{vmatrix}a_{n}&#x26;a_{n+1}\\\\a_{n+2}&#x26;a_{n+3}\\end{vmatrix}=a_{n}a_{n+3}-a_{n+1}a_{n+2}=c$. 由于对任意 $n\\in\\mathbb{N}^{*}$ 满足 $a_{n+3}=a_{n}$，所以</p>\n$$\n\\begin{cases}a_{n}^{2}-a_{n+1}a_{n+2}=c,\\\\  a_{n+1}^{2}-a_{n+2}a_{n+3}=c.\\end{cases}\n$$\n<p>作差整理得：$a_{n+1}=a_{n}$（常数列，$c=0$），或 $a_{n}+a_{n+1}+a_{n+2}=0$. 当 $a_{n}+a_{n+1}+a_{n+2}=0$ 时，$a_{n+1}+a_{n+2}=-a_{n}$ 且 $a_{n+1}a_{n+2}=a_{n}^{2}-c$，所以方程 $X^{2}+a_{n}X+a_{n}^{2}-c=0$ 有两根 $a_{n+1}$，$a_{n+2}$，从而 $\\Delta=a_{n}^{2}-4(a_{n}^{2}-c)=4c-3a_{n}^{2}\\geq0$. 因为 B 不可能，故选 B.</p>"
+          "solution": "<p>行列式 $\\begin{vmatrix}a_{n}&a_{n+1}\\\\a_{n+2}&a_{n+3}\\end{vmatrix}=a_{n}a_{n+3}-a_{n+1}a_{n+2}=c$. 由于对任意 $n\\in\\mathbb{N}^{*}$ 满足 $a_{n+3}=a_{n}$，所以</p>\n$$\n\\begin{cases}a_{n}^{2}-a_{n+1}a_{n+2}=c,\\\\  a_{n+1}^{2}-a_{n+2}a_{n+3}=c.\\end{cases}\n$$\n<p>作差整理得：$a_{n+1}=a_{n}$（常数列，$c=0$），或 $a_{n}+a_{n+1}+a_{n+2}=0$. 当 $a_{n}+a_{n+1}+a_{n+2}=0$ 时，$a_{n+1}+a_{n+2}=-a_{n}$ 且 $a_{n+1}a_{n+2}=a_{n}^{2}-c$，所以方程 $X^{2}+a_{n}X+a_{n}^{2}-c=0$ 有两根 $a_{n+1}$，$a_{n+2}$，从而 $\\Delta=a_{n}^{2}-4(a_{n}^{2}-c)=4c-3a_{n}^{2}\\geq0$. 因为 B 不可能，故选 B.</p>"
         }
       ]
     },
@@ -148,7 +148,7 @@
           "body": "<p>有一条长为 $120$ 米的步行道 $OA$，$A$ 是垃圾投放点 $\\omega_{1}$，若以 $O$ 为原点，$OA$ 为 $x$ 轴正半轴建立直角坐标系，设点 $B(x,0)$，现要建设另一座垃圾投放点 $\\omega_{2}(t,0)$，函数 $f_{t}(x)$ 表示与 $B$ 点距离最近的垃圾投放点的距离.</p><ol class=\"enumerate\"><li><p>若 $t=60$，求 $f_{60}(10)$，$f_{60}(80)$，$f_{60}(95)$ 的值，并写出 $f_{60}(x)$ 的函数解析式；</p></li><li><p>若可以通过 $f_{t}(x)$ 与坐标轴围成的面积来测算扔垃圾的便利程度，面积越小越便利. 问：垃圾投放点 $\\omega_{2}$ 建在何处才能比建在中点时更加便利？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>投放点 $\\omega_{1}(120,0)$，$\\omega_{2}(60,0)$. 由题意得 $f_{60}(x)=\\min\\{|60-x|,|120-x|\\}$，所以 $f_{60}(10)=50$，$f_{60}(80)=20$，$f_{60}(95)=25$. 当 $x\\leq90$ 时，$f_{60}(x)=|60-x|$；当 $x>90$ 时，$f_{60}(x)=|120-x|$. 综上，</p>\n$$\nf_{60}(x)=  \\begin{cases}|60-x|,&#x26;x\\leq90,\\\\  |120-x|,&#x26;x>90.\\end{cases}\n$$\n</li><li><p>由题意得 $f_{t}(x)=\\min\\{|t-x|,|120-x|\\}$，所以</p>\n$$\nf_{t}(x)=  \\begin{cases}|t-x|,&#x26;x\\leq0.5(120+t),\\\\  |120-x|,&#x26;x>0.5(120+t).\\end{cases}\n$$\n<p>因此 $f_{t}(x)$ 与坐标轴围成的面积为 $S=\\dfrac{1}{2}t^{2}+\\dfrac{1}{4}(120-t)^{2}=\\dfrac{3}{4}t^{2}-60t+3600$. 由题意，$S&#x3C;S(60)$，即 $\\dfrac{3}{4}t^{2}-60t+3600&#x3C;2700$，解得 $20&#x3C;t&#x3C;60$，即垃圾投放点 $\\omega_{2}$ 建在 $(20,0)$ 与 $(60,0)$ 之间时，比建在中点时更加便利.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q19_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<ol class=\"enumerate\"><li><p>投放点 $\\omega_{1}(120,0)$，$\\omega_{2}(60,0)$. 由题意得 $f_{60}(x)=\\min\\{|60-x|,|120-x|\\}$，所以 $f_{60}(10)=50$，$f_{60}(80)=20$，$f_{60}(95)=25$. 当 $x\\leq90$ 时，$f_{60}(x)=|60-x|$；当 $x>90$ 时，$f_{60}(x)=|120-x|$. 综上，</p>\n$$\nf_{60}(x)=  \\begin{cases}|60-x|,&x\\leq90,\\\\  |120-x|,&x>90.\\end{cases}\n$$\n</li><li><p>由题意得 $f_{t}(x)=\\min\\{|t-x|,|120-x|\\}$，所以</p>\n$$\nf_{t}(x)=  \\begin{cases}|t-x|,&x\\leq0.5(120+t),\\\\  |120-x|,&x>0.5(120+t).\\end{cases}\n$$\n<p>因此 $f_{t}(x)$ 与坐标轴围成的面积为 $S=\\dfrac{1}{2}t^{2}+\\dfrac{1}{4}(120-t)^{2}=\\dfrac{3}{4}t^{2}-60t+3600$. 由题意，$S<S(60)$，即 $\\dfrac{3}{4}t^{2}-60t+3600<2700$，解得 $20<t<60$，即垃圾投放点 $\\omega_{2}$ 建在 $(20,0)$ 与 $(60,0)$ 之间时，比建在中点时更加便利.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q19_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
         },
         {
           "num": 20,
@@ -162,7 +162,7 @@
           "body": "<p>已知非空集合 $A\\subseteq\\mathbb{R}$，函数 $y=f(x)$ 的定义域为 $D$，若对任意 $t\\in A$ 且 $x\\in D$，不等式 $f(x)\\geq f(x+t)$ 恒成立，则称函数 $f(x)$ 具有 $A$ 性质.</p><ol class=\"enumerate\"><li><p>当 $A=\\{-1\\}$，判断 $f(x)=-x$，$g(x)=2^{x}$ 是否具有 $A$ 性质；</p></li><li><p>当 $A=(0,1)$，$f(x)=x+\\dfrac{1}{x}$，$x\\in[a,+\\infty)$，若 $f(x)$ 具有 $A$ 性质，求 $a$ 的取值范围；</p></li><li><p>当 $A=\\{-2,m\\}$，$m\\in\\mathbb{Z}$，若 $D$ 为整数集且具有 $A$ 性质的函数均为常值函数，求所有符合条件的 $m$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $f(x)=-x$ 为减函数，所以 $f(x)&#x3C;f(x-1)$，故 $f(x)=-x$ 具有 $A$ 性质；$g(x)=2^{x}$ 为增函数，所以 $g(x)>g(x-1)$，故 $g(x)=2^{x}$ 不具有 $A$ 性质.</p></li><li><p>依题意，对任意 $t\\in(0,1)$，$f(x)\\geq f(x+t)$ 恒成立，所以 $f(x)=x+\\dfrac{1}{x}$（$x\\geq a$）为增函数（不可能为常值函数）. 由双勾函数的图象及性质可得 $a\\geq1$（因为 $f(x)$ 在 $(1,+\\infty)$ 上是增函数）. 当 $a\\geq1$ 时，函数单调递增，满足对任意 $t\\in(0,1)$，$f(x)\\geq f(x+t)$ 恒成立，综上，实数 $a$ 的取值范围为 $[1,+\\infty)$.</p></li><li><p>因为 $D$ 为整数集，具有 $A$ 性质的函数均为常值函数，所以当 $t=-2$ 时，$f(x)=f(x-2)$ 恒成立，周期为 $2$. 设 $f(2k)=p$ （$k\\in\\mathbb{Z}$），$f(2n-1)=q$ （$n\\in\\mathbb{Z}$），由题意 $p=q$，则 $f(2k)=f(2n-1)$. 当 $x=2k$ 时，$f(x)=f(x+2n-2k-1)$，所以 $m=2n-2k-1$ （$n$，$k\\in\\mathbb{Z}$）；当 $x=2n-1$ 时，$f(x)=f(x+2k-2n+1)$，所以 $m=2k-2n+1$ （$n$，$k\\in\\mathbb{Z}$）. 综上，$m$ 为奇数.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $f(x)=-x$ 为减函数，所以 $f(x)<f(x-1)$，故 $f(x)=-x$ 具有 $A$ 性质；$g(x)=2^{x}$ 为增函数，所以 $g(x)>g(x-1)$，故 $g(x)=2^{x}$ 不具有 $A$ 性质.</p></li><li><p>依题意，对任意 $t\\in(0,1)$，$f(x)\\geq f(x+t)$ 恒成立，所以 $f(x)=x+\\dfrac{1}{x}$（$x\\geq a$）为增函数（不可能为常值函数）. 由双勾函数的图象及性质可得 $a\\geq1$（因为 $f(x)$ 在 $(1,+\\infty)$ 上是增函数）. 当 $a\\geq1$ 时，函数单调递增，满足对任意 $t\\in(0,1)$，$f(x)\\geq f(x+t)$ 恒成立，综上，实数 $a$ 的取值范围为 $[1,+\\infty)$.</p></li><li><p>因为 $D$ 为整数集，具有 $A$ 性质的函数均为常值函数，所以当 $t=-2$ 时，$f(x)=f(x-2)$ 恒成立，周期为 $2$. 设 $f(2k)=p$ （$k\\in\\mathbb{Z}$），$f(2n-1)=q$ （$n\\in\\mathbb{Z}$），由题意 $p=q$，则 $f(2k)=f(2n-1)$. 当 $x=2k$ 时，$f(x)=f(x+2n-2k-1)$，所以 $m=2n-2k-1$ （$n$，$k\\in\\mathbb{Z}$）；当 $x=2n-1$ 时，$f(x)=f(x+2k-2n+1)$，所以 $m=2k-2n+1$ （$n$，$k\\in\\mathbb{Z}$）. 综上，$m$ 为奇数.</p></li></ol>"
         }
       ]
     }

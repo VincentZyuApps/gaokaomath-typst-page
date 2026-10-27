@@ -77,7 +77,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_science/q6_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "函数定义域为 $\\{x\\in\\mathbb{R}\\mid x\\ne0\\}$. 当 $x>0$ 时，$\\mathrm{e}^{x}>\\mathrm{e}^{-x}$，所以 $y>1$；当 $x&#x3C;0$ 时，$y&#x3C;-1$. 又因为分母在 $x=0$ 处为零，故 $x=0$ 是竖直渐近线；当 $x\\to+\\infty$ 时 $y\\to1$，当 $x\\to-\\infty$ 时 $y\\to-1$. 此外，分子为偶函数、分母为奇函数，故函数为奇函数. 图象符合这些特征的是 A."
+          "solution": "函数定义域为 $\\{x\\in\\mathbb{R}\\mid x\\ne0\\}$. 当 $x>0$ 时，$\\mathrm{e}^{x}>\\mathrm{e}^{-x}$，所以 $y>1$；当 $x<0$ 时，$y<-1$. 又因为分母在 $x=0$ 处为零，故 $x=0$ 是竖直渐近线；当 $x\\to+\\infty$ 时 $y\\to1$，当 $x\\to-\\infty$ 时 $y\\to-1$. 此外，分子为偶函数、分母为奇函数，故函数为奇函数. 图象符合这些特征的是 A."
         },
         {
           "num": 7,
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 满足 $f(x) = \\begin{cases}\\log_{2}(1 - x),&#x26;x \\le 0,\\\\  f(x - 1) - f(x - 2),&#x26;x > 0,\\end{cases}$，则 $f(2009)$ 的值为（ ）",
+          "body": "定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 满足 $f(x) = \\begin{cases}\\log_{2}(1 - x),&x \\le 0,\\\\  f(x - 1) - f(x - 2),&x > 0,\\end{cases}$，则 $f(2009)$ 的值为（ ）",
           "choices": [
             "$-1$",
             "$0$",
@@ -158,17 +158,17 @@
       "problems": [
         {
           "num": 13,
-          "body": "$\\lvert 2x - 1\\rvert - \\lvert x - 2\\rvert &#x3C; 0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "$\\lvert 2x - 1\\rvert - \\lvert x - 2\\rvert < 0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$\\left\\{x\\mid -1 &#x3C; x &#x3C; 1\\right\\}$",
-          "solution": "不等式等价于 $\\lvert2x-1\\rvert&#x3C;\\lvert x-2\\rvert$. 两边均非负，可以平方，得 $(2x-1)^{2}&#x3C;(x-2)^{2}$，即 $4x^{2}-4x+1&#x3C;x^{2}-4x+4$，所以 $3x^{2}&#x3C;3$，从而 $-1&#x3C;x&#x3C;1$. 解集为 $\\left\\{x\\mid-1&#x3C;x&#x3C;1\\right\\}$."
+          "answer": "$\\left\\{x\\mid -1 < x < 1\\right\\}$",
+          "solution": "不等式等价于 $\\lvert2x-1\\rvert<\\lvert x-2\\rvert$. 两边均非负，可以平方，得 $(2x-1)^{2}<(x-2)^{2}$，即 $4x^{2}-4x+1<x^{2}-4x+4$，所以 $3x^{2}<3$，从而 $-1<x<1$. 解集为 $\\left\\{x\\mid-1<x<1\\right\\}$."
         },
         {
           "num": 14,
           "body": "若函数 $f(x) = a^{x} - x - a$（$a > 0$ 且 $a \\neq 1$）有两个零点，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$a > 1$",
-          "solution": "<p>当 $0&#x3C;a&#x3C;1$ 时，$f'(x)=a^{x}\\ln a-1&#x3C;0$，函数严格递减；又 $x\\to-\\infty$ 时 $f(x)\\to+\\infty$，$x\\to+\\infty$ 时 $f(x)\\to-\\infty$，所以只有一个零点.</p><p>当 $a>1$ 时，$f''(x)=(\\ln a)^{2}a^{x}>0$，函数为严格凸函数，至多有两个零点. 并且 $f(0)=1-a&#x3C;0$，而 $x\\to-\\infty$ 和 $x\\to+\\infty$ 时 $f(x)\\to+\\infty$. 因而在 $(-\\infty,0)$ 和 $(0,+\\infty)$ 内各有一个零点，恰有两个零点. 故 $a>1$.</p>"
+          "solution": "<p>当 $0<a<1$ 时，$f'(x)=a^{x}\\ln a-1<0$，函数严格递减；又 $x\\to-\\infty$ 时 $f(x)\\to+\\infty$，$x\\to+\\infty$ 时 $f(x)\\to-\\infty$，所以只有一个零点.</p><p>当 $a>1$ 时，$f''(x)=(\\ln a)^{2}a^{x}>0$，函数为严格凸函数，至多有两个零点. 并且 $f(0)=1-a<0$，而 $x\\to-\\infty$ 和 $x\\to+\\infty$ 时 $f(x)\\to+\\infty$. 因而在 $(-\\infty,0)$ 和 $(0,+\\infty)$ 内各有一个零点，恰有两个零点. 故 $a>1$.</p>"
         },
         {
           "num": 15,
@@ -222,7 +222,7 @@
           "body": "<p>两县城 $A$ 和 $B$ 相距 $20 \\mathrm{~km}$，现计划在两县城外以 $AB$ 为直径的半圆弧 $\\widehat{AB}$ 上选择一点 $C$ 建造垃圾处理厂，其对城市的影响度与所选地点到城市的距离有关，对城 $A$ 和城 $B$ 的总影响度为城 $A$ 与城 $B$ 的影响度之和. 记 $C$ 点到城 $A$ 的距离为 $x \\mathrm{~km}$，建在 $C$ 处的垃圾处理厂对城 $A$ 和城 $B$ 的总影响度为 $y$. 统计调查表明：垃圾处理厂对城 $A$ 的影响度与所选地点到城 $A$ 的距离的平方成反比. 比例系数为 $4$. 对城 $B$ 的影响度与所选地点到城 $B$ 的距离的平方成反比，比例系数为 $k$. 当垃圾处理厂建在 $\\widehat{AB}$ 的中点时，对城 $A$ 和城 $B$ 的总影响度为 $0.065$.</p><ol class=\"enumerate\"><li><p>将 $y$ 表示成 $x$ 的函数；</p></li><li><p>讨论（1）中函数的单调性，并判断弧 $\\widehat{AB}$ 上是否存在一点，使建在此处的垃圾处理厂对城 $A$ 和城 $B$ 的总影响度最小？若存在，求出该点到城 $A$ 的距离；若不存在，说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $AB$ 是直径，故 $\\angle ACB=90^{\\circ}$，从而 $BC^{2}=AB^{2}-AC^{2}=400-x^{2}$，且 $0&#x3C;x&#x3C;20$. 在半圆弧 $\\widehat{AB}$ 的中点处，$AC=BC$，结合 $AC^{2}+BC^{2}=AB^{2}=400$，得 $AC=BC=10\\sqrt{2}$. 所以 $\\frac{4}{(10\\sqrt{2})^{2}}+\\frac{k}{(10\\sqrt{2})^{2}}=0.065$，解得 $k=9$. 因此</p><p>$\\displaystyle y=\\frac{4}{x^{2}}+\\frac{9}{400-x^{2}}$，其中 $0&#x3C;x&#x3C;20$.</p></li><li><p>求导得</p><p>$\\displaystyle y'=-\\frac{8}{x^{3}}+\\frac{18x}{(400-x^{2})^{2}}=\\frac{18x^{4}-8(400-x^{2})^{2}}{x^{3}(400-x^{2})^{2}}$.</p><p>因为 $x>0$，令 $y'=0$，得 $18x^{4}=8(400-x^{2})^{2}$，即 $3x^{2}=2(400-x^{2})$，所以 $x^{2}=160$，即 $x=4\\sqrt{10}$. 当 $0&#x3C;x&#x3C;4\\sqrt{10}$ 时，$18x^{4}&#x3C;8(400-x^{2})^{2}$，故 $y'&#x3C;0$；当 $4\\sqrt{10}&#x3C;x&#x3C;20$ 时，$18x^{4}>8(400-x^{2})^{2}$，故 $y'>0$. 因此函数在 $0&#x3C;x&#x3C;4\\sqrt{10}$ 上单调递减，在 $4\\sqrt{10}&#x3C;x&#x3C;20$ 上单调递增，故弧上存在唯一最小值点，其到城 $A$ 的距离为 $4\\sqrt{10}\\mathrm{~km}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $AB$ 是直径，故 $\\angle ACB=90^{\\circ}$，从而 $BC^{2}=AB^{2}-AC^{2}=400-x^{2}$，且 $0<x<20$. 在半圆弧 $\\widehat{AB}$ 的中点处，$AC=BC$，结合 $AC^{2}+BC^{2}=AB^{2}=400$，得 $AC=BC=10\\sqrt{2}$. 所以 $\\frac{4}{(10\\sqrt{2})^{2}}+\\frac{k}{(10\\sqrt{2})^{2}}=0.065$，解得 $k=9$. 因此</p><p>$\\displaystyle y=\\frac{4}{x^{2}}+\\frac{9}{400-x^{2}}$，其中 $0<x<20$.</p></li><li><p>求导得</p><p>$\\displaystyle y'=-\\frac{8}{x^{3}}+\\frac{18x}{(400-x^{2})^{2}}=\\frac{18x^{4}-8(400-x^{2})^{2}}{x^{3}(400-x^{2})^{2}}$.</p><p>因为 $x>0$，令 $y'=0$，得 $18x^{4}=8(400-x^{2})^{2}$，即 $3x^{2}=2(400-x^{2})$，所以 $x^{2}=160$，即 $x=4\\sqrt{10}$. 当 $0<x<4\\sqrt{10}$ 时，$18x^{4}<8(400-x^{2})^{2}$，故 $y'<0$；当 $4\\sqrt{10}<x<20$ 时，$18x^{4}>8(400-x^{2})^{2}$，故 $y'>0$. 因此函数在 $0<x<4\\sqrt{10}$ 上单调递减，在 $4\\sqrt{10}<x<20$ 上单调递增，故弧上存在唯一最小值点，其到城 $A$ 的距离为 $4\\sqrt{10}\\mathrm{~km}$.</p></li></ol>"
         },
         {
           "num": 22,

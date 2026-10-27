@@ -54,7 +54,7 @@
           "body": "函数 $y = 2\\sin(2x + \\frac{\\pi}{6})$（$x \\in [-\\pi, 0]$）的单调递减区间是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(-\\frac{5\\pi}{6},-\\frac{\\pi}{3}\\right)$",
-          "solution": "<p>函数在导数为负处递减. 由 $y'=4\\cos\\left(2x+\\frac{\\pi}{6}\\right)$，得递减条件为</p><p>$\\frac{\\pi}{2}+2k\\pi&#x3C;2x+\\frac{\\pi}{6}&#x3C;\\frac{3\\pi}{2}+2k\\pi$. 在 $x\\in[-\\pi,0]$ 内只有 $k=-1$ 的区间有交集，故</p><p>$-\\frac{3\\pi}{2}&#x3C;2x+\\frac{\\pi}{6}&#x3C; -\\frac{\\pi}{2}$，解得 $-\\frac{5\\pi}{6}&#x3C;x&#x3C; -\\frac{\\pi}{3}$. 所以填 $\\left(-\\frac{5\\pi}{6},-\\frac{\\pi}{3}\\right)$.</p>"
+          "solution": "<p>函数在导数为负处递减. 由 $y'=4\\cos\\left(2x+\\frac{\\pi}{6}\\right)$，得递减条件为</p><p>$\\frac{\\pi}{2}+2k\\pi<2x+\\frac{\\pi}{6}<\\frac{3\\pi}{2}+2k\\pi$. 在 $x\\in[-\\pi,0]$ 内只有 $k=-1$ 的区间有交集，故</p><p>$-\\frac{3\\pi}{2}<2x+\\frac{\\pi}{6}< -\\frac{\\pi}{2}$，解得 $-\\frac{5\\pi}{6}<x< -\\frac{\\pi}{3}$. 所以填 $\\left(-\\frac{5\\pi}{6},-\\frac{\\pi}{3}\\right)$.</p>"
         },
         {
           "num": 8,
@@ -75,14 +75,14 @@
           "body": "在等差数列 $\\{a_{n}\\}$ 中满足 $3a_{4}=7a_{7}$，且 $a_{1}>0$，$S_{n}$ 是数列 $\\{a_{n}\\}$ 前 $n$ 项的和. 若 $S_{n}$ 取得最大值，则 $n=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$9$",
-          "solution": "<p>设公差为 $d$，则 $a_{4}=a_{1}+3d$，$a_{7}=a_{1}+6d$. 由题设</p><p>$3(a_{1}+3d)=7(a_{1}+6d)$，得 $d=-\\frac{4}{33}a_{1}&#x3C;0$. 于是 $a_{9}=a_{1}+8d=\\frac{1}{33}a_{1}>0$，而 $a_{10}=a_{1}+9d=-\\frac{1}{11}a_{1}&#x3C;0$. 因为数列递减，所以 $a_{1}$，$\\ldots$，$a_{9}>0$，而 $a_{10}$，$a_{11}$，$\\ldots&#x3C;0$. 又 $S_{n+1}-S_{n}=a_{n+1}$，故 $S_{n}$ 在 $n=9$ 时由增转减，最大值对应 $n=9$.</p>"
+          "solution": "<p>设公差为 $d$，则 $a_{4}=a_{1}+3d$，$a_{7}=a_{1}+6d$. 由题设</p><p>$3(a_{1}+3d)=7(a_{1}+6d)$，得 $d=-\\frac{4}{33}a_{1}<0$. 于是 $a_{9}=a_{1}+8d=\\frac{1}{33}a_{1}>0$，而 $a_{10}=a_{1}+9d=-\\frac{1}{11}a_{1}<0$. 因为数列递减，所以 $a_{1}$，$\\ldots$，$a_{9}>0$，而 $a_{10}$，$a_{11}$，$\\ldots<0$. 又 $S_{n+1}-S_{n}=a_{n+1}$，故 $S_{n}$ 在 $n=9$ 时由增转减，最大值对应 $n=9$.</p>"
         },
         {
           "num": 11,
           "body": "若以连续掷两次骰子分别得到的点数 $m$，$n$ 作为点 $P$ 的坐标，则点 $P$ 落在圆 $x^{2}+ y^{2}= 16$ 内的概率是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{2}{9}$",
-          "solution": "两次掷骰子的有序结果共有 $6\\times6=36$ 个，且等可能. 条件为 $m^{2}+n^{2}&#x3C;16$. 当 $m=1$ 时，$n=1$，$2$，$3$；当 $m=2$ 时，$n=1$，$2$，$3$；当 $m=3$ 时，$n=1$，$2$；当 $m\\geq4$ 时无满足条件的结果，共有 $3+3+2=8$ 个. 因此所求概率为 $\\dfrac{8}{36}=\\dfrac{2}{9}$."
+          "solution": "两次掷骰子的有序结果共有 $6\\times6=36$ 个，且等可能. 条件为 $m^{2}+n^{2}<16$. 当 $m=1$ 时，$n=1$，$2$，$3$；当 $m=2$ 时，$n=1$，$2$，$3$；当 $m=3$ 时，$n=1$，$2$；当 $m\\geq4$ 时无满足条件的结果，共有 $3+3+2=8$ 个. 因此所求概率为 $\\dfrac{8}{36}=\\dfrac{2}{9}$."
         },
         {
           "num": 12,
@@ -117,7 +117,7 @@
         },
         {
           "num": 15,
-          "body": "<p>若 $a &#x3C; b &#x3C; 0$，则下列结论中正确的是（ ）</p><p>不等式 $\\frac{1}{a - b}> \\frac{1}{a}$ 和 $\\frac{1}{|a|}> \\frac{1}{|b|}$ 均不能成立</p><p>不等式 $\\frac{1}{a - b}> \\frac{1}{a}$ 和 $(a + \\frac{1}{b})^{2} > (b + \\frac{1}{a})^{2}$ 均不能成立</p><p>不等式 $\\frac{1}{|a|}> \\frac{1}{|b|}$ 和 $(a + \\frac{1}{b})^{2} > (b + \\frac{1}{a})^{2}$ 均不能成立</p>",
+          "body": "<p>若 $a < b < 0$，则下列结论中正确的是（ ）</p><p>不等式 $\\frac{1}{a - b}> \\frac{1}{a}$ 和 $\\frac{1}{|a|}> \\frac{1}{|b|}$ 均不能成立</p><p>不等式 $\\frac{1}{a - b}> \\frac{1}{a}$ 和 $(a + \\frac{1}{b})^{2} > (b + \\frac{1}{a})^{2}$ 均不能成立</p><p>不等式 $\\frac{1}{|a|}> \\frac{1}{|b|}$ 和 $(a + \\frac{1}{b})^{2} > (b + \\frac{1}{a})^{2}$ 均不能成立</p>",
           "choices": [
             "不等式 <span class=\"macro macro-(\"></span><span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">{</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1</span></span>",
             "a} > <span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">{</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1</span></span>",
@@ -125,7 +125,7 @@
             "|a|} > <span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">|b|</span></span><span class=\"macro macro-)\"></span> 均不能成立"
           ],
           "answer": "B",
-          "solution": "<p>因为 $a&#x3C;b&#x3C;0$，取倒数时不等号反向，得 $\\frac{1}{a}>\\frac{1}{b}$. 又 $|a|>|b|$，所以 $\\frac{1}{|a|}&#x3C;\\frac{1}{|b|}$，第二个不等式不能成立. 还因为 $a-b&#x3C;0$ 且 $a&#x3C;a-b$，所以 $\\frac{1}{a}>\\frac{1}{a-b}$，即 $\\frac{1}{a-b}>\\frac{1}{a}$ 不能成立. 因此第二个选项中的两个不等式均不能成立.</p><p>为排除其余选项，取 $a=-3$，$b=-2$，则 $\\left(a+\\frac{1}{b}\\right)^{2}=\\frac{49}{4}>\\frac{49}{9}=\\left(b+\\frac{1}{a}\\right)^{2}$，故第三、第四个选项中的第二个不等式并非均不能成立；而第一个选项中的第一个不等式可以成立. 因此正确选项为 B.</p>"
+          "solution": "<p>因为 $a<b<0$，取倒数时不等号反向，得 $\\frac{1}{a}>\\frac{1}{b}$. 又 $|a|>|b|$，所以 $\\frac{1}{|a|}<\\frac{1}{|b|}$，第二个不等式不能成立. 还因为 $a-b<0$ 且 $a<a-b$，所以 $\\frac{1}{a}>\\frac{1}{a-b}$，即 $\\frac{1}{a-b}>\\frac{1}{a}$ 不能成立. 因此第二个选项中的两个不等式均不能成立.</p><p>为排除其余选项，取 $a=-3$，$b=-2$，则 $\\left(a+\\frac{1}{b}\\right)^{2}=\\frac{49}{4}>\\frac{49}{9}=\\left(b+\\frac{1}{a}\\right)^{2}$，故第三、第四个选项中的第二个不等式并非均不能成立；而第一个选项中的第一个不等式可以成立. 因此正确选项为 B.</p>"
         },
         {
           "num": 16,
@@ -146,10 +146,10 @@
       "problems": [
         {
           "num": 17,
-          "body": "设集合 $A = \\{x\\mid |x - a| &#x3C; 2\\}$，$B = \\{x\\mid \\frac{2x - 1}{x + 2}&#x3C; 1\\}$. 若 $A \\subseteq B$，求实数 $a$ 的取值范围.",
+          "body": "设集合 $A = \\{x\\mid |x - a| < 2\\}$，$B = \\{x\\mid \\frac{2x - 1}{x + 2}< 1\\}$. 若 $A \\subseteq B$，求实数 $a$ 的取值范围.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $|x-a|&#x3C;2$，得 $a-2&#x3C;x&#x3C;a+2$，所以 $A=(a-2,a+2)$. 对于 $B$，先注意 $x\\ne-2$，并化简不等式得</p><p>$\\frac{2x-1}{x+2}&#x3C;1\\Longleftrightarrow\\frac{x-3}{x+2}&#x3C;0$. 临界点为 $-2$ 和 $3$，作符号判断可得 $-2&#x3C;x&#x3C;3$，所以 $B=(-2,3)$. 要使开区间 $(a-2,a+2)$ 包含于 $(-2,3)$，必须且只需 $a-2\\geq-2$ 且 $a+2\\leq3$. 因而 $0\\leq a\\leq1$.</p>"
+          "solution": "<p>由 $|x-a|<2$，得 $a-2<x<a+2$，所以 $A=(a-2,a+2)$. 对于 $B$，先注意 $x\\ne-2$，并化简不等式得</p><p>$\\frac{2x-1}{x+2}<1\\Longleftrightarrow\\frac{x-3}{x+2}<0$. 临界点为 $-2$ 和 $3$，作符号判断可得 $-2<x<3$，所以 $B=(-2,3)$. 要使开区间 $(a-2,a+2)$ 包含于 $(-2,3)$，必须且只需 $a-2\\geq-2$ 且 $a+2\\leq3$. 因而 $0\\leq a\\leq1$.</p>"
         },
         {
           "num": 18,
@@ -177,14 +177,14 @@
           "body": "<p>平地上有一条水沟，沟沿是两条长 $100\\text{ 米}$ 的平行线段，沟宽 $AB$ 为 $2\\text{ 米}$，与沟沿垂直的平面与沟的交线是一段抛物线，抛物线顶点为 $O$，对称轴与地面垂直，沟深 $1.5\\text{ 米}$，沟中水深 $1\\text{ 米}$.</p><ol class=\"enumerate\"><li><p>求水面宽；</p></li><li><p>如图所示形状的几何体为柱体. 已知柱体的体积为底面积乘以高. 问沟中的水有多少立方米？</p></li><li><p>若要把这条水沟改挖（不准填土）成截面为等腰梯形的沟，使沟的底面与地面平行，则改挖后的沟底宽为多少米时，所挖的土最少？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取抛物线顶点 $O$ 为原点，对称轴为 $y$ 轴，地面为直线 $y=\\frac{3}{2}$. 由于沟沿端点的横坐标为 $\\pm1$，设抛物线为 $y=ax^{2}$，代入点 $\\left(1,\\frac{3}{2}\\right)$ 得 $a=\\frac{3}{2}$，所以抛物线方程为 $y=\\frac{3}{2}x^{2}$. 水面距沟底为 $1\\text{ 米}$，令 $y=1$，得 $x=\\pm\\frac{\\sqrt{6}}{3}$，故水面宽为 $\\frac{2\\sqrt{6}}{3}\\text{ 米}$.</p></li><li><p>水的横截面积为抛物线与直线 $y=1$ 围成的面积，因此水的体积为</p>\n$$\nV=100\\int_{-\\frac{\\sqrt{6}}{3}}^{\\frac{\\sqrt{6}}{3}}\\left(1-\\frac{3}{2}x^{2}\\right)\\,\\mathrm{d}x=2\\cdot100\\int_{0}^{\\frac{\\sqrt{6}}{3}}\\left(1-\\frac{3}{2}x^{2}\\right)\\,\\mathrm{d}x=\\frac{400\\sqrt{6}}{9}\n$$\n<p>所以沟中有 $\\frac{400\\sqrt{6}}{9}\\text{ 立方米}$ 的水.</p></li><li><p>为使挖去的土最少，应使新沟的等腰梯形尽可能小而仍包含原抛物线沟槽，因此等腰梯形的两腰分别为抛物线两侧的切线. 设右侧切点为 $P\\left(t,\\frac{3}{2}t^{2}\\right)$，其中 $0&#x3C;t\\leq1$. 抛物线在 $P$ 处的切线为</p><p>$y=3t(x-t)+\\frac{3}{2}t^{2}=3tx-\\frac{3}{2}t^{2}$.</p><p>该切线与底边 $y=0$ 交于 $C\\left(\\frac{1}{2}t,0\\right)$，与地面 $y=\\frac{3}{2}$ 交于 $D\\left(\\frac{1}{2}\\left(t+\\frac{1}{t}\\right),\\frac{3}{2}\\right)$. 记右半边梯形面积为 $S$，则</p>\n$$\nS=\\frac{1}{2}\\left(\\frac{1}{2}t+\\frac{1}{2}\\left(t+\\frac{1}{t}\\right)\\right)\\cdot\\frac{3}{2}=\\frac{3}{4}\\left(t+\\frac{1}{2t}\\right)\n$$\n<p>原抛物线沟槽的面积是定值，而新等腰梯形的面积为 $2S$，所以只需使 $S$ 最小. 由基本不等式，$t+\\frac{1}{2t}\\geq\\sqrt{2}$，且等号当且仅当 $t=\\frac{\\sqrt{2}}{2}$. 此时右半边梯形的底边长为 $OC=\\frac{t}{2}$，故整个等腰梯形的沟底宽为 $2OC=t=\\frac{\\sqrt{2}}{2}\\text{ 米}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取抛物线顶点 $O$ 为原点，对称轴为 $y$ 轴，地面为直线 $y=\\frac{3}{2}$. 由于沟沿端点的横坐标为 $\\pm1$，设抛物线为 $y=ax^{2}$，代入点 $\\left(1,\\frac{3}{2}\\right)$ 得 $a=\\frac{3}{2}$，所以抛物线方程为 $y=\\frac{3}{2}x^{2}$. 水面距沟底为 $1\\text{ 米}$，令 $y=1$，得 $x=\\pm\\frac{\\sqrt{6}}{3}$，故水面宽为 $\\frac{2\\sqrt{6}}{3}\\text{ 米}$.</p></li><li><p>水的横截面积为抛物线与直线 $y=1$ 围成的面积，因此水的体积为</p>\n$$\nV=100\\int_{-\\frac{\\sqrt{6}}{3}}^{\\frac{\\sqrt{6}}{3}}\\left(1-\\frac{3}{2}x^{2}\\right)\\,\\mathrm{d}x=2\\cdot100\\int_{0}^{\\frac{\\sqrt{6}}{3}}\\left(1-\\frac{3}{2}x^{2}\\right)\\,\\mathrm{d}x=\\frac{400\\sqrt{6}}{9}\n$$\n<p>所以沟中有 $\\frac{400\\sqrt{6}}{9}\\text{ 立方米}$ 的水.</p></li><li><p>为使挖去的土最少，应使新沟的等腰梯形尽可能小而仍包含原抛物线沟槽，因此等腰梯形的两腰分别为抛物线两侧的切线. 设右侧切点为 $P\\left(t,\\frac{3}{2}t^{2}\\right)$，其中 $0<t\\leq1$. 抛物线在 $P$ 处的切线为</p><p>$y=3t(x-t)+\\frac{3}{2}t^{2}=3tx-\\frac{3}{2}t^{2}$.</p><p>该切线与底边 $y=0$ 交于 $C\\left(\\frac{1}{2}t,0\\right)$，与地面 $y=\\frac{3}{2}$ 交于 $D\\left(\\frac{1}{2}\\left(t+\\frac{1}{t}\\right),\\frac{3}{2}\\right)$. 记右半边梯形面积为 $S$，则</p>\n$$\nS=\\frac{1}{2}\\left(\\frac{1}{2}t+\\frac{1}{2}\\left(t+\\frac{1}{t}\\right)\\right)\\cdot\\frac{3}{2}=\\frac{3}{4}\\left(t+\\frac{1}{2t}\\right)\n$$\n<p>原抛物线沟槽的面积是定值，而新等腰梯形的面积为 $2S$，所以只需使 $S$ 最小. 由基本不等式，$t+\\frac{1}{2t}\\geq\\sqrt{2}$，且等号当且仅当 $t=\\frac{\\sqrt{2}}{2}$. 此时右半边梯形的底边长为 $OC=\\frac{t}{2}$，故整个等腰梯形的沟底宽为 $2OC=t=\\frac{\\sqrt{2}}{2}\\text{ 米}$.</p></li></ol>"
         },
         {
           "num": 22,
           "body": "<p>设椭圆 $l$ 的方程为 $\\frac{(x+c)^{2}}{b^{2}}+\\frac{(y+c)^{2}}{a^{2}}=1$，其中 $a>b>0$，$c$ 为椭圆的半焦距.</p><ol class=\"enumerate\"><li><p>将椭圆 $l$ 绕它的上焦点按逆时针方向旋转 $\\frac{\\pi}{2}$，求所得椭圆 $L$ 的中心的坐标，长轴长，短轴长及其方程；</p></li><li><p>若椭圆 $L$ 与曲线 $y=\\frac{1}{x}$ 在第一象限内只有一个公共点 $P$，试用 $a$ 表示点 $P$ 的坐标；</p></li><li><p>设 $A$，$B$ 是椭圆 $L$ 的两个焦点，当 $a$ 变化时，求 $\\triangle ABP$ 的面积函数 $S(a)$ 的值域.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>椭圆 $l$ 的中心为 $(-c,-c)$，其上焦点为 $(-c,0)$. 中心相对于上焦点的向量为 $(0,-c)$，逆时针旋转 $\\frac{\\pi}{2}$ 后变为 $(c,0)$，所以旋转后的中心为 $(0,0)$. 原椭圆的长轴方向由 $y$ 轴转到 $x$ 轴，故长轴长为 $2a$，短轴长为 $2b$，所得椭圆方程为 $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$.</p></li><li><p>将 $y=\\frac{1}{x}$ 代入椭圆方程，得 $\\frac{x^{2}}{a^{2}}+\\frac{1}{b^{2}x^{2}}=1$. 令 $u=x^{2}$，则 $u>0$ 且满足</p><p>$b^{2}u^{2}-a^{2}b^{2}u+a^{2}=0$. 该方程的两根乘积为 $\\frac{a^{2}}{b^{2}}>0$，两根和为 $a^{2}>0$，所以只要有实根就有两个正根. 题设第一象限只有一个公共点，故该二次方程必须有重根，判别式为零：</p><p>$a^{4}b^{4}-4a^{2}b^{2}=0$. 由于 $a$，$b>0$，得 $ab=2$. 于是重根为 $u=\\frac{a^{2}}{2}$，第一象限取正根 $x=\\frac{a}{\\sqrt{2}}$，再由 $y=\\frac{1}{x}$ 得 $y=\\frac{\\sqrt{2}}{a}$. 因此 $P=\\left(\\frac{a}{\\sqrt{2}},\\frac{\\sqrt{2}}{a}\\right)$.</p></li><li><p>椭圆 $L$ 的两个焦点在 $x$ 轴上，$|AB|=2\\sqrt{a^{2}-b^{2}}$. 因为 $AB$ 在 $x$ 轴上，三角形 $ABP$ 的高为 $y_{P}=\\frac{\\sqrt{2}}{a}$，所以</p>\n$$\nS(a)=\\frac{1}{2}\\cdot2\\sqrt{a^{2}-b^{2}}\\cdot\\frac{\\sqrt{2}}{a}=\\sqrt{2\\left(1-\\frac{b^{2}}{a^{2}}\\right)}\n$$\n<p>由 $ab=2$ 得 $b=\\frac{2}{a}$，而 $a>b>0$ 等价于 $a>\\sqrt{2}$. 因此</p><p>$S(a)=\\sqrt{2\\left(1-\\frac{4}{a^{4}}\\right)}$，且 $0&#x3C;S(a)&#x3C;\\sqrt{2}$. 当 $a$ 从 $\\sqrt{2}$ 的右侧趋近于 $\\sqrt{2}$ 时，$S(a)$ 趋近于 $0$；当 $a\\to+\\infty$ 时，$S(a)$ 趋近于 $\\sqrt{2}$. 该函数在 $(\\sqrt{2},+\\infty)$ 上连续递增，故值域为 $(0,\\sqrt{2})$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>椭圆 $l$ 的中心为 $(-c,-c)$，其上焦点为 $(-c,0)$. 中心相对于上焦点的向量为 $(0,-c)$，逆时针旋转 $\\frac{\\pi}{2}$ 后变为 $(c,0)$，所以旋转后的中心为 $(0,0)$. 原椭圆的长轴方向由 $y$ 轴转到 $x$ 轴，故长轴长为 $2a$，短轴长为 $2b$，所得椭圆方程为 $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$.</p></li><li><p>将 $y=\\frac{1}{x}$ 代入椭圆方程，得 $\\frac{x^{2}}{a^{2}}+\\frac{1}{b^{2}x^{2}}=1$. 令 $u=x^{2}$，则 $u>0$ 且满足</p><p>$b^{2}u^{2}-a^{2}b^{2}u+a^{2}=0$. 该方程的两根乘积为 $\\frac{a^{2}}{b^{2}}>0$，两根和为 $a^{2}>0$，所以只要有实根就有两个正根. 题设第一象限只有一个公共点，故该二次方程必须有重根，判别式为零：</p><p>$a^{4}b^{4}-4a^{2}b^{2}=0$. 由于 $a$，$b>0$，得 $ab=2$. 于是重根为 $u=\\frac{a^{2}}{2}$，第一象限取正根 $x=\\frac{a}{\\sqrt{2}}$，再由 $y=\\frac{1}{x}$ 得 $y=\\frac{\\sqrt{2}}{a}$. 因此 $P=\\left(\\frac{a}{\\sqrt{2}},\\frac{\\sqrt{2}}{a}\\right)$.</p></li><li><p>椭圆 $L$ 的两个焦点在 $x$ 轴上，$|AB|=2\\sqrt{a^{2}-b^{2}}$. 因为 $AB$ 在 $x$ 轴上，三角形 $ABP$ 的高为 $y_{P}=\\frac{\\sqrt{2}}{a}$，所以</p>\n$$\nS(a)=\\frac{1}{2}\\cdot2\\sqrt{a^{2}-b^{2}}\\cdot\\frac{\\sqrt{2}}{a}=\\sqrt{2\\left(1-\\frac{b^{2}}{a^{2}}\\right)}\n$$\n<p>由 $ab=2$ 得 $b=\\frac{2}{a}$，而 $a>b>0$ 等价于 $a>\\sqrt{2}$. 因此</p><p>$S(a)=\\sqrt{2\\left(1-\\frac{4}{a^{4}}\\right)}$，且 $0<S(a)<\\sqrt{2}$. 当 $a$ 从 $\\sqrt{2}$ 的右侧趋近于 $\\sqrt{2}$ 时，$S(a)$ 趋近于 $0$；当 $a\\to+\\infty$ 时，$S(a)$ 趋近于 $\\sqrt{2}$. 该函数在 $(\\sqrt{2},+\\infty)$ 上连续递增，故值域为 $(0,\\sqrt{2})$.</p></li></ol>"
         }
       ]
     }

@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "已知命题 $p:\\exists x\\in\\mathbb{R}$，$\\sin x&#x3C;1$；命题 $q:\\forall x\\in\\mathbb{R}$，$\\mathrm{e}^{|x|}\\ge1$，则下列命题中为真命题的是（ ）",
+          "body": "已知命题 $p:\\exists x\\in\\mathbb{R}$，$\\sin x<1$；命题 $q:\\forall x\\in\\mathbb{R}$，$\\mathrm{e}^{|x|}\\ge1$，则下列命题中为真命题的是（ ）",
           "choices": [
             "$p\\wedge q$",
             "$\\neg p\\wedge q$",
@@ -143,9 +143,9 @@
           "num": 12,
           "body": "设 $a\\ne0$，若 $x=a$ 是函数 $f(x)=a\\left(x-a\\right)^{2}\\left(x-b\\right)$ 的极大值点，则（ ）",
           "choices": [
-            "$a&#x3C;b$",
+            "$a<b$",
             "$a>b$",
-            "$ab&#x3C;a^{2}$",
+            "$ab<a^{2}$",
             "$ab>a^{2}$"
           ],
           "answer": "D",
@@ -205,7 +205,7 @@
         },
         {
           "num": 19,
-          "body": "<p>设 $\\{a_{n}\\}$ 是首项为 $1$ 的等比数列，数列 $\\{b_{n}\\}$ 满足 $b_{n}=\\dfrac{na_n}{3}$. 已知 $a_{1}$，$3a_{2}$，$9a_{3}$ 成等差数列.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>记 $S_{n}$ 和 $T_{n}$ 分别为 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的前 $n$ 项和，证明：$T_{n}&#x3C;\\dfrac{S_n}{2}$.</p></li></ol>",
+          "body": "<p>设 $\\{a_{n}\\}$ 是首项为 $1$ 的等比数列，数列 $\\{b_{n}\\}$ 满足 $b_{n}=\\dfrac{na_n}{3}$. 已知 $a_{1}$，$3a_{2}$，$9a_{3}$ 成等差数列.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>记 $S_{n}$ 和 $T_{n}$ 分别为 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的前 $n$ 项和，证明：$T_{n}<\\dfrac{S_n}{2}$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

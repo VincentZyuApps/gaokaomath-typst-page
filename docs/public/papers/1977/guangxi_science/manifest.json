@@ -12,7 +12,7 @@
           "body": "<p>$x$ 为何值时：</p><ol class=\"enumerate\"><li><p>$\\frac{|x|}{x}$ 的值是 $1$？</p></li><li><p>$\\frac{|x|}{x}$ 的值是 $-1$？</p></li><li><p>$\\frac{|x|}{x}$ 没有意义？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>根据分母 $x$ 是否为零，分三种情形讨论：</p><ol class=\"enumerate\"><li><p>当 $x>0$ 时，$|x|=x$，所以 $\\frac{|x|}{x}=1$，故第（1）问的解为 $x>0$.</p></li><li><p>当 $x&#x3C;0$ 时，$|x|=-x$，所以 $\\frac{|x|}{x}=-1$，故第（2）问的解为 $x&#x3C;0$.</p></li><li><p>当 $x=0$ 时分母为零，$\\frac{|x|}{x}$ 没有意义，故第（3）问的解为 $x=0$.</p></li></ol>"
+          "solution": "<p>根据分母 $x$ 是否为零，分三种情形讨论：</p><ol class=\"enumerate\"><li><p>当 $x>0$ 时，$|x|=x$，所以 $\\frac{|x|}{x}=1$，故第（1）问的解为 $x>0$.</p></li><li><p>当 $x<0$ 时，$|x|=-x$，所以 $\\frac{|x|}{x}=-1$，故第（2）问的解为 $x<0$.</p></li><li><p>当 $x=0$ 时分母为零，$\\frac{|x|}{x}$ 没有意义，故第（3）问的解为 $x=0$.</p></li></ol>"
         },
         {
           "num": 2,
@@ -68,7 +68,7 @@
           "body": "<p>把一块钢板冲成上面是半圆形，下面是矩形的零件，已知零件的周长是 $P$，怎样才能使冲出的零件面积最大？</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangxi_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设半圆的直径（也是矩形的宽）为 $x$，矩形的高为 $h$，零件面积为 $S$. 半圆的弧长为 $\\frac{\\pi x}{2}$，所以周长条件给出 $\\frac{\\pi x}{2}+x+2h=P$，即</p>\n$$\nh=\\frac{1}{2}\\left(P-\\frac{\\pi x}{2}-x\\right)=\\frac{2P-\\left(\\pi+2\\right)x}{4}\n$$\n<p>由于周长 $P>0$，且 $x>0$ 与 $h>0$，变量范围为 $0&#x3C;x&#x3C;\\frac{2P}{\\pi+2}$. 半圆面积为 $\\frac{\\pi}{8}x^{2}$，矩形面积为 $xh$，因此</p>\n$$\n\\begin{gathered}S=\\frac{\\pi}{8}x^2+x\\cdot\\frac{2P-\\left(\\pi+2\\right)x}{4}\\\\\n\n=-\\frac{\\pi+4}{8}x^2+\\frac{P}{2}x\\\\\n\n=-\\frac{\\pi+4}{8}\\left(x-\\frac{2P}{\\pi+4}\\right)^2+\\frac{P^{2}}{2\\left(\\pi+4\\right)}\\end{gathered}\n$$\n<p>因为 $\\pi+4>0$，平方项前的系数为负，所以当 $x=\\frac{2P}{\\pi+4}$ 时面积取得最大值. 这个值满足可行范围，因为 $\\pi+4>\\pi+2$. 此时矩形的高为</p>\n$$\nh=\\frac{2P-\\left(\\pi+2\\right)\\frac{2P}{\\pi+4}}{4}=\\frac{P}{\\pi+4}\n$$\n<p>于是矩形的宽与高之比为 $x:h=\\frac{2P}{\\pi+4}:\\frac{P}{\\pi+4}=2:1$.</p><p>答：当矩形的宽与高之比为 $2:1$ 时，冲出的零件面积最大.</p>"
+          "solution": "<p>设半圆的直径（也是矩形的宽）为 $x$，矩形的高为 $h$，零件面积为 $S$. 半圆的弧长为 $\\frac{\\pi x}{2}$，所以周长条件给出 $\\frac{\\pi x}{2}+x+2h=P$，即</p>\n$$\nh=\\frac{1}{2}\\left(P-\\frac{\\pi x}{2}-x\\right)=\\frac{2P-\\left(\\pi+2\\right)x}{4}\n$$\n<p>由于周长 $P>0$，且 $x>0$ 与 $h>0$，变量范围为 $0<x<\\frac{2P}{\\pi+2}$. 半圆面积为 $\\frac{\\pi}{8}x^{2}$，矩形面积为 $xh$，因此</p>\n$$\n\\begin{gathered}S=\\frac{\\pi}{8}x^2+x\\cdot\\frac{2P-\\left(\\pi+2\\right)x}{4}\\\\\n\n=-\\frac{\\pi+4}{8}x^2+\\frac{P}{2}x\\\\\n\n=-\\frac{\\pi+4}{8}\\left(x-\\frac{2P}{\\pi+4}\\right)^2+\\frac{P^{2}}{2\\left(\\pi+4\\right)}\\end{gathered}\n$$\n<p>因为 $\\pi+4>0$，平方项前的系数为负，所以当 $x=\\frac{2P}{\\pi+4}$ 时面积取得最大值. 这个值满足可行范围，因为 $\\pi+4>\\pi+2$. 此时矩形的高为</p>\n$$\nh=\\frac{2P-\\left(\\pi+2\\right)\\frac{2P}{\\pi+4}}{4}=\\frac{P}{\\pi+4}\n$$\n<p>于是矩形的宽与高之比为 $x:h=\\frac{2P}{\\pi+4}:\\frac{P}{\\pi+4}=2:1$.</p><p>答：当矩形的宽与高之比为 $2:1$ 时，冲出的零件面积最大.</p>"
         }
       ]
     },

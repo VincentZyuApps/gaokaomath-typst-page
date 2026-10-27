@@ -156,9 +156,9 @@
           "body": "不等式 $\\displaystyle\\frac{3x-1}{2-x}\\geqslant1$ 的解集是（ ）",
           "choices": [
             "$\\left\\{x\\mid\\frac{3}{4}\\le x\\leqslant2\\right\\}$",
-            "$\\left\\{x\\mid\\frac{3}{4}\\le x&#x3C;2\\right\\}$",
+            "$\\left\\{x\\mid\\frac{3}{4}\\le x<2\\right\\}$",
             "$\\left\\{x\\mid x>2\\text{或}x\\le\\frac{3}{4}\\right\\}$",
-            "$\\{x\\mid x&#x3C;2\\}$"
+            "$\\{x\\mid x<2\\}$"
           ],
           "answer": "",
           "solution": ""
@@ -375,7 +375,7 @@
         },
         {
           "num": 34,
-          "body": "<p>设 $|\\theta|&#x3C;\\frac{\\pi}{2}$，数列 $\\{a_{n}\\}$ 的通项是 $a_{n}=\\sin\\frac{n\\pi}{2}\\cdot\\tan^{n}\\theta$，记 $S_{2n}=a_{1}+a_{2}+\\dots+a_{2n-1}+a_{2n}$.</p><ol class=\"enumerate\"><li><p>求证：对任何自然数 $n$，$S_{2n}=\\frac{1}{2}(\\sin2\\theta)[1+(-1)^{n+1}\\tan^{2n}\\theta]$.</p></li><li><p>求证：当 $n\\geqslant2$ 时，$a_{n}^{2}+a_{n-1}a_{n+1}+(-1)^{n}(a_{1}^{n})^{2}=0$.</p></li></ol>",
+          "body": "<p>设 $|\\theta|<\\frac{\\pi}{2}$，数列 $\\{a_{n}\\}$ 的通项是 $a_{n}=\\sin\\frac{n\\pi}{2}\\cdot\\tan^{n}\\theta$，记 $S_{2n}=a_{1}+a_{2}+\\dots+a_{2n-1}+a_{2n}$.</p><ol class=\"enumerate\"><li><p>求证：对任何自然数 $n$，$S_{2n}=\\frac{1}{2}(\\sin2\\theta)[1+(-1)^{n+1}\\tan^{2n}\\theta]$.</p></li><li><p>求证：当 $n\\geqslant2$ 时，$a_{n}^{2}+a_{n-1}a_{n+1}+(-1)^{n}(a_{1}^{n})^{2}=0$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

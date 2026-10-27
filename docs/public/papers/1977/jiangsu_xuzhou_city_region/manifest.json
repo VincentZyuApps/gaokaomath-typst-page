@@ -54,7 +54,7 @@
           "body": "<p>某生产队准备在一边靠墙的地方建一个长方形的猪圈，现有一堆旧砖，可以垒成 $20\\mathrm{~m}$ 长的围墙（门在内）. 问应怎样选取猪圈的宽才能使垒成的猪圈面积最大？最大面积是多少？</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu_xuzhou_city_region/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设猪圈垂直于墙的两边长均为 $x\\mathrm{~m}$，沿墙的一边长为 $y\\mathrm{~m}$. 旧砖垒成的围墙包括两条宽和一条长，门也包含在这 $20\\mathrm{~m}$ 的围墙长度中，因此</p><p>$2x+y=20$. 因为猪圈边长为正，$x>0$，$y>0$，从而 $0&#x3C;x&#x3C;10$，且 $y=20-2x$. 猪圈面积为</p>\n$$\nS=xy=x(20-2x)=-2x^{2}+20x=-2\\left(x^{2}-10x\\right)  =-2\\left(x-5\\right)^{2}+50\n$$\n<p>因为 $\\left(x-5\\right)^{2}\\geqslant0$，所以 $S=-2\\left(x-5\\right)^{2}+50\\leq50$，等号当且仅当 $x=5$. 此时</p><p>$y=20-2\\times5=10$. 因此应取猪圈的宽为 $5\\mathrm{~m}$，长为 $10\\mathrm{~m}$，最大面积为 $50\\mathrm{~m}^{2}$.</p>"
+          "solution": "<p>设猪圈垂直于墙的两边长均为 $x\\mathrm{~m}$，沿墙的一边长为 $y\\mathrm{~m}$. 旧砖垒成的围墙包括两条宽和一条长，门也包含在这 $20\\mathrm{~m}$ 的围墙长度中，因此</p><p>$2x+y=20$. 因为猪圈边长为正，$x>0$，$y>0$，从而 $0<x<10$，且 $y=20-2x$. 猪圈面积为</p>\n$$\nS=xy=x(20-2x)=-2x^{2}+20x=-2\\left(x^{2}-10x\\right)  =-2\\left(x-5\\right)^{2}+50\n$$\n<p>因为 $\\left(x-5\\right)^{2}\\geqslant0$，所以 $S=-2\\left(x-5\\right)^{2}+50\\leq50$，等号当且仅当 $x=5$. 此时</p><p>$y=20-2\\times5=10$. 因此应取猪圈的宽为 $5\\mathrm{~m}$，长为 $10\\mathrm{~m}$，最大面积为 $50\\mathrm{~m}^{2}$.</p>"
         },
         {
           "num": 8,

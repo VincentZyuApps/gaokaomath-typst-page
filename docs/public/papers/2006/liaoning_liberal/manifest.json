@@ -65,7 +65,7 @@
             "两椭圆的离心率"
           ],
           "answer": "A",
-          "solution": "将方程因式分解得 $(2x-1)(x-2)=0$，所以两个根为 $x_{1}=\\dfrac{1}{2}$，$x_{2}=2$. 椭圆的离心率满足 $0&#x3C;e&#x3C;1$，双曲线的离心率满足 $e>1$，抛物线的离心率等于 $1$. 因此 $\\dfrac{1}{2}$ 和 $2$ 可分别作为一个椭圆和一条双曲线的离心率，故选 A."
+          "solution": "将方程因式分解得 $(2x-1)(x-2)=0$，所以两个根为 $x_{1}=\\dfrac{1}{2}$，$x_{2}=2$. 椭圆的离心率满足 $0<e<1$，双曲线的离心率满足 $e>1$，抛物线的离心率等于 $1$. 因此 $\\dfrac{1}{2}$ 和 $2$ 可分别作为一个椭圆和一条双曲线的离心率，故选 A."
         },
         {
           "num": 6,
@@ -108,7 +108,7 @@
             "$\\frac{2\\pi}{3}$"
           ],
           "answer": "B",
-          "solution": "向量平行的充要条件给出 $(a+c)(c-a)-b(b-a)=0$. 化简得 $c^{2}-a^{2}-b^{2}+ab=0$，即 $c^{2}=a^{2}+b^{2}-ab$. 另一方面，由余弦定理，$c^{2}=a^{2}+b^{2}-2ab\\cos C$，所以 $2ab\\cos C=ab$. 由于三角形边长 $a$，$b>0$，得 $\\cos C=\\dfrac{1}{2}$，且 $0&#x3C;C&#x3C;\\pi$，从而 $C=\\dfrac{\\pi}{3}$，故选 B."
+          "solution": "向量平行的充要条件给出 $(a+c)(c-a)-b(b-a)=0$. 化简得 $c^{2}-a^{2}-b^{2}+ab=0$，即 $c^{2}=a^{2}+b^{2}-ab$. 另一方面，由余弦定理，$c^{2}=a^{2}+b^{2}-2ab\\cos C$，所以 $2ab\\cos C=ab$. 由于三角形边长 $a$，$b>0$，得 $\\cos C=\\dfrac{1}{2}$，且 $0<C<\\pi$，从而 $C=\\dfrac{\\pi}{3}$，故选 B."
         },
         {
           "num": 10,
@@ -120,7 +120,7 @@
             "$\\frac{\\sqrt{15}}{7}$"
           ],
           "answer": "D",
-          "solution": "设等腰三角形的底边长为 $b$，两腰长为 $2b$. 由余弦定理，在顶角 $A$ 对面有 $b^{2}=(2b)^{2}+(2b)^{2}-2(2b)(2b)\\cos A$，所以 $\\cos A=\\dfrac{7}{8}$. 由于 $0&#x3C;A&#x3C;\\pi$，$\\sin A=\\sqrt{1-\\dfrac{49}{64}}=\\dfrac{\\sqrt{15}}8$，故 $\\tan A=\\dfrac{\\sin A}{\\cos A}=\\dfrac{\\sqrt{15}}7$，故选 D."
+          "solution": "设等腰三角形的底边长为 $b$，两腰长为 $2b$. 由余弦定理，在顶角 $A$ 对面有 $b^{2}=(2b)^{2}+(2b)^{2}-2(2b)(2b)\\cos A$，所以 $\\cos A=\\dfrac{7}{8}$. 由于 $0<A<\\pi$，$\\sin A=\\sqrt{1-\\dfrac{49}{64}}=\\dfrac{\\sqrt{15}}8$，故 $\\tan A=\\dfrac{\\sin A}{\\cos A}=\\dfrac{\\sqrt{15}}7$，故选 D."
         },
         {
           "num": 11,
@@ -136,7 +136,7 @@
         },
         {
           "num": 12,
-          "body": "曲线 $\\frac{x^{2}}{10 - m}+ \\frac{y^{2}}{6 - m}= 1$（$m &#x3C; 6$）与曲线 $\\frac{x^{2}}{5 - n}+ \\frac{y^{2}}{9 - n}= 1$（$5 &#x3C; n &#x3C; 9$）的（ ）",
+          "body": "曲线 $\\frac{x^{2}}{10 - m}+ \\frac{y^{2}}{6 - m}= 1$（$m < 6$）与曲线 $\\frac{x^{2}}{5 - n}+ \\frac{y^{2}}{9 - n}= 1$（$5 < n < 9$）的（ ）",
           "choices": [
             "离心率相等",
             "焦距相等",
@@ -144,7 +144,7 @@
             "准线相同"
           ],
           "answer": "B",
-          "solution": "<p>第一条曲线中 $m&#x3C;6$，所以它是椭圆，且半长轴平方与半短轴平方之差为 $(10-m)-(6-m)=4$，故其焦半距 $c=2$，焦距为 $2c=4$.</p><p>第二条曲线中 $5&#x3C;n&#x3C;9$，改写为 $\\dfrac{y^2}{9-n}-\\dfrac{x^2}{n-5}=1$，它是双曲线，且 $c^{2}=(9-n)+(n-5)=4$，所以同样有 $c=2$，焦距为 $4$. 因此两曲线的焦距相等，故选 B.</p>"
+          "solution": "<p>第一条曲线中 $m<6$，所以它是椭圆，且半长轴平方与半短轴平方之差为 $(10-m)-(6-m)=4$，故其焦半距 $c=2$，焦距为 $2c=4$.</p><p>第二条曲线中 $5<n<9$，改写为 $\\dfrac{y^2}{9-n}-\\dfrac{x^2}{n-5}=1$，它是双曲线，且 $c^{2}=(9-n)+(n-5)=4$，所以同样有 $c=2$，焦距为 $4$. 因此两曲线的焦距相等，故选 B.</p>"
         }
       ]
     },
@@ -160,10 +160,10 @@
         },
         {
           "num": 14,
-          "body": "设 $g(x)=\\begin{cases}\\mathrm{e}^{x},&#x26;x\\leqslant0,\\\\  \\ln x,&#x26;x>0,\\end{cases}$ 则 $g\\left(g\\left(\\frac{1}{2}\\right)\\right)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "设 $g(x)=\\begin{cases}\\mathrm{e}^{x},&x\\leqslant0,\\\\  \\ln x,&x>0,\\end{cases}$ 则 $g\\left(g\\left(\\frac{1}{2}\\right)\\right)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{1}{2}$",
-          "solution": "由于 $\\dfrac{1}{2}>0$，有 $g\\left(\\dfrac{1}{2}\\right)=\\ln\\dfrac{1}{2}=-\\ln2&#x3C;0$. 因此第二次使用分段函数时取第一段，得到 $g\\left(g\\left(\\dfrac{1}{2}\\right)\\right)=g(-\\ln2)=\\mathrm{e}^{-\\ln2}=\\dfrac{1}{2}$."
+          "solution": "由于 $\\dfrac{1}{2}>0$，有 $g\\left(\\dfrac{1}{2}\\right)=\\ln\\dfrac{1}{2}=-\\ln2<0$. 因此第二次使用分段函数时取第一段，得到 $g\\left(g\\left(\\dfrac{1}{2}\\right)\\right)=g(-\\ln2)=\\mathrm{e}^{-\\ln2}=\\dfrac{1}{2}$."
         },
         {
           "num": 15,
@@ -200,7 +200,7 @@
         },
         {
           "num": 19,
-          "body": "<p>已知正方形 $ABCD$，$E$，$F$ 分别是边 $AB$，$CD$ 的中点，将 $\\triangle ADE$ 沿 $DE$ 折起. 如图所示，记二面角 $A - DE - C$ 的大小为 $\\theta$（$0 &#x3C; \\theta &#x3C; \\pi$）.</p><ol class=\"enumerate\"><li><p>证明： $BF \\parallel$ 平面 $ADE$；</p></li><li><p>若 $\\triangle ACD$ 为正三角形，试判断点 $A$ 在平面 $BCDE$ 内的射影 $G$ 是否在直线 $EF$ 上. 说明你的结论，并求角 $\\theta$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "body": "<p>已知正方形 $ABCD$，$E$，$F$ 分别是边 $AB$，$CD$ 的中点，将 $\\triangle ADE$ 沿 $DE$ 折起. 如图所示，记二面角 $A - DE - C$ 的大小为 $\\theta$（$0 < \\theta < \\pi$）.</p><ol class=\"enumerate\"><li><p>证明： $BF \\parallel$ 平面 $ADE$；</p></li><li><p>若 $\\triangle ACD$ 为正三角形，试判断点 $A$ 在平面 $BCDE$ 内的射影 $G$ 是否在直线 $EF$ 上. 说明你的结论，并求角 $\\theta$ 的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>在正方形中，$EB\\parallel FD$ 且 $EB=FD$，所以四边形 $EBFD$ 是平行四边形，从而 $BF\\parallel ED$. 又 $ED\\subset$ 平面 $ADE$，且 $B\\notin$ 平面 $ADE$，因此 $BF\\parallel$ 平面 $ADE$.</p></li><li><p>设正方形边长为 $2t$，其中 $t>0$. 折叠后 $AD=CD=2t$，且 $E$，$F$ 分别为 $AB$，$CD$ 的中点，所以 $AE=t$，$EF=2t$. 由 $\\triangle ACD$ 为正三角形，$AF$ 是中线，故 $AF=\\sqrt{3}t$，于是 $AE^{2}+AF^{2}=EF^{2}$，从而 $AE\\perp AF$.</p><p>设点 $A$ 在平面 $BCDE$ 内的射影为 $G$. 因为 $AC=AD$，所以 $AG^{2}+GC^{2}=AG^{2}+GD^{2}$，即 $GC=GD$. 因此 $G$ 在 $CD$ 的垂直平分线上. 又 $EF$ 是 $CD$ 的垂直平分线，故 $G\\in EF$.</p><p>在直线 $EF$ 上建立有向坐标，取 $E$ 的坐标为 $0$，$F$ 的坐标为 $2t$，设 $G$ 的坐标为 $u$. 由 $AG\\perp$ 平面 $BCDE$，在两个直角三角形中分别有 $AE^{2}=AG^{2}+u^{2}=t^{2}$，$AF^{2}=AG^{2}+(2t-u)^{2}=3t^{2}$. 两式相减得 $(2t-u)^{2}-u^{2}=2t^{2}$，解得 $u=\\dfrac{t}{2}$，所以 $G$ 在线段 $EF$ 上，$EG=\\dfrac{t}{2}$，$GF=\\dfrac{3t}{2}$，且 $AG^{2}=t^{2}-u^{2}=\\dfrac{3t^2}{4}$.</p><p>在平面 $BCDE$ 内，$D$ 到直线 $EF$ 的距离为 $t$. 因此 $\\triangle DEG$ 的面积为 $\\dfrac{1}{2}\\cdot\\dfrac{t}{2}\\cdot t=\\dfrac{t^2}{4}$. 令 $H$ 为 $G$ 在直线 $DE$ 上的垂足，则 $GH\\perp DE$. 另一方面，$DE=t\\sqrt{5}$，故 $\\dfrac{1}{2}DE\\cdot GH=\\dfrac{t^2}{4}$，从而 $GH=\\dfrac{t}{2\\sqrt{5}}$.</p><p>因为 $AG\\perp$ 平面 $BCDE$，所以 $AG\\perp GH$，得 $AH^{2}=AG^{2}+GH^{2}=\\dfrac{3t^2}{4}+\\dfrac{t^2}{20}=\\dfrac{4t^2}{5}$，即 $AH=\\dfrac{2t}{\\sqrt{5}}$. 直线 $AH$ 与 $HG$ 分别垂直于棱 $DE$，所以 $\\angle AHG=\\theta$，于是 $\\cos\\theta=\\dfrac{HG}{AH}=\\dfrac{1}{4}$.</p></li></ol>"
@@ -214,7 +214,7 @@
         },
         {
           "num": 21,
-          "body": "<p>已知函数 $f(x) = \\frac{1}{3}ax^{3} + (a + d)x^{2} + (a + 2d)x + d$，$g(x) = ax^{2} + 2(a + 2d)x + a + 4d$. 其中 $a > 0$，$d > 0$. 设 $x_{0}$ 为 $f(x)$ 的极小值点，$x_{1}$ 为 $g(x)$ 的极值点，$g(x_{2}) = g(x_{3}) = 0$，并且 $x_{2} &#x3C; x_{3}$. 将点 $(x_{0}, f(x_{0}))$，$(x_{1}, g(x_{1}))$，$(x_{2}, 0)$，$(x_{3}, 0)$ 依次记为 $A$，$B$，$C$，$D$.</p><ol class=\"enumerate\"><li><p>求 $x_{0}$ 的值；</p></li><li><p>若四边形 $APCD$ 为梯形且面积为 1，求 $a$，$d$ 的值.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = \\frac{1}{3}ax^{3} + (a + d)x^{2} + (a + 2d)x + d$，$g(x) = ax^{2} + 2(a + 2d)x + a + 4d$. 其中 $a > 0$，$d > 0$. 设 $x_{0}$ 为 $f(x)$ 的极小值点，$x_{1}$ 为 $g(x)$ 的极值点，$g(x_{2}) = g(x_{3}) = 0$，并且 $x_{2} < x_{3}$. 将点 $(x_{0}, f(x_{0}))$，$(x_{1}, g(x_{1}))$，$(x_{2}, 0)$，$(x_{3}, 0)$ 依次记为 $A$，$B$，$C$，$D$.</p><ol class=\"enumerate\"><li><p>求 $x_{0}$ 的值；</p></li><li><p>若四边形 $APCD$ 为梯形且面积为 1，求 $a$，$d$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>题面第二问将四边形写作 $APCD$，但前文定义的四个点依次为 $A$，$B$，$C$，$D$；以下按点列及梯形条件，将该四边形理解为 $ABCD$.</p><p>由</p>\n$$\nf'(x)=ax^{2}+2(a+d)x+a+2d=a\\left(x+1\\right)\\left(x+1+\\frac{2d}{a}\\right)\n$$\n<p>且 $a>0$，$d>0$，可知 $f'(x)$ 在 $x=-1$ 处由负变正，所以 $f(x)$ 的极小值点为 $x_{0}=-1$.</p></li><li><p>由</p>\n$$\ng'(x)=2ax+2(a+2d)\n$$\n<p>得 $x_{1}=-1-\\dfrac{2d}{a}$. 又</p>\n$$\ng(x)=a\\left(x+1\\right)\\left(x+1+\\frac{4d}{a}\\right)\n$$\n<p>所以 $x_{2}=-1-\\dfrac{4d}{a}$，$x_{3}=-1$. 直接计算得</p>\n$$\nf(-1)=-\\frac{a}{3}+(a+d)-(a+2d)+d=-\\frac{a}{3}\n$$\n<p>并且</p>\n$$\ng(x_{1})=a\\left(-\\frac{2d}{a}\\right)\\left(\\frac{2d}{a}\\right)=-\\frac{4d^{2}}{a}\n$$\n<p>因此</p><p>$A\\left(-1,-\\frac{a}{3}\\right)$，$B\\left(-1-\\frac{2d}{a},-\\frac{4d^{2}}{a}\\right)$，$C\\left(-1-\\frac{4d}{a},0\\right)$，$D(-1,0)$.</p><p>由于 $CD$ 水平，而 $AD$ 为竖直线，且 $BC$ 不可能竖直，所以梯形 $ABCD$ 的两底只能是 $AB$ 与 $CD$，即 $AB\\parallel CD$. 于是</p>\n$$\n-\\frac{a}{3}=-\\frac{4d^{2}}{a}\n$$\n<p>从而 $a^{2}=12d^{2}$. 由 $a>0$，$d>0$，得 $a=2\\sqrt{3}\\,d$.</p><p>此时 $|AB|=\\dfrac{2d}{a}$，$|CD|=\\dfrac{4d}{a}$，两底间的距离为 $\\dfrac{a}{3}$，故梯形面积为</p>\n$$\nS=\\frac{1}{2}\\left(\\frac{2d}{a}+\\frac{4d}{a}\\right)\\frac{a}{3}=d\n$$\n<p>由 $S=1$ 得 $d=1$，从而 $a=2\\sqrt{3}$.</p></li></ol>"

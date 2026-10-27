@@ -41,7 +41,7 @@
             "$\\pi-\\arctan\\left(-\\frac{3}{4}\\right)$"
           ],
           "answer": "B",
-          "solution": "<p>直线的斜率为</p>\n$$\nk=\\frac{3-0}{0-4}=-\\frac{3}{4}\n$$\n<p>设直线的倾斜角为 $\\theta$，则 $0\\leq\\theta&#x3C;\\pi$，且 $\\tan\\theta=-\\frac{3}{4}$. 倾斜角在第二象限，所以</p>\n$$\n\\theta=\\pi-\\arctan\\frac{3}{4}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>直线的斜率为</p>\n$$\nk=\\frac{3-0}{0-4}=-\\frac{3}{4}\n$$\n<p>设直线的倾斜角为 $\\theta$，则 $0\\leq\\theta<\\pi$，且 $\\tan\\theta=-\\frac{3}{4}$. 倾斜角在第二象限，所以</p>\n$$\n\\theta=\\pi-\\arctan\\frac{3}{4}\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 4,
@@ -83,13 +83,13 @@
           "num": 7,
           "body": "如果 $\\log_{a} 3>\\log_{b} 3>0$，那么 $a$，$b$ 间的关系是（$ $）",
           "choices": [
-            "$0&#x3C;b&#x3C;a&#x3C;1$",
-            "$0&#x3C;a&#x3C;b&#x3C;1$",
-            "$1&#x3C;b&#x3C;a$",
-            "$1&#x3C;a&#x3C;b$"
+            "$0<b<a<1$",
+            "$0<a<b<1$",
+            "$1<b<a$",
+            "$1<a<b$"
           ],
           "answer": "D",
-          "solution": "<p>对数底数必须为正且不等于 $1$. 由于 $3>1$，而 $\\log_{a}3>0$，可知 $a>1$；同理 $b>1$. 又</p><p>$\\log_{a}3=\\frac{\\ln3}{\\ln a}$，$\\log_{b}3=\\frac{\\ln3}{\\ln b}$.</p><p>因为 $\\ln3>0$，且 $\\ln a$，$\\ln b$ 均为正，$\\log_{a}3>\\log_{b}3$ 等价于 $\\frac{1}{\\ln a}>\\frac{1}{\\ln b}$，从而 $\\ln a&#x3C;\\ln b$，即 $a&#x3C;b$. 因此 $1&#x3C;a&#x3C;b$，故选 D.</p>"
+          "solution": "<p>对数底数必须为正且不等于 $1$. 由于 $3>1$，而 $\\log_{a}3>0$，可知 $a>1$；同理 $b>1$. 又</p><p>$\\log_{a}3=\\frac{\\ln3}{\\ln a}$，$\\log_{b}3=\\frac{\\ln3}{\\ln b}$.</p><p>因为 $\\ln3>0$，且 $\\ln a$，$\\ln b$ 均为正，$\\log_{a}3>\\log_{b}3$ 等价于 $\\frac{1}{\\ln a}>\\frac{1}{\\ln b}$，从而 $\\ln a<\\ln b$，即 $a<b$. 因此 $1<a<b$，故选 D.</p>"
         },
         {
           "num": 8,
@@ -101,7 +101,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_liberal/q8_fig4.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "<p>令 $q=\\frac{b}{a}$. 指数函数的定义要求 $q>0$，由图象递减可知 $0&#x3C;q&#x3C;1$. 二次函数可写为</p>\n$$\ny=ax^{2}+bx=ax(x+q)\n$$\n<p>因此抛物线的两个零点为 $0$ 和 $-q$，且 $-q\\in(-1,0)$. 所以图中的抛物线必须与 $x$ 轴交于原点及 $(-1,0)$ 与 $(0,0)$ 之间的另一点. 第一幅图的抛物线开口向上，另一零点位于该区间，且指数函数递减，满足全部条件；第二幅图的另一零点在正半轴上，第三幅图的另一零点在 $-1$ 的左侧，第四幅图的另一零点也在正半轴上，均不符合 $-q\\in(-1,0)$. 因此只可能是第一幅图，故选 A.</p>"
+          "solution": "<p>令 $q=\\frac{b}{a}$. 指数函数的定义要求 $q>0$，由图象递减可知 $0<q<1$. 二次函数可写为</p>\n$$\ny=ax^{2}+bx=ax(x+q)\n$$\n<p>因此抛物线的两个零点为 $0$ 和 $-q$，且 $-q\\in(-1,0)$. 所以图中的抛物线必须与 $x$ 轴交于原点及 $(-1,0)$ 与 $(0,0)$ 之间的另一点. 第一幅图的抛物线开口向上，另一零点位于该区间，且指数函数递减，满足全部条件；第二幅图的另一零点在正半轴上，第三幅图的另一零点在 $-1$ 的左侧，第四幅图的另一零点也在正半轴上，均不符合 $-q\\in(-1,0)$. 因此只可能是第一幅图，故选 A.</p>"
         }
       ]
     },
@@ -119,8 +119,8 @@
           "num": 10,
           "body": "函数 $y=\\frac{1}{\\sqrt{\\log_{\\frac{1}{2}}(2-x)}}$ 的定义域是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$\\{x \\mid 1 &#x3C; x &#x3C; 2\\}$（或 $(1,2)$）",
-          "solution": "<p>根式在分母中，必须满足</p><p>$\\log_{\\frac{1}{2}}(2-x)>0$，同时对数真数要求 $2-x>0$. 由于底数 $\\frac{1}{2}\\in(0,1)$，</p><p>$\\log_{\\frac{1}{2}}u>0$ 等价于 $0&#x3C;u&#x3C;1$. 因而</p>\n$$\n0&#x3C;2-x&#x3C;1\n$$\n<p>解得 $1&#x3C;x&#x3C;2$. 该条件也保证根式不为零，所以定义域为 $(1,2)$.</p>"
+          "answer": "$\\{x \\mid 1 < x < 2\\}$（或 $(1,2)$）",
+          "solution": "<p>根式在分母中，必须满足</p><p>$\\log_{\\frac{1}{2}}(2-x)>0$，同时对数真数要求 $2-x>0$. 由于底数 $\\frac{1}{2}\\in(0,1)$，</p><p>$\\log_{\\frac{1}{2}}u>0$ 等价于 $0<u<1$. 因而</p>\n$$\n0<2-x<1\n$$\n<p>解得 $1<x<2$. 该条件也保证根式不为零，所以定义域为 $(1,2)$.</p>"
         },
         {
           "num": 11,
@@ -131,17 +131,17 @@
         },
         {
           "num": 12,
-          "body": "函数 $y=x^{-2}$（$x&#x3C;0$）的反函数是 $y=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "函数 $y=x^{-2}$（$x<0$）的反函数是 $y=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$y=-\\sqrt{\\frac{1}{x}}$（$x>0$）",
-          "solution": "<p>原函数的定义域为 $x&#x3C;0$，且 $y=x^{-2}=\\frac{1}{x^{2}}>0$. 由</p><p>$x^{2}=\\frac{1}{y}$，并结合原定义域 $x&#x3C;0$，得到</p><p>$x=-\\sqrt{\\frac{1}{y}}$. 交换 $x$，$y$，可得反函数</p><p>$y=-\\sqrt{\\frac{1}{x}}$，$x>0$.</p>"
+          "solution": "<p>原函数的定义域为 $x<0$，且 $y=x^{-2}=\\frac{1}{x^{2}}>0$. 由</p><p>$x^{2}=\\frac{1}{y}$，并结合原定义域 $x<0$，得到</p><p>$x=-\\sqrt{\\frac{1}{y}}$. 交换 $x$，$y$，可得反函数</p><p>$y=-\\sqrt{\\frac{1}{x}}$，$x>0$.</p>"
         },
         {
           "num": 13,
           "body": "与圆 $(x-2)^{2}+y^{2}=1$ 外切，且与 $y$ 轴相切的动圆圆心 $P$ 的轨迹方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$y^{2}=6x-3$",
-          "solution": "<p>设动圆圆心为 $P(x,y)$，由于动圆与 $y$ 轴相切，动圆半径为 $r=|x|$. 原圆的圆心为 $C(2,0)$，半径为 $1$. 外切条件给出</p>\n$$\n\\sqrt{(x-2)^{2}+y^{2}}=|x|+1\n$$\n<p>两边均非负，平方不改变等价性，并且</p><p>$(x-2)^{2}+y^{2}=(|x|+1)^{2}$，$\\Longrightarrow$，$y^{2}=4x+2|x|-3$.</p><p>若 $x&#x3C;0$，右端为 $2x-3&#x3C;0$，不可能有实数 $y$. 因而 $x\\geq0$，于是</p>\n$$\ny^{2}=6x-3\n$$\n<p>反之，若 $y^{2}=6x-3$，则 $x\\geq\\frac{1}{2}>0$，从而</p>\n$$\n(x-2)^{2}+y^{2}=x^{2}+2x+1=(x+1)^{2}=(|x|+1)^{2}\n$$\n<p>两边均为非负数，故可开平方恢复外切条件. 因此轨迹方程为 $y^{2}=6x-3$.</p>"
+          "solution": "<p>设动圆圆心为 $P(x,y)$，由于动圆与 $y$ 轴相切，动圆半径为 $r=|x|$. 原圆的圆心为 $C(2,0)$，半径为 $1$. 外切条件给出</p>\n$$\n\\sqrt{(x-2)^{2}+y^{2}}=|x|+1\n$$\n<p>两边均非负，平方不改变等价性，并且</p><p>$(x-2)^{2}+y^{2}=(|x|+1)^{2}$，$\\Longrightarrow$，$y^{2}=4x+2|x|-3$.</p><p>若 $x<0$，右端为 $2x-3<0$，不可能有实数 $y$. 因而 $x\\geq0$，于是</p>\n$$\ny^{2}=6x-3\n$$\n<p>反之，若 $y^{2}=6x-3$，则 $x\\geq\\frac{1}{2}>0$，从而</p>\n$$\n(x-2)^{2}+y^{2}=x^{2}+2x+1=(x+1)^{2}=(|x|+1)^{2}\n$$\n<p>两边均为非负数，故可开平方恢复外切条件. 因此轨迹方程为 $y^{2}=6x-3$.</p>"
         },
         {
           "num": 14,
@@ -225,10 +225,10 @@
         },
         {
           "num": 24,
-          "body": "<p>在如图所示的直角坐标系中，一运动物体经过点 $A(0,9)$，其轨迹方程为 $y=ax^{2}+c$（$a&#x3C;0$），$D=(6,7)$ 为 $x$ 轴上的给定区间.</p><ol class=\"enumerate\"><li><p>为使物体落在 $D$ 内，求 $a$ 的取值范围；</p></li><li><p>若物体运动时又经过点 $P(2,8.1)$，问它能否落在 $D$ 内？并说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>在如图所示的直角坐标系中，一运动物体经过点 $A(0,9)$，其轨迹方程为 $y=ax^{2}+c$（$a<0$），$D=(6,7)$ 为 $x$ 轴上的给定区间.</p><ol class=\"enumerate\"><li><p>为使物体落在 $D$ 内，求 $a$ 的取值范围；</p></li><li><p>若物体运动时又经过点 $P(2,8.1)$，问它能否落在 $D$ 内？并说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由点 $A(0,9)$ 在轨迹上，得 $c=9$，所以轨迹方程为 $y=ax^{2}+9$. 物体落到 $x$ 轴上的位置满足</p><p>$0=ax^{2}+9$，$x^{2}=-\\frac{9}{a}$.</p><p>由于 $a&#x3C;0$，取正半轴上的交点，其横坐标为 $\\sqrt{-\\frac{9}{a}}$. “落在 $D$ 内”表示该横坐标在 $(6,7)$ 内，因此</p>\n$$\n6&#x3C;\\sqrt{-\\frac{9}{a}}&#x3C;7\n$$\n<p>平方并注意 $-a>0$，得到</p><p>$36&#x3C;\\frac{9}{-a}&#x3C;49$，$\\Longrightarrow$，$\\frac{9}{49}&#x3C;-a&#x3C;\\frac{1}{4}$.</p><p>故</p>\n$$\n-\\frac{1}{4}&#x3C;a&#x3C;-\\frac{9}{49}\n$$\n</li><li><p>由于物体经过 $P(2,8.1)$，有</p>\n$$\n8.1=4a+9\n$$\n<p>解得 $a=-\\frac{9}{40}$. 又</p>\n$$\n-\\frac{1}{4}=-\\frac{10}{40}&#x3C;-\\frac{9}{40}&#x3C;-\\frac{9}{49}\n$$\n<p>所以该物体能落在 $D$ 内.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由点 $A(0,9)$ 在轨迹上，得 $c=9$，所以轨迹方程为 $y=ax^{2}+9$. 物体落到 $x$ 轴上的位置满足</p><p>$0=ax^{2}+9$，$x^{2}=-\\frac{9}{a}$.</p><p>由于 $a<0$，取正半轴上的交点，其横坐标为 $\\sqrt{-\\frac{9}{a}}$. “落在 $D$ 内”表示该横坐标在 $(6,7)$ 内，因此</p>\n$$\n6<\\sqrt{-\\frac{9}{a}}<7\n$$\n<p>平方并注意 $-a>0$，得到</p><p>$36<\\frac{9}{-a}<49$，$\\Longrightarrow$，$\\frac{9}{49}<-a<\\frac{1}{4}$.</p><p>故</p>\n$$\n-\\frac{1}{4}<a<-\\frac{9}{49}\n$$\n</li><li><p>由于物体经过 $P(2,8.1)$，有</p>\n$$\n8.1=4a+9\n$$\n<p>解得 $a=-\\frac{9}{40}$. 又</p>\n$$\n-\\frac{1}{4}=-\\frac{10}{40}<-\\frac{9}{40}<-\\frac{9}{49}\n$$\n<p>所以该物体能落在 $D$ 内.</p></li></ol>"
         },
         {
           "num": 25,
@@ -244,17 +244,17 @@
       "problems": [
         {
           "num": 26,
-          "body": "<p>设 $z=a+b\\mathrm{i}$（$a$，$b\\in\\mathbb{R}$，$b\\neq0$，$\\mathrm{i}$ 为虚数单位），$w=z+\\frac{1}{z}$ 是实数，且 $-1&#x3C;w&#x3C;2$.</p><ol class=\"enumerate\"><li><p>求 $\\left|z\\right|$ 的值及 $z$ 的实部的取值范围；</p></li><li><p>设 $u=\\frac{1-z}{1+z}$. 求证：$u$ 为纯虚数；</p></li><li><p>求 $w-u^{2}$ 的最小值.</p></li></ol>",
+          "body": "<p>设 $z=a+b\\mathrm{i}$（$a$，$b\\in\\mathbb{R}$，$b\\neq0$，$\\mathrm{i}$ 为虚数单位），$w=z+\\frac{1}{z}$ 是实数，且 $-1<w<2$.</p><ol class=\"enumerate\"><li><p>求 $\\left|z\\right|$ 的值及 $z$ 的实部的取值范围；</p></li><li><p>设 $u=\\frac{1-z}{1+z}$. 求证：$u$ 为纯虚数；</p></li><li><p>求 $w-u^{2}$ 的最小值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\n\\frac{1}{z}=\\frac{a-b\\mathrm{i}}{a^{2}+b^{2}}\n$$\n<p>可得</p>\n$$\nw=z+\\frac{1}{z}=\\left(a+\\frac{a}{a^{2}+b^{2}}\\right)  +\\left(b-\\frac{b}{a^{2}+b^{2}}\\right)\\mathrm{i}\n$$\n<p>因为 $w$ 是实数，且 $b\\neq0$，虚部必须为零，所以</p><p>$b-\\frac{b}{a^{2}+b^{2}}=0$，$\\Longrightarrow$，$a^{2}+b^{2}=1$.</p><p>因此 $|z|=1$，并且 $w=2a$. 由 $-1&#x3C;w&#x3C;2$ 得</p>\n$$\n-\\frac{1}{2}&#x3C;a&#x3C;1\n$$\n<p>所以 $z$ 的实部的取值范围为 $\\left(-\\frac{1}{2},1\\right)$.</p></li><li><p>由 $b\\neq0$ 和 $a^{2}+b^{2}=1$ 可知 $a\\neq-1$，所以 $1+z\\neq0$. 分母有理化得</p>\n$$\nu=\\frac{1-a-b\\mathrm{i}}{1+a+b\\mathrm{i}}=\\frac{(1-a-b\\mathrm{i})(1+a-b\\mathrm{i})}{(1+a+b\\mathrm{i})(1+a-b\\mathrm{i})}=\\frac{1-a^{2}-b^{2}-2b\\mathrm{i}}{(1+a)^{2}+b^{2}}\n$$\n<p>利用 $a^{2}+b^{2}=1$ 以及</p><p>$(1+a)^{2}+b^{2}=2(a+1)$，得到</p>\n$$\nu=-\\frac{b}{a+1}\\mathrm{i}\n$$\n<p>这里 $-\\frac{b}{a+1}$ 为实数，因此 $u$ 为纯虚数.</p></li><li><p>因为 $u=-\\frac{b}{a+1}\\mathrm{i}$，所以</p>\n$$\nw-u^{2}=2a+\\frac{b^{2}}{(a+1)^{2}}=2a+\\frac{1-a^{2}}{(a+1)^{2}}=2a-\\frac{a-1}{a+1}=2\\left(a+1+\\frac{1}{a+1}\\right)-3\n$$\n<p>由 $-\\frac{1}{2}&#x3C;a&#x3C;1$，令 $t=a+1$，则 $t>0$. 由基本不等式</p>\n$$\nt+\\frac{1}{t}\\geq2\n$$\n<p>可得</p>\n$$\nw-u^{2}\\geq2\\cdot2-3=1\n$$\n<p>当且仅当 $t=1$，即 $a=0$ 时取等号；此时可取 $b=\\pm1$，且 $w=0$ 满足题设范围. 因此 $w-u^{2}$ 的最小值为 $1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\n\\frac{1}{z}=\\frac{a-b\\mathrm{i}}{a^{2}+b^{2}}\n$$\n<p>可得</p>\n$$\nw=z+\\frac{1}{z}=\\left(a+\\frac{a}{a^{2}+b^{2}}\\right)  +\\left(b-\\frac{b}{a^{2}+b^{2}}\\right)\\mathrm{i}\n$$\n<p>因为 $w$ 是实数，且 $b\\neq0$，虚部必须为零，所以</p><p>$b-\\frac{b}{a^{2}+b^{2}}=0$，$\\Longrightarrow$，$a^{2}+b^{2}=1$.</p><p>因此 $|z|=1$，并且 $w=2a$. 由 $-1<w<2$ 得</p>\n$$\n-\\frac{1}{2}<a<1\n$$\n<p>所以 $z$ 的实部的取值范围为 $\\left(-\\frac{1}{2},1\\right)$.</p></li><li><p>由 $b\\neq0$ 和 $a^{2}+b^{2}=1$ 可知 $a\\neq-1$，所以 $1+z\\neq0$. 分母有理化得</p>\n$$\nu=\\frac{1-a-b\\mathrm{i}}{1+a+b\\mathrm{i}}=\\frac{(1-a-b\\mathrm{i})(1+a-b\\mathrm{i})}{(1+a+b\\mathrm{i})(1+a-b\\mathrm{i})}=\\frac{1-a^{2}-b^{2}-2b\\mathrm{i}}{(1+a)^{2}+b^{2}}\n$$\n<p>利用 $a^{2}+b^{2}=1$ 以及</p><p>$(1+a)^{2}+b^{2}=2(a+1)$，得到</p>\n$$\nu=-\\frac{b}{a+1}\\mathrm{i}\n$$\n<p>这里 $-\\frac{b}{a+1}$ 为实数，因此 $u$ 为纯虚数.</p></li><li><p>因为 $u=-\\frac{b}{a+1}\\mathrm{i}$，所以</p>\n$$\nw-u^{2}=2a+\\frac{b^{2}}{(a+1)^{2}}=2a+\\frac{1-a^{2}}{(a+1)^{2}}=2a-\\frac{a-1}{a+1}=2\\left(a+1+\\frac{1}{a+1}\\right)-3\n$$\n<p>由 $-\\frac{1}{2}<a<1$，令 $t=a+1$，则 $t>0$. 由基本不等式</p>\n$$\nt+\\frac{1}{t}\\geq2\n$$\n<p>可得</p>\n$$\nw-u^{2}\\geq2\\cdot2-3=1\n$$\n<p>当且仅当 $t=1$，即 $a=0$ 时取等号；此时可取 $b=\\pm1$，且 $w=0$ 满足题设范围. 因此 $w-u^{2}$ 的最小值为 $1$.</p></li></ol>"
         },
         {
           "num": 27,
           "body": "<p>已知 $A(-1,2)$ 为抛物线 $C:y=2x^{2}$ 上的点，直线 $l_{1}$ 过点 $A$，且与抛物线 $C$ 相切. 直线 $l_{2}:x=a$（$a\\neq-1$）交抛物线 $C$ 于点 $B$，交直线 $l_{1}$ 于点 $D$.</p><ol class=\"enumerate\"><li><p>求直线 $l_{1}$ 的方程；</p></li><li><p>设 $\\triangle ABD$ 的面积为 $S_{1}$，求 $|BD|$ 及 $S_{1}$ 的值；</p></li><li><p>设由抛物线 $C$，直线 $l_{1}$，$l_{2}$ 所围成的图形的面积为 $S_{2}$，求证：$S_{1}:S_{2}$ 的值为与 $a$ 无关的常数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $C$ 的函数为 $y=2x^{2}$，所以</p><p>$y'=4x$. 在点 $A(-1,2)$ 处，切线斜率为 $-4$. 因而</p>\n$$\ny-2=-4(x+1)\n$$\n<p>即</p>\n$$\n4x+y+2=0\n$$\n</li><li><p>由 $l_{2}:x=a$ 与抛物线 $C$ 相交，得</p>\n$$\nB=(a,2a^{2})\n$$\n<p>由 $l_{2}:x=a$ 与 $l_{1}$ 相交，得</p>\n$$\nD=(a,-4a-2)\n$$\n<p>所以 $BD$ 是竖直线段，且</p>\n$$\n|BD|=\\left|2a^{2}-(-4a-2)\\right|  =2(a+1)^{2}\n$$\n<p>其中 $a\\neq-1$ 保证线段长度非零. 点 $A$ 到直线 $BD:x=a$ 的距离为</p><p>$|a+1|$. 因此</p>\n$$\nS_{1}=\\frac{1}{2}|BD|\\cdot|a+1|  =\\frac{1}{2}\\cdot2(a+1)^{2}|a+1|  =|a+1|^{3}\n$$\n</li><li><p>抛物线与切线的纵坐标差为</p>\n$$\n2x^{2}-(-4x-2)=2(x+1)^{2}\\geq0\n$$\n<p>当 $a>-1$ 时，所围区域在 $x=-1$ 与 $x=a$ 之间，所以</p>\n$$\nS_{2}=\\int_{-1}^{a}2(x+1)^{2}\\,\\mathrm{d}x  =\\frac{2}{3}(a+1)^{3}\n$$\n<p>当 $a&#x3C;-1$ 时，所围区域在 $x=a$ 与 $x=-1$ 之间，所以</p>\n$$\nS_{2}=\\int_{a}^{-1}2(x+1)^{2}\\,\\mathrm{d}x  =-\\frac{2}{3}(a+1)^{3}  =\\frac{2}{3}|a+1|^{3}\n$$\n<p>综上，</p>\n$$\n\\frac{S_{1}}{S_{2}}=\\frac{|a+1|^{3}}{\\frac{2}{3}|a+1|^{3}}=\\frac{3}{2}\n$$\n<p>故 $S_{1}:S_{2}=3:2$，与 $a$ 无关.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $C$ 的函数为 $y=2x^{2}$，所以</p><p>$y'=4x$. 在点 $A(-1,2)$ 处，切线斜率为 $-4$. 因而</p>\n$$\ny-2=-4(x+1)\n$$\n<p>即</p>\n$$\n4x+y+2=0\n$$\n</li><li><p>由 $l_{2}:x=a$ 与抛物线 $C$ 相交，得</p>\n$$\nB=(a,2a^{2})\n$$\n<p>由 $l_{2}:x=a$ 与 $l_{1}$ 相交，得</p>\n$$\nD=(a,-4a-2)\n$$\n<p>所以 $BD$ 是竖直线段，且</p>\n$$\n|BD|=\\left|2a^{2}-(-4a-2)\\right|  =2(a+1)^{2}\n$$\n<p>其中 $a\\neq-1$ 保证线段长度非零. 点 $A$ 到直线 $BD:x=a$ 的距离为</p><p>$|a+1|$. 因此</p>\n$$\nS_{1}=\\frac{1}{2}|BD|\\cdot|a+1|  =\\frac{1}{2}\\cdot2(a+1)^{2}|a+1|  =|a+1|^{3}\n$$\n</li><li><p>抛物线与切线的纵坐标差为</p>\n$$\n2x^{2}-(-4x-2)=2(x+1)^{2}\\geq0\n$$\n<p>当 $a>-1$ 时，所围区域在 $x=-1$ 与 $x=a$ 之间，所以</p>\n$$\nS_{2}=\\int_{-1}^{a}2(x+1)^{2}\\,\\mathrm{d}x  =\\frac{2}{3}(a+1)^{3}\n$$\n<p>当 $a<-1$ 时，所围区域在 $x=a$ 与 $x=-1$ 之间，所以</p>\n$$\nS_{2}=\\int_{a}^{-1}2(x+1)^{2}\\,\\mathrm{d}x  =-\\frac{2}{3}(a+1)^{3}  =\\frac{2}{3}|a+1|^{3}\n$$\n<p>综上，</p>\n$$\n\\frac{S_{1}}{S_{2}}=\\frac{|a+1|^{3}}{\\frac{2}{3}|a+1|^{3}}=\\frac{3}{2}\n$$\n<p>故 $S_{1}:S_{2}=3:2$，与 $a$ 无关.</p></li></ol>"
         }
       ]
     },
@@ -266,7 +266,7 @@
           "body": "<p>已知双曲线 $S$ 的两条渐近线过坐标原点，且与以点 $A(\\sqrt{2},0)$ 为圆心，$1$ 为半径的圆相切，双曲线 $S$ 的一个顶点 $A^{\\prime}$ 与点 $A$ 关于直线 $y=x$ 对称.</p><ol class=\"enumerate\"><li><p>求双曲线 $S$ 的方程；</p></li><li><p>设直线 $l$ 过点 $A$，斜率为 $1$. 在双曲线 $S$ 的上支上求点 $B$，使其与直线 $l$ 的距离为 $\\sqrt{2}$；</p></li><li><p>求双曲线 $S$ 上到直线 $l:y=\\frac{2\\sqrt{5}}{5}\\left(x-\\sqrt{2}\\right)$ 的距离为 $\\sqrt{2}$ 的点的个数.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>两条渐近线均过原点，可设其中一条为 $y=kx$. 它与圆</p><p>$\\left(x-\\sqrt{2}\\right)^{2}+y^{2}=1$ 相切，所以圆心 $A(\\sqrt{2},0)$ 到直线 $kx-y=0$ 的距离为 $1$，即</p>\n$$\n\\frac{|k|\\sqrt{2}}{\\sqrt{k^{2}+1}}=1\n$$\n<p>平方得 $2k^{2}=k^{2}+1$，所以 $k=\\pm1$，两条渐近线为 $y=\\pm x$. 因而 $S$ 是等轴双曲线，且其一个顶点是点 $A$ 关于 $y=x$ 的对称点 $A'(0,\\sqrt{2})$. 双曲线的顶点在 $y$ 轴上，所以可写为</p>\n$$\n\\frac{y^{2}}{a^{2}}-\\frac{x^{2}}{a^{2}}=1\n$$\n<p>由 $a=\\sqrt{2}$，得到</p>\n$$\n\\frac{y^{2}}{2}-\\frac{x^{2}}{2}=1\n$$\n<p>即 $y^{2}-x^{2}=2$.</p></li><li><p>直线 $l$ 过 $A(\\sqrt{2},0)$ 且斜率为 $1$，所以</p>\n$$\nl:y=x-\\sqrt{2}\n$$\n<p>双曲线 $S$ 的上支可表示为 $y=\\sqrt{x^{2}+2}$. 点 $B\\left(x,\\sqrt{x^{2}+2}\\right)$ 到 $l$ 的距离为 $\\sqrt{2}$，故</p>\n$$\n\\frac{\\left|x-\\sqrt{x^2+2}-\\sqrt{2}\\right|}{\\sqrt{2}}=\\sqrt{2}\n$$\n<p>即 $\\left|x-\\sqrt{x^{2}+2}-\\sqrt{2}\\right|=2$. 由于</p><p>$\\sqrt{x^{2}+2}>|x|$，有 $x-\\sqrt{x^{2}+2}-\\sqrt{2}&#x3C;0$，所以</p>\n$$\n\\sqrt{x^{2}+2}=x+2-\\sqrt{2}\n$$\n<p>两边平方得</p>\n$$\nx^{2}+2=(x+2-\\sqrt{2})^{2}\n$$\n<p>即</p>\n$$\n2(2-\\sqrt{2})x=2-(2-\\sqrt{2})^{2}=4(\\sqrt{2}-1)\n$$\n<p>从而 $x=\\sqrt{2}$. 此时右端 $x+2-\\sqrt{2}=2>0$，且</p><p>$y=\\sqrt{x^{2}+2}=2$，代回距离式可知原条件成立. 所以</p>\n$$\nB=(\\sqrt{2},2)\n$$\n</li><li><p>记 $m=\\frac{2\\sqrt{5}}{5}$，原直线为 $l:y=mx-m\\sqrt{2}=mx-\\frac{2\\sqrt{10}}{5}$. 与 $l$ 平行且距离为 $\\sqrt{2}$ 的直线可写为 $y=mx+c$，并满足</p>\n$$\n\\frac{\\left|c+\\frac{2\\sqrt{10}}{5}\\right|}{\\sqrt{m^{2}+1}}=\\sqrt{2}\n$$\n<p>由于 $m^{2}+1=\\frac{9}{5}$，所以</p>\n$$\n\\left|c+\\frac{2\\sqrt{10}}{5}\\right|=\\frac{3\\sqrt{10}}{5}\n$$\n<p>从而</p><p>$c_{1}=\\frac{\\sqrt{10}}{5}$，$c_{2}=-\\sqrt{10}$.</p><p>记相应直线为</p><p>$l_{1}:y=\\frac{2\\sqrt{5}}{5}x+\\frac{\\sqrt{10}}{5}$，$l_{2}:y=\\frac{2\\sqrt{5}}{5}x-\\sqrt{10}$.</p><p>到 $l$ 的距离为 $\\sqrt{2}$ 的双曲线上的点，恰为这两条平行线与双曲线的公共点. 将 $l_{1}$ 代入 $y^{2}-x^{2}=2$，得</p>\n$$\nx^{2}-4\\sqrt{2}x+8=0\n$$\n<p>其判别式为 $32-32=0$，所以 $l_{1}$ 与双曲线有 $1$ 个公共点. 将 $l_{2}$ 代入，得</p>\n$$\nx^{2}+20\\sqrt{2}x-40=0\n$$\n<p>其判别式为</p>\n$$\n(20\\sqrt{2})^{2}+160=960>0\n$$\n<p>所以 $l_{2}$ 与双曲线有 $2$ 个公共点. 两条直线不同且平行，公共点不重合，故所求点的个数为 $1+2=3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>两条渐近线均过原点，可设其中一条为 $y=kx$. 它与圆</p><p>$\\left(x-\\sqrt{2}\\right)^{2}+y^{2}=1$ 相切，所以圆心 $A(\\sqrt{2},0)$ 到直线 $kx-y=0$ 的距离为 $1$，即</p>\n$$\n\\frac{|k|\\sqrt{2}}{\\sqrt{k^{2}+1}}=1\n$$\n<p>平方得 $2k^{2}=k^{2}+1$，所以 $k=\\pm1$，两条渐近线为 $y=\\pm x$. 因而 $S$ 是等轴双曲线，且其一个顶点是点 $A$ 关于 $y=x$ 的对称点 $A'(0,\\sqrt{2})$. 双曲线的顶点在 $y$ 轴上，所以可写为</p>\n$$\n\\frac{y^{2}}{a^{2}}-\\frac{x^{2}}{a^{2}}=1\n$$\n<p>由 $a=\\sqrt{2}$，得到</p>\n$$\n\\frac{y^{2}}{2}-\\frac{x^{2}}{2}=1\n$$\n<p>即 $y^{2}-x^{2}=2$.</p></li><li><p>直线 $l$ 过 $A(\\sqrt{2},0)$ 且斜率为 $1$，所以</p>\n$$\nl:y=x-\\sqrt{2}\n$$\n<p>双曲线 $S$ 的上支可表示为 $y=\\sqrt{x^{2}+2}$. 点 $B\\left(x,\\sqrt{x^{2}+2}\\right)$ 到 $l$ 的距离为 $\\sqrt{2}$，故</p>\n$$\n\\frac{\\left|x-\\sqrt{x^2+2}-\\sqrt{2}\\right|}{\\sqrt{2}}=\\sqrt{2}\n$$\n<p>即 $\\left|x-\\sqrt{x^{2}+2}-\\sqrt{2}\\right|=2$. 由于</p><p>$\\sqrt{x^{2}+2}>|x|$，有 $x-\\sqrt{x^{2}+2}-\\sqrt{2}<0$，所以</p>\n$$\n\\sqrt{x^{2}+2}=x+2-\\sqrt{2}\n$$\n<p>两边平方得</p>\n$$\nx^{2}+2=(x+2-\\sqrt{2})^{2}\n$$\n<p>即</p>\n$$\n2(2-\\sqrt{2})x=2-(2-\\sqrt{2})^{2}=4(\\sqrt{2}-1)\n$$\n<p>从而 $x=\\sqrt{2}$. 此时右端 $x+2-\\sqrt{2}=2>0$，且</p><p>$y=\\sqrt{x^{2}+2}=2$，代回距离式可知原条件成立. 所以</p>\n$$\nB=(\\sqrt{2},2)\n$$\n</li><li><p>记 $m=\\frac{2\\sqrt{5}}{5}$，原直线为 $l:y=mx-m\\sqrt{2}=mx-\\frac{2\\sqrt{10}}{5}$. 与 $l$ 平行且距离为 $\\sqrt{2}$ 的直线可写为 $y=mx+c$，并满足</p>\n$$\n\\frac{\\left|c+\\frac{2\\sqrt{10}}{5}\\right|}{\\sqrt{m^{2}+1}}=\\sqrt{2}\n$$\n<p>由于 $m^{2}+1=\\frac{9}{5}$，所以</p>\n$$\n\\left|c+\\frac{2\\sqrt{10}}{5}\\right|=\\frac{3\\sqrt{10}}{5}\n$$\n<p>从而</p><p>$c_{1}=\\frac{\\sqrt{10}}{5}$，$c_{2}=-\\sqrt{10}$.</p><p>记相应直线为</p><p>$l_{1}:y=\\frac{2\\sqrt{5}}{5}x+\\frac{\\sqrt{10}}{5}$，$l_{2}:y=\\frac{2\\sqrt{5}}{5}x-\\sqrt{10}$.</p><p>到 $l$ 的距离为 $\\sqrt{2}$ 的双曲线上的点，恰为这两条平行线与双曲线的公共点. 将 $l_{1}$ 代入 $y^{2}-x^{2}=2$，得</p>\n$$\nx^{2}-4\\sqrt{2}x+8=0\n$$\n<p>其判别式为 $32-32=0$，所以 $l_{1}$ 与双曲线有 $1$ 个公共点. 将 $l_{2}$ 代入，得</p>\n$$\nx^{2}+20\\sqrt{2}x-40=0\n$$\n<p>其判别式为</p>\n$$\n(20\\sqrt{2})^{2}+160=960>0\n$$\n<p>所以 $l_{2}$ 与双曲线有 $2$ 个公共点. 两条直线不同且平行，公共点不重合，故所求点的个数为 $1+2=3$.</p></li></ol>"
         },
         {
           "num": 29,

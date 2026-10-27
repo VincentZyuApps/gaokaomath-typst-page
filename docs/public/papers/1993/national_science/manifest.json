@@ -41,7 +41,7 @@
             "$120^{\\circ}$"
           ],
           "answer": "C",
-          "solution": "<p>设圆锥的底面半径为 $r$，母线长为 $l$，轴截面顶角的一半为</p><p>$\\theta$. 由侧面积与底面积之比得</p><p>$\\frac{\\pi rl}{\\pi r^{2}}=\\frac{l}{r}=\\sqrt{2}$，所以</p><p>$\\sin\\theta=\\frac{r}{l}=\\frac{1}{\\sqrt{2}}$. 因为</p><p>$0&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$，故 $\\theta=45^{\\circ}$，轴截面顶角为</p><p>$2\\theta=90^{\\circ}$，故选 C.</p>"
+          "solution": "<p>设圆锥的底面半径为 $r$，母线长为 $l$，轴截面顶角的一半为</p><p>$\\theta$. 由侧面积与底面积之比得</p><p>$\\frac{\\pi rl}{\\pi r^{2}}=\\frac{l}{r}=\\sqrt{2}$，所以</p><p>$\\sin\\theta=\\frac{r}{l}=\\frac{1}{\\sqrt{2}}$. 因为</p><p>$0<\\theta<\\frac{\\pi}{2}$，故 $\\theta=45^{\\circ}$，轴截面顶角为</p><p>$2\\theta=90^{\\circ}$，故选 C.</p>"
         },
         {
           "num": 4,
@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "直线 $bx + ay = ab$（$a &#x3C; 0$，$b &#x3C; 0$）的倾斜角是（ ）",
+          "body": "直线 $bx + ay = ab$（$a < 0$，$b < 0$）的倾斜角是（ ）",
           "choices": [
             "$\\arctan \\left(-\\frac{b}{a}\\right)$",
             "$\\arctan \\left(-\\frac{a}{b}\\right)$",
@@ -65,7 +65,7 @@
             "$\\pi - \\arctan \\frac{a}{b}$"
           ],
           "answer": "C",
-          "solution": "<p>由直线方程得 $y=-\\frac{b}{a}x+b$. 由于 $a&#x3C;0$，$b&#x3C;0$，所以</p><p>$\\frac{b}{a}>0$，直线的斜率 $-\\frac{b}{a}&#x3C;0$. 设直线的倾斜角为</p><p>$\\alpha$，则 $0\\le\\alpha&#x3C;\\pi$，且 $\\tan\\alpha=-\\frac{b}{a}&#x3C;0$.</p><p>因此 $\\frac{\\pi}{2}&#x3C;\\alpha&#x3C;\\pi$. 又因为</p><p>$\\arctan\\frac{b}{a}\\in\\left(0,\\frac{\\pi}{2}\\right)$，所以</p><p>$\\alpha=\\pi-\\arctan\\frac{b}{a}$.</p><p>故选 C.</p>"
+          "solution": "<p>由直线方程得 $y=-\\frac{b}{a}x+b$. 由于 $a<0$，$b<0$，所以</p><p>$\\frac{b}{a}>0$，直线的斜率 $-\\frac{b}{a}<0$. 设直线的倾斜角为</p><p>$\\alpha$，则 $0\\le\\alpha<\\pi$，且 $\\tan\\alpha=-\\frac{b}{a}<0$.</p><p>因此 $\\frac{\\pi}{2}<\\alpha<\\pi$. 又因为</p><p>$\\arctan\\frac{b}{a}\\in\\left(0,\\frac{\\pi}{2}\\right)$，所以</p><p>$\\alpha=\\pi-\\arctan\\frac{b}{a}$.</p><p>故选 C.</p>"
         },
         {
           "num": 6,
@@ -77,7 +77,7 @@
             "有最大值 $1$，但无最小值"
           ],
           "answer": "B",
-          "solution": "<p>直角三角形的两锐角满足 $A+B=\\frac{\\pi}{2}$，故</p><p>$\\sin A\\sin B=\\sin A\\cos A=\\frac{1}{2}\\sin 2A$. 由于</p><p>$0&#x3C;2A&#x3C;\\pi$，有 $0&#x3C;\\sin A\\sin B\\le\\frac{1}{2}$. 当</p><p>$A=\\frac{\\pi}{4}$ 时取得最大值 $\\frac{1}{2}$，而 $A$ 不能取 $0$ 或</p><p>$\\frac{\\pi}{2}$，所以最小值 $0$ 不能取得，故选 B.</p>"
+          "solution": "<p>直角三角形的两锐角满足 $A+B=\\frac{\\pi}{2}$，故</p><p>$\\sin A\\sin B=\\sin A\\cos A=\\frac{1}{2}\\sin 2A$. 由于</p><p>$0<2A<\\pi$，有 $0<\\sin A\\sin B\\le\\frac{1}{2}$. 当</p><p>$A=\\frac{\\pi}{4}$ 时取得最大值 $\\frac{1}{2}$，而 $A$ 不能取 $0$ 或</p><p>$\\frac{\\pi}{2}$，所以最小值 $0$ 不能取得，故选 B.</p>"
         },
         {
           "num": 7,
@@ -120,16 +120,16 @@
           "body": "若 $a$，$b$ 是任意实数，且 $a > b$，则（ ）",
           "choices": [
             "$a^{2} > b^{2}$",
-            "$\\frac{b}{a}&#x3C; 1$",
+            "$\\frac{b}{a}< 1$",
             "$\\lg (a - b) > 0$",
-            "$\\left(\\frac{1}{2}\\right)^{a} &#x3C; \\left(\\frac{1}{2}\\right)^{b}$"
+            "$\\left(\\frac{1}{2}\\right)^{a} < \\left(\\frac{1}{2}\\right)^{b}$"
           ],
           "answer": "D",
-          "solution": "<p>由 $a>b$ 只能得到 $a-b>0$. 例如取 $(a,b)=(1,-2)$，则</p><p>$a^{2}>b^{2}$ 不成立；取 $(a,b)=(-1,-2)$，则</p><p>$\\frac{b}{a}&#x3C;1$ 不成立；取 $(a,b)=(1,\\frac{1}{2})$，则</p><p>$\\lg(a-b)>0$ 不成立. 由于底数</p><p>$\\frac{1}{2}$ 在 $(0,1)$ 内，指数函数严格递减，所以</p><p>$a>b$ 时有</p><p>$\\left(\\frac{1}{2}\\right)^{a}&#x3C;\\left(\\frac{1}{2}\\right)^{b}$，故选 D.</p>"
+          "solution": "<p>由 $a>b$ 只能得到 $a-b>0$. 例如取 $(a,b)=(1,-2)$，则</p><p>$a^{2}>b^{2}$ 不成立；取 $(a,b)=(-1,-2)$，则</p><p>$\\frac{b}{a}<1$ 不成立；取 $(a,b)=(1,\\frac{1}{2})$，则</p><p>$\\lg(a-b)>0$ 不成立. 由于底数</p><p>$\\frac{1}{2}$ 在 $(0,1)$ 内，指数函数严格递减，所以</p><p>$a>b$ 时有</p><p>$\\left(\\frac{1}{2}\\right)^{a}<\\left(\\frac{1}{2}\\right)^{b}$，故选 D.</p>"
         },
         {
           "num": 11,
-          "body": "已知集合 $E = \\{\\theta | \\cos \\theta &#x3C; \\sin \\theta, 0 \\le \\theta \\le 2\\pi\\}$，$F = \\{\\theta | \\tan \\theta &#x3C; \\sin \\theta\\}$，那么 $E \\cap F$ 为区间（ ）",
+          "body": "已知集合 $E = \\{\\theta | \\cos \\theta < \\sin \\theta, 0 \\le \\theta \\le 2\\pi\\}$，$F = \\{\\theta | \\tan \\theta < \\sin \\theta\\}$，那么 $E \\cap F$ 为区间（ ）",
           "choices": [
             "$\\left(\\frac{\\pi}{2},\\pi\\right)$",
             "$\\left(\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right)$",
@@ -161,7 +161,7 @@
             "六棱锥"
           ],
           "answer": "D",
-          "solution": "<p>设正 $n$ 边形底面边长为 $s$，其外接圆半径为</p><p>$R=\\frac{s}{2\\sin(\\frac{\\pi}{n})}$. 侧棱长等于 $s$ 时，棱锥高满足</p><p>$h^{2}=s^{2}-R^{2}$，因此必须有 $R&#x3C;s$. 当 $n=6$ 时</p><p>$R=s$，从而 $h=0$，不能构成棱锥；而 $n=3$，$4$，$5$ 时均有 $R&#x3C;s$. 故一定不是六棱锥，选 D.</p>"
+          "solution": "<p>设正 $n$ 边形底面边长为 $s$，其外接圆半径为</p><p>$R=\\frac{s}{2\\sin(\\frac{\\pi}{n})}$. 侧棱长等于 $s$ 时，棱锥高满足</p><p>$h^{2}=s^{2}-R^{2}$，因此必须有 $R<s$. 当 $n=6$ 时</p><p>$R=s$，从而 $h=0$，不能构成棱锥；而 $n=3$，$4$，$5$ 时均有 $R<s$. 故一定不是六棱锥，选 D.</p>"
         },
         {
           "num": 14,
@@ -173,7 +173,7 @@
             "$\\frac{1}{4}\\left(\\frac{l}{4}\\right)^{3}\\pi$"
           ],
           "answer": "A",
-          "solution": "<p>设圆柱底面半径为 $r$，高为 $h$. 轴截面周长为 $l$，故</p><p>$4r+2h=l$，即 $h=\\frac{l}{2}-2r$. 于是</p><p>$V=\\pi r^{2}h=\\pi\\left(\\frac{l}{2}r^{2}-2r^{3}\\right)$，从而</p><p>$V'=\\pi r(l-6r)$.</p><p>在 $0&#x3C;r&#x3C;\\frac{l}{4}$ 内，唯一临界点为 $r=\\frac{l}{6}$，此时</p><p>$h=\\frac{l}{6}$，且两端体积趋于零，所以体积最大值为</p><p>$\\pi\\left(\\frac{l}{6}\\right)^{3}$，故选 A.</p>"
+          "solution": "<p>设圆柱底面半径为 $r$，高为 $h$. 轴截面周长为 $l$，故</p><p>$4r+2h=l$，即 $h=\\frac{l}{2}-2r$. 于是</p><p>$V=\\pi r^{2}h=\\pi\\left(\\frac{l}{2}r^{2}-2r^{3}\\right)$，从而</p><p>$V'=\\pi r(l-6r)$.</p><p>在 $0<r<\\frac{l}{4}$ 内，唯一临界点为 $r=\\frac{l}{6}$，此时</p><p>$h=\\frac{l}{6}$，且两端体积趋于零，所以体积最大值为</p><p>$\\pi\\left(\\frac{l}{6}\\right)^{3}$，故选 A.</p>"
         },
         {
           "num": 15,
@@ -221,7 +221,7 @@
             "$4$ 条"
           ],
           "answer": "B",
-          "solution": "<p>取两条异面直线的单位方向向量为</p><p>$\\mathbf{u}=(\\cos25^{\\circ},\\sin25^{\\circ},0)$ 和</p><p>$\\mathbf{v}=(\\cos25^{\\circ},-\\sin25^{\\circ},0)$. 设所求直线的单位方向向量为</p><p>$\\mathbf{w}=(x,y,z)$. 因为直线所成的角为 $30^{\\circ}$，有</p><p>$\\lvert\\mathbf{w}\\cdot\\mathbf{u}\\rvert=\\lvert\\mathbf{w}\\cdot\\mathbf{v}\\rvert=\\cos30^{\\circ}$.</p><p>若两个内积同号，取同为 $\\cos30^{\\circ}$（取负号只会把方向向量整体反向），两式相减得 $y=0$，再由其中一式得</p><p>$x=\\frac{\\cos30^{\\circ}}{\\cos25^{\\circ}}&#x3C;1$. 因而</p><p>$z=\\pm\\sqrt{1-x^{2}}$，得到两条不同的直线.</p><p>若两个内积异号，两式相加或相减可得</p><p>$x=0$，且 $\\lvert y\\rvert=\\frac{\\cos30^{\\circ}}{\\sin25^{\\circ}}>1$，这与</p><p>$x^{2}+y^{2}+z^{2}=1$ 矛盾. 所以所求直线有且仅有 $2$ 条，故选 B.</p>"
+          "solution": "<p>取两条异面直线的单位方向向量为</p><p>$\\mathbf{u}=(\\cos25^{\\circ},\\sin25^{\\circ},0)$ 和</p><p>$\\mathbf{v}=(\\cos25^{\\circ},-\\sin25^{\\circ},0)$. 设所求直线的单位方向向量为</p><p>$\\mathbf{w}=(x,y,z)$. 因为直线所成的角为 $30^{\\circ}$，有</p><p>$\\lvert\\mathbf{w}\\cdot\\mathbf{u}\\rvert=\\lvert\\mathbf{w}\\cdot\\mathbf{v}\\rvert=\\cos30^{\\circ}$.</p><p>若两个内积同号，取同为 $\\cos30^{\\circ}$（取负号只会把方向向量整体反向），两式相减得 $y=0$，再由其中一式得</p><p>$x=\\frac{\\cos30^{\\circ}}{\\cos25^{\\circ}}<1$. 因而</p><p>$z=\\pm\\sqrt{1-x^{2}}$，得到两条不同的直线.</p><p>若两个内积异号，两式相加或相减可得</p><p>$x=0$，且 $\\lvert y\\rvert=\\frac{\\cos30^{\\circ}}{\\sin25^{\\circ}}>1$，这与</p><p>$x^{2}+y^{2}+z^{2}=1$ 矛盾. 所以所求直线有且仅有 $2$ 条，故选 B.</p>"
         }
       ]
     },
@@ -280,7 +280,7 @@
           "body": "解不等式：$2 + \\log_{\\frac{1}{2}}(5 - x) + \\log_{2}\\frac{1}{x}> 0$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由对数的真数必须为正，得 $5-x>0$，$x>0$，</p><p>所以定义域为 $0&#x3C;x&#x3C;5$. 在此范围内，利用换底关系和倒数的对数性质，原不等式等价于</p>\n$$\n2-\\log_{2}(5-x)-\\log_{2}x>0\n$$\n<p>即</p>\n$$\n\\log_{2}\\bigl(x(5-x)\\bigr)&#x3C;2\n$$\n<p>由于底数 $2>1$，这又等价于</p>\n$$\nx(5-x)&#x3C;4\n$$\n<p>从而 $x^{2}-5x+4>0$，即 $(x-1)(x-4)>0$. 结合定义域</p><p>$0&#x3C;x&#x3C;5$，得 $x\\in(0,1)\\cup(4,5)$.</p><p>故原不等式的解集为 $(0,1)\\cup(4,5)$.</p>"
+          "solution": "<p>由对数的真数必须为正，得 $5-x>0$，$x>0$，</p><p>所以定义域为 $0<x<5$. 在此范围内，利用换底关系和倒数的对数性质，原不等式等价于</p>\n$$\n2-\\log_{2}(5-x)-\\log_{2}x>0\n$$\n<p>即</p>\n$$\n\\log_{2}\\bigl(x(5-x)\\bigr)<2\n$$\n<p>由于底数 $2>1$，这又等价于</p>\n$$\nx(5-x)<4\n$$\n<p>从而 $x^{2}-5x+4>0$，即 $(x-1)(x-4)>0$. 结合定义域</p><p>$0<x<5$，得 $x\\in(0,1)\\cup(4,5)$.</p><p>故原不等式的解集为 $(0,1)\\cup(4,5)$.</p>"
         },
         {
           "num": 26,
@@ -298,17 +298,17 @@
         },
         {
           "num": 28,
-          "body": "设复数 $z = \\cos \\theta + \\mathrm{i}\\sin \\theta$（$0 &#x3C; \\theta &#x3C; \\pi$），$\\omega = \\frac{1 - \\left( \\overline{z}\\right)^{4}}{1 + z^{4}}$，已知 $|\\omega| = \\frac{\\sqrt{3}}{3}$，$\\arg \\omega = \\frac{\\pi}{2}$，求 $\\theta$.",
+          "body": "设复数 $z = \\cos \\theta + \\mathrm{i}\\sin \\theta$（$0 < \\theta < \\pi$），$\\omega = \\frac{1 - \\left( \\overline{z}\\right)^{4}}{1 + z^{4}}$，已知 $|\\omega| = \\frac{\\sqrt{3}}{3}$，$\\arg \\omega = \\frac{\\pi}{2}$，求 $\\theta$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $z=\\mathrm{e}^{\\mathrm{i}\\theta}$，有</p>\n$$\n1-\\left(\\overline z\\right)^{4}=1-\\mathrm{e}^{-4\\mathrm{i}\\theta}=2\\mathrm{i}\\mathrm{e}^{-2\\mathrm{i}\\theta}\\sin 2\\theta\n$$\n<p>以及</p>\n$$\n1+z^{4}=1+\\mathrm{e}^{4\\mathrm{i}\\theta}=2\\mathrm{e}^{2\\mathrm{i}\\theta}\\cos 2\\theta\n$$\n<p>题设要求 $\\omega$ 有意义，所以 $\\cos 2\\theta\\ne0$. 因而</p>\n$$\n\\omega=\\mathrm{i}\\mathrm{e}^{-4\\mathrm{i}\\theta}\\tan 2\\theta  =\\tan 2\\theta\\sin 4\\theta+\\mathrm{i}\\tan 2\\theta\\cos 4\\theta\n$$\n<p>由 $|\\omega|=\\frac{\\sqrt{3}}{3}>0$，知 $\\tan 2\\theta\\ne0$. 又 $\\arg\\omega=\\frac{\\pi}{2}$ 意味着 $\\omega$ 为正纯虚数，所以其实部为零，从而</p><p>$\\tan 2\\theta\\sin 4\\theta=0$，即 $\\sin 4\\theta=0$.</p><p>于是 $\\theta=\\frac{k\\pi}{4}$. 结合 $0&#x3C;\\theta&#x3C;\\pi$，只有 $k=1$，$2$，$3$ 需要讨论. 当 $k=1$，$3$ 时，$\\cos 2\\theta=0$，原式分母为零；当 $k=2$ 时，$\\tan 2\\theta=0$，从而 $\\omega=0$，与 $|\\omega|=\\frac{\\sqrt{3}}{3}$ 矛盾.</p><p>所以按原题面条件，不存在满足条件的 $\\theta$.</p>"
+          "solution": "<p>由 $z=\\mathrm{e}^{\\mathrm{i}\\theta}$，有</p>\n$$\n1-\\left(\\overline z\\right)^{4}=1-\\mathrm{e}^{-4\\mathrm{i}\\theta}=2\\mathrm{i}\\mathrm{e}^{-2\\mathrm{i}\\theta}\\sin 2\\theta\n$$\n<p>以及</p>\n$$\n1+z^{4}=1+\\mathrm{e}^{4\\mathrm{i}\\theta}=2\\mathrm{e}^{2\\mathrm{i}\\theta}\\cos 2\\theta\n$$\n<p>题设要求 $\\omega$ 有意义，所以 $\\cos 2\\theta\\ne0$. 因而</p>\n$$\n\\omega=\\mathrm{i}\\mathrm{e}^{-4\\mathrm{i}\\theta}\\tan 2\\theta  =\\tan 2\\theta\\sin 4\\theta+\\mathrm{i}\\tan 2\\theta\\cos 4\\theta\n$$\n<p>由 $|\\omega|=\\frac{\\sqrt{3}}{3}>0$，知 $\\tan 2\\theta\\ne0$. 又 $\\arg\\omega=\\frac{\\pi}{2}$ 意味着 $\\omega$ 为正纯虚数，所以其实部为零，从而</p><p>$\\tan 2\\theta\\sin 4\\theta=0$，即 $\\sin 4\\theta=0$.</p><p>于是 $\\theta=\\frac{k\\pi}{4}$. 结合 $0<\\theta<\\pi$，只有 $k=1$，$2$，$3$ 需要讨论. 当 $k=1$，$3$ 时，$\\cos 2\\theta=0$，原式分母为零；当 $k=2$ 时，$\\tan 2\\theta=0$，从而 $\\omega=0$，与 $|\\omega|=\\frac{\\sqrt{3}}{3}$ 矛盾.</p><p>所以按原题面条件，不存在满足条件的 $\\theta$.</p>"
         },
         {
           "num": 29,
-          "body": "<p>已知关于 $x$ 的实系数二次方程 $x^{2}+ ax + b = 0$ 有两个实数根 $\\alpha$，$\\beta$. 证明：</p><ol class=\"enumerate\"><li><p>如果 $|\\alpha| &#x3C; 2$，$|\\beta| &#x3C; 2$，那么 $2|\\alpha| &#x3C; 4 + b$ 且 $|b| &#x3C; 4$；</p></li><li><p>如果 $2|\\alpha| &#x3C; 4 + b$ 且 $|b| &#x3C; 4$，那么 $|\\alpha| &#x3C; 2$，$|\\beta| &#x3C; 2$.</p></li></ol>",
+          "body": "<p>已知关于 $x$ 的实系数二次方程 $x^{2}+ ax + b = 0$ 有两个实数根 $\\alpha$，$\\beta$. 证明：</p><ol class=\"enumerate\"><li><p>如果 $|\\alpha| < 2$，$|\\beta| < 2$，那么 $2|\\alpha| < 4 + b$ 且 $|b| < 4$；</p></li><li><p>如果 $2|\\alpha| < 4 + b$ 且 $|b| < 4$，那么 $|\\alpha| < 2$，$|\\beta| < 2$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>按原题面，两个待证命题均不成立，因而不能给出它们的证明. 由韦达定理</p><p>$b=\\alpha\\beta$，逐条构造反例即可；这里保留原题印刷的根 $\\alpha$，不把它改写为二次方程的系数 $a$.</p><ol class=\"enumerate\"><li><p>取 $\\alpha=\\frac{3}{2}$，$\\beta=-\\frac{19}{10}$，则 $|\\alpha|&#x3C;2$，$|\\beta|&#x3C;2$，且对应的实系数二次方程为</p>\n$$\nx^{2}-\\left(\\alpha+\\beta\\right)x+\\alpha\\beta=x^{2}+\\frac{2}{5}x-\\frac{57}{20}=0\n$$\n<p>但是 $2|\\alpha|=3>\\frac{23}{20}=4+b$，而 $|b|=\\frac{57}{20}&#x3C;4$.</p><p>所以第（1）条中的第一个不等式不成立.</p></li><li><p>取 $\\alpha=\\frac{5}{2}$，$\\beta=\\frac{3}{2}$，则对应的实系数二次方程为</p>\n$$\nx^{2}-4x+\\frac{15}{4}=0=(x-\\tfrac{5}{2})(x-\\tfrac{3}{2})\n$$\n<p>此时 $2|\\alpha|=5&#x3C;\\frac{31}{4}=4+b$，$|b|=\\frac{15}{4}&#x3C;4$，</p><p>但 $|\\alpha|=\\frac{5}{2}>2$. 所以第（2）条的结论也不成立.</p></li></ol><p>因此，第29题的原题面存在客观矛盾；本稿保留原题面，不能将其改写成另一道题. 若把题中的 $2|\\alpha|$ 改成系数条件 $2|a|$，则会得到另一条可证明的命题，但不属于原卷的文字.</p>"
+          "solution": "<p>按原题面，两个待证命题均不成立，因而不能给出它们的证明. 由韦达定理</p><p>$b=\\alpha\\beta$，逐条构造反例即可；这里保留原题印刷的根 $\\alpha$，不把它改写为二次方程的系数 $a$.</p><ol class=\"enumerate\"><li><p>取 $\\alpha=\\frac{3}{2}$，$\\beta=-\\frac{19}{10}$，则 $|\\alpha|<2$，$|\\beta|<2$，且对应的实系数二次方程为</p>\n$$\nx^{2}-\\left(\\alpha+\\beta\\right)x+\\alpha\\beta=x^{2}+\\frac{2}{5}x-\\frac{57}{20}=0\n$$\n<p>但是 $2|\\alpha|=3>\\frac{23}{20}=4+b$，而 $|b|=\\frac{57}{20}<4$.</p><p>所以第（1）条中的第一个不等式不成立.</p></li><li><p>取 $\\alpha=\\frac{5}{2}$，$\\beta=\\frac{3}{2}$，则对应的实系数二次方程为</p>\n$$\nx^{2}-4x+\\frac{15}{4}=0=(x-\\tfrac{5}{2})(x-\\tfrac{3}{2})\n$$\n<p>此时 $2|\\alpha|=5<\\frac{31}{4}=4+b$，$|b|=\\frac{15}{4}<4$，</p><p>但 $|\\alpha|=\\frac{5}{2}>2$. 所以第（2）条的结论也不成立.</p></li></ol><p>因此，第29题的原题面存在客观矛盾；本稿保留原题面，不能将其改写成另一道题. 若把题中的 $2|\\alpha|$ 改成系数条件 $2|a|$，则会得到另一条可证明的命题，但不属于原卷的文字.</p>"
         }
       ]
     }

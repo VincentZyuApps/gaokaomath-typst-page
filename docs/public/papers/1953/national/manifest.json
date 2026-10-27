@@ -23,7 +23,7 @@
         },
         {
           "num": 3,
-          "body": "求 $\\begin{vmatrix}3 &#x26; -1 &#x26; 1\\\\ 2 &#x26; 4 &#x26; 6\\\\ 7 &#x26; 0 &#x26; 5\\end{vmatrix}$ 之值.",
+          "body": "求 $\\begin{vmatrix}3 & -1 & 1\\\\ 2 & 4 & 6\\\\ 7 & 0 & 5\\end{vmatrix}$ 之值.",
           "choices": null,
           "answer": "",
           "solution": "按第一行展开，原行列式等于 $3\\left(4\\cdot5-6\\cdot0\\right)-\\left(-1\\right)\\left(2\\cdot5-6\\cdot7\\right)+1\\left(2\\cdot0-4\\cdot7\\right)$. 因而其值为 $60+\\left(10-42\\right)-28=60-32-28=0$."

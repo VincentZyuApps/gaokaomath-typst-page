@@ -9,15 +9,15 @@
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $A = \\{x \\mid 2x + 1 &#x3C; 3\\}$，$B = \\{x \\mid -3 &#x3C; x &#x3C; 2\\}$，则 $A \\cap B$ 等于（ ）",
+          "body": "设集合 $A = \\{x \\mid 2x + 1 < 3\\}$，$B = \\{x \\mid -3 < x < 2\\}$，则 $A \\cap B$ 等于（ ）",
           "choices": [
-            "$\\{x\\mid -3 &#x3C; x &#x3C; 1\\}$",
-            "$\\{x\\mid 1 &#x3C; x &#x3C; 2\\}$",
+            "$\\{x\\mid -3 < x < 1\\}$",
+            "$\\{x\\mid 1 < x < 2\\}$",
             "$\\{x \\mid x > -3\\}$",
-            "$\\{x \\mid x &#x3C; 1\\}$"
+            "$\\{x \\mid x < 1\\}$"
           ],
           "answer": "A",
-          "solution": "由 $2x+1&#x3C;3$，得 $x&#x3C;1$，所以 $A=(-\\infty,1)$. 又 $B=(-3,2)$，因此 $A\\cap B=(-3,1)$，故选 A."
+          "solution": "由 $2x+1<3$，得 $x<1$，所以 $A=(-\\infty,1)$. 又 $B=(-3,2)$，因此 $A\\cap B=(-3,1)$，故选 A."
         },
         {
           "num": 2,
@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "已知 $f(x)=\\begin{cases}(3-a)x-4a,&#x26;x&#x3C;1,\\\\  \\log_{a}x,&#x26;x\\geqslant1,\\end{cases}$ 是 $(-\\infty,+\\infty)$ 上的增函数，那么 $a$ 的取值范围是（ ）",
+          "body": "已知 $f(x)=\\begin{cases}(3-a)x-4a,&x<1,\\\\  \\log_{a}x,&x\\geqslant1,\\end{cases}$ 是 $(-\\infty,+\\infty)$ 上的增函数，那么 $a$ 的取值范围是（ ）",
           "choices": [
             "$(1,+\\infty)$",
             "$(-\\infty,3)$",
@@ -65,7 +65,7 @@
             "$(1,3)$"
           ],
           "answer": "D",
-          "solution": "<p>要使对数有意义，必须有 $a>0$ 且 $a\\ne1$. 当 $x&#x3C;1$ 时，函数为一次函数，要递增必须有 $3-a>0$，即 $a&#x3C;3$；当 $x\\geqslant1$ 时，$\\log_{a} x$ 递增要求 $a>1$.</p><p>在分界点 $x=1$ 处，右侧函数值为 $\\log_{a}1=0$. 由于左段斜率为正，左侧函数值的上确界为 $3-5a$，故还需 $3-5a\\leqslant0$，即 $a\\ge\\frac{3}{5}$. 与 $a>1$ 及 $a&#x3C;3$ 合并，得 $1&#x3C;a&#x3C;3$，故选 D.</p>"
+          "solution": "<p>要使对数有意义，必须有 $a>0$ 且 $a\\ne1$. 当 $x<1$ 时，函数为一次函数，要递增必须有 $3-a>0$，即 $a<3$；当 $x\\geqslant1$ 时，$\\log_{a} x$ 递增要求 $a>1$.</p><p>在分界点 $x=1$ 处，右侧函数值为 $\\log_{a}1=0$. 由于左段斜率为正，左侧函数值的上确界为 $3-5a$，故还需 $3-5a\\leqslant0$，即 $a\\ge\\frac{3}{5}$. 与 $a>1$ 及 $a<3$ 合并，得 $1<a<3$，故选 D.</p>"
         },
         {
           "num": 6,
@@ -141,7 +141,7 @@
           "body": "在 $\\triangle ABC$ 中，$\\angle A$，$\\angle B$，$\\angle C$ 所对的边长分别为 $a$，$b$，$c$ 若 $\\sin A:\\sin B:\\sin C = 5:7:8$，则 $a:b:c =\\underline{\\hspace{2.5em}}{}$，$\\angle B$ 的大小是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$5:7:8$，$\\dfrac{\\pi}{3}$",
-          "solution": "<p>由正弦定理 $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$，得 $a:b:c=\\sin A:\\sin B:\\sin C=5:7:8$.</p><p>由余弦定理，$\\cos B=\\dfrac{a^2+c^2-b^2}{2ac}=\\dfrac{5^2+8^2-7^2}{2\\cdot5\\cdot8}=\\dfrac{1}{2}$. 因为 $B$ 是三角形内角，$0&#x3C;B&#x3C;\\pi$，所以 $B=\\dfrac{\\pi}{3}$. 故填 $5:7:8$，$\\dfrac{\\pi}{3}$.</p>"
+          "solution": "<p>由正弦定理 $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$，得 $a:b:c=\\sin A:\\sin B:\\sin C=5:7:8$.</p><p>由余弦定理，$\\cos B=\\dfrac{a^2+c^2-b^2}{2ac}=\\dfrac{5^2+8^2-7^2}{2\\cdot5\\cdot8}=\\dfrac{1}{2}$. 因为 $B$ 是三角形内角，$0<B<\\pi$，所以 $B=\\dfrac{\\pi}{3}$. 故填 $5:7:8$，$\\dfrac{\\pi}{3}$.</p>"
         },
         {
           "num": 14,

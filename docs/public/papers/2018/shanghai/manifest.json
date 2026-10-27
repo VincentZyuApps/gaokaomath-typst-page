@@ -9,10 +9,10 @@
       "problems": [
         {
           "num": 1,
-          "body": "行列式 $\\begin{vmatrix}4 &#x26; 1\\\\2 &#x26; 5\\end{vmatrix}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "行列式 $\\begin{vmatrix}4 & 1\\\\2 & 5\\end{vmatrix}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "18",
-          "solution": "<p>二阶行列式的值为主对角线元素乘积减去副对角线元素乘积，因此</p><p>$\\begin{vmatrix}4 &#x26; 1\\\\2 &#x26; 5\\end{vmatrix}=4\\times5-1\\times2=18$. 所以填 $18$.</p>"
+          "solution": "<p>二阶行列式的值为主对角线元素乘积减去副对角线元素乘积，因此</p><p>$\\begin{vmatrix}4 & 1\\\\2 & 5\\end{vmatrix}=4\\times5-1\\times2=18$. 所以填 $18$.</p>"
         },
         {
           "num": 2,
@@ -54,7 +54,7 @@
           "body": "已知 $\\alpha\\in\\{-2,-1,-\\frac{1}{2},\\frac{1}{2},1,2,3\\}$. 若幂函数 $f(x)=x^{\\alpha}$ 为奇函数，且在 $(0,+\\infty)$ 上递减，则 $\\alpha=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-1$",
-          "solution": "在给出的候选值中，$\\alpha=-2$ 和 $\\alpha=2$ 对应偶函数，$\\alpha=-\\frac{1}{2}$ 与 $\\alpha=\\frac{1}{2}$ 不能在整个实数范围上构成奇函数；$\\alpha=1$ 与 $\\alpha=3$ 虽为奇函数，但在正半轴上递增. 只有 $\\alpha=-1$ 既使 $f(x)=x^{-1}$ 为奇函数，又满足在 $(0,+\\infty)$ 上 $f'(x)=-x^{-2}&#x3C;0$. 所以 $\\alpha=-1$."
+          "solution": "在给出的候选值中，$\\alpha=-2$ 和 $\\alpha=2$ 对应偶函数，$\\alpha=-\\frac{1}{2}$ 与 $\\alpha=\\frac{1}{2}$ 不能在整个实数范围上构成奇函数；$\\alpha=1$ 与 $\\alpha=3$ 虽为奇函数，但在正半轴上递增. 只有 $\\alpha=-1$ 既使 $f(x)=x^{-1}$ 为奇函数，又满足在 $(0,+\\infty)$ 上 $f'(x)=-x^{-2}<0$. 所以 $\\alpha=-1$."
         },
         {
           "num": 8,
@@ -75,21 +75,21 @@
           "body": "设等比数列 $\\{a_{n}\\}$ 的通项公式为 $a_{n}=q^{n-1}$（$n\\in\\mathbb{N}^{*}$），前 $n$ 项和为 $S_{n}$. 若 $\\displaystyle\\lim_{n\\to\\infty}\\frac{S_{n}}{a_{n+1}}=\\frac{1}{2}$，则 $q=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "3",
-          "solution": "<p>若 $\\lvert q\\rvert>1$，则 $q\\ne1$，且</p><p>$\\frac{S_{n}}{a_{n+1}}=\\frac{1+q+\\cdots+q^{n-1}}{q^{n}}=\\frac{1-q^{-n}}{q-1}\\to\\frac{1}{q-1}$. 题设极限为 $\\frac{1}{2}$，所以 $\\frac{1}{q-1}=\\frac{1}{2}$，得 $q=3$. 另一方面，$q=1$ 时该比值为 $n$，$0&#x3C;\\lvert q\\rvert&#x3C;1$ 时分子趋于非零常数而分母趋于零，$q=-1$ 时比值也无此极限，均不符合题设. 因此 $q=3$.</p>"
+          "solution": "<p>若 $\\lvert q\\rvert>1$，则 $q\\ne1$，且</p><p>$\\frac{S_{n}}{a_{n+1}}=\\frac{1+q+\\cdots+q^{n-1}}{q^{n}}=\\frac{1-q^{-n}}{q-1}\\to\\frac{1}{q-1}$. 题设极限为 $\\frac{1}{2}$，所以 $\\frac{1}{q-1}=\\frac{1}{2}$，得 $q=3$. 另一方面，$q=1$ 时该比值为 $n$，$0<\\lvert q\\rvert<1$ 时分子趋于非零常数而分母趋于零，$q=-1$ 时比值也无此极限，均不符合题设. 因此 $q=3$.</p>"
         },
         {
           "num": 11,
           "body": "已知常数 $a>0$，函数 $f(x)=\\frac{2^{x}}{2^{x}+ax}$ 的图像经过点 $P\\left(p,\\frac{6}{5}\\right)$，$Q\\left(q,-\\frac{1}{5}\\right)$. 若 $2^{p+q}=36pq$，则 $a=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "6",
-          "solution": "<p>由 $f(p)=\\frac{6}{5}$ 得 $\\frac{2^{p}+ap}{2^{p}}=\\frac{5}{6}$，所以 $\\frac{ap}{2^{p}}=-\\frac{1}{6}$，即 $2^{p}=-6ap$. 由 $f(q)=-\\frac{1}{5}$ 得 $\\frac{2^{q}+aq}{2^{q}}=-5$，所以 $\\frac{aq}{2^{q}}=-6$，即 $2^{q}=-\\frac{aq}{6}$. 于是 $p&#x3C;0$，$q&#x3C;0$，从而 $pq\\ne0$，并且</p><p>$2^{p+q}=2^{p}2^{q}=(-6ap)\\left(-\\frac{aq}{6}\\right)=a^{2}pq$. 结合题设 $2^{p+q}=36pq$，得 $a^{2}=36$. 因为 $a>0$，所以 $a=6$.</p>"
+          "solution": "<p>由 $f(p)=\\frac{6}{5}$ 得 $\\frac{2^{p}+ap}{2^{p}}=\\frac{5}{6}$，所以 $\\frac{ap}{2^{p}}=-\\frac{1}{6}$，即 $2^{p}=-6ap$. 由 $f(q)=-\\frac{1}{5}$ 得 $\\frac{2^{q}+aq}{2^{q}}=-5$，所以 $\\frac{aq}{2^{q}}=-6$，即 $2^{q}=-\\frac{aq}{6}$. 于是 $p<0$，$q<0$，从而 $pq\\ne0$，并且</p><p>$2^{p+q}=2^{p}2^{q}=(-6ap)\\left(-\\frac{aq}{6}\\right)=a^{2}pq$. 结合题设 $2^{p+q}=36pq$，得 $a^{2}=36$. 因为 $a>0$，所以 $a=6$.</p>"
         },
         {
           "num": 12,
           "body": "已知实数 $x_{1}$，$x_{2}$，$y_{1}$，$y_{2}$ 满足：$x_{1}^{2}+y_{1}^{2}=1$，$x_{2}^{2}+y_{2}^{2}=1$，$x_{1}x_{2}+y_{1}y_{2}=\\frac{1}{2}$，则 $\\frac{\\lvert x_{1}+y_{1}-1\\rvert}{\\sqrt{2}}+\\frac{\\lvert x_{2}+y_{2}-1\\rvert}{\\sqrt{2}}$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\sqrt{2}+\\sqrt{3}$",
-          "solution": "<p>记 $\\mathbf{u}_{i}=(x_{i},y_{i})$，$\\mathbf{e}=\\frac{(1,1)}{\\sqrt{2}}$，并令 $t_{i}=\\mathbf{u}_{i}\\cdot\\mathbf{e}=\\frac{x_{i}+y_{i}}{\\sqrt{2}}$，$c=\\frac{1}{\\sqrt{2}}$. 题设说明 $\\lvert\\mathbf{u}_{1}\\rvert=\\lvert\\mathbf{u}_{2}\\rvert=1$，$\\mathbf{u}_{1}\\cdot\\mathbf{u}_{2}=\\frac{1}{2}$，所以</p><p>$\\lvert\\mathbf{u}_{1}+\\mathbf{u}_{2}\\rvert=\\sqrt{3}$，$\\lvert\\mathbf{u}_{1}-\\mathbf{u}_{2}\\rvert=1$. 令 $A=\\frac{t_{1}+t_{2}}{2}$，$B=\\frac{t_{1}-t_{2}}{2}$，则由恒等式 $\\lvert U+V\\rvert+\\lvert U-V\\rvert=2\\max\\{\\lvert U\\rvert,\\lvert V\\rvert\\}$ 得</p><p>$\\lvert t_{1}-c\\rvert+\\lvert t_{2}-c\\rvert=2\\max\\{\\lvert A-c\\rvert,\\lvert B\\rvert\\}$.</p><p>又由柯西不等式，$\\lvert A\\rvert\\le\\frac{\\sqrt{3}}{2}$，$\\lvert B\\rvert\\le\\frac{1}{2}$，故 $\\lvert A-c\\rvert\\le\\frac{\\sqrt{3}}{2}+\\frac{1}{\\sqrt{2}}$，且 $\\lvert B\\rvert\\le\\frac{1}{2}&#x3C;\\frac{\\sqrt{3}}{2}+\\frac{1}{\\sqrt{2}}$. 因此原式不超过 $2\\left(\\frac{\\sqrt{3}}{2}+\\frac{1}{\\sqrt{2}}\\right)=\\sqrt{3}+\\sqrt{2}$.</p><p>取 $\\mathbf{m}=\\frac{(-1,1)}{\\sqrt{2}}$，$\\mathbf{u}_{1}=-\\frac{\\sqrt{3}}{2}\\mathbf{e}+\\frac{1}{2}\\mathbf{m}$，$\\mathbf{u}_{2}=-\\frac{\\sqrt{3}}{2}\\mathbf{e}-\\frac{1}{2}\\mathbf{m}$，则两向量的模均为 $1$，点积为 $\\frac{1}{2}$，并且 $t_{1}=t_{2}=-\\frac{\\sqrt{3}}{2}$，原式取得 $\\sqrt{3}+\\sqrt{2}$. 所以最大值为 $\\sqrt{2}+\\sqrt{3}$.</p>"
+          "solution": "<p>记 $\\mathbf{u}_{i}=(x_{i},y_{i})$，$\\mathbf{e}=\\frac{(1,1)}{\\sqrt{2}}$，并令 $t_{i}=\\mathbf{u}_{i}\\cdot\\mathbf{e}=\\frac{x_{i}+y_{i}}{\\sqrt{2}}$，$c=\\frac{1}{\\sqrt{2}}$. 题设说明 $\\lvert\\mathbf{u}_{1}\\rvert=\\lvert\\mathbf{u}_{2}\\rvert=1$，$\\mathbf{u}_{1}\\cdot\\mathbf{u}_{2}=\\frac{1}{2}$，所以</p><p>$\\lvert\\mathbf{u}_{1}+\\mathbf{u}_{2}\\rvert=\\sqrt{3}$，$\\lvert\\mathbf{u}_{1}-\\mathbf{u}_{2}\\rvert=1$. 令 $A=\\frac{t_{1}+t_{2}}{2}$，$B=\\frac{t_{1}-t_{2}}{2}$，则由恒等式 $\\lvert U+V\\rvert+\\lvert U-V\\rvert=2\\max\\{\\lvert U\\rvert,\\lvert V\\rvert\\}$ 得</p><p>$\\lvert t_{1}-c\\rvert+\\lvert t_{2}-c\\rvert=2\\max\\{\\lvert A-c\\rvert,\\lvert B\\rvert\\}$.</p><p>又由柯西不等式，$\\lvert A\\rvert\\le\\frac{\\sqrt{3}}{2}$，$\\lvert B\\rvert\\le\\frac{1}{2}$，故 $\\lvert A-c\\rvert\\le\\frac{\\sqrt{3}}{2}+\\frac{1}{\\sqrt{2}}$，且 $\\lvert B\\rvert\\le\\frac{1}{2}<\\frac{\\sqrt{3}}{2}+\\frac{1}{\\sqrt{2}}$. 因此原式不超过 $2\\left(\\frac{\\sqrt{3}}{2}+\\frac{1}{\\sqrt{2}}\\right)=\\sqrt{3}+\\sqrt{2}$.</p><p>取 $\\mathbf{m}=\\frac{(-1,1)}{\\sqrt{2}}$，$\\mathbf{u}_{1}=-\\frac{\\sqrt{3}}{2}\\mathbf{e}+\\frac{1}{2}\\mathbf{m}$，$\\mathbf{u}_{2}=-\\frac{\\sqrt{3}}{2}\\mathbf{e}-\\frac{1}{2}\\mathbf{m}$，则两向量的模均为 $1$，点积为 $\\frac{1}{2}$，并且 $t_{1}=t_{2}=-\\frac{\\sqrt{3}}{2}$，原式取得 $\\sqrt{3}+\\sqrt{2}$. 所以最大值为 $\\sqrt{2}+\\sqrt{3}$.</p>"
         }
       ]
     },
@@ -110,7 +110,7 @@
         },
         {
           "num": 14,
-          "body": "已知 $a\\in\\mathbb{R}$，则“$a>1$”是“$\\frac{1}{a}&#x3C;1$”的（ ）",
+          "body": "已知 $a\\in\\mathbb{R}$，则“$a>1$”是“$\\frac{1}{a}<1$”的（ ）",
           "choices": [
             "充分非必要条件",
             "必要非充分条件",
@@ -118,7 +118,7 @@
             "既非充分又非必要条件"
           ],
           "answer": "A",
-          "solution": "若 $a>1$，则 $a>0$，取倒数时不等号反向，得到 $\\frac{1}{a}&#x3C;1$，所以“$a>1$”是“$\\frac{1}{a}&#x3C;1$”的充分条件. 但取 $a=-1$ 时 $\\frac{1}{a}=-1&#x3C;1$，而 $a>1$ 不成立，故它不是必要条件. 所以选 A."
+          "solution": "若 $a>1$，则 $a>0$，取倒数时不等号反向，得到 $\\frac{1}{a}<1$，所以“$a>1$”是“$\\frac{1}{a}<1$”的充分条件. 但取 $a=-1$ 时 $\\frac{1}{a}=-1<1$，而 $a>1$ 不成立，故它不是必要条件. 所以选 A."
         },
         {
           "num": 15,
@@ -165,10 +165,10 @@
         },
         {
           "num": 19,
-          "body": "<p>某群体的人均通勤时间，是指单日内该群体中成员从居住地到工作地的平均用时. 某地上班族 $S$ 中的成员仅以自驾或公交方式通勤. 分析显示：当 $S$ 中 $x\\%$（$0&#x3C;x&#x3C;100$）的成员自驾时，自驾群体的人均通勤时间 $f(x)$（单位：分钟）为</p><p><span class=\"macro macro-examdisplaycases\"></span>f(x)=<br>30, &#x26; 0&#x3C;x<span class=\"macro macro-le\"></span>30,<br class=\"linebreak\"><br>2x+<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1800</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">x</span></span>-90, &#x26; 30&#x3C;x&#x3C;100<br></p><p>而公交群体的人均通勤时间不受 $x$ 影响，恒为 $40$ 分钟. 试根据上述分析结果回答下列问题：</p><ol class=\"enumerate\"><li><p>当 $x$ 在什么范围内时，公交群体的人均通勤时间少于自驾群体的人均通勤时间？</p></li><li><p>求该地上班族 $S$ 的人均通勤时间 $g(x)$ 的表达式；讨论 $g(x)$ 的单调性，并说明其实际意义.</p></li></ol>",
+          "body": "<p>某群体的人均通勤时间，是指单日内该群体中成员从居住地到工作地的平均用时. 某地上班族 $S$ 中的成员仅以自驾或公交方式通勤. 分析显示：当 $S$ 中 $x\\%$（$0<x<100$）的成员自驾时，自驾群体的人均通勤时间 $f(x)$（单位：分钟）为</p><p><span class=\"macro macro-examdisplaycases\"></span>f(x)=<br>30, & 0<x<span class=\"macro macro-le\"></span>30,<br class=\"linebreak\"><br>2x+<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1800</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">x</span></span>-90, & 30<x<100<br></p><p>而公交群体的人均通勤时间不受 $x$ 影响，恒为 $40$ 分钟. 试根据上述分析结果回答下列问题：</p><ol class=\"enumerate\"><li><p>当 $x$ 在什么范围内时，公交群体的人均通勤时间少于自驾群体的人均通勤时间？</p></li><li><p>求该地上班族 $S$ 的人均通勤时间 $g(x)$ 的表达式；讨论 $g(x)$ 的单调性，并说明其实际意义.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $0&#x3C;x\\le30$ 时，$f(x)=30&#x3C;40$，不满足公交时间少于自驾时间. 当 $30&#x3C;x&#x3C;100$ 时，需有 $2x+\\frac{1800}{x}-90>40$. 由于 $x>0$，不等式等价于 $2x^{2}-130x+1800>0$，即 $2(x-20)(x-45)>0$. 结合 $30&#x3C;x&#x3C;100$，得到 $45&#x3C;x&#x3C;100$.</p></li><li><p>自驾成员占总人数的 $\\frac{x}{100}$，公交成员占 $1-\\frac{x}{100}$，所以</p>\n$$\ng(x)=  \\begin{cases}\\dfrac{x}{100}\\cdot30+\\left(1-\\dfrac{x}{100}\\right)\\cdot40=40-\\dfrac{x}{10},&#x26;0&#x3C;x\\le30,\\\\  \\dfrac{x}{100}\\left(2x+\\dfrac{1800}{x}-90\\right)+\\left(1-\\dfrac{x}{100}\\right)\\cdot40=\\dfrac{x^2}{50}-\\dfrac{13x}{10}+58,&#x26;30&#x3C;x&#x3C;100.\\end{cases}\n$$\n<p>在 $(0,30)$ 上，$g'(x)=-\\frac{1}{10}&#x3C;0$. 在 $(30,100)$ 上，$g'(x)=\\frac{x}{25}-\\frac{13}{10}$，所以当 $30&#x3C;x&#x3C;\\frac{65}{2}$ 时 $g'(x)&#x3C;0$，当 $\\frac{65}{2}&#x3C;x&#x3C;100$ 时 $g'(x)>0$. 且两段在 $x=30$ 处的函数值均为 $37$，故 $g(x)$ 在 $(0,32.5)$ 上单调递减，在 $(32.5,100)$ 上单调递增，并在 $x=32.5$ 时取得最小值. 实际意义是：自驾人数比例低于 $32.5\\%$ 时，提高自驾比例会降低全体上班族的人均通勤时间；超过 $32.5\\%$ 后继续提高自驾比例，反而会使人均通勤时间增加.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $0<x\\le30$ 时，$f(x)=30<40$，不满足公交时间少于自驾时间. 当 $30<x<100$ 时，需有 $2x+\\frac{1800}{x}-90>40$. 由于 $x>0$，不等式等价于 $2x^{2}-130x+1800>0$，即 $2(x-20)(x-45)>0$. 结合 $30<x<100$，得到 $45<x<100$.</p></li><li><p>自驾成员占总人数的 $\\frac{x}{100}$，公交成员占 $1-\\frac{x}{100}$，所以</p>\n$$\ng(x)=  \\begin{cases}\\dfrac{x}{100}\\cdot30+\\left(1-\\dfrac{x}{100}\\right)\\cdot40=40-\\dfrac{x}{10},&0<x\\le30,\\\\  \\dfrac{x}{100}\\left(2x+\\dfrac{1800}{x}-90\\right)+\\left(1-\\dfrac{x}{100}\\right)\\cdot40=\\dfrac{x^2}{50}-\\dfrac{13x}{10}+58,&30<x<100.\\end{cases}\n$$\n<p>在 $(0,30)$ 上，$g'(x)=-\\frac{1}{10}<0$. 在 $(30,100)$ 上，$g'(x)=\\frac{x}{25}-\\frac{13}{10}$，所以当 $30<x<\\frac{65}{2}$ 时 $g'(x)<0$，当 $\\frac{65}{2}<x<100$ 时 $g'(x)>0$. 且两段在 $x=30$ 处的函数值均为 $37$，故 $g(x)$ 在 $(0,32.5)$ 上单调递减，在 $(32.5,100)$ 上单调递增，并在 $x=32.5$ 时取得最小值. 实际意义是：自驾人数比例低于 $32.5\\%$ 时，提高自驾比例会降低全体上班族的人均通勤时间；超过 $32.5\\%$ 后继续提高自驾比例，反而会使人均通勤时间增加.</p></li></ol>"
         },
         {
           "num": 20,
@@ -182,7 +182,7 @@
           "body": "<p>给定无穷数列 $\\{a_{n}\\}$，若无穷数列 $\\{b_{n}\\}$ 满足：对任意 $n\\in\\mathbb{N}^{*}$，都有 $\\lvert b_{n}-a_{n}\\rvert\\le1$，则称 $\\{b_{n}\\}$ 与 $\\{a_{n}\\}$“接近”.</p><ol class=\"enumerate\"><li><p>设 $\\{a_{n}\\}$ 是首项为 $1$，公比为 $\\frac{1}{2}$ 的等比数列，$b_{n}=a_{n+1}+1$，$n\\in\\mathbb{N}^{*}$. 判断数列 $\\{b_{n}\\}$ 是否与 $\\{a_{n}\\}$ 接近，并说明理由；</p></li><li><p>设数列 $\\{a_{n}\\}$ 的前四项为：$a_{1}=1$，$a_{2}=2$，$a_{3}=4$，$a_{4}=8$，$\\{b_{n}\\}$ 是一个与 $\\{a_{n}\\}$ 接近的数列，记集合 $M=\\{x\\mid x=b_{i},\\ i=1,2,3,4\\}$，求 $M$ 中元素的个数 $m$；</p></li><li><p>已知 $\\{a_{n}\\}$ 是公差为 $d$ 的等差数列. 若存在数列 $\\{b_{n}\\}$ 满足：$\\{b_{n}\\}$ 与 $\\{a_{n}\\}$ 接近，且在 $b_{2}-b_{1}$，$b_{3}-b_{2}$，…，$b_{201}-b_{200}$ 中至少有 $100$ 个为正数，求 $d$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $a_{n}=\\left(\\frac{1}{2}\\right)^{n-1}$，所以 $b_{n}=a_{n+1}+1=\\left(\\frac{1}{2}\\right)^{n}+1$. 从而 $b_{n}-a_{n}=1-\\left(\\frac{1}{2}\\right)^{n}$，且对任意 $n\\in\\mathbb{N}^{*}$ 都有 $0&#x3C;1-\\left(\\frac{1}{2}\\right)^{n}&#x3C;1$. 因此 $\\lvert b_{n}-a_{n}\\rvert\\le1$，数列 $\\{b_{n}\\}$ 与 $\\{a_{n}\\}$ 接近.</p></li><li><p>由接近的定义，$b_{1}\\in[0,2]$，$b_{2}\\in[1,3]$，$b_{3}\\in[3,5]$，$b_{4}\\in[7,9]$. 前三个区间中，$[0,2]$ 与 $[3,5]$ 不相交，所以 $b_{1}\\ne b_{3}$；而 $[7,9]$ 与前三个区间均不相交，所以 $b_{4}$ 与 $b_{1}$，$b_{2}$，$b_{3}$ 都不同. 因而 $M$ 至少有 $3$ 个元素，至多有 $4$ 个元素. 取例如 $b_{1}=b_{2}=1$，$b_{3}=3$，$b_{4}=7$，可得 $m=3$；取四个区间中彼此不同的数，又可得 $m=4$. 所以 $m=3$ 或 $m=4$.</p></li><li><p>设 $b_{n}=a_{n}+e_{n}$，其中 $\\lvert e_{n}\\rvert\\le1$. 则 $b_{n+1}-b_{n}=d+e_{n+1}-e_{n}$. 若 $d\\le-2$，由于 $e_{n+1}-e_{n}\\le2$，有 $b_{n+1}-b_{n}\\le d+2\\le0$，不可能出现正数，更不可能至少有 $100$ 个正数. 所以必须有 $d>-2$.</p><p>反之，若 $d>-2$，取 $e_{n}=(-1)^{n}$，即令 $b_{n}=a_{n}+(-1)^{n}$. 此时 $\\lvert b_{n}-a_{n}\\rvert=1$，所以 $\\{b_{n}\\}$ 与 $\\{a_{n}\\}$ 接近；当 $n$ 为奇数时，$b_{n+1}-b_{n}=d+2>0$. 在 $n=1$，$2$，$\\ldots$，$200$ 中有恰好 $100$ 个奇数，因此至少有 $100$ 个相邻差为正数. 故 $d>-2$ 也充分，取值范围为 $(-2,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $a_{n}=\\left(\\frac{1}{2}\\right)^{n-1}$，所以 $b_{n}=a_{n+1}+1=\\left(\\frac{1}{2}\\right)^{n}+1$. 从而 $b_{n}-a_{n}=1-\\left(\\frac{1}{2}\\right)^{n}$，且对任意 $n\\in\\mathbb{N}^{*}$ 都有 $0<1-\\left(\\frac{1}{2}\\right)^{n}<1$. 因此 $\\lvert b_{n}-a_{n}\\rvert\\le1$，数列 $\\{b_{n}\\}$ 与 $\\{a_{n}\\}$ 接近.</p></li><li><p>由接近的定义，$b_{1}\\in[0,2]$，$b_{2}\\in[1,3]$，$b_{3}\\in[3,5]$，$b_{4}\\in[7,9]$. 前三个区间中，$[0,2]$ 与 $[3,5]$ 不相交，所以 $b_{1}\\ne b_{3}$；而 $[7,9]$ 与前三个区间均不相交，所以 $b_{4}$ 与 $b_{1}$，$b_{2}$，$b_{3}$ 都不同. 因而 $M$ 至少有 $3$ 个元素，至多有 $4$ 个元素. 取例如 $b_{1}=b_{2}=1$，$b_{3}=3$，$b_{4}=7$，可得 $m=3$；取四个区间中彼此不同的数，又可得 $m=4$. 所以 $m=3$ 或 $m=4$.</p></li><li><p>设 $b_{n}=a_{n}+e_{n}$，其中 $\\lvert e_{n}\\rvert\\le1$. 则 $b_{n+1}-b_{n}=d+e_{n+1}-e_{n}$. 若 $d\\le-2$，由于 $e_{n+1}-e_{n}\\le2$，有 $b_{n+1}-b_{n}\\le d+2\\le0$，不可能出现正数，更不可能至少有 $100$ 个正数. 所以必须有 $d>-2$.</p><p>反之，若 $d>-2$，取 $e_{n}=(-1)^{n}$，即令 $b_{n}=a_{n}+(-1)^{n}$. 此时 $\\lvert b_{n}-a_{n}\\rvert=1$，所以 $\\{b_{n}\\}$ 与 $\\{a_{n}\\}$ 接近；当 $n$ 为奇数时，$b_{n+1}-b_{n}=d+2>0$. 在 $n=1$，$2$，$\\ldots$，$200$ 中有恰好 $100$ 个奇数，因此至少有 $100$ 个相邻差为正数. 故 $d>-2$ 也充分，取值范围为 $(-2,+\\infty)$.</p></li></ol>"
         }
       ]
     }

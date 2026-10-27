@@ -29,7 +29,7 @@
             "$-\\frac{1}{b}$"
           ],
           "answer": "B",
-          "solution": "<p>由 $f(a)=b$ 可知 $-1&#x3C;a&#x3C;1$. 于是</p>\n$$\nf(-a)=\\lg\\frac{1+a}{1-a}=\\lg\\frac{1}{\\frac{1-a}{1+a}}=-\\lg\\frac{1-a}{1+a}=-f(a)=-b\n$$\n<p>因此选 B.</p>"
+          "solution": "<p>由 $f(a)=b$ 可知 $-1<a<1$. 于是</p>\n$$\nf(-a)=\\lg\\frac{1+a}{1-a}=\\lg\\frac{1}{\\frac{1-a}{1+a}}=-\\lg\\frac{1-a}{1+a}=-f(a)=-b\n$$\n<p>因此选 B.</p>"
         },
         {
           "num": 3,
@@ -47,9 +47,9 @@
           "num": 4,
           "body": "函数 $y = \\sqrt{x - 1}+ 1$（$x \\ge 1$）的反函数是（ ）",
           "choices": [
-            "$y = x^{2}- 2x + 2$（$x &#x3C; 1$）",
+            "$y = x^{2}- 2x + 2$（$x < 1$）",
             "$y = x^{2}- 2x + 2$（$x \\ge 1$）",
-            "$y = x^{2}- 2x$（$x &#x3C; 1$）",
+            "$y = x^{2}- 2x$（$x < 1$）",
             "$y = x^{2}- 2x$（$x \\ge 1$）"
           ],
           "answer": "B",
@@ -149,7 +149,7 @@
             "$\\frac{1}{2}+\\sqrt{3}$"
           ],
           "answer": "B",
-          "solution": "<p>将三个条件分别相加减，得到</p>\n$$\n2a^{2}=(a^{2}+b^{2})+(a^{2}+c^{2})-(b^{2}+c^{2})=1\n$$\n<p>同样，</p>\n$$\n2b^{2}=(a^{2}+b^{2})+(b^{2}+c^{2})-(c^{2}+a^{2})=1\n$$\n<p>以及</p>\n$$\n2c^{2}=(b^{2}+c^{2})+(c^{2}+a^{2})-(a^{2}+b^{2})=3\n$$\n<p>所以 $b^{2}=\\frac{1}{2}$，$c^{2}=\\frac{3}{2}$. 因而 $a$，$b$ 的绝对值均为 $\\frac{1}{\\sqrt{2}}$，$c$ 的绝对值为 $\\sqrt{\\frac{3}{2}}$.</p><p>若 $a$，$b$ 异号，则 $ab=-\\frac{1}{2}$ 且 $a+b=0$，从而 $ab+bc+ca=-\\frac{1}{2}$. 若 $a$，$b$ 同号，则 $ab=\\frac{1}{2}$，且 $\\lvert a+b\\rvert=\\sqrt{2}$. 取 $c$ 与 $a+b$ 异号时取得较小值</p>\n$$\nab+c(a+b)=\\frac{1}{2}-\\sqrt{\\frac{3}{2}}\\sqrt{2}=\\frac{1}{2}-\\sqrt{3}\n$$\n<p>因为 $\\frac{1}{2}-\\sqrt{3}&#x3C;-\\frac{1}{2}$，所以最小值为 $\\frac{1}{2}-\\sqrt{3}$，故选 B.</p>"
+          "solution": "<p>将三个条件分别相加减，得到</p>\n$$\n2a^{2}=(a^{2}+b^{2})+(a^{2}+c^{2})-(b^{2}+c^{2})=1\n$$\n<p>同样，</p>\n$$\n2b^{2}=(a^{2}+b^{2})+(b^{2}+c^{2})-(c^{2}+a^{2})=1\n$$\n<p>以及</p>\n$$\n2c^{2}=(b^{2}+c^{2})+(c^{2}+a^{2})-(a^{2}+b^{2})=3\n$$\n<p>所以 $b^{2}=\\frac{1}{2}$，$c^{2}=\\frac{3}{2}$. 因而 $a$，$b$ 的绝对值均为 $\\frac{1}{\\sqrt{2}}$，$c$ 的绝对值为 $\\sqrt{\\frac{3}{2}}$.</p><p>若 $a$，$b$ 异号，则 $ab=-\\frac{1}{2}$ 且 $a+b=0$，从而 $ab+bc+ca=-\\frac{1}{2}$. 若 $a$，$b$ 同号，则 $ab=\\frac{1}{2}$，且 $\\lvert a+b\\rvert=\\sqrt{2}$. 取 $c$ 与 $a+b$ 异号时取得较小值</p>\n$$\nab+c(a+b)=\\frac{1}{2}-\\sqrt{\\frac{3}{2}}\\sqrt{2}=\\frac{1}{2}-\\sqrt{3}\n$$\n<p>因为 $\\frac{1}{2}-\\sqrt{3}<-\\frac{1}{2}$，所以最小值为 $\\frac{1}{2}-\\sqrt{3}$，故选 B.</p>"
         }
       ]
     },
@@ -172,7 +172,7 @@
         },
         {
           "num": 15,
-          "body": "已知数列 $\\{a_{n}\\}$，满足 $a_{1}= 1$，$a_{n}= a_{1}+ 2a_{2}+ 3a_{3}+ \\cdots + (n - 1)a_{n-1}$（$n \\ge 2$），则 $\\{a_{n}\\}$ 的通项 $a_{n}= \\begin{cases}1,&#x26;n = 1,\\\\  \\underline{\\hspace{2.5em}}{},&#x26;n \\ge 2.\\end{cases}$",
+          "body": "已知数列 $\\{a_{n}\\}$，满足 $a_{1}= 1$，$a_{n}= a_{1}+ 2a_{2}+ 3a_{3}+ \\cdots + (n - 1)a_{n-1}$（$n \\ge 2$），则 $\\{a_{n}\\}$ 的通项 $a_{n}= \\begin{cases}1,&n = 1,\\\\  \\underline{\\hspace{2.5em}}{},&n \\ge 2.\\end{cases}$",
           "choices": null,
           "answer": "$\\dfrac{n!}{2}$",
           "solution": "<p>由递推式在 $n=2$ 时得 $a_{2}=a_{1}=1$. 对任意 $n\\geqslant3$，将相邻两式相减，得</p>\n$$\na_{n}-a_{n-1}=(n-1)a_{n-1}\n$$\n<p>所以 $a_{n}=na_{n-1}$. 因此从 $a_{2}=1$ 开始逐项相乘，得到</p><p>$a_{n}=n(n-1)\\cdots3a_{2}=\\frac{n!}{2}$，$n\\geqslant2$.</p><p>结合题设 $a_{1}=1$，通项为题中所填结果.</p>"
@@ -208,7 +208,7 @@
           "body": "已知 $a \\in \\mathbb{R}$，求函数 $f(x) = x^{2} \\mathrm{e}^{ax}$ 的单调区间.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $\\mathrm{e}^{ax}>0$，所以</p>\n$$\nf'(x)=2x\\mathrm{e}^{ax}+ax^{2}\\mathrm{e}^{ax}=x(ax+2)\\mathrm{e}^{ax}\n$$\n<p>故只需讨论 $x(ax+2)$ 的符号，临界点为 $x=0$ 以及在 $a\\ne0$ 时的 $x=-\\frac{2}{a}$. 函数的单调区间为：</p><ol class=\"enumerate\"><li><p>当 $a=0$ 时，在 $(-\\infty,0)$ 内为减函数，在 $(0,+\\infty)$ 内为增函数；</p></li><li><p>当 $a>0$ 时，在 $\\left(-\\infty,-\\dfrac{2}{a}\\right)$ 内为增函数，在 $\\left(-\\dfrac{2}{a},0\\right)$ 内为减函数，在 $(0,+\\infty)$ 内为增函数；</p></li><li><p>当 $a&#x3C;0$ 时，在 $(-\\infty,0)$ 内为减函数，在 $\\left(0,-\\dfrac{2}{a}\\right)$ 内为增函数，在 $\\left(-\\dfrac{2}{a},+\\infty\\right)$ 内为减函数.</p></li></ol>"
+          "solution": "<p>因为 $\\mathrm{e}^{ax}>0$，所以</p>\n$$\nf'(x)=2x\\mathrm{e}^{ax}+ax^{2}\\mathrm{e}^{ax}=x(ax+2)\\mathrm{e}^{ax}\n$$\n<p>故只需讨论 $x(ax+2)$ 的符号，临界点为 $x=0$ 以及在 $a\\ne0$ 时的 $x=-\\frac{2}{a}$. 函数的单调区间为：</p><ol class=\"enumerate\"><li><p>当 $a=0$ 时，在 $(-\\infty,0)$ 内为减函数，在 $(0,+\\infty)$ 内为增函数；</p></li><li><p>当 $a>0$ 时，在 $\\left(-\\infty,-\\dfrac{2}{a}\\right)$ 内为增函数，在 $\\left(-\\dfrac{2}{a},0\\right)$ 内为减函数，在 $(0,+\\infty)$ 内为增函数；</p></li><li><p>当 $a<0$ 时，在 $(-\\infty,0)$ 内为减函数，在 $\\left(0,-\\dfrac{2}{a}\\right)$ 内为增函数，在 $\\left(-\\dfrac{2}{a},+\\infty\\right)$ 内为减函数.</p></li></ol>"
         },
         {
           "num": 20,
@@ -222,7 +222,7 @@
           "body": "<p>设双曲线 $C: \\frac{x^{2}}{a^{2}}- y^{2} = 1$（$a > 0$）与直线 $l: x + y = 1$ 相交于两个不同的点 $A$，$B$.</p><ol class=\"enumerate\"><li><p>求双曲线 $C$ 的离心率 $e$ 的取值范围；</p></li><li><p>设直线 $l$ 与 $y$ 轴的交点为 $P$，且 $\\overrightarrow{PA}= \\frac{5}{12}\\overrightarrow{PB}$. 求 $a$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将 $y=1-x$ 代入双曲线方程，得</p>\n$$\n\\frac{x^{2}}{a^{2}}-(1-x)^{2}=1\n$$\n<p>即</p>\n$$\n(1-a^{2})x^{2}+2a^{2}x-2a^{2}=0\n$$\n<p>当 $a=1$ 时，上式退化为 $2x-2=0$，只有一个交点；当 $a\\ne1$ 时，方程有两个不同实根的充要条件是</p>\n$$\n\\Delta=(2a^{2})^{2}-4(1-a^{2})(-2a^{2})=4a^{2}(2-a^{2})>0\n$$\n<p>结合 $a>0$，得到 $0&#x3C;a&#x3C;\\sqrt{2}$ 且 $a\\ne1$. 双曲线的离心率为</p>\n$$\ne=\\sqrt{1+\\frac{1}{a^{2}}}\n$$\n<p>当 $0&#x3C;a&#x3C;1$ 时，$e>\\sqrt{2}$；当 $1&#x3C;a&#x3C;\\sqrt{2}$ 时，$\\frac{\\sqrt{6}}{2}&#x3C;e&#x3C;\\sqrt{2}$. 因此</p>\n$$\ne\\in\\left(\\frac{\\sqrt{6}}{2},\\sqrt{2}\\right)\\cup\\left(\\sqrt{2},+\\infty\\right)\n$$\n</li><li><p>直线 $l$ 与 $y$ 轴交于 $P=(0,1)$. 直线上的点可表示为 $(x,1-x)=P+x(1,-1)$，所以由 $\\overrightarrow{PA}=\\frac{5}{12}\\overrightarrow{PB}$ 可设 $x_{A}=\\frac{5}{12}t$，$x_{B}=t$，其中 $t\\ne0$.</p><p>上面的二次方程的两根就是 $x_{A}$，$x_{B}$，故由韦达定理</p>\n$$\nx_{A}+x_{B}=x_{A}x_{B}=-\\frac{2a^{2}}{1-a^{2}}\n$$\n<p>代入 $x_{A}=\\frac{5}{12}t$，$x_{B}=t$，并利用 $t\\ne0$，得 $\\frac{17}{12}t=\\frac{5}{12}t^{2}$，所以 $t=\\frac{17}{5}$. 于是</p>\n$$\nx_{A}x_{B}=\\frac{5}{12}\\left(\\frac{17}{5}\\right)^{2}=\\frac{289}{60}\n$$\n<p>因此</p>\n$$\n-\\frac{2a^{2}}{1-a^{2}}=\\frac{289}{60}\n$$\n<p>解得 $120a^{2}=289a^{2}-289$，即 $a^{2}=\\frac{289}{169}$. 由 $a>0$，得 $a=\\frac{17}{13}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将 $y=1-x$ 代入双曲线方程，得</p>\n$$\n\\frac{x^{2}}{a^{2}}-(1-x)^{2}=1\n$$\n<p>即</p>\n$$\n(1-a^{2})x^{2}+2a^{2}x-2a^{2}=0\n$$\n<p>当 $a=1$ 时，上式退化为 $2x-2=0$，只有一个交点；当 $a\\ne1$ 时，方程有两个不同实根的充要条件是</p>\n$$\n\\Delta=(2a^{2})^{2}-4(1-a^{2})(-2a^{2})=4a^{2}(2-a^{2})>0\n$$\n<p>结合 $a>0$，得到 $0<a<\\sqrt{2}$ 且 $a\\ne1$. 双曲线的离心率为</p>\n$$\ne=\\sqrt{1+\\frac{1}{a^{2}}}\n$$\n<p>当 $0<a<1$ 时，$e>\\sqrt{2}$；当 $1<a<\\sqrt{2}$ 时，$\\frac{\\sqrt{6}}{2}<e<\\sqrt{2}$. 因此</p>\n$$\ne\\in\\left(\\frac{\\sqrt{6}}{2},\\sqrt{2}\\right)\\cup\\left(\\sqrt{2},+\\infty\\right)\n$$\n</li><li><p>直线 $l$ 与 $y$ 轴交于 $P=(0,1)$. 直线上的点可表示为 $(x,1-x)=P+x(1,-1)$，所以由 $\\overrightarrow{PA}=\\frac{5}{12}\\overrightarrow{PB}$ 可设 $x_{A}=\\frac{5}{12}t$，$x_{B}=t$，其中 $t\\ne0$.</p><p>上面的二次方程的两根就是 $x_{A}$，$x_{B}$，故由韦达定理</p>\n$$\nx_{A}+x_{B}=x_{A}x_{B}=-\\frac{2a^{2}}{1-a^{2}}\n$$\n<p>代入 $x_{A}=\\frac{5}{12}t$，$x_{B}=t$，并利用 $t\\ne0$，得 $\\frac{17}{12}t=\\frac{5}{12}t^{2}$，所以 $t=\\frac{17}{5}$. 于是</p>\n$$\nx_{A}x_{B}=\\frac{5}{12}\\left(\\frac{17}{5}\\right)^{2}=\\frac{289}{60}\n$$\n<p>因此</p>\n$$\n-\\frac{2a^{2}}{1-a^{2}}=\\frac{289}{60}\n$$\n<p>解得 $120a^{2}=289a^{2}-289$，即 $a^{2}=\\frac{289}{169}$. 由 $a>0$，得 $a=\\frac{17}{13}$.</p></li></ol>"
         },
         {
           "num": 22,

@@ -53,7 +53,7 @@
             "$-\\frac{12}{13}$"
           ],
           "answer": "D",
-          "solution": "<p>三角形内角满足 $0&#x3C;A&#x3C;\\pi$，且 $\\cot A&#x3C;0$，所以 $A$ 为钝角，$\\cos A&#x3C;0$. 由 $1+\\cot^{2}A=\\csc^{2}A$ 或 $\\sin^{2}A+\\cos^{2}A=1$，得</p><p>$\\cos^{2}A=\\dfrac{\\cot^2A}{1+\\cot^2A}=\\dfrac{144}{169}$. 因此 $\\cos A=-\\dfrac{12}{13}$，选 D.</p>"
+          "solution": "<p>三角形内角满足 $0<A<\\pi$，且 $\\cot A<0$，所以 $A$ 为钝角，$\\cos A<0$. 由 $1+\\cot^{2}A=\\csc^{2}A$ 或 $\\sin^{2}A+\\cos^{2}A=1$，得</p><p>$\\cos^{2}A=\\dfrac{\\cot^2A}{1+\\cot^2A}=\\dfrac{144}{169}$. 因此 $\\cos A=-\\dfrac{12}{13}$，选 D.</p>"
         },
         {
           "num": 5,
@@ -89,7 +89,7 @@
             "$c > b > a$"
           ],
           "answer": "B",
-          "solution": "令 $t=\\lg\\mathrm{e}=\\dfrac1{\\ln10}$. 因为 $\\ln10>2$，所以 $0&#x3C;t&#x3C;\\dfrac{1}{2}$. 又 $b=t^{2}$，$c=\\lg\\sqrt{\\mathrm{e}}=\\dfrac{1}{2}\\lg\\mathrm{e}=\\dfrac{t}{2}$，故 $t>\\dfrac{t}{2}>t^{2}$，即 $a>c>b$，选 B."
+          "solution": "令 $t=\\lg\\mathrm{e}=\\dfrac1{\\ln10}$. 因为 $\\ln10>2$，所以 $0<t<\\dfrac{1}{2}$. 又 $b=t^{2}$，$c=\\lg\\sqrt{\\mathrm{e}}=\\dfrac{1}{2}\\lg\\mathrm{e}=\\dfrac{t}{2}$，故 $t>\\dfrac{t}{2}>t^{2}$，即 $a>c>b$，选 B."
         },
         {
           "num": 8,
@@ -222,7 +222,7 @@
           "body": "<p>设函数 $f(x) = \\frac{1}{3}x^{3} - (1 + a)x^{2} + 4ax + 24a$，其中常数 $a > 1$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>若当 $x \\ge 0$ 时，$f(x) > 0$ 恒成立，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>求导得</p>\n$$\nf'(x)=x^{2}-2(1+a)x+4a=(x-2)(x-2a)\n$$\n<p>由于 $a>1$，有 $2&#x3C;2a$，故</p><p>$f'(x)>0$ 在 $(-\\infty,2)$ 和 $(2a,+\\infty)$ 上成立，</p><p>$f'(x)&#x3C;0$ 在 $(2,2a)$ 上成立. 所以 $f(x)$ 在</p><p>$(-\\infty,2)$ 和 $(2a,+\\infty)$ 上单调递增，在</p><p>$(2,2a)$ 上单调递减.</p></li><li><p>当 $x\\geqslant0$ 时，$f$ 在 $[0,2]$ 上递增，在</p><p>$[2,2a]$ 上递减，在 $[2a,+\\infty)$ 上递增. 因此只需比较</p><p>$f(0)$ 与 $f(2a)$. 有</p>\n$$\nf(0)=24a>0\n$$\n<p>且</p>\n$$\nf(2a)=\\frac{4}{3}a(6-a)(a+3)\n$$\n<p>因为 $a>1$，所以 $a>0$ 且 $a+3>0$. 要使</p><p>$f(x)>0$ 对所有 $x\\geqslant0$ 成立，必须且只需</p><p>$f(2a)>0$，即 $a&#x3C;6$. 故 $a$ 的取值范围为</p><p>$1&#x3C;a&#x3C;6$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>求导得</p>\n$$\nf'(x)=x^{2}-2(1+a)x+4a=(x-2)(x-2a)\n$$\n<p>由于 $a>1$，有 $2<2a$，故</p><p>$f'(x)>0$ 在 $(-\\infty,2)$ 和 $(2a,+\\infty)$ 上成立，</p><p>$f'(x)<0$ 在 $(2,2a)$ 上成立. 所以 $f(x)$ 在</p><p>$(-\\infty,2)$ 和 $(2a,+\\infty)$ 上单调递增，在</p><p>$(2,2a)$ 上单调递减.</p></li><li><p>当 $x\\geqslant0$ 时，$f$ 在 $[0,2]$ 上递增，在</p><p>$[2,2a]$ 上递减，在 $[2a,+\\infty)$ 上递增. 因此只需比较</p><p>$f(0)$ 与 $f(2a)$. 有</p>\n$$\nf(0)=24a>0\n$$\n<p>且</p>\n$$\nf(2a)=\\frac{4}{3}a(6-a)(a+3)\n$$\n<p>因为 $a>1$，所以 $a>0$ 且 $a+3>0$. 要使</p><p>$f(x)>0$ 对所有 $x\\geqslant0$ 成立，必须且只需</p><p>$f(2a)>0$，即 $a<6$. 故 $a$ 的取值范围为</p><p>$1<a<6$.</p></li></ol>"
         },
         {
           "num": 22,

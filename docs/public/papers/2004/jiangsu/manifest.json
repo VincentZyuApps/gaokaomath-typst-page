@@ -141,7 +141,7 @@
         },
         {
           "num": 12,
-          "body": "设函数 $f(x) = -\\frac{x}{1 + |x|}$（$x \\in \\mathbb{R}$），区间 $M = [a, b]$（$a &#x3C; b$），集合 $N = \\{y \\mid y = f(x), x \\in M\\}$，则使 $M = N$ 成立的实数对 $(a, b)$ 有（$ $）",
+          "body": "设函数 $f(x) = -\\frac{x}{1 + |x|}$（$x \\in \\mathbb{R}$），区间 $M = [a, b]$（$a < b$），集合 $N = \\{y \\mid y = f(x), x \\in M\\}$，则使 $M = N$ 成立的实数对 $(a, b)$ 有（$ $）",
           "choices": [
             "$0$ 个",
             "$1$ 个",
@@ -149,7 +149,7 @@
             "无数多个"
           ],
           "answer": "A",
-          "solution": "<p>将函数写成分段形式：当 $x&#x3C;0$ 时，$f(x)=-\\dfrac{x}{1-x}$；当 $x\\geqslant0$ 时，$f(x)=-\\dfrac{x}{1+x}$. 两段在 $0$ 处都取值 $0$，且两段的导数分别为 $-\\dfrac{1}{(1-x)^2}&#x3C;0$ 和 $-\\dfrac{1}{(1+x)^2}&#x3C;0$，跨过 $0$ 时函数值也从正数变为非正数，所以 $f$ 在 $\\mathbb{R}$ 上连续且严格递减. 因此 $f([a,b])=[f(b),f(a)]$.</p><p>若 $M=N$，则两个闭区间端点分别相等，即 $a=f(b)$，$b=f(a)$. 由于 $a&#x3C;b$，且 $f$ 严格递减，必有 $a&#x3C;0&#x3C;b$：若 $a\\geqslant0$，则 $f(a)\\leqslant0&#x3C;b$，不可能有 $b=f(a)$；若 $b\\leqslant0$，则 $f(b)\\geqslant0>a$，不可能有 $a=f(b)$.</p><p>令 $u=-a>0$，$v=b>0$. 由 $a=f(b)=-\\dfrac{b}{1+b}$ 和 $b=f(a)=-\\dfrac{a}{1-a}$，分别得到</p><p>$u=\\frac{v}{1+v}$，$v=\\frac{u}{1+u}$</p><p>将第二式代入第一式，得 $u=\\dfrac{u}{1+2u}$，而 $u>0$ 时右式严格小于 $u$，矛盾. 因此不存在满足条件的实数对，共 $0$ 个，选 A.</p>"
+          "solution": "<p>将函数写成分段形式：当 $x<0$ 时，$f(x)=-\\dfrac{x}{1-x}$；当 $x\\geqslant0$ 时，$f(x)=-\\dfrac{x}{1+x}$. 两段在 $0$ 处都取值 $0$，且两段的导数分别为 $-\\dfrac{1}{(1-x)^2}<0$ 和 $-\\dfrac{1}{(1+x)^2}<0$，跨过 $0$ 时函数值也从正数变为非正数，所以 $f$ 在 $\\mathbb{R}$ 上连续且严格递减. 因此 $f([a,b])=[f(b),f(a)]$.</p><p>若 $M=N$，则两个闭区间端点分别相等，即 $a=f(b)$，$b=f(a)$. 由于 $a<b$，且 $f$ 严格递减，必有 $a<0<b$：若 $a\\geqslant0$，则 $f(a)\\leqslant0<b$，不可能有 $b=f(a)$；若 $b\\leqslant0$，则 $f(b)\\geqslant0>a$，不可能有 $a=f(b)$.</p><p>令 $u=-a>0$，$v=b>0$. 由 $a=f(b)=-\\dfrac{b}{1+b}$ 和 $b=f(a)=-\\dfrac{a}{1-a}$，分别得到</p><p>$u=\\frac{v}{1+v}$，$v=\\frac{u}{1+u}$</p><p>将第二式代入第一式，得 $u=\\dfrac{u}{1+2u}$，而 $u>0$ 时右式严格小于 $u$，矛盾. 因此不存在满足条件的实数对，共 $0$ 个，选 A.</p>"
         }
       ]
     },
@@ -160,8 +160,8 @@
           "num": 13,
           "body": "<p>二次函数 $y = ax^{2}+ bx + c$（$x \\in \\mathbb{R}$）的部分对应值如下表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$x$ </td><td style=\"text-align: center; border-right: 1px solid\"> $-3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $-2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $-1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $4$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$y$ </td><td style=\"text-align: center; border-right: 1px solid\"> $6$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0$ </td><td style=\"text-align: center; border-right: 1px solid\"> $-4$ </td><td style=\"text-align: center; border-right: 1px solid\"> $-6$ </td><td style=\"text-align: center; border-right: 1px solid\"> $-6$ </td><td style=\"text-align: center; border-right: 1px solid\"> $-4$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0$ </td><td style=\"text-align: center; border-right: 1px solid\"> $6$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>则不等式 $ax^{2} + bx + c > 0$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
           "choices": null,
-          "answer": "$\\left\\{x \\mid x &#x3C; -2 \\text{ 或 }x > 3\\right\\}$",
-          "solution": "由表中 $y(-2)=y(3)=0$，二次函数可写为 $y=a(x+2)(x-3)$. 又由 $y(0)=-6$ 得 $-6a=-6$，所以 $a=1$. 因此原不等式化为 $(x+2)(x-3)>0$. 两个因式同号时，或者 $x&#x3C;-2$，或者 $x>3$，故解集为 $\\left\\{x\\mid x&#x3C;-2\\text{ 或 }x>3\\right\\}$."
+          "answer": "$\\left\\{x \\mid x < -2 \\text{ 或 }x > 3\\right\\}$",
+          "solution": "由表中 $y(-2)=y(3)=0$，二次函数可写为 $y=a(x+2)(x-3)$. 又由 $y(0)=-6$ 得 $-6a=-6$，所以 $a=1$. 因此原不等式化为 $(x+2)(x-3)>0$. 两个因式同号时，或者 $x<-2$，或者 $x>3$，故解集为 $\\left\\{x\\mid x<-2\\text{ 或 }x>3\\right\\}$."
         },
         {
           "num": 14,
@@ -191,10 +191,10 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知 $0 &#x3C; \\alpha &#x3C; \\frac{\\pi}{2}$，$\\tan \\frac{\\alpha}{2}+ \\cot \\frac{\\alpha}{2}= \\frac{5}{2}$，求 $\\sin \\left( \\alpha - \\frac{\\pi}{3}\\right)$ 的值.",
+          "body": "已知 $0 < \\alpha < \\frac{\\pi}{2}$，$\\tan \\frac{\\alpha}{2}+ \\cot \\frac{\\alpha}{2}= \\frac{5}{2}$，求 $\\sin \\left( \\alpha - \\frac{\\pi}{3}\\right)$ 的值.",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $t=\\tan\\dfrac{\\alpha}{2}$. 因为 $0&#x3C;\\dfrac\\alpha2&#x3C;\\dfrac\\pi4$，所以 $0&#x3C;t&#x3C;1$，且题设给出</p><p>$t+\\frac{1}{t}=\\frac{5}{2}$，$2t^{2}-5t+2=0$，$(2t-1)(t-2)=0$，</p><p>结合 $0&#x3C;t&#x3C;1$，得 $t=\\dfrac{1}{2}$. 于是</p><p>$\\sin\\alpha=\\frac{2t}{1+t^{2}}=\\frac{4}{5}$，$\\cos\\alpha=\\frac{1-t^{2}}{1+t^{2}}=\\frac{3}{5}$，</p><p>所以</p>\n$$\n\\sin\\left(\\alpha-\\frac{\\pi}{3}\\right)=\\sin\\alpha\\cos\\frac{\\pi}{3}-\\cos\\alpha\\sin\\frac{\\pi}{3}=\\frac{2}{5}-\\frac{3\\sqrt{3}}{10}=\\frac{4-3\\sqrt{3}}{10}\n$$"
+          "solution": "<p>令 $t=\\tan\\dfrac{\\alpha}{2}$. 因为 $0<\\dfrac\\alpha2<\\dfrac\\pi4$，所以 $0<t<1$，且题设给出</p><p>$t+\\frac{1}{t}=\\frac{5}{2}$，$2t^{2}-5t+2=0$，$(2t-1)(t-2)=0$，</p><p>结合 $0<t<1$，得 $t=\\dfrac{1}{2}$. 于是</p><p>$\\sin\\alpha=\\frac{2t}{1+t^{2}}=\\frac{4}{5}$，$\\cos\\alpha=\\frac{1-t^{2}}{1+t^{2}}=\\frac{3}{5}$，</p><p>所以</p>\n$$\n\\sin\\left(\\alpha-\\frac{\\pi}{3}\\right)=\\sin\\alpha\\cos\\frac{\\pi}{3}-\\cos\\alpha\\sin\\frac{\\pi}{3}=\\frac{2}{5}-\\frac{3\\sqrt{3}}{10}=\\frac{4-3\\sqrt{3}}{10}\n$$"
         },
         {
           "num": 18,

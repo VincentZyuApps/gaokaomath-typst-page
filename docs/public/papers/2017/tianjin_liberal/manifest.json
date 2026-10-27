@@ -71,17 +71,17 @@
           "num": 6,
           "body": "已知奇函数 $f(x)$ 在 $\\mathbb{R}$ 上是增函数. 若 $a=-f\\!\\left(\\log_{2}\\dfrac{1}{5}\\right)$，$b=f(\\log_{2} 4.1)$，$c=f(2^{0.8})$，则 $a$，$b$，$c$ 的大小关系为（ ）",
           "choices": [
-            "$a&#x3C;b&#x3C;c$",
-            "$b&#x3C;a&#x3C;c$",
-            "$c&#x3C;b&#x3C;a$",
-            "$c&#x3C;a&#x3C;b$"
+            "$a<b<c$",
+            "$b<a<c$",
+            "$c<b<a$",
+            "$c<a<b$"
           ],
           "answer": "C",
-          "solution": "<p>由 $f$ 为奇函数，$\\log_{2}\\dfrac{1}{5}=-\\log_{2} 5$，所以</p><p>$a=-f(-\\log_{2} 5)=f(\\log_{2} 5)$.又因为 $4&#x3C;4.1&#x3C;5$，故 $\\log_{2} 4.1&#x3C;\\log_{2} 5$，从而 $b&#x3C;a$.</p><p>因为 $0.8&#x3C;1$，所以 $2^{0.8}&#x3C;2$；又因为 $4.1>4=2^{2}$，所以 $\\log_{2} 4.1>2>2^{0.8}$.由 $f$ 在 $\\mathbb{R}$ 上递增，得 $c&#x3C;b$.因此 $c&#x3C;b&#x3C;a$，选 C.</p>"
+          "solution": "<p>由 $f$ 为奇函数，$\\log_{2}\\dfrac{1}{5}=-\\log_{2} 5$，所以</p><p>$a=-f(-\\log_{2} 5)=f(\\log_{2} 5)$.又因为 $4<4.1<5$，故 $\\log_{2} 4.1<\\log_{2} 5$，从而 $b<a$.</p><p>因为 $0.8<1$，所以 $2^{0.8}<2$；又因为 $4.1>4=2^{2}$，所以 $\\log_{2} 4.1>2>2^{0.8}$.由 $f$ 在 $\\mathbb{R}$ 上递增，得 $c<b$.因此 $c<b<a$，选 C.</p>"
         },
         {
           "num": 7,
-          "body": "设函数 $f(x)=2\\sin(\\omega x+\\varphi)$，$x\\in\\mathbb{R}$，其中 $\\omega>0$，$|\\varphi|&#x3C;\\pi$. 若 $f\\!\\left(\\dfrac{5\\pi}{8}\\right)=2$，$f\\!\\left(\\dfrac{11\\pi}{8}\\right)=0$，且 $f(x)$ 的最小正周期大于 $2\\pi$，则（ ）",
+          "body": "设函数 $f(x)=2\\sin(\\omega x+\\varphi)$，$x\\in\\mathbb{R}$，其中 $\\omega>0$，$|\\varphi|<\\pi$. 若 $f\\!\\left(\\dfrac{5\\pi}{8}\\right)=2$，$f\\!\\left(\\dfrac{11\\pi}{8}\\right)=0$，且 $f(x)$ 的最小正周期大于 $2\\pi$，则（ ）",
           "choices": [
             "$\\omega=\\dfrac{2}{3}$，$\\varphi=\\dfrac\\pi{12}$",
             "$\\omega=\\dfrac{2}{3}$，$\\varphi=-\\dfrac{11\\pi}{12}$",
@@ -89,11 +89,11 @@
             "$\\omega=\\dfrac{1}{3}$，$\\varphi=\\dfrac{7\\pi}{24}$"
           ],
           "answer": "A",
-          "solution": "<p>由最小正周期 $\\dfrac{2\\pi}{\\omega}>2\\pi$，得 $0&#x3C;\\omega&#x3C;1$.设整数 $k$，$m$，则</p><p>$\\dfrac{5\\pi}{8}\\omega+\\varphi=\\dfrac\\pi2+2k\\pi$，$\\dfrac{11\\pi}{8}\\omega+\\varphi=m\\pi$.两式相减得</p><p>$\\dfrac{3\\pi}{4}\\omega=\\left(m-2k-\\dfrac{1}{2}\\right)\\pi$.由于 $0&#x3C;\\omega&#x3C;1$，只能取 $m-2k=1$，从而 $\\omega=\\dfrac{2}{3}$.代回第一式，得 $\\varphi=\\dfrac\\pi{12}+2k\\pi$.结合 $|\\varphi|&#x3C;\\pi$，得 $\\varphi=\\dfrac\\pi{12}$.故选 A.</p>"
+          "solution": "<p>由最小正周期 $\\dfrac{2\\pi}{\\omega}>2\\pi$，得 $0<\\omega<1$.设整数 $k$，$m$，则</p><p>$\\dfrac{5\\pi}{8}\\omega+\\varphi=\\dfrac\\pi2+2k\\pi$，$\\dfrac{11\\pi}{8}\\omega+\\varphi=m\\pi$.两式相减得</p><p>$\\dfrac{3\\pi}{4}\\omega=\\left(m-2k-\\dfrac{1}{2}\\right)\\pi$.由于 $0<\\omega<1$，只能取 $m-2k=1$，从而 $\\omega=\\dfrac{2}{3}$.代回第一式，得 $\\varphi=\\dfrac\\pi{12}+2k\\pi$.结合 $|\\varphi|<\\pi$，得 $\\varphi=\\dfrac\\pi{12}$.故选 A.</p>"
         },
         {
           "num": 8,
-          "body": "已知函数 $f(x)$ 满足：当 $x&#x3C;1$ 时，$f(x)=|x|+2$；当 $x\\ge 1$ 时，$f(x)=x+\\dfrac{2}{x}$. 设 $a\\in\\mathbb{R}$，若关于 $x$ 的不等式 $f(x)\\ge \\left|\\dfrac{x}{2}+a\\right|$ 在 $\\mathbb{R}$ 上恒成立，则 $a$ 的取值范围是（ ）",
+          "body": "已知函数 $f(x)$ 满足：当 $x<1$ 时，$f(x)=|x|+2$；当 $x\\ge 1$ 时，$f(x)=x+\\dfrac{2}{x}$. 设 $a\\in\\mathbb{R}$，若关于 $x$ 的不等式 $f(x)\\ge \\left|\\dfrac{x}{2}+a\\right|$ 在 $\\mathbb{R}$ 上恒成立，则 $a$ 的取值范围是（ ）",
           "choices": [
             "$[-2,2]$",
             "$[-2\\sqrt{3},2]$",
@@ -101,7 +101,7 @@
             "$[-2\\sqrt{3},2\\sqrt{3}]$"
           ],
           "answer": "A",
-          "solution": "<p>当 $x&#x3C;0$ 时，$f(x)=2-x>0$，故不等式等价于</p><p>$-2+x\\le\\dfrac{x}{2}+a\\le2-x$.于是对所有 $x&#x3C;0$，有 $a\\ge\\dfrac{x}{2}-2$ 且 $a\\le2-\\dfrac{3x}{2}$.令 $x$ 从左侧趋近于 $0$，得到必要条件 $a\\ge-2$ 且 $a\\le2$.</p><p>当 $0\\le x&#x3C;1$ 时，$f(x)=x+2$，不等式等价于 $-x-2\\le\\dfrac{x}{2}+a\\le x+2$，因而 $a\\ge-2-\\dfrac{3x}{2}$ 且 $a\\le2+\\dfrac{x}{2}$，对 $0\\le x&#x3C;1$ 仍只给出 $-2\\le a\\le2$.</p><p>当 $x\\ge1$ 时，$f(x)=x+\\dfrac{2}{x}>0$，不等式等价于</p><p>$-x-\\dfrac{2}{x}\\le\\dfrac{x}{2}+a\\le x+\\dfrac{2}{x}$.因此</p><p>$a\\ge-\\dfrac{3x}{2}-\\dfrac{2}{x}$ 且 $a\\le\\dfrac{x}{2}+\\dfrac{2}{x}$.其中 $-\\dfrac{3x}{2}-\\dfrac{2}{x}\\le-2\\sqrt{3}&#x3C;-2$，而由基本不等式 $\\dfrac{x}{2}+\\dfrac{2}{x}\\ge2$，故这部分不会比 $-2\\le a\\le2$ 产生更强的限制.</p><p>所以当且仅当 $a\\in[-2,2]$ 时原不等式对所有实数 $x$ 恒成立，选 A.</p>"
+          "solution": "<p>当 $x<0$ 时，$f(x)=2-x>0$，故不等式等价于</p><p>$-2+x\\le\\dfrac{x}{2}+a\\le2-x$.于是对所有 $x<0$，有 $a\\ge\\dfrac{x}{2}-2$ 且 $a\\le2-\\dfrac{3x}{2}$.令 $x$ 从左侧趋近于 $0$，得到必要条件 $a\\ge-2$ 且 $a\\le2$.</p><p>当 $0\\le x<1$ 时，$f(x)=x+2$，不等式等价于 $-x-2\\le\\dfrac{x}{2}+a\\le x+2$，因而 $a\\ge-2-\\dfrac{3x}{2}$ 且 $a\\le2+\\dfrac{x}{2}$，对 $0\\le x<1$ 仍只给出 $-2\\le a\\le2$.</p><p>当 $x\\ge1$ 时，$f(x)=x+\\dfrac{2}{x}>0$，不等式等价于</p><p>$-x-\\dfrac{2}{x}\\le\\dfrac{x}{2}+a\\le x+\\dfrac{2}{x}$.因此</p><p>$a\\ge-\\dfrac{3x}{2}-\\dfrac{2}{x}$ 且 $a\\le\\dfrac{x}{2}+\\dfrac{2}{x}$.其中 $-\\dfrac{3x}{2}-\\dfrac{2}{x}\\le-2\\sqrt{3}<-2$，而由基本不等式 $\\dfrac{x}{2}+\\dfrac{2}{x}\\ge2$，故这部分不会比 $-2\\le a\\le2$ 产生更强的限制.</p><p>所以当且仅当 $a\\in[-2,2]$ 时原不等式对所有实数 $x$ 恒成立，选 A.</p>"
         }
       ]
     },
@@ -188,7 +188,7 @@
           "body": "<p>设 $a$，$b\\in\\mathbb{R}$，$|a|\\le 1$. 已知函数 $f(x)=x^{3}-6x^{2}-3a(a-4)x+b$，$g(x)=\\mathrm{e}^{x} f(x)$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>已知函数 $y=g(x)$ 和 $y=\\mathrm{e}^{x}$ 的图象在公共点 $(x_{0},y_{0})$ 处有相同的切线.</p><p></p><ol class=\"enumerate\"><li><p>求证：$f(x)$ 在 $x=x_{0}$ 处的导数等于 $0$；</p></li><li><p>若关于 $x$ 的不等式 $g(x)\\le \\mathrm{e}^{x}$ 在区间 $[x_{0}-1,x_{0}+1]$ 上恒成立，求 $b$ 的取值范围.</p></li></ol><p></p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-12x-3a(a-4)=3(x-a)(x-4+a)$.由 $|a|\\le1$ 得 $a&#x3C;4-a$.因此当 $x&#x3C;a$ 或 $x>4-a$ 时 $f'(x)>0$，当 $a&#x3C;x&#x3C;4-a$ 时 $f'(x)&#x3C;0$.所以 $f(x)$ 的单调递增区间为 $(-\\infty,a)$、$(4-a,+\\infty)$，单调递减区间为 $(a,4-a)$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>公共点条件给出 $g(x_{0})=\\mathrm{e}^{x_0}$，即 $\\mathrm{e}^{x_0}f(x_{0})=\\mathrm{e}^{x_0}$，所以 $f(x_{0})=1$.又 $g'(x)=\\mathrm{e}^{x}(f(x)+f'(x))$，而两图象在该点的切线相同，故 $g'(x_{0})=\\mathrm{e}^{x_0}$，从而 $f(x_{0})+f'(x_{0})=1$.结合 $f(x_{0})=1$，得到 $f'(x_{0})=0$.</p></li><li><p>因为 $\\mathrm{e}^{x}>0$，不等式 $g(x)\\le\\mathrm{e}^{x}$ 等价于 $f(x)\\le1$.由上问，$f(x_{0})=1$，$f'(x_{0})=0$，所以 $x_{0}=a$ 或 $x_{0}=4-a$.若 $x_{0}=4-a$，则在其右侧足够小的邻域内 $f$ 递增，因而有 $f(x)>f(x_{0})=1$，与区间上的恒成立条件矛盾，故 $x_{0}=a$.</p><p>由于 $|a|\\le1$，有 $a+1&#x3C;4-a$.由第一问，$f$ 在 $[a-1,a]$ 上递增，在 $[a,a+1]$ 上递减，所以 $f(x)\\le f(a)=1$ 对 $x\\in[a-1,a+1]$ 恒成立.于是条件等价于 $f(a)=1$.</p><p>计算得 $f(a)=a^{3}-6a^{2}-3a^{2}(a-4)+b=-2a^{3}+6a^{2}+b$，所以 $b=1+2a^{3}-6a^{2}$，其中 $-1\\le a\\le1$.令 $t(a)=1+2a^{3}-6a^{2}$，则 $t'(a)=6a(a-2)$.在 $[-1,0]$ 上 $t'(a)>0$，在 $[0,1]$ 上 $t'(a)&#x3C;0$，所以最大值为 $t(0)=1$，最小值为 $t(-1)=-7$（另有 $t(1)=-3$）.因此 $b\\in[-7,1]$.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-12x-3a(a-4)=3(x-a)(x-4+a)$.由 $|a|\\le1$ 得 $a<4-a$.因此当 $x<a$ 或 $x>4-a$ 时 $f'(x)>0$，当 $a<x<4-a$ 时 $f'(x)<0$.所以 $f(x)$ 的单调递增区间为 $(-\\infty,a)$、$(4-a,+\\infty)$，单调递减区间为 $(a,4-a)$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>公共点条件给出 $g(x_{0})=\\mathrm{e}^{x_0}$，即 $\\mathrm{e}^{x_0}f(x_{0})=\\mathrm{e}^{x_0}$，所以 $f(x_{0})=1$.又 $g'(x)=\\mathrm{e}^{x}(f(x)+f'(x))$，而两图象在该点的切线相同，故 $g'(x_{0})=\\mathrm{e}^{x_0}$，从而 $f(x_{0})+f'(x_{0})=1$.结合 $f(x_{0})=1$，得到 $f'(x_{0})=0$.</p></li><li><p>因为 $\\mathrm{e}^{x}>0$，不等式 $g(x)\\le\\mathrm{e}^{x}$ 等价于 $f(x)\\le1$.由上问，$f(x_{0})=1$，$f'(x_{0})=0$，所以 $x_{0}=a$ 或 $x_{0}=4-a$.若 $x_{0}=4-a$，则在其右侧足够小的邻域内 $f$ 递增，因而有 $f(x)>f(x_{0})=1$，与区间上的恒成立条件矛盾，故 $x_{0}=a$.</p><p>由于 $|a|\\le1$，有 $a+1<4-a$.由第一问，$f$ 在 $[a-1,a]$ 上递增，在 $[a,a+1]$ 上递减，所以 $f(x)\\le f(a)=1$ 对 $x\\in[a-1,a+1]$ 恒成立.于是条件等价于 $f(a)=1$.</p><p>计算得 $f(a)=a^{3}-6a^{2}-3a^{2}(a-4)+b=-2a^{3}+6a^{2}+b$，所以 $b=1+2a^{3}-6a^{2}$，其中 $-1\\le a\\le1$.令 $t(a)=1+2a^{3}-6a^{2}$，则 $t'(a)=6a(a-2)$.在 $[-1,0]$ 上 $t'(a)>0$，在 $[0,1]$ 上 $t'(a)<0$，所以最大值为 $t(0)=1$，最小值为 $t(-1)=-7$（另有 $t(1)=-3$）.因此 $b\\in[-7,1]$.</p></li></ol><p></p></li></ol>"
         },
         {
           "num": 20,

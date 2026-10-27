@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "若集合 $A = \\{x \\mid (2x + 1)(x - 3) &#x3C; 0\\}$，$B = \\{x \\in \\N_{+} \\mid x \\le 5\\}$，则 $A \\cap B$ 是（ ）",
+          "body": "若集合 $A = \\{x \\mid (2x + 1)(x - 3) < 0\\}$，$B = \\{x \\in \\N_{+} \\mid x \\le 5\\}$，则 $A \\cap B$ 是（ ）",
           "choices": [
             "$\\{1, 2, 3\\}$",
             "$\\{1, 2\\}$",
@@ -29,7 +29,7 @@
             "$\\{1, 2, 3, 4, 5\\}$"
           ],
           "answer": "B",
-          "solution": "<p>由 $(2x+1)(x-3)&#x3C;0$ 的两个根为 $-\\frac{1}{2}$ 和 $3$，且二次项系数为正，得</p>\n$$\n-\\frac{1}{2}&#x3C;x&#x3C;3\n$$\n<p>所以 $A=\\left(-\\frac{1}{2},3\\right)$. 由 $x\\in\\N_{+}$ 且 $x\\leqslant5$，得 $B=\\{1,2,3,4,5\\}$. 因此 $A\\cap B=\\{1,2\\}$，故选 B.</p>"
+          "solution": "<p>由 $(2x+1)(x-3)<0$ 的两个根为 $-\\frac{1}{2}$ 和 $3$，且二次项系数为正，得</p>\n$$\n-\\frac{1}{2}<x<3\n$$\n<p>所以 $A=\\left(-\\frac{1}{2},3\\right)$. 由 $x\\in\\N_{+}$ 且 $x\\leqslant5$，得 $B=\\{1,2,3,4,5\\}$. 因此 $A\\cap B=\\{1,2\\}$，故选 B.</p>"
         },
         {
           "num": 3,
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "设 $a &#x3C; b$，函数 $y = (x - a)^{2} (x - b)$ 的图象可能是（ ）",
+          "body": "设 $a < b$，函数 $y = (x - a)^{2} (x - b)$ 的图象可能是（ ）",
           "choices": [
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/anhui_liberal/q8_choiceA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/anhui_liberal/q8_choiceB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
@@ -177,7 +177,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，$C - A = \\frac{\\pi}{2}$，$\\sin B = \\frac{1}{3}$.</p><ol class=\"enumerate\"><li><p>求 $\\sin A$ 的值；</p></li><li><p>设 $AC = \\sqrt{6}$，求 $\\triangle ABC$ 的面积.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由三角形内角和以及 $C-A=\\frac{\\pi}{2}$，得</p>\n$$\nB=\\pi-A-C=\\frac{\\pi}{2}-2A\n$$\n<p>因为 $A>0$，$B>0$，所以 $0&#x3C;A&#x3C;\\frac{\\pi}{4}$. 于是</p>\n$$\n\\sin B=\\sin\\left(\\frac{\\pi}{2}-2A\\right)=\\cos 2A  =1-2\\sin^{2} A=\\frac{1}{3}\n$$\n<p>故 $\\sin^{2} A=\\frac{1}{3}$. 又 $A$ 为三角形内角，$\\sin A>0$，所以</p>\n$$\n\\sin A=\\frac{\\sqrt{3}}{3}\n$$\n</li><li><p>设 $a=BC$，$b=CA=\\sqrt{6}$，$c=AB$. 由正弦定理，</p>\n$$\n\\frac{b}{\\sin B}=\\frac{\\sqrt{6}}{\\frac{1}{3}}=3\\sqrt{6}\n$$\n<p>又</p>\n$$\n\\sin C=\\sin\\left(A+\\frac{\\pi}{2}\\right)=\\cos A  =\\sqrt{1-\\sin^{2} A}=\\frac{\\sqrt{6}}{3}\n$$\n<p>所以 $c=3\\sqrt{6}\\cdot\\frac{\\sqrt{6}}{3}=6$. 因此</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}\\,AC\\cdot AB\\cdot\\sin A  =\\frac{1}{2}\\cdot\\sqrt{6}\\cdot6\\cdot\\frac{\\sqrt{3}}{3}=3\\sqrt{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由三角形内角和以及 $C-A=\\frac{\\pi}{2}$，得</p>\n$$\nB=\\pi-A-C=\\frac{\\pi}{2}-2A\n$$\n<p>因为 $A>0$，$B>0$，所以 $0<A<\\frac{\\pi}{4}$. 于是</p>\n$$\n\\sin B=\\sin\\left(\\frac{\\pi}{2}-2A\\right)=\\cos 2A  =1-2\\sin^{2} A=\\frac{1}{3}\n$$\n<p>故 $\\sin^{2} A=\\frac{1}{3}$. 又 $A$ 为三角形内角，$\\sin A>0$，所以</p>\n$$\n\\sin A=\\frac{\\sqrt{3}}{3}\n$$\n</li><li><p>设 $a=BC$，$b=CA=\\sqrt{6}$，$c=AB$. 由正弦定理，</p>\n$$\n\\frac{b}{\\sin B}=\\frac{\\sqrt{6}}{\\frac{1}{3}}=3\\sqrt{6}\n$$\n<p>又</p>\n$$\n\\sin C=\\sin\\left(A+\\frac{\\pi}{2}\\right)=\\cos A  =\\sqrt{1-\\sin^{2} A}=\\frac{\\sqrt{6}}{3}\n$$\n<p>所以 $c=3\\sqrt{6}\\cdot\\frac{\\sqrt{6}}{3}=6$. 因此</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}\\,AC\\cdot AB\\cdot\\sin A  =\\frac{1}{2}\\cdot\\sqrt{6}\\cdot6\\cdot\\frac{\\sqrt{3}}{3}=3\\sqrt{2}\n$$\n</li></ol>"
         },
         {
           "num": 17,
@@ -195,10 +195,10 @@
         },
         {
           "num": 19,
-          "body": "<p>已知数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}= 2n^{2}+ 2n$，数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}= 2 - b_{n}$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 与 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>设 $c_{n}= a_{n}^{2}\\cdot b_{n}$，证明：当且仅当 $n \\ge 3$ 时，$c_{n+1}&#x3C; c_{n}$.</p></li></ol>",
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}= 2n^{2}+ 2n$，数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}= 2 - b_{n}$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 与 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>设 $c_{n}= a_{n}^{2}\\cdot b_{n}$，证明：当且仅当 $n \\ge 3$ 时，$c_{n+1}< c_{n}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $n=1$ 时，$a_{1}=S_{1}=2+2=4$. 当 $n\\geqslant2$ 时，</p>\n$$\na_{n}=S_{n}-S_{n-1}=\\left(2n^{2}+2n\\right)-\\left(2(n-1)^{2}+2(n-1)\\right)  =4n\n$$\n<p>所以对一切 $n\\in\\N_{+}$，都有 $a_{n}=4n$.</p><p>由 $T_{1}=b_{1}=2-b_{1}$，得 $b_{1}=1$. 当 $n\\geqslant2$ 时，</p>\n$$\nb_{n}=T_{n}-T_{n-1}=\\left(2-b_{n}\\right)-\\left(2-b_{n-1}\\right)  =b_{n-1}-b_{n}\n$$\n<p>所以 $2b_{n}=b_{n-1}$，即 $b_{n}=\\frac{1}{2}b_{n-1}$. 递推可得</p>\n$$\nb_{n}=\\frac{1}{2^{n-1}}=2^{1-n}\n$$\n<p>因此</p><p>$a_{n}=4n$，$b_{n}=2^{1-n}$.</p></li><li><p>由上问，</p>\n$$\nc_{n}=a_{n}^{2}b_{n}=(4n)^{2}\\cdot2^{1-n}\n$$\n<p>因为 $c_{n}>0$，所以</p>\n$$\n\\frac{c_{n+1}}{c_{n}}=\\frac{16(n+1)^{2}\\cdot2^{-n}}{16n^{2}\\cdot2^{1-n}}=\\frac{(n+1)^{2}}{2n^{2}}\n$$\n<p>于是</p>\n$$\nc_{n+1}&#x3C;c_{n}  \\Longleftrightarrow  \\frac{(n+1)^{2}}{2n^{2}}&#x3C;1  \\Longleftrightarrow  (n+1)^{2}&#x3C;2n^{2}  \\Longleftrightarrow  n^{2}-2n-1>0\n$$\n<p>由于 $n\\in\\N_{+}$，上式等价于 $n>1+\\sqrt{2}$，也等价于 $n\\geqslant3$. 当 $n=1$，$2$ 时不等式不成立，故当且仅当 $n\\geqslant3$ 时，$c_{n+1}&#x3C;c_{n}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $n=1$ 时，$a_{1}=S_{1}=2+2=4$. 当 $n\\geqslant2$ 时，</p>\n$$\na_{n}=S_{n}-S_{n-1}=\\left(2n^{2}+2n\\right)-\\left(2(n-1)^{2}+2(n-1)\\right)  =4n\n$$\n<p>所以对一切 $n\\in\\N_{+}$，都有 $a_{n}=4n$.</p><p>由 $T_{1}=b_{1}=2-b_{1}$，得 $b_{1}=1$. 当 $n\\geqslant2$ 时，</p>\n$$\nb_{n}=T_{n}-T_{n-1}=\\left(2-b_{n}\\right)-\\left(2-b_{n-1}\\right)  =b_{n-1}-b_{n}\n$$\n<p>所以 $2b_{n}=b_{n-1}$，即 $b_{n}=\\frac{1}{2}b_{n-1}$. 递推可得</p>\n$$\nb_{n}=\\frac{1}{2^{n-1}}=2^{1-n}\n$$\n<p>因此</p><p>$a_{n}=4n$，$b_{n}=2^{1-n}$.</p></li><li><p>由上问，</p>\n$$\nc_{n}=a_{n}^{2}b_{n}=(4n)^{2}\\cdot2^{1-n}\n$$\n<p>因为 $c_{n}>0$，所以</p>\n$$\n\\frac{c_{n+1}}{c_{n}}=\\frac{16(n+1)^{2}\\cdot2^{-n}}{16n^{2}\\cdot2^{1-n}}=\\frac{(n+1)^{2}}{2n^{2}}\n$$\n<p>于是</p>\n$$\nc_{n+1}<c_{n}  \\Longleftrightarrow  \\frac{(n+1)^{2}}{2n^{2}}<1  \\Longleftrightarrow  (n+1)^{2}<2n^{2}  \\Longleftrightarrow  n^{2}-2n-1>0\n$$\n<p>由于 $n\\in\\N_{+}$，上式等价于 $n>1+\\sqrt{2}$，也等价于 $n\\geqslant3$. 当 $n=1$，$2$ 时不等式不成立，故当且仅当 $n\\geqslant3$ 时，$c_{n+1}<c_{n}$.</p></li></ol>"
         },
         {
           "num": 20,
@@ -212,7 +212,7 @@
           "body": "<p>已知函数 $f(x) = x - \\frac{2}{x}+ 1 - a \\ln x$，$a > 0$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>设 $a = 3$，求 $f(x)$ 在区间 $[1, \\mathrm{e}^{2}]$ 上值域，其中 $\\mathrm{e}= 0.71828 \\cdots$ 是自然对数的底数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>题干原 PDF 将自然对数的底数的近似值印作 $0.71828\\cdots$，这与自然对数底数的定义矛盾；若照此数值，则 $\\mathrm{e}^{2}&#x3C;1$，题中的 $[1,\\mathrm{e}^{2}]$ 不能作为通常意义下的非空区间. 以下按数学定义 $\\mathrm{e}=2.71828\\cdots$ 计算，并保留这一题面冲突. 函数的定义域为 $x>0$，且</p>\n$$\nf'(x)=1+\\frac{2}{x^{2}}-\\frac{a}{x}=\\frac{x^{2}-ax+2}{x^{2}}\n$$\n<p>因为 $x^{2}>0$，所以 $f'(x)$ 的符号由 $g(x)=x^{2}-ax+2$ 决定.</p><p>当 $0&#x3C;a&#x3C;2\\sqrt{2}$ 时，$g(x)$ 的判别式 $a^{2}-8&#x3C;0$，且二次项系数为正，所以 $g(x)>0$. 因此 $f(x)$ 在 $(0,+\\infty)$ 上单调递增.</p><p>当 $a=2\\sqrt{2}$ 时，$g(x)=(x-\\sqrt{2})^{2}\\geqslant0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调递增.</p><p>当 $a>2\\sqrt{2}$ 时，令</p><p>$x_{1}=\\frac{a-\\sqrt{a^{2}-8}}{2}$，$x_{2}=\\frac{a+\\sqrt{a^{2}-8}}{2}$，</p><p>则 $0&#x3C;x_{1}&#x3C;x_{2}$，并且</p>\n$$\ng(x)=(x-x_{1})(x-x_{2})\n$$\n<p>所以 $f(x)$ 在 $(0,x_{1})$ 和 $(x_{2},+\\infty)$ 上单调递增，在 $(x_{1},x_{2})$ 上单调递减.</p></li><li><p>当 $a=3$ 时，</p>\n$$\nf'(x)=\\frac{x^{2}-3x+2}{x^{2}}=\\frac{(x-1)(x-2)}{x^{2}}\n$$\n<p>因此 $f(x)$ 在 $[1,2]$ 上单调递减，在 $[2,+\\infty)$ 上单调递增. 考察区间 $[1,\\mathrm{e}^{2}]$ 上的端点和极值点：</p><p>$f(1)=0$，$f(2)=2-3\\ln2$，$f(\\mathrm{e}^{2})=\\mathrm{e}^{2}-\\frac{2}{\\mathrm{e}^{2}}-5$.</p><p>由于 $\\ln2>\\frac{1}{2}$，有 $f(2)=2-3\\ln2&#x3C;0=f(1)$. 令 $h(t)=t-\\frac{2}{t}-5$，则 $h'(t)=1+\\frac{2}{t^{2}}>0$. 又 $\\mathrm{e}>2.7$，故 $\\mathrm{e}^{2}>7.29$，从而</p>\n$$\nh(\\mathrm{e}^{2})=f(\\mathrm{e}^{2})>h\\left(\\frac{729}{100}\\right)=\\frac{729}{100}-\\frac{200}{729}-5>0=f(1)\n$$\n<p>结合单调性，最小值为 $2-3\\ln2$，最大值为 $\\mathrm{e}^{2}-\\frac{2}{\\mathrm{e}^{2}}-5$. 所以值域为</p>\n$$\n\\left[2-3\\ln2,\\mathrm{e}^{2}-\\frac{2}{\\mathrm{e}^{2}}-5\\right]\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>题干原 PDF 将自然对数的底数的近似值印作 $0.71828\\cdots$，这与自然对数底数的定义矛盾；若照此数值，则 $\\mathrm{e}^{2}<1$，题中的 $[1,\\mathrm{e}^{2}]$ 不能作为通常意义下的非空区间. 以下按数学定义 $\\mathrm{e}=2.71828\\cdots$ 计算，并保留这一题面冲突. 函数的定义域为 $x>0$，且</p>\n$$\nf'(x)=1+\\frac{2}{x^{2}}-\\frac{a}{x}=\\frac{x^{2}-ax+2}{x^{2}}\n$$\n<p>因为 $x^{2}>0$，所以 $f'(x)$ 的符号由 $g(x)=x^{2}-ax+2$ 决定.</p><p>当 $0<a<2\\sqrt{2}$ 时，$g(x)$ 的判别式 $a^{2}-8<0$，且二次项系数为正，所以 $g(x)>0$. 因此 $f(x)$ 在 $(0,+\\infty)$ 上单调递增.</p><p>当 $a=2\\sqrt{2}$ 时，$g(x)=(x-\\sqrt{2})^{2}\\geqslant0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调递增.</p><p>当 $a>2\\sqrt{2}$ 时，令</p><p>$x_{1}=\\frac{a-\\sqrt{a^{2}-8}}{2}$，$x_{2}=\\frac{a+\\sqrt{a^{2}-8}}{2}$，</p><p>则 $0<x_{1}<x_{2}$，并且</p>\n$$\ng(x)=(x-x_{1})(x-x_{2})\n$$\n<p>所以 $f(x)$ 在 $(0,x_{1})$ 和 $(x_{2},+\\infty)$ 上单调递增，在 $(x_{1},x_{2})$ 上单调递减.</p></li><li><p>当 $a=3$ 时，</p>\n$$\nf'(x)=\\frac{x^{2}-3x+2}{x^{2}}=\\frac{(x-1)(x-2)}{x^{2}}\n$$\n<p>因此 $f(x)$ 在 $[1,2]$ 上单调递减，在 $[2,+\\infty)$ 上单调递增. 考察区间 $[1,\\mathrm{e}^{2}]$ 上的端点和极值点：</p><p>$f(1)=0$，$f(2)=2-3\\ln2$，$f(\\mathrm{e}^{2})=\\mathrm{e}^{2}-\\frac{2}{\\mathrm{e}^{2}}-5$.</p><p>由于 $\\ln2>\\frac{1}{2}$，有 $f(2)=2-3\\ln2<0=f(1)$. 令 $h(t)=t-\\frac{2}{t}-5$，则 $h'(t)=1+\\frac{2}{t^{2}}>0$. 又 $\\mathrm{e}>2.7$，故 $\\mathrm{e}^{2}>7.29$，从而</p>\n$$\nh(\\mathrm{e}^{2})=f(\\mathrm{e}^{2})>h\\left(\\frac{729}{100}\\right)=\\frac{729}{100}-\\frac{200}{729}-5>0=f(1)\n$$\n<p>结合单调性，最小值为 $2-3\\ln2$，最大值为 $\\mathrm{e}^{2}-\\frac{2}{\\mathrm{e}^{2}}-5$. 所以值域为</p>\n$$\n\\left[2-3\\ln2,\\mathrm{e}^{2}-\\frac{2}{\\mathrm{e}^{2}}-5\\right]\n$$\n</li></ol>"
         }
       ]
     }

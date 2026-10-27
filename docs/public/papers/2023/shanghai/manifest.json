@@ -9,10 +9,10 @@
       "problems": [
         {
           "num": 1,
-          "body": "设 $x\\in\\mathbb{R}$，不等式 $\\left|x-2\\right|&#x3C;1$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "设 $x\\in\\mathbb{R}$，不等式 $\\left|x-2\\right|<1$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(1,3\\right)$",
-          "solution": "由 $\\left|x-2\\right|&#x3C;1$ 得 $-1&#x3C;x-2&#x3C;1$，所以 $1&#x3C;x&#x3C;3$，故解集为 $\\left(1,3\\right)$."
+          "solution": "由 $\\left|x-2\\right|<1$ 得 $-1<x-2<1$，所以 $1<x<3$，故解集为 $\\left(1,3\\right)$."
         },
         {
           "num": 2,
@@ -37,7 +37,7 @@
         },
         {
           "num": 5,
-          "body": "函数 $y=\\begin{cases}2^{x},&#x26;x>0,\\\\  1,&#x26;x\\le 0,\\end{cases}$ 的值域为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "函数 $y=\\begin{cases}2^{x},&x>0,\\\\  1,&x\\le 0,\\end{cases}$ 的值域为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left[1,+\\infty\\right)$",
           "solution": "当 $x\\le 0$ 时，$y=1$；当 $x>0$ 时，$y=2^{x}>2^{0}=1$，所以 $y$ 的取值恒满足 $y\\ge 1$，且 $1$ 与大于 $1$ 的每个值都能取到，故值域为 $\\left[1,+\\infty\\right)$."
@@ -72,10 +72,10 @@
         },
         {
           "num": 10,
-          "body": "<p>已知对任意给定的实数 $x$，都有</p><p>$\\left(1+2023x\\right)^{100}+\\left(2023-x\\right)^{100}=a_{0}+a_{1}x+a_{2}x^{2}+\\cdots+a_{100}x^{100},$</p><p>其中 $a_{0}$，$a_{1}$，$\\cdots$，$a_{100}\\in\\mathbb{R}$. 若 $a_{k}&#x3C;0$，其中 $k\\in\\{0,1,2,\\cdots,100\\}$，则正整数 $k$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "body": "<p>已知对任意给定的实数 $x$，都有</p><p>$\\left(1+2023x\\right)^{100}+\\left(2023-x\\right)^{100}=a_{0}+a_{1}x+a_{2}x^{2}+\\cdots+a_{100}x^{100},$</p><p>其中 $a_{0}$，$a_{1}$，$\\cdots$，$a_{100}\\in\\mathbb{R}$. 若 $a_{k}<0$，其中 $k\\in\\{0,1,2,\\cdots,100\\}$，则正整数 $k$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
           "choices": null,
           "answer": "$49$",
-          "solution": "由二项式定理比较 $x^{k}$ 的系数，得 $a_{k}=\\mathrm{C}_{100}^{k}2023^{k}+\\mathrm{C}_{100}^{k}\\left(-1\\right)^{k}2023^{100-k}=\\mathrm{C}_{100}^{k}\\left(2023^{k}+\\left(-1\\right)^{k}2023^{100-k}\\right)$. 当 $k$为偶数时，$a_{k}=\\mathrm{C}_{100}^{k}\\left(2023^{k}+2023^{100-k}\\right)>0$. 当 $k$为奇数时，$a_{k}=\\mathrm{C}_{100}^{k}\\left(2023^{k}-2023^{100-k}\\right)$. 此时 $a_{k}&#x3C;0$当且仅当 $2023^{k}&#x3C;2023^{100-k}$，即 $k&#x3C;100-k$，亦即 $k&#x3C;50$. 故满足 $a_{k}&#x3C;0$的正整数 $k$必为小于 $50$的奇数，其最大值为 $49$."
+          "solution": "由二项式定理比较 $x^{k}$ 的系数，得 $a_{k}=\\mathrm{C}_{100}^{k}2023^{k}+\\mathrm{C}_{100}^{k}\\left(-1\\right)^{k}2023^{100-k}=\\mathrm{C}_{100}^{k}\\left(2023^{k}+\\left(-1\\right)^{k}2023^{100-k}\\right)$. 当 $k$为偶数时，$a_{k}=\\mathrm{C}_{100}^{k}\\left(2023^{k}+2023^{100-k}\\right)>0$. 当 $k$为奇数时，$a_{k}=\\mathrm{C}_{100}^{k}\\left(2023^{k}-2023^{100-k}\\right)$. 此时 $a_{k}<0$当且仅当 $2023^{k}<2023^{100-k}$，即 $k<100-k$，亦即 $k<50$. 故满足 $a_{k}<0$的正整数 $k$必为小于 $50$的奇数，其最大值为 $49$."
         },
         {
           "num": 11,
@@ -125,12 +125,12 @@
           "body": "已知 $a>0$，函数 $y=\\sin x$ 在区间 $\\left[a,2a\\right]$ 上的最小值为 $s$，在区间 $\\left[2a,3a\\right]$ 上的最小值为 $t$，当 $a$ 变化时，下列一定不成立的是（ ）.",
           "choices": [
             "$s>0,t>0$",
-            "$s>0$，$t&#x3C;0$",
-            "$s&#x3C;0$，$t&#x3C;0$",
-            "$s&#x3C;0$，$t>0$"
+            "$s>0$，$t<0$",
+            "$s<0$，$t<0$",
+            "$s<0$，$t>0$"
           ],
           "answer": "D",
-          "solution": "设 $a>0$，$s$为 $\\sin x$在 $\\left[a,2a\\right]$上的最小值，$t$为在 $\\left[2a,3a\\right]$上的最小值. 若 $t>0$，则 $\\sin x$在闭区间 $\\left[2a,3a\\right]$上恒正，故该连通区间必含于某一个 $\\left(2k\\pi,\\left(2k+1\\right)\\pi\\right)$（$k\\ge 0$为整数）内，即 $2k\\pi&#x3C;2a$且 $3a&#x3C;\\left(2k+1\\right)\\pi$. 由此 $a>k\\pi$且 $a&#x3C;\\frac{\\left(2k+1\\right)\\pi}{3}$，必有 $k\\pi&#x3C;\\frac{\\left(2k+1\\right)\\pi}{3}$，即 $k&#x3C;1$，故 $k=0$，$3a&#x3C;\\pi$，$a&#x3C;\\frac{\\pi}{3}$. 此时 $\\left[a,2a\\right]\\subset\\left(0,\\pi\\right)$，$\\sin x>0$，故 $s>0$. 于是 $t>0$必推出 $s>0$，$s&#x3C;0$且 $t>0$不可能. 另方面，取 $a=\\frac{\\pi}{6}$时两区间的最小值均为正，故 A可成立；取 $a=\\frac{2\\pi}{5}$时 $s>0$而 $t&#x3C;0$，故 B可成立；取 $a=2\\pi$时两区间的最小值均为 $-1$，故 C可成立. 因此一定不成立的是 D."
+          "solution": "设 $a>0$，$s$为 $\\sin x$在 $\\left[a,2a\\right]$上的最小值，$t$为在 $\\left[2a,3a\\right]$上的最小值. 若 $t>0$，则 $\\sin x$在闭区间 $\\left[2a,3a\\right]$上恒正，故该连通区间必含于某一个 $\\left(2k\\pi,\\left(2k+1\\right)\\pi\\right)$（$k\\ge 0$为整数）内，即 $2k\\pi<2a$且 $3a<\\left(2k+1\\right)\\pi$. 由此 $a>k\\pi$且 $a<\\frac{\\left(2k+1\\right)\\pi}{3}$，必有 $k\\pi<\\frac{\\left(2k+1\\right)\\pi}{3}$，即 $k<1$，故 $k=0$，$3a<\\pi$，$a<\\frac{\\pi}{3}$. 此时 $\\left[a,2a\\right]\\subset\\left(0,\\pi\\right)$，$\\sin x>0$，故 $s>0$. 于是 $t>0$必推出 $s>0$，$s<0$且 $t>0$不可能. 另方面，取 $a=\\frac{\\pi}{6}$时两区间的最小值均为正，故 A可成立；取 $a=\\frac{2\\pi}{5}$时 $s>0$而 $t<0$，故 B可成立；取 $a=2\\pi$时两区间的最小值均为 $-1$，故 C可成立. 因此一定不成立的是 D."
         },
         {
           "num": 16,
@@ -168,21 +168,21 @@
           "body": "<p>设函数 $f(x)=\\frac{x^{2}+(3a+1)x+c}{x+a}$，$a$，$c\\in\\mathbb{R}$</p><ol class=\"enumerate\"><li><p>当 $a=0$ 时，是否存在实数 $c$，使得 $y=f(x)$ 为奇函数，请说明理由；</p></li><li><p>若函数 $y=f(x)$ 的图像过点 $(1,3)$，且其与 $x$ 轴的负半轴有两个不同的交点，求 $c$ 的值及 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=0$ 时，$f(x)=\\frac{x^{2}+x+c}{x}=x+1+\\frac{c}{x}$，定义域为 $x\\ne 0$，关于原点对称. 对任意 $x\\ne 0$，有 $f(-x)=-x+1-\\frac{c}{x}$，于是 $f(x)+f(-x)=2\\ne 0$，即 $f(-x)\\ne -f(x)$，所以不存在实数 $c$ 使 $y=f(x)$ 为奇函数.</p></li><li><p>由图像过点 $(1,3)$，得 $f(1)=3\\iff \\frac{1+(3a+1)+c}{1+a}=3$，化简得 $c=1$.</p><p>此时 $f(x)=\\frac{x^{2}+(3a+1)x+1}{x+a}$，其与 $x$ 轴的交点由分子 $x^{2}+(3a+1)x+1=0$ 给出，且根须异于 $-a$. 两根之积为 $1>0$，故两根同号；要使其为两个不同的负根，需要两根之和为负且判别式大于 $0$：$-(3a+1)&#x3C;0$，$(3a+1)^{2}-4>0$.</p><p>前者给出 $a>-\\frac{1}{3}$，后者在此条件下化为 $3a+1>2$，即 $a>\\frac{1}{3}$.</p><p>此外，当 $a=\\frac{1}{2}$ 时，$x^{2}+\\left(3a+1\\right)x+1=x^{2}+\\frac{5}{2}x+1=\\left(x+\\frac{1}{2}\\right)\\left(x+2\\right)$，与分母 $x+a=x+\\frac{1}{2}$ 约去后，只剩一个负半轴交点，因此还需排除 $a=\\frac{1}{2}$.</p><p>故 $c=1$，$a\\in\\left(\\frac{1}{3},\\frac{1}{2}\\right)\\cup\\left(\\frac{1}{2},+\\infty\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=0$ 时，$f(x)=\\frac{x^{2}+x+c}{x}=x+1+\\frac{c}{x}$，定义域为 $x\\ne 0$，关于原点对称. 对任意 $x\\ne 0$，有 $f(-x)=-x+1-\\frac{c}{x}$，于是 $f(x)+f(-x)=2\\ne 0$，即 $f(-x)\\ne -f(x)$，所以不存在实数 $c$ 使 $y=f(x)$ 为奇函数.</p></li><li><p>由图像过点 $(1,3)$，得 $f(1)=3\\iff \\frac{1+(3a+1)+c}{1+a}=3$，化简得 $c=1$.</p><p>此时 $f(x)=\\frac{x^{2}+(3a+1)x+1}{x+a}$，其与 $x$ 轴的交点由分子 $x^{2}+(3a+1)x+1=0$ 给出，且根须异于 $-a$. 两根之积为 $1>0$，故两根同号；要使其为两个不同的负根，需要两根之和为负且判别式大于 $0$：$-(3a+1)<0$，$(3a+1)^{2}-4>0$.</p><p>前者给出 $a>-\\frac{1}{3}$，后者在此条件下化为 $3a+1>2$，即 $a>\\frac{1}{3}$.</p><p>此外，当 $a=\\frac{1}{2}$ 时，$x^{2}+\\left(3a+1\\right)x+1=x^{2}+\\frac{5}{2}x+1=\\left(x+\\frac{1}{2}\\right)\\left(x+2\\right)$，与分母 $x+a=x+\\frac{1}{2}$ 约去后，只剩一个负半轴交点，因此还需排除 $a=\\frac{1}{2}$.</p><p>故 $c=1$，$a\\in\\left(\\frac{1}{3},\\frac{1}{2}\\right)\\cup\\left(\\frac{1}{2},+\\infty\\right)$.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>已知抛物线 $\\Gamma:y^{2}=4x$，第一象限内点 $A$ 在 $\\Gamma$ 上，$A$ 的纵坐标是 $a$.</p><ol class=\"enumerate\"><li><p>若 $A$ 到准线的距离为 $3$，求 $a$；</p></li><li><p>若 $a=4$，$B$ 在 $x$ 轴上，且线段 $AB$ 的中点在 $\\Gamma$ 上，求点 $B$ 的坐标及坐标原点 $O$ 到直线 $AB$ 的距离；</p></li><li><p>直线 $l:x=-3$，令 $P$ 是第一象限 $\\Gamma$ 上异于 A 的一点，直线 $AP$ 交 $l$ 于 $Q$，$H$ 是 $P$ 在 $l$ 上的投影，若点 A 满足“对于任意 $P$ 都有 $\\left|HQ\\right|>4$”，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设点 $A\\left(\\frac{a^{2}}{4},a\\right)$. 抛物线 $y^{2}=4x$ 的准线为 $x=-1$，点 $A$ 到准线的距离为 $\\frac{a^{2}}{4}+1$. 由题意 $\\frac{a^{2}}{4}+1=3$，得 $a^{2}=8$；$A$ 在第一象限，故 $a=2\\sqrt{2}$.</p></li><li><p>当 $a=4$ 时，$A(4,4)$. 设 $B(x,0)$，则 $AB$ 的中点为 $\\left(\\frac{x+4}{2},2\\right)$. 该点在 $\\Gamma$ 上，所以 $2^{2}=4\\cdot \\frac{x+4}{2}$，解得 $x=-2$，故 $B(-2,0)$. 直线 $AB$ 的方程为 $2x-3y+4=0$，于是原点 $O$ 到直线 $AB$ 的距离为 $\\frac{4}{\\sqrt{2^{2}+(-3)^{2}}}=\\frac{4}{\\sqrt{13}}$.</p></li><li><p>设 $P\\left(\\frac{u^{2}}{4},u\\right)$，其中 $u>0$ 且 $u\\ne a$. 又 $A\\left(\\frac{a^{2}}{4},a\\right)$，则直线 $AP$ 的斜率为 $\\frac{u-a}{\\frac{u^{2}-a^{2}}{4}}=\\frac{4}{u+a}$. 由此得直线 $AP$ 与 $x=-3$ 交于 $Q\\left(-3,\\frac{au-12}{u+a}\\right)$. 而 $H(-3,u)$，故 $\\left|HQ\\right|=\\left|u-\\frac{au-12}{u+a}\\right|=\\frac{u^{2}+12}{u+a}$，其中最后一个等号是因为 $\\frac{u^{2}+12}{u+a}>0$.</p><p>题设要求 $\\frac{u^{2}+12}{u+a}>4$ 对任意 $u>0$，$u\\ne a$ 成立，即 $u^{2}-4u+12-4a>0$.</p><p>左边视为关于 $u$ 的二次函数，其最小值在 $u=2$ 处取得，最小值为 $8-4a$.</p><p>因此若 $a&#x3C;2$，则不等式恒成立；若 $a=2$，则左边化为 $(u-2)^{2}$，其等号只在 $u=2$ 处取得，而这时 $P=A$ 被排除，所以仍成立；若 $a>2$，取 $u=2$（此时 $u\\ne a$，允许）即不成立.</p><p>又 $A$ 在第一象限，故 $a>0$.</p><p>所以 $a\\in\\left(0,2\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设点 $A\\left(\\frac{a^{2}}{4},a\\right)$. 抛物线 $y^{2}=4x$ 的准线为 $x=-1$，点 $A$ 到准线的距离为 $\\frac{a^{2}}{4}+1$. 由题意 $\\frac{a^{2}}{4}+1=3$，得 $a^{2}=8$；$A$ 在第一象限，故 $a=2\\sqrt{2}$.</p></li><li><p>当 $a=4$ 时，$A(4,4)$. 设 $B(x,0)$，则 $AB$ 的中点为 $\\left(\\frac{x+4}{2},2\\right)$. 该点在 $\\Gamma$ 上，所以 $2^{2}=4\\cdot \\frac{x+4}{2}$，解得 $x=-2$，故 $B(-2,0)$. 直线 $AB$ 的方程为 $2x-3y+4=0$，于是原点 $O$ 到直线 $AB$ 的距离为 $\\frac{4}{\\sqrt{2^{2}+(-3)^{2}}}=\\frac{4}{\\sqrt{13}}$.</p></li><li><p>设 $P\\left(\\frac{u^{2}}{4},u\\right)$，其中 $u>0$ 且 $u\\ne a$. 又 $A\\left(\\frac{a^{2}}{4},a\\right)$，则直线 $AP$ 的斜率为 $\\frac{u-a}{\\frac{u^{2}-a^{2}}{4}}=\\frac{4}{u+a}$. 由此得直线 $AP$ 与 $x=-3$ 交于 $Q\\left(-3,\\frac{au-12}{u+a}\\right)$. 而 $H(-3,u)$，故 $\\left|HQ\\right|=\\left|u-\\frac{au-12}{u+a}\\right|=\\frac{u^{2}+12}{u+a}$，其中最后一个等号是因为 $\\frac{u^{2}+12}{u+a}>0$.</p><p>题设要求 $\\frac{u^{2}+12}{u+a}>4$ 对任意 $u>0$，$u\\ne a$ 成立，即 $u^{2}-4u+12-4a>0$.</p><p>左边视为关于 $u$ 的二次函数，其最小值在 $u=2$ 处取得，最小值为 $8-4a$.</p><p>因此若 $a<2$，则不等式恒成立；若 $a=2$，则左边化为 $(u-2)^{2}$，其等号只在 $u=2$ 处取得，而这时 $P=A$ 被排除，所以仍成立；若 $a>2$，取 $u=2$（此时 $u\\ne a$，允许）即不成立.</p><p>又 $A$ 在第一象限，故 $a>0$.</p><p>所以 $a\\in\\left(0,2\\right]$.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>已知 $f(x)=\\ln x$. 曲线 $y=f(x)$ 在点 $\\left(a_{1},f(a_{1})\\right)$ 处的切线交 $y$ 轴于点 $(0,a_{2})$，且 $a_{2}>0$；曲线 $y=f(x)$ 在点 $\\left(a_{2},f(a_{2})\\right)$ 处的切线交 $y$ 轴于点 $(0,a_{3})$；以此类推，直至 $a_{m}\\le 0$ 时停止，得到数列 $\\{a_{n}\\}$.</p><ol class=\"enumerate\"><li><p>证明：当正整数 $n\\ge 2$ 时，$a_{n}=\\ln a_{n-1}-1$；</p></li><li><p>当正整数 $n\\ge 2$ 时，试比较 $a_{n}$ 与 $a_{n-1}-2$ 的大小；</p></li><li><p>若正整数 $k\\ge 3$，是否存在 $k$ 使得 $a_{1}$，$a_{2}$，$\\cdots$，$a_{k}$ 依次成等差数列？若存在，求出 $k$ 的所有取值；若不存在，试说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>曲线 $y=\\ln x$ 在点 $\\left(a_{n-1},\\ln a_{n-1}\\right)$ 处的切线方程为 $y-\\ln a_{n-1}=\\frac{1}{a_{n-1}}\\left(x-a_{n-1}\\right)$. 令 $x=0$，得该切线与 $y$ 轴的交点纵坐标为 $\\ln a_{n-1}-1$，所以 $a_{n}=\\ln a_{n-1}-1$.</p></li><li><p>由 $\\ln x\\le x-1$（$x>0$，当且仅当 $x=1$ 时取等号）得 $a_{n}=\\ln a_{n-1}-1\\le a_{n-1}-1-1=a_{n-1}-2$，当且仅当 $a_{n-1}=1$ 时取等号.</p></li><li><p>记 $h(x)=\\mathrm{e}^{x+1}+\\ln x-1-2x$（$x>0$）. 若 $a_{1}$，$a_{2}$，$a_{3}$ 成等差数列，则 $a_{1}+a_{3}=2a_{2}$. 由 （1） 知 $a_{1}=\\mathrm{e}^{a_2+1}$，且 $a_{3}=\\ln a_{2}-1$，故 $h(a_{2})=0$. 又 $h^{\\prime}(x)=\\mathrm{e}^{x+1}+\\frac{1}{x}-2>0$（$x>0$，因为 $\\mathrm{e}^{x+1}>\\mathrm{e}>2$），所以 $h(x)$ 在 $(0,+\\infty)$ 上严格递增. 并且 $\\displaystyle\\lim_{x\\to 0^+}h(x)=-\\infty$，$h(1)=\\mathrm{e}^{2}-3>0$，故方程 $h(x)=0$ 在 $(0,1)$ 内有唯一解，从而存在唯一的 $a_{2}\\in(0,1)$ 使得 $a_{1}$，$a_{2}$，$a_{3}$ 成等差数列. 此时 $a_{3}=\\ln a_{2}-1&#x3C;0$，所以序列在 $a_{3}$ 处停止，即 $m=3$；任何 $k\\ge 4$ 的等差数列都须以同样的 $a_{1}$，$a_{2}$，$a_{3}$ 开头，与序列已终止矛盾. 故存在 $k$，且 $k$ 的所有取值为 $k=3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>曲线 $y=\\ln x$ 在点 $\\left(a_{n-1},\\ln a_{n-1}\\right)$ 处的切线方程为 $y-\\ln a_{n-1}=\\frac{1}{a_{n-1}}\\left(x-a_{n-1}\\right)$. 令 $x=0$，得该切线与 $y$ 轴的交点纵坐标为 $\\ln a_{n-1}-1$，所以 $a_{n}=\\ln a_{n-1}-1$.</p></li><li><p>由 $\\ln x\\le x-1$（$x>0$，当且仅当 $x=1$ 时取等号）得 $a_{n}=\\ln a_{n-1}-1\\le a_{n-1}-1-1=a_{n-1}-2$，当且仅当 $a_{n-1}=1$ 时取等号.</p></li><li><p>记 $h(x)=\\mathrm{e}^{x+1}+\\ln x-1-2x$（$x>0$）. 若 $a_{1}$，$a_{2}$，$a_{3}$ 成等差数列，则 $a_{1}+a_{3}=2a_{2}$. 由 （1） 知 $a_{1}=\\mathrm{e}^{a_2+1}$，且 $a_{3}=\\ln a_{2}-1$，故 $h(a_{2})=0$. 又 $h^{\\prime}(x)=\\mathrm{e}^{x+1}+\\frac{1}{x}-2>0$（$x>0$，因为 $\\mathrm{e}^{x+1}>\\mathrm{e}>2$），所以 $h(x)$ 在 $(0,+\\infty)$ 上严格递增. 并且 $\\displaystyle\\lim_{x\\to 0^+}h(x)=-\\infty$，$h(1)=\\mathrm{e}^{2}-3>0$，故方程 $h(x)=0$ 在 $(0,1)$ 内有唯一解，从而存在唯一的 $a_{2}\\in(0,1)$ 使得 $a_{1}$，$a_{2}$，$a_{3}$ 成等差数列. 此时 $a_{3}=\\ln a_{2}-1<0$，所以序列在 $a_{3}$ 处停止，即 $m=3$；任何 $k\\ge 4$ 的等差数列都须以同样的 $a_{1}$，$a_{2}$，$a_{3}$ 开头，与序列已终止矛盾. 故存在 $k$，且 $k$ 的所有取值为 $k=3$.</p></li></ol>"
         }
       ]
     }

@@ -45,7 +45,7 @@
         },
         {
           "num": 4,
-          "body": "设集合 $A = \\{x \\in \\mathbb{R}\\mid x - 2 > 0\\}$，$B = \\{x \\in \\mathbb{R}\\mid x &#x3C; 0\\}$，$C = \\{x \\in \\mathbb{R}\\mid x(x - 2) > 0\\}$，则“$x \\in A \\cup B$”是“$x \\in C$”的（ ）",
+          "body": "设集合 $A = \\{x \\in \\mathbb{R}\\mid x - 2 > 0\\}$，$B = \\{x \\in \\mathbb{R}\\mid x < 0\\}$，$C = \\{x \\in \\mathbb{R}\\mid x(x - 2) > 0\\}$，则“$x \\in A \\cup B$”是“$x \\in C$”的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -65,7 +65,7 @@
             "$c > a > b$"
           ],
           "answer": "B",
-          "solution": "由换底公式，$c=\\log_{4} 3.6=\\dfrac{1}{2}\\log_{2} 3.6=\\dfrac{a}{2}$，即 $a=2c$. 又因 $3.2&#x3C;3.6$ 且底数 $4>1$，所以 $b=\\log_{4} 3.2&#x3C;c$. 因此 $a>c>b$，故选 B."
+          "solution": "由换底公式，$c=\\log_{4} 3.6=\\dfrac{1}{2}\\log_{2} 3.6=\\dfrac{a}{2}$，即 $a=2c$. 又因 $3.2<3.6$ 且底数 $4>1$，所以 $b=\\log_{4} 3.2<c$. 因此 $a>c>b$，故选 B."
         },
         {
           "num": 6,
@@ -81,7 +81,7 @@
         },
         {
           "num": 7,
-          "body": "已知函数 $f(x) = 2\\sin (\\omega x + \\varphi)$，$x \\in \\mathbb{R}$，其中 $\\omega > 0$，$-\\pi &#x3C; \\varphi \\le \\pi$. 若 $f(x)$ 的最小正周期为 $6\\pi$，且当 $x = \\frac{\\pi}{2}$ 时，$f(x)$ 取得最大值，则（ ）",
+          "body": "已知函数 $f(x) = 2\\sin (\\omega x + \\varphi)$，$x \\in \\mathbb{R}$，其中 $\\omega > 0$，$-\\pi < \\varphi \\le \\pi$. 若 $f(x)$ 的最小正周期为 $6\\pi$，且当 $x = \\frac{\\pi}{2}$ 时，$f(x)$ 取得最大值，则（ ）",
           "choices": [
             "$f(x)$ 在区间 $[-2\\pi, 0]$ 上是增函数",
             "$f(x)$ 在区间 $[-3\\pi, -\\pi]$ 上是增函数",
@@ -89,11 +89,11 @@
             "$f(x)$ 在区间 $[4\\pi, 6\\pi]$ 上是减函数"
           ],
           "answer": "A",
-          "solution": "<p>函数的最小正周期为 $\\dfrac{2\\pi}{\\omega}=6\\pi$，所以 $\\omega=\\dfrac{1}{3}$. 当 $x=\\dfrac\\pi2$ 时函数取得最大值，故</p>\n$$\n\\sin\\left(\\frac{\\pi}{6}+\\varphi\\right)=1\n$$\n<p>结合 $-\\pi&#x3C;\\varphi\\le\\pi$，得 $\\varphi=\\dfrac\\pi3$. 因而</p>\n$$\nf(x)=2\\sin\\left(\\frac{x}{3}+\\frac{\\pi}{3}\\right)\n$$\n<p>其导数的符号由 $\\cos\\left(\\dfrac{x}{3}+\\dfrac\\pi3\\right)$ 决定，函数在</p>\n$$\n\\left(-\\frac{5\\pi}{2}+6k\\pi,\\frac{\\pi}{2}+6k\\pi\\right)\n$$\n<p>上递增，在 $\\left(\\dfrac\\pi2+6k\\pi,\\dfrac{7\\pi}{2}+6k\\pi\\right)$ 上递减，其中 $k\\in\\mathbb{Z}$. 区间 $[-2\\pi,0]$ 包含于递增区间 $\\left(-\\dfrac{5\\pi}{2},\\dfrac\\pi2\\right)$，所以选 A.</p>"
+          "solution": "<p>函数的最小正周期为 $\\dfrac{2\\pi}{\\omega}=6\\pi$，所以 $\\omega=\\dfrac{1}{3}$. 当 $x=\\dfrac\\pi2$ 时函数取得最大值，故</p>\n$$\n\\sin\\left(\\frac{\\pi}{6}+\\varphi\\right)=1\n$$\n<p>结合 $-\\pi<\\varphi\\le\\pi$，得 $\\varphi=\\dfrac\\pi3$. 因而</p>\n$$\nf(x)=2\\sin\\left(\\frac{x}{3}+\\frac{\\pi}{3}\\right)\n$$\n<p>其导数的符号由 $\\cos\\left(\\dfrac{x}{3}+\\dfrac\\pi3\\right)$ 决定，函数在</p>\n$$\n\\left(-\\frac{5\\pi}{2}+6k\\pi,\\frac{\\pi}{2}+6k\\pi\\right)\n$$\n<p>上递增，在 $\\left(\\dfrac\\pi2+6k\\pi,\\dfrac{7\\pi}{2}+6k\\pi\\right)$ 上递减，其中 $k\\in\\mathbb{Z}$. 区间 $[-2\\pi,0]$ 包含于递增区间 $\\left(-\\dfrac{5\\pi}{2},\\dfrac\\pi2\\right)$，所以选 A.</p>"
         },
         {
           "num": 8,
-          "body": "对实数 $a$ 和 $b$，定义运算“$\\otimes$”： $a \\otimes b = \\begin{cases}a,&#x26;a - b \\le 1,\\\\  b,&#x26;a - b > 1.\\end{cases}$ 设函数 $f(x) = (x^{2}- 2) \\otimes (x - 1)$，$x \\in \\mathbb{R}$. 若函数 $y = f(x) - c$ 的图象与 $x$ 轴恰有两个公共点，则实数 $c$ 的取值范围是（ ）",
+          "body": "对实数 $a$ 和 $b$，定义运算“$\\otimes$”： $a \\otimes b = \\begin{cases}a,&a - b \\le 1,\\\\  b,&a - b > 1.\\end{cases}$ 设函数 $f(x) = (x^{2}- 2) \\otimes (x - 1)$，$x \\in \\mathbb{R}$. 若函数 $y = f(x) - c$ 的图象与 $x$ 轴恰有两个公共点，则实数 $c$ 的取值范围是（ ）",
           "choices": [
             "$(-1,1]\\cup (2, + \\infty)$",
             "$(-2, - 1] \\cup (1, 2]$",
@@ -101,7 +101,7 @@
             "$[-2, - 1]$"
           ],
           "answer": "B",
-          "solution": "<p>令 $u=x^{2}-2$，$v=x-1$. 当 $u-v\\leqslant1$ 时</p>\n$$\nx^{2}-x-2\\leqslant0\n$$\n<p>即 $-1\\le x\\leqslant2$，此时 $f(x)=x^{2}-2$. 在其余区间 $f(x)=x-1$. 因而</p>\n$$\nf(x)=  \\begin{cases}x-1,&#x26;x&#x3C;-1,\\\\  x^{2}-2,&#x26;-1\\le x\\leqslant2,\\\\  x-1,&#x26;x>2.\\end{cases}\n$$\n<p>分别考查这三个分支对方程 $f(x)=c$ 的贡献. 在 $x&#x3C;-1$ 时，$c=x-1$，故只有 $c&#x3C;-2$ 时有一个解；在 $-1\\le x\\leqslant2$ 时，$c=x^{2}-2$，故必须有 $-2\\le c\\leqslant2$，解为 $x=\\pm\\sqrt{c+2}$，再按根是否落在 $[-1,2]$ 内取舍；在 $x>2$ 时，$c=x-1$，故只有 $c>1$ 时有一个解.</p><p>具体分类如下：当 $c&#x3C;-2$ 时只有左侧一次分支的一个解；当 $c=-2$ 时，左侧分支的边界 $x=-1$ 不属于该分支，而二次分支给出 $x=0$，故只有一个解；当 $-2&#x3C;c\\le-1$ 时，$\\pm\\sqrt{c+2}\\in[-1,1]$，二次分支给出两个解，两个一次分支均不给出解；当 $-1&#x3C;c\\leqslant1$ 时，负根小于 $-1$，正根 $\\sqrt{c+2}$ 在 $(1,\\sqrt{3}]$ 内，且右侧一次分支要求 $c>1$，所以只有一个解；当 $1&#x3C;c\\leqslant2$ 时，正根在 $(\\sqrt{3},2]$ 内，同时右侧一次分支给出 $x=c+1>2$，共有两个解；当 $c>2$ 时只有右侧一次分支的一个解.</p><p>因此方程恰有两个解当且仅当</p>\n$$\nc\\in(-2,-1]\\cup(1,2]\n$$\n<p>故选 B.</p>"
+          "solution": "<p>令 $u=x^{2}-2$，$v=x-1$. 当 $u-v\\leqslant1$ 时</p>\n$$\nx^{2}-x-2\\leqslant0\n$$\n<p>即 $-1\\le x\\leqslant2$，此时 $f(x)=x^{2}-2$. 在其余区间 $f(x)=x-1$. 因而</p>\n$$\nf(x)=  \\begin{cases}x-1,&x<-1,\\\\  x^{2}-2,&-1\\le x\\leqslant2,\\\\  x-1,&x>2.\\end{cases}\n$$\n<p>分别考查这三个分支对方程 $f(x)=c$ 的贡献. 在 $x<-1$ 时，$c=x-1$，故只有 $c<-2$ 时有一个解；在 $-1\\le x\\leqslant2$ 时，$c=x^{2}-2$，故必须有 $-2\\le c\\leqslant2$，解为 $x=\\pm\\sqrt{c+2}$，再按根是否落在 $[-1,2]$ 内取舍；在 $x>2$ 时，$c=x-1$，故只有 $c>1$ 时有一个解.</p><p>具体分类如下：当 $c<-2$ 时只有左侧一次分支的一个解；当 $c=-2$ 时，左侧分支的边界 $x=-1$ 不属于该分支，而二次分支给出 $x=0$，故只有一个解；当 $-2<c\\le-1$ 时，$\\pm\\sqrt{c+2}\\in[-1,1]$，二次分支给出两个解，两个一次分支均不给出解；当 $-1<c\\leqslant1$ 时，负根小于 $-1$，正根 $\\sqrt{c+2}$ 在 $(1,\\sqrt{3}]$ 内，且右侧一次分支要求 $c>1$，所以只有一个解；当 $1<c\\leqslant2$ 时，正根在 $(\\sqrt{3},2]$ 内，同时右侧一次分支给出 $x=c+1>2$，共有两个解；当 $c>2$ 时只有右侧一次分支的一个解.</p><p>因此方程恰有两个解当且仅当</p>\n$$\nc\\in(-2,-1]\\cup(1,2]\n$$\n<p>故选 B.</p>"
         }
       ]
     },
@@ -110,10 +110,10 @@
       "problems": [
         {
           "num": 9,
-          "body": "已知集合 $A = \\{x \\in \\mathbb{R}\\mid |x - 1| &#x3C; 2\\}$，$\\mathbb{Z}$ 为整数集，则集合 $A \\cap \\mathbb{Z}$ 中所有元素的和等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知集合 $A = \\{x \\in \\mathbb{R}\\mid |x - 1| < 2\\}$，$\\mathbb{Z}$ 为整数集，则集合 $A \\cap \\mathbb{Z}$ 中所有元素的和等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "3",
-          "solution": "<p>由 $\\lvert x-1\\rvert&#x3C;2$，得 $-1&#x3C;x&#x3C;3$. 其中的整数为 $0$，$1$，$2$，所以所有元素的和为</p>\n$$\n0+1+2=3\n$$"
+          "solution": "<p>由 $\\lvert x-1\\rvert<2$，得 $-1<x<3$. 其中的整数为 $0$，$1$，$2$，所以所有元素的和为</p>\n$$\n0+1+2=3\n$$"
         },
         {
           "num": 10,
@@ -167,7 +167,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $B = C$，$2b = \\sqrt{3}a$.</p><ol class=\"enumerate\"><li><p>求 $\\cos A$ 的值；</p></li><li><p>$\\cos \\left(2A + \\frac{\\pi}{4}\\right)$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $B=C$，根据正弦定理可知 $b=c$. 在三角形中使用余弦定理，得</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A=2b^{2}(1-\\cos A)\n$$\n<p>由 $2b=\\sqrt{3}a$，得 $b^{2}=\\dfrac{3}{4}a^{2}$. 代入上式并约去 $a^{2}$，得</p>\n$$\n1=\\frac{3}{2}(1-\\cos A)\n$$\n<p>所以 $\\cos A=\\dfrac{1}{3}$. 因为 $0&#x3C;A&#x3C;\\pi$，故</p>\n$$\n\\sin A=\\sqrt{1-\\cos^{2}A}=\\frac{2\\sqrt{2}}{3}\n$$\n<p>于是 $\\cos2A=2\\cos^{2}A-1=-\\frac{7}{9}$，</p><p>$\\sin2A=2\\sin A\\cos A=\\frac{4\\sqrt{2}}{9}$.</p><p>因此</p>\n$$\n\\cos\\left(2A+\\frac{\\pi}{4}\\right)  =\\frac{\\cos2A-\\sin2A}{\\sqrt{2}}=-\\frac{4}{9}-\\frac{7\\sqrt{2}}{18}=-\\frac{8+7\\sqrt{2}}{18}\n$$"
+          "solution": "<p>由 $B=C$，根据正弦定理可知 $b=c$. 在三角形中使用余弦定理，得</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A=2b^{2}(1-\\cos A)\n$$\n<p>由 $2b=\\sqrt{3}a$，得 $b^{2}=\\dfrac{3}{4}a^{2}$. 代入上式并约去 $a^{2}$，得</p>\n$$\n1=\\frac{3}{2}(1-\\cos A)\n$$\n<p>所以 $\\cos A=\\dfrac{1}{3}$. 因为 $0<A<\\pi$，故</p>\n$$\n\\sin A=\\sqrt{1-\\cos^{2}A}=\\frac{2\\sqrt{2}}{3}\n$$\n<p>于是 $\\cos2A=2\\cos^{2}A-1=-\\frac{7}{9}$，</p><p>$\\sin2A=2\\sin A\\cos A=\\frac{4\\sqrt{2}}{9}$.</p><p>因此</p>\n$$\n\\cos\\left(2A+\\frac{\\pi}{4}\\right)  =\\frac{\\cos2A-\\sin2A}{\\sqrt{2}}=-\\frac{4}{9}-\\frac{7\\sqrt{2}}{18}=-\\frac{8+7\\sqrt{2}}{18}\n$$"
         },
         {
           "num": 17,
@@ -181,21 +181,21 @@
           "body": "<p>设椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ （$a > b > 0$）的左、右焦点分别为 $F_{1}$，$F_{2}$. 点 $P(a, b)$ 满足 $|PF_{2}| = |F_{1}F_{2}|$.</p><ol class=\"enumerate\"><li><p>求椭圆的离心率 $e$；</p></li><li><p>设直线 $PF_{2}$ 与椭圆相交于 $A$，$B$ 两点，若直线 $PF_{2}$ 与圆 $(x + 1)^{2}+ (y - \\sqrt{3})^{2}= 16$ 相交于 $M$，$N$ 两点，且 $|MN| = \\frac{5}{8}|AB|$，求椭圆的方程.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$，则 $c^{2}=a^{2}-b^{2}$，且 $F_{1}=(-c,0)$、$F_{2}=(c,0)$. 由 $P=(a,b)$ 及题设，</p>\n$$\n(a-c)^{2}+b^{2}=4c^{2}\n$$\n<p>利用 $b^{2}=a^{2}-c^{2}$，得</p>\n$$\n2a^{2}-2ac=4c^{2}\n$$\n<p>令 $e=\\dfrac{c}{a}$，并注意 $e>0$，则</p>\n$$\n2-2e=4e^{2}\n$$\n<p>即 $2e^{2}+e-1=0$. 所以 $e=\\dfrac{1}{2}$.</p></li><li><p>由 $e=\\dfrac{1}{2}$，得 $c=\\dfrac{a}{2}$，$b=\\dfrac{\\sqrt{3}}{2}a$. 直线 $PF_{2}$ 的方向单位向量可取</p>\n$$\n\\mathbf{u}=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)\n$$\n<p>以 $F_{2}$ 为参数原点，设直线上的点为</p>\n$$\n(x,y)=F_{2}+t\\mathbf{u}=\\left(\\frac{a}{2}+\\frac{t}{2},\\frac{\\sqrt{3}\\,t}{2}\\right)\n$$\n<p>其中 $t$ 表示有向距离. 代入椭圆方程，得</p>\n$$\n\\frac{(a+t)^{2}}{4a^{2}}+\\frac{t^{2}}{a^{2}}=1\n$$\n<p>即</p>\n$$\n5t^{2}+2at-3a^{2}=0\n$$\n<p>其两根为 $t=-a$、$t=\\dfrac{3a}{5}$，所以</p>\n$$\n|AB|=\\frac{3a}{5}+a=\\frac{8a}{5}\n$$\n<p>圆心为 $Q=(-1,\\sqrt{3})$，半径为 $4$. 直线 $PF_{2}$ 的方程为</p>\n$$\n\\sqrt{3}x-y-\\frac{\\sqrt{3}a}{2}=0\n$$\n<p>圆心到该直线的距离为</p>\n$$\nd=\\frac{\\left|-\\sqrt{3}-\\sqrt{3}-\\dfrac{\\sqrt{3}a}{2}\\right|}{2}=\\frac{\\sqrt{3}(a+4)}{4}\n$$\n<p>所以圆在该直线上的弦长为</p>\n$$\n|MN|=2\\sqrt{16-d^{2}}=2\\sqrt{16-\\frac{3(a+4)^2}{16}}\n$$\n<p>由 $|MN|=\\dfrac{5}{8}|AB|=a$，得</p>\n$$\na^{2}=64-\\frac{3}{4}(a+4)^{2}\n$$\n<p>即</p>\n$$\n7a^{2}+24a-208=0\n$$\n<p>解得 $a=4$ 或 $a=-\\dfrac{52}{7}$. 因 $a>0$，故 $a=4$，$b=2\\sqrt{3}$，且此时 $d=2\\sqrt{3}&#x3C;4$，确有两个交点. 所求椭圆方程为</p>\n$$\n\\frac{x^{2}}{16}+\\frac{y^{2}}{12}=1\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$，则 $c^{2}=a^{2}-b^{2}$，且 $F_{1}=(-c,0)$、$F_{2}=(c,0)$. 由 $P=(a,b)$ 及题设，</p>\n$$\n(a-c)^{2}+b^{2}=4c^{2}\n$$\n<p>利用 $b^{2}=a^{2}-c^{2}$，得</p>\n$$\n2a^{2}-2ac=4c^{2}\n$$\n<p>令 $e=\\dfrac{c}{a}$，并注意 $e>0$，则</p>\n$$\n2-2e=4e^{2}\n$$\n<p>即 $2e^{2}+e-1=0$. 所以 $e=\\dfrac{1}{2}$.</p></li><li><p>由 $e=\\dfrac{1}{2}$，得 $c=\\dfrac{a}{2}$，$b=\\dfrac{\\sqrt{3}}{2}a$. 直线 $PF_{2}$ 的方向单位向量可取</p>\n$$\n\\mathbf{u}=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)\n$$\n<p>以 $F_{2}$ 为参数原点，设直线上的点为</p>\n$$\n(x,y)=F_{2}+t\\mathbf{u}=\\left(\\frac{a}{2}+\\frac{t}{2},\\frac{\\sqrt{3}\\,t}{2}\\right)\n$$\n<p>其中 $t$ 表示有向距离. 代入椭圆方程，得</p>\n$$\n\\frac{(a+t)^{2}}{4a^{2}}+\\frac{t^{2}}{a^{2}}=1\n$$\n<p>即</p>\n$$\n5t^{2}+2at-3a^{2}=0\n$$\n<p>其两根为 $t=-a$、$t=\\dfrac{3a}{5}$，所以</p>\n$$\n|AB|=\\frac{3a}{5}+a=\\frac{8a}{5}\n$$\n<p>圆心为 $Q=(-1,\\sqrt{3})$，半径为 $4$. 直线 $PF_{2}$ 的方程为</p>\n$$\n\\sqrt{3}x-y-\\frac{\\sqrt{3}a}{2}=0\n$$\n<p>圆心到该直线的距离为</p>\n$$\nd=\\frac{\\left|-\\sqrt{3}-\\sqrt{3}-\\dfrac{\\sqrt{3}a}{2}\\right|}{2}=\\frac{\\sqrt{3}(a+4)}{4}\n$$\n<p>所以圆在该直线上的弦长为</p>\n$$\n|MN|=2\\sqrt{16-d^{2}}=2\\sqrt{16-\\frac{3(a+4)^2}{16}}\n$$\n<p>由 $|MN|=\\dfrac{5}{8}|AB|=a$，得</p>\n$$\na^{2}=64-\\frac{3}{4}(a+4)^{2}\n$$\n<p>即</p>\n$$\n7a^{2}+24a-208=0\n$$\n<p>解得 $a=4$ 或 $a=-\\dfrac{52}{7}$. 因 $a>0$，故 $a=4$，$b=2\\sqrt{3}$，且此时 $d=2\\sqrt{3}<4$，确有两个交点. 所求椭圆方程为</p>\n$$\n\\frac{x^{2}}{16}+\\frac{y^{2}}{12}=1\n$$\n</li></ol>"
         },
         {
           "num": 19,
           "body": "<p>已知函数 $f(x) = 4x^{3}+ 3tx^{2}- 6t^{2}x + t - 1$，$x \\in \\mathbb{R}$，其中 $t \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>当 $t = 1$ 时，求曲线 $y = f(x)$ 在点 $(0, f(0))$ 处的切线方程；</p></li><li><p>当 $t \\neq 0$ 时，求 $f(x)$ 的单调区间；</p></li><li><p>证明：对任意的 $t \\in (0, +\\infty)$，$f(x)$ 在区间 $(0, 1)$ 内均存在零点.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $t=1$ 时，$f(x)=4x^{3}+3x^{2}-6x$，$f(0)=0$.</p><p>又</p>\n$$\nf'(x)=12x^{2}+6x-6\n$$\n<p>所以 $f'(0)=-6$. 曲线在 $(0,f(0))=(0,0)$ 处的切线方程为</p>\n$$\ny=-6x\n$$\n</li><li><p>对任意 $t$，</p>\n$$\nf'(x)=12x^{2}+6tx-6t^{2}  =6(x+t)(2x-t)\n$$\n<p>当 $t>0$ 时，$-t&#x3C;\\dfrac{t}{2}$，所以 $f'(x)$ 在 $(-\\infty,-t)$、$\\left(\\dfrac{t}{2},+\\infty\\right)$ 上为正，在 $\\left(-t,\\dfrac{t}{2}\\right)$ 上为负. 因此 $f(x)$ 的增区间为 $(-\\infty,-t)$、$\\left(\\dfrac{t}{2},+\\infty\\right)$，减区间为 $\\left(-t,\\dfrac{t}{2}\\right)$.</p><p>当 $t&#x3C;0$ 时，$\\dfrac{t}{2}&#x3C;-t$，所以 $f'(x)$ 在 $\\left(-\\infty,\\dfrac{t}{2}\\right)$、$(-t,+\\infty)$ 上为正，在 $\\left(\\dfrac{t}{2},-t\\right)$ 上为负. 因此 $f(x)$ 的增区间为 $\\left(-\\infty,\\dfrac{t}{2}\\right)$、$(-t,+\\infty)$，减区间为 $\\left(\\dfrac{t}{2},-t\\right)$.</p></li><li><p>先计算</p>\n$$\nf\\left(\\frac{1}{2}\\right)=-3t^{2}+\\frac{7}{4}t-\\frac{1}{2}= -3\\left(t-\\frac{7}{24}\\right)^{2}-\\frac{47}{192}&#x3C;0\n$$\n<p>当 $0&#x3C;t\\leqslant1$ 时，由 $t^{2}\\le t$，有</p>\n$$\nf(1)=3+4t-6t^{2}\\geqslant3-2t\\geqslant1>0\n$$\n<p>于是由零点存在定理，$f(x)$ 在 $\\left(\\dfrac{1}{2},1\\right)$ 内存在零点. 当 $t>1$ 时，$f(0)=t-1>0$，结合 $f\\left(\\dfrac{1}{2}\\right)&#x3C;0$，由零点存在定理，$f(x)$ 在 $\\left(0,\\dfrac{1}{2}\\right)$ 内存在零点. 所以对任意 $t>0$，$f(x)$ 在 $(0,1)$ 内均存在零点.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $t=1$ 时，$f(x)=4x^{3}+3x^{2}-6x$，$f(0)=0$.</p><p>又</p>\n$$\nf'(x)=12x^{2}+6x-6\n$$\n<p>所以 $f'(0)=-6$. 曲线在 $(0,f(0))=(0,0)$ 处的切线方程为</p>\n$$\ny=-6x\n$$\n</li><li><p>对任意 $t$，</p>\n$$\nf'(x)=12x^{2}+6tx-6t^{2}  =6(x+t)(2x-t)\n$$\n<p>当 $t>0$ 时，$-t<\\dfrac{t}{2}$，所以 $f'(x)$ 在 $(-\\infty,-t)$、$\\left(\\dfrac{t}{2},+\\infty\\right)$ 上为正，在 $\\left(-t,\\dfrac{t}{2}\\right)$ 上为负. 因此 $f(x)$ 的增区间为 $(-\\infty,-t)$、$\\left(\\dfrac{t}{2},+\\infty\\right)$，减区间为 $\\left(-t,\\dfrac{t}{2}\\right)$.</p><p>当 $t<0$ 时，$\\dfrac{t}{2}<-t$，所以 $f'(x)$ 在 $\\left(-\\infty,\\dfrac{t}{2}\\right)$、$(-t,+\\infty)$ 上为正，在 $\\left(\\dfrac{t}{2},-t\\right)$ 上为负. 因此 $f(x)$ 的增区间为 $\\left(-\\infty,\\dfrac{t}{2}\\right)$、$(-t,+\\infty)$，减区间为 $\\left(\\dfrac{t}{2},-t\\right)$.</p></li><li><p>先计算</p>\n$$\nf\\left(\\frac{1}{2}\\right)=-3t^{2}+\\frac{7}{4}t-\\frac{1}{2}= -3\\left(t-\\frac{7}{24}\\right)^{2}-\\frac{47}{192}<0\n$$\n<p>当 $0<t\\leqslant1$ 时，由 $t^{2}\\le t$，有</p>\n$$\nf(1)=3+4t-6t^{2}\\geqslant3-2t\\geqslant1>0\n$$\n<p>于是由零点存在定理，$f(x)$ 在 $\\left(\\dfrac{1}{2},1\\right)$ 内存在零点. 当 $t>1$ 时，$f(0)=t-1>0$，结合 $f\\left(\\dfrac{1}{2}\\right)<0$，由零点存在定理，$f(x)$ 在 $\\left(0,\\dfrac{1}{2}\\right)$ 内存在零点. 所以对任意 $t>0$，$f(x)$ 在 $(0,1)$ 内均存在零点.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>已知数列 $\\{a_{n}\\}$ 与 $\\{b_{n}\\}$ 满足： $b_{n+1}a_{n}+ b_{n}a_{n+1}= (-2)^{n}+ 1$，$b_{n}= \\frac{3 + (-1)^{n-1}}{2}$，$n \\in \\mathbb{N}^{*}$，且 $a_{1}= 2$.</p><ol class=\"enumerate\"><li><p>求 $a_{2}$，$a_{3}$ 的值；</p></li><li><p>设 $c_{n}= a_{2n + 1}- a_{2n - 1}$，$n \\in \\mathbb{N}^{*}$，证明：数列 $\\{c_{n}\\}$ 是等比数列；</p></li><li><p>设 $S_{n}$ 为 $\\{a_{n}\\}$ 的前 $n$ 项和，证明 $\\frac{S_{1}}{a_{1}}+ \\frac{S_{2}}{a_{2}}+ \\ldots + \\frac{S_{2n-1}}{a_{2n-1}}+ \\frac{S_{2n}}{a_{2n}}\\le n - \\frac{1}{3}$ （$n \\in \\mathbb{N}^{*}$）.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $b_{1}=2$，$b_{2}=1$，$b_{3}=2$.</p><p>在原递推式中令 $n=1$，得</p>\n$$\na_{1}+2a_{2}=-1\n$$\n<p>代入 $a_{1}=2$，得 $a_{2}=-\\dfrac{3}{2}$. 令 $n=2$，得</p>\n$$\n2a_{2}+a_{3}=5\n$$\n<p>所以 $a_{3}=8$.</p></li><li><p>对 $n\\in\\mathbb{N}^{*}$，分别在原递推式中取 $2n-1$ 和 $2n$，得</p>\n$$\na_{2n-1}+2a_{2n}=1-2\\cdot4^{n-1}\n$$\n\n$$\n2a_{2n}+a_{2n+1}=4^{n}+1\n$$\n<p>两式相减，得</p>\n$$\nc_{n}=a_{2n+1}-a_{2n-1}=4^{n}+2\\cdot4^{n-1}=6\\cdot4^{n-1}\n$$\n<p>因此</p>\n$$\n\\frac{c_{n+1}}{c_{n}}=4\n$$\n<p>所以数列 $\\{c_{n}\\}$ 是以 $4$ 为公比的等比数列.</p></li><li><p>由上一步的结果及 $a_{1}=2$，得</p>\n$$\na_{2n-1}=a_{1}+\\sum_{j=1}^{n-1}c_{j}  =2+\\sum_{j=1}^{n-1}6\\cdot4^{j-1}=2\\cdot4^{n-1}\n$$\n<p>再由 $a_{2n-1}+2a_{2n}=1-2\\cdot4^{n-1}$，得</p>\n$$\na_{2n}=\\frac{1-4^{n}}{2}\n$$\n<p>于是</p>\n$$\nS_{2n-1}=\\sum_{j=1}^{n}a_{2j-1}+\\sum_{j=1}^{n-1}a_{2j}=2\\cdot4^{n-1}+\\frac{n-1}{2}\n$$\n\n$$\nS_{2n}=S_{2n-1}+a_{2n}=\\frac{n}{2}\n$$\n<p>从而 $\\frac{S_{2n-1}}{a_{2n-1}}=1+\\frac{n-1}{4^{n}}$，</p><p>$\\frac{S_{2n}}{a_{2n}}=\\frac{n}{1-4^{n}}$.</p><p>令</p>\n$$\nq_{n}=\\frac{S_{2n-1}}{a_{2n-1}}+\\frac{S_{2n}}{a_{2n}}=1+\\frac{n-1}{4^{n}}-\\frac{n}{4^{n}-1}\n$$\n<p>因为</p>\n$$\n\\frac{n-1}{4^{n}}&#x3C;\\frac{n}{4^{n}-1}\n$$\n<p>且两边之差为</p>\n$$\n\\frac{n}{4^{n}-1}-\\frac{n-1}{4^{n}}=\\frac{4^{n}+n-1}{4^{n}(4^{n}-1)}>0\n$$\n<p>所以 $q_{n}&#x3C;1$. 又 $q_{1}=1-\\dfrac{1}{3}=\\dfrac{2}{3}$. 因此</p>\n$$\n\\sum_{k=1}^{2n}\\frac{S_{k}}{a_{k}}=\\sum_{j=1}^{n}q_{j}  \\le\\frac{2}{3}+(n-1)  =n-\\frac{1}{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $b_{1}=2$，$b_{2}=1$，$b_{3}=2$.</p><p>在原递推式中令 $n=1$，得</p>\n$$\na_{1}+2a_{2}=-1\n$$\n<p>代入 $a_{1}=2$，得 $a_{2}=-\\dfrac{3}{2}$. 令 $n=2$，得</p>\n$$\n2a_{2}+a_{3}=5\n$$\n<p>所以 $a_{3}=8$.</p></li><li><p>对 $n\\in\\mathbb{N}^{*}$，分别在原递推式中取 $2n-1$ 和 $2n$，得</p>\n$$\na_{2n-1}+2a_{2n}=1-2\\cdot4^{n-1}\n$$\n\n$$\n2a_{2n}+a_{2n+1}=4^{n}+1\n$$\n<p>两式相减，得</p>\n$$\nc_{n}=a_{2n+1}-a_{2n-1}=4^{n}+2\\cdot4^{n-1}=6\\cdot4^{n-1}\n$$\n<p>因此</p>\n$$\n\\frac{c_{n+1}}{c_{n}}=4\n$$\n<p>所以数列 $\\{c_{n}\\}$ 是以 $4$ 为公比的等比数列.</p></li><li><p>由上一步的结果及 $a_{1}=2$，得</p>\n$$\na_{2n-1}=a_{1}+\\sum_{j=1}^{n-1}c_{j}  =2+\\sum_{j=1}^{n-1}6\\cdot4^{j-1}=2\\cdot4^{n-1}\n$$\n<p>再由 $a_{2n-1}+2a_{2n}=1-2\\cdot4^{n-1}$，得</p>\n$$\na_{2n}=\\frac{1-4^{n}}{2}\n$$\n<p>于是</p>\n$$\nS_{2n-1}=\\sum_{j=1}^{n}a_{2j-1}+\\sum_{j=1}^{n-1}a_{2j}=2\\cdot4^{n-1}+\\frac{n-1}{2}\n$$\n\n$$\nS_{2n}=S_{2n-1}+a_{2n}=\\frac{n}{2}\n$$\n<p>从而 $\\frac{S_{2n-1}}{a_{2n-1}}=1+\\frac{n-1}{4^{n}}$，</p><p>$\\frac{S_{2n}}{a_{2n}}=\\frac{n}{1-4^{n}}$.</p><p>令</p>\n$$\nq_{n}=\\frac{S_{2n-1}}{a_{2n-1}}+\\frac{S_{2n}}{a_{2n}}=1+\\frac{n-1}{4^{n}}-\\frac{n}{4^{n}-1}\n$$\n<p>因为</p>\n$$\n\\frac{n-1}{4^{n}}<\\frac{n}{4^{n}-1}\n$$\n<p>且两边之差为</p>\n$$\n\\frac{n}{4^{n}-1}-\\frac{n-1}{4^{n}}=\\frac{4^{n}+n-1}{4^{n}(4^{n}-1)}>0\n$$\n<p>所以 $q_{n}<1$. 又 $q_{1}=1-\\dfrac{1}{3}=\\dfrac{2}{3}$. 因此</p>\n$$\n\\sum_{k=1}^{2n}\\frac{S_{k}}{a_{k}}=\\sum_{j=1}^{n}q_{j}  \\le\\frac{2}{3}+(n-1)  =n-\\frac{1}{3}\n$$\n</li></ol>"
         }
       ]
     }

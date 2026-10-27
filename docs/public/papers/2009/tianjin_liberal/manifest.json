@@ -59,13 +59,13 @@
           "num": 5,
           "body": "设 $a = \\log_{\\frac{1}{3}}2$，$b = \\log_{\\frac{1}{2}}\\frac{1}{3}$，$c = \\left(\\frac{1}{2}\\right)^{0.3}$，则（ ）",
           "choices": [
-            "$a &#x3C; b &#x3C; c$",
-            "$a &#x3C; c &#x3C; b$",
-            "$b &#x3C; c &#x3C; a$",
-            "$b &#x3C; a &#x3C; c$"
+            "$a < b < c$",
+            "$a < c < b$",
+            "$b < c < a$",
+            "$b < a < c$"
           ],
           "answer": "B",
-          "solution": "<p>因为 $0&#x3C;\\frac{1}{3}&#x3C;1$，所以 $a=\\log_{\\frac{1}{3}}2&#x3C;0$.又因为 $0&#x3C;c&#x3C;1$，故 $a&#x3C;c$.此外</p>\n$$\nb=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\log_{2} 3>1>c\n$$\n<p>所以 $a&#x3C;c&#x3C;b$，选 B.</p>"
+          "solution": "<p>因为 $0<\\frac{1}{3}<1$，所以 $a=\\log_{\\frac{1}{3}}2<0$.又因为 $0<c<1$，故 $a<c$.此外</p>\n$$\nb=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\log_{2} 3>1>c\n$$\n<p>所以 $a<c<b$，选 B.</p>"
         },
         {
           "num": 6,
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "设函数 $f(x) = \\begin{cases}x^{2} - 4x + 6,&#x26;x \\ge 0,\\\\  x + 6,&#x26;x &#x3C; 0,\\end{cases}$ 则不等式 $f(x) > f(1)$ 的解集是（ ）",
+          "body": "设函数 $f(x) = \\begin{cases}x^{2} - 4x + 6,&x \\ge 0,\\\\  x + 6,&x < 0,\\end{cases}$ 则不等式 $f(x) > f(1)$ 的解集是（ ）",
           "choices": [
             "$(-3,1)\\cup (3, + \\infty)$",
             "$(-3,1)\\cup (2, + \\infty)$",
@@ -101,7 +101,7 @@
             "$(-\\infty, -3) \\cup (1, 3)$"
           ],
           "answer": "A",
-          "solution": "<p>先算得 $f(1)=3$.当 $x\\geqslant0$ 时，</p>\n$$\nx^{2}-4x+6>3\\Longleftrightarrow (x-1)(x-3)>0\n$$\n<p>故得到 $[0,1)\\cup(3,+\\infty)$.当 $x&#x3C;0$ 时，$x+6>3$ 等价于 $-3&#x3C;x&#x3C;0$.合并两种情形，解集为 $(-3,1)\\cup(3,+\\infty)$，选 A.</p>"
+          "solution": "<p>先算得 $f(1)=3$.当 $x\\geqslant0$ 时，</p>\n$$\nx^{2}-4x+6>3\\Longleftrightarrow (x-1)(x-3)>0\n$$\n<p>故得到 $[0,1)\\cup(3,+\\infty)$.当 $x<0$ 时，$x+6>3$ 等价于 $-3<x<0$.合并两种情形，解集为 $(-3,1)\\cup(3,+\\infty)$，选 A.</p>"
         },
         {
           "num": 9,
@@ -120,12 +120,12 @@
           "body": "设函数 $f(x)$ 在 $\\mathbb{R}$ 上的导函数为 $f'(x)$，且 $2f(x) + xf'(x) > x^{2}$. 下面的不等式在 $\\mathbb{R}$ 内恒成立的是（ ）",
           "choices": [
             "$f(x) > 0$",
-            "$f(x) &#x3C; 0$",
+            "$f(x) < 0$",
             "$f(x) > x$",
-            "$f(x) &#x3C; x$"
+            "$f(x) < x$"
           ],
           "answer": "A",
-          "solution": "<p>令 $g(x)=x^{2}f(x)$，则</p>\n$$\ng'(x)=x\\bigl(2f(x)+xf'(x)\\bigr)\n$$\n<p>当 $x>0$ 时，$g'(x)>x^{3}$，从 $0$ 积分到 $x$，得</p>\n$$\nx^{2}f(x)=g(x)>\\int_{0}^{x} t^{3}\\,\\mathrm{d}t=\\frac{x^{4}}{4}\n$$\n<p>所以 $f(x)>\\frac{x^{2}}{4}>0$.当 $x&#x3C;0$ 时，$g'(x)&#x3C;x^{3}$，从 $x$ 积分到 $0$，得</p>\n$$\n-x^{2}f(x)=g(0)-g(x)&#x3C;\\int_{x}^{0}t^{3}\\,\\mathrm{d}t=-\\frac{x^{4}}{4}\n$$\n<p>同样得到 $f(x)>\\frac{x^{2}}{4}>0$.在 $x=0$ 时，原不等式给出 $2f(0)>0$.故恒有 $f(x)>0$，选 A.</p>"
+          "solution": "<p>令 $g(x)=x^{2}f(x)$，则</p>\n$$\ng'(x)=x\\bigl(2f(x)+xf'(x)\\bigr)\n$$\n<p>当 $x>0$ 时，$g'(x)>x^{3}$，从 $0$ 积分到 $x$，得</p>\n$$\nx^{2}f(x)=g(x)>\\int_{0}^{x} t^{3}\\,\\mathrm{d}t=\\frac{x^{4}}{4}\n$$\n<p>所以 $f(x)>\\frac{x^{2}}{4}>0$.当 $x<0$ 时，$g'(x)<x^{3}$，从 $x$ 积分到 $0$，得</p>\n$$\n-x^{2}f(x)=g(0)-g(x)<\\int_{x}^{0}t^{3}\\,\\mathrm{d}t=-\\frac{x^{4}}{4}\n$$\n<p>同样得到 $f(x)>\\frac{x^{2}}{4}>0$.在 $x=0$ 时，原不等式给出 $2f(0)>0$.故恒有 $f(x)>0$，选 A.</p>"
         }
       ]
     },
@@ -148,10 +148,10 @@
         },
         {
           "num": 13,
-          "body": "设全集 $U = A \\cup B = \\{x \\in \\mathbb{N}^{*}\\mid \\lg x &#x3C; 1\\}$，若 $A \\cap (\\complement_{U} B) = \\{m \\mid m = 2n + 1, n = 0, 1, 2, 3, 4\\}$，则集合 $B =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "设全集 $U = A \\cup B = \\{x \\in \\mathbb{N}^{*}\\mid \\lg x < 1\\}$，若 $A \\cap (\\complement_{U} B) = \\{m \\mid m = 2n + 1, n = 0, 1, 2, 3, 4\\}$，则集合 $B =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\{2,4,6,8\\}$",
-          "solution": "<p>由 $\\lg x&#x3C;1$ 且 $x\\in\\mathbb{N}^{*}$，得 $U=\\{1,2,3,4,5,6,7,8,9\\}$.已知</p>\n$$\nA\\cap(\\complement_{U} B)=\\{1,3,5,7,9\\}\n$$\n<p>所以奇数属于 $A$ 且不属于 $B$.对任一偶数 $x$，由 $A\\cup B=U$ 知 $x\\in A$ 或 $x\\in B$.若 $x\\in A$，又因 $x$ 不在已知的交集中 $A\\cap(\\complement_{U} B)$，可知 $x\\notin\\complement_{U} B$，从而 $x\\in B$；若 $x\\notin A$，则由并集条件直接有 $x\\in B$.因此所有偶数都属于 $B$，而奇数都不属于 $B$，故</p>\n$$\nB=\\{2,4,6,8\\}\n$$"
+          "solution": "<p>由 $\\lg x<1$ 且 $x\\in\\mathbb{N}^{*}$，得 $U=\\{1,2,3,4,5,6,7,8,9\\}$.已知</p>\n$$\nA\\cap(\\complement_{U} B)=\\{1,3,5,7,9\\}\n$$\n<p>所以奇数属于 $A$ 且不属于 $B$.对任一偶数 $x$，由 $A\\cup B=U$ 知 $x\\in A$ 或 $x\\in B$.若 $x\\in A$，又因 $x$ 不在已知的交集中 $A\\cap(\\complement_{U} B)$，可知 $x\\notin\\complement_{U} B$，从而 $x\\in B$；若 $x\\notin A$，则由并集条件直接有 $x\\in B$.因此所有偶数都属于 $B$，而奇数都不属于 $B$，故</p>\n$$\nB=\\{2,4,6,8\\}\n$$"
         },
         {
           "num": 14,
@@ -169,10 +169,10 @@
         },
         {
           "num": 16,
-          "body": "若关于 $x$ 的不等式 $(2x - 1)^{2} &#x3C; ax^{2}$ 的解集中的整数恰好有3个，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "若关于 $x$ 的不等式 $(2x - 1)^{2} < ax^{2}$ 的解集中的整数恰好有3个，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(\\frac{25}{9},\\frac{49}{16}\\right]$",
-          "solution": "<p>当 $a\\leqslant0$ 时不等式无解.当 $a>4$ 时，对充分大的正整数 $x$ 有 $(2-\\frac{1}{x})^{2}&#x3C;a$，解集中有无穷多个整数；当 $a=4$ 时，所有正整数都满足不等式.因此恰有3个整数解时必有 $0&#x3C;a&#x3C;4$.</p><p>$(2x-1)^{2}-4x^{2}=1-4x>0$，（$x&#x3C;0$），</p><p>所以在 $a&#x3C;4$ 时不存在负整数解；$x=0$ 也不满足不等式.对正整数 $x$，不等式等价于</p>\n$$\na>\\left(2-\\frac{1}{x}\\right)^{2}\n$$\n<p>数列 $\\left(2-\\frac{1}{x}\\right)^{2}$ 随正整数 $x$ 严格递增.要使恰有 $x=1$，$2$，$3$ 三个正整数解，必须且只需</p>\n$$\n\\left(2-\\frac{1}{3}\\right)^{2}&#x3C;a\\le\\left(2-\\frac{1}{4}\\right)^{2}\n$$\n<p>即</p>\n$$\na\\in\\left(\\frac{25}{9},\\frac{49}{16}\\right]\n$$\n<p>上端点取等时 $x=4$ 为等号，不属于严格不等式的解集，故上端点应取到.</p>"
+          "solution": "<p>当 $a\\leqslant0$ 时不等式无解.当 $a>4$ 时，对充分大的正整数 $x$ 有 $(2-\\frac{1}{x})^{2}<a$，解集中有无穷多个整数；当 $a=4$ 时，所有正整数都满足不等式.因此恰有3个整数解时必有 $0<a<4$.</p><p>$(2x-1)^{2}-4x^{2}=1-4x>0$，（$x<0$），</p><p>所以在 $a<4$ 时不存在负整数解；$x=0$ 也不满足不等式.对正整数 $x$，不等式等价于</p>\n$$\na>\\left(2-\\frac{1}{x}\\right)^{2}\n$$\n<p>数列 $\\left(2-\\frac{1}{x}\\right)^{2}$ 随正整数 $x$ 严格递增.要使恰有 $x=1$，$2$，$3$ 三个正整数解，必须且只需</p>\n$$\n\\left(2-\\frac{1}{3}\\right)^{2}<a\\le\\left(2-\\frac{1}{4}\\right)^{2}\n$$\n<p>即</p>\n$$\na\\in\\left(\\frac{25}{9},\\frac{49}{16}\\right]\n$$\n<p>上端点取等时 $x=4$ 为等号，不属于严格不等式的解集，故上端点应取到.</p>"
         }
       ]
     },
@@ -209,17 +209,17 @@
         },
         {
           "num": 21,
-          "body": "<p>设函数 $f(x) = -\\frac{1}{3}x^{3} + x^{2} + (m^{2} - 1)x$（$x \\in \\mathbb{R}$），其中 $m > 0$.</p><ol class=\"enumerate\"><li><p>当 $m = 1$ 时，求曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线的斜率；</p></li><li><p>求函数的单调区间与极值；</p></li><li><p>已知函数 $f(x)$ 有三个互不相同的零点 $0$，$x_{1}$，$x_{2}$，且 $x_{1} &#x3C; x_{2}$. 若对任意的 $x \\in [x_{1}, x_{2}]$，$f(x) > f(1)$ 恒成立，求 $m$ 的取值范围.</p></li></ol>",
+          "body": "<p>设函数 $f(x) = -\\frac{1}{3}x^{3} + x^{2} + (m^{2} - 1)x$（$x \\in \\mathbb{R}$），其中 $m > 0$.</p><ol class=\"enumerate\"><li><p>当 $m = 1$ 时，求曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线的斜率；</p></li><li><p>求函数的单调区间与极值；</p></li><li><p>已知函数 $f(x)$ 有三个互不相同的零点 $0$，$x_{1}$，$x_{2}$，且 $x_{1} < x_{2}$. 若对任意的 $x \\in [x_{1}, x_{2}]$，$f(x) > f(1)$ 恒成立，求 $m$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$m=1$ 时，$f'(x)=-x^{2}+2x$，所以切线斜率为 $f'(1)=1$.</p></li><li>\n$$\nf'(x)=-x^{2}+2x+m^{2}-1=m^{2}-(x-1)^{2}\n$$\n<p>因此 $f'(x)&#x3C;0$ 于 $(-\\infty,1-m)$ 和 $(1+m,+\\infty)$，$f'(x)>0$ 于 $(1-m,1+m)$.所以函数在前两个区间内分别为减函数，在中间区间内为增函数；在 $x=1-m$ 处取得极小值，在 $x=1+m$ 处取得极大值.代入得</p><p>$f(1-m)=-\\frac{2}{3}m^{3}+m^{2}-\\frac{1}{3}$，$f(1+m)=\\frac{2}{3}m^{3}+m^{2}-\\frac{1}{3}$.</p></li><li><p>因为</p>\n$$\nf(x)=-\\frac{1}{3}x\\bigl(x^{2}-3x+3-3m^{2}\\bigr)\n$$\n<p>所以另外两个零点是</p>\n$$\nx_{1,2}=\\frac{3\\mp\\sqrt{12m^{2}-3}}{2}\n$$\n<p>三个零点互不相同首先要求 $m>\\frac{1}{2}$，且 $m\\ne1$.</p><p>若 $m>1$，则 $x_{1}&#x3C;0&#x3C;x_{2}$，而题设区间包含零点端点，端点处 $f(x_{i})=0$，同时 $f(1)=m^{2}-\\frac{1}{3}>0$，不可能有 $f(x_{i})>f(1)$.因此必须有 $m&#x3C;1$.此时 $x_{1}$，$x_{2}>0$.在 $[x_{1},x_{2}]$ 上，因</p>\n$$\nf(x)=-\\frac{1}{3}x(x-x_{1})(x-x_{2})\\geqslant0\n$$\n<p>所以题设恒不等式成立的充要条件是 $f(1)&#x3C;0$.又</p>\n$$\nf(1)=m^{2}-\\frac{1}{3}\n$$\n<p>故</p>\n$$\n\\frac{1}{2}&#x3C;m&#x3C;\\frac{\\sqrt{3}}{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$m=1$ 时，$f'(x)=-x^{2}+2x$，所以切线斜率为 $f'(1)=1$.</p></li><li>\n$$\nf'(x)=-x^{2}+2x+m^{2}-1=m^{2}-(x-1)^{2}\n$$\n<p>因此 $f'(x)<0$ 于 $(-\\infty,1-m)$ 和 $(1+m,+\\infty)$，$f'(x)>0$ 于 $(1-m,1+m)$.所以函数在前两个区间内分别为减函数，在中间区间内为增函数；在 $x=1-m$ 处取得极小值，在 $x=1+m$ 处取得极大值.代入得</p><p>$f(1-m)=-\\frac{2}{3}m^{3}+m^{2}-\\frac{1}{3}$，$f(1+m)=\\frac{2}{3}m^{3}+m^{2}-\\frac{1}{3}$.</p></li><li><p>因为</p>\n$$\nf(x)=-\\frac{1}{3}x\\bigl(x^{2}-3x+3-3m^{2}\\bigr)\n$$\n<p>所以另外两个零点是</p>\n$$\nx_{1,2}=\\frac{3\\mp\\sqrt{12m^{2}-3}}{2}\n$$\n<p>三个零点互不相同首先要求 $m>\\frac{1}{2}$，且 $m\\ne1$.</p><p>若 $m>1$，则 $x_{1}<0<x_{2}$，而题设区间包含零点端点，端点处 $f(x_{i})=0$，同时 $f(1)=m^{2}-\\frac{1}{3}>0$，不可能有 $f(x_{i})>f(1)$.因此必须有 $m<1$.此时 $x_{1}$，$x_{2}>0$.在 $[x_{1},x_{2}]$ 上，因</p>\n$$\nf(x)=-\\frac{1}{3}x(x-x_{1})(x-x_{2})\\geqslant0\n$$\n<p>所以题设恒不等式成立的充要条件是 $f(1)<0$.又</p>\n$$\nf(1)=m^{2}-\\frac{1}{3}\n$$\n<p>故</p>\n$$\n\\frac{1}{2}<m<\\frac{\\sqrt{3}}{3}\n$$\n</li></ol>"
         },
         {
           "num": 22,
           "body": "<p>已知椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ （$a > b > 0$）的两个焦点分别为 $F_{1}(-c,0)$ 和 $F_{2}(c,0)$（$c > 0$），过点 $E\\left(\\frac{a^{2}}{c}, 0\\right)$ 的直线与椭圆相交于 $A$，$B$ 两点，且 $F_{1}A \\parallel F_{2}B$，$|F_{1}A| = 2|F_{2}B|$.</p><ol class=\"enumerate\"><li><p>求椭圆的离心率；</p></li><li><p>求直线 $AB$ 的斜率；</p></li><li><p>设点 $C$ 与点 $A$ 关于坐标原点对称，直线 $F_{2}B$ 上有一点 $H(m, n)$（$m \\neq 0$）在 $\\triangle AF_{1}C$ 的外接圆上，求 $\\frac{n}{m}$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\overrightarrow{F_1A}\\parallel\\overrightarrow{F_2B}$ 且长度比为 $2$，设</p><p>$\\overrightarrow{F_1A}=\\lambda\\overrightarrow{F_2B}$，$|\\lambda|=2$.</p><p>写 $A=(x_{A},y_{A})$、$B=(x_{B},y_{B})$，则</p>\n$$\nA=\\lambda B-(\\lambda+1)(c,0)\n$$\n<p>从而直线 $AB$ 与 $x$ 轴的交点横坐标为</p>\n$$\nx_{E}=\\frac{x_{A}y_{B}-x_{B}y_{A}}{y_{B}-y_{A}}=\\frac{\\lambda+1}{\\lambda-1}c\n$$\n<p>若 $y_{A}=y_{B}$，由 $y_{A}=\\lambda y_{B}$ 及 $\\lambda\\ne1$ 可得 $y_{A}=y_{B}=0$.此时 $A$、$B$ 是椭圆在 $x$ 轴上的两个交点，且 $\\lvert F_{1}A\\rvert=\\lvert F_{2}B\\rvert$，与题设矛盾，故 $y_{A}\\ne y_{B}$，上式有意义.若 $\\lambda=-2$，则 $x_{E}=\\frac{c}{3}&#x3C;c$，与 $x_{E}=\\frac{a^{2}}{c}>c$ 矛盾.因此 $\\lambda=2$，于是 $x_{E}=3c$.由 $x_{E}=\\frac{a^{2}}{c}$，得 $a^{2}=3c^{2}$，所以离心率为</p>\n$$\ne=\\frac{c}{a}=\\frac{\\sqrt{3}}{3}\n$$\n</li><li><p>由 $b^{2}=a^{2}-c^{2}=2c^{2}$，椭圆方程化为</p>\n$$\n2x^{2}+3y^{2}=6c^{2}\n$$\n<p>由 $\\overrightarrow{F_1A}=2\\overrightarrow{F_2B}$ 还得到 $B$ 是线段 $AE$ 的中点.设直线 $AB$ 为</p>\n$$\ny=k(x-3c)\n$$\n<p>并设 $A=(x_{1},y_{1})$、$B=(x_{2},y_{2})$.联立直线与椭圆方程，得</p>\n$$\n(2+3k^{2})x^{2}-18k^{2}cx+(27k^{2}-6)c^{2}=0\n$$\n<p>由韦达定理，</p><p>$x_{1}+x_{2}=\\frac{18k^{2}c}{2+3k^{2}}$，$x_{1}x_{2}=\\frac{(27k^{2}-6)c^{2}}{2+3k^{2}}$.</p><p>又因 $B$ 是 $AE$ 的中点，$x_{1}+3c=2x_{2}$，故</p><p>$x_{1}=\\frac{(9k^{2}-2)c}{2+3k^{2}}$，$x_{2}=\\frac{(9k^{2}+2)c}{2+3k^{2}}$.</p><p>代入积的关系并约去 $c^{2}$，得</p>\n$$\n\\frac{81k^{4}-4}{(2+3k^{2})^{2}}=\\frac{27k^{2}-6}{2+3k^{2}}\n$$\n<p>即 $36k^{2}=8$.因此</p>\n$$\nk=\\pm\\frac{\\sqrt{2}}{3}\n$$\n</li><li><p>先取 $k=-\\frac{\\sqrt{2}}{3}$.由上面的根式可得</p><p>$A=(0,\\sqrt{2}c)$，$B=\\left(\\frac{3c}{2},\\frac{\\sqrt{2}c}{2}\\right)$，$C=(0,-\\sqrt{2}c)$.</p><p>$A$，$C$ 关于 $x$ 轴对称，所以 $\\triangle AF_{1}C$ 的外接圆圆心在 $x$ 轴上.设圆心为 $(u,0)$，由它到 $F_{1}(-c,0)$ 和 $A(0,\\sqrt{2}c)$ 的距离相等，得 $u=\\frac{c}{2}$，外接圆方程为</p>\n$$\n\\left(x-\\frac{c}{2}\\right)^{2}+y^{2}=\\frac{9c^{2}}{4}\n$$\n<p>直线 $F_{2}B$ 的方程为 $y=\\sqrt{2}(x-c)$.因此 $H(m,n)$ 满足</p>\n$$\n\\begin{cases}\\left(m-\\frac{c}{2}\\right)^{2}+n^{2}=\\dfrac{9c^2}{4},\\\\  n=\\sqrt{2}(m-c).\\end{cases}\n$$\n<p>代入并整理得 $m(3m-5c)=0$.由 $m\\ne0$，得</p><p>$m=\\frac{5c}{3}$，$n=\\frac{2\\sqrt{2}c}{3}$，$\\frac{n}{m}=\\frac{2\\sqrt{2}}{5}$.</p><p>当 $k=\\frac{\\sqrt{2}}{3}$ 时，图形关于 $x$ 轴对称，所对应的 $\\frac{n}{m}$ 为 $-2\\frac{\\sqrt{2}}{5}$.因此按题面未限定 $A$ 所在半平面时，所有可能值为</p>\n$$\n\\frac{n}{m}=\\pm\\frac{2\\sqrt{2}}{5}\n$$\n<p>若按通常解答约定取 $k&#x3C;0$，则取正值 $2\\frac{\\sqrt{2}}{5}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\overrightarrow{F_1A}\\parallel\\overrightarrow{F_2B}$ 且长度比为 $2$，设</p><p>$\\overrightarrow{F_1A}=\\lambda\\overrightarrow{F_2B}$，$|\\lambda|=2$.</p><p>写 $A=(x_{A},y_{A})$、$B=(x_{B},y_{B})$，则</p>\n$$\nA=\\lambda B-(\\lambda+1)(c,0)\n$$\n<p>从而直线 $AB$ 与 $x$ 轴的交点横坐标为</p>\n$$\nx_{E}=\\frac{x_{A}y_{B}-x_{B}y_{A}}{y_{B}-y_{A}}=\\frac{\\lambda+1}{\\lambda-1}c\n$$\n<p>若 $y_{A}=y_{B}$，由 $y_{A}=\\lambda y_{B}$ 及 $\\lambda\\ne1$ 可得 $y_{A}=y_{B}=0$.此时 $A$、$B$ 是椭圆在 $x$ 轴上的两个交点，且 $\\lvert F_{1}A\\rvert=\\lvert F_{2}B\\rvert$，与题设矛盾，故 $y_{A}\\ne y_{B}$，上式有意义.若 $\\lambda=-2$，则 $x_{E}=\\frac{c}{3}<c$，与 $x_{E}=\\frac{a^{2}}{c}>c$ 矛盾.因此 $\\lambda=2$，于是 $x_{E}=3c$.由 $x_{E}=\\frac{a^{2}}{c}$，得 $a^{2}=3c^{2}$，所以离心率为</p>\n$$\ne=\\frac{c}{a}=\\frac{\\sqrt{3}}{3}\n$$\n</li><li><p>由 $b^{2}=a^{2}-c^{2}=2c^{2}$，椭圆方程化为</p>\n$$\n2x^{2}+3y^{2}=6c^{2}\n$$\n<p>由 $\\overrightarrow{F_1A}=2\\overrightarrow{F_2B}$ 还得到 $B$ 是线段 $AE$ 的中点.设直线 $AB$ 为</p>\n$$\ny=k(x-3c)\n$$\n<p>并设 $A=(x_{1},y_{1})$、$B=(x_{2},y_{2})$.联立直线与椭圆方程，得</p>\n$$\n(2+3k^{2})x^{2}-18k^{2}cx+(27k^{2}-6)c^{2}=0\n$$\n<p>由韦达定理，</p><p>$x_{1}+x_{2}=\\frac{18k^{2}c}{2+3k^{2}}$，$x_{1}x_{2}=\\frac{(27k^{2}-6)c^{2}}{2+3k^{2}}$.</p><p>又因 $B$ 是 $AE$ 的中点，$x_{1}+3c=2x_{2}$，故</p><p>$x_{1}=\\frac{(9k^{2}-2)c}{2+3k^{2}}$，$x_{2}=\\frac{(9k^{2}+2)c}{2+3k^{2}}$.</p><p>代入积的关系并约去 $c^{2}$，得</p>\n$$\n\\frac{81k^{4}-4}{(2+3k^{2})^{2}}=\\frac{27k^{2}-6}{2+3k^{2}}\n$$\n<p>即 $36k^{2}=8$.因此</p>\n$$\nk=\\pm\\frac{\\sqrt{2}}{3}\n$$\n</li><li><p>先取 $k=-\\frac{\\sqrt{2}}{3}$.由上面的根式可得</p><p>$A=(0,\\sqrt{2}c)$，$B=\\left(\\frac{3c}{2},\\frac{\\sqrt{2}c}{2}\\right)$，$C=(0,-\\sqrt{2}c)$.</p><p>$A$，$C$ 关于 $x$ 轴对称，所以 $\\triangle AF_{1}C$ 的外接圆圆心在 $x$ 轴上.设圆心为 $(u,0)$，由它到 $F_{1}(-c,0)$ 和 $A(0,\\sqrt{2}c)$ 的距离相等，得 $u=\\frac{c}{2}$，外接圆方程为</p>\n$$\n\\left(x-\\frac{c}{2}\\right)^{2}+y^{2}=\\frac{9c^{2}}{4}\n$$\n<p>直线 $F_{2}B$ 的方程为 $y=\\sqrt{2}(x-c)$.因此 $H(m,n)$ 满足</p>\n$$\n\\begin{cases}\\left(m-\\frac{c}{2}\\right)^{2}+n^{2}=\\dfrac{9c^2}{4},\\\\  n=\\sqrt{2}(m-c).\\end{cases}\n$$\n<p>代入并整理得 $m(3m-5c)=0$.由 $m\\ne0$，得</p><p>$m=\\frac{5c}{3}$，$n=\\frac{2\\sqrt{2}c}{3}$，$\\frac{n}{m}=\\frac{2\\sqrt{2}}{5}$.</p><p>当 $k=\\frac{\\sqrt{2}}{3}$ 时，图形关于 $x$ 轴对称，所对应的 $\\frac{n}{m}$ 为 $-2\\frac{\\sqrt{2}}{5}$.因此按题面未限定 $A$ 所在半平面时，所有可能值为</p>\n$$\n\\frac{n}{m}=\\pm\\frac{2\\sqrt{2}}{5}\n$$\n<p>若按通常解答约定取 $k<0$，则取正值 $2\\frac{\\sqrt{2}}{5}$.</p></li></ol>"
         }
       ]
     }

@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $M = \\{x \\mid (x + 3)(x - 2) &#x3C; 0\\}$，$N = \\{x \\mid 1 \\le x \\le 3\\}$，则 $M \\cap N =$（ ）",
+          "body": "设集合 $M = \\{x \\mid (x + 3)(x - 2) < 0\\}$，$N = \\{x \\mid 1 \\le x \\le 3\\}$，则 $M \\cap N =$（ ）",
           "choices": [
             "$[1,2)$",
             "$[1,2]$",
@@ -17,7 +17,7 @@
             "$[2,3]$"
           ],
           "answer": "A",
-          "solution": "由 $(x+3)(x-2)&#x3C;0$ 得 $-3&#x3C;x&#x3C;2$，所以 $M=(-3,2)$. 又 $N=[1,3]$，故 $M\\cap N=[1,2)$，选 A."
+          "solution": "由 $(x+3)(x-2)<0$ 得 $-3<x<2$，所以 $M=(-3,2)$. 又 $N=[1,3]$，故 $M\\cap N=[1,2)$，选 A."
         },
         {
           "num": 2,
@@ -59,13 +59,13 @@
           "num": 5,
           "body": "已知 $a$，$b$，$c \\in \\mathbb{R}$，命题“若 $a + b + c = 3$，则 $a^{2} + b^{2} + c^{2} \\ge 3$”的否命题是（ ）",
           "choices": [
-            "若 $a + b + c \\neq 3$，则 $a^{2} + b^{2} + c^{2} &#x3C; 3$",
-            "若 $a + b + c = 3$，则 $a^{2} + b^{2} + c^{2} &#x3C; 3$",
+            "若 $a + b + c \\neq 3$，则 $a^{2} + b^{2} + c^{2} < 3$",
+            "若 $a + b + c = 3$，则 $a^{2} + b^{2} + c^{2} < 3$",
             "若 $a + b + c \\neq 3$，则 $a^{2} + b^{2} + c^{2} \\ge 3$",
             "若 $a^{2} + b^{2} + c^{2} \\ge 3$，则 $a + b + c = 3$"
           ],
           "answer": "A",
-          "solution": "<p>设原命题为“若 $p$，则 $q$”，其中 $p$ 为 $a+b+c=3$，$q$ 为 $a^{2}+b^{2}+c^{2}\\geqslant3$. 否命题为“若非 $p$，则非 $q$”，即</p>\n$$\na+b+c\\neq3\\Longrightarrow a^{2}+b^{2}+c^{2}&#x3C;3\n$$\n<p>所以选 A.</p>"
+          "solution": "<p>设原命题为“若 $p$，则 $q$”，其中 $p$ 为 $a+b+c=3$，$q$ 为 $a^{2}+b^{2}+c^{2}\\geqslant3$. 否命题为“若非 $p$，则非 $q$”，即</p>\n$$\na+b+c\\neq3\\Longrightarrow a^{2}+b^{2}+c^{2}<3\n$$\n<p>所以选 A.</p>"
         },
         {
           "num": 6,
@@ -77,7 +77,7 @@
             "3"
           ],
           "answer": "B",
-          "solution": "<p>函数在 $x=\\dfrac{\\pi}{3}$ 的左侧递增、右侧递减，因此该点是局部最大值点. 由 $f'(x)=\\omega\\cos(\\omega x)$，得</p><p>$f'\\left(\\frac{\\pi}{3}\\right)=0$，$\\cos\\frac{\\omega\\pi}{3}=0$.</p><p>于是 $\\dfrac{\\omega\\pi}{3}=\\dfrac{(2k+1)\\pi}{2}$，其中 $k$ 为非负整数. 若 $k\\geqslant1$，则第一个使 $\\cos(\\omega x)=0$ 的正数点为 $x=\\dfrac{\\pi}{2\\omega}&#x3C;\\dfrac{\\pi}{3}$，其后 $\\cos(\\omega x)&#x3C;0$，从而 $f'(x)&#x3C;0$，与区间 $\\left[0,\\dfrac{\\pi}{3}\\right]$ 上单调递增矛盾. 因此 $k=0$，所以 $\\omega=\\dfrac{3}{2}$，选 B.</p>"
+          "solution": "<p>函数在 $x=\\dfrac{\\pi}{3}$ 的左侧递增、右侧递减，因此该点是局部最大值点. 由 $f'(x)=\\omega\\cos(\\omega x)$，得</p><p>$f'\\left(\\frac{\\pi}{3}\\right)=0$，$\\cos\\frac{\\omega\\pi}{3}=0$.</p><p>于是 $\\dfrac{\\omega\\pi}{3}=\\dfrac{(2k+1)\\pi}{2}$，其中 $k$ 为非负整数. 若 $k\\geqslant1$，则第一个使 $\\cos(\\omega x)=0$ 的正数点为 $x=\\dfrac{\\pi}{2\\omega}<\\dfrac{\\pi}{3}$，其后 $\\cos(\\omega x)<0$，从而 $f'(x)<0$，与区间 $\\left[0,\\dfrac{\\pi}{3}\\right]$ 上单调递增矛盾. 因此 $k=0$，所以 $\\omega=\\dfrac{3}{2}$，选 B.</p>"
         },
         {
           "num": 7,
@@ -125,7 +125,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_liberal/q10_choice_d.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "C",
-          "solution": "<p>函数 $f(x)=\\dfrac{x}{2}-2\\sin x$ 满足 $f(-x)=-f(x)$，所以图象关于原点对称，且 $f(0)=0$. 又</p><p>$f'(x)=\\frac{1}{2}-2\\cos x$，$f'(0)=-\\frac{3}{2}&#x3C;0$.</p><p>令 $\\alpha=\\arccos\\dfrac{1}{4}$，则在 $[0,2\\pi]$ 上，$f'(x)=0$ 的两个点为 $\\alpha$ 和 $2\\pi-\\alpha$，函数依次递减、递增、递减. 因为 $\\sin\\alpha=\\dfrac{\\sqrt{15}}{4}$，且 $\\alpha&#x3C;\\dfrac{\\pi}{2}&#x3C;2&#x3C;\\sqrt{15}$，所以</p><p>$f(\\alpha)=\\frac{\\alpha}{2}-2\\sin\\alpha&#x3C;0$，$f(\\pi)=\\frac{\\pi}{2}>0$，$f(2\\pi)=\\pi>0$.</p><p>因此图象从原点向右先下降到 $x$ 轴下方，再上升到上方，随后下降但在 $x=2\\pi$ 处仍在 $x$ 轴上方；左半部分由原点对称性确定. 只有选项 C 同时满足这些性质，故选 C.</p>"
+          "solution": "<p>函数 $f(x)=\\dfrac{x}{2}-2\\sin x$ 满足 $f(-x)=-f(x)$，所以图象关于原点对称，且 $f(0)=0$. 又</p><p>$f'(x)=\\frac{1}{2}-2\\cos x$，$f'(0)=-\\frac{3}{2}<0$.</p><p>令 $\\alpha=\\arccos\\dfrac{1}{4}$，则在 $[0,2\\pi]$ 上，$f'(x)=0$ 的两个点为 $\\alpha$ 和 $2\\pi-\\alpha$，函数依次递减、递增、递减. 因为 $\\sin\\alpha=\\dfrac{\\sqrt{15}}{4}$，且 $\\alpha<\\dfrac{\\pi}{2}<2<\\sqrt{15}$，所以</p><p>$f(\\alpha)=\\frac{\\alpha}{2}-2\\sin\\alpha<0$，$f(\\pi)=\\frac{\\pi}{2}>0$，$f(2\\pi)=\\pi>0$.</p><p>因此图象从原点向右先下降到 $x$ 轴下方，再上升到上方，随后下降但在 $x=2\\pi$ 处仍在 $x$ 轴上方；左半部分由原点对称性确定. 只有选项 C 同时满足这些性质，故选 C.</p>"
         },
         {
           "num": 11,
@@ -149,7 +149,7 @@
             "$C$，$D$ 不可能同时在线段 $AB$ 的延长线上"
           ],
           "answer": "D",
-          "solution": "<p>由定义，$\\overrightarrow{AC}=c\\overrightarrow{AB}$，$\\overrightarrow{AD}=d\\overrightarrow{AB}$，所以 $c\\neq0$、$d\\neq0$，且</p>\n$$\n\\frac{1}{c}+\\frac{1}{d}=2\\iff c+d=2cd\n$$\n<p>若 $C$ 是线段 $AB$ 的中点，则 $c=\\dfrac{1}{2}$，代入上式得 $\\dfrac{1}{2}+d=d$，矛盾；同理 $D$ 不可能是线段 $AB$ 的中点. 另外，若 $C$，$D$ 同时在线段 $AB$ 上，则 $0&#x3C;c&#x3C;1$、$0&#x3C;d&#x3C;1$. 当 $0&#x3C;c&#x3C;\\dfrac{1}{2}$ 时，$2c-1&#x3C;0$，由 $d=\\dfrac{c}{2c-1}$ 得 $d&#x3C;0$；当 $\\dfrac{1}{2}&#x3C;c&#x3C;1$ 时，$0&#x3C;2c-1&#x3C;c$，得 $d>1$，均不可能.</p><p>由 $c+d=2cd$ 还可得</p>\n$$\n(2c-1)(2d-1)=1\n$$\n<p>若 $C$，$D$ 同时在 $AB$ 的延长线上，则两点或者分别位于 $A$、$B$ 两侧，此时左式小于 $0$；或者同在一侧，此时两个因子同号且其绝对值都大于 $1$，左式大于 $1$，均不可能. 因而只有第四个说法正确，选 D.</p>"
+          "solution": "<p>由定义，$\\overrightarrow{AC}=c\\overrightarrow{AB}$，$\\overrightarrow{AD}=d\\overrightarrow{AB}$，所以 $c\\neq0$、$d\\neq0$，且</p>\n$$\n\\frac{1}{c}+\\frac{1}{d}=2\\iff c+d=2cd\n$$\n<p>若 $C$ 是线段 $AB$ 的中点，则 $c=\\dfrac{1}{2}$，代入上式得 $\\dfrac{1}{2}+d=d$，矛盾；同理 $D$ 不可能是线段 $AB$ 的中点. 另外，若 $C$，$D$ 同时在线段 $AB$ 上，则 $0<c<1$、$0<d<1$. 当 $0<c<\\dfrac{1}{2}$ 时，$2c-1<0$，由 $d=\\dfrac{c}{2c-1}$ 得 $d<0$；当 $\\dfrac{1}{2}<c<1$ 时，$0<2c-1<c$，得 $d>1$，均不可能.</p><p>由 $c+d=2cd$ 还可得</p>\n$$\n(2c-1)(2d-1)=1\n$$\n<p>若 $C$，$D$ 同时在 $AB$ 的延长线上，则两点或者分别位于 $A$、$B$ 两侧，此时左式小于 $0$；或者同在一侧，此时两个因子同号且其绝对值都大于 $1$，左式大于 $1$，均不可能. 因而只有第四个说法正确，选 D.</p>"
         }
       ]
     },
@@ -179,10 +179,10 @@
         },
         {
           "num": 16,
-          "body": "已知函数 $f(x) = \\log_{a} x + x - b$（$a > 0$，且 $a \\neq 1$）. 当 $2 &#x3C; a &#x3C; 3 &#x3C; b &#x3C; 4$ 时，函数 $f(x)$ 的零点 $x_{0} \\in (n, n + 1)$，$n \\in \\mathbb{N}^{*}$，则 $n =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知函数 $f(x) = \\log_{a} x + x - b$（$a > 0$，且 $a \\neq 1$）. 当 $2 < a < 3 < b < 4$ 时，函数 $f(x)$ 的零点 $x_{0} \\in (n, n + 1)$，$n \\in \\mathbb{N}^{*}$，则 $n =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "2",
-          "solution": "<p>由 $a>2>1$，函数在 $x>0$ 上的导数为</p>\n$$\nf'(x)=\\frac{1}{x\\ln a}+1>0\n$$\n<p>所以 $f(x)$ 在定义域上单调递增. 又因为 $a>2$，有 $\\log_{a}2&#x3C;1$，且 $b>3$，所以</p>\n$$\nf(2)=\\log_{a}2+2-b&#x3C;1+2-b&#x3C;0\n$$\n<p>因为 $a&#x3C;3$，有 $\\log_{a}3>1$，且 $b&#x3C;4$，所以</p>\n$$\nf(3)=\\log_{a}3+3-b>1+3-b>0\n$$\n<p>由零点存在性及单调性，唯一零点满足 $x_{0}\\in(2,3)$，故 $n=2$.</p>"
+          "solution": "<p>由 $a>2>1$，函数在 $x>0$ 上的导数为</p>\n$$\nf'(x)=\\frac{1}{x\\ln a}+1>0\n$$\n<p>所以 $f(x)$ 在定义域上单调递增. 又因为 $a>2$，有 $\\log_{a}2<1$，且 $b>3$，所以</p>\n$$\nf(2)=\\log_{a}2+2-b<1+2-b<0\n$$\n<p>因为 $a<3$，有 $\\log_{a}3>1$，且 $b<4$，所以</p>\n$$\nf(3)=\\log_{a}3+3-b>1+3-b>0\n$$\n<p>由零点存在性及单调性，唯一零点满足 $x_{0}\\in(2,3)$，故 $n=2$.</p>"
         }
       ]
     },
@@ -222,14 +222,14 @@
           "body": "<p>某企业拟建造如图所示的容器（不计厚度，长度单位：米），其中容器的中间为圆柱形，左右两端均为半球形，按照设计要求容器的容积为 $\\frac{80\\pi}{3}$ 立方米，且 $l \\ge 2r$. 假设该容器的建造费用仅与其表面积有关. 已知圆柱形部分每平方米建造费用为 3 千元，半球形部分每平方米建造费用为 $c$ （$c > 3$）千元. 设该容器的建造费用为 $y$ 千元.</p><ol class=\"enumerate\"><li><p>写出 $y$ 关于 $r$ 的函数表达式，并求该函数的定义域；</p></li><li><p>求该容器的建造费用最小时的 $r$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>容器的容积等于圆柱的体积与两个半球的体积之和，因此</p>\n$$\n\\pi r^{2}l+\\frac{4}{3}\\pi r^{3}=\\frac{80\\pi}{3}\n$$\n<p>从而</p>\n$$\nl=\\frac{80}{3r^{2}}-\\frac{4}{3}r\n$$\n<p>由 $l\\geqslant2r$ 得</p>\n$$\n\\frac{80}{3r^{2}}-\\frac{4}{3}r\\geqslant2r\\iff r^{3}\\leqslant8\n$$\n<p>又因半径 $r>0$，故 $0&#x3C;r\\leqslant2$.</p><p>圆柱形部分的侧面积为 $2\\pi rl$，两个半球的总表面积为 $4\\pi r^{2}$，所以建造费用为</p>\n$$\ny=3\\cdot2\\pi rl+c\\cdot4\\pi r^{2}=6\\pi rl+4\\pi cr^{2}\n$$\n<p>代入 $l$ 得</p>\n$$\ny=\\frac{160\\pi}{r}+4\\pi(c-2)r^{2}\n$$\n<p>其中 $0&#x3C;r\\leqslant2$.</p></li><li><p>对 $y$ 求导，得</p>\n$$\ny'(r)=-\\frac{160\\pi}{r^{2}}+8\\pi(c-2)r=\\frac{8\\pi}{r^{2}}\\bigl((c-2)r^{3}-20\\bigr)\n$$\n<p>令 $y'(r)=0$，得到临界点</p>\n$$\nr_{0}=\\left(\\frac{20}{c-2}\\right)^{\\frac{1}{3}}\n$$\n<p>由于 $c>3$，有 $c-2>0$，且 $y'(r)&#x3C;0$（当 $0&#x3C;r&#x3C;r_{0}$），$y'(r)>0$（当 $r>r_{0}$）.</p><p>当 $3&#x3C;c&#x3C;\\frac{9}{2}$ 时，$r_{0}>2$，函数在定义域上递减，最小值在 $r=2$ 时取得；当 $c\\ge\\frac{9}{2}$ 时，$r_{0}\\leqslant2$，最小值在 $r=r_{0}$ 时取得. 因此建造费用最小时</p>\n$$\nr=\\begin{cases}2,&#x26;3&#x3C;c&#x3C;\\dfrac{9}{2},\\\\  \\left(\\dfrac{20}{c-2}\\right)^{\\frac{1}{3}},&#x26;c\\ge\\dfrac{9}{2}.\\end{cases}\n$$\n<p>当 $c=\\frac{9}{2}$ 时两种表达式均给出 $r=2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>容器的容积等于圆柱的体积与两个半球的体积之和，因此</p>\n$$\n\\pi r^{2}l+\\frac{4}{3}\\pi r^{3}=\\frac{80\\pi}{3}\n$$\n<p>从而</p>\n$$\nl=\\frac{80}{3r^{2}}-\\frac{4}{3}r\n$$\n<p>由 $l\\geqslant2r$ 得</p>\n$$\n\\frac{80}{3r^{2}}-\\frac{4}{3}r\\geqslant2r\\iff r^{3}\\leqslant8\n$$\n<p>又因半径 $r>0$，故 $0<r\\leqslant2$.</p><p>圆柱形部分的侧面积为 $2\\pi rl$，两个半球的总表面积为 $4\\pi r^{2}$，所以建造费用为</p>\n$$\ny=3\\cdot2\\pi rl+c\\cdot4\\pi r^{2}=6\\pi rl+4\\pi cr^{2}\n$$\n<p>代入 $l$ 得</p>\n$$\ny=\\frac{160\\pi}{r}+4\\pi(c-2)r^{2}\n$$\n<p>其中 $0<r\\leqslant2$.</p></li><li><p>对 $y$ 求导，得</p>\n$$\ny'(r)=-\\frac{160\\pi}{r^{2}}+8\\pi(c-2)r=\\frac{8\\pi}{r^{2}}\\bigl((c-2)r^{3}-20\\bigr)\n$$\n<p>令 $y'(r)=0$，得到临界点</p>\n$$\nr_{0}=\\left(\\frac{20}{c-2}\\right)^{\\frac{1}{3}}\n$$\n<p>由于 $c>3$，有 $c-2>0$，且 $y'(r)<0$（当 $0<r<r_{0}$），$y'(r)>0$（当 $r>r_{0}$）.</p><p>当 $3<c<\\frac{9}{2}$ 时，$r_{0}>2$，函数在定义域上递减，最小值在 $r=2$ 时取得；当 $c\\ge\\frac{9}{2}$ 时，$r_{0}\\leqslant2$，最小值在 $r=r_{0}$ 时取得. 因此建造费用最小时</p>\n$$\nr=\\begin{cases}2,&3<c<\\dfrac{9}{2},\\\\  \\left(\\dfrac{20}{c-2}\\right)^{\\frac{1}{3}},&c\\ge\\dfrac{9}{2}.\\end{cases}\n$$\n<p>当 $c=\\frac{9}{2}$ 时两种表达式均给出 $r=2$.</p></li></ol>"
         },
         {
           "num": 22,
           "body": "<p>在平面直角坐标系 $xOy$ 中，已知椭圆 $C: \\frac{x^{2}}{3}+ y^{2} = 1$. 如图所示，斜率为 $k$ （$k > 0$）且不过原点的直线 $l$ 交椭圆 $C$ 于 $A$，$B$ 两点. 线段 $AB$ 的中点为 $E$. 射线 $OE$ 交椭圆 $C$ 于点 $G$，交直线 $x = -3$ 于点 $D(-3, m)$.</p><ol class=\"enumerate\"><li><p>求 $m^{2}+ k^{2}$ 的最小值；</p></li><li><p>若 $\\left|OG\\right|^{2}=\\left|OD\\right|\\cdot\\left|OE\\right|$，</p><p></p><ol class=\"enumerate\"><li><p>求证：直线 $l$ 过定点；</p></li><li><p>试问点 $B$，$G$ 能否关于 $x$ 轴对称？若能，求出此时 $\\triangle ABG$ 的外接圆方程. 若不能，请说明理由.</p></li></ol><p></p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设直线 $l$ 的方程为 $y=kx+b$，其中 $k>0$，且 $b\\neq0$. 将其代入椭圆方程，得弦端点横坐标所满足的方程</p>\n$$\n\\left(k^{2}+\\frac{1}{3}\\right)x^{2}+2kbx+b^{2}-1=0\n$$\n<p>由韦达定理，线段 $AB$ 的中点 $E$ 的坐标为</p>\n$$\nx_{E}=-\\frac{3kb}{1+3k^{2}}\n$$\n\n$$\ny_{E}=kx_{E}+b=\\frac{b}{1+3k^{2}}\n$$\n<p>即</p>\n$$\nE=\\frac{b}{1+3k^{2}}(-3k,1)\n$$\n<ol class=\"enumerate\"><li><p>射线 $OE$ 能与直线 $x=-3$ 相交，且 $k>0$，所以 $x_{E}&#x3C;0$，从而 $b>0$. 直线 $OE$ 的斜率为 $-\\frac{1}{3k}$，故它与 $x=-3$ 的交点为</p>\n$$\nD\\left(-3,\\frac{1}{k}\\right)\n$$\n<p>所以 $m=\\frac{1}{k}$，从而</p>\n$$\nm^{2}+k^{2}=\\frac{1}{k^{2}}+k^{2}\\geqslant2\n$$\n<p>当且仅当 $k=1$ 时取等号，故最小值为 $2$.</p></li><li><p>在 $\\left|OG\\right|^{2}=\\left|OD\\right|\\cdot\\left|OE\\right|$ 的条件下，直线 $OE$ 可参数表示为 $(x,y)=t(-3k,1)$. 将其代入椭圆方程，射线上的交点 $G$ 对应</p>\n$$\nt=\\frac{1}{\\sqrt{1+3k^{2}}}\n$$\n\n$$\nG=\\left(-\\frac{3k}{\\sqrt{1+3k^{2}}},\\frac{1}{\\sqrt{1+3k^{2}}}\\right)\n$$\n<p>于是</p>\n$$\n\\left|OG\\right|^{2}=\\frac{1+9k^{2}}{1+3k^{2}}\n$$\n<p>又因为 $b>0$，</p>\n$$\n\\left|OE\\right|=\\frac{b\\sqrt{1+9k^{2}}}{1+3k^{2}}\n$$\n\n$$\n\\left|OD\\right|=\\sqrt{9+\\frac{1}{k^{2}}}=\\frac{\\sqrt{1+9k^{2}}}{k}\n$$\n<p>将这些式子代入已知等式，得</p>\n$$\n\\frac{1+9k^{2}}{1+3k^{2}}=\\frac{b(1+9k^{2})}{k(1+3k^{2})}\n$$\n<p>所以 $b=k$. 因此</p>\n$$\nl:y=kx+k=k(x+1)\n$$\n<p>故直线 $l$ 恒过定点 $(-1,0)$.</p><p></p><ol class=\"enumerate\"><li><p>若点 $B$，$G$ 关于 $x$ 轴对称，则</p>\n$$\nB=\\left(-\\frac{3k}{\\sqrt{1+3k^{2}}},-\\frac{1}{\\sqrt{1+3k^{2}}}\\right)\n$$\n<p>将点 $B$ 代入直线 $y=k(x+1)$，并记 $s=\\sqrt{1+3k^{2}}$，得</p>\n$$\n-\\frac{1}{s}=k\\left(1-\\frac{3k}{s}\\right)\\iff 3k^{2}-ks=1\n$$\n<p>于是 $3k^{2}-1=ks>0$. 两边平方，得</p>\n$$\n(3k^{2}-1)^{2}=k^{2}(1+3k^{2})\\iff 6k^{4}-7k^{2}+1=0\n$$\n<p>即 $(k^{2}-1)(6k^{2}-1)=0$. 由 $3k^{2}-1>0$，只能有 $k=1$，所以这种情形可以发生.</p></li><li><p>当 $k=1$ 时，$l:y=x+1$，且</p>\n$$\nG=\\left(-\\frac{3}{2},\\frac{1}{2}\\right)\n$$\n\n$$\nB=\\left(-\\frac{3}{2},-\\frac{1}{2}\\right)\n$$\n<p>将直线 $y=x+1$ 代入椭圆方程，得</p>\n$$\n\\frac{x^{2}}{3}+(x+1)^{2}=1\\iff x(4x+6)=0\n$$\n<p>所以另一个交点为 $A=(0,1)$. 设三角形 $ABG$ 的外接圆圆心为 $(u,v)$. 由于 $BG$ 为竖直线段，其垂直平分线为 $y=0$，故 $v=0$. 再由圆心到 $A$，$B$ 的距离相等，</p>\n$$\nu^{2}+1=\\left(u+\\frac{3}{2}\\right)^{2}+\\frac{1}{4}\n$$\n<p>得 $u=-\\frac{1}{2}$，半径平方为 $\\frac{5}{4}$. 因此外接圆方程为</p>\n$$\n\\left(x+\\frac{1}{2}\\right)^{2}+y^{2}=\\frac{5}{4}\n$$\n<p>即 $x^{2}+y^{2}+x-1=0$.</p></li></ol><p></p></li></ol>"
+          "solution": "<p>设直线 $l$ 的方程为 $y=kx+b$，其中 $k>0$，且 $b\\neq0$. 将其代入椭圆方程，得弦端点横坐标所满足的方程</p>\n$$\n\\left(k^{2}+\\frac{1}{3}\\right)x^{2}+2kbx+b^{2}-1=0\n$$\n<p>由韦达定理，线段 $AB$ 的中点 $E$ 的坐标为</p>\n$$\nx_{E}=-\\frac{3kb}{1+3k^{2}}\n$$\n\n$$\ny_{E}=kx_{E}+b=\\frac{b}{1+3k^{2}}\n$$\n<p>即</p>\n$$\nE=\\frac{b}{1+3k^{2}}(-3k,1)\n$$\n<ol class=\"enumerate\"><li><p>射线 $OE$ 能与直线 $x=-3$ 相交，且 $k>0$，所以 $x_{E}<0$，从而 $b>0$. 直线 $OE$ 的斜率为 $-\\frac{1}{3k}$，故它与 $x=-3$ 的交点为</p>\n$$\nD\\left(-3,\\frac{1}{k}\\right)\n$$\n<p>所以 $m=\\frac{1}{k}$，从而</p>\n$$\nm^{2}+k^{2}=\\frac{1}{k^{2}}+k^{2}\\geqslant2\n$$\n<p>当且仅当 $k=1$ 时取等号，故最小值为 $2$.</p></li><li><p>在 $\\left|OG\\right|^{2}=\\left|OD\\right|\\cdot\\left|OE\\right|$ 的条件下，直线 $OE$ 可参数表示为 $(x,y)=t(-3k,1)$. 将其代入椭圆方程，射线上的交点 $G$ 对应</p>\n$$\nt=\\frac{1}{\\sqrt{1+3k^{2}}}\n$$\n\n$$\nG=\\left(-\\frac{3k}{\\sqrt{1+3k^{2}}},\\frac{1}{\\sqrt{1+3k^{2}}}\\right)\n$$\n<p>于是</p>\n$$\n\\left|OG\\right|^{2}=\\frac{1+9k^{2}}{1+3k^{2}}\n$$\n<p>又因为 $b>0$，</p>\n$$\n\\left|OE\\right|=\\frac{b\\sqrt{1+9k^{2}}}{1+3k^{2}}\n$$\n\n$$\n\\left|OD\\right|=\\sqrt{9+\\frac{1}{k^{2}}}=\\frac{\\sqrt{1+9k^{2}}}{k}\n$$\n<p>将这些式子代入已知等式，得</p>\n$$\n\\frac{1+9k^{2}}{1+3k^{2}}=\\frac{b(1+9k^{2})}{k(1+3k^{2})}\n$$\n<p>所以 $b=k$. 因此</p>\n$$\nl:y=kx+k=k(x+1)\n$$\n<p>故直线 $l$ 恒过定点 $(-1,0)$.</p><p></p><ol class=\"enumerate\"><li><p>若点 $B$，$G$ 关于 $x$ 轴对称，则</p>\n$$\nB=\\left(-\\frac{3k}{\\sqrt{1+3k^{2}}},-\\frac{1}{\\sqrt{1+3k^{2}}}\\right)\n$$\n<p>将点 $B$ 代入直线 $y=k(x+1)$，并记 $s=\\sqrt{1+3k^{2}}$，得</p>\n$$\n-\\frac{1}{s}=k\\left(1-\\frac{3k}{s}\\right)\\iff 3k^{2}-ks=1\n$$\n<p>于是 $3k^{2}-1=ks>0$. 两边平方，得</p>\n$$\n(3k^{2}-1)^{2}=k^{2}(1+3k^{2})\\iff 6k^{4}-7k^{2}+1=0\n$$\n<p>即 $(k^{2}-1)(6k^{2}-1)=0$. 由 $3k^{2}-1>0$，只能有 $k=1$，所以这种情形可以发生.</p></li><li><p>当 $k=1$ 时，$l:y=x+1$，且</p>\n$$\nG=\\left(-\\frac{3}{2},\\frac{1}{2}\\right)\n$$\n\n$$\nB=\\left(-\\frac{3}{2},-\\frac{1}{2}\\right)\n$$\n<p>将直线 $y=x+1$ 代入椭圆方程，得</p>\n$$\n\\frac{x^{2}}{3}+(x+1)^{2}=1\\iff x(4x+6)=0\n$$\n<p>所以另一个交点为 $A=(0,1)$. 设三角形 $ABG$ 的外接圆圆心为 $(u,v)$. 由于 $BG$ 为竖直线段，其垂直平分线为 $y=0$，故 $v=0$. 再由圆心到 $A$，$B$ 的距离相等，</p>\n$$\nu^{2}+1=\\left(u+\\frac{3}{2}\\right)^{2}+\\frac{1}{4}\n$$\n<p>得 $u=-\\frac{1}{2}$，半径平方为 $\\frac{5}{4}$. 因此外接圆方程为</p>\n$$\n\\left(x+\\frac{1}{2}\\right)^{2}+y^{2}=\\frac{5}{4}\n$$\n<p>即 $x^{2}+y^{2}+x-1=0$.</p></li></ol><p></p></li></ol>"
         }
       ]
     }

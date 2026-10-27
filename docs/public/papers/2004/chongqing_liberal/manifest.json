@@ -17,7 +17,7 @@
             "$\\left(\\frac{2}{3}, 1\\right]$"
           ],
           "answer": "D",
-          "solution": "<p>要使根式有意义，必须满足 $\\log_{\\frac{1}{2}}(3x-2)\\geqslant0$. 因为对数的真数还需为正，且底数 $\\frac{1}{2}$ 小于 $1$，所以 $0&#x3C;3x-2\\leqslant1$.</p><p>解得 $\\frac{2}{3}&#x3C;x\\leqslant1$，故定义域为 $\\left(\\frac{2}{3},1\\right]$，选 D.</p>"
+          "solution": "<p>要使根式有意义，必须满足 $\\log_{\\frac{1}{2}}(3x-2)\\geqslant0$. 因为对数的真数还需为正，且底数 $\\frac{1}{2}$ 小于 $1$，所以 $0<3x-2\\leqslant1$.</p><p>解得 $\\frac{2}{3}<x\\leqslant1$，故定义域为 $\\left(\\frac{2}{3},1\\right]$，选 D.</p>"
         },
         {
           "num": 2,
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "<p>不同直线 $m$，$n$ 和不同平面 $\\alpha$，$\\beta$，给出下列命题：</p><ol class=\"enumerate\"><li><p>$\\begin{cases}\\alpha&#x26;\\parallel\\beta,\\\\\n\nm&#x26;\\subset\\alpha,\\end{cases}\\Rightarrow m\\parallel\\beta$；</p></li><li><p>$\\begin{cases}m&#x26;\\parallel n,\\\\\n\nm&#x26;\\parallel\\beta,\\end{cases}\\Rightarrow n\\parallel\\beta$；</p></li><li><p>$\\begin{cases}m&#x26;\\subset\\alpha,\\\\\n\nn&#x26;\\subset\\beta,\\end{cases}\\Rightarrow m$，$n$ 异面；</p></li><li><p>$\\begin{cases}\\alpha&#x26;\\perp\\beta,\\\\\n\nm&#x26;\\parallel\\alpha,\\end{cases}\\Rightarrow m\\perp\\beta$.</p></li></ol><p>其中假命题有（ ）</p>",
+          "body": "<p>不同直线 $m$，$n$ 和不同平面 $\\alpha$，$\\beta$，给出下列命题：</p><ol class=\"enumerate\"><li><p>$\\begin{cases}\\alpha&\\parallel\\beta,\\\\\n\nm&\\subset\\alpha,\\end{cases}\\Rightarrow m\\parallel\\beta$；</p></li><li><p>$\\begin{cases}m&\\parallel n,\\\\\n\nm&\\parallel\\beta,\\end{cases}\\Rightarrow n\\parallel\\beta$；</p></li><li><p>$\\begin{cases}m&\\subset\\alpha,\\\\\n\nn&\\subset\\beta,\\end{cases}\\Rightarrow m$，$n$ 异面；</p></li><li><p>$\\begin{cases}\\alpha&\\perp\\beta,\\\\\n\nm&\\parallel\\alpha,\\end{cases}\\Rightarrow m\\perp\\beta$.</p></li></ol><p>其中假命题有（ ）</p>",
           "choices": [
             "$0$ 个",
             "$1$ 个",
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "若数列 $\\{a_{n}\\}$ 是等差数列，首项 $a_{1}>0$，$a_{2003}+a_{2004}>0$，$a_{2003}\\cdot a_{2004}&#x3C;0$，则使前 $n$ 项和 $S_{n}>0$ 成立的最大自然数 $n$ 是（ ）",
+          "body": "若数列 $\\{a_{n}\\}$ 是等差数列，首项 $a_{1}>0$，$a_{2003}+a_{2004}>0$，$a_{2003}\\cdot a_{2004}<0$，则使前 $n$ 项和 $S_{n}>0$ 成立的最大自然数 $n$ 是（ ）",
           "choices": [
             "$4005$",
             "$4006$",
@@ -113,7 +113,7 @@
             "$4008$"
           ],
           "answer": "B",
-          "solution": "<p>若 $a_{2003}&#x3C;0&#x3C;a_{2004}$，则公差 $d=a_{2004}-a_{2003}>0$，从而 $a_{1}=a_{2003}-2002d&#x3C;0$，与 $a_{1}>0$ 矛盾. 因此 $a_{2003}>0>a_{2004}$. 结合 $a_{2003}a_{2004}&#x3C;0$ 和 $a_{2003}+a_{2004}>0$，设</p><p>$a_{2003}=u>0$，$a_{2004}=-v&#x3C;0$</p><p>其中 $u>v>0$. 设等差数列的公差为 $d$，则</p>\n$$\nd=a_{2004}-a_{2003}=-(u+v)\n$$\n<p>并且</p>\n$$\na_{1}=a_{2003}-2002d=2003u+2002v\n$$\n<p>等差数列前 $n$ 项和为</p>\n$$\nS_{n}=\\frac{n}{2}(a_{1}+a_{n})\n$$\n<p>因为 $n>0$，所以</p>\n$$\nS_{n}>0\\Longleftrightarrow a_{1}+a_{n}>0\\Longleftrightarrow 2a_{1}+(n-1)d>0\n$$\n<p>代入 $a_{1}$ 和 $d$，得</p>\n$$\nn-1&#x3C;\\frac{2(2003u+2002v)}{u+v}=4004+\\frac{2u}{u+v}\n$$\n<p>由 $u>v>0$ 知 $\\frac{1}{2}&#x3C;\\frac{u}{u+v}&#x3C;1$，从而</p>\n$$\n4005&#x3C;\\frac{2(2003u+2002v)}{u+v}&#x3C;4006\n$$\n<p>因此满足不等式的最大整数 $n-1$ 为 $4005$，故 $n$ 的最大值为 $4006$，选 B.</p>"
+          "solution": "<p>若 $a_{2003}<0<a_{2004}$，则公差 $d=a_{2004}-a_{2003}>0$，从而 $a_{1}=a_{2003}-2002d<0$，与 $a_{1}>0$ 矛盾. 因此 $a_{2003}>0>a_{2004}$. 结合 $a_{2003}a_{2004}<0$ 和 $a_{2003}+a_{2004}>0$，设</p><p>$a_{2003}=u>0$，$a_{2004}=-v<0$</p><p>其中 $u>v>0$. 设等差数列的公差为 $d$，则</p>\n$$\nd=a_{2004}-a_{2003}=-(u+v)\n$$\n<p>并且</p>\n$$\na_{1}=a_{2003}-2002d=2003u+2002v\n$$\n<p>等差数列前 $n$ 项和为</p>\n$$\nS_{n}=\\frac{n}{2}(a_{1}+a_{n})\n$$\n<p>因为 $n>0$，所以</p>\n$$\nS_{n}>0\\Longleftrightarrow a_{1}+a_{n}>0\\Longleftrightarrow 2a_{1}+(n-1)d>0\n$$\n<p>代入 $a_{1}$ 和 $d$，得</p>\n$$\nn-1<\\frac{2(2003u+2002v)}{u+v}=4004+\\frac{2u}{u+v}\n$$\n<p>由 $u>v>0$ 知 $\\frac{1}{2}<\\frac{u}{u+v}<1$，从而</p>\n$$\n4005<\\frac{2(2003u+2002v)}{u+v}<4006\n$$\n<p>因此满足不等式的最大整数 $n-1$ 为 $4005$，故 $n$ 的最大值为 $4006$，选 B.</p>"
         },
         {
           "num": 10,
@@ -194,7 +194,7 @@
           "body": "求函数 $y = \\sin^{4} x + 2\\sqrt{3}\\sin x\\cos x - \\cos^{4} x$ 的最小正周期和最小值；并写出该函数在 $[0, \\pi]$ 上的单调递增区间.",
           "choices": null,
           "answer": "",
-          "solution": "<p>利用 $\\sin^{4}x-\\cos^{4}x=(\\sin^{2}x-\\cos^{2}x)(\\sin^{2}x+\\cos^{2}x)=-\\cos2x$，以及 $2\\sin x\\cos x=\\sin2x$，得</p>\n$$\ny=\\sqrt{3}\\sin2x-\\cos2x=2\\sin\\left(2x-\\frac{\\pi}{6}\\right)\n$$\n<p>由于正弦函数的最小正周期为 $2\\pi$，而自变量的系数为 $2$，所以函数的最小正周期为 $\\pi$，最小值为 $-2$.</p><p>函数的导数为 $y'=2\\sqrt{3}\\cos2x+2\\sin2x=4\\cos\\left(2x-\\frac{\\pi}{6}\\right)$. 当 $x\\in[0,\\pi]$ 时，$y'>0$ 的区间为 $0&#x3C;x&#x3C;\\frac{\\pi}{3}$ 或 $\\frac{5\\pi}{6}&#x3C;x&#x3C;\\pi$，所以函数在 $[0,\\frac{\\pi}{3}]$ 和 $[\\frac{5\\pi}{6},\\pi]$ 上单调递增.</p>"
+          "solution": "<p>利用 $\\sin^{4}x-\\cos^{4}x=(\\sin^{2}x-\\cos^{2}x)(\\sin^{2}x+\\cos^{2}x)=-\\cos2x$，以及 $2\\sin x\\cos x=\\sin2x$，得</p>\n$$\ny=\\sqrt{3}\\sin2x-\\cos2x=2\\sin\\left(2x-\\frac{\\pi}{6}\\right)\n$$\n<p>由于正弦函数的最小正周期为 $2\\pi$，而自变量的系数为 $2$，所以函数的最小正周期为 $\\pi$，最小值为 $-2$.</p><p>函数的导数为 $y'=2\\sqrt{3}\\cos2x+2\\sin2x=4\\cos\\left(2x-\\frac{\\pi}{6}\\right)$. 当 $x\\in[0,\\pi]$ 时，$y'>0$ 的区间为 $0<x<\\frac{\\pi}{3}$ 或 $\\frac{5\\pi}{6}<x<\\pi$，所以函数在 $[0,\\frac{\\pi}{3}]$ 和 $[\\frac{5\\pi}{6},\\pi]$ 上单调递增.</p>"
         },
         {
           "num": 18,
@@ -215,7 +215,7 @@
           "body": "某工厂生产某种产品，已知该产品的月生产量 $x$（$\\text{吨}$）与每吨产品的价格 $p$（$\\text{元}/\\text{吨}$）之间的关系式为：$p = 24200 - \\frac{1}{5}x^{2}$，且生产 $x\\text{ 吨}$ 的成本为 $R = 50000 + 200x$（$\\text{元}$）. 问该产品每月生产多少吨产品才能使利润达到最大？最大利润是多少？（利润 $=$ 收入-成本）",
           "choices": null,
           "answer": "",
-          "solution": "<p>设月利润为 $\\Pi(x)$，则月收入为 $xp=24200x-\\frac{1}{5}x^{3}$，所以</p>\n$$\n\\Pi(x)=24200x-\\frac{1}{5}x^{3}-(50000+200x)=-\\frac{1}{5}x^{3}+24000x-50000\n$$\n<p>其中 $x\\geqslant0$. 求导得 $\\Pi'(x)=24000-\\frac{3}{5}x^{2}$. 当 $0\\le x&#x3C;200$ 时，$\\Pi'(x)>0$；当 $x>200$ 时，$\\Pi'(x)&#x3C;0$，所以 $x=200$ 时利润最大.</p><p>此时 $\\Pi(200)=-\\frac{1}{5}\\times200^{3}+24000\\times200-50000=3150000$. 因此，每月生产 $200\\text{ 吨}$ 时利润达到最大，最大利润为 $3150000\\text{ 元}$.</p>"
+          "solution": "<p>设月利润为 $\\Pi(x)$，则月收入为 $xp=24200x-\\frac{1}{5}x^{3}$，所以</p>\n$$\n\\Pi(x)=24200x-\\frac{1}{5}x^{3}-(50000+200x)=-\\frac{1}{5}x^{3}+24000x-50000\n$$\n<p>其中 $x\\geqslant0$. 求导得 $\\Pi'(x)=24000-\\frac{3}{5}x^{2}$. 当 $0\\le x<200$ 时，$\\Pi'(x)>0$；当 $x>200$ 时，$\\Pi'(x)<0$，所以 $x=200$ 时利润最大.</p><p>此时 $\\Pi(200)=-\\frac{1}{5}\\times200^{3}+24000\\times200-50000=3150000$. 因此，每月生产 $200\\text{ 吨}$ 时利润达到最大，最大利润为 $3150000\\text{ 元}$.</p>"
         },
         {
           "num": 21,

@@ -9,10 +9,10 @@
       "problems": [
         {
           "num": 1,
-          "body": "<p>不等式 $\\left|x+2\\right|&#x3C;1$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\left(-3,-1\\right)$</p>",
+          "body": "<p>不等式 $\\left|x+2\\right|<1$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\left(-3,-1\\right)$</p>",
           "choices": null,
           "answer": "",
-          "solution": "由绝对值不等式得 $-1&#x3C;x+2&#x3C;1$，所以 $-3&#x3C;x&#x3C;-1$. 因此解集为 $\\left(-3,-1\\right)$."
+          "solution": "由绝对值不等式得 $-1<x+2<1$，所以 $-3<x<-1$. 因此解集为 $\\left(-3,-1\\right)$."
         },
         {
           "num": 2,
@@ -65,10 +65,10 @@
         },
         {
           "num": 9,
-          "body": "<p>若 $\\tan\\alpha=-2$，且 $\\sin\\alpha&#x3C;0$，则 $\\cos\\alpha$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\dfrac{\\sqrt{5}}{5}$</p>",
+          "body": "<p>若 $\\tan\\alpha=-2$，且 $\\sin\\alpha<0$，则 $\\cos\\alpha$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\dfrac{\\sqrt{5}}{5}$</p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $\\tan\\alpha&#x3C;0$ 且 $\\sin\\alpha&#x3C;0$，可知 $\\cos\\alpha>0$. 又</p><p>$1+\\tan^{2}\\alpha=\\dfrac{1}{\\cos^2\\alpha}$，所以 $\\cos^{2}\\alpha=\\dfrac{1}{1+4}=\\dfrac{1}{5}$. 结合 $\\cos\\alpha>0$，得 $\\cos\\alpha=\\dfrac{\\sqrt{5}}{5}$.</p>"
+          "solution": "<p>由 $\\tan\\alpha<0$ 且 $\\sin\\alpha<0$，可知 $\\cos\\alpha>0$. 又</p><p>$1+\\tan^{2}\\alpha=\\dfrac{1}{\\cos^2\\alpha}$，所以 $\\cos^{2}\\alpha=\\dfrac{1}{1+4}=\\dfrac{1}{5}$. 结合 $\\cos\\alpha>0$，得 $\\cos\\alpha=\\dfrac{\\sqrt{5}}{5}$.</p>"
         },
         {
           "num": 10,
@@ -177,10 +177,10 @@
         },
         {
           "num": 20,
-          "body": "已知函数 $f(x)$ 对其定义域内的任意两个实数 $a$，$b$，当 $a&#x3C;b$ 时，都有 $f(a)&#x3C;f(b)$. 试用反证法证明：方程 $f(x)=0$ 至多有一个实数根.",
+          "body": "已知函数 $f(x)$ 对其定义域内的任意两个实数 $a$，$b$，当 $a<b$ 时，都有 $f(a)<f(b)$. 试用反证法证明：方程 $f(x)=0$ 至多有一个实数根.",
           "choices": null,
           "answer": "",
-          "solution": "假设方程 $f(x)=0$ 至少有两个不同的实数根，设它们为 $x_{1}$，$x_{2}$. 不妨设 $x_{1}&#x3C;x_{2}$. 由题设函数严格递增，应有 $f(x_{1})&#x3C;f(x_{2})$. 但 $x_{1}$，$x_{2}$ 都是方程的根，所以 $f(x_{1})=f(x_{2})=0$，这与 $f(x_{1})&#x3C;f(x_{2})$ 矛盾. 因此假设不成立，方程 $f(x)=0$ 至多有一个实数根."
+          "solution": "假设方程 $f(x)=0$ 至少有两个不同的实数根，设它们为 $x_{1}$，$x_{2}$. 不妨设 $x_{1}<x_{2}$. 由题设函数严格递增，应有 $f(x_{1})<f(x_{2})$. 但 $x_{1}$，$x_{2}$ 都是方程的根，所以 $f(x_{1})=f(x_{2})=0$，这与 $f(x_{1})<f(x_{2})$ 矛盾. 因此假设不成立，方程 $f(x)=0$ 至多有一个实数根."
         },
         {
           "num": 21,
@@ -201,7 +201,7 @@
           "body": "已知直线 $y=x+m$ 和曲线 $x^{3}+2y^{3}+y^{4}-1=0$ 交于 $A$，$B$ 两点，$P$ 是这条直线上的点，且 $\\left|PA\\right|\\cdot\\left|PB\\right|=2$. 求：当 $m$ 变化时，点 $P$ 的轨迹方程，并说明轨迹是什么图形.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $P=(x,y)$. 直线 $y=x+m$ 的方向向量为 $(1,1)$，故可用参数 $t$ 表示这条直线上的点：$Q(t)=(x+t,y+t)$. 设 $A=Q(u)$，$B=Q(v)$，则 $\\left|PA\\right|=\\sqrt{2}\\left|u\\right|$，$\\left|PB\\right|=\\sqrt{2}\\left|v\\right|$，所以题设条件等价于 $\\left|uv\\right|=1$. 令 $\\varepsilon=uv$，则 $\\varepsilon=1$ 或 $\\varepsilon=-1$，再令 $s=u+v$.</p><p>把 $Q(t)$ 代入曲线方程，得到</p>\n$$\nG(t)=t^{4}+c_{3}t^{3}+c_{2}t^{2}+c_{1}t+c_{0}\n$$\n<p>其中 $c_{3}=4y+3$，$c_{2}=3x+6y^{2}+6y$，$c_{1}=3x^{2}+4y^{3}+6y^{2}$，$c_{0}=x^{3}+2y^{3}+y^{4}-1$.</p><p>因为 $u$，$v$ 是交点 $A$，$B$ 对应的参数，且 $u+v=s$，$uv=\\varepsilon$，所以记 $q_{1}(t)=t^{2}-st+\\varepsilon$，它是 $G(t)$ 的因式. 设另一因式为 $q_{2}(t)=t^{2}+qt+r$. 比较三次项和常数项，分别得到 $q=c_{3}+s$，$r=\\varepsilon c_{0}$，从而</p>\n$$\nG(t)=\\left(t^{2}-st+\\varepsilon\\right)\\left(t^{2}+(c_{3}+s)t+\\varepsilon c_{0}\\right)\n$$\n<p>再比较二次项和一次项，得到</p>\n$$\n\\begin{cases}s^{2}+c_{3}s+c_{2}-\\varepsilon c_{0}-\\varepsilon=0,\\\\  \\varepsilon(1-c_{0})s+\\varepsilon c_{3}-c_{1}=0.\\end{cases}\n$$\n<p>这组方程连同根的实性条件，给出了轨迹的充要条件. 第一因式必须有两个不同的实根 $u$，$v$，即 $s^{2}-4\\varepsilon>0$. 第二因式若没有实根，则不会产生新的交点；若有实根，则这些实根必须与 $u$，$v$ 重合，否则直线还会与曲线交于题设以外的点. 因此条件可写为</p><p>$s^{2}-4\\varepsilon>0$，（$(c_{3}+s)^{2}-4\\varepsilon c_{0}&#x3C;0 \\text{或}  q_{2}(t)\\mid q_{1}(t)^{2}$）.</p><p>其中 $\\varepsilon=1$ 表示 $P$ 在 $A$，$B$ 的同侧，$\\varepsilon=-1$ 表示 $P$ 在 $A$，$B$ 之间. 这里的整段条件中的“或”只针对第二个因式：它的判别式为负，或它整除 $q_{1}(t)^{2}$. 后一种情形包含了两个交点处的切触等边界情形. 反过来，满足这些条件的 $x$，$y$ 由上述因式分解得到恰有两个不同的交点，并且 $\\left|PA\\right|\\left|PB\\right|=2\\left|uv\\right|=2$，所以这些条件也是充分的.</p><p>当 $c_{0}\\neq1$ 时，第二个方程给出</p>\n$$\ns=\\frac{\\varepsilon c_{1}-c_{3}}{1-c_{0}}\n$$\n<p>代入第一个方程，得到不含辅助参数 $s$ 的轨迹方程</p><p>$\\left(\\varepsilon c_{1}-c_{3}\\right)^{2}+c_{3}\\left(\\varepsilon c_{1}-c_{3}\\right)\\left(1-c_{0}\\right)+\\left(c_{2}-\\varepsilon c_{0}-\\varepsilon\\right)\\left(1-c_{0}\\right)^{2}=0$，$\\varepsilon=\\pm1$.</p><p>当 $c_{0}=1$ 时，不能除以 $1-c_{0}$，此时必须保留条件组</p>\n$$\n\\begin{cases}s^{2}+c_{3}s+c_{2}-2\\varepsilon=0,\\\\  \\varepsilon c_{3}-c_{1}=0,\\end{cases}\n$$\n<p>并同时满足上面的根的实性条件，其中允许 $q_{2}(t)\\mid q_{1}(t)^{2}$ 的边界情形.</p><p>因此，点 $P$ 的轨迹是上述 $\\varepsilon=1$ 与 $\\varepsilon=-1$ 两个十二次代数曲线中满足根的实性条件的实分支，并包括 $q_{2}(t)\\mid q_{1}(t)^{2}$ 所表示的交点重合边界情形；这些条件共同限定了题设所说的直线恰有交点 $A$，$B$. 所以轨迹不是圆、椭圆、抛物线或双曲线等二次曲线，而是由这两条高次代数曲线的相应实弧及其边界点组成.</p>"
+          "solution": "<p>设 $P=(x,y)$. 直线 $y=x+m$ 的方向向量为 $(1,1)$，故可用参数 $t$ 表示这条直线上的点：$Q(t)=(x+t,y+t)$. 设 $A=Q(u)$，$B=Q(v)$，则 $\\left|PA\\right|=\\sqrt{2}\\left|u\\right|$，$\\left|PB\\right|=\\sqrt{2}\\left|v\\right|$，所以题设条件等价于 $\\left|uv\\right|=1$. 令 $\\varepsilon=uv$，则 $\\varepsilon=1$ 或 $\\varepsilon=-1$，再令 $s=u+v$.</p><p>把 $Q(t)$ 代入曲线方程，得到</p>\n$$\nG(t)=t^{4}+c_{3}t^{3}+c_{2}t^{2}+c_{1}t+c_{0}\n$$\n<p>其中 $c_{3}=4y+3$，$c_{2}=3x+6y^{2}+6y$，$c_{1}=3x^{2}+4y^{3}+6y^{2}$，$c_{0}=x^{3}+2y^{3}+y^{4}-1$.</p><p>因为 $u$，$v$ 是交点 $A$，$B$ 对应的参数，且 $u+v=s$，$uv=\\varepsilon$，所以记 $q_{1}(t)=t^{2}-st+\\varepsilon$，它是 $G(t)$ 的因式. 设另一因式为 $q_{2}(t)=t^{2}+qt+r$. 比较三次项和常数项，分别得到 $q=c_{3}+s$，$r=\\varepsilon c_{0}$，从而</p>\n$$\nG(t)=\\left(t^{2}-st+\\varepsilon\\right)\\left(t^{2}+(c_{3}+s)t+\\varepsilon c_{0}\\right)\n$$\n<p>再比较二次项和一次项，得到</p>\n$$\n\\begin{cases}s^{2}+c_{3}s+c_{2}-\\varepsilon c_{0}-\\varepsilon=0,\\\\  \\varepsilon(1-c_{0})s+\\varepsilon c_{3}-c_{1}=0.\\end{cases}\n$$\n<p>这组方程连同根的实性条件，给出了轨迹的充要条件. 第一因式必须有两个不同的实根 $u$，$v$，即 $s^{2}-4\\varepsilon>0$. 第二因式若没有实根，则不会产生新的交点；若有实根，则这些实根必须与 $u$，$v$ 重合，否则直线还会与曲线交于题设以外的点. 因此条件可写为</p><p>$s^{2}-4\\varepsilon>0$，（$(c_{3}+s)^{2}-4\\varepsilon c_{0}<0 \\text{或}  q_{2}(t)\\mid q_{1}(t)^{2}$）.</p><p>其中 $\\varepsilon=1$ 表示 $P$ 在 $A$，$B$ 的同侧，$\\varepsilon=-1$ 表示 $P$ 在 $A$，$B$ 之间. 这里的整段条件中的“或”只针对第二个因式：它的判别式为负，或它整除 $q_{1}(t)^{2}$. 后一种情形包含了两个交点处的切触等边界情形. 反过来，满足这些条件的 $x$，$y$ 由上述因式分解得到恰有两个不同的交点，并且 $\\left|PA\\right|\\left|PB\\right|=2\\left|uv\\right|=2$，所以这些条件也是充分的.</p><p>当 $c_{0}\\neq1$ 时，第二个方程给出</p>\n$$\ns=\\frac{\\varepsilon c_{1}-c_{3}}{1-c_{0}}\n$$\n<p>代入第一个方程，得到不含辅助参数 $s$ 的轨迹方程</p><p>$\\left(\\varepsilon c_{1}-c_{3}\\right)^{2}+c_{3}\\left(\\varepsilon c_{1}-c_{3}\\right)\\left(1-c_{0}\\right)+\\left(c_{2}-\\varepsilon c_{0}-\\varepsilon\\right)\\left(1-c_{0}\\right)^{2}=0$，$\\varepsilon=\\pm1$.</p><p>当 $c_{0}=1$ 时，不能除以 $1-c_{0}$，此时必须保留条件组</p>\n$$\n\\begin{cases}s^{2}+c_{3}s+c_{2}-2\\varepsilon=0,\\\\  \\varepsilon c_{3}-c_{1}=0,\\end{cases}\n$$\n<p>并同时满足上面的根的实性条件，其中允许 $q_{2}(t)\\mid q_{1}(t)^{2}$ 的边界情形.</p><p>因此，点 $P$ 的轨迹是上述 $\\varepsilon=1$ 与 $\\varepsilon=-1$ 两个十二次代数曲线中满足根的实性条件的实分支，并包括 $q_{2}(t)\\mid q_{1}(t)^{2}$ 所表示的交点重合边界情形；这些条件共同限定了题设所说的直线恰有交点 $A$，$B$. 所以轨迹不是圆、椭圆、抛物线或双曲线等二次曲线，而是由这两条高次代数曲线的相应实弧及其边界点组成.</p>"
         }
       ]
     }

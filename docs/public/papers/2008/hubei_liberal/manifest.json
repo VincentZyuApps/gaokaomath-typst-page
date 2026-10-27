@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "若集合 $P = \\{1, 2, 3, 4\\}$，$Q = \\{x \\mid 0 &#x3C; x &#x3C; 5, x \\in \\mathbb{R}\\}$，则（ ）",
+          "body": "若集合 $P = \\{1, 2, 3, 4\\}$，$Q = \\{x \\mid 0 < x < 5, x \\in \\mathbb{R}\\}$，则（ ）",
           "choices": [
             "“$x\\in P$”是“$x\\in Q$”的充分条件但不是必要条件",
             "“$x\\in P$”是“$x\\in Q$”的必要条件但不是充分条件",
@@ -41,7 +41,7 @@
             "“$x\\in P$”既不是“$x\\in Q$”的充分条件也不是“$x\\in Q$”的必要条件"
           ],
           "answer": "A",
-          "solution": "<p>因为 $P=\\{1,2,3,4\\}$，且其中每个数都满足 $0&#x3C;x&#x3C;5$，所以 $P\\subset Q$. 因此</p><p>$x\\in P$ 能推出 $x\\in Q$，即“$x\\in P$”是“$x\\in Q$”的充分条件.</p><p>但 $\\dfrac{1}{2}\\in Q$ 而 $\\dfrac{1}{2}\\notin P$，所以 $x\\in Q$ 不能推出 $x\\in P$，前者不是后者的必要条件. 故选 A.</p>"
+          "solution": "<p>因为 $P=\\{1,2,3,4\\}$，且其中每个数都满足 $0<x<5$，所以 $P\\subset Q$. 因此</p><p>$x\\in P$ 能推出 $x\\in Q$，即“$x\\in P$”是“$x\\in Q$”的充分条件.</p><p>但 $\\dfrac{1}{2}\\in Q$ 而 $\\dfrac{1}{2}\\notin P$，所以 $x\\in Q$ 不能推出 $x\\in P$，前者不是后者的必要条件. 故选 A.</p>"
         },
         {
           "num": 4,
@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "在平面直角坐标系 $xOy$ 中，满足不等式组 $\\begin{cases}|x| \\le |y|,\\\\  |x| &#x3C; 1\\end{cases}$ 的点 $(x, y)$ 的集合用阴影表示为下列图中的（ ）",
+          "body": "在平面直角坐标系 $xOy$ 中，满足不等式组 $\\begin{cases}|x| \\le |y|,\\\\  |x| < 1\\end{cases}$ 的点 $(x, y)$ 的集合用阴影表示为下列图中的（ ）",
           "choices": [
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hubei_liberal/q5_optA_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hubei_liberal/q5_optB_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
@@ -65,7 +65,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hubei_liberal/q5_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "C",
-          "solution": "<p>不等式 $|x|\\le|y|$ 等价于 $y\\ge|x|$ 或 $y\\le-|x|$，表示直线 $y=x$、$y=-x$ 上方的两个区域以及它们的边界. 不等式 $|x|&#x3C;1$ 表示直线 $x=-1$ 与 $x=1$ 之间的开条带，边界 $x=\\pm1$ 不取.</p><p>两者取交集后，阴影区域是在开条带 $-1&#x3C;x&#x3C;1$ 内、位于 $y\\ge|x|$ 或 $y\\le-|x|$ 的上下两个区域，边界两条斜线包含而两条竖直边界不包含. 这与图 C 相符，故选 C.</p>"
+          "solution": "<p>不等式 $|x|\\le|y|$ 等价于 $y\\ge|x|$ 或 $y\\le-|x|$，表示直线 $y=x$、$y=-x$ 上方的两个区域以及它们的边界. 不等式 $|x|<1$ 表示直线 $x=-1$ 与 $x=1$ 之间的开条带，边界 $x=\\pm1$ 不取.</p><p>两者取交集后，阴影区域是在开条带 $-1<x<1$ 内、位于 $y\\ge|x|$ 或 $y\\le-|x|$ 的上下两个区域，边界两条斜线包含而两条竖直边界不包含. 这与图 C 相符，故选 C.</p>"
         },
         {
           "num": 6,
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "<p>如图所示，“嫦娥一号”探月卫星沿地月转移轨道飞向月球. 在月球附近一点 $P$ 轨进入以月球球心 $F$ 为一个焦点的椭圆轨道 $I$ 绕月飞行，之后卫星在 $P$ 点第二次变轨进入仍以 $F$ 为一个焦点的椭圆轨道 $II$ 绕月飞行，最终卫星在 $P$ 点第三次变轨进入以 $F$ 为圆心的圆形轨道 $III$ 绕月飞行，若用 $2c_{1}$ 和 $2c_{2}$ 分别表示椭圆轨道 $I$ 和 $II$ 的焦距. 用 $2a_{1}$ 和 $2a_{2}$ 分别表示椭圆轨道 $I$ 和 $II$ 的长轴的长，给出下列式子：</p><ol class=\"enumerate\"><li><p>$a_{1}+ c_{1}= a_{2}+ c_{2}$；</p></li><li><p>$a_{1}- c_{1}= a_{2}- c_{2}$；</p></li><li><p>$c_{1}a_{2}> a_{1}c_{2}$；</p></li><li><p>$\\frac{c_{1}}{a_{1}}&#x3C; \\frac{c_{2}}{a_{2}}$.</p></li></ol><p>其中正确式子的序号是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图所示，“嫦娥一号”探月卫星沿地月转移轨道飞向月球. 在月球附近一点 $P$ 轨进入以月球球心 $F$ 为一个焦点的椭圆轨道 $I$ 绕月飞行，之后卫星在 $P$ 点第二次变轨进入仍以 $F$ 为一个焦点的椭圆轨道 $II$ 绕月飞行，最终卫星在 $P$ 点第三次变轨进入以 $F$ 为圆心的圆形轨道 $III$ 绕月飞行，若用 $2c_{1}$ 和 $2c_{2}$ 分别表示椭圆轨道 $I$ 和 $II$ 的焦距. 用 $2a_{1}$ 和 $2a_{2}$ 分别表示椭圆轨道 $I$ 和 $II$ 的长轴的长，给出下列式子：</p><ol class=\"enumerate\"><li><p>$a_{1}+ c_{1}= a_{2}+ c_{2}$；</p></li><li><p>$a_{1}- c_{1}= a_{2}- c_{2}$；</p></li><li><p>$c_{1}a_{2}> a_{1}c_{2}$；</p></li><li><p>$\\frac{c_{1}}{a_{1}}< \\frac{c_{2}}{a_{2}}$.</p></li></ol><p>其中正确式子的序号是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "①③",
             "②③",
@@ -151,7 +151,7 @@
           "body": "方程 $2^{-x}+ x^{2}= 3$ 的实数解的个数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "2",
-          "solution": "<p>令</p>\n$$\ng(x)=2^{-x}+x^{2}-3\n$$\n<p>当 $x&#x3C;0$ 时，</p>\n$$\ng'(x)=2x-(\\ln2)2^{-x}&#x3C;0\n$$\n<p>所以 $g$ 在 $(-\\infty,0)$ 上严格递减. 又 $g(-1)=0$，故负数范围内只有一个实根.</p><p>当 $x\\geqslant0$ 时，</p>\n$$\ng''(x)=2+(\\ln2)^{2} 2^{-x}>0\n$$\n<p>所以 $g'(x)$ 严格递增. 由于 $g'(0)=-\\ln2&#x3C;0$，$g'(1)=2-\\ln2>0$，存在唯一的 $x_{0}\\in(0,1)$ 使 $g'(x_{0})=0$. 函数 $g$ 先减后增，而 $g(1)=-\\dfrac{3}{2}&#x3C;0$，$g(2)=\\dfrac{5}{4}>0$，所以正数范围内恰有一个实根. 因此方程共有</p>\n$$\n1+1=2\n$$\n<p>个实数解.</p>"
+          "solution": "<p>令</p>\n$$\ng(x)=2^{-x}+x^{2}-3\n$$\n<p>当 $x<0$ 时，</p>\n$$\ng'(x)=2x-(\\ln2)2^{-x}<0\n$$\n<p>所以 $g$ 在 $(-\\infty,0)$ 上严格递减. 又 $g(-1)=0$，故负数范围内只有一个实根.</p><p>当 $x\\geqslant0$ 时，</p>\n$$\ng''(x)=2+(\\ln2)^{2} 2^{-x}>0\n$$\n<p>所以 $g'(x)$ 严格递增. 由于 $g'(0)=-\\ln2<0$，$g'(1)=2-\\ln2>0$，存在唯一的 $x_{0}\\in(0,1)$ 使 $g'(x_{0})=0$. 函数 $g$ 先减后增，而 $g(1)=-\\dfrac{3}{2}<0$，$g(2)=\\dfrac{5}{4}>0$，所以正数范围内恰有一个实根. 因此方程共有</p>\n$$\n1+1=2\n$$\n<p>个实数解.</p>"
         },
         {
           "num": 14,
@@ -184,7 +184,7 @@
           "body": "<p>已知函数 $f(x) = x^{3} + mx^{2} - m^{2}x + 1$ （ $m$ 为常数，且 $m > 0$） 有极大值 9.</p><ol class=\"enumerate\"><li><p>求 $m$ 的值；</p></li><li><p>若斜率为 $-5$ 的直线是曲线 $y = f(x)$ 的切线，求此直线方程.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}+2mx-m^{2}=(x+m)(3x-m)$. 因为 $m>0$，所以在 $x=-m$ 的左侧 $f'(x)>0$，在 $(-m,\\frac{m}{3})$ 内 $f'(x)&#x3C;0$，在 $x=\\frac{m}{3}$ 的右侧 $f'(x)>0$. 因此 $x=-m$ 是极大值点，且</p>\n$$\nf(-m)=-m^{3}+m^{3}+m^{3}+1=m^{3}+1\n$$\n<p>由极大值为 $9$，得 $m^{3}+1=9$，所以 $m=2$.</p></li><li><p>当 $m=2$ 时，</p>\n$$\nf'(x)=3x^{2}+4x-4\n$$\n<p>切线斜率为 $-5$，故切点横坐标满足</p><p>$3x^{2}+4x-4=-5$，$3x^{2}+4x+1=0$</p><p>即 $x=-1$ 或 $x=-\\dfrac{1}{3}$.</p><p>此时 $f(x)=x^{3}+2x^{2}-4x+1$. 当 $x=-1$ 时，$f(-1)=6$，切线方程为</p>\n$$\ny-6=-5(x+1)\n$$\n<p>即 $y=-5x+1$. 当 $x=-\\dfrac{1}{3}$ 时，</p>\n$$\nf\\left(-\\frac{1}{3}\\right)=-\\frac{1}{27}+\\frac{2}{9}+\\frac{4}{3}+1=\\frac{68}{27}\n$$\n<p>切线方程为</p>\n$$\ny-\\frac{68}{27}=-5\\left(x+\\frac{1}{3}\\right)\n$$\n<p>即 $y=-5x+\\dfrac{23}{27}$. 因此所求直线有两条：$y=-5x+1$ 和 $y=-5x+\\dfrac{23}{27}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}+2mx-m^{2}=(x+m)(3x-m)$. 因为 $m>0$，所以在 $x=-m$ 的左侧 $f'(x)>0$，在 $(-m,\\frac{m}{3})$ 内 $f'(x)<0$，在 $x=\\frac{m}{3}$ 的右侧 $f'(x)>0$. 因此 $x=-m$ 是极大值点，且</p>\n$$\nf(-m)=-m^{3}+m^{3}+m^{3}+1=m^{3}+1\n$$\n<p>由极大值为 $9$，得 $m^{3}+1=9$，所以 $m=2$.</p></li><li><p>当 $m=2$ 时，</p>\n$$\nf'(x)=3x^{2}+4x-4\n$$\n<p>切线斜率为 $-5$，故切点横坐标满足</p><p>$3x^{2}+4x-4=-5$，$3x^{2}+4x+1=0$</p><p>即 $x=-1$ 或 $x=-\\dfrac{1}{3}$.</p><p>此时 $f(x)=x^{3}+2x^{2}-4x+1$. 当 $x=-1$ 时，$f(-1)=6$，切线方程为</p>\n$$\ny-6=-5(x+1)\n$$\n<p>即 $y=-5x+1$. 当 $x=-\\dfrac{1}{3}$ 时，</p>\n$$\nf\\left(-\\frac{1}{3}\\right)=-\\frac{1}{27}+\\frac{2}{9}+\\frac{4}{3}+1=\\frac{68}{27}\n$$\n<p>切线方程为</p>\n$$\ny-\\frac{68}{27}=-5\\left(x+\\frac{1}{3}\\right)\n$$\n<p>即 $y=-5x+\\dfrac{23}{27}$. 因此所求直线有两条：$y=-5x+1$ 和 $y=-5x+\\dfrac{23}{27}$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -205,14 +205,14 @@
           "body": "<p>已知双曲线 $C: \\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$（$a > 0$，$b > 0$）的两个焦点为 $F_{1}(-2,0)$，$F_{2}(2,0)$，点 $P(3, \\sqrt{7})$ 在双曲线 $C$ 上.</p><ol class=\"enumerate\"><li><p>求双曲线 $C$ 的方程；</p></li><li><p>记 $O$ 为坐标原点，过点 $Q(0,2)$ 的直线 $l$ 与双曲线 $C$ 相交于不同的两点 $E$，$F$，若 $\\triangle OEF$ 的面积为 $2\\sqrt{2}$，求直线 $l$ 的方程.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由双曲线焦点坐标知焦半距 $c=2$，所以</p>\n$$\na^{2}+b^{2}=c^{2}=4\n$$\n<p>又因为点 $P(3,\\sqrt{7})$ 在双曲线 $C$ 上，得</p>\n$$\n\\frac{9}{a^{2}}-\\frac{7}{b^{2}}=1\n$$\n<p>令 $t=a^{2}$，则 $b^{2}=4-t$，其中 $0&#x3C;t&#x3C;4$. 代入上式并整理，得</p><p>$\\frac{9}{t}-\\frac{7}{4-t}=1$，$\\Longrightarrow$，$t^{2}-20t+36=0$，$\\Longrightarrow$，$(t-2)(t-18)=0$.</p><p>由 $0&#x3C;t&#x3C;4$，只能取 $t=2$. 因此 $a^{2}=b^{2}=2$，双曲线方程为</p>\n$$\n\\frac{x^{2}}{2}-\\frac{y^{2}}{2}=1,   \\text{即}  x^{2}-y^{2}=2\n$$\n</li><li><p>直线 $l$ 不可能为直线 $x=0$，因为它与双曲线方程联立得 $-y^{2}=2$，没有实交点. 故设 $l$ 的方程为 $y=kx+2$.</p><p>当 $k=\\pm1$ 时，代入双曲线方程所得方程为一次方程，直线 $l$ 只与双曲线有一个交点，不符合题设. 因此 $k\\ne\\pm1$. 将其代入双曲线方程，得</p>\n$$\nx^{2}-(kx+2)^{2}=2,   \\text{即}   (1-k^{2})x^{2}-4kx-6=0\n$$\n<p>设两交点 $E$、$F$ 的横坐标分别为 $x_{1}$、$x_{2}$，则对应纵坐标为 $y_{i}=kx_{i}+2$. 由三角形面积公式，</p>\n$$\n2S_{\\triangle OEF}=|x_{1}y_{2}-x_{2}y_{1}|=|2(x_{1}-x_{2})|\n$$\n<p>所以已知 $S_{\\triangle OEF}=2\\sqrt{2}$ 等价于 $|x_{1}-x_{2}|=2\\sqrt{2}$.</p><p>由于交点不同且 $k\\ne\\pm1$，上式为二次方程，根的判别式为</p>\n$$\n\\Delta=(-4k)^{2}-4(1-k^{2})(-6)=8(3-k^{2})\n$$\n<p>因此</p>\n$$\n(x_{1}-x_{2})^{2}=\\frac{\\Delta}{(1-k^{2})^{2}}=8\n$$\n<p>从而</p><p>$\\frac{8(3-k^{2})}{(1-k^{2})^{2}}=8$，$\\Longrightarrow$，$k^{4}-k^{2}-2=0$，$\\Longrightarrow$，$(k^{2}-2)(k^{2}+1)=0$.</p><p>所以 $k=\\pm\\sqrt{2}$，所求直线方程为</p>\n$$\ny=\\sqrt{2}x+2 \\text{或}  y=-\\sqrt{2}x+2\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由双曲线焦点坐标知焦半距 $c=2$，所以</p>\n$$\na^{2}+b^{2}=c^{2}=4\n$$\n<p>又因为点 $P(3,\\sqrt{7})$ 在双曲线 $C$ 上，得</p>\n$$\n\\frac{9}{a^{2}}-\\frac{7}{b^{2}}=1\n$$\n<p>令 $t=a^{2}$，则 $b^{2}=4-t$，其中 $0<t<4$. 代入上式并整理，得</p><p>$\\frac{9}{t}-\\frac{7}{4-t}=1$，$\\Longrightarrow$，$t^{2}-20t+36=0$，$\\Longrightarrow$，$(t-2)(t-18)=0$.</p><p>由 $0<t<4$，只能取 $t=2$. 因此 $a^{2}=b^{2}=2$，双曲线方程为</p>\n$$\n\\frac{x^{2}}{2}-\\frac{y^{2}}{2}=1,   \\text{即}  x^{2}-y^{2}=2\n$$\n</li><li><p>直线 $l$ 不可能为直线 $x=0$，因为它与双曲线方程联立得 $-y^{2}=2$，没有实交点. 故设 $l$ 的方程为 $y=kx+2$.</p><p>当 $k=\\pm1$ 时，代入双曲线方程所得方程为一次方程，直线 $l$ 只与双曲线有一个交点，不符合题设. 因此 $k\\ne\\pm1$. 将其代入双曲线方程，得</p>\n$$\nx^{2}-(kx+2)^{2}=2,   \\text{即}   (1-k^{2})x^{2}-4kx-6=0\n$$\n<p>设两交点 $E$、$F$ 的横坐标分别为 $x_{1}$、$x_{2}$，则对应纵坐标为 $y_{i}=kx_{i}+2$. 由三角形面积公式，</p>\n$$\n2S_{\\triangle OEF}=|x_{1}y_{2}-x_{2}y_{1}|=|2(x_{1}-x_{2})|\n$$\n<p>所以已知 $S_{\\triangle OEF}=2\\sqrt{2}$ 等价于 $|x_{1}-x_{2}|=2\\sqrt{2}$.</p><p>由于交点不同且 $k\\ne\\pm1$，上式为二次方程，根的判别式为</p>\n$$\n\\Delta=(-4k)^{2}-4(1-k^{2})(-6)=8(3-k^{2})\n$$\n<p>因此</p>\n$$\n(x_{1}-x_{2})^{2}=\\frac{\\Delta}{(1-k^{2})^{2}}=8\n$$\n<p>从而</p><p>$\\frac{8(3-k^{2})}{(1-k^{2})^{2}}=8$，$\\Longrightarrow$，$k^{4}-k^{2}-2=0$，$\\Longrightarrow$，$(k^{2}-2)(k^{2}+1)=0$.</p><p>所以 $k=\\pm\\sqrt{2}$，所求直线方程为</p>\n$$\ny=\\sqrt{2}x+2 \\text{或}  y=-\\sqrt{2}x+2\n$$\n</li></ol>"
         },
         {
           "num": 21,
           "body": "<p>已知数列 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 满足： $a_{1} = \\lambda$，$a_{n + 1}= \\frac{2}{3}a_{n} + n - 4$，$b_{n} = (-1)^{n} (a_{n} - 3n + 21)$，其中 $\\lambda$ 为实数，$n$ 为正整数.</p><ol class=\"enumerate\"><li><p>证明：对任意实数 $\\lambda$，数列 $\\{a_{n}\\}$ 不是等比数列；</p></li><li><p>证明：当 $\\lambda \\neq -18$ 时，数列 $\\{b_{n}\\}$ 是等比数列；</p></li><li><p>设 $S_{n}$ 为数列 $\\{b_{n}\\}$ 的前 $n$ 项和，是否存在实数 $\\lambda$，使得对任意正整数 $n$，都有 $S_{n}> -12$？ 若存在，求 $\\lambda$ 的取值范围；若不存在，说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>先令 $c_{n}=a_{n}-3n+21$. 由数列 $\\{a_{n}\\}$ 的递推式，</p>\n$$\nc_{n+1}=a_{n+1}-3(n+1)+21  =\\frac{2}{3}a_{n}+n-4-3n-3+21  =\\frac{2}{3}(a_{n}-3n+21)=\\frac{2}{3}c_{n}\n$$\n<p>又 $c_{1}=\\lambda+18$，所以</p><p>$c_{n}=(\\lambda+18)\\left(\\frac{2}{3}\\right)^{n-1}$，$b_{n}=(-1)^{n}(\\lambda+18)\\left(\\frac{2}{3}\\right)^{n-1}$.</p><p>由递推式得</p><p>$a_{2}=\\frac{2}{3}\\lambda-3$，$a_{3}=\\frac{4}{9}\\lambda-4$.</p><p>若 $\\{a_{n}\\}$ 是等比数列，则必有 $a_{2}^{2}=a_{1}a_{3}$. 但</p>\n$$\na_{2}^{2}-a_{1}a_{3}=\\left(\\frac{2}{3}\\lambda-3\\right)^{2}-\\lambda\\left(\\frac{4}{9}\\lambda-4\\right)=9\\ne0\n$$\n<p>矛盾. 因此对任意实数 $\\lambda$，数列 $\\{a_{n}\\}$ 都不是等比数列.</p></li><li><p>当 $\\lambda\\ne-18$ 时，$b_{n}\\ne0$，且</p>\n$$\n\\frac{b_{n+1}}{b_{n}}=-\\frac{2}{3}\n$$\n<p>所以数列 $\\{b_{n}\\}$ 是首项 $b_{1}=-(\\lambda+18)$、公比 $-\\dfrac{2}{3}$ 的等比数列.</p></li><li><p>由等比数列求和公式，且该公式在 $\\lambda=-18$ 时也成立，</p>\n$$\nS_{n}=-(\\lambda+18)\\frac{1-\\left(-\\frac{2}{3}\\right)^{n}}{1+\\frac{2}{3}}=-\\frac{3}{5}(\\lambda+18)\\left[1-\\left(-\\frac{2}{3}\\right)^{n}\\right]\n$$\n<p>取 $n=1$，由 $S_{1}>-12$ 得</p>\n$$\n-(\\lambda+18)>-12,   \\text{即}  \\lambda&#x3C;-6\n$$\n<p>下面证明这个条件也是充分的. 若 $\\lambda+18\\leqslant0$，则对任意正整数 $n$，有</p>\n$$\n1-\\left(-\\frac{2}{3}\\right)^{n}>0\n$$\n<p>从而 $S_{n}\\geqslant0>-12$. 若 $0&#x3C;\\lambda+18&#x3C;12$，当 $n$ 为偶数时，</p>\n$$\n0&#x3C;1-\\left(-\\frac{2}{3}\\right)^{n}&#x3C;1\n$$\n<p>当 $n$ 为奇数时，</p>\n$$\n1-\\left(-\\frac{2}{3}\\right)^{n}=1+\\left(\\frac{2}{3}\\right)^{n}\\le\\frac{5}{3}\n$$\n<p>于是对任意正整数 $n$，</p><p>$\\displaystyle S_{n}\\ge-\\frac{3}{5}(\\lambda+18)\\frac{5}{3}=-(\\lambda+18)>-12$.</p><p>所以存在这样的实数 $\\lambda$，其取值范围为 $\\lambda&#x3C;-6$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>先令 $c_{n}=a_{n}-3n+21$. 由数列 $\\{a_{n}\\}$ 的递推式，</p>\n$$\nc_{n+1}=a_{n+1}-3(n+1)+21  =\\frac{2}{3}a_{n}+n-4-3n-3+21  =\\frac{2}{3}(a_{n}-3n+21)=\\frac{2}{3}c_{n}\n$$\n<p>又 $c_{1}=\\lambda+18$，所以</p><p>$c_{n}=(\\lambda+18)\\left(\\frac{2}{3}\\right)^{n-1}$，$b_{n}=(-1)^{n}(\\lambda+18)\\left(\\frac{2}{3}\\right)^{n-1}$.</p><p>由递推式得</p><p>$a_{2}=\\frac{2}{3}\\lambda-3$，$a_{3}=\\frac{4}{9}\\lambda-4$.</p><p>若 $\\{a_{n}\\}$ 是等比数列，则必有 $a_{2}^{2}=a_{1}a_{3}$. 但</p>\n$$\na_{2}^{2}-a_{1}a_{3}=\\left(\\frac{2}{3}\\lambda-3\\right)^{2}-\\lambda\\left(\\frac{4}{9}\\lambda-4\\right)=9\\ne0\n$$\n<p>矛盾. 因此对任意实数 $\\lambda$，数列 $\\{a_{n}\\}$ 都不是等比数列.</p></li><li><p>当 $\\lambda\\ne-18$ 时，$b_{n}\\ne0$，且</p>\n$$\n\\frac{b_{n+1}}{b_{n}}=-\\frac{2}{3}\n$$\n<p>所以数列 $\\{b_{n}\\}$ 是首项 $b_{1}=-(\\lambda+18)$、公比 $-\\dfrac{2}{3}$ 的等比数列.</p></li><li><p>由等比数列求和公式，且该公式在 $\\lambda=-18$ 时也成立，</p>\n$$\nS_{n}=-(\\lambda+18)\\frac{1-\\left(-\\frac{2}{3}\\right)^{n}}{1+\\frac{2}{3}}=-\\frac{3}{5}(\\lambda+18)\\left[1-\\left(-\\frac{2}{3}\\right)^{n}\\right]\n$$\n<p>取 $n=1$，由 $S_{1}>-12$ 得</p>\n$$\n-(\\lambda+18)>-12,   \\text{即}  \\lambda<-6\n$$\n<p>下面证明这个条件也是充分的. 若 $\\lambda+18\\leqslant0$，则对任意正整数 $n$，有</p>\n$$\n1-\\left(-\\frac{2}{3}\\right)^{n}>0\n$$\n<p>从而 $S_{n}\\geqslant0>-12$. 若 $0<\\lambda+18<12$，当 $n$ 为偶数时，</p>\n$$\n0<1-\\left(-\\frac{2}{3}\\right)^{n}<1\n$$\n<p>当 $n$ 为奇数时，</p>\n$$\n1-\\left(-\\frac{2}{3}\\right)^{n}=1+\\left(\\frac{2}{3}\\right)^{n}\\le\\frac{5}{3}\n$$\n<p>于是对任意正整数 $n$，</p><p>$\\displaystyle S_{n}\\ge-\\frac{3}{5}(\\lambda+18)\\frac{5}{3}=-(\\lambda+18)>-12$.</p><p>所以存在这样的实数 $\\lambda$，其取值范围为 $\\lambda<-6$.</p></li></ol>"
         }
       ]
     }

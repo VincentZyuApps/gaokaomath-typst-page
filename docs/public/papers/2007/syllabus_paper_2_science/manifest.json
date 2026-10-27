@@ -29,7 +29,7 @@
             "$\\left(\\frac{3\\pi}{2}, 2\\pi\\right)$"
           ],
           "answer": "C",
-          "solution": "在 $\\left(-\\frac{\\pi}{4},0\\right)$ 内，$f(x)=-\\sin x$，且 $f'(x)=-\\cos x&#x3C;0$；在 $\\left(0,\\frac{\\pi}{4}\\right)$ 内，$f(x)=\\sin x$，且 $f'(x)=\\cos x>0$，所以选项 A 中的函数先减后增. 在 $\\left(\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right)$ 内，$f(x)=\\sin x$，而 $\\cos x$ 在 $\\frac{\\pi}{2}$ 两侧变号，函数先增后减. 在 $\\left(\\pi,\\frac{3\\pi}{2}\\right)$ 内，$f(x)=-\\sin x$，且 $-\\cos x>0$，故函数单调递增. 在 $\\left(\\frac{3\\pi}{2},2\\pi\\right)$ 内，$-\\cos x&#x3C;0$，故函数单调递减. 因此选 C."
+          "solution": "在 $\\left(-\\frac{\\pi}{4},0\\right)$ 内，$f(x)=-\\sin x$，且 $f'(x)=-\\cos x<0$；在 $\\left(0,\\frac{\\pi}{4}\\right)$ 内，$f(x)=\\sin x$，且 $f'(x)=\\cos x>0$，所以选项 A 中的函数先减后增. 在 $\\left(\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right)$ 内，$f(x)=\\sin x$，而 $\\cos x$ 在 $\\frac{\\pi}{2}$ 两侧变号，函数先增后减. 在 $\\left(\\pi,\\frac{3\\pi}{2}\\right)$ 内，$f(x)=-\\sin x$，且 $-\\cos x>0$，故函数单调递增. 在 $\\left(\\frac{3\\pi}{2},2\\pi\\right)$ 内，$-\\cos x<0$，故函数单调递减. 因此选 C."
         },
         {
           "num": 3,
@@ -53,7 +53,7 @@
             "$\\ln 2$"
           ],
           "answer": "D",
-          "solution": "令 $u=\\ln2$. 因为 $1&#x3C;2&#x3C;\\mathrm{e}$，所以 $0&#x3C;u&#x3C;1$. 从而 $u^{2}&#x3C;u$，$\\ln u&#x3C;0$，且 $\\ln\\sqrt{2}=\\frac{1}{2}\\ln2=\\frac{u}{2}&#x3C;u$. 因此四个数中最大的是 $\\ln2$，即选 D."
+          "solution": "令 $u=\\ln2$. 因为 $1<2<\\mathrm{e}$，所以 $0<u<1$. 从而 $u^{2}<u$，$\\ln u<0$，且 $\\ln\\sqrt{2}=\\frac{1}{2}\\ln2=\\frac{u}{2}<u$. 因此四个数中最大的是 $\\ln2$，即选 D."
         },
         {
           "num": 5,
@@ -77,7 +77,7 @@
             "$(- \\infty, -2) \\cup (1, +\\infty)$"
           ],
           "answer": "C",
-          "solution": "<p>分式有意义的条件为 $x\\ne-2$，$2$. 分子、分母的零点依次为 $1$ 和 $-2,2$. 按 $-2&#x3C;1&#x3C;2$ 分段：在 $(-\\infty,-2)$ 和 $(1,2)$ 内，分子、分母异号，分式为负；在 $(-2,1)$ 和 $(2,+\\infty)$ 内，分子、分母同号，分式为正. 因而</p>\n$$\n\\frac{x-1}{x^{2}-4}>0 \\Longleftrightarrow  -2&#x3C;x&#x3C;1\\ \\text{或}\\ x>2\n$$\n<p>严格不等式不取 $x=1$，分母零点也不能取，所以解集为 $(-2,1)\\cup(2,+\\infty)$，选 C.</p>"
+          "solution": "<p>分式有意义的条件为 $x\\ne-2$，$2$. 分子、分母的零点依次为 $1$ 和 $-2,2$. 按 $-2<1<2$ 分段：在 $(-\\infty,-2)$ 和 $(1,2)$ 内，分子、分母异号，分式为负；在 $(-2,1)$ 和 $(2,+\\infty)$ 内，分子、分母同号，分式为正. 因而</p>\n$$\n\\frac{x-1}{x^{2}-4}>0 \\Longleftrightarrow  -2<x<1\\ \\text{或}\\ x>2\n$$\n<p>严格不等式不取 $x=1$，分母零点也不能取，所以解集为 $(-2,1)\\cup(2,+\\infty)$，选 C.</p>"
         },
         {
           "num": 7,
@@ -168,7 +168,7 @@
           "body": "在某项测量中，测量结果 $\\xi$ 服从正态分布 $N(1, \\sigma^{2})$（$\\sigma > 0$）. 若 $\\xi$ 在 $(0, 1)$ 内取值的概率为 $0.4$，则 $\\xi$ 在 $(0, 2)$ 内取值的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$0.8$",
-          "solution": "<p>正态分布 $N(1,\\sigma^{2})$ 的密度图象关于直线 $x=1$ 对称，所以</p>\n$$\nP(1&#x3C;\\xi&#x3C;2)=P(0&#x3C;\\xi&#x3C;1)=0.4\n$$\n<p>由于连续型随机变量在单点处的概率为零，故</p>\n$$\nP(0&#x3C;\\xi&#x3C;2)=P(0&#x3C;\\xi&#x3C;1)+P(1&#x3C;\\xi&#x3C;2)=0.4+0.4=0.8\n$$"
+          "solution": "<p>正态分布 $N(1,\\sigma^{2})$ 的密度图象关于直线 $x=1$ 对称，所以</p>\n$$\nP(1<\\xi<2)=P(0<\\xi<1)=0.4\n$$\n<p>由于连续型随机变量在单点处的概率为零，故</p>\n$$\nP(0<\\xi<2)=P(0<\\xi<1)+P(1<\\xi<2)=0.4+0.4=0.8\n$$"
         },
         {
           "num": 15,
@@ -194,7 +194,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，已知内角 $A = \\frac{\\pi}{3}$，边 $BC = 2\\sqrt{3}$，设内角 $B = x$，周长为 $y$.</p><ol class=\"enumerate\"><li><p>求函数 $y = f(x)$ 的解析式和定义域；</p></li><li><p>求 $y$ 的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $a=BC=2\\sqrt{3}$，由正弦定理，</p><p>$\\frac{BC}{\\sin A}=\\frac{CA}{\\sin x}=\\frac{AB}{\\sin C}$，$C=\\frac{2\\pi}{3}-x$.</p><p>由于 $\\sin A=\\frac{\\sqrt{3}}{2}$，得</p><p>$CA=4\\sin x$，$AB=4\\sin\\left(\\frac{2\\pi}{3}-x\\right)$，</p><p>故周长函数为</p>\n$$\ny=f(x)=2\\sqrt{3}+4\\sin x+4\\sin\\left(\\frac{2\\pi}{3}-x\\right)\n$$\n<p>三角形内角必须为正，所以 $0&#x3C;x&#x3C;\\frac{2\\pi}{3}$.</p></li><li><p>利用和差化积公式，</p>\n$$\n\\sin x+\\sin\\left(\\frac{2\\pi}{3}-x\\right)=2\\sin\\frac{\\pi}{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)=\\sqrt{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)\n$$\n<p>因此</p>\n$$\ny=2\\sqrt{3}+4\\sqrt{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)\\leqslant6\\sqrt{3}\n$$\n<p>当 $x=\\frac{\\pi}{3}$ 时等号成立，故 $y$ 的最大值为 $6\\sqrt{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $a=BC=2\\sqrt{3}$，由正弦定理，</p><p>$\\frac{BC}{\\sin A}=\\frac{CA}{\\sin x}=\\frac{AB}{\\sin C}$，$C=\\frac{2\\pi}{3}-x$.</p><p>由于 $\\sin A=\\frac{\\sqrt{3}}{2}$，得</p><p>$CA=4\\sin x$，$AB=4\\sin\\left(\\frac{2\\pi}{3}-x\\right)$，</p><p>故周长函数为</p>\n$$\ny=f(x)=2\\sqrt{3}+4\\sin x+4\\sin\\left(\\frac{2\\pi}{3}-x\\right)\n$$\n<p>三角形内角必须为正，所以 $0<x<\\frac{2\\pi}{3}$.</p></li><li><p>利用和差化积公式，</p>\n$$\n\\sin x+\\sin\\left(\\frac{2\\pi}{3}-x\\right)=2\\sin\\frac{\\pi}{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)=\\sqrt{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)\n$$\n<p>因此</p>\n$$\ny=2\\sqrt{3}+4\\sqrt{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)\\leqslant6\\sqrt{3}\n$$\n<p>当 $x=\\frac{\\pi}{3}$ 时等号成立，故 $y$ 的最大值为 $6\\sqrt{3}$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -215,21 +215,21 @@
           "body": "<p>在直角坐标系 $xOy$ 中，以 $O$ 为圆心的圆与直线 $x - \\sqrt{3}y = 4$ 相切.</p><ol class=\"enumerate\"><li><p>求圆 $O$ 的方程；</p></li><li><p>圆 $O$ 与 $x$ 轴相交于 $A$，$B$ 两点，圆内的动点 $P$ 使 $\\left|PA\\right|$，$\\left|PO\\right|$，$\\left|PB\\right|$ 成等比数列，求 $\\overrightarrow{PA}\\cdot \\overrightarrow{PB}$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>原点到直线 $x-\\sqrt{3}y=4$ 的距离为</p>\n$$\nR=\\frac{4}{\\sqrt{1+3}}=2\n$$\n<p>因此圆 $O$ 的方程为 $x^{2}+y^{2}=4$.</p></li><li><p>设 $P=(x,y)$，并记 $r^{2}=OP^{2}=x^{2}+y^{2}$. 圆与 $x$ 轴交于 $A=(-2,0)$，$B=(2,0)$. 由 $|PA|$、$|PO|$、$|PB|$ 成等比数列，</p>\n$$\n|PO|^{2}=|PA||PB|\n$$\n<p>两边平方并代入坐标，得</p>\n$$\nr^{4}=\\bigl((x+2)^{2}+y^{2}\\bigr)\\bigl((x-2)^{2}+y^{2}\\bigr)  =\\bigl(r^{2}+4+4x\\bigr)\\bigl(r^{2}+4-4x\\bigr)\n$$\n<p>化简为</p>\n$$\nr^{2}=2x^{2}-2\n$$\n<p>又 $y^{2}=r^{2}-x^{2}=x^{2}-2\\geqslant0$，所以 $x^{2}\\geqslant2$. 因 $P$ 在圆内，$r^{2}&#x3C;4$，故 $x^{2}&#x3C;3$. 另一方面，</p>\n$$\n\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(-2-x,-y)\\cdot(2-x,-y)=x^{2}+y^{2}-4=r^{2}-4=2x^{2}-6\n$$\n<p>于是</p>\n$$\n\\overrightarrow{PA}\\cdot\\overrightarrow{PB}\\in[-2,0)\n$$\n<p>当 $2\\le x^{2}&#x3C;3$ 时取 $y^{2}=x^{2}-2$，则 $P$ 在圆内且满足等比条件，上述范围中的每个值均可取得，所以该范围即为所求取值范围.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>原点到直线 $x-\\sqrt{3}y=4$ 的距离为</p>\n$$\nR=\\frac{4}{\\sqrt{1+3}}=2\n$$\n<p>因此圆 $O$ 的方程为 $x^{2}+y^{2}=4$.</p></li><li><p>设 $P=(x,y)$，并记 $r^{2}=OP^{2}=x^{2}+y^{2}$. 圆与 $x$ 轴交于 $A=(-2,0)$，$B=(2,0)$. 由 $|PA|$、$|PO|$、$|PB|$ 成等比数列，</p>\n$$\n|PO|^{2}=|PA||PB|\n$$\n<p>两边平方并代入坐标，得</p>\n$$\nr^{4}=\\bigl((x+2)^{2}+y^{2}\\bigr)\\bigl((x-2)^{2}+y^{2}\\bigr)  =\\bigl(r^{2}+4+4x\\bigr)\\bigl(r^{2}+4-4x\\bigr)\n$$\n<p>化简为</p>\n$$\nr^{2}=2x^{2}-2\n$$\n<p>又 $y^{2}=r^{2}-x^{2}=x^{2}-2\\geqslant0$，所以 $x^{2}\\geqslant2$. 因 $P$ 在圆内，$r^{2}<4$，故 $x^{2}<3$. 另一方面，</p>\n$$\n\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(-2-x,-y)\\cdot(2-x,-y)=x^{2}+y^{2}-4=r^{2}-4=2x^{2}-6\n$$\n<p>于是</p>\n$$\n\\overrightarrow{PA}\\cdot\\overrightarrow{PB}\\in[-2,0)\n$$\n<p>当 $2\\le x^{2}<3$ 时取 $y^{2}=x^{2}-2$，则 $P$ 在圆内且满足等比条件，上述范围中的每个值均可取得，所以该范围即为所求取值范围.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "<p>设数列 $\\{a_{n}\\}$ 的首项 $a_{1} \\in (0,1)$，$a_{n} = \\frac{3 - a_{n-1}}{2}$，$n = 2$，$3$，$4$，$\\cdots$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $b_{n}= a_{n}\\sqrt{3 - 2a_{n}}$，证明 $b_{n}&#x3C; b_{n+1}$，其中 $n$ 为正整数.</p></li></ol>",
+          "body": "<p>设数列 $\\{a_{n}\\}$ 的首项 $a_{1} \\in (0,1)$，$a_{n} = \\frac{3 - a_{n-1}}{2}$，$n = 2$，$3$，$4$，$\\cdots$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $b_{n}= a_{n}\\sqrt{3 - 2a_{n}}$，证明 $b_{n}< b_{n+1}$，其中 $n$ 为正整数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由递推式，</p>\n$$\na_{n}-1=\\frac{3-a_{n-1}}{2}-1=-\\frac{1}{2}(a_{n-1}-1)\n$$\n<p>因此 $\\{a_{n}-1\\}$ 是首项 $a_{1}-1$、公比 $-\\frac{1}{2}$ 的等比数列，</p>\n$$\na_{n}=1+(a_{1}-1)\\left(-\\frac{1}{2}\\right)^{n-1}=1-(1-a_{1})\\left(-\\frac{1}{2}\\right)^{n-1}\n$$\n</li><li><p>令 $g(t)=t^{2}(3-2t)$. 由通项公式，若 $n$ 为奇数，则 $0&#x3C;(1-a_{1})2^{-(n-1)}&#x3C;1$，故 $0&#x3C;a_{n}&#x3C;1$；若 $n$ 为偶数，则 $a_{n}=1+(1-a_{1})2^{-(n-1)}$，故 $1&#x3C;a_{n}&#x3C;\\frac{3}{2}$. 因而对任意 $n$ 都有 $a_{n}>0$ 且 $3-2a_{n}>0$，所以 $b_{n}>0$. 设 $t=a_{n}$，则 $a_{n+1}=\\frac{3-t}{2}$，从而</p>\n$$\nb_{n+1}^{2}-b_{n}^{2}  =g\\left(\\frac{3-t}{2}\\right)-g(t)  =\\frac{9}{4}t(t-1)^{2}\n$$\n<p>由于 $a_{1}\\ne1$，由通项公式知任意正整数 $n$ 都有 $a_{n}\\ne1$，故上式严格大于零. 因此 $b_{n+1}^{2}>b_{n}^{2}$，结合 $b_{n}>0$，得到 $b_{n}&#x3C;b_{n+1}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由递推式，</p>\n$$\na_{n}-1=\\frac{3-a_{n-1}}{2}-1=-\\frac{1}{2}(a_{n-1}-1)\n$$\n<p>因此 $\\{a_{n}-1\\}$ 是首项 $a_{1}-1$、公比 $-\\frac{1}{2}$ 的等比数列，</p>\n$$\na_{n}=1+(a_{1}-1)\\left(-\\frac{1}{2}\\right)^{n-1}=1-(1-a_{1})\\left(-\\frac{1}{2}\\right)^{n-1}\n$$\n</li><li><p>令 $g(t)=t^{2}(3-2t)$. 由通项公式，若 $n$ 为奇数，则 $0<(1-a_{1})2^{-(n-1)}<1$，故 $0<a_{n}<1$；若 $n$ 为偶数，则 $a_{n}=1+(1-a_{1})2^{-(n-1)}$，故 $1<a_{n}<\\frac{3}{2}$. 因而对任意 $n$ 都有 $a_{n}>0$ 且 $3-2a_{n}>0$，所以 $b_{n}>0$. 设 $t=a_{n}$，则 $a_{n+1}=\\frac{3-t}{2}$，从而</p>\n$$\nb_{n+1}^{2}-b_{n}^{2}  =g\\left(\\frac{3-t}{2}\\right)-g(t)  =\\frac{9}{4}t(t-1)^{2}\n$$\n<p>由于 $a_{1}\\ne1$，由通项公式知任意正整数 $n$ 都有 $a_{n}\\ne1$，故上式严格大于零. 因此 $b_{n+1}^{2}>b_{n}^{2}$，结合 $b_{n}>0$，得到 $b_{n}<b_{n+1}$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "<p>已知函数 $f(x) = x^{3} - x$.</p><ol class=\"enumerate\"><li><p>求曲线 $y = f(x)$ 在点 $M(t, f(t))$ 处的切线方程；</p></li><li><p>设 $a > 0$，如果过点 $(a, b)$ 可作曲线 $y = f(x)$ 的三条切线，证明：$-a &#x3C; b &#x3C; f(a)$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = x^{3} - x$.</p><ol class=\"enumerate\"><li><p>求曲线 $y = f(x)$ 在点 $M(t, f(t))$ 处的切线方程；</p></li><li><p>设 $a > 0$，如果过点 $(a, b)$ 可作曲线 $y = f(x)$ 的三条切线，证明：$-a < b < f(a)$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-1$，所以在点 $M(t,f(t))$ 处的切线为</p>\n$$\ny-f(t)=f'(t)(x-t)\n$$\n<p>代入 $f(t)=t^{3}-t$ 和 $f'(t)=3t^{2}-1$，得</p>\n$$\ny-(t^{3}-t)=(3t^{2}-1)(x-t)\n$$\n<p>即</p>\n$$\ny=(3t^{2}-1)x-2t^{3}\n$$\n</li><li><p>设过点 $(a,b)$ 的切线与曲线的切点横坐标为 $t$. 由上面的切线方程，$(a,b)$ 在该切线上等价于</p>\n$$\nb=(3t^{2}-1)a-2t^{3}\n$$\n<p>即</p>\n$$\ng(t)=2t^{3}-3at^{2}+a+b=0\n$$\n<p>三条切线对应三个不同的实数根. 又</p>\n$$\ng'(t)=6t(t-a)\n$$\n<p>因为 $a>0$，函数 $g(t)$ 在 $(-\\infty,0)$ 和 $(a,+\\infty)$ 上递增，在 $(0,a)$ 上递减. 要有三个不同的实根，极大值 $g(0)$ 必须为正、极小值 $g(a)$ 必须为负；否则单调三段至多产生两个不同的交点. 因而</p><p>$g(0)=a+b>0$，$g(a)=b-a^{3}+a=b-f(a)&#x3C;0$，</p><p>于是</p>\n$$\n-a&#x3C;b&#x3C;f(a)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-1$，所以在点 $M(t,f(t))$ 处的切线为</p>\n$$\ny-f(t)=f'(t)(x-t)\n$$\n<p>代入 $f(t)=t^{3}-t$ 和 $f'(t)=3t^{2}-1$，得</p>\n$$\ny-(t^{3}-t)=(3t^{2}-1)(x-t)\n$$\n<p>即</p>\n$$\ny=(3t^{2}-1)x-2t^{3}\n$$\n</li><li><p>设过点 $(a,b)$ 的切线与曲线的切点横坐标为 $t$. 由上面的切线方程，$(a,b)$ 在该切线上等价于</p>\n$$\nb=(3t^{2}-1)a-2t^{3}\n$$\n<p>即</p>\n$$\ng(t)=2t^{3}-3at^{2}+a+b=0\n$$\n<p>三条切线对应三个不同的实数根. 又</p>\n$$\ng'(t)=6t(t-a)\n$$\n<p>因为 $a>0$，函数 $g(t)$ 在 $(-\\infty,0)$ 和 $(a,+\\infty)$ 上递增，在 $(0,a)$ 上递减. 要有三个不同的实根，极大值 $g(0)$ 必须为正、极小值 $g(a)$ 必须为负；否则单调三段至多产生两个不同的交点. 因而</p><p>$g(0)=a+b>0$，$g(a)=b-a^{3}+a=b-f(a)<0$，</p><p>于是</p>\n$$\n-a<b<f(a)\n$$\n</li></ol>"
         }
       ]
     }

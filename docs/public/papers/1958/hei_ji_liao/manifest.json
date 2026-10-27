@@ -26,7 +26,7 @@
           "body": "求根式：$\\sqrt[3]{a}$ 与 $\\sqrt{5-a}$ 的乘积.",
           "choices": null,
           "answer": "",
-          "solution": "<p>实数根式有意义的条件是 $5-a\\ge0$，即 $a\\le5$. 当 $0\\le a\\le5$ 时，$\\sqrt[3]{a}=\\sqrt[6]{a^{2}}$，于是</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=\\sqrt[6]{a^{2}}\\sqrt[6]{\\left(5-a\\right)^{3}}=\\sqrt[6]{a^{2}\\left(5-a\\right)^{3}}\n$$\n<p>当 $a&#x3C;0$ 时，$\\sqrt[3]{a}=-\\sqrt[6]{a^{2}}$，而 $\\sqrt{5-a}=\\sqrt[6]{(5-a)^{3}}>0$，所以</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=-\\sqrt[6]{a^{2}\\left(5-a\\right)^{3}}\n$$\n<p>因此，在实数范围内</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=\\begin{cases}\\sqrt[6]{a^2\\left(5-a\\right)^3},&#x26;0\\le a\\le5,\\\\  -\\sqrt[6]{a^2\\left(5-a\\right)^3},&#x26;a&#x3C;0.\\end{cases}\n$$"
+          "solution": "<p>实数根式有意义的条件是 $5-a\\ge0$，即 $a\\le5$. 当 $0\\le a\\le5$ 时，$\\sqrt[3]{a}=\\sqrt[6]{a^{2}}$，于是</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=\\sqrt[6]{a^{2}}\\sqrt[6]{\\left(5-a\\right)^{3}}=\\sqrt[6]{a^{2}\\left(5-a\\right)^{3}}\n$$\n<p>当 $a<0$ 时，$\\sqrt[3]{a}=-\\sqrt[6]{a^{2}}$，而 $\\sqrt{5-a}=\\sqrt[6]{(5-a)^{3}}>0$，所以</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=-\\sqrt[6]{a^{2}\\left(5-a\\right)^{3}}\n$$\n<p>因此，在实数范围内</p>\n$$\n\\sqrt[3]{a}\\sqrt{5-a}=\\begin{cases}\\sqrt[6]{a^2\\left(5-a\\right)^3},&0\\le a\\le5,\\\\  -\\sqrt[6]{a^2\\left(5-a\\right)^3},&a<0.\\end{cases}\n$$"
         },
         {
           "num": 4,
@@ -40,14 +40,14 @@
           "body": "<ol class=\"enumerate\"><li><p>解方程组：$\\begin{cases}2x-5z=10-6a,\\\\  x-2y+3z=2a+1,\\\\  5x-6y+9z=23-10a.\\end{cases}$</p></li><li><p>若 $x$ 为某直角三角形的斜边，$y$ 及 $z$ 为直角边，试确定 $a$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将第二式乘以 $3$，得 $3x-6y+9z=6a+3$. 用第三式减去这个等式，得到</p><p>$2x=20-16a$，所以 $x=10-8a$. 代入第一式，得</p><p>$2\\left(10-8a\\right)-5z=10-6a$，所以 $z=2-2a$. 再将 $x$，$z$ 代入第二式，得</p>\n$$\n10-8a-2y+3\\left(2-2a\\right)=2a+1\n$$\n<p>即 $y=\\frac{15-16a}{2}$. 因而方程组的解为</p><p>$x=10-8a$，$y=\\frac{15-16a}{2}$，$z=2-2a$.</p></li><li><p>三条边长必须为正，且由勾股定理</p>\n$$\n(10-8a)^{2}=\\left(\\frac{15-16a}{2}\\right)^{2}+(2-2a)^{2}\n$$\n<p>两边乘以 $4$，并展开，得到</p>\n$$\n400-640a+256a^{2}=225-480a+256a^{2}+16-32a+16a^{2}\n$$\n<p>即 $16a^{2}+128a-159=0$. 因而</p>\n$$\na=\\frac{-128\\pm\\sqrt{128^2+4\\cdot16\\cdot159}}{32}=\\frac{-128\\pm8\\sqrt{415}}{32}=\\frac{-16\\pm\\sqrt{415}}{4}\n$$\n<p>由于 $20&#x3C;\\sqrt{415}&#x3C;21$，正根 $a_{+}=\\frac{-16+\\sqrt{415}}{4}$ 满足 $1&#x3C;a_{+}&#x3C;\\frac{5}{4}$，于是 $z=2-2a_{+}&#x3C;0$，且 $y=\\frac{15-16a_{+}}{2}&#x3C;0$，不符合直角边为边长的要求. 负根 $a_{-}=\\frac{-16-\\sqrt{415}}{4}&#x3C;-9$ 时，$x=10-8a_{-}>0$，$y=\\frac{15-16a_{-}}{2}>0$，$z=2-2a_{-}>0$，且已经满足上面的勾股等式，因此有效. 故 $a=\\frac{-16-\\sqrt{415}}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将第二式乘以 $3$，得 $3x-6y+9z=6a+3$. 用第三式减去这个等式，得到</p><p>$2x=20-16a$，所以 $x=10-8a$. 代入第一式，得</p><p>$2\\left(10-8a\\right)-5z=10-6a$，所以 $z=2-2a$. 再将 $x$，$z$ 代入第二式，得</p>\n$$\n10-8a-2y+3\\left(2-2a\\right)=2a+1\n$$\n<p>即 $y=\\frac{15-16a}{2}$. 因而方程组的解为</p><p>$x=10-8a$，$y=\\frac{15-16a}{2}$，$z=2-2a$.</p></li><li><p>三条边长必须为正，且由勾股定理</p>\n$$\n(10-8a)^{2}=\\left(\\frac{15-16a}{2}\\right)^{2}+(2-2a)^{2}\n$$\n<p>两边乘以 $4$，并展开，得到</p>\n$$\n400-640a+256a^{2}=225-480a+256a^{2}+16-32a+16a^{2}\n$$\n<p>即 $16a^{2}+128a-159=0$. 因而</p>\n$$\na=\\frac{-128\\pm\\sqrt{128^2+4\\cdot16\\cdot159}}{32}=\\frac{-128\\pm8\\sqrt{415}}{32}=\\frac{-16\\pm\\sqrt{415}}{4}\n$$\n<p>由于 $20<\\sqrt{415}<21$，正根 $a_{+}=\\frac{-16+\\sqrt{415}}{4}$ 满足 $1<a_{+}<\\frac{5}{4}$，于是 $z=2-2a_{+}<0$，且 $y=\\frac{15-16a_{+}}{2}<0$，不符合直角边为边长的要求. 负根 $a_{-}=\\frac{-16-\\sqrt{415}}{4}<-9$ 时，$x=10-8a_{-}>0$，$y=\\frac{15-16a_{-}}{2}>0$，$z=2-2a_{-}>0$，且已经满足上面的勾股等式，因此有效. 故 $a=\\frac{-16-\\sqrt{415}}{4}$.</p></li></ol>"
         },
         {
           "num": 6,
           "body": "已知：$\\alpha$，$\\beta$ 皆为锐角，求证：$\\sin(\\alpha+\\beta)\\leq\\sin\\alpha+\\sin\\beta$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由两角和的正弦公式，</p>\n$$\n\\sin\\left(\\alpha+\\beta\\right)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta\n$$\n<p>因为 $\\alpha$，$\\beta$ 都是锐角，所以 $\\sin\\alpha>0$，$\\sin\\beta>0$，且 $0&#x3C;\\cos\\alpha&#x3C;1$，$0&#x3C;\\cos\\beta&#x3C;1$. 因此</p>\n$$\n\\sin\\alpha+\\sin\\beta-\\sin\\left(\\alpha+\\beta\\right)  =\\sin\\alpha\\left(1-\\cos\\beta\\right)+\\sin\\beta\\left(1-\\cos\\alpha\\right)>0\n$$\n<p>这里 $\\sin\\alpha$，$\\sin\\beta$，$1-\\cos\\alpha$，$1-\\cos\\beta$ 都为正数，所以</p>\n$$\n\\sin\\left(\\alpha+\\beta\\right)&#x3C;\\sin\\alpha+\\sin\\beta\n$$\n<p>严格不等式必然推出题中的不等式，故命题得证.</p>"
+          "solution": "<p>由两角和的正弦公式，</p>\n$$\n\\sin\\left(\\alpha+\\beta\\right)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta\n$$\n<p>因为 $\\alpha$，$\\beta$ 都是锐角，所以 $\\sin\\alpha>0$，$\\sin\\beta>0$，且 $0<\\cos\\alpha<1$，$0<\\cos\\beta<1$. 因此</p>\n$$\n\\sin\\alpha+\\sin\\beta-\\sin\\left(\\alpha+\\beta\\right)  =\\sin\\alpha\\left(1-\\cos\\beta\\right)+\\sin\\beta\\left(1-\\cos\\alpha\\right)>0\n$$\n<p>这里 $\\sin\\alpha$，$\\sin\\beta$，$1-\\cos\\alpha$，$1-\\cos\\beta$ 都为正数，所以</p>\n$$\n\\sin\\left(\\alpha+\\beta\\right)<\\sin\\alpha+\\sin\\beta\n$$\n<p>严格不等式必然推出题中的不等式，故命题得证.</p>"
         },
         {
           "num": 7,
@@ -58,10 +58,10 @@
         },
         {
           "num": 8,
-          "body": "解不等式：$2\\cos^{2}x-\\left(2+\\sqrt{3}\\right)\\cos x+\\sqrt{3}&#x3C;0$.",
+          "body": "解不等式：$2\\cos^{2}x-\\left(2+\\sqrt{3}\\right)\\cos x+\\sqrt{3}<0$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $t=\\cos x$，则 $-1\\le t\\le1$，并且</p>\n$$\n2t^{2}-\\left(2+\\sqrt{3}\\right)t+\\sqrt{3}=(t-1)(2t-\\sqrt{3})\n$$\n<p>因此原不等式等价于 $\\left(t-1\\right)\\left(2t-\\sqrt{3}\\right)&#x3C;0$. 在 $-1\\le t\\le1$ 内，始终有 $t-1\\le0$. 要使乘积为负，必须同时满足 $t-1&#x3C;0$ 和 $2t-\\sqrt{3}>0$，即</p>\n$$\n\\frac{\\sqrt{3}}{2}&#x3C;\\cos x&#x3C;1\n$$\n<p>由 $\\cos x>\\frac{\\sqrt{3}}{2}$，得 $2k\\pi-\\frac{\\pi}{6}&#x3C;x&#x3C;2k\\pi+\\frac{\\pi}{6}$，其中 $k\\in\\mathbb{Z}$. 条件 $\\cos x&#x3C;1$ 排除各区间中心的 $x=2k\\pi$. 所以原不等式的解集为</p>\n$$\nx\\in\\bigcup_{k\\in\\mathbb{Z}}\\left[\\left(2k\\pi-\\frac{\\pi}{6},2k\\pi\\right)\\cup\\left(2k\\pi,2k\\pi+\\frac{\\pi}{6}\\right)\\right]\n$$"
+          "solution": "<p>令 $t=\\cos x$，则 $-1\\le t\\le1$，并且</p>\n$$\n2t^{2}-\\left(2+\\sqrt{3}\\right)t+\\sqrt{3}=(t-1)(2t-\\sqrt{3})\n$$\n<p>因此原不等式等价于 $\\left(t-1\\right)\\left(2t-\\sqrt{3}\\right)<0$. 在 $-1\\le t\\le1$ 内，始终有 $t-1\\le0$. 要使乘积为负，必须同时满足 $t-1<0$ 和 $2t-\\sqrt{3}>0$，即</p>\n$$\n\\frac{\\sqrt{3}}{2}<\\cos x<1\n$$\n<p>由 $\\cos x>\\frac{\\sqrt{3}}{2}$，得 $2k\\pi-\\frac{\\pi}{6}<x<2k\\pi+\\frac{\\pi}{6}$，其中 $k\\in\\mathbb{Z}$. 条件 $\\cos x<1$ 排除各区间中心的 $x=2k\\pi$. 所以原不等式的解集为</p>\n$$\nx\\in\\bigcup_{k\\in\\mathbb{Z}}\\left[\\left(2k\\pi-\\frac{\\pi}{6},2k\\pi\\right)\\cup\\left(2k\\pi,2k\\pi+\\frac{\\pi}{6}\\right)\\right]\n$$"
         }
       ]
     }

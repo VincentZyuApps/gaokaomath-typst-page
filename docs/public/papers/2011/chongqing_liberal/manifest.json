@@ -29,7 +29,7 @@
             "$\\left(-\\infty,0\\right]\\cup\\left[2,+\\infty\\right)$"
           ],
           "answer": "A",
-          "solution": "<p>由 $x^{2}-2x=x(x-2)>0$，得 $x&#x3C;0$ 或 $x>2$，所以</p><p>$M=(-\\infty,0)\\cup(2,+\\infty)$. 取补集可得</p><p>$\\complement_{U}M=[0,2]$. 故选 A.</p>"
+          "solution": "<p>由 $x^{2}-2x=x(x-2)>0$，得 $x<0$ 或 $x>2$，所以</p><p>$M=(-\\infty,0)\\cup(2,+\\infty)$. 取补集可得</p><p>$\\complement_{U}M=[0,2]$. 故选 A.</p>"
         },
         {
           "num": 3,
@@ -71,13 +71,13 @@
           "num": 6,
           "body": "设 $a = \\log_{\\frac{1}{3}}\\frac{1}{2}$，$b = \\log_{\\frac{1}{3}}\\frac{2}{3}$，$c = \\log_{3} \\frac{4}{3}$，则 $a$，$b$，$c$ 的大小关系是（ ）",
           "choices": [
-            "$a &#x3C; b &#x3C; c$",
-            "$c &#x3C; b &#x3C; a$",
-            "$b &#x3C; a &#x3C; c$",
-            "$b &#x3C; c &#x3C; a$"
+            "$a < b < c$",
+            "$c < b < a$",
+            "$b < a < c$",
+            "$b < c < a$"
           ],
           "answer": "B",
-          "solution": "<p>令 $r=\\log_{3}2$，则</p><p>$a=\\log_{\\frac{1}{3}}(\\frac{1}{2})=r$，</p><p>$b=\\log_{\\frac{1}{3}}(\\frac{2}{3})=1-r$，</p><p>$c=\\log_{3}(\\frac{4}{3})=2r-1$. 由于 $2>\\sqrt{3}$，所以 $r>\\frac{1}{2}$，从而 $b&#x3C;a$；又由于 $2^{3}&#x3C;3^{2}$，所以 $r&#x3C;\\frac{2}{3}$，从而 $c&#x3C;b$. 因此 $c&#x3C;b&#x3C;a$. 故选 B.</p>"
+          "solution": "<p>令 $r=\\log_{3}2$，则</p><p>$a=\\log_{\\frac{1}{3}}(\\frac{1}{2})=r$，</p><p>$b=\\log_{\\frac{1}{3}}(\\frac{2}{3})=1-r$，</p><p>$c=\\log_{3}(\\frac{4}{3})=2r-1$. 由于 $2>\\sqrt{3}$，所以 $r>\\frac{1}{2}$，从而 $b<a$；又由于 $2^{3}<3^{2}$，所以 $r<\\frac{2}{3}$，从而 $c<b$. 因此 $c<b<a$. 故选 B.</p>"
         },
         {
           "num": 7,
@@ -113,7 +113,7 @@
             "$\\left(\\sqrt{2},+\\infty\\right)$"
           ],
           "answer": "B",
-          "solution": "<p>按横轴为实轴设双曲线为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，其中 $a$，$b>0$，并记 $c=\\sqrt{a^{2}+b^{2}}$，离心率 $e=\\frac{c}{a}$. 左准线为 $x=-\\frac{a^{2}}{c}$，两条渐近线为 $y=\\pm\\frac{b}{a}x$，所以它们的交点为</p><p>$A=(-\\frac{a^{2}}{c},\\frac{ab}{c})$ 与 $B=(-\\frac{a^{2}}{c},-\\frac{ab}{c})$. 以 $AB$ 为直径的圆的圆心为 $E=(-\\frac{a^{2}}{c},0)$，半径为 $\\frac{ab}{c}$. 左焦点为 $F=(-c,0)$，故</p><p>$EF=c-\\frac{a^{2}}{c}=\\frac{b^{2}}{c}$.</p><p>左焦点在圆内等价于 $EF&#x3C;\\frac{ab}{c}$，即 $b&#x3C;a$. 于是</p><p>$c=\\sqrt{a^{2}+b^{2}}$ 满足 $a&#x3C;c&#x3C;\\sqrt{2}a$，从而 $1&#x3C;e&#x3C;\\sqrt{2}$. 故选 B.</p>"
+          "solution": "<p>按横轴为实轴设双曲线为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，其中 $a$，$b>0$，并记 $c=\\sqrt{a^{2}+b^{2}}$，离心率 $e=\\frac{c}{a}$. 左准线为 $x=-\\frac{a^{2}}{c}$，两条渐近线为 $y=\\pm\\frac{b}{a}x$，所以它们的交点为</p><p>$A=(-\\frac{a^{2}}{c},\\frac{ab}{c})$ 与 $B=(-\\frac{a^{2}}{c},-\\frac{ab}{c})$. 以 $AB$ 为直径的圆的圆心为 $E=(-\\frac{a^{2}}{c},0)$，半径为 $\\frac{ab}{c}$. 左焦点为 $F=(-c,0)$，故</p><p>$EF=c-\\frac{a^{2}}{c}=\\frac{b^{2}}{c}$.</p><p>左焦点在圆内等价于 $EF<\\frac{ab}{c}$，即 $b<a$. 于是</p><p>$c=\\sqrt{a^{2}+b^{2}}$ 满足 $a<c<\\sqrt{2}a$，从而 $1<e<\\sqrt{2}$. 故选 B.</p>"
         },
         {
           "num": 10,
@@ -144,7 +144,7 @@
           "body": "若 $\\cos \\alpha = -\\frac{3}{5}$，且 $\\alpha \\in \\left(\\pi, \\frac{3\\pi}{2}\\right)$，则 $\\tan \\alpha =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{4}{3}$",
-          "solution": "<p>因为 $\\alpha\\in(\\pi,\\frac{3\\pi}{2})$，所以 $\\sin\\alpha&#x3C;0$. 由</p><p>$\\sin^{2}\\alpha=1-\\cos^{2}\\alpha=1-\\frac{9}{25}=\\frac{16}{25}$，得 $\\sin\\alpha=-\\frac{4}{5}$. 因此</p><p>$\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{-\\frac{4}{5}}{-\\frac{3}{5}}=\\frac{4}{3}$.</p>"
+          "solution": "<p>因为 $\\alpha\\in(\\pi,\\frac{3\\pi}{2})$，所以 $\\sin\\alpha<0$. 由</p><p>$\\sin^{2}\\alpha=1-\\cos^{2}\\alpha=1-\\frac{9}{25}=\\frac{16}{25}$，得 $\\sin\\alpha=-\\frac{4}{5}$. 因此</p><p>$\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{-\\frac{4}{5}}{-\\frac{3}{5}}=\\frac{4}{3}$.</p>"
         },
         {
           "num": 13,
@@ -165,7 +165,7 @@
           "body": "若实数 $a$，$b$，$c$ 满足 $2^{a}+ 2^{b}= 2^{a + b}$，$2^{a}+ 2^{b}+ 2^{c}= 2^{a + b + c}$，则 $c$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$2-\\log_{2}3$",
-          "solution": "<p>令 $x=2^{a}$，$y=2^{b}$，$z=2^{c}$，则 $x$，$y$，$z>0$，且题设化为</p><p>$x+y=xy$，$x+y+z=xyz$. 第一式等价于 $(x-1)(y-1)=1>0$，所以 $x-1$ 与 $y-1$ 同号. 因为 $x$，$y>0$，若 $0&#x3C;x&#x3C;1$ 且 $0&#x3C;y&#x3C;1$，则 $0&#x3C;(x-1)(y-1)&#x3C;1$，不可能成立，所以 $x$，$y>1$. 令 $s=x+y=xy$，则</p><p>$s=2+(x-1)+(y-1)\\geq4$，等号当且仅当 $x-1=y-1=1$，即 $x=y=2$.</p><p>由第二式得 $s+z=sz$，所以</p><p>$z=\\frac{s}{s-1}=1+\\frac{1}{s-1}\\leq\\frac{4}{3}$. 因此</p><p>$c=\\log_{2}z\\leq\\log_{2}\\frac{4}{3}=2-\\log_{2}3$. 当 $x=y=2$、$z=\\frac{4}{3}$ 时等号成立，故 $c$ 的最大值为 $2-\\log_{2}3$.</p>"
+          "solution": "<p>令 $x=2^{a}$，$y=2^{b}$，$z=2^{c}$，则 $x$，$y$，$z>0$，且题设化为</p><p>$x+y=xy$，$x+y+z=xyz$. 第一式等价于 $(x-1)(y-1)=1>0$，所以 $x-1$ 与 $y-1$ 同号. 因为 $x$，$y>0$，若 $0<x<1$ 且 $0<y<1$，则 $0<(x-1)(y-1)<1$，不可能成立，所以 $x$，$y>1$. 令 $s=x+y=xy$，则</p><p>$s=2+(x-1)+(y-1)\\geq4$，等号当且仅当 $x-1=y-1=1$，即 $x=y=2$.</p><p>由第二式得 $s+z=sz$，所以</p><p>$z=\\frac{s}{s-1}=1+\\frac{1}{s-1}\\leq\\frac{4}{3}$. 因此</p><p>$c=\\log_{2}z\\leq\\log_{2}\\frac{4}{3}=2-\\log_{2}3$. 当 $x=y=2$、$z=\\frac{4}{3}$ 时等号成立，故 $c$ 的最大值为 $2-\\log_{2}3$.</p>"
         }
       ]
     },
@@ -198,7 +198,7 @@
           "body": "<p>设 $f(x) = 2x^{3}+ ax^{2}+ bx + 1$ 的导数为 $f'(x)$. 若函数 $y = f'(x)$ 的图象关于直线 $x = -\\frac{1}{2}$ 对称，且 $f'(1) = 0$.</p><ol class=\"enumerate\"><li><p>求实数 $a$，$b$ 的值；</p></li><li><p>求函数 $f(x)$ 的极值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=6x^{2}+2ax+b$ 的图象是开口向上的抛物线，其对称轴为</p><p>$x=-\\frac{2a}{2\\cdot6}=-\\frac{a}{6}$. 由题设对称轴为 $x=-\\frac{1}{2}$，得 $a=3$. 再由 $f'(1)=0$，得</p><p>$6+2\\cdot3+b=0$，所以 $b=-12$.</p></li><li><p>此时</p>\n$$\nf'(x)=6x^{2}+6x-12=6(x+2)(x-1)\n$$\n<p>所以 $f'(x)>0$ 于 $(-\\infty,-2)$ 和 $(1,+\\infty)$，$f'(x)&#x3C;0$ 于 $(-2,1)$. 因此 $f$ 在 $x=-2$ 处取得极大值，在 $x=1$ 处取得极小值. 代入</p><p>$f(x)=2x^{3}+3x^{2}-12x+1$，得</p><p>$f(-2)=-16+12+24+1=21$，$f(1)=2+3-12+1=-6$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=6x^{2}+2ax+b$ 的图象是开口向上的抛物线，其对称轴为</p><p>$x=-\\frac{2a}{2\\cdot6}=-\\frac{a}{6}$. 由题设对称轴为 $x=-\\frac{1}{2}$，得 $a=3$. 再由 $f'(1)=0$，得</p><p>$6+2\\cdot3+b=0$，所以 $b=-12$.</p></li><li><p>此时</p>\n$$\nf'(x)=6x^{2}+6x-12=6(x+2)(x-1)\n$$\n<p>所以 $f'(x)>0$ 于 $(-\\infty,-2)$ 和 $(1,+\\infty)$，$f'(x)<0$ 于 $(-2,1)$. 因此 $f$ 在 $x=-2$ 处取得极大值，在 $x=1$ 处取得极小值. 代入</p><p>$f(x)=2x^{3}+3x^{2}-12x+1$，得</p><p>$f(-2)=-16+12+24+1=21$，$f(1)=2+3-12+1=-6$.</p></li></ol>"
         },
         {
           "num": 20,

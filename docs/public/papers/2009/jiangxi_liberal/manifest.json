@@ -9,12 +9,12 @@
       "problems": [
         {
           "num": 1,
-          "body": "<p>下列命题是真命题的为（ ）</p><p><span class=\"macro macro-answer\"></span>A</p><p>命题 A 中等式有意义，故 $x\\neq0$，$y\\neq0$，由 $\\frac{1}{x}=\\frac{1}{y}$ 得 $x=y$，所以命题 A 正确. 命题 B 中 $x^{2}=1$ 可得 $x=\\pm1$，不能推出 $x=1$. 命题 C 取 $x=y=-1$ 时，$\\sqrt{x}$ 与 $\\sqrt{y}$ 在实数范围内均无意义. 命题 D 取 $x=-2$，$y=-1$，虽有 $x&#x3C;y$，但 $x^{2}>y^{2}$. 因此真命题为 A.</p>",
+          "body": "<p>下列命题是真命题的为（ ）</p><p><span class=\"macro macro-answer\"></span>A</p><p>命题 A 中等式有意义，故 $x\\neq0$，$y\\neq0$，由 $\\frac{1}{x}=\\frac{1}{y}$ 得 $x=y$，所以命题 A 正确. 命题 B 中 $x^{2}=1$ 可得 $x=\\pm1$，不能推出 $x=1$. 命题 C 取 $x=y=-1$ 时，$\\sqrt{x}$ 与 $\\sqrt{y}$ 在实数范围内均无意义. 命题 D 取 $x=-2$，$y=-1$，虽有 $x<y$，但 $x^{2}>y^{2}$. 因此真命题为 A.</p>",
           "choices": [
             "若 $\\frac{1}{x}=\\frac{1}{y}$，则 $x=y$",
             "若 $x^{2}=1$，则 $x=1$",
             "若 $x=y$，则 $\\sqrt{x}=\\sqrt{y}$",
-            "若 $x&#x3C;y$，则 $x^{2}&#x3C;y^{2}$"
+            "若 $x<y$，则 $x^{2}<y^{2}$"
           ],
           "answer": "",
           "solution": ""
@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "<p>已知函数 $f(x)$ 是 $(- \\infty, +\\infty)$ 上的偶函数，若对于 $x \\ge 0$，都有 $f(x + 2) = f(x)$，且当 $x \\in [0, 2)$ 时，$f(x) = \\log_{2}(x + 1)$，则 $f(-2008) + f(2009)$ 的值为（ ）</p><p><span class=\"macro macro-answer\"></span>C</p><p>由偶函数性质，$f(-2008)=f(2008)$. 对 $x\\geqslant0$ 反复使用 $f(x+2)=f(x)$，得 $f(2008)=f(0)$，$f(2009)=f(1)$. 又 $f(x)=\\log_{2}(x+1)$（$0\\le x&#x3C;2$），所以</p><p>$f(0)=\\log_{2}1=0$，$f(1)=\\log_{2}2=1$. 因而 $f(-2008)+f(2009)=1$，故选 C.</p>",
+          "body": "<p>已知函数 $f(x)$ 是 $(- \\infty, +\\infty)$ 上的偶函数，若对于 $x \\ge 0$，都有 $f(x + 2) = f(x)$，且当 $x \\in [0, 2)$ 时，$f(x) = \\log_{2}(x + 1)$，则 $f(-2008) + f(2009)$ 的值为（ ）</p><p><span class=\"macro macro-answer\"></span>C</p><p>由偶函数性质，$f(-2008)=f(2008)$. 对 $x\\geqslant0$ 反复使用 $f(x+2)=f(x)$，得 $f(2008)=f(0)$，$f(2009)=f(1)$. 又 $f(x)=\\log_{2}(x+1)$（$0\\le x<2$），所以</p><p>$f(0)=\\log_{2}1=0$，$f(1)=\\log_{2}2=1$. 因而 $f(-2008)+f(2009)=1$，故选 C.</p>",
           "choices": [
             "$-2$",
             "$-1$",
@@ -165,14 +165,14 @@
         },
         {
           "num": 14,
-          "body": "<p>体积为 $8$ 的一个正方体，其全面积与球 $O$ 的表面积相等，则球 $O$ 的体积等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-answer\"></span>$\\dfrac{8\\sqrt{6\\pi}}{\\pi}$</p><p>正方体体积为 $8$，故棱长为 $2$，全面积为 $6\\cdot2^{2}=24$. 设球半径为 $R$，由表面积相等，</p><p>$4\\pi R^{2}=24$，所以 $R^{2}=\\frac{6}{\\pi}$. 球体积为</p><p>$\\frac{4}{3}\\pi R^{3}=\\frac{4}{3}\\pi\\left(\\frac{6}{\\pi}\\right)^{\\frac{3}{2}}=\\frac{8\\sqrt{6\\pi}}{\\pi}$.</p>",
+          "body": "<p>体积为 $8$ 的一个正方体，其全面积与球 $O$ 的表面积相等，则球 $O$ 的体积等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-answer\"></span>$\\dfrac{8\\sqrt{6\\pi}}{\\pi}$</p><p>正方体体积为 $8$，故棱长为 $2$，全面积为 $6\\cdot2^{2}=24$. 设球半径为 $R$，由表面积相等，</p><p>$4\\pi R^{2}=24$，所以 $R^{2}=\\frac{6}{\\pi}$. 球体积为</p><p>$\\frac{4}{3}\\pi R^{3}=\\frac{4}{3}\\pi\\left(\\frac{6}{\\mathrm{e}}\\right)^{\\frac{3}{2}}=\\frac{8\\sqrt{6\\pi}}{\\pi}$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
         },
         {
           "num": 15,
-          "body": "<p>若不等式 $\\sqrt{4-x^{2}}\\le k(x+1)$ 的解集为区间 $[a,b]$，且 $b-a = 1$，则 $k =\\underline{\\hspace{2.5em}}{}$.</p><p><span class=\"macro macro-answer\"></span>$\\dfrac{\\sqrt{3}}{2}$</p><p>根式有意义要求 $-2\\le x\\leqslant2$. 若 $k>0$，当 $x\\le-1$ 时右端不为正而左端非负，只有可能在 $x=-2$ 时成立，但此时右端为 $-k&#x3C;0$，仍不成立，所以解集包含于 $(-1,2]$. 又 $x=2$ 对任意 $k>0$ 都满足不等式，故解集若为 $[a,b]$，必有 $b=2$. 由 $b-a=1$，得到 $a=1$. 因为 $1$ 是定义域内部的解集端点，连续函数两边的符号必须在此处改变，故在 $x=1$ 处取等号：</p><p>$\\sqrt{4-1}=k(1+1)$，从而 $k=\\frac{\\sqrt{3}}{2}$.</p><p>反向验证：当 $k=\\frac{\\sqrt{3}}{2}$ 时，解集必须满足 $x>-1$，且平方等价于</p><p>$4-x^{2}\\le\\frac{3}{4}(x+1)^{2}$，即 $7x^{2}+6x-13\\geqslant0$，也就是 $(7x+13)(x-1)\\geqslant0$. 与 $(-1,2]$ 取交集，解集恰为 $[1,2]$，长度为 $1$.</p><p>若 $k=0$，不等式只在 $x=-2$ 或 $x=2$ 时成立，解集不是区间. 若 $k&#x3C;0$，成立时必须有 $x&#x3C;-1$，且 $-2$ 属于解集而 $-1$ 不属于解集；若解集是长度为 $1$ 的闭区间，就只能是 $[-2,-1]$，矛盾. 因而 $k=\\frac{\\sqrt{3}}{2}$.</p>",
+          "body": "<p>若不等式 $\\sqrt{4-x^{2}}\\le k(x+1)$ 的解集为区间 $[a,b]$，且 $b-a = 1$，则 $k =\\underline{\\hspace{2.5em}}{}$.</p><p><span class=\"macro macro-answer\"></span>$\\dfrac{\\sqrt{3}}{2}$</p><p>根式有意义要求 $-2\\le x\\leqslant2$. 若 $k>0$，当 $x\\le-1$ 时右端不为正而左端非负，只有可能在 $x=-2$ 时成立，但此时右端为 $-k<0$，仍不成立，所以解集包含于 $(-1,2]$. 又 $x=2$ 对任意 $k>0$ 都满足不等式，故解集若为 $[a,b]$，必有 $b=2$. 由 $b-a=1$，得到 $a=1$. 因为 $1$ 是定义域内部的解集端点，连续函数两边的符号必须在此处改变，故在 $x=1$ 处取等号：</p><p>$\\sqrt{4-1}=k(1+1)$，从而 $k=\\frac{\\sqrt{3}}{2}$.</p><p>反向验证：当 $k=\\frac{\\sqrt{3}}{2}$ 时，解集必须满足 $x>-1$，且平方等价于</p><p>$4-x^{2}\\le\\frac{3}{4}(x+1)^{2}$，即 $7x^{2}+6x-13\\geqslant0$，也就是 $(7x+13)(x-1)\\geqslant0$. 与 $(-1,2]$ 取交集，解集恰为 $[1,2]$，长度为 $1$.</p><p>若 $k=0$，不等式只在 $x=-2$ 或 $x=2$ 时成立，解集不是区间. 若 $k<0$，成立时必须有 $x<-1$，且 $-2$ 属于解集而 $-1$ 不属于解集；若解集是长度为 $1$ 的闭区间，就只能是 $[-2,-1]$，矛盾. 因而 $k=\\frac{\\sqrt{3}}{2}$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -191,7 +191,7 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>设函数 $f(x) = x^{3} - \\frac{9}{2}x^{2} + 6x - a$.</p><ol class=\"enumerate\"><li><p>对于任意实数 $x$，$f'(x) \\ge m$ 恒成立，求 $m$ 的最大值；</p></li><li><p>若方程 $f(x)=0$ 有且仅有一个实根，求 $a$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-9x+6=3\\left(x-\\frac{3}{2}\\right)^{2}-\\frac{3}{4}$. 因此对任意实数 $x$，都有 $f'(x)\\ge-\\frac{3}{4}$，且在 $x=\\frac{3}{2}$ 时取等号. 若 $f'(x)\\ge m$ 恒成立，则 $m\\le-\\frac{3}{4}$，所以 $m$ 的最大值为 $-\\frac{3}{4}$.</p></li><li><p>$f'(x)=3(x-1)(x-2)$，所以 $f(x)$ 在 $(-\\infty,1)$ 和 $(2,+\\infty)$ 上递增，在 $(1,2)$ 上递减. 两个极值为</p><p>$f(1)=\\frac{5}{2}-a$，$f(2)=2-a$.</p><p>若 $a&#x3C;2$，则 $f(2)>0$，局部极小值也为正，函数只在 $(-\\infty,1)$ 上有一个零点. 若 $a>\\frac{5}{2}$，则 $f(1)&#x3C;0$，局部极大值也为负，函数只在 $(2,+\\infty)$ 上有一个零点.</p><p>当 $2&#x3C;a&#x3C;\\frac{5}{2}$ 时，$f(1)>0>f(2)$，三段单调区间各有一个零点；当 $a=2$ 或 $a=\\frac{5}{2}$ 时，极值点给出重根且另有一个零点，均不满足“有且仅有一个实根”. 因而 $a&#x3C;2$ 或 $a>\\frac{5}{2}$.</p></li></ol>",
+          "body": "<p>设函数 $f(x) = x^{3} - \\frac{9}{2}x^{2} + 6x - a$.</p><ol class=\"enumerate\"><li><p>对于任意实数 $x$，$f'(x) \\ge m$ 恒成立，求 $m$ 的最大值；</p></li><li><p>若方程 $f(x)=0$ 有且仅有一个实根，求 $a$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-9x+6=3\\left(x-\\frac{3}{2}\\right)^{2}-\\frac{3}{4}$. 因此对任意实数 $x$，都有 $f'(x)\\ge-\\frac{3}{4}$，且在 $x=\\frac{3}{2}$ 时取等号. 若 $f'(x)\\ge m$ 恒成立，则 $m\\le-\\frac{3}{4}$，所以 $m$ 的最大值为 $-\\frac{3}{4}$.</p></li><li><p>$f'(x)=3(x-1)(x-2)$，所以 $f(x)$ 在 $(-\\infty,1)$ 和 $(2,+\\infty)$ 上递增，在 $(1,2)$ 上递减. 两个极值为</p><p>$f(1)=\\frac{5}{2}-a$，$f(2)=2-a$.</p><p>若 $a<2$，则 $f(2)>0$，局部极小值也为正，函数只在 $(-\\infty,1)$ 上有一个零点. 若 $a>\\frac{5}{2}$，则 $f(1)<0$，局部极大值也为负，函数只在 $(2,+\\infty)$ 上有一个零点.</p><p>当 $2<a<\\frac{5}{2}$ 时，$f(1)>0>f(2)$，三段单调区间各有一个零点；当 $a=2$ 或 $a=\\frac{5}{2}$ 时，极值点给出重根且另有一个零点，均不满足“有且仅有一个实根”. 因而 $a<2$ 或 $a>\\frac{5}{2}$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -205,7 +205,7 @@
         },
         {
           "num": 19,
-          "body": "<p>$\\triangle ABC$ 中，$A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，$A = \\frac{\\pi}{6}$，$(1 + \\sqrt{3})c = 2b$.</p><ol class=\"enumerate\"><li><p>求 $C$；</p></li><li><p>若 $\\overrightarrow{CB}\\cdot \\overrightarrow{CA}= 1 + \\sqrt{3}$，求 $a$，$b$，$c$.</p></li></ol><ol class=\"enumerate\"><li><p>由正弦定理，$\\frac{b}{c}=\\frac{\\sin B}{\\sin C}$. 又 $B=\\frac{5\\pi}{6}-C$，且 $\\frac{b}{c}=\\frac{1+\\sqrt{3}}{2}$，所以</p>\n$$\n\\sin\\left(\\frac{5\\pi}{6}-C\\right)=\\frac{1+\\sqrt{3}}{2}\\sin C\n$$\n<p>展开左边得 $\\frac{1}{2}\\cos C+\\frac{\\sqrt{3}}{2}\\sin C$，从而 $\\cos C=\\sin C$. 因为 $0&#x3C;C&#x3C;\\frac{5\\pi}{6}$，所以 $C=\\frac{\\pi}{4}$.</p></li><li><p>由正弦定理和 $A=\\frac{\\pi}{6}$、$C=\\frac{\\pi}{4}$，有 $\\frac{a}{c}=\\frac{\\sin A}{\\sin C}=\\frac{1}{\\sqrt{2}}$. 再由已知，$b=\\frac{1+\\sqrt{3}}{2}c$. 由向量数量积，</p>\n$$\n\\overrightarrow{CB}\\cdot\\overrightarrow{CA}=ab\\cos C  =\\frac{c}{\\sqrt{2}}\\cdot\\frac{1+\\sqrt{3}}{2}c\\cdot\\frac{\\sqrt{2}}{2}=\\frac{1+\\sqrt{3}}{4}c^{2}\n$$\n<p>因此 $c^{2}=4$，因边长为正，$c=2$，进而 $a=\\sqrt{2}$，$b=1+\\sqrt{3}$.</p></li></ol>",
+          "body": "<p>$\\triangle ABC$ 中，$A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，$A = \\frac{\\pi}{6}$，$(1 + \\sqrt{3})c = 2b$.</p><ol class=\"enumerate\"><li><p>求 $C$；</p></li><li><p>若 $\\overrightarrow{CB}\\cdot \\overrightarrow{CA}= 1 + \\sqrt{3}$，求 $a$，$b$，$c$.</p></li></ol><ol class=\"enumerate\"><li><p>由正弦定理，$\\frac{b}{c}=\\frac{\\sin B}{\\sin C}$. 又 $B=\\frac{5\\pi}{6}-C$，且 $\\frac{b}{c}=\\frac{1+\\sqrt{3}}{2}$，所以</p>\n$$\n\\sin\\left(\\frac{5\\pi}{6}-C\\right)=\\frac{1+\\sqrt{3}}{2}\\sin C\n$$\n<p>展开左边得 $\\frac{1}{2}\\cos C+\\frac{\\sqrt{3}}{2}\\sin C$，从而 $\\cos C=\\sin C$. 因为 $0<C<\\frac{5\\pi}{6}$，所以 $C=\\frac{\\pi}{4}$.</p></li><li><p>由正弦定理和 $A=\\frac{\\pi}{6}$、$C=\\frac{\\pi}{4}$，有 $\\frac{a}{c}=\\frac{\\sin A}{\\sin C}=\\frac{1}{\\sqrt{2}}$. 再由已知，$b=\\frac{1+\\sqrt{3}}{2}c$. 由向量数量积，</p>\n$$\n\\overrightarrow{CB}\\cdot\\overrightarrow{CA}=ab\\cos C  =\\frac{c}{\\sqrt{2}}\\cdot\\frac{1+\\sqrt{3}}{2}c\\cdot\\frac{\\sqrt{2}}{2}=\\frac{1+\\sqrt{3}}{4}c^{2}\n$$\n<p>因此 $c^{2}=4$，因边长为正，$c=2$，进而 $a=\\sqrt{2}$，$b=1+\\sqrt{3}$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -219,7 +219,7 @@
         },
         {
           "num": 21,
-          "body": "<p>数列 $\\{a_{n}\\}$ 的通项 $a_{n}= n^{2}\\left(\\cos^{2}\\frac{n\\pi}{3}- \\sin^{2}\\frac{n\\pi}{3}\\right)$，其前 $n$ 项和为 $S_{n}$.</p><ol class=\"enumerate\"><li><p>求 $S_{n}$；</p></li><li><p>$b_{n}=\\frac{S_{3n}}{n\\cdot4^{n}}$，求数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}$.</p></li></ol><ol class=\"enumerate\"><li><p>利用 $\\cos^{2}u-\\sin^{2}u=\\cos2u$，得 $a_{n}=n^{2}\\cos\\frac{2n\\pi}{3}$. 当 $n=3j-2$，$3j-1$，$3j$ 时，分别有</p><p>$a_{3j-2}=-\\frac{1}{2}(3j-2)^{2}$，$a_{3j-1}=-\\frac{1}{2}(3j-1)^{2}$，$a_{3j}=9j^{2}$.</p><p>每三个连续项的和为</p>\n$$\na_{3j-2}+a_{3j-1}+a_{3j}=9j-\\frac{5}{2}\n$$\n<p>所以</p>\n$$\nS_{3k}=\\sum_{j=1}^{k}\\left(9j-\\frac{5}{2}\\right)=\\frac{k(9k+4)}{2}=\\frac{n(3n+4)}{6}\n$$\n<p>由 $S_{3k-1}=S_{3k}-a_{3k}$，得</p>\n$$\nS_{3k-1}=\\frac{k(9k+4)}{2}-9k^{2}=\\frac{k(4-9k)}{2}\n$$\n<p>再由 $S_{3k-2}=S_{3k-1}-a_{3k-1}$，得</p>\n$$\nS_{3k-2}=\\frac{k(4-9k)}{2}+\\frac{(3k-1)^{2}}{2}=-k+\\frac{1}{2}\n$$\n<p>因此</p>\n$$\nS_{n}=  \\begin{cases}-\\dfrac{n}{3}-\\dfrac{1}{6},&#x26;n=3k-2,\\\\[4pt]  \\dfrac{(n+1)(1-3n)}6,&#x26;n=3k-1,\\\\[4pt]  \\dfrac{n(3n+4)}6,&#x26;n=3k,\\end{cases}  \\qquad k\\in\\mathbb{N}^{*}\n$$\n</li><li><p>由第一问在 $3n$ 处的结果，</p>\n$$\nb_{n}=\\frac{S_{3n}}{n\\cdot4^{n}}=\\frac{9n+4}{2\\cdot4^{n}}\n$$\n<p>于是</p>\n$$\nT_{n}=\\frac{1}{2}\\sum_{j=1}^{n}\\frac{9j+4}{4^{j}}\n$$\n<p>将上式乘以 $4$ 后与原式相减，得</p>\n$$\n3T_{n}=\\frac{1}{2}\\left(13+\\frac{9}{4}+\\frac{9}{4^{2}}+\\cdots+\\frac{9}{4^{n-1}}-\\frac{9n+4}{4^{n}}\\right)  =\\frac{1}{2}\\left(16-\\frac{9n+16}{4^{n}}\\right)  =8-\\frac{9n+16}{2\\cdot4^{n}}\n$$\n<p>因此</p>\n$$\nT_{n}=\\frac{8}{3}-\\frac{8}{3\\cdot4^{n}}-\\frac{3n}{2\\cdot4^{n}}=\\frac{8}{3}-\\frac{1}{3\\cdot2^{2n-3}}-\\frac{3n}{2^{2n+1}}\n$$\n</li></ol>",
+          "body": "<p>数列 $\\{a_{n}\\}$ 的通项 $a_{n}= n^{2}\\left(\\cos^{2}\\frac{n\\pi}{3}- \\sin^{2}\\frac{n\\pi}{3}\\right)$，其前 $n$ 项和为 $S_{n}$.</p><ol class=\"enumerate\"><li><p>求 $S_{n}$；</p></li><li><p>$b_{n}=\\frac{S_{3n}}{n\\cdot4^{n}}$，求数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}$.</p></li></ol><ol class=\"enumerate\"><li><p>利用 $\\cos^{2}u-\\sin^{2}u=\\cos2u$，得 $a_{n}=n^{2}\\cos\\frac{2n\\pi}{3}$. 当 $n=3j-2$，$3j-1$，$3j$ 时，分别有</p><p>$a_{3j-2}=-\\frac{1}{2}(3j-2)^{2}$，$a_{3j-1}=-\\frac{1}{2}(3j-1)^{2}$，$a_{3j}=9j^{2}$.</p><p>每三个连续项的和为</p>\n$$\na_{3j-2}+a_{3j-1}+a_{3j}=9j-\\frac{5}{2}\n$$\n<p>所以</p>\n$$\nS_{3k}=\\sum_{j=1}^{k}\\left(9j-\\frac{5}{2}\\right)=\\frac{k(9k+4)}{2}=\\frac{n(3n+4)}{6}\n$$\n<p>由 $S_{3k-1}=S_{3k}-a_{3k}$，得</p>\n$$\nS_{3k-1}=\\frac{k(9k+4)}{2}-9k^{2}=\\frac{k(4-9k)}{2}\n$$\n<p>再由 $S_{3k-2}=S_{3k-1}-a_{3k-1}$，得</p>\n$$\nS_{3k-2}=\\frac{k(4-9k)}{2}+\\frac{(3k-1)^{2}}{2}=-k+\\frac{1}{2}\n$$\n<p>因此</p>\n$$\nS_{n}=  \\begin{cases}-\\dfrac{n}{3}-\\dfrac{1}{6},&n=3k-2,\\\\[4pt]  \\dfrac{(n+1)(1-3n)}6,&n=3k-1,\\\\[4pt]  \\dfrac{n(3n+4)}6,&n=3k,\\end{cases}  \\qquad k\\in\\mathbb{N}^{*}\n$$\n</li><li><p>由第一问在 $3n$ 处的结果，</p>\n$$\nb_{n}=\\frac{S_{3n}}{n\\cdot4^{n}}=\\frac{9n+4}{2\\cdot4^{n}}\n$$\n<p>于是</p>\n$$\nT_{n}=\\frac{1}{2}\\sum_{j=1}^{n}\\frac{9j+4}{4^{j}}\n$$\n<p>将上式乘以 $4$ 后与原式相减，得</p>\n$$\n3T_{n}=\\frac{1}{2}\\left(13+\\frac{9}{4}+\\frac{9}{4^{2}}+\\cdots+\\frac{9}{4^{n-1}}-\\frac{9n+4}{4^{n}}\\right)  =\\frac{1}{2}\\left(16-\\frac{9n+16}{4^{n}}\\right)  =8-\\frac{9n+16}{2\\cdot4^{n}}\n$$\n<p>因此</p>\n$$\nT_{n}=\\frac{8}{3}-\\frac{8}{3\\cdot4^{n}}-\\frac{3n}{2\\cdot4^{n}}=\\frac{8}{3}-\\frac{1}{3\\cdot2^{2n-3}}-\\frac{3n}{2^{2n+1}}\n$$\n</li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

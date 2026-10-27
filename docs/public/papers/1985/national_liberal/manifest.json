@@ -45,7 +45,7 @@
         },
         {
           "num": 4,
-          "body": "<p>在下面给出的函数中，哪一个函数既是区间 $\\left(0,\\frac{\\pi}{2}\\right)$ 上的增函数又是以 $\\pi$ 为周期的偶函数（ ）</p><p>B</p><p>逐项检查两个性质. 函数 $y=x^{2}$ 虽为偶函数且在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上递增，但 $f(0)=0\\ne\\pi^{2}=f(\\pi)$，不是以 $\\pi$ 为周期的函数.</p><p>函数 $y=|\\sin x|$ 满足 $|\\sin(-x)|=|\\sin x|$，所以是偶函数；又有 $|\\sin(x+\\pi)|=|\\sin x|$，所以 $\\pi$ 是它的周期. 在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，$|\\sin x|=\\sin x$，而 $\\sin x$ 严格递增，因此该函数满足题设的两个条件.</p><p>函数 $y=\\cos 2x$ 虽为偶函数且以 $\\pi$ 为周期，但在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上其导数为 $-2\\sin 2x&#x3C;0$，是减函数. 函数 $y=\\mathrm{e}^{\\sin 2x}$ 在 $x=\\frac{\\pi}{6}$ 与 $x=\\frac{\\pi}{3}$ 处函数值相同，且 $f(-x)=\\mathrm{e}^{-\\sin 2x}$ 一般不等于 $f(x)$，既不是该区间上的增函数，也不是偶函数.</p><p>所以应选 B.</p>",
+          "body": "<p>在下面给出的函数中，哪一个函数既是区间 $\\left(0,\\frac{\\pi}{2}\\right)$ 上的增函数又是以 $\\pi$ 为周期的偶函数（ ）</p><p>B</p><p>逐项检查两个性质. 函数 $y=x^{2}$ 虽为偶函数且在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上递增，但 $f(0)=0\\ne\\pi^{2}=f(\\pi)$，不是以 $\\pi$ 为周期的函数.</p><p>函数 $y=|\\sin x|$ 满足 $|\\sin(-x)|=|\\sin x|$，所以是偶函数；又有 $|\\sin(x+\\pi)|=|\\sin x|$，所以 $\\pi$ 是它的周期. 在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，$|\\sin x|=\\sin x$，而 $\\sin x$ 严格递增，因此该函数满足题设的两个条件.</p><p>函数 $y=\\cos 2x$ 虽为偶函数且以 $\\pi$ 为周期，但在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上其导数为 $-2\\sin 2x<0$，是减函数. 函数 $y=\\mathrm{e}^{\\sin 2x}$ 在 $x=\\frac{\\pi}{6}$ 与 $x=\\frac{\\pi}{3}$ 处函数值相同，且 $f(-x)=\\mathrm{e}^{-\\sin 2x}$ 一般不等于 $f(x)$，既不是该区间上的增函数，也不是偶函数.</p><p>所以应选 B.</p>",
           "choices": [
             "$y=x^{2}$（$x\\in\\mathbb{R}$）",
             "$y=|\\sin x|$（$x\\in\\mathbb{R}$）",
@@ -133,7 +133,7 @@
           "body": "解不等式：$\\sqrt{2x+5}>x+1$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>首先由根式有意义得 $2x+5\\geqslant0$，即 $x\\ge-\\frac{5}{2}$.</p><p>当 $-\\frac{5}{2}\\le x&#x3C;-1$ 时，$x+1&#x3C;0$，而 $\\sqrt{2x+5}\\geqslant0$，所以不等式成立，得到 $\\left[-\\frac{5}{2},-1\\right)$.</p><p>当 $x\\ge-1$ 时，两边均为非负数，可以平方，得</p>\n$$\n2x+5>\\left(x+1\\right)^{2}   \\Longleftrightarrow   x^{2}&#x3C;4   \\Longleftrightarrow   -2&#x3C;x&#x3C;2\n$$\n<p>与 $x\\ge-1$ 合并，得到 $\\left[-1,2\\right)$. 综上，原不等式的解集为 $\\left[-\\frac{5}{2},2\\right)$.</p>"
+          "solution": "<p>首先由根式有意义得 $2x+5\\geqslant0$，即 $x\\ge-\\frac{5}{2}$.</p><p>当 $-\\frac{5}{2}\\le x<-1$ 时，$x+1<0$，而 $\\sqrt{2x+5}\\geqslant0$，所以不等式成立，得到 $\\left[-\\frac{5}{2},-1\\right)$.</p><p>当 $x\\ge-1$ 时，两边均为非负数，可以平方，得</p>\n$$\n2x+5>\\left(x+1\\right)^{2}   \\Longleftrightarrow   x^{2}<4   \\Longleftrightarrow   -2<x<2\n$$\n<p>与 $x\\ge-1$ 合并，得到 $\\left[-1,2\\right)$. 综上，原不等式的解集为 $\\left[-\\frac{5}{2},2\\right)$.</p>"
         },
         {
           "num": 15,
@@ -154,7 +154,7 @@
           "body": "设首项为 $1$，公比为 $q$（$q>0$）的等比数列的前 $n$ 项之和为 $S_{n}$. 又设 $T_{n}=\\frac{S_{n}}{S_{n+1}}$，$n=1$，$2$，$\\cdots$. 求 $\\displaystyle\\lim_{n\\to\\infty}T_{n}$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>当 $0&#x3C;q&#x3C;1$ 时，</p><p>$S_{n}=\\frac{1-q^{n}}{1-q}$，所以 $T_{n}=\\frac{S_{n}}{S_{n+1}}=\\frac{1-q^{n}}{1-q^{n+1}}\\longrightarrow1$.</p><p>当 $q=1$ 时，$S_{n}=n$，所以 $T_{n}=\\frac{n}{n+1}\\longrightarrow1$.</p><p>当 $q>1$ 时，</p><p>$T_{n}=\\frac{q^{n}-1}{q^{n+1}-1}=\\frac{1-q^{-n}}{q\\left(1-q^{-(n+1)}\\right)}\\longrightarrow\\frac{1}{q}$.</p><p>因此 $\\displaystyle\\lim_{n\\to\\infty}T_{n}=\\begin{cases}1, &#x26; 0&#x3C;q\\leqslant1,\\\\\n\n\\dfrac{1}{q}, &#x26; q>1\\end{cases}$.</p>"
+          "solution": "<p>当 $0<q<1$ 时，</p><p>$S_{n}=\\frac{1-q^{n}}{1-q}$，所以 $T_{n}=\\frac{S_{n}}{S_{n+1}}=\\frac{1-q^{n}}{1-q^{n+1}}\\longrightarrow1$.</p><p>当 $q=1$ 时，$S_{n}=n$，所以 $T_{n}=\\frac{n}{n+1}\\longrightarrow1$.</p><p>当 $q>1$ 时，</p><p>$T_{n}=\\frac{q^{n}-1}{q^{n+1}-1}=\\frac{1-q^{-n}}{q\\left(1-q^{-(n+1)}\\right)}\\longrightarrow\\frac{1}{q}$.</p><p>因此 $\\displaystyle\\lim_{n\\to\\infty}T_{n}=\\begin{cases}1, & 0<q\\leqslant1,\\\\\n\n\\dfrac{1}{q}, & q>1\\end{cases}$.</p>"
         }
       ]
     }

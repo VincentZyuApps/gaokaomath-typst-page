@@ -47,13 +47,13 @@
           "num": 4,
           "body": "已知函数 $y = \\tan \\omega x$ 在 $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ 内是减函数，则（ ）",
           "choices": [
-            "$0 &#x3C; \\omega \\le 1$",
-            "$-1 \\le \\omega &#x3C; 0$",
+            "$0 < \\omega \\le 1$",
+            "$-1 \\le \\omega < 0$",
             "$\\omega \\ge 1$",
             "$\\omega \\le -1$"
           ],
           "answer": "B",
-          "solution": "函数在整个 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 内有定义. 若 $|\\omega|>1$，取 $x_{0}=\\frac{\\pi}{2\\omega}$，则 $x_{0}\\in\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 且 $\\omega x_{0}=\\frac{\\pi}{2}$，函数无定义，所以必须有 $|\\omega|\\leqslant1$. 在此条件下，$\\tan(\\omega x)$ 在该区间内有定义，且 $\\frac{\\mathrm{d}}{\\mathrm{d}x}\\tan(\\omega x)=\\omega\\sec^{2}(\\omega x)$，其中 $\\sec^{2}(\\omega x)>0$. 因而严格减函数要求 $\\omega&#x3C;0$，合并得 $-1\\le\\omega&#x3C;0$，选 B."
+          "solution": "函数在整个 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 内有定义. 若 $|\\omega|>1$，取 $x_{0}=\\frac{\\pi}{2\\omega}$，则 $x_{0}\\in\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 且 $\\omega x_{0}=\\frac{\\pi}{2}$，函数无定义，所以必须有 $|\\omega|\\leqslant1$. 在此条件下，$\\tan(\\omega x)$ 在该区间内有定义，且 $\\frac{\\mathrm{d}}{\\mathrm{d}x}\\tan(\\omega x)=\\omega\\sec^{2}(\\omega x)$，其中 $\\sec^{2}(\\omega x)>0$. 因而严格减函数要求 $\\omega<0$，合并得 $-1\\le\\omega<0$，选 B."
         },
         {
           "num": 5,
@@ -89,7 +89,7 @@
             "$\\sin 2A + \\sin B = 0$"
           ],
           "answer": "A",
-          "solution": "由 $\\tan A-\\frac{1}{\\sin2A}=\\frac{2\\sin^{2}A-1}{2\\sin A\\cos A}=-\\cot2A$，得 $\\tan B=-\\cot2A$. 因为三角形为锐角三角形且 $\\tan B>0$，所以 $\\frac{\\pi}{2}&#x3C;2A&#x3C;\\pi$，从而 $B=2A-\\frac{\\pi}{2}$. 因此 $\\cos B=\\cos\\left(2A-\\frac{\\pi}{2}\\right)=\\sin2A$，即 $\\sin2A-\\cos B=0$，选 A."
+          "solution": "由 $\\tan A-\\frac{1}{\\sin2A}=\\frac{2\\sin^{2}A-1}{2\\sin A\\cos A}=-\\cot2A$，得 $\\tan B=-\\cot2A$. 因为三角形为锐角三角形且 $\\tan B>0$，所以 $\\frac{\\pi}{2}<2A<\\pi$，从而 $B=2A-\\frac{\\pi}{2}$. 因此 $\\cos B=\\cos\\left(2A-\\frac{\\pi}{2}\\right)=\\sin2A$，即 $\\sin2A-\\cos B=0$，选 A."
         },
         {
           "num": 8,
@@ -107,10 +107,10 @@
           "num": 9,
           "body": "已知集合 $M = \\{x \\mid x^{2} - 3x - 28 \\le 0\\}$，$N = \\{x \\mid x^{2} - x - 6 > 0\\}$，则 $M \\cap N$ 为（ ）",
           "choices": [
-            "$\\left\\{x\\mid -4\\le x &#x3C; -2\\text{\\ 或\\ }3 &#x3C; x\\le 7\\right\\}$",
-            "$\\left\\{x\\mid -4 &#x3C; x\\le -2\\text{\\ 或\\ }3\\le x &#x3C; 7\\right\\}$",
+            "$\\left\\{x\\mid -4\\le x < -2\\text{\\ 或\\ }3 < x\\le 7\\right\\}$",
+            "$\\left\\{x\\mid -4 < x\\le -2\\text{\\ 或\\ }3\\le x < 7\\right\\}$",
             "$\\left\\{x\\mid x\\le -2\\text{\\ 或\\ }x > 3\\right\\}$",
-            "$\\left\\{x\\mid x &#x3C; -2\\text{\\ 或\\ }x\\ge 3\\right\\}$"
+            "$\\left\\{x\\mid x < -2\\text{\\ 或\\ }x\\ge 3\\right\\}$"
           ],
           "answer": "A",
           "solution": "$x^{2}-3x-28=(x-7)(x+4)$，所以 $M=[-4,7]$. 又 $x^{2}-x-6=(x-3)(x+2)>0$，所以 $N=(-\\infty,-2)\\cup(3,+\\infty)$. 因而 $M\\cap N=[-4,-2)\\cup(3,7]$，选 A."
@@ -132,12 +132,12 @@
           "body": "如果 $a_{1}$，$a_{2}$，$\\cdots$，$a_{8}$ 为各项都大于零的等差数列，公差 $d \\neq 0$，则（ ）",
           "choices": [
             "$a_{1}a_{8}> a_{4}a_{5}$",
-            "$a_{1}a_{8}&#x3C; a_{4}a_{5}$",
+            "$a_{1}a_{8}< a_{4}a_{5}$",
             "$a_{1}+ a_{8}> a_{4}+ a_{5}$",
             "$a_{1}a_{8}= a_{4}a_{5}$"
           ],
           "answer": "B",
-          "solution": "<p>设公差为 $d$，则 $a_{4}=a_{1}+3d$，$a_{5}=a_{1}+4d$，$a_{8}=a_{1}+7d$. 于是</p>\n$$\na_{4}a_{5}-a_{1}a_{8}=(a_{1}+3d)(a_{1}+4d)-a_{1}(a_{1}+7d)=12d^{2}>0\n$$\n<p>因为 $d\\neq0$. 所以 $a_{1}a_{8}&#x3C;a_{4}a_{5}$，选 B；同时 $a_{1}+a_{8}=a_{4}+a_{5}$，故其他选项均不成立.</p>"
+          "solution": "<p>设公差为 $d$，则 $a_{4}=a_{1}+3d$，$a_{5}=a_{1}+4d$，$a_{8}=a_{1}+7d$. 于是</p>\n$$\na_{4}a_{5}-a_{1}a_{8}=(a_{1}+3d)(a_{1}+4d)-a_{1}(a_{1}+7d)=12d^{2}>0\n$$\n<p>因为 $d\\neq0$. 所以 $a_{1}a_{8}<a_{4}a_{5}$，选 B；同时 $a_{1}+a_{8}=a_{4}+a_{5}$，故其他选项均不成立.</p>"
         },
         {
           "num": 12,
@@ -229,7 +229,7 @@
           "body": "<p>已知 $a \\ge 0$，函数 $f(x) = (x^{2} - 2ax)\\mathrm{e}^{x}$.</p><ol class=\"enumerate\"><li><p>当 $x$ 为何值时，$f(x)$ 取得最小值？ 证明你的结论；</p></li><li><p>设 $f(x)$ 在 $[-1,1]$ 上是单调函数，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=\\bigl[x^{2}+2(1-a)x-2a\\bigr]\\mathrm{e}^{x}$. 令 $r_{1}=a-1-\\sqrt{a^{2}+1}$，$r_{2}=a-1+\\sqrt{a^{2}+1}$，则 $r_{1}&#x3C;r_{2}$，且 $x^{2}+2(1-a)x-2a=(x-r_{1})(x-r_{2})$.</p><p>因为 $\\mathrm{e}^{x}>0$，所以 $f$ 在 $(-\\infty,r_{1})$ 上递增，在 $(r_{1},r_{2})$ 上递减，在 $(r_{2},+\\infty)$ 上递增. 又当 $x\\to-\\infty$ 时 $f(x)\\to0$，当 $x\\to+\\infty$ 时 $f(x)\\to+\\infty$. 当 $a>0$ 时，$0&#x3C;r_{2}&#x3C;2a$，故 $f(r_{2})&#x3C;0$；当 $a=0$ 时，$r_{2}=0$，且 $f(x)=x^{2}\\mathrm{e}^{x}\\geqslant0=f(0)$. 所以无论哪种情形，函数都在 $x=a-1+\\sqrt{a^{2}+1}$ 时取得全局最小值.</p></li><li><p>在 $[-1,1]$ 上，$f'(x)$ 的符号由 $g(x)=x^{2}+2(1-a)x-2a$ 决定. 因为 $g(-1)=-1&#x3C;0$，不可能在整个区间上满足 $g(x)\\geqslant0$，所以若 $f$ 单调，必须有 $g(x)\\leqslant0$ 对一切 $x\\in[-1,1]$ 成立. 二次函数 $g$ 开口向上，在闭区间上的最大值为端点值，而 $g(-1)=-1$，$g(1)=3-4a$.</p><p>因此充要条件为 $3-4a\\leqslant0$，即 $a\\ge\\frac{3}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=\\bigl[x^{2}+2(1-a)x-2a\\bigr]\\mathrm{e}^{x}$. 令 $r_{1}=a-1-\\sqrt{a^{2}+1}$，$r_{2}=a-1+\\sqrt{a^{2}+1}$，则 $r_{1}<r_{2}$，且 $x^{2}+2(1-a)x-2a=(x-r_{1})(x-r_{2})$.</p><p>因为 $\\mathrm{e}^{x}>0$，所以 $f$ 在 $(-\\infty,r_{1})$ 上递增，在 $(r_{1},r_{2})$ 上递减，在 $(r_{2},+\\infty)$ 上递增. 又当 $x\\to-\\infty$ 时 $f(x)\\to0$，当 $x\\to+\\infty$ 时 $f(x)\\to+\\infty$. 当 $a>0$ 时，$0<r_{2}<2a$，故 $f(r_{2})<0$；当 $a=0$ 时，$r_{2}=0$，且 $f(x)=x^{2}\\mathrm{e}^{x}\\geqslant0=f(0)$. 所以无论哪种情形，函数都在 $x=a-1+\\sqrt{a^{2}+1}$ 时取得全局最小值.</p></li><li><p>在 $[-1,1]$ 上，$f'(x)$ 的符号由 $g(x)=x^{2}+2(1-a)x-2a$ 决定. 因为 $g(-1)=-1<0$，不可能在整个区间上满足 $g(x)\\geqslant0$，所以若 $f$ 单调，必须有 $g(x)\\leqslant0$ 对一切 $x\\in[-1,1]$ 成立. 二次函数 $g$ 开口向上，在闭区间上的最大值为端点值，而 $g(-1)=-1$，$g(1)=3-4a$.</p><p>因此充要条件为 $3-4a\\leqslant0$，即 $a\\ge\\frac{3}{4}$.</p></li></ol>"
         }
       ]
     }

@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "<p>已知 $a_{1}> a_{2}> a_{3}> 0$，则使得 $(1 - a_{i}x)^{2}&#x3C; 1$（$i = 1$，$2$，$3$）都成立的 $x$ 取值范围是（ ）</p><p>B</p><p>对任意 $i\\in\\{1,2,3\\}$，有</p>\n$$\n\\left(1-a_{i} x\\right)^{2}&#x3C;1  \\Longleftrightarrow -1&#x3C;1-a_{i} x&#x3C;1  \\Longleftrightarrow 0&#x3C;a_{i} x&#x3C;2\n$$\n<p>因为 $a_{i}>0$，所以该不等式等价于 $0&#x3C;x&#x3C;\\frac{2}{a_{i}}$. 三个不等式同时成立时，$x$ 必须属于这些区间的交集；又因 $a_{1}>a_{2}>a_{3}>0$，有 $\\frac{2}{a_{1}}&#x3C;\\frac{2}{a_{2}}&#x3C;\\frac{2}{a_{3}}$，故交集为 $\\left(0,\\frac{2}{a_{1}}\\right)$. 故选 B.</p>",
+          "body": "<p>已知 $a_{1}> a_{2}> a_{3}> 0$，则使得 $(1 - a_{i}x)^{2}< 1$（$i = 1$，$2$，$3$）都成立的 $x$ 取值范围是（ ）</p><p>B</p><p>对任意 $i\\in\\{1,2,3\\}$，有</p>\n$$\n\\left(1-a_{i} x\\right)^{2}<1  \\Longleftrightarrow -1<1-a_{i} x<1  \\Longleftrightarrow 0<a_{i} x<2\n$$\n<p>因为 $a_{i}>0$，所以该不等式等价于 $0<x<\\frac{2}{a_{i}}$. 三个不等式同时成立时，$x$ 必须属于这些区间的交集；又因 $a_{1}>a_{2}>a_{3}>0$，有 $\\frac{2}{a_{1}}<\\frac{2}{a_{2}}<\\frac{2}{a_{3}}$，故交集为 $\\left(0,\\frac{2}{a_{1}}\\right)$. 故选 B.</p>",
           "choices": [
             "$\\left(0, \\frac{1}{a_{1}}\\right)$",
             "$\\left(0, \\frac{2}{a_{1}}\\right)$",
@@ -245,7 +245,7 @@
         },
         {
           "num": 24,
-          "body": "<p>已知函数 $f(x) = |x - 8| - |x - 4|$.</p><ol class=\"enumerate\"><li><p>作出函数 $y = f(x)$ 的图象；</p></li><li><p>解不等式 $|x - 8| - |x - 4| > 2$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_science/q24_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>按绝对值定义分三种情况：</p>\n$$\nf(x)=\\begin{cases}\\left(8-x\\right)-\\left(4-x\\right)=4,&#x26;x\\le4,\\\\  \\left(8-x\\right)-\\left(x-4\\right)=-2x+12,&#x26;4&#x3C;x\\le8,\\\\  \\left(x-8\\right)-\\left(x-4\\right)=-4,&#x26;x>8.\\end{cases}\n$$\n<p>所以函数图象由直线 $y=4$ 在 $x\\le4$ 上的部分、连接点 $\\left(4,4\\right)$ 与 $\\left(8,-4\\right)$ 的线段 $y=-2x+12$，以及直线 $y=-4$ 在 $x>8$ 上的部分组成. 以 $\\left(4,4\\right)$、$\\left(8,-4\\right)$ 为转折点即可在题图坐标系中作出图象.</p></li><li><p>同样分情况讨论. 当 $x\\le4$ 时，$f(x)=4>2$，所以得到 $x\\le4$. 当 $4&#x3C;x\\le8$ 时，</p>\n$$\n-2x+12>2\\Longleftrightarrow x&#x3C;5\n$$\n<p>与本区间合并得 $4&#x3C;x&#x3C;5$. 当 $x>8$ 时，$f(x)=-4$，不满足不等式. 因而解集为</p>\n$$\n\\left(-\\infty,4\\right]\\cup\\left(4,5\\right)=\\left(-\\infty,5\\right)\n$$\n</li></ol>",
+          "body": "<p>已知函数 $f(x) = |x - 8| - |x - 4|$.</p><ol class=\"enumerate\"><li><p>作出函数 $y = f(x)$ 的图象；</p></li><li><p>解不等式 $|x - 8| - |x - 4| > 2$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_science/q24_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>按绝对值定义分三种情况：</p>\n$$\nf(x)=\\begin{cases}\\left(8-x\\right)-\\left(4-x\\right)=4,&x\\le4,\\\\  \\left(8-x\\right)-\\left(x-4\\right)=-2x+12,&4<x\\le8,\\\\  \\left(x-8\\right)-\\left(x-4\\right)=-4,&x>8.\\end{cases}\n$$\n<p>所以函数图象由直线 $y=4$ 在 $x\\le4$ 上的部分、连接点 $\\left(4,4\\right)$ 与 $\\left(8,-4\\right)$ 的线段 $y=-2x+12$，以及直线 $y=-4$ 在 $x>8$ 上的部分组成. 以 $\\left(4,4\\right)$、$\\left(8,-4\\right)$ 为转折点即可在题图坐标系中作出图象.</p></li><li><p>同样分情况讨论. 当 $x\\le4$ 时，$f(x)=4>2$，所以得到 $x\\le4$. 当 $4<x\\le8$ 时，</p>\n$$\n-2x+12>2\\Longleftrightarrow x<5\n$$\n<p>与本区间合并得 $4<x<5$. 当 $x>8$ 时，$f(x)=-4$，不满足不等式. 因而解集为</p>\n$$\n\\left(-\\infty,4\\right]\\cup\\left(4,5\\right)=\\left(-\\infty,5\\right)\n$$\n</li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

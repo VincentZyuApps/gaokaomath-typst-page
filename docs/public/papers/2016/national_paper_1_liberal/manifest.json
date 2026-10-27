@@ -93,15 +93,15 @@
         },
         {
           "num": 8,
-          "body": "若 $a>b>0$，$0&#x3C;c&#x3C;1$，则（ ）",
+          "body": "若 $a>b>0$，$0<c<1$，则（ ）",
           "choices": [
-            "$\\log_{a} c&#x3C;\\log_{b} c$",
-            "$\\log_{c} a&#x3C;\\log_{c} b$",
-            "$a^{c}&#x3C;b^{c}$",
+            "$\\log_{a} c<\\log_{b} c$",
+            "$\\log_{c} a<\\log_{c} b$",
+            "$a^{c}<b^{c}$",
             "$c^{a}>c^{b}$"
           ],
           "answer": "B",
-          "solution": "因为 $0&#x3C;c&#x3C;1$，函数 $y=\\log_{c} x$ 在正数范围内单调递减，所以由 $a>b>0$ 得 $\\log_{c} a&#x3C;\\log_{c} b$. 同时，指数函数 $y=x^{c}$ 在正数范围内递增，故 $a^{c}>b^{c}$；函数 $y=c^{x}$ 递减，故 $c^{a}&#x3C;c^{b}$. 因此只有 B 正确，故选 B."
+          "solution": "因为 $0<c<1$，函数 $y=\\log_{c} x$ 在正数范围内单调递减，所以由 $a>b>0$ 得 $\\log_{c} a<\\log_{c} b$. 同时，指数函数 $y=x^{c}$ 在正数范围内递增，故 $a^{c}>b^{c}$；函数 $y=c^{x}$ 递减，故 $c^{a}<c^{b}$. 因此只有 B 正确，故选 B."
         },
         {
           "num": 9,
@@ -113,7 +113,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_1_liberal/q9_fig2.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "函数为偶函数，且 $f(0)=-1$，$f(1)=2-\\mathrm{e}&#x3C;0$，$f(2)=8-\\mathrm{e}^{2}>0$，所以图象关于 $y$ 轴对称，原点附近在 $x$ 轴下方，且在两端上方. 对 $x\\ge0$，有 $f'(x)=4x-\\mathrm{e}^{x}$. 令 $h(x)=4x-\\mathrm{e}^{x}$，则 $h'(x)=4-\\mathrm{e}^{x}$，所以 $h$ 在 $[0,\\ln4]$ 上递增，在 $[\\ln4,2]$ 上递减. 又 $h(0)=-1&#x3C;0$，$h(1)=4-\\mathrm{e}>0$，$h(2)=8-\\mathrm{e}^{2}>0$，故 $h$ 在 $[0,2]$ 内恰有一个零点，且该零点在 $(0,1)$ 内. 因此 $f$ 在正半轴先减后增，在正半轴有一个极小值，并在 $(1,2)$ 内穿过 $x$ 轴，负半轴部分由偶性对称得到. 符合上述特征的图象为 D，故选 D."
+          "solution": "函数为偶函数，且 $f(0)=-1$，$f(1)=2-\\mathrm{e}<0$，$f(2)=8-\\mathrm{e}^{2}>0$，所以图象关于 $y$ 轴对称，原点附近在 $x$ 轴下方，且在两端上方. 对 $x\\ge0$，有 $f'(x)=4x-\\mathrm{e}^{x}$. 令 $h(x)=4x-\\mathrm{e}^{x}$，则 $h'(x)=4-\\mathrm{e}^{x}$，所以 $h$ 在 $[0,\\ln4]$ 上递增，在 $[\\ln4,2]$ 上递减. 又 $h(0)=-1<0$，$h(1)=4-\\mathrm{e}>0$，$h(2)=8-\\mathrm{e}^{2}>0$，故 $h$ 在 $[0,2]$ 内恰有一个零点，且该零点在 $(0,1)$ 内. 因此 $f$ 在正半轴先减后增，在正半轴有一个极小值，并在 $(1,2)$ 内穿过 $x$ 轴，负半轴部分由偶性对称得到. 符合上述特征的图象为 D，故选 D."
         },
         {
           "num": 10,
@@ -125,7 +125,7 @@
             "$y=5x$"
           ],
           "answer": "C",
-          "solution": "第一次循环时 $n=1$，更新后 $x=0+\\dfrac{1-1}{2}=0$，$y=1\\cdot1=1$，此时 $x^{2}+y^{2}=1&#x3C;36$，令 $n=2$. 第二次循环后 $x=0+\\dfrac{2-1}{2}=\\dfrac{1}{2}$，$y=2$，此时 $x^{2}+y^{2}=\\dfrac{1}{4}+4&#x3C;36$，令 $n=3$. 第三次循环后 $x=\\dfrac{1}{2}+\\dfrac{3-1}{2}=\\dfrac{3}{2}$，$y=3\\cdot2=6$，且 $x^{2}+y^{2}=\\dfrac{9}{4}+36>36$，循环结束. 于是 $y=6=4\\cdot\\dfrac{3}{2}=4x$，故选 C."
+          "solution": "第一次循环时 $n=1$，更新后 $x=0+\\dfrac{1-1}{2}=0$，$y=1\\cdot1=1$，此时 $x^{2}+y^{2}=1<36$，令 $n=2$. 第二次循环后 $x=0+\\dfrac{2-1}{2}=\\dfrac{1}{2}$，$y=2$，此时 $x^{2}+y^{2}=\\dfrac{1}{4}+4<36$，令 $n=3$. 第三次循环后 $x=\\dfrac{1}{2}+\\dfrac{3-1}{2}=\\dfrac{3}{2}$，$y=3\\cdot2=6$，且 $x^{2}+y^{2}=\\dfrac{9}{4}+36>36$，循环结束. 于是 $y=6=4\\cdot\\dfrac{3}{2}=4x$，故选 C."
         },
         {
           "num": 11,
@@ -201,14 +201,14 @@
           "body": "<p>如图，在已知正三棱锥 $P-ABC$ 的侧面是直角三角形，$PA=6$，顶点 $P$ 在平面 $ABC$ 内的正投影为点 $D$，$D$ 在平面 $PAB$ 内的正投影为点 $E$，连接 $PE$ 并延长交 $AB$ 于点 $G$.</p><ol class=\"enumerate\"><li><p>证明：$G$ 是 $AB$ 的中点；</p></li><li><p>在图中作出点 $E$ 在平面 $PAC$ 内的正投影 $F$（说明作法及理由），并求四面体 $PDEF$ 的体积.</p></li></ol><p><span class=\"macro macro-problemresetlayout\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>取底面所在平面为 $z=0$，建立直角坐标系，令</p><p>$A=(2\\sqrt{6},0,0)$，$B=(-\\sqrt{6},3\\sqrt{2},0)$，$C=(-\\sqrt{6},-3\\sqrt{2},0)$，$D=(0,0,0)$. 此时底面是边长为 $6\\sqrt{2}$ 的正三角形，且 $D$ 是其中心. 由 $PA=6$ 和 $AD=2\\sqrt{6}$，得 $PD=\\sqrt{PA^{2}-AD^{2}}=2\\sqrt{3}$，取 $P=(0,0,2\\sqrt{3})$.</p><ol class=\"enumerate\"><li><p>平面 $PAB$ 的方程为 $\\sqrt{3}x+3y+\\sqrt{6}z=6\\sqrt{2}$，其法向量为 $(\\sqrt{3},3,\\sqrt{6})$. 从原点 $D$ 向该平面作垂线，垂足为</p>\n$$\nE=\\frac{6\\sqrt{2}}{3+9+6}(\\sqrt{3},3,\\sqrt{6})=\\left(\\frac{\\sqrt{6}}{3},\\sqrt{2},\\frac{2\\sqrt{3}}{3}\\right)\n$$\n<p>直线 $PE$ 可写为 $P+\\lambda(E-P)$. 令其 $z$ 坐标为零，得 $\\lambda=\\dfrac{3}{2}$，所以交点</p>\n$$\nG=\\left(\\frac{\\sqrt{6}}{2},\\frac{3\\sqrt{2}}{2},0\\right)=\\frac{A+B}{2}\n$$\n<p>因此 $G$ 是 $AB$ 的中点.</p></li><li><p>在平面 $PAB$ 内过 $E$ 作 $EF\\parallel PB$，并令该直线交 $PA$ 于 $F$. 正三棱锥给出 $PA=PB=PC$，而各侧面又是直角三角形，所以每个侧面的直角顶点只能是 $P$，从而 $PB\\perp PA$，$PB\\perp PC$，因此 $PB\\perp$ 平面 $PAC$. 因此 $EF\\perp$ 平面 $PAC$，且 $F\\in PA\\subset$ 平面 $PAC$，所以 $F$ 正是点 $E$ 在平面 $PAC$ 内的正投影.</p><p>由 $\\overrightarrow{PB}=(-\\sqrt{6},3\\sqrt{2},-2\\sqrt{3})$，可得 $F=E-\\dfrac{1}{3}\\overrightarrow{PB}=\\left(\\dfrac{2\\sqrt{6}}{3},0,\\dfrac{4\\sqrt{3}}{3}\\right)$. 于是</p>\n$$\nV_{PDEF}=\\frac{1}{6}\\left|\\det\\begin{pmatrix}0&#x26;\\dfrac{\\sqrt{6}}{3}&#x26;\\dfrac{2\\sqrt{6}}{3}\\\\\n\n0&#x26;\\sqrt{2}&#x26;0\\\\\n\n-2\\sqrt{3}&#x26;-\\dfrac{4\\sqrt{3}}{3}&#x26;-\\dfrac{2\\sqrt{3}}{3}\\end{pmatrix}\\right|=\\frac{8}{6}=\\frac{4}{3}\n$$\n</li></ol>"
+          "solution": "<p>取底面所在平面为 $z=0$，建立直角坐标系，令</p><p>$A=(2\\sqrt{6},0,0)$，$B=(-\\sqrt{6},3\\sqrt{2},0)$，$C=(-\\sqrt{6},-3\\sqrt{2},0)$，$D=(0,0,0)$. 此时底面是边长为 $6\\sqrt{2}$ 的正三角形，且 $D$ 是其中心. 由 $PA=6$ 和 $AD=2\\sqrt{6}$，得 $PD=\\sqrt{PA^{2}-AD^{2}}=2\\sqrt{3}$，取 $P=(0,0,2\\sqrt{3})$.</p><ol class=\"enumerate\"><li><p>平面 $PAB$ 的方程为 $\\sqrt{3}x+3y+\\sqrt{6}z=6\\sqrt{2}$，其法向量为 $(\\sqrt{3},3,\\sqrt{6})$. 从原点 $D$ 向该平面作垂线，垂足为</p>\n$$\nE=\\frac{6\\sqrt{2}}{3+9+6}(\\sqrt{3},3,\\sqrt{6})=\\left(\\frac{\\sqrt{6}}{3},\\sqrt{2},\\frac{2\\sqrt{3}}{3}\\right)\n$$\n<p>直线 $PE$ 可写为 $P+\\lambda(E-P)$. 令其 $z$ 坐标为零，得 $\\lambda=\\dfrac{3}{2}$，所以交点</p>\n$$\nG=\\left(\\frac{\\sqrt{6}}{2},\\frac{3\\sqrt{2}}{2},0\\right)=\\frac{A+B}{2}\n$$\n<p>因此 $G$ 是 $AB$ 的中点.</p></li><li><p>在平面 $PAB$ 内过 $E$ 作 $EF\\parallel PB$，并令该直线交 $PA$ 于 $F$. 正三棱锥给出 $PA=PB=PC$，而各侧面又是直角三角形，所以每个侧面的直角顶点只能是 $P$，从而 $PB\\perp PA$，$PB\\perp PC$，因此 $PB\\perp$ 平面 $PAC$. 因此 $EF\\perp$ 平面 $PAC$，且 $F\\in PA\\subset$ 平面 $PAC$，所以 $F$ 正是点 $E$ 在平面 $PAC$ 内的正投影.</p><p>由 $\\overrightarrow{PB}=(-\\sqrt{6},3\\sqrt{2},-2\\sqrt{3})$，可得 $F=E-\\dfrac{1}{3}\\overrightarrow{PB}=\\left(\\dfrac{2\\sqrt{6}}{3},0,\\dfrac{4\\sqrt{3}}{3}\\right)$. 于是</p>\n$$\nV_{PDEF}=\\frac{1}{6}\\left|\\det\\begin{pmatrix}0&\\dfrac{\\sqrt{6}}{3}&\\dfrac{2\\sqrt{6}}{3}\\\\\n\n0&\\sqrt{2}&0\\\\\n\n-2\\sqrt{3}&-\\dfrac{4\\sqrt{3}}{3}&-\\dfrac{2\\sqrt{3}}{3}\\end{pmatrix}\\right|=\\frac{8}{6}=\\frac{4}{3}\n$$\n</li></ol>"
         },
         {
           "num": 19,
           "body": "<p>某公司计划购买 $1$ 台机器，该种机器使用三年后即被淘汰. 机器有一易损零件，在购进机器时，可以额外购买这种零件作为备件，每个 $200$ 元. 在机器使用期间，如果备件不足再购买，则每个 $500$ 元. 现需决策在购买机器时应同时购买几个易损零件，为此搜集并整理了 $100$ 台这种机器在三年试用期内更换的易损零件数，得下面柱状图：</p><p>记 $x$ 表示 $1$ 台机器在三年试用期内需更换的易损零件数，$y$ 表示 $1$ 台机器在购买易损零件上所需的费用（单位：元），$n$ 表示购机的同时购买的易损零件数.</p><ol class=\"enumerate\"><li><p>若 $n=19$，求 $y$ 与 $x$ 的函数解析式；</p></li><li><p>若要求“需更换的易损零件数不大于 $n$”的频率不小于 $0.5$，求 $n$ 的最小值；</p></li><li><p>假设这 $100$ 台机器在购机的同时每台都购买 $19$ 个易损零件，或每台都购买 $20$ 个易损零件，分别计算这 $100$ 台机器在购买易损零件上所需费用的平均数，以此作为决策依据，购买 $1$ 台机器的同时应购买 $19$ 个还是 $20$ 个易损零件？</p></li></ol><p><span class=\"macro macro-problemresetlayout\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_liberal/q19_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由柱状图可读出 $x=16$，$17$，$18$，$19$，$20$，$21$ 时的频数分别为 $6$，$16$，$24$，$24$，$20$，$10$.</p><ol class=\"enumerate\"><li><p>当 $n=19$ 时，先购买的备件费用为 $19\\cdot200=3800$ 元. 当 $x\\le19$ 时备件足够，$y=3800$；当 $x>19$ 时还需购买 $x-19$ 个，每个费用为 $500$ 元，所以</p>\n$$\ny=\\begin{cases}3800,&#x26;x\\le19,\\\\  3800+500(x-19)=500x-5700,&#x26;x>19,\\end{cases}\\qquad x\\in\\{16,17,18,19,20,21\\}\n$$\n</li><li><p>由频数表，需更换零件数不大于 $18$ 的频率为 $\\dfrac{6+16+24}{100}=0.46&#x3C;0.5$，不大于 $19$ 的频率为 $\\dfrac{6+16+24+24}{100}=0.70\\ge0.5$. 所以 $n$ 的最小值为 $19$.</p></li><li><p>同时购买 $19$ 个时，$x\\le19$ 的 $70$ 台每台费用为 $3800$ 元，$x=20$ 的 $20$ 台每台费用为 $4300$ 元，$x=21$ 的 $10$ 台每台费用为 $4800$ 元，平均费用为 $\\dfrac{70\\cdot3800+20\\cdot4300+10\\cdot4800}{100}=4000$ 元.</p><p>同时购买 $20$ 个时，$x\\le20$ 的 $90$ 台每台费用为 $4000$ 元，$x=21$ 的 $10$ 台还需购买一个备件，每台费用为 $4000+500=4500$ 元，平均费用为 $\\dfrac{90\\cdot4000+10\\cdot4500}{100}=4050$ 元. 因为 $4000&#x3C;4050$，所以应同时购买 $19$ 个易损零件.</p></li></ol>"
+          "solution": "<p>由柱状图可读出 $x=16$，$17$，$18$，$19$，$20$，$21$ 时的频数分别为 $6$，$16$，$24$，$24$，$20$，$10$.</p><ol class=\"enumerate\"><li><p>当 $n=19$ 时，先购买的备件费用为 $19\\cdot200=3800$ 元. 当 $x\\le19$ 时备件足够，$y=3800$；当 $x>19$ 时还需购买 $x-19$ 个，每个费用为 $500$ 元，所以</p>\n$$\ny=\\begin{cases}3800,&x\\le19,\\\\  3800+500(x-19)=500x-5700,&x>19,\\end{cases}\\qquad x\\in\\{16,17,18,19,20,21\\}\n$$\n</li><li><p>由频数表，需更换零件数不大于 $18$ 的频率为 $\\dfrac{6+16+24}{100}=0.46<0.5$，不大于 $19$ 的频率为 $\\dfrac{6+16+24+24}{100}=0.70\\ge0.5$. 所以 $n$ 的最小值为 $19$.</p></li><li><p>同时购买 $19$ 个时，$x\\le19$ 的 $70$ 台每台费用为 $3800$ 元，$x=20$ 的 $20$ 台每台费用为 $4300$ 元，$x=21$ 的 $10$ 台每台费用为 $4800$ 元，平均费用为 $\\dfrac{70\\cdot3800+20\\cdot4300+10\\cdot4800}{100}=4000$ 元.</p><p>同时购买 $20$ 个时，$x\\le20$ 的 $90$ 台每台费用为 $4000$ 元，$x=21$ 的 $10$ 台还需购买一个备件，每台费用为 $4000+500=4500$ 元，平均费用为 $\\dfrac{90\\cdot4000+10\\cdot4500}{100}=4050$ 元. 因为 $4000<4050$，所以应同时购买 $19$ 个易损零件.</p></li></ol>"
         },
         {
           "num": 20,
@@ -222,7 +222,7 @@
           "body": "<p>已知函数 $f(x)=(x-2)\\mathrm{e}^{x}+a(x-1)^{2}$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>若 $f(x)$ 有两个零点，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>求导得 $f'(x)=(x-1)\\mathrm{e}^{x}+2a(x-1)=(x-1)(\\mathrm{e}^{x}+2a)$.</p><p>当 $a\\ge0$ 时，$\\mathrm{e}^{x}+2a>0$，所以 $f'(x)&#x3C;0$（$x&#x3C;1$），$f'(x)>0$（$x>1$），故 $f(x)$ 在 $(-\\infty,1)$ 上单调递减，在 $(1,+\\infty)$ 上单调递增.</p><p>当 $a&#x3C;0$ 时，令 $r=\\ln(-2a)$，则 $\\mathrm{e}^{r}+2a=0$. 若 $-\\dfrac\\e2&#x3C;a&#x3C;0$，则 $r&#x3C;1$，于是 $f'(x)$ 在 $(-\\infty,r)$，$(r,1)$，$(1,+\\infty)$ 上的符号依次为正、负、正，故 $f(x)$ 在这些区间上依次单调递增、单调递减、单调递增.</p><p>若 $a=-\\dfrac\\e2$，则 $r=1$，且 $f'(x)=(x-1)(\\mathrm{e}^{x}-\\mathrm{e})\\ge0$，所以 $f(x)$ 在 $\\mathbb{R}$ 上单调递增.</p><p>若 $a&#x3C;-\\dfrac\\e2$，则 $r>1$，于是 $f'(x)$ 在 $(-\\infty,1)$，$(1,r)$，$(r,+\\infty)$ 上的符号依次为正、负、正，故 $f(x)$ 在这些区间上依次单调递增、单调递减、单调递增.</p></li><li><p>总有 $f(1)=-\\mathrm{e}&#x3C;0$. 当 $a>0$ 时，$\\lim_{x\\to-\\infty}f(x)=+\\infty$，$\\lim_{x\\to+\\infty}f(x)=+\\infty$，结合第一问的单调性，$f(x)$ 在 $(-\\infty,1)$ 和 $(1,+\\infty)$ 上各有且仅有一个零点.</p><p>当 $a=0$ 时，$f(x)=(x-2)\\mathrm{e}^{x}$，只有一个零点 $x=2$. 当 $a&#x3C;0$ 时，$\\lim_{x\\to-\\infty}f(x)=-\\infty$，$\\lim_{x\\to+\\infty}f(x)=+\\infty$. 若 $r=\\ln(-2a)$，则</p>\n$$\nf(r)=(r-2)\\mathrm{e}^{r}-\\frac{\\mathrm{e}^{r}}{2}(r-1)^{2}=-\\frac{\\mathrm{e}^{r}}{2}\\bigl((r-2)^{2}+1\\bigr)&#x3C;0\n$$\n<p>在各类情形中，所有极值点的函数值均为负，所以左侧不会出现零点，而在最后一个单调递增区间上恰有一个零点. 故 $f(x)$ 有两个零点的充要条件为 $a>0$，即 $a$ 的取值范围是 $(0,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>求导得 $f'(x)=(x-1)\\mathrm{e}^{x}+2a(x-1)=(x-1)(\\mathrm{e}^{x}+2a)$.</p><p>当 $a\\ge0$ 时，$\\mathrm{e}^{x}+2a>0$，所以 $f'(x)<0$（$x<1$），$f'(x)>0$（$x>1$），故 $f(x)$ 在 $(-\\infty,1)$ 上单调递减，在 $(1,+\\infty)$ 上单调递增.</p><p>当 $a<0$ 时，令 $r=\\ln(-2a)$，则 $\\mathrm{e}^{r}+2a=0$. 若 $-\\dfrac\\mathrm{e}2<a<0$，则 $r<1$，于是 $f'(x)$ 在 $(-\\infty,r)$，$(r,1)$，$(1,+\\infty)$ 上的符号依次为正、负、正，故 $f(x)$ 在这些区间上依次单调递增、单调递减、单调递增.</p><p>若 $a=-\\dfrac\\mathrm{e}2$，则 $r=1$，且 $f'(x)=(x-1)(\\mathrm{e}^{x}-\\mathrm{e})\\ge0$，所以 $f(x)$ 在 $\\mathbb{R}$ 上单调递增.</p><p>若 $a<-\\dfrac\\mathrm{e}2$，则 $r>1$，于是 $f'(x)$ 在 $(-\\infty,1)$，$(1,r)$，$(r,+\\infty)$ 上的符号依次为正、负、正，故 $f(x)$ 在这些区间上依次单调递增、单调递减、单调递增.</p></li><li><p>总有 $f(1)=-\\mathrm{e}<0$. 当 $a>0$ 时，$\\lim_{x\\to-\\infty}f(x)=+\\infty$，$\\lim_{x\\to+\\infty}f(x)=+\\infty$，结合第一问的单调性，$f(x)$ 在 $(-\\infty,1)$ 和 $(1,+\\infty)$ 上各有且仅有一个零点.</p><p>当 $a=0$ 时，$f(x)=(x-2)\\mathrm{e}^{x}$，只有一个零点 $x=2$. 当 $a<0$ 时，$\\lim_{x\\to-\\infty}f(x)=-\\infty$，$\\lim_{x\\to+\\infty}f(x)=+\\infty$. 若 $r=\\ln(-2a)$，则</p>\n$$\nf(r)=(r-2)\\mathrm{e}^{r}-\\frac{\\mathrm{e}^{r}}{2}(r-1)^{2}=-\\frac{\\mathrm{e}^{r}}{2}\\bigl((r-2)^{2}+1\\bigr)<0\n$$\n<p>在各类情形中，所有极值点的函数值均为负，所以左侧不会出现零点，而在最后一个单调递增区间上恰有一个零点. 故 $f(x)$ 有两个零点的充要条件为 $a>0$，即 $a$ 的取值范围是 $(0,+\\infty)$.</p></li></ol>"
         }
       ]
     },
@@ -248,7 +248,7 @@
           "body": "<p>已知函数 $f(x)=|x+1|-|2x-3|$.</p><ol class=\"enumerate\"><li><p>在图中画出 $y=f(x)$ 的图象；</p></li><li><p>求不等式 $|f(x)|>1$ 的解集.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_liberal/q24_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>按照两个绝对值内式子的零点 $-1$ 和 $\\dfrac{3}{2}$ 分段，得</p>\n$$\nf(x)=  \\begin{cases}x-4,&#x26;x\\le-1,\\\\  3x-2,&#x26;-1&#x3C;x\\le\\dfrac{3}{2},\\\\  -x+4,&#x26;x>\\dfrac{3}{2}.\\end{cases}\n$$\n<p>所以图象由三段直线组成：$x\\le-1$ 时为直线 $y=x-4$，$-1&#x3C;x\\le\\dfrac{3}{2}$ 时为直线 $y=3x-2$，$x>\\dfrac{3}{2}$ 时为直线 $y=-x+4$，并在 $(-1,-5)$ 和 $\\left(\\dfrac{3}{2},\\dfrac{5}{2}\\right)$ 处连接.</p></li><li><p>分段解不等式. 对于 $x\\le-1$，有 $f(x)=x-4&#x3C;-1$，故该区间全部满足. 对于 $-1&#x3C;x\\le\\dfrac{3}{2}$，有 $|3x-2|>1$，所以 $x&#x3C;\\dfrac{1}{3}$ 或 $x>1$，与本区间取交得 $(-1,\\dfrac{1}{3})\\cup(1,\\dfrac{3}{2}]$. 对于 $x>\\dfrac{3}{2}$，有 $|4-x|>1$，所以 $x&#x3C;3$ 或 $x>5$，与本区间取交得 $(\\dfrac{3}{2},3)\\cup(5,+\\infty)$. 合并各段，解集为 $\\left\\{x\\mid x&#x3C;\\dfrac{1}{3}\\text{ 或 }1&#x3C;x&#x3C;3\\text{ 或 }x>5\\right\\}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>按照两个绝对值内式子的零点 $-1$ 和 $\\dfrac{3}{2}$ 分段，得</p>\n$$\nf(x)=  \\begin{cases}x-4,&x\\le-1,\\\\  3x-2,&-1<x\\le\\dfrac{3}{2},\\\\  -x+4,&x>\\dfrac{3}{2}.\\end{cases}\n$$\n<p>所以图象由三段直线组成：$x\\le-1$ 时为直线 $y=x-4$，$-1<x\\le\\dfrac{3}{2}$ 时为直线 $y=3x-2$，$x>\\dfrac{3}{2}$ 时为直线 $y=-x+4$，并在 $(-1,-5)$ 和 $\\left(\\dfrac{3}{2},\\dfrac{5}{2}\\right)$ 处连接.</p></li><li><p>分段解不等式. 对于 $x\\le-1$，有 $f(x)=x-4<-1$，故该区间全部满足. 对于 $-1<x\\le\\dfrac{3}{2}$，有 $|3x-2|>1$，所以 $x<\\dfrac{1}{3}$ 或 $x>1$，与本区间取交得 $(-1,\\dfrac{1}{3})\\cup(1,\\dfrac{3}{2}]$. 对于 $x>\\dfrac{3}{2}$，有 $|4-x|>1$，所以 $x<3$ 或 $x>5$，与本区间取交得 $(\\dfrac{3}{2},3)\\cup(5,+\\infty)$. 合并各段，解集为 $\\left\\{x\\mid x<\\dfrac{1}{3}\\text{ 或 }1<x<3\\text{ 或 }x>5\\right\\}$.</p></li></ol>"
         }
       ]
     }

@@ -77,7 +77,7 @@
             "$y = 1 + x^{2}$"
           ],
           "answer": "B",
-          "solution": "在区间 $(-\\infty,0)$ 内分别判断各函数的导数. 选项 A 中 $y'=-\\frac{1}{x\\ln\\frac{1}{2}}&#x3C;0$，因为 $x&#x3C;0$ 且 $\\ln\\frac{1}{2}&#x3C;0$，所以它是减函数. 选项 B 中 $y'=\\frac{(1-x)+x}{(1-x)^{2}}=\\frac{1}{(1-x)^{2}}>0$，所以它在整个区间上为增函数. 选项 C 中 $y'=-2(x+1)$，当 $x&#x3C;-1$ 时导数为正，当 $-1&#x3C;x&#x3C;0$ 时导数为负，不能在整个区间上保持增性. 选项 D 中 $y'=2x&#x3C;0$，为减函数. 因此只有选项 B 符合，故选 B."
+          "solution": "在区间 $(-\\infty,0)$ 内分别判断各函数的导数. 选项 A 中 $y'=-\\frac{1}{x\\ln\\frac{1}{2}}<0$，因为 $x<0$ 且 $\\ln\\frac{1}{2}<0$，所以它是减函数. 选项 B 中 $y'=\\frac{(1-x)+x}{(1-x)^{2}}=\\frac{1}{(1-x)^{2}}>0$，所以它在整个区间上为增函数. 选项 C 中 $y'=-2(x+1)$，当 $x<-1$ 时导数为正，当 $-1<x<0$ 时导数为负，不能在整个区间上保持增性. 选项 D 中 $y'=2x<0$，为减函数. 因此只有选项 B 符合，故选 B."
         },
         {
           "num": 7,
@@ -120,14 +120,14 @@
           "body": "已知方程 $\\frac{x^{2}}{2 + \\lambda}- \\frac{y^{2}}{1 + \\lambda}= 1$ 表示双曲线，求 $\\lambda$ 的范围.",
           "choices": null,
           "answer": "",
-          "solution": "当 $\\lambda=-2$ 或 $\\lambda=-1$ 时，方程中的一个分母为零，方程没有意义，所以这两个值必须排除. 将方程写成 $Ax^{2}+By^{2}=1$，其中 $A=\\frac{1}{\\lambda+2}$，$B=-\\frac{1}{\\lambda+1}$. 要表示非退化双曲线，$x^{2}$ 与 $y^{2}$ 的系数必须异号，即 $AB&#x3C;0$. 于是 $AB=-\\frac{1}{(\\lambda+2)(\\lambda+1)}&#x3C;0$ 等价于 $(\\lambda+2)(\\lambda+1)>0$. 在临界点 $-2$，$-1$ 两侧作符号判断，得 $\\lambda&#x3C;-2$ 或 $\\lambda>-1$."
+          "solution": "当 $\\lambda=-2$ 或 $\\lambda=-1$ 时，方程中的一个分母为零，方程没有意义，所以这两个值必须排除. 将方程写成 $Ax^{2}+By^{2}=1$，其中 $A=\\frac{1}{\\lambda+2}$，$B=-\\frac{1}{\\lambda+1}$. 要表示非退化双曲线，$x^{2}$ 与 $y^{2}$ 的系数必须异号，即 $AB<0$. 于是 $AB=-\\frac{1}{(\\lambda+2)(\\lambda+1)}<0$ 等价于 $(\\lambda+2)(\\lambda+1)>0$. 在临界点 $-2$，$-1$ 两侧作符号判断，得 $\\lambda<-2$ 或 $\\lambda>-1$."
         },
         {
           "num": 11,
           "body": "若 $(1 + x)^{n}$ 的展开式中，$x^{3}$ 的系数等于 $x$ 的系数的 $7$ 倍，求 $n$.",
           "choices": null,
           "answer": "",
-          "solution": "这里 $n$ 为正整数. 若 $n&#x3C;3$，则 $x^{3}$ 的系数为 $0$，而 $x$ 的系数为 $n>0$，不可能满足题设，所以 $n\\geq3$. 由二项式定理，$x$ 的系数为 $\\mathrm{C}_{n}^{1}=n$，$x^{3}$ 的系数为 $\\mathrm{C}_{n}^{3}=\\frac{n(n-1)(n-2)}{6}$. 根据题意，$\\frac{n(n-1)(n-2)}{6}=7n$. 因 $n>0$，约去 $n$，得 $(n-1)(n-2)=42$，即 $n^{2}-3n-40=0$. 因式分解得 $(n-8)(n+5)=0$，所以 $n=8$ 或 $n=-5$. 结合 $n$ 为正整数，得 $n=8$."
+          "solution": "这里 $n$ 为正整数. 若 $n<3$，则 $x^{3}$ 的系数为 $0$，而 $x$ 的系数为 $n>0$，不可能满足题设，所以 $n\\geq3$. 由二项式定理，$x$ 的系数为 $\\mathrm{C}_{n}^{1}=n$，$x^{3}$ 的系数为 $\\mathrm{C}_{n}^{3}=\\frac{n(n-1)(n-2)}{6}$. 根据题意，$\\frac{n(n-1)(n-2)}{6}=7n$. 因 $n>0$，约去 $n$，得 $(n-1)(n-2)=42$，即 $n^{2}-3n-40=0$. 因式分解得 $(n-8)(n+5)=0$，所以 $n=8$ 或 $n=-5$. 结合 $n$ 为正整数，得 $n=8$."
         },
         {
           "num": 12,
@@ -148,7 +148,7 @@
           "body": "求函数 $y = \\log_{2}(1 + 2x - 3x^{2})$ 的定义域.",
           "choices": null,
           "answer": "",
-          "solution": "因为对数的底数 $2>0$ 且 $2\\ne1$，只需令真数为正：$1+2x-3x^{2}>0$. 将左边因式分解，得 $1+2x-3x^{2}=-(3x+1)(x-1)$，所以不等式等价于 $(3x+1)(x-1)&#x3C;0$. 两个零点为 $-\\frac{1}{3}$ 和 $1$，由于二次项系数为正，乘积在两个零点之间为负，故定义域为 $\\left(-\\frac{1}{3},1\\right)$."
+          "solution": "因为对数的底数 $2>0$ 且 $2\\ne1$，只需令真数为正：$1+2x-3x^{2}>0$. 将左边因式分解，得 $1+2x-3x^{2}=-(3x+1)(x-1)$，所以不等式等价于 $(3x+1)(x-1)<0$. 两个零点为 $-\\frac{1}{3}$ 和 $1$，由于二次项系数为正，乘积在两个零点之间为负，故定义域为 $\\left(-\\frac{1}{3},1\\right)$."
         },
         {
           "num": 15,
@@ -162,7 +162,7 @@
           "body": "发电厂发出的电是三相交流电，它的三根导线上的电流强度分别是时间 $t$ 的函数：$I_{A} = I\\sin \\omega t$，$I_{B} = I\\sin(\\omega t + 120^{\\circ})$，$I_{C} = I\\sin(\\omega t + 240^{\\circ})$，求 $I_{A} + I_{B} + I_{C}$ 的值.",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $\\theta=\\omega t$. 由和角公式，$\\sin(\\theta+120^{\\circ})=-\\frac{1}{2}\\sin\\theta+\\frac{\\sqrt{3}}{2}\\cos\\theta$，$\\sin(\\theta+240^{\\circ})=-\\frac{1}{2}\\sin\\theta-\\frac{\\sqrt{3}}{2}\\cos\\theta$. 因此</p><p>$\\begin{aligned}I_{A}+I_{B}+I_{C}&#x26;=I\\left[\\sin\\theta+\\sin(\\theta+120^{\\circ})+\\sin(\\theta+240^{\\circ})\\right]\\\\&#x26;=I\\left[\\sin\\theta-\\frac{1}{2}\\sin\\theta+\\frac{\\sqrt{3}}{2}\\cos\\theta-\\frac{1}{2}\\sin\\theta-\\frac{\\sqrt{3}}{2}\\cos\\theta\\right]=0.\\end{aligned}$</p>"
+          "solution": "<p>令 $\\theta=\\omega t$. 由和角公式，$\\sin(\\theta+120^{\\circ})=-\\frac{1}{2}\\sin\\theta+\\frac{\\sqrt{3}}{2}\\cos\\theta$，$\\sin(\\theta+240^{\\circ})=-\\frac{1}{2}\\sin\\theta-\\frac{\\sqrt{3}}{2}\\cos\\theta$. 因此</p><p>$\\begin{aligned}I_{A}+I_{B}+I_{C}&=I\\left[\\sin\\theta+\\sin(\\theta+120^{\\circ})+\\sin(\\theta+240^{\\circ})\\right]\\\\&=I\\left[\\sin\\theta-\\frac{1}{2}\\sin\\theta+\\frac{\\sqrt{3}}{2}\\cos\\theta-\\frac{1}{2}\\sin\\theta-\\frac{\\sqrt{3}}{2}\\cos\\theta\\right]=0.\\end{aligned}$</p>"
         },
         {
           "num": 17,
@@ -176,14 +176,14 @@
           "body": "<p>如图，三棱锥 $P-ABC$ 中，已知 $PA \\perp BC$，$PA = BC = L$，$PA$，$BC$ 的公垂线 $ED = h$. 求证：三棱锥 $P-ABC$ 的体积 $V = \\frac{1}{6}L^{2}h$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $ED$ 是 $PA$ 与 $BC$ 的公垂线，得 $E\\in PA$，$D\\in BC$，且 $ED\\perp PA$，$ED\\perp BC$. 直线 $PA$ 与 $ED$ 相交并且都在平面 $PAD$ 内；而 $BC$ 同时垂直于这两条相交直线，所以 $BC\\perp\\text{平面 }PAD$.</p><p>在平面 $PAD$ 内，$PA\\perp ED$，故以 $PA$ 和 $ED$ 为两条直角边的三角形 $PAD$ 的面积为 $S_{\\triangle PAD}=\\frac{1}{2}PA\\cdot ED=\\frac{1}{2}Lh$.</p><p>点 $B$，$C$，$D$ 在直线 $BC$ 上，且 $BC\\perp\\text{平面 }PAD$，所以以三角形 $PAD$ 为底面时，三棱锥 $B-PAD$ 和 $C-PAD$ 的高分别为 $BD$ 和 $CD$. 当 $D$ 在边 $BC$ 上时，原三棱锥被这两个三棱锥分割，且 $BD+CD=BC=L$. 于是</p><p>$\\begin{aligned}V&#x26;=\\frac{1}{3}S_{\\triangle PAD}\\cdot BD+\\frac{1}{3}S_{\\triangle PAD}\\cdot CD\\\\&#x26;=\\frac{1}{3}S_{\\triangle PAD}(BD+CD)=\\frac{1}{3}\\cdot\\frac{1}{2}Lh\\cdot L=\\frac{1}{6}L^{2}h.\\end{aligned}$</p><p>命题得证.</p>"
+          "solution": "<p>由 $ED$ 是 $PA$ 与 $BC$ 的公垂线，得 $E\\in PA$，$D\\in BC$，且 $ED\\perp PA$，$ED\\perp BC$. 直线 $PA$ 与 $ED$ 相交并且都在平面 $PAD$ 内；而 $BC$ 同时垂直于这两条相交直线，所以 $BC\\perp\\text{平面 }PAD$.</p><p>在平面 $PAD$ 内，$PA\\perp ED$，故以 $PA$ 和 $ED$ 为两条直角边的三角形 $PAD$ 的面积为 $S_{\\triangle PAD}=\\frac{1}{2}PA\\cdot ED=\\frac{1}{2}Lh$.</p><p>点 $B$，$C$，$D$ 在直线 $BC$ 上，且 $BC\\perp\\text{平面 }PAD$，所以以三角形 $PAD$ 为底面时，三棱锥 $B-PAD$ 和 $C-PAD$ 的高分别为 $BD$ 和 $CD$. 当 $D$ 在边 $BC$ 上时，原三棱锥被这两个三棱锥分割，且 $BD+CD=BC=L$. 于是</p><p>$\\begin{aligned}V&=\\frac{1}{3}S_{\\triangle PAD}\\cdot BD+\\frac{1}{3}S_{\\triangle PAD}\\cdot CD\\\\&=\\frac{1}{3}S_{\\triangle PAD}(BD+CD)=\\frac{1}{3}\\cdot\\frac{1}{2}Lh\\cdot L=\\frac{1}{6}L^{2}h.\\end{aligned}$</p><p>命题得证.</p>"
         },
         {
           "num": 19,
           "body": "设对所有实数 $x$，不等式 $x^{2}\\log_{2} \\frac{4(a + 1)}{a}+ 2x\\log_{2} \\frac{2a}{a + 1}+ \\log_{2} \\frac{(a + 1)^{2}}{4a^{2}}> 0$ 恒成立，求 $a$ 的取值范围.",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $r=\\frac{2a}{a+1}$. 原不等式中各对数的真数都必须为正. 若 $r>0$，则 $\\frac{4(a+1)}{a}=\\frac{8}{r}>0$，$\\frac{(a+1)^{2}}{4a^{2}}=\\frac{1}{r^{2}}>0$，所以只需先要求 $r>0$. 这给出 $a>0$ 或 $a&#x3C;-1$.</p><p>令 $u=\\log_{2}r$，则 $\\log_{2}\\frac{4(a+1)}{a}=\\log_{2}\\frac{8}{r}=3-u$，$\\log_{2}\\frac{(a+1)^{2}}{4a^{2}}=\\log_{2}\\frac{1}{r^{2}}=-2u$. 原不等式化为 $q(x)=(3-u)x^{2}+2ux-2u>0$ 对所有实数 $x$ 恒成立.</p><p>若 $3-u&#x3C;0$，则 $x\\to\\infty$ 时 $q(x)\\to-\\infty$，不可能恒正；若 $3-u=0$，则 $q(x)=6x-6$，也不可能对所有 $x$ 恒正. 因此必须 $3-u>0$. 在此条件下，二次函数对所有实数恒正的充要条件是判别式小于零. 其判别式为 $\\Delta=(2u)^{2}-4(3-u)(-2u)=4u(6-u)&#x3C;0$. 所以 $u&#x3C;0$ 或 $u>6$，与 $u&#x3C;3$ 合并得 $u&#x3C;0$. 由于对数函数 $\\log_{2} r$ 的底数大于 $1$，$u&#x3C;0$ 等价于 $0&#x3C;r&#x3C;1$.</p><p>现在解 $0&#x3C;\\frac{2a}{a+1}&#x3C;1$. 当 $a>0$ 时，第二个不等式给出 $2a&#x3C;a+1$，即 $a&#x3C;1$，从而 $0&#x3C;a&#x3C;1$. 当 $a&#x3C;-1$ 时，因分母为负，$\\frac{2a}{a+1}&#x3C;1$ 等价于 $2a>a+1$，即 $a>1$，与 $a&#x3C;-1$ 矛盾. 因此 $a$ 的取值范围为 $(0,1)$.</p>"
+          "solution": "<p>令 $r=\\frac{2a}{a+1}$. 原不等式中各对数的真数都必须为正. 若 $r>0$，则 $\\frac{4(a+1)}{a}=\\frac{8}{r}>0$，$\\frac{(a+1)^{2}}{4a^{2}}=\\frac{1}{r^{2}}>0$，所以只需先要求 $r>0$. 这给出 $a>0$ 或 $a<-1$.</p><p>令 $u=\\log_{2}r$，则 $\\log_{2}\\frac{4(a+1)}{a}=\\log_{2}\\frac{8}{r}=3-u$，$\\log_{2}\\frac{(a+1)^{2}}{4a^{2}}=\\log_{2}\\frac{1}{r^{2}}=-2u$. 原不等式化为 $q(x)=(3-u)x^{2}+2ux-2u>0$ 对所有实数 $x$ 恒成立.</p><p>若 $3-u<0$，则 $x\\to\\infty$ 时 $q(x)\\to-\\infty$，不可能恒正；若 $3-u=0$，则 $q(x)=6x-6$，也不可能对所有 $x$ 恒正. 因此必须 $3-u>0$. 在此条件下，二次函数对所有实数恒正的充要条件是判别式小于零. 其判别式为 $\\Delta=(2u)^{2}-4(3-u)(-2u)=4u(6-u)<0$. 所以 $u<0$ 或 $u>6$，与 $u<3$ 合并得 $u<0$. 由于对数函数 $\\log_{2} r$ 的底数大于 $1$，$u<0$ 等价于 $0<r<1$.</p><p>现在解 $0<\\frac{2a}{a+1}<1$. 当 $a>0$ 时，第二个不等式给出 $2a<a+1$，即 $a<1$，从而 $0<a<1$. 当 $a<-1$ 时，因分母为负，$\\frac{2a}{a+1}<1$ 等价于 $2a>a+1$，即 $a>1$，与 $a<-1$ 矛盾. 因此 $a$ 的取值范围为 $(0,1)$.</p>"
         },
         {
           "num": 20,
@@ -197,7 +197,7 @@
           "body": "<p>设数列 $a_{1}$，$a_{2}$，$\\cdots$，$a_{n}$，$\\cdots$ 的前 $n$ 项的和 $S_{n}$ 与 $a_{n}$ 满足 $S_{n} = ka_{n} + 1$（其中 $k$ 是与 $n$ 无关的常数，且 $k \\neq 1$）.</p><ol class=\"enumerate\"><li><p>试写出用 $n$，$k$ 表示的 $a_{n}$ 的表达式；</p></li><li><p>若 $\\displaystyle\\lim_{n\\to\\infty}S_{n} = 1$，求 $k$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取 $n=1$，由 $S_{1}=a_{1}=ka_{1}+1$ 得 $a_{1}=\\frac{1}{1-k}$. 对 $n\\geq1$，利用 $S_{n+1}-S_{n}=a_{n+1}$ 以及题设关系，得 $a_{n+1}=k(a_{n+1}-a_{n})$，即 $(k-1)a_{n+1}=ka_{n}$.</p><p>当 $k\\ne0$ 时，$a_{1}\\ne0$，且递推式给出 $\\frac{a_{n+1}}{a_{n}}=\\frac{k}{k-1}$. 因此 $a_{n}=a_{1}\\left(\\frac{k}{k-1}\\right)^{n-1}=\\frac{1}{1-k}\\left(\\frac{k}{k-1}\\right)^{n-1}$. 当 $k=0$ 时，题设直接给出 $S_{n}=1$，所以 $a_{1}=S_{1}=1$，并且 $a_{n}=S_{n}-S_{n-1}=0$（$n\\geq2$）.</p></li><li><p>由 $S_{n}-1=ka_{n}$，所求条件等价于 $ka_{n}\\to0$. 当 $k=0$ 时，$S_{n}=1$ 对所有 $n$ 成立，条件满足. 当 $k\\ne0$ 时，由上面的通项式，$ka_{n}$ 是非零常数乘以 $\\left(\\frac{k}{k-1}\\right)^{n-1}$. 该幂数列趋于 $0$ 的充要条件为 $\\left|\\frac{k}{k-1}\\right|&#x3C;1$. 因 $k$ 为实数且 $k\\ne1$，两边平方得 $k^{2}&#x3C;(k-1)^{2}=k^{2}-2k+1$，即 $2k&#x3C;1$，所以 $k&#x3C;\\frac{1}{2}$. 其中已包含 $k=0$，且不会包含被题设排除的 $k=1$，故最终范围为 $k&#x3C;\\frac{1}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取 $n=1$，由 $S_{1}=a_{1}=ka_{1}+1$ 得 $a_{1}=\\frac{1}{1-k}$. 对 $n\\geq1$，利用 $S_{n+1}-S_{n}=a_{n+1}$ 以及题设关系，得 $a_{n+1}=k(a_{n+1}-a_{n})$，即 $(k-1)a_{n+1}=ka_{n}$.</p><p>当 $k\\ne0$ 时，$a_{1}\\ne0$，且递推式给出 $\\frac{a_{n+1}}{a_{n}}=\\frac{k}{k-1}$. 因此 $a_{n}=a_{1}\\left(\\frac{k}{k-1}\\right)^{n-1}=\\frac{1}{1-k}\\left(\\frac{k}{k-1}\\right)^{n-1}$. 当 $k=0$ 时，题设直接给出 $S_{n}=1$，所以 $a_{1}=S_{1}=1$，并且 $a_{n}=S_{n}-S_{n-1}=0$（$n\\geq2$）.</p></li><li><p>由 $S_{n}-1=ka_{n}$，所求条件等价于 $ka_{n}\\to0$. 当 $k=0$ 时，$S_{n}=1$ 对所有 $n$ 成立，条件满足. 当 $k\\ne0$ 时，由上面的通项式，$ka_{n}$ 是非零常数乘以 $\\left(\\frac{k}{k-1}\\right)^{n-1}$. 该幂数列趋于 $0$ 的充要条件为 $\\left|\\frac{k}{k-1}\\right|<1$. 因 $k$ 为实数且 $k\\ne1$，两边平方得 $k^{2}<(k-1)^{2}=k^{2}-2k+1$，即 $2k<1$，所以 $k<\\frac{1}{2}$. 其中已包含 $k=0$，且不会包含被题设排除的 $k=1$，故最终范围为 $k<\\frac{1}{2}$.</p></li></ol>"
         },
         {
           "num": 22,

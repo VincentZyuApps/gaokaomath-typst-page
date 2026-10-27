@@ -95,13 +95,13 @@
           "num": 8,
           "body": "设 $a = \\log_{3}2$，$b = \\ln 2$，$c = 5^{-\\frac{1}{2}}$，则（ ）",
           "choices": [
-            "$a &#x3C; b &#x3C; c$",
-            "$b &#x3C; c &#x3C; a$",
-            "$c &#x3C; a &#x3C; b$",
-            "$c &#x3C; b &#x3C; a$"
+            "$a < b < c$",
+            "$b < c < a$",
+            "$c < a < b$",
+            "$c < b < a$"
           ],
           "answer": "C",
-          "solution": "<p>有 $c=\\frac{1}{\\sqrt{5}}$. 又因为 $\\sqrt{5}>2$，所以 $2^{\\sqrt{5}}>2^{2}=4>3$，从而</p><p>$\\log_{3}2>\\frac{1}{\\sqrt{5}}=c$. 另一方面，$\\ln3>1$，所以</p>\n$$\na=\\frac{\\ln2}{\\ln3}&#x3C;\\ln2=b\n$$\n<p>因此 $c&#x3C;a&#x3C;b$，应选 C.</p>"
+          "solution": "<p>有 $c=\\frac{1}{\\sqrt{5}}$. 又因为 $\\sqrt{5}>2$，所以 $2^{\\sqrt{5}}>2^{2}=4>3$，从而</p><p>$\\log_{3}2>\\frac{1}{\\sqrt{5}}=c$. 另一方面，$\\ln3>1$，所以</p>\n$$\na=\\frac{\\ln2}{\\ln3}<\\ln2=b\n$$\n<p>因此 $c<a<b$，应选 C.</p>"
         },
         {
           "num": 9,
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "已知函数 $f(x) = |\\lg x|$. 若 $0 &#x3C; a &#x3C; b$，且 $f(a) = f(b)$，则 $a + 2b$ 的取值范围是（ ）",
+          "body": "已知函数 $f(x) = |\\lg x|$. 若 $0 < a < b$，且 $f(a) = f(b)$，则 $a + 2b$ 的取值范围是（ ）",
           "choices": [
             "$\\left(2\\sqrt{2},+\\infty\\right)$",
             "$\\left[2\\sqrt{2},+\\infty\\right)$",
@@ -125,7 +125,7 @@
             "$\\left[3,+\\infty\\right)$"
           ],
           "answer": "C",
-          "solution": "<p>由 $0&#x3C;a&#x3C;b$ 且 $|\\lg a|=|\\lg b|$，可知 $\\lg a$ 与 $\\lg b$ 符号相反. 因为 $a\\ne b$，所以</p><p>$\\lg a=-\\lg b$，即 $ab=1$. 从而 $0&#x3C;a&#x3C;1$，且 $b=\\frac{1}{a}$. 令</p><p>$g(a)=a+\\frac{2}{a}$，则 $g'(a)=1-\\frac{2}{a^{2}}&#x3C;0$（$0&#x3C;a&#x3C;1$）. 因此 $g$ 在 $(0,1)$ 上递减，且</p><p>$\\lim_{a\\to1^{-}}g(a)=3$，$\\lim_{a\\to0^{+}}g(a)=+\\infty$.</p><p>所以 $a+2b\\in(3,+\\infty)$，应选 C.</p>"
+          "solution": "<p>由 $0<a<b$ 且 $|\\lg a|=|\\lg b|$，可知 $\\lg a$ 与 $\\lg b$ 符号相反. 因为 $a\\ne b$，所以</p><p>$\\lg a=-\\lg b$，即 $ab=1$. 从而 $0<a<1$，且 $b=\\frac{1}{a}$. 令</p><p>$g(a)=a+\\frac{2}{a}$，则 $g'(a)=1-\\frac{2}{a^{2}}<0$（$0<a<1$）. 因此 $g$ 在 $(0,1)$ 上递减，且</p><p>$\\lim_{a\\to1^{-}}g(a)=3$，$\\lim_{a\\to0^{+}}g(a)=+\\infty$.</p><p>所以 $a+2b\\in(3,+\\infty)$，应选 C.</p>"
         },
         {
           "num": 11,
@@ -168,14 +168,14 @@
           "body": "已知 $\\alpha$ 为第三象限的角，$\\cos 2\\alpha = -\\frac{3}{5}$，则 $\\tan \\left(\\frac{\\pi}{4}+ 2\\alpha\\right) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-\\frac{1}{7}$",
-          "solution": "<p>因为 $\\alpha$ 是第三象限的角，所以 $2\\alpha$ 的终边在第一或第二象限；又</p><p>$\\cos2\\alpha=-\\frac{3}{5}&#x3C;0$，故 $2\\alpha$ 的终边在第二象限，从而</p><p>$\\sin2\\alpha=\\frac{4}{5}$，$\\tan2\\alpha=-\\frac{4}{3}$. 因此</p>\n$$\n\\tan\\left(\\frac{\\pi}{4}+2\\alpha\\right)  =\\frac{1+\\tan2\\alpha}{1-\\tan2\\alpha}=\\frac{1-\\frac{4}{3}}{1+\\frac{4}{3}}=-\\frac{1}{7}\n$$"
+          "solution": "<p>因为 $\\alpha$ 是第三象限的角，所以 $2\\alpha$ 的终边在第一或第二象限；又</p><p>$\\cos2\\alpha=-\\frac{3}{5}<0$，故 $2\\alpha$ 的终边在第二象限，从而</p><p>$\\sin2\\alpha=\\frac{4}{5}$，$\\tan2\\alpha=-\\frac{4}{3}$. 因此</p>\n$$\n\\tan\\left(\\frac{\\pi}{4}+2\\alpha\\right)  =\\frac{1+\\tan2\\alpha}{1-\\tan2\\alpha}=\\frac{1-\\frac{4}{3}}{1+\\frac{4}{3}}=-\\frac{1}{7}\n$$"
         },
         {
           "num": 15,
           "body": "直线 $y = 1$ 与曲线 $y = x^{2} - |x| + a$ 有四个交点，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(1,\\frac{5}{4}\\right)$",
-          "solution": "<p>令 $t=|x|\\geqslant0$. 联立两条曲线，得到</p>\n$$\nt^{2}-t+a-1=0\n$$\n<p>要有四个不同的交点，关于 $t$ 的方程必须有两个不相等的正根. 其判别式满足</p><p>$1-4(a-1)>0$，且两根之积 $a-1>0$，两根之和为 $1>0$. 因而</p>\n$$\n1&#x3C;a&#x3C;\\frac{5}{4}\n$$\n<p>此时两个根均为正数，各自对应 $x=\\pm t$，确有四个不同交点，所以</p><p>$a\\in\\left(1,\\frac{5}{4}\\right)$.</p>"
+          "solution": "<p>令 $t=|x|\\geqslant0$. 联立两条曲线，得到</p>\n$$\nt^{2}-t+a-1=0\n$$\n<p>要有四个不同的交点，关于 $t$ 的方程必须有两个不相等的正根. 其判别式满足</p><p>$1-4(a-1)>0$，且两根之积 $a-1>0$，两根之和为 $1>0$. 因而</p>\n$$\n1<a<\\frac{5}{4}\n$$\n<p>此时两个根均为正数，各自对应 $x=\\pm t$，确有四个不同交点，所以</p><p>$a\\in\\left(1,\\frac{5}{4}\\right)$.</p>"
         },
         {
           "num": 16,
@@ -194,7 +194,7 @@
           "body": "已知 $\\triangle ABC$ 的内角 $A$，$B$ 及其对边 $a$，$b$ 满足 $a + b = a \\cot A + b \\cot B$，求内角 $C$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由正弦定理，存在正数 $k$，使得 $a=k\\sin A$，$b=k\\sin B$. 因此</p><p>$a\\cot A=k\\cos A$，$b\\cot B=k\\cos B$. 代入已知等式并约去 $k>0$，得</p>\n$$\n\\sin A+\\sin B=\\cos A+\\cos B\n$$\n<p>利用和差化积公式，</p>\n$$\n2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2}=2\\cos\\frac{A+B}{2}\\cos\\frac{A-B}{2}\n$$\n<p>三角形内角满足 $|A-B|&#x3C;\\pi$，故 $\\cos\\frac{A-B}{2}>0$，可以约去；又</p><p>$0&#x3C;A+B&#x3C;\\pi$，所以 $0&#x3C;\\frac{(A+B)}{2}&#x3C;\\frac{\\pi}{2}$. 从而</p><p>$\\tan\\frac{A+B}{2}=1$，即 $A+B=\\frac{\\pi}{2}$. 因为</p><p>$A+B+C=\\pi$，所以 $C=\\frac{\\pi}{2}$.</p>"
+          "solution": "<p>由正弦定理，存在正数 $k$，使得 $a=k\\sin A$，$b=k\\sin B$. 因此</p><p>$a\\cot A=k\\cos A$，$b\\cot B=k\\cos B$. 代入已知等式并约去 $k>0$，得</p>\n$$\n\\sin A+\\sin B=\\cos A+\\cos B\n$$\n<p>利用和差化积公式，</p>\n$$\n2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2}=2\\cos\\frac{A+B}{2}\\cos\\frac{A-B}{2}\n$$\n<p>三角形内角满足 $|A-B|<\\pi$，故 $\\cos\\frac{A-B}{2}>0$，可以约去；又</p><p>$0<A+B<\\pi$，所以 $0<\\frac{(A+B)}{2}<\\frac{\\pi}{2}$. 从而</p><p>$\\tan\\frac{A+B}{2}=1$，即 $A+B=\\frac{\\pi}{2}$. 因为</p><p>$A+B+C=\\pi$，所以 $C=\\frac{\\pi}{2}$.</p>"
         },
         {
           "num": 18,
@@ -208,21 +208,21 @@
           "body": "<p>如图，四棱锥 $S - ABCD$ 中，$SD \\perp$ 底面 $ABCD$，$AB \\parallel DC$，$AD \\perp DC$，$AB = AD = 1$，$DC = SD = 2$，$E$ 为棱 $SB$ 上的一点，平面 $EDC \\perp$ 平面 $SBC$.</p><ol class=\"enumerate\"><li><p>证明：$SE = 2EB$；</p></li><li><p>求二面角 $A - DE - C$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_paper_1_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，取</p><p>$D(0,0,0)$，$C(2,0,0)$，$A(0,1,0)$，$B(1,1,0)$，$S(0,0,2)$. 设</p><p>$\\frac{SE}{SB}=\\lambda$，其中 $0&#x3C;\\lambda&#x3C;1$，则</p>\n$$\nE=\\left(\\lambda,\\lambda,2-2\\lambda\\right)\n$$\n<p>平面 $EDC$ 的一个法向量为</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{DE}\\times\\overrightarrow{DC}=\\left(0,4(1-\\lambda),-2\\lambda\\right)\n$$\n<p>又</p><p>$\\overrightarrow{SB}=(1,1,-2)$，$\\overrightarrow{SC}=(2,0,-2)$，而</p><p>$(1,1,1)\\cdot\\overrightarrow{SB}=(1,1,1)\\cdot\\overrightarrow{SC}=0$，所以平面 $SBC$ 的一个法向量可取</p><p>$\\mathbf{n}_{2}=(1,1,1)$. 由两平面垂直，得</p>\n$$\n\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=4(1-\\lambda)-2\\lambda=0\n$$\n<p>所以 $\\lambda=\\frac{2}{3}$. 因而 $SE:EB=\\lambda:(1-\\lambda)=2:1$，即</p><p>$SE=2EB$.</p></li><li><p>由 $\\lambda=\\frac{2}{3}$，得 $E=(\\frac{2}{3},\\frac{2}{3},\\frac{2}{3})$. 平面 $ADE$ 和</p><p>$CDE$ 相交于 $DE$. 取 $F$ 为 $DE$ 的中点，则</p><p>$F=(\\frac{1}{3},\\frac{1}{3},\\frac{1}{3})$，且</p><p>$\\overrightarrow{FA}=(-\\frac{1}{3},\\frac{2}{3},-\\frac{1}{3})$，且</p><p>$\\overrightarrow{FA}\\cdot\\overrightarrow{DE}=0$，所以</p><p>$\\overrightarrow{FA}\\perp DE$. 令</p><p>$\\overrightarrow{FG}=(\\frac{4}{3},-\\frac{2}{3},-\\frac{2}{3})$，则</p>\n$$\n\\overrightarrow{FG}=\\overrightarrow{FC}-\\frac{1}{2}\\overrightarrow{DE}\n$$\n<p>所以 $G$ 在平面 $CDE$ 内. 又</p><p>$\\overrightarrow{FG}\\cdot\\overrightarrow{DE}=0$，故 $\\overrightarrow{FG}\\perp DE$. 因而</p><p>$\\angle AFG$ 是二面角 $A-DE-C$ 的平面角. 计算得</p>\n$$\n\\cos\\angle AFG  =\\frac{\\overrightarrow{FA}\\cdot\\overrightarrow{FG}}{|\\overrightarrow{FA}|\\,|\\overrightarrow{FG}|}=\\frac{-\\frac{2}{3}}{(\\frac{\\sqrt{6}}{3})(2\\frac{\\sqrt{6}}{3})}=-\\frac{1}{2}\n$$\n<p>因此二面角 $A-DE-C$ 的大小为 $2\\frac{\\pi}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，取</p><p>$D(0,0,0)$，$C(2,0,0)$，$A(0,1,0)$，$B(1,1,0)$，$S(0,0,2)$. 设</p><p>$\\frac{SE}{SB}=\\lambda$，其中 $0<\\lambda<1$，则</p>\n$$\nE=\\left(\\lambda,\\lambda,2-2\\lambda\\right)\n$$\n<p>平面 $EDC$ 的一个法向量为</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{DE}\\times\\overrightarrow{DC}=\\left(0,4(1-\\lambda),-2\\lambda\\right)\n$$\n<p>又</p><p>$\\overrightarrow{SB}=(1,1,-2)$，$\\overrightarrow{SC}=(2,0,-2)$，而</p><p>$(1,1,1)\\cdot\\overrightarrow{SB}=(1,1,1)\\cdot\\overrightarrow{SC}=0$，所以平面 $SBC$ 的一个法向量可取</p><p>$\\mathbf{n}_{2}=(1,1,1)$. 由两平面垂直，得</p>\n$$\n\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=4(1-\\lambda)-2\\lambda=0\n$$\n<p>所以 $\\lambda=\\frac{2}{3}$. 因而 $SE:EB=\\lambda:(1-\\lambda)=2:1$，即</p><p>$SE=2EB$.</p></li><li><p>由 $\\lambda=\\frac{2}{3}$，得 $E=(\\frac{2}{3},\\frac{2}{3},\\frac{2}{3})$. 平面 $ADE$ 和</p><p>$CDE$ 相交于 $DE$. 取 $F$ 为 $DE$ 的中点，则</p><p>$F=(\\frac{1}{3},\\frac{1}{3},\\frac{1}{3})$，且</p><p>$\\overrightarrow{FA}=(-\\frac{1}{3},\\frac{2}{3},-\\frac{1}{3})$，且</p><p>$\\overrightarrow{FA}\\cdot\\overrightarrow{DE}=0$，所以</p><p>$\\overrightarrow{FA}\\perp DE$. 令</p><p>$\\overrightarrow{FG}=(\\frac{4}{3},-\\frac{2}{3},-\\frac{2}{3})$，则</p>\n$$\n\\overrightarrow{FG}=\\overrightarrow{FC}-\\frac{1}{2}\\overrightarrow{DE}\n$$\n<p>所以 $G$ 在平面 $CDE$ 内. 又</p><p>$\\overrightarrow{FG}\\cdot\\overrightarrow{DE}=0$，故 $\\overrightarrow{FG}\\perp DE$. 因而</p><p>$\\angle AFG$ 是二面角 $A-DE-C$ 的平面角. 计算得</p>\n$$\n\\cos\\angle AFG  =\\frac{\\overrightarrow{FA}\\cdot\\overrightarrow{FG}}{|\\overrightarrow{FA}|\\,|\\overrightarrow{FG}|}=\\frac{-\\frac{2}{3}}{(\\frac{\\sqrt{6}}{3})(2\\frac{\\sqrt{6}}{3})}=-\\frac{1}{2}\n$$\n<p>因此二面角 $A-DE-C$ 的大小为 $2\\frac{\\pi}{3}$.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>已知函数 $f(x) = (x + 1)\\ln x - x + 1$.</p><ol class=\"enumerate\"><li><p>若 $x f'(x) \\le x^{2} + ax + 1$，求 $a$ 的取值范围；</p></li><li><p>证明：$(x - 1)f(x) \\ge 0$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $x>0$，有</p><p>$f'(x)=\\ln x+\\frac{x+1}{x}-1=\\ln x+\\frac{1}{x}$，$xf'(x)=x\\ln x+1$.</p><p>所以题设不等式等价于</p>\n$$\nx\\ln x+1\\le x^{2}+ax+1  \\Longleftrightarrow \\ln x-x\\le a\n$$\n<p>令 $g(x)=\\ln x-x$，则 $g'(x)=\\frac{1}{x}-1$. 因此 $g$ 在 $(0,1)$ 上递增，在</p><p>$(1,+\\infty)$ 上递减，最大值为 $g(1)=-1$. 所以不等式对一切 $x>0$ 成立的充要条件为</p><p>$a\\ge-1$，即 $a\\in[-1,+\\infty)$.</p></li><li><p>由</p>\n$$\nf'(x)=\\ln x+\\frac{1}{x}\n$$\n<p>以及</p>\n$$\n\\left(\\ln x+\\frac{1}{x}\\right)'=\\frac{x-1}{x^{2}}\n$$\n<p>可知 $\\ln x+\\frac{1}{x}$ 在 $x=1$ 处取得最小值 $1$，故 $f'(x)>0$ 对一切 $x>0$ 成立. 又</p><p>$f(1)=0$，所以当 $0&#x3C;x&#x3C;1$ 时 $f(x)&#x3C;0$，当 $x>1$ 时 $f(x)>0$. 因而</p><p>$(x-1)f(x)\\geqslant0$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $x>0$，有</p><p>$f'(x)=\\ln x+\\frac{x+1}{x}-1=\\ln x+\\frac{1}{x}$，$xf'(x)=x\\ln x+1$.</p><p>所以题设不等式等价于</p>\n$$\nx\\ln x+1\\le x^{2}+ax+1  \\Longleftrightarrow \\ln x-x\\le a\n$$\n<p>令 $g(x)=\\ln x-x$，则 $g'(x)=\\frac{1}{x}-1$. 因此 $g$ 在 $(0,1)$ 上递增，在</p><p>$(1,+\\infty)$ 上递减，最大值为 $g(1)=-1$. 所以不等式对一切 $x>0$ 成立的充要条件为</p><p>$a\\ge-1$，即 $a\\in[-1,+\\infty)$.</p></li><li><p>由</p>\n$$\nf'(x)=\\ln x+\\frac{1}{x}\n$$\n<p>以及</p>\n$$\n\\left(\\ln x+\\frac{1}{x}\\right)'=\\frac{x-1}{x^{2}}\n$$\n<p>可知 $\\ln x+\\frac{1}{x}$ 在 $x=1$ 处取得最小值 $1$，故 $f'(x)>0$ 对一切 $x>0$ 成立. 又</p><p>$f(1)=0$，所以当 $0<x<1$ 时 $f(x)<0$，当 $x>1$ 时 $f(x)>0$. 因而</p><p>$(x-1)f(x)\\geqslant0$.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>已知抛物线 $C: y^{2}= 4x$ 的焦点为 $F$，过点 $K(-1,0)$ 的直线 $l$ 与 $C$ 相交于 $A$，$B$ 两点，点 $A$ 关于 $x$ 轴的对称点为 $D$.</p><ol class=\"enumerate\"><li><p>证明：点 $F$ 在直线 $BD$ 上；</p></li><li><p>设 $\\overrightarrow{FA}\\cdot \\overrightarrow{FB}= \\frac{8}{9}$，求 $\\triangle BDK$ 的内切圆 $M$ 的方程.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=4x$ 的参数方程为 $(t^{2},2t)$. 设</p><p>$A=(t^{2},2t)$，$B=(s^{2},2s)$. 因为 $A$，$B$，$K(-1,0)$ 共线，所以</p>\n$$\n\\frac{2t}{t^{2}+1}=\\frac{2s}{s^{2}+1}\n$$\n<p>因 $A\\ne B$，化简得 $ts=1$. 于是可设</p><p>$A=(t^{2},2t)$，$B=\\left(\\frac{1}{t^{2}},\\frac{2}{t}\\right)$，$D=(t^{2},-2t)$.</p><p>抛物线焦点为 $F(1,0)$. 计算</p>\n$$\n\\begin{aligned}\\det\\left(\\overrightarrow{DF},\\overrightarrow{DB}\\right)&#x26;=(1-t^{2})\\left(2t+\\frac{2}{t}\\right)-2t\\left(\\frac{1}{t^{2}}-t^{2}\\right)\\\\&#x26;=2\\frac{1-t^{4}}{t}-2\\frac{1-t^{4}}{t}=0.\\end{aligned}\n$$\n<p>因此 $F$，$B$，$D$ 三点共线.</p></li><li><p>由</p>\n$$\n\\overrightarrow{FA}\\cdot\\overrightarrow{FB}=(t^{2}-1)\\left(\\frac{1}{t^{2}}-1\\right)+4  =6-t^{2}-\\frac{1}{t^{2}}=\\frac{8}{9}\n$$\n<p>得 $t^{2}+t^{-2}=\\frac{46}{9}$，从而</p>\n$$\n\\left(t+\\frac{1}{t}\\right)^{2}=\\frac{64}{9}\n$$\n<p>关于 $x$ 轴对称时，三角形和内切圆同时对称，故不妨设 $t>0$，于是</p><p>$t+\\frac{1}{t}=\\frac{8}{3}$，且 $t^{2}+t^{-2}=\\frac{46}{9}$. 由顶点坐标，</p>\n$$\nDK^{2}=(t^{2}+1)^{2}+4t^{2}=t^{2}\\left(t^{2}+t^{-2}+6\\right)=\\frac{100t^{2}}{9}\n$$\n\n$$\nBK^{2}=\\left(1+\\frac{1}{t^{2}}\\right)^{2}+\\frac{4}{t^{2}}=\\frac{1}{t^{2}}\\left(t^{2}+t^{-2}+6\\right)=\\frac{100}{9t^{2}}\n$$\n<p>所以 $DK=10\\frac{t}{3}$，$BK=\\frac{10}{(3t)}$. 又</p>\n$$\nBD^{2}=\\left(t^{2}-\\frac{1}{t^{2}}\\right)^{2}+4\\left(t+\\frac{1}{t}\\right)^{2}=\\left(t+\\frac{1}{t}\\right)^{4}=\\frac{4096}{81}\n$$\n<p>故 $BD=\\frac{64}{9}$. 三角形面积为</p>\n$$\nS_{\\triangle BDK}=\\frac{1}{2}\\left|\\det\\left(\\overrightarrow{KB},\\overrightarrow{KD}\\right)\\right|  =\\frac{1}{2}\\cdot4\\left(t+\\frac{1}{t}\\right)=\\frac{16}{3}\n$$\n<p>因此三角形三边长分别为</p><p>$DK=\\frac{10t}{3}$，$BK=\\frac{10}{3t}$，$BD=\\frac{64}{9}$.</p><p>所以三角形 $BDK$ 的周长为</p>\n$$\n\\frac{10t}{3}+\\frac{10}{3t}+\\frac{64}{9}=16\n$$\n<p>半周长为 $8$，故内切圆半径为 $r=\\frac{S_{\\triangle BDK}}{8}=\\frac{2}{3}$. 设内心为 $M$，由内心坐标公式，</p>\n$$\nM=\\frac{\\frac{10t}{3}\\left(\\frac{1}{t^{2}},\\frac{2}{t}\\right)  +\\frac{10}{3t}(t^{2},-2t)+\\frac{64}{9}(-1,0)}{16}=\\left(\\frac{1}{9},0\\right)\n$$\n<p>因此内切圆 $M$ 的方程为</p>\n$$\n\\left(x-\\frac{1}{9}\\right)^{2}+y^{2}=\\frac{4}{9}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=4x$ 的参数方程为 $(t^{2},2t)$. 设</p><p>$A=(t^{2},2t)$，$B=(s^{2},2s)$. 因为 $A$，$B$，$K(-1,0)$ 共线，所以</p>\n$$\n\\frac{2t}{t^{2}+1}=\\frac{2s}{s^{2}+1}\n$$\n<p>因 $A\\ne B$，化简得 $ts=1$. 于是可设</p><p>$A=(t^{2},2t)$，$B=\\left(\\frac{1}{t^{2}},\\frac{2}{t}\\right)$，$D=(t^{2},-2t)$.</p><p>抛物线焦点为 $F(1,0)$. 计算</p>\n$$\n\\begin{aligned}\\det\\left(\\overrightarrow{DF},\\overrightarrow{DB}\\right)&=(1-t^{2})\\left(2t+\\frac{2}{t}\\right)-2t\\left(\\frac{1}{t^{2}}-t^{2}\\right)\\\\&=2\\frac{1-t^{4}}{t}-2\\frac{1-t^{4}}{t}=0.\\end{aligned}\n$$\n<p>因此 $F$，$B$，$D$ 三点共线.</p></li><li><p>由</p>\n$$\n\\overrightarrow{FA}\\cdot\\overrightarrow{FB}=(t^{2}-1)\\left(\\frac{1}{t^{2}}-1\\right)+4  =6-t^{2}-\\frac{1}{t^{2}}=\\frac{8}{9}\n$$\n<p>得 $t^{2}+t^{-2}=\\frac{46}{9}$，从而</p>\n$$\n\\left(t+\\frac{1}{t}\\right)^{2}=\\frac{64}{9}\n$$\n<p>关于 $x$ 轴对称时，三角形和内切圆同时对称，故不妨设 $t>0$，于是</p><p>$t+\\frac{1}{t}=\\frac{8}{3}$，且 $t^{2}+t^{-2}=\\frac{46}{9}$. 由顶点坐标，</p>\n$$\nDK^{2}=(t^{2}+1)^{2}+4t^{2}=t^{2}\\left(t^{2}+t^{-2}+6\\right)=\\frac{100t^{2}}{9}\n$$\n\n$$\nBK^{2}=\\left(1+\\frac{1}{t^{2}}\\right)^{2}+\\frac{4}{t^{2}}=\\frac{1}{t^{2}}\\left(t^{2}+t^{-2}+6\\right)=\\frac{100}{9t^{2}}\n$$\n<p>所以 $DK=10\\frac{t}{3}$，$BK=\\frac{10}{(3t)}$. 又</p>\n$$\nBD^{2}=\\left(t^{2}-\\frac{1}{t^{2}}\\right)^{2}+4\\left(t+\\frac{1}{t}\\right)^{2}=\\left(t+\\frac{1}{t}\\right)^{4}=\\frac{4096}{81}\n$$\n<p>故 $BD=\\frac{64}{9}$. 三角形面积为</p>\n$$\nS_{\\triangle BDK}=\\frac{1}{2}\\left|\\det\\left(\\overrightarrow{KB},\\overrightarrow{KD}\\right)\\right|  =\\frac{1}{2}\\cdot4\\left(t+\\frac{1}{t}\\right)=\\frac{16}{3}\n$$\n<p>因此三角形三边长分别为</p><p>$DK=\\frac{10t}{3}$，$BK=\\frac{10}{3t}$，$BD=\\frac{64}{9}$.</p><p>所以三角形 $BDK$ 的周长为</p>\n$$\n\\frac{10t}{3}+\\frac{10}{3t}+\\frac{64}{9}=16\n$$\n<p>半周长为 $8$，故内切圆半径为 $r=\\frac{S_{\\triangle BDK}}{8}=\\frac{2}{3}$. 设内心为 $M$，由内心坐标公式，</p>\n$$\nM=\\frac{\\frac{10t}{3}\\left(\\frac{1}{t^{2}},\\frac{2}{t}\\right)  +\\frac{10}{3t}(t^{2},-2t)+\\frac{64}{9}(-1,0)}{16}=\\left(\\frac{1}{9},0\\right)\n$$\n<p>因此内切圆 $M$ 的方程为</p>\n$$\n\\left(x-\\frac{1}{9}\\right)^{2}+y^{2}=\\frac{4}{9}\n$$\n</li></ol>"
         }
       ]
     },
@@ -231,10 +231,10 @@
       "problems": [
         {
           "num": 22,
-          "body": "<p>已知数列 $\\{a_{n}\\}$ 中，$a_{1} = 1$，$a_{n+1}= c - \\frac{1}{a_{n}}$.</p><ol class=\"enumerate\"><li><p>设 $c = \\frac{5}{2}$，$b_{n} = \\frac{1}{a_{n} - 2}$，求数列 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>求使不等式 $a_{n}&#x3C; a_{n+1}&#x3C; 3$ 成立的 $c$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 中，$a_{1} = 1$，$a_{n+1}= c - \\frac{1}{a_{n}}$.</p><ol class=\"enumerate\"><li><p>设 $c = \\frac{5}{2}$，$b_{n} = \\frac{1}{a_{n} - 2}$，求数列 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>求使不等式 $a_{n}< a_{n+1}< 3$ 成立的 $c$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $c=\\frac{5}{2}$ 时，</p><p>由归纳法可知 $1\\le a_{n}&#x3C;2$：$a_{1}=1$，若 $1\\le a_{n}&#x3C;2$，则</p><p>$\\frac{3}{2}\\le a_{n+1}=\\frac{5}{2}-\\frac{1}{a_{n}}&#x3C;2$. 因而 $a_{n}-2\\ne0$，数列 $\\{b_{n}\\}$ 有定义.</p>\n$$\na_{n+1}-2=\\frac{1}{2}-\\frac{1}{a_{n}}=\\frac{a_{n}-2}{2a_{n}}\n$$\n<p>因此</p>\n$$\nb_{n+1}=\\frac{1}{a_{n+1}-2}=\\frac{2a_{n}}{a_{n}-2}=2+\\frac{4}{a_{n}-2}=2+4b_{n}\n$$\n<p>又 $b_{1}=\\frac{1}{(1-2)}=-1$. 令 $d_{n}=b_{n}+\\frac{2}{3}$，则</p><p>$d_{n+1}=4d_{n}$，且 $d_{1}=-\\frac{1}{3}$. 所以</p><p>$d_{n}=-\\frac{1}{3}\\,4^{n-1}$，$b_{n}=-\\frac{4^{n-1}+2}{3}$.</p></li><li><p>由 $a_{1}=1$ 及 $a_{1}&#x3C;a_{2}&#x3C;3$，必要地有</p>\n$$\n1&#x3C;c-1&#x3C;3\n$$\n<p>即 $2&#x3C;c&#x3C;4$. 对 $c>2$，方程</p><p>$x=c-\\frac{1}{x}$ 的两个根为</p><p>$r_{-}=\\frac{c-\\sqrt{c^{2}-4}}{2}$，$r_{+}=\\frac{c+\\sqrt{c^{2}-4}}{2}$</p><p>满足 $0&#x3C;r_{-}&#x3C;1&#x3C;r_{+}$，且 $r_{-}r_{+}=1$. 记</p><p>$\\varphi(x)=c-\\frac{1}{x}$. 当 $r_{-}&#x3C;x&#x3C;r_{+}$ 时，</p>\n$$\n\\varphi(x)-x  =-\\frac{x^{2}-cx+1}{x}=\\frac{(r_{+}-x)(x-r_{-})}{x}>0\n$$\n<p>且 $\\varphi(x)&#x3C;r_{+}$. 由于 $r_{-}&#x3C;a_{1}=1&#x3C;r_{+}$，归纳可得</p>\n$$\n1=a_{1}&#x3C;a_{2}&#x3C;\\cdots&#x3C;a_{n}&#x3C;r_{+}\n$$\n<p>并且数列严格递增. 若 $r_{+}\\leqslant3$，则对所有 $n$ 都有</p><p>$a_{n}&#x3C;a_{n+1}&#x3C;3$. 因为 $c=r_{+}+\\frac{1}{r_{+}}$，且 $r_{+}>1$，条件</p><p>$r_{+}\\leqslant3$ 等价于</p>\n$$\n2&#x3C;c\\leqslant3+\\frac{1}{3}=\\frac{10}{3}\n$$\n<p>反之，若 $c>\\frac{10}{3}$，则 $r_{+}>3$. 上述递增数列有上界 $r_{+}$，其极限只能是方程</p><p>$x=c-\\frac{1}{x}$ 的大根 $r_{+}>3$，所以数列的某项最终会超过 $3$，不满足题设不等式. 故</p>\n$$\nc\\in\\left(2,\\frac{10}{3}\\right]\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $c=\\frac{5}{2}$ 时，</p><p>由归纳法可知 $1\\le a_{n}<2$：$a_{1}=1$，若 $1\\le a_{n}<2$，则</p><p>$\\frac{3}{2}\\le a_{n+1}=\\frac{5}{2}-\\frac{1}{a_{n}}<2$. 因而 $a_{n}-2\\ne0$，数列 $\\{b_{n}\\}$ 有定义.</p>\n$$\na_{n+1}-2=\\frac{1}{2}-\\frac{1}{a_{n}}=\\frac{a_{n}-2}{2a_{n}}\n$$\n<p>因此</p>\n$$\nb_{n+1}=\\frac{1}{a_{n+1}-2}=\\frac{2a_{n}}{a_{n}-2}=2+\\frac{4}{a_{n}-2}=2+4b_{n}\n$$\n<p>又 $b_{1}=\\frac{1}{(1-2)}=-1$. 令 $d_{n}=b_{n}+\\frac{2}{3}$，则</p><p>$d_{n+1}=4d_{n}$，且 $d_{1}=-\\frac{1}{3}$. 所以</p><p>$d_{n}=-\\frac{1}{3}\\,4^{n-1}$，$b_{n}=-\\frac{4^{n-1}+2}{3}$.</p></li><li><p>由 $a_{1}=1$ 及 $a_{1}<a_{2}<3$，必要地有</p>\n$$\n1<c-1<3\n$$\n<p>即 $2<c<4$. 对 $c>2$，方程</p><p>$x=c-\\frac{1}{x}$ 的两个根为</p><p>$r_{-}=\\frac{c-\\sqrt{c^{2}-4}}{2}$，$r_{+}=\\frac{c+\\sqrt{c^{2}-4}}{2}$</p><p>满足 $0<r_{-}<1<r_{+}$，且 $r_{-}r_{+}=1$. 记</p><p>$\\varphi(x)=c-\\frac{1}{x}$. 当 $r_{-}<x<r_{+}$ 时，</p>\n$$\n\\varphi(x)-x  =-\\frac{x^{2}-cx+1}{x}=\\frac{(r_{+}-x)(x-r_{-})}{x}>0\n$$\n<p>且 $\\varphi(x)<r_{+}$. 由于 $r_{-}<a_{1}=1<r_{+}$，归纳可得</p>\n$$\n1=a_{1}<a_{2}<\\cdots<a_{n}<r_{+}\n$$\n<p>并且数列严格递增. 若 $r_{+}\\leqslant3$，则对所有 $n$ 都有</p><p>$a_{n}<a_{n+1}<3$. 因为 $c=r_{+}+\\frac{1}{r_{+}}$，且 $r_{+}>1$，条件</p><p>$r_{+}\\leqslant3$ 等价于</p>\n$$\n2<c\\leqslant3+\\frac{1}{3}=\\frac{10}{3}\n$$\n<p>反之，若 $c>\\frac{10}{3}$，则 $r_{+}>3$. 上述递增数列有上界 $r_{+}$，其极限只能是方程</p><p>$x=c-\\frac{1}{x}$ 的大根 $r_{+}>3$，所以数列的某项最终会超过 $3$，不满足题设不等式. 故</p>\n$$\nc\\in\\left(2,\\frac{10}{3}\\right]\n$$\n</li></ol>"
         }
       ]
     }

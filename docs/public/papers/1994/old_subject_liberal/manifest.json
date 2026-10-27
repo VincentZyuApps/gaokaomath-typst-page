@@ -29,7 +29,7 @@
             "$(0,1)$"
           ],
           "answer": "D",
-          "solution": "方程表示椭圆时必有 $k>0$，此时方程化为 $\\frac{x^{2}}{2}+\\frac{y^{2}}{\\frac{2}{k}}=1$. 因为焦点在 $y$ 轴上，所以 $y$ 轴方向的分母较大，即 $\\frac{2}{k}>2$，解得 $0&#x3C;k&#x3C;1$，故选 D."
+          "solution": "方程表示椭圆时必有 $k>0$，此时方程化为 $\\frac{x^{2}}{2}+\\frac{y^{2}}{\\frac{2}{k}}=1$. 因为焦点在 $y$ 轴上，所以 $y$ 轴方向的分母较大，即 $\\frac{2}{k}>2$，解得 $0<k<1$，故选 D."
         },
         {
           "num": 3,
@@ -48,12 +48,12 @@
           "body": "设 $\\theta$ 是第二象限的角，则必有（ ）",
           "choices": [
             "$\\tan\\frac{\\theta}{2}>\\cot\\frac{\\theta}{2}$",
-            "$\\tan\\frac{\\theta}{2}&#x3C;\\cot\\frac{\\theta}{2}$",
+            "$\\tan\\frac{\\theta}{2}<\\cot\\frac{\\theta}{2}$",
             "$\\sin\\frac{\\theta}{2}>\\cos\\frac{\\theta}{2}$",
-            "$\\sin\\frac{\\theta}{2}&#x3C;\\cos\\frac{\\theta}{2}$"
+            "$\\sin\\frac{\\theta}{2}<\\cos\\frac{\\theta}{2}$"
           ],
           "answer": "A",
-          "solution": "设 $\\theta=2k\\pi+\\alpha$，其中 $k\\in\\mathbb{Z}$，$\\frac{\\pi}{2}&#x3C;\\alpha&#x3C;\\pi$，则 $\\frac{\\theta}{2}=k\\pi+\\frac{\\alpha}{2}$，$\\frac{\\pi}{4}&#x3C;\\frac{\\alpha}{2}&#x3C;\\frac{\\pi}{2}$. 因为正切以 $\\pi$ 为周期，所以 $\\tan\\frac{\\theta}{2}=\\tan\\frac{\\alpha}{2}>1$，$\\cot\\frac{\\theta}{2}=\\frac{1}{\\tan(\\frac{\\theta}{2})}&#x3C;1$，必有 $\\tan\\frac{\\theta}{2}>\\cot\\frac{\\theta}{2}$. 而 $\\frac{\\theta}{2}$ 可在第一或第三象限，$\\sin\\frac{\\theta}{2}$ 与 $\\cos\\frac{\\theta}{2}$ 的大小关系不固定，故选 A."
+          "solution": "设 $\\theta=2k\\pi+\\alpha$，其中 $k\\in\\mathbb{Z}$，$\\frac{\\pi}{2}<\\alpha<\\pi$，则 $\\frac{\\theta}{2}=k\\pi+\\frac{\\alpha}{2}$，$\\frac{\\pi}{4}<\\frac{\\alpha}{2}<\\frac{\\pi}{2}$. 因为正切以 $\\pi$ 为周期，所以 $\\tan\\frac{\\theta}{2}=\\tan\\frac{\\alpha}{2}>1$，$\\cot\\frac{\\theta}{2}=\\frac{1}{\\tan(\\frac{\\theta}{2})}<1$，必有 $\\tan\\frac{\\theta}{2}>\\cot\\frac{\\theta}{2}$. 而 $\\frac{\\theta}{2}$ 可在第一或第三象限，$\\sin\\frac{\\theta}{2}$ 与 $\\cos\\frac{\\theta}{2}$ 的大小关系不固定，故选 A."
         },
         {
           "num": 5,
@@ -208,10 +208,10 @@
         },
         {
           "num": 18,
-          "body": "若 $\\frac{5}{4}\\pi&#x3C;\\theta&#x3C;\\frac{3}{2}\\pi$，$\\sin 2\\theta=a$，则 $\\cos\\theta-\\sin\\theta$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "若 $\\frac{5}{4}\\pi<\\theta<\\frac{3}{2}\\pi$，$\\sin 2\\theta=a$，则 $\\cos\\theta-\\sin\\theta$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\sqrt{1-a}$",
-          "solution": "设 $t=\\cos\\theta-\\sin\\theta$，则 $t^{2}=1-\\sin 2\\theta=1-a$. 当 $\\frac{5}{4}\\pi&#x3C;\\theta&#x3C;\\frac{3}{2}\\pi$ 时 $\\cos\\theta&#x3C;0$，$\\sin\\theta&#x3C;0$，取 $\\theta=\\frac{4}{3}\\pi$ 反例检验得 $t=\\frac{-1+\\sqrt{3}}{2}>0$，故 $t$ 取正根. 所以所求值为 $\\sqrt{1-a}$."
+          "solution": "设 $t=\\cos\\theta-\\sin\\theta$，则 $t^{2}=1-\\sin 2\\theta=1-a$. 当 $\\frac{5}{4}\\pi<\\theta<\\frac{3}{2}\\pi$ 时 $\\cos\\theta<0$，$\\sin\\theta<0$，取 $\\theta=\\frac{4}{3}\\pi$ 反例检验得 $t=\\frac{-1+\\sqrt{3}}{2}>0$，故 $t$ 取正根. 所以所求值为 $\\sqrt{1-a}$."
         },
         {
           "num": 19,

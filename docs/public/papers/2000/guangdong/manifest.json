@@ -53,7 +53,7 @@
             "若 $\\alpha$、$\\beta$ 是第四象限角，则 $\\tan \\alpha > \\tan \\beta$"
           ],
           "answer": "D",
-          "solution": "<p>在每个象限内考察相应三角函数的单调性.</p><p>第一象限内，正弦递增而余弦递减，所以 $\\sin\\alpha>\\sin\\beta$ 推出 $\\alpha>\\beta$，从而 $\\cos\\alpha&#x3C;\\cos\\beta$，A 错.</p><p>第二象限内，正弦递减而正切递增，所以 $\\sin\\alpha>\\sin\\beta$ 推出 $\\alpha&#x3C;\\beta$，从而 $\\tan\\alpha&#x3C;\\tan\\beta$，B 错.</p><p>第三象限内，正弦递减而余弦递增，所以 $\\sin\\alpha>\\sin\\beta$ 推出 $\\alpha&#x3C;\\beta$，从而 $\\cos\\alpha&#x3C;\\cos\\beta$，C 错.</p><p>第四象限内，正弦递增且正切递增，所以 $\\sin\\alpha>\\sin\\beta$ 推出 $\\alpha>\\beta$，进而 $\\tan\\alpha>\\tan\\beta$. 故选 D.</p>"
+          "solution": "<p>在每个象限内考察相应三角函数的单调性.</p><p>第一象限内，正弦递增而余弦递减，所以 $\\sin\\alpha>\\sin\\beta$ 推出 $\\alpha>\\beta$，从而 $\\cos\\alpha<\\cos\\beta$，A 错.</p><p>第二象限内，正弦递减而正切递增，所以 $\\sin\\alpha>\\sin\\beta$ 推出 $\\alpha<\\beta$，从而 $\\tan\\alpha<\\tan\\beta$，B 错.</p><p>第三象限内，正弦递减而余弦递增，所以 $\\sin\\alpha>\\sin\\beta$ 推出 $\\alpha<\\beta$，从而 $\\cos\\alpha<\\cos\\beta$，C 错.</p><p>第四象限内，正弦递增且正切递增，所以 $\\sin\\alpha>\\sin\\beta$ 推出 $\\alpha>\\beta$，进而 $\\tan\\alpha>\\tan\\beta$. 故选 D.</p>"
         },
         {
           "num": 5,
@@ -65,7 +65,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/guangdong/q5_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "<p>函数满足</p>\n$$\nf(0)=0\n$$\n<p>且 $f'(x)=-\\cos x+x\\sin x$，$f'(0)=-1$.</p><p>所以图象在原点附近从左上方向右下方通过原点. 函数的零点满足</p>\n$$\n-x\\cos x=0\n$$\n<p>即 $x=0$，或 $x=\\frac{\\pi}{2}+k\\pi$（$k\\in\\mathbb{Z}$）. 特别地，在原点附近有</p>\n$$\nf\\left(-\\frac{\\pi}{2}\\right)=f(0)=f\\left(\\frac{\\pi}{2}\\right)=0\n$$\n<p>由 $f'(0)=-1$，曲线在原点处由左上方向右下方穿过. 再由零点的表达式可知，在 $(-\\pi,-\\frac{\\pi}{2})$ 上 $x&#x3C;0$、$\\cos x&#x3C;0$，故 $f(x)&#x3C;0$；在 $(-\\frac{\\pi}{2},0)$ 上 $x&#x3C;0$、$\\cos x>0$，故 $f(x)>0$. 在 $(0,\\frac{\\pi}{2})$ 上 $x>0$、$\\cos x>0$，故 $f(x)&#x3C;0$；在 $(\\frac{\\pi}{2},\\pi)$ 上 $x>0$、$\\cos x&#x3C;0$，故 $f(x)>0$. 因此曲线依次在 $x=-\\frac{\\pi}{2}$、$x=0$、$x=\\frac{\\pi}{2}$ 处穿过横轴，穿越方向分别为向上、向下、向上. 逐项对照四个图形，只有第四个图形符合这些零点、符号和切线方向，故选 D.</p>"
+          "solution": "<p>函数满足</p>\n$$\nf(0)=0\n$$\n<p>且 $f'(x)=-\\cos x+x\\sin x$，$f'(0)=-1$.</p><p>所以图象在原点附近从左上方向右下方通过原点. 函数的零点满足</p>\n$$\n-x\\cos x=0\n$$\n<p>即 $x=0$，或 $x=\\frac{\\pi}{2}+k\\pi$（$k\\in\\mathbb{Z}$）. 特别地，在原点附近有</p>\n$$\nf\\left(-\\frac{\\pi}{2}\\right)=f(0)=f\\left(\\frac{\\pi}{2}\\right)=0\n$$\n<p>由 $f'(0)=-1$，曲线在原点处由左上方向右下方穿过. 再由零点的表达式可知，在 $(-\\pi,-\\frac{\\pi}{2})$ 上 $x<0$、$\\cos x<0$，故 $f(x)<0$；在 $(-\\frac{\\pi}{2},0)$ 上 $x<0$、$\\cos x>0$，故 $f(x)>0$. 在 $(0,\\frac{\\pi}{2})$ 上 $x>0$、$\\cos x>0$，故 $f(x)<0$；在 $(\\frac{\\pi}{2},\\pi)$ 上 $x>0$、$\\cos x<0$，故 $f(x)>0$. 因此曲线依次在 $x=-\\frac{\\pi}{2}$、$x=0$、$x=\\frac{\\pi}{2}$ 处穿过横轴，穿越方向分别为向上、向下、向上. 逐项对照四个图形，只有第四个图形符合这些零点、符号和切线方向，故选 D.</p>"
         },
         {
           "num": 6,
@@ -77,19 +77,19 @@
             "$1500\\text{ 元}- 2800\\text{ 元}$"
           ],
           "answer": "C",
-          "solution": "<p>设月工资为 $w$，超过 $800$ 元的部分为</p>\n$$\nu=w-800\n$$\n<p>前 $500$ 元的税额为 $500\\times5\\%=25$ 元. 由于总税额为 $26.78$ 元，且</p>\n$$\n25&#x3C;26.78&#x3C;25+(2000-500)\\times10\\%=175\n$$\n<p>所以 $500&#x3C;u&#x3C;2000$，确实落在第二档. 此时税额为</p>\n$$\n25+(u-500)\\times10\\%=0.1u-25\n$$\n<p>令其等于 $26.78$，得 $0.1u-25=26.78$，$u=517.8$，$w=1317.8$.</p><p>因为 $1200&#x3C;1317.8&#x3C;1500$，故选 C.</p>"
+          "solution": "<p>设月工资为 $w$，超过 $800$ 元的部分为</p>\n$$\nu=w-800\n$$\n<p>前 $500$ 元的税额为 $500\\times5\\%=25$ 元. 由于总税额为 $26.78$ 元，且</p>\n$$\n25<26.78<25+(2000-500)\\times10\\%=175\n$$\n<p>所以 $500<u<2000$，确实落在第二档. 此时税额为</p>\n$$\n25+(u-500)\\times10\\%=0.1u-25\n$$\n<p>令其等于 $26.78$，得 $0.1u-25=26.78$，$u=517.8$，$w=1317.8$.</p><p>因为 $1200<1317.8<1500$，故选 C.</p>"
         },
         {
           "num": 7,
           "body": "若 $a > b > 1$，$P = \\sqrt{\\lg a \\cdot \\lg b}$，$Q = \\frac{1}{2}(\\lg a + \\lg b)$，$R = \\lg \\left(\\frac{a + b}{2}\\right)$，则（ ）",
           "choices": [
-            "$R &#x3C; P &#x3C; Q$",
-            "$P &#x3C; Q &#x3C; R$",
-            "$Q &#x3C; P &#x3C; R$",
-            "$P &#x3C; R &#x3C; Q$"
+            "$R < P < Q$",
+            "$P < Q < R$",
+            "$Q < P < R$",
+            "$P < R < Q$"
           ],
           "answer": "B",
-          "solution": "<p>令 $x=\\lg a$，$y=\\lg b$.</p><p>由 $a>b>1$ 得 $x>y>0$. 正数的几何平均数小于算术平均数，因此</p>\n$$\nP=\\sqrt{xy}&#x3C;\\frac{x+y}{2}=Q\n$$\n<p>另一方面，</p>\n$$\n\\frac{a+b}{2}>\\sqrt{ab}\n$$\n<p>对两边取常用对数，得到</p>\n$$\nR=\\lg\\left(\\frac{a+b}{2}\\right)>\\lg\\sqrt{ab}=\\frac{\\lg a+\\lg b}{2}=Q\n$$\n<p>所以 $P&#x3C;Q&#x3C;R$，故选 B.</p>"
+          "solution": "<p>令 $x=\\lg a$，$y=\\lg b$.</p><p>由 $a>b>1$ 得 $x>y>0$. 正数的几何平均数小于算术平均数，因此</p>\n$$\nP=\\sqrt{xy}<\\frac{x+y}{2}=Q\n$$\n<p>另一方面，</p>\n$$\n\\frac{a+b}{2}>\\sqrt{ab}\n$$\n<p>对两边取常用对数，得到</p>\n$$\nR=\\lg\\left(\\frac{a+b}{2}\\right)>\\lg\\sqrt{ab}=\\frac{\\lg a+\\lg b}{2}=Q\n$$\n<p>所以 $P<Q<R$，故选 B.</p>"
         },
         {
           "num": 8,
@@ -168,7 +168,7 @@
           "body": "椭圆 $\\frac{x^{2}}{9}+ \\frac{y^{2}}{4}= 1$ 的焦点 $F_{1}$，$F_{2}$，点 $P$ 为其上的动点，当 $\\angle F_{1}PF_{2}$ 为钝角时，点 $P$ 横坐标的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(-\\frac{3}{\\sqrt{5}},\\frac{3}{\\sqrt{5}}\\right)$",
-          "solution": "<p>椭圆的焦点为</p><p>$F_{1}=(-\\sqrt{5},0)$，$F_{2}=(\\sqrt{5},0)$.</p><p>设动点 $P=(x,y)$. 当 $\\angle F_{1}PF_{2}$ 为钝角时，两条向量的内积为负，即</p>\n$$\n\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}&#x3C;0\n$$\n<p>计算内积得</p>\n$$\n(-x-\\sqrt{5},-y)\\cdot(-x+\\sqrt{5},-y)=x^{2}+y^{2}-5&#x3C;0\n$$\n<p>即</p>\n$$\nx^{2}+y^{2}&#x3C;5\n$$\n<p>由椭圆方程</p>\n$$\n\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1\n$$\n<p>得</p>\n$$\ny^{2}=4\\left(1-\\frac{x^{2}}{9}\\right)\n$$\n<p>代入钝角条件，得到</p>\n$$\nx^{2}+4\\left(1-\\frac{x^{2}}{9}\\right)&#x3C;5  \\iff \\frac{5}{9}x^{2}&#x3C;1  \\iff x^{2}&#x3C;\\frac{9}{5}\n$$\n<p>所以</p>\n$$\n-\\frac{3}{\\sqrt{5}}&#x3C;x&#x3C;\\frac{3}{\\sqrt{5}}\n$$"
+          "solution": "<p>椭圆的焦点为</p><p>$F_{1}=(-\\sqrt{5},0)$，$F_{2}=(\\sqrt{5},0)$.</p><p>设动点 $P=(x,y)$. 当 $\\angle F_{1}PF_{2}$ 为钝角时，两条向量的内积为负，即</p>\n$$\n\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}<0\n$$\n<p>计算内积得</p>\n$$\n(-x-\\sqrt{5},-y)\\cdot(-x+\\sqrt{5},-y)=x^{2}+y^{2}-5<0\n$$\n<p>即</p>\n$$\nx^{2}+y^{2}<5\n$$\n<p>由椭圆方程</p>\n$$\n\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1\n$$\n<p>得</p>\n$$\ny^{2}=4\\left(1-\\frac{x^{2}}{9}\\right)\n$$\n<p>代入钝角条件，得到</p>\n$$\nx^{2}+4\\left(1-\\frac{x^{2}}{9}\\right)<5  \\iff \\frac{5}{9}x^{2}<1  \\iff x^{2}<\\frac{9}{5}\n$$\n<p>所以</p>\n$$\n-\\frac{3}{\\sqrt{5}}<x<\\frac{3}{\\sqrt{5}}\n$$"
         },
         {
           "num": 15,
@@ -215,21 +215,21 @@
           "body": "<p>设函数 $f(x) = \\sqrt{x^{2} + 1}- ax$，其中 $a > 0$.</p><ol class=\"enumerate\"><li><p>解不等式 $f(x) \\le 1$；</p></li><li><p>证明：当 $a \\ge 1$ 时，函数 $f(x)$ 在区间 $\\left[0,+\\infty\\right)$ 上是单调函数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x&#x3C;0$ 时，</p><p>$\\sqrt{x^{2}+1}>1$，$-ax>0$，</p><p>所以 $f(x)>1$，不等式无负数解. 令 $x\\geqslant0$，则</p>\n$$\n\\sqrt{x^{2}+1}\\leqslant1+ax\n$$\n<p>且右边为正，可以平方而不改变不等号方向，得到</p>\n$$\nx^{2}+1\\le(1+ax)^{2}  \\iff x\\bigl((1-a^{2})x-2a\\bigr)\\leqslant0\n$$\n<p>当 $0&#x3C;a&#x3C;1$ 时，因 $1-a^{2}>0$，故</p>\n$$\n0\\le x\\le\\frac{2a}{1-a^{2}}\n$$\n<p>当 $a\\geqslant1$ 时，对任意 $x\\geqslant0$，有</p>\n$$\n(1-a^{2})x-2a&#x3C;0\n$$\n<p>所以不等式恒成立. 综上，解集为</p>\n$$\n\\begin{cases}\\left[0,\\dfrac{2a}{1-a^2}\\right],&#x26;0&#x3C;a&#x3C;1,\\\\[6pt]  \\left[0,+\\infty\\right),&#x26;a\\geqslant1.\\end{cases}\n$$\n</li><li><p>在 $[0,+\\infty)$ 上，</p>\n$$\nf'(x)=\\frac{x}{\\sqrt{x^{2}+1}}-a\n$$\n<p>由于</p>\n$$\n0\\le\\frac{x}{\\sqrt{x^{2}+1}}&#x3C;1\\le a\n$$\n<p>故 $f'(x)&#x3C;0$. 因此 $f(x)$ 在 $[0,+\\infty)$ 上严格单调递减.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x<0$ 时，</p><p>$\\sqrt{x^{2}+1}>1$，$-ax>0$，</p><p>所以 $f(x)>1$，不等式无负数解. 令 $x\\geqslant0$，则</p>\n$$\n\\sqrt{x^{2}+1}\\leqslant1+ax\n$$\n<p>且右边为正，可以平方而不改变不等号方向，得到</p>\n$$\nx^{2}+1\\le(1+ax)^{2}  \\iff x\\bigl((1-a^{2})x-2a\\bigr)\\leqslant0\n$$\n<p>当 $0<a<1$ 时，因 $1-a^{2}>0$，故</p>\n$$\n0\\le x\\le\\frac{2a}{1-a^{2}}\n$$\n<p>当 $a\\geqslant1$ 时，对任意 $x\\geqslant0$，有</p>\n$$\n(1-a^{2})x-2a<0\n$$\n<p>所以不等式恒成立. 综上，解集为</p>\n$$\n\\begin{cases}\\left[0,\\dfrac{2a}{1-a^2}\\right],&0<a<1,\\\\[6pt]  \\left[0,+\\infty\\right),&a\\geqslant1.\\end{cases}\n$$\n</li><li><p>在 $[0,+\\infty)$ 上，</p>\n$$\nf'(x)=\\frac{x}{\\sqrt{x^{2}+1}}-a\n$$\n<p>由于</p>\n$$\n0\\le\\frac{x}{\\sqrt{x^{2}+1}}<1\\le a\n$$\n<p>故 $f'(x)<0$. 因此 $f(x)$ 在 $[0,+\\infty)$ 上严格单调递减.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>某蔬菜基地种植西红柿，由历年市场行情得知，从二月一日起的 $300$ 天内，西红柿市场售价与上市时间的关系用图一的一条折线表示；西红柿的种植成本与上市时间的关系用图二的抛物线段表示.</p><ol class=\"enumerate\"><li><p>写出图一表示的市场售价与时间的函数关系式 $P = f(t)$ 和图二表示的种植成本与时间的函数关系式 $Q = g(t)$；</p></li><li><p>认定市场售价减去种植成本为纯收益，问何时上市的西红柿纯收益最大？</p></li></ol><p>注：市场售价与种植成本的单位：$\\text{元}/10^{2}\\mathrm{~kg}$，时间单位：$\\text{天}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由图一两段直线分别经过 $(0,300)$，$(200,100)$ 和 $(200,100)$，$(300,300)$，故</p>\n$$\nf(t)=  \\begin{cases}300-t,&#x26;0\\le t\\leqslant200,\\\\  2t-300,&#x26;200&#x3C;t\\leqslant300.\\end{cases}\n$$\n<p>图二的抛物线顶点为 $(150,100)$，且经过 $(50,150)$，所以</p><p>$g(t)=\\frac{1}{200}(t-150)^{2}+100$，$0\\le t\\leqslant300$.</p><p>设纯收益为 $h(t)=f(t)-g(t)$. 当 $0\\le t\\leqslant200$ 时，</p>\n$$\nh(t)=300-t-\\frac{1}{200}(t-150)^{2}-100  =100-\\frac{(t-50)^{2}}{200}\n$$\n<p>故这一段的最大值为 $100$，在 $t=50$ 时取得.</p><p>当 $200&#x3C;t\\leqslant300$ 时，</p>\n$$\nh'(t)=2-\\frac{t-150}{100}=\\frac{350-t}{100}>0\n$$\n<p>所以 $h(t)$ 在这一段递增，最大值在 $t=300$ 时取得，且</p>\n$$\nh(300)=300-\\left(\\frac{150^{2}}{200}+100\\right)=87.5\n$$\n<p>由于 $100>87.5$，全区间最大收益在 $t=50$ 时取得，即从二月一日开始的第 $50$ 天.</p>"
+          "solution": "<p>由图一两段直线分别经过 $(0,300)$，$(200,100)$ 和 $(200,100)$，$(300,300)$，故</p>\n$$\nf(t)=  \\begin{cases}300-t,&0\\le t\\leqslant200,\\\\  2t-300,&200<t\\leqslant300.\\end{cases}\n$$\n<p>图二的抛物线顶点为 $(150,100)$，且经过 $(50,150)$，所以</p><p>$g(t)=\\frac{1}{200}(t-150)^{2}+100$，$0\\le t\\leqslant300$.</p><p>设纯收益为 $h(t)=f(t)-g(t)$. 当 $0\\le t\\leqslant200$ 时，</p>\n$$\nh(t)=300-t-\\frac{1}{200}(t-150)^{2}-100  =100-\\frac{(t-50)^{2}}{200}\n$$\n<p>故这一段的最大值为 $100$，在 $t=50$ 时取得.</p><p>当 $200<t\\leqslant300$ 时，</p>\n$$\nh'(t)=2-\\frac{t-150}{100}=\\frac{350-t}{100}>0\n$$\n<p>所以 $h(t)$ 在这一段递增，最大值在 $t=300$ 时取得，且</p>\n$$\nh(300)=300-\\left(\\frac{150^{2}}{200}+100\\right)=87.5\n$$\n<p>由于 $100>87.5$，全区间最大收益在 $t=50$ 时取得，即从二月一日开始的第 $50$ 天.</p>"
         },
         {
           "num": 22,
           "body": "<p>如图，已知梯形 $ABCD$ 中 $|AB| = 2|CD|$，点 $E$ 分有向线段 $\\overrightarrow{AC}$ 所成的比为 $\\lambda$，双曲线过 $C$，$D$，$E$ 三点，且以 $A$，$B$ 为焦点，当 $\\frac{2}{3}\\le \\lambda \\le \\frac{3}{4}$ 时，求双曲线离心率 $e$ 的取值范围.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>建立直角坐标系，使 $AB$ 为 $x$ 轴，$AB$ 的垂直平分线为 $y$ 轴. 令</p><p>$AB=2c$，$CD=c$，</p><p>则可设</p><p>$A=(-c,0)$，$B=(c,0)$，$C=\\left(\\frac{c}{2},h\\right)$，$D=\\left(-\\frac{c}{2},h\\right)$，</p><p>其中 $h>0$ 为梯形的高. 这里利用了双曲线以 $A$，$B$ 为焦点，故其关于 $y$ 轴对称，且 $C$，$D$ 的纵坐标相同.</p><p>设双曲线的标准方程为</p><p>$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，$b^{2}=c^{2}-a^{2}$，</p><p>其离心率为 $e=\\frac{c}{a}$. 令</p><p>$t=\\frac{a^{2}}{c^{2}}$，$u=\\frac{h}{c}$.</p><p>将点 $C$ 代入双曲线方程，得</p>\n$$\n\\frac{1}{4t}-\\frac{u^{2}}{1-t}=1\n$$\n<p>即</p>\n$$\n\\frac{u^{2}}{1-t}=\\frac{1-4t}{4t}\n$$\n<p>由定比分点公式以及题设有向线段比，点 $E$ 的坐标为</p>\n$$\nE=\\frac{A+\\lambda C}{1+\\lambda}=\\left(\\frac{c(\\lambda-2)}{2(1+\\lambda)},  \\frac{\\lambda h}{1+\\lambda}\\right)\n$$\n<p>将 $E$ 代入双曲线方程，并除以相应的 $c^{2}$，得到</p>\n$$\n\\frac{(\\lambda-2)^{2}}{4(1+\\lambda)^{2}t}-\\frac{\\lambda^{2}u^{2}}{(1+\\lambda)^{2}(1-t)}=1\n$$\n<p>利用</p>\n$$\n\\frac{u^{2}}{1-t}=\\frac{1-4t}{4t}\n$$\n<p>上式化为</p>\n$$\n\\frac{(\\lambda-2)^{2}-\\lambda^{2}(1-4t)}{4(1+\\lambda)^{2}t}=1\n$$\n<p>整理分子后，得到</p>\n$$\n\\frac{1-\\lambda+\\lambda^{2}t}{(1+\\lambda)^{2}t}=1\n$$\n<p>从而</p><p>$1-\\lambda=(1+2\\lambda)t$，$t=\\frac{1-\\lambda}{1+2\\lambda}$.</p><p>因此</p>\n$$\ne^{2}=\\frac{c^{2}}{a^{2}}=\\frac{1}{t}=\\frac{1+2\\lambda}{1-\\lambda}\n$$\n<p>函数</p>\n$$\n\\frac{1+2\\lambda}{1-\\lambda}\n$$\n<p>在 $\\lambda&#x3C;1$ 时严格递增，因为其导数为</p>\n$$\n\\frac{3}{(1-\\lambda)^{2}}>0\n$$\n<p>所以当 $\\frac{2}{3}\\le\\lambda\\le\\frac{3}{4}$ 时，</p>\n$$\n7=\\frac{1+2\\cdot\\frac{2}{3}}{1-\\frac{2}{3}}\\le e^{2}  \\le  \\frac{1+2\\cdot\\frac{3}{4}}{1-\\frac{3}{4}}=10\n$$\n<p>又 $e>0$，故</p>\n$$\ne\\in\\left[\\sqrt{7},\\sqrt{10}\\right]\n$$"
+          "solution": "<p>建立直角坐标系，使 $AB$ 为 $x$ 轴，$AB$ 的垂直平分线为 $y$ 轴. 令</p><p>$AB=2c$，$CD=c$，</p><p>则可设</p><p>$A=(-c,0)$，$B=(c,0)$，$C=\\left(\\frac{c}{2},h\\right)$，$D=\\left(-\\frac{c}{2},h\\right)$，</p><p>其中 $h>0$ 为梯形的高. 这里利用了双曲线以 $A$，$B$ 为焦点，故其关于 $y$ 轴对称，且 $C$，$D$ 的纵坐标相同.</p><p>设双曲线的标准方程为</p><p>$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，$b^{2}=c^{2}-a^{2}$，</p><p>其离心率为 $e=\\frac{c}{a}$. 令</p><p>$t=\\frac{a^{2}}{c^{2}}$，$u=\\frac{h}{c}$.</p><p>将点 $C$ 代入双曲线方程，得</p>\n$$\n\\frac{1}{4t}-\\frac{u^{2}}{1-t}=1\n$$\n<p>即</p>\n$$\n\\frac{u^{2}}{1-t}=\\frac{1-4t}{4t}\n$$\n<p>由定比分点公式以及题设有向线段比，点 $E$ 的坐标为</p>\n$$\nE=\\frac{A+\\lambda C}{1+\\lambda}=\\left(\\frac{c(\\lambda-2)}{2(1+\\lambda)},  \\frac{\\lambda h}{1+\\lambda}\\right)\n$$\n<p>将 $E$ 代入双曲线方程，并除以相应的 $c^{2}$，得到</p>\n$$\n\\frac{(\\lambda-2)^{2}}{4(1+\\lambda)^{2}t}-\\frac{\\lambda^{2}u^{2}}{(1+\\lambda)^{2}(1-t)}=1\n$$\n<p>利用</p>\n$$\n\\frac{u^{2}}{1-t}=\\frac{1-4t}{4t}\n$$\n<p>上式化为</p>\n$$\n\\frac{(\\lambda-2)^{2}-\\lambda^{2}(1-4t)}{4(1+\\lambda)^{2}t}=1\n$$\n<p>整理分子后，得到</p>\n$$\n\\frac{1-\\lambda+\\lambda^{2}t}{(1+\\lambda)^{2}t}=1\n$$\n<p>从而</p><p>$1-\\lambda=(1+2\\lambda)t$，$t=\\frac{1-\\lambda}{1+2\\lambda}$.</p><p>因此</p>\n$$\ne^{2}=\\frac{c^{2}}{a^{2}}=\\frac{1}{t}=\\frac{1+2\\lambda}{1-\\lambda}\n$$\n<p>函数</p>\n$$\n\\frac{1+2\\lambda}{1-\\lambda}\n$$\n<p>在 $\\lambda<1$ 时严格递增，因为其导数为</p>\n$$\n\\frac{3}{(1-\\lambda)^{2}}>0\n$$\n<p>所以当 $\\frac{2}{3}\\le\\lambda\\le\\frac{3}{4}$ 时，</p>\n$$\n7=\\frac{1+2\\cdot\\frac{2}{3}}{1-\\frac{2}{3}}\\le e^{2}  \\le  \\frac{1+2\\cdot\\frac{3}{4}}{1-\\frac{3}{4}}=10\n$$\n<p>又 $e>0$，故</p>\n$$\ne\\in\\left[\\sqrt{7},\\sqrt{10}\\right]\n$$"
         }
       ]
     }

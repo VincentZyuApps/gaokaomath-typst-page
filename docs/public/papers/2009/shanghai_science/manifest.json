@@ -23,17 +23,17 @@
         },
         {
           "num": 3,
-          "body": "若行列式 $\\begin{vmatrix}4 &#x26; 5 &#x26; x \\\\ 1 &#x26; x &#x26; 3 \\\\ 7 &#x26; 8 &#x26; 9\\end{vmatrix}$ 中，元素 $4$ 的代数余子式大于 $0$，则 $x$ 满足的条件是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "若行列式 $\\begin{vmatrix}4 & 5 & x \\\\ 1 & x & 3 \\\\ 7 & 8 & 9\\end{vmatrix}$ 中，元素 $4$ 的代数余子式大于 $0$，则 $x$ 满足的条件是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$x > \\frac{8}{3}$.",
-          "solution": "<p>元素 $4$ 位于行列式的第 $1$ 行第 $1$ 列，因此它的代数余子式为</p>\n$$\nC_{11}=(-1)^{1+1}\\begin{vmatrix}x&#x26;3\\\\8&#x26;9\\end{vmatrix}=9x-24\n$$\n<p>由题意 $9x-24>0$，所以 $x>\\dfrac{8}{3}$.</p>"
+          "solution": "<p>元素 $4$ 位于行列式的第 $1$ 行第 $1$ 列，因此它的代数余子式为</p>\n$$\nC_{11}=(-1)^{1+1}\\begin{vmatrix}x&3\\\\8&9\\end{vmatrix}=9x-24\n$$\n<p>由题意 $9x-24>0$，所以 $x>\\dfrac{8}{3}$.</p>"
         },
         {
           "num": 4,
           "body": "<p>某算法的程序框图如图所示，则输出量 $y$ 与输入量 $x$ 满足的关系式是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
-          "answer": "$$\ny=\\begin{cases}2^{x},&#x26;x\\le 1,\\\\  x-2,&#x26;x>1.\\end{cases}\n$$",
-          "solution": "<p>由程序框图可知，当输入 $x>1$ 时，沿“是”分支得到 $y=x-2$；当输入 $x\\le 1$ 时，沿“否”分支得到 $y=2^{x}$. 因此</p>\n$$\ny=\\begin{cases}2^{x},&#x26;x\\le 1,\\\\  x-2,&#x26;x>1.\\end{cases}\n$$"
+          "answer": "$$\ny=\\begin{cases}2^{x},&x\\le 1,\\\\  x-2,&x>1.\\end{cases}\n$$",
+          "solution": "<p>由程序框图可知，当输入 $x>1$ 时，沿“是”分支得到 $y=x-2$；当输入 $x\\le 1$ 时，沿“否”分支得到 $y=2^{x}$. 因此</p>\n$$\ny=\\begin{cases}2^{x},&x\\le 1,\\\\  x-2,&x>1.\\end{cases}\n$$"
         },
         {
           "num": 5,
@@ -89,21 +89,21 @@
           "body": "已知函数 $f(x) = \\sin x + \\tan x$，项数为 $27$ 的等差数列 $\\{a_{n}\\}$ 满足 $a_{n} \\in \\left( -\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$，且公差 $d \\neq 0$. 若 $f(a_{1}) + f(a_{2}) + \\cdots + f(a_{27}) = 0$，则当 $k =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 时，$f(a_{k}) = 0$.",
           "choices": null,
           "answer": "$14$.",
-          "solution": "<p>函数 $f(x)=\\sin x+\\tan x$ 在 $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ 上为奇函数，且</p>\n$$\nf'(x)=\\cos x+\\sec^{2}x>0\n$$\n<p>所以 $f$ 在该区间上严格递增. 等差数列的中项为 $a_{14}$，并且第 $14-j$ 项和第 $14+j$ 项可写成 $a_{14}-u$ 与 $a_{14}+u$，其中 $u=|jd|>0$.</p><p>若 $a_{14}>0$，当 $a_{14}-u\\geqslant0$ 时，两个函数值之和为正；当 $a_{14}-u&#x3C;0$ 时，由严格递增性和奇函数性质，</p><p>$a_{14}+u>u-a_{14}>0$，$\\Longrightarrow$，$f(a_{14}+u)>f(u-a_{14})=-f(a_{14}-u)$，</p><p>故仍有 $f(a_{14}+u)+f(a_{14}-u)>0$. 所有成对项的和以及中项 $f(a_{14})$ 都为正，于是全体和不可能为零. 同理，若 $a_{14}&#x3C;0$，全体和为负.</p><p>因此题设等式只能在 $a_{14}=0$ 时成立. 此时 $f(a_{14})=f(0)=0$，所以 $k=14$.</p>"
+          "solution": "<p>函数 $f(x)=\\sin x+\\tan x$ 在 $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ 上为奇函数，且</p>\n$$\nf'(x)=\\cos x+\\sec^{2}x>0\n$$\n<p>所以 $f$ 在该区间上严格递增. 等差数列的中项为 $a_{14}$，并且第 $14-j$ 项和第 $14+j$ 项可写成 $a_{14}-u$ 与 $a_{14}+u$，其中 $u=|jd|>0$.</p><p>若 $a_{14}>0$，当 $a_{14}-u\\geqslant0$ 时，两个函数值之和为正；当 $a_{14}-u<0$ 时，由严格递增性和奇函数性质，</p><p>$a_{14}+u>u-a_{14}>0$，$\\Longrightarrow$，$f(a_{14}+u)>f(u-a_{14})=-f(a_{14}-u)$，</p><p>故仍有 $f(a_{14}+u)+f(a_{14}-u)>0$. 所有成对项的和以及中项 $f(a_{14})$ 都为正，于是全体和不可能为零. 同理，若 $a_{14}<0$，全体和为负.</p><p>因此题设等式只能在 $a_{14}=0$ 时成立. 此时 $f(a_{14})=f(0)=0$，所以 $k=14$.</p>"
         },
         {
           "num": 13,
           "body": "某地街道呈现东—西，南—北向的网格状，相邻街距都为 $1$. 两街道相交的点称为格点. 若以互相垂直的两条街道为轴建立直角坐标系，现有下述格点 $(-2, 2)$，$(3, 1)$，$(3, 4)$，$(-2, 3)$，$(4, 5)$，$(6, 6)$ 为报刊零售点. 请确定一个格点（除零售点外）为发行站，使 $6$ 个零售点沿街道到发行站之间路程的和最短<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(3, 3)$.",
-          "solution": "<p>设发行站为格点 $(u,v)$. 六个零售点到它的沿街路程之和为</p>\n$$\n\\begin{aligned}T(u,v)&#x26;=|u+2|+|u-3|+|u-3|+|u+2|+|u-4|+|u-6|\\\\&#x26; +|v-2|+|v-1|+|v-4|+|v-3|+|v-5|+|v-6|.\\end{aligned}\n$$\n<p>横、纵坐标部分彼此独立. 对按从小到大排列的六个实数 $z_{1}\\le\\cdots\\le z_{6}$，函数 $\\sum_{i=1}^{6}|w-z_{i}|$ 在且仅在中位数区间 $[z_{3},z_{4}]$ 上取得最小值；这是因为 $w$ 每向右移动一单位，绝对值和的增量等于左侧点数减右侧点数，符号在该区间内由负变正. 横坐标数据为 $-2$，$-2$，$3$，$3$，$4$，$6$，所以 $u=3$. 纵坐标数据为 $1$，$2$，$3$，$4$，$5$，$6$，所以 $v$ 可取 $3$ 或 $4$. 点 $(3,4)$ 是零售点，不能作为发行站，故只能取 $(3,3)$.</p>"
+          "solution": "<p>设发行站为格点 $(u,v)$. 六个零售点到它的沿街路程之和为</p>\n$$\n\\begin{aligned}T(u,v)&=|u+2|+|u-3|+|u-3|+|u+2|+|u-4|+|u-6|\\\\& +|v-2|+|v-1|+|v-4|+|v-3|+|v-5|+|v-6|.\\end{aligned}\n$$\n<p>横、纵坐标部分彼此独立. 对按从小到大排列的六个实数 $z_{1}\\le\\cdots\\le z_{6}$，函数 $\\sum_{i=1}^{6}|w-z_{i}|$ 在且仅在中位数区间 $[z_{3},z_{4}]$ 上取得最小值；这是因为 $w$ 每向右移动一单位，绝对值和的增量等于左侧点数减右侧点数，符号在该区间内由负变正. 横坐标数据为 $-2$，$-2$，$3$，$3$，$4$，$6$，所以 $u=3$. 纵坐标数据为 $1$，$2$，$3$，$4$，$5$，$6$，所以 $v$ 可取 $3$ 或 $4$. 点 $(3,4)$ 是零售点，不能作为发行站，故只能取 $(3,3)$.</p>"
         },
         {
           "num": 14,
           "body": "将函数 $y = \\sqrt{4 + 6x - x^{2}}- 2$（$x \\in [0, 6]$）的图象绕坐标原点逆时针方向旋转角 $\\theta$（$0 \\le \\theta \\le \\alpha$），得到曲线 $C$. 若对于每一个旋转角 $\\theta$，曲线 $C$ 都是一个函数的图象，则 $\\alpha$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\arctan\\frac{2}{3}$.",
-          "solution": "<p>原曲线可参数化为 $(x,y(x))$，其中</p><p>$y(x)=\\sqrt{13-(x-3)^{2}}-2$，$0\\le x\\leqslant6$.</p><p>旋转 $\\theta$ 后点的横坐标为</p>\n$$\nX_{\\theta}(x)=x\\cos\\theta-y(x)\\sin\\theta\n$$\n<p>若旋转后的曲线是函数图象，则参数 $x$ 到旋转后横坐标的映射必须单射，从而需考察</p><p>$X_{\\theta}'(x)=\\cos\\theta-y'(x)\\sin\\theta$，$y'(x)=\\frac{3-x}{\\sqrt{13-(x-3)^{2}}}$.</p><p>在 $[0,6]$ 上，$y'(x)\\le y'(0)=\\dfrac{3}{2}$，因此当 $0\\le\\theta\\le\\arctan\\dfrac{2}{3}$ 时，</p>\n$$\nX_{\\theta}'(x)\\ge\\cos\\theta-\\frac{3}{2}\\sin\\theta\\geqslant0\n$$\n<p>除端点情形外导数为正，故 $X_{\\theta}(x)$ 严格递增，旋转后的曲线是函数图象.</p><p>若 $\\theta>\\arctan\\dfrac{2}{3}$ 且 $\\theta&#x3C;\\dfrac\\pi2$，则</p><p>$X_{\\theta}'(0)=\\cos\\theta-\\frac{3}{2}\\sin\\theta&#x3C;0$，$X_{\\theta}'(6)=\\cos\\theta+\\frac{3}{2}\\sin\\theta>0$.</p><p>又因</p>\n$$\ny''(x)=-\\frac{13}{\\left(13-(x-3)^{2}\\right)^{\\frac{3}{2}}}&#x3C;0\n$$\n<p>故 $X_{\\theta}'(x)$ 在 $[0,6]$ 上严格递增，$X_{\\theta}(x)$ 先减后增，在某个内点取得唯一最小值. 取该最小值上方且足够接近的一个横坐标，由连续性可得对应的两个不同参数值；旋转后两点横坐标相同而点本身不同，因而纵坐标不同，曲线不是函数图象. 当 $\\theta=\\dfrac\\pi2$ 时，$X_{\\theta}(x)=-y(x)$，且 $X_{\\theta}(0)=X_{\\theta}(6)=0$ 而 $X_{\\theta}(3)\\neq0$，同样不是单射，所以任何 $\\alpha\\ge\\dfrac\\pi2$ 也不可能满足题设. 因而允许的最大旋转角为 $\\arctan\\dfrac{2}{3}$.</p>"
+          "solution": "<p>原曲线可参数化为 $(x,y(x))$，其中</p><p>$y(x)=\\sqrt{13-(x-3)^{2}}-2$，$0\\le x\\leqslant6$.</p><p>旋转 $\\theta$ 后点的横坐标为</p>\n$$\nX_{\\theta}(x)=x\\cos\\theta-y(x)\\sin\\theta\n$$\n<p>若旋转后的曲线是函数图象，则参数 $x$ 到旋转后横坐标的映射必须单射，从而需考察</p><p>$X_{\\theta}'(x)=\\cos\\theta-y'(x)\\sin\\theta$，$y'(x)=\\frac{3-x}{\\sqrt{13-(x-3)^{2}}}$.</p><p>在 $[0,6]$ 上，$y'(x)\\le y'(0)=\\dfrac{3}{2}$，因此当 $0\\le\\theta\\le\\arctan\\dfrac{2}{3}$ 时，</p>\n$$\nX_{\\theta}'(x)\\ge\\cos\\theta-\\frac{3}{2}\\sin\\theta\\geqslant0\n$$\n<p>除端点情形外导数为正，故 $X_{\\theta}(x)$ 严格递增，旋转后的曲线是函数图象.</p><p>若 $\\theta>\\arctan\\dfrac{2}{3}$ 且 $\\theta<\\dfrac\\pi2$，则</p><p>$X_{\\theta}'(0)=\\cos\\theta-\\frac{3}{2}\\sin\\theta<0$，$X_{\\theta}'(6)=\\cos\\theta+\\frac{3}{2}\\sin\\theta>0$.</p><p>又因</p>\n$$\ny''(x)=-\\frac{13}{\\left(13-(x-3)^{2}\\right)^{\\frac{3}{2}}}<0\n$$\n<p>故 $X_{\\theta}'(x)$ 在 $[0,6]$ 上严格递增，$X_{\\theta}(x)$ 先减后增，在某个内点取得唯一最小值. 取该最小值上方且足够接近的一个横坐标，由连续性可得对应的两个不同参数值；旋转后两点横坐标相同而点本身不同，因而纵坐标不同，曲线不是函数图象. 当 $\\theta=\\dfrac\\pi2$ 时，$X_{\\theta}(x)=-y(x)$，且 $X_{\\theta}(0)=X_{\\theta}(6)=0$ 而 $X_{\\theta}(3)\\neq0$，同样不是单射，所以任何 $\\alpha\\ge\\dfrac\\pi2$ 也不可能满足题设. 因而允许的最大旋转角为 $\\arctan\\dfrac{2}{3}$.</p>"
         }
       ]
     },
@@ -120,7 +120,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A.",
-          "solution": "<p>方程 $x^{2}+ax+1=0$ 有虚根的充要条件是判别式小于零，即</p>\n$$\n\\Delta=a^{2}-4&#x3C;0 \\Longleftrightarrow  -2&#x3C;a&#x3C;2\n$$\n<p>因此 $-2\\le a\\leqslant2$ 是该条件的必要条件，但在 $a=2$ 或 $a=-2$ 时方程有重根而不是虚根，故不是充分条件. 所以应选 A.</p>"
+          "solution": "<p>方程 $x^{2}+ax+1=0$ 有虚根的充要条件是判别式小于零，即</p>\n$$\n\\Delta=a^{2}-4<0 \\Longleftrightarrow  -2<a<2\n$$\n<p>因此 $-2\\le a\\leqslant2$ 是该条件的必要条件，但在 $a=2$ 或 $a=-2$ 时方程有重根而不是虚根，故不是充分条件. 所以应选 A.</p>"
         },
         {
           "num": 16,
@@ -172,10 +172,10 @@
         },
         {
           "num": 20,
-          "body": "<p>有时可用函数 $f(x) = \\begin{cases}0.1 + 15 \\ln \\frac{a}{a - x},&#x26;x \\le 6,\\\\  \\frac{x - 4.4}{x - 4},&#x26;x > 6,\\end{cases}$ 描述学习某学科知识的掌握程度，其中 $x$ 表示某学科知识的学习次数（$x \\in \\mathbf{N}^{*}$），$f(x)$ 表示对该学科知识的掌握程度，正实数 $a$ 与学科知识有关.</p><ol class=\"enumerate\"><li><p>证明：当 $x \\ge 7$ 时，掌握程度的增加量 $f(x + 1) - f(x)$ 总是下降；</p></li><li><p>根据经验，学科甲，乙，丙对应的 $a$ 的取值范围分别为 $(115, 121]$，$(121, 127]$，$(121, 133]$. 当学习某学科知识 $6$ 次时，掌握程度是 $85\\%$，请确定相应的学科.</p></li></ol>",
+          "body": "<p>有时可用函数 $f(x) = \\begin{cases}0.1 + 15 \\ln \\frac{a}{a - x},&x \\le 6,\\\\  \\frac{x - 4.4}{x - 4},&x > 6,\\end{cases}$ 描述学习某学科知识的掌握程度，其中 $x$ 表示某学科知识的学习次数（$x \\in \\mathbf{N}^{*}$），$f(x)$ 表示对该学科知识的掌握程度，正实数 $a$ 与学科知识有关.</p><ol class=\"enumerate\"><li><p>证明：当 $x \\ge 7$ 时，掌握程度的增加量 $f(x + 1) - f(x)$ 总是下降；</p></li><li><p>根据经验，学科甲，乙，丙对应的 $a$ 的取值范围分别为 $(115, 121]$，$(121, 127]$，$(121, 133]$. 当学习某学科知识 $6$ 次时，掌握程度是 $85\\%$，请确定相应的学科.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x\\ge 7$ 时，$x$ 和 $x+1$ 都大于 $6$，因此</p>\n$$\nf(x)=\\frac{x-4.4}{x-4}=1-\\frac{0.4}{x-4}\n$$\n<p>令 $\\Delta_{x}=f(x+1)-f(x)$，则</p>\n$$\n\\Delta_{x}=\\frac{0.4}{(x-4)(x-3)}\n$$\n<p>于是</p>\n$$\n\\Delta_{x+1}-\\Delta_{x}=\\frac{0.4}{(x-3)(x-2)}-\\frac{0.4}{(x-4)(x-3)}=-\\frac{0.8}{(x-4)(x-3)(x-2)}&#x3C;0\n$$\n<p>所以当 $x\\ge 7$ 时，掌握程度的增加量总是下降.</p></li><li><p>由题意，$f(6)=0.85$，且 $6\\le 6$，故</p>\n$$\n0.1+15\\ln\\frac{a}{a-6}=0.85\n$$\n<p>即</p><p>$\\ln\\frac{a}{a-6}=\\frac{1}{20}$，$\\frac{a}{a-6}=\\mathrm{e}^{\\frac{1}{20}}$.</p><p>解得</p>\n$$\na=\\frac{6\\mathrm{e}^{\\frac{1}{20}}}{\\mathrm{e}^{\\frac{1}{20}}-1}=\\frac{6}{1-\\mathrm{e}^{-\\frac{1}{20}}}\\approx123.025\n$$\n<p>因为 $a\\approx123.025$，所以 $121&#x3C;a\\leqslant127$ 且 $121&#x3C;a\\leqslant133$，而 $a\\notin(115,121]$. 因此相应的学科为乙、丙.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x\\ge 7$ 时，$x$ 和 $x+1$ 都大于 $6$，因此</p>\n$$\nf(x)=\\frac{x-4.4}{x-4}=1-\\frac{0.4}{x-4}\n$$\n<p>令 $\\Delta_{x}=f(x+1)-f(x)$，则</p>\n$$\n\\Delta_{x}=\\frac{0.4}{(x-4)(x-3)}\n$$\n<p>于是</p>\n$$\n\\Delta_{x+1}-\\Delta_{x}=\\frac{0.4}{(x-3)(x-2)}-\\frac{0.4}{(x-4)(x-3)}=-\\frac{0.8}{(x-4)(x-3)(x-2)}<0\n$$\n<p>所以当 $x\\ge 7$ 时，掌握程度的增加量总是下降.</p></li><li><p>由题意，$f(6)=0.85$，且 $6\\le 6$，故</p>\n$$\n0.1+15\\ln\\frac{a}{a-6}=0.85\n$$\n<p>即</p><p>$\\ln\\frac{a}{a-6}=\\frac{1}{20}$，$\\frac{a}{a-6}=\\mathrm{e}^{\\frac{1}{20}}$.</p><p>解得</p>\n$$\na=\\frac{6\\mathrm{e}^{\\frac{1}{20}}}{\\mathrm{e}^{\\frac{1}{20}}-1}=\\frac{6}{1-\\mathrm{e}^{-\\frac{1}{20}}}\\approx123.025\n$$\n<p>因为 $a\\approx123.025$，所以 $121<a\\leqslant127$ 且 $121<a\\leqslant133$，而 $a\\notin(115,121]$. 因此相应的学科为乙、丙.</p></li></ol>"
         },
         {
           "num": 21,

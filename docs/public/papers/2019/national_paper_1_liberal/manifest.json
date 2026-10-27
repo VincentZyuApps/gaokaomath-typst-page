@@ -35,10 +35,10 @@
           "num": 3,
           "body": "已知 $a=\\log_{2} 0.2$，$b=2^{0.2}$，$c=0.2^{0.3}$，则（ ）",
           "choices": [
-            "$a&#x3C;b&#x3C;c$",
-            "$a&#x3C;c&#x3C;b$",
-            "$c&#x3C;a&#x3C;b$",
-            "$b&#x3C;c&#x3C;a$"
+            "$a<b<c$",
+            "$a<c<b$",
+            "$c<a<b$",
+            "$b<c<a$"
           ],
           "answer": "B",
           "solution": ""
@@ -59,10 +59,10 @@
           "num": 5,
           "body": "函数 $f(x)=\\dfrac{\\sin x+x}{\\cos x+x^2}$ 在 $[-\\pi,\\pi]$ 的图象大致为（ ）",
           "choices": [
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_{p}aper_{1}_{l}iberal/q5_{c}hoice_{a}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_{p}aper_{1}_{l}iberal/q5_{c}hoice_{b}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_{p}aper_{1}_{l}iberal/q5_{c}hoice_{c}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_{p}aper_{1}_{l}iberal/q5_{c}hoice_{d}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$"
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_1_liberal/q5_choice_a.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_1_liberal/q5_choice_b.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_1_liberal/q5_choice_c.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_1_liberal/q5_choice_d.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$"
           ],
           "answer": "D",
           "solution": ""
@@ -201,7 +201,7 @@
           "body": "<p>记 $S_{n}$ 为等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和. 已知 $S_{9}=-a_{5}$.</p><ol class=\"enumerate\"><li><p>若 $a_{3}=4$，求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若 $a_{1}>0$，求使得 $S_{n}\\ge a_{n}$ 的 $n$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的首项为 $a_{1}$，公差为 $d$. 由等差数列的前 $n$ 项和公式，</p>\n$$\nS_{9}=\\frac{9}{2}(2a_{1}+8d)=9a_{1}+36d\n$$\n<p>且 $a_{5}=a_{1}+4d$. 代入已知条件 $S_{9}=-a_{5}$，得</p>\n$$\n9a_{1}+36d=-(a_{1}+4d)\n$$\n<p>即 $a_{1}+4d=0$. 又因为 $a_{3}=a_{1}+2d=4$，所以</p><p>$a_{1}=-4d$，$-4d+2d=4$，</p><p>解得 $d=-2$，$a_{1}=8$. 因而</p>\n$$\na_{n}=a_{1}+(n-1)d=8-2(n-1)=10-2n\n$$\n</li><li><p>由 $a_{1}+4d=0$ 和 $a_{1}>0$，得 $d&#x3C;0$. 于是</p><p>$S_{n}=\\frac{n}{2}\\bigl(2a_{1}+(n-1)d\\bigr)=\\frac{d}{2}n(n-9)$，$a_{n}=a_{1}+(n-1)d=(n-5)d$.</p><p>因此</p>\n$$\nS_{n}\\ge a_{n}  \\iff \\frac{d}{2}n(n-9)\\ge d(n-5)\n$$\n<p>由于 $d&#x3C;0$，不等式同除以 $\\frac{d}{2}$ 时不等号改变方向，故</p>\n$$\nn(n-9)\\le2(n-5)  \\iff n^{2}-11n+10\\le0  \\iff (n-1)(n-10)\\le0\n$$\n<p>又 $n\\in\\mathbb{N}^{*}$，所以 $n$ 的取值范围为 $1\\le n\\le10$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的首项为 $a_{1}$，公差为 $d$. 由等差数列的前 $n$ 项和公式，</p>\n$$\nS_{9}=\\frac{9}{2}(2a_{1}+8d)=9a_{1}+36d\n$$\n<p>且 $a_{5}=a_{1}+4d$. 代入已知条件 $S_{9}=-a_{5}$，得</p>\n$$\n9a_{1}+36d=-(a_{1}+4d)\n$$\n<p>即 $a_{1}+4d=0$. 又因为 $a_{3}=a_{1}+2d=4$，所以</p><p>$a_{1}=-4d$，$-4d+2d=4$，</p><p>解得 $d=-2$，$a_{1}=8$. 因而</p>\n$$\na_{n}=a_{1}+(n-1)d=8-2(n-1)=10-2n\n$$\n</li><li><p>由 $a_{1}+4d=0$ 和 $a_{1}>0$，得 $d<0$. 于是</p><p>$S_{n}=\\frac{n}{2}\\bigl(2a_{1}+(n-1)d\\bigr)=\\frac{d}{2}n(n-9)$，$a_{n}=a_{1}+(n-1)d=(n-5)d$.</p><p>因此</p>\n$$\nS_{n}\\ge a_{n}  \\iff \\frac{d}{2}n(n-9)\\ge d(n-5)\n$$\n<p>由于 $d<0$，不等式同除以 $\\frac{d}{2}$ 时不等号改变方向，故</p>\n$$\nn(n-9)\\le2(n-5)  \\iff n^{2}-11n+10\\le0  \\iff (n-1)(n-10)\\le0\n$$\n<p>又 $n\\in\\mathbb{N}^{*}$，所以 $n$ 的取值范围为 $1\\le n\\le10$.</p></li></ol>"
         },
         {
           "num": 19,
@@ -215,7 +215,7 @@
           "body": "<p>已知函数 $f(x)=2\\sin x-x\\cos x-x$，$f'(x)$ 为 $f(x)$ 的导数.</p><ol class=\"enumerate\"><li><p>证明：$f'(x)$ 在区间 $(0,\\pi)$ 存在唯一零点；</p></li><li><p>若 $x\\in [0,\\pi]$ 时，$f(x)\\ge ax$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>求导得</p>\n$$\nf'(x)=2\\cos x-\\bigl(\\cos x-x\\sin x\\bigr)-1=x\\sin x+\\cos x-1\n$$\n<p>令 $g(x)=f'(x)$，则</p>\n$$\ng'(x)=x\\cos x\n$$\n<p>在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，$g'(x)>0$，且 $g(0)=0$，所以 $g(x)>0$. 在 $\\left(\\frac{\\pi}{2},\\pi\\right)$ 上，$g'(x)&#x3C;0$，又</p><p>$g\\left(\\frac{\\pi}{2}\\right)=\\frac{\\pi}{2}-1>0$，$g(\\pi)=-2&#x3C;0$.</p><p>由连续函数零点存在定理，$g(x)$ 在 $\\left(\\frac{\\pi}{2},\\pi\\right)$ 上至少有一个零点；由其在该区间上严格递减，零点至多有一个. 因此 $f'(x)$ 在 $(0,\\pi)$ 上存在唯一零点.</p></li><li><p>对 $x\\in[0,\\pi]$，有</p>\n$$\nf(x)=2\\sin x-x(1+\\cos x)\n$$\n<p>当 $0\\le x&#x3C;\\pi$ 时，令 $u=\\dfrac{x}{2}$，则</p>\n$$\nf(x)=2\\cos u\\bigl(2\\sin u-x\\cos u\\bigr)=4\\cos^{2}u\\bigl(\\tan u-u\\bigr)\n$$\n<p>又因为 $0\\le u&#x3C;\\dfrac\\pi2$，且</p><p>$(\\tan u-u)'=\\tan^{2}u\\ge0$，$\\tan0-0=0$，</p><p>所以 $\\tan u-u\\ge0$，从而 $f(x)\\ge0$. 当 $x=\\pi$ 时，$f(\\pi)=0$，故在整个区间 $[0,\\pi]$ 上均有 $f(x)\\ge0$.</p><p>若 $a\\le0$，则因 $x\\ge0$，有 $ax\\le0$，从而 $f(x)\\ge0\\ge ax$. 反之，令 $x=\\pi$，由 $f(\\pi)=0\\ge a\\pi$ 可得 $a\\le0$. 因此 $a$ 的取值范围为 $(-\\infty,0]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>求导得</p>\n$$\nf'(x)=2\\cos x-\\bigl(\\cos x-x\\sin x\\bigr)-1=x\\sin x+\\cos x-1\n$$\n<p>令 $g(x)=f'(x)$，则</p>\n$$\ng'(x)=x\\cos x\n$$\n<p>在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，$g'(x)>0$，且 $g(0)=0$，所以 $g(x)>0$. 在 $\\left(\\frac{\\pi}{2},\\pi\\right)$ 上，$g'(x)<0$，又</p><p>$g\\left(\\frac{\\pi}{2}\\right)=\\frac{\\pi}{2}-1>0$，$g(\\pi)=-2<0$.</p><p>由连续函数零点存在定理，$g(x)$ 在 $\\left(\\frac{\\pi}{2},\\pi\\right)$ 上至少有一个零点；由其在该区间上严格递减，零点至多有一个. 因此 $f'(x)$ 在 $(0,\\pi)$ 上存在唯一零点.</p></li><li><p>对 $x\\in[0,\\pi]$，有</p>\n$$\nf(x)=2\\sin x-x(1+\\cos x)\n$$\n<p>当 $0\\le x<\\pi$ 时，令 $u=\\dfrac{x}{2}$，则</p>\n$$\nf(x)=2\\cos u\\bigl(2\\sin u-x\\cos u\\bigr)=4\\cos^{2}u\\bigl(\\tan u-u\\bigr)\n$$\n<p>又因为 $0\\le u<\\dfrac\\pi2$，且</p><p>$(\\tan u-u)'=\\tan^{2}u\\ge0$，$\\tan0-0=0$，</p><p>所以 $\\tan u-u\\ge0$，从而 $f(x)\\ge0$. 当 $x=\\pi$ 时，$f(\\pi)=0$，故在整个区间 $[0,\\pi]$ 上均有 $f(x)\\ge0$.</p><p>若 $a\\le0$，则因 $x\\ge0$，有 $ax\\le0$，从而 $f(x)\\ge0\\ge ax$. 反之，令 $x=\\pi$，由 $f(\\pi)=0\\ge a\\pi$ 可得 $a\\le0$. 因此 $a$ 的取值范围为 $(-\\infty,0]$.</p></li></ol>"
         },
         {
           "num": 21,

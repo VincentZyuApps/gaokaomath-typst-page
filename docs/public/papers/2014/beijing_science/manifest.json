@@ -53,7 +53,7 @@
             "$840$"
           ],
           "answer": "C",
-          "solution": "初始时 $k=7$，$S=1$，判断条件为 $k&#x3C;7-3+1=5$. 第一次判断时 $7&#x3C;5$ 不成立，执行 $S\\leftarrow S\\cdot k$，得 $S=7$，再令 $k\\leftarrow k-1=6$. 随后同理依次乘以 $6$ 和 $5$，得到 $S=1\\times7\\times6\\times5=210$，此时 $k=4&#x3C;5$，程序输出 $210$，所以选择 C."
+          "solution": "初始时 $k=7$，$S=1$，判断条件为 $k<7-3+1=5$. 第一次判断时 $7<5$ 不成立，执行 $S\\leftarrow S\\cdot k$，得 $S=7$，再令 $k\\leftarrow k-1=6$. 随后同理依次乘以 $6$ 和 $5$，得到 $S=1\\times7\\times6\\times5=210$，此时 $k=4<5$，程序输出 $210$，所以选择 C."
         },
         {
           "num": 5,
@@ -77,7 +77,7 @@
             "$-\\frac{1}{2}$"
           ],
           "answer": "D",
-          "solution": "<p>先说明 $k=-\\frac{1}{2}$ 时确实满足条件. 此时约束为 $y\\geqslant2-x$、$y\\leqslant2-\\frac{x}{2}$、$y\\geqslant0$. 结合 $y\\geqslant0$ 与 $y\\leqslant2-\\frac{x}{2}$，得 $x\\leqslant4$，从而</p><p>$z=y-x\\ge-x\\ge-4$. 点 $(4,0)$ 满足三个约束，且 $z=-4$，所以最小值为 $-4$.</p><p>再证 $k$ 唯一. 若 $k\\geqslant0$，取 $y=0$ 且任意 $x>4$，三个约束均可满足，$z=-x&#x3C;-4$. 若 $-\\frac{1}{2}&#x3C;k&#x3C;0$，则 $-\\frac{2}{k}>4$，取 $4&#x3C;x&#x3C;-\\frac{2}{k}$、$y=0$，也有 $kx+2>0$，因而 $z=-x&#x3C;-4$. 若 $k&#x3C;-\\frac{1}{2}$，由 $y\\geqslant0$ 和 $kx-y+2\\geqslant0$ 得 $x\\le-\\frac{2}{k}&#x3C;4$，所以 $z=y-x>-4$，不可能以 $-4$ 为最小值. 故 $k=-\\frac{1}{2}$，选择 D.</p>"
+          "solution": "<p>先说明 $k=-\\frac{1}{2}$ 时确实满足条件. 此时约束为 $y\\geqslant2-x$、$y\\leqslant2-\\frac{x}{2}$、$y\\geqslant0$. 结合 $y\\geqslant0$ 与 $y\\leqslant2-\\frac{x}{2}$，得 $x\\leqslant4$，从而</p><p>$z=y-x\\ge-x\\ge-4$. 点 $(4,0)$ 满足三个约束，且 $z=-4$，所以最小值为 $-4$.</p><p>再证 $k$ 唯一. 若 $k\\geqslant0$，取 $y=0$ 且任意 $x>4$，三个约束均可满足，$z=-x<-4$. 若 $-\\frac{1}{2}<k<0$，则 $-\\frac{2}{k}>4$，取 $4<x<-\\frac{2}{k}$、$y=0$，也有 $kx+2>0$，因而 $z=-x<-4$. 若 $k<-\\frac{1}{2}$，由 $y\\geqslant0$ 和 $kx-y+2\\geqslant0$ 得 $x\\le-\\frac{2}{k}<4$，所以 $z=y-x>-4$，不可能以 $-4$ 为最小值. 故 $k=-\\frac{1}{2}$，选择 D.</p>"
         },
         {
           "num": 7,
@@ -127,14 +127,14 @@
           "body": "设双曲线 $C$ 经过点 $(2,2)$，且与 $\\frac{y^{2}}{4}-x^{2}=1$ 具有相同渐近线，则 $C$ 的方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；渐近线方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{x^{2}}{3}-\\frac{y^{2}}{12}=1$；$y=\\pm2x$",
-          "solution": "<p>原双曲线可写为 $\\frac{y^{2}}{4}-x^{2}=1$，其渐近线为 $y=\\pm2x$. 若所求双曲线的实轴在 $y$ 轴上，则其方程可写为 $\\frac{y^{2}}{4a^{2}}-\\frac{x^{2}}{a^{2}}=1$，代入 $(2,2)$ 后左端为 $-\\frac{3}{a^{2}}&#x3C;0$，不可能等于 $1$. 因此所求双曲线的实轴在 $x$ 轴上，与这两条渐近线相同的标准方程为</p>\n$$\n\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{4a^{2}}=1\n$$\n<p>代入点 $(2,2)$，得 $\\frac{4}{a^{2}}-\\frac{4}{4a^{2}}=1$，即 $\\frac{3}{a^{2}}=1$，所以 $a^{2}=3$. 因此双曲线方程为 $\\frac{x^{2}}{3}-\\frac{y^{2}}{12}=1$，渐近线方程为 $y=\\pm2x$.</p>"
+          "solution": "<p>原双曲线可写为 $\\frac{y^{2}}{4}-x^{2}=1$，其渐近线为 $y=\\pm2x$. 若所求双曲线的实轴在 $y$ 轴上，则其方程可写为 $\\frac{y^{2}}{4a^{2}}-\\frac{x^{2}}{a^{2}}=1$，代入 $(2,2)$ 后左端为 $-\\frac{3}{a^{2}}<0$，不可能等于 $1$. 因此所求双曲线的实轴在 $x$ 轴上，与这两条渐近线相同的标准方程为</p>\n$$\n\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{4a^{2}}=1\n$$\n<p>代入点 $(2,2)$，得 $\\frac{4}{a^{2}}-\\frac{4}{4a^{2}}=1$，即 $\\frac{3}{a^{2}}=1$，所以 $a^{2}=3$. 因此双曲线方程为 $\\frac{x^{2}}{3}-\\frac{y^{2}}{12}=1$，渐近线方程为 $y=\\pm2x$.</p>"
         },
         {
           "num": 12,
-          "body": "若等差数列 $\\{a_{n}\\}$ 满足 $a_{7}+ a_{8}+ a_{9}> 0$，$a_{7}+ a_{10}&#x3C; 0$，则当 $n =\\underline{\\hspace{2.5em}}{}$ 时，$\\{a_{n}\\}$ 的前 $n$ 项和最大.",
+          "body": "若等差数列 $\\{a_{n}\\}$ 满足 $a_{7}+ a_{8}+ a_{9}> 0$，$a_{7}+ a_{10}< 0$，则当 $n =\\underline{\\hspace{2.5em}}{}$ 时，$\\{a_{n}\\}$ 的前 $n$ 项和最大.",
           "choices": null,
           "answer": "$8$",
-          "solution": "<p>设等差数列的公差为 $d$. 由 $a_{7}+a_{8}+a_{9}=3a_{8}>0$，得 $a_{8}>0$. 又</p>\n$$\na_{7}+a_{10}=(a_{8}-d)+(a_{8}+2d)=2a_{8}+d&#x3C;0\n$$\n<p>所以 $d&#x3C;-2a_{8}&#x3C;0$，从而 $a_{9}=a_{8}+d&#x3C;-a_{8}&#x3C;0$.</p><p>由于 $d&#x3C;0$，数列递减，且 $a_{8}>0$，所以 $a_{1}$，$a_{2}$，$\\ldots$，$a_{8}$ 均为正数；又因 $a_{9}&#x3C;0$，所以 $a_{9}$，$a_{10}$，$\\ldots$ 均为负数. 前 $n$ 项和满足 $S_{n}-S_{n-1}=a_{n}$，故 $S_{1}&#x3C;S_{2}&#x3C;\\cdots&#x3C;S_{8}$，且 $S_{8}>S_{9}>S_{10}>\\cdots$. 因此前 $n$ 项和最大时 $n=8$.</p>"
+          "solution": "<p>设等差数列的公差为 $d$. 由 $a_{7}+a_{8}+a_{9}=3a_{8}>0$，得 $a_{8}>0$. 又</p>\n$$\na_{7}+a_{10}=(a_{8}-d)+(a_{8}+2d)=2a_{8}+d<0\n$$\n<p>所以 $d<-2a_{8}<0$，从而 $a_{9}=a_{8}+d<-a_{8}<0$.</p><p>由于 $d<0$，数列递减，且 $a_{8}>0$，所以 $a_{1}$，$a_{2}$，$\\ldots$，$a_{8}$ 均为正数；又因 $a_{9}<0$，所以 $a_{9}$，$a_{10}$，$\\ldots$ 均为负数. 前 $n$ 项和满足 $S_{n}-S_{n-1}=a_{n}$，故 $S_{1}<S_{2}<\\cdots<S_{8}$，且 $S_{8}>S_{9}>S_{10}>\\cdots$. 因此前 $n$ 项和最大时 $n=8$.</p>"
         },
         {
           "num": 13,
@@ -148,7 +148,7 @@
           "body": "设函数 $f(x) = A \\sin (\\omega x + \\varphi)$ （$A$，$\\omega$，$\\varphi$ 是常数，$A > 0$，$\\omega > 0$）. 若 $f(x)$ 在区间 $\\left[\\frac{\\pi}{6}, \\frac{\\pi}{2}\\right]$ 上具有单调性，且 $f\\left(\\frac{\\pi}{2}\\right) = f\\left(\\frac{2\\pi}{3}\\right) = -f\\left(\\frac{\\pi}{6}\\right)$，则 $f(x)$ 的最小正周期为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\pi$",
-          "solution": "<p>令 $t=\\frac{\\omega\\pi}{6}>0$，$u=\\frac{\\omega\\pi}{6}+\\varphi$. 题设等式化为</p>\n$$\n\\sin(u+2t)=\\sin(u+3t)=-\\sin u\n$$\n<p>正弦函数在长度超过 $\\pi$ 的区间上不具有单调性，而相位区间的长度为 $2t$，故 $2t\\le\\pi$，即 $0&#x3C;t\\le\\frac{\\pi}{2}$. 于是 $\\sin\\frac{t}{2}>0$，由前两个正弦相等得</p>\n$$\n\\cos\\left(u+\\frac{5t}{2}\\right)=0\n$$\n<p>又由 $\\sin(u+2t)=-\\sin u$ 得</p>\n$$\n2\\sin(u+t)\\cos t=0\n$$\n<p>若 $\\cos t=0$，由 $0&#x3C;t\\le\\frac{\\pi}{2}$ 得 $t=\\frac{\\pi}{2}$. 此时前面的余弦条件给出 $u=-\\frac{3\\pi}{4}+j\\pi$（$j\\in\\mathbb{Z}$），区间 $[u,u+\\pi]$ 内含有极值点 $j\\pi-\\frac{\\pi}{2}$，且该点两侧正弦函数的单调方向相反，与题设矛盾. 因此 $\\sin(u+t)=0$，即存在 $j\\in\\mathbb{Z}$ 使 $u+t=j\\pi$. 代入余弦条件得</p>\n$$\n\\cos\\left(j\\pi+\\frac{3t}{2}\\right)=0\n$$\n<p>由此 $t=\\frac{(2r+1)\\pi}{3}$，其中 $r\\in\\mathbb{Z}$.</p><p>结合 $0&#x3C;t\\le\\frac{\\pi}{2}$ 和 $t>0$，可知 $r=0$，故 $t=\\frac{\\pi}{3}$. 于是 $\\omega=2$，所以 $f(x)$ 的最小正周期为 $\\frac{2\\pi}{\\omega}=\\pi$.</p>"
+          "solution": "<p>令 $t=\\frac{\\omega\\pi}{6}>0$，$u=\\frac{\\omega\\pi}{6}+\\varphi$. 题设等式化为</p>\n$$\n\\sin(u+2t)=\\sin(u+3t)=-\\sin u\n$$\n<p>正弦函数在长度超过 $\\pi$ 的区间上不具有单调性，而相位区间的长度为 $2t$，故 $2t\\le\\pi$，即 $0<t\\le\\frac{\\pi}{2}$. 于是 $\\sin\\frac{t}{2}>0$，由前两个正弦相等得</p>\n$$\n\\cos\\left(u+\\frac{5t}{2}\\right)=0\n$$\n<p>又由 $\\sin(u+2t)=-\\sin u$ 得</p>\n$$\n2\\sin(u+t)\\cos t=0\n$$\n<p>若 $\\cos t=0$，由 $0<t\\le\\frac{\\pi}{2}$ 得 $t=\\frac{\\pi}{2}$. 此时前面的余弦条件给出 $u=-\\frac{3\\pi}{4}+j\\pi$（$j\\in\\mathbb{Z}$），区间 $[u,u+\\pi]$ 内含有极值点 $j\\pi-\\frac{\\pi}{2}$，且该点两侧正弦函数的单调方向相反，与题设矛盾. 因此 $\\sin(u+t)=0$，即存在 $j\\in\\mathbb{Z}$ 使 $u+t=j\\pi$. 代入余弦条件得</p>\n$$\n\\cos\\left(j\\pi+\\frac{3t}{2}\\right)=0\n$$\n<p>由此 $t=\\frac{(2r+1)\\pi}{3}$，其中 $r\\in\\mathbb{Z}$.</p><p>结合 $0<t\\le\\frac{\\pi}{2}$ 和 $t>0$，可知 $r=0$，故 $t=\\frac{\\pi}{3}$. 于是 $\\omega=2$，所以 $f(x)$ 的最小正周期为 $\\frac{2\\pi}{\\omega}=\\pi$.</p>"
         }
       ]
     },
@@ -178,10 +178,10 @@
         },
         {
           "num": 18,
-          "body": "<p>已知函数 $f(x) = x\\cos x - \\sin x$，$x \\in \\left[0, \\frac{\\pi}{2}\\right]$.</p><ol class=\"enumerate\"><li><p>求证：$f(x) \\le 0$.</p></li><li><p>若 $a &#x3C; \\frac{\\sin x}{x}&#x3C; b$ 在 $\\left(0, \\frac{\\pi}{2}\\right)$ 上恒成立，求 $a$ 的最大值与 $b$ 的最小值.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = x\\cos x - \\sin x$，$x \\in \\left[0, \\frac{\\pi}{2}\\right]$.</p><ol class=\"enumerate\"><li><p>求证：$f(x) \\le 0$.</p></li><li><p>若 $a < \\frac{\\sin x}{x}< b$ 在 $\\left(0, \\frac{\\pi}{2}\\right)$ 上恒成立，求 $a$ 的最大值与 $b$ 的最小值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=\\cos x-x\\sin x-\\cos x=-x\\sin x\\leqslant0$（$0\\le x\\le\\frac{\\pi}{2}$），且在 $0&#x3C;x&#x3C;\\frac{\\pi}{2}$ 时 $f'(x)&#x3C;0$. 所以 $f(x)$ 在该区间上递减，并且对 $x>0$ 有 $f(x)&#x3C;f(0)=0$，从而 $f(x)\\leqslant0$.</p></li><li><p>令 $g(x)=\\frac{\\sin x}{x}$，则 $g'(x)=\\frac{x\\cos x-\\sin x}{x^{2}}=\\frac{f(x)}{x^{2}}&#x3C;0$（$0&#x3C;x&#x3C;\\frac{\\pi}{2}$），</p><p>所以 $g(x)$ 在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上严格递减. 于是</p><p>又 $\\displaystyle\\lim_{x\\to0^+}g(x)=1$，$\\displaystyle\\lim_{x\\to(\\frac{\\pi}{2})^-}g(x)=\\frac{2}{\\pi}$，</p><p>从而 $\\frac{2}{\\pi}&#x3C;\\frac{\\sin x}{x}&#x3C;1$. 因此 $a=\\frac{2}{\\pi}$ 时左侧严格不等式恒成立，且任何更大的 $a$ 都不可能成立；$b=1$ 时右侧严格不等式恒成立，且任何更小的 $b$ 都不可能成立. 故 $a$ 的最大值为 $\\frac{2}{\\pi}$，$b$ 的最小值为 $1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=\\cos x-x\\sin x-\\cos x=-x\\sin x\\leqslant0$（$0\\le x\\le\\frac{\\pi}{2}$），且在 $0<x<\\frac{\\pi}{2}$ 时 $f'(x)<0$. 所以 $f(x)$ 在该区间上递减，并且对 $x>0$ 有 $f(x)<f(0)=0$，从而 $f(x)\\leqslant0$.</p></li><li><p>令 $g(x)=\\frac{\\sin x}{x}$，则 $g'(x)=\\frac{x\\cos x-\\sin x}{x^{2}}=\\frac{f(x)}{x^{2}}<0$（$0<x<\\frac{\\pi}{2}$），</p><p>所以 $g(x)$ 在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上严格递减. 于是</p><p>又 $\\displaystyle\\lim_{x\\to0^+}g(x)=1$，$\\displaystyle\\lim_{x\\to(\\frac{\\pi}{2})^-}g(x)=\\frac{2}{\\mathrm{e}}$，</p><p>从而 $\\frac{2}{\\mathrm{e}}<\\frac{\\sin x}{x}<1$. 因此 $a=\\frac{2}{\\mathrm{e}}$ 时左侧严格不等式恒成立，且任何更大的 $a$ 都不可能成立；$b=1$ 时右侧严格不等式恒成立，且任何更小的 $b$ 都不可能成立. 故 $a$ 的最大值为 $\\frac{2}{\\mathrm{e}}$，$b$ 的最小值为 $1$.</p></li></ol>"
         },
         {
           "num": 19,

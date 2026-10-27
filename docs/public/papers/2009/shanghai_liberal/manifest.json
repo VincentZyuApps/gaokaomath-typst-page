@@ -23,17 +23,17 @@
         },
         {
           "num": 3,
-          "body": "若行列式 $\\begin{vmatrix}4 &#x26; 5 &#x26; x \\\\ 1 &#x26; x &#x26; 3 \\\\ 7 &#x26; 8 &#x26; 9\\end{vmatrix}$ 中，元素 $4$ 的代数余子式大于 $0$，则 $x$ 满足的条件是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "若行列式 $\\begin{vmatrix}4 & 5 & x \\\\ 1 & x & 3 \\\\ 7 & 8 & 9\\end{vmatrix}$ 中，元素 $4$ 的代数余子式大于 $0$，则 $x$ 满足的条件是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$x > \\frac{8}{3}$.",
-          "solution": "<p>元素 $4$ 位于第 $1$ 行第 $1$ 列，其代数余子式为</p>\n$$\nA_{11}=(-1)^{1+1}\\begin{vmatrix}x&#x26;3\\\\8&#x26;9\\end{vmatrix}=9x-24\n$$\n<p>由 $A_{11}>0$，得 $9x-24>0$，所以 $x>\\frac{8}{3}$，故填 $x>\\frac{8}{3}$.</p>"
+          "solution": "<p>元素 $4$ 位于第 $1$ 行第 $1$ 列，其代数余子式为</p>\n$$\nA_{11}=(-1)^{1+1}\\begin{vmatrix}x&3\\\\8&9\\end{vmatrix}=9x-24\n$$\n<p>由 $A_{11}>0$，得 $9x-24>0$，所以 $x>\\frac{8}{3}$，故填 $x>\\frac{8}{3}$.</p>"
         },
         {
           "num": 4,
           "body": "<p>某算法的程序框图如图所示，则输出量 $y$ 与输入量 $x$ 满足的关系式是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
-          "answer": "$y = \\begin{cases}x-2,&#x26;x>1,\\\\  2^{x},&#x26;x\\le 1.\\end{cases}$",
-          "solution": "<p>程序先判断 $x>1$. 当 $x>1$ 时，沿“是”分支执行 $y\\leftarrow x-2$；当 $x\\leqslant1$ 时，沿“否”分支执行 $y\\leftarrow2^{x}$. 因此</p>\n$$\ny=\\begin{cases}x-2,&#x26;x>1,\\\\  2^{x},&#x26;x\\leqslant1.\\end{cases}\n$$"
+          "answer": "$y = \\begin{cases}x-2,&x>1,\\\\  2^{x},&x\\le 1.\\end{cases}$",
+          "solution": "<p>程序先判断 $x>1$. 当 $x>1$ 时，沿“是”分支执行 $y\\leftarrow x-2$；当 $x\\leqslant1$ 时，沿“否”分支执行 $y\\leftarrow2^{x}$. 因此</p>\n$$\ny=\\begin{cases}x-2,&x>1,\\\\  2^{x},&x\\leqslant1.\\end{cases}\n$$"
         },
         {
           "num": 5,
@@ -96,14 +96,14 @@
           "body": "已知函数 $f(x) = \\sin x + \\tan x$. 项数为 $27$ 的等差数列 $\\{a_{n}\\}$ 满足 $a_{n} \\in \\left( -\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$，且公差 $d \\neq 0$. 若 $f(a_{1}) + f(a_{2}) + \\cdots + f(a_{27}) = 0$，则当 $k =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 时，$f(a_{k}) = 0$.",
           "choices": null,
           "answer": "$14$.",
-          "solution": "<p>在区间 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 内，</p>\n$$\nf'(x)=\\cos x+\\sec^{2}x>0\n$$\n<p>所以 $f$ 严格递增，且 $f$ 为奇函数. 记等差数列的中项为 $a_{14}$. 若 $a_{14}=0$，则 $a_{14-j}=-a_{14+j}$，成对项的函数值相反，故总和为 $0$. 反之，令 $h=|d|$. 若 $a_{14}>0$，对每个 $j=1$，$\\ldots$，$13$，数 $a_{14-j}$ 与 $a_{14+j}$ 可写成 $a_{14}-jh$ 与 $a_{14}+jh$ 的顺序交换. 若 $a_{14}-jh\\geqslant0$，两项函数值均非负且后一项更大；若 $a_{14}-jh&#x3C;0$，则 $a_{14}+jh>-(a_{14}-jh)>0$，由奇函数性和严格递增性仍有</p>\n$$\nf(a_{14}-jh)+f(a_{14}+jh)>0\n$$\n<p>再加上 $f(a_{14})>0$，总和大于 $0$. 若 $a_{14}&#x3C;0$，令 $t=-a_{14}>0$. 对每个 $j=1$，$\\ldots$，$13$，由 $f$ 为奇函数，</p>\n$$\nf(a_{14}-jh)+f(a_{14}+jh)  =-f(t+jh)-f(t-jh)\n$$\n<p>这里 $t+jh>-(t-jh)$，且 $f$ 严格递增、$f$ 为奇函数，所以 $f(t-jh)+f(t+jh)>0$，上述和确实小于 $0$.</p><p>且 $f(a_{14})&#x3C;0$，所以总和小于 $0$. 因题设总和为 $0$，必有 $a_{14}=0$，从而 $f(a_{14})=f(0)=0$. 故 $k=14$.</p>"
+          "solution": "<p>在区间 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 内，</p>\n$$\nf'(x)=\\cos x+\\sec^{2}x>0\n$$\n<p>所以 $f$ 严格递增，且 $f$ 为奇函数. 记等差数列的中项为 $a_{14}$. 若 $a_{14}=0$，则 $a_{14-j}=-a_{14+j}$，成对项的函数值相反，故总和为 $0$. 反之，令 $h=|d|$. 若 $a_{14}>0$，对每个 $j=1$，$\\ldots$，$13$，数 $a_{14-j}$ 与 $a_{14+j}$ 可写成 $a_{14}-jh$ 与 $a_{14}+jh$ 的顺序交换. 若 $a_{14}-jh\\geqslant0$，两项函数值均非负且后一项更大；若 $a_{14}-jh<0$，则 $a_{14}+jh>-(a_{14}-jh)>0$，由奇函数性和严格递增性仍有</p>\n$$\nf(a_{14}-jh)+f(a_{14}+jh)>0\n$$\n<p>再加上 $f(a_{14})>0$，总和大于 $0$. 若 $a_{14}<0$，令 $t=-a_{14}>0$. 对每个 $j=1$，$\\ldots$，$13$，由 $f$ 为奇函数，</p>\n$$\nf(a_{14}-jh)+f(a_{14}+jh)  =-f(t+jh)-f(t-jh)\n$$\n<p>这里 $t+jh>-(t-jh)$，且 $f$ 严格递增、$f$ 为奇函数，所以 $f(t-jh)+f(t+jh)>0$，上述和确实小于 $0$.</p><p>且 $f(a_{14})<0$，所以总和小于 $0$. 因题设总和为 $0$，必有 $a_{14}=0$，从而 $f(a_{14})=f(0)=0$. 故 $k=14$.</p>"
         },
         {
           "num": 14,
           "body": "某地街道呈现东—西，南—北向的网格状，相邻街距都为 $1$，两街道相交的点称为格点. 若以互相垂直的两条街道为轴建立直角坐标系，现有下述格点 $(-2, 2)$，$(3, 1)$，$(3, 4)$，$(-2, 3)$，$(4, 5)$ 为报刊零售点. 请确定一个格点为发行站，使 $5$ 个零售点沿街道到发行站之间路程的和最短，发行站为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(3,3)$.",
-          "solution": "<p>发行站为格点 $(x,y)$ 时，总路程为</p>\n$$\n\\begin{aligned}T(x,y)={}&#x26;|x+2|+|x-3|+|x-3|+|x+2|+|x-4|\\\\&#x26;+|y-2|+|y-1|+|y-4|+|y-3|+|y-5|.\\end{aligned}\n$$\n<p>横坐标部分在数据 $(-2,-2,3,3,4)$ 的中位数 $3$ 处取最小值，纵坐标部分在数据 $(1,2,3,4,5)$ 的中位数 $3$ 处取最小值. 因此总路程在格点 $(3,3)$ 处取最小值，故发行站为 $(3,3)$.</p>"
+          "solution": "<p>发行站为格点 $(x,y)$ 时，总路程为</p>\n$$\n\\begin{aligned}T(x,y)={}&|x+2|+|x-3|+|x-3|+|x+2|+|x-4|\\\\&+|y-2|+|y-1|+|y-4|+|y-3|+|y-5|.\\end{aligned}\n$$\n<p>横坐标部分在数据 $(-2,-2,3,3,4)$ 的中位数 $3$ 处取最小值，纵坐标部分在数据 $(1,2,3,4,5)$ 的中位数 $3$ 处取最小值. 因此总路程在格点 $(3,3)$ 处取最小值，故发行站为 $(3,3)$.</p>"
         }
       ]
     },
@@ -165,21 +165,21 @@
       "problems": [
         {
           "num": 19,
-          "body": "已知复数 $z = a + b\\mathrm{i}$（$a$，$b \\in \\mathbb{R}^{+}$）（$\\mathrm{i}$ 是虚数单位）是方程 $x^{2} - 4x + 5 = 0$ 的根. 复数 $w = u + 3\\mathrm{i}$（$u \\in \\mathbb{R}$）满足 $|w - z| &#x3C; 2\\sqrt{5}$，求 $u$ 的取值范围.",
+          "body": "已知复数 $z = a + b\\mathrm{i}$（$a$，$b \\in \\mathbb{R}^{+}$）（$\\mathrm{i}$ 是虚数单位）是方程 $x^{2} - 4x + 5 = 0$ 的根. 复数 $w = u + 3\\mathrm{i}$（$u \\in \\mathbb{R}$）满足 $|w - z| < 2\\sqrt{5}$，求 $u$ 的取值范围.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由</p>\n$$\nz^{2}-4z+5=0\\iff (z-2)^{2}+1=0\n$$\n<p>得方程的两个根为 $2+\\mathrm{i}$ 和 $2-\\mathrm{i}$. 由 $a$，$b\\in\\mathbb{R}^{+}$，题设中的根满足 $z=2+\\mathrm{i}$. 于是</p>\n$$\nw-z=(u+3\\mathrm{i})-(2+\\mathrm{i})=(u-2)+2\\mathrm{i}\n$$\n<p>从而</p>\n$$\n|w-z|^{2}=(u-2)^{2}+4&#x3C;\\left(2\\sqrt{5}\\right)^{2}=20\n$$\n<p>因此 $(u-2)^{2}&#x3C;16$，即 $-4&#x3C;u-2&#x3C;4$，所以</p>\n$$\n-2&#x3C;u&#x3C;6\n$$"
+          "solution": "<p>由</p>\n$$\nz^{2}-4z+5=0\\iff (z-2)^{2}+1=0\n$$\n<p>得方程的两个根为 $2+\\mathrm{i}$ 和 $2-\\mathrm{i}$. 由 $a$，$b\\in\\mathbb{R}^{+}$，题设中的根满足 $z=2+\\mathrm{i}$. 于是</p>\n$$\nw-z=(u+3\\mathrm{i})-(2+\\mathrm{i})=(u-2)+2\\mathrm{i}\n$$\n<p>从而</p>\n$$\n|w-z|^{2}=(u-2)^{2}+4<\\left(2\\sqrt{5}\\right)^{2}=20\n$$\n<p>因此 $(u-2)^{2}<16$，即 $-4<u-2<4$，所以</p>\n$$\n-2<u<6\n$$"
         },
         {
           "num": 20,
           "body": "<p>已知 $\\triangle ABC$ 的角 $A$，$B$，$C$ 所对的边分别是 $a$，$b$，$c$，设向量 $\\mathbf{m}= (a, b)$，$\\mathbf{n}= (\\sin B, \\sin A)$，$\\mathbf{p}= (b - 2, a - 2)$.</p><ol class=\"enumerate\"><li><p>若 $\\mathbf{m}\\parallel \\mathbf{n}$，求证：$\\triangle ABC$ 为等腰三角形；</p></li><li><p>若 $\\mathbf{m}\\perp \\mathbf{p}$，边长 $c = 2$，角 $C = \\frac{\\pi}{3}$，求 $\\triangle ABC$ 的面积.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，存在外接圆半径 $R$，使</p><p>$a=2R\\sin A$，$b=2R\\sin B$.</p><p>向量平行给出</p>\n$$\n\\begin{vmatrix}a&#x26;b\\\\ \\sin B&#x26;\\sin A\\end{vmatrix}=0\n$$\n<p>即 $a\\sin A-b\\sin B=0$. 代入正弦定理，得</p>\n$$\n2R\\sin^{2}A=2R\\sin^{2}B,\\qquad\\text{所以}\\qquad \\sin^{2}A=\\sin^{2}B\n$$\n<p>因为 $A$，$B\\in(0,\\pi)$，故 $\\sin A$，$\\sin B>0$，从而 $\\sin A=\\sin B$. 于是 $A=B$ 或 $A+B=\\pi$. 后者将导致 $C=0$，不可能，故 $A=B$，进而 $a=b$，所以 $\\triangle ABC$ 为等腰三角形.</p></li><li><p>由 $\\mathbf{m}\\perp\\mathbf{p}$，得</p>\n$$\n\\mathbf{m}\\cdot\\mathbf{p}=a(b-2)+b(a-2)=0\n$$\n<p>即 $ab=a+b$. 又 $c=2$、$C=\\frac{\\pi}{3}$，由余弦定理</p>\n$$\n4=a^{2}+b^{2}-2ab\\cos\\frac{\\pi}{3}=a^{2}+b^{2}-ab\n$$\n<p>设 $s=a+b$，则 $ab=s$，所以</p><p>$4=s^{2}-3s$，$s^{2}-3s-4=0$.</p><p>由于 $s>0$，得 $s=4$. 因此三角形面积为</p>\n$$\nS=\\frac{1}{2}ab\\sin C=\\frac{1}{2}(a+b)\\sin\\frac{\\pi}{3}=\\frac{1}{2}\\cdot4\\cdot\\frac{\\sqrt{3}}{2}=\\sqrt{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，存在外接圆半径 $R$，使</p><p>$a=2R\\sin A$，$b=2R\\sin B$.</p><p>向量平行给出</p>\n$$\n\\begin{vmatrix}a&b\\\\ \\sin B&\\sin A\\end{vmatrix}=0\n$$\n<p>即 $a\\sin A-b\\sin B=0$. 代入正弦定理，得</p>\n$$\n2R\\sin^{2}A=2R\\sin^{2}B,\\qquad\\text{所以}\\qquad \\sin^{2}A=\\sin^{2}B\n$$\n<p>因为 $A$，$B\\in(0,\\pi)$，故 $\\sin A$，$\\sin B>0$，从而 $\\sin A=\\sin B$. 于是 $A=B$ 或 $A+B=\\pi$. 后者将导致 $C=0$，不可能，故 $A=B$，进而 $a=b$，所以 $\\triangle ABC$ 为等腰三角形.</p></li><li><p>由 $\\mathbf{m}\\perp\\mathbf{p}$，得</p>\n$$\n\\mathbf{m}\\cdot\\mathbf{p}=a(b-2)+b(a-2)=0\n$$\n<p>即 $ab=a+b$. 又 $c=2$、$C=\\frac{\\pi}{3}$，由余弦定理</p>\n$$\n4=a^{2}+b^{2}-2ab\\cos\\frac{\\pi}{3}=a^{2}+b^{2}-ab\n$$\n<p>设 $s=a+b$，则 $ab=s$，所以</p><p>$4=s^{2}-3s$，$s^{2}-3s-4=0$.</p><p>由于 $s>0$，得 $s=4$. 因此三角形面积为</p>\n$$\nS=\\frac{1}{2}ab\\sin C=\\frac{1}{2}(a+b)\\sin\\frac{\\pi}{3}=\\frac{1}{2}\\cdot4\\cdot\\frac{\\sqrt{3}}{2}=\\sqrt{3}\n$$\n</li></ol>"
         },
         {
           "num": 21,
-          "body": "<p>有时可用函数 $f(x) = \\begin{cases}0.1 + 15 \\ln \\frac{a}{a - x},&#x26;x \\le 6,\\\\  \\frac{x - 4.4}{x - 4},&#x26;x > 6,\\end{cases}$ 描述学习某学科知识的掌握程度，其中 $x$ 表示某学科知识的学习次数（$x \\in \\mathbf{N}^{*}$），$f(x)$ 表示对该学科知识的掌握程度，正实数 $a$ 与学科知识有关.</p><ol class=\"enumerate\"><li><p>证明：当 $x \\ge 7$ 时，掌握程度的增加量 $f(x + 1) - f(x)$ 总是下降；</p></li><li><p>根据经验，学科甲，乙，丙对应的 $a$ 的取值范围分别为 $(115, 121]$，$(121, 127]$，$(121, 133]$. 当学习某学科知识 $6$ 次时，掌握程度是 $85\\%$，请确定相应的学科.</p></li></ol>",
+          "body": "<p>有时可用函数 $f(x) = \\begin{cases}0.1 + 15 \\ln \\frac{a}{a - x},&x \\le 6,\\\\  \\frac{x - 4.4}{x - 4},&x > 6,\\end{cases}$ 描述学习某学科知识的掌握程度，其中 $x$ 表示某学科知识的学习次数（$x \\in \\mathbf{N}^{*}$），$f(x)$ 表示对该学科知识的掌握程度，正实数 $a$ 与学科知识有关.</p><ol class=\"enumerate\"><li><p>证明：当 $x \\ge 7$ 时，掌握程度的增加量 $f(x + 1) - f(x)$ 总是下降；</p></li><li><p>根据经验，学科甲，乙，丙对应的 $a$ 的取值范围分别为 $(115, 121]$，$(121, 127]$，$(121, 133]$. 当学习某学科知识 $6$ 次时，掌握程度是 $85\\%$，请确定相应的学科.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>当 $x\\geqslant7$ 时，$x$，$x+1>6$，故</p>\n$$\nf(x+1)-f(x)=\\frac{x-3.4}{x-3}-\\frac{x-4.4}{x-4}=\\frac{0.4}{(x-3)(x-4)}\n$$\n<p>对 $x\\geqslant7$，分母 $(x-3)(x-4)$ 随 $x$ 严格增大且为正，所以该增加量严格下降.</p></li><li><p>$f(6)=85\\%=0.85$，故</p><p>$0.1+15\\ln\\frac{a}{a-6}=0.85$，$\\ln\\frac{a}{a-6}=0.05$.</p><p>于是</p><p>$\\frac{a}{a-6}=\\mathrm{e}^{0.05}$，$a=\\frac{6\\mathrm{e}^{0.05}}{\\mathrm{e}^{0.05}-1}\\approx123.0$.</p><p>按原 PDF 的区间，学科乙为 $(121,127]$，学科丙为 $(121,133]$，故该 $a$ 同时属于乙、丙两类，结论为学科乙或丙.</p></li></ol>"
@@ -189,7 +189,7 @@
           "body": "<p>已知双曲线 $C$ 的中心是原点，右焦点为 $F(\\sqrt{3}, 0)$，一条渐近线 $m: x + \\sqrt{2}y = 0$，设过点 $A(-3\\sqrt{2}, 0)$ 的直线 $l$ 的方向向量 $\\mathbf{e}= (1, k)$.</p><ol class=\"enumerate\"><li><p>求双曲线 $C$ 的方程；</p></li><li><p>若过原点的直线 $a \\parallel l$，且 $a$ 与 $l$ 的距离为 $\\sqrt{6}$，求 $k$ 的值；</p></li><li><p>证明：当 $k > \\frac{\\sqrt{2}}{2}$ 时，在双曲线 $C$ 的右支上不存在点 $Q$，使之到直线 $l$ 的距离为 $\\sqrt{6}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设双曲线为</p><p>$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，$a$，$b>0$.</p><p>其右焦点横坐标满足 $c^{2}=a^{2}+b^{2}=3$. 渐近线斜率的绝对值为 $\\frac{b}{a}$，而 $x+\\sqrt{2}y=0$ 的斜率绝对值为 $\\frac{1}{\\sqrt{2}}$，所以 $b^{2}=\\frac{a^{2}}{2}$. 解得 $a^{2}=2$，$b^{2}=1$，故</p>\n$$\n\\frac{x^{2}}{2}-y^{2}=1\n$$\n</li><li><p>直线 $l$ 的方程为</p>\n$$\ny=k(x+3\\sqrt{2}),\\qquad\\text{即}\\qquad kx-y+3\\sqrt{2}k=0\n$$\n<p>过原点且平行于 $l$ 的直线为 $kx-y=0$，两平行线的距离为</p>\n$$\n\\frac{|3\\sqrt{2}k|}{\\sqrt{k^{2}+1}}=\\sqrt{6}\n$$\n<p>两边平方并化简，得 $18k^{2}=6(k^{2}+1)$，即 $k^{2}=\\frac{1}{2}$. 所以</p>\n$$\nk=\\pm\\frac{\\sqrt{2}}{2}\n$$\n</li><li><p>反设右支存在点 $Q(x,y)$ 满足到 $l$ 的距离为 $\\sqrt{6}$. 则</p>\n$$\n\\frac{|kx-y+3\\sqrt{2}k|}{\\sqrt{k^{2}+1}}=\\sqrt{6}\n$$\n<p>即存在</p>\n$$\nt=3\\sqrt{2}k\\pm\\sqrt{6(k^{2}+1)}\n$$\n<p>使 $y=kx+t$. 当 $k>\\frac{\\sqrt{2}}{2}$ 时，$t$ 的两个可能值都为正：加号对应的 $t=3\\sqrt{2}k+\\sqrt{6(k^{2}+1)}>0$；对减号，</p>\n$$\n3\\sqrt{2}k>\\sqrt{6(k^{2}+1)}\\iff 18k^{2}>6(k^{2}+1)\\iff k^{2}>\\frac{1}{2}\n$$\n<p>又因 $Q$ 在双曲线右支上，$x\\ge\\sqrt{2}$，故</p>\n$$\ny=kx+t>kx>\\frac{x}{\\sqrt{2}}\\geqslant1>0\n$$\n<p>但双曲线右支的上半支满足 $0\\le y=\\sqrt{\\frac{x^{2}}{2}-1}&#x3C;\\frac{x}{\\sqrt{2}}$，下半支满足 $y\\leqslant0$，均与上式矛盾. 因此不存在这样的点 $Q$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设双曲线为</p><p>$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，$a$，$b>0$.</p><p>其右焦点横坐标满足 $c^{2}=a^{2}+b^{2}=3$. 渐近线斜率的绝对值为 $\\frac{b}{a}$，而 $x+\\sqrt{2}y=0$ 的斜率绝对值为 $\\frac{1}{\\sqrt{2}}$，所以 $b^{2}=\\frac{a^{2}}{2}$. 解得 $a^{2}=2$，$b^{2}=1$，故</p>\n$$\n\\frac{x^{2}}{2}-y^{2}=1\n$$\n</li><li><p>直线 $l$ 的方程为</p>\n$$\ny=k(x+3\\sqrt{2}),\\qquad\\text{即}\\qquad kx-y+3\\sqrt{2}k=0\n$$\n<p>过原点且平行于 $l$ 的直线为 $kx-y=0$，两平行线的距离为</p>\n$$\n\\frac{|3\\sqrt{2}k|}{\\sqrt{k^{2}+1}}=\\sqrt{6}\n$$\n<p>两边平方并化简，得 $18k^{2}=6(k^{2}+1)$，即 $k^{2}=\\frac{1}{2}$. 所以</p>\n$$\nk=\\pm\\frac{\\sqrt{2}}{2}\n$$\n</li><li><p>反设右支存在点 $Q(x,y)$ 满足到 $l$ 的距离为 $\\sqrt{6}$. 则</p>\n$$\n\\frac{|kx-y+3\\sqrt{2}k|}{\\sqrt{k^{2}+1}}=\\sqrt{6}\n$$\n<p>即存在</p>\n$$\nt=3\\sqrt{2}k\\pm\\sqrt{6(k^{2}+1)}\n$$\n<p>使 $y=kx+t$. 当 $k>\\frac{\\sqrt{2}}{2}$ 时，$t$ 的两个可能值都为正：加号对应的 $t=3\\sqrt{2}k+\\sqrt{6(k^{2}+1)}>0$；对减号，</p>\n$$\n3\\sqrt{2}k>\\sqrt{6(k^{2}+1)}\\iff 18k^{2}>6(k^{2}+1)\\iff k^{2}>\\frac{1}{2}\n$$\n<p>又因 $Q$ 在双曲线右支上，$x\\ge\\sqrt{2}$，故</p>\n$$\ny=kx+t>kx>\\frac{x}{\\sqrt{2}}\\geqslant1>0\n$$\n<p>但双曲线右支的上半支满足 $0\\le y=\\sqrt{\\frac{x^{2}}{2}-1}<\\frac{x}{\\sqrt{2}}$，下半支满足 $y\\leqslant0$，均与上式矛盾. 因此不存在这样的点 $Q$.</p></li></ol>"
         },
         {
           "num": 23,

@@ -53,7 +53,7 @@
             "$\\left(\\frac{1}{2},1\\right)$"
           ],
           "answer": "B",
-          "solution": "要使 $f(2x+1)$ 有意义，必须有 $-1&#x3C;2x+1&#x3C;0$.两边同时减去 $1$，再除以正数 $2$，得 $-1&#x3C;x&#x3C;-\\frac{1}{2}$.因此定义域为 $\\left(-1,-\\frac{1}{2}\\right)$，故选 B."
+          "solution": "要使 $f(2x+1)$ 有意义，必须有 $-1<2x+1<0$.两边同时减去 $1$，再除以正数 $2$，得 $-1<x<-\\frac{1}{2}$.因此定义域为 $\\left(-1,-\\frac{1}{2}\\right)$，故选 B."
         },
         {
           "num": 5,
@@ -113,7 +113,7 @@
             "$[3,+\\infty)$"
           ],
           "answer": "D",
-          "solution": "在定义域上 $f'(x)=2x+a-\\frac{1}{x^{2}}$.令 $g(x)=\\frac{1}{x^{2}}-2x$，则函数递增的必要条件是对任意 $x>\\frac{1}{2}$ 有 $a\\ge g(x)$.又 $g'(x)=-\\frac{2}{x^{3}}-2&#x3C;0$，所以 $g$ 在 $\\left(\\frac{1}{2},+\\infty\\right)$ 上递减，且 $g(x)$ 的上确界为 $\\lim_{x\\to(\\frac{1}{2})^+}g(x)=3$.因此必要条件是 $a\\geqslant3$.反之，当 $a\\geqslant3$ 时，$g(x)&#x3C;3\\le a$，所以 $f'(x)>0$，函数确实递增.故 $a\\in[3,+\\infty)$，选 D."
+          "solution": "在定义域上 $f'(x)=2x+a-\\frac{1}{x^{2}}$.令 $g(x)=\\frac{1}{x^{2}}-2x$，则函数递增的必要条件是对任意 $x>\\frac{1}{2}$ 有 $a\\ge g(x)$.又 $g'(x)=-\\frac{2}{x^{3}}-2<0$，所以 $g$ 在 $\\left(\\frac{1}{2},+\\infty\\right)$ 上递减，且 $g(x)$ 的上确界为 $\\lim_{x\\to(\\frac{1}{2})^+}g(x)=3$.因此必要条件是 $a\\geqslant3$.反之，当 $a\\geqslant3$ 时，$g(x)<3\\le a$，所以 $f'(x)>0$，函数确实递增.故 $a\\in[3,+\\infty)$，选 D."
         },
         {
           "num": 10,
@@ -137,7 +137,7 @@
             "$2$"
           ],
           "answer": "D",
-          "solution": "<p>由 $y^{2}=8x$ 得抛物线焦点为 $F=(2,0)$.设过焦点的直线为 $y=k(x-2)$，令 $t=x-2$，则交点对应的两个参数 $t_{1}$，$t_{2}$ 满足 $k^{2}t^{2}=8(t+2)$，即 $k^{2}t^{2}-8t-16=0$.因此 $t_{1}+t_{2}=\\frac{8}{k^{2}}$，$t_{1}t_{2}=-\\frac{16}{k^{2}}$.交点坐标为 $(t_{i}+2,kt_{i})$，所以</p>\n$$\n\\begin{aligned}\\overrightarrow{MA}\\cdot\\overrightarrow{MB}&#x26;=(t_{1}+4)(t_{2}+4)+(kt_{1}-2)(kt_{2}-2)\\\\&#x26;=(1+k^{2})t_{1}t_{2}+(4-2k)(t_{1}+t_{2})+20\\\\&#x26;=\\frac{4(k-2)^2}{k^2}.\\end{aligned}\n$$\n<p>直线与抛物线有两个交点，故 $k\\neq0$.由内积为零得 $k=2$，故选 D.</p>"
+          "solution": "<p>由 $y^{2}=8x$ 得抛物线焦点为 $F=(2,0)$.设过焦点的直线为 $y=k(x-2)$，令 $t=x-2$，则交点对应的两个参数 $t_{1}$，$t_{2}$ 满足 $k^{2}t^{2}=8(t+2)$，即 $k^{2}t^{2}-8t-16=0$.因此 $t_{1}+t_{2}=\\frac{8}{k^{2}}$，$t_{1}t_{2}=-\\frac{16}{k^{2}}$.交点坐标为 $(t_{i}+2,kt_{i})$，所以</p>\n$$\n\\begin{aligned}\\overrightarrow{MA}\\cdot\\overrightarrow{MB}&=(t_{1}+4)(t_{2}+4)+(kt_{1}-2)(kt_{2}-2)\\\\&=(1+k^{2})t_{1}t_{2}+(4-2k)(t_{1}+t_{2})+20\\\\&=\\frac{4(k-2)^2}{k^2}.\\end{aligned}\n$$\n<p>直线与抛物线有两个交点，故 $k\\neq0$.由内积为零得 $k=2$，故选 D.</p>"
         },
         {
           "num": 12,
@@ -161,7 +161,7 @@
           "body": "已知 $\\alpha$ 是第三象限角，$\\sin\\alpha=-\\frac{1}{3}$，则 $\\cot\\alpha=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$2\\sqrt{2}$",
-          "solution": "因为 $\\alpha$ 在第三象限，所以 $\\cos\\alpha&#x3C;0$.由 $\\cos^{2}\\alpha=1-\\sin^{2}\\alpha=1-\\frac{1}{9}=\\frac{8}{9}$，得 $\\cos\\alpha=-\\frac{2\\sqrt{2}}{3}$.于是 $\\cot\\alpha=\\frac{\\cos\\alpha}{\\sin\\alpha}=\\frac{-2\\frac{\\sqrt{2}}{3}}{-\\frac{1}{3}}=2\\sqrt{2}$."
+          "solution": "因为 $\\alpha$ 在第三象限，所以 $\\cos\\alpha<0$.由 $\\cos^{2}\\alpha=1-\\sin^{2}\\alpha=1-\\frac{1}{9}=\\frac{8}{9}$，得 $\\cos\\alpha=-\\frac{2\\sqrt{2}}{3}$.于是 $\\cot\\alpha=\\frac{\\cos\\alpha}{\\sin\\alpha}=\\frac{-2\\frac{\\sqrt{2}}{3}}{-\\frac{1}{3}}=2\\sqrt{2}$."
         },
         {
           "num": 14,
@@ -201,7 +201,7 @@
           "body": "<p>设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，$(a+b+c)(a-b+c)=ac$.</p><ol class=\"enumerate\"><li><p>求 $B$；</p></li><li><p>若 $\\sin A\\sin C=\\frac{\\sqrt{3}-1}{4}$，求 $C$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由余弦定理 $b^{2}=a^{2}+c^{2}-2ac\\cos B$，且 $(a+b+c)(a-b+c)=(a+c)^{2}-b^{2}$.所以题设条件给出 $a^{2}+2ac+c^{2}-b^{2}=ac$，即 $2ac(1+\\cos B)=ac$.三角形三边均为正数，故 $2(1+\\cos B)=1$，从而 $\\cos B=-\\frac{1}{2}$.因为 $0&#x3C;B&#x3C;\\pi$，所以 $B=120^{\\circ}$.</p><p>由 $A+C=60^{\\circ}$ 及积化和差公式，$\\sin A\\sin C=\\frac{\\cos(A-C)-\\cos(A+C)}{2}=\\frac{\\cos(A-C)-\\frac{1}{2}}{2}$.代入已知条件得 $\\cos(A-C)=\\frac{\\sqrt{3}}{2}$.又因为 $-60^{\\circ}&#x3C;A-C&#x3C;60^{\\circ}$，故 $A-C=\\pm30^{\\circ}$.结合 $A+C=60^{\\circ}$，得到 $(A,C)=(45^{\\circ},15^{\\circ})$ 或 $(15^{\\circ},45^{\\circ})$.因此 $C=15^{\\circ}$ 或 $C=45^{\\circ}$.</p>"
+          "solution": "<p>由余弦定理 $b^{2}=a^{2}+c^{2}-2ac\\cos B$，且 $(a+b+c)(a-b+c)=(a+c)^{2}-b^{2}$.所以题设条件给出 $a^{2}+2ac+c^{2}-b^{2}=ac$，即 $2ac(1+\\cos B)=ac$.三角形三边均为正数，故 $2(1+\\cos B)=1$，从而 $\\cos B=-\\frac{1}{2}$.因为 $0<B<\\pi$，所以 $B=120^{\\circ}$.</p><p>由 $A+C=60^{\\circ}$ 及积化和差公式，$\\sin A\\sin C=\\frac{\\cos(A-C)-\\cos(A+C)}{2}=\\frac{\\cos(A-C)-\\frac{1}{2}}{2}$.代入已知条件得 $\\cos(A-C)=\\frac{\\sqrt{3}}{2}$.又因为 $-60^{\\circ}<A-C<60^{\\circ}$，故 $A-C=\\pm30^{\\circ}$.结合 $A+C=60^{\\circ}$，得到 $(A,C)=(45^{\\circ},15^{\\circ})$ 或 $(15^{\\circ},45^{\\circ})$.因此 $C=15^{\\circ}$ 或 $C=45^{\\circ}$.</p>"
         },
         {
           "num": 19,
@@ -222,7 +222,7 @@
           "body": "<p>已知双曲线 $C:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$（$a>0$，$b>0$）的左、右焦点分别为 $F_{1}$，$F_{2}$，离心率为 3，直线 $y=2$ 与 $C$ 的两个交点间的距离为 $\\sqrt{6}$.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$；</p></li><li><p>设过 $F_{2}$ 的直线 $l$ 与 $C$ 的左、右两支分别交于 $A$，$B$ 两点，且 $|AF_{1}|=|BF_{1}|$，证明：$|AF_{2}|$，$|AB|$，$|BF_{2}|$ 成等比数列.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设双曲线的焦距参数为 $c$，则 $c^{2}=a^{2}+b^{2}$，$\\frac{c}{a}=3$.所以 $c=3a$，$b^{2}=8a^{2}$.将 $y=2$ 代入双曲线方程，得 $\\frac{x^{2}}{a^{2}}-\\frac{4}{b^{2}}=1$，即 $x^{2}=a^{2}\\left(1+\\frac{4}{b^{2}}\\right)$.两交点的横坐标相反，故其距离为 $2a\\sqrt{1+\\frac{4}{b^{2}}}=\\sqrt{6}$.代入 $b^{2}=8a^{2}$，得 $4a^{2}+2=6$，所以 $a=1$，$b=2\\sqrt{2}$.</p></li><li><p>由第一问，$F_{1}=(-3,0)$，$F_{2}=(3,0)$.设直线 $l$ 为 $y=k(x-3)$，并记它与双曲线交点的横坐标为 $x_{A}$，$x_{B}$.代入双曲线方程，得</p>\n$$\n(8-k^{2})x^{2}+6k^{2}x-(9k^{2}+8)=0\n$$\n<p>因为 $A$，$B$ 在双曲线左右两支上，所以 $x_{A}\\ne x_{B}$.又由 $y^{2}=8(x^{2}-1)$，点 $(x,y)$ 到 $F_{1}$ 的距离平方为 $(x+3)^{2}+y^{2}=9x^{2}+6x+1$.条件 $|AF_{1}|=|BF_{1}|$ 给出 $9x_{A}^{2}+6x_{A}+1=9x_{B}^{2}+6x_{B}+1$，所以 $x_{A}+x_{B}=-\\frac{2}{3}$.</p><p>由韦达定理，$-\\frac{6k^{2}}{8-k^{2}}=-\\frac{2}{3}$，解得 $k^{2}=\\frac{4}{5}$.进一步 $x_{A}x_{B}=-\\frac{9k^{2}+8}{8-k^{2}}=-\\frac{19}{9}$，从而 $(x_{A}-x_{B})^{2}=(x_{A}+x_{B})^{2}-4x_{A}x_{B}=\\frac{80}{9}$.于是可取 $x_{A}=\\frac{-1-2\\sqrt{5}}{3}$，$x_{B}=\\frac{-1+2\\sqrt{5}}{3}$，故 $A$，$B$ 均在 $F_{2}$ 的左侧，且 $B$ 位于 $A$ 与 $F_{2}$ 之间.</p><p>直线 $l$ 的方向因子为 $\\sqrt{1+k^{2}}=\\frac{3}{\\sqrt{5}}$，所以 $|AB|=\\sqrt{1+k^{2}}|x_{A}-x_{B}|=4$.又因为 $3-x_{A}>0$，$3-x_{B}>0$，故</p>\n$$\n\\begin{aligned}|AF_{2}|\\,|BF_{2}|&#x26;=(1+k^{2})(3-x_{A})(3-x_{B})\\\\&#x26;=\\frac{9}{5}\\left(9-3(x_{A}+x_{B})+x_{A}x_{B}\\right)\\\\&#x26;=\\frac{9}{5}\\left(9+2-\\frac{19}{9}\\right)=16.\\end{aligned}\n$$\n<p>因此 $|AF_{2}|\\,|BF_{2}|=16=|AB|^{2}$，即 $|AF_{2}|$，$|AB|$，$|BF_{2}|$ 成等比数列.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设双曲线的焦距参数为 $c$，则 $c^{2}=a^{2}+b^{2}$，$\\frac{c}{a}=3$.所以 $c=3a$，$b^{2}=8a^{2}$.将 $y=2$ 代入双曲线方程，得 $\\frac{x^{2}}{a^{2}}-\\frac{4}{b^{2}}=1$，即 $x^{2}=a^{2}\\left(1+\\frac{4}{b^{2}}\\right)$.两交点的横坐标相反，故其距离为 $2a\\sqrt{1+\\frac{4}{b^{2}}}=\\sqrt{6}$.代入 $b^{2}=8a^{2}$，得 $4a^{2}+2=6$，所以 $a=1$，$b=2\\sqrt{2}$.</p></li><li><p>由第一问，$F_{1}=(-3,0)$，$F_{2}=(3,0)$.设直线 $l$ 为 $y=k(x-3)$，并记它与双曲线交点的横坐标为 $x_{A}$，$x_{B}$.代入双曲线方程，得</p>\n$$\n(8-k^{2})x^{2}+6k^{2}x-(9k^{2}+8)=0\n$$\n<p>因为 $A$，$B$ 在双曲线左右两支上，所以 $x_{A}\\ne x_{B}$.又由 $y^{2}=8(x^{2}-1)$，点 $(x,y)$ 到 $F_{1}$ 的距离平方为 $(x+3)^{2}+y^{2}=9x^{2}+6x+1$.条件 $|AF_{1}|=|BF_{1}|$ 给出 $9x_{A}^{2}+6x_{A}+1=9x_{B}^{2}+6x_{B}+1$，所以 $x_{A}+x_{B}=-\\frac{2}{3}$.</p><p>由韦达定理，$-\\frac{6k^{2}}{8-k^{2}}=-\\frac{2}{3}$，解得 $k^{2}=\\frac{4}{5}$.进一步 $x_{A}x_{B}=-\\frac{9k^{2}+8}{8-k^{2}}=-\\frac{19}{9}$，从而 $(x_{A}-x_{B})^{2}=(x_{A}+x_{B})^{2}-4x_{A}x_{B}=\\frac{80}{9}$.于是可取 $x_{A}=\\frac{-1-2\\sqrt{5}}{3}$，$x_{B}=\\frac{-1+2\\sqrt{5}}{3}$，故 $A$，$B$ 均在 $F_{2}$ 的左侧，且 $B$ 位于 $A$ 与 $F_{2}$ 之间.</p><p>直线 $l$ 的方向因子为 $\\sqrt{1+k^{2}}=\\frac{3}{\\sqrt{5}}$，所以 $|AB|=\\sqrt{1+k^{2}}|x_{A}-x_{B}|=4$.又因为 $3-x_{A}>0$，$3-x_{B}>0$，故</p>\n$$\n\\begin{aligned}|AF_{2}|\\,|BF_{2}|&=(1+k^{2})(3-x_{A})(3-x_{B})\\\\&=\\frac{9}{5}\\left(9-3(x_{A}+x_{B})+x_{A}x_{B}\\right)\\\\&=\\frac{9}{5}\\left(9+2-\\frac{19}{9}\\right)=16.\\end{aligned}\n$$\n<p>因此 $|AF_{2}|\\,|BF_{2}|=16=|AB|^{2}$，即 $|AF_{2}|$，$|AB|$，$|BF_{2}|$ 成等比数列.</p></li></ol>"
         }
       ]
     },
@@ -234,7 +234,7 @@
           "body": "<p>已知函数 $f(x)=\\ln\\left(1+x\\right)-\\frac{x(1+\\lambda x)}{1+x}$.</p><ol class=\"enumerate\"><li><p>若 $x\\geqslant0$ 时 $f(x)\\leqslant0$，求 $\\lambda$ 的最小值；</p></li><li><p>设数列 $\\{a_{n}\\}$ 的通项 $a_{n}=1+\\frac{1}{2}+\\frac{1}{3}+\\dots+\\frac{1}{n}$，证明：$a_{2n}-a_{n}+\\frac{1}{4n}>\\ln2$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在 $x\\geqslant0$ 上，</p>\n$$\n\\begin{aligned}f'(x)\n\n&#x26;=\\frac{1}{1+x}-\\frac{1+2\\lambda x+\\lambda x^{2}}{(1+x)^{2}}\\\\\n\n&#x26;=\\frac{x(1-2\\lambda-\\lambda x)}{(1+x)^{2}}.\\end{aligned}\n$$\n<p>又 $f(0)=0$.若 $\\lambda\\ge\\frac{1}{2}$，则对 $x\\geqslant0$，有 $1-2\\lambda-\\lambda x\\leqslant0$，从而 $f'(x)\\leqslant0$，故 $f(x)\\le f(0)=0$.</p><p>若 $\\lambda&#x3C;\\frac{1}{2}$，则 $1-2\\lambda>0$，所以当 $x>0$ 足够接近于 $0$ 时，$1-2\\lambda-\\lambda x>0$，从而 $f'(x)>0$，于是 $f(x)>f(0)=0$，与题设矛盾.因此 $\\lambda\\ge\\frac{1}{2}$，最小值为 $\\frac{1}{2}$.</p></li><li><p>因为函数 $g(x)=\\frac{1}{x}$ 在 $(0,+\\infty)$ 上严格凸，所以对每个正整数 $k$，都有</p>\n$$\n\\int_{k}^{k+1}\\frac{1}{x}\\,\\mathrm{d}x&#x3C;\\frac{1}{2}\\left(\\frac{1}{k}+\\frac{1}{k+1}\\right)\n$$\n<p>对 $k=n$，$n+1$，$\\dots$，$2n-1$ 的不等式求和，得</p>\n$$\n\\begin{aligned}\\ln2&#x26;=\\int_{n}^{2n}\\frac{1}{x}\\,\\mathrm{d}x\\\\&#x26;&#x3C;\\frac{1}{2n}+\\sum_{k=n+1}^{2n-1}\\frac{1}{k}+\\frac{1}{4n}\\\\&#x26;=\\sum_{k=n+1}^{2n}\\frac{1}{k}+\\frac{1}{4n}\\\\&#x26;=a_{2n}-a_{n}+\\frac{1}{4n}.\\end{aligned}\n$$\n<p>故不等式得证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在 $x\\geqslant0$ 上，</p>\n$$\n\\begin{aligned}f'(x)\n\n&=\\frac{1}{1+x}-\\frac{1+2\\lambda x+\\lambda x^{2}}{(1+x)^{2}}\\\\\n\n&=\\frac{x(1-2\\lambda-\\lambda x)}{(1+x)^{2}}.\\end{aligned}\n$$\n<p>又 $f(0)=0$.若 $\\lambda\\ge\\frac{1}{2}$，则对 $x\\geqslant0$，有 $1-2\\lambda-\\lambda x\\leqslant0$，从而 $f'(x)\\leqslant0$，故 $f(x)\\le f(0)=0$.</p><p>若 $\\lambda<\\frac{1}{2}$，则 $1-2\\lambda>0$，所以当 $x>0$ 足够接近于 $0$ 时，$1-2\\lambda-\\lambda x>0$，从而 $f'(x)>0$，于是 $f(x)>f(0)=0$，与题设矛盾.因此 $\\lambda\\ge\\frac{1}{2}$，最小值为 $\\frac{1}{2}$.</p></li><li><p>因为函数 $g(x)=\\frac{1}{x}$ 在 $(0,+\\infty)$ 上严格凸，所以对每个正整数 $k$，都有</p>\n$$\n\\int_{k}^{k+1}\\frac{1}{x}\\,\\mathrm{d}x<\\frac{1}{2}\\left(\\frac{1}{k}+\\frac{1}{k+1}\\right)\n$$\n<p>对 $k=n$，$n+1$，$\\dots$，$2n-1$ 的不等式求和，得</p>\n$$\n\\begin{aligned}\\ln2&=\\int_{n}^{2n}\\frac{1}{x}\\,\\mathrm{d}x\\\\&<\\frac{1}{2n}+\\sum_{k=n+1}^{2n-1}\\frac{1}{k}+\\frac{1}{4n}\\\\&=\\sum_{k=n+1}^{2n}\\frac{1}{k}+\\frac{1}{4n}\\\\&=a_{2n}-a_{n}+\\frac{1}{4n}.\\end{aligned}\n$$\n<p>故不等式得证.</p></li></ol>"
         }
       ]
     }

@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A = \\{x \\mid -1 &#x3C; x &#x3C; 2\\}$，$B = \\{x \\mid 0 &#x3C; x &#x3C; 3\\}$，则 $A \\cup B =$（ ）",
+          "body": "已知集合 $A = \\{x \\mid -1 < x < 2\\}$，$B = \\{x \\mid 0 < x < 3\\}$，则 $A \\cup B =$（ ）",
           "choices": [
             "$(-1,3)$",
             "$(-1,0)$",
@@ -149,7 +149,7 @@
             "$\\left(-\\infty, -\\frac{1}{3}\\right) \\cup \\left(\\frac{1}{3}, +\\infty\\right)$"
           ],
           "answer": "",
-          "solution": "<p>令</p><p>$g(t)=\\ln(1+t)-\\frac{1}{1+t^{2}}$，$t\\geqslant0$.</p><p>则</p>\n$$\ng'(t)=\\frac{1}{1+t}+\\frac{2t}{(1+t^{2})^{2}}>0\n$$\n<p>所以 $g(t)$ 在 $[0,+\\infty)$ 上严格递增. 又 $f(x)=g(|x|)$，故</p>\n$$\nf(x)>f(2x-1)\\Longleftrightarrow |x|>|2x-1|\n$$\n<p>两边平方并整理，得</p>\n$$\nx^{2}>(2x-1)^{2}\\Longleftrightarrow 3x^{2}-4x+1&#x3C;0\n$$\n<p>该二次式的两个根为 $\\dfrac{1}{3}$ 和 $1$，所以</p>\n$$\n\\frac{1}{3}&#x3C;x&#x3C;1\n$$\n<p>故选 A.</p>"
+          "solution": "<p>令</p><p>$g(t)=\\ln(1+t)-\\frac{1}{1+t^{2}}$，$t\\geqslant0$.</p><p>则</p>\n$$\ng'(t)=\\frac{1}{1+t}+\\frac{2t}{(1+t^{2})^{2}}>0\n$$\n<p>所以 $g(t)$ 在 $[0,+\\infty)$ 上严格递增. 又 $f(x)=g(|x|)$，故</p>\n$$\nf(x)>f(2x-1)\\Longleftrightarrow |x|>|2x-1|\n$$\n<p>两边平方并整理，得</p>\n$$\nx^{2}>(2x-1)^{2}\\Longleftrightarrow 3x^{2}-4x+1<0\n$$\n<p>该二次式的两个根为 $\\dfrac{1}{3}$ 和 $1$，所以</p>\n$$\n\\frac{1}{3}<x<1\n$$\n<p>故选 A.</p>"
         }
       ]
     },
@@ -175,7 +175,7 @@
           "body": "已知双曲线过点 $(4, \\sqrt{3})$，且渐近线方程为 $y = \\pm \\frac{1}{2}x$，则该双曲线的标准方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\dfrac{x^{2}}{4}-y^{2}=1$",
-          "solution": "<p>若双曲线为横轴型 $\\dfrac{x^{2}}{a^{2}}-\\dfrac{y^{2}}{b^{2}}=1$，其渐近线斜率为 $\\pm\\dfrac{b}{a}$，故 $b=\\dfrac{a}{2}$. 代入点 $(4,\\sqrt{3})$，得</p>\n$$\n\\frac{16}{a^{2}}-\\frac{3}{\\frac{a^{2}}{4}}=1\n$$\n<p>从而 $a^{2}=4$，$b^{2}=1$.</p><p>若为纵轴型，则方程为 $\\dfrac{y^{2}}{a^{2}}-\\dfrac{x^{2}}{b^{2}}=1$，且由渐近线斜率有 $\\frac{a^{2}}{b^{2}}=\\frac{1}{4}$. 代入点 $(4,\\sqrt{3})$ 后左端为</p>\n$$\n\\frac{3}{a^{2}}-\\frac{16}{b^{2}}=\\frac{3}{a^{2}}-\\frac{4}{a^{2}}=-\\frac{1}{a^{2}}&#x3C;0\n$$\n<p>不可能等于 $1$. 因而双曲线的方程为</p>\n$$\n\\frac{x^{2}}{4}-y^{2}=1\n$$"
+          "solution": "<p>若双曲线为横轴型 $\\dfrac{x^{2}}{a^{2}}-\\dfrac{y^{2}}{b^{2}}=1$，其渐近线斜率为 $\\pm\\dfrac{b}{a}$，故 $b=\\dfrac{a}{2}$. 代入点 $(4,\\sqrt{3})$，得</p>\n$$\n\\frac{16}{a^{2}}-\\frac{3}{\\frac{a^{2}}{4}}=1\n$$\n<p>从而 $a^{2}=4$，$b^{2}=1$.</p><p>若为纵轴型，则方程为 $\\dfrac{y^{2}}{a^{2}}-\\dfrac{x^{2}}{b^{2}}=1$，且由渐近线斜率有 $\\frac{a^{2}}{b^{2}}=\\frac{1}{4}$. 代入点 $(4,\\sqrt{3})$ 后左端为</p>\n$$\n\\frac{3}{a^{2}}-\\frac{16}{b^{2}}=\\frac{3}{a^{2}}-\\frac{4}{a^{2}}=-\\frac{1}{a^{2}}<0\n$$\n<p>不可能等于 $1$. 因而双曲线的方程为</p>\n$$\n\\frac{x^{2}}{4}-y^{2}=1\n$$"
         },
         {
           "num": 16,
@@ -194,14 +194,14 @@
           "body": "<p>$\\triangle ABC$ 中，$D$ 是 $BC$ 上的点，$AD$ 平分 $\\angle BAC$，$BD = 2DC$.</p><ol class=\"enumerate\"><li><p>求 $\\frac{\\sin\\angle B}{\\sin\\angle C}$；</p></li><li><p>若 $\\angle BAC = 60^{\\circ}$，求 $\\angle B$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由角平分线定理，</p>\n$$\n\\frac{AB}{AC}=\\frac{BD}{DC}=2\n$$\n<p>在 $\\triangle ABC$ 中由正弦定理，$\\dfrac{AB}{AC}=\\dfrac{\\sin\\angle C}{\\sin\\angle B}$，所以</p>\n$$\n\\frac{\\sin\\angle B}{\\sin\\angle C}=\\frac{1}{2}\n$$\n</li><li><p>设 $\\angle B=\\beta$，则 $\\angle C=120^{\\circ}-\\beta$. 由第（1）问，</p>\n$$\n\\frac{\\sin\\beta}{\\sin(120^{\\circ}-\\beta)}=\\frac{1}{2}\n$$\n<p>利用正弦差角公式，得</p>\n$$\n2\\sin\\beta=\\sin(120^{\\circ}-\\beta)=\\frac{\\sqrt{3}}{2}\\cos\\beta+\\frac{1}{2}\\sin\\beta\n$$\n<p>从而 $3\\sin\\beta=\\sqrt{3}\\cos\\beta$，即 $\\tan\\beta=\\dfrac{\\sqrt{3}}{3}$. 因为三角形内角满足 $0^{\\circ}&#x3C;\\beta&#x3C;120^{\\circ}$，故 $\\beta=30^{\\circ}$，所以 $\\angle B=30^{\\circ}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由角平分线定理，</p>\n$$\n\\frac{AB}{AC}=\\frac{BD}{DC}=2\n$$\n<p>在 $\\triangle ABC$ 中由正弦定理，$\\dfrac{AB}{AC}=\\dfrac{\\sin\\angle C}{\\sin\\angle B}$，所以</p>\n$$\n\\frac{\\sin\\angle B}{\\sin\\angle C}=\\frac{1}{2}\n$$\n</li><li><p>设 $\\angle B=\\beta$，则 $\\angle C=120^{\\circ}-\\beta$. 由第（1）问，</p>\n$$\n\\frac{\\sin\\beta}{\\sin(120^{\\circ}-\\beta)}=\\frac{1}{2}\n$$\n<p>利用正弦差角公式，得</p>\n$$\n2\\sin\\beta=\\sin(120^{\\circ}-\\beta)=\\frac{\\sqrt{3}}{2}\\cos\\beta+\\frac{1}{2}\\sin\\beta\n$$\n<p>从而 $3\\sin\\beta=\\sqrt{3}\\cos\\beta$，即 $\\tan\\beta=\\dfrac{\\sqrt{3}}{3}$. 因为三角形内角满足 $0^{\\circ}<\\beta<120^{\\circ}$，故 $\\beta=30^{\\circ}$，所以 $\\angle B=30^{\\circ}$.</p></li></ol>"
         },
         {
           "num": 18,
           "body": "<p>某公司为了了解用户对其产品的满意度，从 $A$，$B$ 两地区分别随机调查了 $40$ 个用户，根据用户对其产品的满意度的评分，得到 $A$ 地区用户满意度评分的频率分布直方图和 $B$ 地区用户满意度评分的频率分布表.</p><center class=\"center\">$B$ 地区用户满意度评分的频率分布表<br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>满意度评分分组 </td><td style=\"text-align: center\"> $[50, 60)$ </td><td style=\"text-align: center\"> $[60, 70)$ </td><td style=\"text-align: center\"> $[70, 80)$ </td><td style=\"text-align: center\"> $[80, 90)$ </td><td style=\"text-align: center\"> $[90, 100]$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>频数 </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 8 </td><td style=\"text-align: center\"> 14 </td><td style=\"text-align: center\"> 10 </td><td style=\"text-align: center\"> 6 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>在图中作出 $B$ 地区用户满意度评分的频率分布直方图，并通过此图比较两地区满意度评分的平均值及分散程度；</p></li><li><p>根据用户满意度评分，将用户的满意度评分分为三个等级：</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>满意度评分 </td><td style=\"text-align: center\"> 低于 $70$ 分 </td><td style=\"text-align: center\"> $70$ 分到 $89$ 分 </td><td style=\"text-align: center\"> 不低于 $90$ 分 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>满意度等级 </td><td style=\"text-align: center\"> 不满意 </td><td style=\"text-align: center\"> 满意 </td><td style=\"text-align: center\"> 非常满意 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p><p>估计哪个地区的用户的满意度等级为不满意的概率大，说明理由.</p></li></ol><p><span class=\"macro macro-texfigure\"></span>[max width=0.62<span class=\"macro macro-linewidth\"></span>]img_repaint/2015/national_paper_2_liberal/q18_fig1.tex</p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>每组组距均为 $10$. 由频数除以样本数得到 $B$ 地区各组频率，再除以组距，频率分布直方图各柱高依次为</p><p>$0.005$，$0.020$，$0.035$，$0.025$，$0.015$</p><p>对应的评分区间依次为 $[50,60)$，$[60,70)$，$[70,80)$，$[80,90)$，$[90,100]$.</p><p>用各组组中值估计平均分，$A$ 地区的平均分为</p>\n$$\n45\\times0.10+55\\times0.20+65\\times0.30+75\\times0.20+85\\times0.15+95\\times0.05=67.5\n$$\n<p>$B$ 地区的平均分为</p>\n$$\n55\\times0.05+65\\times0.20+75\\times0.35+85\\times0.25+95\\times0.15=77.5\n$$\n<p>所以 $B$ 地区的平均满意度评分较高. 以组中值估计方差，两个地区分别为</p>\n$$\n\\begin{aligned}s_{A}^{2}&#x26;=0.10(45-67.5)^{2}+0.20(55-67.5)^{2}+0.30(65-67.5)^{2}\\\\&#x26; +0.20(75-67.5)^{2}+0.15(85-67.5)^{2}+0.05(95-67.5)^{2}=178.75,\\\\  s_{B}^{2}&#x26;=0.05(55-77.5)^{2}+0.20(65-77.5)^{2}+0.35(75-77.5)^{2}\\\\&#x26; +0.25(85-77.5)^{2}+0.15(95-77.5)^{2}=118.75.\\end{aligned}\n$$\n<p>因此 $s_{B}^{2}&#x3C;s_{A}^{2}$，$B$ 地区评分的分散程度较小.</p></li><li><p>$A$ 地区评分低于 $70$ 分的频率估计为</p>\n$$\n0.10+0.20+0.30=0.60\n$$\n<p>$B$ 地区评分低于 $70$ 分的频率为</p>\n$$\n\\frac{2+8}{40}=0.25\n$$\n<p>因为 $0.60>0.25$，所以估计 $A$ 地区用户的满意度等级为不满意的概率较大.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>每组组距均为 $10$. 由频数除以样本数得到 $B$ 地区各组频率，再除以组距，频率分布直方图各柱高依次为</p><p>$0.005$，$0.020$，$0.035$，$0.025$，$0.015$</p><p>对应的评分区间依次为 $[50,60)$，$[60,70)$，$[70,80)$，$[80,90)$，$[90,100]$.</p><p>用各组组中值估计平均分，$A$ 地区的平均分为</p>\n$$\n45\\times0.10+55\\times0.20+65\\times0.30+75\\times0.20+85\\times0.15+95\\times0.05=67.5\n$$\n<p>$B$ 地区的平均分为</p>\n$$\n55\\times0.05+65\\times0.20+75\\times0.35+85\\times0.25+95\\times0.15=77.5\n$$\n<p>所以 $B$ 地区的平均满意度评分较高. 以组中值估计方差，两个地区分别为</p>\n$$\n\\begin{aligned}s_{A}^{2}&=0.10(45-67.5)^{2}+0.20(55-67.5)^{2}+0.30(65-67.5)^{2}\\\\& +0.20(75-67.5)^{2}+0.15(85-67.5)^{2}+0.05(95-67.5)^{2}=178.75,\\\\  s_{B}^{2}&=0.05(55-77.5)^{2}+0.20(65-77.5)^{2}+0.35(75-77.5)^{2}\\\\& +0.25(85-77.5)^{2}+0.15(95-77.5)^{2}=118.75.\\end{aligned}\n$$\n<p>因此 $s_{B}^{2}<s_{A}^{2}$，$B$ 地区评分的分散程度较小.</p></li><li><p>$A$ 地区评分低于 $70$ 分的频率估计为</p>\n$$\n0.10+0.20+0.30=0.60\n$$\n<p>$B$ 地区评分低于 $70$ 分的频率为</p>\n$$\n\\frac{2+8}{40}=0.25\n$$\n<p>因为 $0.60>0.25$，所以估计 $A$ 地区用户的满意度等级为不满意的概率较大.</p></li></ol>"
         },
         {
           "num": 19,
@@ -222,7 +222,7 @@
           "body": "<p>已知 $f(x) = \\ln x + a(1 - x)$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>当 $f(x)$ 有最大值，且最大值大于 $2a - 2$ 时，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{1}{x}-a=\\frac{1-ax}{x}\n$$\n<p>当 $a\\leqslant0$ 时，$f'(x)>0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调递增. 当 $a>0$ 时，$f'(x)>0$ 在 $\\left(0,\\dfrac{1}{a}\\right)$ 上成立，$f'(x)&#x3C;0$ 在 $\\left(\\dfrac{1}{a},+\\infty\\right)$ 上成立，所以 $f(x)$ 先增后减.</p></li><li><p>当 $a\\leqslant0$ 时，$f(x)$ 在无穷远处趋于 $+\\infty$，没有最大值. 因此必须有 $a>0$，此时最大值为</p>\n$$\nf\\left(\\frac{1}{a}\\right)=-\\ln a+a-1\n$$\n<p>条件给出</p>\n$$\n-\\ln a+a-1>2a-2\\Longleftrightarrow \\ln a+a&#x3C;1\n$$\n<p>函数 $h(a)=\\ln a+a$ 在 $(0,+\\infty)$ 上严格递增，且 $h(1)=1$，所以</p>\n$$\n0&#x3C;a&#x3C;1\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{1}{x}-a=\\frac{1-ax}{x}\n$$\n<p>当 $a\\leqslant0$ 时，$f'(x)>0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调递增. 当 $a>0$ 时，$f'(x)>0$ 在 $\\left(0,\\dfrac{1}{a}\\right)$ 上成立，$f'(x)<0$ 在 $\\left(\\dfrac{1}{a},+\\infty\\right)$ 上成立，所以 $f(x)$ 先增后减.</p></li><li><p>当 $a\\leqslant0$ 时，$f(x)$ 在无穷远处趋于 $+\\infty$，没有最大值. 因此必须有 $a>0$，此时最大值为</p>\n$$\nf\\left(\\frac{1}{a}\\right)=-\\ln a+a-1\n$$\n<p>条件给出</p>\n$$\n-\\ln a+a-1>2a-2\\Longleftrightarrow \\ln a+a<1\n$$\n<p>函数 $h(a)=\\ln a+a$ 在 $(0,+\\infty)$ 上严格递增，且 $h(1)=1$，所以</p>\n$$\n0<a<1\n$$\n</li></ol>"
         }
       ]
     },
@@ -238,17 +238,17 @@
         },
         {
           "num": 23,
-          "body": "<p>在直角坐标系 $xOy$ 中，曲线 $C_{1}: \\begin{cases}x = t\\cos \\alpha,\\\\\n\ny = t\\sin \\alpha,\\end{cases}$（$t$ 为参数，$t \\neq 0$），其中 $0 \\le \\alpha &#x3C; \\pi$. 在以 $O$ 为极点，$x$ 轴正半轴为极轴的极坐标系中，曲线 $C_{2}: \\rho = 2\\sin \\theta$，$C_{3}: \\rho = 2\\sqrt{3}\\cos \\theta$.</p><ol class=\"enumerate\"><li><p>求 $C_{2}$ 与 $C_{3}$ 交点的直角坐标；</p></li><li><p>若 $C_{1}$ 与 $C_{2}$ 相交于点 $A$，$C_{1}$ 与 $C_{3}$ 相交于点 $B$，求 $|AB|$ 的最大值.</p></li></ol>",
+          "body": "<p>在直角坐标系 $xOy$ 中，曲线 $C_{1}: \\begin{cases}x = t\\cos \\alpha,\\\\\n\ny = t\\sin \\alpha,\\end{cases}$（$t$ 为参数，$t \\neq 0$），其中 $0 \\le \\alpha < \\pi$. 在以 $O$ 为极点，$x$ 轴正半轴为极轴的极坐标系中，曲线 $C_{2}: \\rho = 2\\sin \\theta$，$C_{3}: \\rho = 2\\sqrt{3}\\cos \\theta$.</p><ol class=\"enumerate\"><li><p>求 $C_{2}$ 与 $C_{3}$ 交点的直角坐标；</p></li><li><p>若 $C_{1}$ 与 $C_{2}$ 相交于点 $A$，$C_{1}$ 与 $C_{3}$ 相交于点 $B$，求 $|AB|$ 的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>由极坐标与直角坐标的关系，$\\rho\\sin\\theta=y$，$\\rho\\cos\\theta=x$. 因而</p><p>$C_{2}:x^{2}+y^{2}=2y$，$C_{3}:x^{2}+y^{2}=2\\sqrt{3}x$.</p><p>两式相减得 $y=\\sqrt{3}x$. 代回第一式，得</p>\n$$\n4x^{2}=2\\sqrt{3}x\n$$\n<p>所以 $x=0$ 或 $x=\\dfrac{\\sqrt{3}}{2}$. 对应的交点为</p><p>$(0,0)$，$\\left(\\frac{\\sqrt{3}}{2},\\frac{3}{2}\\right)$.</p></li><li><p>由参数方程，$C_{1}$ 上的点可写为 $(t\\cos\\alpha,t\\sin\\alpha)$. 将其代入 $C_{2}$ 的直角坐标方程，且 $t\\ne0$，得</p>\n$$\nt^{2}=2t\\sin\\alpha\\Longrightarrow t_{A}=2\\sin\\alpha\n$$\n<p>同理，将其代入 $C_{3}$，得</p>\n$$\nt^{2}=2\\sqrt{3}t\\cos\\alpha\\Longrightarrow t_{B}=2\\sqrt{3}\\cos\\alpha\n$$\n<p>两点在同一直线 $C_{1}$ 上，故</p>\n$$\n|AB|=|t_{A}-t_{B}|=2|\\sin\\alpha-\\sqrt{3}\\cos\\alpha|\n$$\n<p>由柯西不等式，</p>\n$$\n|\\sin\\alpha-\\sqrt{3}\\cos\\alpha|\\le\\sqrt{1+3}=2\n$$\n<p>等号可在 $\\alpha=\\dfrac{5\\pi}{6}$ 时取得，所以 $|AB|$ 的最大值为 $4$.</p></li></ol>"
         },
         {
           "num": 24,
-          "body": "<p>设 $a$，$b$，$c$，$d$ 均为正数，且 $a + b = c + d$，证明：</p><ol class=\"enumerate\"><li><p>若 $ab > cd$，则 $\\sqrt{a}+ \\sqrt{b}> \\sqrt{c}+ \\sqrt{d}$；</p></li><li><p>$\\sqrt{a}+ \\sqrt{b}> \\sqrt{c}+ \\sqrt{d}$ 是 $|a - b| &#x3C; |c - d|$ 的充要条件.</p></li></ol>",
+          "body": "<p>设 $a$，$b$，$c$，$d$ 均为正数，且 $a + b = c + d$，证明：</p><ol class=\"enumerate\"><li><p>若 $ab > cd$，则 $\\sqrt{a}+ \\sqrt{b}> \\sqrt{c}+ \\sqrt{d}$；</p></li><li><p>$\\sqrt{a}+ \\sqrt{b}> \\sqrt{c}+ \\sqrt{d}$ 是 $|a - b| < |c - d|$ 的充要条件.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为四个数均为正数，可以对两边平方. 又由 $a+b=c+d$，有</p><p>$(\\sqrt{a}+\\sqrt{b})^{2}=a+b+2\\sqrt{ab}$，$(\\sqrt{c}+\\sqrt{d})^{2}=c+d+2\\sqrt{cd}$.</p><p>条件 $ab>cd$ 给出 $\\sqrt{ab}>\\sqrt{cd}$，从而</p>\n$$\n(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}\n$$\n<p>两边均为正数，所以 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$.</p></li><li><p>仍由 $a+b=c+d=:s$，有</p><p>$(a-b)^{2}=s^{2}-4ab$，$(c-d)^{2}=s^{2}-4cd$.</p><p>因此</p>\n$$\n|a-b|&#x3C;|c-d|\\Longleftrightarrow ab>cd\n$$\n<p>另一方面，由上面的平方展开式，</p>\n$$\n\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}\\Longleftrightarrow ab>cd\n$$\n<p>所以</p>\n$$\n\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}\\Longleftrightarrow |a-b|&#x3C;|c-d|\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为四个数均为正数，可以对两边平方. 又由 $a+b=c+d$，有</p><p>$(\\sqrt{a}+\\sqrt{b})^{2}=a+b+2\\sqrt{ab}$，$(\\sqrt{c}+\\sqrt{d})^{2}=c+d+2\\sqrt{cd}$.</p><p>条件 $ab>cd$ 给出 $\\sqrt{ab}>\\sqrt{cd}$，从而</p>\n$$\n(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}\n$$\n<p>两边均为正数，所以 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$.</p></li><li><p>仍由 $a+b=c+d=:s$，有</p><p>$(a-b)^{2}=s^{2}-4ab$，$(c-d)^{2}=s^{2}-4cd$.</p><p>因此</p>\n$$\n|a-b|<|c-d|\\Longleftrightarrow ab>cd\n$$\n<p>另一方面，由上面的平方展开式，</p>\n$$\n\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}\\Longleftrightarrow ab>cd\n$$\n<p>所以</p>\n$$\n\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}\\Longleftrightarrow |a-b|<|c-d|\n$$\n</li></ol>"
         }
       ]
     }

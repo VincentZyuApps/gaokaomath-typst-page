@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $M = \\{x \\mid x \\ge 0, x \\in \\mathbb{R}\\}$，$N = \\{x \\mid x^{2} &#x3C; 1, x \\in \\mathbb{R}\\}$，则 $M \\cap N =$（ ）",
+          "body": "已知集合 $M = \\{x \\mid x \\ge 0, x \\in \\mathbb{R}\\}$，$N = \\{x \\mid x^{2} < 1, x \\in \\mathbb{R}\\}$，则 $M \\cap N =$（ ）",
           "choices": [
             "$[0,1]$",
             "$[0,1)$",
@@ -17,7 +17,7 @@
             "$(0,1)$"
           ],
           "answer": "B",
-          "solution": "由 $x\\geqslant0$ 得 $M=[0,+\\infty)$，由 $x^{2}&#x3C;1$ 得 $-1&#x3C;x&#x3C;1$，所以 $N=(-1,1)$. 因而 $M\\cap N=[0,1)$，故选 B."
+          "solution": "由 $x\\geqslant0$ 得 $M=[0,+\\infty)$，由 $x^{2}<1$ 得 $-1<x<1$，所以 $N=(-1,1)$. 因而 $M\\cap N=[0,1)$，故选 B."
         },
         {
           "num": 2,
@@ -148,10 +148,10 @@
         },
         {
           "num": 13,
-          "body": "设 $0 &#x3C; \\theta &#x3C; \\frac{\\pi}{2}$，向量 $\\mathbf{a}= (\\sin 2\\theta, \\cos \\theta)$，$\\mathbf{b}= (\\cos \\theta, 1)$，若 $\\mathbf{a}\\parallel \\mathbf{b}$，则 $\\tan \\theta =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "设 $0 < \\theta < \\frac{\\pi}{2}$，向量 $\\mathbf{a}= (\\sin 2\\theta, \\cos \\theta)$，$\\mathbf{b}= (\\cos \\theta, 1)$，若 $\\mathbf{a}\\parallel \\mathbf{b}$，则 $\\tan \\theta =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{1}{2}$",
-          "solution": "<p>两向量平行，当且仅当对应分量的行列式为零，因此</p>\n$$\n\\sin 2\\theta-\\cos^{2}\\theta=0\n$$\n<p>由 $\\sin 2\\theta=2\\sin\\theta\\cos\\theta$，且 $0&#x3C;\\theta&#x3C;\\dfrac{\\pi}{2}$ 从而 $\\cos\\theta>0$，得</p>\n$$\n2\\sin\\theta\\cos\\theta-\\cos^{2}\\theta=0  \\Longrightarrow 2\\sin\\theta=\\cos\\theta  \\Longrightarrow \\tan\\theta=\\frac{1}{2}\n$$"
+          "solution": "<p>两向量平行，当且仅当对应分量的行列式为零，因此</p>\n$$\n\\sin 2\\theta-\\cos^{2}\\theta=0\n$$\n<p>由 $\\sin 2\\theta=2\\sin\\theta\\cos\\theta$，且 $0<\\theta<\\dfrac{\\pi}{2}$ 从而 $\\cos\\theta>0$，得</p>\n$$\n2\\sin\\theta\\cos\\theta-\\cos^{2}\\theta=0  \\Longrightarrow 2\\sin\\theta=\\cos\\theta  \\Longrightarrow \\tan\\theta=\\frac{1}{2}\n$$"
         },
         {
           "num": 14,
@@ -231,7 +231,7 @@
           "body": "<p>设函数 $f(x) = \\ln (1 + x)$，$g(x) = xf'(x)$，$x \\ge 0$，其中 $f'(x)$ 是 $f(x)$ 的导函数.</p><ol class=\"enumerate\"><li><p>令 $g_{1}(x) = g(x)$，$g_{n + 1}(x) = g(g_{n}(x))$，$n \\in \\mathbf{N}_{+}$，求 $g_{n}(x)$ 的表达式.</p></li><li><p>若 $f(x) \\ge \\alpha g(x)$ 恒成立，求实数 $\\alpha$ 的取值范围.</p></li><li><p>设 $n \\in \\mathbf{N}_{+}$，比较 $g(1) + g(2) + \\cdots + g(n)$ 与 $n - f(n)$ 的大小，并加以证明.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $f'(x)=\\dfrac1{1+x}$，得</p>\n$$\ng(x)=xf'(x)=\\frac{x}{1+x}\n$$\n<p>用数学归纳法证明：当 $n\\in\\mathbf{N}_{+}$ 时，</p>\n$$\ng_{n}(x)=\\frac{x}{1+nx}\n$$\n<p>当 $n=1$ 时结论成立. 若 $g_{n}(x)=\\dfrac{x}{1+nx}$，则</p>\n$$\ng_{n+1}(x)=g\\left(\\frac{x}{1+nx}\\right)  =\\frac{\\frac{x}{1+nx}}{1+\\frac{x}{1+nx}}=\\frac{x}{1+(n+1)x}\n$$\n<p>故结论对一切正整数 $n$ 成立.</p></li><li><p>先证明当 $x\\geqslant0$ 时，$f(x)\\ge g(x)$. 令</p>\n$$\n\\varphi(x)=\\ln(1+x)-\\frac{x}{1+x}\n$$\n<p>则</p><p>$\\varphi'(x)=\\frac{1}{1+x}-\\frac{1}{(1+x)^{2}}=\\frac{x}{(1+x)^{2}}\\geqslant0$，$\\varphi(0)=0$.</p><p>所以 $\\varphi(x)\\geqslant0$，即 $f(x)\\ge g(x)$. 因为 $g(x)\\geqslant0$，当 $\\alpha\\leqslant1$ 时有</p>\n$$\n\\alpha g(x)\\le g(x)\\le f(x)\n$$\n<p>故 $\\alpha\\leqslant1$ 时条件恒成立.</p><p>再证其必要性. 若 $\\alpha>1$，令</p>\n$$\n\\psi(x)=x-\\ln(1+x)\n$$\n<p>则</p><p>$\\psi'(x)=\\frac{x}{1+x}\\geqslant0$，$\\psi(0)=0$，</p><p>所以 $\\ln(1+x)\\le x$. 取 $0&#x3C;x&#x3C;\\alpha-1$，则</p>\n$$\n\\frac{f(x)}{g(x)}=\\frac{(1+x)\\ln(1+x)}{x}\\leqslant1+x&#x3C;\\alpha\n$$\n<p>即 $f(x)&#x3C;\\alpha g(x)$，与恒成立矛盾. 因此 $\\alpha$ 的取值范围为 $(-\\infty,1]$.</p></li><li><p>由 $g(k)=\\dfrac{k}{1+k}=1-\\dfrac1{k+1}$，有</p>\n$$\n\\sum_{k=1}^{n}g(k)=n-\\sum_{k=1}^{n}\\frac{1}{k+1}\n$$\n<p>对每个正整数 $k$，在区间 $[k,k+1]$ 上有 $x&#x3C;k+1$（除端点外），所以</p>\n$$\n\\int_{k}^{k+1}\\frac{1}{x}\\,dx>\\frac{1}{k+1}\n$$\n<p>求和得</p>\n$$\nf(n)=\\ln(n+1)=\\int_{1}^{n+1}\\frac{1}{x}\\,dx  =\\sum_{k=1}^{n}\\int_{k}^{k+1}\\frac{1}{x}\\,dx  >\\sum_{k=1}^{n}\\frac{1}{k+1}\n$$\n<p>因此</p>\n$$\ng(1)+g(2)+\\cdots+g(n)>n-f(n)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $f'(x)=\\dfrac1{1+x}$，得</p>\n$$\ng(x)=xf'(x)=\\frac{x}{1+x}\n$$\n<p>用数学归纳法证明：当 $n\\in\\mathbf{N}_{+}$ 时，</p>\n$$\ng_{n}(x)=\\frac{x}{1+nx}\n$$\n<p>当 $n=1$ 时结论成立. 若 $g_{n}(x)=\\dfrac{x}{1+nx}$，则</p>\n$$\ng_{n+1}(x)=g\\left(\\frac{x}{1+nx}\\right)  =\\frac{\\frac{x}{1+nx}}{1+\\frac{x}{1+nx}}=\\frac{x}{1+(n+1)x}\n$$\n<p>故结论对一切正整数 $n$ 成立.</p></li><li><p>先证明当 $x\\geqslant0$ 时，$f(x)\\ge g(x)$. 令</p>\n$$\n\\varphi(x)=\\ln(1+x)-\\frac{x}{1+x}\n$$\n<p>则</p><p>$\\varphi'(x)=\\frac{1}{1+x}-\\frac{1}{(1+x)^{2}}=\\frac{x}{(1+x)^{2}}\\geqslant0$，$\\varphi(0)=0$.</p><p>所以 $\\varphi(x)\\geqslant0$，即 $f(x)\\ge g(x)$. 因为 $g(x)\\geqslant0$，当 $\\alpha\\leqslant1$ 时有</p>\n$$\n\\alpha g(x)\\le g(x)\\le f(x)\n$$\n<p>故 $\\alpha\\leqslant1$ 时条件恒成立.</p><p>再证其必要性. 若 $\\alpha>1$，令</p>\n$$\n\\psi(x)=x-\\ln(1+x)\n$$\n<p>则</p><p>$\\psi'(x)=\\frac{x}{1+x}\\geqslant0$，$\\psi(0)=0$，</p><p>所以 $\\ln(1+x)\\le x$. 取 $0<x<\\alpha-1$，则</p>\n$$\n\\frac{f(x)}{g(x)}=\\frac{(1+x)\\ln(1+x)}{x}\\leqslant1+x<\\alpha\n$$\n<p>即 $f(x)<\\alpha g(x)$，与恒成立矛盾. 因此 $\\alpha$ 的取值范围为 $(-\\infty,1]$.</p></li><li><p>由 $g(k)=\\dfrac{k}{1+k}=1-\\dfrac1{k+1}$，有</p>\n$$\n\\sum_{k=1}^{n}g(k)=n-\\sum_{k=1}^{n}\\frac{1}{k+1}\n$$\n<p>对每个正整数 $k$，在区间 $[k,k+1]$ 上有 $x<k+1$（除端点外），所以</p>\n$$\n\\int_{k}^{k+1}\\frac{1}{x}\\,dx>\\frac{1}{k+1}\n$$\n<p>求和得</p>\n$$\nf(n)=\\ln(n+1)=\\int_{1}^{n+1}\\frac{1}{x}\\,dx  =\\sum_{k=1}^{n}\\int_{k}^{k+1}\\frac{1}{x}\\,dx  >\\sum_{k=1}^{n}\\frac{1}{k+1}\n$$\n<p>因此</p>\n$$\ng(1)+g(2)+\\cdots+g(n)>n-f(n)\n$$\n</li></ol>"
         }
       ]
     }

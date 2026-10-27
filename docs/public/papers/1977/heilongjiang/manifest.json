@@ -9,10 +9,10 @@
       "problems": [
         {
           "num": 1,
-          "body": "<p>解答下列各题.</p><ol class=\"enumerate\"><li><p>解方程：$\\sqrt{3x+4}=4$.</p></li><li><p>解不等式：$\\left|x\\right|&#x3C;5$.</p></li><li><p>已知正三角形的外接圆半径为 $6\\sqrt{3}\\mathrm{~cm}$，求它的边长.</p></li></ol>",
+          "body": "<p>解答下列各题.</p><ol class=\"enumerate\"><li><p>解方程：$\\sqrt{3x+4}=4$.</p></li><li><p>解不等式：$\\left|x\\right|<5$.</p></li><li><p>已知正三角形的外接圆半径为 $6\\sqrt{3}\\mathrm{~cm}$，求它的边长.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>根式有意义要求 $3x+4\\geqslant0$. 在此条件下，方程两边都是非负数，所以平方不改变方程的等价性：</p>\n$$\n3x+4=4^{2}=16\n$$\n<p>解得 $x=4$. 代回原方程，左边为 $\\sqrt{3\\times4+4}=\\sqrt{16}=4$，满足原方程，故解为 $x=4$.</p></li><li><p>因为 $5>0$，绝对值不等式的定义给出</p>\n$$\n\\left|x\\right|&#x3C;5\\Longleftrightarrow -5&#x3C;x&#x3C;5\n$$\n<p>所以不等式的解集为 $\\left(-5,5\\right)$.</p></li><li><p>设正三角形的边长为 $a$，高为 $h$. 高平分底边，在所得直角三角形中由勾股定理得</p><p>$h^{2}=a^{2}-\\left(\\frac{a}{2}\\right)^{2}=\\frac{3a^{2}}{4}$，$h=\\frac{\\sqrt{3}}{2}a$.</p><p>正三角形的外心、重心和内心重合，且外心把中线按顶点到外心为中线长的 $\\frac{2}{3}$ 分割，因此外接圆半径</p>\n$$\nR=\\frac{2}{3}h=\\frac{a}{\\sqrt{3}}\n$$\n<p>代入 $R=6\\sqrt{3}\\mathrm{~cm}$，得</p>\n$$\na=R\\sqrt{3}=6\\sqrt{3}\\times\\sqrt{3}=18\\mathrm{~cm}\n$$\n<p>所以正三角形的边长为 $18\\mathrm{~cm}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>根式有意义要求 $3x+4\\geqslant0$. 在此条件下，方程两边都是非负数，所以平方不改变方程的等价性：</p>\n$$\n3x+4=4^{2}=16\n$$\n<p>解得 $x=4$. 代回原方程，左边为 $\\sqrt{3\\times4+4}=\\sqrt{16}=4$，满足原方程，故解为 $x=4$.</p></li><li><p>因为 $5>0$，绝对值不等式的定义给出</p>\n$$\n\\left|x\\right|<5\\Longleftrightarrow -5<x<5\n$$\n<p>所以不等式的解集为 $\\left(-5,5\\right)$.</p></li><li><p>设正三角形的边长为 $a$，高为 $h$. 高平分底边，在所得直角三角形中由勾股定理得</p><p>$h^{2}=a^{2}-\\left(\\frac{a}{2}\\right)^{2}=\\frac{3a^{2}}{4}$，$h=\\frac{\\sqrt{3}}{2}a$.</p><p>正三角形的外心、重心和内心重合，且外心把中线按顶点到外心为中线长的 $\\frac{2}{3}$ 分割，因此外接圆半径</p>\n$$\nR=\\frac{2}{3}h=\\frac{a}{\\sqrt{3}}\n$$\n<p>代入 $R=6\\sqrt{3}\\mathrm{~cm}$，得</p>\n$$\na=R\\sqrt{3}=6\\sqrt{3}\\times\\sqrt{3}=18\\mathrm{~cm}\n$$\n<p>所以正三角形的边长为 $18\\mathrm{~cm}$.</p></li></ol>"
         },
         {
           "num": 2,
@@ -61,7 +61,7 @@
           "body": "已知三角形的三边成等差数列，周长为 $36 \\mathrm{~cm}$，面积为 $54 \\mathrm{~cm}^{2}$，求三边的长.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设三边按从小到大的顺序为 $12-d$、$12$、$12+d$，其中 $d\\geqslant0$. 这是因为三边和为 $36$，等差数列的中项等于平均数 $\\frac{36}{3}=12$. 三角形的最大边小于另外两边之和，故</p>\n$$\n12+d&#x3C;(12-d)+12\\Longleftrightarrow d&#x3C;6\n$$\n<p>半周长为 $s=18$. 根据海伦公式，</p>\n$$\n54^{2}=18\\left[18-(12-d)\\right](18-12)\\left[18-(12+d)\\right]  =18(6+d)\\cdot6\\cdot(6-d)=108(36-d^{2})\n$$\n<p>因此</p>\n$$\n2916=108(36-d^{2})\\Longleftrightarrow d^{2}=9\n$$\n<p>结合 $d\\geqslant0$，得 $d=3$. 所以三边分别为</p><p>$12-3=9\\mathrm{~cm}$，$12\\mathrm{~cm}$，$12+3=15\\mathrm{~cm}$.</p><p>最后，$9+12>15$，且代入海伦公式得到面积 $54\\mathrm{~cm}^{2}$，满足题设，故答案成立.</p>"
+          "solution": "<p>设三边按从小到大的顺序为 $12-d$、$12$、$12+d$，其中 $d\\geqslant0$. 这是因为三边和为 $36$，等差数列的中项等于平均数 $\\frac{36}{3}=12$. 三角形的最大边小于另外两边之和，故</p>\n$$\n12+d<(12-d)+12\\Longleftrightarrow d<6\n$$\n<p>半周长为 $s=18$. 根据海伦公式，</p>\n$$\n54^{2}=18\\left[18-(12-d)\\right](18-12)\\left[18-(12+d)\\right]  =18(6+d)\\cdot6\\cdot(6-d)=108(36-d^{2})\n$$\n<p>因此</p>\n$$\n2916=108(36-d^{2})\\Longleftrightarrow d^{2}=9\n$$\n<p>结合 $d\\geqslant0$，得 $d=3$. 所以三边分别为</p><p>$12-3=9\\mathrm{~cm}$，$12\\mathrm{~cm}$，$12+3=15\\mathrm{~cm}$.</p><p>最后，$9+12>15$，且代入海伦公式得到面积 $54\\mathrm{~cm}^{2}$，满足题设，故答案成立.</p>"
         }
       ]
     },

@@ -29,7 +29,7 @@
             "$y = \\log_{a} a^{x}$，其中 $a > 0$，$a \\neq 1$"
           ],
           "answer": "D",
-          "solution": "<p>选项 A 中，$\\sqrt{x^{2}}=|x|$，当 $x&#x3C;0$ 时不等于 $x$. 选项 B 中，$\\dfrac{x^2}{x}=x$ 只在 $x\\neq0$ 时成立，定义域不包括 $0$. 选项 C 中，$a^{\\log_a x}=x$ 的定义域为 $x>0$，也不是函数 $y=x$ 的定义域.</p><p>对任意 $x\\in\\mathbb{R}$，都有 $\\log_{a} a^{x}=x$，且 $a>0$，$a\\neq1$ 时该式有意义，因此选项 D 的函数与 $y=x$ 的图象相同.</p>"
+          "solution": "<p>选项 A 中，$\\sqrt{x^{2}}=|x|$，当 $x<0$ 时不等于 $x$. 选项 B 中，$\\dfrac{x^2}{x}=x$ 只在 $x\\neq0$ 时成立，定义域不包括 $0$. 选项 C 中，$a^{\\log_a x}=x$ 的定义域为 $x>0$，也不是函数 $y=x$ 的定义域.</p><p>对任意 $x\\in\\mathbb{R}$，都有 $\\log_{a} a^{x}=x$，且 $a>0$，$a\\neq1$ 时该式有意义，因此选项 D 的函数与 $y=x$ 的图象相同.</p>"
         },
         {
           "num": 3,
@@ -53,7 +53,7 @@
             "$48$"
           ],
           "answer": "B",
-          "solution": "<p>设等比数列的公比为 $q$. 由 $a_{2}=a_{1}q$、$a_{3}=a_{1}q^{2}$，有</p><p>$a_{1}(1+q)=12$，$a_{1}q(1+q)=-6$.</p><p>因为 $a_{1}(1+q)=12\\neq0$，两式相除得 $q=-\\dfrac{1}{2}$. 于是 $|q|&#x3C;1$，且</p>\n$$\na_{1}=\\frac{12}{1+q}=\\frac{12}{1-\\frac{1}{2}}=24\n$$\n<p>因此无穷等比数列的和为</p>\n$$\n\\lim_{n\\to\\infty}S_{n}=\\frac{a_{1}}{1-q}=\\frac{24}{1+\\frac{1}{2}}=16\n$$\n<p>故选 B.</p>"
+          "solution": "<p>设等比数列的公比为 $q$. 由 $a_{2}=a_{1}q$、$a_{3}=a_{1}q^{2}$，有</p><p>$a_{1}(1+q)=12$，$a_{1}q(1+q)=-6$.</p><p>因为 $a_{1}(1+q)=12\\neq0$，两式相除得 $q=-\\dfrac{1}{2}$. 于是 $|q|<1$，且</p>\n$$\na_{1}=\\frac{12}{1+q}=\\frac{12}{1-\\frac{1}{2}}=24\n$$\n<p>因此无穷等比数列的和为</p>\n$$\n\\lim_{n\\to\\infty}S_{n}=\\frac{a_{1}}{1-q}=\\frac{24}{1+\\frac{1}{2}}=16\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 5,
@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "如果 $\\left|\\cos \\theta\\right| = \\frac{1}{5}$，$\\frac{5\\pi}{2}&#x3C; \\theta &#x3C; 3\\pi$，那么 $\\sin \\frac{\\theta}{2}$ 的值等于（$ $）",
+          "body": "如果 $\\left|\\cos \\theta\\right| = \\frac{1}{5}$，$\\frac{5\\pi}{2}< \\theta < 3\\pi$，那么 $\\sin \\frac{\\theta}{2}$ 的值等于（$ $）",
           "choices": [
             "$-\\frac{\\sqrt{10}}{5}$",
             "$\\frac{\\sqrt{10}}{5}$",
@@ -77,7 +77,7 @@
             "$\\frac{\\sqrt{15}}{5}$"
           ],
           "answer": "C",
-          "solution": "<p>因为 $\\frac{5\\pi}{2}&#x3C;\\theta&#x3C;3\\pi$，所以 $\\frac{\\pi}{2}&#x3C;\\theta-2\\pi&#x3C;\\pi$，从而 $\\cos\\theta&#x3C;0$. 结合 $\\left|\\cos\\theta\\right|=\\frac{1}{5}$，得 $\\cos\\theta=-\\frac{1}{5}$. 又因为 $\\frac{5\\pi}{4}&#x3C;\\frac{\\theta}{2}&#x3C;\\frac{3\\pi}{2}$，所以 $\\sin\\frac{\\theta}{2}&#x3C;0$. 由半角公式，</p>\n$$\n\\sin^{2}\\frac{\\theta}{2}=\\frac{1-\\cos\\theta}{2}=\\frac{1+\\frac{1}{5}}{2}=\\frac{3}{5}\n$$\n<p>因此 $\\sin\\frac{\\theta}{2}=-\\frac{\\sqrt{15}}{5}$，故选 C.</p>"
+          "solution": "<p>因为 $\\frac{5\\pi}{2}<\\theta<3\\pi$，所以 $\\frac{\\pi}{2}<\\theta-2\\pi<\\pi$，从而 $\\cos\\theta<0$. 结合 $\\left|\\cos\\theta\\right|=\\frac{1}{5}$，得 $\\cos\\theta=-\\frac{1}{5}$. 又因为 $\\frac{5\\pi}{4}<\\frac{\\theta}{2}<\\frac{3\\pi}{2}$，所以 $\\sin\\frac{\\theta}{2}<0$. 由半角公式，</p>\n$$\n\\sin^{2}\\frac{\\theta}{2}=\\frac{1-\\cos\\theta}{2}=\\frac{1+\\frac{1}{5}}{2}=\\frac{3}{5}\n$$\n<p>因此 $\\sin\\frac{\\theta}{2}=-\\frac{\\sqrt{15}}{5}$，故选 C.</p>"
         },
         {
           "num": 7,
@@ -149,7 +149,7 @@
             "在区间 $(0,2)$ 上是增函数"
           ],
           "answer": "A",
-          "solution": "<p>由复合函数求导，</p>\n$$\ng'(x)=f'(2-x^{2})(-2x)=\\left(2-2(2-x^{2})\\right)(-2x)=4x(1-x^{2})\n$$\n<p>在 $(-1,0)$ 上，$x&#x3C;0$ 且 $1-x^{2}>0$，所以 $g'(x)&#x3C;0$，函数是减函数. 在 $(0,1)$ 上，$g'(x)>0$，函数是增函数.</p><p>在 $(-2,0)$ 和 $(0,2)$ 上，$g'(x)$ 都会在 $x=-1$ 或 $x=1$ 处变号，不能分别保持单调递增. 因此只有选项 A 正确.</p>"
+          "solution": "<p>由复合函数求导，</p>\n$$\ng'(x)=f'(2-x^{2})(-2x)=\\left(2-2(2-x^{2})\\right)(-2x)=4x(1-x^{2})\n$$\n<p>在 $(-1,0)$ 上，$x<0$ 且 $1-x^{2}>0$，所以 $g'(x)<0$，函数是减函数. 在 $(0,1)$ 上，$g'(x)>0$，函数是增函数.</p><p>在 $(-2,0)$ 和 $(0,2)$ 上，$g'(x)$ 都会在 $x=-1$ 或 $x=1$ 处变号，不能分别保持单调递增. 因此只有选项 A 正确.</p>"
         }
       ]
     },
@@ -168,14 +168,14 @@
           "body": "不等式 $|x^{2} - 3x| > 4$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(-\\infty,-1\\right)\\cup\\left(4,+\\infty\\right)$",
-          "solution": "<p>由绝对值不等式的定义，原不等式等价于</p>\n$$\nx^{2}-3x>4 \\text{或}  x^{2}-3x&#x3C;-4\n$$\n<p>第一种情况给出</p>\n$$\nx^{2}-3x-4>0\\Longleftrightarrow (x-4)(x+1)>0\n$$\n<p>所以 $x&#x3C;-1$ 或 $x>4$. 第二种情况给出</p>\n$$\nx^{2}-3x+4&#x3C;0\n$$\n<p>但该二次式的判别式为 $9-16=-7&#x3C;0$，且二次项系数为正，始终大于零，无解. 因此解集为 $\\left(-\\infty,-1\\right)\\cup\\left(4,+\\infty\\right)$.</p>"
+          "solution": "<p>由绝对值不等式的定义，原不等式等价于</p>\n$$\nx^{2}-3x>4 \\text{或}  x^{2}-3x<-4\n$$\n<p>第一种情况给出</p>\n$$\nx^{2}-3x-4>0\\Longleftrightarrow (x-4)(x+1)>0\n$$\n<p>所以 $x<-1$ 或 $x>4$. 第二种情况给出</p>\n$$\nx^{2}-3x+4<0\n$$\n<p>但该二次式的判别式为 $9-16=-7<0$，且二次项系数为正，始终大于零，无解. 因此解集为 $\\left(-\\infty,-1\\right)\\cup\\left(4,+\\infty\\right)$.</p>"
         },
         {
           "num": 15,
           "body": "函数 $y = \\frac{\\mathrm{e}^{x} - 1}{\\mathrm{e}^{x} + 1}$ 的反函数的定义域是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(-1,1\\right)$",
-          "solution": "<p>令 $t=\\mathrm{e}^{x}$，则 $t>0$，且原函数可写为 $y=\\dfrac{t-1}{t+1}$. 由于</p><p>$y+1=\\frac{2t}{t+1}>0$，$1-y=\\frac{2}{t+1}>0$，</p><p>所以 $-1&#x3C;y&#x3C;1$. 反过来，若 $-1&#x3C;y&#x3C;1$，则由 $y=\\dfrac{t-1}{t+1}$ 解得</p>\n$$\nt=\\frac{1+y}{1-y}>0\n$$\n<p>确有相应的 $x=\\ln t$. 因此原函数的值域为 $\\left(-1,1\\right)$，也就是反函数的定义域.</p>"
+          "solution": "<p>令 $t=\\mathrm{e}^{x}$，则 $t>0$，且原函数可写为 $y=\\dfrac{t-1}{t+1}$. 由于</p><p>$y+1=\\frac{2t}{t+1}>0$，$1-y=\\frac{2}{t+1}>0$，</p><p>所以 $-1<y<1$. 反过来，若 $-1<y<1$，则由 $y=\\dfrac{t-1}{t+1}$ 解得</p>\n$$\nt=\\frac{1+y}{1-y}>0\n$$\n<p>确有相应的 $x=\\ln t$. 因此原函数的值域为 $\\left(-1,1\\right)$，也就是反函数的定义域.</p>"
         },
         {
           "num": 16,
@@ -186,10 +186,10 @@
         },
         {
           "num": 17,
-          "body": "已知 $0 &#x3C; a &#x3C; 1$，$0 &#x3C; b &#x3C; 1$，$a^{\\log_b(x - 3)}&#x3C; 1$，那么 $x$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知 $0 < a < 1$，$0 < b < 1$，$a^{\\log_b(x - 3)}< 1$，那么 $x$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$3&#x3C;x&#x3C;4$",
-          "solution": "<p>因为 $0&#x3C;a&#x3C;1$，指数函数 $a^{u}$ 在 $\\mathbb{R}$ 上是减函数，且 $a^{0}=1$，所以</p>\n$$\na^{\\log_b(x-3)}&#x3C;1\\Longleftrightarrow \\log_{b}(x-3)>0\n$$\n<p>又因为 $0&#x3C;b&#x3C;1$，对数函数 $\\log_{b} t$ 在 $t>0$ 上是减函数，且 $\\log_{b}1=0$，故</p>\n$$\n\\log_{b}(x-3)>0\\Longleftrightarrow 0&#x3C;x-3&#x3C;1\n$$\n<p>因此 $x$ 的取值范围为 $3&#x3C;x&#x3C;4$.</p>"
+          "answer": "$3<x<4$",
+          "solution": "<p>因为 $0<a<1$，指数函数 $a^{u}$ 在 $\\mathbb{R}$ 上是减函数，且 $a^{0}=1$，所以</p>\n$$\na^{\\log_b(x-3)}<1\\Longleftrightarrow \\log_{b}(x-3)>0\n$$\n<p>又因为 $0<b<1$，对数函数 $\\log_{b} t$ 在 $t>0$ 上是减函数，且 $\\log_{b}1=0$，故</p>\n$$\n\\log_{b}(x-3)>0\\Longleftrightarrow 0<x-3<1\n$$\n<p>因此 $x$ 的取值范围为 $3<x<4$.</p>"
         },
         {
           "num": 18,
@@ -236,7 +236,7 @@
           "body": "已知 $a > 0$，$a \\neq 1$，试求使方程 $\\log_{a}(x - ak) = \\log_{a^2}(x^{2} - a^{2})$ 有解的 $k$ 的取值范围.",
           "choices": null,
           "answer": "",
-          "solution": "<p>方程有意义必须满足</p><p>$x-ak>0$，$x^{2}-a^{2}>0$.</p><p>又因为 $\\log_{a^2}u=\\dfrac{1}{2}\\log_{a} u$，原方程等价于</p>\n$$\n2\\log_{a}(x-ak)=\\log_{a}(x^{2}-a^{2})\n$$\n<p>由于 $a>0$ 且 $a\\neq1$，对数函数 $\\log_{a} x$ 是一一对应的，所以</p>\n$$\n(x-ak)^{2}=x^{2}-a^{2}\n$$\n<p>整理得</p>\n$$\n-2akx+a^{2}k^{2}=-a^{2}\n$$\n<p>当 $k=0$ 时上式变为 $0=-a^{2}$，不可能. 当 $k\\neq0$ 时，</p><p>$x=\\frac{a(k^{2}+1)}{2k}$，$x-ak=\\frac{a(1-k^{2})}{2k}$.</p><p>因为 $a>0$，定义域条件 $x-ak>0$ 等价于</p>\n$$\n\\frac{1-k^{2}}{k}>0\n$$\n<p>分类讨论：当 $k>0$ 时，需 $1-k^{2}>0$，即 $0&#x3C;k&#x3C;1$；当 $k&#x3C;0$ 时，需 $1-k^{2}&#x3C;0$，即 $k&#x3C;-1$. 对这些 $k$，由 $(x-ak)^{2}=x^{2}-a^{2}$ 且 $x-ak>0$，自动有 $x^{2}-a^{2}>0$，所以解确实满足全部定义域条件.</p><p>故 $k$ 的取值范围为 $\\left(-\\infty,-1\\right)\\cup\\left(0,1\\right)$.</p>"
+          "solution": "<p>方程有意义必须满足</p><p>$x-ak>0$，$x^{2}-a^{2}>0$.</p><p>又因为 $\\log_{a^2}u=\\dfrac{1}{2}\\log_{a} u$，原方程等价于</p>\n$$\n2\\log_{a}(x-ak)=\\log_{a}(x^{2}-a^{2})\n$$\n<p>由于 $a>0$ 且 $a\\neq1$，对数函数 $\\log_{a} x$ 是一一对应的，所以</p>\n$$\n(x-ak)^{2}=x^{2}-a^{2}\n$$\n<p>整理得</p>\n$$\n-2akx+a^{2}k^{2}=-a^{2}\n$$\n<p>当 $k=0$ 时上式变为 $0=-a^{2}$，不可能. 当 $k\\neq0$ 时，</p><p>$x=\\frac{a(k^{2}+1)}{2k}$，$x-ak=\\frac{a(1-k^{2})}{2k}$.</p><p>因为 $a>0$，定义域条件 $x-ak>0$ 等价于</p>\n$$\n\\frac{1-k^{2}}{k}>0\n$$\n<p>分类讨论：当 $k>0$ 时，需 $1-k^{2}>0$，即 $0<k<1$；当 $k<0$ 时，需 $1-k^{2}<0$，即 $k<-1$. 对这些 $k$，由 $(x-ak)^{2}=x^{2}-a^{2}$ 且 $x-ak>0$，自动有 $x^{2}-a^{2}>0$，所以解确实满足全部定义域条件.</p><p>故 $k$ 的取值范围为 $\\left(-\\infty,-1\\right)\\cup\\left(0,1\\right)$.</p>"
         },
         {
           "num": 24,

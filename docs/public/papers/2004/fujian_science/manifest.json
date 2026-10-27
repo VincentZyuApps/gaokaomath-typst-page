@@ -131,9 +131,9 @@
           "num": 11,
           "body": "定义在 $\\mathbb{R}$ 上的偶函数 $f(x)$ 满足 $f(x)=f(x+2)$，当 $x\\in[3,5]$ 时，$f(x)=2-|x-4|$，则（$ $）",
           "choices": [
-            "$f\\left(\\sin\\frac{\\pi}{6}\\right)&#x3C;f\\left(\\cos\\frac{\\pi}{6}\\right)$",
+            "$f\\left(\\sin\\frac{\\pi}{6}\\right)<f\\left(\\cos\\frac{\\pi}{6}\\right)$",
             "$f(\\sin 1)>f(\\cos 1)$",
-            "$f\\left(\\cos\\frac{2\\pi}{3}\\right)&#x3C;f\\left(\\sin\\frac{2\\pi}{3}\\right)$",
+            "$f\\left(\\cos\\frac{2\\pi}{3}\\right)<f\\left(\\sin\\frac{2\\pi}{3}\\right)$",
             "$f(\\cos 2)>f(\\sin 2)$"
           ],
           "answer": "",
@@ -165,7 +165,7 @@
         },
         {
           "num": 14,
-          "body": "设函数 $f(x)=\\begin{cases}\\frac{\\sqrt{1+x}-1}{x}, &#x26; x\\neq 0,\\\\\n\na, &#x26; x=0,\\end{cases}$ 在 $x=0$ 处连续，则实数 $a$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "设函数 $f(x)=\\begin{cases}\\frac{\\sqrt{1+x}-1}{x}, & x\\neq 0,\\\\\n\na, & x=0,\\end{cases}$ 在 $x=0$ 处连续，则实数 $a$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -191,7 +191,7 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>设函数 $f(x)=\\mathbf{a}\\cdot\\mathbf{b}$，其中向量 $\\mathbf{a}=(2\\cos x,1)$，$\\mathbf{b}=(\\cos x,\\sqrt{3}\\sin 2x)$，$x\\in\\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>若 $f(x)=1-\\sqrt{3}$ 且 $x\\in\\left[-\\frac{\\pi}{3},\\frac{\\pi}{3}\\right]$，求 $x$；</p></li><li><p>若函数 $y=2\\sin 2x$ 的图象按向量 $\\mathbf{c}=(m,n)$（$|m|&#x3C;\\frac{\\pi}{2}$）平移后得到函数 $y=f(x)$ 的图象，求实数 $m$，$n$ 的值.</p></li></ol>",
+          "body": "<p>设函数 $f(x)=\\mathbf{a}\\cdot\\mathbf{b}$，其中向量 $\\mathbf{a}=(2\\cos x,1)$，$\\mathbf{b}=(\\cos x,\\sqrt{3}\\sin 2x)$，$x\\in\\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>若 $f(x)=1-\\sqrt{3}$ 且 $x\\in\\left[-\\frac{\\pi}{3},\\frac{\\pi}{3}\\right]$，求 $x$；</p></li><li><p>若函数 $y=2\\sin 2x$ 的图象按向量 $\\mathbf{c}=(m,n)$（$|m|<\\frac{\\pi}{2}$）平移后得到函数 $y=f(x)$ 的图象，求实数 $m$，$n$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

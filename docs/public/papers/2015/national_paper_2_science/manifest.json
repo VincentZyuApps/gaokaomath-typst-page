@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{-2,-1,0,1,2\\}$，$B=\\{x\\mid (x-1)(x+2)&#x3C;0\\}$，则 $A\\cap B$ 等于（ ）",
+          "body": "已知集合 $A=\\{-2,-1,0,1,2\\}$，$B=\\{x\\mid (x-1)(x+2)<0\\}$，则 $A\\cap B$ 等于（ ）",
           "choices": [
             "$\\{-1,0\\}$",
             "$\\{0,1\\}$",
@@ -17,7 +17,7 @@
             "$\\{0,1,2\\}$"
           ],
           "answer": "A",
-          "solution": "由 $(x-1)(x+2)&#x3C;0$ 得 $-2&#x3C;x&#x3C;1$，所以 $B=(-2,1)$. 在集合 $A$ 中属于该开区间的元素为 $-1$，$0$，故 $A\\cap B=\\{-1,0\\}$，选 A."
+          "solution": "由 $(x-1)(x+2)<0$ 得 $-2<x<1$，所以 $B=(-2,1)$. 在集合 $A$ 中属于该开区间的元素为 $-1$，$0$，故 $A\\cap B=\\{-1,0\\}$，选 A."
         },
         {
           "num": 2,
@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "设函数 $f(x)=\\begin{cases}1+\\log_{2}(2-x),&#x26;x&#x3C;1,\\\\  2^{x-1},&#x26;x\\ge 1,\\end{cases}$ 则 $f(-2)+f(\\log_{2} 12)=$（ ）",
+          "body": "设函数 $f(x)=\\begin{cases}1+\\log_{2}(2-x),&x<1,\\\\  2^{x-1},&x\\ge 1,\\end{cases}$ 则 $f(-2)+f(\\log_{2} 12)=$（ ）",
           "choices": [
             "$3$",
             "$6$",
@@ -65,7 +65,7 @@
             "$12$"
           ],
           "answer": "C",
-          "solution": "因为 $-2&#x3C;1$，所以 $f(-2)=1+\\log_{2} 4=3$. 又因为 $\\log_{2} 12>1$，应取第二段，故 $f(\\log_{2} 12)=2^{\\log_2 12-1}=\\frac{12}{2}=6$. 因而 $f(-2)+f(\\log_{2} 12)=9$，选 C."
+          "solution": "因为 $-2<1$，所以 $f(-2)=1+\\log_{2} 4=3$. 又因为 $\\log_{2} 12>1$，应取第二段，故 $f(\\log_{2} 12)=2^{\\log_2 12-1}=\\frac{12}{2}=6$. 因而 $f(-2)+f(\\log_{2} 12)=9$，选 C."
         },
         {
           "num": 6,
@@ -101,7 +101,7 @@
             "$14$"
           ],
           "answer": "B",
-          "solution": "<p>程序开始时 $a=14$，$b=18$. 因为 $a&#x3C;b$，先令 $b=b-a$，得到 $(a,b)=(14,4)$；随后依次作减法，得到</p><p>$(14,4)\\to(10,4)\\to(6,4)\\to(2,4)\\to(2,2)$.</p><p>此时 $a=b$，程序输出 $a=2$，选 B.</p>"
+          "solution": "<p>程序开始时 $a=14$，$b=18$. 因为 $a<b$，先令 $b=b-a$，得到 $(a,b)=(14,4)$；随后依次作减法，得到</p><p>$(14,4)\\to(10,4)\\to(6,4)\\to(2,4)\\to(2,2)$.</p><p>此时 $a=b$，程序输出 $a=2$，选 B.</p>"
         },
         {
           "num": 9,
@@ -113,16 +113,16 @@
             "$256\\pi$"
           ],
           "answer": "C",
-          "solution": "<p>设球的半径为 $R$. 取空间直角坐标系，使 $O=(0,0,0)$，$A=(R,0,0)$，$B=(0,R,0)$. 设 $C=(x,y,z)$，则 $x^{2}+y^{2}+z^{2}=R^{2}$. 三棱锥 $O-ABC$ 的体积为</p><p>$V=\\frac{1}{6}\\left|\\det\\begin{pmatrix}R&#x26;0&#x26;0\\\\0&#x26;R&#x26;0\\\\x&#x26;y&#x26;z\\end{pmatrix}\\right|=\\frac{1}{6}R^{2}|z|$.</p><p>由于 $|z|\\le R$，且 $C$ 可取为球的南、北极，体积最大值为 $\\frac{1}{6}R^{3}$. 由 $\\frac{1}{6}R^{3}=36$ 得 $R=6$，所以球面面积为 $4\\pi R^{2}=144\\pi$，选 C.</p>"
+          "solution": "<p>设球的半径为 $R$. 取空间直角坐标系，使 $O=(0,0,0)$，$A=(R,0,0)$，$B=(0,R,0)$. 设 $C=(x,y,z)$，则 $x^{2}+y^{2}+z^{2}=R^{2}$. 三棱锥 $O-ABC$ 的体积为</p><p>$V=\\frac{1}{6}\\left|\\det\\begin{pmatrix}R&0&0\\\\0&R&0\\\\x&y&z\\end{pmatrix}\\right|=\\frac{1}{6}R^{2}|z|$.</p><p>由于 $|z|\\le R$，且 $C$ 可取为球的南、北极，体积最大值为 $\\frac{1}{6}R^{3}$. 由 $\\frac{1}{6}R^{3}=36$ 得 $R=6$，所以球面面积为 $4\\pi R^{2}=144\\pi$，选 C.</p>"
         },
         {
           "num": 10,
           "body": "<p>如图，长方形 $ABCD$ 的边 $AB=2$，$BC=1$，$O$ 是 $AB$ 的中点，点 $P$ 沿着边 $BC$，$CD$ 与 $DA$ 运动，记 $\\angle BOP=x$. 将动点 $P$ 到 $A$，$B$ 两点距离之和表示为 $x$ 的函数 $f(x)$，则 $y=f(x)$ 的图象大致为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_2_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_{p}aper_{2}_{s}cience/q10_{o}ptA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_{p}aper_{2}_{s}cience/q10_{o}ptB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_{p}aper_{2}_{s}cience/q10_{o}ptC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_{p}aper_{2}_{s}cience/q10_{o}ptD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$"
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_2_science/q10_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_2_science/q10_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_2_science/q10_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_paper_2_science/q10_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$"
           ],
           "answer": "B",
           "solution": "<p>取 $A=(-1,0)$，$O=(0,0)$，$B=(1,0)$，$C=(1,1)$，$D=(-1,1)$. 当 $P$ 在 $BC$ 上运动时，令 $P=(1,y)$，其中 $0\\le y\\leqslant1$，则 $x=\\arctan y$，且 $f(x)=\\sqrt{4+y^{2}}+y$，故函数在 $0\\le x\\le\\frac{\\pi}{4}$ 上递增.</p><p>当 $P$ 在 $CD$ 上时，令 $P=(u,1)$，则 $u=\\cot x$，且</p><p>$f(x)=\\sqrt{(u+1)^{2}+1}+\\sqrt{(u-1)^{2}+1}$. 记右侧为 $F(u)$，则 $F$ 是偶函数. 令 $\\varphi(t)=\\frac{t}{\\sqrt{t^{2}+1}}$，则 $\\varphi'(t)=\\frac{1}{(t^{2}+1)^{\\frac{3}{2}}}>0$. 当 $0\\le u\\leqslant1$ 时，</p><p>$F'(u)=\\varphi(u+1)+\\varphi(u-1)=\\varphi(u+1)-\\varphi(1-u)\\geqslant0$，所以 $F$ 在 $[0,1]$ 上递增. 由于 $u=\\cot x$ 随 $x$ 增大而减小，函数在 $CD$ 上先减后增. 当 $P$ 在 $DA$ 上时，函数由 $\\sqrt{5}+1$ 下降到 $2$. 因而图象依次呈现“上升、下降、上升、下降”，且关于 $x=\\frac{\\pi}{2}$ 对称，符合图 B，选 B.</p>"
@@ -141,7 +141,7 @@
         },
         {
           "num": 12,
-          "body": "设函数 $f'(x)$ 是奇函数 $f(x)$（$x\\in\\mathbb{R}$）的导函数，$f(-1)=0$，当 $x>0$ 时，$xf'(x)-f(x)&#x3C;0$，则使得 $f(x)>0$ 成立的 $x$ 的取值范围是（ ）",
+          "body": "设函数 $f'(x)$ 是奇函数 $f(x)$（$x\\in\\mathbb{R}$）的导函数，$f(-1)=0$，当 $x>0$ 时，$xf'(x)-f(x)<0$，则使得 $f(x)>0$ 成立的 $x$ 的取值范围是（ ）",
           "choices": [
             "$(-\\infty,-1)\\cup(0,1)$",
             "$(-1,0)\\cup(1,+\\infty)$",
@@ -149,7 +149,7 @@
             "$(0,1)\\cup(1,+\\infty)$"
           ],
           "answer": "A",
-          "solution": "<p>题设中的奇函数为 $f(x)$，所以 $f$ 为奇函数，且 $f(1)=-f(-1)=0$. 对 $x>0$，令 $g(x)=\\frac{f(x)}{x}$，则</p><p>$g'(x)=\\frac{xf'(x)-f(x)}{x^{2}}&#x3C;0$，故 $g$ 在 $(0,+\\infty)$ 上递减. 由 $g(1)=0$ 得，当 $0&#x3C;x&#x3C;1$ 时 $g(x)>0$，从而 $f(x)>0$；当 $x>1$ 时 $g(x)&#x3C;0$，从而 $f(x)&#x3C;0$. 又 $f$ 为奇函数，故 $x&#x3C;-1$ 时 $f(x)>0$，而 $-1&#x3C;x&#x3C;0$ 时 $f(x)&#x3C;0$，且 $f(0)=0$. 所以使 $f(x)>0$ 成立的 $x$ 的取值范围为 $\\left(-\\infty,-1\\right)\\cup\\left(0,1\\right)$，选 A.</p>"
+          "solution": "<p>题设中的奇函数为 $f(x)$，所以 $f$ 为奇函数，且 $f(1)=-f(-1)=0$. 对 $x>0$，令 $g(x)=\\frac{f(x)}{x}$，则</p><p>$g'(x)=\\frac{xf'(x)-f(x)}{x^{2}}<0$，故 $g$ 在 $(0,+\\infty)$ 上递减. 由 $g(1)=0$ 得，当 $0<x<1$ 时 $g(x)>0$，从而 $f(x)>0$；当 $x>1$ 时 $g(x)<0$，从而 $f(x)<0$. 又 $f$ 为奇函数，故 $x<-1$ 时 $f(x)>0$，而 $-1<x<0$ 时 $f(x)<0$，且 $f(0)=0$. 所以使 $f(x)>0$ 成立的 $x$ 的取值范围为 $\\left(-\\infty,-1\\right)\\cup\\left(0,1\\right)$，选 A.</p>"
         }
       ]
     },
@@ -182,7 +182,7 @@
           "body": "设 $S_{n}$ 是数列 $\\{a_{n}\\}$ 的前 $n$ 项和，且 $a_{1}=-1$，$a_{n+1}=S_{n}S_{n+1}$，则 $S_{n}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-\\frac{1}{n}$",
-          "solution": "<p>由 $a_{n+1}=S_{n+1}-S_{n}$ 及 $a_{n+1}=S_{n}S_{n+1}$，得 $S_{n+1}-S_{n}=S_{n}S_{n+1}$，即 $S_{n+1}(1-S_{n})=S_{n}$. 初值 $S_{1}=a_{1}=-1$. 若 $S_{n}&#x3C;0$，则由上式得 $S_{n+1}=\\frac{S_{n}}{1-S_{n}}&#x3C;0$，所以由数学归纳法知 $S_{n}&#x3C;0$，各项均非零，并且</p><p>$\\frac{1}{S_{n+1}}=\\frac{1}{S_{n}}-1$.</p><p>递推 $n-1$ 次，得 $\\frac{1}{S_{n}}=\\frac{1}{S_{1}}-(n-1)=-1-(n-1)=-n$，所以 $S_{n}=-\\frac{1}{n}$.</p>"
+          "solution": "<p>由 $a_{n+1}=S_{n+1}-S_{n}$ 及 $a_{n+1}=S_{n}S_{n+1}$，得 $S_{n+1}-S_{n}=S_{n}S_{n+1}$，即 $S_{n+1}(1-S_{n})=S_{n}$. 初值 $S_{1}=a_{1}=-1$. 若 $S_{n}<0$，则由上式得 $S_{n+1}=\\frac{S_{n}}{1-S_{n}}<0$，所以由数学归纳法知 $S_{n}<0$，各项均非零，并且</p><p>$\\frac{1}{S_{n+1}}=\\frac{1}{S_{n}}-1$.</p><p>递推 $n-1$ 次，得 $\\frac{1}{S_{n}}=\\frac{1}{S_{1}}-(n-1)=-1-(n-1)=-n$，所以 $S_{n}=-\\frac{1}{n}$.</p>"
         }
       ]
     },
@@ -222,7 +222,7 @@
           "body": "<p>设函数 $f(x)=\\mathrm{e}^{mx}+x^{2}-mx$.</p><ol class=\"enumerate\"><li><p>证明：$f(x)$ 在 $(-\\infty,0)$ 单调递减，在 $(0,+\\infty)$ 单调递增；</p></li><li><p>若对于任意 $x_{1}$，$x_{2}\\in[-1,1]$，都有 $\\left|f(x_{1})-f(x_{2})\\right|\\le \\mathrm{e}-1$，求 $m$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=m\\mathrm{e}^{mx}+2x-m=m\\left(\\mathrm{e}^{mx}-1\\right)+2x$. 当 $x>0$ 时，$m$ 与 $\\mathrm{e}^{mx}-1$ 同号或其中一个为零，所以 $m\\left(\\mathrm{e}^{mx}-1\\right)\\geqslant0$，从而 $f'(x)>0$. 当 $x&#x3C;0$ 时，$m\\left(\\mathrm{e}^{mx}-1\\right)\\leqslant0$，且 $2x&#x3C;0$，从而 $f'(x)&#x3C;0$. 因此 $f(x)$ 在 $(-\\infty,0)$ 上单调递减，在 $(0,+\\infty)$ 上单调递增.</p></li><li><p>由（1）知，$f$ 在 $[-1,1]$ 上以 $f(0)=1$ 为最小值，因此题设条件等价于 $\\mathrm{e}^{m}-m\\le\\mathrm{e}-1$，$\\mathrm{e}^{-m}+m\\le\\mathrm{e}-1$. 令 $g(t)=\\mathrm{e}^{t}-t$，则 $g'(t)=\\mathrm{e}^{t}-1$，所以 $g$ 在 $(-\\infty,0)$ 上递减，在 $(0,+\\infty)$ 上递增. 当 $-1\\le t\\leqslant1$ 时，$g(t)\\le g(1)=\\mathrm{e}-1$，且 $g(-1)=\\mathrm{e}^{-1}+1&#x3C;\\mathrm{e}-1$. 当 $m>1$ 时 $g(m)>g(1)$，当 $m&#x3C;-1$ 时 $g(-m)>g(1)$. 所以两个不等式同时成立的充要条件为 $-1\\le m\\leqslant1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=m\\mathrm{e}^{mx}+2x-m=m\\left(\\mathrm{e}^{mx}-1\\right)+2x$. 当 $x>0$ 时，$m$ 与 $\\mathrm{e}^{mx}-1$ 同号或其中一个为零，所以 $m\\left(\\mathrm{e}^{mx}-1\\right)\\geqslant0$，从而 $f'(x)>0$. 当 $x<0$ 时，$m\\left(\\mathrm{e}^{mx}-1\\right)\\leqslant0$，且 $2x<0$，从而 $f'(x)<0$. 因此 $f(x)$ 在 $(-\\infty,0)$ 上单调递减，在 $(0,+\\infty)$ 上单调递增.</p></li><li><p>由（1）知，$f$ 在 $[-1,1]$ 上以 $f(0)=1$ 为最小值，因此题设条件等价于 $\\mathrm{e}^{m}-m\\le\\mathrm{e}-1$，$\\mathrm{e}^{-m}+m\\le\\mathrm{e}-1$. 令 $g(t)=\\mathrm{e}^{t}-t$，则 $g'(t)=\\mathrm{e}^{t}-1$，所以 $g$ 在 $(-\\infty,0)$ 上递减，在 $(0,+\\infty)$ 上递增. 当 $-1\\le t\\leqslant1$ 时，$g(t)\\le g(1)=\\mathrm{e}-1$，且 $g(-1)=\\mathrm{e}^{-1}+1<\\mathrm{e}-1$. 当 $m>1$ 时 $g(m)>g(1)$，当 $m<-1$ 时 $g(-m)>g(1)$. 所以两个不等式同时成立的充要条件为 $-1\\le m\\leqslant1$.</p></li></ol>"
         }
       ]
     },
@@ -238,17 +238,17 @@
         },
         {
           "num": 23,
-          "body": "<p>在直角坐标系 $xOy$ 中，曲线 $C_{1}$：$\\begin{cases}x=t\\cos\\alpha,\\\\\n\ny=t\\sin\\alpha,\\end{cases}$（$t$ 为参数，$t\\neq 0$），其中 $0\\le\\alpha&#x3C;\\pi$. 在以 $O$ 为极点，$x$ 轴正半轴为极轴的极坐标系中，曲线 $C_{2}$：$\\rho=2\\sin\\theta$，$C_{3}$：$\\rho=2\\sqrt{3}\\cos\\theta$.</p><ol class=\"enumerate\"><li><p>求 $C_{2}$ 与 $C_{3}$ 交点的直角坐标；</p></li><li><p>若 $C_{1}$ 与 $C_{2}$ 相交于点 $A$，$C_{1}$ 与 $C_{3}$ 相交于点 $B$，求 $|AB|$ 的最大值.</p></li></ol>",
+          "body": "<p>在直角坐标系 $xOy$ 中，曲线 $C_{1}$：$\\begin{cases}x=t\\cos\\alpha,\\\\\n\ny=t\\sin\\alpha,\\end{cases}$（$t$ 为参数，$t\\neq 0$），其中 $0\\le\\alpha<\\pi$. 在以 $O$ 为极点，$x$ 轴正半轴为极轴的极坐标系中，曲线 $C_{2}$：$\\rho=2\\sin\\theta$，$C_{3}$：$\\rho=2\\sqrt{3}\\cos\\theta$.</p><ol class=\"enumerate\"><li><p>求 $C_{2}$ 与 $C_{3}$ 交点的直角坐标；</p></li><li><p>若 $C_{1}$ 与 $C_{2}$ 相交于点 $A$，$C_{1}$ 与 $C_{3}$ 相交于点 $B$，求 $|AB|$ 的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>由极坐标与直角坐标的关系，$C_{2}$ 的方程化为 $x^{2}+y^{2}=2y$，$C_{3}$ 的方程化为 $x^{2}+y^{2}=2\\sqrt{3}x$. 两式相减得 $y=\\sqrt{3}x$. 代回 $x^{2}+y^{2}=2y$，得 $4x^{2}=2\\sqrt{3}x$，所以 $x=0$ 或 $x=\\frac{\\sqrt{3}}{2}$. 相应的 $y$ 分别为 $0$ 和 $\\frac{3}{2}$，故交点为 $(0,0)$ 和 $\\left(\\frac{\\sqrt{3}}{2},\\frac{3}{2}\\right)$.</p></li><li><p>由 $C_{1}$ 的参数方程，代入 $C_{2}$ 的直角坐标方程得 $t^{2}=2t\\sin\\alpha$. 因 $t\\ne0$，所以 $t=2\\sin\\alpha$，从而 $A=(2\\sin\\alpha\\cos\\alpha,2\\sin^{2}\\alpha)$. 同理，代入 $C_{3}$ 得 $t=2\\sqrt{3}\\cos\\alpha$，从而 $B=(2\\sqrt{3}\\cos^{2}\\alpha,2\\sqrt{3}\\sin\\alpha\\cos\\alpha)$. 于是</p><p>$|AB|^{2}=4(\\sin\\alpha-\\sqrt{3}\\cos\\alpha)^{2}$.</p><p>由于 $(\\cos\\alpha,\\sin\\alpha)$ 是单位向量，$\\sin\\alpha-\\sqrt{3}\\cos\\alpha$ 的绝对值不超过 $\\sqrt{1+3}=2$，且在 $\\alpha=\\frac{5\\pi}{6}$ 时取到 $2$. 因此 $|AB|_{\\max}=4$.</p></li></ol>"
         },
         {
           "num": 24,
-          "body": "<p>设 $a$，$b$，$c$，$d$ 均为正数，且 $a+b=c+d$. 证明：</p><ol class=\"enumerate\"><li><p>若 $ab>cd$，则 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$；</p></li><li><p>$\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$ 是 $\\left|a-b\\right|&#x3C;\\left|c-d\\right|$ 的充要条件.</p></li></ol>",
+          "body": "<p>设 $a$，$b$，$c$，$d$ 均为正数，且 $a+b=c+d$. 证明：</p><ol class=\"enumerate\"><li><p>若 $ab>cd$，则 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$；</p></li><li><p>$\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$ 是 $\\left|a-b\\right|<\\left|c-d\\right|$ 的充要条件.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $a+b=c+d$，得 $(\\sqrt{a}+\\sqrt{b})^{2}=a+b+2\\sqrt{ab}$，$(\\sqrt{c}+\\sqrt{d})^{2}=c+d+2\\sqrt{cd}$. 当 $ab>cd$ 时，$\\sqrt{ab}>\\sqrt{cd}$，结合 $a+b=c+d$，有 $(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}$. 两边均为正数，所以 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$.</p></li><li><p>记 $S=a+b=c+d$. 由 $(a-b)^{2}=S^{2}-4ab$，$(c-d)^{2}=S^{2}-4cd$，可得 $|a-b|&#x3C;|c-d|\\Longleftrightarrow S^{2}-4ab&#x3C;S^{2}-4cd\\Longleftrightarrow ab>cd$. 又因为两边均为正数，结合 $a+b=c+d$，有</p><p>$\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}\\Longleftrightarrow(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}\\Longleftrightarrow ab>cd$. 因而 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$ 是 $|a-b|&#x3C;|c-d|$ 的充要条件.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $a+b=c+d$，得 $(\\sqrt{a}+\\sqrt{b})^{2}=a+b+2\\sqrt{ab}$，$(\\sqrt{c}+\\sqrt{d})^{2}=c+d+2\\sqrt{cd}$. 当 $ab>cd$ 时，$\\sqrt{ab}>\\sqrt{cd}$，结合 $a+b=c+d$，有 $(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}$. 两边均为正数，所以 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$.</p></li><li><p>记 $S=a+b=c+d$. 由 $(a-b)^{2}=S^{2}-4ab$，$(c-d)^{2}=S^{2}-4cd$，可得 $|a-b|<|c-d|\\Longleftrightarrow S^{2}-4ab<S^{2}-4cd\\Longleftrightarrow ab>cd$. 又因为两边均为正数，结合 $a+b=c+d$，有</p><p>$\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}\\Longleftrightarrow(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}\\Longleftrightarrow ab>cd$. 因而 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$ 是 $|a-b|<|c-d|$ 的充要条件.</p></li></ol>"
         }
       ]
     }

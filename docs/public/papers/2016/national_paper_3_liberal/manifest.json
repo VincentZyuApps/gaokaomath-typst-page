@@ -83,13 +83,13 @@
           "num": 7,
           "body": "已知 $a=2^{\\frac{4}{3}}$，$b=3^{\\frac{2}{3}}$，$c=25^{\\frac{1}{3}}$，则（ ）",
           "choices": [
-            "$b&#x3C;a&#x3C;c$",
-            "$a&#x3C;b&#x3C;c$",
-            "$b&#x3C;c&#x3C;a$",
-            "$c&#x3C;a&#x3C;b$"
+            "$b<a<c$",
+            "$a<b<c$",
+            "$b<c<a$",
+            "$c<a<b$"
           ],
           "answer": "A",
-          "solution": "三个数均为正数，比较它们的立方即可. 因为 $a^{3}=16$，$b^{3}=9$，$c^{3}=25$，且 $9&#x3C;16&#x3C;25$，所以 $b&#x3C;a&#x3C;c$，故选 A."
+          "solution": "三个数均为正数，比较它们的立方即可. 因为 $a^{3}=16$，$b^{3}=9$，$c^{3}=25$，且 $9<16<25$，所以 $b<a<c$，故选 A."
         },
         {
           "num": 8,
@@ -149,7 +149,7 @@
             "$\\dfrac{3}{4}$"
           ],
           "answer": "A",
-          "solution": "设 $c=\\sqrt{a^{2}-b^{2}}$，则 $F(-c,0)$，$A(-a,0)$，$B(a,0)$，且 $0&#x3C;c&#x3C;a$. 题面中的 $OE$ 是有中点的线段，按几何定义其两端点不同，故 $E\\ne O$. 因此 $l$ 不是 $x$ 轴；又因 $l$ 与 $y$ 轴相交，它不是过 $A$ 的竖直线. 设 $l$ 的方程为 $y=k\\left(x+a\\right)$，则 $k\\ne0$. 因为 $PF\\perp x$ 轴，线段 $PF$ 位于直线 $x=-c$ 上，故 $M\\left(-c,k\\left(a-c\\right)\\right)$，$E(0,ka)$. 设 $OE$ 的中点为 $N\\left(0,\\dfrac{ka}{2}\\right)$. 由 $B$，$M$，$N$ 共线，比较直线 $BM$ 和 $BN$ 的斜率得 $-\\dfrac{k\\left(a-c\\right)}{a+c}=-\\dfrac{k}{2}$. 约去非零的 $-k$，可得 $2\\left(a-c\\right)=a+c$，所以 $a=3c$，离心率为 $e=\\dfrac{c}{a}=\\dfrac{1}{3}$，故选 A. 若取 $l$ 为 $x$ 轴，则 $E=O$，线段 $OE$ 的两个端点重合，不符合原题几何对象的非退化定义，不能作为反例."
+          "solution": "设 $c=\\sqrt{a^{2}-b^{2}}$，则 $F(-c,0)$，$A(-a,0)$，$B(a,0)$，且 $0<c<a$. 题面中的 $OE$ 是有中点的线段，按几何定义其两端点不同，故 $E\\ne O$. 因此 $l$ 不是 $x$ 轴；又因 $l$ 与 $y$ 轴相交，它不是过 $A$ 的竖直线. 设 $l$ 的方程为 $y=k\\left(x+a\\right)$，则 $k\\ne0$. 因为 $PF\\perp x$ 轴，线段 $PF$ 位于直线 $x=-c$ 上，故 $M\\left(-c,k\\left(a-c\\right)\\right)$，$E(0,ka)$. 设 $OE$ 的中点为 $N\\left(0,\\dfrac{ka}{2}\\right)$. 由 $B$，$M$，$N$ 共线，比较直线 $BM$ 和 $BN$ 的斜率得 $-\\dfrac{k\\left(a-c\\right)}{a+c}=-\\dfrac{k}{2}$. 约去非零的 $-k$，可得 $2\\left(a-c\\right)=a+c$，所以 $a=3c$，离心率为 $e=\\dfrac{c}{a}=\\dfrac{1}{3}$，故选 A. 若取 $l$ 为 $x$ 轴，则 $E=O$，线段 $OE$ 的两个端点重合，不符合原题几何对象的非退化定义，不能作为反例."
         }
       ]
     },
@@ -215,14 +215,14 @@
           "body": "<p>已知抛物线 $C:y^{2}=2x$ 的焦点为 $F$，平行于 $x$ 轴的两条直线 $l_{1}$，$l_{2}$ 分别交 $C$ 于 $A$，$B$ 两点，交 $C$ 的准线于 $P$，$Q$ 两点.</p><ol class=\"enumerate\"><li><p>若 $F$ 在线段 $AB$ 上，$R$ 是 $PQ$ 的中点，证明 $AR\\parallel FQ$；</p></li><li><p>若 $\\triangle PQF$ 的面积是 $\\triangle ABF$ 的面积的两倍，求 $AB$ 中点的轨迹方程.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $l_{1}:y=t_{1}$，$l_{2}:y=t_{2}$. 平行直线没有公共点，故 $l_{1}$，$l_{2}$ 均不与 $x$ 轴重合，所以 $t_{1}\\ne0$，$t_{2}\\ne0$；两条直线不同，故 $t_{1}\\ne t_{2}$. 于是 $A\\left(\\dfrac{t_1^2}{2},t_{1}\\right)$，$B\\left(\\dfrac{t_2^2}{2},t_{2}\\right)$. 准线为 $x=-\\dfrac{1}{2}$，故 $P\\left(-\\dfrac{1}{2},t_{1}\\right)$，$Q\\left(-\\dfrac{1}{2},t_{2}\\right)$，焦点为 $F\\left(\\dfrac{1}{2},0\\right)$. 直线 $AB$ 的方程为</p>\n$$\nx-\\frac{t_{1}+t_{2}}{2}y+\\frac{t_{1}t_{2}}{2}=0\n$$\n<p>因为 $F$ 在线段 $AB$ 上，代入上式得 $t_{1}t_{2}=-1$. 又 $R$ 为 $PQ$ 的中点，所以</p>\n$$\n\\overrightarrow{AR}=\\left(-\\frac{1+t_{1}^{2}}{2},\\frac{t_{2}-t_{1}}{2}\\right)\n$$\n<p>由 $t_{1}t_{2}=-1$，有 $t_{2}-t_{1}=t_{2}+t_{1}^{2}t_{2}$，从而</p>\n$$\n\\overrightarrow{AR}=\\frac{1+t_{1}^{2}}{2}(-1,t_{2})=\\frac{1+t_{1}^{2}}{2}\\overrightarrow{FQ}\n$$\n<p>又 $R\\ne Q$，而直线 $FQ$ 与准线仅交于 $Q$，故 $R$ 不在直线 $FQ$ 上. 因此 $AR\\parallel FQ$.</p></li><li><p>沿用上述坐标与参数限制. 因为 $t_{1}\\ne t_{2}$，且焦点到准线的距离为 $1$，所以 $S_{\\triangle PQF}=\\dfrac{1}{2}\\left|t_{2}-t_{1}\\right|>0$. 由坐标计算面积，得 $S_{\\triangle ABF}=\\dfrac{1}{2}\\left|\\dfrac{t_1^2-1}{2}t_{2}-\\dfrac{t_2^2-1}{2}t_{1}\\right|=\\dfrac{1}{4}\\left|t_{2}-t_{1}\\right|\\left|1+t_{1}t_{2}\\right|$. 由 $S_{\\triangle PQF}=2S_{\\triangle ABF}$，约去非零因子 $\\dfrac{1}{2}\\left|t_{2}-t_{1}\\right|$，得 $\\left|1+t_{1}t_{2}\\right|=1$，即 $t_{1}t_{2}=0$ 或 $t_{1}t_{2}=-2$. 因为 $t_{1}$，$t_{2}$ 均非零，所以只能有 $t_{1}t_{2}=-2$. 设 $AB$ 的中点为 $H(x,y)$，则 $x=\\dfrac{t_1^2+t_2^2}{4}$，$y=\\dfrac{t_1+t_2}{2}$，故 $x-y^{2}=-\\dfrac{t_1t_2}{2}=1$，即 $y^{2}=x-1$.</p><p>反之，对曲线 $y^{2}=x-1$ 上任意一点 $H(x,y)$，取 $t_{1}=y+\\sqrt{y^{2}+2}$，$t_{2}=y-\\sqrt{y^{2}+2}$. 则 $t_{1}>0$，$t_{2}&#x3C;0$，故两参数不同且均非零，直线 $l_{1}$，$l_{2}$ 均与 $x$ 轴平行. 又 $t_{1}+t_{2}=2y$，$t_{1}t_{2}=-2$，所以 $\\dfrac{t_1^2+t_2^2}{4}=y^{2}+1=x$，所得 $AB$ 的中点恰为 $H$. 代入面积公式得 $S_{\\triangle ABF}=\\dfrac{1}{4}\\left|t_{2}-t_{1}\\right|>0$，$S_{\\triangle PQF}=2S_{\\triangle ABF}$，满足全部题设条件. 因此完整轨迹为 $y^{2}=x-1$. 参数乘积为零会使某条直线与 $x$ 轴重合，违反原题的平行条件，不能产生另一轨迹分支.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $l_{1}:y=t_{1}$，$l_{2}:y=t_{2}$. 平行直线没有公共点，故 $l_{1}$，$l_{2}$ 均不与 $x$ 轴重合，所以 $t_{1}\\ne0$，$t_{2}\\ne0$；两条直线不同，故 $t_{1}\\ne t_{2}$. 于是 $A\\left(\\dfrac{t_1^2}{2},t_{1}\\right)$，$B\\left(\\dfrac{t_2^2}{2},t_{2}\\right)$. 准线为 $x=-\\dfrac{1}{2}$，故 $P\\left(-\\dfrac{1}{2},t_{1}\\right)$，$Q\\left(-\\dfrac{1}{2},t_{2}\\right)$，焦点为 $F\\left(\\dfrac{1}{2},0\\right)$. 直线 $AB$ 的方程为</p>\n$$\nx-\\frac{t_{1}+t_{2}}{2}y+\\frac{t_{1}t_{2}}{2}=0\n$$\n<p>因为 $F$ 在线段 $AB$ 上，代入上式得 $t_{1}t_{2}=-1$. 又 $R$ 为 $PQ$ 的中点，所以</p>\n$$\n\\overrightarrow{AR}=\\left(-\\frac{1+t_{1}^{2}}{2},\\frac{t_{2}-t_{1}}{2}\\right)\n$$\n<p>由 $t_{1}t_{2}=-1$，有 $t_{2}-t_{1}=t_{2}+t_{1}^{2}t_{2}$，从而</p>\n$$\n\\overrightarrow{AR}=\\frac{1+t_{1}^{2}}{2}(-1,t_{2})=\\frac{1+t_{1}^{2}}{2}\\overrightarrow{FQ}\n$$\n<p>又 $R\\ne Q$，而直线 $FQ$ 与准线仅交于 $Q$，故 $R$ 不在直线 $FQ$ 上. 因此 $AR\\parallel FQ$.</p></li><li><p>沿用上述坐标与参数限制. 因为 $t_{1}\\ne t_{2}$，且焦点到准线的距离为 $1$，所以 $S_{\\triangle PQF}=\\dfrac{1}{2}\\left|t_{2}-t_{1}\\right|>0$. 由坐标计算面积，得 $S_{\\triangle ABF}=\\dfrac{1}{2}\\left|\\dfrac{t_1^2-1}{2}t_{2}-\\dfrac{t_2^2-1}{2}t_{1}\\right|=\\dfrac{1}{4}\\left|t_{2}-t_{1}\\right|\\left|1+t_{1}t_{2}\\right|$. 由 $S_{\\triangle PQF}=2S_{\\triangle ABF}$，约去非零因子 $\\dfrac{1}{2}\\left|t_{2}-t_{1}\\right|$，得 $\\left|1+t_{1}t_{2}\\right|=1$，即 $t_{1}t_{2}=0$ 或 $t_{1}t_{2}=-2$. 因为 $t_{1}$，$t_{2}$ 均非零，所以只能有 $t_{1}t_{2}=-2$. 设 $AB$ 的中点为 $H(x,y)$，则 $x=\\dfrac{t_1^2+t_2^2}{4}$，$y=\\dfrac{t_1+t_2}{2}$，故 $x-y^{2}=-\\dfrac{t_1t_2}{2}=1$，即 $y^{2}=x-1$.</p><p>反之，对曲线 $y^{2}=x-1$ 上任意一点 $H(x,y)$，取 $t_{1}=y+\\sqrt{y^{2}+2}$，$t_{2}=y-\\sqrt{y^{2}+2}$. 则 $t_{1}>0$，$t_{2}<0$，故两参数不同且均非零，直线 $l_{1}$，$l_{2}$ 均与 $x$ 轴平行. 又 $t_{1}+t_{2}=2y$，$t_{1}t_{2}=-2$，所以 $\\dfrac{t_1^2+t_2^2}{4}=y^{2}+1=x$，所得 $AB$ 的中点恰为 $H$. 代入面积公式得 $S_{\\triangle ABF}=\\dfrac{1}{4}\\left|t_{2}-t_{1}\\right|>0$，$S_{\\triangle PQF}=2S_{\\triangle ABF}$，满足全部题设条件. 因此完整轨迹为 $y^{2}=x-1$. 参数乘积为零会使某条直线与 $x$ 轴重合，违反原题的平行条件，不能产生另一轨迹分支.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "<p>设函数 $f(x)=\\ln x-x+1$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>证明当 $x\\in(1,+\\infty)$ 时，$1&#x3C;\\dfrac{x-1}{\\ln x}&#x3C;x$；</p></li><li><p>设 $c>1$，证明当 $x\\in(0,1)$ 时，$1+(c-1)x>c^{x}$.</p></li></ol>",
+          "body": "<p>设函数 $f(x)=\\ln x-x+1$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>证明当 $x\\in(1,+\\infty)$ 时，$1<\\dfrac{x-1}{\\ln x}<x$；</p></li><li><p>设 $c>1$，证明当 $x\\in(0,1)$ 时，$1+(c-1)x>c^{x}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,+\\infty)$，且 $f'(x)=\\dfrac{1}{x}-1=\\dfrac{1-x}{x}$. 当 $0&#x3C;x&#x3C;1$ 时，$f'(x)>0$，所以 $f(x)$ 在 $(0,1)$ 上单调递增；当 $x>1$ 时，$f'(x)&#x3C;0$，所以 $f(x)$ 在 $(1,+\\infty)$ 上单调递减.</p></li><li><p>由第（1）问，$f(1)=0$，且当 $x>1$ 时 $f(x)&#x3C;f(1)=0$，所以 $\\ln x&#x3C;x-1$，从而 $1&#x3C;\\dfrac{x-1}{\\ln x}$. 又因为 $0&#x3C;\\dfrac{1}{x}&#x3C;1$，有 $f\\left(\\dfrac{1}{x}\\right)&#x3C;0$，即 $-\\ln x-\\dfrac{1}{x}+1&#x3C;0$，所以 $\\ln x>1-\\dfrac{1}{x}$. 两边乘以正数 $x$，得 $x\\ln x>x-1$，从而 $\\dfrac{x-1}{\\ln x}&#x3C;x$. 综上，$1&#x3C;\\dfrac{x-1}{\\ln x}&#x3C;x$.</p></li><li><p>设 $h(x)=\\ln\\left(1+(c-1)x\\right)-x\\ln c$. 则 $h(0)=h(1)=0$，且</p>\n$$\nh''(x)=-\\frac{(c-1)^{2}}{\\left(1+(c-1)x\\right)^{2}}&#x3C;0\n$$\n<p>所以 $h$ 在 $(0,1)$ 上严格凹，函数图象严格位于端点连线之上，故当 $0&#x3C;x&#x3C;1$ 时 $h(x)>0$. 于是 $\\ln\\left(1+(c-1)x\\right)>x\\ln c$，两边取指数即得 $1+(c-1)x>c^{x}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,+\\infty)$，且 $f'(x)=\\dfrac{1}{x}-1=\\dfrac{1-x}{x}$. 当 $0<x<1$ 时，$f'(x)>0$，所以 $f(x)$ 在 $(0,1)$ 上单调递增；当 $x>1$ 时，$f'(x)<0$，所以 $f(x)$ 在 $(1,+\\infty)$ 上单调递减.</p></li><li><p>由第（1）问，$f(1)=0$，且当 $x>1$ 时 $f(x)<f(1)=0$，所以 $\\ln x<x-1$，从而 $1<\\dfrac{x-1}{\\ln x}$. 又因为 $0<\\dfrac{1}{x}<1$，有 $f\\left(\\dfrac{1}{x}\\right)<0$，即 $-\\ln x-\\dfrac{1}{x}+1<0$，所以 $\\ln x>1-\\dfrac{1}{x}$. 两边乘以正数 $x$，得 $x\\ln x>x-1$，从而 $\\dfrac{x-1}{\\ln x}<x$. 综上，$1<\\dfrac{x-1}{\\ln x}<x$.</p></li><li><p>设 $h(x)=\\ln\\left(1+(c-1)x\\right)-x\\ln c$. 则 $h(0)=h(1)=0$，且</p>\n$$\nh''(x)=-\\frac{(c-1)^{2}}{\\left(1+(c-1)x\\right)^{2}}<0\n$$\n<p>所以 $h$ 在 $(0,1)$ 上严格凹，函数图象严格位于端点连线之上，故当 $0<x<1$ 时 $h(x)>0$. 于是 $\\ln\\left(1+(c-1)x\\right)>x\\ln c$，两边取指数即得 $1+(c-1)x>c^{x}$.</p></li></ol>"
         }
       ]
     },
@@ -248,7 +248,7 @@
           "body": "<p>已知函数 $f(x)=|2x-a|+a$.</p><ol class=\"enumerate\"><li><p>当 $a=2$ 时，求不等式 $f(x)\\le6$ 的解集；</p></li><li><p>设函数 $g(x)=|2x-1|$，当 $x\\in\\mathbb{R}$ 时，$f(x)+g(x)\\ge3$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，不等式化为 $2|x-1|+2\\le6$，即 $|x-1|\\le2$. 所以 $-2\\le x-1\\le2$，解得 $-1\\le x\\le3$.</p></li><li><p>令 $t=2x$，则题设不等式对任意 $t\\in\\mathbb{R}$ 成立，当且仅当</p>\n$$\n|t-a|+|t-1|+a\\ge3\n$$\n<p>由三角不等式，$|t-a|+|t-1|\\ge|a-1|$，且当 $t$ 位于 $a$ 与 $1$ 之间时取等号. 因此左边关于 $t$ 的最小值为 $a+|a-1|$. 若 $a&#x3C;1$，该最小值为 $1&#x3C;3$；若 $a\\ge1$，该最小值为 $2a-1$，不小于 3 当且仅当 $a\\ge2$. 故 $a\\in[2,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，不等式化为 $2|x-1|+2\\le6$，即 $|x-1|\\le2$. 所以 $-2\\le x-1\\le2$，解得 $-1\\le x\\le3$.</p></li><li><p>令 $t=2x$，则题设不等式对任意 $t\\in\\mathbb{R}$ 成立，当且仅当</p>\n$$\n|t-a|+|t-1|+a\\ge3\n$$\n<p>由三角不等式，$|t-a|+|t-1|\\ge|a-1|$，且当 $t$ 位于 $a$ 与 $1$ 之间时取等号. 因此左边关于 $t$ 的最小值为 $a+|a-1|$. 若 $a<1$，该最小值为 $1<3$；若 $a\\ge1$，该最小值为 $2a-1$，不小于 3 当且仅当 $a\\ge2$. 故 $a\\in[2,+\\infty)$.</p></li></ol>"
         }
       ]
     }

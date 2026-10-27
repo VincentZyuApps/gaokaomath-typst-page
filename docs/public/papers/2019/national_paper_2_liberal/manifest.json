@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{x\\mid x>-1\\}$，$B=\\{x\\mid x&#x3C;2\\}$，则 $A\\cap B=$（ ）",
+          "body": "已知集合 $A=\\{x\\mid x>-1\\}$，$B=\\{x\\mid x<2\\}$，则 $A\\cap B=$（ ）",
           "choices": [
             "$(-1,+\\infty)$",
             "$(-\\infty,2)$",
@@ -17,7 +17,7 @@
             "$\\varnothing$"
           ],
           "answer": "C",
-          "solution": "由 $x>-1$ 且 $x&#x3C;2$，得 $-1&#x3C;x&#x3C;2$，所以 $A\\cap B=(-1,2)$，故选 C."
+          "solution": "由 $x>-1$ 且 $x<2$，得 $-1<x<2$，所以 $A\\cap B=(-1,2)$，故选 C."
         },
         {
           "num": 2,
@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "设 $f(x)$ 为奇函数，且当 $x\\ge0$ 时，$f(x)=\\mathrm{e}^{x}-1$，则当 $x&#x3C;0$ 时，$f(x)=$（ ）",
+          "body": "设 $f(x)$ 为奇函数，且当 $x\\ge0$ 时，$f(x)=\\mathrm{e}^{x}-1$，则当 $x<0$ 时，$f(x)=$（ ）",
           "choices": [
             "$\\mathrm{e}^{-x}-1$",
             "$\\mathrm{e}^{-x}+1$",
@@ -77,7 +77,7 @@
             "$-\\mathrm{e}^{-x}+1$"
           ],
           "answer": "D",
-          "solution": "当 $x&#x3C;0$ 时，$-x>0$，由奇函数性质得 $f(x)=-f(-x)$. 因为 $f(-x)=\\mathrm{e}^{-x}-1$，所以 $f(x)=-\\mathrm{e}^{-x}+1$，故选 D."
+          "solution": "当 $x<0$ 时，$-x>0$，由奇函数性质得 $f(x)=-f(-x)$. 因为 $f(-x)=\\mathrm{e}^{-x}-1$，所以 $f(x)=-\\mathrm{e}^{-x}+1$，故选 D."
         },
         {
           "num": 7,
@@ -182,7 +182,7 @@
           "body": "<p>中国有悠久的金石文化，印信是金石文化的代表之一. 印信的形状多为长方体，正方体或圆柱体，但南北朝时期的官员独孤信的印信形状是“半正多面体”（图1）. 半正多面体是由两种或两种以上的正多边形围成的多面体. 半正多面体体现了数学的对称美. 图2是一个棱数为 $48$ 的半正多面体，它的所有顶点都在同一个正方体的表面上，且此正方体的棱长为 $1$. 则该半正多面体共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 个面，其棱长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-examfiguregroup\"></span>[float=inline]img/2019/national_paper_2_liberal/q16_fig1.png<br><span class=\"macro macro-bitmapinclude\"></span>[max width=0.32<span class=\"macro macro-linewidth\"></span>]img/2019/national_paper_2_liberal/q16_fig1.png<span class=\"macro macro-hfill\"></span><br><span class=\"macro macro-bitmapinclude\"></span>[max width=0.40<span class=\"macro macro-linewidth\"></span>]img/2019/national_paper_2_liberal/q16_fig2.png<br></p>",
           "choices": null,
           "answer": "$26$，$\\sqrt{2}-1$",
-          "solution": "<p>由图 2 可知，每个顶点有 $4$ 条棱相交. 设顶点数为 $V$，棱数为 $E=48$，则由每条棱有两个端点，得 $4V=2E$，所以 $V=24$. 由欧拉公式 $V-E+F=2$，得面数 $F=2-V+E=26$.</p><p>设正方体中心为原点. 由图形的对称性，半正多面体的顶点可表示为 $(\\frac{1}{2},u,u)$ 的坐标排列并附以适当的正负号，其中 $0&#x3C;u&#x3C;\\frac{1}{2}$. 图中同一正方体面的相邻两顶点可取为 $(\\frac{1}{2},u,u)$ 和 $(\\frac{1}{2},-u,u)$，它们的距离为 $2u$；另一条相邻棱的两个端点可取为 $(\\frac{1}{2},u,u)$ 和 $(u,\\frac{1}{2},u)$，其长度为 $\\sqrt{2}\\left(\\frac{1}{2}-u\\right)$. 半正多面体的所有棱长相等，因此 $2u=\\sqrt{2}\\left(\\dfrac{1}{2}-u\\right)$，解得 $u=\\dfrac{\\sqrt{2}-1}{2}$. 所以棱长为 $2u=\\sqrt{2}-1$.</p>"
+          "solution": "<p>由图 2 可知，每个顶点有 $4$ 条棱相交. 设顶点数为 $V$，棱数为 $E=48$，则由每条棱有两个端点，得 $4V=2E$，所以 $V=24$. 由欧拉公式 $V-E+F=2$，得面数 $F=2-V+E=26$.</p><p>设正方体中心为原点. 由图形的对称性，半正多面体的顶点可表示为 $(\\frac{1}{2},u,u)$ 的坐标排列并附以适当的正负号，其中 $0<u<\\frac{1}{2}$. 图中同一正方体面的相邻两顶点可取为 $(\\frac{1}{2},u,u)$ 和 $(\\frac{1}{2},-u,u)$，它们的距离为 $2u$；另一条相邻棱的两个端点可取为 $(\\frac{1}{2},u,u)$ 和 $(u,\\frac{1}{2},u)$，其长度为 $\\sqrt{2}\\left(\\frac{1}{2}-u\\right)$. 半正多面体的所有棱长相等，因此 $2u=\\sqrt{2}\\left(\\dfrac{1}{2}-u\\right)$，解得 $u=\\dfrac{\\sqrt{2}-1}{2}$. 所以棱长为 $2u=\\sqrt{2}-1$.</p>"
         }
       ]
     },
@@ -222,7 +222,7 @@
           "body": "<p>已知函数 $f(x)=(x-1)\\ln x-x-1$. 证明：</p><ol class=\"enumerate\"><li><p>$f(x)$ 存在唯一的极值点；</p></li><li><p>$f(x)=0$ 有且仅有两个实根，且两个实根互为倒数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p><p>$f'(x)=\\ln x+\\frac{x-1}{x}-1=\\ln x-\\frac{1}{x}$，$f''(x)=\\frac{1}{x}+\\frac{1}{x^{2}}=\\frac{x+1}{x^{2}}>0$.</p><p>所以 $f'(x)$ 在 $(0,+\\infty)$ 上严格递增. 又</p><p>$f'(1)=-1&#x3C;0$，$f'(\\mathrm{e})=1-\\frac{1}{\\mathrm{e}}>0$，</p><p>由零点存在性可知，存在唯一的 $x_{0}\\in(1,\\mathrm{e})$，使得 $f'(x_{0})=0$. 因而当 $0&#x3C;x&#x3C;x_{0}$ 时 $f'(x)&#x3C;0$，当 $x>x_{0}$ 时 $f'(x)>0$，所以 $f(x)$ 在 $x_{0}$ 处取得唯一的极小值，故存在唯一的极值点.</p></li><li><p>当 $x\\to0^{+}$ 时，$(x-1)\\ln x\\to+\\infty$，故 $f(x)\\to+\\infty$. 又当 $x\\to+\\infty$ 时，$f(x)\\to+\\infty$，且 $f(1)=-2&#x3C;0$. 结合上一问的单调性，$f(x)$ 在 $(0,x_{0})$ 上严格递减，在 $(x_{0},+\\infty)$ 上严格递增，因此在 $(0,1)$ 内有且仅有一个零点，在 $(x_{0},+\\infty)$ 内有且仅有一个零点，故 $f(x)=0$ 有且仅有两个实根.</p><p>对任意 $x>0$，有</p>\n$$\nf\\left(\\frac{1}{x}\\right)=\\left(\\frac{1}{x}-1\\right)\\ln\\frac{1}{x}-\\frac{1}{x}-1=\\frac{f(x)}{x}\n$$\n<p>因此若 $x$ 是方程 $f(x)=0$ 的根，则 $\\frac{1}{x}$ 也是该方程的根. 由于方程恰有两个根，且一个根在 $(0,1)$ 内、另一个根大于 $1$，这两个根互为倒数.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p><p>$f'(x)=\\ln x+\\frac{x-1}{x}-1=\\ln x-\\frac{1}{x}$，$f''(x)=\\frac{1}{x}+\\frac{1}{x^{2}}=\\frac{x+1}{x^{2}}>0$.</p><p>所以 $f'(x)$ 在 $(0,+\\infty)$ 上严格递增. 又</p><p>$f'(1)=-1<0$，$f'(\\mathrm{e})=1-\\frac{1}{\\mathrm{e}}>0$，</p><p>由零点存在性可知，存在唯一的 $x_{0}\\in(1,\\mathrm{e})$，使得 $f'(x_{0})=0$. 因而当 $0<x<x_{0}$ 时 $f'(x)<0$，当 $x>x_{0}$ 时 $f'(x)>0$，所以 $f(x)$ 在 $x_{0}$ 处取得唯一的极小值，故存在唯一的极值点.</p></li><li><p>当 $x\\to0^{+}$ 时，$(x-1)\\ln x\\to+\\infty$，故 $f(x)\\to+\\infty$. 又当 $x\\to+\\infty$ 时，$f(x)\\to+\\infty$，且 $f(1)=-2<0$. 结合上一问的单调性，$f(x)$ 在 $(0,x_{0})$ 上严格递减，在 $(x_{0},+\\infty)$ 上严格递增，因此在 $(0,1)$ 内有且仅有一个零点，在 $(x_{0},+\\infty)$ 内有且仅有一个零点，故 $f(x)=0$ 有且仅有两个实根.</p><p>对任意 $x>0$，有</p>\n$$\nf\\left(\\frac{1}{x}\\right)=\\left(\\frac{1}{x}-1\\right)\\ln\\frac{1}{x}-\\frac{1}{x}-1=\\frac{f(x)}{x}\n$$\n<p>因此若 $x$ 是方程 $f(x)=0$ 的根，则 $\\frac{1}{x}$ 也是该方程的根. 由于方程恰有两个根，且一个根在 $(0,1)$ 内、另一个根大于 $1$，这两个根互为倒数.</p></li></ol>"
         }
       ]
     },
@@ -234,14 +234,14 @@
           "body": "<p>在极坐标系中，$O$ 为极点，点 $M(\\rho_{0},\\theta_{0})$（$\\rho_{0}>0$）在曲线 $C:\\rho=4\\sin\\theta$ 上，直线 $l$ 过点 $A(4,0)$ 且与 $OM$ 垂直，垂足为 $P$.</p><ol class=\"enumerate\"><li><p>当 $\\theta_{0}=\\dfrac{\\pi}{3}$ 时，求 $\\rho_{0}$ 及 $l$ 的极坐标方程；</p></li><li><p>当 $M$ 在 $C$ 上运动且 $P$ 在线段 $OM$ 上时，求 $P$ 点轨迹的极坐标方程.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由点 $M(\\rho_{0},\\theta_{0})$ 在曲线 $C$ 上，得</p><p>$\\rho_{0}=4\\sin\\theta_{0}=4\\sin\\frac{\\pi}{3}=2\\sqrt{3}$.</p><p>设直线 $l$ 上任意一点的极坐标为 $(\\rho,\\theta)$. 因为 $l\\perp OM$，直线 $OM$ 的方向向量为 $(\\cos\\theta_{0},\\sin\\theta_{0})$，所以</p><p>$x\\cos\\theta_{0}+y\\sin\\theta_{0}=4\\cos\\theta_{0}$.</p><p>代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得直线 $l$ 的极坐标方程</p><p>$\\rho\\cos(\\theta-\\theta_{0})=4\\cos\\theta_{0}$.</p><p>当 $\\theta_{0}=\\dfrac{\\pi}{3}$ 时，</p><p>$\\rho\\cos\\left(\\theta-\\frac{\\pi}{3}\\right)=2$.</p></li><li><p>由于 $P$ 在线段 $OM$ 上，除 $P=O$ 外，点 $P$ 与点 $M$ 的极角相同，记为 $\\theta$. 设 $P=(\\rho,\\theta)$，由 $AP\\perp OP$ 得</p><p>$\\bigl(4-\\rho\\cos\\theta,-\\rho\\sin\\theta\\bigr)\\cdot(\\cos\\theta,\\sin\\theta)=0$，</p><p>从而 $\\rho=4\\cos\\theta$.</p><p>又因为 $M$ 在曲线 $C$ 上且 $\\rho_{0}>0$，有 $\\rho_{0}=4\\sin\\theta>0$. 由于 $P$ 在线段 $OM$ 上，还需满足</p><p>$0\\le\\rho\\le\\rho_{0}$，$0\\le4\\cos\\theta\\le4\\sin\\theta$.</p><p>结合 $0&#x3C;\\theta&#x3C;\\pi$，可得 $\\dfrac{\\pi}{4}\\le\\theta\\le\\dfrac{\\pi}{2}$. 因此 $P$ 点的轨迹为</p><p>$\\rho=4\\cos\\theta$，$\\frac{\\pi}{4}\\le\\theta\\le\\frac{\\pi}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由点 $M(\\rho_{0},\\theta_{0})$ 在曲线 $C$ 上，得</p><p>$\\rho_{0}=4\\sin\\theta_{0}=4\\sin\\frac{\\pi}{3}=2\\sqrt{3}$.</p><p>设直线 $l$ 上任意一点的极坐标为 $(\\rho,\\theta)$. 因为 $l\\perp OM$，直线 $OM$ 的方向向量为 $(\\cos\\theta_{0},\\sin\\theta_{0})$，所以</p><p>$x\\cos\\theta_{0}+y\\sin\\theta_{0}=4\\cos\\theta_{0}$.</p><p>代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得直线 $l$ 的极坐标方程</p><p>$\\rho\\cos(\\theta-\\theta_{0})=4\\cos\\theta_{0}$.</p><p>当 $\\theta_{0}=\\dfrac{\\pi}{3}$ 时，</p><p>$\\rho\\cos\\left(\\theta-\\frac{\\pi}{3}\\right)=2$.</p></li><li><p>由于 $P$ 在线段 $OM$ 上，除 $P=O$ 外，点 $P$ 与点 $M$ 的极角相同，记为 $\\theta$. 设 $P=(\\rho,\\theta)$，由 $AP\\perp OP$ 得</p><p>$\\bigl(4-\\rho\\cos\\theta,-\\rho\\sin\\theta\\bigr)\\cdot(\\cos\\theta,\\sin\\theta)=0$，</p><p>从而 $\\rho=4\\cos\\theta$.</p><p>又因为 $M$ 在曲线 $C$ 上且 $\\rho_{0}>0$，有 $\\rho_{0}=4\\sin\\theta>0$. 由于 $P$ 在线段 $OM$ 上，还需满足</p><p>$0\\le\\rho\\le\\rho_{0}$，$0\\le4\\cos\\theta\\le4\\sin\\theta$.</p><p>结合 $0<\\theta<\\pi$，可得 $\\dfrac{\\pi}{4}\\le\\theta\\le\\dfrac{\\pi}{2}$. 因此 $P$ 点的轨迹为</p><p>$\\rho=4\\cos\\theta$，$\\frac{\\pi}{4}\\le\\theta\\le\\frac{\\pi}{2}$.</p></li></ol>"
         },
         {
           "num": 23,
-          "body": "<p>已知 $f(x)=|x-a|x+|x-2|(x-a)$.</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，求不等式 $f(x)&#x3C;0$ 的解集；</p></li><li><p>若 $x\\in(-\\infty,1]$ 时，$f(x)&#x3C;0$，求 $a$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知 $f(x)=|x-a|x+|x-2|(x-a)$.</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，求不等式 $f(x)<0$ 的解集；</p></li><li><p>若 $x\\in(-\\infty,1]$ 时，$f(x)<0$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，按 $x&#x3C;1$，$1\\le x&#x3C;2$，$x\\ge2$ 分段讨论.</p><p>当 $x&#x3C;1$ 时，</p>\n$$\nf(x)=(1-x)x+(2-x)(x-1)=-2(x-1)^{2}&#x3C;0\n$$\n<p>当 $1\\le x&#x3C;2$ 时，</p>\n$$\nf(x)=x(x-1)+(2-x)(x-1)=2(x-1)\\ge0\n$$\n<p>当 $x\\ge2$ 时，</p>\n$$\nf(x)=x(x-1)+(x-2)(x-1)=2(x-1)^{2}>0\n$$\n<p>所以不等式 $f(x)&#x3C;0$ 的解集为 $(-\\infty,1)$.</p></li><li><p>按原题给出的闭区间取 $x=1$. 若 $a\\le1$，则</p>\n$$\nf(1)=|1-a|+(1-a)=2(1-a)\\ge0\n$$\n<p>若 $a>1$，则</p>\n$$\nf(1)=|1-a|+(1-a)=(a-1)+(1-a)=0\n$$\n<p>两种情形都不满足 $f(1)&#x3C;0$. 因此按原题中 $x\\in(-\\infty,1]$ 的字面，$a$ 不存在，即 $a$ 的取值范围为空集.（若原题为开区间 $x\\in(-\\infty,1)$，则由 $x&#x3C;1\\le a$ 可得 $f(x)=2(1-x)(x-a)&#x3C;0$，对应的取值范围为 $[1,+\\infty)$）.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，按 $x<1$，$1\\le x<2$，$x\\ge2$ 分段讨论.</p><p>当 $x<1$ 时，</p>\n$$\nf(x)=(1-x)x+(2-x)(x-1)=-2(x-1)^{2}<0\n$$\n<p>当 $1\\le x<2$ 时，</p>\n$$\nf(x)=x(x-1)+(2-x)(x-1)=2(x-1)\\ge0\n$$\n<p>当 $x\\ge2$ 时，</p>\n$$\nf(x)=x(x-1)+(x-2)(x-1)=2(x-1)^{2}>0\n$$\n<p>所以不等式 $f(x)<0$ 的解集为 $(-\\infty,1)$.</p></li><li><p>按原题给出的闭区间取 $x=1$. 若 $a\\le1$，则</p>\n$$\nf(1)=|1-a|+(1-a)=2(1-a)\\ge0\n$$\n<p>若 $a>1$，则</p>\n$$\nf(1)=|1-a|+(1-a)=(a-1)+(1-a)=0\n$$\n<p>两种情形都不满足 $f(1)<0$. 因此按原题中 $x\\in(-\\infty,1]$ 的字面，$a$ 不存在，即 $a$ 的取值范围为空集.（若原题为开区间 $x\\in(-\\infty,1)$，则由 $x<1\\le a$ 可得 $f(x)=2(1-x)(x-a)<0$，对应的取值范围为 $[1,+\\infty)$）.</p></li></ol>"
         }
       ]
     }

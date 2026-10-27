@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $P=\\{x\\mid -1&#x3C;x&#x3C;1\\}$，$Q=\\{x\\mid 0&#x3C;x&#x3C;2\\}$，那么 $P\\cup Q=$（ ）",
+          "body": "已知集合 $P=\\{x\\mid -1<x<1\\}$，$Q=\\{x\\mid 0<x<2\\}$，那么 $P\\cup Q=$（ ）",
           "choices": [
             "$\\left(-1,2\\right)$",
             "$\\left(0,1\\right)$",
@@ -93,39 +93,39 @@
         },
         {
           "num": 8,
-          "body": "已知随机变量 $\\xi_{i}$ 满足 $P(\\xi_{i}=1)=p_{i}$，$P(\\xi_{i}=0)=1-p_{i}$，$i=1$，$2$. 若 $0&#x3C;p_{1}&#x3C;p_{2}&#x3C;\\dfrac{1}{2}$，则（ ）",
+          "body": "已知随机变量 $\\xi_{i}$ 满足 $P(\\xi_{i}=1)=p_{i}$，$P(\\xi_{i}=0)=1-p_{i}$，$i=1$，$2$. 若 $0<p_{1}<p_{2}<\\dfrac{1}{2}$，则（ ）",
           "choices": [
-            "$E(\\xi_{1})&#x3C;E(\\xi_{2})$，$D(\\xi_{1})&#x3C;D(\\xi_{2})$",
-            "$E(\\xi_{1})&#x3C;E(\\xi_{2})$，$D(\\xi_{1})>D(\\xi_{2})$",
-            "$E(\\xi_{1})>E(\\xi_{2})$，$D(\\xi_{1})&#x3C;D(\\xi_{2})$",
+            "$E(\\xi_{1})<E(\\xi_{2})$，$D(\\xi_{1})<D(\\xi_{2})$",
+            "$E(\\xi_{1})<E(\\xi_{2})$，$D(\\xi_{1})>D(\\xi_{2})$",
+            "$E(\\xi_{1})>E(\\xi_{2})$，$D(\\xi_{1})<D(\\xi_{2})$",
             "$E(\\xi_{1})>E(\\xi_{2})$，$D(\\xi_{1})>D(\\xi_{2})$"
           ],
           "answer": "A",
-          "solution": "<p>因为 $\\xi_{i}$ 只取 $0,1$，所以</p>\n$$\nE(\\xi_{i})=1\\cdot p_{i}+0\\cdot(1-p_{i})=p_{i}\n$$\n<p>从而 $E(\\xi_{1})&#x3C;E(\\xi_{2})$.</p><p>又</p>\n$$\nD(\\xi_{i})=p_{i}(1-p_{i})\n$$\n<p>函数 $h(p)=p(1-p)$ 在 $(0,\\frac{1}{2})$ 上的导数为 $h'(p)=1-2p>0$，所以由 $0&#x3C;p_{1}&#x3C;p_{2}&#x3C;\\frac{1}{2}$ 得</p>\n$$\nD(\\xi_{1})=h(p_{1})&#x3C;h(p_{2})=D(\\xi_{2})\n$$\n<p>故选 A.</p>"
+          "solution": "<p>因为 $\\xi_{i}$ 只取 $0,1$，所以</p>\n$$\nE(\\xi_{i})=1\\cdot p_{i}+0\\cdot(1-p_{i})=p_{i}\n$$\n<p>从而 $E(\\xi_{1})<E(\\xi_{2})$.</p><p>又</p>\n$$\nD(\\xi_{i})=p_{i}(1-p_{i})\n$$\n<p>函数 $h(p)=p(1-p)$ 在 $(0,\\frac{1}{2})$ 上的导数为 $h'(p)=1-2p>0$，所以由 $0<p_{1}<p_{2}<\\frac{1}{2}$ 得</p>\n$$\nD(\\xi_{1})=h(p_{1})<h(p_{2})=D(\\xi_{2})\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 9,
           "body": "<p>如图，已知正四面体 $D-ABC$（所有棱长均相等的三棱锥），$P$，$Q$，$R$ 分别为 $AB$，$BC$，$CA$ 上的点，$AP=PB$，$\\dfrac{BQ}{QC}=\\dfrac{CR}{RA}=2$，分别记二面角 $D-PR-Q$，$D-PQ-R$，$D-QR-P$ 的平面角为 $\\alpha$，$\\beta$，$\\gamma$，则（ ）</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
           "choices": [
-            "$\\gamma&#x3C;\\alpha&#x3C;\\beta$",
-            "$\\alpha&#x3C;\\gamma&#x3C;\\beta$",
-            "$\\alpha&#x3C;\\beta&#x3C;\\gamma$",
-            "$\\beta&#x3C;\\gamma&#x3C;\\alpha$"
+            "$\\gamma<\\alpha<\\beta$",
+            "$\\alpha<\\gamma<\\beta$",
+            "$\\alpha<\\beta<\\gamma$",
+            "$\\beta<\\gamma<\\alpha$"
           ],
           "answer": "B",
-          "solution": "<p>取底面中心为 $O$，建立空间直角坐标系. 设正四面体棱长为 $2$，令</p><p>$A=(-1,0,0)$，$B=(1,0,0)$，$C=(0,\\sqrt{3},0)$，$P=(0,0,0)$.</p><p>正四面体顶点 $D$ 在底面中心正上方，故可取</p>\n$$\nD=\\left(0,\\frac{\\sqrt{3}}{3},\\frac{2\\sqrt{6}}{3}\\right)\n$$\n<p>由 $BQ:QC=2:1$、$CR:RA=2:1$，得</p><p>$Q=\\left(\\frac{1}{3},\\frac{2\\sqrt{3}}{3},0\\right)$，$R=\\left(-\\frac{2}{3},\\frac{\\sqrt{3}}{3},0\\right)$.</p><p>三点 $P$，$Q$，$R$ 在底面 $z=0$ 内，故该平面的法向量可取 $\\mathbf{m}=(0,0,1)$. 分别取</p>\n$$\n\\mathbf{n}_{\\alpha}=9\\,\\overrightarrow{PR}\\times\\overrightarrow{PD}=(6\\sqrt{2},4\\sqrt{6},-2\\sqrt{3})\n$$\n\n$$\n\\mathbf{n}_{\\beta}=9\\,\\overrightarrow{PQ}\\times\\overrightarrow{PD}=(12\\sqrt{2},-2\\sqrt{6},\\sqrt{3})\n$$\n\n$$\n\\mathbf{n}_{\\gamma}=9\\,\\overrightarrow{QD}\\times\\overrightarrow{QR}=(6\\sqrt{2},-6\\sqrt{6},-2\\sqrt{3})\n$$\n<p>它们分别是平面 $DPR$、$DPQ$、$DQR$ 的法向量. 由法向量夹角公式，且三个平面角均取锐角，有</p>\n$$\n\\cos\\alpha=\\frac{|\\mathbf{n}_{\\alpha}\\cdot\\mathbf{m}|}{|\\mathbf{n}_{\\alpha}||\\mathbf{m}|}=\\frac{1}{\\sqrt{15}}\n$$\n<p>$\\cos\\beta=\\frac{|\\mathbf{n}_{\\beta}\\cdot\\mathbf{m}|}{|\\mathbf{n}_{\\beta}||\\mathbf{m}|}=\\frac{1}{\\sqrt{105}}$，$\\cos\\gamma=\\frac{|\\mathbf{n}_{\\gamma}\\cdot\\mathbf{m}|}{|\\mathbf{n}_{\\gamma}||\\mathbf{m}|}=\\frac{1}{5}$.</p><p>因为 $\\frac{1}{\\sqrt{15}}>\\frac{1}{5}>\\frac{1}{\\sqrt{105}}$，故</p>\n$$\n\\alpha&#x3C;\\gamma&#x3C;\\beta\n$$\n<p>故选 B.</p>"
+          "solution": "<p>取底面中心为 $O$，建立空间直角坐标系. 设正四面体棱长为 $2$，令</p><p>$A=(-1,0,0)$，$B=(1,0,0)$，$C=(0,\\sqrt{3},0)$，$P=(0,0,0)$.</p><p>正四面体顶点 $D$ 在底面中心正上方，故可取</p>\n$$\nD=\\left(0,\\frac{\\sqrt{3}}{3},\\frac{2\\sqrt{6}}{3}\\right)\n$$\n<p>由 $BQ:QC=2:1$、$CR:RA=2:1$，得</p><p>$Q=\\left(\\frac{1}{3},\\frac{2\\sqrt{3}}{3},0\\right)$，$R=\\left(-\\frac{2}{3},\\frac{\\sqrt{3}}{3},0\\right)$.</p><p>三点 $P$，$Q$，$R$ 在底面 $z=0$ 内，故该平面的法向量可取 $\\mathbf{m}=(0,0,1)$. 分别取</p>\n$$\n\\mathbf{n}_{\\alpha}=9\\,\\overrightarrow{PR}\\times\\overrightarrow{PD}=(6\\sqrt{2},4\\sqrt{6},-2\\sqrt{3})\n$$\n\n$$\n\\mathbf{n}_{\\beta}=9\\,\\overrightarrow{PQ}\\times\\overrightarrow{PD}=(12\\sqrt{2},-2\\sqrt{6},\\sqrt{3})\n$$\n\n$$\n\\mathbf{n}_{\\gamma}=9\\,\\overrightarrow{QD}\\times\\overrightarrow{QR}=(6\\sqrt{2},-6\\sqrt{6},-2\\sqrt{3})\n$$\n<p>它们分别是平面 $DPR$、$DPQ$、$DQR$ 的法向量. 由法向量夹角公式，且三个平面角均取锐角，有</p>\n$$\n\\cos\\alpha=\\frac{|\\mathbf{n}_{\\alpha}\\cdot\\mathbf{m}|}{|\\mathbf{n}_{\\alpha}||\\mathbf{m}|}=\\frac{1}{\\sqrt{15}}\n$$\n<p>$\\cos\\beta=\\frac{|\\mathbf{n}_{\\beta}\\cdot\\mathbf{m}|}{|\\mathbf{n}_{\\beta}||\\mathbf{m}|}=\\frac{1}{\\sqrt{105}}$，$\\cos\\gamma=\\frac{|\\mathbf{n}_{\\gamma}\\cdot\\mathbf{m}|}{|\\mathbf{n}_{\\gamma}||\\mathbf{m}|}=\\frac{1}{5}$.</p><p>因为 $\\frac{1}{\\sqrt{15}}>\\frac{1}{5}>\\frac{1}{\\sqrt{105}}$，故</p>\n$$\n\\alpha<\\gamma<\\beta\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 10,
           "body": "<p>如图，已知平面四边形 $ABCD$，$AB\\perp BC$，$AB=BC=AD=2$，$CD=3$，$AC$ 与 $BD$ 交于点 $O$，记 $I_{1}=\\overrightarrow{OA}\\cdot\\overrightarrow{OB}$，$I_{2}=\\overrightarrow{OB}\\cdot\\overrightarrow{OC}$，$I_{3}=\\overrightarrow{OC}\\cdot\\overrightarrow{OD}$，则（ ）</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
           "choices": [
-            "$I_{1}&#x3C;I_{2}&#x3C;I_{3}$",
-            "$I_{1}&#x3C;I_{3}&#x3C;I_{2}$",
-            "$I_{3}&#x3C;I_{1}&#x3C;I_{2}$",
-            "$I_{2}&#x3C;I_{1}&#x3C;I_{3}$"
+            "$I_{1}<I_{2}<I_{3}$",
+            "$I_{1}<I_{3}<I_{2}$",
+            "$I_{3}<I_{1}<I_{2}$",
+            "$I_{2}<I_{1}<I_{3}$"
           ],
           "answer": "C",
-          "solution": "<p>建立平面直角坐标系，令 $B=(0,0)$，$C=(2,0)$，$A=(0,2)$. 设 $D=(u,v)$. 由 $AD=2$、$CD=3$，得</p><p>$u^{2}+(v-2)^{2}=4$，$(u-2)^{2}+v^{2}=9$.</p><p>由题图中四边形的取向取与 $D$ 位于右上方相符的交点，解得</p><p>$u=\\frac{3+\\sqrt{119}}{8}$，$v=\\frac{13+\\sqrt{119}}{8}$，</p><p>从而 $0&#x3C;u&#x3C;v$ 且 $u+v=2+\\frac{\\sqrt{119}}{4}>4$.</p><p>设 $O=AC\\cap BD$. 因为 $AC$ 的方程为 $x+y=2$，而 $O$ 在直线 $BD$ 上，所以</p>\n$$\nO=\\left(\\frac{2u}{u+v},\\frac{2v}{u+v}\\right)=:(r,2-r)\n$$\n<p>由 $u&#x3C;v$ 得 $0&#x3C;r&#x3C;1$. 于是</p><p>$\\overrightarrow{OA}=(-r,r)$，$\\overrightarrow{OB}=(-r,r-2)$，</p><p>故</p>\n$$\nI_{1}=\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=2r(r-1)&#x3C;0\n$$\n<p>又 $O$ 在线段 $AC$、$BD$ 内部，且</p><p>$\\frac{OA}{OC}=\\frac{u}{v}&#x3C;1$，$\\frac{OB}{OD}=\\frac{2}{u+v-2}&#x3C;1$，</p><p>所以 $OA&#x3C;OC$、$OB&#x3C;OD$. 由于 $\\overrightarrow{OC}$ 与 $\\overrightarrow{OA}$ 方向相反，$\\overrightarrow{OD}$ 与 $\\overrightarrow{OB}$ 方向相反，得到</p>\n$$\nI_{2}=\\overrightarrow{OB}\\cdot\\overrightarrow{OC}>0\n$$\n<p>且</p>\n$$\nI_{3}=\\overrightarrow{OC}\\cdot\\overrightarrow{OD}=\\frac{OC\\cdot OD}{OA\\cdot OB}I_{1}&#x3C;I_{1}\n$$\n<p>其中比例因子大于 $1$，而 $I_{1}&#x3C;0$. 因此</p>\n$$\nI_{3}&#x3C;I_{1}&#x3C;I_{2}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>建立平面直角坐标系，令 $B=(0,0)$，$C=(2,0)$，$A=(0,2)$. 设 $D=(u,v)$. 由 $AD=2$、$CD=3$，得</p><p>$u^{2}+(v-2)^{2}=4$，$(u-2)^{2}+v^{2}=9$.</p><p>由题图中四边形的取向取与 $D$ 位于右上方相符的交点，解得</p><p>$u=\\frac{3+\\sqrt{119}}{8}$，$v=\\frac{13+\\sqrt{119}}{8}$，</p><p>从而 $0<u<v$ 且 $u+v=2+\\frac{\\sqrt{119}}{4}>4$.</p><p>设 $O=AC\\cap BD$. 因为 $AC$ 的方程为 $x+y=2$，而 $O$ 在直线 $BD$ 上，所以</p>\n$$\nO=\\left(\\frac{2u}{u+v},\\frac{2v}{u+v}\\right)=:(r,2-r)\n$$\n<p>由 $u<v$ 得 $0<r<1$. 于是</p><p>$\\overrightarrow{OA}=(-r,r)$，$\\overrightarrow{OB}=(-r,r-2)$，</p><p>故</p>\n$$\nI_{1}=\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=2r(r-1)<0\n$$\n<p>又 $O$ 在线段 $AC$、$BD$ 内部，且</p><p>$\\frac{OA}{OC}=\\frac{u}{v}<1$，$\\frac{OB}{OD}=\\frac{2}{u+v-2}<1$，</p><p>所以 $OA<OC$、$OB<OD$. 由于 $\\overrightarrow{OC}$ 与 $\\overrightarrow{OA}$ 方向相反，$\\overrightarrow{OD}$ 与 $\\overrightarrow{OB}$ 方向相反，得到</p>\n$$\nI_{2}=\\overrightarrow{OB}\\cdot\\overrightarrow{OC}>0\n$$\n<p>且</p>\n$$\nI_{3}=\\overrightarrow{OC}\\cdot\\overrightarrow{OD}=\\frac{OC\\cdot OD}{OA\\cdot OB}I_{1}<I_{1}\n$$\n<p>其中比例因子大于 $1$，而 $I_{1}<0$. 因此</p>\n$$\nI_{3}<I_{1}<I_{2}\n$$\n<p>故选 C.</p>"
         }
       ]
     },
@@ -158,7 +158,7 @@
           "body": "已知 $\\triangle ABC$，$AB=AC=4$，$BC=2$，点 $D$ 为 $AB$ 延长线上一点，$BD=2$，连接 $CD$，则 $\\triangle BDC$ 的面积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>，$\\cos\\angle BDC=\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$\\dfrac{\\sqrt{15}}{2}$，$\\dfrac{\\sqrt{10}}{4}$",
-          "solution": "<p>由 $AB=AC=4$、$BC=2$，在等腰三角形 $ABC$ 中</p>\n$$\n\\cos\\angle ABC=\\frac{AB^{2}+BC^{2}-AC^{2}}{2\\cdot AB\\cdot BC}=\\frac{1}{4}\n$$\n<p>故 $\\sin\\angle ABC=\\sqrt{1-\\frac{1}{16}}=\\frac{\\sqrt{15}}{4}$. 由于 $BD=2&#x3C;AB=4$，点 $D$ 只能在 $B$ 的外侧，故射线 $BD$ 与射线 $BA$ 反向，所以</p>\n$$\n\\sin\\angle DBC=\\sin\\angle ABC=\\frac{\\sqrt{15}}{4}\n$$\n<p>于是</p>\n$$\nS_{\\triangle BDC}=\\frac{1}{2}\\cdot BD\\cdot BC\\cdot\\sin\\angle DBC  =\\frac{1}{2}\\cdot2\\cdot2\\cdot\\frac{\\sqrt{15}}{4}=\\frac{\\sqrt{15}}{2}\n$$\n<p>又 $\\cos\\angle DBC=-\\frac{1}{4}$，由余弦定理</p>\n$$\nCD^{2}=BD^{2}+BC^{2}-2\\cdot BD\\cdot BC\\cos\\angle DBC  =4+4-8\\left(-\\frac{1}{4}\\right)=10\n$$\n<p>在三角形 $BDC$ 中再次用余弦定理，得</p>\n$$\n\\cos\\angle BDC=\\frac{BD^{2}+CD^{2}-BC^{2}}{2\\cdot BD\\cdot CD}=\\frac{4+10-4}{4\\sqrt{10}}=\\frac{\\sqrt{10}}{4}\n$$"
+          "solution": "<p>由 $AB=AC=4$、$BC=2$，在等腰三角形 $ABC$ 中</p>\n$$\n\\cos\\angle ABC=\\frac{AB^{2}+BC^{2}-AC^{2}}{2\\cdot AB\\cdot BC}=\\frac{1}{4}\n$$\n<p>故 $\\sin\\angle ABC=\\sqrt{1-\\frac{1}{16}}=\\frac{\\sqrt{15}}{4}$. 由于 $BD=2<AB=4$，点 $D$ 只能在 $B$ 的外侧，故射线 $BD$ 与射线 $BA$ 反向，所以</p>\n$$\n\\sin\\angle DBC=\\sin\\angle ABC=\\frac{\\sqrt{15}}{4}\n$$\n<p>于是</p>\n$$\nS_{\\triangle BDC}=\\frac{1}{2}\\cdot BD\\cdot BC\\cdot\\sin\\angle DBC  =\\frac{1}{2}\\cdot2\\cdot2\\cdot\\frac{\\sqrt{15}}{4}=\\frac{\\sqrt{15}}{2}\n$$\n<p>又 $\\cos\\angle DBC=-\\frac{1}{4}$，由余弦定理</p>\n$$\nCD^{2}=BD^{2}+BC^{2}-2\\cdot BD\\cdot BC\\cos\\angle DBC  =4+4-8\\left(-\\frac{1}{4}\\right)=10\n$$\n<p>在三角形 $BDC$ 中再次用余弦定理，得</p>\n$$\n\\cos\\angle BDC=\\frac{BD^{2}+CD^{2}-BC^{2}}{2\\cdot BD\\cdot CD}=\\frac{4+10-4}{4\\sqrt{10}}=\\frac{\\sqrt{10}}{4}\n$$"
         },
         {
           "num": 15,
@@ -205,21 +205,21 @@
           "body": "<p>已知函数 $f(x)=\\bigl(x-\\sqrt{2x-1}\\bigr)\\mathrm{e}^{-x}$（$x\\ge\\dfrac{1}{2}$）.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的导函数；</p></li><li><p>求 $f(x)$ 在区间 $\\left[\\dfrac{1}{2},+\\infty\\right)$ 上的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x>\\dfrac{1}{2}$ 时，利用乘积法则得 $f'(x)=\\left(1-\\dfrac{1}{\\sqrt{2x-1}}\\right)\\mathrm{e}^{-x}-\\left(x-\\sqrt{2x-1}\\right)\\mathrm{e}^{-x}=\\left(1-x\\right)\\left(1-\\dfrac{2}{\\sqrt{2x-1}}\\right)\\mathrm{e}^{-x}$. 在 $x=\\dfrac{1}{2}$ 处，右导数趋于 $-\\infty$，故不存在有限导数.</p></li><li><p>因为 $\\mathrm{e}^{-x}>0$，所以在 $\\left(\\dfrac{1}{2},1\\right)$ 上 $f'(x)&#x3C;0$，在 $\\left(1,\\dfrac{5}{2}\\right)$ 上 $f'(x)>0$，在 $\\left(\\dfrac{5}{2},+\\infty\\right)$ 上 $f'(x)&#x3C;0$. 又 $f\\left(\\dfrac{1}{2}\\right)=\\dfrac{1}{2}\\mathrm{e}^{-\\frac{1}{2}}$，$f(1)=0$，$f\\left(\\dfrac{5}{2}\\right)=\\dfrac{1}{2}\\mathrm{e}^{-\\frac{5}{2}}$，且 $\\displaystyle\\lim_{x\\to+\\infty}f(x)=0$. 此外，$x-\\sqrt{2x-1}=\\dfrac{(x-1)^2}{x+\\sqrt{2x-1}}\\geq0$，故 $f(x)\\geq0$. 因此 $f(x)$ 在 $\\left[\\dfrac{1}{2},+\\infty\\right)$ 上的取值范围为 $\\left[0,\\dfrac{1}{2}\\mathrm{e}^{-\\frac{1}{2}}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x>\\dfrac{1}{2}$ 时，利用乘积法则得 $f'(x)=\\left(1-\\dfrac{1}{\\sqrt{2x-1}}\\right)\\mathrm{e}^{-x}-\\left(x-\\sqrt{2x-1}\\right)\\mathrm{e}^{-x}=\\left(1-x\\right)\\left(1-\\dfrac{2}{\\sqrt{2x-1}}\\right)\\mathrm{e}^{-x}$. 在 $x=\\dfrac{1}{2}$ 处，右导数趋于 $-\\infty$，故不存在有限导数.</p></li><li><p>因为 $\\mathrm{e}^{-x}>0$，所以在 $\\left(\\dfrac{1}{2},1\\right)$ 上 $f'(x)<0$，在 $\\left(1,\\dfrac{5}{2}\\right)$ 上 $f'(x)>0$，在 $\\left(\\dfrac{5}{2},+\\infty\\right)$ 上 $f'(x)<0$. 又 $f\\left(\\dfrac{1}{2}\\right)=\\dfrac{1}{2}\\mathrm{e}^{-\\frac{1}{2}}$，$f(1)=0$，$f\\left(\\dfrac{5}{2}\\right)=\\dfrac{1}{2}\\mathrm{e}^{-\\frac{5}{2}}$，且 $\\displaystyle\\lim_{x\\to+\\infty}f(x)=0$. 此外，$x-\\sqrt{2x-1}=\\dfrac{(x-1)^2}{x+\\sqrt{2x-1}}\\geq0$，故 $f(x)\\geq0$. 因此 $f(x)$ 在 $\\left[\\dfrac{1}{2},+\\infty\\right)$ 上的取值范围为 $\\left[0,\\dfrac{1}{2}\\mathrm{e}^{-\\frac{1}{2}}\\right]$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "<p>如图，已知抛物线 $x^{2}=y$，点 $A\\left(-\\dfrac{1}{2},\\dfrac{1}{4}\\right)$，$B\\left(\\dfrac{3}{2},\\dfrac{9}{4}\\right)$，抛物线上的点 $P(x,y)$（$-\\dfrac{1}{2}&#x3C;x&#x3C;\\dfrac{3}{2}$），过点 $B$ 作直线 $AP$ 的垂线，垂足为 $Q$.</p><ol class=\"enumerate\"><li><p>求直线 $AP$ 斜率的取值范围；</p></li><li><p>求 $|PA|\\cdot|PQ|$ 的最大值.</p></li></ol><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
+          "body": "<p>如图，已知抛物线 $x^{2}=y$，点 $A\\left(-\\dfrac{1}{2},\\dfrac{1}{4}\\right)$，$B\\left(\\dfrac{3}{2},\\dfrac{9}{4}\\right)$，抛物线上的点 $P(x,y)$（$-\\dfrac{1}{2}<x<\\dfrac{3}{2}$），过点 $B$ 作直线 $AP$ 的垂线，垂足为 $Q$.</p><ol class=\"enumerate\"><li><p>求直线 $AP$ 斜率的取值范围；</p></li><li><p>求 $|PA|\\cdot|PQ|$ 的最大值.</p></li></ol><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $P(t,t^{2})$，则 $-\\dfrac{1}{2}&#x3C;t&#x3C;\\dfrac{3}{2}$，所以直线 $AP$ 的斜率为 $\\dfrac{t^2-\\frac{1}{4}}{t+\\frac{1}{2}}=t-\\dfrac{1}{2}$，其取值范围为 $(-1,1)$.</p></li><li><p>记直线 $AP$ 的斜率为 $k$，则 $t=k+\\dfrac{1}{2}$，且 $-1&#x3C;k&#x3C;1$. 由 $\\overrightarrow{AP}=(1+k)(1,k)$ 可得 $|PA|=(1+k)\\sqrt{1+k^{2}}$. 又 $\\overrightarrow{BP}=\\left(-1+k, -2+k+k^{2}\\right)$，取直线 $AP$ 的方向向量 $(1,k)$，则 $|PQ|=\\dfrac{|\\overrightarrow{BP}\\cdot(1,k)|}{\\sqrt{1+k^{2}}}=\\dfrac{(1-k)(1+k)^2}{\\sqrt{1+k^{2}}}$. 因此 $|PA|\\cdot|PQ|=(1+k)^{3}(1-k)$. 令 $h(k)=(1+k)^{3}(1-k)$，则 $h'(k)=2(1+k)^{2}(1-2k)$. 所以 $h(k)$ 在 $(-1,\\dfrac{1}{2})$ 上递增，在 $(\\dfrac{1}{2},1)$ 上递减，故最大值为 $h\\left(\\dfrac{1}{2}\\right)=\\left(\\dfrac{3}{2}\\right)^{3}\\cdot\\dfrac{1}{2}=\\dfrac{27}{16}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $P(t,t^{2})$，则 $-\\dfrac{1}{2}<t<\\dfrac{3}{2}$，所以直线 $AP$ 的斜率为 $\\dfrac{t^2-\\frac{1}{4}}{t+\\frac{1}{2}}=t-\\dfrac{1}{2}$，其取值范围为 $(-1,1)$.</p></li><li><p>记直线 $AP$ 的斜率为 $k$，则 $t=k+\\dfrac{1}{2}$，且 $-1<k<1$. 由 $\\overrightarrow{AP}=(1+k)(1,k)$ 可得 $|PA|=(1+k)\\sqrt{1+k^{2}}$. 又 $\\overrightarrow{BP}=\\left(-1+k, -2+k+k^{2}\\right)$，取直线 $AP$ 的方向向量 $(1,k)$，则 $|PQ|=\\dfrac{|\\overrightarrow{BP}\\cdot(1,k)|}{\\sqrt{1+k^{2}}}=\\dfrac{(1-k)(1+k)^2}{\\sqrt{1+k^{2}}}$. 因此 $|PA|\\cdot|PQ|=(1+k)^{3}(1-k)$. 令 $h(k)=(1+k)^{3}(1-k)$，则 $h'(k)=2(1+k)^{2}(1-2k)$. 所以 $h(k)$ 在 $(-1,\\dfrac{1}{2})$ 上递增，在 $(\\dfrac{1}{2},1)$ 上递减，故最大值为 $h\\left(\\dfrac{1}{2}\\right)=\\left(\\dfrac{3}{2}\\right)^{3}\\cdot\\dfrac{1}{2}=\\dfrac{27}{16}$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "<p>已知数列 $\\{x_{n}\\}$ 满足：$x_{1}=1$，$x_{n}=x_{n+1}+\\ln(1+x_{n+1})$（$n\\in \\mathbb{N}^{*}$），证明：当 $n\\in \\mathbb{N}^{*}$ 时，</p><ol class=\"enumerate\"><li><p>$0&#x3C;x_{n+1}&#x3C;x_{n}$；</p></li><li><p>$2x_{n+1}-x_{n}\\le \\dfrac{x_nx_{n+1}}{2}$；</p></li><li><p>$\\dfrac{1}{2^{n-1}}\\le x_{n}\\le \\dfrac{1}{2^{n-2}}$.</p></li></ol>",
+          "body": "<p>已知数列 $\\{x_{n}\\}$ 满足：$x_{1}=1$，$x_{n}=x_{n+1}+\\ln(1+x_{n+1})$（$n\\in \\mathbb{N}^{*}$），证明：当 $n\\in \\mathbb{N}^{*}$ 时，</p><ol class=\"enumerate\"><li><p>$0<x_{n+1}<x_{n}$；</p></li><li><p>$2x_{n+1}-x_{n}\\le \\dfrac{x_nx_{n+1}}{2}$；</p></li><li><p>$\\dfrac{1}{2^{n-1}}\\le x_{n}\\le \\dfrac{1}{2^{n-2}}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>令 $\\varphi(t)=t+\\ln(1+t)$，其中 $t>-1$. 因为 $\\varphi'(t)=1+\\dfrac{1}{1+t}>0$，且 $\\varphi(0)=0$，所以 $\\varphi$ 在定义域上单调递增. 由 $x_{1}=1>0$ 归纳可知，若 $x_{n}>0$，则 $x_{n}=\\varphi(x_{n+1})>\\varphi(0)=0$，从而 $x_{n+1}>0$. 于是 $\\ln(1+x_{n+1})>0$，由递推关系得 $x_{n}=x_{n+1}+\\ln(1+x_{n+1})>x_{n+1}$，所以 $0&#x3C;x_{n+1}&#x3C;x_{n}$.</p></li><li><p>令 $t=x_{n+1}>0$，则 $x_{n}=t+\\ln(1+t)$. 考虑函数 $g(t)=t^{2}-2t+(t+2)\\ln(1+t)$，有 $g(0)=0$，$g'(t)=2t-1+\\ln(1+t)+\\dfrac{1}{1+t}$，$g''(t)=2+\\dfrac{t}{(1+t)^2}>0$. 因此 $g'(t)>g'(0)=0$，进而 $g(t)>g(0)=0$（$t>0$）. 代入 $x_{n}=t+\\ln(1+t)$，得 $x_{n}x_{n+1}-4x_{n+1}+2x_{n}=g(t)\\geq0$，即 $2x_{n+1}-x_{n}\\leq\\dfrac{x_nx_{n+1}}{2}$.</p></li><li><p>对任意 $t>0$，有 $0&#x3C;\\ln(1+t)\\leq t$，所以 $x_{n}\\leq2x_{n+1}$，从而 $x_{n+1}\\geq\\dfrac{x_n}{2}$. 反复使用并结合 $x_{1}=1$，得到 $x_{n}\\geq\\dfrac{1}{2^{n-1}}$. 另一方面，由第（2）问及 $x_{n}x_{n+1}>0$，得 $\\dfrac{1}{x_{n+1}}-\\dfrac{1}{2}\\geq2\\left(\\dfrac{1}{x_n}-\\dfrac{1}{2}\\right)$. 反复使用此不等式，得到 $\\dfrac{1}{x_n}-\\dfrac{1}{2}\\geq2^{n-1}\\left(\\dfrac{1}{x_1}-\\dfrac{1}{2}\\right)=2^{n-2}$，所以 $\\dfrac{1}{x_n}\\geq2^{n-2}+\\dfrac{1}{2}\\geq2^{n-2}$，即 $x_{n}\\leq\\dfrac{1}{2^{n-2}}$. 综上，$\\dfrac{1}{2^{n-1}}\\leq x_{n}\\leq\\dfrac{1}{2^{n-2}}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>令 $\\varphi(t)=t+\\ln(1+t)$，其中 $t>-1$. 因为 $\\varphi'(t)=1+\\dfrac{1}{1+t}>0$，且 $\\varphi(0)=0$，所以 $\\varphi$ 在定义域上单调递增. 由 $x_{1}=1>0$ 归纳可知，若 $x_{n}>0$，则 $x_{n}=\\varphi(x_{n+1})>\\varphi(0)=0$，从而 $x_{n+1}>0$. 于是 $\\ln(1+x_{n+1})>0$，由递推关系得 $x_{n}=x_{n+1}+\\ln(1+x_{n+1})>x_{n+1}$，所以 $0<x_{n+1}<x_{n}$.</p></li><li><p>令 $t=x_{n+1}>0$，则 $x_{n}=t+\\ln(1+t)$. 考虑函数 $g(t)=t^{2}-2t+(t+2)\\ln(1+t)$，有 $g(0)=0$，$g'(t)=2t-1+\\ln(1+t)+\\dfrac{1}{1+t}$，$g''(t)=2+\\dfrac{t}{(1+t)^2}>0$. 因此 $g'(t)>g'(0)=0$，进而 $g(t)>g(0)=0$（$t>0$）. 代入 $x_{n}=t+\\ln(1+t)$，得 $x_{n}x_{n+1}-4x_{n+1}+2x_{n}=g(t)\\geq0$，即 $2x_{n+1}-x_{n}\\leq\\dfrac{x_nx_{n+1}}{2}$.</p></li><li><p>对任意 $t>0$，有 $0<\\ln(1+t)\\leq t$，所以 $x_{n}\\leq2x_{n+1}$，从而 $x_{n+1}\\geq\\dfrac{x_n}{2}$. 反复使用并结合 $x_{1}=1$，得到 $x_{n}\\geq\\dfrac{1}{2^{n-1}}$. 另一方面，由第（2）问及 $x_{n}x_{n+1}>0$，得 $\\dfrac{1}{x_{n+1}}-\\dfrac{1}{2}\\geq2\\left(\\dfrac{1}{x_n}-\\dfrac{1}{2}\\right)$. 反复使用此不等式，得到 $\\dfrac{1}{x_n}-\\dfrac{1}{2}\\geq2^{n-1}\\left(\\dfrac{1}{x_1}-\\dfrac{1}{2}\\right)=2^{n-2}$，所以 $\\dfrac{1}{x_n}\\geq2^{n-2}+\\dfrac{1}{2}\\geq2^{n-2}$，即 $x_{n}\\leq\\dfrac{1}{2^{n-2}}$. 综上，$\\dfrac{1}{2^{n-1}}\\leq x_{n}\\leq\\dfrac{1}{2^{n-2}}$.</p></li></ol>"
         }
       ]
     }

@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A = \\{x \\mid x^{2} - 4x + 3 &#x3C; 0\\}$，$B = \\{x \\mid 2 &#x3C; x &#x3C; 4\\}$，则 $A \\cap B =$（ ）",
+          "body": "已知集合 $A = \\{x \\mid x^{2} - 4x + 3 < 0\\}$，$B = \\{x \\mid 2 < x < 4\\}$，则 $A \\cap B =$（ ）",
           "choices": [
             "$(1,3)$",
             "$(1,4)$",
@@ -17,7 +17,7 @@
             "$(2,4)$"
           ],
           "answer": "C",
-          "solution": "<p>由</p>\n$$\nx^{2}-4x+3=(x-1)(x-3)&#x3C;0\n$$\n<p>可得 $1&#x3C;x&#x3C;3$，所以 $A=(1,3)$. 又 $B=(2,4)$，因此</p>\n$$\nA\\cap B=(1,3)\\cap(2,4)=(2,3)\n$$\n<p>故选 C.</p>"
+          "solution": "<p>由</p>\n$$\nx^{2}-4x+3=(x-1)(x-3)<0\n$$\n<p>可得 $1<x<3$，所以 $A=(1,3)$. 又 $B=(2,4)$，因此</p>\n$$\nA\\cap B=(1,3)\\cap(2,4)=(2,3)\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 2,
@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "不等式 $|x - 1| - |x - 5| &#x3C; 2$ 的解集是（ ）",
+          "body": "不等式 $|x - 1| - |x - 5| < 2$ 的解集是（ ）",
           "choices": [
             "$(-\\infty,4)$",
             "$(-\\infty,1)$",
@@ -65,7 +65,7 @@
             "$(1,5)$"
           ],
           "answer": "A",
-          "solution": "<p>按 $x=1$ 和 $x=5$ 分段讨论.</p><p>当 $x&#x3C;1$ 时，</p>\n$$\n|x-1|-|x-5|=(1-x)-(5-x)=-4&#x3C;2\n$$\n<p>故这一段全部满足不等式.</p><p>当 $1\\le x&#x3C;5$ 时，</p>\n$$\n|x-1|-|x-5|=(x-1)-(5-x)=2x-6&#x3C;2\n$$\n<p>即 $x&#x3C;4$，得到 $1\\le x&#x3C;4$.</p><p>当 $x\\geqslant5$ 时，左边为 $(x-1)-(x-5)=4$，不满足不等式.</p><p>合并得解集为 $(-\\infty,4)$，故选 A.</p>"
+          "solution": "<p>按 $x=1$ 和 $x=5$ 分段讨论.</p><p>当 $x<1$ 时，</p>\n$$\n|x-1|-|x-5|=(1-x)-(5-x)=-4<2\n$$\n<p>故这一段全部满足不等式.</p><p>当 $1\\le x<5$ 时，</p>\n$$\n|x-1|-|x-5|=(x-1)-(5-x)=2x-6<2\n$$\n<p>即 $x<4$，得到 $1\\le x<4$.</p><p>当 $x\\geqslant5$ 时，左边为 $(x-1)-(x-5)=4$，不满足不等式.</p><p>合并得解集为 $(-\\infty,4)$，故选 A.</p>"
         },
         {
           "num": 6,
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "已知某批零件的长度误差（单位：毫米）服从正态分布 $N(0,3^{2})$，从中随机取一件，其长度误差落在区间 $(3,6)$ 内的概率为（ ）（附：若随机变量 $\\xi$ 服从正态分布 $N(\\mu,\\sigma^{2})$，则 $P(\\mu - \\sigma &#x3C; \\xi &#x3C; \\mu + \\sigma) = 68.26\\%$，$P(\\mu - 2\\sigma &#x3C; \\xi &#x3C; \\mu + 2\\sigma) = 95.44\\%$）.",
+          "body": "已知某批零件的长度误差（单位：毫米）服从正态分布 $N(0,3^{2})$，从中随机取一件，其长度误差落在区间 $(3,6)$ 内的概率为（ ）（附：若随机变量 $\\xi$ 服从正态分布 $N(\\mu,\\sigma^{2})$，则 $P(\\mu - \\sigma < \\xi < \\mu + \\sigma) = 68.26\\%$，$P(\\mu - 2\\sigma < \\xi < \\mu + 2\\sigma) = 95.44\\%$）.",
           "choices": [
             "$4.56\\%$",
             "$13.59\\%$",
@@ -101,7 +101,7 @@
             "$31.74\\%$"
           ],
           "answer": "B",
-          "solution": "<p>令标准化变量 $Z=\\frac{\\xi}{3}$，则 $Z\\sim N(0,1)$. 题目所求为</p>\n$$\nP(3&#x3C;\\xi&#x3C;6)=P(1&#x3C;Z&#x3C;2)\n$$\n<p>由正态分布的对称性，</p>\n$$\nP(1&#x3C;Z&#x3C;2)=\\frac{1}{2}\\left(P(-2&#x3C;Z&#x3C;2)-P(-1&#x3C;Z&#x3C;1)\\right)  =\\frac{1}{2}(0.9544-0.6826)=0.1359\n$$\n<p>所以概率为 $13.59\\%$，故选 B.</p>"
+          "solution": "<p>令标准化变量 $Z=\\frac{\\xi}{3}$，则 $Z\\sim N(0,1)$. 题目所求为</p>\n$$\nP(3<\\xi<6)=P(1<Z<2)\n$$\n<p>由正态分布的对称性，</p>\n$$\nP(1<Z<2)=\\frac{1}{2}\\left(P(-2<Z<2)-P(-1<Z<1)\\right)  =\\frac{1}{2}(0.9544-0.6826)=0.1359\n$$\n<p>所以概率为 $13.59\\%$，故选 B.</p>"
         },
         {
           "num": 9,
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "设函数 $f(x) = \\begin{cases}3x - 1,&#x26;x &#x3C; 1,\\\\  2^{x},&#x26;x \\ge 1,\\end{cases}$ 则满足 $f[f(a)] = 2^{f(a)}$ 的 $a$ 取值范围是（ ）",
+          "body": "设函数 $f(x) = \\begin{cases}3x - 1,&x < 1,\\\\  2^{x},&x \\ge 1,\\end{cases}$ 则满足 $f[f(a)] = 2^{f(a)}$ 的 $a$ 取值范围是（ ）",
           "choices": [
             "$\\left[\\frac{2}{3},1\\right]$",
             "$[0,1]$",
@@ -125,7 +125,7 @@
             "$[1,+\\infty)$"
           ],
           "answer": "C",
-          "solution": "<p>令 $t=f(a)$，原方程化为 $f(t)=2^{t}$.</p><p>当 $t&#x3C;1$ 时，方程为 $3t-1=2^{t}$. 设</p>\n$$\ng(t)=3t-1-2^{t}\n$$\n<p>若 $t&#x3C;1$，则</p>\n$$\ng'(t)=3-2^{t}\\ln2>3-2\\ln2>0\n$$\n<p>所以 $g(t)&#x3C;g(1)=0$，该段没有解.</p><p>当 $t\\geqslant1$ 时，按函数定义 $f(t)=2^{t}$，方程恒成立. 因此只需 $f(a)\\geqslant1$.</p><p>若 $a&#x3C;1$，则 $3a-1\\geqslant1$，即 $a\\ge\\frac{2}{3}$；若 $a\\geqslant1$，则 $f(a)=2^{a}\\geqslant2$，也满足条件. 故</p>\n$$\na\\in\\left[\\frac{2}{3},+\\infty\\right)\n$$\n<p>故选 C.</p>"
+          "solution": "<p>令 $t=f(a)$，原方程化为 $f(t)=2^{t}$.</p><p>当 $t<1$ 时，方程为 $3t-1=2^{t}$. 设</p>\n$$\ng(t)=3t-1-2^{t}\n$$\n<p>若 $t<1$，则</p>\n$$\ng'(t)=3-2^{t}\\ln2>3-2\\ln2>0\n$$\n<p>所以 $g(t)<g(1)=0$，该段没有解.</p><p>当 $t\\geqslant1$ 时，按函数定义 $f(t)=2^{t}$，方程恒成立. 因此只需 $f(a)\\geqslant1$.</p><p>若 $a<1$，则 $3a-1\\geqslant1$，即 $a\\ge\\frac{2}{3}$；若 $a\\geqslant1$，则 $f(a)=2^{a}\\geqslant2$，也满足条件. 故</p>\n$$\na\\in\\left[\\frac{2}{3},+\\infty\\right)\n$$\n<p>故选 C.</p>"
         }
       ]
     },
@@ -151,14 +151,14 @@
           "body": "<p>执行如图所示的程序框图，输出的 $T$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.42<span class=\"macro macro-linewidth\"></span>]img_repaint/2015/shandong_science/q13_fig1.tex</p>",
           "choices": null,
           "answer": "$\\frac{11}{6}$",
-          "solution": "<p>由程序框图初始值 $n=1$，$T=1$. 第一次判断 $n&#x3C;3$ 成立，执行</p>\n$$\nT\\leftarrow T+\\int_{0}^{1}x^{n} dx  =1+\\int_{0}^{1}x dx=1+\\frac{1}{2}\n$$\n<p>然后 $n$ 加 $1$ 变为 $2$. 第二次判断仍成立，执行</p>\n$$\nT\\leftarrow1+\\frac{1}{2}+\\int_{0}^{1}x^{2} dx  =1+\\frac{1}{2}+\\frac{1}{3}=\\frac{11}{6}\n$$\n<p>并将 $n$ 加 $1$ 变为 $3$. 此时 $n&#x3C;3$ 不成立，程序输出</p>\n$$\nT=\\frac{11}{6}\n$$"
+          "solution": "<p>由程序框图初始值 $n=1$，$T=1$. 第一次判断 $n<3$ 成立，执行</p>\n$$\nT\\leftarrow T+\\int_{0}^{1}x^{n} dx  =1+\\int_{0}^{1}x dx=1+\\frac{1}{2}\n$$\n<p>然后 $n$ 加 $1$ 变为 $2$. 第二次判断仍成立，执行</p>\n$$\nT\\leftarrow1+\\frac{1}{2}+\\int_{0}^{1}x^{2} dx  =1+\\frac{1}{2}+\\frac{1}{3}=\\frac{11}{6}\n$$\n<p>并将 $n$ 加 $1$ 变为 $3$. 此时 $n<3$ 不成立，程序输出</p>\n$$\nT=\\frac{11}{6}\n$$"
         },
         {
           "num": 14,
           "body": "已知函数 $f(x) = a^{x} + b$（$a > 0$，$a \\neq 1$）的定义域和值域都是 $[-1,0]$，则 $a + b =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-\\frac{3}{2}$",
-          "solution": "<p>在题设给定的定义域 $[-1,0]$ 上，先讨论 $a$ 的单调性.</p><p>若 $a>1$，函数递增，故值域端点应满足</p><p>$a^{-1}+b=-1$，$1+b=0$.</p><p>由第二式得 $b=-1$，代入第一式得到 $a^{-1}=0$，矛盾.</p><p>若 $0&#x3C;a&#x3C;1$，函数递减，故</p><p>$a^{-1}+b=0$，$1+b=-1$.</p><p>由第二式得 $b=-2$，再由第一式得 $a^{-1}=2$，即 $a=\\frac{1}{2}$. 因此</p>\n$$\na+b=\\frac{1}{2}-2=-\\frac{3}{2}\n$$"
+          "solution": "<p>在题设给定的定义域 $[-1,0]$ 上，先讨论 $a$ 的单调性.</p><p>若 $a>1$，函数递增，故值域端点应满足</p><p>$a^{-1}+b=-1$，$1+b=0$.</p><p>由第二式得 $b=-1$，代入第一式得到 $a^{-1}=0$，矛盾.</p><p>若 $0<a<1$，函数递减，故</p><p>$a^{-1}+b=0$，$1+b=-1$.</p><p>由第二式得 $b=-2$，再由第一式得 $a^{-1}=2$，即 $a=\\frac{1}{2}$. 因此</p>\n$$\na+b=\\frac{1}{2}-2=-\\frac{3}{2}\n$$"
         },
         {
           "num": 15,
@@ -177,7 +177,7 @@
           "body": "<p>设 $f(x) = \\sin x \\cos x - \\cos^{2}\\left(x + \\frac{\\pi}{4}\\right)$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>在锐角 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 若 $f\\left(\\frac{A}{2}\\right) = 0$，$a = 1$，求 $\\triangle ABC$ 面积的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$\\sin x\\cos x=\\frac{1}{2}\\sin2x$，$\\cos^{2}\\left(x+\\frac{\\pi}{4}\\right)=\\frac{1}{2}(1-\\sin2x)$，</p><p>所以</p><p>$f(x)=\\sin2x-\\frac{1}{2}$，$f'(x)=2\\cos2x$.</p><p>当</p>\n$$\nk\\pi-\\frac{\\pi}{4}&#x3C;x&#x3C;k\\pi+\\frac{\\pi}{4}\n$$\n<p>时 $f'(x)>0$，当</p>\n$$\nk\\pi+\\frac{\\pi}{4}&#x3C;x&#x3C;k\\pi+\\frac{3\\pi}{4}\n$$\n<p>时 $f'(x)&#x3C;0$. 因此递增区间可写为</p>\n$$\n\\left[k\\pi-\\frac{\\pi}{4},k\\pi+\\frac{\\pi}{4}\\right]\n$$\n<p>，递减区间可写为</p>\n$$\n\\left[k\\pi+\\frac{\\pi}{4},k\\pi+\\frac{3\\pi}{4}\\right]\n$$\n<p>，其中 $k\\in\\mathbb{Z}$.</p></li><li><p>由 $f\\left(\\frac{A}{2}\\right)=0$ 得</p>\n$$\n\\sin A-\\frac{1}{2}=0\n$$\n<p>因 $A$ 是锐角，所以 $A=\\frac{\\pi}{6}$，又已知 $a=1$. 由正弦定理</p><p>$b=2\\sin B$，$c=2\\sin C$，$B+C=\\frac{5\\pi}{6}$.</p><p>三角形面积为</p>\n$$\nS=\\frac{1}{2}bc\\sin A=\\sin B\\sin C\n$$\n<p>利用积化和差公式，</p>\n$$\nS=\\frac{\\cos(B-C)-\\cos(B+C)}{2}  =\\frac{\\cos(B-C)+\\frac{\\sqrt{3}}{2}}{2}  \\le\\frac{2+\\sqrt{3}}{4}\n$$\n<p>当 $B=C=\\frac{5\\pi}{12}$ 时等号成立，且三角形仍为锐角三角形. 因此面积最大值为</p>\n$$\n\\frac{2+\\sqrt{3}}{4}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$\\sin x\\cos x=\\frac{1}{2}\\sin2x$，$\\cos^{2}\\left(x+\\frac{\\pi}{4}\\right)=\\frac{1}{2}(1-\\sin2x)$，</p><p>所以</p><p>$f(x)=\\sin2x-\\frac{1}{2}$，$f'(x)=2\\cos2x$.</p><p>当</p>\n$$\nk\\pi-\\frac{\\pi}{4}<x<k\\pi+\\frac{\\pi}{4}\n$$\n<p>时 $f'(x)>0$，当</p>\n$$\nk\\pi+\\frac{\\pi}{4}<x<k\\pi+\\frac{3\\pi}{4}\n$$\n<p>时 $f'(x)<0$. 因此递增区间可写为</p>\n$$\n\\left[k\\pi-\\frac{\\pi}{4},k\\pi+\\frac{\\pi}{4}\\right]\n$$\n<p>，递减区间可写为</p>\n$$\n\\left[k\\pi+\\frac{\\pi}{4},k\\pi+\\frac{3\\pi}{4}\\right]\n$$\n<p>，其中 $k\\in\\mathbb{Z}$.</p></li><li><p>由 $f\\left(\\frac{A}{2}\\right)=0$ 得</p>\n$$\n\\sin A-\\frac{1}{2}=0\n$$\n<p>因 $A$ 是锐角，所以 $A=\\frac{\\pi}{6}$，又已知 $a=1$. 由正弦定理</p><p>$b=2\\sin B$，$c=2\\sin C$，$B+C=\\frac{5\\pi}{6}$.</p><p>三角形面积为</p>\n$$\nS=\\frac{1}{2}bc\\sin A=\\sin B\\sin C\n$$\n<p>利用积化和差公式，</p>\n$$\nS=\\frac{\\cos(B-C)-\\cos(B+C)}{2}  =\\frac{\\cos(B-C)+\\frac{\\sqrt{3}}{2}}{2}  \\le\\frac{2+\\sqrt{3}}{4}\n$$\n<p>当 $B=C=\\frac{5\\pi}{12}$ 时等号成立，且三角形仍为锐角三角形. 因此面积最大值为</p>\n$$\n\\frac{2+\\sqrt{3}}{4}\n$$\n</li></ol>"
         },
         {
           "num": 17,
@@ -191,7 +191,7 @@
           "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$. 已知 $2S_{n} = 3^{n} + 3$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若数列 $\\{b_{n}\\}$ 满足 $a_{n} b_{n} = \\log_{3} a_{n}$，求 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $2S_{1}=3+3=6$，得 $a_{1}=S_{1}=3$. 当 $n\\geqslant2$ 时，</p>\n$$\n2a_{n}=2(S_{n}-S_{n-1})  =(3^{n}+3)-(3^{n-1}+3)=2\\cdot3^{n-1}\n$$\n<p>所以当 $n\\geqslant2$ 时 $a_{n}=3^{n-1}$，又 $a_{1}=3$，故通项为</p>\n$$\na_{n}=\\begin{cases}3,&#x26;n=1,\\\\  3^{n-1},&#x26;n\\geqslant2.\\end{cases}\n$$\n</li><li><p>由 $a_{n}b_{n}=\\log_{3}a_{n}$，得</p>\n$$\nb_{1}=\\frac{\\log_{3}3}{3}=\\frac{1}{3}\n$$\n<p>当 $n\\geqslant2$ 时，</p>\n$$\nb_{n}=\\frac{\\log_{3}(3^{n-1})}{3^{n-1}}=\\frac{n-1}{3^{n-1}}\n$$\n<p>令 $m=n-1$，则</p>\n$$\nT_{n}=\\frac{1}{3}+\\sum_{j=1}^{m}\\frac{j}{3^{j}}\n$$\n<p>设 $U_{m}=\\sum_{j=1}^{m}\\frac{j}{3^{j}}$，则</p>\n$$\nU_{m}-\\frac{1}{3}U_{m}  =\\frac{1}{3}+\\sum_{j=2}^{m}\\frac{1}{3^{j}}-\\frac{m}{3^{m+1}}=\\frac{1}{2}\\left(1-\\frac{1}{3^{m}}\\right)-\\frac{m}{3^{m+1}}\n$$\n<p>从而</p>\n$$\nU_{m}=\\frac{3}{4}-\\frac{2m+3}{4\\cdot3^{m}}\n$$\n<p>代入 $m=n-1$，得到</p>\n$$\nT_{n}=\\frac{13}{12}-\\frac{2n+1}{4\\cdot3^{n-1}}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $2S_{1}=3+3=6$，得 $a_{1}=S_{1}=3$. 当 $n\\geqslant2$ 时，</p>\n$$\n2a_{n}=2(S_{n}-S_{n-1})  =(3^{n}+3)-(3^{n-1}+3)=2\\cdot3^{n-1}\n$$\n<p>所以当 $n\\geqslant2$ 时 $a_{n}=3^{n-1}$，又 $a_{1}=3$，故通项为</p>\n$$\na_{n}=\\begin{cases}3,&n=1,\\\\  3^{n-1},&n\\geqslant2.\\end{cases}\n$$\n</li><li><p>由 $a_{n}b_{n}=\\log_{3}a_{n}$，得</p>\n$$\nb_{1}=\\frac{\\log_{3}3}{3}=\\frac{1}{3}\n$$\n<p>当 $n\\geqslant2$ 时，</p>\n$$\nb_{n}=\\frac{\\log_{3}(3^{n-1})}{3^{n-1}}=\\frac{n-1}{3^{n-1}}\n$$\n<p>令 $m=n-1$，则</p>\n$$\nT_{n}=\\frac{1}{3}+\\sum_{j=1}^{m}\\frac{j}{3^{j}}\n$$\n<p>设 $U_{m}=\\sum_{j=1}^{m}\\frac{j}{3^{j}}$，则</p>\n$$\nU_{m}-\\frac{1}{3}U_{m}  =\\frac{1}{3}+\\sum_{j=2}^{m}\\frac{1}{3^{j}}-\\frac{m}{3^{m+1}}=\\frac{1}{2}\\left(1-\\frac{1}{3^{m}}\\right)-\\frac{m}{3^{m+1}}\n$$\n<p>从而</p>\n$$\nU_{m}=\\frac{3}{4}-\\frac{2m+3}{4\\cdot3^{m}}\n$$\n<p>代入 $m=n-1$，得到</p>\n$$\nT_{n}=\\frac{13}{12}-\\frac{2n+1}{4\\cdot3^{n-1}}\n$$\n</li></ol>"
         },
         {
           "num": 19,
@@ -212,7 +212,7 @@
           "body": "<p>设函数 $f(x) = \\ln(x + 1) + a(x^{2} - x)$，其中 $a \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>讨论函数 $f(x)$ 极值点的个数，并说明理由；</p></li><li><p>若 $\\forall x > 0$，$f(x) \\ge 0$ 成立，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-1$，且</p><p>$f'(x)=\\frac{1}{x+1}+a(2x-1)=\\frac{g(x)}{x+1}$，$g(x)=2ax^{2}+ax+1-a$.</p><p>由于 $x+1>0$，$f'$ 与 $g$ 同号，且 $g(-1)=1$.</p><p>当 $a&#x3C;0$ 时，$g$ 是开口向下的抛物线，且在 $x\\to+\\infty$ 时趋于负无穷，因此在定义域内恰有一个零点，$f'$ 由正变负，函数有一个极值点.</p><p>当 $a=0$ 时，$g(x)=1>0$，函数无极值点.</p><p>当 $0&#x3C;a&#x3C;\\frac{8}{9}$ 时，$g$ 的判别式为</p>\n$$\n\\Delta=a^{2}-8a(1-a)=a(9a-8)&#x3C;0\n$$\n<p>且二次项系数为正，所以 $g(x)>0$，函数无极值点.</p><p>当 $a=\\frac{8}{9}$ 时，$g\\geqslant0$，虽在 $x=-\\frac{1}{4}$ 处为零，但不变号，函数仍无极值点.</p><p>当 $a>\\frac{8}{9}$ 时，$\\Delta>0$. 二次函数顶点横坐标为 $-\\frac{1}{4}>-1$，又 $g(-1)=1>0$，故 $g$ 在定义域内有两个零点，符号依次为正、负、正，函数有两个极值点.</p><p>综上，当 $a&#x3C;0$ 时有一个极值点；当 $0\\le a\\le\\frac{8}{9}$ 时无极值点；当 $a>\\frac{8}{9}$ 时有两个极值点.</p></li><li><p>对 $0&#x3C;x&#x3C;1$，条件 $f(x)\\geqslant0$ 等价于</p>\n$$\na\\le\\frac{\\ln(1+x)}{x(1-x)}\n$$\n<p>令</p>\n$$\nh(x)=\\ln(1+x)-x(1-x)\n$$\n<p>则 $h(0)=0$，且</p>\n$$\nh'(x)=\\frac{x(1+2x)}{1+x}>0\n$$\n<p>所以 $\\ln(1+x)\\ge x(1-x)$，从而 $a\\leqslant1$ 时对 $0&#x3C;x&#x3C;1$ 成立. 另一方面</p>\n$$\n\\lim_{x\\to0^+}\\frac{\\ln(1+x)}{x(1-x)}=1\n$$\n<p>所以若 $a>1$，取充分小的正数 $x$ 即不满足条件，故必须 $a\\leqslant1$.</p><p>当 $x>1$ 时，若 $a&#x3C;0$，则</p>\n$$\n\\frac{f(x)}{x^{2}}=\\frac{\\ln(1+x)}{x^{2}}+a\\left(1-\\frac{1}{x}\\right)\\longrightarrow a&#x3C;0\n$$\n<p>故大 $x$ 时 $f(x)&#x3C;0$，所以必须 $a\\geqslant0$. 若 $0\\le a\\leqslant1$，则 $x\\geqslant1$ 时两项均非负，结合前面的结论可知对一切 $x>0$ 都有 $f(x)\\geqslant0$. 因此</p>\n$$\na\\in[0,1]\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-1$，且</p><p>$f'(x)=\\frac{1}{x+1}+a(2x-1)=\\frac{g(x)}{x+1}$，$g(x)=2ax^{2}+ax+1-a$.</p><p>由于 $x+1>0$，$f'$ 与 $g$ 同号，且 $g(-1)=1$.</p><p>当 $a<0$ 时，$g$ 是开口向下的抛物线，且在 $x\\to+\\infty$ 时趋于负无穷，因此在定义域内恰有一个零点，$f'$ 由正变负，函数有一个极值点.</p><p>当 $a=0$ 时，$g(x)=1>0$，函数无极值点.</p><p>当 $0<a<\\frac{8}{9}$ 时，$g$ 的判别式为</p>\n$$\n\\Delta=a^{2}-8a(1-a)=a(9a-8)<0\n$$\n<p>且二次项系数为正，所以 $g(x)>0$，函数无极值点.</p><p>当 $a=\\frac{8}{9}$ 时，$g\\geqslant0$，虽在 $x=-\\frac{1}{4}$ 处为零，但不变号，函数仍无极值点.</p><p>当 $a>\\frac{8}{9}$ 时，$\\Delta>0$. 二次函数顶点横坐标为 $-\\frac{1}{4}>-1$，又 $g(-1)=1>0$，故 $g$ 在定义域内有两个零点，符号依次为正、负、正，函数有两个极值点.</p><p>综上，当 $a<0$ 时有一个极值点；当 $0\\le a\\le\\frac{8}{9}$ 时无极值点；当 $a>\\frac{8}{9}$ 时有两个极值点.</p></li><li><p>对 $0<x<1$，条件 $f(x)\\geqslant0$ 等价于</p>\n$$\na\\le\\frac{\\ln(1+x)}{x(1-x)}\n$$\n<p>令</p>\n$$\nh(x)=\\ln(1+x)-x(1-x)\n$$\n<p>则 $h(0)=0$，且</p>\n$$\nh'(x)=\\frac{x(1+2x)}{1+x}>0\n$$\n<p>所以 $\\ln(1+x)\\ge x(1-x)$，从而 $a\\leqslant1$ 时对 $0<x<1$ 成立. 另一方面</p>\n$$\n\\lim_{x\\to0^+}\\frac{\\ln(1+x)}{x(1-x)}=1\n$$\n<p>所以若 $a>1$，取充分小的正数 $x$ 即不满足条件，故必须 $a\\leqslant1$.</p><p>当 $x>1$ 时，若 $a<0$，则</p>\n$$\n\\frac{f(x)}{x^{2}}=\\frac{\\ln(1+x)}{x^{2}}+a\\left(1-\\frac{1}{x}\\right)\\longrightarrow a<0\n$$\n<p>故大 $x$ 时 $f(x)<0$，所以必须 $a\\geqslant0$. 若 $0\\le a\\leqslant1$，则 $x\\geqslant1$ 时两项均非负，结合前面的结论可知对一切 $x>0$ 都有 $f(x)\\geqslant0$. 因此</p>\n$$\na\\in[0,1]\n$$\n</li></ol>"
         }
       ]
     }

@@ -9,15 +9,15 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A = \\{x \\mid x > 1\\}$，$B = \\{x \\mid -1 &#x3C; x &#x3C; 2\\}$，则 $A \\cap B =$（ ）",
+          "body": "已知集合 $A = \\{x \\mid x > 1\\}$，$B = \\{x \\mid -1 < x < 2\\}$，则 $A \\cap B =$（ ）",
           "choices": [
-            "$\\{x\\mid -1 &#x3C; x &#x3C; 2\\}$",
+            "$\\{x\\mid -1 < x < 2\\}$",
             "$\\{x \\mid x > -1\\}$",
-            "$\\{x \\mid -1 &#x3C; x &#x3C; 1\\}$",
-            "$\\{x \\mid 1 &#x3C; x &#x3C; 2\\}$"
+            "$\\{x \\mid -1 < x < 1\\}$",
+            "$\\{x \\mid 1 < x < 2\\}$"
           ],
           "answer": "D",
-          "solution": "由交集定义，元素必须同时满足 $x>1$ 与 $-1&#x3C;x&#x3C;2$，所以 $1&#x3C;x&#x3C;2$.因而 $A\\cap B=\\{x\\mid 1&#x3C;x&#x3C;2\\}$，故选 D."
+          "solution": "由交集定义，元素必须同时满足 $x>1$ 与 $-1<x<2$，所以 $1<x<2$.因而 $A\\cap B=\\{x\\mid 1<x<2\\}$，故选 D."
         },
         {
           "num": 2,
@@ -50,7 +50,7 @@
             "$\\forall n\\in \\mathbb{N},2^{n}\\le 1000$",
             "$\\forall n\\in \\mathbb{N}$，$2^{n} >1000$",
             "$\\exists n\\in \\mathbb{N}$，$2^{n}\\le 1000$",
-            "$\\exists n\\in \\mathbb{N}$，$2^{n} &#x3C; 1000$"
+            "$\\exists n\\in \\mathbb{N}$，$2^{n} < 1000$"
           ],
           "answer": "A",
           "solution": "命题“存在 $n\\in\\mathbb{N}$，使 $2^{n}>1000$”的否定是“对任意 $n\\in\\mathbb{N}$，都有 $2^{n}\\leqslant1000$”.故选 A."
@@ -113,7 +113,7 @@
             "$2$"
           ],
           "answer": "C",
-          "solution": "初始 $s=0$，$t=1$，$k=1$.第一次循环 $p=s+t=1$，更新为 $(s,t,k)=(1,1,2)$；第二次循环 $p=2$，更新为 $(1,2,3)$；第三次循环 $p=3$，更新为 $(2,3,4)$.此时 $k&#x3C;n$ 不成立，输出 $p=3$，故选 C."
+          "solution": "初始 $s=0$，$t=1$，$k=1$.第一次循环 $p=s+t=1$，更新为 $(s,t,k)=(1,1,2)$；第二次循环 $p=2$，更新为 $(1,2,3)$；第三次循环 $p=3$，更新为 $(2,3,4)$.此时 $k<n$ 不成立，输出 $p=3$，故选 C."
         },
         {
           "num": 10,
@@ -125,7 +125,7 @@
             "$\\frac{5\\sqrt{3}}{3}$"
           ],
           "answer": "C",
-          "solution": "<p>取 $S=(0,0,0)$、$C=(4,0,0)$.因为 $SC$ 是球的直径，$\\angle SAC=90^{\\circ}$；又 $\\angle ASC=45^{\\circ}$，所以 $\\triangle SAC$ 为等腰直角三角形，$SA=AC=2\\sqrt{2}$，且 $A$ 在 $SC$ 上的投影横坐标为 $2$，到 $SC$ 的距离为 $2$.点 $B$ 同样满足这两个条件.在垂直于 $SC$ 的平面内建立直角坐标，使 $A=(2,2,0)$，设 $B=(2,u,v)$.由 $B$ 到 $SC$ 的距离为 $2$ 及 $AB=2$，有</p><p>$\\displaystyle u^{2}+v^{2}=4$，$(u-2)^{2}+v^{2}=4$，两式相减得 $u=1$，再得 $v=\\pm\\sqrt{3}$.旋转坐标方向可取 $v=\\sqrt{3}$，故 $B=(2,1,\\sqrt{3})$.因此</p><p>$\\displaystyle V_{S-ABC}=\\frac{1}{6}\\left|\\det\\begin{pmatrix}2&#x26;2&#x26;0\\\\2&#x26;1&#x26;\\sqrt{3}\\\\4&#x26;0&#x26;0\\end{pmatrix}\\right|  =\\frac{4\\sqrt{3}}{3}$，故选 C.</p>"
+          "solution": "<p>取 $S=(0,0,0)$、$C=(4,0,0)$.因为 $SC$ 是球的直径，$\\angle SAC=90^{\\circ}$；又 $\\angle ASC=45^{\\circ}$，所以 $\\triangle SAC$ 为等腰直角三角形，$SA=AC=2\\sqrt{2}$，且 $A$ 在 $SC$ 上的投影横坐标为 $2$，到 $SC$ 的距离为 $2$.点 $B$ 同样满足这两个条件.在垂直于 $SC$ 的平面内建立直角坐标，使 $A=(2,2,0)$，设 $B=(2,u,v)$.由 $B$ 到 $SC$ 的距离为 $2$ 及 $AB=2$，有</p><p>$\\displaystyle u^{2}+v^{2}=4$，$(u-2)^{2}+v^{2}=4$，两式相减得 $u=1$，再得 $v=\\pm\\sqrt{3}$.旋转坐标方向可取 $v=\\sqrt{3}$，故 $B=(2,1,\\sqrt{3})$.因此</p><p>$\\displaystyle V_{S-ABC}=\\frac{1}{6}\\left|\\det\\begin{pmatrix}2&2&0\\\\2&1&\\sqrt{3}\\\\4&0&0\\end{pmatrix}\\right|  =\\frac{4\\sqrt{3}}{3}$，故选 C.</p>"
         },
         {
           "num": 11,
@@ -141,7 +141,7 @@
         },
         {
           "num": 12,
-          "body": "<p>已知函数 $f(x) = A \\tan(\\omega x + \\varphi)$（$\\omega > 0$，$|\\varphi| &#x3C; \\frac{\\pi}{2}$），$y = f(x)$ 的部分图象如图，则 $f\\left(\\frac{\\pi}{24}\\right) =$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>已知函数 $f(x) = A \\tan(\\omega x + \\varphi)$（$\\omega > 0$，$|\\varphi| < \\frac{\\pi}{2}$），$y = f(x)$ 的部分图象如图，则 $f\\left(\\frac{\\pi}{24}\\right) =$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$2 + \\sqrt{3}$",
             "$\\sqrt{3}$",
@@ -149,7 +149,7 @@
             "$2 - \\sqrt{3}$"
           ],
           "answer": "B",
-          "solution": "<p>由图可知，$x=\\frac{\\pi}{8}$ 是一条竖直渐近线，$x=\\frac{3\\pi}{8}$ 是图像与 $x$ 轴的交点.正切函数从渐近线到零点的水平距离为 $\\tfrac{\\pi}{2\\omega}$，因而</p><p>$\\displaystyle \\frac{3\\pi}{8}-\\frac{\\pi}{8}=\\frac{\\pi}{4}=\\frac{\\pi}{2\\omega}$，得 $\\omega=2$.又在 $x=\\frac{\\pi}{8}$ 处有 $2\\cdot\\frac{\\pi}{8}+\\varphi=\\frac{\\pi}{2}$ 的渐近线，结合 $|\\varphi|&#x3C;\\frac{\\pi}{2}$ 得 $\\varphi=\\frac{\\pi}{4}$.由图知 $f(0)=1$，故 $A\\tan\\frac{\\pi}{4}=A=1$.因此</p><p>$\\displaystyle f\\left(\\frac{\\pi}{24}\\right)=\\tan\\left(2\\cdot\\frac{\\pi}{24}+\\frac{\\pi}{4}\\right)  =\\tan\\frac{\\pi}{3}=\\sqrt{3}$，故选 B.</p>"
+          "solution": "<p>由图可知，$x=\\frac{\\pi}{8}$ 是一条竖直渐近线，$x=\\frac{3\\pi}{8}$ 是图像与 $x$ 轴的交点.正切函数从渐近线到零点的水平距离为 $\\tfrac{\\pi}{2\\omega}$，因而</p><p>$\\displaystyle \\frac{3\\pi}{8}-\\frac{\\pi}{8}=\\frac{\\pi}{4}=\\frac{\\pi}{2\\omega}$，得 $\\omega=2$.又在 $x=\\frac{\\pi}{8}$ 处有 $2\\cdot\\frac{\\pi}{8}+\\varphi=\\frac{\\pi}{2}$ 的渐近线，结合 $|\\varphi|<\\frac{\\pi}{2}$ 得 $\\varphi=\\frac{\\pi}{4}$.由图知 $f(0)=1$，故 $A\\tan\\frac{\\pi}{4}=A=1$.因此</p><p>$\\displaystyle f\\left(\\frac{\\pi}{24}\\right)=\\tan\\left(2\\cdot\\frac{\\pi}{24}+\\frac{\\pi}{4}\\right)  =\\tan\\frac{\\pi}{3}=\\sqrt{3}$，故选 B.</p>"
         }
       ]
     },
@@ -208,21 +208,21 @@
           "body": "<p>某农场计划种植某种新作物，为此对这种作物的两个品种（分别称为品种甲和品种乙）进行田间试验，选取两大块地. 每大块地分成 $n$ 小块地. 在总共 $2n$ 小块地中，随机选 $n$ 小块地种植品种甲，另外 $n$ 小块地种植品种乙.</p><ol class=\"enumerate\"><li><p>假设 $n = 2$，求第一大块地都种植品种甲的概率；</p></li><li><p>试验时每大块地分成 $8$ 小块，即 $n = 8$，试验结束后得到品种甲和品种乙在各小块地上的每公顷产量（单位：$\\mathrm{kg/hm^2}$）如下表：</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>品种甲 </td><td style=\"text-align: center\"> $403$ </td><td style=\"text-align: center\"> $397$ </td><td style=\"text-align: center\"> $390$ </td><td style=\"text-align: center\"> $404$ </td><td style=\"text-align: center\"> $388$ </td><td style=\"text-align: center\"> $400$ </td><td style=\"text-align: center\"> $412$ </td><td style=\"text-align: center\"> $406$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>品种乙 </td><td style=\"text-align: center\"> $419$ </td><td style=\"text-align: center\"> $403$ </td><td style=\"text-align: center\"> $412$ </td><td style=\"text-align: center\"> $418$ </td><td style=\"text-align: center\"> $408$ </td><td style=\"text-align: center\"> $423$ </td><td style=\"text-align: center\"> $400$ </td><td style=\"text-align: center\"> $413$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p><p>分别求品种甲和品种乙每公顷产量的样本平均数和样本方差；根据试验结果，你应该种植哪一品种？</p></li></ol><p>附：样本数据 $x_{1}$，$x_{2}$，$\\cdots$，$x_{n}$ 的样本方差 $s^{2}= \\frac{1}{n}[(x_{1}- \\overline{x})^{2}+ (x_{2}- \\overline{x})^{2}+ \\cdots + (x_{n}- \\overline{x})^{2}]$，其中 $\\overline{x}$ 为样本平均数.</p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $n=2$ 时，设第一大块地中的两个小块编号为 $1,2$，第二大块地中的两个小块编号为 $3,4$.从四个小块中任选两个种植品种甲，共有 $\\mathrm{C}_{4}^{2}=6$ 种等可能结果；第一大块地都种植品种甲只有选取 $\\{1,2\\}$ 这一种结果，所以所求概率为 $\\displaystyle \\frac{1}{\\mathrm{C}_{4}^{2}}=\\frac{1}{6}$.</p></li><li><p>品种甲的样本平均数为</p><p>$\\displaystyle \\overline{x}=\\frac{403+397+390+404+388+400+412+406}{8}=400$.</p><p>其离均差平方和为</p><p>$\\displaystyle 3^{2}+(-3)^{2}+(-10)^{2}+4^{2}+(-12)^{2}+0^{2}+12^{2}+6^{2}=458$，所以样本方差</p><p>$\\displaystyle s_{x}^{2}=\\frac{458}{8}=57.25$.</p><p>品种乙的样本平均数为</p><p>$\\displaystyle \\overline{y}=\\frac{419+403+412+418+408+423+400+413}{8}=412$.</p><p>其离均差平方和为</p><p>$\\displaystyle 7^{2}+(-9)^{2}+0^{2}+6^{2}+(-4)^{2}+11^{2}+(-12)^{2}+1^{2}=448$，所以样本方差</p><p>$\\displaystyle s_{y}^{2}=\\frac{448}{8}=56$.</p><p>品种乙的样本平均数 $412>400$，且 $s_{y}^{2}&#x3C;s_{x}^{2}$，说明其平均产量更高、波动更小，故应选择品种乙.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $n=2$ 时，设第一大块地中的两个小块编号为 $1,2$，第二大块地中的两个小块编号为 $3,4$.从四个小块中任选两个种植品种甲，共有 $\\mathrm{C}_{4}^{2}=6$ 种等可能结果；第一大块地都种植品种甲只有选取 $\\{1,2\\}$ 这一种结果，所以所求概率为 $\\displaystyle \\frac{1}{\\mathrm{C}_{4}^{2}}=\\frac{1}{6}$.</p></li><li><p>品种甲的样本平均数为</p><p>$\\displaystyle \\overline{x}=\\frac{403+397+390+404+388+400+412+406}{8}=400$.</p><p>其离均差平方和为</p><p>$\\displaystyle 3^{2}+(-3)^{2}+(-10)^{2}+4^{2}+(-12)^{2}+0^{2}+12^{2}+6^{2}=458$，所以样本方差</p><p>$\\displaystyle s_{x}^{2}=\\frac{458}{8}=57.25$.</p><p>品种乙的样本平均数为</p><p>$\\displaystyle \\overline{y}=\\frac{419+403+412+418+408+423+400+413}{8}=412$.</p><p>其离均差平方和为</p><p>$\\displaystyle 7^{2}+(-9)^{2}+0^{2}+6^{2}+(-4)^{2}+11^{2}+(-12)^{2}+1^{2}=448$，所以样本方差</p><p>$\\displaystyle s_{y}^{2}=\\frac{448}{8}=56$.</p><p>品种乙的样本平均数 $412>400$，且 $s_{y}^{2}<s_{x}^{2}$，说明其平均产量更高、波动更小，故应选择品种乙.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>设函数 $f(x) = x + ax^{2}+ b \\ln x$，曲线 $y = f(x)$ 过 $P(1,0)$，且在 $P$ 点处的切线斜率为 $2$.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$ 的值；</p></li><li><p>证明：$f(x) \\le 2x - 2$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $f(1)=0$，得 $1+a=0$，所以 $a=-1$.又</p><p>$\\displaystyle f'(x)=1+2ax+\\frac{b}{x}$，由 $f'(1)=2$ 得 $1+2a+b=2$，所以 $b=3$.</p></li><li><p>此时 $f(x)=x-x^{2}+3\\ln x$，定义域为 $x>0$.令</p><p>$\\displaystyle h(x)=2x-2-f(x)=x^{2}+x-2-3\\ln x$，则</p><p>$\\displaystyle h'(x)=2x+1-\\frac{3}{x}=\\frac{(2x+3)(x-1)}{x}$.</p><p>当 $0&#x3C;x&#x3C;1$ 时 $h'(x)&#x3C;0$，当 $x>1$ 时 $h'(x)>0$，所以 $h$ 在 $x=1$ 处取得最小值.又 $h(1)=0$，故 $h(x)\\geq0$，即 $f(x)\\leq2x-2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $f(1)=0$，得 $1+a=0$，所以 $a=-1$.又</p><p>$\\displaystyle f'(x)=1+2ax+\\frac{b}{x}$，由 $f'(1)=2$ 得 $1+2a+b=2$，所以 $b=3$.</p></li><li><p>此时 $f(x)=x-x^{2}+3\\ln x$，定义域为 $x>0$.令</p><p>$\\displaystyle h(x)=2x-2-f(x)=x^{2}+x-2-3\\ln x$，则</p><p>$\\displaystyle h'(x)=2x+1-\\frac{3}{x}=\\frac{(2x+3)(x-1)}{x}$.</p><p>当 $0<x<1$ 时 $h'(x)<0$，当 $x>1$ 时 $h'(x)>0$，所以 $h$ 在 $x=1$ 处取得最小值.又 $h(1)=0$，故 $h(x)\\geq0$，即 $f(x)\\leq2x-2$.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>如图，已知椭圆 $C_{1}$ 的中心在原点 $O$，长轴左，右端点 $M$，$N$ 在 $x$ 轴上，椭圆 $C_{2}$ 的短轴为 $MN$，且 $C_{1}$，$C_{2}$ 的离心率都为 $e$. 直线 $l \\perp MN$，$l$ 与 $C_{1}$ 交于两点，与 $C_{2}$ 交于两点，这四点按纵坐标从大到小依次为 $A$，$B$，$C$，$D$.</p><ol class=\"enumerate\"><li><p>设 $e = \\frac{1}{2}$，求 $|BC|$ 与 $|AD|$ 的比值；</p></li><li><p>当 $e$ 变化时，是否存在直线 $l$，使得 $BO \\parallel AN$，并说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $C_{1}$ 的长半轴、短半轴分别为 $a$，$b$，则</p><p>$\\displaystyle e^{2}=1-\\frac{b^{2}}{a^{2}}$.因为 $MN$ 是 $C_{2}$ 的短轴，且两椭圆离心率相同，可设</p><p>$\\displaystyle C_{1}:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,   C_{2}:\\frac{x^{2}}{a^{2}}+\\frac{b^{2}y^{2}}{a^{4}}=1$.</p><p>设 $l:x=t$，其中 $|t|&#x3C;a$，并令 $A$，$B$ 为上方两个交点，则</p><p>$\\displaystyle y_{A}=\\frac{a}{b}\\sqrt{a^{2}-t^{2}},   y_{B}=\\frac{b}{a}\\sqrt{a^{2}-t^{2}}$.由关于 $x$ 轴的对称性，</p><p>$\\displaystyle |AD|=2y_{A}$，$|BC|=2y_{B}$，故</p><p>$\\displaystyle \\frac{|BC|}{|AD|}=\\frac{b^{2}}{a^{2}}=1-e^{2}=\\frac{3}{4}$.</p></li><li><p>设 $O=(0,0)$，$N=(a,0)$.当 $t=0$ 时，$BO$ 为竖直线而 $AN$ 不是竖直线，不满足平行；因此取 $t\\neq0$.由</p><p>$\\displaystyle B=\\left(t,\\frac{b}{a}\\sqrt{a^{2}-t^{2}}\\right),   A=\\left(t,\\frac{a}{b}\\sqrt{a^{2}-t^{2}}\\right)$，条件 $BO\\parallel AN$ 等价于斜率相等：</p><p>$\\displaystyle \\frac{(\\frac{b}{a})\\sqrt{a^{2}-t^{2}}}{t}=\\frac{(\\frac{a}{b})\\sqrt{a^{2}-t^{2}}}{t-a}$.</p><p>解得</p><p>$\\displaystyle t=-\\frac{ab^{2}}{a^{2}-b^{2}}=-a\\frac{1-e^{2}}{e^{2}}$.要使直线与椭圆有两个交点，须 $|t|&#x3C;a$，这等价于</p><p>$\\displaystyle \\frac{1-e^{2}}{e^{2}}&#x3C;1$，即 $e>\\frac{\\sqrt{2}}{2}$.结合 $0&#x3C;e&#x3C;1$，当 $0&#x3C;e\\le\\frac{\\sqrt{2}}{2}$ 时不存在，当 $\\frac{\\sqrt{2}}{2}&#x3C;e&#x3C;1$ 时存在.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $C_{1}$ 的长半轴、短半轴分别为 $a$，$b$，则</p><p>$\\displaystyle e^{2}=1-\\frac{b^{2}}{a^{2}}$.因为 $MN$ 是 $C_{2}$ 的短轴，且两椭圆离心率相同，可设</p><p>$\\displaystyle C_{1}:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,   C_{2}:\\frac{x^{2}}{a^{2}}+\\frac{b^{2}y^{2}}{a^{4}}=1$.</p><p>设 $l:x=t$，其中 $|t|<a$，并令 $A$，$B$ 为上方两个交点，则</p><p>$\\displaystyle y_{A}=\\frac{a}{b}\\sqrt{a^{2}-t^{2}},   y_{B}=\\frac{b}{a}\\sqrt{a^{2}-t^{2}}$.由关于 $x$ 轴的对称性，</p><p>$\\displaystyle |AD|=2y_{A}$，$|BC|=2y_{B}$，故</p><p>$\\displaystyle \\frac{|BC|}{|AD|}=\\frac{b^{2}}{a^{2}}=1-e^{2}=\\frac{3}{4}$.</p></li><li><p>设 $O=(0,0)$，$N=(a,0)$.当 $t=0$ 时，$BO$ 为竖直线而 $AN$ 不是竖直线，不满足平行；因此取 $t\\neq0$.由</p><p>$\\displaystyle B=\\left(t,\\frac{b}{a}\\sqrt{a^{2}-t^{2}}\\right),   A=\\left(t,\\frac{a}{b}\\sqrt{a^{2}-t^{2}}\\right)$，条件 $BO\\parallel AN$ 等价于斜率相等：</p><p>$\\displaystyle \\frac{(\\frac{b}{a})\\sqrt{a^{2}-t^{2}}}{t}=\\frac{(\\frac{a}{b})\\sqrt{a^{2}-t^{2}}}{t-a}$.</p><p>解得</p><p>$\\displaystyle t=-\\frac{ab^{2}}{a^{2}-b^{2}}=-a\\frac{1-e^{2}}{e^{2}}$.要使直线与椭圆有两个交点，须 $|t|<a$，这等价于</p><p>$\\displaystyle \\frac{1-e^{2}}{e^{2}}<1$，即 $e>\\frac{\\sqrt{2}}{2}$.结合 $0<e<1$，当 $0<e\\le\\frac{\\sqrt{2}}{2}$ 时不存在，当 $\\frac{\\sqrt{2}}{2}<e<1$ 时存在.</p></li></ol>"
         }
       ]
     },
@@ -248,7 +248,7 @@
           "body": "<p>已知函数 $f(x) = |x - 2| - |x - 5|$.</p><ol class=\"enumerate\"><li><p>证明： $-3 \\le f(x) \\le 3$；</p></li><li><p>求不等式 $f(x) \\ge x^{2}- 8x + 15$ 的解集.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由三角不等式</p><p>$\\displaystyle |x-2|\\leq|x-5|+3$，得 $f(x)\\leq3$；由</p><p>$\\displaystyle |x-5|\\leq|x-2|+3$，得 $f(x)\\geq-3$.所以 $-3\\leq f(x)\\leq3$.</p></li><li><p>按 $x=2$，$5$ 分段：</p><p>$\\displaystyle f(x)=\\begin{cases}-3,&#x26;x\\leq2,\\\\  2x-7,&#x26;2&#x3C;x&#x3C;5,\\\\  3,&#x26;x\\geq5.\\end{cases}$</p><p>当 $x\\leq2$ 时，不等式化为 $x^{2}-8x+18\\leq0$，判别式为 $-8&#x3C;0$，无解.</p><p>当 $2&#x3C;x&#x3C;5$ 时，不等式化为 $x^{2}-10x+22\\leq0$，故 $5-\\sqrt{3}\\leq x\\leq5+\\sqrt{3}$，与本区间交得 $[5-\\sqrt{3},5)$.</p><p>当 $x\\geq5$ 时，不等式化为 $x^{2}-8x+12\\leq0$，故 $2\\leq x\\leq6$，与本区间交得 $[5,6]$.合并得解集 $[5-\\sqrt{3},6]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由三角不等式</p><p>$\\displaystyle |x-2|\\leq|x-5|+3$，得 $f(x)\\leq3$；由</p><p>$\\displaystyle |x-5|\\leq|x-2|+3$，得 $f(x)\\geq-3$.所以 $-3\\leq f(x)\\leq3$.</p></li><li><p>按 $x=2$，$5$ 分段：</p><p>$\\displaystyle f(x)=\\begin{cases}-3,&x\\leq2,\\\\  2x-7,&2<x<5,\\\\  3,&x\\geq5.\\end{cases}$</p><p>当 $x\\leq2$ 时，不等式化为 $x^{2}-8x+18\\leq0$，判别式为 $-8<0$，无解.</p><p>当 $2<x<5$ 时，不等式化为 $x^{2}-10x+22\\leq0$，故 $5-\\sqrt{3}\\leq x\\leq5+\\sqrt{3}$，与本区间交得 $[5-\\sqrt{3},5)$.</p><p>当 $x\\geq5$ 时，不等式化为 $x^{2}-8x+12\\leq0$，故 $2\\leq x\\leq6$，与本区间交得 $[5,6]$.合并得解集 $[5-\\sqrt{3},6]$.</p></li></ol>"
         }
       ]
     }

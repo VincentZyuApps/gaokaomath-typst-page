@@ -28,31 +28,31 @@
         },
         {
           "num": 3,
-          "body": "<p>在平面直角坐标系内，下列方程表示什么曲线？画出它们的图形.</p><ol class=\"enumerate\"><li><p>$\\begin{vmatrix}2x&#x26;1&#x26;1 \\\\ -3y&#x26;2&#x26;3 \\\\ 6&#x26;3&#x26;4\\end{vmatrix}=0$；</p></li><li><p>$\\begin{cases}x=1+\\cos \\varphi,\\\\\n\ny=2\\sin \\varphi\\end{cases}$.</p></li></ol>",
+          "body": "<p>在平面直角坐标系内，下列方程表示什么曲线？画出它们的图形.</p><ol class=\"enumerate\"><li><p>$\\begin{vmatrix}2x&1&1 \\\\ -3y&2&3 \\\\ 6&3&4\\end{vmatrix}=0$；</p></li><li><p>$\\begin{cases}x=1+\\cos \\varphi,\\\\\n\ny=2\\sin \\varphi\\end{cases}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>按第一行展开行列式，得</p>\n$$\n\\begin{vmatrix}2x&#x26;1&#x26;1 \\\\ -3y&#x26;2&#x26;3 \\\\ 6&#x26;3&#x26;4\\end{vmatrix}  =2x(8-9)-\\bigl((-3y)\\cdot4-3\\cdot6\\bigr)+\\bigl((-3y)\\cdot3-2\\cdot6\\bigr)  =-2x+3y+6\n$$\n<p>因此原方程等价于 $2x-3y-6=0$，即 $y=\\dfrac{2}{3}x-2$，表示一条直线. 它与 $x$ 轴、$y$ 轴分别交于 $(3,0)$、$(0,-2)$，连接这两点即可作出图形.</p></li><li><p>由参数方程有 $x-1=\\cos\\varphi$、$y=2\\sin\\varphi$，于是</p>\n$$\n\\left(x-1\\right)^{2}+\\dfrac{y^2}{4}=\\cos^{2}\\varphi+\\sin^{2}\\varphi=1\n$$\n<p>当 $\\varphi$ 取遍实数时，这条曲线的全部点都被取得，故它表示以 $(1,0)$ 为中心、半轴长分别为 $1$ 和 $2$ 的椭圆. 其顶点为 $(0,0)$、$(2,0)$、$(1,2)$、$(1,-2)$，据此即可作图.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>按第一行展开行列式，得</p>\n$$\n\\begin{vmatrix}2x&1&1 \\\\ -3y&2&3 \\\\ 6&3&4\\end{vmatrix}  =2x(8-9)-\\bigl((-3y)\\cdot4-3\\cdot6\\bigr)+\\bigl((-3y)\\cdot3-2\\cdot6\\bigr)  =-2x+3y+6\n$$\n<p>因此原方程等价于 $2x-3y-6=0$，即 $y=\\dfrac{2}{3}x-2$，表示一条直线. 它与 $x$ 轴、$y$ 轴分别交于 $(3,0)$、$(0,-2)$，连接这两点即可作出图形.</p></li><li><p>由参数方程有 $x-1=\\cos\\varphi$、$y=2\\sin\\varphi$，于是</p>\n$$\n\\left(x-1\\right)^{2}+\\dfrac{y^2}{4}=\\cos^{2}\\varphi+\\sin^{2}\\varphi=1\n$$\n<p>当 $\\varphi$ 取遍实数时，这条曲线的全部点都被取得，故它表示以 $(1,0)$ 为中心、半轴长分别为 $1$ 和 $2$ 的椭圆. 其顶点为 $(0,0)$、$(2,0)$、$(1,2)$、$(1,-2)$，据此即可作图.</p></li></ol>"
         },
         {
           "num": 4,
           "body": "<p>已知圆锥体的底面半径为 $R$，高为 $H$，求内接于这个圆锥体并且体积最大的圆柱体的高 $h$（如图）.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_science/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设圆柱的底面半径为 $r$，高为 $h$，其中 $0&#x3C;h&#x3C;H$. 由圆锥的轴截面中相似三角形关系，圆柱顶面到圆锥顶点的距离为 $H-h$，故</p>\n$$\n\\dfrac{r}{R}=\\dfrac{H-h}{H}\\Longrightarrow r=\\dfrac{R(H-h)}{H}\n$$\n<p>圆柱体积为</p>\n$$\nV(h)=\\pi r^{2}h=\\dfrac{\\pi R^2}{H^2}h(H-h)^{2}\n$$\n<p>在 $0&#x3C;h&#x3C;H$ 内求导，得</p>\n$$\nV'(h)=\\dfrac{\\pi R^2}{H^2}(H-h)(H-3h)\n$$\n<p>因此 $0&#x3C;h&#x3C;\\dfrac{H}{3}$ 时 $V'(h)>0$，而 $\\dfrac{H}{3}&#x3C;h&#x3C;H$ 时 $V'(h)&#x3C;0$. 体积在 $h=\\dfrac{H}{3}$ 处由增转减，且两端的极限体积均为 $0$，所以最大体积对应的圆柱高为</p>\n$$\nh=\\dfrac{H}{3}\n$$"
+          "solution": "<p>设圆柱的底面半径为 $r$，高为 $h$，其中 $0<h<H$. 由圆锥的轴截面中相似三角形关系，圆柱顶面到圆锥顶点的距离为 $H-h$，故</p>\n$$\n\\dfrac{r}{R}=\\dfrac{H-h}{H}\\Longrightarrow r=\\dfrac{R(H-h)}{H}\n$$\n<p>圆柱体积为</p>\n$$\nV(h)=\\pi r^{2}h=\\dfrac{\\pi R^2}{H^2}h(H-h)^{2}\n$$\n<p>在 $0<h<H$ 内求导，得</p>\n$$\nV'(h)=\\dfrac{\\pi R^2}{H^2}(H-h)(H-3h)\n$$\n<p>因此 $0<h<\\dfrac{H}{3}$ 时 $V'(h)>0$，而 $\\dfrac{H}{3}<h<H$ 时 $V'(h)<0$. 体积在 $h=\\dfrac{H}{3}$ 处由增转减，且两端的极限体积均为 $0$，所以最大体积对应的圆柱高为</p>\n$$\nh=\\dfrac{H}{3}\n$$"
         },
         {
           "num": 5,
-          "body": "设 $0&#x3C;x&#x3C;1$，$a>0$，$a\\neq 1$，比较 $\\left|\\log_{a}(1-x)\\right|$ 与 $\\left|\\log_{a}(1+x)\\right|$ 的大小. （要写出比较过程）",
+          "body": "设 $0<x<1$，$a>0$，$a\\neq 1$，比较 $\\left|\\log_{a}(1-x)\\right|$ 与 $\\left|\\log_{a}(1+x)\\right|$ 的大小. （要写出比较过程）",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $a>0$ 且 $a\\neq1$，由换底公式</p>\n$$\n\\left|\\log_{a} t\\right|=\\dfrac{|\\ln t|}{|\\ln a|}\n$$\n<p>又因为 $0&#x3C;x&#x3C;1$，所以 $0&#x3C;1-x&#x3C;1&#x3C;1+x$，从而</p>\n$$\n\\left|\\log_{a}(1-x)\\right|=\\dfrac{-\\ln(1-x)}{|\\ln a|}\n$$\n<p>以及</p>\n$$\n\\left|\\log_{a}(1+x)\\right|=\\dfrac{\\ln(1+x)}{|\\ln a|}\n$$\n<p>比较分子，注意到 $0&#x3C;1-x^{2}&#x3C;1$，于是 $\\ln(1-x^{2})&#x3C;0$，即</p>\n$$\n-\\ln(1-x)-\\ln(1+x)=-\\ln(1-x^{2})>0\n$$\n<p>因此</p>\n$$\n\\left|\\log_{a}(1-x)\\right|>\\left|\\log_{a}(1+x)\\right|\n$$"
+          "solution": "<p>因为 $a>0$ 且 $a\\neq1$，由换底公式</p>\n$$\n\\left|\\log_{a} t\\right|=\\dfrac{|\\ln t|}{|\\ln a|}\n$$\n<p>又因为 $0<x<1$，所以 $0<1-x<1<1+x$，从而</p>\n$$\n\\left|\\log_{a}(1-x)\\right|=\\dfrac{-\\ln(1-x)}{|\\ln a|}\n$$\n<p>以及</p>\n$$\n\\left|\\log_{a}(1+x)\\right|=\\dfrac{\\ln(1+x)}{|\\ln a|}\n$$\n<p>比较分子，注意到 $0<1-x^{2}<1$，于是 $\\ln(1-x^{2})<0$，即</p>\n$$\n-\\ln(1-x)-\\ln(1+x)=-\\ln(1-x^{2})>0\n$$\n<p>因此</p>\n$$\n\\left|\\log_{a}(1-x)\\right|>\\left|\\log_{a}(1+x)\\right|\n$$"
         },
         {
           "num": 6,
           "body": "<p>如图：已知锐角 $\\angle AOB=2\\alpha$ 内有动点 $P$，$PM\\perp OA$，$PN\\perp OB$，且四边形 $PMON$ 的面积等于常数 $c^{2}$. 今以 $O$ 为极点，$\\angle AOB$ 的角平分线 $OX$ 为极轴，求动点 $P$ 的轨迹的极坐标方程，并说明它表示什么曲线.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $OP=\\rho$，且以角平分线 $OX$ 为极轴，记有向角 $\\angle XOP=\\theta$. 由于 $P$ 在角 $AOB$ 内，$-\\alpha&#x3C;\\theta&#x3C;\\alpha$. 在直角三角形 $OMP$、$ONP$ 中，分别有 $OM=\\rho\\cos(\\alpha-\\theta)$，$PM=\\rho\\sin(\\alpha-\\theta)$.</p><p>同理，$ON=\\rho\\cos(\\alpha+\\theta)$，$PN=\\rho\\sin(\\alpha+\\theta)$.</p><p>对角线 $OP$ 将四边形 $PMON$ 分成这两个直角三角形，所以</p>\n$$\nc^{2}=\\dfrac{1}{2}OM\\cdot PM+\\dfrac{1}{2}ON\\cdot PN  =\\dfrac{\\rho^2}{4}\\left[\\sin(2\\alpha-2\\theta)+\\sin(2\\alpha+2\\theta)\\right]\n$$\n<p>再由和差化积公式，得</p>\n$$\nc^{2}=\\dfrac{\\rho^2}{2}\\sin2\\alpha\\cos2\\theta\n$$\n<p>故动点轨迹的极坐标方程为</p>\n$$\n\\rho^{2}\\cos2\\theta=\\dfrac{2c^2}{\\sin2\\alpha}\n$$\n<p>由 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$ 以及 $\\rho^{2}\\cos2\\theta=x^{2}-y^{2}$，可化为</p>\n$$\nx^{2}-y^{2}=\\dfrac{2c^2}{\\sin2\\alpha}\n$$\n<p>右端为正，且 $P$ 在角 $AOB$ 内时 $x>0$，所以它表示双曲线 $x^{2}-y^{2}=\\dfrac{2c^2}{\\sin2\\alpha}$ 的右支在角 $AOB$ 内的一段.</p>"
+          "solution": "<p>设 $OP=\\rho$，且以角平分线 $OX$ 为极轴，记有向角 $\\angle XOP=\\theta$. 由于 $P$ 在角 $AOB$ 内，$-\\alpha<\\theta<\\alpha$. 在直角三角形 $OMP$、$ONP$ 中，分别有 $OM=\\rho\\cos(\\alpha-\\theta)$，$PM=\\rho\\sin(\\alpha-\\theta)$.</p><p>同理，$ON=\\rho\\cos(\\alpha+\\theta)$，$PN=\\rho\\sin(\\alpha+\\theta)$.</p><p>对角线 $OP$ 将四边形 $PMON$ 分成这两个直角三角形，所以</p>\n$$\nc^{2}=\\dfrac{1}{2}OM\\cdot PM+\\dfrac{1}{2}ON\\cdot PN  =\\dfrac{\\rho^2}{4}\\left[\\sin(2\\alpha-2\\theta)+\\sin(2\\alpha+2\\theta)\\right]\n$$\n<p>再由和差化积公式，得</p>\n$$\nc^{2}=\\dfrac{\\rho^2}{2}\\sin2\\alpha\\cos2\\theta\n$$\n<p>故动点轨迹的极坐标方程为</p>\n$$\n\\rho^{2}\\cos2\\theta=\\dfrac{2c^2}{\\sin2\\alpha}\n$$\n<p>由 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$ 以及 $\\rho^{2}\\cos2\\theta=x^{2}-y^{2}$，可化为</p>\n$$\nx^{2}-y^{2}=\\dfrac{2c^2}{\\sin2\\alpha}\n$$\n<p>右端为正，且 $P$ 在角 $AOB$ 内时 $x>0$，所以它表示双曲线 $x^{2}-y^{2}=\\dfrac{2c^2}{\\sin2\\alpha}$ 的右支在角 $AOB$ 内的一段.</p>"
         },
         {
           "num": 7,

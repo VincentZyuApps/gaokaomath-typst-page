@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "若 $A = \\{x \\mid x + 1 > 0\\}$，$B = \\{x \\mid x - 3 &#x3C; 0\\}$，则 $A \\cap B =$（ ）",
+          "body": "若 $A = \\{x \\mid x + 1 > 0\\}$，$B = \\{x \\mid x - 3 < 0\\}$，则 $A \\cap B =$（ ）",
           "choices": [
             "$(-1, +\\infty)$",
             "$(- \\infty, 3)$",
@@ -17,7 +17,7 @@
             "$(1,3)$"
           ],
           "answer": "C",
-          "solution": "<p>由 $x+1>0$，得 $x>-1$，所以 $A=(-1,+\\infty)$；由 $x-3&#x3C;0$，得 $x&#x3C;3$，所以 $B=(-\\infty,3)$. 因而</p><p>$A\\cap B=(-1,3)$，</p><p>故选 C.</p>"
+          "solution": "<p>由 $x+1>0$，得 $x>-1$，所以 $A=(-1,+\\infty)$；由 $x-3<0$，得 $x<3$，所以 $B=(-\\infty,3)$. 因而</p><p>$A\\cap B=(-1,3)$，</p><p>故选 C.</p>"
         },
         {
           "num": 2,
@@ -77,7 +77,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/anhui_liberal/q6_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "<p>二次函数图象的开口方向由 $a$ 的符号决定，纵轴截距为 $c$，对称轴为</p><p>$x=-\\frac{b}{2a}$.</p><p>逐图判断：图 A 开口向下，故 $a&#x3C;0$；对称轴在 $y$ 轴左侧，故 $-\\frac{b}{(2a)}&#x3C;0$，从而 $b&#x3C;0$；又图象在 $y$ 轴处于 $x$ 轴下方，故 $c&#x3C;0$，所以 $abc&#x3C;0$. 图 B 开口向下，故 $a&#x3C;0$；对称轴在 $y$ 轴右侧，故 $b>0$；且 $c>0$，所以 $abc&#x3C;0$. 图 C 开口向上，故 $a>0$；对称轴在 $y$ 轴左侧，故 $b>0$；且 $c&#x3C;0$，所以 $abc&#x3C;0$. 图 D 开口向上，所以 $a>0$；对称轴在 $y$ 轴右侧，所以 $-\\frac{b}{(2a)}>0$，从而 $b&#x3C;0$；且 $c&#x3C;0$，于是 $abc>0$. 因此只有图 D 可能，故选 D.</p>"
+          "solution": "<p>二次函数图象的开口方向由 $a$ 的符号决定，纵轴截距为 $c$，对称轴为</p><p>$x=-\\frac{b}{2a}$.</p><p>逐图判断：图 A 开口向下，故 $a<0$；对称轴在 $y$ 轴左侧，故 $-\\frac{b}{(2a)}<0$，从而 $b<0$；又图象在 $y$ 轴处于 $x$ 轴下方，故 $c<0$，所以 $abc<0$. 图 B 开口向下，故 $a<0$；对称轴在 $y$ 轴右侧，故 $b>0$；且 $c>0$，所以 $abc<0$. 图 C 开口向上，故 $a>0$；对称轴在 $y$ 轴左侧，故 $b>0$；且 $c<0$，所以 $abc<0$. 图 D 开口向上，所以 $a>0$；对称轴在 $y$ 轴右侧，所以 $-\\frac{b}{(2a)}>0$，从而 $b<0$；且 $c<0$，于是 $abc>0$. 因此只有图 D 可能，故选 D.</p>"
         },
         {
           "num": 7,
@@ -89,7 +89,7 @@
             "$b > c > a$"
           ],
           "answer": "A",
-          "solution": "<p>因为 $0&#x3C;\\frac{2}{5}&#x3C;1$，幂函数 $x\\mapsto(\\frac{2}{5})^{x}$ 随指数增大而减小，而</p><p>$\\frac{3}{5}>\\frac{2}{5}$，所以</p><p>$b=\\left(\\frac{2}{5}\\right)^{\\frac{3}{5}}&#x3C;\\left(\\frac{2}{5}\\right)^{\\frac{2}{5}}=c$.</p><p>又因为 $\\frac{3}{5}>\\frac{2}{5}>0$，在正指数 $\\frac{2}{5}$ 下底数越大幂越大，故</p><p>$a=\\left(\\frac{3}{5}\\right)^{\\frac{2}{5}}>\\left(\\frac{2}{5}\\right)^{\\frac{2}{5}}=c$.</p><p>因此 $a>c>b$，故选 A.</p>"
+          "solution": "<p>因为 $0<\\frac{2}{5}<1$，幂函数 $x\\mapsto(\\frac{2}{5})^{x}$ 随指数增大而减小，而</p><p>$\\frac{3}{5}>\\frac{2}{5}$，所以</p><p>$b=\\left(\\frac{2}{5}\\right)^{\\frac{3}{5}}<\\left(\\frac{2}{5}\\right)^{\\frac{2}{5}}=c$.</p><p>又因为 $\\frac{3}{5}>\\frac{2}{5}>0$，在正指数 $\\frac{2}{5}$ 下底数越大幂越大，故</p><p>$a=\\left(\\frac{3}{5}\\right)^{\\frac{2}{5}}>\\left(\\frac{2}{5}\\right)^{\\frac{2}{5}}=c$.</p><p>因此 $a>c>b$，故选 A.</p>"
         },
         {
           "num": 8,
@@ -177,7 +177,7 @@
           "body": "<p>$\\triangle ABC$ 的面积是 30，内角 $A$，$B$，$C$ 所对边长分别为 $a$，$b$，$c$，$\\cos A = \\frac{12}{13}$.</p><ol class=\"enumerate\"><li><p>求 $\\overrightarrow{AB}\\cdot \\overrightarrow{AC}$；</p></li><li><p>若 $c - b = 1$，求 $a$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $0&#x3C;A&#x3C;\\pi$ 及 $\\cos A=\\frac{12}{13}$，得 $\\sin A=\\sqrt{1-\\cos^{2} A}=\\frac{5}{13}$. 由三角形面积公式，$30=\\frac{1}{2}bc\\sin A=\\frac{1}{2}bc\\cdot\\frac{5}{13}$，所以 $bc=156$. 因而 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=|AB||AC|\\cos A=bc\\cos A=156\\cdot\\frac{12}{13}=144$.</p></li><li><p>由 $c-b=1$，得 $c=b+1$. 结合 $bc=156$，有 $b(b+1)=156$，即 $b^{2}+b-156=0$，所以 $(b+13)(b-12)=0$. 因为 $b>0$，故 $b=12$，从而 $c=13$. 由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A=12^{2}+13^{2}-2\\cdot156\\cdot\\frac{12}{13}=25$. 因为 $a>0$，所以 $a=5$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $0<A<\\pi$ 及 $\\cos A=\\frac{12}{13}$，得 $\\sin A=\\sqrt{1-\\cos^{2} A}=\\frac{5}{13}$. 由三角形面积公式，$30=\\frac{1}{2}bc\\sin A=\\frac{1}{2}bc\\cdot\\frac{5}{13}$，所以 $bc=156$. 因而 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=|AB||AC|\\cos A=bc\\cos A=156\\cdot\\frac{12}{13}=144$.</p></li><li><p>由 $c-b=1$，得 $c=b+1$. 结合 $bc=156$，有 $b(b+1)=156$，即 $b^{2}+b-156=0$，所以 $(b+13)(b-12)=0$. 因为 $b>0$，故 $b=12$，从而 $c=13$. 由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A=12^{2}+13^{2}-2\\cdot156\\cdot\\frac{12}{13}=25$. 因为 $a>0$，所以 $a=5$.</p></li></ol>"
         },
         {
           "num": 17,
@@ -202,10 +202,10 @@
         },
         {
           "num": 20,
-          "body": "设函数 $f(x) = \\sin x - \\cos x + x + 1$，$0 &#x3C; x &#x3C; 2\\pi$，求函数 $f(x)$ 的单调区间与极值.",
+          "body": "设函数 $f(x) = \\sin x - \\cos x + x + 1$，$0 < x < 2\\pi$，求函数 $f(x)$ 的单调区间与极值.",
           "choices": null,
           "answer": "",
-          "solution": "$$\nf'(x)=\\cos x+\\sin x+1=2\\cos\\frac{x}{2}\\left(\\sin\\frac{x}{2}+\\cos\\frac{x}{2}\\right)\n$$\n<p>在 $0&#x3C;x&#x3C;2\\pi$ 内，$f'(x)=0$ 等价于 $\\sin x+\\cos x=-1$，故临界点为 $x=\\pi$ 和 $x=\\frac{3\\pi}{2}$. 当 $0&#x3C;x&#x3C;\\pi$ 时，$\\cos\\frac{x}{2}>0$，$\\sin\\frac{x}{2}+\\cos\\frac{x}{2}>0$，所以 $f'(x)>0$；当 $\\pi&#x3C;x&#x3C;\\frac{3\\pi}{2}$ 时，$\\cos\\frac{x}{2}&#x3C;0$，$\\sin\\frac{x}{2}+\\cos\\frac{x}{2}>0$，所以 $f'(x)&#x3C;0$；当 $\\frac{3\\pi}{2}&#x3C;x&#x3C;2\\pi$ 时，两个因式均为负，故 $f'(x)>0$. 因此函数在 $(0,\\pi)$ 和 $\\left(\\frac{3\\pi}{2},2\\pi\\right)$ 上单调递增，在 $\\left(\\pi,\\frac{3\\pi}{2}\\right)$ 上单调递减. 又 $f(\\pi)=\\pi+2$，$f\\left(\\frac{3\\pi}{2}\\right)=\\frac{3\\pi}{2}$，所以极大值为 $\\pi+2$，极小值为 $\\frac{3\\pi}{2}$.</p>"
+          "solution": "$$\nf'(x)=\\cos x+\\sin x+1=2\\cos\\frac{x}{2}\\left(\\sin\\frac{x}{2}+\\cos\\frac{x}{2}\\right)\n$$\n<p>在 $0<x<2\\pi$ 内，$f'(x)=0$ 等价于 $\\sin x+\\cos x=-1$，故临界点为 $x=\\pi$ 和 $x=\\frac{3\\pi}{2}$. 当 $0<x<\\pi$ 时，$\\cos\\frac{x}{2}>0$，$\\sin\\frac{x}{2}+\\cos\\frac{x}{2}>0$，所以 $f'(x)>0$；当 $\\pi<x<\\frac{3\\pi}{2}$ 时，$\\cos\\frac{x}{2}<0$，$\\sin\\frac{x}{2}+\\cos\\frac{x}{2}>0$，所以 $f'(x)<0$；当 $\\frac{3\\pi}{2}<x<2\\pi$ 时，两个因式均为负，故 $f'(x)>0$. 因此函数在 $(0,\\pi)$ 和 $\\left(\\frac{3\\pi}{2},2\\pi\\right)$ 上单调递增，在 $\\left(\\pi,\\frac{3\\pi}{2}\\right)$ 上单调递减. 又 $f(\\pi)=\\pi+2$，$f\\left(\\frac{3\\pi}{2}\\right)=\\frac{3\\pi}{2}$，所以极大值为 $\\pi+2$，极小值为 $\\frac{3\\pi}{2}$.</p>"
         },
         {
           "num": 21,

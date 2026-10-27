@@ -65,7 +65,7 @@
         },
         {
           "num": 9,
-          "body": "由参数方程 $x=2\\left(\\sec^{2}\\theta-1\\right)$，$y=2\\tan\\theta$（$-\\frac{\\pi}{2}&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$）给出的曲线在直角坐标系下的方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "由参数方程 $x=2\\left(\\sec^{2}\\theta-1\\right)$，$y=2\\tan\\theta$（$-\\frac{\\pi}{2}<\\theta<\\frac{\\pi}{2}$）给出的曲线在直角坐标系下的方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$y^{2}=2x$",
           "solution": "由恒等式 $\\sec^{2}\\theta-1=\\tan^{2}\\theta$，得 $x=2\\tan^{2}\\theta$，而 $y=2\\tan\\theta$. 消去参数可得 $y^{2}=4\\tan^{2}\\theta=2x$. 反过来，给定曲线 $y^{2}=2x$ 上任意一点，令 $\\tan\\theta=\\dfrac{y}{2}$，由于 $\\tan\\theta$ 在 $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ 内取遍 $\\mathbb{R}$，即可取到相应的 $\\theta$. 因此所得到的是 $y^{2}=2x$ 的全部图形."
@@ -118,11 +118,11 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai/q14_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "对任意 $x\\in\\mathbb{R}$，有 $x^{\\frac{2}{3}}=\\left(\\sqrt[3]{x}\\right)^{2}\\geqslant0$，并且 $(-x)^{\\frac{2}{3}}=x^{\\frac{2}{3}}$，所以图象关于 $y$ 轴对称且位于 $x$ 轴上方. 当 $x&#x3C;0$ 时，随着 $x$ 增大，$\\sqrt[3]{x}$ 增大而其绝对值减小，故函数递减；当 $x>0$ 时函数递增，并在原点形成尖点. 只有选项 D 具有这些特征，故选 D."
+          "solution": "对任意 $x\\in\\mathbb{R}$，有 $x^{\\frac{2}{3}}=\\left(\\sqrt[3]{x}\\right)^{2}\\geqslant0$，并且 $(-x)^{\\frac{2}{3}}=x^{\\frac{2}{3}}$，所以图象关于 $y$ 轴对称且位于 $x$ 轴上方. 当 $x<0$ 时，随着 $x$ 增大，$\\sqrt[3]{x}$ 增大而其绝对值减小，故函数递减；当 $x>0$ 时函数递增，并在原点形成尖点. 只有选项 D 具有这些特征，故选 D."
         },
         {
           "num": 15,
-          "body": "设实数 $a$，$b$ 满足 $0&#x3C;a&#x3C;b$ 且 $a+b=1$，则下列四数中最大的是（ ）",
+          "body": "设实数 $a$，$b$ 满足 $0<a<b$ 且 $a+b=1$，则下列四数中最大的是（ ）",
           "choices": [
             "$\\frac{1}{2}$",
             "$a^{2}+b^{2}$",
@@ -130,19 +130,19 @@
             "$a$"
           ],
           "answer": "B",
-          "solution": "<p>由 $a\\ne b$ 及均值不等式，$ab&#x3C;\\dfrac{(a+b)^2}{4}=\\dfrac{1}{4}$，所以 $2ab&#x3C;\\dfrac{1}{2}$. 又 $a&#x3C;b$ 且 $a+b=1$，故 $a&#x3C;\\dfrac{1}{2}$. 同时</p><p>$a^{2}+b^{2}=(a+b)^{2}-2ab=1-2ab>\\dfrac{1}{2}$. 因而 $a^{2}+b^{2}$ 大于其余三个数，最大者为选项 B.</p>"
+          "solution": "<p>由 $a\\ne b$ 及均值不等式，$ab<\\dfrac{(a+b)^2}{4}=\\dfrac{1}{4}$，所以 $2ab<\\dfrac{1}{2}$. 又 $a<b$ 且 $a+b=1$，故 $a<\\dfrac{1}{2}$. 同时</p><p>$a^{2}+b^{2}=(a+b)^{2}-2ab=1-2ab>\\dfrac{1}{2}$. 因而 $a^{2}+b^{2}$ 大于其余三个数，最大者为选项 B.</p>"
         },
         {
           "num": 16,
-          "body": "设 $0^{\\circ}&#x3C;\\theta&#x3C;45^{\\circ}$，则 $\\cos^{2}\\theta$，$\\sin^{2}\\theta$，$\\cot^{2}\\theta$ 的大小顺序是（ ）",
+          "body": "设 $0^{\\circ}<\\theta<45^{\\circ}$，则 $\\cos^{2}\\theta$，$\\sin^{2}\\theta$，$\\cot^{2}\\theta$ 的大小顺序是（ ）",
           "choices": [
-            "$\\cos^{2}\\theta&#x3C;\\sin^{2}\\theta&#x3C;\\cot^{2}\\theta$",
-            "$\\cot^{2}\\theta&#x3C;\\sin^{2}\\theta&#x3C;\\cos^{2}\\theta$",
-            "$\\sin^{2}\\theta&#x3C;\\cos^{2}\\theta&#x3C;\\cot^{2}\\theta$",
-            "$\\cos^{2}\\theta&#x3C;\\cot^{2}\\theta&#x3C;\\sin^{2}\\theta$"
+            "$\\cos^{2}\\theta<\\sin^{2}\\theta<\\cot^{2}\\theta$",
+            "$\\cot^{2}\\theta<\\sin^{2}\\theta<\\cos^{2}\\theta$",
+            "$\\sin^{2}\\theta<\\cos^{2}\\theta<\\cot^{2}\\theta$",
+            "$\\cos^{2}\\theta<\\cot^{2}\\theta<\\sin^{2}\\theta$"
           ],
           "answer": "C",
-          "solution": "由 $0^{\\circ}&#x3C;\\theta&#x3C;45^{\\circ}$，得 $0&#x3C;\\sin\\theta&#x3C;\\cos\\theta&#x3C;1$，平方后有 $0&#x3C;\\sin^{2}\\theta&#x3C;\\cos^{2}\\theta&#x3C;1$. 另外 $\\cot^{2}\\theta=\\dfrac{\\cos^2\\theta}{\\sin^2\\theta}>1$，所以 $\\cot^{2}\\theta>\\cos^{2}\\theta$. 因而大小顺序为 $\\sin^{2}\\theta&#x3C;\\cos^{2}\\theta&#x3C;\\cot^{2}\\theta$，选 C."
+          "solution": "由 $0^{\\circ}<\\theta<45^{\\circ}$，得 $0<\\sin\\theta<\\cos\\theta<1$，平方后有 $0<\\sin^{2}\\theta<\\cos^{2}\\theta<1$. 另外 $\\cot^{2}\\theta=\\dfrac{\\cos^2\\theta}{\\sin^2\\theta}>1$，所以 $\\cot^{2}\\theta>\\cos^{2}\\theta$. 因而大小顺序为 $\\sin^{2}\\theta<\\cos^{2}\\theta<\\cot^{2}\\theta$，选 C."
         },
         {
           "num": 17,
@@ -250,7 +250,7 @@
           "body": "设 $A=\\left\\{x\\mid \\log_{\\frac{1}{3}}\\left|x-\\frac{\\pi}{3}\\right|\\ge \\log_{\\frac{1}{3}}\\frac{2\\pi}{3},\\,x\\in\\mathbb{R}\\right\\}$，$B=\\left\\{x\\mid \\cos x\\ge 0,\\,x\\in\\mathbb{R}\\right\\}$. 求 $D=A\\cap B$（最后结果以区间形式给出），并在数轴上标出集合 $D$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由于对数的真数必须为正，先有 $\\left|x-\\dfrac{\\pi}{3}\\right|>0$. 又因为底数 $\\dfrac{1}{3}$ 在 $0$ 与 $1$ 之间，对数函数单调递减，所以</p><p>$\\log_{\\frac{1}{3}}\\left|x-\\frac{\\pi}{3}\\right|\\ge\\log_{\\frac{1}{3}}\\frac{2\\pi}{3}$ 等价于 $0&#x3C;\\left|x-\\dfrac\\pi3\\right|\\le\\dfrac{2\\pi}{3}$. 因而</p><p>$A=\\left[-\\dfrac\\pi3,\\dfrac\\pi3\\right)\\cup\\left(\\dfrac\\pi3,\\pi\\right]$.</p><p>$\\cos x\\geqslant0$ 的解集为 $B=\\bigcup_{k\\in\\mathbb{Z}}\\left[-\\dfrac\\pi2+2k\\pi,\\dfrac\\pi2+2k\\pi\\right]$. 由于 $A\\subseteq\\left[-\\dfrac\\pi3,\\pi\\right]$，只有 $k=0$ 的区间可能与 $A$ 相交，因此</p><p>$D=\\left[-\\dfrac\\pi3,\\dfrac\\pi3\\right)\\cup\\left(\\dfrac\\pi3,\\dfrac\\pi2\\right]$.</p><p>数轴上在 $-\\dfrac\\pi3$ 和 $\\dfrac\\pi2$ 处取实心端点，在 $\\dfrac\\pi3$ 处取空心端点，并将两段区间分别标实，即表示集合 $D$.</p>"
+          "solution": "<p>由于对数的真数必须为正，先有 $\\left|x-\\dfrac{\\pi}{3}\\right|>0$. 又因为底数 $\\dfrac{1}{3}$ 在 $0$ 与 $1$ 之间，对数函数单调递减，所以</p><p>$\\log_{\\frac{1}{3}}\\left|x-\\frac{\\pi}{3}\\right|\\ge\\log_{\\frac{1}{3}}\\frac{2\\pi}{3}$ 等价于 $0<\\left|x-\\dfrac\\pi3\\right|\\le\\dfrac{2\\pi}{3}$. 因而</p><p>$A=\\left[-\\dfrac\\pi3,\\dfrac\\pi3\\right)\\cup\\left(\\dfrac\\pi3,\\pi\\right]$.</p><p>$\\cos x\\geqslant0$ 的解集为 $B=\\bigcup_{k\\in\\mathbb{Z}}\\left[-\\dfrac\\pi2+2k\\pi,\\dfrac\\pi2+2k\\pi\\right]$. 由于 $A\\subseteq\\left[-\\dfrac\\pi3,\\pi\\right]$，只有 $k=0$ 的区间可能与 $A$ 相交，因此</p><p>$D=\\left[-\\dfrac\\pi3,\\dfrac\\pi3\\right)\\cup\\left(\\dfrac\\pi3,\\dfrac\\pi2\\right]$.</p><p>数轴上在 $-\\dfrac\\pi3$ 和 $\\dfrac\\pi2$ 处取实心端点，在 $\\dfrac\\pi3$ 处取空心端点，并将两段区间分别标实，即表示集合 $D$.</p>"
         },
         {
           "num": 26,
@@ -271,7 +271,7 @@
           "body": "<p>在 $xOy$ 平面上给定一曲线 $y^{2}=2x$.</p><ol class=\"enumerate\"><li><p>设点 $A$ 的坐标为 $\\left(\\frac{2}{3},0\\right)$. 求曲线上距点 $A$ 最近的点 $P$ 的坐标及相应的距离 $|PA|$.</p></li><li><p>设点 $A$ 的坐标为 $(a,0)$，$a\\in\\mathbb{R}$. 求曲线上点到点 $A$ 的距离的最小值，并写出 $d=f(a)$ 的函数表达式.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设曲线上任意一点为 $P=(x,y)$，则 $y^{2}=2x$，从而 $x\\geqslant0$.</p><ol class=\"enumerate\"><li><p>当 $A=\\left(\\dfrac{2}{3},0\\right)$ 时，</p><p>$|PA|^{2}=\\left(x-\\dfrac{2}{3}\\right)^{2}+y^{2}=\\left(x-\\dfrac{2}{3}\\right)^{2}+2x=\\left(x+\\dfrac{1}{3}\\right)^{2}+\\dfrac{1}{3}$.</p><p>由于 $x\\geqslant0$，有 $x+\\dfrac{1}{3}\\ge\\dfrac{1}{3}$，等号在 $x=0$ 时成立. 此时 $y^{2}=0$，故最近点为 $P=(0,0)$，且 $|PA|^{2}=\\dfrac{4}{9}$，所以 $|PA|=\\dfrac{2}{3}$.</p></li><li><p>对任意 $a\\in\\mathbb{R}$，有</p><p>$|PA|^{2}=(x-a)^{2}+y^{2}=(x-a)^{2}+2x=\\left[x-(a-1)\\right]^{2}+(2a-1)$，$x\\geqslant0$.</p><p>当 $a\\geqslant1$ 时，二次式的顶点 $x=a-1$ 在定义域内，故最小值为 $2a-1$，从而 $d=\\sqrt{2a-1}$. 当 $a&#x3C;1$ 时，顶点在定义域左侧，且该二次式在 $x\\geqslant0$ 上递增，所以在 $x=0$ 处取得最小值 $a^{2}$，从而 $d=|a|$. 因此</p>\n$$\nd=f(a)=  \\begin{cases}\\sqrt{2a-1},&#x26;a\\geqslant1,\\\\  |a|,&#x26;a&#x3C;1.\\end{cases}\n$$\n</li></ol>"
+          "solution": "<p>设曲线上任意一点为 $P=(x,y)$，则 $y^{2}=2x$，从而 $x\\geqslant0$.</p><ol class=\"enumerate\"><li><p>当 $A=\\left(\\dfrac{2}{3},0\\right)$ 时，</p><p>$|PA|^{2}=\\left(x-\\dfrac{2}{3}\\right)^{2}+y^{2}=\\left(x-\\dfrac{2}{3}\\right)^{2}+2x=\\left(x+\\dfrac{1}{3}\\right)^{2}+\\dfrac{1}{3}$.</p><p>由于 $x\\geqslant0$，有 $x+\\dfrac{1}{3}\\ge\\dfrac{1}{3}$，等号在 $x=0$ 时成立. 此时 $y^{2}=0$，故最近点为 $P=(0,0)$，且 $|PA|^{2}=\\dfrac{4}{9}$，所以 $|PA|=\\dfrac{2}{3}$.</p></li><li><p>对任意 $a\\in\\mathbb{R}$，有</p><p>$|PA|^{2}=(x-a)^{2}+y^{2}=(x-a)^{2}+2x=\\left[x-(a-1)\\right]^{2}+(2a-1)$，$x\\geqslant0$.</p><p>当 $a\\geqslant1$ 时，二次式的顶点 $x=a-1$ 在定义域内，故最小值为 $2a-1$，从而 $d=\\sqrt{2a-1}$. 当 $a<1$ 时，顶点在定义域左侧，且该二次式在 $x\\geqslant0$ 上递增，所以在 $x=0$ 处取得最小值 $a^{2}$，从而 $d=|a|$. 因此</p>\n$$\nd=f(a)=  \\begin{cases}\\sqrt{2a-1},&a\\geqslant1,\\\\  |a|,&a<1.\\end{cases}\n$$\n</li></ol>"
         },
         {
           "num": 29,

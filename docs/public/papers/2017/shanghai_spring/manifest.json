@@ -16,10 +16,10 @@
         },
         {
           "num": 2,
-          "body": "不等式 $\\lvert x-1\\rvert&#x3C;3$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "不等式 $\\lvert x-1\\rvert<3$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(-2,4)$",
-          "solution": "由绝对值不等式的定义，$-3&#x3C;x-1&#x3C;3$，所以 $-2&#x3C;x&#x3C;4$. 因而解集为 $(-2,4)$."
+          "solution": "由绝对值不等式的定义，$-3<x-1<3$，所以 $-2<x<4$. 因而解集为 $(-2,4)$."
         },
         {
           "num": 3,
@@ -89,7 +89,7 @@
           "body": "设 $a$，$b\\in\\mathbb{R}$，若函数 $f(x)=x+\\dfrac{a}{x}+b$ 在区间 $(1,2)$ 上有两个不同的零点，则 $f(1)$ 的取值范围为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(0,1)$",
-          "solution": "<p>因为两个零点都在 $(1,2)$ 内，设它们为 $r_{1}$，$r_{2}$，且 $1&#x3C;r_{1}&#x3C;r_{2}&#x3C;2$. 由于 $x\\in(1,2)$ 时可以乘以 $x$，方程 $f(x)=0$ 等价于 $x^{2}+bx+a=0$，所以 $x^{2}+bx+a=(x-r_{1})(x-r_{2})$. 因此</p>\n$$\nf(1)=1+a+b=(1-r_{1})(1-r_{2})=(r_{1}-1)(r_{2}-1)\n$$\n<p>令 $u=r_{1}-1$，$v=r_{2}-1$，则 $0&#x3C;u&#x3C;v&#x3C;1$，故 $0&#x3C;uv&#x3C;1$. 反之，任取 $0&#x3C;t&#x3C;1$，取 $u=\\dfrac{2t}{1+t}$、$v=\\dfrac{1+t}{2}$，则 $0&#x3C;u&#x3C;v&#x3C;1$ 且 $uv=t$. 通过 $r_{1}=1+u$、$r_{2}=1+v$ 可构造出两个不同的零点，所以取值范围为 $(0,1)$.</p>"
+          "solution": "<p>因为两个零点都在 $(1,2)$ 内，设它们为 $r_{1}$，$r_{2}$，且 $1<r_{1}<r_{2}<2$. 由于 $x\\in(1,2)$ 时可以乘以 $x$，方程 $f(x)=0$ 等价于 $x^{2}+bx+a=0$，所以 $x^{2}+bx+a=(x-r_{1})(x-r_{2})$. 因此</p>\n$$\nf(1)=1+a+b=(1-r_{1})(1-r_{2})=(r_{1}-1)(r_{2}-1)\n$$\n<p>令 $u=r_{1}-1$，$v=r_{2}-1$，则 $0<u<v<1$，故 $0<uv<1$. 反之，任取 $0<t<1$，取 $u=\\dfrac{2t}{1+t}$、$v=\\dfrac{1+t}{2}$，则 $0<u<v<1$ 且 $uv=t$. 通过 $r_{1}=1+u$、$r_{2}=1+v$ 可构造出两个不同的零点，所以取值范围为 $(0,1)$.</p>"
         }
       ]
     },
@@ -158,17 +158,17 @@
         },
         {
           "num": 18,
-          "body": "<p>设 $a\\in\\mathbb{R}$，函数 $f(x)=\\dfrac{2^x+a}{2^x+1}$.</p><ol class=\"enumerate\"><li><p>求 $a$ 的值，使得 $f(x)$ 为奇函数；</p></li><li><p>若 $f(x)&#x3C;\\dfrac{a+2}{2}$ 对任意 $x\\in\\mathbb{R}$ 成立，求 $a$ 的取值范围.</p></li></ol>",
+          "body": "<p>设 $a\\in\\mathbb{R}$，函数 $f(x)=\\dfrac{2^x+a}{2^x+1}$.</p><ol class=\"enumerate\"><li><p>求 $a$ 的值，使得 $f(x)$ 为奇函数；</p></li><li><p>若 $f(x)<\\dfrac{a+2}{2}$ 对任意 $x\\in\\mathbb{R}$ 成立，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>令 $t=2^{x}>0$，则 $f(x)=\\dfrac{t+a}{t+1}$，而 $f(-x)=\\dfrac{1+at}{t+1}$. 要使 $f(-x)=-f(x)$ 对任意 $t>0$ 成立，必须有 $1+at=-t-a$，即 $(a+1)(t+1)=0$. 因为 $t+1>0$，所以 $a=-1$.</p></li><li><p>仍令 $t=2^{x}>0$. 不等式等价于</p>\n$$\n\\frac{a+2}{2}-\\frac{t+a}{t+1}=\\frac{at+2-a}{2(t+1)}>0\n$$\n<p>因分母为正，只需 $at+2-a>0$ 对任意 $t>0$ 成立. 若 $a&#x3C;0$，当 $t$ 足够大时 $at+2-a&#x3C;0$，不合题意；若 $a=0$，该式恒为 $2>0$. 若 $a>0$，当 $a\\leq2$ 时 $at+2-a>2-a\\geq0$，且因 $t>0$ 实际为正；当 $a>2$ 时，取足够小的正数 $t&#x3C;\\dfrac{a-2}{a}$，便有 $at+2-a&#x3C;0$. 因此 $a\\in[0,2]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>令 $t=2^{x}>0$，则 $f(x)=\\dfrac{t+a}{t+1}$，而 $f(-x)=\\dfrac{1+at}{t+1}$. 要使 $f(-x)=-f(x)$ 对任意 $t>0$ 成立，必须有 $1+at=-t-a$，即 $(a+1)(t+1)=0$. 因为 $t+1>0$，所以 $a=-1$.</p></li><li><p>仍令 $t=2^{x}>0$. 不等式等价于</p>\n$$\n\\frac{a+2}{2}-\\frac{t+a}{t+1}=\\frac{at+2-a}{2(t+1)}>0\n$$\n<p>因分母为正，只需 $at+2-a>0$ 对任意 $t>0$ 成立. 若 $a<0$，当 $t$ 足够大时 $at+2-a<0$，不合题意；若 $a=0$，该式恒为 $2>0$. 若 $a>0$，当 $a\\leq2$ 时 $at+2-a>2-a\\geq0$，且因 $t>0$ 实际为正；当 $a>2$ 时，取足够小的正数 $t<\\dfrac{a-2}{a}$，便有 $at+2-a<0$. 因此 $a\\in[0,2]$.</p></li></ol>"
         },
         {
           "num": 19,
           "body": "<p>某景区欲建造两条圆形观景步道 $M_{1}$，$M_{2}$（宽度忽略不计），如图，已知 $AB\\perp AC$，$AB=AC=AD=60$（单位：米），要求圆 $M_{1}$ 与 $AB$，$AD$ 分别相切于点 $B$，$D$，圆 $M_{2}$ 与 $AC$，$AD$ 分别相切于点 $C$，$D$.</p><ol class=\"enumerate\"><li><p>若 $\\angle BAD=60^{\\circ}$，求圆 $M_{1}$，$M_{2}$ 的半径（结果精确到 $0.1$ 米）；</p></li><li><p>若步道 $M_{1}$，$M_{2}$ 的每米造价分别为 $0.8\\text{ 千元}$ 和 $0.9\\text{ 千元}$，如何设计圆 $M_{1}$，$M_{2}$ 的大小，使总造价最低？最低总造价是多少？（结果精确到 $0.1\\text{ 千元}$）.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $\\angle BAD=\\theta$. 圆与两条相交直线相切时，圆心在角平分线上；连接圆心与切点，得到以半径为直角边、以 $60$ 为邻直角边的直角三角形，所以 $r=60\\tan\\dfrac{\\theta}{2}$. 当 $\\theta=60^{\\circ}$ 时，$r_{1}=60\\tan30^{\\circ}=20\\sqrt{3}\\approx34.6\\text{ 米}$. 又因为 $AB\\perp AC$，有 $\\angle CAD=30^{\\circ}$，故 $r_{2}=60\\tan15^{\\circ}=60(2-\\sqrt{3})\\approx16.1\\text{ 米}$.</p></li><li><p>因为射线 $AD$ 位于互相垂直的射线 $AB$、$AC$ 之间，所以 $0&#x3C;\\theta&#x3C;90^{\\circ}$. 设 $u=\\tan\\dfrac{\\theta}{2}$，则 $0&#x3C;u&#x3C;1$，并且 $r_{1}=60u$，$r_{2}=60\\tan\\left(45^{\\circ}-\\dfrac{\\theta}{2}\\right)=60\\dfrac{1-u}{1+u}$. 两条圆形步道的总造价为</p>\n$$\nC(u)=2\\pi\\left(0.8r_{1}+0.9r_{2}\\right)=120\\pi\\left(0.8u+0.9\\frac{1-u}{1+u}\\right)\n$$\n<p>令 $g(u)=0.8u+0.9\\dfrac{1-u}{1+u}$，则 $g'(u)=0.8-\\dfrac{1.8}{(1+u)^2}$. 令 $g'(u)=0$，得 $(1+u)^{2}=\\dfrac{9}{4}$，因 $u>0$，所以 $u=\\dfrac{1}{2}$. 且 $g'(u)&#x3C;0$（当 $0&#x3C;u&#x3C;\\dfrac{1}{2}$），$g'(u)>0$（当 $\\dfrac{1}{2}&#x3C;u&#x3C;1$），故此时总造价最低.</p><p>此时 $r_{1}=60u=30\\text{ 米}$，$r_{2}=60\\dfrac{1-u}{1+u}=20\\text{ 米}$，最低总造价为 $2\\pi(0.8\\times30+0.9\\times20)=84\\pi\\approx263.9\\text{ 千元}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $\\angle BAD=\\theta$. 圆与两条相交直线相切时，圆心在角平分线上；连接圆心与切点，得到以半径为直角边、以 $60$ 为邻直角边的直角三角形，所以 $r=60\\tan\\dfrac{\\theta}{2}$. 当 $\\theta=60^{\\circ}$ 时，$r_{1}=60\\tan30^{\\circ}=20\\sqrt{3}\\approx34.6\\text{ 米}$. 又因为 $AB\\perp AC$，有 $\\angle CAD=30^{\\circ}$，故 $r_{2}=60\\tan15^{\\circ}=60(2-\\sqrt{3})\\approx16.1\\text{ 米}$.</p></li><li><p>因为射线 $AD$ 位于互相垂直的射线 $AB$、$AC$ 之间，所以 $0<\\theta<90^{\\circ}$. 设 $u=\\tan\\dfrac{\\theta}{2}$，则 $0<u<1$，并且 $r_{1}=60u$，$r_{2}=60\\tan\\left(45^{\\circ}-\\dfrac{\\theta}{2}\\right)=60\\dfrac{1-u}{1+u}$. 两条圆形步道的总造价为</p>\n$$\nC(u)=2\\pi\\left(0.8r_{1}+0.9r_{2}\\right)=120\\pi\\left(0.8u+0.9\\frac{1-u}{1+u}\\right)\n$$\n<p>令 $g(u)=0.8u+0.9\\dfrac{1-u}{1+u}$，则 $g'(u)=0.8-\\dfrac{1.8}{(1+u)^2}$. 令 $g'(u)=0$，得 $(1+u)^{2}=\\dfrac{9}{4}$，因 $u>0$，所以 $u=\\dfrac{1}{2}$. 且 $g'(u)<0$（当 $0<u<\\dfrac{1}{2}$），$g'(u)>0$（当 $\\dfrac{1}{2}<u<1$），故此时总造价最低.</p><p>此时 $r_{1}=60u=30\\text{ 米}$，$r_{2}=60\\dfrac{1-u}{1+u}=20\\text{ 米}$，最低总造价为 $2\\pi(0.8\\times30+0.9\\times20)=84\\pi\\approx263.9\\text{ 千元}$.</p></li></ol>"
         },
         {
           "num": 20,
@@ -182,7 +182,7 @@
           "body": "<p>已知函数 $f(x)=\\log_{2}\\dfrac{1+x}{1-x}$.</p><ol class=\"enumerate\"><li><p>解方程 $f(x)=1$；</p></li><li><p>设 $x\\in(-1,1)$，$a\\in(1,+\\infty)$，证明：$\\dfrac{ax-1}{a-x}\\in(-1,1)$，且 $f\\!\\left(\\dfrac{ax-1}{a-x}\\right)-f(x)=-f\\!\\left(\\dfrac{1}{a}\\right)$；</p></li><li><p>设数列 $\\{x_{n}\\}$ 中，$x_{1}\\in(-1,1)$，$x_{n+1}=(-1)^{n+1}\\dfrac{3x_n-1}{3-x_n}$，$n\\in\\mathbb{N}^{*}$，求 $x_{1}$ 的取值范围，使得 $x_{3}\\ge x_{n}$ 对任意 $n\\in\\mathbb{N}^{*}$ 成立.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数有定义的条件为 $-1&#x3C;x&#x3C;1$. 方程 $f(x)=1$ 等价于 $\\dfrac{1+x}{1-x}=2$，所以 $1+x=2-2x$，解得 $x=\\dfrac{1}{3}$，它满足定义域条件.</p></li><li><p>记 $y=\\dfrac{ax-1}{a-x}$. 因为 $a>1$、$-1&#x3C;x&#x3C;1$，所以 $a-x>0$. 又</p><p>$1+y=\\frac{(a-1)(1+x)}{a-x}>0$，$1-y=\\frac{(a+1)(1-x)}{a-x}>0$，</p><p>故 $-1&#x3C;y&#x3C;1$. 进一步有</p>\n$$\n\\frac{1+y}{1-y}=\\frac{a-1}{a+1}\\cdot\\frac{1+x}{1-x}\n$$\n<p>取以 $2$ 为底的对数，得 $f(y)=f(x)+\\log_{2}\\dfrac{a-1}{a+1}$. 而 $f\\left(\\dfrac{1}{a}\\right)=\\log_{2}\\dfrac{a+1}{a-1}$，所以 $f\\left(\\dfrac{ax-1}{a-x}\\right)-f(x)=-f\\left(\\dfrac{1}{a}\\right)$.</p></li><li><p>记 $T(x)=\\dfrac{3x-1}{3-x}$，由上一问知 $T$ 将 $(-1,1)$ 映射到自身，且 $f(T(x))=f(x)-f\\left(\\dfrac{1}{3}\\right)=f(x)-1$. 另外，直接由定义可得 $f(-u)=-f(u)$（$-1&#x3C;u&#x3C;1$）. 又</p><p>$f'(x)=\\frac{2}{(1-x^{2})\\ln 2}>0$，（$-1&#x3C;x&#x3C;1$），</p><p>所以 $f$ 在 $(-1,1)$ 上严格递增. 令 $y_{n}=f(x_{n})$，递推式化为</p>\n$$\ny_{n+1}=\\begin{cases}y_{n}-1,&#x26;n\\text{ 为奇数},\\\\  1-y_{n},&#x26;n\\text{ 为偶数}.\\end{cases}\n$$\n<p>设 $y_{1}=t$，依次得到 $y_{2}=t-1$，$y_{3}=2-t$，$y_{4}=1-t$，$y_{5}=t$，故之后以四项为周期. 由于 $f$ 严格递增，题设条件等价于 $y_{3}\\ge y_{n}$ 对任意 $n$ 成立. 在四个值中，$y_{3}\\ge y_{4}$ 恒成立，$y_{3}\\ge y_{2}$ 等价于 $t\\le\\dfrac{3}{2}$，而 $y_{3}\\ge y_{1}$ 等价于 $t\\le1$，后者更严格，因此只需 $t\\le1$. 又 $f\\left(\\dfrac{1}{3}\\right)=1$，故 $t\\le1$ 等价于 $x_{1}\\le\\dfrac{1}{3}$. 联合 $x_{1}\\in(-1,1)$，得到 $x_{1}\\in\\left(-1,\\dfrac{1}{3}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数有定义的条件为 $-1<x<1$. 方程 $f(x)=1$ 等价于 $\\dfrac{1+x}{1-x}=2$，所以 $1+x=2-2x$，解得 $x=\\dfrac{1}{3}$，它满足定义域条件.</p></li><li><p>记 $y=\\dfrac{ax-1}{a-x}$. 因为 $a>1$、$-1<x<1$，所以 $a-x>0$. 又</p><p>$1+y=\\frac{(a-1)(1+x)}{a-x}>0$，$1-y=\\frac{(a+1)(1-x)}{a-x}>0$，</p><p>故 $-1<y<1$. 进一步有</p>\n$$\n\\frac{1+y}{1-y}=\\frac{a-1}{a+1}\\cdot\\frac{1+x}{1-x}\n$$\n<p>取以 $2$ 为底的对数，得 $f(y)=f(x)+\\log_{2}\\dfrac{a-1}{a+1}$. 而 $f\\left(\\dfrac{1}{a}\\right)=\\log_{2}\\dfrac{a+1}{a-1}$，所以 $f\\left(\\dfrac{ax-1}{a-x}\\right)-f(x)=-f\\left(\\dfrac{1}{a}\\right)$.</p></li><li><p>记 $T(x)=\\dfrac{3x-1}{3-x}$，由上一问知 $T$ 将 $(-1,1)$ 映射到自身，且 $f(T(x))=f(x)-f\\left(\\dfrac{1}{3}\\right)=f(x)-1$. 另外，直接由定义可得 $f(-u)=-f(u)$（$-1<u<1$）. 又</p><p>$f'(x)=\\frac{2}{(1-x^{2})\\ln 2}>0$，（$-1<x<1$），</p><p>所以 $f$ 在 $(-1,1)$ 上严格递增. 令 $y_{n}=f(x_{n})$，递推式化为</p>\n$$\ny_{n+1}=\\begin{cases}y_{n}-1,&n\\text{ 为奇数},\\\\  1-y_{n},&n\\text{ 为偶数}.\\end{cases}\n$$\n<p>设 $y_{1}=t$，依次得到 $y_{2}=t-1$，$y_{3}=2-t$，$y_{4}=1-t$，$y_{5}=t$，故之后以四项为周期. 由于 $f$ 严格递增，题设条件等价于 $y_{3}\\ge y_{n}$ 对任意 $n$ 成立. 在四个值中，$y_{3}\\ge y_{4}$ 恒成立，$y_{3}\\ge y_{2}$ 等价于 $t\\le\\dfrac{3}{2}$，而 $y_{3}\\ge y_{1}$ 等价于 $t\\le1$，后者更严格，因此只需 $t\\le1$. 又 $f\\left(\\dfrac{1}{3}\\right)=1$，故 $t\\le1$ 等价于 $x_{1}\\le\\dfrac{1}{3}$. 联合 $x_{1}\\in(-1,1)$，得到 $x_{1}\\in\\left(-1,\\dfrac{1}{3}\\right]$.</p></li></ol>"
         }
       ]
     }

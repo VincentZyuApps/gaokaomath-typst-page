@@ -9,12 +9,12 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $M = \\{x \\mid -3 &#x3C; x \\le 5\\}$，$N = \\{x \\mid x &#x3C; -5\\text{ 或 }x > 5\\}$，则 $M \\cup N =$（ ）",
+          "body": "已知集合 $M = \\{x \\mid -3 < x \\le 5\\}$，$N = \\{x \\mid x < -5\\text{ 或 }x > 5\\}$，则 $M \\cup N =$（ ）",
           "choices": [
-            "$\\{x\\mid x &#x3C; -5\\text{ 或 }x > -3\\}$",
-            "$\\{x\\mid -5 &#x3C; x &#x3C; 5\\}$",
-            "$\\{x\\mid -3 &#x3C; x &#x3C; 5\\}$",
-            "$\\{x\\mid x &#x3C; -3\\text{ 或 }x > 5\\}$"
+            "$\\{x\\mid x < -5\\text{ 或 }x > -3\\}$",
+            "$\\{x\\mid -5 < x < 5\\}$",
+            "$\\{x\\mid -3 < x < 5\\}$",
+            "$\\{x\\mid x < -3\\text{ 或 }x > 5\\}$"
           ],
           "answer": "A",
           "solution": "<p>由题意，$M=(-3,5]$，$N=(-\\infty,-5)\\cup(5,+\\infty)$. 因此</p>\n$$\nM\\cup N=(-\\infty,-5)\\cup(-3,+\\infty)\n$$\n<p>与选项 A 的集合相同，故选 A.</p>"
@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "已知函数 $f(x)$ 满足：当 $x \\ge 4$ 时，$f(x) = \\left(\\frac{1}{2}\\right)^{x}$；当 $x &#x3C; 4$ 时，$f(x) = f(x + 1)$. 则 $f(2 + \\log_{2} 3) =$（ ）",
+          "body": "已知函数 $f(x)$ 满足：当 $x \\ge 4$ 时，$f(x) = \\left(\\frac{1}{2}\\right)^{x}$；当 $x < 4$ 时，$f(x) = f(x + 1)$. 则 $f(2 + \\log_{2} 3) =$（ ）",
           "choices": [
             "$\\frac{1}{24}$",
             "$\\frac{1}{12}$",
@@ -77,7 +77,7 @@
             "$\\frac{3}{8}$"
           ],
           "answer": "A",
-          "solution": "<p>令 $x_{0}=2+\\log_{2} 3$. 因为 $1&#x3C;\\log_{2} 3&#x3C;2$，所以 $3&#x3C;x_{0}&#x3C;4$，由题设递推关系，</p>\n$$\nf(x_{0})=f(x_{0}+1)\n$$\n<p>又 $x_{0}+1=3+\\log_{2} 3>4$，可直接使用第一段函数表达式. 因此</p>\n$$\nf(x_{0})=\\left(\\frac{1}{2}\\right)^{3+\\log_2 3}=\\frac{1}{8}\\cdot2^{-\\log_2 3}=\\frac{1}{8}\\cdot\\frac{1}{3}=\\frac{1}{24}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>令 $x_{0}=2+\\log_{2} 3$. 因为 $1<\\log_{2} 3<2$，所以 $3<x_{0}<4$，由题设递推关系，</p>\n$$\nf(x_{0})=f(x_{0}+1)\n$$\n<p>又 $x_{0}+1=3+\\log_{2} 3>4$，可直接使用第一段函数表达式. 因此</p>\n$$\nf(x_{0})=\\left(\\frac{1}{2}\\right)^{3+\\log_2 3}=\\frac{1}{8}\\cdot2^{-\\log_2 3}=\\frac{1}{8}\\cdot\\frac{1}{3}=\\frac{1}{24}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 7,
@@ -120,16 +120,16 @@
           "body": "<p>某店一个月的收入和支出总共记录了 $N$ 个数据 $a_{1}$，$a_{2}$，$\\dots$，$a_{N}$，其中收入记为正数. 支出记为负数. 该店用下边的程序框图计算月总收入 $S$ 和月净盈利 $V$，那么在图中空白的判断框和处理框中，应分别填入下列四个选项中的（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$A > 0$，$V = S - T$",
-            "$A &#x3C; 0$，$V = S - T$",
+            "$A < 0$，$V = S - T$",
             "$A > 0$，$V = S + T$",
-            "$A &#x3C; 0$，$V = S + T$"
+            "$A < 0$，$V = S + T$"
           ],
           "answer": "C",
-          "solution": "<p>令程序框中的当前数据 $A=a_{k}$. 当 $A>0$ 时，$A$ 是收入，应累加到总收入 $S$；当 $A&#x3C;0$ 时，$A$ 是支出，应累加到 $T$. 由于 $T$ 本身是负的支出总额，月净盈利应为 $V=S+T$.</p><p>所以判断框填 $A>0$，处理框填 $V=S+T$，故选 C.</p>"
+          "solution": "<p>令程序框中的当前数据 $A=a_{k}$. 当 $A>0$ 时，$A$ 是收入，应累加到总收入 $S$；当 $A<0$ 时，$A$ 是支出，应累加到 $T$. 由于 $T$ 本身是负的支出总额，月净盈利应为 $V=S+T$.</p><p>所以判断框填 $A>0$，处理框填 $V=S+T$，故选 C.</p>"
         },
         {
           "num": 11,
-          "body": "<p>下列 $4$ 个命题：</p><ol class=\"enumerate\"><li><p>$p_{1}$：$\\exists x \\in (0, +\\infty)$，$\\left(\\frac{1}{2}\\right)^{x} &#x3C; \\left(\\frac{1}{3}\\right)^{x}$；</p></li><li><p>$p_{2}$：$\\exists x \\in (0,1)$，$\\log_{\\frac{1}{2}}x > \\log_{\\frac{1}{3}}x$；</p></li><li><p>$p_{3}$：$\\forall x \\in (0, +\\infty)$，$\\left(\\frac{1}{2}\\right)^{x} > \\log_{\\frac{1}{2}}x$；</p></li><li><p>$p_{4}$：$\\forall x \\in \\left(0,\\frac{1}{3}\\right)$，$\\left(\\frac{1}{2}\\right)^{x} &#x3C; \\log_{\\frac{1}{3}}x$.</p></li></ol><p>其中的真命题是（ ）</p>",
+          "body": "<p>下列 $4$ 个命题：</p><ol class=\"enumerate\"><li><p>$p_{1}$：$\\exists x \\in (0, +\\infty)$，$\\left(\\frac{1}{2}\\right)^{x} < \\left(\\frac{1}{3}\\right)^{x}$；</p></li><li><p>$p_{2}$：$\\exists x \\in (0,1)$，$\\log_{\\frac{1}{2}}x > \\log_{\\frac{1}{3}}x$；</p></li><li><p>$p_{3}$：$\\forall x \\in (0, +\\infty)$，$\\left(\\frac{1}{2}\\right)^{x} > \\log_{\\frac{1}{2}}x$；</p></li><li><p>$p_{4}$：$\\forall x \\in \\left(0,\\frac{1}{3}\\right)$，$\\left(\\frac{1}{2}\\right)^{x} < \\log_{\\frac{1}{3}}x$.</p></li></ol><p>其中的真命题是（ ）</p>",
           "choices": [
             "$p_{1}$，$p_{3}$",
             "$p_{1}$，$p_{4}$",
@@ -137,11 +137,11 @@
             "$p_{2}$，$p_{4}$"
           ],
           "answer": "D",
-          "solution": "<p>对于 $p_{1}$，当 $x>0$ 时，底数大小规律给出</p>\n$$\n\\left(\\frac{1}{2}\\right)^{x}>\\left(\\frac{1}{3}\\right)^{x}\n$$\n<p>所以 $p_{1}$ 为假.</p><p>对于 $0&#x3C;x&#x3C;1$，令 $t=-\\ln x>0$，则</p>\n$$\n\\log_{\\frac{1}{2}}x=\\frac{t}{\\ln2}\n$$\n<p>同理，</p>\n$$\n\\log_{\\frac{1}{3}}x=\\frac{t}{\\ln3}\n$$\n<p>因为 $\\ln2&#x3C;\\ln3$，所以 $\\log_{\\frac{1}{2}}x>\\log_{\\frac{1}{3}}x$，从而 $p_{2}$ 为真.</p><p>命题 $p_{3}$ 不成立，例如取 $x=\\frac{1}{2}$，有</p>\n$$\n\\left(\\frac{1}{2}\\right)^{\\frac{1}{2}}=\\frac{1}{\\sqrt{2}}&#x3C;1=\\log_{\\frac{1}{2}}\\frac{1}{2}\n$$\n<p>若 $0&#x3C;x&#x3C;\\frac{1}{3}$，由于底数 $\\frac{1}{3}&#x3C;1$，有 $\\log_{\\frac{1}{3}}x>1$；同时 $0&#x3C;\\left(\\frac{1}{2}\\right)^{x}&#x3C;1$，所以 $p_{4}$ 为真.</p><p>故真命题为 $p_{2}$，$p_{4}$，选 D.</p>"
+          "solution": "<p>对于 $p_{1}$，当 $x>0$ 时，底数大小规律给出</p>\n$$\n\\left(\\frac{1}{2}\\right)^{x}>\\left(\\frac{1}{3}\\right)^{x}\n$$\n<p>所以 $p_{1}$ 为假.</p><p>对于 $0<x<1$，令 $t=-\\ln x>0$，则</p>\n$$\n\\log_{\\frac{1}{2}}x=\\frac{t}{\\ln2}\n$$\n<p>同理，</p>\n$$\n\\log_{\\frac{1}{3}}x=\\frac{t}{\\ln3}\n$$\n<p>因为 $\\ln2<\\ln3$，所以 $\\log_{\\frac{1}{2}}x>\\log_{\\frac{1}{3}}x$，从而 $p_{2}$ 为真.</p><p>命题 $p_{3}$ 不成立，例如取 $x=\\frac{1}{2}$，有</p>\n$$\n\\left(\\frac{1}{2}\\right)^{\\frac{1}{2}}=\\frac{1}{\\sqrt{2}}<1=\\log_{\\frac{1}{2}}\\frac{1}{2}\n$$\n<p>若 $0<x<\\frac{1}{3}$，由于底数 $\\frac{1}{3}<1$，有 $\\log_{\\frac{1}{3}}x>1$；同时 $0<\\left(\\frac{1}{2}\\right)^{x}<1$，所以 $p_{4}$ 为真.</p><p>故真命题为 $p_{2}$，$p_{4}$，选 D.</p>"
         },
         {
           "num": 12,
-          "body": "已知偶函数 $f(x)$ 在区间 $[0, +\\infty)$ 单调增加，则满足 $f(2x - 1) &#x3C; f\\left(\\frac{1}{3}\\right)$ 的 $x$ 取值范围是（ ）",
+          "body": "已知偶函数 $f(x)$ 在区间 $[0, +\\infty)$ 单调增加，则满足 $f(2x - 1) < f\\left(\\frac{1}{3}\\right)$ 的 $x$ 取值范围是（ ）",
           "choices": [
             "$\\left(\\frac{1}{3},\\frac{2}{3}\\right)$",
             "$\\left[\\frac{1}{3},\\frac{2}{3}\\right)$",
@@ -149,7 +149,7 @@
             "$\\left[\\frac{1}{2},\\frac{2}{3}\\right)$"
           ],
           "answer": "A",
-          "solution": "<p>由于 $f$ 是偶函数，</p>\n$$\nf(2x-1)=f(|2x-1|)\n$$\n<p>又 $f$ 在 $[0,+\\infty)$ 上单调增加，因此</p>\n$$\nf(|2x-1|)&#x3C;f\\left(\\frac{1}{3}\\right)  \\Longleftrightarrow |2x-1|&#x3C;\\frac{1}{3}\n$$\n<p>解得</p>\n$$\n-\\frac{1}{3}&#x3C;2x-1&#x3C;\\frac{1}{3}\\Longleftrightarrow \\frac{1}{3}&#x3C;x&#x3C;\\frac{2}{3}\n$$\n<p>端点处等号成立，不能取，故选 A.</p>"
+          "solution": "<p>由于 $f$ 是偶函数，</p>\n$$\nf(2x-1)=f(|2x-1|)\n$$\n<p>又 $f$ 在 $[0,+\\infty)$ 上单调增加，因此</p>\n$$\nf(|2x-1|)<f\\left(\\frac{1}{3}\\right)  \\Longleftrightarrow |2x-1|<\\frac{1}{3}\n$$\n<p>解得</p>\n$$\n-\\frac{1}{3}<2x-1<\\frac{1}{3}\\Longleftrightarrow \\frac{1}{3}<x<\\frac{2}{3}\n$$\n<p>端点处等号成立，不能取，故选 A.</p>"
         }
       ]
     },
@@ -219,10 +219,10 @@
         },
         {
           "num": 21,
-          "body": "<p>设 $f(x) = \\mathrm{e}^{x}(ax^{2}+ x + 1)$，且曲线 $y = f(x)$ 在 $x = 1$ 处的切线与 $x$ 轴平行.</p><ol class=\"enumerate\"><li><p>求 $a$ 的值，并讨论 $f(x)$ 的单调性；</p></li><li><p>证明：当 $\\theta \\in \\left[0, \\frac{\\pi}{2}\\right]$ 时，$|f(\\cos \\theta) - f(\\sin \\theta)| &#x3C; 2$.</p></li></ol>",
+          "body": "<p>设 $f(x) = \\mathrm{e}^{x}(ax^{2}+ x + 1)$，且曲线 $y = f(x)$ 在 $x = 1$ 处的切线与 $x$ 轴平行.</p><ol class=\"enumerate\"><li><p>求 $a$ 的值，并讨论 $f(x)$ 的单调性；</p></li><li><p>证明：当 $\\theta \\in \\left[0, \\frac{\\pi}{2}\\right]$ 时，$|f(\\cos \\theta) - f(\\sin \\theta)| < 2$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\nf'(x)=\\mathrm{e}^{x}\\left(ax^{2}+x+1+2ax+1\\right)  =\\mathrm{e}^{x}\\left(ax^{2}+(2a+1)x+2\\right)\n$$\n<p>且曲线在 $x=1$ 处的切线与 $x$ 轴平行，得 $f'(1)=0$. 因为 $\\mathrm{e}\\neq0$，所以</p>\n$$\na+(2a+1)+2=0\n$$\n<p>即 $a=-1$. 此时</p>\n$$\nf'(x)=\\mathrm{e}^{x}(-x^{2}-x+2)=-\\mathrm{e}^{x}(x+2)(x-1)\n$$\n<p>由于 $\\mathrm{e}^{x}>0$，故当 $x\\in(-\\infty,-2)\\cup(1,+\\infty)$ 时，$f'(x)&#x3C;0$；当 $x\\in(-2,1)$ 时，$f'(x)>0$. 所以 $f(x)$ 在 $(-\\infty,-2)$，$(1,+\\infty)$ 上单调减少，在 $(-2,1)$ 上单调增加.</p></li><li><p>由上问知 $f(x)$ 在 $[0,1]$ 上单调增加，且 $f(0)=1$，$f(1)=\\mathrm{e}$.</p><p>因此对于任意 $x_{1}$，$x_{2}\\in[0,1]$，有</p>\n$$\n\\left|f(x_{1})-f(x_{2})\\right|\\le f(1)-f(0)=\\mathrm{e}-1&#x3C;2\n$$\n<p>其中 $\\mathrm{e}&#x3C;3$，例如由</p>\n$$\n\\mathrm{e}=\\sum_{k=0}^{\\infty}\\frac{1}{k!}&#x3C;1+1+\\sum_{k=2}^{\\infty}\\frac{1}{2^{k-1}}=3\n$$\n<p>可得 $\\mathrm{e}-1&#x3C;2$.</p><p>当 $\\theta\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，$\\cos\\theta$，$\\sin\\theta\\in[0,1]$，代入上式即得</p>\n$$\n\\left|f(\\cos\\theta)-f(\\sin\\theta)\\right|&#x3C;2\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\nf'(x)=\\mathrm{e}^{x}\\left(ax^{2}+x+1+2ax+1\\right)  =\\mathrm{e}^{x}\\left(ax^{2}+(2a+1)x+2\\right)\n$$\n<p>且曲线在 $x=1$ 处的切线与 $x$ 轴平行，得 $f'(1)=0$. 因为 $\\mathrm{e}\\neq0$，所以</p>\n$$\na+(2a+1)+2=0\n$$\n<p>即 $a=-1$. 此时</p>\n$$\nf'(x)=\\mathrm{e}^{x}(-x^{2}-x+2)=-\\mathrm{e}^{x}(x+2)(x-1)\n$$\n<p>由于 $\\mathrm{e}^{x}>0$，故当 $x\\in(-\\infty,-2)\\cup(1,+\\infty)$ 时，$f'(x)<0$；当 $x\\in(-2,1)$ 时，$f'(x)>0$. 所以 $f(x)$ 在 $(-\\infty,-2)$，$(1,+\\infty)$ 上单调减少，在 $(-2,1)$ 上单调增加.</p></li><li><p>由上问知 $f(x)$ 在 $[0,1]$ 上单调增加，且 $f(0)=1$，$f(1)=\\mathrm{e}$.</p><p>因此对于任意 $x_{1}$，$x_{2}\\in[0,1]$，有</p>\n$$\n\\left|f(x_{1})-f(x_{2})\\right|\\le f(1)-f(0)=\\mathrm{e}-1<2\n$$\n<p>其中 $\\mathrm{e}<3$，例如由</p>\n$$\n\\mathrm{e}=\\sum_{k=0}^{\\infty}\\frac{1}{k!}<1+1+\\sum_{k=2}^{\\infty}\\frac{1}{2^{k-1}}=3\n$$\n<p>可得 $\\mathrm{e}-1<2$.</p><p>当 $\\theta\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，$\\cos\\theta$，$\\sin\\theta\\in[0,1]$，代入上式即得</p>\n$$\n\\left|f(\\cos\\theta)-f(\\sin\\theta)\\right|<2\n$$\n</li></ol>"
         },
         {
           "num": 22,

@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "设函数 $f(x)=\\begin{cases}x^{2}+bx+c,&#x26;x\\le 0,\\\\  2,&#x26;x>0.\\end{cases}$ 若 $f(-4)=f(0)$，$f(-2)=-2$，则关于 $x$ 的方程 $f(x)=x$ 的解的个数为（ ）",
+          "body": "设函数 $f(x)=\\begin{cases}x^{2}+bx+c,&x\\le 0,\\\\  2,&x>0.\\end{cases}$ 若 $f(-4)=f(0)$，$f(-2)=-2$，则关于 $x$ 的方程 $f(x)=x$ 的解的个数为（ ）",
           "choices": [
             "$1$",
             "$2$",
@@ -77,7 +77,7 @@
             "$4$"
           ],
           "answer": "C",
-          "solution": "<p>由 $f(-4)=f(0)$ 得 $16-4b+c=c$，所以 $b=4$. 再由 $f(-2)=-2$ 得 $4-8+c=-2$，所以 $c=2$. 因而</p>\n$$\nf(x)=\\begin{cases}x^{2}+4x+2,&#x26;x\\leqslant0,\\\\  2,&#x26;x>0.\\end{cases}\n$$\n<p>当 $x\\leqslant0$ 时，方程 $f(x)=x$ 化为 $x^{2}+4x+2=x$，即 $x^{2}+3x+2=0$，所以 $x=-1$ 或 $x=-2$，这两个解都满足 $x\\leqslant0$. 当 $x>0$ 时，方程化为 $2=x$，得到 $x=2$. 因此原方程共有 $3$ 个解，选 C.</p>"
+          "solution": "<p>由 $f(-4)=f(0)$ 得 $16-4b+c=c$，所以 $b=4$. 再由 $f(-2)=-2$ 得 $4-8+c=-2$，所以 $c=2$. 因而</p>\n$$\nf(x)=\\begin{cases}x^{2}+4x+2,&x\\leqslant0,\\\\  2,&x>0.\\end{cases}\n$$\n<p>当 $x\\leqslant0$ 时，方程 $f(x)=x$ 化为 $x^{2}+4x+2=x$，即 $x^{2}+3x+2=0$，所以 $x=-1$ 或 $x=-2$，这两个解都满足 $x\\leqslant0$. 当 $x>0$ 时，方程化为 $2=x$，得到 $x=2$. 因此原方程共有 $3$ 个解，选 C.</p>"
         },
         {
           "num": 7,
@@ -89,7 +89,7 @@
             "$\\sqrt{|a-b|}\\ge \\sqrt{a}-\\sqrt{b}$"
           ],
           "answer": "B",
-          "solution": "<p>选项 A 中 $(a+b)\\left(\\frac{1}{a}+\\frac{1}{b}\\right)=2+\\frac{a}{b}+\\frac{b}{a}\\geqslant4$，其中用到了 $\\frac{a}{b}+\\frac{b}{a}\\geqslant2$. 选项 C 等价于 $(a-1)^{2}+(b-1)^{2}\\geqslant0$，恒成立.</p><p>对选项 D，当 $a&#x3C;b$ 时，左边 $\\sqrt{|a-b|}\\geqslant0$，右边 $\\sqrt{a}-\\sqrt{b}&#x3C;0$，所以不等式成立；当 $a\\ge b$ 时，两边非负，平方后不等式等价于 $a-b\\ge a+b-2\\sqrt{ab}$，即 $\\sqrt{ab}\\ge b$，这又由 $a\\ge b>0$ 成立. 对选项 B，取 $a=\\frac{4}{5}$，$b=1$，则 $a^{3}+b^{3}=\\frac{189}{125}&#x3C;\\frac{8}{5}=2ab^{2}$，所以它不恒成立. 因此选 B.</p>"
+          "solution": "<p>选项 A 中 $(a+b)\\left(\\frac{1}{a}+\\frac{1}{b}\\right)=2+\\frac{a}{b}+\\frac{b}{a}\\geqslant4$，其中用到了 $\\frac{a}{b}+\\frac{b}{a}\\geqslant2$. 选项 C 等价于 $(a-1)^{2}+(b-1)^{2}\\geqslant0$，恒成立.</p><p>对选项 D，当 $a<b$ 时，左边 $\\sqrt{|a-b|}\\geqslant0$，右边 $\\sqrt{a}-\\sqrt{b}<0$，所以不等式成立；当 $a\\ge b$ 时，两边非负，平方后不等式等价于 $a-b\\ge a+b-2\\sqrt{ab}$，即 $\\sqrt{ab}\\ge b$，这又由 $a\\ge b>0$ 成立. 对选项 B，取 $a=\\frac{4}{5}$，$b=1$，则 $a^{3}+b^{3}=\\frac{189}{125}<\\frac{8}{5}=2ab^{2}$，所以它不恒成立. 因此选 B.</p>"
         },
         {
           "num": 8,
@@ -107,13 +107,13 @@
           "num": 9,
           "body": "设集合 $U=\\{(x,y)\\mid x\\in\\mathbb{R}, y\\in\\mathbb{R}\\}$，$A=\\{(x,y)\\mid 2x-y+m>0\\}$，$B=\\{(x,y)\\mid x+y-n\\le 0\\}$，那么点 $P(2,3)\\in A\\cap(\\complement_{U}B)$ 的充要条件是（ ）",
           "choices": [
-            "$m>-1$，$n&#x3C;5$",
-            "$m&#x3C;-1$，$n&#x3C;5$",
+            "$m>-1$，$n<5$",
+            "$m<-1$，$n<5$",
             "$m>-1$，$n>5$",
-            "$m&#x3C;-1$，$n>5$"
+            "$m<-1$，$n>5$"
           ],
           "answer": "A",
-          "solution": "点 $P(2,3)\\in A$ 等价于 $2\\cdot2-3+m>0$，即 $m>-1$. 又因为 $B=\\{(x,y)\\mid x+y-n\\leqslant0\\}$，所以 $P\\in\\complement_{U} B$ 等价于 $2+3-n>0$，即 $n&#x3C;5$. 两个条件同时成立的充要条件是 $m>-1$，$n&#x3C;5$，因此选 A."
+          "solution": "点 $P(2,3)\\in A$ 等价于 $2\\cdot2-3+m>0$，即 $m>-1$. 又因为 $B=\\{(x,y)\\mid x+y-n\\leqslant0\\}$，所以 $P\\in\\complement_{U} B$ 等价于 $2+3-n>0$，即 $n<5$. 两个条件同时成立的充要条件是 $m>-1$，$n<5$，因此选 A."
         },
         {
           "num": 10,
@@ -141,7 +141,7 @@
         },
         {
           "num": 12,
-          "body": "设 $f(x)$，$g(x)$ 分别是定义在 $\\mathbb{R}$ 上的奇函数和偶函数，当 $x&#x3C;0$ 时，$f'(x)g(x)+f(x)g'(x)>0$. 且 $g(-3)=0$，则不等式 $f(x)g(x)&#x3C;0$ 的解集是（ ）",
+          "body": "设 $f(x)$，$g(x)$ 分别是定义在 $\\mathbb{R}$ 上的奇函数和偶函数，当 $x<0$ 时，$f'(x)g(x)+f(x)g'(x)>0$. 且 $g(-3)=0$，则不等式 $f(x)g(x)<0$ 的解集是（ ）",
           "choices": [
             "$(-3,0)\\cup(3,+\\infty)$",
             "$(-3,0)\\cup(0,3)$",
@@ -149,7 +149,7 @@
             "$(-\\infty,-3)\\cup(0,3)$"
           ],
           "answer": "D",
-          "solution": "<p>令 $h(x)=f(x)g(x)$. 当 $x&#x3C;0$ 时，题设给出 $h'(x)=f'(x)g(x)+f(x)g'(x)>0$，所以 $h$ 在 $(-\\infty,0)$ 上严格递增. 由 $g(-3)=0$ 得 $h(-3)=0$，又由奇函数和偶函数的定义得 $f(0)=0$，从而 $h(0)=0$. 因此 $h(x)&#x3C;0$ 在 $x&#x3C;0$ 时等价于 $x&#x3C;-3$，而 $h(x)>0$ 在 $-3&#x3C;x&#x3C;0$ 时成立.</p><p>由于 $f$ 为奇函数、$g$ 为偶函数，$h$ 为奇函数；同时 $g(3)=g(-3)=0$，故 $h(3)=0$. 对 $x>0$，由 $h(x)=-h(-x)$ 得 $h(x)&#x3C;0$ 当且仅当 $0&#x3C;x&#x3C;3$. 所以不等式的解集为 $(-\\infty,-3)\\cup(0,3)$，选 D.</p>"
+          "solution": "<p>令 $h(x)=f(x)g(x)$. 当 $x<0$ 时，题设给出 $h'(x)=f'(x)g(x)+f(x)g'(x)>0$，所以 $h$ 在 $(-\\infty,0)$ 上严格递增. 由 $g(-3)=0$ 得 $h(-3)=0$，又由奇函数和偶函数的定义得 $f(0)=0$，从而 $h(0)=0$. 因此 $h(x)<0$ 在 $x<0$ 时等价于 $x<-3$，而 $h(x)>0$ 在 $-3<x<0$ 时成立.</p><p>由于 $f$ 为奇函数、$g$ 为偶函数，$h$ 为奇函数；同时 $g(3)=g(-3)=0$，故 $h(3)=0$. 对 $x>0$，由 $h(x)=-h(-x)$ 得 $h(x)<0$ 当且仅当 $0<x<3$. 所以不等式的解集为 $(-\\infty,-3)\\cup(0,3)$，选 D.</p>"
         }
       ]
     },
@@ -182,7 +182,7 @@
           "body": "设 $F$ 是椭圆 $\\frac{x^{2}}{7}+\\frac{y^{2}}{6}=1$ 的右焦点，且椭圆上至少有 $21$ 个不同的点 $P_{i}$（$i=1$，$2$，$3$，$\\dots$），使 $\\left|FP_{1}\\right|$，$\\left|FP_{2}\\right|$，$\\left|FP_{3}\\right|$，… 组成公差为 $d$ 的等差数列，则 $d$ 的取值范围为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left[-\\frac{1}{10},0\\right)\\cup\\left(0,\\frac{1}{10}\\right]$",
-          "solution": "<p>椭圆的半长轴为 $\\sqrt{7}$，半短轴为 $\\sqrt{6}$，所以焦距的一半为 $c=\\sqrt{7-6}=1$，右焦点为 $F(1,0)$. 设椭圆上一点为 $P(x,y)$，则</p>\n$$\n|FP|^{2}=(x-1)^{2}+y^{2}=(x-1)^{2}+6\\left(1-\\frac{x^{2}}{7}\\right)=\\left(\\sqrt{7}-\\frac{x}{\\sqrt{7}}\\right)^{2}\n$$\n<p>由于 $-\\sqrt{7}\\le x\\le\\sqrt{7}$，故 $\\sqrt{7}-1\\le|FP|\\le\\sqrt{7}+1$，距离的取值区间长度为 $2$.</p><p>若 $d=0$，所有 $|FP_{i}|$ 相等. 对固定距离 $r$，由 $|FP|=\\sqrt{7}-\\frac{x}{\\sqrt{7}}$ 可唯一确定横坐标 $x$，再由椭圆方程至多得到两个纵坐标 $y$，所以椭圆上到 $F$ 距离为 $r$ 的点至多有两个，不可能有至少 $21$ 个不同的点，因此 $d\\neq0$. 当 $d\\neq0$ 时，前 $21$ 项距离互不相同，必须有 $20|d|\\leqslant2$，即 $|d|\\le\\frac{1}{10}$. 反之，当 $0&#x3C;|d|\\le\\frac{1}{10}$ 时，可显式构造 $21$ 项距离：当 $0&#x3C;d\\le\\frac{1}{10}$ 时取 $r_{j}=\\sqrt{7}-1+(j-1)d$，当 $-\\frac{1}{10}\\le d&#x3C;0$ 时取 $r_{j}=\\sqrt{7}+1+(j-1)d$，其中 $j=1$，$2$，$\\cdots$，$21$. 这些 $r_{j}$ 均在 $\\left[\\sqrt{7}-1,\\sqrt{7}+1\\right]$ 内，且互不相同. 对任意一个 $r_{j}$，取 $x_{j}=7-\\sqrt{7}r_{j}$ 和 $y_{j}=\\sqrt{6\\left(1-\\frac{x_{j}^{2}}{7}\\right)}$，即得到椭圆上的点 $P_{j}(x_{j},y_{j})$，且 $|FP_{j}|=r_{j}$. 因为距离互不相同，这些点互不相同. 所以 $d\\in\\left[-\\frac{1}{10},0\\right)\\cup\\left(0,\\frac{1}{10}\\right]$.</p>"
+          "solution": "<p>椭圆的半长轴为 $\\sqrt{7}$，半短轴为 $\\sqrt{6}$，所以焦距的一半为 $c=\\sqrt{7-6}=1$，右焦点为 $F(1,0)$. 设椭圆上一点为 $P(x,y)$，则</p>\n$$\n|FP|^{2}=(x-1)^{2}+y^{2}=(x-1)^{2}+6\\left(1-\\frac{x^{2}}{7}\\right)=\\left(\\sqrt{7}-\\frac{x}{\\sqrt{7}}\\right)^{2}\n$$\n<p>由于 $-\\sqrt{7}\\le x\\le\\sqrt{7}$，故 $\\sqrt{7}-1\\le|FP|\\le\\sqrt{7}+1$，距离的取值区间长度为 $2$.</p><p>若 $d=0$，所有 $|FP_{i}|$ 相等. 对固定距离 $r$，由 $|FP|=\\sqrt{7}-\\frac{x}{\\sqrt{7}}$ 可唯一确定横坐标 $x$，再由椭圆方程至多得到两个纵坐标 $y$，所以椭圆上到 $F$ 距离为 $r$ 的点至多有两个，不可能有至少 $21$ 个不同的点，因此 $d\\neq0$. 当 $d\\neq0$ 时，前 $21$ 项距离互不相同，必须有 $20|d|\\leqslant2$，即 $|d|\\le\\frac{1}{10}$. 反之，当 $0<|d|\\le\\frac{1}{10}$ 时，可显式构造 $21$ 项距离：当 $0<d\\le\\frac{1}{10}$ 时取 $r_{j}=\\sqrt{7}-1+(j-1)d$，当 $-\\frac{1}{10}\\le d<0$ 时取 $r_{j}=\\sqrt{7}+1+(j-1)d$，其中 $j=1$，$2$，$\\cdots$，$21$. 这些 $r_{j}$ 均在 $\\left[\\sqrt{7}-1,\\sqrt{7}+1\\right]$ 内，且互不相同. 对任意一个 $r_{j}$，取 $x_{j}=7-\\sqrt{7}r_{j}$ 和 $y_{j}=\\sqrt{6\\left(1-\\frac{x_{j}^{2}}{7}\\right)}$，即得到椭圆上的点 $P_{j}(x_{j},y_{j})$，且 $|FP_{j}|=r_{j}$. 因为距离互不相同，这些点互不相同. 所以 $d\\in\\left[-\\frac{1}{10},0\\right)\\cup\\left(0,\\frac{1}{10}\\right]$.</p>"
         }
       ]
     },
@@ -215,7 +215,7 @@
           "body": "<p>已知函数 $f(x)=x^{2}\\mathrm{e}^{ax}$，其中 $a\\le 0$，$\\mathrm{e}$ 为自然对数的底数.</p><ol class=\"enumerate\"><li><p>讨论函数 $f(x)$ 的单调性；</p></li><li><p>求函数 $f(x)$ 在区间 $[0,1]$ 上的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li>\n$$\nf'(x)=2x\\mathrm{e}^{ax}+ax^{2}\\mathrm{e}^{ax}=x\\mathrm{e}^{ax}(2+ax)\n$$\n<p>因为 $\\mathrm{e}^{ax}>0$，先看 $a=0$. 此时 $f'(x)=2x$，所以 $f(x)$ 在 $(-\\infty,0)$ 上单调递减，在 $(0,+\\infty)$ 上单调递增.</p><p>当 $a&#x3C;0$ 时，临界点为 $x=0$ 和 $x=-\\frac{2}{a}$. 当 $x&#x3C;0$ 时，$x&#x3C;0$ 且 $2+ax>0$，所以 $f'(x)&#x3C;0$；当 $0&#x3C;x&#x3C;-\\frac{2}{a}$ 时，$f'(x)>0$；当 $x>-\\frac{2}{a}$ 时，$f'(x)&#x3C;0$. 因此 $f(x)$ 在 $(-\\infty,0)$ 上单调递减，在 $\\left(0,-\\frac{2}{a}\\right)$ 上单调递增，在 $\\left(-\\frac{2}{a},+\\infty\\right)$ 上单调递减.</p></li><li><p>当 $-2\\le a\\leqslant0$ 时，$-\\frac{2}{a}\\geqslant1$（$a=0$ 时直接由单调性得结论），故 $f(x)$ 在 $[0,1]$ 上单调递增，最大值为 $f(1)=\\mathrm{e}^{a}$. 当 $a&#x3C;-2$ 时，$0&#x3C;-\\frac{2}{a}&#x3C;1$，最大值在 $x=-\\frac{2}{a}$ 处取得，且</p>\n$$\nf\\left(-\\frac{2}{a}\\right)=\\frac{4}{a^{2}}\\mathrm{e}^{-2}\n$$\n<p>所以区间 $[0,1]$ 上的最大值为</p>\n$$\n\\begin{cases}\\mathrm{e}^{a},&#x26;-2\\le a\\leqslant0,\\\\  \\dfrac{4}{a^2\\mathrm{e}^2},&#x26;a&#x3C;-2.\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li>\n$$\nf'(x)=2x\\mathrm{e}^{ax}+ax^{2}\\mathrm{e}^{ax}=x\\mathrm{e}^{ax}(2+ax)\n$$\n<p>因为 $\\mathrm{e}^{ax}>0$，先看 $a=0$. 此时 $f'(x)=2x$，所以 $f(x)$ 在 $(-\\infty,0)$ 上单调递减，在 $(0,+\\infty)$ 上单调递增.</p><p>当 $a<0$ 时，临界点为 $x=0$ 和 $x=-\\frac{2}{a}$. 当 $x<0$ 时，$x<0$ 且 $2+ax>0$，所以 $f'(x)<0$；当 $0<x<-\\frac{2}{a}$ 时，$f'(x)>0$；当 $x>-\\frac{2}{a}$ 时，$f'(x)<0$. 因此 $f(x)$ 在 $(-\\infty,0)$ 上单调递减，在 $\\left(0,-\\frac{2}{a}\\right)$ 上单调递增，在 $\\left(-\\frac{2}{a},+\\infty\\right)$ 上单调递减.</p></li><li><p>当 $-2\\le a\\leqslant0$ 时，$-\\frac{2}{a}\\geqslant1$（$a=0$ 时直接由单调性得结论），故 $f(x)$ 在 $[0,1]$ 上单调递增，最大值为 $f(1)=\\mathrm{e}^{a}$. 当 $a<-2$ 时，$0<-\\frac{2}{a}<1$，最大值在 $x=-\\frac{2}{a}$ 处取得，且</p>\n$$\nf\\left(-\\frac{2}{a}\\right)=\\frac{4}{a^{2}}\\mathrm{e}^{-2}\n$$\n<p>所以区间 $[0,1]$ 上的最大值为</p>\n$$\n\\begin{cases}\\mathrm{e}^{a},&-2\\le a\\leqslant0,\\\\  \\dfrac{4}{a^2\\mathrm{e}^2},&a<-2.\\end{cases}\n$$\n</li></ol>"
         },
         {
           "num": 21,
@@ -229,7 +229,7 @@
           "body": "<p>如图，直线 $l_{1}:y=kx+1-k$（$k\\neq 0$，$k\\neq\\pm\\frac{1}{2}$）与 $l_{2}:y=\\frac{1}{2}x+\\frac{1}{2}$ 相交于点 $P$. 直线 $l_{1}$ 与 $x$ 轴交于点 $P_{1}$，过点 $P_{1}$ 作 $x$ 轴的垂线交直线 $l_{2}$ 于点 $Q_{1}$，过点 $Q_{1}$ 作 $y$ 轴的垂线交直线 $l_{1}$ 于点 $P_{2}$，过点 $P_{2}$ 作 $x$ 轴的垂线交直线 $l_{2}$ 于点 $Q_{2}$，$\\cdots$，这样一直作下去，可得到一系列点 $P_{1}$，$Q_{1}$，$P_{2}$，$Q_{2}$，$\\cdots$. 点 $P_{n}$（$n=1$，$2$，$\\cdots$）的横坐标构成数列 $\\{x_{n}\\}$.</p><ol class=\"enumerate\"><li><p>证明：$x_{n+1}-1=\\frac{1}{2k}(x_{n}-1)$，$n\\in\\mathbb{N}^{*}$；</p></li><li><p>求数列 $\\{x_{n}\\}$ 的通项公式；</p></li><li><p>比较 $2\\left|PP_{n}\\right|^{2}$ 与 $4k^{2}\\left|PP_{1}\\right|^{2}+5$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $P_{1}$ 在 $x$ 轴上，得 $P_{1}=(x_{1},0)$. 过 $P_{n}=(x_{n},kx_{n}+1-k)$ 作 $x$ 轴的垂线，与 $l_{2}$ 的交点为</p>\n$$\nQ_{n}=\\left(x_{n},\\frac{x_{n}}{2}+\\frac{1}{2}\\right)\n$$\n<p>过 $Q_{n}$ 作 $y$ 轴的垂线，与 $l_{1}$ 交于 $P_{n+1}$，故</p>\n$$\nkx_{n+1}+1-k=\\frac{x_{n}}{2}+\\frac{1}{2}\n$$\n<p>整理得</p>\n$$\nx_{n+1}=1+\\frac{x_{n}-1}{2k}\n$$\n<p>即 $x_{n+1}-1=\\frac{1}{2k}(x_{n}-1)$.</p></li><li><p>由 $P_{1}$ 在 $x$ 轴上，$kx_{1}+1-k=0$，所以 $x_{1}=1-\\frac{1}{k}$. 由上一问，数列 $\\{x_{n}-1\\}$ 是首项 $-\\frac{1}{k}$、公比 $\\frac{1}{2k}$ 的等比数列，从而</p><p>$x_{n}-1=-\\frac{1}{k}\\left(\\frac{1}{2k}\\right)^{n-1}$，$x_{n}=1-\\frac{1}{k(2k)^{n-1}}$.</p></li><li><p>由 $P=(1,1)$，且 $P_{n}\\in l_{1}$，有</p>\n$$\ny_{n}-1=k(x_{n}-1)=-\\left(\\frac{1}{2k}\\right)^{n-1}\n$$\n<p>因此</p>\n$$\n\\left|PP_{n}\\right|^{2}=(x_{n}-1)^{2}+(y_{n}-1)^{2}=\\frac{1+k^{2}}{k^{2}(2k)^{2n-2}}\n$$\n<p>而 $\\left|PP_{1}\\right|^{2}=\\frac{1+k^{2}}{k^{2}}$. 于是</p>\n$$\n4k^{2}\\left|PP_{1}\\right|^{2}+5=4k^{2}+9\n$$\n<p>且当 $n=1$ 时两待比较量之差为</p>\n$$\n2\\left|PP_{1}\\right|^{2}-\\left(4k^{2}\\left|PP_{1}\\right|^{2}+5\\right)=\\frac{(1-4k^{2})(2+k^{2})}{k^{2}}\n$$\n<p>若 $\\left|k\\right|&#x3C;\\frac{1}{2}$，则 $0&#x3C;4k^{2}&#x3C;1$，所以 $2\\left|PP_{n}\\right|^{2}\\geq 2\\left|PP_{1}\\right|^{2}>4k^{2}\\left|PP_{1}\\right|^{2}+5$. 若 $\\left|k\\right|>\\frac{1}{2}$，则 $4k^{2}>1$，所以 $2\\left|PP_{n}\\right|^{2}\\leq 2\\left|PP_{1}\\right|^{2}&#x3C;4k^{2}\\left|PP_{1}\\right|^{2}+5$. 因而</p>\n$$\n\\begin{cases}2\\left|PP_{n}\\right|^{2}>4k^{2}\\left|PP_{1}\\right|^{2}+5,&#x26;\\left|k\\right|&#x3C;\\frac{1}{2},\\\\  2\\left|PP_{n}\\right|^{2}&#x3C;4k^{2}\\left|PP_{1}\\right|^{2}+5,&#x26;\\left|k\\right|>\\frac{1}{2}.\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $P_{1}$ 在 $x$ 轴上，得 $P_{1}=(x_{1},0)$. 过 $P_{n}=(x_{n},kx_{n}+1-k)$ 作 $x$ 轴的垂线，与 $l_{2}$ 的交点为</p>\n$$\nQ_{n}=\\left(x_{n},\\frac{x_{n}}{2}+\\frac{1}{2}\\right)\n$$\n<p>过 $Q_{n}$ 作 $y$ 轴的垂线，与 $l_{1}$ 交于 $P_{n+1}$，故</p>\n$$\nkx_{n+1}+1-k=\\frac{x_{n}}{2}+\\frac{1}{2}\n$$\n<p>整理得</p>\n$$\nx_{n+1}=1+\\frac{x_{n}-1}{2k}\n$$\n<p>即 $x_{n+1}-1=\\frac{1}{2k}(x_{n}-1)$.</p></li><li><p>由 $P_{1}$ 在 $x$ 轴上，$kx_{1}+1-k=0$，所以 $x_{1}=1-\\frac{1}{k}$. 由上一问，数列 $\\{x_{n}-1\\}$ 是首项 $-\\frac{1}{k}$、公比 $\\frac{1}{2k}$ 的等比数列，从而</p><p>$x_{n}-1=-\\frac{1}{k}\\left(\\frac{1}{2k}\\right)^{n-1}$，$x_{n}=1-\\frac{1}{k(2k)^{n-1}}$.</p></li><li><p>由 $P=(1,1)$，且 $P_{n}\\in l_{1}$，有</p>\n$$\ny_{n}-1=k(x_{n}-1)=-\\left(\\frac{1}{2k}\\right)^{n-1}\n$$\n<p>因此</p>\n$$\n\\left|PP_{n}\\right|^{2}=(x_{n}-1)^{2}+(y_{n}-1)^{2}=\\frac{1+k^{2}}{k^{2}(2k)^{2n-2}}\n$$\n<p>而 $\\left|PP_{1}\\right|^{2}=\\frac{1+k^{2}}{k^{2}}$. 于是</p>\n$$\n4k^{2}\\left|PP_{1}\\right|^{2}+5=4k^{2}+9\n$$\n<p>且当 $n=1$ 时两待比较量之差为</p>\n$$\n2\\left|PP_{1}\\right|^{2}-\\left(4k^{2}\\left|PP_{1}\\right|^{2}+5\\right)=\\frac{(1-4k^{2})(2+k^{2})}{k^{2}}\n$$\n<p>若 $\\left|k\\right|<\\frac{1}{2}$，则 $0<4k^{2}<1$，所以 $2\\left|PP_{n}\\right|^{2}\\geq 2\\left|PP_{1}\\right|^{2}>4k^{2}\\left|PP_{1}\\right|^{2}+5$. 若 $\\left|k\\right|>\\frac{1}{2}$，则 $4k^{2}>1$，所以 $2\\left|PP_{n}\\right|^{2}\\leq 2\\left|PP_{1}\\right|^{2}<4k^{2}\\left|PP_{1}\\right|^{2}+5$. 因而</p>\n$$\n\\begin{cases}2\\left|PP_{n}\\right|^{2}>4k^{2}\\left|PP_{1}\\right|^{2}+5,&\\left|k\\right|<\\frac{1}{2},\\\\  2\\left|PP_{n}\\right|^{2}<4k^{2}\\left|PP_{1}\\right|^{2}+5,&\\left|k\\right|>\\frac{1}{2}.\\end{cases}\n$$\n</li></ol>"
         }
       ]
     }

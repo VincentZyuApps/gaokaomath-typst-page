@@ -17,7 +17,7 @@
             "第二、四象限"
           ],
           "answer": "B",
-          "solution": "当 $\\sin\\theta>0$ 且 $\\cos\\theta>0$ 时，$\\theta$ 在第一象限；当 $\\sin\\theta&#x3C;0$ 且 $\\cos\\theta&#x3C;0$ 时，$\\theta$ 在第三象限. 故 $\\theta$ 在第一、三象限，选 B."
+          "solution": "当 $\\sin\\theta>0$ 且 $\\cos\\theta>0$ 时，$\\theta$ 在第一象限；当 $\\sin\\theta<0$ 且 $\\cos\\theta<0$ 时，$\\theta$ 在第三象限. 故 $\\theta$ 在第一、三象限，选 B."
         },
         {
           "num": 2,
@@ -53,7 +53,7 @@
             "$(0, +\\infty)$"
           ],
           "answer": "A",
-          "solution": "<p>当 $-1&#x3C;x&#x3C;0$ 时，$0&#x3C;x+1&#x3C;1$. 要使 $f(x)=\\log_{2a}(x+1)$ 在整个区间上有定义，必须有 $2a>0$ 且 $2a\\ne1$. 对于 $0&#x3C;t&#x3C;1$，不等式 $\\log_{2a}t>0$ 成立当且仅当底数满足 $0&#x3C;2a&#x3C;1$. 因此</p>\n$$\n0&#x3C;a&#x3C;\\frac{1}{2}\n$$\n<p>选 A.</p>"
+          "solution": "<p>当 $-1<x<0$ 时，$0<x+1<1$. 要使 $f(x)=\\log_{2a}(x+1)$ 在整个区间上有定义，必须有 $2a>0$ 且 $2a\\ne1$. 对于 $0<t<1$，不等式 $\\log_{2a}t>0$ 成立当且仅当底数满足 $0<2a<1$. 因此</p>\n$$\n0<a<\\frac{1}{2}\n$$\n<p>选 A.</p>"
         },
         {
           "num": 5,
@@ -93,15 +93,15 @@
         },
         {
           "num": 8,
-          "body": "若 $0 &#x3C; \\alpha &#x3C; \\beta &#x3C; \\frac{\\pi}{4}$，$\\sin \\alpha + \\cos \\alpha = a$，$\\sin \\beta + \\cos \\beta = b$，则（ ）",
+          "body": "若 $0 < \\alpha < \\beta < \\frac{\\pi}{4}$，$\\sin \\alpha + \\cos \\alpha = a$，$\\sin \\beta + \\cos \\beta = b$，则（ ）",
           "choices": [
             "$a > b$",
-            "$a &#x3C; b$",
-            "$ab &#x3C; 1$",
+            "$a < b$",
+            "$ab < 1$",
             "$ab > 2$"
           ],
           "answer": "B",
-          "solution": "<p>令 $h(x)=\\sin x+\\cos x$，则</p>\n$$\nh'(x)=\\cos x-\\sin x\n$$\n<p>当 $0&#x3C;x&#x3C;\\frac{\\pi}{4}$ 时，$\\cos x>\\sin x$，所以 $h'(x)>0$，即 $h(x)$ 在 $\\left(0,\\frac{\\pi}{4}\\right)$ 上单调递增. 由 $\\alpha&#x3C;\\beta$ 得</p>\n$$\na=h(\\alpha)&#x3C;h(\\beta)=b\n$$\n<p>并且由 $h(0)=1$、$h\\left(\\frac{\\pi}{4}\\right)=\\sqrt{2}$ 及严格递增性，得</p>\n$$\n1&#x3C;a&#x3C;b&#x3C;\\sqrt{2}\n$$\n<p>所以 $ab>1$ 且 $ab&#x3C;2$. 因此只有选项 B 正确.</p>"
+          "solution": "<p>令 $h(x)=\\sin x+\\cos x$，则</p>\n$$\nh'(x)=\\cos x-\\sin x\n$$\n<p>当 $0<x<\\frac{\\pi}{4}$ 时，$\\cos x>\\sin x$，所以 $h'(x)>0$，即 $h(x)$ 在 $\\left(0,\\frac{\\pi}{4}\\right)$ 上单调递增. 由 $\\alpha<\\beta$ 得</p>\n$$\na=h(\\alpha)<h(\\beta)=b\n$$\n<p>并且由 $h(0)=1$、$h\\left(\\frac{\\pi}{4}\\right)=\\sqrt{2}$ 及严格递增性，得</p>\n$$\n1<a<b<\\sqrt{2}\n$$\n<p>所以 $ab>1$ 且 $ab<2$. 因此只有选项 B 正确.</p>"
         },
         {
           "num": 9,
@@ -125,7 +125,7 @@
             "②④"
           ],
           "answer": "C",
-          "solution": "<p>设 $x_{1}&#x3C;x_{2}$，记 $h(x)=f(x)-g(x)$. 若 $f$ 单调递增、$g$ 单调递减，则</p>\n$$\nh(x_{2})-h(x_{1})=\\bigl(f(x_{2})-f(x_{1})\\bigr)+\\bigl(g(x_{1})-g(x_{2})\\bigr)\\geqslant0\n$$\n<p>所以 $h$ 单调递增，命题②正确. 若 $f$ 单调递减、$g$ 单调递增，则</p>\n$$\nh(x_{2})-h(x_{1})=\\bigl(f(x_{2})-f(x_{1})\\bigr)-\\bigl(g(x_{2})-g(x_{1})\\bigr)\\leqslant0\n$$\n<p>所以 $h$ 单调递减，命题③正确.</p><p>命题①和命题④均不一定成立. 例如，取 $f(x)=x$，$g(x)=2x$，则二者都递增而 $f(x)-g(x)=-x$ 递减；取 $f(x)=-x$，$g(x)=-2x$，则二者都递减而 $f(x)-g(x)=x$ 递增. 因此正确的命题为②③，选 C.</p>"
+          "solution": "<p>设 $x_{1}<x_{2}$，记 $h(x)=f(x)-g(x)$. 若 $f$ 单调递增、$g$ 单调递减，则</p>\n$$\nh(x_{2})-h(x_{1})=\\bigl(f(x_{2})-f(x_{1})\\bigr)+\\bigl(g(x_{1})-g(x_{2})\\bigr)\\geqslant0\n$$\n<p>所以 $h$ 单调递增，命题②正确. 若 $f$ 单调递减、$g$ 单调递增，则</p>\n$$\nh(x_{2})-h(x_{1})=\\bigl(f(x_{2})-f(x_{1})\\bigr)-\\bigl(g(x_{2})-g(x_{1})\\bigr)\\leqslant0\n$$\n<p>所以 $h$ 单调递减，命题③正确.</p><p>命题①和命题④均不一定成立. 例如，取 $f(x)=x$，$g(x)=2x$，则二者都递增而 $f(x)-g(x)=-x$ 递减；取 $f(x)=-x$，$g(x)=-2x$，则二者都递减而 $f(x)-g(x)=x$ 递增. 因此正确的命题为②③，选 C.</p>"
         },
         {
           "num": 11,
@@ -208,21 +208,21 @@
           "body": "设抛物线 $y^{2}= 2px$（$p > 0$）的焦点为 $F$，经过点 $F$ 的直线交抛物线于 $A$，$B$ 两点，点 $C$ 在抛物线的准线上，且 $BC \\parallel x$ 轴. 证明直线 $AC$ 经过原点 $O$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $u$，$v$ 分别为点 $A$，$B$ 在抛物线参数表示中的参数. 令 $a=\\frac{p}{2}$，则抛物线可表示为</p>\n$$\n(x,y)=(at^{2},2at)=\\left(\\frac{p}{2}t^{2},pt\\right)\n$$\n<p>其焦点为 $F(a,0)$，准线为 $x=-a$，因而 $A=(au^{2},2au)$，$B=(av^{2},2av)$.</p><p>由于 $A$，$B$，$F$ 共线，有</p>\n$$\n\\begin{vmatrix}au^{2}-a&#x26;2au\\\\  av^{2}-a&#x26;2av\\end{vmatrix}=0\n$$\n<p>化简得 $a^{2}(u-v)(uv+1)=0$. 因为 $a>0$ 且 $A\\ne B$，所以 $uv=-1$.</p><p>由 $BC\\parallel x$ 轴，点 $C$ 与点 $B$ 的纵坐标相同；又 $C$ 在准线上，所以 $C=(-a,2av)$. 于是</p>\n$$\n\\begin{vmatrix}au^{2}&#x26;2au\\\\  -a&#x26;2av\\end{vmatrix}=2a^{2}u(uv+1)=0\n$$\n<p>这说明向量 $\\overrightarrow{OA}$ 与 $\\overrightarrow{OC}$ 共线，故直线 $AC$ 经过原点 $O$.</p>"
+          "solution": "<p>令 $u$，$v$ 分别为点 $A$，$B$ 在抛物线参数表示中的参数. 令 $a=\\frac{p}{2}$，则抛物线可表示为</p>\n$$\n(x,y)=(at^{2},2at)=\\left(\\frac{p}{2}t^{2},pt\\right)\n$$\n<p>其焦点为 $F(a,0)$，准线为 $x=-a$，因而 $A=(au^{2},2au)$，$B=(av^{2},2av)$.</p><p>由于 $A$，$B$，$F$ 共线，有</p>\n$$\n\\begin{vmatrix}au^{2}-a&2au\\\\  av^{2}-a&2av\\end{vmatrix}=0\n$$\n<p>化简得 $a^{2}(u-v)(uv+1)=0$. 因为 $a>0$ 且 $A\\ne B$，所以 $uv=-1$.</p><p>由 $BC\\parallel x$ 轴，点 $C$ 与点 $B$ 的纵坐标相同；又 $C$ 在准线上，所以 $C=(-a,2av)$. 于是</p>\n$$\n\\begin{vmatrix}au^{2}&2au\\\\  -a&2av\\end{vmatrix}=2a^{2}u(uv+1)=0\n$$\n<p>这说明向量 $\\overrightarrow{OA}$ 与 $\\overrightarrow{OC}$ 共线，故直线 $AC$ 经过原点 $O$.</p>"
         },
         {
           "num": 20,
-          "body": "<p>已知 $i$，$m$，$n$ 是正整数，且 $1 &#x3C; i \\le m &#x3C; n$.</p><ol class=\"enumerate\"><li><p>证明： $n^{i} \\mathrm{A}_{m}^{i}&#x3C; m^{i} \\mathrm{A}_{n}^{i}$；</p></li><li><p>证明： $(1+m)^{n}>(1+n)^{m}$.</p></li></ol>",
+          "body": "<p>已知 $i$，$m$，$n$ 是正整数，且 $1 < i \\le m < n$.</p><ol class=\"enumerate\"><li><p>证明： $n^{i} \\mathrm{A}_{m}^{i}< m^{i} \\mathrm{A}_{n}^{i}$；</p></li><li><p>证明： $(1+m)^{n}>(1+n)^{m}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>按排列数的定义，$\\displaystyle\\frac{\\mathrm{A}_{m}^{i}}{m^{i}}=\\prod_{k=0}^{i-1}\\frac{m-k}{m}=\\prod_{k=1}^{i-1}\\left(1-\\frac{k}{m}\\right)$，同理 $\\displaystyle\\frac{\\mathrm{A}_{n}^{i}}{n^{i}}=\\prod_{k=0}^{i-1}\\frac{n-k}{n}=\\prod_{k=1}^{i-1}\\left(1-\\frac{k}{n}\\right)$. 对每个 $k=1$，$2$，$\\ldots$，$i-1$，由 $m&#x3C;n$ 得 $1-\\frac{k}{m}&#x3C;1-\\frac{k}{n}$. 又因为 $i\\le m&#x3C;n$，上述各因子均为正；并且 $i>1$ 保证至少有一个严格不等号，所以</p>\n$$\n\\frac{\\mathrm{A}_{m}^{i}}{m^{i}}&#x3C;\\frac{\\mathrm{A}_{n}^{i}}{n^{i}}\\Longrightarrow n^{i}\\mathrm{A}_{m}^{i}&#x3C;m^{i}\\mathrm{A}_{n}^{i}\n$$\n</li><li><p>由二项式定理，</p><p>$(1+m)^{n}=\\sum_{i=0}^{n}\\mathrm{C}_{n}^{i} m^{i}$，$(1+n)^{m}=\\sum_{i=0}^{m}\\mathrm{C}_{m}^{i} n^{i}$.</p><p>由第（1）问及 $\\mathrm{C}_{k}^{i}=\\dfrac{\\mathrm{A}_k^i}{i!}$，对于 $2\\le i\\le m$，有</p>\n$$\nn^{i}\\mathrm{A}_{m}^{i}&#x3C;m^{i}\\mathrm{A}_{n}^{i}  \\Longrightarrow  n^{i}\\mathrm{C}_{m}^{i}&#x3C;m^{i}\\mathrm{C}_{n}^{i}\n$$\n<p>当 $i=0$ 时两边相应的项都为 $1$，当 $i=1$ 时两边相应的项都为 $mn$；而左边还含有 $i=m+1$，$\\ldots$，$n$ 的正项. 因此逐项比较可得</p>\n$$\n(1+n)^{m}&#x3C;(1+m)^{n}\n$$\n<p>即 $(1+m)^{n}>(1+n)^{m}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>按排列数的定义，$\\displaystyle\\frac{\\mathrm{A}_{m}^{i}}{m^{i}}=\\prod_{k=0}^{i-1}\\frac{m-k}{m}=\\prod_{k=1}^{i-1}\\left(1-\\frac{k}{m}\\right)$，同理 $\\displaystyle\\frac{\\mathrm{A}_{n}^{i}}{n^{i}}=\\prod_{k=0}^{i-1}\\frac{n-k}{n}=\\prod_{k=1}^{i-1}\\left(1-\\frac{k}{n}\\right)$. 对每个 $k=1$，$2$，$\\ldots$，$i-1$，由 $m<n$ 得 $1-\\frac{k}{m}<1-\\frac{k}{n}$. 又因为 $i\\le m<n$，上述各因子均为正；并且 $i>1$ 保证至少有一个严格不等号，所以</p>\n$$\n\\frac{\\mathrm{A}_{m}^{i}}{m^{i}}<\\frac{\\mathrm{A}_{n}^{i}}{n^{i}}\\Longrightarrow n^{i}\\mathrm{A}_{m}^{i}<m^{i}\\mathrm{A}_{n}^{i}\n$$\n</li><li><p>由二项式定理，</p><p>$(1+m)^{n}=\\sum_{i=0}^{n}\\mathrm{C}_{n}^{i} m^{i}$，$(1+n)^{m}=\\sum_{i=0}^{m}\\mathrm{C}_{m}^{i} n^{i}$.</p><p>由第（1）问及 $\\mathrm{C}_{k}^{i}=\\dfrac{\\mathrm{A}_k^i}{i!}$，对于 $2\\le i\\le m$，有</p>\n$$\nn^{i}\\mathrm{A}_{m}^{i}<m^{i}\\mathrm{A}_{n}^{i}  \\Longrightarrow  n^{i}\\mathrm{C}_{m}^{i}<m^{i}\\mathrm{C}_{n}^{i}\n$$\n<p>当 $i=0$ 时两边相应的项都为 $1$，当 $i=1$ 时两边相应的项都为 $mn$；而左边还含有 $i=m+1$，$\\ldots$，$n$ 的正项. 因此逐项比较可得</p>\n$$\n(1+n)^{m}<(1+m)^{n}\n$$\n<p>即 $(1+m)^{n}>(1+n)^{m}$.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>从社会效益和经济效益出发，某地投入资金进行生态环境建设，并以此发展旅游产业. 根据规划，本年度投入 $800\\text{ 万元}$，以后每年投入将比上年减少 $\\frac{1}{5}$. 本年度当地旅游业收入估计为 $400\\text{ 万元}$，由于该项建设对旅游业的促进作用，预计今后的旅游业收入每年会比上年增加 $\\frac{1}{4}$.</p><ol class=\"enumerate\"><li><p>设 $n$ 年内（本年度为第一年）总投入为 $a_{n}\\text{ 万元}$，旅游业总收入为 $b_{n}\\text{ 万元}$. 写出 $a_{n}$，$b_{n}$ 的表达式；</p></li><li><p>至少经过几年旅游业的总收入才能超过总投入？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>每年投入构成首项为 $800$，公比为 $\\frac{4}{5}$ 的等比数列，所以</p>\n$$\na_{n}=800\\frac{1-\\left(\\frac{4}{5}\\right)^{n}}{1-\\frac{4}{5}}=4000\\left[1-\\left(\\frac{4}{5}\\right)^{n}\\right]\n$$\n<p>每年旅游业收入构成首项为 $400$，公比为 $\\frac{5}{4}$ 的等比数列，所以</p>\n$$\nb_{n}=400\\frac{\\left(\\frac{5}{4}\\right)^{n}-1}{\\frac{5}{4}-1}=1600\\left[\\left(\\frac{5}{4}\\right)^{n}-1\\right]\n$$\n</li><li><p>令 $t=\\left(\\frac{5}{4}\\right)^{n}>1$，则 $\\left(\\frac{4}{5}\\right)^{n}=\\frac{1}{t}$. 条件 $b_{n}>a_{n}$ 等价于</p>\n$$\n1600(t-1)>4000\\left(1-\\frac{1}{t}\\right)  \\Longleftrightarrow (t-1)(4t-10)>0\n$$\n<p>由于 $t>1$，所以必须有 $t>\\frac{5}{2}$，即</p>\n$$\n\\left(\\frac{5}{4}\\right)^{n}>\\frac{5}{2}\n$$\n<p>又 $\\left(\\frac{5}{4}\\right)^{4}=\\frac{625}{256}&#x3C;\\frac{5}{2}$，而</p><p>$\\left(\\frac{5}{4}\\right)^{5}=\\frac{3125}{1024}>\\frac{5}{2}$，</p><p>故至少经过 $5$ 年旅游业的总收入才能超过总投入.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>每年投入构成首项为 $800$，公比为 $\\frac{4}{5}$ 的等比数列，所以</p>\n$$\na_{n}=800\\frac{1-\\left(\\frac{4}{5}\\right)^{n}}{1-\\frac{4}{5}}=4000\\left[1-\\left(\\frac{4}{5}\\right)^{n}\\right]\n$$\n<p>每年旅游业收入构成首项为 $400$，公比为 $\\frac{5}{4}$ 的等比数列，所以</p>\n$$\nb_{n}=400\\frac{\\left(\\frac{5}{4}\\right)^{n}-1}{\\frac{5}{4}-1}=1600\\left[\\left(\\frac{5}{4}\\right)^{n}-1\\right]\n$$\n</li><li><p>令 $t=\\left(\\frac{5}{4}\\right)^{n}>1$，则 $\\left(\\frac{4}{5}\\right)^{n}=\\frac{1}{t}$. 条件 $b_{n}>a_{n}$ 等价于</p>\n$$\n1600(t-1)>4000\\left(1-\\frac{1}{t}\\right)  \\Longleftrightarrow (t-1)(4t-10)>0\n$$\n<p>由于 $t>1$，所以必须有 $t>\\frac{5}{2}$，即</p>\n$$\n\\left(\\frac{5}{4}\\right)^{n}>\\frac{5}{2}\n$$\n<p>又 $\\left(\\frac{5}{4}\\right)^{4}=\\frac{625}{256}<\\frac{5}{2}$，而</p><p>$\\left(\\frac{5}{4}\\right)^{5}=\\frac{3125}{1024}>\\frac{5}{2}$，</p><p>故至少经过 $5$ 年旅游业的总收入才能超过总投入.</p></li></ol>"
         },
         {
           "num": 22,

@@ -84,12 +84,12 @@
           "body": "<p>为了普及环保知识，增强环保意识，某大学随机抽取 30 名学生参加环保知识测试，得分 （十分制） 如图所示，假设得分值的中位数为 $m_{e}$，众数为 $m_{o}$，平均值为 $\\overline{x}$，则（ ）</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.72<span class=\"macro macro-linewidth\"></span>]img_repaint/2011/jiangxi_liberal/q7_fig1.tex</p>",
           "choices": [
             "$m_{e}= m_{o}= \\overline{x}$",
-            "$m_{e}= m_{o}&#x3C; \\overline{x}$",
-            "$m_{e}&#x3C; m_{o}&#x3C; \\overline{x}$",
-            "$m_{o}&#x3C; m_{e}&#x3C; \\overline{x}$"
+            "$m_{e}= m_{o}< \\overline{x}$",
+            "$m_{e}< m_{o}< \\overline{x}$",
+            "$m_{o}< m_{e}< \\overline{x}$"
           ],
           "answer": "D",
-          "solution": "<p>由直方图读得得分 $3$，$4$，$5$，$6$，$7$，$8$，$9$，$10$ 的频数分别为</p><p>$2$，$3$，$10$，$6$，$3$，$2$，$2$，$2$.</p><p>总人数为 $30$，第 $15$、$16$ 个数据分别为 $5,6$，故</p>\n$$\nm_{e}=\\frac{5+6}{2}=\\frac{11}{2}\n$$\n<p>频数最大的得分是 $5$，所以 $m_{o}=5$. 平均值为</p>\n$$\n\\overline{x}=\\frac{3\\times2+4\\times3+5\\times10+6\\times6+7\\times3+8\\times2+9\\times2+10\\times2}{30}=\\frac{179}{30}>\\frac{11}{2}\n$$\n<p>因此 $m_{o}&#x3C;m_{e}&#x3C;\\overline{x}$，选 D.</p>"
+          "solution": "<p>由直方图读得得分 $3$，$4$，$5$，$6$，$7$，$8$，$9$，$10$ 的频数分别为</p><p>$2$，$3$，$10$，$6$，$3$，$2$，$2$，$2$.</p><p>总人数为 $30$，第 $15$、$16$ 个数据分别为 $5,6$，故</p>\n$$\nm_{e}=\\frac{5+6}{2}=\\frac{11}{2}\n$$\n<p>频数最大的得分是 $5$，所以 $m_{o}=5$. 平均值为</p>\n$$\n\\overline{x}=\\frac{3\\times2+4\\times3+5\\times10+6\\times6+7\\times3+8\\times2+9\\times2+10\\times2}{30}=\\frac{179}{30}>\\frac{11}{2}\n$$\n<p>因此 $m_{o}<m_{e}<\\overline{x}$，选 D.</p>"
         },
         {
           "num": 8,
@@ -158,14 +158,14 @@
           "body": "已知角 $\\theta$ 的顶点为坐标原点，始边为 $x$ 轴的正半轴. 若 $P(4, y)$ 是角 $\\theta$ 终边上一点，且 $\\sin \\theta = -\\frac{2\\sqrt{5}}{5}$，则 $y =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$-8$",
-          "solution": "<p>点 $P(4,y)$ 到原点的距离为 $r=\\sqrt{16+y^{2}}$，所以</p>\n$$\n\\sin\\theta=\\frac{y}{r}=-\\frac{2\\sqrt{5}}{5}\n$$\n<p>平方并化简得</p><p>$\\frac{y^{2}}{16+y^{2}}=\\frac{4}{5}$，$\\Longrightarrow$，$y^{2}=64$.</p><p>由于 $P$ 的横坐标为正而正弦为负，终边在第四象限，故 $y&#x3C;0$，从而 $y=-8$.</p>"
+          "solution": "<p>点 $P(4,y)$ 到原点的距离为 $r=\\sqrt{16+y^{2}}$，所以</p>\n$$\n\\sin\\theta=\\frac{y}{r}=-\\frac{2\\sqrt{5}}{5}\n$$\n<p>平方并化简得</p><p>$\\frac{y^{2}}{16+y^{2}}=\\frac{4}{5}$，$\\Longrightarrow$，$y^{2}=64$.</p><p>由于 $P$ 的横坐标为正而正弦为负，终边在第四象限，故 $y<0$，从而 $y=-8$.</p>"
         },
         {
           "num": 15,
           "body": "对于 $x \\in \\mathbb{R}$，不等式 $|x + 10| - |x - 2| \\ge 8$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$[0,+\\infty)$",
-          "solution": "<p>按 $x=-10$ 和 $x=2$ 分段讨论：</p>\n$$\n|x+10|-|x-2|=  \\begin{cases}-12,&#x26;x&#x3C;-10,\\\\  2x+8,&#x26;-10\\le x&#x3C;2,\\\\  12,&#x26;x\\ge2.\\end{cases}\n$$\n<p>第一段不满足不等式；第二段要求 $2x+8\\ge8$，即 $x\\ge0$；第三段恒满足. 因此解集为 $[0,+\\infty)$.</p>"
+          "solution": "<p>按 $x=-10$ 和 $x=2$ 分段讨论：</p>\n$$\n|x+10|-|x-2|=  \\begin{cases}-12,&x<-10,\\\\  2x+8,&-10\\le x<2,\\\\  12,&x\\ge2.\\end{cases}\n$$\n<p>第一段不满足不等式；第二段要求 $2x+8\\ge8$，即 $x\\ge0$；第三段恒满足. 因此解集为 $[0,+\\infty)$.</p>"
         }
       ]
     },
@@ -195,17 +195,17 @@
         },
         {
           "num": 19,
-          "body": "<p>已知过抛物线 $y^{2}= 2px$ （$p > 0$） 的焦点，斜率为 $2\\sqrt{2}$ 的直线交抛物线于 $A(x_{1}, y_{1})$，$B(x_{2}, y_{2})$ （$x_{1}&#x3C; x_{2}$） 两点，且 $|AB| = 9$.</p><ol class=\"enumerate\"><li><p>求该抛物线的方程；</p></li><li><p>O 为坐标原点，C 为抛物线上一点. 若 $\\overrightarrow{OC}= \\overrightarrow{OA}+ \\lambda \\overrightarrow{OB}$，求 $\\lambda$ 的值.</p></li></ol>",
+          "body": "<p>已知过抛物线 $y^{2}= 2px$ （$p > 0$） 的焦点，斜率为 $2\\sqrt{2}$ 的直线交抛物线于 $A(x_{1}, y_{1})$，$B(x_{2}, y_{2})$ （$x_{1}< x_{2}$） 两点，且 $|AB| = 9$.</p><ol class=\"enumerate\"><li><p>求该抛物线的方程；</p></li><li><p>O 为坐标原点，C 为抛物线上一点. 若 $\\overrightarrow{OC}= \\overrightarrow{OA}+ \\lambda \\overrightarrow{OB}$，求 $\\lambda$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=2px$ 的焦点为 $(\\frac{p}{2},0)$，故所给直线为</p>\n$$\ny=2\\sqrt{2}\\left(x-\\frac{p}{2}\\right)\n$$\n<p>代入抛物线方程，得</p><p>$8\\left(x-\\frac{p}{2}\\right)^{2}=2px$，$\\Longrightarrow$，$4x^{2}-5px+p^{2}=0$.</p><p>所以</p><p>$x_{1}=\\frac{p}{4}$，$x_{2}=p$.</p><p>直线的斜率为 $2\\sqrt{2}$，故</p>\n$$\n|AB|=\\sqrt{1+(2\\sqrt{2})^{2}}\\,(x_{2}-x_{1})  =3\\cdot\\frac{3p}{4}=\\frac{9p}{4}\n$$\n<p>由 $|AB|=9$ 得 $p=4$，抛物线方程为</p>\n$$\ny^{2}=8x\n$$\n</li><li><p>此时焦点为 $(2,0)$，直线与抛物线的交点为</p><p>$A=(1,-2\\sqrt{2})$，$B=(4,4\\sqrt{2})$.</p><p>由向量条件，点 $C$ 的坐标为</p>\n$$\nC=A+\\lambda B=(1+4\\lambda,-2\\sqrt{2}+4\\sqrt{2}\\lambda)\n$$\n<p>代入 $y^{2}=8x$，得</p><p>$8(2\\lambda-1)^{2}=8(1+4\\lambda)$，$\\Longrightarrow$，$\\lambda(\\lambda-2)=0$.</p><p>故 $\\lambda=0$ 或 $\\lambda=2$. 其中 $\\lambda=0$ 对应 $C=A$，$\\lambda=2$ 对应 $C=(9,6\\sqrt{2})$；题面未排除 $C=A$，所以两值都应保留.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "<p>设 $f(x) = \\frac{1}{3}x^{3} + mx^{2} + nx$.</p><ol class=\"enumerate\"><li><p>如果 $g(x) = f'(x) - 2x - 3$ 在 $x = -2$ 处取得最小值 $-5$，求 $f(x)$ 的解析式；</p></li><li><p>如果 $m + n &#x3C; 10$ （$m$，$n \\in \\N_{+}$），$f(x)$ 的单调递减区间的长度是正整数，试求 $m$ 和 $n$ 的值. （注：区间 $(a, b)$ 的长度为 $b - a$）</p></li></ol>",
+          "body": "<p>设 $f(x) = \\frac{1}{3}x^{3} + mx^{2} + nx$.</p><ol class=\"enumerate\"><li><p>如果 $g(x) = f'(x) - 2x - 3$ 在 $x = -2$ 处取得最小值 $-5$，求 $f(x)$ 的解析式；</p></li><li><p>如果 $m + n < 10$ （$m$，$n \\in \\N_{+}$），$f(x)$ 的单调递减区间的长度是正整数，试求 $m$ 和 $n$ 的值. （注：区间 $(a, b)$ 的长度为 $b - a$）</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li>\n$$\nf'(x)=x^{2}+2mx+n\n$$\n<p>所以</p>\n$$\ng(x)=x^{2}+(2m-2)x+n-3\n$$\n<p>这是开口向上的二次函数，其对称轴为 $x=1-m$. 由最小值在 $x=-2$ 处取得，得 $1-m=-2$，即 $m=3$. 再由</p>\n$$\ng(-2)=4-8+n-3=n-7=-5\n$$\n<p>得 $n=2$. 因此</p>\n$$\nf(x)=\\frac{1}{3}x^{3}+3x^{2}+2x\n$$\n</li><li><p>此时</p>\n$$\nf'(x)=x^{2}+2mx+n\n$$\n<p>若 $m^{2}\\le n$，则 $f'(x)=(x+m)^{2}+n-m^{2}\\ge0$，不存在长度为正的单调递减区间. 因而必须有 $m^{2}>n$. 此时 $f'(x)&#x3C;0$ 的区间长度为</p>\n$$\n2\\sqrt{m^{2}-n}\n$$\n<p>设该长度为 $L\\in\\N_{+}$，则 $L^{2}=4(m^{2}-n)$. 因 $m^{2}-n$ 为整数，$L^{2}$ 是 $4$ 的倍数，故 $L$ 为偶数. 令 $k=\\frac{L}{2}$，便有 $m^{2}-n=k^{2}$，其中 $k$ 为正整数，即</p><p>$n=m^{2}-k^{2}$，$1\\le k\\le m-1$.</p><p>由于 $n\\ge1$ 且 $m^{2}>n$，$m=1$ 不可能，故 $m\\ge2$. 结合 $m+n&#x3C;10$ 枚举：$m=2$，$k=1$ 时 $n=3$；$m=3$，$k=1$ 时 $n=8$ 但 $m+n=11$ 不合题意；$m=3$，$k=2$ 时 $n=5$. 当 $m\\ge4$ 时，</p>\n$$\nm+n\\ge m+(2m-1)=3m-1\\ge11\n$$\n<p>也不合题意. 因此</p>\n$$\n(m,n)=(2,3) \\text{或} (m,n)=(3,5)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li>\n$$\nf'(x)=x^{2}+2mx+n\n$$\n<p>所以</p>\n$$\ng(x)=x^{2}+(2m-2)x+n-3\n$$\n<p>这是开口向上的二次函数，其对称轴为 $x=1-m$. 由最小值在 $x=-2$ 处取得，得 $1-m=-2$，即 $m=3$. 再由</p>\n$$\ng(-2)=4-8+n-3=n-7=-5\n$$\n<p>得 $n=2$. 因此</p>\n$$\nf(x)=\\frac{1}{3}x^{3}+3x^{2}+2x\n$$\n</li><li><p>此时</p>\n$$\nf'(x)=x^{2}+2mx+n\n$$\n<p>若 $m^{2}\\le n$，则 $f'(x)=(x+m)^{2}+n-m^{2}\\ge0$，不存在长度为正的单调递减区间. 因而必须有 $m^{2}>n$. 此时 $f'(x)<0$ 的区间长度为</p>\n$$\n2\\sqrt{m^{2}-n}\n$$\n<p>设该长度为 $L\\in\\N_{+}$，则 $L^{2}=4(m^{2}-n)$. 因 $m^{2}-n$ 为整数，$L^{2}$ 是 $4$ 的倍数，故 $L$ 为偶数. 令 $k=\\frac{L}{2}$，便有 $m^{2}-n=k^{2}$，其中 $k$ 为正整数，即</p><p>$n=m^{2}-k^{2}$，$1\\le k\\le m-1$.</p><p>由于 $n\\ge1$ 且 $m^{2}>n$，$m=1$ 不可能，故 $m\\ge2$. 结合 $m+n<10$ 枚举：$m=2$，$k=1$ 时 $n=3$；$m=3$，$k=1$ 时 $n=8$ 但 $m+n=11$ 不合题意；$m=3$，$k=2$ 时 $n=5$. 当 $m\\ge4$ 时，</p>\n$$\nm+n\\ge m+(2m-1)=3m-1\\ge11\n$$\n<p>也不合题意. 因此</p>\n$$\n(m,n)=(2,3) \\text{或} (m,n)=(3,5)\n$$\n</li></ol>"
         },
         {
           "num": 21,

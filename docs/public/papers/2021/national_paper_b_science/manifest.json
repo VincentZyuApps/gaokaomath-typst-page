@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "<p>已知命题 $p:\\exists x\\in \\mathbb{R}$，$\\sin x&#x3C;1$；命题 $q:\\forall x\\in \\mathbb{R}$，$\\mathrm{e}^{|x|}\\ge 1$，则下列命题中为真命题的是（ ）</p><p>A</p>",
+          "body": "<p>已知命题 $p:\\exists x\\in \\mathbb{R}$，$\\sin x<1$；命题 $q:\\forall x\\in \\mathbb{R}$，$\\mathrm{e}^{|x|}\\ge 1$，则下列命题中为真命题的是（ ）</p><p>A</p>",
           "choices": [
             "$p\\wedge q$",
             "$\\neg p\\wedge q$",
@@ -119,9 +119,9 @@
           "num": 10,
           "body": "<p>设 $a\\ne 0$，若 $x=a$ 为函数 $f(x)=a(x-a)^{2}(x-b)$ 的极大值点，则（ ）</p><p>D</p>",
           "choices": [
-            "$a&#x3C;b$",
+            "$a<b$",
             "$a>b$",
-            "$ab&#x3C;a^{2}$",
+            "$ab<a^{2}$",
             "$ab>a^{2}$"
           ],
           "answer": "",
@@ -143,10 +143,10 @@
           "num": 12,
           "body": "<p>设 $a=2\\ln 1.01$，$b=\\ln 1.02$，$c=\\sqrt{1.04}-1$，则（ ）</p><p>B</p>",
           "choices": [
-            "$a&#x3C;b&#x3C;c$",
-            "$b&#x3C;c&#x3C;a$",
-            "$b&#x3C;a&#x3C;c$",
-            "$c&#x3C;a&#x3C;b$"
+            "$a<b<c$",
+            "$b<c<a$",
+            "$b<a<c$",
+            "$c<a<b$"
           ],
           "answer": "",
           "solution": ""
@@ -212,7 +212,7 @@
         },
         {
           "num": 20,
-          "body": "<p>设函数 $f(x)=\\ln(a-x)$，已知 $x=0$ 是函数 $y=xf(x)$ 的极值点.</p><ol class=\"enumerate\"><li><p>求 $a$；</p></li><li><p>设函数 $g(x)=\\dfrac{x+f(x)}{xf(x)}$，证明：$g(x)&#x3C;1$.</p></li></ol>",
+          "body": "<p>设函数 $f(x)=\\ln(a-x)$，已知 $x=0$ 是函数 $y=xf(x)$ 的极值点.</p><ol class=\"enumerate\"><li><p>求 $a$；</p></li><li><p>设函数 $g(x)=\\dfrac{x+f(x)}{xf(x)}$，证明：$g(x)<1$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

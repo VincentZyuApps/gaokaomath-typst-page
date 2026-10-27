@@ -26,7 +26,7 @@
           "body": "已知圆 $A$ 的直径为 $2\\sqrt{3}$，圆 $B$ 的直径为 $4-2\\sqrt{3}$，圆 $C$ 的直径为 $2$，圆 $A$ 与圆 $B$ 外切，圆 $A$ 又与圆 $C$ 外切，$\\angle A=60^{\\circ}$，求 $BC$ 及 $\\angle C$.",
           "choices": null,
           "answer": "",
-          "solution": "圆 $A$、圆 $B$、圆 $C$ 的半径分别为 $\\sqrt{3}$、$2-\\sqrt{3}$、$1$. 由两圆外切时圆心距等于两半径之和，得 $AB=\\sqrt{3}+(2-\\sqrt{3})=2$，$AC=\\sqrt{3}+1=1+\\sqrt{3}$. 在 $\\triangle ABC$ 中，$\\angle A=60^{\\circ}$，由余弦定理，$BC^{2}=AB^{2}+AC^{2}-2AB\\cdot AC\\cos60^{\\circ}=4+(1+\\sqrt{3})^{2}-2(1+\\sqrt{3})=6$，所以 $BC=\\sqrt{6}$. 再由余弦定理，$\\cos C=\\frac{AC^{2}+BC^{2}-AB^{2}}{2AC\\cdot BC}=\\frac{(1+\\sqrt{3})^{2}+6-4}{2(1+\\sqrt{3})\\sqrt{6}}=\\frac{6+2\\sqrt{3}}{2(1+\\sqrt{3})\\sqrt{6}}=\\frac{\\sqrt{3}(1+\\sqrt{3})}{(1+\\sqrt{3})\\sqrt{6}}=\\frac{1}{\\sqrt{2}}$. 因为 $0^{\\circ}&#x3C;C&#x3C;180^{\\circ}$，所以 $\\angle C=45^{\\circ}$."
+          "solution": "圆 $A$、圆 $B$、圆 $C$ 的半径分别为 $\\sqrt{3}$、$2-\\sqrt{3}$、$1$. 由两圆外切时圆心距等于两半径之和，得 $AB=\\sqrt{3}+(2-\\sqrt{3})=2$，$AC=\\sqrt{3}+1=1+\\sqrt{3}$. 在 $\\triangle ABC$ 中，$\\angle A=60^{\\circ}$，由余弦定理，$BC^{2}=AB^{2}+AC^{2}-2AB\\cdot AC\\cos60^{\\circ}=4+(1+\\sqrt{3})^{2}-2(1+\\sqrt{3})=6$，所以 $BC=\\sqrt{6}$. 再由余弦定理，$\\cos C=\\frac{AC^{2}+BC^{2}-AB^{2}}{2AC\\cdot BC}=\\frac{(1+\\sqrt{3})^{2}+6-4}{2(1+\\sqrt{3})\\sqrt{6}}=\\frac{6+2\\sqrt{3}}{2(1+\\sqrt{3})\\sqrt{6}}=\\frac{\\sqrt{3}(1+\\sqrt{3})}{(1+\\sqrt{3})\\sqrt{6}}=\\frac{1}{\\sqrt{2}}$. 因为 $0^{\\circ}<C<180^{\\circ}$，所以 $\\angle C=45^{\\circ}$."
         },
         {
           "num": 4,
@@ -40,7 +40,7 @@
           "body": "解不等式：$\\begin{cases}16-x^{2}\\ge0,\\\\  x^{2}-x-6>0\\end{cases}$，并在数轴上把它的解表示出来.",
           "choices": null,
           "answer": "",
-          "solution": "由 $16-x^{2}\\ge0$ 得 $-4\\le x\\le4$. 又 $x^{2}-x-6=(x-3)(x+2)>0$，所以 $x&#x3C;-2$ 或 $x>3$. 两者取交集，解集为 $\\left[-4,-2\\right)\\cup\\left(3,4\\right]$. 在数轴上，$-4$、$4$ 处取实心点，$-2$、$3$ 处取空心点，并标出区间 $[-4,-2)$ 和 $(3,4]$."
+          "solution": "由 $16-x^{2}\\ge0$ 得 $-4\\le x\\le4$. 又 $x^{2}-x-6=(x-3)(x+2)>0$，所以 $x<-2$ 或 $x>3$. 两者取交集，解集为 $\\left[-4,-2\\right)\\cup\\left(3,4\\right]$. 在数轴上，$-4$、$4$ 处取实心点，$-2$、$3$ 处取空心点，并标出区间 $[-4,-2)$ 和 $(3,4]$."
         },
         {
           "num": 6,
@@ -54,7 +54,7 @@
           "body": "<p>等腰梯形的周长为 $60$，底角为 $60^{\\circ}$，问这梯形各边长为多少时，面积最大？</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "设两腰长均为 $\\ell$，两底分别为 $p$、$q$，不妨设 $p\\ge q$. 每条腰在较长底边方向上的投影为 $\\ell\\cos60^{\\circ}=\\frac{\\ell}{2}$，故 $p-q=2\\cdot\\frac{\\ell}{2}=\\ell$. 由周长条件，$p+q+2\\ell=60$，所以 $p+q=60-2\\ell$，并且 $p=30-\\frac{\\ell}{2}$、$q=30-\\frac{3\\ell}{2}$. 由于底边长为正，$0&#x3C;\\ell&#x3C;20$. 梯形高为 $h=\\ell\\sin60^{\\circ}=\\frac{\\sqrt{3}}{2}\\ell$，所以面积 $S=\\frac{p+q}{2}h=\\frac{\\sqrt{3}}{2}\\ell(30-\\ell)=\\frac{\\sqrt{3}}{2}\\left(225-(\\ell-15)^{2}\\right)$. 在 $0&#x3C;\\ell&#x3C;20$ 内，$\\ell=15$ 时平方项最小，面积最大. 此时 $p=22.5$、$q=7.5$，即两腰均为 $15$，两底为 $22.5$ 和 $7.5$，最大面积为 $\\frac{225\\sqrt{3}}{2}$. 若上下底命名相反，两个底长互换，结论相同."
+          "solution": "设两腰长均为 $\\ell$，两底分别为 $p$、$q$，不妨设 $p\\ge q$. 每条腰在较长底边方向上的投影为 $\\ell\\cos60^{\\circ}=\\frac{\\ell}{2}$，故 $p-q=2\\cdot\\frac{\\ell}{2}=\\ell$. 由周长条件，$p+q+2\\ell=60$，所以 $p+q=60-2\\ell$，并且 $p=30-\\frac{\\ell}{2}$、$q=30-\\frac{3\\ell}{2}$. 由于底边长为正，$0<\\ell<20$. 梯形高为 $h=\\ell\\sin60^{\\circ}=\\frac{\\sqrt{3}}{2}\\ell$，所以面积 $S=\\frac{p+q}{2}h=\\frac{\\sqrt{3}}{2}\\ell(30-\\ell)=\\frac{\\sqrt{3}}{2}\\left(225-(\\ell-15)^{2}\\right)$. 在 $0<\\ell<20$ 内，$\\ell=15$ 时平方项最小，面积最大. 此时 $p=22.5$、$q=7.5$，即两腰均为 $15$，两底为 $22.5$ 和 $7.5$，最大面积为 $\\frac{225\\sqrt{3}}{2}$. 若上下底命名相反，两个底长互换，结论相同."
         },
         {
           "num": 8,

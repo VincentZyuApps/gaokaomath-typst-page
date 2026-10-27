@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A = \\{-1, 0, 1\\}$，$B = \\{x \\mid -1 \\le x &#x3C; 1\\}$，则 $A \\cap B =$（ ）",
+          "body": "已知集合 $A = \\{-1, 0, 1\\}$，$B = \\{x \\mid -1 \\le x < 1\\}$，则 $A \\cap B =$（ ）",
           "choices": [
             "$\\{0\\}$",
             "$\\{-1,0\\}$",
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "设关于 $x$，$y$ 的不等式组 $\\begin{cases}2x - y + 1 > 0,\\\\  x + m &#x3C; 0,\\\\  y - m > 0\\end{cases}$ 表示的平面区域内存在点 $P(x_{0}, y_{0})$，满足 $x_{0} - 2y_{0} = 2$，则 $m$ 的取值范围是（ ）",
+          "body": "设关于 $x$，$y$ 的不等式组 $\\begin{cases}2x - y + 1 > 0,\\\\  x + m < 0,\\\\  y - m > 0\\end{cases}$ 表示的平面区域内存在点 $P(x_{0}, y_{0})$，满足 $x_{0} - 2y_{0} = 2$，则 $m$ 的取值范围是（ ）",
           "choices": [
             "$\\left(-\\infty, \\frac{4}{3}\\right)$",
             "$\\left(-\\infty, \\frac{1}{3}\\right)$",
@@ -101,7 +101,7 @@
             "$\\left(-\\infty, -\\frac{5}{3}\\right)$"
           ],
           "answer": "C",
-          "solution": "<p>由 $x_{0}-2y_{0}=2$ 得 $y_{0}=\\dfrac{x_0}{2}-1$. 将其代入不等式组的三个条件，分别得到</p><p>$x_{0}>-\\dfrac{4}{3}$、$x_{0}>2m+2$ 和 $x_{0}&#x3C;-m$. 因此存在这样的 $x_{0}$ 的充要条件是</p><p>$\\max\\left\\{-\\dfrac{4}{3},2m+2\\right\\}&#x3C;-m$，即同时满足 $m&#x3C;\\dfrac{4}{3}$ 和 $m&#x3C;-\\dfrac{2}{3}$. 故 $m\\in\\left(-\\infty,-\\dfrac{2}{3}\\right)$，选 C.</p>"
+          "solution": "<p>由 $x_{0}-2y_{0}=2$ 得 $y_{0}=\\dfrac{x_0}{2}-1$. 将其代入不等式组的三个条件，分别得到</p><p>$x_{0}>-\\dfrac{4}{3}$、$x_{0}>2m+2$ 和 $x_{0}<-m$. 因此存在这样的 $x_{0}$ 的充要条件是</p><p>$\\max\\left\\{-\\dfrac{4}{3},2m+2\\right\\}<-m$，即同时满足 $m<\\dfrac{4}{3}$ 和 $m<-\\dfrac{2}{3}$. 故 $m\\in\\left(-\\infty,-\\dfrac{2}{3}\\right)$，选 C.</p>"
         }
       ]
     },
@@ -160,7 +160,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，$a = 3$，$b = 2\\sqrt{6}$，$\\angle B = 2\\angle A$.</p><ol class=\"enumerate\"><li><p>求 $\\cos A$ 的值.</p></li><li><p>求 $c$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由三角形内角和及 $B=2A$，有 $3A&#x3C;\\pi$，故 $0&#x3C;A&#x3C;\\dfrac{\\pi}{3}$，从而 $\\sin A>0$ 且 $\\cos A>0$. 由正弦定理，</p><p>$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$，所以</p><p>$\\dfrac{3}{\\sin A}=\\dfrac{2\\sqrt{6}}{\\sin2A}=\\dfrac{2\\sqrt{6}}{2\\sin A\\cos A}$. 约去正数 $\\sin A$，得 $3\\cos A=\\sqrt{6}$，即 $\\cos A=\\dfrac{\\sqrt{6}}{3}$.</p></li><li><p>由余弦定理，</p><p>$a^{2}=b^{2}+c^{2}-2bc\\cos A$，所以</p><p>$9=24+c^{2}-2\\cdot2\\sqrt{6}\\cdot c\\cdot\\dfrac{\\sqrt{6}}{3}=c^{2}-8c+24$. 因此</p><p>$c^{2}-8c+15=0$，解得 $c=3$ 或 $c=5$.</p><p>若 $c=3$，则 $a=c$，所以 $A=C$. 结合 $B=2A$ 和内角和，得 $A=C=\\dfrac{\\pi}{4}$，$B=\\dfrac{\\pi}{2}$. 于是 $b^{2}=a^{2}+c^{2}=18$，但题设 $b^{2}=24$，矛盾，故 $c\\ne3$.</p><p>当 $c=5$ 时，三边 $3$，$2\\sqrt{6}$，$5$ 满足三角形不等式，且</p><p>$\\cos B=\\dfrac{a^2+c^2-b^2}{2ac}=\\dfrac{9+25-24}{30}=\\dfrac{1}{3}$. 另一方面，</p><p>$\\cos2A=2\\cos^{2}A-1=2\\cdot\\dfrac{6}{9}-1=\\dfrac{1}{3}$. 又 $B$，$2A\\in(0,\\pi)$，余弦函数在该区间上单调递减，所以 $B=2A$，该候选值满足题设. 因此 $c=5$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由三角形内角和及 $B=2A$，有 $3A<\\pi$，故 $0<A<\\dfrac{\\pi}{3}$，从而 $\\sin A>0$ 且 $\\cos A>0$. 由正弦定理，</p><p>$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$，所以</p><p>$\\dfrac{3}{\\sin A}=\\dfrac{2\\sqrt{6}}{\\sin2A}=\\dfrac{2\\sqrt{6}}{2\\sin A\\cos A}$. 约去正数 $\\sin A$，得 $3\\cos A=\\sqrt{6}$，即 $\\cos A=\\dfrac{\\sqrt{6}}{3}$.</p></li><li><p>由余弦定理，</p><p>$a^{2}=b^{2}+c^{2}-2bc\\cos A$，所以</p><p>$9=24+c^{2}-2\\cdot2\\sqrt{6}\\cdot c\\cdot\\dfrac{\\sqrt{6}}{3}=c^{2}-8c+24$. 因此</p><p>$c^{2}-8c+15=0$，解得 $c=3$ 或 $c=5$.</p><p>若 $c=3$，则 $a=c$，所以 $A=C$. 结合 $B=2A$ 和内角和，得 $A=C=\\dfrac{\\pi}{4}$，$B=\\dfrac{\\pi}{2}$. 于是 $b^{2}=a^{2}+c^{2}=18$，但题设 $b^{2}=24$，矛盾，故 $c\\ne3$.</p><p>当 $c=5$ 时，三边 $3$，$2\\sqrt{6}$，$5$ 满足三角形不等式，且</p><p>$\\cos B=\\dfrac{a^2+c^2-b^2}{2ac}=\\dfrac{9+25-24}{30}=\\dfrac{1}{3}$. 另一方面，</p><p>$\\cos2A=2\\cos^{2}A-1=2\\cdot\\dfrac{6}{9}-1=\\dfrac{1}{3}$. 又 $B$，$2A\\in(0,\\pi)$，余弦函数在该区间上单调递减，所以 $B=2A$，该候选值满足题设. 因此 $c=5$.</p></li></ol>"
         },
         {
           "num": 16,
@@ -181,7 +181,7 @@
           "body": "<p>设 $L$ 为曲线 $C: y = \\frac{\\ln x}{x}$ 在点 $(1,0)$ 处的切线.</p><ol class=\"enumerate\"><li><p>求 $L$ 的方程；</p></li><li><p>证明：除切点 $(1,0)$ 之外，曲线 $C$ 在直线 $L$ 的下方.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数 $f(x)=\\dfrac{\\ln x}{x}$ 的定义域为 $x>0$，且</p><p>$f'(x)=\\dfrac{1-\\ln x}{x^2}$，所以 $f'(1)=1$. 切线经过 $(1,0)$，故其方程为 $L:y=x-1$.</p></li><li><p>令 $h(x)=x(x-1)-\\ln x$，其中 $x>0$. 则</p><p>$h'(x)=2x-1-\\dfrac{1}{x}=\\dfrac{(2x+1)(x-1)}x$. 当 $0&#x3C;x&#x3C;1$ 时，$h'(x)&#x3C;0$，所以 $h$ 在 $(0,1)$ 上递减；当 $x>1$ 时，$h'(x)>0$，所以 $h$ 在 $(1,+\\infty)$ 上递增. 又 $h(1)=0$，因此当 $x>0$ 且 $x\\ne1$ 时，$h(x)>0$.</p><p>因为 $x>0$，由 $h(x)>0$ 可得 $\\dfrac{\\ln x}{x}&#x3C;x-1$，即除切点外，曲线 $C$ 在直线 $L$ 的下方.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数 $f(x)=\\dfrac{\\ln x}{x}$ 的定义域为 $x>0$，且</p><p>$f'(x)=\\dfrac{1-\\ln x}{x^2}$，所以 $f'(1)=1$. 切线经过 $(1,0)$，故其方程为 $L:y=x-1$.</p></li><li><p>令 $h(x)=x(x-1)-\\ln x$，其中 $x>0$. 则</p><p>$h'(x)=2x-1-\\dfrac{1}{x}=\\dfrac{(2x+1)(x-1)}x$. 当 $0<x<1$ 时，$h'(x)<0$，所以 $h$ 在 $(0,1)$ 上递减；当 $x>1$ 时，$h'(x)>0$，所以 $h$ 在 $(1,+\\infty)$ 上递增. 又 $h(1)=0$，因此当 $x>0$ 且 $x\\ne1$ 时，$h(x)>0$.</p><p>因为 $x>0$，由 $h(x)>0$ 可得 $\\dfrac{\\ln x}{x}<x-1$，即除切点外，曲线 $C$ 在直线 $L$ 的下方.</p></li></ol>"
         },
         {
           "num": 19,

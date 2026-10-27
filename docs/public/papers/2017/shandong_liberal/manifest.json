@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $M=\\{x\\mid \\lvert x-1\\rvert&#x3C;1\\}$，$N=\\{x\\mid x&#x3C;2\\}$，则 $M\\cap N=$（ ）",
+          "body": "设集合 $M=\\{x\\mid \\lvert x-1\\rvert<1\\}$，$N=\\{x\\mid x<2\\}$，则 $M\\cap N=$（ ）",
           "choices": [
             "$\\left(-1,1\\right)$",
             "$\\left(-1,2\\right)$",
@@ -17,7 +17,7 @@
             "$\\left(1,2\\right)$"
           ],
           "answer": "C",
-          "solution": "由 $\\lvert x-1\\rvert&#x3C;1$ 得 $-1&#x3C;x-1&#x3C;1$，即 $0&#x3C;x&#x3C;2$，所以 $M=(0,2)$. 又 $N=(-\\infty,2)$，故 $M\\cap N=(0,2)$，选 C."
+          "solution": "由 $\\lvert x-1\\rvert<1$ 得 $-1<x-1<1$，即 $0<x<2$，所以 $M=(0,2)$. 又 $N=(-\\infty,2)$，故 $M\\cap N=(0,2)$，选 C."
         },
         {
           "num": 2,
@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "已知命题 $p$：$\\exists x\\in\\mathbb{R}$，$x^{2}-x+1\\ge0$；命题 $q$：若 $a^{2}&#x3C;b^{2}$，则 $a&#x3C;b$. 下列命题为真命题的是（ ）",
+          "body": "已知命题 $p$：$\\exists x\\in\\mathbb{R}$，$x^{2}-x+1\\ge0$；命题 $q$：若 $a^{2}<b^{2}$，则 $a<b$. 下列命题为真命题的是（ ）",
           "choices": [
             "$p\\land q$",
             "$p\\land \\lnot q$",
@@ -65,7 +65,7 @@
             "$\\lnot p\\land \\lnot q$"
           ],
           "answer": "B",
-          "solution": "<p>因为 $x^{2}-x+1=\\left(x-\\dfrac{1}{2}\\right)^{2}+\\dfrac{3}{4}>0$，所以存在实数 $x$ 使不等式成立，命题 $p$ 为真.</p><p>命题 $q$ 为假，例如取 $a=1$、$b=-2$，则 $a^{2}&#x3C;b^{2}$，但 $a&#x3C;b$ 不成立. 因此 $p\\land\\lnot q$ 为真，选 B.</p>"
+          "solution": "<p>因为 $x^{2}-x+1=\\left(x-\\dfrac{1}{2}\\right)^{2}+\\dfrac{3}{4}>0$，所以存在实数 $x$ 使不等式成立，命题 $p$ 为真.</p><p>命题 $q$ 为假，例如取 $a=1$、$b=-2$，则 $a^{2}<b^{2}$，但 $a<b$ 不成立. 因此 $p\\land\\lnot q$ 为真，选 B.</p>"
         },
         {
           "num": 6,
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "<p>设</p><p>$f(x)=\\begin{cases}\\sqrt{x},&#x26;0&#x3C;x&#x3C;1,\\\\\n\n2(x-1),&#x26;x\\ge1,\\end{cases}$</p><p>若 $f(a)=f(a+1)$，则 $f\\!\\left(\\dfrac{1}{a}\\right)=$（ ）</p>",
+          "body": "<p>设</p><p>$f(x)=\\begin{cases}\\sqrt{x},&0<x<1,\\\\\n\n2(x-1),&x\\ge1,\\end{cases}$</p><p>若 $f(a)=f(a+1)$，则 $f\\!\\left(\\dfrac{1}{a}\\right)=$（ ）</p>",
           "choices": [
             "$2$",
             "$4$",
@@ -113,7 +113,7 @@
             "$8$"
           ],
           "answer": "C",
-          "solution": "<p>由 $f(a)=f(a+1)$ 可知 $a>0$. 又因 $a+1\\geq1$，所以 $f(a+1)=2a$.</p><p>当 $0&#x3C;a&#x3C;1$ 时，$f(a)=\\sqrt{a}$，于是 $\\sqrt{a}=2a$. 由于 $a>0$，除以 $\\sqrt{a}$ 得 $1=2\\sqrt{a}$，所以 $a=\\dfrac{1}{4}$，从而</p><p>$f\\left(\\dfrac{1}{a}\\right)=f(4)=2(4-1)=6$.</p><p>当 $a\\geq1$ 时，$f(a)=2(a-1)$，等式变为 $2(a-1)=2a$，矛盾. 因此唯一可能的值为 $6$，选 C.</p>"
+          "solution": "<p>由 $f(a)=f(a+1)$ 可知 $a>0$. 又因 $a+1\\geq1$，所以 $f(a+1)=2a$.</p><p>当 $0<a<1$ 时，$f(a)=\\sqrt{a}$，于是 $\\sqrt{a}=2a$. 由于 $a>0$，除以 $\\sqrt{a}$ 得 $1=2\\sqrt{a}$，所以 $a=\\dfrac{1}{4}$，从而</p><p>$f\\left(\\dfrac{1}{a}\\right)=f(4)=2(4-1)=6$.</p><p>当 $a\\geq1$ 时，$f(a)=2(a-1)$，等式变为 $2(a-1)=2a$，矛盾. 因此唯一可能的值为 $6$，选 C.</p>"
         },
         {
           "num": 10,
@@ -137,7 +137,7 @@
           "body": "已知向量 $\\mathbf{a}=(2,6)$，$\\mathbf{b}=(-1,\\lambda)$，若 $\\mathbf{a}\\parallel\\mathbf{b}$，则 $\\lambda=\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$-3$",
-          "solution": "<p>两个非零向量平行，当且仅当其坐标行列式为零. 因此</p><p>$\\begin{vmatrix}2&#x26;6\\\\-1&#x26;\\lambda\\end{vmatrix}=2\\lambda+6=0$，解得 $\\lambda=-3$.</p>"
+          "solution": "<p>两个非零向量平行，当且仅当其坐标行列式为零. 因此</p><p>$\\begin{vmatrix}2&6\\\\-1&\\lambda\\end{vmatrix}=2\\lambda+6=0$，解得 $\\lambda=-3$.</p>"
         },
         {
           "num": 12,
@@ -184,7 +184,7 @@
           "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $b=3$，$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=-6$，$S_{\\triangle ABC}=3$，求 $A$ 和 $a$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $c=\\lvert AB\\rvert$. 由向量点积公式，</p>\n$$\n\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\lvert AB\\rvert\\lvert AC\\rvert\\cos A=3c\\cos A=-6\n$$\n<p>所以 $c\\cos A=-2$. 又由三角形面积公式，</p>\n$$\nS_{\\triangle ABC}=\\dfrac{1}{2}\\lvert AB\\rvert\\lvert AC\\rvert\\sin A=\\dfrac{3}{2}c\\sin A=3\n$$\n<p>所以 $c\\sin A=2$.</p><p>因为 $0&#x3C;A&#x3C;\\pi$，有 $\\sin A>0$，且由上式 $\\cos A&#x3C;0$，所以 $A$ 为钝角. 将 $c\\cos A=-2$、$c\\sin A=2$ 平方相加，得</p><p>$c^{2}=8$，故 $c=2\\sqrt{2}$. 于是 $\\cos A=-\\dfrac{1}{\\sqrt{2}}$、$\\sin A=\\dfrac{1}{\\sqrt{2}}$，从而 $A=\\dfrac{3\\pi}{4}$.</p><p>由余弦定理，</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A=3^{2}+(2\\sqrt{2})^{2}-2\\cdot3\\cdot2\\sqrt{2}\\cdot\\left(-\\dfrac{\\sqrt{2}}{2}\\right)=29\n$$\n<p>因 $a>0$，得 $a=\\sqrt{29}$.</p>"
+          "solution": "<p>设 $c=\\lvert AB\\rvert$. 由向量点积公式，</p>\n$$\n\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\lvert AB\\rvert\\lvert AC\\rvert\\cos A=3c\\cos A=-6\n$$\n<p>所以 $c\\cos A=-2$. 又由三角形面积公式，</p>\n$$\nS_{\\triangle ABC}=\\dfrac{1}{2}\\lvert AB\\rvert\\lvert AC\\rvert\\sin A=\\dfrac{3}{2}c\\sin A=3\n$$\n<p>所以 $c\\sin A=2$.</p><p>因为 $0<A<\\pi$，有 $\\sin A>0$，且由上式 $\\cos A<0$，所以 $A$ 为钝角. 将 $c\\cos A=-2$、$c\\sin A=2$ 平方相加，得</p><p>$c^{2}=8$，故 $c=2\\sqrt{2}$. 于是 $\\cos A=-\\dfrac{1}{\\sqrt{2}}$、$\\sin A=\\dfrac{1}{\\sqrt{2}}$，从而 $A=\\dfrac{3\\pi}{4}$.</p><p>由余弦定理，</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A=3^{2}+(2\\sqrt{2})^{2}-2\\cdot3\\cdot2\\sqrt{2}\\cdot\\left(-\\dfrac{\\sqrt{2}}{2}\\right)=29\n$$\n<p>因 $a>0$，得 $a=\\sqrt{29}$.</p>"
         },
         {
           "num": 18,
@@ -205,14 +205,14 @@
           "body": "<p>已知函数 $f(x)=\\dfrac{1}{3}x^{3}-\\dfrac{a}{2}x^{2}$，$a\\in\\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>当 $a=2$ 时，求曲线 $y=f(x)$ 在点 $(3,f(3))$ 处的切线方程；</p></li><li><p>设函数 $g(x)=f(x)+(x-a)\\cos x-\\sin x$，讨论 $g(x)$ 的单调性并判断有无极值，有极值时求出极值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，$f(3)=\\dfrac{1}{3}\\cdot3^{3}-\\dfrac{2}{2}\\cdot3^{2}=0$，且</p><p>$f'(x)=x^{2}-ax$，所以 $f'(3)=9-6=3$. 曲线在 $(3,0)$ 处的切线为</p>\n$$\ny-0=3(x-3)\n$$\n<p>即 $3x-y-9=0$.</p></li><li><p>由</p>\n$$\ng'(x)=f'(x)+\\cos x-(x-a)\\sin x-\\cos x=(x-a)(x-\\sin x)\n$$\n<p>令 $h(x)=x-\\sin x$，则 $h'(x)=1-\\cos x\\geq0$，且 $h(0)=0$，所以 $h(x)&#x3C;0$（$x&#x3C;0$），$h(x)>0$（$x>0$）. 因此 $g'(x)$ 的符号由 $(x-a)x$ 决定，下面分情况讨论.</p><p>当 $a&#x3C;0$ 时，$g(x)$ 在 $\\left(-\\infty,a\\right)$、$\\left(a,0\\right)$、$\\left(0,+\\infty\\right)$ 上分别单调递增、递减、递增. 在 $x=a$ 处由增变减，故有极大值</p>\n$$\ng(a)=f(a)-\\sin a=-\\dfrac{1}{6}a^{3}-\\sin a;\n$$\n<p>在 $x=0$ 处由减变增，故有极小值 $g(0)=-a$.</p><p>当 $a=0$ 时，$g'(x)=x(x-\\sin x)\\geq0$，且除 $x=0$ 外为正，所以 $g(x)$ 在 $\\mathbb{R}$ 上单调递增，无极值.</p><p>当 $a>0$ 时，$g(x)$ 在 $\\left(-\\infty,0\\right)$、$\\left(0,a\\right)$、$\\left(a,+\\infty\\right)$ 上分别单调递增、递减、递增. 在 $x=0$ 处有极大值 $g(0)=-a$，在 $x=a$ 处有极小值</p>\n$$\ng(a)=-\\dfrac{1}{6}a^{3}-\\sin a\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，$f(3)=\\dfrac{1}{3}\\cdot3^{3}-\\dfrac{2}{2}\\cdot3^{2}=0$，且</p><p>$f'(x)=x^{2}-ax$，所以 $f'(3)=9-6=3$. 曲线在 $(3,0)$ 处的切线为</p>\n$$\ny-0=3(x-3)\n$$\n<p>即 $3x-y-9=0$.</p></li><li><p>由</p>\n$$\ng'(x)=f'(x)+\\cos x-(x-a)\\sin x-\\cos x=(x-a)(x-\\sin x)\n$$\n<p>令 $h(x)=x-\\sin x$，则 $h'(x)=1-\\cos x\\geq0$，且 $h(0)=0$，所以 $h(x)<0$（$x<0$），$h(x)>0$（$x>0$）. 因此 $g'(x)$ 的符号由 $(x-a)x$ 决定，下面分情况讨论.</p><p>当 $a<0$ 时，$g(x)$ 在 $\\left(-\\infty,a\\right)$、$\\left(a,0\\right)$、$\\left(0,+\\infty\\right)$ 上分别单调递增、递减、递增. 在 $x=a$ 处由增变减，故有极大值</p>\n$$\ng(a)=f(a)-\\sin a=-\\dfrac{1}{6}a^{3}-\\sin a;\n$$\n<p>在 $x=0$ 处由减变增，故有极小值 $g(0)=-a$.</p><p>当 $a=0$ 时，$g'(x)=x(x-\\sin x)\\geq0$，且除 $x=0$ 外为正，所以 $g(x)$ 在 $\\mathbb{R}$ 上单调递增，无极值.</p><p>当 $a>0$ 时，$g(x)$ 在 $\\left(-\\infty,0\\right)$、$\\left(0,a\\right)$、$\\left(a,+\\infty\\right)$ 上分别单调递增、递减、递增. 在 $x=0$ 处有极大值 $g(0)=-a$，在 $x=a$ 处有极小值</p>\n$$\ng(a)=-\\dfrac{1}{6}a^{3}-\\sin a\n$$\n</li></ol>"
         },
         {
           "num": 21,
           "body": "<p>在平面直角坐标系 $xOy$ 中，已知椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的离心率为 $\\dfrac{\\sqrt{2}}{2}$，椭圆 $C$ 截直线 $y=1$ 所得线段的长度为 $2\\sqrt{2}$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>动直线 $l:y=kx+m$（$m\\ne0$）交椭圆 $C$ 于 $A$，$B$ 两点，交 $y$ 轴于点 $M$. 点 $N$ 是 $M$ 关于 $O$ 的对称点，$\\odot N$ 的半径为 $\\lvert NO\\rvert$. 设 $D$ 为 $AB$ 的中点，$DE$，$DF$ 与 $\\odot N$ 分别相切于点 $E$，$F$，求 $\\angle EDF$ 的最小值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$，则</p><p>$\\dfrac{c}{a}=\\dfrac{\\sqrt{2}}{2}$，$c^{2}=a^{2}-b^{2}$.</p><p>所以 $c^{2}=\\dfrac{a^2}{2}$，即 $b^{2}=\\dfrac{a^2}{2}$. 椭圆与直线 $y=1$ 的交点横坐标满足</p><p>$\\dfrac{x^2}{a^2}+\\dfrac1{b^2}=1$. 题设截得线段长度为 $2\\sqrt{2}$，故两个交点横坐标为 $\\pm\\sqrt{2}$，从而</p>\n$$\n\\dfrac2{a^2}+\\dfrac1{b^2}=1\n$$\n<p>代入 $b^{2}=\\dfrac{a^2}{2}$，得 $\\dfrac4{a^2}=1$，所以 $a^{2}=4$，$b^{2}=2$. 椭圆方程为</p>\n$$\n\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1\n$$\n</li><li><p>由（1）知椭圆为 $\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1$. 直线 $l:y=kx+m$ 与椭圆联立，得到关于交点横坐标的方程</p>\n$$\n\\left(1+2k^{2}\\right)x^{2}+4kmx+2m^{2}-4=0\n$$\n<p>设 $Q=1+2k^{2}$. 由韦达定理，弦 $AB$ 中点 $D$ 的坐标为</p>\n$$\nD=\\left(-\\dfrac{2km}{Q},\\dfrac{m}{Q}\\right)\n$$\n<p>又 $M=(0,m)$，$N=(0,-m)$，故</p>\n$$\nDN^{2}=\\dfrac{4m^2\\left(k^4+3k^2+1\\right)}{\\left(1+2k^2\\right)^2}\n$$\n<p>令 $t=k^{2}\\geq0$，则</p>\n$$\n\\dfrac{DN^2}{m^2}=4\\cdot\\dfrac{t^2+3t+1}{(2t+1)^2}\\leq4\n$$\n<p>因为 $(2t+1)^{2}-(t^{2}+3t+1)=3t^{2}+t\\geq0$. 等号当且仅当 $t=0$，即 $k=0$.</p><p>设 $\\theta=\\angle EDF$，圆的半径为 $NO=|m|$. 两条切线长相等，故 $DN$ 平分 $\\angle EDF$. 在直角三角形 $DNE$ 中，</p>\n$$\n\\sin\\dfrac\\theta2=\\dfrac{NE}{DN}=\\dfrac{|m|}{DN}\\geq\\dfrac{1}{2}\n$$\n<p>由于 $0&#x3C;\\theta&#x3C;\\pi$，得 $\\theta\\geq2\\arcsin\\dfrac{1}{2}=\\dfrac\\pi3$. 当 $k=0$ 且取 $0&#x3C;|m|&#x3C;\\sqrt{2}$ 时，直线为水平割线并确实与椭圆交于两点，此时等号成立. 因此 $\\angle EDF$ 的最小值为 $\\dfrac\\pi3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$，则</p><p>$\\dfrac{c}{a}=\\dfrac{\\sqrt{2}}{2}$，$c^{2}=a^{2}-b^{2}$.</p><p>所以 $c^{2}=\\dfrac{a^2}{2}$，即 $b^{2}=\\dfrac{a^2}{2}$. 椭圆与直线 $y=1$ 的交点横坐标满足</p><p>$\\dfrac{x^2}{a^2}+\\dfrac1{b^2}=1$. 题设截得线段长度为 $2\\sqrt{2}$，故两个交点横坐标为 $\\pm\\sqrt{2}$，从而</p>\n$$\n\\dfrac2{a^2}+\\dfrac1{b^2}=1\n$$\n<p>代入 $b^{2}=\\dfrac{a^2}{2}$，得 $\\dfrac4{a^2}=1$，所以 $a^{2}=4$，$b^{2}=2$. 椭圆方程为</p>\n$$\n\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1\n$$\n</li><li><p>由（1）知椭圆为 $\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1$. 直线 $l:y=kx+m$ 与椭圆联立，得到关于交点横坐标的方程</p>\n$$\n\\left(1+2k^{2}\\right)x^{2}+4kmx+2m^{2}-4=0\n$$\n<p>设 $Q=1+2k^{2}$. 由韦达定理，弦 $AB$ 中点 $D$ 的坐标为</p>\n$$\nD=\\left(-\\dfrac{2km}{Q},\\dfrac{m}{Q}\\right)\n$$\n<p>又 $M=(0,m)$，$N=(0,-m)$，故</p>\n$$\nDN^{2}=\\dfrac{4m^2\\left(k^4+3k^2+1\\right)}{\\left(1+2k^2\\right)^2}\n$$\n<p>令 $t=k^{2}\\geq0$，则</p>\n$$\n\\dfrac{DN^2}{m^2}=4\\cdot\\dfrac{t^2+3t+1}{(2t+1)^2}\\leq4\n$$\n<p>因为 $(2t+1)^{2}-(t^{2}+3t+1)=3t^{2}+t\\geq0$. 等号当且仅当 $t=0$，即 $k=0$.</p><p>设 $\\theta=\\angle EDF$，圆的半径为 $NO=|m|$. 两条切线长相等，故 $DN$ 平分 $\\angle EDF$. 在直角三角形 $DNE$ 中，</p>\n$$\n\\sin\\dfrac\\theta2=\\dfrac{NE}{DN}=\\dfrac{|m|}{DN}\\geq\\dfrac{1}{2}\n$$\n<p>由于 $0<\\theta<\\pi$，得 $\\theta\\geq2\\arcsin\\dfrac{1}{2}=\\dfrac\\pi3$. 当 $k=0$ 且取 $0<|m|<\\sqrt{2}$ 时，直线为水平割线并确实与椭圆交于两点，此时等号成立. 因此 $\\angle EDF$ 的最小值为 $\\dfrac\\pi3$.</p></li></ol>"
         }
       ]
     }

@@ -65,7 +65,7 @@
             "5}<span class=\"macro macro-right\"></span>) <span class=\"macro macro-)\"></span>"
           ],
           "answer": "A",
-          "solution": "<p>圆的圆心为原点，半径为 $2$. 圆上点 $(x,y)$ 到直线的距离为</p><p>$\\frac{|4x+3y-12|}{5}$. 由 $x^{2}+y^{2}=4$ 及柯西不等式，$4x+3y\\leqslant5\\sqrt{x^{2}+y^{2}}=10&#x3C;12$，故距离等于 $\\frac{12-4x-3y}{5}$，要使它最小就要使 $4x+3y$ 最大.</p><p>等号成立时 $(x,y)$ 与 $(4,3)$ 同向，且 $x^{2}+y^{2}=4$，所以 $(x,y)=\\left(\\frac{8}{5},\\frac{6}{5}\\right)$. 故选 A.</p>"
+          "solution": "<p>圆的圆心为原点，半径为 $2$. 圆上点 $(x,y)$ 到直线的距离为</p><p>$\\frac{|4x+3y-12|}{5}$. 由 $x^{2}+y^{2}=4$ 及柯西不等式，$4x+3y\\leqslant5\\sqrt{x^{2}+y^{2}}=10<12$，故距离等于 $\\frac{12-4x-3y}{5}$，要使它最小就要使 $4x+3y$ 最大.</p><p>等号成立时 $(x,y)$ 与 $(4,3)$ 同向，且 $x^{2}+y^{2}=4$，所以 $(x,y)=\\left(\\frac{8}{5},\\frac{6}{5}\\right)$. 故选 A.</p>"
         },
         {
           "num": 6,
@@ -77,19 +77,19 @@
             "$\\sqrt{3}$"
           ],
           "answer": "B",
-          "solution": "展开复数得 $z=(a+\\mathrm{i})^{2}=a^{2}-1+2a\\mathrm{i}$. 其辐角为 $\\frac{3\\pi}{2}$，说明 $z$ 位于负虚轴上，因此实部为零且虚部为负，即 $a^{2}-1=0$，$2a&#x3C;0$. 所以 $a=-1$，故选 B."
+          "solution": "展开复数得 $z=(a+\\mathrm{i})^{2}=a^{2}-1+2a\\mathrm{i}$. 其辐角为 $\\frac{3\\pi}{2}$，说明 $z$ 位于负虚轴上，因此实部为零且虚部为负，即 $a^{2}-1=0$，$2a<0$. 所以 $a=-1$，故选 B."
         },
         {
           "num": 7,
           "body": "不等式 $\\frac{3x-1}{2-x}\\ge 1$ 的解集是（ ）",
           "choices": [
-            "$\\left\\{x\\left|\\frac{3}{4}\\le x\\leqslant2\\right.\\right\\}$}{$\\left\\{x\\left|\\frac{3}{4}\\le x&#x3C;2\\right.\\right\\}$",
+            "$\\left\\{x\\left|\\frac{3}{4}\\le x\\leqslant2\\right.\\right\\}$}{$\\left\\{x\\left|\\frac{3}{4}\\le x<2\\right.\\right\\}$",
             "<span class=\"macro macro-(\"></span><span class=\"macro macro-left\"></span>{x<span class=\"macro macro-left\"></span>|x>2 <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">或</span></span> x<span class=\"macro macro-le\"></span><span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">{</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">3</span></span>",
             "4}<span class=\"macro macro-right\"></span>.<span class=\"macro macro-right\"></span>}<span class=\"macro macro-)\"></span>",
-            "$\\left\\{x\\left|x&#x3C;2\\right.\\right\\}$"
+            "$\\left\\{x\\left|x<2\\right.\\right\\}$"
           ],
           "answer": "B",
-          "solution": "<p>原不等式等价于</p><p>$\\frac{3x-1}{2-x}-1=\\frac{4x-3}{2-x}\\geqslant0$，且 $x\\neq2$. 关键点为 $\\frac{3}{4}$ 和 $2$. 当 $x&#x3C;\\frac{3}{4}$ 时，分子为负、分母为正，分式为负；当 $\\frac{3}{4}&#x3C;x&#x3C;2$ 时，分子、分母均为正，分式为正；当 $x>2$ 时，分子为正、分母为负，分式为负. 又 $x=\\frac{3}{4}$ 使分式为零而应取等号，$x=2$ 不在定义域内，所以解集为 $\\left[\\frac{3}{4},2\\right)$，故选 B.</p>"
+          "solution": "<p>原不等式等价于</p><p>$\\frac{3x-1}{2-x}-1=\\frac{4x-3}{2-x}\\geqslant0$，且 $x\\neq2$. 关键点为 $\\frac{3}{4}$ 和 $2$. 当 $x<\\frac{3}{4}$ 时，分子为负、分母为正，分式为负；当 $\\frac{3}{4}<x<2$ 时，分子、分母均为正，分式为正；当 $x>2$ 时，分子为正、分母为负，分式为负. 又 $x=\\frac{3}{4}$ 使分式为零而应取等号，$x=2$ 不在定义域内，所以解集为 $\\left[\\frac{3}{4},2\\right)$，故选 B.</p>"
         },
         {
           "num": 8,
@@ -113,7 +113,7 @@
             "$5$"
           ],
           "answer": "A",
-          "solution": "<p>因分母要求 $\\sin x\\neq0$，只需在 $(-\\pi,0)$ 和 $(0,\\pi)$ 内讨论.</p><p>当 $0&#x3C;x&#x3C;\\pi$ 时，$|\\sin x|=\\sin x$，方程化为</p><p>$1=\\sin^{2}x-\\sin x\\cos x$. 代入 $1=\\sin^{2}x+\\cos^{2}x$，得 $\\cos^{2}x+\\sin x\\cos x=0$，即 $\\cos x(\\cos x+\\sin x)=0$，故 $x=\\frac{\\pi}{2}$ 或 $x=\\frac{3\\pi}{4}$，两者均满足原方程.</p><p>当 $-\\pi&#x3C;x&#x3C;0$ 时，$|\\sin x|=-\\sin x$，方程化为</p><p>$1=-\\sin^{2}x+\\sin x\\cos x$，即</p><p>$2\\sin^{2}x-\\sin x\\cos x+\\cos^{2}x=0$. 左侧可写为 $2\\left(\\sin x-\\frac{1}{4}\\cos x\\right)^{2}+\\frac{7}{8}\\cos^{2}x$，只有在 $\\sin x=\\cos x=0$ 时才可能为零，而这不可能发生，所以此区间无根.</p><p>因此共有 $2$ 个不同实根，故选 A.</p>"
+          "solution": "<p>因分母要求 $\\sin x\\neq0$，只需在 $(-\\pi,0)$ 和 $(0,\\pi)$ 内讨论.</p><p>当 $0<x<\\pi$ 时，$|\\sin x|=\\sin x$，方程化为</p><p>$1=\\sin^{2}x-\\sin x\\cos x$. 代入 $1=\\sin^{2}x+\\cos^{2}x$，得 $\\cos^{2}x+\\sin x\\cos x=0$，即 $\\cos x(\\cos x+\\sin x)=0$，故 $x=\\frac{\\pi}{2}$ 或 $x=\\frac{3\\pi}{4}$，两者均满足原方程.</p><p>当 $-\\pi<x<0$ 时，$|\\sin x|=-\\sin x$，方程化为</p><p>$1=-\\sin^{2}x+\\sin x\\cos x$，即</p><p>$2\\sin^{2}x-\\sin x\\cos x+\\cos^{2}x=0$. 左侧可写为 $2\\left(\\sin x-\\frac{1}{4}\\cos x\\right)^{2}+\\frac{7}{8}\\cos^{2}x$，只有在 $\\sin x=\\cos x=0$ 时才可能为零，而这不可能发生，所以此区间无根.</p><p>因此共有 $2$ 个不同实根，故选 A.</p>"
         },
         {
           "num": 10,
@@ -180,7 +180,7 @@
             "焦点在 $x$ 轴上的双曲线"
           ],
           "answer": "C",
-          "solution": "<p>由 $\\frac{\\pi}{2}&#x3C;\\theta&#x3C;\\frac{3\\pi}{4}$，得</p><p>$\\frac{\\sqrt{2}}{2}&#x3C;\\sin\\theta&#x3C;1$，$-\\frac{\\sqrt{2}}{2}&#x3C;\\cos\\theta&#x3C;0$. 因此</p><p>$1&#x3C;\\csc\\theta&#x3C;\\sqrt{2}$，从而 $\\csc\\theta-2&#x3C;0$；又 $\\sec\\theta&#x3C; -1$，所以 $2-\\sec\\theta>0$. 原方程可写成</p><p>$-\\frac{x^{2}}{2-\\csc\\theta}+\\frac{y^{2}}{2-\\sec\\theta}=1$，这是焦点在 $y$ 轴上的双曲线，故选 C.</p>"
+          "solution": "<p>由 $\\frac{\\pi}{2}<\\theta<\\frac{3\\pi}{4}$，得</p><p>$\\frac{\\sqrt{2}}{2}<\\sin\\theta<1$，$-\\frac{\\sqrt{2}}{2}<\\cos\\theta<0$. 因此</p><p>$1<\\csc\\theta<\\sqrt{2}$，从而 $\\csc\\theta-2<0$；又 $\\sec\\theta< -1$，所以 $2-\\sec\\theta>0$. 原方程可写成</p><p>$-\\frac{x^{2}}{2-\\csc\\theta}+\\frac{y^{2}}{2-\\sec\\theta}=1$，这是焦点在 $y$ 轴上的双曲线，故选 C.</p>"
         },
         {
           "num": 16,
@@ -216,7 +216,7 @@
             "$y=\\pi+\\arctan x$"
           ],
           "answer": "B",
-          "solution": "<p>令 $y=-\\cot x$，其中 $0&#x3C;x&#x3C;\\pi$. 由反正切函数的值域为 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$，可写成</p><p>$y=-\\cot x=-\\tan\\left(\\frac{\\pi}{2}-x\\right)=\\tan\\left(x-\\frac{\\pi}{2}\\right)$. 于是</p><p>$x=\\frac{\\pi}{2}+\\arctan y$. 交换 $x$，$y$ 得反函数 $y=\\frac{\\pi}{2}+\\arctan x$，故选 B.</p>"
+          "solution": "<p>令 $y=-\\cot x$，其中 $0<x<\\pi$. 由反正切函数的值域为 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$，可写成</p><p>$y=-\\cot x=-\\tan\\left(\\frac{\\pi}{2}-x\\right)=\\tan\\left(x-\\frac{\\pi}{2}\\right)$. 于是</p><p>$x=\\frac{\\pi}{2}+\\arctan y$. 交换 $x$，$y$ 得反函数 $y=\\frac{\\pi}{2}+\\arctan x$，故选 B.</p>"
         },
         {
           "num": 19,
@@ -264,7 +264,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/guangdong_science/q22_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "C",
-          "solution": "<p>对数有意义要求 $y>0$、$x\\neq0$ 且 $y-x>0$. 三项成等差数列，所以</p><p>$2\\lg|x|=\\lg y+\\lg\\left(\\frac{y-x}{2}\\right)=\\lg\\left(\\frac{y(y-x)}{2}\\right)$. 于是</p><p>$x^{2}=\\frac{y(y-x)}{2}$，即</p><p>$2x^{2}=y^{2}-xy$，从而</p><p>$(y-2x)(y+x)=0$.</p><p>当 $y=2x$ 时，由 $y>0$ 得 $x>0$，且 $y-x=x>0$，得到直线 $y=2x$ 在第一象限内的射线；当 $y=-x$ 时，由 $y>0$ 得 $x&#x3C;0$，且 $y-x=-2x>0$，得到直线 $y=-x$ 在第二象限内的射线. 因此轨迹是直线 $y=2x$ 在第一象限内的射线与直线 $y=-x$ 在第二象限内的射线，且均不含原点. 回代验证：令 $t>0$，在第一条射线上取 $x=t$，$y=2t$，三项为 $\\lg\\left(2t\\right)$，$\\lg t$，$\\lg\\left(\\frac{t}{2}\\right)$，相邻两项的差均为 $-\\lg2$；在第二条射线上取 $x=-t$，$y=t$，三项均为 $\\lg t$，也成等差数列. 两个分支均满足全部定义域条件，且因式分解穷尽所有可能. 选项 C 的左支经过 $\\left(-1,1\\right)$，右支经过 $\\left(\\frac{1}{2},1\\right)$，原点为空心点，正好对应上述两条开射线，故选 C.</p>"
+          "solution": "<p>对数有意义要求 $y>0$、$x\\neq0$ 且 $y-x>0$. 三项成等差数列，所以</p><p>$2\\lg|x|=\\lg y+\\lg\\left(\\frac{y-x}{2}\\right)=\\lg\\left(\\frac{y(y-x)}{2}\\right)$. 于是</p><p>$x^{2}=\\frac{y(y-x)}{2}$，即</p><p>$2x^{2}=y^{2}-xy$，从而</p><p>$(y-2x)(y+x)=0$.</p><p>当 $y=2x$ 时，由 $y>0$ 得 $x>0$，且 $y-x=x>0$，得到直线 $y=2x$ 在第一象限内的射线；当 $y=-x$ 时，由 $y>0$ 得 $x<0$，且 $y-x=-2x>0$，得到直线 $y=-x$ 在第二象限内的射线. 因此轨迹是直线 $y=2x$ 在第一象限内的射线与直线 $y=-x$ 在第二象限内的射线，且均不含原点. 回代验证：令 $t>0$，在第一条射线上取 $x=t$，$y=2t$，三项为 $\\lg\\left(2t\\right)$，$\\lg t$，$\\lg\\left(\\frac{t}{2}\\right)$，相邻两项的差均为 $-\\lg2$；在第二条射线上取 $x=-t$，$y=t$，三项均为 $\\lg t$，也成等差数列. 两个分支均满足全部定义域条件，且因式分解穷尽所有可能. 选项 C 的左支经过 $\\left(-1,1\\right)$，右支经过 $\\left(\\frac{1}{2},1\\right)$，原点为空心点，正好对应上述两条开射线，故选 C.</p>"
         },
         {
           "num": 23,
@@ -288,7 +288,7 @@
             "2} <span class=\"macro macro-)\"></span>"
           ],
           "answer": "A",
-          "solution": "<p>三角形面积为 $\\frac{1}{2}\\cdot3\\cdot3=\\frac{9}{2}$，左侧部分应为 $\\frac{9}{4}$. 当 $a\\leqslant0$ 时左侧面积为零，而当 $a=2$ 时左侧面积为 $3>\\frac{9}{4}$，故分割面积相等时必有 $0&#x3C;a&#x3C;2$. 此时边 $AC$ 的方程为 $y=3-\\frac{3}{2}x$，边 $AB$ 的方程为 $y=3$，所以直线 $x=a$ 左侧的面积为</p><p>$\\int_{0}^{a}\\left[3-\\left(3-\\frac{3}{2}x\\right)\\right]\\,\\mathrm{d}x=\\frac{3}{4}a^{2}$.</p><p>令 $\\frac{3}{4}a^{2}=\\frac{9}{4}$，得 $a^{2}=3$. 因 $a$ 位于 $0$ 和 $2$ 之间，故 $a=\\sqrt{3}$，选 A.</p>"
+          "solution": "<p>三角形面积为 $\\frac{1}{2}\\cdot3\\cdot3=\\frac{9}{2}$，左侧部分应为 $\\frac{9}{4}$. 当 $a\\leqslant0$ 时左侧面积为零，而当 $a=2$ 时左侧面积为 $3>\\frac{9}{4}$，故分割面积相等时必有 $0<a<2$. 此时边 $AC$ 的方程为 $y=3-\\frac{3}{2}x$，边 $AB$ 的方程为 $y=3$，所以直线 $x=a$ 左侧的面积为</p><p>$\\int_{0}^{a}\\left[3-\\left(3-\\frac{3}{2}x\\right)\\right]\\,\\mathrm{d}x=\\frac{3}{4}a^{2}$.</p><p>令 $\\frac{3}{4}a^{2}=\\frac{9}{4}$，得 $a^{2}=3$. 因 $a$ 位于 $0$ 和 $2$ 之间，故 $a=\\sqrt{3}$，选 A.</p>"
         },
         {
           "num": 25,
@@ -359,7 +359,7 @@
           "body": "<p>已知复数 $z = \\cos \\alpha + \\mathrm{i}\\sin \\alpha$，$u = \\cos \\beta + \\mathrm{i}\\sin \\beta$，且 $z + u = \\frac{4}{5}+ \\frac{3}{5}\\mathrm{i}$.</p><ol class=\"enumerate\"><li><p>求 $\\tan(\\alpha+\\beta)$ 的值；</p></li><li><p>求证：$z^{2}+u^{2}+zu=0$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由设可得 $z + u = (\\cos \\alpha + \\cos \\beta) + (\\sin \\alpha + \\sin \\beta)\\mathrm{i}= \\frac{4}{5}+\\frac{3}{5}\\mathrm{i}$，所以 $\\cos\\alpha+\\cos\\beta=\\frac{4}{5}$，$\\sin\\alpha+\\sin\\beta=\\frac{3}{5}$. 和差化积得</p><p>$2\\cos\\frac{\\alpha-\\beta}{2}\\sin\\frac{\\alpha+\\beta}{2}=\\frac{3}{5}$，$2\\cos\\frac{\\alpha-\\beta}{2}\\cos\\frac{\\alpha+\\beta}{2}=\\frac{4}{5}$.</p><p>两式相除，得 $\\tan\\frac{\\alpha+\\beta}{2}=\\frac{3}{4}$. 所以</p><p>$\\tan(\\alpha+\\beta)=\\frac{2\\tan\\frac{\\alpha+\\beta}{2}}{1-\\tan^{2}\\frac{\\alpha+\\beta}{2}}=\\frac{24}{7}$.</p></li><li><p>因为 $\\left|z + u\\right| = \\sqrt{\\left(\\frac{4}{5}\\right)^{2} + \\left(\\frac{3}{5}\\right)^{2}}= 1$，又</p><p>$z + u = 2 \\cos \\frac{\\alpha - \\beta}{2}\\left( \\cos \\frac{\\alpha + \\beta}{2}+ \\mathrm{i}\\sin \\frac{\\alpha + \\beta}{2}\\right)$，</p><p>所以 $\\left|\\cos \\frac{\\alpha - \\beta}{2}\\right| = \\frac{1}{2}$. 又</p>\n$$\n\\begin{aligned}z^{2}+u^{2}+zu&#x26;=\\left[\\cos2\\alpha+\\cos2\\beta+\\cos\\left(\\alpha+\\beta\\right)\\right]+\\mathrm{i}\\left[\\sin2\\alpha+\\sin2\\beta+\\sin\\left(\\alpha+\\beta\\right)\\right]\\\\&#x26;=2\\cos\\left(\\alpha-\\beta\\right)\\cos\\left(\\alpha+\\beta\\right)+\\cos\\left(\\alpha+\\beta\\right)\\\\&#x26;  +\\mathrm{i}\\left[2\\cos\\left(\\alpha-\\beta\\right)\\sin\\left(\\alpha+\\beta\\right)+\\sin\\left(\\alpha+\\beta\\right)\\right]\\\\&#x26;=\\left[2\\cos\\left(\\alpha-\\beta\\right)+1\\right]\\left[\\cos\\left(\\alpha+\\beta\\right)+\\mathrm{i}\\sin\\left(\\alpha+\\beta\\right)\\right]\\\\&#x26;=\\left[2\\cos\\left(\\alpha-\\beta\\right)+1\\right]zu.\\end{aligned}\n$$\n<p>而 $\\cos(\\alpha-\\beta)=2\\left|\\cos\\frac{\\alpha-\\beta}{2}\\right|^{2}-1=2\\left(\\frac{1}{2}\\right)^{2}-1=-\\frac{1}{2}$，所以 $2\\cos(\\alpha-\\beta)+1=0$. 故 $z^{2}+u^{2}+zu=0$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由设可得 $z + u = (\\cos \\alpha + \\cos \\beta) + (\\sin \\alpha + \\sin \\beta)\\mathrm{i}= \\frac{4}{5}+\\frac{3}{5}\\mathrm{i}$，所以 $\\cos\\alpha+\\cos\\beta=\\frac{4}{5}$，$\\sin\\alpha+\\sin\\beta=\\frac{3}{5}$. 和差化积得</p><p>$2\\cos\\frac{\\alpha-\\beta}{2}\\sin\\frac{\\alpha+\\beta}{2}=\\frac{3}{5}$，$2\\cos\\frac{\\alpha-\\beta}{2}\\cos\\frac{\\alpha+\\beta}{2}=\\frac{4}{5}$.</p><p>两式相除，得 $\\tan\\frac{\\alpha+\\beta}{2}=\\frac{3}{4}$. 所以</p><p>$\\tan(\\alpha+\\beta)=\\frac{2\\tan\\frac{\\alpha+\\beta}{2}}{1-\\tan^{2}\\frac{\\alpha+\\beta}{2}}=\\frac{24}{7}$.</p></li><li><p>因为 $\\left|z + u\\right| = \\sqrt{\\left(\\frac{4}{5}\\right)^{2} + \\left(\\frac{3}{5}\\right)^{2}}= 1$，又</p><p>$z + u = 2 \\cos \\frac{\\alpha - \\beta}{2}\\left( \\cos \\frac{\\alpha + \\beta}{2}+ \\mathrm{i}\\sin \\frac{\\alpha + \\beta}{2}\\right)$，</p><p>所以 $\\left|\\cos \\frac{\\alpha - \\beta}{2}\\right| = \\frac{1}{2}$. 又</p>\n$$\n\\begin{aligned}z^{2}+u^{2}+zu&=\\left[\\cos2\\alpha+\\cos2\\beta+\\cos\\left(\\alpha+\\beta\\right)\\right]+\\mathrm{i}\\left[\\sin2\\alpha+\\sin2\\beta+\\sin\\left(\\alpha+\\beta\\right)\\right]\\\\&=2\\cos\\left(\\alpha-\\beta\\right)\\cos\\left(\\alpha+\\beta\\right)+\\cos\\left(\\alpha+\\beta\\right)\\\\&  +\\mathrm{i}\\left[2\\cos\\left(\\alpha-\\beta\\right)\\sin\\left(\\alpha+\\beta\\right)+\\sin\\left(\\alpha+\\beta\\right)\\right]\\\\&=\\left[2\\cos\\left(\\alpha-\\beta\\right)+1\\right]\\left[\\cos\\left(\\alpha+\\beta\\right)+\\mathrm{i}\\sin\\left(\\alpha+\\beta\\right)\\right]\\\\&=\\left[2\\cos\\left(\\alpha-\\beta\\right)+1\\right]zu.\\end{aligned}\n$$\n<p>而 $\\cos(\\alpha-\\beta)=2\\left|\\cos\\frac{\\alpha-\\beta}{2}\\right|^{2}-1=2\\left(\\frac{1}{2}\\right)^{2}-1=-\\frac{1}{2}$，所以 $2\\cos(\\alpha-\\beta)+1=0$. 故 $z^{2}+u^{2}+zu=0$.</p></li></ol>"
         },
         {
           "num": 33,
@@ -370,10 +370,10 @@
         },
         {
           "num": 34,
-          "body": "<p>设实数 $a \\neq 0$，数列 $\\left\\{a_{n}\\right\\}$ 是首项为 $a$，公比为 $-a$ 的等比数列，记 $b_{n} = a_{n} \\lg \\left|a_{n}\\right|$，$n = 1$，$2$，$\\cdots$；$S_{n} = b_{1} + b_{2} + \\cdots + b_{n}$，$n = 1$，$2$，$\\cdots$.</p><ol class=\"enumerate\"><li><p>求证：当 $a \\neq -1$ 时，对任意自然数 $n$，都有 $S_{n}= \\frac{a \\lg |a|}{(1 + a)^{2}}\\left[ 1 + (-1)^{n+1}(1 + n + na) a^{n}\\right]$；</p></li><li><p>请问：当 $0&#x3C;a&#x3C;1$ 时，是否存在自然数 $M$，使得对任意自然数 $n$，都有 $b_{n}\\le b_{M}$？证明你的结论.</p></li></ol>",
+          "body": "<p>设实数 $a \\neq 0$，数列 $\\left\\{a_{n}\\right\\}$ 是首项为 $a$，公比为 $-a$ 的等比数列，记 $b_{n} = a_{n} \\lg \\left|a_{n}\\right|$，$n = 1$，$2$，$\\cdots$；$S_{n} = b_{1} + b_{2} + \\cdots + b_{n}$，$n = 1$，$2$，$\\cdots$.</p><ol class=\"enumerate\"><li><p>求证：当 $a \\neq -1$ 时，对任意自然数 $n$，都有 $S_{n}= \\frac{a \\lg |a|}{(1 + a)^{2}}\\left[ 1 + (-1)^{n+1}(1 + n + na) a^{n}\\right]$；</p></li><li><p>请问：当 $0<a<1$ 时，是否存在自然数 $M$，使得对任意自然数 $n$，都有 $b_{n}\\le b_{M}$？证明你的结论.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>依设，有 $a_{n}=a(-a)^{n-1}=(-1)^{n-1}a^{n}$. 所以 $b_{n} = a_{n} \\lg |a_{n}| = (-1)^{n-1}na^{n} \\lg |a|$，$n=1$，$2$，$\\cdots$. 记 $S_{n} = b_{1} + b_{2} + \\cdots + b_{n}$，则</p><p>$S_{n} = \\left(a \\lg |a| \\right) \\left[ 1 - 2a + 3a^{2} + \\cdots + (-1)^{n-1}na^{n-1}\\right]$.</p><p>又</p><p>$(-a) S_{n} = \\left(a \\lg |a| \\right) \\left[ -a + 2a^{2} - 3a^{3} + \\cdots + (-1)^{n} na^{n} \\right]$.</p><p>两式相减，得</p><p>$(1 + a) S_{n} = \\left(a \\lg |a| \\right) \\left[ 1 - a + a^{2} - a^{3} + \\cdots + (-1)^{n-1}a^{n-1}- (-1)^{n} na^{n} \\right]$.</p><p>因为 $a\\neq-1$，所以</p>\n$$\n\\begin{aligned}S_{n}&#x26;=\\frac{a\\lg\\left|a\\right|}{\\left(1+a\\right)}\\left[\\frac{1-\\left(-a\\right)^{n}}{1-\\left(-a\\right)}-\\left(-1\\right)^{n}na^{n}\\right]\\\\&#x26;=\\frac{a\\lg\\left|a\\right|}{\\left(1+a\\right)^{2}}\\left[1-\\left(-a\\right)^{n}-\\left(-1\\right)^{n}na^{n}\\left(1+a\\right)\\right]\\\\&#x26;=\\frac{a\\lg\\left|a\\right|}{\\left(1+a\\right)^{2}}\\left[1+\\left(-1\\right)^{n+1}\\left(1+n+na\\right)a^{n}\\right].\\end{aligned}\n$$\n</li><li><p>存在所要求的自然数 $M$. 因为 $0&#x3C;a&#x3C;1$，所以 $\\lg a&#x3C;0$. 由 $b_{n}=(-1)^{n-1}na^{n}\\lg a$ 可知，当 $n$ 为奇数时 $b_{n}&#x3C;0$，当 $n$ 为偶数时 $b_{n}>0$.</p><p>对任意正整数 $k$，有</p>\n$$\n\\begin{aligned}b_{2k+2}- b_{2k}&#x26;=-(2k+2)a^{2k+2}\\lg a+2ka^{2k}\\lg a\\\\&#x26;=2a^{2k}\\lg a\\left[-(k+1)a^{2}+k\\right]\\\\&#x26;=2a^{2k}\\lg a\\left(1-a^{2}\\right)\\left(k-\\frac{a^{2}}{1-a^{2}}\\right).\\end{aligned}\n$$\n<p>其中 $2a^{2k}\\lg a&#x3C;0$，$1-a^{2}>0$. 记 $r=\\frac{a^{2}}{1-a^{2}}>0$，并令 $K=\\lfloor r\\rfloor$. 当 $1\\le k&#x3C;K$ 时，$k&#x3C;r$，所以 $b_{2k+2}-b_{2k}>0$；当 $k=K\\geqslant1$ 时，$k\\le r$，所以 $b_{2k+2}-b_{2k}\\geqslant0$；当 $k\\ge K+1$ 时，$k>r$，所以 $b_{2k+2}-b_{2k}&#x3C;0$. 因此，$b_{2K+2}$ 是所有偶数项中的最大值；当 $K\\geqslant1$ 时，偶数项先严格递增，至多在 $b_{2K}$ 与 $b_{2K+2}$ 之间取等，再递减；当 $K=0$ 时，前两段为空，结论仍为 $b_{2}>b_{4}>b_{6}>\\cdots$.</p><p>又因为所有奇数项都小于零，而 $b_{2K+2}>0$，所以取 $M=2K+2$，对任意自然数 $n$ 都有 $b_{n}\\le b_{M}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>依设，有 $a_{n}=a(-a)^{n-1}=(-1)^{n-1}a^{n}$. 所以 $b_{n} = a_{n} \\lg |a_{n}| = (-1)^{n-1}na^{n} \\lg |a|$，$n=1$，$2$，$\\cdots$. 记 $S_{n} = b_{1} + b_{2} + \\cdots + b_{n}$，则</p><p>$S_{n} = \\left(a \\lg |a| \\right) \\left[ 1 - 2a + 3a^{2} + \\cdots + (-1)^{n-1}na^{n-1}\\right]$.</p><p>又</p><p>$(-a) S_{n} = \\left(a \\lg |a| \\right) \\left[ -a + 2a^{2} - 3a^{3} + \\cdots + (-1)^{n} na^{n} \\right]$.</p><p>两式相减，得</p><p>$(1 + a) S_{n} = \\left(a \\lg |a| \\right) \\left[ 1 - a + a^{2} - a^{3} + \\cdots + (-1)^{n-1}a^{n-1}- (-1)^{n} na^{n} \\right]$.</p><p>因为 $a\\neq-1$，所以</p>\n$$\n\\begin{aligned}S_{n}&=\\frac{a\\lg\\left|a\\right|}{\\left(1+a\\right)}\\left[\\frac{1-\\left(-a\\right)^{n}}{1-\\left(-a\\right)}-\\left(-1\\right)^{n}na^{n}\\right]\\\\&=\\frac{a\\lg\\left|a\\right|}{\\left(1+a\\right)^{2}}\\left[1-\\left(-a\\right)^{n}-\\left(-1\\right)^{n}na^{n}\\left(1+a\\right)\\right]\\\\&=\\frac{a\\lg\\left|a\\right|}{\\left(1+a\\right)^{2}}\\left[1+\\left(-1\\right)^{n+1}\\left(1+n+na\\right)a^{n}\\right].\\end{aligned}\n$$\n</li><li><p>存在所要求的自然数 $M$. 因为 $0<a<1$，所以 $\\lg a<0$. 由 $b_{n}=(-1)^{n-1}na^{n}\\lg a$ 可知，当 $n$ 为奇数时 $b_{n}<0$，当 $n$ 为偶数时 $b_{n}>0$.</p><p>对任意正整数 $k$，有</p>\n$$\n\\begin{aligned}b_{2k+2}- b_{2k}&=-(2k+2)a^{2k+2}\\lg a+2ka^{2k}\\lg a\\\\&=2a^{2k}\\lg a\\left[-(k+1)a^{2}+k\\right]\\\\&=2a^{2k}\\lg a\\left(1-a^{2}\\right)\\left(k-\\frac{a^{2}}{1-a^{2}}\\right).\\end{aligned}\n$$\n<p>其中 $2a^{2k}\\lg a<0$，$1-a^{2}>0$. 记 $r=\\frac{a^{2}}{1-a^{2}}>0$，并令 $K=\\lfloor r\\rfloor$. 当 $1\\le k<K$ 时，$k<r$，所以 $b_{2k+2}-b_{2k}>0$；当 $k=K\\geqslant1$ 时，$k\\le r$，所以 $b_{2k+2}-b_{2k}\\geqslant0$；当 $k\\ge K+1$ 时，$k>r$，所以 $b_{2k+2}-b_{2k}<0$. 因此，$b_{2K+2}$ 是所有偶数项中的最大值；当 $K\\geqslant1$ 时，偶数项先严格递增，至多在 $b_{2K}$ 与 $b_{2K+2}$ 之间取等，再递减；当 $K=0$ 时，前两段为空，结论仍为 $b_{2}>b_{4}>b_{6}>\\cdots$.</p><p>又因为所有奇数项都小于零，而 $b_{2K+2}>0$，所以取 $M=2K+2$，对任意自然数 $n$ 都有 $b_{n}\\le b_{M}$.</p></li></ol>"
         }
       ]
     }

@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "设集合 $A = \\{x \\mid |x - 1| &#x3C; 2\\}$，$B = \\{y \\mid y = 2^{x}, x \\in [0,2]\\}$，则 $A \\cap B =$（ ）",
+          "body": "设集合 $A = \\{x \\mid |x - 1| < 2\\}$，$B = \\{y \\mid y = 2^{x}, x \\in [0,2]\\}$，则 $A \\cap B =$（ ）",
           "choices": [
             "$[0,2]$",
             "$(1,3)$",
@@ -29,7 +29,7 @@
             "$(1,4)$"
           ],
           "answer": "C",
-          "solution": "<p>由 $|x-1|&#x3C;2$ 得 $-1&#x3C;x&#x3C;3$，所以 $A=(-1,3)$. 又因为 $y=2^{x}$，$x\\in[0,2]$，且指数函数单调递增，故 $B=[1,4]$. 因此</p><p>$A\\cap B=[1,3)$，故选 C.</p>"
+          "solution": "<p>由 $|x-1|<2$ 得 $-1<x<3$，所以 $A=(-1,3)$. 又因为 $y=2^{x}$，$x\\in[0,2]$，且指数函数单调递增，故 $B=[1,4]$. 因此</p><p>$A\\cap B=[1,3)$，故选 C.</p>"
         },
         {
           "num": 3,
@@ -41,7 +41,7 @@
             "$\\left(0, \\frac{1}{2}\\right] \\cup [2, +\\infty)$"
           ],
           "answer": "C",
-          "solution": "<p>函数有定义必须满足 $x>0$，且根式在分母中，故</p><p>$(\\log_{2}x)^{2}-1>0$. 于是 $\\log_{2}x&#x3C;-1$ 或 $\\log_{2}x>1$，即</p><p>$0&#x3C;x&#x3C;\\frac{1}{2}$ 或 $x>2$. 所以定义域为</p><p>$\\left(0,\\frac{1}{2}\\right)\\cup(2,+\\infty)$，故选 C.</p>"
+          "solution": "<p>函数有定义必须满足 $x>0$，且根式在分母中，故</p><p>$(\\log_{2}x)^{2}-1>0$. 于是 $\\log_{2}x<-1$ 或 $\\log_{2}x>1$，即</p><p>$0<x<\\frac{1}{2}$ 或 $x>2$. 所以定义域为</p><p>$\\left(0,\\frac{1}{2}\\right)\\cup(2,+\\infty)$，故选 C.</p>"
         },
         {
           "num": 4,
@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "已知实数 $x$，$y$ 满足 $a^{x} &#x3C; a^{y}$ （$0 &#x3C; a &#x3C; 1$），则下列关系式恒成立的是（ ）",
+          "body": "已知实数 $x$，$y$ 满足 $a^{x} < a^{y}$ （$0 < a < 1$），则下列关系式恒成立的是（ ）",
           "choices": [
             "$\\frac{1}{x^{2} + 1}> \\frac{1}{y^{2} + 1}$",
             "$\\ln (x^{2} + 1) > \\ln (y^{2} + 1)$",
@@ -65,7 +65,7 @@
             "$x^{3}> y^{3}$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $0&#x3C;a&#x3C;1$，函数 $a^{x}$ 在 $\\mathbb{R}$ 上单调递减，所以由 $a^{x}&#x3C;a^{y}$ 得 $x>y$. 函数 $t^{3}$ 在 $\\mathbb{R}$ 上单调递增，因而 $x^{3}>y^{3}$，故选 D.</p><p>其余选项不恒成立：例如取 $x=2$，$y=1$，前两项分别变为 $\\frac{1}{5}>\\frac{1}{2}$ 和 $\\ln5>\\ln2$，第一项错误；取 $x=0$，$y=-1$，第二项错误；取 $x=\\pi$，$y=0$，第三项变为 $0>0$，错误.</p>"
+          "solution": "<p>因为 $0<a<1$，函数 $a^{x}$ 在 $\\mathbb{R}$ 上单调递减，所以由 $a^{x}<a^{y}$ 得 $x>y$. 函数 $t^{3}$ 在 $\\mathbb{R}$ 上单调递增，因而 $x^{3}>y^{3}$，故选 D.</p><p>其余选项不恒成立：例如取 $x=2$，$y=1$，前两项分别变为 $\\frac{1}{5}>\\frac{1}{2}$ 和 $\\ln5>\\ln2$，第一项错误；取 $x=0$，$y=-1$，第二项错误；取 $x=\\pi$，$y=0$，第三项变为 $0>0$，错误.</p>"
         },
         {
           "num": 6,
@@ -77,7 +77,7 @@
             "$4$"
           ],
           "answer": "D",
-          "solution": "<p>联立 $y=4x$ 与 $y=x^{3}$，得 $x^{3}=4x$，即 $x=0$ 或 $x=2$. 在第一象限内，边界曲线在 $0&#x3C;x&#x3C;2$ 时满足 $4x>x^{3}$，所以面积为</p>\n$$\n\\int_{0}^{2}(4x-x^{3})\\,\\mathrm{d}x  =\\left[2x^{2}-\\frac{x^{4}}{4}\\right]_{0}^{2}=8-4=4\n$$\n<p>故选 D.</p>"
+          "solution": "<p>联立 $y=4x$ 与 $y=x^{3}$，得 $x^{3}=4x$，即 $x=0$ 或 $x=2$. 在第一象限内，边界曲线在 $0<x<2$ 时满足 $4x>x^{3}$，所以面积为</p>\n$$\n\\int_{0}^{2}(4x-x^{3})\\,\\mathrm{d}x  =\\left[2x^{2}-\\frac{x^{4}}{4}\\right]_{0}^{2}=8-4=4\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 7,
@@ -101,7 +101,7 @@
             "$(2, +\\infty)$"
           ],
           "answer": "B",
-          "solution": "<p>方程分段为</p>\n$$\n\\begin{cases}3-x=kx,&#x26;x\\leqslant2,\\\\  x-1=kx,&#x26;x>2.\\end{cases}\n$$\n<p>当 $k=-1$ 时左段方程无解；当 $k=1$ 时右段方程无解. 其余情况下，左、右两段分别给出</p><p>$x_{1}=\\frac{3}{k+1}$ 和 $x_{2}=\\frac{1}{1-k}$. 每一段至多给出一个根，因此要有两个不相等的实根，必须有 $x_{1}&#x3C;2$ 且 $x_{2}>2$；等于 $2$ 时两段只给出同一个根.</p><p>由右段根必须满足 $x_{2}>2$，可知 $1-k>0$，且</p><p>$\\frac{1}{1-k}>2\\Longleftrightarrow 1>2(1-k)\\Longleftrightarrow k>\\frac{1}{2}$. 结合 $1-k>0$ 得 $\\frac{1}{2}&#x3C;k&#x3C;1$，此时 $x_{1}=\\frac{3}{k+1}&#x3C;2$，左段也确有一个根. 当 $k=\\frac{1}{2}$ 时，右段所得数值为 $x_{2}=2$，但右段要求 $x>2$，所以它不是右段的根；此时只有左段的根 $x=2$，不满足两个不相等实根的条件. 因此 $k\\in\\left(\\frac{1}{2},1\\right)$，选 B.</p>"
+          "solution": "<p>方程分段为</p>\n$$\n\\begin{cases}3-x=kx,&x\\leqslant2,\\\\  x-1=kx,&x>2.\\end{cases}\n$$\n<p>当 $k=-1$ 时左段方程无解；当 $k=1$ 时右段方程无解. 其余情况下，左、右两段分别给出</p><p>$x_{1}=\\frac{3}{k+1}$ 和 $x_{2}=\\frac{1}{1-k}$. 每一段至多给出一个根，因此要有两个不相等的实根，必须有 $x_{1}<2$ 且 $x_{2}>2$；等于 $2$ 时两段只给出同一个根.</p><p>由右段根必须满足 $x_{2}>2$，可知 $1-k>0$，且</p><p>$\\frac{1}{1-k}>2\\Longleftrightarrow 1>2(1-k)\\Longleftrightarrow k>\\frac{1}{2}$. 结合 $1-k>0$ 得 $\\frac{1}{2}<k<1$，此时 $x_{1}=\\frac{3}{k+1}<2$，左段也确有一个根. 当 $k=\\frac{1}{2}$ 时，右段所得数值为 $x_{2}=2$，但右段要求 $x>2$，所以它不是右段的根；此时只有左段的根 $x=2$，不满足两个不相等实根的条件. 因此 $k\\in\\left(\\frac{1}{2},1\\right)$，选 B.</p>"
         },
         {
           "num": 9,
@@ -174,10 +174,10 @@
       "problems": [
         {
           "num": 16,
-          "body": "<p>已知向量 $\\mathbf{a}= (m, \\cos 2x)$，$\\mathbf{b}= (\\sin 2x, n)$，函数 $f(x) = \\mathbf{a}\\cdot \\mathbf{b}$，且 $y = f(x)$ 的图象过点 $\\left(\\frac{\\pi}{12}, \\sqrt{3}\\right)$ 和点 $\\left(\\frac{2\\pi}{3}, -2\\right)$.</p><ol class=\"enumerate\"><li><p>求 $m$，$n$ 的值；</p></li><li><p>将 $y = f(x)$ 的图象向左平移 $\\varphi$（$0 &#x3C; \\varphi &#x3C; \\pi$）个单位后得到函数 $y = g(x)$ 的图象. 若 $y = g(x)$ 的图象上各最高点到点 $(0,3)$ 的距离的最小值为 1，求 $y = g(x)$ 的单调增区间.</p></li></ol>",
+          "body": "<p>已知向量 $\\mathbf{a}= (m, \\cos 2x)$，$\\mathbf{b}= (\\sin 2x, n)$，函数 $f(x) = \\mathbf{a}\\cdot \\mathbf{b}$，且 $y = f(x)$ 的图象过点 $\\left(\\frac{\\pi}{12}, \\sqrt{3}\\right)$ 和点 $\\left(\\frac{2\\pi}{3}, -2\\right)$.</p><ol class=\"enumerate\"><li><p>求 $m$，$n$ 的值；</p></li><li><p>将 $y = f(x)$ 的图象向左平移 $\\varphi$（$0 < \\varphi < \\pi$）个单位后得到函数 $y = g(x)$ 的图象. 若 $y = g(x)$ 的图象上各最高点到点 $(0,3)$ 的距离的最小值为 1，求 $y = g(x)$ 的单调增区间.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由图象过两点得</p>\n$$\n\\begin{cases}\\frac{m}{2}+\\frac{\\sqrt{3}}{2n}=\\sqrt{3},\\\\  -\\frac{\\sqrt{3}}{2m}-\\frac{1}{2}n=-2.\\end{cases}\n$$\n<p>等价于 $m+\\sqrt{3}n=2\\sqrt{3}$、$\\sqrt{3}m+n=4$，解得</p><p>$m=\\sqrt{3}$、$n=1$.</p><p>于是</p>\n$$\nf(x)=\\sqrt{3}\\sin2x+\\cos2x=2\\sin\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n</li><li><p>向左平移 $\\varphi$ 后，</p>\n$$\ng(x)=f(x+\\varphi)=2\\sin\\left(2x+2\\varphi+\\frac{\\pi}{6}\\right)\n$$\n<p>其最高点的纵坐标为 $2$，横坐标为</p><p>$x_{k}=k\\pi+\\frac{\\pi}{6}-\\varphi$. 最高点到 $(0,3)$ 的距离为</p><p>$\\sqrt{x_{k}^{2}+1}$，其最小值为 $1$ 当且仅当某个最高点的横坐标为 $0$. 由于 $0&#x3C;\\varphi&#x3C;\\pi$，得到 $\\varphi=\\frac{\\pi}{6}$.</p><p>此时 $g(x)=2\\cos2x$，故</p><p>$g'(x)=-4\\sin2x$. 当 $k\\pi-\\frac{\\pi}{2}&#x3C;x&#x3C;k\\pi$ 时 $g'(x)>0$，所以 $y=g(x)$ 的单调增区间为</p><p>$\\left[k\\pi-\\frac{\\pi}{2},k\\pi\\right]$，其中 $k\\in\\mathbb{Z}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由图象过两点得</p>\n$$\n\\begin{cases}\\frac{m}{2}+\\frac{\\sqrt{3}}{2n}=\\sqrt{3},\\\\  -\\frac{\\sqrt{3}}{2m}-\\frac{1}{2}n=-2.\\end{cases}\n$$\n<p>等价于 $m+\\sqrt{3}n=2\\sqrt{3}$、$\\sqrt{3}m+n=4$，解得</p><p>$m=\\sqrt{3}$、$n=1$.</p><p>于是</p>\n$$\nf(x)=\\sqrt{3}\\sin2x+\\cos2x=2\\sin\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n</li><li><p>向左平移 $\\varphi$ 后，</p>\n$$\ng(x)=f(x+\\varphi)=2\\sin\\left(2x+2\\varphi+\\frac{\\pi}{6}\\right)\n$$\n<p>其最高点的纵坐标为 $2$，横坐标为</p><p>$x_{k}=k\\pi+\\frac{\\pi}{6}-\\varphi$. 最高点到 $(0,3)$ 的距离为</p><p>$\\sqrt{x_{k}^{2}+1}$，其最小值为 $1$ 当且仅当某个最高点的横坐标为 $0$. 由于 $0<\\varphi<\\pi$，得到 $\\varphi=\\frac{\\pi}{6}$.</p><p>此时 $g(x)=2\\cos2x$，故</p><p>$g'(x)=-4\\sin2x$. 当 $k\\pi-\\frac{\\pi}{2}<x<k\\pi$ 时 $g'(x)>0$，所以 $y=g(x)$ 的单调增区间为</p><p>$\\left[k\\pi-\\frac{\\pi}{2},k\\pi\\right]$，其中 $k\\in\\mathbb{Z}$.</p></li></ol>"
         },
         {
           "num": 17,
@@ -205,14 +205,14 @@
           "body": "<p>设函数 $f(x) = \\frac{\\mathrm{e}^{x}}{x^{2}}- k\\left(\\frac{2}{x}+ \\ln x\\right)$ （$k$ 为常数，$\\mathrm{e}= 2.71828 \\cdots$ 是自然对数的底数）.</p><ol class=\"enumerate\"><li><p>当 $k \\le 0$ 时，求函数 $f(x)$ 的单调区间；</p></li><li><p>若函数 $f(x)$ 在 $(0,2)$ 内存在两个极值点，求 $k$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{\\mathrm{e}^{x}(x-2)}{x^{3}}-k\\frac{x-2}{x^{2}}=\\frac{(x-2)(\\mathrm{e}^{x}-kx)}{x^{3}}\n$$\n<p>当 $k\\leqslant0$、$x>0$ 时，$\\mathrm{e}^{x}-kx>0$，所以 $f'(x)&#x3C;0$ 在 $(0,2)$ 上成立，$f'(x)>0$ 在 $(2,+\\infty)$ 上成立. 因而 $f(x)$ 在 $(0,2)$ 内单调递减，在 $(2,+\\infty)$ 内单调递增.</p></li><li><p>在 $(0,2)$ 内，极值点只能来自 $\\mathrm{e}^{x}-kx=0$，即</p>\n$$\nk=\\frac{\\mathrm{e}^{x}}{x}\n$$\n<p>令 $r(x)=\\frac{\\mathrm{e}^{x}}{x}$，则</p><p>$r'(x)=\\frac{\\mathrm{e}^{x}(x-1)}{x^{2}}$，所以 $r(x)$ 在 $(0,1)$ 上递减、在 $(1,2)$ 上递增，并且 $r(1)=\\mathrm{e}$、$r(2)=\\frac{\\mathrm{e}^{2}}{2}$，而 $\\displaystyle\\lim_{x\\to0^+}r(x)=+\\infty$. 因此方程 $r(x)=k$ 在 $(0,2)$ 内恰有两个解，当且仅当</p><p>$\\mathrm{e}&#x3C;k&#x3C;\\frac{\\mathrm{e}^{2}}{2}$. 对这两个解，$r(x)-k$ 在每个解的两侧变号，结合 $f'(x)=\\frac{(x-2)x(r(x)-k)}{x^{3}}$，可知它们都是极值点. 端点情形分别对应重根或根落在区间端点，均不产生两个位于 $(0,2)$ 内的极值点.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{\\mathrm{e}^{x}(x-2)}{x^{3}}-k\\frac{x-2}{x^{2}}=\\frac{(x-2)(\\mathrm{e}^{x}-kx)}{x^{3}}\n$$\n<p>当 $k\\leqslant0$、$x>0$ 时，$\\mathrm{e}^{x}-kx>0$，所以 $f'(x)<0$ 在 $(0,2)$ 上成立，$f'(x)>0$ 在 $(2,+\\infty)$ 上成立. 因而 $f(x)$ 在 $(0,2)$ 内单调递减，在 $(2,+\\infty)$ 内单调递增.</p></li><li><p>在 $(0,2)$ 内，极值点只能来自 $\\mathrm{e}^{x}-kx=0$，即</p>\n$$\nk=\\frac{\\mathrm{e}^{x}}{x}\n$$\n<p>令 $r(x)=\\frac{\\mathrm{e}^{x}}{x}$，则</p><p>$r'(x)=\\frac{\\mathrm{e}^{x}(x-1)}{x^{2}}$，所以 $r(x)$ 在 $(0,1)$ 上递减、在 $(1,2)$ 上递增，并且 $r(1)=\\mathrm{e}$、$r(2)=\\frac{\\mathrm{e}^{2}}{2}$，而 $\\displaystyle\\lim_{x\\to0^+}r(x)=+\\infty$. 因此方程 $r(x)=k$ 在 $(0,2)$ 内恰有两个解，当且仅当</p><p>$\\mathrm{e}<k<\\frac{\\mathrm{e}^{2}}{2}$. 对这两个解，$r(x)-k$ 在每个解的两侧变号，结合 $f'(x)=\\frac{(x-2)x(r(x)-k)}{x^{3}}$，可知它们都是极值点. 端点情形分别对应重根或根落在区间端点，均不产生两个位于 $(0,2)$ 内的极值点.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>已知抛物线 $C: y^{2}= 2px$（$p > 0$）的焦点为 $F$，$A$ 为 $C$ 上异于原点的任意一点，过点 $A$ 的直线 $l$ 交 $C$ 于另一点 $B$，交 $x$ 轴的正半轴于点 $D$，且有 $|FA| = |FD|$. 当点 $A$ 的横坐标为 3 时，$\\triangle ADF$ 为正三角形.</p><ol class=\"enumerate\"><li><p>求 $C$ 的方程；</p></li><li><p>若直线 $l_{1}\\parallel l$，且 $l_{1}$ 和 $C$ 有且只有一个公共点 $E$，</p><p></p><ol class=\"enumerate\"><li><p>证明直线 $AE$ 过定点，并求出定点坐标；</p></li><li><p>$\\triangle ABE$ 的面积是否存在最小值？若存在，请求出最小值；若不存在，请说明理由.</p></li></ol><p></p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设焦点为 $F=(\\frac{p}{2},0)$，且 $A=(3,y_{A})$. 由 $A$ 在抛物线上，</p><p>$y_{A}^{2}=6p$，从而</p>\n$$\n|FA|^{2}=\\left(3-\\frac{p}{2}\\right)^{2}+6p  =\\left(3+\\frac{p}{2}\\right)^{2}\n$$\n<p>所以 $|FA|=3+\\frac{p}{2}$. 设 $D=(d,0)$，由 $|FD|=|FA|$ 得 $d=p+3$ 或 $d=-3$，而 $D$ 在正半轴上，故 $d=p+3$. 因为 $\\triangle ADF$ 为正三角形，且 $FD$ 在 $x$ 轴上，点 $A$ 的横坐标等于 $FD$ 中点的横坐标，即</p>\n$$\n3=\\frac{\\frac{p}{2}+(p+3)}{2}=\\frac{3}{2}+\\frac{3p}{4}\n$$\n<p>解得 $p=2$，故 $C$ 的方程为 $y^{2}=4x$.</p></li><li><p>设抛物线上的点用参数表示为 $P(t)=(t^{2},2t)$，则</p><p>$F=(1,0)$. 对任意异于原点的 $A$，可设 $A=P(t)$，其中 $t\\in\\mathbb{R}$ 且 $t\\ne0$. 由抛物线的焦半径公式，$|FA|=t^{2}+1$，所以</p><p>$D=(t^{2}+2,0)$. 直线 $l=AD$ 的斜率为 $-t$，方程为</p>\n$$\ny=-tx+t^{3}+2t\n$$\n<p>将 $P(u)=(u^{2},2u)$ 代入，得</p><p>$tu^{2}+2u-t^{3}-2t=0=(u-t)(tu+t^{2}+2)$. 因此另一交点</p><p>$B=P\\left(-t-\\frac{2}{t}\\right)$.</p><p></p><ol class=\"enumerate\"><li><p>抛物线 $y^{2}=4x$ 在参数 $s$ 处的切线为 $sy=x+s^{2}$，斜率为 $\\frac{1}{s}$. 与 $l$ 平行需 $\\frac{1}{s}=-t$，故 $s=-\\frac{1}{t}$，从而</p><p>$E=P(-\\frac{1}{t})=\\left(\\frac{1}{t^{2}},-\\frac{2}{t}\\right)$.</p><p>当 $t^{2}\\ne1$ 时，</p>\n$$\n\\frac{y_{E}-y_{A}}{x_{E}-x_{A}}=\\frac{-\\frac{2}{t}-2t}{\\frac{1}{t^2}-t^{2}}=\\frac{2t}{t^{2}-1}=\\frac{y_{A}}{x_{A}-1}\n$$\n<p>所以直线 $AE$ 经过 $F=(1,0)$. 当 $t^{2}=1$ 时，$A$，$E$ 的横坐标同为 $1$，直线 $AE$ 为 $x=1$，仍经过 $F$. 故定点为 $(1,0)$.</p></li><li><p>对任意参数 $r$，$s$，$t$，三点 $P(r)$，$P(s)$，$P(t)$ 所成三角形的面积为</p>\n$$\n\\frac{1}{2}\\left|\\det\\begin{pmatrix}r^{2}-s^{2}&#x26;2(r-s)\\\\ r^{2}-t^{2}&#x26;2(r-t)\\end{pmatrix}\\right|  =|(r-s)(r-t)(s-t)|\n$$\n<p>取 $A=P(t)$、$B=P(-t-\\frac{2}{t})$、$E=P(-\\frac{1}{t})$，得</p>\n$$\nS_{\\triangle ABE}=\\frac{2(t^{2}+1)^{3}}{|t|^{3}}=2\\left(|t|+\\frac{1}{|t|}\\right)^{3}\n$$\n<p>由 $|t|+\\frac{1}{|t|}\\geqslant2$，有</p><p>$S_{\\triangle ABE}\\geqslant2\\cdot2^{3}=16$. 当 $|t|=1$ 时等号成立，所以面积存在最小值，最小值为 $16$.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设焦点为 $F=(\\frac{p}{2},0)$，且 $A=(3,y_{A})$. 由 $A$ 在抛物线上，</p><p>$y_{A}^{2}=6p$，从而</p>\n$$\n|FA|^{2}=\\left(3-\\frac{p}{2}\\right)^{2}+6p  =\\left(3+\\frac{p}{2}\\right)^{2}\n$$\n<p>所以 $|FA|=3+\\frac{p}{2}$. 设 $D=(d,0)$，由 $|FD|=|FA|$ 得 $d=p+3$ 或 $d=-3$，而 $D$ 在正半轴上，故 $d=p+3$. 因为 $\\triangle ADF$ 为正三角形，且 $FD$ 在 $x$ 轴上，点 $A$ 的横坐标等于 $FD$ 中点的横坐标，即</p>\n$$\n3=\\frac{\\frac{p}{2}+(p+3)}{2}=\\frac{3}{2}+\\frac{3p}{4}\n$$\n<p>解得 $p=2$，故 $C$ 的方程为 $y^{2}=4x$.</p></li><li><p>设抛物线上的点用参数表示为 $P(t)=(t^{2},2t)$，则</p><p>$F=(1,0)$. 对任意异于原点的 $A$，可设 $A=P(t)$，其中 $t\\in\\mathbb{R}$ 且 $t\\ne0$. 由抛物线的焦半径公式，$|FA|=t^{2}+1$，所以</p><p>$D=(t^{2}+2,0)$. 直线 $l=AD$ 的斜率为 $-t$，方程为</p>\n$$\ny=-tx+t^{3}+2t\n$$\n<p>将 $P(u)=(u^{2},2u)$ 代入，得</p><p>$tu^{2}+2u-t^{3}-2t=0=(u-t)(tu+t^{2}+2)$. 因此另一交点</p><p>$B=P\\left(-t-\\frac{2}{t}\\right)$.</p><p></p><ol class=\"enumerate\"><li><p>抛物线 $y^{2}=4x$ 在参数 $s$ 处的切线为 $sy=x+s^{2}$，斜率为 $\\frac{1}{s}$. 与 $l$ 平行需 $\\frac{1}{s}=-t$，故 $s=-\\frac{1}{t}$，从而</p><p>$E=P(-\\frac{1}{t})=\\left(\\frac{1}{t^{2}},-\\frac{2}{t}\\right)$.</p><p>当 $t^{2}\\ne1$ 时，</p>\n$$\n\\frac{y_{E}-y_{A}}{x_{E}-x_{A}}=\\frac{-\\frac{2}{t}-2t}{\\frac{1}{t^2}-t^{2}}=\\frac{2t}{t^{2}-1}=\\frac{y_{A}}{x_{A}-1}\n$$\n<p>所以直线 $AE$ 经过 $F=(1,0)$. 当 $t^{2}=1$ 时，$A$，$E$ 的横坐标同为 $1$，直线 $AE$ 为 $x=1$，仍经过 $F$. 故定点为 $(1,0)$.</p></li><li><p>对任意参数 $r$，$s$，$t$，三点 $P(r)$，$P(s)$，$P(t)$ 所成三角形的面积为</p>\n$$\n\\frac{1}{2}\\left|\\det\\begin{pmatrix}r^{2}-s^{2}&2(r-s)\\\\ r^{2}-t^{2}&2(r-t)\\end{pmatrix}\\right|  =|(r-s)(r-t)(s-t)|\n$$\n<p>取 $A=P(t)$、$B=P(-t-\\frac{2}{t})$、$E=P(-\\frac{1}{t})$，得</p>\n$$\nS_{\\triangle ABE}=\\frac{2(t^{2}+1)^{3}}{|t|^{3}}=2\\left(|t|+\\frac{1}{|t|}\\right)^{3}\n$$\n<p>由 $|t|+\\frac{1}{|t|}\\geqslant2$，有</p><p>$S_{\\triangle ABE}\\geqslant2\\cdot2^{3}=16$. 当 $|t|=1$ 时等号成立，所以面积存在最小值，最小值为 $16$.</p></li></ol><p></p></li></ol>"
         }
       ]
     }

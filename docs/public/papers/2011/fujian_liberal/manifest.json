@@ -65,7 +65,7 @@
             "123"
           ],
           "answer": "",
-          "solution": "程序开始时 $a=1$. 因为 $1&#x3C;10$，执行 $a=a^{2}+2$，得到 $a=1^{2}+2=3$. 此时 $3&#x3C;10$，再次执行更新，得到 $a=3^{2}+2=11$. 由于 $11&#x3C;10$ 不成立，程序沿“否”分支输出 $a=11$. 因此选 B."
+          "solution": "程序开始时 $a=1$. 因为 $1<10$，执行 $a=a^{2}+2$，得到 $a=1^{2}+2=3$. 此时 $3<10$，再次执行更新，得到 $a=3^{2}+2=11$. 由于 $11<10$ 不成立，程序沿“否”分支输出 $a=11$. 因此选 B."
         },
         {
           "num": 6,
@@ -77,7 +77,7 @@
             "$(-\\infty, -1) \\cup (1, +\\infty)$"
           ],
           "answer": "",
-          "solution": "<p>关于 $x$ 的一元二次方程有两个不相等的实数根，当且仅当判别式大于 $0$. 所以</p>\n$$\n\\Delta=m^{2}-4>0\n$$\n<p>即 $m^{2}>4$，从而 $m&#x3C;-2$ 或 $m>2$. 因此取值范围为 $(-\\infty,-2)\\cup(2,+\\infty)$，选 C.</p>"
+          "solution": "<p>关于 $x$ 的一元二次方程有两个不相等的实数根，当且仅当判别式大于 $0$. 所以</p>\n$$\n\\Delta=m^{2}-4>0\n$$\n<p>即 $m^{2}>4$，从而 $m<-2$ 或 $m>2$. 因此取值范围为 $(-\\infty,-2)\\cup(2,+\\infty)$，选 C.</p>"
         },
         {
           "num": 7,
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "已知函数 $f(x) = \\begin{cases}2^{x},&#x26;x > 0,\\\\  x + 1,&#x26;x \\le 0.\\end{cases}$ 若 $f(a) + f(1) = 0$，则实数 $a$ 的值等于（ ）",
+          "body": "已知函数 $f(x) = \\begin{cases}2^{x},&x > 0,\\\\  x + 1,&x \\le 0.\\end{cases}$ 若 $f(a) + f(1) = 0$，则实数 $a$ 的值等于（ ）",
           "choices": [
             "$-3$",
             "$-1$",
@@ -179,10 +179,10 @@
         },
         {
           "num": 16,
-          "body": "商家通常依据“乐观系数准则”确定商品销售价格，即根据商品的最低销售限价 $a$，最高销售限价 $b$（$b > a$）以及实数 $x$（$0 &#x3C; x &#x3C; 1$）确定实际销售价格 $c = a + x (b - a)$. 这里，$x$ 被称为乐观系数. 经验表明，最佳乐观系数 $x$ 恰好使得 $(c - a)$ 是 $(b - c)$ 和 $(b - a)$ 的等比中项. 据此可得，最佳乐观系数 $x$ 的值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "商家通常依据“乐观系数准则”确定商品销售价格，即根据商品的最低销售限价 $a$，最高销售限价 $b$（$b > a$）以及实数 $x$（$0 < x < 1$）确定实际销售价格 $c = a + x (b - a)$. 这里，$x$ 被称为乐观系数. 经验表明，最佳乐观系数 $x$ 恰好使得 $(c - a)$ 是 $(b - c)$ 和 $(b - a)$ 的等比中项. 据此可得，最佳乐观系数 $x$ 的值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $c=a+x(b-a)$，得 $c-a=x(b-a)$，$b-c=(1-x)(b-a)$. 由于 $b-a>0$ 且 $0&#x3C;x&#x3C;1$，这三个量均为正数. “$c-a$ 是 $b-c$ 和 $b-a$ 的等比中项”意味着</p>\n$$\n(c-a)^{2}=(b-c)(b-a)\n$$\n<p>代入上式并约去正数 $(b-a)^{2}$，得 $x^{2}=1-x$，即 $x^{2}+x-1=0$. 解得</p>\n$$\nx=\\frac{-1\\pm\\sqrt{5}}{2}\n$$\n<p>因为 $0&#x3C;x&#x3C;1$，只能取 $x=\\frac{\\sqrt{5}-1}{2}$. 所以填 $\\frac{\\sqrt{5}-1}{2}$.</p>"
+          "solution": "<p>由 $c=a+x(b-a)$，得 $c-a=x(b-a)$，$b-c=(1-x)(b-a)$. 由于 $b-a>0$ 且 $0<x<1$，这三个量均为正数. “$c-a$ 是 $b-c$ 和 $b-a$ 的等比中项”意味着</p>\n$$\n(c-a)^{2}=(b-c)(b-a)\n$$\n<p>代入上式并约去正数 $(b-a)^{2}$，得 $x^{2}=1-x$，即 $x^{2}+x-1=0$. 解得</p>\n$$\nx=\\frac{-1\\pm\\sqrt{5}}{2}\n$$\n<p>因为 $0<x<1$，只能取 $x=\\frac{\\sqrt{5}-1}{2}$. 所以填 $\\frac{\\sqrt{5}-1}{2}$.</p>"
         }
       ]
     },
@@ -222,14 +222,14 @@
           "body": "<p>设函数 $f(\\theta) = \\sqrt{3}\\sin \\theta + \\cos \\theta$，其中，角 $\\theta$ 的顶点与坐标原点重合，始边与 $x$ 轴非负半轴重合，终边经过点 $P(x, y)$，且 $0 \\le \\theta \\le \\pi$.</p><ol class=\"enumerate\"><li><p>若点 $P$ 的坐标为 $\\left(\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$，求 $f(\\theta)$ 的值；</p></li><li><p>若点 $P(x, y)$ 为平面区域 $\\Omega$：$\\begin{cases}x + y \\ge 1,\\\\\n\nx \\le 1,\\\\\n\ny \\le 1\\end{cases}$ 上的一个动点，试确定角 $\\theta$ 的取值范围，并求函数 $f(\\theta)$ 的最小值和最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>对于第一问，点 $P=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)$ 在单位圆上，且位于第一象限，所以 $\\cos\\theta=\\frac{1}{2}$，$\\sin\\theta=\\frac{\\sqrt{3}}{2}$，从而 $\\theta=\\frac{\\pi}{3}$. 因此</p>\n$$\nf(\\theta)=\\sqrt{3}\\cdot\\frac{\\sqrt{3}}{2}+\\frac{1}{2}=2\n$$\n<p>对于第二问，由 $x+y\\geqslant1$ 和 $y\\leqslant1$ 可得 $x\\geqslant0$，由 $x+y\\geqslant1$ 和 $x\\leqslant1$ 可得 $y\\geqslant0$. 所以区域 $\\Omega$ 位于第一象限，其边界经过 $(1,0)$，$(0,1)$，$(1,1)$. 当 $0\\le\\theta\\le\\frac{\\pi}{4}$ 时，点 $(1,\\tan\\theta)\\in\\Omega$；当 $\\frac{\\pi}{4}\\le\\theta\\le\\frac{\\pi}{2}$ 时，点 $(\\cot\\theta,1)\\in\\Omega$. 因而从原点出发的射线与 $\\Omega$ 相交的角度恰为</p>\n$$\n\\theta\\in\\left[0,\\frac{\\pi}{2}\\right]\n$$\n<p>在此区间上，</p>\n$$\nf'(\\theta)=\\sqrt{3}\\cos\\theta-\\sin\\theta\n$$\n<p>令 $f'(\\theta)=0$，得 $\\tan\\theta=\\sqrt{3}$，所以 $\\theta=\\frac{\\pi}{3}$. 当 $0\\le\\theta&#x3C;\\frac{\\pi}{3}$ 时 $f'(\\theta)>0$，当 $\\frac{\\pi}{3}&#x3C;\\theta\\le\\frac{\\pi}{2}$ 时 $f'(\\theta)&#x3C;0$. 因而最大值为</p>\n$$\nf\\left(\\frac{\\pi}{3}\\right)=2\n$$\n<p>端点处 $f(0)=1$，$f\\left(\\frac{\\pi}{2}\\right)=\\sqrt{3}$，所以最小值为 $1$.</p>"
+          "solution": "<p>对于第一问，点 $P=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)$ 在单位圆上，且位于第一象限，所以 $\\cos\\theta=\\frac{1}{2}$，$\\sin\\theta=\\frac{\\sqrt{3}}{2}$，从而 $\\theta=\\frac{\\pi}{3}$. 因此</p>\n$$\nf(\\theta)=\\sqrt{3}\\cdot\\frac{\\sqrt{3}}{2}+\\frac{1}{2}=2\n$$\n<p>对于第二问，由 $x+y\\geqslant1$ 和 $y\\leqslant1$ 可得 $x\\geqslant0$，由 $x+y\\geqslant1$ 和 $x\\leqslant1$ 可得 $y\\geqslant0$. 所以区域 $\\Omega$ 位于第一象限，其边界经过 $(1,0)$，$(0,1)$，$(1,1)$. 当 $0\\le\\theta\\le\\frac{\\pi}{4}$ 时，点 $(1,\\tan\\theta)\\in\\Omega$；当 $\\frac{\\pi}{4}\\le\\theta\\le\\frac{\\pi}{2}$ 时，点 $(\\cot\\theta,1)\\in\\Omega$. 因而从原点出发的射线与 $\\Omega$ 相交的角度恰为</p>\n$$\n\\theta\\in\\left[0,\\frac{\\pi}{2}\\right]\n$$\n<p>在此区间上，</p>\n$$\nf'(\\theta)=\\sqrt{3}\\cos\\theta-\\sin\\theta\n$$\n<p>令 $f'(\\theta)=0$，得 $\\tan\\theta=\\sqrt{3}$，所以 $\\theta=\\frac{\\pi}{3}$. 当 $0\\le\\theta<\\frac{\\pi}{3}$ 时 $f'(\\theta)>0$，当 $\\frac{\\pi}{3}<\\theta\\le\\frac{\\pi}{2}$ 时 $f'(\\theta)<0$. 因而最大值为</p>\n$$\nf\\left(\\frac{\\pi}{3}\\right)=2\n$$\n<p>端点处 $f(0)=1$，$f\\left(\\frac{\\pi}{2}\\right)=\\sqrt{3}$，所以最小值为 $1$.</p>"
         },
         {
           "num": 22,
-          "body": "<p>已知 $a$，$b$ 为常数，且 $a \\neq 0$. 函数 $f(x) = -ax + b + ax \\ln x$，$f(\\mathrm{e}) = 2$（$\\mathrm{e}= 2.71828 \\cdots$ 是自然对数的底数）.</p><ol class=\"enumerate\"><li><p>求实数 $b$ 的值；</p></li><li><p>求函数 $f(x)$ 的单调区间；</p></li><li><p>当 $a = 1$ 时，是否同时存在实数 $m$ 和 $M$（$m &#x3C; M$），使得对每一个 $t \\in [m, M]$，直线 $y = t$ 与曲线 $y = f(x)$（$x \\in \\left[ \\frac{1}{\\mathrm{e}}, \\mathrm{e}\\right]$）都有公共点？若存在，求出最小的实数 $m$ 和最大的实数 $M$；若不存在，说明理由.</p></li></ol>",
+          "body": "<p>已知 $a$，$b$ 为常数，且 $a \\neq 0$. 函数 $f(x) = -ax + b + ax \\ln x$，$f(\\mathrm{e}) = 2$（$\\mathrm{e}= 2.71828 \\cdots$ 是自然对数的底数）.</p><ol class=\"enumerate\"><li><p>求实数 $b$ 的值；</p></li><li><p>求函数 $f(x)$ 的单调区间；</p></li><li><p>当 $a = 1$ 时，是否同时存在实数 $m$ 和 $M$（$m < M$），使得对每一个 $t \\in [m, M]$，直线 $y = t$ 与曲线 $y = f(x)$（$x \\in \\left[ \\frac{1}{\\mathrm{e}}, \\mathrm{e}\\right]$）都有公共点？若存在，求出最小的实数 $m$ 和最大的实数 $M$；若不存在，说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>函数的定义域为 $x>0$. 将 $x=\\mathrm{e}$ 代入，因 $\\ln\\mathrm{e}=1$，得</p>\n$$\nf(\\mathrm{e})=-a\\mathrm{e}+b+a\\mathrm{e}\\ln\\mathrm{e}=-a\\mathrm{e}+b+a\\mathrm{e}=b\n$$\n<p>由 $f(\\mathrm{e})=2$，得到 $b=2$.</p><p>对 $f(x)$ 求导，得</p>\n$$\nf'(x)=-a+a(\\ln x+1)=a\\ln x\n$$\n<p>当 $a>0$ 时，$0&#x3C;x&#x3C;1$ 有 $\\ln x&#x3C;0$，$x>1$ 有 $\\ln x>0$，所以 $f(x)$ 在 $(0,1)$ 上单调递减，在 $(1,+\\infty)$ 上单调递增. 当 $a&#x3C;0$ 时，导数符号相反，所以 $f(x)$ 在 $(0,1)$ 上单调递增，在 $(1,+\\infty)$ 上单调递减.</p><p>当 $a=1$ 时，$f(x)=-x+2+x\\ln x$. 在区间 $\\left[\\frac{1}{\\mathrm{e}},\\mathrm{e}\\right]$ 上，函数在 $x=1$ 处取得最小值</p>\n$$\nf(1)=-1+2=1\n$$\n<p>函数在 $[1,\\mathrm{e}]$ 上递增，且</p>\n$$\nf(\\mathrm{e})=2\n$$\n<p>又在 $\\left[\\frac{1}{\\mathrm{e}},1\\right]$ 上递减，且</p>\n$$\nf\\left(\\frac{1}{\\mathrm{e}}\\right)=2-\\frac{2}{\\mathrm{e}}&#x3C;2\n$$\n<p>所以区间上的最大值为 $2$. 函数连续，值域为 $[1,2]$，因此当且仅当 $t\\in[1,2]$ 时直线 $y=t$ 与曲线有公共点. 所以同时存在这样的 $m$，$M$，其最小值和最大值分别为 $m=1$，$M=2$.</p>"
+          "solution": "<p>函数的定义域为 $x>0$. 将 $x=\\mathrm{e}$ 代入，因 $\\ln\\mathrm{e}=1$，得</p>\n$$\nf(\\mathrm{e})=-a\\mathrm{e}+b+a\\mathrm{e}\\ln\\mathrm{e}=-a\\mathrm{e}+b+a\\mathrm{e}=b\n$$\n<p>由 $f(\\mathrm{e})=2$，得到 $b=2$.</p><p>对 $f(x)$ 求导，得</p>\n$$\nf'(x)=-a+a(\\ln x+1)=a\\ln x\n$$\n<p>当 $a>0$ 时，$0<x<1$ 有 $\\ln x<0$，$x>1$ 有 $\\ln x>0$，所以 $f(x)$ 在 $(0,1)$ 上单调递减，在 $(1,+\\infty)$ 上单调递增. 当 $a<0$ 时，导数符号相反，所以 $f(x)$ 在 $(0,1)$ 上单调递增，在 $(1,+\\infty)$ 上单调递减.</p><p>当 $a=1$ 时，$f(x)=-x+2+x\\ln x$. 在区间 $\\left[\\frac{1}{\\mathrm{e}},\\mathrm{e}\\right]$ 上，函数在 $x=1$ 处取得最小值</p>\n$$\nf(1)=-1+2=1\n$$\n<p>函数在 $[1,\\mathrm{e}]$ 上递增，且</p>\n$$\nf(\\mathrm{e})=2\n$$\n<p>又在 $\\left[\\frac{1}{\\mathrm{e}},1\\right]$ 上递减，且</p>\n$$\nf\\left(\\frac{1}{\\mathrm{e}}\\right)=2-\\frac{2}{\\mathrm{e}}<2\n$$\n<p>所以区间上的最大值为 $2$. 函数连续，值域为 $[1,2]$，因此当且仅当 $t\\in[1,2]$ 时直线 $y=t$ 与曲线有公共点. 所以同时存在这样的 $m$，$M$，其最小值和最大值分别为 $m=1$，$M=2$.</p>"
         }
       ]
     }

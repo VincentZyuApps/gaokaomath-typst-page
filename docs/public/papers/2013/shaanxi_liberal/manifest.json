@@ -72,12 +72,12 @@
           "body": "设 $z$ 是复数，则下列命题中的假命题是（ ）",
           "choices": [
             "若 $z^{2}\\ge 0$，则 $z$ 是实数",
-            "若 $z^{2} &#x3C; 0$，则 $z$ 是虚数",
+            "若 $z^{2} < 0$，则 $z$ 是虚数",
             "若 $z$ 是虚数，则 $z^{2} \\ge 0$",
-            "若 $z$ 是纯虚数，则 $z^{2} &#x3C; 0$"
+            "若 $z$ 是纯虚数，则 $z^{2} < 0$"
           ],
           "answer": "C",
-          "solution": "<p>设 $z=u+v\\mathrm{i}$，其中 $u$，$v\\in\\mathbb{R}$. 若 $z^{2}\\geqslant0$，则 $z^{2}$ 为非负实数，而</p>\n$$\nz^{2}=u^{2}-v^{2}+2uv\\mathrm{i}\n$$\n<p>于是 $uv=0$. 若 $v=0$，则 $z$ 为实数；若 $u=0$，则 $z^{2}=-v^{2}\\geqslant0$，从而 $v=0$，此时 $z=0$ 仍为实数，所以选项 A 正确.</p><p>若 $z^{2}&#x3C;0$，同样由虚部为零得 $uv=0$. 由于 $z^{2}$ 为负数，不能有 $v=0$，故 $u=0$ 且 $v\\ne0$，所以 $z$ 是虚数，选项 B 正确. 若 $z$ 是纯虚数，即 $z=v\\mathrm{i}$ 且 $v\\ne0$，则 $z^{2}=-v^{2}&#x3C;0$，选项 D 正确. 取 $z=\\mathrm{i}$，则 $z$ 是虚数但 $z^{2}=-1&#x3C;0$，不满足 $z^{2}\\geqslant0$，所以 C 是假命题.</p>"
+          "solution": "<p>设 $z=u+v\\mathrm{i}$，其中 $u$，$v\\in\\mathbb{R}$. 若 $z^{2}\\geqslant0$，则 $z^{2}$ 为非负实数，而</p>\n$$\nz^{2}=u^{2}-v^{2}+2uv\\mathrm{i}\n$$\n<p>于是 $uv=0$. 若 $v=0$，则 $z$ 为实数；若 $u=0$，则 $z^{2}=-v^{2}\\geqslant0$，从而 $v=0$，此时 $z=0$ 仍为实数，所以选项 A 正确.</p><p>若 $z^{2}<0$，同样由虚部为零得 $uv=0$. 由于 $z^{2}$ 为负数，不能有 $v=0$，故 $u=0$ 且 $v\\ne0$，所以 $z$ 是虚数，选项 B 正确. 若 $z$ 是纯虚数，即 $z=v\\mathrm{i}$ 且 $v\\ne0$，则 $z^{2}=-v^{2}<0$，选项 D 正确. 取 $z=\\mathrm{i}$，则 $z$ 是虚数但 $z^{2}=-1<0$，不满足 $z^{2}\\geqslant0$，所以 C 是假命题.</p>"
         },
         {
           "num": 7,
@@ -101,7 +101,7 @@
             "不确定"
           ],
           "answer": "B",
-          "solution": "<p>点 $M(a,b)$ 在单位圆外，故 $a^{2}+b^{2}>1$. 直线 $ax+by=1$ 到圆心 $O(0,0)$ 的距离为</p>\n$$\nd=\\frac{1}{\\sqrt{a^{2}+b^{2}}}&#x3C;1\n$$\n<p>由于圆 $O$ 的半径为 $1$，圆心到直线的距离小于半径，所以直线与圆相交，故选 B.</p>"
+          "solution": "<p>点 $M(a,b)$ 在单位圆外，故 $a^{2}+b^{2}>1$. 直线 $ax+by=1$ 到圆心 $O(0,0)$ 的距离为</p>\n$$\nd=\\frac{1}{\\sqrt{a^{2}+b^{2}}}<1\n$$\n<p>由于圆 $O$ 的半径为 $1$，圆心到直线的距离小于半径，所以直线与圆相交，故选 B.</p>"
         },
         {
           "num": 9,
@@ -113,7 +113,7 @@
             "不确定"
           ],
           "answer": "A",
-          "solution": "<p>由余弦定理，</p><p>$b\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2a}$，$c\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2a}$.</p><p>两式相加得 $b\\cos C+c\\cos B=a$. 代入题设并注意 $a>0$，得 $a=a\\sin A$，即 $\\sin A=1$. 由于 $0&#x3C;A&#x3C;\\pi$，所以 $A=\\frac{\\pi}{2}$，三角形为直角三角形，故选 A.</p>"
+          "solution": "<p>由余弦定理，</p><p>$b\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2a}$，$c\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2a}$.</p><p>两式相加得 $b\\cos C+c\\cos B=a$. 代入题设并注意 $a>0$，得 $a=a\\sin A$，即 $\\sin A=1$. 由于 $0<A<\\pi$，所以 $A=\\frac{\\pi}{2}$，三角形为直角三角形，故选 A.</p>"
         },
         {
           "num": 10,
@@ -125,7 +125,7 @@
             "$[x] + \\left[x + \\frac{1}{2}\\right] = [2x]$"
           ],
           "answer": "D",
-          "solution": "<p>设 $x=n+r$，其中 $n=[x]$，$0\\le r&#x3C;1$. 当 $0\\le r&#x3C;\\frac{1}{2}$ 时，</p>\n$$\n[x]+\\left[x+\\frac{1}{2}\\right]=n+n=2n=[2x]\n$$\n<p>当 $\\frac{1}{2}\\le r&#x3C;1$ 时，</p>\n$$\n[x]+\\left[x+\\frac{1}{2}\\right]=n+(n+1)=2n+1=[2x]\n$$\n<p>因此选项 D 对任意实数 $x$ 恒成立. 其余选项分别取 $x=\\frac{1}{2}$、$x=\\frac{3}{4}$、$x=\\frac{3}{4}$ 即可得到反例，故选 D.</p>"
+          "solution": "<p>设 $x=n+r$，其中 $n=[x]$，$0\\le r<1$. 当 $0\\le r<\\frac{1}{2}$ 时，</p>\n$$\n[x]+\\left[x+\\frac{1}{2}\\right]=n+n=2n=[2x]\n$$\n<p>当 $\\frac{1}{2}\\le r<1$ 时，</p>\n$$\n[x]+\\left[x+\\frac{1}{2}\\right]=n+(n+1)=2n+1=[2x]\n$$\n<p>因此选项 D 对任意实数 $x$ 恒成立. 其余选项分别取 $x=\\frac{1}{2}$、$x=\\frac{3}{4}$、$x=\\frac{3}{4}$ 即可得到反例，故选 D.</p>"
         }
       ]
     },
@@ -203,7 +203,7 @@
           "body": "<p>设 $S_{n}$ 表示数列 $\\{a_{n}\\}$ 的前 $n$ 项和.</p><ol class=\"enumerate\"><li><p>若 $\\{a_{n}\\}$ 是等差数列，推导 $S_{n}$ 的计算公式.</p></li><li><p>若 $a_{1}= 1$，$q \\neq 0$，且对所有正整数 $n$，有 $S_{n}= \\frac{1 - q^{n}}{1 - q}$，判断 $\\{a_{n}\\}$ 是否为等比数列，并证明你的结论.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>（1）设等差数列的公差为 $d$，则</p>\n$$\na_{n}=a_{1}+(n-1)d\n$$\n<p>把前 $n$ 项和倒序相加，得</p>\n$$\n\\begin{aligned}2S_{n}&#x26;=(a_{1}+a_{n})+(a_{2}+a_{n-1})+\\cdots+(a_{n}+a_{1})\\\\&#x26;=n(a_{1}+a_{n}).\\end{aligned}\n$$\n<p>所以</p>\n$$\nS_{n}=\\frac{n(a_{1}+a_{n})}{2}  =\\frac{n}{2}\\bigl(2a_{1}+(n-1)d\\bigr)  =n\\left(a_{1}+\\frac{n-1}{2}d\\right)\n$$\n<p>（2）题中等式有定义时 $q\\ne1$. 由 $n=1$ 得</p>\n$$\nS_{1}=\\frac{1-q}{1-q}=1=a_{1}\n$$\n<p>对 $n\\geqslant2$，由 $a_{n}=S_{n}-S_{n-1}$ 得</p>\n$$\na_{n}=\\frac{1-q^{n}}{1-q}-\\frac{1-q^{n-1}}{1-q}=\\frac{q^{n-1}-q^{n}}{1-q}=q^{n-1}\n$$\n<p>因此 $a_{1}=q^{0}=1$，且对所有正整数 $n$ 都有 $a_{n}=q^{n-1}$. 所以 $\\{a_{n}\\}$ 是首项为 $1$、公比为 $q$ 的等比数列.</p>"
+          "solution": "<p>（1）设等差数列的公差为 $d$，则</p>\n$$\na_{n}=a_{1}+(n-1)d\n$$\n<p>把前 $n$ 项和倒序相加，得</p>\n$$\n\\begin{aligned}2S_{n}&=(a_{1}+a_{n})+(a_{2}+a_{n-1})+\\cdots+(a_{n}+a_{1})\\\\&=n(a_{1}+a_{n}).\\end{aligned}\n$$\n<p>所以</p>\n$$\nS_{n}=\\frac{n(a_{1}+a_{n})}{2}  =\\frac{n}{2}\\bigl(2a_{1}+(n-1)d\\bigr)  =n\\left(a_{1}+\\frac{n-1}{2}d\\right)\n$$\n<p>（2）题中等式有定义时 $q\\ne1$. 由 $n=1$ 得</p>\n$$\nS_{1}=\\frac{1-q}{1-q}=1=a_{1}\n$$\n<p>对 $n\\geqslant2$，由 $a_{n}=S_{n}-S_{n-1}$ 得</p>\n$$\na_{n}=\\frac{1-q^{n}}{1-q}-\\frac{1-q^{n-1}}{1-q}=\\frac{q^{n-1}-q^{n}}{1-q}=q^{n-1}\n$$\n<p>因此 $a_{1}=q^{0}=1$，且对所有正整数 $n$ 都有 $a_{n}=q^{n-1}$. 所以 $\\{a_{n}\\}$ 是首项为 $1$、公比为 $q$ 的等比数列.</p>"
         },
         {
           "num": 20,
@@ -228,10 +228,10 @@
         },
         {
           "num": 23,
-          "body": "<p>已知函数 $f(x) = \\mathrm{e}^{x}$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的反函数的图象上点 $(1,0)$ 处的切线方程.</p></li><li><p>证明：曲线 $y = f(x)$ 与曲线 $y = \\frac{1}{2}x^{2} + x + 1$ 有唯一公共点.</p></li><li><p>设 $a &#x3C; b$，比较 $f\\left(\\frac{a + b}{2}\\right)$ 与 $\\frac{f(b) - f(a)}{b - a}$ 的大小，并说明理由.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = \\mathrm{e}^{x}$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的反函数的图象上点 $(1,0)$ 处的切线方程.</p></li><li><p>证明：曲线 $y = f(x)$ 与曲线 $y = \\frac{1}{2}x^{2} + x + 1$ 有唯一公共点.</p></li><li><p>设 $a < b$，比较 $f\\left(\\frac{a + b}{2}\\right)$ 与 $\\frac{f(b) - f(a)}{b - a}$ 的大小，并说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>（1）由 $y=\\mathrm{e}^{x}$ 得 $x=\\ln y$，交换 $x$，$y$ 后，反函数为</p><p>$y=\\ln x$，$x>0$.</p><p>其导数为 $y'=\\frac{1}{x}$，所以在点 $(1,0)$ 处的切线斜率为 $1$. 切线方程为</p>\n$$\ny-0=1(x-1)\n$$\n<p>即 $y=x-1$.</p><p>（2）公共点的横坐标满足</p>\n$$\n\\mathrm{e}^{x}=\\frac{1}{2}x^{2}+x+1\n$$\n<p>令</p>\n$$\nh(x)=\\mathrm{e}^{x}-\\frac{1}{2}x^{2}-x-1\n$$\n<p>则 $h(0)=0$，且</p><p>$h'(x)=\\mathrm{e}^{x}-x-1$，$h''(x)=\\mathrm{e}^{x}-1$.</p><p>当 $x&#x3C;0$ 时，$h''(x)&#x3C;0$，而 $h'(0)=0$，所以 $h'(x)>0$；当 $x>0$ 时，$h''(x)>0$，所以 $h'(x)>h'(0)=0$. 因此 $h'(x)>0$ 对 $x\\ne0$ 成立，$h$ 在实数轴上严格递增. 由于 $h(0)=0$，方程 $h(x)=0$ 只有唯一解 $x=0$，对应 $y=\\mathrm{e}^{0}=1$. 故两曲线唯一公共点为 $(0,1)$.</p><p>（3）令</p><p>$m=\\frac{a+b}{2}$，$d=\\frac{b-a}{2}>0$.</p><p>则 $a=m-d$，$\\ b=m+d$，从而</p>\n$$\n\\frac{f(b)-f(a)}{b-a}=\\frac{\\mathrm{e}^{m+d}-\\mathrm{e}^{m-d}}{2d}=\\mathrm{e}^{m}\\frac{\\mathrm{e}^{d}-\\mathrm{e}^{-d}}{2d}\n$$\n<p>令 $\\varphi(d)=\\mathrm{e}^{d}-\\mathrm{e}^{-d}-2d$. 有 $\\varphi(0)=0$，且当 $d>0$ 时</p>\n$$\n\\varphi'(d)=\\mathrm{e}^{d}+\\mathrm{e}^{-d}-2>0\n$$\n<p>其中不等号由 $\\mathrm{e}^{d}$ 与 $\\mathrm{e}^{-d}$ 的算术—几何平均不等式得到，且 $d>0$ 时不取等. 因而 $\\varphi(d)>0$，即</p>\n$$\n\\frac{\\mathrm{e}^{d}-\\mathrm{e}^{-d}}{2d}>1\n$$\n<p>由于 $\\mathrm{e}^{m}>0$，所以</p>\n$$\n\\frac{f(b)-f(a)}{b-a}>\\mathrm{e}^{m}  =f\\left(\\frac{a+b}{2}\\right)\n$$"
+          "solution": "<p>（1）由 $y=\\mathrm{e}^{x}$ 得 $x=\\ln y$，交换 $x$，$y$ 后，反函数为</p><p>$y=\\ln x$，$x>0$.</p><p>其导数为 $y'=\\frac{1}{x}$，所以在点 $(1,0)$ 处的切线斜率为 $1$. 切线方程为</p>\n$$\ny-0=1(x-1)\n$$\n<p>即 $y=x-1$.</p><p>（2）公共点的横坐标满足</p>\n$$\n\\mathrm{e}^{x}=\\frac{1}{2}x^{2}+x+1\n$$\n<p>令</p>\n$$\nh(x)=\\mathrm{e}^{x}-\\frac{1}{2}x^{2}-x-1\n$$\n<p>则 $h(0)=0$，且</p><p>$h'(x)=\\mathrm{e}^{x}-x-1$，$h''(x)=\\mathrm{e}^{x}-1$.</p><p>当 $x<0$ 时，$h''(x)<0$，而 $h'(0)=0$，所以 $h'(x)>0$；当 $x>0$ 时，$h''(x)>0$，所以 $h'(x)>h'(0)=0$. 因此 $h'(x)>0$ 对 $x\\ne0$ 成立，$h$ 在实数轴上严格递增. 由于 $h(0)=0$，方程 $h(x)=0$ 只有唯一解 $x=0$，对应 $y=\\mathrm{e}^{0}=1$. 故两曲线唯一公共点为 $(0,1)$.</p><p>（3）令</p><p>$m=\\frac{a+b}{2}$，$d=\\frac{b-a}{2}>0$.</p><p>则 $a=m-d$，$\\ b=m+d$，从而</p>\n$$\n\\frac{f(b)-f(a)}{b-a}=\\frac{\\mathrm{e}^{m+d}-\\mathrm{e}^{m-d}}{2d}=\\mathrm{e}^{m}\\frac{\\mathrm{e}^{d}-\\mathrm{e}^{-d}}{2d}\n$$\n<p>令 $\\varphi(d)=\\mathrm{e}^{d}-\\mathrm{e}^{-d}-2d$. 有 $\\varphi(0)=0$，且当 $d>0$ 时</p>\n$$\n\\varphi'(d)=\\mathrm{e}^{d}+\\mathrm{e}^{-d}-2>0\n$$\n<p>其中不等号由 $\\mathrm{e}^{d}$ 与 $\\mathrm{e}^{-d}$ 的算术—几何平均不等式得到，且 $d>0$ 时不取等. 因而 $\\varphi(d)>0$，即</p>\n$$\n\\frac{\\mathrm{e}^{d}-\\mathrm{e}^{-d}}{2d}>1\n$$\n<p>由于 $\\mathrm{e}^{m}>0$，所以</p>\n$$\n\\frac{f(b)-f(a)}{b-a}>\\mathrm{e}^{m}  =f\\left(\\frac{a+b}{2}\\right)\n$$"
         }
       ]
     }

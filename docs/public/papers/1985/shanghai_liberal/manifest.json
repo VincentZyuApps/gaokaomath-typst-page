@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "<p>不等式 $\\left|x+2\\right|&#x3C;1$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\left(-3,-1\\right)$</p><p>由绝对值不等式的意义，$\\left|x+2\\right|&#x3C;1$ 等价于 $-1&#x3C;x+2&#x3C;1$. 不等式两边同时减去 $2$，得 $-3&#x3C;x&#x3C;-1$，所以解集为 $\\left(-3,-1\\right)$.</p>",
+          "body": "<p>不等式 $\\left|x+2\\right|<1$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\left(-3,-1\\right)$</p><p>由绝对值不等式的意义，$\\left|x+2\\right|<1$ 等价于 $-1<x+2<1$. 不等式两边同时减去 $2$，得 $-3<x<-1$，所以解集为 $\\left(-3,-1\\right)$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -44,7 +44,7 @@
         },
         {
           "num": 6,
-          "body": "<p>用不等号 $>$ 或 $&#x3C;$ 连接：$\\left(\\frac{1}{2}\\right)^{\\frac{1}{7}}$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\left(\\frac{1}{2}\\right)^{\\frac{1}{6}}$.</p><p>$>$</p><p>因为 $0&#x3C;\\dfrac{1}{2}&#x3C;1$，所以指数函数 $y=\\left(\\dfrac{1}{2}\\right)^{t}$ 在 $\\mathbb{R}$ 上严格递减. 又因为 $\\dfrac{1}{7}&#x3C;\\dfrac{1}{6}$，递减性给出 $\\left(\\dfrac{1}{2}\\right)^{\\frac{1}{7}}>\\left(\\dfrac{1}{2}\\right)^{\\frac{1}{6}}$，故应填 $>$.</p>",
+          "body": "<p>用不等号 $>$ 或 $<$ 连接：$\\left(\\frac{1}{2}\\right)^{\\frac{1}{7}}$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\left(\\frac{1}{2}\\right)^{\\frac{1}{6}}$.</p><p>$>$</p><p>因为 $0<\\dfrac{1}{2}<1$，所以指数函数 $y=\\left(\\dfrac{1}{2}\\right)^{t}$ 在 $\\mathbb{R}$ 上严格递减. 又因为 $\\dfrac{1}{7}<\\dfrac{1}{6}$，递减性给出 $\\left(\\dfrac{1}{2}\\right)^{\\frac{1}{7}}>\\left(\\dfrac{1}{2}\\right)^{\\frac{1}{6}}$，故应填 $>$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -58,7 +58,7 @@
         },
         {
           "num": 8,
-          "body": "<p>直线 $y=-x+3$ 的倾斜角的大小是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\dfrac{3\\pi}{4}$</p><p>直线的斜率为 $k=-1$. 设倾斜角为 $\\theta$，按定义有 $0\\le\\theta&#x3C;\\pi$ 且 $\\tan\\theta=k=-1$. 在这个范围内，$\\tan\\theta=-1$ 的角为第二象限角 $\\theta=\\dfrac{3\\pi}{4}$，所以倾斜角为 $\\dfrac{3\\pi}{4}$.</p>",
+          "body": "<p>直线 $y=-x+3$ 的倾斜角的大小是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\dfrac{3\\pi}{4}$</p><p>直线的斜率为 $k=-1$. 设倾斜角为 $\\theta$，按定义有 $0\\le\\theta<\\pi$ 且 $\\tan\\theta=k=-1$. 在这个范围内，$\\tan\\theta=-1$ 的角为第二象限角 $\\theta=\\dfrac{3\\pi}{4}$，所以倾斜角为 $\\dfrac{3\\pi}{4}$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -132,7 +132,7 @@
         },
         {
           "num": 15,
-          "body": "<p>$a>0$ 且 $b>0$，是 $ab>0$ 的（ ）</p><p>A</p><p>若 $a>0$ 且 $b>0$，则正数与正数的乘积为正数，即 $ab>0$，所以该条件是充分条件. 但 $ab>0$ 也可能由 $a&#x3C;0$ 且 $b&#x3C;0$ 得到，例如 $a=b=-1$ 时 $ab=1>0$，而 $a>0$ 且 $b>0$ 不成立. 因此该条件不是必要条件，故选“充分但不必要的条件”，即 A.</p>",
+          "body": "<p>$a>0$ 且 $b>0$，是 $ab>0$ 的（ ）</p><p>A</p><p>若 $a>0$ 且 $b>0$，则正数与正数的乘积为正数，即 $ab>0$，所以该条件是充分条件. 但 $ab>0$ 也可能由 $a<0$ 且 $b<0$ 得到，例如 $a=b=-1$ 时 $ab=1>0$，而 $a>0$ 且 $b>0$ 不成立. 因此该条件不是必要条件，故选“充分但不必要的条件”，即 A.</p>",
           "choices": [
             "充分但不必要的条件",
             "必要但不充分的条件",
@@ -170,7 +170,7 @@
         },
         {
           "num": 19,
-          "body": "<ol class=\"enumerate\"><li><p>证明万能公式：$\\sin\\alpha=\\frac{2\\tan\\frac{\\alpha}{2}}{1+\\tan^{2}\\frac{\\alpha}{2}}$.</p></li><li><p>已知：$\\cos\\alpha=-\\frac{1}{3}$，$\\pi&#x3C;\\alpha&#x3C;\\frac{3\\pi}{2}$，求：$\\cos\\left(\\frac{\\alpha}{2}+\\frac{5\\pi}{6}\\right)$.</p></li></ol><ol class=\"enumerate\"><li><p>当 $\\tan\\dfrac{\\alpha}{2}$ 有意义时，即 $\\alpha\\neq(2m+1)\\pi$（$m\\in\\mathbb{Z}$），有 $\\cos\\dfrac{\\alpha}{2}\\neq0$. 由正弦二倍角公式并将分子、分母同除以 $\\cos^{2}\\dfrac{\\alpha}{2}$，得</p>\n$$\n\\sin\\alpha=\\frac{2\\sin\\frac{\\alpha}{2}\\cos\\frac{\\alpha}{2}}{\\cos^{2}\\frac{\\alpha}{2}}=\\frac{2\\tan\\frac{\\alpha}{2}}{\\sec^{2}\\frac{\\alpha}{2}}=\\frac{2\\tan\\frac{\\alpha}{2}}{1+\\tan^{2}\\frac{\\alpha}{2}}\n$$\n<p>所以公式得证.</p></li><li><p>由 $\\pi&#x3C;\\alpha&#x3C;\\dfrac{3\\pi}{2}$，两边同除以 $2$，得 $\\dfrac{\\pi}{2}&#x3C;\\dfrac{\\alpha}{2}&#x3C;\\dfrac{3\\pi}{4}$，所以 $\\dfrac{\\alpha}{2}$ 位于第二象限，正弦为正、余弦为负. 由半角公式，</p><p>$\\cos\\dfrac{\\alpha}{2}=-\\sqrt{\\dfrac{1+\\cos\\alpha}{2}}=-\\sqrt{\\dfrac{1-\\frac{1}{3}}{2}}=-\\dfrac{1}{\\sqrt{3}}$，</p><p>$\\sin\\dfrac{\\alpha}{2}=\\sqrt{\\dfrac{1-\\cos\\alpha}{2}}=\\sqrt{\\dfrac{1+\\frac{1}{3}}{2}}=\\sqrt{\\dfrac{2}{3}}$.</p><p>又因为 $\\cos\\dfrac{5\\pi}{6}=-\\dfrac{\\sqrt{3}}{2}$，$\\sin\\dfrac{5\\pi}{6}=\\dfrac{1}{2}$，由两角和公式得</p>\n$$\n\\cos\\left(\\frac{\\alpha}{2}+\\frac{5\\pi}{6}\\right)=\\left(-\\frac{1}{\\sqrt{3}}\\right)\\left(-\\frac{\\sqrt{3}}{2}\\right)-\\sqrt{\\frac{2}{3}}\\cdot\\frac{1}{2}=\\frac{1}{2}-\\frac{\\sqrt{6}}{6}=\\frac{3-\\sqrt{6}}{6}\n$$\n</li></ol>",
+          "body": "<ol class=\"enumerate\"><li><p>证明万能公式：$\\sin\\alpha=\\frac{2\\tan\\frac{\\alpha}{2}}{1+\\tan^{2}\\frac{\\alpha}{2}}$.</p></li><li><p>已知：$\\cos\\alpha=-\\frac{1}{3}$，$\\pi<\\alpha<\\frac{3\\pi}{2}$，求：$\\cos\\left(\\frac{\\alpha}{2}+\\frac{5\\pi}{6}\\right)$.</p></li></ol><ol class=\"enumerate\"><li><p>当 $\\tan\\dfrac{\\alpha}{2}$ 有意义时，即 $\\alpha\\neq(2m+1)\\pi$（$m\\in\\mathbb{Z}$），有 $\\cos\\dfrac{\\alpha}{2}\\neq0$. 由正弦二倍角公式并将分子、分母同除以 $\\cos^{2}\\dfrac{\\alpha}{2}$，得</p>\n$$\n\\sin\\alpha=\\frac{2\\sin\\frac{\\alpha}{2}\\cos\\frac{\\alpha}{2}}{\\cos^{2}\\frac{\\alpha}{2}}=\\frac{2\\tan\\frac{\\alpha}{2}}{\\sec^{2}\\frac{\\alpha}{2}}=\\frac{2\\tan\\frac{\\alpha}{2}}{1+\\tan^{2}\\frac{\\alpha}{2}}\n$$\n<p>所以公式得证.</p></li><li><p>由 $\\pi<\\alpha<\\dfrac{3\\pi}{2}$，两边同除以 $2$，得 $\\dfrac{\\pi}{2}<\\dfrac{\\alpha}{2}<\\dfrac{3\\pi}{4}$，所以 $\\dfrac{\\alpha}{2}$ 位于第二象限，正弦为正、余弦为负. 由半角公式，</p><p>$\\cos\\dfrac{\\alpha}{2}=-\\sqrt{\\dfrac{1+\\cos\\alpha}{2}}=-\\sqrt{\\dfrac{1-\\frac{1}{3}}{2}}=-\\dfrac{1}{\\sqrt{3}}$，</p><p>$\\sin\\dfrac{\\alpha}{2}=\\sqrt{\\dfrac{1-\\cos\\alpha}{2}}=\\sqrt{\\dfrac{1+\\frac{1}{3}}{2}}=\\sqrt{\\dfrac{2}{3}}$.</p><p>又因为 $\\cos\\dfrac{5\\pi}{6}=-\\dfrac{\\sqrt{3}}{2}$，$\\sin\\dfrac{5\\pi}{6}=\\dfrac{1}{2}$，由两角和公式得</p>\n$$\n\\cos\\left(\\frac{\\alpha}{2}+\\frac{5\\pi}{6}\\right)=\\left(-\\frac{1}{\\sqrt{3}}\\right)\\left(-\\frac{\\sqrt{3}}{2}\\right)-\\sqrt{\\frac{2}{3}}\\cdot\\frac{1}{2}=\\frac{1}{2}-\\frac{\\sqrt{6}}{6}=\\frac{3-\\sqrt{6}}{6}\n$$\n</li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

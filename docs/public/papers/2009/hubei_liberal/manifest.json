@@ -113,7 +113,7 @@
             "既不是等差数列也不是等比数列"
           ],
           "answer": "B",
-          "solution": "令 $t=\\dfrac{\\sqrt{5}+1}{2}$，则 $1&#x3C;t&#x3C;2$，所以 $[t]=1$，$\\{t\\}=t-1=\\dfrac{\\sqrt{5}-1}{2}$. 又因为 $t^{2}=t+1$，故 $t(t-1)=1$，从而三项 $t-1$，$1$，$t$ 的相邻两项之比均为 $t$，它们构成等比数列. 若它们构成等差数列，则应有 $1-(t-1)=t-1$，即 $t=\\dfrac{3}{2}$，但 $t=\\dfrac{\\sqrt{5}+1}{2}\\neq\\dfrac{3}{2}$，所以不是等差数列，故选 B."
+          "solution": "令 $t=\\dfrac{\\sqrt{5}+1}{2}$，则 $1<t<2$，所以 $[t]=1$，$\\{t\\}=t-1=\\dfrac{\\sqrt{5}-1}{2}$. 又因为 $t^{2}=t+1$，故 $t(t-1)=1$，从而三项 $t-1$，$1$，$t$ 的相邻两项之比均为 $t$，它们构成等比数列. 若它们构成等差数列，则应有 $1-(t-1)=t-1$，即 $t=\\dfrac{3}{2}$，但 $t=\\dfrac{\\sqrt{5}+1}{2}\\neq\\dfrac{3}{2}$，所以不是等差数列，故选 B."
         },
         {
           "num": 10,
@@ -125,7 +125,7 @@
             "$1378$"
           ],
           "answer": "C",
-          "solution": "第 $n$ 个三角形数为 $T_{n}=\\dfrac{n(n+1)}{2}$，正方形数必须是完全平方数. $289=17^{2}$，但若它是三角形数，则应有 $n(n+1)=578$，而 $23\\times24=552&#x3C;578&#x3C;600=24\\times25$，故 $289$ 不是三角形数. $1024=32^{2}$，而 $T_{44}=\\dfrac{44\\times45}{2}=990$，$T_{45}=\\dfrac{45\\times46}{2}=1035$，故不是三角形数. $1225=35^{2}$，且 $T_{49}=\\dfrac{49\\times50}{2}=1225$，所以它同时是两类数. 最后 $37^{2}=1369&#x3C;1378&#x3C;1444=38^{2}$，故 $1378$ 不是正方形数. 因此应选 C."
+          "solution": "第 $n$ 个三角形数为 $T_{n}=\\dfrac{n(n+1)}{2}$，正方形数必须是完全平方数. $289=17^{2}$，但若它是三角形数，则应有 $n(n+1)=578$，而 $23\\times24=552<578<600=24\\times25$，故 $289$ 不是三角形数. $1024=32^{2}$，而 $T_{44}=\\dfrac{44\\times45}{2}=990$，$T_{45}=\\dfrac{45\\times46}{2}=1035$，故不是三角形数. $1225=35^{2}$，且 $T_{49}=\\dfrac{49\\times50}{2}=1225$，所以它同时是两类数. 最后 $37^{2}=1369<1378<1444=38^{2}$，故 $1378$ 不是正方形数. 因此应选 C."
         }
       ]
     },
@@ -148,10 +148,10 @@
         },
         {
           "num": 13,
-          "body": "设集合 $A = \\{x \\mid \\log_{2} x &#x3C; 1\\}$，$B = \\left\\{x \\mid \\frac{x - 1}{x + 2}&#x3C; 1\\right\\}$，则 $A \\cap B=\\underline{\\hspace{2.5em}}{}$.",
+          "body": "设集合 $A = \\{x \\mid \\log_{2} x < 1\\}$，$B = \\left\\{x \\mid \\frac{x - 1}{x + 2}< 1\\right\\}$，则 $A \\cap B=\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
-          "answer": "$\\{x \\mid 0 &#x3C; x &#x3C; 2\\}$",
-          "solution": "由对数式有 $x>0$，且 $\\log_{2}x&#x3C;1$ 等价于 $x&#x3C;2$，所以 $A=\\{x\\mid0&#x3C;x&#x3C;2\\}$. 对 $B$，先注意 $x\\neq-2$，并移项得 $\\dfrac{-3}{x+2}&#x3C;0$，故 $x+2>0$，即 $B=\\{x\\mid x>-2\\}$. 因而 $A\\cap B=\\{x\\mid0&#x3C;x&#x3C;2\\}$."
+          "answer": "$\\{x \\mid 0 < x < 2\\}$",
+          "solution": "由对数式有 $x>0$，且 $\\log_{2}x<1$ 等价于 $x<2$，所以 $A=\\{x\\mid0<x<2\\}$. 对 $B$，先注意 $x\\neq-2$，并移项得 $\\dfrac{-3}{x+2}<0$，故 $x+2>0$，即 $B=\\{x\\mid x>-2\\}$. 因而 $A\\cap B=\\{x\\mid0<x<2\\}$."
         },
         {
           "num": 14,
@@ -177,7 +177,7 @@
           "body": "<p>在锐角 $\\triangle ABC$ 中，$a$，$b$，$c$ 分别为角 $A$，$B$，$C$ 所对的边，且 $\\sqrt{3}a = 2c \\sin A$.</p><ol class=\"enumerate\"><li><p>确定角 $C$ 的大小；</p></li><li><p>若 $c = \\sqrt{7}$，且 $\\triangle ABC$ 的面积为 $\\frac{3\\sqrt{3}}{2}$，求 $a + b$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{c}{\\sin C}$，所以 $\\sin A=\\dfrac{a\\sin C}{c}$. 代入已知条件 $\\sqrt{3}a=2c\\sin A$，得 $\\sqrt{3}a=2a\\sin C$. 由于 $a>0$，所以 $\\sin C=\\dfrac{\\sqrt{3}}{2}$. 又三角形为锐角三角形，$0&#x3C;C&#x3C;\\dfrac{\\pi}{2}$，故 $C=\\dfrac{\\pi}{3}$.</p></li><li><p>由三角形面积公式，$\\dfrac{1}{2}ab\\sin C=\\dfrac{3\\sqrt{3}}{2}$，从而 $\\dfrac{1}{2}ab\\times\\dfrac{\\sqrt{3}}{2}=\\dfrac{3\\sqrt{3}}{2}$，得 $ab=6$. 再由余弦定理，$c^{2}=a^{2}+b^{2}-2ab\\cos C$，所以 $7=a^{2}+b^{2}-2\\times6\\times\\dfrac{1}{2}=a^{2}+b^{2}-6$，即 $a^{2}+b^{2}=13$. 因而 $(a+b)^{2}=a^{2}+b^{2}+2ab=13+12=25$. 由于 $a+b>0$，得 $a+b=5$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{c}{\\sin C}$，所以 $\\sin A=\\dfrac{a\\sin C}{c}$. 代入已知条件 $\\sqrt{3}a=2c\\sin A$，得 $\\sqrt{3}a=2a\\sin C$. 由于 $a>0$，所以 $\\sin C=\\dfrac{\\sqrt{3}}{2}$. 又三角形为锐角三角形，$0<C<\\dfrac{\\pi}{2}$，故 $C=\\dfrac{\\pi}{3}$.</p></li><li><p>由三角形面积公式，$\\dfrac{1}{2}ab\\sin C=\\dfrac{3\\sqrt{3}}{2}$，从而 $\\dfrac{1}{2}ab\\times\\dfrac{\\sqrt{3}}{2}=\\dfrac{3\\sqrt{3}}{2}$，得 $ab=6$. 再由余弦定理，$c^{2}=a^{2}+b^{2}-2ab\\cos C$，所以 $7=a^{2}+b^{2}-2\\times6\\times\\dfrac{1}{2}=a^{2}+b^{2}-6$，即 $a^{2}+b^{2}=13$. 因而 $(a+b)^{2}=a^{2}+b^{2}+2ab=13+12=25$. 由于 $a+b>0$，得 $a+b=5$.</p></li></ol>"
         },
         {
           "num": 17,
@@ -191,7 +191,7 @@
           "body": "<p>如图，四棱锥 $S - ABCD$ 的底面是正方形，$SD \\perp$ 平面 $ABCD$，$SD = AD = a$，点 $E$ 是 $SD$ 上的点，且 $DE = \\lambda a$，$\\lambda \\in \\left(0,1\\right]$.</p><ol class=\"enumerate\"><li><p>求证：对任意的 $\\lambda \\in \\left(0,1\\right]$，都有 $AC \\perp BE$；</p></li><li><p>若二面角 $C - AE - D$ 的大小为 $60^{\\circ}$，求 $\\lambda$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，取 $D$ 为原点，令 $DA$，$DC$，$DS$ 分别为 $x$，$y$，$z$ 轴正方向. 由题意可设 $D(0,0,0)$，$A(a,0,0)$，$C(0,a,0)$，$B(a,a,0)$，$S(0,0,a)$. 因为 $DE=\\lambda a$，所以 $E(0,0,\\lambda a)$. 于是 $\\overrightarrow{AC}=(-a,a,0)$，$\\overrightarrow{BE}=(-a,-a,\\lambda a)$，从而</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{BE}=a^{2}-a^{2}+0=0\n$$\n<p>因此 $AC\\perp BE$.</p></li><li><p>平面 $CAE$ 与平面 $DAE$ 的交线为 $AE$. 取这两个平面的法向量</p><p>$\\mathbf{n}_{1}=\\overrightarrow{AC}\\times\\overrightarrow{AE}=a^{2}(\\lambda,\\lambda,1)$，$\\mathbf{n}_{2}=(0,1,0)$</p><p>其中 $\\mathbf{n}_{2}$ 是平面 $DAE$ 的一个法向量. 因为 $0&#x3C;\\lambda\\leq1$，二面角的大小为锐角，故其余弦为</p>\n$$\n\\cos60^{\\circ}=\\frac{\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{\\lambda}{\\sqrt{1+2\\lambda^{2}}}\n$$\n<p>于是 $\\dfrac{1}{2}=\\dfrac{\\lambda}{\\sqrt{1+2\\lambda^{2}}}$，平方并整理得 $4\\lambda^{2}=1+2\\lambda^{2}$，即 $\\lambda^{2}=\\dfrac{1}{2}$. 结合 $\\lambda>0$，得 $\\lambda=\\dfrac{\\sqrt{2}}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，取 $D$ 为原点，令 $DA$，$DC$，$DS$ 分别为 $x$，$y$，$z$ 轴正方向. 由题意可设 $D(0,0,0)$，$A(a,0,0)$，$C(0,a,0)$，$B(a,a,0)$，$S(0,0,a)$. 因为 $DE=\\lambda a$，所以 $E(0,0,\\lambda a)$. 于是 $\\overrightarrow{AC}=(-a,a,0)$，$\\overrightarrow{BE}=(-a,-a,\\lambda a)$，从而</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{BE}=a^{2}-a^{2}+0=0\n$$\n<p>因此 $AC\\perp BE$.</p></li><li><p>平面 $CAE$ 与平面 $DAE$ 的交线为 $AE$. 取这两个平面的法向量</p><p>$\\mathbf{n}_{1}=\\overrightarrow{AC}\\times\\overrightarrow{AE}=a^{2}(\\lambda,\\lambda,1)$，$\\mathbf{n}_{2}=(0,1,0)$</p><p>其中 $\\mathbf{n}_{2}$ 是平面 $DAE$ 的一个法向量. 因为 $0<\\lambda\\leq1$，二面角的大小为锐角，故其余弦为</p>\n$$\n\\cos60^{\\circ}=\\frac{\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{\\lambda}{\\sqrt{1+2\\lambda^{2}}}\n$$\n<p>于是 $\\dfrac{1}{2}=\\dfrac{\\lambda}{\\sqrt{1+2\\lambda^{2}}}$，平方并整理得 $4\\lambda^{2}=1+2\\lambda^{2}$，即 $\\lambda^{2}=\\dfrac{1}{2}$. 结合 $\\lambda>0$，得 $\\lambda=\\dfrac{\\sqrt{2}}{2}$.</p></li></ol>"
         },
         {
           "num": 19,

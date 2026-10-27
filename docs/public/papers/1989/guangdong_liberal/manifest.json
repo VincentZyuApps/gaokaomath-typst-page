@@ -117,15 +117,15 @@
         },
         {
           "num": 10,
-          "body": "不等式 $(x^{2}-4x-5)(x^{2}+8)&#x3C;0$ 的解集是（ ）",
+          "body": "不等式 $(x^{2}-4x-5)(x^{2}+8)<0$ 的解集是（ ）",
           "choices": [
-            "$\\{x\\mid -1&#x3C;x&#x3C;5\\}$",
-            "$\\{x\\mid x&#x3C;-1\\text{\\ 或\\ }x>5\\}$",
-            "$\\{x\\mid 0&#x3C;x&#x3C;5\\}$",
-            "$\\{x\\mid -1&#x3C;x&#x3C;0\\}$"
+            "$\\{x\\mid -1<x<5\\}$",
+            "$\\{x\\mid x<-1\\text{\\ 或\\ }x>5\\}$",
+            "$\\{x\\mid 0<x<5\\}$",
+            "$\\{x\\mid -1<x<0\\}$"
           ],
           "answer": "A",
-          "solution": "因为 $x^{2}+8>0$ 对一切实数 $x$ 恒成立，所以原不等式等价于 $x^{2}-4x-5&#x3C;0$. 因式分解得 $(x-5)(x+1)&#x3C;0$，故 $-1&#x3C;x&#x3C;5$，解集为 $\\{x\\mid-1&#x3C;x&#x3C;5\\}$，选 A."
+          "solution": "因为 $x^{2}+8>0$ 对一切实数 $x$ 恒成立，所以原不等式等价于 $x^{2}-4x-5<0$. 因式分解得 $(x-5)(x+1)<0$，故 $-1<x<5$，解集为 $\\{x\\mid-1<x<5\\}$，选 A."
         },
         {
           "num": 11,
@@ -149,7 +149,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/guangdong_liberal/q12_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "B",
-          "solution": "<p>函数可写为</p>\n$$\ny=|x-1|=\\begin{cases}1-x,&#x26;x&#x3C;1,\\\\  x-1,&#x26;x\\geqslant1.\\end{cases}\n$$\n<p>它的图象是顶点为 $(1,0)$ 的开口向上的折线，并且在 $x=0$ 时 $y=1$，与选项 B 的图象相符，故选 B.</p>"
+          "solution": "<p>函数可写为</p>\n$$\ny=|x-1|=\\begin{cases}1-x,&x<1,\\\\  x-1,&x\\geqslant1.\\end{cases}\n$$\n<p>它的图象是顶点为 $(1,0)$ 的开口向上的折线，并且在 $x=0$ 时 $y=1$，与选项 B 的图象相符，故选 B.</p>"
         },
         {
           "num": 13,
@@ -161,7 +161,7 @@
             "第四象限"
           ],
           "answer": "A",
-          "solution": "把方程写成 $y=-\\frac{a}{b}x-\\frac{c}{b}$. 它与 $x$ 轴、$y$ 轴的截距分别为 $-\\frac{c}{a}&#x3C;0$ 和 $-\\frac{c}{b}&#x3C;0$. 直线的两个截距都在负半轴上，因此它在第二、第三、第四象限有点，但不可能同时有 $x>0$ 与 $y>0$ 的点，故不经过第一象限，选 A."
+          "solution": "把方程写成 $y=-\\frac{a}{b}x-\\frac{c}{b}$. 它与 $x$ 轴、$y$ 轴的截距分别为 $-\\frac{c}{a}<0$ 和 $-\\frac{c}{b}<0$. 直线的两个截距都在负半轴上，因此它在第二、第三、第四象限有点，但不可能同时有 $x>0$ 与 $y>0$ 的点，故不经过第一象限，选 A."
         },
         {
           "num": 14,
@@ -221,7 +221,7 @@
             "$-\\frac{1}{3}$"
           ],
           "answer": "D",
-          "solution": "因为 $A$ 是第四象限角，$\\sin A&#x3C;0$. 由 $\\cos A=\\frac{4}{5}$ 和 $\\sin^{2}A+\\cos^{2}A=1$，得 $\\sin A=-\\frac{3}{5}$. 半角公式给出 $\\tan\\frac{A}{2}=\\frac{\\sin A}{1+\\cos A}=\\frac{-\\frac{3}{5}}{1+\\frac{4}{5}}=-\\frac{1}{3}$，故选 D."
+          "solution": "因为 $A$ 是第四象限角，$\\sin A<0$. 由 $\\cos A=\\frac{4}{5}$ 和 $\\sin^{2}A+\\cos^{2}A=1$，得 $\\sin A=-\\frac{3}{5}$. 半角公式给出 $\\tan\\frac{A}{2}=\\frac{\\sin A}{1+\\cos A}=\\frac{-\\frac{3}{5}}{1+\\frac{4}{5}}=-\\frac{1}{3}$，故选 D."
         },
         {
           "num": 19,
@@ -285,15 +285,15 @@
         },
         {
           "num": 24,
-          "body": "如果 $x$，$y\\in\\left(0,\\frac{\\pi}{2}\\right)$，且 $\\tan x&#x3C;\\cot y$，那么（ ）",
+          "body": "如果 $x$，$y\\in\\left(0,\\frac{\\pi}{2}\\right)$，且 $\\tan x<\\cot y$，那么（ ）",
           "choices": [
             "$x+y>\\frac{\\pi}{2}$",
-            "$x+y&#x3C;\\frac{\\pi}{2}$",
+            "$x+y<\\frac{\\pi}{2}$",
             "$x>y$",
-            "$x&#x3C;y$"
+            "$x<y$"
           ],
           "answer": "B",
-          "solution": "在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，$\\cot y=\\tan\\left(\\frac{\\pi}{2}-y\\right)$，且正切函数严格递增. 所以 $\\tan x&#x3C;\\tan\\left(\\frac{\\pi}{2}-y\\right)$ 等价于 $x&#x3C;\\frac{\\pi}{2}-y$，即 $x+y&#x3C;\\frac{\\pi}{2}$，故选 B."
+          "solution": "在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，$\\cot y=\\tan\\left(\\frac{\\pi}{2}-y\\right)$，且正切函数严格递增. 所以 $\\tan x<\\tan\\left(\\frac{\\pi}{2}-y\\right)$ 等价于 $x<\\frac{\\pi}{2}-y$，即 $x+y<\\frac{\\pi}{2}$，故选 B."
         },
         {
           "num": 25,
@@ -375,10 +375,10 @@
         },
         {
           "num": 34,
-          "body": "<p>设圆 $O$ 的方程为 $x^{2} - 2x\\cos \\theta + y^{2} + 2(1 + 2\\sin \\theta)y = 0$，其中 $0\\le\\theta&#x3C;2\\pi$.</p><ol class=\"enumerate\"><li><p>当 $\\theta$ 变化时，求圆 $O$ 的圆心轨迹的普通方程，并画出轨迹的草图；</p></li><li><p>如果又有圆 $S$：$x^{2} + y^{2} + 2y = 0$，求 $\\theta$ 的值，使得圆 $O$ 与圆 $S$ 的公共弦的长度取最大值（请把满足条件的 $\\theta$ 的值都求出来）.</p></li></ol>",
+          "body": "<p>设圆 $O$ 的方程为 $x^{2} - 2x\\cos \\theta + y^{2} + 2(1 + 2\\sin \\theta)y = 0$，其中 $0\\le\\theta<2\\pi$.</p><ol class=\"enumerate\"><li><p>当 $\\theta$ 变化时，求圆 $O$ 的圆心轨迹的普通方程，并画出轨迹的草图；</p></li><li><p>如果又有圆 $S$：$x^{2} + y^{2} + 2y = 0$，求 $\\theta$ 的值，使得圆 $O$ 与圆 $S$ 的公共弦的长度取最大值（请把满足条件的 $\\theta$ 的值都求出来）.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>配方可知圆 $O$ 的圆心为 $C\\left(\\cos\\theta,-1-2\\sin\\theta\\right)$. 令圆心坐标为 $(x,y)$，则 $x=\\cos\\theta$，$y+1=-2\\sin\\theta$，消去 $\\theta$ 得</p>\n$$\nx^{2}+\\frac{(y+1)^{2}}{4}=1\n$$\n<p>即</p>\n$$\n4x^{2}+(y+1)^{2}=4\n$$\n<p>因此圆心轨迹是中心为 $(0,-1)$，横、纵半轴长分别为 $1$ 和 $2$ 的椭圆. 草图可由四个顶点 $(1,-1)$、$(-1,-1)$、$(0,1)$、$(0,-3)$ 确定，并以 $(0,-1)$ 为中心作长轴竖直的椭圆.</p></li><li><p>两圆方程相减，得公共弦所在直线 $x\\cos\\theta-2y\\sin\\theta=0$. 圆 $S$ 的圆心为 $S_{0}(0,-1)$，半径为 $1$，圆心到该直线的距离为</p>\n$$\np=\\frac{2|\\sin\\theta|}{\\sqrt{\\cos^{2}\\theta+4\\sin^{2}\\theta}}=\\frac{2|\\sin\\theta|}{\\sqrt{1+3\\sin^{2}\\theta}}\n$$\n<p>故公共弦是圆 $S$ 中心距圆心距离为 $p$ 的弦，其长度为</p>\n$$\nL=2\\sqrt{1-p^{2}}=\\frac{2|\\cos\\theta|}{\\sqrt{1+3\\sin^{2}\\theta}}\n$$\n<p>因为 $0\\le\\sin^{2}\\theta\\leqslant1$，有 $L^{2}=4\\frac{1-\\sin^{2}\\theta}{1+3\\sin^{2}\\theta}\\leqslant4$，且等号当且仅当 $\\sin\\theta=0$. 所以公共弦长度最大值为 $2$，由 $0\\le\\theta&#x3C;2\\pi$，得 $\\theta=0$ 或 $\\pi$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>配方可知圆 $O$ 的圆心为 $C\\left(\\cos\\theta,-1-2\\sin\\theta\\right)$. 令圆心坐标为 $(x,y)$，则 $x=\\cos\\theta$，$y+1=-2\\sin\\theta$，消去 $\\theta$ 得</p>\n$$\nx^{2}+\\frac{(y+1)^{2}}{4}=1\n$$\n<p>即</p>\n$$\n4x^{2}+(y+1)^{2}=4\n$$\n<p>因此圆心轨迹是中心为 $(0,-1)$，横、纵半轴长分别为 $1$ 和 $2$ 的椭圆. 草图可由四个顶点 $(1,-1)$、$(-1,-1)$、$(0,1)$、$(0,-3)$ 确定，并以 $(0,-1)$ 为中心作长轴竖直的椭圆.</p></li><li><p>两圆方程相减，得公共弦所在直线 $x\\cos\\theta-2y\\sin\\theta=0$. 圆 $S$ 的圆心为 $S_{0}(0,-1)$，半径为 $1$，圆心到该直线的距离为</p>\n$$\np=\\frac{2|\\sin\\theta|}{\\sqrt{\\cos^{2}\\theta+4\\sin^{2}\\theta}}=\\frac{2|\\sin\\theta|}{\\sqrt{1+3\\sin^{2}\\theta}}\n$$\n<p>故公共弦是圆 $S$ 中心距圆心距离为 $p$ 的弦，其长度为</p>\n$$\nL=2\\sqrt{1-p^{2}}=\\frac{2|\\cos\\theta|}{\\sqrt{1+3\\sin^{2}\\theta}}\n$$\n<p>因为 $0\\le\\sin^{2}\\theta\\leqslant1$，有 $L^{2}=4\\frac{1-\\sin^{2}\\theta}{1+3\\sin^{2}\\theta}\\leqslant4$，且等号当且仅当 $\\sin\\theta=0$. 所以公共弦长度最大值为 $2$，由 $0\\le\\theta<2\\pi$，得 $\\theta=0$ 或 $\\pi$.</p></li></ol>"
         }
       ]
     }

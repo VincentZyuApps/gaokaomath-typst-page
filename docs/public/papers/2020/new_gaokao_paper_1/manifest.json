@@ -9,12 +9,12 @@
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $A=\\{x\\mid 1\\le x\\le 3\\}$，$B=\\{x\\mid 2&#x3C;x&#x3C;4\\}$，则 $A\\cup B$ 等于（ ）",
+          "body": "设集合 $A=\\{x\\mid 1\\le x\\le 3\\}$，$B=\\{x\\mid 2<x<4\\}$，则 $A\\cup B$ 等于（ ）",
           "choices": [
-            "$\\{x\\mid 2&#x3C;x\\le 3\\}$",
+            "$\\{x\\mid 2<x\\le 3\\}$",
             "$\\{x\\mid 2\\le x\\le 3\\}$",
-            "$\\{x\\mid 1\\le x&#x3C;4\\}$",
-            "$\\{x\\mid 1&#x3C;x&#x3C;4\\}$"
+            "$\\{x\\mid 1\\le x<4\\}$",
+            "$\\{x\\mid 1<x<4\\}$"
           ],
           "answer": "C",
           "solution": ""
@@ -114,7 +114,7 @@
           "choices": [
             "若 $m>n>0$，则 $C$ 是椭圆，其焦点在 $y$ 轴上",
             "若 $m=n>0$，则 $C$ 是圆，其半径为 $\\sqrt{n}$",
-            "若 $mn&#x3C;0$，则 $C$ 是双曲线，其渐近线方程为 $y=\\pm\\sqrt{-\\dfrac{m}{n}}x$",
+            "若 $mn<0$，则 $C$ 是双曲线，其渐近线方程为 $y=\\pm\\sqrt{-\\dfrac{m}{n}}x$",
             "若 $m=0$，$n>0$，则 $C$ 是两条直线"
           ],
           "answer": "ACD",
@@ -227,7 +227,7 @@
           "body": "<p>已知函数 $f(x)=a\\mathrm{e}^{x-1}-\\ln x+\\ln a$.</p><ol class=\"enumerate\"><li><p>当 $a=\\mathrm{e}$ 时，求曲线 $y=f(x)$ 在点 $\\left( 1,f(1) \\right)$ 处的切线与两坐标轴围成的三角形的面积；</p></li><li><p>若 $f(x)\\ge 1$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=\\mathrm{e}$ 时，$f(x)=\\mathrm{e}\\cdot\\mathrm{e}^{x-1}-\\ln x+\\ln\\mathrm{e}=\\mathrm{e}^{x}-\\ln x+1$，所以 $f(1)=\\mathrm{e}+1$. 又 $f'(x)=\\mathrm{e}^{x}-\\dfrac{1}{x}$，所以 $f'(1)=\\mathrm{e}-1$，曲线在点 $(1,\\mathrm{e}+1)$ 处的切线方程为 $y-(\\mathrm{e}+1)=(\\mathrm{e}-1)(x-1)$. 令 $y=0$ 得 $x=-\\dfrac{2}{\\mathrm{e}-1}$，令 $x=0$ 得 $y=2$，所以该切线与两坐标轴围成的三角形的面积为 $\\dfrac{1}{2}\\times\\dfrac{2}{\\mathrm{e}-1}\\times2=\\dfrac{2}{\\mathrm{e}-1}$.</p></li><li><p>若 $a\\ge1$，则 $a\\mathrm{e}^{x-1}\\ge\\mathrm{e}^{x-1}$ 且 $\\ln a\\ge0$，所以 $f(x)\\ge\\mathrm{e}^{x-1}-\\ln x$. 记 $h(x)=\\mathrm{e}^{x-1}-\\ln x$，则 $h'(x)=\\mathrm{e}^{x-1}-\\dfrac{1}{x}$，$h''(x)=\\mathrm{e}^{x-1}+\\dfrac1{x^2}>0$，所以 $h'(x)$ 在 $(0,+\\infty)$ 上单调递增. 又 $h'(1)=0$，所以当 $0&#x3C;x&#x3C;1$ 时 $h'(x)&#x3C;0$，当 $x>1$ 时 $h'(x)>0$，即 $h(x)$ 在 $(0,1)$ 上单调递减，在 $(1,+\\infty)$ 上单调递增，故 $h(x)\\ge h(1)=1$. 从而 $f(x)\\ge1$，即 $a\\ge1$ 满足题意.</p><p>若 $f(x)\\ge1$ 对任意 $x>0$ 恒成立，取 $x=1$ 得 $f(1)=a+\\ln a\\ge1$. 记 $\\varphi(a)=a+\\ln a$（$a>0$），则 $\\varphi'(a)=1+\\dfrac{1}{a}>0$，$\\varphi(a)$ 单调递增，且 $\\varphi(1)=1$，所以 $a\\ge1$. 综上，$a$ 的取值范围为 $[1,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=\\mathrm{e}$ 时，$f(x)=\\mathrm{e}\\cdot\\mathrm{e}^{x-1}-\\ln x+\\ln\\mathrm{e}=\\mathrm{e}^{x}-\\ln x+1$，所以 $f(1)=\\mathrm{e}+1$. 又 $f'(x)=\\mathrm{e}^{x}-\\dfrac{1}{x}$，所以 $f'(1)=\\mathrm{e}-1$，曲线在点 $(1,\\mathrm{e}+1)$ 处的切线方程为 $y-(\\mathrm{e}+1)=(\\mathrm{e}-1)(x-1)$. 令 $y=0$ 得 $x=-\\dfrac{2}{\\mathrm{e}-1}$，令 $x=0$ 得 $y=2$，所以该切线与两坐标轴围成的三角形的面积为 $\\dfrac{1}{2}\\times\\dfrac{2}{\\mathrm{e}-1}\\times2=\\dfrac{2}{\\mathrm{e}-1}$.</p></li><li><p>若 $a\\ge1$，则 $a\\mathrm{e}^{x-1}\\ge\\mathrm{e}^{x-1}$ 且 $\\ln a\\ge0$，所以 $f(x)\\ge\\mathrm{e}^{x-1}-\\ln x$. 记 $h(x)=\\mathrm{e}^{x-1}-\\ln x$，则 $h'(x)=\\mathrm{e}^{x-1}-\\dfrac{1}{x}$，$h''(x)=\\mathrm{e}^{x-1}+\\dfrac1{x^2}>0$，所以 $h'(x)$ 在 $(0,+\\infty)$ 上单调递增. 又 $h'(1)=0$，所以当 $0<x<1$ 时 $h'(x)<0$，当 $x>1$ 时 $h'(x)>0$，即 $h(x)$ 在 $(0,1)$ 上单调递减，在 $(1,+\\infty)$ 上单调递增，故 $h(x)\\ge h(1)=1$. 从而 $f(x)\\ge1$，即 $a\\ge1$ 满足题意.</p><p>若 $f(x)\\ge1$ 对任意 $x>0$ 恒成立，取 $x=1$ 得 $f(1)=a+\\ln a\\ge1$. 记 $\\varphi(a)=a+\\ln a$（$a>0$），则 $\\varphi'(a)=1+\\dfrac{1}{a}>0$，$\\varphi(a)$ 单调递增，且 $\\varphi(1)=1$，所以 $a\\ge1$. 综上，$a$ 的取值范围为 $[1,+\\infty)$.</p></li></ol>"
         },
         {
           "num": 22,

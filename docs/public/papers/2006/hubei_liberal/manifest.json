@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "集合 $P = \\{x \\mid x^{2} - 16 &#x3C; 0\\}$，$Q = \\{x \\mid x = 2n, n \\in \\mathbb{Z}\\}$，则 $P \\cap Q =$（ ）",
+          "body": "集合 $P = \\{x \\mid x^{2} - 16 < 0\\}$，$Q = \\{x \\mid x = 2n, n \\in \\mathbb{Z}\\}$，则 $P \\cap Q =$（ ）",
           "choices": [
             "$\\{-2, 2\\}$",
             "$\\{-2, 2, -4, 4\\}$",
@@ -17,7 +17,7 @@
             "$\\{-2, 2, 0, -4, 4\\}$"
           ],
           "answer": "C",
-          "solution": "<p>由 $x^{2}-16&#x3C;0$，得 $-4&#x3C;x&#x3C;4$，所以 $P=(-4,4)$. 又 $Q$ 是全体偶整数构成的集合，因此</p>\n$$\nP\\cap Q=\\{-2,0,2\\}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>由 $x^{2}-16<0$，得 $-4<x<4$，所以 $P=(-4,4)$. 又 $Q$ 是全体偶整数构成的集合，因此</p>\n$$\nP\\cap Q=\\{-2,0,2\\}\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 2,
@@ -89,7 +89,7 @@
             "$(-4, - 2)\\cup (2,4)$"
           ],
           "answer": "B",
-          "solution": "<p>函数 $f(t)$ 有意义的条件是</p>\n$$\n\\frac{2+t}{2-t}>0\n$$\n<p>且分母不为零. 由于分子、分母同号的条件给出 $-2&#x3C;t&#x3C;2$，故 $f(t)$ 的定义域为 $(-2,2)$.</p><p>对 $f(\\frac{x}{2})$，有</p>\n$$\n-2&#x3C;\\frac{x}{2}&#x3C;2 \\Longleftrightarrow  -4&#x3C;x&#x3C;4\n$$\n<p>对 $f(\\frac{2}{x})$，先要求 $x\\ne0$，再有</p>\n$$\n-2&#x3C;\\frac{2}{x}&#x3C;2   \\Longleftrightarrow  x&#x3C;-1\\ \\text{或}\\ x>1\n$$\n<p>两条件取交集，得到定义域</p>\n$$\n(-4,-1)\\cup(1,4)\n$$\n<p>故选 B.</p>"
+          "solution": "<p>函数 $f(t)$ 有意义的条件是</p>\n$$\n\\frac{2+t}{2-t}>0\n$$\n<p>且分母不为零. 由于分子、分母同号的条件给出 $-2<t<2$，故 $f(t)$ 的定义域为 $(-2,2)$.</p><p>对 $f(\\frac{x}{2})$，有</p>\n$$\n-2<\\frac{x}{2}<2 \\Longleftrightarrow  -4<x<4\n$$\n<p>对 $f(\\frac{2}{x})$，先要求 $x\\ne0$，再有</p>\n$$\n-2<\\frac{2}{x}<2   \\Longleftrightarrow  x<-1\\ \\text{或}\\ x>1\n$$\n<p>两条件取交集，得到定义域</p>\n$$\n(-4,-1)\\cup(1,4)\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 8,
@@ -125,7 +125,7 @@
             "$3$"
           ],
           "answer": "A",
-          "solution": "<p>令</p>\n$$\nt=|x^{2}-1|\\geqslant0\n$$\n<p>原方程化为</p>\n$$\nt^{2}-t+k=0\n$$\n<p>对于每个给定的 $t$，当 $t=0$ 时有 $x=\\pm1$，产生 $2$ 个根；当 $0&#x3C;t&#x3C;1$ 时，$x^{2}=1+t$ 或 $x^{2}=1-t$，产生 $4$ 个根；当 $t=1$ 时，$x^{2}=0$ 或 $x^{2}=2$，产生 $3$ 个根；当 $t>1$ 时只有 $x^{2}=1+t$，产生 $2$ 个根.</p><p>分别取值即可验证四个命题均为真：</p>\n$$\n\\begin{aligned}k=-1&#x26;:  t=\\frac{1+\\sqrt{5}}{2}>1,  \\text{实根个数为 }2;\\\\  k=\\frac{1}{4}&#x26;:  t=\\frac{1}{2},  \\text{实根个数为 }4;\\\\  k=0&#x26;:  t=0,1,  \\text{实根个数为 }2+3=5;\\\\  k=\\frac{1}{8}&#x26;:  t=\\frac{1\\pm\\sqrt{\\frac{1}{2}}}{2}\\in(0,1),  \\text{实根个数为 }4+4=8.\\end{aligned}\n$$\n<p>其中 $k=0$ 时，$t=0$ 产生 $2$ 个根，$t=1$ 对应 $x=0$，$\\pm\\sqrt{2}$，产生 $3$ 个根，故共 $5$ 个根. 因此四个命题都是真命题，假命题的个数为 $0$. 故选 A.</p>"
+          "solution": "<p>令</p>\n$$\nt=|x^{2}-1|\\geqslant0\n$$\n<p>原方程化为</p>\n$$\nt^{2}-t+k=0\n$$\n<p>对于每个给定的 $t$，当 $t=0$ 时有 $x=\\pm1$，产生 $2$ 个根；当 $0<t<1$ 时，$x^{2}=1+t$ 或 $x^{2}=1-t$，产生 $4$ 个根；当 $t=1$ 时，$x^{2}=0$ 或 $x^{2}=2$，产生 $3$ 个根；当 $t>1$ 时只有 $x^{2}=1+t$，产生 $2$ 个根.</p><p>分别取值即可验证四个命题均为真：</p>\n$$\n\\begin{aligned}k=-1&:  t=\\frac{1+\\sqrt{5}}{2}>1,  \\text{实根个数为 }2;\\\\  k=\\frac{1}{4}&:  t=\\frac{1}{2},  \\text{实根个数为 }4;\\\\  k=0&:  t=0,1,  \\text{实根个数为 }2+3=5;\\\\  k=\\frac{1}{8}&:  t=\\frac{1\\pm\\sqrt{\\frac{1}{2}}}{2}\\in(0,1),  \\text{实根个数为 }4+4=8.\\end{aligned}\n$$\n<p>其中 $k=0$ 时，$t=0$ 产生 $2$ 个根，$t=1$ 对应 $x=0$，$\\pm\\sqrt{2}$，产生 $3$ 个根，故共 $5$ 个根. 因此四个命题都是真命题，假命题的个数为 $0$. 故选 A.</p>"
         }
       ]
     },
@@ -144,14 +144,14 @@
           "body": "接种某疫苗后，出现发热反应的概率为 $0.80$，现有 $5$ 人接种该疫苗，至少有 $3$ 人出现发热反应的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（精确到 $0.01$）",
           "choices": null,
           "answer": "0.94",
-          "solution": "<p>设出现发热反应的人数为 $X$，则 $X\\sim B(5,0.8)$，不出现发热反应的概率为 $0.2$. 至少有 $3$ 人发热的概率为</p>\n$$\n\\begin{aligned}P(X\\geqslant3)&#x26;=\\mathrm{C}_{5}^{3}(0.8)^{3}(0.2)^{2}+\\mathrm{C}_{5}^{4}(0.8)^{4}(0.2)+(0.8)^{5}\\\\&#x26;=10\\times0.512\\times0.04+5\\times0.4096\\times0.2+0.32768\\\\&#x26;=0.2048+0.4096+0.32768\\\\&#x26;=0.94208.\\end{aligned}\n$$\n<p>精确到 $0.01$ 得 $0.94$.</p>"
+          "solution": "<p>设出现发热反应的人数为 $X$，则 $X\\sim B(5,0.8)$，不出现发热反应的概率为 $0.2$. 至少有 $3$ 人发热的概率为</p>\n$$\n\\begin{aligned}P(X\\geqslant3)&=\\mathrm{C}_{5}^{3}(0.8)^{3}(0.2)^{2}+\\mathrm{C}_{5}^{4}(0.8)^{4}(0.2)+(0.8)^{5}\\\\&=10\\times0.512\\times0.04+5\\times0.4096\\times0.2+0.32768\\\\&=0.2048+0.4096+0.32768\\\\&=0.94208.\\end{aligned}\n$$\n<p>精确到 $0.01$ 得 $0.94$.</p>"
         },
         {
           "num": 13,
           "body": "若直线 $y = kx + 2$ 与圆 $(x - 2)^{2} + (y - 3)^{2} = 1$ 有两个不同的交点，则 $k$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(0,\\frac{4}{3}\\right)$",
-          "solution": "<p>圆心为 $(2,3)$，半径为 $1$. 直线写成</p>\n$$\nkx-y+2=0\n$$\n<p>直线与圆有两个不同的交点，当且仅当圆心到直线的距离小于半径，即</p>\n$$\n\\frac{|2k-3+2|}{\\sqrt{k^{2}+1}}&#x3C;1\n$$\n<p>化简得</p>\n$$\n\\frac{|2k-1|}{\\sqrt{k^{2}+1}}&#x3C;1   \\Longleftrightarrow   (2k-1)^{2}&#x3C;k^{2}+1\n$$\n<p>因此</p>\n$$\n3k^{2}-4k&#x3C;0   \\Longleftrightarrow   0&#x3C;k&#x3C;\\frac{4}{3}\n$$\n<p>故填 $\\left(0,\\frac{4}{3}\\right)$.</p>"
+          "solution": "<p>圆心为 $(2,3)$，半径为 $1$. 直线写成</p>\n$$\nkx-y+2=0\n$$\n<p>直线与圆有两个不同的交点，当且仅当圆心到直线的距离小于半径，即</p>\n$$\n\\frac{|2k-3+2|}{\\sqrt{k^{2}+1}}<1\n$$\n<p>化简得</p>\n$$\n\\frac{|2k-1|}{\\sqrt{k^{2}+1}}<1   \\Longleftrightarrow   (2k-1)^{2}<k^{2}+1\n$$\n<p>因此</p>\n$$\n3k^{2}-4k<0   \\Longleftrightarrow   0<k<\\frac{4}{3}\n$$\n<p>故填 $\\left(0,\\frac{4}{3}\\right)$.</p>"
         },
         {
           "num": 14,
@@ -177,7 +177,7 @@
           "body": "<p>设向量 $\\mathbf{a}= (\\sin x, \\cos x)$，$\\mathbf{b}= (\\cos x, \\cos x)$，$x \\in \\mathbb{R}$. 函数 $f(x) = \\mathbf{a}\\cdot (\\mathbf{a}+ \\mathbf{b})$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的最大值与最小正周期；</p></li><li><p>求使不等式 $f(x) \\ge \\frac{3}{2}$ 成立的 $x$ 的取值集.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由向量的数量积，</p>\n$$\n\\begin{aligned}f(x)&#x26;=(\\sin x,\\cos x)\\cdot(\\sin x+\\cos x,2\\cos x)\\\\&#x26;=\\sin^{2}x+\\sin x\\cos x+2\\cos^{2}x\\\\&#x26;=\\frac{3}{2}+\\frac{1}{2}(\\sin 2x+\\cos 2x)\\\\&#x26;=\\frac{3}{2}+\\frac{\\sqrt{2}}{2}\\sin\\left(2x+\\frac{\\pi}{4}\\right).\\end{aligned}\n$$\n<ol class=\"enumerate\"><li><p>因为 $-1\\le\\sin(2x+\\frac{\\pi}{4})\\leqslant1$，所以</p>\n$$\n\\frac{3}{2}-\\frac{\\sqrt{2}}{2}\\le f(x)\\le\\frac{3}{2}+\\frac{\\sqrt{2}}{2}\n$$\n<p>故 $f(x)$ 的最大值为 $\\frac{3}{2}+\\frac{\\sqrt{2}}{2}$. 由于 $\\sin(2x+\\frac{\\pi}{4})$ 的最小正周期为 $\\pi$，且系数不改变周期，故 $f(x)$ 的最小正周期为 $\\pi$.</p></li><li><p>不等式 $f(x)\\ge\\frac{3}{2}$ 等价于</p>\n$$\n\\sin\\left(2x+\\frac{\\pi}{4}\\right)\\geqslant0\n$$\n<p>因此存在 $k\\in\\mathbb{Z}$，使得</p>\n$$\n2k\\pi\\leqslant2x+\\frac{\\pi}{4}\\le(2k+1)\\pi\n$$\n<p>解得</p>\n$$\nk\\pi-\\frac{\\pi}{8}\\le x\\le k\\pi+\\frac{3\\pi}{8}\n$$\n<p>所以 $x$ 的取值集为</p>\n$$\n\\left\\{x\\middle|k\\pi-\\frac{\\pi}{8}\\le x\\le k\\pi+\\frac{3\\pi}{8},\\ k\\in\\mathbb{Z}\\right\\}\n$$\n</li></ol>"
+          "solution": "<p>由向量的数量积，</p>\n$$\n\\begin{aligned}f(x)&=(\\sin x,\\cos x)\\cdot(\\sin x+\\cos x,2\\cos x)\\\\&=\\sin^{2}x+\\sin x\\cos x+2\\cos^{2}x\\\\&=\\frac{3}{2}+\\frac{1}{2}(\\sin 2x+\\cos 2x)\\\\&=\\frac{3}{2}+\\frac{\\sqrt{2}}{2}\\sin\\left(2x+\\frac{\\pi}{4}\\right).\\end{aligned}\n$$\n<ol class=\"enumerate\"><li><p>因为 $-1\\le\\sin(2x+\\frac{\\pi}{4})\\leqslant1$，所以</p>\n$$\n\\frac{3}{2}-\\frac{\\sqrt{2}}{2}\\le f(x)\\le\\frac{3}{2}+\\frac{\\sqrt{2}}{2}\n$$\n<p>故 $f(x)$ 的最大值为 $\\frac{3}{2}+\\frac{\\sqrt{2}}{2}$. 由于 $\\sin(2x+\\frac{\\pi}{4})$ 的最小正周期为 $\\pi$，且系数不改变周期，故 $f(x)$ 的最小正周期为 $\\pi$.</p></li><li><p>不等式 $f(x)\\ge\\frac{3}{2}$ 等价于</p>\n$$\n\\sin\\left(2x+\\frac{\\pi}{4}\\right)\\geqslant0\n$$\n<p>因此存在 $k\\in\\mathbb{Z}$，使得</p>\n$$\n2k\\pi\\leqslant2x+\\frac{\\pi}{4}\\le(2k+1)\\pi\n$$\n<p>解得</p>\n$$\nk\\pi-\\frac{\\pi}{8}\\le x\\le k\\pi+\\frac{3\\pi}{8}\n$$\n<p>所以 $x$ 的取值集为</p>\n$$\n\\left\\{x\\middle|k\\pi-\\frac{\\pi}{8}\\le x\\le k\\pi+\\frac{3\\pi}{8},\\ k\\in\\mathbb{Z}\\right\\}\n$$\n</li></ol>"
         },
         {
           "num": 17,
@@ -198,21 +198,21 @@
           "body": "设函数 $f(x) = x^{3} - ax^{2} + bx + c$ 在 $x = 1$ 处取得极值 $-2$，试用 $c$ 表示 $a$ 和 $b$，并求 $f(x)$ 的单调区间.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $f(1)=-2$，所以</p>\n$$\n1-a+b+c=-2\n$$\n<p>又因为 $f(x)$ 在 $x=1$ 处取得极值，故 $f'(1)=0$. 而</p>\n$$\nf'(x)=3x^{2}-2ax+b\n$$\n<p>所以</p>\n$$\n3-2a+b=0\n$$\n<p>联立两式，先由第二式得 $b=2a-3$，代入第一式得</p>\n$$\n1-a+2a-3+c=-2\n$$\n<p>从而</p><p>$a=-c$，$b=-2c-3$</p><p>代入导函数，得</p>\n$$\nf'(x)=3x^{2}+2cx-2c-3  =(x-1)(3x+2c+3)\n$$\n<p>另一个临界点为</p>\n$$\nr=-\\frac{2c+3}{3}\n$$\n<p>若 $c=-3$，则 $r=1$，此时 $f'(x)=3(x-1)^{2}$，导函数在 $x=1$ 两侧均为正，函数在该点不取得极值，故必须有 $c\\ne-3$.</p><p>当 $c&#x3C;-3$ 时，$r>1$. 此时由 $f'(x)=(x-1)(3x+2c+3)$ 的符号可知，$f(x)$ 在 $(-\\infty,1]$ 和 $[r,+\\infty)$ 上单调增加，在 $[1,r]$ 上单调减少，即</p>\n$$\n\\begin{cases}\\text{在 }(-\\infty,1]\\text{ 和 }\\left[-\\dfrac{2c+3}{3},+\\infty\\right)\\text{ 上单调增加},\\\\\n\n\\text{在 }\\left[1,-\\dfrac{2c+3}{3}\\right]\\text{ 上单调减少}.\\end{cases}\n$$\n<p>当 $c>-3$ 时，$r&#x3C;1$. 此时函数在 $(-\\infty,r]$ 和 $[1,+\\infty)$ 上单调增加，在 $[r,1]$ 上单调减少，即</p>\n$$\n\\begin{cases}\\text{在 }\\left(-\\infty,-\\dfrac{2c+3}{3}\\right]\\text{ 和 }[1,+\\infty)\\text{ 上单调增加},\\\\\n\n\\text{在 }\\left[-\\dfrac{2c+3}{3},1\\right]\\text{ 上单调减少}.\\end{cases}\n$$"
+          "solution": "<p>因为 $f(1)=-2$，所以</p>\n$$\n1-a+b+c=-2\n$$\n<p>又因为 $f(x)$ 在 $x=1$ 处取得极值，故 $f'(1)=0$. 而</p>\n$$\nf'(x)=3x^{2}-2ax+b\n$$\n<p>所以</p>\n$$\n3-2a+b=0\n$$\n<p>联立两式，先由第二式得 $b=2a-3$，代入第一式得</p>\n$$\n1-a+2a-3+c=-2\n$$\n<p>从而</p><p>$a=-c$，$b=-2c-3$</p><p>代入导函数，得</p>\n$$\nf'(x)=3x^{2}+2cx-2c-3  =(x-1)(3x+2c+3)\n$$\n<p>另一个临界点为</p>\n$$\nr=-\\frac{2c+3}{3}\n$$\n<p>若 $c=-3$，则 $r=1$，此时 $f'(x)=3(x-1)^{2}$，导函数在 $x=1$ 两侧均为正，函数在该点不取得极值，故必须有 $c\\ne-3$.</p><p>当 $c<-3$ 时，$r>1$. 此时由 $f'(x)=(x-1)(3x+2c+3)$ 的符号可知，$f(x)$ 在 $(-\\infty,1]$ 和 $[r,+\\infty)$ 上单调增加，在 $[1,r]$ 上单调减少，即</p>\n$$\n\\begin{cases}\\text{在 }(-\\infty,1]\\text{ 和 }\\left[-\\dfrac{2c+3}{3},+\\infty\\right)\\text{ 上单调增加},\\\\\n\n\\text{在 }\\left[1,-\\dfrac{2c+3}{3}\\right]\\text{ 上单调减少}.\\end{cases}\n$$\n<p>当 $c>-3$ 时，$r<1$. 此时函数在 $(-\\infty,r]$ 和 $[1,+\\infty)$ 上单调增加，在 $[r,1]$ 上单调减少，即</p>\n$$\n\\begin{cases}\\text{在 }\\left(-\\infty,-\\dfrac{2c+3}{3}\\right]\\text{ 和 }[1,+\\infty)\\text{ 上单调增加},\\\\\n\n\\text{在 }\\left[-\\dfrac{2c+3}{3},1\\right]\\text{ 上单调减少}.\\end{cases}\n$$"
         },
         {
           "num": 20,
-          "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，点 $\\left(n, \\frac{S_{n}}{n}\\right)$（$n \\in \\mathbb{N}^{*}$）均在函数 $y = 3x - 2$ 的图像上.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $b_{n} = \\frac{3}{a_{n} a_{n+1}}$，$T_{n}$ 是数列 $\\{b_{n}\\}$ 的前 $n$ 项和，求使得 $T_{n} &#x3C; \\frac{m}{20}$ 的所有 $n \\in \\mathbf{N}^{*}$ 都成立的最小正整数 $m$.</p></li></ol>",
+          "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，点 $\\left(n, \\frac{S_{n}}{n}\\right)$（$n \\in \\mathbb{N}^{*}$）均在函数 $y = 3x - 2$ 的图像上.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $b_{n} = \\frac{3}{a_{n} a_{n+1}}$，$T_{n}$ 是数列 $\\{b_{n}\\}$ 的前 $n$ 项和，求使得 $T_{n} < \\frac{m}{20}$ 的所有 $n \\in \\mathbf{N}^{*}$ 都成立的最小正整数 $m$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由点 $\\left(n,\\frac{S_{n}}{n}\\right)$ 在直线 $y=3x-2$ 上，得</p><p>$\\frac{S_{n}}{n}=3n-2$，$S_{n}=3n^{2}-2n$</p><p>当 $n=1$ 时，$S_{1}=1$，所以 $a_{1}=1$. 当 $n\\geqslant2$ 时，</p>\n$$\n\\begin{aligned}a_{n}&#x26;=S_{n}-S_{n-1}\\\\&#x26;=(3n^{2}-2n)-\\bigl(3(n-1)^{2}-2(n-1)\\bigr)\\\\&#x26;=6n-5.\\end{aligned}\n$$\n<p>当 $n=1$ 时，$6n-5=1=a_{1}$，故</p><p>$a_{n}=6n-5$，$n\\in\\mathbb{N}^{*}$，</p><p>由此</p>\n$$\nb_{n}=\\frac{3}{(6n-5)(6n+1)}=\\frac{1}{2}\\left(\\frac{1}{6n-5}-\\frac{1}{6n+1}\\right)\n$$\n<p>所以</p>\n$$\n\\begin{aligned}T_{n}&#x26;=\\frac{1}{2}\\sum_{k=1}^{n}\\left(\\frac{1}{6k-5}-\\frac{1}{6k+1}\\right)\\\\&#x26;=\\frac{1}{2}\\left(1-\\frac{1}{6n+1}\\right)\\\\&#x26;=\\frac{3n}{6n+1}.\\end{aligned}\n$$\n<p>显然</p>\n$$\nT_{n}=\\frac{3n}{6n+1}&#x3C;\\frac{1}{2}=\\frac{10}{20}\n$$\n<p>对一切 $n\\in\\mathbb{N}^{*}$ 成立，因此 $m=10$ 满足条件. 另一方面，若 $m\\leqslant9$，取 $n=2$，则</p>\n$$\nT_{2}=\\frac{6}{13}>\\frac{9}{20}\\ge\\frac{m}{20}\n$$\n<p>不满足题设不等式. 因此所求最小正整数为</p>\n$$\nm=10\n$$"
+          "solution": "<p>由点 $\\left(n,\\frac{S_{n}}{n}\\right)$ 在直线 $y=3x-2$ 上，得</p><p>$\\frac{S_{n}}{n}=3n-2$，$S_{n}=3n^{2}-2n$</p><p>当 $n=1$ 时，$S_{1}=1$，所以 $a_{1}=1$. 当 $n\\geqslant2$ 时，</p>\n$$\n\\begin{aligned}a_{n}&=S_{n}-S_{n-1}\\\\&=(3n^{2}-2n)-\\bigl(3(n-1)^{2}-2(n-1)\\bigr)\\\\&=6n-5.\\end{aligned}\n$$\n<p>当 $n=1$ 时，$6n-5=1=a_{1}$，故</p><p>$a_{n}=6n-5$，$n\\in\\mathbb{N}^{*}$，</p><p>由此</p>\n$$\nb_{n}=\\frac{3}{(6n-5)(6n+1)}=\\frac{1}{2}\\left(\\frac{1}{6n-5}-\\frac{1}{6n+1}\\right)\n$$\n<p>所以</p>\n$$\n\\begin{aligned}T_{n}&=\\frac{1}{2}\\sum_{k=1}^{n}\\left(\\frac{1}{6k-5}-\\frac{1}{6k+1}\\right)\\\\&=\\frac{1}{2}\\left(1-\\frac{1}{6n+1}\\right)\\\\&=\\frac{3n}{6n+1}.\\end{aligned}\n$$\n<p>显然</p>\n$$\nT_{n}=\\frac{3n}{6n+1}<\\frac{1}{2}=\\frac{10}{20}\n$$\n<p>对一切 $n\\in\\mathbb{N}^{*}$ 成立，因此 $m=10$ 满足条件. 另一方面，若 $m\\leqslant9$，取 $n=2$，则</p>\n$$\nT_{2}=\\frac{6}{13}>\\frac{9}{20}\\ge\\frac{m}{20}\n$$\n<p>不满足题设不等式. 因此所求最小正整数为</p>\n$$\nm=10\n$$"
         },
         {
           "num": 21,
           "body": "<p>设 $A$，$B$ 分别为椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > 0$，$b > 0$）的左，右顶点，椭圆长半轴的长等于焦距，且 $x = 4$ 为它的右准线.</p><ol class=\"enumerate\"><li><p>求椭圆的方程；</p></li><li><p>设 $P$ 为右准线上不同于点 $(4,0)$ 的任意一点. 若直线 $AP$，$BP$ 分别与椭圆相交于异于 $A$，$B$ 的点 $M$，$N$，证明点 $B$ 在以 $MN$ 为直径的圆内.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设椭圆的半焦距为 $c$，则焦距为 $2c$. 由“长半轴长等于焦距”，得</p>\n$$\na=2c\n$$\n<p>右准线方程为 $x=\\frac{a^{2}}{c}$，又右准线为 $x=4$，所以</p>\n$$\n\\frac{a^{2}}{c}=4\n$$\n<p>联立 $a=2c$，得 $4c=4$，从而 $c=1$，$a=2$. 又</p>\n$$\nb^{2}=a^{2}-c^{2}=4-1=3\n$$\n<p>所以椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n<p>设 $P=(4,t)$，其中 $t\\ne0$，且 $A=(-2,0)$，$B=(2,0)$. 直线 $AP$ 上的点可参数表示为</p>\n$$\nX=A+\\lambda(P-A)=(-2+6\\lambda,\\lambda t)\n$$\n<p>将其代入椭圆方程，得</p>\n$$\n\\frac{(-2+6\\lambda)^{2}}{4}+\\frac{\\lambda^{2}t^{2}}{3}=1\n$$\n<p>其中 $\\lambda=0$ 对应点 $A$，另一个交点 $M$ 对应</p>\n$$\n\\lambda=\\frac{18}{t^{2}+27}\n$$\n<p>因此</p>\n$$\nM=\\left(-2+\\frac{108}{t^{2}+27},\\frac{18t}{t^{2}+27}\\right)\n$$\n<p>同理，直线 $BP$ 上的点可参数表示为</p>\n$$\nY=B+\\mu(P-B)=(2+2\\mu,\\mu t)\n$$\n<p>代入椭圆方程，其中 $\\mu=0$ 对应点 $B$，另一个交点 $N$ 对应</p>\n$$\n\\mu=-\\frac{6}{t^{2}+3}&#x3C;0\n$$\n<p>所以射线 $BN$ 与射线 $BP$ 方向相反.</p><p>考察点 $B$ 处的角. 由</p><p>$\\overrightarrow{BM}=(-4+6\\lambda,\\lambda t)$，$\\overrightarrow{BP}=(2,t)$</p><p>以及 $\\lambda=\\frac{18}{t^{2}+27}$，有</p>\n$$\n\\begin{aligned}\\overrightarrow{BM}\\cdot\\overrightarrow{BP}&#x26;=(-4+6\\lambda)\\cdot2+\\lambda t^{2}\\\\&#x26;=-8+\\lambda(12+t^{2})\\\\&#x26;=\\frac{10t^2}{t^2+27}>0.\\end{aligned}\n$$\n<p>故 $\\angle MBP$ 为锐角. 由于射线 $BN$ 与射线 $BP$ 方向相反，所以</p>\n$$\n\\angle MBN=\\pi-\\angle MBP>\\frac{\\pi}{2}\n$$\n<p>根据直径所对的圆周角为直角，角大于直角时顶点在以对应弦为直径的圆内，故点 $B$ 在以 $MN$ 为直径的圆内.</p>"
+          "solution": "<p>设椭圆的半焦距为 $c$，则焦距为 $2c$. 由“长半轴长等于焦距”，得</p>\n$$\na=2c\n$$\n<p>右准线方程为 $x=\\frac{a^{2}}{c}$，又右准线为 $x=4$，所以</p>\n$$\n\\frac{a^{2}}{c}=4\n$$\n<p>联立 $a=2c$，得 $4c=4$，从而 $c=1$，$a=2$. 又</p>\n$$\nb^{2}=a^{2}-c^{2}=4-1=3\n$$\n<p>所以椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n<p>设 $P=(4,t)$，其中 $t\\ne0$，且 $A=(-2,0)$，$B=(2,0)$. 直线 $AP$ 上的点可参数表示为</p>\n$$\nX=A+\\lambda(P-A)=(-2+6\\lambda,\\lambda t)\n$$\n<p>将其代入椭圆方程，得</p>\n$$\n\\frac{(-2+6\\lambda)^{2}}{4}+\\frac{\\lambda^{2}t^{2}}{3}=1\n$$\n<p>其中 $\\lambda=0$ 对应点 $A$，另一个交点 $M$ 对应</p>\n$$\n\\lambda=\\frac{18}{t^{2}+27}\n$$\n<p>因此</p>\n$$\nM=\\left(-2+\\frac{108}{t^{2}+27},\\frac{18t}{t^{2}+27}\\right)\n$$\n<p>同理，直线 $BP$ 上的点可参数表示为</p>\n$$\nY=B+\\mu(P-B)=(2+2\\mu,\\mu t)\n$$\n<p>代入椭圆方程，其中 $\\mu=0$ 对应点 $B$，另一个交点 $N$ 对应</p>\n$$\n\\mu=-\\frac{6}{t^{2}+3}<0\n$$\n<p>所以射线 $BN$ 与射线 $BP$ 方向相反.</p><p>考察点 $B$ 处的角. 由</p><p>$\\overrightarrow{BM}=(-4+6\\lambda,\\lambda t)$，$\\overrightarrow{BP}=(2,t)$</p><p>以及 $\\lambda=\\frac{18}{t^{2}+27}$，有</p>\n$$\n\\begin{aligned}\\overrightarrow{BM}\\cdot\\overrightarrow{BP}&=(-4+6\\lambda)\\cdot2+\\lambda t^{2}\\\\&=-8+\\lambda(12+t^{2})\\\\&=\\frac{10t^2}{t^2+27}>0.\\end{aligned}\n$$\n<p>故 $\\angle MBP$ 为锐角. 由于射线 $BN$ 与射线 $BP$ 方向相反，所以</p>\n$$\n\\angle MBN=\\pi-\\angle MBP>\\frac{\\pi}{2}\n$$\n<p>根据直径所对的圆周角为直角，角大于直角时顶点在以对应弦为直径的圆内，故点 $B$ 在以 $MN$ 为直径的圆内.</p>"
         }
       ]
     }

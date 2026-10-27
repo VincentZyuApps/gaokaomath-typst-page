@@ -29,7 +29,7 @@
             "$(0, 1)$"
           ],
           "answer": "D",
-          "solution": "<p>要表示椭圆，必须有 $k>0$. 将方程化为 $\\frac{x^{2}}{2}+\\frac{y^{2}}{\\frac{2}{k}}=1$. 焦点在 $y$ 轴上，说明长半轴在 $y$ 轴方向，即 $\\frac{2}{k}>2$.</p><p>所以 $0&#x3C;k&#x3C;1$，故选 D.</p>"
+          "solution": "<p>要表示椭圆，必须有 $k>0$. 将方程化为 $\\frac{x^{2}}{2}+\\frac{y^{2}}{\\frac{2}{k}}=1$. 焦点在 $y$ 轴上，说明长半轴在 $y$ 轴方向，即 $\\frac{2}{k}>2$.</p><p>所以 $0<k<1$，故选 D.</p>"
         },
         {
           "num": 3,
@@ -48,12 +48,12 @@
           "body": "设 $\\theta$ 是第二象限的角，则必有（ ）",
           "choices": [
             "$\\tan \\frac{\\theta}{2}> \\cot \\frac{\\theta}{2}$",
-            "$\\tan \\frac{\\theta}{2}&#x3C; \\cot \\frac{\\theta}{2}$",
+            "$\\tan \\frac{\\theta}{2}< \\cot \\frac{\\theta}{2}$",
             "$\\sin \\frac{\\theta}{2}> \\cos \\frac{\\theta}{2}$",
-            "$\\sin \\frac{\\theta}{2}&#x3C; \\cos \\frac{\\theta}{2}$"
+            "$\\sin \\frac{\\theta}{2}< \\cos \\frac{\\theta}{2}$"
           ],
           "answer": "A",
-          "solution": "<p>因为“$\\theta$ 是第二象限的角”，所以存在 $k\\in\\mathbb{Z}$，使</p><p>$\\frac{\\pi}{2}+2k\\pi&#x3C;\\theta&#x3C;\\pi+2k\\pi$. 令 $\\varphi=\\frac{\\theta}{2}$，则</p><p>$\\frac{\\pi}{4}+k\\pi&#x3C;\\varphi&#x3C;\\frac{\\pi}{2}+k\\pi$.</p><p>由正切函数的周期为 $\\pi$，得 $\\tan\\varphi>1$，从而 $\\cot\\varphi=\\frac{1}{\\tan\\varphi}&#x3C;1$，所以</p><p>$\\tan\\frac{\\theta}{2}>\\cot\\frac{\\theta}{2}$.</p><p>另一方面，$\\varphi-\\frac{\\pi}{4}\\in(k\\pi,k\\pi+\\frac{\\pi}{4})$，故当 $k$ 为偶数时 $\\sin\\varphi>\\cos\\varphi$，当 $k$ 为奇数时 $\\sin\\varphi&#x3C;\\cos\\varphi$. 因此 C、D 均不恒成立，故选 A.</p>"
+          "solution": "<p>因为“$\\theta$ 是第二象限的角”，所以存在 $k\\in\\mathbb{Z}$，使</p><p>$\\frac{\\pi}{2}+2k\\pi<\\theta<\\pi+2k\\pi$. 令 $\\varphi=\\frac{\\theta}{2}$，则</p><p>$\\frac{\\pi}{4}+k\\pi<\\varphi<\\frac{\\pi}{2}+k\\pi$.</p><p>由正切函数的周期为 $\\pi$，得 $\\tan\\varphi>1$，从而 $\\cot\\varphi=\\frac{1}{\\tan\\varphi}<1$，所以</p><p>$\\tan\\frac{\\theta}{2}>\\cot\\frac{\\theta}{2}$.</p><p>另一方面，$\\varphi-\\frac{\\pi}{4}\\in(k\\pi,k\\pi+\\frac{\\pi}{4})$，故当 $k$ 为偶数时 $\\sin\\varphi>\\cos\\varphi$，当 $k$ 为奇数时 $\\sin\\varphi<\\cos\\varphi$. 因此 C、D 均不恒成立，故选 A.</p>"
         },
         {
           "num": 5,
@@ -165,7 +165,7 @@
         },
         {
           "num": 14,
-          "body": "函数 $y = \\arccos (\\sin x)$（$-\\frac{\\pi}{3}&#x3C; x &#x3C; \\frac{2\\pi}{3}$）的值域是（ ）",
+          "body": "函数 $y = \\arccos (\\sin x)$（$-\\frac{\\pi}{3}< x < \\frac{2\\pi}{3}$）的值域是（ ）",
           "choices": [
             "$\\left(\\frac{\\pi}{6}, \\frac{5\\pi}{6}\\right)$",
             "$\\left[0, \\frac{5\\pi}{6}\\right)$",
@@ -211,7 +211,7 @@
           "body": "已知 $\\sin \\theta + \\cos \\theta = \\frac{1}{5}$，$\\theta \\in (0, \\pi)$，则 $\\cot \\theta$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-\\frac{3}{4}$",
-          "solution": "<p>由 $\\sin\\theta+\\cos\\theta=\\frac{1}{5}$，得 $1+2\\sin\\theta\\cos\\theta=\\frac{1}{25}$，即 $\\sin\\theta\\cos\\theta=-\\frac{12}{25}$. 因 $\\theta\\in(0,\\pi)$，有 $\\sin\\theta>0$；结合 $\\sin\\theta\\cos\\theta&#x3C;0$，得 $\\cos\\theta&#x3C;0$，从而 $\\sin\\theta-\\cos\\theta>0$. 于是 $(\\sin\\theta-\\cos\\theta)^{2}=1-2\\sin\\theta\\cos\\theta=\\frac{49}{25}$，所以 $\\sin\\theta-\\cos\\theta=\\frac{7}{5}$，并且 $\\sin\\theta+\\cos\\theta=\\frac{1}{5}$.</p><p>两式相加、相减，得 $\\sin\\theta=\\frac{4}{5}$，$\\cos\\theta=-\\frac{3}{5}$. 因此</p><p>$\\cot\\theta=\\frac{\\cos\\theta}{\\sin\\theta}=-\\frac{3}{4}$.</p>"
+          "solution": "<p>由 $\\sin\\theta+\\cos\\theta=\\frac{1}{5}$，得 $1+2\\sin\\theta\\cos\\theta=\\frac{1}{25}$，即 $\\sin\\theta\\cos\\theta=-\\frac{12}{25}$. 因 $\\theta\\in(0,\\pi)$，有 $\\sin\\theta>0$；结合 $\\sin\\theta\\cos\\theta<0$，得 $\\cos\\theta<0$，从而 $\\sin\\theta-\\cos\\theta>0$. 于是 $(\\sin\\theta-\\cos\\theta)^{2}=1-2\\sin\\theta\\cos\\theta=\\frac{49}{25}$，所以 $\\sin\\theta-\\cos\\theta=\\frac{7}{5}$，并且 $\\sin\\theta+\\cos\\theta=\\frac{1}{5}$.</p><p>两式相加、相减，得 $\\sin\\theta=\\frac{4}{5}$，$\\cos\\theta=-\\frac{3}{5}$. 因此</p><p>$\\cot\\theta=\\frac{\\cos\\theta}{\\sin\\theta}=-\\frac{3}{4}$.</p>"
         },
         {
           "num": 19,
@@ -244,7 +244,7 @@
           "body": "已知函数 $f(x) = \\tan x$，$x \\in \\left(0, \\frac{\\pi}{2}\\right)$. 若 $x_{1}$，$x_{2} \\in \\left(0, \\frac{\\pi}{2}\\right)$，且 $x_{1} \\neq x_{2}$，证明：$\\frac{1}{2}\\left[f(x_{1}) + f(x_{2})\\right] > f\\left(\\frac{x_{1} + x_{2}}{2}\\right)$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $m=\\frac{x_{1}+x_{2}}{2}$，$d=\\frac{x_{1}-x_{2}}{2}$.</p><p>则 $m\\in(0,\\frac{\\pi}{2})$，且 $d\\neq0$. 由 $x_{1}$，$x_{2}\\in(0,\\frac{\\pi}{2})$ 可知 $\\cos x_{1}>0$、$\\cos x_{2}>0$，并且</p>\n$$\n\\tan x_{1}+\\tan x_{2}  =\\frac{\\sin(x_{1}+x_{2})}{\\cos x_{1}\\cos x_{2}}=\\frac{\\sin 2m}{\\cos x_{1}\\cos x_{2}}\n$$\n<p>又</p>\n$$\n\\cos x_{1}\\cos x_{2}  =\\cos(m+d)\\cos(m-d)  =\\cos^{2}m-\\sin^{2}d&#x3C;\\cos^{2}m\n$$\n<p>因为 $0&#x3C;m&#x3C;\\frac{\\pi}{2}$，所以 $\\sin2m>0$. 因此</p>\n$$\n\\frac{1}{2}\\left(\\tan x_{1}+\\tan x_{2}\\right)-\\tan m  =\\frac{\\sin2m}{2}\\left(\\frac{1}{\\cos x_{1}\\cos x_{2}}-\\frac{1}{\\cos^{2}m}\\right)  =\\frac{\\sin2m\\sin^{2}d}{2\\cos x_{1}\\cos x_{2}\\cos^{2}m}>0\n$$\n<p>于是 $\\frac{1}{2}\\left[f(x_{1})+f(x_{2})\\right]>f\\left(\\frac{x_{1}+x_{2}}{2}\\right)$.</p>"
+          "solution": "<p>令 $m=\\frac{x_{1}+x_{2}}{2}$，$d=\\frac{x_{1}-x_{2}}{2}$.</p><p>则 $m\\in(0,\\frac{\\pi}{2})$，且 $d\\neq0$. 由 $x_{1}$，$x_{2}\\in(0,\\frac{\\pi}{2})$ 可知 $\\cos x_{1}>0$、$\\cos x_{2}>0$，并且</p>\n$$\n\\tan x_{1}+\\tan x_{2}  =\\frac{\\sin(x_{1}+x_{2})}{\\cos x_{1}\\cos x_{2}}=\\frac{\\sin 2m}{\\cos x_{1}\\cos x_{2}}\n$$\n<p>又</p>\n$$\n\\cos x_{1}\\cos x_{2}  =\\cos(m+d)\\cos(m-d)  =\\cos^{2}m-\\sin^{2}d<\\cos^{2}m\n$$\n<p>因为 $0<m<\\frac{\\pi}{2}$，所以 $\\sin2m>0$. 因此</p>\n$$\n\\frac{1}{2}\\left(\\tan x_{1}+\\tan x_{2}\\right)-\\tan m  =\\frac{\\sin2m}{2}\\left(\\frac{1}{\\cos x_{1}\\cos x_{2}}-\\frac{1}{\\cos^{2}m}\\right)  =\\frac{\\sin2m\\sin^{2}d}{2\\cos x_{1}\\cos x_{2}\\cos^{2}m}>0\n$$\n<p>于是 $\\frac{1}{2}\\left[f(x_{1})+f(x_{2})\\right]>f\\left(\\frac{x_{1}+x_{2}}{2}\\right)$.</p>"
         },
         {
           "num": 23,

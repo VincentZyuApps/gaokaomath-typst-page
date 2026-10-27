@@ -12,7 +12,7 @@
           "body": "不等式 $\\lvert x\\rvert>1$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(-\\infty,-1)\\cup(1,+\\infty)$",
-          "solution": "由绝对值不等式的定义，$\\lvert x\\rvert>1$ 等价于 $x&#x3C;-1$ 或 $x>1$，所以解集为 $(-\\infty,-1)\\cup(1,+\\infty)$."
+          "solution": "由绝对值不等式的定义，$\\lvert x\\rvert>1$ 等价于 $x<-1$ 或 $x>1$，所以解集为 $(-\\infty,-1)\\cup(1,+\\infty)$."
         },
         {
           "num": 2,
@@ -23,10 +23,10 @@
         },
         {
           "num": 3,
-          "body": "设集合 $A=\\{x\\mid 0&#x3C;x&#x3C;2\\}$，$B=\\{x\\mid -1&#x3C;x&#x3C;1\\}$，则 $A\\cap B=\\underline{\\hspace{2.5em}}{}$.",
+          "body": "设集合 $A=\\{x\\mid 0<x<2\\}$，$B=\\{x\\mid -1<x<1\\}$，则 $A\\cap B=\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$(0,1)$",
-          "solution": "集合 $A$ 中元素满足 $0&#x3C;x&#x3C;2$，集合 $B$ 中元素满足 $-1&#x3C;x&#x3C;1$. 同时满足两组不等式时，必须有 $0&#x3C;x&#x3C;1$，因此 $A\\cap B=(0,1)$."
+          "solution": "集合 $A$ 中元素满足 $0<x<2$，集合 $B$ 中元素满足 $-1<x<1$. 同时满足两组不等式时，必须有 $0<x<1$，因此 $A\\cap B=(0,1)$."
         },
         {
           "num": 4,
@@ -75,21 +75,21 @@
           "body": "设 $m\\in\\mathbb{R}$，若 $z$ 是关于 $x$ 的方程 $x^{2}+mx+m^{2}-1=0$ 的一个虚根，则 $\\lvert z\\rvert$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(\\frac{\\sqrt{3}}{3},+\\infty\\right)$",
-          "solution": "<p>方程有虚根的条件是判别式小于零，即</p>\n$$\n\\Delta=m^{2}-4(m^{2}-1)=4-3m^{2}&#x3C;0\n$$\n<p>所以 $m^{2}>\\frac{4}{3}$. 设虚根为 $z$，另一个根为 $\\overline z$，由韦达定理</p>\n$$\n\\lvert z\\rvert^{2}=z\\overline z=m^{2}-1>\\frac{1}{3}\n$$\n<p>反之，任取 $r>\\frac{\\sqrt{3}}{3}$，令 $m=\\sqrt{r^{2}+1}$，则 $4-3m^{2}&#x3C;0$，方程有虚根，且任一虚根 $z$ 满足 $\\lvert z\\rvert^{2}=m^{2}-1=r^{2}$. 因此 $\\lvert z\\rvert$ 的取值范围为 $\\left(\\frac{\\sqrt{3}}{3},+\\infty\\right)$.</p>"
+          "solution": "<p>方程有虚根的条件是判别式小于零，即</p>\n$$\n\\Delta=m^{2}-4(m^{2}-1)=4-3m^{2}<0\n$$\n<p>所以 $m^{2}>\\frac{4}{3}$. 设虚根为 $z$，另一个根为 $\\overline z$，由韦达定理</p>\n$$\n\\lvert z\\rvert^{2}=z\\overline z=m^{2}-1>\\frac{1}{3}\n$$\n<p>反之，任取 $r>\\frac{\\sqrt{3}}{3}$，令 $m=\\sqrt{r^{2}+1}$，则 $4-3m^{2}<0$，方程有虚根，且任一虚根 $z$ 满足 $\\lvert z\\rvert^{2}=m^{2}-1=r^{2}$. 因此 $\\lvert z\\rvert$ 的取值范围为 $\\left(\\frac{\\sqrt{3}}{3},+\\infty\\right)$.</p>"
         },
         {
           "num": 11,
           "body": "设 $a>0$，函数 $f(x)=x+2(1-x)\\sin(ax)$，$x\\in(0,1)$. 若函数 $y=2x-1$ 与 $y=f(x)$ 的图像有且仅有两个不同的公共点，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(\\frac{11\\pi}{6},\\frac{19\\pi}{6}\\right]$",
-          "solution": "<p>令两图像的公共点横坐标为 $x$. 由方程</p>\n$$\n2x-1=x+2(1-x)\\sin(ax)\n$$\n<p>得 $(1-x)(-1-2\\sin(ax))=0$. 由于题设 $x\\in(0,1)$，所以 $1-x\\ne0$，从而 $\\sin(ax)=-\\frac{1}{2}$.</p><p>令 $t=ax$. 因为 $a>0$ 且 $x\\in(0,1)$，所以 $t\\in(0,a)$. 正弦值为 $-\\frac{1}{2}$ 的正数解依次为</p><p>$\\frac{7\\pi}{6}$，$\\frac{11\\pi}{6}$，$\\frac{19\\pi}{6}$，$\\ldots$</p><p>区间 $(0,a)$ 中恰有两个这样的解，当且仅当第二个解被包含而第三个解不被包含，即 $\\frac{11\\pi}{6}&#x3C;a\\le\\frac{19\\pi}{6}$.</p>"
+          "solution": "<p>令两图像的公共点横坐标为 $x$. 由方程</p>\n$$\n2x-1=x+2(1-x)\\sin(ax)\n$$\n<p>得 $(1-x)(-1-2\\sin(ax))=0$. 由于题设 $x\\in(0,1)$，所以 $1-x\\ne0$，从而 $\\sin(ax)=-\\frac{1}{2}$.</p><p>令 $t=ax$. 因为 $a>0$ 且 $x\\in(0,1)$，所以 $t\\in(0,a)$. 正弦值为 $-\\frac{1}{2}$ 的正数解依次为</p><p>$\\frac{7\\pi}{6}$，$\\frac{11\\pi}{6}$，$\\frac{19\\pi}{6}$，$\\ldots$</p><p>区间 $(0,a)$ 中恰有两个这样的解，当且仅当第二个解被包含而第三个解不被包含，即 $\\frac{11\\pi}{6}<a\\le\\frac{19\\pi}{6}$.</p>"
         },
         {
           "num": 12,
           "body": "<p>如图，正方形 $ABCD$ 的边长为 $20$ 米，圆 $O$ 的半径为 $1$ 米，圆心是正方形的中心，点 $P$，$Q$ 分别在线段 $AD$，$CB$ 上，若线段 $PQ$ 与圆 $O$ 有公共点，则称点 $Q$ 在点 $P$ 的“盲区”中，已知点 $P$ 以 $1.5$ 米/秒的速度从 $A$ 出发向 $D$ 移动，同时，点 $Q$ 以 $1$ 米/秒的速度从 $C$ 出发向 $B$ 移动，则在点 $P$ 从 $A$ 移动到 $D$ 的过程中，点 $Q$ 在点 $P$ 的盲区中的时长约为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>秒（精确到 $0.1$）.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$4.4$",
-          "solution": "<p>取正方形中心 $O$ 为原点，令 $A=(-10,-10)$、$B=(10,-10)$、$C=(10,10)$、$D=(-10,10)$. 设运动时间为 $t$ 秒，则在点 $P$ 到达 $D$ 前</p><p>$P=(-10,-10+1.5t)$，$Q=(10,10-t)$，$0\\le t\\le\\frac{40}{3}$</p><p>直线 $PQ$ 的斜率为 $1-\\frac{t}{8}$，且在 $y$ 轴上的截距为 $\\frac{t}{4}$，故其方程可写为</p>\n$$\n\\left(1-\\frac{t}{8}\\right)x-y+\\frac{t}{4}=0\n$$\n<p>记 $\\mathbf{v}=Q-P=(20,20-\\frac{5}{2}t)$，则原点到直线 $PQ$ 的垂足对应的参数为</p>\n$$\n\\lambda_{0}=-\\frac{P\\cdot\\mathbf{v}}{\\lvert\\mathbf{v}\\rvert^{2}}=\\frac{400-55t+\\frac{15}{4}t^{2}}{400+\\left(20-\\frac{5}{2}t\\right)^{2}}\n$$\n<p>在 $0\\le t\\le\\frac{40}{3}$ 上，分子恒为正，且分母减去分子为 $400-45t+\\frac{5}{2}t^{2}$，其最小值为 $\\frac{395}{2}>0$，故 $0&#x3C;\\lambda_{0}&#x3C;1$，垂足确在线段 $PQ$ 上. 因此线段与半径为 $1$ 的圆有公共点，当且仅当原点到直线的距离不超过 $1$：</p>\n$$\n\\frac{\\frac{t}{4}}{\\sqrt{\\left(1-\\frac{t}{8}\\right)^{2}+1}}\\le1\n$$\n<p>两边平方并化简，得</p>\n$$\n3t^{2}+16t-128\\le0\n$$\n<p>其正根为 $\\frac{8(\\sqrt{7}-1)}{3}$，所以符合条件的时间区间为 $0\\le t\\le\\frac{8(\\sqrt{7}-1)}{3}$，时长为</p>\n$$\n\\frac{8(\\sqrt{7}-1)}{3}\\approx4.3888\\ \\mathrm{s}\n$$\n<p>精确到 $0.1$ 为 $4.4$ 秒.</p>"
+          "solution": "<p>取正方形中心 $O$ 为原点，令 $A=(-10,-10)$、$B=(10,-10)$、$C=(10,10)$、$D=(-10,10)$. 设运动时间为 $t$ 秒，则在点 $P$ 到达 $D$ 前</p><p>$P=(-10,-10+1.5t)$，$Q=(10,10-t)$，$0\\le t\\le\\frac{40}{3}$</p><p>直线 $PQ$ 的斜率为 $1-\\frac{t}{8}$，且在 $y$ 轴上的截距为 $\\frac{t}{4}$，故其方程可写为</p>\n$$\n\\left(1-\\frac{t}{8}\\right)x-y+\\frac{t}{4}=0\n$$\n<p>记 $\\mathbf{v}=Q-P=(20,20-\\frac{5}{2}t)$，则原点到直线 $PQ$ 的垂足对应的参数为</p>\n$$\n\\lambda_{0}=-\\frac{P\\cdot\\mathbf{v}}{\\lvert\\mathbf{v}\\rvert^{2}}=\\frac{400-55t+\\frac{15}{4}t^{2}}{400+\\left(20-\\frac{5}{2}t\\right)^{2}}\n$$\n<p>在 $0\\le t\\le\\frac{40}{3}$ 上，分子恒为正，且分母减去分子为 $400-45t+\\frac{5}{2}t^{2}$，其最小值为 $\\frac{395}{2}>0$，故 $0<\\lambda_{0}<1$，垂足确在线段 $PQ$ 上. 因此线段与半径为 $1$ 的圆有公共点，当且仅当原点到直线的距离不超过 $1$：</p>\n$$\n\\frac{\\frac{t}{4}}{\\sqrt{\\left(1-\\frac{t}{8}\\right)^{2}+1}}\\le1\n$$\n<p>两边平方并化简，得</p>\n$$\n3t^{2}+16t-128\\le0\n$$\n<p>其正根为 $\\frac{8(\\sqrt{7}-1)}{3}$，所以符合条件的时间区间为 $0\\le t\\le\\frac{8(\\sqrt{7}-1)}{3}$，时长为</p>\n$$\n\\frac{8(\\sqrt{7}-1)}{3}\\approx4.3888\\ \\mathrm{s}\n$$\n<p>精确到 $0.1$ 为 $4.4$ 秒.</p>"
         }
       ]
     },
@@ -175,14 +175,14 @@
           "body": "<p>设 $a>0$，函数 $f(x)=\\frac{1}{1+a\\cdot2^{x}}$.</p><ol class=\"enumerate\"><li><p>若 $a=1$，求 $f(x)$ 的反函数 $f^{-1}(x)$；</p></li><li><p>求函数 $y=f(x)\\cdot f(-x)$ 的最大值（用 $a$ 表示）；</p></li><li><p>设 $g(x)=f(x)-f(x-1)$，若对任意 $x\\in(-\\infty,0]$，$g(x)\\ge g(0)$ 恒成立，求 $a$ 取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，令 $y=f(x)=\\frac{1}{1+2^{x}}$. 因为 $0&#x3C;y&#x3C;1$，且 $2^{x}=\\frac{1-y}{y}$，所以</p>\n$$\nx=\\log_{2}\\frac{1-y}{y}\n$$\n<p>故 $f^{-1}(x)=\\log_{2}\\frac{1-x}{x}$，其定义域为 $(0,1)$.</p></li><li><p>令 $t=2^{x}>0$，则</p>\n$$\ny=f(x)f(-x)=\\frac{1}{(1+at)(1+\\frac{a}{t})}=\\frac{1}{1+a^{2}+a\\left(t+\\frac{1}{t}\\right)}\n$$\n<p>由 $t+\\frac{1}{t}\\ge2$，分母不小于 $(1+a)^{2}$，所以 $y\\le\\frac{1}{(1+a)^{2}}$. 当 $t=1$，即 $x=0$ 时取到，故最大值为 $\\frac{1}{(1+a)^{2}}$.</p></li><li><p>令 $t=2^{x}$，则 $x\\le0$ 等价于 $0&#x3C;t\\le1$，并且</p><p>$g(x)=-\\frac{at}{(1+at)(2+at)}$，$g(0)=-\\frac{a}{(1+a)(2+a)}$</p><p>由于各分母均为正，条件 $g(x)\\ge g(0)$ 等价于</p>\n$$\n\\frac{t}{(1+at)(2+at)}\\le\\frac{1}{(1+a)(2+a)}\n$$\n<p>交叉相乘并化简，得到</p>\n$$\n(1-t)(2-a^{2}t)\\ge0\n$$\n<p>当 $a^{2}\\le2$ 时，对所有 $0&#x3C;t\\le1$ 都有 $2-a^{2}t\\ge2-a^{2}\\ge0$，条件成立；当 $a^{2}>2$ 时，取 $\\frac{2}{a^{2}}&#x3C;t&#x3C;1$，则上式为负，条件不成立. 因此 $0&#x3C;a\\le\\sqrt{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，令 $y=f(x)=\\frac{1}{1+2^{x}}$. 因为 $0<y<1$，且 $2^{x}=\\frac{1-y}{y}$，所以</p>\n$$\nx=\\log_{2}\\frac{1-y}{y}\n$$\n<p>故 $f^{-1}(x)=\\log_{2}\\frac{1-x}{x}$，其定义域为 $(0,1)$.</p></li><li><p>令 $t=2^{x}>0$，则</p>\n$$\ny=f(x)f(-x)=\\frac{1}{(1+at)(1+\\frac{a}{t})}=\\frac{1}{1+a^{2}+a\\left(t+\\frac{1}{t}\\right)}\n$$\n<p>由 $t+\\frac{1}{t}\\ge2$，分母不小于 $(1+a)^{2}$，所以 $y\\le\\frac{1}{(1+a)^{2}}$. 当 $t=1$，即 $x=0$ 时取到，故最大值为 $\\frac{1}{(1+a)^{2}}$.</p></li><li><p>令 $t=2^{x}$，则 $x\\le0$ 等价于 $0<t\\le1$，并且</p><p>$g(x)=-\\frac{at}{(1+at)(2+at)}$，$g(0)=-\\frac{a}{(1+a)(2+a)}$</p><p>由于各分母均为正，条件 $g(x)\\ge g(0)$ 等价于</p>\n$$\n\\frac{t}{(1+at)(2+at)}\\le\\frac{1}{(1+a)(2+a)}\n$$\n<p>交叉相乘并化简，得到</p>\n$$\n(1-t)(2-a^{2}t)\\ge0\n$$\n<p>当 $a^{2}\\le2$ 时，对所有 $0<t\\le1$ 都有 $2-a^{2}t\\ge2-a^{2}\\ge0$，条件成立；当 $a^{2}>2$ 时，取 $\\frac{2}{a^{2}}<t<1$，则上式为负，条件不成立. 因此 $0<a\\le\\sqrt{2}$.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>若 $\\{c_{n}\\}$ 是递增数列，数列 $\\{a_{n}\\}$ 满足：对任意 $n\\in\\mathbb{N}^{*}$，存在 $m\\in\\mathbb{N}^{*}$，使得 $\\frac{a_{m}-c_{n}}{a_{m}-c_{n+1}}\\le0$，则称 $\\{a_{n}\\}$ 是 $\\{c_{n}\\}$ 的“分隔数列”.</p><ol class=\"enumerate\"><li><p>设 $c_{n}=2n$，$a_{n}=n+1$，证明：数列 $\\{a_{n}\\}$ 是 $\\{c_{n}\\}$ 的分隔数列；</p></li><li><p>设 $c_{n}=n-4$，$S_{n}$ 是 $\\{c_{n}\\}$ 的前 $n$ 项和，$d_{n}=c_{3n-2}$，判断数列 $\\{S_{n}\\}$ 是否是数列 $\\{d_{n}\\}$ 的分隔数列，并说明理由；</p></li><li><p>设 $c_{n}=aq^{n-1}$，$T_{n}$ 是 $\\{c_{n}\\}$ 的前 $n$ 项和，若数列 $\\{T_{n}\\}$ 是 $\\{c_{n}\\}$ 的分隔数列，求实数 $a$，$q$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>对任意 $n\\in\\mathbb{N}^{*}$，取 $m=2n-1$，则 $a_{m}=m+1=2n=c_{n}$，且 $a_{m}-c_{n+1}=-2$. 因此</p>\n$$\n\\frac{a_{m}-c_{n}}{a_{m}-c_{n+1}}=\\frac{0}{-2}=0\\le0\n$$\n<p>所以 $\\{a_{n}\\}$ 是 $\\{c_{n}\\}$ 的分隔数列.</p></li><li><p>有</p><p>$S_{m}=\\sum_{j=1}^{m}(j-4)=\\frac{m(m-7)}{2}$，$d_{n}=c_{3n-2}=3n-6$</p><p>取 $n=4$，则 $d_{4}=6$、$d_{5}=9$. 若存在相应的 $m$，由分式不大于零且分母不能为零，必须有 $6\\le S_{m}&#x3C;9$. 但当 $m\\le8$ 时 $S_{m}\\le4$，当 $m\\ge9$ 时 $S_{m}\\ge S_{9}=9$，不存在这样的 $m$. 因此 $\\{S_{n}\\}$ 不是 $\\{d_{n}\\}$ 的分隔数列.</p></li><li><p>因 $\\{c_{n}\\}$ 递增，参数只能落在 $a>0$，$q>1$ 或 $a&#x3C;0$，$0&#x3C;q&#x3C;1$ 两种情形中. 若 $a&#x3C;0$，$0&#x3C;q&#x3C;1$，则 $c_{1}=a$，而 $T_{1}=a$，对所有 $m\\ge2$ 有 $T_{m}&#x3C;a&#x3C;c_{2}$，所以区间 $[c_{2},c_{3})$ 中没有任何 $T_{m}$，不满足条件.</p><p>下面设 $a>0$，$q>1$，记 $I_{n}=[c_{n},c_{n+1})$. 因为 $c_{n}&#x3C;c_{n+1}$，定义中的分式不大于零等价于存在 $m$ 使 $T_{m}\\in I_{n}$. 当 $q\\ge2$ 时，取 $m=n$，有</p>\n$$\nT_{n}=a\\frac{q^{n}-1}{q-1}\\ge aq^{n-1}=c_{n}\n$$\n<p>又因为</p>\n$$\nT_{n}&#x3C;c_{n+1}\\ \\Longleftrightarrow\\ q^{n}-1&#x3C;q^{n+1}-q^{n}\\ \\Longleftrightarrow\\ q^{n}(q-2)+1>0\n$$\n<p>所以 $T_{n}\\in I_{n}$，条件成立.</p><p>反之，若 $1&#x3C;q&#x3C;2$，假设每个 $I_{n}$ 都含有某个 $T_{m}$. 先有 $T_{1}=c_{1}\\in I_{1}$. 若 $T_{j}\\in I_{j}$，则对 $m\\le j$ 有 $T_{m}\\le T_{j}&#x3C;c_{j+1}$，这些项不能落入 $I_{j+1}$；而任一落入 $I_{j+1}$ 的项的下标至少为 $j+1$，故递增性给出 $T_{j+1}\\le T_{m}&#x3C;c_{j+2}$，又因 $T_{j+1}=T_{j}+c_{j+1}>c_{j+1}$，所以 $T_{j+1}\\in I_{j+1}$. 归纳可知第 $n$ 个区间只能由 $T_{n}$ 命中，于是必须有 $T_{n+1}&#x3C;c_{n+2}$ 对所有 $n$ 成立. 但</p>\n$$\n\\frac{T_{n+1}}{c_{n+2}}=\\frac{1-q^{-(n+1)}}{q-1}\\longrightarrow\\frac{1}{q-1}>1\n$$\n<p>故当 $n$ 足够大时 $T_{n+1}\\ge c_{n+2}$，矛盾. 因此必须有 $q\\ge2$.</p><p>综上，参数范围为 $a>0$，$q\\ge2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>对任意 $n\\in\\mathbb{N}^{*}$，取 $m=2n-1$，则 $a_{m}=m+1=2n=c_{n}$，且 $a_{m}-c_{n+1}=-2$. 因此</p>\n$$\n\\frac{a_{m}-c_{n}}{a_{m}-c_{n+1}}=\\frac{0}{-2}=0\\le0\n$$\n<p>所以 $\\{a_{n}\\}$ 是 $\\{c_{n}\\}$ 的分隔数列.</p></li><li><p>有</p><p>$S_{m}=\\sum_{j=1}^{m}(j-4)=\\frac{m(m-7)}{2}$，$d_{n}=c_{3n-2}=3n-6$</p><p>取 $n=4$，则 $d_{4}=6$、$d_{5}=9$. 若存在相应的 $m$，由分式不大于零且分母不能为零，必须有 $6\\le S_{m}<9$. 但当 $m\\le8$ 时 $S_{m}\\le4$，当 $m\\ge9$ 时 $S_{m}\\ge S_{9}=9$，不存在这样的 $m$. 因此 $\\{S_{n}\\}$ 不是 $\\{d_{n}\\}$ 的分隔数列.</p></li><li><p>因 $\\{c_{n}\\}$ 递增，参数只能落在 $a>0$，$q>1$ 或 $a<0$，$0<q<1$ 两种情形中. 若 $a<0$，$0<q<1$，则 $c_{1}=a$，而 $T_{1}=a$，对所有 $m\\ge2$ 有 $T_{m}<a<c_{2}$，所以区间 $[c_{2},c_{3})$ 中没有任何 $T_{m}$，不满足条件.</p><p>下面设 $a>0$，$q>1$，记 $I_{n}=[c_{n},c_{n+1})$. 因为 $c_{n}<c_{n+1}$，定义中的分式不大于零等价于存在 $m$ 使 $T_{m}\\in I_{n}$. 当 $q\\ge2$ 时，取 $m=n$，有</p>\n$$\nT_{n}=a\\frac{q^{n}-1}{q-1}\\ge aq^{n-1}=c_{n}\n$$\n<p>又因为</p>\n$$\nT_{n}<c_{n+1}\\ \\Longleftrightarrow\\ q^{n}-1<q^{n+1}-q^{n}\\ \\Longleftrightarrow\\ q^{n}(q-2)+1>0\n$$\n<p>所以 $T_{n}\\in I_{n}$，条件成立.</p><p>反之，若 $1<q<2$，假设每个 $I_{n}$ 都含有某个 $T_{m}$. 先有 $T_{1}=c_{1}\\in I_{1}$. 若 $T_{j}\\in I_{j}$，则对 $m\\le j$ 有 $T_{m}\\le T_{j}<c_{j+1}$，这些项不能落入 $I_{j+1}$；而任一落入 $I_{j+1}$ 的项的下标至少为 $j+1$，故递增性给出 $T_{j+1}\\le T_{m}<c_{j+2}$，又因 $T_{j+1}=T_{j}+c_{j+1}>c_{j+1}$，所以 $T_{j+1}\\in I_{j+1}$. 归纳可知第 $n$ 个区间只能由 $T_{n}$ 命中，于是必须有 $T_{n+1}<c_{n+2}$ 对所有 $n$ 成立. 但</p>\n$$\n\\frac{T_{n+1}}{c_{n+2}}=\\frac{1-q^{-(n+1)}}{q-1}\\longrightarrow\\frac{1}{q-1}>1\n$$\n<p>故当 $n$ 足够大时 $T_{n+1}\\ge c_{n+2}$，矛盾. 因此必须有 $q\\ge2$.</p><p>综上，参数范围为 $a>0$，$q\\ge2$.</p></li></ol>"
         }
       ]
     }

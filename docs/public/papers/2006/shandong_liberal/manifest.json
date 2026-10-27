@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "设 $f(x) = \\begin{cases}2\\mathrm{e}^{x - 1},&#x26;x &#x3C; 2,\\\\  \\log_{3}(x^{2} - 1),&#x26;x \\ge 2,\\end{cases}$ 则 $f[f(2)]$ 的值为（ ）",
+          "body": "设 $f(x) = \\begin{cases}2\\mathrm{e}^{x - 1},&x < 2,\\\\  \\log_{3}(x^{2} - 1),&x \\ge 2,\\end{cases}$ 则 $f[f(2)]$ 的值为（ ）",
           "choices": [
             "$0$",
             "$1$",
@@ -29,11 +29,11 @@
             "$3$"
           ],
           "answer": "C",
-          "solution": "因为 $2\\geqslant2$，所以 $f(2)=\\log_{3}(2^{2}-1)=\\log_{3} 3=1$. 又因为 $1&#x3C;2$，所以 $f[f(2)]=f(1)=2\\mathrm{e}^{1-1}=2$，故选 C."
+          "solution": "因为 $2\\geqslant2$，所以 $f(2)=\\log_{3}(2^{2}-1)=\\log_{3} 3=1$. 又因为 $1<2$，所以 $f[f(2)]=f(1)=2\\mathrm{e}^{1-1}=2$，故选 C."
         },
         {
           "num": 3,
-          "body": "函数 $y = 1 + a^{x}$（$0 &#x3C; a &#x3C; 1$）的反函数的图象大致是（ ）",
+          "body": "函数 $y = 1 + a^{x}$（$0 < a < 1$）的反函数的图象大致是（ ）",
           "choices": [
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_liberal/q3_choiceA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_liberal/q3_choiceB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
@@ -41,7 +41,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_liberal/q3_choiceD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "由 $y=1+a^{x}$ 得 $x=\\log_{a}(y-1)$，所以反函数为 $y=\\log_{a}(x-1)$，定义域为 $x>1$. 因为 $0&#x3C;a&#x3C;1$，反函数图象单调递减，且有竖直渐近线 $x=1$；令 $y=0$，得 $x=2$，所以图象经过 $(2,0)$. 只有选项 A 的图象满足这些特征，故选 A."
+          "solution": "由 $y=1+a^{x}$ 得 $x=\\log_{a}(y-1)$，所以反函数为 $y=\\log_{a}(x-1)$，定义域为 $x>1$. 因为 $0<a<1$，反函数图象单调递减，且有竖直渐近线 $x=1$；令 $y=0$，得 $x=2$，所以图象经过 $(2,0)$. 只有选项 A 的图象满足这些特征，故选 A."
         },
         {
           "num": 4,
@@ -77,7 +77,7 @@
             "$\\sqrt{3}$"
           ],
           "answer": "B",
-          "solution": "由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{\\sqrt{3}}{\\sin(\\frac{\\pi}{3})}=2$，从而 $\\sin B=\\dfrac{b}{2}=\\dfrac{1}{2}$. 又 $0&#x3C;B&#x3C;\\pi-A=\\dfrac{2\\pi}{3}$，所以 $B=\\dfrac{\\pi}{6}$，进而 $C=\\pi-A-B=\\dfrac{\\pi}{2}$. 因此 $c=2\\sin C=2$，故选 B."
+          "solution": "由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{\\sqrt{3}}{\\sin(\\frac{\\pi}{3})}=2$，从而 $\\sin B=\\dfrac{b}{2}=\\dfrac{1}{2}$. 又 $0<B<\\pi-A=\\dfrac{2\\pi}{3}$，所以 $B=\\dfrac{\\pi}{6}$，进而 $C=\\pi-A-B=\\dfrac{\\pi}{2}$. 因此 $c=2\\sin C=2$，故选 B."
         },
         {
           "num": 7,
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "设 $p: x^{2} - x - 2 &#x3C; 0$，$q: \\frac{1 + x}{|x| - 2}&#x3C; 0$，则 $p$ 是 $q$ 的（ ）",
+          "body": "设 $p: x^{2} - x - 2 < 0$，$q: \\frac{1 + x}{|x| - 2}< 0$，则 $p$ 是 $q$ 的（ ）",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -113,7 +113,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>由 $x^{2}-x-2=(x-2)(x+1)$，得 $p$ 的解集为 $(-1,2)$. 对 $q$，在 $x&#x3C;-2$ 时分子为负、分母为正，故 $q$ 成立；在 $-2&#x3C;x&#x3C;-1$ 时分子和分母均为负，故 $q$ 不成立；在 $-1&#x3C;x&#x3C;2$ 时分子为正、分母为负，故 $q$ 成立；在 $x>2$ 时分子和分母均为正，故 $q$ 不成立. 注意 $x=\\pm2$ 不在定义域内，所以 $q$ 的解集为 $(-\\infty,-2)\\cup(-1,2)$.</p><p>因此 $p$ 的解集是 $q$ 解集的真子集，$p$ 是 $q$ 的充分不必要条件，故选 A.</p>"
+          "solution": "<p>由 $x^{2}-x-2=(x-2)(x+1)$，得 $p$ 的解集为 $(-1,2)$. 对 $q$，在 $x<-2$ 时分子为负、分母为正，故 $q$ 成立；在 $-2<x<-1$ 时分子和分母均为负，故 $q$ 不成立；在 $-1<x<2$ 时分子为正、分母为负，故 $q$ 成立；在 $x>2$ 时分子和分母均为正，故 $q$ 不成立. 注意 $x=\\pm2$ 不在定义域内，所以 $q$ 的解集为 $(-\\infty,-2)\\cup(-1,2)$.</p><p>因此 $p$ 的解集是 $q$ 解集的真子集，$p$ 是 $q$ 的充分不必要条件，故选 A.</p>"
         },
         {
           "num": 10,
@@ -194,14 +194,14 @@
           "body": "<p>设函数 $f(x) = 2x^{3}- 3(a - 1)x^{2}+ 1$，其中 $a \\ge 1$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>讨论 $f(x)$ 的极值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>对函数求导，得 $f'(x)=6x^{2}-6(a-1)x=6x\\left(x-(a-1)\\right)$.</p><p>当 $a=1$ 时，$f'(x)=6x^{2}\\geqslant0$，且函数在任意小区间上都不是常值函数，所以 $f(x)$ 在 $(-\\infty,+\\infty)$ 上单调递增.</p><p>当 $a>1$ 时，两个零点为 $0$ 和 $a-1$，且 $0&#x3C;a-1$. 由 $f'(x)$ 的符号可知，$f(x)$ 在 $(-\\infty,0)$、$(a-1,+\\infty)$ 上单调递增，在 $(0,a-1)$ 上单调递减.</p></li><li><p>当 $a=1$ 时，$f'(x)$ 在 $x=0$ 两侧均为正，函数没有极值.</p><p>当 $a>1$ 时，$f'(x)$ 在 $x=0$ 处由正变负，所以函数在 $x=0$ 处取得极大值 $f(0)=1$. 又 $f'(x)$ 在 $x=a-1$ 处由负变正，所以函数在该点取得极小值，且 $f(a-1)=2(a-1)^{3}-3(a-1)(a-1)^{2}+1=1-(a-1)^{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>对函数求导，得 $f'(x)=6x^{2}-6(a-1)x=6x\\left(x-(a-1)\\right)$.</p><p>当 $a=1$ 时，$f'(x)=6x^{2}\\geqslant0$，且函数在任意小区间上都不是常值函数，所以 $f(x)$ 在 $(-\\infty,+\\infty)$ 上单调递增.</p><p>当 $a>1$ 时，两个零点为 $0$ 和 $a-1$，且 $0<a-1$. 由 $f'(x)$ 的符号可知，$f(x)$ 在 $(-\\infty,0)$、$(a-1,+\\infty)$ 上单调递增，在 $(0,a-1)$ 上单调递减.</p></li><li><p>当 $a=1$ 时，$f'(x)$ 在 $x=0$ 两侧均为正，函数没有极值.</p><p>当 $a>1$ 时，$f'(x)$ 在 $x=0$ 处由正变负，所以函数在 $x=0$ 处取得极大值 $f(0)=1$. 又 $f'(x)$ 在 $x=a-1$ 处由负变正，所以函数在该点取得极小值，且 $f(a-1)=2(a-1)^{3}-3(a-1)(a-1)^{2}+1=1-(a-1)^{3}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "<p>已知函数 $f(x) = A \\sin^{2} (\\omega x + \\varphi)$（$A > 0$，$\\omega > 0$，$0 &#x3C; \\varphi &#x3C; \\frac{\\pi}{2}$），且 $y = f(x)$ 的最大值为 $2$，其图象相邻两对称轴间的距离为 $2$，并过点 $(1,2)$.</p><ol class=\"enumerate\"><li><p>求 $\\varphi$；</p></li><li><p>计算 $f(1) + f(2) + \\cdots + f(2008)$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = A \\sin^{2} (\\omega x + \\varphi)$（$A > 0$，$\\omega > 0$，$0 < \\varphi < \\frac{\\pi}{2}$），且 $y = f(x)$ 的最大值为 $2$，其图象相邻两对称轴间的距离为 $2$，并过点 $(1,2)$.</p><ol class=\"enumerate\"><li><p>求 $\\varphi$；</p></li><li><p>计算 $f(1) + f(2) + \\cdots + f(2008)$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由函数的最大值为 $2$，得 $A=2$. 函数 $y=2\\sin^{2}(\\omega x+\\varphi)$ 的相邻对称轴对应的自变量之差为 $\\dfrac{\\pi}{2\\omega}$，因此 $\\dfrac{\\pi}{2\\omega}=2$，解得 $\\omega=\\dfrac{\\pi}{4}$.</p><p>又因为图象过点 $(1,2)$，所以 $f(1)=2$，即 $2\\sin^{2}\\left(\\dfrac{\\pi}{4}+\\varphi\\right)=2$. 由于 $0&#x3C;\\varphi&#x3C;\\dfrac{\\pi}{2}$，有 $\\dfrac{\\pi}{4}&#x3C;\\dfrac{\\pi}{4}+\\varphi&#x3C;\\dfrac{3\\pi}{4}$，故只能取 $\\dfrac{\\pi}{4}+\\varphi=\\dfrac{\\pi}{2}$，从而 $\\varphi=\\dfrac{\\pi}{4}$.</p></li><li><p>由上可得 $f(n)=2\\sin^{2}\\left(\\dfrac{n\\pi}{4}+\\dfrac{\\pi}{4}\\right)$. 因此 $f(1)=2$，$f(2)=1$，$f(3)=0$，$f(4)=1$，并且 $f(n+4)=f(n)$.</p><p>因为 $2008=4\\times502$，所以 $f(1)+f(2)+\\cdots+f(2008)=502(2+1+0+1)=2008$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由函数的最大值为 $2$，得 $A=2$. 函数 $y=2\\sin^{2}(\\omega x+\\varphi)$ 的相邻对称轴对应的自变量之差为 $\\dfrac{\\pi}{2\\omega}$，因此 $\\dfrac{\\pi}{2\\omega}=2$，解得 $\\omega=\\dfrac{\\pi}{4}$.</p><p>又因为图象过点 $(1,2)$，所以 $f(1)=2$，即 $2\\sin^{2}\\left(\\dfrac{\\pi}{4}+\\varphi\\right)=2$. 由于 $0<\\varphi<\\dfrac{\\pi}{2}$，有 $\\dfrac{\\pi}{4}<\\dfrac{\\pi}{4}+\\varphi<\\dfrac{3\\pi}{4}$，故只能取 $\\dfrac{\\pi}{4}+\\varphi=\\dfrac{\\pi}{2}$，从而 $\\varphi=\\dfrac{\\pi}{4}$.</p></li><li><p>由上可得 $f(n)=2\\sin^{2}\\left(\\dfrac{n\\pi}{4}+\\dfrac{\\pi}{4}\\right)$. 因此 $f(1)=2$，$f(2)=1$，$f(3)=0$，$f(4)=1$，并且 $f(n+4)=f(n)$.</p><p>因为 $2008=4\\times502$，所以 $f(1)+f(2)+\\cdots+f(2008)=502(2+1+0+1)=2008$.</p></li></ol>"
         },
         {
           "num": 19,
@@ -222,7 +222,7 @@
           "body": "<p>已知椭圆的中心在坐标原点 $O$，焦点在 $x$ 轴上，椭圆的短轴端点和焦点所组成的四边形为正方形，两准线间的距离为 $4$.</p><ol class=\"enumerate\"><li><p>求椭圆的方程；</p></li><li><p>直线 $l$ 过点 $P(0,2)$ 且与椭圆相交于 $A$，$B$ 两点，当 $\\triangle AOB$ 面积取得最大值时，求直线 $l$ 的方程.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆方程为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$，其中 $a>b>0$，焦点为 $F_{1}(-c,0)$、$F_{2}(c,0)$，且 $c^{2}=a^{2}-b^{2}$.</p><p>短轴端点为 $(0,b)$、$(0,-b)$. 这两个点与两个焦点组成正方形，其两条对角线分别在坐标轴上，因此两条对角线相等，得 $b=c$. 于是 $a^{2}=2b^{2}$.</p><p>椭圆的两条准线为 $x=\\pm\\dfrac{a^2}{c}$，两准线间的距离为 $\\dfrac{2a^2}{c}=4$. 结合 $c=b$ 和 $a^{2}=2b^{2}$，得 $\\dfrac{2a^2}{c}=4b=4$，所以 $b=c=1$，$a^{2}=2$. 因而椭圆方程为 $\\dfrac{x^2}{2}+y^{2}=1$.</p></li><li><p>设直线 $l$ 的斜率为 $k$，则其方程为 $y=kx+2$. 将其代入椭圆方程，得 $\\left(k^{2}+\\dfrac{1}{2}\\right)x^{2}+4kx+3=0$.</p><p>设交点 $A$、$B$ 的横坐标分别为 $x_{1}$、$x_{2}$. 对非竖直直线，因直线与椭圆有两个交点，须有 $4k^{2}-6\\geqslant0$. 交点三角形的面积为</p>\n$$\nS_{\\triangle AOB}=\\frac{1}{2}|x_{1}y_{2}-x_{2}y_{1}|=\\frac{1}{2}|x_{1}(kx_{2}+2)-x_{2}(kx_{1}+2)|=|x_{1}-x_{2}|\n$$\n<p>由一元二次方程根的差，得 $S_{\\triangle AOB}=\\dfrac{\\sqrt{4k^{2}-6}}{k^2+\\frac{1}{2}}$. 令 $u=k^{2}$，则 $u\\ge\\dfrac{3}{2}$，且 $S_{\\triangle AOB}^{2}=\\dfrac{4u-6}{\\left(u+\\frac{1}{2}\\right)^2}$.</p><p>对上式求导，得 $\\left(S_{\\triangle AOB}^{2}\\right)'=\\dfrac{14-4u}{\\left(u+\\frac{1}{2}\\right)^3}$. 因而当 $u&#x3C;\\dfrac{7}{2}$ 时该式为正，当 $u>\\dfrac{7}{2}$ 时该式为负，面积在 $u=\\dfrac{7}{2}$ 时取得最大值. 所以 $k=\\pm\\sqrt{\\dfrac{7}{2}}=\\pm\\dfrac{\\sqrt{14}}{2}$.</p><p>竖直直线 $x=0$ 与椭圆的两个交点和原点共线，三角形面积为 $0$，不是最大值. 故所求直线为 $y=2+\\dfrac{\\sqrt{14}}{2}x$ 或 $y=2-\\dfrac{\\sqrt{14}}{2}x$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆方程为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$，其中 $a>b>0$，焦点为 $F_{1}(-c,0)$、$F_{2}(c,0)$，且 $c^{2}=a^{2}-b^{2}$.</p><p>短轴端点为 $(0,b)$、$(0,-b)$. 这两个点与两个焦点组成正方形，其两条对角线分别在坐标轴上，因此两条对角线相等，得 $b=c$. 于是 $a^{2}=2b^{2}$.</p><p>椭圆的两条准线为 $x=\\pm\\dfrac{a^2}{c}$，两准线间的距离为 $\\dfrac{2a^2}{c}=4$. 结合 $c=b$ 和 $a^{2}=2b^{2}$，得 $\\dfrac{2a^2}{c}=4b=4$，所以 $b=c=1$，$a^{2}=2$. 因而椭圆方程为 $\\dfrac{x^2}{2}+y^{2}=1$.</p></li><li><p>设直线 $l$ 的斜率为 $k$，则其方程为 $y=kx+2$. 将其代入椭圆方程，得 $\\left(k^{2}+\\dfrac{1}{2}\\right)x^{2}+4kx+3=0$.</p><p>设交点 $A$、$B$ 的横坐标分别为 $x_{1}$、$x_{2}$. 对非竖直直线，因直线与椭圆有两个交点，须有 $4k^{2}-6\\geqslant0$. 交点三角形的面积为</p>\n$$\nS_{\\triangle AOB}=\\frac{1}{2}|x_{1}y_{2}-x_{2}y_{1}|=\\frac{1}{2}|x_{1}(kx_{2}+2)-x_{2}(kx_{1}+2)|=|x_{1}-x_{2}|\n$$\n<p>由一元二次方程根的差，得 $S_{\\triangle AOB}=\\dfrac{\\sqrt{4k^{2}-6}}{k^2+\\frac{1}{2}}$. 令 $u=k^{2}$，则 $u\\ge\\dfrac{3}{2}$，且 $S_{\\triangle AOB}^{2}=\\dfrac{4u-6}{\\left(u+\\frac{1}{2}\\right)^2}$.</p><p>对上式求导，得 $\\left(S_{\\triangle AOB}^{2}\\right)'=\\dfrac{14-4u}{\\left(u+\\frac{1}{2}\\right)^3}$. 因而当 $u<\\dfrac{7}{2}$ 时该式为正，当 $u>\\dfrac{7}{2}$ 时该式为负，面积在 $u=\\dfrac{7}{2}$ 时取得最大值. 所以 $k=\\pm\\sqrt{\\dfrac{7}{2}}=\\pm\\dfrac{\\sqrt{14}}{2}$.</p><p>竖直直线 $x=0$ 与椭圆的两个交点和原点共线，三角形面积为 $0$，不是最大值. 故所求直线为 $y=2+\\dfrac{\\sqrt{14}}{2}x$ 或 $y=2-\\dfrac{\\sqrt{14}}{2}x$.</p></li></ol>"
         },
         {
           "num": 22,

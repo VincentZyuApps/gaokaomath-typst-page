@@ -14,10 +14,10 @@
             "$\\{x \\mid x \\ge 0\\}$",
             "$\\{x\\mid x\\le 1\\}$",
             "$\\{x\\mid 0\\le x\\le 1\\}$",
-            "$\\{x\\mid 0 &#x3C; x &#x3C; 1\\}$"
+            "$\\{x\\mid 0 < x < 1\\}$"
           ],
           "answer": "D",
-          "solution": "<p>因为</p>\n$$\nA\\cup B=\\{x\\mid x\\leqslant0\\text{ 或 }x\\geqslant1\\}\n$$\n<p>所以</p>\n$$\n\\complement_{U}(A\\cup B)=\\{x\\mid 0&#x3C;x&#x3C;1\\}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>因为</p>\n$$\nA\\cup B=\\{x\\mid x\\leqslant0\\text{ 或 }x\\geqslant1\\}\n$$\n<p>所以</p>\n$$\n\\complement_{U}(A\\cup B)=\\{x\\mid 0<x<1\\}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 2,
@@ -41,7 +41,7 @@
             "$c > b > a$"
           ],
           "answer": "C",
-          "solution": "<p>因为</p><p>$b=\\log_{2}\\frac{1}{3}=-\\log_{2} 3&#x3C;0$，$c=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\log_{2} 3>1$</p><p>而 $0&#x3C;a=2^{-\\frac{1}{3}}&#x3C;1$，所以 $c>a>b$. 故选 C.</p>"
+          "solution": "<p>因为</p><p>$b=\\log_{2}\\frac{1}{3}=-\\log_{2} 3<0$，$c=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\log_{2} 3>1$</p><p>而 $0<a=2^{-\\frac{1}{3}}<1$，所以 $c>a>b$. 故选 C.</p>"
         },
         {
           "num": 4,
@@ -77,7 +77,7 @@
             "24"
           ],
           "answer": "D",
-          "solution": "<p>先从 6 把椅子中选出 3 把互不相邻的椅子. 设选中的椅子编号为 $i_{1}&#x3C;i_{2}&#x3C;i_{3}$，则 $i_{2}-i_{1}\\geqslant2$，$i_{3}-i_{2}\\geqslant2$. 令</p><p>$j_{1}=i_{1}$，$j_{2}=i_{2}-1$，$j_{3}=i_{3}-2$，</p><p>则 $1\\le j_{1}&#x3C;j_{2}&#x3C;j_{3}\\leqslant4$，所以选椅子的方式有 $\\mathrm{C}_{4}^{3}=4$ 种.</p><p>3 人就座的排列有 $3!=6$ 种，故坐法种数为</p>\n$$\n\\mathrm{C}_{4}^{3}\\cdot3!=4\\cdot6=24\n$$\n<p>故选 D.</p>"
+          "solution": "<p>先从 6 把椅子中选出 3 把互不相邻的椅子. 设选中的椅子编号为 $i_{1}<i_{2}<i_{3}$，则 $i_{2}-i_{1}\\geqslant2$，$i_{3}-i_{2}\\geqslant2$. 令</p><p>$j_{1}=i_{1}$，$j_{2}=i_{2}-1$，$j_{3}=i_{3}-2$，</p><p>则 $1\\le j_{1}<j_{2}<j_{3}\\leqslant4$，所以选椅子的方式有 $\\mathrm{C}_{4}^{3}=4$ 种.</p><p>3 人就座的排列有 $3!=6$ 种，故坐法种数为</p>\n$$\n\\mathrm{C}_{4}^{3}\\cdot3!=4\\cdot6=24\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 7,
@@ -95,13 +95,13 @@
           "num": 8,
           "body": "设等差数列 $\\{a_{n}\\}$ 的公差为 $d$，若数列 $\\{2^{a_{1}a_{n}}\\}$ 为递减数列，则（ ）",
           "choices": [
-            "$d &#x3C; 0$",
+            "$d < 0$",
             "$d > 0$",
             "$a_{1}d > 0$",
-            "$a_{1}d &#x3C; 0$"
+            "$a_{1}d < 0$"
           ],
           "answer": "D",
-          "solution": "<p>由等差数列的通项公式，$a_{n+1}-a_{n}=d$. 由于底数 $2>1$，数列 $\\{2^{a_1a_n}\\}$ 递减等价于指数数列 $\\{a_{1}a_{n}\\}$ 递减，即</p>\n$$\na_{1}a_{n+1}&#x3C;a_{1}a_{n}\n$$\n<p>两边相减得 $a_{1}(a_{n+1}-a_{n})=a_{1}d&#x3C;0$. 故选 D.</p>"
+          "solution": "<p>由等差数列的通项公式，$a_{n+1}-a_{n}=d$. 由于底数 $2>1$，数列 $\\{2^{a_1a_n}\\}$ 递减等价于指数数列 $\\{a_{1}a_{n}\\}$ 递减，即</p>\n$$\na_{1}a_{n+1}<a_{1}a_{n}\n$$\n<p>两边相减得 $a_{1}(a_{n+1}-a_{n})=a_{1}d<0$. 故选 D.</p>"
         },
         {
           "num": 9,
@@ -141,7 +141,7 @@
         },
         {
           "num": 12,
-          "body": "<p>已知定义在 $[0,1]$ 上的函数 $f(x)$ 满足：</p><ol class=\"enumerate\"><li><p>$f(0) = f(1) = 0$；</p></li><li><p>对所有 $x$，$y\\in[0,1]$，且 $x \\neq y$，有 $|f(x) - f(y)| &#x3C; \\frac{1}{2}|x - y|$.</p></li></ol><p>若对所有 $x$，$y\\in[0,1]$，$|f(x) - f(y)| &#x3C; k$ 恒成立，则 $k$ 的最小值为（ ）</p>",
+          "body": "<p>已知定义在 $[0,1]$ 上的函数 $f(x)$ 满足：</p><ol class=\"enumerate\"><li><p>$f(0) = f(1) = 0$；</p></li><li><p>对所有 $x$，$y\\in[0,1]$，且 $x \\neq y$，有 $|f(x) - f(y)| < \\frac{1}{2}|x - y|$.</p></li></ol><p>若对所有 $x$，$y\\in[0,1]$，$|f(x) - f(y)| < k$ 恒成立，则 $k$ 的最小值为（ ）</p>",
           "choices": [
             "$\\frac{1}{2}$",
             "$\\frac{1}{4}$",
@@ -149,7 +149,7 @@
             "$\\frac{1}{8}$"
           ],
           "answer": "B",
-          "solution": "<p>对任意 $0\\le x&#x3C;y\\leqslant1$，由题设有 $|f(x)-f(y)|&#x3C;\\frac{1}{2}(y-x)$. 当 $(x,y)\\neq(0,1)$ 时，由 $f(0)=f(1)=0$ 及题设，</p>\n$$\n|f(x)-f(y)|\\le|f(x)-f(0)|+|f(1)-f(y)|&#x3C;\\frac{1}{2}x+\\frac{1}{2}(1-y)=\\frac{1}{2}(1-y+x)\n$$\n<p>因此</p>\n$$\n|f(x)-f(y)|&#x3C;\\frac{1}{2}\\min\\{y-x,1-y+x\\}\\le\\frac{1}{4}\n$$\n<p>若 $(x,y)=(0,1)$，则 $|f(x)-f(y)|=0&#x3C;\\frac{1}{4}$，所以结论对任意 $x&#x3C;y$ 都成立.</p><p>交换 $x$，$y$ 后结论对任意两个点都成立，所以 $k=\\frac{1}{4}$ 可以满足条件.</p><p>下面说明这个常数不能再减小. 对任意 $0&#x3C;\\varepsilon&#x3C;\\frac{1}{2}$，令</p>\n$$\nf_{\\varepsilon}(x)=\\left(\\frac{1}{2}-\\varepsilon\\right)\\min\\{x,1-x\\}\n$$\n<p>该函数满足 $f_{\\varepsilon}(0)=f_{\\varepsilon}(1)=0$，且其 Lipschitz 常数为 $\\frac{1}{2}-\\varepsilon&#x3C;\\frac{1}{2}$，所以满足题设条件. 但</p>\n$$\n\\left|f_{\\varepsilon}\\left(\\frac{1}{2}\\right)-f_{\\varepsilon}(0)\\right|=\\frac{1}{4}-\\frac{\\varepsilon}{2}\n$$\n<p>令 $\\varepsilon$ 充分接近 $0$，这个差值可任意接近 $\\frac{1}{4}$，故任何小于 $\\frac{1}{4}$ 的常数都不能对所有这样的函数成立. 因此 $k$ 的最小值为 $\\frac{1}{4}$，故选 B.</p>"
+          "solution": "<p>对任意 $0\\le x<y\\leqslant1$，由题设有 $|f(x)-f(y)|<\\frac{1}{2}(y-x)$. 当 $(x,y)\\neq(0,1)$ 时，由 $f(0)=f(1)=0$ 及题设，</p>\n$$\n|f(x)-f(y)|\\le|f(x)-f(0)|+|f(1)-f(y)|<\\frac{1}{2}x+\\frac{1}{2}(1-y)=\\frac{1}{2}(1-y+x)\n$$\n<p>因此</p>\n$$\n|f(x)-f(y)|<\\frac{1}{2}\\min\\{y-x,1-y+x\\}\\le\\frac{1}{4}\n$$\n<p>若 $(x,y)=(0,1)$，则 $|f(x)-f(y)|=0<\\frac{1}{4}$，所以结论对任意 $x<y$ 都成立.</p><p>交换 $x$，$y$ 后结论对任意两个点都成立，所以 $k=\\frac{1}{4}$ 可以满足条件.</p><p>下面说明这个常数不能再减小. 对任意 $0<\\varepsilon<\\frac{1}{2}$，令</p>\n$$\nf_{\\varepsilon}(x)=\\left(\\frac{1}{2}-\\varepsilon\\right)\\min\\{x,1-x\\}\n$$\n<p>该函数满足 $f_{\\varepsilon}(0)=f_{\\varepsilon}(1)=0$，且其 Lipschitz 常数为 $\\frac{1}{2}-\\varepsilon<\\frac{1}{2}$，所以满足题设条件. 但</p>\n$$\n\\left|f_{\\varepsilon}\\left(\\frac{1}{2}\\right)-f_{\\varepsilon}(0)\\right|=\\frac{1}{4}-\\frac{\\varepsilon}{2}\n$$\n<p>令 $\\varepsilon$ 充分接近 $0$，这个差值可任意接近 $\\frac{1}{4}$，故任何小于 $\\frac{1}{4}$ 的常数都不能对所有这样的函数成立. 因此 $k$ 的最小值为 $\\frac{1}{4}$，故选 B.</p>"
         }
       ]
     },
@@ -161,7 +161,7 @@
           "body": "<p>执行如图的程序框图，若输入 $x = 9$，则输出 $y =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$\\frac{29}{9}$",
-          "solution": "<p>输入 $x=9$ 后，第一次计算得到 $y=\\frac{9}{3}+2=5$，且 $|y-x|=4\\geqslant1$，于是令 $x=5$.</p><p>第二次计算得到 $y=\\frac{5}{3}+2=\\frac{11}{3}$，且 $|y-x|=\\frac{4}{3}\\geqslant1$，于是令 $x=\\frac{11}{3}$.</p><p>第三次计算得到</p><p>$y=\\frac{\\frac{11}{3}}{3}+2=\\frac{29}{9}$，$|y-x|=\\left|\\frac{29}{9}-\\frac{11}{3}\\right|=\\frac{4}{9}&#x3C;1$.</p><p>此时满足判断条件，输出 $y=\\frac{29}{9}$.</p>"
+          "solution": "<p>输入 $x=9$ 后，第一次计算得到 $y=\\frac{9}{3}+2=5$，且 $|y-x|=4\\geqslant1$，于是令 $x=5$.</p><p>第二次计算得到 $y=\\frac{5}{3}+2=\\frac{11}{3}$，且 $|y-x|=\\frac{4}{3}\\geqslant1$，于是令 $x=\\frac{11}{3}$.</p><p>第三次计算得到</p><p>$y=\\frac{\\frac{11}{3}}{3}+2=\\frac{29}{9}$，$|y-x|=\\left|\\frac{29}{9}-\\frac{11}{3}\\right|=\\frac{4}{9}<1$.</p><p>此时满足判断条件，输出 $y=\\frac{29}{9}$.</p>"
         },
         {
           "num": 14,
@@ -219,10 +219,10 @@
         },
         {
           "num": 21,
-          "body": "<p>已知函数 $f(x) = (\\cos x - x)(\\pi + 2x) - \\frac{8}{3}(\\sin x + 1)$，$g(x) = 3(x - \\pi)\\cos x - 4(1 + \\sin x)\\ln \\left(3 - \\frac{2x}{\\pi}\\right)$.</p><ol class=\"enumerate\"><li><p>证明：存在唯一 $x_{0} \\in \\left(0, \\frac{\\pi}{2}\\right)$，使 $f(x_{0}) = 0$；</p></li><li><p>证明：存在唯一 $x_{1}\\in \\left(\\frac{\\pi}{2}, \\pi\\right)$，使 $g(x_{1}) = 0$，且对（1）中的 $x_{0}$，有 $x_{0}+ x_{1}&#x3C; \\pi$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = (\\cos x - x)(\\pi + 2x) - \\frac{8}{3}(\\sin x + 1)$，$g(x) = 3(x - \\pi)\\cos x - 4(1 + \\sin x)\\ln \\left(3 - \\frac{2x}{\\pi}\\right)$.</p><ol class=\"enumerate\"><li><p>证明：存在唯一 $x_{0} \\in \\left(0, \\frac{\\pi}{2}\\right)$，使 $f(x_{0}) = 0$；</p></li><li><p>证明：存在唯一 $x_{1}\\in \\left(\\frac{\\pi}{2}, \\pi\\right)$，使 $g(x_{1}) = 0$，且对（1）中的 $x_{0}$，有 $x_{0}+ x_{1}< \\pi$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，</p>\n$$\nf'(x)=-(\\pi+2x)(1+\\sin x)-2x-\\frac{2}{3}\\cos x&#x3C;0\n$$\n<p>又</p><p>$f(0)=\\pi-\\frac{8}{3}>0$，$f\\left(\\frac{\\pi}{2}\\right)=-\\pi^{2}-\\frac{16}{3}&#x3C;0$.</p><p>所以由零点存在定理，存在 $x_{0}\\in\\left(0,\\frac{\\pi}{2}\\right)$ 使 $f(x_{0})=0$，并由 $f$ 的严格单调性知该零点唯一.</p></li><li><p>令 $t=\\pi-x$，则 $t\\in\\left(0,\\frac{\\pi}{2}\\right)$，并定义</p>\n$$\nH(t)=\\frac{3t\\cos t}{4(1+\\sin t)}-\\ln\\left(1+\\frac{2t}{\\pi}\\right)\n$$\n<p>直接代入可得</p>\n$$\ng(\\pi-t)=4(1+\\sin t)H(t)\n$$\n<p>由</p>\n$$\nH'(t)=\\frac{3(\\cos t-t)}{4(1+\\sin t)}-\\frac{2}{\\pi+2t}=\\frac{3f(t)}{4(\\pi+2t)(1+\\sin t)}\n$$\n<p>在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，分母为正，而 $f$ 在前面已证明严格递减且唯一零点为 $x_{0}$，所以 $H$ 在 $\\left(0,x_{0}\\right)$ 上严格递增，在 $\\left(x_{0},\\frac{\\pi}{2}\\right)$ 上严格递减. 又</p><p>$H(0)=0$，$H\\left(\\frac{\\pi}{2}\\right)=-\\ln2&#x3C;0$.</p><p>因此 $H(t)>0$（$0&#x3C;t\\le x_{0}$），并由零点存在定理及严格单调性，存在唯一</p><p>$t_{1}\\in\\left(x_{0},\\frac{\\pi}{2}\\right)$ 使 $H(t_{1})=0$. 由于</p><p>$g(\\pi-t)=4(1+\\sin t)H(t)$，且 $1+\\sin t>0$，故</p>\n$$\nx_{1}=\\pi-t_{1}\n$$\n<p>是 $\\left(\\frac{\\pi}{2},\\pi\\right)$ 内 $g(x)=0$ 的唯一解. 最后 $t_{1}>x_{0}$，所以</p>\n$$\nx_{0}+x_{1}=x_{0}+\\pi-t_{1}&#x3C;\\pi\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，</p>\n$$\nf'(x)=-(\\pi+2x)(1+\\sin x)-2x-\\frac{2}{3}\\cos x<0\n$$\n<p>又</p><p>$f(0)=\\pi-\\frac{8}{3}>0$，$f\\left(\\frac{\\pi}{2}\\right)=-\\pi^{2}-\\frac{16}{3}<0$.</p><p>所以由零点存在定理，存在 $x_{0}\\in\\left(0,\\frac{\\pi}{2}\\right)$ 使 $f(x_{0})=0$，并由 $f$ 的严格单调性知该零点唯一.</p></li><li><p>令 $t=\\pi-x$，则 $t\\in\\left(0,\\frac{\\pi}{2}\\right)$，并定义</p>\n$$\nH(t)=\\frac{3t\\cos t}{4(1+\\sin t)}-\\ln\\left(1+\\frac{2t}{\\pi}\\right)\n$$\n<p>直接代入可得</p>\n$$\ng(\\pi-t)=4(1+\\sin t)H(t)\n$$\n<p>由</p>\n$$\nH'(t)=\\frac{3(\\cos t-t)}{4(1+\\sin t)}-\\frac{2}{\\pi+2t}=\\frac{3f(t)}{4(\\pi+2t)(1+\\sin t)}\n$$\n<p>在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上，分母为正，而 $f$ 在前面已证明严格递减且唯一零点为 $x_{0}$，所以 $H$ 在 $\\left(0,x_{0}\\right)$ 上严格递增，在 $\\left(x_{0},\\frac{\\pi}{2}\\right)$ 上严格递减. 又</p><p>$H(0)=0$，$H\\left(\\frac{\\pi}{2}\\right)=-\\ln2<0$.</p><p>因此 $H(t)>0$（$0<t\\le x_{0}$），并由零点存在定理及严格单调性，存在唯一</p><p>$t_{1}\\in\\left(x_{0},\\frac{\\pi}{2}\\right)$ 使 $H(t_{1})=0$. 由于</p><p>$g(\\pi-t)=4(1+\\sin t)H(t)$，且 $1+\\sin t>0$，故</p>\n$$\nx_{1}=\\pi-t_{1}\n$$\n<p>是 $\\left(\\frac{\\pi}{2},\\pi\\right)$ 内 $g(x)=0$ 的唯一解. 最后 $t_{1}>x_{0}$，所以</p>\n$$\nx_{0}+x_{1}=x_{0}+\\pi-t_{1}<\\pi\n$$\n</li></ol>"
         }
       ]
     },
@@ -234,21 +234,21 @@
           "body": "<p>如图，$EP$ 交圆于 $E$，$C$ 两点，$PD$ 切圆于 $D$，$G$ 为 $CE$ 上一点且 $PG = PD$，连接 $DG$ 并延长交圆于点 $A$，作弦 $AB$ 垂直 $EP$，垂足为 $F$.</p><ol class=\"enumerate\"><li><p>求证：$AB$ 为圆的直径；</p></li><li><p>若 $AC = BD$，求证：$AB = ED$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设圆心为 $O$，半径为 $r$. 建立直角坐标系，使 $O=(0,0)$，$EP$ 为直线 $y=h$. 按图取</p><p>$E=(-u,h)$，$C=(u,h)$，$P=(p,h)$</p><p>其中 $-r&#x3C;h&#x3C;0$，$u^{2}+h^{2}=r^{2}$，$p>u>0$. 设 $G=(g,h)$. 由 $G$ 在线段 $CE$ 上以及 $PG=PD$ 和点 $P$ 的切线长公式，记</p><p>$t=PG=PD=\\sqrt{p^{2}-u^{2}}$，$g=p-t$.</p><p>令 $A_{0}=(0,-r)$，并令直线 $A_{0}G$ 与圆除 $A_{0}$ 外的另一个交点为 $D_{0}$. 以参数 $\\lambda$ 表示直线 $A_{0}G$ 上的点：</p>\n$$\nX(\\lambda)=\\bigl(\\lambda g,-r+\\lambda(h+r)\\bigr)\n$$\n<p>将其代入圆方程，除去 $\\lambda=0$ 后得到</p><p>$\\lambda_{0}=\\frac{2r(h+r)}{g^{2}+(h+r)^{2}}$，$D_{0}=X(\\lambda_{0})$.</p><p>由 $g=p-t$ 及 $t^{2}=p^{2}-u^{2}$，有</p>\n$$\n2\\bigl(gp+(h+r)h\\bigr)-\\bigl(g^{2}+(h+r)^{2}\\bigr)  =p^{2}-t^{2}+h^{2}-r^{2}=0\n$$\n<p>所以</p>\n$$\nD_{0}\\cdot P=-rh+\\lambda_{0}\\bigl(gp+(h+r)h\\bigr)  =-rh+r(h+r)=r^{2}\n$$\n<p>由于 $t&#x3C;p$ 且 $t>p-u$，有 $0&#x3C;g&#x3C;u$. 又</p>\n$$\n2r(h+r)-\\bigl(g^{2}+(h+r)^{2}\\bigr)=u^{2}-g^{2}>0\n$$\n<p>故 $\\lambda_{0}>1$，从而 $D_{0}$ 位于 $y=h$ 的上方且横坐标为正. 由于</p><p>$\\lvert D_{0}\\rvert=r$，$D_{0}\\cdot P=r^{2}$</p><p>有 $(P-D_{0})\\cdot D_{0}=0$，所以 $PD_{0}$ 是圆在 $D_{0}$ 处的切线. 这正是图中位于弦 $EC$ 上方的切点 $D$，故 $D_{0}=D$，从而 $A_{0}$，$D$，$G$ 共线. 因而题设中的点 $A=A_{0}=(0,-r)$.</p><p>直线 $AB\\perp EP$，所以 $AB$ 是过 $A$ 的竖直弦，另一交点为 $B=(0,r)$. 因此 $O$ 是 $AB$ 的中点，$AB$ 为圆的直径.</p></li><li><p>在此基础上，令</p><p>$E=(-r\\cos\\theta,-r\\sin\\theta)$，$C=(r\\cos\\theta,-r\\sin\\theta)$</p><p>$D=(r\\cos\\varphi,r\\sin\\varphi)$，$0&#x3C;\\theta$，$\\varphi&#x3C;\\frac{\\pi}{2}$.</p><p>此时 $A=(0,-r)$，$B=(0,r)$，所以</p><p>$AC^{2}=2r^{2}(1-\\sin\\theta)$，$BD^{2}=2r^{2}(1-\\sin\\varphi)$.</p><p>若 $AC=BD$，则 $\\sin\\theta=\\sin\\varphi$，从而 $\\theta=\\varphi$. 于是 $D=-E$，即 $ED$ 也是圆的直径，故</p>\n$$\nED=2r=AB\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设圆心为 $O$，半径为 $r$. 建立直角坐标系，使 $O=(0,0)$，$EP$ 为直线 $y=h$. 按图取</p><p>$E=(-u,h)$，$C=(u,h)$，$P=(p,h)$</p><p>其中 $-r<h<0$，$u^{2}+h^{2}=r^{2}$，$p>u>0$. 设 $G=(g,h)$. 由 $G$ 在线段 $CE$ 上以及 $PG=PD$ 和点 $P$ 的切线长公式，记</p><p>$t=PG=PD=\\sqrt{p^{2}-u^{2}}$，$g=p-t$.</p><p>令 $A_{0}=(0,-r)$，并令直线 $A_{0}G$ 与圆除 $A_{0}$ 外的另一个交点为 $D_{0}$. 以参数 $\\lambda$ 表示直线 $A_{0}G$ 上的点：</p>\n$$\nX(\\lambda)=\\bigl(\\lambda g,-r+\\lambda(h+r)\\bigr)\n$$\n<p>将其代入圆方程，除去 $\\lambda=0$ 后得到</p><p>$\\lambda_{0}=\\frac{2r(h+r)}{g^{2}+(h+r)^{2}}$，$D_{0}=X(\\lambda_{0})$.</p><p>由 $g=p-t$ 及 $t^{2}=p^{2}-u^{2}$，有</p>\n$$\n2\\bigl(gp+(h+r)h\\bigr)-\\bigl(g^{2}+(h+r)^{2}\\bigr)  =p^{2}-t^{2}+h^{2}-r^{2}=0\n$$\n<p>所以</p>\n$$\nD_{0}\\cdot P=-rh+\\lambda_{0}\\bigl(gp+(h+r)h\\bigr)  =-rh+r(h+r)=r^{2}\n$$\n<p>由于 $t<p$ 且 $t>p-u$，有 $0<g<u$. 又</p>\n$$\n2r(h+r)-\\bigl(g^{2}+(h+r)^{2}\\bigr)=u^{2}-g^{2}>0\n$$\n<p>故 $\\lambda_{0}>1$，从而 $D_{0}$ 位于 $y=h$ 的上方且横坐标为正. 由于</p><p>$\\lvert D_{0}\\rvert=r$，$D_{0}\\cdot P=r^{2}$</p><p>有 $(P-D_{0})\\cdot D_{0}=0$，所以 $PD_{0}$ 是圆在 $D_{0}$ 处的切线. 这正是图中位于弦 $EC$ 上方的切点 $D$，故 $D_{0}=D$，从而 $A_{0}$，$D$，$G$ 共线. 因而题设中的点 $A=A_{0}=(0,-r)$.</p><p>直线 $AB\\perp EP$，所以 $AB$ 是过 $A$ 的竖直弦，另一交点为 $B=(0,r)$. 因此 $O$ 是 $AB$ 的中点，$AB$ 为圆的直径.</p></li><li><p>在此基础上，令</p><p>$E=(-r\\cos\\theta,-r\\sin\\theta)$，$C=(r\\cos\\theta,-r\\sin\\theta)$</p><p>$D=(r\\cos\\varphi,r\\sin\\varphi)$，$0<\\theta$，$\\varphi<\\frac{\\pi}{2}$.</p><p>此时 $A=(0,-r)$，$B=(0,r)$，所以</p><p>$AC^{2}=2r^{2}(1-\\sin\\theta)$，$BD^{2}=2r^{2}(1-\\sin\\varphi)$.</p><p>若 $AC=BD$，则 $\\sin\\theta=\\sin\\varphi$，从而 $\\theta=\\varphi$. 于是 $D=-E$，即 $ED$ 也是圆的直径，故</p>\n$$\nED=2r=AB\n$$\n</li></ol>"
         },
         {
           "num": 23,
           "body": "<p>将圆 $x^{2}+ y^{2}= 1$ 上每一点的横坐标保持不变，纵坐标变为原来的 2 倍，得曲线 $C$.</p><ol class=\"enumerate\"><li><p>写出 $C$ 的参数方程；</p></li><li><p>设直线 $l: 2x + y - 2 = 0$ 与 $C$ 的交点为 $P_{1}$，$P_{2}$，以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系. 求过线段 $P_{1}P_{2}$ 的中点且与 $l$ 垂直的直线的极坐标方程.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>原圆的参数方程可写为</p><p>$x=\\cos\\theta$，$y=\\sin\\theta$，$0\\le\\theta&#x3C;2\\pi$.</p><p>变换后横坐标不变，纵坐标变为原来的 $2$ 倍，所以曲线 $C$ 的参数方程为</p>\n$$\n\\begin{cases}x=\\cos\\theta,\\\\\n\ny=2\\sin\\theta,\\end{cases}  \\qquad 0\\le\\theta&#x3C;2\\pi\n$$\n</li><li><p>消去参数可得 $C$ 的方程为</p>\n$$\nx^{2}+\\frac{y^{2}}{4}=1\n$$\n<p>直线 $l$ 与 $C$ 联立，得</p><p>$y=2-2x$，$x^{2}+(1-x)^{2}=1$.</p><p>所以 $x=0$ 或 $x=1$，交点为</p><p>$P_{1}=(0,2)$，$P_{2}=(1,0)$.</p><p>线段 $P_{1}P_{2}$ 的中点为</p>\n$$\nM=\\left(\\frac{1}{2},1\\right)\n$$\n<p>直线 $l$ 的斜率为 $-2$，故过 $M$ 且与 $l$ 垂直的直线斜率为 $\\frac{1}{2}$，其直角坐标方程为</p><p>$y-1=\\frac{1}{2}\\left(x-\\frac{1}{2}\\right)$，$y=\\frac{1}{2}x+\\frac{3}{4}$.</p><p>在极坐标系中代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得到所求极坐标方程</p>\n$$\n\\rho\\left(2\\sin\\theta-\\cos\\theta\\right)=\\frac{3}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>原圆的参数方程可写为</p><p>$x=\\cos\\theta$，$y=\\sin\\theta$，$0\\le\\theta<2\\pi$.</p><p>变换后横坐标不变，纵坐标变为原来的 $2$ 倍，所以曲线 $C$ 的参数方程为</p>\n$$\n\\begin{cases}x=\\cos\\theta,\\\\\n\ny=2\\sin\\theta,\\end{cases}  \\qquad 0\\le\\theta<2\\pi\n$$\n</li><li><p>消去参数可得 $C$ 的方程为</p>\n$$\nx^{2}+\\frac{y^{2}}{4}=1\n$$\n<p>直线 $l$ 与 $C$ 联立，得</p><p>$y=2-2x$，$x^{2}+(1-x)^{2}=1$.</p><p>所以 $x=0$ 或 $x=1$，交点为</p><p>$P_{1}=(0,2)$，$P_{2}=(1,0)$.</p><p>线段 $P_{1}P_{2}$ 的中点为</p>\n$$\nM=\\left(\\frac{1}{2},1\\right)\n$$\n<p>直线 $l$ 的斜率为 $-2$，故过 $M$ 且与 $l$ 垂直的直线斜率为 $\\frac{1}{2}$，其直角坐标方程为</p><p>$y-1=\\frac{1}{2}\\left(x-\\frac{1}{2}\\right)$，$y=\\frac{1}{2}x+\\frac{3}{4}$.</p><p>在极坐标系中代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得到所求极坐标方程</p>\n$$\n\\rho\\left(2\\sin\\theta-\\cos\\theta\\right)=\\frac{3}{2}\n$$\n</li></ol>"
         },
         {
           "num": 24,
           "body": "<p>设函数 $f(x) = 2|x - 1| + x - 1$，$g(x) = 16x^{2}- 8x + 1$，记 $f(x) \\le 1$ 的解集为 $M$，$g(x) \\le 4$ 的解集为 $N$.</p><ol class=\"enumerate\"><li><p>求 $M$；</p></li><li><p>当 $x \\in M \\cap N$ 时，证明：$x^{2}f(x) + x[f(x)]^{2}\\le \\frac{1}{4}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x&#x3C;1$ 时，$f(x)=1-x$，所以 $f(x)\\leqslant1$ 等价于 $x\\geqslant0$. 当 $x\\geqslant1$ 时，$f(x)=3x-3$，所以 $f(x)\\leqslant1$ 等价于 $x\\le\\frac{4}{3}$. 因此</p>\n$$\nM=[0,\\tfrac43]\n$$\n<p>又</p>\n$$\ng(x)=(4x-1)^{2}\\leqslant4  \\Longleftrightarrow -2\\leqslant4x-1\\leqslant2\n$$\n<p>所以</p><p>$N=\\left[-\\frac{1}{4},\\frac{3}{4}\\right]$，$M\\cap N=\\left[0,\\frac{3}{4}\\right]$.</p></li><li><p>当 $x\\in M\\cap N$ 时，$x\\leqslant1$，故 $f(x)=1-x$. 从而</p>\n$$\nx^{2}f(x)+x[f(x)]^{2}  =x^{2}(1-x)+x(1-x)^{2}  =x(1-x)  \\le\\frac{1}{4}\n$$\n<p>其中最后一个不等号由 $\\left(x-\\frac{1}{2}\\right)^{2}\\geqslant0$ 得到. 结论成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x<1$ 时，$f(x)=1-x$，所以 $f(x)\\leqslant1$ 等价于 $x\\geqslant0$. 当 $x\\geqslant1$ 时，$f(x)=3x-3$，所以 $f(x)\\leqslant1$ 等价于 $x\\le\\frac{4}{3}$. 因此</p>\n$$\nM=[0,\\tfrac43]\n$$\n<p>又</p>\n$$\ng(x)=(4x-1)^{2}\\leqslant4  \\Longleftrightarrow -2\\leqslant4x-1\\leqslant2\n$$\n<p>所以</p><p>$N=\\left[-\\frac{1}{4},\\frac{3}{4}\\right]$，$M\\cap N=\\left[0,\\frac{3}{4}\\right]$.</p></li><li><p>当 $x\\in M\\cap N$ 时，$x\\leqslant1$，故 $f(x)=1-x$. 从而</p>\n$$\nx^{2}f(x)+x[f(x)]^{2}  =x^{2}(1-x)+x(1-x)^{2}  =x(1-x)  \\le\\frac{1}{4}\n$$\n<p>其中最后一个不等号由 $\\left(x-\\frac{1}{2}\\right)^{2}\\geqslant0$ 得到. 结论成立.</p></li></ol>"
         }
       ]
     }

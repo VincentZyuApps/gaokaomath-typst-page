@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A = \\{x \\mid x^{2} - 2x > 0\\}$，$B = \\{x \\mid -\\sqrt{5}&#x3C; x &#x3C; \\sqrt{5}\\}$，则（ ）",
+          "body": "已知集合 $A = \\{x \\mid x^{2} - 2x > 0\\}$，$B = \\{x \\mid -\\sqrt{5}< x < \\sqrt{5}\\}$，则（ ）",
           "choices": [
             "$A \\cap B = \\varnothing$",
             "$A \\cup B = \\mathbb{R}$",
@@ -17,7 +17,7 @@
             "$A \\subseteq B$"
           ],
           "answer": "B",
-          "solution": "由 $x^{2}-2x=x(x-2)>0$，得 $A=(-\\infty,0)\\cup(2,+\\infty)$，而 $B=(-\\sqrt{5},\\sqrt{5})$. 因为 $\\sqrt{5}>2$，所以 $[0,2]\\subset B$；当 $x&#x3C;0$ 或 $x>2$ 时，$x\\in A$，从而 $A\\cup B=\\mathbb{R}$. 又 $-1\\in A\\cap B$，故 $A\\cap B\\neq\\varnothing$；$1\\in B$ 且 $1\\notin A$，故 $B$ 不是 $A$ 的子集；$3\\in A$ 且 $3\\notin B$，故 $A$ 不是 $B$ 的子集. 因此选 B."
+          "solution": "由 $x^{2}-2x=x(x-2)>0$，得 $A=(-\\infty,0)\\cup(2,+\\infty)$，而 $B=(-\\sqrt{5},\\sqrt{5})$. 因为 $\\sqrt{5}>2$，所以 $[0,2]\\subset B$；当 $x<0$ 或 $x>2$ 时，$x\\in A$，从而 $A\\cup B=\\mathbb{R}$. 又 $-1\\in A\\cap B$，故 $A\\cap B\\neq\\varnothing$；$1\\in B$ 且 $1\\notin A$，故 $B$ 不是 $A$ 的子集；$3\\in A$ 且 $3\\notin B$，故 $A$ 不是 $B$ 的子集. 因此选 B."
         },
         {
           "num": 2,
@@ -65,11 +65,11 @@
             "$\\left[-2, 5\\right]$"
           ],
           "answer": "A",
-          "solution": "当 $t&#x3C;1$ 时，程序输出 $s=3t$，由 $t\\in[-1,1)$ 得 $s\\in[-3,3)$. 当 $t\\geqslant1$ 时，$s=4t-t^{2}=4-(t-2)^{2}$，且 $t\\in[1,3]$，故 $s\\in[3,4]$. 合并两种情况，输出范围为 $[-3,4]$，选 A."
+          "solution": "当 $t<1$ 时，程序输出 $s=3t$，由 $t\\in[-1,1)$ 得 $s\\in[-3,3)$. 当 $t\\geqslant1$ 时，$s=4t-t^{2}=4-(t-2)^{2}$，且 $t\\in[1,3]$，故 $s\\in[3,4]$. 合并两种情况，输出范围为 $[-3,4]$，选 A."
         },
         {
           "num": 6,
-          "body": "<p>如图，有一个水平放置的透明无盖的正方体容器，容器高 $8\\mathrm{~cm}$，将一个球放在容器口，再向容器内注水，当球面恰好接触水面时测得水深为 $6\\mathrm{~cm}$，如果不计容器的厚度，则球的体积为（ ）</p><div class=\"environment minipage\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></div>",
+          "body": "<p>如图，有一个水平放置的透明无盖的正方体容器，容器高 $8\\mathrm{~cm}$，将一个球放在容器口，再向容器内注水，当球面恰好接触水面时测得水深为 $6\\mathrm{~cm}$，如果不计容器的厚度，则球的体积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\frac{500\\pi}{3}\\mathrm{~cm}^{3}$",
             "$\\frac{866\\pi}{3}\\mathrm{~cm}^{3}$",
@@ -129,7 +129,7 @@
         },
         {
           "num": 11,
-          "body": "已知函数 $f(x) = \\begin{cases}-x^{2} + 2x,&#x26;x \\le 0,\\\\  \\ln\\left(x + 1\\right),&#x26;x > 0,\\end{cases}$ 若 $|f(x)| \\ge ax$，则 $a$ 的取值范围是（ ）",
+          "body": "已知函数 $f(x) = \\begin{cases}-x^{2} + 2x,&x \\le 0,\\\\  \\ln\\left(x + 1\\right),&x > 0,\\end{cases}$ 若 $|f(x)| \\ge ax$，则 $a$ 的取值范围是（ ）",
           "choices": [
             "$\\left(-\\infty, 0\\right]$",
             "$\\left(-\\infty, 1\\right]$",
@@ -137,7 +137,7 @@
             "$\\left[-2, 0\\right]$"
           ],
           "answer": "D",
-          "solution": "<p>当 $x\\leqslant0$ 时，$f(x)\\leqslant0$，所以 $\\lvert f(x)\\rvert=x^{2}-2x$. 不等式化为</p><p>$x^{2}-2x\\ge ax$，即 $x(x-a-2)\\geqslant0$. 对所有 $x\\leqslant0$ 成立的充要条件是 $a\\ge-2$.</p><p>当 $x>0$ 时，$f(x)=\\ln(1+x)>0$，不等式化为 $\\dfrac{\\ln(1+x)}x\\ge a$. 由于 $\\dfrac{\\ln(1+x)}x\\to0$（$x\\to+\\infty$），若 $a>0$，则对充分大的 $x$ 有 $\\dfrac{\\ln(1+x)}x&#x3C;a$，不等式不成立；若 $a\\leqslant0$，则 $ax\\leqslant0&#x3C;\\ln(1+x)$，不等式对所有 $x>0$ 成立. 因而此时 $a\\leqslant0$，最终 $a\\in[-2,0]$，选 D.</p>"
+          "solution": "<p>当 $x\\leqslant0$ 时，$f(x)\\leqslant0$，所以 $\\lvert f(x)\\rvert=x^{2}-2x$. 不等式化为</p><p>$x^{2}-2x\\ge ax$，即 $x(x-a-2)\\geqslant0$. 对所有 $x\\leqslant0$ 成立的充要条件是 $a\\ge-2$.</p><p>当 $x>0$ 时，$f(x)=\\ln(1+x)>0$，不等式化为 $\\dfrac{\\ln(1+x)}x\\ge a$. 由于 $\\dfrac{\\ln(1+x)}x\\to0$（$x\\to+\\infty$），若 $a>0$，则对充分大的 $x$ 有 $\\dfrac{\\ln(1+x)}x<a$，不等式不成立；若 $a\\leqslant0$，则 $ax\\leqslant0<\\ln(1+x)$，不等式对所有 $x>0$ 成立. 因而此时 $a\\leqslant0$，最终 $a\\in[-2,0]$，选 D.</p>"
         },
         {
           "num": 12,
@@ -149,7 +149,7 @@
             "$\\{S_{2n - 1}\\}$ 为递减数列，$\\{S_{2n}\\}$ 为递增数列"
           ],
           "answer": "B",
-          "solution": "<p>记 $u_{n}=b_{n}-a_{n}$，$v_{n}=c_{n}-a_{n}$. 由 $a_{n+1}=a_{n}$ 及 $b_{1}+c_{1}=2a_{1}$，可知 $a_{n}=a_{1}$，且 $u_{1}+v_{1}=0$. 递推关系给出</p><p>$u_{n+1}=\\dfrac{v_n}{2}$，$v_{n+1}=\\dfrac{u_n}{2}$，并且 $u_{n+1}+v_{n+1}=\\frac{u_{n}+v_{n}}{2}$.</p><p>由 $b_{1}>c_{1}$ 及 $b_{1}+c_{1}=2a_{1}$ 得 $u_{1}=b_{1}-a_{1}>0$. 由 $u_{1}+v_{1}=0$ 归纳得 $u_{n}+v_{n}=0$ 对所有 $n$ 成立，所以 $v_{n}=-u_{n}$，且 $u_{n+1}=-\\dfrac{1}{2}u_{n}$. 因此 $u_{n}\\neq0$ 对所有 $n$ 成立，从而</p><p>$u_{n+1}^{2}=\\frac{v_{n}^{2}}{4}=\\frac{u_{n}^{2}}{4}$.</p><p>又 $b_{n}+c_{n}=2a_{n}=2a_{1}$，半周长 $p_{n}=\\dfrac{a_n+b_n+c_n}{2}=\\dfrac{3a_1}{2}$ 及 $p_{n}-a_{n}=\\dfrac{a_1}{2}$ 均为常数. 由于每个 $\\triangle A_{n}B_{n}C_{n}$ 都存在，$S_{n}>0$.</p><p>由海伦公式，$S_{n}^{2}=p_{n}(p_{n}-a_{n})(p_{n}-b_{n})(p_{n}-c_{n})$. 因为 $b_{n}=a_{1}+u_{n}$，$c_{n}=a_{1}-u_{n}$，所以</p><p>$(p_{n}-b_{n})(p_{n}-c_{n})=\\left(\\dfrac{a_1}{2}-u_{n}\\right)\\left(\\dfrac{a_1}{2}+u_{n}\\right)=\\dfrac{a_1^2}{4}-u_{n}^{2}$. 由于 $u_{n+1}^{2}=\\dfrac{1}{4}u_{n}^{2}&#x3C;u_{n}^{2}$，有 $S_{n+1}^{2}>S_{n}^{2}$，从而 $S_{n+1}>S_{n}$. 故 $\\{S_{n}\\}$ 为递增数列，选 B.</p>"
+          "solution": "<p>记 $u_{n}=b_{n}-a_{n}$，$v_{n}=c_{n}-a_{n}$. 由 $a_{n+1}=a_{n}$ 及 $b_{1}+c_{1}=2a_{1}$，可知 $a_{n}=a_{1}$，且 $u_{1}+v_{1}=0$. 递推关系给出</p><p>$u_{n+1}=\\dfrac{v_n}{2}$，$v_{n+1}=\\dfrac{u_n}{2}$，并且 $u_{n+1}+v_{n+1}=\\frac{u_{n}+v_{n}}{2}$.</p><p>由 $b_{1}>c_{1}$ 及 $b_{1}+c_{1}=2a_{1}$ 得 $u_{1}=b_{1}-a_{1}>0$. 由 $u_{1}+v_{1}=0$ 归纳得 $u_{n}+v_{n}=0$ 对所有 $n$ 成立，所以 $v_{n}=-u_{n}$，且 $u_{n+1}=-\\dfrac{1}{2}u_{n}$. 因此 $u_{n}\\neq0$ 对所有 $n$ 成立，从而</p><p>$u_{n+1}^{2}=\\frac{v_{n}^{2}}{4}=\\frac{u_{n}^{2}}{4}$.</p><p>又 $b_{n}+c_{n}=2a_{n}=2a_{1}$，半周长 $p_{n}=\\dfrac{a_n+b_n+c_n}{2}=\\dfrac{3a_1}{2}$ 及 $p_{n}-a_{n}=\\dfrac{a_1}{2}$ 均为常数. 由于每个 $\\triangle A_{n}B_{n}C_{n}$ 都存在，$S_{n}>0$.</p><p>由海伦公式，$S_{n}^{2}=p_{n}(p_{n}-a_{n})(p_{n}-b_{n})(p_{n}-c_{n})$. 因为 $b_{n}=a_{1}+u_{n}$，$c_{n}=a_{1}-u_{n}$，所以</p><p>$(p_{n}-b_{n})(p_{n}-c_{n})=\\left(\\dfrac{a_1}{2}-u_{n}\\right)\\left(\\dfrac{a_1}{2}+u_{n}\\right)=\\dfrac{a_1^2}{4}-u_{n}^{2}$. 由于 $u_{n+1}^{2}=\\dfrac{1}{4}u_{n}^{2}<u_{n}^{2}$，有 $S_{n+1}^{2}>S_{n}^{2}$，从而 $S_{n+1}>S_{n}$. 故 $\\{S_{n}\\}$ 为递增数列，选 B.</p>"
         }
       ]
     },
@@ -194,7 +194,7 @@
           "body": "<p>如图，在 $\\triangle ABC$ 中，$\\angle ABC = 90^{\\circ}$，$AB = \\sqrt{3}$，$BC = 1$，$P$ 为 $\\triangle ABC$ 内一点，$\\angle BPC = 90^{\\circ}$.</p><ol class=\"enumerate\"><li><p>若 $PB = \\frac{1}{2}$，求 $PA$；</p></li><li><p>若 $\\angle APB = 150^{\\circ}$，求 $\\tan \\angle PBA$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取 $B=(0,0)$，$A=(\\sqrt{3},0)$，$C=(0,1)$，设 $P=(u,v)$. 因为 $P$ 在三角形内部，所以 $u>0$，$v>0$. 由 $\\angle BPC=90^{\\circ}$，有</p><p>$(-u,-v)\\cdot(-u,1-v)=0$，即 $u^{2}+v^{2}-v=0$. 若 $PB=\\dfrac{1}{2}$，则 $u^{2}+v^{2}=\\dfrac{1}{4}$，与上式联立得 $v=\\dfrac{1}{4}$，$u^{2}=\\dfrac{3}{16}$. 由 $u>0$ 得 $u=\\dfrac{\\sqrt{3}}{4}$，所以</p><p>$PA^{2}=\\left(\\sqrt{3}-\\dfrac{\\sqrt{3}}{4}\\right)^{2}+\\left(\\dfrac{1}{4}\\right)^{2}=\\dfrac{27}{16}+\\dfrac1{16}=\\dfrac{7}{4}$，故 $PA=\\dfrac{\\sqrt{7}}{2}$.</p></li><li><p>设 $\\alpha=\\angle PBA$，$r=PB$. 由上面的坐标关系，若 $P=(r\\cos\\alpha,r\\sin\\alpha)$，则 $u^{2}+v^{2}=v$ 化为 $r^{2}=r\\sin\\alpha$. 因 $r>0$，所以 $r=\\sin\\alpha$. 在三角形 $ABP$ 中，$\\angle APB=150^{\\circ}$，且 $P$ 在三角形内部，所以 $0&#x3C;\\alpha&#x3C;30^{\\circ}$，从而 $\\angle PAB=30^{\\circ}-\\alpha$. 由正弦定理，</p><p>$\\dfrac{PB}{\\sin(30^\\circ-\\alpha)}=\\dfrac{AB}{\\sin150^\\circ}=2\\sqrt{3}$. 代入 $PB=\\sin\\alpha$，得</p><p>$\\sin\\alpha=2\\sqrt{3}\\sin(30^{\\circ}-\\alpha)=\\sqrt{3}\\cos\\alpha-3\\sin\\alpha$. 因此 $4\\sin\\alpha=\\sqrt{3}\\cos\\alpha$，从而 $\\tan\\angle PBA=\\tan\\alpha=\\dfrac{\\sqrt{3}}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取 $B=(0,0)$，$A=(\\sqrt{3},0)$，$C=(0,1)$，设 $P=(u,v)$. 因为 $P$ 在三角形内部，所以 $u>0$，$v>0$. 由 $\\angle BPC=90^{\\circ}$，有</p><p>$(-u,-v)\\cdot(-u,1-v)=0$，即 $u^{2}+v^{2}-v=0$. 若 $PB=\\dfrac{1}{2}$，则 $u^{2}+v^{2}=\\dfrac{1}{4}$，与上式联立得 $v=\\dfrac{1}{4}$，$u^{2}=\\dfrac{3}{16}$. 由 $u>0$ 得 $u=\\dfrac{\\sqrt{3}}{4}$，所以</p><p>$PA^{2}=\\left(\\sqrt{3}-\\dfrac{\\sqrt{3}}{4}\\right)^{2}+\\left(\\dfrac{1}{4}\\right)^{2}=\\dfrac{27}{16}+\\dfrac1{16}=\\dfrac{7}{4}$，故 $PA=\\dfrac{\\sqrt{7}}{2}$.</p></li><li><p>设 $\\alpha=\\angle PBA$，$r=PB$. 由上面的坐标关系，若 $P=(r\\cos\\alpha,r\\sin\\alpha)$，则 $u^{2}+v^{2}=v$ 化为 $r^{2}=r\\sin\\alpha$. 因 $r>0$，所以 $r=\\sin\\alpha$. 在三角形 $ABP$ 中，$\\angle APB=150^{\\circ}$，且 $P$ 在三角形内部，所以 $0<\\alpha<30^{\\circ}$，从而 $\\angle PAB=30^{\\circ}-\\alpha$. 由正弦定理，</p><p>$\\dfrac{PB}{\\sin(30^\\circ-\\alpha)}=\\dfrac{AB}{\\sin150^\\circ}=2\\sqrt{3}$. 代入 $PB=\\sin\\alpha$，得</p><p>$\\sin\\alpha=2\\sqrt{3}\\sin(30^{\\circ}-\\alpha)=\\sqrt{3}\\cos\\alpha-3\\sin\\alpha$. 因此 $4\\sin\\alpha=\\sqrt{3}\\cos\\alpha$，从而 $\\tan\\angle PBA=\\tan\\alpha=\\dfrac{\\sqrt{3}}{4}$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -222,7 +222,7 @@
           "body": "<p>设函数 $f(x) = x^{2} + ax + b$，$g(x) = \\mathrm{e}^{x}\\left(cx + d\\right)$，若曲线 $y = f(x)$ 和曲线 $y = g(x)$ 都过点 $P\\left(0,2\\right)$，且在点 $P$ 处有相同的切线 $y = 4x + 2$.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$，$c$，$d$ 的值；</p></li><li><p>若 $x \\ge -2$ 时，$f(x) \\le kg(x)$，求 $k$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $f(0)=2$，得 $b=2$. 又 $f'(x)=2x+a$，而点 $P$ 处切线斜率为 $4$，所以 $a=f'(0)=4$. 由 $g(0)=2$ 得 $d=2$. 又</p><p>$g'(x)=\\mathrm{e}^{x}(cx+d+c)$，故 $g'(0)=c+d=4$，从而 $c=2$. 因此 $a=4$，$b=2$，$c=2$，$d=2$.</p></li><li><p>代入所得系数，$f(x)=x^{2}+4x+2$，$g(x)=2\\mathrm{e}^{x}(x+1)$. 在 $x=-1$ 时，$f(-1)=-1$，$g(-1)=0$，所以不等式成立. 对 $x\\neq-1$，令</p><p>$R(x)=\\dfrac{f(x)}{g(x)}=\\dfrac{\\mathrm{e}^{-x}}2\\left(x+3-\\dfrac1{x+1}\\right)$.</p><p>当 $-2\\le x&#x3C;-1$ 时，$g(x)&#x3C;0$，不等式 $f(x)\\le kg(x)$ 等价于 $k\\le R(x)$. 求导得</p><p>$R'(x)=\\dfrac{\\mathrm{e}^{-x}}2\\dfrac{(x+2)^2(-x)}{(x+1)^2}\\geqslant0$，所以 $R(x)$ 在 $[-2,-1)$ 上递增，且 $R(-2)=\\mathrm{e}^{2}$，从而此区间要求 $k\\le\\mathrm{e}^{2}$.</p><p>当 $x>-1$ 时，$g(x)>0$，不等式等价于 $k\\ge R(x)$. 同样由导数符号知 $R(x)$ 在 $(-1,0)$ 上递增，在 $(0,+\\infty)$ 上递减，所以最大值为 $R(0)=1$，从而要求 $k\\geqslant1$. 综合得 $k\\in[1,\\mathrm{e}^{2}]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $f(0)=2$，得 $b=2$. 又 $f'(x)=2x+a$，而点 $P$ 处切线斜率为 $4$，所以 $a=f'(0)=4$. 由 $g(0)=2$ 得 $d=2$. 又</p><p>$g'(x)=\\mathrm{e}^{x}(cx+d+c)$，故 $g'(0)=c+d=4$，从而 $c=2$. 因此 $a=4$，$b=2$，$c=2$，$d=2$.</p></li><li><p>代入所得系数，$f(x)=x^{2}+4x+2$，$g(x)=2\\mathrm{e}^{x}(x+1)$. 在 $x=-1$ 时，$f(-1)=-1$，$g(-1)=0$，所以不等式成立. 对 $x\\neq-1$，令</p><p>$R(x)=\\dfrac{f(x)}{g(x)}=\\dfrac{\\mathrm{e}^{-x}}2\\left(x+3-\\dfrac1{x+1}\\right)$.</p><p>当 $-2\\le x<-1$ 时，$g(x)<0$，不等式 $f(x)\\le kg(x)$ 等价于 $k\\le R(x)$. 求导得</p><p>$R'(x)=\\dfrac{\\mathrm{e}^{-x}}2\\dfrac{(x+2)^2(-x)}{(x+1)^2}\\geqslant0$，所以 $R(x)$ 在 $[-2,-1)$ 上递增，且 $R(-2)=\\mathrm{e}^{2}$，从而此区间要求 $k\\le\\mathrm{e}^{2}$.</p><p>当 $x>-1$ 时，$g(x)>0$，不等式等价于 $k\\ge R(x)$. 同样由导数符号知 $R(x)$ 在 $(-1,0)$ 上递增，在 $(0,+\\infty)$ 上递减，所以最大值为 $R(0)=1$，从而要求 $k\\geqslant1$. 综合得 $k\\in[1,\\mathrm{e}^{2}]$.</p></li></ol>"
         },
         {
           "num": 22,
@@ -233,17 +233,17 @@
         },
         {
           "num": 23,
-          "body": "<p>已知曲线 $C_{1}$ 的参数方程为 $\\begin{cases}x = 4 + 5\\cos t,\\\\\n\ny = 5 + 5\\sin t,\\end{cases}$ （$t$ 为参数），以坐标原点为极点，$x$ 轴的正半轴为极轴建立极坐标系. 曲线 $C_{2}$ 的极坐标方程为 $\\rho = 2\\sin \\theta$.</p><ol class=\"enumerate\"><li><p>把 $C_{1}$ 的参数方程化为极坐标方程；</p></li><li><p>求 $C_{1}$ 与 $C_{2}$ 交点的极坐标 （$\\rho \\ge 0, 0 \\le \\theta &#x3C; 2\\pi$）.</p></li></ol>",
+          "body": "<p>已知曲线 $C_{1}$ 的参数方程为 $\\begin{cases}x = 4 + 5\\cos t,\\\\\n\ny = 5 + 5\\sin t,\\end{cases}$ （$t$ 为参数），以坐标原点为极点，$x$ 轴的正半轴为极轴建立极坐标系. 曲线 $C_{2}$ 的极坐标方程为 $\\rho = 2\\sin \\theta$.</p><ol class=\"enumerate\"><li><p>把 $C_{1}$ 的参数方程化为极坐标方程；</p></li><li><p>求 $C_{1}$ 与 $C_{2}$ 交点的极坐标 （$\\rho \\ge 0, 0 \\le \\theta < 2\\pi$）.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由参数方程知 $C_{1}$ 是圆 $(x-4)^{2}+(y-5)^{2}=25$. 代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得</p><p>$\\rho^{2}-8\\rho\\cos\\theta-10\\rho\\sin\\theta+16=0$.</p></li><li><p>将 $\\rho=2\\sin\\theta$ 代入上式，得</p><p>$4\\sin^{2}\\theta-16\\sin\\theta\\cos\\theta-20\\sin^{2}\\theta+16=0$，即</p><p>$1-\\sin^{2}\\theta-\\sin\\theta\\cos\\theta=0$. 化简为</p><p>$\\cos\\theta(\\cos\\theta-\\sin\\theta)=0$.</p><p>因为 $\\rho\\geqslant0$ 且 $\\rho=2\\sin\\theta$，所以 $\\sin\\theta\\geqslant0$，在 $0\\le\\theta&#x3C;2\\pi$ 内有 $0\\le\\theta\\le\\pi$. 当 $\\cos\\theta=0$ 时，$\\theta=\\dfrac\\pi2$，$\\rho=2$；当 $\\cos\\theta=\\sin\\theta$ 时，$\\theta=\\dfrac\\pi4$，$\\rho=\\sqrt{2}$. 因此交点的极坐标为 $\\left(\\sqrt{2},\\dfrac\\pi4\\right)$ 和 $\\left(2,\\dfrac\\pi2\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由参数方程知 $C_{1}$ 是圆 $(x-4)^{2}+(y-5)^{2}=25$. 代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得</p><p>$\\rho^{2}-8\\rho\\cos\\theta-10\\rho\\sin\\theta+16=0$.</p></li><li><p>将 $\\rho=2\\sin\\theta$ 代入上式，得</p><p>$4\\sin^{2}\\theta-16\\sin\\theta\\cos\\theta-20\\sin^{2}\\theta+16=0$，即</p><p>$1-\\sin^{2}\\theta-\\sin\\theta\\cos\\theta=0$. 化简为</p><p>$\\cos\\theta(\\cos\\theta-\\sin\\theta)=0$.</p><p>因为 $\\rho\\geqslant0$ 且 $\\rho=2\\sin\\theta$，所以 $\\sin\\theta\\geqslant0$，在 $0\\le\\theta<2\\pi$ 内有 $0\\le\\theta\\le\\pi$. 当 $\\cos\\theta=0$ 时，$\\theta=\\dfrac\\pi2$，$\\rho=2$；当 $\\cos\\theta=\\sin\\theta$ 时，$\\theta=\\dfrac\\pi4$，$\\rho=\\sqrt{2}$. 因此交点的极坐标为 $\\left(\\sqrt{2},\\dfrac\\pi4\\right)$ 和 $\\left(2,\\dfrac\\pi2\\right)$.</p></li></ol>"
         },
         {
           "num": 24,
-          "body": "<p>已知函数 $f(x) = |2x - 1| + |2x + a|$，$g(x) = x + 3$.</p><ol class=\"enumerate\"><li><p>当 $a = -2$ 时，求不等式 $f(x) &#x3C; g(x)$ 的解集；</p></li><li><p>设 $a > -1$，且当 $x \\in \\left[-\\frac{a}{2}, \\frac{1}{2}\\right]$ 时，$f(x) \\le g(x)$，求 $a$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = |2x - 1| + |2x + a|$，$g(x) = x + 3$.</p><ol class=\"enumerate\"><li><p>当 $a = -2$ 时，求不等式 $f(x) < g(x)$ 的解集；</p></li><li><p>设 $a > -1$，且当 $x \\in \\left[-\\frac{a}{2}, \\frac{1}{2}\\right]$ 时，$f(x) \\le g(x)$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=-2$ 时，$f(x)=|2x-1|+|2x-2|$. 分 $x&#x3C;\\dfrac{1}{2}$、$\\dfrac{1}{2}\\le x&#x3C;1$、$x\\geqslant1$ 三种情况讨论：</p><p>$x&#x3C;\\dfrac{1}{2}$ 时，$f(x)=3-4x$，由 $f(x)&#x3C;x+3$ 得 $x>0$，所以得到 $(0,\\dfrac{1}{2})$；</p><p>$\\dfrac{1}{2}\\le x&#x3C;1$ 时，$f(x)=1$，不等式恒成立，所以得到 $[\\dfrac{1}{2},1)$；</p><p>$x\\geqslant1$ 时，$f(x)=4x-3$，由 $f(x)&#x3C;x+3$ 得 $x&#x3C;2$，所以得到 $[1,2)$. 合并得解集为 $(0,2)$.</p></li><li><p>因为 $a>-1$，所以 $-\\dfrac{a}{2}&#x3C;\\dfrac{1}{2}$. 当 $x\\in[-\\dfrac{a}{2},\\dfrac{1}{2}]$ 时，$2x-1\\leqslant0$，$2x+a\\geqslant0$，故</p><p>$f(x)=1-2x+2x+a=a+1$. 要使 $f(x)\\le g(x)=x+3$ 对该区间内所有 $x$ 成立，只需在左端点检验：</p><p>$a+1\\leqslant3-\\dfrac{a}{2}$，即 $a\\le\\dfrac{4}{3}$. 与 $a>-1$ 合并，得 $a\\in\\left(-1,\\dfrac{4}{3}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=-2$ 时，$f(x)=|2x-1|+|2x-2|$. 分 $x<\\dfrac{1}{2}$、$\\dfrac{1}{2}\\le x<1$、$x\\geqslant1$ 三种情况讨论：</p><p>$x<\\dfrac{1}{2}$ 时，$f(x)=3-4x$，由 $f(x)<x+3$ 得 $x>0$，所以得到 $(0,\\dfrac{1}{2})$；</p><p>$\\dfrac{1}{2}\\le x<1$ 时，$f(x)=1$，不等式恒成立，所以得到 $[\\dfrac{1}{2},1)$；</p><p>$x\\geqslant1$ 时，$f(x)=4x-3$，由 $f(x)<x+3$ 得 $x<2$，所以得到 $[1,2)$. 合并得解集为 $(0,2)$.</p></li><li><p>因为 $a>-1$，所以 $-\\dfrac{a}{2}<\\dfrac{1}{2}$. 当 $x\\in[-\\dfrac{a}{2},\\dfrac{1}{2}]$ 时，$2x-1\\leqslant0$，$2x+a\\geqslant0$，故</p><p>$f(x)=1-2x+2x+a=a+1$. 要使 $f(x)\\le g(x)=x+3$ 对该区间内所有 $x$ 成立，只需在左端点检验：</p><p>$a+1\\leqslant3-\\dfrac{a}{2}$，即 $a\\le\\dfrac{4}{3}$. 与 $a>-1$ 合并，得 $a\\in\\left(-1,\\dfrac{4}{3}\\right]$.</p></li></ol>"
         }
       ]
     }

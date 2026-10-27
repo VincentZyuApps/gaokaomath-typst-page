@@ -35,13 +35,13 @@
           "num": 3,
           "body": "不等式 $(1 + x)(1 - |x|) > 0$ 的解集是（$ $）",
           "choices": [
-            "$\\{x \\mid 0 \\le x &#x3C; 1\\}$",
-            "$\\{x \\mid x &#x3C; 0 \\text{ 且 }x \\neq -1\\}$",
-            "$\\{x \\mid -1 &#x3C; x &#x3C; 1\\}$",
-            "$\\{x \\mid x &#x3C; 1 \\text{ 且 }x \\neq -1\\}$"
+            "$\\{x \\mid 0 \\le x < 1\\}$",
+            "$\\{x \\mid x < 0 \\text{ 且 }x \\neq -1\\}$",
+            "$\\{x \\mid -1 < x < 1\\}$",
+            "$\\{x \\mid x < 1 \\text{ 且 }x \\neq -1\\}$"
           ],
           "answer": "D",
-          "solution": "<p>当 $x&#x3C;0$ 时，$|x|=-x$，原不等式化为</p>\n$$\n(1+x)^{2}>0\n$$\n<p>所以此时 $x&#x3C;0$ 且 $x\\ne-1$. 当 $x\\geqslant0$ 时，原不等式化为</p>\n$$\n(1+x)(1-x)>0\n$$\n<p>因为 $1+x>0$，所以 $0\\le x&#x3C;1$. 合并两种情况，解集为 $\\{x\\mid x&#x3C;1\\text{ 且 }x\\ne-1\\}$，故选 D.</p>"
+          "solution": "<p>当 $x<0$ 时，$|x|=-x$，原不等式化为</p>\n$$\n(1+x)^{2}>0\n$$\n<p>所以此时 $x<0$ 且 $x\\ne-1$. 当 $x\\geqslant0$ 时，原不等式化为</p>\n$$\n(1+x)(1-x)>0\n$$\n<p>因为 $1+x>0$，所以 $0\\le x<1$. 合并两种情况，解集为 $\\{x\\mid x<1\\text{ 且 }x\\ne-1\\}$，故选 D.</p>"
         },
         {
           "num": 4,
@@ -53,7 +53,7 @@
             "$\\left(\\dfrac{\\pi}{4},\\pi\\right) \\cup \\left(\\dfrac{5\\pi}{4}, \\dfrac{3\\pi}{2}\\right)$"
           ],
           "answer": "C",
-          "solution": "<p>由</p>\n$$\n\\sin x-\\cos x=\\sqrt{2}\\sin\\left(x-\\frac{\\pi}{4}\\right)\n$$\n<p>原不等式等价于 $\\sin\\left(x-\\dfrac{\\pi}{4}\\right)>0$. 当 $0&#x3C;x&#x3C;2\\pi$ 时，只有</p>\n$$\n0&#x3C;x-\\frac{\\pi}{4}&#x3C;\\pi\n$$\n<p>对应正弦值为正，故 $\\dfrac{\\pi}{4}&#x3C;x&#x3C;\\dfrac{5\\pi}{4}$，选 C.</p>"
+          "solution": "<p>由</p>\n$$\n\\sin x-\\cos x=\\sqrt{2}\\sin\\left(x-\\frac{\\pi}{4}\\right)\n$$\n<p>原不等式等价于 $\\sin\\left(x-\\dfrac{\\pi}{4}\\right)>0$. 当 $0<x<2\\pi$ 时，只有</p>\n$$\n0<x-\\frac{\\pi}{4}<\\pi\n$$\n<p>对应正弦值为正，故 $\\dfrac{\\pi}{4}<x<\\dfrac{5\\pi}{4}$，选 C.</p>"
         },
         {
           "num": 5,
@@ -93,15 +93,15 @@
         },
         {
           "num": 8,
-          "body": "已知 $0 &#x3C; x &#x3C; y &#x3C; a &#x3C; 1$，则有（$ $）",
+          "body": "已知 $0 < x < y < a < 1$，则有（$ $）",
           "choices": [
-            "$\\log_{a}(xy) &#x3C; 0$",
-            "$0 &#x3C; \\log_{a}(xy) &#x3C; 1$",
-            "$1 &#x3C; \\log_{a}(xy) &#x3C; 2$",
+            "$\\log_{a}(xy) < 0$",
+            "$0 < \\log_{a}(xy) < 1$",
+            "$1 < \\log_{a}(xy) < 2$",
             "$\\log_{a}(xy) > 2$"
           ],
           "answer": "D",
-          "solution": "<p>由 $0&#x3C;x&#x3C;a$ 和 $0&#x3C;y&#x3C;a$，得 $0&#x3C;xy&#x3C;a^{2}$. 因为 $0&#x3C;a&#x3C;1$，函数 $t\\mapsto\\log_{a} t$ 在正数范围内单调递减，所以</p>\n$$\n\\log_{a}(xy)>\\log_{a}(a^{2})=2\n$$\n<p>故选 D.</p>"
+          "solution": "<p>由 $0<x<a$ 和 $0<y<a$，得 $0<xy<a^{2}$. 因为 $0<a<1$，函数 $t\\mapsto\\log_{a} t$ 在正数范围内单调递减，所以</p>\n$$\n\\log_{a}(xy)>\\log_{a}(a^{2})=2\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 9,
@@ -208,7 +208,7 @@
           "body": "<p>四棱锥 $P - ABCD$ 的底面是边长为 $a$ 的正方形，$PB \\perp$ 平面 $ABCD$.</p><ol class=\"enumerate\"><li><p>若面 $PAD$ 与面 $ABCD$ 所成的二面角为 $60^{\\circ}$，求这个四棱锥的体积；</p></li><li><p>证明无论四棱锥的高怎样变化，面 $PAD$ 与面 $PCD$ 所成的二面角恒大于 $90^{\\circ}$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/yue_yu_su_gui/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $PB=h$. 因为 $PB\\perp$ 平面 $ABCD$，所以 $PB\\perp AB$，且点 $P$ 在底面上的射影为 $B$. 又 $AD\\perp AB$，并且 $AD\\perp PB$，故 $AD\\perp PA$. 于是 $\\angle PAB$ 是面 $PAD$ 与面 $ABCD$ 所成二面角的平面角. 由题意 $\\angle PAB=60^{\\circ}$，在直角三角形 $PAB$ 中，</p>\n$$\n\\tan60^{\\circ}=\\frac{PB}{AB}=\\frac{h}{a}\n$$\n<p>所以 $h=\\sqrt{3}a$. 因而四棱锥体积为</p>\n$$\nV=\\frac{1}{3}\\cdot a^{2}\\cdot h=\\frac{\\sqrt{3}}{3}a^{3}\n$$\n</li><li><p>设四棱锥的高为任意的 $h>0$，建立空间直角坐标系，使</p><p>$A=(0,0,0)$，$\\; B=(a,0,0)$，$\\; C=(a,a,0)$，$\\; D=(0,a,0)$，$\\; P=(a,0,h)$.</p><p>面 $PAD$ 与面 $PCD$ 的公共棱为 $PD$. 在垂直于 $PD$ 的截面内，二面角的两条截线方向分别是 $DA$ 和 $DC$ 在垂直于 $DP$ 的平面上的正投影. 记</p>\n$$\nL=|\\overrightarrow{DP}|^{2}=2a^{2}+h^{2}\n$$\n<p>$\\mathbf{u}=\\overrightarrow{DA}-\\frac{\\overrightarrow{DA}\\cdot\\overrightarrow{DP}}{L}\\overrightarrow{DP}$，$\\; \\mathbf{v}=\\overrightarrow{DC}-\\frac{\\overrightarrow{DC}\\cdot\\overrightarrow{DP}}{L}\\overrightarrow{DP}$.</p><p>由坐标可得</p><p>$\\overrightarrow{DA}=(0,-a,0)$，$\\; \\overrightarrow{DC}=(a,0,0)$，$\\; \\overrightarrow{DA}\\cdot\\overrightarrow{DP}=\\overrightarrow{DC}\\cdot\\overrightarrow{DP}=a^{2}$，$\\; \\overrightarrow{DA}\\cdot\\overrightarrow{DC}=0$.</p><p>故</p>\n$$\n\\mathbf{u}\\cdot\\mathbf{v}=\\overrightarrow{DA}\\cdot\\overrightarrow{DC}-\\frac{(\\overrightarrow{DA}\\cdot\\overrightarrow{DP})(\\overrightarrow{DC}\\cdot\\overrightarrow{DP})}{L}=-\\frac{a^{4}}{2a^{2}+h^{2}}&#x3C;0\n$$\n<p>由于 $\\mathbf{u}$、$\\mathbf{v}$ 均为非零向量，二面角平面角 $\\theta$ 满足</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}|\\,|\\mathbf{v}|}&#x3C;0\n$$\n<p>所以面 $PAD$ 与面 $PCD$ 所成的二面角恒大于 $90^{\\circ}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $PB=h$. 因为 $PB\\perp$ 平面 $ABCD$，所以 $PB\\perp AB$，且点 $P$ 在底面上的射影为 $B$. 又 $AD\\perp AB$，并且 $AD\\perp PB$，故 $AD\\perp PA$. 于是 $\\angle PAB$ 是面 $PAD$ 与面 $ABCD$ 所成二面角的平面角. 由题意 $\\angle PAB=60^{\\circ}$，在直角三角形 $PAB$ 中，</p>\n$$\n\\tan60^{\\circ}=\\frac{PB}{AB}=\\frac{h}{a}\n$$\n<p>所以 $h=\\sqrt{3}a$. 因而四棱锥体积为</p>\n$$\nV=\\frac{1}{3}\\cdot a^{2}\\cdot h=\\frac{\\sqrt{3}}{3}a^{3}\n$$\n</li><li><p>设四棱锥的高为任意的 $h>0$，建立空间直角坐标系，使</p><p>$A=(0,0,0)$，$\\; B=(a,0,0)$，$\\; C=(a,a,0)$，$\\; D=(0,a,0)$，$\\; P=(a,0,h)$.</p><p>面 $PAD$ 与面 $PCD$ 的公共棱为 $PD$. 在垂直于 $PD$ 的截面内，二面角的两条截线方向分别是 $DA$ 和 $DC$ 在垂直于 $DP$ 的平面上的正投影. 记</p>\n$$\nL=|\\overrightarrow{DP}|^{2}=2a^{2}+h^{2}\n$$\n<p>$\\mathbf{u}=\\overrightarrow{DA}-\\frac{\\overrightarrow{DA}\\cdot\\overrightarrow{DP}}{L}\\overrightarrow{DP}$，$\\; \\mathbf{v}=\\overrightarrow{DC}-\\frac{\\overrightarrow{DC}\\cdot\\overrightarrow{DP}}{L}\\overrightarrow{DP}$.</p><p>由坐标可得</p><p>$\\overrightarrow{DA}=(0,-a,0)$，$\\; \\overrightarrow{DC}=(a,0,0)$，$\\; \\overrightarrow{DA}\\cdot\\overrightarrow{DP}=\\overrightarrow{DC}\\cdot\\overrightarrow{DP}=a^{2}$，$\\; \\overrightarrow{DA}\\cdot\\overrightarrow{DC}=0$.</p><p>故</p>\n$$\n\\mathbf{u}\\cdot\\mathbf{v}=\\overrightarrow{DA}\\cdot\\overrightarrow{DC}-\\frac{(\\overrightarrow{DA}\\cdot\\overrightarrow{DP})(\\overrightarrow{DC}\\cdot\\overrightarrow{DP})}{L}=-\\frac{a^{4}}{2a^{2}+h^{2}}<0\n$$\n<p>由于 $\\mathbf{u}$、$\\mathbf{v}$ 均为非零向量，二面角平面角 $\\theta$ 满足</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}|\\,|\\mathbf{v}|}<0\n$$\n<p>所以面 $PAD$ 与面 $PCD$ 所成的二面角恒大于 $90^{\\circ}$.</p></li></ol>"
         },
         {
           "num": 20,
@@ -226,10 +226,10 @@
         },
         {
           "num": 22,
-          "body": "<p>已知 $a > 0$，函数 $f(x) = ax - bx^{2}$.</p><ol class=\"enumerate\"><li><p>当 $b > 0$ 时，若对任意 $x \\in \\mathbb{R}$ 都有 $f(x) \\le 1$，证明：$a \\le 2\\sqrt{b}$；</p></li><li><p>当 $b > 1$ 时，证明：对任意 $x \\in [0,1]$，$|f(x)| \\le 1$ 的充要条件是 $b - 1 \\le a \\le 2\\sqrt{b}$；</p></li><li><p>当 $0 &#x3C; b \\le 1$ 时，讨论：对任意 $x \\in [0,1]$，$|f(x)| \\le 1$ 的充要条件.</p></li></ol>",
+          "body": "<p>已知 $a > 0$，函数 $f(x) = ax - bx^{2}$.</p><ol class=\"enumerate\"><li><p>当 $b > 0$ 时，若对任意 $x \\in \\mathbb{R}$ 都有 $f(x) \\le 1$，证明：$a \\le 2\\sqrt{b}$；</p></li><li><p>当 $b > 1$ 时，证明：对任意 $x \\in [0,1]$，$|f(x)| \\le 1$ 的充要条件是 $b - 1 \\le a \\le 2\\sqrt{b}$；</p></li><li><p>当 $0 < b \\le 1$ 时，讨论：对任意 $x \\in [0,1]$，$|f(x)| \\le 1$ 的充要条件.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $b>0$，配方得</p>\n$$\nf(x)=ax-bx^{2}=-b\\left(x-\\frac{a}{2b}\\right)^{2}+\\frac{a^{2}}{4b}\n$$\n<p>对任意实数 $x$ 都有 $f(x)\\leqslant1$，特别是在 $x=\\dfrac{a}{2b}$ 时取得最大值，因此 $\\dfrac{a^2}{4b}\\leqslant1$. 又 $a>0$，故 $a\\leqslant2\\sqrt{b}$.</p></li><li><p>先证必要性. 由 $|f(1)|\\leqslant1$，得 $a-b\\ge-1$，所以 $a\\ge b-1$. 又由同一条件得 $a-b\\leqslant1$，即 $a\\le b+1&#x3C;2b$，故 $x_{0}=\\dfrac{a}{2b}\\in(0,1)$. 在 $x_{0}$ 处，$f$ 取得区间 $[0,1]$ 上的最大值 $\\dfrac{a^2}{4b}$，由 $|f(x_{0})|\\leqslant1$ 得 $a\\leqslant2\\sqrt{b}$. 因而必要条件为 $b-1\\le a\\leqslant2\\sqrt{b}$.</p><p>再证充分性. 若 $b-1\\le a\\leqslant2\\sqrt{b}$，则对 $0\\le x\\leqslant1$，由 $a\\leqslant2\\sqrt{b}$ 及配方可得</p>\n$$\nf(x)\\le\\frac{a^{2}}{4b}\\leqslant1\n$$\n<p>又由 $a\\ge b-1$，有</p>\n$$\nf(x)=ax-bx^{2}\\ge(b-1)x-bx^{2}=bx(1-x)-x\\ge-1\n$$\n<p>所以 $-1\\le f(x)\\leqslant1$，即 $|f(x)|\\leqslant1$. 综上，充要条件为 $b-1\\le a\\leqslant2\\sqrt{b}$.</p></li><li><p>当 $0&#x3C;b\\leqslant1$ 时，对 $0\\le x\\leqslant1$，因为 $ax\\geqslant0$ 且 $-bx^{2}\\ge-b$，所以</p>\n$$\nf(x)\\ge-b\\ge-1\n$$\n<p>因此只需讨论 $f(x)\\leqslant1$. 必要性由 $x=1$ 得 $a-b\\leqslant1$，即 $a\\le b+1$. 反之，若 $a\\le b+1$，则</p>\n$$\nf(x)\\le(b+1)x-bx^{2}=1-(1-x)(1-bx)\\leqslant1\n$$\n<p>其中 $1-x\\geqslant0$，且 $1-bx\\geqslant0$. 故此时的充要条件为 $a\\le b+1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $b>0$，配方得</p>\n$$\nf(x)=ax-bx^{2}=-b\\left(x-\\frac{a}{2b}\\right)^{2}+\\frac{a^{2}}{4b}\n$$\n<p>对任意实数 $x$ 都有 $f(x)\\leqslant1$，特别是在 $x=\\dfrac{a}{2b}$ 时取得最大值，因此 $\\dfrac{a^2}{4b}\\leqslant1$. 又 $a>0$，故 $a\\leqslant2\\sqrt{b}$.</p></li><li><p>先证必要性. 由 $|f(1)|\\leqslant1$，得 $a-b\\ge-1$，所以 $a\\ge b-1$. 又由同一条件得 $a-b\\leqslant1$，即 $a\\le b+1<2b$，故 $x_{0}=\\dfrac{a}{2b}\\in(0,1)$. 在 $x_{0}$ 处，$f$ 取得区间 $[0,1]$ 上的最大值 $\\dfrac{a^2}{4b}$，由 $|f(x_{0})|\\leqslant1$ 得 $a\\leqslant2\\sqrt{b}$. 因而必要条件为 $b-1\\le a\\leqslant2\\sqrt{b}$.</p><p>再证充分性. 若 $b-1\\le a\\leqslant2\\sqrt{b}$，则对 $0\\le x\\leqslant1$，由 $a\\leqslant2\\sqrt{b}$ 及配方可得</p>\n$$\nf(x)\\le\\frac{a^{2}}{4b}\\leqslant1\n$$\n<p>又由 $a\\ge b-1$，有</p>\n$$\nf(x)=ax-bx^{2}\\ge(b-1)x-bx^{2}=bx(1-x)-x\\ge-1\n$$\n<p>所以 $-1\\le f(x)\\leqslant1$，即 $|f(x)|\\leqslant1$. 综上，充要条件为 $b-1\\le a\\leqslant2\\sqrt{b}$.</p></li><li><p>当 $0<b\\leqslant1$ 时，对 $0\\le x\\leqslant1$，因为 $ax\\geqslant0$ 且 $-bx^{2}\\ge-b$，所以</p>\n$$\nf(x)\\ge-b\\ge-1\n$$\n<p>因此只需讨论 $f(x)\\leqslant1$. 必要性由 $x=1$ 得 $a-b\\leqslant1$，即 $a\\le b+1$. 反之，若 $a\\le b+1$，则</p>\n$$\nf(x)\\le(b+1)x-bx^{2}=1-(1-x)(1-bx)\\leqslant1\n$$\n<p>其中 $1-x\\geqslant0$，且 $1-bx\\geqslant0$. 故此时的充要条件为 $a\\le b+1$.</p></li></ol>"
         }
       ]
     }

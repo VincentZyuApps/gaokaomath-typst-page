@@ -29,7 +29,7 @@
             "$(0,1)$"
           ],
           "answer": "D",
-          "solution": "要表示椭圆，必须有 $k>0$. 方程化为 $\\dfrac{x^{2}}{2}+\\dfrac{y^{2}}{\\frac{2}{k}}=1$，其两个半轴长的平方分别为 $2$ 和 $\\frac{2}{k}$. 焦点在 $y$ 轴上要求 $y$ 轴方向的半轴较长，即 $\\frac{2}{k}>2$，从而 $0&#x3C;k&#x3C;1$. 故选 D."
+          "solution": "要表示椭圆，必须有 $k>0$. 方程化为 $\\dfrac{x^{2}}{2}+\\dfrac{y^{2}}{\\frac{2}{k}}=1$，其两个半轴长的平方分别为 $2$ 和 $\\frac{2}{k}$. 焦点在 $y$ 轴上要求 $y$ 轴方向的半轴较长，即 $\\frac{2}{k}>2$，从而 $0<k<1$. 故选 D."
         },
         {
           "num": 3,
@@ -48,12 +48,12 @@
           "body": "设 $\\theta$ 是第二象限的角，则必有（ ）",
           "choices": [
             "$\\tan \\frac{\\theta}{2}> \\cot \\frac{\\theta}{2}$",
-            "$\\tan \\frac{\\theta}{2}&#x3C; \\cot \\frac{\\theta}{2}$",
+            "$\\tan \\frac{\\theta}{2}< \\cot \\frac{\\theta}{2}$",
             "$\\sin \\frac{\\theta}{2}>\\cos \\frac{\\theta}{2}$",
-            "$\\sin \\frac{\\theta}{2}&#x3C; \\cos \\frac{\\theta}{2}$"
+            "$\\sin \\frac{\\theta}{2}< \\cos \\frac{\\theta}{2}$"
           ],
           "answer": "A",
-          "solution": "设 $\\theta=2k\\pi+\\alpha$，其中 $k\\in\\mathbb{Z}$，且 $\\dfrac{\\pi}{2}&#x3C;\\alpha&#x3C;\\pi$. 则 $\\dfrac{\\theta}{2}=k\\pi+\\dfrac{\\alpha}{2}$，其中 $\\dfrac{\\pi}{4}&#x3C;\\dfrac{\\alpha}{2}&#x3C;\\dfrac{\\pi}{2}$. 因为正切函数的周期为 $\\pi$，所以 $\\tan\\dfrac{\\theta}{2}=\\tan\\dfrac{\\alpha}{2}>1$，从而 $\\cot\\dfrac{\\theta}{2}&#x3C;1$，必有 $\\tan\\dfrac{\\theta}{2}>\\cot\\dfrac{\\theta}{2}$，答案为 A. 当 $k$ 为偶数时，$\\dfrac{\\theta}{2}$ 在第一象限，$\\sin\\dfrac{\\theta}{2}>\\cos\\dfrac{\\theta}{2}$；当 $k$ 为奇数时，$\\dfrac{\\theta}{2}$ 在第三象限，$\\sin\\dfrac{\\theta}{2}&#x3C;\\cos\\dfrac{\\theta}{2}$，所以后两个选项均非必然成立."
+          "solution": "设 $\\theta=2k\\pi+\\alpha$，其中 $k\\in\\mathbb{Z}$，且 $\\dfrac{\\pi}{2}<\\alpha<\\pi$. 则 $\\dfrac{\\theta}{2}=k\\pi+\\dfrac{\\alpha}{2}$，其中 $\\dfrac{\\pi}{4}<\\dfrac{\\alpha}{2}<\\dfrac{\\pi}{2}$. 因为正切函数的周期为 $\\pi$，所以 $\\tan\\dfrac{\\theta}{2}=\\tan\\dfrac{\\alpha}{2}>1$，从而 $\\cot\\dfrac{\\theta}{2}<1$，必有 $\\tan\\dfrac{\\theta}{2}>\\cot\\dfrac{\\theta}{2}$，答案为 A. 当 $k$ 为偶数时，$\\dfrac{\\theta}{2}$ 在第一象限，$\\sin\\dfrac{\\theta}{2}>\\cos\\dfrac{\\theta}{2}$；当 $k$ 为奇数时，$\\dfrac{\\theta}{2}$ 在第三象限，$\\sin\\dfrac{\\theta}{2}<\\cos\\dfrac{\\theta}{2}$，所以后两个选项均非必然成立."
         },
         {
           "num": 5,
@@ -211,7 +211,7 @@
           "body": "已知 $\\sin \\theta + \\cos \\theta = \\frac{1}{5}$，$\\theta \\in (0, \\pi)$，则 $\\cot \\theta$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-\\frac{3}{4}$",
-          "solution": "平方得 $1+2\\sin\\theta\\cos\\theta=\\dfrac1{25}$，所以 $\\sin\\theta\\cos\\theta=-\\dfrac{12}{25}&#x3C;0$. 又 $\\theta\\in(0,\\pi)$，故 $\\sin\\theta>0$，从而 $\\cos\\theta&#x3C;0$. 令 $s=\\sin\\theta$、$c=\\cos\\theta$，则 $s+c=\\dfrac{1}{5}$、$sc=-\\dfrac{12}{25}$，故 $s$，$c$ 是方程 $t^{2}-\\dfrac{1}{5}t-\\dfrac{12}{25}=0$ 的两根，即 $\\{s,c\\}=\\left\\{\\dfrac{4}{5},-\\dfrac{3}{5}\\right\\}$. 由 $s>0$ 得 $s=\\dfrac{4}{5}$、$c=-\\dfrac{3}{5}$，所以 $\\cot\\theta=\\dfrac{c}{s}=-\\dfrac{3}{4}$."
+          "solution": "平方得 $1+2\\sin\\theta\\cos\\theta=\\dfrac1{25}$，所以 $\\sin\\theta\\cos\\theta=-\\dfrac{12}{25}<0$. 又 $\\theta\\in(0,\\pi)$，故 $\\sin\\theta>0$，从而 $\\cos\\theta<0$. 令 $s=\\sin\\theta$、$c=\\cos\\theta$，则 $s+c=\\dfrac{1}{5}$、$sc=-\\dfrac{12}{25}$，故 $s$，$c$ 是方程 $t^{2}-\\dfrac{1}{5}t-\\dfrac{12}{25}=0$ 的两根，即 $\\{s,c\\}=\\left\\{\\dfrac{4}{5},-\\dfrac{3}{5}\\right\\}$. 由 $s>0$ 得 $s=\\dfrac{4}{5}$、$c=-\\dfrac{3}{5}$，所以 $\\cot\\theta=\\dfrac{c}{s}=-\\dfrac{3}{4}$."
         },
         {
           "num": 19,
@@ -244,7 +244,7 @@
           "body": "已知函数 $f(x) = \\log_{a} x$（$a > 0$ 且 $a \\neq 1$，$x \\in \\R_{+}$），若 $x_{1}$，$x_{2} \\in \\R_{+}$，判断 $\\frac{1}{2}[f(x_{1}) + f(x_{2})]$ 与 $f\\left(\\frac{x_{1} + x_{2}}{2}\\right)$ 的大小，并加以证明.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由对数的运算性质，$\\dfrac{1}{2}[f(x_{1})+f(x_{2})]=\\dfrac{1}{2}\\log_{a}(x_{1}x_{2})=\\log_{a}\\sqrt{x_{1}x_{2}}$. 又因为 $x_{1}$，$x_{2}>0$，由 $\\left(\\sqrt{x_{1}}-\\sqrt{x_{2}}\\right)^{2}\\geqslant0$ 得 $2\\sqrt{x_{1}x_{2}}\\le x_{1}+x_{2}$，所以 $\\sqrt{x_{1}x_{2}}\\le\\dfrac{x_1+x_2}{2}$，且等号当且仅当 $x_{1}=x_{2}$.</p><p>当 $a>1$ 时，$\\log_{a} x$ 单调递增，所以 $\\dfrac{1}{2}[f(x_{1})+f(x_{2})]\\le f\\left(\\dfrac{x_1+x_2}{2}\\right)$. 当 $0&#x3C;a&#x3C;1$ 时，$\\log_{a} x$ 单调递减，所以 $\\dfrac{1}{2}[f(x_{1})+f(x_{2})]\\ge f\\left(\\dfrac{x_1+x_2}{2}\\right)$. 两种情形均在且仅在 $x_{1}=x_{2}$ 时取等号.</p>"
+          "solution": "<p>由对数的运算性质，$\\dfrac{1}{2}[f(x_{1})+f(x_{2})]=\\dfrac{1}{2}\\log_{a}(x_{1}x_{2})=\\log_{a}\\sqrt{x_{1}x_{2}}$. 又因为 $x_{1}$，$x_{2}>0$，由 $\\left(\\sqrt{x_{1}}-\\sqrt{x_{2}}\\right)^{2}\\geqslant0$ 得 $2\\sqrt{x_{1}x_{2}}\\le x_{1}+x_{2}$，所以 $\\sqrt{x_{1}x_{2}}\\le\\dfrac{x_1+x_2}{2}$，且等号当且仅当 $x_{1}=x_{2}$.</p><p>当 $a>1$ 时，$\\log_{a} x$ 单调递增，所以 $\\dfrac{1}{2}[f(x_{1})+f(x_{2})]\\le f\\left(\\dfrac{x_1+x_2}{2}\\right)$. 当 $0<a<1$ 时，$\\log_{a} x$ 单调递减，所以 $\\dfrac{1}{2}[f(x_{1})+f(x_{2})]\\ge f\\left(\\dfrac{x_1+x_2}{2}\\right)$. 两种情形均在且仅在 $x_{1}=x_{2}$ 时取等号.</p>"
         },
         {
           "num": 23,

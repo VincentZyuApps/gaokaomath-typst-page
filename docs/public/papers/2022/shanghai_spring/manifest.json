@@ -23,10 +23,10 @@
         },
         {
           "num": 3,
-          "body": "不等式 $\\dfrac{x-1}{x}&#x3C;0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "不等式 $\\dfrac{x-1}{x}<0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$\\{x\\mid 0&#x3C;x&#x3C;1\\}$",
-          "solution": "由分式不等式的运算性质，分子，分母异号，故解集为 $\\{x\\mid 0&#x3C;x&#x3C;1\\}$."
+          "answer": "$\\{x\\mid 0<x<1\\}$",
+          "solution": "由分式不等式的运算性质，分子，分母异号，故解集为 $\\{x\\mid 0<x<1\\}$."
         },
         {
           "num": 4,
@@ -82,7 +82,7 @@
           "body": "已知双曲线 $\\dfrac{x^2}{a^2}-y^{2}=1$，其中 $a>0$，双曲线右支上有任意两点 $P_{1}(x_{1},y_{1})$，$P_{2}(x_{2},y_{2})$，满足 $x_{1}x_{2}-y_{1}y_{2}>0$ 恒成立，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$a\\ge1$",
-          "solution": "<p>设 $P_{3}(x_{2},-y_{2})$，则 $\\overrightarrow{OP_1}\\cdot\\overrightarrow{OP_3}=x_{1}x_{2}-y_{1}y_{2}>0$，所以 $\\overrightarrow{OP_1}=\\overrightarrow{OP_3}$ 或 $\\angle P_{1}OP_{3}$ 为锐角. 设双曲线两条渐近线分别与第一，第四象限相交于 $M$，$N$，则</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q11_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>$0&#x3C;\\angle MON\\le\\dfrac\\pi2$，即 $0&#x3C;\\dfrac{1}{a}\\le\\tan\\dfrac\\pi4=1$，故 $a\\ge1$.</p>"
+          "solution": "<p>设 $P_{3}(x_{2},-y_{2})$，则 $\\overrightarrow{OP_1}\\cdot\\overrightarrow{OP_3}=x_{1}x_{2}-y_{1}y_{2}>0$，所以 $\\overrightarrow{OP_1}=\\overrightarrow{OP_3}$ 或 $\\angle P_{1}OP_{3}$ 为锐角. 设双曲线两条渐近线分别与第一，第四象限相交于 $M$，$N$，则</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q11_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>$0<\\angle MON\\le\\dfrac\\pi2$，即 $0<\\dfrac{1}{a}\\le\\tan\\dfrac\\pi4=1$，故 $a\\ge1$.</p>"
         },
         {
           "num": 12,
@@ -118,7 +118,7 @@
             "$ac>bd$"
           ],
           "answer": "B",
-          "solution": "由 $a>c$，$b>d$，两式相加得 $a+c>b+d$，故 B 正确. 例如 $3>2>1>0$，但 $3+0=2+1$，$3\\times0&#x3C;2\\times1$，故 A，C 错误；例如 $30>2>-1>-2$，但 $30\\times(-1)&#x3C;2\\times(-2)$，故 D 错误. 所以选 B."
+          "solution": "由 $a>c$，$b>d$，两式相加得 $a+c>b+d$，故 B 正确. 例如 $3>2>1>0$，但 $3+0=2+1$，$3\\times0<2\\times1$，故 A，C 错误；例如 $30>2>-1>-2$，但 $30\\times(-1)<2\\times(-2)$，故 D 错误. 所以选 B."
         },
         {
           "num": 15,
@@ -142,7 +142,7 @@
             "若数列 $\\{T_{n}\\}$ 是递增数列，则 $a_{2022}\\ge a_{2021}$"
           ],
           "answer": "D",
-          "solution": "对于 A，取 $a_{1}=-1$，公比 $q=-2$，则 $S_{2022}>S_{2021}$，但数列不是递增数列；对于 B，取 $a_{1}=-1$，公比 $q=2$，则 $T_{2022}>T_{2021}$，但数列不是递增数列；对于 C，取 $a_{1}=1$，公比 $q=\\dfrac{1}{2}$，则 $\\{S_{n}\\}$ 递增，但 $a_{2022}&#x3C;a_{2021}$. 对于 D，若 $\\{T_{n}\\}$ 递增，则 $T_{n}>T_{n-1}$，从而 $a_{n}>1$，故 $q\\ge1$，所以 $a_{2022}\\ge a_{2021}$，选 D."
+          "solution": "对于 A，取 $a_{1}=-1$，公比 $q=-2$，则 $S_{2022}>S_{2021}$，但数列不是递增数列；对于 B，取 $a_{1}=-1$，公比 $q=2$，则 $T_{2022}>T_{2021}$，但数列不是递增数列；对于 C，取 $a_{1}=1$，公比 $q=\\dfrac{1}{2}$，则 $\\{S_{n}\\}$ 递增，但 $a_{2022}<a_{2021}$. 对于 D，若 $\\{T_{n}\\}$ 递增，则 $T_{n}>T_{n-1}$，从而 $a_{n}>1$，故 $q\\ge1$，所以 $a_{2022}\\ge a_{2021}$，选 D."
         }
       ]
     },
@@ -161,7 +161,7 @@
           "body": "<p>已知数列 $\\{a_{n}\\}$，$a_{2}=1$，$\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$.</p><ol class=\"enumerate\"><li><p>若 $\\{a_{n}\\}$ 为等比数列，$S_{2}=3$，求 $\\displaystyle\\lim_{n\\to\\infty}S_{n}$；</p></li><li><p>若 $\\{a_{n}\\}$ 为等差数列，公差为 $d$，对任意 $n\\in\\mathbb{N}^{*}$，均满足 $S_{2n}\\ge n$，求 $d$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $S_{2}=a_{1}+a_{2}=3$ 得 $a_{1}=2$，所以等比数列的公比 $q=\\dfrac{1}{2}$. 因此 $S_{n}=\\dfrac{2\\left(1-\\left(\\frac{1}{2}\\right)^n\\right)}{1-\\frac{1}{2}}=4\\left(1-\\left(\\dfrac{1}{2}\\right)^{n}\\right)$，故 $\\displaystyle\\lim_{n\\to\\infty}S_{n}=4$.</p></li><li><p>由 $a_{2}=1$ 得 $a_{1}=1-d$，且 $S_{2n}=\\dfrac{2n(a_1+a_{2n})}{2}=n(a_{2}+a_{2n-1})\\ge n$，所以 $(2n-3)d\\ge-1$. 当 $n=1$ 时，得 $d\\le1$；当 $n\\ge2$ 时，得 $d\\ge\\dfrac1{3-2n}$. 因为 $\\left\\{\\dfrac1{3-2n}\\right\\}$（$n\\ge2$）单调递增，且 $-1\\le\\dfrac1{3-2n}&#x3C;0$，所以 $d\\ge0$. 综上，$0\\le d\\le1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $S_{2}=a_{1}+a_{2}=3$ 得 $a_{1}=2$，所以等比数列的公比 $q=\\dfrac{1}{2}$. 因此 $S_{n}=\\dfrac{2\\left(1-\\left(\\frac{1}{2}\\right)^n\\right)}{1-\\frac{1}{2}}=4\\left(1-\\left(\\dfrac{1}{2}\\right)^{n}\\right)$，故 $\\displaystyle\\lim_{n\\to\\infty}S_{n}=4$.</p></li><li><p>由 $a_{2}=1$ 得 $a_{1}=1-d$，且 $S_{2n}=\\dfrac{2n(a_1+a_{2n})}{2}=n(a_{2}+a_{2n-1})\\ge n$，所以 $(2n-3)d\\ge-1$. 当 $n=1$ 时，得 $d\\le1$；当 $n\\ge2$ 时，得 $d\\ge\\dfrac1{3-2n}$. 因为 $\\left\\{\\dfrac1{3-2n}\\right\\}$（$n\\ge2$）单调递增，且 $-1\\le\\dfrac1{3-2n}<0$，所以 $d\\ge0$. 综上，$0\\le d\\le1$.</p></li></ol>"
         },
         {
           "num": 19,
@@ -175,14 +175,14 @@
           "body": "<p>在椭圆 $\\Gamma:\\dfrac{x^2}{a^2}+y^{2}=1$ 中，直线 $l:x=a$ 上有两点 $C$，$D$（$C$ 点在第一象限），左顶点为 $A$，下顶点为 $B$，右焦点为 $F$.</p><ol class=\"enumerate\"><li><p>若 $\\angle AFB=\\dfrac\\pi6$，求椭圆 $\\Gamma$ 的标准方程；</p></li><li><p>若点 $C$ 的纵坐标为 $2$，点 $D$ 的纵坐标为 $1$，则 $BC$ 与 $AD$ 的交点是否在椭圆上？请说明理由；</p></li><li><p>已知直线 $BC$ 与椭圆 $\\Gamma$ 相交于点 $P$，直线 $AD$ 与椭圆 $\\Gamma$ 相交于点 $Q$，若 $P$ 与 $Q$ 关于原点对称，求 $\\lvert CD\\rvert$ 的最小值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆焦距为 $c$，则 $A(-a,0)$，$B(0,-1)$，$F(c,0)$. 由 $\\tan\\angle AFB=\\dfrac{1}{c}=\\tan\\dfrac\\pi6=\\dfrac{\\sqrt{3}}{3}$，得 $c=\\sqrt{3}$. 又 $a^{2}=c^{2}+1=4$，故椭圆 $\\Gamma$ 的标准方程为 $\\dfrac{x^2}{4}+y^{2}=1$.</p></li><li><p>由 $B(0,-1)$，$C(a,2)$ 得 $BC:y=\\dfrac{3}{a}x+1$；由 $A(-a,0)$，$D(a,1)$ 得 $AD:y=\\dfrac1{2a}(x+a)$. 联立得交点为 $\\left(\\dfrac{3a}{5},\\dfrac{4}{5}\\right)$. 代入椭圆方程左边，得 $\\dfrac{\\left(\\frac{3a}{5}\\right)^2}{a^2}+\\left(\\dfrac{4}{5}\\right)^{2}=\\dfrac9{25}+\\dfrac{16}{25}=1$，故交点在椭圆上.</p></li><li><p>设 $P(a\\cos\\theta,\\sin\\theta)$，$Q(-a\\cos\\theta,-\\sin\\theta)$. 由直线 $BP$，$AQ$ 的方程，得 $C\\left(a,\\dfrac{\\sin\\theta+1}{\\cos\\theta}-1\\right)$，$D\\left(a,\\dfrac{2\\sin\\theta}{\\cos\\theta-1}\\right)$. 令 $t=\\tan\\dfrac\\theta2$，则</p><p>$\\lvert CD\\rvert=2\\left\\lvert\\dfrac1{1-t}+\\dfrac{1}{t}-1\\right\\rvert$. 在相应取值范围 $0&#x3C;t&#x3C;1$ 内，由基本不等式，$\\dfrac1{1-t}+\\dfrac{1}{t}\\ge4$，所以 $\\lvert CD\\rvert\\ge6$，故最小值为 $6$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆焦距为 $c$，则 $A(-a,0)$，$B(0,-1)$，$F(c,0)$. 由 $\\tan\\angle AFB=\\dfrac{1}{c}=\\tan\\dfrac\\pi6=\\dfrac{\\sqrt{3}}{3}$，得 $c=\\sqrt{3}$. 又 $a^{2}=c^{2}+1=4$，故椭圆 $\\Gamma$ 的标准方程为 $\\dfrac{x^2}{4}+y^{2}=1$.</p></li><li><p>由 $B(0,-1)$，$C(a,2)$ 得 $BC:y=\\dfrac{3}{a}x+1$；由 $A(-a,0)$，$D(a,1)$ 得 $AD:y=\\dfrac1{2a}(x+a)$. 联立得交点为 $\\left(\\dfrac{3a}{5},\\dfrac{4}{5}\\right)$. 代入椭圆方程左边，得 $\\dfrac{\\left(\\frac{3a}{5}\\right)^2}{a^2}+\\left(\\dfrac{4}{5}\\right)^{2}=\\dfrac9{25}+\\dfrac{16}{25}=1$，故交点在椭圆上.</p></li><li><p>设 $P(a\\cos\\theta,\\sin\\theta)$，$Q(-a\\cos\\theta,-\\sin\\theta)$. 由直线 $BP$，$AQ$ 的方程，得 $C\\left(a,\\dfrac{\\sin\\theta+1}{\\cos\\theta}-1\\right)$，$D\\left(a,\\dfrac{2\\sin\\theta}{\\cos\\theta-1}\\right)$. 令 $t=\\tan\\dfrac\\theta2$，则</p><p>$\\lvert CD\\rvert=2\\left\\lvert\\dfrac1{1-t}+\\dfrac{1}{t}-1\\right\\rvert$. 在相应取值范围 $0<t<1$ 内，由基本不等式，$\\dfrac1{1-t}+\\dfrac{1}{t}\\ge4$，所以 $\\lvert CD\\rvert\\ge6$，故最小值为 $6$.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>已知函数 $f(x)$，甲变化：$f(x)-f(x-t)$；乙变化：$\\lvert f(x+t)-f(x)\\rvert$，$t>0$.</p><ol class=\"enumerate\"><li><p>若 $t=1$，$f(x)=2^{x}$，$f(x)$ 经甲变化得到 $g(x)$，求方程 $g(x)=2$ 的解；</p></li><li><p>若 $f(x)=x^{2}$，$f(x)$ 经乙变化得到 $h(x)$，求不等式 $h(x)\\le f(x)$ 的解集；</p></li><li><p>若 $f(x)$ 在 $(-infty,0)$ 上单调递增，将 $f(x)$ 先进行甲变化得到 $u(x)$，再将 $u(x)$ 进行乙变化得到 $h_{1}(x)$；将 $f(x)$ 先进行乙变化得到 $v(x)$，再将 $v(x)$ 进行甲变化得到 $h_{2}(x)$，若对任意 $t>0$，总存在 $h_{1}(x)=h_{2}(x)$ 成立，求证：$f(x)$ 在 $\\mathbb{R}$ 上单调递增.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由甲变化，$g(x)=f(x)-f(x-1)=2^{x}-2^{x-1}=2^{x-1}$. 令 $g(x)=2$，解得 $x=2$.</p></li><li><p>由乙变化，$h(x)=\\lvert(x+t)^{2}-x^{2}\\rvert=t\\lvert2x+t\\rvert$. 当 $2x+t&#x3C;0$，即 $x&#x3C;-\\dfrac{t}{2}$ 时，$t\\lvert2x+t\\rvert\\le x^{2}$ 恒成立；当 $2x+t\\ge0$，即 $x\\ge-\\dfrac{t}{2}$ 时，解 $t(2x+t)\\le x^{2}$，得 $x\\le(1-\\sqrt{2})t$ 或 $x\\ge(1+\\sqrt{2})t$. 所以解集为 $\\left(-\\infty,(1-\\sqrt{2})t\\right]\\cup\\left[(1+\\sqrt{2})t,+\\infty\\right)$.</p></li><li><p>记 $u(x)=f(x)-f(x-t)$，则 $h_{1}(x)=\\lvert u(x+t)-u(x)\\rvert=\\lvert f(x+t)-2f(x)+f(x-t)\\rvert$. 记 $v(x)=\\lvert f(x+t)-f(x)\\rvert$，则 $h_{2}(x)=v(x)-v(x-t)=\\lvert f(x+t)-f(x)\\rvert-\\lvert f(x)-f(x-t)\\rvert$. 由题设，对任意 $t>0$，总存在 $x$ 使 $h_{1}(x)=h_{2}(x)$，即</p><p>$\\left\\lvert[f(x+t)-f(x)]-[f(x)-f(x-t)]\\right\\rvert=\\lvert f(x+t)-f(x)\\rvert-\\lvert f(x)-f(x-t)\\rvert$. 因而存在 $x$ 使 $f(x+t)>f(x)>f(x-t)$，且 $f(x+t)-f(x)>f(x)-f(x-t)$. 于是对任意 $t>0$，存在正增量，结合 $f(x)$ 在 $(-infty,0)$ 上单调递增，可得 $f(x+t)>f(x)$ 对任意 $x\\in\\mathbb{R}$ 成立，故 $f(x)$ 在 $\\mathbb{R}$ 上单调递增.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由甲变化，$g(x)=f(x)-f(x-1)=2^{x}-2^{x-1}=2^{x-1}$. 令 $g(x)=2$，解得 $x=2$.</p></li><li><p>由乙变化，$h(x)=\\lvert(x+t)^{2}-x^{2}\\rvert=t\\lvert2x+t\\rvert$. 当 $2x+t<0$，即 $x<-\\dfrac{t}{2}$ 时，$t\\lvert2x+t\\rvert\\le x^{2}$ 恒成立；当 $2x+t\\ge0$，即 $x\\ge-\\dfrac{t}{2}$ 时，解 $t(2x+t)\\le x^{2}$，得 $x\\le(1-\\sqrt{2})t$ 或 $x\\ge(1+\\sqrt{2})t$. 所以解集为 $\\left(-\\infty,(1-\\sqrt{2})t\\right]\\cup\\left[(1+\\sqrt{2})t,+\\infty\\right)$.</p></li><li><p>记 $u(x)=f(x)-f(x-t)$，则 $h_{1}(x)=\\lvert u(x+t)-u(x)\\rvert=\\lvert f(x+t)-2f(x)+f(x-t)\\rvert$. 记 $v(x)=\\lvert f(x+t)-f(x)\\rvert$，则 $h_{2}(x)=v(x)-v(x-t)=\\lvert f(x+t)-f(x)\\rvert-\\lvert f(x)-f(x-t)\\rvert$. 由题设，对任意 $t>0$，总存在 $x$ 使 $h_{1}(x)=h_{2}(x)$，即</p><p>$\\left\\lvert[f(x+t)-f(x)]-[f(x)-f(x-t)]\\right\\rvert=\\lvert f(x+t)-f(x)\\rvert-\\lvert f(x)-f(x-t)\\rvert$. 因而存在 $x$ 使 $f(x+t)>f(x)>f(x-t)$，且 $f(x+t)-f(x)>f(x)-f(x-t)$. 于是对任意 $t>0$，存在正增量，结合 $f(x)$ 在 $(-infty,0)$ 上单调递增，可得 $f(x+t)>f(x)$ 对任意 $x\\in\\mathbb{R}$ 成立，故 $f(x)$ 在 $\\mathbb{R}$ 上单调递增.</p></li></ol>"
         }
       ]
     }

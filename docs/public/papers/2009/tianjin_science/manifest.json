@@ -53,7 +53,7 @@
             "在区间 $\\left(\\frac{1}{\\mathrm{e}},1\\right)$ 内无零点，在区间 $\\left(1,\\mathrm{e}\\right)$ 内有零点"
           ],
           "answer": "D",
-          "solution": "函数在 $(0,+\\infty)$ 上连续，且 $f'(x)=\\dfrac{1}{3}-\\dfrac{1}{x}=\\dfrac{x-3}{3x}$. 因为 $\\frac{1}{\\mathrm{e}}&#x3C;x&#x3C;\\mathrm{e}&#x3C;3$ 时 $f'(x)&#x3C;0$，所以 $f(x)$ 在 $(\\frac{1}{\\mathrm{e}},\\mathrm{e})$ 上严格递减. 又 $f(\\frac{1}{\\mathrm{e}})=\\dfrac{1}{3\\mathrm{e}}+1>0$，$f(1)=\\dfrac{1}{3}>0$，故 $(\\frac{1}{\\mathrm{e}},1)$ 内无零点；而 $f(\\mathrm{e})=\\dfrac{\\mathrm{e}}{3}-1&#x3C;0$，由零点存在性定理，$(1,\\mathrm{e})$ 内有零点. 因此选 D."
+          "solution": "函数在 $(0,+\\infty)$ 上连续，且 $f'(x)=\\dfrac{1}{3}-\\dfrac{1}{x}=\\dfrac{x-3}{3x}$. 因为 $\\frac{1}{\\mathrm{e}}<x<\\mathrm{e}<3$ 时 $f'(x)<0$，所以 $f(x)$ 在 $(\\frac{1}{\\mathrm{e}},\\mathrm{e})$ 上严格递减. 又 $f(\\frac{1}{\\mathrm{e}})=\\dfrac{1}{3\\mathrm{e}}+1>0$，$f(1)=\\dfrac{1}{3}>0$，故 $(\\frac{1}{\\mathrm{e}},1)$ 内无零点；而 $f(\\mathrm{e})=\\dfrac{\\mathrm{e}}{3}-1<0$，由零点存在性定理，$(1,\\mathrm{e})$ 内有零点. 因此选 D."
         },
         {
           "num": 5,
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "已知函数 $f(x) = \\begin{cases}x^{2} + 4x,&#x26;x \\ge 0,\\\\  4x - x^{2},&#x26;x &#x3C; 0.\\end{cases}$ 若 $f(2 - a^{2}) > f(a)$，则实数 $a$ 的取值范围是（ ）",
+          "body": "已知函数 $f(x) = \\begin{cases}x^{2} + 4x,&x \\ge 0,\\\\  4x - x^{2},&x < 0.\\end{cases}$ 若 $f(2 - a^{2}) > f(a)$，则实数 $a$ 的取值范围是（ ）",
           "choices": [
             "$(- \\infty, -1) \\cup (2, +\\infty)$",
             "$(-1, 2)$",
@@ -101,7 +101,7 @@
             "$(-\\infty, -2) \\cup (1, +\\infty)$"
           ],
           "answer": "C",
-          "solution": "<p>当 $x&#x3C;0$ 时，$f'(x)=4-2x>0$；当 $x\\geqslant0$ 时，$f'(x)=2x+4>0$，且分段函数在 $x=0$ 处连续. 因此 $f(x)$ 在 $\\mathbb{R}$ 上严格递增. 于是</p><p>$f(2-a^{2})>f(a)\\iff2-a^{2}>a\\iff(a+2)(a-1)&#x3C;0$.</p><p>所以 $-2&#x3C;a&#x3C;1$，选 C.</p>"
+          "solution": "<p>当 $x<0$ 时，$f'(x)=4-2x>0$；当 $x\\geqslant0$ 时，$f'(x)=2x+4>0$，且分段函数在 $x=0$ 处连续. 因此 $f(x)$ 在 $\\mathbb{R}$ 上严格递增. 于是</p><p>$f(2-a^{2})>f(a)\\iff2-a^{2}>a\\iff(a+2)(a-1)<0$.</p><p>所以 $-2<a<1$，选 C.</p>"
         },
         {
           "num": 9,
@@ -117,15 +117,15 @@
         },
         {
           "num": 10,
-          "body": "$0 &#x3C; b &#x3C; 1 + a$. 若关于 $x$ 的不等式 $(x - b)^{2} > (ax)^{2}$ 的解集中的整数恰有$3$个，则（ ）",
+          "body": "$0 < b < 1 + a$. 若关于 $x$ 的不等式 $(x - b)^{2} > (ax)^{2}$ 的解集中的整数恰有$3$个，则（ ）",
           "choices": [
-            "$-1 &#x3C; a &#x3C; 0$",
-            "$0 &#x3C; a &#x3C; 1$",
-            "$1 &#x3C; a &#x3C; 3$",
-            "$3 &#x3C; a &#x3C; 6$"
+            "$-1 < a < 0$",
+            "$0 < a < 1$",
+            "$1 < a < 3$",
+            "$3 < a < 6$"
           ],
           "answer": "C",
-          "solution": "<p>将不等式因式分解为</p><p>$(x-b)^{2}-(ax)^{2}=\\bigl((1-a)x-b\\bigr)\\bigl((1+a)x-b\\bigr)>0$.</p><p>若 $a\\leqslant1$，则解集包含一个无界区间，含有无穷多个整数；若 $a&#x3C;-1$，条件 $0&#x3C;b&#x3C;1+a$ 不可能成立. 因此必须有 $a>1$.</p><p>此时两个根为 $-\\dfrac{b}{a-1}$ 和 $\\dfrac{b}{a+1}$，且 $0&#x3C;\\dfrac{b}{a+1}&#x3C;1$，所以不等式的解集为</p><p>$\\left(-\\dfrac{b}{a-1},\\dfrac{b}{a+1}\\right)$.</p><p>令 $R=\\dfrac{b}{a-1}$. 该解集中的整数必为 $0$，$-1$，$-2$，$\\ldots$，恰有三个整数当且仅当 $-1,-2$ 在解集中而 $-3$ 不在解集中，即 $2&#x3C;R\\leqslant3$. 因而 $2(a-1)&#x3C;b\\leqslant3(a-1)$. 与 $b&#x3C;a+1$ 合并，得到 $2(a-1)&#x3C;a+1$，即 $a&#x3C;3$. 再结合 $a>1$，得 $1&#x3C;a&#x3C;3$，选 C.</p>"
+          "solution": "<p>将不等式因式分解为</p><p>$(x-b)^{2}-(ax)^{2}=\\bigl((1-a)x-b\\bigr)\\bigl((1+a)x-b\\bigr)>0$.</p><p>若 $a\\leqslant1$，则解集包含一个无界区间，含有无穷多个整数；若 $a<-1$，条件 $0<b<1+a$ 不可能成立. 因此必须有 $a>1$.</p><p>此时两个根为 $-\\dfrac{b}{a-1}$ 和 $\\dfrac{b}{a+1}$，且 $0<\\dfrac{b}{a+1}<1$，所以不等式的解集为</p><p>$\\left(-\\dfrac{b}{a-1},\\dfrac{b}{a+1}\\right)$.</p><p>令 $R=\\dfrac{b}{a-1}$. 该解集中的整数必为 $0$，$-1$，$-2$，$\\ldots$，恰有三个整数当且仅当 $-1,-2$ 在解集中而 $-3$ 不在解集中，即 $2<R\\leqslant3$. 因而 $2(a-1)<b\\leqslant3(a-1)$. 与 $b<a+1$ 合并，得到 $2(a-1)<a+1$，即 $a<3$. 再结合 $a>1$，得 $1<a<3$，选 C.</p>"
         }
       ]
     },
@@ -205,7 +205,7 @@
           "body": "<p>已知函数 $f(x) = (x^{2}+ ax - 2a^{2}+ 3a)\\mathrm{e}^{x}$（$x \\in \\mathbb{R}$），其中 $a \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>当 $a = 0$ 时，求曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线的斜率.</p></li><li><p>当 $a \\neq \\frac{2}{3}$ 时，求函数 $f(x)$ 的单调区间与极值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=0$ 时，$f(x)=x^{2}\\mathrm{e}^{x}$，所以 $f'(x)=(x^{2}+2x)\\mathrm{e}^{x}$. 因而切线斜率为 $f'(1)=3\\mathrm{e}$.</p></li><li><p>令 $P(x)=x^{2}+ax-2a^{2}+3a$，则</p><p>$f'(x)=\\bigl(P'(x)+P(x)\\bigr)\\mathrm{e}^{x}=(x+2a)(x-a+2)\\mathrm{e}^{x}$.</p><p>因为 $\\mathrm{e}^{x}>0$，只需讨论两个根 $-2a$ 与 $a-2$ 的大小规律. 当 $a>\\dfrac{2}{3}$ 时，$-2a&#x3C;a-2$，故 $f(x)$ 在 $\\left(-\\infty,-2a\\right)$ 和 $\\left(a-2,+\\infty\\right)$ 上单调递增，在 $\\left(-2a,a-2\\right)$ 上单调递减. 又</p><p>$f(-2a)=3a\\mathrm{e}^{-2a}$，$f(a-2)=(4-3a)\\mathrm{e}^{a-2}$，所以在 $x=-2a$ 处取得极大值 $3a\\mathrm{e}^{-2a}$，在 $x=a-2$ 处取得极小值 $(4-3a)\\mathrm{e}^{a-2}$.</p><p>当 $a&#x3C;\\dfrac{2}{3}$ 时，$a-2&#x3C;-2a$，故 $f(x)$ 在 $\\left(-\\infty,a-2\\right)$ 和 $\\left(-2a,+\\infty\\right)$ 上单调递增，在 $\\left(a-2,-2a\\right)$ 上单调递减. 此时在 $x=a-2$ 处取得极大值 $(4-3a)\\mathrm{e}^{a-2}$，在 $x=-2a$ 处取得极小值 $3a\\mathrm{e}^{-2a}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=0$ 时，$f(x)=x^{2}\\mathrm{e}^{x}$，所以 $f'(x)=(x^{2}+2x)\\mathrm{e}^{x}$. 因而切线斜率为 $f'(1)=3\\mathrm{e}$.</p></li><li><p>令 $P(x)=x^{2}+ax-2a^{2}+3a$，则</p><p>$f'(x)=\\bigl(P'(x)+P(x)\\bigr)\\mathrm{e}^{x}=(x+2a)(x-a+2)\\mathrm{e}^{x}$.</p><p>因为 $\\mathrm{e}^{x}>0$，只需讨论两个根 $-2a$ 与 $a-2$ 的大小规律. 当 $a>\\dfrac{2}{3}$ 时，$-2a<a-2$，故 $f(x)$ 在 $\\left(-\\infty,-2a\\right)$ 和 $\\left(a-2,+\\infty\\right)$ 上单调递增，在 $\\left(-2a,a-2\\right)$ 上单调递减. 又</p><p>$f(-2a)=3a\\mathrm{e}^{-2a}$，$f(a-2)=(4-3a)\\mathrm{e}^{a-2}$，所以在 $x=-2a$ 处取得极大值 $3a\\mathrm{e}^{-2a}$，在 $x=a-2$ 处取得极小值 $(4-3a)\\mathrm{e}^{a-2}$.</p><p>当 $a<\\dfrac{2}{3}$ 时，$a-2<-2a$，故 $f(x)$ 在 $\\left(-\\infty,a-2\\right)$ 和 $\\left(-2a,+\\infty\\right)$ 上单调递增，在 $\\left(a-2,-2a\\right)$ 上单调递减. 此时在 $x=a-2$ 处取得极大值 $(4-3a)\\mathrm{e}^{a-2}$，在 $x=-2a$ 处取得极小值 $3a\\mathrm{e}^{-2a}$.</p></li></ol>"
         },
         {
           "num": 21,
@@ -219,7 +219,7 @@
           "body": "<p>已知等差数列 $\\{a_{n}\\}$ 的公差为 $d$（$d \\neq 0$），等比数列 $\\{b_{n}\\}$ 的公比为 $q$（$q > 1$）. 设 $S_{n}= a_{1}b_{1}+ a_{2}b_{2}+ \\cdots + a_{n}b_{n}$，$T_{n}= a_{1}b_{1}- a_{2}b_{2}+ \\cdots + (-1)^{n - 1}a_{n}b_{n}$，$n \\in \\mathbb{N}^{*}$.</p><ol class=\"enumerate\"><li><p>若 $a_{1} = b_{1} = 1$，$d = 2$，$q = 3$，求 $S_{3}$ 的值.</p></li><li><p>若 $b_{1}= 1$，证明 $(1 - q)S_{2n}- (1 + q)T_{2n}= \\frac{2dq(1 - q^{2n})}{1 - q^{2}}$，$n \\in \\mathbb{N}^{*}$.</p></li><li><p>若正整数 $n$ 满足 $2 \\le n \\le q$，设 $k_{1}$，$k_{2}$，$\\cdots$，$k_{n}$ 和 $l_{1}$，$l_{2}$，$\\cdots$，$l_{n}$ 是 $1$，$2$，$\\cdots$，$n$ 的两个不同的排列，$c_{1}= a_{k_1}b_{1} + a_{k_2}b_{2} + \\cdots + a_{k_n}b_{n}$，$c_{2}= a_{l_1}b_{1} + a_{l_2}b_{2} + \\cdots + a_{l_n}b_{n}$，证明 $c_{1}\\neq c_{2}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由等差数列通项公式，$a_{n}=a_{1}+(n-1)d=1+2(n-1)=2n-1$；由等比数列通项公式，$b_{n}=b_{1}q^{n-1}=3^{n-1}$. 因而</p>\n$$\nS_{3}=a_{1}b_{1}+a_{2}b_{2}+a_{3}b_{3}=1\\cdot1+3\\cdot3+5\\cdot9=55\n$$\n</li><li><p>由于 $b_{1}=1$，有 $b_{j}=q^{j-1}$，且 $a_{j}=a_{1}+(j-1)d$. 当 $j$ 为奇数时，$(1-q)-(1+q)(-1)^{j-1}=-2q$；当 $j$ 为偶数时，该系数为 $2$. 因而将奇、偶两项配对可得</p>\n$$\n(1-q)S_{2n}-(1+q)T_{2n}=2\\sum_{j=1}^{n}\\bigl(a_{2j}b_{2j}-q a_{2j-1}b_{2j-1}\\bigr)\n$$\n<p>因为 $b_{2j}=q b_{2j-1}$，且 $a_{2j}-a_{2j-1}=d$，所以</p>\n$$\na_{2j}b_{2j}-q a_{2j-1}b_{2j-1}=q b_{2j-1}(a_{2j}-a_{2j-1})=dq^{2j-1}\n$$\n<p>故</p>\n$$\n(1-q)S_{2n}-(1+q)T_{2n}=2d\\sum_{j=1}^{n}q^{2j-1}=2dq\\frac{1-q^{2n}}{1-q^{2}}\n$$\n<p>这正是所证结论.</p></li><li><p>令 $r_{j}=k_{j}-l_{j}$. 由于 $k_{1}$，$\\ldots$，$k_{n}$ 与 $l_{1}$，$\\ldots$，$l_{n}$ 是两个不同的排列，$r_{1}$，$\\ldots$，$r_{n}$ 不全为零，且 $|r_{j}|\\leq n-1$. 由等差数列通项公式及 $b_{j}=b_{1}q^{j-1}$，有</p>\n$$\nc_{1}-c_{2}=\\sum_{j=1}^{n}(a_{k_j}-a_{l_j})b_{j}  =d b_{1}\\sum_{j=1}^{n}r_{j}q^{j-1}\n$$\n<p>这里 $d\\ne0$，且因 $q$ 是等比数列的公比，首项 $b_{1}\\ne0$，故 $d b_{1}\\ne0$. 设 $m$ 是使 $r_{m}\\ne0$ 的最大下标. 若上式中的加权和为零，则</p>\n$$\n|r_{m}|q^{m-1}\\leq\\sum_{j=1}^{m-1}|r_{j}|q^{j-1}\\leq(n-1)\\frac{q^{m-1}-1}{q-1}\\leq q^{m-1}-1&#x3C;q^{m-1}\n$$\n<p>这与 $|r_{m}|\\geq1$ 矛盾. 因而 $\\sum_{j=1}^{n}r_{j}q^{j-1}\\ne0$，从而 $c_{1}-c_{2}\\ne0$，即 $c_{1}\\ne c_{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由等差数列通项公式，$a_{n}=a_{1}+(n-1)d=1+2(n-1)=2n-1$；由等比数列通项公式，$b_{n}=b_{1}q^{n-1}=3^{n-1}$. 因而</p>\n$$\nS_{3}=a_{1}b_{1}+a_{2}b_{2}+a_{3}b_{3}=1\\cdot1+3\\cdot3+5\\cdot9=55\n$$\n</li><li><p>由于 $b_{1}=1$，有 $b_{j}=q^{j-1}$，且 $a_{j}=a_{1}+(j-1)d$. 当 $j$ 为奇数时，$(1-q)-(1+q)(-1)^{j-1}=-2q$；当 $j$ 为偶数时，该系数为 $2$. 因而将奇、偶两项配对可得</p>\n$$\n(1-q)S_{2n}-(1+q)T_{2n}=2\\sum_{j=1}^{n}\\bigl(a_{2j}b_{2j}-q a_{2j-1}b_{2j-1}\\bigr)\n$$\n<p>因为 $b_{2j}=q b_{2j-1}$，且 $a_{2j}-a_{2j-1}=d$，所以</p>\n$$\na_{2j}b_{2j}-q a_{2j-1}b_{2j-1}=q b_{2j-1}(a_{2j}-a_{2j-1})=dq^{2j-1}\n$$\n<p>故</p>\n$$\n(1-q)S_{2n}-(1+q)T_{2n}=2d\\sum_{j=1}^{n}q^{2j-1}=2dq\\frac{1-q^{2n}}{1-q^{2}}\n$$\n<p>这正是所证结论.</p></li><li><p>令 $r_{j}=k_{j}-l_{j}$. 由于 $k_{1}$，$\\ldots$，$k_{n}$ 与 $l_{1}$，$\\ldots$，$l_{n}$ 是两个不同的排列，$r_{1}$，$\\ldots$，$r_{n}$ 不全为零，且 $|r_{j}|\\leq n-1$. 由等差数列通项公式及 $b_{j}=b_{1}q^{j-1}$，有</p>\n$$\nc_{1}-c_{2}=\\sum_{j=1}^{n}(a_{k_j}-a_{l_j})b_{j}  =d b_{1}\\sum_{j=1}^{n}r_{j}q^{j-1}\n$$\n<p>这里 $d\\ne0$，且因 $q$ 是等比数列的公比，首项 $b_{1}\\ne0$，故 $d b_{1}\\ne0$. 设 $m$ 是使 $r_{m}\\ne0$ 的最大下标. 若上式中的加权和为零，则</p>\n$$\n|r_{m}|q^{m-1}\\leq\\sum_{j=1}^{m-1}|r_{j}|q^{j-1}\\leq(n-1)\\frac{q^{m-1}-1}{q-1}\\leq q^{m-1}-1<q^{m-1}\n$$\n<p>这与 $|r_{m}|\\geq1$ 矛盾. 因而 $\\sum_{j=1}^{n}r_{j}q^{j-1}\\ne0$，从而 $c_{1}-c_{2}\\ne0$，即 $c_{1}\\ne c_{2}$.</p></li></ol>"
         }
       ]
     }

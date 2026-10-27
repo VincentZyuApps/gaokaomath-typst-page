@@ -89,7 +89,7 @@
             "相离"
           ],
           "answer": "B",
-          "solution": "圆 $M$ 的圆心为 $(0,a)$，半径为 $a$. 圆心到直线 $x+y=0$ 的距离为 $\\dfrac{a}{\\sqrt{2}}$，所以该直线截圆所得弦长为 $2\\sqrt{a^{2}-\\left(\\dfrac{a}{\\sqrt{2}}\\right)^{2}}=a\\sqrt{2}$. 由题意 $a\\sqrt{2}=2\\sqrt{2}$，得 $a=2$. 于是圆 $M$ 的圆心为 $(0,2)$，半径为 $2$；圆 $N$ 的圆心为 $(1,1)$，半径为 $1$. 两圆心距为 $\\sqrt{(1-0)^{2}+(1-2)^{2}}=\\sqrt{2}$，满足 $\\left|2-1\\right|&#x3C;\\sqrt{2}&#x3C;2+1$，所以两圆相交，故选 B."
+          "solution": "圆 $M$ 的圆心为 $(0,a)$，半径为 $a$. 圆心到直线 $x+y=0$ 的距离为 $\\dfrac{a}{\\sqrt{2}}$，所以该直线截圆所得弦长为 $2\\sqrt{a^{2}-\\left(\\dfrac{a}{\\sqrt{2}}\\right)^{2}}=a\\sqrt{2}$. 由题意 $a\\sqrt{2}=2\\sqrt{2}$，得 $a=2$. 于是圆 $M$ 的圆心为 $(0,2)$，半径为 $2$；圆 $N$ 的圆心为 $(1,1)$，半径为 $1$. 两圆心距为 $\\sqrt{(1-0)^{2}+(1-2)^{2}}=\\sqrt{2}$，满足 $\\left|2-1\\right|<\\sqrt{2}<2+1$，所以两圆相交，故选 B."
         },
         {
           "num": 8,
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "已知函数 $f(x)$ 的定义域为 $\\mathbb{R}$. 当 $x&#x3C;0$ 时，$f(x)=x^{3}-1$；当 $-1\\leq x\\leq 1$ 时，$f(-x)=-f(x)$；当 $x>\\dfrac{1}{2}$ 时，$f\\left(x+\\dfrac{1}{2}\\right)=f\\left(x-\\dfrac{1}{2}\\right)$. 则 $f(6)=$（ ）",
+          "body": "已知函数 $f(x)$ 的定义域为 $\\mathbb{R}$. 当 $x<0$ 时，$f(x)=x^{3}-1$；当 $-1\\leq x\\leq 1$ 时，$f(-x)=-f(x)$；当 $x>\\dfrac{1}{2}$ 时，$f\\left(x+\\dfrac{1}{2}\\right)=f\\left(x-\\dfrac{1}{2}\\right)$. 则 $f(6)=$（ ）",
           "choices": [
             "$-2$",
             "$-1$",
@@ -113,7 +113,7 @@
             "$2$"
           ],
           "answer": "D",
-          "solution": "当 $0&#x3C;x\\leq1$ 时，$-x&#x3C;0$，由已知 $f(-x)=(-x)^{3}-1=-x^{3}-1$，又 $f(-x)=-f(x)$，所以 $f(x)=x^{3}+1$，特别地 $f(1)=2$. 对任意 $t>0$，令 $x=t+\\dfrac{1}{2}$，则已知关系给出 $f(t+1)=f(t)$. 连续使用该关系，得 $f(6)=f(1)=2$，故选 D."
+          "solution": "当 $0<x\\leq1$ 时，$-x<0$，由已知 $f(-x)=(-x)^{3}-1=-x^{3}-1$，又 $f(-x)=-f(x)$，所以 $f(x)=x^{3}+1$，特别地 $f(1)=2$. 对任意 $t>0$，令 $x=t+\\dfrac{1}{2}$，则已知关系给出 $f(t+1)=f(t)$. 连续使用该关系，得 $f(6)=f(1)=2$，故选 D."
         },
         {
           "num": 10,
@@ -162,10 +162,10 @@
         },
         {
           "num": 15,
-          "body": "<p>已知函数</p><p>$f(x)=\\begin{cases}|x|,&#x26;x\\leq m,\\\\  x^{2}-2mx+4m,&#x26;x>m,\\end{cases}$</p><p>其中 $m>0$. 若存在实数 $b$，使得关于 $x$ 的方程 $f(x)=b$ 有三个不同的根，则 $m$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "body": "<p>已知函数</p><p>$f(x)=\\begin{cases}|x|,&x\\leq m,\\\\  x^{2}-2mx+4m,&x>m,\\end{cases}$</p><p>其中 $m>0$. 若存在实数 $b$，使得关于 $x$ 的方程 $f(x)=b$ 有三个不同的根，则 $m$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
           "choices": null,
           "answer": "$m>3$",
-          "solution": "<p>因为 $m>0$，在 $x\\leq m$ 时方程 $f(x)=b$ 化为 $|x|=b$. 它有两个不同的根当且仅当 $0&#x3C;b\\leq m$，这两个根为 $x=-b$ 和 $x=b$.</p><p>在 $x>m$ 时，$f(x)=(x-m)^{2}+4m-m^{2}$，且 $x-m>0$，所以这一段函数严格递增，值域为 $(4m-m^{2},+\\infty)$，方程在这一段有一个根当且仅当 $b>4m-m^{2}$.</p><p>要使总根数为三个，必须使前一段的两个根和后一段的一个根同时存在，即存在 $b\\in(0,m]$ 满足 $b>4m-m^{2}$. 这样的 $b$ 存在当且仅当 $4m-m^{2}&#x3C;m$，即 $m(m-3)>0$. 结合 $m>0$，得 $m>3$. 反之当 $m>3$ 时取 $b=m$，确有三个不同的根，因此取值范围为 $m>3$.</p>"
+          "solution": "<p>因为 $m>0$，在 $x\\leq m$ 时方程 $f(x)=b$ 化为 $|x|=b$. 它有两个不同的根当且仅当 $0<b\\leq m$，这两个根为 $x=-b$ 和 $x=b$.</p><p>在 $x>m$ 时，$f(x)=(x-m)^{2}+4m-m^{2}$，且 $x-m>0$，所以这一段函数严格递增，值域为 $(4m-m^{2},+\\infty)$，方程在这一段有一个根当且仅当 $b>4m-m^{2}$.</p><p>要使总根数为三个，必须使前一段的两个根和后一段的一个根同时存在，即存在 $b\\in(0,m]$ 满足 $b>4m-m^{2}$. 这样的 $b$ 存在当且仅当 $4m-m^{2}<m$，即 $m(m-3)>0$. 结合 $m>0$，得 $m>3$. 反之当 $m>3$ 时取 $b=m$，确有三个不同的根，因此取值范围为 $m>3$.</p>"
         }
       ]
     },
@@ -205,14 +205,14 @@
           "body": "<p>设函数 $f(x)=x\\ln x-ax^{2}+(2a-1)x$，$a\\in\\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>令 $g(x)=f'(x)$，求函数 $g(x)$ 的单调区间；</p></li><li><p>已知 $f(x)$ 在 $x=1$ 处取得极大值，求实数 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由定义域 $x>0$，得 $g(x)=f'(x)=\\ln x+1-2ax+2a-1=\\ln x+2a(1-x)$，所以 $g'(x)=\\dfrac{1}{x}-2a$. 当 $a\\leq0$ 时，$g'(x)>0$ 对一切 $x>0$ 成立，故 $g(x)$ 在 $(0,+\\infty)$ 上单调递增. 当 $a>0$ 时，$g'(x)>0$ 等价于 $0&#x3C;x&#x3C;\\dfrac1{2a}$，$g'(x)&#x3C;0$ 等价于 $x>\\dfrac1{2a}$，故 $g(x)$ 在 $\\left(0,\\dfrac1{2a}\\right)$ 上单调递增，在 $\\left(\\dfrac1{2a},+\\infty\\right)$ 上单调递减.</p></li><li><p>$g(1)=0$，且 $g'(1)=1-2a$. 当 $a>\\dfrac{1}{2}$ 时，$g'(1)&#x3C;0$，所以 $g(x)$ 在 $x=1$ 左侧邻域为正、右侧邻域为负，$f(x)$ 在 $x=1$ 处取得极大值. 当 $a&#x3C;\\dfrac{1}{2}$ 时，$g'(1)>0$，导数符号相反，$x=1$ 处为极小值. 当 $a=\\dfrac{1}{2}$ 时，$g(x)=\\ln x+1-x\\leq0$，等号仅在 $x=1$ 处成立，因而不是极大值点. 所以 $a$ 的取值范围为 $\\left(\\dfrac{1}{2},+\\infty\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由定义域 $x>0$，得 $g(x)=f'(x)=\\ln x+1-2ax+2a-1=\\ln x+2a(1-x)$，所以 $g'(x)=\\dfrac{1}{x}-2a$. 当 $a\\leq0$ 时，$g'(x)>0$ 对一切 $x>0$ 成立，故 $g(x)$ 在 $(0,+\\infty)$ 上单调递增. 当 $a>0$ 时，$g'(x)>0$ 等价于 $0<x<\\dfrac1{2a}$，$g'(x)<0$ 等价于 $x>\\dfrac1{2a}$，故 $g(x)$ 在 $\\left(0,\\dfrac1{2a}\\right)$ 上单调递增，在 $\\left(\\dfrac1{2a},+\\infty\\right)$ 上单调递减.</p></li><li><p>$g(1)=0$，且 $g'(1)=1-2a$. 当 $a>\\dfrac{1}{2}$ 时，$g'(1)<0$，所以 $g(x)$ 在 $x=1$ 左侧邻域为正、右侧邻域为负，$f(x)$ 在 $x=1$ 处取得极大值. 当 $a<\\dfrac{1}{2}$ 时，$g'(1)>0$，导数符号相反，$x=1$ 处为极小值. 当 $a=\\dfrac{1}{2}$ 时，$g(x)=\\ln x+1-x\\leq0$，等号仅在 $x=1$ 处成立，因而不是极大值点. 所以 $a$ 的取值范围为 $\\left(\\dfrac{1}{2},+\\infty\\right)$.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>已知椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的长轴长为 $4$，焦距为 $2\\sqrt{2}$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>过动点 $M(0,m)$（$m>0$）的直线交 $x$ 轴于点 $N$，交 $C$ 于点 $A$，$P$（$P$ 在第一象限），且 $M$ 是线段 $PN$ 的中点. 过点 $P$ 作 $x$ 轴的垂线交 $C$ 于另一点 $Q$，延长线 $QM$ 交 $C$ 于点 $B$.</p><p></p><ol class=\"enumerate\"><li><p>设直线 $PM$，$QM$ 的斜率分别为 $k$，$k'$，证明 $\\dfrac{k'}{k}$ 为定值；</p></li><li><p>求直线 $AB$ 的斜率的最小值.</p></li></ol><p></p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由长轴长为 $4$，得 $2a=4$，所以 $a=2$；由焦距为 $2\\sqrt{2}$，得 $2c=2\\sqrt{2}$，所以 $c=\\sqrt{2}$. 于是 $b^{2}=a^{2}-c^{2}=4-2=2$，椭圆 $C$ 的方程为 $\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>设 $P=(u,2m)$，其中 $u>0$. 因为 $M=(0,m)$ 是 $PN$ 的中点，且 $N$ 在 $x$ 轴上，所以 $N=(-u,0)$. 又 $P$ 在椭圆上，故 $\\dfrac{u^2}{4}+\\dfrac{(2m)^2}{2}=1$，即 $u^{2}+8m^{2}=4$. 直线 $PM$ 的斜率为 $k=\\dfrac{m}{u}$. 由于 $Q=(u,-2m)$，直线 $QM$ 的斜率为 $k'=\\dfrac{-2m-m}{u}=-\\dfrac{3m}{u}$，所以 $\\dfrac{k'}{k}=-3$，为定值.</p></li><li><p>记 $r=u^{2}$，则 $0&#x3C;r&#x3C;4$，且 $m=\\sqrt{\\dfrac{4-r}{8}}$. 直线 $PM$ 的方程为 $y=\\dfrac{m}{u}x+m$. 将其代入椭圆方程，得</p><p>$\\left(1+\\dfrac{2m^2}{u^2}\\right)x^{2}+\\dfrac{4m^2}{u}x+2m^{2}-4=0$. 其中一个根为 $u$，另一个根为点 $A$ 的横坐标. 利用 $u^{2}+8m^{2}=4$，由韦达定理得</p><p>$x_{A}=-\\dfrac{u(r+12)}{3r+4}$，$y_{A}=\\dfrac{m}{u}x_{A}+m=\\dfrac{2m(r-4)}{3r+4}$.</p><p>直线 $QM$ 的方程为 $y=-\\dfrac{3m}{u}x+m$. 同理，将其代入椭圆方程，得</p><p>$\\left(1+\\dfrac{18m^2}{u^2}\\right)x^{2}-\\dfrac{12m^2}{u}x+2m^{2}-4=0$. 其中一个根为 $u$，另一个根为点 $B$ 的横坐标，从而</p><p>$x_{B}=-\\dfrac{u(r+12)}{36-5r}$，$y_{B}=-\\dfrac{3m}{u}x_{B}+m=\\dfrac{2m(36-r)}{36-5r}$.</p><p>因此</p><p>$k_{AB}=\\dfrac{y_B-y_A}{x_B-x_A}=\\dfrac{m(r+12)}{2u(4-r)}=\\dfrac{r+12}{4\\sqrt{2r(4-r)}}$. 由于 $0&#x3C;r&#x3C;4$，所以 $k_{AB}>0$. 于是</p><p>$k_{AB}^{2}=\\dfrac{(r+12)^2}{32r(4-r)}$，并且</p><p>$k_{AB}^{2}-\\dfrac{3}{2}=\\dfrac{(r+12)^2-48r(4-r)}{32r(4-r)}=\\dfrac{(7r-12)^2}{32r(4-r)}\\geq0$. 当 $r=\\dfrac{12}{7}$ 时等号成立，且该值属于 $(0,4)$，所以直线 $AB$ 的斜率最小值为 $\\sqrt{\\dfrac{3}{2}}=\\dfrac{\\sqrt{6}}{2}$.</p></li></ol><p></p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由长轴长为 $4$，得 $2a=4$，所以 $a=2$；由焦距为 $2\\sqrt{2}$，得 $2c=2\\sqrt{2}$，所以 $c=\\sqrt{2}$. 于是 $b^{2}=a^{2}-c^{2}=4-2=2$，椭圆 $C$ 的方程为 $\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>设 $P=(u,2m)$，其中 $u>0$. 因为 $M=(0,m)$ 是 $PN$ 的中点，且 $N$ 在 $x$ 轴上，所以 $N=(-u,0)$. 又 $P$ 在椭圆上，故 $\\dfrac{u^2}{4}+\\dfrac{(2m)^2}{2}=1$，即 $u^{2}+8m^{2}=4$. 直线 $PM$ 的斜率为 $k=\\dfrac{m}{u}$. 由于 $Q=(u,-2m)$，直线 $QM$ 的斜率为 $k'=\\dfrac{-2m-m}{u}=-\\dfrac{3m}{u}$，所以 $\\dfrac{k'}{k}=-3$，为定值.</p></li><li><p>记 $r=u^{2}$，则 $0<r<4$，且 $m=\\sqrt{\\dfrac{4-r}{8}}$. 直线 $PM$ 的方程为 $y=\\dfrac{m}{u}x+m$. 将其代入椭圆方程，得</p><p>$\\left(1+\\dfrac{2m^2}{u^2}\\right)x^{2}+\\dfrac{4m^2}{u}x+2m^{2}-4=0$. 其中一个根为 $u$，另一个根为点 $A$ 的横坐标. 利用 $u^{2}+8m^{2}=4$，由韦达定理得</p><p>$x_{A}=-\\dfrac{u(r+12)}{3r+4}$，$y_{A}=\\dfrac{m}{u}x_{A}+m=\\dfrac{2m(r-4)}{3r+4}$.</p><p>直线 $QM$ 的方程为 $y=-\\dfrac{3m}{u}x+m$. 同理，将其代入椭圆方程，得</p><p>$\\left(1+\\dfrac{18m^2}{u^2}\\right)x^{2}-\\dfrac{12m^2}{u}x+2m^{2}-4=0$. 其中一个根为 $u$，另一个根为点 $B$ 的横坐标，从而</p><p>$x_{B}=-\\dfrac{u(r+12)}{36-5r}$，$y_{B}=-\\dfrac{3m}{u}x_{B}+m=\\dfrac{2m(36-r)}{36-5r}$.</p><p>因此</p><p>$k_{AB}=\\dfrac{y_B-y_A}{x_B-x_A}=\\dfrac{m(r+12)}{2u(4-r)}=\\dfrac{r+12}{4\\sqrt{2r(4-r)}}$. 由于 $0<r<4$，所以 $k_{AB}>0$. 于是</p><p>$k_{AB}^{2}=\\dfrac{(r+12)^2}{32r(4-r)}$，并且</p><p>$k_{AB}^{2}-\\dfrac{3}{2}=\\dfrac{(r+12)^2-48r(4-r)}{32r(4-r)}=\\dfrac{(7r-12)^2}{32r(4-r)}\\geq0$. 当 $r=\\dfrac{12}{7}$ 时等号成立，且该值属于 $(0,4)$，所以直线 $AB$ 的斜率最小值为 $\\sqrt{\\dfrac{3}{2}}=\\dfrac{\\sqrt{6}}{2}$.</p></li></ol><p></p></li></ol>"
         }
       ]
     }

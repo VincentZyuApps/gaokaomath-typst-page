@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $M=\\{2,4,6,8,10\\}$，$N=\\{x\\mid -1&#x3C;x&#x3C;6\\}$，则 $M\\cap N=$（ ）",
+          "body": "已知集合 $M=\\{2,4,6,8,10\\}$，$N=\\{x\\mid -1<x<6\\}$，则 $M\\cap N=$（ ）",
           "choices": [
             "$\\{2,4\\}$",
             "$\\{2,4,6\\}$",
@@ -17,7 +17,7 @@
             "$\\{2,4,6,8,10\\}$"
           ],
           "answer": "A",
-          "solution": "<p>因为 $M=\\{2,4,6,8,10\\}$，$N=\\{x\\mid -1&#x3C;x&#x3C;6\\}$，所以</p><p>$M\\cap N=\\{2,4\\}$.</p><p>故选 A.</p>"
+          "solution": "<p>因为 $M=\\{2,4,6,8,10\\}$，$N=\\{x\\mid -1<x<6\\}$，所以</p><p>$M\\cap N=\\{2,4\\}$.</p><p>故选 A.</p>"
         },
         {
           "num": 2,
@@ -53,7 +53,7 @@
             "乙同学周课外体育运动时长大于 $8$ 的概率的估计值大于 $0.6$"
           ],
           "answer": "C",
-          "solution": "<p>对于 A 选项，甲同学周课外体育运动时长的样本中位数为</p><p>$\\frac{7.3+7.5}{2}=7.4$，</p><p>A 选项结论正确.</p><p>对于 B 选项，乙同学课外体育运动时长的样本平均数为</p>\n$$\n\\bar{x}_{\\text{乙}}=\\frac{\\begin{aligned}&#x26;6.3+7.4+7.6+8.1+8.2+8.2+8.5+8.6\\\\&#x26;+8.6+8.6+8.6+9.0+9.2+9.3+9.8+10.1\\end{aligned}}{16}=8.50625>8\n$$\n<p>B 选项结论正确.</p><p>对于 C 选项，甲同学周课外体育运动时长大于 $8$ 的概率的估计值为</p><p>$\\frac{6}{16}=0.375&#x3C;0.4$，</p><p>C 选项结论错误.</p><p>对于 D 选项，乙同学周课外体育运动时长大于 $8$ 的概率的估计值为</p><p>$\\frac{13}{16}=0.8125>0.6$，</p><p>D 选项结论正确.</p><p>故选 C.</p>"
+          "solution": "<p>对于 A 选项，甲同学周课外体育运动时长的样本中位数为</p><p>$\\frac{7.3+7.5}{2}=7.4$，</p><p>A 选项结论正确.</p><p>对于 B 选项，乙同学课外体育运动时长的样本平均数为</p>\n$$\n\\bar{x}_{\\text{乙}}=\\frac{\\begin{aligned}&6.3+7.4+7.6+8.1+8.2+8.2+8.5+8.6\\\\&+8.6+8.6+8.6+9.0+9.2+9.3+9.8+10.1\\end{aligned}}{16}=8.50625>8\n$$\n<p>B 选项结论正确.</p><p>对于 C 选项，甲同学周课外体育运动时长大于 $8$ 的概率的估计值为</p><p>$\\frac{6}{16}=0.375<0.4$，</p><p>C 选项结论错误.</p><p>对于 D 选项，乙同学周课外体育运动时长大于 $8$ 的概率的估计值为</p><p>$\\frac{13}{16}=0.8125>0.6$，</p><p>D 选项结论正确.</p><p>故选 C.</p>"
         },
         {
           "num": 5,
@@ -89,7 +89,7 @@
             "6"
           ],
           "answer": "B",
-          "solution": "<p>执行第一次循环，</p><p>$b=b+2a=1+2=3$，$a=b-a=3-1=2$，$n=n+1=2$，</p><p>$\\left|\\frac{b^{2}}{a^{2}}-2\\right|=\\left|\\frac{3^{2}}{2^{2}}-2\\right|=\\frac{1}{4}>0.01$.</p><p>执行第二次循环，</p><p>$b=b+2a=3+4=7$，$a=b-a=7-2=5$，$n=n+1=3$，</p><p>$\\left|\\frac{b^{2}}{a^{2}}-2\\right|=\\left|\\frac{7^{2}}{5^{2}}-2\\right|=\\frac{1}{25}>0.01$.</p><p>执行第三次循环，</p><p>$b=b+2a=7+10=17$，$a=b-a=17-5=12$，$n=n+1=4$，</p><p>$\\left|\\frac{b^{2}}{a^{2}}-2\\right|=\\left|\\frac{17^{2}}{12^{2}}-2\\right|=\\frac{1}{144}&#x3C;0.01$.</p><p>此时输出 $n=4$.</p><p>故选 B.</p>"
+          "solution": "<p>执行第一次循环，</p><p>$b=b+2a=1+2=3$，$a=b-a=3-1=2$，$n=n+1=2$，</p><p>$\\left|\\frac{b^{2}}{a^{2}}-2\\right|=\\left|\\frac{3^{2}}{2^{2}}-2\\right|=\\frac{1}{4}>0.01$.</p><p>执行第二次循环，</p><p>$b=b+2a=3+4=7$，$a=b-a=7-2=5$，$n=n+1=3$，</p><p>$\\left|\\frac{b^{2}}{a^{2}}-2\\right|=\\left|\\frac{7^{2}}{5^{2}}-2\\right|=\\frac{1}{25}>0.01$.</p><p>执行第三次循环，</p><p>$b=b+2a=7+10=17$，$a=b-a=17-5=12$，$n=n+1=4$，</p><p>$\\left|\\frac{b^{2}}{a^{2}}-2\\right|=\\left|\\frac{17^{2}}{12^{2}}-2\\right|=\\frac{1}{144}<0.01$.</p><p>此时输出 $n=4$.</p><p>故选 B.</p>"
         },
         {
           "num": 8,
@@ -101,7 +101,7 @@
             "$y=\\dfrac{2\\sin x}{x^2+1}$"
           ],
           "answer": "A",
-          "solution": "<p>设</p><p>$f(x)=\\frac{x^{3}-x}{x^{2}+1}$，</p><p>则</p><p>$f(1)=0$，</p><p>故排除 B.</p><p>设</p><p>$h(x)=\\frac{2x\\cos x}{x^{2}+1}$，</p><p>当 $x\\in\\left(0,\\frac{\\pi}{2}\\right)$ 时，</p><p>$0&#x3C;\\cos x&#x3C;1$，</p><p>所以</p><p>$h(x)=\\frac{2x\\cos x}{x^{2}+1}&#x3C;\\frac{2x}{x^{2}+1}\\le1$，</p><p>故排除 C.</p><p>设</p><p>$g(x)=\\frac{2\\sin x}{x^{2}+1}$，</p><p>则</p><p>$g(3)=\\frac{2\\sin3}{10}>0$，</p><p>故排除 D.</p><p>故选 A.</p>"
+          "solution": "<p>设</p><p>$f(x)=\\frac{x^{3}-x}{x^{2}+1}$，</p><p>则</p><p>$f(1)=0$，</p><p>故排除 B.</p><p>设</p><p>$h(x)=\\frac{2x\\cos x}{x^{2}+1}$，</p><p>当 $x\\in\\left(0,\\frac{\\pi}{2}\\right)$ 时，</p><p>$0<\\cos x<1$，</p><p>所以</p><p>$h(x)=\\frac{2x\\cos x}{x^{2}+1}<\\frac{2x}{x^{2}+1}\\le1$，</p><p>故排除 C.</p><p>设</p><p>$g(x)=\\frac{2\\sin x}{x^{2}+1}$，</p><p>则</p><p>$g(3)=\\frac{2\\sin3}{10}>0$，</p><p>故排除 D.</p><p>故选 A.</p>"
         },
         {
           "num": 9,
@@ -194,7 +194,7 @@
           "body": "<p>已知 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，且 $\\sin C\\sin\\left(A-B\\right)=\\sin B\\sin\\left(C-A\\right)$.</p><ol class=\"enumerate\"><li><p>若 $A=2B$，求 $C$；</p></li><li><p>证明：$2a^{2}=b^{2}+c^{2}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $A=2B$ 及</p><p>$\\sin C\\sin\\left(A-B\\right)=\\sin B\\sin\\left(C-A\\right)$</p><p>可得</p><p>$\\sin C\\sin B=\\sin B\\sin\\left(C-A\\right)$.</p><p>而</p><p>$0&#x3C;B&#x3C;\\frac{\\pi}{2}$，</p><p>所以 $\\sin B>0$，于是</p><p>$\\sin C=\\sin\\left(C-A\\right)$.</p><p>又</p><p>$0&#x3C;C&#x3C;\\pi$，$0&#x3C;C-A&#x3C;\\pi$，</p><p>且若 $C=C-A$，则 $A=0$，这与三角形内角满足 $0&#x3C;A&#x3C;\\pi$ 矛盾，所以</p><p>$C+\\left(C-A\\right)=\\pi$.</p><p>再由</p><p>$A=2B$，$A+B+C=\\pi$，</p><p>得</p><p>$2C-A=\\pi$，$3A+2C=2\\pi$.</p><p>解得</p><p>$C=\\frac{5\\pi}{8}$.</p></li><li><p>由已知条件得</p><p>$\\sin C\\left(\\sin A\\cos B-\\cos A\\sin B\\right)=\\sin B\\left(\\sin C\\cos A-\\cos C\\sin A\\right)$.</p><p>再由正弦定理可得</p><p>$ac\\cos B-bc\\cos A=bc\\cos A-ab\\cos C$.</p><p>根据余弦定理，$ac\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2}$，$bc\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2}$，$ab\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2}$. 所以 $\\frac{a^{2}+c^{2}-b^{2}}{2}-\\frac{b^{2}+c^{2}-a^{2}}{2}=\\frac{b^{2}+c^{2}-a^{2}}{2}-\\frac{a^{2}+b^{2}-c^{2}}{2}$.</p><p>化简得</p><p>$2a^{2}=b^{2}+c^{2}$.</p><p>故原命题得证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $A=2B$ 及</p><p>$\\sin C\\sin\\left(A-B\\right)=\\sin B\\sin\\left(C-A\\right)$</p><p>可得</p><p>$\\sin C\\sin B=\\sin B\\sin\\left(C-A\\right)$.</p><p>而</p><p>$0<B<\\frac{\\pi}{2}$，</p><p>所以 $\\sin B>0$，于是</p><p>$\\sin C=\\sin\\left(C-A\\right)$.</p><p>又</p><p>$0<C<\\pi$，$0<C-A<\\pi$，</p><p>且若 $C=C-A$，则 $A=0$，这与三角形内角满足 $0<A<\\pi$ 矛盾，所以</p><p>$C+\\left(C-A\\right)=\\pi$.</p><p>再由</p><p>$A=2B$，$A+B+C=\\pi$，</p><p>得</p><p>$2C-A=\\pi$，$3A+2C=2\\pi$.</p><p>解得</p><p>$C=\\frac{5\\pi}{8}$.</p></li><li><p>由已知条件得</p><p>$\\sin C\\left(\\sin A\\cos B-\\cos A\\sin B\\right)=\\sin B\\left(\\sin C\\cos A-\\cos C\\sin A\\right)$.</p><p>再由正弦定理可得</p><p>$ac\\cos B-bc\\cos A=bc\\cos A-ab\\cos C$.</p><p>根据余弦定理，$ac\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2}$，$bc\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2}$，$ab\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2}$. 所以 $\\frac{a^{2}+c^{2}-b^{2}}{2}-\\frac{b^{2}+c^{2}-a^{2}}{2}=\\frac{b^{2}+c^{2}-a^{2}}{2}-\\frac{a^{2}+b^{2}-c^{2}}{2}$.</p><p>化简得</p><p>$2a^{2}=b^{2}+c^{2}$.</p><p>故原命题得证.</p></li></ol>"
         },
         {
           "num": 18,
@@ -215,7 +215,7 @@
           "body": "<p>已知函数 $f(x)=ax-\\dfrac{1}{x}-(a+1)\\ln x$，$x>0$.</p><ol class=\"enumerate\"><li><p>当 $a=0$ 时，求 $f(x)$ 的最大值；</p></li><li><p>若 $f(x)$ 恰有一个零点，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=0$ 时，</p><p>$f(x)=-\\frac{1}{x}-\\ln x$，$x>0$.</p><p>则</p><p>$f'(x)=\\frac{1}{x^{2}}-\\frac{1}{x}=\\frac{1-x}{x^{2}}$.</p><p>当 $x\\in(0,1)$ 时，$f'(x)>0$，$f(x)$ 单调递增；</p><p>当 $x\\in(1,+\\infty)$ 时，$f'(x)&#x3C;0$，$f(x)$ 单调递减.</p><p>所以</p><p>$f(x)_{\\max}=f(1)=-1$.</p></li><li><p>因为</p><p>$f(x)=ax-\\frac{1}{x}-(a+1)\\ln x$，$x>0$，</p><p>所以</p><p>$f'(x)=a+\\frac{1}{x^{2}}-\\frac{a+1}{x}=\\frac{(ax-1)(x-1)}{x^{2}}$.</p><p>当 $a\\le0$ 时，$ax-1&#x3C;0$. 所以当 $x\\in(0,1)$ 时，$f'(x)>0$；当 $x\\in(1,+\\infty)$ 时，$f'(x)&#x3C;0$. 于是</p><p>$f(x)_{\\max}=f(1)=a-1&#x3C;0$，</p><p>此时函数无零点，不合题意.</p><p>当 $0&#x3C;a&#x3C;1$ 时，</p><p>$\\frac{1}{a}>1$.</p><p>在 $(0,1)$ 与 $\\left(\\frac{1}{a},+\\infty\\right)$ 上，$f'(x)>0$，$f(x)$ 单调递增；</p><p>在 $\\left(1,\\frac{1}{a}\\right)$ 上，$f'(x)&#x3C;0$，$f(x)$ 单调递减.</p><p>又</p><p>$f(1)=a-1&#x3C;0$.</p><p>由上面的不等式可得</p><p>$\\frac{1}{x}+\\ln x\\ge1$，</p><p>于是当 $x>1$ 时，$f(x)$ 最终趋于 $+\\infty$，从而 $f(x)$ 仅在 $\\left(\\frac{1}{a},+\\infty\\right)$ 内有唯一零点，符合题意.</p><p>当 $a=1$ 时，</p><p>$f'(x)=\\frac{(x-1)^{2}}{x^{2}}\\ge0$，</p><p>所以 $f(x)$ 单调递增. 又</p><p>$f(1)=a-1=0$，</p><p>所以 $f(x)$ 有唯一零点，符合题意.</p><p>当 $a>1$ 时，</p><p>$\\frac{1}{a}&#x3C;1$.</p><p>在 $\\left(0,\\frac{1}{a}\\right)$ 与 $(1,+\\infty)$ 上，$f'(x)>0$，$f(x)$ 单调递增；</p><p>在 $\\left(\\frac{1}{a},1\\right)$ 上，$f'(x)&#x3C;0$，$f(x)$ 单调递减.</p><p>此时</p><p>$f(1)=a-1>0$.</p><p>由上面的不等式得当 $0&#x3C;x&#x3C;1$ 时，</p><p>$\\ln x>1-\\frac{1}{x}$，</p><p>故在足够靠近 $0$ 的某点 $n\\in\\left(0,\\frac{1}{a}\\right)$ 处有 $f(n)&#x3C;0$. 又当 $x>\\frac{1}{a}$ 且趋于 $+\\infty$ 时，</p><p>$f(x)\\to+\\infty$，</p><p>因此 $f(x)$ 在 $\\left(0,\\frac{1}{a}\\right)$ 内有一个零点，在 $\\left(\\frac{1}{a},+\\infty\\right)$ 内无零点，所以 $f(x)$ 有唯一零点，符合题意.</p><p>综上，$a$ 的取值范围为</p><p>$(0,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=0$ 时，</p><p>$f(x)=-\\frac{1}{x}-\\ln x$，$x>0$.</p><p>则</p><p>$f'(x)=\\frac{1}{x^{2}}-\\frac{1}{x}=\\frac{1-x}{x^{2}}$.</p><p>当 $x\\in(0,1)$ 时，$f'(x)>0$，$f(x)$ 单调递增；</p><p>当 $x\\in(1,+\\infty)$ 时，$f'(x)<0$，$f(x)$ 单调递减.</p><p>所以</p><p>$f(x)_{\\max}=f(1)=-1$.</p></li><li><p>因为</p><p>$f(x)=ax-\\frac{1}{x}-(a+1)\\ln x$，$x>0$，</p><p>所以</p><p>$f'(x)=a+\\frac{1}{x^{2}}-\\frac{a+1}{x}=\\frac{(ax-1)(x-1)}{x^{2}}$.</p><p>当 $a\\le0$ 时，$ax-1<0$. 所以当 $x\\in(0,1)$ 时，$f'(x)>0$；当 $x\\in(1,+\\infty)$ 时，$f'(x)<0$. 于是</p><p>$f(x)_{\\max}=f(1)=a-1<0$，</p><p>此时函数无零点，不合题意.</p><p>当 $0<a<1$ 时，</p><p>$\\frac{1}{a}>1$.</p><p>在 $(0,1)$ 与 $\\left(\\frac{1}{a},+\\infty\\right)$ 上，$f'(x)>0$，$f(x)$ 单调递增；</p><p>在 $\\left(1,\\frac{1}{a}\\right)$ 上，$f'(x)<0$，$f(x)$ 单调递减.</p><p>又</p><p>$f(1)=a-1<0$.</p><p>由上面的不等式可得</p><p>$\\frac{1}{x}+\\ln x\\ge1$，</p><p>于是当 $x>1$ 时，$f(x)$ 最终趋于 $+\\infty$，从而 $f(x)$ 仅在 $\\left(\\frac{1}{a},+\\infty\\right)$ 内有唯一零点，符合题意.</p><p>当 $a=1$ 时，</p><p>$f'(x)=\\frac{(x-1)^{2}}{x^{2}}\\ge0$，</p><p>所以 $f(x)$ 单调递增. 又</p><p>$f(1)=a-1=0$，</p><p>所以 $f(x)$ 有唯一零点，符合题意.</p><p>当 $a>1$ 时，</p><p>$\\frac{1}{a}<1$.</p><p>在 $\\left(0,\\frac{1}{a}\\right)$ 与 $(1,+\\infty)$ 上，$f'(x)>0$，$f(x)$ 单调递增；</p><p>在 $\\left(\\frac{1}{a},1\\right)$ 上，$f'(x)<0$，$f(x)$ 单调递减.</p><p>此时</p><p>$f(1)=a-1>0$.</p><p>由上面的不等式得当 $0<x<1$ 时，</p><p>$\\ln x>1-\\frac{1}{x}$，</p><p>故在足够靠近 $0$ 的某点 $n\\in\\left(0,\\frac{1}{a}\\right)$ 处有 $f(n)<0$. 又当 $x>\\frac{1}{a}$ 且趋于 $+\\infty$ 时，</p><p>$f(x)\\to+\\infty$，</p><p>因此 $f(x)$ 在 $\\left(0,\\frac{1}{a}\\right)$ 内有一个零点，在 $\\left(\\frac{1}{a},+\\infty\\right)$ 内无零点，所以 $f(x)$ 有唯一零点，符合题意.</p><p>综上，$a$ 的取值范围为</p><p>$(0,+\\infty)$.</p></li></ol>"
         },
         {
           "num": 21,

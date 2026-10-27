@@ -9,12 +9,12 @@
       "problems": [
         {
           "num": 1,
-          "body": "<p>设集合 $A=\\{x\\mid x^{2}-1>0\\}$，$B=\\{x\\mid \\log_{2} x>0\\}$，$A\\cap B$ 等于（ ）</p><p><span class=\"macro macro-answer\"></span>A</p><p>由 $x^{2}-1>0$ 得 $x&#x3C;-1$ 或 $x>1$，所以 $A=(-\\infty,-1)\\cup(1,+\\infty)$. 又因为底数 $2>1$，$\\log_{2}x>0$ 等价于 $x>1$，故 $B=(1,+\\infty)$. 因此 $A\\cap B=(1,+\\infty)=\\{x\\mid x>1\\}$，应选 A.</p>",
+          "body": "<p>设集合 $A=\\{x\\mid x^{2}-1>0\\}$，$B=\\{x\\mid \\log_{2} x>0\\}$，$A\\cap B$ 等于（ ）</p><p><span class=\"macro macro-answer\"></span>A</p><p>由 $x^{2}-1>0$ 得 $x<-1$ 或 $x>1$，所以 $A=(-\\infty,-1)\\cup(1,+\\infty)$. 又因为底数 $2>1$，$\\log_{2}x>0$ 等价于 $x>1$，故 $B=(1,+\\infty)$. 因此 $A\\cap B=(1,+\\infty)=\\{x\\mid x>1\\}$，应选 A.</p>",
           "choices": [
             "$\\{x\\mid x>1\\}$",
             "$\\{x\\mid x>0\\}$",
-            "$\\{x\\mid x&#x3C;-1\\}$",
-            "$\\{x\\mid x&#x3C;-1\\text{\\ 或\\ }x>1\\}$"
+            "$\\{x\\mid x<-1\\}$",
+            "$\\{x\\mid x<-1\\text{\\ 或\\ }x>1\\}$"
           ],
           "answer": "",
           "solution": ""
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "<p>某班试用电子投票系统选举班干部候选人. 全班 $k\\text{ 名}$同学都有选举权和被选举权，他们的编号分别为 $1$，$2$，$\\dots$，$k$. 规定：同意按“1”，不同意（含弃权）按“0”，令</p><p>$a_{ij}=\\begin{cases}1, &#x26; \\text{第\\ }i\\text{\\ 号同学同意第 }j\\text{\\ 号同学当选},\\\\\n\n0, &#x26; \\text{第\\ }i\\text{\\ 号同学不同意第 }j\\text{\\ 号同学当选},\\end{cases}$</p><p>其中 $i=1$，$2$，$\\dots$，$k$，且 $j=1$，$2$，$\\dots$，$k$，则同时同意第 $1$，$2$ 号同学当选的人数为（ ）</p><p><span class=\"macro macro-answer\"></span>C</p><p>对固定的第 $i$ 号同学，$a_{i1}a_{i2}=1$ 当且仅当他同时同意第 $1$、$2$ 号同学当选，否则该乘积为 $0$. 所以把所有同学的这一指标相加，所得人数为</p>\n$$\n\\sum_{i=1}^{k}a_{i1}a_{i2}=a_{11}a_{12}+a_{21}a_{22}+\\cdots+a_{k1}a_{k2}\n$$\n<p>因此应选 C.</p>",
+          "body": "<p>某班试用电子投票系统选举班干部候选人. 全班 $k\\text{ 名}$同学都有选举权和被选举权，他们的编号分别为 $1$，$2$，$\\dots$，$k$. 规定：同意按“1”，不同意（含弃权）按“0”，令</p><p>$a_{ij}=\\begin{cases}1, & \\text{第\\ }i\\text{\\ 号同学同意第 }j\\text{\\ 号同学当选},\\\\\n\n0, & \\text{第\\ }i\\text{\\ 号同学不同意第 }j\\text{\\ 号同学当选},\\end{cases}$</p><p>其中 $i=1$，$2$，$\\dots$，$k$，且 $j=1$，$2$，$\\dots$，$k$，则同时同意第 $1$，$2$ 号同学当选的人数为（ ）</p><p><span class=\"macro macro-answer\"></span>C</p><p>对固定的第 $i$ 号同学，$a_{i1}a_{i2}=1$ 当且仅当他同时同意第 $1$、$2$ 号同学当选，否则该乘积为 $0$. 所以把所有同学的这一指标相加，所得人数为</p>\n$$\n\\sum_{i=1}^{k}a_{i1}a_{i2}=a_{11}a_{12}+a_{21}a_{22}+\\cdots+a_{k1}a_{k2}\n$$\n<p>因此应选 C.</p>",
           "choices": [
             "$a_{11}+a_{12}+\\cdots+a_{1k}+a_{21}+a_{22}+\\cdots+a_{2k}$",
             "$a_{11}+a_{21}+\\cdots+a_{1k}+a_{12}+a_{22}+\\cdots+a_{k2}$",
@@ -134,7 +134,7 @@
       "problems": [
         {
           "num": 11,
-          "body": "<p>函数 $f(x)=\\lg(1+x^{2})$，$g(x)=  \\begin{cases}x+2,&#x26;x&#x3C;-1,\\\\  0,&#x26;|x|\\le 1,\\\\  -x+2,&#x26;x>1,\\end{cases}$</p><p>$h(x)=\\tan 2x$ 中，<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 是偶函数.</p><p><span class=\"macro macro-answer\"></span>$f(x)$，$g(x)$</p><p>对任意定义域内的 $x$，有 $f(-x)=\\lg(1+(-x)^{2})=\\lg(1+x^{2})=f(x)$，所以 $f$ 是偶函数. 对 $g$ 分段考察：当 $x>1$ 时，$g(x)=-x+2$，且 $-x&#x3C;-1$，故 $g(-x)=(-x)+2=-x+2=g(x)$；当 $x&#x3C;-1$ 时，$-x>1$，故 $g(-x)=-(-x)+2=x+2=g(x)$；当 $\\lvert x\\rvert\\leqslant1$ 时，$\\lvert -x\\rvert\\leqslant1$，从而 $g(-x)=g(x)=0$. 所以 $g$ 也是偶函数.</p><p>函数 $h$ 的定义域为 $\\{x\\mid \\cos2x\\ne0\\}$，关于原点对称；在该定义域内，$h(-x)=\\tan(-2x)=-\\tan2x=-h(x)$，所以 $h$ 是奇函数而不是偶函数. 因此填 $f(x)$、$g(x)$.</p>",
+          "body": "<p>函数 $f(x)=\\lg(1+x^{2})$，$g(x)=  \\begin{cases}x+2,&x<-1,\\\\  0,&|x|\\le 1,\\\\  -x+2,&x>1,\\end{cases}$</p><p>$h(x)=\\tan 2x$ 中，<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 是偶函数.</p><p><span class=\"macro macro-answer\"></span>$f(x)$，$g(x)$</p><p>对任意定义域内的 $x$，有 $f(-x)=\\lg(1+(-x)^{2})=\\lg(1+x^{2})=f(x)$，所以 $f$ 是偶函数. 对 $g$ 分段考察：当 $x>1$ 时，$g(x)=-x+2$，且 $-x<-1$，故 $g(-x)=(-x)+2=-x+2=g(x)$；当 $x<-1$ 时，$-x>1$，故 $g(-x)=-(-x)+2=x+2=g(x)$；当 $\\lvert x\\rvert\\leqslant1$ 时，$\\lvert -x\\rvert\\leqslant1$，从而 $g(-x)=g(x)=0$. 所以 $g$ 也是偶函数.</p><p>函数 $h$ 的定义域为 $\\{x\\mid \\cos2x\\ne0\\}$，关于原点对称；在该定义域内，$h(-x)=\\tan(-2x)=-\\tan2x=-h(x)$，所以 $h$ 是奇函数而不是偶函数. 因此填 $f(x)$、$g(x)$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -155,7 +155,7 @@
         },
         {
           "num": 14,
-          "body": "<p>将长度为 1 的铁丝分成两段，分别围成一个正方形和一个圆形，要使正方形与圆的面积之和最小，正方形的周长应为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-answer\"></span>$\\frac{4}{4+\\pi}$</p><p>设正方形的周长为 $x$，则圆的周长为 $1-x$，其中 $0&#x3C;x&#x3C;1$. 正方形和圆的面积之和为</p>\n$$\nS(x)=\\frac{x^{2}}{16}+\\frac{(1-x)^{2}}{4\\pi}\n$$\n<p>求导得 $S'(x)=\\frac{x}{8}-\\frac{1-x}{2\\pi}$，令 $S'(x)=0$，得到 $\\pi x=4(1-x)$，即 $x=\\frac{4}{4+\\pi}$. 又 $S''(x)=\\frac{1}{8}+\\frac{1}{2\\pi}>0$，所以此时面积之和取得最小值. 因此正方形的周长为 $\\frac{4}{4+\\pi}$.</p>",
+          "body": "<p>将长度为 1 的铁丝分成两段，分别围成一个正方形和一个圆形，要使正方形与圆的面积之和最小，正方形的周长应为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-answer\"></span>$\\frac{4}{4+\\pi}$</p><p>设正方形的周长为 $x$，则圆的周长为 $1-x$，其中 $0<x<1$. 正方形和圆的面积之和为</p>\n$$\nS(x)=\\frac{x^{2}}{16}+\\frac{(1-x)^{2}}{4\\pi}\n$$\n<p>求导得 $S'(x)=\\frac{x}{8}-\\frac{1-x}{2\\pi}$，令 $S'(x)=0$，得到 $\\pi x=4(1-x)$，即 $x=\\frac{4}{4+\\pi}$. 又 $S''(x)=\\frac{1}{8}+\\frac{1}{2\\pi}>0$，所以此时面积之和取得最小值. 因此正方形的周长为 $\\frac{4}{4+\\pi}$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -174,7 +174,7 @@
         },
         {
           "num": 16,
-          "body": "<p>已知数列 $\\{a_{n}\\}$ 是等差数列，且 $a_{1}=2$，$a_{1}+a_{2}+a_{3}=12$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>令 $b_{n}=a_{n}x^{n}$（$x\\in\\mathbb{R}$）. 求数列 $\\{b_{n}\\}$ 前 $n$ 项和的公式.</p></li></ol><ol class=\"enumerate\"><li><p>设等差数列的公差为 $d$，则 $a_{2}=2+d$，$a_{3}=2+2d$. 由 $a_{1}+a_{2}+a_{3}=12$ 得 $2+(2+d)+(2+2d)=12$，即 $6+3d=12$，所以 $d=2$. 因此 $a_{n}=a_{1}+(n-1)d=2+2(n-1)=2n$.</p></li><li><p>由上一问 $b_{n}=2nx^{n}$. 设前 $n$ 项和为 $S_{n}$，则 $S_{n}=2x+4x^{2}+\\cdots+2nx^{n}$. 当 $x\\ne1$ 时，将等式两边乘以 $x$，得 $xS_{n}=2x^{2}+4x^{3}+\\cdots+2nx^{n+1}$，两式相减可得 $(1-x)S_{n}=2(x+x^{2}+\\cdots+x^{n}-nx^{n+1})$. 又 $x+x^{2}+\\cdots+x^{n}=\\frac{x(1-x^{n})}{1-x}$，所以 $S_{n}=\\frac{2\\left[x-(n+1)x^{n+1}+nx^{n+2}\\right]}{(1-x)^{2}}$. 当 $x=1$ 时，$S_{n}=2(1+2+\\cdots+n)=n(n+1)$. 因而前 $n$ 项和为</p>\n$$\nS_{n}=\\begin{cases}\\dfrac{2\\left[x-(n+1)x^{n+1}+nx^{n+2}\\right]}{(1-x)^2},&#x26;x\\ne1,\\\\  n(n+1),&#x26;x=1.\\end{cases}\n$$\n</li></ol>",
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 是等差数列，且 $a_{1}=2$，$a_{1}+a_{2}+a_{3}=12$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>令 $b_{n}=a_{n}x^{n}$（$x\\in\\mathbb{R}$）. 求数列 $\\{b_{n}\\}$ 前 $n$ 项和的公式.</p></li></ol><ol class=\"enumerate\"><li><p>设等差数列的公差为 $d$，则 $a_{2}=2+d$，$a_{3}=2+2d$. 由 $a_{1}+a_{2}+a_{3}=12$ 得 $2+(2+d)+(2+2d)=12$，即 $6+3d=12$，所以 $d=2$. 因此 $a_{n}=a_{1}+(n-1)d=2+2(n-1)=2n$.</p></li><li><p>由上一问 $b_{n}=2nx^{n}$. 设前 $n$ 项和为 $S_{n}$，则 $S_{n}=2x+4x^{2}+\\cdots+2nx^{n}$. 当 $x\\ne1$ 时，将等式两边乘以 $x$，得 $xS_{n}=2x^{2}+4x^{3}+\\cdots+2nx^{n+1}$，两式相减可得 $(1-x)S_{n}=2(x+x^{2}+\\cdots+x^{n}-nx^{n+1})$. 又 $x+x^{2}+\\cdots+x^{n}=\\frac{x(1-x^{n})}{1-x}$，所以 $S_{n}=\\frac{2\\left[x-(n+1)x^{n+1}+nx^{n+2}\\right]}{(1-x)^{2}}$. 当 $x=1$ 时，$S_{n}=2(1+2+\\cdots+n)=n(n+1)$. 因而前 $n$ 项和为</p>\n$$\nS_{n}=\\begin{cases}\\dfrac{2\\left[x-(n+1)x^{n+1}+nx^{n+2}\\right]}{(1-x)^2},&x\\ne1,\\\\  n(n+1),&x=1.\\end{cases}\n$$\n</li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -195,14 +195,14 @@
         },
         {
           "num": 19,
-          "body": "<p>有三个新兴城镇，分别位于 $A$，$B$，$C$ 三点处，且 $AB=AC=a$，$BC=2b$. 今计划合建一个中心医院，为同时方便三镇，准备建在 $BC$ 的垂直平分线上的 $P$ 点处.（建立坐标系如图）</p><ol class=\"enumerate\"><li><p>若希望点 $P$ 到三镇距离的平方和为最小，点 $P$ 应位于何处？</p></li><li><p>若希望点 $P$ 到三镇的最远距离为最小，点 $P$ 应位于何处？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science_autumn/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由三角形的非退化性有 $a>b>0$. 设 $h=\\sqrt{a^{2}-b^{2}}>0$，则由题设可取 $A(0,h)$，$B(-b,0)$，$C(b,0)$，并设 $P(0,t)$.</p><ol class=\"enumerate\"><li><p>点 $P$ 到三镇距离的平方和为 $L(t)=(t-h)^{2}+(t^{2}+b^{2})+(t^{2}+b^{2})=3t^{2}-2ht+h^{2}+2b^{2}=3\\left(t-\\frac{h}{3}\\right)^{2}+\\frac{2h^{2}}{3}+2b^{2}$. 因此当 $t=\\frac{h}{3}$ 时平方和最小，即 $P$ 位于 $AO$ 上且 $OP=\\frac{h}{3}=\\frac{\\sqrt{a^{2}-b^{2}}}{3}$.</p></li><li><p>记点 $P$ 到三镇的最远距离为 $F(t)=\\max\\left\\{|t-h|,\\sqrt{t^{2}+b^{2}}\\right\\}$. 当 $t&#x3C;0$ 时，$|t-h|>h$ 且 $\\sqrt{t^{2}+b^{2}}>b$，故不可能优于 $t=0$；当 $t>h$ 时，两项均随 $t$ 增大而增大，故最优点在 $[0,h]$ 内. 在 $[0,h]$ 上，$h-t$ 单调递减，$\\sqrt{t^{2}+b^{2}}$ 单调递增，二者相等的条件为 $(h-t)^{2}=t^{2}+b^{2}$，即 $t=\\frac{h^{2}-b^{2}}{2h}$. 若 $h\\leq b$，该值不为正，且在 $[0,h]$ 上始终有 $h-t\\leq\\sqrt{t^{2}+b^{2}}$，所以 $F(t)$ 在 $t=0$ 时最小，$P=O$. 若 $h>b$，令 $t_{0}=\\frac{h^{2}-b^{2}}{2h}$，则 $0&#x3C;t_{0}&#x3C;h$，在 $0\\leq t\\leq t_{0}$ 时 $F(t)=h-t$ 递减，在 $t_{0}\\leq t\\leq h$ 时 $F(t)=\\sqrt{t^{2}+b^{2}}$ 递增，故最小点为 $P(0,t_{0})$. 由于 $h^{2}=a^{2}-b^{2}$，这等价于：当 $a^{2}\\leq2b^{2}$ 时 $P=O$；当 $a^{2}>2b^{2}$ 时 $P$ 位于 $AO$ 上，且 $\\displaystyle OP=\\frac{a^{2}-2b^{2}}{2\\sqrt{a^{2}-b^{2}}}$.</p></li></ol>",
+          "body": "<p>有三个新兴城镇，分别位于 $A$，$B$，$C$ 三点处，且 $AB=AC=a$，$BC=2b$. 今计划合建一个中心医院，为同时方便三镇，准备建在 $BC$ 的垂直平分线上的 $P$ 点处.（建立坐标系如图）</p><ol class=\"enumerate\"><li><p>若希望点 $P$ 到三镇距离的平方和为最小，点 $P$ 应位于何处？</p></li><li><p>若希望点 $P$ 到三镇的最远距离为最小，点 $P$ 应位于何处？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science_autumn/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由三角形的非退化性有 $a>b>0$. 设 $h=\\sqrt{a^{2}-b^{2}}>0$，则由题设可取 $A(0,h)$，$B(-b,0)$，$C(b,0)$，并设 $P(0,t)$.</p><ol class=\"enumerate\"><li><p>点 $P$ 到三镇距离的平方和为 $L(t)=(t-h)^{2}+(t^{2}+b^{2})+(t^{2}+b^{2})=3t^{2}-2ht+h^{2}+2b^{2}=3\\left(t-\\frac{h}{3}\\right)^{2}+\\frac{2h^{2}}{3}+2b^{2}$. 因此当 $t=\\frac{h}{3}$ 时平方和最小，即 $P$ 位于 $AO$ 上且 $OP=\\frac{h}{3}=\\frac{\\sqrt{a^{2}-b^{2}}}{3}$.</p></li><li><p>记点 $P$ 到三镇的最远距离为 $F(t)=\\max\\left\\{|t-h|,\\sqrt{t^{2}+b^{2}}\\right\\}$. 当 $t<0$ 时，$|t-h|>h$ 且 $\\sqrt{t^{2}+b^{2}}>b$，故不可能优于 $t=0$；当 $t>h$ 时，两项均随 $t$ 增大而增大，故最优点在 $[0,h]$ 内. 在 $[0,h]$ 上，$h-t$ 单调递减，$\\sqrt{t^{2}+b^{2}}$ 单调递增，二者相等的条件为 $(h-t)^{2}=t^{2}+b^{2}$，即 $t=\\frac{h^{2}-b^{2}}{2h}$. 若 $h\\leq b$，该值不为正，且在 $[0,h]$ 上始终有 $h-t\\leq\\sqrt{t^{2}+b^{2}}$，所以 $F(t)$ 在 $t=0$ 时最小，$P=O$. 若 $h>b$，令 $t_{0}=\\frac{h^{2}-b^{2}}{2h}$，则 $0<t_{0}<h$，在 $0\\leq t\\leq t_{0}$ 时 $F(t)=h-t$ 递减，在 $t_{0}\\leq t\\leq h$ 时 $F(t)=\\sqrt{t^{2}+b^{2}}$ 递增，故最小点为 $P(0,t_{0})$. 由于 $h^{2}=a^{2}-b^{2}$，这等价于：当 $a^{2}\\leq2b^{2}$ 时 $P=O$；当 $a^{2}>2b^{2}$ 时 $P$ 位于 $AO$ 上，且 $\\displaystyle OP=\\frac{a^{2}-2b^{2}}{2\\sqrt{a^{2}-b^{2}}}$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""
         },
         {
           "num": 20,
-          "body": "<p>设 $y=f(x)$ 是定义在区间 $[-1,1]$ 上的函数，且满足条件：</p><ol class=\"enumerate\"><li><p>$f(-1)=f(1)=0$；</p></li><li><p>对任意的 $u$，$v\\in[-1,1]$，都有 $|f(u)-f(v)|\\le |u-v|$.</p></li></ol><ol class=\"enumerate\"><li><p>证明：对任意的 $x\\in[-1,1]$，$x-1\\le f(x)\\le 1-x$；</p></li><li><p>证明：对任意的 $u$，$v\\in[-1,1]$，$|f(u)-f(v)|\\le 1$；</p></li><li><p>在区间 $[-1,1]$ 上是否存在满足题设条件的奇函数 $y=f(x)$，且使得 $\\begin{cases}|f(u)-f(v)|&#x3C;|u-v|,&#x26;u,v\\in\\left[0,\\frac{1}{2}\\right],\\\\  |f(u)-f(v)|=|u-v|,&#x26;u,v\\in\\left[\\frac{1}{2},1\\right],\\end{cases}$ 若存在，请举一例；若不存在，请说明理由.</p></li></ol><ol class=\"enumerate\"><li><p>由题设 $f(1)=0$，对任意 $x\\in[-1,1]$，有 $\\lvert f(x)\\rvert=\\lvert f(x)-f(1)\\rvert\\le\\lvert x-1\\rvert=1-x$. 因此 $-(1-x)\\leq f(x)\\leq1-x$，即 $x-1\\leq f(x)\\leq1-x$.</p></li><li><p>不妨设 $u\\leq v$，令 $d=v-u$，则 $0\\leq d\\leq2$. 由题设直接得到 $\\lvert f(u)-f(v)\\rvert\\leq d$. 另一方面，利用 $f(-1)=f(1)=0$ 以及 Lipschitz 条件，有 $\\lvert f(u)-f(v)\\rvert\\leq\\lvert f(u)-f(-1)\\rvert+\\lvert f(1)-f(v)\\rvert\\leq(u+1)+(1-v)=2-d$. 所以 $\\lvert f(u)-f(v)\\rvert\\leq\\min\\{d,2-d\\}\\leq1$.</p></li><li><p>若存在这样的奇函数，则由奇性知 $f(0)=0$. 在第二个条件中取 $u=\\frac{1}{2}$，$v=1$，结合 $f(1)=0$ 得 $\\lvert f(\\frac{1}{2})\\rvert=\\frac{1}{2}$. 但在第一个条件中取 $u=0$，$v=\\frac{1}{2}$，则应有 $\\lvert f(\\frac{1}{2})-f(0)\\rvert&#x3C;\\frac{1}{2}$，即 $\\lvert f(\\frac{1}{2})\\rvert&#x3C;\\frac{1}{2}$，矛盾. 因此不存在满足条件的函数.</p></li></ol>",
+          "body": "<p>设 $y=f(x)$ 是定义在区间 $[-1,1]$ 上的函数，且满足条件：</p><ol class=\"enumerate\"><li><p>$f(-1)=f(1)=0$；</p></li><li><p>对任意的 $u$，$v\\in[-1,1]$，都有 $|f(u)-f(v)|\\le |u-v|$.</p></li></ol><ol class=\"enumerate\"><li><p>证明：对任意的 $x\\in[-1,1]$，$x-1\\le f(x)\\le 1-x$；</p></li><li><p>证明：对任意的 $u$，$v\\in[-1,1]$，$|f(u)-f(v)|\\le 1$；</p></li><li><p>在区间 $[-1,1]$ 上是否存在满足题设条件的奇函数 $y=f(x)$，且使得 $\\begin{cases}|f(u)-f(v)|<|u-v|,&u,v\\in\\left[0,\\frac{1}{2}\\right],\\\\  |f(u)-f(v)|=|u-v|,&u,v\\in\\left[\\frac{1}{2},1\\right],\\end{cases}$ 若存在，请举一例；若不存在，请说明理由.</p></li></ol><ol class=\"enumerate\"><li><p>由题设 $f(1)=0$，对任意 $x\\in[-1,1]$，有 $\\lvert f(x)\\rvert=\\lvert f(x)-f(1)\\rvert\\le\\lvert x-1\\rvert=1-x$. 因此 $-(1-x)\\leq f(x)\\leq1-x$，即 $x-1\\leq f(x)\\leq1-x$.</p></li><li><p>不妨设 $u\\leq v$，令 $d=v-u$，则 $0\\leq d\\leq2$. 由题设直接得到 $\\lvert f(u)-f(v)\\rvert\\leq d$. 另一方面，利用 $f(-1)=f(1)=0$ 以及 Lipschitz 条件，有 $\\lvert f(u)-f(v)\\rvert\\leq\\lvert f(u)-f(-1)\\rvert+\\lvert f(1)-f(v)\\rvert\\leq(u+1)+(1-v)=2-d$. 所以 $\\lvert f(u)-f(v)\\rvert\\leq\\min\\{d,2-d\\}\\leq1$.</p></li><li><p>若存在这样的奇函数，则由奇性知 $f(0)=0$. 在第二个条件中取 $u=\\frac{1}{2}$，$v=1$，结合 $f(1)=0$ 得 $\\lvert f(\\frac{1}{2})\\rvert=\\frac{1}{2}$. 但在第一个条件中取 $u=0$，$v=\\frac{1}{2}$，则应有 $\\lvert f(\\frac{1}{2})-f(0)\\rvert<\\frac{1}{2}$，即 $\\lvert f(\\frac{1}{2})\\rvert<\\frac{1}{2}$，矛盾. 因此不存在满足条件的函数.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

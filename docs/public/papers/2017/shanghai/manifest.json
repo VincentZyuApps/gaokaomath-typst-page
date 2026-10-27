@@ -26,7 +26,7 @@
           "body": "不等式 $\\dfrac{x-1}{x}>1$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(-\\infty,0)$",
-          "solution": "题目要求 $x\\ne0$. 移项得 $\\dfrac{x-1}{x}-1=\\dfrac{-1}{x}>0$. 因为分子 $-1&#x3C;0$，所以分式为正当且仅当 $x&#x3C;0$，故解集为 $(-\\infty,0)$."
+          "solution": "题目要求 $x\\ne0$. 移项得 $\\dfrac{x-1}{x}-1=\\dfrac{-1}{x}>0$. 因为分子 $-1<0$，所以分式为正当且仅当 $x<0$，故解集为 $(-\\infty,0)$."
         },
         {
           "num": 4,
@@ -58,7 +58,7 @@
         },
         {
           "num": 8,
-          "body": "<p>定义在 $(0,+\\infty)$ 上的函数 $y=f(x)$ 的反函数为 $y=f^{-1}(x)$. 若</p><p>$g(x)=\\begin{cases}3^{x}-1,&#x26;x\\le 0,\\\\  f(x),&#x26;x>0,\\end{cases}$</p><p>为奇函数，则 $f^{-1}(x)=2$ 的解为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "body": "<p>定义在 $(0,+\\infty)$ 上的函数 $y=f(x)$ 的反函数为 $y=f^{-1}(x)$. 若</p><p>$g(x)=\\begin{cases}3^{x}-1,&x\\le 0,\\\\  f(x),&x>0,\\end{cases}$</p><p>为奇函数，则 $f^{-1}(x)=2$ 的解为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
           "choices": null,
           "answer": "$\\dfrac{8}{9}$",
           "solution": "对任意 $x>0$，由 $g$ 为奇函数有 $f(x)=g(x)=-g(-x)=-\\bigl(3^{-x}-1\\bigr)=1-3^{-x}$. 于是 $f(2)=1-3^{-2}=1-\\dfrac{1}{9}=\\dfrac{8}{9}$. 由反函数定义，$f^{-1}(x)=2$ 等价于 $x=f(2)$，所以解为 $x=\\dfrac{8}{9}$."
@@ -100,13 +100,13 @@
           "num": 13,
           "body": "<p>关于 $x$，$y$ 的二元一次方程组</p><p>$\\begin{cases}x+5y=0,\\\\  2x+3y=4\\end{cases}$的系数行列式 $D$ 为（ ）</p>",
           "choices": [
-            "$\\left|\\begin{matrix}0&#x26;5\\\\ 4&#x26;3\\end{matrix}\\right|$",
-            "$\\left|\\begin{matrix}1&#x26;0\\\\ 2&#x26;4\\end{matrix}\\right|$",
-            "$\\left|\\begin{matrix}1&#x26;5\\\\ 2&#x26;3\\end{matrix}\\right|$",
-            "$\\left|\\begin{matrix}6&#x26;0\\\\ 5&#x26;4\\end{matrix}\\right|$"
+            "$\\left|\\begin{matrix}0&5\\\\ 4&3\\end{matrix}\\right|$",
+            "$\\left|\\begin{matrix}1&0\\\\ 2&4\\end{matrix}\\right|$",
+            "$\\left|\\begin{matrix}1&5\\\\ 2&3\\end{matrix}\\right|$",
+            "$\\left|\\begin{matrix}6&0\\\\ 5&4\\end{matrix}\\right|$"
           ],
           "answer": "C",
-          "solution": "系数行列式只取方程组中未知数 $x$，$y$ 的系数，故 $D=\\left|\\begin{matrix}1&#x26;5\\\\2&#x26;3\\end{matrix}\\right|$. 这正是第三个选项，故选 C."
+          "solution": "系数行列式只取方程组中未知数 $x$，$y$ 的系数，故 $D=\\left|\\begin{matrix}1&5\\\\2&3\\end{matrix}\\right|$. 这正是第三个选项，故选 C."
         },
         {
           "num": 14,
@@ -118,7 +118,7 @@
             "<span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">不存在</span></span>"
           ],
           "answer": "B",
-          "solution": "数列的绝对值为 $\\lvert a_{n}\\rvert=\\left(\\dfrac{1}{2}\\right)^{n}$. 由于公比的绝对值 $\\dfrac{1}{2}&#x3C;1$，有 $\\left(\\dfrac{1}{2}\\right)^{n}\\to0$，所以 $a_{n}\\to0$. 故选 B."
+          "solution": "数列的绝对值为 $\\lvert a_{n}\\rvert=\\left(\\dfrac{1}{2}\\right)^{n}$. 由于公比的绝对值 $\\dfrac{1}{2}<1$，有 $\\left(\\dfrac{1}{2}\\right)^{n}\\to0$，所以 $a_{n}\\to0$. 故选 B."
         },
         {
           "num": 15,
@@ -161,11 +161,11 @@
           "body": "<p>已知函数 $f(x)=\\cos^{2}x-\\sin^{2}x+\\dfrac{1}{2}$，$x\\in(0,\\pi)$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调递增区间；</p></li><li><p>设 $\\triangle ABC$ 为锐角三角形，角 $A$ 所对边 $a=\\sqrt{19}$，角 $B$ 所对边 $b=5$. 若 $f(A)=0$，求 $\\triangle ABC$ 的面积.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由二倍角公式，$f(x)=\\cos2x+\\dfrac{1}{2}$，所以 $f'(x)=-2\\sin2x$. 当 $x\\in(0,\\pi)$ 时，$f'(x)>0$ 等价于 $\\sin2x&#x3C;0$，即 $2x\\in(\\pi,2\\pi)$，所以单调递增区间为 $\\left(\\dfrac\\pi2,\\pi\\right)$.</p></li><li><p>由 $f(A)=0$ 得 $\\cos2A=-\\dfrac{1}{2}$. 因为三角形为锐角三角形，$0&#x3C;A&#x3C;\\dfrac\\pi2$，故 $2A\\in(0,\\pi)$，从而 $2A=\\dfrac{2\\pi}{3}$，即 $A=\\dfrac\\pi3$. 由正弦定理，$\\sin B=\\dfrac{b\\sin A}{a}=\\dfrac{5\\sqrt{3}}{2\\sqrt{19}}$. 又因 $B$ 为锐角，$\\cos B>0$，且 $\\cos B=\\sqrt{1-\\sin^{2}B}=\\dfrac1{2\\sqrt{19}}$. 因此 $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B=\\dfrac{3\\sqrt{3}}{2\\sqrt{19}}$. 于是 $C=\\pi-A-B$，三角形面积为</p><p>$S_{ABC}=\\dfrac{1}{2}ab\\sin C=\\dfrac{1}{2}\\sqrt{19}\\times5\\times\\sin(A+B)=\\dfrac{15\\sqrt{3}}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由二倍角公式，$f(x)=\\cos2x+\\dfrac{1}{2}$，所以 $f'(x)=-2\\sin2x$. 当 $x\\in(0,\\pi)$ 时，$f'(x)>0$ 等价于 $\\sin2x<0$，即 $2x\\in(\\pi,2\\pi)$，所以单调递增区间为 $\\left(\\dfrac\\pi2,\\pi\\right)$.</p></li><li><p>由 $f(A)=0$ 得 $\\cos2A=-\\dfrac{1}{2}$. 因为三角形为锐角三角形，$0<A<\\dfrac\\pi2$，故 $2A\\in(0,\\pi)$，从而 $2A=\\dfrac{2\\pi}{3}$，即 $A=\\dfrac\\pi3$. 由正弦定理，$\\sin B=\\dfrac{b\\sin A}{a}=\\dfrac{5\\sqrt{3}}{2\\sqrt{19}}$. 又因 $B$ 为锐角，$\\cos B>0$，且 $\\cos B=\\sqrt{1-\\sin^{2}B}=\\dfrac1{2\\sqrt{19}}$. 因此 $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B=\\dfrac{3\\sqrt{3}}{2\\sqrt{19}}$. 于是 $C=\\pi-A-B$，三角形面积为</p><p>$S_{ABC}=\\dfrac{1}{2}ab\\sin C=\\dfrac{1}{2}\\sqrt{19}\\times5\\times\\sin(A+B)=\\dfrac{15\\sqrt{3}}{4}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "<p>根据预测，某地第 $n$（$n\\in\\mathbb{N}^{*}$）个月共享单车的投放量和损失量分别为 $a_{n}$ 和 $b_{n}$（单位：辆），其中</p><p>$a_{n}=\\begin{cases}5n^{4}+15,&#x26;1\\le n\\le 3,\\\\  -10n+470,&#x26;n\\ge4,\\end{cases}  b_{n}=n+5$，第 $n$ 个月底的共享单车的保有量是前 $n$ 个月的累计投放量与累计损失量的差.</p><ol class=\"enumerate\"><li><p>求该地区第 $4$ 个月底的共享单车的保有量；</p></li><li><p>已知该地共享单车停放点第 $n$ 个月底的单车容纳量 $S_{n}=-4(n-46)^{2}+8800$（单位：辆）. 设在某月底，共享单车保有量达到最大，问该保有量是否超出了此时停放点的单车容纳量？</p></li></ol>",
+          "body": "<p>根据预测，某地第 $n$（$n\\in\\mathbb{N}^{*}$）个月共享单车的投放量和损失量分别为 $a_{n}$ 和 $b_{n}$（单位：辆），其中</p><p>$a_{n}=\\begin{cases}5n^{4}+15,&1\\le n\\le 3,\\\\  -10n+470,&n\\ge4,\\end{cases}  b_{n}=n+5$，第 $n$ 个月底的共享单车的保有量是前 $n$ 个月的累计投放量与累计损失量的差.</p><ol class=\"enumerate\"><li><p>求该地区第 $4$ 个月底的共享单车的保有量；</p></li><li><p>已知该地共享单车停放点第 $n$ 个月底的单车容纳量 $S_{n}=-4(n-46)^{2}+8800$（单位：辆）. 设在某月底，共享单车保有量达到最大，问该保有量是否超出了此时停放点的单车容纳量？</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>设第 $n$ 个月底的保有量为 $B_{n}$. 前四个月的投放量之和为 $a_{1}+a_{2}+a_{3}+a_{4}=20+95+420+430=965$，损失量之和为 $b_{1}+b_{2}+b_{3}+b_{4}=6+7+8+9=30$. 因而 $B_{4}=965-30=935$（辆）.</p></li><li><p>对 $n\\ge4$，有 $B_{n}-B_{n-1}=a_{n}-b_{n}=(-10n+470)-(n+5)=465-11n$. 当 $n\\le42$ 时该增量为正，当 $n\\ge43$ 时该增量为负，所以保有量在第 $42$ 个月底达到最大. 由 $B_{3}=20+95+420-(6+7+8)=514$，得</p><p>$B_{42}=B_{3}+\\sum_{n=4}^{42}(465-11n)=514+\\dfrac{(42-3)(465\\times2-11(4+42))}{2}=8782$. 此时停放点容纳量为 $S_{42}=-4(42-46)^{2}+8800=8736$. 因为 $8782>8736$，所以该最大保有量超出了此时的单车容纳量，答案为能.</p></li></ol>"
@@ -179,10 +179,10 @@
         },
         {
           "num": 21,
-          "body": "<p>设定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 满足：对于任意的 $x_{1}$，$x_{2}\\in\\mathbb{R}$，当 $x_{1}&#x3C;x_{2}$ 时，都有 $f(x_{1})\\le f(x_{2})$.</p><ol class=\"enumerate\"><li><p>若 $f(x)=ax^{3}+1$，求 $a$ 的取值范围；</p></li><li><p>若 $f(x)$ 为周期函数，证明：$f(x)$ 是常值函数；</p></li><li><p>设 $f(x)$ 恒大于零，$g(x)$ 是定义在 $\\mathbb{R}$ 上，恒大于零的周期函数，$M$ 是 $g(x)$ 的最大值. 函数 $h(x)=f(x)g(x)$. 证明：“$h(x)$ 是周期函数”的充要条件是“$f(x)$ 是常值函数”.</p></li></ol>",
+          "body": "<p>设定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 满足：对于任意的 $x_{1}$，$x_{2}\\in\\mathbb{R}$，当 $x_{1}<x_{2}$ 时，都有 $f(x_{1})\\le f(x_{2})$.</p><ol class=\"enumerate\"><li><p>若 $f(x)=ax^{3}+1$，求 $a$ 的取值范围；</p></li><li><p>若 $f(x)$ 为周期函数，证明：$f(x)$ 是常值函数；</p></li><li><p>设 $f(x)$ 恒大于零，$g(x)$ 是定义在 $\\mathbb{R}$ 上，恒大于零的周期函数，$M$ 是 $g(x)$ 的最大值. 函数 $h(x)=f(x)g(x)$. 证明：“$h(x)$ 是周期函数”的充要条件是“$f(x)$ 是常值函数”.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $x^{3}$ 在 $\\mathbb{R}$ 上严格递增，当 $a>0$ 时 $ax^{3}+1$ 递增，当 $a=0$ 时为常值函数，二者都满足题设. 当 $a&#x3C;0$ 时，若 $x_{1}&#x3C;x_{2}$，则 $x_{1}^{3}&#x3C;x_{2}^{3}$，从而 $ax_{1}^{3}>ax_{2}^{3}$，函数反而递减，不满足题设. 所以 $a\\ge0$.</p></li><li><p>设 $T>0$ 是 $f$ 的一个周期. 任取 $x&#x3C;y$，取正整数 $N$ 使 $x+NT>y$. 由单调性有 $f(x)\\le f(y)\\le f(x+NT)$，而周期性给出 $f(x+NT)=f(x)$. 因此 $f(x)=f(y)$. 任意两个实数之间都可这样比较，所以 $f$ 为常值函数.</p></li><li><p>若 $f$ 为常值函数，设 $f(x)=c>0$，则 $h(x)=cg(x)$，因此 $h$ 与 $g$ 具有同一个周期，故 $h$ 是周期函数.</p><p>反之，设 $h$ 是周期函数，取其一个正周期 $T$，再取 $g$ 的一个正周期 $S$. 对任意满足 $g(z)=M$ 的点 $z$，任取 $y\\in\\mathbb{R}$，选取非负整数 $N$ 使 $y-NT\\le z$. 由 $h$ 的周期性、$f$ 的单调性及 $g\\le M$，并注意 $f$，$g$ 都为正数，得 $h(y)=h(y-NT)=f(y-NT)g(y-NT)\\le f(z)M$. 因此对该最大值点 $z$，全体 $y$ 都满足 $h(y)\\le f(z)M$.</p><p>固定一个最大值点 $z_{0}$，则 $z_{0}+kS$ 对任意整数 $k$ 也都是最大值点. 对 $k\\ge0$，用 $z=z_{0}$ 的上界估计并取 $y=z_{0}+kS$，得到 $f(z_{0}+kS)M=h(z_{0}+kS)\\le f(z_{0})M$. 又因 $f$ 单调不减且 $z_{0}+kS\\ge z_{0}$，所以 $f(z_{0}+kS)\\ge f(z_{0})$，从而 $f(z_{0}+kS)=f(z_{0})$. 对 $k&#x3C;0$，用最大值点 $z=z_{0}+kS$ 的上界估计并取 $y=z_{0}$，得到 $f(z_{0})M=h(z_{0})\\le f(z_{0}+kS)M$. 此时 $z_{0}+kS&#x3C;z_{0}$，单调性又给出 $f(z_{0}+kS)\\le f(z_{0})$，故仍有 $f(z_{0}+kS)=f(z_{0})$. 所以所有 $z_{0}+kS$ 处的函数值都相等.</p><p>任取 $x\\in\\mathbb{R}$，取足够大的正整数 $k$，使 $z_{0}-kS\\le x\\le z_{0}+kS$. 单调性给出 $f(z_{0}-kS)\\le f(x)\\le f(z_{0}+kS)$，而两端均等于 $f(z_{0})$，故 $f(x)=f(z_{0})$. 因而 $f$ 是常值函数.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $x^{3}$ 在 $\\mathbb{R}$ 上严格递增，当 $a>0$ 时 $ax^{3}+1$ 递增，当 $a=0$ 时为常值函数，二者都满足题设. 当 $a<0$ 时，若 $x_{1}<x_{2}$，则 $x_{1}^{3}<x_{2}^{3}$，从而 $ax_{1}^{3}>ax_{2}^{3}$，函数反而递减，不满足题设. 所以 $a\\ge0$.</p></li><li><p>设 $T>0$ 是 $f$ 的一个周期. 任取 $x<y$，取正整数 $N$ 使 $x+NT>y$. 由单调性有 $f(x)\\le f(y)\\le f(x+NT)$，而周期性给出 $f(x+NT)=f(x)$. 因此 $f(x)=f(y)$. 任意两个实数之间都可这样比较，所以 $f$ 为常值函数.</p></li><li><p>若 $f$ 为常值函数，设 $f(x)=c>0$，则 $h(x)=cg(x)$，因此 $h$ 与 $g$ 具有同一个周期，故 $h$ 是周期函数.</p><p>反之，设 $h$ 是周期函数，取其一个正周期 $T$，再取 $g$ 的一个正周期 $S$. 对任意满足 $g(z)=M$ 的点 $z$，任取 $y\\in\\mathbb{R}$，选取非负整数 $N$ 使 $y-NT\\le z$. 由 $h$ 的周期性、$f$ 的单调性及 $g\\le M$，并注意 $f$，$g$ 都为正数，得 $h(y)=h(y-NT)=f(y-NT)g(y-NT)\\le f(z)M$. 因此对该最大值点 $z$，全体 $y$ 都满足 $h(y)\\le f(z)M$.</p><p>固定一个最大值点 $z_{0}$，则 $z_{0}+kS$ 对任意整数 $k$ 也都是最大值点. 对 $k\\ge0$，用 $z=z_{0}$ 的上界估计并取 $y=z_{0}+kS$，得到 $f(z_{0}+kS)M=h(z_{0}+kS)\\le f(z_{0})M$. 又因 $f$ 单调不减且 $z_{0}+kS\\ge z_{0}$，所以 $f(z_{0}+kS)\\ge f(z_{0})$，从而 $f(z_{0}+kS)=f(z_{0})$. 对 $k<0$，用最大值点 $z=z_{0}+kS$ 的上界估计并取 $y=z_{0}$，得到 $f(z_{0})M=h(z_{0})\\le f(z_{0}+kS)M$. 此时 $z_{0}+kS<z_{0}$，单调性又给出 $f(z_{0}+kS)\\le f(z_{0})$，故仍有 $f(z_{0}+kS)=f(z_{0})$. 所以所有 $z_{0}+kS$ 处的函数值都相等.</p><p>任取 $x\\in\\mathbb{R}$，取足够大的正整数 $k$，使 $z_{0}-kS\\le x\\le z_{0}+kS$. 单调性给出 $f(z_{0}-kS)\\le f(x)\\le f(z_{0}+kS)$，而两端均等于 $f(z_{0})$，故 $f(x)=f(z_{0})$. 因而 $f$ 是常值函数.</p></li></ol>"
         }
       ]
     }

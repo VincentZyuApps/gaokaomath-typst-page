@@ -33,15 +33,15 @@
         },
         {
           "num": 3,
-          "body": "设 $a$，$b$ 是满足 $ab &#x3C; 0$ 的实数，那么（ ）",
+          "body": "设 $a$，$b$ 是满足 $ab < 0$ 的实数，那么（ ）",
           "choices": [
             "$|a + b| > |a - b|$",
-            "$|a + b| &#x3C; |a - b|$",
-            "$|a - b| &#x3C; ||a| - |b||$",
-            "$|a - b| &#x3C; |a| + |b|$"
+            "$|a + b| < |a - b|$",
+            "$|a - b| < ||a| - |b||$",
+            "$|a - b| < |a| + |b|$"
           ],
           "answer": "B",
-          "solution": "<p>由 $ab&#x3C;0$ 可知 $a$、$b$ 异号. 计算两边平方之差，得</p><p>$(a+b)^{2}-(a-b)^{2}=4ab&#x3C;0$. 由于两个平方根均非负，所以 $|a+b|&#x3C;|a-b|$，第二个选项正确. 又因为 $a$、$b$ 异号，$|a-b|=|a|+|b|$，故选项 D 的严格不等式不成立；反三角不等式给出 $|a-b|\\ge\\bigl||a|-|b|\\bigr|$，故选项 C 也不成立，选项 A 与第二个选项矛盾.</p>"
+          "solution": "<p>由 $ab<0$ 可知 $a$、$b$ 异号. 计算两边平方之差，得</p><p>$(a+b)^{2}-(a-b)^{2}=4ab<0$. 由于两个平方根均非负，所以 $|a+b|<|a-b|$，第二个选项正确. 又因为 $a$、$b$ 异号，$|a-b|=|a|+|b|$，故选项 D 的严格不等式不成立；反三角不等式给出 $|a-b|\\ge\\bigl||a|-|b|\\bigr|$，故选项 C 也不成立，选项 A 与第二个选项矛盾.</p>"
         },
         {
           "num": 4,
@@ -65,7 +65,7 @@
             "$y = 1 + x^{2}$"
           ],
           "answer": "B",
-          "solution": "<p>在 $(-\\infty,0)$ 上，选项 A 可化为</p><p>$y=-\\log_{\\frac{1}{2}}\\left(-x\\right)=\\dfrac{\\ln\\left(-x\\right)}{\\ln2}$，所以 $y'=\\dfrac{1}{x\\ln2}&#x3C;0$，不是增函数.</p><p>选项 B 中</p><p>$y'=\\dfrac{(1-x)+x}{(1-x)^2}=\\dfrac{1}{(1-x)^2}>0$，所以它在整个 $(-\\infty,0)$ 上为增函数. 选项 C 的导数为 $-2(x+1)$，在 $x=-1$ 两侧变号，不能在整个区间上递增；选项 D 的导数为 $2x&#x3C;0$，为减函数. 故选 B.</p>"
+          "solution": "<p>在 $(-\\infty,0)$ 上，选项 A 可化为</p><p>$y=-\\log_{\\frac{1}{2}}\\left(-x\\right)=\\dfrac{\\ln\\left(-x\\right)}{\\ln2}$，所以 $y'=\\dfrac{1}{x\\ln2}<0$，不是增函数.</p><p>选项 B 中</p><p>$y'=\\dfrac{(1-x)+x}{(1-x)^2}=\\dfrac{1}{(1-x)^2}>0$，所以它在整个 $(-\\infty,0)$ 上为增函数. 选项 C 的导数为 $-2(x+1)$，在 $x=-1$ 两侧变号，不能在整个区间上递增；选项 D 的导数为 $2x<0$，为减函数. 故选 B.</p>"
         },
         {
           "num": 6,
@@ -120,7 +120,7 @@
           "body": "已知方程 $\\frac{x^{2}}{2 + \\lambda}- \\frac{y^{2}}{1 + \\lambda}= 1$ 表示双曲线，求 $\\lambda$ 的范围.",
           "choices": null,
           "answer": "",
-          "solution": "<p>首先分母不能为零，所以 $\\lambda\\ne-2$，$-1$. 当 $2+\\lambda$ 与 $1+\\lambda$ 同号时，方程左边的两个二次项符号相反，移项后可化为一个正项减去一个正项等于 $1$，表示双曲线. 当 $2+\\lambda>0$、$1+\\lambda&#x3C;0$ 时，两个二次项都为正，方程表示椭圆；当 $2+\\lambda&#x3C;0$、$1+\\lambda>0$ 时，左边两项都为负，不可能等于 $1$.</p><p>所以表示双曲线的充要条件为</p><p>$(\\lambda+2)(\\lambda+1)>0$. 解此不等式，得 $\\lambda&#x3C;-2$ 或 $\\lambda>-1$.</p>"
+          "solution": "<p>首先分母不能为零，所以 $\\lambda\\ne-2$，$-1$. 当 $2+\\lambda$ 与 $1+\\lambda$ 同号时，方程左边的两个二次项符号相反，移项后可化为一个正项减去一个正项等于 $1$，表示双曲线. 当 $2+\\lambda>0$、$1+\\lambda<0$ 时，两个二次项都为正，方程表示椭圆；当 $2+\\lambda<0$、$1+\\lambda>0$ 时，左边两项都为负，不可能等于 $1$.</p><p>所以表示双曲线的充要条件为</p><p>$(\\lambda+2)(\\lambda+1)>0$. 解此不等式，得 $\\lambda<-2$ 或 $\\lambda>-1$.</p>"
         },
         {
           "num": 11,
@@ -176,7 +176,7 @@
           "body": "设对所有实数 $x$，不等式 $x^{2}\\log_{2} \\frac{4(a + 1)}{a}+ 2x\\log_{2} \\frac{2a}{a + 1}+ \\log_{2} \\frac{(a + 1)^{2}}{4a^{2}}> 0$ 恒成立，求 $a$ 的取值范围.",
           "choices": null,
           "answer": "",
-          "solution": "<p>首先要求三个对数的真数均为正. 这三个条件等价于</p><p>$\\dfrac{a+1}{a}>0$，所以 $a>0$ 或 $a&#x3C;-1$，并且 $a\\ne0$，$-1$. 令</p><p>$r=\\dfrac{2a}{a+1}$，$B=\\log_{2} r$. 在上述定义域内 $r>0$，且</p><p>$\\log_{2}\\dfrac{4(a+1)}a=\\log_{2}\\dfrac{8}{r}=3-B$，</p><p>$\\log_{2}\\dfrac{(a+1)^2}{4a^2}=\\log_{2}\\dfrac1{r^2}=-2B$.</p><p>于是原不等式左边为关于 $x$ 的二次式</p><p>$f(x)=(3-B)x^{2}+2Bx-2B$. 要使 $f(x)>0$ 对所有实数 $x$ 恒成立，二次项系数必须为正，且判别式必须小于零；否则二次式在某处不正. 因而</p><p>$3-B>0$，且</p><p>$\\Delta=(2B)^{2}-4(3-B)(-2B)=4B(6-B)&#x3C;0$.</p><p>第一条件给出 $B&#x3C;3$，第二条件给出 $B&#x3C;0$ 或 $B>6$，合并得 $B&#x3C;0$. 因为底数 $2>1$，这等价于 $0&#x3C;r&#x3C;1$.</p><p>若 $a&#x3C;-1$，则</p><p>$r-1=\\dfrac{2a-(a+1)}{a+1}=\\dfrac{a-1}{a+1}>0$，与 $r&#x3C;1$ 矛盾. 若 $a>0$，则</p><p>$\\dfrac{2a}{a+1}&#x3C;1\\Longleftrightarrow 2a&#x3C;a+1\\Longleftrightarrow a&#x3C;1$. 因而 $a$ 的取值范围为 $0&#x3C;a&#x3C;1$.</p>"
+          "solution": "<p>首先要求三个对数的真数均为正. 这三个条件等价于</p><p>$\\dfrac{a+1}{a}>0$，所以 $a>0$ 或 $a<-1$，并且 $a\\ne0$，$-1$. 令</p><p>$r=\\dfrac{2a}{a+1}$，$B=\\log_{2} r$. 在上述定义域内 $r>0$，且</p><p>$\\log_{2}\\dfrac{4(a+1)}a=\\log_{2}\\dfrac{8}{r}=3-B$，</p><p>$\\log_{2}\\dfrac{(a+1)^2}{4a^2}=\\log_{2}\\dfrac1{r^2}=-2B$.</p><p>于是原不等式左边为关于 $x$ 的二次式</p><p>$f(x)=(3-B)x^{2}+2Bx-2B$. 要使 $f(x)>0$ 对所有实数 $x$ 恒成立，二次项系数必须为正，且判别式必须小于零；否则二次式在某处不正. 因而</p><p>$3-B>0$，且</p><p>$\\Delta=(2B)^{2}-4(3-B)(-2B)=4B(6-B)<0$.</p><p>第一条件给出 $B<3$，第二条件给出 $B<0$ 或 $B>6$，合并得 $B<0$. 因为底数 $2>1$，这等价于 $0<r<1$.</p><p>若 $a<-1$，则</p><p>$r-1=\\dfrac{2a-(a+1)}{a+1}=\\dfrac{a-1}{a+1}>0$，与 $r<1$ 矛盾. 若 $a>0$，则</p><p>$\\dfrac{2a}{a+1}<1\\Longleftrightarrow 2a<a+1\\Longleftrightarrow a<1$. 因而 $a$ 的取值范围为 $0<a<1$.</p>"
         },
         {
           "num": 19,
@@ -187,17 +187,17 @@
         },
         {
           "num": 20,
-          "body": "<p>设数列 $a_{1}$，$a_{2}$，$\\cdots$，$a_{n}$，$\\cdots$ 的前 $n$ 项的和 $S_{n}$ 与 $a_{n}$ 的关系是 $S_{n} = -ba_{n} + 1 - \\frac{1}{(1+b)^{n}}$，其中 $b$ 是与 $n$ 无关的常数，且 $b \\neq -1$.</p><ol class=\"enumerate\"><li><p>求 $a_{n}$ 和 $a_{n-1}$ 的关系式；</p></li><li><p>写出用 $n$ 和 $b$ 表示 $a_{n}$ 的表达式；</p></li><li><p>当 $0 &#x3C; b &#x3C; 1$ 时，求极限 $\\displaystyle\\lim_{n\\to\\infty}S_{n}$.</p></li></ol>",
+          "body": "<p>设数列 $a_{1}$，$a_{2}$，$\\cdots$，$a_{n}$，$\\cdots$ 的前 $n$ 项的和 $S_{n}$ 与 $a_{n}$ 的关系是 $S_{n} = -ba_{n} + 1 - \\frac{1}{(1+b)^{n}}$，其中 $b$ 是与 $n$ 无关的常数，且 $b \\neq -1$.</p><ol class=\"enumerate\"><li><p>求 $a_{n}$ 和 $a_{n-1}$ 的关系式；</p></li><li><p>写出用 $n$ 和 $b$ 表示 $a_{n}$ 的表达式；</p></li><li><p>当 $0 < b < 1$ 时，求极限 $\\displaystyle\\lim_{n\\to\\infty}S_{n}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $S_{n}-S_{n-1}=a_{n}$，并分别代入已知关系，得</p><p>$a_{n}=-ba_{n}+ba_{n-1}+\\dfrac{1}{(1+b)^{n-1}}-\\dfrac{1}{(1+b)^n}$. 右端最后两项之差为</p><p>$\\dfrac{b}{(1+b)^n}$，所以</p><p>$(1+b)a_{n}=ba_{n-1}+\\dfrac{b}{(1+b)^n}$. 由于 $b\\ne-1$，可以除以 $1+b$，得</p><p>$a_{n}=\\dfrac{b}{1+b}a_{n-1}+\\dfrac{b}{(1+b)^{n+1}}$，其中 $n\\geqslant2$.</p></li><li><p>取 $n=1$，由 $S_{1}=a_{1}$ 得</p><p>$a_{1}=-ba_{1}+1-\\dfrac{1}{1+b}=-ba_{1}+\\dfrac{b}{1+b}$，从而</p><p>$a_{1}=\\dfrac{b}{(1+b)^2}$. 令 $u_{n}=(1+b)^{n+1}a_{n}$，则第（1）问的关系式化为</p><p>$u_{n}=bu_{n-1}+b$，且 $u_{1}=(1+b)^{2}a_{1}=b$. 若 $u_{k}=b+b^{2}+\\cdots+b^{k}$，则</p><p>$u_{k+1}=bu_{k}+b=b^{2}+b^{3}+\\cdots+b^{k+1}+b=b+b^{2}+\\cdots+b^{k+1}$. 结合 $u_{1}=b$，由数学归纳法得</p><p>$u_{n}=b+b^{2}+\\cdots+b^{n}$，故</p><p>$a_{n}=\\dfrac{b+b^2+\\cdots+b^n}{(1+b)^{n+1}}$.</p></li><li><p>当 $0&#x3C;b&#x3C;1$ 时，$0&#x3C;b+b^{2}+\\cdots+b^{n}&#x3C;\\dfrac{b}{1-b}$，而 $(1+b)^{n+1}\\to+\\infty$，所以 $a_{n}\\to0$；同时 $\\dfrac{1}{(1+b)^n}\\to0$. 代回已知关系，得到</p><p>$\\displaystyle\\lim_{n\\to\\infty}S_{n}=1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $S_{n}-S_{n-1}=a_{n}$，并分别代入已知关系，得</p><p>$a_{n}=-ba_{n}+ba_{n-1}+\\dfrac{1}{(1+b)^{n-1}}-\\dfrac{1}{(1+b)^n}$. 右端最后两项之差为</p><p>$\\dfrac{b}{(1+b)^n}$，所以</p><p>$(1+b)a_{n}=ba_{n-1}+\\dfrac{b}{(1+b)^n}$. 由于 $b\\ne-1$，可以除以 $1+b$，得</p><p>$a_{n}=\\dfrac{b}{1+b}a_{n-1}+\\dfrac{b}{(1+b)^{n+1}}$，其中 $n\\geqslant2$.</p></li><li><p>取 $n=1$，由 $S_{1}=a_{1}$ 得</p><p>$a_{1}=-ba_{1}+1-\\dfrac{1}{1+b}=-ba_{1}+\\dfrac{b}{1+b}$，从而</p><p>$a_{1}=\\dfrac{b}{(1+b)^2}$. 令 $u_{n}=(1+b)^{n+1}a_{n}$，则第（1）问的关系式化为</p><p>$u_{n}=bu_{n-1}+b$，且 $u_{1}=(1+b)^{2}a_{1}=b$. 若 $u_{k}=b+b^{2}+\\cdots+b^{k}$，则</p><p>$u_{k+1}=bu_{k}+b=b^{2}+b^{3}+\\cdots+b^{k+1}+b=b+b^{2}+\\cdots+b^{k+1}$. 结合 $u_{1}=b$，由数学归纳法得</p><p>$u_{n}=b+b^{2}+\\cdots+b^{n}$，故</p><p>$a_{n}=\\dfrac{b+b^2+\\cdots+b^n}{(1+b)^{n+1}}$.</p></li><li><p>当 $0<b<1$ 时，$0<b+b^{2}+\\cdots+b^{n}<\\dfrac{b}{1-b}$，而 $(1+b)^{n+1}\\to+\\infty$，所以 $a_{n}\\to0$；同时 $\\dfrac{1}{(1+b)^n}\\to0$. 代回已知关系，得到</p><p>$\\displaystyle\\lim_{n\\to\\infty}S_{n}=1$.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "定长为 $3$ 的线段 $AB$ 的两端点在抛物线 $y^{2} = x$ 上移动，记线段 $AB$ 的中点为 $M$，求点 $M$ 到 $y$ 轴的最短距离，并求此时点 $M$ 的坐标.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $A=(u^{2},u)$、$B=(v^{2},v)$，其中 $u$、$v$ 为实数. 由 $AB=3$，得</p><p>$9=(u^{2}-v^{2})^{2}+(u-v)^{2}=(u-v)^{2}\\left((u+v)^{2}+1\\right)$. 记 $s=u+v$、$d=u-v$，则 $d^{2}=\\dfrac{9}{s^2+1}$. 中点 $M$ 的横坐标为 $x_{M}=\\dfrac{u^2+v^2}{2}=\\dfrac{s^2+d^2}{4}=\\dfrac{1}{4}\\left(s^{2}+\\dfrac{9}{s^2+1}\\right)$.</p><p>因为 $x_{M}\\geqslant0$，点 $M$ 到 $y$ 轴的距离就是 $x_{M}$. 令 $t=s^{2}\\geqslant0$，则</p><p>$x_{M}=\\dfrac{1}{4}\\left(t+\\dfrac{9}{t+1}\\right)$，且</p><p>$\\dfrac{\\mathrm{d} x_M}{\\mathrm{d}t}=\\dfrac{1}{4}\\left(1-\\dfrac{9}{(t+1)^2}\\right)$.</p><p>当 $0\\le t&#x3C;2$ 时导数为负，当 $t>2$ 时导数为正，所以 $t=2$ 给出全局最小值. 此时</p><p>$x_{M}=\\dfrac{1}{4}\\left(2+\\dfrac{9}{3}\\right)=\\dfrac{5}{4}$.</p><p>又 $s=\\pm\\sqrt{2}$，且 $d^{2}=\\dfrac9{2+1}=3$，故中点纵坐标</p><p>$y_{M}=\\dfrac{s}{2}=\\pm\\dfrac{\\sqrt{2}}{2}$. 取 $s=\\sqrt{2}$、$d=\\sqrt{3}$ 时，</p><p>$u=\\dfrac{s+d}{2}$、$v=\\dfrac{s-d}{2}$ 均为实数，并且前面的长度等式给出 $AB=3$，所以该最小值确实可以取得. 因此最短距离为 $\\dfrac{5}{4}$，此时</p><p>$M=\\left(\\dfrac{5}{4},\\dfrac{\\sqrt{2}}{2}\\right)$ 或 $M=\\left(\\dfrac{5}{4},-\\dfrac{\\sqrt{2}}{2}\\right)$.</p>"
+          "solution": "<p>设 $A=(u^{2},u)$、$B=(v^{2},v)$，其中 $u$、$v$ 为实数. 由 $AB=3$，得</p><p>$9=(u^{2}-v^{2})^{2}+(u-v)^{2}=(u-v)^{2}\\left((u+v)^{2}+1\\right)$. 记 $s=u+v$、$d=u-v$，则 $d^{2}=\\dfrac{9}{s^2+1}$. 中点 $M$ 的横坐标为 $x_{M}=\\dfrac{u^2+v^2}{2}=\\dfrac{s^2+d^2}{4}=\\dfrac{1}{4}\\left(s^{2}+\\dfrac{9}{s^2+1}\\right)$.</p><p>因为 $x_{M}\\geqslant0$，点 $M$ 到 $y$ 轴的距离就是 $x_{M}$. 令 $t=s^{2}\\geqslant0$，则</p><p>$x_{M}=\\dfrac{1}{4}\\left(t+\\dfrac{9}{t+1}\\right)$，且</p><p>$\\dfrac{\\mathrm{d} x_M}{\\mathrm{d}t}=\\dfrac{1}{4}\\left(1-\\dfrac{9}{(t+1)^2}\\right)$.</p><p>当 $0\\le t<2$ 时导数为负，当 $t>2$ 时导数为正，所以 $t=2$ 给出全局最小值. 此时</p><p>$x_{M}=\\dfrac{1}{4}\\left(2+\\dfrac{9}{3}\\right)=\\dfrac{5}{4}$.</p><p>又 $s=\\pm\\sqrt{2}$，且 $d^{2}=\\dfrac9{2+1}=3$，故中点纵坐标</p><p>$y_{M}=\\dfrac{s}{2}=\\pm\\dfrac{\\sqrt{2}}{2}$. 取 $s=\\sqrt{2}$、$d=\\sqrt{3}$ 时，</p><p>$u=\\dfrac{s+d}{2}$、$v=\\dfrac{s-d}{2}$ 均为实数，并且前面的长度等式给出 $AB=3$，所以该最小值确实可以取得. 因此最短距离为 $\\dfrac{5}{4}$，此时</p><p>$M=\\left(\\dfrac{5}{4},\\dfrac{\\sqrt{2}}{2}\\right)$ 或 $M=\\left(\\dfrac{5}{4},-\\dfrac{\\sqrt{2}}{2}\\right)$.</p>"
         }
       ]
     },

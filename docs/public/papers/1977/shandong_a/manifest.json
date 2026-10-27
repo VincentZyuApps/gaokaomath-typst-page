@@ -12,7 +12,7 @@
           "body": "$\\sqrt{\\left( 3-x \\right)^{2}}=?$",
           "choices": null,
           "answer": "",
-          "solution": "<p>根号表示算术平方根，因此对任意实数 $u$，有 $\\sqrt{u^{2}}=\\lvert u\\rvert$. 于是</p><p>$\\sqrt{\\left( 3-x \\right)^{2}}=\\lvert 3-x\\rvert$. 当 $x\\le 3$ 时，$3-x\\ge 0$，所以 $\\lvert 3-x\\rvert=3-x$；当 $x>3$ 时，$3-x&#x3C;0$，所以 $\\lvert 3-x\\rvert=-(3-x)=x-3$. 因而</p>\n$$\n\\sqrt{\\left( 3-x \\right)^{2}}=  \\begin{cases}3-x,&#x26;x\\le 3,\\\\  x-3,&#x26;x>3.\\end{cases}\n$$"
+          "solution": "<p>根号表示算术平方根，因此对任意实数 $u$，有 $\\sqrt{u^{2}}=\\lvert u\\rvert$. 于是</p><p>$\\sqrt{\\left( 3-x \\right)^{2}}=\\lvert 3-x\\rvert$. 当 $x\\le 3$ 时，$3-x\\ge 0$，所以 $\\lvert 3-x\\rvert=3-x$；当 $x>3$ 时，$3-x<0$，所以 $\\lvert 3-x\\rvert=-(3-x)=x-3$. 因而</p>\n$$\n\\sqrt{\\left( 3-x \\right)^{2}}=  \\begin{cases}3-x,&x\\le 3,\\\\  x-3,&x>3.\\end{cases}\n$$"
         },
         {
           "num": 2,
@@ -58,10 +58,10 @@
         },
         {
           "num": 8,
-          "body": "<p>$x^{2}-x\\cos \\alpha+\\frac{1}{4}\\sin^{2} \\alpha=0$（$0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$）为关于 $x$ 的二次方程.</p><ol class=\"enumerate\"><li><p>当 $\\alpha$ 为何值时，方程有两个不相等的实数根？</p></li><li><p>当方程有两个不相等的实数根时，它的根是什么？</p></li></ol>",
+          "body": "<p>$x^{2}-x\\cos \\alpha+\\frac{1}{4}\\sin^{2} \\alpha=0$（$0<\\alpha<\\frac{\\pi}{2}$）为关于 $x$ 的二次方程.</p><ol class=\"enumerate\"><li><p>当 $\\alpha$ 为何值时，方程有两个不相等的实数根？</p></li><li><p>当方程有两个不相等的实数根时，它的根是什么？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>该方程关于 $x$ 的二次项系数为 $1$，一次项系数为 $-\\cos\\alpha$，常数项为 $\\frac{1}{4}\\sin^{2}\\alpha$. 因此判别式为</p>\n$$\n\\Delta=(-\\cos\\alpha)^{2}-4\\cdot1\\cdot\\frac{1}{4}\\sin^{2}\\alpha=\\cos^{2}\\alpha-\\sin^{2}\\alpha=\\cos 2\\alpha\n$$\n<p>方程有两个不相等的实数根当且仅当 $\\Delta>0$，即 $\\cos 2\\alpha>0$. 由 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$ 得 $0&#x3C;2\\alpha&#x3C;\\pi$，在此范围内 $\\cos 2\\alpha>0$ 等价于 $0&#x3C;2\\alpha&#x3C;\\frac{\\pi}{2}$，所以 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{4}$.</p></li><li><p>当 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{4}$ 时，$\\Delta=\\cos 2\\alpha>0$. 根据一元二次方程求根公式，</p>\n$$\nx=\\frac{\\cos\\alpha\\pm\\sqrt{\\cos 2\\alpha}}{2}\n$$\n<p>即两个根为 $x_{1}=\\frac{\\cos\\alpha+\\sqrt{\\cos 2\\alpha}}{2}$ 和 $x_{2}=\\frac{\\cos\\alpha-\\sqrt{\\cos 2\\alpha}}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>该方程关于 $x$ 的二次项系数为 $1$，一次项系数为 $-\\cos\\alpha$，常数项为 $\\frac{1}{4}\\sin^{2}\\alpha$. 因此判别式为</p>\n$$\n\\Delta=(-\\cos\\alpha)^{2}-4\\cdot1\\cdot\\frac{1}{4}\\sin^{2}\\alpha=\\cos^{2}\\alpha-\\sin^{2}\\alpha=\\cos 2\\alpha\n$$\n<p>方程有两个不相等的实数根当且仅当 $\\Delta>0$，即 $\\cos 2\\alpha>0$. 由 $0<\\alpha<\\frac{\\pi}{2}$ 得 $0<2\\alpha<\\pi$，在此范围内 $\\cos 2\\alpha>0$ 等价于 $0<2\\alpha<\\frac{\\pi}{2}$，所以 $0<\\alpha<\\frac{\\pi}{4}$.</p></li><li><p>当 $0<\\alpha<\\frac{\\pi}{4}$ 时，$\\Delta=\\cos 2\\alpha>0$. 根据一元二次方程求根公式，</p>\n$$\nx=\\frac{\\cos\\alpha\\pm\\sqrt{\\cos 2\\alpha}}{2}\n$$\n<p>即两个根为 $x_{1}=\\frac{\\cos\\alpha+\\sqrt{\\cos 2\\alpha}}{2}$ 和 $x_{2}=\\frac{\\cos\\alpha-\\sqrt{\\cos 2\\alpha}}{2}$.</p></li></ol>"
         },
         {
           "num": 9,
@@ -82,7 +82,7 @@
           "body": "<p>现有可建猪圈 $L$ 米的材料，要建彼此相连的 $m$ 间面积相等的矩形猪圈（如下图）（门在内，墙的厚度不计）.</p><ol class=\"enumerate\"><li><p>怎样设计每间猪圈的长和宽，才能使所建的猪圈的总面积最大？</p></li><li><p>按这种设计，$m$ 间猪圈长的总和与宽的总和有什么关系？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_a/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设图中每排横向围墙的长度为 $x$ 米，设每条纵向围墙的长度为 $y$ 米. 由于共有上下两排横向围墙和 $m+1$ 条纵向围墙，材料长度满足</p><p>$2x+(m+1)y=L$，所以 $y=\\frac{L-2x}{m+1}$，且必须有 $0&#x3C;x&#x3C;\\frac{L}{2}$.</p><p>每间猪圈的长为 $\\frac{x}{m}$，宽为 $y$，故总面积为</p>\n$$\nS=m\\cdot\\frac{x}{m}\\cdot y=xy=\\frac{x(L-2x)}{m+1}\n$$\n<p>配方得</p>\n$$\nS=\\frac{L^{2}}{8(m+1)}-\\frac{2}{m+1}\\left( x-\\frac{L}{4}\\right)^{2}\\le \\frac{L^{2}}{8(m+1)}\n$$\n<p>等号成立当且仅当 $x=\\frac{L}{4}$. 此时</p>\n$$\ny=\\frac{L-2x}{m+1}=\\frac{L}{2(m+1)}\n$$\n<p>每间猪圈的长为 $\\frac{x}{m}=\\frac{L}{4m}$.</p><p>所以每间猪圈的长为 $\\frac{L}{4m}$ 米、宽为 $\\frac{L}{2(m+1)}$ 米时，总面积最大，最大总面积为 $\\frac{L^{2}}{8(m+1)}$ 平方米.</p></li><li><p>按图中所有围墙的长、宽统计，$m$ 间猪圈的长边共有上下两排，长度总和为 $2x=\\frac{L}{2}$；宽边共有 $m+1$ 条，长度总和为 $(m+1)y=L-2x=\\frac{L}{2}$. 因而长的总和与宽的总和相等.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设图中每排横向围墙的长度为 $x$ 米，设每条纵向围墙的长度为 $y$ 米. 由于共有上下两排横向围墙和 $m+1$ 条纵向围墙，材料长度满足</p><p>$2x+(m+1)y=L$，所以 $y=\\frac{L-2x}{m+1}$，且必须有 $0<x<\\frac{L}{2}$.</p><p>每间猪圈的长为 $\\frac{x}{m}$，宽为 $y$，故总面积为</p>\n$$\nS=m\\cdot\\frac{x}{m}\\cdot y=xy=\\frac{x(L-2x)}{m+1}\n$$\n<p>配方得</p>\n$$\nS=\\frac{L^{2}}{8(m+1)}-\\frac{2}{m+1}\\left( x-\\frac{L}{4}\\right)^{2}\\le \\frac{L^{2}}{8(m+1)}\n$$\n<p>等号成立当且仅当 $x=\\frac{L}{4}$. 此时</p>\n$$\ny=\\frac{L-2x}{m+1}=\\frac{L}{2(m+1)}\n$$\n<p>每间猪圈的长为 $\\frac{x}{m}=\\frac{L}{4m}$.</p><p>所以每间猪圈的长为 $\\frac{L}{4m}$ 米、宽为 $\\frac{L}{2(m+1)}$ 米时，总面积最大，最大总面积为 $\\frac{L^{2}}{8(m+1)}$ 平方米.</p></li><li><p>按图中所有围墙的长、宽统计，$m$ 间猪圈的长边共有上下两排，长度总和为 $2x=\\frac{L}{2}$；宽边共有 $m+1$ 条，长度总和为 $(m+1)y=L-2x=\\frac{L}{2}$. 因而长的总和与宽的总和相等.</p></li></ol>"
         }
       ]
     },

@@ -9,19 +9,19 @@
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $S = \\{x \\mid |x| &#x3C; 5\\}$，$T = \\{x \\mid x^{2} + 4x - 21 &#x3C; 0\\}$，则 $S \\cap T =$（ ）",
+          "body": "设集合 $S = \\{x \\mid |x| < 5\\}$，$T = \\{x \\mid x^{2} + 4x - 21 < 0\\}$，则 $S \\cap T =$（ ）",
           "choices": [
-            "$\\{x\\mid -7 &#x3C; x &#x3C; -5\\}$",
-            "$\\{x\\mid 3 &#x3C; x &#x3C; 5\\}$",
-            "$\\{x\\mid -5 &#x3C; x &#x3C; 3\\}$",
-            "$\\{x\\mid -7 &#x3C; x &#x3C; 5\\}$"
+            "$\\{x\\mid -7 < x < -5\\}$",
+            "$\\{x\\mid 3 < x < 5\\}$",
+            "$\\{x\\mid -5 < x < 3\\}$",
+            "$\\{x\\mid -7 < x < 5\\}$"
           ],
           "answer": "C",
-          "solution": "由绝对值不等式，$|x|&#x3C;5$ 等价于 $-5&#x3C;x&#x3C;5$，故 $S=(-5,5)$. 又 $x^{2}+4x-21=(x+7)(x-3)$，二次项系数为正，所以 $x^{2}+4x-21&#x3C;0$ 的解为 $-7&#x3C;x&#x3C;3$，即 $T=(-7,3)$. 因而 $S\\cap T=(-5,3)$，对应选项 C."
+          "solution": "由绝对值不等式，$|x|<5$ 等价于 $-5<x<5$，故 $S=(-5,5)$. 又 $x^{2}+4x-21=(x+7)(x-3)$，二次项系数为正，所以 $x^{2}+4x-21<0$ 的解为 $-7<x<3$，即 $T=(-7,3)$. 因而 $S\\cap T=(-5,3)$，对应选项 C."
         },
         {
           "num": 2,
-          "body": "已知函数 $f(x) = \\begin{cases}a + \\log_{2} x&#x26;\\text{当 }x \\ge 2 \\text{ 时}\\\\  \\frac{x^2 - 4}{x - 2}&#x26;\\text{当 }x &#x3C; 2 \\text{ 时}\\end{cases}$ 在点 $x = 2$ 处连续，则常数 $a$ 的值是（ ）",
+          "body": "已知函数 $f(x) = \\begin{cases}a + \\log_{2} x&\\text{当 }x \\ge 2 \\text{ 时}\\\\  \\frac{x^2 - 4}{x - 2}&\\text{当 }x < 2 \\text{ 时}\\end{cases}$ 在点 $x = 2$ 处连续，则常数 $a$ 的值是（ ）",
           "choices": [
             "$2$",
             "$3$",
@@ -29,7 +29,7 @@
             "$5$"
           ],
           "answer": "B",
-          "solution": "当 $x&#x3C;2$ 时，$\\dfrac{x^2-4}{x-2}=x+2$，所以 $\\displaystyle\\lim_{x\\to2^-}f(x)=4$. 又 $f(2)=a+\\log_{2} 2=a+1$. 由连续性，$a+1=4$，解得 $a=3$，故选 B."
+          "solution": "当 $x<2$ 时，$\\dfrac{x^2-4}{x-2}=x+2$，所以 $\\displaystyle\\lim_{x\\to2^-}f(x)=4$. 又 $f(2)=a+\\log_{2} 2=a+1$. 由连续性，$a+1=4$，解得 $a=3$，故选 B."
         },
         {
           "num": 3,
@@ -53,7 +53,7 @@
             "函数 $f(x)$ 是奇函数"
           ],
           "answer": "D",
-          "solution": "因为 $f(x)=\\sin\\left(x-\\dfrac{\\pi}{2}\\right)=-\\cos x$，所以其最小正周期为 $2\\pi$. 在 $0&#x3C;x&#x3C;\\dfrac{\\pi}{2}$ 时，$f'(x)=\\sin x>0$，且端点处连续，因此 $f(x)$ 在 $\\left[0,\\dfrac{\\pi}{2}\\right]$ 上递增. 又 $f(-x)=-\\cos(-x)=-\\cos x=f(x)$，所以图象关于直线 $x=0$ 对称，$f$ 是偶函数而不是奇函数. 因此错误的结论是 D."
+          "solution": "因为 $f(x)=\\sin\\left(x-\\dfrac{\\pi}{2}\\right)=-\\cos x$，所以其最小正周期为 $2\\pi$. 在 $0<x<\\dfrac{\\pi}{2}$ 时，$f'(x)=\\sin x>0$，且端点处连续，因此 $f(x)$ 在 $\\left[0,\\dfrac{\\pi}{2}\\right]$ 上递增. 又 $f(-x)=-\\cos(-x)=-\\cos x=f(x)$，所以图象关于直线 $x=0$ 对称，$f$ 是偶函数而不是奇函数. 因此错误的结论是 D."
         },
         {
           "num": 5,
@@ -194,7 +194,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，$A$，$B$ 为锐角，角 $A$，$B$，$C$ 所对应的边分别为 $a$，$b$，$c$，且 $\\cos 2A = \\frac{3}{5}$，$\\sin B = \\frac{\\sqrt{10}}{10}$.</p><ol class=\"enumerate\"><li><p>求 $A + B$ 的值；</p></li><li><p>若 $a - b = \\sqrt{2}- 1$，求 $a$，$b$，$c$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $A$ 为锐角，所以由 $\\cos 2A=\\dfrac{3}{5}$ 得 $\\cos^{2}A=\\dfrac{1+\\cos2A}{2}=\\dfrac{4}{5}$，从而 $\\cos A=\\dfrac{2\\sqrt{5}}{5}$，$\\sin A=\\dfrac{\\sqrt{5}}{5}$. 又因 $B$ 为锐角且 $\\sin B=\\dfrac{\\sqrt{10}}{10}$，故 $\\cos B=\\dfrac{3\\sqrt{10}}{10}$. 因此 $\\sin(A+B)=\\dfrac{\\sqrt{5}}{5}\\cdot\\dfrac{3\\sqrt{10}}{10}+\\dfrac{2\\sqrt{5}}{5}\\cdot\\dfrac{\\sqrt{10}}{10}=\\dfrac{\\sqrt{2}}{2}$，$\\cos(A+B)=\\dfrac{2\\sqrt{5}}{5}\\cdot\\dfrac{3\\sqrt{10}}{10}-\\dfrac{\\sqrt{5}}{5}\\cdot\\dfrac{\\sqrt{10}}{10}=\\dfrac{\\sqrt{2}}{2}$. 由于 $0&#x3C;A+B&#x3C;\\pi$，所以 $A+B=\\dfrac{\\pi}{4}$.</p></li><li><p>由正弦定理，$a:b=\\sin A:\\sin B=\\sqrt{2}:1$. 设 $a=\\sqrt{2}t$，$b=t$，则 $a-b=t(\\sqrt{2}-1)=\\sqrt{2}-1$，所以 $t=1$，即 $a=\\sqrt{2}$，$b=1$. 又 $C=\\pi-(A+B)=\\dfrac{3\\pi}{4}$，再次由正弦定理得 $c=b\\dfrac{\\sin C}{\\sin B}=\\dfrac{\\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{10}}{10}}=\\sqrt{5}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $A$ 为锐角，所以由 $\\cos 2A=\\dfrac{3}{5}$ 得 $\\cos^{2}A=\\dfrac{1+\\cos2A}{2}=\\dfrac{4}{5}$，从而 $\\cos A=\\dfrac{2\\sqrt{5}}{5}$，$\\sin A=\\dfrac{\\sqrt{5}}{5}$. 又因 $B$ 为锐角且 $\\sin B=\\dfrac{\\sqrt{10}}{10}$，故 $\\cos B=\\dfrac{3\\sqrt{10}}{10}$. 因此 $\\sin(A+B)=\\dfrac{\\sqrt{5}}{5}\\cdot\\dfrac{3\\sqrt{10}}{10}+\\dfrac{2\\sqrt{5}}{5}\\cdot\\dfrac{\\sqrt{10}}{10}=\\dfrac{\\sqrt{2}}{2}$，$\\cos(A+B)=\\dfrac{2\\sqrt{5}}{5}\\cdot\\dfrac{3\\sqrt{10}}{10}-\\dfrac{\\sqrt{5}}{5}\\cdot\\dfrac{\\sqrt{10}}{10}=\\dfrac{\\sqrt{2}}{2}$. 由于 $0<A+B<\\pi$，所以 $A+B=\\dfrac{\\pi}{4}$.</p></li><li><p>由正弦定理，$a:b=\\sin A:\\sin B=\\sqrt{2}:1$. 设 $a=\\sqrt{2}t$，$b=t$，则 $a-b=t(\\sqrt{2}-1)=\\sqrt{2}-1$，所以 $t=1$，即 $a=\\sqrt{2}$，$b=1$. 又 $C=\\pi-(A+B)=\\dfrac{3\\pi}{4}$，再次由正弦定理得 $c=b\\dfrac{\\sin C}{\\sin B}=\\dfrac{\\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{10}}{10}}=\\sqrt{5}$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -222,14 +222,14 @@
           "body": "<p>已知 $a > 0$，且 $a \\neq 1$，函数 $f(x) = \\log_{a}(1 - a^{x})$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的定义域，并判断 $f(x)$ 的单调性；</p></li><li><p>若 $n \\in \\mathbb{N}^{*}$，求 $\\displaystyle\\lim_{n \\to +\\infty}\\frac{a^{f(n)}}{a^{n} + a}$；</p></li><li><p>当 $a = \\mathrm{e}$（$\\mathrm{e}$ 为自然对数的底数）时，设 $h(x) = (1 - \\mathrm{e}^{f(x)})(x^{2} - m + 1)$. 若函数 $h(x)$ 的极值存在，求实数 $m$ 的取值范围以及函数 $h(x)$ 的极值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由对数真数为正，需有 $1-a^{x}>0$. 当 $0&#x3C;a&#x3C;1$ 时，$a^{x}&#x3C;1$ 等价于 $x>0$，定义域为 $(0,+\\infty)$；当 $a>1$ 时，$a^{x}&#x3C;1$ 等价于 $x&#x3C;0$，定义域为 $(-\\infty,0)$. 在定义域内，$f'(x)=\\dfrac{-a^x\\ln a}{(1-a^x)\\ln a}=-\\dfrac{a^x}{1-a^x}&#x3C;0$，所以 $f(x)$ 在各自定义域上都是减函数.</p></li><li><p>第（2）问中的 $f(n)$ 对每个正整数 $n$ 有定义时必须是 $0&#x3C;a&#x3C;1$. 此时由定义有 $a^{f(n)}=1-a^{n}$，故 $\\displaystyle\\lim_{n\\to+\\infty}\\dfrac{a^{f(n)}}{a^n+a}=\\displaystyle\\lim_{n\\to+\\infty}\\dfrac{1-a^n}{a^n+a}=\\dfrac{1}{a}$. 当 $a>1$ 时，正整数不在定义域内，原极限表达式没有实数意义.</p></li><li><p>当 $a=\\mathrm{e}$ 时，定义域为 $x&#x3C;0$，且 $\\mathrm{e}^{f(x)}=1-\\mathrm{e}^{x}$，所以 $h(x)=\\mathrm{e}^{x}(x^{2}-m+1)$. 求导得 $h'(x)=\\mathrm{e}^{x}(x^{2}+2x-m+1)=\\mathrm{e}^{x}\\bigl((x+1)^{2}-m\\bigr)$.</p><p>若 $m\\leqslant0$，则在 $x&#x3C;0$ 上没有发生正负变化的临界点，函数没有极值；若 $m>0$，临界点为 $x_{1}=-1-\\sqrt{m}$ 以及 $x_{2}=-1+\\sqrt{m}$. 当 $0&#x3C;m&#x3C;1$ 时，两个临界点都在定义域内，$x_{1}$ 处为极大值点，$x_{2}$ 处为极小值点，且极大值为 $2\\mathrm{e}^{-1-\\sqrt{m}}(1+\\sqrt{m})$，极小值为 $2\\mathrm{e}^{-1+\\sqrt{m}}(1-\\sqrt{m})$. 当 $m\\geqslant1$ 时，只有 $x_{1}$ 在定义域内，故只有极大值，极大值为 $2\\mathrm{e}^{-1-\\sqrt{m}}(1+\\sqrt{m})$. 因而极值存在时 $m\\in(0,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由对数真数为正，需有 $1-a^{x}>0$. 当 $0<a<1$ 时，$a^{x}<1$ 等价于 $x>0$，定义域为 $(0,+\\infty)$；当 $a>1$ 时，$a^{x}<1$ 等价于 $x<0$，定义域为 $(-\\infty,0)$. 在定义域内，$f'(x)=\\dfrac{-a^x\\ln a}{(1-a^x)\\ln a}=-\\dfrac{a^x}{1-a^x}<0$，所以 $f(x)$ 在各自定义域上都是减函数.</p></li><li><p>第（2）问中的 $f(n)$ 对每个正整数 $n$ 有定义时必须是 $0<a<1$. 此时由定义有 $a^{f(n)}=1-a^{n}$，故 $\\displaystyle\\lim_{n\\to+\\infty}\\dfrac{a^{f(n)}}{a^n+a}=\\displaystyle\\lim_{n\\to+\\infty}\\dfrac{1-a^n}{a^n+a}=\\dfrac{1}{a}$. 当 $a>1$ 时，正整数不在定义域内，原极限表达式没有实数意义.</p></li><li><p>当 $a=\\mathrm{e}$ 时，定义域为 $x<0$，且 $\\mathrm{e}^{f(x)}=1-\\mathrm{e}^{x}$，所以 $h(x)=\\mathrm{e}^{x}(x^{2}-m+1)$. 求导得 $h'(x)=\\mathrm{e}^{x}(x^{2}+2x-m+1)=\\mathrm{e}^{x}\\bigl((x+1)^{2}-m\\bigr)$.</p><p>若 $m\\leqslant0$，则在 $x<0$ 上没有发生正负变化的临界点，函数没有极值；若 $m>0$，临界点为 $x_{1}=-1-\\sqrt{m}$ 以及 $x_{2}=-1+\\sqrt{m}$. 当 $0<m<1$ 时，两个临界点都在定义域内，$x_{1}$ 处为极大值点，$x_{2}$ 处为极小值点，且极大值为 $2\\mathrm{e}^{-1-\\sqrt{m}}(1+\\sqrt{m})$，极小值为 $2\\mathrm{e}^{-1+\\sqrt{m}}(1-\\sqrt{m})$. 当 $m\\geqslant1$ 时，只有 $x_{1}$ 在定义域内，故只有极大值，极大值为 $2\\mathrm{e}^{-1-\\sqrt{m}}(1+\\sqrt{m})$. 因而极值存在时 $m\\in(0,+\\infty)$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，对任意的正整数 $n$，都有 $a_{n}= 5S_{n}+ 1$ 成立，记 $b_{n}= \\frac{4 + a_{n}}{1 - a_{n}}$（$n \\in \\mathbb{N}^{*}$）.</p><ol class=\"enumerate\"><li><p>求数列 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>记 $c_{n}= b_{2n}- b_{2n-1}$（$n \\in \\mathbb{N}^{*}$），设数列 $\\{c_{n}\\}$ 的前 $n$ 项和为 $T_{n}$，求证：对任意正整数 $n$ 都有 $T_{n}&#x3C; \\frac{3}{2}$；</p></li><li><p>设数列 $\\{b_{n}\\}$ 的前 $n$ 项和为 $R_{n}$. 已知正实数 $\\lambda$ 满足：对任意正整数 $n$，$R_{n}\\le \\lambda n$ 恒成立，求 $\\lambda$ 的最小值.</p></li></ol>",
+          "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，对任意的正整数 $n$，都有 $a_{n}= 5S_{n}+ 1$ 成立，记 $b_{n}= \\frac{4 + a_{n}}{1 - a_{n}}$（$n \\in \\mathbb{N}^{*}$）.</p><ol class=\"enumerate\"><li><p>求数列 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>记 $c_{n}= b_{2n}- b_{2n-1}$（$n \\in \\mathbb{N}^{*}$），设数列 $\\{c_{n}\\}$ 的前 $n$ 项和为 $T_{n}$，求证：对任意正整数 $n$ 都有 $T_{n}< \\frac{3}{2}$；</p></li><li><p>设数列 $\\{b_{n}\\}$ 的前 $n$ 项和为 $R_{n}$. 已知正实数 $\\lambda$ 满足：对任意正整数 $n$，$R_{n}\\le \\lambda n$ 恒成立，求 $\\lambda$ 的最小值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取 $n=1$，由 $a_{1}=5S_{1}+1$ 得 $a_{1}=-\\dfrac{1}{4}$. 当 $n\\geqslant2$ 时，将 $a_{n}=5S_{n}+1$ 与 $a_{n-1}=5S_{n-1}+1$ 相减，得 $a_{n}-a_{n-1}=5a_{n}$，所以 $a_{n}=-\\dfrac{1}{4}a_{n-1}$. 因而 $a_{n}=\\left(-\\dfrac{1}{4}\\right)^{n}$. 代入定义，得到 $b_{n}=\\dfrac{4+\\left(-\\dfrac{1}{4}\\right)^n}{1-\\left(-\\dfrac{1}{4}\\right)^n}$.</p></li><li><p>令 $t_{n}=16^{-n}$，则 $\\left(-\\dfrac{1}{4}\\right)^{2n}=t_{n}$，$\\left(-\\dfrac{1}{4}\\right)^{2n-1}=-4t_{n}$. 因此</p><p>$c_{n}=b_{2n}-b_{2n-1}=\\dfrac{4+t_n}{1-t_n}-\\dfrac{4-4t_n}{1+4t_n}=\\dfrac{25t_n}{(1-t_n)(1+4t_n)}$.</p><p>当 $n=1$ 时，$c_{1}=\\dfrac{4}{3}$. 当 $n\\geqslant2$ 时，$(1-t_{n})(1+4t_{n})>1$，所以 $0&#x3C;c_{n}&#x3C;\\dfrac{25}{16^n}$. 对任意正整数 $n$，有 $T_{n}&#x3C;\\dfrac{4}{3}+\\sum_{k=2}^{\\infty}\\dfrac{25}{16^k}=\\dfrac{4}{3}+\\dfrac5{48}=\\dfrac{23}{16}&#x3C;\\dfrac{3}{2}$.</p></li><li><p>由 $b_{2k-1}&#x3C;4$，并且令 $t=16^{-k}$ 可得 $b_{2k}+b_{2k-1}-8=\\dfrac{5t(8t-3)}{(1-t)(1+4t)}&#x3C;0$，所以 $b_{2k}+b_{2k-1}&#x3C;8$. 因此当 $n=2m$ 时，$R_{n}&#x3C;8m=4n$；当 $n=1$ 时，$R_{1}=b_{1}&#x3C;4$；当 $n=2m-1\\geqslant3$ 时，$R_{n}=R_{2m-2}+b_{2m-1}&#x3C;8(m-1)+4&#x3C;4(2m-1)=4n$. 故 $\\lambda=4$ 满足条件.</p><p>另一方面，$b_{n}\\to4$，由数列平均值也有 $\\dfrac{R_n}{n}\\to4$. 若 $\\lambda&#x3C;4$，则对充分大的 $n$ 有 $\\frac{R_{n}}{n}>\\lambda$，与题设不符. 所以 $\\lambda$ 的最小值为 $4$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取 $n=1$，由 $a_{1}=5S_{1}+1$ 得 $a_{1}=-\\dfrac{1}{4}$. 当 $n\\geqslant2$ 时，将 $a_{n}=5S_{n}+1$ 与 $a_{n-1}=5S_{n-1}+1$ 相减，得 $a_{n}-a_{n-1}=5a_{n}$，所以 $a_{n}=-\\dfrac{1}{4}a_{n-1}$. 因而 $a_{n}=\\left(-\\dfrac{1}{4}\\right)^{n}$. 代入定义，得到 $b_{n}=\\dfrac{4+\\left(-\\dfrac{1}{4}\\right)^n}{1-\\left(-\\dfrac{1}{4}\\right)^n}$.</p></li><li><p>令 $t_{n}=16^{-n}$，则 $\\left(-\\dfrac{1}{4}\\right)^{2n}=t_{n}$，$\\left(-\\dfrac{1}{4}\\right)^{2n-1}=-4t_{n}$. 因此</p><p>$c_{n}=b_{2n}-b_{2n-1}=\\dfrac{4+t_n}{1-t_n}-\\dfrac{4-4t_n}{1+4t_n}=\\dfrac{25t_n}{(1-t_n)(1+4t_n)}$.</p><p>当 $n=1$ 时，$c_{1}=\\dfrac{4}{3}$. 当 $n\\geqslant2$ 时，$(1-t_{n})(1+4t_{n})>1$，所以 $0<c_{n}<\\dfrac{25}{16^n}$. 对任意正整数 $n$，有 $T_{n}<\\dfrac{4}{3}+\\sum_{k=2}^{\\infty}\\dfrac{25}{16^k}=\\dfrac{4}{3}+\\dfrac5{48}=\\dfrac{23}{16}<\\dfrac{3}{2}$.</p></li><li><p>由 $b_{2k-1}<4$，并且令 $t=16^{-k}$ 可得 $b_{2k}+b_{2k-1}-8=\\dfrac{5t(8t-3)}{(1-t)(1+4t)}<0$，所以 $b_{2k}+b_{2k-1}<8$. 因此当 $n=2m$ 时，$R_{n}<8m=4n$；当 $n=1$ 时，$R_{1}=b_{1}<4$；当 $n=2m-1\\geqslant3$ 时，$R_{n}=R_{2m-2}+b_{2m-1}<8(m-1)+4<4(2m-1)=4n$. 故 $\\lambda=4$ 满足条件.</p><p>另一方面，$b_{n}\\to4$，由数列平均值也有 $\\dfrac{R_n}{n}\\to4$. 若 $\\lambda<4$，则对充分大的 $n$ 有 $\\frac{R_{n}}{n}>\\lambda$，与题设不符. 所以 $\\lambda$ 的最小值为 $4$.</p></li></ol>"
         }
       ]
     }

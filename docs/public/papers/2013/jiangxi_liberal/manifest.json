@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "下列选项中，使不等式 $x &#x3C; \\frac{1}{x}&#x3C; x^{2}$ 成立的 $x$ 的取值范围是（ ）",
+          "body": "下列选项中，使不等式 $x < \\frac{1}{x}< x^{2}$ 成立的 $x$ 的取值范围是（ ）",
           "choices": [
             "$(- \\infty, -1)$",
             "$(-1,0)$",
@@ -77,19 +77,19 @@
             "$(1, +\\infty)$"
           ],
           "answer": "A",
-          "solution": "<p>由题意知 $x\\ne0$. 分别解两个不等式：</p>\n$$\nx&#x3C;\\frac{1}{x}\\iff \\frac{x^{2}-1}{x}&#x3C;0  \\iff x\\in(-\\infty,-1)\\cup(0,1)\n$$\n<p>以及</p>\n$$\n\\frac{1}{x}&#x3C;x^{2}\\iff \\frac{1-x^{3}}{x}&#x3C;0  \\iff x\\in(-\\infty,0)\\cup(1,+\\infty)\n$$\n<p>两解集的交集为 $(-\\infty,-1)$，故选 A.</p>"
+          "solution": "<p>由题意知 $x\\ne0$. 分别解两个不等式：</p>\n$$\nx<\\frac{1}{x}\\iff \\frac{x^{2}-1}{x}<0  \\iff x\\in(-\\infty,-1)\\cup(0,1)\n$$\n<p>以及</p>\n$$\n\\frac{1}{x}<x^{2}\\iff \\frac{1-x^{3}}{x}<0  \\iff x\\in(-\\infty,0)\\cup(1,+\\infty)\n$$\n<p>两解集的交集为 $(-\\infty,-1)$，故选 A.</p>"
         },
         {
           "num": 7,
           "body": "<p>阅读如图所示程序框图，如果输出 $i = 4$，那么在空白的判断框中应填入的条件是（ ）</p><p><span class=\"macro macro-texfigure\"></span>[float=inline,max width=0.34<span class=\"macro macro-linewidth\"></span>]img_repaint/2013/jiangxi_liberal/q7_fig1.tex</p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
           "choices": [
-            "$S &#x3C; 8$",
-            "$S &#x3C; 9$",
-            "$S &#x3C; 10$",
-            "$S &#x3C; 11$"
+            "$S < 8$",
+            "$S < 9$",
+            "$S < 10$",
+            "$S < 11$"
           ],
           "answer": "B",
-          "solution": "<p>由程序框图逐步计算. 初始时 $i=1$，$S=0$，第一次循环后 $i=2$，此时按偶数分支得 $S=2i+1=5$；第二次循环后 $i=3$，按奇数分支得 $S=2i+2=8$；第三次循环后 $i=4$，按偶数分支得 $S=2i+1=9$.</p><p>要使输出为 $i=4$，应在 $S=8$ 时继续循环而在 $S=9$ 时停止，所以判断条件为 $S&#x3C;9$，故选 B.</p>"
+          "solution": "<p>由程序框图逐步计算. 初始时 $i=1$，$S=0$，第一次循环后 $i=2$，此时按偶数分支得 $S=2i+1=5$；第二次循环后 $i=3$，按奇数分支得 $S=2i+2=8$；第三次循环后 $i=4$，按偶数分支得 $S=2i+1=9$.</p><p>要使输出为 $i=4$，应在 $S=8$ 时继续循环而在 $S=9$ 时停止，所以判断条件为 $S<9$，故选 B.</p>"
         },
         {
           "num": 8,
@@ -144,7 +144,7 @@
           "body": "某住宅小区计划植树不少于 100 棵，若第一天植 2 棵，以后每天植树的棵数是前一天的 2 倍，则需要的最少天数 $n$（$n \\in \\mathbb{N}^{*}$）等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "6",
-          "solution": "<p>第 $j$ 天植树 $2^{j}$ 棵，前 $n$ 天植树总数为等比数列前 $n$ 项和</p>\n$$\n2+2^{2}+\\cdots+2^{n}=2^{n+1}-2\n$$\n<p>要求 $2^{n+1}-2\\geqslant100$. 由于</p><p>$2^{5+1}-2=62&#x3C;100$，$2^{6+1}-2=126\\geqslant100$，</p><p>所以最少需要 $n=6$ 天.</p>"
+          "solution": "<p>第 $j$ 天植树 $2^{j}$ 棵，前 $n$ 天植树总数为等比数列前 $n$ 项和</p>\n$$\n2+2^{2}+\\cdots+2^{n}=2^{n+1}-2\n$$\n<p>要求 $2^{n+1}-2\\geqslant100$. 由于</p><p>$2^{5+1}-2=62<100$，$2^{6+1}-2=126\\geqslant100$，</p><p>所以最少需要 $n=6$ 天.</p>"
         },
         {
           "num": 13,
@@ -184,14 +184,14 @@
           "body": "<p>在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $\\sin A \\sin B + \\sin B \\sin C + \\cos 2B = 1$.</p><ol class=\"enumerate\"><li><p>求证： $a$，$b$，$c$ 成等差数列；</p></li><li><p>若 $C = \\frac{2\\pi}{3}$，求 $\\frac{a}{b}$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由已知条件，</p>\n$$\n\\sin B(\\sin A+\\sin C)=1-\\cos2B=2\\sin^{2}B\n$$\n<p>三角形内角满足 $0&#x3C;B&#x3C;\\pi$，所以 $\\sin B>0$，从而</p>\n$$\n\\sin A+\\sin C=2\\sin B\n$$\n<p>由正弦定理，$\\sin A:\\sin B:\\sin C=a:b:c$，故</p>\n$$\na+c=2b\n$$\n<p>即 $a$，$b$，$c$ 成等差数列.</p></li><li><p>当 $C=\\frac{2\\pi}{3}$ 时，$A+B=\\frac{\\pi}{3}$. 令 $t=\\tan\\frac{A}{2}$，则 $0&#x3C;A&#x3C;\\frac{\\pi}{3}$，故 $t>0$. 由 $\\sin A+\\sin C=2\\sin B$ 得</p>\n$$\n2\\sin A-\\sqrt{3}\\cos A+\\frac{\\sqrt{3}}{2}=0\n$$\n<p>代入</p><p>$\\sin A=\\frac{2t}{1+t^{2}}$，$\\cos A=\\frac{1-t^{2}}{1+t^{2}}$</p><p>并整理得</p>\n$$\n3\\sqrt{3}t^{2}+8t-\\sqrt{3}=0\n$$\n<p>其根为 $t=\\frac{\\sqrt{3}}{9}$ 和负根；由 $t>0$，取 $t=\\frac{\\sqrt{3}}{9}$. 因而</p><p>$\\sin A=\\frac{3\\sqrt{3}}{14}$，$\\sin B=\\sin\\left(\\frac{\\pi}{3}-A\\right)=\\frac{5\\sqrt{3}}{14}$.</p><p>再由正弦定理，</p>\n$$\n\\frac{a}{b}=\\frac{\\sin A}{\\sin B}=\\frac{3}{5}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由已知条件，</p>\n$$\n\\sin B(\\sin A+\\sin C)=1-\\cos2B=2\\sin^{2}B\n$$\n<p>三角形内角满足 $0<B<\\pi$，所以 $\\sin B>0$，从而</p>\n$$\n\\sin A+\\sin C=2\\sin B\n$$\n<p>由正弦定理，$\\sin A:\\sin B:\\sin C=a:b:c$，故</p>\n$$\na+c=2b\n$$\n<p>即 $a$，$b$，$c$ 成等差数列.</p></li><li><p>当 $C=\\frac{2\\pi}{3}$ 时，$A+B=\\frac{\\pi}{3}$. 令 $t=\\tan\\frac{A}{2}$，则 $0<A<\\frac{\\pi}{3}$，故 $t>0$. 由 $\\sin A+\\sin C=2\\sin B$ 得</p>\n$$\n2\\sin A-\\sqrt{3}\\cos A+\\frac{\\sqrt{3}}{2}=0\n$$\n<p>代入</p><p>$\\sin A=\\frac{2t}{1+t^{2}}$，$\\cos A=\\frac{1-t^{2}}{1+t^{2}}$</p><p>并整理得</p>\n$$\n3\\sqrt{3}t^{2}+8t-\\sqrt{3}=0\n$$\n<p>其根为 $t=\\frac{\\sqrt{3}}{9}$ 和负根；由 $t>0$，取 $t=\\frac{\\sqrt{3}}{9}$. 因而</p><p>$\\sin A=\\frac{3\\sqrt{3}}{14}$，$\\sin B=\\sin\\left(\\frac{\\pi}{3}-A\\right)=\\frac{5\\sqrt{3}}{14}$.</p><p>再由正弦定理，</p>\n$$\n\\frac{a}{b}=\\frac{\\sin A}{\\sin B}=\\frac{3}{5}\n$$\n</li></ol>"
         },
         {
           "num": 18,
-          "body": "<p>小波以游戏方式决定是去打球，唱歌还是去下棋，游戏规则为：以 $O$ 为起点，再从 $A_{1}$，$A_{2}$，$A_{3}$，$A_{4}$，$A_{5}$，$A_{6}$（如图）这 $6$ 个点中任取两点分别为终点得到两个向量，记这两个向量的数量积为 $X$，若 $X > 0$ 就去打球，若 $X = 0$ 就去唱歌，若 $X &#x3C; 0$ 就去下棋.</p><ol class=\"enumerate\"><li><p>写出数量积 $X$ 的所有可能取值；</p></li><li><p>分别求小波去下棋的概率和不去唱歌的概率.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>小波以游戏方式决定是去打球，唱歌还是去下棋，游戏规则为：以 $O$ 为起点，再从 $A_{1}$，$A_{2}$，$A_{3}$，$A_{4}$，$A_{5}$，$A_{6}$（如图）这 $6$ 个点中任取两点分别为终点得到两个向量，记这两个向量的数量积为 $X$，若 $X > 0$ 就去打球，若 $X = 0$ 就去唱歌，若 $X < 0$ 就去下棋.</p><ol class=\"enumerate\"><li><p>写出数量积 $X$ 的所有可能取值；</p></li><li><p>分别求小波去下棋的概率和不去唱歌的概率.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由图可取</p><p>$A_{1}=(1,0)$，$A_{2}=(1,-1)$，$A_{3}=(0,-1)$，$A_{4}=(0,1)$</p><p>$A_{5}=(-1,1)$，$A_{6}=(-1,0)$.</p><p>任取两个不同点，计算相应向量的数量积. 当点对为 $(A_{2},A_{5})$ 时，$X=-2$，共 1 种；当点对为 $(A_{1},A_{5})$，$(A_{1},A_{6})$，$(A_{2},A_{4})$，$(A_{2},A_{6})$，$(A_{3},A_{4})$，$(A_{3},A_{5})$ 时，$X=-1$，共 6 种；当点对为 $(A_{1},A_{3})$，$(A_{1},A_{4})$，$(A_{3},A_{6})$，$(A_{4},A_{6})$ 时，$X=0$，共 4 种；当点对为 $(A_{1},A_{2})$，$(A_{2},A_{3})$，$(A_{4},A_{5})$，$(A_{5},A_{6})$ 时，$X=1$，共 4 种.</p><p>所以 $X$ 的所有可能取值为 $-2$，$-1$，$0$，$1$.</p></li><li><p>两点的无序选法共有 $\\mathrm{C}_{6}^{2}=15$ 种；若按有序选取，则每个无序点对对应两个等可能的有序结果，概率相同. 由上述计数，$X&#x3C;0$ 有 $1+6=7$ 种，故去下棋的概率为</p>\n$$\nP(X&#x3C;0)=\\frac{7}{15}\n$$\n<p>不去唱歌等价于 $X\\ne0$，因此</p>\n$$\nP(X\\ne0)=1-\\frac{4}{15}=\\frac{11}{15}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由图可取</p><p>$A_{1}=(1,0)$，$A_{2}=(1,-1)$，$A_{3}=(0,-1)$，$A_{4}=(0,1)$</p><p>$A_{5}=(-1,1)$，$A_{6}=(-1,0)$.</p><p>任取两个不同点，计算相应向量的数量积. 当点对为 $(A_{2},A_{5})$ 时，$X=-2$，共 1 种；当点对为 $(A_{1},A_{5})$，$(A_{1},A_{6})$，$(A_{2},A_{4})$，$(A_{2},A_{6})$，$(A_{3},A_{4})$，$(A_{3},A_{5})$ 时，$X=-1$，共 6 种；当点对为 $(A_{1},A_{3})$，$(A_{1},A_{4})$，$(A_{3},A_{6})$，$(A_{4},A_{6})$ 时，$X=0$，共 4 种；当点对为 $(A_{1},A_{2})$，$(A_{2},A_{3})$，$(A_{4},A_{5})$，$(A_{5},A_{6})$ 时，$X=1$，共 4 种.</p><p>所以 $X$ 的所有可能取值为 $-2$，$-1$，$0$，$1$.</p></li><li><p>两点的无序选法共有 $\\mathrm{C}_{6}^{2}=15$ 种；若按有序选取，则每个无序点对对应两个等可能的有序结果，概率相同. 由上述计数，$X<0$ 有 $1+6=7$ 种，故去下棋的概率为</p>\n$$\nP(X<0)=\\frac{7}{15}\n$$\n<p>不去唱歌等价于 $X\\ne0$，因此</p>\n$$\nP(X\\ne0)=1-\\frac{4}{15}=\\frac{11}{15}\n$$\n</li></ol>"
         },
         {
           "num": 19,
@@ -209,10 +209,10 @@
         },
         {
           "num": 21,
-          "body": "<p>设函数 $f(x) = \\begin{cases}\\frac{1}{a} x, &#x26; 0 \\le x \\le a,\\\\\n\n\\frac{1}{1 - a} (1 - x), &#x26; a &#x3C; x \\le 1,\\end{cases}$ $a$ 为常数且 $a \\in (0,1)$.</p><ol class=\"enumerate\"><li><p>当 $a = \\frac{1}{2}$ 时，求 $f\\left(f\\left(\\frac{1}{3}\\right)\\right)$；</p></li><li><p>若 $x_{0}$ 满足 $f(f(x_{0})) = x_{0}$，但 $f(x_{0}) \\neq x_{0}$，则称 $x_{0}$ 为 $f(x)$ 的二阶周期点，证明：函数 $f(x)$ 有且仅有两个二阶周期点，并求出二阶周期点 $x_{1}$，$x_{2}$；</p></li><li><p>对于（2）中的 $x_{1}$，$x_{2}$，设 $A\\left(x_{1}, f(f(x_{1}))\\right)$，$B\\left(x_{2}, f(f(x_{2}))\\right)$，$C\\left(a^{2}, 0\\right)$，记 $\\triangle ABC$ 的面积为 $S(a)$，求 $S(a)$ 在区间 $\\left[\\frac{1}{3}, \\frac{1}{2}\\right]$ 上的最大值和最小值.</p></li></ol>",
+          "body": "<p>设函数 $f(x) = \\begin{cases}\\frac{1}{a} x, & 0 \\le x \\le a,\\\\\n\n\\frac{1}{1 - a} (1 - x), & a < x \\le 1,\\end{cases}$ $a$ 为常数且 $a \\in (0,1)$.</p><ol class=\"enumerate\"><li><p>当 $a = \\frac{1}{2}$ 时，求 $f\\left(f\\left(\\frac{1}{3}\\right)\\right)$；</p></li><li><p>若 $x_{0}$ 满足 $f(f(x_{0})) = x_{0}$，但 $f(x_{0}) \\neq x_{0}$，则称 $x_{0}$ 为 $f(x)$ 的二阶周期点，证明：函数 $f(x)$ 有且仅有两个二阶周期点，并求出二阶周期点 $x_{1}$，$x_{2}$；</p></li><li><p>对于（2）中的 $x_{1}$，$x_{2}$，设 $A\\left(x_{1}, f(f(x_{1}))\\right)$，$B\\left(x_{2}, f(f(x_{2}))\\right)$，$C\\left(a^{2}, 0\\right)$，记 $\\triangle ABC$ 的面积为 $S(a)$，求 $S(a)$ 在区间 $\\left[\\frac{1}{3}, \\frac{1}{2}\\right]$ 上的最大值和最小值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=\\frac{1}{2}$ 时，$\\frac{1}{3}\\le a$，故</p>\n$$\nf\\left(\\frac{1}{3}\\right)=2\\cdot\\frac{1}{3}=\\frac{2}{3}\n$$\n<p>又 $\\frac{2}{3}>a$，所以</p>\n$$\nf\\left(f\\left(\\frac{1}{3}\\right)\\right)=f\\left(\\frac{2}{3}\\right)=2\\left(1-\\frac{2}{3}\\right)=\\frac{2}{3}\n$$\n</li><li><p>记 $d=1+a-a^{2}$. 分段计算复合函数：</p>\n$$\nf(f(x))=  \\begin{cases}\\dfrac{x}{a^{2}},&#x26;0\\le x\\le a^{2},\\\\[4pt]  \\dfrac{a-x}{a(1-a)},&#x26;a^{2}&#x3C;x\\le a,\\\\[4pt]  \\dfrac{x-a}{(1-a)^{2}},&#x26;a&#x3C;x&#x3C;1-a+a^{2},\\\\[4pt]  \\dfrac{1-x}{a(1-a)},&#x26;1-a+a^{2}\\le x\\leqslant1.\\end{cases}\n$$\n<p>在第一段令 $f(f(x))=x$，只有固定点 $x=0$；第二段给出</p>\n$$\nx=\\frac{a}{1+a-a^{2}}=\\frac{a}{d}\n$$\n<p>第三段给出固定点</p>\n$$\nx=\\frac{1}{2-a}\n$$\n<p>第四段给出</p>\n$$\nx=\\frac{1}{1+a-a^{2}}=\\frac{1}{d}\n$$\n<p>由于 $0&#x3C;a&#x3C;1$，有</p><p>$a^{2}&#x3C;\\frac{a}{d}&#x3C;a$，$a&#x3C;\\frac{1}{2-a}&#x3C;1-a+a^{2}$，$1-a+a^{2}&#x3C;\\frac{1}{d}&#x3C;1$，</p><p>所以上述三个非零解分别确实落在对应分段内. 其中 $x=0$ 和 $x=\\frac{1}{2-a}$ 满足 $f(x)=x$，不属于二阶周期点；而</p><p>$x_{1}=\\frac{a}{d}$，$x_{2}=\\frac{1}{d}$</p><p>分别落在第二、四段，并满足</p><p>$f(x_{1})=x_{2}$，$f(x_{2})=x_{1}$.</p><p>由于 $0&#x3C;a&#x3C;1$，有 $x_{1}\\ne x_{2}$，故它们正好是两个二阶周期点，且函数没有其他二阶周期点.</p></li><li><p>对上述两点，$f(f(x_{i}))=x_{i}$，所以</p><p>$A=(x_{1},x_{1})$，$B=(x_{2},x_{2})$，$C=(a^{2},0)$.</p><p>由三角形面积的行列式公式，且 $x_{2}>x_{1}$，</p>\n$$\nS(a)=\\frac{1}{2}\\left|(x_{2}-x_{1})(-x_{1})-(x_{2}-x_{1})(a^{2}-x_{1})\\right|  =\\frac{1}{2}(x_{2}-x_{1})a^{2}\n$$\n<p>又</p>\n$$\nx_{2}-x_{1}=\\frac{1-a}{d}\n$$\n<p>故</p>\n$$\nS(a)=\\frac{a^{2}(1-a)}{2(1+a-a^{2})}\n$$\n<p>求导得</p>\n$$\nS'(a)=\\frac{a(2-2a-2a^{2}+a^{3})}{2(1+a-a^{2})^{2}}\n$$\n<p>当 $a\\in[\\frac{1}{3},\\frac{1}{2}]$ 时，分母为正，且</p>\n$$\n2-2a-2a^{2}+a^{3}\\geqslant2-1-\\frac{1}{2}=\\frac{1}{2}>0\n$$\n<p>所以 $S(a)$ 在该区间上单调递增. 因此</p><p>$S_{\\min}=S\\left(\\frac{1}{3}\\right)=\\frac{1}{33}$，$S_{\\max}=S\\left(\\frac{1}{2}\\right)=\\frac{1}{20}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=\\frac{1}{2}$ 时，$\\frac{1}{3}\\le a$，故</p>\n$$\nf\\left(\\frac{1}{3}\\right)=2\\cdot\\frac{1}{3}=\\frac{2}{3}\n$$\n<p>又 $\\frac{2}{3}>a$，所以</p>\n$$\nf\\left(f\\left(\\frac{1}{3}\\right)\\right)=f\\left(\\frac{2}{3}\\right)=2\\left(1-\\frac{2}{3}\\right)=\\frac{2}{3}\n$$\n</li><li><p>记 $d=1+a-a^{2}$. 分段计算复合函数：</p>\n$$\nf(f(x))=  \\begin{cases}\\dfrac{x}{a^{2}},&0\\le x\\le a^{2},\\\\[4pt]  \\dfrac{a-x}{a(1-a)},&a^{2}<x\\le a,\\\\[4pt]  \\dfrac{x-a}{(1-a)^{2}},&a<x<1-a+a^{2},\\\\[4pt]  \\dfrac{1-x}{a(1-a)},&1-a+a^{2}\\le x\\leqslant1.\\end{cases}\n$$\n<p>在第一段令 $f(f(x))=x$，只有固定点 $x=0$；第二段给出</p>\n$$\nx=\\frac{a}{1+a-a^{2}}=\\frac{a}{d}\n$$\n<p>第三段给出固定点</p>\n$$\nx=\\frac{1}{2-a}\n$$\n<p>第四段给出</p>\n$$\nx=\\frac{1}{1+a-a^{2}}=\\frac{1}{d}\n$$\n<p>由于 $0<a<1$，有</p><p>$a^{2}<\\frac{a}{d}<a$，$a<\\frac{1}{2-a}<1-a+a^{2}$，$1-a+a^{2}<\\frac{1}{d}<1$，</p><p>所以上述三个非零解分别确实落在对应分段内. 其中 $x=0$ 和 $x=\\frac{1}{2-a}$ 满足 $f(x)=x$，不属于二阶周期点；而</p><p>$x_{1}=\\frac{a}{d}$，$x_{2}=\\frac{1}{d}$</p><p>分别落在第二、四段，并满足</p><p>$f(x_{1})=x_{2}$，$f(x_{2})=x_{1}$.</p><p>由于 $0<a<1$，有 $x_{1}\\ne x_{2}$，故它们正好是两个二阶周期点，且函数没有其他二阶周期点.</p></li><li><p>对上述两点，$f(f(x_{i}))=x_{i}$，所以</p><p>$A=(x_{1},x_{1})$，$B=(x_{2},x_{2})$，$C=(a^{2},0)$.</p><p>由三角形面积的行列式公式，且 $x_{2}>x_{1}$，</p>\n$$\nS(a)=\\frac{1}{2}\\left|(x_{2}-x_{1})(-x_{1})-(x_{2}-x_{1})(a^{2}-x_{1})\\right|  =\\frac{1}{2}(x_{2}-x_{1})a^{2}\n$$\n<p>又</p>\n$$\nx_{2}-x_{1}=\\frac{1-a}{d}\n$$\n<p>故</p>\n$$\nS(a)=\\frac{a^{2}(1-a)}{2(1+a-a^{2})}\n$$\n<p>求导得</p>\n$$\nS'(a)=\\frac{a(2-2a-2a^{2}+a^{3})}{2(1+a-a^{2})^{2}}\n$$\n<p>当 $a\\in[\\frac{1}{3},\\frac{1}{2}]$ 时，分母为正，且</p>\n$$\n2-2a-2a^{2}+a^{3}\\geqslant2-1-\\frac{1}{2}=\\frac{1}{2}>0\n$$\n<p>所以 $S(a)$ 在该区间上单调递增. 因此</p><p>$S_{\\min}=S\\left(\\frac{1}{3}\\right)=\\frac{1}{33}$，$S_{\\max}=S\\left(\\frac{1}{2}\\right)=\\frac{1}{20}$.</p></li></ol>"
         }
       ]
     }

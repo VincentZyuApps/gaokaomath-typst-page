@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{x\\mid \\lvert x\\rvert&#x3C;3,\\ x\\in \\mathbb{Z}\\}$，$B=\\{x\\mid \\lvert x\\rvert>1,\\ x\\in \\mathbb{Z}\\}$，则 $A\\cap B=$（ ）",
+          "body": "已知集合 $A=\\{x\\mid \\lvert x\\rvert<3,\\ x\\in \\mathbb{Z}\\}$，$B=\\{x\\mid \\lvert x\\rvert>1,\\ x\\in \\mathbb{Z}\\}$，则 $A\\cap B=$（ ）",
           "choices": [
             "$\\varnothing$",
             "$\\{-3,-2,2,3\\}$",
@@ -17,7 +17,7 @@
             "$\\{-2,2\\}$"
           ],
           "answer": "D",
-          "solution": "由 $\\lvert x\\rvert&#x3C;3$ 且 $x\\in\\mathbb{Z}$，得 $A=\\{-2,-1,0,1,2\\}$；由 $\\lvert x\\rvert>1$ 且 $x\\in\\mathbb{Z}$，得 $B$ 中满足条件的整数的绝对值至少为 $2$. 因此 $A\\cap B=\\{-2,2\\}$，故选 D."
+          "solution": "由 $\\lvert x\\rvert<3$ 且 $x\\in\\mathbb{Z}$，得 $A=\\{-2,-1,0,1,2\\}$；由 $\\lvert x\\rvert>1$ 且 $x\\in\\mathbb{Z}$，得 $B$ 中满足条件的整数的绝对值至少为 $2$. 因此 $A\\cap B=\\{-2,2\\}$，故选 D."
         },
         {
           "num": 2,
@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "<p>如图，将钢琴上的 $12$ 个键依次记为 $a_{1}$，$a_{2}$，$\\cdots$，$a_{12}$. 设 $1\\le i&#x3C;j&#x3C;k\\le 12$. 若 $k-j=3$ 且 $j-i=4$，则 $a_{i}$，$a_{j}$，$a_{k}$ 为原位大三和弦；若 $k-j=4$ 且 $j-i=3$，则称 $a_{i}$，$a_{j}$，$a_{k}$ 为原位小三和弦. 用这 $12$ 个键可以构成的原位大三和弦与原位小三和弦的个数之和为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_2_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，将钢琴上的 $12$ 个键依次记为 $a_{1}$，$a_{2}$，$\\cdots$，$a_{12}$. 设 $1\\le i<j<k\\le 12$. 若 $k-j=3$ 且 $j-i=4$，则 $a_{i}$，$a_{j}$，$a_{k}$ 为原位大三和弦；若 $k-j=4$ 且 $j-i=3$，则称 $a_{i}$，$a_{j}$，$a_{k}$ 为原位小三和弦. 用这 $12$ 个键可以构成的原位大三和弦与原位小三和弦的个数之和为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_2_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$5$",
             "$8$",
@@ -101,7 +101,7 @@
             "$\\dfrac{4\\sqrt{5}}{5}$"
           ],
           "answer": "B",
-          "solution": "<p>设圆心为 $(h,k)$，半径为 $r>0$. 圆与两坐标轴都相切，所以 $\\lvert h\\rvert=\\lvert k\\rvert=r$. 又因为圆过点 $(2,1)$，有</p><p>$(2-h)^{2}+(1-k)^{2}=r^{2}$，即 $r^{2}-4h-2k+5=0$. 分别令 $h=\\varepsilon r$，$k=\\delta r$，其中 $\\varepsilon$，$\\delta\\in\\{1,-1\\}$，得到 $r^{2}-(4\\varepsilon+2\\delta)r+5=0$. 当 $(\\varepsilon,\\delta)=(1,1)$ 时，方程为 $r^{2}-6r+5=0$，得 $r=1$ 或 $r=5$；当 $(\\varepsilon,\\delta)=(1,-1)$ 或 $(-1,1)$ 时，方程分别为 $r^{2}-2r+5=0$ 或 $r^{2}+2r+5=0$，二者的判别式均为 $-16&#x3C;0$，均无实根；当 $(\\varepsilon,\\delta)=(-1,-1)$ 时，方程为 $r^{2}+6r+5=0$，得 $r=-1$ 或 $r=-5$，均不满足 $r>0$. 因此圆心只能是 $(1,1)$ 或 $(5,5)$. 对这两个圆心，圆心到直线 $2x-y-3=0$ 的距离都为 $\\dfrac{\\lvert2h-k-3\\rvert}{\\sqrt{2^{2}+(-1)^{2}}}=\\dfrac{2}{\\sqrt{5}}=\\dfrac{2\\sqrt{5}}{5}$，故选 B.</p>"
+          "solution": "<p>设圆心为 $(h,k)$，半径为 $r>0$. 圆与两坐标轴都相切，所以 $\\lvert h\\rvert=\\lvert k\\rvert=r$. 又因为圆过点 $(2,1)$，有</p><p>$(2-h)^{2}+(1-k)^{2}=r^{2}$，即 $r^{2}-4h-2k+5=0$. 分别令 $h=\\varepsilon r$，$k=\\delta r$，其中 $\\varepsilon$，$\\delta\\in\\{1,-1\\}$，得到 $r^{2}-(4\\varepsilon+2\\delta)r+5=0$. 当 $(\\varepsilon,\\delta)=(1,1)$ 时，方程为 $r^{2}-6r+5=0$，得 $r=1$ 或 $r=5$；当 $(\\varepsilon,\\delta)=(1,-1)$ 或 $(-1,1)$ 时，方程分别为 $r^{2}-2r+5=0$ 或 $r^{2}+2r+5=0$，二者的判别式均为 $-16<0$，均无实根；当 $(\\varepsilon,\\delta)=(-1,-1)$ 时，方程为 $r^{2}+6r+5=0$，得 $r=-1$ 或 $r=-5$，均不满足 $r>0$. 因此圆心只能是 $(1,1)$ 或 $(5,5)$. 对这两个圆心，圆心到直线 $2x-y-3=0$ 的距离都为 $\\dfrac{\\lvert2h-k-3\\rvert}{\\sqrt{2^{2}+(-1)^{2}}}=\\dfrac{2}{\\sqrt{5}}=\\dfrac{2\\sqrt{5}}{5}$，故选 B.</p>"
         },
         {
           "num": 9,
@@ -141,15 +141,15 @@
         },
         {
           "num": 12,
-          "body": "若 $2^{x}-2^{y}&#x3C;3^{-x}-3^{-y}$，则（ ）",
+          "body": "若 $2^{x}-2^{y}<3^{-x}-3^{-y}$，则（ ）",
           "choices": [
             "$\\ln(y-x+1)>0$",
-            "$\\ln(y-x+1)&#x3C;0$",
+            "$\\ln(y-x+1)<0$",
             "$\\ln\\lvert x-y\\rvert>0$",
-            "$\\ln\\lvert x-y\\rvert&#x3C;0$"
+            "$\\ln\\lvert x-y\\rvert<0$"
           ],
           "answer": "A",
-          "solution": "令 $t=y-x$. 原不等式化为 $2^{x}(1-2^{t})&#x3C;3^{-x}(1-3^{-t})$. 当 $t>0$ 时，左边为负数，右边为正数，不等式成立；当 $t=0$ 时两边相等，不等式不成立；当 $t&#x3C;0$ 时，左边为正数，右边为负数，不等式不成立. 因而必有 $y-x>0$，所以 $y-x+1>1$，从而 $\\ln(y-x+1)>0$，故选 A."
+          "solution": "令 $t=y-x$. 原不等式化为 $2^{x}(1-2^{t})<3^{-x}(1-3^{-t})$. 当 $t>0$ 时，左边为负数，右边为正数，不等式成立；当 $t=0$ 时两边相等，不等式不成立；当 $t<0$ 时，左边为正数，右边为负数，不等式不成立. 因而必有 $y-x>0$，所以 $y-x+1>1$，从而 $\\ln(y-x+1)>0$，故选 A."
         }
       ]
     },
@@ -194,7 +194,7 @@
           "body": "<p>$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $\\cos^{2}\\left( \\dfrac{\\pi}{2}+A \\right)+\\cos A=\\dfrac{5}{4}$.</p><ol class=\"enumerate\"><li><p>求 $A$；</p></li><li><p>若 $b-c=\\dfrac{\\sqrt{3}}{3}a$，证明：$\\triangle ABC$ 是直角三角形.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\cos\\left(\\dfrac\\pi2+A\\right)=-\\sin A$，所以 $\\cos^{2}\\left(\\dfrac\\pi2+A\\right)=\\sin^{2}A=1-\\cos^{2}A$. 令 $u=\\cos A$，则题设化为 $1-u^{2}+u=\\dfrac{5}{4}$，即 $u^{2}-u+\\dfrac{1}{4}=0$，所以 $\\left(u-\\dfrac{1}{2}\\right)^{2}=0$，得 $\\cos A=\\dfrac{1}{2}$. 由于 $0&#x3C;A&#x3C;\\pi$，故 $A=\\dfrac\\pi3$.</p></li><li><p>由正弦定理，设三角形外接圆半径为 $R$，则 $a=2R\\sin A=2R\\sin\\dfrac\\pi3=\\sqrt{3}R$. 又 $b-c=2R(\\sin B-\\sin C)$，利用和差化积及 $B+C=\\dfrac{2\\pi}3$，得 $b-c=4R\\cos\\dfrac{B+C}{2}\\sin\\dfrac{B-C}{2}=2R\\sin\\dfrac{B-C}{2}$. 由题设 $b-c=\\dfrac{\\sqrt{3}}{3}a=R$，所以 $\\sin\\dfrac{B-C}{2}=\\dfrac{1}{2}$. 因为 $B$，$C>0$ 且 $B+C=\\dfrac{2\\pi}3$，有 $-\\dfrac\\pi3&#x3C;\\dfrac{B-C}{2}&#x3C;\\dfrac\\pi3$，故 $\\dfrac{B-C}{2}=\\dfrac\\pi6$. 从而 $B-C=\\dfrac\\pi3$，联立 $B+C=\\dfrac{2\\pi}3$，得 $B=\\dfrac\\pi2$，$C=\\dfrac\\pi6$. 因此 $\\triangle ABC$ 是直角三角形.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\cos\\left(\\dfrac\\pi2+A\\right)=-\\sin A$，所以 $\\cos^{2}\\left(\\dfrac\\pi2+A\\right)=\\sin^{2}A=1-\\cos^{2}A$. 令 $u=\\cos A$，则题设化为 $1-u^{2}+u=\\dfrac{5}{4}$，即 $u^{2}-u+\\dfrac{1}{4}=0$，所以 $\\left(u-\\dfrac{1}{2}\\right)^{2}=0$，得 $\\cos A=\\dfrac{1}{2}$. 由于 $0<A<\\pi$，故 $A=\\dfrac\\pi3$.</p></li><li><p>由正弦定理，设三角形外接圆半径为 $R$，则 $a=2R\\sin A=2R\\sin\\dfrac\\pi3=\\sqrt{3}R$. 又 $b-c=2R(\\sin B-\\sin C)$，利用和差化积及 $B+C=\\dfrac{2\\pi}3$，得 $b-c=4R\\cos\\dfrac{B+C}{2}\\sin\\dfrac{B-C}{2}=2R\\sin\\dfrac{B-C}{2}$. 由题设 $b-c=\\dfrac{\\sqrt{3}}{3}a=R$，所以 $\\sin\\dfrac{B-C}{2}=\\dfrac{1}{2}$. 因为 $B$，$C>0$ 且 $B+C=\\dfrac{2\\pi}3$，有 $-\\dfrac\\pi3<\\dfrac{B-C}{2}<\\dfrac\\pi3$，故 $\\dfrac{B-C}{2}=\\dfrac\\pi6$. 从而 $B-C=\\dfrac\\pi3$，联立 $B+C=\\dfrac{2\\pi}3$，得 $B=\\dfrac\\pi2$，$C=\\dfrac\\pi6$. 因此 $\\triangle ABC$ 是直角三角形.</p></li></ol>"
         },
         {
           "num": 18,
@@ -208,7 +208,7 @@
           "body": "<p>已知椭圆 $C_{1}:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的右焦点 $F$ 与抛物线 $C_{2}$ 的焦点重合，$C_{1}$ 的中心与 $C_{2}$ 的顶点重合. 过 $F$ 且与 $x$ 轴垂直的直线交 $C_{1}$ 于 $A$，$B$ 两点，交 $C_{2}$ 于 $C$，$D$ 两点，且 $\\lvert CD\\rvert=\\dfrac{4}{3}\\lvert AB\\rvert$.</p><ol class=\"enumerate\"><li><p>求 $C_{1}$ 的离心率；</p></li><li><p>若 $C_{1}$ 的四个顶点到 $C_{2}$ 的准线距离之和为 $12$，求 $C_{1}$ 与 $C_{2}$ 的标准方程.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的右焦点为 $F(c,0)$，其中 $c=\\sqrt{a^{2}-b^{2}}>0$. 因为抛物线的焦点为 $F$，顶点为椭圆中心 $(0,0)$，所以抛物线开口向右，方程可设为 $y^{2}=4cx$. 直线 $x=c$ 与椭圆相交时，代入椭圆方程得 $\\dfrac{c^2}{a^2}+\\dfrac{y^2}{b^2}=1$. 由 $c^{2}=a^{2}-b^{2}$，得 $y^{2}=\\dfrac{b^4}{a^2}$，所以 $\\lvert AB\\rvert=\\dfrac{2b^2}{a}$. 直线 $x=c$ 与抛物线相交时，得 $y^{2}=4c^{2}$，所以 $\\lvert CD\\rvert=4c$. 由题设 $4c=\\dfrac{4}{3}\\cdot\\dfrac{2b^2}{a}$，从而 $\\dfrac{c}{a}=\\dfrac{2b^2}{3a^2}$. 令离心率 $e=\\dfrac{c}{a}$，又 $b^{2}=a^{2}-c^{2}=a^{2}(1-e^{2})$，于是 $e=\\dfrac{2}{3}(1-e^{2})$，即 $2e^{2}+3e-2=0$. 因为 $0&#x3C;e&#x3C;1$，故 $e=\\dfrac{1}{2}$.</p></li><li><p>由 $e=\\dfrac{1}{2}$，得 $c=\\dfrac{a}{2}$. 抛物线的准线为 $x=-c$. 椭圆的四个顶点为 $(a,0)$，$(-a,0)$，$(0,b)$，$(0,-b)$，它们到准线的距离之和为 $(a+c)+(a-c)+c+c=2a+2c=3a$. 由题设 $3a=12$，得 $a=4$，从而 $c=2$，$b^{2}=a^{2}-c^{2}=16-4=12$，即 $b=2\\sqrt{3}$. 所以 $C_{1}$ 与 $C_{2}$ 的标准方程分别为 $\\dfrac{x^2}{16}+\\dfrac{y^2}{12}=1$ 和 $y^{2}=8x$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的右焦点为 $F(c,0)$，其中 $c=\\sqrt{a^{2}-b^{2}}>0$. 因为抛物线的焦点为 $F$，顶点为椭圆中心 $(0,0)$，所以抛物线开口向右，方程可设为 $y^{2}=4cx$. 直线 $x=c$ 与椭圆相交时，代入椭圆方程得 $\\dfrac{c^2}{a^2}+\\dfrac{y^2}{b^2}=1$. 由 $c^{2}=a^{2}-b^{2}$，得 $y^{2}=\\dfrac{b^4}{a^2}$，所以 $\\lvert AB\\rvert=\\dfrac{2b^2}{a}$. 直线 $x=c$ 与抛物线相交时，得 $y^{2}=4c^{2}$，所以 $\\lvert CD\\rvert=4c$. 由题设 $4c=\\dfrac{4}{3}\\cdot\\dfrac{2b^2}{a}$，从而 $\\dfrac{c}{a}=\\dfrac{2b^2}{3a^2}$. 令离心率 $e=\\dfrac{c}{a}$，又 $b^{2}=a^{2}-c^{2}=a^{2}(1-e^{2})$，于是 $e=\\dfrac{2}{3}(1-e^{2})$，即 $2e^{2}+3e-2=0$. 因为 $0<e<1$，故 $e=\\dfrac{1}{2}$.</p></li><li><p>由 $e=\\dfrac{1}{2}$，得 $c=\\dfrac{a}{2}$. 抛物线的准线为 $x=-c$. 椭圆的四个顶点为 $(a,0)$，$(-a,0)$，$(0,b)$，$(0,-b)$，它们到准线的距离之和为 $(a+c)+(a-c)+c+c=2a+2c=3a$. 由题设 $3a=12$，得 $a=4$，从而 $c=2$，$b^{2}=a^{2}-c^{2}=16-4=12$，即 $b=2\\sqrt{3}$. 所以 $C_{1}$ 与 $C_{2}$ 的标准方程分别为 $\\dfrac{x^2}{16}+\\dfrac{y^2}{12}=1$ 和 $y^{2}=8x$.</p></li></ol>"
         },
         {
           "num": 20,
@@ -222,7 +222,7 @@
           "body": "<p>已知函数 $f(x)=2\\ln x+1$.</p><ol class=\"enumerate\"><li><p>若 $f(x)\\le 2x+c$，求 $c$ 的取值范围；</p></li><li><p>设 $a>0$，讨论函数 $g(x)=\\dfrac{f(x)-f(a)}{x-a}$ 的单调性.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>要使不等式对定义域内一切 $x>0$ 成立，需有 $2\\ln x+1\\leq2x+c$，即 $c\\geq2\\ln x-2x+1$. 令 $h(x)=2\\ln x-2x+1$，则 $h'(x)=\\dfrac{2}{x}-2$. 当 $0&#x3C;x&#x3C;1$ 时 $h'(x)>0$，当 $x>1$ 时 $h'(x)&#x3C;0$，所以 $h(x)$ 在 $x=1$ 处取得最大值 $h(1)=-1$. 因而 $c\\geq-1$ 时不等式恒成立，且由 $x=1$ 可知 $c$ 不可能小于 $-1$，所以 $c\\in[-1,+\\infty)$.</p></li><li><p>定义域为 $x>0$ 且 $x\\ne a$. 化简得 $g(x)=\\dfrac{2\\ln x-2\\ln a}{x-a}=\\dfrac{2\\ln(\\frac{x}{a})}{x-a}$. 求导得 $g'(x)=\\dfrac{2\\left(1-\\dfrac{a}{x}-\\ln\\dfrac{x}{a}\\right)}{(x-a)^2}$. 令 $t=\\dfrac{x}{a}>0$，分子中的函数为 $\\varphi(t)=1-\\dfrac{1}{t}-\\ln t$，且 $\\varphi'(t)=\\dfrac{1-t}{t^2}$. 因此 $\\varphi$ 在 $(0,1)$ 上递增、在 $(1,+\\infty)$ 上递减，并且 $\\varphi(1)=0$，从而 $\\varphi(t)&#x3C;0$（$t\\ne1$）. 所以 $g'(x)&#x3C;0$，故 $g(x)$ 在 $(0,a)$ 和 $(a,+\\infty)$ 上均单调递减.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>要使不等式对定义域内一切 $x>0$ 成立，需有 $2\\ln x+1\\leq2x+c$，即 $c\\geq2\\ln x-2x+1$. 令 $h(x)=2\\ln x-2x+1$，则 $h'(x)=\\dfrac{2}{x}-2$. 当 $0<x<1$ 时 $h'(x)>0$，当 $x>1$ 时 $h'(x)<0$，所以 $h(x)$ 在 $x=1$ 处取得最大值 $h(1)=-1$. 因而 $c\\geq-1$ 时不等式恒成立，且由 $x=1$ 可知 $c$ 不可能小于 $-1$，所以 $c\\in[-1,+\\infty)$.</p></li><li><p>定义域为 $x>0$ 且 $x\\ne a$. 化简得 $g(x)=\\dfrac{2\\ln x-2\\ln a}{x-a}=\\dfrac{2\\ln(\\frac{x}{a})}{x-a}$. 求导得 $g'(x)=\\dfrac{2\\left(1-\\dfrac{a}{x}-\\ln\\dfrac{x}{a}\\right)}{(x-a)^2}$. 令 $t=\\dfrac{x}{a}>0$，分子中的函数为 $\\varphi(t)=1-\\dfrac{1}{t}-\\ln t$，且 $\\varphi'(t)=\\dfrac{1-t}{t^2}$. 因此 $\\varphi$ 在 $(0,1)$ 上递增、在 $(1,+\\infty)$ 上递减，并且 $\\varphi(1)=0$，从而 $\\varphi(t)<0$（$t\\ne1$）. 所以 $g'(x)<0$，故 $g(x)$ 在 $(0,a)$ 和 $(a,+\\infty)$ 上均单调递减.</p></li></ol>"
         }
       ]
     },
@@ -241,7 +241,7 @@
           "body": "<p>已知函数 $f(x)=\\lvert x-a^{2}\\rvert+\\lvert x-2a+1\\rvert$.</p><ol class=\"enumerate\"><li><p>当 $a=2$ 时，求不等式 $f(x)\\ge 4$ 的解集；</p></li><li><p>若 $f(x)\\ge 4$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，$f(x)=\\lvert x-4\\rvert+\\lvert x-3\\rvert$. 分三种情况讨论：当 $x\\leq3$ 时，$f(x)=7-2x$，由 $7-2x\\geq4$ 得 $x\\leq\\dfrac{3}{2}$；当 $3\\leq x\\leq4$ 时，$f(x)=1&#x3C;4$，无解；当 $x\\geq4$ 时，$f(x)=2x-7$，由 $2x-7\\geq4$ 得 $x\\geq\\dfrac{11}{2}$. 所以不等式的解集为 $\\left(-\\infty,\\dfrac{3}{2}\\right]\\cup\\left[\\dfrac{11}{2},+\\infty\\right)$.</p></li><li><p>令 $u=a^{2}$，$v=2a-1$. 对任意实数 $x$，由三角不等式得 $f(x)=\\lvert x-u\\rvert+\\lvert x-v\\rvert\\geq\\lvert u-v\\rvert=\\lvert a^{2}-2a+1\\rvert=(a-1)^{2}$. 当 $x$ 位于 $u$ 与 $v$ 之间时取等号，所以 $f(x)\\geq4$ 恒成立的充要条件是 $(a-1)^{2}\\geq4$. 解得 $a\\leq-1$ 或 $a\\geq3$，故 $a$ 的取值范围为 $\\left(-\\infty,-1\\right]\\cup[3,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，$f(x)=\\lvert x-4\\rvert+\\lvert x-3\\rvert$. 分三种情况讨论：当 $x\\leq3$ 时，$f(x)=7-2x$，由 $7-2x\\geq4$ 得 $x\\leq\\dfrac{3}{2}$；当 $3\\leq x\\leq4$ 时，$f(x)=1<4$，无解；当 $x\\geq4$ 时，$f(x)=2x-7$，由 $2x-7\\geq4$ 得 $x\\geq\\dfrac{11}{2}$. 所以不等式的解集为 $\\left(-\\infty,\\dfrac{3}{2}\\right]\\cup\\left[\\dfrac{11}{2},+\\infty\\right)$.</p></li><li><p>令 $u=a^{2}$，$v=2a-1$. 对任意实数 $x$，由三角不等式得 $f(x)=\\lvert x-u\\rvert+\\lvert x-v\\rvert\\geq\\lvert u-v\\rvert=\\lvert a^{2}-2a+1\\rvert=(a-1)^{2}$. 当 $x$ 位于 $u$ 与 $v$ 之间时取等号，所以 $f(x)\\geq4$ 恒成立的充要条件是 $(a-1)^{2}\\geq4$. 解得 $a\\leq-1$ 或 $a\\geq3$，故 $a$ 的取值范围为 $\\left(-\\infty,-1\\right]\\cup[3,+\\infty)$.</p></li></ol>"
         }
       ]
     }

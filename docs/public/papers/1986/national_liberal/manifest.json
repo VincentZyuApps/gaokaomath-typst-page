@@ -61,7 +61,7 @@
           "choices": [
             "$c>2^{c}$",
             "$c>\\left(\\frac{1}{2}\\right)^{c}$",
-            "$2^{c}&#x3C;\\left(\\frac{1}{2}\\right)^{c}$",
+            "$2^{c}<\\left(\\frac{1}{2}\\right)^{c}$",
             "$2^{c}>\\left(\\frac{1}{2}\\right)^{c}$"
           ],
           "answer": "D",
@@ -125,7 +125,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_liberal/q10_choiceD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "C",
-          "solution": "<p>抛物线 $y=ax^{2}+bx=x(ax+b)$ 必经过原点，另一个与横轴的交点为 $\\left(-\\frac{b}{a},0\\right)$. 直线 $y=ax+b$ 的斜率为 $a$，纵截距为 $b$，横截距同样为 $-\\frac{b}{a}$. 因此两条图象除原点外还必须在同一个非零横坐标处与横轴相交.</p><p>图 C 中，抛物线开口向下，故 $a&#x3C;0$；直线斜率为负且纵截距为正，故 $b>0$. 于是 $-\\frac{b}{a}>0$，两图象都经过原点并在同一个正横坐标处再次与横轴相交，完全符合上述条件. 图 A 的抛物线不经过原点，图 B 中抛物线开口方向与直线斜率不相容，图 D 中抛物线开口方向与直线斜率、纵截距不相容. 因此只可能是 C.</p>"
+          "solution": "<p>抛物线 $y=ax^{2}+bx=x(ax+b)$ 必经过原点，另一个与横轴的交点为 $\\left(-\\frac{b}{a},0\\right)$. 直线 $y=ax+b$ 的斜率为 $a$，纵截距为 $b$，横截距同样为 $-\\frac{b}{a}$. 因此两条图象除原点外还必须在同一个非零横坐标处与横轴相交.</p><p>图 C 中，抛物线开口向下，故 $a<0$；直线斜率为负且纵截距为正，故 $b>0$. 于是 $-\\frac{b}{a}>0$，两图象都经过原点并在同一个正横坐标处再次与横轴相交，完全符合上述条件. 图 A 的抛物线不经过原点，图 B 中抛物线开口方向与直线斜率不相容，图 D 中抛物线开口方向与直线斜率、纵截距不相容. 因此只可能是 C.</p>"
         }
       ]
     },

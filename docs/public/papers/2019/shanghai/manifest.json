@@ -12,7 +12,7 @@
           "body": "已知集合 $A=(-\\infty,3)$，$B=(2,+\\infty)$，则 $A\\cap B=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(2,3)$",
-          "solution": "同时满足 $x&#x3C;3$ 和 $x>2$ 的实数构成区间 $(2,3)$，所以 $A\\cap B=(2,3)$."
+          "solution": "同时满足 $x<3$ 和 $x>2$ 的实数构成区间 $(2,3)$，所以 $A\\cap B=(2,3)$."
         },
         {
           "num": 2,
@@ -44,10 +44,10 @@
         },
         {
           "num": 6,
-          "body": "已知函数 $f(x)$ 周期为 $1$，且当 $0&#x3C;x\\le1$ 时，$f(x)=-\\log_{2}x$，则 $f\\left(\\frac{3}{2}\\right)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知函数 $f(x)$ 周期为 $1$，且当 $0<x\\le1$ 时，$f(x)=-\\log_{2}x$，则 $f\\left(\\frac{3}{2}\\right)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$1$",
-          "solution": "因为 $1$ 是函数的周期，所以 $f\\left(\\frac{3}{2}\\right)=f\\left(\\frac{3}{2}-1\\right)=f\\left(\\frac{1}{2}\\right)$. 由于 $0&#x3C;\\frac{1}{2}\\le1$，有 $f\\left(\\frac{1}{2}\\right)=-\\log_{2}\\frac{1}{2}=1$，故 $f\\left(\\frac{3}{2}\\right)=1$."
+          "solution": "因为 $1$ 是函数的周期，所以 $f\\left(\\frac{3}{2}\\right)=f\\left(\\frac{3}{2}-1\\right)=f\\left(\\frac{1}{2}\\right)$. 由于 $0<\\frac{1}{2}\\le1$，有 $f\\left(\\frac{1}{2}\\right)=-\\log_{2}\\frac{1}{2}=1$，故 $f\\left(\\frac{3}{2}\\right)=1$."
         },
         {
           "num": 7,
@@ -79,17 +79,17 @@
         },
         {
           "num": 11,
-          "body": "已知数列 $\\{a_{n}\\}$ 满足 $a_{n}&#x3C;a_{n+1}$（$n\\in\\mathbb{N}^{*}$），若点 $P_{n}(n,a_{n})$ 在双曲线 $\\frac{x^{2}}{6}-\\frac{y^{2}}{2}=1$ 上，则 $\\displaystyle\\lim_{n\\to\\infty}|P_{n}P_{n+1}|=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知数列 $\\{a_{n}\\}$ 满足 $a_{n}<a_{n+1}$（$n\\in\\mathbb{N}^{*}$），若点 $P_{n}(n,a_{n})$ 在双曲线 $\\frac{x^{2}}{6}-\\frac{y^{2}}{2}=1$ 上，则 $\\displaystyle\\lim_{n\\to\\infty}|P_{n}P_{n+1}|=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\dfrac{2\\sqrt{3}}{3}$",
-          "solution": "<p>由点 $P_{n}(n,a_{n})$ 在双曲线上，得 $a_{n}^{2}=\\frac{n^{2}-6}{3}$. 对充分大的 $n$，双曲线的下支上的纵坐标随 $n$ 增大而减小，与 $a_{n}&#x3C;a_{n+1}$ 不相容，因此从某一项起只能取上支，即</p>\n$$\na_{n}=\\sqrt{\\frac{n^{2}-6}{3}}\n$$\n<p>于是</p>\n$$\na_{n+1}-a_{n}=\\frac{2n+1}{\\sqrt{3}\\left(\\sqrt{(n+1)^{2}-6}+\\sqrt{n^{2}-6}\\right)}\\longrightarrow\\frac{1}{\\sqrt{3}}\n$$\n<p>又因为 $P_{n}P_{n+1}$ 的横坐标差为 $1$，所以</p>\n$$\n\\lim_{n\\to\\infty}|P_{n}P_{n+1}|=\\sqrt{1+\\left(\\frac{1}{\\sqrt{3}}\\right)^{2}}=\\frac{2\\sqrt{3}}{3}\n$$"
+          "solution": "<p>由点 $P_{n}(n,a_{n})$ 在双曲线上，得 $a_{n}^{2}=\\frac{n^{2}-6}{3}$. 对充分大的 $n$，双曲线的下支上的纵坐标随 $n$ 增大而减小，与 $a_{n}<a_{n+1}$ 不相容，因此从某一项起只能取上支，即</p>\n$$\na_{n}=\\sqrt{\\frac{n^{2}-6}{3}}\n$$\n<p>于是</p>\n$$\na_{n+1}-a_{n}=\\frac{2n+1}{\\sqrt{3}\\left(\\sqrt{(n+1)^{2}-6}+\\sqrt{n^{2}-6}\\right)}\\longrightarrow\\frac{1}{\\sqrt{3}}\n$$\n<p>又因为 $P_{n}P_{n+1}$ 的横坐标差为 $1$，所以</p>\n$$\n\\lim_{n\\to\\infty}|P_{n}P_{n+1}|=\\sqrt{1+\\left(\\frac{1}{\\sqrt{3}}\\right)^{2}}=\\frac{2\\sqrt{3}}{3}\n$$"
         },
         {
           "num": 12,
           "body": "常数 $a>0$，将函数 $y=\\frac{2}{x}$（$x>0$）的图象先向右平移 $1$ 个单位，再向下平移 $a$ 个单位，然后将所得的图象在 $x$ 轴下方的部分沿 $x$ 轴向上翻折，其余部分保持不变，得到函数 $f(x)=\\left|\\frac{2}{x-1}-a\\right|$（$x>1$）的图象 $L$，当 $a=a_{0}$ 时，$L$ 与 $x$ 轴交点为 $A$，在 $L$ 上任意一点 $P$（$P$ 异于 $A$），总存在一点 $Q$ 使得 $AP\\perp AQ$ 且 $|AP|=|AQ|$，则 $a_{0}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\sqrt{2}$",
-          "solution": "<p>设 $A$ 的横坐标为 $x_{A}=1+\\frac{2}{a}$，并令 $u=x-x_{A}$，$v=y$. 因为 $x-1=\\frac{2}{a}+u$，图象 $L$ 在以 $A$ 为原点的坐标中可写为</p><p>$v=\\frac{a|u|}{\\frac{2}{a}+u}$，$u>-\\frac{2}{a}$.</p><p>取左支上一点 $P=(u,v)$，令 $s=-u$，则 $0&#x3C;s&#x3C;\\frac{2}{a}$，且 $v=\\frac{as}{\\frac{2}{a}-s}$. 将向量 $AP=(u,v)=(-s,v)$ 顺时针旋转 $90^{\\circ}$，得到向量 $AQ=(v,s)$. 它自动满足 $AP\\perp AQ$ 且 $|AP|=|AQ|$，而 $Q$ 在右支上当且仅当</p>\n$$\ns=\\frac{av}{\\frac{2}{a}+v}\n$$\n<p>代入 $v=\\frac{as}{\\frac{2}{a}-s}$ 并约去 $s>0$，得</p>\n$$\n\\frac{4}{a^{2}}+s\\left(a-\\frac{2}{a}\\right)=a^{2}\n$$\n<p>该等式对左支上的任意 $s$ 都成立，因此必须有 $a-\\frac{2}{a}=0$ 且 $\\frac{4}{a^{2}}=a^{2}$. 由 $a>0$ 得 $a^{2}=2$，即 $a_{0}=\\sqrt{2}$. 当 $a=\\sqrt{2}$ 时，上述旋转把左支逐点对应到右支，反向旋转又把右支逐点对应到左支，条件确实成立.</p>"
+          "solution": "<p>设 $A$ 的横坐标为 $x_{A}=1+\\frac{2}{a}$，并令 $u=x-x_{A}$，$v=y$. 因为 $x-1=\\frac{2}{a}+u$，图象 $L$ 在以 $A$ 为原点的坐标中可写为</p><p>$v=\\frac{a|u|}{\\frac{2}{a}+u}$，$u>-\\frac{2}{a}$.</p><p>取左支上一点 $P=(u,v)$，令 $s=-u$，则 $0<s<\\frac{2}{a}$，且 $v=\\frac{as}{\\frac{2}{a}-s}$. 将向量 $AP=(u,v)=(-s,v)$ 顺时针旋转 $90^{\\circ}$，得到向量 $AQ=(v,s)$. 它自动满足 $AP\\perp AQ$ 且 $|AP|=|AQ|$，而 $Q$ 在右支上当且仅当</p>\n$$\ns=\\frac{av}{\\frac{2}{a}+v}\n$$\n<p>代入 $v=\\frac{as}{\\frac{2}{a}-s}$ 并约去 $s>0$，得</p>\n$$\n\\frac{4}{a^{2}}+s\\left(a-\\frac{2}{a}\\right)=a^{2}\n$$\n<p>该等式对左支上的任意 $s$ 都成立，因此必须有 $a-\\frac{2}{a}=0$ 且 $\\frac{4}{a^{2}}=a^{2}$. 由 $a>0$ 得 $a^{2}=2$，即 $a_{0}=\\sqrt{2}$. 当 $a=\\sqrt{2}$ 时，上述旋转把左支逐点对应到右支，反向旋转又把右支逐点对应到左支，条件确实成立.</p>"
         }
       ]
     },
@@ -142,7 +142,7 @@
             "$①$错误，$②$正确"
           ],
           "answer": "D",
-          "solution": "<p>设 $p=\\tan\\alpha$，$q=\\tan\\beta$. 由正切和角公式，题设等价于</p>\n$$\npq(1-pq)=p+q\n$$\n<p>其中 $1-pq\\ne0$. 对命题 $①$，有 $p>0$，$q>0$. 令 $r=pq$，则等式右侧为正，故 $0&#x3C;r&#x3C;1$. 但由基本不等式，$p+q\\ge2\\sqrt{r}$，而 $r(1-r)&#x3C;r&#x3C;\\sqrt{r}$，不可能有 $p+q=r(1-r)$，所以命题 $①$ 错误.</p><p>对命题 $②$，有 $p&#x3C;0$，$q&#x3C;0$. 取 $p=q=-t$，其中 $t>1$ 为方程 $t^{3}-t-2=0$ 的正根. 因为该方程在 $1$ 和 $2$ 处的值分别为 $-2$ 和 $4$，这样的 $t$ 确实存在，且</p>\n$$\npq(1-pq)=t^{2}(1-t^{2})=-2t=p+q\n$$\n<p>所以可取第二象限的 $\\alpha$ 和第四象限的 $\\beta$，命题 $②$ 正确，故选 D.</p>"
+          "solution": "<p>设 $p=\\tan\\alpha$，$q=\\tan\\beta$. 由正切和角公式，题设等价于</p>\n$$\npq(1-pq)=p+q\n$$\n<p>其中 $1-pq\\ne0$. 对命题 $①$，有 $p>0$，$q>0$. 令 $r=pq$，则等式右侧为正，故 $0<r<1$. 但由基本不等式，$p+q\\ge2\\sqrt{r}$，而 $r(1-r)<r<\\sqrt{r}$，不可能有 $p+q=r(1-r)$，所以命题 $①$ 错误.</p><p>对命题 $②$，有 $p<0$，$q<0$. 取 $p=q=-t$，其中 $t>1$ 为方程 $t^{3}-t-2=0$ 的正根. 因为该方程在 $1$ 和 $2$ 处的值分别为 $-2$ 和 $4$，这样的 $t$ 确实存在，且</p>\n$$\npq(1-pq)=t^{2}(1-t^{2})=-2t=p+q\n$$\n<p>所以可取第二象限的 $\\alpha$ 和第四象限的 $\\beta$，命题 $②$ 正确，故选 D.</p>"
         }
       ]
     },
@@ -158,17 +158,17 @@
         },
         {
           "num": 18,
-          "body": "<p>已知 $f(x)=ax+\\frac{1}{x+1}$（$a\\in\\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，求不等式 $f(x)+1&#x3C;f(x+1)$ 的解集；</p></li><li><p>若 $x\\in[1,2]$ 时，$f(x)$ 有零点，求 $a$ 的范围.</p></li></ol>",
+          "body": "<p>已知 $f(x)=ax+\\frac{1}{x+1}$（$a\\in\\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，求不等式 $f(x)+1<f(x+1)$ 的解集；</p></li><li><p>若 $x\\in[1,2]$ 时，$f(x)$ 有零点，求 $a$ 的范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，定义域要求 $x\\ne-1$，$-2$. 不等式化为</p>\n$$\nx+\\frac{1}{x+1}+1&#x3C;x+1+\\frac{1}{x+2}\n$$\n<p>即 $\\frac{1}{x+1}&#x3C;\\frac{1}{x+2}$，所以 $\\frac{1}{(x+1)(x+2)}&#x3C;0$. 结合定义域，解得 $x\\in(-2,-1)$.</p></li><li><p>$f(x)$ 在 $[1,2]$ 内有零点，等价于存在 $x\\in[1,2]$ 使 $ax+\\frac{1}{x+1}=0$，即 $a=-\\frac{1}{x(x+1)}$. 因为 $x(x+1)$ 在 $[1,2]$ 上递增，取值范围为 $[2,6]$，所以 $a\\in\\left[-\\frac{1}{2},-\\frac{1}{6}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，定义域要求 $x\\ne-1$，$-2$. 不等式化为</p>\n$$\nx+\\frac{1}{x+1}+1<x+1+\\frac{1}{x+2}\n$$\n<p>即 $\\frac{1}{x+1}<\\frac{1}{x+2}$，所以 $\\frac{1}{(x+1)(x+2)}<0$. 结合定义域，解得 $x\\in(-2,-1)$.</p></li><li><p>$f(x)$ 在 $[1,2]$ 内有零点，等价于存在 $x\\in[1,2]$ 使 $ax+\\frac{1}{x+1}=0$，即 $a=-\\frac{1}{x(x+1)}$. 因为 $x(x+1)$ 在 $[1,2]$ 上递增，取值范围为 $[2,6]$，所以 $a\\in\\left[-\\frac{1}{2},-\\frac{1}{6}\\right]$.</p></li></ol>"
         },
         {
           "num": 19,
           "body": "<p>如图，某段海岸线可近似看作一条曲线，该曲线由线段 $AB$ 和四分之一圆弧 $\\widehat{BC}$ 构成，$D$ 为一海岛，$B$ 在 $D$ 的正北方向，且 $B$，$D$ 相距 $39.2\\text{ 千米}$，$A$ 在 $D$ 的北偏西 $58^{\\circ}$ 方向，$C$ 在 $D$ 的北偏东 $22^{\\circ}$ 方向，$C$ 在 $B$ 的南偏东 $68^{\\circ}$ 方向.</p><ol class=\"enumerate\"><li><p>若沿弧 $\\widehat{BC}$ 建观光道，计算该观光道的长度；（精确到 $0.001\\text{ 千米}$）</p></li><li><p>现规划在该海岸线上选取一点 $E$，修建从 $E$ 直通 $D$ 的公路桥，已知 $A$，$B$ 相距 $40\\text{ 千米}$，求公路桥 $DE$ 的最短长度.（精确到 $0.001\\text{ 千米}$）</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在 $\\triangle BCD$ 中，$\\angle BCD=180^{\\circ}-68^{\\circ}-22^{\\circ}=90^{\\circ}$，所以 $BC=BD\\cos68^{\\circ}=39.2\\cos68^{\\circ}$. 设四分之一圆弧所在圆的半径为 $r$，因为弦 $BC$ 所对的圆心角为 $90^{\\circ}$，所以 $BC=2r\\sin45^{\\circ}=r\\sqrt{2}$. 因而观光道长度为</p>\n$$\n\\frac{\\pi}{2}r=\\frac{\\pi\\cdot39.2\\cos68^{\\circ}}{2\\sqrt{2}}\\approx16.310\\mathrm{~km}\n$$\n</li><li><p>在 $\\triangle ADB$ 中，$\\angle ADB=58^{\\circ}$，$AB=40$，$BD=39.2$. 由正弦定理，</p>\n$$\n\\sin\\angle DAB=\\frac{BD\\sin58^{\\circ}}{AB}=\\frac{39.2\\sin58^{\\circ}}{40}\n$$\n<p>由三角形内角和得 $\\angle DAB\\approx56.211^{\\circ}$，所以 $\\angle ABD\\approx65.789^{\\circ}$. 过 $D$ 作 $AB$ 的垂线，垂足为 $H$. 因为 $\\angle DAB$ 和 $\\angle ABD$ 均为锐角，故 $H$ 在线段 $AB$ 上，且</p>\n$$\nDH=BD\\sin\\angle ABD\\approx35.752\\mathrm{~km}\n$$\n<p>另一方面，$\\triangle BCD$ 在 $C$ 处为直角，$DC=BD\\sin68^{\\circ}\\approx36.346\\mathrm{~km}$. 任取弧 $\\widehat{BC}$ 上一点 $X$，由图可知 $X$ 与 $D$ 分居直线 $BC$ 两侧；又 $DC\\perp BC$，所以 $X$ 到直线 $BC$ 的距离为 $DC+\\operatorname{dist}(X,BC)\\ge DC$，从而 $DX\\ge DC$. 由于 $DH&#x3C;DC$，海岸线 $AB\\cup\\widehat{BC}$ 上到 $D$ 的最短距离为 $DH$，即公路桥 $DE$ 的最短长度为 $35.752\\mathrm{~km}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在 $\\triangle BCD$ 中，$\\angle BCD=180^{\\circ}-68^{\\circ}-22^{\\circ}=90^{\\circ}$，所以 $BC=BD\\cos68^{\\circ}=39.2\\cos68^{\\circ}$. 设四分之一圆弧所在圆的半径为 $r$，因为弦 $BC$ 所对的圆心角为 $90^{\\circ}$，所以 $BC=2r\\sin45^{\\circ}=r\\sqrt{2}$. 因而观光道长度为</p>\n$$\n\\frac{\\pi}{2}r=\\frac{\\pi\\cdot39.2\\cos68^{\\circ}}{2\\sqrt{2}}\\approx16.310\\mathrm{~km}\n$$\n</li><li><p>在 $\\triangle ADB$ 中，$\\angle ADB=58^{\\circ}$，$AB=40$，$BD=39.2$. 由正弦定理，</p>\n$$\n\\sin\\angle DAB=\\frac{BD\\sin58^{\\circ}}{AB}=\\frac{39.2\\sin58^{\\circ}}{40}\n$$\n<p>由三角形内角和得 $\\angle DAB\\approx56.211^{\\circ}$，所以 $\\angle ABD\\approx65.789^{\\circ}$. 过 $D$ 作 $AB$ 的垂线，垂足为 $H$. 因为 $\\angle DAB$ 和 $\\angle ABD$ 均为锐角，故 $H$ 在线段 $AB$ 上，且</p>\n$$\nDH=BD\\sin\\angle ABD\\approx35.752\\mathrm{~km}\n$$\n<p>另一方面，$\\triangle BCD$ 在 $C$ 处为直角，$DC=BD\\sin68^{\\circ}\\approx36.346\\mathrm{~km}$. 任取弧 $\\widehat{BC}$ 上一点 $X$，由图可知 $X$ 与 $D$ 分居直线 $BC$ 两侧；又 $DC\\perp BC$，所以 $X$ 到直线 $BC$ 的距离为 $DC+\\operatorname{dist}(X,BC)\\ge DC$，从而 $DX\\ge DC$. 由于 $DH<DC$，海岸线 $AB\\cup\\widehat{BC}$ 上到 $D$ 的最短距离为 $DH$，即公路桥 $DE$ 的最短长度为 $35.752\\mathrm{~km}$.</p></li></ol>"
         },
         {
           "num": 20,
@@ -182,7 +182,7 @@
           "body": "<p>数列 $\\{a_{n}\\}$ 有 $100$ 项，$a_{1}=a$，对任意 $n\\in[2,100]$，存在 $i$ 使得 $a_{n}=a_{i}+d$，$i\\in[1,n-1]$，若 $a_{k}$ 与其之前中某一项相等，则称 $a_{k}$ 具有性质 $P$.</p><ol class=\"enumerate\"><li><p>若 $a_{1}=1$，$d=2$，求 $a_{4}$ 所有可能的值；</p></li><li><p>若 $\\{a_{n}\\}$ 不是等差数列，求证：$\\{a_{n}\\}$ 中存在具有性质 $P$ 的项；</p></li><li><p>若 $\\{a_{n}\\}$ 中恰有三项具有性质 $P$，这三项和为 $c$，试用 $a$，$d$，$c$ 表示 $a_{1}+a_{2}+\\cdots+a_{100}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $a_{2}=a_{1}+d=3$，所以 $a_{3}$ 可以取 $a_{1}+d=3$ 或 $a_{2}+d=5$. 若 $a_{3}=3$，则 $a_{4}$ 可以取 $a_{1}+d=3$ 或 $a_{2}+d=5$；若 $a_{3}=5$，则 $a_{4}$ 可以取 $3$，$5$ 或 $7$. 因此 $a_{4}$ 的所有可能值为 $3$，$5$，$7$.</p></li><li><p>用反证法. 假设数列中不存在具有性质 $P$ 的项，即每一项都不等于它之前的任何一项. 对 $n=2$，由条件只能有 $a_{2}=a_{1}+d$. 假设对所有 $j&#x3C;n$ 有 $a_{j}=a+(j-1)d$. 由条件存在 $i&#x3C;n$ 使得 $a_{n}=a_{i}+d=a+id$. 若 $i&#x3C;n-1$，则 $a_{n}=a+id=a_{i+1}$，这使 $a_{n}$ 与之前一项相等，矛盾. 所以只能有 $i=n-1$，从而 $a_{n}=a_{n-1}+d=a+(n-1)d$. 归纳可知数列是等差数列，和题设“不是等差数列”矛盾，因此数列中必存在具有性质 $P$ 的项.</p></li><li><p>先说明 $d\\ne0$. 若 $d=0$，则对每个 $n\\ge2$ 都有 $a_{n}=a_{i}$，从而至少有 $99$ 项具有性质 $P$，与题设矛盾. 令</p>\n$$\nb_{n}=\\frac{a_{n}-a}{d}\n$$\n<p>则 $b_{1}=0$，且每个 $n\\ge2$ 都满足 $b_{n}=b_{i}+1$. 若当前已经出现的不同数值为 $0$，$1$，$\\ldots$，$m$，则下一项只能取 $1$，$2$，$\\ldots$，$m+1$：取其中已经出现的数值时产生性质 $P$，取未出现的数值时只能取新的最大值 $m+1$. 因而每个不具有性质 $P$ 的项依次给出新的数值 $0$，$1$，$\\ldots$.</p><p>总共有 $100-3=97$ 项不具有性质 $P$，它们的数值正好为 $a$，$a+d$，$\\ldots$，$a+96d$. 设三项具有性质 $P$ 的项对应的增量分别为 $r_{1}d$，$r_{2}d$，$r_{3}d$，则这三项的和为 $c=3a+(r_{1}+r_{2}+r_{3})d$. 所以</p>\n$$\na_{1}+a_{2}+\\cdots+a_{100}=\\left(97a+d\\sum_{j=0}^{96}j\\right)+c=97a+4656d+c\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $a_{2}=a_{1}+d=3$，所以 $a_{3}$ 可以取 $a_{1}+d=3$ 或 $a_{2}+d=5$. 若 $a_{3}=3$，则 $a_{4}$ 可以取 $a_{1}+d=3$ 或 $a_{2}+d=5$；若 $a_{3}=5$，则 $a_{4}$ 可以取 $3$，$5$ 或 $7$. 因此 $a_{4}$ 的所有可能值为 $3$，$5$，$7$.</p></li><li><p>用反证法. 假设数列中不存在具有性质 $P$ 的项，即每一项都不等于它之前的任何一项. 对 $n=2$，由条件只能有 $a_{2}=a_{1}+d$. 假设对所有 $j<n$ 有 $a_{j}=a+(j-1)d$. 由条件存在 $i<n$ 使得 $a_{n}=a_{i}+d=a+id$. 若 $i<n-1$，则 $a_{n}=a+id=a_{i+1}$，这使 $a_{n}$ 与之前一项相等，矛盾. 所以只能有 $i=n-1$，从而 $a_{n}=a_{n-1}+d=a+(n-1)d$. 归纳可知数列是等差数列，和题设“不是等差数列”矛盾，因此数列中必存在具有性质 $P$ 的项.</p></li><li><p>先说明 $d\\ne0$. 若 $d=0$，则对每个 $n\\ge2$ 都有 $a_{n}=a_{i}$，从而至少有 $99$ 项具有性质 $P$，与题设矛盾. 令</p>\n$$\nb_{n}=\\frac{a_{n}-a}{d}\n$$\n<p>则 $b_{1}=0$，且每个 $n\\ge2$ 都满足 $b_{n}=b_{i}+1$. 若当前已经出现的不同数值为 $0$，$1$，$\\ldots$，$m$，则下一项只能取 $1$，$2$，$\\ldots$，$m+1$：取其中已经出现的数值时产生性质 $P$，取未出现的数值时只能取新的最大值 $m+1$. 因而每个不具有性质 $P$ 的项依次给出新的数值 $0$，$1$，$\\ldots$.</p><p>总共有 $100-3=97$ 项不具有性质 $P$，它们的数值正好为 $a$，$a+d$，$\\ldots$，$a+96d$. 设三项具有性质 $P$ 的项对应的增量分别为 $r_{1}d$，$r_{2}d$，$r_{3}d$，则这三项的和为 $c=3a+(r_{1}+r_{2}+r_{3})d$. 所以</p>\n$$\na_{1}+a_{2}+\\cdots+a_{100}=\\left(97a+d\\sum_{j=0}^{96}j\\right)+c=97a+4656d+c\n$$\n</li></ol>"
         }
       ]
     }

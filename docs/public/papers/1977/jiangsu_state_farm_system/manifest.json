@@ -26,7 +26,7 @@
           "body": "用长 $60\\text{ 米}$ 的篱笆围成一矩形养鸡场，一面利用原有旧墙，问矩形的长和宽各多少米才能使所围成的面积最大？",
           "choices": null,
           "answer": "",
-          "solution": "<p>设矩形的宽为 $x\\text{ 米}$，沿墙的一边为长，则篱笆围成的三边中有两条宽和一条长，因此矩形的长为 $60-2x\\text{ 米}$，其中 $0&#x3C;x&#x3C;30$. 设面积为 $S$，则 $S=x(60-2x)=-2x^{2}+60x=-2(x-15)^{2}+450$.</p><p>因为 $(x-15)^{2}\\geqslant0$，所以 $S=-2(x-15)^{2}+450\\leqslant450$，且当且仅当 $x=15$ 时等号成立. 此时矩形的长为 $60-2\\times15=30\\text{ 米}$，宽为 $15\\text{ 米}$，最大面积为 $450\\text{ 平方米}$.</p>"
+          "solution": "<p>设矩形的宽为 $x\\text{ 米}$，沿墙的一边为长，则篱笆围成的三边中有两条宽和一条长，因此矩形的长为 $60-2x\\text{ 米}$，其中 $0<x<30$. 设面积为 $S$，则 $S=x(60-2x)=-2x^{2}+60x=-2(x-15)^{2}+450$.</p><p>因为 $(x-15)^{2}\\geqslant0$，所以 $S=-2(x-15)^{2}+450\\leqslant450$，且当且仅当 $x=15$ 时等号成立. 此时矩形的长为 $60-2\\times15=30\\text{ 米}$，宽为 $15\\text{ 米}$，最大面积为 $450\\text{ 平方米}$.</p>"
         },
         {
           "num": 4,
@@ -61,7 +61,7 @@
           "body": "等腰三角形 $ABC$ 的顶角 $A$ 为 $100^{\\circ}$，底角 $B$ 的平分线交腰 $AC$ 于 $D$，求证：$BC=AD+BD$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $AB=AC$，所以 $\\angle B=\\angle C=40^{\\circ}$. 又因为 $BD$ 平分底角 $B$，所以 $\\angle ABD=\\angle DBC=20^{\\circ}$. 在三角形 $BDC$ 中，$\\angle BDC=180^{\\circ}-20^{\\circ}-40^{\\circ}=120^{\\circ}$. 由正弦定理得 $\\frac{BD}{BC}=\\frac{\\sin40^{\\circ}}{\\sin120^{\\circ}}$. 因为正弦函数在 $[0^{\\circ},90^{\\circ}]$ 上递增，且 $\\sin120^{\\circ}=\\sin60^{\\circ}>\\sin40^{\\circ}$，所以 $BD&#x3C;BC$. 因而可在边 $BC$ 上取点 $E$，使得 $BE=BD$.</p><p>在等腰三角形 $BDE$ 中，$\\angle DBE=\\angle DBC=20^{\\circ}$，所以 $\\angle BDE=\\angle BED=80^{\\circ}$. 又因为 $D$ 在 $AC$ 上，$\\angle BAD=\\angle BAC=100^{\\circ}$，从而 $\\angle BED+\\angle BAD=180^{\\circ}$. 因此凸四边形 $BEDA$ 为圆内接四边形.</p><p>由同弧所对的圆周角相等，得 $\\angle EAD=\\angle EBD=20^{\\circ}$，$\\angle AED=\\angle ABD=20^{\\circ}$. 所以在三角形 $AED$ 中，$\\angle EAD=\\angle AED$，从而 $AD=DE$.</p><p>在三角形 $DCE$ 中，$\\angle DCE=\\angle ACB=40^{\\circ}$，且因为 $EB$ 与 $EC$ 为反向射线，$\\angle DEC=180^{\\circ}-\\angle DEB=180^{\\circ}-80^{\\circ}=100^{\\circ}$，所以 $\\angle CDE=180^{\\circ}-40^{\\circ}-100^{\\circ}=40^{\\circ}$. 因而 $DE=EC$. 最后，$BC=BE+EC=BD+DE=BD+AD$，所以 $BC=AD+BD$.</p>"
+          "solution": "<p>因为 $AB=AC$，所以 $\\angle B=\\angle C=40^{\\circ}$. 又因为 $BD$ 平分底角 $B$，所以 $\\angle ABD=\\angle DBC=20^{\\circ}$. 在三角形 $BDC$ 中，$\\angle BDC=180^{\\circ}-20^{\\circ}-40^{\\circ}=120^{\\circ}$. 由正弦定理得 $\\frac{BD}{BC}=\\frac{\\sin40^{\\circ}}{\\sin120^{\\circ}}$. 因为正弦函数在 $[0^{\\circ},90^{\\circ}]$ 上递增，且 $\\sin120^{\\circ}=\\sin60^{\\circ}>\\sin40^{\\circ}$，所以 $BD<BC$. 因而可在边 $BC$ 上取点 $E$，使得 $BE=BD$.</p><p>在等腰三角形 $BDE$ 中，$\\angle DBE=\\angle DBC=20^{\\circ}$，所以 $\\angle BDE=\\angle BED=80^{\\circ}$. 又因为 $D$ 在 $AC$ 上，$\\angle BAD=\\angle BAC=100^{\\circ}$，从而 $\\angle BED+\\angle BAD=180^{\\circ}$. 因此凸四边形 $BEDA$ 为圆内接四边形.</p><p>由同弧所对的圆周角相等，得 $\\angle EAD=\\angle EBD=20^{\\circ}$，$\\angle AED=\\angle ABD=20^{\\circ}$. 所以在三角形 $AED$ 中，$\\angle EAD=\\angle AED$，从而 $AD=DE$.</p><p>在三角形 $DCE$ 中，$\\angle DCE=\\angle ACB=40^{\\circ}$，且因为 $EB$ 与 $EC$ 为反向射线，$\\angle DEC=180^{\\circ}-\\angle DEB=180^{\\circ}-80^{\\circ}=100^{\\circ}$，所以 $\\angle CDE=180^{\\circ}-40^{\\circ}-100^{\\circ}=40^{\\circ}$. 因而 $DE=EC$. 最后，$BC=BE+EC=BD+DE=BD+AD$，所以 $BC=AD+BD$.</p>"
         }
       ]
     }

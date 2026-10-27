@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "<p>设集合 $A=\\{-1,1,2,3,5\\}$，$B=\\{2,3,4\\}$，$C=\\{x\\in \\mathbb{R}\\mid 1\\le x&#x3C;3\\}$，则 $(A\\cap C)\\cup B=$（ ）</p><p>D</p>",
+          "body": "<p>设集合 $A=\\{-1,1,2,3,5\\}$，$B=\\{2,3,4\\}$，$C=\\{x\\in \\mathbb{R}\\mid 1\\le x<3\\}$，则 $(A\\cap C)\\cup B=$（ ）</p><p>D</p>",
           "choices": [
             "$\\{2\\}$",
             "$\\{2,3\\}$",
@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "<p>设 $x\\in \\mathbb{R}$，则“$x^{2}-5x&#x3C;0$”是“$|x-1|&#x3C;1$”的（ ）</p><p>B</p>",
+          "body": "<p>设 $x\\in \\mathbb{R}$，则“$x^{2}-5x<0$”是“$|x-1|<1$”的（ ）</p><p>B</p>",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -71,17 +71,17 @@
           "num": 6,
           "body": "<p>已知 $a=\\log_{5} 2$，$b=\\log_{0.5}0.2$，$c=0.5^{0.2}$，则 $a$，$b$，$c$ 的大小关系为（ ）</p><p>A</p>",
           "choices": [
-            "$a&#x3C;c&#x3C;b$",
-            "$a&#x3C;b&#x3C;c$",
-            "$b&#x3C;c&#x3C;a$",
-            "$c&#x3C;a&#x3C;b$"
+            "$a<c<b$",
+            "$a<b<c$",
+            "$b<c<a$",
+            "$c<a<b$"
           ],
           "answer": "",
           "solution": ""
         },
         {
           "num": 7,
-          "body": "<p>已知函数 $f(x)=A\\sin(\\omega x+\\varphi)$（$A>0$，$\\omega>0$，$|\\varphi|&#x3C;\\pi$）是奇函数，将 $y=f(x)$ 的图象上所有点的横坐标伸长到原来的 $2$ 倍（纵坐标不变），所得图象对应的函数为 $g(x)$. 若 $g(x)$ 的最小正周期为 $2\\pi$，且 $g\\!\\left( \\dfrac{\\pi}{4}\\right)=\\sqrt{2}$，则 $f\\!\\left( \\dfrac{3\\pi}{8}\\right)=$（ ）</p><p>C</p>",
+          "body": "<p>已知函数 $f(x)=A\\sin(\\omega x+\\varphi)$（$A>0$，$\\omega>0$，$|\\varphi|<\\pi$）是奇函数，将 $y=f(x)$ 的图象上所有点的横坐标伸长到原来的 $2$ 倍（纵坐标不变），所得图象对应的函数为 $g(x)$. 若 $g(x)$ 的最小正周期为 $2\\pi$，且 $g\\!\\left( \\dfrac{\\pi}{4}\\right)=\\sqrt{2}$，则 $f\\!\\left( \\dfrac{3\\pi}{8}\\right)=$（ ）</p><p>C</p>",
           "choices": [
             "$-2$",
             "$-\\sqrt{2}$",
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "<p>已知 $a\\in \\mathbb{R}$，设函数 $f(x)=\\begin{cases}x^{2}-2ax+2a,&#x26;x\\le 1,\\\\  x-a\\ln x,&#x26;x>1.\\end{cases}$</p><p>若关于 $x$ 的不等式 $f(x)\\ge 0$ 在 $\\mathbb{R}$ 上恒成立，则 $a$ 的取值范围为（ ）</p><p>C</p>",
+          "body": "<p>已知 $a\\in \\mathbb{R}$，设函数 $f(x)=\\begin{cases}x^{2}-2ax+2a,&x\\le 1,\\\\  x-a\\ln x,&x>1.\\end{cases}$</p><p>若关于 $x$ 的不等式 $f(x)\\ge 0$ 在 $\\mathbb{R}$ 上恒成立，则 $a$ 的取值范围为（ ）</p><p>C</p>",
           "choices": [
             "$[0,1]$",
             "$[0,2]$",
@@ -160,7 +160,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $b+c=2a$，$3c\\sin B=4a\\sin C$.</p><ol class=\"enumerate\"><li><p>求 $\\cos B$ 的值；</p></li><li><p>求 $\\sin \\left( 2B+\\dfrac{\\pi}{6}\\right)$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理 $\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$ 得 $c\\sin B=b\\sin C$，结合 $3c\\sin B=4a\\sin C$ 得 $3b\\sin C=4a\\sin C$. 因为 $\\sin C>0$，所以 $3b=4a$，即 $b=\\dfrac{4a}{3}$. 又 $b+c=2a$，所以 $c=2a-b=\\dfrac{2a}{3}$. 由余弦定理，</p>\n$$\n\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2ac}=\\frac{a^{2}+\\frac{4a^2}{9}-\\frac{16a^2}{9}}{2\\cdot a\\cdot\\frac{2a}{3}}=\\frac{-\\frac{a^{2}}{3}}{\\frac{4a^{2}}{3}}=-\\frac{1}{4}\n$$\n</li><li><p>因为 $0&#x3C;B&#x3C;\\pi$，由 $\\cos B=-\\dfrac{1}{4}$ 得 $\\sin B=\\sqrt{1-\\cos^{2}B}=\\dfrac{\\sqrt{15}}{4}$. 从而 $\\sin 2B=2\\sin B\\cos B=-\\dfrac{\\sqrt{15}}{8}$，$\\cos 2B=2\\cos^{2}B-1=-\\dfrac{7}{8}$. 所以</p>\n$$\n\\sin\\left(2B+\\frac{\\pi}{6}\\right)=\\sin 2B\\cos\\frac{\\pi}{6}+\\cos 2B\\sin\\frac{\\pi}{6}=-\\frac{\\sqrt{15}}{8}\\times\\frac{\\sqrt{3}}{2}-\\frac{7}{8}\\times\\frac{1}{2}=-\\frac{3\\sqrt{5}+7}{16}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理 $\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$ 得 $c\\sin B=b\\sin C$，结合 $3c\\sin B=4a\\sin C$ 得 $3b\\sin C=4a\\sin C$. 因为 $\\sin C>0$，所以 $3b=4a$，即 $b=\\dfrac{4a}{3}$. 又 $b+c=2a$，所以 $c=2a-b=\\dfrac{2a}{3}$. 由余弦定理，</p>\n$$\n\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2ac}=\\frac{a^{2}+\\frac{4a^2}{9}-\\frac{16a^2}{9}}{2\\cdot a\\cdot\\frac{2a}{3}}=\\frac{-\\frac{a^{2}}{3}}{\\frac{4a^{2}}{3}}=-\\frac{1}{4}\n$$\n</li><li><p>因为 $0<B<\\pi$，由 $\\cos B=-\\dfrac{1}{4}$ 得 $\\sin B=\\sqrt{1-\\cos^{2}B}=\\dfrac{\\sqrt{15}}{4}$. 从而 $\\sin 2B=2\\sin B\\cos B=-\\dfrac{\\sqrt{15}}{8}$，$\\cos 2B=2\\cos^{2}B-1=-\\dfrac{7}{8}$. 所以</p>\n$$\n\\sin\\left(2B+\\frac{\\pi}{6}\\right)=\\sin 2B\\cos\\frac{\\pi}{6}+\\cos 2B\\sin\\frac{\\pi}{6}=-\\frac{\\sqrt{15}}{8}\\times\\frac{\\sqrt{3}}{2}-\\frac{7}{8}\\times\\frac{1}{2}=-\\frac{3\\sqrt{5}+7}{16}\n$$\n</li></ol>"
         },
         {
           "num": 16,
@@ -185,17 +185,17 @@
         },
         {
           "num": 19,
-          "body": "<p>设 $\\{a_{n}\\}$ 是等差数列，$\\{b_{n}\\}$ 是等比数列. 已知 $a_{1}=4$，$b_{1}=6$，$b_{2}=2a_{2}-2$，$b_{3}=2a_{3}+4$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>设数列 $\\{c_{n}\\}$ 满足 $c_{1}=1$，$c_{n}=\\begin{cases}1,&#x26;2^{k}&#x3C;n&#x3C;2^{k+1},\\\\  b_{k},&#x26;n=2^{k},\\end{cases}$ 其中 $k\\in \\mathbb{N}^{*}$.</p><p></p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{2^n}(c_{2^n}-1)\\}$ 的通项公式；</p></li><li><p>求 $\\sum_{i=1}^{2^n}a_{i}c_{i}$（$n\\in \\mathbb{N}^{*}$）.</p></li></ol><p></p></li></ol>",
+          "body": "<p>设 $\\{a_{n}\\}$ 是等差数列，$\\{b_{n}\\}$ 是等比数列. 已知 $a_{1}=4$，$b_{1}=6$，$b_{2}=2a_{2}-2$，$b_{3}=2a_{3}+4$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>设数列 $\\{c_{n}\\}$ 满足 $c_{1}=1$，$c_{n}=\\begin{cases}1,&2^{k}<n<2^{k+1},\\\\  b_{k},&n=2^{k},\\end{cases}$ 其中 $k\\in \\mathbb{N}^{*}$.</p><p></p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{2^n}(c_{2^n}-1)\\}$ 的通项公式；</p></li><li><p>求 $\\sum_{i=1}^{2^n}a_{i}c_{i}$（$n\\in \\mathbb{N}^{*}$）.</p></li></ol><p></p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>设 $\\{a_{n}\\}$ 的公差为 $d$，$\\{b_{n}\\}$ 的公比为 $q$. 由 $a_{1}=4$，$b_{1}=6$ 得 $a_{2}=4+d$，$a_{3}=4+2d$，$b_{2}=6q$，$b_{3}=6q^{2}$. 由 $b_{2}=2a_{2}-2$ 得 $6q=2d+6$，即 $d=3q-3$；由 $b_{3}=2a_{3}+4$ 得 $6q^{2}=4d+12$. 将 $d=3q-3$ 代入得 $6q^{2}=12q$，即 $q^{2}=2q$. 因为 $q\\ne0$，所以 $q=2$，从而 $d=3$. 故 $a_{n}=4+3(n-1)=3n+1$，$b_{n}=6\\times2^{n-1}=3\\times2^{n}$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>由 $c_{n}$ 的定义，$c_{2^n}=b_{n}=3\\times2^{n}$，又 $a_{2^n}=3\\times2^{n}+1$，故 $a_{2^n}(c_{2^n}-1)=(3\\times2^{n}+1)(3\\times2^{n}-1)=9\\times4^{n}-1$.</p></li><li><p>当 $i=2^{k}$（$1\\le k\\le n$）时 $c_{i}=b_{k}=3\\times2^{k}$，其余 $i\\le2^{n}$ 时 $c_{i}=1$，所以</p>\n$$\n\\sum_{i=1}^{2^n}a_{i}c_{i}=\\sum_{i=1}^{2^n}(3i+1)+\\sum_{k=1}^{n}a_{2^k}(c_{2^k}-1)=\\frac{3}{2}\\times2^{n}(2^{n}+1)+2^{n}+\\sum_{k=1}^{n}(9\\times4^{k}-1)\n$$\n<p>其中 $\\displaystyle\\sum_{k=1}^{n}4^{k}=\\dfrac{4(4^n-1)}{3}$，所以 $\\displaystyle\\sum_{k=1}^{n}(9\\times4^{k}-1)=12(4^{n}-1)-n$. 从而 $\\displaystyle\\sum_{i=1}^{2^n}a_{i}c_{i}=\\dfrac{3}{2}\\times4^{n}+\\dfrac{5}{2}\\times2^{n}+12\\times4^{n}-12-n=27\\times2^{2n-1}+5\\times2^{n-1}-n-12$.</p></li></ol><p></p></li></ol>"
         },
         {
           "num": 20,
-          "body": "<p>设函数 $f(x)=\\mathrm{e}^{x}\\cos x$，$g(x)$ 为 $f(x)$ 的导函数.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>当 $x\\in \\left[ \\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right]$ 时，证明 $f(x)+g(x)\\left( \\dfrac{\\pi}{2}-x \\right)\\ge 0$；</p></li><li><p>设 $x_{n}$ 为函数 $u(x)=f(x)-1$ 在区间 $\\left( 2n\\pi+\\dfrac{\\pi}{4},2n\\pi+\\dfrac{\\pi}{2}\\right)$ 内的零点，其中 $n\\in \\mathbb{N}$，证明</p><p>$2n\\pi+\\dfrac{\\pi}{2}-x_{n}&#x3C;\\dfrac{\\mathrm{e}^{-2n\\pi}}{\\sin x_0-\\cos x_0}$.</p></li></ol>",
+          "body": "<p>设函数 $f(x)=\\mathrm{e}^{x}\\cos x$，$g(x)$ 为 $f(x)$ 的导函数.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>当 $x\\in \\left[ \\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right]$ 时，证明 $f(x)+g(x)\\left( \\dfrac{\\pi}{2}-x \\right)\\ge 0$；</p></li><li><p>设 $x_{n}$ 为函数 $u(x)=f(x)-1$ 在区间 $\\left( 2n\\pi+\\dfrac{\\pi}{4},2n\\pi+\\dfrac{\\pi}{2}\\right)$ 内的零点，其中 $n\\in \\mathbb{N}$，证明</p><p>$2n\\pi+\\dfrac{\\pi}{2}-x_{n}<\\dfrac{\\mathrm{e}^{-2n\\pi}}{\\sin x_0-\\cos x_0}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=\\mathrm{e}^{x}\\cos x-\\mathrm{e}^{x}\\sin x=\\mathrm{e}^{x}(\\cos x-\\sin x)=\\sqrt{2}\\,\\mathrm{e}^{x}\\cos\\left(x+\\dfrac\\pi4\\right)$. 由 $f'(x)>0$ 得 $\\cos\\left(x+\\dfrac\\pi4\\right)>0$，即 $2k\\pi-\\dfrac\\pi2&#x3C;x+\\dfrac\\pi4&#x3C;2k\\pi+\\dfrac\\pi2$，解得 $2k\\pi-\\dfrac{3\\pi}{4}&#x3C;x&#x3C;2k\\pi+\\dfrac\\pi4$（$k\\in\\mathbb{Z}$）. 所以 $f(x)$ 的单调递增区间为 $\\left[2k\\pi-\\dfrac{3\\pi}{4},2k\\pi+\\dfrac\\pi4\\right]$，单调递减区间为 $\\left[2k\\pi+\\dfrac\\pi4,2k\\pi+\\dfrac{5\\pi}{4}\\right]$（$k\\in\\mathbb{Z}$）.</p></li><li><p>因为 $g(x)=f'(x)=\\mathrm{e}^{x}(\\cos x-\\sin x)$，所以 $f(x)+g(x)\\left(\\dfrac\\pi2-x\\right)=\\mathrm{e}^{x}\\left[\\cos x+(\\cos x-\\sin x)\\left(\\dfrac\\pi2-x\\right)\\right]$. 令 $t=\\dfrac\\pi2-x$，则 $t\\in\\left[0,\\dfrac\\pi4\\right]$，且 $\\cos x=\\sin t$，$\\sin x=\\cos t$，于是上式括号内为 $h(t)=\\sin t+t(\\sin t-\\cos t)$，且 $h(0)=0$. 因为 $h'(t)=\\cos t+(\\sin t-\\cos t)+t(\\cos t+\\sin t)=\\sin t+t(\\cos t+\\sin t)>0$（$0&#x3C;t\\le\\dfrac\\pi4$），所以 $h(t)$ 在 $\\left[0,\\dfrac\\pi4\\right]$ 上单调递增，故 $h(t)\\ge h(0)=0$. 又 $\\mathrm{e}^{x}>0$，所以 $f(x)+g(x)\\left(\\dfrac\\pi2-x\\right)\\ge0$.</p></li><li><p>当 $x\\in\\left(2n\\pi+\\dfrac\\pi4,2n\\pi+\\dfrac\\pi2\\right)$ 时，$f'(x)=\\sqrt{2}\\,\\mathrm{e}^{x}\\cos\\left(x+\\dfrac\\pi4\\right)&#x3C;0$，所以 $f(x)$ 在该区间上单调递减. 又 $u\\left(2n\\pi+\\dfrac\\pi4\\right)=\\mathrm{e}^{2n\\pi+\\frac{\\pi}{4}}\\cdot\\dfrac{\\sqrt{2}}{2}-1>0$，$u\\left(2n\\pi+\\dfrac\\pi2\\right)=-1&#x3C;0$，所以 $x_{n}$ 存在且唯一. 记 $x_{0}$ 为 $u(x)$ 在 $\\left(\\dfrac\\pi4,\\dfrac\\pi2\\right)$ 内的零点，则 $\\mathrm{e}^{x_0}\\cos x_{0}=1$. 令 $y=x_{n}-2n\\pi$，则 $y\\in\\left(\\dfrac\\pi4,\\dfrac\\pi2\\right)$ 且 $\\mathrm{e}^{y}\\cos y=\\mathrm{e}^{-2n\\pi}$. 因为 $\\mathrm{e}^{t}\\cos t$ 在 $\\left(\\dfrac\\pi4,\\dfrac\\pi2\\right)$ 上单调递减，且 $\\mathrm{e}^{y}\\cos y=\\mathrm{e}^{-2n\\pi}&#x3C;1=\\mathrm{e}^{x_0}\\cos x_{0}$，所以 $y>x_{0}$. 设 $H(t)=\\left(\\dfrac\\pi2-t\\right)(\\sin x_{0}-\\cos x_{0})-\\mathrm{e}^{t}\\cos t$（$x_{0}\\le t&#x3C;\\dfrac\\pi2$）. 因为 $\\dfrac\\pi2-x_{0}\\in\\left(0,\\dfrac\\pi4\\right)$，所以 $H(x_{0})=\\left(\\dfrac\\pi2-x_{0}\\right)(\\sin x_{0}-\\cos x_{0})-1&#x3C;\\dfrac\\pi4\\times1-1&#x3C;0$，且 $H\\left(\\dfrac\\pi2\\right)=0$. 又 $H''(t)=2\\mathrm{e}^{t}\\sin t>0$，故 $H(t)$ 为凸函数，凸函数在两点间的图象位于弦下方，因此当 $x_{0}&#x3C;t&#x3C;\\dfrac\\pi2$ 时 $H(t)&#x3C;0$. 取 $t=y$，得 $\\left(\\dfrac\\pi2-y\\right)(\\sin x_{0}-\\cos x_{0})&#x3C;\\mathrm{e}^{y}\\cos y=\\mathrm{e}^{-2n\\pi}$，即 $2n\\pi+\\dfrac\\pi2-x_{n}&#x3C;\\dfrac{\\mathrm{e}^{-2n\\pi}}{\\sin x_0-\\cos x_0}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=\\mathrm{e}^{x}\\cos x-\\mathrm{e}^{x}\\sin x=\\mathrm{e}^{x}(\\cos x-\\sin x)=\\sqrt{2}\\,\\mathrm{e}^{x}\\cos\\left(x+\\dfrac\\pi4\\right)$. 由 $f'(x)>0$ 得 $\\cos\\left(x+\\dfrac\\pi4\\right)>0$，即 $2k\\pi-\\dfrac\\pi2<x+\\dfrac\\pi4<2k\\pi+\\dfrac\\pi2$，解得 $2k\\pi-\\dfrac{3\\pi}{4}<x<2k\\pi+\\dfrac\\pi4$（$k\\in\\mathbb{Z}$）. 所以 $f(x)$ 的单调递增区间为 $\\left[2k\\pi-\\dfrac{3\\pi}{4},2k\\pi+\\dfrac\\pi4\\right]$，单调递减区间为 $\\left[2k\\pi+\\dfrac\\pi4,2k\\pi+\\dfrac{5\\pi}{4}\\right]$（$k\\in\\mathbb{Z}$）.</p></li><li><p>因为 $g(x)=f'(x)=\\mathrm{e}^{x}(\\cos x-\\sin x)$，所以 $f(x)+g(x)\\left(\\dfrac\\pi2-x\\right)=\\mathrm{e}^{x}\\left[\\cos x+(\\cos x-\\sin x)\\left(\\dfrac\\pi2-x\\right)\\right]$. 令 $t=\\dfrac\\pi2-x$，则 $t\\in\\left[0,\\dfrac\\pi4\\right]$，且 $\\cos x=\\sin t$，$\\sin x=\\cos t$，于是上式括号内为 $h(t)=\\sin t+t(\\sin t-\\cos t)$，且 $h(0)=0$. 因为 $h'(t)=\\cos t+(\\sin t-\\cos t)+t(\\cos t+\\sin t)=\\sin t+t(\\cos t+\\sin t)>0$（$0<t\\le\\dfrac\\pi4$），所以 $h(t)$ 在 $\\left[0,\\dfrac\\pi4\\right]$ 上单调递增，故 $h(t)\\ge h(0)=0$. 又 $\\mathrm{e}^{x}>0$，所以 $f(x)+g(x)\\left(\\dfrac\\pi2-x\\right)\\ge0$.</p></li><li><p>当 $x\\in\\left(2n\\pi+\\dfrac\\pi4,2n\\pi+\\dfrac\\pi2\\right)$ 时，$f'(x)=\\sqrt{2}\\,\\mathrm{e}^{x}\\cos\\left(x+\\dfrac\\pi4\\right)<0$，所以 $f(x)$ 在该区间上单调递减. 又 $u\\left(2n\\pi+\\dfrac\\pi4\\right)=\\mathrm{e}^{2n\\pi+\\frac{\\pi}{4}}\\cdot\\dfrac{\\sqrt{2}}{2}-1>0$，$u\\left(2n\\pi+\\dfrac\\pi2\\right)=-1<0$，所以 $x_{n}$ 存在且唯一. 记 $x_{0}$ 为 $u(x)$ 在 $\\left(\\dfrac\\pi4,\\dfrac\\pi2\\right)$ 内的零点，则 $\\mathrm{e}^{x_0}\\cos x_{0}=1$. 令 $y=x_{n}-2n\\pi$，则 $y\\in\\left(\\dfrac\\pi4,\\dfrac\\pi2\\right)$ 且 $\\mathrm{e}^{y}\\cos y=\\mathrm{e}^{-2n\\pi}$. 因为 $\\mathrm{e}^{t}\\cos t$ 在 $\\left(\\dfrac\\pi4,\\dfrac\\pi2\\right)$ 上单调递减，且 $\\mathrm{e}^{y}\\cos y=\\mathrm{e}^{-2n\\pi}<1=\\mathrm{e}^{x_0}\\cos x_{0}$，所以 $y>x_{0}$. 设 $H(t)=\\left(\\dfrac\\pi2-t\\right)(\\sin x_{0}-\\cos x_{0})-\\mathrm{e}^{t}\\cos t$（$x_{0}\\le t<\\dfrac\\pi2$）. 因为 $\\dfrac\\pi2-x_{0}\\in\\left(0,\\dfrac\\pi4\\right)$，所以 $H(x_{0})=\\left(\\dfrac\\pi2-x_{0}\\right)(\\sin x_{0}-\\cos x_{0})-1<\\dfrac\\pi4\\times1-1<0$，且 $H\\left(\\dfrac\\pi2\\right)=0$. 又 $H''(t)=2\\mathrm{e}^{t}\\sin t>0$，故 $H(t)$ 为凸函数，凸函数在两点间的图象位于弦下方，因此当 $x_{0}<t<\\dfrac\\pi2$ 时 $H(t)<0$. 取 $t=y$，得 $\\left(\\dfrac\\pi2-y\\right)(\\sin x_{0}-\\cos x_{0})<\\mathrm{e}^{y}\\cos y=\\mathrm{e}^{-2n\\pi}$，即 $2n\\pi+\\dfrac\\pi2-x_{n}<\\dfrac{\\mathrm{e}^{-2n\\pi}}{\\sin x_0-\\cos x_0}$.</p></li></ol>"
         }
       ]
     }

@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{x\\mid \\lvert x\\rvert&#x3C;2\\}$，$B=\\{-2,0,1,2\\}$，则 $A\\cap B=$（ ）.",
+          "body": "已知集合 $A=\\{x\\mid \\lvert x\\rvert<2\\}$，$B=\\{-2,0,1,2\\}$，则 $A\\cap B=$（ ）.",
           "choices": [
             "$\\{0,1\\}$",
             "$\\{-1,0,1\\}$",
@@ -17,7 +17,7 @@
             "$\\{-1,0,1,2\\}$"
           ],
           "answer": "A",
-          "solution": "由 $\\lvert x\\rvert&#x3C;2$ 得 $-2&#x3C;x&#x3C;2$，所以 $A$ 中包含 $0$ 和 $1$，但不包含 $-2$ 和 $2$. 因此 $A\\cap B=\\{0,1\\}$，故选 A."
+          "solution": "由 $\\lvert x\\rvert<2$ 得 $-2<x<2$，所以 $A$ 中包含 $0$ 和 $1$，但不包含 $-2$ 和 $2$. 因此 $A\\cap B=\\{0,1\\}$，故选 A."
         },
         {
           "num": 2,
@@ -41,7 +41,7 @@
             "$\\dfrac7{12}$"
           ],
           "answer": "B",
-          "solution": "程序开始时 $k=1$，$s=1$. 第一次循环将 $k=1$ 代入，得 $s=1+(-1)^{1}\\cdot\\dfrac1{1+1}=\\dfrac{1}{2}$，随后 $k=2$，因 $k&#x3C;3$ 继续循环. 第二次循环得 $s=\\dfrac{1}{2}+(-1)^{2}\\cdot\\dfrac1{1+2}=\\dfrac{5}{6}$，随后 $k=3$，满足 $k\\geq3$，输出 $s=\\dfrac{5}{6}$，故选 B."
+          "solution": "程序开始时 $k=1$，$s=1$. 第一次循环将 $k=1$ 代入，得 $s=1+(-1)^{1}\\cdot\\dfrac1{1+1}=\\dfrac{1}{2}$，随后 $k=2$，因 $k<3$ 继续循环. 第二次循环得 $s=\\dfrac{1}{2}+(-1)^{2}\\cdot\\dfrac1{1+2}=\\dfrac{5}{6}$，随后 $k=3$，满足 $k\\geq3$，输出 $s=\\dfrac{5}{6}$，故选 B."
         },
         {
           "num": 4,
@@ -81,15 +81,15 @@
         },
         {
           "num": 7,
-          "body": "<p>在平面直角坐标系中，$\\myarc{AB}$，$\\myarc{CD}$，$\\myarc{EF}$，$\\myarc{GH}$ 是圆 $x^{2}+y^{2}=1$ 上的四段弧（如图），点 $P$ 在其中一段上，角 $\\alpha$ 以 $Ox$ 为始边，$OP$ 为终边，若 $\\tan\\alpha&#x3C;\\cos\\alpha&#x3C;\\sin\\alpha$，则 $P$ 所在的圆弧是（ ）.</p><p><span class=\"macro macro-begingroup\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
+          "body": "<p>在平面直角坐标系中，$\\overset{\\frown}{AB}$，$\\overset{\\frown}{CD}$，$\\overset{\\frown}{EF}$，$\\overset{\\frown}{GH}$ 是圆 $x^{2}+y^{2}=1$ 上的四段弧（如图），点 $P$ 在其中一段上，角 $\\alpha$ 以 $Ox$ 为始边，$OP$ 为终边，若 $\\tan\\alpha<\\cos\\alpha<\\sin\\alpha$，则 $P$ 所在的圆弧是（ ）.</p><p><span class=\"macro macro-begingroup\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
           "choices": [
-            "$\\myarc{AB}$",
-            "$\\myarc{CD}$",
-            "$\\myarc{EF}$",
-            "$\\myarc{GH}$"
+            "$\\overset{\\frown}{AB}$",
+            "$\\overset{\\frown}{CD}$",
+            "$\\overset{\\frown}{EF}$",
+            "$\\overset{\\frown}{GH}$"
           ],
           "answer": "C",
-          "solution": "<p>设 $P=(\\cos\\alpha,\\sin\\alpha)$. 若 $P$ 在第一象限，则 $0&#x3C;\\cos\\alpha&#x3C;1$，而 $\\sin\\alpha>\\cos\\alpha$ 时有 $\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}>1>\\cos\\alpha$，不可能满足 $\\tan\\alpha&#x3C;\\cos\\alpha$. 第四象限中 $\\cos\\alpha>0>\\sin\\alpha$，不满足 $\\cos\\alpha&#x3C;\\sin\\alpha$；第三象限中 $\\tan\\alpha>0>\\cos\\alpha$，也不可能满足不等式.</p><p>因此只能有 $\\cos\\alpha&#x3C;0$，$\\sin\\alpha>0$，即 $P$ 在第二象限. 图中第二象限对应的圆弧为 $\\myarc{EF}$，故选 C.</p>"
+          "solution": "<p>设 $P=(\\cos\\alpha,\\sin\\alpha)$. 若 $P$ 在第一象限，则 $0<\\cos\\alpha<1$，而 $\\sin\\alpha>\\cos\\alpha$ 时有 $\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}>1>\\cos\\alpha$，不可能满足 $\\tan\\alpha<\\cos\\alpha$. 第四象限中 $\\cos\\alpha>0>\\sin\\alpha$，不满足 $\\cos\\alpha<\\sin\\alpha$；第三象限中 $\\tan\\alpha>0>\\cos\\alpha$，也不可能满足不等式.</p><p>因此只能有 $\\cos\\alpha<0$，$\\sin\\alpha>0$，即 $P$ 在第二象限. 图中第二象限对应的圆弧为 $\\overset{\\frown}{EF}$，故选 C.</p>"
         },
         {
           "num": 8,
@@ -97,7 +97,7 @@
           "choices": [
             "对任意实数 $a$，$(2,1)\\in A$",
             "对任意实数 $a$，$(2,1)\\notin A$",
-            "当且仅当 $a&#x3C;0$ 时，$(2,1)\\notin A$",
+            "当且仅当 $a<0$ 时，$(2,1)\\notin A$",
             "当且仅当 $a\\le\\dfrac{3}{2}$ 时，$(2,1)\\notin A$"
           ],
           "answer": "D",
@@ -124,10 +124,10 @@
         },
         {
           "num": 11,
-          "body": "能说明“若 $a>b$，则 $\\dfrac{1}{a}&#x3C;\\dfrac{1}{b}$”为假命题的一组 $a$，$b$ 的值依次为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "能说明“若 $a>b$，则 $\\dfrac{1}{a}<\\dfrac{1}{b}$”为假命题的一组 $a$，$b$ 的值依次为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$1$，$-1$",
-          "solution": "取 $a=1$，$b=-1$，则 $a>b$，但 $\\dfrac{1}{a}=1>-1=\\dfrac{1}{b}$，不满足题中结论 $\\dfrac{1}{a}&#x3C;\\dfrac{1}{b}$. 因此这组数说明原命题为假."
+          "solution": "取 $a=1$，$b=-1$，则 $a>b$，但 $\\dfrac{1}{a}=1>-1=\\dfrac{1}{b}$，不满足题中结论 $\\dfrac{1}{a}<\\dfrac{1}{b}$. 因此这组数说明原命题为假."
         },
         {
           "num": 12,
@@ -148,7 +148,7 @@
           "body": "若 $\\triangle ABC$ 的面积为 $\\dfrac{\\sqrt{3}}{4}(a^{2}+c^{2}-b^{2})$，且 $\\angle C$ 为钝角，则 $\\angle B=\\underline{\\hspace{2.5em}}{}$；$\\dfrac{c}{a}$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$60^{\\circ}$；$(2,+\\infty)$",
-          "solution": "<p>由余弦定理 $a^{2}+c^{2}-b^{2}=2ac\\cos B$，又三角形面积 $S=\\dfrac{1}{2}ac\\sin B$，故题设给出 $\\dfrac{1}{2}ac\\sin B=\\dfrac{\\sqrt{3}}{2}ac\\cos B$. 因为 $a$，$c>0$ 且 $B\\in(0,\\pi)$，所以 $\\sin B=\\sqrt{3}\\cos B$，从而 $B$ 为锐角且 $\\tan B=\\sqrt{3}$，得 $B=60^{\\circ}$.</p><p>又因 $C$ 为钝角，且 $A+B+C=180^{\\circ}$，所以 $0^{\\circ}&#x3C;A&#x3C;30^{\\circ}$. 由正弦定理，$\\dfrac{c}{a}=\\dfrac{\\sin C}{\\sin A}=\\dfrac{\\sin(120^\\circ-A)}{\\sin A}=\\dfrac{1}{2}+\\dfrac{\\sqrt{3}}{2}\\cot A$. 由于 $0^{\\circ}&#x3C;A&#x3C;30^{\\circ}$，有 $\\cot A>\\sqrt{3}$，因此 $\\dfrac{c}{a}>2$. 当 $A\\to0^{+}$ 时 $\\dfrac{c}{a}\\to+\\infty$，且 $A\\to30^{-}$ 时 $\\dfrac{c}{a}\\to2^{+}$，故取值范围为 $(2,+\\infty)$.</p>"
+          "solution": "<p>由余弦定理 $a^{2}+c^{2}-b^{2}=2ac\\cos B$，又三角形面积 $S=\\dfrac{1}{2}ac\\sin B$，故题设给出 $\\dfrac{1}{2}ac\\sin B=\\dfrac{\\sqrt{3}}{2}ac\\cos B$. 因为 $a$，$c>0$ 且 $B\\in(0,\\pi)$，所以 $\\sin B=\\sqrt{3}\\cos B$，从而 $B$ 为锐角且 $\\tan B=\\sqrt{3}$，得 $B=60^{\\circ}$.</p><p>又因 $C$ 为钝角，且 $A+B+C=180^{\\circ}$，所以 $0^{\\circ}<A<30^{\\circ}$. 由正弦定理，$\\dfrac{c}{a}=\\dfrac{\\sin C}{\\sin A}=\\dfrac{\\sin(120^\\circ-A)}{\\sin A}=\\dfrac{1}{2}+\\dfrac{\\sqrt{3}}{2}\\cot A$. 由于 $0^{\\circ}<A<30^{\\circ}$，有 $\\cot A>\\sqrt{3}$，因此 $\\dfrac{c}{a}>2$. 当 $A\\to0^{+}$ 时 $\\dfrac{c}{a}\\to+\\infty$，且 $A\\to30^{-}$ 时 $\\dfrac{c}{a}\\to2^{+}$，故取值范围为 $(2,+\\infty)$.</p>"
         }
       ]
     },
@@ -188,14 +188,14 @@
           "body": "<p>设函数 $f(x)=\\left[ax^{2}-(3a+1)x+3a+2\\right]\\mathrm{e}^{x}$.</p><ol class=\"enumerate\"><li><p>若曲线 $y=f(x)$ 在点 $\\left(2,f(2)\\right)$ 处的切线斜率为 $0$，求 $a$；</p></li><li><p>若 $f(x)$ 在 $x=1$ 处取得极小值，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $g(x)=ax^{2}-(3a+1)x+3a+2$，则 $f(x)=g(x)\\mathrm{e}^{x}$，所以</p>\n$$\nf'(x)=\\bigl(g'(x)+g(x)\\bigr)\\mathrm{e}^{x}=\\bigl[ax^{2}-(a+1)x+1\\bigr]\\mathrm{e}^{x}=(x-1)(ax-1)\\mathrm{e}^{x}\n$$\n<ol class=\"enumerate\"><li><p>切线斜率为 $f'(2)=0$，故 $(2-1)(2a-1)\\mathrm{e}^{2}=0$，从而 $a=\\dfrac{1}{2}$.</p></li><li><p>因为 $\\mathrm{e}^{x}>0$，只需讨论 $(x-1)(ax-1)$ 的符号. 若 $a=0$，则 $x=1$ 左侧导数为正、右侧为负，取得极大值；若 $a=1$，则 $f'(x)=(x-1)^{2}\\mathrm{e}^{x}\\geq0$，没有极值.</p><p>当 $a>1$ 时，$\\dfrac{1}{a}&#x3C;1$，在 $\\left(\\dfrac{1}{a},1\\right)$ 上 $f'(x)&#x3C;0$，在 $(1,+\\infty)$ 上 $f'(x)>0$，所以 $x=1$ 处取得极小值. 当 $0&#x3C;a&#x3C;1$ 时，$\\dfrac{1}{a}>1$，在 $(1,\\dfrac{1}{a})$ 上导数为负，故 $x=1$ 处取得极大值. 当 $a&#x3C;0$ 时，两个零点为 $\\dfrac{1}{a}&#x3C;1$ 和 $1$. 在 $\\left(-\\infty,\\dfrac{1}{a}\\right)$、$\\left(\\dfrac{1}{a},1\\right)$、$(1,+\\infty)$ 上，导数的符号依次为负、正、负，所以 $x=1$ 处取得极大值. 因此 $a$ 的取值范围为 $(1,+\\infty)$.</p></li></ol>"
+          "solution": "<p>令 $g(x)=ax^{2}-(3a+1)x+3a+2$，则 $f(x)=g(x)\\mathrm{e}^{x}$，所以</p>\n$$\nf'(x)=\\bigl(g'(x)+g(x)\\bigr)\\mathrm{e}^{x}=\\bigl[ax^{2}-(a+1)x+1\\bigr]\\mathrm{e}^{x}=(x-1)(ax-1)\\mathrm{e}^{x}\n$$\n<ol class=\"enumerate\"><li><p>切线斜率为 $f'(2)=0$，故 $(2-1)(2a-1)\\mathrm{e}^{2}=0$，从而 $a=\\dfrac{1}{2}$.</p></li><li><p>因为 $\\mathrm{e}^{x}>0$，只需讨论 $(x-1)(ax-1)$ 的符号. 若 $a=0$，则 $x=1$ 左侧导数为正、右侧为负，取得极大值；若 $a=1$，则 $f'(x)=(x-1)^{2}\\mathrm{e}^{x}\\geq0$，没有极值.</p><p>当 $a>1$ 时，$\\dfrac{1}{a}<1$，在 $\\left(\\dfrac{1}{a},1\\right)$ 上 $f'(x)<0$，在 $(1,+\\infty)$ 上 $f'(x)>0$，所以 $x=1$ 处取得极小值. 当 $0<a<1$ 时，$\\dfrac{1}{a}>1$，在 $(1,\\dfrac{1}{a})$ 上导数为负，故 $x=1$ 处取得极大值. 当 $a<0$ 时，两个零点为 $\\dfrac{1}{a}<1$ 和 $1$. 在 $\\left(-\\infty,\\dfrac{1}{a}\\right)$、$\\left(\\dfrac{1}{a},1\\right)$、$(1,+\\infty)$ 上，导数的符号依次为负、正、负，所以 $x=1$ 处取得极大值. 因此 $a$ 的取值范围为 $(1,+\\infty)$.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>已知椭圆 $M:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的离心率为 $\\dfrac{\\sqrt{6}}{3}$，焦距为 $2\\sqrt{2}$. 斜率为 $k$ 的直线 $l$ 与椭圆 $M$ 有两个不同的交点 $A$，$B$.</p><ol class=\"enumerate\"><li><p>求椭圆 $M$ 的方程；</p></li><li><p>若 $k=1$，求 $\\lvert AB\\rvert$ 的最大值；</p></li><li><p>设 $P(-2,0)$，直线 $PA$ 与椭圆 $M$ 的另一个交点为 $C$，直线 $PB$ 与椭圆 $M$ 的另一个交点为 $D$. 若 $C$，$D$ 和点 $Q\\left(-\\dfrac{7}{4},\\dfrac{1}{4}\\right)$ 共线，求 $k$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$. 由焦距为 $2\\sqrt{2}$，得 $c=\\sqrt{2}$. 又由离心率</p>\n$$\n\\frac{c}{a}=\\frac{\\sqrt{6}}{3}\n$$\n<p>得</p>\n$$\na=\\frac{c}{\\frac{\\sqrt{6}}{3}}=\\sqrt{3}\n$$\n<p>因此</p>\n$$\nb^{2}=a^{2}-c^{2}=3-2=1\n$$\n<p>故椭圆 $M$ 的方程为</p>\n$$\n\\frac{x^{2}}{3}+y^{2}=1\n$$\n</li><li><p>当 $k=1$ 时，设直线 $l$ 的方程为 $y=x+m$. 将其与椭圆方程联立，得</p>\n$$\n\\frac{x^{2}}{3}+(x+m)^{2}=1\n$$\n<p>即</p>\n$$\n4x^{2}+6mx+3m^{2}-3=0\n$$\n<p>设交点 $A$，$B$ 的横坐标为 $x_{1}$，$x_{2}$，则</p><p>$x_{1}+x_{2}=-\\frac{3m}{2}$，$x_{1}x_{2}=\\frac{3m^{2}-3}{4}$.</p><p>因为 $A$，$B$ 为两个不同的交点，判别式应满足</p>\n$$\n(6m)^{2}-4\\cdot4(3m^{2}-3)=48-12m^{2}>0\n$$\n<p>所以 $|m|&#x3C;2$. 又因直线斜率为 $1$，</p>\n$$\n|AB|=\\sqrt{(x_{1}-x_{2})^{2}+\\bigl((x_{1}+m)-(x_{2}+m)\\bigr)^{2}}=\\sqrt{2}\\,|x_{1}-x_{2}|\n$$\n<p>由根的判别式，</p>\n$$\n(x_{1}-x_{2})^{2}=(x_{1}+x_{2})^{2}-4x_{1}x_{2}  =\\frac{9m^{2}}{4}-3(m^{2}-1)=3-\\frac{3m^{2}}{4}\\leq3\n$$\n<p>因此 $|AB|\\leq\\sqrt{6}$，当且仅当 $m=0$ 时取等号，故 $|AB|$ 的最大值为 $\\sqrt{6}$.</p></li><li><p>设椭圆上一点为 $X(x_{0},y_{0})$. 过点 $P(-2,0)$ 和 $X$ 的直线方程为</p>\n$$\ny=\\frac{y_{0}}{x_{0}+2}(x+2)\n$$\n<p>这里 $x_{0}\\in[-\\sqrt{3},\\sqrt{3}]$，所以 $x_{0}+2>0$，且 $4x_{0}+7\\geq7-4\\sqrt{3}>0$. 将直线方程代入椭圆方程，并利用 $X$ 在椭圆上满足 $x_{0}^{2}+3y_{0}^{2}=3$，得到交点横坐标 $x$ 所满足的方程</p>\n$$\n(4x_{0}+7)x^{2}+12y_{0}^{2}x+12y_{0}^{2}-3(x_{0}+2)^{2}=0\n$$\n<p>化简常数项，并用韦达定理计算两根之和，得</p><p>$x+x_{0}=-\\frac{12y_{0}^{2}}{4x_{0}+7}$，$x_{0}^{2}+3y_{0}^{2}=3$，</p><p>从而另一个交点 $T$ 的坐标为</p><p>$x_{T}=-\\frac{7x_{0}+12}{4x_{0}+7}$，$y_{T}=\\frac{y_{0}}{4x_{0}+7}$.</p><p>因此，若 $A=(x_{1},y_{1})$，$B=(x_{2},y_{2})$，则</p><p>$C=\\left(-\\frac{7x_{1}+12}{4x_{1}+7},\\frac{y_{1}}{4x_{1}+7}\\right)$，$D=\\left(-\\frac{7x_{2}+12}{4x_{2}+7},\\frac{y_{2}}{4x_{2}+7}\\right)$.</p><p>由 $Q\\left(-\\dfrac{7}{4},\\dfrac{1}{4}\\right)$ 的坐标，计算得</p>\n$$\n\\overrightarrow{QC}=\\frac{1}{4(4x_{1}+7)}(1,\\,4y_{1}-4x_{1}-7)\n$$\n\n$$\n\\overrightarrow{QD}=\\frac{1}{4(4x_{2}+7)}(1,\\,4y_{2}-4x_{2}-7)\n$$\n<p>由于 $C$，$D$，$Q$ 共线，且上述向量的第一坐标均非零，所以</p>\n$$\n4y_{1}-4x_{1}-7=4y_{2}-4x_{2}-7\n$$\n<p>即</p>\n$$\ny_{1}-x_{1}=y_{2}-x_{2}\n$$\n<p>又 $A$，$B$ 是不同的交点，故 $x_{1}\\ne x_{2}$，从而直线 $AB$ 的斜率为</p>\n$$\nk=\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}=1\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$. 由焦距为 $2\\sqrt{2}$，得 $c=\\sqrt{2}$. 又由离心率</p>\n$$\n\\frac{c}{a}=\\frac{\\sqrt{6}}{3}\n$$\n<p>得</p>\n$$\na=\\frac{c}{\\frac{\\sqrt{6}}{3}}=\\sqrt{3}\n$$\n<p>因此</p>\n$$\nb^{2}=a^{2}-c^{2}=3-2=1\n$$\n<p>故椭圆 $M$ 的方程为</p>\n$$\n\\frac{x^{2}}{3}+y^{2}=1\n$$\n</li><li><p>当 $k=1$ 时，设直线 $l$ 的方程为 $y=x+m$. 将其与椭圆方程联立，得</p>\n$$\n\\frac{x^{2}}{3}+(x+m)^{2}=1\n$$\n<p>即</p>\n$$\n4x^{2}+6mx+3m^{2}-3=0\n$$\n<p>设交点 $A$，$B$ 的横坐标为 $x_{1}$，$x_{2}$，则</p><p>$x_{1}+x_{2}=-\\frac{3m}{2}$，$x_{1}x_{2}=\\frac{3m^{2}-3}{4}$.</p><p>因为 $A$，$B$ 为两个不同的交点，判别式应满足</p>\n$$\n(6m)^{2}-4\\cdot4(3m^{2}-3)=48-12m^{2}>0\n$$\n<p>所以 $|m|<2$. 又因直线斜率为 $1$，</p>\n$$\n|AB|=\\sqrt{(x_{1}-x_{2})^{2}+\\bigl((x_{1}+m)-(x_{2}+m)\\bigr)^{2}}=\\sqrt{2}\\,|x_{1}-x_{2}|\n$$\n<p>由根的判别式，</p>\n$$\n(x_{1}-x_{2})^{2}=(x_{1}+x_{2})^{2}-4x_{1}x_{2}  =\\frac{9m^{2}}{4}-3(m^{2}-1)=3-\\frac{3m^{2}}{4}\\leq3\n$$\n<p>因此 $|AB|\\leq\\sqrt{6}$，当且仅当 $m=0$ 时取等号，故 $|AB|$ 的最大值为 $\\sqrt{6}$.</p></li><li><p>设椭圆上一点为 $X(x_{0},y_{0})$. 过点 $P(-2,0)$ 和 $X$ 的直线方程为</p>\n$$\ny=\\frac{y_{0}}{x_{0}+2}(x+2)\n$$\n<p>这里 $x_{0}\\in[-\\sqrt{3},\\sqrt{3}]$，所以 $x_{0}+2>0$，且 $4x_{0}+7\\geq7-4\\sqrt{3}>0$. 将直线方程代入椭圆方程，并利用 $X$ 在椭圆上满足 $x_{0}^{2}+3y_{0}^{2}=3$，得到交点横坐标 $x$ 所满足的方程</p>\n$$\n(4x_{0}+7)x^{2}+12y_{0}^{2}x+12y_{0}^{2}-3(x_{0}+2)^{2}=0\n$$\n<p>化简常数项，并用韦达定理计算两根之和，得</p><p>$x+x_{0}=-\\frac{12y_{0}^{2}}{4x_{0}+7}$，$x_{0}^{2}+3y_{0}^{2}=3$，</p><p>从而另一个交点 $T$ 的坐标为</p><p>$x_{T}=-\\frac{7x_{0}+12}{4x_{0}+7}$，$y_{T}=\\frac{y_{0}}{4x_{0}+7}$.</p><p>因此，若 $A=(x_{1},y_{1})$，$B=(x_{2},y_{2})$，则</p><p>$C=\\left(-\\frac{7x_{1}+12}{4x_{1}+7},\\frac{y_{1}}{4x_{1}+7}\\right)$，$D=\\left(-\\frac{7x_{2}+12}{4x_{2}+7},\\frac{y_{2}}{4x_{2}+7}\\right)$.</p><p>由 $Q\\left(-\\dfrac{7}{4},\\dfrac{1}{4}\\right)$ 的坐标，计算得</p>\n$$\n\\overrightarrow{QC}=\\frac{1}{4(4x_{1}+7)}(1,\\,4y_{1}-4x_{1}-7)\n$$\n\n$$\n\\overrightarrow{QD}=\\frac{1}{4(4x_{2}+7)}(1,\\,4y_{2}-4x_{2}-7)\n$$\n<p>由于 $C$，$D$，$Q$ 共线，且上述向量的第一坐标均非零，所以</p>\n$$\n4y_{1}-4x_{1}-7=4y_{2}-4x_{2}-7\n$$\n<p>即</p>\n$$\ny_{1}-x_{1}=y_{2}-x_{2}\n$$\n<p>又 $A$，$B$ 是不同的交点，故 $x_{1}\\ne x_{2}$，从而直线 $AB$ 的斜率为</p>\n$$\nk=\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}=1\n$$\n</li></ol>"
         }
       ]
     }

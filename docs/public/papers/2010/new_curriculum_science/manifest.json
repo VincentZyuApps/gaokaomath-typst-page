@@ -65,7 +65,7 @@
             "$q_{2}$，$q_{4}$"
           ],
           "answer": "C.",
-          "solution": "<p>对 $p_{1}$ 对应的函数求导，得</p>\n$$\n\\left(2^{x}-2^{-x}\\right)'=\\ln2\\left(2^{x}+2^{-x}\\right)>0\n$$\n<p>所以 $p_{1}$ 为真命题. 对 $p_{2}$ 对应的函数求导，得</p>\n$$\n\\left(2^{x}+2^{-x}\\right)'=\\ln2\\left(2^{x}-2^{-x}\\right)\n$$\n<p>该导数在 $x&#x3C;0$ 时为负、在 $x>0$ 时为正，故该函数在 $\\mathbb{R}$ 上不是减函数，$p_{2}$ 为假命题.</p><p>于是 $q_{1}=p_{1}\\vee p_{2}$ 为真，$q_{2}=p_{1}\\wedge p_{2}$ 为假，$q_{3}=(\\neg p_{1})\\vee p_{2}$ 为假，$q_{4}=p_{1}\\wedge(\\neg p_{2})$ 为真. 真命题为 $q_{1}$，$q_{4}$，故选 C.</p>"
+          "solution": "<p>对 $p_{1}$ 对应的函数求导，得</p>\n$$\n\\left(2^{x}-2^{-x}\\right)'=\\ln2\\left(2^{x}+2^{-x}\\right)>0\n$$\n<p>所以 $p_{1}$ 为真命题. 对 $p_{2}$ 对应的函数求导，得</p>\n$$\n\\left(2^{x}+2^{-x}\\right)'=\\ln2\\left(2^{x}-2^{-x}\\right)\n$$\n<p>该导数在 $x<0$ 时为负、在 $x>0$ 时为正，故该函数在 $\\mathbb{R}$ 上不是减函数，$p_{2}$ 为假命题.</p><p>于是 $q_{1}=p_{1}\\vee p_{2}$ 为真，$q_{2}=p_{1}\\wedge p_{2}$ 为假，$q_{3}=(\\neg p_{1})\\vee p_{2}$ 为假，$q_{4}=p_{1}\\wedge(\\neg p_{2})$ 为真. 真命题为 $q_{1}$，$q_{4}$，故选 C.</p>"
         },
         {
           "num": 6,
@@ -89,19 +89,19 @@
             "$\\frac{5}{6}$"
           ],
           "answer": "D.",
-          "solution": "<p>框图从 $k=1$、$S=0$ 开始，每次先累加 $\\dfrac{1}{k(k+1)}$，再判断是否有 $k&#x3C;N$；若是则令 $k$ 增加 $1$，回到累加步骤. 因此 $N=5$ 时实际取 $k=1$，$2$，$3$，$4$，$5$，输出</p>\n$$\nS=\\sum_{k=1}^{5}\\frac{1}{k(k+1)}=\\sum_{k=1}^{5}\\left(\\frac{1}{k}-\\frac{1}{k+1}\\right)  =1-\\frac{1}{6}=\\frac{5}{6}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>框图从 $k=1$、$S=0$ 开始，每次先累加 $\\dfrac{1}{k(k+1)}$，再判断是否有 $k<N$；若是则令 $k$ 增加 $1$，回到累加步骤. 因此 $N=5$ 时实际取 $k=1$，$2$，$3$，$4$，$5$，输出</p>\n$$\nS=\\sum_{k=1}^{5}\\frac{1}{k(k+1)}=\\sum_{k=1}^{5}\\left(\\frac{1}{k}-\\frac{1}{k+1}\\right)  =1-\\frac{1}{6}=\\frac{5}{6}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 8,
           "body": "设偶函数 $f(x)$ 满足 $f(x) = x^{3} - 8$（$x \\ge 0$），则 $\\{x \\mid f(x - 2) > 0\\} =$（ ）",
           "choices": [
-            "$\\{x\\mid x &#x3C; -2 \\text{或}x > 4\\}$",
-            "$\\{x\\mid x &#x3C; 0 \\text{或}x > 4\\}$",
-            "$\\{x\\mid x &#x3C; 0 \\text{或}x > 6\\}$",
-            "$\\{x\\mid x &#x3C; -2 \\text{或}x > 2\\}$"
+            "$\\{x\\mid x < -2 \\text{或}x > 4\\}$",
+            "$\\{x\\mid x < 0 \\text{或}x > 4\\}$",
+            "$\\{x\\mid x < 0 \\text{或}x > 6\\}$",
+            "$\\{x\\mid x < -2 \\text{或}x > 2\\}$"
           ],
           "answer": "B.",
-          "solution": "<p>由 $f$ 为偶函数，对任意 $u$ 都有 $f(u)=f(|u|)$. 当 $u\\geqslant0$ 时，</p>\n$$\nf(u)=u^{3}-8\n$$\n<p>所以</p>\n$$\nf(u)>0\\Longleftrightarrow u^{3}>8\\Longleftrightarrow u>2\n$$\n<p>令 $u=x-2$，则</p>\n$$\nf(x-2)>0\\Longleftrightarrow |x-2|>2  \\Longleftrightarrow x&#x3C;0\\text{或}x>4\n$$\n<p>故选 B.</p>"
+          "solution": "<p>由 $f$ 为偶函数，对任意 $u$ 都有 $f(u)=f(|u|)$. 当 $u\\geqslant0$ 时，</p>\n$$\nf(u)=u^{3}-8\n$$\n<p>所以</p>\n$$\nf(u)>0\\Longleftrightarrow u^{3}>8\\Longleftrightarrow u>2\n$$\n<p>令 $u=x-2$，则</p>\n$$\nf(x-2)>0\\Longleftrightarrow |x-2|>2  \\Longleftrightarrow x<0\\text{或}x>4\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 9,
@@ -129,7 +129,7 @@
         },
         {
           "num": 11,
-          "body": "已知函数 $f(x) = \\begin{cases}|\\lg x|,&#x26;0 &#x3C; x \\le 10,\\\\  - \\frac{1}{2}x + 6,&#x26;x > 10,\\end{cases}$ 若 $a$，$b$，$c$ 互不相等，且 $f(a) = f(b) = f(c)$，则 $abc$ 的取值范围是（ ）",
+          "body": "已知函数 $f(x) = \\begin{cases}|\\lg x|,&0 < x \\le 10,\\\\  - \\frac{1}{2}x + 6,&x > 10,\\end{cases}$ 若 $a$，$b$，$c$ 互不相等，且 $f(a) = f(b) = f(c)$，则 $abc$ 的取值范围是（ ）",
           "choices": [
             "$(1,10)$",
             "$(5,6)$",
@@ -137,7 +137,7 @@
             "$(20,24)$"
           ],
           "answer": "C.",
-          "solution": "<p>设公共函数值为 $k$. 由于第一段函数为 $|\\lg x|$，第二段函数在 $x>10$ 时为 $6-\\dfrac{x}{2}&#x3C;1$，要有三个互不相等的原像，必须有 $0&#x3C;k&#x3C;1$. 此时第一段给出两个原像</p><p>$x=10^{-k}$，$x=10^{k}$</p><p>第二段给出一个原像</p>\n$$\nx=12-2k>10\n$$\n<p>所以</p>\n$$\nabc=10^{-k}\\cdot10^{k}\\cdot(12-2k)=12-2k\n$$\n<p>当 $0&#x3C;k&#x3C;1$ 时，$10&#x3C;12-2k&#x3C;12$，且该区间内每个值均可取得. 因此 $abc$ 的取值范围为 $(10,12)$，故选 C.</p>"
+          "solution": "<p>设公共函数值为 $k$. 由于第一段函数为 $|\\lg x|$，第二段函数在 $x>10$ 时为 $6-\\dfrac{x}{2}<1$，要有三个互不相等的原像，必须有 $0<k<1$. 此时第一段给出两个原像</p><p>$x=10^{-k}$，$x=10^{k}$</p><p>第二段给出一个原像</p>\n$$\nx=12-2k>10\n$$\n<p>所以</p>\n$$\nabc=10^{-k}\\cdot10^{k}\\cdot(12-2k)=12-2k\n$$\n<p>当 $0<k<1$ 时，$10<12-2k<12$，且该区间内每个值均可取得. 因此 $abc$ 的取值范围为 $(10,12)$，故选 C.</p>"
         },
         {
           "num": 12,
@@ -182,7 +182,7 @@
           "body": "在 $\\triangle ABC$ 中，$D$ 为边 $BC$ 上一点，$BD = \\frac{1}{2}DC$，$\\angle ADB = 120^{\\circ}$，$AD = 2$，若 $\\triangle ADC$ 的面积为 $3 - \\sqrt{3}$，则 $\\angle BAC =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$60^{\\circ}$.",
-          "solution": "<p>设 $BD=t$，则 $DC=2t$，且 $BC=3t$. 因 $B$，$D$，$C$ 共线，</p>\n$$\n\\angle ADC=180^{\\circ}-\\angle ADB=60^{\\circ}\n$$\n<p>由三角形 $ADC$ 的面积条件，</p>\n$$\n\\frac{1}{2}\\cdot AD\\cdot DC\\cdot\\sin60^{\\circ}  =\\frac{1}{2}\\cdot2\\cdot2t\\cdot\\frac{\\sqrt{3}}{2}=t\\sqrt{3}=3-\\sqrt{3}\n$$\n<p>故 $t=\\sqrt{3}-1$. 在三角形 $ADB$ 和 $ADC$ 中分别使用余弦定理，得</p>\n$$\nAB^{2}=2^{2}+t^{2}-2\\cdot2\\cdot t\\cos120^{\\circ}=4+t^{2}+2t=6\n$$\n<p>$AC^{2}=2^{2}+(2t)^{2}-2\\cdot2\\cdot2t\\cos60^{\\circ}=4+4t^{2}-4t$，$BC^{2}=9t^{2}$.</p><p>由 $t^{2}=4-2\\sqrt{3}$，得</p><p>$AC^{2}=4+4(4-2\\sqrt{3})-4(\\sqrt{3}-1)=24-12\\sqrt{3}$，$BC^{2}=9(4-2\\sqrt{3})$.</p><p>于是</p>\n$$\nAB^{2}+AC^{2}-BC^{2}  =6+(24-12\\sqrt{3})-9(4-2\\sqrt{3})  =6(\\sqrt{3}-1)=6t\n$$\n<p>又因为</p>\n$$\n(AB\\cdot AC)^{2}=AB^{2}AC^{2}=6(24-12\\sqrt{3})=36(4-2\\sqrt{3})=36t^{2}\n$$\n<p>且边长为正，所以 $AB\\cdot AC=6t$，从而 $2AB\\cdot AC=12t$.</p><p>由三角形 $ABC$ 的余弦定理，</p>\n$$\n\\cos\\angle BAC  =\\frac{AB^{2}+AC^{2}-BC^{2}}{2AB\\cdot AC}=\\frac{6t}{12t}=\\frac{1}{2}\n$$\n<p>因为 $0^{\\circ}&#x3C;\\angle BAC&#x3C;180^{\\circ}$，所以 $\\angle BAC=60^{\\circ}$.</p>"
+          "solution": "<p>设 $BD=t$，则 $DC=2t$，且 $BC=3t$. 因 $B$，$D$，$C$ 共线，</p>\n$$\n\\angle ADC=180^{\\circ}-\\angle ADB=60^{\\circ}\n$$\n<p>由三角形 $ADC$ 的面积条件，</p>\n$$\n\\frac{1}{2}\\cdot AD\\cdot DC\\cdot\\sin60^{\\circ}  =\\frac{1}{2}\\cdot2\\cdot2t\\cdot\\frac{\\sqrt{3}}{2}=t\\sqrt{3}=3-\\sqrt{3}\n$$\n<p>故 $t=\\sqrt{3}-1$. 在三角形 $ADB$ 和 $ADC$ 中分别使用余弦定理，得</p>\n$$\nAB^{2}=2^{2}+t^{2}-2\\cdot2\\cdot t\\cos120^{\\circ}=4+t^{2}+2t=6\n$$\n<p>$AC^{2}=2^{2}+(2t)^{2}-2\\cdot2\\cdot2t\\cos60^{\\circ}=4+4t^{2}-4t$，$BC^{2}=9t^{2}$.</p><p>由 $t^{2}=4-2\\sqrt{3}$，得</p><p>$AC^{2}=4+4(4-2\\sqrt{3})-4(\\sqrt{3}-1)=24-12\\sqrt{3}$，$BC^{2}=9(4-2\\sqrt{3})$.</p><p>于是</p>\n$$\nAB^{2}+AC^{2}-BC^{2}  =6+(24-12\\sqrt{3})-9(4-2\\sqrt{3})  =6(\\sqrt{3}-1)=6t\n$$\n<p>又因为</p>\n$$\n(AB\\cdot AC)^{2}=AB^{2}AC^{2}=6(24-12\\sqrt{3})=36(4-2\\sqrt{3})=36t^{2}\n$$\n<p>且边长为正，所以 $AB\\cdot AC=6t$，从而 $2AB\\cdot AC=12t$.</p><p>由三角形 $ABC$ 的余弦定理，</p>\n$$\n\\cos\\angle BAC  =\\frac{AB^{2}+AC^{2}-BC^{2}}{2AB\\cdot AC}=\\frac{6t}{12t}=\\frac{1}{2}\n$$\n<p>因为 $0^{\\circ}<\\angle BAC<180^{\\circ}$，所以 $\\angle BAC=60^{\\circ}$.</p>"
         }
       ]
     },
@@ -222,7 +222,7 @@
           "body": "<p>设函数 $f(x) = \\mathrm{e}^{x}- 1 - x - ax^{2}$.</p><ol class=\"enumerate\"><li><p>若 $a = 0$，求 $f(x)$ 的单调区间；</p></li><li><p>若当 $x \\ge 0$ 时 $f(x) \\ge 0$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=0$ 时，</p><p>$f(x)=\\mathrm{e}^{x}-1-x$，$f'(x)=\\mathrm{e}^{x}-1$</p><p>当 $x&#x3C;0$ 时，$\\mathrm{e}^{x}&#x3C;1$，故 $f'(x)&#x3C;0$；当 $x>0$ 时，$\\mathrm{e}^{x}>1$，故 $f'(x)>0$. 所以 $f(x)$ 在 $(-\\infty,0]$ 上单调递减，在 $[0,+\\infty)$ 上单调递增.</p></li><li><p>对任意 $x\\geqslant0$，先证明 $\\mathrm{e}^{x}\\geqslant1+x+\\dfrac{x^2}{2}$.</p><p>令 $g(x)=\\mathrm{e}^{x}-1-x-\\dfrac{x^2}{2}$，再令 $h(x)=\\mathrm{e}^{x}-1-x$，则</p><p>$h'(x)=\\mathrm{e}^{x}-1\\geqslant0$，$h(0)=0$，</p><p>所以 $h(x)\\geqslant0$；从而</p><p>$g'(x)=\\mathrm{e}^{x}-1-x=h(x)\\geqslant0$，$g(0)=0$，</p><p>故 $g(x)\\geqslant0$，即 $\\mathrm{e}^{x}\\geqslant1+x+\\dfrac{x^2}{2}$. 于是</p>\n$$\nf(x)=\\mathrm{e}^{x}-1-x-ax^{2}\\ge\\left(\\frac{1}{2}-a\\right)x^{2}\n$$\n<p>因此当 $a\\le\\dfrac{1}{2}$ 时，恒有 $f(x)\\geqslant0$.</p><p>反之，若对任意 $x\\geqslant0$ 都有 $f(x)\\geqslant0$，则对任意 $x>0$，</p>\n$$\na\\le\\frac{\\mathrm{e}^{x}-1-x}{x^{2}}\n$$\n<p>令 $x\\to0^{+}$，并连续两次使用洛必达法则，有</p>\n$$\n\\lim_{x\\to0^+}\\frac{\\mathrm{e}^{x}-1-x}{x^{2}}=\\lim_{x\\to0^+}\\frac{\\mathrm{e}^{x}-1}{2x}=\\lim_{x\\to0^+}\\frac{\\mathrm{e}^{x}}{2}=\\frac{1}{2}\n$$\n<p>所以 $a\\le\\dfrac{1}{2}$.</p><p>所以 $a$ 的取值范围为 $\\left(-\\infty,\\dfrac{1}{2}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=0$ 时，</p><p>$f(x)=\\mathrm{e}^{x}-1-x$，$f'(x)=\\mathrm{e}^{x}-1$</p><p>当 $x<0$ 时，$\\mathrm{e}^{x}<1$，故 $f'(x)<0$；当 $x>0$ 时，$\\mathrm{e}^{x}>1$，故 $f'(x)>0$. 所以 $f(x)$ 在 $(-\\infty,0]$ 上单调递减，在 $[0,+\\infty)$ 上单调递增.</p></li><li><p>对任意 $x\\geqslant0$，先证明 $\\mathrm{e}^{x}\\geqslant1+x+\\dfrac{x^2}{2}$.</p><p>令 $g(x)=\\mathrm{e}^{x}-1-x-\\dfrac{x^2}{2}$，再令 $h(x)=\\mathrm{e}^{x}-1-x$，则</p><p>$h'(x)=\\mathrm{e}^{x}-1\\geqslant0$，$h(0)=0$，</p><p>所以 $h(x)\\geqslant0$；从而</p><p>$g'(x)=\\mathrm{e}^{x}-1-x=h(x)\\geqslant0$，$g(0)=0$，</p><p>故 $g(x)\\geqslant0$，即 $\\mathrm{e}^{x}\\geqslant1+x+\\dfrac{x^2}{2}$. 于是</p>\n$$\nf(x)=\\mathrm{e}^{x}-1-x-ax^{2}\\ge\\left(\\frac{1}{2}-a\\right)x^{2}\n$$\n<p>因此当 $a\\le\\dfrac{1}{2}$ 时，恒有 $f(x)\\geqslant0$.</p><p>反之，若对任意 $x\\geqslant0$ 都有 $f(x)\\geqslant0$，则对任意 $x>0$，</p>\n$$\na\\le\\frac{\\mathrm{e}^{x}-1-x}{x^{2}}\n$$\n<p>令 $x\\to0^{+}$，并连续两次使用洛必达法则，有</p>\n$$\n\\lim_{x\\to0^+}\\frac{\\mathrm{e}^{x}-1-x}{x^{2}}=\\lim_{x\\to0^+}\\frac{\\mathrm{e}^{x}-1}{2x}=\\lim_{x\\to0^+}\\frac{\\mathrm{e}^{x}}{2}=\\frac{1}{2}\n$$\n<p>所以 $a\\le\\dfrac{1}{2}$.</p><p>所以 $a$ 的取值范围为 $\\left(-\\infty,\\dfrac{1}{2}\\right]$.</p></li></ol>"
         },
         {
           "num": 22,
@@ -243,7 +243,7 @@
           "body": "<p>设函数 $f(x) = |2x - 4| + 1$.</p><ol class=\"enumerate\"><li><p>画出函数 $y = f(x)$ 的图象；</p></li><li><p>若不等式 $f(x) \\le ax$ 的解集非空，求 $a$ 的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_science/q24_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li>\n$$\nf(x)=|2x-4|+1=  \\begin{cases}-2x+5,&#x26;x\\leqslant2,\\\\  2x-3,&#x26;x\\geqslant2\\end{cases}\n$$\n<p>所以函数图象是以 $(2,1)$ 为顶点、左支斜率为 $-2$、右支斜率为 $2$ 的折线，即开口向上的 $V$ 形图象.</p></li><li><p>若不等式有解，则分情况讨论.</p><p>当 $x\\leqslant2$ 时，</p>\n$$\n5-2x\\le ax \\Longleftrightarrow  5\\le(a+2)x\n$$\n<p>若 $x&#x3C;0$，要有解必须 $a+2&#x3C;0$，即 $a&#x3C;-2$；若 $0&#x3C;x\\leqslant2$，则由右端的最大值不小于 $5$，得 $2(a+2)\\geqslant5$，即 $a\\ge\\dfrac{1}{2}$. 而 $x=0$ 时不等式不成立.</p><p>当 $x\\geqslant2$ 时，</p>\n$$\n2x-3\\le ax \\Longleftrightarrow  (a-2)x\\ge-3\n$$\n<p>若 $a\\geqslant2$，显然有解；若 $a&#x3C;2$，由于 $x\\geqslant2$，要有解必须</p>\n$$\n2(a-2)\\ge-3\n$$\n<p>即 $a\\ge\\dfrac{1}{2}$.</p><p>综上，不等式的解集非空时</p>\n$$\na\\in\\left(-\\infty,-2\\right)\\cup\\left[\\frac{1}{2},+\\infty\\right)\n$$\n<p>反之，若 $a&#x3C;-2$，取 $x=\\dfrac{5}{a+2}&#x3C;0$ 即可取等号；若 $a\\ge\\dfrac{1}{2}$，取 $x=2$ 即有 $1\\leqslant2a$. 因此该范围确实可取.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li>\n$$\nf(x)=|2x-4|+1=  \\begin{cases}-2x+5,&x\\leqslant2,\\\\  2x-3,&x\\geqslant2\\end{cases}\n$$\n<p>所以函数图象是以 $(2,1)$ 为顶点、左支斜率为 $-2$、右支斜率为 $2$ 的折线，即开口向上的 $V$ 形图象.</p></li><li><p>若不等式有解，则分情况讨论.</p><p>当 $x\\leqslant2$ 时，</p>\n$$\n5-2x\\le ax \\Longleftrightarrow  5\\le(a+2)x\n$$\n<p>若 $x<0$，要有解必须 $a+2<0$，即 $a<-2$；若 $0<x\\leqslant2$，则由右端的最大值不小于 $5$，得 $2(a+2)\\geqslant5$，即 $a\\ge\\dfrac{1}{2}$. 而 $x=0$ 时不等式不成立.</p><p>当 $x\\geqslant2$ 时，</p>\n$$\n2x-3\\le ax \\Longleftrightarrow  (a-2)x\\ge-3\n$$\n<p>若 $a\\geqslant2$，显然有解；若 $a<2$，由于 $x\\geqslant2$，要有解必须</p>\n$$\n2(a-2)\\ge-3\n$$\n<p>即 $a\\ge\\dfrac{1}{2}$.</p><p>综上，不等式的解集非空时</p>\n$$\na\\in\\left(-\\infty,-2\\right)\\cup\\left[\\frac{1}{2},+\\infty\\right)\n$$\n<p>反之，若 $a<-2$，取 $x=\\dfrac{5}{a+2}<0$ 即可取等号；若 $a\\ge\\dfrac{1}{2}$，取 $x=2$ 即有 $1\\leqslant2a$. 因此该范围确实可取.</p></li></ol>"
         }
       ]
     }

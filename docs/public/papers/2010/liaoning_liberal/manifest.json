@@ -65,7 +65,7 @@
             "120"
           ],
           "answer": "B",
-          "solution": "<p>初始时 $k=1$，$p=1$. 每次先计算 $p\\leftarrow p(n-m+k)$，再判断 $k&#x3C;m$. 因此依次得到</p><p>$p=1\\times3=3$，$p=3\\times4=12$，$p=12\\times5=60$，$p=60\\times6=360$.</p><p>最后一次计算后 $k=4$，不满足 $k&#x3C;4$，程序输出 $p=360$，故选 B.</p>"
+          "solution": "<p>初始时 $k=1$，$p=1$. 每次先计算 $p\\leftarrow p(n-m+k)$，再判断 $k<m$. 因此依次得到</p><p>$p=1\\times3=3$，$p=3\\times4=12$，$p=12\\times5=60$，$p=60\\times6=360$.</p><p>最后一次计算后 $k=4$，不满足 $k<4$，程序输出 $p=360$，故选 B.</p>"
         },
         {
           "num": 6,
@@ -101,7 +101,7 @@
             "$\\frac{1}{2}\\sqrt{|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}+(\\mathbf{a}\\cdot\\mathbf{b})^{2}}$"
           ],
           "answer": "C",
-          "solution": "<p>设 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $\\theta$. 因为 $O$，$A$，$B$ 不共线，所以 $0&#x3C;\\theta&#x3C;\\pi$，从而</p>\n$$\n\\left|\\mathbf{a}\\right|^{2}\\left|\\mathbf{b}\\right|^{2}-(\\mathbf{a}\\cdot\\mathbf{b})^{2}  =|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}(1-\\cos^{2}\\theta)  =|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}\\sin^{2}\\theta\n$$\n<p>三角形面积为 $\\frac{1}{2}|\\mathbf{a}||\\mathbf{b}|\\sin\\theta$，所以面积等于</p><p>$\\frac{1}{2}\\sqrt{|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}-(\\mathbf{a}\\cdot\\mathbf{b})^{2}}$，选 C.</p>"
+          "solution": "<p>设 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $\\theta$. 因为 $O$，$A$，$B$ 不共线，所以 $0<\\theta<\\pi$，从而</p>\n$$\n\\left|\\mathbf{a}\\right|^{2}\\left|\\mathbf{b}\\right|^{2}-(\\mathbf{a}\\cdot\\mathbf{b})^{2}  =|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}(1-\\cos^{2}\\theta)  =|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}\\sin^{2}\\theta\n$$\n<p>三角形面积为 $\\frac{1}{2}|\\mathbf{a}||\\mathbf{b}|\\sin\\theta$，所以面积等于</p><p>$\\frac{1}{2}\\sqrt{|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}-(\\mathbf{a}\\cdot\\mathbf{b})^{2}}$，选 C.</p>"
         },
         {
           "num": 9,
@@ -149,7 +149,7 @@
             "$\\left[\\frac{3\\pi}{4},\\pi\\right)$"
           ],
           "answer": "D",
-          "solution": "<p>求导得</p>\n$$\ny'=-\\frac{4\\mathrm{e}^{x}}{(\\mathrm{e}^{x}+1)^{2}}\n$$\n<p>令 $t=\\mathrm{e}^{x}>0$，则 $y'=-\\frac{4t}{(t+1)^{2}}$. 因为 $(t+1)^{2}\\geqslant4t$，所以</p>\n$$\n-1\\le y'&#x3C;0\n$$\n<p>当 $t=1$，即 $x=0$ 时，$y'=-1$；对任意有限的 $x$，都有 $t>0$，故 $y'\\ne0$. 又当 $t\\to0^{+}$ 或 $t\\to+\\infty$ 时，$y'\\to0^{-}$，结合连续性可知 $y'$ 的取值范围为 $[-1,0)$. 直线倾斜角取 $[0,\\pi)$，故由 $\\tan\\alpha=y'$ 得</p><p>$\\alpha\\in\\left[\\frac{3\\pi}{4},\\pi\\right)$，选 D.</p>"
+          "solution": "<p>求导得</p>\n$$\ny'=-\\frac{4\\mathrm{e}^{x}}{(\\mathrm{e}^{x}+1)^{2}}\n$$\n<p>令 $t=\\mathrm{e}^{x}>0$，则 $y'=-\\frac{4t}{(t+1)^{2}}$. 因为 $(t+1)^{2}\\geqslant4t$，所以</p>\n$$\n-1\\le y'<0\n$$\n<p>当 $t=1$，即 $x=0$ 时，$y'=-1$；对任意有限的 $x$，都有 $t>0$，故 $y'\\ne0$. 又当 $t\\to0^{+}$ 或 $t\\to+\\infty$ 时，$y'\\to0^{-}$，结合连续性可知 $y'$ 的取值范围为 $[-1,0)$. 直线倾斜角取 $[0,\\pi)$，故由 $\\tan\\alpha=y'$ 得</p><p>$\\alpha\\in\\left[\\frac{3\\pi}{4},\\pi\\right)$，选 D.</p>"
         }
       ]
     },
@@ -172,10 +172,10 @@
         },
         {
           "num": 15,
-          "body": "已知 $-1&#x3C;x+y&#x3C;4$ 且 $2&#x3C;x-y&#x3C;3$，则 $z=2x-3y$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （答案用区间表示）",
+          "body": "已知 $-1<x+y<4$ 且 $2<x-y<3$，则 $z=2x-3y$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （答案用区间表示）",
           "choices": null,
           "answer": "$(3,8)$",
-          "solution": "<p>令 $u=x+y$，$v=x-y$，则</p><p>$x=\\frac{u+v}{2}$，$y=\\frac{u-v}{2}$，$z=2x-3y=\\frac{-u+5v}{2}$.</p><p>由 $-1&#x3C;u&#x3C;4$ 和 $2&#x3C;v&#x3C;3$，得</p><p>$-4&#x3C;-u&#x3C;1$，$10&#x3C;5v&#x3C;15$. 因此</p>\n$$\n3=\\frac{-4+10}{2}&#x3C;z&#x3C;\\frac{1+15}{2}=8\n$$\n<p>两个开区间的线性和能取遍其中的所有值，所以 $z$ 的取值范围为 $(3,8)$.</p>"
+          "solution": "<p>令 $u=x+y$，$v=x-y$，则</p><p>$x=\\frac{u+v}{2}$，$y=\\frac{u-v}{2}$，$z=2x-3y=\\frac{-u+5v}{2}$.</p><p>由 $-1<u<4$ 和 $2<v<3$，得</p><p>$-4<-u<1$，$10<5v<15$. 因此</p>\n$$\n3=\\frac{-4+10}{2}<z<\\frac{1+15}{2}=8\n$$\n<p>两个开区间的线性和能取遍其中的所有值，所以 $z$ 的取值范围为 $(3,8)$.</p>"
         },
         {
           "num": 16,
@@ -194,7 +194,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，$a$，$b$，$c$ 分别为内角 $A$，$B$，$C$ 的对边，且 $2a\\sin A=(2b+c)\\sin B+(2c+b)\\sin C$.</p><ol class=\"enumerate\"><li><p>求 $A$ 的大小；</p></li><li><p>若 $\\sin B+\\sin C=1$，试判断 $\\triangle ABC$ 的形状.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设三角形 $ABC$ 的外接圆半径为 $R$，由正弦定理得 $a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$. 将其代入已知等式，得 $4R\\sin^{2} A=4R\\left(\\sin^{2}B+\\sin^{2}C+\\sin B\\sin C\\right)$，从而 $\\sin^{2} A=\\sin^{2}B+\\sin^{2}C+\\sin B\\sin C$. 又因为 $A=\\pi-(B+C)$，所以</p>\n$$\n\\sin^{2} A=\\sin^{2}(B+C)=\\sin^{2}B+\\sin^{2}C-2\\sin B\\sin C\\cos A\n$$\n<p>因此 $-2\\sin B\\sin C\\cos A=\\sin B\\sin C$. 三角形内角 $B$，$C$ 均在 $(0,\\pi)$ 内，故 $\\sin B\\sin C>0$，于是 $\\cos A=-\\frac{1}{2}$. 由 $0&#x3C;A&#x3C;\\pi$，得 $A=\\frac{2\\pi}{3}$.</p></li><li><p>由上知 $B+C=\\frac{\\pi}{3}$，于是 $\\sin B+\\sin C=2\\sin\\frac{B+C}{2}\\cos\\frac{B-C}{2}=\\cos\\frac{B-C}{2}$. 已知该和为 $1$，且 $B$，$C$ 均为正数，所以只能有 $B=C=\\frac{\\pi}{6}$. 因而 $b=c$，三角形 $ABC$ 为等腰三角形，且 $A=\\frac{2\\pi}{3}$，$B=C=\\frac{\\pi}{6}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设三角形 $ABC$ 的外接圆半径为 $R$，由正弦定理得 $a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$. 将其代入已知等式，得 $4R\\sin^{2} A=4R\\left(\\sin^{2}B+\\sin^{2}C+\\sin B\\sin C\\right)$，从而 $\\sin^{2} A=\\sin^{2}B+\\sin^{2}C+\\sin B\\sin C$. 又因为 $A=\\pi-(B+C)$，所以</p>\n$$\n\\sin^{2} A=\\sin^{2}(B+C)=\\sin^{2}B+\\sin^{2}C-2\\sin B\\sin C\\cos A\n$$\n<p>因此 $-2\\sin B\\sin C\\cos A=\\sin B\\sin C$. 三角形内角 $B$，$C$ 均在 $(0,\\pi)$ 内，故 $\\sin B\\sin C>0$，于是 $\\cos A=-\\frac{1}{2}$. 由 $0<A<\\pi$，得 $A=\\frac{2\\pi}{3}$.</p></li><li><p>由上知 $B+C=\\frac{\\pi}{3}$，于是 $\\sin B+\\sin C=2\\sin\\frac{B+C}{2}\\cos\\frac{B-C}{2}=\\cos\\frac{B-C}{2}$. 已知该和为 $1$，且 $B$，$C$ 均为正数，所以只能有 $B=C=\\frac{\\pi}{6}$. 因而 $b=c$，三角形 $ABC$ 为等腰三角形，且 $A=\\frac{2\\pi}{3}$，$B=C=\\frac{\\pi}{6}$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -208,7 +208,7 @@
           "body": "<p>如图，棱柱 $ABC-A_{1}B_{1}C_{1}$ 的侧面 $BCC_{1}B_{1}$ 是菱形，$B_{1}C\\perp A_{1}B$.</p><ol class=\"enumerate\"><li><p>证明：平面 $AB_{1}C\\perp$ 平面 $A_{1}BC_{1}$；</p></li><li><p>设 $D$ 是 $A_{1}C_{1}$ 上的点，且 $A_{1}B\\parallel$ 平面 $B_{1}CD$，求 $A_{1}D:DC_{1}$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $\\overrightarrow{BA}=\\mathbf{u}$，$\\overrightarrow{BC}=\\mathbf{v}$，$\\overrightarrow{BB_1}=\\mathbf{w}$. 取 $B$ 为原点，则 $A$，$C$，$B_{1}$，$A_{1}$，$C_{1}$ 的位置向量依次为 $\\mathbf{u}$，$\\mathbf{v}$，$\\mathbf{w}$，$\\mathbf{u}+\\mathbf{w}$，$\\mathbf{v}+\\mathbf{w}$. 因为四边形 $BCC_{1}B_{1}$ 是菱形，所以 $|\\mathbf{v}|=|\\mathbf{w}|$，从而 $(\\mathbf{v}-\\mathbf{w})\\cdot(\\mathbf{v}+\\mathbf{w})=|\\mathbf{v}|^{2}-|\\mathbf{w}|^{2}=0$，即 $B_{1}C\\perp BC_{1}$. 由题设还有 $B_{1}C\\perp A_{1}B$. 设 $E$ 为 $BC_{1}$ 的中点，则菱形的两条对角线互相垂直且互相平分，所以 $E$ 也在 $B_{1}C$ 上. 过 $E$ 作直线 $g\\parallel A_{1}B$，则 $g$ 在平面 $A_{1}BC_{1}$ 内，且 $B_{1}C\\perp g$. 直线 $BC_{1}$ 与 $g$ 在 $E$ 相交，因此 $B_{1}C$ 垂直于平面 $A_{1}BC_{1}$. 又直线 $B_{1}C$ 在平面 $AB_{1}C$ 内，故平面 $AB_{1}C\\perp$ 平面 $A_{1}BC_{1}$.</p></li><li><p>设 $D=A_{1}+t(C_{1}-A_{1})$，其中 $0&#x3C;t&#x3C;1$. 于是 $D$ 的位置向量为 $(1-t)\\mathbf{u}+t\\mathbf{v}+\\mathbf{w}$，平面 $B_{1}CD$ 内可取两条相交方向向量 $\\mathbf{v}-\\mathbf{w}$ 与 $(1-t)\\mathbf{u}+t\\mathbf{v}$. 条件 $A_{1}B\\parallel$ 平面 $B_{1}CD$ 等价于向量 $\\mathbf{u}+\\mathbf{w}$ 可表示为这两条向量的线性组合，即存在实数 $\\lambda$，$\\mu$，使</p>\n$$\n\\mathbf{u}+\\mathbf{w}=\\lambda(\\mathbf{v}-\\mathbf{w})+\\mu\\bigl((1-t)\\mathbf{u}+t\\mathbf{v}\\bigr)\n$$\n<p>比较 $\\mathbf{u}$，$\\mathbf{v}$，$\\mathbf{w}$ 的系数，得到 $\\mu(1-t)=1$，$\\lambda+\\mu t=0$，$-\\lambda=1$. 所以 $\\lambda=-1$，$\\mu t=1$，且 $\\mu(1-t)=1$，从而 $t=\\frac{1}{2}$. 因此 $A_{1}D:DC_{1}=t:(1-t)=1:1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $\\overrightarrow{BA}=\\mathbf{u}$，$\\overrightarrow{BC}=\\mathbf{v}$，$\\overrightarrow{BB_1}=\\mathbf{w}$. 取 $B$ 为原点，则 $A$，$C$，$B_{1}$，$A_{1}$，$C_{1}$ 的位置向量依次为 $\\mathbf{u}$，$\\mathbf{v}$，$\\mathbf{w}$，$\\mathbf{u}+\\mathbf{w}$，$\\mathbf{v}+\\mathbf{w}$. 因为四边形 $BCC_{1}B_{1}$ 是菱形，所以 $|\\mathbf{v}|=|\\mathbf{w}|$，从而 $(\\mathbf{v}-\\mathbf{w})\\cdot(\\mathbf{v}+\\mathbf{w})=|\\mathbf{v}|^{2}-|\\mathbf{w}|^{2}=0$，即 $B_{1}C\\perp BC_{1}$. 由题设还有 $B_{1}C\\perp A_{1}B$. 设 $E$ 为 $BC_{1}$ 的中点，则菱形的两条对角线互相垂直且互相平分，所以 $E$ 也在 $B_{1}C$ 上. 过 $E$ 作直线 $g\\parallel A_{1}B$，则 $g$ 在平面 $A_{1}BC_{1}$ 内，且 $B_{1}C\\perp g$. 直线 $BC_{1}$ 与 $g$ 在 $E$ 相交，因此 $B_{1}C$ 垂直于平面 $A_{1}BC_{1}$. 又直线 $B_{1}C$ 在平面 $AB_{1}C$ 内，故平面 $AB_{1}C\\perp$ 平面 $A_{1}BC_{1}$.</p></li><li><p>设 $D=A_{1}+t(C_{1}-A_{1})$，其中 $0<t<1$. 于是 $D$ 的位置向量为 $(1-t)\\mathbf{u}+t\\mathbf{v}+\\mathbf{w}$，平面 $B_{1}CD$ 内可取两条相交方向向量 $\\mathbf{v}-\\mathbf{w}$ 与 $(1-t)\\mathbf{u}+t\\mathbf{v}$. 条件 $A_{1}B\\parallel$ 平面 $B_{1}CD$ 等价于向量 $\\mathbf{u}+\\mathbf{w}$ 可表示为这两条向量的线性组合，即存在实数 $\\lambda$，$\\mu$，使</p>\n$$\n\\mathbf{u}+\\mathbf{w}=\\lambda(\\mathbf{v}-\\mathbf{w})+\\mu\\bigl((1-t)\\mathbf{u}+t\\mathbf{v}\\bigr)\n$$\n<p>比较 $\\mathbf{u}$，$\\mathbf{v}$，$\\mathbf{w}$ 的系数，得到 $\\mu(1-t)=1$，$\\lambda+\\mu t=0$，$-\\lambda=1$. 所以 $\\lambda=-1$，$\\mu t=1$，且 $\\mu(1-t)=1$，从而 $t=\\frac{1}{2}$. 因此 $A_{1}D:DC_{1}=t:(1-t)=1:1$.</p></li></ol>"
         },
         {
           "num": 20,
@@ -222,7 +222,7 @@
           "body": "<p>已知函数 $f(x)=(a+1)\\ln x+ax^{2}+1$.</p><ol class=\"enumerate\"><li><p>讨论函数 $f(x)$ 的单调性；</p></li><li><p>设 $a\\le -2$，证明：对任意 $x_{1}$，$x_{2}\\in(0,+\\infty)$，$|f(x_{1})-f(x_{2})|\\ge 4|x_{1}-x_{2}|$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{a+1}{x}+2ax=\\frac{a+1+2ax^{2}}{x}\n$$\n<p>由于 $x>0$，$f'(x)$ 的符号由 $a+1+2ax^{2}$ 决定. 当 $a\\geqslant0$ 时，$a+1+2ax^{2}>0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调增加；当 $a\\le-1$ 时，$a+1+2ax^{2}&#x3C;0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调减少；当 $-1&#x3C;a&#x3C;0$ 时，方程 $a+1+2ax^{2}=0$ 的正根为 $x_{0}=\\sqrt{-\\dfrac{a+1}{2a}}$，且 $f'(x)>0$ 在 $\\left(0,x_{0}\\right)$ 上成立，$f'(x)&#x3C;0$ 在 $\\left(x_{0},+\\infty\\right)$ 上成立，所以 $f(x)$ 在 $\\left(0,\\sqrt{-\\dfrac{a+1}{2a}}\\right)$ 上单调增加，在 $\\left(\\sqrt{-\\dfrac{a+1}{2a}},+\\infty\\right)$ 上单调减少.</p></li><li><p>设 $u=-a$，则 $u\\geqslant2$，且</p>\n$$\nf'(x)=-\\frac{u-1}{x}-2ux\n$$\n<p>由基本不等式，$-f'(x)=\\frac{u-1}{x}+2ux\\geqslant2\\sqrt{2u(u-1)}\\geqslant4$，所以 $f'(x)\\le-4$ 对任意 $x>0$ 成立. 当 $x_{1}=x_{2}$ 时，不等式显然成立；当 $x_{1}\\ne x_{2}$ 时，由拉格朗日中值定理，存在 $\\xi$ 严格介于 $x_{1}$，$x_{2}$ 之间，使 $f(x_{1})-f(x_{2})=f'(\\xi)(x_{1}-x_{2})$. 因而 $|f(x_{1})-f(x_{2})|=|f'(\\xi)|\\,|x_{1}-x_{2}|\\geqslant4|x_{1}-x_{2}|$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{a+1}{x}+2ax=\\frac{a+1+2ax^{2}}{x}\n$$\n<p>由于 $x>0$，$f'(x)$ 的符号由 $a+1+2ax^{2}$ 决定. 当 $a\\geqslant0$ 时，$a+1+2ax^{2}>0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调增加；当 $a\\le-1$ 时，$a+1+2ax^{2}<0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调减少；当 $-1<a<0$ 时，方程 $a+1+2ax^{2}=0$ 的正根为 $x_{0}=\\sqrt{-\\dfrac{a+1}{2a}}$，且 $f'(x)>0$ 在 $\\left(0,x_{0}\\right)$ 上成立，$f'(x)<0$ 在 $\\left(x_{0},+\\infty\\right)$ 上成立，所以 $f(x)$ 在 $\\left(0,\\sqrt{-\\dfrac{a+1}{2a}}\\right)$ 上单调增加，在 $\\left(\\sqrt{-\\dfrac{a+1}{2a}},+\\infty\\right)$ 上单调减少.</p></li><li><p>设 $u=-a$，则 $u\\geqslant2$，且</p>\n$$\nf'(x)=-\\frac{u-1}{x}-2ux\n$$\n<p>由基本不等式，$-f'(x)=\\frac{u-1}{x}+2ux\\geqslant2\\sqrt{2u(u-1)}\\geqslant4$，所以 $f'(x)\\le-4$ 对任意 $x>0$ 成立. 当 $x_{1}=x_{2}$ 时，不等式显然成立；当 $x_{1}\\ne x_{2}$ 时，由拉格朗日中值定理，存在 $\\xi$ 严格介于 $x_{1}$，$x_{2}$ 之间，使 $f(x_{1})-f(x_{2})=f'(\\xi)(x_{1}-x_{2})$. 因而 $|f(x_{1})-f(x_{2})|=|f'(\\xi)|\\,|x_{1}-x_{2}|\\geqslant4|x_{1}-x_{2}|$.</p></li></ol>"
         }
       ]
     },
@@ -234,7 +234,7 @@
           "body": "<p>如图，$\\triangle ABC$ 的角平分线 $AD$ 的延长线交它的外接圆于点 $E$.</p><ol class=\"enumerate\"><li><p>证明：$\\triangle ABE\\sim\\triangle ADC$；</p></li><li><p>若 $\\triangle ABC$ 的面积 $S=\\frac{1}{2}AD\\cdot AE$，求 $\\angle BAC$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记 $\\angle BAC=A$，$\\angle ABC=B$，$\\angle ACB=C$. 因为 $AD$ 是角平分线且 $A$，$D$，$E$ 共线，所以 $\\angle BAE=\\angle DAC=\\frac{A}{2}$. 又因为 $A$，$B$，$C$，$E$ 共圆，且 $B$，$C$ 在弦 $AE$ 的两侧，有 $\\angle ABE=\\pi-\\angle ACE$. 在三角形 $ACE$ 中，$\\angle CAE=\\frac{A}{2}$，并由圆周角定理 $\\angle AEC=\\angle ABC=B$，所以 $\\angle ACE=\\pi-\\frac{A}{2}-B$，从而 $\\angle ABE=\\frac{A}{2}+B$. 另一方面，$D$ 在 $BC$ 上，故 $\\angle ACD=C$，于是 $\\angle ADC=\\pi-\\frac{A}{2}-C=\\frac{A}{2}+B$. 因此 $\\angle BAE=\\angle DAC$，$\\angle ABE=\\angle ADC$，所以 $\\triangle ABE\\sim\\triangle ADC$.</p></li><li><p>由相似三角形的对应边关系，得 $\\frac{AB}{AD}=\\frac{AE}{AC}$，即 $AD\\cdot AE=AB\\cdot AC$. 另一方面，$S=\\frac{1}{2}AB\\cdot AC\\sin A$，题设又给出 $S=\\frac{1}{2}AD\\cdot AE=\\frac{1}{2}AB\\cdot AC$. 因为 $AB\\cdot AC>0$，所以 $\\sin A=1$. 由 $0&#x3C;A&#x3C;\\pi$，得 $\\angle BAC=A=\\frac{\\pi}{2}=90^{\\circ}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记 $\\angle BAC=A$，$\\angle ABC=B$，$\\angle ACB=C$. 因为 $AD$ 是角平分线且 $A$，$D$，$E$ 共线，所以 $\\angle BAE=\\angle DAC=\\frac{A}{2}$. 又因为 $A$，$B$，$C$，$E$ 共圆，且 $B$，$C$ 在弦 $AE$ 的两侧，有 $\\angle ABE=\\pi-\\angle ACE$. 在三角形 $ACE$ 中，$\\angle CAE=\\frac{A}{2}$，并由圆周角定理 $\\angle AEC=\\angle ABC=B$，所以 $\\angle ACE=\\pi-\\frac{A}{2}-B$，从而 $\\angle ABE=\\frac{A}{2}+B$. 另一方面，$D$ 在 $BC$ 上，故 $\\angle ACD=C$，于是 $\\angle ADC=\\pi-\\frac{A}{2}-C=\\frac{A}{2}+B$. 因此 $\\angle BAE=\\angle DAC$，$\\angle ABE=\\angle ADC$，所以 $\\triangle ABE\\sim\\triangle ADC$.</p></li><li><p>由相似三角形的对应边关系，得 $\\frac{AB}{AD}=\\frac{AE}{AC}$，即 $AD\\cdot AE=AB\\cdot AC$. 另一方面，$S=\\frac{1}{2}AB\\cdot AC\\sin A$，题设又给出 $S=\\frac{1}{2}AD\\cdot AE=\\frac{1}{2}AB\\cdot AC$. 因为 $AB\\cdot AC>0$，所以 $\\sin A=1$. 由 $0<A<\\pi$，得 $\\angle BAC=A=\\frac{\\pi}{2}=90^{\\circ}$.</p></li></ol>"
         },
         {
           "num": 23,

@@ -9,15 +9,15 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{x\\mid 0&#x3C;x&#x3C;2\\}$，$B=\\{x\\mid x\\ge1\\}$，则 $A\\cap(C_{\\mathbb{R}}B)=$（ ）",
+          "body": "已知集合 $A=\\{x\\mid 0<x<2\\}$，$B=\\{x\\mid x\\ge1\\}$，则 $A\\cap(C_{\\mathbb{R}}B)=$（ ）",
           "choices": [
-            "$\\{x\\mid 0&#x3C;x\\le1\\}$",
-            "$\\{x\\mid 0&#x3C;x&#x3C;1\\}$",
-            "$\\{x\\mid 1\\le x&#x3C;2\\}$",
-            "$\\{x\\mid 0&#x3C;x&#x3C;2\\}$"
+            "$\\{x\\mid 0<x\\le1\\}$",
+            "$\\{x\\mid 0<x<1\\}$",
+            "$\\{x\\mid 1\\le x<2\\}$",
+            "$\\{x\\mid 0<x<2\\}$"
           ],
           "answer": "B",
-          "solution": "<p>由 $C_{\\mathbb{R}}B=\\{x\\mid x&#x3C;1\\}$，所以</p>\n$$\nA\\cap(C_{\\mathbb{R}}B)=\\{x\\mid 0&#x3C;x&#x3C;2\\}\\cap\\{x\\mid x&#x3C;1\\}=\\{x\\mid 0&#x3C;x&#x3C;1\\}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>由 $C_{\\mathbb{R}}B=\\{x\\mid x<1\\}$，所以</p>\n$$\nA\\cap(C_{\\mathbb{R}}B)=\\{x\\mid 0<x<2\\}\\cap\\{x\\mid x<1\\}=\\{x\\mid 0<x<1\\}\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 2,
@@ -45,7 +45,7 @@
         },
         {
           "num": 4,
-          "body": "设 $x\\in\\mathbb{R}$，则“$\\left\\lvert x-\\dfrac{1}{2}\\right\\rvert&#x3C;\\dfrac{1}{2}$”是“$x^{3}&#x3C;1$”的（ ）",
+          "body": "设 $x\\in\\mathbb{R}$，则“$\\left\\lvert x-\\dfrac{1}{2}\\right\\rvert<\\dfrac{1}{2}$”是“$x^{3}<1$”的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -53,7 +53,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>由</p>\n$$\n\\left\\lvert x-\\frac{1}{2}\\right\\rvert&#x3C;\\frac{1}{2}\\Longleftrightarrow -\\frac{1}{2}&#x3C;x-\\frac{1}{2}&#x3C;\\frac{1}{2}\\Longleftrightarrow 0&#x3C;x&#x3C;1\n$$\n<p>对任意实数 $x$，函数 $x^{3}$ 单调递增，因此 $x^{3}&#x3C;1\\Longleftrightarrow x&#x3C;1$.所以 $0&#x3C;x&#x3C;1$ 能推出 $x^{3}&#x3C;1$，但 $x^{3}&#x3C;1$ 不能推出 $x>0$，例如 $x=-1$ 满足 $x^{3}&#x3C;1$ 而不满足 $0&#x3C;x&#x3C;1$.故前者是后者的充分而不必要条件，选 A.</p>"
+          "solution": "<p>由</p>\n$$\n\\left\\lvert x-\\frac{1}{2}\\right\\rvert<\\frac{1}{2}\\Longleftrightarrow -\\frac{1}{2}<x-\\frac{1}{2}<\\frac{1}{2}\\Longleftrightarrow 0<x<1\n$$\n<p>对任意实数 $x$，函数 $x^{3}$ 单调递增，因此 $x^{3}<1\\Longleftrightarrow x<1$.所以 $0<x<1$ 能推出 $x^{3}<1$，但 $x^{3}<1$ 不能推出 $x>0$，例如 $x=-1$ 满足 $x^{3}<1$ 而不满足 $0<x<1$.故前者是后者的充分而不必要条件，选 A.</p>"
         },
         {
           "num": 5,
@@ -65,7 +65,7 @@
             "$c>a>b$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $0&#x3C;\\ln2&#x3C;1$，所以</p>\n$$\na=\\log_{2}\\mathrm{e}=\\frac{1}{\\ln2}>\\ln2=b\n$$\n<p>又因为 $\\ln3>1$，所以</p>\n$$\nc=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\frac{\\ln(\\frac{1}{3})}{\\ln(\\frac{1}{2})}=\\frac{\\ln3}{\\ln2}>\\frac{1}{\\ln2}=a\n$$\n<p>因此 $c>a>b$，故选 D.</p>"
+          "solution": "<p>因为 $0<\\ln2<1$，所以</p>\n$$\na=\\log_{2}\\mathrm{e}=\\frac{1}{\\ln2}>\\ln2=b\n$$\n<p>又因为 $\\ln3>1$，所以</p>\n$$\nc=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\frac{\\ln(\\frac{1}{3})}{\\ln(\\frac{1}{2})}=\\frac{\\ln3}{\\ln2}>\\frac{1}{\\ln2}=a\n$$\n<p>因此 $c>a>b$，故选 D.</p>"
         },
         {
           "num": 6,
@@ -145,10 +145,10 @@
         },
         {
           "num": 14,
-          "body": "<p>已知 $a>0$，函数</p><p>$f(x)=\\begin{cases}x^{2}+2ax+a,&#x26;x\\le0,\\\\  -x^{2}+2ax-2a,&#x26;x>0\\end{cases}$</p><p>若关于 $x$ 的方程 $f(x)=ax$ 恰有 2 个互异的实数解，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "body": "<p>已知 $a>0$，函数</p><p>$f(x)=\\begin{cases}x^{2}+2ax+a,&x\\le0,\\\\  -x^{2}+2ax-2a,&x>0\\end{cases}$</p><p>若关于 $x$ 的方程 $f(x)=ax$ 恰有 2 个互异的实数解，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
           "choices": null,
           "answer": "$(4,8)$",
-          "solution": "<p>当 $x\\le0$ 时，方程化为</p>\n$$\nx^{2}+2ax+a=ax\\Longleftrightarrow x^{2}+ax+a=0\n$$\n<p>其判别式为 $a(a-4)$.当 $0&#x3C;a&#x3C;4$ 时无实根；当 $a=4$ 时有一个重根 $x=-2$；当 $a>4$ 时有两个根，且两根之和为 $-a&#x3C;0$、积为 $a>0$，所以两根均为负数，均满足 $x\\le0$.</p><p>当 $x>0$ 时，方程化为</p>\n$$\n-x^{2}+2ax-2a=ax\\Longleftrightarrow x^{2}-ax+2a=0\n$$\n<p>其判别式为 $a(a-8)$.当 $0&#x3C;a&#x3C;8$ 时无实根；当 $a=8$ 时有一个正的重根 $x=4$；当 $a>8$ 时两根之和为 $a>0$、积为 $2a>0$，且判别式为正，所以两根均为正数.</p><p>合并两段的根数：$0&#x3C;a\\le4$ 时不超过一个根，$4&#x3C;a&#x3C;8$ 时恰有左段的两个根，$a=8$ 时有三个根，$a>8$ 时有四个根.因此恰有两个互异实根当且仅当</p>\n$$\na\\in(4,8)\n$$"
+          "solution": "<p>当 $x\\le0$ 时，方程化为</p>\n$$\nx^{2}+2ax+a=ax\\Longleftrightarrow x^{2}+ax+a=0\n$$\n<p>其判别式为 $a(a-4)$.当 $0<a<4$ 时无实根；当 $a=4$ 时有一个重根 $x=-2$；当 $a>4$ 时有两个根，且两根之和为 $-a<0$、积为 $a>0$，所以两根均为负数，均满足 $x\\le0$.</p><p>当 $x>0$ 时，方程化为</p>\n$$\n-x^{2}+2ax-2a=ax\\Longleftrightarrow x^{2}-ax+2a=0\n$$\n<p>其判别式为 $a(a-8)$.当 $0<a<8$ 时无实根；当 $a=8$ 时有一个正的重根 $x=4$；当 $a>8$ 时两根之和为 $a>0$、积为 $2a>0$，且判别式为正，所以两根均为正数.</p><p>合并两段的根数：$0<a\\le4$ 时不超过一个根，$4<a<8$ 时恰有左段的两个根，$a=8$ 时有三个根，$a>8$ 时有四个根.因此恰有两个互异实根当且仅当</p>\n$$\na\\in(4,8)\n$$"
         }
       ]
     },
@@ -192,10 +192,10 @@
         },
         {
           "num": 20,
-          "body": "<p>已知函数 $f(x)=a^{x}$，$g(x)=\\log_{a} x$，其中 $a>1$.</p><ol class=\"enumerate\"><li><p>求函数 $h(x)=f(x)-x\\ln a$ 的单调区间；</p></li><li><p>若曲线 $y=f(x)$ 在点 $(x_{1},f(x_{1}))$ 处的切线与曲线 $y=g(x)$ 在点 $(x_{2},g(x_{2}))$ 处的切线平行，证明 $x_{1}+g(x_{2})=-\\frac{2\\ln\\ln a}{\\ln a}$；</p></li><li><p>证明当 $a\\ge \\mathrm{e}^{\\frac{1}{\\mathrm}{e}}$ 时，存在直线 $l$，使 $l$ 是曲线 $y=f(x)$ 的切线，也是曲线 $y=g(x)$ 的切线.</p></li></ol>",
+          "body": "<p>已知函数 $f(x)=a^{x}$，$g(x)=\\log_{a} x$，其中 $a>1$.</p><ol class=\"enumerate\"><li><p>求函数 $h(x)=f(x)-x\\ln a$ 的单调区间；</p></li><li><p>若曲线 $y=f(x)$ 在点 $(x_{1},f(x_{1}))$ 处的切线与曲线 $y=g(x)$ 在点 $(x_{2},g(x_{2}))$ 处的切线平行，证明 $x_{1}+g(x_{2})=-\\frac{2\\ln\\ln a}{\\ln a}$；</p></li><li><p>证明当 $a\\ge \\mathrm{e}^{\\frac{1}{\\mathrm{e}}}$ 时，存在直线 $l$，使 $l$ 是曲线 $y=f(x)$ 的切线，也是曲线 $y=g(x)$ 的切线.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记 $L=\\ln a$，则 $L>0$，且</p>\n$$\nh'(x)=a^{x}\\ln a-\\ln a=L(a^{x}-1)\n$$\n<p>因为 $a^{x}&#x3C;1$ 当 $x&#x3C;0$，$a^{x}=1$ 当 $x=0$，$a^{x}>1$ 当 $x>0$，所以 $h(x)$ 在 $(-\\infty,0)$ 上单调递减，在 $(0,+\\infty)$ 上单调递增.</p></li><li><p>两条切线平行，所以斜率相等.由</p><p>$f'(x_{1})=a^{x_1}\\ln a$，$g'(x_{2})=\\frac{1}{x_{2}\\ln a}$</p><p>得</p>\n$$\na^{x_1}\\ln a=\\frac{1}{x_{2}\\ln a}\n$$\n<p>两边取自然对数，得</p>\n$$\nx_{1}\\ln a+\\ln x_{2}+2\\ln\\ln a=0\n$$\n<p>除以 $\\ln a$，并注意 $g(x_{2})=\\frac{\\ln x_{2}}{\\ln a}$，可得</p>\n$$\nx_{1}+g(x_{2})=-\\frac{2\\ln\\ln a}{\\ln a}\n$$\n</li><li><p>仍记 $L=\\ln a$.在 $x_{1}$ 处，曲线 $y=f(x)$ 的切线为</p>\n$$\nl_{1}:\\ y=a^{x_1}+a^{x_1}L(x-x_{1})\n$$\n<p>在 $x_{2}$ 处，曲线 $y=g(x)$ 的切线为</p>\n$$\nl_{2}:\\ y=\\frac{\\ln x_{2}}{L}+\\frac{1}{x_{2}L}(x-x_{2})\n$$\n<p>若两切线重合，首先必须有斜率相等，即</p>\n$$\na^{x_1}L=\\frac{1}{x_{2}L}\n$$\n<p>此时</p>\n$$\nx_{2}=\\frac{1}{a^{x_1}L^{2}}>0\n$$\n<p>将其代入两条切线的截距相等条件，得到只含 $x_{1}$ 的方程</p>\n$$\nu(x_{1})=a^{x_1}(1-Lx_{1})+x_{1}+\\frac{1}{L}+\\frac{2\\ln L}{L}=0\n$$\n<p>其中</p>\n$$\nu(x)=a^{x}(1-Lx)+x+\\frac{1}{L}+\\frac{2\\ln L}{L}\n$$\n<p>下面证明当 $L\\ge\\frac{1}{\\mathrm}{e}$ 时 $u$ 有零点.其导数为</p>\n$$\nu'(x)=1-L^{2}xa^{x}\n$$\n<p>当 $x&#x3C;0$ 时，$u'(x)>0$.当 $x>0$ 时，</p>\n$$\nu''(x)=-L^{2}a^{x}(1+Lx)&#x3C;0\n$$\n<p>所以 $u'(x)$ 在 $(0,+\\infty)$ 上递减.又</p><p>$u'(0)=1>0$，$u'\\left(\\frac{1}{L^{2}}\\right)=1-a^{\\frac{1}{L^{2}}}&#x3C;0$，</p><p>故存在唯一的 $x_{0}>0$ 使 $u'(x_{0})=0$，且 $u$ 在 $x_{0}$ 处取得最大值.由 $u'(x_{0})=0$，得</p>\n$$\nL^{2}x_{0}a^{x_0}=1\n$$\n<p>从而</p>\n$$\nu(x_{0})=\\frac{1}{L^{2}x_{0}}+x_{0}+\\frac{2\\ln L}{L}\\ge\\frac{2}{L}+\\frac{2\\ln L}{L}=\\frac{2(1+\\ln L)}{L}\\ge0\n$$\n<p>另一方面，由 $a^{x}=\\mathrm{e}^{Lx}\\ge1+Lx$，当 $x>\\frac{1}{L}$ 时有</p>\n$$\nu(x)\\le(1+Lx)(1-Lx)+x+\\frac{1}{L}+\\frac{2\\ln L}{L}\n$$\n<p>右端是关于 $x$ 的二次式，且当 $x\\to+\\infty$ 时趋于 $-\\infty$.因此可取充分大的 $x_{1}>x_{0}$，使 $u(x_{1})&#x3C;0$.由连续函数零点定理，方程 $u(x)=0$ 在 $x_{0}$ 与该 $x_{1}$ 之间有解.</p><p>取这个解为 $x_{1}$，再令</p>\n$$\nx_{2}=\\frac{1}{a^{x_1}L^{2}}>0\n$$\n<p>则两条切线斜率相等且截距相等，因而重合为同一直线.由 $L\\ge\\frac{1}{\\mathrm}{e}\\Longleftrightarrow a\\ge \\mathrm{e}^{\\frac{1}{\\mathrm{e}}}$，结论得证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记 $L=\\ln a$，则 $L>0$，且</p>\n$$\nh'(x)=a^{x}\\ln a-\\ln a=L(a^{x}-1)\n$$\n<p>因为 $a^{x}<1$ 当 $x<0$，$a^{x}=1$ 当 $x=0$，$a^{x}>1$ 当 $x>0$，所以 $h(x)$ 在 $(-\\infty,0)$ 上单调递减，在 $(0,+\\infty)$ 上单调递增.</p></li><li><p>两条切线平行，所以斜率相等.由</p><p>$f'(x_{1})=a^{x_1}\\ln a$，$g'(x_{2})=\\frac{1}{x_{2}\\ln a}$</p><p>得</p>\n$$\na^{x_1}\\ln a=\\frac{1}{x_{2}\\ln a}\n$$\n<p>两边取自然对数，得</p>\n$$\nx_{1}\\ln a+\\ln x_{2}+2\\ln\\ln a=0\n$$\n<p>除以 $\\ln a$，并注意 $g(x_{2})=\\frac{\\ln x_{2}}{\\ln a}$，可得</p>\n$$\nx_{1}+g(x_{2})=-\\frac{2\\ln\\ln a}{\\ln a}\n$$\n</li><li><p>仍记 $L=\\ln a$.在 $x_{1}$ 处，曲线 $y=f(x)$ 的切线为</p>\n$$\nl_{1}:\\ y=a^{x_1}+a^{x_1}L(x-x_{1})\n$$\n<p>在 $x_{2}$ 处，曲线 $y=g(x)$ 的切线为</p>\n$$\nl_{2}:\\ y=\\frac{\\ln x_{2}}{L}+\\frac{1}{x_{2}L}(x-x_{2})\n$$\n<p>若两切线重合，首先必须有斜率相等，即</p>\n$$\na^{x_1}L=\\frac{1}{x_{2}L}\n$$\n<p>此时</p>\n$$\nx_{2}=\\frac{1}{a^{x_1}L^{2}}>0\n$$\n<p>将其代入两条切线的截距相等条件，得到只含 $x_{1}$ 的方程</p>\n$$\nu(x_{1})=a^{x_1}(1-Lx_{1})+x_{1}+\\frac{1}{L}+\\frac{2\\ln L}{L}=0\n$$\n<p>其中</p>\n$$\nu(x)=a^{x}(1-Lx)+x+\\frac{1}{L}+\\frac{2\\ln L}{L}\n$$\n<p>下面证明当 $L\\ge\\frac{1}{\\mathrm{e}}$ 时 $u$ 有零点.其导数为</p>\n$$\nu'(x)=1-L^{2}xa^{x}\n$$\n<p>当 $x<0$ 时，$u'(x)>0$.当 $x>0$ 时，</p>\n$$\nu''(x)=-L^{2}a^{x}(1+Lx)<0\n$$\n<p>所以 $u'(x)$ 在 $(0,+\\infty)$ 上递减.又</p><p>$u'(0)=1>0$，$u'\\left(\\frac{1}{L^{2}}\\right)=1-a^{\\frac{1}{L^{2}}}<0$，</p><p>故存在唯一的 $x_{0}>0$ 使 $u'(x_{0})=0$，且 $u$ 在 $x_{0}$ 处取得最大值.由 $u'(x_{0})=0$，得</p>\n$$\nL^{2}x_{0}a^{x_0}=1\n$$\n<p>从而</p>\n$$\nu(x_{0})=\\frac{1}{L^{2}x_{0}}+x_{0}+\\frac{2\\ln L}{L}\\ge\\frac{2}{L}+\\frac{2\\ln L}{L}=\\frac{2(1+\\ln L)}{L}\\ge0\n$$\n<p>另一方面，由 $a^{x}=\\mathrm{e}^{Lx}\\ge1+Lx$，当 $x>\\frac{1}{L}$ 时有</p>\n$$\nu(x)\\le(1+Lx)(1-Lx)+x+\\frac{1}{L}+\\frac{2\\ln L}{L}\n$$\n<p>右端是关于 $x$ 的二次式，且当 $x\\to+\\infty$ 时趋于 $-\\infty$.因此可取充分大的 $x_{1}>x_{0}$，使 $u(x_{1})<0$.由连续函数零点定理，方程 $u(x)=0$ 在 $x_{0}$ 与该 $x_{1}$ 之间有解.</p><p>取这个解为 $x_{1}$，再令</p>\n$$\nx_{2}=\\frac{1}{a^{x_1}L^{2}}>0\n$$\n<p>则两条切线斜率相等且截距相等，因而重合为同一直线.由 $L\\ge\\frac{1}{\\mathrm{e}}\\Longleftrightarrow a\\ge \\mathrm{e}^{\\frac{1}{\\mathrm{e}}}$，结论得证.</p></li></ol>"
         }
       ]
     }

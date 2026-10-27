@@ -9,12 +9,12 @@
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $A = \\left\\{x \\mid -\\frac{1}{2}&#x3C; x &#x3C; 2\\right\\}$，$B = \\{x \\mid x^{2} \\le 1\\}$，则 $A \\cup B =$（ ）",
+          "body": "设集合 $A = \\left\\{x \\mid -\\frac{1}{2}< x < 2\\right\\}$，$B = \\{x \\mid x^{2} \\le 1\\}$，则 $A \\cup B =$（ ）",
           "choices": [
-            "$\\{x\\mid -1\\le x &#x3C; 2\\}$",
-            "$\\left\\{x\\mid -\\frac{1}{2}&#x3C; x\\le 1\\right\\}$",
-            "$\\{x \\mid x &#x3C; 2\\}$",
-            "$\\{x\\mid 1\\le x &#x3C; 2\\}$"
+            "$\\{x\\mid -1\\le x < 2\\}$",
+            "$\\left\\{x\\mid -\\frac{1}{2}< x\\le 1\\right\\}$",
+            "$\\{x \\mid x < 2\\}$",
+            "$\\{x\\mid 1\\le x < 2\\}$"
           ],
           "answer": "A",
           "solution": "由 $x^{2}\\le 1$ 得 $-1\\le x\\le 1$，所以 $B=\\left[-1,1\\right]$. 又 $A=\\left(-\\frac{1}{2},2\\right)$，两集合的并集为 $A\\cup B=\\left[-1,2\\right)$，故选 A."
@@ -113,7 +113,7 @@
           "body": "若 $\\sin \\theta = -\\frac{4}{5}$，$\\tan \\theta > 0$，则 $\\cos \\theta =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$-\\frac{3}{5}$",
-          "solution": "因为 $\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}>0$，且 $\\sin\\theta&#x3C;0$，所以 $\\cos\\theta&#x3C;0$. 又由同角三角函数的基本关系，$\\cos^{2}\\theta=1-\\sin^{2}\\theta=1-\\frac{16}{25}=\\frac{9}{25}$. 因此 $\\cos\\theta=-\\frac{3}{5}$."
+          "solution": "因为 $\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}>0$，且 $\\sin\\theta<0$，所以 $\\cos\\theta<0$. 又由同角三角函数的基本关系，$\\cos^{2}\\theta=1-\\sin^{2}\\theta=1-\\frac{16}{25}=\\frac{9}{25}$. 因此 $\\cos\\theta=-\\frac{3}{5}$."
         },
         {
           "num": 10,
@@ -131,10 +131,10 @@
         },
         {
           "num": 12,
-          "body": "已知函数 $f(x) = \\begin{cases}3^{x},&#x26;x \\le 1,\\\\  -x,&#x26;x > 1.\\end{cases}$ 若 $f(x) = 2$，则 $x =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知函数 $f(x) = \\begin{cases}3^{x},&x \\le 1,\\\\  -x,&x > 1.\\end{cases}$ 若 $f(x) = 2$，则 $x =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\log_{3}2$",
-          "solution": "当 $x\\leqslant1$ 时，$3^{x}=2$，解得 $x=\\log_{3} 2$. 因为 $1&#x3C;2&#x3C;3$，所以 $0&#x3C;\\log_{3} 2&#x3C;1$，满足该分支的定义域. 当 $x>1$ 时，$-x=2$ 得 $x=-2$，不满足 $x>1$. 因此唯一解为 $x=\\log_{3} 2$."
+          "solution": "当 $x\\leqslant1$ 时，$3^{x}=2$，解得 $x=\\log_{3} 2$. 因为 $1<2<3$，所以 $0<\\log_{3} 2<1$，满足该分支的定义域. 当 $x>1$ 时，$-x=2$ 得 $x=-2$，不满足 $x>1$. 因此唯一解为 $x=\\log_{3} 2$."
         },
         {
           "num": 13,
@@ -174,14 +174,14 @@
           "body": "<p>某学生在上学路上要经过 $4$ 个路口，假设在各路口是否遇到红灯是相互独立的，遇到红灯的概率都是 $\\frac{1}{3}$，遇到红灯时停留的时间都是 $2 \\mathrm{~min}$.</p><ol class=\"enumerate\"><li><p>求这名学生在上学路上到第三个路口时首次遇到红灯的概率；</p></li><li><p>这名学生在上学路上因遇到红灯停留的总时间至多是 $4 \\mathrm{~min}$ 的概率.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设事件 $A$ 表示这名学生到第三个路口时首次遇到红灯.</p><p>事件 $A$ 发生当且仅当前两个路口没遇到红灯、第三个路口遇到红灯.</p><p>由各路口事件相互独立，</p>\n$$\nP(A)=\\left(1-\\frac{1}{3}\\right)^{2}\\cdot\\frac{1}{3}=\\frac{4}{27}\n$$\n</li><li><p>每次遇到红灯停留 $2\\mathrm{~min}$，设四个路口中遇到红灯的次数为 $X$，则停留总时间为 $2X\\mathrm{~min}$.</p><p>因此，停留总时间至多为 $4\\mathrm{~min}$ 等价于 $X\\le 2$.</p><p>当 $k=0$，$1$，$2$ 时，四个路口中恰好有 $k$ 个遇到红灯的概率为</p><p>$\\mathrm{C}_{4}^{k}\\left(\\frac{1}{3}\\right)^{k}\\left(\\frac{2}{3}\\right)^{4-k}$.</p><p>所以</p>\n$$\n\\begin{aligned}P(X\\le 2)&#x26;=\\left(\\frac{2}{3}\\right)^{4}+\\mathrm{C}_{4}^{1}\\frac{1}{3}\\left(\\frac{2}{3}\\right)^{3}+\\mathrm{C}_{4}^{2}\\left(\\frac{1}{3}\\right)^{2}\\left(\\frac{2}{3}\\right)^{2}\\\\&#x26;=\\frac{16}{81}+\\frac{32}{81}+\\frac{24}{81}=\\frac{8}{9}.\\end{aligned}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设事件 $A$ 表示这名学生到第三个路口时首次遇到红灯.</p><p>事件 $A$ 发生当且仅当前两个路口没遇到红灯、第三个路口遇到红灯.</p><p>由各路口事件相互独立，</p>\n$$\nP(A)=\\left(1-\\frac{1}{3}\\right)^{2}\\cdot\\frac{1}{3}=\\frac{4}{27}\n$$\n</li><li><p>每次遇到红灯停留 $2\\mathrm{~min}$，设四个路口中遇到红灯的次数为 $X$，则停留总时间为 $2X\\mathrm{~min}$.</p><p>因此，停留总时间至多为 $4\\mathrm{~min}$ 等价于 $X\\le 2$.</p><p>当 $k=0$，$1$，$2$ 时，四个路口中恰好有 $k$ 个遇到红灯的概率为</p><p>$\\mathrm{C}_{4}^{k}\\left(\\frac{1}{3}\\right)^{k}\\left(\\frac{2}{3}\\right)^{4-k}$.</p><p>所以</p>\n$$\n\\begin{aligned}P(X\\le 2)&=\\left(\\frac{2}{3}\\right)^{4}+\\mathrm{C}_{4}^{1}\\frac{1}{3}\\left(\\frac{2}{3}\\right)^{3}+\\mathrm{C}_{4}^{2}\\left(\\frac{1}{3}\\right)^{2}\\left(\\frac{2}{3}\\right)^{2}\\\\&=\\frac{16}{81}+\\frac{32}{81}+\\frac{24}{81}=\\frac{8}{9}.\\end{aligned}\n$$\n</li></ol>"
         },
         {
           "num": 18,
           "body": "<p>设函数 $f(x) = x^{3} - 3ax + b$（$a \\neq 0$）.</p><ol class=\"enumerate\"><li><p>若曲线 $y = f(x)$ 在点 $(2, f(2))$ 处与直线 $y = 8$ 相切，求 $a$，$b$ 的值；</p></li><li><p>求函数 $f(x)$ 的单调区间与极值点.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-3a$.</p><p>直线 $y=8$ 是水平直线，曲线在点 $(2,f(2))$ 处与它相切，因此必有 $f'(2)=0$ 且 $f(2)=8$.</p><p>于是</p>\n$$\nf'(2)=12-3a=0\n$$\n<p>所以 $a=4$.</p><p>又</p>\n$$\nf(2)=2^{3}-3\\cdot2a+b=8-6a+b=8\n$$\n<p>代入 $a=4$，得 $8-24+b=8$，所以 $b=24$.</p></li><li>\n$$\nf'(x)=3x^{2}-3a=3\\left(x^{2}-a\\right)\n$$\n<p>由于 $a\\neq0$，分两种情形讨论.</p><p>当 $a&#x3C;0$ 时，$x^{2}-a=x^{2}+(-a)>0$ 对任意 $x\\in\\mathbb{R}$ 都成立，所以 $f'(x)>0$.</p><p>此时 $f(x)$ 在 $\\mathbb{R}$ 上单调递增，没有极值点.</p><p>当 $a>0$ 时，$f'(x)=0$ 的解为 $x=\\pm\\sqrt{a}$.</p><p>当 $x\\in(-\\infty,-\\sqrt{a})\\cup(\\sqrt{a},+\\infty)$ 时，$x^{2}>a$，所以 $f'(x)>0$，$f(x)$ 单调递增；当 $x\\in(-\\sqrt{a},\\sqrt{a})$ 时，$x^{2}&#x3C;a$，所以 $f'(x)&#x3C;0$，$f(x)$ 单调递减.</p><p>在 $x=-\\sqrt{a}$ 处，$f'(x)$ 由正变负，故为极大值点；在 $x=\\sqrt{a}$ 处，$f'(x)$ 由负变正，故为极小值点.</p><p>相应的函数值为</p>\n$$\nf(-\\sqrt{a})=(-\\sqrt{a})^{3}-3a(-\\sqrt{a})+b=b+2a\\sqrt{a}=b+2a^{\\frac{3}{2}}\n$$\n\n$$\nf(\\sqrt{a})=(\\sqrt{a})^{3}-3a\\sqrt{a}+b=b-2a\\sqrt{a}=b-2a^{\\frac{3}{2}}\n$$\n<p>因此，当 $a>0$ 时，极大值点为 $\\left(-\\sqrt{a},b+2a^{\\frac{3}{2}}\\right)$，极小值点为 $\\left(\\sqrt{a},b-2a^{\\frac{3}{2}}\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-3a$.</p><p>直线 $y=8$ 是水平直线，曲线在点 $(2,f(2))$ 处与它相切，因此必有 $f'(2)=0$ 且 $f(2)=8$.</p><p>于是</p>\n$$\nf'(2)=12-3a=0\n$$\n<p>所以 $a=4$.</p><p>又</p>\n$$\nf(2)=2^{3}-3\\cdot2a+b=8-6a+b=8\n$$\n<p>代入 $a=4$，得 $8-24+b=8$，所以 $b=24$.</p></li><li>\n$$\nf'(x)=3x^{2}-3a=3\\left(x^{2}-a\\right)\n$$\n<p>由于 $a\\neq0$，分两种情形讨论.</p><p>当 $a<0$ 时，$x^{2}-a=x^{2}+(-a)>0$ 对任意 $x\\in\\mathbb{R}$ 都成立，所以 $f'(x)>0$.</p><p>此时 $f(x)$ 在 $\\mathbb{R}$ 上单调递增，没有极值点.</p><p>当 $a>0$ 时，$f'(x)=0$ 的解为 $x=\\pm\\sqrt{a}$.</p><p>当 $x\\in(-\\infty,-\\sqrt{a})\\cup(\\sqrt{a},+\\infty)$ 时，$x^{2}>a$，所以 $f'(x)>0$，$f(x)$ 单调递增；当 $x\\in(-\\sqrt{a},\\sqrt{a})$ 时，$x^{2}<a$，所以 $f'(x)<0$，$f(x)$ 单调递减.</p><p>在 $x=-\\sqrt{a}$ 处，$f'(x)$ 由正变负，故为极大值点；在 $x=\\sqrt{a}$ 处，$f'(x)$ 由负变正，故为极小值点.</p><p>相应的函数值为</p>\n$$\nf(-\\sqrt{a})=(-\\sqrt{a})^{3}-3a(-\\sqrt{a})+b=b+2a\\sqrt{a}=b+2a^{\\frac{3}{2}}\n$$\n\n$$\nf(\\sqrt{a})=(\\sqrt{a})^{3}-3a\\sqrt{a}+b=b-2a\\sqrt{a}=b-2a^{\\frac{3}{2}}\n$$\n<p>因此，当 $a>0$ 时，极大值点为 $\\left(-\\sqrt{a},b+2a^{\\frac{3}{2}}\\right)$，极小值点为 $\\left(\\sqrt{a},b-2a^{\\frac{3}{2}}\\right)$.</p></li></ol>"
         },
         {
           "num": 19,
@@ -195,7 +195,7 @@
           "body": "<p>设数列 $\\{a_{n}\\}$ 的通项公式为 $a_{n}= pn + q$（$n \\in \\mathbb{N}^{*}$，$p > 0$）. 数列 $\\{b_{m}\\}$ 定义如下：对于正整数 $m$，$b_{m}$ 是使得不等式 $a_{n}\\ge m$ 成立的所有 $n$ 中的最小值.</p><ol class=\"enumerate\"><li><p>若 $p = \\frac{1}{2}$，$q = -\\frac{1}{3}$，求 $b_{3}$；</p></li><li><p>若 $p = 2$，$q = -1$，求数列 $\\{b_{m}\\}$ 的前 $2m$ 项和公式；</p></li><li><p>是否存在 $p$ 和 $q$，使得 $b_{m}= 3m + 2$（$m \\in \\mathbb{N}^{*}$）？ 如果存在，求 $p$ 和 $q$ 的取值范围；如果不存在，请说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $p=\\frac{1}{2}$，$q=-\\frac{1}{3}$ 时，</p><p>$a_{n}=\\frac{1}{2}n-\\frac{1}{3}$.</p><p>由 $a_{n}\\geqslant3$，得</p>\n$$\n\\frac{1}{2}n-\\frac{1}{3}\\geqslant3   \\Longleftrightarrow   n\\ge\\frac{20}{3}\n$$\n<p>满足条件的最小正整数为 $7$，所以 $b_{3}=7$.</p></li><li><p>当 $p=2$，$q=-1$ 时，$a_{n}=2n-1$.</p><p>对于正整数 $m$，</p>\n$$\n2n-1\\ge m   \\Longleftrightarrow   n\\ge\\frac{m+1}{2}\n$$\n<p>对任意 $k\\in\\mathbb{N}^{*}$，当 $m=2k-1$ 时，$b_{2k-1}=k$；当 $m=2k$ 时，$b_{2k}=k+1$.</p><p>因此前 $2m$ 项的和为</p>\n$$\n\\begin{aligned}\\sum_{j=1}^{2m}b_{j}&#x26;=\\sum_{k=1}^{m}\\left(b_{2k-1}+b_{2k}\\right)  =\\sum_{k=1}^{m}(2k+1)\\\\&#x26;=2\\cdot\\frac{m(m+1)}{2}+m=m^{2}+2m.\\end{aligned}\n$$\n<p>所以数列 $\\{b_{m}\\}$ 的前 $2m$ 项和公式为 $m^{2}+2m$.</p></li><li><p>因为 $p>0$，$a_{n}=pn+q$ 随 $n$ 严格递增.</p><p>若要使得 $b_{m}=3m+2$，则对每个 $m\\in\\mathbb{N}^{*}$，必须同时满足</p>\n$$\np(3m+2)+q\\ge m\n$$\n<p>和</p>\n$$\np(3m+1)+q&#x3C;m\n$$\n<p>前一个不等式表示 $n=3m+2$ 已经使不等式成立，后一个不等式表示前一个正整数 $n=3m+1$ 还不能使不等式成立.</p><p>将上述不等式整理为</p><p>$(3p-1)m+2p+q\\geqslant0$，$(3p-1)m+p+q&#x3C;0$.</p><p>这两个不等式对所有正整数 $m$ 都成立.</p><p>如果 $3p-1>0$，则第二个不等式当 $m$ 足够大时不成立；如果 $3p-1&#x3C;0$，则第一个不等式当 $m$ 足够大时不成立.</p><p>所以必有 $3p-1=0$，即 $p=\\frac{1}{3}$.</p><p>此时上述两个不等式分别变为</p><p>$\\frac{2}{3}+q\\geqslant0$，$\\frac{1}{3}+q&#x3C;0$.</p><p>因此</p>\n$$\n-\\frac{2}{3}\\le q&#x3C; -\\frac{1}{3}\n$$\n<p>反过来，当 $p=\\frac{1}{3}$ 且 $-\\frac{2}{3}\\le q&#x3C; -\\frac{1}{3}$ 时，有</p><p>$a_{3m+2}=m+\\frac{2}{3}+q\\ge m$，$a_{3m+1}=m+\\frac{1}{3}+q&#x3C;m$.</p><p>由 $a_{n}$ 严格递增，可知 $b_{m}=3m+2$.</p><p>所以存在这样的 $p$ 和 $q$，其取值范围为</p><p>$p=\\frac{1}{3}$，$-\\frac{2}{3}\\le q&#x3C; -\\frac{1}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $p=\\frac{1}{2}$，$q=-\\frac{1}{3}$ 时，</p><p>$a_{n}=\\frac{1}{2}n-\\frac{1}{3}$.</p><p>由 $a_{n}\\geqslant3$，得</p>\n$$\n\\frac{1}{2}n-\\frac{1}{3}\\geqslant3   \\Longleftrightarrow   n\\ge\\frac{20}{3}\n$$\n<p>满足条件的最小正整数为 $7$，所以 $b_{3}=7$.</p></li><li><p>当 $p=2$，$q=-1$ 时，$a_{n}=2n-1$.</p><p>对于正整数 $m$，</p>\n$$\n2n-1\\ge m   \\Longleftrightarrow   n\\ge\\frac{m+1}{2}\n$$\n<p>对任意 $k\\in\\mathbb{N}^{*}$，当 $m=2k-1$ 时，$b_{2k-1}=k$；当 $m=2k$ 时，$b_{2k}=k+1$.</p><p>因此前 $2m$ 项的和为</p>\n$$\n\\begin{aligned}\\sum_{j=1}^{2m}b_{j}&=\\sum_{k=1}^{m}\\left(b_{2k-1}+b_{2k}\\right)  =\\sum_{k=1}^{m}(2k+1)\\\\&=2\\cdot\\frac{m(m+1)}{2}+m=m^{2}+2m.\\end{aligned}\n$$\n<p>所以数列 $\\{b_{m}\\}$ 的前 $2m$ 项和公式为 $m^{2}+2m$.</p></li><li><p>因为 $p>0$，$a_{n}=pn+q$ 随 $n$ 严格递增.</p><p>若要使得 $b_{m}=3m+2$，则对每个 $m\\in\\mathbb{N}^{*}$，必须同时满足</p>\n$$\np(3m+2)+q\\ge m\n$$\n<p>和</p>\n$$\np(3m+1)+q<m\n$$\n<p>前一个不等式表示 $n=3m+2$ 已经使不等式成立，后一个不等式表示前一个正整数 $n=3m+1$ 还不能使不等式成立.</p><p>将上述不等式整理为</p><p>$(3p-1)m+2p+q\\geqslant0$，$(3p-1)m+p+q<0$.</p><p>这两个不等式对所有正整数 $m$ 都成立.</p><p>如果 $3p-1>0$，则第二个不等式当 $m$ 足够大时不成立；如果 $3p-1<0$，则第一个不等式当 $m$ 足够大时不成立.</p><p>所以必有 $3p-1=0$，即 $p=\\frac{1}{3}$.</p><p>此时上述两个不等式分别变为</p><p>$\\frac{2}{3}+q\\geqslant0$，$\\frac{1}{3}+q<0$.</p><p>因此</p>\n$$\n-\\frac{2}{3}\\le q< -\\frac{1}{3}\n$$\n<p>反过来，当 $p=\\frac{1}{3}$ 且 $-\\frac{2}{3}\\le q< -\\frac{1}{3}$ 时，有</p><p>$a_{3m+2}=m+\\frac{2}{3}+q\\ge m$，$a_{3m+1}=m+\\frac{1}{3}+q<m$.</p><p>由 $a_{n}$ 严格递增，可知 $b_{m}=3m+2$.</p><p>所以存在这样的 $p$ 和 $q$，其取值范围为</p><p>$p=\\frac{1}{3}$，$-\\frac{2}{3}\\le q< -\\frac{1}{3}$.</p></li></ol>"
         }
       ]
     }

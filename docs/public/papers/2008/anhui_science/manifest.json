@@ -81,7 +81,7 @@
         },
         {
           "num": 7,
-          "body": "$a &#x3C; 0$ 是方程 $ax^{2} + 2x + 1 = 0$ 至少有一个负数根的（ ）",
+          "body": "$a < 0$ 是方程 $ax^{2} + 2x + 1 = 0$ 至少有一个负数根的（ ）",
           "choices": [
             "必要不充分条件",
             "充分不必要条件",
@@ -89,7 +89,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "B",
-          "solution": "<p>若 $a&#x3C;0$，则方程的判别式为 $\\Delta=4-4a>0$，且两根之积为 $\\frac{1}{a}&#x3C;0$，所以方程有一个负根，故 $a&#x3C;0$ 是充分条件.</p><p>但它不是必要条件，例如取 $a=1$，方程为 $x^{2}+2x+1=0$，根为 $-1$，仍有负根. 因此选 B，即充分不必要条件.</p>"
+          "solution": "<p>若 $a<0$，则方程的判别式为 $\\Delta=4-4a>0$，且两根之积为 $\\frac{1}{a}<0$，所以方程有一个负根，故 $a<0$ 是充分条件.</p><p>但它不是必要条件，例如取 $a=1$，方程为 $x^{2}+2x+1=0$，根为 $-1$，仍有负根. 因此选 B，即充分不必要条件.</p>"
         },
         {
           "num": 8,
@@ -113,31 +113,31 @@
             "$\\frac{1}{\\mathrm{e}}$"
           ],
           "answer": "B",
-          "solution": "<p>图象关于直线 $y=x$ 对称意味着互为反函数，因此 $g(x)=\\ln x$（$x>0$）. 图象关于 $y$ 轴对称意味着 $f(x)=g(-x)=\\ln(-x)$（$x&#x3C;0$）.</p><p>由 $f(m)=-1$，得 $\\ln(-m)=-1$，所以 $-m=\\mathrm{e}^{-1}$，即 $m=-\\frac{1}{\\mathrm{e}}$，故选 B.</p>"
+          "solution": "<p>图象关于直线 $y=x$ 对称意味着互为反函数，因此 $g(x)=\\ln x$（$x>0$）. 图象关于 $y$ 轴对称意味着 $f(x)=g(-x)=\\ln(-x)$（$x<0$）.</p><p>由 $f(m)=-1$，得 $\\ln(-m)=-1$，所以 $-m=\\mathrm{e}^{-1}$，即 $m=-\\frac{1}{\\mathrm{e}}$，故选 B.</p>"
         },
         {
           "num": 10,
           "body": "<p>设两个正态分布 $N(\\mu_{1}, \\sigma_{1}^{2})$（$\\sigma_{1} > 0$）和 $N(\\mu_{2}, \\sigma_{2}^{2})$（$\\sigma_{2} > 0$）的密度函数图象如图所示，则有（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$\\mu_{1}&#x3C; \\mu_{2}$，$\\sigma_{1}&#x3C; \\sigma_{2}$",
-            "$\\mu_{1}&#x3C; \\mu_{2}$，$\\sigma_{1}> \\sigma_{2}$",
-            "$\\mu_{1}> \\mu_{2}$，$\\sigma_{1}&#x3C; \\sigma_{2}$",
+            "$\\mu_{1}< \\mu_{2}$，$\\sigma_{1}< \\sigma_{2}$",
+            "$\\mu_{1}< \\mu_{2}$，$\\sigma_{1}> \\sigma_{2}$",
+            "$\\mu_{1}> \\mu_{2}$，$\\sigma_{1}< \\sigma_{2}$",
             "$\\mu_{1}> \\mu_{2}$，$\\sigma_{1}> \\sigma_{2}$"
           ],
           "answer": "A",
-          "solution": "<p>正态分布密度曲线的对称轴为 $x=\\mu$，曲线在对称轴处取得最大值 $\\frac{1}{\\sqrt{2\\pi}\\sigma}$. 图中第一条曲线的对称轴在左侧，且峰值较高；第二条曲线的对称轴在右侧，且峰值较低.</p><p>因此 $\\mu_{1}&#x3C;\\mu_{2}$，并且 $\\frac{1}{\\sigma_{1}}>\\frac{1}{\\sigma_{2}}$，即 $\\sigma_{1}&#x3C;\\sigma_{2}$，故选 A.</p>"
+          "solution": "<p>正态分布密度曲线的对称轴为 $x=\\mu$，曲线在对称轴处取得最大值 $\\frac{1}{\\sqrt{2\\pi}\\sigma}$. 图中第一条曲线的对称轴在左侧，且峰值较高；第二条曲线的对称轴在右侧，且峰值较低.</p><p>因此 $\\mu_{1}<\\mu_{2}$，并且 $\\frac{1}{\\sigma_{1}}>\\frac{1}{\\sigma_{2}}$，即 $\\sigma_{1}<\\sigma_{2}$，故选 A.</p>"
         },
         {
           "num": 11,
           "body": "若函数 $f(x)$，$g(x)$ 分别是 $\\mathbb{R}$ 上的奇函数，偶函数，且满足 $f(x) - g(x) = \\mathrm{e}^{x}$，则有（ ）",
           "choices": [
-            "$f(2) &#x3C; f(3) &#x3C; g(0)$",
-            "$g(0) &#x3C; f(3) &#x3C; f(2)$",
-            "$f(2) &#x3C; g(0) &#x3C; f(3)$",
-            "$g(0) &#x3C; f(2) &#x3C; f(3)$"
+            "$f(2) < f(3) < g(0)$",
+            "$g(0) < f(3) < f(2)$",
+            "$f(2) < g(0) < f(3)$",
+            "$g(0) < f(2) < f(3)$"
           ],
           "answer": "D",
-          "solution": "<p>将条件中的 $x$ 换成 $-x$，由 $f$ 为奇函数、$g$ 为偶函数，得</p>\n$$\n-f(x)-g(x)=\\mathrm{e}^{-x}\n$$\n<p>与原式 $f(x)-g(x)=\\mathrm{e}^{x}$ 相加、相减，得到</p><p>$f(x)=\\frac{\\mathrm{e}^{x}-\\mathrm{e}^{-x}}{2}$，$g(x)=-\\frac{\\mathrm{e}^{x}+\\mathrm{e}^{-x}}{2}$.</p><p>所以 $g(0)=-1$，且 $f(2)>0$，$f(3)>f(2)$，从而 $g(0)&#x3C;f(2)&#x3C;f(3)$，故选 D.</p>"
+          "solution": "<p>将条件中的 $x$ 换成 $-x$，由 $f$ 为奇函数、$g$ 为偶函数，得</p>\n$$\n-f(x)-g(x)=\\mathrm{e}^{-x}\n$$\n<p>与原式 $f(x)-g(x)=\\mathrm{e}^{x}$ 相加、相减，得到</p><p>$f(x)=\\frac{\\mathrm{e}^{x}-\\mathrm{e}^{-x}}{2}$，$g(x)=-\\frac{\\mathrm{e}^{x}+\\mathrm{e}^{-x}}{2}$.</p><p>所以 $g(0)=-1$，且 $f(2)>0$，$f(3)>f(2)$，从而 $g(0)<f(2)<f(3)$，故选 D.</p>"
         },
         {
           "num": 12,
@@ -215,21 +215,21 @@
           "body": "<p>设函数 $f(x) = \\frac{1}{x \\ln x}$（$x > 0$ 且 $x \\neq 1$）.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的单调区间；</p></li><li><p>已知 $2^{\\frac{1}{x}}> x^{a}$ 对任意 $x \\in (0,1)$ 成立，求实数 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,1)\\cup(1,+\\infty)$，且</p>\n$$\nf'(x)=-\\frac{\\ln x+1}{(x\\ln x)^{2}}\n$$\n<p>因为分母恒为正，所以在 $(0,\\mathrm{e}^{-1})$ 上 $f'(x)>0$，在 $(\\mathrm{e}^{-1},1)$ 和 $(1,+\\infty)$ 上 $f'(x)&#x3C;0$. 因此 $f(x)$ 的单调递增区间为 $(0,\\mathrm{e}^{-1})$，单调递减区间为 $(\\mathrm{e}^{-1},1)$ 和 $(1,+\\infty)$.</p></li><li><p>对任意 $x\\in(0,1)$，两边均为正，取自然对数得</p>\n$$\n\\frac{\\ln2}{x}>a\\ln x\n$$\n<p>由于 $\\ln x&#x3C;0$，上式等价于</p>\n$$\na>\\frac{\\ln2}{x\\ln x}\n$$\n<p>由第一问，函数 $\\frac{1}{x\\ln x}$ 在 $(0,1)$ 上的最大值为</p>\n$$\n\\frac{1}{\\mathrm{e}^{-1}\\ln(\\mathrm{e}^{-1})}=-\\mathrm{e}\n$$\n<p>故右端的最大值为 $-\\mathrm{e}\\ln2$. 因为原不等式是严格不等式，且在 $x=\\mathrm{e}^{-1}$ 处取得这个最大值，所以必须且只需</p>\n$$\na>-\\mathrm{e}\\ln2\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,1)\\cup(1,+\\infty)$，且</p>\n$$\nf'(x)=-\\frac{\\ln x+1}{(x\\ln x)^{2}}\n$$\n<p>因为分母恒为正，所以在 $(0,\\mathrm{e}^{-1})$ 上 $f'(x)>0$，在 $(\\mathrm{e}^{-1},1)$ 和 $(1,+\\infty)$ 上 $f'(x)<0$. 因此 $f(x)$ 的单调递增区间为 $(0,\\mathrm{e}^{-1})$，单调递减区间为 $(\\mathrm{e}^{-1},1)$ 和 $(1,+\\infty)$.</p></li><li><p>对任意 $x\\in(0,1)$，两边均为正，取自然对数得</p>\n$$\n\\frac{\\ln2}{x}>a\\ln x\n$$\n<p>由于 $\\ln x<0$，上式等价于</p>\n$$\na>\\frac{\\ln2}{x\\ln x}\n$$\n<p>由第一问，函数 $\\frac{1}{x\\ln x}$ 在 $(0,1)$ 上的最大值为</p>\n$$\n\\frac{1}{\\mathrm{e}^{-1}\\ln(\\mathrm{e}^{-1})}=-\\mathrm{e}\n$$\n<p>故右端的最大值为 $-\\mathrm{e}\\ln2$. 因为原不等式是严格不等式，且在 $x=\\mathrm{e}^{-1}$ 处取得这个最大值，所以必须且只需</p>\n$$\na>-\\mathrm{e}\\ln2\n$$\n</li></ol>"
         },
         {
           "num": 21,
-          "body": "<p>设数列 $\\{a_{n}\\}$ 满足 $a_{0} = 0$，$a_{n+1}= c a_{n}^{3} + 1 - c$，$n \\in \\mathbb{N}^{*}$，其中 $c$ 为实数.</p><ol class=\"enumerate\"><li><p>证明：$a_{n}\\in [0,1]$ 对任意 $n \\in \\mathbb{N}^{*}$ 成立的充分必要条件是 $c \\in [0,1]$；</p></li><li><p>设 $0 &#x3C; c &#x3C; \\frac{1}{3}$. 证明：$a_{n}\\ge 1 - (3c)^{n-1}$，$n \\in \\mathbb{N}^{*}$；</p></li><li><p>设 $0 &#x3C; c &#x3C; \\frac{1}{3}$. 证明：$a_{1}^{2} + a_{2}^{2} + \\cdots + a_{n}^{2} > n + 1 - \\frac{2}{1 - 3c}$，$n \\in \\mathbb{N}^{*}$.</p></li></ol>",
+          "body": "<p>设数列 $\\{a_{n}\\}$ 满足 $a_{0} = 0$，$a_{n+1}= c a_{n}^{3} + 1 - c$，$n \\in \\mathbb{N}^{*}$，其中 $c$ 为实数.</p><ol class=\"enumerate\"><li><p>证明：$a_{n}\\in [0,1]$ 对任意 $n \\in \\mathbb{N}^{*}$ 成立的充分必要条件是 $c \\in [0,1]$；</p></li><li><p>设 $0 < c < \\frac{1}{3}$. 证明：$a_{n}\\ge 1 - (3c)^{n-1}$，$n \\in \\mathbb{N}^{*}$；</p></li><li><p>设 $0 < c < \\frac{1}{3}$. 证明：$a_{1}^{2} + a_{2}^{2} + \\cdots + a_{n}^{2} > n + 1 - \\frac{2}{1 - 3c}$，$n \\in \\mathbb{N}^{*}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>原卷清晰印作 $n\\in\\mathbb{N}^{*}$，但同时给出 $a_{0}$ 并要求从 $a_{1}$ 起的结论. 若按通常约定 $\\mathbb{N}^{*}=\\{1,2,\\ldots\\}$ 严格理解，递推式没有定义 $a_{1}$，题目不封闭. 以下按题面显然意图，将递推式用于 $n=0$，$1$，$2$，$\\ldots$ 后求解，并保留这一索引风险.</p><p>由递推式取 $n=0$，得 $a_{1}=1-c$.</p><ol class=\"enumerate\"><li><p>若 $c\\in[0,1]$，则 $a_{1}\\in[0,1]$. 假设 $a_{n}\\in[0,1]$，则</p><p>$0\\le ca_{n}^{3}\\le c$，$1-c\\le a_{n+1}=ca_{n}^{3}+1-c\\leqslant1$，</p><p>所以 $a_{n+1}\\in[0,1]$. 由数学归纳法，$a_{n}\\in[0,1]$ 对任意 $n\\in\\mathbb{N}^{*}$ 成立.</p><p>反之，若对任意 $n\\in\\mathbb{N}^{*}$ 都有 $a_{n}\\in[0,1]$，则 $a_{1}=1-c\\in[0,1]$，从而 $c\\in[0,1]$. 因此所述条件的充分必要条件是 $c\\in[0,1]$.</p></li><li><p>以下设 $0&#x3C;c&#x3C;\\frac{1}{3}$. 由第一问知 $0\\le a_{n}\\leqslant1$. 先证第二问：当 $n=1$ 时，$a_{1}=1-c\\geqslant0=1-(3c)^{0}$. 若 $a_{n}\\geqslant1-(3c)^{n-1}$，则</p>\n$$\n1-a_{n+1}=c(1-a_{n}^{3})=c(1-a_{n})(1+a_{n}+a_{n}^{2})  \\leqslant3c(1-a_{n})\\le(3c)^{n}\n$$\n<p>故 $a_{n+1}\\geqslant1-(3c)^{n}$，结论成立.</p></li><li><p>令 $q=3c\\in(0,1)$. 由第二问，且 $a_{k}\\geqslant0$，有</p>\n$$\na_{k}^{2}\\ge\\left(1-q^{k-1}\\right)^{2}  =1-2q^{k-1}+q^{2k-2}\n$$\n<p>于是</p>\n$$\n\\sum_{k=1}^{n}a_{k}^{2}  \\ge n-\\frac{2(1-q^{n})}{1-q}+\\frac{1-q^{2n}}{1-q^{2}}\n$$\n<p>将右端与 $n+1-\\frac{2}{1-q}$ 相减，所得为</p>\n$$\n\\frac{2q^{n}}{1-q}+\\frac{1-q^{2n}}{1-q^{2}}-1>0\n$$\n<p>其中 $\\frac{2q^{n}}{1-q}>0$，且 $\\frac{1-q^{2n}}{1-q^{2}}\\geqslant1$. 故</p>\n$$\n\\sum_{k=1}^{n}a_{k}^{2}>n+1-\\frac{2}{1-q}=n+1-\\frac{2}{1-3c}\n$$\n</li></ol>"
+          "solution": "<p>原卷清晰印作 $n\\in\\mathbb{N}^{*}$，但同时给出 $a_{0}$ 并要求从 $a_{1}$ 起的结论. 若按通常约定 $\\mathbb{N}^{*}=\\{1,2,\\ldots\\}$ 严格理解，递推式没有定义 $a_{1}$，题目不封闭. 以下按题面显然意图，将递推式用于 $n=0$，$1$，$2$，$\\ldots$ 后求解，并保留这一索引风险.</p><p>由递推式取 $n=0$，得 $a_{1}=1-c$.</p><ol class=\"enumerate\"><li><p>若 $c\\in[0,1]$，则 $a_{1}\\in[0,1]$. 假设 $a_{n}\\in[0,1]$，则</p><p>$0\\le ca_{n}^{3}\\le c$，$1-c\\le a_{n+1}=ca_{n}^{3}+1-c\\leqslant1$，</p><p>所以 $a_{n+1}\\in[0,1]$. 由数学归纳法，$a_{n}\\in[0,1]$ 对任意 $n\\in\\mathbb{N}^{*}$ 成立.</p><p>反之，若对任意 $n\\in\\mathbb{N}^{*}$ 都有 $a_{n}\\in[0,1]$，则 $a_{1}=1-c\\in[0,1]$，从而 $c\\in[0,1]$. 因此所述条件的充分必要条件是 $c\\in[0,1]$.</p></li><li><p>以下设 $0<c<\\frac{1}{3}$. 由第一问知 $0\\le a_{n}\\leqslant1$. 先证第二问：当 $n=1$ 时，$a_{1}=1-c\\geqslant0=1-(3c)^{0}$. 若 $a_{n}\\geqslant1-(3c)^{n-1}$，则</p>\n$$\n1-a_{n+1}=c(1-a_{n}^{3})=c(1-a_{n})(1+a_{n}+a_{n}^{2})  \\leqslant3c(1-a_{n})\\le(3c)^{n}\n$$\n<p>故 $a_{n+1}\\geqslant1-(3c)^{n}$，结论成立.</p></li><li><p>令 $q=3c\\in(0,1)$. 由第二问，且 $a_{k}\\geqslant0$，有</p>\n$$\na_{k}^{2}\\ge\\left(1-q^{k-1}\\right)^{2}  =1-2q^{k-1}+q^{2k-2}\n$$\n<p>于是</p>\n$$\n\\sum_{k=1}^{n}a_{k}^{2}  \\ge n-\\frac{2(1-q^{n})}{1-q}+\\frac{1-q^{2n}}{1-q^{2}}\n$$\n<p>将右端与 $n+1-\\frac{2}{1-q}$ 相减，所得为</p>\n$$\n\\frac{2q^{n}}{1-q}+\\frac{1-q^{2n}}{1-q^{2}}-1>0\n$$\n<p>其中 $\\frac{2q^{n}}{1-q}>0$，且 $\\frac{1-q^{2n}}{1-q^{2}}\\geqslant1$. 故</p>\n$$\n\\sum_{k=1}^{n}a_{k}^{2}>n+1-\\frac{2}{1-q}=n+1-\\frac{2}{1-3c}\n$$\n</li></ol>"
         },
         {
           "num": 22,
           "body": "<p>设椭圆 $C: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）过点 $M(\\sqrt{2}, 1)$. 且左焦点为 $F_{1}(-\\sqrt{2}, 0)$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>当过点 $P(4,1)$ 的动直线 $l$ 与椭圆 $C$ 相交于两不同点 $A$，$B$ 时，在线段 $AB$ 上取点 $Q$，满足 $\\left|\\overrightarrow{AP}\\right| \\cdot \\left|\\overrightarrow{QB}\\right| = \\left|\\overrightarrow{AQ}\\right| \\cdot \\left|\\overrightarrow{PB}\\right|$，证明：点 $Q$ 总在某定直线上.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$. 由左焦点为 $F_{1}(-\\sqrt{2},0)$，得 $c=\\sqrt{2}$，所以</p>\n$$\na^{2}-b^{2}=c^{2}=2\n$$\n<p>又因为点 $M(\\sqrt{2},1)$ 在椭圆上，故</p>\n$$\n\\frac{2}{a^{2}}+\\frac{1}{b^{2}}=1\n$$\n<p>令 $A=a^{2}$，则 $b^{2}=A-2$，代入上式得</p><p>$\\frac{2}{A}+\\frac{1}{A-2}=1$，$\\Longrightarrow$，$2(A-2)+A=A(A-2)$</p><p>即 $A^{2}-5A+4=0$. 因而 $A=1$ 或 $A=4$. 由 $a>b>0$ 且 $a^{2}-b^{2}=2$，只能取 $a^{2}=4$，于是 $b^{2}=2$. 椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1\n$$\n</li><li><p>设过 $P(4,1)$ 的动直线的方向向量为 $\\mathbf{u}=(\\alpha,\\beta)$，用参数 $t$ 表示直线上的点：</p>\n$$\nX=P+t\\mathbf{u}\n$$\n<p>由于 $P(4,1)$ 在椭圆外，且可把 $\\mathbf{u}$ 取为从 $P$ 指向椭圆的方向，设直线与椭圆的交点对应的参数为 $t_{1}$，$t_{2}$，并取标号使 $0&#x3C;t_{1}&#x3C;t_{2}$. 将 $x=4+t\\alpha$、$y=1+t\\beta$ 代入椭圆方程，得</p>\n$$\n\\left(\\frac{\\alpha^{2}}{4}+\\frac{\\beta^{2}}{2}\\right)t^{2}+(2\\alpha+\\beta)t+\\frac{7}{2}=0\n$$\n<p>记 $A_{0}=\\frac{\\alpha^{2}}{4}+\\frac{\\beta^{2}}{2}$，由韦达定理，</p><p>$t_{1}+t_{2}=-\\frac{2\\alpha+\\beta}{A_{0}}$，$t_{1}t_{2}=\\frac{7}{2A_{0}}$.</p><p>交换 $A$，$B$ 不改变题设等式的内容，故可设 $A=P+t_{1}\\mathbf{u}$，$B=P+t_{2}\\mathbf{u}$. 点 $Q$ 在线段 $AB$ 上，题设条件等价于</p>\n$$\n\\frac{|AQ|}{|QB|}=\\frac{|AP|}{|PB|}=\\frac{t_{1}}{t_{2}}\n$$\n<p>若 $Q=P+t_{Q}\\mathbf{u}$，则 $|AQ|=(t_{Q}-t_{1})|\\mathbf{u}|$、$|QB|=(t_{2}-t_{Q})|\\mathbf{u}|$，所以</p><p>$t_{1}(t_{2}-t_{Q})=t_{2}(t_{Q}-t_{1})$，$t_{Q}=\\frac{2t_{1}t_{2}}{t_{1}+t_{2}}=-\\frac{7}{2\\alpha+\\beta}$.</p><p>这里 $t_{Q}$ 是正数 $t_{1}$，$t_{2}$ 的调和平均数，确实满足 $t_{1}&#x3C;t_{Q}&#x3C;t_{2}$. 又因 $2\\alpha+\\beta\\neq0$，否则上面的交点方程无两个不同实根. 因而若 $Q=(x,y)$，则</p><p>$x=4-\\frac{7\\alpha}{2\\alpha+\\beta}$，$y=1-\\frac{7\\beta}{2\\alpha+\\beta}$.</p><p>于是</p>\n$$\n2x+y-2=7-\\frac{7(2\\alpha+\\beta)}{2\\alpha+\\beta}=0\n$$\n<p>所以点 $Q$ 总在定直线 $2x+y-2=0$ 上.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$. 由左焦点为 $F_{1}(-\\sqrt{2},0)$，得 $c=\\sqrt{2}$，所以</p>\n$$\na^{2}-b^{2}=c^{2}=2\n$$\n<p>又因为点 $M(\\sqrt{2},1)$ 在椭圆上，故</p>\n$$\n\\frac{2}{a^{2}}+\\frac{1}{b^{2}}=1\n$$\n<p>令 $A=a^{2}$，则 $b^{2}=A-2$，代入上式得</p><p>$\\frac{2}{A}+\\frac{1}{A-2}=1$，$\\Longrightarrow$，$2(A-2)+A=A(A-2)$</p><p>即 $A^{2}-5A+4=0$. 因而 $A=1$ 或 $A=4$. 由 $a>b>0$ 且 $a^{2}-b^{2}=2$，只能取 $a^{2}=4$，于是 $b^{2}=2$. 椭圆方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1\n$$\n</li><li><p>设过 $P(4,1)$ 的动直线的方向向量为 $\\mathbf{u}=(\\alpha,\\beta)$，用参数 $t$ 表示直线上的点：</p>\n$$\nX=P+t\\mathbf{u}\n$$\n<p>由于 $P(4,1)$ 在椭圆外，且可把 $\\mathbf{u}$ 取为从 $P$ 指向椭圆的方向，设直线与椭圆的交点对应的参数为 $t_{1}$，$t_{2}$，并取标号使 $0<t_{1}<t_{2}$. 将 $x=4+t\\alpha$、$y=1+t\\beta$ 代入椭圆方程，得</p>\n$$\n\\left(\\frac{\\alpha^{2}}{4}+\\frac{\\beta^{2}}{2}\\right)t^{2}+(2\\alpha+\\beta)t+\\frac{7}{2}=0\n$$\n<p>记 $A_{0}=\\frac{\\alpha^{2}}{4}+\\frac{\\beta^{2}}{2}$，由韦达定理，</p><p>$t_{1}+t_{2}=-\\frac{2\\alpha+\\beta}{A_{0}}$，$t_{1}t_{2}=\\frac{7}{2A_{0}}$.</p><p>交换 $A$，$B$ 不改变题设等式的内容，故可设 $A=P+t_{1}\\mathbf{u}$，$B=P+t_{2}\\mathbf{u}$. 点 $Q$ 在线段 $AB$ 上，题设条件等价于</p>\n$$\n\\frac{|AQ|}{|QB|}=\\frac{|AP|}{|PB|}=\\frac{t_{1}}{t_{2}}\n$$\n<p>若 $Q=P+t_{Q}\\mathbf{u}$，则 $|AQ|=(t_{Q}-t_{1})|\\mathbf{u}|$、$|QB|=(t_{2}-t_{Q})|\\mathbf{u}|$，所以</p><p>$t_{1}(t_{2}-t_{Q})=t_{2}(t_{Q}-t_{1})$，$t_{Q}=\\frac{2t_{1}t_{2}}{t_{1}+t_{2}}=-\\frac{7}{2\\alpha+\\beta}$.</p><p>这里 $t_{Q}$ 是正数 $t_{1}$，$t_{2}$ 的调和平均数，确实满足 $t_{1}<t_{Q}<t_{2}$. 又因 $2\\alpha+\\beta\\neq0$，否则上面的交点方程无两个不同实根. 因而若 $Q=(x,y)$，则</p><p>$x=4-\\frac{7\\alpha}{2\\alpha+\\beta}$，$y=1-\\frac{7\\beta}{2\\alpha+\\beta}$.</p><p>于是</p>\n$$\n2x+y-2=7-\\frac{7(2\\alpha+\\beta)}{2\\alpha+\\beta}=0\n$$\n<p>所以点 $Q$ 总在定直线 $2x+y-2=0$ 上.</p></li></ol>"
         }
       ]
     }

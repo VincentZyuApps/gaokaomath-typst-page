@@ -125,7 +125,7 @@
             "$12 \\le abc \\le 24$"
           ],
           "answer": "A",
-          "solution": "<p>由三角形内角和 $A+B+C=\\pi$，有</p><p>$\\sin(A-B+C)=\\sin(\\pi-2B)=\\sin2B$，$\\sin(C-A-B)=\\sin(2C-\\pi)=-\\sin2C$.</p><p>原条件化为 $\\sin2A+\\sin2B+\\sin2C=\\frac{1}{2}$. 利用恒等式</p><p>$\\sin2A+\\sin2B+\\sin2C=4\\sin A\\sin B\\sin C$，得</p>\n$$\n\\sin A\\sin B\\sin C=\\frac{1}{8}\n$$\n<p>设外接圆半径为 $R$，由正弦定理和面积公式，</p><p>$S=2R^{2}\\sin A\\sin B\\sin C=\\frac{R^{2}}{4}$，$abc=8R^{3}\\sin A\\sin B\\sin C=R^{3}$.</p><p>因 $1\\le S\\leqslant2$，所以 $R\\geqslant2$，从而 $abc\\geqslant8$. 又由三角形不等式 $b+c>a$，有</p>\n$$\nbc(b+c)>abc\\geqslant8\n$$\n<p>因此 A 项一定成立.</p><p>为说明其余选项不是必然成立，固定一组满足 $A=\\frac{\\pi}{2}$、$\\sin B\\cos B=\\frac{1}{8}$ 的角，再取 $R=2$ 或 $R=2\\sqrt{2}$，均有 $1\\le S\\leqslant2$，而 $abc=R^{3}$ 分别为 $8$ 和 $16\\sqrt{2}$，故 C、D 不会恒成立. 取 $R=2$ 且取较小的 $B$，由 $\\sin^{2}B=\\frac{4-\\sqrt{15}}{8}&#x3C;\\frac{1}{32}$ 可得 $a=4$、$b=4\\sin B$，于是</p><p>$ab(a+b)=64\\sin B(1+\\sin B)&#x3C;8\\sqrt{2}+2&#x3C;16\\sqrt{2}$，故 B 也不是必然成立. 选 A.</p>"
+          "solution": "<p>由三角形内角和 $A+B+C=\\pi$，有</p><p>$\\sin(A-B+C)=\\sin(\\pi-2B)=\\sin2B$，$\\sin(C-A-B)=\\sin(2C-\\pi)=-\\sin2C$.</p><p>原条件化为 $\\sin2A+\\sin2B+\\sin2C=\\frac{1}{2}$. 利用恒等式</p><p>$\\sin2A+\\sin2B+\\sin2C=4\\sin A\\sin B\\sin C$，得</p>\n$$\n\\sin A\\sin B\\sin C=\\frac{1}{8}\n$$\n<p>设外接圆半径为 $R$，由正弦定理和面积公式，</p><p>$S=2R^{2}\\sin A\\sin B\\sin C=\\frac{R^{2}}{4}$，$abc=8R^{3}\\sin A\\sin B\\sin C=R^{3}$.</p><p>因 $1\\le S\\leqslant2$，所以 $R\\geqslant2$，从而 $abc\\geqslant8$. 又由三角形不等式 $b+c>a$，有</p>\n$$\nbc(b+c)>abc\\geqslant8\n$$\n<p>因此 A 项一定成立.</p><p>为说明其余选项不是必然成立，固定一组满足 $A=\\frac{\\pi}{2}$、$\\sin B\\cos B=\\frac{1}{8}$ 的角，再取 $R=2$ 或 $R=2\\sqrt{2}$，均有 $1\\le S\\leqslant2$，而 $abc=R^{3}$ 分别为 $8$ 和 $16\\sqrt{2}$，故 C、D 不会恒成立. 取 $R=2$ 且取较小的 $B$，由 $\\sin^{2}B=\\frac{4-\\sqrt{15}}{8}<\\frac{1}{32}$ 可得 $a=4$、$b=4\\sin B$，于是</p><p>$ab(a+b)=64\\sin B(1+\\sin B)<8\\sqrt{2}+2<16\\sqrt{2}$，故 B 也不是必然成立. 选 A.</p>"
         }
       ]
     },
@@ -151,7 +151,7 @@
           "body": "已知直线 $ax + y - 2 = 0$ 与圆心为 $C$ 的圆 $(x - 1)^{2} + (y - a)^{2} = 4$ 相交于 $A$，$B$ 两点，且 $\\triangle ABC$ 为等边三角形，则实数 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$4 \\pm \\sqrt{15}$",
-          "solution": "<p>圆的半径为 $2$. 因 $\\triangle ABC$ 为以 $C$ 为圆心的等边三角形，弦 $AB$ 长为 $2$，圆心到直线 $AB$ 的距离为</p><p>$2\\cos\\frac{\\pi}{6}=\\sqrt{3}$. 圆心为 $C=(1,a)$，故点 $C$ 到直线 $ax+y-2=0$ 的距离满足</p>\n$$\n\\frac{|a+a-2|}{\\sqrt{a^{2}+1}}=\\sqrt{3}\n$$\n<p>平方并整理得</p><p>$4(a-1)^{2}=3(a^{2}+1)$，$a^{2}-8a+1=0$.</p><p>所以 $a=4\\pm\\sqrt{15}$. 这两个值均使圆心到直线的距离为 $\\sqrt{3}&#x3C;2$，确有长度为 $2$ 的弦，故均符合条件.</p>"
+          "solution": "<p>圆的半径为 $2$. 因 $\\triangle ABC$ 为以 $C$ 为圆心的等边三角形，弦 $AB$ 长为 $2$，圆心到直线 $AB$ 的距离为</p><p>$2\\cos\\frac{\\pi}{6}=\\sqrt{3}$. 圆心为 $C=(1,a)$，故点 $C$ 到直线 $ax+y-2=0$ 的距离满足</p>\n$$\n\\frac{|a+a-2|}{\\sqrt{a^{2}+1}}=\\sqrt{3}\n$$\n<p>平方并整理得</p><p>$4(a-1)^{2}=3(a^{2}+1)$，$a^{2}-8a+1=0$.</p><p>所以 $a=4\\pm\\sqrt{15}$. 这两个值均使圆心到直线的距离为 $\\sqrt{3}<2$，确有长度为 $2$ 的弦，故均符合条件.</p>"
         },
         {
           "num": 14,
@@ -162,7 +162,7 @@
         },
         {
           "num": 15,
-          "body": "已知直线 $l$ 的参数方程为 $\\begin{cases}x=2+t,\\\\\n\ny=3+t,\\end{cases}$（$t$ 为参数），以坐标原点为极点，$x$ 轴的正半轴为极轴建立极坐标系，曲线 $C$ 的极坐标方程为 $\\rho\\sin^{2}\\theta-4\\cos\\theta=0$（$\\rho\\geqslant0$，$0\\le\\theta&#x3C;2\\pi$），则直线 $l$ 与曲线 $C$ 的公共点的极径 $\\rho=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知直线 $l$ 的参数方程为 $\\begin{cases}x=2+t,\\\\\n\ny=3+t,\\end{cases}$（$t$ 为参数），以坐标原点为极点，$x$ 轴的正半轴为极轴建立极坐标系，曲线 $C$ 的极坐标方程为 $\\rho\\sin^{2}\\theta-4\\cos\\theta=0$（$\\rho\\geqslant0$，$0\\le\\theta<2\\pi$），则直线 $l$ 与曲线 $C$ 的公共点的极径 $\\rho=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\sqrt{5}$",
           "solution": "<p>由参数方程，交点满足 $x=2+t$，$y=3+t$. 在极坐标中 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，曲线方程化为</p>\n$$\n\\rho\\frac{y^{2}}{\\rho^{2}}-4\\frac{x}{\\rho}=0\n$$\n<p>即 $y^{2}=4x$. 代入直线参数方程，得</p><p>$(3+t)^{2}=4(2+t)$，$(t+1)^{2}=0$.</p><p>因此公共点为 $(1,2)$，其极径为</p>\n$$\n\\rho=\\sqrt{1^{2}+2^{2}}=\\sqrt{5}\n$$"
@@ -172,7 +172,7 @@
           "body": "若不等式 $\\left|2x-1\\right|+\\left|x+2\\right|\\ge a^{2}+\\frac{1}{2}a+2$ 对任意实数 $x$ 恒成立，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left[-1, \\dfrac{1}{2}\\right]$",
-          "solution": "<p>按绝对值的零点 $-2$，$\\frac{1}{2}$ 分段，有</p>\n$$\n|2x-1|+|x+2|=  \\begin{cases}-3x-1,&#x26;x&#x3C;-2,\\\\  3-x,&#x26;-2\\le x\\le\\frac{1}{2},\\\\  3x+1,&#x26;x\\ge\\frac{1}{2}.\\end{cases}\n$$\n<p>三段的最小值均不小于 $\\frac{5}{2}$，且在 $x=\\frac{1}{2}$ 时取到，所以左边的最小值为 $\\frac{5}{2}$. 原不等式对任意实数 $x$ 恒成立，当且仅当</p><p>$a^{2}+\\frac{1}{2}a+2\\le\\frac{5}{2}$，$2a^{2}+a-1\\leqslant0$.</p><p>因 $2a^{2}+a-1=(2a-1)(a+1)$，故 $-1\\le a\\le\\frac{1}{2}$.</p>"
+          "solution": "<p>按绝对值的零点 $-2$，$\\frac{1}{2}$ 分段，有</p>\n$$\n|2x-1|+|x+2|=  \\begin{cases}-3x-1,&x<-2,\\\\  3-x,&-2\\le x\\le\\frac{1}{2},\\\\  3x+1,&x\\ge\\frac{1}{2}.\\end{cases}\n$$\n<p>三段的最小值均不小于 $\\frac{5}{2}$，且在 $x=\\frac{1}{2}$ 时取到，所以左边的最小值为 $\\frac{5}{2}$. 原不等式对任意实数 $x$ 恒成立，当且仅当</p><p>$a^{2}+\\frac{1}{2}a+2\\le\\frac{5}{2}$，$2a^{2}+a-1\\leqslant0$.</p><p>因 $2a^{2}+a-1=(2a-1)(a+1)$，故 $-1\\le a\\le\\frac{1}{2}$.</p>"
         }
       ]
     },
@@ -181,10 +181,10 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>已知函数 $f(x) = \\sqrt{3}\\sin (\\omega x + \\varphi)$（$\\omega > 0$，$-\\frac{\\pi}{2}\\le \\varphi &#x3C; \\frac{\\pi}{2}$）的图象关于直线 $x = \\frac{\\pi}{3}$ 对称，且图象上相邻两个最高点的距离为 $\\pi$.</p><ol class=\"enumerate\"><li><p>求 $\\omega$ 和 $\\varphi$ 的值；</p></li><li><p>若 $f\\left(\\frac{\\alpha}{2}\\right) = \\frac{\\sqrt{3}}{4}$（$\\frac{\\pi}{6}&#x3C; \\alpha &#x3C; \\frac{2\\pi}{3}$），求 $\\cos \\left(\\alpha + \\frac{3\\pi}{2}\\right)$ 的值.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = \\sqrt{3}\\sin (\\omega x + \\varphi)$（$\\omega > 0$，$-\\frac{\\pi}{2}\\le \\varphi < \\frac{\\pi}{2}$）的图象关于直线 $x = \\frac{\\pi}{3}$ 对称，且图象上相邻两个最高点的距离为 $\\pi$.</p><ol class=\"enumerate\"><li><p>求 $\\omega$ 和 $\\varphi$ 的值；</p></li><li><p>若 $f\\left(\\frac{\\alpha}{2}\\right) = \\frac{\\sqrt{3}}{4}$（$\\frac{\\pi}{6}< \\alpha < \\frac{2\\pi}{3}$），求 $\\cos \\left(\\alpha + \\frac{3\\pi}{2}\\right)$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>相邻两个最高点的横坐标相差一个周期，因此</p><p>$T=\\frac{2\\pi}{\\omega}=\\pi$，$\\omega=2$.</p><p>图象关于直线 $x=\\dfrac{\\pi}{3}$ 对称，故该直线经过图象的最高点或最低点，即</p><p>$2\\cdot\\frac{\\pi}{3}+\\varphi=\\frac{\\pi}{2}+k\\pi$，（$k\\in\\mathbb{Z}$）.</p><p>由 $-\\dfrac{\\pi}{2}\\le\\varphi&#x3C;\\dfrac{\\pi}{2}$，得 $k=0$，从而 $\\varphi=-\\dfrac{\\pi}{6}$.</p></li><li><p>由 $f\\left(\\dfrac{\\alpha}{2}\\right)=\\dfrac{\\sqrt{3}}{4}$，得</p><p>$\\sqrt{3}\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)=\\frac{\\sqrt{3}}{4}$，$\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)=\\frac{1}{4}$.</p><p>因为 $\\dfrac{\\pi}{6}&#x3C;\\alpha&#x3C;\\dfrac{2\\pi}{3}$，所以 $0&#x3C;\\alpha-\\dfrac{\\pi}{6}&#x3C;\\dfrac{\\pi}{2}$，从而</p>\n$$\n\\cos\\left(\\alpha-\\frac{\\pi}{6}\\right)=\\frac{\\sqrt{15}}{4}\n$$\n<p>又 $\\cos\\left(u+\\dfrac{3\\pi}{2}\\right)=\\sin u$，所以</p>\n$$\n\\cos\\left(\\alpha+\\frac{3\\pi}{2}\\right)  =\\sin\\alpha  =\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)\\cos\\frac{\\pi}{6}+\\cos\\left(\\alpha-\\frac{\\pi}{6}\\right)\\sin\\frac{\\pi}{6}=\\frac{\\sqrt{3}+\\sqrt{15}}{8}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>相邻两个最高点的横坐标相差一个周期，因此</p><p>$T=\\frac{2\\pi}{\\omega}=\\pi$，$\\omega=2$.</p><p>图象关于直线 $x=\\dfrac{\\pi}{3}$ 对称，故该直线经过图象的最高点或最低点，即</p><p>$2\\cdot\\frac{\\pi}{3}+\\varphi=\\frac{\\pi}{2}+k\\pi$，（$k\\in\\mathbb{Z}$）.</p><p>由 $-\\dfrac{\\pi}{2}\\le\\varphi<\\dfrac{\\pi}{2}$，得 $k=0$，从而 $\\varphi=-\\dfrac{\\pi}{6}$.</p></li><li><p>由 $f\\left(\\dfrac{\\alpha}{2}\\right)=\\dfrac{\\sqrt{3}}{4}$，得</p><p>$\\sqrt{3}\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)=\\frac{\\sqrt{3}}{4}$，$\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)=\\frac{1}{4}$.</p><p>因为 $\\dfrac{\\pi}{6}<\\alpha<\\dfrac{2\\pi}{3}$，所以 $0<\\alpha-\\dfrac{\\pi}{6}<\\dfrac{\\pi}{2}$，从而</p>\n$$\n\\cos\\left(\\alpha-\\frac{\\pi}{6}\\right)=\\frac{\\sqrt{15}}{4}\n$$\n<p>又 $\\cos\\left(u+\\dfrac{3\\pi}{2}\\right)=\\sin u$，所以</p>\n$$\n\\cos\\left(\\alpha+\\frac{3\\pi}{2}\\right)  =\\sin\\alpha  =\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)\\cos\\frac{\\pi}{6}+\\cos\\left(\\alpha-\\frac{\\pi}{6}\\right)\\sin\\frac{\\pi}{6}=\\frac{\\sqrt{3}+\\sqrt{15}}{8}\n$$\n</li></ol>"
         },
         {
           "num": 18,
@@ -216,10 +216,10 @@
         },
         {
           "num": 22,
-          "body": "<p>设 $a_{1} = 1$，$a_{n+1}= \\sqrt{a_{n}^{2} - 2a_{n} + 2}+ b$（$n \\in \\mathbb{N}^{*}$）.</p><ol class=\"enumerate\"><li><p>若 $b = 1$，求 $a_{2}$，$a_{3}$ 及数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若 $b = -1$，问：是否存在实数 $c$，使得 $a_{2n}&#x3C; c &#x3C; a_{2n+1}$ 对所有 $n \\in \\mathbb{N}^{*}$ 成立？ 证明你的结论.</p></li></ol>",
+          "body": "<p>设 $a_{1} = 1$，$a_{n+1}= \\sqrt{a_{n}^{2} - 2a_{n} + 2}+ b$（$n \\in \\mathbb{N}^{*}$）.</p><ol class=\"enumerate\"><li><p>若 $b = 1$，求 $a_{2}$，$a_{3}$ 及数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若 $b = -1$，问：是否存在实数 $c$，使得 $a_{2n}< c < a_{2n+1}$ 对所有 $n \\in \\mathbb{N}^{*}$ 成立？ 证明你的结论.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $b=1$ 时，</p><p>$a_{2}=\\sqrt{1^{2}-2\\cdot1+2}+1=2$，$a_{3}=\\sqrt{2^{2}-2\\cdot2+2}+1=1+\\sqrt{2}$.</p><p>下面用数学归纳法证明 $a_{n}=1+\\sqrt{n-1}$. 当 $n=1$ 时结论成立；若 $a_{n}=1+\\sqrt{n-1}$，则</p>\n$$\na_{n+1}=\\sqrt{a_{n}^{2}-2a_{n}+2}+1  =\\sqrt{(a_{n}-1)^{2}+1}+1  =\\sqrt{n}+1=1+\\sqrt{(n+1)-1}\n$$\n<p>故对一切 $n\\in\\mathbb{N}^{*}$，都有 $a_{n}=1+\\sqrt{n-1}$.</p></li><li><p>当 $b=-1$ 时，记</p><p>$g(x)=\\sqrt{(x-1)^{2}+1}-1$，$a_{n+1}=g(a_{n})$.</p><p>先算得 $a_{2}=g(1)=0&#x3C;\\dfrac{1}{4}$. 对 $0\\le x\\leqslant1$，有</p>\n$$\n0\\le g(x)\\le\\sqrt{2}-1&#x3C;1\n$$\n<p>所以 $a_{n}\\in[0,1]$（$n\\geqslant2$），且 $g(x)$ 在 $[0,1]$ 上严格递减. 另外</p>\n$$\ng\\left(\\frac{1}{4}\\right)=\\sqrt{\\left(-\\frac{3}{4}\\right)^{2}+1}-1=\\frac{1}{4}\n$$\n<p>因此，若 $a_{2n}&#x3C;\\dfrac{1}{4}$，则由 $g$ 的严格递减性，</p><p>$a_{2n+1}=g(a_{2n})>g\\left(\\dfrac{1}{4}\\right)=\\dfrac{1}{4}$；再由同样的理由，</p><p>$a_{2n+2}=g(a_{2n+1})&#x3C;\\dfrac{1}{4}$. 结合 $a_{2}&#x3C;\\dfrac{1}{4}$ 归纳可得</p><p>$a_{2n}&#x3C;\\frac{1}{4}&#x3C;a_{2n+1}$，（$n\\in\\mathbb{N}^{*}$）.</p><p>所以存在这样的实数，取 $c=\\dfrac{1}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $b=1$ 时，</p><p>$a_{2}=\\sqrt{1^{2}-2\\cdot1+2}+1=2$，$a_{3}=\\sqrt{2^{2}-2\\cdot2+2}+1=1+\\sqrt{2}$.</p><p>下面用数学归纳法证明 $a_{n}=1+\\sqrt{n-1}$. 当 $n=1$ 时结论成立；若 $a_{n}=1+\\sqrt{n-1}$，则</p>\n$$\na_{n+1}=\\sqrt{a_{n}^{2}-2a_{n}+2}+1  =\\sqrt{(a_{n}-1)^{2}+1}+1  =\\sqrt{n}+1=1+\\sqrt{(n+1)-1}\n$$\n<p>故对一切 $n\\in\\mathbb{N}^{*}$，都有 $a_{n}=1+\\sqrt{n-1}$.</p></li><li><p>当 $b=-1$ 时，记</p><p>$g(x)=\\sqrt{(x-1)^{2}+1}-1$，$a_{n+1}=g(a_{n})$.</p><p>先算得 $a_{2}=g(1)=0<\\dfrac{1}{4}$. 对 $0\\le x\\leqslant1$，有</p>\n$$\n0\\le g(x)\\le\\sqrt{2}-1<1\n$$\n<p>所以 $a_{n}\\in[0,1]$（$n\\geqslant2$），且 $g(x)$ 在 $[0,1]$ 上严格递减. 另外</p>\n$$\ng\\left(\\frac{1}{4}\\right)=\\sqrt{\\left(-\\frac{3}{4}\\right)^{2}+1}-1=\\frac{1}{4}\n$$\n<p>因此，若 $a_{2n}<\\dfrac{1}{4}$，则由 $g$ 的严格递减性，</p><p>$a_{2n+1}=g(a_{2n})>g\\left(\\dfrac{1}{4}\\right)=\\dfrac{1}{4}$；再由同样的理由，</p><p>$a_{2n+2}=g(a_{2n+1})<\\dfrac{1}{4}$. 结合 $a_{2}<\\dfrac{1}{4}$ 归纳可得</p><p>$a_{2n}<\\frac{1}{4}<a_{2n+1}$，（$n\\in\\mathbb{N}^{*}$）.</p><p>所以存在这样的实数，取 $c=\\dfrac{1}{4}$.</p></li></ol>"
         }
       ]
     }

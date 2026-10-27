@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "若 $\\sin \\alpha &#x3C; 0$ 且 $\\tan \\alpha > 0$，则 $\\alpha$ 是（ ）",
+          "body": "若 $\\sin \\alpha < 0$ 且 $\\tan \\alpha > 0$，则 $\\alpha$ 是（ ）",
           "choices": [
             "第一象限角",
             "第二象限角",
@@ -17,11 +17,11 @@
             "第四象限角"
           ],
           "answer": "C",
-          "solution": "$\\sin\\alpha&#x3C;0$ 时，$\\alpha$ 位于第三或第四象限；$\\tan\\alpha>0$ 时，$\\alpha$ 位于第一或第三象限.两个条件同时成立时，$\\alpha$ 只能位于第三象限，故选 C."
+          "solution": "$\\sin\\alpha<0$ 时，$\\alpha$ 位于第三或第四象限；$\\tan\\alpha>0$ 时，$\\alpha$ 位于第一或第三象限.两个条件同时成立时，$\\alpha$ 只能位于第三象限，故选 C."
         },
         {
           "num": 2,
-          "body": "设集合 $M = \\{m \\in \\mathbb{Z}\\mid -3 &#x3C; m &#x3C; 2\\}$，$N = \\{n \\in \\mathbb{Z}\\mid -1 \\le n \\le 3\\}$，则 $M \\cap N =$（ ）",
+          "body": "设集合 $M = \\{m \\in \\mathbb{Z}\\mid -3 < m < 2\\}$，$N = \\{n \\in \\mathbb{Z}\\mid -1 \\le n \\le 3\\}$，则 $M \\cap N =$（ ）",
           "choices": [
             "$\\{0,1\\}$",
             "$\\{-1,0,1\\}$",
@@ -29,7 +29,7 @@
             "$\\{-1,0,1,2\\}$"
           ],
           "answer": "B",
-          "solution": "因为 $m$ 为整数且 $-3&#x3C;m&#x3C;2$，所以 $M=\\{-2,-1,0,1\\}$.同理，$N=\\{-1,0,1,2,3\\}$.取两集合的公共元素，得 $M\\cap N=\\{-1,0,1\\}$，故选 B."
+          "solution": "因为 $m$ 为整数且 $-3<m<2$，所以 $M=\\{-2,-1,0,1\\}$.同理，$N=\\{-1,0,1,2,3\\}$.取两集合的公共元素，得 $M\\cap N=\\{-1,0,1\\}$，故选 B."
         },
         {
           "num": 3,
@@ -59,13 +59,13 @@
           "num": 5,
           "body": "若 $x \\in (\\mathrm{e}^{-1}, 1)$，$a = \\ln x$，$b = 2 \\ln x$，$c = \\ln^{3} x$，则（ ）",
           "choices": [
-            "$a &#x3C; b &#x3C; c$",
-            "$c &#x3C; a &#x3C; b$",
-            "$b &#x3C; a &#x3C; c$",
-            "$b &#x3C; c &#x3C; a$"
+            "$a < b < c$",
+            "$c < a < b$",
+            "$b < a < c$",
+            "$b < c < a$"
           ],
           "answer": "C",
-          "solution": "<p>令 $t=\\ln x$.由于 $\\mathrm{e}^{-1}&#x3C;x&#x3C;1$，且 $\\ln x$ 在正数上单调递增，所以 $-1&#x3C;t&#x3C;0$.于是 $b-a=t&#x3C;0$，从而 $b&#x3C;a$.又</p><p>$a-c=t-t^{3}=t(1-t^{2})&#x3C;0$，因为 $t&#x3C;0$ 且 $1-t^{2}>0$，所以 $a&#x3C;c$.因此 $b&#x3C;a&#x3C;c$，故选 C.</p>"
+          "solution": "<p>令 $t=\\ln x$.由于 $\\mathrm{e}^{-1}<x<1$，且 $\\ln x$ 在正数上单调递增，所以 $-1<t<0$.于是 $b-a=t<0$，从而 $b<a$.又</p><p>$a-c=t-t^{3}=t(1-t^{2})<0$，因为 $t<0$ 且 $1-t^{2}>0$，所以 $a<c$.因此 $b<a<c$，故选 C.</p>"
         },
         {
           "num": 6,
@@ -175,7 +175,7 @@
           "body": "已知 $F$ 是抛物线 $C: y^{2}= 4x$ 的焦点，$A$，$B$ 是 $C$ 上的两个点，线段 $AB$ 的中点为 $M(2,2)$，则 $\\triangle ABF$ 的面积等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$2$",
-          "solution": "<p>设 $A=(x_{1},y_{1})$，$B=(x_{2},y_{2})$.由中点为 $M(2,2)$，得 $x_{1}+x_{2}=4$，$y_{1}+y_{2}=4$.又因 $A$、$B$ 在 $y^{2}=4x$ 上，作差得</p><p>$(y_{1}-y_{2})(y_{1}+y_{2})=4(x_{1}-x_{2})$.代入 $y_{1}+y_{2}=4$，得到 $y_{1}-y_{2}=x_{1}-x_{2}$，故弦 $AB$ 的斜率为 $1$.</p><p>直线 $AB$ 经过 $(2,2)$，所以其方程为 $y=x$.与抛物线联立得 $x^{2}=4x$，从而交点为 $A=(0,0)$、$B=(4,4)$.抛物线 $y^{2}=4x$ 的焦点为 $F=(1,0)$，于是</p><p>$S_{\\triangle ABF}=\\dfrac{1}{2}\\left|\\det\\begin{pmatrix}4&#x26;4\\\\1&#x26;0\\end{pmatrix}\\right|=2$.</p>"
+          "solution": "<p>设 $A=(x_{1},y_{1})$，$B=(x_{2},y_{2})$.由中点为 $M(2,2)$，得 $x_{1}+x_{2}=4$，$y_{1}+y_{2}=4$.又因 $A$、$B$ 在 $y^{2}=4x$ 上，作差得</p><p>$(y_{1}-y_{2})(y_{1}+y_{2})=4(x_{1}-x_{2})$.代入 $y_{1}+y_{2}=4$，得到 $y_{1}-y_{2}=x_{1}-x_{2}$，故弦 $AB$ 的斜率为 $1$.</p><p>直线 $AB$ 经过 $(2,2)$，所以其方程为 $y=x$.与抛物线联立得 $x^{2}=4x$，从而交点为 $A=(0,0)$、$B=(4,4)$.抛物线 $y^{2}=4x$ 的焦点为 $F=(1,0)$，于是</p><p>$S_{\\triangle ABF}=\\dfrac{1}{2}\\left|\\det\\begin{pmatrix}4&4\\\\1&0\\end{pmatrix}\\right|=2$.</p>"
         },
         {
           "num": 16,
@@ -222,7 +222,7 @@
           "body": "<p>设 $\\alpha \\in \\mathbb{R}$. 函数 $f(x) = \\alpha x^{3} - 3x^{2}$.</p><ol class=\"enumerate\"><li><p>若 $x = 2$ 是函数 $y = f(x)$ 的极值点，求 $\\alpha$ 的值；</p></li><li><p>若函数 $g(x) = f(x) + f'(x)$，$x \\in [0,2]$，在 $x = 0$ 处取得最大值，求 $\\alpha$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3\\alpha x^{2}-6x$，所以极值点 $x=2$ 必须满足 $f'(2)=12\\alpha-12=0$，得 $\\alpha=1$.此时 $f'(x)=3x(x-2)$，在 $x=2$ 左侧为负、右侧为正，故 $x=2$ 确为极小值点.</p></li><li><p>由 $f'(x)=3\\alpha x^{2}-6x$，有</p><p>$g(x)=\\alpha x^{3}+(3\\alpha-3)x^{2}-6x=x\\bigl(\\alpha x^{2}+3(\\alpha-1)x-6\\bigr)$.又 $g(0)=0$，要使 $x=0$ 在 $[0,2]$ 上取得最大值，必须且只需对所有 $0&#x3C;x\\leqslant2$ 有 $g(x)\\leqslant0$，即</p><p>$\\alpha\\le\\varphi(x)=\\dfrac{3x+6}{x^2+3x}=\\dfrac{3(x+2)}{x(x+3)}$.</p><p>对 $x>0$，$\\varphi'(x)=\\dfrac{3\\bigl[x(x+3)-(x+2)(2x+3)\\bigr]}{x^2(x+3)^2}&#x3C;0$，所以 $\\varphi(x)$ 在 $(0,2]$ 上递减，最小值为 $\\varphi(2)=\\dfrac{6}{5}$.因此条件等价于 $\\alpha\\le\\dfrac{6}{5}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3\\alpha x^{2}-6x$，所以极值点 $x=2$ 必须满足 $f'(2)=12\\alpha-12=0$，得 $\\alpha=1$.此时 $f'(x)=3x(x-2)$，在 $x=2$ 左侧为负、右侧为正，故 $x=2$ 确为极小值点.</p></li><li><p>由 $f'(x)=3\\alpha x^{2}-6x$，有</p><p>$g(x)=\\alpha x^{3}+(3\\alpha-3)x^{2}-6x=x\\bigl(\\alpha x^{2}+3(\\alpha-1)x-6\\bigr)$.又 $g(0)=0$，要使 $x=0$ 在 $[0,2]$ 上取得最大值，必须且只需对所有 $0<x\\leqslant2$ 有 $g(x)\\leqslant0$，即</p><p>$\\alpha\\le\\varphi(x)=\\dfrac{3x+6}{x^2+3x}=\\dfrac{3(x+2)}{x(x+3)}$.</p><p>对 $x>0$，$\\varphi'(x)=\\dfrac{3\\bigl[x(x+3)-(x+2)(2x+3)\\bigr]}{x^2(x+3)^2}<0$，所以 $\\varphi(x)$ 在 $(0,2]$ 上递减，最小值为 $\\varphi(2)=\\dfrac{6}{5}$.因此条件等价于 $\\alpha\\le\\dfrac{6}{5}$.</p></li></ol>"
         },
         {
           "num": 22,

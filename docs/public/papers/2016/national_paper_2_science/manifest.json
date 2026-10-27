@@ -17,11 +17,11 @@
             "$(-\\infty,-3)$"
           ],
           "answer": "A",
-          "solution": "<p>复数 $z=(m+3)+(m-1)\\mathrm{i}$ 在复平面内对应的点的横坐标为 $m+3$，纵坐标为 $m-1$. 点在第四象限，所以</p><p>$m+3>0$，$m-1&#x3C;0$.</p><p>解得 $-3&#x3C;m&#x3C;1$，故选 A.</p>"
+          "solution": "<p>复数 $z=(m+3)+(m-1)\\mathrm{i}$ 在复平面内对应的点的横坐标为 $m+3$，纵坐标为 $m-1$. 点在第四象限，所以</p><p>$m+3>0$，$m-1<0$.</p><p>解得 $-3<m<1$，故选 A.</p>"
         },
         {
           "num": 2,
-          "body": "已知集合 $A=\\{1,2,3\\}$，$B=\\{x\\mid(x+1)(x-2)&#x3C;0,\\ x\\in\\mathbb{Z}\\}$，则 $A\\cup B$ 等于（ ）",
+          "body": "已知集合 $A=\\{1,2,3\\}$，$B=\\{x\\mid(x+1)(x-2)<0,\\ x\\in\\mathbb{Z}\\}$，则 $A\\cup B$ 等于（ ）",
           "choices": [
             "$\\{1\\}$",
             "$\\{1,2\\}$",
@@ -29,7 +29,7 @@
             "$\\{-1,0,1,2,3\\}$"
           ],
           "answer": "C",
-          "solution": "<p>由 $(x+1)(x-2)&#x3C;0$ 得 $-1&#x3C;x&#x3C;2$. 又 $x\\in\\mathbb{Z}$，所以 $B=\\{0,1\\}$. 因此</p>\n$$\nA\\cup B=\\{1,2,3\\}\\cup\\{0,1\\}=\\{0,1,2,3\\}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>由 $(x+1)(x-2)<0$ 得 $-1<x<2$. 又 $x\\in\\mathbb{Z}$，所以 $B=\\{0,1\\}$. 因此</p>\n$$\nA\\cup B=\\{1,2,3\\}\\cup\\{0,1\\}=\\{0,1,2,3\\}\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 3,
@@ -125,7 +125,7 @@
             "$\\dfrac{2m}{n}$"
           ],
           "answer": "C",
-          "solution": "<p>每个数对 $(x_{i},y_{i})$ 都落在单位正方形 $[0,1]\\times[0,1]$ 内，其中满足 $x_{i}^{2}+y_{i}^{2}&#x3C;1$ 的点落在该正方形内的四分之一单位圆中. 因而这类数对出现的概率可用频率 $\\dfrac{m}{n}$ 估计为</p>\n$$\n\\frac{m}{n}\\approx\\frac{\\frac{1}{4}\\pi}{1}=\\frac{\\pi}{4}\n$$\n<p>所以 $\\pi$ 的近似值为 $\\dfrac{4m}{n}$，故选 C.</p>"
+          "solution": "<p>每个数对 $(x_{i},y_{i})$ 都落在单位正方形 $[0,1]\\times[0,1]$ 内，其中满足 $x_{i}^{2}+y_{i}^{2}<1$ 的点落在该正方形内的四分之一单位圆中. 因而这类数对出现的概率可用频率 $\\dfrac{m}{n}$ 估计为</p>\n$$\n\\frac{m}{n}\\approx\\frac{\\frac{1}{4}\\pi}{1}=\\frac{\\pi}{4}\n$$\n<p>所以 $\\pi$ 的近似值为 $\\dfrac{4m}{n}$，故选 C.</p>"
         },
         {
           "num": 11,
@@ -194,7 +194,7 @@
           "body": "<p>$S_{n}$ 为等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和，且 $a_{1}=1$，$S_{7}=28$，记 $b_{n}=[\\lg a_{n}]$，其中 $[x]$ 表示不超过 $x$ 的最大整数，如 $[0.9]=0$，$[\\lg99]=1$.</p><ol class=\"enumerate\"><li><p>求 $b_{1}$，$b_{11}$，$b_{101}$；</p></li><li><p>求数列 $\\{b_{n}\\}$ 的前 $1000$ 项和.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$. 由 $S_{7}=28$ 得</p>\n$$\n28=\\frac{7}{2}\\bigl(2a_{1}+6d\\bigr)=7(1+3d)\n$$\n<p>所以 $d=1$，从而 $a_{n}=a_{1}+(n-1)d=n$. 因此</p><p>$b_{1}=\\lfloor\\lg1\\rfloor=0$，$b_{11}=\\lfloor\\lg11\\rfloor=1$，$b_{101}=\\lfloor\\lg101\\rfloor=2$.</p></li><li><p>当 $1\\leq n\\leq9$ 时，$0\\leq\\lg n&#x3C;1$，所以 $b_{n}=0$；当 $10\\leq n\\leq99$ 时，$1\\leq\\lg n&#x3C;2$，所以 $b_{n}=1$；当 $100\\leq n\\leq999$ 时，$2\\leq\\lg n&#x3C;3$，所以 $b_{n}=2$；最后 $b_{1000}=3$. 因而</p>\n$$\n\\sum_{n=1}^{1000}b_{n}=9\\times0+90\\times1+900\\times2+1\\times3=1893\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$. 由 $S_{7}=28$ 得</p>\n$$\n28=\\frac{7}{2}\\bigl(2a_{1}+6d\\bigr)=7(1+3d)\n$$\n<p>所以 $d=1$，从而 $a_{n}=a_{1}+(n-1)d=n$. 因此</p><p>$b_{1}=\\lfloor\\lg1\\rfloor=0$，$b_{11}=\\lfloor\\lg11\\rfloor=1$，$b_{101}=\\lfloor\\lg101\\rfloor=2$.</p></li><li><p>当 $1\\leq n\\leq9$ 时，$0\\leq\\lg n<1$，所以 $b_{n}=0$；当 $10\\leq n\\leq99$ 时，$1\\leq\\lg n<2$，所以 $b_{n}=1$；当 $100\\leq n\\leq999$ 时，$2\\leq\\lg n<3$，所以 $b_{n}=2$；最后 $b_{1000}=3$. 因而</p>\n$$\n\\sum_{n=1}^{1000}b_{n}=9\\times0+90\\times1+900\\times2+1\\times3=1893\n$$\n</li></ol>"
         },
         {
           "num": 18,
@@ -215,14 +215,14 @@
           "body": "<p>已知椭圆 $E:\\dfrac{x^2}{t}+\\dfrac{y^2}{3}=1$，焦点在 $x$ 轴上，$A$ 是 $E$ 的左顶点，斜率为 $k$（$k>0$）的直线交 $E$ 于 $A$，$M$ 两点，点 $N$ 在 $E$ 上，且 $MA\\perp NA$.</p><ol class=\"enumerate\"><li><p>当 $t=4$，$\\lvert AM\\rvert=\\lvert AN\\rvert$ 时，求 $\\triangle AMN$ 的面积；</p></li><li><p>当 $2\\lvert AM\\rvert=\\lvert AN\\rvert$ 时，求 $k$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记椭圆的半长轴、半短轴分别为 $a_{0}=\\sqrt{t}$，$b_{0}=\\sqrt{3}$，则左顶点 $A=(-a_{0},0)$. 对于过 $A$ 且斜率为 $s$ 的直线，有 $y=s(x+a_{0})$. 代入椭圆方程，除去交点 $A$ 对应的根后，得到另一个交点 $P_{s}$ 满足</p>\n$$\nx_{P_s}+a_{0}=\\frac{2a_{0}b_{0}^{2}}{b_{0}^{2}+a_{0}^{2}s^{2}}\n$$\n<p>所以</p>\n$$\nAP_{s}=\\frac{2a_{0}b_{0}^{2}\\sqrt{1+s^2}}{b_{0}^{2}+a_{0}^{2}s^{2}}\n$$\n<p>取 $s=k$ 得点 $M$，取 $s=-\\frac{1}{k}$ 得点 $N$，从而</p>\n$$\n\\frac{|AN|}{|AM|}=\\frac{k\\left(b_{0}^{2}+a_{0}^{2}k^{2}\\right)}{a_{0}^{2}+b_{0}^{2}k^{2}}\n$$\n<p>当 $t=4$ 时，$a_{0}^{2}=4$，$b_{0}^{2}=3$. 由 $|AM|=|AN|$ 得</p>\n$$\nk(3+4k^{2})=4+3k^{2}\n$$\n<p>即</p>\n$$\n(k-1)(4k^{2}+k+4)=0\n$$\n<p>因为 $4k^{2}+k+4>0$，且 $k>0$，所以 $k=1$. 此时</p>\n$$\n|AM|=\\frac{2\\cdot2\\cdot3\\sqrt{2}}{3+4}=\\frac{12\\sqrt{2}}{7}\n$$\n<p>又 $MA\\perp NA$，所以</p>\n$$\nS_{\\triangle AMN}=\\frac{1}{2}|AM|\\,|AN|=\\frac{1}{2}\\left(\\frac{12\\sqrt{2}}{7}\\right)^{2}=\\frac{144}{49}\n$$\n</li><li><p>由上面的长度比公式和 $a_{0}^{2}=t$，$b_{0}^{2}=3$，条件 $2|AM|=|AN|$ 等价于</p>\n$$\n\\frac{k(3+tk^{2})}{t+3k^{2}}=2\n$$\n<p>整理得</p>\n$$\nt(k^{3}-2)=3k(2k-1)\n$$\n<p>由于椭圆的焦点在 $x$ 轴上，必须有 $t>3$. 由上式</p>\n$$\nt-3=\\frac{3(2-k)(k^{2}+1)}{k^{3}-2}\n$$\n<p>因此 $t>3$ 等价于</p>\n$$\n\\frac{2-k}{k^{3}-2}>0\n$$\n<p>结合 $k>0$ 可得 $k^{3}>2$ 且 $k&#x3C;2$，即</p>\n$$\nk\\in\\left(\\sqrt[3]{2},2\\right)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记椭圆的半长轴、半短轴分别为 $a_{0}=\\sqrt{t}$，$b_{0}=\\sqrt{3}$，则左顶点 $A=(-a_{0},0)$. 对于过 $A$ 且斜率为 $s$ 的直线，有 $y=s(x+a_{0})$. 代入椭圆方程，除去交点 $A$ 对应的根后，得到另一个交点 $P_{s}$ 满足</p>\n$$\nx_{P_s}+a_{0}=\\frac{2a_{0}b_{0}^{2}}{b_{0}^{2}+a_{0}^{2}s^{2}}\n$$\n<p>所以</p>\n$$\nAP_{s}=\\frac{2a_{0}b_{0}^{2}\\sqrt{1+s^2}}{b_{0}^{2}+a_{0}^{2}s^{2}}\n$$\n<p>取 $s=k$ 得点 $M$，取 $s=-\\frac{1}{k}$ 得点 $N$，从而</p>\n$$\n\\frac{|AN|}{|AM|}=\\frac{k\\left(b_{0}^{2}+a_{0}^{2}k^{2}\\right)}{a_{0}^{2}+b_{0}^{2}k^{2}}\n$$\n<p>当 $t=4$ 时，$a_{0}^{2}=4$，$b_{0}^{2}=3$. 由 $|AM|=|AN|$ 得</p>\n$$\nk(3+4k^{2})=4+3k^{2}\n$$\n<p>即</p>\n$$\n(k-1)(4k^{2}+k+4)=0\n$$\n<p>因为 $4k^{2}+k+4>0$，且 $k>0$，所以 $k=1$. 此时</p>\n$$\n|AM|=\\frac{2\\cdot2\\cdot3\\sqrt{2}}{3+4}=\\frac{12\\sqrt{2}}{7}\n$$\n<p>又 $MA\\perp NA$，所以</p>\n$$\nS_{\\triangle AMN}=\\frac{1}{2}|AM|\\,|AN|=\\frac{1}{2}\\left(\\frac{12\\sqrt{2}}{7}\\right)^{2}=\\frac{144}{49}\n$$\n</li><li><p>由上面的长度比公式和 $a_{0}^{2}=t$，$b_{0}^{2}=3$，条件 $2|AM|=|AN|$ 等价于</p>\n$$\n\\frac{k(3+tk^{2})}{t+3k^{2}}=2\n$$\n<p>整理得</p>\n$$\nt(k^{3}-2)=3k(2k-1)\n$$\n<p>由于椭圆的焦点在 $x$ 轴上，必须有 $t>3$. 由上式</p>\n$$\nt-3=\\frac{3(2-k)(k^{2}+1)}{k^{3}-2}\n$$\n<p>因此 $t>3$ 等价于</p>\n$$\n\\frac{2-k}{k^{3}-2}>0\n$$\n<p>结合 $k>0$ 可得 $k^{3}>2$ 且 $k<2$，即</p>\n$$\nk\\in\\left(\\sqrt[3]{2},2\\right)\n$$\n</li></ol>"
         },
         {
           "num": 21,
           "body": "<ol class=\"enumerate\"><li><p>讨论函数 $f(x)=\\dfrac{x-2}{x+2}\\mathrm{e}^{x}$ 的单调性，并证明当 $x>0$ 时，$(x-2)\\mathrm{e}^{x}+x+2>0$.</p></li><li><p>证明：当 $a\\in[0,1)$ 时，函数 $g(x)=\\dfrac{\\mathrm{e}^x-ax-a}{x^2}$（$x>0$）有最小值. 设 $g(x)$ 的最小值为 $h(a)$，求函数 $h(a)$ 的值域.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $\\mathbb{R}$ 中除 $x=-2$ 外的所有数. 求导得</p>\n$$\nf'(x)=\\mathrm{e}^{x}\\left(\\frac{x-2}{x+2}+\\frac{4}{(x+2)^{2}}\\right)=\\frac{x^{2}\\mathrm{e}^{x}}{(x+2)^{2}}\n$$\n<p>当 $x\\ne-2$ 时，$f'(x)\\geq0$，且除 $x=0$ 外为正，所以 $f(x)$ 在 $(-\\infty,-2)$ 和 $(-2,+\\infty)$ 上均单调递增.</p><p>令 $p(x)=(x-2)\\mathrm{e}^{x}+x+2$. 则 $p(0)=0$，且</p><p>$p'(x)=(x-1)\\mathrm{e}^{x}+1$，$p''(x)=x\\mathrm{e}^{x}$.</p><p>当 $x>0$ 时，$p''(x)>0$，所以 $p'(x)>p'(0)=0$，进而 $p(x)>p(0)=0$. 即当 $x>0$ 时，$(x-2)\\mathrm{e}^{x}+x+2>0$.</p></li><li><p>记</p>\n$$\nq_{a}(x)=(x-2)\\mathrm{e}^{x}+a(x+2)\n$$\n<p>则</p>\n$$\ng'(x)=\\frac{q_{a}(x)}{x^{3}}\n$$\n<p>在 $0\\leq x\\leq2$ 上令</p>\n$$\n\\varphi(x)=\\frac{(2-x)\\mathrm{e}^{x}}{x+2}\n$$\n<p>当 $0&#x3C;x&#x3C;2$ 时，</p>\n$$\n\\varphi'(x)=-\\frac{x^{2}\\mathrm{e}^{x}}{(x+2)^{2}}&#x3C;0\n$$\n<p>又 $\\varphi(0)=1$，$\\varphi(2)=0$，所以对任意 $a\\in[0,1)$，存在唯一的 $x_{a}\\in(0,2]$，使得 $a=\\varphi(x_{a})$. 对 $0&#x3C;x&#x3C;2$，有</p>\n$$\nq_{a}(x)=(x+2)\\bigl(a-\\varphi(x)\\bigr)\n$$\n<p>由 $\\varphi$ 的单调性，$q_{a}(x)&#x3C;0$（$0&#x3C;x&#x3C;x_{a}$），$q_{a}(x)>0$（$x_{a}&#x3C;x&#x3C;2$）；当 $x>2$ 时，$q_{a}(x)>0$. 因此 $g(x)$ 先减后增，在 $x=x_{a}$ 处取得最小值.</p><p>由 $q_{a}(x_{a})=0$ 得 $a=(2-x_{a})\\frac{\\mathrm{e}^{x_a}}{(x_{a}+2)}$，代入 $g$ 可得</p>\n$$\nh(a)=g(x_{a})=\\frac{\\mathrm{e}^{x_a}-a(x_{a}+1)}{x_{a}^{2}}=\\frac{\\mathrm{e}^{x_a}}{x_{a}+2}\n$$\n<p>当 $x>0$ 时，函数 $r(x)=\\dfrac{\\mathrm{e}^x}{x+2}$ 满足</p>\n$$\nr'(x)=\\frac{\\mathrm{e}^{x}(x+1)}{(x+2)^{2}}>0\n$$\n<p>而 $a\\in[0,1)$ 对应 $x_{a}\\in(0,2]$，所以</p>\n$$\nh(a)\\in\\left(\\frac{1}{2},\\frac{\\mathrm{e}^{2}}{4}\\right]\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $\\mathbb{R}$ 中除 $x=-2$ 外的所有数. 求导得</p>\n$$\nf'(x)=\\mathrm{e}^{x}\\left(\\frac{x-2}{x+2}+\\frac{4}{(x+2)^{2}}\\right)=\\frac{x^{2}\\mathrm{e}^{x}}{(x+2)^{2}}\n$$\n<p>当 $x\\ne-2$ 时，$f'(x)\\geq0$，且除 $x=0$ 外为正，所以 $f(x)$ 在 $(-\\infty,-2)$ 和 $(-2,+\\infty)$ 上均单调递增.</p><p>令 $p(x)=(x-2)\\mathrm{e}^{x}+x+2$. 则 $p(0)=0$，且</p><p>$p'(x)=(x-1)\\mathrm{e}^{x}+1$，$p''(x)=x\\mathrm{e}^{x}$.</p><p>当 $x>0$ 时，$p''(x)>0$，所以 $p'(x)>p'(0)=0$，进而 $p(x)>p(0)=0$. 即当 $x>0$ 时，$(x-2)\\mathrm{e}^{x}+x+2>0$.</p></li><li><p>记</p>\n$$\nq_{a}(x)=(x-2)\\mathrm{e}^{x}+a(x+2)\n$$\n<p>则</p>\n$$\ng'(x)=\\frac{q_{a}(x)}{x^{3}}\n$$\n<p>在 $0\\leq x\\leq2$ 上令</p>\n$$\n\\varphi(x)=\\frac{(2-x)\\mathrm{e}^{x}}{x+2}\n$$\n<p>当 $0<x<2$ 时，</p>\n$$\n\\varphi'(x)=-\\frac{x^{2}\\mathrm{e}^{x}}{(x+2)^{2}}<0\n$$\n<p>又 $\\varphi(0)=1$，$\\varphi(2)=0$，所以对任意 $a\\in[0,1)$，存在唯一的 $x_{a}\\in(0,2]$，使得 $a=\\varphi(x_{a})$. 对 $0<x<2$，有</p>\n$$\nq_{a}(x)=(x+2)\\bigl(a-\\varphi(x)\\bigr)\n$$\n<p>由 $\\varphi$ 的单调性，$q_{a}(x)<0$（$0<x<x_{a}$），$q_{a}(x)>0$（$x_{a}<x<2$）；当 $x>2$ 时，$q_{a}(x)>0$. 因此 $g(x)$ 先减后增，在 $x=x_{a}$ 处取得最小值.</p><p>由 $q_{a}(x_{a})=0$ 得 $a=(2-x_{a})\\frac{\\mathrm{e}^{x_a}}{(x_{a}+2)}$，代入 $g$ 可得</p>\n$$\nh(a)=g(x_{a})=\\frac{\\mathrm{e}^{x_a}-a(x_{a}+1)}{x_{a}^{2}}=\\frac{\\mathrm{e}^{x_a}}{x_{a}+2}\n$$\n<p>当 $x>0$ 时，函数 $r(x)=\\dfrac{\\mathrm{e}^x}{x+2}$ 满足</p>\n$$\nr'(x)=\\frac{\\mathrm{e}^{x}(x+1)}{(x+2)^{2}}>0\n$$\n<p>而 $a\\in[0,1)$ 对应 $x_{a}\\in(0,2]$，所以</p>\n$$\nh(a)\\in\\left(\\frac{1}{2},\\frac{\\mathrm{e}^{2}}{4}\\right]\n$$\n</li></ol>"
         }
       ]
     },
@@ -234,7 +234,7 @@
           "body": "<p>如图，在正方形 $ABCD$ 中，$E$，$G$ 分别在边 $DA$，$DC$ 上（不与端点重合），且 $DE=DG$，过 $D$ 点作 $DF\\perp CE$，垂足为 $F$.</p><ol class=\"enumerate\"><li><p>证明：$B$，$C$，$G$，$F$ 四点共圆；</p></li><li><p>若 $AB=1$，$E$ 为 $DA$ 的中点，求四边形 $BCGF$ 的面积.</p></li></ol><p><span class=\"macro macro-begingroup\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_2_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设正方形边长为 $s$，令 $r=D\\frac{E}{s}=D\\frac{G}{s}$，其中 $0&#x3C;r&#x3C;1$. 建立直角坐标系，取</p><p>$D=(0,0)$，$C=(s,0)$，$A=(0,-s)$，$B=(s,-s)$.</p><p>则 $E=(0,-rs)$，$G=(rs,0)$. 直线 $CE$ 的斜率为 $r$，所以过 $D$ 且垂直于 $CE$ 的直线为 $y=-\\frac{x}{r}$. 解得垂足</p>\n$$\nF=\\left(\\frac{sr^{2}}{1+r^{2}},-\\frac{sr}{1+r^{2}}\\right)\n$$\n<p>由此</p>\n$$\n\\overrightarrow{FB}=\\frac{s}{1+r^{2}}\\bigl(1,-1-r^{2}+r\\bigr)\n$$\n\n$$\n\\overrightarrow{FG}=\\frac{s}{1+r^{2}}\\bigl(r(1-r+r^{2}),r\\bigr)\n$$\n<p>于是</p>\n$$\n\\overrightarrow{FB}\\cdot\\overrightarrow{FG}=\\frac{s^{2}}{(1+r^{2})^{2}}\\left(r(1-r+r^{2})+r(-1-r^{2}+r)\\right)=0\n$$\n<p>即 $BF\\perp GF$. 又 $BC\\perp CG$，所以</p>\n$$\n\\angle BFG=\\angle BCG=90^{\\circ}\n$$\n<p>两角同对弦 $BG$，故 $B$，$C$，$G$，$F$ 四点共圆.</p></li><li><p>当 $AB=1$ 且 $E$ 为 $DA$ 的中点时，取</p><p>$B=(1,-1)$，$C=(1,0)$，$G=\\left(\\frac{1}{2},0\\right)$，$F=\\left(\\frac{1}{5},-\\frac{2}{5}\\right)$.</p><p>此时 $BC=BF=1$，$CG=GF=\\frac{1}{2}$，且 $\\triangle BCG$ 与 $\\triangle BFG$ 都是直角三角形，斜边同为 $BG$，所以两三角形全等. 因而</p>\n$$\nS_{BCGF}=2S_{\\triangle BCG}=2\\cdot\\frac{1}{2}\\cdot1\\cdot\\frac{1}{2}=\\frac{1}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设正方形边长为 $s$，令 $r=D\\frac{E}{s}=D\\frac{G}{s}$，其中 $0<r<1$. 建立直角坐标系，取</p><p>$D=(0,0)$，$C=(s,0)$，$A=(0,-s)$，$B=(s,-s)$.</p><p>则 $E=(0,-rs)$，$G=(rs,0)$. 直线 $CE$ 的斜率为 $r$，所以过 $D$ 且垂直于 $CE$ 的直线为 $y=-\\frac{x}{r}$. 解得垂足</p>\n$$\nF=\\left(\\frac{sr^{2}}{1+r^{2}},-\\frac{sr}{1+r^{2}}\\right)\n$$\n<p>由此</p>\n$$\n\\overrightarrow{FB}=\\frac{s}{1+r^{2}}\\bigl(1,-1-r^{2}+r\\bigr)\n$$\n\n$$\n\\overrightarrow{FG}=\\frac{s}{1+r^{2}}\\bigl(r(1-r+r^{2}),r\\bigr)\n$$\n<p>于是</p>\n$$\n\\overrightarrow{FB}\\cdot\\overrightarrow{FG}=\\frac{s^{2}}{(1+r^{2})^{2}}\\left(r(1-r+r^{2})+r(-1-r^{2}+r)\\right)=0\n$$\n<p>即 $BF\\perp GF$. 又 $BC\\perp CG$，所以</p>\n$$\n\\angle BFG=\\angle BCG=90^{\\circ}\n$$\n<p>两角同对弦 $BG$，故 $B$，$C$，$G$，$F$ 四点共圆.</p></li><li><p>当 $AB=1$ 且 $E$ 为 $DA$ 的中点时，取</p><p>$B=(1,-1)$，$C=(1,0)$，$G=\\left(\\frac{1}{2},0\\right)$，$F=\\left(\\frac{1}{5},-\\frac{2}{5}\\right)$.</p><p>此时 $BC=BF=1$，$CG=GF=\\frac{1}{2}$，且 $\\triangle BCG$ 与 $\\triangle BFG$ 都是直角三角形，斜边同为 $BG$，所以两三角形全等. 因而</p>\n$$\nS_{BCGF}=2S_{\\triangle BCG}=2\\cdot\\frac{1}{2}\\cdot1\\cdot\\frac{1}{2}=\\frac{1}{2}\n$$\n</li></ol>"
         },
         {
           "num": 23,
@@ -245,10 +245,10 @@
         },
         {
           "num": 24,
-          "body": "<p>已知函数 $f(x)=\\lvert x-\\dfrac{1}{2}\\rvert+\\lvert x+\\dfrac{1}{2}\\rvert$，$M$ 为不等式 $f(x)&#x3C;2$ 的解集.</p><ol class=\"enumerate\"><li><p>求 $M$；</p></li><li><p>证明：当 $a$，$b\\in M$ 时，$\\lvert a+b\\rvert&#x3C;\\lvert 1+ab\\rvert$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x)=\\lvert x-\\dfrac{1}{2}\\rvert+\\lvert x+\\dfrac{1}{2}\\rvert$，$M$ 为不等式 $f(x)<2$ 的解集.</p><ol class=\"enumerate\"><li><p>求 $M$；</p></li><li><p>证明：当 $a$，$b\\in M$ 时，$\\lvert a+b\\rvert<\\lvert 1+ab\\rvert$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x\\leq-\\frac{1}{2}$ 时，$f(x)=-2x$，不等式 $f(x)&#x3C;2$ 等价于 $-1&#x3C;x\\leq-\\frac{1}{2}$；当 $-\\frac{1}{2}\\leq x\\leq\\frac{1}{2}$ 时，$f(x)=1&#x3C;2$；当 $x\\geq\\frac{1}{2}$ 时，$f(x)=2x$，不等式等价于 $\\frac{1}{2}\\leq x&#x3C;1$. 因此</p>\n$$\nM=(-1,1)\n$$\n</li><li><p>因为 $a$，$b\\in(-1,1)$，所以 $1-a^{2}>0$，$1-b^{2}>0$，并且 $ab>-1$，从而 $1+ab>0$. 又</p>\n$$\n\\left(1+ab\\right)^{2}-(a+b)^{2}=(1-a^{2})(1-b^{2})>0\n$$\n<p>因此 $1+ab>|a+b|$，即</p>\n$$\n|a+b|&#x3C;|1+ab|\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x\\leq-\\frac{1}{2}$ 时，$f(x)=-2x$，不等式 $f(x)<2$ 等价于 $-1<x\\leq-\\frac{1}{2}$；当 $-\\frac{1}{2}\\leq x\\leq\\frac{1}{2}$ 时，$f(x)=1<2$；当 $x\\geq\\frac{1}{2}$ 时，$f(x)=2x$，不等式等价于 $\\frac{1}{2}\\leq x<1$. 因此</p>\n$$\nM=(-1,1)\n$$\n</li><li><p>因为 $a$，$b\\in(-1,1)$，所以 $1-a^{2}>0$，$1-b^{2}>0$，并且 $ab>-1$，从而 $1+ab>0$. 又</p>\n$$\n\\left(1+ab\\right)^{2}-(a+b)^{2}=(1-a^{2})(1-b^{2})>0\n$$\n<p>因此 $1+ab>|a+b|$，即</p>\n$$\n|a+b|<|1+ab|\n$$\n</li></ol>"
         }
       ]
     }

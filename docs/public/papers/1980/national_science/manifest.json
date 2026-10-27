@@ -26,7 +26,7 @@
           "body": "用解析几何方法证明：三角形的三条高线交于一点.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设三角形为 $\\triangle ABC$. 取最长边 $BC$ 所在直线为 $x$ 轴，取过 $A$ 且垂直于 $BC$ 的高所在直线为 $y$ 轴. 由于 $BC$ 是最长边，$\\angle B$ 与 $\\angle C$ 都是锐角，所以点 $A$ 的高足在边 $BC$ 的内部. 设 $A=(0,a)$，$B=(b,0)$，$C=(c,0)$，并取坐标方向使得 $a>0$，于是 $b&#x3C;0&#x3C;c$.</p><p>直线 $AB$ 的方程为 $\\frac{x}{b}+\\frac{y}{a}=1$，斜率为 $-\\frac{a}{b}$，所以过 $C$ 的高线斜率为 $\\frac{b}{a}$，方程为 $y=\\frac{b}{a}(x-c)$. 同理，直线 $AC$ 的斜率为 $-\\frac{a}{c}$，所以过 $B$ 的高线方程为 $y=\\frac{c}{a}(x-b)$.</p><p>设这两条高线的交点为 $D$. 联立两式，得 $b(x-c)=c(x-b)$，即 $(b-c)x=0$. 因为 $b\\neq c$，所以 $x=0$. 这说明 $D$ 在 $y$ 轴上，而 $y$ 轴就是过 $A$ 的高线. 因此三条高线交于同一点.</p>"
+          "solution": "<p>设三角形为 $\\triangle ABC$. 取最长边 $BC$ 所在直线为 $x$ 轴，取过 $A$ 且垂直于 $BC$ 的高所在直线为 $y$ 轴. 由于 $BC$ 是最长边，$\\angle B$ 与 $\\angle C$ 都是锐角，所以点 $A$ 的高足在边 $BC$ 的内部. 设 $A=(0,a)$，$B=(b,0)$，$C=(c,0)$，并取坐标方向使得 $a>0$，于是 $b<0<c$.</p><p>直线 $AB$ 的方程为 $\\frac{x}{b}+\\frac{y}{a}=1$，斜率为 $-\\frac{a}{b}$，所以过 $C$ 的高线斜率为 $\\frac{b}{a}$，方程为 $y=\\frac{b}{a}(x-c)$. 同理，直线 $AC$ 的斜率为 $-\\frac{a}{c}$，所以过 $B$ 的高线方程为 $y=\\frac{c}{a}(x-b)$.</p><p>设这两条高线的交点为 $D$. 联立两式，得 $b(x-c)=c(x-b)$，即 $(b-c)x=0$. 因为 $b\\neq c$，所以 $x=0$. 这说明 $D$ 在 $y$ 轴上，而 $y$ 轴就是过 $A$ 的高线. 因此三条高线交于同一点.</p>"
         },
         {
           "num": 4,
@@ -54,14 +54,14 @@
           "body": "$CD$ 为直角 $\\triangle ABC$ 中斜边 $AB$ 上的高，已知 $\\triangle ACD$，$\\triangle CBD$，$\\triangle ABC$ 的面积成等比数列，求 $\\angle B$（用反三角函数表示）.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $CD=h$，$AB=c$，$BD=x$，则 $AD=c-x$. 三个三角形的面积依次为 $\\frac{1}{2}h(c-x)$，$\\frac{1}{2}hx$，$\\frac{1}{2}hc$. 由它们成等比数列，得 $\\left(\\frac{1}{2}hx\\right)^{2}=\\frac{1}{2}h(c-x)\\cdot\\frac{1}{2}hc$，约去正数 $\\frac{1}{4}h^{2}$，得到 $x^{2}=c(c-x)$.</p><p>整理为 $x^{2}+cx-c^{2}=0$，解得 $x=\\frac{-1\\pm\\sqrt{5}}{2}c$. 因为 $0&#x3C;x&#x3C;c$，只能取正根，所以 $x=\\frac{\\sqrt{5}-1}{2}c$.</p><p>由直角三角形斜边上的高的性质，$AC^{2}=AD\\cdot AB=c(c-x)$. 与前式比较，得 $AC^{2}=x^{2}$，故 $AC=x$. 在直角三角形 $ABC$ 中，$\\sin B=\\frac{AC}{AB}=\\frac{x}{c}=\\frac{\\sqrt{5}-1}{2}$. 因为 $B$ 是锐角，所以 $\\angle B=\\arcsin\\frac{\\sqrt{5}-1}{2}$.</p>"
+          "solution": "<p>设 $CD=h$，$AB=c$，$BD=x$，则 $AD=c-x$. 三个三角形的面积依次为 $\\frac{1}{2}h(c-x)$，$\\frac{1}{2}hx$，$\\frac{1}{2}hc$. 由它们成等比数列，得 $\\left(\\frac{1}{2}hx\\right)^{2}=\\frac{1}{2}h(c-x)\\cdot\\frac{1}{2}hc$，约去正数 $\\frac{1}{4}h^{2}$，得到 $x^{2}=c(c-x)$.</p><p>整理为 $x^{2}+cx-c^{2}=0$，解得 $x=\\frac{-1\\pm\\sqrt{5}}{2}c$. 因为 $0<x<c$，只能取正根，所以 $x=\\frac{\\sqrt{5}-1}{2}c$.</p><p>由直角三角形斜边上的高的性质，$AC^{2}=AD\\cdot AB=c(c-x)$. 与前式比较，得 $AC^{2}=x^{2}$，故 $AC=x$. 在直角三角形 $ABC$ 中，$\\sin B=\\frac{AC}{AB}=\\frac{x}{c}=\\frac{\\sqrt{5}-1}{2}$. 因为 $B$ 是锐角，所以 $\\angle B=\\arcsin\\frac{\\sqrt{5}-1}{2}$.</p>"
         },
         {
           "num": 8,
-          "body": "已知 $0 &#x3C; \\alpha &#x3C; \\pi$，证明：$2\\sin 2\\alpha\\le\\cot\\frac{\\alpha}{2}$；并讨论 $\\alpha$ 为何值时等号成立.",
+          "body": "已知 $0 < \\alpha < \\pi$，证明：$2\\sin 2\\alpha\\le\\cot\\frac{\\alpha}{2}$；并讨论 $\\alpha$ 为何值时等号成立.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $0&#x3C;\\alpha&#x3C;\\pi$，所以 $\\sin\\alpha>0$，且 $\\cot\\frac{\\alpha}{2}=\\frac{1+\\cos\\alpha}{\\sin\\alpha}$. 又 $2\\sin 2\\alpha=4\\sin\\alpha\\cos\\alpha$，将原不等式两边同乘正数 $\\sin\\alpha$，得 $4\\sin^{2}\\alpha\\cos\\alpha\\leqslant1+\\cos\\alpha$.</p><p>令 $c=\\cos\\alpha$，利用 $\\sin^{2}\\alpha=1-c^{2}$，得 $4(1-c^{2})c\\leqslant1+c$，即 $4c^{3}-3c+1\\geqslant0$. 因为 $4c^{3}-3c=\\cos 3\\alpha$，所以该式等价于 $\\cos 3\\alpha+1\\geqslant0$，而 $\\cos 3\\alpha\\ge-1$ 恒成立，故原不等式成立.</p><p>等式成立当且仅当 $\\cos 3\\alpha=-1$，即 $3\\alpha=\\pi+2k\\pi$（$k\\in\\mathbb{Z}$），从而 $\\alpha=\\frac{\\pi}{3}+\\frac{2k\\pi}{3}$. 由 $0&#x3C;\\alpha&#x3C;\\pi$，只能取 $\\alpha=\\frac{\\pi}{3}$.</p>"
+          "solution": "<p>因为 $0<\\alpha<\\pi$，所以 $\\sin\\alpha>0$，且 $\\cot\\frac{\\alpha}{2}=\\frac{1+\\cos\\alpha}{\\sin\\alpha}$. 又 $2\\sin 2\\alpha=4\\sin\\alpha\\cos\\alpha$，将原不等式两边同乘正数 $\\sin\\alpha$，得 $4\\sin^{2}\\alpha\\cos\\alpha\\leqslant1+\\cos\\alpha$.</p><p>令 $c=\\cos\\alpha$，利用 $\\sin^{2}\\alpha=1-c^{2}$，得 $4(1-c^{2})c\\leqslant1+c$，即 $4c^{3}-3c+1\\geqslant0$. 因为 $4c^{3}-3c=\\cos 3\\alpha$，所以该式等价于 $\\cos 3\\alpha+1\\geqslant0$，而 $\\cos 3\\alpha\\ge-1$ 恒成立，故原不等式成立.</p><p>等式成立当且仅当 $\\cos 3\\alpha=-1$，即 $3\\alpha=\\pi+2k\\pi$（$k\\in\\mathbb{Z}$），从而 $\\alpha=\\frac{\\pi}{3}+\\frac{2k\\pi}{3}$. 由 $0<\\alpha<\\pi$，只能取 $\\alpha=\\frac{\\pi}{3}$.</p>"
         },
         {
           "num": 9,
@@ -80,7 +80,7 @@
           "body": "设直线 $l$ 的参数方程是 $\\begin{cases}x=t,\\\\  y=b+mt\\end{cases}$（$t$ 是参数），椭圆 $E$ 的参数方程是 $\\begin{cases}x=1+a\\cos\\theta,\\\\\n\ny=\\sin\\theta\\end{cases}$（$a\\neq0$，$\\theta$ 是参数），问 $a$，$b$ 应满足什么条件，使得对于任意 $m$ 值来说，直线 $l$ 与椭圆 $E$ 总有公共点.",
           "choices": null,
           "answer": "",
-          "solution": "<p>消去参数，直线为 $y=mx+b$，椭圆为 $\\frac{(x-1)^{2}}{a^{2}}+y^{2}=1$. 将直线方程代入椭圆方程并乘以 $a^{2}$，得关于 $x$ 的方程 $(1+a^{2}m^{2})x^{2}+2(a^{2}mb-1)x+1+a^{2}b^{2}-a^{2}=0$.</p><p>因为二次项系数 $1+a^{2}m^{2}>0$，直线与椭圆有公共点的充要条件是判别式非负. 将判别式除以正数 $4a^{2}$，化简为 $(a^{2}-1)m^{2}-2bm+1-b^{2}\\geq0$. 因此题目的条件等价于这个关于 $m$ 的二次式对任意实数 $m$ 都非负.</p><p>若 $a^{2}-1&#x3C;0$，二次式在 $\\lvert m\\rvert$ 足够大时为负，不可能. 若 $a^{2}-1=0$，要使一次式对任意 $m$ 非负，必须有 $b=0$，这正好满足后面的统一条件. 若 $a^{2}-1>0$，二次式对任意 $m$ 非负，当且仅当其判别式不大于零，即 $4b^{2}-4(a^{2}-1)(1-b^{2})\\leq0$. 化简得 $a^{2}b^{2}\\leq a^{2}-1$，即 $b^{2}\\leq\\frac{a^{2}-1}{a^{2}}$.</p><p>合并三种情况，所求充要条件为 $\\lvert a\\rvert\\geq1$，且 $-\\frac{\\sqrt{a^{2}-1}}{\\lvert a\\rvert}\\leq b\\leq\\frac{\\sqrt{a^{2}-1}}{\\lvert a\\rvert}$.</p>"
+          "solution": "<p>消去参数，直线为 $y=mx+b$，椭圆为 $\\frac{(x-1)^{2}}{a^{2}}+y^{2}=1$. 将直线方程代入椭圆方程并乘以 $a^{2}$，得关于 $x$ 的方程 $(1+a^{2}m^{2})x^{2}+2(a^{2}mb-1)x+1+a^{2}b^{2}-a^{2}=0$.</p><p>因为二次项系数 $1+a^{2}m^{2}>0$，直线与椭圆有公共点的充要条件是判别式非负. 将判别式除以正数 $4a^{2}$，化简为 $(a^{2}-1)m^{2}-2bm+1-b^{2}\\geq0$. 因此题目的条件等价于这个关于 $m$ 的二次式对任意实数 $m$ 都非负.</p><p>若 $a^{2}-1<0$，二次式在 $\\lvert m\\rvert$ 足够大时为负，不可能. 若 $a^{2}-1=0$，要使一次式对任意 $m$ 非负，必须有 $b=0$，这正好满足后面的统一条件. 若 $a^{2}-1>0$，二次式对任意 $m$ 非负，当且仅当其判别式不大于零，即 $4b^{2}-4(a^{2}-1)(1-b^{2})\\leq0$. 化简得 $a^{2}b^{2}\\leq a^{2}-1$，即 $b^{2}\\leq\\frac{a^{2}-1}{a^{2}}$.</p><p>合并三种情况，所求充要条件为 $\\lvert a\\rvert\\geq1$，且 $-\\frac{\\sqrt{a^{2}-1}}{\\lvert a\\rvert}\\leq b\\leq\\frac{\\sqrt{a^{2}-1}}{\\lvert a\\rvert}$.</p>"
         }
       ]
     }

@@ -197,7 +197,7 @@
             "$y^{2}-8x=0$"
           ],
           "answer": "B",
-          "solution": "<p>设动圆圆心为 $P(x,y)$，半径为 $r$. 因为它与直线 $x=2$ 相切，所以 $r=|x-2|$. 固定圆的圆心为 $C(-2,0)$，半径为 $2$，外切条件为</p><p>$PC=r+2$，即</p><p>$(x+2)^{2}+y^{2}=(|x-2|+2)^{2}$.</p><p>若 $x\\leq2$，则 $|x-2|=2-x$，代入并化简得 $y^{2}=-12x+12$，即 $y^{2}+12x-12=0$. 若 $x>2$，则化简得 $y^{2}=-4x-4&#x3C;0$，没有实数点. 因而圆心的轨迹方程为 $y^{2}+12x-12=0$，故选 B.</p>"
+          "solution": "<p>设动圆圆心为 $P(x,y)$，半径为 $r$. 因为它与直线 $x=2$ 相切，所以 $r=|x-2|$. 固定圆的圆心为 $C(-2,0)$，半径为 $2$，外切条件为</p><p>$PC=r+2$，即</p><p>$(x+2)^{2}+y^{2}=(|x-2|+2)^{2}$.</p><p>若 $x\\leq2$，则 $|x-2|=2-x$，代入并化简得 $y^{2}=-12x+12$，即 $y^{2}+12x-12=0$. 若 $x>2$，则化简得 $y^{2}=-4x-4<0$，没有实数点. 因而圆心的轨迹方程为 $y^{2}+12x-12=0$，故选 B.</p>"
         },
         {
           "num": 17,
@@ -221,7 +221,7 @@
             "$[-1, +\\infty)$"
           ],
           "answer": "A",
-          "solution": "<p>函数定义域由 $x^{2}+2x-3\\geq0$ 给出，即 $(x+3)(x-1)\\geq0$，所以定义域为 $(-\\infty,-3]\\cup[1,+\\infty)$. 在定义域内，根式函数 $y=\\sqrt{u}$ 随 $u$ 增大而增大，而 $u=x^{2}+2x-3$ 的导数为 $2x+2$.</p><p>当 $x\\in(-\\infty,-3]$ 时，$2x+2&#x3C;0$，故 $x^{2}+2x-3$ 递减，原函数也递减；当 $x\\in[1,+\\infty)$ 时，$2x+2>0$，原函数递增. 因而单调下降区间为 $(-\\infty,-3]$，故选 A.</p>"
+          "solution": "<p>函数定义域由 $x^{2}+2x-3\\geq0$ 给出，即 $(x+3)(x-1)\\geq0$，所以定义域为 $(-\\infty,-3]\\cup[1,+\\infty)$. 在定义域内，根式函数 $y=\\sqrt{u}$ 随 $u$ 增大而增大，而 $u=x^{2}+2x-3$ 的导数为 $2x+2$.</p><p>当 $x\\in(-\\infty,-3]$ 时，$2x+2<0$，故 $x^{2}+2x-3$ 递减，原函数也递减；当 $x\\in[1,+\\infty)$ 时，$2x+2>0$，原函数递增. 因而单调下降区间为 $(-\\infty,-3]$，故选 A.</p>"
         },
         {
           "num": 19,
@@ -233,7 +233,7 @@
             "$[0,+\\infty)$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $1$ 是弧度制下满足 $0&#x3C;1&#x3C;\\frac{\\pi}{2}$ 的数，所以 $0&#x3C;\\cos1&#x3C;1$，可作为对数的底. 函数有意义时 $\\cos x>0$，且 $\\cos x$ 的取值范围为 $(0,1]$.</p><p>令 $t=\\cos x$，则 $t\\in(0,1]$，且底数 $\\cos1\\in(0,1)$. 因而 $\\log_{\\cos1}t\\geq0$，当 $t=1$ 时取 $0$，当 $t\\to0^{+}$ 时趋于 $+\\infty$. 值域为 $[0,+\\infty)$，故选 D.</p>"
+          "solution": "<p>因为 $1$ 是弧度制下满足 $0<1<\\frac{\\pi}{2}$ 的数，所以 $0<\\cos1<1$，可作为对数的底. 函数有意义时 $\\cos x>0$，且 $\\cos x$ 的取值范围为 $(0,1]$.</p><p>令 $t=\\cos x$，则 $t\\in(0,1]$，且底数 $\\cos1\\in(0,1)$. 因而 $\\log_{\\cos1}t\\geq0$，当 $t=1$ 时取 $0$，当 $t\\to0^{+}$ 时趋于 $+\\infty$. 值域为 $[0,+\\infty)$，故选 D.</p>"
         },
         {
           "num": 20,
@@ -300,7 +300,7 @@
           "body": "若函数 $y = f(x)$ 是函数 $y = 1 - \\sqrt{1 - x^{2}}$（$-1 \\leq x \\leq 0$）的反函数，则 $y = f(x)$ 的图象大致形状是（ ）",
           "choices": null,
           "answer": "E",
-          "solution": "<p>设原函数为 $y=1-\\sqrt{1-x^{2}}$，其中 $-1\\leq x\\leq0$. 它的值域为 $[0,1]$，且在 $(-1,0)$ 内有</p><p>$y'=\\frac{x}{\\sqrt{1-x^{2}}}&#x3C;0$，所以原函数在定义域上是一一对应的.</p><p>交换自变量与因变量，得 $x=1-\\sqrt{1-y^{2}}$，故 $0\\leq x\\leq1$ 且 $\\sqrt{1-y^{2}}=1-x$. 两边平方并整理，得 $y^{2}=2x-x^{2}$. 因为反函数的值域为原函数的定义域 $[-1,0]$，所以 $y=-\\sqrt{2x-x^{2}}$，其图象是圆 $(x-1)^{2}+y^{2}=1$ 的下半圆中满足 $0\\leq x\\leq1$ 的弧，即从 $(0,0)$ 到 $(1,-1)$ 的左下四分之一圆弧，故选第五项.</p>"
+          "solution": "<p>设原函数为 $y=1-\\sqrt{1-x^{2}}$，其中 $-1\\leq x\\leq0$. 它的值域为 $[0,1]$，且在 $(-1,0)$ 内有</p><p>$y'=\\frac{x}{\\sqrt{1-x^{2}}}<0$，所以原函数在定义域上是一一对应的.</p><p>交换自变量与因变量，得 $x=1-\\sqrt{1-y^{2}}$，故 $0\\leq x\\leq1$ 且 $\\sqrt{1-y^{2}}=1-x$. 两边平方并整理，得 $y^{2}=2x-x^{2}$. 因为反函数的值域为原函数的定义域 $[-1,0]$，所以 $y=-\\sqrt{2x-x^{2}}$，其图象是圆 $(x-1)^{2}+y^{2}=1$ 的下半圆中满足 $0\\leq x\\leq1$ 的弧，即从 $(0,0)$ 到 $(1,-1)$ 的左下四分之一圆弧，故选第五项.</p>"
         }
       ]
     },
@@ -375,7 +375,7 @@
           "body": "当 $a$ 在 $(-\\infty, 0)$ 内变化时，要使过三点 $O(0, 0)$， $A(-4, 0)$， $B(-2, a)$ 的圆的圆心在 $\\triangle AOB$ 内（包括边界），则 $a$ 允许取的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-2$.",
-          "solution": "<p>设圆的方程为 $x^{2}+y^{2}+Dx+Ey+F=0$. 代入 $O(0,0)$ 得 $F=0$，代入 $A(-4,0)$ 得 $D=4$，再代入 $B(-2,a)$ 得 $4+a^{2}-8+Ea=0$，所以 $E=\\frac{4-a^{2}}{a}$. 圆心为</p>\n$$\nC\\left(-2,-\\frac{E}{2}\\right)=\\left(-2,\\frac{a^{2}-4}{2a}\\right)\n$$\n<p>因为 $a&#x3C;0$，圆心横坐标为 $-2$，三角形 $AOB$ 在直线 $x=-2$ 上的内部截段恰为 $a\\leq y\\leq0$. 又</p>\n$$\n\\frac{a^{2}-4}{2a}-a=-\\frac{a^{2}+4}{2a}>0\n$$\n<p>所以只需满足 $\\frac{a^{2}-4}{2a}\\leq0$. 由于 $a&#x3C;0$，这等价于 $a^{2}-4\\geq0$，即 $a\\leq-2$. 最大值为 $-2$.</p>"
+          "solution": "<p>设圆的方程为 $x^{2}+y^{2}+Dx+Ey+F=0$. 代入 $O(0,0)$ 得 $F=0$，代入 $A(-4,0)$ 得 $D=4$，再代入 $B(-2,a)$ 得 $4+a^{2}-8+Ea=0$，所以 $E=\\frac{4-a^{2}}{a}$. 圆心为</p>\n$$\nC\\left(-2,-\\frac{E}{2}\\right)=\\left(-2,\\frac{a^{2}-4}{2a}\\right)\n$$\n<p>因为 $a<0$，圆心横坐标为 $-2$，三角形 $AOB$ 在直线 $x=-2$ 上的内部截段恰为 $a\\leq y\\leq0$. 又</p>\n$$\n\\frac{a^{2}-4}{2a}-a=-\\frac{a^{2}+4}{2a}>0\n$$\n<p>所以只需满足 $\\frac{a^{2}-4}{2a}\\leq0$. 由于 $a<0$，这等价于 $a^{2}-4\\geq0$，即 $a\\leq-2$. 最大值为 $-2$.</p>"
         }
       ]
     },
@@ -387,7 +387,7 @@
           "body": "<p>设有对数方程 $\\lg(ax)=2\\lg(x-1)$.</p><ol class=\"enumerate\"><li><p>当 $a = 2$ 时，解该对数方程；</p></li><li><p>讨论当 $a$ 在什么范围内取值时，该对数方程有解，并求出它的解.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，原方程的定义域要求 $x>1$. 此时有 $\\lg(2x)=2\\lg(x-1)=\\lg\\left((x-1)^{2}\\right)$，所以 $2x=(x-1)^{2}$，即 $x^{2}-4x+1=0$，解得 $x=2\\pm\\sqrt{3}$. 因为 $2-\\sqrt{3}&#x3C;1$，它不满足定义域；而 $2+\\sqrt{3}>1$，代回原方程两边均有意义且等式成立. 所以原方程的解为 $x=2+\\sqrt{3}$.</p></li><li><p>由原方程的定义域可知 $ax>0$ 且 $x>1$，因此必须 $a>0$. 当 $a>0$ 且 $x>1$ 时，原方程等价于 $\\lg(ax)=\\lg\\left((x-1)^{2}\\right)$，于是 $ax=(x-1)^{2}$，即 $x^{2}-(a+2)x+1=0$. 因为 $a^{2}+4a>0$，方程的两个根为 $x_{+}=\\frac{a+2+\\sqrt{a^{2}+4a}}{2}$ 和 $x_{-}=\\frac{a+2-\\sqrt{a^{2}+4a}}{2}$. 有 $x_{+}>1$，且 $x_{+}x_{-}=1$，所以 $0&#x3C;x_{-}&#x3C;1$. 因而只有 $x_{+}$ 满足 $x>1$，并且它代回后满足原方程. 所以当且仅当 $a>0$ 时原方程有解，解为 $x=\\frac{a+2+\\sqrt{a^{2}+4a}}{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，原方程的定义域要求 $x>1$. 此时有 $\\lg(2x)=2\\lg(x-1)=\\lg\\left((x-1)^{2}\\right)$，所以 $2x=(x-1)^{2}$，即 $x^{2}-4x+1=0$，解得 $x=2\\pm\\sqrt{3}$. 因为 $2-\\sqrt{3}<1$，它不满足定义域；而 $2+\\sqrt{3}>1$，代回原方程两边均有意义且等式成立. 所以原方程的解为 $x=2+\\sqrt{3}$.</p></li><li><p>由原方程的定义域可知 $ax>0$ 且 $x>1$，因此必须 $a>0$. 当 $a>0$ 且 $x>1$ 时，原方程等价于 $\\lg(ax)=\\lg\\left((x-1)^{2}\\right)$，于是 $ax=(x-1)^{2}$，即 $x^{2}-(a+2)x+1=0$. 因为 $a^{2}+4a>0$，方程的两个根为 $x_{+}=\\frac{a+2+\\sqrt{a^{2}+4a}}{2}$ 和 $x_{-}=\\frac{a+2-\\sqrt{a^{2}+4a}}{2}$. 有 $x_{+}>1$，且 $x_{+}x_{-}=1$，所以 $0<x_{-}<1$. 因而只有 $x_{+}$ 满足 $x>1$，并且它代回后满足原方程. 所以当且仅当 $a>0$ 时原方程有解，解为 $x=\\frac{a+2+\\sqrt{a^{2}+4a}}{2}$.</p></li></ol>"
         },
         {
           "num": 37,
@@ -398,17 +398,17 @@
         },
         {
           "num": 38,
-          "body": "<p>已知数列 $\\left\\{a_{n}\\right\\}$，其中 $a_{n}=\\cos n\\alpha$（$0&#x3C;\\alpha&#x3C;\\pi$）.</p><ol class=\"enumerate\"><li><p>试用 $a_{n-1}$，$a_{n-2}$ 表示 $a_{n}$；</p></li><li><p>用数学归纳法证明 $a_{1}+a_{2}+\\cdots+a_{n}=\\frac{\\sin\\frac{n\\alpha}{2}\\cos\\frac{n+1}{2}\\alpha}{\\sin\\frac{\\alpha}{2}}$；</p></li><li><p>求和 $a_{1}-a_{2}+a_{3}-a_{4}+\\cdots+(-1)^{k+1}a_{k}+\\cdots-a_{2n}+a_{2n+1}$.</p></li></ol>",
+          "body": "<p>已知数列 $\\left\\{a_{n}\\right\\}$，其中 $a_{n}=\\cos n\\alpha$（$0<\\alpha<\\pi$）.</p><ol class=\"enumerate\"><li><p>试用 $a_{n-1}$，$a_{n-2}$ 表示 $a_{n}$；</p></li><li><p>用数学归纳法证明 $a_{1}+a_{2}+\\cdots+a_{n}=\\frac{\\sin\\frac{n\\alpha}{2}\\cos\\frac{n+1}{2}\\alpha}{\\sin\\frac{\\alpha}{2}}$；</p></li><li><p>求和 $a_{1}-a_{2}+a_{3}-a_{4}+\\cdots+(-1)^{k+1}a_{k}+\\cdots-a_{2n}+a_{2n+1}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $a_{n}+a_{n-2}=\\cos n\\alpha+\\cos(n-2)\\alpha=2\\cos(n-1)\\alpha\\cos\\alpha=2a_{n-1}\\cos\\alpha$，故 $a_{n}=2a_{n-1}\\cos\\alpha-a_{n-2}$.</p></li><li><p>当 $n=1$ 时，左边是 $\\cos\\alpha$，右边是 $\\frac{\\sin\\frac{\\alpha}{2}\\cos\\alpha}{\\sin\\frac{\\alpha}{2}}=\\cos\\alpha$，且 $0&#x3C;\\alpha&#x3C;\\pi$ 保证 $\\sin\\frac{\\alpha}{2}\\ne0$，所以等式成立. 假设当 $n=k$ 时等式成立，即 $a_{1}+a_{2}+\\cdots+a_{k}=\\frac{\\sin\\frac{k\\alpha}{2}\\cos\\frac{k+1}{2}\\alpha}{\\sin\\frac{\\alpha}{2}}$，那么</p>\n$$\n\\begin{gathered}a_{1}+a_{2}+\\cdots+a_{k}+a_{k+1}=\\frac{\\sin\\frac{k\\alpha}{2}\\cos\\frac{k+1}{2}\\alpha}{\\sin\\frac{\\alpha}{2}}+\\cos(k+1)\\alpha,\\\\\n\n=\\frac{\\sin\\frac{k\\alpha}{2}\\cos\\frac{k+1}{2}\\alpha+\\sin\\frac{\\alpha}{2}\\cos(k+1)\\alpha}{\\sin\\frac{\\alpha}{2}}=\\frac{\\sin\\frac{2k+3}{2}\\alpha-\\sin\\frac{\\alpha}{2}}{2\\sin\\frac{\\alpha}{2}}=\\frac{\\sin\\frac{k+1}{2}\\alpha\\cos\\frac{k+2}{2}\\alpha}{\\sin\\frac{\\alpha}{2}}.\\end{gathered}\n$$\n<p>这就是说，当 $n=k+1$ 时等式成立. 根据数学归纳法，可知等式对任何 $n\\in\\mathbb{N}$ 都成立.</p></li><li><p>记所求的和为 $S$. 由偶数项的符号相反，先得</p>\n$$\n\\begin{gathered}S=(a_{1}+a_{2}+a_{3}+\\cdots+a_{2n+1})-2(a_{2}+a_{4}+\\cdots+a_{2n}),\\\\\n\n=\\frac{\\sin\\frac{2n+1}{2}\\alpha\\cos\\left((n+1)\\alpha\\right)}{\\sin\\frac{\\alpha}{2}}-2\\frac{\\sin(n\\alpha)\\cos\\left((n+1)\\alpha\\right)}{\\sin\\alpha}.\\end{gathered}\n$$\n<p>由于 $\\sin\\alpha=2\\sin\\frac{\\alpha}{2}\\cos\\frac{\\alpha}{2}$，且 $2\\cos\\frac{\\alpha}{2}\\sin\\frac{2n+1}{2}\\alpha=\\sin\\left((n+1)\\alpha\\right)+\\sin(n\\alpha)$，所以</p>\n$$\nS=\\frac{\\cos\\left((n+1)\\alpha\\right)\\left[\\sin\\left((n+1)\\alpha\\right)-\\sin(n\\alpha)\\right]}{\\sin\\alpha}=\\frac{\\cos\\left((n+1)\\alpha\\right)\\left(2\\cos\\frac{2n+1}{2}\\alpha\\sin\\frac{\\alpha}{2}\\right)}{2\\sin\\frac{\\alpha}{2}\\cos\\frac{\\alpha}{2}}\n$$\n<p>约去分子、分母中的 $2\\sin\\frac{\\alpha}{2}$，得到</p>\n$$\nS=\\frac{\\cos\\left((n+1)\\alpha\\right)\\cos\\frac{2n+1}{2}\\alpha}{\\cos\\frac{\\alpha}{2}}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $a_{n}+a_{n-2}=\\cos n\\alpha+\\cos(n-2)\\alpha=2\\cos(n-1)\\alpha\\cos\\alpha=2a_{n-1}\\cos\\alpha$，故 $a_{n}=2a_{n-1}\\cos\\alpha-a_{n-2}$.</p></li><li><p>当 $n=1$ 时，左边是 $\\cos\\alpha$，右边是 $\\frac{\\sin\\frac{\\alpha}{2}\\cos\\alpha}{\\sin\\frac{\\alpha}{2}}=\\cos\\alpha$，且 $0<\\alpha<\\pi$ 保证 $\\sin\\frac{\\alpha}{2}\\ne0$，所以等式成立. 假设当 $n=k$ 时等式成立，即 $a_{1}+a_{2}+\\cdots+a_{k}=\\frac{\\sin\\frac{k\\alpha}{2}\\cos\\frac{k+1}{2}\\alpha}{\\sin\\frac{\\alpha}{2}}$，那么</p>\n$$\n\\begin{gathered}a_{1}+a_{2}+\\cdots+a_{k}+a_{k+1}=\\frac{\\sin\\frac{k\\alpha}{2}\\cos\\frac{k+1}{2}\\alpha}{\\sin\\frac{\\alpha}{2}}+\\cos(k+1)\\alpha,\\\\\n\n=\\frac{\\sin\\frac{k\\alpha}{2}\\cos\\frac{k+1}{2}\\alpha+\\sin\\frac{\\alpha}{2}\\cos(k+1)\\alpha}{\\sin\\frac{\\alpha}{2}}=\\frac{\\sin\\frac{2k+3}{2}\\alpha-\\sin\\frac{\\alpha}{2}}{2\\sin\\frac{\\alpha}{2}}=\\frac{\\sin\\frac{k+1}{2}\\alpha\\cos\\frac{k+2}{2}\\alpha}{\\sin\\frac{\\alpha}{2}}.\\end{gathered}\n$$\n<p>这就是说，当 $n=k+1$ 时等式成立. 根据数学归纳法，可知等式对任何 $n\\in\\mathbb{N}$ 都成立.</p></li><li><p>记所求的和为 $S$. 由偶数项的符号相反，先得</p>\n$$\n\\begin{gathered}S=(a_{1}+a_{2}+a_{3}+\\cdots+a_{2n+1})-2(a_{2}+a_{4}+\\cdots+a_{2n}),\\\\\n\n=\\frac{\\sin\\frac{2n+1}{2}\\alpha\\cos\\left((n+1)\\alpha\\right)}{\\sin\\frac{\\alpha}{2}}-2\\frac{\\sin(n\\alpha)\\cos\\left((n+1)\\alpha\\right)}{\\sin\\alpha}.\\end{gathered}\n$$\n<p>由于 $\\sin\\alpha=2\\sin\\frac{\\alpha}{2}\\cos\\frac{\\alpha}{2}$，且 $2\\cos\\frac{\\alpha}{2}\\sin\\frac{2n+1}{2}\\alpha=\\sin\\left((n+1)\\alpha\\right)+\\sin(n\\alpha)$，所以</p>\n$$\nS=\\frac{\\cos\\left((n+1)\\alpha\\right)\\left[\\sin\\left((n+1)\\alpha\\right)-\\sin(n\\alpha)\\right]}{\\sin\\alpha}=\\frac{\\cos\\left((n+1)\\alpha\\right)\\left(2\\cos\\frac{2n+1}{2}\\alpha\\sin\\frac{\\alpha}{2}\\right)}{2\\sin\\frac{\\alpha}{2}\\cos\\frac{\\alpha}{2}}\n$$\n<p>约去分子、分母中的 $2\\sin\\frac{\\alpha}{2}$，得到</p>\n$$\nS=\\frac{\\cos\\left((n+1)\\alpha\\right)\\cos\\frac{2n+1}{2}\\alpha}{\\cos\\frac{\\alpha}{2}}\n$$\n</li></ol>"
         },
         {
           "num": 39,
           "body": "已知椭圆 $C$ 的直角坐标方程为 $\\frac{x^{2}}{4}+ \\frac{y^{2}}{3}= 1$，试确定 $m$ 的取值范围，使得对于直线 $y = 4x + m$，椭圆 $C$ 上有不同的两点关于该直线对称.",
           "choices": null,
           "answer": "",
-          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_science/q39_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设所求的取值范围为 $M$. 两个对称点 $P$，$Q$ 的连线必须垂直于对称轴 $y=4x+m$，所以 $PQ$ 的斜率为 $-\\frac{1}{4}$，可写成直线 $y=-\\frac{x}{4}+n$，其中 $n$ 为实数. 因而 $m\\in M$ 等价于存在这样的 $n$，使该直线与椭圆 $C$ 有两个不同的交点 $P$，$Q$，且线段 $PQ$ 的中点落在 $y=4x+m$ 上. 这是因为两条直线的斜率 $4$ 与 $-\\frac{1}{4}$ 之积为 $-1$，满足垂直条件. 由方程组 $\\begin{cases}\\dfrac{x^{2}}{4}+\\dfrac{y^{2}}{3}=1,\\\\\n\ny=\\dfrac{-x}{4}+n.\\end{cases}$ 可得 $\\begin{cases}13x^{2}-8nx+16n^{2}-48=0,\\\\  y=\\dfrac{-x}{4}+n.\\end{cases}$</p><p>记它的解为 $(x_{1}, y_{1})$ 与 $(x_{2}, y_{2})$. 由于这两个点都在直线 $y=-\\frac{x}{4}+n$ 上，若 $x_{1}=x_{2}$，则 $y_{1}=y_{2}$，与 $P\\ne Q$ 矛盾，所以 $x_{1}\\ne x_{2}$. 因而</p><p>$13x^{2}-8nx+16n^{2}-48=0$ 的判别式为正，即有 $64n^{2}-52(16n^{2}-48)>0$，即 $n^{2}&#x3C;\\frac{13}{4}$，可得 $-\\frac{\\sqrt{13}}{2}&#x3C;n&#x3C;\\frac{\\sqrt{13}}{2}$. 其次，因 $PQ$ 的中点 $\\left(\\frac{x_{1}+x_{2}}{2},\\frac{y_{1}+y_{2}}{2}\\right)$ 落在直线 $y=4x+m$ 上，而对该方程用韦达定理，可知 $x_{1}+x_{2}=\\frac{8n}{13}$，从而 $y_{1}+y_{2}=-\\frac{1}{4}(x_{1}+x_{2})+2n=\\frac{24n}{13}$，故有 $\\frac{1}{2}\\left(\\frac{24n}{13}\\right)=4\\left[\\frac{1}{2}\\left(\\frac{8n}{13}\\right)\\right]+m$，即 $m=\\frac{-4n}{13}$. 当 $-\\frac{\\sqrt{13}}{2}&#x3C;n&#x3C;\\frac{\\sqrt{13}}{2}$ 时，判别式为正，确有两个不同交点；按 $m=-\\frac{4n}{13}$ 取值时，其中点在 $y=4x+m$ 上，且 $PQ\\perp y=4x+m$，故这两个交点确实关于该直线对称. 反之，任意满足题意的对称点都必对应这样的 $n$，所以 $m$ 的取值范围为 $\\left(-\\frac{2\\sqrt{13}}{13},\\frac{2\\sqrt{13}}{13}\\right)$.</p>"
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_science/q39_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设所求的取值范围为 $M$. 两个对称点 $P$，$Q$ 的连线必须垂直于对称轴 $y=4x+m$，所以 $PQ$ 的斜率为 $-\\frac{1}{4}$，可写成直线 $y=-\\frac{x}{4}+n$，其中 $n$ 为实数. 因而 $m\\in M$ 等价于存在这样的 $n$，使该直线与椭圆 $C$ 有两个不同的交点 $P$，$Q$，且线段 $PQ$ 的中点落在 $y=4x+m$ 上. 这是因为两条直线的斜率 $4$ 与 $-\\frac{1}{4}$ 之积为 $-1$，满足垂直条件. 由方程组 $\\begin{cases}\\dfrac{x^{2}}{4}+\\dfrac{y^{2}}{3}=1,\\\\\n\ny=\\dfrac{-x}{4}+n.\\end{cases}$ 可得 $\\begin{cases}13x^{2}-8nx+16n^{2}-48=0,\\\\  y=\\dfrac{-x}{4}+n.\\end{cases}$</p><p>记它的解为 $(x_{1}, y_{1})$ 与 $(x_{2}, y_{2})$. 由于这两个点都在直线 $y=-\\frac{x}{4}+n$ 上，若 $x_{1}=x_{2}$，则 $y_{1}=y_{2}$，与 $P\\ne Q$ 矛盾，所以 $x_{1}\\ne x_{2}$. 因而</p><p>$13x^{2}-8nx+16n^{2}-48=0$ 的判别式为正，即有 $64n^{2}-52(16n^{2}-48)>0$，即 $n^{2}<\\frac{13}{4}$，可得 $-\\frac{\\sqrt{13}}{2}<n<\\frac{\\sqrt{13}}{2}$. 其次，因 $PQ$ 的中点 $\\left(\\frac{x_{1}+x_{2}}{2},\\frac{y_{1}+y_{2}}{2}\\right)$ 落在直线 $y=4x+m$ 上，而对该方程用韦达定理，可知 $x_{1}+x_{2}=\\frac{8n}{13}$，从而 $y_{1}+y_{2}=-\\frac{1}{4}(x_{1}+x_{2})+2n=\\frac{24n}{13}$，故有 $\\frac{1}{2}\\left(\\frac{24n}{13}\\right)=4\\left[\\frac{1}{2}\\left(\\frac{8n}{13}\\right)\\right]+m$，即 $m=\\frac{-4n}{13}$. 当 $-\\frac{\\sqrt{13}}{2}<n<\\frac{\\sqrt{13}}{2}$ 时，判别式为正，确有两个不同交点；按 $m=-\\frac{4n}{13}$ 取值时，其中点在 $y=4x+m$ 上，且 $PQ\\perp y=4x+m$，故这两个交点确实关于该直线对称. 反之，任意满足题意的对称点都必对应这样的 $n$，所以 $m$ 的取值范围为 $\\left(-\\frac{2\\sqrt{13}}{13},\\frac{2\\sqrt{13}}{13}\\right)$.</p>"
         }
       ]
     }

@@ -9,15 +9,15 @@
       "problems": [
         {
           "num": 1,
-          "body": "不等式组 $\\begin{cases}x^{2}-1&#x3C;0,\\\\  x^{2}-3x&#x3C;0\\end{cases}$ 的解集为（ ）",
+          "body": "不等式组 $\\begin{cases}x^{2}-1<0,\\\\  x^{2}-3x<0\\end{cases}$ 的解集为（ ）",
           "choices": [
-            "$\\{x\\mid -1&#x3C;x&#x3C;1\\}$",
-            "$\\{x\\mid 0&#x3C;x&#x3C;3\\}$",
-            "$\\{x\\mid 0&#x3C;x&#x3C;1\\}$",
-            "$\\{x\\mid -1&#x3C;x&#x3C;3\\}$"
+            "$\\{x\\mid -1<x<1\\}$",
+            "$\\{x\\mid 0<x<3\\}$",
+            "$\\{x\\mid 0<x<1\\}$",
+            "$\\{x\\mid -1<x<3\\}$"
           ],
           "answer": "C",
-          "solution": "由 $x^{2}-1&#x3C;0$，得 $(x-1)(x+1)&#x3C;0$，所以 $-1&#x3C;x&#x3C;1$. 由 $x^{2}-3x&#x3C;0$，得 $x(x-3)&#x3C;0$，所以 $0&#x3C;x&#x3C;3$. 两个不等式同时成立时，$x\\in(-1,1)\\cap(0,3)=(0,1)$，故选 C."
+          "solution": "由 $x^{2}-1<0$，得 $(x-1)(x+1)<0$，所以 $-1<x<1$. 由 $x^{2}-3x<0$，得 $x(x-3)<0$，所以 $0<x<3$. 两个不等式同时成立时，$x\\in(-1,1)\\cap(0,3)=(0,1)$，故选 C."
         },
         {
           "num": 2,
@@ -48,11 +48,11 @@
             "$\\theta+\\dfrac{7\\pi}{4}$"
           ],
           "answer": "B",
-          "solution": "<p>有 $1+\\mathrm{i}=\\sqrt{2}\\left(\\cos\\dfrac{\\pi}{4}+\\mathrm{i}\\sin\\dfrac{\\pi}{4}\\right)$，故</p><p>$\\left(1+\\mathrm{i}\\right)\\left(\\cos\\theta+\\mathrm{i}\\sin\\theta\\right)=\\sqrt{2}\\left(\\cos\\left(\\theta+\\dfrac{\\pi}{4}\\right)+\\mathrm{i}\\sin\\left(\\theta+\\dfrac{\\pi}{4}\\right)\\right)$. 由 $\\dfrac{\\pi}{2}&#x3C;\\theta&#x3C;\\pi$，得 $\\dfrac{3\\pi}{4}&#x3C;\\theta+\\dfrac{\\pi}{4}&#x3C;\\dfrac{5\\pi}{4}&#x3C;2\\pi$. 因此在辐角主值取 $[0,2\\pi)$ 的约定下，主值就是 $\\theta+\\dfrac{\\pi}{4}$，故选 B.</p>"
+          "solution": "<p>有 $1+\\mathrm{i}=\\sqrt{2}\\left(\\cos\\dfrac{\\pi}{4}+\\mathrm{i}\\sin\\dfrac{\\pi}{4}\\right)$，故</p><p>$\\left(1+\\mathrm{i}\\right)\\left(\\cos\\theta+\\mathrm{i}\\sin\\theta\\right)=\\sqrt{2}\\left(\\cos\\left(\\theta+\\dfrac{\\pi}{4}\\right)+\\mathrm{i}\\sin\\left(\\theta+\\dfrac{\\pi}{4}\\right)\\right)$. 由 $\\dfrac{\\pi}{2}<\\theta<\\pi$，得 $\\dfrac{3\\pi}{4}<\\theta+\\dfrac{\\pi}{4}<\\dfrac{5\\pi}{4}<2\\pi$. 因此在辐角主值取 $[0,2\\pi)$ 的约定下，主值就是 $\\theta+\\dfrac{\\pi}{4}$，故选 B.</p>"
         },
         {
           "num": 5,
-          "body": "若角 $\\alpha$ 满足条件 $\\sin2\\alpha&#x3C;0$，$\\cos\\alpha-\\sin\\alpha&#x3C;0$，则 $\\alpha$ 在（ ）",
+          "body": "若角 $\\alpha$ 满足条件 $\\sin2\\alpha<0$，$\\cos\\alpha-\\sin\\alpha<0$，则 $\\alpha$ 在（ ）",
           "choices": [
             "第一象限",
             "第二象限",
@@ -60,7 +60,7 @@
             "第四象限"
           ],
           "answer": "B",
-          "solution": "在一个周期内，$\\sin2\\alpha&#x3C;0$ 时，$\\alpha$ 只能位于第二或第四象限. 在第二象限，$\\cos\\alpha&#x3C;0$，$\\sin\\alpha>0$，所以 $\\cos\\alpha-\\sin\\alpha&#x3C;0$. 在第四象限，$\\cos\\alpha>0$，$\\sin\\alpha&#x3C;0$，所以 $\\cos\\alpha-\\sin\\alpha>0$，不符合条件. 严格不等式又排除了坐标轴，故 $\\alpha$ 在第二象限，选 B."
+          "solution": "在一个周期内，$\\sin2\\alpha<0$ 时，$\\alpha$ 只能位于第二或第四象限. 在第二象限，$\\cos\\alpha<0$，$\\sin\\alpha>0$，所以 $\\cos\\alpha-\\sin\\alpha<0$. 在第四象限，$\\cos\\alpha>0$，$\\sin\\alpha<0$，所以 $\\cos\\alpha-\\sin\\alpha>0$，不符合条件. 严格不等式又排除了坐标轴，故 $\\alpha$ 在第二象限，选 B."
         },
         {
           "num": 6,
@@ -96,7 +96,7 @@
             "不能确定"
           ],
           "answer": "C",
-          "solution": "<p>圆 $2x^{2}+2y^{2}=1$ 的圆心为原点，半径为 $\\dfrac{1}{\\sqrt{2}}$. 直线 $x\\sin\\theta+y-1=0$ 到原点的距离为</p><p>$d=\\dfrac{1}{\\sqrt{1+\\sin^{2}\\theta}}$. 题设 $\\theta\\ne\\dfrac{\\pi}{2}+k\\pi$ 保证 $\\lvert\\sin\\theta\\rvert&#x3C;1$，所以 $d>\\dfrac{1}{\\sqrt{2}}$. 因而圆与直线相离. 选项中包含“相离”的只有“相离或相切”，故选 C.</p>"
+          "solution": "<p>圆 $2x^{2}+2y^{2}=1$ 的圆心为原点，半径为 $\\dfrac{1}{\\sqrt{2}}$. 直线 $x\\sin\\theta+y-1=0$ 到原点的距离为</p><p>$d=\\dfrac{1}{\\sqrt{1+\\sin^{2}\\theta}}$. 题设 $\\theta\\ne\\dfrac{\\pi}{2}+k\\pi$ 保证 $\\lvert\\sin\\theta\\rvert<1$，所以 $d>\\dfrac{1}{\\sqrt{2}}$. 因而圆与直线相离. 选项中包含“相离”的只有“相离或相切”，故选 C.</p>"
         },
         {
           "num": 9,
@@ -163,14 +163,14 @@
           "body": "如果 $\\cos\\theta=-\\dfrac{12}{13}$，$\\theta\\in\\left(\\pi,\\dfrac{3\\pi}{2}\\right)$，那么 $\\cos\\left(\\theta+\\dfrac{\\pi}{4}\\right)$ 的值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-\\dfrac{7\\sqrt{2}}{26}$",
-          "solution": "<p>因为 $\\theta\\in\\left(\\pi,\\dfrac{3\\pi}{2}\\right)$，所以 $\\sin\\theta&#x3C;0$. 由 $\\cos\\theta=-\\dfrac{12}{13}$，得</p><p>$\\sin\\theta=-\\sqrt{1-\\cos^{2}\\theta}=-\\sqrt{1-\\dfrac{144}{169}}=-\\dfrac{5}{13}$. 于是由余弦和角公式，</p><p>$\\cos\\left(\\theta+\\dfrac{\\pi}{4}\\right)=\\cos\\theta\\cos\\dfrac{\\pi}{4}-\\sin\\theta\\sin\\dfrac{\\pi}{4}=\\left(-\\dfrac{12}{13}+\\dfrac{5}{13}\\right)\\dfrac{\\sqrt{2}}{2}=-\\dfrac{7\\sqrt{2}}{26}$.</p>"
+          "solution": "<p>因为 $\\theta\\in\\left(\\pi,\\dfrac{3\\pi}{2}\\right)$，所以 $\\sin\\theta<0$. 由 $\\cos\\theta=-\\dfrac{12}{13}$，得</p><p>$\\sin\\theta=-\\sqrt{1-\\cos^{2}\\theta}=-\\sqrt{1-\\dfrac{144}{169}}=-\\dfrac{5}{13}$. 于是由余弦和角公式，</p><p>$\\cos\\left(\\theta+\\dfrac{\\pi}{4}\\right)=\\cos\\theta\\cos\\dfrac{\\pi}{4}-\\sin\\theta\\sin\\dfrac{\\pi}{4}=\\left(-\\dfrac{12}{13}+\\dfrac{5}{13}\\right)\\dfrac{\\sqrt{2}}{2}=-\\dfrac{7\\sqrt{2}}{26}$.</p>"
         },
         {
           "num": 15,
           "body": "<p>正方形 $ABCD$ 的边长是 $2$，$E$，$F$ 分别是 $AB$ 和 $CD$ 的中点，将正方形沿 $EF$ 折成直二面角（如图所示）. $M$ 为矩形 $AEFD$ 内一点，如果 $\\angle MBE=\\angle MBC$，$MB$ 和平面 $BCF$ 所成角的正切值为 $\\dfrac{1}{2}$，那么点 $M$ 到直线 $EF$ 的距离为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jing_meng_wan_science_spring/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$\\dfrac{\\sqrt{2}}{2}$",
-          "solution": "<p>折叠后建立空间直角坐标系，令折痕 $EF$ 为 $x$ 轴，取 $E=(0,0,0)$，$F=(2,0,0)$，使平面 $BCF$ 为 $z=0$，并令 $B=(0,1,0)$，$C=(2,1,0)$. 由于 $M$ 在矩形 $AEFD$ 内，可设 $M=(t,0,h)$，其中 $0&#x3C;t&#x3C;2$，$0&#x3C;h&#x3C;1$.</p><p>于是 $\\overrightarrow{BM}=(t,-1,h)$，$\\overrightarrow{BE}=(0,-1,0)$，$\\overrightarrow{BC}=(2,0,0)$. 由题设两角相等，且两角均为锐角，比较余弦得</p><p>$\\dfrac{\\overrightarrow{BM}\\cdot\\overrightarrow{BE}}{\\lvert BM\\rvert\\lvert BE\\rvert}=\\dfrac{1}{\\sqrt{t^{2}+1+h^{2}}}$，$\\dfrac{\\overrightarrow{BM}\\cdot\\overrightarrow{BC}}{\\lvert BM\\rvert\\lvert BC\\rvert}=\\dfrac{t}{\\sqrt{t^{2}+1+h^{2}}}$. 因而 $t=1$.</p><p>直线 $MB$ 在平面 $BCF$ 上的射影长度为 $\\sqrt{t^{2}+1}=\\sqrt{2}$. 设 $MB$ 与平面 $BCF$ 所成的角为 $\\varphi$，则 $\\tan\\varphi=\\dfrac{h}{\\sqrt{2}}=\\dfrac{1}{2}$，所以 $h=\\dfrac{\\sqrt{2}}{2}$. 此时 $M=(1,0,h)$，而 $EF$ 是 $x$ 轴，故点 $M$ 到直线 $EF$ 的距离为 $\\sqrt{0^{2}+h^{2}}=h=\\dfrac{\\sqrt{2}}{2}$.</p>"
+          "solution": "<p>折叠后建立空间直角坐标系，令折痕 $EF$ 为 $x$ 轴，取 $E=(0,0,0)$，$F=(2,0,0)$，使平面 $BCF$ 为 $z=0$，并令 $B=(0,1,0)$，$C=(2,1,0)$. 由于 $M$ 在矩形 $AEFD$ 内，可设 $M=(t,0,h)$，其中 $0<t<2$，$0<h<1$.</p><p>于是 $\\overrightarrow{BM}=(t,-1,h)$，$\\overrightarrow{BE}=(0,-1,0)$，$\\overrightarrow{BC}=(2,0,0)$. 由题设两角相等，且两角均为锐角，比较余弦得</p><p>$\\dfrac{\\overrightarrow{BM}\\cdot\\overrightarrow{BE}}{\\lvert BM\\rvert\\lvert BE\\rvert}=\\dfrac{1}{\\sqrt{t^{2}+1+h^{2}}}$，$\\dfrac{\\overrightarrow{BM}\\cdot\\overrightarrow{BC}}{\\lvert BM\\rvert\\lvert BC\\rvert}=\\dfrac{t}{\\sqrt{t^{2}+1+h^{2}}}$. 因而 $t=1$.</p><p>直线 $MB$ 在平面 $BCF$ 上的射影长度为 $\\sqrt{t^{2}+1}=\\sqrt{2}$. 设 $MB$ 与平面 $BCF$ 所成的角为 $\\varphi$，则 $\\tan\\varphi=\\dfrac{h}{\\sqrt{2}}=\\dfrac{1}{2}$，所以 $h=\\dfrac{\\sqrt{2}}{2}$. 此时 $M=(1,0,h)$，而 $EF$ 是 $x$ 轴，故点 $M$ 到直线 $EF$ 的距离为 $\\sqrt{0^{2}+h^{2}}=h=\\dfrac{\\sqrt{2}}{2}$.</p>"
         },
         {
           "num": 16,
@@ -186,14 +186,14 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>在 $\\triangle ABC$ 中，已知 $A$，$B$，$C$ 成等差数列，求 $\\tan\\dfrac{A}{2}+\\tan\\dfrac{C}{2}+\\sqrt{3}\\tan\\dfrac{A}{2}\\tan\\dfrac{C}{2}$ 的值.</p><p>因为 $A$，$B$，$C$ 成等差数列，所以 $A+C=2B$. 又因为 $A+B+C=\\pi$，所以 $3B=\\pi$，从而 $B=\\dfrac{\\pi}{3}$，且 $\\dfrac{A+C}{2}=\\dfrac{\\pi}{3}$. 设 $x=\\tan\\dfrac{A}{2}$，$y=\\tan\\dfrac{C}{2}$. 由于 $A>0$，$C>0$，且 $\\dfrac{A}{2}+\\dfrac{C}{2}=\\dfrac{\\pi}{3}&#x3C;\\dfrac{\\pi}{2}$，有 $\\tan\\dfrac{A+C}{2}=\\dfrac{x+y}{1-xy}=\\sqrt{3}$. 因此 $x+y=\\sqrt{3}(1-xy)$，即 $x+y+\\sqrt{3}xy=\\sqrt{3}$. 所以所求值为 $\\sqrt{3}$.</p>",
+          "body": "<p>在 $\\triangle ABC$ 中，已知 $A$，$B$，$C$ 成等差数列，求 $\\tan\\dfrac{A}{2}+\\tan\\dfrac{C}{2}+\\sqrt{3}\\tan\\dfrac{A}{2}\\tan\\dfrac{C}{2}$ 的值.</p><p>因为 $A$，$B$，$C$ 成等差数列，所以 $A+C=2B$. 又因为 $A+B+C=\\pi$，所以 $3B=\\pi$，从而 $B=\\dfrac{\\pi}{3}$，且 $\\dfrac{A+C}{2}=\\dfrac{\\pi}{3}$. 设 $x=\\tan\\dfrac{A}{2}$，$y=\\tan\\dfrac{C}{2}$. 由于 $A>0$，$C>0$，且 $\\dfrac{A}{2}+\\dfrac{C}{2}=\\dfrac{\\pi}{3}<\\dfrac{\\pi}{2}$，有 $\\tan\\dfrac{A+C}{2}=\\dfrac{x+y}{1-xy}=\\sqrt{3}$. 因此 $x+y=\\sqrt{3}(1-xy)$，即 $x+y+\\sqrt{3}xy=\\sqrt{3}$. 所以所求值为 $\\sqrt{3}$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
         },
         {
           "num": 18,
-          "body": "<p>已知函数 $f(x)$ 是偶函数，而且在 $(0,+\\infty)$ 上是增函数，判断 $f(x)$ 在 $\\left(-\\infty,0\\right)$ 上是增函数还是减函数，并证明你的判断.</p><p>在 $\\left(-\\infty,0\\right)$ 上是减函数. 任取 $x_{1}$，$x_{2}\\in\\left(-\\infty,0\\right)$，且 $x_{1}&#x3C;x_{2}&#x3C;0$，则 $-x_{1}>-x_{2}>0$. 由 $f(x)$ 在 $(0,+\\infty)$ 上是增函数，得 $f(-x_{1})>f(-x_{2})$. 又因为 $f(x)$ 是偶函数，所以 $f(x_{1})=f(-x_{1})$，$f(x_{2})=f(-x_{2})$，从而 $f(x_{1})>f(x_{2})$. 因此，当 $x_{1}&#x3C;x_{2}&#x3C;0$ 时总有 $f(x_{1})>f(x_{2})$，故 $f(x)$ 在 $\\left(-\\infty,0\\right)$ 上是减函数.</p>",
+          "body": "<p>已知函数 $f(x)$ 是偶函数，而且在 $(0,+\\infty)$ 上是增函数，判断 $f(x)$ 在 $\\left(-\\infty,0\\right)$ 上是增函数还是减函数，并证明你的判断.</p><p>在 $\\left(-\\infty,0\\right)$ 上是减函数. 任取 $x_{1}$，$x_{2}\\in\\left(-\\infty,0\\right)$，且 $x_{1}<x_{2}<0$，则 $-x_{1}>-x_{2}>0$. 由 $f(x)$ 在 $(0,+\\infty)$ 上是增函数，得 $f(-x_{1})>f(-x_{2})$. 又因为 $f(x)$ 是偶函数，所以 $f(x_{1})=f(-x_{1})$，$f(x_{2})=f(-x_{2})$，从而 $f(x_{1})>f(x_{2})$. 因此，当 $x_{1}<x_{2}<0$ 时总有 $f(x_{1})>f(x_{2})$，故 $f(x)$ 在 $\\left(-\\infty,0\\right)$ 上是减函数.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -214,14 +214,14 @@
         },
         {
           "num": 21,
-          "body": "<p>已知点的序列 $A_{n}(x_{n},0)$，$n\\in\\mathbb{N}$，其中 $x_{1}=0$，$x_{2}=a$（$a&#x3C;0$），$A_{3}$ 是线段 $A_{1}A_{2}$ 的中点，$A_{4}$ 是线段 $A_{2}A_{3}$ 的中点，$\\cdots$，$A_{n}$ 是线段 $A_{n-2}A_{n-1}$ 的中点，$\\cdots$.</p><ol class=\"enumerate\"><li><p>写出 $x_{n}$ 与 $x_{n-1}$，$x_{n-2}$ 之间的关系式（$n\\geqslant3$）；</p></li><li><p>设 $a_{n}=x_{n+1}-x_{n}$，计算 $a_{1}$，$a_{2}$，$a_{3}$，由此推测数列 $\\{a_{n}\\}$ 的通项公式，并加以证明；</p></li><li><p>求 $\\displaystyle\\lim_{n\\to\\infty}x_{n}$.</p></li></ol><ol class=\"enumerate\"><li><p>因为 $A_{n}$ 是线段 $A_{n-2}A_{n-1}$ 的中点，所以 $x_{n}=\\dfrac{x_{n-2}+x_{n-1}}{2}$，即 $2x_{n}=x_{n-1}+x_{n-2}$（$n\\geqslant3$）.</p></li><li><p>由 $x_{1}=0$，$x_{2}=a$，得 $x_{3}=\\dfrac{x_1+x_2}{2}=\\dfrac{a}{2}$，$x_{4}=\\dfrac{x_2+x_3}{2}=\\dfrac{3a}{4}$. 因而 $a_{1}=x_{2}-x_{1}=a$，$a_{2}=x_{3}-x_{2}=-\\dfrac{a}{2}$，$a_{3}=x_{4}-x_{3}=\\dfrac{a}{4}$. 对任意 $n\\geqslant1$，由递推关系有 $a_{n+1}=x_{n+2}-x_{n+1}=\\dfrac{x_n+x_{n+1}}{2}-x_{n+1}=-\\dfrac{1}{2}a_{n}$. 所以 $\\{a_{n}\\}$ 是首项为 $a$、公比为 $-\\dfrac{1}{2}$ 的等比数列，从而 $a_{n}=a\\left(-\\dfrac{1}{2}\\right)^{n-1}$.</p></li><li><p>由 $x_{n}=x_{1}+\\displaystyle\\sum_{k=1}^{n-1}a_{k}$，得 $x_{n}=a\\displaystyle\\sum_{k=0}^{n-2}\\left(-\\dfrac{1}{2}\\right)^{k}=\\dfrac{2a}{3}\\left(1-\\left(-\\dfrac{1}{2}\\right)^{n-1}\\right)$. 因为 $\\left(-\\dfrac{1}{2}\\right)^{n-1}\\to0$，所以 $\\displaystyle\\lim_{n\\to\\infty}x_{n}=\\dfrac{2a}{3}$.</p></li></ol>",
+          "body": "<p>已知点的序列 $A_{n}(x_{n},0)$，$n\\in\\mathbb{N}$，其中 $x_{1}=0$，$x_{2}=a$（$a<0$），$A_{3}$ 是线段 $A_{1}A_{2}$ 的中点，$A_{4}$ 是线段 $A_{2}A_{3}$ 的中点，$\\cdots$，$A_{n}$ 是线段 $A_{n-2}A_{n-1}$ 的中点，$\\cdots$.</p><ol class=\"enumerate\"><li><p>写出 $x_{n}$ 与 $x_{n-1}$，$x_{n-2}$ 之间的关系式（$n\\geqslant3$）；</p></li><li><p>设 $a_{n}=x_{n+1}-x_{n}$，计算 $a_{1}$，$a_{2}$，$a_{3}$，由此推测数列 $\\{a_{n}\\}$ 的通项公式，并加以证明；</p></li><li><p>求 $\\displaystyle\\lim_{n\\to\\infty}x_{n}$.</p></li></ol><ol class=\"enumerate\"><li><p>因为 $A_{n}$ 是线段 $A_{n-2}A_{n-1}$ 的中点，所以 $x_{n}=\\dfrac{x_{n-2}+x_{n-1}}{2}$，即 $2x_{n}=x_{n-1}+x_{n-2}$（$n\\geqslant3$）.</p></li><li><p>由 $x_{1}=0$，$x_{2}=a$，得 $x_{3}=\\dfrac{x_1+x_2}{2}=\\dfrac{a}{2}$，$x_{4}=\\dfrac{x_2+x_3}{2}=\\dfrac{3a}{4}$. 因而 $a_{1}=x_{2}-x_{1}=a$，$a_{2}=x_{3}-x_{2}=-\\dfrac{a}{2}$，$a_{3}=x_{4}-x_{3}=\\dfrac{a}{4}$. 对任意 $n\\geqslant1$，由递推关系有 $a_{n+1}=x_{n+2}-x_{n+1}=\\dfrac{x_n+x_{n+1}}{2}-x_{n+1}=-\\dfrac{1}{2}a_{n}$. 所以 $\\{a_{n}\\}$ 是首项为 $a$、公比为 $-\\dfrac{1}{2}$ 的等比数列，从而 $a_{n}=a\\left(-\\dfrac{1}{2}\\right)^{n-1}$.</p></li><li><p>由 $x_{n}=x_{1}+\\displaystyle\\sum_{k=1}^{n-1}a_{k}$，得 $x_{n}=a\\displaystyle\\sum_{k=0}^{n-2}\\left(-\\dfrac{1}{2}\\right)^{k}=\\dfrac{2a}{3}\\left(1-\\left(-\\dfrac{1}{2}\\right)^{n-1}\\right)$. 因为 $\\left(-\\dfrac{1}{2}\\right)^{n-1}\\to0$，所以 $\\displaystyle\\lim_{n\\to\\infty}x_{n}=\\dfrac{2a}{3}$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""
         },
         {
           "num": 22,
-          "body": "<p>已知某椭圆的焦点是 $F_{1}(-4,0)$，$F_{2}(4,0)$，过点 $F_{2}$，并垂直于 $x$ 轴的直线与椭圆的一个交点为 $B$，且 $\\lvert F_{1}B\\rvert+\\lvert F_{2}B\\rvert=10$. 椭圆上不同的两点 $A(x_{1},y_{1})$，$C(x_{2},y_{2})$ 满足条件：$\\lvert F_{2}A\\rvert$，$\\lvert F_{2}B\\rvert$，$\\lvert F_{2}C\\rvert$ 成等差数列.</p><ol class=\"enumerate\"><li><p>求该椭圆的方程；</p></li><li><p>求弦 $AC$ 中点的横坐标；</p></li><li><p>设弦 $AC$ 的垂直平分线的方程为 $y=kx+m$，求 $m$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>设椭圆的长半轴为 $a_{0}$，短半轴为 $b_{0}$，半焦距为 $c_{0}$. 由焦点坐标得 $c_{0}=4$. 又因为 $B$ 在椭圆上，故 $\\lvert F_{1}B\\rvert+\\lvert F_{2}B\\rvert=2a_{0}=10$，从而 $a_{0}=5$，且 $b_{0}^{2}=a_{0}^{2}-c_{0}^{2}=25-16=9$. 所以椭圆方程为 $\\dfrac{x^{2}}{25}+\\dfrac{y^{2}}{9}=1$.</p></li><li><p>对椭圆上任意点 $P(x,y)$，记 $r_{1}=\\lvert F_{1}P\\rvert$，$r_{2}=\\lvert F_{2}P\\rvert$. 由椭圆定义，$r_{1}+r_{2}=10$，又 $r_{1}^{2}-r_{2}^{2}=(x+4)^{2}+y^{2}-\\bigl((x-4)^{2}+y^{2}\\bigr)=16x$，所以 $r_{1}-r_{2}=\\dfrac{8}{5}x$，从而 $\\lvert F_{2}P\\rvert=r_{2}=5-\\dfrac{4}{5}x$. 由第（1）问，点 $B$ 的横坐标为 $4$，故 $\\lvert F_{2}B\\rvert=5-\\dfrac{4}{5}\\times4=\\dfrac{9}{5}$. 设 $M$ 为弦 $AC$ 的中点. 由三项成等差数列，$\\lvert F_{2}A\\rvert+\\lvert F_{2}C\\rvert=2\\lvert F_{2}B\\rvert=\\dfrac{18}{5}$. 若 $M=(x_{M},y_{M})$，则 $x_{M}=\\dfrac{x_{A}+x_{C}}{2}=\\dfrac{1}{2}\\left[\\dfrac{5}{4}\\left(5-\\lvert F_{2}A\\rvert\\right)+\\dfrac{5}{4}\\left(5-\\lvert F_{2}C\\rvert\\right)\\right]=4$. 所以弦 $AC$ 中点的横坐标为 $4$.</p></li><li><p>记弦 $AC$ 的中点为 $M=(4,y_{M})$，并设 $A=(x_{A},y_{A})$，$C=(x_{C},y_{C})$. 由两点在椭圆上，作差得 $\\dfrac{x_{A}^{2}-x_{C}^{2}}{25}+\\dfrac{y_{A}^{2}-y_{C}^{2}}{9}=0$. 又 $x_{A}+x_{C}=8$，$y_{A}+y_{C}=2y_{M}$，所以弦的方向向量 $(x_{A}-x_{C},y_{A}-y_{C})$ 满足 $\\dfrac{8}{25}(x_{A}-x_{C})+\\dfrac{2y_{M}}{9}(y_{A}-y_{C})=0$. 因而向量 $\\left(\\dfrac{8}{25},\\dfrac{2y_{M}}{9}\\right)$ 是弦的一个法向量，弦的垂直平分线斜率为 $k=\\dfrac{(2\\frac{y_{M}}{9})}{(\\frac{8}{25})}=\\dfrac{25y_{M}}{36}$，这个推导也包含 $y_{M}=0$ 的情形. 该直线经过 $M$，故 $m=y_{M}-4k=-\\dfrac{16}{9}y_{M}$.</p><p>又因为 $M$ 是椭圆内一个非边界点，且 $x_{M}=4$，所以 $\\dfrac{16}{25}+\\dfrac{y_{M}^{2}}{9}&#x3C;1$，即 $-\\dfrac{9}{5}&#x3C;y_{M}&#x3C;\\dfrac{9}{5}$. 反之，直线 $x=4$ 上任意满足此不等式的点均在椭圆内部，均可作为某条非退化弦的中点，故取值范围没有遗漏. 由 $m=-\\dfrac{16}{9}y_{M}$，得 $-\\dfrac{16}{5}&#x3C;m&#x3C;\\dfrac{16}{5}$.</p></li></ol>",
+          "body": "<p>已知某椭圆的焦点是 $F_{1}(-4,0)$，$F_{2}(4,0)$，过点 $F_{2}$，并垂直于 $x$ 轴的直线与椭圆的一个交点为 $B$，且 $\\lvert F_{1}B\\rvert+\\lvert F_{2}B\\rvert=10$. 椭圆上不同的两点 $A(x_{1},y_{1})$，$C(x_{2},y_{2})$ 满足条件：$\\lvert F_{2}A\\rvert$，$\\lvert F_{2}B\\rvert$，$\\lvert F_{2}C\\rvert$ 成等差数列.</p><ol class=\"enumerate\"><li><p>求该椭圆的方程；</p></li><li><p>求弦 $AC$ 中点的横坐标；</p></li><li><p>设弦 $AC$ 的垂直平分线的方程为 $y=kx+m$，求 $m$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>设椭圆的长半轴为 $a_{0}$，短半轴为 $b_{0}$，半焦距为 $c_{0}$. 由焦点坐标得 $c_{0}=4$. 又因为 $B$ 在椭圆上，故 $\\lvert F_{1}B\\rvert+\\lvert F_{2}B\\rvert=2a_{0}=10$，从而 $a_{0}=5$，且 $b_{0}^{2}=a_{0}^{2}-c_{0}^{2}=25-16=9$. 所以椭圆方程为 $\\dfrac{x^{2}}{25}+\\dfrac{y^{2}}{9}=1$.</p></li><li><p>对椭圆上任意点 $P(x,y)$，记 $r_{1}=\\lvert F_{1}P\\rvert$，$r_{2}=\\lvert F_{2}P\\rvert$. 由椭圆定义，$r_{1}+r_{2}=10$，又 $r_{1}^{2}-r_{2}^{2}=(x+4)^{2}+y^{2}-\\bigl((x-4)^{2}+y^{2}\\bigr)=16x$，所以 $r_{1}-r_{2}=\\dfrac{8}{5}x$，从而 $\\lvert F_{2}P\\rvert=r_{2}=5-\\dfrac{4}{5}x$. 由第（1）问，点 $B$ 的横坐标为 $4$，故 $\\lvert F_{2}B\\rvert=5-\\dfrac{4}{5}\\times4=\\dfrac{9}{5}$. 设 $M$ 为弦 $AC$ 的中点. 由三项成等差数列，$\\lvert F_{2}A\\rvert+\\lvert F_{2}C\\rvert=2\\lvert F_{2}B\\rvert=\\dfrac{18}{5}$. 若 $M=(x_{M},y_{M})$，则 $x_{M}=\\dfrac{x_{A}+x_{C}}{2}=\\dfrac{1}{2}\\left[\\dfrac{5}{4}\\left(5-\\lvert F_{2}A\\rvert\\right)+\\dfrac{5}{4}\\left(5-\\lvert F_{2}C\\rvert\\right)\\right]=4$. 所以弦 $AC$ 中点的横坐标为 $4$.</p></li><li><p>记弦 $AC$ 的中点为 $M=(4,y_{M})$，并设 $A=(x_{A},y_{A})$，$C=(x_{C},y_{C})$. 由两点在椭圆上，作差得 $\\dfrac{x_{A}^{2}-x_{C}^{2}}{25}+\\dfrac{y_{A}^{2}-y_{C}^{2}}{9}=0$. 又 $x_{A}+x_{C}=8$，$y_{A}+y_{C}=2y_{M}$，所以弦的方向向量 $(x_{A}-x_{C},y_{A}-y_{C})$ 满足 $\\dfrac{8}{25}(x_{A}-x_{C})+\\dfrac{2y_{M}}{9}(y_{A}-y_{C})=0$. 因而向量 $\\left(\\dfrac{8}{25},\\dfrac{2y_{M}}{9}\\right)$ 是弦的一个法向量，弦的垂直平分线斜率为 $k=\\dfrac{(2\\frac{y_{M}}{9})}{(\\frac{8}{25})}=\\dfrac{25y_{M}}{36}$，这个推导也包含 $y_{M}=0$ 的情形. 该直线经过 $M$，故 $m=y_{M}-4k=-\\dfrac{16}{9}y_{M}$.</p><p>又因为 $M$ 是椭圆内一个非边界点，且 $x_{M}=4$，所以 $\\dfrac{16}{25}+\\dfrac{y_{M}^{2}}{9}<1$，即 $-\\dfrac{9}{5}<y_{M}<\\dfrac{9}{5}$. 反之，直线 $x=4$ 上任意满足此不等式的点均在椭圆内部，均可作为某条非退化弦的中点，故取值范围没有遗漏. 由 $m=-\\dfrac{16}{9}y_{M}$，得 $-\\dfrac{16}{5}<m<\\dfrac{16}{5}$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

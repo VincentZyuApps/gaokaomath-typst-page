@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "<p>设 $p: x &#x3C; 3$，$q: -1 &#x3C; x &#x3C; 3$，则 $p$ 是 $q$ 成立的（ ）</p><p>C</p><p>若 $q$ 成立，则 $-1&#x3C;x&#x3C;3$，必有 $p$ 成立，因此 $p$ 是 $q$ 成立的必要条件. 但 $p$ 成立不一定有 $q$ 成立，例如 $x=-2$ 时 $p$ 成立而 $q$ 不成立，所以 $p$ 不是充分条件. 因此 $p$ 是 $q$ 成立的必要不充分条件，应选 C.</p>",
+          "body": "<p>设 $p: x < 3$，$q: -1 < x < 3$，则 $p$ 是 $q$ 成立的（ ）</p><p>C</p><p>若 $q$ 成立，则 $-1<x<3$，必有 $p$ 成立，因此 $p$ 是 $q$ 成立的必要条件. 但 $p$ 成立不一定有 $q$ 成立，例如 $x=-2$ 时 $p$ 成立而 $q$ 不成立，所以 $p$ 不是充分条件. 因此 $p$ 是 $q$ 成立的必要不充分条件，应选 C.</p>",
           "choices": [
             "充分必要条件",
             "充分不必要条件",
@@ -81,7 +81,7 @@
         },
         {
           "num": 7,
-          "body": "<p>执行如图所示的程序框图（算法流程图），输出的 $n$ 为（ ）</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.52<span class=\"macro macro-linewidth\"></span>]img_repaint/2015/anhui_liberal/q7_fig1.tex</p><p>B</p><p>程序开始时 $a=1$，$n=1$. 第一次判断中，$|1-1.414|=0.414\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1}=1.5$，并令 $n=2$.</p><p>第二次判断中，$|1.5-1.414|=0.086\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1.5}=1.4$，并令 $n=3$.</p><p>第三次判断中，$|1.4-1.414|=0.014\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1.4}=1+\\frac{5}{12}=\\frac{17}{12}$，并令 $n=4$.</p><p>此时</p>\n$$\n\\left|\\frac{17}{12}-1.414\\right|=\\left|\\frac{17}{12}-\\frac{707}{500}\\right|=\\frac{1}{375}&#x3C;0.005\n$$\n<p>满足停止条件，程序输出 $n=4$. 所以应选 B.</p>",
+          "body": "<p>执行如图所示的程序框图（算法流程图），输出的 $n$ 为（ ）</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.52<span class=\"macro macro-linewidth\"></span>]img_repaint/2015/anhui_liberal/q7_fig1.tex</p><p>B</p><p>程序开始时 $a=1$，$n=1$. 第一次判断中，$|1-1.414|=0.414\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1}=1.5$，并令 $n=2$.</p><p>第二次判断中，$|1.5-1.414|=0.086\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1.5}=1.4$，并令 $n=3$.</p><p>第三次判断中，$|1.4-1.414|=0.014\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1.4}=1+\\frac{5}{12}=\\frac{17}{12}$，并令 $n=4$.</p><p>此时</p>\n$$\n\\left|\\frac{17}{12}-1.414\\right|=\\left|\\frac{17}{12}-\\frac{707}{500}\\right|=\\frac{1}{375}<0.005\n$$\n<p>满足停止条件，程序输出 $n=4$. 所以应选 B.</p>",
           "choices": [
             "$3$",
             "$4$",
@@ -117,12 +117,12 @@
         },
         {
           "num": 10,
-          "body": "<p>函数 $f(x) = ax^{3} + bx^{2} + cx + d$ 的图象如图所示，则下列结论成立的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>A</p><p>由图象右端向上，知三次项系数 $a>0$. 设两个极值点的横坐标为 $x_{1}$、$x_{2}$，由图可知 $0&#x3C;x_{1}&#x3C;x_{2}$. 因为</p>\n$$\nf'(x)=3ax^{2}+2bx+c\n$$\n<p>且 $x_{1}$，$x_{2}$ 是方程 $f'(x)=0$ 的两个根，所以</p>\n$$\nx_{1}+x_{2}=-\\frac{2b}{3a}>0\n$$\n<p>结合 $a>0$，得 $b&#x3C;0$. 图象在 $x=0$ 处递增，所以 $c=f'(0)>0$；又图象与 $y$ 轴的交点在 $x$ 轴上方，所以 $d=f(0)>0$. 因此只有选项 A 成立.</p>",
+          "body": "<p>函数 $f(x) = ax^{3} + bx^{2} + cx + d$ 的图象如图所示，则下列结论成立的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>A</p><p>由图象右端向上，知三次项系数 $a>0$. 设两个极值点的横坐标为 $x_{1}$、$x_{2}$，由图可知 $0<x_{1}<x_{2}$. 因为</p>\n$$\nf'(x)=3ax^{2}+2bx+c\n$$\n<p>且 $x_{1}$，$x_{2}$ 是方程 $f'(x)=0$ 的两个根，所以</p>\n$$\nx_{1}+x_{2}=-\\frac{2b}{3a}>0\n$$\n<p>结合 $a>0$，得 $b<0$. 图象在 $x=0$ 处递增，所以 $c=f'(0)>0$；又图象与 $y$ 轴的交点在 $x$ 轴上方，所以 $d=f(0)>0$. 因此只有选项 A 成立.</p>",
           "choices": [
-            "$a > 0$，$b &#x3C; 0$，$c > 0$，$d > 0$",
-            "$a > 0$，$b &#x3C; 0$，$c &#x3C; 0$，$d > 0$",
-            "$a &#x3C; 0$，$b &#x3C; 0$，$c > 0$，$d > 0$",
-            "$a > 0$，$b > 0$，$c > 0$，$d &#x3C; 0$"
+            "$a > 0$，$b < 0$，$c > 0$，$d > 0$",
+            "$a > 0$，$b < 0$，$c < 0$，$d > 0$",
+            "$a < 0$，$b < 0$，$c > 0$，$d > 0$",
+            "$a > 0$，$b > 0$，$c > 0$，$d < 0$"
           ],
           "answer": "",
           "solution": ""
@@ -155,7 +155,7 @@
         },
         {
           "num": 14,
-          "body": "<p>在平面直角坐标系 $xOy$ 中，若直线 $y = 2a$ 与函数 $y = |x - a| - 1$ 的图象只有一个交点，则 $a$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$-\\frac{1}{2}$</p><p>联立直线与函数图象的方程，得</p>\n$$\n2a=|x-a|-1\n$$\n<p>即 $|x-a|=2a+1$. 若 $2a+1>0$，则 $x-a=\\pm(2a+1)$，有两个不同的交点；若 $2a+1&#x3C;0$，则绝对值方程无解；只有 $2a+1=0$ 时，方程有唯一解 $x=a$. 因此</p>\n$$\na=-\\frac{1}{2}\n$$",
+          "body": "<p>在平面直角坐标系 $xOy$ 中，若直线 $y = 2a$ 与函数 $y = |x - a| - 1$ 的图象只有一个交点，则 $a$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$-\\frac{1}{2}$</p><p>联立直线与函数图象的方程，得</p>\n$$\n2a=|x-a|-1\n$$\n<p>即 $|x-a|=2a+1$. 若 $2a+1>0$，则 $x-a=\\pm(2a+1)$，有两个不同的交点；若 $2a+1<0$，则绝对值方程无解；只有 $2a+1=0$ 时，方程有唯一解 $x=a$. 因此</p>\n$$\na=-\\frac{1}{2}\n$$",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -191,7 +191,7 @@
           "body": "<p>已知数列 $\\{a_{n}\\}$ 是递增的等比数列，且 $a_{1}+ a_{4}= 9$，$a_{2}a_{3}= 8$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $S_{n}$ 为数列 $\\{a_{n}\\}$ 的前 $n$ 项和，$b_{n}= \\frac{a_{n+1}}{S_{n}S_{n+1}}$，求数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等比数列的公比为 $q$. 由等比数列性质，</p>\n$$\na_{2}a_{3}=a_{1}q\\cdot a_{1}q^{2}=a_{1}^{2}q^{3}=a_{1}a_{4}=8\n$$\n<p>因此 $a_{1}$ 和 $a_{4}$ 是方程</p>\n$$\nt^{2}-(a_{1}+a_{4})t+a_{1}a_{4}=t^{2}-9t+8=0\n$$\n<p>的两个根，解得 $\\{a_{1},a_{4}\\}=\\{1,8\\}$. 数列递增，所以 $a_{1}&#x3C;a_{4}$，从而 $a_{1}=1$、$a_{4}=8$. 于是 $q^{3}=\\frac{a_{4}}{a_{1}}=8$，得到 $q=2$，故</p>\n$$\na_{n}=a_{1}q^{n-1}=2^{n-1}\n$$\n</li><li><p>由通项公式，</p>\n$$\nS_{n}=1+2+\\cdots+2^{n-1}=2^{n}-1\n$$\n<p>又因为 $a_{n+1}=S_{n+1}-S_{n}$，所以</p>\n$$\nb_{n}=\\frac{S_{n+1}-S_{n}}{S_{n}S_{n+1}}=\\frac{1}{S_{n}}-\\frac{1}{S_{n+1}}\n$$\n<p>裂项相消得</p>\n$$\nT_{n}=\\sum_{k=1}^{n} b_{k}  =\\left(\\frac{1}{S_{1}}-\\frac{1}{S_{2}}\\right)+\\cdots+\\left(\\frac{1}{S_{n}}-\\frac{1}{S_{n+1}}\\right)  =1-\\frac{1}{S_{n+1}}=1-\\frac{1}{2^{n+1}-1}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等比数列的公比为 $q$. 由等比数列性质，</p>\n$$\na_{2}a_{3}=a_{1}q\\cdot a_{1}q^{2}=a_{1}^{2}q^{3}=a_{1}a_{4}=8\n$$\n<p>因此 $a_{1}$ 和 $a_{4}$ 是方程</p>\n$$\nt^{2}-(a_{1}+a_{4})t+a_{1}a_{4}=t^{2}-9t+8=0\n$$\n<p>的两个根，解得 $\\{a_{1},a_{4}\\}=\\{1,8\\}$. 数列递增，所以 $a_{1}<a_{4}$，从而 $a_{1}=1$、$a_{4}=8$. 于是 $q^{3}=\\frac{a_{4}}{a_{1}}=8$，得到 $q=2$，故</p>\n$$\na_{n}=a_{1}q^{n-1}=2^{n-1}\n$$\n</li><li><p>由通项公式，</p>\n$$\nS_{n}=1+2+\\cdots+2^{n-1}=2^{n}-1\n$$\n<p>又因为 $a_{n+1}=S_{n+1}-S_{n}$，所以</p>\n$$\nb_{n}=\\frac{S_{n+1}-S_{n}}{S_{n}S_{n+1}}=\\frac{1}{S_{n}}-\\frac{1}{S_{n+1}}\n$$\n<p>裂项相消得</p>\n$$\nT_{n}=\\sum_{k=1}^{n} b_{k}  =\\left(\\frac{1}{S_{1}}-\\frac{1}{S_{2}}\\right)+\\cdots+\\left(\\frac{1}{S_{n}}-\\frac{1}{S_{n+1}}\\right)  =1-\\frac{1}{S_{n+1}}=1-\\frac{1}{2^{n+1}-1}\n$$\n</li></ol>"
         },
         {
           "num": 19,
@@ -212,7 +212,7 @@
           "body": "<p>已知函数 $f(x) = \\frac{ax}{(x + r)^{2}}$（$a > 0$，$r > 0$）.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的定义域，并讨论 $f(x)$ 的单调性；</p></li><li><p>若 $\\frac{a}{r}= 400$，求 $f(x)$ 在 $(0, +\\infty)$ 内的极值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>分母不能为零，所以定义域为 $\\mathbb{R}\\setminus\\{-r\\}=(-\\infty,-r)\\cup(-r,+\\infty)$. 求导得</p>\n$$\nf'(x)=\\frac{a(x+r)^{2}-2ax(x+r)}{(x+r)^{4}}=\\frac{a(r-x)}{(x+r)^{3}}\n$$\n<p>因为 $a>0$，分类讨论符号：当 $x\\in(-\\infty,-r)$ 时，$r-x>0$、$(x+r)^{3}&#x3C;0$，故 $f'(x)&#x3C;0$；当 $x\\in(-r,r)$ 时，二者均为正，故 $f'(x)>0$；当 $x\\in(r,+\\infty)$ 时，$r-x&#x3C;0$、$(x+r)^{3}>0$，故 $f'(x)&#x3C;0$. 因此 $f(x)$ 在 $(-\\infty,-r)$ 和 $(r,+\\infty)$ 上单调递减，在 $(-r,r)$ 上单调递增.</p></li><li><p>在 $(0,+\\infty)$ 内，函数在 $(0,r)$ 上递增，在 $(r,+\\infty)$ 上递减，所以在 $x=r$ 处取得极大值. 该极大值为</p>\n$$\nf(r)=\\frac{ar}{(2r)^{2}}=\\frac{a}{4r}=\\frac{1}{4}\\frac{a}{r}=100\n$$\n<p>又因为 $x\\to0^{+}$ 或 $x\\to+\\infty$ 时 $f(x)\\to0$，但 $0\\notin(0,+\\infty)$，所以在该开区间内没有最小值.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>分母不能为零，所以定义域为 $\\mathbb{R}\\setminus\\{-r\\}=(-\\infty,-r)\\cup(-r,+\\infty)$. 求导得</p>\n$$\nf'(x)=\\frac{a(x+r)^{2}-2ax(x+r)}{(x+r)^{4}}=\\frac{a(r-x)}{(x+r)^{3}}\n$$\n<p>因为 $a>0$，分类讨论符号：当 $x\\in(-\\infty,-r)$ 时，$r-x>0$、$(x+r)^{3}<0$，故 $f'(x)<0$；当 $x\\in(-r,r)$ 时，二者均为正，故 $f'(x)>0$；当 $x\\in(r,+\\infty)$ 时，$r-x<0$、$(x+r)^{3}>0$，故 $f'(x)<0$. 因此 $f(x)$ 在 $(-\\infty,-r)$ 和 $(r,+\\infty)$ 上单调递减，在 $(-r,r)$ 上单调递增.</p></li><li><p>在 $(0,+\\infty)$ 内，函数在 $(0,r)$ 上递增，在 $(r,+\\infty)$ 上递减，所以在 $x=r$ 处取得极大值. 该极大值为</p>\n$$\nf(r)=\\frac{ar}{(2r)^{2}}=\\frac{a}{4r}=\\frac{1}{4}\\frac{a}{r}=100\n$$\n<p>又因为 $x\\to0^{+}$ 或 $x\\to+\\infty$ 时 $f(x)\\to0$，但 $0\\notin(0,+\\infty)$，所以在该开区间内没有最小值.</p></li></ol>"
         }
       ]
     }

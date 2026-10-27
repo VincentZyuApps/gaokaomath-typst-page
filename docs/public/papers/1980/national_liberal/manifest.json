@@ -37,10 +37,10 @@
         },
         {
           "num": 5,
-          "body": "设 $\\frac{3\\pi}{4}&#x3C;\\theta&#x3C;\\frac{5\\pi}{4}$，化简：$\\frac{\\sqrt{\\cos\\frac{\\pi}{4}\\sin\\left(\\frac{3\\pi}{4}-\\theta\\right)\\left[\\sin(\\pi-\\theta)-\\sin\\left(\\theta-\\frac{\\pi}{2}\\right)\\right]}}{\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)}$.",
+          "body": "设 $\\frac{3\\pi}{4}<\\theta<\\frac{5\\pi}{4}$，化简：$\\frac{\\sqrt{\\cos\\frac{\\pi}{4}\\sin\\left(\\frac{3\\pi}{4}-\\theta\\right)\\left[\\sin(\\pi-\\theta)-\\sin\\left(\\theta-\\frac{\\pi}{2}\\right)\\right]}}{\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)}$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $\\sin(\\pi-\\theta)=\\sin\\theta$，且 $\\sin\\left(\\theta-\\frac{\\pi}{2}\\right)=-\\cos\\theta$，所以</p><p>$\\sin(\\pi-\\theta)-\\sin\\left(\\theta-\\frac{\\pi}{2}\\right)=\\sin\\theta+\\cos\\theta$. 又 $\\sin\\left(\\frac{3\\pi}{4}-\\theta\\right)=\\frac{\\sqrt{2}}{2}(\\sin\\theta+\\cos\\theta)$，故根号内的式子为 $\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{2}}{2}(\\sin\\theta+\\cos\\theta)^{2}=\\frac{(\\sin\\theta+\\cos\\theta)^{2}}{2}$. 由 $\\frac{3\\pi}{4}&#x3C;\\theta&#x3C;\\frac{5\\pi}{4}$，可得 $\\pi&#x3C;\\theta+\\frac{\\pi}{4}&#x3C;\\frac{3\\pi}{2}$，从而 $\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)&#x3C;0$，即 $\\sin\\theta+\\cos\\theta&#x3C;0$. 因此分子为 $-\\frac{\\sin\\theta+\\cos\\theta}{\\sqrt{2}}$，而分母 $\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)=\\frac{\\sin\\theta+\\cos\\theta}{\\sqrt{2}}$，所以原式等于 $-1$.</p>"
+          "solution": "<p>因为 $\\sin(\\pi-\\theta)=\\sin\\theta$，且 $\\sin\\left(\\theta-\\frac{\\pi}{2}\\right)=-\\cos\\theta$，所以</p><p>$\\sin(\\pi-\\theta)-\\sin\\left(\\theta-\\frac{\\pi}{2}\\right)=\\sin\\theta+\\cos\\theta$. 又 $\\sin\\left(\\frac{3\\pi}{4}-\\theta\\right)=\\frac{\\sqrt{2}}{2}(\\sin\\theta+\\cos\\theta)$，故根号内的式子为 $\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{2}}{2}(\\sin\\theta+\\cos\\theta)^{2}=\\frac{(\\sin\\theta+\\cos\\theta)^{2}}{2}$. 由 $\\frac{3\\pi}{4}<\\theta<\\frac{5\\pi}{4}$，可得 $\\pi<\\theta+\\frac{\\pi}{4}<\\frac{3\\pi}{2}$，从而 $\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)<0$，即 $\\sin\\theta+\\cos\\theta<0$. 因此分子为 $-\\frac{\\sin\\theta+\\cos\\theta}{\\sqrt{2}}$，而分母 $\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)=\\frac{\\sin\\theta+\\cos\\theta}{\\sqrt{2}}$，所以原式等于 $-1$.</p>"
         },
         {
           "num": 6,
@@ -58,10 +58,10 @@
         },
         {
           "num": 8,
-          "body": "<ol class=\"enumerate\"><li><p>把参数方程 $\\begin{cases}x=\\sec t\\\\\n\ny=2\\tan t\\end{cases}$（$t$ 为参数）化为直角坐标方程，并画出方程的曲线的略图；</p></li><li><p>当 $0\\le t&#x3C;\\frac{\\pi}{2}$ 及 $\\pi\\le t&#x3C;\\frac{3\\pi}{2}$ 时，各得到曲线的哪一部分？</p></li></ol>",
+          "body": "<ol class=\"enumerate\"><li><p>把参数方程 $\\begin{cases}x=\\sec t\\\\\n\ny=2\\tan t\\end{cases}$（$t$ 为参数）化为直角坐标方程，并画出方程的曲线的略图；</p></li><li><p>当 $0\\le t<\\frac{\\pi}{2}$ 及 $\\pi\\le t<\\frac{3\\pi}{2}$ 时，各得到曲线的哪一部分？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $x=\\sec t$、$y=2\\tan t$，得 $x^{2}=\\sec^{2} t$、$\\frac{y^{2}}{4}=\\tan^{2} t$. 利用恒等式 $\\sec^{2} t-\\tan^{2} t=1$，消去参数得 $x^{2}-\\frac{y^{2}}{4}=1$. 因而曲线是以坐标轴为对称轴、顶点为 $(1,0)$ 和 $(-1,0)$ 的双曲线，渐近线为 $y=2x$ 和 $y=-2x$，略图应包含右支和左支，分别位于右、左两个方向.</p></li><li><p>当 $0\\le t&#x3C;\\frac{\\pi}{2}$ 时，$\\cos t>0$、$\\sin t\\geqslant0$，所以 $x=\\sec t\\geqslant1$、$y=2\\tan t\\geqslant0$，得到双曲线第一象限的部分，包括顶点 $(1,0)$. 当 $\\pi\\le t&#x3C;\\frac{3\\pi}{2}$ 时，$\\cos t&#x3C;0$、$\\sin t\\leqslant0$，所以 $x=\\sec t\\le-1$、$y=2\\tan t\\geqslant0$，得到双曲线第二象限的部分，包括顶点 $(-1,0)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $x=\\sec t$、$y=2\\tan t$，得 $x^{2}=\\sec^{2} t$、$\\frac{y^{2}}{4}=\\tan^{2} t$. 利用恒等式 $\\sec^{2} t-\\tan^{2} t=1$，消去参数得 $x^{2}-\\frac{y^{2}}{4}=1$. 因而曲线是以坐标轴为对称轴、顶点为 $(1,0)$ 和 $(-1,0)$ 的双曲线，渐近线为 $y=2x$ 和 $y=-2x$，略图应包含右支和左支，分别位于右、左两个方向.</p></li><li><p>当 $0\\le t<\\frac{\\pi}{2}$ 时，$\\cos t>0$、$\\sin t\\geqslant0$，所以 $x=\\sec t\\geqslant1$、$y=2\\tan t\\geqslant0$，得到双曲线第一象限的部分，包括顶点 $(1,0)$. 当 $\\pi\\le t<\\frac{3\\pi}{2}$ 时，$\\cos t<0$、$\\sin t\\leqslant0$，所以 $x=\\sec t\\le-1$、$y=2\\tan t\\geqslant0$，得到双曲线第二象限的部分，包括顶点 $(-1,0)$.</p></li></ol>"
         }
       ]
     }

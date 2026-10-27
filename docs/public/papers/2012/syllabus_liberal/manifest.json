@@ -131,13 +131,13 @@
           "num": 11,
           "body": "已知 $x = \\ln \\pi$，$y = \\log_{5} 2$，$z = \\mathrm{e}^{-\\frac{1}{2}}$，则（ ）",
           "choices": [
-            "$x &#x3C; y &#x3C; z$",
-            "$z &#x3C; x &#x3C; y$",
-            "$z &#x3C; y &#x3C; x$",
-            "$y &#x3C; z &#x3C; x$"
+            "$x < y < z$",
+            "$z < x < y$",
+            "$z < y < x$",
+            "$y < z < x$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $5>1$，所以对数函数 $\\log_{5}x$ 单调递增. 又 $2&#x3C;\\sqrt{5}$，故</p>\n$$\ny=\\log_{5}2&#x3C;\\frac{1}{2}\n$$\n<p>由 $\\mathrm{e}&#x3C;4$ 得 $z=\\mathrm{e}^{-\\frac{1}{2}}>\\frac{1}{2}$，所以 $y&#x3C;z$. 此外 $\\mathrm{e}&#x3C;3&#x3C;\\pi$，从而 $x=\\ln\\pi>1$，而 $z&#x3C;1$，故 $z&#x3C;x$. 综上 $y&#x3C;z&#x3C;x$，故选 D.</p>"
+          "solution": "<p>因为 $5>1$，所以对数函数 $\\log_{5}x$ 单调递增. 又 $2<\\sqrt{5}$，故</p>\n$$\ny=\\log_{5}2<\\frac{1}{2}\n$$\n<p>由 $\\mathrm{e}<4$ 得 $z=\\mathrm{e}^{-\\frac{1}{2}}>\\frac{1}{2}$，所以 $y<z$. 此外 $\\mathrm{e}<3<\\pi$，从而 $x=\\ln\\pi>1$，而 $z<1$，故 $z<x$. 综上 $y<z<x$，故选 D.</p>"
         },
         {
           "num": 12,
@@ -172,10 +172,10 @@
         },
         {
           "num": 15,
-          "body": "当函数 $y = \\sin x - \\sqrt{3}\\cos x$（$0 \\le x &#x3C; 2\\pi$）取得最大值时，$x =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "当函数 $y = \\sin x - \\sqrt{3}\\cos x$（$0 \\le x < 2\\pi$）取得最大值时，$x =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{5\\pi}{6}$",
-          "solution": "<p>利用辅助角公式，</p>\n$$\n\\sin x-\\sqrt{3}\\cos x  =2\\left(\\frac{1}{2}\\sin x-\\frac{\\sqrt{3}}{2}\\cos x\\right)  =2\\sin\\left(x-\\frac{\\pi}{3}\\right)\n$$\n<p>函数最大值为 $2$，且取最大值时</p>\n$$\nx-\\frac{\\pi}{3}=\\frac{\\pi}{2}+2k\\pi\n$$\n<p>结合 $0\\le x&#x3C;2\\pi$，唯一可取的 $x$ 为 $\\frac{5\\pi}{6}$.</p>"
+          "solution": "<p>利用辅助角公式，</p>\n$$\n\\sin x-\\sqrt{3}\\cos x  =2\\left(\\frac{1}{2}\\sin x-\\frac{\\sqrt{3}}{2}\\cos x\\right)  =2\\sin\\left(x-\\frac{\\pi}{3}\\right)\n$$\n<p>函数最大值为 $2$，且取最大值时</p>\n$$\nx-\\frac{\\pi}{3}=\\frac{\\pi}{2}+2k\\pi\n$$\n<p>结合 $0\\le x<2\\pi$，唯一可取的 $x$ 为 $\\frac{5\\pi}{6}$.</p>"
         },
         {
           "num": 16,
@@ -194,7 +194,7 @@
           "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 成等差数列，其对边 $a$，$b$，$c$ 满足 $2b^{2}= 3ac$，求 $A$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $A$，$B$，$C$ 成等差数列，得 $A+C=2B$. 又 $A+B+C=\\pi$，所以 $3B=\\pi$，即</p>\n$$\nB=\\frac{\\pi}{3}\n$$\n<p>由余弦定理，</p>\n$$\nb^{2}=a^{2}+c^{2}-2ac\\cos B=a^{2}+c^{2}-ac\n$$\n<p>代入 $2b^{2}=3ac$，得</p>\n$$\n2a^{2}+2c^{2}-2ac=3ac\n$$\n<p>即</p>\n$$\n2a^{2}-5ac+2c^{2}=0\n$$\n<p>因为 $a$，$c>0$，令 $t=\\frac{a}{c}$，则</p>\n$$\n2t^{2}-5t+2=0\n$$\n<p>所以 $t=2$ 或 $t=\\frac{1}{2}$.</p><p>当 $a=2c$ 时，$b^{2}=3c^{2}$，由余弦定理</p>\n$$\n\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{3c^{2}+c^{2}-4c^{2}}{2\\sqrt{3}c^{2}}=0\n$$\n<p>故 $A=\\frac{\\pi}{2}$.</p><p>当 $a=\\frac{1}{2}c$ 时，$b^{2}=\\frac{3}{4}c^{2}$，于是</p>\n$$\n\\cos A=\\frac{\\frac{3}{4}c^{2}+c^{2}-\\frac{1}{4}c^{2}}{2\\cdot\\frac{\\sqrt{3}}{2}c^{2}}=\\frac{\\sqrt{3}}{2}\n$$\n<p>由于 $0&#x3C;A&#x3C;\\pi$，故 $A=\\frac{\\pi}{6}$.</p>"
+          "solution": "<p>由 $A$，$B$，$C$ 成等差数列，得 $A+C=2B$. 又 $A+B+C=\\pi$，所以 $3B=\\pi$，即</p>\n$$\nB=\\frac{\\pi}{3}\n$$\n<p>由余弦定理，</p>\n$$\nb^{2}=a^{2}+c^{2}-2ac\\cos B=a^{2}+c^{2}-ac\n$$\n<p>代入 $2b^{2}=3ac$，得</p>\n$$\n2a^{2}+2c^{2}-2ac=3ac\n$$\n<p>即</p>\n$$\n2a^{2}-5ac+2c^{2}=0\n$$\n<p>因为 $a$，$c>0$，令 $t=\\frac{a}{c}$，则</p>\n$$\n2t^{2}-5t+2=0\n$$\n<p>所以 $t=2$ 或 $t=\\frac{1}{2}$.</p><p>当 $a=2c$ 时，$b^{2}=3c^{2}$，由余弦定理</p>\n$$\n\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{3c^{2}+c^{2}-4c^{2}}{2\\sqrt{3}c^{2}}=0\n$$\n<p>故 $A=\\frac{\\pi}{2}$.</p><p>当 $a=\\frac{1}{2}c$ 时，$b^{2}=\\frac{3}{4}c^{2}$，于是</p>\n$$\n\\cos A=\\frac{\\frac{3}{4}c^{2}+c^{2}-\\frac{1}{4}c^{2}}{2\\cdot\\frac{\\sqrt{3}}{2}c^{2}}=\\frac{\\sqrt{3}}{2}\n$$\n<p>由于 $0<A<\\pi$，故 $A=\\frac{\\pi}{6}$.</p>"
         },
         {
           "num": 18,
@@ -222,7 +222,7 @@
           "body": "<p>已知函数 $f(x) = \\frac{1}{3}x^{3} + x^{2} + ax$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性.</p></li><li><p>设 $f(x)$ 有两个极值点 $x_{1}$，$x_{2}$，若过两点 $(x_{1}, f(x_{1}))$，$(x_{2}, f(x_{2}))$ 的直线 $l$ 与 $x$ 轴的交点在曲线 $f(x)$ 上，求 $a$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li>\n$$\nf'(x)=x^{2}+2x+a=(x+1)^{2}+a-1\n$$\n<p>当 $a\\geqslant1$ 时，$f'(x)\\geqslant0$ 对一切 $x$ 成立，且仅在 $a=1$ 时于 $x=-1$ 处为零，因此 $f(x)$ 在 $\\mathbb{R}$ 上单调递增.</p><p>当 $a&#x3C;1$ 时，令 $u=-1-\\sqrt{1-a}$，$v=-1+\\sqrt{1-a}$，</p><p>则 $u&#x3C;v$ 且 $f'(x)$ 在 $(-\\infty,u)$ 和 $(v,+\\infty)$ 上为正，在 $(u,v)$ 上为负. 因此 $f(x)$ 在 $(-\\infty,u)$，$(v,+\\infty)$ 上单调递增，在 $(u,v)$ 上单调递减.</p></li><li><p>由“有两个极值点”知 $a&#x3C;1$. 设 $u=-1-s$，$v=-1+s$，</p><p>$s=\\sqrt{1-a}>0$，</p><p>则 $u$，$v$ 是 $f'(x)=0$ 的两个根，且 $u+v=-2$，$uv=a$. 在极值点处 $a=-u^{2}-2u$，故</p>\n$$\nf(u)=-\\frac{2}{3}u^{3}-u^{2}\n$$\n\n$$\nf(v)=-\\frac{2}{3}v^{3}-v^{2}\n$$\n<p>过两极值点的直线斜率为</p>\n$$\nm=\\frac{f(v)-f(u)}{v-u}=\\frac{1}{3}(u^{2}+uv+v^{2})+u+v+a  =\\frac{2(a-1)}{3}=-\\frac{2s^{2}}{3}\n$$\n<p>由 $u=-1-s$ 及 $f(u)=\\frac{(1+s)^{2}(2s-1)}{3}$，该直线与 $x$ 轴的交点横坐标为</p>\n$$\nt=u-\\frac{f(u)}{m}  =-1-s+\\frac{(1+s)^{2}(2s-1)}{2s^{2}}=\\frac{1}{2}-\\frac{1}{2s^{2}}=-\\frac{a}{2(1-a)}\n$$\n<p>由于 $f(x)=x\\left(\\frac{1}{3}x^{2}+x+a\\right)$，条件“交点在曲线 $y=f(x)$ 上”等价于</p><p>$t=0$ 或 $t^{2}+3t+3a=0$.</p><p>当 $t=0$ 时，$a=0$. 当 $t\\ne0$ 时，代入 $t=-\\frac{a}{2(1-a)}$，得</p>\n$$\n12a^{2}-17a+6=0\n$$\n<p>所以 $a=\\frac{2}{3}$ 或 $a=\\frac{3}{4}$.</p><p>这三个值都小于 $1$，均满足有两个极值点，故 $a=0$，$a=\\frac{2}{3}$ 或 $a=\\frac{3}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li>\n$$\nf'(x)=x^{2}+2x+a=(x+1)^{2}+a-1\n$$\n<p>当 $a\\geqslant1$ 时，$f'(x)\\geqslant0$ 对一切 $x$ 成立，且仅在 $a=1$ 时于 $x=-1$ 处为零，因此 $f(x)$ 在 $\\mathbb{R}$ 上单调递增.</p><p>当 $a<1$ 时，令 $u=-1-\\sqrt{1-a}$，$v=-1+\\sqrt{1-a}$，</p><p>则 $u<v$ 且 $f'(x)$ 在 $(-\\infty,u)$ 和 $(v,+\\infty)$ 上为正，在 $(u,v)$ 上为负. 因此 $f(x)$ 在 $(-\\infty,u)$，$(v,+\\infty)$ 上单调递增，在 $(u,v)$ 上单调递减.</p></li><li><p>由“有两个极值点”知 $a<1$. 设 $u=-1-s$，$v=-1+s$，</p><p>$s=\\sqrt{1-a}>0$，</p><p>则 $u$，$v$ 是 $f'(x)=0$ 的两个根，且 $u+v=-2$，$uv=a$. 在极值点处 $a=-u^{2}-2u$，故</p>\n$$\nf(u)=-\\frac{2}{3}u^{3}-u^{2}\n$$\n\n$$\nf(v)=-\\frac{2}{3}v^{3}-v^{2}\n$$\n<p>过两极值点的直线斜率为</p>\n$$\nm=\\frac{f(v)-f(u)}{v-u}=\\frac{1}{3}(u^{2}+uv+v^{2})+u+v+a  =\\frac{2(a-1)}{3}=-\\frac{2s^{2}}{3}\n$$\n<p>由 $u=-1-s$ 及 $f(u)=\\frac{(1+s)^{2}(2s-1)}{3}$，该直线与 $x$ 轴的交点横坐标为</p>\n$$\nt=u-\\frac{f(u)}{m}  =-1-s+\\frac{(1+s)^{2}(2s-1)}{2s^{2}}=\\frac{1}{2}-\\frac{1}{2s^{2}}=-\\frac{a}{2(1-a)}\n$$\n<p>由于 $f(x)=x\\left(\\frac{1}{3}x^{2}+x+a\\right)$，条件“交点在曲线 $y=f(x)$ 上”等价于</p><p>$t=0$ 或 $t^{2}+3t+3a=0$.</p><p>当 $t=0$ 时，$a=0$. 当 $t\\ne0$ 时，代入 $t=-\\frac{a}{2(1-a)}$，得</p>\n$$\n12a^{2}-17a+6=0\n$$\n<p>所以 $a=\\frac{2}{3}$ 或 $a=\\frac{3}{4}$.</p><p>这三个值都小于 $1$，均满足有两个极值点，故 $a=0$，$a=\\frac{2}{3}$ 或 $a=\\frac{3}{4}$.</p></li></ol>"
         }
       ]
     },

@@ -24,7 +24,7 @@
           "body": "当 $a$ 取什么值时，方程 $x^{2}-2x+\\lg a=0$ 有实数根.",
           "choices": null,
           "answer": "",
-          "solution": "<p>要使 $\\lg a$ 有意义，必须先满足 $a>0$. 在此条件下，原式是关于 $x$ 的一元二次方程，其判别式为</p>\n$$\n\\Delta=(-2)^{2}-4\\lg a=4-4\\lg a=4\\left(1-\\lg a\\right)\n$$\n<p>一元二次方程有实数根的充要条件是 $\\Delta\\geq0$，因此</p>\n$$\n4\\left(1-\\lg a\\right)\\geq0 \\Longleftrightarrow  \\lg a\\leq1\n$$\n<p>由于常用对数函数在正数范围内递增，且 $1=\\lg10$，所以 $\\lg a\\leq1$ 等价于 $a\\leq10$. 与定义域条件 $a>0$ 合并，得到</p>\n$$\n0&#x3C;a\\leq10\n$$\n<p>反过来，若 $0&#x3C;a\\leq10$，则 $\\lg a$ 有意义，并且 $\\lg a\\leq1$，于是 $\\Delta=4(1-\\lg a)\\geq0$，原方程确有实数根. 因此所求取值范围为 $0&#x3C;a\\leq10$.</p>"
+          "solution": "<p>要使 $\\lg a$ 有意义，必须先满足 $a>0$. 在此条件下，原式是关于 $x$ 的一元二次方程，其判别式为</p>\n$$\n\\Delta=(-2)^{2}-4\\lg a=4-4\\lg a=4\\left(1-\\lg a\\right)\n$$\n<p>一元二次方程有实数根的充要条件是 $\\Delta\\geq0$，因此</p>\n$$\n4\\left(1-\\lg a\\right)\\geq0 \\Longleftrightarrow  \\lg a\\leq1\n$$\n<p>由于常用对数函数在正数范围内递增，且 $1=\\lg10$，所以 $\\lg a\\leq1$ 等价于 $a\\leq10$. 与定义域条件 $a>0$ 合并，得到</p>\n$$\n0<a\\leq10\n$$\n<p>反过来，若 $0<a\\leq10$，则 $\\lg a$ 有意义，并且 $\\lg a\\leq1$，于是 $\\Delta=4(1-\\lg a)\\geq0$，原方程确有实数根. 因此所求取值范围为 $0<a\\leq10$.</p>"
         },
         {
           "num": 3,
@@ -56,17 +56,17 @@
         },
         {
           "num": 7,
-          "body": "已知 $\\sin\\alpha=-\\frac{12}{13}$，并且 $\\pi&#x3C;\\alpha&#x3C;\\frac{3\\pi}{2}$，求 $\\cos\\frac{\\alpha}{2}$.",
+          "body": "已知 $\\sin\\alpha=-\\frac{12}{13}$，并且 $\\pi<\\alpha<\\frac{3\\pi}{2}$，求 $\\cos\\frac{\\alpha}{2}$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $\\pi&#x3C;\\alpha&#x3C;\\frac{3\\pi}{2}$，知 $\\alpha$ 在第三象限，所以 $\\cos\\alpha&#x3C;0$. 由平方关系</p>\n$$\n\\cos^{2}\\alpha=1-\\sin^{2}\\alpha=1-\\left(-\\frac{12}{13}\\right)^{2}=1-\\frac{144}{169}=\\frac{25}{169}\n$$\n<p>并结合 $\\cos\\alpha&#x3C;0$，得到</p>\n$$\n\\cos\\alpha=-\\frac{5}{13}\n$$\n<p>将 $\\pi&#x3C;\\alpha&#x3C;\\frac{3\\pi}{2}$ 同除以 $2$，得</p>\n$$\n\\frac{\\pi}{2}&#x3C;\\frac{\\alpha}{2}&#x3C;\\frac{3\\pi}{4}\n$$\n<p>因此 $\\frac{\\alpha}{2}$ 在第二象限，$\\cos\\frac{\\alpha}{2}&#x3C;0$. 由半角公式</p>\n$$\n\\cos\\frac{\\alpha}{2}=-\\sqrt{\\frac{1+\\cos\\alpha}{2}}=-\\sqrt{\\frac{1-\\frac{5}{13}}{2}}=-\\sqrt{\\frac{4}{13}}=-\\frac{2\\sqrt{13}}{13}\n$$"
+          "solution": "<p>由 $\\pi<\\alpha<\\frac{3\\pi}{2}$，知 $\\alpha$ 在第三象限，所以 $\\cos\\alpha<0$. 由平方关系</p>\n$$\n\\cos^{2}\\alpha=1-\\sin^{2}\\alpha=1-\\left(-\\frac{12}{13}\\right)^{2}=1-\\frac{144}{169}=\\frac{25}{169}\n$$\n<p>并结合 $\\cos\\alpha<0$，得到</p>\n$$\n\\cos\\alpha=-\\frac{5}{13}\n$$\n<p>将 $\\pi<\\alpha<\\frac{3\\pi}{2}$ 同除以 $2$，得</p>\n$$\n\\frac{\\pi}{2}<\\frac{\\alpha}{2}<\\frac{3\\pi}{4}\n$$\n<p>因此 $\\frac{\\alpha}{2}$ 在第二象限，$\\cos\\frac{\\alpha}{2}<0$. 由半角公式</p>\n$$\n\\cos\\frac{\\alpha}{2}=-\\sqrt{\\frac{1+\\cos\\alpha}{2}}=-\\sqrt{\\frac{1-\\frac{5}{13}}{2}}=-\\sqrt{\\frac{4}{13}}=-\\frac{2\\sqrt{13}}{13}\n$$"
         },
         {
           "num": 8,
           "body": "三角形的三边长分别是 $4\\mathrm{~cm}$，$5\\mathrm{~cm}$，$\\sqrt{61}\\mathrm{~cm}$，求这个三角形内最大角的度数.",
           "choices": null,
           "answer": "",
-          "solution": "<p>先验证三条线段可以组成三角形. 因为 $\\sqrt{61}>5$，只需检查最长边对应的不等式：</p>\n$$\n\\sqrt{61}&#x3C;4+5=9\n$$\n<p>另外 $4+\\sqrt{61}>5$ 和 $5+\\sqrt{61}>4$ 显然成立，所以三条边确能组成三角形.</p><p>三角形中最长边所对的角最大. 设边长 $\\sqrt{61}\\mathrm{~cm}$ 所对的最大角为 $\\alpha$，由余弦定理</p>\n$$\n\\cos\\alpha=\\frac{4^{2}+5^{2}-\\left(\\sqrt{61}\\right)^{2}}{2\\times4\\times5}=\\frac{16+25-61}{40}=-\\frac{1}{2}\n$$\n<p>因为 $0^{\\circ}&#x3C;\\alpha&#x3C;180^{\\circ}$，余弦函数在该区间内严格递减，且 $\\cos120^{\\circ}=-\\frac{1}{2}$，所以 $\\alpha=120^{\\circ}$. 故这个三角形内最大的角是 $120^{\\circ}$.</p>"
+          "solution": "<p>先验证三条线段可以组成三角形. 因为 $\\sqrt{61}>5$，只需检查最长边对应的不等式：</p>\n$$\n\\sqrt{61}<4+5=9\n$$\n<p>另外 $4+\\sqrt{61}>5$ 和 $5+\\sqrt{61}>4$ 显然成立，所以三条边确能组成三角形.</p><p>三角形中最长边所对的角最大. 设边长 $\\sqrt{61}\\mathrm{~cm}$ 所对的最大角为 $\\alpha$，由余弦定理</p>\n$$\n\\cos\\alpha=\\frac{4^{2}+5^{2}-\\left(\\sqrt{61}\\right)^{2}}{2\\times4\\times5}=\\frac{16+25-61}{40}=-\\frac{1}{2}\n$$\n<p>因为 $0^{\\circ}<\\alpha<180^{\\circ}$，余弦函数在该区间内严格递减，且 $\\cos120^{\\circ}=-\\frac{1}{2}$，所以 $\\alpha=120^{\\circ}$. 故这个三角形内最大的角是 $120^{\\circ}$.</p>"
         },
         {
           "num": 9,
@@ -92,14 +92,14 @@
           "body": "解方程：$\\log_{16-3x}\\left(x-2\\right)=\\log_{8}\\left(2\\sqrt{2}\\right)$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>对数有意义要求真数为正、底数为正且底数不为 $1$，所以</p><p>$x-2>0$，$16-3x>0$，$16-3x\\neq1$.</p><p>这给出定义域</p><p>$2&#x3C;x&#x3C;\\frac{16}{3}$，$x\\neq5$.</p><p>又因为 $2\\sqrt{2}=2^{\\frac{3}{2}}=\\left(2^{3}\\right)^{\\frac{1}{2}}=8^{\\frac{1}{2}}$，所以</p>\n$$\n\\log_{8}\\left(2\\sqrt{2}\\right)=\\log_{8} 8^{\\frac{1}{2}}=\\frac{1}{2}\n$$\n<p>原方程化为</p>\n$$\n\\log_{16-3x}\\left(x-2\\right)=\\frac{1}{2}\n$$\n<p>在上述定义域内，依据对数的定义，这等价于</p>\n$$\nx-2=\\left(16-3x\\right)^{\\frac{1}{2}}\n$$\n<p>由于定义域给出 $x-2>0$，两边平方不会引入符号不满足原式的解，得</p>\n$$\n16-3x=(x-2)^{2}=x^{2}-4x+4\n$$\n<p>即</p>\n$$\nx^{2}-x-12=0=(x-4)(x+3)\n$$\n<p>候选值为 $x=4$ 或 $x=-3$. 其中 $x=-3$ 不满足 $x-2>0$，舍去；$x=4$ 满足 $2&#x3C;x&#x3C;\\frac{16}{3}$，且底数 $16-3x=4\\neq1$，代回原方程成立. 因此原方程的解为 $x=4$.</p>"
+          "solution": "<p>对数有意义要求真数为正、底数为正且底数不为 $1$，所以</p><p>$x-2>0$，$16-3x>0$，$16-3x\\neq1$.</p><p>这给出定义域</p><p>$2<x<\\frac{16}{3}$，$x\\neq5$.</p><p>又因为 $2\\sqrt{2}=2^{\\frac{3}{2}}=\\left(2^{3}\\right)^{\\frac{1}{2}}=8^{\\frac{1}{2}}$，所以</p>\n$$\n\\log_{8}\\left(2\\sqrt{2}\\right)=\\log_{8} 8^{\\frac{1}{2}}=\\frac{1}{2}\n$$\n<p>原方程化为</p>\n$$\n\\log_{16-3x}\\left(x-2\\right)=\\frac{1}{2}\n$$\n<p>在上述定义域内，依据对数的定义，这等价于</p>\n$$\nx-2=\\left(16-3x\\right)^{\\frac{1}{2}}\n$$\n<p>由于定义域给出 $x-2>0$，两边平方不会引入符号不满足原式的解，得</p>\n$$\n16-3x=(x-2)^{2}=x^{2}-4x+4\n$$\n<p>即</p>\n$$\nx^{2}-x-12=0=(x-4)(x+3)\n$$\n<p>候选值为 $x=4$ 或 $x=-3$. 其中 $x=-3$ 不满足 $x-2>0$，舍去；$x=4$ 满足 $2<x<\\frac{16}{3}$，且底数 $16-3x=4\\neq1$，代回原方程成立. 因此原方程的解为 $x=4$.</p>"
         },
         {
           "num": 12,
-          "body": "<p>已知 $0^{\\circ}&#x3C;x&#x3C;45^{\\circ}$，且有</p><p>$\\lg\\tan x-\\lg\\sin x=\\lg\\cos x-\\lg\\cot x+2\\lg3-\\frac{3}{2}\\lg2$，试求 $\\sin x-\\cos x$ 的值.</p>",
+          "body": "<p>已知 $0^{\\circ}<x<45^{\\circ}$，且有</p><p>$\\lg\\tan x-\\lg\\sin x=\\lg\\cos x-\\lg\\cot x+2\\lg3-\\frac{3}{2}\\lg2$，试求 $\\sin x-\\cos x$ 的值.</p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $0^{\\circ}&#x3C;x&#x3C;45^{\\circ}$，知 $\\sin x>0$、$\\cos x>0$、$\\tan x>0$、$\\cot x>0$，所以题中各个对数均有意义. 利用对数的商的运算性质和 $\\tan x=\\frac{\\sin x}{\\cos x}$，左边为</p>\n$$\n\\lg\\tan x-\\lg\\sin x  =\\lg\\frac{\\tan x}{\\sin x}=\\lg\\frac{1}{\\cos x}\n$$\n<p>右边利用 $\\cot x=\\frac{\\cos x}{\\sin x}$、$2\\lg3=\\lg9$ 和 $\\frac{3}{2}\\lg2=\\lg2^{\\frac{3}{2}}=\\lg(2\\sqrt{2})$，得</p>\n$$\n\\lg\\cos x-\\lg\\cot x+2\\lg3-\\frac{3}{2}\\lg2  =\\lg\\frac{\\cos x}{\\cot x}+\\lg9-\\lg(2\\sqrt{2})  =\\lg\\frac{9\\sin x}{2\\sqrt{2}}\n$$\n<p>因此</p>\n$$\n\\lg\\frac{1}{\\cos x}=\\lg\\frac{9\\sin x}{2\\sqrt{2}}\n$$\n<p>两边真数均为正，且 $\\lg t$ 在正数范围内为一一对应函数，故</p><p>$\\frac{1}{\\cos x}=\\frac{9\\sin x}{2\\sqrt{2}}$，$\\sin x\\cos x=\\frac{2\\sqrt{2}}{9}$.</p><p>由 $0^{\\circ}&#x3C;x&#x3C;45^{\\circ}$ 得 $\\sin x&#x3C;\\cos x$，所以 $\\sin x-\\cos x&#x3C;0$. 又</p>\n$$\n\\left(\\sin x-\\cos x\\right)^{2}  =\\sin^{2}x+\\cos^{2}x-2\\sin x\\cos x  =1-2\\sin x\\cos x  =1-\\frac{4\\sqrt{2}}{9}\n$$\n<p>于是</p>\n$$\n\\sin x-\\cos x=-\\sqrt{1-\\frac{4\\sqrt{2}}{9}}=-\\frac{\\sqrt{9-4\\sqrt{2}}}{3}\n$$\n<p>注意到 $9-4\\sqrt{2}=(2\\sqrt{2}-1)^{2}$，且 $2\\sqrt{2}-1>0$，所以</p>\n$$\n\\sin x-\\cos x=-\\frac{2\\sqrt{2}-1}{3}=\\frac{1-2\\sqrt{2}}{3}\n$$"
+          "solution": "<p>由 $0^{\\circ}<x<45^{\\circ}$，知 $\\sin x>0$、$\\cos x>0$、$\\tan x>0$、$\\cot x>0$，所以题中各个对数均有意义. 利用对数的商的运算性质和 $\\tan x=\\frac{\\sin x}{\\cos x}$，左边为</p>\n$$\n\\lg\\tan x-\\lg\\sin x  =\\lg\\frac{\\tan x}{\\sin x}=\\lg\\frac{1}{\\cos x}\n$$\n<p>右边利用 $\\cot x=\\frac{\\cos x}{\\sin x}$、$2\\lg3=\\lg9$ 和 $\\frac{3}{2}\\lg2=\\lg2^{\\frac{3}{2}}=\\lg(2\\sqrt{2})$，得</p>\n$$\n\\lg\\cos x-\\lg\\cot x+2\\lg3-\\frac{3}{2}\\lg2  =\\lg\\frac{\\cos x}{\\cot x}+\\lg9-\\lg(2\\sqrt{2})  =\\lg\\frac{9\\sin x}{2\\sqrt{2}}\n$$\n<p>因此</p>\n$$\n\\lg\\frac{1}{\\cos x}=\\lg\\frac{9\\sin x}{2\\sqrt{2}}\n$$\n<p>两边真数均为正，且 $\\lg t$ 在正数范围内为一一对应函数，故</p><p>$\\frac{1}{\\cos x}=\\frac{9\\sin x}{2\\sqrt{2}}$，$\\sin x\\cos x=\\frac{2\\sqrt{2}}{9}$.</p><p>由 $0^{\\circ}<x<45^{\\circ}$ 得 $\\sin x<\\cos x$，所以 $\\sin x-\\cos x<0$. 又</p>\n$$\n\\left(\\sin x-\\cos x\\right)^{2}  =\\sin^{2}x+\\cos^{2}x-2\\sin x\\cos x  =1-2\\sin x\\cos x  =1-\\frac{4\\sqrt{2}}{9}\n$$\n<p>于是</p>\n$$\n\\sin x-\\cos x=-\\sqrt{1-\\frac{4\\sqrt{2}}{9}}=-\\frac{\\sqrt{9-4\\sqrt{2}}}{3}\n$$\n<p>注意到 $9-4\\sqrt{2}=(2\\sqrt{2}-1)^{2}$，且 $2\\sqrt{2}-1>0$，所以</p>\n$$\n\\sin x-\\cos x=-\\frac{2\\sqrt{2}-1}{3}=\\frac{1-2\\sqrt{2}}{3}\n$$"
         },
         {
           "num": 13,

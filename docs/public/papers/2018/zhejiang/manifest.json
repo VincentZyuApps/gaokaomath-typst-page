@@ -59,10 +59,10 @@
           "num": 5,
           "body": "函数 $y=2^{|x|}\\sin 2x$ 的图象可能是（ ）",
           "choices": [
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q5_{c}hoice_{a}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q5_{c}hoice_{b}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q5_{c}hoice_{c}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q5_{c}hoice_{d}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$"
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q5_choice_a.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q5_choice_b.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q5_choice_c.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q5_choice_d.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$"
           ],
           "answer": "D",
           "solution": ""
@@ -81,7 +81,7 @@
         },
         {
           "num": 7,
-          "body": "<p>设 $0&#x3C;p&#x3C;1$，随机变量 $\\xi$ 的分布列是</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\dfrac{1-p}{2}$ </td><td style=\"text-align: center\"> $\\dfrac{1}{2}$ </td><td style=\"text-align: center\"> $\\dfrac{p}{2}$</td></tr></tbody></table></center><p>则当 $p$ 在 $(0,1)$ 内增大时，$D(\\xi)$（ ）</p>",
+          "body": "<p>设 $0<p<1$，随机变量 $\\xi$ 的分布列是</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\dfrac{1-p}{2}$ </td><td style=\"text-align: center\"> $\\dfrac{1}{2}$ </td><td style=\"text-align: center\"> $\\dfrac{p}{2}$</td></tr></tbody></table></center><p>则当 $p$ 在 $(0,1)$ 内增大时，$D(\\xi)$（ ）</p>",
           "choices": [
             "减小",
             "增大",
@@ -119,9 +119,9 @@
           "num": 10,
           "body": "已知 $a_{1}$，$a_{2}$，$a_{3}$，$a_{4}$ 成等比数列，且 $a_{1}+a_{2}+a_{3}+a_{4}=\\ln(a_{1}+a_{2}+a_{3})$. 若 $a_{1}>1$，则（ ）",
           "choices": [
-            "$a_{1}&#x3C;a_{3}$，$a_{2}&#x3C;a_{4}$",
-            "$a_{1}>a_{3}$，$a_{2}&#x3C;a_{4}$",
-            "$a_{1}&#x3C;a_{3}$，$a_{2}>a_{4}$",
+            "$a_{1}<a_{3}$，$a_{2}<a_{4}$",
+            "$a_{1}>a_{3}$，$a_{2}<a_{4}$",
+            "$a_{1}<a_{3}$，$a_{2}>a_{4}$",
             "$a_{1}>a_{3}$，$a_{2}>a_{4}$"
           ],
           "answer": "B",
@@ -162,9 +162,9 @@
         },
         {
           "num": 15,
-          "body": "<p>已知 $\\lambda\\in\\mathbb{R}$，函数</p><p><span class=\"macro macro-examdisplaycases\"></span>f(x)=<br>x-4, &#x26; x<span class=\"macro macro-ge\"></span><span class=\"macro macro-lambda\"></span>,<br class=\"linebreak\"><br>x^2-4x+3, &#x26; x&#x3C;<span class=\"macro macro-lambda\"></span><br></p><p>当 $\\lambda=2$ 时，不等式 $f(x)&#x3C;0$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. 若函数 $f(x)$ 恰有 $2$ 个零点，则 $\\lambda$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "body": "<p>已知 $\\lambda\\in\\mathbb{R}$，函数</p><p><span class=\"macro macro-examdisplaycases\"></span>f(x)=<br>x-4, & x<span class=\"macro macro-ge\"></span><span class=\"macro macro-lambda\"></span>,<br class=\"linebreak\"><br>x^2-4x+3, & x<<span class=\"macro macro-lambda\"></span><br></p><p>当 $\\lambda=2$ 时，不等式 $f(x)<0$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. 若函数 $f(x)$ 恰有 $2$ 个零点，则 $\\lambda$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
           "choices": null,
-          "answer": "$(1,4)$，$1&#x3C;\\lambda\\le3$ 或 $\\lambda>4$",
+          "answer": "$(1,4)$，$1<\\lambda\\le3$ 或 $\\lambda>4$",
           "solution": ""
         },
         {
@@ -209,17 +209,17 @@
         },
         {
           "num": 21,
-          "body": "<p>如图，已知点 $P$ 是 $y$ 轴左侧（不含 $y$ 轴）一点，抛物线 $C:y^{2}=4x$ 上存在不同的两点 $A$，$B$ 满足 $PA$，$PB$ 的中点均在 $C$ 上.</p><ol class=\"enumerate\"><li><p>设 $AB$ 中点为 $M$，证明：$PM$ 垂直于 $y$ 轴；</p></li><li><p>若 $P$ 是半椭圆 $x^{2}+\\dfrac{y^2}{4}=1$（$x&#x3C;0$）上的动点，求 $\\triangle PAB$ 面积的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，已知点 $P$ 是 $y$ 轴左侧（不含 $y$ 轴）一点，抛物线 $C:y^{2}=4x$ 上存在不同的两点 $A$，$B$ 满足 $PA$，$PB$ 的中点均在 $C$ 上.</p><ol class=\"enumerate\"><li><p>设 $AB$ 中点为 $M$，证明：$PM$ 垂直于 $y$ 轴；</p></li><li><p>若 $P$ 是半椭圆 $x^{2}+\\dfrac{y^2}{4}=1$（$x<0$）上的动点，求 $\\triangle PAB$ 面积的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $P=(u,v)$，并设 $A=(t_{1}^{2},2t_{1})$，$B=(t_{2}^{2},2t_{2})$，其中 $t_{1}\\ne t_{2}$. 因为线段 $PA$ 的中点在抛物线 $C$ 上，所以 $\\left(\\dfrac{u+t_1^2}{2},\\dfrac{v+2t_1}{2}\\right)$ 满足 $y^{2}=4x$，从而 $4t_{1}^{2}-4vt_{1}-v^{2}-8u=0$. 同理，$t_{2}$ 也满足这个方程. 因此由韦达定理，$t_{1}+t_{2}=v$，$t_{1}t_{2}=-\\dfrac{v^2+8u}{4}$. 设 $AB$ 的中点为 $M$，则 $M=\\left(\\dfrac{t_1^2+t_2^2}{2},t_{1}+t_{2}\\right)$，所以 $M$ 与 $P$ 的纵坐标相等. 又因为 $t_{1}\\ne t_{2}$，有 $(t_{1}-t_{2})^{2}=2(v^{2}+4u)>0$，从而 $M_{x}-u=\\dfrac{3v^2+4u}{4}>0$，故 $PM$ 是水平直线，从而 $PM\\perp y$ 轴.</p></li><li><p>设 $P=(-r,v)$，其中 $r>0$. 由 $P$ 在半椭圆上，得 $r^{2}+\\dfrac{v^2}{4}=1$，即 $v^{2}=4(1-r^{2})$. 又因为 $t_{1}\\ne t_{2}$，所以 $(t_{1}-t_{2})^{2}=(t_{1}+t_{2})^{2}-4t_{1}t_{2}=2(v^{2}+4u)=8(1-r-r^{2})>0$. 令 $r_{0}=\\dfrac{\\sqrt{5}-1}{2}$，则 $0&#x3C;r&#x3C;r_{0}$.</p><p>设 $M=(M_{x},v)$. 由上式及韦达定理，$M_{x}-u=\\dfrac{t_1^2+t_2^2}{2}-u=\\dfrac{3v^2+4u}{4}=3-3r^{2}-r=3(1-r-r^{2})+2r>0$. 又 $\\overrightarrow{AB}=(t_{2}-t_{1})(v,2)$，$\\overrightarrow{PM}=(M_{x}-u,0)$，故</p>\n$$\n[\\triangle PAB]=\\frac{1}{2}\\left|\\det\\left(\\overrightarrow{AB},\\overrightarrow{PM}\\right)\\right|=|t_{1}-t_{2}|(M_{x}-u)=2\\sqrt{2}(3-3r^{2}-r)\\sqrt{1-r-r^{2}}\n$$\n<p>在 $0&#x3C;r&#x3C;r_{0}$ 内，上式恒为正，且 $3-3r^{2}-r&#x3C;3$，$\\sqrt{1-r-r^{2}}&#x3C;1$，所以 $0&#x3C;[\\triangle PAB]&#x3C;6\\sqrt{2}$. 当 $r\\to0^{+}$ 时，面积趋近于 $6\\sqrt{2}$；当 $r\\to r_{0}^{-}$ 时，面积趋近于 $0$. 面积关于 $r$ 连续，故可取遍二者之间的所有值，取值范围为 $(0,6\\sqrt{2})$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $P=(u,v)$，并设 $A=(t_{1}^{2},2t_{1})$，$B=(t_{2}^{2},2t_{2})$，其中 $t_{1}\\ne t_{2}$. 因为线段 $PA$ 的中点在抛物线 $C$ 上，所以 $\\left(\\dfrac{u+t_1^2}{2},\\dfrac{v+2t_1}{2}\\right)$ 满足 $y^{2}=4x$，从而 $4t_{1}^{2}-4vt_{1}-v^{2}-8u=0$. 同理，$t_{2}$ 也满足这个方程. 因此由韦达定理，$t_{1}+t_{2}=v$，$t_{1}t_{2}=-\\dfrac{v^2+8u}{4}$. 设 $AB$ 的中点为 $M$，则 $M=\\left(\\dfrac{t_1^2+t_2^2}{2},t_{1}+t_{2}\\right)$，所以 $M$ 与 $P$ 的纵坐标相等. 又因为 $t_{1}\\ne t_{2}$，有 $(t_{1}-t_{2})^{2}=2(v^{2}+4u)>0$，从而 $M_{x}-u=\\dfrac{3v^2+4u}{4}>0$，故 $PM$ 是水平直线，从而 $PM\\perp y$ 轴.</p></li><li><p>设 $P=(-r,v)$，其中 $r>0$. 由 $P$ 在半椭圆上，得 $r^{2}+\\dfrac{v^2}{4}=1$，即 $v^{2}=4(1-r^{2})$. 又因为 $t_{1}\\ne t_{2}$，所以 $(t_{1}-t_{2})^{2}=(t_{1}+t_{2})^{2}-4t_{1}t_{2}=2(v^{2}+4u)=8(1-r-r^{2})>0$. 令 $r_{0}=\\dfrac{\\sqrt{5}-1}{2}$，则 $0<r<r_{0}$.</p><p>设 $M=(M_{x},v)$. 由上式及韦达定理，$M_{x}-u=\\dfrac{t_1^2+t_2^2}{2}-u=\\dfrac{3v^2+4u}{4}=3-3r^{2}-r=3(1-r-r^{2})+2r>0$. 又 $\\overrightarrow{AB}=(t_{2}-t_{1})(v,2)$，$\\overrightarrow{PM}=(M_{x}-u,0)$，故</p>\n$$\n[\\triangle PAB]=\\frac{1}{2}\\left|\\det\\left(\\overrightarrow{AB},\\overrightarrow{PM}\\right)\\right|=|t_{1}-t_{2}|(M_{x}-u)=2\\sqrt{2}(3-3r^{2}-r)\\sqrt{1-r-r^{2}}\n$$\n<p>在 $0<r<r_{0}$ 内，上式恒为正，且 $3-3r^{2}-r<3$，$\\sqrt{1-r-r^{2}}<1$，所以 $0<[\\triangle PAB]<6\\sqrt{2}$. 当 $r\\to0^{+}$ 时，面积趋近于 $6\\sqrt{2}$；当 $r\\to r_{0}^{-}$ 时，面积趋近于 $0$. 面积关于 $r$ 连续，故可取遍二者之间的所有值，取值范围为 $(0,6\\sqrt{2})$.</p></li></ol>"
         },
         {
           "num": 22,
           "body": "<p>已知函数 $f(x)=\\sqrt{x}-\\ln x$.</p><ol class=\"enumerate\"><li><p>若 $f(x)$ 在 $x=x_{1}$，$x_{2}$（$x_{1}\\ne x_{2}$）处导数相等，证明：$f(x_{1})+f(x_{2})>8-8\\ln2$；</p></li><li><p>若 $a\\le3-4\\ln2$，证明：对于任意 $k>0$，直线 $y=kx+a$ 与曲线 $y=f(x)$ 有唯一公共点.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $x>0$，且 $f'(x)=\\dfrac{1}{2\\sqrt{x}}-\\dfrac{1}{x}=\\dfrac{\\sqrt{x}-2}{2x}$. 令 $t_{i}=\\sqrt{x_{i}}>0$（$i=1$，$2$），由 $f'(x_{1})=f'(x_{2})$ 得 $\\dfrac{t_1-2}{2t_1^2}=\\dfrac{t_2-2}{2t_2^2}$. 因为 $t_{1}\\ne t_{2}$，约去因子 $t_{2}-t_{1}$ 后得 $t_{1}t_{2}=2(t_{1}+t_{2})$. 记 $s=t_{1}+t_{2}$，则 $t_{1}t_{2}=2s$. 由于 $t_{1}$，$t_{2}$ 是方程 $T^{2}-sT+2s=0$ 的两个不等正根，其判别式满足 $s^{2}-8s>0$，所以 $s>8$. 从而 $f(x_{1})+f(x_{2})=t_{1}+t_{2}-2\\ln(t_{1}t_{2})=s-2\\ln(2s)$. 令 $h(s)=s-2\\ln(2s)$，则当 $s>8$ 时，$h'(s)=1-\\dfrac{2}{s}>0$，故 $f(x_{1})+f(x_{2})>h(8)=8-2\\ln16=8-8\\ln2$.</p></li><li><p>令 $g_{k}(x)=f(x)-kx=\\sqrt{x}-\\ln x-kx$，其中 $x>0$. 当 $x\\to0^{+}$ 时，$g_{k}(x)\\to+\\infty$；当 $x\\to+\\infty$ 时，$g_{k}(x)\\to-\\infty$. 又令 $t=\\sqrt{x}$，则 $g_{k}'(t^{2})=\\dfrac{t-2-2kt^2}{2t^2}$.</p><p>当 $k\\ge\\dfrac1{16}$ 时，$2kt^{2}-t+2$ 的判别式 $1-16k\\le0$，且其首项系数为正，所以 $g_{k}'(t^{2})\\le0$，并且 $g_{k}$ 在 $(0,+\\infty)$ 上严格递减. 因此方程 $g_{k}(x)=a$ 有且仅有一个解.</p><p>当 $0&#x3C;k&#x3C;\\dfrac1{16}$ 时，方程 $2kt^{2}-t+2=0$ 有两个根 $t_{-}$，$t_{+}$，且 $2&#x3C;t_{-}&#x3C;4&#x3C;t_{+}$. 在临界点 $t>2$ 处，由 $g_{k}'(t^{2})=0$ 得 $k=\\dfrac{t-2}{2t^2}$，于是 $g_{k}(t^{2})=t-2\\ln t-kt^{2}=\\dfrac{t}{2}+1-2\\ln t$. 令 $\\varphi(t)=\\dfrac{t}{2}+1-2\\ln t$，则 $\\varphi'(t)=\\dfrac{t-4}{2t}&#x3C;0$（$2&#x3C;t&#x3C;4$），所以 $g_{k}(t_{-}^{2})=\\varphi(t_{-}) >\\varphi(4)=3-4\\ln2\\ge a$. 此时 $g_{k}$ 先减小至 $x=t_{-}^{2}$，再增大至 $x=t_{+}^{2}$，最后减小；两个临界点处的函数值都大于等于 $g_{k}(t_{-}^{2})>a$，结合两端极限，方程 $g_{k}(x)=a$ 只在最后的递减区间有一个解. 综上，对于任意 $k>0$，直线 $y=kx+a$ 与曲线 $y=f(x)$ 有唯一公共点.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $x>0$，且 $f'(x)=\\dfrac{1}{2\\sqrt{x}}-\\dfrac{1}{x}=\\dfrac{\\sqrt{x}-2}{2x}$. 令 $t_{i}=\\sqrt{x_{i}}>0$（$i=1$，$2$），由 $f'(x_{1})=f'(x_{2})$ 得 $\\dfrac{t_1-2}{2t_1^2}=\\dfrac{t_2-2}{2t_2^2}$. 因为 $t_{1}\\ne t_{2}$，约去因子 $t_{2}-t_{1}$ 后得 $t_{1}t_{2}=2(t_{1}+t_{2})$. 记 $s=t_{1}+t_{2}$，则 $t_{1}t_{2}=2s$. 由于 $t_{1}$，$t_{2}$ 是方程 $T^{2}-sT+2s=0$ 的两个不等正根，其判别式满足 $s^{2}-8s>0$，所以 $s>8$. 从而 $f(x_{1})+f(x_{2})=t_{1}+t_{2}-2\\ln(t_{1}t_{2})=s-2\\ln(2s)$. 令 $h(s)=s-2\\ln(2s)$，则当 $s>8$ 时，$h'(s)=1-\\dfrac{2}{s}>0$，故 $f(x_{1})+f(x_{2})>h(8)=8-2\\ln16=8-8\\ln2$.</p></li><li><p>令 $g_{k}(x)=f(x)-kx=\\sqrt{x}-\\ln x-kx$，其中 $x>0$. 当 $x\\to0^{+}$ 时，$g_{k}(x)\\to+\\infty$；当 $x\\to+\\infty$ 时，$g_{k}(x)\\to-\\infty$. 又令 $t=\\sqrt{x}$，则 $g_{k}'(t^{2})=\\dfrac{t-2-2kt^2}{2t^2}$.</p><p>当 $k\\ge\\dfrac1{16}$ 时，$2kt^{2}-t+2$ 的判别式 $1-16k\\le0$，且其首项系数为正，所以 $g_{k}'(t^{2})\\le0$，并且 $g_{k}$ 在 $(0,+\\infty)$ 上严格递减. 因此方程 $g_{k}(x)=a$ 有且仅有一个解.</p><p>当 $0<k<\\dfrac1{16}$ 时，方程 $2kt^{2}-t+2=0$ 有两个根 $t_{-}$，$t_{+}$，且 $2<t_{-}<4<t_{+}$. 在临界点 $t>2$ 处，由 $g_{k}'(t^{2})=0$ 得 $k=\\dfrac{t-2}{2t^2}$，于是 $g_{k}(t^{2})=t-2\\ln t-kt^{2}=\\dfrac{t}{2}+1-2\\ln t$. 令 $\\varphi(t)=\\dfrac{t}{2}+1-2\\ln t$，则 $\\varphi'(t)=\\dfrac{t-4}{2t}<0$（$2<t<4$），所以 $g_{k}(t_{-}^{2})=\\varphi(t_{-}) >\\varphi(4)=3-4\\ln2\\ge a$. 此时 $g_{k}$ 先减小至 $x=t_{-}^{2}$，再增大至 $x=t_{+}^{2}$，最后减小；两个临界点处的函数值都大于等于 $g_{k}(t_{-}^{2})>a$，结合两端极限，方程 $g_{k}(x)=a$ 只在最后的递减区间有一个解. 综上，对于任意 $k>0$，直线 $y=kx+a$ 与曲线 $y=f(x)$ 有唯一公共点.</p></li></ol>"
         }
       ]
     }

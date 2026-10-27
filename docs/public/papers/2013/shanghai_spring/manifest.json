@@ -40,7 +40,7 @@
           "body": "已知向量 $\\mathbf{a}= (1, k)$，$\\mathbf{b}= (9, k - 6)$. 若 $\\mathbf{a}\\parallel \\mathbf{b}$，则实数 $k =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$-\\frac{3}{4}$",
-          "solution": "<p>两向量平行的充要条件是其坐标行列式为零. 因而</p>\n$$\n\\begin{vmatrix}1&#x26;k\\\\9&#x26;k-6\\end{vmatrix}=1\\cdot(k-6)-9k=0\n$$\n<p>解得 $-8k-6=0$，即 $k=-\\frac{3}{4}$. 两向量的第一坐标均非零，不存在零向量的额外情形.</p>"
+          "solution": "<p>两向量平行的充要条件是其坐标行列式为零. 因而</p>\n$$\n\\begin{vmatrix}1&k\\\\9&k-6\\end{vmatrix}=1\\cdot(k-6)-9k=0\n$$\n<p>解得 $-8k-6=0$，即 $k=-\\frac{3}{4}$. 两向量的第一坐标均非零，不存在零向量的额外情形.</p>"
         },
         {
           "num": 6,
@@ -68,7 +68,7 @@
           "body": "<p>在如图所示的正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，异面直线 $A_{1}B$ 与 $B_{1}C$ 所成角的大小为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$\\frac{\\pi}{3}$",
-          "solution": "<p>设正方体棱长为 $s$. 取坐标 $A(0,0,0)$、$B(s,0,0)$、$C(s,s,0)$、$A_{1}(0,0,s)$、$B_{1}(s,0,s)$. 则</p><p>$\\overrightarrow{A_1B}=(s,0,-s)$，$\\overrightarrow{B_1C}=(0,s,-s)$.</p><p>两向量的夹角就是两异面直线所成的锐角，且</p>\n$$\n\\cos\\theta=\\frac{\\overrightarrow{A_1B}\\cdot\\overrightarrow{B_1C}}{|\\overrightarrow{A_1B}|\\,|\\overrightarrow{B_1C}|}=\\frac{s^{2}}{(s\\sqrt{2})(s\\sqrt{2})}=\\frac{1}{2}\n$$\n<p>由于 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$，故 $\\theta=\\frac{\\pi}{3}$.</p>"
+          "solution": "<p>设正方体棱长为 $s$. 取坐标 $A(0,0,0)$、$B(s,0,0)$、$C(s,s,0)$、$A_{1}(0,0,s)$、$B_{1}(s,0,s)$. 则</p><p>$\\overrightarrow{A_1B}=(s,0,-s)$，$\\overrightarrow{B_1C}=(0,s,-s)$.</p><p>两向量的夹角就是两异面直线所成的锐角，且</p>\n$$\n\\cos\\theta=\\frac{\\overrightarrow{A_1B}\\cdot\\overrightarrow{B_1C}}{|\\overrightarrow{A_1B}|\\,|\\overrightarrow{B_1C}|}=\\frac{s^{2}}{(s\\sqrt{2})(s\\sqrt{2})}=\\frac{1}{2}\n$$\n<p>由于 $0<\\theta<\\frac{\\pi}{2}$，故 $\\theta=\\frac{\\pi}{3}$.</p>"
         },
         {
           "num": 10,
@@ -100,13 +100,13 @@
           "num": 13,
           "body": "展开式为 $ad-bc$ 的行列式是（ ）",
           "choices": [
-            "$\\begin{vmatrix}a &#x26; b \\\\ d &#x26; c\\end{vmatrix}$",
-            "$\\begin{vmatrix}a &#x26; c \\\\ b &#x26; d\\end{vmatrix}$",
-            "$\\begin{vmatrix}a &#x26; d \\\\ b &#x26; c\\end{vmatrix}$",
-            "$\\begin{vmatrix}b &#x26; a \\\\ d &#x26; c\\end{vmatrix}$"
+            "$\\begin{vmatrix}a & b \\\\ d & c\\end{vmatrix}$",
+            "$\\begin{vmatrix}a & c \\\\ b & d\\end{vmatrix}$",
+            "$\\begin{vmatrix}a & d \\\\ b & c\\end{vmatrix}$",
+            "$\\begin{vmatrix}b & a \\\\ d & c\\end{vmatrix}$"
           ],
           "answer": "B",
-          "solution": "<p>二阶行列式满足 $\\begin{vmatrix}u&#x26;v\\\\w&#x26;t\\end{vmatrix}=ut-vw$. 四个选项的展开式中，只有</p>\n$$\n\\begin{vmatrix}a&#x26;c\\\\b&#x26;d\\end{vmatrix}=ad-bc\n$$\n<p>因此应选 B.</p>"
+          "solution": "<p>二阶行列式满足 $\\begin{vmatrix}u&v\\\\w&t\\end{vmatrix}=ut-vw$. 四个选项的展开式中，只有</p>\n$$\n\\begin{vmatrix}a&c\\\\b&d\\end{vmatrix}=ad-bc\n$$\n<p>因此应选 B.</p>"
         },
         {
           "num": 14,
@@ -142,19 +142,19 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_spring/q16_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "<p>函数 $f(x)=x^{-\\frac{1}{2}}=\\frac{1}{\\sqrt{x}}$ 的定义域为 $x>0$，函数值始终为正. 且</p><p>$f'(x)=-\\frac{1}{2x^{\\frac{3}{2}}}&#x3C;0$，（$x>0$），</p><p>所以图像在第一象限内从左上方向右下方递减. 四个图像中符合这一特征的是 A.</p>"
+          "solution": "<p>函数 $f(x)=x^{-\\frac{1}{2}}=\\frac{1}{\\sqrt{x}}$ 的定义域为 $x>0$，函数值始终为正. 且</p><p>$f'(x)=-\\frac{1}{2x^{\\frac{3}{2}}}<0$，（$x>0$），</p><p>所以图像在第一象限内从左上方向右下方递减. 四个图像中符合这一特征的是 A.</p>"
         },
         {
           "num": 17,
-          "body": "如果 $a &#x3C; b &#x3C; 0$，那么下列不等式成立的是（ ）",
+          "body": "如果 $a < b < 0$，那么下列不等式成立的是（ ）",
           "choices": [
-            "$\\frac{1}{a}&#x3C; \\frac{1}{b}$",
-            "$ab &#x3C; b^{2}$",
-            "$-ab &#x3C; -a^{2}$",
-            "$-\\frac{1}{a}&#x3C; -\\frac{1}{b}$"
+            "$\\frac{1}{a}< \\frac{1}{b}$",
+            "$ab < b^{2}$",
+            "$-ab < -a^{2}$",
+            "$-\\frac{1}{a}< -\\frac{1}{b}$"
           ],
           "answer": "D",
-          "solution": "因为 $a&#x3C;b&#x3C;0$，函数 $y=\\frac{1}{x}$ 在负半轴上递减，所以 $\\frac{1}{a}>\\frac{1}{b}$，选项 A 不成立. 又因 $b&#x3C;0$，由 $a&#x3C;b$ 得 $ab>b^{2}$，选项 B 不成立；由 $a&#x3C;0$ 且 $b-a>0$ 得 $a(b-a)&#x3C;0$，即 $ab&#x3C;a^{2}$，所以 $-ab>-a^{2}$，选项 C 不成立. 将 $\\frac{1}{a}>\\frac{1}{b}$ 两边乘以 $-1$，得 $-\\frac{1}{a}&#x3C;-\\frac{1}{b}$，故应选 D."
+          "solution": "因为 $a<b<0$，函数 $y=\\frac{1}{x}$ 在负半轴上递减，所以 $\\frac{1}{a}>\\frac{1}{b}$，选项 A 不成立. 又因 $b<0$，由 $a<b$ 得 $ab>b^{2}$，选项 B 不成立；由 $a<0$ 且 $b-a>0$ 得 $a(b-a)<0$，即 $ab<a^{2}$，所以 $-ab>-a^{2}$，选项 C 不成立. 将 $\\frac{1}{a}>\\frac{1}{b}$ 两边乘以 $-1$，得 $-\\frac{1}{a}<-\\frac{1}{b}$，故应选 D."
         },
         {
           "num": 18,
@@ -190,7 +190,7 @@
             "$y = \\cos 2x$"
           ],
           "answer": "B",
-          "solution": "$y=\\sin x$ 和 $y=\\sin2x$ 都是奇函数，不符合偶函数条件. $y=\\cos x$ 是偶函数，且在 $0&#x3C;x&#x3C;\\pi$ 时有 $y'=-\\sin x&#x3C;0$，因此单调递减. 虽然 $y=\\cos2x$ 也是偶函数，但其导数 $-2\\sin2x$ 在 $(0,\\frac{\\pi}{2})$ 与 $(\\frac{\\pi}{2},\\pi)$ 上符号不同，不是整个区间上的单调递减函数. 故选 B."
+          "solution": "$y=\\sin x$ 和 $y=\\sin2x$ 都是奇函数，不符合偶函数条件. $y=\\cos x$ 是偶函数，且在 $0<x<\\pi$ 时有 $y'=-\\sin x<0$，因此单调递减. 虽然 $y=\\cos2x$ 也是偶函数，但其导数 $-2\\sin2x$ 在 $(0,\\frac{\\pi}{2})$ 与 $(\\frac{\\pi}{2},\\pi)$ 上符号不同，不是整个区间上的单调递减函数. 故选 B."
         },
         {
           "num": 21,
@@ -218,7 +218,7 @@
         },
         {
           "num": 23,
-          "body": "已知 $a$，$b$，$c \\in \\mathbb{R}$，“$b^{2} - 4ac &#x3C; 0$”是“函数 $f(x) = ax^{2} + bx + c$ 的图像恒在 $x$ 轴上方”的（ ）",
+          "body": "已知 $a$，$b$，$c \\in \\mathbb{R}$，“$b^{2} - 4ac < 0$”是“函数 $f(x) = ax^{2} + bx + c$ 的图像恒在 $x$ 轴上方”的（ ）",
           "choices": [
             "充分非必要条件",
             "必要非充分条件",
@@ -226,7 +226,7 @@
             "既非充分又非必要条件"
           ],
           "answer": "D",
-          "solution": "<p>按题面只给出 $a$，$b$，$c\\in\\mathbb{R}$，因此允许 $a=0$. 先看充分性：取 $a=-1$，$b=0$，$c=-1$，则</p><p>$b^{2}-4ac=-4&#x3C;0$，但 $f(x)=-x^{2}-1&#x3C;0$，图像在 $x$ 轴下方，故该条件不是充分条件.</p><p>再看必要性：取 $a=0$，$b=0$，$c=1$，则 $f(x)=1$ 的图像恒在 $x$ 轴上方，但 $b^{2}-4ac=0$，不满足小于零，故该条件也不是必要条件. 因而它既非充分又非必要，应选 D.</p>"
+          "solution": "<p>按题面只给出 $a$，$b$，$c\\in\\mathbb{R}$，因此允许 $a=0$. 先看充分性：取 $a=-1$，$b=0$，$c=-1$，则</p><p>$b^{2}-4ac=-4<0$，但 $f(x)=-x^{2}-1<0$，图像在 $x$ 轴下方，故该条件不是充分条件.</p><p>再看必要性：取 $a=0$，$b=0$，$c=1$，则 $f(x)=1$ 的图像恒在 $x$ 轴上方，但 $b^{2}-4ac=0$，不满足小于零，故该条件也不是必要条件. 因而它既非充分又非必要，应选 D.</p>"
         },
         {
           "num": 24,
@@ -238,7 +238,7 @@
             "双曲线"
           ],
           "answer": "C",
-          "solution": "<p>设 $AB=L>0$，取 $AB$ 为 $x$ 轴，令 $A=(0,0)$、$B=(L,0)$、$N=(t,0)$、$M=(t,y)$. 则</p><p>$\\overrightarrow{MN}=(0,-y)$，$\\overrightarrow{AN}=(t,0)$，$\\overrightarrow{NB}=(L-t,0)$，</p><p>从而轨迹满足</p>\n$$\ny^{2}=\\lambda t(L-t)\n$$\n<p>当 $\\lambda>0$ 且 $0\\le t\\le L$ 时，配方得</p>\n$$\n\\frac{(t-\\frac{L}{2})^{2}}{\\frac{L^{2}}{4}}+\\frac{y^{2}}{\\lambda \\frac{L^{2}}{4}}=1\n$$\n<p>这是椭圆，且 $\\lambda=1$ 时为圆. 当 $\\lambda&#x3C;0$ 时，令 $\\mu=-\\lambda>0$，则</p>\n$$\ny^{2}=\\mu t(t-L)\n$$\n<p>即</p>\n$$\n\\frac{(t-\\frac{L}{2})^{2}}{\\frac{L^{2}}{4}}-\\frac{y^{2}}{\\mu \\frac{L^{2}}{4}}=1\n$$\n<p>这是双曲线. 当 $\\lambda=0$ 时，轨迹退化为直线 $y=0$. 因而无论哪种情况都不可能得到抛物线，所以应选 C.</p>"
+          "solution": "<p>设 $AB=L>0$，取 $AB$ 为 $x$ 轴，令 $A=(0,0)$、$B=(L,0)$、$N=(t,0)$、$M=(t,y)$. 则</p><p>$\\overrightarrow{MN}=(0,-y)$，$\\overrightarrow{AN}=(t,0)$，$\\overrightarrow{NB}=(L-t,0)$，</p><p>从而轨迹满足</p>\n$$\ny^{2}=\\lambda t(L-t)\n$$\n<p>当 $\\lambda>0$ 且 $0\\le t\\le L$ 时，配方得</p>\n$$\n\\frac{(t-\\frac{L}{2})^{2}}{\\frac{L^{2}}{4}}+\\frac{y^{2}}{\\lambda \\frac{L^{2}}{4}}=1\n$$\n<p>这是椭圆，且 $\\lambda=1$ 时为圆. 当 $\\lambda<0$ 时，令 $\\mu=-\\lambda>0$，则</p>\n$$\ny^{2}=\\mu t(t-L)\n$$\n<p>即</p>\n$$\n\\frac{(t-\\frac{L}{2})^{2}}{\\frac{L^{2}}{4}}-\\frac{y^{2}}{\\mu \\frac{L^{2}}{4}}=1\n$$\n<p>这是双曲线. 当 $\\lambda=0$ 时，轨迹退化为直线 $y=0$. 因而无论哪种情况都不可能得到抛物线，所以应选 C.</p>"
         }
       ]
     },
@@ -257,7 +257,7 @@
           "body": "<p>如图，某校有一块形如直角三角形 $ABC$ 的空地，其中 $\\angle B$ 为直角，$AB$ 长 $40\\text{ 米}$，$BC$ 长 $50\\text{ 米}$，现欲在此空地上建造一间健身房，其占地形状为矩形，且 $B$ 为矩形的一个顶点，求该健身房的最大占地面积.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q26_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设矩形为 $EBFP$，$FP$ 长为 $x\\text{ 米}$，其中 $0&#x3C;x&#x3C;40$.</p><p>健身房占地面积为 $y\\text{ 平方米}$. 因为 $\\triangle CFP\\sim\\triangle CBA$，$\\frac{FP}{BA}=\\frac{CF}{CB}$，即 $\\frac{x}{40}=\\frac{50-BF}{50}$，求得 $BF=50-\\frac{5}{4}x$.</p><p>从而</p>\n$$\ny=BF\\cdot FP=\\left(50-\\frac{5}{4}x\\right)x=-\\frac{5}{4}x^{2}+50x=-\\frac{5}{4}(x-20)^{2}+500\\le 500\n$$\n<p>当且仅当 $x=20$ 时，等号成立.</p><p>答：该健身房的最大占地面积为 $500\\text{ 平方米}$.</p>"
+          "solution": "<p>设矩形为 $EBFP$，$FP$ 长为 $x\\text{ 米}$，其中 $0<x<40$.</p><p>健身房占地面积为 $y\\text{ 平方米}$. 因为 $\\triangle CFP\\sim\\triangle CBA$，$\\frac{FP}{BA}=\\frac{CF}{CB}$，即 $\\frac{x}{40}=\\frac{50-BF}{50}$，求得 $BF=50-\\frac{5}{4}x$.</p><p>从而</p>\n$$\ny=BF\\cdot FP=\\left(50-\\frac{5}{4}x\\right)x=-\\frac{5}{4}x^{2}+50x=-\\frac{5}{4}(x-20)^{2}+500\\le 500\n$$\n<p>当且仅当 $x=20$ 时，等号成立.</p><p>答：该健身房的最大占地面积为 $500\\text{ 平方米}$.</p>"
         },
         {
           "num": 27,
@@ -285,7 +285,7 @@
           "body": "<p>在平面直角坐标系 $xOy$ 中，点 $A$ 在 $y$ 轴正半轴上，点 $P_{n}$ 在 $x$ 轴上，其横坐标为 $x_{n}$，且 $\\{x_{n}\\}$ 是首项为 $1$，公比为 $2$ 的等比数列，记 $\\angle P_{n}AP_{n+1}= \\theta_{n}$，$n \\in \\mathbb{N}^{*}$.</p><ol class=\"enumerate\"><li><p>若 $\\theta_{3}=\\arctan\\frac{1}{3}$，求点 $A$ 的坐标；</p></li><li><p>若点 $A$ 的坐标为 $(0, 8\\sqrt{2})$，求 $\\theta_{n}$ 的最大值及相应 $n$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q30_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $A(0,t)$. 根据题意，$P_{n}=(2^{n-1},0)$. 由 $\\theta_{3}=\\arctan\\frac{1}{3}$，</p>\n$$\n\\tan\\theta_{3}=\\tan(\\angle OAP_{4}-\\angle OAP_{3})=\\frac{\\frac{x_{4}}{t}-\\frac{x_{3}}{t}}{1+\\frac{x_{4}x_{3}}{t^{2}}}=\\frac{4t}{t^{2}+32}=\\frac{1}{3}\n$$\n<p>解得 $t=4$ 或 $t=8$，故点 $A$ 的坐标为 $(0,4)$ 或 $(0,8)$.</p></li><li><p>由题意 $A=(0,8\\sqrt{2})$，且 $\\tan\\angle OAP_{n}=\\frac{2^{n-1}}{8\\sqrt{2}}$. 因此</p>\n$$\n\\tan\\theta_{n}=\\frac{\\frac{2^{n}}{8\\sqrt{2}}-\\frac{2^{n-1}}{8\\sqrt{2}}}{1+\\frac{2^{n}}{8\\sqrt{2}}\\cdot\\frac{2^{n-1}}{8\\sqrt{2}}}=\\frac{1}{\\frac{16\\sqrt{2}}{2^{n}}+\\frac{2^{n}}{8\\sqrt{2}}}\n$$\n<p>由均值不等式，</p>\n$$\n\\frac{16\\sqrt{2}}{2^{n}}+\\frac{2^{n}}{8\\sqrt{2}}\\ge 2\\sqrt{2}\n$$\n<p>且当且仅当 $n=4$ 时取等号. 由于 $0&#x3C;\\theta_{n}&#x3C;\\frac{\\pi}{2}$，故 $\\theta_{n}$ 的最大值为 $\\arctan\\frac{\\sqrt{2}}{4}$，相应 $n=4$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $A(0,t)$. 根据题意，$P_{n}=(2^{n-1},0)$. 由 $\\theta_{3}=\\arctan\\frac{1}{3}$，</p>\n$$\n\\tan\\theta_{3}=\\tan(\\angle OAP_{4}-\\angle OAP_{3})=\\frac{\\frac{x_{4}}{t}-\\frac{x_{3}}{t}}{1+\\frac{x_{4}x_{3}}{t^{2}}}=\\frac{4t}{t^{2}+32}=\\frac{1}{3}\n$$\n<p>解得 $t=4$ 或 $t=8$，故点 $A$ 的坐标为 $(0,4)$ 或 $(0,8)$.</p></li><li><p>由题意 $A=(0,8\\sqrt{2})$，且 $\\tan\\angle OAP_{n}=\\frac{2^{n-1}}{8\\sqrt{2}}$. 因此</p>\n$$\n\\tan\\theta_{n}=\\frac{\\frac{2^{n}}{8\\sqrt{2}}-\\frac{2^{n-1}}{8\\sqrt{2}}}{1+\\frac{2^{n}}{8\\sqrt{2}}\\cdot\\frac{2^{n-1}}{8\\sqrt{2}}}=\\frac{1}{\\frac{16\\sqrt{2}}{2^{n}}+\\frac{2^{n}}{8\\sqrt{2}}}\n$$\n<p>由均值不等式，</p>\n$$\n\\frac{16\\sqrt{2}}{2^{n}}+\\frac{2^{n}}{8\\sqrt{2}}\\ge 2\\sqrt{2}\n$$\n<p>且当且仅当 $n=4$ 时取等号. 由于 $0<\\theta_{n}<\\frac{\\pi}{2}$，故 $\\theta_{n}$ 的最大值为 $\\arctan\\frac{\\sqrt{2}}{4}$，相应 $n=4$.</p></li></ol>"
         },
         {
           "num": 31,

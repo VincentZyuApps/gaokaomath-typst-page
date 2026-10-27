@@ -12,12 +12,12 @@
           "body": "已知集合 $A = \\{x \\mid x^{2} - 5x + 6 \\le 0\\}$，集合 $B = \\{x \\mid |2x - 1| > 3\\}$，则集合 $A \\cap B =$（ ）",
           "choices": [
             "$\\{x\\mid 2\\le x\\le 3\\}$",
-            "$\\{x\\mid 2\\le x &#x3C; 3\\}$",
-            "$\\{x\\mid 2 &#x3C; x\\le 3\\}$",
-            "$\\{x\\mid -1 &#x3C; x &#x3C; 3\\}$"
+            "$\\{x\\mid 2\\le x < 3\\}$",
+            "$\\{x\\mid 2 < x\\le 3\\}$",
+            "$\\{x\\mid -1 < x < 3\\}$"
           ],
           "answer": "C",
-          "solution": "由 $x^{2}-5x+6=(x-2)(x-3)$，得 $A=[2,3]$. 由 $|2x-1|>3$，得 $x>2$ 或 $x&#x3C;-1$，所以 $A\\cap B=(2,3]$，故选 C."
+          "solution": "由 $x^{2}-5x+6=(x-2)(x-3)$，得 $A=[2,3]$. 由 $|2x-1|>3$，得 $x>2$ 或 $x<-1$，所以 $A\\cap B=(2,3]$，故选 C."
         },
         {
           "num": 2,
@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "已知 $f(x)=\\begin{cases}2x+3,&#x26;x\\ne 1,\\\\  2,&#x26;x=1,\\end{cases}$ 下面结论正确的是（ ）",
+          "body": "已知 $f(x)=\\begin{cases}2x+3,&x\\ne 1,\\\\  2,&x=1,\\end{cases}$ 下面结论正确的是（ ）",
           "choices": [
             "$f(x)$ 在 $x = 1$ 处连续",
             "$f(1) = 5$",
@@ -189,7 +189,7 @@
           "body": "<p>已知 $A$，$B$，$C$ 是 $\\triangle ABC$ 三内角，向量 $\\mathbf{m}=(-1,\\sqrt{3})$，$\\mathbf{n}=(\\cos A,\\sin A)$，且 $\\mathbf{m}\\cdot \\mathbf{n}=1$.</p><ol class=\"enumerate\"><li><p>求角 $A$；</p></li><li><p>若 $\\frac{1+\\sin2B}{\\cos^{2}B-\\sin^{2}B}=-3$，求 $\\tan C$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $\\mathbf{m}\\cdot\\mathbf{n}=1$，得 $-\\cos A+\\sqrt{3}\\sin A=1$，即 $2\\sin\\left(A-\\frac{\\pi}{6}\\right)=1$. 因为 $0&#x3C;A&#x3C;\\pi$，所以 $-\\frac{\\pi}{6}&#x3C;A-\\frac{\\pi}{6}&#x3C;\\frac{5\\pi}{6}$，在此范围内只有 $A-\\frac{\\pi}{6}=\\frac{\\pi}{6}$ 满足条件，故 $A=\\frac{\\pi}{3}$.</p></li><li><p>由题设 $\\cos^{2}B-\\sin^{2}B=\\cos2B$，且 $1+\\sin2B=(\\sin B+\\cos B)^{2}$，原式化为</p>\n$$\n\\frac{\\sin B+\\cos B}{\\cos B-\\sin B}=-3\n$$\n<p>题式有意义时分母不为零，故 $\\sin B+\\cos B=-3(\\cos B-\\sin B)$，从而 $2\\sin B=4\\cos B$，即 $\\tan B=2$. 由于 $B$ 是三角形内角，得 $B=\\arctan2$. 于是 $C=\\pi-A-B=\\frac{2\\pi}{3}-B$，所以</p>\n$$\n\\tan C=\\frac{-\\sqrt{3}-2}{1-2\\sqrt{3}}=\\frac{8+5\\sqrt{3}}{11}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $\\mathbf{m}\\cdot\\mathbf{n}=1$，得 $-\\cos A+\\sqrt{3}\\sin A=1$，即 $2\\sin\\left(A-\\frac{\\pi}{6}\\right)=1$. 因为 $0<A<\\pi$，所以 $-\\frac{\\pi}{6}<A-\\frac{\\pi}{6}<\\frac{5\\pi}{6}$，在此范围内只有 $A-\\frac{\\pi}{6}=\\frac{\\pi}{6}$ 满足条件，故 $A=\\frac{\\pi}{3}$.</p></li><li><p>由题设 $\\cos^{2}B-\\sin^{2}B=\\cos2B$，且 $1+\\sin2B=(\\sin B+\\cos B)^{2}$，原式化为</p>\n$$\n\\frac{\\sin B+\\cos B}{\\cos B-\\sin B}=-3\n$$\n<p>题式有意义时分母不为零，故 $\\sin B+\\cos B=-3(\\cos B-\\sin B)$，从而 $2\\sin B=4\\cos B$，即 $\\tan B=2$. 由于 $B$ 是三角形内角，得 $B=\\arctan2$. 于是 $C=\\pi-A-B=\\frac{2\\pi}{3}-B$，所以</p>\n$$\n\\tan C=\\frac{-\\sqrt{3}-2}{1-2\\sqrt{3}}=\\frac{8+5\\sqrt{3}}{11}\n$$\n</li></ol>"
         },
         {
           "num": 18,
@@ -203,14 +203,14 @@
           "body": "<p>如图，在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$E$，$P$ 分别是 $BC$，$A_{1}D_{1}$ 的中点，$M$，$N$ 分别是 $AE$，$CD_{1}$ 的中点，$AD=AA_{1}=a$，$AB=2a$.</p><ol class=\"enumerate\"><li><p>求证：$MN\\parallel$ 面 $ADD_{1}A_{1}$；</p></li><li><p>求二面角 $P-AE-D$ 的大小；</p></li><li><p>求三棱锥 $P-DEN$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>建立直角坐标系，令 $A(0,0,0)$、$B(2a,0,0)$、$D(0,a,0)$、$A_{1}(0,0,a)$. 则</p><p>$E\\left(2a,\\frac{a}{2},0\\right)$，$P\\left(0,\\frac{a}{2},a\\right)$，</p><p>$M\\left(a,\\frac{a}{4},0\\right)$，$N\\left(a,a,\\frac{a}{2}\\right)$.</p><p>因此直线 $MN$ 上各点的横坐标均为 $a$，而平面 $ADD_{1}A_{1}$ 的方程为 $x=0$，故 $MN\\parallel$ 平面 $ADD_{1}A_{1}$.</p></li><li><p>平面 $AED$ 是底面，法向量可取 $\\mathbf{n}_{1}=(0,0,1)$. 取平面 $PAE$ 内的两个向量 $\\overrightarrow{AE}=a(2,\\frac{1}{2},0)$、$\\overrightarrow{AP}=a(0,\\frac{1}{2},1)$，则</p><p>$\\overrightarrow{AE}\\times\\overrightarrow{AP}=a^{2}(\\frac{1}{2},-2,1)$，故其法向量可取 $\\mathbf{n}_{2}=(\\frac{1}{2},-2,1)$. 所以二面角 $\\theta=P-AE-D$ 满足</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{2}{\\sqrt{21}}\n$$\n<p>进一步得到 $\\tan\\theta=\\frac{\\sqrt{17}}{2}$.</p><p>故二面角的大小为 $\\arctan\\frac{\\sqrt{17}}{2}$.</p></li><li><p>取 $P$ 为顶点，计算</p><p>$\\overrightarrow{PD}=a\\left(0,\\frac{1}{2},-1\\right)$，</p><p>$\\overrightarrow{PE}=a\\left(2,0,-1\\right)$，</p><p>$\\overrightarrow{PN}=a\\left(1,\\frac{1}{2},-\\frac{1}{2}\\right)$.</p><p>三棱锥体积为</p>\n$$\nV_{P-DEN}=\\frac{1}{6}\\left|\\det\\begin{pmatrix}0&#x26;2&#x26;1\\\\\n\n\\frac{1}{2}&#x26;0&#x26;\\frac{1}{2}\\\\\n\n-1&#x26;-1&#x26;-\\frac{1}{2}\\end{pmatrix}\\right|a^{3}=\\frac{a^{3}}{6}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>建立直角坐标系，令 $A(0,0,0)$、$B(2a,0,0)$、$D(0,a,0)$、$A_{1}(0,0,a)$. 则</p><p>$E\\left(2a,\\frac{a}{2},0\\right)$，$P\\left(0,\\frac{a}{2},a\\right)$，</p><p>$M\\left(a,\\frac{a}{4},0\\right)$，$N\\left(a,a,\\frac{a}{2}\\right)$.</p><p>因此直线 $MN$ 上各点的横坐标均为 $a$，而平面 $ADD_{1}A_{1}$ 的方程为 $x=0$，故 $MN\\parallel$ 平面 $ADD_{1}A_{1}$.</p></li><li><p>平面 $AED$ 是底面，法向量可取 $\\mathbf{n}_{1}=(0,0,1)$. 取平面 $PAE$ 内的两个向量 $\\overrightarrow{AE}=a(2,\\frac{1}{2},0)$、$\\overrightarrow{AP}=a(0,\\frac{1}{2},1)$，则</p><p>$\\overrightarrow{AE}\\times\\overrightarrow{AP}=a^{2}(\\frac{1}{2},-2,1)$，故其法向量可取 $\\mathbf{n}_{2}=(\\frac{1}{2},-2,1)$. 所以二面角 $\\theta=P-AE-D$ 满足</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{2}{\\sqrt{21}}\n$$\n<p>进一步得到 $\\tan\\theta=\\frac{\\sqrt{17}}{2}$.</p><p>故二面角的大小为 $\\arctan\\frac{\\sqrt{17}}{2}$.</p></li><li><p>取 $P$ 为顶点，计算</p><p>$\\overrightarrow{PD}=a\\left(0,\\frac{1}{2},-1\\right)$，</p><p>$\\overrightarrow{PE}=a\\left(2,0,-1\\right)$，</p><p>$\\overrightarrow{PN}=a\\left(1,\\frac{1}{2},-\\frac{1}{2}\\right)$.</p><p>三棱锥体积为</p>\n$$\nV_{P-DEN}=\\frac{1}{6}\\left|\\det\\begin{pmatrix}0&2&1\\\\\n\n\\frac{1}{2}&0&\\frac{1}{2}\\\\\n\n-1&-1&-\\frac{1}{2}\\end{pmatrix}\\right|a^{3}=\\frac{a^{3}}{6}\n$$\n</li></ol>"
         },
         {
           "num": 20,
           "body": "<p>已知数列 $\\{a_{n}\\}$，其中 $a_{1}=1$，$a_{2}=3$，$2a_{n}=a_{n+1}+a_{n-1}$（$n\\ge 2$）. 记数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，数列 $\\{\\ln S_{n}\\}$ 的前 $n$ 项和为 $U_{n}$.</p><ol class=\"enumerate\"><li><p>求 $U_{n}$；</p></li><li><p>设 $F_{n}(x)=\\frac{\\mathrm{e}^{U_n}}{2n(n!)^{2}}x^{2n}$（$x>0$），$T_{n}(x)=\\sum_{k=1}^{n}F_{k}'(x)$（其中 $F_{k}'(x)$ 为 $F_{k}(x)$ 的导函数），计算 $\\displaystyle\\lim_{n\\to\\infty}\\frac{T_{n}(x)}{T_{n+1}(x)}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由递推式得 $a_{n+1}-a_{n}=a_{n}-a_{n-1}$，所以数列为等差数列，公差为 $a_{2}-a_{1}=2$，从而 $a_{n}=2n-1$. 因此 $S_{n}=\\frac{n(1+2n-1)}{2}=n^{2}$，故</p>\n$$\nU_{n}=\\sum_{k=1}^{n}\\ln S_{k}=\\sum_{k=1}^{n}\\ln k^{2}=2\\sum_{k=1}^{n}\\ln k=2\\ln(n!)\n$$\n</li><li><p>由上一问 $\\mathrm{e}^{U_k}=(k!)^{2}$，所以 $F_{k}(x)=\\frac{x^{2k}}{2k}$，从而 $F_{k}'(x)=x^{2k-1}$. 因此</p>\n$$\nT_{n}(x)=\\sum_{k=1}^{n} x^{2k-1}\n$$\n<p>当 $0&#x3C;x&#x3C;1$ 时，$T_{n}(x)=\\frac{x(1-x^{2n})}{1-x^{2}}$，故 $\\displaystyle\\lim_{n\\to\\infty}\\frac{T_{n}(x)}{T_{n+1}(x)}=1$. 当 $x=1$ 时，$T_{n}(1)=n$，极限仍为 $1$. 当 $x>1$ 时，$T_{n}(x)=\\frac{x(x^{2n}-1)}{x^{2}-1}$，故极限为 $\\frac{1}{x^{2}}$. 综上，</p>\n$$\n\\lim_{n\\to\\infty}\\frac{T_{n}(x)}{T_{n+1}(x)}=  \\begin{cases}1,&#x26;0&#x3C;x\\leqslant1,\\\\  \\dfrac1{x^2},&#x26;x>1.\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由递推式得 $a_{n+1}-a_{n}=a_{n}-a_{n-1}$，所以数列为等差数列，公差为 $a_{2}-a_{1}=2$，从而 $a_{n}=2n-1$. 因此 $S_{n}=\\frac{n(1+2n-1)}{2}=n^{2}$，故</p>\n$$\nU_{n}=\\sum_{k=1}^{n}\\ln S_{k}=\\sum_{k=1}^{n}\\ln k^{2}=2\\sum_{k=1}^{n}\\ln k=2\\ln(n!)\n$$\n</li><li><p>由上一问 $\\mathrm{e}^{U_k}=(k!)^{2}$，所以 $F_{k}(x)=\\frac{x^{2k}}{2k}$，从而 $F_{k}'(x)=x^{2k-1}$. 因此</p>\n$$\nT_{n}(x)=\\sum_{k=1}^{n} x^{2k-1}\n$$\n<p>当 $0<x<1$ 时，$T_{n}(x)=\\frac{x(1-x^{2n})}{1-x^{2}}$，故 $\\displaystyle\\lim_{n\\to\\infty}\\frac{T_{n}(x)}{T_{n+1}(x)}=1$. 当 $x=1$ 时，$T_{n}(1)=n$，极限仍为 $1$. 当 $x>1$ 时，$T_{n}(x)=\\frac{x(x^{2n}-1)}{x^{2}-1}$，故极限为 $\\frac{1}{x^{2}}$. 综上，</p>\n$$\n\\lim_{n\\to\\infty}\\frac{T_{n}(x)}{T_{n+1}(x)}=  \\begin{cases}1,&0<x\\leqslant1,\\\\  \\dfrac1{x^2},&x>1.\\end{cases}\n$$\n</li></ol>"
         },
         {
           "num": 21,
@@ -224,7 +224,7 @@
           "body": "<p>已知函数 $f(x)=x^{2}+\\frac{2}{x}+a\\ln x$（$x>0$），$f(x)$ 的导函数是 $f'(x)$. 对任意两个不相等的正数 $x_{1}$，$x_{2}$，证明：</p><ol class=\"enumerate\"><li><p>当 $a\\le 0$ 时，$\\frac{f(x_{1})+f(x_{2})}{2}>f\\left(\\frac{x_{1}+x_{2}}{2}\\right)$；</p></li><li><p>当 $a\\le 4$ 时，$|f'(x_{1})-f'(x_{2})|>|x_{1}-x_{2}|$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=2x-\\frac{2}{x^{2}}+\\frac{a}{x}$，$f''(x)=2+\\frac{4}{x^{3}}-\\frac{a}{x^{2}}$. 当 $a\\leqslant0$ 且 $x>0$ 时，$f''(x)>0$，所以 $f'(x)$ 严格递增. 不妨设 $x_{1}&#x3C;x_{2}$，令 $u=\\frac{x_{1}+x_{2}}{2}$. 由拉格朗日中值定理，存在 $\\xi_{1}\\in(x_{1},u)$、$\\xi_{2}\\in(u,x_{2})$，分别满足</p><p>$\\frac{f(u)-f(x_{1})}{u-x_{1}}=f'(\\xi_{1})$ 和</p><p>$\\frac{f(x_{2})-f(u)}{x_{2}-u}=f'(\\xi_{2})$.</p><p>因为 $\\xi_{1}&#x3C;\\xi_{2}$，且 $f'$ 严格递增，又 $u-x_{1}=x_{2}-u$，所以 $f(u)-f(x_{1})&#x3C;f(x_{2})-f(u)$，即</p>\n$$\n\\frac{f(x_{1})+f(x_{2})}{2}>f\\left(\\frac{x_{1}+x_{2}}{2}\\right)\n$$\n</li><li><p>当 $a\\leqslant4$ 时，</p>\n$$\nf''(x)-1=\\frac{x^{3}-ax+4}{x^{3}}=\\frac{x^{3}-4x+4+(4-a)x}{x^{3}}\n$$\n<p>注意到</p><p>$x^{3}-4x+4=x(x-2)^{2}+4(x-1)^{2}>0$，（$x>0$），</p><p>故 $f''(x)>1$. 不妨设 $x_{1}&#x3C;x_{2}$，由拉格朗日中值定理，存在 $\\xi\\in(x_{1},x_{2})$，使得</p>\n$$\nf'(x_{2})-f'(x_{1})=f''(\\xi)(x_{2}-x_{1})>x_{2}-x_{1}\n$$\n<p>因此 $|f'(x_{1})-f'(x_{2})|>|x_{1}-x_{2}|$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=2x-\\frac{2}{x^{2}}+\\frac{a}{x}$，$f''(x)=2+\\frac{4}{x^{3}}-\\frac{a}{x^{2}}$. 当 $a\\leqslant0$ 且 $x>0$ 时，$f''(x)>0$，所以 $f'(x)$ 严格递增. 不妨设 $x_{1}<x_{2}$，令 $u=\\frac{x_{1}+x_{2}}{2}$. 由拉格朗日中值定理，存在 $\\xi_{1}\\in(x_{1},u)$、$\\xi_{2}\\in(u,x_{2})$，分别满足</p><p>$\\frac{f(u)-f(x_{1})}{u-x_{1}}=f'(\\xi_{1})$ 和</p><p>$\\frac{f(x_{2})-f(u)}{x_{2}-u}=f'(\\xi_{2})$.</p><p>因为 $\\xi_{1}<\\xi_{2}$，且 $f'$ 严格递增，又 $u-x_{1}=x_{2}-u$，所以 $f(u)-f(x_{1})<f(x_{2})-f(u)$，即</p>\n$$\n\\frac{f(x_{1})+f(x_{2})}{2}>f\\left(\\frac{x_{1}+x_{2}}{2}\\right)\n$$\n</li><li><p>当 $a\\leqslant4$ 时，</p>\n$$\nf''(x)-1=\\frac{x^{3}-ax+4}{x^{3}}=\\frac{x^{3}-4x+4+(4-a)x}{x^{3}}\n$$\n<p>注意到</p><p>$x^{3}-4x+4=x(x-2)^{2}+4(x-1)^{2}>0$，（$x>0$），</p><p>故 $f''(x)>1$. 不妨设 $x_{1}<x_{2}$，由拉格朗日中值定理，存在 $\\xi\\in(x_{1},x_{2})$，使得</p>\n$$\nf'(x_{2})-f'(x_{1})=f''(\\xi)(x_{2}-x_{1})>x_{2}-x_{1}\n$$\n<p>因此 $|f'(x_{1})-f'(x_{2})|>|x_{1}-x_{2}|$.</p></li></ol>"
         }
       ]
     }

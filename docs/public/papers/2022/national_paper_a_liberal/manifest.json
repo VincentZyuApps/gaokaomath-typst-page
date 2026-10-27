@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{-2,-1,0,1,2\\}$，$B=\\{x\\mid 0\\le x&#x3C;\\dfrac{5}{2}\\}$，则 $A\\cap B=$（ ）",
+          "body": "已知集合 $A=\\{-2,-1,0,1,2\\}$，$B=\\{x\\mid 0\\le x<\\dfrac{5}{2}\\}$，则 $A\\cap B=$（ ）",
           "choices": [
             "$\\{0,1,2\\}$",
             "$\\{-2,-1,0\\}$",
@@ -17,7 +17,7 @@
             "$\\{1,2\\}$"
           ],
           "answer": "A",
-          "solution": "由 $B=\\{x\\mid 0\\le x&#x3C;2.5\\}$ 可知 $B$ 中元素为 $0\\le x&#x3C;2.5$ 的实数. 在 $A=\\{-2,-1,0,1,2\\}$ 中满足该条件的有 $0$，$1$，$2$，所以 $A\\cap B=\\{0,1,2\\}$，答案为 A."
+          "solution": "由 $B=\\{x\\mid 0\\le x<2.5\\}$ 可知 $B$ 中元素为 $0\\le x<2.5$ 的实数. 在 $A=\\{-2,-1,0,1,2\\}$ 中满足该条件的有 $0$，$1$，$2$，所以 $A\\cap B=\\{0,1,2\\}$，答案为 A."
         },
         {
           "num": 2,
@@ -149,7 +149,7 @@
             "$b>0>a$"
           ],
           "answer": "A",
-          "solution": "<p>由 $9^{m}=10$ 得 $m=\\log_{9}10=\\dfrac{\\ln10}{\\ln9}>1$.</p><p>先判断 $a=10^{m}-11$ 的符号. $a>0$ 等价于 $10^{m}>11$，即 $m>\\log_{10}11=\\dfrac{\\ln11}{\\ln10}$，也即 $\\dfrac{\\ln10}{\\ln9}>\\dfrac{\\ln11}{\\ln10}$，等价于 $(\\ln10)^{2}>\\ln9\\ln11$. 而 $\\ln9\\ln11=\\left(\\ln10+\\ln\\dfrac9{10}\\right)\\left(\\ln10+\\ln\\dfrac{11}{10}\\right)=(\\ln10)^{2}+\\ln10\\left(\\ln\\dfrac9{10}+\\ln\\dfrac{11}{10}\\right)+\\ln\\dfrac9{10}\\ln\\dfrac{11}{10}$. 因为 $\\ln\\dfrac9{10}&#x3C;0$，$\\ln\\dfrac{11}{10}>0$ 且 $\\ln\\dfrac9{10}+\\ln\\dfrac{11}{10}=\\ln\\dfrac{99}{100}&#x3C;0$，所以 $\\ln9\\ln11&#x3C;(\\ln10)^{2}$，从而 $a>0$.</p><p>再判断 $b=8^{m}-9$ 的符号. $b&#x3C;0$ 等价于 $8^{m}&#x3C;9$，即 $m&#x3C;\\log_{8} 9=\\dfrac{\\ln9}{\\ln8}$，也即 $\\dfrac{\\ln10}{\\ln9}&#x3C;\\dfrac{\\ln9}{\\ln8}$，等价于 $\\ln10\\ln8&#x3C;(\\ln9)^{2}$. 而 $\\ln10\\ln8=\\left(\\ln9+\\ln\\dfrac{10}{9}\\right)\\left(\\ln9+\\ln\\dfrac{8}{9}\\right)=(\\ln9)^{2}+\\ln9\\left(\\ln\\dfrac{10}{9}+\\ln\\dfrac{8}{9}\\right)+\\ln\\dfrac{10}{9}\\ln\\dfrac{8}{9}$. 因为 $\\ln\\dfrac{10}{9}>0$，$\\ln\\dfrac{8}{9}&#x3C;0$ 且 $\\ln\\dfrac{10}{9}+\\ln\\dfrac{8}{9}=\\ln\\dfrac{80}{81}&#x3C;0$，所以 $\\ln10\\ln8&#x3C;(\\ln9)^{2}$，从而 $b&#x3C;0$.</p><p>因此 $a>0>b$，答案为 A.</p>"
+          "solution": "<p>由 $9^{m}=10$ 得 $m=\\log_{9}10=\\dfrac{\\ln10}{\\ln9}>1$.</p><p>先判断 $a=10^{m}-11$ 的符号. $a>0$ 等价于 $10^{m}>11$，即 $m>\\log_{10}11=\\dfrac{\\ln11}{\\ln10}$，也即 $\\dfrac{\\ln10}{\\ln9}>\\dfrac{\\ln11}{\\ln10}$，等价于 $(\\ln10)^{2}>\\ln9\\ln11$. 而 $\\ln9\\ln11=\\left(\\ln10+\\ln\\dfrac9{10}\\right)\\left(\\ln10+\\ln\\dfrac{11}{10}\\right)=(\\ln10)^{2}+\\ln10\\left(\\ln\\dfrac9{10}+\\ln\\dfrac{11}{10}\\right)+\\ln\\dfrac9{10}\\ln\\dfrac{11}{10}$. 因为 $\\ln\\dfrac9{10}<0$，$\\ln\\dfrac{11}{10}>0$ 且 $\\ln\\dfrac9{10}+\\ln\\dfrac{11}{10}=\\ln\\dfrac{99}{100}<0$，所以 $\\ln9\\ln11<(\\ln10)^{2}$，从而 $a>0$.</p><p>再判断 $b=8^{m}-9$ 的符号. $b<0$ 等价于 $8^{m}<9$，即 $m<\\log_{8} 9=\\dfrac{\\ln9}{\\ln8}$，也即 $\\dfrac{\\ln10}{\\ln9}<\\dfrac{\\ln9}{\\ln8}$，等价于 $\\ln10\\ln8<(\\ln9)^{2}$. 而 $\\ln10\\ln8=\\left(\\ln9+\\ln\\dfrac{10}{9}\\right)\\left(\\ln9+\\ln\\dfrac{8}{9}\\right)=(\\ln9)^{2}+\\ln9\\left(\\ln\\dfrac{10}{9}+\\ln\\dfrac{8}{9}\\right)+\\ln\\dfrac{10}{9}\\ln\\dfrac{8}{9}$. 因为 $\\ln\\dfrac{10}{9}>0$，$\\ln\\dfrac{8}{9}<0$ 且 $\\ln\\dfrac{10}{9}+\\ln\\dfrac{8}{9}=\\ln\\dfrac{80}{81}<0$，所以 $\\ln10\\ln8<(\\ln9)^{2}$，从而 $b<0$.</p><p>因此 $a>0>b$，答案为 A.</p>"
         }
       ]
     },

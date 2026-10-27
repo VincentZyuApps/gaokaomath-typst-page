@@ -81,10 +81,10 @@
         },
         {
           "num": 7,
-          "body": "<p>若 $\\log_{a} 2 &#x3C; \\log_{b} 2 &#x3C; 0$，则（ ）</p><p>B</p><p>因为 $\\log_{a}2&#x3C;0$ 且 $\\log_{b}2&#x3C;0$，而真数 $2>1$，所以 $0&#x3C;a&#x3C;1$，$0&#x3C;b&#x3C;1$. 在 $0&#x3C;t&#x3C;1$ 上，$g(t)=\\log_{t}2=\\frac{\\ln2}{\\ln t}$ 是减函数，因为 $g'(t)=-\\frac{\\ln2}{t(\\ln t)^{2}}&#x3C;0$. 由 $g(a)&#x3C;g(b)$ 得 $a>b$，所以 $0&#x3C;b&#x3C;a&#x3C;1$. 故选 B.</p>",
+          "body": "<p>若 $\\log_{a} 2 < \\log_{b} 2 < 0$，则（ ）</p><p>B</p><p>因为 $\\log_{a}2<0$ 且 $\\log_{b}2<0$，而真数 $2>1$，所以 $0<a<1$，$0<b<1$. 在 $0<t<1$ 上，$g(t)=\\log_{t}2=\\frac{\\ln2}{\\ln t}$ 是减函数，因为 $g'(t)=-\\frac{\\ln2}{t(\\ln t)^{2}}<0$. 由 $g(a)<g(b)$ 得 $a>b$，所以 $0<b<a<1$. 故选 B.</p>",
           "choices": [
-            "$0 &#x3C; a &#x3C; b &#x3C; 1$",
-            "$0 &#x3C; b &#x3C; a &#x3C; 1$",
+            "$0 < a < b < 1$",
+            "$0 < b < a < 1$",
             "$a > b > 1$",
             "$b > a > 1$"
           ],
@@ -153,11 +153,11 @@
         },
         {
           "num": 13,
-          "body": "<p>如果 $\\alpha$，$\\beta \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$ 且 $\\tan \\alpha &#x3C; \\cot \\beta$，那么必有（ ）</p><p>C</p><p>令 $u=\\alpha-\\pi$，$v=\\frac{\\pi}{2}-\\beta$，则 $u$，$v\\in\\left(-\\frac{\\pi}{2},0\\right)$，并且 $\\tan u=\\tan\\alpha$，$\\tan v=\\cot\\beta$. 正切函数在 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 上递增，所以由 $\\tan u&#x3C;\\tan v$ 得 $u&#x3C;v$. 因而 $\\alpha-\\pi&#x3C;\\frac{\\pi}{2}-\\beta$，即 $\\alpha+\\beta&#x3C;\\frac{3\\pi}{2}$. 故选 C.</p>",
+          "body": "<p>如果 $\\alpha$，$\\beta \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$ 且 $\\tan \\alpha < \\cot \\beta$，那么必有（ ）</p><p>C</p><p>令 $u=\\alpha-\\pi$，$v=\\frac{\\pi}{2}-\\beta$，则 $u$，$v\\in\\left(-\\frac{\\pi}{2},0\\right)$，并且 $\\tan u=\\tan\\alpha$，$\\tan v=\\cot\\beta$. 正切函数在 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 上递增，所以由 $\\tan u<\\tan v$ 得 $u<v$. 因而 $\\alpha-\\pi<\\frac{\\pi}{2}-\\beta$，即 $\\alpha+\\beta<\\frac{3\\pi}{2}$. 故选 C.</p>",
           "choices": [
-            "$\\alpha &#x3C; \\beta$",
-            "$\\beta &#x3C; \\alpha$",
-            "$\\alpha + \\beta &#x3C; \\frac{3}{2}\\pi$",
+            "$\\alpha < \\beta$",
+            "$\\beta < \\alpha$",
+            "$\\alpha + \\beta < \\frac{3}{2}\\pi$",
             "$\\alpha + \\beta > \\frac{3}{2}\\pi$"
           ],
           "answer": "",
@@ -201,12 +201,12 @@
         },
         {
           "num": 17,
-          "body": "<p>如果函数 $f(x)=x^{2}+bx+c$ 对任意实数 $t$ 都有 $f(2+t)=f(2-t)$，那么（ ）</p><p>A</p><p>条件说明二次函数的图象关于直线 $x=2$ 对称，所以其对称轴为 $x=-\\frac{b}{2}=2$，从而 $b=-4$. 因此 $f(x)=x^{2}-4x+c=(x-2)^{2}+c-4$. 于是 $f(2)=c-4$，$f(1)=c-3$，$f(4)=c$，故 $f(2)&#x3C;f(1)&#x3C;f(4)$. 故选 A.</p>",
+          "body": "<p>如果函数 $f(x)=x^{2}+bx+c$ 对任意实数 $t$ 都有 $f(2+t)=f(2-t)$，那么（ ）</p><p>A</p><p>条件说明二次函数的图象关于直线 $x=2$ 对称，所以其对称轴为 $x=-\\frac{b}{2}=2$，从而 $b=-4$. 因此 $f(x)=x^{2}-4x+c=(x-2)^{2}+c-4$. 于是 $f(2)=c-4$，$f(1)=c-3$，$f(4)=c$，故 $f(2)<f(1)<f(4)$. 故选 A.</p>",
           "choices": [
-            "$f(2) &#x3C; f(1) &#x3C; f(4)$",
-            "$f(1) &#x3C; f(2) &#x3C; f(4)$",
-            "$f(2) &#x3C; f(4) &#x3C; f(1)$",
-            "$f(4) &#x3C; f(2) &#x3C; f(1)$"
+            "$f(2) < f(1) < f(4)$",
+            "$f(1) < f(2) < f(4)$",
+            "$f(2) < f(4) < f(1)$",
+            "$f(4) < f(2) < f(1)$"
           ],
           "answer": "",
           "solution": ""
@@ -237,7 +237,7 @@
         },
         {
           "num": 20,
-          "body": "<p>已知 $\\alpha$ 在第三象限且 $\\tan \\alpha = 2$，则 $\\cos \\alpha$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$-\\frac{\\sqrt{5}}{5}$</p><p>由恒等式 $1+\\tan^{2}\\alpha=\\sec^{2}\\alpha$，得 $\\sec^{2}\\alpha=1+2^{2}=5$，所以 $|\\cos\\alpha|=\\frac{1}{\\sqrt{5}}$. 因为 $\\alpha$ 在第三象限，$\\cos\\alpha&#x3C;0$，故 $\\cos\\alpha=-\\frac{1}{\\sqrt{5}}=-\\frac{\\sqrt{5}}{5}$.</p>",
+          "body": "<p>已知 $\\alpha$ 在第三象限且 $\\tan \\alpha = 2$，则 $\\cos \\alpha$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$-\\frac{\\sqrt{5}}{5}$</p><p>由恒等式 $1+\\tan^{2}\\alpha=\\sec^{2}\\alpha$，得 $\\sec^{2}\\alpha=1+2^{2}=5$，所以 $|\\cos\\alpha|=\\frac{1}{\\sqrt{5}}$. 因为 $\\alpha$ 在第三象限，$\\cos\\alpha<0$，故 $\\cos\\alpha=-\\frac{1}{\\sqrt{5}}=-\\frac{\\sqrt{5}}{5}$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -298,7 +298,7 @@
         },
         {
           "num": 28,
-          "body": "<p>设等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$. 已知 $a_{3}=12$，$S_{12}>0$，$S_{13}&#x3C;0$.</p><ol class=\"enumerate\"><li><p>求公差 $d$ 的取值范围；</p></li><li><p>指出 $S_{1}$，$S_{2}$，$\\cdots$，$S_{12}$ 中哪一个值最大，并说明理由.</p></li></ol><ol class=\"enumerate\"><li><p>由 $a_{3}=a_{1}+2d=12$，得 $a_{1}=12-2d$. 因而</p><p>$S_{12}=\\frac{12}{2}(a_{1}+a_{12})=6\\left(24+7d\\right)>0$，得 $d>-\\frac{24}{7}$；又</p><p>$S_{13}=\\frac{13}{2}(a_{1}+a_{13})=\\frac{13}{2}\\left(24+8d\\right)&#x3C;0$，得 $d&#x3C;-3$. 所以 $-\\frac{24}{7}&#x3C;d&#x3C;-3$.</p></li><li><p>等差数列的项为 $a_{n}=a_{3}+(n-3)d=12+(n-3)d$. 由 $d>-\\frac{24}{7}>-4$，得 $a_{6}=12+3d>12-12=0$；由 $d&#x3C;-3$，得 $a_{7}=12+4d&#x3C;12-12=0$. 又因 $d&#x3C;0$，数列各项递减，所以 $a_{1}$，$\\ldots$，$a_{6}>0$，而 $a_{7}$，$\\ldots$，$a_{12}&#x3C;0$. 因为 $S_{n+1}-S_{n}=a_{n+1}$，故 $S_{1}&#x3C;S_{2}&#x3C;\\cdots&#x3C;S_{6}$，且 $S_{6}>S_{7}>\\cdots>S_{12}$. 因此 $S_{6}$ 最大.</p></li></ol>",
+          "body": "<p>设等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$. 已知 $a_{3}=12$，$S_{12}>0$，$S_{13}<0$.</p><ol class=\"enumerate\"><li><p>求公差 $d$ 的取值范围；</p></li><li><p>指出 $S_{1}$，$S_{2}$，$\\cdots$，$S_{12}$ 中哪一个值最大，并说明理由.</p></li></ol><ol class=\"enumerate\"><li><p>由 $a_{3}=a_{1}+2d=12$，得 $a_{1}=12-2d$. 因而</p><p>$S_{12}=\\frac{12}{2}(a_{1}+a_{12})=6\\left(24+7d\\right)>0$，得 $d>-\\frac{24}{7}$；又</p><p>$S_{13}=\\frac{13}{2}(a_{1}+a_{13})=\\frac{13}{2}\\left(24+8d\\right)<0$，得 $d<-3$. 所以 $-\\frac{24}{7}<d<-3$.</p></li><li><p>等差数列的项为 $a_{n}=a_{3}+(n-3)d=12+(n-3)d$. 由 $d>-\\frac{24}{7}>-4$，得 $a_{6}=12+3d>12-12=0$；由 $d<-3$，得 $a_{7}=12+4d<12-12=0$. 又因 $d<0$，数列各项递减，所以 $a_{1}$，$\\ldots$，$a_{6}>0$，而 $a_{7}$，$\\ldots$，$a_{12}<0$. 因为 $S_{n+1}-S_{n}=a_{n+1}$，故 $S_{1}<S_{2}<\\cdots<S_{6}$，且 $S_{6}>S_{7}>\\cdots>S_{12}$. 因此 $S_{6}$ 最大.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

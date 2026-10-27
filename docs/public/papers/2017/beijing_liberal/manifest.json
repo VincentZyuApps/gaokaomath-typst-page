@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知全集 $U=\\mathbb{R}$，集合 $A=\\{x\\mid x&#x3C;-2\\text{或}x>2\\}$，则 $C_{U}A=$（ ）.",
+          "body": "已知全集 $U=\\mathbb{R}$，集合 $A=\\{x\\mid x<-2\\text{或}x>2\\}$，则 $C_{U}A=$（ ）.",
           "choices": [
             "$\\left(-2,2\\right)$",
             "$\\left(-\\infty,-2\\right)\\cup\\left(2,+\\infty\\right)$",
@@ -29,7 +29,7 @@
             "$\\left(-1,+\\infty\\right)$"
           ],
           "answer": "B",
-          "solution": "<p>因为 $\\mathrm{i}^{2}=-1$，所以</p><p>$(1-\\mathrm{i})(a+\\mathrm{i})=a+\\mathrm{i}-a\\mathrm{i}-\\mathrm{i}^{2}=(a+1)+(1-a)\\mathrm{i}$.</p><p>该复数对应的点在第二象限，当且仅当实部和虚部分别满足 $a+1&#x3C;0$ 与 $1-a>0$，即 $a&#x3C;-1$ 且 $a&#x3C;1$. 因此 $a&#x3C;-1$，故选 B.</p>"
+          "solution": "<p>因为 $\\mathrm{i}^{2}=-1$，所以</p><p>$(1-\\mathrm{i})(a+\\mathrm{i})=a+\\mathrm{i}-a\\mathrm{i}-\\mathrm{i}^{2}=(a+1)+(1-a)\\mathrm{i}$.</p><p>该复数对应的点在第二象限，当且仅当实部和虚部分别满足 $a+1<0$ 与 $1-a>0$，即 $a<-1$ 且 $a<1$. 因此 $a<-1$，故选 B.</p>"
         },
         {
           "num": 3,
@@ -41,7 +41,7 @@
             "$\\dfrac{8}{5}$"
           ],
           "answer": "C",
-          "solution": "<p>初始时 $k=0$，$s=1$. 因为 $k&#x3C;3$，第一次循环后 $k=1$，$s=\\dfrac{1+1}{1}=2$；第二次循环后 $k=2$，$s=\\dfrac{2+1}{2}=\\dfrac{3}{2}$；第三次循环后 $k=3$，$s=\\dfrac{\\frac{3}{2}+1}{\\frac{3}{2}}=\\dfrac{5}{3}$.</p><p>此时 $k&#x3C;3$ 不成立，程序输出 $s=\\dfrac{5}{3}$，故选 C.</p>"
+          "solution": "<p>初始时 $k=0$，$s=1$. 因为 $k<3$，第一次循环后 $k=1$，$s=\\dfrac{1+1}{1}=2$；第二次循环后 $k=2$，$s=\\dfrac{2+1}{2}=\\dfrac{3}{2}$；第三次循环后 $k=3$，$s=\\dfrac{\\frac{3}{2}+1}{\\frac{3}{2}}=\\dfrac{5}{3}$.</p><p>此时 $k<3$ 不成立，程序输出 $s=\\dfrac{5}{3}$，故选 C.</p>"
         },
         {
           "num": 4,
@@ -81,7 +81,7 @@
         },
         {
           "num": 7,
-          "body": "设 $\\mathbf{m}$，$\\mathbf{n}$ 为非零向量，则“存在负数 $\\lambda$，使得 $\\mathbf{m}=\\lambda\\mathbf{n}$”是“$\\mathbf{m}\\cdot\\mathbf{n}&#x3C;0$”的（ ）.",
+          "body": "设 $\\mathbf{m}$，$\\mathbf{n}$ 为非零向量，则“存在负数 $\\lambda$，使得 $\\mathbf{m}=\\lambda\\mathbf{n}$”是“$\\mathbf{m}\\cdot\\mathbf{n}<0$”的（ ）.",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -89,7 +89,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>若存在负数 $\\lambda$ 使 $\\mathbf{m}=\\lambda\\mathbf{n}$，则</p><p>$\\mathbf{m}\\cdot\\mathbf{n}=\\lambda\\mathbf{n}\\cdot\\mathbf{n}=\\lambda\\lvert\\mathbf{n}\\rvert^{2}&#x3C;0$，所以该条件是充分条件.</p><p>但 $\\mathbf{m}\\cdot\\mathbf{n}&#x3C;0$ 不一定使两向量共线. 例如取 $\\mathbf{m}=(1,0)$，$\\mathbf{n}=(-1,1)$，则 $\\mathbf{m}\\cdot\\mathbf{n}=-1&#x3C;0$，而 $\\mathbf{m}$ 不是 $\\mathbf{n}$ 的实数倍. 因此该条件充分而不必要，故选 A.</p>"
+          "solution": "<p>若存在负数 $\\lambda$ 使 $\\mathbf{m}=\\lambda\\mathbf{n}$，则</p><p>$\\mathbf{m}\\cdot\\mathbf{n}=\\lambda\\mathbf{n}\\cdot\\mathbf{n}=\\lambda\\lvert\\mathbf{n}\\rvert^{2}<0$，所以该条件是充分条件.</p><p>但 $\\mathbf{m}\\cdot\\mathbf{n}<0$ 不一定使两向量共线. 例如取 $\\mathbf{m}=(1,0)$，$\\mathbf{n}=(-1,1)$，则 $\\mathbf{m}\\cdot\\mathbf{n}=-1<0$，而 $\\mathbf{m}$ 不是 $\\mathbf{n}$ 的实数倍. 因此该条件充分而不必要，故选 A.</p>"
         },
         {
           "num": 8,
@@ -148,7 +148,7 @@
           "body": "<p>某学习小组由学生和教师组成，人员构成同时满足以下三个条件：</p><ol class=\"enumerate\"><li><p>男学生人数多于女学生人数；</p></li><li><p>女学生人数多于教师人数；</p></li><li><p>教师人数的两倍多于男学生人数.</p></li></ol><ol class=\"enumerate\"><li><p>若教师人数为 $4$，则女学生人数的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p></li><li><p>该小组人数的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p></li></ol>",
           "choices": null,
           "answer": "6；12",
-          "solution": "<p>设男学生、女学生和教师人数分别为 $m$，$f$，$t$，则 $m>f>t$，且 $m&#x3C;2t$，并且 $m$，$f$，$t\\in\\Z_{\\ge0}$.</p><ol class=\"enumerate\"><li><p>当 $t=4$ 时，$m&#x3C;8$，所以 $m\\le7$. 又 $f&#x3C;m$，故 $f\\le6$. 取 $m=7$，$f=6$ 时三个条件均满足，所以女学生人数的最大值为 $6$.</p></li><li><p>由人数非负且 $f>t$，若 $t=0$，则 $f\\ge1$、$m\\ge2$，但 $m&#x3C;2t=0$，矛盾，故 $t\\ge1$. 由 $m>f>t$ 得 $m\\ge t+2$，而 $m&#x3C;2t$. 当 $t=1$ 或 $t=2$ 时分别得到 $m\\ge3$ 且 $m&#x3C;2$，或 $m\\ge4$ 且 $m&#x3C;4$，均不可能，因此 $t\\ge3$. 从而 $m+f+t\\ge(t+2)+(t+1)+t\\ge12$. 取 $t=3$，$f=4$，$m=5$ 时条件成立，故该小组人数的最小值为 $12$.</p></li></ol>"
+          "solution": "<p>设男学生、女学生和教师人数分别为 $m$，$f$，$t$，则 $m>f>t$，且 $m<2t$，并且 $m$，$f$，$t\\in\\Z_{\\ge0}$.</p><ol class=\"enumerate\"><li><p>当 $t=4$ 时，$m<8$，所以 $m\\le7$. 又 $f<m$，故 $f\\le6$. 取 $m=7$，$f=6$ 时三个条件均满足，所以女学生人数的最大值为 $6$.</p></li><li><p>由人数非负且 $f>t$，若 $t=0$，则 $f\\ge1$、$m\\ge2$，但 $m<2t=0$，矛盾，故 $t\\ge1$. 由 $m>f>t$ 得 $m\\ge t+2$，而 $m<2t$. 当 $t=1$ 或 $t=2$ 时分别得到 $m\\ge3$ 且 $m<2$，或 $m\\ge4$ 且 $m<4$，均不可能，因此 $t\\ge3$. 从而 $m+f+t\\ge(t+2)+(t+1)+t\\ge12$. 取 $t=3$，$f=4$，$m=5$ 时条件成立，故该小组人数的最小值为 $12$.</p></li></ol>"
         }
       ]
     },
@@ -188,7 +188,7 @@
           "body": "<p>已知椭圆 $C$ 的两个顶点分别为 $A(-2,0)$，$B(2,0)$，焦点在 $x$ 轴上，离心率为 $\\dfrac{\\sqrt{3}}{2}$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>点 $D$ 为 $x$ 轴上一点，过 $D$ 作 $x$ 轴的垂线交椭圆 $C$ 于不同的两点 $M$，$N$，过 $D$ 作 $AM$ 的垂线交 $BN$ 于点 $E$. 求证：$\\triangle BDE$ 与 $\\triangle BDN$ 的面积之比为 $4:5$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由椭圆的顶点为 $A(-2,0)$，$B(2,0)$，且焦点在 $x$ 轴上，得长半轴 $a=2$. 由离心率 $e=\\dfrac{c}{a}=\\dfrac{\\sqrt{3}}{2}$，得焦半距 $c=\\sqrt{3}$. 因此短半轴的平方为 $b^{2}=a^{2}-c^{2}=4-3=1$，所以椭圆 $C$ 的方程为 $\\dfrac{x^2}{4}+y^{2}=1$.</p></li><li><p>设 $D=(x_{0},0)$，由直线与椭圆交于不同两点，得 $-2&#x3C;x_{0}&#x3C;2$. 不妨设 $M=(x_{0},y_{0})$，$N=(x_{0},-y_{0})$，其中 $y_{0}>0$. 因为 $M$，$N$ 在椭圆上，所以</p><p>$\\dfrac{x_0^2}{4}+y_{0}^{2}=1$，即 $4-x_{0}^{2}=4y_{0}^{2}$.</p><p>令 $A_{0}=\\dfrac{x_0+2}{y_0}$，$B_{0}=\\dfrac{y_0}{2-x_0}$. 则直线 $DE$ 的斜率为 $-A_{0}$，直线 $BN$ 的斜率为 $B_{0}$，两直线方程分别为 $y=-A_{0}(x-x_{0})$ 和 $y=B_{0}(x-2)$. 设 $E=(x_{E},y_{E})$，联立两式得</p><p>$\\lvert y_{E}\\rvert=\\dfrac{A_0B_0(2-x_0)}{A_0+B_0}=\\dfrac{A_0y_0}{A_0+B_0}$.</p><p>又</p><p>$A_{0}+B_{0}=\\dfrac{x_0+2}{y_0}+\\dfrac{y_0}{2-x_0}=\\dfrac{(x_0+2)(2-x_0)+y_0^2}{y_0(2-x_0)}=\\dfrac{5y_0}{2-x_0}$.</p><p>所以</p><p>$\\dfrac{\\lvert y_E\\rvert}{y_0}=\\dfrac{A_0}{A_0+B_0}=\\dfrac{(x_0+2)(2-x_0)}{5y_0^2}=\\dfrac{4-x_0^2}{5y_0^2}=\\dfrac{4}{5}$.</p><p>三角形 $BDE$ 与 $BDN$ 具有同一条底边 $BD$，故面积之比等于对应高之比，即</p><p>$S_{\\triangle BDE}:S_{\\triangle BDN}=\\lvert y_{E}\\rvert:y_{0}=4:5$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由椭圆的顶点为 $A(-2,0)$，$B(2,0)$，且焦点在 $x$ 轴上，得长半轴 $a=2$. 由离心率 $e=\\dfrac{c}{a}=\\dfrac{\\sqrt{3}}{2}$，得焦半距 $c=\\sqrt{3}$. 因此短半轴的平方为 $b^{2}=a^{2}-c^{2}=4-3=1$，所以椭圆 $C$ 的方程为 $\\dfrac{x^2}{4}+y^{2}=1$.</p></li><li><p>设 $D=(x_{0},0)$，由直线与椭圆交于不同两点，得 $-2<x_{0}<2$. 不妨设 $M=(x_{0},y_{0})$，$N=(x_{0},-y_{0})$，其中 $y_{0}>0$. 因为 $M$，$N$ 在椭圆上，所以</p><p>$\\dfrac{x_0^2}{4}+y_{0}^{2}=1$，即 $4-x_{0}^{2}=4y_{0}^{2}$.</p><p>令 $A_{0}=\\dfrac{x_0+2}{y_0}$，$B_{0}=\\dfrac{y_0}{2-x_0}$. 则直线 $DE$ 的斜率为 $-A_{0}$，直线 $BN$ 的斜率为 $B_{0}$，两直线方程分别为 $y=-A_{0}(x-x_{0})$ 和 $y=B_{0}(x-2)$. 设 $E=(x_{E},y_{E})$，联立两式得</p><p>$\\lvert y_{E}\\rvert=\\dfrac{A_0B_0(2-x_0)}{A_0+B_0}=\\dfrac{A_0y_0}{A_0+B_0}$.</p><p>又</p><p>$A_{0}+B_{0}=\\dfrac{x_0+2}{y_0}+\\dfrac{y_0}{2-x_0}=\\dfrac{(x_0+2)(2-x_0)+y_0^2}{y_0(2-x_0)}=\\dfrac{5y_0}{2-x_0}$.</p><p>所以</p><p>$\\dfrac{\\lvert y_E\\rvert}{y_0}=\\dfrac{A_0}{A_0+B_0}=\\dfrac{(x_0+2)(2-x_0)}{5y_0^2}=\\dfrac{4-x_0^2}{5y_0^2}=\\dfrac{4}{5}$.</p><p>三角形 $BDE$ 与 $BDN$ 具有同一条底边 $BD$，故面积之比等于对应高之比，即</p><p>$S_{\\triangle BDE}:S_{\\triangle BDN}=\\lvert y_{E}\\rvert:y_{0}=4:5$.</p></li></ol>"
         },
         {
           "num": 20,

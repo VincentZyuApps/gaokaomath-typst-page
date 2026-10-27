@@ -17,7 +17,7 @@
             "$(3, +\\infty)$"
           ],
           "answer": "D",
-          "solution": "由 $3x+2>0$ 得 $x>-\\frac{2}{3}$；由 $(x+1)(x-3)>0$ 得 $x&#x3C;-1$ 或 $x>3$. 因而 $A\\cap B=(3,+\\infty)$，故选 D."
+          "solution": "由 $3x+2>0$ 得 $x>-\\frac{2}{3}$；由 $(x+1)(x-3)>0$ 得 $x<-1$ 或 $x>3$. 因而 $A\\cap B=(3,+\\infty)$，故选 D."
         },
         {
           "num": 2,
@@ -53,7 +53,7 @@
             "$16$"
           ],
           "answer": "C",
-          "solution": "<p>按照框图，初始时 $k=0$，$S=1$. 每次先计算 $S\\leftarrow S\\cdot2^{k}$，再计算 $k\\leftarrow k+1$，循环条件为 $k&#x3C;3$. 三次循环依次得到</p><p>$(S,k)=(1,1)$、$(2,2)$、$(8,3)$.</p><p>此时 $k&#x3C;3$ 不成立，输出 $S=8$，故选 C.</p>"
+          "solution": "<p>按照框图，初始时 $k=0$，$S=1$. 每次先计算 $S\\leftarrow S\\cdot2^{k}$，再计算 $k\\leftarrow k+1$，循环条件为 $k<3$. 三次循环依次得到</p><p>$(S,k)=(1,1)$、$(2,2)$、$(8,3)$.</p><p>此时 $k<3$ 不成立，输出 $S=8$，故选 C.</p>"
         },
         {
           "num": 5,
@@ -77,7 +77,7 @@
             "$\\text{若 }a_{3}>a_{1}\\text{，则 }a_{4}>a_{2}$"
           ],
           "answer": "B",
-          "solution": "<p>设等比数列的公比为 $q$，则 $a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$. 对选项 B，有</p><p>$a_{1}^{2}+a_{3}^{2}-2a_{2}^{2}=a_{1}^{2}(1+q^{4}-2q^{2})=a_{1}^{2}(q^{2}-1)^{2}\\geqslant0$，所以 B 正确.</p><p>选项 A 不恒成立，例如取 $a_{1}=-1$，$q=2$，则 $a_{1}+a_{3}=-5&#x3C;-4=2a_{2}$. 选项 C 中取 $a_{1}=1$，$q=-1$，有 $a_{1}=a_{3}=1$，但 $a_{2}=-1\\ne a_{1}$. 选项 D 中取 $a_{1}=1$，$q=-2$，有 $a_{3}=4>a_{1}$，但 $a_{4}-a_{2}=a_{1}q(q^{2}-1)=-6&#x3C;0$，即 $a_{4}&#x3C;a_{2}$. 故选 B.</p>"
+          "solution": "<p>设等比数列的公比为 $q$，则 $a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$. 对选项 B，有</p><p>$a_{1}^{2}+a_{3}^{2}-2a_{2}^{2}=a_{1}^{2}(1+q^{4}-2q^{2})=a_{1}^{2}(q^{2}-1)^{2}\\geqslant0$，所以 B 正确.</p><p>选项 A 不恒成立，例如取 $a_{1}=-1$，$q=2$，则 $a_{1}+a_{3}=-5<-4=2a_{2}$. 选项 C 中取 $a_{1}=1$，$q=-1$，有 $a_{1}=a_{3}=1$，但 $a_{2}=-1\\ne a_{1}$. 选项 D 中取 $a_{1}=1$，$q=-2$，有 $a_{3}=4>a_{1}$，但 $a_{4}-a_{2}=a_{1}q(q^{2}-1)=-6<0$，即 $a_{4}<a_{2}$. 故选 B.</p>"
         },
         {
           "num": 7,
@@ -127,7 +127,7 @@
           "body": "在 $\\triangle ABC$ 中，若 $a = 3$，$b = \\sqrt{3}$，$\\angle A = \\frac{\\pi}{3}$，则 $\\angle C$ 的大小为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{\\pi}{2}$",
-          "solution": "<p>由正弦定理，$\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}$，所以</p><p>$\\sin B=\\dfrac{b\\sin A}{a}=\\dfrac{\\sqrt{3}\\cdot\\frac{\\sqrt{3}}{2}}{3}=\\frac{1}{2}$.</p><p>由三角形内角和 $A+B&#x3C;\\pi$，得 $B&#x3C;\\frac{2\\pi}{3}$，所以在满足 $\\sin B=\\frac{1}{2}$ 的两个可能值中只能取 $B=\\frac{\\pi}{6}$，不能取 $\\frac{5\\pi}{6}$. 因此</p><p>$C=\\pi-A-B=\\pi-\\frac{\\pi}{3}-\\frac{\\pi}{6}=\\frac{\\pi}{2}$.</p>"
+          "solution": "<p>由正弦定理，$\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}$，所以</p><p>$\\sin B=\\dfrac{b\\sin A}{a}=\\dfrac{\\sqrt{3}\\cdot\\frac{\\sqrt{3}}{2}}{3}=\\frac{1}{2}$.</p><p>由三角形内角和 $A+B<\\pi$，得 $B<\\frac{2\\pi}{3}$，所以在满足 $\\sin B=\\frac{1}{2}$ 的两个可能值中只能取 $B=\\frac{\\pi}{6}$，不能取 $\\frac{5\\pi}{6}$. 因此</p><p>$C=\\pi-A-B=\\pi-\\frac{\\pi}{3}-\\frac{\\pi}{6}=\\frac{\\pi}{2}$.</p>"
         },
         {
           "num": 12,
@@ -145,10 +145,10 @@
         },
         {
           "num": 14,
-          "body": "已知 $f(x) = m(x - 2m)(x + m + 3)$，$g(x) = 2^{x}- 2$. 若 $\\forall x \\in \\mathbb{R}$，$f(x) &#x3C; 0$ 或 $g(x) &#x3C; 0$，则 $m$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知 $f(x) = m(x - 2m)(x + m + 3)$，$g(x) = 2^{x}- 2$. 若 $\\forall x \\in \\mathbb{R}$，$f(x) < 0$ 或 $g(x) < 0$，则 $m$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(-4,0)$",
-          "solution": "<p>因为 $g(x)=2^{x}-2$，所以 $g(x)&#x3C;0$ 当且仅当 $x&#x3C;1$. 因而题设条件等价于对一切 $x\\geqslant1$ 都有 $f(x)&#x3C;0$.</p><p>若 $m=0$，则 $f(x)=0$，不满足严格不等式；若 $m>0$，则 $f(x)\\to+\\infty$（$x\\to+\\infty$），也不可能在 $[1,+\\infty)$ 上恒为负. 故必须有 $m&#x3C;0$.</p><p>此时 $f(x)$ 是开口向下的二次函数，两个零点为 $2m$ 和 $-m-3$. 要使 $x\\geqslant1$ 时严格有 $f(x)&#x3C;0$，两个零点都必须小于 $1$. 条件 $2m&#x3C;1$ 在 $m&#x3C;0$ 时自动成立，而 $-m-3&#x3C;1$ 等价于 $m>-4$. 所以 $m\\in(-4,0)$.</p>"
+          "solution": "<p>因为 $g(x)=2^{x}-2$，所以 $g(x)<0$ 当且仅当 $x<1$. 因而题设条件等价于对一切 $x\\geqslant1$ 都有 $f(x)<0$.</p><p>若 $m=0$，则 $f(x)=0$，不满足严格不等式；若 $m>0$，则 $f(x)\\to+\\infty$（$x\\to+\\infty$），也不可能在 $[1,+\\infty)$ 上恒为负. 故必须有 $m<0$.</p><p>此时 $f(x)$ 是开口向下的二次函数，两个零点为 $2m$ 和 $-m-3$. 要使 $x\\geqslant1$ 时严格有 $f(x)<0$，两个零点都必须小于 $1$. 条件 $2m<1$ 在 $m<0$ 时自动成立，而 $-m-3<1$ 等价于 $m>-4$. 所以 $m\\in(-4,0)$.</p>"
         }
       ]
     },
@@ -157,7 +157,7 @@
       "problems": [
         {
           "num": 15,
-          "body": "<p>已知函数 $f(x) = \\dfrac{(\\sin x - \\cos x)\\sin 2x}{\\sin x}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的定义域及最小正周期；</p></li><li><p>求 $f(x)$ 的单调递减区间.</p></li></ol><ol class=\"enumerate\"><li><p>由分母不能为零，得 $\\sin x\\ne0$，所以定义域为</p><p>$\\{x\\mid x\\ne k\\pi,\\ k\\in\\mathbb{Z}\\}$. 在此定义域内，利用 $\\sin2x=2\\sin x\\cos x$，得</p>\n$$\nf(x)=2\\cos x(\\sin x-\\cos x)=\\sin2x-\\cos2x-1  =\\sqrt{2}\\sin\\left(2x-\\frac{\\pi}{4}\\right)-1\n$$\n<p>化简式的周期为 $\\pi$，所以 $\\pi$ 是原函数的一个正周期. 另一方面，原函数的定义域排除了恰为 $\\{k\\pi\\mid k\\in\\mathbb{Z}\\}$ 的点；若 $T$ 是原函数的周期，则平移 $T$ 必须把这组不可取点保持不变，从而 $T$ 必须是 $\\pi$ 的整数倍. 因此原函数的最小正周期为 $\\pi$.</p></li><li><p>由上式可得 $f'(x)=2\\sqrt{2}\\cos\\left(2x-\\frac{\\pi}{4}\\right)$. 函数递减时</p>\n$$\n\\cos\\left(2x-\\frac{\\pi}{4}\\right)&#x3C;0\n$$\n<p>即存在 $k\\in\\mathbb{Z}$，使</p>\n$$\n2k\\pi+\\frac{\\pi}{2}&#x3C;2x-\\frac{\\pi}{4}&#x3C;2k\\pi+\\frac{3\\pi}{2}\n$$\n<p>解得 $k\\pi+\\frac{3\\pi}{8}&#x3C;x&#x3C;k\\pi+\\frac{7\\pi}{8}$. 端点处导数为零，但函数在端点及其间的每一点均有定义，故可将递减区间写成相应闭区间；这些区间也不包含被排除的 $k\\pi$. 所以单调递减区间为</p><p>$\\left[k\\pi+\\frac{3\\pi}{8},k\\pi+\\frac{7\\pi}{8}\\right]$（$k\\in\\mathbb{Z}$）.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = \\dfrac{(\\sin x - \\cos x)\\sin 2x}{\\sin x}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的定义域及最小正周期；</p></li><li><p>求 $f(x)$ 的单调递减区间.</p></li></ol><ol class=\"enumerate\"><li><p>由分母不能为零，得 $\\sin x\\ne0$，所以定义域为</p><p>$\\{x\\mid x\\ne k\\pi,\\ k\\in\\mathbb{Z}\\}$. 在此定义域内，利用 $\\sin2x=2\\sin x\\cos x$，得</p>\n$$\nf(x)=2\\cos x(\\sin x-\\cos x)=\\sin2x-\\cos2x-1  =\\sqrt{2}\\sin\\left(2x-\\frac{\\pi}{4}\\right)-1\n$$\n<p>化简式的周期为 $\\pi$，所以 $\\pi$ 是原函数的一个正周期. 另一方面，原函数的定义域排除了恰为 $\\{k\\pi\\mid k\\in\\mathbb{Z}\\}$ 的点；若 $T$ 是原函数的周期，则平移 $T$ 必须把这组不可取点保持不变，从而 $T$ 必须是 $\\pi$ 的整数倍. 因此原函数的最小正周期为 $\\pi$.</p></li><li><p>由上式可得 $f'(x)=2\\sqrt{2}\\cos\\left(2x-\\frac{\\pi}{4}\\right)$. 函数递减时</p>\n$$\n\\cos\\left(2x-\\frac{\\pi}{4}\\right)<0\n$$\n<p>即存在 $k\\in\\mathbb{Z}$，使</p>\n$$\n2k\\pi+\\frac{\\pi}{2}<2x-\\frac{\\pi}{4}<2k\\pi+\\frac{3\\pi}{2}\n$$\n<p>解得 $k\\pi+\\frac{3\\pi}{8}<x<k\\pi+\\frac{7\\pi}{8}$. 端点处导数为零，但函数在端点及其间的每一点均有定义，故可将递减区间写成相应闭区间；这些区间也不包含被排除的 $k\\pi$. 所以单调递减区间为</p><p>$\\left[k\\pi+\\frac{3\\pi}{8},k\\pi+\\frac{7\\pi}{8}\\right]$（$k\\in\\mathbb{Z}$）.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -178,7 +178,7 @@
         },
         {
           "num": 18,
-          "body": "<p>已知函数 $f(x) = ax^{2} + 1$ （$a > 0$），$g(x) = x^{3} + bx$.</p><ol class=\"enumerate\"><li><p>若曲线 $y = f(x)$ 与曲线 $y = g(x)$ 在它们的交点 $(1, c)$ 处具有公共切线，求 $a$，$b$ 的值；</p></li><li><p>当 $a = 3$，$b = -9$ 时，若函数 $f(x) + g(x)$ 在区间 $[k, 2]$ 上的最大值为 28，求 $k$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>因为 $(1,c)$ 同时在两条曲线上，所以 $a+1=c=1+b$，从而 $a=b$. 两条曲线在该点具有公共切线，说明导数值相等，即</p><p>$f'(1)=2a$，$g'(1)=3+b$，所以 $2a=3+b$. 联立 $a=b$ 得 $a=b=3$.</p></li><li><p>令 $h(x)=f(x)+g(x)=x^{3}+3x^{2}-9x+1$，则</p><p>$h'(x)=3x^{2}+6x-9=3(x+3)(x-1)$. 因此 $h$ 在 $(-\\infty,-3)$ 上递增，在 $(-3,1)$ 上递减，在 $(1,+\\infty)$ 上递增. 又</p><p>$h(-3)=28$，$h(1)=-4$，$h(2)=3$.</p><p>区间 $[k,2]$ 要有意义，需 $k\\leqslant2$. 当 $k\\le-3$ 时，区间 $[k,2]$ 包含 $x=-3$，且由上述单调性，$h(x)$ 在该区间上的最大值为 $h(-3)=28$. 当 $-3&#x3C;k\\leqslant2$ 时，区间不含 $-3$，在 $[k,1]$ 上函数递减、在 $[1,2]$ 上函数递增，且 $h(k)&#x3C;28$、$h(2)=3&#x3C;28$，故最大值严格小于 $28$. 所以 $k\\in(-\\infty,-3]$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = ax^{2} + 1$ （$a > 0$），$g(x) = x^{3} + bx$.</p><ol class=\"enumerate\"><li><p>若曲线 $y = f(x)$ 与曲线 $y = g(x)$ 在它们的交点 $(1, c)$ 处具有公共切线，求 $a$，$b$ 的值；</p></li><li><p>当 $a = 3$，$b = -9$ 时，若函数 $f(x) + g(x)$ 在区间 $[k, 2]$ 上的最大值为 28，求 $k$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>因为 $(1,c)$ 同时在两条曲线上，所以 $a+1=c=1+b$，从而 $a=b$. 两条曲线在该点具有公共切线，说明导数值相等，即</p><p>$f'(1)=2a$，$g'(1)=3+b$，所以 $2a=3+b$. 联立 $a=b$ 得 $a=b=3$.</p></li><li><p>令 $h(x)=f(x)+g(x)=x^{3}+3x^{2}-9x+1$，则</p><p>$h'(x)=3x^{2}+6x-9=3(x+3)(x-1)$. 因此 $h$ 在 $(-\\infty,-3)$ 上递增，在 $(-3,1)$ 上递减，在 $(1,+\\infty)$ 上递增. 又</p><p>$h(-3)=28$，$h(1)=-4$，$h(2)=3$.</p><p>区间 $[k,2]$ 要有意义，需 $k\\leqslant2$. 当 $k\\le-3$ 时，区间 $[k,2]$ 包含 $x=-3$，且由上述单调性，$h(x)$ 在该区间上的最大值为 $h(-3)=28$. 当 $-3<k\\leqslant2$ 时，区间不含 $-3$，在 $[k,1]$ 上函数递减、在 $[1,2]$ 上函数递增，且 $h(k)<28$、$h(2)=3<28$，故最大值严格小于 $28$. 所以 $k\\in(-\\infty,-3]$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -192,7 +192,7 @@
         },
         {
           "num": 20,
-          "body": "<p>设 $A$ 是如下形式的 2 行 3 列的数表，</p><p><span class=\"macro macro-examdisplayarray\"></span>ccc<br>a &#x26; b &#x26; c <br class=\"linebreak\"><br>d &#x26; e &#x26; f<br></p><p>满足性质 $P$：$a$，$b$，$c$，$d$，$e$，$f \\in [-1, 1]$，且 $a + b + c + d + e + f = 0$.</p><p>记 $r_{i}(A)$ 为 $A$ 的第 $i$ 行各数之和 （$i = 1$，$2$），$c_{j}(A)$ 为 $A$ 的第 $j$ 列各数之和 （$j = 1$，$2$，$3$）；记 $k(A)$ 为 $|r_{1}(A)|$，$|r_{2}(A)|$，$|c_{1}(A)|$，$|c_{2}(A)|$，$|c_{3}(A)|$ 中的最小值.</p><ol class=\"enumerate\"><li><p>对如下数表 $A$，求 $k(A)$ 的值；</p><p><span class=\"macro macro-examdisplayarray\"></span>ccc<br>1 &#x26; 1 &#x26; -0.8 <br class=\"linebreak\"><br>0.1 &#x26; -0.3 &#x26; -1<br></p></li><li><p>设数表 $A$ 形如</p><p><span class=\"macro macro-examdisplayarray\"></span>ccc<br>1 &#x26; 1 &#x26; -1 - 2d <br class=\"linebreak\"><br>d &#x26; d &#x26; -1<br></p><p>其中 $-1 \\le d \\le 0$. 求 $k(A)$ 的最大值；</p></li><li><p>对所有满足性质 $P$ 的 2 行 3 列的数表 $A$，求 $k(A)$ 的最大值.</p></li></ol><ol class=\"enumerate\"><li><p>该数表的两行和分别为 $1.2$ 和 $-1.2$，三列和分别为 $1.1$，$0.7$ 和 $-1.8$. 所以</p><p>$k(A)=\\min\\{1.2,1.2,1.1,0.7,1.8\\}=0.7$.</p></li><li><p>该数表的行和、列和分别为</p><p>$r_{1}=1-2d$，$r_{2}=-1+2d$，$c_{1}=c_{2}=1+d$，$c_{3}=-2-2d$. 因为 $-1\\le d\\leqslant0$，有</p><p>$|r_{1}|=|r_{2}|=1-2d\\geqslant1+d\\geqslant0$，且 $|c_{3}|=2(1+d)\\geqslant1+d$. 因此 $k(A)=1+d$，其最大值在 $d=0$ 时取得，最大值为 $1$.</p></li><li><p>交换两行、交换三列以及同时将全部元素变号，都不改变 $k(A)$. 三个列和的总和为零，所以至少有两个列和同为非负数或同为非正数；通过交换列并在必要时将全部元素变号，可设所选两列为 $c_{1}\\geqslant0$、$c_{2}\\geqslant0$. 再交换两行，可设 $r_{1}\\geqslant0$. 因而</p><p>$k(A)\\le r_{1}$，$k(A)\\le c_{1}$，$k(A)\\le c_{2}$，从而</p>\n$$\n3k(A)\\le r_{1}+c_{1}+c_{2}  =(a+b+c)+(a+d)+(b+e)  =a+b-f\\leqslant3\n$$\n<p>所以 $k(A)\\leqslant1$. 第（2）问取 $d=0$ 时，数表仍满足性质 $P$，且 $k(A)=1$，故所有满足性质 $P$ 的数表中 $k(A)$ 的最大值为 $1$.</p></li></ol>",
+          "body": "<p>设 $A$ 是如下形式的 2 行 3 列的数表，</p><p><span class=\"macro macro-examdisplayarray\"></span>ccc<br>a & b & c <br class=\"linebreak\"><br>d & e & f<br></p><p>满足性质 $P$：$a$，$b$，$c$，$d$，$e$，$f \\in [-1, 1]$，且 $a + b + c + d + e + f = 0$.</p><p>记 $r_{i}(A)$ 为 $A$ 的第 $i$ 行各数之和 （$i = 1$，$2$），$c_{j}(A)$ 为 $A$ 的第 $j$ 列各数之和 （$j = 1$，$2$，$3$）；记 $k(A)$ 为 $|r_{1}(A)|$，$|r_{2}(A)|$，$|c_{1}(A)|$，$|c_{2}(A)|$，$|c_{3}(A)|$ 中的最小值.</p><ol class=\"enumerate\"><li><p>对如下数表 $A$，求 $k(A)$ 的值；</p><p><span class=\"macro macro-examdisplayarray\"></span>ccc<br>1 & 1 & -0.8 <br class=\"linebreak\"><br>0.1 & -0.3 & -1<br></p></li><li><p>设数表 $A$ 形如</p><p><span class=\"macro macro-examdisplayarray\"></span>ccc<br>1 & 1 & -1 - 2d <br class=\"linebreak\"><br>d & d & -1<br></p><p>其中 $-1 \\le d \\le 0$. 求 $k(A)$ 的最大值；</p></li><li><p>对所有满足性质 $P$ 的 2 行 3 列的数表 $A$，求 $k(A)$ 的最大值.</p></li></ol><ol class=\"enumerate\"><li><p>该数表的两行和分别为 $1.2$ 和 $-1.2$，三列和分别为 $1.1$，$0.7$ 和 $-1.8$. 所以</p><p>$k(A)=\\min\\{1.2,1.2,1.1,0.7,1.8\\}=0.7$.</p></li><li><p>该数表的行和、列和分别为</p><p>$r_{1}=1-2d$，$r_{2}=-1+2d$，$c_{1}=c_{2}=1+d$，$c_{3}=-2-2d$. 因为 $-1\\le d\\leqslant0$，有</p><p>$|r_{1}|=|r_{2}|=1-2d\\geqslant1+d\\geqslant0$，且 $|c_{3}|=2(1+d)\\geqslant1+d$. 因此 $k(A)=1+d$，其最大值在 $d=0$ 时取得，最大值为 $1$.</p></li><li><p>交换两行、交换三列以及同时将全部元素变号，都不改变 $k(A)$. 三个列和的总和为零，所以至少有两个列和同为非负数或同为非正数；通过交换列并在必要时将全部元素变号，可设所选两列为 $c_{1}\\geqslant0$、$c_{2}\\geqslant0$. 再交换两行，可设 $r_{1}\\geqslant0$. 因而</p><p>$k(A)\\le r_{1}$，$k(A)\\le c_{1}$，$k(A)\\le c_{2}$，从而</p>\n$$\n3k(A)\\le r_{1}+c_{1}+c_{2}  =(a+b+c)+(a+d)+(b+e)  =a+b-f\\leqslant3\n$$\n<p>所以 $k(A)\\leqslant1$. 第（2）问取 $d=0$ 时，数表仍满足性质 $P$，且 $k(A)=1$，故所有满足性质 $P$ 的数表中 $k(A)$ 的最大值为 $1$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

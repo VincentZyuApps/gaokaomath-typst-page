@@ -37,10 +37,10 @@
         },
         {
           "num": 5,
-          "body": "$\\begin{vmatrix}1 &#x26; 2 &#x26; 3 \\\\ 4 &#x26; 5 &#x26; 0 \\\\ 3 &#x26; 2 &#x26; 1\\end{vmatrix}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "$\\begin{vmatrix}1 & 2 & 3 \\\\ 4 & 5 & 0 \\\\ 3 & 2 & 1\\end{vmatrix}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-24$.",
-          "solution": "<p>按第一行展开行列式，得</p>\n$$\n\\begin{vmatrix}1&#x26;2&#x26;3\\\\4&#x26;5&#x26;0\\\\3&#x26;2&#x26;1\\end{vmatrix}=1\\begin{vmatrix}5&#x26;0\\\\2&#x26;1\\end{vmatrix}-2\\begin{vmatrix}4&#x26;0\\\\3&#x26;1\\end{vmatrix}+3\\begin{vmatrix}4&#x26;5\\\\3&#x26;2\\end{vmatrix}=1(5-0)-2(4-0)+3(8-15)=5-8-21=-24\n$$"
+          "solution": "<p>按第一行展开行列式，得</p>\n$$\n\\begin{vmatrix}1&2&3\\\\4&5&0\\\\3&2&1\\end{vmatrix}=1\\begin{vmatrix}5&0\\\\2&1\\end{vmatrix}-2\\begin{vmatrix}4&0\\\\3&1\\end{vmatrix}+3\\begin{vmatrix}4&5\\\\3&2\\end{vmatrix}=1(5-0)-2(4-0)+3(8-15)=5-8-21=-24\n$$"
         },
         {
           "num": 6,
@@ -89,7 +89,7 @@
           "body": "正多面体有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 种，其名称为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$5$，正四面体，正六面体，正八面体，正十二面体，正二十面体.",
-          "solution": "<p>设每个面是正 $p$ 边形，每个顶点有 $q$ 个面相交. 由于每个顶点处的面角和必须小于 $360^{\\circ}$，而正 $p$ 边形的内角为 $\\frac{(p-2)180^{\\circ}}{p}$，所以</p><p>$q\\frac{(p-2)180^{\\circ}}{p}&#x3C;360^{\\circ}$，$p\\ge3$，$\\ q\\ge3$，$p$，$q\\in\\mathbb{Z}$.</p><p>当 $p=3$ 时，不等式化为 $q&#x3C;6$，所以 $q\\in\\{3,4,5\\}$. 当 $p=4$ 时，$q&#x3C;4$，所以只有 $q=3$. 当 $p=5$ 时，$q&#x3C;\\frac{10}{3}$，所以也只有 $q=3$. 当 $p\\ge6$ 时，正 $p$ 边形的内角不小于 $120^{\\circ}$，从而 $q\\frac{(p-2)180^{\\circ}}{p}\\ge3\\times120^{\\circ}=360^{\\circ}$，矛盾.</p><p>因此可能的组合只有 $(p,q)\\in\\{(3,3),(3,4),(3,5),(4,3),(5,3)\\}$. 它们依次对应正四面体、正八面体、正二十面体、正六面体、正十二面体，故正多面体共有 $5$ 种.</p>"
+          "solution": "<p>设每个面是正 $p$ 边形，每个顶点有 $q$ 个面相交. 由于每个顶点处的面角和必须小于 $360^{\\circ}$，而正 $p$ 边形的内角为 $\\frac{(p-2)180^{\\circ}}{p}$，所以</p><p>$q\\frac{(p-2)180^{\\circ}}{p}<360^{\\circ}$，$p\\ge3$，$\\ q\\ge3$，$p$，$q\\in\\mathbb{Z}$.</p><p>当 $p=3$ 时，不等式化为 $q<6$，所以 $q\\in\\{3,4,5\\}$. 当 $p=4$ 时，$q<4$，所以只有 $q=3$. 当 $p=5$ 时，$q<\\frac{10}{3}$，所以也只有 $q=3$. 当 $p\\ge6$ 时，正 $p$ 边形的内角不小于 $120^{\\circ}$，从而 $q\\frac{(p-2)180^{\\circ}}{p}\\ge3\\times120^{\\circ}=360^{\\circ}$，矛盾.</p><p>因此可能的组合只有 $(p,q)\\in\\{(3,3),(3,4),(3,5),(4,3),(5,3)\\}$. 它们依次对应正四面体、正八面体、正二十面体、正六面体、正十二面体，故正多面体共有 $5$ 种.</p>"
         },
         {
           "num": 13,
@@ -171,7 +171,7 @@
           "body": "<p>设三角形的边长为 $a = 4$，$b = 5$，$c = 6$，其对角依次为 $A$，$B$，$C$.</p><ol class=\"enumerate\"><li><p>求 $\\cos C$.</p></li><li><p>求 $\\sin C$，$\\sin B$，$\\sin A$.</p></li><li><p>问 $A$，$B$，$C$ 三个角各为锐角或钝角？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由余弦定理，$c^{2}=a^{2}+b^{2}-2ab\\cos C$. 代入 $a=4$，$b=5$，$c=6$，得</p>\n$$\n\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}=\\frac{4^{2}+5^{2}-6^{2}}{2\\times4\\times5}=\\frac{5}{40}=\\frac{1}{8}\n$$\n</li><li><p>因为 $C$ 是三角形的内角，所以 $0&#x3C;C&#x3C;180^{\\circ}$，从而 $\\sin C>0$. 由同角平方关系，</p>\n$$\n\\sin C=\\sqrt{1-\\cos^{2}C}=\\sqrt{1-\\frac{1}{64}}=\\frac{3\\sqrt{7}}{8}\n$$\n<p>由正弦定理，$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$. 因此</p>\n$$\n\\sin B=\\frac{b}{c}\\sin C=\\frac{5}{6}\\cdot\\frac{3\\sqrt{7}}{8}=\\frac{5\\sqrt{7}}{16}\n$$\n<p>由正弦定理，</p>\n$$\n\\sin A=\\frac{a}{c}\\sin C=\\frac{4}{6}\\cdot\\frac{3\\sqrt{7}}{8}=\\frac{\\sqrt{7}}{4}\n$$\n</li><li><p>由 $c=6>a=4$ 且 $c=6>b=5$，可知 $C$ 是最大角. 已知 $\\cos C=\\frac{1}{8}>0$，所以 $C$ 为锐角. 三角形中其余两个角 $A$、$B$ 都小于最大角 $C$，故 $A$、$B$ 也都是锐角. 因而 $A$、$B$、$C$ 皆为锐角.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由余弦定理，$c^{2}=a^{2}+b^{2}-2ab\\cos C$. 代入 $a=4$，$b=5$，$c=6$，得</p>\n$$\n\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}=\\frac{4^{2}+5^{2}-6^{2}}{2\\times4\\times5}=\\frac{5}{40}=\\frac{1}{8}\n$$\n</li><li><p>因为 $C$ 是三角形的内角，所以 $0<C<180^{\\circ}$，从而 $\\sin C>0$. 由同角平方关系，</p>\n$$\n\\sin C=\\sqrt{1-\\cos^{2}C}=\\sqrt{1-\\frac{1}{64}}=\\frac{3\\sqrt{7}}{8}\n$$\n<p>由正弦定理，$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$. 因此</p>\n$$\n\\sin B=\\frac{b}{c}\\sin C=\\frac{5}{6}\\cdot\\frac{3\\sqrt{7}}{8}=\\frac{5\\sqrt{7}}{16}\n$$\n<p>由正弦定理，</p>\n$$\n\\sin A=\\frac{a}{c}\\sin C=\\frac{4}{6}\\cdot\\frac{3\\sqrt{7}}{8}=\\frac{\\sqrt{7}}{4}\n$$\n</li><li><p>由 $c=6>a=4$ 且 $c=6>b=5$，可知 $C$ 是最大角. 已知 $\\cos C=\\frac{1}{8}>0$，所以 $C$ 为锐角. 三角形中其余两个角 $A$、$B$ 都小于最大角 $C$，故 $A$、$B$ 也都是锐角. 因而 $A$、$B$、$C$ 皆为锐角.</p></li></ol>"
         },
         {
           "num": 24,

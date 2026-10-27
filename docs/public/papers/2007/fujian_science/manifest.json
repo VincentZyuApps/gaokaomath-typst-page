@@ -33,15 +33,15 @@
         },
         {
           "num": 3,
-          "body": "已知集合 $A = \\{x \\mid x &#x3C; a\\}$，$B = \\{x \\mid 1 &#x3C; x &#x3C; 2\\}$，且 $A \\cup (\\complement_{\\mathbb{R}}B) = \\mathbb{R}$，则实数 $a$ 的取值范围是（ ）",
+          "body": "已知集合 $A = \\{x \\mid x < a\\}$，$B = \\{x \\mid 1 < x < 2\\}$，且 $A \\cup (\\complement_{\\mathbb{R}}B) = \\mathbb{R}$，则实数 $a$ 的取值范围是（ ）",
           "choices": [
             "$a \\le 1$",
-            "$a &#x3C; 1$",
+            "$a < 1$",
             "$a \\ge 2$",
             "$a > 2$"
           ],
           "answer": "C",
-          "solution": "由 $A\\cup(\\complement_{\\mathbb{R}}B)=\\mathbb{R}$，对任意 $x\\in B$，因为 $x\\notin\\complement_{\\mathbb{R}}B$，必有 $x\\in A$，故 $B\\subset A$. 反过来，若 $B\\subset A$，则 $A\\cup(\\complement_{\\mathbb{R}}B)=\\mathbb{R}$. 因此题设等价于 $(1,2)\\subset(-\\infty,a)$. 这要求且只要求 $a\\geqslant2$：当 $a\\geqslant2$ 时任意 $x\\in(1,2)$ 都满足 $x&#x3C;a$；当 $a&#x3C;2$ 时可取充分接近 $2$ 且大于 $a$ 的 $x\\in(1,2)$，此时 $x\\notin A$. 故选 C."
+          "solution": "由 $A\\cup(\\complement_{\\mathbb{R}}B)=\\mathbb{R}$，对任意 $x\\in B$，因为 $x\\notin\\complement_{\\mathbb{R}}B$，必有 $x\\in A$，故 $B\\subset A$. 反过来，若 $B\\subset A$，则 $A\\cup(\\complement_{\\mathbb{R}}B)=\\mathbb{R}$. 因此题设等价于 $(1,2)\\subset(-\\infty,a)$. 这要求且只要求 $a\\geqslant2$：当 $a\\geqslant2$ 时任意 $x\\in(1,2)$ 都满足 $x<a$；当 $a<2$ 时可取充分接近 $2$ 且大于 $a$ 的 $x\\in(1,2)$，此时 $x\\notin A$. 故选 C."
         },
         {
           "num": 4,
@@ -81,7 +81,7 @@
         },
         {
           "num": 7,
-          "body": "已知 $f(x)$ 为 $\\mathbb{R}$ 上的减函数，则满足 $f\\left(\\left|\\frac{1}{x}\\right|\\right) &#x3C; f(1)$ 的实数 $x$ 的取值范围是（ ）",
+          "body": "已知 $f(x)$ 为 $\\mathbb{R}$ 上的减函数，则满足 $f\\left(\\left|\\frac{1}{x}\\right|\\right) < f(1)$ 的实数 $x$ 的取值范围是（ ）",
           "choices": [
             "$(-1, 1)$",
             "$(0,1)$",
@@ -89,7 +89,7 @@
             "$(-\\infty, -1) \\cup (1, +\\infty)$"
           ],
           "answer": "C",
-          "solution": "<p>函数 $f$ 在 $\\mathbb{R}$ 上为严格减函数，所以</p>\n$$\nf\\left(\\left|\\frac{1}{x}\\right|\\right)&#x3C;f(1)  \\Longleftrightarrow \\left|\\frac{1}{x}\\right|>1\n$$\n<p>这里必须有 $x\\neq0$，且 $\\left|\\dfrac{1}{x}\\right|>1$ 等价于 $0&#x3C;|x|&#x3C;1$. 因而 $x$ 的取值范围为 $(-1,0)\\cup(0,1)$，故选 C.</p>"
+          "solution": "<p>函数 $f$ 在 $\\mathbb{R}$ 上为严格减函数，所以</p>\n$$\nf\\left(\\left|\\frac{1}{x}\\right|\\right)<f(1)  \\Longleftrightarrow \\left|\\frac{1}{x}\\right|>1\n$$\n<p>这里必须有 $x\\neq0$，且 $\\left|\\dfrac{1}{x}\\right|>1$ 等价于 $0<|x|<1$. 因而 $x$ 的取值范围为 $(-1,0)\\cup(0,1)$，故选 C.</p>"
         },
         {
           "num": 8,
@@ -129,15 +129,15 @@
         },
         {
           "num": 11,
-          "body": "已知对任意实数 $x$，有 $f(-x) = -f(x)$，$g(-x) = g(x)$，且 $x > 0$ 时，$f'(x) > 0$，$g'(x) > 0$，则 $x &#x3C; 0$ 时，（ ）",
+          "body": "已知对任意实数 $x$，有 $f(-x) = -f(x)$，$g(-x) = g(x)$，且 $x > 0$ 时，$f'(x) > 0$，$g'(x) > 0$，则 $x < 0$ 时，（ ）",
           "choices": [
             "$f'(x) > 0$，$g'(x) > 0$",
-            "$f^{\\prime}(x) > 0$，$g^{\\prime}(x) &#x3C; 0$",
-            "$f^{\\prime}(x) &#x3C; 0$，$g^{\\prime}(x) > 0$",
-            "$f^{\\prime}(x) &#x3C; 0$，$g^{\\prime}(x) &#x3C; 0$"
+            "$f^{\\prime}(x) > 0$，$g^{\\prime}(x) < 0$",
+            "$f^{\\prime}(x) < 0$，$g^{\\prime}(x) > 0$",
+            "$f^{\\prime}(x) < 0$，$g^{\\prime}(x) < 0$"
           ],
           "answer": "B",
-          "solution": "<p>由 $f(-x)=-f(x)$，对等式两边求导得 $f'(-x)=f'(x)$，所以 $f'$ 为偶函数. 由 $g(-x)=g(x)$，求导得 $g'(-x)=-g'(x)$，所以 $g'$ 为奇函数. 当 $x&#x3C;0$ 时，$-x>0$，故 $f'(x)=f'(-x)>0$，$g'(x)=-g'(-x)&#x3C;0$.</p><p>因此选 B.</p>"
+          "solution": "<p>由 $f(-x)=-f(x)$，对等式两边求导得 $f'(-x)=f'(x)$，所以 $f'$ 为偶函数. 由 $g(-x)=g(x)$，求导得 $g'(-x)=-g'(x)$，所以 $g'$ 为奇函数. 当 $x<0$ 时，$-x>0$，故 $f'(x)=f'(-x)>0$，$g'(x)=-g'(-x)<0$.</p><p>因此选 B.</p>"
         },
         {
           "num": 12,
@@ -194,7 +194,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，$\\tan A = \\frac{1}{4}$，$\\tan B = \\frac{3}{5}$.</p><ol class=\"enumerate\"><li><p>求角 $C$ 的大小；</p></li><li><p>若 $AB$ 边的长为 $\\sqrt{17}$，求 $BC$ 边的长.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由于 $A$，$B$ 是三角形的内角，且 $\\tan A$，$\\tan B$ 均为正数，所以 $A$，$B$ 均为锐角. 因而</p>\n$$\n\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}=\\frac{\\frac{1}{4}+\\frac{3}{5}}{1-\\frac{1}{4}\\cdot\\frac{3}{5}}=1\n$$\n<p>又 $0&#x3C;A+B&#x3C;\\pi$，且 $\\tan(A+B)=1>0$，所以 $A+B$ 不可能在 $(\\frac{\\pi}{2},\\pi)$ 内，只能为锐角. 因而 $A+B=\\frac{\\pi}{4}$，从而</p>\n$$\nC=\\pi-A-B=\\frac{3\\pi}{4}\n$$\n</li><li><p>由 $\\tan A=\\frac{1}{4}$ 及 $A$ 为锐角，得</p><p>$\\sin A=\\frac{1}{\\sqrt{17}}$，$\\sin C=\\sin\\frac{3\\pi}{4}=\\frac{\\sqrt{2}}{2}$.</p><p>由正弦定理，</p>\n$$\n\\frac{BC}{\\sin A}=\\frac{AB}{\\sin C}\n$$\n<p>所以</p>\n$$\nBC=\\sqrt{17}\\cdot\\frac{\\sin A}{\\sin C}=\\sqrt{17}\\cdot\\frac{\\frac{1}{\\sqrt{17}}}{\\frac{\\sqrt{2}}{2}}=\\sqrt{2}\n$$\n<p>故 $BC=\\sqrt{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由于 $A$，$B$ 是三角形的内角，且 $\\tan A$，$\\tan B$ 均为正数，所以 $A$，$B$ 均为锐角. 因而</p>\n$$\n\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}=\\frac{\\frac{1}{4}+\\frac{3}{5}}{1-\\frac{1}{4}\\cdot\\frac{3}{5}}=1\n$$\n<p>又 $0<A+B<\\pi$，且 $\\tan(A+B)=1>0$，所以 $A+B$ 不可能在 $(\\frac{\\pi}{2},\\pi)$ 内，只能为锐角. 因而 $A+B=\\frac{\\pi}{4}$，从而</p>\n$$\nC=\\pi-A-B=\\frac{3\\pi}{4}\n$$\n</li><li><p>由 $\\tan A=\\frac{1}{4}$ 及 $A$ 为锐角，得</p><p>$\\sin A=\\frac{1}{\\sqrt{17}}$，$\\sin C=\\sin\\frac{3\\pi}{4}=\\frac{\\sqrt{2}}{2}$.</p><p>由正弦定理，</p>\n$$\n\\frac{BC}{\\sin A}=\\frac{AB}{\\sin C}\n$$\n<p>所以</p>\n$$\nBC=\\sqrt{17}\\cdot\\frac{\\sin A}{\\sin C}=\\sqrt{17}\\cdot\\frac{\\frac{1}{\\sqrt{17}}}{\\frac{\\sqrt{2}}{2}}=\\sqrt{2}\n$$\n<p>故 $BC=\\sqrt{2}$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -208,7 +208,7 @@
           "body": "<p>某分公司经销某种品牌产品，每件产品的成本为 $3\\text{ 元}$，并且每件产品需向总公司交 $a\\text{ 元}$（$3 \\le a \\le 5$）的管理费，预计当每件产品的售价为 $x\\text{ 元}$（$9 \\le x \\le 11$）时，一年的销售量为 $(12 - x)^{2}\\text{ 万件}$.</p><ol class=\"enumerate\"><li><p>求分公司一年的利润 $L$（万元）与每件产品的售价 $x$ 的函数关系式；</p></li><li><p>当每件产品的售价为多少元时，分公司一年的利润 $L$ 最大？并求出 $L$ 的最大值 $Q(a)$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>每件产品的利润为售价减去成本和管理费，即 $x-3-a$ 元. 销售量为 $(12-x)^{2}$ 万件，所以年利润为 $L=(x-a-3)(12-x)^{2}$，其中 $9\\le x\\le 11$.</p></li><li><p>对 $L$ 求导，得</p>\n$$\nL'=(12-x)^{2}-2(x-a-3)(12-x)=(12-x)(18+2a-3x)\n$$\n<p>在 $9\\le x\\le 11$ 时，$12-x>0$，所以极值只由 $18+2a-3x$ 的符号决定. 令</p>\n$$\nx_{0}=\\frac{18+2a}{3}=6+\\frac{2a}{3}\n$$\n<p>当 $3\\le a\\le\\frac{9}{2}$ 时，$x_{0}\\le 9$，从而 $L$ 在 $[9,11]$ 上递减，最大值在 $x=9$ 处取得，并且</p>\n$$\nQ(a)=L(9)=(6-a)\\cdot 3^{2}=54-9a\n$$\n<p>当 $\\frac{9}{2}&#x3C;a\\le 5$ 时，$9&#x3C;x_{0}&#x3C;11$，$L$ 在 $[9,x_{0}]$ 上递增，在 $[x_{0},11]$ 上递减，最大值在 $x=x_{0}$ 处取得. 此时 $x_{0}-a-3=3-\\frac{a}{3}=\\frac{9-a}{3}$，$12-x_{0}=6-\\frac{2a}{3}=\\frac{2(9-a)}{3}$，</p><p>所以</p>\n$$\nQ(a)=L(x_{0})=\\frac{9-a}{3}\\left(\\frac{2(9-a)}{3}\\right)^{2}=\\frac{4(9-a)^{3}}{27}\n$$\n<p>综上，售价为</p>\n$$\nx=\\begin{cases}9,&#x26;3\\le a\\le\\frac{9}{2},\\\\\n\n6+\\frac{2a}{3},&#x26;\\frac{9}{2}&#x3C;a\\leqslant5,\\end{cases}\n$$\n<p>最大利润为</p>\n$$\nQ(a)=\\begin{cases}54-9a,&#x26;3\\le a\\le\\frac{9}{2},\\\\  \\frac{4(9-a)^{3}}{27},&#x26;\\frac{9}{2}&#x3C;a\\leqslant5\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>每件产品的利润为售价减去成本和管理费，即 $x-3-a$ 元. 销售量为 $(12-x)^{2}$ 万件，所以年利润为 $L=(x-a-3)(12-x)^{2}$，其中 $9\\le x\\le 11$.</p></li><li><p>对 $L$ 求导，得</p>\n$$\nL'=(12-x)^{2}-2(x-a-3)(12-x)=(12-x)(18+2a-3x)\n$$\n<p>在 $9\\le x\\le 11$ 时，$12-x>0$，所以极值只由 $18+2a-3x$ 的符号决定. 令</p>\n$$\nx_{0}=\\frac{18+2a}{3}=6+\\frac{2a}{3}\n$$\n<p>当 $3\\le a\\le\\frac{9}{2}$ 时，$x_{0}\\le 9$，从而 $L$ 在 $[9,11]$ 上递减，最大值在 $x=9$ 处取得，并且</p>\n$$\nQ(a)=L(9)=(6-a)\\cdot 3^{2}=54-9a\n$$\n<p>当 $\\frac{9}{2}<a\\le 5$ 时，$9<x_{0}<11$，$L$ 在 $[9,x_{0}]$ 上递增，在 $[x_{0},11]$ 上递减，最大值在 $x=x_{0}$ 处取得. 此时 $x_{0}-a-3=3-\\frac{a}{3}=\\frac{9-a}{3}$，$12-x_{0}=6-\\frac{2a}{3}=\\frac{2(9-a)}{3}$，</p><p>所以</p>\n$$\nQ(a)=L(x_{0})=\\frac{9-a}{3}\\left(\\frac{2(9-a)}{3}\\right)^{2}=\\frac{4(9-a)^{3}}{27}\n$$\n<p>综上，售价为</p>\n$$\nx=\\begin{cases}9,&3\\le a\\le\\frac{9}{2},\\\\\n\n6+\\frac{2a}{3},&\\frac{9}{2}<a\\leqslant5,\\end{cases}\n$$\n<p>最大利润为</p>\n$$\nQ(a)=\\begin{cases}54-9a,&3\\le a\\le\\frac{9}{2},\\\\  \\frac{4(9-a)^{3}}{27},&\\frac{9}{2}<a\\leqslant5\\end{cases}\n$$\n</li></ol>"
         },
         {
           "num": 20,
@@ -222,14 +222,14 @@
           "body": "<p>等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，$a_{1}= 1 + \\sqrt{2}$，$S_{3}= 9 + 3\\sqrt{2}$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项 $a_{n}$ 与前 $n$ 项和为 $S_{n}$；</p></li><li><p>设 $b_{n}= \\frac{S_{n}}{n}$（$n \\in \\mathbb{N}^{*}$），求证：数列 $\\{b_{n}\\}$ 中任意不同的三项都不可能成为等比数列.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$. 由等差数列的前 $3$ 项和公式，</p>\n$$\nS_{3}=3(a_{1}+d)\n$$\n<p>所以</p>\n$$\n3(1+\\sqrt{2}+d)=9+3\\sqrt{2}\n$$\n<p>从而 $d=2$.</p>\n$$\na_{n}=a_{1}+(n-1)d=2n-1+\\sqrt{2}\n$$\n<p>且</p>\n$$\nS_{n}=\\frac{n(a_{1}+a_{n})}{2}=n(n+\\sqrt{2})\n$$\n</li><li><p>由上式，</p>\n$$\nb_{n}=\\frac{S_{n}}{n}=n+\\sqrt{2}\n$$\n<p>任取三个不同的正整数 $n_{1}&#x3C;n_{2}&#x3C;n_{3}$，令 $p=n_{2}-n_{1}>0$，$q=n_{3}-n_{2}>0$.</p><p>因为 $b_{n}$ 随 $n$ 严格递增，若这三项能组成等比数列，则中间项必须满足</p>\n$$\nb_{n_{2}}^{2}=b_{n_{1}}b_{n_{3}}\n$$\n<p>将 $b_{n}=n+\\sqrt{2}$ 代入，记 $t=n_{1}+\\sqrt{2}$，则该等式等价于</p>\n$$\n(t+p)^{2}=t(t+p+q)\n$$\n<p>即</p>\n$$\nt(p-q)+p^{2}=0\n$$\n<p>若 $p=q$，则上式变为 $p^{2}=0$，与 $p>0$ 矛盾；若 $p\\neq q$，则</p>\n$$\n\\sqrt{2}=-n_{1}-\\frac{p^{2}}{p-q}\n$$\n<p>为有理数，也矛盾. 因此任意不同的三项都不可能成为等比数列.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$. 由等差数列的前 $3$ 项和公式，</p>\n$$\nS_{3}=3(a_{1}+d)\n$$\n<p>所以</p>\n$$\n3(1+\\sqrt{2}+d)=9+3\\sqrt{2}\n$$\n<p>从而 $d=2$.</p>\n$$\na_{n}=a_{1}+(n-1)d=2n-1+\\sqrt{2}\n$$\n<p>且</p>\n$$\nS_{n}=\\frac{n(a_{1}+a_{n})}{2}=n(n+\\sqrt{2})\n$$\n</li><li><p>由上式，</p>\n$$\nb_{n}=\\frac{S_{n}}{n}=n+\\sqrt{2}\n$$\n<p>任取三个不同的正整数 $n_{1}<n_{2}<n_{3}$，令 $p=n_{2}-n_{1}>0$，$q=n_{3}-n_{2}>0$.</p><p>因为 $b_{n}$ 随 $n$ 严格递增，若这三项能组成等比数列，则中间项必须满足</p>\n$$\nb_{n_{2}}^{2}=b_{n_{1}}b_{n_{3}}\n$$\n<p>将 $b_{n}=n+\\sqrt{2}$ 代入，记 $t=n_{1}+\\sqrt{2}$，则该等式等价于</p>\n$$\n(t+p)^{2}=t(t+p+q)\n$$\n<p>即</p>\n$$\nt(p-q)+p^{2}=0\n$$\n<p>若 $p=q$，则上式变为 $p^{2}=0$，与 $p>0$ 矛盾；若 $p\\neq q$，则</p>\n$$\n\\sqrt{2}=-n_{1}-\\frac{p^{2}}{p-q}\n$$\n<p>为有理数，也矛盾. 因此任意不同的三项都不可能成为等比数列.</p></li></ol>"
         },
         {
           "num": 22,
           "body": "<p>已知函数 $f(x) = \\mathrm{e}^{x}- kx$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>若 $k = \\mathrm{e}$，试确定函数 $f(x)$ 的单调区间；</p></li><li><p>若 $k > 0$，且对于任意 $x \\in \\mathbb{R}$，$f(|x|) > 0$ 恒成立，试确定实数 $k$ 的取值范围；</p></li><li><p>设函数 $F(x) = f(x) + f(-x)$，求证：$F(1)F(2)\\cdots F(n) > (\\mathrm{e}^{n+1}+ 2)^{\\frac{n}{2}}$（$n \\in \\mathbb{N}^{*}$）.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $k=\\mathrm{e}$ 时，</p>\n$$\nf'(x)=\\mathrm{e}^{x}-\\mathrm{e}\n$$\n<p>因为 $\\mathrm{e}^{x}&#x3C;\\mathrm{e}$ 当且仅当 $x&#x3C;1$，所以 $f'(x)&#x3C;0$ 在 $(-\\infty,1)$ 上成立，$f'(x)>0$ 在 $(1,+\\infty)$ 上成立. 因此 $f(x)$ 在 $(-\\infty,1]$ 上单调递减，在 $[1,+\\infty)$ 上单调递增.</p></li><li><p>令 $t=|x|$，则 $t\\geqslant0$，题设等价于</p>\n$$\n\\mathrm{e}^{t}-kt>0 \\text{对任意 }t\\geqslant0\n$$\n<p>当 $t=0$ 时，$\\mathrm{e}^{t}-kt=1>0$. 当 $t>0$ 时，不等式等价于</p>\n$$\nk&#x3C;\\frac{\\mathrm{e}^{t}}{t}\n$$\n<p>令 $h(t)=\\frac{\\mathrm{e}^{t}}{t}$，则</p>\n$$\nh'(t)=\\frac{\\mathrm{e}^{t}(t-1)}{t^{2}}\n$$\n<p>所以 $h(t)$ 在 $(0,1)$ 上递减，在 $(1,+\\infty)$ 上递增，最小值为 $h(1)=\\mathrm{e}$. 因为题设是不等式 $f(|x|)>0$，在 $t=1$ 处也必须严格成立，故</p>\n$$\n0&#x3C;k&#x3C;\\mathrm{e}\n$$\n</li><li><p>由函数定义，</p>\n$$\nF(x)=\\mathrm{e}^{x}-kx+\\mathrm{e}^{-x}+kx=\\mathrm{e}^{x}+\\mathrm{e}^{-x}\n$$\n<p>记 $P_{n}=F(1)F(2)\\cdots F(n)$. 对 $1\\le j\\le\\left\\lfloor\\frac{n}{2}\\right\\rfloor$，有</p>\n$$\nF(j)F(n+1-j)  =\\mathrm{e}^{n+1}+\\mathrm{e}^{-(n+1)}+\\mathrm{e}^{n+1-2j}+\\mathrm{e}^{2j-(n+1)}\n$$\n<p>由于最后两项的乘积为 $1$，且 $j\\neq\\frac{n+1}{2}$，由 $u+u^{-1}>2$（$u>0$，$u\\neq1$）得</p>\n$$\nF(j)F(n+1-j)>\\mathrm{e}^{n+1}+2\n$$\n<p>若 $n$ 为偶数，共有 $\\frac{n}{2}$ 对上述因子，所以</p>\n$$\nP_{n}>\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{n}{2}}\n$$\n<p>若 $n$ 为奇数，除上述 $\\frac{(n-1)}{2}$ 对因子外，还有中间项 $F\\left(\\frac{n+1}{2}\\right)$. 且</p>\n$$\nF\\left(\\frac{n+1}{2}\\right)^{2}=\\mathrm{e}^{n+1}+2+\\mathrm{e}^{-(n+1)}>\\mathrm{e}^{n+1}+2\n$$\n<p>从而</p>\n$$\nF\\left(\\frac{n+1}{2}\\right)>\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{1}{2}}\n$$\n<p>因此</p>\n$$\nP_{n}>\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{n-1}{2}}\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{1}{2}}=\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{n}{2}}\n$$\n<p>两种情形均得所证不等式.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $k=\\mathrm{e}$ 时，</p>\n$$\nf'(x)=\\mathrm{e}^{x}-\\mathrm{e}\n$$\n<p>因为 $\\mathrm{e}^{x}<\\mathrm{e}$ 当且仅当 $x<1$，所以 $f'(x)<0$ 在 $(-\\infty,1)$ 上成立，$f'(x)>0$ 在 $(1,+\\infty)$ 上成立. 因此 $f(x)$ 在 $(-\\infty,1]$ 上单调递减，在 $[1,+\\infty)$ 上单调递增.</p></li><li><p>令 $t=|x|$，则 $t\\geqslant0$，题设等价于</p>\n$$\n\\mathrm{e}^{t}-kt>0 \\text{对任意 }t\\geqslant0\n$$\n<p>当 $t=0$ 时，$\\mathrm{e}^{t}-kt=1>0$. 当 $t>0$ 时，不等式等价于</p>\n$$\nk<\\frac{\\mathrm{e}^{t}}{t}\n$$\n<p>令 $h(t)=\\frac{\\mathrm{e}^{t}}{t}$，则</p>\n$$\nh'(t)=\\frac{\\mathrm{e}^{t}(t-1)}{t^{2}}\n$$\n<p>所以 $h(t)$ 在 $(0,1)$ 上递减，在 $(1,+\\infty)$ 上递增，最小值为 $h(1)=\\mathrm{e}$. 因为题设是不等式 $f(|x|)>0$，在 $t=1$ 处也必须严格成立，故</p>\n$$\n0<k<\\mathrm{e}\n$$\n</li><li><p>由函数定义，</p>\n$$\nF(x)=\\mathrm{e}^{x}-kx+\\mathrm{e}^{-x}+kx=\\mathrm{e}^{x}+\\mathrm{e}^{-x}\n$$\n<p>记 $P_{n}=F(1)F(2)\\cdots F(n)$. 对 $1\\le j\\le\\left\\lfloor\\frac{n}{2}\\right\\rfloor$，有</p>\n$$\nF(j)F(n+1-j)  =\\mathrm{e}^{n+1}+\\mathrm{e}^{-(n+1)}+\\mathrm{e}^{n+1-2j}+\\mathrm{e}^{2j-(n+1)}\n$$\n<p>由于最后两项的乘积为 $1$，且 $j\\neq\\frac{n+1}{2}$，由 $u+u^{-1}>2$（$u>0$，$u\\neq1$）得</p>\n$$\nF(j)F(n+1-j)>\\mathrm{e}^{n+1}+2\n$$\n<p>若 $n$ 为偶数，共有 $\\frac{n}{2}$ 对上述因子，所以</p>\n$$\nP_{n}>\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{n}{2}}\n$$\n<p>若 $n$ 为奇数，除上述 $\\frac{(n-1)}{2}$ 对因子外，还有中间项 $F\\left(\\frac{n+1}{2}\\right)$. 且</p>\n$$\nF\\left(\\frac{n+1}{2}\\right)^{2}=\\mathrm{e}^{n+1}+2+\\mathrm{e}^{-(n+1)}>\\mathrm{e}^{n+1}+2\n$$\n<p>从而</p>\n$$\nF\\left(\\frac{n+1}{2}\\right)>\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{1}{2}}\n$$\n<p>因此</p>\n$$\nP_{n}>\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{n-1}{2}}\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{1}{2}}=\\left(\\mathrm{e}^{n+1}+2\\right)^{\\frac{n}{2}}\n$$\n<p>两种情形均得所证不等式.</p></li></ol>"
         }
       ]
     }

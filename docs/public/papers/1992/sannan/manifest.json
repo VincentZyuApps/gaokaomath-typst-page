@@ -45,7 +45,7 @@
         },
         {
           "num": 4,
-          "body": "函数 $y=\\log_{\\frac{1}{2}}(1-x)$（$x&#x3C;1$）的反函数是（ ）",
+          "body": "函数 $y=\\log_{\\frac{1}{2}}(1-x)$（$x<1$）的反函数是（ ）",
           "choices": [
             "$y=1+2^{-x}$（$x\\in\\mathbb{R}$）",
             "$y=1-2^{-x}$（$x\\in\\mathbb{R}$）",
@@ -53,7 +53,7 @@
             "$y=1-2^{x}$（$x\\in\\mathbb{R}$）"
           ],
           "answer": "B",
-          "solution": "<p>原函数的定义域为 $x&#x3C;1$，此时 $1-x>0$. 由于底数 $\\frac{1}{2}$ 大于 $0$ 且不等于 $1$，当 $x$ 遍历 $(-\\infty,1)$ 时，$y$ 的值域为 $\\mathbb{R}$，所以反函数的定义域为 $\\mathbb{R}$. 交换原函数中的 $x$ 与 $y$，得</p>\n$$\nx=\\log_{\\frac{1}{2}}(1-y)\n$$\n<p>由对数定义，</p>\n$$\n\\left(\\frac{1}{2}\\right)^{x}=1-y\n$$\n<p>于是</p><p>$y=1-\\left(\\frac{1}{2}\\right)^{x}=1-2^{-x}$，$x\\in\\mathbb{R}$.</p><p>故选 B.</p>"
+          "solution": "<p>原函数的定义域为 $x<1$，此时 $1-x>0$. 由于底数 $\\frac{1}{2}$ 大于 $0$ 且不等于 $1$，当 $x$ 遍历 $(-\\infty,1)$ 时，$y$ 的值域为 $\\mathbb{R}$，所以反函数的定义域为 $\\mathbb{R}$. 交换原函数中的 $x$ 与 $y$，得</p>\n$$\nx=\\log_{\\frac{1}{2}}(1-y)\n$$\n<p>由对数定义，</p>\n$$\n\\left(\\frac{1}{2}\\right)^{x}=1-y\n$$\n<p>于是</p><p>$y=1-\\left(\\frac{1}{2}\\right)^{x}=1-2^{-x}$，$x\\in\\mathbb{R}$.</p><p>故选 B.</p>"
         },
         {
           "num": 5,
@@ -89,19 +89,19 @@
             "$\\rho=\\frac{5}{2-\\sqrt{3}\\cos\\theta}$"
           ],
           "answer": "D",
-          "solution": "<p>以焦点为极点的圆锥曲线极坐标方程可写成</p>\n$$\n\\rho=\\frac{p}{1-e\\cos\\theta}\n$$\n<p>其中离心率满足：$0&#x3C;e&#x3C;1$ 时为椭圆，$e=1$ 时为抛物线，$e>1$ 时为双曲线. 逐项比较，选项 A 中 $e=\\frac{2}{\\sqrt{3}}>1$，表示双曲线；选项 B 中 $e=1$，表示抛物线；选项 C 不是上述以 $\\rho$ 为分母的圆锥曲线标准形式. 选项 D 可化为</p>\n$$\n\\rho=\\frac{\\frac{5}{2}}{1-\\frac{\\sqrt{3}}{2}\\cos\\theta}\n$$\n<p>其离心率为 $e=\\frac{\\sqrt{3}}{2}$，满足 $0&#x3C;e&#x3C;1$，所以表示椭圆，故选 D.</p>"
+          "solution": "<p>以焦点为极点的圆锥曲线极坐标方程可写成</p>\n$$\n\\rho=\\frac{p}{1-e\\cos\\theta}\n$$\n<p>其中离心率满足：$0<e<1$ 时为椭圆，$e=1$ 时为抛物线，$e>1$ 时为双曲线. 逐项比较，选项 A 中 $e=\\frac{2}{\\sqrt{3}}>1$，表示双曲线；选项 B 中 $e=1$，表示抛物线；选项 C 不是上述以 $\\rho$ 为分母的圆锥曲线标准形式. 选项 D 可化为</p>\n$$\n\\rho=\\frac{\\frac{5}{2}}{1-\\frac{\\sqrt{3}}{2}\\cos\\theta}\n$$\n<p>其离心率为 $e=\\frac{\\sqrt{3}}{2}$，满足 $0<e<1$，所以表示椭圆，故选 D.</p>"
         },
         {
           "num": 8,
-          "body": "不等式 $\\left| \\sqrt{x-2}-3 \\right|&#x3C;1$ 的解集是（ ）",
+          "body": "不等式 $\\left| \\sqrt{x-2}-3 \\right|<1$ 的解集是（ ）",
           "choices": [
-            "$\\{x\\mid 5&#x3C;x&#x3C;16\\}$",
-            "$\\{x\\mid 6&#x3C;x&#x3C;18\\}$",
-            "$\\{x\\mid 7&#x3C;x&#x3C;20\\}$",
-            "$\\{x\\mid 8&#x3C;x&#x3C;22\\}$"
+            "$\\{x\\mid 5<x<16\\}$",
+            "$\\{x\\mid 6<x<18\\}$",
+            "$\\{x\\mid 7<x<20\\}$",
+            "$\\{x\\mid 8<x<22\\}$"
           ],
           "answer": "B",
-          "solution": "<p>根式有意义要求 $x-2\\geqslant0$，即 $x\\geqslant2$. 在此定义域内，</p>\n$$\n\\left|\\sqrt{x-2}-3\\right|&#x3C;1  \\Longleftrightarrow 2&#x3C;\\sqrt{x-2}&#x3C;4\n$$\n<p>两端均为正数，可以平方而不改变不等号方向，得</p>\n$$\n4&#x3C;x-2&#x3C;16\n$$\n<p>即 $6&#x3C;x&#x3C;18$. 这个区间已自动满足 $x\\geqslant2$，所以解集为 $\\{x\\mid6&#x3C;x&#x3C;18\\}$，故选 B.</p>"
+          "solution": "<p>根式有意义要求 $x-2\\geqslant0$，即 $x\\geqslant2$. 在此定义域内，</p>\n$$\n\\left|\\sqrt{x-2}-3\\right|<1  \\Longleftrightarrow 2<\\sqrt{x-2}<4\n$$\n<p>两端均为正数，可以平方而不改变不等号方向，得</p>\n$$\n4<x-2<16\n$$\n<p>即 $6<x<18$. 这个区间已自动满足 $x\\geqslant2$，所以解集为 $\\{x\\mid6<x<18\\}$，故选 B.</p>"
         },
         {
           "num": 9,
@@ -155,13 +155,13 @@
           "num": 13,
           "body": "设全集 $U=\\mathbb{R}$，集合 $M=\\left\\{x\\mid \\sqrt{x^{2}}>2\\right\\}$，$N=\\left\\{x\\mid \\log_{x} 7>\\log_{3} 7\\right\\}$，那么 $M\\cap\\overline{N}=$（ ）",
           "choices": [
-            "$\\{x\\mid x&#x3C;-2\\}$",
-            "$\\{x\\mid x&#x3C;-2\\text{\\ 或\\ }x\\ge 3\\}$",
+            "$\\{x\\mid x<-2\\}$",
+            "$\\{x\\mid x<-2\\text{\\ 或\\ }x\\ge 3\\}$",
             "$\\{x\\mid x\\ge 3\\}$",
-            "$\\{x\\mid -2\\le x&#x3C;3\\}$"
+            "$\\{x\\mid -2\\le x<3\\}$"
           ],
           "answer": "B",
-          "solution": "<p>因为 $\\sqrt{x^{2}}=|x|$，所以</p>\n$$\nM=\\{x\\mid |x|>2\\}=\\{x\\mid x&#x3C;-2\\text{ 或 }x>2\\}\n$$\n<p>对集合 $N$，对数的定义域要求 $x>0$ 且 $x\\ne1$. 当 $0&#x3C;x&#x3C;1$ 时，$\\ln x&#x3C;0$，所以 $\\log_{x}7=\\frac{\\ln7}{\\ln x}&#x3C;0$，而 $\\log_{3}7>0$，不满足不等式. 当 $x>1$ 时，$\\ln x>0$，且</p>\n$$\n\\log_{x}7>\\log_{3}7\\Longleftrightarrow \\frac{\\ln7}{\\ln x}>\\frac{\\ln7}{\\ln3}\\Longleftrightarrow \\ln x&#x3C;\\ln3  \\Longleftrightarrow 1&#x3C;x&#x3C;3\n$$\n<p>因此 $N=(1,3)$. 全集为 $\\mathbb{R}$，所以</p>\n$$\n\\overline N=(-\\infty,1]\\cup[3,+\\infty)\n$$\n<p>与 $M$ 相交时，$x&#x3C;-2$ 全部保留；在 $x>2$ 中只有 $x\\geqslant3$ 不属于 $N$. 故</p>\n$$\nM\\cap\\overline N=(-\\infty,-2)\\cup[3,+\\infty)\n$$\n<p>即 $\\{x\\mid x&#x3C;-2\\text{ 或 }x\\geqslant3\\}$，故选 B.</p>"
+          "solution": "<p>因为 $\\sqrt{x^{2}}=|x|$，所以</p>\n$$\nM=\\{x\\mid |x|>2\\}=\\{x\\mid x<-2\\text{ 或 }x>2\\}\n$$\n<p>对集合 $N$，对数的定义域要求 $x>0$ 且 $x\\ne1$. 当 $0<x<1$ 时，$\\ln x<0$，所以 $\\log_{x}7=\\frac{\\ln7}{\\ln x}<0$，而 $\\log_{3}7>0$，不满足不等式. 当 $x>1$ 时，$\\ln x>0$，且</p>\n$$\n\\log_{x}7>\\log_{3}7\\Longleftrightarrow \\frac{\\ln7}{\\ln x}>\\frac{\\ln7}{\\ln3}\\Longleftrightarrow \\ln x<\\ln3  \\Longleftrightarrow 1<x<3\n$$\n<p>因此 $N=(1,3)$. 全集为 $\\mathbb{R}$，所以</p>\n$$\n\\overline N=(-\\infty,1]\\cup[3,+\\infty)\n$$\n<p>与 $M$ 相交时，$x<-2$ 全部保留；在 $x>2$ 中只有 $x\\geqslant3$ 不属于 $N$. 故</p>\n$$\nM\\cap\\overline N=(-\\infty,-2)\\cup[3,+\\infty)\n$$\n<p>即 $\\{x\\mid x<-2\\text{ 或 }x\\geqslant3\\}$，故选 B.</p>"
         },
         {
           "num": 14,
@@ -179,13 +179,13 @@
           "num": 15,
           "body": "设 $\\triangle ABC$ 不是直角三角形，$A$ 和 $B$ 是它的两个内角，那么（ ）",
           "choices": [
-            "“$A&#x3C;B$”是“$\\tan A&#x3C;\\tan B$”的充分条件，但不是必要条件",
-            "“$A&#x3C;B$”是“$\\tan A&#x3C;\\tan B$”的必要条件，但不是充分条件",
-            "“$A&#x3C;B$”是“$\\tan A&#x3C;\\tan B$”的充分必要条件",
-            "“$A&#x3C;B$”不是“$\\tan A&#x3C;\\tan B$”的充分条件，也不是必要条件"
+            "“$A<B$”是“$\\tan A<\\tan B$”的充分条件，但不是必要条件",
+            "“$A<B$”是“$\\tan A<\\tan B$”的必要条件，但不是充分条件",
+            "“$A<B$”是“$\\tan A<\\tan B$”的充分必要条件",
+            "“$A<B$”不是“$\\tan A<\\tan B$”的充分条件，也不是必要条件"
           ],
           "answer": "D",
-          "solution": "<p>要判断“$A&#x3C;B$”是否为“$\\tan A&#x3C;\\tan B$”的充分或必要条件，分别构造反例即可.</p><p>取 $A=30^{\\circ}$、$B=120^{\\circ}$，则第三个内角为 $30^{\\circ}$，确实构成非直角三角形，并且 $A&#x3C;B$. 但是</p>\n$$\n\\tan A=\\frac{\\sqrt{3}}{3}>-\\sqrt{3}=\\tan B\n$$\n<p>所以 $A&#x3C;B$ 不能推出 $\\tan A&#x3C;\\tan B$，不是充分条件.</p><p>再取 $A=120^{\\circ}$、$B=30^{\\circ}$，第三个内角为 $30^{\\circ}$，仍是非直角三角形. 此时</p>\n$$\n\\tan A=-\\sqrt{3}&#x3C;\\frac{\\sqrt{3}}{3}=\\tan B\n$$\n<p>但 $A&#x3C;B$ 不成立，所以 $A&#x3C;B$ 也不是必要条件. 故选 D.</p>"
+          "solution": "<p>要判断“$A<B$”是否为“$\\tan A<\\tan B$”的充分或必要条件，分别构造反例即可.</p><p>取 $A=30^{\\circ}$、$B=120^{\\circ}$，则第三个内角为 $30^{\\circ}$，确实构成非直角三角形，并且 $A<B$. 但是</p>\n$$\n\\tan A=\\frac{\\sqrt{3}}{3}>-\\sqrt{3}=\\tan B\n$$\n<p>所以 $A<B$ 不能推出 $\\tan A<\\tan B$，不是充分条件.</p><p>再取 $A=120^{\\circ}$、$B=30^{\\circ}$，第三个内角为 $30^{\\circ}$，仍是非直角三角形. 此时</p>\n$$\n\\tan A=-\\sqrt{3}<\\frac{\\sqrt{3}}{3}=\\tan B\n$$\n<p>但 $A<B$ 不成立，所以 $A<B$ 也不是必要条件. 故选 D.</p>"
         },
         {
           "num": 16,
@@ -279,10 +279,10 @@
         },
         {
           "num": 26,
-          "body": "证明不等式： $1+\\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{3}}+\\cdots+\\frac{1}{\\sqrt{n}}&#x3C;2\\sqrt{n}$（$n\\in \\mathbb{N}^{*}$）.",
+          "body": "证明不等式： $1+\\frac{1}{\\sqrt{2}}+\\frac{1}{\\sqrt{3}}+\\cdots+\\frac{1}{\\sqrt{n}}<2\\sqrt{n}$（$n\\in \\mathbb{N}^{*}$）.",
           "choices": null,
           "answer": "",
-          "solution": "<p>对任意正整数 $k$，有</p>\n$$\n2\\left(\\sqrt{k}-\\sqrt{k-1}\\right)=\\frac{2}{\\sqrt{k}+\\sqrt{k-1}}>\\frac{1}{\\sqrt{k}}\n$$\n<p>其中最后一个严格不等式等价于</p>\n$$\n2\\sqrt{k}>\\sqrt{k}+\\sqrt{k-1}\\Longleftrightarrow \\sqrt{k}>\\sqrt{k-1}\n$$\n<p>对正整数 $k$ 成立. 于是对 $k=1$，$2$，$\\ldots$，$n$ 逐项相加，得到</p>\n$$\n1+\\frac{1}{\\sqrt{2}}+\\cdots+\\frac{1}{\\sqrt{n}}&#x3C;2\\sum_{k=1}^{n}\\left(\\sqrt{k}-\\sqrt{k-1}\\right)=2\\sqrt{n}\n$$\n<p>这里的和是望远镜和，右端的中间项全部消去，且 $\\sqrt{0}=0$. 所以不等式得证.</p>"
+          "solution": "<p>对任意正整数 $k$，有</p>\n$$\n2\\left(\\sqrt{k}-\\sqrt{k-1}\\right)=\\frac{2}{\\sqrt{k}+\\sqrt{k-1}}>\\frac{1}{\\sqrt{k}}\n$$\n<p>其中最后一个严格不等式等价于</p>\n$$\n2\\sqrt{k}>\\sqrt{k}+\\sqrt{k-1}\\Longleftrightarrow \\sqrt{k}>\\sqrt{k-1}\n$$\n<p>对正整数 $k$ 成立. 于是对 $k=1$，$2$，$\\ldots$，$n$ 逐项相加，得到</p>\n$$\n1+\\frac{1}{\\sqrt{2}}+\\cdots+\\frac{1}{\\sqrt{n}}<2\\sum_{k=1}^{n}\\left(\\sqrt{k}-\\sqrt{k-1}\\right)=2\\sqrt{n}\n$$\n<p>这里的和是望远镜和，右端的中间项全部消去，且 $\\sqrt{0}=0$. 所以不等式得证.</p>"
         },
         {
           "num": 27,
@@ -293,10 +293,10 @@
         },
         {
           "num": 28,
-          "body": "<p>求同时满足下列两个条件的所有复数 $z$：</p><ol class=\"enumerate\"><li><p>$z+\\frac{10}{z}$ 是实数，且 $1&#x3C;z+\\frac{10}{z}\\le 6$；</p></li><li><p>$z$ 的实部和虚部都是整数.</p></li></ol>",
+          "body": "<p>求同时满足下列两个条件的所有复数 $z$：</p><ol class=\"enumerate\"><li><p>$z+\\frac{10}{z}$ 是实数，且 $1<z+\\frac{10}{z}\\le 6$；</p></li><li><p>$z$ 的实部和虚部都是整数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设</p><p>$z=x+y\\mathrm{i}$，$x$，$y\\in\\mathbb{Z}$，$z\\ne0$.</p><p>则</p>\n$$\nz+\\frac{10}{z}=x+y\\mathrm{i}+\\frac{10(x-y\\mathrm{i})}{x^{2}+y^{2}}\n$$\n<p>其虚部为</p>\n$$\ny\\left(1-\\frac{10}{x^{2}+y^{2}}\\right)\n$$\n<p>该式为零，所以分两种情况讨论.</p><p>当 $y=0$ 时，$x\\ne0$，且</p>\n$$\n1&#x3C;x+\\frac{10}{x}\\leqslant6\n$$\n<p>若 $x&#x3C;0$，则 $x+\\frac{10}{x}&#x3C;0$，不可能满足左侧不等式. 若 $x>0$，由基本不等式</p>\n$$\nx+\\frac{10}{x}\\geqslant2\\sqrt{10}>6\n$$\n<p>也不满足右侧不等式. 因此 $y=0$ 时无解.</p><p>另一种情况是 $x^{2}+y^{2}=10$. 由于 $x$，$y$ 为整数，平方和为 $10=1+9$，所以</p>\n$$\n(x,y)=(\\pm1,\\pm3) \\text{或} (\\pm3,\\pm1)\n$$\n<p>在这种情况下，</p>\n$$\nz+\\frac{10}{z}=x+y\\mathrm{i}+\\frac{10(x-y\\mathrm{i})}{10}=2x\n$$\n<p>不等式变为 $1&#x3C;2x\\leqslant6$，即 $\\frac{1}{2}&#x3C;x\\leqslant3$. 结合 $x\\in\\{\\pm1,\\pm3\\}$，只能取 $x=1$ 或 $x=3$. 分别配上对应的 $y=\\pm3$ 或 $y=\\pm1$，所以所有复数为</p><p>$z=1+3\\mathrm{i}$，$1-3\\mathrm{i}$，$3+\\mathrm{i}$，$3-\\mathrm{i}$.</p>"
+          "solution": "<p>设</p><p>$z=x+y\\mathrm{i}$，$x$，$y\\in\\mathbb{Z}$，$z\\ne0$.</p><p>则</p>\n$$\nz+\\frac{10}{z}=x+y\\mathrm{i}+\\frac{10(x-y\\mathrm{i})}{x^{2}+y^{2}}\n$$\n<p>其虚部为</p>\n$$\ny\\left(1-\\frac{10}{x^{2}+y^{2}}\\right)\n$$\n<p>该式为零，所以分两种情况讨论.</p><p>当 $y=0$ 时，$x\\ne0$，且</p>\n$$\n1<x+\\frac{10}{x}\\leqslant6\n$$\n<p>若 $x<0$，则 $x+\\frac{10}{x}<0$，不可能满足左侧不等式. 若 $x>0$，由基本不等式</p>\n$$\nx+\\frac{10}{x}\\geqslant2\\sqrt{10}>6\n$$\n<p>也不满足右侧不等式. 因此 $y=0$ 时无解.</p><p>另一种情况是 $x^{2}+y^{2}=10$. 由于 $x$，$y$ 为整数，平方和为 $10=1+9$，所以</p>\n$$\n(x,y)=(\\pm1,\\pm3) \\text{或} (\\pm3,\\pm1)\n$$\n<p>在这种情况下，</p>\n$$\nz+\\frac{10}{z}=x+y\\mathrm{i}+\\frac{10(x-y\\mathrm{i})}{10}=2x\n$$\n<p>不等式变为 $1<2x\\leqslant6$，即 $\\frac{1}{2}<x\\leqslant3$. 结合 $x\\in\\{\\pm1,\\pm3\\}$，只能取 $x=1$ 或 $x=3$. 分别配上对应的 $y=\\pm3$ 或 $y=\\pm1$，所以所有复数为</p><p>$z=1+3\\mathrm{i}$，$1-3\\mathrm{i}$，$3+\\mathrm{i}$，$3-\\mathrm{i}$.</p>"
         }
       ]
     }

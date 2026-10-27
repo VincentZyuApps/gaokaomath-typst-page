@@ -19,7 +19,7 @@
           "body": "<p>作下列各题.</p><ol class=\"enumerate\"><li><p>当 $a$，$b$，$c>0$ 时，求证：$\\log_{a} b\\cdot\\log_{b} c\\cdot\\log_{c} a=1$.</p></li><li><p>已知 $y=\\lg \\frac{1}{1-\\sqrt{1-x}}$，求定义域.</p></li><li><p>汽车往返甲乙两地之间，上行速度为 $30\\text{ 公里/小时}$，下行速度为 $60\\text{ 公里/小时}$. 求往返平均速度.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>题中三个对数有定义时，除 $a$，$b$，$c>0$ 外还需 $a$，$b$，$c\\ne1$. 在此条件下，换底公式给出</p><p>$\\log_{a} b=\\dfrac{\\lg b}{\\lg a}$，$\\log_{b} c=\\dfrac{\\lg c}{\\lg b}$，$\\log_{c} a=\\dfrac{\\lg a}{\\lg c}$. 因而</p>\n$$\n\\log_{a} b\\cdot\\log_{b} c\\cdot\\log_{c} a  =\\frac{\\lg b}{\\lg a}\\cdot\\frac{\\lg c}{\\lg b}\\cdot\\frac{\\lg a}{\\lg c}=1\n$$\n</li><li><p>根式有意义且对数的真数为正，必须满足</p>\n$$\n\\begin{cases}1-x\\ge0,\\\\  \\dfrac{1}{1-\\sqrt{1-x}}>0.\\end{cases}\n$$\n<p>由于分子为正，第二个条件等价于 $1-\\sqrt{1-x}>0$. 于是 $\\sqrt{1-x}&#x3C;1$，从而 $x>0$，再与 $x\\le1$ 合并，得到定义域为 $0&#x3C;x\\le1$.</p></li><li><p>设甲、乙两地之间的距离为 $m\\text{ 公里}$，其中 $m>0$. 则上行和下行的路程都为 $m$，所用时间分别为 $t_{1}=\\dfrac{m}{30}\\text{ 小时}$ 和 $t_{2}=\\dfrac{m}{60}\\text{ 小时}$. 往返平均速度等于总路程除以总时间，所以</p>\n$$\n\\overline{V}=\\frac{2m}{t_{1}+t_{2}}=\\frac{2m}{\\frac{m}{30}+\\frac{m}{60}}=\\frac{2m}{\\frac{m}{20}}=40\\text{ 公里/小时}\n$$\n<p>答：往返平均速度为 $40\\text{ 公里/小时}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>题中三个对数有定义时，除 $a$，$b$，$c>0$ 外还需 $a$，$b$，$c\\ne1$. 在此条件下，换底公式给出</p><p>$\\log_{a} b=\\dfrac{\\lg b}{\\lg a}$，$\\log_{b} c=\\dfrac{\\lg c}{\\lg b}$，$\\log_{c} a=\\dfrac{\\lg a}{\\lg c}$. 因而</p>\n$$\n\\log_{a} b\\cdot\\log_{b} c\\cdot\\log_{c} a  =\\frac{\\lg b}{\\lg a}\\cdot\\frac{\\lg c}{\\lg b}\\cdot\\frac{\\lg a}{\\lg c}=1\n$$\n</li><li><p>根式有意义且对数的真数为正，必须满足</p>\n$$\n\\begin{cases}1-x\\ge0,\\\\  \\dfrac{1}{1-\\sqrt{1-x}}>0.\\end{cases}\n$$\n<p>由于分子为正，第二个条件等价于 $1-\\sqrt{1-x}>0$. 于是 $\\sqrt{1-x}<1$，从而 $x>0$，再与 $x\\le1$ 合并，得到定义域为 $0<x\\le1$.</p></li><li><p>设甲、乙两地之间的距离为 $m\\text{ 公里}$，其中 $m>0$. 则上行和下行的路程都为 $m$，所用时间分别为 $t_{1}=\\dfrac{m}{30}\\text{ 小时}$ 和 $t_{2}=\\dfrac{m}{60}\\text{ 小时}$. 往返平均速度等于总路程除以总时间，所以</p>\n$$\n\\overline{V}=\\frac{2m}{t_{1}+t_{2}}=\\frac{2m}{\\frac{m}{30}+\\frac{m}{60}}=\\frac{2m}{\\frac{m}{20}}=40\\text{ 公里/小时}\n$$\n<p>答：往返平均速度为 $40\\text{ 公里/小时}$.</p></li></ol>"
         },
         {
           "num": 3,
@@ -47,14 +47,14 @@
           "body": "$\\triangle ABC$ 的三个内角是 $\\alpha$，$\\beta$，$\\gamma$，而 $\\tan\\alpha$，$\\tan\\beta$ 是方程 $x^{2}-5x+6=0$ 的两个根. 求 $\\gamma$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因式分解方程得 $x^{2}-5x+6=(x-2)(x-3)=0$，所以 $\\tan\\alpha$ 和 $\\tan\\beta$ 分别为 $2$ 和 $3$，从而 $\\tan\\alpha+\\tan\\beta=5$，$\\tan\\alpha\\tan\\beta=6$. 由于三角形内角在 $0^{\\circ}$ 与 $180^{\\circ}$ 之间且正切值为正，$\\alpha$、$\\beta$ 都是锐角，故 $\\alpha+\\beta=180^{\\circ}-\\gamma$. 于是</p>\n$$\n\\tan\\gamma=-\\tan(\\alpha+\\beta)=-\\frac{\\tan\\alpha+\\tan\\beta}{1-\\tan\\alpha\\tan\\beta}=-\\frac{5}{1-6}=1\n$$\n<p>又 $0^{\\circ}&#x3C;\\gamma&#x3C;180^{\\circ}$，且 $\\tan\\gamma>0$，所以 $\\gamma$ 为锐角，得到 $\\gamma=45^{\\circ}$.</p>"
+          "solution": "<p>因式分解方程得 $x^{2}-5x+6=(x-2)(x-3)=0$，所以 $\\tan\\alpha$ 和 $\\tan\\beta$ 分别为 $2$ 和 $3$，从而 $\\tan\\alpha+\\tan\\beta=5$，$\\tan\\alpha\\tan\\beta=6$. 由于三角形内角在 $0^{\\circ}$ 与 $180^{\\circ}$ 之间且正切值为正，$\\alpha$、$\\beta$ 都是锐角，故 $\\alpha+\\beta=180^{\\circ}-\\gamma$. 于是</p>\n$$\n\\tan\\gamma=-\\tan(\\alpha+\\beta)=-\\frac{\\tan\\alpha+\\tan\\beta}{1-\\tan\\alpha\\tan\\beta}=-\\frac{5}{1-6}=1\n$$\n<p>又 $0^{\\circ}<\\gamma<180^{\\circ}$，且 $\\tan\\gamma>0$，所以 $\\gamma$ 为锐角，得到 $\\gamma=45^{\\circ}$.</p>"
         },
         {
           "num": 7,
           "body": "抛物线的顶点在原点，对称轴为 $y$ 轴，过点 $(1,-1)$，求抛物线方程，焦点坐标，准线方程，开口方向.",
           "choices": null,
           "answer": "",
-          "solution": "顶点在原点且对称轴为 $y$ 轴的抛物线可设为 $x^{2}=4ay$. 代入已知点 $(1,-1)$，得 $1=4a(-1)$，所以 $a=-\\dfrac{1}{4}$. 因而抛物线方程为 $x^{2}=-y$. 对标准式 $x^{2}=4ay$，焦点为 $(0,a)$，准线为 $y=-a$，所以焦点坐标为 $\\left(0,-\\dfrac{1}{4}\\right)$，准线方程为 $y=\\dfrac{1}{4}$. 因为 $a&#x3C;0$，抛物线开口向下."
+          "solution": "顶点在原点且对称轴为 $y$ 轴的抛物线可设为 $x^{2}=4ay$. 代入已知点 $(1,-1)$，得 $1=4a(-1)$，所以 $a=-\\dfrac{1}{4}$. 因而抛物线方程为 $x^{2}=-y$. 对标准式 $x^{2}=4ay$，焦点为 $(0,a)$，准线为 $y=-a$，所以焦点坐标为 $\\left(0,-\\dfrac{1}{4}\\right)$，准线方程为 $y=\\dfrac{1}{4}$. 因为 $a<0$，抛物线开口向下."
         },
         {
           "num": 8,
@@ -73,7 +73,7 @@
           "body": "已知 $f(x)=x\\ln(2-x)+\\sqrt{1+3x^{2}}$，求 $f'(1)$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>函数的定义域为 $x&#x3C;2$，且 $1$ 在定义域内. 由乘积法则、链式法则，</p>\n$$\nf'(x)=\\ln(2-x)+x\\left(-\\frac{1}{2-x}\\right)+\\frac{3x}{\\sqrt{1+3x^{2}}}=\\ln(2-x)-\\frac{x}{2-x}+\\frac{3x}{\\sqrt{1+3x^{2}}}\n$$\n<p>代入 $x=1$，得</p>\n$$\nf'(1)=\\ln1-\\frac{1}{2-1}+\\frac{3}{\\sqrt{1+3}}=0-1+\\frac{3}{2}=\\frac{1}{2}\n$$"
+          "solution": "<p>函数的定义域为 $x<2$，且 $1$ 在定义域内. 由乘积法则、链式法则，</p>\n$$\nf'(x)=\\ln(2-x)+x\\left(-\\frac{1}{2-x}\\right)+\\frac{3x}{\\sqrt{1+3x^{2}}}=\\ln(2-x)-\\frac{x}{2-x}+\\frac{3x}{\\sqrt{1+3x^{2}}}\n$$\n<p>代入 $x=1$，得</p>\n$$\nf'(1)=\\ln1-\\frac{1}{2-1}+\\frac{3}{\\sqrt{1+3}}=0-1+\\frac{3}{2}=\\frac{1}{2}\n$$"
         },
         {
           "num": 10,

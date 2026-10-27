@@ -17,7 +17,7 @@
             "$(-\\infty,1]$"
           ],
           "answer": "A",
-          "solution": "<p>方程 $x^{2}=x$ 等价于 $x(x-1)=0$，所以 $M=\\{0,1\\}$. 由于对数的真数必须为正，且 $\\lg x\\leqslant0$ 等价于 $0&#x3C;x\\leqslant1$，所以 $N=(0,1]$. 因此</p>\n$$\nM\\cup N=\\{0,1\\}\\cup(0,1]=[0,1]\n$$\n<p>故选 A.</p>"
+          "solution": "<p>方程 $x^{2}=x$ 等价于 $x(x-1)=0$，所以 $M=\\{0,1\\}$. 由于对数的真数必须为正，且 $\\lg x\\leqslant0$ 等价于 $0<x\\leqslant1$，所以 $N=(0,1]$. 因此</p>\n$$\nM\\cup N=\\{0,1\\}\\cup(0,1]=[0,1]\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 2,
@@ -45,7 +45,7 @@
         },
         {
           "num": 4,
-          "body": "设 $f(x) = \\begin{cases}1 - \\sqrt{x},&#x26;x \\ge 0,\\\\  2^{x},&#x26;x &#x3C; 0,\\end{cases}$ 则 $f(f(-2)) =$（ ）",
+          "body": "设 $f(x) = \\begin{cases}1 - \\sqrt{x},&x \\ge 0,\\\\  2^{x},&x < 0,\\end{cases}$ 则 $f(f(-2)) =$（ ）",
           "choices": [
             "$-1$",
             "$\\frac{1}{4}$",
@@ -53,7 +53,7 @@
             "$\\frac{3}{2}$"
           ],
           "answer": "C",
-          "solution": "<p>因为 $-2&#x3C;0$，所以 $f(-2)=2^{-2}=\\frac{1}{4}$. 又因为 $\\frac{1}{4}\\geqslant0$，所以</p>\n$$\nf\\left(f(-2)\\right)=f\\left(\\frac{1}{4}\\right)=1-\\sqrt{\\frac{1}{4}}=1-\\frac{1}{2}=\\frac{1}{2}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>因为 $-2<0$，所以 $f(-2)=2^{-2}=\\frac{1}{4}$. 又因为 $\\frac{1}{4}\\geqslant0$，所以</p>\n$$\nf\\left(f(-2)\\right)=f\\left(\\frac{1}{4}\\right)=1-\\sqrt{\\frac{1}{4}}=1-\\frac{1}{2}=\\frac{1}{2}\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 5,
@@ -113,19 +113,19 @@
             "是没有零点的奇函数"
           ],
           "answer": "B",
-          "solution": "<p>因为 $f(-x)=-x+\\sin x=-f(x)$，所以 $f(x)$ 是奇函数. 又</p>\n$$\nf'(x)=1-\\cos x\\geqslant0\n$$\n<p>对任意 $x_{1}&#x3C;x_{2}$，函数 $1-\\cos x$ 在区间 $[x_{1},x_{2}]$ 上不恒为零，因此</p>\n$$\nf(x_{2})-f(x_{1})=\\int_{x_1}^{x_2}(1-\\cos x)\\,\\mathrm{d}x>0\n$$\n<p>所以 $f(x)$ 是增函数. 且 $f(0)=0$，故选 B.</p>"
+          "solution": "<p>因为 $f(-x)=-x+\\sin x=-f(x)$，所以 $f(x)$ 是奇函数. 又</p>\n$$\nf'(x)=1-\\cos x\\geqslant0\n$$\n<p>对任意 $x_{1}<x_{2}$，函数 $1-\\cos x$ 在区间 $[x_{1},x_{2}]$ 上不恒为零，因此</p>\n$$\nf(x_{2})-f(x_{1})=\\int_{x_1}^{x_2}(1-\\cos x)\\,\\mathrm{d}x>0\n$$\n<p>所以 $f(x)$ 是增函数. 且 $f(0)=0$，故选 B.</p>"
         },
         {
           "num": 10,
-          "body": "设 $f(x) = \\ln x$，$0 &#x3C; a &#x3C; b$. 若 $p = f\\left(\\sqrt{ab}\\right)$，$q = f\\left(\\frac{a + b}{2}\\right)$，$r = \\frac{1}{2}(f(a) + f(b))$，则下列关系式中正确的是（ ）",
+          "body": "设 $f(x) = \\ln x$，$0 < a < b$. 若 $p = f\\left(\\sqrt{ab}\\right)$，$q = f\\left(\\frac{a + b}{2}\\right)$，$r = \\frac{1}{2}(f(a) + f(b))$，则下列关系式中正确的是（ ）",
           "choices": [
-            "$q = r &#x3C; p$",
+            "$q = r < p$",
             "$q = r > p$",
-            "$p = r &#x3C; q$",
+            "$p = r < q$",
             "$p = r > q$"
           ],
           "answer": "C",
-          "solution": "<p>由对数运算，</p>\n$$\np=\\ln\\sqrt{ab}=\\frac{1}{2}(\\ln a+\\ln b)=r\n$$\n<p>因为 $0&#x3C;a&#x3C;b$，由算术平均数大于几何平均数，得 $\\dfrac{a+b}{2}>\\sqrt{ab}$. 函数 $\\ln x$ 在 $(0,+\\infty)$ 上单调递增，所以 $q>p$. 因此 $p=r&#x3C;q$，选 C.</p>"
+          "solution": "<p>由对数运算，</p>\n$$\np=\\ln\\sqrt{ab}=\\frac{1}{2}(\\ln a+\\ln b)=r\n$$\n<p>因为 $0<a<b$，由算术平均数大于几何平均数，得 $\\dfrac{a+b}{2}>\\sqrt{ab}$. 函数 $\\ln x$ 在 $(0,+\\infty)$ 上单调递增，所以 $q>p$. 因此 $p=r<q$，选 C.</p>"
         },
         {
           "num": 11,
@@ -165,7 +165,7 @@
         },
         {
           "num": 14,
-          "body": "<p>如图，某港口一天 $6\\text{ 时}$到 $18\\text{ 时}$的水深变化曲线近似满足函数 $y = 3\\sin \\left(\\frac{\\pi}{6}x + \\varphi\\right) + k$.</p><p>据此函数可知，这段时间水深（单位：$\\mathrm{m}$）的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><center class=\"center\"><div class=\"environment minipage\"><span class=\"macro macro-centering\"></span><br><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></div></center>",
+          "body": "<p>如图，某港口一天 $6\\text{ 时}$到 $18\\text{ 时}$的水深变化曲线近似满足函数 $y = 3\\sin \\left(\\frac{\\pi}{6}x + \\varphi\\right) + k$.</p><p>据此函数可知，这段时间水深（单位：$\\mathrm{m}$）的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><center class=\"center\"><span class=\"macro macro-centering\"></span><br><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_liberal/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
           "choices": null,
           "answer": "$8$",
           "solution": "函数 $y=3\\sin\\left(\\frac{\\pi}{6}x+\\varphi\\right)+k$ 的振幅为 $3$，所以最大值为 $k+3$，最小值为 $k-3$. 由图可知这段时间水深的最小值为 $2$，故 $k-3=2$，从而 $k=5$. 因此这段时间水深的最大值为 $k+3=8$."
@@ -175,7 +175,7 @@
           "body": "函数 $y = x\\mathrm{e}^{x}$ 在其极值点处的切线方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$y=-\\frac{1}{\\mathrm{e}}$",
-          "solution": "<p>函数的导数为</p>\n$$\ny'=\\mathrm{e}^{x}(x+1)\n$$\n<p>因为 $\\mathrm{e}^{x}>0$，当 $x&#x3C;-1$ 时 $y'&#x3C;0$，当 $x>-1$ 时 $y'>0$，所以函数在 $\\left(-\\infty,-1\\right)$ 上递减、在 $\\left(-1,+\\infty\\right)$ 上递增，故 $x=-1$ 是唯一极值点. 此时函数值为 $y=-\\frac{1}{\\mathrm{e}}$，且切线斜率 $y'(-1)=0$. 因而切线方程为</p>\n$$\ny=-\\frac{1}{\\mathrm{e}}\n$$"
+          "solution": "<p>函数的导数为</p>\n$$\ny'=\\mathrm{e}^{x}(x+1)\n$$\n<p>因为 $\\mathrm{e}^{x}>0$，当 $x<-1$ 时 $y'<0$，当 $x>-1$ 时 $y'>0$，所以函数在 $\\left(-\\infty,-1\\right)$ 上递减、在 $\\left(-1,+\\infty\\right)$ 上递增，故 $x=-1$ 是唯一极值点. 此时函数值为 $y=-\\frac{1}{\\mathrm{e}}$，且切线斜率 $y'(-1)=0$. 因而切线方程为</p>\n$$\ny=-\\frac{1}{\\mathrm{e}}\n$$"
         },
         {
           "num": 16,
@@ -194,7 +194,7 @@
           "body": "<p>$\\triangle ABC$ 的内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 向量 $\\mathbf{m}= (a, \\sqrt{3}b)$ 与 $\\mathbf{n}= (\\cos A, \\sin B)$ 平行.</p><ol class=\"enumerate\"><li><p>求 $A$；</p></li><li><p>若 $a = \\sqrt{7}$，$b = 2$，求 $\\triangle ABC$ 的面积.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $\\mathbf{m}$ 与 $\\mathbf{n}$ 平行，得</p>\n$$\na\\sin B=\\sqrt{3}b\\cos A\n$$\n<p>由正弦定理，$\\dfrac{a}{b}=\\dfrac{\\sin A}{\\sin B}$，所以 $\\sin A=\\sqrt{3}\\cos A$. 由于 $0&#x3C;A&#x3C;\\pi$，有 $\\sin A>0$，从而 $\\cos A>0$，且 $\\tan A=\\sqrt{3}$，故 $A=\\dfrac{\\pi}{3}$.</p></li><li><p>当 $a=\\sqrt{7}$，$b=2$ 时，由余弦定理，</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A=4+c^{2}-2c\n$$\n<p>因此 $c^{2}-2c-3=0$，解得 $c=3$（舍去负值）. 所以</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}bc\\sin A=\\frac{1}{2}\\cdot2\\cdot3\\cdot\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $\\mathbf{m}$ 与 $\\mathbf{n}$ 平行，得</p>\n$$\na\\sin B=\\sqrt{3}b\\cos A\n$$\n<p>由正弦定理，$\\dfrac{a}{b}=\\dfrac{\\sin A}{\\sin B}$，所以 $\\sin A=\\sqrt{3}\\cos A$. 由于 $0<A<\\pi$，有 $\\sin A>0$，从而 $\\cos A>0$，且 $\\tan A=\\sqrt{3}$，故 $A=\\dfrac{\\pi}{3}$.</p></li><li><p>当 $a=\\sqrt{7}$，$b=2$ 时，由余弦定理，</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A=4+c^{2}-2c\n$$\n<p>因此 $c^{2}-2c-3=0$，解得 $c=3$（舍去负值）. 所以</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}bc\\sin A=\\frac{1}{2}\\cdot2\\cdot3\\cdot\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{2}\n$$\n</li></ol>"
         },
         {
           "num": 18,
@@ -219,10 +219,10 @@
         },
         {
           "num": 21,
-          "body": "<p>设 $f_{n}(x)=x+x^{2}+\\cdots+x^{n}-1$，$x \\ge 0$，$n \\in \\mathbb{N}$，$n \\ge 2$.</p><ol class=\"enumerate\"><li><p>求 $f_{n}^{\\prime}(2)$；</p></li><li><p>证明：$f_{n}(x)$ 在 $\\left(0, \\frac{2}{3}\\right)$ 内有且仅有一个零点（记为 $a_{n}$），且 $0 &#x3C; a_{n}- \\frac{1}{2}&#x3C; \\frac{1}{3}\\left(\\frac{2}{3}\\right)^{n}$.</p></li></ol>",
+          "body": "<p>设 $f_{n}(x)=x+x^{2}+\\cdots+x^{n}-1$，$x \\ge 0$，$n \\in \\mathbb{N}$，$n \\ge 2$.</p><ol class=\"enumerate\"><li><p>求 $f_{n}^{\\prime}(2)$；</p></li><li><p>证明：$f_{n}(x)$ 在 $\\left(0, \\frac{2}{3}\\right)$ 内有且仅有一个零点（记为 $a_{n}$），且 $0 < a_{n}- \\frac{1}{2}< \\frac{1}{3}\\left(\\frac{2}{3}\\right)^{n}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\nf_{n}'(x)=1+2x+3x^{2}+\\cdots+nx^{n-1}\n$$\n<p>并利用 $x+x^{2}+\\cdots+x^{n}=\\dfrac{x^{n+1}-x}{x-1}$，得</p>\n$$\nf_{n}'(2)=\\left.\\frac{\\mathrm{d}}{\\mathrm{d}x}\\left(\\frac{x^{n+1}-x}{x-1}\\right)\\right|_{x=2}=(n-1)2^{n}+1\n$$\n</li><li><p>当 $x\\geqslant0$ 时，$f_{n}'(x)>0$，所以 $f_{n}(x)$ 在 $[0,+\\infty)$ 上严格递增. 又</p><p>$f_{n}(0)=-1&#x3C;0$，$f_{n}\\left(\\frac{2}{3}\\right)=\\sum_{j=1}^{n}\\left(\\frac{2}{3}\\right)^{j}-1=1-2\\left(\\frac{2}{3}\\right)^{n}>0$</p><p>其中最后一个不等式由 $n\\geqslant2$ 得到. 因此由零点存在性定理，$f_{n}(x)$ 在 $\\left(0,\\frac{2}{3}\\right)$ 内至少有一个零点；再由严格递增性可知该零点唯一，记为 $a_{n}$.</p><p>计算</p>\n$$\nf_{n}\\left(\\frac{1}{2}\\right)=\\sum_{j=1}^{n}\\left(\\frac{1}{2}\\right)^{j}-1=-\\left(\\frac{1}{2}\\right)^{n}&#x3C;0\n$$\n<p>故 $a_{n}>\\frac{1}{2}$. 令 $x_{0}=\\frac{1}{2}+\\frac{1}{3}\\left(\\frac{2}{3}\\right)^{n}$. 由 $n\\geqslant2$ 知 $\\frac{1}{3}\\left(\\frac{2}{3}\\right)^{n}\\le\\frac{4}{27}&#x3C;\\frac{1}{6}$，所以 $x_{0}&#x3C;\\frac{2}{3}$，且</p><p>$f_{n}(x)=\\frac{2x-1-x^{n+1}}{1-x}$，（$x\\ne1$）.</p><p>由于</p>\n$$\n2x_{0}-1=\\frac{2}{3}\\left(\\frac{2}{3}\\right)^{n}=\\left(\\frac{2}{3}\\right)^{n+1}>x_{0}^{n+1}\n$$\n<p>所以 $f_{n}(x_{0})>0$. 由 $f_{n}$ 的严格递增性，得 $a_{n}&#x3C;x_{0}$，即</p>\n$$\n0&#x3C;a_{n}-\\frac{1}{2}&#x3C;\\frac{1}{3}\\left(\\frac{2}{3}\\right)^{n}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\nf_{n}'(x)=1+2x+3x^{2}+\\cdots+nx^{n-1}\n$$\n<p>并利用 $x+x^{2}+\\cdots+x^{n}=\\dfrac{x^{n+1}-x}{x-1}$，得</p>\n$$\nf_{n}'(2)=\\left.\\frac{\\mathrm{d}}{\\mathrm{d}x}\\left(\\frac{x^{n+1}-x}{x-1}\\right)\\right|_{x=2}=(n-1)2^{n}+1\n$$\n</li><li><p>当 $x\\geqslant0$ 时，$f_{n}'(x)>0$，所以 $f_{n}(x)$ 在 $[0,+\\infty)$ 上严格递增. 又</p><p>$f_{n}(0)=-1<0$，$f_{n}\\left(\\frac{2}{3}\\right)=\\sum_{j=1}^{n}\\left(\\frac{2}{3}\\right)^{j}-1=1-2\\left(\\frac{2}{3}\\right)^{n}>0$</p><p>其中最后一个不等式由 $n\\geqslant2$ 得到. 因此由零点存在性定理，$f_{n}(x)$ 在 $\\left(0,\\frac{2}{3}\\right)$ 内至少有一个零点；再由严格递增性可知该零点唯一，记为 $a_{n}$.</p><p>计算</p>\n$$\nf_{n}\\left(\\frac{1}{2}\\right)=\\sum_{j=1}^{n}\\left(\\frac{1}{2}\\right)^{j}-1=-\\left(\\frac{1}{2}\\right)^{n}<0\n$$\n<p>故 $a_{n}>\\frac{1}{2}$. 令 $x_{0}=\\frac{1}{2}+\\frac{1}{3}\\left(\\frac{2}{3}\\right)^{n}$. 由 $n\\geqslant2$ 知 $\\frac{1}{3}\\left(\\frac{2}{3}\\right)^{n}\\le\\frac{4}{27}<\\frac{1}{6}$，所以 $x_{0}<\\frac{2}{3}$，且</p><p>$f_{n}(x)=\\frac{2x-1-x^{n+1}}{1-x}$，（$x\\ne1$）.</p><p>由于</p>\n$$\n2x_{0}-1=\\frac{2}{3}\\left(\\frac{2}{3}\\right)^{n}=\\left(\\frac{2}{3}\\right)^{n+1}>x_{0}^{n+1}\n$$\n<p>所以 $f_{n}(x_{0})>0$. 由 $f_{n}$ 的严格递增性，得 $a_{n}<x_{0}$，即</p>\n$$\n0<a_{n}-\\frac{1}{2}<\\frac{1}{3}\\left(\\frac{2}{3}\\right)^{n}\n$$\n</li></ol>"
         },
         {
           "num": 22,
@@ -240,10 +240,10 @@
         },
         {
           "num": 24,
-          "body": "<p>已知关于 $x$ 的不等式 $|x + a| &#x3C; b$ 的解集为 $\\{x \\mid 2 &#x3C; x &#x3C; 4\\}$.</p><ol class=\"enumerate\"><li><p>求实数 $a$，$b$ 的值；</p></li><li><p>求 $\\sqrt{at+12}+\\sqrt{bt}$ 的最大值.</p></li></ol>",
+          "body": "<p>已知关于 $x$ 的不等式 $|x + a| < b$ 的解集为 $\\{x \\mid 2 < x < 4\\}$.</p><ol class=\"enumerate\"><li><p>求实数 $a$，$b$ 的值；</p></li><li><p>求 $\\sqrt{at+12}+\\sqrt{bt}$ 的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\n|x+a|&#x3C;b\\Longleftrightarrow -b&#x3C;x+a&#x3C;b\\Longleftrightarrow -a-b&#x3C;x&#x3C;-a+b\n$$\n<p>题设解集为 $2&#x3C;x&#x3C;4$，故</p><p>$-a-b=2$，$-a+b=4$.</p><p>两式相加、相减，得 $a=-3$，$b=1$.</p></li><li><p>因此根式有意义时 $0\\le t\\leqslant4$，且</p>\n$$\n\\sqrt{at+12}+\\sqrt{bt}=\\sqrt{12-3t}+\\sqrt{t}=\\sqrt{3}\\sqrt{4-t}+\\sqrt{t}\n$$\n<p>由柯西不等式，</p>\n$$\n\\sqrt{3}\\sqrt{4-t}+\\sqrt{t}\\le\\sqrt{3+1}\\sqrt{(4-t)+t}=4\n$$\n<p>当 $\\sqrt{4-t}:\\sqrt{t}=\\sqrt{3}:1$，即 $t=1$ 时取等号. 因此最大值为 $4$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由</p>\n$$\n|x+a|<b\\Longleftrightarrow -b<x+a<b\\Longleftrightarrow -a-b<x<-a+b\n$$\n<p>题设解集为 $2<x<4$，故</p><p>$-a-b=2$，$-a+b=4$.</p><p>两式相加、相减，得 $a=-3$，$b=1$.</p></li><li><p>因此根式有意义时 $0\\le t\\leqslant4$，且</p>\n$$\n\\sqrt{at+12}+\\sqrt{bt}=\\sqrt{12-3t}+\\sqrt{t}=\\sqrt{3}\\sqrt{4-t}+\\sqrt{t}\n$$\n<p>由柯西不等式，</p>\n$$\n\\sqrt{3}\\sqrt{4-t}+\\sqrt{t}\\le\\sqrt{3+1}\\sqrt{(4-t)+t}=4\n$$\n<p>当 $\\sqrt{4-t}:\\sqrt{t}=\\sqrt{3}:1$，即 $t=1$ 时取等号. 因此最大值为 $4$.</p></li></ol>"
         }
       ]
     }

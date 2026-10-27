@@ -45,15 +45,15 @@
         },
         {
           "num": 4,
-          "body": "已知 $\\log_{\\frac{1}{2}}m &#x3C; \\log_{\\frac{1}{2}}n &#x3C; 0$，则（ ）",
+          "body": "已知 $\\log_{\\frac{1}{2}}m < \\log_{\\frac{1}{2}}n < 0$，则（ ）",
           "choices": [
-            "$n &#x3C; m &#x3C; 1$",
-            "$m &#x3C; n &#x3C; 1$",
-            "$1 &#x3C; m &#x3C; n$",
-            "$1 &#x3C; n &#x3C; m$"
+            "$n < m < 1$",
+            "$m < n < 1$",
+            "$1 < m < n$",
+            "$1 < n < m$"
           ],
           "answer": "D",
-          "solution": "因为 $0&#x3C;\\frac{1}{2}&#x3C;1$，函数 $y=\\log_{\\frac{1}{2}}x$ 在 $(0,+\\infty)$ 上单调递减. 由 $\\log_{\\frac{1}{2}}m&#x3C;\\log_{\\frac{1}{2}}n$，得 $m>n$. 又由 $\\log_{\\frac{1}{2}}n&#x3C;0=\\log_{\\frac{1}{2}}1$，得 $n>1$. 因而 $1&#x3C;n&#x3C;m$，故选 D."
+          "solution": "因为 $0<\\frac{1}{2}<1$，函数 $y=\\log_{\\frac{1}{2}}x$ 在 $(0,+\\infty)$ 上单调递减. 由 $\\log_{\\frac{1}{2}}m<\\log_{\\frac{1}{2}}n$，得 $m>n$. 又由 $\\log_{\\frac{1}{2}}n<0=\\log_{\\frac{1}{2}}1$，得 $n>1$. 因而 $1<n<m$，故选 D."
         },
         {
           "num": 5,
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "对 $a$，$b \\in \\mathbb{R}$，记 $\\max \\{a, b\\} = \\begin{cases}a, &#x26; a \\ge b,\\\\\n\nb, &#x26; a &#x3C; b,\\end{cases}$ 函数 $f(x) = \\max \\{|x + 1|, |x - 2|\\}$ （$x \\in \\mathbb{R}$）的最小值是（ ）",
+          "body": "对 $a$，$b \\in \\mathbb{R}$，记 $\\max \\{a, b\\} = \\begin{cases}a, & a \\ge b,\\\\\n\nb, & a < b,\\end{cases}$ 函数 $f(x) = \\max \\{|x + 1|, |x - 2|\\}$ （$x \\in \\mathbb{R}$）的最小值是（ ）",
           "choices": [
             "$0$",
             "$\\frac{1}{2}$",
@@ -136,8 +136,8 @@
           "num": 11,
           "body": "不等式 $\\frac{x + 1}{x - 2}> 0$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$\\{x \\mid x &#x3C; -1\\text{ 或 }x > 2\\}$",
-          "solution": "临界点为 $x=-1$ 和 $x=2$，其中 $x=2$ 不在定义域内. 在 $(-\\infty,-1)$ 上分子、分母同为负数，在 $(-1,2)$ 上异号，在 $(2,+\\infty)$ 上同为正数. 因此不等式的解集为 $\\{x\\mid x&#x3C;-1\\text{ 或 }x>2\\}$."
+          "answer": "$\\{x \\mid x < -1\\text{ 或 }x > 2\\}$",
+          "solution": "临界点为 $x=-1$ 和 $x=2$，其中 $x=2$ 不在定义域内. 在 $(-\\infty,-1)$ 上分子、分母同为负数，在 $(-1,2)$ 上异号，在 $(2,+\\infty)$ 上同为正数. 因此不等式的解集为 $\\{x\\mid x<-1\\text{ 或 }x>2\\}$."
         },
         {
           "num": 12,
@@ -198,14 +198,14 @@
           "body": "<p>如图，椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ （$a > b > 0$）与过点 $A(2,0)$，$B(0,1)$ 的直线有且只有一个公共点 $T$，且椭圆的离心率 $e = \\frac{\\sqrt{3}}{2}$.</p><ol class=\"enumerate\"><li><p>求椭圆方程；</p></li><li><p>设 $F_{1}$，$F_{2}$ 分别为椭圆的左，右焦点，求证：$|AT|^{2}= \\frac{1}{2}|AF_{1}| \\cdot |AF_{2}|$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由离心率条件 $e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，得 $c^{2}=a^{2}-b^{2}=\\frac{3}{4}a^{2}$，所以 $b^{2}=\\frac{1}{4}a^{2}$. 直线 $AB$ 的方程为 $\\frac{x}{2}+y=1$，即 $y=1-\\frac{x}{2}$. 将其代入椭圆方程，得 $\\frac{x^{2}}{a^{2}}+\\frac{4(1-\\frac{x}{2})^{2}}{a^{2}}=1$，即 $2x^{2}-4x+4-a^{2}=0$. 直线与椭圆只有一个公共点，所以上述关于 $x$ 的方程有两个相等的实根，从而 $(-4)^{2}-4\\cdot2(4-a^{2})=0$，解得 $a^{2}=2$，进而 $b^{2}=\\frac{1}{2}$. 所以椭圆方程为 $\\frac{x^{2}}{2}+2y^{2}=1$. 此时二次方程的重根为 $x=1$，代入直线方程得 $T=(1,\\frac{1}{2})$.</p></li><li><p>椭圆的焦半距满足 $c^{2}=a^{2}-b^{2}=\\frac{3}{2}$，故 $F_{1}=(-c,0)$，$F_{2}=(c,0)$. 因为 $c&#x3C;2$，所以 $\\lvert AF_{1}\\rvert=2+c$，$\\lvert AF_{2}\\rvert=2-c$，从而 $\\lvert AF_{1}\\rvert\\lvert AF_{2}\\rvert=(2+c)(2-c)=4-c^{2}=\\frac{5}{2}$. 另一方面，$\\lvert AT\\rvert^{2}=(1-2)^{2}+\\left(\\frac{1}{2}\\right)^{2}=\\frac{5}{4}$. 因此 $\\lvert AT\\rvert^{2}=\\frac{1}{2}\\lvert AF_{1}\\rvert\\lvert AF_{2}\\rvert$，结论得证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由离心率条件 $e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，得 $c^{2}=a^{2}-b^{2}=\\frac{3}{4}a^{2}$，所以 $b^{2}=\\frac{1}{4}a^{2}$. 直线 $AB$ 的方程为 $\\frac{x}{2}+y=1$，即 $y=1-\\frac{x}{2}$. 将其代入椭圆方程，得 $\\frac{x^{2}}{a^{2}}+\\frac{4(1-\\frac{x}{2})^{2}}{a^{2}}=1$，即 $2x^{2}-4x+4-a^{2}=0$. 直线与椭圆只有一个公共点，所以上述关于 $x$ 的方程有两个相等的实根，从而 $(-4)^{2}-4\\cdot2(4-a^{2})=0$，解得 $a^{2}=2$，进而 $b^{2}=\\frac{1}{2}$. 所以椭圆方程为 $\\frac{x^{2}}{2}+2y^{2}=1$. 此时二次方程的重根为 $x=1$，代入直线方程得 $T=(1,\\frac{1}{2})$.</p></li><li><p>椭圆的焦半距满足 $c^{2}=a^{2}-b^{2}=\\frac{3}{2}$，故 $F_{1}=(-c,0)$，$F_{2}=(c,0)$. 因为 $c<2$，所以 $\\lvert AF_{1}\\rvert=2+c$，$\\lvert AF_{2}\\rvert=2-c$，从而 $\\lvert AF_{1}\\rvert\\lvert AF_{2}\\rvert=(2+c)(2-c)=4-c^{2}=\\frac{5}{2}$. 另一方面，$\\lvert AT\\rvert^{2}=(1-2)^{2}+\\left(\\frac{1}{2}\\right)^{2}=\\frac{5}{4}$. 因此 $\\lvert AT\\rvert^{2}=\\frac{1}{2}\\lvert AF_{1}\\rvert\\lvert AF_{2}\\rvert$，结论得证.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "<p>设 $f(x) = 3ax^{2} + 2bx + c$，若 $a + b + c = 0$，$f(0)f(1) > 0$.</p><ol class=\"enumerate\"><li><p>求证：方程 $f(x)=0$ 有实根；</p></li><li><p>求证：$-2 &#x3C; \\frac{b}{a}&#x3C; -1$；</p></li><li><p>设 $x_{1}$，$x_{2}$ 是方程 $f(x) = 0$ 的两个实根，则 $\\frac{\\sqrt{3}}{3}\\le |x_{1}- x_{2}| &#x3C; \\frac{2}{3}$.</p></li></ol>",
+          "body": "<p>设 $f(x) = 3ax^{2} + 2bx + c$，若 $a + b + c = 0$，$f(0)f(1) > 0$.</p><ol class=\"enumerate\"><li><p>求证：方程 $f(x)=0$ 有实根；</p></li><li><p>求证：$-2 < \\frac{b}{a}< -1$；</p></li><li><p>设 $x_{1}$，$x_{2}$ 是方程 $f(x) = 0$ 的两个实根，则 $\\frac{\\sqrt{3}}{3}\\le |x_{1}- x_{2}| < \\frac{2}{3}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $a+b+c=0$，得 $c=-a-b$，且 $f(0)=c=-a-b$，$f(1)=3a+2b+c=2a+b$. 由 $f(0)f(1)>0$，得 $(-a-b)(2a+b)>0$，即 $(a+b)(2a+b)&#x3C;0$.</p><ol class=\"enumerate\"><li><p>若 $a=0$，则上式左边为 $b^{2}\\geqslant0$，不可能小于 $0$，所以 $a\\neq0$. 令 $r=\\frac{b}{a}$. 方程 $f(x)=0$ 的判别式为 $\\Delta=(2b)^{2}-4\\cdot3a\\cdot c=4\\left(b^{2}+3a(a+b)\\right)=4a^{2}(r^{2}+3r+3)$. 又 $r^{2}+3r+3=\\left(r+\\frac{3}{2}\\right)^{2}+\\frac{3}{4}>0$，所以 $\\Delta>0$，方程有两个实根，因而有实根.</p></li><li><p>因为 $a\\neq0$，将 $(a+b)(2a+b)&#x3C;0$ 两边同除以正数 $a^{2}$，得 $\\left(1+\\frac{b}{a}\\right)\\left(2+\\frac{b}{a}\\right)&#x3C;0$. 因此 $-2&#x3C;\\frac{b}{a}&#x3C;-1$.</p></li><li><p>仍令 $r=\\frac{b}{a}$. 由根与判别式的关系，$\\lvert x_{1}-x_{2}\\rvert^{2}=\\frac{\\Delta}{(3a)^{2}}=\\frac{4}{9}(r^{2}+3r+3)$. 由 $-2&#x3C;r&#x3C;-1$，有 $r^{2}+3r+3=\\left(r+\\frac{3}{2}\\right)^{2}+\\frac{3}{4}\\ge\\frac{3}{4}$，从而 $\\lvert x_{1}-x_{2}\\rvert^{2}\\ge\\frac{1}{3}$，即 $\\lvert x_{1}-x_{2}\\rvert\\ge\\frac{\\sqrt{3}}{3}$. 又因为 $(r+1)(r+2)&#x3C;0$，所以 $r^{2}+3r+3&#x3C;1$，从而 $\\lvert x_{1}-x_{2}\\rvert^{2}&#x3C;\\frac{4}{9}$，即 $\\lvert x_{1}-x_{2}\\rvert&#x3C;\\frac{2}{3}$. 综上，$\\frac{\\sqrt{3}}{3}\\le\\lvert x_{1}-x_{2}\\rvert&#x3C;\\frac{2}{3}$.</p></li></ol>"
+          "solution": "<p>由 $a+b+c=0$，得 $c=-a-b$，且 $f(0)=c=-a-b$，$f(1)=3a+2b+c=2a+b$. 由 $f(0)f(1)>0$，得 $(-a-b)(2a+b)>0$，即 $(a+b)(2a+b)<0$.</p><ol class=\"enumerate\"><li><p>若 $a=0$，则上式左边为 $b^{2}\\geqslant0$，不可能小于 $0$，所以 $a\\neq0$. 令 $r=\\frac{b}{a}$. 方程 $f(x)=0$ 的判别式为 $\\Delta=(2b)^{2}-4\\cdot3a\\cdot c=4\\left(b^{2}+3a(a+b)\\right)=4a^{2}(r^{2}+3r+3)$. 又 $r^{2}+3r+3=\\left(r+\\frac{3}{2}\\right)^{2}+\\frac{3}{4}>0$，所以 $\\Delta>0$，方程有两个实根，因而有实根.</p></li><li><p>因为 $a\\neq0$，将 $(a+b)(2a+b)<0$ 两边同除以正数 $a^{2}$，得 $\\left(1+\\frac{b}{a}\\right)\\left(2+\\frac{b}{a}\\right)<0$. 因此 $-2<\\frac{b}{a}<-1$.</p></li><li><p>仍令 $r=\\frac{b}{a}$. 由根与判别式的关系，$\\lvert x_{1}-x_{2}\\rvert^{2}=\\frac{\\Delta}{(3a)^{2}}=\\frac{4}{9}(r^{2}+3r+3)$. 由 $-2<r<-1$，有 $r^{2}+3r+3=\\left(r+\\frac{3}{2}\\right)^{2}+\\frac{3}{4}\\ge\\frac{3}{4}$，从而 $\\lvert x_{1}-x_{2}\\rvert^{2}\\ge\\frac{1}{3}$，即 $\\lvert x_{1}-x_{2}\\rvert\\ge\\frac{\\sqrt{3}}{3}$. 又因为 $(r+1)(r+2)<0$，所以 $r^{2}+3r+3<1$，从而 $\\lvert x_{1}-x_{2}\\rvert^{2}<\\frac{4}{9}$，即 $\\lvert x_{1}-x_{2}\\rvert<\\frac{2}{3}$. 综上，$\\frac{\\sqrt{3}}{3}\\le\\lvert x_{1}-x_{2}\\rvert<\\frac{2}{3}$.</p></li></ol>"
         }
       ]
     }

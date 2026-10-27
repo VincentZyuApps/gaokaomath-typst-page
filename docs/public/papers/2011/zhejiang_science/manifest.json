@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "设函数 $f(x) = \\begin{cases}-x,&#x26;x \\le 0,\\\\  x^{2},&#x26;x > 0\\end{cases}$，若 $f(\\alpha) = 4$，则实数 $\\alpha =$（ ）",
+          "body": "设函数 $f(x) = \\begin{cases}-x,&x \\le 0,\\\\  x^{2},&x > 0\\end{cases}$，若 $f(\\alpha) = 4$，则实数 $\\alpha =$（ ）",
           "choices": [
             "$-4$ 或 $-2$",
             "$-4$ 或 $2$",
@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "若 $0 &#x3C; \\alpha &#x3C; \\frac{\\pi}{2}$，$-\\frac{\\pi}{2}&#x3C; \\beta &#x3C; 0$，$\\cos \\left(\\frac{\\pi}{4}+ \\alpha\\right) = \\frac{1}{3}$，$\\cos \\left(\\frac{\\pi}{4}- \\frac{\\beta}{2}\\right) = \\frac{\\sqrt{3}}{3}$，则 $\\cos \\left(\\alpha + \\frac{\\beta}{2}\\right) =$（ ）",
+          "body": "若 $0 < \\alpha < \\frac{\\pi}{2}$，$-\\frac{\\pi}{2}< \\beta < 0$，$\\cos \\left(\\frac{\\pi}{4}+ \\alpha\\right) = \\frac{1}{3}$，$\\cos \\left(\\frac{\\pi}{4}- \\frac{\\beta}{2}\\right) = \\frac{\\sqrt{3}}{3}$，则 $\\cos \\left(\\alpha + \\frac{\\beta}{2}\\right) =$（ ）",
           "choices": [
             "$\\frac{\\sqrt{3}}{3}$",
             "$-\\frac{\\sqrt{3}}{3}$",
@@ -81,7 +81,7 @@
         },
         {
           "num": 7,
-          "body": "若 $a$，$b$ 为实数，则 $0 &#x3C; ab &#x3C; 1$ 是“$a &#x3C; \\frac{1}{b}$ 或 $b > \\frac{1}{a}$”的（ ）",
+          "body": "若 $a$，$b$ 为实数，则 $0 < ab < 1$ 是“$a < \\frac{1}{b}$ 或 $b > \\frac{1}{a}$”的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -89,7 +89,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>设命题 $P$ 为 $0&#x3C;ab&#x3C;1$，命题 $Q$ 为 $a&#x3C;\\frac{1}{b}$ 或 $b>\\frac{1}{a}$. 由 $P$ 知 $a$，$b$ 同号且均不为零.</p><p>当 $a>0$，$b>0$ 时，$a&#x3C;\\frac{1}{b}$ 等价于 $ab&#x3C;1$，所以 $P$ 成立时 $Q$ 成立；当 $a&#x3C;0$，$b&#x3C;0$ 时，$b>\\frac{1}{a}$ 等价于 $ab&#x3C;1$，所以此时同样有 $P\\Rightarrow Q$. 因此 $P$ 是 $Q$ 的充分条件.</p><p>但取 $a=2$，$b=1$，有 $b>\\frac{1}{a}$，即 $Q$ 成立，而 $ab=2$，命题 $P$ 不成立. 因此 $P$ 不是 $Q$ 的必要条件，故选 A.</p>"
+          "solution": "<p>设命题 $P$ 为 $0<ab<1$，命题 $Q$ 为 $a<\\frac{1}{b}$ 或 $b>\\frac{1}{a}$. 由 $P$ 知 $a$，$b$ 同号且均不为零.</p><p>当 $a>0$，$b>0$ 时，$a<\\frac{1}{b}$ 等价于 $ab<1$，所以 $P$ 成立时 $Q$ 成立；当 $a<0$，$b<0$ 时，$b>\\frac{1}{a}$ 等价于 $ab<1$，所以此时同样有 $P\\Rightarrow Q$. 因此 $P$ 是 $Q$ 的充分条件.</p><p>但取 $a=2$，$b=1$，有 $b>\\frac{1}{a}$，即 $Q$ 成立，而 $ab=2$，命题 $P$ 不成立. 因此 $P$ 不是 $Q$ 的必要条件，故选 A.</p>"
         },
         {
           "num": 8,
@@ -144,7 +144,7 @@
           "body": "<p>某程序框图如图所示，则该程序运行后输出的 $k$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><center class=\"center\"><span class=\"macro macro-texfigure\"></span>[max width=0.70<span class=\"macro macro-linewidth\"></span>]img_repaint/2011/zhejiang_science/q12_fig1.tex</center>",
           "choices": null,
           "answer": "$5$",
-          "solution": "程序开始时 $k=2$，随后每次循环先令 $k$ 增加 $1$，再计算 $a=4^{k}$ 和 $b=k^{4}$，当 $a>b$ 时输出 $k$，否则继续循环. 逐次判断得：当 $k=3$ 时，$4^{3}=64&#x3C;3^{4}=81$；当 $k=4$ 时，$4^{4}=256=4^{4}$；当 $k=5$ 时，$4^{5}=1024>5^{4}=625$. 所以程序在 $k=5$ 时输出，填 $5$."
+          "solution": "程序开始时 $k=2$，随后每次循环先令 $k$ 增加 $1$，再计算 $a=4^{k}$ 和 $b=k^{4}$，当 $a>b$ 时输出 $k$，否则继续循环. 逐次判断得：当 $k=3$ 时，$4^{3}=64<3^{4}=81$；当 $k=4$ 时，$4^{4}=256=4^{4}$；当 $k=5$ 时，$4^{5}=1024>5^{4}=625$. 所以程序在 $k=5$ 时输出，填 $5$."
         },
         {
           "num": 13,
@@ -191,14 +191,14 @@
           "body": "<p>在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $\\sin A + \\sin C = p \\sin B$ （$p \\in \\mathbb{R}$），且 $ac = \\frac{1}{4}b^{2}$.</p><ol class=\"enumerate\"><li><p>当 $p = \\frac{5}{4}$，$b = 1$ 时，求 $a$，$c$ 的值；</p></li><li><p>若角 $B$ 为锐角，求 $p$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，存在同一个外接圆半径 $R$，使得 $\\sin A=\\frac{a}{2R}$，$\\sin B=\\frac{b}{2R}$，$\\sin C=\\frac{c}{2R}$. 因而已知条件等价于</p><p>$a+c=pb$，$ac=\\frac{1}{4}b^{2}$.</p><p>当 $p=\\frac{5}{4}$，$b=1$ 时，$a+c=\\frac{5}{4}$，$ac=\\frac{1}{4}$. 所以 $a$，$c$ 是方程</p>\n$$\nt^{2}-\\frac{5}{4}t+\\frac{1}{4}=0\n$$\n<p>的两个根，即 $4t^{2}-5t+1=0$，解得 $t=1$ 或 $t=\\frac{1}{4}$. 因此 $(a,c)=(1,\\frac{1}{4})$ 或 $(\\frac{1}{4},1)$.</p></li><li><p>令 $x=\\frac{a}{b}$，$y=\\frac{c}{b}$，则 $x>0$，$y>0$，且 $xy=\\frac{1}{4}$，$p=x+y$. 因为 $B$ 为锐角，由余弦定理有</p>\n$$\na^{2}+c^{2}>b^{2}\n$$\n<p>除以 $b^{2}$ 得 $x^{2}+y^{2}>1$，从而</p>\n$$\np^{2}=(x+y)^{2}=x^{2}+y^{2}+2xy>1+\\frac{1}{2}=\\frac{3}{2}\n$$\n<p>即 $p>\\sqrt{\\frac{3}{2}}$. 另一方面，三角形的另外两个三角不等式给出 $\\lvert a-c\\rvert&#x3C;b$，即 $\\lvert x-y\\rvert&#x3C;1$. 因此</p>\n$$\np^{2}=(x+y)^{2}=(x-y)^{2}+4xy&#x3C;1+1=2\n$$\n<p>即 $p&#x3C;\\sqrt{2}$. 反过来，若 $\\sqrt{\\frac{3}{2}}&#x3C;p&#x3C;\\sqrt{2}$，则方程</p>\n$$\nt^{2}-pt+\\frac{1}{4}=0\n$$\n<p>的判别式为 $p^{2}-1>0$，且其两根均为正数. 记两根为 $x$，$y$，则</p><p>$x+y=p$，$xy=\\frac{1}{4}$，$\\lvert x-y\\rvert=\\sqrt{p^{2}-1}&#x3C;1$.</p><p>因为 $p>\\sqrt{\\frac{3}{2}}>1$，有 $x+y>1$，再结合 $\\lvert x-y\\rvert&#x3C;1$，三角形的三个不等式均成立；又</p>\n$$\nx^{2}+y^{2}=p^{2}-2xy=p^{2}-\\frac{1}{2}>1\n$$\n<p>所以由余弦定理可知角 $B$ 为锐角. 取 $a=xb$、$c=yb$ 即可得到满足条件的三角形. 因此</p>\n$$\np\\in\\left(\\sqrt{\\frac{3}{2}},\\sqrt{2}\\right)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，存在同一个外接圆半径 $R$，使得 $\\sin A=\\frac{a}{2R}$，$\\sin B=\\frac{b}{2R}$，$\\sin C=\\frac{c}{2R}$. 因而已知条件等价于</p><p>$a+c=pb$，$ac=\\frac{1}{4}b^{2}$.</p><p>当 $p=\\frac{5}{4}$，$b=1$ 时，$a+c=\\frac{5}{4}$，$ac=\\frac{1}{4}$. 所以 $a$，$c$ 是方程</p>\n$$\nt^{2}-\\frac{5}{4}t+\\frac{1}{4}=0\n$$\n<p>的两个根，即 $4t^{2}-5t+1=0$，解得 $t=1$ 或 $t=\\frac{1}{4}$. 因此 $(a,c)=(1,\\frac{1}{4})$ 或 $(\\frac{1}{4},1)$.</p></li><li><p>令 $x=\\frac{a}{b}$，$y=\\frac{c}{b}$，则 $x>0$，$y>0$，且 $xy=\\frac{1}{4}$，$p=x+y$. 因为 $B$ 为锐角，由余弦定理有</p>\n$$\na^{2}+c^{2}>b^{2}\n$$\n<p>除以 $b^{2}$ 得 $x^{2}+y^{2}>1$，从而</p>\n$$\np^{2}=(x+y)^{2}=x^{2}+y^{2}+2xy>1+\\frac{1}{2}=\\frac{3}{2}\n$$\n<p>即 $p>\\sqrt{\\frac{3}{2}}$. 另一方面，三角形的另外两个三角不等式给出 $\\lvert a-c\\rvert<b$，即 $\\lvert x-y\\rvert<1$. 因此</p>\n$$\np^{2}=(x+y)^{2}=(x-y)^{2}+4xy<1+1=2\n$$\n<p>即 $p<\\sqrt{2}$. 反过来，若 $\\sqrt{\\frac{3}{2}}<p<\\sqrt{2}$，则方程</p>\n$$\nt^{2}-pt+\\frac{1}{4}=0\n$$\n<p>的判别式为 $p^{2}-1>0$，且其两根均为正数. 记两根为 $x$，$y$，则</p><p>$x+y=p$，$xy=\\frac{1}{4}$，$\\lvert x-y\\rvert=\\sqrt{p^{2}-1}<1$.</p><p>因为 $p>\\sqrt{\\frac{3}{2}}>1$，有 $x+y>1$，再结合 $\\lvert x-y\\rvert<1$，三角形的三个不等式均成立；又</p>\n$$\nx^{2}+y^{2}=p^{2}-2xy=p^{2}-\\frac{1}{2}>1\n$$\n<p>所以由余弦定理可知角 $B$ 为锐角. 取 $a=xb$、$c=yb$ 即可得到满足条件的三角形. 因此</p>\n$$\np\\in\\left(\\sqrt{\\frac{3}{2}},\\sqrt{2}\\right)\n$$\n</li></ol>"
         },
         {
           "num": 19,
           "body": "<p>已知公差不为 $0$ 的等差数列 $\\{a_{n}\\}$ 的首项 $a_{1}$ 为 $a$ （$a\\in\\mathbb{R}$）. 设数列的前 $n$ 项和为 $S_{n}$，且 $\\frac{1}{a_{1}}$，$\\frac{1}{a_{2}}$，$\\frac{1}{a_{4}}$ 成等比数列.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式及 $S_{n}$；</p></li><li><p>记 $A_{n}= \\frac{1}{S_{1}}+ \\frac{1}{S_{2}}+ \\frac{1}{S_{3}}+ \\cdots + \\frac{1}{S_{n}}$，$B_{n}= \\frac{1}{a_{1}}+ \\frac{1}{a_{2}}+ \\frac{1}{a_{2^{2}}}+ \\cdots + \\frac{1}{a_{2^{n-1}}}$ 当 $n \\ge 2$ 时，试比较 $A_{n}$ 与 $B_{n}$ 的大小.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等差数列的公差为 $d$，则 $a_{1}=a$，$a_{2}=a+d$，$a_{4}=a+3d$. 由于三个倒数成等比数列，得</p><p>$\\frac{1}{a_{2}^{2}}=\\frac{1}{a_{1}a_{4}}$，$a(a+3d)=(a+d)^{2}$.</p><p>化简可得 $d(a-d)=0$. 由 $d\\neq0$，知 $d=a$，且因倒数有意义，$a\\neq0$. 因此</p><p>$a_{n}=a+(n-1)a=na$，$S_{n}=\\frac{n(a_{1}+a_{n})}{2}=\\frac{an(n+1)}{2}$.</p></li><li><p>由上式</p>\n$$\nA_{n}=\\sum_{k=1}^{n}\\frac{1}{S_{k}}=\\frac{2}{a}\\sum_{k=1}^{n}\\frac{1}{k(k+1)}=\\frac{2}{a}\\sum_{k=1}^{n}\\left(\\frac{1}{k}-\\frac{1}{k+1}\\right)=\\frac{2n}{a(n+1)}\n$$\n<p>又因为 $a_{2^j}=2^{j}a$，所以</p>\n$$\nB_{n}=\\frac{1}{a}\\sum_{j=0}^{n-1}\\frac{1}{2^{j}}=\\frac{2}{a}\\left(1-\\frac{1}{2^{n}}\\right)\n$$\n<p>于是</p>\n$$\nA_{n}-B_{n}=\\frac{2}{a}\\left(\\frac{n}{n+1}-1+\\frac{1}{2^{n}}\\right)=\\frac{2}{a}\\left(\\frac{1}{2^{n}}-\\frac{1}{n+1}\\right)\n$$\n<p>当 $n\\geqslant2$ 时，$2^{n}>n+1$，故括号内为负数. 因此当 $a>0$ 时 $A_{n}&#x3C;B_{n}$，当 $a&#x3C;0$ 时 $A_{n}>B_{n}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列的公差为 $d$，则 $a_{1}=a$，$a_{2}=a+d$，$a_{4}=a+3d$. 由于三个倒数成等比数列，得</p><p>$\\frac{1}{a_{2}^{2}}=\\frac{1}{a_{1}a_{4}}$，$a(a+3d)=(a+d)^{2}$.</p><p>化简可得 $d(a-d)=0$. 由 $d\\neq0$，知 $d=a$，且因倒数有意义，$a\\neq0$. 因此</p><p>$a_{n}=a+(n-1)a=na$，$S_{n}=\\frac{n(a_{1}+a_{n})}{2}=\\frac{an(n+1)}{2}$.</p></li><li><p>由上式</p>\n$$\nA_{n}=\\sum_{k=1}^{n}\\frac{1}{S_{k}}=\\frac{2}{a}\\sum_{k=1}^{n}\\frac{1}{k(k+1)}=\\frac{2}{a}\\sum_{k=1}^{n}\\left(\\frac{1}{k}-\\frac{1}{k+1}\\right)=\\frac{2n}{a(n+1)}\n$$\n<p>又因为 $a_{2^j}=2^{j}a$，所以</p>\n$$\nB_{n}=\\frac{1}{a}\\sum_{j=0}^{n-1}\\frac{1}{2^{j}}=\\frac{2}{a}\\left(1-\\frac{1}{2^{n}}\\right)\n$$\n<p>于是</p>\n$$\nA_{n}-B_{n}=\\frac{2}{a}\\left(\\frac{n}{n+1}-1+\\frac{1}{2^{n}}\\right)=\\frac{2}{a}\\left(\\frac{1}{2^{n}}-\\frac{1}{n+1}\\right)\n$$\n<p>当 $n\\geqslant2$ 时，$2^{n}>n+1$，故括号内为负数. 因此当 $a>0$ 时 $A_{n}<B_{n}$，当 $a<0$ 时 $A_{n}>B_{n}$.</p></li></ol>"
         },
         {
           "num": 20,
@@ -219,7 +219,7 @@
           "body": "<p>设函数 $f(x) = (x - a)^{2} \\ln x$，$a \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>若 $x = \\mathrm{e}$ 为 $y = f(x)$ 的极值点，求实数 $a$；</p></li><li><p>求实数 $a$ 的取值范围，使得对任意的 $x \\in (0,3\\mathrm{e}]$，恒有 $f(x) \\le 4\\mathrm{e}^{2}$ 成立. 注：$\\mathrm{e}$ 为自然对数的底数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>0$，且</p>\n$$\nf'(x)=2(x-a)\\ln x+\\frac{(x-a)^{2}}{x}=(x-a)\\left(2\\ln x+1-\\frac{a}{x}\\right)\n$$\n<p>当 $x=\\mathrm{e}$ 为极值点时，必须有 $f'(\\mathrm{e})=0$，因此</p>\n$$\n(\\mathrm{e}-a)\\left(3-\\frac{a}{\\mathrm{e}}\\right)=0\n$$\n<p>解得 $a=\\mathrm{e}$ 或 $a=3\\mathrm{e}$. 这两个值确实都给出极值：当 $a=\\mathrm{e}$ 时，$f(x)=(x-\\mathrm{e})^{2}\\ln x$，在 $x=\\mathrm{e}$ 附近有 $\\ln x>0$，故为极小值点；当 $a=3\\mathrm{e}$ 时，令 $g(x)=2\\ln x+1-\\frac{3\\mathrm{e}}{x}$，则 $g(\\mathrm{e})=0$，且 $g'(\\mathrm{e})=\\frac{5}{\\mathrm{e}}>0$，所以 $f'(x)=(x-3\\mathrm{e})g(x)$ 在 $x=\\mathrm{e}$ 两侧由正变负，故为极大值点.</p></li><li><p>为处理第二问，令 $x=\\mathrm{e}t$，$a=\\mathrm{e}b$，其中 $0&#x3C;t\\leqslant3$. 则</p>\n$$\n\\frac{f(x)}{\\mathrm{e}^{2}}=(t-b)^{2}(1+\\ln t)\n$$\n<p>当 $0&#x3C;t&#x3C;\\mathrm{e}^{-1}$ 时，$1+\\ln t&#x3C;0$，不等式 $f(x)\\leqslant4\\mathrm{e}^{2}$ 自动成立；当 $t=\\mathrm{e}^{-1}$ 时左端为零. 因此只需考虑 $t\\in(\\mathrm{e}^{-1},3]$. 记 $L=1+\\ln t>0$，则所需不等式等价于</p>\n$$\n\\left(t-\\frac{2}{\\sqrt{L}}\\right)\\le b\\le\\left(t+\\frac{2}{\\sqrt{L}}\\right)\n$$\n<p>令 $\\varphi(t)=t-\\frac{2}{\\sqrt{1+\\ln t}}$，$\\psi(t)=t+\\frac{2}{\\sqrt{1+\\ln t}}$. 由于</p>\n$$\n\\varphi'(t)=1+\\frac{1}{t(1+\\ln t)^{\\frac{3}{2}}}>0\n$$\n<p>所以 $\\varphi(t)$ 在该区间递增，从而</p>\n$$\n\\sup\\varphi(t)=\\varphi(3)=3-\\frac{2}{\\sqrt{1+\\ln3}}\n$$\n<p>又令 $h(t)=t(1+\\ln t)^{\\frac{3}{2}}$，则</p>\n$$\nh'(t)=(1+\\ln t)^{\\frac{1}{2}}\\left(1+\\ln t+\\frac{3}{2}\\right)>0\n$$\n<p>所以 $h(t)$ 在该区间递增，且 $h(1)=1$. 因此</p>\n$$\n\\psi'(t)=1-\\frac{1}{h(t)}\n$$\n<p>在 $t&#x3C;1$ 时为负，在 $t>1$ 时为正，故 $\\psi(t)$ 在 $t=1$ 处取得最小值 $\\psi(1)=3$. 于是</p>\n$$\n3-\\frac{2}{\\sqrt{1+\\ln3}}\\le b\\leqslant3\n$$\n<p>还原 $a=\\mathrm{e}b$，得到</p>\n$$\na\\in\\left[\\left(3-\\frac{2}{\\sqrt{1+\\ln3}}\\right)\\mathrm{e},3\\mathrm{e}\\right]\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>0$，且</p>\n$$\nf'(x)=2(x-a)\\ln x+\\frac{(x-a)^{2}}{x}=(x-a)\\left(2\\ln x+1-\\frac{a}{x}\\right)\n$$\n<p>当 $x=\\mathrm{e}$ 为极值点时，必须有 $f'(\\mathrm{e})=0$，因此</p>\n$$\n(\\mathrm{e}-a)\\left(3-\\frac{a}{\\mathrm{e}}\\right)=0\n$$\n<p>解得 $a=\\mathrm{e}$ 或 $a=3\\mathrm{e}$. 这两个值确实都给出极值：当 $a=\\mathrm{e}$ 时，$f(x)=(x-\\mathrm{e})^{2}\\ln x$，在 $x=\\mathrm{e}$ 附近有 $\\ln x>0$，故为极小值点；当 $a=3\\mathrm{e}$ 时，令 $g(x)=2\\ln x+1-\\frac{3\\mathrm{e}}{x}$，则 $g(\\mathrm{e})=0$，且 $g'(\\mathrm{e})=\\frac{5}{\\mathrm{e}}>0$，所以 $f'(x)=(x-3\\mathrm{e})g(x)$ 在 $x=\\mathrm{e}$ 两侧由正变负，故为极大值点.</p></li><li><p>为处理第二问，令 $x=\\mathrm{e}t$，$a=\\mathrm{e}b$，其中 $0<t\\leqslant3$. 则</p>\n$$\n\\frac{f(x)}{\\mathrm{e}^{2}}=(t-b)^{2}(1+\\ln t)\n$$\n<p>当 $0<t<\\mathrm{e}^{-1}$ 时，$1+\\ln t<0$，不等式 $f(x)\\leqslant4\\mathrm{e}^{2}$ 自动成立；当 $t=\\mathrm{e}^{-1}$ 时左端为零. 因此只需考虑 $t\\in(\\mathrm{e}^{-1},3]$. 记 $L=1+\\ln t>0$，则所需不等式等价于</p>\n$$\n\\left(t-\\frac{2}{\\sqrt{L}}\\right)\\le b\\le\\left(t+\\frac{2}{\\sqrt{L}}\\right)\n$$\n<p>令 $\\varphi(t)=t-\\frac{2}{\\sqrt{1+\\ln t}}$，$\\psi(t)=t+\\frac{2}{\\sqrt{1+\\ln t}}$. 由于</p>\n$$\n\\varphi'(t)=1+\\frac{1}{t(1+\\ln t)^{\\frac{3}{2}}}>0\n$$\n<p>所以 $\\varphi(t)$ 在该区间递增，从而</p>\n$$\n\\sup\\varphi(t)=\\varphi(3)=3-\\frac{2}{\\sqrt{1+\\ln3}}\n$$\n<p>又令 $h(t)=t(1+\\ln t)^{\\frac{3}{2}}$，则</p>\n$$\nh'(t)=(1+\\ln t)^{\\frac{1}{2}}\\left(1+\\ln t+\\frac{3}{2}\\right)>0\n$$\n<p>所以 $h(t)$ 在该区间递增，且 $h(1)=1$. 因此</p>\n$$\n\\psi'(t)=1-\\frac{1}{h(t)}\n$$\n<p>在 $t<1$ 时为负，在 $t>1$ 时为正，故 $\\psi(t)$ 在 $t=1$ 处取得最小值 $\\psi(1)=3$. 于是</p>\n$$\n3-\\frac{2}{\\sqrt{1+\\ln3}}\\le b\\leqslant3\n$$\n<p>还原 $a=\\mathrm{e}b$，得到</p>\n$$\na\\in\\left[\\left(3-\\frac{2}{\\sqrt{1+\\ln3}}\\right)\\mathrm{e},3\\mathrm{e}\\right]\n$$\n</li></ol>"
         }
       ]
     }

@@ -9,15 +9,15 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $M = \\{x \\mid -3 &#x3C; x \\le 5\\}$，$N = \\{x \\mid -5 &#x3C; x &#x3C; 5\\}$，则 $M \\cap N =$（ ）",
+          "body": "已知集合 $M = \\{x \\mid -3 < x \\le 5\\}$，$N = \\{x \\mid -5 < x < 5\\}$，则 $M \\cap N =$（ ）",
           "choices": [
-            "$\\{x\\mid -5 &#x3C; x &#x3C; 5\\}$",
-            "$\\{x\\mid -3 &#x3C; x &#x3C; 5\\}$",
-            "$\\{x\\mid -5 &#x3C; x \\le 5\\}$",
-            "$\\{x\\mid -3 &#x3C; x \\le 5\\}$"
+            "$\\{x\\mid -5 < x < 5\\}$",
+            "$\\{x\\mid -3 < x < 5\\}$",
+            "$\\{x\\mid -5 < x \\le 5\\}$",
+            "$\\{x\\mid -3 < x \\le 5\\}$"
           ],
           "answer": "B",
-          "solution": "<p>集合的交集中的元素必须同时属于两个集合，因此</p><p>$M\\cap N=\\{x\\mid -3&#x3C;x&#x3C;5\\}$.</p><p>所以选 B.</p>"
+          "solution": "<p>集合的交集中的元素必须同时属于两个集合，因此</p><p>$M\\cap N=\\{x\\mid -3<x<5\\}$.</p><p>所以选 B.</p>"
         },
         {
           "num": 2,
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "已知偶函数 $f(x)$ 在区间 $[0, +\\infty)$ 单调增加，则满足 $f(2x - 1) &#x3C; f\\left(\\frac{1}{3}\\right)$ 的 $x$ 取值范围是（ ）",
+          "body": "已知偶函数 $f(x)$ 在区间 $[0, +\\infty)$ 单调增加，则满足 $f(2x - 1) < f\\left(\\frac{1}{3}\\right)$ 的 $x$ 取值范围是（ ）",
           "choices": [
             "$\\left(\\frac{1}{3}, \\frac{2}{3}\\right)$",
             "$\\left[\\frac{1}{3}, \\frac{2}{3}\\right)$",
@@ -113,16 +113,16 @@
             "$\\left[\\frac{1}{2}, \\frac{2}{3}\\right)$"
           ],
           "answer": "A",
-          "solution": "<p>由于 $f$ 为偶函数，$f(2x-1)=f(|2x-1|)$. 又 $f$ 在 $[0,+\\infty)$ 上单调增加，所以</p>\n$$\nf(2x-1)&#x3C;f\\left(\\frac{1}{3}\\right) \\Longleftrightarrow  |2x-1|&#x3C;\\frac{1}{3}\n$$\n<p>解得</p>\n$$\n-\\frac{1}{3}&#x3C;2x-1&#x3C;\\frac{1}{3} \\Longleftrightarrow  \\frac{1}{3}&#x3C;x&#x3C;\\frac{2}{3}\n$$\n<p>所以选 A.</p>"
+          "solution": "<p>由于 $f$ 为偶函数，$f(2x-1)=f(|2x-1|)$. 又 $f$ 在 $[0,+\\infty)$ 上单调增加，所以</p>\n$$\nf(2x-1)<f\\left(\\frac{1}{3}\\right) \\Longleftrightarrow  |2x-1|<\\frac{1}{3}\n$$\n<p>解得</p>\n$$\n-\\frac{1}{3}<2x-1<\\frac{1}{3} \\Longleftrightarrow  \\frac{1}{3}<x<\\frac{2}{3}\n$$\n<p>所以选 A.</p>"
         },
         {
           "num": 10,
           "body": "<p>某店一个月的收入和支出总共记录了 $N$ 个数据 $a_{1}$，$a_{2}$，$\\dots$，$a_{N}$，其中收入记为正数，支出记为负数. 该店用下边的程序框图计算月总收入 $S$ 和月净盈利 $V$，那么在图中空白的判断框和处理框中，应分别填入下列四个选项中的（ ）</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.60<span class=\"macro macro-linewidth\"></span>,width=0.60<span class=\"macro macro-linewidth\"></span>]img_repaint/2009/liaoning_science/q10_fig1.tex</p>",
           "choices": [
             "$A > 0$，$V = S - T$",
-            "$A &#x3C; 0$，$V = S - T$",
+            "$A < 0$，$V = S - T$",
             "$A > 0$，$V = S + T$",
-            "$A &#x3C; 0$，$V = S + T$"
+            "$A < 0$，$V = S + T$"
           ],
           "answer": "C",
           "solution": "收入记为正数，因此当 $A>0$ 时应把 $A$ 累加到收入总额 $S$，判断框应为 $A>0$. 支出记为负数，故 $T$ 是所有支出数据之和，月净盈利为收入加上负的支出，即 $V=S+T$. 所以选 C."
@@ -182,7 +182,7 @@
           "body": "已知 $F$ 是双曲线 $\\frac{x^{2}}{4}- \\frac{y^{2}}{12}= 1$ 的左焦点，$A(1,4)$，$P$ 是双曲线右支上的动点，则 $|PF| + |PA|$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$9$",
-          "solution": "<p>双曲线的焦距参数为 $c=\\sqrt{4+12}=4$，左、右焦点分别为 $F=(-4,0)$ 和 $F_{1}=(4,0)$. 设 $P=(x,y)$ 在右支上，则 $x\\geqslant2$，且由双曲线方程得 $y^{2}=3x^{2}-12$. 于是</p>\n$$\n|PF_{1}|^{2}=(x-4)^{2}+y^{2}=4(x-1)^{2}\n$$\n<p>所以 $|PF_{1}|=2x-2$，并且由双曲线定义 $|PF|=|PF_{1}|+4$. 因此</p>\n$$\n|PF|+|PA|=2x+2+|PA|\n$$\n<p>下面证明 $|PA|+2x\\geqslant7$. 当 $x\\ge\\frac{7}{2}$ 时显然成立. 当 $2\\le x&#x3C;\\frac{7}{2}$ 时，$7-2x>0$，且</p>\n$$\n|PA|^{2}-(7-2x)^{2}=(x-1)^{2}+(y-4)^{2}-(7-2x)^{2}=2(13x-4y-22)\n$$\n<p>另一方面，利用 $y^{2}=3x^{2}-12$，有</p>\n$$\n(13x-22)^{2}-(4y)^{2}=121\\left(x-\\frac{286}{121}\\right)^{2}\\geqslant0\n$$\n<p>由于 $x\\geqslant2$，$13x-22>0$，故 $13x-22\\geqslant4|y|\\geqslant4y$. 从而 $|PA|^{2}\\ge(7-2x)^{2}$，即 $|PA|+2x\\geqslant7$. 等号在 $P=\\left(\\frac{286}{121},\\frac{264}{121}\\right)$ 时取得，所以</p>\n$$\n|PF|+|PA|\\geqslant9\n$$\n<p>故最小值为 $9$.</p>"
+          "solution": "<p>双曲线的焦距参数为 $c=\\sqrt{4+12}=4$，左、右焦点分别为 $F=(-4,0)$ 和 $F_{1}=(4,0)$. 设 $P=(x,y)$ 在右支上，则 $x\\geqslant2$，且由双曲线方程得 $y^{2}=3x^{2}-12$. 于是</p>\n$$\n|PF_{1}|^{2}=(x-4)^{2}+y^{2}=4(x-1)^{2}\n$$\n<p>所以 $|PF_{1}|=2x-2$，并且由双曲线定义 $|PF|=|PF_{1}|+4$. 因此</p>\n$$\n|PF|+|PA|=2x+2+|PA|\n$$\n<p>下面证明 $|PA|+2x\\geqslant7$. 当 $x\\ge\\frac{7}{2}$ 时显然成立. 当 $2\\le x<\\frac{7}{2}$ 时，$7-2x>0$，且</p>\n$$\n|PA|^{2}-(7-2x)^{2}=(x-1)^{2}+(y-4)^{2}-(7-2x)^{2}=2(13x-4y-22)\n$$\n<p>另一方面，利用 $y^{2}=3x^{2}-12$，有</p>\n$$\n(13x-22)^{2}-(4y)^{2}=121\\left(x-\\frac{286}{121}\\right)^{2}\\geqslant0\n$$\n<p>由于 $x\\geqslant2$，$13x-22>0$，故 $13x-22\\geqslant4|y|\\geqslant4y$. 从而 $|PA|^{2}\\ge(7-2x)^{2}$，即 $|PA|+2x\\geqslant7$. 等号在 $P=\\left(\\frac{286}{121},\\frac{264}{121}\\right)$ 时取得，所以</p>\n$$\n|PF|+|PA|\\geqslant9\n$$\n<p>故最小值为 $9$.</p>"
         }
       ]
     },
@@ -219,10 +219,10 @@
         },
         {
           "num": 21,
-          "body": "<p>已知函数 $f(x) = \\frac{1}{2}x^{2} - ax + (a - 1)\\ln x$，$a > 1$.</p><ol class=\"enumerate\"><li><p>讨论函数 $f(x)$ 的单调性；</p></li><li><p>证明：若 $a &#x3C; 5$，则对于任意 $x_{1}$，$x_{2}\\in (0, +\\infty)$，$x_{1}\\neq x_{2}$，有 $\\dfrac{f(x_{1}) - f(x_{2})}{x_{1} - x_{2}}> -1$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = \\frac{1}{2}x^{2} - ax + (a - 1)\\ln x$，$a > 1$.</p><ol class=\"enumerate\"><li><p>讨论函数 $f(x)$ 的单调性；</p></li><li><p>证明：若 $a < 5$，则对于任意 $x_{1}$，$x_{2}\\in (0, +\\infty)$，$x_{1}\\neq x_{2}$，有 $\\dfrac{f(x_{1}) - f(x_{2})}{x_{1} - x_{2}}> -1$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=x-a+\\frac{a-1}{x}=\\frac{(x-1)(x-a+1)}{x}\n$$\n<p>当 $1&#x3C;a&#x3C;2$ 时，$0&#x3C;a-1&#x3C;1$，故 $f'(x)$ 在 $(0,a-1)$、$(1,+\\infty)$ 上为正，在 $(a-1,1)$ 上为负. 因此 $f(x)$ 在 $(0,a-1)$、$(1,+\\infty)$ 上单调增加，在 $(a-1,1)$ 上单调减少.</p><p>当 $a=2$ 时，$f'(x)=\\frac{(x-1)^{2}}{x}\\geqslant0$，故 $f(x)$ 在 $(0,+\\infty)$ 上单调增加.</p><p>当 $a>2$ 时，$1&#x3C;a-1$，故 $f'(x)$ 在 $(0,1)$、$(a-1,+\\infty)$ 上为正，在 $(1,a-1)$ 上为负. 因此 $f(x)$ 在 $(0,1)$、$(a-1,+\\infty)$ 上单调增加，在 $(1,a-1)$ 上单调减少.</p></li><li><p>令 $g(x)=f(x)+x=\\frac{1}{2}x^{2}-(a-1)x+(a-1)\\ln x$. 当 $1&#x3C;a&#x3C;5$ 时，</p>\n$$\ng'(x)=\\frac{x^{2}-(a-1)x+(a-1)}{x}\n$$\n<p>分子是关于 $x$ 的二次式，其判别式为</p>\n$$\n\\Delta=(a-1)^{2}-4(a-1)=(a-1)(a-5)&#x3C;0\n$$\n<p>因二次式首项系数为正，分子恒正；又 $x>0$，所以 $g'(x)>0$，即 $g(x)$ 在 $(0,+\\infty)$ 上严格增加. 因此对任意不同的 $x_{1}$，$x_{2}>0$，</p>\n$$\n\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}+1=\\frac{g(x_{1})-g(x_{2})}{x_{1}-x_{2}}>0\n$$\n<p>从而</p>\n$$\n\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}>-1\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=x-a+\\frac{a-1}{x}=\\frac{(x-1)(x-a+1)}{x}\n$$\n<p>当 $1<a<2$ 时，$0<a-1<1$，故 $f'(x)$ 在 $(0,a-1)$、$(1,+\\infty)$ 上为正，在 $(a-1,1)$ 上为负. 因此 $f(x)$ 在 $(0,a-1)$、$(1,+\\infty)$ 上单调增加，在 $(a-1,1)$ 上单调减少.</p><p>当 $a=2$ 时，$f'(x)=\\frac{(x-1)^{2}}{x}\\geqslant0$，故 $f(x)$ 在 $(0,+\\infty)$ 上单调增加.</p><p>当 $a>2$ 时，$1<a-1$，故 $f'(x)$ 在 $(0,1)$、$(a-1,+\\infty)$ 上为正，在 $(1,a-1)$ 上为负. 因此 $f(x)$ 在 $(0,1)$、$(a-1,+\\infty)$ 上单调增加，在 $(1,a-1)$ 上单调减少.</p></li><li><p>令 $g(x)=f(x)+x=\\frac{1}{2}x^{2}-(a-1)x+(a-1)\\ln x$. 当 $1<a<5$ 时，</p>\n$$\ng'(x)=\\frac{x^{2}-(a-1)x+(a-1)}{x}\n$$\n<p>分子是关于 $x$ 的二次式，其判别式为</p>\n$$\n\\Delta=(a-1)^{2}-4(a-1)=(a-1)(a-5)<0\n$$\n<p>因二次式首项系数为正，分子恒正；又 $x>0$，所以 $g'(x)>0$，即 $g(x)$ 在 $(0,+\\infty)$ 上严格增加. 因此对任意不同的 $x_{1}$，$x_{2}>0$，</p>\n$$\n\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}+1=\\frac{g(x_{1})-g(x_{2})}{x_{1}-x_{2}}>0\n$$\n<p>从而</p>\n$$\n\\frac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}>-1\n$$\n</li></ol>"
         }
       ]
     },
@@ -248,7 +248,7 @@
           "body": "<p>设函数 $f(x) = |x - 1| + |x - a|$.</p><ol class=\"enumerate\"><li><p>若 $a = -1$，解不等式 $f(x) \\ge 3$；</p></li><li><p>如果 $\\forall x \\in \\mathbb{R}$，$f(x) \\ge 2$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=-1$ 时，$f(x)=|x-1|+|x+1|$. 分三段讨论：</p>\n$$\nf(x)=  \\begin{cases}-2x,&#x26;x\\le-1,\\\\  2,&#x26;-1\\le x\\leqslant1,\\\\  2x,&#x26;x\\geqslant1\\end{cases}\n$$\n<p>因此 $f(x)\\geqslant3$ 等价于 $x\\le-\\frac{3}{2}$ 或 $x\\ge\\frac{3}{2}$，解集为</p>\n$$\n\\left(-\\infty,-\\frac{3}{2}\\right]\\cup\\left[\\frac{3}{2},+\\infty\\right)\n$$\n</li><li><p>对任意 $x$，由三角不等式</p>\n$$\nf(x)=|x-1|+|x-a|\\ge|(x-1)-(x-a)|=|a-1|\n$$\n<p>当 $x$ 位于 $a$ 与 $1$ 之间时等号成立，所以 $f(x)$ 的最小值为 $|a-1|$. 题设等价于 $|a-1|\\geqslant2$，即</p>\n$$\na\\le-1 \\text{或}  a\\geqslant3\n$$\n<p>故 $a\\in(-\\infty,-1]\\cup[3,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=-1$ 时，$f(x)=|x-1|+|x+1|$. 分三段讨论：</p>\n$$\nf(x)=  \\begin{cases}-2x,&x\\le-1,\\\\  2,&-1\\le x\\leqslant1,\\\\  2x,&x\\geqslant1\\end{cases}\n$$\n<p>因此 $f(x)\\geqslant3$ 等价于 $x\\le-\\frac{3}{2}$ 或 $x\\ge\\frac{3}{2}$，解集为</p>\n$$\n\\left(-\\infty,-\\frac{3}{2}\\right]\\cup\\left[\\frac{3}{2},+\\infty\\right)\n$$\n</li><li><p>对任意 $x$，由三角不等式</p>\n$$\nf(x)=|x-1|+|x-a|\\ge|(x-1)-(x-a)|=|a-1|\n$$\n<p>当 $x$ 位于 $a$ 与 $1$ 之间时等号成立，所以 $f(x)$ 的最小值为 $|a-1|$. 题设等价于 $|a-1|\\geqslant2$，即</p>\n$$\na\\le-1 \\text{或}  a\\geqslant3\n$$\n<p>故 $a\\in(-\\infty,-1]\\cup[3,+\\infty)$.</p></li></ol>"
         }
       ]
     }

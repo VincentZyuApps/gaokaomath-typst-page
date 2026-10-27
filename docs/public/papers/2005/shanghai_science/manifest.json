@@ -54,7 +54,7 @@
           "body": "计算： $\\displaystyle\\lim_{n\\to\\infty}\\frac{3^{n+1}-2^{n}}{3^{n}+2^{n-1}}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$3$",
-          "solution": "<p>分子、分母同除以 $3^{n}$，得</p>\n$$\n\\lim_{n\\to\\infty}\\frac{3-\\left(\\frac{2}{3}\\right)^{n}}{1+\\frac{1}{2}\\left(\\frac{2}{3}\\right)^{n}}\n$$\n<p>由于 $0&#x3C;\\frac{2}{3}&#x3C;1$，所以 $\\left(\\frac{2}{3}\\right)^{n}\\to0$，从而原极限为 $\\dfrac{3}{1}=3$.</p>"
+          "solution": "<p>分子、分母同除以 $3^{n}$，得</p>\n$$\n\\lim_{n\\to\\infty}\\frac{3-\\left(\\frac{2}{3}\\right)^{n}}{1+\\frac{1}{2}\\left(\\frac{2}{3}\\right)^{n}}\n$$\n<p>由于 $0<\\frac{2}{3}<1$，所以 $\\left(\\frac{2}{3}\\right)^{n}\\to0$，从而原极限为 $\\dfrac{3}{1}=3$.</p>"
         },
         {
           "num": 8,
@@ -74,15 +74,15 @@
           "num": 10,
           "body": "函数 $f(x) = \\sin x + 2|\\sin x|$，$x \\in [0, 2\\pi]$ 的图象与直线 $y = k$ 有且仅有两个不同的交点，则 $k$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$1&#x3C;k&#x3C;3$",
-          "solution": "当 $x\\in[0,\\pi]$ 时，$\\sin x\\geqslant0$，故 $f(x)=3\\sin x$，其值域为 $[0,3]$；当 $x\\in[\\pi,2\\pi]$ 时，$\\sin x\\leqslant0$，故 $f(x)=-\\sin x$，其值域为 $[0,1]$. 对 $0&#x3C;k&#x3C;1$，方程 $3\\sin x=k$ 在 $(0,\\pi)$ 内有两个解，方程 $-\\sin x=k$ 在 $(\\pi,2\\pi)$ 内也有两个解，共有四个交点；$k=1$ 时前一方程有两个解，后一方程只有 $x=\\dfrac{3\\pi}{2}$ 一个解，共有三个交点；$1&#x3C;k&#x3C;3$ 时只有 $3\\sin x=k$ 有两个解，所以恰有两个交点；$k=3$ 时只有 $x=\\dfrac{\\pi}{2}$ 一个交点；$k=0$ 时交点为 $x=0$，$\\pi$，$2\\pi$，共有三个；$k&#x3C;0$ 或 $k>3$ 时没有交点. 因此所求范围为 $1&#x3C;k&#x3C;3$."
+          "answer": "$1<k<3$",
+          "solution": "当 $x\\in[0,\\pi]$ 时，$\\sin x\\geqslant0$，故 $f(x)=3\\sin x$，其值域为 $[0,3]$；当 $x\\in[\\pi,2\\pi]$ 时，$\\sin x\\leqslant0$，故 $f(x)=-\\sin x$，其值域为 $[0,1]$. 对 $0<k<1$，方程 $3\\sin x=k$ 在 $(0,\\pi)$ 内有两个解，方程 $-\\sin x=k$ 在 $(\\pi,2\\pi)$ 内也有两个解，共有四个交点；$k=1$ 时前一方程有两个解，后一方程只有 $x=\\dfrac{3\\pi}{2}$ 一个解，共有三个交点；$1<k<3$ 时只有 $3\\sin x=k$ 有两个解，所以恰有两个交点；$k=3$ 时只有 $x=\\dfrac{\\pi}{2}$ 一个交点；$k=0$ 时交点为 $x=0$，$\\pi$，$2\\pi$，共有三个；$k<0$ 或 $k>3$ 时没有交点. 因此所求范围为 $1<k<3$."
         },
         {
           "num": 11,
           "body": "<p>有两个相同的直三棱柱，高为 $\\frac{2}{a}$，底面三角形的三边长分别为 $3a$，$4a$，$5a$（$a > 0$）. 用它们拼成一个三棱柱或四棱柱，在所有可能的情形中，全面积最小的是一个四棱柱，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
-          "answer": "$0&#x3C;a&#x3C;\\frac{\\sqrt{15}}{3}$",
-          "solution": "<p>底面直角三角形的面积为 $\\dfrac{1}{2}\\cdot3a\\cdot4a=6a^{2}$，周长为 $3a+4a+5a=12a$，每个棱柱的高为 $\\dfrac{2}{a}$. 若两个棱柱以三角形底面相接，所得仍为三棱柱，其高为 $\\dfrac{4}{a}$，全面积为</p>\n$$\nS_{3}=2\\times6a^{2}+12a\\times\\frac{4}{a}=12a^{2}+48\n$$\n<p>若以矩形侧面相接，所得为四棱柱. 沿边长 $3a$，$4a$，$5a$ 的侧面相接时，四棱柱底面的周长分别为 $18a$，$16a$，$14a$，底面面积均为 $12a^{2}$. 因此三种四棱柱的全面积分别为 $24a^{2}+36$，$24a^{2}+32$，$24a^{2}+28$，其中最小值为</p>\n$$\nS_{4}=24a^{2}+28\n$$\n<p>题设说明所有可能情形中全面积最小的是四棱柱，所以 $S_{4}&#x3C;S_{3}$，即 $24a^{2}+28&#x3C;12a^{2}+48$. 整理得 $a^{2}&#x3C;\\dfrac{5}{3}$. 结合 $a>0$，得到 $0&#x3C;a&#x3C;\\dfrac{\\sqrt{15}}3$.</p>"
+          "answer": "$0<a<\\frac{\\sqrt{15}}{3}$",
+          "solution": "<p>底面直角三角形的面积为 $\\dfrac{1}{2}\\cdot3a\\cdot4a=6a^{2}$，周长为 $3a+4a+5a=12a$，每个棱柱的高为 $\\dfrac{2}{a}$. 若两个棱柱以三角形底面相接，所得仍为三棱柱，其高为 $\\dfrac{4}{a}$，全面积为</p>\n$$\nS_{3}=2\\times6a^{2}+12a\\times\\frac{4}{a}=12a^{2}+48\n$$\n<p>若以矩形侧面相接，所得为四棱柱. 沿边长 $3a$，$4a$，$5a$ 的侧面相接时，四棱柱底面的周长分别为 $18a$，$16a$，$14a$，底面面积均为 $12a^{2}$. 因此三种四棱柱的全面积分别为 $24a^{2}+36$，$24a^{2}+32$，$24a^{2}+28$，其中最小值为</p>\n$$\nS_{4}=24a^{2}+28\n$$\n<p>题设说明所有可能情形中全面积最小的是四棱柱，所以 $S_{4}<S_{3}$，即 $24a^{2}+28<12a^{2}+48$. 整理得 $a^{2}<\\dfrac{5}{3}$. 结合 $a>0$，得到 $0<a<\\dfrac{\\sqrt{15}}3$.</p>"
         },
         {
           "num": 12,
@@ -106,19 +106,19 @@
             "单调递增有最大值"
           ],
           "answer": "A",
-          "solution": "对 $f(x)=\\dfrac1{2^x+1}$ 求导，得 $f'(x)=-\\dfrac{2^x\\ln2}{(2^x+1)^2}&#x3C;0$，所以函数在 $\\mathbb{R}$ 上单调递减. 又 $\\lim_{x\\to+\\infty}f(x)=0$，但对任意有限的 $x$ 都有 $f(x)>0$，故函数没有最小值. 所以选 A."
+          "solution": "对 $f(x)=\\dfrac1{2^x+1}$ 求导，得 $f'(x)=-\\dfrac{2^x\\ln2}{(2^x+1)^2}<0$，所以函数在 $\\mathbb{R}$ 上单调递减. 又 $\\lim_{x\\to+\\infty}f(x)=0$，但对任意有限的 $x$ 都有 $f(x)>0$，故函数没有最小值. 所以选 A."
         },
         {
           "num": 14,
           "body": "已知集合 $M = \\{x \\mid |x - 1| \\le 2, x \\in \\mathbb{R}\\}$，$P = \\left\\{x \\mid \\frac{5}{x + 1}\\ge 1, x \\in \\mathbb{Z}\\right\\}$，则 $M \\cap P$ 等于（ ）",
           "choices": [
-            "$\\{x\\mid 0 &#x3C; x\\le 3,x\\in \\mathbb{Z}\\}$",
+            "$\\{x\\mid 0 < x\\le 3,x\\in \\mathbb{Z}\\}$",
             "$\\{x\\mid 0\\le x\\le 3,x\\in \\mathbb{Z}\\}$",
             "$\\{x\\mid -1\\le x\\le 0,x\\in \\mathbb{Z}\\}$",
-            "$\\{x\\mid -1\\le x &#x3C; 0,x\\in \\mathbb{Z}\\}$"
+            "$\\{x\\mid -1\\le x < 0,x\\in \\mathbb{Z}\\}$"
           ],
           "answer": "B",
-          "solution": "<p>由 $\\lvert x-1\\rvert\\leqslant2$，得 $-1\\le x\\leqslant3$. 对集合 $P$，因 $x\\neq-1$，不等式等价于 $\\dfrac{4-x}{x+1}\\geqslant0$，故 $-1&#x3C;x\\leqslant4$. 结合 $x\\in\\mathbb{Z}$，得 $P=\\{0,1,2,3,4\\}$. 所以</p>\n$$\nM\\cap P=\\{0,1,2,3\\}=\\{x\\mid0\\le x\\leqslant3,\\ x\\in\\mathbb{Z}\\}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>由 $\\lvert x-1\\rvert\\leqslant2$，得 $-1\\le x\\leqslant3$. 对集合 $P$，因 $x\\neq-1$，不等式等价于 $\\dfrac{4-x}{x+1}\\geqslant0$，故 $-1<x\\leqslant4$. 结合 $x\\in\\mathbb{Z}$，得 $P=\\{0,1,2,3,4\\}$. 所以</p>\n$$\nM\\cap P=\\{0,1,2,3\\}=\\{x\\mid0\\le x\\leqslant3,\\ x\\in\\mathbb{Z}\\}\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 15,
@@ -134,15 +134,15 @@
         },
         {
           "num": 16,
-          "body": "设定义域为 $\\mathbb{R}$ 的函数 $f(x) = \\begin{cases}|\\lg |x - 1||,&#x26;x \\neq 1,\\\\  0,&#x26;x = 1,\\end{cases}$ 则关于 $x$ 的方程 $f^{2}(x) + bf(x) + c = 0$ 有 $7$ 个不同实数解的充要条件是（ ）",
+          "body": "设定义域为 $\\mathbb{R}$ 的函数 $f(x) = \\begin{cases}|\\lg |x - 1||,&x \\neq 1,\\\\  0,&x = 1,\\end{cases}$ 则关于 $x$ 的方程 $f^{2}(x) + bf(x) + c = 0$ 有 $7$ 个不同实数解的充要条件是（ ）",
           "choices": [
-            "$b &#x3C; 0$ 且 $c > 0$",
-            "$b > 0$ 且 $c &#x3C; 0$",
-            "$b &#x3C; 0$ 且 $c = 0$",
+            "$b < 0$ 且 $c > 0$",
+            "$b > 0$ 且 $c < 0$",
+            "$b < 0$ 且 $c = 0$",
             "$b \\ge 0$ 且 $c = 0$"
           ],
           "answer": "C",
-          "solution": "<p>令 $t=f(x)$. 当 $t>0$ 时，$\\lvert\\lg\\lvert x-1\\rvert\\rvert=t$ 等价于 $\\lvert x-1\\rvert=10^{t}$ 或 $\\lvert x-1\\rvert=10^{-t}$，每种情形各有两个实数解，所以每个正根 $t$ 对应四个不同的 $x$. 当 $t=0$ 时，除分段定义给出的 $x=1$ 外，$\\lvert x-1\\rvert=1$ 给出 $x=0$，$2$，共三个不同的 $x$；当 $t&#x3C;0$ 时没有对应的 $x$.</p><p>因此方程 $t^{2}+bt+c=0$ 要有七个不同的 $x$ 解，必须且只需有一个正根和根 $t=0$，因为 $4+3=7$. 这等价于 $c=0$，且另一个根 $-b$ 为正数，即 $b&#x3C;0$. 反之，若 $b&#x3C;0$，$c=0$，两根为 $0$，$-b>0$，确实产生 $3+4=7$ 个不同实数解. 所以选 C.</p>"
+          "solution": "<p>令 $t=f(x)$. 当 $t>0$ 时，$\\lvert\\lg\\lvert x-1\\rvert\\rvert=t$ 等价于 $\\lvert x-1\\rvert=10^{t}$ 或 $\\lvert x-1\\rvert=10^{-t}$，每种情形各有两个实数解，所以每个正根 $t$ 对应四个不同的 $x$. 当 $t=0$ 时，除分段定义给出的 $x=1$ 外，$\\lvert x-1\\rvert=1$ 给出 $x=0$，$2$，共三个不同的 $x$；当 $t<0$ 时没有对应的 $x$.</p><p>因此方程 $t^{2}+bt+c=0$ 要有七个不同的 $x$ 解，必须且只需有一个正根和根 $t=0$，因为 $4+3=7$. 这等价于 $c=0$，且另一个根 $-b$ 为正数，即 $b<0$. 反之，若 $b<0$，$c=0$，两根为 $0$，$-b>0$，确实产生 $3+4=7$ 个不同实数解. 所以选 C.</p>"
         }
       ]
     },
@@ -175,14 +175,14 @@
           "body": "<p>假设某市 $2004$ 年新建住房面积 $400$ 万平方米，其中有 $250$ 万平方米是中低价房. 预计在今后的若干年内，该市每年新建住房面积平均比上一年增长 $8\\%$. 另外，每年新建住房中，中低价房的面积均比上一年增加 $50$ 万平方米. 那么，到哪一年底，</p><ol class=\"enumerate\"><li><p>该市历年所建中低价房的累计面积（以 $2004$ 年为累计的第一年）将首次不少于 $4750$ 万平方米？</p></li><li><p>当年建造的中低价房的面积占该年建造住房面积的比例首次大于 $85\\%$？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $n$ 表示从 $2004$ 年起的第 $n$ 年，则 $2004$ 年对应 $n=1$. 第 $n$ 年新建住房总面积和中低价房面积分别为 $T_{n}=400(1.08)^{n-1}$，$L_{n}=250+50(n-1)=50(n+4)$.</p><p>单位均为万平方米.</p><ol class=\"enumerate\"><li><p>前 $n$ 年中低价房的累计面积为</p>\n$$\nS_{n}=\\sum_{k=1}^{n}L_{k}=\\frac{n}{2}\\bigl(250+50(n+4)\\bigr)=25n(n+9)\n$$\n<p>要求 $S_{n}\\geqslant4750$，即</p>\n$$\nn(n+9)\\geqslant190\n$$\n<p>由于 $n$ 为正整数，且 $25\\times9\\times18=4050&#x3C;4750$，$25\\times10\\times19=4750$，</p><p>所以最小的 $n$ 为 $10$. 对应年份为 $2004+10-1=2013$，即到 $2013$ 年底首次达到条件.</p></li><li><p>记第 $n$ 年中低价房所占比例为</p>\n$$\nr_{n}=\\frac{L_{n}}{T_{n}}=\\frac{n+4}{8(1.08)^{n-1}}\n$$\n<p>当 $1\\le n\\leqslant8$ 时，</p>\n$$\n\\frac{r_{n+1}}{r_{n}}=\\frac{n+5}{1.08(n+4)}=\\frac{25(n+5)}{27(n+4)}>1\n$$\n<p>所以 $r_{n}$ 在前 $9$ 年递增. 计算得</p>\n$$\nr_{5}=\\frac{450}{400(1.08)^{4}}=\\frac{3515625}{4251528}&#x3C;\\frac{17}{20}=0.85\n$$\n<p>而</p>\n$$\nr_{6}=\\frac{500}{400(1.08)^{5}}=\\frac{48828125}{57395628}>\\frac{17}{20}=0.85\n$$\n<p>因此首次满足比例大于 $85\\%$ 的年份对应 $n=6$，即 $2004+6-1=2009$ 年底.</p></li></ol>"
+          "solution": "<p>设 $n$ 表示从 $2004$ 年起的第 $n$ 年，则 $2004$ 年对应 $n=1$. 第 $n$ 年新建住房总面积和中低价房面积分别为 $T_{n}=400(1.08)^{n-1}$，$L_{n}=250+50(n-1)=50(n+4)$.</p><p>单位均为万平方米.</p><ol class=\"enumerate\"><li><p>前 $n$ 年中低价房的累计面积为</p>\n$$\nS_{n}=\\sum_{k=1}^{n}L_{k}=\\frac{n}{2}\\bigl(250+50(n+4)\\bigr)=25n(n+9)\n$$\n<p>要求 $S_{n}\\geqslant4750$，即</p>\n$$\nn(n+9)\\geqslant190\n$$\n<p>由于 $n$ 为正整数，且 $25\\times9\\times18=4050<4750$，$25\\times10\\times19=4750$，</p><p>所以最小的 $n$ 为 $10$. 对应年份为 $2004+10-1=2013$，即到 $2013$ 年底首次达到条件.</p></li><li><p>记第 $n$ 年中低价房所占比例为</p>\n$$\nr_{n}=\\frac{L_{n}}{T_{n}}=\\frac{n+4}{8(1.08)^{n-1}}\n$$\n<p>当 $1\\le n\\leqslant8$ 时，</p>\n$$\n\\frac{r_{n+1}}{r_{n}}=\\frac{n+5}{1.08(n+4)}=\\frac{25(n+5)}{27(n+4)}>1\n$$\n<p>所以 $r_{n}$ 在前 $9$ 年递增. 计算得</p>\n$$\nr_{5}=\\frac{450}{400(1.08)^{4}}=\\frac{3515625}{4251528}<\\frac{17}{20}=0.85\n$$\n<p>而</p>\n$$\nr_{6}=\\frac{500}{400(1.08)^{5}}=\\frac{48828125}{57395628}>\\frac{17}{20}=0.85\n$$\n<p>因此首次满足比例大于 $85\\%$ 的年份对应 $n=6$，即 $2004+6-1=2009$ 年底.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "<p>对定义域是 $D_{f}$，$D_{g}$ 的函数 $y = f(x)$，$y = g(x)$，规定：函数</p><p>$h(x) = \\begin{cases}f(x)g(x),&#x26;\\text{当 }x \\in D_{f} \\text{且}x \\in D_{g},\\\\  f(x),&#x26;\\text{当 }x \\in D_{f} \\text{且}x \\notin D_{g},\\\\  g(x),&#x26;\\text{当 }x \\notin D_{f} \\text{且}x \\in D_{g}.\\end{cases}$</p><ol class=\"enumerate\"><li><p>若函数 $f(x) = \\frac{1}{x - 1}$，$g(x) = x^{2}$，写出函数 $h(x)$ 的解析式；</p></li><li><p>求问题（1）中函数 $h(x)$ 的值域；</p></li><li><p>若 $g(x) = f(x + \\alpha)$，其中 $\\alpha$ 是常数，且 $\\alpha \\in [0, \\pi]$，请设计一个定义域为 $\\mathbb{R}$ 的函数 $y = f(x)$，及一个 $\\alpha$ 的值，使得 $h(x) = \\cos 4x$，并予以证明.</p></li></ol>",
+          "body": "<p>对定义域是 $D_{f}$，$D_{g}$ 的函数 $y = f(x)$，$y = g(x)$，规定：函数</p><p>$h(x) = \\begin{cases}f(x)g(x),&\\text{当 }x \\in D_{f} \\text{且}x \\in D_{g},\\\\  f(x),&\\text{当 }x \\in D_{f} \\text{且}x \\notin D_{g},\\\\  g(x),&\\text{当 }x \\notin D_{f} \\text{且}x \\in D_{g}.\\end{cases}$</p><ol class=\"enumerate\"><li><p>若函数 $f(x) = \\frac{1}{x - 1}$，$g(x) = x^{2}$，写出函数 $h(x)$ 的解析式；</p></li><li><p>求问题（1）中函数 $h(x)$ 的值域；</p></li><li><p>若 $g(x) = f(x + \\alpha)$，其中 $\\alpha$ 是常数，且 $\\alpha \\in [0, \\pi]$，请设计一个定义域为 $\\mathbb{R}$ 的函数 $y = f(x)$，及一个 $\\alpha$ 的值，使得 $h(x) = \\cos 4x$，并予以证明.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $f(x)=\\dfrac{1}{x-1}$ 可知 $D_{f}=\\{x\\in\\mathbb{R}\\mid x\\neq1\\}$，而 $g(x)=x^{2}$ 的定义域为 $D_{g}=\\mathbb{R}$. 因而</p>\n$$\nh(x)=\\begin{cases}\\dfrac{x^2}{x-1},&#x26;x\\in(-\\infty,1)\\cup(1,+\\infty),\\\\  1,&#x26;x=1.\\end{cases}\n$$\n</li><li><p>当 $x\\neq1$ 时，令 $y=\\dfrac{x^2}{x-1}$，则 $x$ 满足</p>\n$$\nx^{2}-yx+y=0\n$$\n<p>这个关于 $x$ 的一元二次方程有实根的充要条件为</p>\n$$\n\\Delta=y^{2}-4y=y(y-4)\\geqslant0\n$$\n<p>即 $y\\leqslant0$ 或 $y\\geqslant4$. 反之，对任意满足上述条件的 $y$，方程都有实根，且 $x=1$ 代入左端得 $1\\neq0$，所以所得实根均符合 $x\\neq1$. 当 $x=1$ 时，$h(1)=1$. 因此函数 $h(x)$ 的值域为</p>\n$$\n(-\\infty,0]\\cup\\{1\\}\\cup[4,+\\infty)\n$$\n</li><li><p>取 $f(x)=\\sin2x+\\cos2x$，$\\alpha=\\frac{\\pi}{4}$. 此时 $D_{f}=D_{g}=\\mathbb{R}$，且</p>\n$$\ng(x)=f\\left(x+\\frac{\\pi}{4}\\right)  =\\sin\\left(2x+\\frac{\\pi}{2}\\right)+\\cos\\left(2x+\\frac{\\pi}{2}\\right)  =\\cos2x-\\sin2x\n$$\n<p>因此对任意 $x\\in\\mathbb{R}$，</p>\n$$\nh(x)=f(x)g(x)=(\\sin2x+\\cos2x)(\\cos2x-\\sin2x)=\\cos4x\n$$\n<p>又 $\\alpha=\\dfrac{\\pi}{4}\\in[0,\\pi]$，故构造满足题设.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $f(x)=\\dfrac{1}{x-1}$ 可知 $D_{f}=\\{x\\in\\mathbb{R}\\mid x\\neq1\\}$，而 $g(x)=x^{2}$ 的定义域为 $D_{g}=\\mathbb{R}$. 因而</p>\n$$\nh(x)=\\begin{cases}\\dfrac{x^2}{x-1},&x\\in(-\\infty,1)\\cup(1,+\\infty),\\\\  1,&x=1.\\end{cases}\n$$\n</li><li><p>当 $x\\neq1$ 时，令 $y=\\dfrac{x^2}{x-1}$，则 $x$ 满足</p>\n$$\nx^{2}-yx+y=0\n$$\n<p>这个关于 $x$ 的一元二次方程有实根的充要条件为</p>\n$$\n\\Delta=y^{2}-4y=y(y-4)\\geqslant0\n$$\n<p>即 $y\\leqslant0$ 或 $y\\geqslant4$. 反之，对任意满足上述条件的 $y$，方程都有实根，且 $x=1$ 代入左端得 $1\\neq0$，所以所得实根均符合 $x\\neq1$. 当 $x=1$ 时，$h(1)=1$. 因此函数 $h(x)$ 的值域为</p>\n$$\n(-\\infty,0]\\cup\\{1\\}\\cup[4,+\\infty)\n$$\n</li><li><p>取 $f(x)=\\sin2x+\\cos2x$，$\\alpha=\\frac{\\pi}{4}$. 此时 $D_{f}=D_{g}=\\mathbb{R}$，且</p>\n$$\ng(x)=f\\left(x+\\frac{\\pi}{4}\\right)  =\\sin\\left(2x+\\frac{\\pi}{2}\\right)+\\cos\\left(2x+\\frac{\\pi}{2}\\right)  =\\cos2x-\\sin2x\n$$\n<p>因此对任意 $x\\in\\mathbb{R}$，</p>\n$$\nh(x)=f(x)g(x)=(\\sin2x+\\cos2x)(\\cos2x-\\sin2x)=\\cos4x\n$$\n<p>又 $\\alpha=\\dfrac{\\pi}{4}\\in[0,\\pi]$，故构造满足题设.</p></li></ol>"
         },
         {
           "num": 22,

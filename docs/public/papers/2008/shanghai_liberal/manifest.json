@@ -9,17 +9,17 @@
       "problems": [
         {
           "num": 1,
-          "body": "不等式 $|x - 1| &#x3C; 1$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "不等式 $|x - 1| < 1$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(0,2\\right)$",
-          "solution": "<p>由绝对值不等式的等价关系，</p>\n$$\n|x-1|&#x3C;1\\Longleftrightarrow -1&#x3C;x-1&#x3C;1\\Longleftrightarrow 0&#x3C;x&#x3C;2\n$$\n<p>所以解集为 $\\left(0,2\\right)$.</p>"
+          "solution": "<p>由绝对值不等式的等价关系，</p>\n$$\n|x-1|<1\\Longleftrightarrow -1<x-1<1\\Longleftrightarrow 0<x<2\n$$\n<p>所以解集为 $\\left(0,2\\right)$.</p>"
         },
         {
           "num": 2,
           "body": "若集合 $A = \\{x \\mid x \\le 2\\}$，$B = \\{x \\mid x \\ge a\\}$ 满足 $A \\cap B = \\{2\\}$，则实数 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$2$",
-          "solution": "当 $a\\leqslant2$ 时，$A\\cap B=\\{x\\mid a\\le x\\leqslant2\\}$. 若 $a&#x3C;2$，交集含有无穷多个数；若 $a>2$，交集为空集. 只有 $a=2$ 时交集恰为 $\\{2\\}$，所以 $a=2$."
+          "solution": "当 $a\\leqslant2$ 时，$A\\cap B=\\{x\\mid a\\le x\\leqslant2\\}$. 若 $a<2$，交集含有无穷多个数；若 $a>2$，交集为空集. 只有 $a=2$ 时交集恰为 $\\{2\\}$，所以 $a=2$."
         },
         {
           "num": 3,
@@ -68,7 +68,7 @@
           "body": "若函数 $f(x) = (x + a)(bx + 2a)$ （常数 $a$，$b \\in \\mathbb{R}$）是偶函数，且它的值域为 $\\left(-\\infty, 4\\right]$，则该函数的解析式 $f(x)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-2x^{2}+4$",
-          "solution": "<p>展开函数式，得</p>\n$$\nf(x)=(x+a)(bx+2a)=bx^{2}+a(b+2)x+2a^{2}\n$$\n<p>函数为偶函数，所以一次项系数必须为零，即 $a(b+2)=0$.</p><p>若 $a=0$，则 $f(x)=bx^{2}$. 当 $b&#x3C;0$ 时值域为 $\\left(-\\infty,0\\right]$，当 $b=0$ 时值域为 $\\{0\\}$，当 $b>0$ 时值域为 $\\left[0,+\\infty\\right)$，均不可能是 $\\left(-\\infty,4\\right]$. 因而只能有 $b=-2$，此时</p>\n$$\nf(x)=-2x^{2}+2a^{2}\n$$\n<p>其值域为 $\\left(-\\infty,2a^{2}\\right]$. 由题设 $2a^{2}=4$，故 $f(x)=-2x^{2}+4$.</p>"
+          "solution": "<p>展开函数式，得</p>\n$$\nf(x)=(x+a)(bx+2a)=bx^{2}+a(b+2)x+2a^{2}\n$$\n<p>函数为偶函数，所以一次项系数必须为零，即 $a(b+2)=0$.</p><p>若 $a=0$，则 $f(x)=bx^{2}$. 当 $b<0$ 时值域为 $\\left(-\\infty,0\\right]$，当 $b=0$ 时值域为 $\\{0\\}$，当 $b>0$ 时值域为 $\\left[0,+\\infty\\right)$，均不可能是 $\\left(-\\infty,4\\right]$. 因而只能有 $b=-2$，此时</p>\n$$\nf(x)=-2x^{2}+2a^{2}\n$$\n<p>其值域为 $\\left(-\\infty,2a^{2}\\right]$. 由题设 $2a^{2}=4$，故 $f(x)=-2x^{2}+4$.</p>"
         },
         {
           "num": 10,
@@ -123,7 +123,7 @@
             "$\\frac{5}{4}$"
           ],
           "answer": "B",
-          "solution": "<p>设无穷等比数列的公比为 $q=a-\\frac{3}{2}$. 由于各项和存在，必须满足 $|q|&#x3C;1$，且</p>\n$$\na=\\frac{1}{1-q}=\\frac{1}{1-(a-\\frac{3}{2})}=\\frac{1}{\\frac{5}{2}-a}\n$$\n<p>于是</p>\n$$\na\\left(\\frac{5}{2}-a\\right)=1  \\Longleftrightarrow 2a^{2}-5a+2=0\n$$\n<p>解得 $a=2$ 或 $a=\\frac{1}{2}$. 当 $a=\\frac{1}{2}$ 时，$q=-1$，不满足 $|q|&#x3C;1$，舍去；当 $a=2$ 时，$q=\\frac{1}{2}$，满足收敛条件. 因此正确选项为 B.</p>"
+          "solution": "<p>设无穷等比数列的公比为 $q=a-\\frac{3}{2}$. 由于各项和存在，必须满足 $|q|<1$，且</p>\n$$\na=\\frac{1}{1-q}=\\frac{1}{1-(a-\\frac{3}{2})}=\\frac{1}{\\frac{5}{2}-a}\n$$\n<p>于是</p>\n$$\na\\left(\\frac{5}{2}-a\\right)=1  \\Longleftrightarrow 2a^{2}-5a+2=0\n$$\n<p>解得 $a=2$ 或 $a=\\frac{1}{2}$. 当 $a=\\frac{1}{2}$ 时，$q=-1$，不满足 $|q|<1$，舍去；当 $a=2$ 时，$q=\\frac{1}{2}$，满足收敛条件. 因此正确选项为 B.</p>"
         },
         {
           "num": 15,
@@ -168,14 +168,14 @@
           "body": "<p>已知函数 $f(x) = 2^{x} - \\frac{1}{2^{|x|}}$.</p><ol class=\"enumerate\"><li><p>若 $f(x) = 2$，求 $x$ 的值；</p></li><li><p>若 $2^{t}f(2t) + mf(t) \\ge 0$ 对于 $t \\in \\left[1,2\\right]$ 恒成立，求实数 $m$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x&#x3C;0$ 时，$|x|=-x$，所以 $f(x)=2^{x}-\\frac{1}{2^{-x}}=2^{x}-2^{x}=0$，不可能满足 $f(x)=2$.</p><p>当 $x\\geqslant0$ 时，令 $u=2^{x}>0$，则 $f(x)=u-\\frac{1}{u}=2$. 因而</p><p>$u^{2}-2u-1=0$，</p><p>解得 $u=1+\\sqrt{2}$ 或 $u=1-\\sqrt{2}$. 因为 $u>0$，所以 $u=1+\\sqrt{2}$，从而</p><p>$x=\\log_{2}(1+\\sqrt{2})$.</p></li><li><p>当 $t\\in\\left[1,2\\right]$ 时，$t>0$，故 $f(t)=2^{t}-2^{-t}>0$. 令 $u=2^{t}$，则 $u\\in\\left[2,4\\right]$，且 $f(t)=u-\\frac{1}{u}=\\frac{u^{2}-1}{u}$，$f(2t)=u^{2}-\\frac{1}{u^{2}}=\\frac{(u^{2}-1)(u^{2}+1)}{u^{2}}$.</p><p>因此</p>\n$$\n\\frac{2^{t}f(2t)}{f(t)}=\\frac{u\\cdot\\frac{(u^{2}-1)(u^{2}+1)}{u^{2}}}{\\frac{u^{2}-1}{u}}=u^{2}+1=2^{2t}+1\n$$\n<p>原不等式等价于 $m\\ge-(2^{2t}+1)$.</p><p>这里 $t\\in\\left[1,2\\right]$，右端的最大值为 $-5$，所以不等式对所有 $t\\in\\left[1,2\\right]$ 恒成立的充要条件是 $m\\ge-5$. 因此 $m$ 的取值范围为 $\\left[-5,+\\infty\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x<0$ 时，$|x|=-x$，所以 $f(x)=2^{x}-\\frac{1}{2^{-x}}=2^{x}-2^{x}=0$，不可能满足 $f(x)=2$.</p><p>当 $x\\geqslant0$ 时，令 $u=2^{x}>0$，则 $f(x)=u-\\frac{1}{u}=2$. 因而</p><p>$u^{2}-2u-1=0$，</p><p>解得 $u=1+\\sqrt{2}$ 或 $u=1-\\sqrt{2}$. 因为 $u>0$，所以 $u=1+\\sqrt{2}$，从而</p><p>$x=\\log_{2}(1+\\sqrt{2})$.</p></li><li><p>当 $t\\in\\left[1,2\\right]$ 时，$t>0$，故 $f(t)=2^{t}-2^{-t}>0$. 令 $u=2^{t}$，则 $u\\in\\left[2,4\\right]$，且 $f(t)=u-\\frac{1}{u}=\\frac{u^{2}-1}{u}$，$f(2t)=u^{2}-\\frac{1}{u^{2}}=\\frac{(u^{2}-1)(u^{2}+1)}{u^{2}}$.</p><p>因此</p>\n$$\n\\frac{2^{t}f(2t)}{f(t)}=\\frac{u\\cdot\\frac{(u^{2}-1)(u^{2}+1)}{u^{2}}}{\\frac{u^{2}-1}{u}}=u^{2}+1=2^{2t}+1\n$$\n<p>原不等式等价于 $m\\ge-(2^{2t}+1)$.</p><p>这里 $t\\in\\left[1,2\\right]$，右端的最大值为 $-5$，所以不等式对所有 $t\\in\\left[1,2\\right]$ 恒成立的充要条件是 $m\\ge-5$. 因此 $m$ 的取值范围为 $\\left[-5,+\\infty\\right)$.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>已知双曲线 $C: \\frac{x^{2}}{2}- y^{2} = 1$.</p><ol class=\"enumerate\"><li><p>求双曲线 $C$ 的渐近线方程；</p></li><li><p>已知点 $M$ 的坐标为 $(0,1)$. 设 $P$ 是双曲线 $C$ 上的点，$Q$ 是点 $P$ 关于原点的对称点. 记 $\\lambda = \\overrightarrow{MP}\\cdot \\overrightarrow{MQ}$，求 $\\lambda$ 的取值范围；</p></li><li><p>已知点 $D$，$E$，$M$ 的坐标分别为 $(-2, -1)$，$(2, -1)$，$(0, 1)$，$P$ 为双曲线 $C$ 上在第一象限内的点. 记 $l$ 为经过原点与点 $P$ 的直线，$s$ 为 $\\triangle DEM$ 截直线 $l$ 所得线段的长. 试将 $s$ 表示为直线 $l$ 的斜率 $k$ 的函数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将双曲线方程中的常数项 $1$ 换成 $0$，得到渐近线方程</p><p>$\\frac{x^{2}}{2}-y^{2}=0$，</p><p>即 $y=\\pm\\frac{\\sqrt{2}}{2}x$.</p></li><li><p>设 $P=(x,y)$，则 $Q=(-x,-y)$. 因而</p>\n$$\n\\lambda=\\overrightarrow{MP}\\cdot\\overrightarrow{MQ}=(x,y-1)\\cdot(-x,-y-1)=1-x^{2}-y^{2}\n$$\n<p>由 $P\\in C$ 得 $x^{2}=2y^{2}+2$，所以</p>\n$$\n\\lambda=1-(2y^{2}+2)-y^{2}=-3y^{2}-1\\le-1\n$$\n<p>当 $y=0$ 时取到 $-1$，而当 $|y|$ 无限增大时，$\\lambda$ 趋于负无穷，因此 $\\lambda$ 的取值范围为 $\\left(-\\infty,-1\\right]$.</p></li><li><p>设直线 $l$ 的方程为 $y=kx$. 因为 $P$ 在双曲线 $C$ 的第一象限内，所以 $k>0$，且</p>\n$$\n\\frac{x^{2}}{2}-k^{2}x^{2}=1\n$$\n<p>要有第一象限内的交点，必须 $\\frac{1}{2}-k^{2}>0$，故 $k\\in\\left(0,\\frac{\\sqrt{2}}{2}\\right)$.</p><p>直线 $EM$ 的方程为 $y=-x+1$，它与 $l$ 的交点在第一象限方向上. 解得交点横坐标为 $\\frac{1}{k+1}$，所以从原点到该交点的长度为</p>\n$$\n\\frac{\\sqrt{1+k^{2}}}{k+1}\n$$\n<p>直线与边 $DM$ 的交点满足 $kx=x+1$，故其横坐标为 $x=\\frac{1}{k-1}=-\\frac{1}{1-k}$. 这个交点在线段 $DM$ 上当且仅当 $-2\\le-\\frac{1}{1-k}&#x3C;0$，即 $0&#x3C;k\\le\\frac{1}{2}$. 此时交点到原点的长度为 $\\frac{\\sqrt{1+k^{2}}}{1-k}$，于是</p>\n$$\ns(k)=\\frac{\\sqrt{1+k^{2}}}{k+1}+\\frac{\\sqrt{1+k^{2}}}{1-k}=\\frac{2\\sqrt{1+k^{2}}}{1-k^{2}}\n$$\n<p>当 $\\frac{1}{2}&#x3C;k&#x3C;\\frac{\\sqrt{2}}{2}$ 时，直线的另一侧不能与 $DM$ 相交，而与边 $DE$ 相交. 交点满足 $y=-1$，故 $x=-\\frac{1}{k}$，且到原点的长度为 $\\frac{\\sqrt{1+k^{2}}}{k}$，于是</p>\n$$\ns(k)=\\frac{\\sqrt{1+k^{2}}}{k+1}+\\frac{\\sqrt{1+k^{2}}}{k}=\\frac{(2k+1)\\sqrt{1+k^2}}{k(k+1)}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将双曲线方程中的常数项 $1$ 换成 $0$，得到渐近线方程</p><p>$\\frac{x^{2}}{2}-y^{2}=0$，</p><p>即 $y=\\pm\\frac{\\sqrt{2}}{2}x$.</p></li><li><p>设 $P=(x,y)$，则 $Q=(-x,-y)$. 因而</p>\n$$\n\\lambda=\\overrightarrow{MP}\\cdot\\overrightarrow{MQ}=(x,y-1)\\cdot(-x,-y-1)=1-x^{2}-y^{2}\n$$\n<p>由 $P\\in C$ 得 $x^{2}=2y^{2}+2$，所以</p>\n$$\n\\lambda=1-(2y^{2}+2)-y^{2}=-3y^{2}-1\\le-1\n$$\n<p>当 $y=0$ 时取到 $-1$，而当 $|y|$ 无限增大时，$\\lambda$ 趋于负无穷，因此 $\\lambda$ 的取值范围为 $\\left(-\\infty,-1\\right]$.</p></li><li><p>设直线 $l$ 的方程为 $y=kx$. 因为 $P$ 在双曲线 $C$ 的第一象限内，所以 $k>0$，且</p>\n$$\n\\frac{x^{2}}{2}-k^{2}x^{2}=1\n$$\n<p>要有第一象限内的交点，必须 $\\frac{1}{2}-k^{2}>0$，故 $k\\in\\left(0,\\frac{\\sqrt{2}}{2}\\right)$.</p><p>直线 $EM$ 的方程为 $y=-x+1$，它与 $l$ 的交点在第一象限方向上. 解得交点横坐标为 $\\frac{1}{k+1}$，所以从原点到该交点的长度为</p>\n$$\n\\frac{\\sqrt{1+k^{2}}}{k+1}\n$$\n<p>直线与边 $DM$ 的交点满足 $kx=x+1$，故其横坐标为 $x=\\frac{1}{k-1}=-\\frac{1}{1-k}$. 这个交点在线段 $DM$ 上当且仅当 $-2\\le-\\frac{1}{1-k}<0$，即 $0<k\\le\\frac{1}{2}$. 此时交点到原点的长度为 $\\frac{\\sqrt{1+k^{2}}}{1-k}$，于是</p>\n$$\ns(k)=\\frac{\\sqrt{1+k^{2}}}{k+1}+\\frac{\\sqrt{1+k^{2}}}{1-k}=\\frac{2\\sqrt{1+k^{2}}}{1-k^{2}}\n$$\n<p>当 $\\frac{1}{2}<k<\\frac{\\sqrt{2}}{2}$ 时，直线的另一侧不能与 $DM$ 相交，而与边 $DE$ 相交. 交点满足 $y=-1$，故 $x=-\\frac{1}{k}$，且到原点的长度为 $\\frac{\\sqrt{1+k^{2}}}{k}$，于是</p>\n$$\ns(k)=\\frac{\\sqrt{1+k^{2}}}{k+1}+\\frac{\\sqrt{1+k^{2}}}{k}=\\frac{(2k+1)\\sqrt{1+k^2}}{k(k+1)}\n$$\n</li></ol>"
         },
         {
           "num": 21,

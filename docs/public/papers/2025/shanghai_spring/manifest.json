@@ -16,10 +16,10 @@
         },
         {
           "num": 2,
-          "body": "不等式 $\\dfrac{x}{x-1}&#x3C;0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "不等式 $\\dfrac{x}{x-1}<0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(0,1)$",
-          "solution": "不等式等价于 $x(x-1)&#x3C;0$，故 $0&#x3C;x&#x3C;1$，解集为 $(0,1)$."
+          "solution": "不等式等价于 $x(x-1)<0$，故 $0<x<1$，解集为 $(0,1)$."
         },
         {
           "num": 3,
@@ -61,7 +61,7 @@
           "body": "关于 $x$ 的方程 $|x-1|+|\\pi-x|=\\pi-1$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$[1,\\pi]$",
-          "solution": "分三段讨论：当 $x\\le1$ 时左端为 $\\pi+1-2x$，仅 $x=1$ 成立；当 $1&#x3C;x&#x3C;\\pi$ 时左端恒为 $\\pi-1$；当 $x\\ge\\pi$ 时左端为 $2x-\\pi-1$，仅 $x=\\pi$ 成立. 故解集为 $[1,\\pi]$."
+          "solution": "分三段讨论：当 $x\\le1$ 时左端为 $\\pi+1-2x$，仅 $x=1$ 成立；当 $1<x<\\pi$ 时左端恒为 $\\pi-1$；当 $x\\ge\\pi$ 时左端为 $2x-\\pi-1$，仅 $x=\\pi$ 成立. 故解集为 $[1,\\pi]$."
         },
         {
           "num": 9,
@@ -82,7 +82,7 @@
           "body": "<p>如图，正方形 $ABCD$ 是一块边长为 $4$ 的工程用料，阴影部分是被腐蚀的区域，其余部分完好，曲线 $MN$ 为以 $AD$ 为对称轴的抛物线的一部分，且 $DM=DN=3$. 工人师傅现要从完好的部分中截取一块矩形原料 $BQPR$，当其面积有最大值时，$AQ$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$\\dfrac{4+\\sqrt{7}}{3}$",
-          "solution": "<p>以 $A$ 为原点，$AD$ 为 $y$ 轴建立直角坐标系，则 $M(0,1)$，$N(3,4)$. 设抛物线为 $y=\\alpha x^{2}+1$，由 $N$ 得 $\\alpha=\\dfrac{1}{3}$. 令 $AQ=x$. 当 $x\\ge3$ 时矩形面积不超过 $4$；当 $0&#x3C;x&#x3C;3$ 时，$P\\left(x,\\dfrac{1}{3}x^{2}+1\\right)$，矩形面积</p><p>$S=(4-x)\\left(\\dfrac{1}{3}x^{2}+1\\right)=-\\dfrac{1}{3}x^{3}+\\dfrac{4}{3}x^{2}-x+4$.</p><p>$S'=-x^{2}+\\dfrac{8}{3}x-1$，故驻点为 $x=\\dfrac{4\\pm\\sqrt{7}}{3}$. 比较单调性及端点值，最大值在 $x=\\dfrac{4+\\sqrt{7}}{3}$ 处取得.</p>"
+          "solution": "<p>以 $A$ 为原点，$AD$ 为 $y$ 轴建立直角坐标系，则 $M(0,1)$，$N(3,4)$. 设抛物线为 $y=\\alpha x^{2}+1$，由 $N$ 得 $\\alpha=\\dfrac{1}{3}$. 令 $AQ=x$. 当 $x\\ge3$ 时矩形面积不超过 $4$；当 $0<x<3$ 时，$P\\left(x,\\dfrac{1}{3}x^{2}+1\\right)$，矩形面积</p><p>$S=(4-x)\\left(\\dfrac{1}{3}x^{2}+1\\right)=-\\dfrac{1}{3}x^{3}+\\dfrac{4}{3}x^{2}-x+4$.</p><p>$S'=-x^{2}+\\dfrac{8}{3}x-1$，故驻点为 $x=\\dfrac{4\\pm\\sqrt{7}}{3}$. 比较单调性及端点值，最大值在 $x=\\dfrac{4+\\sqrt{7}}{3}$ 处取得.</p>"
         },
         {
           "num": 12,
@@ -118,7 +118,7 @@
             "$3$"
           ],
           "answer": "B",
-          "solution": "严格递减要求 $\\alpha&#x3C;0$. 当 $\\alpha=-\\dfrac{2}{3}$ 时，$(-1)^{-\\frac{2}{3}}=1$；当 $\\alpha=-\\dfrac{1}{3}$ 时，$(-1)^{-\\frac{1}{3}}=-1$. 故选 B."
+          "solution": "严格递减要求 $\\alpha<0$. 当 $\\alpha=-\\dfrac{2}{3}$ 时，$(-1)^{-\\frac{2}{3}}=1$；当 $\\alpha=-\\dfrac{1}{3}$ 时，$(-1)^{-\\frac{1}{3}}=-1$. 故选 B."
         },
         {
           "num": 15,
@@ -134,7 +134,7 @@
         },
         {
           "num": 16,
-          "body": "已知 $a\\in\\mathbb{R}$，不等式 $\\left[\\tan\\left(\\dfrac\\pi6x\\right)-a\\right]\\left[\\tan\\left(\\dfrac\\pi6x\\right)-a-1\\right]&#x3C;0$ 在 $(0,2025)$ 中的整数解有 $m$ 个. 关于 $m$ 的个数，以下不可能的是（ ）.",
+          "body": "已知 $a\\in\\mathbb{R}$，不等式 $\\left[\\tan\\left(\\dfrac\\pi6x\\right)-a\\right]\\left[\\tan\\left(\\dfrac\\pi6x\\right)-a-1\\right]<0$ 在 $(0,2025)$ 中的整数解有 $m$ 个. 关于 $m$ 的个数，以下不可能的是（ ）.",
           "choices": [
             "$0$",
             "$338$",
@@ -142,7 +142,7 @@
             "$1012$"
           ],
           "answer": "D",
-          "solution": "不等式等价于 $a&#x3C;\\tan\\left(\\dfrac\\pi6x\\right)&#x3C;a+1$. 函数周期为 $6$，且在每个周期的整数点 $0$，$1$，$2$，$4$，$5$，$6$ 上取值为 $0$，$\\dfrac{\\sqrt{3}}{3}$，$\\sqrt{3}$，$-\\sqrt{3}$，$-\\dfrac{\\sqrt{3}}{3}$，$0$. 在 $1\\le x\\le2024$ 的整数中，余数为 $0$，$4$，$5$ 的各有 $337$ 个，余数为 $1,2$ 的各有 $338$ 个，余数为 $3$ 时正切无定义. 区间 $(a,a+1)$ 至多包含上述五个函数值中的两个，因此解数至多为 $338+338=676&#x3C;1012$，选 D."
+          "solution": "不等式等价于 $a<\\tan\\left(\\dfrac\\pi6x\\right)<a+1$. 函数周期为 $6$，且在每个周期的整数点 $0$，$1$，$2$，$4$，$5$，$6$ 上取值为 $0$，$\\dfrac{\\sqrt{3}}{3}$，$\\sqrt{3}$，$-\\sqrt{3}$，$-\\dfrac{\\sqrt{3}}{3}$，$0$. 在 $1\\le x\\le2024$ 的整数中，余数为 $0$，$4$，$5$ 的各有 $337$ 个，余数为 $1,2$ 的各有 $338$ 个，余数为 $3$ 时正切无定义. 区间 $(a,a+1)$ 至多包含上述五个函数值中的两个，因此解数至多为 $338+338=676<1012$，选 D."
         }
       ]
     },
@@ -175,14 +175,14 @@
           "body": "<p>在平面直角坐标系中，已知曲线 $\\Gamma:\\dfrac{x^2}{4}+y^{2}=1$（$y\\ge0$），点 $P$，$Q$ 分别为 $\\Gamma$ 上不同的两点，$T(t,0)$.</p><ol class=\"enumerate\"><li><p>求 $\\Gamma$ 所在椭圆的离心率；</p></li><li><p>若 $T(1,0)$，$Q$ 在 $y$ 轴上，且 $T$ 到直线 $PQ$ 的距离为 $\\dfrac{\\sqrt{5}}{5}$，求 $P$ 的坐标；</p></li><li><p>是否存在 $t$，使得 $\\triangle TPQ$ 是以 $T$ 为直角顶点的等腰直角三角形？若存在，求 $t$ 的取值范围；若不存在，请说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>椭圆长半轴 $a=2$，短半轴 $b=1$，焦半距 $c=\\sqrt{3}$，故离心率 $e=\\dfrac{\\sqrt{3}}{2}$.</p></li><li><p>由 $Q$ 在 $y$ 轴上且在上半椭圆上知 $Q=(0,1)$. 设直线 $PQ$ 为 $y=nx+1$. 由点到直线距离公式，$\\dfrac{|n+1|}{\\sqrt{1+n^{2}}}=\\dfrac{\\sqrt{5}}{5}$，得 $n=-\\dfrac{1}{2}$ 或 $n=-2$. 当 $n=-\\dfrac{1}{2}$ 时，与椭圆联立得交点 $(0,1)$，$(2,0)$；当 $n=-2$ 时另一交点不在上半椭圆. 故 $P=(2,0)$.</p></li><li><p>设 $PQ:y=kx+m$，与椭圆联立. 由判别式得 $\\sqrt{4k^{2}+1}>m>2|k|\\ge0$. 当 $k=0$ 时由对称性得到 $t=0$. 当 $k\\ne0$ 时，弦中点为 $A\\left(-\\dfrac{4km}{1+4k^2},\\dfrac{m}{1+4k^2}\\right)$，且 $TA\\perp PQ$ 要求 $t=-\\dfrac{3km}{1+4k^2}$. 再由 $\\overrightarrow{TP}\\cdot\\overrightarrow{TQ}=0$ 得 $t^{2}=\\dfrac{9k^2m^2}{(1+4k^2)^2}$，化简为 $m^{2}=\\dfrac{4}{5}(4k^{2}+1)$，从而 $0&#x3C;k^{2}\\le1$ 且 $t^{2}\\le\\dfrac{36}{25}$. 合并 $k=0$ 情形，得 $t\\in\\left[-\\dfrac{6}{5},\\dfrac{6}{5}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>椭圆长半轴 $a=2$，短半轴 $b=1$，焦半距 $c=\\sqrt{3}$，故离心率 $e=\\dfrac{\\sqrt{3}}{2}$.</p></li><li><p>由 $Q$ 在 $y$ 轴上且在上半椭圆上知 $Q=(0,1)$. 设直线 $PQ$ 为 $y=nx+1$. 由点到直线距离公式，$\\dfrac{|n+1|}{\\sqrt{1+n^{2}}}=\\dfrac{\\sqrt{5}}{5}$，得 $n=-\\dfrac{1}{2}$ 或 $n=-2$. 当 $n=-\\dfrac{1}{2}$ 时，与椭圆联立得交点 $(0,1)$，$(2,0)$；当 $n=-2$ 时另一交点不在上半椭圆. 故 $P=(2,0)$.</p></li><li><p>设 $PQ:y=kx+m$，与椭圆联立. 由判别式得 $\\sqrt{4k^{2}+1}>m>2|k|\\ge0$. 当 $k=0$ 时由对称性得到 $t=0$. 当 $k\\ne0$ 时，弦中点为 $A\\left(-\\dfrac{4km}{1+4k^2},\\dfrac{m}{1+4k^2}\\right)$，且 $TA\\perp PQ$ 要求 $t=-\\dfrac{3km}{1+4k^2}$. 再由 $\\overrightarrow{TP}\\cdot\\overrightarrow{TQ}=0$ 得 $t^{2}=\\dfrac{9k^2m^2}{(1+4k^2)^2}$，化简为 $m^{2}=\\dfrac{4}{5}(4k^{2}+1)$，从而 $0<k^{2}\\le1$ 且 $t^{2}\\le\\dfrac{36}{25}$. 合并 $k=0$ 情形，得 $t\\in\\left[-\\dfrac{6}{5},\\dfrac{6}{5}\\right]$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "<p>已知函数 $y=f(x)$ 的定义域是 $D$. 对于 $t\\in D$，定义集合 $S_{f}(t)=\\{x\\mid f(x)\\ge f(t)\\}$.</p><ol class=\"enumerate\"><li><p>$f(x)=\\log_{2}x$，求 $S_{f}(16)$；</p></li><li><p>对于集合 $A$，若对任意 $x\\in A$ 都有 $-x\\in A$，则称 $A$ 是对称集. 若 $D$ 是对称集，证明：“函数 $y=f(x)$ 是偶函数”的充要条件是“对任意 $t\\in D$，$S_{f}(t)$ 是对称集”；</p></li><li><p>若 $x\\in\\mathbb{R}$，$f(x)=\\mathrm{e}^{x}-\\dfrac{1}{2}mx^{2}$. 求 $m$ 的取值范围，使得对于任意 $t_{1}&#x3C;t_{2}\\in D$，都有 $S_{f}(t_{2})\\subseteq S_{f}(t_{1})$.</p></li></ol>",
+          "body": "<p>已知函数 $y=f(x)$ 的定义域是 $D$. 对于 $t\\in D$，定义集合 $S_{f}(t)=\\{x\\mid f(x)\\ge f(t)\\}$.</p><ol class=\"enumerate\"><li><p>$f(x)=\\log_{2}x$，求 $S_{f}(16)$；</p></li><li><p>对于集合 $A$，若对任意 $x\\in A$ 都有 $-x\\in A$，则称 $A$ 是对称集. 若 $D$ 是对称集，证明：“函数 $y=f(x)$ 是偶函数”的充要条件是“对任意 $t\\in D$，$S_{f}(t)$ 是对称集”；</p></li><li><p>若 $x\\in\\mathbb{R}$，$f(x)=\\mathrm{e}^{x}-\\dfrac{1}{2}mx^{2}$. 求 $m$ 的取值范围，使得对于任意 $t_{1}<t_{2}\\in D$，都有 $S_{f}(t_{2})\\subseteq S_{f}(t_{1})$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$S_{f}(16)=\\{x\\mid\\log_{2}x\\ge4\\}=\\{x\\mid x\\ge16\\}=[16,+\\infty)$.</p></li><li><p>若 $f$ 为偶函数，则 $x\\in S_{f}(t)\\Rightarrow f(-x)=f(x)\\ge f(t)$，故 $-x\\in S_{f}(t)$，每个 $S_{f}(t)$ 都是对称集. 反之，任取 $t\\in D$. 由 $t\\in S_{f}(t)$ 及对称性知 $-t\\in S_{f}(t)$，故 $f(-t)\\ge f(t)$. 再将 $t$ 换为 $-t$，得 $f(t)\\ge f(-t)$. 因而 $f(t)=f(-t)$，即 $f$ 为偶函数.</p></li><li><p>条件等价于 $f$ 在 $\\mathbb{R}$ 上单调不减，故需 $f'(x)=\\mathrm{e}^{x}-mx\\ge0$ 对任意 $x$ 成立. 当 $x>0$ 时要求 $m\\le\\dfrac{\\mathrm{e}^x}{x}$，而 $\\dfrac{\\mathrm{e}^x}{x}$ 在 $(0,1)$ 上递减，在 $(1,+\\infty)$ 上递增，最小值为 $\\mathrm{e}$，故 $m\\le\\mathrm{e}$. 当 $x&#x3C;0$ 时要求 $m\\ge\\dfrac{\\mathrm{e}^x}{x}$，右端趋于 $-\\infty$，故只需 $m\\ge0$. 综上 $m\\in[0,\\mathrm{e}]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$S_{f}(16)=\\{x\\mid\\log_{2}x\\ge4\\}=\\{x\\mid x\\ge16\\}=[16,+\\infty)$.</p></li><li><p>若 $f$ 为偶函数，则 $x\\in S_{f}(t)\\Rightarrow f(-x)=f(x)\\ge f(t)$，故 $-x\\in S_{f}(t)$，每个 $S_{f}(t)$ 都是对称集. 反之，任取 $t\\in D$. 由 $t\\in S_{f}(t)$ 及对称性知 $-t\\in S_{f}(t)$，故 $f(-t)\\ge f(t)$. 再将 $t$ 换为 $-t$，得 $f(t)\\ge f(-t)$. 因而 $f(t)=f(-t)$，即 $f$ 为偶函数.</p></li><li><p>条件等价于 $f$ 在 $\\mathbb{R}$ 上单调不减，故需 $f'(x)=\\mathrm{e}^{x}-mx\\ge0$ 对任意 $x$ 成立. 当 $x>0$ 时要求 $m\\le\\dfrac{\\mathrm{e}^x}{x}$，而 $\\dfrac{\\mathrm{e}^x}{x}$ 在 $(0,1)$ 上递减，在 $(1,+\\infty)$ 上递增，最小值为 $\\mathrm{e}$，故 $m\\le\\mathrm{e}$. 当 $x<0$ 时要求 $m\\ge\\dfrac{\\mathrm{e}^x}{x}$，右端趋于 $-\\infty$，故只需 $m\\ge0$. 综上 $m\\in[0,\\mathrm{e}]$.</p></li></ol>"
         }
       ]
     }

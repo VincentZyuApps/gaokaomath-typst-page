@@ -41,7 +41,7 @@
             "$y=-\\cot x$"
           ],
           "answer": "B",
-          "solution": "$y=\\cos x$ 的最小正周期为 $2\\pi$，不符合条件；$y=\\cos\\dfrac{x}{2}$ 的最小正周期为 $4\\pi$，也不符合条件. 对 $y=2\\lvert\\sin x\\rvert$，有 $f(x+\\pi)=f(x)$，而其零点为 $k\\pi$（$k\\in\\mathbb{Z}$），相邻零点距离为 $\\pi$，所以最小正周期为 $\\pi$；在 $\\left(\\dfrac{\\pi}{2},\\pi\\right)$ 上，$f(x)=2\\sin x$，且 $f'(x)=2\\cos x&#x3C;0$，故为减函数. 最后，$y=-\\cot x$ 的最小正周期虽为 $\\pi$，但 $y'=\\csc^{2}x>0$，在所给区间上为增函数. 因此只有选项 B 符合."
+          "solution": "$y=\\cos x$ 的最小正周期为 $2\\pi$，不符合条件；$y=\\cos\\dfrac{x}{2}$ 的最小正周期为 $4\\pi$，也不符合条件. 对 $y=2\\lvert\\sin x\\rvert$，有 $f(x+\\pi)=f(x)$，而其零点为 $k\\pi$（$k\\in\\mathbb{Z}$），相邻零点距离为 $\\pi$，所以最小正周期为 $\\pi$；在 $\\left(\\dfrac{\\pi}{2},\\pi\\right)$ 上，$f(x)=2\\sin x$，且 $f'(x)=2\\cos x<0$，故为减函数. 最后，$y=-\\cot x$ 的最小正周期虽为 $\\pi$，但 $y'=\\csc^{2}x>0$，在所给区间上为增函数. 因此只有选项 B 符合."
         },
         {
           "num": 4,
@@ -60,7 +60,7 @@
           "body": "$64$ 个直径都为 $\\dfrac{a}{4}$ 的球，记它们的体积之和为 $V_{\\text{甲}}$，表面积之和为 $S_{\\text{甲}}$；一个直径为 $a$ 的球，记其体积为 $V_{\\text{乙}}$，表面积为 $S_{\\text{乙}}$，则（$ $）",
           "choices": [
             "$V_{\\text{甲}}>V_{\\text{乙}}$，$S_{\\text{甲}}>S_{\\text{乙}}$",
-            "$V_{\\text{甲}}&#x3C;V_{\\text{乙}}$，$S_{\\text{甲}}&#x3C;S_{\\text{乙}}$",
+            "$V_{\\text{甲}}<V_{\\text{乙}}$，$S_{\\text{甲}}<S_{\\text{乙}}$",
             "$V_{\\text{甲}}=V_{\\text{乙}}$，$S_{\\text{甲}}>S_{\\text{乙}}$",
             "$V_{\\text{甲}}=V_{\\text{乙}}$，$S_{\\text{甲}}=S_{\\text{乙}}$"
           ],
@@ -77,7 +77,7 @@
             "$\\left[\\dfrac{\\pi}{6},\\dfrac{\\pi}{2}\\right]$"
           ],
           "answer": "B",
-          "solution": "<p>直线 $2x+3y-6=0$ 与两坐标轴的交点为 $(3,0)$ 和 $(0,2)$，所以交点位于第一象限时，交点 $Q=(x,y)$ 在这两个点之间且不取端点. 直线 $l$ 经过定点 $P=(0,-\\sqrt{3})$，故其斜率为</p><p>$k=\\dfrac{y+\\sqrt{3}}{x}$. 当 $Q$ 趋近于 $(3,0)$ 时，$k$ 趋近于 $\\dfrac{\\sqrt{3}}{3}$；当 $Q$ 趋近于 $(0,2)$ 时，$k$ 趋近于正无穷. 因此 $k\\in\\left(\\dfrac{\\sqrt{3}}{3},+\\infty\\right)$. 设倾斜角为 $\\alpha$，由于 $k=\\tan\\alpha$ 且 $0&#x3C;\\alpha&#x3C;\\dfrac{\\pi}{2}$，得 $\\alpha\\in\\left(\\dfrac{\\pi}{6},\\dfrac{\\pi}{2}\\right)$，故选 B.</p>"
+          "solution": "<p>直线 $2x+3y-6=0$ 与两坐标轴的交点为 $(3,0)$ 和 $(0,2)$，所以交点位于第一象限时，交点 $Q=(x,y)$ 在这两个点之间且不取端点. 直线 $l$ 经过定点 $P=(0,-\\sqrt{3})$，故其斜率为</p><p>$k=\\dfrac{y+\\sqrt{3}}{x}$. 当 $Q$ 趋近于 $(3,0)$ 时，$k$ 趋近于 $\\dfrac{\\sqrt{3}}{3}$；当 $Q$ 趋近于 $(0,2)$ 时，$k$ 趋近于正无穷. 因此 $k\\in\\left(\\dfrac{\\sqrt{3}}{3},+\\infty\\right)$. 设倾斜角为 $\\alpha$，由于 $k=\\tan\\alpha$ 且 $0<\\alpha<\\dfrac{\\pi}{2}$，得 $\\alpha\\in\\left(\\dfrac{\\pi}{6},\\dfrac{\\pi}{2}\\right)$，故选 B.</p>"
         },
         {
           "num": 7,
@@ -129,7 +129,7 @@
         },
         {
           "num": 11,
-          "body": "<p>已知 $f(x)$ 是定义在 $(0,3)$ 上的函数，$f(x)$ 的图象如图所示，那么不等式 $f(x)\\cos x&#x3C;0$ 的解集是（$ $）</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal_autumn/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
+          "body": "<p>已知 $f(x)$ 是定义在 $(0,3)$ 上的函数，$f(x)$ 的图象如图所示，那么不等式 $f(x)\\cos x<0$ 的解集是（$ $）</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal_autumn/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
           "choices": [
             "$(0,1)\\cup(2,3)$",
             "$\\left(1,\\dfrac{\\pi}{2}\\right)\\cup\\left(\\dfrac{\\pi}{2},3\\right)$",
@@ -137,7 +137,7 @@
             "$(0,1)\\cup(1,3)$"
           ],
           "answer": "C",
-          "solution": "由图可知，$f(x)&#x3C;0$ 在 $(0,1)$ 上成立，$f(1)=0$，$f(x)>0$ 在 $(1,3)$ 上成立. 又因为 $0&#x3C;x&#x3C;\\dfrac{\\pi}{2}$ 时 $\\cos x>0$，而 $\\dfrac{\\pi}{2}&#x3C;x&#x3C;3&#x3C;\\pi$ 时 $\\cos x&#x3C;0$. 因此 $f(x)\\cos x&#x3C;0$ 在 $(0,1)$ 和 $\\left(\\dfrac{\\pi}{2},3\\right)$ 上成立；在 $x=1$ 或 $x=\\dfrac{\\pi}{2}$ 时乘积为零，不能取. 故解集为 $(0,1)\\cup\\left(\\dfrac{\\pi}{2},3\\right)$，选 C."
+          "solution": "由图可知，$f(x)<0$ 在 $(0,1)$ 上成立，$f(1)=0$，$f(x)>0$ 在 $(1,3)$ 上成立. 又因为 $0<x<\\dfrac{\\pi}{2}$ 时 $\\cos x>0$，而 $\\dfrac{\\pi}{2}<x<3<\\pi$ 时 $\\cos x<0$. 因此 $f(x)\\cos x<0$ 在 $(0,1)$ 和 $\\left(\\dfrac{\\pi}{2},3\\right)$ 上成立；在 $x=1$ 或 $x=\\dfrac{\\pi}{2}$ 时乘积为零，不能取. 故解集为 $(0,1)\\cup\\left(\\dfrac{\\pi}{2},3\\right)$，选 C."
         },
         {
           "num": 12,
@@ -160,8 +160,8 @@
           "num": 13,
           "body": "$\\sin\\dfrac{2\\pi}{5}$，$\\cos\\dfrac{6\\pi}{5}$，$\\tan\\dfrac{7\\pi}{5}$ 从小到大的顺序是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$\\cos\\dfrac{6\\pi}{5}&#x3C;\\sin\\dfrac{2\\pi}{5}&#x3C;\\tan\\dfrac{7\\pi}{5}$",
-          "solution": "$\\dfrac{6\\pi}{5}=\\pi+\\dfrac{\\pi}{5}$，所以 $\\cos\\dfrac{6\\pi}{5}=-\\cos\\dfrac{\\pi}{5}&#x3C;0$. 又 $0&#x3C;\\dfrac{2\\pi}{5}&#x3C;\\dfrac{\\pi}{2}$，从而 $0&#x3C;\\sin\\dfrac{2\\pi}{5}&#x3C;1$. 此外，$\\tan\\dfrac{7\\pi}{5}=\\tan\\dfrac{2\\pi}{5}$，且 $\\dfrac{\\pi}{4}&#x3C;\\dfrac{2\\pi}{5}&#x3C;\\dfrac{\\pi}{2}$，故 $\\tan\\dfrac{7\\pi}{5}>1$. 因此从小到大的顺序为 $\\cos\\dfrac{6\\pi}{5}&#x3C;\\sin\\dfrac{2\\pi}{5}&#x3C;\\tan\\dfrac{7\\pi}{5}$."
+          "answer": "$\\cos\\dfrac{6\\pi}{5}<\\sin\\dfrac{2\\pi}{5}<\\tan\\dfrac{7\\pi}{5}$",
+          "solution": "$\\dfrac{6\\pi}{5}=\\pi+\\dfrac{\\pi}{5}$，所以 $\\cos\\dfrac{6\\pi}{5}=-\\cos\\dfrac{\\pi}{5}<0$. 又 $0<\\dfrac{2\\pi}{5}<\\dfrac{\\pi}{2}$，从而 $0<\\sin\\dfrac{2\\pi}{5}<1$. 此外，$\\tan\\dfrac{7\\pi}{5}=\\tan\\dfrac{2\\pi}{5}$，且 $\\dfrac{\\pi}{4}<\\dfrac{2\\pi}{5}<\\dfrac{\\pi}{2}$，故 $\\tan\\dfrac{7\\pi}{5}>1$. 因此从小到大的顺序为 $\\cos\\dfrac{6\\pi}{5}<\\sin\\dfrac{2\\pi}{5}<\\tan\\dfrac{7\\pi}{5}$."
         },
         {
           "num": 14,
@@ -175,7 +175,7 @@
           "body": "<p>关于直角 $AOB$ 在平面 $\\alpha$ 内的射影有如下判断：</p><ol class=\"enumerate\"><li><p>可能是 $0^{\\circ}$ 的角；</p></li><li><p>可能是锐角；</p></li><li><p>可能是直角；</p></li><li><p>可能是钝角；</p></li><li><p>可能是 $180^{\\circ}$ 的角.</p></li></ol><p>其中正确的序号是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
           "choices": null,
           "answer": "$①②③④⑤$",
-          "solution": "取平面 $\\alpha$ 为 $z=0$，取 $O$ 为原点. 任取 $\\varphi\\in[0,\\pi]$，令射线 $OA$，$OB$ 的方向向量分别为 $\\mathbf{u}=(1,0,1)$，$\\mathbf{v}=(\\cos\\varphi,\\sin\\varphi,-\\cos\\varphi)$. 则 $\\mathbf{u}\\cdot\\mathbf{v}=\\cos\\varphi-\\cos\\varphi=0$，所以原角 $AOB$ 为直角. 两条射线在 $\\alpha$ 上的射影方向分别为 $(1,0,0)$ 和 $(\\cos\\varphi,\\sin\\varphi,0)$，它们的夹角正好是 $\\varphi$. 当 $\\varphi=0$ 时射影为 $0^{\\circ}$ 的角；当 $0&#x3C;\\varphi&#x3C;\\dfrac{\\pi}{2}$ 时为锐角；当 $\\varphi=\\dfrac{\\pi}{2}$ 时为直角；当 $\\dfrac{\\pi}{2}&#x3C;\\varphi&#x3C;\\pi$ 时为钝角；当 $\\varphi=\\pi$ 时为 $180^{\\circ}$ 的角. 因此五个判断都正确."
+          "solution": "取平面 $\\alpha$ 为 $z=0$，取 $O$ 为原点. 任取 $\\varphi\\in[0,\\pi]$，令射线 $OA$，$OB$ 的方向向量分别为 $\\mathbf{u}=(1,0,1)$，$\\mathbf{v}=(\\cos\\varphi,\\sin\\varphi,-\\cos\\varphi)$. 则 $\\mathbf{u}\\cdot\\mathbf{v}=\\cos\\varphi-\\cos\\varphi=0$，所以原角 $AOB$ 为直角. 两条射线在 $\\alpha$ 上的射影方向分别为 $(1,0,0)$ 和 $(\\cos\\varphi,\\sin\\varphi,0)$，它们的夹角正好是 $\\varphi$. 当 $\\varphi=0$ 时射影为 $0^{\\circ}$ 的角；当 $0<\\varphi<\\dfrac{\\pi}{2}$ 时为锐角；当 $\\varphi=\\dfrac{\\pi}{2}$ 时为直角；当 $\\dfrac{\\pi}{2}<\\varphi<\\pi$ 时为钝角；当 $\\varphi=\\pi$ 时为 $180^{\\circ}$ 的角. 因此五个判断都正确."
         },
         {
           "num": 16,
@@ -194,14 +194,14 @@
           "body": "解不等式 $\\sqrt{2x-1}+2>x$.",
           "choices": null,
           "answer": "",
-          "solution": "根式有意义要求 $2x-1\\geqslant0$，即 $x\\ge\\dfrac{1}{2}$. 令 $t=\\sqrt{2x-1}$，则 $t\\geqslant0$，且 $x=\\dfrac{t^2+1}{2}$. 原不等式等价于 $t+2>\\dfrac{t^2+1}{2}$，即 $t^{2}-2t-3&#x3C;0$，也就是 $(t-3)(t+1)&#x3C;0$. 因此 $-1&#x3C;t&#x3C;3$，再结合 $t\\geqslant0$，得 $0\\le t&#x3C;3$. 由于 $x=\\dfrac{t^2+1}{2}$，所以 $\\dfrac{1}{2}\\le x&#x3C;5$. 故原不等式的解集为 $\\left[\\dfrac{1}{2},5\\right)$."
+          "solution": "根式有意义要求 $2x-1\\geqslant0$，即 $x\\ge\\dfrac{1}{2}$. 令 $t=\\sqrt{2x-1}$，则 $t\\geqslant0$，且 $x=\\dfrac{t^2+1}{2}$. 原不等式等价于 $t+2>\\dfrac{t^2+1}{2}$，即 $t^{2}-2t-3<0$，也就是 $(t-3)(t+1)<0$. 因此 $-1<t<3$，再结合 $t\\geqslant0$，得 $0\\le t<3$. 由于 $x=\\dfrac{t^2+1}{2}$，所以 $\\dfrac{1}{2}\\le x<5$. 故原不等式的解集为 $\\left[\\dfrac{1}{2},5\\right)$."
         },
         {
           "num": 18,
           "body": "<p>如图，在多面体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，上，下底面平行且均为矩形，相对的侧面与同一底面所成的二面角大小相等，侧棱延长后相交于 $E$，$F$ 两点，上，下底面矩形的长，宽分别为 $c$，$d$ 与 $a$，$b$，且 $a>c$，$b>d$，两底面间的距离为 $h$.</p><ol class=\"enumerate\"><li><p>求侧面 $ABB_{1}A_{1}$ 与底面 $ABCD$ 所成二面角的正切值；</p></li><li><p>在估算该多面体的体积时，经常运用近似公式 $V_{\\text{估}}=S_{\\text{中截面}}\\cdot h$ 来计算，已知它的体积公式是 $V=\\dfrac{h}{6}(S_{\\text{上底面}}+4S_{\\text{中截面}}+S_{\\text{下底面}})$，试判断 $V_{\\text{估}}$ 与 $V$ 的大小关系，并加以证明.</p></li></ol><p>注：与两个底面平行，且到两个底面距离相等的截面称为该多面体的中截面.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal_autumn/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在底面上建立直角坐标系，取</p><p>$A=(0,0,0)$，$B=(a,0,0)$，$C=(a,b,0)$，$D=(0,b,0)$. 设上底面相对于下底面的水平位移为 $(u,v)$，则可写成</p><p>$A_{1}=(u,v,h)$，$B_{1}=(u+c,v,h)$，$C_{1}=(u+c,v+d,h)$，$D_{1}=(u,v+d,h)$.</p><p>过 $AB$ 的中点作垂直于 $AB$ 的截面，侧面 $ABB_{1}A_{1}$ 在该截面内的截线连接 $(0,0)$ 与 $(v,h)$，所以其与底面的二面角的正切值为 $\\frac{h}{\\lvert}v\\rvert$. 对面 $CDD_{1}C_{1}$ 的相应截线连接 $(b,0)$ 与 $(v+d,h)$，由相对侧面所成二面角相等，得 $\\lvert v\\rvert=\\lvert v+d-b\\rvert$. 平方后 $v^{2}=(v+d-b)^{2}$，因 $b>d$，得 $2v=b-d$，即 $v=\\dfrac{b-d}{2}$.</p><p>同理，比较侧面 $BCC_{1}B_{1}$ 和 $DAA_{1}D_{1}$ 与底面所成的二面角，得 $\\lvert u+c-a\\rvert=\\lvert u\\rvert$. 平方后 $u^{2}=(u+c-a)^{2}$，因 $a>c$，得 $2u=a-c$，即 $u=\\dfrac{a-c}{2}$. 因此上、下底面的中心线重合. 所求二面角记为 $\\beta$，在上述截面内有</p><p>$\\tan\\beta=\\dfrac{h}{\\frac{(b-d)}{2}}=\\dfrac{2h}{b-d}$.</p></li><li><p>设截面高度为 $th$，其中 $0\\le t\\leqslant1$. 由于侧棱为直线，截面上各顶点是对应上下底面顶点的线性插值，所以截面仍为矩形，其长、宽分别为 $(1-t)a+tc$ 与 $(1-t)b+td$. 取 $t=\\dfrac{1}{2}$，得</p><p>$S_{\\text{中截面}}=\\dfrac{(a+c)(b+d)}{4}$. 又 $S_{\\text{下底面}}=ab$，$S_{\\text{上底面}}=cd$，所以</p><p>$V=\\dfrac{h}{6}\\left(ab+4S_{\\text{中截面}}+cd\\right)$，而 $V_{\\text{估}}=hS_{\\text{中截面}}$. 因此</p><p>$V-V_{\\text{估}}=\\dfrac{h}{6}\\left(ab+cd-2S_{\\text{中截面}}\\right)=\\dfrac{h}{6}\\left(ab+cd-\\dfrac{(a+c)(b+d)}{2}\\right)=\\dfrac{h}{12}(a-c)(b-d)$. 由 $h>0$，$a>c$，$b>d$，知 $V-V_{\\text{估}}>0$，所以 $V_{\\text{估}}&#x3C;V$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在底面上建立直角坐标系，取</p><p>$A=(0,0,0)$，$B=(a,0,0)$，$C=(a,b,0)$，$D=(0,b,0)$. 设上底面相对于下底面的水平位移为 $(u,v)$，则可写成</p><p>$A_{1}=(u,v,h)$，$B_{1}=(u+c,v,h)$，$C_{1}=(u+c,v+d,h)$，$D_{1}=(u,v+d,h)$.</p><p>过 $AB$ 的中点作垂直于 $AB$ 的截面，侧面 $ABB_{1}A_{1}$ 在该截面内的截线连接 $(0,0)$ 与 $(v,h)$，所以其与底面的二面角的正切值为 $\\frac{h}{\\lvert}v\\rvert$. 对面 $CDD_{1}C_{1}$ 的相应截线连接 $(b,0)$ 与 $(v+d,h)$，由相对侧面所成二面角相等，得 $\\lvert v\\rvert=\\lvert v+d-b\\rvert$. 平方后 $v^{2}=(v+d-b)^{2}$，因 $b>d$，得 $2v=b-d$，即 $v=\\dfrac{b-d}{2}$.</p><p>同理，比较侧面 $BCC_{1}B_{1}$ 和 $DAA_{1}D_{1}$ 与底面所成的二面角，得 $\\lvert u+c-a\\rvert=\\lvert u\\rvert$. 平方后 $u^{2}=(u+c-a)^{2}$，因 $a>c$，得 $2u=a-c$，即 $u=\\dfrac{a-c}{2}$. 因此上、下底面的中心线重合. 所求二面角记为 $\\beta$，在上述截面内有</p><p>$\\tan\\beta=\\dfrac{h}{\\frac{(b-d)}{2}}=\\dfrac{2h}{b-d}$.</p></li><li><p>设截面高度为 $th$，其中 $0\\le t\\leqslant1$. 由于侧棱为直线，截面上各顶点是对应上下底面顶点的线性插值，所以截面仍为矩形，其长、宽分别为 $(1-t)a+tc$ 与 $(1-t)b+td$. 取 $t=\\dfrac{1}{2}$，得</p><p>$S_{\\text{中截面}}=\\dfrac{(a+c)(b+d)}{4}$. 又 $S_{\\text{下底面}}=ab$，$S_{\\text{上底面}}=cd$，所以</p><p>$V=\\dfrac{h}{6}\\left(ab+4S_{\\text{中截面}}+cd\\right)$，而 $V_{\\text{估}}=hS_{\\text{中截面}}$. 因此</p><p>$V-V_{\\text{估}}=\\dfrac{h}{6}\\left(ab+cd-2S_{\\text{中截面}}\\right)=\\dfrac{h}{6}\\left(ab+cd-\\dfrac{(a+c)(b+d)}{2}\\right)=\\dfrac{h}{12}(a-c)(b-d)$. 由 $h>0$，$a>c$，$b>d$，知 $V-V_{\\text{估}}>0$，所以 $V_{\\text{估}}<V$.</p></li></ol>"
         },
         {
           "num": 19,

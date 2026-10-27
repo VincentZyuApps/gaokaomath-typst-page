@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "<p>若 $\\frac{1}{a}&#x3C; \\frac{1}{b}&#x3C; 0$，则下列不等式：</p><ol class=\"enumerate\"><li><p>$a + b &#x3C; ab$；</p></li><li><p>$|a| > |b|$；</p></li><li><p>$a &#x3C; b$；</p></li><li><p>$\\frac{b}{a}+ \\frac{a}{b}> 2$.</p></li></ol><p>其中正确的不等式有（$ $）</p>",
+          "body": "<p>若 $\\frac{1}{a}< \\frac{1}{b}< 0$，则下列不等式：</p><ol class=\"enumerate\"><li><p>$a + b < ab$；</p></li><li><p>$|a| > |b|$；</p></li><li><p>$a < b$；</p></li><li><p>$\\frac{b}{a}+ \\frac{a}{b}> 2$.</p></li></ol><p>其中正确的不等式有（$ $）</p>",
           "choices": [
             "$1$ 个",
             "$2$ 个",
@@ -65,7 +65,7 @@
             "$4$ 个"
           ],
           "answer": "B",
-          "solution": "由 $\\dfrac{1}{a}&#x3C;\\dfrac{1}{b}&#x3C;0$ 知 $a&#x3C;0$，$b&#x3C;0$. 又因 $ab>0$，不等式乘以 $ab$ 后得 $b&#x3C;a$，所以 $|a|&#x3C;|b|$，不等式 2、3 均不成立. 由于 $a+b&#x3C;0&#x3C;ab$，不等式 1 成立. 令 $t=\\dfrac{b}{a}>0$，由 $a\\ne b$ 知 $t\\ne1$，于是由基本不等式 $t+\\dfrac{1}{t}>2$，故不等式 4 也成立. 因此共有两个正确的不等式，故选 B."
+          "solution": "由 $\\dfrac{1}{a}<\\dfrac{1}{b}<0$ 知 $a<0$，$b<0$. 又因 $ab>0$，不等式乘以 $ab$ 后得 $b<a$，所以 $|a|<|b|$，不等式 2、3 均不成立. 由于 $a+b<0<ab$，不等式 1 成立. 令 $t=\\dfrac{b}{a}>0$，由 $a\\ne b$ 知 $t\\ne1$，于是由基本不等式 $t+\\dfrac{1}{t}>2$，故不等式 4 也成立. 因此共有两个正确的不等式，故选 B."
         },
         {
           "num": 6,
@@ -89,7 +89,7 @@
             "$4$"
           ],
           "answer": "B",
-          "solution": "在所给选项中 $a\\ne1$. 函数导数为 $f'(x)=a^{x}\\ln a+\\dfrac{1}{(x+1)\\ln a}$. 当 $0&#x3C;a&#x3C;1$ 时，$f'(x)&#x3C;0$，函数递减，最大值为 $f(0)=1$，最小值为 $f(1)=a+\\log_{a}2$；当 $a>1$ 时，$f'(x)>0$，函数递增，最小值为 $f(0)=1$，最大值为 $f(1)=a+\\log_{a}2$. 逐一代入四个选项，最大值与最小值之和分别为 $\\dfrac{3}{4}$、$\\dfrac{1}{2}$、$4$、$\\dfrac{11}{2}$，只有 $a=\\dfrac{1}{2}$ 时该和等于 $a$，故选 B."
+          "solution": "在所给选项中 $a\\ne1$. 函数导数为 $f'(x)=a^{x}\\ln a+\\dfrac{1}{(x+1)\\ln a}$. 当 $0<a<1$ 时，$f'(x)<0$，函数递减，最大值为 $f(0)=1$，最小值为 $f(1)=a+\\log_{a}2$；当 $a>1$ 时，$f'(x)>0$，函数递增，最小值为 $f(0)=1$，最大值为 $f(1)=a+\\log_{a}2$. 逐一代入四个选项，最大值与最小值之和分别为 $\\dfrac{3}{4}$、$\\dfrac{1}{2}$、$4$、$\\dfrac{11}{2}$，只有 $a=\\dfrac{1}{2}$ 时该和等于 $a$，故选 B."
         },
         {
           "num": 8,
@@ -109,15 +109,15 @@
           "choices": [
             "$a > 0$",
             "$a \\ge 0$",
-            "$a &#x3C; 0$",
+            "$a < 0$",
             "$a \\le 0$"
           ],
           "answer": "C",
-          "solution": "$f'(x)=3ax^{2}+1$. 当 $a\\geqslant0$ 时，$f'(x)>0$ 对任意实数 $x$ 成立，函数严格递增，没有极值. 当 $a&#x3C;0$ 时，方程 $f'(x)=0$ 有两个根 $x=\\pm\\dfrac{1}{\\sqrt{-3a}}$，且导数符号依次为负、正、负，函数在这两个点分别取得极小值和极大值. 因此函数有极值的充要条件为 $a&#x3C;0$，故选 C."
+          "solution": "$f'(x)=3ax^{2}+1$. 当 $a\\geqslant0$ 时，$f'(x)>0$ 对任意实数 $x$ 成立，函数严格递增，没有极值. 当 $a<0$ 时，方程 $f'(x)=0$ 有两个根 $x=\\pm\\dfrac{1}{\\sqrt{-3a}}$，且导数符号依次为负、正、负，函数在这两个点分别取得极小值和极大值. 因此函数有极值的充要条件为 $a<0$，故选 C."
         },
         {
           "num": 10,
-          "body": "设集合 $P = \\{m \\mid -1 &#x3C; m &#x3C; 0\\}$，$Q = \\{m \\in \\mathbb{R}\\mid mx^{2} + 4mx - 4 &#x3C; 0 \\text{ 对任意实数 }x \\text{ 恒成立}\\}$，则下列关系中成立的是（$ $）",
+          "body": "设集合 $P = \\{m \\mid -1 < m < 0\\}$，$Q = \\{m \\in \\mathbb{R}\\mid mx^{2} + 4mx - 4 < 0 \\text{ 对任意实数 }x \\text{ 恒成立}\\}$，则下列关系中成立的是（$ $）",
           "choices": [
             "$P \\subsetneq Q$",
             "$Q \\subsetneq P$",
@@ -125,7 +125,7 @@
             "$P \\cap Q = \\varnothing$"
           ],
           "answer": "A",
-          "solution": "若 $m>0$，二次式 $mx^{2}+4mx-4$ 在 $|x|$ 足够大时为正，不可能对任意实数 $x$ 小于零. 若 $m=0$，该式恒为 $-4&#x3C;0$，所以 $0\\in Q$. 若 $m&#x3C;0$，二次式开口向下，其最大值在 $x=-2$ 处，最大值为 $-4m-4$. 要使它恒小于零，需 $-4m-4&#x3C;0$，即 $m>-1$. 因此 $Q=(-1,0]$，而 $P=(-1,0)$，故 $P\\subsetneq Q$，选 A."
+          "solution": "若 $m>0$，二次式 $mx^{2}+4mx-4$ 在 $|x|$ 足够大时为正，不可能对任意实数 $x$ 小于零. 若 $m=0$，该式恒为 $-4<0$，所以 $0\\in Q$. 若 $m<0$，二次式开口向下，其最大值在 $x=-2$ 处，最大值为 $-4m-4$. 要使它恒小于零，需 $-4m-4<0$，即 $m>-1$. 因此 $Q=(-1,0]$，而 $P=(-1,0)$，故 $P\\subsetneq Q$，选 A."
         },
         {
           "num": 11,
@@ -137,7 +137,7 @@
             "$4$ 条"
           ],
           "answer": "D",
-          "solution": "取两平面的单位法向量 $\\mathbf{n}_{\\alpha}$，$\\mathbf{n}_{\\beta}$，使它们的夹角为 $80^{\\circ}$. 直线方向的单位向量记为 $\\mathbf{u}$. 直线与每个平面成 $30^{\\circ}$，等价于 $|\\mathbf{u}\\cdot\\mathbf{n}_{\\alpha}|=|\\mathbf{u}\\cdot\\mathbf{n}_{\\beta}|=\\cos60^{\\circ}=\\dfrac{1}{2}$. 给两个内积分别指定符号时，$\\mathbf{u}$ 在两个法向量所张成平面内的投影唯一；同号时投影长度的平方为 $\\dfrac{1}{4\\cos^2 40^{\\circ}}&#x3C;1$，异号时为 $\\dfrac{1}{4\\sin^2 40^{\\circ}}&#x3C;1$，所以垂直于该平面的分量均有两个相反方向. 共有四种符号组合，但一对相反符号给出同一条无向直线，故得到 $4$ 条过点 $P$ 的直线，选 D."
+          "solution": "取两平面的单位法向量 $\\mathbf{n}_{\\alpha}$，$\\mathbf{n}_{\\beta}$，使它们的夹角为 $80^{\\circ}$. 直线方向的单位向量记为 $\\mathbf{u}$. 直线与每个平面成 $30^{\\circ}$，等价于 $|\\mathbf{u}\\cdot\\mathbf{n}_{\\alpha}|=|\\mathbf{u}\\cdot\\mathbf{n}_{\\beta}|=\\cos60^{\\circ}=\\dfrac{1}{2}$. 给两个内积分别指定符号时，$\\mathbf{u}$ 在两个法向量所张成平面内的投影唯一；同号时投影长度的平方为 $\\dfrac{1}{4\\cos^2 40^{\\circ}}<1$，异号时为 $\\dfrac{1}{4\\sin^2 40^{\\circ}}<1$，所以垂直于该平面的分量均有两个相反方向. 共有四种符号组合，但一对相反符号给出同一条无向直线，故得到 $4$ 条过点 $P$ 的直线，选 D."
         },
         {
           "num": 12,
@@ -215,7 +215,7 @@
           "body": "<p>直线 $l: y = kx + 1$ 与双曲线 $C: 2x^{2}- y^{2}= 1$ 的右支交于不同的两点 $A$，$B$.</p><ol class=\"enumerate\"><li><p>求实数 $k$ 的取值范围；</p></li><li><p>是否存在实数 $k$，使得以线段 $AB$ 为直径的圆经过双曲线 $C$ 的右焦点 $F$？若存在，求出 $k$ 的值. 若不存在，说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>联立直线与双曲线，得 $(k^{2}-2)x^{2}+2kx+2=0$. 要有两个不同交点，需判别式 $\\Delta=4(4-k^{2})>0$，且 $k^{2}\\ne2$. 又因为两交点在右支，两个根 $x_{1}$，$x_{2}$ 均为正，所以 $x_{1}x_{2}=\\dfrac{2}{k^2-2}>0$，从而 $k^{2}>2$；并且 $x_{1}+x_{2}=\\dfrac{2k}{2-k^2}>0$，从而 $k&#x3C;0$. 综合得 $-2&#x3C;k&#x3C;-\\sqrt{2}$.</p></li><li><p>双曲线的右焦点为 $F=(c,0)$，其中 $c=\\sqrt{\\frac{1}{2}+1}=\\frac{\\sqrt{6}}{2}$. 设 $A=(x_{1},kx_{1}+1)$，$B=(x_{2},kx_{2}+1)$. 圆以 $AB$ 为直径且经过 $F$，等价于 $\\overrightarrow{FA}\\cdot\\overrightarrow{FB}=0$，即</p><p>$\\displaystyle(1+k^{2})x_{1}x_{2}+(k-c)(x_{1}+x_{2})+c^{2}+1=0$.</p><p>由韦达定理 $x_{1}+x_{2}=\\dfrac{2k}{2-k^2}$，$x_{1}x_{2}=\\dfrac{2}{k^2-2}$，代入并利用 $c^{2}=\\frac{3}{2}$，得 $5k^{2}+4ck-6=0$，即 $5k^{2}+2\\sqrt{6}k-6=0$. 解得 $k=-\\dfrac{6+\\sqrt{6}}{5}$ 或 $k=\\dfrac{6-\\sqrt{6}}{5}$. 后者不属于第一问的范围，故存在且 $k=-\\dfrac{6+\\sqrt{6}}{5}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>联立直线与双曲线，得 $(k^{2}-2)x^{2}+2kx+2=0$. 要有两个不同交点，需判别式 $\\Delta=4(4-k^{2})>0$，且 $k^{2}\\ne2$. 又因为两交点在右支，两个根 $x_{1}$，$x_{2}$ 均为正，所以 $x_{1}x_{2}=\\dfrac{2}{k^2-2}>0$，从而 $k^{2}>2$；并且 $x_{1}+x_{2}=\\dfrac{2k}{2-k^2}>0$，从而 $k<0$. 综合得 $-2<k<-\\sqrt{2}$.</p></li><li><p>双曲线的右焦点为 $F=(c,0)$，其中 $c=\\sqrt{\\frac{1}{2}+1}=\\frac{\\sqrt{6}}{2}$. 设 $A=(x_{1},kx_{1}+1)$，$B=(x_{2},kx_{2}+1)$. 圆以 $AB$ 为直径且经过 $F$，等价于 $\\overrightarrow{FA}\\cdot\\overrightarrow{FB}=0$，即</p><p>$\\displaystyle(1+k^{2})x_{1}x_{2}+(k-c)(x_{1}+x_{2})+c^{2}+1=0$.</p><p>由韦达定理 $x_{1}+x_{2}=\\dfrac{2k}{2-k^2}$，$x_{1}x_{2}=\\dfrac{2}{k^2-2}$，代入并利用 $c^{2}=\\frac{3}{2}$，得 $5k^{2}+4ck-6=0$，即 $5k^{2}+2\\sqrt{6}k-6=0$. 解得 $k=-\\dfrac{6+\\sqrt{6}}{5}$ 或 $k=\\dfrac{6-\\sqrt{6}}{5}$. 后者不属于第一问的范围，故存在且 $k=-\\dfrac{6+\\sqrt{6}}{5}$.</p></li></ol>"
         },
         {
           "num": 21,
@@ -229,7 +229,7 @@
           "body": "<p>已知 $a > 0$，数列 $\\{a_{n}\\}$ 满足 $a_{1} = a$，$a_{n+1}= a + \\frac{1}{a_{n}}$，$n = 1$，$2$，$\\ldots$.</p><ol class=\"enumerate\"><li><p>已知数列 $\\{a_{n}\\}$ 极限存在且大于零，求 $A = \\displaystyle\\lim_{n \\to \\infty}a_{n}$（将 $A$ 用 $a$ 表示）；</p></li><li><p>设 $b_{n} = a_{n} - A$，$n = 1$，$2$，$\\cdots$，证明： $b_{n+1}= -\\frac{b_{n}}{A(b_{n} + A)}$.</p></li><li><p>若 $|b_{n}| \\le \\frac{1}{2^{n}}$ 对 $n = 1$，$2$，$\\cdots$ 都成立，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为极限存在且 $A>0$，对递推式取极限得 $A=a+\\dfrac{1}{A}$，即 $A^{2}-aA-1=0$. 所以 $A=\\dfrac{a\\pm\\sqrt{a^{2}+4}}2$，其中负号所得根小于零，故 $\\displaystyle A=\\frac{a+\\sqrt{a^{2}+4}}{2}$.</p></li><li><p>由 $A=a+\\dfrac{1}{A}$ 及 $a_{n}=b_{n}+A$，有 $\\displaystyle b_{n+1}=a+\\frac{1}{b_{n}+A}-A=-\\frac{1}{A}+\\frac{1}{b_{n}+A}=-\\frac{b_{n}}{A(b_{n}+A)}$.</p></li><li><p>由 $b_{1}=a-A=-\\dfrac{1}{A}$，条件在 $n=1$ 时给出 $\\dfrac{1}{A}\\le\\dfrac{1}{2}$，即 $A\\geqslant2$. 又由 $a=A-\\dfrac{1}{A}$，得 $a\\geqslant2-\\dfrac{1}{2}=\\dfrac{3}{2}$. 反之若 $a\\ge\\dfrac{3}{2}$，则对应的正根 $A\\geqslant2$. 若 $|b_{n}|\\leqslant2^{-n}$，则 $b_{n}+A=a_{n}\\ge A-|b_{n}|\\ge\\dfrac{3}{2}$，从而</p><p>$\\displaystyle |b_{n+1}|=\\frac{|b_{n}|}{A|b_{n}+A|}\\le\\frac{|b_{n}|}{3}\\le\\frac{1}{3\\cdot2^{n}}&#x3C;\\frac{1}{2^{n+1}}$. 由归纳法，所有 $n$ 均满足所给不等式. 因此 $a$ 的取值范围为 $\\left[\\dfrac{3}{2},+\\infty\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为极限存在且 $A>0$，对递推式取极限得 $A=a+\\dfrac{1}{A}$，即 $A^{2}-aA-1=0$. 所以 $A=\\dfrac{a\\pm\\sqrt{a^{2}+4}}2$，其中负号所得根小于零，故 $\\displaystyle A=\\frac{a+\\sqrt{a^{2}+4}}{2}$.</p></li><li><p>由 $A=a+\\dfrac{1}{A}$ 及 $a_{n}=b_{n}+A$，有 $\\displaystyle b_{n+1}=a+\\frac{1}{b_{n}+A}-A=-\\frac{1}{A}+\\frac{1}{b_{n}+A}=-\\frac{b_{n}}{A(b_{n}+A)}$.</p></li><li><p>由 $b_{1}=a-A=-\\dfrac{1}{A}$，条件在 $n=1$ 时给出 $\\dfrac{1}{A}\\le\\dfrac{1}{2}$，即 $A\\geqslant2$. 又由 $a=A-\\dfrac{1}{A}$，得 $a\\geqslant2-\\dfrac{1}{2}=\\dfrac{3}{2}$. 反之若 $a\\ge\\dfrac{3}{2}$，则对应的正根 $A\\geqslant2$. 若 $|b_{n}|\\leqslant2^{-n}$，则 $b_{n}+A=a_{n}\\ge A-|b_{n}|\\ge\\dfrac{3}{2}$，从而</p><p>$\\displaystyle |b_{n+1}|=\\frac{|b_{n}|}{A|b_{n}+A|}\\le\\frac{|b_{n}|}{3}\\le\\frac{1}{3\\cdot2^{n}}<\\frac{1}{2^{n+1}}$. 由归纳法，所有 $n$ 均满足所给不等式. 因此 $a$ 的取值范围为 $\\left[\\dfrac{3}{2},+\\infty\\right)$.</p></li></ol>"
         }
       ]
     }

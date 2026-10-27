@@ -53,7 +53,7 @@
             "$(0,+\\infty)$"
           ],
           "answer": "A",
-          "solution": "<p>当 $x\\in(-1,0)$ 时，$0&#x3C;x+1&#x3C;1$. 对于 $0&#x3C;u&#x3C;1$，当且仅当对数的底满足 $0&#x3C;2a&#x3C;1$ 时，$\\log_{2a}u>0$. 因而</p>\n$$\n0&#x3C;2a&#x3C;1 \\Longleftrightarrow  0&#x3C;a&#x3C;\\frac{1}{2}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>当 $x\\in(-1,0)$ 时，$0<x+1<1$. 对于 $0<u<1$，当且仅当对数的底满足 $0<2a<1$ 时，$\\log_{2a}u>0$. 因而</p>\n$$\n0<2a<1 \\Longleftrightarrow  0<a<\\frac{1}{2}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 5,
@@ -81,15 +81,15 @@
         },
         {
           "num": 7,
-          "body": "若 $0&#x3C;\\alpha&#x3C;\\beta&#x3C;\\frac{\\pi}{4}$，$\\sin\\alpha+\\cos\\alpha=a$，$\\sin\\beta+\\cos\\beta=b$，则（ ）",
+          "body": "若 $0<\\alpha<\\beta<\\frac{\\pi}{4}$，$\\sin\\alpha+\\cos\\alpha=a$，$\\sin\\beta+\\cos\\beta=b$，则（ ）",
           "choices": [
-            "$a&#x3C;b$",
+            "$a<b$",
             "$a>b$",
-            "$ab&#x3C;1$",
+            "$ab<1$",
             "$ab>2$"
           ],
           "answer": "A",
-          "solution": "<p>令 $g(t)=\\sin t+\\cos t$. 当 $0&#x3C;t&#x3C;\\dfrac\\pi4$ 时，$\\sin t&#x3C;\\cos t$，所以</p>\n$$\ng'(t)=\\cos t-\\sin t>0\n$$\n<p>因此 $g(t)$ 在 $\\left(0,\\dfrac\\pi4\\right)$ 上严格递增. 由 $\\alpha&#x3C;\\beta$，有</p>\n$$\na=g(\\alpha)&#x3C;g(\\beta)=b\n$$\n<p>故选 A.</p>"
+          "solution": "<p>令 $g(t)=\\sin t+\\cos t$. 当 $0<t<\\dfrac\\pi4$ 时，$\\sin t<\\cos t$，所以</p>\n$$\ng'(t)=\\cos t-\\sin t>0\n$$\n<p>因此 $g(t)$ 在 $\\left(0,\\dfrac\\pi4\\right)$ 上严格递增. 由 $\\alpha<\\beta$，有</p>\n$$\na=g(\\alpha)<g(\\beta)=b\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 8,
@@ -101,7 +101,7 @@
             "极小值 $-1$，极大值 $3$"
           ],
           "answer": "D",
-          "solution": "<p>函数的导数为</p>\n$$\ny'=3-3x^{2}=3(1-x)(1+x)\n$$\n<p>当 $x&#x3C;-1$ 或 $x>1$ 时，$y'&#x3C;0$；当 $-1&#x3C;x&#x3C;1$ 时，$y'>0$. 所以函数在 $(-\\infty,-1)$ 上递减，在 $(-1,1)$ 上递增，在 $(1,+\\infty)$ 上递减. 因此 $x=-1$ 处取得极小值，$x=1$ 处取得极大值，且</p><p>$y(-1)=1-3+1=-1$，$y(1)=1+3-1=3$.</p><p>故极小值为 $-1$，极大值为 $3$，选 D.</p>"
+          "solution": "<p>函数的导数为</p>\n$$\ny'=3-3x^{2}=3(1-x)(1+x)\n$$\n<p>当 $x<-1$ 或 $x>1$ 时，$y'<0$；当 $-1<x<1$ 时，$y'>0$. 所以函数在 $(-\\infty,-1)$ 上递减，在 $(-1,1)$ 上递增，在 $(1,+\\infty)$ 上递减. 因此 $x=-1$ 处取得极小值，$x=1$ 处取得极大值，且</p><p>$y(-1)=1-3+1=-1$，$y(1)=1+3-1=3$.</p><p>故极小值为 $-1$，极大值为 $3$，选 D.</p>"
         },
         {
           "num": 9,
@@ -182,7 +182,7 @@
           "body": "设 $\\{a_{n}\\}$ 是公比为 $q$ 的等比数列，$S_{n}$ 是它的前 $n$ 项和. 若 $\\lvert S_{n}\\rvert$ 是等差数列，则 $q=\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "1",
-          "solution": "<p>按等比数列的通常约定，首项 $a_{1}\\ne0$，公比 $q\\ne0$. 记 $b_{n}=\\lvert S_{n}\\rvert$. 因为 $b_{n}\\geqslant0$ 对一切正整数 $n$ 成立，若 $\\{b_{n}\\}$ 为等差数列，其公差不能小于 $0$.</p><p>当 $q=1$ 时，$S_{n}=na_{1}$，从而 $b_{n}=n\\lvert a_{1}\\rvert$，确为等差数列.</p><p>下面说明其他非零的 $q$ 均不可能. 当 $q\\ne1$ 时，令 $C=\\left\\lvert\\dfrac{a_1}{1-q}\\right\\rvert>0$，则</p>\n$$\nb_{n}=C\\lvert1-q^{n}\\rvert\n$$\n<p>若 $0&#x3C;q&#x3C;1$，则 $b_{n}=C(1-q^{n})$，相邻两项之差为</p>\n$$\nb_{n+1}-b_{n}=C(1-q)q^{n}\n$$\n<p>该差随 $n$ 变化，不是常数. 若 $q>1$，则 $b_{n}=C(q^{n}-1)$，相邻两项之差为 $C(q-1)q^{n}$，同样不是常数.</p><p>若 $-1&#x3C;q&#x3C;0$，写 $q=-r$，其中 $0&#x3C;r&#x3C;1$. 此时 $b_{1}=C(1+r)$，$b_{2}=C(1-r^{2})&#x3C;b_{1}$，等差数列公差小于 $0$，但非负等差数列不可能具有负公差. 若 $q=-1$，则 $b_{1}=2C$，$b_{2}=0$，$b_{3}=2C$，相邻两项之差不相等.</p><p>最后，若 $q&#x3C;-1$，写 $q=-r$，其中 $r>1$. 对正整数 $n$，</p>\n$$\nb_{2n+1}-b_{2n}=C\\bigl(1+r^{2n+1}-(r^{2n}-1)\\bigr)=C\\bigl(2+r^{2n}(r-1)\\bigr)\n$$\n<p>该差随 $n$ 变化，也不可能为等差数列的公差. 综上，只有 $q=1$ 符合条件.</p>"
+          "solution": "<p>按等比数列的通常约定，首项 $a_{1}\\ne0$，公比 $q\\ne0$. 记 $b_{n}=\\lvert S_{n}\\rvert$. 因为 $b_{n}\\geqslant0$ 对一切正整数 $n$ 成立，若 $\\{b_{n}\\}$ 为等差数列，其公差不能小于 $0$.</p><p>当 $q=1$ 时，$S_{n}=na_{1}$，从而 $b_{n}=n\\lvert a_{1}\\rvert$，确为等差数列.</p><p>下面说明其他非零的 $q$ 均不可能. 当 $q\\ne1$ 时，令 $C=\\left\\lvert\\dfrac{a_1}{1-q}\\right\\rvert>0$，则</p>\n$$\nb_{n}=C\\lvert1-q^{n}\\rvert\n$$\n<p>若 $0<q<1$，则 $b_{n}=C(1-q^{n})$，相邻两项之差为</p>\n$$\nb_{n+1}-b_{n}=C(1-q)q^{n}\n$$\n<p>该差随 $n$ 变化，不是常数. 若 $q>1$，则 $b_{n}=C(q^{n}-1)$，相邻两项之差为 $C(q-1)q^{n}$，同样不是常数.</p><p>若 $-1<q<0$，写 $q=-r$，其中 $0<r<1$. 此时 $b_{1}=C(1+r)$，$b_{2}=C(1-r^{2})<b_{1}$，等差数列公差小于 $0$，但非负等差数列不可能具有负公差. 若 $q=-1$，则 $b_{1}=2C$，$b_{2}=0$，$b_{3}=2C$，相邻两项之差不相等.</p><p>最后，若 $q<-1$，写 $q=-r$，其中 $r>1$. 对正整数 $n$，</p>\n$$\nb_{2n+1}-b_{2n}=C\\bigl(1+r^{2n+1}-(r^{2n}-1)\\bigr)=C\\bigl(2+r^{2n}(r-1)\\bigr)\n$$\n<p>该差随 $n$ 变化，也不可能为等差数列的公差. 综上，只有 $q=1$ 符合条件.</p>"
         }
       ]
     },
@@ -191,10 +191,10 @@
       "problems": [
         {
           "num": 17,
-          "body": "解关于 $x$ 的不等式 $\\dfrac{x-a}{x-a^2}&#x3C;0$（$a\\in\\mathbb{R}$）.",
+          "body": "解关于 $x$ 的不等式 $\\dfrac{x-a}{x-a^2}<0$（$a\\in\\mathbb{R}$）.",
           "choices": null,
           "answer": "",
-          "solution": "<p>先注意定义域要求 $x\\ne a^{2}$. 分式小于零，当且仅当分子、分母异号，即原不等式等价于下列两个不等式组的解集的并集：</p>\n$$\n\\begin{cases}x-a>0,\\\\  x-a^{2}&#x3C;0,\\end{cases}  \\qquad\\text{或}\\qquad  \\begin{cases}x-a&#x3C;0,\\\\  x-a^{2}>0.\\end{cases}\n$$\n<p>当 $a&#x3C;0$ 或 $a>1$ 时，$a&#x3C;a^{2}$. 此时第一个不等式组的解集为 $a&#x3C;x&#x3C;a^{2}$，第二个不等式组无解.</p><p>当 $0&#x3C;a&#x3C;1$ 时，$a^{2}&#x3C;a$. 此时第一个不等式组无解，第二个不等式组的解集为 $a^{2}&#x3C;x&#x3C;a$.</p><p>当 $a=0$ 时，原式为 $\\dfrac{x}{x}=1$，其定义域为 $x\\ne0$，不满足小于零；当 $a=1$ 时，原式为 $\\dfrac{x-1}{x-1}=1$，其定义域为 $x\\ne1$，同样无解.</p><p>因此不等式的解集为</p>\n$$\n\\begin{cases}\\{x\\mid a&#x3C;x&#x3C;a^{2}\\},&#x26;a&#x3C;0\\text{ 或 }a>1,\\\\  \\{x\\mid a^{2}&#x3C;x&#x3C;a\\},&#x26;0&#x3C;a&#x3C;1,\\\\  \\varnothing,&#x26;a=0\\text{ 或 }a=1.\\end{cases}\n$$"
+          "solution": "<p>先注意定义域要求 $x\\ne a^{2}$. 分式小于零，当且仅当分子、分母异号，即原不等式等价于下列两个不等式组的解集的并集：</p>\n$$\n\\begin{cases}x-a>0,\\\\  x-a^{2}<0,\\end{cases}  \\qquad\\text{或}\\qquad  \\begin{cases}x-a<0,\\\\  x-a^{2}>0.\\end{cases}\n$$\n<p>当 $a<0$ 或 $a>1$ 时，$a<a^{2}$. 此时第一个不等式组的解集为 $a<x<a^{2}$，第二个不等式组无解.</p><p>当 $0<a<1$ 时，$a^{2}<a$. 此时第一个不等式组无解，第二个不等式组的解集为 $a^{2}<x<a$.</p><p>当 $a=0$ 时，原式为 $\\dfrac{x}{x}=1$，其定义域为 $x\\ne0$，不满足小于零；当 $a=1$ 时，原式为 $\\dfrac{x-1}{x-1}=1$，其定义域为 $x\\ne1$，同样无解.</p><p>因此不等式的解集为</p>\n$$\n\\begin{cases}\\{x\\mid a<x<a^{2}\\},&a<0\\text{ 或 }a>1,\\\\  \\{x\\mid a^{2}<x<a\\},&0<a<1,\\\\  \\varnothing,&a=0\\text{ 或 }a=1.\\end{cases}\n$$"
         },
         {
           "num": 18,
@@ -238,10 +238,10 @@
         },
         {
           "num": 23,
-          "body": "<p>设 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$，曲线 $x^{2}\\sin\\theta+y^{2}\\cos\\theta=1$ 和 $x^{2}\\cos\\theta-y^{2}\\sin\\theta=1$ 有 $4$ 个不同的交点.</p><ol class=\"enumerate\"><li><p>求 $\\theta$ 的取值范围；</p></li><li><p>证明这 $4$ 个交点共圆，并求圆半径的取值范围.</p></li></ol>",
+          "body": "<p>设 $0<\\theta<\\frac{\\pi}{2}$，曲线 $x^{2}\\sin\\theta+y^{2}\\cos\\theta=1$ 和 $x^{2}\\cos\\theta-y^{2}\\sin\\theta=1$ 有 $4$ 个不同的交点.</p><ol class=\"enumerate\"><li><p>求 $\\theta$ 的取值范围；</p></li><li><p>证明这 $4$ 个交点共圆，并求圆半径的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>两曲线的交点 $(x,y)$ 满足</p>\n$$\n\\begin{cases}x^{2}\\sin\\theta+y^{2}\\cos\\theta=1,\\\\  x^{2}\\cos\\theta-y^{2}\\sin\\theta=1.\\end{cases}\n$$\n<ol class=\"enumerate\"><li><p>令 $X=x^{2}$，$Y=y^{2}$. 上述方程组的系数矩阵为</p><p>$M=\\begin{pmatrix}\\sin\\theta&#x26;\\cos\\theta\\\\\\cos\\theta&#x26;-\\sin\\theta\\end{pmatrix}$，且 $M^{2}=I$. 因而</p>\n$$\n\\begin{pmatrix}X\\\\Y\\end{pmatrix}  =M\\begin{pmatrix}1\\\\1\\end{pmatrix}  =\\begin{pmatrix}\\sin\\theta+\\cos\\theta\\\\\\cos\\theta-\\sin\\theta\\end{pmatrix}\n$$\n<p>即</p><p>$X=\\sin\\theta+\\cos\\theta$，$Y=\\cos\\theta-\\sin\\theta$.</p><p>有四个不同交点，当且仅当 $X>0$ 且 $Y>0$，因为这时 $x$ 和 $y$ 分别有两个非零取值. 在 $0&#x3C;\\theta&#x3C;\\dfrac\\pi2$ 内，$\\sin\\theta+\\cos\\theta>0$ 恒成立，而 $\\cos\\theta-\\sin\\theta>0$ 等价于 $\\theta&#x3C;\\dfrac\\pi4$. 所以</p>\n$$\n0&#x3C;\\theta&#x3C;\\frac{\\pi}{4}\n$$\n</li><li><p>将已求得的两个等式 $x^{2}=\\sin\\theta+\\cos\\theta$ 与 $y^{2}=\\cos\\theta-\\sin\\theta$ 相加，得</p>\n$$\nx^{2}+y^{2}=2\\cos\\theta\n$$\n<p>所以四个交点都满足圆的方程</p>\n$$\nx^{2}+y^{2}=2\\cos\\theta\n$$\n<p>即它们共圆，圆心为原点，半径为</p>\n$$\nr=\\sqrt{2\\cos\\theta}\n$$\n<p>当 $0&#x3C;\\theta&#x3C;\\dfrac\\pi4$ 时，$\\cos\\theta$ 严格递减，且</p><p>$\\cos0=1$，$\\cos\\frac{\\pi}{4}=\\frac{\\sqrt{2}}{2}$.</p><p>由于区间端点不取，得到</p>\n$$\n\\sqrt[4]{2}&#x3C;r&#x3C;\\sqrt{2}\n$$\n</li></ol>"
+          "solution": "<p>两曲线的交点 $(x,y)$ 满足</p>\n$$\n\\begin{cases}x^{2}\\sin\\theta+y^{2}\\cos\\theta=1,\\\\  x^{2}\\cos\\theta-y^{2}\\sin\\theta=1.\\end{cases}\n$$\n<ol class=\"enumerate\"><li><p>令 $X=x^{2}$，$Y=y^{2}$. 上述方程组的系数矩阵为</p><p>$M=\\begin{pmatrix}\\sin\\theta&\\cos\\theta\\\\\\cos\\theta&-\\sin\\theta\\end{pmatrix}$，且 $M^{2}=I$. 因而</p>\n$$\n\\begin{pmatrix}X\\\\Y\\end{pmatrix}  =M\\begin{pmatrix}1\\\\1\\end{pmatrix}  =\\begin{pmatrix}\\sin\\theta+\\cos\\theta\\\\\\cos\\theta-\\sin\\theta\\end{pmatrix}\n$$\n<p>即</p><p>$X=\\sin\\theta+\\cos\\theta$，$Y=\\cos\\theta-\\sin\\theta$.</p><p>有四个不同交点，当且仅当 $X>0$ 且 $Y>0$，因为这时 $x$ 和 $y$ 分别有两个非零取值. 在 $0<\\theta<\\dfrac\\pi2$ 内，$\\sin\\theta+\\cos\\theta>0$ 恒成立，而 $\\cos\\theta-\\sin\\theta>0$ 等价于 $\\theta<\\dfrac\\pi4$. 所以</p>\n$$\n0<\\theta<\\frac{\\pi}{4}\n$$\n</li><li><p>将已求得的两个等式 $x^{2}=\\sin\\theta+\\cos\\theta$ 与 $y^{2}=\\cos\\theta-\\sin\\theta$ 相加，得</p>\n$$\nx^{2}+y^{2}=2\\cos\\theta\n$$\n<p>所以四个交点都满足圆的方程</p>\n$$\nx^{2}+y^{2}=2\\cos\\theta\n$$\n<p>即它们共圆，圆心为原点，半径为</p>\n$$\nr=\\sqrt{2\\cos\\theta}\n$$\n<p>当 $0<\\theta<\\dfrac\\pi4$ 时，$\\cos\\theta$ 严格递减，且</p><p>$\\cos0=1$，$\\cos\\frac{\\pi}{4}=\\frac{\\sqrt{2}}{2}$.</p><p>由于区间端点不取，得到</p>\n$$\n\\sqrt[4]{2}<r<\\sqrt{2}\n$$\n</li></ol>"
         }
       ]
     }

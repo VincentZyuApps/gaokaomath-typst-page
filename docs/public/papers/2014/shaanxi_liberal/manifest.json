@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "<p>已知集合 $M = \\{x \\mid x \\ge 0, x \\in \\mathbb{R}\\}$，$N = \\{x \\mid x^{2} &#x3C; 1, x \\in \\mathbb{R}\\}$，则 $M \\cap N =$（ ）</p><p>D</p><p>由 $x^{2}&#x3C;1$ 得 $-1&#x3C;x&#x3C;1$，所以</p><p>$N=(-1,1)$，$M\\cap N=[0,1)$.</p><p>因此选 D.</p>",
+          "body": "<p>已知集合 $M = \\{x \\mid x \\ge 0, x \\in \\mathbb{R}\\}$，$N = \\{x \\mid x^{2} < 1, x \\in \\mathbb{R}\\}$，则 $M \\cap N =$（ ）</p><p>D</p><p>由 $x^{2}<1$ 得 $-1<x<1$，所以</p><p>$N=(-1,1)$，$M\\cap N=[0,1)$.</p><p>因此选 D.</p>",
           "choices": [
             "$[0,1]$",
             "$(0,1)$",
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "<p>原命题为“若 $\\frac{a_{n} + a_{n+1}}{2}&#x3C; a_{n}$，$n \\in \\mathbf{N}_{+}$，则 $\\{a_{n}\\}$ 为递减数列”，关于逆命题，否命题，逆否命题真假性的判断依次如下，正确的是（ ）</p><p>A</p><p>记命题的前件为 $P$，后件为 $Q$，其中 $P$ 表示对任意 $n\\in\\mathbf{N}_{+}$ 有 $\\frac{a_{n}+a_{n+1}}{2}&#x3C;a_{n}$，$Q$ 表示数列 $\\{a_{n}\\}$ 为递减数列. 由 $\\frac{a_{n}+a_{n+1}}{2}&#x3C;a_{n}$ 可得 $a_{n+1}&#x3C;a_{n}$，反过来也成立，所以 $P$ 与 $Q$ 等价. 因此原命题、逆命题、否命题和逆否命题均为真，所求判断为“真，真，真”，选 A.</p>",
+          "body": "<p>原命题为“若 $\\frac{a_{n} + a_{n+1}}{2}< a_{n}$，$n \\in \\mathbf{N}_{+}$，则 $\\{a_{n}\\}$ 为递减数列”，关于逆命题，否命题，逆否命题真假性的判断依次如下，正确的是（ ）</p><p>A</p><p>记命题的前件为 $P$，后件为 $Q$，其中 $P$ 表示对任意 $n\\in\\mathbf{N}_{+}$ 有 $\\frac{a_{n}+a_{n+1}}{2}<a_{n}$，$Q$ 表示数列 $\\{a_{n}\\}$ 为递减数列. 由 $\\frac{a_{n}+a_{n+1}}{2}<a_{n}$ 可得 $a_{n+1}<a_{n}$，反过来也成立，所以 $P$ 与 $Q$ 等价. 因此原命题、逆命题、否命题和逆否命题均为真，所求判断为“真，真，真”，选 A.</p>",
           "choices": [
             "真，真，真",
             "假，假，真",
@@ -148,7 +148,7 @@
         },
         {
           "num": 13,
-          "body": "<p>设 $0 &#x3C; \\theta &#x3C; \\frac{\\pi}{2}$，向量 $\\mathbf{a}= (\\sin 2\\theta, \\cos \\theta)$，$\\mathbf{b}= (1, -\\cos \\theta)$，若 $\\mathbf{a}\\cdot \\mathbf{b}= 0$，则 $\\tan \\theta =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\frac{1}{2}$</p><p>由向量数量积为零，得 $\\mathbf{a}\\cdot\\mathbf{b}=\\sin 2\\theta-\\cos^{2}\\theta=0$. 利用 $\\sin 2\\theta=2\\sin\\theta\\cos\\theta$，有 $\\cos\\theta(2\\sin\\theta-\\cos\\theta)=0$. 因为 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$，所以 $\\cos\\theta>0$，从而 $2\\sin\\theta=\\cos\\theta$，即 $\\tan\\theta=\\frac{1}{2}$.</p>",
+          "body": "<p>设 $0 < \\theta < \\frac{\\pi}{2}$，向量 $\\mathbf{a}= (\\sin 2\\theta, \\cos \\theta)$，$\\mathbf{b}= (1, -\\cos \\theta)$，若 $\\mathbf{a}\\cdot \\mathbf{b}= 0$，则 $\\tan \\theta =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\frac{1}{2}$</p><p>由向量数量积为零，得 $\\mathbf{a}\\cdot\\mathbf{b}=\\sin 2\\theta-\\cos^{2}\\theta=0$. 利用 $\\sin 2\\theta=2\\sin\\theta\\cos\\theta$，有 $\\cos\\theta(2\\sin\\theta-\\cos\\theta)=0$. 因为 $0<\\theta<\\frac{\\pi}{2}$，所以 $\\cos\\theta>0$，从而 $2\\sin\\theta=\\cos\\theta$，即 $\\tan\\theta=\\frac{1}{2}$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -228,7 +228,7 @@
         },
         {
           "num": 23,
-          "body": "<p>设函数 $f(x) = \\ln x + \\frac{m}{x}$，$m \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>当 $m = \\mathrm{e}$（$\\mathrm{e}$ 为自然对数的底数）时，求 $f(x)$ 的极小值；</p></li><li><p>讨论函数 $g(x) = f'(x) - \\frac{x}{3}$ 零点的个数；</p></li><li><p>若对任意 $b > a > 0$，$\\frac{f(b) - f(a)}{b - a}&#x3C; 1$ 恒成立，求 $m$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>当 $m=\\mathrm{e}$ 时，$x>0$，且</p>\n$$\nf'(x)=\\frac{1}{x}-\\frac{\\mathrm{e}}{x^{2}}=\\frac{x-\\mathrm{e}}{x^{2}}\n$$\n<p>因此 $f'(x)&#x3C;0$ 在 $(0,\\mathrm{e})$ 上成立，$f'(x)>0$ 在 $(\\mathrm{e},+\\infty)$ 上成立，故 $x=\\mathrm{e}$ 处取得极小值. 其值为</p>\n$$\nf(\\mathrm{e})=\\ln\\mathrm{e}+\\frac{\\mathrm{e}}{\\mathrm{e}}=1+1=2\n$$\n</li><li><p>$x>0$ 时</p>\n$$\ng(x)=\\frac{1}{x}-\\frac{m}{x^{2}}-\\frac{x}{3}\n$$\n<p>由于 $3x^{2}>0$，$g(x)=0$ 等价于</p>\n$$\nm=\\varphi(x):=x-\\frac{x^{3}}{3}\n$$\n<p>又</p>\n$$\n\\varphi'(x)=1-x^{2}\n$$\n<p>所以 $\\varphi$ 在 $(0,1)$ 上递增，在 $(1,+\\infty)$ 上递减，且 $\\varphi(0^{+})=0$，$\\varphi(1)=\\frac{2}{3}$，$\\varphi(x)\\to-\\infty$（$x\\to+\\infty$）. 因此，当 $m>\\frac{2}{3}$ 时有 $0$ 个零点；当 $m=\\frac{2}{3}$ 或 $m\\leqslant0$ 时有 $1$ 个零点；当 $0&#x3C;m&#x3C;\\frac{2}{3}$ 时有 $2$ 个零点.</p></li><li><p>令 $h(x)=f(x)-x$. 题设不等式等价于对任意 $b>a>0$ 有 $h(b)&#x3C;h(a)$，即 $h$ 在 $(0,+\\infty)$ 上严格递减. 求导得</p>\n$$\nh'(x)=\\frac{1}{x}-\\frac{m}{x^{2}}-1=-\\frac{x^{2}-x+m}{x^{2}}\n$$\n<p>当 $m\\ge\\frac{1}{4}$ 时，</p>\n$$\nx^{2}-x+m=\\left(x-\\frac{1}{2}\\right)^{2}+m-\\frac{1}{4}\\geqslant0\n$$\n<p>所以 $h'(x)\\leqslant0$，且至多在一个点取零. 对任意 $b>a>0$，$h(b)-h(a)=\\int_{a}^{b} h'(x)\\,\\mathrm{d}x&#x3C;0$，故 $h$ 严格递减，题设成立.</p><p>当 $m&#x3C;\\frac{1}{4}$ 时，$x^{2}-x+m$ 在 $x=\\frac{1}{2}$ 处为负，故在该点附近 $h'(x)>0$，可以取 $b>a>0$ 使 $h(b)>h(a)$，题设不成立. 因此</p>\n$$\nm\\in\\left[\\frac{1}{4},+\\infty\\right)\n$$\n</li></ol>",
+          "body": "<p>设函数 $f(x) = \\ln x + \\frac{m}{x}$，$m \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>当 $m = \\mathrm{e}$（$\\mathrm{e}$ 为自然对数的底数）时，求 $f(x)$ 的极小值；</p></li><li><p>讨论函数 $g(x) = f'(x) - \\frac{x}{3}$ 零点的个数；</p></li><li><p>若对任意 $b > a > 0$，$\\frac{f(b) - f(a)}{b - a}< 1$ 恒成立，求 $m$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>当 $m=\\mathrm{e}$ 时，$x>0$，且</p>\n$$\nf'(x)=\\frac{1}{x}-\\frac{\\mathrm{e}}{x^{2}}=\\frac{x-\\mathrm{e}}{x^{2}}\n$$\n<p>因此 $f'(x)<0$ 在 $(0,\\mathrm{e})$ 上成立，$f'(x)>0$ 在 $(\\mathrm{e},+\\infty)$ 上成立，故 $x=\\mathrm{e}$ 处取得极小值. 其值为</p>\n$$\nf(\\mathrm{e})=\\ln\\mathrm{e}+\\frac{\\mathrm{e}}{\\mathrm{e}}=1+1=2\n$$\n</li><li><p>$x>0$ 时</p>\n$$\ng(x)=\\frac{1}{x}-\\frac{m}{x^{2}}-\\frac{x}{3}\n$$\n<p>由于 $3x^{2}>0$，$g(x)=0$ 等价于</p>\n$$\nm=\\varphi(x):=x-\\frac{x^{3}}{3}\n$$\n<p>又</p>\n$$\n\\varphi'(x)=1-x^{2}\n$$\n<p>所以 $\\varphi$ 在 $(0,1)$ 上递增，在 $(1,+\\infty)$ 上递减，且 $\\varphi(0^{+})=0$，$\\varphi(1)=\\frac{2}{3}$，$\\varphi(x)\\to-\\infty$（$x\\to+\\infty$）. 因此，当 $m>\\frac{2}{3}$ 时有 $0$ 个零点；当 $m=\\frac{2}{3}$ 或 $m\\leqslant0$ 时有 $1$ 个零点；当 $0<m<\\frac{2}{3}$ 时有 $2$ 个零点.</p></li><li><p>令 $h(x)=f(x)-x$. 题设不等式等价于对任意 $b>a>0$ 有 $h(b)<h(a)$，即 $h$ 在 $(0,+\\infty)$ 上严格递减. 求导得</p>\n$$\nh'(x)=\\frac{1}{x}-\\frac{m}{x^{2}}-1=-\\frac{x^{2}-x+m}{x^{2}}\n$$\n<p>当 $m\\ge\\frac{1}{4}$ 时，</p>\n$$\nx^{2}-x+m=\\left(x-\\frac{1}{2}\\right)^{2}+m-\\frac{1}{4}\\geqslant0\n$$\n<p>所以 $h'(x)\\leqslant0$，且至多在一个点取零. 对任意 $b>a>0$，$h(b)-h(a)=\\int_{a}^{b} h'(x)\\,\\mathrm{d}x<0$，故 $h$ 严格递减，题设成立.</p><p>当 $m<\\frac{1}{4}$ 时，$x^{2}-x+m$ 在 $x=\\frac{1}{2}$ 处为负，故在该点附近 $h'(x)>0$，可以取 $b>a>0$ 使 $h(b)>h(a)$，题设不成立. 因此</p>\n$$\nm\\in\\left[\\frac{1}{4},+\\infty\\right)\n$$\n</li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

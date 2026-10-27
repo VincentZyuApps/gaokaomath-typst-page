@@ -53,7 +53,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>当 $a\\leqslant1$ 时，对任意 $x\\in[1,+\\infty)$，都有 $x-a\\geqslant0$，所以 $f(x)=|x-a|=x-a$，函数在该区间上为增函数. 当 $a>1$ 时，$f(x)=a-x$ 在 $[1,a]$ 上递减，故不满足增函数条件.</p><p>因此“函数 $f(x)$ 在 $[1,+\\infty)$ 上为增函数”等价于 $a\\leqslant1$. 条件 $a=1$ 能推出该性质，但该性质还允许 $a&#x3C;1$，所以“$a=1$”是充分不必要条件，选 A.</p>"
+          "solution": "<p>当 $a\\leqslant1$ 时，对任意 $x\\in[1,+\\infty)$，都有 $x-a\\geqslant0$，所以 $f(x)=|x-a|=x-a$，函数在该区间上为增函数. 当 $a>1$ 时，$f(x)=a-x$ 在 $[1,a]$ 上递减，故不满足增函数条件.</p><p>因此“函数 $f(x)$ 在 $[1,+\\infty)$ 上为增函数”等价于 $a\\leqslant1$. 条件 $a=1$ 能推出该性质，但该性质还允许 $a<1$，所以“$a=1$”是充分不必要条件，选 A.</p>"
         },
         {
           "num": 5,
@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "设函数 $f(x) = \\frac{x - a}{x - 1}$，集合 $M = \\{x \\mid f(x) &#x3C; 0\\}$，$P = \\{x \\mid f'(x) > 0\\}$，若 $M \\subsetneqq P$，则实数 $a$ 的取值范围是（ ）",
+          "body": "设函数 $f(x) = \\frac{x - a}{x - 1}$，集合 $M = \\{x \\mid f(x) < 0\\}$，$P = \\{x \\mid f'(x) > 0\\}$，若 $M \\subsetneqq P$，则实数 $a$ 的取值范围是（ ）",
           "choices": [
             "$(- \\infty, 1)$",
             "$(0,1)$",
@@ -101,7 +101,7 @@
             "$[1, +\\infty)$"
           ],
           "answer": "C",
-          "solution": "<p>先求导：</p><p>$f'(x)=\\frac{(x-1)-(x-a)}{(x-1)^{2}}=\\frac{a-1}{(x-1)^{2}}$（$x\\ne1$）.</p><p>当 $a\\leqslant1$ 时，对一切 $x\\ne1$ 都有 $f'(x)\\leqslant0$，从而 $P=\\varnothing$. 此时：若 $a=1$，则 $M=\\varnothing=P$，不满足 $M\\subsetneqq P$；若 $a&#x3C;1$，则 $M=(a,1)\\ne\\varnothing$，$M\\subseteq P$ 不成立.</p><p>当 $a>1$ 时，对一切 $x\\ne1$ 都有 $f'(x)>0$，所以 $P=\\{x\\in\\mathbb{R}\\mid x\\ne1\\}=(-\\infty,1)\\cup(1,+\\infty)$. 此时由 $f(x)=\\frac{x-a}{x-1}&#x3C;0$ 得 $M=(1,a)$. 显然 $M\\subseteq P$ 且 $M\\ne P$，即 $M\\subsetneqq P$ 成立.</p><p>综上，实数 $a$ 的取值范围是 $(1,+\\infty)$，故选 C.</p>"
+          "solution": "<p>先求导：</p><p>$f'(x)=\\frac{(x-1)-(x-a)}{(x-1)^{2}}=\\frac{a-1}{(x-1)^{2}}$（$x\\ne1$）.</p><p>当 $a\\leqslant1$ 时，对一切 $x\\ne1$ 都有 $f'(x)\\leqslant0$，从而 $P=\\varnothing$. 此时：若 $a=1$，则 $M=\\varnothing=P$，不满足 $M\\subsetneqq P$；若 $a<1$，则 $M=(a,1)\\ne\\varnothing$，$M\\subseteq P$ 不成立.</p><p>当 $a>1$ 时，对一切 $x\\ne1$ 都有 $f'(x)>0$，所以 $P=\\{x\\in\\mathbb{R}\\mid x\\ne1\\}=(-\\infty,1)\\cup(1,+\\infty)$. 此时由 $f(x)=\\frac{x-a}{x-1}<0$ 得 $M=(1,a)$. 显然 $M\\subseteq P$ 且 $M\\ne P$，即 $M\\subsetneqq P$ 成立.</p><p>综上，实数 $a$ 的取值范围是 $(1,+\\infty)$，故选 C.</p>"
         },
         {
           "num": 9,
@@ -125,7 +125,7 @@
             "$\\left[0, \\frac{\\pi}{2}\\right]$"
           ],
           "answer": "B",
-          "solution": "<p>圆的圆心为 $C(2,2)$，半径为 $R=3\\sqrt{2}$. 设直线 $l$ 到原点的单位法向量为 $\\mathbf{n}$，记圆心在该法向量方向上的有向坐标为 $c=\\mathbf{n}\\cdot\\overrightarrow{OC}$. 直线上各点到 $l$ 的距离为 $2\\sqrt{2}$ 的轨迹是两条平行直线，其有向坐标为 $\\pm2\\sqrt{2}$.</p><p>由于 $|c|\\le|\\overrightarrow{OC}|=2\\sqrt{2}&#x3C;3\\sqrt{2}$，距离原直线较近的那条平行线一定与圆交于两个不同的点. 要使总交点数至少为 3，另一条平行线至少还要与圆有一个公共点，因此</p>\n$$\n2\\sqrt{2}+|c|\\leqslant3\\sqrt{2}\n$$\n<p>由此得 $|c|\\le\\sqrt{2}$. 设 $l$ 的倾斜角为 $\\theta$，则可取单位法向量 $\\mathbf{n}=(-\\sin\\theta,\\cos\\theta)$，从而</p>\n$$\n|c|=|-2\\sin\\theta+2\\cos\\theta|=2|\\cos\\theta-\\sin\\theta|\n$$\n<p>故</p>\n$$\n|\\cos\\theta-\\sin\\theta|\\le\\frac{1}{\\sqrt{2}}\n$$\n<p>在 $0\\le\\theta&#x3C;\\pi$ 内解得</p>\n$$\n\\frac{\\pi}{12}\\le\\theta\\le\\frac{5\\pi}{12}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>圆的圆心为 $C(2,2)$，半径为 $R=3\\sqrt{2}$. 设直线 $l$ 到原点的单位法向量为 $\\mathbf{n}$，记圆心在该法向量方向上的有向坐标为 $c=\\mathbf{n}\\cdot\\overrightarrow{OC}$. 直线上各点到 $l$ 的距离为 $2\\sqrt{2}$ 的轨迹是两条平行直线，其有向坐标为 $\\pm2\\sqrt{2}$.</p><p>由于 $|c|\\le|\\overrightarrow{OC}|=2\\sqrt{2}<3\\sqrt{2}$，距离原直线较近的那条平行线一定与圆交于两个不同的点. 要使总交点数至少为 3，另一条平行线至少还要与圆有一个公共点，因此</p>\n$$\n2\\sqrt{2}+|c|\\leqslant3\\sqrt{2}\n$$\n<p>由此得 $|c|\\le\\sqrt{2}$. 设 $l$ 的倾斜角为 $\\theta$，则可取单位法向量 $\\mathbf{n}=(-\\sin\\theta,\\cos\\theta)$，从而</p>\n$$\n|c|=|-2\\sin\\theta+2\\cos\\theta|=2|\\cos\\theta-\\sin\\theta|\n$$\n<p>故</p>\n$$\n|\\cos\\theta-\\sin\\theta|\\le\\frac{1}{\\sqrt{2}}\n$$\n<p>在 $0\\le\\theta<\\pi$ 内解得</p>\n$$\n\\frac{\\pi}{12}\\le\\theta\\le\\frac{5\\pi}{12}\n$$\n<p>故选 B.</p>"
         }
       ]
     },
@@ -165,7 +165,7 @@
           "body": "<p>如图，$OM \\parallel AB$，点 $P$ 在由射线 $OM$，线段 $OB$ 及 $AB$ 的延长线围成的区域内（不含边界）运动，且 $\\overrightarrow{OP}= x\\overrightarrow{OA}+ y\\overrightarrow{OB}$，则 $x$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；当 $x = -\\frac{1}{2}$ 时，$y$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$(-\\infty,0)$，$\\left(\\frac{1}{2},\\frac{3}{2}\\right)$",
-          "solution": "<p>记 $\\overrightarrow{OA}=\\mathbf{a}$，$\\overrightarrow{OB}=\\mathbf{b}$. 由于 $AB$ 的方向向量为 $\\mathbf{b}-\\mathbf{a}$，而 $OM\\parallel AB$，射线 $OM$ 上的点在 $\\mathbf{a}$，$\\mathbf{b}$ 基底下的坐标形如 $(-t,t)$，其中 $t>0$.</p><p>设 $\\overrightarrow{OP}=x\\mathbf{a}+y\\mathbf{b}$. 直线 $AB$ 的方程为 $x+y=1$，射线 $OM$ 的方程为 $y=-x$，线段 $OB$ 为 $x=0$、$0\\le y\\leqslant1$. 因此区域内部对应于</p><p>$x&#x3C;0$，$-x&#x3C;y&#x3C;1-x$.</p><p>所以 $x$ 的取值范围为 $(-\\infty,0)$. 当 $x=-\\dfrac{1}{2}$ 时，代入上式得</p>\n$$\n\\frac{1}{2}&#x3C;y&#x3C;\\frac{3}{2}\n$$"
+          "solution": "<p>记 $\\overrightarrow{OA}=\\mathbf{a}$，$\\overrightarrow{OB}=\\mathbf{b}$. 由于 $AB$ 的方向向量为 $\\mathbf{b}-\\mathbf{a}$，而 $OM\\parallel AB$，射线 $OM$ 上的点在 $\\mathbf{a}$，$\\mathbf{b}$ 基底下的坐标形如 $(-t,t)$，其中 $t>0$.</p><p>设 $\\overrightarrow{OP}=x\\mathbf{a}+y\\mathbf{b}$. 直线 $AB$ 的方程为 $x+y=1$，射线 $OM$ 的方程为 $y=-x$，线段 $OB$ 为 $x=0$、$0\\le y\\leqslant1$. 因此区域内部对应于</p><p>$x<0$，$-x<y<1-x$.</p><p>所以 $x$ 的取值范围为 $(-\\infty,0)$. 当 $x=-\\dfrac{1}{2}$ 时，代入上式得</p>\n$$\n\\frac{1}{2}<y<\\frac{3}{2}\n$$"
         }
       ]
     },
@@ -177,7 +177,7 @@
           "body": "<p>如图，$D$ 是直角 $\\triangle ABC$ 斜边 $BC$ 上一点，$AB = AD$，记 $\\angle CAD = \\alpha$，$\\angle ABC = \\beta$.</p><ol class=\"enumerate\"><li><p>证明：$\\sin \\alpha + \\cos 2\\beta = 0$；</p></li><li><p>若 $AC = \\sqrt{3}DC$，求 $\\beta$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由于 $D$ 在 $BC$ 上，所以 $\\angle ABD=\\angle ABC=\\beta$. 又 $AB=AD$，故 $\\angle ADB=\\angle ABD=\\beta$，从而 $\\angle BAD=\\pi-2\\beta$. 在直角三角形 $ABC$ 中，$\\angle BAC=\\dfrac{\\pi}{2}$，所以 $\\alpha+\\pi-2\\beta=\\dfrac{\\pi}{2}$，即 $\\alpha=2\\beta-\\dfrac{\\pi}{2}$. 因此 $\\sin\\alpha=\\sin\\left(2\\beta-\\dfrac{\\pi}{2}\\right)=-\\cos2\\beta$，所以 $\\sin\\alpha+\\cos2\\beta=0$.</p></li><li><p>在三角形 $ADC$ 中，$\\angle ACD=\\angle ACB=\\dfrac{\\pi}{2}-\\beta$，且由上一问知 $\\alpha=2\\beta-\\dfrac{\\pi}{2}$，故 $\\angle ADC=\\pi-\\beta$. 由正弦定理，</p>\n$$\n\\frac{AC}{DC}=\\frac{\\sin\\angle ADC}{\\sin\\angle CAD}=\\frac{\\sin\\beta}{\\sin\\alpha}=\\sqrt{3}\n$$\n<p>由于 $\\alpha>0$，有 $\\dfrac{\\pi}{4}&#x3C;\\beta&#x3C;\\dfrac{\\pi}{2}$. 令 $s=\\sin\\beta$，则</p>\n$$\n\\sin\\alpha=\\sin\\left(2\\beta-\\frac{\\pi}{2}\\right)=-\\cos2\\beta=2s^{2}-1\n$$\n<p>所以 $\\sqrt{3}(2s^{2}-1)=s$，即 $2\\sqrt{3}s^{2}-s-\\sqrt{3}=0$. 解得 $s=\\dfrac{\\sqrt{3}}{2}$ 或 $s=-\\dfrac{1}{\\sqrt{3}}$，结合 $0&#x3C;s&#x3C;1$ 可知 $s=\\dfrac{\\sqrt{3}}{2}$. 又 $\\dfrac{\\pi}{4}&#x3C;\\beta&#x3C;\\dfrac{\\pi}{2}$，故 $\\beta=\\dfrac{\\pi}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由于 $D$ 在 $BC$ 上，所以 $\\angle ABD=\\angle ABC=\\beta$. 又 $AB=AD$，故 $\\angle ADB=\\angle ABD=\\beta$，从而 $\\angle BAD=\\pi-2\\beta$. 在直角三角形 $ABC$ 中，$\\angle BAC=\\dfrac{\\pi}{2}$，所以 $\\alpha+\\pi-2\\beta=\\dfrac{\\pi}{2}$，即 $\\alpha=2\\beta-\\dfrac{\\pi}{2}$. 因此 $\\sin\\alpha=\\sin\\left(2\\beta-\\dfrac{\\pi}{2}\\right)=-\\cos2\\beta$，所以 $\\sin\\alpha+\\cos2\\beta=0$.</p></li><li><p>在三角形 $ADC$ 中，$\\angle ACD=\\angle ACB=\\dfrac{\\pi}{2}-\\beta$，且由上一问知 $\\alpha=2\\beta-\\dfrac{\\pi}{2}$，故 $\\angle ADC=\\pi-\\beta$. 由正弦定理，</p>\n$$\n\\frac{AC}{DC}=\\frac{\\sin\\angle ADC}{\\sin\\angle CAD}=\\frac{\\sin\\beta}{\\sin\\alpha}=\\sqrt{3}\n$$\n<p>由于 $\\alpha>0$，有 $\\dfrac{\\pi}{4}<\\beta<\\dfrac{\\pi}{2}$. 令 $s=\\sin\\beta$，则</p>\n$$\n\\sin\\alpha=\\sin\\left(2\\beta-\\frac{\\pi}{2}\\right)=-\\cos2\\beta=2s^{2}-1\n$$\n<p>所以 $\\sqrt{3}(2s^{2}-1)=s$，即 $2\\sqrt{3}s^{2}-s-\\sqrt{3}=0$. 解得 $s=\\dfrac{\\sqrt{3}}{2}$ 或 $s=-\\dfrac{1}{\\sqrt{3}}$，结合 $0<s<1$ 可知 $s=\\dfrac{\\sqrt{3}}{2}$. 又 $\\dfrac{\\pi}{4}<\\beta<\\dfrac{\\pi}{2}$，故 $\\beta=\\dfrac{\\pi}{3}$.</p></li></ol>"
         },
         {
           "num": 17,
@@ -195,17 +195,17 @@
         },
         {
           "num": 19,
-          "body": "<p>已知函数 $f(x) = x - \\sin x$，数列 $\\{a_{n}\\}$ 满足：$0 &#x3C; a_{1} &#x3C; 1$，$a_{n+1}= f(a_{n})$，$n = 1$，$2$，$3$，$\\cdots$. 证明：</p><ol class=\"enumerate\"><li><p>$0 &#x3C; a_{n+1}&#x3C; a_{n} &#x3C; 1$；</p></li><li><p>$a_{n+1}&#x3C; \\frac{1}{6}a_{n}^{3}$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = x - \\sin x$，数列 $\\{a_{n}\\}$ 满足：$0 < a_{1} < 1$，$a_{n+1}= f(a_{n})$，$n = 1$，$2$，$3$，$\\cdots$. 证明：</p><ol class=\"enumerate\"><li><p>$0 < a_{n+1}< a_{n} < 1$；</p></li><li><p>$a_{n+1}< \\frac{1}{6}a_{n}^{3}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>对 $0&#x3C;x&#x3C;1$，令 $h(x)=x-\\sin x$，则 $h(0)=0$，且 $h'(x)=1-\\cos x>0$. 因而 $x-\\sin x>0$，又因为 $\\sin x>0$，所以 $0&#x3C;x-\\sin x&#x3C;x$. 由 $0&#x3C;a_{1}&#x3C;1$ 及递推关系，用归纳法可得对任意正整数 $n$，都有 $0&#x3C;a_{n+1}&#x3C;a_{n}&#x3C;1$.</p></li><li><p>令 $g(x)=\\sin x-x+\\dfrac{x^{3}}{6}$. 有 $g(0)=g'(0)=0$，并且</p><p>$g''(x)=-\\sin x+x=x-\\sin x>0$，（$0&#x3C;x&#x3C;1$）.</p><p>因此 $g'(x)>0$，进而 $g(x)>0$，即 $\\sin x>x-\\dfrac{x^{3}}{6}$. 所以对 $0&#x3C;x&#x3C;1$，有 $x-\\sin x&#x3C;\\dfrac{x^{3}}{6}$. 取 $x=a_{n}$，便得到 $a_{n+1}=a_{n}-\\sin a_{n}&#x3C;\\dfrac{1}{6}a_{n}^{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>对 $0<x<1$，令 $h(x)=x-\\sin x$，则 $h(0)=0$，且 $h'(x)=1-\\cos x>0$. 因而 $x-\\sin x>0$，又因为 $\\sin x>0$，所以 $0<x-\\sin x<x$. 由 $0<a_{1}<1$ 及递推关系，用归纳法可得对任意正整数 $n$，都有 $0<a_{n+1}<a_{n}<1$.</p></li><li><p>令 $g(x)=\\sin x-x+\\dfrac{x^{3}}{6}$. 有 $g(0)=g'(0)=0$，并且</p><p>$g''(x)=-\\sin x+x=x-\\sin x>0$，（$0<x<1$）.</p><p>因此 $g'(x)>0$，进而 $g(x)>0$，即 $\\sin x>x-\\dfrac{x^{3}}{6}$. 所以对 $0<x<1$，有 $x-\\sin x<\\dfrac{x^{3}}{6}$. 取 $x=a_{n}$，便得到 $a_{n+1}=a_{n}-\\sin a_{n}<\\dfrac{1}{6}a_{n}^{3}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "<p>对 $1$ 个单位质量的含污物体进行清洗，清洗前其清洁度（含污物体的清洁度定义为：$1 - \\frac{\\text{污物质量}}{\\text{物体质量（含污物）}}$）为 $0.8$，要求洗完后的清洁度是 $0.99$. 有两种方案可供选择，方案甲：一次清洗；方案乙：两次清洗. 该物体初次清洗后受残留水等因素影响，其质量变为 $a$（$1 \\le a \\le 3$）. 设用 $x$ 单位质量的水初次清洗后的清洁度是 $\\frac{x + 0.8}{x + 1}$（$x > a - 1$），用 $y$ 单位质量的水第二次清洗后的清洁度是 $\\frac{y + ac}{y + a}$，其中 $c$（$0.8 &#x3C; c &#x3C; 0.99$）是该物体初次清洗后的清洁度.</p><ol class=\"enumerate\"><li><p>分别求出方案甲以及 $c = 0.95$ 时方案乙的用水量，并比较哪一种方案用水量较少；</p></li><li><p>若采用方案乙，当 $a$ 为某定值时，如何安排初次与第二次清洗的用水量，使总用水量最少？并讨论 $a$ 取不同数值时对最少总用水量多少的影响.</p></li></ol>",
+          "body": "<p>对 $1$ 个单位质量的含污物体进行清洗，清洗前其清洁度（含污物体的清洁度定义为：$1 - \\frac{\\text{污物质量}}{\\text{物体质量（含污物）}}$）为 $0.8$，要求洗完后的清洁度是 $0.99$. 有两种方案可供选择，方案甲：一次清洗；方案乙：两次清洗. 该物体初次清洗后受残留水等因素影响，其质量变为 $a$（$1 \\le a \\le 3$）. 设用 $x$ 单位质量的水初次清洗后的清洁度是 $\\frac{x + 0.8}{x + 1}$（$x > a - 1$），用 $y$ 单位质量的水第二次清洗后的清洁度是 $\\frac{y + ac}{y + a}$，其中 $c$（$0.8 < c < 0.99$）是该物体初次清洗后的清洁度.</p><ol class=\"enumerate\"><li><p>分别求出方案甲以及 $c = 0.95$ 时方案乙的用水量，并比较哪一种方案用水量较少；</p></li><li><p>若采用方案乙，当 $a$ 为某定值时，如何安排初次与第二次清洗的用水量，使总用水量最少？并讨论 $a$ 取不同数值时对最少总用水量多少的影响.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>方案甲中，设用水量为 $x$，则</p><p>$\\frac{x+0.8}{x+1}=0.99$，$0.01x=0.19$，$x=19$.</p><p>所以方案甲用水量为 $19$.</p><p>方案乙在 $c=0.95$ 时，第一次清洗用水量满足</p><p>$\\frac{x+0.8}{x+1}=0.95$，$0.05x=0.15$，$x=3$.</p><p>第二次清洗用水量 $y$ 满足</p><p>$\\frac{y+0.95a}{y+a}=0.99$，$0.01y=0.04a$，$y=4a$.</p><p>故方案乙总用水量为 $3+4a$. 由于 $1\\le a\\leqslant3$，有 $7\\leqslant3+4a\\leqslant15&#x3C;19$，所以方案乙用水量较少.</p></li><li><p>设方案乙第一次清洗用水量为 $x$，则</p><p>$c=\\frac{x+0.8}{x+1}$，$y=100a(0.99-c)=\\frac{a(19-x)}{x+1}$.</p><p>由 $x>a-1$ 及 $c&#x3C;0.99$，可知 $a-1&#x3C;x&#x3C;19$. 总用水量为</p>\n$$\nS(x)=x+\\frac{a(19-x)}{x+1}\n$$\n<p>在上述区间内，</p><p>$S'(x)=1-\\frac{20a}{(x+1)^{2}}$，$S''(x)=\\frac{40a}{(x+1)^{3}}>0$.</p><p>令 $S'(x)=0$，得唯一驻点 $x_{0}=\\sqrt{20a}-1$. 当 $1\\le a\\leqslant3$ 时，$\\sqrt{20a}>a$ 且 $\\sqrt{20a}&#x3C;20$，所以 $a-1&#x3C;x_{0}&#x3C;19$，驻点位于定义域内，并且由 $S''(x)>0$ 知它给出最小值. 此时</p><p>$x_{0}=\\sqrt{20a}-1$，$y_{0}=\\frac{a(19-x_{0})}{x_{0}+1}=\\sqrt{20a}-a$</p><p>最少总用水量为</p>\n$$\nS_{\\min}=x_{0}+y_{0}=2\\sqrt{20a}-a-1\n$$\n<p>又</p><p>$\\frac{\\mathrm{d}S_{\\min}}{\\mathrm{d}a}=\\sqrt{\\frac{20}{a}}-1>0$，（$1\\le a\\leqslant3$），</p><p>所以 $a$ 越大，最少总用水量越多. 当 $a=1$ 时，$S_{\\min}=4\\sqrt{5}-2$；当 $a=3$ 时，$S_{\\min}=4\\sqrt{15}-4$，故最少总用水量的取值范围为 $[4\\sqrt{5}-2,\\,4\\sqrt{15}-4]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>方案甲中，设用水量为 $x$，则</p><p>$\\frac{x+0.8}{x+1}=0.99$，$0.01x=0.19$，$x=19$.</p><p>所以方案甲用水量为 $19$.</p><p>方案乙在 $c=0.95$ 时，第一次清洗用水量满足</p><p>$\\frac{x+0.8}{x+1}=0.95$，$0.05x=0.15$，$x=3$.</p><p>第二次清洗用水量 $y$ 满足</p><p>$\\frac{y+0.95a}{y+a}=0.99$，$0.01y=0.04a$，$y=4a$.</p><p>故方案乙总用水量为 $3+4a$. 由于 $1\\le a\\leqslant3$，有 $7\\leqslant3+4a\\leqslant15<19$，所以方案乙用水量较少.</p></li><li><p>设方案乙第一次清洗用水量为 $x$，则</p><p>$c=\\frac{x+0.8}{x+1}$，$y=100a(0.99-c)=\\frac{a(19-x)}{x+1}$.</p><p>由 $x>a-1$ 及 $c<0.99$，可知 $a-1<x<19$. 总用水量为</p>\n$$\nS(x)=x+\\frac{a(19-x)}{x+1}\n$$\n<p>在上述区间内，</p><p>$S'(x)=1-\\frac{20a}{(x+1)^{2}}$，$S''(x)=\\frac{40a}{(x+1)^{3}}>0$.</p><p>令 $S'(x)=0$，得唯一驻点 $x_{0}=\\sqrt{20a}-1$. 当 $1\\le a\\leqslant3$ 时，$\\sqrt{20a}>a$ 且 $\\sqrt{20a}<20$，所以 $a-1<x_{0}<19$，驻点位于定义域内，并且由 $S''(x)>0$ 知它给出最小值. 此时</p><p>$x_{0}=\\sqrt{20a}-1$，$y_{0}=\\frac{a(19-x_{0})}{x_{0}+1}=\\sqrt{20a}-a$</p><p>最少总用水量为</p>\n$$\nS_{\\min}=x_{0}+y_{0}=2\\sqrt{20a}-a-1\n$$\n<p>又</p><p>$\\frac{\\mathrm{d}S_{\\min}}{\\mathrm{d}a}=\\sqrt{\\frac{20}{a}}-1>0$，（$1\\le a\\leqslant3$），</p><p>所以 $a$ 越大，最少总用水量越多. 当 $a=1$ 时，$S_{\\min}=4\\sqrt{5}-2$；当 $a=3$ 时，$S_{\\min}=4\\sqrt{15}-4$，故最少总用水量的取值范围为 $[4\\sqrt{5}-2,\\,4\\sqrt{15}-4]$.</p></li></ol>"
         },
         {
           "num": 21,

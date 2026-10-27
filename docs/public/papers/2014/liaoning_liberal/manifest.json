@@ -14,10 +14,10 @@
             "$\\{x \\mid x \\ge 0\\}$",
             "$\\{x\\mid x\\le 1\\}$",
             "$\\{x\\mid 0\\le x\\le 1\\}$",
-            "$\\{x\\mid 0 &#x3C; x &#x3C; 1\\}$"
+            "$\\{x\\mid 0 < x < 1\\}$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $A=\\{x\\mid x\\leqslant0\\}$，$B=\\{x\\mid x\\geqslant1\\}$，所以</p><p>$A\\cup B=\\{x\\mid x\\leqslant0\\text{ 或 }x\\geqslant1\\}$. 在全集 $U=\\mathbb{R}$ 中取补集，得到</p><p>$\\complement_{U}(A\\cup B)=\\{x\\mid0&#x3C;x&#x3C;1\\}$，故选择 D.</p>"
+          "solution": "<p>因为 $A=\\{x\\mid x\\leqslant0\\}$，$B=\\{x\\mid x\\geqslant1\\}$，所以</p><p>$A\\cup B=\\{x\\mid x\\leqslant0\\text{ 或 }x\\geqslant1\\}$. 在全集 $U=\\mathbb{R}$ 中取补集，得到</p><p>$\\complement_{U}(A\\cup B)=\\{x\\mid0<x<1\\}$，故选择 D.</p>"
         },
         {
           "num": 2,
@@ -41,7 +41,7 @@
             "$c > b > a$"
           ],
           "answer": "C",
-          "solution": "<p>因为 $b=\\log_{2}\\frac{1}{3}&#x3C;0$. 又 $3>2$，所以</p><p>$c=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\log_{2}3>1$；而</p><p>$a=2^{-\\frac{1}{3}}&#x3C;1$. 因此 $c>a>b$，故选择 C.</p>"
+          "solution": "<p>因为 $b=\\log_{2}\\frac{1}{3}<0$. 又 $3>2$，所以</p><p>$c=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\log_{2}3>1$；而</p><p>$a=2^{-\\frac{1}{3}}<1$. 因此 $c>a>b$，故选择 C.</p>"
         },
         {
           "num": 4,
@@ -107,17 +107,17 @@
           "num": 9,
           "body": "设等差数列 $\\{a_{n}\\}$ 的公差为 $d$，若数列 $\\{2^{a_{1}a_{n}}\\}$ 为递减数列，则（ ）",
           "choices": [
-            "$d &#x3C; 0$",
+            "$d < 0$",
             "$d > 0$",
             "$a_{1}d > 0$",
-            "$a_{1}d &#x3C; 0$"
+            "$a_{1}d < 0$"
           ],
           "answer": "D",
-          "solution": "<p>等差数列的通项为 $a_{n}=a_{1}+(n-1)d$，所以</p>\n$$\na_{1}a_{n}=a_{1}^{2}+(n-1)a_{1}d\n$$\n<p>因为底数 $2>1$，数列 $\\{2^{a_1a_n}\\}$ 递减等价于指数数列 $\\{a_{1}a_{n}\\}$ 递减，即相邻两项之差</p>\n$$\na_{1}a_{n+1}-a_{1}a_{n}=a_{1}d&#x3C;0\n$$\n<p>故选择 D.</p>"
+          "solution": "<p>等差数列的通项为 $a_{n}=a_{1}+(n-1)d$，所以</p>\n$$\na_{1}a_{n}=a_{1}^{2}+(n-1)a_{1}d\n$$\n<p>因为底数 $2>1$，数列 $\\{2^{a_1a_n}\\}$ 递减等价于指数数列 $\\{a_{1}a_{n}\\}$ 递减，即相邻两项之差</p>\n$$\na_{1}a_{n+1}-a_{1}a_{n}=a_{1}d<0\n$$\n<p>故选择 D.</p>"
         },
         {
           "num": 10,
-          "body": "已知 $f(x)$ 为偶函数，当 $x \\ge 0$ 时， $f(x) = \\begin{cases}\\cos \\pi x,&#x26;x \\in \\left[0, \\frac{1}{2}\\right],\\\\  2x - 1,&#x26;x \\in \\left(\\frac{1}{2}, +\\infty\\right).\\end{cases}$ 则不等式 $f(x - 1)\\le \\frac{1}{2}$ 的解集为（ ）",
+          "body": "已知 $f(x)$ 为偶函数，当 $x \\ge 0$ 时， $f(x) = \\begin{cases}\\cos \\pi x,&x \\in \\left[0, \\frac{1}{2}\\right],\\\\  2x - 1,&x \\in \\left(\\frac{1}{2}, +\\infty\\right).\\end{cases}$ 则不等式 $f(x - 1)\\le \\frac{1}{2}$ 的解集为（ ）",
           "choices": [
             "$\\left[\\frac{1}{4}, \\frac{2}{3}\\right] \\cup \\left[\\frac{4}{3}, \\frac{7}{4}\\right]$",
             "$\\left[-\\frac{3}{4}, -\\frac{1}{3}\\right] \\cup \\left[\\frac{1}{4}, \\frac{2}{3}\\right]$",
@@ -149,7 +149,7 @@
             "$[-4, - 3]$"
           ],
           "answer": "C",
-          "solution": "<p>当 $x\\neq0$ 时，原不等式等价于</p><p>$a\\ge\\frac{x^{2}-4x-3}{x^{3}}$，（$x>0$），$a\\le\\frac{x^{2}-4x-3}{x^{3}}$，（$x&#x3C;0$）.</p><p>令 $\\varphi(x)=\\frac{x^{2}-4x-3}{x^{3}}=\\frac{1}{x}-\\frac{4}{x^{2}}-\\frac{3}{x^{3}}$，则</p><p>$\\varphi'(x)=\\frac{-x^{2}+8x+9}{x^{4}}=-\\frac{(x-9)(x+1)}{x^{4}}$.</p><p>在 $0&#x3C;x\\leqslant1$ 上，$\\varphi'(x)>0$，故</p>\n$$\n\\sup_{0&#x3C;x\\leqslant1}\\varphi(x)=\\varphi(1)=-6\n$$\n<p>在 $[-2,0)$ 上，$\\varphi$ 在 $[-2,-1]$ 上递减、在 $[-1,0)$ 上递增，因此</p>\n$$\n\\inf_{-2\\le x&#x3C;0}\\varphi(x)=\\varphi(-1)=-2\n$$\n<p>当 $x=0$ 时左端为 $3>0$，不产生额外限制. 所以必须且只需满足</p>\n$$\n-6\\le a\\le-2\n$$\n<p>故选择 C.</p>"
+          "solution": "<p>当 $x\\neq0$ 时，原不等式等价于</p><p>$a\\ge\\frac{x^{2}-4x-3}{x^{3}}$，（$x>0$），$a\\le\\frac{x^{2}-4x-3}{x^{3}}$，（$x<0$）.</p><p>令 $\\varphi(x)=\\frac{x^{2}-4x-3}{x^{3}}=\\frac{1}{x}-\\frac{4}{x^{2}}-\\frac{3}{x^{3}}$，则</p><p>$\\varphi'(x)=\\frac{-x^{2}+8x+9}{x^{4}}=-\\frac{(x-9)(x+1)}{x^{4}}$.</p><p>在 $0<x\\leqslant1$ 上，$\\varphi'(x)>0$，故</p>\n$$\n\\sup_{0<x\\leqslant1}\\varphi(x)=\\varphi(1)=-6\n$$\n<p>在 $[-2,0)$ 上，$\\varphi$ 在 $[-2,-1]$ 上递减、在 $[-1,0)$ 上递增，因此</p>\n$$\n\\inf_{-2\\le x<0}\\varphi(x)=\\varphi(-1)=-2\n$$\n<p>当 $x=0$ 时左端为 $3>0$，不产生额外限制. 所以必须且只需满足</p>\n$$\n-6\\le a\\le-2\n$$\n<p>故选择 C.</p>"
         }
       ]
     },
@@ -222,7 +222,7 @@
           "body": "<p>已知函数 $f(x) = \\pi (x - \\cos x) - 2\\sin x - 2$，$g(x) = (x - \\pi)\\sqrt{\\frac{1 - \\sin x}{1 + \\sin x}}+ \\frac{2x}{\\pi}- 1$.</p><ol class=\"enumerate\"><li><p>证明：存在唯一 $x_{0} \\in \\left(0, \\frac{\\pi}{2}\\right)$，使 $f(x_{0}) = 0$；</p></li><li><p>证明：存在唯一 $x_{1} \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$，使 $g(x_{1}) = 0$，且对上一问中的 $x_{0}$，有 $x_{0} + x_{1} > \\pi$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数 $f$ 在 $\\left[0,\\frac{\\pi}{2}\\right]$ 上连续，且</p>\n$$\nf'(x)=\\pi(1+\\sin x)-2\\cos x\n$$\n<p>当 $0&#x3C;x&#x3C;\\dfrac{\\pi}{2}$ 时，$\\pi(1+\\sin x)>\\pi>2\\geqslant2\\cos x$，所以 $f'(x)>0$，即 $f$ 在该区间上单调递增. 又</p><p>$f(0)=-\\pi-2&#x3C;0$，$f\\left(\\frac{\\pi}{2}\\right)=\\frac{\\pi^{2}}{2}-4>0$</p><p>（因为 $\\pi>3$），由零点存在定理，存在唯一 $x_{0}\\in\\left(0,\\dfrac{\\pi}{2}\\right)$ 使 $f(x_{0})=0$.</p></li><li><p>令</p><p>$r(t)=\\sqrt{\\frac{1-\\sin t}{1+\\sin t}}$，$h(t)=1-\\frac{2t}{\\pi}-tr(t)$，$0\\le t\\le\\frac{\\pi}{2}$.</p><p>当 $x=\\pi-t$ 时，</p>\n$$\ng(\\pi-t)=1-\\frac{2t}{\\pi}-t\\sqrt{\\frac{1-\\sin t}{1+\\sin t}}=h(t)\n$$\n<p>在 $0&#x3C;t&#x3C;\\dfrac{\\pi}{2}$ 时，$r(t)=\\tan\\left(\\dfrac{\\pi}{4}-\\dfrac{t}{2}\\right)$，故 $r'(t)=-\\dfrac{1+r(t)^{2}}{2}$. 另外，</p><p>$r(t)=\\frac{\\cos t}{1+\\sin t}$，$\\frac{1+r(t)^{2}}{2}=\\frac{1}{1+\\sin t}$.</p><p>因此</p>\n$$\nh'(t)=-\\frac{2}{\\pi}-r(t)+\\frac{t(1+r(t)^{2})}{2}=-\\frac{2}{\\pi}-\\frac{\\cos t}{1+\\sin t}+\\frac{t}{1+\\sin t}=\\frac{f(t)}{\\pi(1+\\sin t)}\n$$\n<p>由上一问，$f(t)&#x3C;0$（$0&#x3C;t&#x3C;x_{0}$），$f(t)>0$（$x_{0}&#x3C;t&#x3C;\\dfrac{\\pi}{2}$），所以 $h$ 在 $(0,x_{0})$ 上单调递减，在 $\\left(x_{0},\\dfrac{\\pi}{2}\\right)$ 上单调递增. 又</p><p>$h(0)=1>0$，$h\\left(\\frac{\\pi}{2}\\right)=0$.</p><p>故 $h(x_{0})&#x3C;0$，且 $h$ 在 $(0,x_{0})$ 内恰有一个零点，记为 $t_{1}$. 在 $\\left[x_{0},\\dfrac{\\pi}{2}\\right)$ 上 $h(t)&#x3C;0$，所以没有其他零点. 令 $x_{1}=\\pi-t_{1}$，则 $x_{1}\\in\\left(\\dfrac{\\pi}{2},\\pi\\right)$，且 $g(x_{1})=h(t_{1})=0$，这也是 $g$ 在该区间内的唯一零点. 最后，由 $t_{1}&#x3C;x_{0}$，得</p>\n$$\nx_{0}+x_{1}=x_{0}+\\pi-t_{1}=\\pi+(x_{0}-t_{1})>\\pi\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数 $f$ 在 $\\left[0,\\frac{\\pi}{2}\\right]$ 上连续，且</p>\n$$\nf'(x)=\\pi(1+\\sin x)-2\\cos x\n$$\n<p>当 $0<x<\\dfrac{\\pi}{2}$ 时，$\\pi(1+\\sin x)>\\pi>2\\geqslant2\\cos x$，所以 $f'(x)>0$，即 $f$ 在该区间上单调递增. 又</p><p>$f(0)=-\\pi-2<0$，$f\\left(\\frac{\\pi}{2}\\right)=\\frac{\\pi^{2}}{2}-4>0$</p><p>（因为 $\\pi>3$），由零点存在定理，存在唯一 $x_{0}\\in\\left(0,\\dfrac{\\pi}{2}\\right)$ 使 $f(x_{0})=0$.</p></li><li><p>令</p><p>$r(t)=\\sqrt{\\frac{1-\\sin t}{1+\\sin t}}$，$h(t)=1-\\frac{2t}{\\pi}-tr(t)$，$0\\le t\\le\\frac{\\pi}{2}$.</p><p>当 $x=\\pi-t$ 时，</p>\n$$\ng(\\pi-t)=1-\\frac{2t}{\\pi}-t\\sqrt{\\frac{1-\\sin t}{1+\\sin t}}=h(t)\n$$\n<p>在 $0<t<\\dfrac{\\pi}{2}$ 时，$r(t)=\\tan\\left(\\dfrac{\\pi}{4}-\\dfrac{t}{2}\\right)$，故 $r'(t)=-\\dfrac{1+r(t)^{2}}{2}$. 另外，</p><p>$r(t)=\\frac{\\cos t}{1+\\sin t}$，$\\frac{1+r(t)^{2}}{2}=\\frac{1}{1+\\sin t}$.</p><p>因此</p>\n$$\nh'(t)=-\\frac{2}{\\pi}-r(t)+\\frac{t(1+r(t)^{2})}{2}=-\\frac{2}{\\pi}-\\frac{\\cos t}{1+\\sin t}+\\frac{t}{1+\\sin t}=\\frac{f(t)}{\\pi(1+\\sin t)}\n$$\n<p>由上一问，$f(t)<0$（$0<t<x_{0}$），$f(t)>0$（$x_{0}<t<\\dfrac{\\pi}{2}$），所以 $h$ 在 $(0,x_{0})$ 上单调递减，在 $\\left(x_{0},\\dfrac{\\pi}{2}\\right)$ 上单调递增. 又</p><p>$h(0)=1>0$，$h\\left(\\frac{\\pi}{2}\\right)=0$.</p><p>故 $h(x_{0})<0$，且 $h$ 在 $(0,x_{0})$ 内恰有一个零点，记为 $t_{1}$. 在 $\\left[x_{0},\\dfrac{\\pi}{2}\\right)$ 上 $h(t)<0$，所以没有其他零点. 令 $x_{1}=\\pi-t_{1}$，则 $x_{1}\\in\\left(\\dfrac{\\pi}{2},\\pi\\right)$，且 $g(x_{1})=h(t_{1})=0$，这也是 $g$ 在该区间内的唯一零点. 最后，由 $t_{1}<x_{0}$，得</p>\n$$\nx_{0}+x_{1}=x_{0}+\\pi-t_{1}=\\pi+(x_{0}-t_{1})>\\pi\n$$\n</li></ol>"
         }
       ]
     },
@@ -248,7 +248,7 @@
           "body": "<p>设函数 $f(x) = 2|x - 1| + x - 1$，$g(x) = 16x^{2}- 8x + 1$，记 $f(x) \\le 1$ 的解集为 $M$，$g(x) \\le 4$ 的解集为 $N$.</p><ol class=\"enumerate\"><li><p>求 $M$；</p></li><li><p>当 $x \\in M \\cap N$ 时，证明：$x^{2} f(x) + x[f(x)]^{2} \\le \\frac{1}{4}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x\\geqslant1$ 时，$f(x)=3x-3$，由 $3x-3\\leqslant1$ 得 $1\\le x\\le\\dfrac{4}{3}$. 当 $x&#x3C;1$ 时，$f(x)=1-x$，由 $1-x\\leqslant1$ 得 $x\\geqslant0$，结合 $x&#x3C;1$ 得 $0\\le x&#x3C;1$. 因此</p>\n$$\nM=\\left[0,\\frac{4}{3}\\right]\n$$\n</li><li><p>先求 $N$. 因为</p>\n$$\ng(x)=(4x-1)^{2}\n$$\n<p>所以</p>\n$$\ng(x)\\leqslant4\\iff -2\\leqslant4x-1\\leqslant2\\iff -\\frac{1}{4}\\le x\\le\\frac{3}{4}\n$$\n<p>故 $M\\cap N=\\left[0,\\dfrac{3}{4}\\right]$. 在此区间内 $x\\leqslant1$，所以 $f(x)=1-x$. 从而</p>\n$$\nx^{2}f(x)+x[f(x)]^{2}=x^{2}(1-x)+x(1-x)^{2}=x(1-x)\n$$\n<p>又由 $x(1-x)=\\frac{1}{4}-\\left(x-\\frac{1}{2}\\right)^{2}\\le\\frac{1}{4}$，</p><p>故原不等式成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x\\geqslant1$ 时，$f(x)=3x-3$，由 $3x-3\\leqslant1$ 得 $1\\le x\\le\\dfrac{4}{3}$. 当 $x<1$ 时，$f(x)=1-x$，由 $1-x\\leqslant1$ 得 $x\\geqslant0$，结合 $x<1$ 得 $0\\le x<1$. 因此</p>\n$$\nM=\\left[0,\\frac{4}{3}\\right]\n$$\n</li><li><p>先求 $N$. 因为</p>\n$$\ng(x)=(4x-1)^{2}\n$$\n<p>所以</p>\n$$\ng(x)\\leqslant4\\iff -2\\leqslant4x-1\\leqslant2\\iff -\\frac{1}{4}\\le x\\le\\frac{3}{4}\n$$\n<p>故 $M\\cap N=\\left[0,\\dfrac{3}{4}\\right]$. 在此区间内 $x\\leqslant1$，所以 $f(x)=1-x$. 从而</p>\n$$\nx^{2}f(x)+x[f(x)]^{2}=x^{2}(1-x)+x(1-x)^{2}=x(1-x)\n$$\n<p>又由 $x(1-x)=\\frac{1}{4}-\\left(x-\\frac{1}{2}\\right)^{2}\\le\\frac{1}{4}$，</p><p>故原不等式成立.</p></li></ol>"
         }
       ]
     }

@@ -33,21 +33,21 @@
           "body": "不等式 $\\dfrac{1-2x}{x+1}>0$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(-1,\\dfrac{1}{2}\\right)$",
-          "solution": "<p>分式的分子、分母分别在 $x=\\frac{1}{2}$、$x=-1$ 处为零或无意义. 当 $x&#x3C;-1$ 时，分子为正、分母为负，分式为负；当 $-1&#x3C;x&#x3C;\\frac{1}{2}$ 时，分子、分母均为正，分式为正；当 $x>\\frac{1}{2}$ 时，分子为负、分母为正，分式为负.</p><p>由于不等式要求分式大于零，且 $x=-1$ 不在定义域内、$x=\\frac{1}{2}$ 使分式等于零，故解集为 $\\left(-1,\\frac{1}{2}\\right)$.</p>"
+          "solution": "<p>分式的分子、分母分别在 $x=\\frac{1}{2}$、$x=-1$ 处为零或无意义. 当 $x<-1$ 时，分子为正、分母为负，分式为负；当 $-1<x<\\frac{1}{2}$ 时，分子、分母均为正，分式为正；当 $x>\\frac{1}{2}$ 时，分子为负、分母为正，分式为负.</p><p>由于不等式要求分式大于零，且 $x=-1$ 不在定义域内、$x=\\frac{1}{2}$ 使分式等于零，故解集为 $\\left(-1,\\frac{1}{2}\\right)$.</p>"
         },
         {
           "num": 5,
           "body": "已知圆 $C:(x+5)^{2}+y^{2}=r^{2}$（$r>0$）和直线 $l:3x+y+5=0$. 若圆 $C$ 与直线 $l$ 没有公共点，则 $r$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(0,\\sqrt{10})$",
-          "solution": "<p>圆心为 $C_{0}(-5,0)$. 圆心到直线 $l:3x+y+5=0$ 的距离为</p>\n$$\nd=\\frac{|3(-5)+0+5|}{\\sqrt{3^{2}+1^{2}}}=\\frac{10}{\\sqrt{10}}=\\sqrt{10}\n$$\n<p>圆与直线没有公共点，当且仅当圆心到直线的距离大于半径，即 $r&#x3C;\\sqrt{10}$. 又已知 $r>0$，所以</p>\n$$\n0&#x3C;r&#x3C;\\sqrt{10}\n$$"
+          "solution": "<p>圆心为 $C_{0}(-5,0)$. 圆心到直线 $l:3x+y+5=0$ 的距离为</p>\n$$\nd=\\frac{|3(-5)+0+5|}{\\sqrt{3^{2}+1^{2}}}=\\frac{10}{\\sqrt{10}}=\\sqrt{10}\n$$\n<p>圆与直线没有公共点，当且仅当圆心到直线的距离大于半径，即 $r<\\sqrt{10}$. 又已知 $r>0$，所以</p>\n$$\n0<r<\\sqrt{10}\n$$"
         },
         {
           "num": 6,
           "body": "已知函数 $f(x)$ 是定义在 $(-\\infty,+\\infty)$ 上的偶函数. 当 $x\\in(-\\infty,0)$ 时，$f(x)=x-x^{4}$，则当 $x\\in(0,+\\infty)$ 时，$f(x)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-x-x^{4}$",
-          "solution": "<p>当 $x>0$ 时，$-x&#x3C;0$. 由偶函数的定义，$f(x)=f(-x)$. 将 $-x$ 代入已知的负半轴解析式，得</p>\n$$\nf(x)=f(-x)=(-x)-(-x)^{4}=-x-x^{4}\n$$\n<p>因此当 $x\\in(0,+\\infty)$ 时，$f(x)=-x-x^{4}$.</p>"
+          "solution": "<p>当 $x>0$ 时，$-x<0$. 由偶函数的定义，$f(x)=f(-x)$. 将 $-x$ 代入已知的负半轴解析式，得</p>\n$$\nf(x)=f(-x)=(-x)-(-x)^{4}=-x-x^{4}\n$$\n<p>因此当 $x\\in(0,+\\infty)$ 时，$f(x)=-x-x^{4}$.</p>"
         },
         {
           "num": 7,
@@ -88,8 +88,8 @@
           "num": 12,
           "body": "同学们都知道，在一次考试后，如果按顺序去掉一些高分，那么班级的平均分将降低；反之，如果按顺序去掉一些低分，那么班级的平均分将提高. 这两个事实可以用数学语言描述为：若有限数列 $a_{1}$，$a_{2}$，$\\cdots$，$a_{n}$ 满足 $a_{1}\\le a_{2}\\le\\cdots\\le a_{n}$，则（结论用数学式子表示）<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$\\dfrac{a_1+a_2+\\cdots+a_m}{m}\\le\\dfrac{a_1+a_2+\\cdots+a_n}{n}$（$1\\le m&#x3C;n$），且 $\\dfrac{a_{m+1}+a_{m+2}+\\cdots+a_n}{n-m}\\ge\\dfrac{a_1+a_2+\\cdots+a_n}{n}$（$1\\le m&#x3C;n$）.",
-          "solution": "<p>取任意 $1\\le m&#x3C;n$. 因为 $a_{1}\\le\\cdots\\le a_{m}\\le a_{m+1}\\le\\cdots\\le a_{n}$，所以</p>\n$$\n\\frac{a_{1}+\\cdots+a_{m}}{m}\\le a_{m}\\le a_{m+1}\\le\\frac{a_{m+1}+\\cdots+a_{n}}{n-m}\n$$\n<p>记前一部分的平均数为 $u$，后一部分的平均数为 $v$，则 $u\\le v$. 全部数列的平均数是两部分平均数按项数加权的平均：</p>\n$$\n\\frac{a_{1}+\\cdots+a_{n}}{n}=\\frac{m}{n}u+\\frac{n-m}{n}v\n$$\n<p>因此 $u\\le\\frac{m}{n}u+\\frac{n-m}{n}v\\le v$，即</p><p>$\\frac{a_{1}+\\cdots+a_{m}}{m}\\le\\frac{a_{1}+\\cdots+a_{n}}{n}$，$\\frac{a_{m+1}+\\cdots+a_{n}}{n-m}\\ge\\frac{a_{1}+\\cdots+a_{n}}{n}$.</p>"
+          "answer": "$\\dfrac{a_1+a_2+\\cdots+a_m}{m}\\le\\dfrac{a_1+a_2+\\cdots+a_n}{n}$（$1\\le m<n$），且 $\\dfrac{a_{m+1}+a_{m+2}+\\cdots+a_n}{n-m}\\ge\\dfrac{a_1+a_2+\\cdots+a_n}{n}$（$1\\le m<n$）.",
+          "solution": "<p>取任意 $1\\le m<n$. 因为 $a_{1}\\le\\cdots\\le a_{m}\\le a_{m+1}\\le\\cdots\\le a_{n}$，所以</p>\n$$\n\\frac{a_{1}+\\cdots+a_{m}}{m}\\le a_{m}\\le a_{m+1}\\le\\frac{a_{m+1}+\\cdots+a_{n}}{n-m}\n$$\n<p>记前一部分的平均数为 $u$，后一部分的平均数为 $v$，则 $u\\le v$. 全部数列的平均数是两部分平均数按项数加权的平均：</p>\n$$\n\\frac{a_{1}+\\cdots+a_{n}}{n}=\\frac{m}{n}u+\\frac{n-m}{n}v\n$$\n<p>因此 $u\\le\\frac{m}{n}u+\\frac{n-m}{n}v\\le v$，即</p><p>$\\frac{a_{1}+\\cdots+a_{m}}{m}\\le\\frac{a_{1}+\\cdots+a_{n}}{n}$，$\\frac{a_{m+1}+\\cdots+a_{n}}{n-m}\\ge\\frac{a_{1}+\\cdots+a_{n}}{n}$.</p>"
         }
       ]
     },
@@ -112,7 +112,7 @@
           "num": 14,
           "body": "若 $a$，$b$，$c\\in\\mathbb{R}$，$a>b$，则下列不等式成立的是（ ）",
           "choices": [
-            "$\\dfrac{1}{a}&#x3C;\\dfrac{1}{b}$",
+            "$\\dfrac{1}{a}<\\dfrac{1}{b}$",
             "$a^{2}>b^{2}$",
             "$\\dfrac{a}{c^2+1}>\\dfrac{b}{c^2+1}$",
             "$a|c|>b|c|$"
@@ -134,7 +134,7 @@
         },
         {
           "num": 16,
-          "body": "若集合 $A=\\left\\{y\\mid y=x^{\\frac{1}{3}},-1\\le x\\le1\\right\\}$，$B=\\left\\{y\\mid y=2-\\dfrac{1}{x},0&#x3C;x\\le1\\right\\}$，则 $A\\cap B$ 等于（ ）",
+          "body": "若集合 $A=\\left\\{y\\mid y=x^{\\frac{1}{3}},-1\\le x\\le1\\right\\}$，$B=\\left\\{y\\mid y=2-\\dfrac{1}{x},0<x\\le1\\right\\}$，则 $A\\cap B$ 等于（ ）",
           "choices": [
             "$(-\\infty,1]$",
             "$[-1,1]$",
@@ -142,7 +142,7 @@
             "$\\{1\\}$"
           ],
           "answer": "B",
-          "solution": "<p>因为函数 $y=x^{\\frac{1}{3}}$ 在实数集上递增，且 $-1\\le x\\le1$，所以</p>\n$$\nA=\\left[-1,1\\right]\n$$\n<p>对 $B$，当 $0&#x3C;x\\le1$ 时，$\\frac{1}{x}\\ge1$，从而 $2-\\frac{1}{x}\\le1$. 当 $x\\to0^{+}$ 时，$2-\\frac{1}{x}\\to-\\infty$，且在 $x=1$ 时取到最大值 $1$，所以</p>\n$$\nB=(-\\infty,1]\n$$\n<p>于是</p>\n$$\nA\\cap B=[-1,1]\n$$\n<p>故选 B.</p>"
+          "solution": "<p>因为函数 $y=x^{\\frac{1}{3}}$ 在实数集上递增，且 $-1\\le x\\le1$，所以</p>\n$$\nA=\\left[-1,1\\right]\n$$\n<p>对 $B$，当 $0<x\\le1$ 时，$\\frac{1}{x}\\ge1$，从而 $2-\\frac{1}{x}\\le1$. 当 $x\\to0^{+}$ 时，$2-\\frac{1}{x}\\to-\\infty$，且在 $x=1$ 时取到最大值 $1$，所以</p>\n$$\nB=(-\\infty,1]\n$$\n<p>于是</p>\n$$\nA\\cap B=[-1,1]\n$$\n<p>故选 B.</p>"
         }
       ]
     },
@@ -182,14 +182,14 @@
           "body": "<p>设函数 $f(x)=|x^{2}-4x-5|$.</p><ol class=\"enumerate\"><li><p>在区间 $[-2,6]$ 上画出函数 $f(x)$ 的图象；</p></li><li><p>设集合 $A=\\{x\\mid f(x)\\ge5\\}$，$B=(-\\infty,-2]\\cup[0,4]\\cup[6,+\\infty)$. 试判断集合 $A$ 和 $B$ 之间的关系，并给出证明；</p></li><li><p>当 $k>2$ 时，求证：在区间 $[-1,5]$ 上，$y=k(x+3)$ 的图象位于函数 $f(x)$ 图象的上方.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数 $y=x^{2}-4x-5$ 的零点为 $-1,5$，顶点为 $(2,-9)$. 因此，在区间 $[-2,6]$ 上，函数 $f(x)=|x^{2}-4x-5|$ 的图象由抛物线 $y=x^{2}-4x-5$ 在 $x\\le-1$ 与 $x\\ge5$ 部分，以及其在 $[-1,5]$ 上关于 $x$ 轴对称所得的曲线组成.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q21_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p><ol class=\"enumerate\"><li><p>方程 $f(x)=5$ 的解分别是 $2-\\sqrt{14}$，$0$，$4$，$2+\\sqrt{14}$. 由于 $f(x)$ 在 $(-\\infty,-1]$ 和 $[2,5]$ 上单调递减，在 $[-1,2]$ 和 $[5,+\\infty)$ 上单调递增，所以 $A=(-\\infty,2-\\sqrt{14}]\\cup[0,4]\\cup[2+\\sqrt{14},+\\infty)$.</p><p>又因为 $2+\\sqrt{14}&#x3C;6$，$2-\\sqrt{14}>-2$，所以 $B\\subset A$.</p></li><li><p>【法一】当 $x\\in[-1,5]$ 时，$f(x)=-(x^{2}-4x-5)=-x^{2}+4x+5$. 令</p>\n$$\ng(x)=k(x+3)-f(x)=x^{2}+(k-4)x+(3k-5)=\\left(x-\\dfrac{4-k}{2}\\right)^{2}-\\dfrac{k^2-20k+36}{4}\n$$\n<p>因为 $k>2$，所以 $\\dfrac{4-k}{2}&#x3C;1$.</p><p></p><ol class=\"enumerate\"><li><p>当 $-1\\le\\dfrac{4-k}{2}&#x3C;1$，即 $2&#x3C;k\\le6$ 时，取 $x=\\dfrac{4-k}{2}$，则 $g(x)_{\\min}=-\\dfrac{k^2-20k+36}{4}=-\\dfrac{1}{4}\\bigl[(k-10)^{2}-64\\bigr]$. 因为 $16\\le(k-10)^{2}&#x3C;64$，所以 $g(x)_{\\min}>0$.</p></li><li><p>当 $\\dfrac{4-k}{2}&#x3C;-1$，即 $k>6$ 时，取 $x=-1$，则 $g(x)_{\\min}=2k>0$.</p></li></ol><p></p><p>由上述两种情况可知，当 $k>2$ 时，$g(x)>0$（$x\\in[-1,5]$）. 因此，在区间 $[-1,5]$ 上，$y=k(x+3)$ 的图象位于函数 $f(x)$ 图象的上方.</p><p>【法二】当 $x\\in[-1,5]$ 时，$f(x)=-x^{2}+4x+5$. 联立</p>\n$$\n\\begin{cases}y=k(x+3),\\\\  y=-x^{2}+4x+5\\end{cases}\n$$\n<p>得 $x^{2}+(k-4)x+(3k-5)=0$. 令 $\\Delta=(k-4)^{2}-4(3k-5)=0$，解得 $k=2$ 或 $k=18$. 在区间 $[-1,5]$ 上，当 $k=2$ 时，直线 $y=2(x+3)$ 与函数 $f(x)$ 的图象只交于一点 $(1,8)$；当 $k=18$ 时，直线 $y=18(x+3)$ 与函数 $f(x)$ 的图象没有交点.</p><p>又直线 $y=k(x+3)$ 过点 $(-3,0)$，当 $k>2$ 时，它由直线 $y=2(x+3)$ 绕点 $(-3,0)$ 逆时针方向旋转得到，所以在区间 $[-1,5]$ 上，$y=k(x+3)$ 的图象位于函数 $f(x)$ 图象的上方.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数 $y=x^{2}-4x-5$ 的零点为 $-1,5$，顶点为 $(2,-9)$. 因此，在区间 $[-2,6]$ 上，函数 $f(x)=|x^{2}-4x-5|$ 的图象由抛物线 $y=x^{2}-4x-5$ 在 $x\\le-1$ 与 $x\\ge5$ 部分，以及其在 $[-1,5]$ 上关于 $x$ 轴对称所得的曲线组成.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q21_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p><ol class=\"enumerate\"><li><p>方程 $f(x)=5$ 的解分别是 $2-\\sqrt{14}$，$0$，$4$，$2+\\sqrt{14}$. 由于 $f(x)$ 在 $(-\\infty,-1]$ 和 $[2,5]$ 上单调递减，在 $[-1,2]$ 和 $[5,+\\infty)$ 上单调递增，所以 $A=(-\\infty,2-\\sqrt{14}]\\cup[0,4]\\cup[2+\\sqrt{14},+\\infty)$.</p><p>又因为 $2+\\sqrt{14}<6$，$2-\\sqrt{14}>-2$，所以 $B\\subset A$.</p></li><li><p>【法一】当 $x\\in[-1,5]$ 时，$f(x)=-(x^{2}-4x-5)=-x^{2}+4x+5$. 令</p>\n$$\ng(x)=k(x+3)-f(x)=x^{2}+(k-4)x+(3k-5)=\\left(x-\\dfrac{4-k}{2}\\right)^{2}-\\dfrac{k^2-20k+36}{4}\n$$\n<p>因为 $k>2$，所以 $\\dfrac{4-k}{2}<1$.</p><p></p><ol class=\"enumerate\"><li><p>当 $-1\\le\\dfrac{4-k}{2}<1$，即 $2<k\\le6$ 时，取 $x=\\dfrac{4-k}{2}$，则 $g(x)_{\\min}=-\\dfrac{k^2-20k+36}{4}=-\\dfrac{1}{4}\\bigl[(k-10)^{2}-64\\bigr]$. 因为 $16\\le(k-10)^{2}<64$，所以 $g(x)_{\\min}>0$.</p></li><li><p>当 $\\dfrac{4-k}{2}<-1$，即 $k>6$ 时，取 $x=-1$，则 $g(x)_{\\min}=2k>0$.</p></li></ol><p></p><p>由上述两种情况可知，当 $k>2$ 时，$g(x)>0$（$x\\in[-1,5]$）. 因此，在区间 $[-1,5]$ 上，$y=k(x+3)$ 的图象位于函数 $f(x)$ 图象的上方.</p><p>【法二】当 $x\\in[-1,5]$ 时，$f(x)=-x^{2}+4x+5$. 联立</p>\n$$\n\\begin{cases}y=k(x+3),\\\\  y=-x^{2}+4x+5\\end{cases}\n$$\n<p>得 $x^{2}+(k-4)x+(3k-5)=0$. 令 $\\Delta=(k-4)^{2}-4(3k-5)=0$，解得 $k=2$ 或 $k=18$. 在区间 $[-1,5]$ 上，当 $k=2$ 时，直线 $y=2(x+3)$ 与函数 $f(x)$ 的图象只交于一点 $(1,8)$；当 $k=18$ 时，直线 $y=18(x+3)$ 与函数 $f(x)$ 的图象没有交点.</p><p>又直线 $y=k(x+3)$ 过点 $(-3,0)$，当 $k>2$ 时，它由直线 $y=2(x+3)$ 绕点 $(-3,0)$ 逆时针方向旋转得到，所以在区间 $[-1,5]$ 上，$y=k(x+3)$ 的图象位于函数 $f(x)$ 图象的上方.</p></li></ol>"
         },
         {
           "num": 22,
           "body": "<p>已知数列 $a_{1}$，$a_{2}$，$\\cdots$，$a_{30}$，其中 $a_{1}$，$a_{2}$，$\\cdots$，$a_{10}$ 是首项为 $1$，公差为 $1$ 的等差数列；$a_{10}$，$a_{11}$，$\\cdots$，$a_{20}$ 是公差为 $d$ 的等差数列；$a_{20}$，$a_{21}$，$\\cdots$，$a_{30}$ 是公差为 $d^{2}$ 的等差数列（$d\\ne0$）.</p><ol class=\"enumerate\"><li><p>若 $a_{20}=40$，求 $d$；</p></li><li><p>试写出 $a_{30}$ 关于 $d$ 的关系式，并求 $a_{30}$ 的取值范围；</p></li><li><p>续写已知数列，使得 $a_{30}$，$a_{31}$，$\\cdots$，$a_{40}$ 是公差为 $d^{3}$ 的等差数列，……，依次类推，把已知数列推广为无穷数列. 提出同第 $2$ 问类似的问题，并使第 $2$ 问作为特例进行研究，你能得到什么样的结论？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$a_{10}=10$. 又 $a_{20}=10+10d=40$，所以 $d=3$.</p></li><li><p>由题意，$a_{30}=a_{20}+10d^{2}=10(1+d+d^{2})$（$d\\ne0$）. 于是 $a_{30}=10\\left[\\left(d+\\dfrac{1}{2}\\right)^{2}+\\dfrac{3}{4}\\right]$. 当 $d\\in(-\\infty,0)\\cup(0,+\\infty)$ 时，$a_{30}\\in\\left[\\dfrac{15}{2},+\\infty\\right)$.</p></li><li><p>所给数列可推广为无穷数列 $\\{a_{n}\\}$. 其中 $a_{1}$，$a_{2}$，$\\cdots$，$a_{10}$ 是首项为 $1$，公差为 $1$ 的等差数列；当 $n\\ge1$ 时，数列 $a_{10n}$，$a_{10n+1}$，$\\cdots$，$a_{10(n+1)}$ 是公差为 $d^{n}$ 的等差数列.</p><p>研究的问题可以是：试写出 $a_{10(n+1)}$ 关于 $d$ 的关系式，并在 $d\\ne0$ 的条件下求 $a_{10(n+1)}$ 的取值范围，其中 $n$ 为正整数.</p><p>每个长度为 10 的等差数列区段包含 10 个公差，因此对 $n\\ge1$ 有递推关系</p><p>$a_{10(n+1)}=a_{10n}+10d^{n}$，$a_{10}=10$.</p><p>逐项展开可得</p>\n$$\na_{10(n+1)}=10(1+d+\\cdots+d^{n})=  \\begin{cases}10\\times\\dfrac{1-d^{n+1}}{1-d},&#x26;d\\ne1,\\\\  10(n+1),&#x26;d=1.\\end{cases}\n$$\n<p>令 $F_{n}(d)=10(1+d+\\cdots+d^{n})$. 当 $n=2$ 时，$F_{2}(d)=10\\left[\\left(d+\\dfrac{1}{2}\\right)^{2}+\\dfrac{3}{4}\\right]$，所以 $F_{2}(d)$ 的取值范围为 $\\left[\\dfrac{15}{2},+\\infty\\right)$，正好得到第 $2$ 问的结论.</p><p>下面研究一般的固定正整数 $n$. 若 $n$ 为奇数，则</p>\n$$\nF_{n}(d)-10=10d(1+d+\\cdots+d^{n-1})\n$$\n<p>当 $d=1$ 时，$1+d+\\cdots+d^{n-1}=n>0$；当 $d\\ne1$ 时，</p>\n$$\n1+d+\\cdots+d^{n-1}=\\frac{d^{n}-1}{d-1}>0\n$$\n<p>这里不等号成立是因为 $n$ 为奇数：当 $d&#x3C;0$ 时分子、分母均为负；当 $0&#x3C;d&#x3C;1$ 时分子、分母也均为负；当 $d>1$ 时分子、分母均为正. 所以 $F_{n}(d)&#x3C;10$（$d&#x3C;0$）或 $F_{n}(d)>10$（$d>0$）. 又当 $d\\to-\\infty$ 时 $F_{n}(d)\\to-\\infty$，当 $d\\to0^{-}$ 时 $F_{n}(d)\\to10$，由连续性可知负数 $d$ 对应的取值范围为 $(-\\infty,10)$；同理，正数 $d$ 对应的取值范围为 $(10,+\\infty)$. 因而当 $n$ 为奇数时，</p>\n$$\nF_{n}(d)\\in(-\\infty,10)\\cup(10,+\\infty)\n$$\n<p>若 $n$ 为偶数，则 $F_{n}(d)$ 是偶次多项式，且首项系数为正，所以当 $|d|\\to+\\infty$ 时 $F_{n}(d)\\to+\\infty$，从而它在实数集上有最小值. 记</p>\n$$\nm_{n}=10\\min_{d\\in\\mathbb{R}}(1+d+\\cdots+d^{n})\n$$\n<p>去掉题设不允许的 $d=0$ 不会改变值域，因为 $F_{n}(0)=10$，而 $n$ 为偶数时 $F_{n}(-1)=10$. 因此当 $n$ 为偶数时，</p>\n$$\nF_{n}(d)\\in[m_{n},+\\infty)\n$$\n<p>最小值点满足</p>\n$$\n1+2d+3d^{2}+\\cdots+nd^{n-1}=0\n$$\n<p>综上，推广后的结论是：</p>\n$$\na_{10(n+1)}\\in  \\begin{cases}(-\\infty,10)\\cup(10,+\\infty),&#x26;n\\text{为奇数},\\\\  [m_{n},+\\infty),&#x26;n\\text{为偶数},\\end{cases}  \\qquad d\\ne0\n$$\n<p>其中 $m_{n}=10\\min_{d\\in\\mathbb{R}}(1+d+\\cdots+d^{n})$. 当 $n=2$ 时，$m_{2}=\\dfrac{15}{2}$，故确实包含第 $2$ 问作为特例.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$a_{10}=10$. 又 $a_{20}=10+10d=40$，所以 $d=3$.</p></li><li><p>由题意，$a_{30}=a_{20}+10d^{2}=10(1+d+d^{2})$（$d\\ne0$）. 于是 $a_{30}=10\\left[\\left(d+\\dfrac{1}{2}\\right)^{2}+\\dfrac{3}{4}\\right]$. 当 $d\\in(-\\infty,0)\\cup(0,+\\infty)$ 时，$a_{30}\\in\\left[\\dfrac{15}{2},+\\infty\\right)$.</p></li><li><p>所给数列可推广为无穷数列 $\\{a_{n}\\}$. 其中 $a_{1}$，$a_{2}$，$\\cdots$，$a_{10}$ 是首项为 $1$，公差为 $1$ 的等差数列；当 $n\\ge1$ 时，数列 $a_{10n}$，$a_{10n+1}$，$\\cdots$，$a_{10(n+1)}$ 是公差为 $d^{n}$ 的等差数列.</p><p>研究的问题可以是：试写出 $a_{10(n+1)}$ 关于 $d$ 的关系式，并在 $d\\ne0$ 的条件下求 $a_{10(n+1)}$ 的取值范围，其中 $n$ 为正整数.</p><p>每个长度为 10 的等差数列区段包含 10 个公差，因此对 $n\\ge1$ 有递推关系</p><p>$a_{10(n+1)}=a_{10n}+10d^{n}$，$a_{10}=10$.</p><p>逐项展开可得</p>\n$$\na_{10(n+1)}=10(1+d+\\cdots+d^{n})=  \\begin{cases}10\\times\\dfrac{1-d^{n+1}}{1-d},&d\\ne1,\\\\  10(n+1),&d=1.\\end{cases}\n$$\n<p>令 $F_{n}(d)=10(1+d+\\cdots+d^{n})$. 当 $n=2$ 时，$F_{2}(d)=10\\left[\\left(d+\\dfrac{1}{2}\\right)^{2}+\\dfrac{3}{4}\\right]$，所以 $F_{2}(d)$ 的取值范围为 $\\left[\\dfrac{15}{2},+\\infty\\right)$，正好得到第 $2$ 问的结论.</p><p>下面研究一般的固定正整数 $n$. 若 $n$ 为奇数，则</p>\n$$\nF_{n}(d)-10=10d(1+d+\\cdots+d^{n-1})\n$$\n<p>当 $d=1$ 时，$1+d+\\cdots+d^{n-1}=n>0$；当 $d\\ne1$ 时，</p>\n$$\n1+d+\\cdots+d^{n-1}=\\frac{d^{n}-1}{d-1}>0\n$$\n<p>这里不等号成立是因为 $n$ 为奇数：当 $d<0$ 时分子、分母均为负；当 $0<d<1$ 时分子、分母也均为负；当 $d>1$ 时分子、分母均为正. 所以 $F_{n}(d)<10$（$d<0$）或 $F_{n}(d)>10$（$d>0$）. 又当 $d\\to-\\infty$ 时 $F_{n}(d)\\to-\\infty$，当 $d\\to0^{-}$ 时 $F_{n}(d)\\to10$，由连续性可知负数 $d$ 对应的取值范围为 $(-\\infty,10)$；同理，正数 $d$ 对应的取值范围为 $(10,+\\infty)$. 因而当 $n$ 为奇数时，</p>\n$$\nF_{n}(d)\\in(-\\infty,10)\\cup(10,+\\infty)\n$$\n<p>若 $n$ 为偶数，则 $F_{n}(d)$ 是偶次多项式，且首项系数为正，所以当 $|d|\\to+\\infty$ 时 $F_{n}(d)\\to+\\infty$，从而它在实数集上有最小值. 记</p>\n$$\nm_{n}=10\\min_{d\\in\\mathbb{R}}(1+d+\\cdots+d^{n})\n$$\n<p>去掉题设不允许的 $d=0$ 不会改变值域，因为 $F_{n}(0)=10$，而 $n$ 为偶数时 $F_{n}(-1)=10$. 因此当 $n$ 为偶数时，</p>\n$$\nF_{n}(d)\\in[m_{n},+\\infty)\n$$\n<p>最小值点满足</p>\n$$\n1+2d+3d^{2}+\\cdots+nd^{n-1}=0\n$$\n<p>综上，推广后的结论是：</p>\n$$\na_{10(n+1)}\\in  \\begin{cases}(-\\infty,10)\\cup(10,+\\infty),&n\\text{为奇数},\\\\  [m_{n},+\\infty),&n\\text{为偶数},\\end{cases}  \\qquad d\\ne0\n$$\n<p>其中 $m_{n}=10\\min_{d\\in\\mathbb{R}}(1+d+\\cdots+d^{n})$. 当 $n=2$ 时，$m_{2}=\\dfrac{15}{2}$，故确实包含第 $2$ 问作为特例.</p></li></ol>"
         }
       ]
     }

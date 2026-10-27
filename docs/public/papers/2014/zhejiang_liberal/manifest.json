@@ -81,15 +81,15 @@
         },
         {
           "num": 7,
-          "body": "已知函数 $f(x) = x^{3}+ ax^{2}+ bx + c$，且 $0 &#x3C; f(-1) = f(-2) = f(-3) \\le 3$，则（ ）",
+          "body": "已知函数 $f(x) = x^{3}+ ax^{2}+ bx + c$，且 $0 < f(-1) = f(-2) = f(-3) \\le 3$，则（ ）",
           "choices": [
             "$c \\le 3$",
-            "$3 &#x3C; c \\le 6$",
-            "$6 &#x3C; c \\le 9$",
+            "$3 < c \\le 6$",
+            "$6 < c \\le 9$",
             "$c > 9$"
           ],
           "answer": "C",
-          "solution": "<p>由 $f(-1)=f(-2)$，得</p>\n$$\n-1+a-b+c=-8+4a-2b+c\n$$\n<p>即 $b=3a-7$. 由 $f(-2)=f(-3)$，得</p>\n$$\n-8+4a-2b+c=-27+9a-3b+c\n$$\n<p>即 $b=5a-19$. 联立两式，得 $a=6$，$b=11$.</p><p>于是</p>\n$$\nf(-1)=-1+6-11+c=c-6\n$$\n<p>由题设 $0&#x3C;f(-1)\\leqslant3$，得</p>\n$$\n0&#x3C;c-6\\leqslant3\n$$\n<p>即 $6&#x3C;c\\leqslant9$. 所以选择 C.</p>"
+          "solution": "<p>由 $f(-1)=f(-2)$，得</p>\n$$\n-1+a-b+c=-8+4a-2b+c\n$$\n<p>即 $b=3a-7$. 由 $f(-2)=f(-3)$，得</p>\n$$\n-8+4a-2b+c=-27+9a-3b+c\n$$\n<p>即 $b=5a-19$. 联立两式，得 $a=6$，$b=11$.</p><p>于是</p>\n$$\nf(-1)=-1+6-11+c=c-6\n$$\n<p>由题设 $0<f(-1)\\leqslant3$，得</p>\n$$\n0<c-6\\leqslant3\n$$\n<p>即 $6<c\\leqslant9$. 所以选择 C.</p>"
         },
         {
           "num": 8,
@@ -101,7 +101,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang_liberal/q8_choice_d.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "<p>因为 $f(x)=x^{a}$ 在 $x>0$ 上对任意允许的底数 $a>0$、$a\\ne1$ 都是增函数，并且经过原点，所以选项 A 不可能.</p><p>若 $a>1$，则 $f(x)=x^{a}$ 在 $x>0$ 上是增函数且图象向上凸，$g(x)=\\log_{a}x$ 是增函数；若 $0&#x3C;a&#x3C;1$，则 $f(x)=x^{a}$ 是增函数且图象向下凹，而 $g(x)=\\log_{a}x$ 是减函数，并经过点 $(1,0)$. 只有选项 D 同时具有“幂函数经过原点且向上增加”和“底数小于 $1$ 的对数函数递减并经过 $(1,0)$”的特征. 所以选择 D.</p>"
+          "solution": "<p>因为 $f(x)=x^{a}$ 在 $x>0$ 上对任意允许的底数 $a>0$、$a\\ne1$ 都是增函数，并且经过原点，所以选项 A 不可能.</p><p>若 $a>1$，则 $f(x)=x^{a}$ 在 $x>0$ 上是增函数且图象向上凸，$g(x)=\\log_{a}x$ 是增函数；若 $0<a<1$，则 $f(x)=x^{a}$ 是增函数且图象向下凹，而 $g(x)=\\log_{a}x$ 是减函数，并经过点 $(1,0)$. 只有选项 D 同时具有“幂函数经过原点且向上增加”和“底数小于 $1$ 的对数函数递减并经过 $(1,0)$”的特征. 所以选择 D.</p>"
         },
         {
           "num": 9,
@@ -113,7 +113,7 @@
             "若 $|\\mathbf{b}|$ 确定，则 $\\theta$ 唯一确定"
           ],
           "answer": "B",
-          "solution": "<p>设 $A=|\\mathbf{a}|>0$，$B=|\\mathbf{b}|>0$. 则</p>\n$$\n|\\mathbf{b}+t\\mathbf{a}|^{2}=B^{2}+2tAB\\cos\\theta+t^{2}A^{2}\n$$\n<p>这是关于 $t$ 的二次函数，其最小值在</p>\n$$\nt=-\\frac{B\\cos\\theta}{A}\n$$\n<p>处取得，且</p>\n$$\n\\min|\\mathbf{b}+t\\mathbf{a}|^{2}=B^{2}-B^{2}\\cos^{2}\\theta=B^{2}\\sin^{2}\\theta\n$$\n<p>题设最小值为 $1>0$，所以 $\\mathbf{a}$，$\\mathbf{b}$ 不共线，从而 $0&#x3C;\\theta&#x3C;\\pi$. 因此</p>\n$$\nB\\sin\\theta=1\n$$\n<p>因此当 $\\theta$ 确定时，$B=|\\mathbf{b}|=\\frac{1}{\\sin\\theta}$ 唯一确定，选项 B 正确. 选项 A 不正确：取 $\\theta=\\frac{\\pi}{2}$，$B=1$，则任意 $A>0$ 都满足最小值为 $1$，故 $A$ 不能唯一确定. 选项 C 不正确：固定 $A=1$，取 $(B,\\theta)=(2,\\frac{\\pi}{6})$ 或 $(2,\\frac{5\\pi}{6})$，均有 $B\\sin\\theta=1$，但 $\\theta$ 不同. 选项 D 不正确：固定 $B=2$，上述两个不同的 $\\theta$ 都满足条件，故 $\\theta$ 不能唯一确定.</p>"
+          "solution": "<p>设 $A=|\\mathbf{a}|>0$，$B=|\\mathbf{b}|>0$. 则</p>\n$$\n|\\mathbf{b}+t\\mathbf{a}|^{2}=B^{2}+2tAB\\cos\\theta+t^{2}A^{2}\n$$\n<p>这是关于 $t$ 的二次函数，其最小值在</p>\n$$\nt=-\\frac{B\\cos\\theta}{A}\n$$\n<p>处取得，且</p>\n$$\n\\min|\\mathbf{b}+t\\mathbf{a}|^{2}=B^{2}-B^{2}\\cos^{2}\\theta=B^{2}\\sin^{2}\\theta\n$$\n<p>题设最小值为 $1>0$，所以 $\\mathbf{a}$，$\\mathbf{b}$ 不共线，从而 $0<\\theta<\\pi$. 因此</p>\n$$\nB\\sin\\theta=1\n$$\n<p>因此当 $\\theta$ 确定时，$B=|\\mathbf{b}|=\\frac{1}{\\sin\\theta}$ 唯一确定，选项 B 正确. 选项 A 不正确：取 $\\theta=\\frac{\\pi}{2}$，$B=1$，则任意 $A>0$ 都满足最小值为 $1$，故 $A$ 不能唯一确定. 选项 C 不正确：固定 $A=1$，取 $(B,\\theta)=(2,\\frac{\\pi}{6})$ 或 $(2,\\frac{5\\pi}{6})$，均有 $B\\sin\\theta=1$，但 $\\theta$ 不同. 选项 D 不正确：固定 $B=2$，上述两个不同的 $\\theta$ 都满足条件，故 $\\theta$ 不能唯一确定.</p>"
         },
         {
           "num": 10,
@@ -162,10 +162,10 @@
         },
         {
           "num": 15,
-          "body": "设函数 $f(x) = \\begin{cases}x^{2} + 2x + 2,&#x26;x \\le 0,\\\\  -x^{2},&#x26;x > 0.\\end{cases}$ 若 $f(f(a)) = 2$，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "设函数 $f(x) = \\begin{cases}x^{2} + 2x + 2,&x \\le 0,\\\\  -x^{2},&x > 0.\\end{cases}$ 若 $f(f(a)) = 2$，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\sqrt{2}$",
-          "solution": "<p>令 $u=f(a)$. 要使 $f(u)=2$，若 $u>0$，则 $f(u)=-u^{2}&#x3C;0$，不可能等于 $2$. 因此必须有 $u\\leqslant0$，从而</p>\n$$\nu^{2}+2u+2=2\n$$\n<p>即</p><p>$u(u+2)=0$，$u=0\\text{ 或 }u=-2$.</p><p>下面分别考察 $f(a)=0$ 和 $f(a)=-2$. 当 $a\\leqslant0$ 时，$f(a)=(a+1)^{2}+1\\geqslant1$，所以这两种情况都不可能由 $a\\leqslant0$ 得到；当 $a>0$ 时，$f(a)=-a^{2}$. 方程 $-a^{2}=0$ 没有满足 $a>0$ 的解，而</p><p>$-a^{2}=-2$，$\\Longrightarrow$，$a^{2}=2$，$\\Longrightarrow$，$a=\\sqrt{2}$.</p><p>所以 $a=\\sqrt{2}$.</p>"
+          "solution": "<p>令 $u=f(a)$. 要使 $f(u)=2$，若 $u>0$，则 $f(u)=-u^{2}<0$，不可能等于 $2$. 因此必须有 $u\\leqslant0$，从而</p>\n$$\nu^{2}+2u+2=2\n$$\n<p>即</p><p>$u(u+2)=0$，$u=0\\text{ 或 }u=-2$.</p><p>下面分别考察 $f(a)=0$ 和 $f(a)=-2$. 当 $a\\leqslant0$ 时，$f(a)=(a+1)^{2}+1\\geqslant1$，所以这两种情况都不可能由 $a\\leqslant0$ 得到；当 $a>0$ 时，$f(a)=-a^{2}$. 方程 $-a^{2}=0$ 没有满足 $a>0$ 的解，而</p><p>$-a^{2}=-2$，$\\Longrightarrow$，$a^{2}=2$，$\\Longrightarrow$，$a=\\sqrt{2}$.</p><p>所以 $a=\\sqrt{2}$.</p>"
         },
         {
           "num": 16,
@@ -191,7 +191,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $4\\sin^{2}\\frac{A - B}{2}+ 4\\sin A\\sin B = 2 + \\sqrt{2}$.</p><ol class=\"enumerate\"><li><p>求角 $C$ 的大小；</p></li><li><p>已知 $b = 4$，$\\triangle ABC$ 的面积为 6，求边长 $c$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $A+B+C=\\pi$，以及倍角公式，有</p>\n$$\n4\\sin^{2}\\frac{A-B}{2}=2-2\\cos(A-B)\n$$\n\n$$\n4\\sin A\\sin B=2\\cos(A-B)-2\\cos(A+B)\n$$\n<p>因此，已知等式左边为</p>\n$$\n2-2\\cos(A+B)=2-2\\cos(\\pi-C)=2+2\\cos C\n$$\n<p>所以 $2+2\\cos C=2+\\sqrt{2}$，即 $\\cos C=\\frac{\\sqrt{2}}{2}$. 因为 $0&#x3C;C&#x3C;\\pi$，故 $C=\\frac{\\pi}{4}$.</p></li><li><p>由三角形面积公式，得</p>\n$$\n6=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\cdot a\\cdot4\\cdot\\frac{\\sqrt{2}}{2}=a\\sqrt{2}\n$$\n<p>所以 $a=3\\sqrt{2}$. 再由余弦定理，得</p>\n$$\nc^{2}=a^{2}+b^{2}-2ab\\cos C=18+16-2\\cdot3\\sqrt{2}\\cdot4\\cdot\\frac{\\sqrt{2}}{2}=10\n$$\n<p>由于 $c>0$，所以 $c=\\sqrt{10}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $A+B+C=\\pi$，以及倍角公式，有</p>\n$$\n4\\sin^{2}\\frac{A-B}{2}=2-2\\cos(A-B)\n$$\n\n$$\n4\\sin A\\sin B=2\\cos(A-B)-2\\cos(A+B)\n$$\n<p>因此，已知等式左边为</p>\n$$\n2-2\\cos(A+B)=2-2\\cos(\\pi-C)=2+2\\cos C\n$$\n<p>所以 $2+2\\cos C=2+\\sqrt{2}$，即 $\\cos C=\\frac{\\sqrt{2}}{2}$. 因为 $0<C<\\pi$，故 $C=\\frac{\\pi}{4}$.</p></li><li><p>由三角形面积公式，得</p>\n$$\n6=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\cdot a\\cdot4\\cdot\\frac{\\sqrt{2}}{2}=a\\sqrt{2}\n$$\n<p>所以 $a=3\\sqrt{2}$. 再由余弦定理，得</p>\n$$\nc^{2}=a^{2}+b^{2}-2ab\\cos C=18+16-2\\cdot3\\sqrt{2}\\cdot4\\cdot\\frac{\\sqrt{2}}{2}=10\n$$\n<p>由于 $c>0$，所以 $c=\\sqrt{10}$.</p></li></ol>"
         },
         {
           "num": 19,
@@ -212,14 +212,14 @@
           "body": "<p>已知函数 $f(x) = x^{3} + 3|x - a|$ （$a > 0$），若 $f(x)$ 在 $[-1, 1]$ 上的最小值记为 $g(a)$.</p><ol class=\"enumerate\"><li><p>求 $g(a)$；</p></li><li><p>证明：当 $x \\in [-1, 1]$ 时，恒有 $f(x) \\le g(a) + 4$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $0&#x3C;a\\leqslant1$ 时，在区间 $[-1,a]$ 上</p>\n$$\nf(x)=x^{3}-3x+3a\n$$\n<p>其导数为 $3x^{2}-3\\leqslant0$，所以该函数在 $[-1,a]$ 上单调递减；在区间 $[a,1]$ 上</p>\n$$\nf(x)=x^{3}+3x-3a\n$$\n<p>其导数为 $3x^{2}+3>0$，所以该函数在 $[a,1]$ 上单调递增. 因而最小值在 $x=a$ 处取得，$g(a)=a^{3}$.</p><p>当 $a>1$ 时，对任意 $x\\in[-1,1]$ 都有 $x&#x3C;a$，故</p>\n$$\nf(x)=x^{3}-3x+3a\n$$\n<p>其导数在 $[-1,1]$ 上不大于零，所以最小值在 $x=1$ 处取得，$g(a)=1-3+3a=3a-2$. 综上，</p>\n$$\ng(a)=\\begin{cases}a^{3},&#x26;0&#x3C;a\\leqslant1,\\\\  3a-2,&#x26;a>1.\\end{cases}\n$$\n</li><li><p>当 $a>1$ 时，$f(x)=x^{3}-3x+3a$ 在 $[-1,1]$ 上单调递减，所以</p>\n$$\nf(x)\\le f(-1)=3a+2=g(a)+4\n$$\n<p>当 $0&#x3C;a\\leqslant1$ 时，若 $x\\in[-1,a]$，由前面的单调性知</p>\n$$\nf(x)\\le f(-1)=3a+2\n$$\n<p>又因为</p>\n$$\na^{3}+4-(3a+2)=a^{3}-3a+2=(a-1)^{2}(a+2)\\geqslant0\n$$\n<p>所以 $f(x)\\le a^{3}+4=g(a)+4$. 若 $x\\in[a,1]$，则</p>\n$$\nf(x)\\le f(1)=4-3a\\le a^{3}+4=g(a)+4\n$$\n<p>其中最后一个不等式由 $a>0$ 得出. 因此对任意 $x\\in[-1,1]$，恒有 $f(x)\\le g(a)+4$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $0<a\\leqslant1$ 时，在区间 $[-1,a]$ 上</p>\n$$\nf(x)=x^{3}-3x+3a\n$$\n<p>其导数为 $3x^{2}-3\\leqslant0$，所以该函数在 $[-1,a]$ 上单调递减；在区间 $[a,1]$ 上</p>\n$$\nf(x)=x^{3}+3x-3a\n$$\n<p>其导数为 $3x^{2}+3>0$，所以该函数在 $[a,1]$ 上单调递增. 因而最小值在 $x=a$ 处取得，$g(a)=a^{3}$.</p><p>当 $a>1$ 时，对任意 $x\\in[-1,1]$ 都有 $x<a$，故</p>\n$$\nf(x)=x^{3}-3x+3a\n$$\n<p>其导数在 $[-1,1]$ 上不大于零，所以最小值在 $x=1$ 处取得，$g(a)=1-3+3a=3a-2$. 综上，</p>\n$$\ng(a)=\\begin{cases}a^{3},&0<a\\leqslant1,\\\\  3a-2,&a>1.\\end{cases}\n$$\n</li><li><p>当 $a>1$ 时，$f(x)=x^{3}-3x+3a$ 在 $[-1,1]$ 上单调递减，所以</p>\n$$\nf(x)\\le f(-1)=3a+2=g(a)+4\n$$\n<p>当 $0<a\\leqslant1$ 时，若 $x\\in[-1,a]$，由前面的单调性知</p>\n$$\nf(x)\\le f(-1)=3a+2\n$$\n<p>又因为</p>\n$$\na^{3}+4-(3a+2)=a^{3}-3a+2=(a-1)^{2}(a+2)\\geqslant0\n$$\n<p>所以 $f(x)\\le a^{3}+4=g(a)+4$. 若 $x\\in[a,1]$，则</p>\n$$\nf(x)\\le f(1)=4-3a\\le a^{3}+4=g(a)+4\n$$\n<p>其中最后一个不等式由 $a>0$ 得出. 因此对任意 $x\\in[-1,1]$，恒有 $f(x)\\le g(a)+4$.</p></li></ol>"
         },
         {
           "num": 22,
           "body": "<p>已知 $\\triangle ABP$ 的三个顶点都在抛物线 $C: x^{2} = 4y$ 上，$F$ 为抛物线 $C$ 的焦点，点 $M$ 为 $AB$ 的中点，$\\overrightarrow{PF}= 3\\overrightarrow{FM}$.</p><ol class=\"enumerate\"><li><p>若 $|PF| = 3$，求点 $M$ 的坐标；</p></li><li><p>求 $\\triangle ABP$ 面积的最大值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由抛物线方程 $x^{2}=4y$，可知其焦点为 $F(0,1)$. 设 $P\\left(t,\\frac{t^{2}}{4}\\right)$，则</p>\n$$\nPF^{2}=t^{2}+\\left(\\frac{t^{2}}{4}-1\\right)^{2}=\\left(\\frac{t^{2}}{4}+1\\right)^{2}\n$$\n<p>因为 $\\frac{t^{2}}{4}+1>0$，所以 $PF=\\frac{t^{2}}{4}+1$. 又由 $PF=3$，得 $t^{2}=8$，即 $t=\\pm2\\sqrt{2}$.</p><p>由向量关系</p>\n$$\n\\overrightarrow{PF}=F-P=3(M-F)=3\\overrightarrow{FM}\n$$\n<p>得</p>\n$$\nM=\\frac{4F-P}{3}=\\left(-\\frac{t}{3},\\frac{4}{3}-\\frac{t^{2}}{12}\\right)\n$$\n<p>代入 $t^{2}=8$，可得点 $M$ 的坐标为</p>\n$$\nM\\left(\\pm\\frac{2\\sqrt{2}}{3},\\frac{2}{3}\\right)\n$$\n</li><li><p>设 $A\\left(u,\\frac{u^{2}}{4}\\right)$，$B\\left(v,\\frac{v^{2}}{4}\\right)$，仍设 $P\\left(t,\\frac{t^{2}}{4}\\right)$. 因为 $M$ 是 $AB$ 的中点，且由已知向量关系</p>\n$$\nM=\\left(-\\frac{t}{3},\\frac{4}{3}-\\frac{t^{2}}{12}\\right)\n$$\n<p>所以 $u+v=-\\frac{2t}{3}$，$u^{2}+v^{2}=\\frac{32}{3}-\\frac{2t^{2}}{3}$.</p><p>于是</p>\n$$\nuv=\\frac{(u+v)^{2}-(u^{2}+v^{2})}{2}=\\frac{5t^{2}}{9}-\\frac{16}{3}\n$$\n<p>从而</p>\n$$\n(u-v)^{2}=(u+v)^{2}-4uv=\\frac{16}{9}(12-t^{2})\n$$\n<p>因为 $u$，$v$ 为实数，必须有 $t^{2}\\leqslant12$. 另一方面，由三点在抛物线 $y=\\frac{x^{2}}{4}$ 上，三角形面积为</p>\n$$\nS_{\\triangle ABP}=\\frac{1}{8}\\left|(u-v)(v-t)(t-u)\\right|\n$$\n<p>又</p>\n$$\n(u-t)(v-t)=uv-t(u+v)+t^{2}=\\frac{4}{9}(5t^{2}-12)\n$$\n<p>因此</p>\n$$\nS_{\\triangle ABP}=\\frac{2}{27}\\left|5t^{2}-12\\right|\\sqrt{12-t^{2}}\n$$\n<p>令 $z=t^{2}$，则 $0\\le z\\leqslant12$，只需研究</p>\n$$\nh(z)=\\left|5z-12\\right|\\sqrt{12-z}\n$$\n<p>当 $0\\le z\\le\\frac{12}{5}$ 时，</p>\n$$\nh(z)=(12-5z)\\sqrt{12-z}\n$$\n<p>其导数为 $h'(z)=\\frac{15z-132}{2\\sqrt{12-z}}&#x3C;0$.</p><p>所以这一区间的最大值为 $h(0)=24\\sqrt{3}$. 当 $\\frac{12}{5}\\le z&#x3C;12$ 时，</p>\n$$\nh(z)=(5z-12)\\sqrt{12-z}\n$$\n<p>其导数为 $h'(z)=\\frac{132-15z}{2\\sqrt{12-z}}$.</p><p>故 $h(z)$ 在 $z=\\frac{44}{5}$ 处取得最大值，且</p>\n$$\nh\\left(\\frac{44}{5}\\right)=32\\sqrt{\\frac{16}{5}}=\\frac{128}{\\sqrt{5}}\n$$\n<p>又 $\\frac{128}{\\sqrt{5}}>24\\sqrt{3}$，所以</p>\n$$\n\\max S_{\\triangle ABP}=\\frac{2}{27}\\cdot\\frac{128}{\\sqrt{5}}=\\frac{256}{27\\sqrt{5}}=\\frac{256\\sqrt{5}}{135}\n$$\n<p>在 $z=\\frac{44}{5}&#x3C;12$ 时，$(u-v)^{2}>0$，故对应的 $A$，$B$ 为不同点，最大值确实可以取得.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由抛物线方程 $x^{2}=4y$，可知其焦点为 $F(0,1)$. 设 $P\\left(t,\\frac{t^{2}}{4}\\right)$，则</p>\n$$\nPF^{2}=t^{2}+\\left(\\frac{t^{2}}{4}-1\\right)^{2}=\\left(\\frac{t^{2}}{4}+1\\right)^{2}\n$$\n<p>因为 $\\frac{t^{2}}{4}+1>0$，所以 $PF=\\frac{t^{2}}{4}+1$. 又由 $PF=3$，得 $t^{2}=8$，即 $t=\\pm2\\sqrt{2}$.</p><p>由向量关系</p>\n$$\n\\overrightarrow{PF}=F-P=3(M-F)=3\\overrightarrow{FM}\n$$\n<p>得</p>\n$$\nM=\\frac{4F-P}{3}=\\left(-\\frac{t}{3},\\frac{4}{3}-\\frac{t^{2}}{12}\\right)\n$$\n<p>代入 $t^{2}=8$，可得点 $M$ 的坐标为</p>\n$$\nM\\left(\\pm\\frac{2\\sqrt{2}}{3},\\frac{2}{3}\\right)\n$$\n</li><li><p>设 $A\\left(u,\\frac{u^{2}}{4}\\right)$，$B\\left(v,\\frac{v^{2}}{4}\\right)$，仍设 $P\\left(t,\\frac{t^{2}}{4}\\right)$. 因为 $M$ 是 $AB$ 的中点，且由已知向量关系</p>\n$$\nM=\\left(-\\frac{t}{3},\\frac{4}{3}-\\frac{t^{2}}{12}\\right)\n$$\n<p>所以 $u+v=-\\frac{2t}{3}$，$u^{2}+v^{2}=\\frac{32}{3}-\\frac{2t^{2}}{3}$.</p><p>于是</p>\n$$\nuv=\\frac{(u+v)^{2}-(u^{2}+v^{2})}{2}=\\frac{5t^{2}}{9}-\\frac{16}{3}\n$$\n<p>从而</p>\n$$\n(u-v)^{2}=(u+v)^{2}-4uv=\\frac{16}{9}(12-t^{2})\n$$\n<p>因为 $u$，$v$ 为实数，必须有 $t^{2}\\leqslant12$. 另一方面，由三点在抛物线 $y=\\frac{x^{2}}{4}$ 上，三角形面积为</p>\n$$\nS_{\\triangle ABP}=\\frac{1}{8}\\left|(u-v)(v-t)(t-u)\\right|\n$$\n<p>又</p>\n$$\n(u-t)(v-t)=uv-t(u+v)+t^{2}=\\frac{4}{9}(5t^{2}-12)\n$$\n<p>因此</p>\n$$\nS_{\\triangle ABP}=\\frac{2}{27}\\left|5t^{2}-12\\right|\\sqrt{12-t^{2}}\n$$\n<p>令 $z=t^{2}$，则 $0\\le z\\leqslant12$，只需研究</p>\n$$\nh(z)=\\left|5z-12\\right|\\sqrt{12-z}\n$$\n<p>当 $0\\le z\\le\\frac{12}{5}$ 时，</p>\n$$\nh(z)=(12-5z)\\sqrt{12-z}\n$$\n<p>其导数为 $h'(z)=\\frac{15z-132}{2\\sqrt{12-z}}<0$.</p><p>所以这一区间的最大值为 $h(0)=24\\sqrt{3}$. 当 $\\frac{12}{5}\\le z<12$ 时，</p>\n$$\nh(z)=(5z-12)\\sqrt{12-z}\n$$\n<p>其导数为 $h'(z)=\\frac{132-15z}{2\\sqrt{12-z}}$.</p><p>故 $h(z)$ 在 $z=\\frac{44}{5}$ 处取得最大值，且</p>\n$$\nh\\left(\\frac{44}{5}\\right)=32\\sqrt{\\frac{16}{5}}=\\frac{128}{\\sqrt{5}}\n$$\n<p>又 $\\frac{128}{\\sqrt{5}}>24\\sqrt{3}$，所以</p>\n$$\n\\max S_{\\triangle ABP}=\\frac{2}{27}\\cdot\\frac{128}{\\sqrt{5}}=\\frac{256}{27\\sqrt{5}}=\\frac{256\\sqrt{5}}{135}\n$$\n<p>在 $z=\\frac{44}{5}<12$ 时，$(u-v)^{2}>0$，故对应的 $A$，$B$ 为不同点，最大值确实可以取得.</p></li></ol>"
         }
       ]
     }

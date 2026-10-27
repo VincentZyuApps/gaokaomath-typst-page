@@ -77,7 +77,7 @@
             "$(0,2)$"
           ],
           "answer": "D",
-          "solution": "函数的导数为 $f'(x)=3x^{2}-6x=3x(x-2)$. 当 $x&#x3C;0$ 或 $x>2$ 时，$f'(x)>0$；当 $0&#x3C;x&#x3C;2$ 时，$f'(x)&#x3C;0$. 因此 $f(x)$ 在 $(0,2)$ 上是减函数，故选 D."
+          "solution": "函数的导数为 $f'(x)=3x^{2}-6x=3x(x-2)$. 当 $x<0$ 或 $x>2$ 时，$f'(x)>0$；当 $0<x<2$ 时，$f'(x)<0$. 因此 $f(x)$ 在 $(0,2)$ 上是减函数，故选 D."
         },
         {
           "num": 7,
@@ -105,10 +105,10 @@
         },
         {
           "num": 9,
-          "body": "<p>在同一平面直角坐标系中，函数 $y = f(x)$ 和 $y = g(x)$ 的图象关于直线 $y = x$ 对称. 现将 $y = g(x)$ 的图象沿 $x$ 轴向左平移 2 个单位，再沿 $y$ 轴向上平移 1 个单位，所得的图象是由两条线段组成的折线（如图所示），则函数 $f(x)$ 的表达式为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-end\"></span>cases<span class=\"macro macro-)\"></span>}</p><p>$f(x) = \\begin{cases}2x - 2,&#x26;-1\\le x\\le 0,\\\\  \\frac{x}{2}-2,&#x26;0 &#x3C; x\\le 2.\\end{cases}$</p><p>$f(x) = \\begin{cases}2x - 2,&#x26;1\\le x\\le 2,\\\\  \\frac{x}{2}+1,&#x26;2 &#x3C; x\\le 4.\\end{cases}$</p><p>$f(x) = \\begin{cases}2x - 6,&#x26;1\\le x\\le 2,\\\\  \\frac{x}{2}-3,&#x26;2 &#x3C; x\\le 4.\\end{cases}$</p>",
+          "body": "<p>在同一平面直角坐标系中，函数 $y = f(x)$ 和 $y = g(x)$ 的图象关于直线 $y = x$ 对称. 现将 $y = g(x)$ 的图象沿 $x$ 轴向左平移 2 个单位，再沿 $y$ 轴向上平移 1 个单位，所得的图象是由两条线段组成的折线（如图所示），则函数 $f(x)$ 的表达式为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-end\"></span>cases<span class=\"macro macro-)\"></span>}</p><p>$f(x) = \\begin{cases}2x - 2,&-1\\le x\\le 0,\\\\  \\frac{x}{2}-2,&0 < x\\le 2.\\end{cases}$</p><p>$f(x) = \\begin{cases}2x - 2,&1\\le x\\le 2,\\\\  \\frac{x}{2}+1,&2 < x\\le 4.\\end{cases}$</p><p>$f(x) = \\begin{cases}2x - 6,&1\\le x\\le 2,\\\\  \\frac{x}{2}-3,&2 < x\\le 4.\\end{cases}$</p>",
           "choices": null,
           "answer": "A",
-          "solution": "<p>记平移后的函数为 $h$. 由图可读出，平移后的折线经过 $(-2,0)$，$(0,1)$，$(1,3)$，所以</p>\n$$\nh(x)=  \\begin{cases}\\frac{x}{2}+1,&#x26;-2\\le x\\leqslant0,\\\\  2x+1,&#x26;0&#x3C;x\\leqslant1\\end{cases}\n$$\n<p>平移关系为 $h(x)=g(x+2)+1$，故</p>\n$$\ng(x)=h(x-2)-1=  \\begin{cases}\\frac{x}{2}-1,&#x26;0\\le x\\leqslant2,\\\\  2x-4,&#x26;2&#x3C;x\\leqslant3\\end{cases}\n$$\n<p>两图象关于 $y=x$ 对称，所以 $f$ 是 $g$ 的反函数. 对第一段 $y=\\frac{x}{2}-1$ 解得 $x=2y+2$，其值域为 $[-1,0]$；对第二段 $y=2x-4$ 解得 $x=\\frac{y}{2}+2$，其值域为 $(0,2]$. 将反函数的自变量仍记为 $x$，得到</p>\n$$\nf(x)=  \\begin{cases}2x+2,&#x26;-1\\le x\\leqslant0,\\\\  \\frac{x}{2}+2,&#x26;0&#x3C;x\\leqslant2\\end{cases}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>记平移后的函数为 $h$. 由图可读出，平移后的折线经过 $(-2,0)$，$(0,1)$，$(1,3)$，所以</p>\n$$\nh(x)=  \\begin{cases}\\frac{x}{2}+1,&-2\\le x\\leqslant0,\\\\  2x+1,&0<x\\leqslant1\\end{cases}\n$$\n<p>平移关系为 $h(x)=g(x+2)+1$，故</p>\n$$\ng(x)=h(x-2)-1=  \\begin{cases}\\frac{x}{2}-1,&0\\le x\\leqslant2,\\\\  2x-4,&2<x\\leqslant3\\end{cases}\n$$\n<p>两图象关于 $y=x$ 对称，所以 $f$ 是 $g$ 的反函数. 对第一段 $y=\\frac{x}{2}-1$ 解得 $x=2y+2$，其值域为 $[-1,0]$；对第二段 $y=2x-4$ 解得 $x=\\frac{y}{2}+2$，其值域为 $(0,2]$. 将反函数的自变量仍记为 $x$，得到</p>\n$$\nf(x)=  \\begin{cases}2x+2,&-1\\le x\\leqslant0,\\\\  \\frac{x}{2}+2,&0<x\\leqslant2\\end{cases}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 10,
@@ -132,14 +132,14 @@
           "body": "函数 $f(x)=\\frac{1}{\\sqrt{1-\\mathrm{e}^{x}}}$ 的定义域是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(- \\infty,0)$",
-          "solution": "由于根式在分母中，必须满足 $1-\\mathrm{e}^{x}>0$，不能取等号. 于是 $\\mathrm{e}^{x}&#x3C;1=\\mathrm{e}^{0}$，由指数函数的单调性得 $x&#x3C;0$. 因此定义域为 $(-\\infty,0)$."
+          "solution": "由于根式在分母中，必须满足 $1-\\mathrm{e}^{x}>0$，不能取等号. 于是 $\\mathrm{e}^{x}<1=\\mathrm{e}^{0}$，由指数函数的单调性得 $x<0$. 因此定义域为 $(-\\infty,0)$."
         },
         {
           "num": 12,
           "body": "已知向量 $\\mathbf{a}= (2,3)$，$\\mathbf{b}= (x,6)$，且 $\\mathbf{a}\\parallel \\mathbf{b}$，则 $x =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "4",
-          "solution": "<p>两向量平行时对应坐标的行列式为零，因此</p>\n$$\n\\begin{vmatrix}2&#x26;3\\\\x&#x26;6\\end{vmatrix}=2\\times6-3x=0\n$$\n<p>解得 $x=4$.</p>"
+          "solution": "<p>两向量平行时对应坐标的行列式为零，因此</p>\n$$\n\\begin{vmatrix}2&3\\\\x&6\\end{vmatrix}=2\\times6-3x=0\n$$\n<p>解得 $x=4$.</p>"
         },
         {
           "num": 13,
@@ -179,14 +179,14 @@
           "body": "<p>在平面直角坐标系 $xOy$ 中，抛物线 $y = x^{2}$ 上异于坐标原点 $O$ 的两不同动点 $A$，$B$ 满足 $AO \\perp BO$（如图所示）.</p><ol class=\"enumerate\"><li><p>求 $\\triangle AOB$ 的重心 $G$（即三角形三条中线的交点）的轨迹方程；</p></li><li><p>$\\triangle AOB$ 的面积是否存在最小值？若存在，请求出最小值；若不存在，请说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $A=(a,a^{2})$，$B=(b,b^{2})$. 因为 $A$，$B$ 异于 $O$，所以 $a\\ne0$，$b\\ne0$. 由 $AO\\perp BO$，得</p>\n$$\n(a,a^{2})\\cdot(b,b^{2})=ab+a^{2}b^{2}=ab(1+ab)=0\n$$\n<p>因此 $ab=-1$，即 $b=-\\frac{1}{a}$.</p><p>设三角形 $AOB$ 的重心为 $G=(u,v)$，则</p><p>$3u=a+b=a-\\frac{1}{a}$. 另外，</p>\n$$\n3v=a^{2}+b^{2}=a^{2}+\\frac{1}{a^{2}}=\\left(a-\\frac{1}{a}\\right)^{2}+2=9u^{2}+2\n$$\n<p>所以重心 $G$ 的轨迹方程为</p>\n$$\nv=3u^{2}+\\frac{2}{3}\n$$\n<p>又因为方程 $a-\\frac{1}{a}=3u$ 对任意 $u\\in\\mathbb{R}$ 都有非零实根 $a$，故轨迹中的 $u$ 可以取遍 $\\mathbb{R}$. 将坐标变量仍记为 $x$，$y$，轨迹方程为</p>\n$$\ny=3x^{2}+\\frac{2}{3}\n$$\n</li><li><p>三角形 $AOB$ 的面积为</p>\n$$\nS_{\\triangle AOB}=\\frac{1}{2}\\left|\\det\\begin{pmatrix}a&#x26;a^{2}\\\\b&#x26;b^{2}\\end{pmatrix}\\right|  =\\frac{1}{2}|ab^{2}-a^{2}b|  =\\frac{1}{2}|ab(b-a)|  =\\frac{1}{2}|a-b|  =\\frac{1}{2}\\left|a+\\frac{1}{a}\\right|\n$$\n<p>由</p>\n$$\n\\left(a+\\frac{1}{a}\\right)^{2}=a^{2}+2+\\frac{1}{a^{2}}\\geqslant4\n$$\n<p>得 $S_{\\triangle AOB}\\geqslant1$. 当 $a^{2}=1$ 时等号成立，此时 $b=-\\frac{1}{a}$，且 $A$、$B$ 确为两不同点. 因此面积存在最小值，最小值为 $1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $A=(a,a^{2})$，$B=(b,b^{2})$. 因为 $A$，$B$ 异于 $O$，所以 $a\\ne0$，$b\\ne0$. 由 $AO\\perp BO$，得</p>\n$$\n(a,a^{2})\\cdot(b,b^{2})=ab+a^{2}b^{2}=ab(1+ab)=0\n$$\n<p>因此 $ab=-1$，即 $b=-\\frac{1}{a}$.</p><p>设三角形 $AOB$ 的重心为 $G=(u,v)$，则</p><p>$3u=a+b=a-\\frac{1}{a}$. 另外，</p>\n$$\n3v=a^{2}+b^{2}=a^{2}+\\frac{1}{a^{2}}=\\left(a-\\frac{1}{a}\\right)^{2}+2=9u^{2}+2\n$$\n<p>所以重心 $G$ 的轨迹方程为</p>\n$$\nv=3u^{2}+\\frac{2}{3}\n$$\n<p>又因为方程 $a-\\frac{1}{a}=3u$ 对任意 $u\\in\\mathbb{R}$ 都有非零实根 $a$，故轨迹中的 $u$ 可以取遍 $\\mathbb{R}$. 将坐标变量仍记为 $x$，$y$，轨迹方程为</p>\n$$\ny=3x^{2}+\\frac{2}{3}\n$$\n</li><li><p>三角形 $AOB$ 的面积为</p>\n$$\nS_{\\triangle AOB}=\\frac{1}{2}\\left|\\det\\begin{pmatrix}a&a^{2}\\\\b&b^{2}\\end{pmatrix}\\right|  =\\frac{1}{2}|ab^{2}-a^{2}b|  =\\frac{1}{2}|ab(b-a)|  =\\frac{1}{2}|a-b|  =\\frac{1}{2}\\left|a+\\frac{1}{a}\\right|\n$$\n<p>由</p>\n$$\n\\left(a+\\frac{1}{a}\\right)^{2}=a^{2}+2+\\frac{1}{a^{2}}\\geqslant4\n$$\n<p>得 $S_{\\triangle AOB}\\geqslant1$. 当 $a^{2}=1$ 时等号成立，此时 $b=-\\frac{1}{a}$，且 $A$、$B$ 确为两不同点. 因此面积存在最小值，最小值为 $1$.</p></li></ol>"
         },
         {
           "num": 18,
           "body": "<p>箱中装有大小相同的黄，白两种颜色的乒乓球，黄，白乒乓球的数量比为 $s:t$. 现从箱中每次任意取出一个球，若取出的是黄球则结束，若取出的是白球，则将其放回箱中，并继续从箱中任意取出一个球，但取球的次数最多不超过 $n$ 次，以 $\\xi$ 表示取球结束时已取到白球的次数.</p><ol class=\"enumerate\"><li><p>求 $\\xi$ 的分布列；</p></li><li><p>求 $\\xi$ 的数学期望.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设</p><p>$p=P(\\text{取到黄球})=\\frac{s}{s+t}$，$q=P(\\text{取到白球})=\\frac{t}{s+t}$.</p><p>每次取到白球后都放回，因此各次取球相互独立. 若 $0\\le k\\le n-1$，则 $\\xi=k$ 表示前 $k$ 次取到白球，第 $k+1$ 次取到黄球；若 $\\xi=n$，则表示前 $n$ 次全部取到白球. 因此</p>\n$$\nP(\\xi=k)=  \\begin{cases}q^{k}p=\\left(\\dfrac{t}{s+t}\\right)^{k}\\dfrac{s}{s+t},&#x26;0\\le k\\le n-1,\\\\  q^{n}=\\left(\\dfrac{t}{s+t}\\right)^{n},&#x26;k=n\\end{cases}\n$$\n</li><li><p>对取值为非负整数的随机变量使用尾和公式. 对 $1\\le j\\le n$，事件 $\\{\\xi\\ge j\\}$ 等价于前 $j$ 次都取到白球，所以</p>\n$$\nE(\\xi)=\\sum_{j=1}^{n}P(\\xi\\ge j)=\\sum_{j=1}^{n}q^{j}  =\\frac{q(1-q^{n})}{1-q}=\\frac{t}{s}\\left(1-\\left(\\frac{t}{s+t}\\right)^{n}\\right)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设</p><p>$p=P(\\text{取到黄球})=\\frac{s}{s+t}$，$q=P(\\text{取到白球})=\\frac{t}{s+t}$.</p><p>每次取到白球后都放回，因此各次取球相互独立. 若 $0\\le k\\le n-1$，则 $\\xi=k$ 表示前 $k$ 次取到白球，第 $k+1$ 次取到黄球；若 $\\xi=n$，则表示前 $n$ 次全部取到白球. 因此</p>\n$$\nP(\\xi=k)=  \\begin{cases}q^{k}p=\\left(\\dfrac{t}{s+t}\\right)^{k}\\dfrac{s}{s+t},&0\\le k\\le n-1,\\\\  q^{n}=\\left(\\dfrac{t}{s+t}\\right)^{n},&k=n\\end{cases}\n$$\n</li><li><p>对取值为非负整数的随机变量使用尾和公式. 对 $1\\le j\\le n$，事件 $\\{\\xi\\ge j\\}$ 等价于前 $j$ 次都取到白球，所以</p>\n$$\nE(\\xi)=\\sum_{j=1}^{n}P(\\xi\\ge j)=\\sum_{j=1}^{n}q^{j}  =\\frac{q(1-q^{n})}{1-q}=\\frac{t}{s}\\left(1-\\left(\\frac{t}{s+t}\\right)^{n}\\right)\n$$\n</li></ol>"
         },
         {
           "num": 19,
@@ -200,7 +200,7 @@
           "body": "<p>在平面直角坐标系中，已知矩形 $ABCD$ 的长为 $2$，宽为 $1$，$AB$，$AD$ 边分别在 $x$ 轴，$y$ 轴的正半轴上，$A$ 点与坐标原点重合（如图所示）. 将矩形折叠，使 $A$ 点落在线段 $DC$ 上.</p><ol class=\"enumerate\"><li><p>若折痕所在直线的斜率为 $k$，试写出折痕所在直线的方程；</p></li><li><p>求折痕的长的最大值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设折叠后 $A$ 落在线段 $DC$ 上的点为 $A'=(r,1)$，其中 $0\\le r\\leqslant2$. 折痕是线段 $AA'$ 的垂直平分线，因此折痕的斜率为 $-r$. 若折痕斜率为 $k$，则 $r=-k$，从而</p><p>$-2\\le k\\leqslant0$.</p><p>折痕经过 $AA'$ 的中点 $\\left(-\\frac{k}{2},\\frac{1}{2}\\right)$，故其方程为</p><p>$y-\\frac{1}{2}=k\\left(x+\\frac{k}{2}\\right)$，即 $y=kx+\\frac{1+k^{2}}{2}$.</p></li><li><p>令 $t=-k$，则 $0\\le t\\leqslant2$，折痕方程为</p><p>$y=-tx+\\frac{1+t^{2}}{2}$.</p><p>记折痕在矩形内的长度为 $L(t)$. 当 $0\\le t\\leqslant2-\\sqrt{3}$ 时，折痕与两条竖边相交；当 $2-\\sqrt{3}\\le t\\leqslant1$ 时，折痕与左边和下边相交；当 $1\\le t\\leqslant2$ 时，折痕与上边和下边相交. 因此</p><p>当 $t>0$ 时，由 $y=0$ 得 $x_{0}=\\frac{1+t^{2}}{2t}$，由 $y=1$ 得 $x_{1}=\\frac{t^{2}-1}{2t}$，并且 $y(0)=\\frac{1+t^{2}}{2}$. 当 $t=0$ 时，折痕为 $y=\\frac{1}{2}$，直接归入第一种情形.</p><p>其中 $x_{0}=2$ 的有效解为 $t=2-\\sqrt{3}$，$y(0)=1$ 的有效解为 $t=1$，这正是上述三种交点情形的分界.</p>\n$$\nL(t)=  \\begin{cases}2\\sqrt{1+t^{2}},&#x26;0\\le t\\leqslant2-\\sqrt{3},\\\\\n\n\\dfrac{(1+t^2)^{\\frac{3}{2}}}{2t},&#x26;2-\\sqrt{3}\\le t\\leqslant1,\\\\\n\n\\dfrac{\\sqrt{1+t^{2}}}{t},&#x26;1\\le t\\leqslant2\\end{cases}\n$$\n<p>第一段在区间上递增，第三段递减；第二段的导数为</p>\n$$\nL'(t)=\\frac{\\sqrt{1+t^2}(2t^{2}-1)}{2t^{2}}\n$$\n<p>所以第二段在两个端点处取得最大值. 比较端点值，</p>\n$$\nL(2-\\sqrt{3})=4\\sqrt{2-\\sqrt{3}}>\\sqrt{2}=L(1)\n$$\n<p>故折痕长的最大值为</p>\n$$\n4\\sqrt{2-\\sqrt{3}}=2\\sqrt{6}-2\\sqrt{2}\n$$\n<p>此时 $t=2-\\sqrt{3}$，即折痕斜率 $k=\\sqrt{3}-2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设折叠后 $A$ 落在线段 $DC$ 上的点为 $A'=(r,1)$，其中 $0\\le r\\leqslant2$. 折痕是线段 $AA'$ 的垂直平分线，因此折痕的斜率为 $-r$. 若折痕斜率为 $k$，则 $r=-k$，从而</p><p>$-2\\le k\\leqslant0$.</p><p>折痕经过 $AA'$ 的中点 $\\left(-\\frac{k}{2},\\frac{1}{2}\\right)$，故其方程为</p><p>$y-\\frac{1}{2}=k\\left(x+\\frac{k}{2}\\right)$，即 $y=kx+\\frac{1+k^{2}}{2}$.</p></li><li><p>令 $t=-k$，则 $0\\le t\\leqslant2$，折痕方程为</p><p>$y=-tx+\\frac{1+t^{2}}{2}$.</p><p>记折痕在矩形内的长度为 $L(t)$. 当 $0\\le t\\leqslant2-\\sqrt{3}$ 时，折痕与两条竖边相交；当 $2-\\sqrt{3}\\le t\\leqslant1$ 时，折痕与左边和下边相交；当 $1\\le t\\leqslant2$ 时，折痕与上边和下边相交. 因此</p><p>当 $t>0$ 时，由 $y=0$ 得 $x_{0}=\\frac{1+t^{2}}{2t}$，由 $y=1$ 得 $x_{1}=\\frac{t^{2}-1}{2t}$，并且 $y(0)=\\frac{1+t^{2}}{2}$. 当 $t=0$ 时，折痕为 $y=\\frac{1}{2}$，直接归入第一种情形.</p><p>其中 $x_{0}=2$ 的有效解为 $t=2-\\sqrt{3}$，$y(0)=1$ 的有效解为 $t=1$，这正是上述三种交点情形的分界.</p>\n$$\nL(t)=  \\begin{cases}2\\sqrt{1+t^{2}},&0\\le t\\leqslant2-\\sqrt{3},\\\\\n\n\\dfrac{(1+t^2)^{\\frac{3}{2}}}{2t},&2-\\sqrt{3}\\le t\\leqslant1,\\\\\n\n\\dfrac{\\sqrt{1+t^{2}}}{t},&1\\le t\\leqslant2\\end{cases}\n$$\n<p>第一段在区间上递增，第三段递减；第二段的导数为</p>\n$$\nL'(t)=\\frac{\\sqrt{1+t^2}(2t^{2}-1)}{2t^{2}}\n$$\n<p>所以第二段在两个端点处取得最大值. 比较端点值，</p>\n$$\nL(2-\\sqrt{3})=4\\sqrt{2-\\sqrt{3}}>\\sqrt{2}=L(1)\n$$\n<p>故折痕长的最大值为</p>\n$$\n4\\sqrt{2-\\sqrt{3}}=2\\sqrt{6}-2\\sqrt{2}\n$$\n<p>此时 $t=2-\\sqrt{3}$，即折痕斜率 $k=\\sqrt{3}-2$.</p></li></ol>"
         }
       ]
     }

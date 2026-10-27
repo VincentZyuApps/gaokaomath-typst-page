@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "<p>设 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 是任意的非零平面向量，且相互不共线，则有下列命题：</p><ol class=\"enumerate\"><li><p>$(\\mathbf{a}\\cdot \\mathbf{b})\\mathbf{c}- (\\mathbf{c}\\cdot \\mathbf{a})\\mathbf{b}= 0$；</p></li><li><p>$|\\mathbf{a}| - |\\mathbf{b}| &#x3C; |\\mathbf{a}- \\mathbf{b}|$；</p></li><li><p>$(\\mathbf{b}\\cdot \\mathbf{c})\\mathbf{a}- (\\mathbf{c}\\cdot \\mathbf{a})\\mathbf{b}$ 不与 $\\mathbf{c}$ 垂直；</p></li><li><p>$(3\\mathbf{a}+ 2\\mathbf{b}) \\cdot (3\\mathbf{a}- 2\\mathbf{b}) = 9|\\mathbf{a}|^{2}- 4|\\mathbf{b}|^{2}$.</p></li></ol><p>其中是真命题的有（ ）</p>",
+          "body": "<p>设 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 是任意的非零平面向量，且相互不共线，则有下列命题：</p><ol class=\"enumerate\"><li><p>$(\\mathbf{a}\\cdot \\mathbf{b})\\mathbf{c}- (\\mathbf{c}\\cdot \\mathbf{a})\\mathbf{b}= 0$；</p></li><li><p>$|\\mathbf{a}| - |\\mathbf{b}| < |\\mathbf{a}- \\mathbf{b}|$；</p></li><li><p>$(\\mathbf{b}\\cdot \\mathbf{c})\\mathbf{a}- (\\mathbf{c}\\cdot \\mathbf{a})\\mathbf{b}$ 不与 $\\mathbf{c}$ 垂直；</p></li><li><p>$(3\\mathbf{a}+ 2\\mathbf{b}) \\cdot (3\\mathbf{a}- 2\\mathbf{b}) = 9|\\mathbf{a}|^{2}- 4|\\mathbf{b}|^{2}$.</p></li></ol><p>其中是真命题的有（ ）</p>",
           "choices": [
             "$①②$",
             "$②③$",
@@ -53,7 +53,7 @@
             "若 $\\alpha$，$\\beta$ 是第四象限角，则 $\\tan \\alpha > \\tan \\beta$"
           ],
           "answer": "D",
-          "solution": "<p>在第一象限，正弦函数递增而余弦函数递减；在第二象限，正弦函数递减而正切函数递增；在第三象限，正弦函数递减而余弦函数递增；在第四象限，正弦函数递增且正切函数递增.</p><p>若 $\\alpha$，$\\beta$ 均为第一象限角，由 $\\sin\\alpha>\\sin\\beta$ 得 $\\alpha>\\beta$，于是 $\\cos\\alpha&#x3C;\\cos\\beta$，命题$①$所述不成立. 若二者均为第二象限角，则 $\\alpha&#x3C;\\beta$，从而 $\\tan\\alpha&#x3C;\\tan\\beta$，命题$②$不成立. 若二者均为第三象限角，同样由正弦函数的单调性得 $\\alpha&#x3C;\\beta$，于是 $\\cos\\alpha&#x3C;\\cos\\beta$，命题$③$不成立.</p><p>若二者均为第四象限角，由正弦函数递增得 $\\alpha>\\beta$，再由正切函数递增得 $\\tan\\alpha>\\tan\\beta$，所以命题$④$成立，选 D.</p>"
+          "solution": "<p>在第一象限，正弦函数递增而余弦函数递减；在第二象限，正弦函数递减而正切函数递增；在第三象限，正弦函数递减而余弦函数递增；在第四象限，正弦函数递增且正切函数递增.</p><p>若 $\\alpha$，$\\beta$ 均为第一象限角，由 $\\sin\\alpha>\\sin\\beta$ 得 $\\alpha>\\beta$，于是 $\\cos\\alpha<\\cos\\beta$，命题$①$所述不成立. 若二者均为第二象限角，则 $\\alpha<\\beta$，从而 $\\tan\\alpha<\\tan\\beta$，命题$②$不成立. 若二者均为第三象限角，同样由正弦函数的单调性得 $\\alpha<\\beta$，于是 $\\cos\\alpha<\\cos\\beta$，命题$③$不成立.</p><p>若二者均为第四象限角，由正弦函数递增得 $\\alpha>\\beta$，再由正切函数递增得 $\\tan\\alpha>\\tan\\beta$，所以命题$④$成立，选 D.</p>"
         },
         {
           "num": 5,
@@ -65,7 +65,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/new_curriculum_liberal/q5_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "<p>函数满足 $y(0)=0$，且在 $x=0$ 附近有 $\\cos x>0$，所以当 $x>0$ 足够小时 $y=-x\\cos x&#x3C;0$，当 $x&#x3C;0$ 足够小时 $y>0$. 另外，$y=0$ 的零点满足 $x=0$ 或 $\\cos x=0$，相邻零点之间曲线的正负号由 $-x\\cos x$ 的符号确定.</p><p>因此图象经过原点，并在原点右侧先位于 $x$ 轴下方、在原点左侧位于 $x$ 轴上方；各振荡区间的振幅随 $|x|$ 增大而增大. 四个图象中只有 D 符合，所以选 D.</p>"
+          "solution": "<p>函数满足 $y(0)=0$，且在 $x=0$ 附近有 $\\cos x>0$，所以当 $x>0$ 足够小时 $y=-x\\cos x<0$，当 $x<0$ 足够小时 $y>0$. 另外，$y=0$ 的零点满足 $x=0$ 或 $\\cos x=0$，相邻零点之间曲线的正负号由 $-x\\cos x$ 的符号确定.</p><p>因此图象经过原点，并在原点右侧先位于 $x$ 轴下方、在原点左侧位于 $x$ 轴上方；各振荡区间的振幅随 $|x|$ 增大而增大. 四个图象中只有 D 符合，所以选 D.</p>"
         },
         {
           "num": 6,
@@ -77,19 +77,19 @@
             "$1500\\text{ 元}- 2800\\text{ 元}$"
           ],
           "answer": "C",
-          "solution": "<p>设当月工资、薪金所得为 $w$ 元，应纳税所得额为 $u=w-800$. 若 $u\\leqslant500$，应交税款至多为 $500\\times5\\%=25$ 元，与 $26.78$ 元矛盾；若 $u>2000$，应交税款至少为</p><p>$500\\times5\\%+1500\\times10\\%=175$</p><p>元，同样不可能. 因此 $500&#x3C;u\\leqslant2000$，税款为前 $500$ 元按 $5\\%$ 计、其余部分按 $10\\%$ 计. 于是</p><p>$25+10\\%(u-500)=26.78$，所以</p><p>$u=517.8,\\qquad w=u+800=1317.8.$</p><p>所得 $1317.8$ 元落在</p><p>$1200&#x3C;1317.8&#x3C;1500$.</p><p>因此选 C.</p>"
+          "solution": "<p>设当月工资、薪金所得为 $w$ 元，应纳税所得额为 $u=w-800$. 若 $u\\leqslant500$，应交税款至多为 $500\\times5\\%=25$ 元，与 $26.78$ 元矛盾；若 $u>2000$，应交税款至少为</p><p>$500\\times5\\%+1500\\times10\\%=175$</p><p>元，同样不可能. 因此 $500<u\\leqslant2000$，税款为前 $500$ 元按 $5\\%$ 计、其余部分按 $10\\%$ 计. 于是</p><p>$25+10\\%(u-500)=26.78$，所以</p><p>$u=517.8,\\qquad w=u+800=1317.8.$</p><p>所得 $1317.8$ 元落在</p><p>$1200<1317.8<1500$.</p><p>因此选 C.</p>"
         },
         {
           "num": 7,
           "body": "若 $a > b > 1$，$P = \\sqrt{\\lg a \\cdot \\lg b}$，$Q = \\frac{1}{2}\\left(\\lg a + \\lg b\\right)$，$R = \\lg \\left(\\frac{a + b}{2}\\right)$，则（ ）",
           "choices": [
-            "$R &#x3C; P &#x3C; Q$",
-            "$P &#x3C; Q &#x3C; R$",
-            "$Q &#x3C; P &#x3C; R$",
-            "$P &#x3C; R &#x3C; Q$"
+            "$R < P < Q$",
+            "$P < Q < R$",
+            "$Q < P < R$",
+            "$P < R < Q$"
           ],
           "answer": "B",
-          "solution": "<p>令 $u=\\lg a$，$v=\\lg b$. 因为 $a>b>1$，所以 $u>v>0$. 由算术平均数不小于几何平均数，</p><p>$P=\\sqrt{uv}&#x3C;\\frac{u+v}{2}=Q$，其中不等号严格成立是因为 $u\\ne v$.</p><p>又由 $a>b>0$，有</p><p>$\\frac{a+b}{2}>\\sqrt{ab}$.</p><p>对数函数 $\\lg x$ 在正数范围内递增，因此</p><p>$R=\\lg\\frac{a+b}{2}>\\lg\\sqrt{ab}=\\frac{\\lg a+\\lg b}{2}=Q$.</p><p>故 $P&#x3C;Q&#x3C;R$，选 B.</p>"
+          "solution": "<p>令 $u=\\lg a$，$v=\\lg b$. 因为 $a>b>1$，所以 $u>v>0$. 由算术平均数不小于几何平均数，</p><p>$P=\\sqrt{uv}<\\frac{u+v}{2}=Q$，其中不等号严格成立是因为 $u\\ne v$.</p><p>又由 $a>b>0$，有</p><p>$\\frac{a+b}{2}>\\sqrt{ab}$.</p><p>对数函数 $\\lg x$ 在正数范围内递增，因此</p><p>$R=\\lg\\frac{a+b}{2}>\\lg\\sqrt{ab}=\\frac{\\lg a+\\lg b}{2}=Q$.</p><p>故 $P<Q<R$，选 B.</p>"
         },
         {
           "num": 8,
@@ -125,7 +125,7 @@
             "$y = -\\frac{\\sqrt{3}}{3}x$"
           ],
           "answer": "C",
-          "solution": "<p>圆的方程可化为</p><p>$(x+2)^{2}+y^{2}=1$，所以圆心为 $(-2,0)$，半径为 $1$. 过原点的切线设为 $y=mx$，即 $mx-y=0$. 圆心到此直线的距离等于半径，故</p><p>$\\frac{|-2m|}{\\sqrt{m^{2}+1}}=1$.</p><p>平方并整理得 $4m^{2}=m^{2}+1$，从而 $m=\\pm\\frac{\\sqrt{3}}{3}$. 当 $m=\\frac{\\sqrt{3}}{3}$ 时，直线在第三象限有点，因为 $x&#x3C;0$ 时 $y&#x3C;0$；当 $m=-\\frac{\\sqrt{3}}{3}$ 时，切点位于第二象限. 所求直线为</p><p>$y=\\frac{\\sqrt{3}}{3}x$，所以选 C.</p>"
+          "solution": "<p>圆的方程可化为</p><p>$(x+2)^{2}+y^{2}=1$，所以圆心为 $(-2,0)$，半径为 $1$. 过原点的切线设为 $y=mx$，即 $mx-y=0$. 圆心到此直线的距离等于半径，故</p><p>$\\frac{|-2m|}{\\sqrt{m^{2}+1}}=1$.</p><p>平方并整理得 $4m^{2}=m^{2}+1$，从而 $m=\\pm\\frac{\\sqrt{3}}{3}$. 当 $m=\\frac{\\sqrt{3}}{3}$ 时，直线在第三象限有点，因为 $x<0$ 时 $y<0$；当 $m=-\\frac{\\sqrt{3}}{3}$ 时，切点位于第二象限. 所求直线为</p><p>$y=\\frac{\\sqrt{3}}{3}x$，所以选 C.</p>"
         },
         {
           "num": 11,
@@ -137,7 +137,7 @@
             "$\\frac{4}{a}$"
           ],
           "answer": "C",
-          "solution": "<p>把抛物线写成标准形式</p><p>$x^{2}=\\frac{1}{a}y=4p_{0}y$，得标准参数 $p_{0}=\\frac{1}{4a}$，焦点为 $F\\left(0,\\frac{1}{4a}\\right)$.</p><p>由于直线与抛物线交于两个点，所作直线不是竖直直线，故可设其方程为 $y=kx+\\frac{1}{4a}$. 设交点为 $P(x_{1},ax_{1}^{2})$，$Q(x_{2},ax_{2}^{2})$，代入得</p><p>$ax^{2}-kx-\\frac{1}{4a}=0$，所以</p><p>$x_{1}x_{2}=-\\frac{1}{4a^{2}},\\qquad |x_{1}-x_{2}|=\\frac{\\sqrt{k^{2}+1}}{a}$.</p><p>点 $P$ 或 $Q$ 到焦点的水平坐标差为 $|x_{i}|$，而直线斜率为 $k$，故</p><p>$PF=|x_{1}|\\sqrt{k^{2}+1},\\qquad FQ=|x_{2}|\\sqrt{k^{2}+1}$.</p><p>因 $x_{1}x_{2}&#x3C;0$，有 $|x_{1}|+|x_{2}|=|x_{1}-x_{2}|$. 因而</p><p>$\\frac{1}{p}+\\frac{1}{q}=\\frac{|x_{1}|+|x_{2}|}{|x_{1}x_{2}|\\sqrt{k^{2}+1}}=\\frac{\\frac{\\sqrt{k^{2}+1}}{a}}{\\frac{1}{4a^{2}}\\sqrt{k^{2}+1}}=4a$.</p><p>所以选 C.</p>"
+          "solution": "<p>把抛物线写成标准形式</p><p>$x^{2}=\\frac{1}{a}y=4p_{0}y$，得标准参数 $p_{0}=\\frac{1}{4a}$，焦点为 $F\\left(0,\\frac{1}{4a}\\right)$.</p><p>由于直线与抛物线交于两个点，所作直线不是竖直直线，故可设其方程为 $y=kx+\\frac{1}{4a}$. 设交点为 $P(x_{1},ax_{1}^{2})$，$Q(x_{2},ax_{2}^{2})$，代入得</p><p>$ax^{2}-kx-\\frac{1}{4a}=0$，所以</p><p>$x_{1}x_{2}=-\\frac{1}{4a^{2}},\\qquad |x_{1}-x_{2}|=\\frac{\\sqrt{k^{2}+1}}{a}$.</p><p>点 $P$ 或 $Q$ 到焦点的水平坐标差为 $|x_{i}|$，而直线斜率为 $k$，故</p><p>$PF=|x_{1}|\\sqrt{k^{2}+1},\\qquad FQ=|x_{2}|\\sqrt{k^{2}+1}$.</p><p>因 $x_{1}x_{2}<0$，有 $|x_{1}|+|x_{2}|=|x_{1}-x_{2}|$. 因而</p><p>$\\frac{1}{p}+\\frac{1}{q}=\\frac{|x_{1}|+|x_{2}|}{|x_{1}x_{2}|\\sqrt{k^{2}+1}}=\\frac{\\frac{\\sqrt{k^{2}+1}}{a}}{\\frac{1}{4a^{2}}\\sqrt{k^{2}+1}}=4a$.</p><p>所以选 C.</p>"
         },
         {
           "num": 12,
@@ -168,7 +168,7 @@
           "body": "椭圆 $\\frac{x^{2}}{9}+ \\frac{y^{2}}{4}= 1$ 的焦点 $F_{1}$，$F_{2}$，点 $P$ 为其上的动点，当 $\\angle F_{1}PF_{2}$ 为钝角时，点 $P$ 横坐标的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(-\\frac{3}{\\sqrt{5}},\\frac{3}{\\sqrt{5}}\\right)$",
-          "solution": "<p>由椭圆方程知半长轴 $a=3$，半短轴 $b=2$，故焦半距</p><p>$c=\\sqrt{a^{2}-b^{2}}=\\sqrt{5}$.</p><p>设 $P=(x,y)$，则</p><p>$F_{1}=(-\\sqrt{5},0),\\qquad F_{2}=(\\sqrt{5},0)$.</p><p>角 $F_{1}PF_{2}$ 为钝角，当且仅当</p><p>$\\overrightarrow{PF_{1}}\\cdot\\overrightarrow{PF_{2}}&#x3C;0$.</p><p>计算得</p><p>$\\overrightarrow{PF_{1}}\\cdot\\overrightarrow{PF_{2}}=(-\\sqrt{5}-x,-y)\\cdot(\\sqrt{5}-x,-y)  =x^{2}+y^{2}-5$.</p><p>所以钝角条件等价于 $x^{2}+y^{2}&#x3C;5$. 又因 $P$ 在椭圆上，</p><p>$y^{2}=4\\left(1-\\frac{x^{2}}{9}\\right)$，从而</p><p>$x^{2}+y^{2}=4+\\frac{5}{9}x^{2}&#x3C;5$.</p><p>于是 $x^{2}&#x3C;\\frac{9}{5}$，即</p><p>$-\\frac{3}{\\sqrt{5}}&#x3C;x&#x3C;\\frac{3}{\\sqrt{5}}$.</p><p>端点对应直角而不是钝角，故取开区间.</p>"
+          "solution": "<p>由椭圆方程知半长轴 $a=3$，半短轴 $b=2$，故焦半距</p><p>$c=\\sqrt{a^{2}-b^{2}}=\\sqrt{5}$.</p><p>设 $P=(x,y)$，则</p><p>$F_{1}=(-\\sqrt{5},0),\\qquad F_{2}=(\\sqrt{5},0)$.</p><p>角 $F_{1}PF_{2}$ 为钝角，当且仅当</p><p>$\\overrightarrow{PF_{1}}\\cdot\\overrightarrow{PF_{2}}<0$.</p><p>计算得</p><p>$\\overrightarrow{PF_{1}}\\cdot\\overrightarrow{PF_{2}}=(-\\sqrt{5}-x,-y)\\cdot(\\sqrt{5}-x,-y)  =x^{2}+y^{2}-5$.</p><p>所以钝角条件等价于 $x^{2}+y^{2}<5$. 又因 $P$ 在椭圆上，</p><p>$y^{2}=4\\left(1-\\frac{x^{2}}{9}\\right)$，从而</p><p>$x^{2}+y^{2}=4+\\frac{5}{9}x^{2}<5$.</p><p>于是 $x^{2}<\\frac{9}{5}$，即</p><p>$-\\frac{3}{\\sqrt{5}}<x<\\frac{3}{\\sqrt{5}}$.</p><p>端点对应直角而不是钝角，故取开区间.</p>"
         },
         {
           "num": 15,
@@ -213,7 +213,7 @@
           "body": "<p>如图，已知平行六面体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的底面 $ABCD$ 为菱形，且 $\\angle C_{1}CB = \\angle C_{1}CD = \\angle BCD$.</p><ol class=\"enumerate\"><li><p>证明：$C_{1}C \\perp BD$；</p></li><li><p>当 $\\dfrac{CD}{CC_{1}}$ 的值为多少时，能使 $A_{1}C \\perp$ 平面 $C_{1}BD$？请给出证明.</p></li></ol><p><span class=\"macro macro-begingroup\"></span></p><p><span class=\"macro macro-leftskip\"></span>=0pt<span class=\"macro macro-relax\"></span></p><p><span class=\"macro macro-rightskip\"></span>=0pt<span class=\"macro macro-relax\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设</p><p>$\\mathbf{u}=\\overrightarrow{CB},\\qquad \\mathbf{v}=\\overrightarrow{CD},\\qquad \\mathbf{w}=\\overrightarrow{CC_{1}}$，</p><p>并记 $s=|\\mathbf{u}|=|\\mathbf{v}|=CD$，$h=|\\mathbf{w}|=CC_{1}$，以及 $\\theta=\\angle BCD$. 由题设三个角相等，有</p><p>$\\mathbf{u}\\cdot\\mathbf{v}=s^{2}\\cos\\theta,\\qquad  \\mathbf{w}\\cdot\\mathbf{u}=hs\\cos\\theta,\\qquad  \\mathbf{w}\\cdot\\mathbf{v}=hs\\cos\\theta$.</p><p>于是</p><p>$\\overrightarrow{CC_{1}}\\cdot\\overrightarrow{BD}=\\mathbf{w}\\cdot(\\mathbf{v}-\\mathbf{u})  =0$.</p><p>故 $C_{1}C\\perp BD$.</p></li><li><p>取 $C$ 为原点，则</p><p>$\\overrightarrow{CA_{1}}=\\mathbf{u}+\\mathbf{v}+\\mathbf{w},\\qquad  \\overrightarrow{BC_{1}}=\\mathbf{w}-\\mathbf{u},\\qquad  \\overrightarrow{BD}=\\mathbf{v}-\\mathbf{u}$.</p><p>直接计算得</p><p>$\\overrightarrow{CA_{1}}\\cdot\\overrightarrow{BD}=(\\mathbf{u}+\\mathbf{v}+\\mathbf{w})\\cdot(\\mathbf{v}-\\mathbf{u})  =(\\mathbf{u}\\cdot\\mathbf{v}-s^{2})+(s^{2}-\\mathbf{u}\\cdot\\mathbf{v})+\\mathbf{w}\\cdot(\\mathbf{v}-\\mathbf{u})=0$.</p><p>另外</p><p>$\\overrightarrow{CA_{1}}\\cdot\\overrightarrow{BC_{1}}=(\\mathbf{u}+\\mathbf{v}+\\mathbf{w})\\cdot(\\mathbf{w}-\\mathbf{u})=h^{2}-s^{2}+hs\\cos\\theta-s^{2}\\cos\\theta=(h-s)(h+s+s\\cos\\theta)$.</p><p>由于 $0&#x3C;\\theta&#x3C;\\pi$，所以 $h+s+s\\cos\\theta=h+s(1+\\cos\\theta)>0$. 因而 $CA_{1}\\perp BC_{1}$ 当且仅当 $h=s$. 当 $h=s$ 时，直线 $A_{1}C$ 同时垂直于平面 $C_{1}BD$ 内相交的两条直线 $BD$，$BC_{1}$，故</p><p>$A_{1}C\\perp\\text{ 平面 }C_{1}BD$.</p><p>所以</p><p>$\\frac{CD}{CC_{1}}=\\frac{s}{h}=1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设</p><p>$\\mathbf{u}=\\overrightarrow{CB},\\qquad \\mathbf{v}=\\overrightarrow{CD},\\qquad \\mathbf{w}=\\overrightarrow{CC_{1}}$，</p><p>并记 $s=|\\mathbf{u}|=|\\mathbf{v}|=CD$，$h=|\\mathbf{w}|=CC_{1}$，以及 $\\theta=\\angle BCD$. 由题设三个角相等，有</p><p>$\\mathbf{u}\\cdot\\mathbf{v}=s^{2}\\cos\\theta,\\qquad  \\mathbf{w}\\cdot\\mathbf{u}=hs\\cos\\theta,\\qquad  \\mathbf{w}\\cdot\\mathbf{v}=hs\\cos\\theta$.</p><p>于是</p><p>$\\overrightarrow{CC_{1}}\\cdot\\overrightarrow{BD}=\\mathbf{w}\\cdot(\\mathbf{v}-\\mathbf{u})  =0$.</p><p>故 $C_{1}C\\perp BD$.</p></li><li><p>取 $C$ 为原点，则</p><p>$\\overrightarrow{CA_{1}}=\\mathbf{u}+\\mathbf{v}+\\mathbf{w},\\qquad  \\overrightarrow{BC_{1}}=\\mathbf{w}-\\mathbf{u},\\qquad  \\overrightarrow{BD}=\\mathbf{v}-\\mathbf{u}$.</p><p>直接计算得</p><p>$\\overrightarrow{CA_{1}}\\cdot\\overrightarrow{BD}=(\\mathbf{u}+\\mathbf{v}+\\mathbf{w})\\cdot(\\mathbf{v}-\\mathbf{u})  =(\\mathbf{u}\\cdot\\mathbf{v}-s^{2})+(s^{2}-\\mathbf{u}\\cdot\\mathbf{v})+\\mathbf{w}\\cdot(\\mathbf{v}-\\mathbf{u})=0$.</p><p>另外</p><p>$\\overrightarrow{CA_{1}}\\cdot\\overrightarrow{BC_{1}}=(\\mathbf{u}+\\mathbf{v}+\\mathbf{w})\\cdot(\\mathbf{w}-\\mathbf{u})=h^{2}-s^{2}+hs\\cos\\theta-s^{2}\\cos\\theta=(h-s)(h+s+s\\cos\\theta)$.</p><p>由于 $0<\\theta<\\pi$，所以 $h+s+s\\cos\\theta=h+s(1+\\cos\\theta)>0$. 因而 $CA_{1}\\perp BC_{1}$ 当且仅当 $h=s$. 当 $h=s$ 时，直线 $A_{1}C$ 同时垂直于平面 $C_{1}BD$ 内相交的两条直线 $BD$，$BC_{1}$，故</p><p>$A_{1}C\\perp\\text{ 平面 }C_{1}BD$.</p><p>所以</p><p>$\\frac{CD}{CC_{1}}=\\frac{s}{h}=1$.</p></li></ol>"
         }
       ]
     },
@@ -232,21 +232,21 @@
           "body": "<p>设函数 $f(x) = \\sqrt{x^{2} + 1}- ax$，其中 $a > 0$.</p><ol class=\"enumerate\"><li><p>解不等式 $f(x) \\le 1$；</p></li><li><p>证明：当 $a \\ge 1$ 时，函数 $f(x)$ 在区间 $[0, +\\infty)$ 上是单调函数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $x&#x3C;0$ 时，$\\sqrt{x^{2}+1}>1$ 且 $-ax>0$，所以 $f(x)>1$，不等式无负数解；$x=0$ 时等号成立. 当 $x\\geqslant0$ 时，$ax+1>0$，原不等式等价于</p><p>$\\sqrt{x^{2}+1}\\le ax+1$</p><p>以及</p><p>$x^{2}+1\\le(ax+1)^{2}$.</p><p>整理得</p><p>$x\\bigl((1-a^{2})x-2a\\bigr)\\leqslant0$.</p><p>当 $0&#x3C;a&#x3C;1$ 时，第二个因式的零点为 $\\frac{2a}{1-a^{2}}>0$，所以解集为</p><p>$\\left[0,\\frac{2a}{1-a^{2}}\\right]$.</p><p>当 $a\\geqslant1$ 时，对 $x\\geqslant0$ 有 $(1-a^{2})x-2a&#x3C;0$，所以解集为</p><p>$[0,+\\infty)$.</p></li><li><p>任取 $0\\le x&#x3C;y$. 有理化得</p><p>$f(y)-f(x)=\\sqrt{y^{2}+1}-\\sqrt{x^{2}+1}-a(y-x)=(y-x)\\left(\\frac{x+y}{\\sqrt{y^{2}+1}+\\sqrt{x^{2}+1}}-a\\right)$.</p><p>由于 $\\sqrt{y^{2}+1}>y$，$\\sqrt{x^{2}+1}>x$，故括号内的第一项小于 $1$. 当 $a\\geqslant1$ 时，整个括号小于 $1-a\\leqslant0$，从而 $f(y)&#x3C;f(x)$. 因此 $f(x)$ 在 $[0,+\\infty)$ 上单调递减.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x<0$ 时，$\\sqrt{x^{2}+1}>1$ 且 $-ax>0$，所以 $f(x)>1$，不等式无负数解；$x=0$ 时等号成立. 当 $x\\geqslant0$ 时，$ax+1>0$，原不等式等价于</p><p>$\\sqrt{x^{2}+1}\\le ax+1$</p><p>以及</p><p>$x^{2}+1\\le(ax+1)^{2}$.</p><p>整理得</p><p>$x\\bigl((1-a^{2})x-2a\\bigr)\\leqslant0$.</p><p>当 $0<a<1$ 时，第二个因式的零点为 $\\frac{2a}{1-a^{2}}>0$，所以解集为</p><p>$\\left[0,\\frac{2a}{1-a^{2}}\\right]$.</p><p>当 $a\\geqslant1$ 时，对 $x\\geqslant0$ 有 $(1-a^{2})x-2a<0$，所以解集为</p><p>$[0,+\\infty)$.</p></li><li><p>任取 $0\\le x<y$. 有理化得</p><p>$f(y)-f(x)=\\sqrt{y^{2}+1}-\\sqrt{x^{2}+1}-a(y-x)=(y-x)\\left(\\frac{x+y}{\\sqrt{y^{2}+1}+\\sqrt{x^{2}+1}}-a\\right)$.</p><p>由于 $\\sqrt{y^{2}+1}>y$，$\\sqrt{x^{2}+1}>x$，故括号内的第一项小于 $1$. 当 $a\\geqslant1$ 时，整个括号小于 $1-a\\leqslant0$，从而 $f(y)<f(x)$. 因此 $f(x)$ 在 $[0,+\\infty)$ 上单调递减.</p></li></ol>"
         },
         {
           "num": 22,
           "body": "用总长 $14.8 \\mathrm{~m}$ 的钢条制成一个长方体容器的框架，如果所制做容器的底面的一边比另一边长 $0.5 \\mathrm{~m}$，那么高为多少时容器的容积最大？并求出它的最大容积.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设底面较短的一边为 $x\\mathrm{~m}$，则另一边为 $(x+0.5)\\mathrm{~m}$. 由长方体框架的总棱长得</p><p>$4\\bigl(x+x+0.5+h\\bigr)=14.8$，所以高</p><p>$h=3.2-2x$.</p><p>由 $x>0$ 且 $h>0$，得 $0&#x3C;x&#x3C;1.6$. 容积为</p><p>$V(x)=x(x+0.5)(3.2-2x)  =-2x^{3}+2.2x^{2}+1.6x$.</p><p>求导得</p><p>$V'(x)=-6x^{2}+4.4x+1.6$.</p><p>令 $V'(x)=0$，得</p><p>$15x^{2}-11x-4=0$，所以 $x=1$ 或 $x=-\\frac{4}{15}$. 定义域内只有 $x=1$，且 $V'(x)$ 在 $0&#x3C;x&#x3C;1$ 时为正、在 $1&#x3C;x&#x3C;1.6$ 时为负，故 $x=1$ 时容积取得最大值.</p><p>此时</p><p>$h=3.2-2=1.2\\mathrm{~m}$，且</p><p>$V_{\\max}=1\\times1.5\\times1.2=1.8\\mathrm{~m}^{3}$.</p>"
+          "solution": "<p>设底面较短的一边为 $x\\mathrm{~m}$，则另一边为 $(x+0.5)\\mathrm{~m}$. 由长方体框架的总棱长得</p><p>$4\\bigl(x+x+0.5+h\\bigr)=14.8$，所以高</p><p>$h=3.2-2x$.</p><p>由 $x>0$ 且 $h>0$，得 $0<x<1.6$. 容积为</p><p>$V(x)=x(x+0.5)(3.2-2x)  =-2x^{3}+2.2x^{2}+1.6x$.</p><p>求导得</p><p>$V'(x)=-6x^{2}+4.4x+1.6$.</p><p>令 $V'(x)=0$，得</p><p>$15x^{2}-11x-4=0$，所以 $x=1$ 或 $x=-\\frac{4}{15}$. 定义域内只有 $x=1$，且 $V'(x)$ 在 $0<x<1$ 时为正、在 $1<x<1.6$ 时为负，故 $x=1$ 时容积取得最大值.</p><p>此时</p><p>$h=3.2-2=1.2\\mathrm{~m}$，且</p><p>$V_{\\max}=1\\times1.5\\times1.2=1.8\\mathrm{~m}^{3}$.</p>"
         },
         {
           "num": 23,
           "body": "<p>如图，已知梯形 $ABCD$ 中 $|AB| = 2|CD|$，点 $E$ 分有向线段 $\\overrightarrow{AC}$ 所成的比为 $\\lambda$，双曲线过 $C$，$D$，$E$ 三点，且以 $A$，$B$ 为焦点，当 $\\frac{2}{3}\\le \\lambda \\le \\frac{3}{4}$ 时，求双曲线离心率 $e$ 的取值范围.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设双曲线的焦点为 $A(-c,0)$，$B(c,0)$，则 $AB=2c$. 双曲线的对称轴为 $x$ 轴. 由于 $CD\\parallel AB$，且双曲线关于 $y$ 轴对称，故 $C$，$D$ 关于 $y$ 轴对称，可设</p><p>$C=\\left(\\frac{c}{2},h\\right),\\qquad D=\\left(-\\frac{c}{2},h\\right)$.</p><p>这里使用了 $|AB|=2|CD|$，因为 $|CD|=c$. 设双曲线的实半轴为 $a$，则其方程为</p><p>$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{c^{2}-a^{2}}=1$.</p><p>按定比分点的含义，$\\frac{AE}{EC}=\\lambda$. 令</p><p>$t=\\frac{AE}{AC}=\\frac{\\lambda}{1+\\lambda}$，</p><p>则</p><p>$E=A+t(C-A)=\\left(-c+\\frac{3ct}{2},th\\right)$.</p><p>由 $C$ 在双曲线上，得</p><p>$\\frac{c^{2}}{4a^{2}}-\\frac{h^{2}}{c^{2}-a^{2}}=1$，</p><p>即</p><p>$\\frac{h^{2}}{c^{2}-a^{2}}=\\frac{c^{2}}{4a^{2}}-1$.</p><p>将 $E$ 的坐标代入双曲线方程并利用上式，得到</p><p>$c^{2}\\left(-1+\\frac{3t}{2}\\right)^{2}-t^{2}\\left(\\frac{c^{2}}{4}-a^{2}\\right)=a^{2}$.</p><p>化简为</p><p>$c^{2}(1-t)(1-2t)=a^{2}(1-t^{2})$.</p><p>因为 $0&#x3C;t&#x3C;\\frac{1}{2}$，可约去 $1-t$，从而</p><p>$\\frac{a^{2}}{c^{2}}=\\frac{1-2t}{1+t}$， 即</p><p>$e^{2}=\\frac{c^{2}}{a^{2}}=\\frac{1+t}{1-2t}=\\frac{1+2\\lambda}{1-\\lambda}$.</p><p>函数 $\\frac{1+2\\lambda}{1-\\lambda}$ 在 $\\lambda&#x3C;1$ 时递增，且</p><p>$\\left.\\frac{1+2\\lambda}{1-\\lambda}\\right|_{\\lambda=\\frac{2}{3}}=7,\\qquad  \\left.\\frac{1+2\\lambda}{1-\\lambda}\\right|_{\\lambda=\\frac{3}{4}}=10$.</p><p>因此</p><p>$7\\le e^{2}\\leqslant10$，又 $e>0$，故</p><p>$\\sqrt{7}\\le e\\le\\sqrt{10}$.</p>"
+          "solution": "<p>设双曲线的焦点为 $A(-c,0)$，$B(c,0)$，则 $AB=2c$. 双曲线的对称轴为 $x$ 轴. 由于 $CD\\parallel AB$，且双曲线关于 $y$ 轴对称，故 $C$，$D$ 关于 $y$ 轴对称，可设</p><p>$C=\\left(\\frac{c}{2},h\\right),\\qquad D=\\left(-\\frac{c}{2},h\\right)$.</p><p>这里使用了 $|AB|=2|CD|$，因为 $|CD|=c$. 设双曲线的实半轴为 $a$，则其方程为</p><p>$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{c^{2}-a^{2}}=1$.</p><p>按定比分点的含义，$\\frac{AE}{EC}=\\lambda$. 令</p><p>$t=\\frac{AE}{AC}=\\frac{\\lambda}{1+\\lambda}$，</p><p>则</p><p>$E=A+t(C-A)=\\left(-c+\\frac{3ct}{2},th\\right)$.</p><p>由 $C$ 在双曲线上，得</p><p>$\\frac{c^{2}}{4a^{2}}-\\frac{h^{2}}{c^{2}-a^{2}}=1$，</p><p>即</p><p>$\\frac{h^{2}}{c^{2}-a^{2}}=\\frac{c^{2}}{4a^{2}}-1$.</p><p>将 $E$ 的坐标代入双曲线方程并利用上式，得到</p><p>$c^{2}\\left(-1+\\frac{3t}{2}\\right)^{2}-t^{2}\\left(\\frac{c^{2}}{4}-a^{2}\\right)=a^{2}$.</p><p>化简为</p><p>$c^{2}(1-t)(1-2t)=a^{2}(1-t^{2})$.</p><p>因为 $0<t<\\frac{1}{2}$，可约去 $1-t$，从而</p><p>$\\frac{a^{2}}{c^{2}}=\\frac{1-2t}{1+t}$， 即</p><p>$e^{2}=\\frac{c^{2}}{a^{2}}=\\frac{1+t}{1-2t}=\\frac{1+2\\lambda}{1-\\lambda}$.</p><p>函数 $\\frac{1+2\\lambda}{1-\\lambda}$ 在 $\\lambda<1$ 时递增，且</p><p>$\\left.\\frac{1+2\\lambda}{1-\\lambda}\\right|_{\\lambda=\\frac{2}{3}}=7,\\qquad  \\left.\\frac{1+2\\lambda}{1-\\lambda}\\right|_{\\lambda=\\frac{3}{4}}=10$.</p><p>因此</p><p>$7\\le e^{2}\\leqslant10$，又 $e>0$，故</p><p>$\\sqrt{7}\\le e\\le\\sqrt{10}$.</p>"
         }
       ]
     }

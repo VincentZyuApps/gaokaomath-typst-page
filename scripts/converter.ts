@@ -50,7 +50,9 @@ export function normalizeLatexSnippet(tex: string): string {
     return ` TYPSTIMGTAG${p1}AND${p2}ENDTAG `;
   });
 
-  // 规范化 TeX 紧凑分数简写，如 \frac12 -> \frac{1}{2}
+  // 规范化 TeX 紧凑分数简写 (支持 \dfrac\e2, \dfrac\ea, \dfrac1\e 等)
+  s = s.replace(/\\(frac|dfrac|cfrac)\s*\\(mathrm\{e\}|e\b|pi\b)\s*([0-9a-zA-Z])/g, '\\$1{\\mathrm{e}}{$3}');
+  s = s.replace(/\\(frac|dfrac|cfrac)\s*([0-9a-zA-Z])\s*\\(mathrm\{e\}|e\b|pi\b)/g, '\\$1{$2}{\\mathrm{e}}');
   s = s.replace(/\\(frac|dfrac|cfrac)\s*([0-9a-zA-Z])\s*([0-9a-zA-Z])/g, '\\$1{$2}{$3}');
   // 规范化无括号的字体宏简写，如 \mathrm C -> \mathrm{C}，防止下标 _ 被 AST 错误吸入宏参数内部
   s = s.replace(/\\(mathrm|mathbf|mathit|mathsf|mathtt)\s+([A-Za-z])/g, '\\$1{$2}');
@@ -59,20 +61,37 @@ export function normalizeLatexSnippet(tex: string): string {
   // 规范化粗体向量宏
   s = s.replace(/\\bs(?![a-zA-Z])/g, '\\mathbf ');
   s = s.replace(/\\bs\{([^}]+)\}/g, '\\mathbf{$1}');
+  // 规范化孤立 LaTeX 宏
+  s = s.replace(/\\myarc\{([^}]+)\}/g, '\\overset{\\frown}{$1}');
+  s = s.replace(/\\rmfamily\b/g, '');
+  // 剥离被误包在 $...$ 内部的 tabular 表格
+  s = s.replace(/\$(\s*\\begin\{tabular\}[\s\S]*?\\end\{tabular\}\s*)\$/g, '$1');
   // 规范化不等号
   s = s.replace(/\\leqslant\b/g, '\\le');
   s = s.replace(/\\geqslant\b/g, '\\ge');
+  // 修复上游断开的 cases 环境
+  s = s.replace(/&\s*\\\)\s*（\s*\\\((?:\\text\{)?([^{}()（）]*?)(?:\})?\s*\\\)\s*）\s*\\\(/g, '& \\text{（$1）} ');
   // 规范化数集与数学常数
-  s = s.replace(/\\e\b/g, '\\mathrm{e}');
+  s = s.replace(/\\e(?![a-zA-Z])/g, '\\mathrm{e}');
+  s = s.replace(/\\mathrm\s*\}?\s*\{?\s*\}?{e}/g, '\\mathrm{e}');
+  s = s.replace(/\\mathrm\}{e}/g, '\\mathrm{e}');
   s = s.replace(/\\i\b/g, '\\mathrm{i}');
   s = s.replace(/\\R\b/g, '\\mathbb{R}');
   s = s.replace(/\\Z\b/g, '\\mathbb{Z}');
   s = s.replace(/\\N\b/g, '\\mathbb{N}');
   // 规范化已知宏瑕疵
   s = s.replace(/\\allowbreak\b/g, '');
+  // 修复上游断开的 cases 分段函数
+  s = s.replace(/&\\\\\)\s*（\s*\\\\\(/g, '& \\text{（}');
+  s = s.replace(/\\\\\)\s*）\s*\\\\\(/g, '\\text{）} ');
   s = s.replace(/\\athrm\b/g, '\\mathrm');
   s = s.replace(/\\expandafter\\def\\csname[^\n]+/g, '');
   s = s.replace(/\\multirow[0-9*]*\{/g, '');
+  // 清理 minipage 环境
+  s = s.replace(/\\begin\{minipage\}(?:\[[^\]]*\])?(?:\{[^\}]*\})?/g, '');
+  s = s.replace(/\\end\{minipage\}/g, '');
+  // 修复上游分式分母单 token 截断导致的 \mathrm}{e}
+  s = s.replace(/\\mathrm\}\s*\{([a-zA-Z0-9]+)\}/g, (m, p1) => '\\mathrm{' + p1 + '}}');
   s = s.replace(/\{([A-Za-z]+)_\}/g, '{$1}_');
   // 规范化带圈序号宏
   s = s.replace(/\\circled\{?1\}?/g, '①');
@@ -130,9 +149,20 @@ export function processTextForWebMarkdown(text: string, imgPrefix: string = "./i
     const ast = parse(s);
     let html = convertToHtml(ast);
 
+    const decodeMathEntities = (math: string) => {
+      let m = math.replace(/\\+\s*$/g, '');
+      return m
+        .replace(/&#x3C;/g, '<')
+        .replace(/&#x3E;/g, '>')
+        .replace(/&#x26;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&amp;/g, '&');
+    };
+
     // 将 unified-latex 输出的 <span class="inline-math"> 还原为 KaTeX 原生渲染的 $...$
-    html = html.replace(/<span class="inline-math">([\s\S]*?)<\/span>/g, (m, math) => `$${math}$`);
-    html = html.replace(/<div class="display-math">([\s\S]*?)<\/div>/g, (m, math) => `\n$$\n${math}\n$$\n`);
+    html = html.replace(/<span class="inline-math">([\s\S]*?)<\/span>/g, (m, math) => `$${decodeMathEntities(math)}$`);
+    html = html.replace(/<div class="display-math">([\s\S]*?)<\/div>/g, (m, math) => `\n$$\n${decodeMathEntities(math)}\n$$\n`);
 
     // 还原图片标签
     html = html.replace(/TYPSTIMGTAG(bitmapfigure|choicebitmap)AND(.*?)ENDTAG/g, (m, p1, p2) => {
@@ -140,12 +170,16 @@ export function processTextForWebMarkdown(text: string, imgPrefix: string = "./i
       const style = p1 === 'choicebitmap'
         ? 'max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;'
         : 'max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;';
-      return `<div align="center"><img class="${cls}" src="${imgPrefix}${p2}" style="${style}" /></div>`;
+      const cleanImgName = p2.replace(/\{([^{}]+)\}/g, '$1');
+      return `<div align="center"><img class="${cls}" src="${imgPrefix}${cleanImgName}" style="${style}" /></div>`;
     });
 
     html = html.replace(/\\renewcommand\{[^}]+\}\{[^}]+\}/g, '');
     html = html.replace(/\\cline\{[^}]+\}/g, '');
     html = html.replace(/\\quad/g, ' ');
+    // 缝合被美元符号截断的 cases 多分支条件
+    html = html.replace(/&(?:s*\$)?s*（(?:s*\$)?([\s\S]*?)(?:s*\$)?s*）(?:s*\$)?/g, (m, p1) => '& \\text{（' + p1.replace(/\$/g, '').trim() + '）}');
+    html = decodeMathEntities(html);
 
     return html.trim();
   } catch (err) {

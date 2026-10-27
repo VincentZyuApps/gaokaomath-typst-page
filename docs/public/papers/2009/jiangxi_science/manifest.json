@@ -29,7 +29,7 @@
             "$(-1, 1]$"
           ],
           "answer": "C",
-          "solution": "对数有意义要求 $x+1>0$，即 $x>-1$. 分母中的根式有意义且不能为零，要求 $-x^{2}-3x+4>0$，即 $(x+4)(x-1)&#x3C;0$，所以 $-4&#x3C;x&#x3C;1$. 两个条件取交集得定义域为 $(-1,1)$，故选 C."
+          "solution": "对数有意义要求 $x+1>0$，即 $x>-1$. 分母中的根式有意义且不能为零，要求 $-x^{2}-3x+4>0$，即 $(x+4)(x-1)<0$，所以 $-4<x<1$. 两个条件取交集得定义域为 $(-1,1)$，故选 C."
         },
         {
           "num": 3,
@@ -45,7 +45,7 @@
         },
         {
           "num": 4,
-          "body": "若函数 $f(x) = (1 + \\sqrt{3}\\tan x)\\cos x$，$0 \\le x &#x3C; \\frac{\\pi}{2}$，则 $f(x)$ 的最大值为（ ）",
+          "body": "若函数 $f(x) = (1 + \\sqrt{3}\\tan x)\\cos x$，$0 \\le x < \\frac{\\pi}{2}$，则 $f(x)$ 的最大值为（ ）",
           "choices": [
             "$1$",
             "$2$",
@@ -53,7 +53,7 @@
             "$\\sqrt{3}+ 2$"
           ],
           "answer": "B",
-          "solution": "<p>在给定区间内 $\\cos x>0$，且 $\\tan x$ 有定义. 利用 $\\tan x\\cos x=\\sin x$，得</p>\n$$\nf(x)=\\cos x+\\sqrt{3}\\sin x=2\\cos\\left(x-\\frac{\\pi}{3}\\right)\n$$\n<p>当 $0\\le x&#x3C;\\frac{\\pi}{2}$ 时，$x-\\frac{\\pi}{3}\\in\\left[-\\frac{\\pi}{3},\\frac{\\pi}{6}\\right)$，其中包含 $0$，所以余弦的最大值为 $1$，在 $x=\\frac{\\pi}{3}$ 时取得. 因此 $f(x)$ 的最大值为 $2$，故选 B.</p>"
+          "solution": "<p>在给定区间内 $\\cos x>0$，且 $\\tan x$ 有定义. 利用 $\\tan x\\cos x=\\sin x$，得</p>\n$$\nf(x)=\\cos x+\\sqrt{3}\\sin x=2\\cos\\left(x-\\frac{\\pi}{3}\\right)\n$$\n<p>当 $0\\le x<\\frac{\\pi}{2}$ 时，$x-\\frac{\\pi}{3}\\in\\left[-\\frac{\\pi}{3},\\frac{\\pi}{6}\\right)$，其中包含 $0$，所以余弦的最大值为 $1$，在 $x=\\frac{\\pi}{3}$ 时取得. 因此 $f(x)$ 的最大值为 $2$，故选 B.</p>"
         },
         {
           "num": 5,
@@ -77,7 +77,7 @@
             "$\\frac{1}{3}$"
           ],
           "answer": "B",
-          "solution": "<p>设椭圆的焦半距为 $c$，则 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，且 $c^{2}=a^{2}-b^{2}$. 由于过 $F_{1}$ 的垂线为 $x=-c$，设 $P=(-c,y_{0})$. 代入椭圆方程得</p><p>$\\frac{c^{2}}{a^{2}}+\\frac{y_{0}^{2}}{b^{2}}=1$，$|y_{0}|=\\frac{b^{2}}{a}$.</p><p>在点 $P$ 处，$\\overrightarrow{PF_1}=(0,-y_{0})$，$\\overrightarrow{PF_2}=(2c,-y_{0})$，所以</p>\n$$\n\\cos60^{\\circ}=\\frac{\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}}{|PF_{1}||PF_{2}|}=\\frac{|y_{0}|}{\\sqrt{4c^{2}+y_{0}^{2}}}\n$$\n<p>于是 $3y_{0}^{2}=4c^{2}$，即 $\\frac{b^{2}}{a}=\\frac{2c}{\\sqrt{3}}$. 令 $e=\\frac{c}{a}$，则</p><p>$1-e^{2}=\\frac{2e}{\\sqrt{3}}$，$\\sqrt{3}e^{2}+2e-\\sqrt{3}=0$.</p><p>因为 $0&#x3C;e&#x3C;1$，故 $e=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}$. 所以选 B.</p>"
+          "solution": "<p>设椭圆的焦半距为 $c$，则 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，且 $c^{2}=a^{2}-b^{2}$. 由于过 $F_{1}$ 的垂线为 $x=-c$，设 $P=(-c,y_{0})$. 代入椭圆方程得</p><p>$\\frac{c^{2}}{a^{2}}+\\frac{y_{0}^{2}}{b^{2}}=1$，$|y_{0}|=\\frac{b^{2}}{a}$.</p><p>在点 $P$ 处，$\\overrightarrow{PF_1}=(0,-y_{0})$，$\\overrightarrow{PF_2}=(2c,-y_{0})$，所以</p>\n$$\n\\cos60^{\\circ}=\\frac{\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}}{|PF_{1}||PF_{2}|}=\\frac{|y_{0}|}{\\sqrt{4c^{2}+y_{0}^{2}}}\n$$\n<p>于是 $3y_{0}^{2}=4c^{2}$，即 $\\frac{b^{2}}{a}=\\frac{2c}{\\sqrt{3}}$. 令 $e=\\frac{c}{a}$，则</p><p>$1-e^{2}=\\frac{2e}{\\sqrt{3}}$，$\\sqrt{3}e^{2}+2e-\\sqrt{3}=0$.</p><p>因为 $0<e<1$，故 $e=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}$. 所以选 B.</p>"
         },
         {
           "num": 7,
@@ -141,7 +141,7 @@
         },
         {
           "num": 12,
-          "body": "设函数 $f(x) = \\sqrt{ax^{2} + bx + c}$ （$a &#x3C; 0$） 的定义域为 $D$，若所有点 $(s, f(t))$ （$s$，$t \\in D$） 构成一个正方形区域，则 $a$ 的值为（ ）",
+          "body": "设函数 $f(x) = \\sqrt{ax^{2} + bx + c}$ （$a < 0$） 的定义域为 $D$，若所有点 $(s, f(t))$ （$s$，$t \\in D$） 构成一个正方形区域，则 $a$ 的值为（ ）",
           "choices": [
             "$-2$",
             "$-4$",
@@ -149,7 +149,7 @@
             "不能确定"
           ],
           "answer": "B",
-          "solution": "<p>令 $q(x)=ax^{2}+bx+c$. 因为 $a&#x3C;0$，且定义域对应 $q(x)\\geqslant0$，设 $q$ 的最大值为 $H>0$，则可写成 $q(x)=-\\alpha(x-h)^{2}+H$，其中 $\\alpha=-a>0$. 因此</p><p>$D=\\left[h-\\sqrt{\\frac{H}{\\alpha}},h+\\sqrt{\\frac{H}{\\alpha}}\\right]$，$|D|=2\\sqrt{\\frac{H}{\\alpha}}$.</p><p>函数值域为 $[0,\\sqrt{H}]$. 所有点 $(s,f(t))$ 构成的区域是 $D\\times[0,\\sqrt{H}]$，其横向边长为 $2\\sqrt{\\frac{H}{\\alpha}}$，纵向边长为 $\\sqrt{H}$. 该区域为正方形，所以</p><p>$2\\sqrt{\\frac{H}{\\alpha}}=\\sqrt{H}$，$\\frac{4}{\\alpha}=1$，$\\alpha=4$.</p><p>故 $a=-\\alpha=-4$，选 B.</p>"
+          "solution": "<p>令 $q(x)=ax^{2}+bx+c$. 因为 $a<0$，且定义域对应 $q(x)\\geqslant0$，设 $q$ 的最大值为 $H>0$，则可写成 $q(x)=-\\alpha(x-h)^{2}+H$，其中 $\\alpha=-a>0$. 因此</p><p>$D=\\left[h-\\sqrt{\\frac{H}{\\alpha}},h+\\sqrt{\\frac{H}{\\alpha}}\\right]$，$|D|=2\\sqrt{\\frac{H}{\\alpha}}$.</p><p>函数值域为 $[0,\\sqrt{H}]$. 所有点 $(s,f(t))$ 构成的区域是 $D\\times[0,\\sqrt{H}]$，其横向边长为 $2\\sqrt{\\frac{H}{\\alpha}}$，纵向边长为 $\\sqrt{H}$. 该区域为正方形，所以</p><p>$2\\sqrt{\\frac{H}{\\alpha}}=\\sqrt{H}$，$\\frac{4}{\\alpha}=1$，$\\alpha=4$.</p><p>故 $a=-\\alpha=-4$，选 B.</p>"
         }
       ]
     },
@@ -161,7 +161,7 @@
           "body": "已知向量 $\\mathbf{a}= (3, 1)$，$\\mathbf{b}= (1, 3)$，$\\mathbf{c}= (k, 7)$. 若 $(\\mathbf{a}- \\mathbf{c}) \\parallel \\mathbf{b}$，则 $k =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$5$",
-          "solution": "<p>由 $\\mathbf{a}-\\mathbf{c}=(3-k,-6)$，而 $\\mathbf{b}=(1,3)$，两向量平行当且仅当对应坐标的行列式为零，即</p>\n$$\n\\begin{vmatrix}3-k&#x26;-6\\\\1&#x26;3\\end{vmatrix}=3(3-k)+6=0\n$$\n<p>解得 $k=5$.</p>"
+          "solution": "<p>由 $\\mathbf{a}-\\mathbf{c}=(3-k,-6)$，而 $\\mathbf{b}=(1,3)$，两向量平行当且仅当对应坐标的行列式为零，即</p>\n$$\n\\begin{vmatrix}3-k&-6\\\\1&3\\end{vmatrix}=3(3-k)+6=0\n$$\n<p>解得 $k=5$.</p>"
         },
         {
           "num": 14,
@@ -175,7 +175,7 @@
           "body": "若不等式 $\\sqrt{9 - x^{2}}\\le k(x + 2) - \\sqrt{2}$ 的解集为区间 $[a, b]$，且 $b - a = 2$，则 $k =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\sqrt{2}$",
-          "solution": "<p>根式要求 $-3\\le x\\leqslant3$，且右端必须非负. 若 $k=0$，右端恒为 $-\\sqrt{2}$，无解. 若 $k&#x3C;0$，右端非负要求</p>\n$$\nx\\le x_{0}=\\frac{\\sqrt{2}}{k}-2&#x3C;-2\n$$\n<p>若 $x_{0}&#x3C;-3$，则无解；若 $-3\\le x_{0}&#x3C;-2$，所有解都包含在 $[-3,x_{0}]$ 内，该区间长度小于 $1$，不可能等于 $b-a=2$. 因而 $k>0$.</p><p>此时右端 $k(x+2)-\\sqrt{2}$ 随 $x$ 增大而增大. 若 $x_{0}=\\frac{\\sqrt{2}}{k}-2>3$，则无解；所以由题设解集非空可知 $x_{0}\\leqslant3$，从而 $x=3$ 满足原不等式. 因为解集是区间 $[a,b]$，故 $b=3$，再由 $b-a=2$ 得 $a=1$.</p><p>在右端非负的范围内平方，得</p>\n$$\n9-x^{2}\\le\\left(k(x+2)-\\sqrt{2}\\right)^{2}\n$$\n<p>由于 $x=1$ 是解集的左端点，且若右端在 $x=1$ 处为零则原不等式左边为 $2\\sqrt{2}>0$，不可能成立，所以在 $x=1$ 处两边相等：</p><p>$\\sqrt{9-1}=k(1+2)-\\sqrt{2}$，$2\\sqrt{2}=3k-\\sqrt{2}$，</p><p>所以 $k=\\sqrt{2}$. 反向验证：当 $k=\\sqrt{2}$ 时，右端为 $\\sqrt{2}(x+1)$，故必须 $x\\ge-1$，平方后得</p>\n$$\n9-x^{2}\\leqslant2(x+1)^{2}  \\Longleftrightarrow (3x+7)(x-1)\\geqslant0\n$$\n<p>与 $[-1,3]$ 取交集，解集恰为 $[1,3]$，长度为 $2$. 所以填 $\\sqrt{2}$.</p>"
+          "solution": "<p>根式要求 $-3\\le x\\leqslant3$，且右端必须非负. 若 $k=0$，右端恒为 $-\\sqrt{2}$，无解. 若 $k<0$，右端非负要求</p>\n$$\nx\\le x_{0}=\\frac{\\sqrt{2}}{k}-2<-2\n$$\n<p>若 $x_{0}<-3$，则无解；若 $-3\\le x_{0}<-2$，所有解都包含在 $[-3,x_{0}]$ 内，该区间长度小于 $1$，不可能等于 $b-a=2$. 因而 $k>0$.</p><p>此时右端 $k(x+2)-\\sqrt{2}$ 随 $x$ 增大而增大. 若 $x_{0}=\\frac{\\sqrt{2}}{k}-2>3$，则无解；所以由题设解集非空可知 $x_{0}\\leqslant3$，从而 $x=3$ 满足原不等式. 因为解集是区间 $[a,b]$，故 $b=3$，再由 $b-a=2$ 得 $a=1$.</p><p>在右端非负的范围内平方，得</p>\n$$\n9-x^{2}\\le\\left(k(x+2)-\\sqrt{2}\\right)^{2}\n$$\n<p>由于 $x=1$ 是解集的左端点，且若右端在 $x=1$ 处为零则原不等式左边为 $2\\sqrt{2}>0$，不可能成立，所以在 $x=1$ 处两边相等：</p><p>$\\sqrt{9-1}=k(1+2)-\\sqrt{2}$，$2\\sqrt{2}=3k-\\sqrt{2}$，</p><p>所以 $k=\\sqrt{2}$. 反向验证：当 $k=\\sqrt{2}$ 时，右端为 $\\sqrt{2}(x+1)$，故必须 $x\\ge-1$，平方后得</p>\n$$\n9-x^{2}\\leqslant2(x+1)^{2}  \\Longleftrightarrow (3x+7)(x-1)\\geqslant0\n$$\n<p>与 $[-1,3]$ 取交集，解集恰为 $[1,3]$，长度为 $2$. 所以填 $\\sqrt{2}$.</p>"
         },
         {
           "num": 16,
@@ -194,7 +194,7 @@
           "body": "<p>设函数 $f(x) = \\frac{\\mathrm{e}^{x}}{x}$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的单调区间；</p></li><li><p>若 $k > 0$，求不等式 $f'(x) + k(1 - x)f(x) > 0$ 的解集.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $x\\neq0$，且</p>\n$$\nf'(x)=\\frac{x\\mathrm{e}^{x}-\\mathrm{e}^{x}}{x^{2}}=\\frac{\\mathrm{e}^{x}(x-1)}{x^{2}}\n$$\n<p>因为 $\\mathrm{e}^{x}>0$，$x^{2}>0$，所以当 $x&#x3C;1$ 且 $x\\neq0$ 时 $f'(x)&#x3C;0$，当 $x>1$ 时 $f'(x)>0$. 因此 $f(x)$ 在 $(-\\infty,0)$ 和 $(0,1)$ 上单调递减，在 $(1,+\\infty)$ 上单调递增.</p></li><li><p>又</p>\n$$\nf'(x)+k(1-x)f(x)=\\frac{\\mathrm{e}^{x}(x-1)}{x^{2}}+k(1-x)\\frac{\\mathrm{e}^{x}}{x}=\\frac{\\mathrm{e}^{x}(x-1)(1-kx)}{x^{2}}\n$$\n<p>由于 $\\frac{\\mathrm{e}^{x}}{x^{2}}>0$，原不等式等价于 $(x-1)(1-kx)>0$，且 $x\\neq0$. 当 $0&#x3C;k&#x3C;1$ 时，$1&#x3C;\\frac{1}{k}$，解集为 $\\left(1,\\frac{1}{k}\\right)$；当 $k=1$ 时，左侧为 $-(x-1)^{2}$，无解；当 $k>1$ 时，$\\frac{1}{k}&#x3C;1$，解集为 $\\left(\\frac{1}{k},1\\right)$. 综上，解集为</p>\n$$\n\\begin{cases}\\left(1,\\frac{1}{k}\\right),&#x26;0&#x3C;k&#x3C;1,\\\\\n\n\\varnothing,&#x26;k=1,\\\\\n\n\\left(\\frac{1}{k},1\\right),&#x26;k>1\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $x\\neq0$，且</p>\n$$\nf'(x)=\\frac{x\\mathrm{e}^{x}-\\mathrm{e}^{x}}{x^{2}}=\\frac{\\mathrm{e}^{x}(x-1)}{x^{2}}\n$$\n<p>因为 $\\mathrm{e}^{x}>0$，$x^{2}>0$，所以当 $x<1$ 且 $x\\neq0$ 时 $f'(x)<0$，当 $x>1$ 时 $f'(x)>0$. 因此 $f(x)$ 在 $(-\\infty,0)$ 和 $(0,1)$ 上单调递减，在 $(1,+\\infty)$ 上单调递增.</p></li><li><p>又</p>\n$$\nf'(x)+k(1-x)f(x)=\\frac{\\mathrm{e}^{x}(x-1)}{x^{2}}+k(1-x)\\frac{\\mathrm{e}^{x}}{x}=\\frac{\\mathrm{e}^{x}(x-1)(1-kx)}{x^{2}}\n$$\n<p>由于 $\\frac{\\mathrm{e}^{x}}{x^{2}}>0$，原不等式等价于 $(x-1)(1-kx)>0$，且 $x\\neq0$. 当 $0<k<1$ 时，$1<\\frac{1}{k}$，解集为 $\\left(1,\\frac{1}{k}\\right)$；当 $k=1$ 时，左侧为 $-(x-1)^{2}$，无解；当 $k>1$ 时，$\\frac{1}{k}<1$，解集为 $\\left(\\frac{1}{k},1\\right)$. 综上，解集为</p>\n$$\n\\begin{cases}\\left(1,\\frac{1}{k}\\right),&0<k<1,\\\\\n\n\\varnothing,&k=1,\\\\\n\n\\left(\\frac{1}{k},1\\right),&k>1\\end{cases}\n$$\n</li></ol>"
         },
         {
           "num": 18,
@@ -208,7 +208,7 @@
           "body": "<p>$\\triangle ABC$ 中，$A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，$\\tan C = \\frac{\\sin A + \\sin B}{\\cos A + \\cos B}$，$\\sin(B - A) = \\cos C$.</p><ol class=\"enumerate\"><li><p>求 $A$，$C$；</p></li><li><p>若 $S_{\\triangle ABC}= 3 + \\sqrt{3}$，求 $a$，$c$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由三角形内角和得 $A+B=\\pi-C$. 由和差化积公式，有</p><p>$\\sin A+\\sin B=2\\cos\\frac{C}{2}\\cos\\frac{B-A}{2}$，且</p><p>$\\cos A+\\cos B=2\\sin\\frac{C}{2}\\cos\\frac{B-A}{2}$.</p><p>因为 $A$，$B$ 是三角形内角，所以 $\\cos\\frac{B-A}{2}>0$，从而</p>\n$$\n\\tan C=\\frac{\\cos(\\frac{C}{2})}{\\sin(\\frac{C}{2})}=\\cot\\frac{C}{2}>0\n$$\n<p>故 $0&#x3C;C&#x3C;\\frac{\\pi}{2}$. 令 $t=\\tan\\frac{C}{2}>0$，则</p>\n$$\n\\tan C=\\frac{2t}{1-t^{2}}=\\frac{1}{t}\n$$\n<p>所以 $3t^{2}=1$，即 $t=\\frac{1}{\\sqrt{3}}$，故 $C=\\frac{\\pi}{3}$.</p><p>又由已知 $\\sin(B-A)=\\cos C=\\frac{1}{2}$. 因为 $\\lvert B-A\\rvert&#x3C;A+B=\\frac{2\\pi}{3}$，在此范围内只能有 $B-A=\\frac{\\pi}{6}$. 因此</p><p>$A=\\frac{(A+B)-(B-A)}{2}=\\frac{\\pi}{4}$，$B=\\frac{(A+B)+(B-A)}{2}=\\frac{5\\pi}{12}$</p></li><li><p>设三角形外接圆半径为 $R$. 由正弦定理，$a=2R\\sin A=\\sqrt{2}R$，$c=2R\\sin C=\\sqrt{3}R$.</p><p>又</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}ac\\sin B  =\\frac{1}{2}\\cdot\\sqrt{2}R\\cdot\\sqrt{3}R\\cdot\\frac{\\sqrt{6}+\\sqrt{2}}{4}=\\frac{3+\\sqrt{3}}{4}R^{2}\n$$\n<p>由题设面积为 $3+\\sqrt{3}$，得 $R^{2}=4$，所以 $R=2$. 因此</p><p>$a=2\\sqrt{2}$，$c=2\\sqrt{3}$</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由三角形内角和得 $A+B=\\pi-C$. 由和差化积公式，有</p><p>$\\sin A+\\sin B=2\\cos\\frac{C}{2}\\cos\\frac{B-A}{2}$，且</p><p>$\\cos A+\\cos B=2\\sin\\frac{C}{2}\\cos\\frac{B-A}{2}$.</p><p>因为 $A$，$B$ 是三角形内角，所以 $\\cos\\frac{B-A}{2}>0$，从而</p>\n$$\n\\tan C=\\frac{\\cos(\\frac{C}{2})}{\\sin(\\frac{C}{2})}=\\cot\\frac{C}{2}>0\n$$\n<p>故 $0<C<\\frac{\\pi}{2}$. 令 $t=\\tan\\frac{C}{2}>0$，则</p>\n$$\n\\tan C=\\frac{2t}{1-t^{2}}=\\frac{1}{t}\n$$\n<p>所以 $3t^{2}=1$，即 $t=\\frac{1}{\\sqrt{3}}$，故 $C=\\frac{\\pi}{3}$.</p><p>又由已知 $\\sin(B-A)=\\cos C=\\frac{1}{2}$. 因为 $\\lvert B-A\\rvert<A+B=\\frac{2\\pi}{3}$，在此范围内只能有 $B-A=\\frac{\\pi}{6}$. 因此</p><p>$A=\\frac{(A+B)-(B-A)}{2}=\\frac{\\pi}{4}$，$B=\\frac{(A+B)+(B-A)}{2}=\\frac{5\\pi}{12}$</p></li><li><p>设三角形外接圆半径为 $R$. 由正弦定理，$a=2R\\sin A=\\sqrt{2}R$，$c=2R\\sin C=\\sqrt{3}R$.</p><p>又</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}ac\\sin B  =\\frac{1}{2}\\cdot\\sqrt{2}R\\cdot\\sqrt{3}R\\cdot\\frac{\\sqrt{6}+\\sqrt{2}}{4}=\\frac{3+\\sqrt{3}}{4}R^{2}\n$$\n<p>由题设面积为 $3+\\sqrt{3}$，得 $R^{2}=4$，所以 $R=2$. 因此</p><p>$a=2\\sqrt{2}$，$c=2\\sqrt{3}$</p></li></ol>"
         },
         {
           "num": 20,
@@ -229,7 +229,7 @@
           "body": "<p>各项均为正数的数列 $\\{a_{n}\\}$，$a_{1}= a$，$a_{2}= b$，且对满足 $m + n = p + q$ 的正整数 $m$，$n$，$p$，$q$ 都有 $\\frac{a_{m}+ a_{n}}{(1 + a_{m})(1 + a_{n})}= \\frac{a_{p}+ a_{q}}{(1 + a_{p})(1 + a_{q})}$.</p><ol class=\"enumerate\"><li><p>当 $a = \\frac{1}{2}$，$b = \\frac{4}{5}$ 时，求通项 $a_{n}$；</p></li><li><p>证明：对任意 $a$，存在与 $a$ 有关的常数 $\\lambda$，使得对于每个正整数 $n$，都有 $\\frac{1}{\\lambda}\\le a_{n} \\le \\lambda$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>令</p>\n$$\nu_{n}=\\frac{a_{n}-1}{a_{n}+1}\n$$\n<p>因为 $a_{n}>0$，所以 $-1&#x3C;u_{n}&#x3C;1$，且</p>\n$$\na_{n}=\\frac{1+u_{n}}{1-u_{n}}\n$$\n<p>又有 $1+a_{n}=\\frac{2}{1-u_{n}}$，所以</p>\n$$\n\\frac{a_{m}+a_{n}}{(1+a_{m})(1+a_{n})}=\\frac{(1+u_{m})(1-u_{n})+(1+u_{n})(1-u_{m})}{4}=\\frac{1-u_{m}u_{n}}{2}\n$$\n<p>题设条件因此等价于：当 $m+n=p+q$ 时，$u_{m}u_{n}=u_{p}u_{q}$.</p><p>先取 $(m,n)=(1,n+1)$ 和 $(p,q)=(2,n)$，得到</p><p>$u_{1}u_{n+1}=u_{2}u_{n}$，（$n=1,2,\\ldots$）.</p><p>若 $u_{1}\\neq0$，令 $r=\\frac{u_{2}}{u_{1}}$，则</p><p>$u_{n+1}=ru_{n}$，$u_{n}=u_{1}r^{n-1}$.</p><ol class=\"enumerate\"><li><p>当 $a=\\frac{1}{2}$，$b=\\frac{4}{5}$ 时，</p>\n$$\nu_{1}=\\frac{\\frac{1}{2}-1}{1+\\frac{1}{2}}=-\\frac{1}{3}\n$$\n<p>同理，$u_{2}=\\frac{\\frac{4}{5}-1}{1+\\frac{4}{5}}=-\\frac{1}{9}$.</p><p>所以 $r=\\frac{1}{3}$，从而 $u_{n}=-\\frac{1}{3^{n}}$. 因此</p>\n$$\na_{n}=\\frac{1+u_{n}}{1-u_{n}}=\\frac{1-\\frac{1}{3^{n}}}{1+\\frac{1}{3^{n}}}=\\frac{3^{n}-1}{3^{n}+1}\n$$\n</li><li><p>若 $u_{1}\\neq0$，由于所有 $u_{n}$ 都满足 $\\lvert u_{n}\\rvert&#x3C;1$，不可能有 $\\lvert r\\rvert>1$，否则当 $n$ 足够大时会有 $\\lvert u_{1}r^{n-1}\\rvert\\geqslant1$. 所以 $\\lvert r\\rvert\\leqslant1$，从而</p><p>$\\lvert u_{n}\\rvert\\le\\lvert u_{1}\\rvert$.</p><p>若 $u_{1}=0$，则对任意正整数 $n$，比较 $(m,n)=(1,2n-1)$ 与 $(p,q)=(n,n)$，有</p>\n$$\nu_{1}u_{2n-1}=u_{n}^{2}\n$$\n<p>因此 $u_{n}=0$，即 $a_{n}=1$. 这时结论显然成立.</p><p>当 $u_{1}\\neq0$ 时，由 $a_{n}=\\frac{1+u_{n}}{1-u_{n}}$ 且该函数在 $(-1,1)$ 上单调递增，得</p>\n$$\n\\frac{1-\\lvert u_{1}\\rvert}{1+\\lvert u_{1}\\rvert}\\le a_{n}\\le  \\frac{1+\\lvert u_{1}\\rvert}{1-\\lvert u_{1}\\rvert}\n$$\n<p>又</p>\n$$\n\\frac{1+\\lvert u_{1}\\rvert}{1-\\lvert u_{1}\\rvert}=\\frac{a+1+\\lvert a-1\\rvert}{a+1-\\lvert a-1\\rvert}=\\begin{cases}a,&#x26;a\\geqslant1,\\\\\n\n\\frac{1}{a},&#x26;0&#x3C;a&#x3C;1,\\end{cases}  =\\max\\left\\{a,\\frac{1}{a}\\right\\}\n$$\n<p>取</p><p>$\\lambda=\\max\\left\\{a,\\frac{1}{a}\\right\\}$，则对每个正整数 $n$ 都有</p>\n$$\n\\frac{1}{\\lambda}\\le a_{n}\\le\\lambda\n$$\n<p>这也包含 $a=1$ 时的情形.</p></li></ol>"
+          "solution": "<p>令</p>\n$$\nu_{n}=\\frac{a_{n}-1}{a_{n}+1}\n$$\n<p>因为 $a_{n}>0$，所以 $-1<u_{n}<1$，且</p>\n$$\na_{n}=\\frac{1+u_{n}}{1-u_{n}}\n$$\n<p>又有 $1+a_{n}=\\frac{2}{1-u_{n}}$，所以</p>\n$$\n\\frac{a_{m}+a_{n}}{(1+a_{m})(1+a_{n})}=\\frac{(1+u_{m})(1-u_{n})+(1+u_{n})(1-u_{m})}{4}=\\frac{1-u_{m}u_{n}}{2}\n$$\n<p>题设条件因此等价于：当 $m+n=p+q$ 时，$u_{m}u_{n}=u_{p}u_{q}$.</p><p>先取 $(m,n)=(1,n+1)$ 和 $(p,q)=(2,n)$，得到</p><p>$u_{1}u_{n+1}=u_{2}u_{n}$，（$n=1,2,\\ldots$）.</p><p>若 $u_{1}\\neq0$，令 $r=\\frac{u_{2}}{u_{1}}$，则</p><p>$u_{n+1}=ru_{n}$，$u_{n}=u_{1}r^{n-1}$.</p><ol class=\"enumerate\"><li><p>当 $a=\\frac{1}{2}$，$b=\\frac{4}{5}$ 时，</p>\n$$\nu_{1}=\\frac{\\frac{1}{2}-1}{1+\\frac{1}{2}}=-\\frac{1}{3}\n$$\n<p>同理，$u_{2}=\\frac{\\frac{4}{5}-1}{1+\\frac{4}{5}}=-\\frac{1}{9}$.</p><p>所以 $r=\\frac{1}{3}$，从而 $u_{n}=-\\frac{1}{3^{n}}$. 因此</p>\n$$\na_{n}=\\frac{1+u_{n}}{1-u_{n}}=\\frac{1-\\frac{1}{3^{n}}}{1+\\frac{1}{3^{n}}}=\\frac{3^{n}-1}{3^{n}+1}\n$$\n</li><li><p>若 $u_{1}\\neq0$，由于所有 $u_{n}$ 都满足 $\\lvert u_{n}\\rvert<1$，不可能有 $\\lvert r\\rvert>1$，否则当 $n$ 足够大时会有 $\\lvert u_{1}r^{n-1}\\rvert\\geqslant1$. 所以 $\\lvert r\\rvert\\leqslant1$，从而</p><p>$\\lvert u_{n}\\rvert\\le\\lvert u_{1}\\rvert$.</p><p>若 $u_{1}=0$，则对任意正整数 $n$，比较 $(m,n)=(1,2n-1)$ 与 $(p,q)=(n,n)$，有</p>\n$$\nu_{1}u_{2n-1}=u_{n}^{2}\n$$\n<p>因此 $u_{n}=0$，即 $a_{n}=1$. 这时结论显然成立.</p><p>当 $u_{1}\\neq0$ 时，由 $a_{n}=\\frac{1+u_{n}}{1-u_{n}}$ 且该函数在 $(-1,1)$ 上单调递增，得</p>\n$$\n\\frac{1-\\lvert u_{1}\\rvert}{1+\\lvert u_{1}\\rvert}\\le a_{n}\\le  \\frac{1+\\lvert u_{1}\\rvert}{1-\\lvert u_{1}\\rvert}\n$$\n<p>又</p>\n$$\n\\frac{1+\\lvert u_{1}\\rvert}{1-\\lvert u_{1}\\rvert}=\\frac{a+1+\\lvert a-1\\rvert}{a+1-\\lvert a-1\\rvert}=\\begin{cases}a,&a\\geqslant1,\\\\\n\n\\frac{1}{a},&0<a<1,\\end{cases}  =\\max\\left\\{a,\\frac{1}{a}\\right\\}\n$$\n<p>取</p><p>$\\lambda=\\max\\left\\{a,\\frac{1}{a}\\right\\}$，则对每个正整数 $n$ 都有</p>\n$$\n\\frac{1}{\\lambda}\\le a_{n}\\le\\lambda\n$$\n<p>这也包含 $a=1$ 时的情形.</p></li></ol>"
         }
       ]
     }

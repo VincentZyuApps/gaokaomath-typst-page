@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知 $0 &#x3C; a &#x3C; 2$，复数 $z$ 的实部为 $a$，虚部为 $1$，则 $|z|$ 的取值范围是（ ）",
+          "body": "已知 $0 < a < 2$，复数 $z$ 的实部为 $a$，虚部为 $1$，则 $|z|$ 的取值范围是（ ）",
           "choices": [
             "$(1, 5)$",
             "$(1, 3)$",
@@ -17,7 +17,7 @@
             "$(1, \\sqrt{3})$"
           ],
           "answer": "C",
-          "solution": "<p>由复数模的定义，</p><p>$|z|=\\sqrt{(\\operatorname{Re}z)^{2}+(\\operatorname{Im}z)^{2}}=\\sqrt{a^{2}+1}$.</p><p>因为 $0&#x3C;a&#x3C;2$，所以 $0&#x3C;a^{2}&#x3C;4$，从而</p><p>$1&#x3C;a^{2}+1&#x3C;5$.</p><p>两边均为正数，开平方得 $1&#x3C;|z|&#x3C;\\sqrt{5}$，故选 C.</p>"
+          "solution": "<p>由复数模的定义，</p><p>$|z|=\\sqrt{(\\operatorname{Re}z)^{2}+(\\operatorname{Im}z)^{2}}=\\sqrt{a^{2}+1}$.</p><p>因为 $0<a<2$，所以 $0<a^{2}<4$，从而</p><p>$1<a^{2}+1<5$.</p><p>两边均为正数，开平方得 $1<|z|<\\sqrt{5}$，故选 C.</p>"
         },
         {
           "num": 2,
@@ -84,12 +84,12 @@
           "body": "设 $a \\in \\mathbb{R}$，若函数 $y = \\mathrm{e}^{ax}+ 3x$（$x \\in \\mathbb{R}$）有大于零的极值点，则（ ）",
           "choices": [
             "$a > -3$",
-            "$a &#x3C; -3$",
+            "$a < -3$",
             "$a > -\\frac{1}{3}$",
-            "$a &#x3C; -\\frac{1}{3}$"
+            "$a < -\\frac{1}{3}$"
           ],
           "answer": "B",
-          "solution": "<p>令 $f(x)=\\mathrm{e}^{ax}+3x$. 若 $a\\geqslant0$，则</p><p>$f'(x)=a\\mathrm{e}^{ax}+3>0$，函数严格递增，不存在极值点.</p><p>因此必须有 $a&#x3C;0$. 此时极值点应满足</p><p>$f'(x)=a\\mathrm{e}^{ax}+3=0$，即</p><p>$\\mathrm{e}^{ax}=-\\frac{3}{a}>0$，从而</p><p>$x_{0}=\\frac{1}{a}\\ln\\left(-\\frac{3}{a}\\right)$.</p><p>由于 $a&#x3C;0$，条件 $x_{0}>0$ 等价于</p><p>$\\ln\\left(-\\frac{3}{a}\\right)&#x3C;0$，即 $0&#x3C;-\\frac{3}{a}&#x3C;1$，</p><p>进一步得到 $a&#x3C;-3$.</p><p>当 $a&#x3C;-3$ 时，临界点确实存在，且</p><p>$f''(x_{0})=a^{2}\\mathrm{e}^{ax_0}=a^{2}\\left(-\\frac{3}{a}\\right)=-3a>0$，</p><p>所以它是极小值点. 因此应选 B.</p>"
+          "solution": "<p>令 $f(x)=\\mathrm{e}^{ax}+3x$. 若 $a\\geqslant0$，则</p><p>$f'(x)=a\\mathrm{e}^{ax}+3>0$，函数严格递增，不存在极值点.</p><p>因此必须有 $a<0$. 此时极值点应满足</p><p>$f'(x)=a\\mathrm{e}^{ax}+3=0$，即</p><p>$\\mathrm{e}^{ax}=-\\frac{3}{a}>0$，从而</p><p>$x_{0}=\\frac{1}{a}\\ln\\left(-\\frac{3}{a}\\right)$.</p><p>由于 $a<0$，条件 $x_{0}>0$ 等价于</p><p>$\\ln\\left(-\\frac{3}{a}\\right)<0$，即 $0<-\\frac{3}{a}<1$，</p><p>进一步得到 $a<-3$.</p><p>当 $a<-3$ 时，临界点确实存在，且</p><p>$f''(x_{0})=a^{2}\\mathrm{e}^{ax_0}=a^{2}\\left(-\\frac{3}{a}\\right)=-3a>0$，</p><p>所以它是极小值点. 因此应选 B.</p>"
         },
         {
           "num": 8,
@@ -120,7 +120,7 @@
           "body": "已知 $(1 + kx^{2})^{6}$（$k$ 是正整数）的展开式中，$x^{8}$ 的系数小于 $120$，则 $k =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "1",
-          "solution": "<p>在二项式 $(1+kx^{2})^{6}$ 中，若取 $r$ 个 $kx^{2}$，所得项的次数为 $2r$.</p><p>要得到 $x^{8}$，必须有 $2r=8$，即 $r=4$.</p><p>所以 $x^{8}$ 的系数为 $\\mathrm{C}_{6}^{4} k^{4}=15k^{4}$.</p><p>由题意 $15k^{4}&#x3C;120$，得到 $k^{4}&#x3C;8$.</p><p>由于 $k$ 是正整数，若 $k\\geqslant2$，则 $k^{4}\\geqslant16>8$，</p><p>故只能取 $k=1$.</p>"
+          "solution": "<p>在二项式 $(1+kx^{2})^{6}$ 中，若取 $r$ 个 $kx^{2}$，所得项的次数为 $2r$.</p><p>要得到 $x^{8}$，必须有 $2r=8$，即 $r=4$.</p><p>所以 $x^{8}$ 的系数为 $\\mathrm{C}_{6}^{4} k^{4}=15k^{4}$.</p><p>由题意 $15k^{4}<120$，得到 $k^{4}<8$.</p><p>由于 $k$ 是正整数，若 $k\\geqslant2$，则 $k^{4}\\geqslant16>8$，</p><p>故只能取 $k=1$.</p>"
         },
         {
           "num": 11,
@@ -143,17 +143,17 @@
       "problems": [
         {
           "num": 13,
-          "body": "已知曲线 $C_{1}$，$C_{2}$ 的极坐标方程分别为 $\\rho \\cos \\theta = 3$，$\\rho = 4 \\cos \\theta$（$\\rho \\ge 0$，$0 \\le \\theta &#x3C; \\frac{\\pi}{2}$），则曲线 $C_{1}$ 与 $C_{2}$ 交点的极坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知曲线 $C_{1}$，$C_{2}$ 的极坐标方程分别为 $\\rho \\cos \\theta = 3$，$\\rho = 4 \\cos \\theta$（$\\rho \\ge 0$，$0 \\le \\theta < \\frac{\\pi}{2}$），则曲线 $C_{1}$ 与 $C_{2}$ 交点的极坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(2\\sqrt{3},\\frac{\\pi}{6}\\right)$",
-          "solution": "<p>交点同时满足两条极坐标方程. 将 $\\rho=4\\cos\\theta$ 代入</p><p>$\\rho\\cos\\theta=3$，得 $4\\cos^{2}\\theta=3$.</p><p>由 $0\\le\\theta&#x3C;\\frac{\\pi}{2}$，知 $\\cos\\theta>0$，所以</p><p>$\\cos\\theta=\\frac{\\sqrt{3}}{2}$，从而 $\\theta=\\frac{\\pi}{6}$.</p><p>再代入 $\\rho=4\\cos\\theta$，得到 $\\rho=2\\sqrt{3}$，</p><p>且满足 $\\rho\\geqslant0$. 因此交点的极坐标为</p><p>$\\left(2\\sqrt{3},\\frac{\\pi}{6}\\right)$.</p>"
+          "solution": "<p>交点同时满足两条极坐标方程. 将 $\\rho=4\\cos\\theta$ 代入</p><p>$\\rho\\cos\\theta=3$，得 $4\\cos^{2}\\theta=3$.</p><p>由 $0\\le\\theta<\\frac{\\pi}{2}$，知 $\\cos\\theta>0$，所以</p><p>$\\cos\\theta=\\frac{\\sqrt{3}}{2}$，从而 $\\theta=\\frac{\\pi}{6}$.</p><p>再代入 $\\rho=4\\cos\\theta$，得到 $\\rho=2\\sqrt{3}$，</p><p>且满足 $\\rho\\geqslant0$. 因此交点的极坐标为</p><p>$\\left(2\\sqrt{3},\\frac{\\pi}{6}\\right)$.</p>"
         },
         {
           "num": 14,
           "body": "已知 $a \\in \\mathbb{R}$，若关于 $x$ 的方程 $x^{2} + x + \\left| a - \\frac{1}{4}\\right| + |a| = 0$ 有实根，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left[0,\\frac{1}{4}\\right]$",
-          "solution": "<p>记常数项为 $c=\\left|a-\\frac{1}{4}\\right|+|a|$. 方程</p><p>$x^{2}+x+c=0$ 有实根，当且仅当</p>\n$$\n\\Delta=1-4c\\geqslant0,  \\qquad\\text{即}\\qquad  \\left|a-\\frac{1}{4}\\right|+|a|\\le\\frac{1}{4}\n$$\n<p>分三段计算左端：</p>\n$$\n\\left|a-\\frac{1}{4}\\right|+|a|=  \\begin{cases}\\frac{1}{4}-2a,&#x26;a&#x3C;0,\\\\  \\frac{1}{4},&#x26;0\\le a\\le\\frac{1}{4},\\\\  2a-\\frac{1}{4},&#x26;a>\\frac{1}{4}.\\end{cases}\n$$\n<p>当 $a&#x3C;0$ 时左端大于 $\\frac{1}{4}$，当 $a>\\frac{1}{4}$ 时左端也大于 $\\frac{1}{4}$，</p><p>只有中间区间满足不等式. 所以 $a$ 的取值范围为</p><p>$\\left[0,\\frac{1}{4}\\right]$.</p>"
+          "solution": "<p>记常数项为 $c=\\left|a-\\frac{1}{4}\\right|+|a|$. 方程</p><p>$x^{2}+x+c=0$ 有实根，当且仅当</p>\n$$\n\\Delta=1-4c\\geqslant0,  \\qquad\\text{即}\\qquad  \\left|a-\\frac{1}{4}\\right|+|a|\\le\\frac{1}{4}\n$$\n<p>分三段计算左端：</p>\n$$\n\\left|a-\\frac{1}{4}\\right|+|a|=  \\begin{cases}\\frac{1}{4}-2a,&a<0,\\\\  \\frac{1}{4},&0\\le a\\le\\frac{1}{4},\\\\  2a-\\frac{1}{4},&a>\\frac{1}{4}.\\end{cases}\n$$\n<p>当 $a<0$ 时左端大于 $\\frac{1}{4}$，当 $a>\\frac{1}{4}$ 时左端也大于 $\\frac{1}{4}$，</p><p>只有中间区间满足不等式. 所以 $a$ 的取值范围为</p><p>$\\left[0,\\frac{1}{4}\\right]$.</p>"
         },
         {
           "num": 15,
@@ -169,10 +169,10 @@
       "problems": [
         {
           "num": 16,
-          "body": "<p>已知函数 $f(x) = A \\sin (x + \\varphi)$（$A > 0$，$0 &#x3C; \\varphi &#x3C; \\pi$），$x \\in \\mathbb{R}$ 的最大值是 $1$，其图象经过点 $M\\left( \\frac{\\pi}{3}, \\frac{1}{2}\\right)$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的解析式；</p></li><li><p>已知 $\\alpha$，$\\beta \\in \\left( 0, \\frac{\\pi}{2}\\right)$，且 $f(\\alpha) = \\frac{3}{5}$，$f(\\beta) = \\frac{12}{13}$，求 $f(\\alpha - \\beta)$ 的值.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = A \\sin (x + \\varphi)$（$A > 0$，$0 < \\varphi < \\pi$），$x \\in \\mathbb{R}$ 的最大值是 $1$，其图象经过点 $M\\left( \\frac{\\pi}{3}, \\frac{1}{2}\\right)$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的解析式；</p></li><li><p>已知 $\\alpha$，$\\beta \\in \\left( 0, \\frac{\\pi}{2}\\right)$，且 $f(\\alpha) = \\frac{3}{5}$，$f(\\beta) = \\frac{12}{13}$，求 $f(\\alpha - \\beta)$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\sin(x+\\varphi)$ 的最大值为 $1$，且 $A>0$，</p><p>所以 $f(x)$ 的最大值为 $A$. 由题设最大值为 $1$，得到 $A=1$.</p><p>点 $M\\left(\\frac{\\pi}{3},\\frac{1}{2}\\right)$ 在函数图象上，所以</p><p>$\\sin\\left(\\frac{\\pi}{3}+\\varphi\\right)=\\frac{1}{2}$.</p><p>由 $0&#x3C;\\varphi&#x3C;\\pi$，有</p><p>$\\frac{\\pi}{3}&#x3C;\\frac{\\pi}{3}+\\varphi&#x3C;\\frac{4\\pi}{3}$.</p><p>在此区间内满足正弦值为 $\\frac{1}{2}$ 的角只有 $\\frac{5\\pi}{6}$，</p><p>故 $\\frac{\\pi}{3}+\\varphi=\\frac{5\\pi}{6}$，即 $\\varphi=\\frac{\\pi}{2}$.</p><p>因此 $f(x)=\\sin\\left(x+\\frac{\\pi}{2}\\right)=\\cos x$.</p></li><li><p>由第一问，$f(x)=\\cos x$. 因为 $\\alpha$，$\\beta\\in\\left(0,\\frac{\\pi}{2}\\right)$，</p><p>两角的正弦均为正数. 于是</p><p>$\\cos\\alpha=\\frac{3}{5}$，$\\sin\\alpha=\\sqrt{1-\\frac{9}{25}}=\\frac{4}{5}$，$\\cos\\beta=\\frac{12}{13}$，$\\sin\\beta=\\sqrt{1-\\frac{144}{169}}=\\frac{5}{13}$.</p><p>利用余弦差角公式，</p><p>$f(\\alpha-\\beta)=\\cos(\\alpha-\\beta)  =\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta$，所以</p>\n$$\nf(\\alpha-\\beta)=\\frac{3}{5}\\cdot\\frac{12}{13}+\\frac{4}{5}\\cdot\\frac{5}{13}=\\frac{36+20}{65}=\\frac{56}{65}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\sin(x+\\varphi)$ 的最大值为 $1$，且 $A>0$，</p><p>所以 $f(x)$ 的最大值为 $A$. 由题设最大值为 $1$，得到 $A=1$.</p><p>点 $M\\left(\\frac{\\pi}{3},\\frac{1}{2}\\right)$ 在函数图象上，所以</p><p>$\\sin\\left(\\frac{\\pi}{3}+\\varphi\\right)=\\frac{1}{2}$.</p><p>由 $0<\\varphi<\\pi$，有</p><p>$\\frac{\\pi}{3}<\\frac{\\pi}{3}+\\varphi<\\frac{4\\pi}{3}$.</p><p>在此区间内满足正弦值为 $\\frac{1}{2}$ 的角只有 $\\frac{5\\pi}{6}$，</p><p>故 $\\frac{\\pi}{3}+\\varphi=\\frac{5\\pi}{6}$，即 $\\varphi=\\frac{\\pi}{2}$.</p><p>因此 $f(x)=\\sin\\left(x+\\frac{\\pi}{2}\\right)=\\cos x$.</p></li><li><p>由第一问，$f(x)=\\cos x$. 因为 $\\alpha$，$\\beta\\in\\left(0,\\frac{\\pi}{2}\\right)$，</p><p>两角的正弦均为正数. 于是</p><p>$\\cos\\alpha=\\frac{3}{5}$，$\\sin\\alpha=\\sqrt{1-\\frac{9}{25}}=\\frac{4}{5}$，$\\cos\\beta=\\frac{12}{13}$，$\\sin\\beta=\\sqrt{1-\\frac{144}{169}}=\\frac{5}{13}$.</p><p>利用余弦差角公式，</p><p>$f(\\alpha-\\beta)=\\cos(\\alpha-\\beta)  =\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta$，所以</p>\n$$\nf(\\alpha-\\beta)=\\frac{3}{5}\\cdot\\frac{12}{13}+\\frac{4}{5}\\cdot\\frac{5}{13}=\\frac{36+20}{65}=\\frac{56}{65}\n$$\n</li></ol>"
         },
         {
           "num": 17,
@@ -190,10 +190,10 @@
         },
         {
           "num": 19,
-          "body": "设 $k \\in \\mathbb{R}$，函数 $f(x) = \\begin{cases}\\frac{1}{1 - x}, &#x26; x &#x3C; 1,\\\\\n\n-\\sqrt{x - 1}, &#x26; x \\ge 1,\\end{cases}$ $F(x) = f(x) - kx$，$x \\in \\mathbb{R}$. 试讨论函数 $F(x)$ 的单调性.",
+          "body": "设 $k \\in \\mathbb{R}$，函数 $f(x) = \\begin{cases}\\frac{1}{1 - x}, & x < 1,\\\\\n\n-\\sqrt{x - 1}, & x \\ge 1,\\end{cases}$ $F(x) = f(x) - kx$，$x \\in \\mathbb{R}$. 试讨论函数 $F(x)$ 的单调性.",
           "choices": null,
           "answer": "",
-          "solution": "<p>当 $x&#x3C;1$ 时，</p><p>$F(x)=\\frac{1}{1-x}-kx$，所以</p><p>$F'(x)=\\frac{1}{(1-x)^{2}}-k$.</p><p>若 $k\\leqslant0$，则 $F'(x)>0$，故 $F$ 在</p><p>$(-\\infty,1)$ 上单调递增.</p><p>若 $k>0$，令 $F'(x)=0$，得唯一临界点</p><p>$x_{0}=1-\\frac{1}{\\sqrt{k}}&#x3C;1$. 因为</p><p>$\\frac{1}{(1-x)^{2}}&#x3C;k$ 等价于 $x&#x3C;x_{0}$，所以</p><p>$F'(x)&#x3C;0$（$x&#x3C;x_{0}$），$F'(x)>0$（$x_{0}&#x3C;x&#x3C;1$）.</p><p>因此此时 $F$ 在 $(-\\infty,x_{0})$ 上单调递减，在</p><p>$(x_{0},1)$ 上单调递增.</p><p>当 $x>1$ 时，</p><p>$F(x)=-\\sqrt{x-1}-kx$，所以</p><p>$F'(x)=-\\frac{1}{2\\sqrt{x-1}}-k$.</p><p>若 $k\\geqslant0$，则 $F'(x)&#x3C;0$，并且</p><p>$F(1)=-k$，故 $F$ 在 $[1,+\\infty)$ 上单调递减.</p><p>若 $k&#x3C;0$，令 $F'(x)=0$，得</p><p>$x_{1}=1+\\frac{1}{4k^{2}}>1$. 此时</p><p>$F'(x)&#x3C;0$（$1&#x3C;x&#x3C;x_{1}$），$F'(x)>0$（$x>x_{1}$），</p><p>所以 $F$ 在 $[1,x_{1}]$ 上单调递减，在</p><p>$[x_{1},+\\infty)$ 上单调递增.</p><p>最后，$\\displaystyle\\lim_{x\\to1^-}F(x)=+\\infty$，而 $F(1)=-k$，</p><p>故函数在 $x=1$ 处不连续. 当 $k\\leqslant0$ 时，左侧已递增但靠近 $1$ 的函数值趋于</p><p>$+\\infty$，不可能与有限的 $F(1)$ 组成整个实轴上的递增函数；</p><p>同时左侧递增也排除了整个实轴上的递减函数；</p><p>当 $k>0$ 时，左侧在 $x_{0}$ 两侧先减后增，已经不是单调函数.</p><p>因此对任意 $k\\in\\mathbb{R}$，$F$ 都不在整个 $\\mathbb{R}$ 上单调.</p>"
+          "solution": "<p>当 $x<1$ 时，</p><p>$F(x)=\\frac{1}{1-x}-kx$，所以</p><p>$F'(x)=\\frac{1}{(1-x)^{2}}-k$.</p><p>若 $k\\leqslant0$，则 $F'(x)>0$，故 $F$ 在</p><p>$(-\\infty,1)$ 上单调递增.</p><p>若 $k>0$，令 $F'(x)=0$，得唯一临界点</p><p>$x_{0}=1-\\frac{1}{\\sqrt{k}}<1$. 因为</p><p>$\\frac{1}{(1-x)^{2}}<k$ 等价于 $x<x_{0}$，所以</p><p>$F'(x)<0$（$x<x_{0}$），$F'(x)>0$（$x_{0}<x<1$）.</p><p>因此此时 $F$ 在 $(-\\infty,x_{0})$ 上单调递减，在</p><p>$(x_{0},1)$ 上单调递增.</p><p>当 $x>1$ 时，</p><p>$F(x)=-\\sqrt{x-1}-kx$，所以</p><p>$F'(x)=-\\frac{1}{2\\sqrt{x-1}}-k$.</p><p>若 $k\\geqslant0$，则 $F'(x)<0$，并且</p><p>$F(1)=-k$，故 $F$ 在 $[1,+\\infty)$ 上单调递减.</p><p>若 $k<0$，令 $F'(x)=0$，得</p><p>$x_{1}=1+\\frac{1}{4k^{2}}>1$. 此时</p><p>$F'(x)<0$（$1<x<x_{1}$），$F'(x)>0$（$x>x_{1}$），</p><p>所以 $F$ 在 $[1,x_{1}]$ 上单调递减，在</p><p>$[x_{1},+\\infty)$ 上单调递增.</p><p>最后，$\\displaystyle\\lim_{x\\to1^-}F(x)=+\\infty$，而 $F(1)=-k$，</p><p>故函数在 $x=1$ 处不连续. 当 $k\\leqslant0$ 时，左侧已递增但靠近 $1$ 的函数值趋于</p><p>$+\\infty$，不可能与有限的 $F(1)$ 组成整个实轴上的递增函数；</p><p>同时左侧递增也排除了整个实轴上的递减函数；</p><p>当 $k>0$ 时，左侧在 $x_{0}$ 两侧先减后增，已经不是单调函数.</p><p>因此对任意 $k\\in\\mathbb{R}$，$F$ 都不在整个 $\\mathbb{R}$ 上单调.</p>"
         },
         {
           "num": 20,
@@ -207,7 +207,7 @@
           "body": "<p>已知 $p$，$q$ 是实数，$\\alpha$，$\\beta$ 为方程 $x^{2} - px + q = 0$ 的两个实根，数列 $\\{x_{n}\\}$ 满足 $x_{1} = p$，$x_{2} = p^{2} - q$，$x_{n} = px_{n-1}- qx_{n-2}$（$n = 3$，$4$，$\\cdots$）.</p><ol class=\"enumerate\"><li><p>证明：$\\alpha + \\beta = p$，$\\alpha \\beta = q$；</p></li><li><p>求数列 $\\{x_{n}\\}$ 的通项公式；</p></li><li><p>若 $p = 1$，$q = \\frac{1}{4}$，求 $\\{x_{n}\\}$ 的前 $n$ 项和 $S_{n}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\alpha$，$\\beta$ 是方程的两个根，</p><p>所以二次多项式可因式分解为</p>\n$$\nx^{2}-px+q=(x-\\alpha)(x-\\beta)  =x^{2}-(\\alpha+\\beta)x+\\alpha\\beta\n$$\n<p>比较两种展开式中同次项的系数，得到</p><p>$\\alpha+\\beta=p$，$\\alpha\\beta=q$.</p></li><li><p>由第一问，$\\alpha^{2}=p\\alpha-q$，$\\beta^{2}=p\\beta-q$.</p><p>定义 $u_{n}=\\sum_{j=0}^{n}\\alpha^{n-j}\\beta^{j}$. 则</p><p>$u_{1}=\\alpha+\\beta=p=x_{1}$，并且</p><p>$u_{2}=\\alpha^{2}+\\alpha\\beta+\\beta^{2}  =(\\alpha+\\beta)^{2}-\\alpha\\beta=p^{2}-q=x_{2}$.</p><p>再利用 $p=\\alpha+\\beta$，$q=\\alpha\\beta$，有</p>\n$$\n\\begin{aligned}pu_{n-1}-qu_{n-2}&#x26;=(\\alpha+\\beta)\\sum_{j=0}^{n-1}\\alpha^{n-1-j}\\beta^{j}  -\\alpha\\beta\\sum_{j=0}^{n-2}\\alpha^{n-2-j}\\beta^{j}\\\\&#x26;=\\sum_{j=0}^{n}\\alpha^{n-j}\\beta^{j}=u_{n}.\\end{aligned}\n$$\n<p>所以 $\\{u_{n}\\}$ 与 $\\{x_{n}\\}$ 具有相同的前两项和递推关系，</p><p>由递推确定性知</p>\n$$\nx_{n}=u_{n}=\\sum_{j=0}^{n}\\alpha^{n-j}\\beta^{j}\n$$\n<p>若 $\\alpha\\ne\\beta$，这是等比和，故</p><p>$x_{n}=\\frac{\\alpha^{n+1}-\\beta^{n+1}}{\\alpha-\\beta}$；</p><p>若 $\\alpha=\\beta$，则每项均为 $\\alpha^{n}$，共有 $n+1$ 项，</p><p>故 $x_{n}=(n+1)\\alpha^{n}$.</p></li><li><p>当 $p=1$，$q=\\frac{1}{4}$ 时，根方程为</p><p>$x^{2}-x+\\frac{1}{4}=0$，即</p><p>$\\left(x-\\frac{1}{2}\\right)^{2}=0$，所以 $\\alpha=\\beta=\\frac{1}{2}$.</p><p>由第二问的重根情形，</p><p>$x_{n}=(n+1)\\left(\\frac{1}{2}\\right)^{n}=\\frac{n+1}{2^{n}}$.</p><p>因此</p>\n$$\nS_{n}=\\sum_{k=1}^{n}\\frac{k+1}{2^{k}}=\\sum_{k=1}^{n}\\frac{k}{2^{k}}+\\sum_{k=1}^{n}\\frac{1}{2^{k}}=\\left(2-\\frac{n+2}{2^{n}}\\right)+\\left(1-\\frac{1}{2^{n}}\\right)  =3-\\frac{n+3}{2^{n}}\n$$\n<p>这里使用了有限和</p><p>$\\sum_{k=1}^{n}\\frac{1}{2^{k}}=1-\\frac{1}{2^{n}}$ 以及</p><p>$\\sum_{k=1}^{n}\\frac{k}{2^{k}}=2-\\frac{n+2}{2^{n}}$，</p><p>所以 $S_{n}=3-\\frac{n+3}{2^{n}}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\alpha$，$\\beta$ 是方程的两个根，</p><p>所以二次多项式可因式分解为</p>\n$$\nx^{2}-px+q=(x-\\alpha)(x-\\beta)  =x^{2}-(\\alpha+\\beta)x+\\alpha\\beta\n$$\n<p>比较两种展开式中同次项的系数，得到</p><p>$\\alpha+\\beta=p$，$\\alpha\\beta=q$.</p></li><li><p>由第一问，$\\alpha^{2}=p\\alpha-q$，$\\beta^{2}=p\\beta-q$.</p><p>定义 $u_{n}=\\sum_{j=0}^{n}\\alpha^{n-j}\\beta^{j}$. 则</p><p>$u_{1}=\\alpha+\\beta=p=x_{1}$，并且</p><p>$u_{2}=\\alpha^{2}+\\alpha\\beta+\\beta^{2}  =(\\alpha+\\beta)^{2}-\\alpha\\beta=p^{2}-q=x_{2}$.</p><p>再利用 $p=\\alpha+\\beta$，$q=\\alpha\\beta$，有</p>\n$$\n\\begin{aligned}pu_{n-1}-qu_{n-2}&=(\\alpha+\\beta)\\sum_{j=0}^{n-1}\\alpha^{n-1-j}\\beta^{j}  -\\alpha\\beta\\sum_{j=0}^{n-2}\\alpha^{n-2-j}\\beta^{j}\\\\&=\\sum_{j=0}^{n}\\alpha^{n-j}\\beta^{j}=u_{n}.\\end{aligned}\n$$\n<p>所以 $\\{u_{n}\\}$ 与 $\\{x_{n}\\}$ 具有相同的前两项和递推关系，</p><p>由递推确定性知</p>\n$$\nx_{n}=u_{n}=\\sum_{j=0}^{n}\\alpha^{n-j}\\beta^{j}\n$$\n<p>若 $\\alpha\\ne\\beta$，这是等比和，故</p><p>$x_{n}=\\frac{\\alpha^{n+1}-\\beta^{n+1}}{\\alpha-\\beta}$；</p><p>若 $\\alpha=\\beta$，则每项均为 $\\alpha^{n}$，共有 $n+1$ 项，</p><p>故 $x_{n}=(n+1)\\alpha^{n}$.</p></li><li><p>当 $p=1$，$q=\\frac{1}{4}$ 时，根方程为</p><p>$x^{2}-x+\\frac{1}{4}=0$，即</p><p>$\\left(x-\\frac{1}{2}\\right)^{2}=0$，所以 $\\alpha=\\beta=\\frac{1}{2}$.</p><p>由第二问的重根情形，</p><p>$x_{n}=(n+1)\\left(\\frac{1}{2}\\right)^{n}=\\frac{n+1}{2^{n}}$.</p><p>因此</p>\n$$\nS_{n}=\\sum_{k=1}^{n}\\frac{k+1}{2^{k}}=\\sum_{k=1}^{n}\\frac{k}{2^{k}}+\\sum_{k=1}^{n}\\frac{1}{2^{k}}=\\left(2-\\frac{n+2}{2^{n}}\\right)+\\left(1-\\frac{1}{2^{n}}\\right)  =3-\\frac{n+3}{2^{n}}\n$$\n<p>这里使用了有限和</p><p>$\\sum_{k=1}^{n}\\frac{1}{2^{k}}=1-\\frac{1}{2^{n}}$ 以及</p><p>$\\sum_{k=1}^{n}\\frac{k}{2^{k}}=2-\\frac{n+2}{2^{n}}$，</p><p>所以 $S_{n}=3-\\frac{n+3}{2^{n}}$.</p></li></ol>"
         }
       ]
     }

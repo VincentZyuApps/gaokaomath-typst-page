@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "<p>对任意实数 $a$，$b$，$c$ 给出下列命题：</p><ol class=\"enumerate\"><li><p>“$a = b$”是“$ac = bc$”充要条件；</p></li><li><p>“$a + 5$ 是无理数”是“$a$ 是无理数”的充要条件；</p></li><li><p>“$a > b$”是“$a^{2}> b^{2}$”的充分条件；</p></li><li><p>“$a &#x3C; 5$”是“$a &#x3C; 3$”的必要条件.</p></li></ol><p>其中真命题的个数是（ ）</p>",
+          "body": "<p>对任意实数 $a$，$b$，$c$ 给出下列命题：</p><ol class=\"enumerate\"><li><p>“$a = b$”是“$ac = bc$”充要条件；</p></li><li><p>“$a + 5$ 是无理数”是“$a$ 是无理数”的充要条件；</p></li><li><p>“$a > b$”是“$a^{2}> b^{2}$”的充分条件；</p></li><li><p>“$a < 5$”是“$a < 3$”的必要条件.</p></li></ol><p>其中真命题的个数是（ ）</p>",
           "choices": [
             "$1$",
             "$2$",
@@ -29,7 +29,7 @@
             "$4$"
           ],
           "answer": "B",
-          "solution": "第1个命题中，$a=b$ 能推出 $ac=bc$，但取 $c=0$ 且 $a\\ne b$ 时，逆命题不成立，故第1个命题是假命题. 由于 $5$ 是有理数，$a+5$ 是无理数当且仅当 $a$ 是无理数，所以第2个命题是真命题. 第3个命题不成立，例如 $a=1$，$b=-2$ 时，$a>b$，但 $a^{2}&#x3C;b^{2}$. 第4个命题是真命题，因为 $a&#x3C;3$ 必能推出 $a&#x3C;5$，即 $a&#x3C;5$ 是 $a&#x3C;3$ 的必要条件. 因此真命题有 $2$ 个，故选 B."
+          "solution": "第1个命题中，$a=b$ 能推出 $ac=bc$，但取 $c=0$ 且 $a\\ne b$ 时，逆命题不成立，故第1个命题是假命题. 由于 $5$ 是有理数，$a+5$ 是无理数当且仅当 $a$ 是无理数，所以第2个命题是真命题. 第3个命题不成立，例如 $a=1$，$b=-2$ 时，$a>b$，但 $a^{2}<b^{2}$. 第4个命题是真命题，因为 $a<3$ 必能推出 $a<5$，即 $a<5$ 是 $a<3$ 的必要条件. 因此真命题有 $2$ 个，故选 B."
         },
         {
           "num": 3,
@@ -53,7 +53,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hubei_liberal/q4_optD_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "<p>函数的定义域为 $x>0$. 当 $0&#x3C;x&#x3C;1$ 时，$|\\ln x|=-\\ln x$，$|x-1|=1-x$，从而</p>\n$$\ny=\\mathrm{e}^{-\\ln x}-(1-x)=\\frac{1}{x}+x-1\n$$\n<p>此时 $y'=1-\\frac{1}{x^{2}}&#x3C;0$，且当 $x\\to0^{+}$ 时 $y\\to+\\infty$，当 $x\\to1^{-}$ 时 $y\\to1$. 当 $x\\geqslant1$ 时，$|\\ln x|=\\ln x$，$|x-1|=x-1$，所以 $y=x-(x-1)=1$. 因此图象在 $(0,1)$ 上从无穷大递减到 $(1,1)$，在 $[1,+\\infty)$ 上为直线 $y=1$，故选 D.</p>"
+          "solution": "<p>函数的定义域为 $x>0$. 当 $0<x<1$ 时，$|\\ln x|=-\\ln x$，$|x-1|=1-x$，从而</p>\n$$\ny=\\mathrm{e}^{-\\ln x}-(1-x)=\\frac{1}{x}+x-1\n$$\n<p>此时 $y'=1-\\frac{1}{x^{2}}<0$，且当 $x\\to0^{+}$ 时 $y\\to+\\infty$，当 $x\\to1^{-}$ 时 $y\\to1$. 当 $x\\geqslant1$ 时，$|\\ln x|=\\ln x$，$|x-1|=x-1$，所以 $y=x-(x-1)=1$. 因此图象在 $(0,1)$ 上从无穷大递减到 $(1,1)$，在 $[1,+\\infty)$ 上为直线 $y=1$，故选 D.</p>"
         },
         {
           "num": 5,
@@ -81,7 +81,7 @@
         },
         {
           "num": 7,
-          "body": "在 $y = 2^{x}$，$y = \\log_{2}x$，$y = x^{2}$，$y = \\cos 2x$ 这四个函数中，当 $0 &#x3C; x_{1}&#x3C; x_{2}&#x3C; 1$ 时，使 $f\\left(\\frac{x_{1}+ x_{2}}{2}\\right) > \\frac{f(x_{1}) + f(x_{2})}{2}$ 恒成立的函数的个数是（ ）",
+          "body": "在 $y = 2^{x}$，$y = \\log_{2}x$，$y = x^{2}$，$y = \\cos 2x$ 这四个函数中，当 $0 < x_{1}< x_{2}< 1$ 时，使 $f\\left(\\frac{x_{1}+ x_{2}}{2}\\right) > \\frac{f(x_{1}) + f(x_{2})}{2}$ 恒成立的函数的个数是（ ）",
           "choices": [
             "$0$",
             "$1$",
@@ -89,7 +89,7 @@
             "$3$"
           ],
           "answer": "B",
-          "solution": "<p>对四个函数分别考察其在 $(0,1)$ 上的凹凸性：$2^{x}$ 与 $x^{2}$ 的二阶导数分别为正，均为凸函数，故中点处函数值小于两端函数值的平均数；$\\log_{2}x$ 的二阶导数为</p>\n$$\n\\left(\\log_{2}x\\right)''=-\\frac{1}{x^{2}\\ln2}&#x3C;0\n$$\n<p>所以它在该区间上为严格凹函数，题中的不等式恒成立. 对于 $\\cos2x$，有 $\\left(\\cos2x\\right)''=-4\\cos2x$. 当 $\\frac{\\pi}{4}&#x3C;x&#x3C;1$ 时，$\\cos2x&#x3C;0$，故 $\\left(\\cos2x\\right)''>0$，函数在该区间上严格凸；取 $\\frac{\\pi}{4}&#x3C;x_{1}&#x3C;x_{2}&#x3C;1$，则中点处函数值小于两端函数值的平均数，题中的不等式不成立. 因此只有 $\\log_{2}x$ 满足条件，函数个数为 $1$，故选 B.</p>"
+          "solution": "<p>对四个函数分别考察其在 $(0,1)$ 上的凹凸性：$2^{x}$ 与 $x^{2}$ 的二阶导数分别为正，均为凸函数，故中点处函数值小于两端函数值的平均数；$\\log_{2}x$ 的二阶导数为</p>\n$$\n\\left(\\log_{2}x\\right)''=-\\frac{1}{x^{2}\\ln2}<0\n$$\n<p>所以它在该区间上为严格凹函数，题中的不等式恒成立. 对于 $\\cos2x$，有 $\\left(\\cos2x\\right)''=-4\\cos2x$. 当 $\\frac{\\pi}{4}<x<1$ 时，$\\cos2x<0$，故 $\\left(\\cos2x\\right)''>0$，函数在该区间上严格凸；取 $\\frac{\\pi}{4}<x_{1}<x_{2}<1$，则中点处函数值小于两端函数值的平均数，题中的不等式不成立. 因此只有 $\\log_{2}x$ 满足条件，函数个数为 $1$，故选 B.</p>"
         },
         {
           "num": 8,
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "若 $\\sin \\alpha + \\cos \\alpha = \\tan \\alpha$（$0 &#x3C; \\alpha &#x3C; \\frac{\\pi}{2}$），则 $\\alpha \\in$（ ）",
+          "body": "若 $\\sin \\alpha + \\cos \\alpha = \\tan \\alpha$（$0 < \\alpha < \\frac{\\pi}{2}$），则 $\\alpha \\in$（ ）",
           "choices": [
             "$\\left(0, \\frac{\\pi}{6}\\right)$",
             "$\\left(\\frac{\\pi}{6}, \\frac{\\pi}{4}\\right)$",
@@ -125,7 +125,7 @@
             "$\\left(\\frac{\\pi}{3}, \\frac{\\pi}{2}\\right)$"
           ],
           "answer": "C",
-          "solution": "<p>令 $g(\\alpha)=\\tan\\alpha-\\sin\\alpha-\\cos\\alpha$. 当 $0&#x3C;\\alpha\\le\\frac{\\pi}{4}$ 时，$\\tan\\alpha\\leqslant1&#x3C;\\sin\\alpha+\\cos\\alpha$，故方程的解不在此区间内. 又</p>\n$$\ng\\left(\\frac{\\pi}{3}\\right)=\\sqrt{3}-\\frac{\\sqrt{3}+1}{2}=\\frac{\\sqrt{3}-1}{2}>0\n$$\n<p>在 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$ 上，</p>\n$$\ng'(\\alpha)=\\sec^{2}\\alpha-\\cos\\alpha+\\sin\\alpha>1-\\cos\\alpha+\\sin\\alpha>0\n$$\n<p>所以 $g$ 严格递增，且其零点唯一，并且位于 $\\left(\\frac{\\pi}{4},\\frac{\\pi}{3}\\right)$ 内，故选 C.</p>"
+          "solution": "<p>令 $g(\\alpha)=\\tan\\alpha-\\sin\\alpha-\\cos\\alpha$. 当 $0<\\alpha\\le\\frac{\\pi}{4}$ 时，$\\tan\\alpha\\leqslant1<\\sin\\alpha+\\cos\\alpha$，故方程的解不在此区间内. 又</p>\n$$\ng\\left(\\frac{\\pi}{3}\\right)=\\sqrt{3}-\\frac{\\sqrt{3}+1}{2}=\\frac{\\sqrt{3}-1}{2}>0\n$$\n<p>在 $0<\\alpha<\\frac{\\pi}{2}$ 上，</p>\n$$\ng'(\\alpha)=\\sec^{2}\\alpha-\\cos\\alpha+\\sin\\alpha>1-\\cos\\alpha+\\sin\\alpha>0\n$$\n<p>所以 $g$ 严格递增，且其零点唯一，并且位于 $\\left(\\frac{\\pi}{4},\\frac{\\pi}{3}\\right)$ 内，故选 C.</p>"
         },
         {
           "num": 11,
@@ -137,7 +137,7 @@
             "$0$"
           ],
           "answer": "D",
-          "solution": "<p>设曲线上点 $(x,y)$ 处切线的倾斜角为 $\\theta$. 由 $y=x^{3}-8x$ 得切线斜率</p>\n$$\n\\tan\\theta=y'=3x^{2}-8\n$$\n<p>倾斜角满足 $0\\le\\theta&#x3C;\\frac{\\pi}{4}$ 时，必有 $0\\leqslant3x^{2}-8&#x3C;1$，即</p>\n$$\n\\frac{8}{3}\\le x^{2}&#x3C;3\n$$\n<p>但整数 $x$ 的平方不可能落在区间 $[\\frac{8}{3},3)$ 内，所以不存在符合条件的整点，点的个数为 $0$，故选 D.</p>"
+          "solution": "<p>设曲线上点 $(x,y)$ 处切线的倾斜角为 $\\theta$. 由 $y=x^{3}-8x$ 得切线斜率</p>\n$$\n\\tan\\theta=y'=3x^{2}-8\n$$\n<p>倾斜角满足 $0\\le\\theta<\\frac{\\pi}{4}$ 时，必有 $0\\leqslant3x^{2}-8<1$，即</p>\n$$\n\\frac{8}{3}\\le x^{2}<3\n$$\n<p>但整数 $x$ 的平方不可能落在区间 $[\\frac{8}{3},3)$ 内，所以不存在符合条件的整点，点的个数为 $0$，故选 D.</p>"
         },
         {
           "num": 12,
@@ -161,7 +161,7 @@
           "body": "函数 $f(x) = \\frac{\\sqrt{x - 2}}{x - 3}\\lg \\sqrt{4 - x}$ 的定义域是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$[2,3) \\cup (3,4)$",
-          "solution": "<p>由根式有意义，需满足 $x-2\\geqslant0$，即 $x\\geqslant2$. 因为分母不能为零，还需 $x\\ne3$. 又因为对数的真数必须为正，</p>\n$$\n\\sqrt{4-x}>0\\Longleftrightarrow x&#x3C;4\n$$\n<p>综合可得定义域为 $[2,4)$，去掉 $3$ 后得 $[2,3)\\cup(3,4)$.</p>"
+          "solution": "<p>由根式有意义，需满足 $x-2\\geqslant0$，即 $x\\geqslant2$. 因为分母不能为零，还需 $x\\ne3$. 又因为对数的真数必须为正，</p>\n$$\n\\sqrt{4-x}>0\\Longleftrightarrow x<4\n$$\n<p>综合可得定义域为 $[2,4)$，去掉 $3$ 后得 $[2,3)\\cup(3,4)$.</p>"
         },
         {
           "num": 14,
@@ -194,7 +194,7 @@
           "body": "已知向量 $\\mathbf{a}= (x^{2}, x + 1)$，$\\mathbf{b}= (1 - x, t)$，若函数 $f(x) = \\mathbf{a}\\cdot \\mathbf{b}$ 在区间 $(-1, 1)$ 上是增函数，求 $t$ 的取值范围.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由向量数量积的坐标运算，得</p>\n$$\nf(x)=x^{2}(1-x)+t(x+1)=-x^{3}+x^{2}+tx+t\n$$\n<p>因此</p>\n$$\nf'(x)=-3x^{2}+2x+t\n$$\n<p>若 $f(x)$ 在 $(-1,1)$ 上为增函数，则在该区间内必有 $f'(x)\\geqslant0$. 当 $t&#x3C;5$ 时，$f'(-1)=t-5&#x3C;0$，由导函数的连续性可知，在 $-1$ 的右侧存在一段区间使 $f'(x)&#x3C;0$，这与增函数矛盾，所以 $t\\geqslant5$.</p><p>当 $t\\geqslant5$ 时，对任意 $x\\in(-1,1)$，有</p>\n$$\nf'(x)\\ge-3x^{2}+2x+5=-3(x+1)\\left(x-\\frac{5}{3}\\right)>0\n$$\n<p>所以 $f(x)$ 在 $(-1,1)$ 上为增函数. 故 $t$ 的取值范围是 $[5,+\\infty)$.</p>"
+          "solution": "<p>由向量数量积的坐标运算，得</p>\n$$\nf(x)=x^{2}(1-x)+t(x+1)=-x^{3}+x^{2}+tx+t\n$$\n<p>因此</p>\n$$\nf'(x)=-3x^{2}+2x+t\n$$\n<p>若 $f(x)$ 在 $(-1,1)$ 上为增函数，则在该区间内必有 $f'(x)\\geqslant0$. 当 $t<5$ 时，$f'(-1)=t-5<0$，由导函数的连续性可知，在 $-1$ 的右侧存在一段区间使 $f'(x)<0$，这与增函数矛盾，所以 $t\\geqslant5$.</p><p>当 $t\\geqslant5$ 时，对任意 $x\\in(-1,1)$，有</p>\n$$\nf'(x)\\ge-3x^{2}+2x+5=-3(x+1)\\left(x-\\frac{5}{3}\\right)>0\n$$\n<p>所以 $f(x)$ 在 $(-1,1)$ 上为增函数. 故 $t$ 的取值范围是 $[5,+\\infty)$.</p>"
         },
         {
           "num": 18,

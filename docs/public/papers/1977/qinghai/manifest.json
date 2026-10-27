@@ -33,14 +33,14 @@
           "body": "<p>求下列函数的定义域：</p><ol class=\"enumerate\"><li><p>$y=\\frac{7x}{x+1}$.</p></li><li><p>$y=\\frac{1}{\\sqrt{2-x}}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>分式有意义的条件是分母不为零，即 $x+1\\neq0$. 所以 $x\\neq-1$，定义域为</p><p>$\\{x\\in\\mathbb{R}\\mid x\\neq-1\\}$.</p></li><li><p>根式有意义要求 $2-x\\geqslant0$，但它在分母中，故还必须有 $\\sqrt{2-x}\\neq0$. 合并得</p><p>$2-x>0$，即 $x&#x3C;2$. 所以定义域为 $\\{x\\in\\mathbb{R}\\mid x&#x3C;2\\}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>分式有意义的条件是分母不为零，即 $x+1\\neq0$. 所以 $x\\neq-1$，定义域为</p><p>$\\{x\\in\\mathbb{R}\\mid x\\neq-1\\}$.</p></li><li><p>根式有意义要求 $2-x\\geqslant0$，但它在分母中，故还必须有 $\\sqrt{2-x}\\neq0$. 合并得</p><p>$2-x>0$，即 $x<2$. 所以定义域为 $\\{x\\in\\mathbb{R}\\mid x<2\\}$.</p></li></ol>"
         },
         {
           "num": 5,
           "body": "化简：$\\left( 27a^{\\frac{5}{2}}\\sqrt{ab^{-\\frac{1}{3}}\\sqrt[4]{b^{\\frac{4}{3}}}}\\right)^{\\frac{1}{3}}$（$b\\neq0$）.",
           "choices": null,
           "answer": "",
-          "solution": "<p>以下按实数范围讨论. 因为 $a^{\\frac{5}{2}}$ 为实数，必须有 $a\\geqslant0$. 先考虑 $b>0$. 此时</p><p>$\\sqrt[4]{b^{\\frac{4}{3}}}=b^{\\frac{1}{3}}$，$b^{-\\frac{1}{3}}\\sqrt[4]{b^{\\frac{4}{3}}}=1$.</p><p>所以</p>\n$$\n\\text{原式}=\\left(27a^{\\frac{5}{2}}\\sqrt{a}\\right)^{\\frac{1}{3}}=\\left(27a^{3}\\right)^{\\frac{1}{3}}=3a\n$$\n<p>若 $b&#x3C;0$，令 $t=\\sqrt[3]{b}&#x3C;0$. 则</p>\n$$\nb^{-\\frac{1}{3}}\\sqrt[4]{b^{\\frac{4}{3}}}=\\frac{1}{t}\\sqrt[4]{t^{4}}=\\frac{|t|}{t}=-1\n$$\n<p>根式中的被开方数为 $-a$. 结合前面的 $a\\geqslant0$，要使该根式为实数只能有 $a=0$，此时原式等于 $0=3a$. 因而在题设的实数定义范围内，原式统一化简为</p>\n$$\n3a\n$$"
+          "solution": "<p>以下按实数范围讨论. 因为 $a^{\\frac{5}{2}}$ 为实数，必须有 $a\\geqslant0$. 先考虑 $b>0$. 此时</p><p>$\\sqrt[4]{b^{\\frac{4}{3}}}=b^{\\frac{1}{3}}$，$b^{-\\frac{1}{3}}\\sqrt[4]{b^{\\frac{4}{3}}}=1$.</p><p>所以</p>\n$$\n\\text{原式}=\\left(27a^{\\frac{5}{2}}\\sqrt{a}\\right)^{\\frac{1}{3}}=\\left(27a^{3}\\right)^{\\frac{1}{3}}=3a\n$$\n<p>若 $b<0$，令 $t=\\sqrt[3]{b}<0$. 则</p>\n$$\nb^{-\\frac{1}{3}}\\sqrt[4]{b^{\\frac{4}{3}}}=\\frac{1}{t}\\sqrt[4]{t^{4}}=\\frac{|t|}{t}=-1\n$$\n<p>根式中的被开方数为 $-a$. 结合前面的 $a\\geqslant0$，要使该根式为实数只能有 $a=0$，此时原式等于 $0=3a$. 因而在题设的实数定义范围内，原式统一化简为</p>\n$$\n3a\n$$"
         },
         {
           "num": 6,
@@ -61,7 +61,7 @@
           "body": "<ol class=\"enumerate\"><li><p>当锐角 $\\theta$ 为何值时，方程 $\\left( 3\\sin\\theta \\right)x^{2}-\\left( 4\\cos\\theta \\right)x+2=0$ 有两个相等的实数根？</p></li><li><p>并求出这个方程的实数根.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\theta$ 是锐角，所以 $\\sin\\theta>0$，方程确实是关于 $x$ 的二次方程. 它有两个相等的实数根，当且仅当判别式为零：</p>\n$$\n\\left(-4\\cos\\theta\\right)^{2}-4\\left(3\\sin\\theta\\right)\\cdot2=0\n$$\n<p>整理得</p>\n$$\n16\\cos^{2}\\theta-24\\sin\\theta=0   \\Longleftrightarrow   2\\cos^{2}\\theta-3\\sin\\theta=0\n$$\n<p>令 $s=\\sin\\theta$，并使用 $\\cos^{2}\\theta=1-s^{2}$，则</p>\n$$\n2(1-s^{2})-3s=0   \\Longleftrightarrow   2s^{2}+3s-2=0   \\Longleftrightarrow   (2s-1)(s+2)=0\n$$\n<p>因为 $0&#x3C;\\sin\\theta&#x3C;1$，只能取 $s=\\frac{1}{2}$. 锐角范围内正弦函数单调递增，所以 $\\theta=30^{\\circ}$.</p></li><li><p>代入 $\\theta=30^{\\circ}$，原方程为</p>\n$$\n\\frac{3}{2}x^{2}-2\\sqrt{3}x+2=0\n$$\n<p>两边乘以 $2$，并配方得</p>\n$$\n3x^{2}-4\\sqrt{3}x+4=0   \\Longleftrightarrow   \\left(\\sqrt{3}x-2\\right)^{2}=0\n$$\n<p>因而两个相等的实数根都是</p>\n$$\nx=\\frac{2}{\\sqrt{3}}=\\frac{2\\sqrt{3}}{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\theta$ 是锐角，所以 $\\sin\\theta>0$，方程确实是关于 $x$ 的二次方程. 它有两个相等的实数根，当且仅当判别式为零：</p>\n$$\n\\left(-4\\cos\\theta\\right)^{2}-4\\left(3\\sin\\theta\\right)\\cdot2=0\n$$\n<p>整理得</p>\n$$\n16\\cos^{2}\\theta-24\\sin\\theta=0   \\Longleftrightarrow   2\\cos^{2}\\theta-3\\sin\\theta=0\n$$\n<p>令 $s=\\sin\\theta$，并使用 $\\cos^{2}\\theta=1-s^{2}$，则</p>\n$$\n2(1-s^{2})-3s=0   \\Longleftrightarrow   2s^{2}+3s-2=0   \\Longleftrightarrow   (2s-1)(s+2)=0\n$$\n<p>因为 $0<\\sin\\theta<1$，只能取 $s=\\frac{1}{2}$. 锐角范围内正弦函数单调递增，所以 $\\theta=30^{\\circ}$.</p></li><li><p>代入 $\\theta=30^{\\circ}$，原方程为</p>\n$$\n\\frac{3}{2}x^{2}-2\\sqrt{3}x+2=0\n$$\n<p>两边乘以 $2$，并配方得</p>\n$$\n3x^{2}-4\\sqrt{3}x+4=0   \\Longleftrightarrow   \\left(\\sqrt{3}x-2\\right)^{2}=0\n$$\n<p>因而两个相等的实数根都是</p>\n$$\nx=\\frac{2}{\\sqrt{3}}=\\frac{2\\sqrt{3}}{3}\n$$\n</li></ol>"
         },
         {
           "num": 9,
@@ -87,7 +87,7 @@
           "body": "<p>若齐次线性方程组</p><p>$\\begin{cases}x+ay+a^{2}z=0,\\\\  ax+a^{2}y+z=0,\\\\  a^{2}x+y+az=0\\end{cases}$</p><p>有非零解，那末 $a$ 应为何值？</p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>把方程组的系数矩阵记为 $M$. 齐次线性方程组有非零解的充要条件是系数行列式为零，因此</p>\n$$\n\\det M=  \\begin{vmatrix}1&#x26;a&#x26;a^{2}\\\\  a&#x26;a^{2}&#x26;1\\\\  a^{2}&#x26;1&#x26;a\\end{vmatrix}=0\n$$\n<p>按第一行展开，</p>\n$$\n\\det M  =a^{3}-1-a\\left(a^{2}-a^{2}\\right)+a^{2}\\left(a-a^{4}\\right)  =2a^{3}-a^{6}-1\n$$\n<p>所以</p>\n$$\n2a^{3}-a^{6}-1=0   \\Longleftrightarrow   \\left(a^{3}-1\\right)^{2}=0\n$$\n<p>从而 $a^{3}=1$. 在实数范围内，$a=1$. 代入时三个方程都化为 $x+y+z=0$，例如 $(x,y,z)=(1,-1,0)$ 是非零解，故该值确实满足题意.</p>"
+          "solution": "<p>把方程组的系数矩阵记为 $M$. 齐次线性方程组有非零解的充要条件是系数行列式为零，因此</p>\n$$\n\\det M=  \\begin{vmatrix}1&a&a^{2}\\\\  a&a^{2}&1\\\\  a^{2}&1&a\\end{vmatrix}=0\n$$\n<p>按第一行展开，</p>\n$$\n\\det M  =a^{3}-1-a\\left(a^{2}-a^{2}\\right)+a^{2}\\left(a-a^{4}\\right)  =2a^{3}-a^{6}-1\n$$\n<p>所以</p>\n$$\n2a^{3}-a^{6}-1=0   \\Longleftrightarrow   \\left(a^{3}-1\\right)^{2}=0\n$$\n<p>从而 $a^{3}=1$. 在实数范围内，$a=1$. 代入时三个方程都化为 $x+y+z=0$，例如 $(x,y,z)=(1,-1,0)$ 是非零解，故该值确实满足题意.</p>"
         },
         {
           "num": 12,

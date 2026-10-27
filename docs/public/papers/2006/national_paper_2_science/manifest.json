@@ -9,15 +9,15 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $M = \\{x \\mid x &#x3C; 3\\}$，$N = \\{x \\mid \\log_{2} x > 1\\}$，则 $M \\cap N =$（ ）",
+          "body": "已知集合 $M = \\{x \\mid x < 3\\}$，$N = \\{x \\mid \\log_{2} x > 1\\}$，则 $M \\cap N =$（ ）",
           "choices": [
             "$\\varnothing$",
-            "$\\{x \\mid 0 &#x3C; x &#x3C; 3\\}$",
-            "$\\{x \\mid 1 &#x3C; x &#x3C; 3\\}$",
-            "$\\{x \\mid 2 &#x3C; x &#x3C; 3\\}$"
+            "$\\{x \\mid 0 < x < 3\\}$",
+            "$\\{x \\mid 1 < x < 3\\}$",
+            "$\\{x \\mid 2 < x < 3\\}$"
           ],
           "answer": "D",
-          "solution": "<p>由 $\\log_{2}x>1$ 且底数 $2>1$，得 $x>2$，所以 $N=\\{x\\mid x>2\\}$. 因此</p><p>$M\\cap N=\\{x\\mid 2&#x3C;x&#x3C;3\\}$，故选 D.</p>"
+          "solution": "<p>由 $\\log_{2}x>1$ 且底数 $2>1$，得 $x>2$，所以 $N=\\{x\\mid x>2\\}$. 因此</p><p>$M\\cap N=\\{x\\mid 2<x<3\\}$，故选 D.</p>"
         },
         {
           "num": 2,
@@ -96,12 +96,12 @@
           "body": "函数 $y = f(x)$ 的图象与函数 $g(x) = \\log_{2} x$（$x > 0$）的图象关于原点对称，则 $f(x)$ 的表达式为（ ）",
           "choices": [
             "$f(x) = \\frac{1}{\\log_{2} x}$（$x > 0$）",
-            "$f(x) = \\frac{1}{\\log_{2}(-x)}$（$x &#x3C; 0$）",
+            "$f(x) = \\frac{1}{\\log_{2}(-x)}$（$x < 0$）",
             "$f(x) = -\\log_{2} x$（$x > 0$）",
-            "$f(x) = -\\log_{2}(-x)$（$x &#x3C; 0$）"
+            "$f(x) = -\\log_{2}(-x)$（$x < 0$）"
           ],
           "answer": "D",
-          "solution": "<p>设 $(x,y)$ 在 $y=f(x)$ 的图象上. 关于原点的对称点 $(-x,-y)$ 在 $y=\\log_{2}x$ 的图象上，因此 $-x>0$ 且</p><p>$-y=\\log_{2}(-x)$. 所以 $x&#x3C;0$ 时 $f(x)=-\\log_{2}(-x)$，故选 D.</p>"
+          "solution": "<p>设 $(x,y)$ 在 $y=f(x)$ 的图象上. 关于原点的对称点 $(-x,-y)$ 在 $y=\\log_{2}x$ 的图象上，因此 $-x>0$ 且</p><p>$-y=\\log_{2}(-x)$. 所以 $x<0$ 时 $f(x)=-\\log_{2}(-x)$，故选 D.</p>"
         },
         {
           "num": 9,
@@ -175,7 +175,7 @@
           "body": "过点 $(1, \\sqrt{2})$ 的直线 $l$ 将圆 $(x - 2)^{2} + y^{2} = 4$ 分成两段弧，当劣弧所对的圆心角最小时，直线 $l$ 的斜率 $k =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$\\frac{\\sqrt{2}}{2}$",
-          "solution": "圆心为 $O=(2,0)$，半径为 $2$，而给定点 $P=(1,\\sqrt{2})$ 满足 $OP=\\sqrt{3}&#x3C;2$，在圆内. 对于过圆内一点的弦，劣弧所对的圆心角越小，弦长越短；过 $P$ 的最短弦垂直于 $OP$，所以直线 $l\\perp OP$. 直线 $OP$ 的斜率为 $-\\sqrt{2}$，故 $k=\\frac{1}{\\sqrt{2}}=\\frac{\\sqrt{2}}{2}$."
+          "solution": "圆心为 $O=(2,0)$，半径为 $2$，而给定点 $P=(1,\\sqrt{2})$ 满足 $OP=\\sqrt{3}<2$，在圆内. 对于过圆内一点的弦，劣弧所对的圆心角越小，弦长越短；过 $P$ 的最短弦垂直于 $OP$，所以直线 $l\\perp OP$. 直线 $OP$ 的斜率为 $-\\sqrt{2}$，故 $k=\\frac{1}{\\sqrt{2}}=\\frac{\\sqrt{2}}{2}$."
         },
         {
           "num": 16,
@@ -191,10 +191,10 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>已知向量 $\\mathbf{a}= (\\sin \\theta, \\sqrt{3})$，$\\mathbf{b}= (1, \\cos \\theta)$，$-\\frac{\\pi}{2}&#x3C; \\theta &#x3C; \\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>若 $\\mathbf{a}\\perp \\mathbf{b}$，求 $\\theta$；</p></li><li><p>求 $|\\mathbf{a}+ \\mathbf{b}|$ 的最大值.</p></li></ol>",
+          "body": "<p>已知向量 $\\mathbf{a}= (\\sin \\theta, \\sqrt{3})$，$\\mathbf{b}= (1, \\cos \\theta)$，$-\\frac{\\pi}{2}< \\theta < \\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>若 $\\mathbf{a}\\perp \\mathbf{b}$，求 $\\theta$；</p></li><li><p>求 $|\\mathbf{a}+ \\mathbf{b}|$ 的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $\\mathbf{a}\\perp\\mathbf{b}$，得 $\\mathbf{a}\\cdot\\mathbf{b}=\\sin\\theta+\\sqrt{3}\\cos\\theta=0$. 因为 $-\\frac{\\pi}{2}&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$，所以 $\\cos\\theta>0$，从而 $\\tan\\theta=-\\sqrt{3}$. 因此 $\\theta=-\\frac{\\pi}{3}$.</p></li><li>\n$$\n\\lvert\\mathbf{a}+\\mathbf{b}\\rvert^{2}=(1+\\sin\\theta)^{2}+(\\sqrt{3}+\\cos\\theta)^{2}=5+2(\\sin\\theta+\\sqrt{3}\\cos\\theta)=5+4\\cos\\left(\\theta-\\frac{\\pi}{6}\\right)\\leq 9\n$$\n<p>当 $\\theta=\\frac{\\pi}{6}$ 时等号成立，且该值在给定范围内，所以 $|\\mathbf{a}+\\mathbf{b}|$ 的最大值为 $3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $\\mathbf{a}\\perp\\mathbf{b}$，得 $\\mathbf{a}\\cdot\\mathbf{b}=\\sin\\theta+\\sqrt{3}\\cos\\theta=0$. 因为 $-\\frac{\\pi}{2}<\\theta<\\frac{\\pi}{2}$，所以 $\\cos\\theta>0$，从而 $\\tan\\theta=-\\sqrt{3}$. 因此 $\\theta=-\\frac{\\pi}{3}$.</p></li><li>\n$$\n\\lvert\\mathbf{a}+\\mathbf{b}\\rvert^{2}=(1+\\sin\\theta)^{2}+(\\sqrt{3}+\\cos\\theta)^{2}=5+2(\\sin\\theta+\\sqrt{3}\\cos\\theta)=5+4\\cos\\left(\\theta-\\frac{\\pi}{6}\\right)\\leq 9\n$$\n<p>当 $\\theta=\\frac{\\pi}{6}$ 时等号成立，且该值在给定范围内，所以 $|\\mathbf{a}+\\mathbf{b}|$ 的最大值为 $3$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -215,7 +215,7 @@
           "body": "设函数 $f(x) = (x + 1)\\ln (x + 1)$. 若对所有的 $x \\ge 0$，都有 $f(x) \\ge ax$ 成立，求实数 $a$ 的取值范围.",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $g(x)=f(x)-ax=(x+1)\\ln(x+1)-ax$，其中 $x\\geq0$. 则 $g(0)=0$，且 $g'(x)=\\ln(x+1)+1-a$.</p><p>当 $a\\leq1$ 时，$x\\geq0$ 有 $\\ln(x+1)\\geq0$，所以 $g'(x)\\geq1-a\\geq0$. 因此 $g$ 在 $[0,+\\infty)$ 上单调不减，从而 $g(x)\\geq g(0)=0$，即 $f(x)\\geq ax$ 对所有 $x\\geq0$ 成立.</p><p>当 $a>1$ 时，取任意 $x$ 满足 $0&#x3C;x&#x3C;\\mathrm{e}^{a-1}-1$，则 $\\ln(x+1)&#x3C;a-1$，从而在 $[0,x]$ 上 $g'(t)&#x3C;0$，故 $g(x)&#x3C;g(0)=0$. 这说明此时不可能对所有 $x\\geq0$ 成立. 因此 $a$ 的取值范围为 $(-\\infty,1]$.</p>"
+          "solution": "<p>令 $g(x)=f(x)-ax=(x+1)\\ln(x+1)-ax$，其中 $x\\geq0$. 则 $g(0)=0$，且 $g'(x)=\\ln(x+1)+1-a$.</p><p>当 $a\\leq1$ 时，$x\\geq0$ 有 $\\ln(x+1)\\geq0$，所以 $g'(x)\\geq1-a\\geq0$. 因此 $g$ 在 $[0,+\\infty)$ 上单调不减，从而 $g(x)\\geq g(0)=0$，即 $f(x)\\geq ax$ 对所有 $x\\geq0$ 成立.</p><p>当 $a>1$ 时，取任意 $x$ 满足 $0<x<\\mathrm{e}^{a-1}-1$，则 $\\ln(x+1)<a-1$，从而在 $[0,x]$ 上 $g'(t)<0$，故 $g(x)<g(0)=0$. 这说明此时不可能对所有 $x\\geq0$ 成立. 因此 $a$ 的取值范围为 $(-\\infty,1]$.</p>"
         },
         {
           "num": 21,

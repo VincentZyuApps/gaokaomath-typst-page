@@ -65,7 +65,7 @@
             "$\\left(\\dfrac\\pi3,\\dfrac{3\\pi}2\\right)$"
           ],
           "answer": "C",
-          "solution": "由辅助角公式，$\\sin\\alpha-\\sqrt{3}\\cos\\alpha=2\\sin\\left(\\alpha-\\dfrac\\pi3\\right)$，所以题设不等式等价于 $\\sin\\left(\\alpha-\\dfrac\\pi3\\right)>0$. 当 $0\\le\\alpha\\leqslant2\\pi$ 时，$-\\dfrac\\pi3\\le\\alpha-\\dfrac\\pi3\\le\\dfrac{5\\pi}3$，正弦为正的部分为 $0&#x3C;\\alpha-\\dfrac\\pi3&#x3C;\\pi$，即 $\\dfrac\\pi3&#x3C;\\alpha&#x3C;\\dfrac{4\\pi}3$，故选 C."
+          "solution": "由辅助角公式，$\\sin\\alpha-\\sqrt{3}\\cos\\alpha=2\\sin\\left(\\alpha-\\dfrac\\pi3\\right)$，所以题设不等式等价于 $\\sin\\left(\\alpha-\\dfrac\\pi3\\right)>0$. 当 $0\\le\\alpha\\leqslant2\\pi$ 时，$-\\dfrac\\pi3\\le\\alpha-\\dfrac\\pi3\\le\\dfrac{5\\pi}3$，正弦为正的部分为 $0<\\alpha-\\dfrac\\pi3<\\pi$，即 $\\dfrac\\pi3<\\alpha<\\dfrac{4\\pi}3$，故选 C."
         },
         {
           "num": 6,
@@ -89,7 +89,7 @@
             "$(-\\infty,-1]\\cup[3,+\\infty)$"
           ],
           "answer": "D",
-          "solution": "设等比数列的公比为 $q$. 由 $a_{2}=1$ 得 $a_{1}=\\dfrac{1}{q}$，且 $q\\ne0$，所以 $S_{3}=\\dfrac{1}{q}+1+q=1+q+\\dfrac{1}{q}$. 当 $q>0$ 时，$q+\\dfrac{1}{q}\\geqslant2$；当 $q&#x3C;0$ 时，$q+\\dfrac{1}{q}\\le-2$. 因此 $S_{3}\\in(-\\infty,-1]\\cup[3,+\\infty)$，故选 D."
+          "solution": "设等比数列的公比为 $q$. 由 $a_{2}=1$ 得 $a_{1}=\\dfrac{1}{q}$，且 $q\\ne0$，所以 $S_{3}=\\dfrac{1}{q}+1+q=1+q+\\dfrac{1}{q}$. 当 $q>0$ 时，$q+\\dfrac{1}{q}\\geqslant2$；当 $q<0$ 时，$q+\\dfrac{1}{q}\\le-2$. 因此 $S_{3}\\in(-\\infty,-1]\\cup[3,+\\infty)$，故选 D."
         },
         {
           "num": 8,
@@ -215,21 +215,21 @@
           "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，已知 $ba_{n}-2^{n}=(b-1)S_{n}$.</p><ol class=\"enumerate\"><li><p>证明：当 $b=2$ 时，$\\{a_{n}-n\\cdot2^{n-1}\\}$ 是等比数列；</p></li><li><p>求 $\\{a_{n}\\}$ 的通项公式.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $n=1$ 时的条件得 $ba_{1}-2=(b-1)a_{1}$，所以 $a_{1}=2$. 对 $n\\geqslant2$，将第 $n$ 项和第 $n-1$ 项的条件相减，得 $a_{n}=ba_{n-1}+2^{n-1}$.</p><ol class=\"enumerate\"><li><p>当 $b=2$ 时，令 $u_{n}=a_{n}-n\\cdot2^{n-1}$. 由递推式，</p><p>$u_{n}=a_{n}-n\\cdot2^{n-1}=2a_{n-1}+2^{n-1}-n\\cdot2^{n-1}=2\\left(a_{n-1}-(n-1)\\cdot2^{n-2}\\right)=2u_{n-1}$. 又 $u_{1}=a_{1}-1=1$，所以 $\\{u_{n}\\}$ 是首项为 $1$、公比为 $2$ 的等比数列，即 $\\{a_{n}-n\\cdot2^{n-1}\\}$ 是等比数列.</p></li><li><p>当 $b=2$ 时，由上一问 $u_{n}=2^{n-1}$，所以 $a_{n}=(n+1)2^{n-1}$. 当 $b\\ne2$ 时，递推式迭代得</p><p>$a_{n}=2b^{n-1}+\\sum_{k=2}^{n}b^{n-k}2^{k-1}=2b^{n-1}+\\dfrac{2^n-2b^{n-1}}{2-b}=\\dfrac{2^n+2(1-b)b^{n-1}}{2-b}$. 因此</p>\n$$\na_{n}=  \\begin{cases}(n+1)2^{n-1},&#x26;b=2,\\\\  \\dfrac{2^n}{2-b}+\\dfrac{2(1-b)}{2-b}b^{n-1},&#x26;b\\ne2.\\end{cases}\n$$\n</li></ol>"
+          "solution": "<p>由 $n=1$ 时的条件得 $ba_{1}-2=(b-1)a_{1}$，所以 $a_{1}=2$. 对 $n\\geqslant2$，将第 $n$ 项和第 $n-1$ 项的条件相减，得 $a_{n}=ba_{n-1}+2^{n-1}$.</p><ol class=\"enumerate\"><li><p>当 $b=2$ 时，令 $u_{n}=a_{n}-n\\cdot2^{n-1}$. 由递推式，</p><p>$u_{n}=a_{n}-n\\cdot2^{n-1}=2a_{n-1}+2^{n-1}-n\\cdot2^{n-1}=2\\left(a_{n-1}-(n-1)\\cdot2^{n-2}\\right)=2u_{n-1}$. 又 $u_{1}=a_{1}-1=1$，所以 $\\{u_{n}\\}$ 是首项为 $1$、公比为 $2$ 的等比数列，即 $\\{a_{n}-n\\cdot2^{n-1}\\}$ 是等比数列.</p></li><li><p>当 $b=2$ 时，由上一问 $u_{n}=2^{n-1}$，所以 $a_{n}=(n+1)2^{n-1}$. 当 $b\\ne2$ 时，递推式迭代得</p><p>$a_{n}=2b^{n-1}+\\sum_{k=2}^{n}b^{n-k}2^{k-1}=2b^{n-1}+\\dfrac{2^n-2b^{n-1}}{2-b}=\\dfrac{2^n+2(1-b)b^{n-1}}{2-b}$. 因此</p>\n$$\na_{n}=  \\begin{cases}(n+1)2^{n-1},&b=2,\\\\  \\dfrac{2^n}{2-b}+\\dfrac{2(1-b)}{2-b}b^{n-1},&b\\ne2.\\end{cases}\n$$\n</li></ol>"
         },
         {
           "num": 21,
           "body": "<p>设椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的左、右焦点分别为 $F_{1}$，$F_{2}$，离心率 $e=\\dfrac{\\sqrt{2}}{2}$，右准线为 $l$，$M$，$N$ 是 $l$ 上的两个动点，$\\overrightarrow{F_1M}\\cdot\\overrightarrow{F_2N}=0$.</p><ol class=\"enumerate\"><li><p>若 $\\lvert\\overrightarrow{F_1M}\\rvert=\\lvert\\overrightarrow{F_2N}\\rvert=2\\sqrt{5}$，求 $a$，$b$ 的值；</p></li><li><p>证明：当 $\\lvert MN\\rvert$ 取最小值时，$\\overrightarrow{F_1M}+\\overrightarrow{F_2N}$ 与 $\\overrightarrow{F_1F_2}$ 共线.</p></li></ol><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_ordinary_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设椭圆焦距的一半为 $c$，右准线横坐标为 $d$，则 $c=ae=\\dfrac{a\\sqrt{2}}{2}$，$d=\\dfrac{a}{e}=a\\sqrt{2}$. 取 $M=(d,m)$，$N=(d,n)$，于是 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，从而 $d+c=\\dfrac{3a\\sqrt{2}}{2}$，$d-c=\\dfrac{a\\sqrt{2}}{2}$.</p><ol class=\"enumerate\"><li><p>由两条线段长度条件，得 $m^{2}=20-\\dfrac{9a^2}{2}$，$n^{2}=20-\\dfrac{a^2}{2}$. 又由垂直条件，</p><p>$0=\\overrightarrow{F_1M}\\cdot\\overrightarrow{F_2N}=(d+c)(d-c)+mn=\\dfrac{3a^2}{2}+mn$，所以 $mn=-\\dfrac{3a^2}{2}$. 两边平方并代入 $m^{2}$，$n^{2}$，得</p><p>$\\left(20-\\dfrac{9a^2}{2}\\right)\\left(20-\\dfrac{a^2}{2}\\right)=\\dfrac{9a^4}{4}$，化简为 $400-100a^{2}=0$，故 $a=2$. 再由 $b^{2}=a^{2}(1-e^{2})$，得 $b^{2}=4\\left(1-\\dfrac{1}{2}\\right)=2$，所以 $b=\\sqrt{2}$.</p></li><li><p>由垂直条件的一般形式，$mn=-(d^{2}-c^{2})$. 令 $K=d^{2}-c^{2}>0$，则</p><p>$\\lvert MN\\rvert^{2}=(m-n)^{2}=m^{2}+n^{2}-2mn=m^{2}+n^{2}+2K\\geqslant4K$，其中等号成立当且仅当 $m^{2}=n^{2}$. 结合 $mn=-K&#x3C;0$，最小值取得时 $n=-m$.</p><p>此时 $\\overrightarrow{F_1M}+\\overrightarrow{F_2N}=(d+c,m)+(d-c,n)=(2d,m+n)=(2d,0)$，而 $\\overrightarrow{F_1F_2}=(2c,0)$，所以两向量共线.</p></li></ol>"
+          "solution": "<p>设椭圆焦距的一半为 $c$，右准线横坐标为 $d$，则 $c=ae=\\dfrac{a\\sqrt{2}}{2}$，$d=\\dfrac{a}{e}=a\\sqrt{2}$. 取 $M=(d,m)$，$N=(d,n)$，于是 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，从而 $d+c=\\dfrac{3a\\sqrt{2}}{2}$，$d-c=\\dfrac{a\\sqrt{2}}{2}$.</p><ol class=\"enumerate\"><li><p>由两条线段长度条件，得 $m^{2}=20-\\dfrac{9a^2}{2}$，$n^{2}=20-\\dfrac{a^2}{2}$. 又由垂直条件，</p><p>$0=\\overrightarrow{F_1M}\\cdot\\overrightarrow{F_2N}=(d+c)(d-c)+mn=\\dfrac{3a^2}{2}+mn$，所以 $mn=-\\dfrac{3a^2}{2}$. 两边平方并代入 $m^{2}$，$n^{2}$，得</p><p>$\\left(20-\\dfrac{9a^2}{2}\\right)\\left(20-\\dfrac{a^2}{2}\\right)=\\dfrac{9a^4}{4}$，化简为 $400-100a^{2}=0$，故 $a=2$. 再由 $b^{2}=a^{2}(1-e^{2})$，得 $b^{2}=4\\left(1-\\dfrac{1}{2}\\right)=2$，所以 $b=\\sqrt{2}$.</p></li><li><p>由垂直条件的一般形式，$mn=-(d^{2}-c^{2})$. 令 $K=d^{2}-c^{2}>0$，则</p><p>$\\lvert MN\\rvert^{2}=(m-n)^{2}=m^{2}+n^{2}-2mn=m^{2}+n^{2}+2K\\geqslant4K$，其中等号成立当且仅当 $m^{2}=n^{2}$. 结合 $mn=-K<0$，最小值取得时 $n=-m$.</p><p>此时 $\\overrightarrow{F_1M}+\\overrightarrow{F_2N}=(d+c,m)+(d-c,n)=(2d,m+n)=(2d,0)$，而 $\\overrightarrow{F_1F_2}=(2c,0)$，所以两向量共线.</p></li></ol>"
         },
         {
           "num": 22,
           "body": "<p>已知 $x=3$ 是函数 $f(x)=a\\ln(1+x)+x^{2}-10x$ 的一个极值点.</p><ol class=\"enumerate\"><li><p>求 $a$；</p></li><li><p>求函数 $f(x)$ 的单调区间；</p></li><li><p>若直线 $y=b$ 与函数 $y=f(x)$ 的图象有 $3$ 个交点，求 $b$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>函数定义域为 $x>-1$，且 $f'(x)=\\dfrac{a}{1+x}+2x-10$.</p><ol class=\"enumerate\"><li><p>$x=3$ 是极值点，故 $f'(3)=0$，即 $\\dfrac{a}{4}+6-10=0$，解得 $a=16$.</p></li><li><p>此时 $f'(x)=\\dfrac{16}{1+x}+2x-10=\\dfrac{2(x-1)(x-3)}{x+1}$. 在定义域内 $x+1>0$，所以当 $-1&#x3C;x&#x3C;1$ 或 $x>3$ 时 $f'(x)>0$，当 $1&#x3C;x&#x3C;3$ 时 $f'(x)&#x3C;0$. 因此增区间为 $(-1,1)$ 和 $(3,+\\infty)$，减区间为 $(1,3)$.</p></li><li><p>由上面的单调性，$f(x)$ 在 $(-1,1)$ 上从 $-\\infty$ 增至 $f(1)=16\\ln2-9$，在 $(1,3)$ 上减至 $f(3)=32\\ln2-21$，在 $(3,+\\infty)$ 上再增至 $+\\infty$. 水平直线与三段图象各有一个交点，当且仅当 $f(3)&#x3C;b&#x3C;f(1)$. 在端点处会与极值点重合，只有两个不同交点，所以 $b\\in(32\\ln2-21,16\\ln2-9)$.</p></li></ol>"
+          "solution": "<p>函数定义域为 $x>-1$，且 $f'(x)=\\dfrac{a}{1+x}+2x-10$.</p><ol class=\"enumerate\"><li><p>$x=3$ 是极值点，故 $f'(3)=0$，即 $\\dfrac{a}{4}+6-10=0$，解得 $a=16$.</p></li><li><p>此时 $f'(x)=\\dfrac{16}{1+x}+2x-10=\\dfrac{2(x-1)(x-3)}{x+1}$. 在定义域内 $x+1>0$，所以当 $-1<x<1$ 或 $x>3$ 时 $f'(x)>0$，当 $1<x<3$ 时 $f'(x)<0$. 因此增区间为 $(-1,1)$ 和 $(3,+\\infty)$，减区间为 $(1,3)$.</p></li><li><p>由上面的单调性，$f(x)$ 在 $(-1,1)$ 上从 $-\\infty$ 增至 $f(1)=16\\ln2-9$，在 $(1,3)$ 上减至 $f(3)=32\\ln2-21$，在 $(3,+\\infty)$ 上再增至 $+\\infty$. 水平直线与三段图象各有一个交点，当且仅当 $f(3)<b<f(1)$. 在端点处会与极值点重合，只有两个不同交点，所以 $b\\in(32\\ln2-21,16\\ln2-9)$.</p></li></ol>"
         }
       ]
     }

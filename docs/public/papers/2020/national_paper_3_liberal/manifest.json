@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{1,2,3,5,7,11\\}$，$B=\\{x\\mid 3&#x3C;x&#x3C;15\\}$，则 $A\\cap B$ 中元素的个数为（ ）",
+          "body": "已知集合 $A=\\{1,2,3,5,7,11\\}$，$B=\\{x\\mid 3<x<15\\}$，则 $A\\cap B$ 中元素的个数为（ ）",
           "choices": [
             "$2$",
             "$3$",
@@ -119,10 +119,10 @@
           "num": 10,
           "body": "设 $a=\\log_{3} 2$，$b=\\log_{5} 3$，$c=\\dfrac{2}{3}$，则（ ）",
           "choices": [
-            "$a&#x3C;c&#x3C;b$",
-            "$a&#x3C;b&#x3C;c$",
-            "$b&#x3C;c&#x3C;a$",
-            "$c&#x3C;a&#x3C;b$"
+            "$a<c<b$",
+            "$a<b<c$",
+            "$b<c<a$",
+            "$c<a<b$"
           ],
           "answer": "A",
           "solution": ""
@@ -215,11 +215,11 @@
           "body": "<p>已知函数 $f(x)=x^{3}-kx+k^{2}$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>若 $f(x)$ 有三个零点，求 $k$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-k$. 当 $k\\le 0$ 时，对任意 $x\\in\\mathbb{R}$，$f'(x)=3x^{2}-k\\ge0$，所以 $f(x)$ 在 $\\mathbb{R}$ 上单调递增；当 $k>0$ 时，令 $f'(x)=0$ 得 $x=\\pm\\dfrac{\\sqrt{3k}}{3}$. 当 $x\\in\\left(-\\infty,-\\dfrac{\\sqrt{3k}}{3}\\right)$ 和 $x\\in\\left(\\dfrac{\\sqrt{3k}}{3},+\\infty\\right)$ 时，$f'(x)>0$，$f(x)$ 单调递增；当 $x\\in\\left(-\\dfrac{\\sqrt{3k}}{3},\\dfrac{\\sqrt{3k}}{3}\\right)$ 时，$f'(x)&#x3C;0$，$f(x)$ 单调递减. 综上，当 $k\\le 0$ 时，$f(x)$ 在 $\\mathbb{R}$ 上单调递增；当 $k>0$ 时，$f(x)$ 在 $\\left(-\\infty,-\\dfrac{\\sqrt{3k}}{3}\\right)$ 和 $\\left(\\dfrac{\\sqrt{3k}}{3},+\\infty\\right)$ 上单调递增，在 $\\left(-\\dfrac{\\sqrt{3k}}{3},\\dfrac{\\sqrt{3k}}{3}\\right)$ 上单调递减.</p></li><li><p>若 $f(x)$ 有三个零点，由（1）知必有 $k>0$，且极大值与极小值异号. 此时极大值为 $f\\left(-\\dfrac{\\sqrt{3k}}{3}\\right)=\\dfrac{2k\\sqrt{3k}}{9}+k^{2}>0$，极小值为 $f\\left(\\dfrac{\\sqrt{3k}}{3}\\right)=k^{2}-\\dfrac{2k\\sqrt{3k}}{9}$. 所以只需 $k^{2}-\\dfrac{2k\\sqrt{3k}}{9}&#x3C;0$. 因为 $k>0$，所以 $k&#x3C;\\dfrac{2\\sqrt{3k}}{9}$，两边平方得 $k^{2}&#x3C;\\dfrac{4k}{27}$，即 $k&#x3C;\\dfrac{4}{27}$. 故 $k$ 的取值范围为 $\\left(0,\\dfrac{4}{27}\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-k$. 当 $k\\le 0$ 时，对任意 $x\\in\\mathbb{R}$，$f'(x)=3x^{2}-k\\ge0$，所以 $f(x)$ 在 $\\mathbb{R}$ 上单调递增；当 $k>0$ 时，令 $f'(x)=0$ 得 $x=\\pm\\dfrac{\\sqrt{3k}}{3}$. 当 $x\\in\\left(-\\infty,-\\dfrac{\\sqrt{3k}}{3}\\right)$ 和 $x\\in\\left(\\dfrac{\\sqrt{3k}}{3},+\\infty\\right)$ 时，$f'(x)>0$，$f(x)$ 单调递增；当 $x\\in\\left(-\\dfrac{\\sqrt{3k}}{3},\\dfrac{\\sqrt{3k}}{3}\\right)$ 时，$f'(x)<0$，$f(x)$ 单调递减. 综上，当 $k\\le 0$ 时，$f(x)$ 在 $\\mathbb{R}$ 上单调递增；当 $k>0$ 时，$f(x)$ 在 $\\left(-\\infty,-\\dfrac{\\sqrt{3k}}{3}\\right)$ 和 $\\left(\\dfrac{\\sqrt{3k}}{3},+\\infty\\right)$ 上单调递增，在 $\\left(-\\dfrac{\\sqrt{3k}}{3},\\dfrac{\\sqrt{3k}}{3}\\right)$ 上单调递减.</p></li><li><p>若 $f(x)$ 有三个零点，由（1）知必有 $k>0$，且极大值与极小值异号. 此时极大值为 $f\\left(-\\dfrac{\\sqrt{3k}}{3}\\right)=\\dfrac{2k\\sqrt{3k}}{9}+k^{2}>0$，极小值为 $f\\left(\\dfrac{\\sqrt{3k}}{3}\\right)=k^{2}-\\dfrac{2k\\sqrt{3k}}{9}$. 所以只需 $k^{2}-\\dfrac{2k\\sqrt{3k}}{9}<0$. 因为 $k>0$，所以 $k<\\dfrac{2\\sqrt{3k}}{9}$，两边平方得 $k^{2}<\\dfrac{4k}{27}$，即 $k<\\dfrac{4}{27}$. 故 $k$ 的取值范围为 $\\left(0,\\dfrac{4}{27}\\right)$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "<p>已知椭圆 $C:\\dfrac{x^2}{25}+\\dfrac{y^2}{m^2}=1$（$0&#x3C;m&#x3C;5$）的离心率为 $\\dfrac{\\sqrt{15}}{4}$，$A$，$B$ 分别为 $C$ 的左，右顶点.</p><ol class=\"enumerate\"><li><p>求 $C$ 的方程；</p></li><li><p>若点 $P$ 在 $C$ 上，点 $Q$ 在直线 $x=6$ 上，且 $|BP|=|BQ|$，$BP\\perp BQ$，求 $\\triangle APQ$ 的面积.</p></li></ol>",
+          "body": "<p>已知椭圆 $C:\\dfrac{x^2}{25}+\\dfrac{y^2}{m^2}=1$（$0<m<5$）的离心率为 $\\dfrac{\\sqrt{15}}{4}$，$A$，$B$ 分别为 $C$ 的左，右顶点.</p><ol class=\"enumerate\"><li><p>求 $C$ 的方程；</p></li><li><p>若点 $P$ 在 $C$ 上，点 $Q$ 在直线 $x=6$ 上，且 $|BP|=|BQ|$，$BP\\perp BQ$，求 $\\triangle APQ$ 的面积.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>由题设知 $a=5$，$b=m$. 离心率 $e=\\dfrac{c}{a}=\\dfrac{\\sqrt{15}}{4}$，所以 $c=\\dfrac{5\\sqrt{15}}{4}$，$m^{2}=b^{2}=a^{2}-c^{2}=25-\\dfrac{375}{16}=\\dfrac{25}{16}$. 故 $C$ 的方程为 $\\dfrac{x^2}{25}+\\dfrac{16y^2}{25}=1$.</p></li><li><p>由（1）知 $A(-5,0)$，$B(5,0)$. 设 $Q(6,t)$，则 $\\overrightarrow{BQ}=(1,t)$. 因为 $BP\\perp BQ$ 且 $|BP|=|BQ|$，所以 $\\overrightarrow{BP}=(-t,1)$ 或 $\\overrightarrow{BP}=(t,-1)$. 由对称性，不妨设 $\\overrightarrow{BP}=(-t,1)$，则 $P(5-t,1)$. 将 $P$ 代入椭圆方程得 $\\dfrac{(5-t)^2}{25}+\\dfrac{16}{25}=1$，即 $(5-t)^{2}=9$，解得 $t=2$ 或 $t=8$. 当 $t=2$ 时，$P(3,1)$，$Q(6,2)$，$\\overrightarrow{AP}=(8,1)$，$\\overrightarrow{AQ}=(11,2)$，$\\triangle APQ$ 的面积为 $\\dfrac{1}{2}|8\\times2-11\\times1|=\\dfrac{5}{2}$；当 $t=8$ 时，$P(-3,1)$，$Q(6,8)$，$\\overrightarrow{AP}=(2,1)$，$\\overrightarrow{AQ}=(11,8)$，$\\triangle APQ$ 的面积为 $\\dfrac{1}{2}|2\\times8-11\\times1|=\\dfrac{5}{2}$. 同理，当 $\\overrightarrow{BP}=(t,-1)$ 时，面积也为 $\\dfrac{5}{2}$. 综上，$\\triangle APQ$ 的面积为 $\\dfrac{5}{2}$.</p></li></ol>"
@@ -238,10 +238,10 @@
         },
         {
           "num": 23,
-          "body": "<p>设 $a$，$b$，$c\\in \\mathbb{R}$，$a+b+c=0$，$abc=1$.</p><ol class=\"enumerate\"><li><p>证明：$ab+bc+ca&#x3C;0$；</p></li><li><p>用 $\\max\\{a,b,c\\}$ 表示 $a$，$b$，$c$ 中的最大值，证明：$\\max\\{a,b,c\\}\\ge \\sqrt[3]{4}$.</p></li></ol>",
+          "body": "<p>设 $a$，$b$，$c\\in \\mathbb{R}$，$a+b+c=0$，$abc=1$.</p><ol class=\"enumerate\"><li><p>证明：$ab+bc+ca<0$；</p></li><li><p>用 $\\max\\{a,b,c\\}$ 表示 $a$，$b$，$c$ 中的最大值，证明：$\\max\\{a,b,c\\}\\ge \\sqrt[3]{4}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $a+b+c=0$ 两边平方得 $a^{2}+b^{2}+c^{2}+2(ab+bc+ca)=0$，所以 $ab+bc+ca=-\\dfrac{1}{2}(a^{2}+b^{2}+c^{2})$. 因为 $abc=1\\ne0$，所以 $a$，$b$，$c$ 均不为 $0$，故 $a^{2}+b^{2}+c^{2}>0$. 从而 $ab+bc+ca&#x3C;0$.</p></li><li><p>因为 $abc=1>0$ 且 $a+b+c=0$，所以 $a$，$b$，$c$ 必为一正两负. 不妨设 $a>0$，$b&#x3C;0$，$c&#x3C;0$，则 $\\max\\{a,b,c\\}=a$. 由 $a+b+c=0$ 得 $(-b)+(-c)=a$，其中 $-b>0$，$-c>0$. 由基本不等式，$a=(-b)+(-c)\\ge2\\sqrt{(-b)(-c)}=2\\sqrt{bc}=2\\sqrt{\\dfrac{1}{a}}=\\dfrac{2}{\\sqrt{a}}$. 两边平方得 $a^{2}\\ge\\dfrac{4}{a}$，即 $a^{3}\\ge4$，所以 $a\\ge\\sqrt[3]{4}$. 故 $\\max\\{a,b,c\\}\\ge\\sqrt[3]{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $a+b+c=0$ 两边平方得 $a^{2}+b^{2}+c^{2}+2(ab+bc+ca)=0$，所以 $ab+bc+ca=-\\dfrac{1}{2}(a^{2}+b^{2}+c^{2})$. 因为 $abc=1\\ne0$，所以 $a$，$b$，$c$ 均不为 $0$，故 $a^{2}+b^{2}+c^{2}>0$. 从而 $ab+bc+ca<0$.</p></li><li><p>因为 $abc=1>0$ 且 $a+b+c=0$，所以 $a$，$b$，$c$ 必为一正两负. 不妨设 $a>0$，$b<0$，$c<0$，则 $\\max\\{a,b,c\\}=a$. 由 $a+b+c=0$ 得 $(-b)+(-c)=a$，其中 $-b>0$，$-c>0$. 由基本不等式，$a=(-b)+(-c)\\ge2\\sqrt{(-b)(-c)}=2\\sqrt{bc}=2\\sqrt{\\dfrac{1}{a}}=\\dfrac{2}{\\sqrt{a}}$. 两边平方得 $a^{2}\\ge\\dfrac{4}{a}$，即 $a^{3}\\ge4$，所以 $a\\ge\\sqrt[3]{4}$. 故 $\\max\\{a,b,c\\}\\ge\\sqrt[3]{4}$.</p></li></ol>"
         }
       ]
     }

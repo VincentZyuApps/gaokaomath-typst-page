@@ -81,7 +81,7 @@
         },
         {
           "num": 7,
-          "body": "<p>设 $a > b > 1$，$c &#x3C; 0$，给出下列三个结论：</p><ol class=\"enumerate\"><li><p>$\\frac{c}{a}> \\frac{c}{b}$；</p></li><li><p>$a^{c}&#x3C; b^{c}$；</p></li><li><p>$\\log_{b}(a - c) > \\log_{a}(b - c)$.</p></li></ol><p>其中所有正确结论的序号是（ ）</p>",
+          "body": "<p>设 $a > b > 1$，$c < 0$，给出下列三个结论：</p><ol class=\"enumerate\"><li><p>$\\frac{c}{a}> \\frac{c}{b}$；</p></li><li><p>$a^{c}< b^{c}$；</p></li><li><p>$\\log_{b}(a - c) > \\log_{a}(b - c)$.</p></li></ol><p>其中所有正确结论的序号是（ ）</p>",
           "choices": [
             "①",
             "①②",
@@ -89,7 +89,7 @@
             "①②③"
           ],
           "answer": "D",
-          "solution": "<p>因为 $a>b>1$，且 $c&#x3C;0$，所以</p>\n$$\n\\frac{c}{a}-\\frac{c}{b}=\\frac{c(b-a)}{ab}>0\n$$\n<p>结论一正确. 对底数大于 $1$ 的幂函数，底数越大，负指数幂越小，因此</p><p>$a^{c}&#x3C;b^{c}$，结论二正确.</p><p>又因为 $a-c>b-c>1$，并且 $\\ln a>\\ln b>0$、</p><p>$\\ln(a-c)>\\ln(b-c)>0$，于是</p>\n$$\n\\log_{b}(a-c)>\\log_{a}(b-c)   \\Longleftrightarrow   \\frac{\\ln(a-c)}{\\ln b}>\\frac{\\ln(b-c)}{\\ln a}\n$$\n<p>交叉相乘后，左侧分子乘积为</p><p>$\\ln(a-c)\\ln a$，右侧为 $\\ln(b-c)\\ln b$，前者的两个正因子分别都大于后者对应因子，故结论三也正确. 因此选 D.</p>"
+          "solution": "<p>因为 $a>b>1$，且 $c<0$，所以</p>\n$$\n\\frac{c}{a}-\\frac{c}{b}=\\frac{c(b-a)}{ab}>0\n$$\n<p>结论一正确. 对底数大于 $1$ 的幂函数，底数越大，负指数幂越小，因此</p><p>$a^{c}<b^{c}$，结论二正确.</p><p>又因为 $a-c>b-c>1$，并且 $\\ln a>\\ln b>0$、</p><p>$\\ln(a-c)>\\ln(b-c)>0$，于是</p>\n$$\n\\log_{b}(a-c)>\\log_{a}(b-c)   \\Longleftrightarrow   \\frac{\\ln(a-c)}{\\ln b}>\\frac{\\ln(b-c)}{\\ln a}\n$$\n<p>交叉相乘后，左侧分子乘积为</p><p>$\\ln(a-c)\\ln a$，右侧为 $\\ln(b-c)\\ln b$，前者的两个正因子分别都大于后者对应因子，故结论三也正确. 因此选 D.</p>"
         },
         {
           "num": 8,
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "设定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 是最小正周期为 $2\\pi$ 的偶函数，$f'(x)$ 是 $f(x)$ 的导函数. 当 $x \\in [0, \\pi]$ 时，$0 &#x3C; f(x) &#x3C; 1$；当 $x \\in (0, \\pi)$ 且 $x \\neq \\frac{\\pi}{2}$ 时，$\\left(x - \\frac{\\pi}{2}\\right)f'(x) > 0$，则函数 $y = f(x) - \\sin x$ 在 $[-2\\pi, 2\\pi]$ 上的零点个数为（ ）",
+          "body": "设定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 是最小正周期为 $2\\pi$ 的偶函数，$f'(x)$ 是 $f(x)$ 的导函数. 当 $x \\in [0, \\pi]$ 时，$0 < f(x) < 1$；当 $x \\in (0, \\pi)$ 且 $x \\neq \\frac{\\pi}{2}$ 时，$\\left(x - \\frac{\\pi}{2}\\right)f'(x) > 0$，则函数 $y = f(x) - \\sin x$ 在 $[-2\\pi, 2\\pi]$ 上的零点个数为（ ）",
           "choices": [
             "$2$",
             "$4$",
@@ -113,7 +113,7 @@
             "$8$"
           ],
           "answer": "B",
-          "solution": "<p>令 $h(x)=f(x)-\\sin x$. 由题设，在 $0&#x3C;x&#x3C;\\frac{\\pi}{2}$ 时</p><p>$x-\\frac{\\pi}{2}&#x3C;0$，故 $f'(x)&#x3C;0$，而 $\\sin x$ 递增，所以 $h(x)$ 严格递减. 又</p><p>$h(0)=f(0)>0$，$h(\\frac{\\pi}{2})=f(\\frac{\\pi}{2})-1&#x3C;0$，故该区间恰有一个零点.</p><p>在 $\\frac{\\pi}{2}&#x3C;x&#x3C;\\pi$ 时 $f'(x)>0$，而 $\\sin x$ 递减，所以 $h(x)$ 严格递增. 由于</p><p>$h(\\frac{\\pi}{2})&#x3C;0$，$h(\\pi)=f(\\pi)>0$，该区间也恰有一个零点. 因此 $(0,\\pi)$ 内有两个零点.</p><p>对 $0&#x3C;x&#x3C;\\pi$，由 $0&#x3C;f(x)&#x3C;1$ 和 $\\sin x>0$ 可知</p><p>$h(-x)=f(x)+\\sin x>0$，所以 $(-\\pi,0)$ 内无零点. 若 $x\\in(\\pi,2\\pi)$，令 $t=2\\pi-x\\in(0,\\pi)$，则</p><p>$f(x)=f(t)$、$\\sin x=-\\sin t$，从而 $h(x)=f(t)+\\sin t>0$. 由周期性，若 $r\\in(0,\\pi)$ 是前面得到的零点，则 $h(r-2\\pi)=h(r)=0$，所以在 $(-2\\pi,-\\pi)$ 内恰有对应的两个零点；正半轴的 $(\\pi,2\\pi)$ 及端点均无新增零点. 故 $[-2\\pi,2\\pi]$ 上共有 $2+2=4$ 个零点，选 B.</p>"
+          "solution": "<p>令 $h(x)=f(x)-\\sin x$. 由题设，在 $0<x<\\frac{\\pi}{2}$ 时</p><p>$x-\\frac{\\pi}{2}<0$，故 $f'(x)<0$，而 $\\sin x$ 递增，所以 $h(x)$ 严格递减. 又</p><p>$h(0)=f(0)>0$，$h(\\frac{\\pi}{2})=f(\\frac{\\pi}{2})-1<0$，故该区间恰有一个零点.</p><p>在 $\\frac{\\pi}{2}<x<\\pi$ 时 $f'(x)>0$，而 $\\sin x$ 递减，所以 $h(x)$ 严格递增. 由于</p><p>$h(\\frac{\\pi}{2})<0$，$h(\\pi)=f(\\pi)>0$，该区间也恰有一个零点. 因此 $(0,\\pi)$ 内有两个零点.</p><p>对 $0<x<\\pi$，由 $0<f(x)<1$ 和 $\\sin x>0$ 可知</p><p>$h(-x)=f(x)+\\sin x>0$，所以 $(-\\pi,0)$ 内无零点. 若 $x\\in(\\pi,2\\pi)$，令 $t=2\\pi-x\\in(0,\\pi)$，则</p><p>$f(x)=f(t)$、$\\sin x=-\\sin t$，从而 $h(x)=f(t)+\\sin t>0$. 由周期性，若 $r\\in(0,\\pi)$ 是前面得到的零点，则 $h(r-2\\pi)=h(r)=0$，所以在 $(-2\\pi,-\\pi)$ 内恰有对应的两个零点；正半轴的 $(\\pi,2\\pi)$ 及端点均无新增零点. 故 $[-2\\pi,2\\pi]$ 上共有 $2+2=4$ 个零点，选 B.</p>"
         }
       ]
     },
@@ -132,7 +132,7 @@
           "body": "某制药企业为了对某种药用液体进行生物测定，需要优选培养温度，试验范围定为 $29^{\\circ}\\mathrm{C}\\sim 63^{\\circ}\\mathrm{C}$，精确度要求 $\\pm 1^{\\circ}\\mathrm{C}$. 用分数法进行优选时，能保证找到最佳培养温度需要的最少试验次数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "7",
-          "solution": "<p>分数法把试验区间按 Fibonacci 数列确定的试验点分割. 设</p><p>$F_{1}=F_{2}=1$，且 $F_{n+1}=F_{n}+F_{n-1}$. 若还可进行 $r$ 次试验，记该方法能保证分辨的等效区间份数为 $N_{r}$. 一次比较后，保留的两个可能区间分别还需要 $r-1$ 次和 $r-2$ 次试验，因此</p><p>$N_{r}=N_{r-1}+N_{r-2}$，且 $N_{1}=1$，$N_{2}=2$，从而 $N_{r}=F_{r+1}$. 所以最后包含最佳温度的区间长度至多为</p>\n$$\n\\frac{63-29}{F_{r+1}}=\\frac{34}{F_{r+1}}\n$$\n<p>精确度要求为 $\\pm1^{\\circ}\\mathrm{C}$，故最后的存优区间长度应不超过 $2^{\\circ}\\mathrm{C}$，即需有</p>\n$$\nF_{r+1}\\ge\\frac{34}{2}=17\n$$\n<p>由于 $F_{7}=13&#x3C;17$，而 $F_{8}=21>17$，所以 $r=6$ 次不能保证达到精度，$r=7$ 次可以保证达到精度. 因而最少试验次数为 $7$.</p>"
+          "solution": "<p>分数法把试验区间按 Fibonacci 数列确定的试验点分割. 设</p><p>$F_{1}=F_{2}=1$，且 $F_{n+1}=F_{n}+F_{n-1}$. 若还可进行 $r$ 次试验，记该方法能保证分辨的等效区间份数为 $N_{r}$. 一次比较后，保留的两个可能区间分别还需要 $r-1$ 次和 $r-2$ 次试验，因此</p><p>$N_{r}=N_{r-1}+N_{r-2}$，且 $N_{1}=1$，$N_{2}=2$，从而 $N_{r}=F_{r+1}$. 所以最后包含最佳温度的区间长度至多为</p>\n$$\n\\frac{63-29}{F_{r+1}}=\\frac{34}{F_{r+1}}\n$$\n<p>精确度要求为 $\\pm1^{\\circ}\\mathrm{C}$，故最后的存优区间长度应不超过 $2^{\\circ}\\mathrm{C}$，即需有</p>\n$$\nF_{r+1}\\ge\\frac{34}{2}=17\n$$\n<p>由于 $F_{7}=13<17$，而 $F_{8}=21>17$，所以 $r=6$ 次不能保证达到精度，$r=7$ 次可以保证达到精度. 因而最少试验次数为 $7$.</p>"
         }
       ]
     },
@@ -158,7 +158,7 @@
           "body": "<p>如果执行如图所示的程序框图，输入 $x = 4.5$，则输出的数 $i =\\underline{\\hspace{2.5em}}{}$.</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.65<span class=\"macro macro-linewidth\"></span>]img_repaint/2012/hunan_liberal/q14_fig1.tex</p>",
           "choices": null,
           "answer": "4",
-          "solution": "<p>程序先令 $i=1$，每次循环先执行 $x=x-1$，再判断是否有 $x&#x3C;1$. 输入 $x=4.5$ 时各次判断如下：</p><p>$4.5\\to3.5$，（$i=1$），$3.5\\to2.5$，（$i=2$），$2.5\\to1.5$，（$i=3$）</p><p>前三次判断均为否，每次再令 $i=i+1$. 第四次得到</p><p>$1.5\\to0.5$，此时 $x&#x3C;1$，不再增加 $i$，输出 $i=4$.</p>"
+          "solution": "<p>程序先令 $i=1$，每次循环先执行 $x=x-1$，再判断是否有 $x<1$. 输入 $x=4.5$ 时各次判断如下：</p><p>$4.5\\to3.5$，（$i=1$），$3.5\\to2.5$，（$i=2$），$2.5\\to1.5$，（$i=3$）</p><p>前三次判断均为否，每次再令 $i=i+1$. 第四次得到</p><p>$1.5\\to0.5$，此时 $x<1$，不再增加 $i$，输出 $i=4$.</p>"
         },
         {
           "num": 15,
@@ -188,10 +188,10 @@
         },
         {
           "num": 18,
-          "body": "<p>已知函数 $f(x) = A \\sin (\\omega x + \\varphi)$ （$x \\in \\mathbb{R}$，$\\omega > 0$，$0 &#x3C; \\varphi &#x3C; \\tfrac{\\pi}{2}$）的部分图象如图所示.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的解析式；</p></li><li><p>求函数 $g(x)=f\\left(x-\\frac{\\pi}{12}\\right)-f\\left(x+\\frac{\\pi}{12}\\right)$ 的单调递增区间.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>已知函数 $f(x) = A \\sin (\\omega x + \\varphi)$ （$x \\in \\mathbb{R}$，$\\omega > 0$，$0 < \\varphi < \\tfrac{\\pi}{2}$）的部分图象如图所示.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的解析式；</p></li><li><p>求函数 $g(x)=f\\left(x-\\frac{\\pi}{12}\\right)-f\\left(x+\\frac{\\pi}{12}\\right)$ 的单调递增区间.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由图象可知 $f(0)=1$，且从 $x=0$ 向右的第一个零点为</p><p>$x=\\frac{5\\pi}{12}$. 因为 $0&#x3C;\\varphi&#x3C;\\frac{\\pi}{2}$，该零点对应正弦函数自相位</p><p>$\\varphi$ 后的第一次过零，即</p>\n$$\n2\\cdot\\frac{5\\pi}{12}+\\varphi=\\pi\n$$\n<p>所以 $\\varphi=\\frac{\\pi}{6}$. 图象上相邻两个零点为</p><p>$\\frac{5\\pi}{12}$ 和 $\\frac{11\\pi}{12}$，相距 $\\frac{\\pi}{2}$，这是半个周期，故</p><p>$T=\\pi$，$\\omega=\\frac{2\\pi}{T}=2$.</p><p>再由 $f(0)=A\\sin\\varphi=1$，得到</p>\n$$\nA\\sin\\frac{\\pi}{6}=1\n$$\n<p>从而 $A=2$. 因此</p>\n$$\nf(x)=2\\sin\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n</li><li><p>代入 $f$ 化简：</p>\n$$\ng(x)=2\\sin\\left(2x\\right)-2\\sin\\left(2x+\\frac{\\pi}{3}\\right)  =-2\\cos\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n<p>所以</p>\n$$\ng'(x)=4\\sin\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n<p>函数 $g$ 在区间上单调递增需要 $g'(x)\\geqslant0$，即</p><p>$2k\\pi\\leqslant2x+\\frac{\\pi}{6}\\le(2k+1)\\pi$，$k\\in\\mathbb{Z}$.</p><p>解得单调递增区间为</p><p>$\\left[k\\pi-\\frac{\\pi}{12},\\,k\\pi+\\frac{5\\pi}{12}\\right]$，$k\\in\\mathbb{Z}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由图象可知 $f(0)=1$，且从 $x=0$ 向右的第一个零点为</p><p>$x=\\frac{5\\pi}{12}$. 因为 $0<\\varphi<\\frac{\\pi}{2}$，该零点对应正弦函数自相位</p><p>$\\varphi$ 后的第一次过零，即</p>\n$$\n2\\cdot\\frac{5\\pi}{12}+\\varphi=\\pi\n$$\n<p>所以 $\\varphi=\\frac{\\pi}{6}$. 图象上相邻两个零点为</p><p>$\\frac{5\\pi}{12}$ 和 $\\frac{11\\pi}{12}$，相距 $\\frac{\\pi}{2}$，这是半个周期，故</p><p>$T=\\pi$，$\\omega=\\frac{2\\pi}{T}=2$.</p><p>再由 $f(0)=A\\sin\\varphi=1$，得到</p>\n$$\nA\\sin\\frac{\\pi}{6}=1\n$$\n<p>从而 $A=2$. 因此</p>\n$$\nf(x)=2\\sin\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n</li><li><p>代入 $f$ 化简：</p>\n$$\ng(x)=2\\sin\\left(2x\\right)-2\\sin\\left(2x+\\frac{\\pi}{3}\\right)  =-2\\cos\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n<p>所以</p>\n$$\ng'(x)=4\\sin\\left(2x+\\frac{\\pi}{6}\\right)\n$$\n<p>函数 $g$ 在区间上单调递增需要 $g'(x)\\geqslant0$，即</p><p>$2k\\pi\\leqslant2x+\\frac{\\pi}{6}\\le(2k+1)\\pi$，$k\\in\\mathbb{Z}$.</p><p>解得单调递增区间为</p><p>$\\left[k\\pi-\\frac{\\pi}{12},\\,k\\pi+\\frac{5\\pi}{12}\\right]$，$k\\in\\mathbb{Z}$.</p></li></ol>"
         },
         {
           "num": 19,
@@ -216,10 +216,10 @@
         },
         {
           "num": 22,
-          "body": "<p>已知函数 $f(x) = \\mathrm{e}^{x}- ax$，其中 $a > 0$.</p><ol class=\"enumerate\"><li><p>若对一切 $x \\in \\mathbb{R}$，$f(x) \\ge 1$ 恒成立，求 $a$ 的取值集合；</p></li><li><p>在函数 $f(x)$ 的图象上取定两点 $A(x_{1}, f(x_{1}))$，$B(x_{2}, f(x_{2}))$（$x_{1}&#x3C; x_{2}$），记直线 $AB$ 的斜率为 $k$，证明：存在 $x_{0}\\in (x_{1}, x_{2})$，使 $f'(x_{0}) = k$ 成立.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = \\mathrm{e}^{x}- ax$，其中 $a > 0$.</p><ol class=\"enumerate\"><li><p>若对一切 $x \\in \\mathbb{R}$，$f(x) \\ge 1$ 恒成立，求 $a$ 的取值集合；</p></li><li><p>在函数 $f(x)$ 的图象上取定两点 $A(x_{1}, f(x_{1}))$，$B(x_{2}, f(x_{2}))$（$x_{1}< x_{2}$），记直线 $AB$ 的斜率为 $k$，证明：存在 $x_{0}\\in (x_{1}, x_{2})$，使 $f'(x_{0}) = k$ 成立.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数</p><p>$f'(x)=\\mathrm{e}^{x}-a$，$f''(x)=\\mathrm{e}^{x}>0$.</p><p>所以 $f$ 在 $\\mathbb{R}$ 上有唯一极小值点</p><p>$x=\\ln a$，且该点的函数值为</p>\n$$\nf(\\ln a)=\\mathrm{e}^{\\ln a}-a\\ln a=a(1-\\ln a)\n$$\n<p>令 $t=\\ln a$，则极小值为 $\\mathrm{e}^{t}(1-t)$. 对其求导得</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}t}\\bigl(\\mathrm{e}^{t}(1-t)\\bigr)=-t\\mathrm{e}^{t}\n$$\n<p>因此它在 $t&#x3C;0$ 时递增，在 $t>0$ 时递减，最大值为</p><p>$\\mathrm{e}^{0}(1-0)=1$，且只有 $t=0$ 时取到. 题设要求对一切</p><p>$x$ 有 $f(x)\\geqslant1$，故极小值必须等于 $1$，从而</p><p>$t=0$，即 $a=1$. 因此 $a$ 的取值集合为 $\\{1\\}$.</p></li><li><p>函数 $f(x)=\\mathrm{e}^{x}-ax$ 在闭区间 $[x_{1},x_{2}]$ 上连续，在开区间</p><p>$(x_{1},x_{2})$ 上可导. 直线 $AB$ 的斜率为</p>\n$$\nk=\\frac{f(x_{2})-f(x_{1})}{x_{2}-x_{1}}\n$$\n<p>由拉格朗日中值定理，存在 $x_{0}\\in(x_{1},x_{2})$，使得</p>\n$$\nf'(x_{0})=\\frac{f(x_{2})-f(x_{1})}{x_{2}-x_{1}}=k\n$$\n<p>这就证明了所要求的结论.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数</p><p>$f'(x)=\\mathrm{e}^{x}-a$，$f''(x)=\\mathrm{e}^{x}>0$.</p><p>所以 $f$ 在 $\\mathbb{R}$ 上有唯一极小值点</p><p>$x=\\ln a$，且该点的函数值为</p>\n$$\nf(\\ln a)=\\mathrm{e}^{\\ln a}-a\\ln a=a(1-\\ln a)\n$$\n<p>令 $t=\\ln a$，则极小值为 $\\mathrm{e}^{t}(1-t)$. 对其求导得</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}t}\\bigl(\\mathrm{e}^{t}(1-t)\\bigr)=-t\\mathrm{e}^{t}\n$$\n<p>因此它在 $t<0$ 时递增，在 $t>0$ 时递减，最大值为</p><p>$\\mathrm{e}^{0}(1-0)=1$，且只有 $t=0$ 时取到. 题设要求对一切</p><p>$x$ 有 $f(x)\\geqslant1$，故极小值必须等于 $1$，从而</p><p>$t=0$，即 $a=1$. 因此 $a$ 的取值集合为 $\\{1\\}$.</p></li><li><p>函数 $f(x)=\\mathrm{e}^{x}-ax$ 在闭区间 $[x_{1},x_{2}]$ 上连续，在开区间</p><p>$(x_{1},x_{2})$ 上可导. 直线 $AB$ 的斜率为</p>\n$$\nk=\\frac{f(x_{2})-f(x_{1})}{x_{2}-x_{1}}\n$$\n<p>由拉格朗日中值定理，存在 $x_{0}\\in(x_{1},x_{2})$，使得</p>\n$$\nf'(x_{0})=\\frac{f(x_{2})-f(x_{1})}{x_{2}-x_{1}}=k\n$$\n<p>这就证明了所要求的结论.</p></li></ol>"
         }
       ]
     }

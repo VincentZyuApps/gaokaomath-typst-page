@@ -59,17 +59,17 @@
           "num": 5,
           "body": "<p>若函数 $f(x)=a^{x-b}$ 的图象如图，其中 $a$，$b$ 为常数，则下列结论正确的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$a > 1$，$b &#x3C; 0$",
+            "$a > 1$，$b < 0$",
             "$a > 1$，$b > 0$",
-            "$0 &#x3C; a &#x3C; 1$，$b > 0$",
-            "$0 &#x3C; a &#x3C; 1$，$b &#x3C; 0$"
+            "$0 < a < 1$，$b > 0$",
+            "$0 < a < 1$，$b < 0$"
           ],
           "answer": "D",
-          "solution": "由图象可知函数 $f(x)=a^{x-b}$ 单调递减，所以 $0&#x3C;a&#x3C;1$. 图象在 $x=0$ 时的纵坐标小于 $1$，即 $a^{-b}&#x3C;1=a^{0}$. 由于底数 $a$ 在 $(0,1)$ 内，指数函数单调递减，故 $-b>0$，从而 $b&#x3C;0$. 因此选 D."
+          "solution": "由图象可知函数 $f(x)=a^{x-b}$ 单调递减，所以 $0<a<1$. 图象在 $x=0$ 时的纵坐标小于 $1$，即 $a^{-b}<1=a^{0}$. 由于底数 $a$ 在 $(0,1)$ 内，指数函数单调递减，故 $-b>0$，从而 $b<0$. 因此选 D."
         },
         {
           "num": 6,
-          "body": "<p>若函数 $y = \\sin(\\omega x + \\varphi)$（$x \\in \\mathbb{R}$，$\\omega > 0$，$0 \\le \\varphi &#x3C; 2\\pi$）的部分图象如图，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>若函数 $y = \\sin(\\omega x + \\varphi)$（$x \\in \\mathbb{R}$，$\\omega > 0$，$0 \\le \\varphi < 2\\pi$）的部分图象如图，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\omega = \\frac{\\pi}{2}$，$\\varphi = \\frac{\\pi}{4}$",
             "$\\omega = \\frac{\\pi}{3}$，$\\varphi = \\frac{\\pi}{6}$",
@@ -77,11 +77,11 @@
             "$\\omega = \\frac{\\pi}{4}$，$\\varphi = \\frac{5\\pi}{4}$"
           ],
           "answer": "C",
-          "solution": "<p>由图象知，函数在 $x=1$ 处取得最大值，在 $x=3$ 处从正值下降并过 $x$ 轴，且从 $x=1$ 到 $x=3$ 只经历了从最大值到其后的第一次下降过零. 因此存在整数 $k$，使 $\\omega+\\varphi=\\frac{\\pi}{2}+2k\\pi$，$3\\omega+\\varphi=\\pi+2k\\pi$.</p><p>两式相减得 $2\\omega=\\frac{\\pi}{2}$，所以 $\\omega=\\frac{\\pi}{4}$. 代回第一式，得 $\\varphi=\\frac{\\pi}{4}+2k\\pi$. 结合 $0\\le\\varphi&#x3C;2\\pi$，可知 $k=0$，故 $\\varphi=\\frac{\\pi}{4}$，选 C.</p>"
+          "solution": "<p>由图象知，函数在 $x=1$ 处取得最大值，在 $x=3$ 处从正值下降并过 $x$ 轴，且从 $x=1$ 到 $x=3$ 只经历了从最大值到其后的第一次下降过零. 因此存在整数 $k$，使 $\\omega+\\varphi=\\frac{\\pi}{2}+2k\\pi$，$3\\omega+\\varphi=\\pi+2k\\pi$.</p><p>两式相减得 $2\\omega=\\frac{\\pi}{2}$，所以 $\\omega=\\frac{\\pi}{4}$. 代回第一式，得 $\\varphi=\\frac{\\pi}{4}+2k\\pi$. 结合 $0\\le\\varphi<2\\pi$，可知 $k=0$，故 $\\varphi=\\frac{\\pi}{4}$，选 C.</p>"
         },
         {
           "num": 7,
-          "body": "已知 $p: |2x - 3| &#x3C; 1$，$q: x(x - 3) &#x3C; 0$，则 $p$ 是 $q$ 的（ ）",
+          "body": "已知 $p: |2x - 3| < 1$，$q: x(x - 3) < 0$，则 $p$ 是 $q$ 的（ ）",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -89,7 +89,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>由 $p$ 得</p>\n$$\n-1&#x3C;2x-3&#x3C;1 \\Longleftrightarrow  1&#x3C;x&#x3C;2\n$$\n<p>由 $q$ 得 $x(x-3)&#x3C;0$，所以 $0&#x3C;x&#x3C;3$. 因此 $p$ 的解集是 $q$ 的解集的真子集，$p$ 是 $q$ 的充分不必要条件，故选 A.</p>"
+          "solution": "<p>由 $p$ 得</p>\n$$\n-1<2x-3<1 \\Longleftrightarrow  1<x<2\n$$\n<p>由 $q$ 得 $x(x-3)<0$，所以 $0<x<3$. 因此 $p$ 的解集是 $q$ 的解集的真子集，$p$ 是 $q$ 的充分不必要条件，故选 A.</p>"
         },
         {
           "num": 8,
@@ -125,7 +125,7 @@
             "$\\sqrt{3}+ 1$"
           ],
           "answer": "D",
-          "solution": "<p>设双曲线的焦半距为 $c$，则 $c^{2}=a^{2}+b^{2}$，且离心率 $e=\\frac{c}{a}>1$. 取 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，则正三角形的另一个顶点可取 $M=(0,\\sqrt{3}c)$. 边 $MF_{1}$ 的中点为</p>\n$$\nP=\\left(-\\frac{c}{2},\\frac{\\sqrt{3}c}{2}\\right)\n$$\n<p>因为 $P$ 在双曲线上，所以</p>\n$$\n\\frac{c^{2}}{4a^{2}}-\\frac{3c^{2}}{4b^{2}}=1\n$$\n<p>用 $c^{2}=a^{2}(e^{2}-1)$、$b^{2}=a^{2}(e^{2}-1)$ 代入，得</p>\n$$\n\\frac{e^{2}}{4}-\\frac{3e^{2}}{4(e^{2}-1)}=1\n$$\n<p>整理得 $e^{4}-8e^{2}+4=0$，所以 $e^{2}=4\\pm2\\sqrt{3}$.</p><p>因 $e>1$，舍去 $4-2\\sqrt{3}&#x3C;1$，于是</p>\n$$\ne=\\sqrt{4+2\\sqrt{3}}=\\sqrt{3}+1\n$$\n<p>故选 D.</p>"
+          "solution": "<p>设双曲线的焦半距为 $c$，则 $c^{2}=a^{2}+b^{2}$，且离心率 $e=\\frac{c}{a}>1$. 取 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，则正三角形的另一个顶点可取 $M=(0,\\sqrt{3}c)$. 边 $MF_{1}$ 的中点为</p>\n$$\nP=\\left(-\\frac{c}{2},\\frac{\\sqrt{3}c}{2}\\right)\n$$\n<p>因为 $P$ 在双曲线上，所以</p>\n$$\n\\frac{c^{2}}{4a^{2}}-\\frac{3c^{2}}{4b^{2}}=1\n$$\n<p>用 $c^{2}=a^{2}(e^{2}-1)$、$b^{2}=a^{2}(e^{2}-1)$ 代入，得</p>\n$$\n\\frac{e^{2}}{4}-\\frac{3e^{2}}{4(e^{2}-1)}=1\n$$\n<p>整理得 $e^{4}-8e^{2}+4=0$，所以 $e^{2}=4\\pm2\\sqrt{3}$.</p><p>因 $e>1$，舍去 $4-2\\sqrt{3}<1$，于是</p>\n$$\ne=\\sqrt{4+2\\sqrt{3}}=\\sqrt{3}+1\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 11,
@@ -175,7 +175,7 @@
           "body": "若常数 $b$ 满足 $|b| > 1$，则 $\\displaystyle\\lim_{n \\to \\infty}\\frac{1 + b + b^{2} + \\cdots + b^{n-1}}{b^{n}}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\dfrac{1}{b-1}$",
-          "solution": "<p>将分式中的每一项除以 $b^{n}$，得</p>\n$$\n\\frac{1+b+b^{2}+\\cdots+b^{n-1}}{b^{n}}=\\frac{1}{b^{n}}+\\frac{1}{b^{n-1}}+\\cdots+\\frac{1}{b}\n$$\n<p>令 $r=\\frac{1}{b}$，则 $|r|&#x3C;1$，右端是等比数列前 $n$ 项和，故</p>\n$$\n\\lim_{n\\to\\infty}\\sum_{j=1}^{n}r^{j}=\\frac{r}{1-r}=\\frac{\\frac{1}{b}}{1-\\frac{1}{b}}=\\frac{1}{b-1}\n$$"
+          "solution": "<p>将分式中的每一项除以 $b^{n}$，得</p>\n$$\n\\frac{1+b+b^{2}+\\cdots+b^{n-1}}{b^{n}}=\\frac{1}{b^{n}}+\\frac{1}{b^{n-1}}+\\cdots+\\frac{1}{b}\n$$\n<p>令 $r=\\frac{1}{b}$，则 $|r|<1$，右端是等比数列前 $n$ 项和，故</p>\n$$\n\\lim_{n\\to\\infty}\\sum_{j=1}^{n}r^{j}=\\frac{r}{1-r}=\\frac{\\frac{1}{b}}{1-\\frac{1}{b}}=\\frac{1}{b-1}\n$$"
         },
         {
           "num": 16,
@@ -191,10 +191,10 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>已知 $-\\frac{\\pi}{2}&#x3C; x &#x3C; 0$，$\\sin x + \\cos x = \\frac{1}{5}$.</p><ol class=\"enumerate\"><li><p>求 $\\sin x - \\cos x$ 的值；</p></li><li><p>求 $\\dfrac{3\\sin^2 \\frac{x}{2} - 2\\sin \\frac{x}{2}\\cos \\frac{x}{2} + \\cos^2 \\frac{x}{2}}{\\tan x + \\cot x}$ 的值.</p></li></ol>",
+          "body": "<p>已知 $-\\frac{\\pi}{2}< x < 0$，$\\sin x + \\cos x = \\frac{1}{5}$.</p><ol class=\"enumerate\"><li><p>求 $\\sin x - \\cos x$ 的值；</p></li><li><p>求 $\\dfrac{3\\sin^2 \\frac{x}{2} - 2\\sin \\frac{x}{2}\\cos \\frac{x}{2} + \\cos^2 \\frac{x}{2}}{\\tan x + \\cot x}$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $s=\\sin x$，$c=\\cos x$. 由已知条件，</p>\n$$\n(s+c)^{2}=s^{2}+c^{2}+2sc=1+2sc=\\frac{1}{25}\n$$\n<p>所以 $sc=-\\frac{12}{25}$. 又因为 $-\\frac{\\pi}{2}&#x3C;x&#x3C;0$，故 $s&#x3C;0$，$c>0$，从而 $s-c&#x3C;0$. 于是</p>\n$$\n(s-c)^{2}=s^{2}+c^{2}-2sc=1+\\frac{24}{25}=\\frac{49}{25}\n$$\n<p>得 $\\sin x-\\cos x=s-c=-\\frac{7}{5}$.</p></li><li><p>利用半角公式，分子为</p>\n$$\n3\\sin^{2}\\frac{x}{2}-2\\sin\\frac{x}{2}\\cos\\frac{x}{2}+\\cos^{2}\\frac{x}{2}=3\\frac{1-c}{2}-s+\\frac{1+c}{2}=2-(s+c)=\\frac{9}{5}\n$$\n<p>分母为</p>\n$$\n\\tan x+\\cot x=\\frac{s}{c}+\\frac{c}{s}=\\frac{s^{2}+c^{2}}{sc}=-\\frac{25}{12}\n$$\n<p>因此所求值为 $\\frac{9}{5}\\div\\left(-\\frac{25}{12}\\right)=-\\frac{108}{125}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $s=\\sin x$，$c=\\cos x$. 由已知条件，</p>\n$$\n(s+c)^{2}=s^{2}+c^{2}+2sc=1+2sc=\\frac{1}{25}\n$$\n<p>所以 $sc=-\\frac{12}{25}$. 又因为 $-\\frac{\\pi}{2}<x<0$，故 $s<0$，$c>0$，从而 $s-c<0$. 于是</p>\n$$\n(s-c)^{2}=s^{2}+c^{2}-2sc=1+\\frac{24}{25}=\\frac{49}{25}\n$$\n<p>得 $\\sin x-\\cos x=s-c=-\\frac{7}{5}$.</p></li><li><p>利用半角公式，分子为</p>\n$$\n3\\sin^{2}\\frac{x}{2}-2\\sin\\frac{x}{2}\\cos\\frac{x}{2}+\\cos^{2}\\frac{x}{2}=3\\frac{1-c}{2}-s+\\frac{1+c}{2}=2-(s+c)=\\frac{9}{5}\n$$\n<p>分母为</p>\n$$\n\\tan x+\\cot x=\\frac{s}{c}+\\frac{c}{s}=\\frac{s^{2}+c^{2}}{sc}=-\\frac{25}{12}\n$$\n<p>因此所求值为 $\\frac{9}{5}\\div\\left(-\\frac{25}{12}\\right)=-\\frac{108}{125}$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -208,7 +208,7 @@
           "body": "<p>已知函数 $f(x) = \\frac{ax - 6}{x^{2} + b}$ 的图象在点 $M(-1, f(-1))$ 处的切线方程为 $x + 2y + 5 = 0$.</p><ol class=\"enumerate\"><li><p>求函数 $y = f(x)$ 的解析式；</p></li><li><p>求函数 $y = f(x)$ 的单调区间.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>切线 $x+2y+5=0$ 在 $x=-1$ 处的纵坐标为 $-2$，所以 $f(-1)=-2$，且切线斜率为 $-\\frac{1}{2}$，即 $f'(-1)=-\\frac{1}{2}$. 由</p>\n$$\n\\frac{-a-6}{1+b}=-2\n$$\n<p>得 $a=2b-4$. 又</p>\n$$\nf'(x)=\\frac{a(x^{2}+b)-2x(ax-6)}{(x^{2}+b)^{2}}=\\frac{-ax^{2}+12x+ab}{(x^{2}+b)^{2}}\n$$\n<p>所以</p>\n$$\n\\frac{-a-12+ab}{(1+b)^{2}}=-\\frac{1}{2}\n$$\n<p>代入 $a=2b-4$，整理得 $5b^{2}-10b-15=0$，即 $b=3$ 或 $b=-1$. $b=-1$ 使 $f(-1)$ 无定义，应舍去，故 $b=3$，$a=2$. 因此</p>\n$$\nf(x)=\\frac{2x-6}{x^{2}+3}\n$$\n</li><li><p>因为 $x^{2}+3>0$，所以</p>\n$$\nf'(x)=\\frac{-2x^{2}+12x+6}{(x^{2}+3)^{2}}=\\frac{-2\\left(x-3+2\\sqrt{3}\\right)\\left(x-3-2\\sqrt{3}\\right)}{(x^{2}+3)^{2}}\n$$\n<p>故当 $x&#x3C;3-2\\sqrt{3}$ 或 $x>3+2\\sqrt{3}$ 时，$f'(x)&#x3C;0$；当 $3-2\\sqrt{3}&#x3C;x&#x3C;3+2\\sqrt{3}$ 时，$f'(x)>0$. 所以函数的单调递减区间为 $\\left(-\\infty,3-2\\sqrt{3}\\right)$ 和 $\\left(3+2\\sqrt{3},+\\infty\\right)$，单调递增区间为 $\\left(3-2\\sqrt{3},3+2\\sqrt{3}\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>切线 $x+2y+5=0$ 在 $x=-1$ 处的纵坐标为 $-2$，所以 $f(-1)=-2$，且切线斜率为 $-\\frac{1}{2}$，即 $f'(-1)=-\\frac{1}{2}$. 由</p>\n$$\n\\frac{-a-6}{1+b}=-2\n$$\n<p>得 $a=2b-4$. 又</p>\n$$\nf'(x)=\\frac{a(x^{2}+b)-2x(ax-6)}{(x^{2}+b)^{2}}=\\frac{-ax^{2}+12x+ab}{(x^{2}+b)^{2}}\n$$\n<p>所以</p>\n$$\n\\frac{-a-12+ab}{(1+b)^{2}}=-\\frac{1}{2}\n$$\n<p>代入 $a=2b-4$，整理得 $5b^{2}-10b-15=0$，即 $b=3$ 或 $b=-1$. $b=-1$ 使 $f(-1)$ 无定义，应舍去，故 $b=3$，$a=2$. 因此</p>\n$$\nf(x)=\\frac{2x-6}{x^{2}+3}\n$$\n</li><li><p>因为 $x^{2}+3>0$，所以</p>\n$$\nf'(x)=\\frac{-2x^{2}+12x+6}{(x^{2}+3)^{2}}=\\frac{-2\\left(x-3+2\\sqrt{3}\\right)\\left(x-3-2\\sqrt{3}\\right)}{(x^{2}+3)^{2}}\n$$\n<p>故当 $x<3-2\\sqrt{3}$ 或 $x>3+2\\sqrt{3}$ 时，$f'(x)<0$；当 $3-2\\sqrt{3}<x<3+2\\sqrt{3}$ 时，$f'(x)>0$. 所以函数的单调递减区间为 $\\left(-\\infty,3-2\\sqrt{3}\\right)$ 和 $\\left(3+2\\sqrt{3},+\\infty\\right)$，单调递增区间为 $\\left(3-2\\sqrt{3},3+2\\sqrt{3}\\right)$.</p></li></ol>"
         },
         {
           "num": 20,
@@ -226,10 +226,10 @@
         },
         {
           "num": 22,
-          "body": "<p>已知数列 $\\{a_{n}\\}$ 满足 $a_{1} = a$，$a_{n+1}= 1 + \\frac{1}{a_{n}}$. 我们知道当 $a$ 取不同的值时，得到不同的数列，如当 $a = 1$ 时，得到无穷数列：$1$，$2$，$\\frac{3}{2}$，$\\frac{5}{3}$，$\\cdots$；当 $a = -\\frac{1}{2}$ 时，得到有穷数列：$-\\frac{1}{2}$，$-1$，$0$.</p><ol class=\"enumerate\"><li><p>求当 $a$ 为何值时，$a_{4} = 0$；</p></li><li><p>设数列 $\\{b_{n}\\}$ 满足 $b_{1} = -1$，$b_{n+1}= \\frac{1}{b_{n} - 1}$（$n \\in \\N_{+}$），求证 $a$ 取数列 $\\{b_{n}\\}$ 中的任一个数，都可以得到一个有穷数列 $\\{a_{n}\\}$；</p></li><li><p>若 $\\frac{3}{2}&#x3C; a_{n} &#x3C; 2$（$n \\ge 4$），求 $a$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 满足 $a_{1} = a$，$a_{n+1}= 1 + \\frac{1}{a_{n}}$. 我们知道当 $a$ 取不同的值时，得到不同的数列，如当 $a = 1$ 时，得到无穷数列：$1$，$2$，$\\frac{3}{2}$，$\\frac{5}{3}$，$\\cdots$；当 $a = -\\frac{1}{2}$ 时，得到有穷数列：$-\\frac{1}{2}$，$-1$，$0$.</p><ol class=\"enumerate\"><li><p>求当 $a$ 为何值时，$a_{4} = 0$；</p></li><li><p>设数列 $\\{b_{n}\\}$ 满足 $b_{1} = -1$，$b_{n+1}= \\frac{1}{b_{n} - 1}$（$n \\in \\N_{+}$），求证 $a$ 取数列 $\\{b_{n}\\}$ 中的任一个数，都可以得到一个有穷数列 $\\{a_{n}\\}$；</p></li><li><p>若 $\\frac{3}{2}< a_{n} < 2$（$n \\ge 4$），求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>依次计算得</p><p>$a_{2}=1+\\frac{1}{a}=\\frac{a+1}{a}$，$a_{3}=1+\\frac{1}{a_{2}}=\\frac{2a+1}{a+1}$，</p><p>从而</p>\n$$\na_{4}=1+\\frac{1}{a_{3}}=\\frac{3a+2}{2a+1}\n$$\n<p>要使 $a_{4}=0$，需有 $3a+2=0$，解得 $a=-\\frac{2}{3}$. 此时 $a_{2}=-\\frac{1}{2}$，$a_{3}=-1$，$a_{4}=0$，各步均有定义，所以取值成立.</p></li><li><p>设斐波那契数列 $F_{1}=F_{2}=1$，$F_{n+2}=F_{n+1}+F_{n}$. 由 $b_{1}=-1$ 及递推关系可归纳得到</p><p>$b_{n}=-\\frac{F_{n}}{F_{n+1}}$，（$n\\geqslant1$）.</p><p>事实上，若 $b_{n}=-\\frac{F_{n}}{F_{n+1}}$，则</p>\n$$\nb_{n+1}=\\frac{1}{b_{n}-1}=\\frac{1}{-\\frac{F_{n}}{F_{n+1}}-1}=-\\frac{F_{n+1}}{F_{n}+F_{n+1}}=-\\frac{F_{n+1}}{F_{n+2}}\n$$\n<p>令 $T(x)=1+\\frac{1}{x}$. 当 $n\\geqslant2$ 时，</p>\n$$\nT(b_{n})=1-\\frac{F_{n+1}}{F_{n}}=-\\frac{F_{n-1}}{F_{n}}=b_{n-1}\n$$\n<p>而 $T(b_{1})=T(-1)=0$. 因此以 $b_{n}$ 中任一个数作为 $a_{1}$ 时，数列依次经过 $b_{n}$，$b_{n-1}$，$\\ldots$，$b_{1}$，$0$，在有限步后得到 $0$，随后递推式无定义，故得到有穷数列.</p></li><li><p>由前面的计算，</p>\n$$\na_{4}=\\frac{3a+2}{2a+1}\n$$\n<p>若对所有 $n\\geqslant4$ 有 $\\frac{3}{2}&#x3C;a_{n}&#x3C;2$，则特别有 $\\frac{3}{2}&#x3C;a_{4}&#x3C;2$. 注意</p><p>$a_{4}-\\frac{3}{2}=\\frac{1}{2(2a+1)}$，且 $a_{4}-2=-\\frac{a}{2a+1}$.</p><p>两式同时满足相应的不等式，先由第一式得 $2a+1>0$，再由第二式得 $a>0$.</p><p>反过来，若 $a>0$，则 $\\frac{3}{2}&#x3C;a_{4}&#x3C;2$. 对任意 $u\\in\\left(\\frac{3}{2},2\\right)$，有</p>\n$$\n\\frac{3}{2}&#x3C;1+\\frac{1}{u}&#x3C;\\frac{5}{3}&#x3C;2\n$$\n<p>所以 $a_{5}$，$a_{6}$，$\\ldots$ 也都属于 $\\left(\\frac{3}{2},2\\right)$. 故 $a$ 的取值范围为 $(0,+\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>依次计算得</p><p>$a_{2}=1+\\frac{1}{a}=\\frac{a+1}{a}$，$a_{3}=1+\\frac{1}{a_{2}}=\\frac{2a+1}{a+1}$，</p><p>从而</p>\n$$\na_{4}=1+\\frac{1}{a_{3}}=\\frac{3a+2}{2a+1}\n$$\n<p>要使 $a_{4}=0$，需有 $3a+2=0$，解得 $a=-\\frac{2}{3}$. 此时 $a_{2}=-\\frac{1}{2}$，$a_{3}=-1$，$a_{4}=0$，各步均有定义，所以取值成立.</p></li><li><p>设斐波那契数列 $F_{1}=F_{2}=1$，$F_{n+2}=F_{n+1}+F_{n}$. 由 $b_{1}=-1$ 及递推关系可归纳得到</p><p>$b_{n}=-\\frac{F_{n}}{F_{n+1}}$，（$n\\geqslant1$）.</p><p>事实上，若 $b_{n}=-\\frac{F_{n}}{F_{n+1}}$，则</p>\n$$\nb_{n+1}=\\frac{1}{b_{n}-1}=\\frac{1}{-\\frac{F_{n}}{F_{n+1}}-1}=-\\frac{F_{n+1}}{F_{n}+F_{n+1}}=-\\frac{F_{n+1}}{F_{n+2}}\n$$\n<p>令 $T(x)=1+\\frac{1}{x}$. 当 $n\\geqslant2$ 时，</p>\n$$\nT(b_{n})=1-\\frac{F_{n+1}}{F_{n}}=-\\frac{F_{n-1}}{F_{n}}=b_{n-1}\n$$\n<p>而 $T(b_{1})=T(-1)=0$. 因此以 $b_{n}$ 中任一个数作为 $a_{1}$ 时，数列依次经过 $b_{n}$，$b_{n-1}$，$\\ldots$，$b_{1}$，$0$，在有限步后得到 $0$，随后递推式无定义，故得到有穷数列.</p></li><li><p>由前面的计算，</p>\n$$\na_{4}=\\frac{3a+2}{2a+1}\n$$\n<p>若对所有 $n\\geqslant4$ 有 $\\frac{3}{2}<a_{n}<2$，则特别有 $\\frac{3}{2}<a_{4}<2$. 注意</p><p>$a_{4}-\\frac{3}{2}=\\frac{1}{2(2a+1)}$，且 $a_{4}-2=-\\frac{a}{2a+1}$.</p><p>两式同时满足相应的不等式，先由第一式得 $2a+1>0$，再由第二式得 $a>0$.</p><p>反过来，若 $a>0$，则 $\\frac{3}{2}<a_{4}<2$. 对任意 $u\\in\\left(\\frac{3}{2},2\\right)$，有</p>\n$$\n\\frac{3}{2}<1+\\frac{1}{u}<\\frac{5}{3}<2\n$$\n<p>所以 $a_{5}$，$a_{6}$，$\\ldots$ 也都属于 $\\left(\\frac{3}{2},2\\right)$. 故 $a$ 的取值范围为 $(0,+\\infty)$.</p></li></ol>"
         }
       ]
     }

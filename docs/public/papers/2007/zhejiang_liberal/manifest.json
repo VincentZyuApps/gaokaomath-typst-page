@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "已知 $\\cos\\left(\\frac{\\pi}{2}+\\varphi\\right)=\\frac{\\sqrt{3}}{2}$，且 $\\left|\\varphi\\right|&#x3C;\\frac{\\pi}{2}$，则 $\\tan\\varphi=$（ ）",
+          "body": "已知 $\\cos\\left(\\frac{\\pi}{2}+\\varphi\\right)=\\frac{\\sqrt{3}}{2}$，且 $\\left|\\varphi\\right|<\\frac{\\pi}{2}$，则 $\\tan\\varphi=$（ ）",
           "choices": [
             "$-\\frac{\\sqrt{3}}{3}$",
             "$\\frac{\\sqrt{3}}{3}$",
@@ -29,7 +29,7 @@
             "$\\sqrt{3}$"
           ],
           "answer": "",
-          "solution": "由 $\\cos\\left(\\frac{\\pi}{2}+\\varphi\\right)=-\\sin\\varphi$，得 $\\sin\\varphi=-\\frac{\\sqrt{3}}{2}$. 又因 $\\left|\\varphi\\right|&#x3C;\\frac{\\pi}{2}$，所以 $\\cos\\varphi>0$，从而 $\\cos\\varphi=\\frac{1}{2}$. 因此 $\\tan\\varphi=\\frac{\\sin\\varphi}{\\cos\\varphi}=-\\sqrt{3}$，故选 C."
+          "solution": "由 $\\cos\\left(\\frac{\\pi}{2}+\\varphi\\right)=-\\sin\\varphi$，得 $\\sin\\varphi=-\\frac{\\sqrt{3}}{2}$. 又因 $\\left|\\varphi\\right|<\\frac{\\pi}{2}$，所以 $\\cos\\varphi>0$，从而 $\\cos\\varphi=\\frac{1}{2}$. 因此 $\\tan\\varphi=\\frac{\\sin\\varphi}{\\cos\\varphi}=-\\sqrt{3}$，故选 C."
         },
         {
           "num": 3,
@@ -41,7 +41,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "",
-          "solution": "若 $x>1$，则 $x(x-1)>0$，即 $x^{2}>x$，所以 $x>1$ 是 $x^{2}>x$ 的充分条件. 反之，$x^{2}>x$ 等价于 $x(x-1)>0$，解得 $x&#x3C;0$ 或 $x>1$. 例如 $x=-1$ 时 $x^{2}>x$ 成立而 $x>1$ 不成立，因此不是必要条件，故选 A."
+          "solution": "若 $x>1$，则 $x(x-1)>0$，即 $x^{2}>x$，所以 $x>1$ 是 $x^{2}>x$ 的充分条件. 反之，$x^{2}>x$ 等价于 $x(x-1)>0$，解得 $x<0$ 或 $x>1$. 例如 $x=-1$ 时 $x^{2}>x$ 成立而 $x>1$ 不成立，因此不是必要条件，故选 A."
         },
         {
           "num": 4,
@@ -65,7 +65,7 @@
             "$3$"
           ],
           "answer": "",
-          "solution": "<p>正方形的四个顶点中，任意两个不同顶点的距离至少为 $16$，而一个半径为 $6$ 的圆的直径为 $12$，所以一个喷水范围不可能同时覆盖两个顶点. 四个顶点都必须被覆盖，故喷水龙头至少需要 $4$ 个.</p><p>将正方形看作四个边长为 $8$ 的小正方形，并在它们的中心分别安装喷水龙头. 每个小正方形内任一点到其中心的距离不超过 $4\\sqrt{2}&#x3C;6$，所以四个喷水范围能够覆盖整个草坪. 因而最少需要 $4$ 个，故选 C.</p>"
+          "solution": "<p>正方形的四个顶点中，任意两个不同顶点的距离至少为 $16$，而一个半径为 $6$ 的圆的直径为 $12$，所以一个喷水范围不可能同时覆盖两个顶点. 四个顶点都必须被覆盖，故喷水龙头至少需要 $4$ 个.</p><p>将正方形看作四个边长为 $8$ 的小正方形，并在它们的中心分别安装喷水龙头. 每个小正方形内任一点到其中心的距离不超过 $4\\sqrt{2}<6$，所以四个喷水范围能够覆盖整个草坪. 因而最少需要 $4$ 个，故选 C.</p>"
         },
         {
           "num": 6,
@@ -108,9 +108,9 @@
           "body": "若非零向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $\\left|\\mathbf{a}- \\mathbf{b}\\right| = \\left|\\mathbf{b}\\right|$，则（ ）",
           "choices": [
             "$\\left|2\\mathbf{b}\\right| > \\left|\\mathbf{a}- 2\\mathbf{b}\\right|$",
-            "$\\left|2\\mathbf{b}\\right| &#x3C; \\left|\\mathbf{a}- 2\\mathbf{b}\\right|$",
+            "$\\left|2\\mathbf{b}\\right| < \\left|\\mathbf{a}- 2\\mathbf{b}\\right|$",
             "$\\left|2\\mathbf{a}\\right| > \\left|2\\mathbf{a}- \\mathbf{b}\\right|$",
-            "$\\left|2\\mathbf{a}\\right| &#x3C; \\left|2\\mathbf{a}- \\mathbf{b}\\right|$"
+            "$\\left|2\\mathbf{a}\\right| < \\left|2\\mathbf{a}- \\mathbf{b}\\right|$"
           ],
           "answer": "",
           "solution": "<p>将条件两边平方，得</p>\n$$\n\\left|\\mathbf{a}\\right|^{2}-2\\mathbf{a}\\cdot\\mathbf{b}+\\left|\\mathbf{b}\\right|^{2}=\\left|\\mathbf{b}\\right|^{2}\n$$\n<p>所以 $2\\mathbf{a}\\cdot\\mathbf{b}=\\left|\\mathbf{a}\\right|^{2}$. 于是</p>\n$$\n\\left|2\\mathbf{b}\\right|^{2}-\\left|\\mathbf{a}-2\\mathbf{b}\\right|^{2}=4\\left|\\mathbf{b}\\right|^{2}-\\left(\\left|\\mathbf{a}\\right|^{2}-4\\mathbf{a}\\cdot\\mathbf{b}+4\\left|\\mathbf{b}\\right|^{2}\\right)=4\\mathbf{a}\\cdot\\mathbf{b}-\\left|\\mathbf{a}\\right|^{2}=\\left|\\mathbf{a}\\right|^{2}>0\n$$\n<p>因此 $\\left|2\\mathbf{b}\\right|>\\left|\\mathbf{a}-2\\mathbf{b}\\right|$，故选 A.</p>"
@@ -137,7 +137,7 @@
           "body": "函数 $y=\\frac{x^{2}}{x^{2}+1}$（$x\\in\\mathbb{R}$）的值域是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "",
-          "solution": "令 $t=x^{2}$，则 $t\\geqslant0$，且 $y=\\frac{t}{t+1}$. 因为 $t+1>0$，所以 $y\\geqslant0$，又有 $y=1-\\frac{1}{t+1}&#x3C;1$. 反过来，对于任意 $y_{0}\\in[0,1)$，取 $t=\\frac{y_{0}}{1-y_{0}}\\geqslant0$，再取 $x=\\sqrt{t}$，就有 $\\frac{x^{2}}{x^{2}+1}=y_{0}$. 因此值域为 $[0,1)$."
+          "solution": "令 $t=x^{2}$，则 $t\\geqslant0$，且 $y=\\frac{t}{t+1}$. 因为 $t+1>0$，所以 $y\\geqslant0$，又有 $y=1-\\frac{1}{t+1}<1$. 反过来，对于任意 $y_{0}\\in[0,1)$，取 $t=\\frac{y_{0}}{1-y_{0}}\\geqslant0$，再取 $x=\\sqrt{t}$，就有 $\\frac{x^{2}}{x^{2}+1}=y_{0}$. 因此值域为 $[0,1)$."
         },
         {
           "num": 12,
@@ -191,7 +191,7 @@
           "body": "<p>已知 $\\triangle ABC$ 的周长为 $\\sqrt{2}+ 1$，且 $\\sin A + \\sin B = \\sqrt{2}\\sin C$.</p><ol class=\"enumerate\"><li><p>求边 $AB$ 的长；</p></li><li><p>若 $\\triangle ABC$ 的面积为 $\\frac{1}{6}\\sin C$，求角 $C$ 的度数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设 $BC=a$，$CA=b$，$AB=c$，外接圆半径为 $R$. 由正弦定理，$a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$，所以由题意得</p>\n$$\na+b=\\sqrt{2}c\n$$\n<p>又因为三角形的周长为 $\\sqrt{2}+1$，所以</p>\n$$\n(\\sqrt{2}+1)c=a+b+c=\\sqrt{2}+1\n$$\n<p>从而 $c=1$，即 $AB=1$.</p></li><li><p>由三角形面积公式及 $0&#x3C;C&#x3C;\\pi$，得</p>\n$$\n\\frac{1}{2}ab\\sin C=\\frac{1}{6}\\sin C\n$$\n<p>所以 $ab=\\frac{1}{3}$. 又由（1）知 $a+b=\\sqrt{2}$，故</p>\n$$\na^{2}+b^{2}=(a+b)^{2}-2ab=2-\\frac{2}{3}=\\frac{4}{3}\n$$\n<p>在 $\\triangle ABC$ 中，由余弦定理，</p>\n$$\n\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}=\\frac{\\frac{4}{3}-1}{\\frac{2}{3}}=\\frac{1}{2}\n$$\n<p>因为 $0&#x3C;C&#x3C;\\pi$，所以 $C=60^{\\circ}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设 $BC=a$，$CA=b$，$AB=c$，外接圆半径为 $R$. 由正弦定理，$a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$，所以由题意得</p>\n$$\na+b=\\sqrt{2}c\n$$\n<p>又因为三角形的周长为 $\\sqrt{2}+1$，所以</p>\n$$\n(\\sqrt{2}+1)c=a+b+c=\\sqrt{2}+1\n$$\n<p>从而 $c=1$，即 $AB=1$.</p></li><li><p>由三角形面积公式及 $0<C<\\pi$，得</p>\n$$\n\\frac{1}{2}ab\\sin C=\\frac{1}{6}\\sin C\n$$\n<p>所以 $ab=\\frac{1}{3}$. 又由（1）知 $a+b=\\sqrt{2}$，故</p>\n$$\na^{2}+b^{2}=(a+b)^{2}-2ab=2-\\frac{2}{3}=\\frac{4}{3}\n$$\n<p>在 $\\triangle ABC$ 中，由余弦定理，</p>\n$$\n\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}=\\frac{\\frac{4}{3}-1}{\\frac{2}{3}}=\\frac{1}{2}\n$$\n<p>因为 $0<C<\\pi$，所以 $C=60^{\\circ}$.</p></li></ol>"
         },
         {
           "num": 19,
@@ -209,17 +209,17 @@
         },
         {
           "num": 21,
-          "body": "<p>如图，直线 $y = kx + b$ 与椭圆 $\\frac{x^{2}}{4}+ y^{2} = 1$ 交于 $A$，$B$ 两点，记 $\\triangle AOB$ 的面积为 $S$.</p><ol class=\"enumerate\"><li><p>求在 $k = 0$，$0 &#x3C; b &#x3C; 1$ 的条件下，$S$ 的最大值；</p></li><li><p>当 $\\left|AB\\right|=2$，$S=1$ 时，求直线 $AB$ 的方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>如图，直线 $y = kx + b$ 与椭圆 $\\frac{x^{2}}{4}+ y^{2} = 1$ 交于 $A$，$B$ 两点，记 $\\triangle AOB$ 的面积为 $S$.</p><ol class=\"enumerate\"><li><p>求在 $k = 0$，$0 < b < 1$ 的条件下，$S$ 的最大值；</p></li><li><p>当 $\\left|AB\\right|=2$，$S=1$ 时，求直线 $AB$ 的方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $k=0$ 时，直线为 $y=b$. 由椭圆方程得交点的横坐标为 $x=\\pm2\\sqrt{1-b^{2}}$，所以</p>\n$$\n|AB|=4\\sqrt{1-b^{2}}\n$$\n<p>三角形 $AOB$ 的高为 $b$，故</p>\n$$\nS=\\frac{1}{2}\\cdot4\\sqrt{1-b^{2}}\\cdot b=2b\\sqrt{1-b^{2}}\n$$\n<p>因为 $0&#x3C;b&#x3C;1$，有</p>\n$$\nS^{2}=4b^{2}(1-b^{2})\\leqslant1\n$$\n<p>当且仅当 $b^{2}=1-b^{2}$，即 $b=\\frac{\\sqrt{2}}{2}$ 时取等号. 所以 $S$ 的最大值为 $1$.</p></li><li><p>直线 $y=kx+b$ 到原点的距离为 $\\dfrac{|b|}{\\sqrt{1+k^{2}}}$. 由 $|AB|=2$ 和 $S=1$，得</p>\n$$\n\\frac{1}{2}|AB|\\cdot\\frac{|b|}{\\sqrt{1+k^{2}}}=1\n$$\n<p>即</p>\n$$\nb^{2}=k^{2}+1\n$$\n<p>将直线方程代入椭圆方程，得交点横坐标满足</p>\n$$\n\\left(k^{2}+\\frac{1}{4}\\right)x^{2}+2kbx+b^{2}-1=0\n$$\n<p>设此方程的两根为 $x_{1}$，$x_{2}$，则</p>\n$$\n|AB|=|x_{1}-x_{2}|\\sqrt{1+k^{2}}\n$$\n<p>且其判别式为</p>\n$$\n\\Delta=(2kb)^{2}-4\\left(k^{2}+\\frac{1}{4}\\right)(b^{2}-1)=4k^{2}+1-b^{2}\n$$\n<p>所以</p>\n$$\n|AB|=\\frac{\\sqrt{4k^{2}+1-b^{2}}\\sqrt{1+k^{2}}}{k^{2}+\\frac{1}{4}}\n$$\n<p>代入 $b^{2}=k^{2}+1$ 及 $|AB|=2$，得</p>\n$$\n2=\\frac{\\sqrt{3k^{2}}\\sqrt{1+k^{2}}}{k^{2}+\\frac{1}{4}}\n$$\n<p>两边平方并整理，得</p><p>$3k^{2}(1+k^{2})=4\\left(k^{2}+\\frac{1}{4}\\right)^{2}$，$\\left(k^{2}-\\frac{1}{2}\\right)^{2}=0$.</p><p>因此 $k=\\pm\\frac{\\sqrt{2}}{2}$，且 $b=\\pm\\sqrt{\\frac{3}{2}}=\\pm\\frac{\\sqrt{6}}{2}$. 这些取值均满足原条件，故直线 $AB$ 为</p>\n$$\ny=\\pm\\frac{\\sqrt{2}}{2}x\\pm\\frac{\\sqrt{6}}{2}\n$$\n<p>其中两个符号相互独立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $k=0$ 时，直线为 $y=b$. 由椭圆方程得交点的横坐标为 $x=\\pm2\\sqrt{1-b^{2}}$，所以</p>\n$$\n|AB|=4\\sqrt{1-b^{2}}\n$$\n<p>三角形 $AOB$ 的高为 $b$，故</p>\n$$\nS=\\frac{1}{2}\\cdot4\\sqrt{1-b^{2}}\\cdot b=2b\\sqrt{1-b^{2}}\n$$\n<p>因为 $0<b<1$，有</p>\n$$\nS^{2}=4b^{2}(1-b^{2})\\leqslant1\n$$\n<p>当且仅当 $b^{2}=1-b^{2}$，即 $b=\\frac{\\sqrt{2}}{2}$ 时取等号. 所以 $S$ 的最大值为 $1$.</p></li><li><p>直线 $y=kx+b$ 到原点的距离为 $\\dfrac{|b|}{\\sqrt{1+k^{2}}}$. 由 $|AB|=2$ 和 $S=1$，得</p>\n$$\n\\frac{1}{2}|AB|\\cdot\\frac{|b|}{\\sqrt{1+k^{2}}}=1\n$$\n<p>即</p>\n$$\nb^{2}=k^{2}+1\n$$\n<p>将直线方程代入椭圆方程，得交点横坐标满足</p>\n$$\n\\left(k^{2}+\\frac{1}{4}\\right)x^{2}+2kbx+b^{2}-1=0\n$$\n<p>设此方程的两根为 $x_{1}$，$x_{2}$，则</p>\n$$\n|AB|=|x_{1}-x_{2}|\\sqrt{1+k^{2}}\n$$\n<p>且其判别式为</p>\n$$\n\\Delta=(2kb)^{2}-4\\left(k^{2}+\\frac{1}{4}\\right)(b^{2}-1)=4k^{2}+1-b^{2}\n$$\n<p>所以</p>\n$$\n|AB|=\\frac{\\sqrt{4k^{2}+1-b^{2}}\\sqrt{1+k^{2}}}{k^{2}+\\frac{1}{4}}\n$$\n<p>代入 $b^{2}=k^{2}+1$ 及 $|AB|=2$，得</p>\n$$\n2=\\frac{\\sqrt{3k^{2}}\\sqrt{1+k^{2}}}{k^{2}+\\frac{1}{4}}\n$$\n<p>两边平方并整理，得</p><p>$3k^{2}(1+k^{2})=4\\left(k^{2}+\\frac{1}{4}\\right)^{2}$，$\\left(k^{2}-\\frac{1}{2}\\right)^{2}=0$.</p><p>因此 $k=\\pm\\frac{\\sqrt{2}}{2}$，且 $b=\\pm\\sqrt{\\frac{3}{2}}=\\pm\\frac{\\sqrt{6}}{2}$. 这些取值均满足原条件，故直线 $AB$ 为</p>\n$$\ny=\\pm\\frac{\\sqrt{2}}{2}x\\pm\\frac{\\sqrt{6}}{2}\n$$\n<p>其中两个符号相互独立.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "<p>已知 $f(x) = |x^{2} - 1| + x^{2} + kx$.</p><ol class=\"enumerate\"><li><p>若 $k = 2$，求方程 $f(x) = 0$ 的解；</p></li><li><p>若关于 $x$ 的方程 $f(x) = 0$ 在 $(0,2)$ 上有两个解 $x_{1}$，$x_{2}$，求 $k$ 的取值范围，并证明 $\\frac{1}{x_{1}}+ \\frac{1}{x_{2}}&#x3C; 4$.</p></li></ol>",
+          "body": "<p>已知 $f(x) = |x^{2} - 1| + x^{2} + kx$.</p><ol class=\"enumerate\"><li><p>若 $k = 2$，求方程 $f(x) = 0$ 的解；</p></li><li><p>若关于 $x$ 的方程 $f(x) = 0$ 在 $(0,2)$ 上有两个解 $x_{1}$，$x_{2}$，求 $k$ 的取值范围，并证明 $\\frac{1}{x_{1}}+ \\frac{1}{x_{2}}< 4$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由绝对值的定义，</p>\n$$\nf(x)=  \\begin{cases}2x^{2}+kx-1,&#x26;|x|\\geqslant1,\\\\  1+kx,&#x26;|x|&#x3C;1.\\end{cases}\n$$\n<p>当 $k=2$ 时，在 $|x|\\geqslant1$ 上，方程 $f(x)=0$ 化为</p>\n$$\n2x^{2}+2x-1=0\n$$\n<p>解得 $x=\\dfrac{-1\\pm\\sqrt{3}}{2}$. 其中 $\\dfrac{-1-\\sqrt{3}}{2}\\le-1$，而 $\\dfrac{-1+\\sqrt{3}}{2}\\in(0,1)$，故前者符合本段定义域.</p><p>在 $|x|&#x3C;1$ 上，方程化为 $1+2x=0$，解得 $x=-\\frac{1}{2}$，符合本段定义域. 所以方程的解为</p>\n$$\nx=-\\frac{1+\\sqrt{3}}{2} \\text{或}  x=-\\frac{1}{2}\n$$\n</li><li><p>记</p>\n$$\nq(x)=2x^{2}+kx-1\n$$\n<p>在区间 $(0,2)$ 中还需检查边界点 $x=1$. 若 $x=1$ 是方程的解，则 $f(1)=1+k=0$，即 $k=-1$. 此时在 $0&#x3C;x&#x3C;1$ 时 $f(x)=1-x>0$，在 $1&#x3C;x&#x3C;2$ 时 $f(x)=2x^{2}-x-1=(2x+1)(x-1)>0$，所以 $(0,2)$ 中只有一个解 $x=1$，不能满足有两个解.</p><p>在 $0&#x3C;x&#x3C;1$ 时，方程 $f(x)=0$ 为 $1+kx=0$，其解为 $x=-\\dfrac{1}{k}$. 该解属于 $(0,1)$ 的充要条件是 $k&#x3C;-1$.</p><p>在 $1&#x3C;x&#x3C;2$ 时，方程为 $q(x)=0$. 因为 $q(0)=-1&#x3C;0$，且二次方程 $q(x)=0$ 的两根之积为 $-\\frac{1}{2}&#x3C;0$，所以它恰有一个正根. 这个正根属于 $(1,2)$ 的充要条件是</p><p>$q(1)=k+1&#x3C;0$，$q(2)=2k+7>0$</p><p>即 $-\\frac{7}{2}&#x3C;k&#x3C;-1$. 在这个范围内，$0&#x3C;x&#x3C;1$ 和 $1&#x3C;x&#x3C;2$ 各有一个解，所以方程在 $(0,2)$ 上有两个解；反之若有两个解，也必须分别来自这两个区间，故</p>\n$$\n-\\frac{7}{2}&#x3C;k&#x3C;-1\n$$\n<p>不妨设 $x_{1}\\in(0,1)$，$x_{2}\\in(1,2)$. 由前面的方程，</p><p>$x_{1}=-\\frac{1}{k}$，$2x_{2}^{2}+kx_{2}-1=0$.</p><p>由第二式除以 $x_{2}>0$，得 $\\dfrac{1}{x_2}=k+2x_{2}$. 因而</p>\n$$\n\\frac{1}{x_{1}}+\\frac{1}{x_{2}}=-k+k+2x_{2}=2x_{2}&#x3C;4\n$$\n<p>结论得证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由绝对值的定义，</p>\n$$\nf(x)=  \\begin{cases}2x^{2}+kx-1,&|x|\\geqslant1,\\\\  1+kx,&|x|<1.\\end{cases}\n$$\n<p>当 $k=2$ 时，在 $|x|\\geqslant1$ 上，方程 $f(x)=0$ 化为</p>\n$$\n2x^{2}+2x-1=0\n$$\n<p>解得 $x=\\dfrac{-1\\pm\\sqrt{3}}{2}$. 其中 $\\dfrac{-1-\\sqrt{3}}{2}\\le-1$，而 $\\dfrac{-1+\\sqrt{3}}{2}\\in(0,1)$，故前者符合本段定义域.</p><p>在 $|x|<1$ 上，方程化为 $1+2x=0$，解得 $x=-\\frac{1}{2}$，符合本段定义域. 所以方程的解为</p>\n$$\nx=-\\frac{1+\\sqrt{3}}{2} \\text{或}  x=-\\frac{1}{2}\n$$\n</li><li><p>记</p>\n$$\nq(x)=2x^{2}+kx-1\n$$\n<p>在区间 $(0,2)$ 中还需检查边界点 $x=1$. 若 $x=1$ 是方程的解，则 $f(1)=1+k=0$，即 $k=-1$. 此时在 $0<x<1$ 时 $f(x)=1-x>0$，在 $1<x<2$ 时 $f(x)=2x^{2}-x-1=(2x+1)(x-1)>0$，所以 $(0,2)$ 中只有一个解 $x=1$，不能满足有两个解.</p><p>在 $0<x<1$ 时，方程 $f(x)=0$ 为 $1+kx=0$，其解为 $x=-\\dfrac{1}{k}$. 该解属于 $(0,1)$ 的充要条件是 $k<-1$.</p><p>在 $1<x<2$ 时，方程为 $q(x)=0$. 因为 $q(0)=-1<0$，且二次方程 $q(x)=0$ 的两根之积为 $-\\frac{1}{2}<0$，所以它恰有一个正根. 这个正根属于 $(1,2)$ 的充要条件是</p><p>$q(1)=k+1<0$，$q(2)=2k+7>0$</p><p>即 $-\\frac{7}{2}<k<-1$. 在这个范围内，$0<x<1$ 和 $1<x<2$ 各有一个解，所以方程在 $(0,2)$ 上有两个解；反之若有两个解，也必须分别来自这两个区间，故</p>\n$$\n-\\frac{7}{2}<k<-1\n$$\n<p>不妨设 $x_{1}\\in(0,1)$，$x_{2}\\in(1,2)$. 由前面的方程，</p><p>$x_{1}=-\\frac{1}{k}$，$2x_{2}^{2}+kx_{2}-1=0$.</p><p>由第二式除以 $x_{2}>0$，得 $\\dfrac{1}{x_2}=k+2x_{2}$. 因而</p>\n$$\n\\frac{1}{x_{1}}+\\frac{1}{x_{2}}=-k+k+2x_{2}=2x_{2}<4\n$$\n<p>结论得证.</p></li></ol>"
         }
       ]
     }

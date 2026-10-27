@@ -23,7 +23,7 @@
         },
         {
           "num": 3,
-          "body": "若 $x$，$y$ 满足条件 $\\left\\{\\begin{aligned}&#x26;x + y \\le 3, \\\\&#x26;y \\le 2x,\\end{aligned}\\right.$ 则 $z = 3x + 4y$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "若 $x$，$y$ 满足条件 $\\left\\{\\begin{aligned}&x + y \\le 3, \\\\&y \\le 2x,\\end{aligned}\\right.$ 则 $z = 3x + 4y$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$11$",
           "solution": "由于 $z=3x+4y$ 随 $y$ 增大而增大，对于固定的 $x$，可行点中使 $z$ 最大的点必须取最大的 $y$，所以只需考察两条边界 $y=2x$ 和 $x+y=3$. 当 $y=2x$ 时，由 $2x\\leqslant3-x$ 得 $x\\leqslant1$，于是 $z=11x\\leqslant11$. 当 $x+y=3$ 时，由 $3-x\\leqslant2x$ 得 $x\\geqslant1$，于是 $z=3x+4(3-x)=12-x\\leqslant11$. 两个边界的交点为 $(1,2)$，且在此处 $z=11$，所以最大值为 $11$."
@@ -81,15 +81,15 @@
           "num": 11,
           "body": "函数 $f(x)=\\sin x+2|\\sin x|$，$x\\in[0,2\\pi]$ 的图象与直线 $y=k$ 有且仅有两个不同的交点，则 $k$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$1&#x3C;k&#x3C;3$",
-          "solution": "<p>当 $x\\in[0,\\pi]$ 时，$\\sin x\\geqslant0$，故 $f(x)=3\\sin x$. 因此 $0&#x3C;k&#x3C;3$ 时有两个交点，$k=0$ 时有两个端点交点，$k=3$ 时有一个交点，其他 $k$ 没有交点.</p><p>当 $x\\in[\\pi,2\\pi]$ 时，$\\sin x\\leqslant0$，故 $f(x)=-\\sin x$. 因此 $0&#x3C;k&#x3C;1$ 时有两个交点，$k=1$ 时有一个交点，$k=0$ 时两个端点中的 $x=\\pi$ 与前一段端点重合，只新增 $x=2\\pi$，其他 $k$ 没有交点. 合并两段时，$0&#x3C;k&#x3C;1$ 共四个交点，$k=1$ 共三个交点，$k=0$ 共三个交点，$k=3$ 只有一个交点；只有 $1&#x3C;k&#x3C;3$ 时恰有两个交点. 因此所求范围为 $1&#x3C;k&#x3C;3$.</p>"
+          "answer": "$1<k<3$",
+          "solution": "<p>当 $x\\in[0,\\pi]$ 时，$\\sin x\\geqslant0$，故 $f(x)=3\\sin x$. 因此 $0<k<3$ 时有两个交点，$k=0$ 时有两个端点交点，$k=3$ 时有一个交点，其他 $k$ 没有交点.</p><p>当 $x\\in[\\pi,2\\pi]$ 时，$\\sin x\\leqslant0$，故 $f(x)=-\\sin x$. 因此 $0<k<1$ 时有两个交点，$k=1$ 时有一个交点，$k=0$ 时两个端点中的 $x=\\pi$ 与前一段端点重合，只新增 $x=2\\pi$，其他 $k$ 没有交点. 合并两段时，$0<k<1$ 共四个交点，$k=1$ 共三个交点，$k=0$ 共三个交点，$k=3$ 只有一个交点；只有 $1<k<3$ 时恰有两个交点. 因此所求范围为 $1<k<3$.</p>"
         },
         {
           "num": 12,
           "body": "<p>有两个相同的直三棱柱，高为 $\\frac{2}{a}$，底面三角形的三边长分别为 $3a$，$4a$，$5a$（$a>0$）. 用它们拼成一个三棱柱或四棱柱，在所有可能的情形中，全面积最小的是一个四棱柱，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
-          "answer": "$0&#x3C;a&#x3C;\\sqrt{\\frac{5}{3}}$",
-          "solution": "<p>底面三角形为边长 $3a$，$4a$，$5a$ 的直角三角形，面积为 $6a^{2}$，周长为 $12a$，每个三棱柱的高为 $\\frac{2}{a}$. 两个三棱柱沿三角形底面拼接时，所得三棱柱的高为 $\\frac{4}{a}$，全面积为</p>\n$$\nS_{3}=2\\times6a^{2}+12a\\times\\frac{4}{a}=12a^{2}+48\n$$\n<p>若沿对应于底面边长 $s$ 的侧面拼接，其中 $s\\in\\{3a,4a,5a\\}$，无论拼成三棱柱还是四棱柱，所得几何体的全面积都等于两个原三棱柱全面积之和减去两个相接面的面积，即</p>\n$$\nS_{\\mathrm{side}}(s)=2\\left(12a^{2}+12a\\cdot\\frac{2}{a}\\right)-2s\\cdot\\frac{2}{a}=24a^{2}+48-\\frac{4s}{a}\n$$\n<p>代入 $s=3a$，$4a$，$5a$，得到三种侧面拼接情形的全面积分别为 $24a^{2}+36$，$24a^{2}+32$，$24a^{2}+28$，其中由 $s=5a$ 的拼接可得到一个四棱柱，且其面积最小. 要使这个四棱柱成为所有情形中的最小者，只需比较它与沿底面拼接所得三棱柱的面积，所以</p>\n$$\n24a^{2}+28&#x3C;12a^{2}+48\\iff a^{2}&#x3C;\\frac{5}{3}\n$$\n<p>结合 $a>0$，得 $0&#x3C;a&#x3C;\\sqrt{\\frac{5}{3}}$.</p>"
+          "answer": "$0<a<\\sqrt{\\frac{5}{3}}$",
+          "solution": "<p>底面三角形为边长 $3a$，$4a$，$5a$ 的直角三角形，面积为 $6a^{2}$，周长为 $12a$，每个三棱柱的高为 $\\frac{2}{a}$. 两个三棱柱沿三角形底面拼接时，所得三棱柱的高为 $\\frac{4}{a}$，全面积为</p>\n$$\nS_{3}=2\\times6a^{2}+12a\\times\\frac{4}{a}=12a^{2}+48\n$$\n<p>若沿对应于底面边长 $s$ 的侧面拼接，其中 $s\\in\\{3a,4a,5a\\}$，无论拼成三棱柱还是四棱柱，所得几何体的全面积都等于两个原三棱柱全面积之和减去两个相接面的面积，即</p>\n$$\nS_{\\mathrm{side}}(s)=2\\left(12a^{2}+12a\\cdot\\frac{2}{a}\\right)-2s\\cdot\\frac{2}{a}=24a^{2}+48-\\frac{4s}{a}\n$$\n<p>代入 $s=3a$，$4a$，$5a$，得到三种侧面拼接情形的全面积分别为 $24a^{2}+36$，$24a^{2}+32$，$24a^{2}+28$，其中由 $s=5a$ 的拼接可得到一个四棱柱，且其面积最小. 要使这个四棱柱成为所有情形中的最小者，只需比较它与沿底面拼接所得三棱柱的面积，所以</p>\n$$\n24a^{2}+28<12a^{2}+48\\iff a^{2}<\\frac{5}{3}\n$$\n<p>结合 $a>0$，得 $0<a<\\sqrt{\\frac{5}{3}}$.</p>"
         }
       ]
     },
@@ -106,19 +106,19 @@
             "单调递增有最大值"
           ],
           "answer": "A",
-          "solution": "<p>若 $x_{1}&#x3C;x_{2}$，则 $2^{x_1}&#x3C;2^{x_2}$，从而</p><p>$2^{x_1}+1&#x3C;2^{x_2}+1$，$\\Longrightarrow$，$f(x_{1})>f(x_{2})$.</p><p>所以函数在 $\\mathbb{R}$ 上单调递减. 又因为对任意有限的 $x$，都有 $f(x)>0$，且 $\\displaystyle\\lim_{x\\to+\\infty}f(x)=0$，故函数没有最小值，正确选项为 A.</p>"
+          "solution": "<p>若 $x_{1}<x_{2}$，则 $2^{x_1}<2^{x_2}$，从而</p><p>$2^{x_1}+1<2^{x_2}+1$，$\\Longrightarrow$，$f(x_{1})>f(x_{2})$.</p><p>所以函数在 $\\mathbb{R}$ 上单调递减. 又因为对任意有限的 $x$，都有 $f(x)>0$，且 $\\displaystyle\\lim_{x\\to+\\infty}f(x)=0$，故函数没有最小值，正确选项为 A.</p>"
         },
         {
           "num": 14,
           "body": "已知集合 $M = \\{x \\mid |x - 1| \\le 2, x \\in \\mathbb{R}\\}$，$P = \\left\\{x \\mid \\frac{5}{x + 1}\\ge 1, x \\in \\mathbb{Z}\\right\\}$，则 $M \\cap P$ 等于（ ）",
           "choices": [
-            "$\\{x\\mid 0 &#x3C; x\\le 3,x\\in \\mathbb{Z}\\}$",
+            "$\\{x\\mid 0 < x\\le 3,x\\in \\mathbb{Z}\\}$",
             "$\\{x\\mid 0\\le x\\le 3,x\\in \\mathbb{Z}\\}$",
             "$\\{x\\mid -1\\le x\\le 0,x\\in \\mathbb{Z}\\}$",
-            "$\\{x\\mid -1\\le x &#x3C; 0,x\\in \\mathbb{Z}\\}$"
+            "$\\{x\\mid -1\\le x < 0,x\\in \\mathbb{Z}\\}$"
           ],
           "answer": "B",
-          "solution": "<p>由 $|x-1|\\leqslant2$，得 $-1\\le x\\leqslant3$，所以 $M=[-1,3]$. 对集合 $P$，先注意 $x\\neq-1$，并将不等式化为</p>\n$$\n\\frac{5}{x+1}-1=\\frac{4-x}{x+1}\\geqslant0\n$$\n<p>当 $x&#x3C;-1$ 时，$4-x>0$ 而 $x+1&#x3C;0$，不等式不成立；当 $x>-1$ 时分母为正，不等式等价于 $4-x\\geqslant0$. 所以 $-1&#x3C;x\\leqslant4$. 再结合 $x\\in\\mathbb{Z}$，得到 $P=\\{0,1,2,3,4\\}$. 因此</p>\n$$\nM\\cap P=\\{0,1,2,3\\}=\\{x\\mid0\\le x\\leqslant3,\\ x\\in\\mathbb{Z}\\}\n$$\n<p>正确选项为 B.</p>"
+          "solution": "<p>由 $|x-1|\\leqslant2$，得 $-1\\le x\\leqslant3$，所以 $M=[-1,3]$. 对集合 $P$，先注意 $x\\neq-1$，并将不等式化为</p>\n$$\n\\frac{5}{x+1}-1=\\frac{4-x}{x+1}\\geqslant0\n$$\n<p>当 $x<-1$ 时，$4-x>0$ 而 $x+1<0$，不等式不成立；当 $x>-1$ 时分母为正，不等式等价于 $4-x\\geqslant0$. 所以 $-1<x\\leqslant4$. 再结合 $x\\in\\mathbb{Z}$，得到 $P=\\{0,1,2,3,4\\}$. 因此</p>\n$$\nM\\cap P=\\{0,1,2,3\\}=\\{x\\mid0\\le x\\leqslant3,\\ x\\in\\mathbb{Z}\\}\n$$\n<p>正确选项为 B.</p>"
         },
         {
           "num": 15,
@@ -168,28 +168,28 @@
           "body": "<p>已知函数 $f(x) = kx + b$ 的图象与 $x$，$y$ 轴分别相交于点 $A$，$B$，$\\overrightarrow{AB}= 2\\mathbf{i}+ 2\\mathbf{j}$（$\\mathbf{i}$，$\\mathbf{j}$ 分别是与 $x$，$y$ 轴正半轴同方向的单位向量），函数 $g(x) = x^{2} - x - 6$.</p><ol class=\"enumerate\"><li><p>求 $k$，$b$ 的值；</p></li><li><p>当 $x$ 满足 $f(x) > g(x)$ 时，求函数 $\\frac{g(x) + 1}{f(x)}$ 的最小值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设直线 $y=kx+b$ 与 $x$ 轴、$y$ 轴的交点分别为 $A$，$B$. 因为 $\\overrightarrow{AB}=2\\mathbf{i}+2\\mathbf{j}$，所以从 $A$ 到 $B$ 的横坐标增加 $2$，纵坐标增加 $2$. 又 $A$ 在 $x$ 轴上，$B$ 在 $y$ 轴上，故 $A=(-2,0)$，$B=(0,2)$. 因而</p><p>$b=2$，$0=-2k+b$</p><p>解得 $k=1$，$b=2$，即 $f(x)=x+2$.</p></li><li><p>由 $f(x)>g(x)$，得</p>\n$$\nx+2>x^{2}-x-6\\iff x^{2}-2x-8&#x3C;0\\iff -2&#x3C;x&#x3C;4\n$$\n<p>在此范围内 $f(x)=x+2>0$，且</p>\n$$\n\\frac{g(x)+1}{f(x)}=\\frac{x^{2}-x-5}{x+2}=x-3+\\frac{1}{x+2}\n$$\n<p>令 $t=x+2$，则 $t\\in(0,6)$，上式化为</p>\n$$\nt-5+\\frac{1}{t}\\geqslant2\\sqrt{t\\cdot\\frac{1}{t}}-5=-3\n$$\n<p>等号当且仅当 $t=1$，即 $x=-1$. 因为 $-1\\in(-2,4)$，故最小值为 $-3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设直线 $y=kx+b$ 与 $x$ 轴、$y$ 轴的交点分别为 $A$，$B$. 因为 $\\overrightarrow{AB}=2\\mathbf{i}+2\\mathbf{j}$，所以从 $A$ 到 $B$ 的横坐标增加 $2$，纵坐标增加 $2$. 又 $A$ 在 $x$ 轴上，$B$ 在 $y$ 轴上，故 $A=(-2,0)$，$B=(0,2)$. 因而</p><p>$b=2$，$0=-2k+b$</p><p>解得 $k=1$，$b=2$，即 $f(x)=x+2$.</p></li><li><p>由 $f(x)>g(x)$，得</p>\n$$\nx+2>x^{2}-x-6\\iff x^{2}-2x-8<0\\iff -2<x<4\n$$\n<p>在此范围内 $f(x)=x+2>0$，且</p>\n$$\n\\frac{g(x)+1}{f(x)}=\\frac{x^{2}-x-5}{x+2}=x-3+\\frac{1}{x+2}\n$$\n<p>令 $t=x+2$，则 $t\\in(0,6)$，上式化为</p>\n$$\nt-5+\\frac{1}{t}\\geqslant2\\sqrt{t\\cdot\\frac{1}{t}}-5=-3\n$$\n<p>等号当且仅当 $t=1$，即 $x=-1$. 因为 $-1\\in(-2,4)$，故最小值为 $-3$.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>假设某市 $2004\\text{ 年}$ 新建住房面积 $400\\text{ 万平方米}$，其中有 $250\\text{ 万平方米}$ 是中低价房. 预计在今后的若干年内，该市每年新建住房面积平均比上一年增长 $8\\%$. 另外，每年新建住房中，中低价房的面积均比上一年增加 $50\\text{ 万平方米}$. 那么，到哪一年底，</p><ol class=\"enumerate\"><li><p>该市历年所建中低价房的累计面积（以 $2004\\text{ 年}$ 为累计的第一年）将首次不少于 $4750\\text{ 万平方米}$？</p></li><li><p>当年建造的中低价房的面积占该年建造住房面积的比例首次大于 $85\\%$？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $a_{n}$ 为第 $n$ 年建造的中低价房面积，$b_{n}$ 为第 $n$ 年新建住房总面积，其中第1年对应 $2004$ 年. 由题意，</p><p>$a_{n}=250+50(n-1)$，$b_{n}=400(1.08)^{n-1}$.</p><ol class=\"enumerate\"><li><p>$\\{a_{n}\\}$ 是首项为 $250$、公差为 $50$ 的等差数列，前 $n$ 项和为</p>\n$$\nS_{n}=\\frac{n}{2}\\bigl(2\\times250+(n-1)\\times50\\bigr)=25n(n+9)\n$$\n<p>要求 $S_{n}\\geqslant4750$，即</p>\n$$\n25n(n+9)\\geqslant4750\\iff n^{2}+9n-190\\geqslant0\\iff(n-10)(n+19)\\geqslant0\n$$\n<p>由于 $n$ 为正整数，最小的 $n$ 是 $10$. 第10年为 $2004+9=2013$ 年，所以到 $2013$ 年底首次达到要求.</p></li><li><p>所求比例首次大于 $85\\%$，即</p>\n$$\n\\frac{250+50(n-1)}{400(1.08)^{n-1}}>0.85\n$$\n<p>记 $r_{n}=\\dfrac{a_n}{b_n}$. 因为 $1.08=\\dfrac{27}{25}$，且当 $n=1$，$\\dots$，$8$ 时</p>\n$$\n\\frac{r_{n+1}}{r_{n}}=\\frac{n+5}{1.08(n+4)}=\\frac{25(n+5)}{27(n+4)}>1\n$$\n<p>所以 $r_{1}$，$r_{2}$，$\\dots$，$r_{9}$ 依次递增. 又</p>\n$$\nr_{5}=\\frac{450}{400(1.08)^{4}}=\\frac{9}{8}\\left(\\frac{25}{27}\\right)^{4}&#x3C;\\frac{17}{20}=0.85\n$$\n<p>而</p>\n$$\nr_{6}=\\frac{500}{400(1.08)^{5}}=\\frac{5}{4}\\left(\\frac{25}{27}\\right)^{5}>\\frac{17}{20}=0.85\n$$\n<p>因此最小的 $n$ 为 $6$，即到 $2009$ 年底首次大于 $85\\%$.</p></li></ol>"
+          "solution": "<p>设 $a_{n}$ 为第 $n$ 年建造的中低价房面积，$b_{n}$ 为第 $n$ 年新建住房总面积，其中第1年对应 $2004$ 年. 由题意，</p><p>$a_{n}=250+50(n-1)$，$b_{n}=400(1.08)^{n-1}$.</p><ol class=\"enumerate\"><li><p>$\\{a_{n}\\}$ 是首项为 $250$、公差为 $50$ 的等差数列，前 $n$ 项和为</p>\n$$\nS_{n}=\\frac{n}{2}\\bigl(2\\times250+(n-1)\\times50\\bigr)=25n(n+9)\n$$\n<p>要求 $S_{n}\\geqslant4750$，即</p>\n$$\n25n(n+9)\\geqslant4750\\iff n^{2}+9n-190\\geqslant0\\iff(n-10)(n+19)\\geqslant0\n$$\n<p>由于 $n$ 为正整数，最小的 $n$ 是 $10$. 第10年为 $2004+9=2013$ 年，所以到 $2013$ 年底首次达到要求.</p></li><li><p>所求比例首次大于 $85\\%$，即</p>\n$$\n\\frac{250+50(n-1)}{400(1.08)^{n-1}}>0.85\n$$\n<p>记 $r_{n}=\\dfrac{a_n}{b_n}$. 因为 $1.08=\\dfrac{27}{25}$，且当 $n=1$，$\\dots$，$8$ 时</p>\n$$\n\\frac{r_{n+1}}{r_{n}}=\\frac{n+5}{1.08(n+4)}=\\frac{25(n+5)}{27(n+4)}>1\n$$\n<p>所以 $r_{1}$，$r_{2}$，$\\dots$，$r_{9}$ 依次递增. 又</p>\n$$\nr_{5}=\\frac{450}{400(1.08)^{4}}=\\frac{9}{8}\\left(\\frac{25}{27}\\right)^{4}<\\frac{17}{20}=0.85\n$$\n<p>而</p>\n$$\nr_{6}=\\frac{500}{400(1.08)^{5}}=\\frac{5}{4}\\left(\\frac{25}{27}\\right)^{5}>\\frac{17}{20}=0.85\n$$\n<p>因此最小的 $n$ 为 $6$，即到 $2009$ 年底首次大于 $85\\%$.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>已知抛物线 $y^{2}= 2px$ （$p > 0$）的焦点为 $F$，$A$ 是抛物线上横坐标为 $4$，且位于 $x$ 轴上方的点，$A$ 到抛物线准线的距离等于 $5$. 过 $A$ 作 $AB$ 垂直于 $y$ 轴，垂足为 $B$，$OB$ 的中点为 $M$.</p><ol class=\"enumerate\"><li><p>求抛物线方程；</p></li><li><p>过 $M$ 作 $MN \\perp FA$，垂足为 $N$，求点 $N$ 的坐标；</p></li><li><p>以 $M$ 为圆心，$MB$ 为半径作圆 $M$，当 $K(m,0)$ 是 $x$ 轴上一动点时，讨论直线 $AK$ 与圆 $M$ 的位置关系.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=2px$ 的准线为 $x=-\\frac{p}{2}$. 点 $A$ 的横坐标为 $4$，其到准线的距离为 $4+\\frac{p}{2}=5$，所以 $p=2$，抛物线方程为 $y^{2}=4x$. 由于 $A$ 在 $x$ 轴上方且横坐标为 $4$，得 $A=(4,4)$，焦点为 $F=(1,0)$. 又 $AB\\perp y$ 轴，故 $B=(0,4)$，从而 $M=(0,2)$.</p></li><li><p>直线 $FA$ 的斜率为 $\\frac{4}{3}$，所以过 $M$ 且垂直于 $FA$ 的直线 $MN$ 方程为</p>\n$$\ny-2=-\\frac{3}{4}x\n$$\n<p>直线 $FA$ 方程为 $y=\\frac{4}{3}(x-1)$. 联立两式，得</p>\n$$\n\\frac{4}{3}(x-1)=2-\\frac{3}{4}x\\iff25x=40\\iff x=\\frac{8}{5}\n$$\n<p>代回得 $y=\\frac{4}{5}$. 所以 $N\\left(\\frac{8}{5},\\frac{4}{5}\\right)$.</p></li><li><p>圆 $M$ 的圆心为 $M=(0,2)$，半径为 $MB=2$. 当 $m=4$ 时，直线 $AK$ 为 $x=4$，圆心到该直线的距离为 $4>2$，所以相离.</p><p>当 $m\\neq4$ 时，过 $A=(4,4)$，$K=(m,0)$ 的直线方程为</p>\n$$\n4x-(4-m)y-4m=0\n$$\n<p>圆心 $M$ 到该直线的距离为</p>\n$$\nd=\\frac{|4\\times0-(4-m)\\times2-4m|}{\\sqrt{16+(4-m)^{2}}}=\\frac{2|m+4|}{\\sqrt{16+(m-4)^{2}}}\n$$\n<p>与半径比较：</p>\n$$\nd&#x3C;2\\iff (m+4)^{2}&#x3C;16+(m-4)^{2}\\iff m&#x3C;1\n$$\n\n$$\nd=2\\iff m=1\n$$\n\n$$\nd>2\\iff m>1\n$$\n<p>因此，当 $m&#x3C;1$ 时相交；当 $m=1$ 时相切；当 $m>1$ 时相离，其中 $m=4$ 已包含在 $m>1$ 的相离情形中.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=2px$ 的准线为 $x=-\\frac{p}{2}$. 点 $A$ 的横坐标为 $4$，其到准线的距离为 $4+\\frac{p}{2}=5$，所以 $p=2$，抛物线方程为 $y^{2}=4x$. 由于 $A$ 在 $x$ 轴上方且横坐标为 $4$，得 $A=(4,4)$，焦点为 $F=(1,0)$. 又 $AB\\perp y$ 轴，故 $B=(0,4)$，从而 $M=(0,2)$.</p></li><li><p>直线 $FA$ 的斜率为 $\\frac{4}{3}$，所以过 $M$ 且垂直于 $FA$ 的直线 $MN$ 方程为</p>\n$$\ny-2=-\\frac{3}{4}x\n$$\n<p>直线 $FA$ 方程为 $y=\\frac{4}{3}(x-1)$. 联立两式，得</p>\n$$\n\\frac{4}{3}(x-1)=2-\\frac{3}{4}x\\iff25x=40\\iff x=\\frac{8}{5}\n$$\n<p>代回得 $y=\\frac{4}{5}$. 所以 $N\\left(\\frac{8}{5},\\frac{4}{5}\\right)$.</p></li><li><p>圆 $M$ 的圆心为 $M=(0,2)$，半径为 $MB=2$. 当 $m=4$ 时，直线 $AK$ 为 $x=4$，圆心到该直线的距离为 $4>2$，所以相离.</p><p>当 $m\\neq4$ 时，过 $A=(4,4)$，$K=(m,0)$ 的直线方程为</p>\n$$\n4x-(4-m)y-4m=0\n$$\n<p>圆心 $M$ 到该直线的距离为</p>\n$$\nd=\\frac{|4\\times0-(4-m)\\times2-4m|}{\\sqrt{16+(4-m)^{2}}}=\\frac{2|m+4|}{\\sqrt{16+(m-4)^{2}}}\n$$\n<p>与半径比较：</p>\n$$\nd<2\\iff (m+4)^{2}<16+(m-4)^{2}\\iff m<1\n$$\n\n$$\nd=2\\iff m=1\n$$\n\n$$\nd>2\\iff m>1\n$$\n<p>因此，当 $m<1$ 时相交；当 $m=1$ 时相切；当 $m>1$ 时相离，其中 $m=4$ 已包含在 $m>1$ 的相离情形中.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "<p>对定义域是 $D_{f}$，$D_{g}$ 的函数 $y = f(x)$，$y = g(x)$，规定：函数</p><p>$h(x) = \\begin{cases}f(x)g(x),&#x26;\\text{当 }x \\in D_{f} \\text{ 且 }x \\in D_{g},\\\\  f(x),&#x26;\\text{当 }x \\in D_{f} \\text{ 且 }x \\notin D_{g},\\\\  g(x),&#x26;\\text{当 }x \\notin D_{f} \\text{ 且 }x \\in D_{g}.\\end{cases}$</p><ol class=\"enumerate\"><li><p>若函数 $f(x) = -2x + 3$，$x \\ge 1$，$g(x) = x - 2$，$x \\in \\mathbb{R}$，写出函数 $h(x)$ 的解析式；</p></li><li><p>求问题（1）中函数 $h(x)$ 的最大值；</p></li><li><p>若 $g(x) = f(x + \\alpha)$，其中 $\\alpha$ 是常数，且 $\\alpha \\in [0,\\pi]$，请设计一个定义域为 $\\mathbb{R}$ 的函数 $y = f(x)$，及一个 $\\alpha$ 的值，使得 $h(x) = \\cos 4x$，并予以证明.</p></li></ol>",
+          "body": "<p>对定义域是 $D_{f}$，$D_{g}$ 的函数 $y = f(x)$，$y = g(x)$，规定：函数</p><p>$h(x) = \\begin{cases}f(x)g(x),&\\text{当 }x \\in D_{f} \\text{ 且 }x \\in D_{g},\\\\  f(x),&\\text{当 }x \\in D_{f} \\text{ 且 }x \\notin D_{g},\\\\  g(x),&\\text{当 }x \\notin D_{f} \\text{ 且 }x \\in D_{g}.\\end{cases}$</p><ol class=\"enumerate\"><li><p>若函数 $f(x) = -2x + 3$，$x \\ge 1$，$g(x) = x - 2$，$x \\in \\mathbb{R}$，写出函数 $h(x)$ 的解析式；</p></li><li><p>求问题（1）中函数 $h(x)$ 的最大值；</p></li><li><p>若 $g(x) = f(x + \\alpha)$，其中 $\\alpha$ 是常数，且 $\\alpha \\in [0,\\pi]$，请设计一个定义域为 $\\mathbb{R}$ 的函数 $y = f(x)$，及一个 $\\alpha$ 的值，使得 $h(x) = \\cos 4x$，并予以证明.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>这里 $D_{f}=[1,+\\infty)$，$D_{g}=\\mathbb{R}$. 当 $x\\geqslant1$ 时，两个函数都有定义，故</p>\n$$\nh(x)=f(x)g(x)=(-2x+3)(x-2)\n$$\n<p>当 $x&#x3C;1$ 时，只有 $g$ 有定义，故 $h(x)=g(x)=x-2$. 因此</p>\n$$\nh(x)=\\begin{cases}(-2x+3)(x-2),&#x26;x\\in[1,+\\infty),\\\\  x-2,&#x26;x\\in(-\\infty,1).\\end{cases}\n$$\n</li><li><p>当 $x\\geqslant1$ 时，</p>\n$$\nh(x)=(-2x+3)(x-2)=-2x^{2}+7x-6=-2\\left(x-\\frac{7}{4}\\right)^{2}+\\frac{1}{8}\\le\\frac{1}{8}\n$$\n<p>且在 $x=\\frac{7}{4}$ 时取等号. 当 $x&#x3C;1$ 时，$h(x)=x-2&#x3C;-1&#x3C;\\frac{1}{8}$. 所以函数 $h(x)$ 的最大值为 $\\frac{1}{8}$.</p></li><li><p>取定义域为 $\\mathbb{R}$ 的函数</p>\n$$\nf(x)=\\sin2x+\\cos2x\n$$\n<p>并取 $\\alpha=\\frac{\\pi}{4}$. 则 $g(x)=f(x+\\alpha)$，且 $D_{f}=D_{g}=\\mathbb{R}$，所以对任意 $x\\in\\mathbb{R}$，</p>\n$$\nh(x)=f(x)g(x)=f(x)f\\left(x+\\frac{\\pi}{4}\\right)\n$$\n<p>又因为</p>\n$$\ng(x)=f\\left(x+\\frac{\\pi}{4}\\right)=\\sin\\left(2x+\\frac{\\pi}{2}\\right)+\\cos\\left(2x+\\frac{\\pi}{2}\\right)=\\cos2x-\\sin2x\n$$\n<p>所以</p>\n$$\nh(x)=(\\sin2x+\\cos2x)(\\cos2x-\\sin2x)=\\cos^{2}2x-\\sin^{2}2x=\\cos4x\n$$\n<p>因此该函数和 $\\alpha$ 满足题设要求.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>这里 $D_{f}=[1,+\\infty)$，$D_{g}=\\mathbb{R}$. 当 $x\\geqslant1$ 时，两个函数都有定义，故</p>\n$$\nh(x)=f(x)g(x)=(-2x+3)(x-2)\n$$\n<p>当 $x<1$ 时，只有 $g$ 有定义，故 $h(x)=g(x)=x-2$. 因此</p>\n$$\nh(x)=\\begin{cases}(-2x+3)(x-2),&x\\in[1,+\\infty),\\\\  x-2,&x\\in(-\\infty,1).\\end{cases}\n$$\n</li><li><p>当 $x\\geqslant1$ 时，</p>\n$$\nh(x)=(-2x+3)(x-2)=-2x^{2}+7x-6=-2\\left(x-\\frac{7}{4}\\right)^{2}+\\frac{1}{8}\\le\\frac{1}{8}\n$$\n<p>且在 $x=\\frac{7}{4}$ 时取等号. 当 $x<1$ 时，$h(x)=x-2<-1<\\frac{1}{8}$. 所以函数 $h(x)$ 的最大值为 $\\frac{1}{8}$.</p></li><li><p>取定义域为 $\\mathbb{R}$ 的函数</p>\n$$\nf(x)=\\sin2x+\\cos2x\n$$\n<p>并取 $\\alpha=\\frac{\\pi}{4}$. 则 $g(x)=f(x+\\alpha)$，且 $D_{f}=D_{g}=\\mathbb{R}$，所以对任意 $x\\in\\mathbb{R}$，</p>\n$$\nh(x)=f(x)g(x)=f(x)f\\left(x+\\frac{\\pi}{4}\\right)\n$$\n<p>又因为</p>\n$$\ng(x)=f\\left(x+\\frac{\\pi}{4}\\right)=\\sin\\left(2x+\\frac{\\pi}{2}\\right)+\\cos\\left(2x+\\frac{\\pi}{2}\\right)=\\cos2x-\\sin2x\n$$\n<p>所以</p>\n$$\nh(x)=(\\sin2x+\\cos2x)(\\cos2x-\\sin2x)=\\cos^{2}2x-\\sin^{2}2x=\\cos4x\n$$\n<p>因此该函数和 $\\alpha$ 满足题设要求.</p></li></ol>"
         }
       ]
     }

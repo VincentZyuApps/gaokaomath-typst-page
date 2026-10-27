@@ -9,15 +9,15 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $M=\\{x\\mid -3&#x3C;x&#x3C;1\\}$，$N=\\{x\\mid -1\\le x&#x3C;4\\}$，则 $M\\cup N=$（ ）",
+          "body": "已知集合 $M=\\{x\\mid -3<x<1\\}$，$N=\\{x\\mid -1\\le x<4\\}$，则 $M\\cup N=$（ ）",
           "choices": [
-            "$\\{x\\mid -1\\le x&#x3C;1\\}$",
+            "$\\{x\\mid -1\\le x<1\\}$",
             "$\\{x\\mid x>-3\\}$",
-            "$\\{x\\mid -3&#x3C;x&#x3C;4\\}$",
-            "$\\{x\\mid x&#x3C;4\\}$"
+            "$\\{x\\mid -3<x<4\\}$",
+            "$\\{x\\mid x<4\\}$"
           ],
           "answer": "C",
-          "solution": "$M\\cup N=\\{x\\mid-3&#x3C;x&#x3C;1\\}\\cup\\{x\\mid-1\\le x&#x3C;4\\}=\\{x\\mid-3&#x3C;x&#x3C;4\\}$. 故选 C."
+          "solution": "$M\\cup N=\\{x\\mid-3<x<1\\}\\cup\\{x\\mid-1\\le x<4\\}=\\{x\\mid-3<x<4\\}$. 故选 C."
         },
         {
           "num": 2,
@@ -107,9 +107,9 @@
           "num": 9,
           "body": "已知 $(x_{1},y_{1})$，$(x_{2},y_{2})$ 是函数 $y=2^{x}$ 的图象上两个不同的点，则（ ）",
           "choices": [
-            "$\\log_{2} \\frac{y_{1}+y_{2}}{2}&#x3C;\\frac{x_{1}+x_{2}}{2}$",
+            "$\\log_{2} \\frac{y_{1}+y_{2}}{2}<\\frac{x_{1}+x_{2}}{2}$",
             "$\\log_{2} \\frac{y_{1}+y_{2}}{2}>\\frac{x_{1}+x_{2}}{2}$",
-            "$\\log_{2} \\frac{y_{1}+y_{2}}{2}&#x3C;x_{1}+x_{2}$",
+            "$\\log_{2} \\frac{y_{1}+y_{2}}{2}<x_{1}+x_{2}$",
             "$\\log_{2} \\frac{y_{1}+y_{2}}{2}>x_{1}+x_{2}$"
           ],
           "answer": "B",
@@ -119,13 +119,13 @@
           "num": 10,
           "body": "已知 $M=\\left\\{ (x,y)\\mid y=x+t\\left( x^{2}-x \\right),\\,1\\le x\\le 2,\\,0\\le t\\le 1 \\right\\}$ 是平面直角坐标系中的点集. 设 $d$ 是 $M$ 中两点间距离的最大值，$S$ 是 $M$ 表示的图形的面积，则（ ）",
           "choices": [
-            "$d=3$，$S&#x3C;1$",
+            "$d=3$，$S<1$",
             "$d=3$，$S>1$",
-            "$d=\\sqrt{10}$，$S&#x3C;1$",
+            "$d=\\sqrt{10}$，$S<1$",
             "$d=\\sqrt{10}$，$S>1$"
           ],
           "answer": "C",
-          "solution": "当 $1\\le x\\leqslant2$ 时 $x^{2}-x\\geqslant0$，故 $M$ 是直线 $y=x$ 与抛物线 $y=x^{2}$ 在 $1\\le x\\leqslant2$ 之间所夹的区域. 区域的顶点为 $(1,1)$，$(2,2)$，$(2,4)$，其中最远两点为 $(1,1)$ 与 $(2,4)$，得 $d=\\sqrt{10}$. 面积为 $\\int_{1}^{2}(x^{2}-x)\\,\\mathrm{d}x=\\dfrac{5}{6}&#x3C;1$. 故选 C."
+          "solution": "当 $1\\le x\\leqslant2$ 时 $x^{2}-x\\geqslant0$，故 $M$ 是直线 $y=x$ 与抛物线 $y=x^{2}$ 在 $1\\le x\\leqslant2$ 之间所夹的区域. 区域的顶点为 $(1,1)$，$(2,2)$，$(2,4)$，其中最远两点为 $(1,1)$ 与 $(2,4)$，得 $d=\\sqrt{10}$. 面积为 $\\int_{1}^{2}(x^{2}-x)\\,\\mathrm{d}x=\\dfrac{5}{6}<1$. 故选 C."
         }
       ]
     },
@@ -202,10 +202,10 @@
         },
         {
           "num": 20,
-          "body": "<p>设函数 $f(x)=x+k\\ln(1+x)$（$k\\ne 0$），直线 $l$ 是曲线 $y=f(x)$ 在点 $(t,f(t))$（$t>0$）处的切线.</p><ol class=\"enumerate\"><li><p>当 $k=-1$ 时，求 $f(x)$ 的单调区间；</p></li><li><p>求证：$l$ 不经过点 $(0,0)$；</p></li><li><p>当 $k=1$ 时，设点 $A(t,f(t))$（$t>0$），$C(0,f(t))$，$O(0,0)$，$B$ 为 $l$ 与 $y$ 轴的交点，$S_{\\triangle ACO}$ 与 $S_{\\triangle ABO}$ 分别表示 $\\triangle ACO$ 与 $\\triangle ABO$ 的面积. 是否存在点 $A$ 使得 $2S_{\\triangle ACO}=15S_{\\triangle ABO}$ 成立？若存在，这样的点 $A$ 有几个？</p></li></ol><p>（参考数据：$1.09&#x3C;\\ln 3&#x3C;1.10$，$1.60&#x3C;\\ln 5&#x3C;1.61$，$1.94&#x3C;\\ln 7&#x3C;1.95$）</p>",
+          "body": "<p>设函数 $f(x)=x+k\\ln(1+x)$（$k\\ne 0$），直线 $l$ 是曲线 $y=f(x)$ 在点 $(t,f(t))$（$t>0$）处的切线.</p><ol class=\"enumerate\"><li><p>当 $k=-1$ 时，求 $f(x)$ 的单调区间；</p></li><li><p>求证：$l$ 不经过点 $(0,0)$；</p></li><li><p>当 $k=1$ 时，设点 $A(t,f(t))$（$t>0$），$C(0,f(t))$，$O(0,0)$，$B$ 为 $l$ 与 $y$ 轴的交点，$S_{\\triangle ACO}$ 与 $S_{\\triangle ABO}$ 分别表示 $\\triangle ACO$ 与 $\\triangle ABO$ 的面积. 是否存在点 $A$ 使得 $2S_{\\triangle ACO}=15S_{\\triangle ABO}$ 成立？若存在，这样的点 $A$ 有几个？</p></li></ol><p>（参考数据：$1.09<\\ln 3<1.10$，$1.60<\\ln 5<1.61$，$1.94<\\ln 7<1.95$）</p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $k=-1$ 时，$f(x)=x-\\ln(1+x)$（$x>-1$），$f'(x)=1-\\dfrac1{1+x}=\\dfrac{x}{1+x}$. 故 $f(x)$ 在 $(-1,0)$ 上单调递减，在 $(0,+\\infty)$ 上单调递增.</p></li><li><p>切线 $l$ 为 $y-f(t)=f'(t)(x-t)$，其中 $f'(t)=1+\\dfrac{k}{1+t}$. 若 $l$ 经过 $(0,0)$，则 $f(t)=tf'(t)$，即 $k\\ln(1+t)=\\dfrac{kt}{1+t}$. 因 $k\\ne0$，即 $\\ln(1+t)=\\dfrac{t}{1+t}$. 记 $\\varphi(t)=\\ln(1+t)-\\dfrac{t}{1+t}$（$t>0$），则 $\\varphi(0)=0$ 且 $\\varphi'(t)=\\dfrac{t}{(1+t)^2}>0$，故 $\\varphi(t)>0$ 恒成立，等式永不成立. 因此 $l$ 不经过点 $(0,0)$.</p></li><li><p>当 $k=1$ 时，$f(t)=t+\\ln(1+t)$. $AC$ 水平长为 $t$，$CO$ 长为 $f(t)$，故 $S_{\\triangle ACO}=\\dfrac{1}{2}tf(t)$. 切线交 $y$ 轴于 $B=(0,f(t)-tf'(t))$，其中 $f(t)-tf'(t)=\\ln(1+t)-\\dfrac{t}{1+t}=\\varphi(t)>0$，故 $S_{\\triangle ABO}=\\dfrac{1}{2}t\\varphi(t)$. 条件 $2S_{\\triangle ACO}=15S_{\\triangle ABO}$ 化为 $2(t+L)=15\\left(L-\\dfrac{t}{1+t}\\right)$（$L=\\ln(1+t)$），即 $\\psi(t)=13(1+t)L-t(2t+17)=0$. $\\psi(0)=0$，$\\psi'(t)=13L-4t-4$，$\\psi'(0)=-4&#x3C;0$，$\\psi''(t)=\\dfrac{9-4t}{1+t}$. 故 $\\psi'$ 在 $\\left(0,\\dfrac{9}{4}\\right)$ 上严格递增，在 $\\left(\\dfrac{9}{4},+\\infty\\right)$ 上严格递减；由 $\\psi'(2)=13\\ln3-12>13\\times1.09-12>0$ 知 $\\psi'$ 恰有两个零点 $t_{0}&#x3C;t_{1}$，$\\psi$ 先减后增再减. 又 $\\psi$ 在 $\\left(0,\\dfrac{4}{9}\\right]$ 上严格递减（此处 $\\ln(1+t)\\le t$ 给出 $\\psi'\\leqslant9t-4&#x3C;0$），$\\psi(2)=39\\ln3-42>39\\times1.09-42>0$，$\\psi(6)=91\\ln7-174>91\\times1.94-174>0$，而 $\\psi(t)\\to-\\infty$（$t\\to+\\infty$）. 又 $\\psi'(6)=13\\ln7-28&#x3C;13\\times1.95-28&#x3C;0$，故 $t_{1}&#x3C;6$，$\\psi(t_{1})\\ge\\psi(6)>0$. 于是 $\\psi$ 在 $(t_{0},t_{1}]$ 与 $(t_{1},+\\infty)$ 内各恰有一个零点. 因此存在这样的点 $A$，且有 $2$ 个.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $k=-1$ 时，$f(x)=x-\\ln(1+x)$（$x>-1$），$f'(x)=1-\\dfrac1{1+x}=\\dfrac{x}{1+x}$. 故 $f(x)$ 在 $(-1,0)$ 上单调递减，在 $(0,+\\infty)$ 上单调递增.</p></li><li><p>切线 $l$ 为 $y-f(t)=f'(t)(x-t)$，其中 $f'(t)=1+\\dfrac{k}{1+t}$. 若 $l$ 经过 $(0,0)$，则 $f(t)=tf'(t)$，即 $k\\ln(1+t)=\\dfrac{kt}{1+t}$. 因 $k\\ne0$，即 $\\ln(1+t)=\\dfrac{t}{1+t}$. 记 $\\varphi(t)=\\ln(1+t)-\\dfrac{t}{1+t}$（$t>0$），则 $\\varphi(0)=0$ 且 $\\varphi'(t)=\\dfrac{t}{(1+t)^2}>0$，故 $\\varphi(t)>0$ 恒成立，等式永不成立. 因此 $l$ 不经过点 $(0,0)$.</p></li><li><p>当 $k=1$ 时，$f(t)=t+\\ln(1+t)$. $AC$ 水平长为 $t$，$CO$ 长为 $f(t)$，故 $S_{\\triangle ACO}=\\dfrac{1}{2}tf(t)$. 切线交 $y$ 轴于 $B=(0,f(t)-tf'(t))$，其中 $f(t)-tf'(t)=\\ln(1+t)-\\dfrac{t}{1+t}=\\varphi(t)>0$，故 $S_{\\triangle ABO}=\\dfrac{1}{2}t\\varphi(t)$. 条件 $2S_{\\triangle ACO}=15S_{\\triangle ABO}$ 化为 $2(t+L)=15\\left(L-\\dfrac{t}{1+t}\\right)$（$L=\\ln(1+t)$），即 $\\psi(t)=13(1+t)L-t(2t+17)=0$. $\\psi(0)=0$，$\\psi'(t)=13L-4t-4$，$\\psi'(0)=-4<0$，$\\psi''(t)=\\dfrac{9-4t}{1+t}$. 故 $\\psi'$ 在 $\\left(0,\\dfrac{9}{4}\\right)$ 上严格递增，在 $\\left(\\dfrac{9}{4},+\\infty\\right)$ 上严格递减；由 $\\psi'(2)=13\\ln3-12>13\\times1.09-12>0$ 知 $\\psi'$ 恰有两个零点 $t_{0}<t_{1}$，$\\psi$ 先减后增再减. 又 $\\psi$ 在 $\\left(0,\\dfrac{4}{9}\\right]$ 上严格递减（此处 $\\ln(1+t)\\le t$ 给出 $\\psi'\\leqslant9t-4<0$），$\\psi(2)=39\\ln3-42>39\\times1.09-42>0$，$\\psi(6)=91\\ln7-174>91\\times1.94-174>0$，而 $\\psi(t)\\to-\\infty$（$t\\to+\\infty$）. 又 $\\psi'(6)=13\\ln7-28<13\\times1.95-28<0$，故 $t_{1}<6$，$\\psi(t_{1})\\ge\\psi(6)>0$. 于是 $\\psi$ 在 $(t_{0},t_{1}]$ 与 $(t_{1},+\\infty)$ 内各恰有一个零点. 因此存在这样的点 $A$，且有 $2$ 个.</p></li></ol>"
         },
         {
           "num": 21,

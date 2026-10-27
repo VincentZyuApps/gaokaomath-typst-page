@@ -11,13 +11,13 @@
           "num": 1,
           "body": "不等式 $\\frac{x - 1}{x - 3}> 0$ 的解集为（ ）",
           "choices": [
-            "$\\{x \\mid x &#x3C; 1\\}$",
+            "$\\{x \\mid x < 1\\}$",
             "$\\{x \\mid x > 3\\}$",
-            "$\\{x \\mid x &#x3C; 1 \\text{或}x > 3\\}$",
-            "$\\{x \\mid 1 &#x3C; x &#x3C; 3\\}$"
+            "$\\{x \\mid x < 1 \\text{或}x > 3\\}$",
+            "$\\{x \\mid 1 < x < 3\\}$"
           ],
           "answer": "C",
-          "solution": "<p>不等式的定义域为 $x\\ne3$. 分子和分母的零点分别为 $x=1$ 和 $x=3$，将数轴分为</p><p>$(-\\infty,1)$，$(1,3)$，$(3,+\\infty)$.</p><p>当 $x&#x3C;1$ 时，$x-1&#x3C;0$，$x-3&#x3C;0$，分式为正；当 $1&#x3C;x&#x3C;3$ 时，分子为正、分母为负，分式为负；当 $x>3$ 时，分子和分母都为正，分式为正. $x=1$ 不能使严格不等式成立，$x=3$ 不在定义域内，所以解集为 $(-\\infty,1)\\cup(3,+\\infty)$，故选 C.</p>"
+          "solution": "<p>不等式的定义域为 $x\\ne3$. 分子和分母的零点分别为 $x=1$ 和 $x=3$，将数轴分为</p><p>$(-\\infty,1)$，$(1,3)$，$(3,+\\infty)$.</p><p>当 $x<1$ 时，$x-1<0$，$x-3<0$，分式为正；当 $1<x<3$ 时，分子为正、分母为负，分式为负；当 $x>3$ 时，分子和分母都为正，分式为正. $x=1$ 不能使严格不等式成立，$x=3$ 不在定义域内，所以解集为 $(-\\infty,1)\\cup(3,+\\infty)$，故选 C.</p>"
         },
         {
           "num": 2,
@@ -53,7 +53,7 @@
             "$(0, +\\infty)$"
           ],
           "answer": "A",
-          "solution": "<p>由于 $f(x)=\\log_{2a}(x+1)$ 在所给区间有定义，必须有 $2a>0$ 且 $2a\\ne1$. 对任意 $x\\in(-1,0)$，都有 $0&#x3C;x+1&#x3C;1$，所以 $\\ln(x+1)&#x3C;0$. 当底数 $0&#x3C;2a&#x3C;1$ 时，对数函数在正数范围内为减函数，故</p>\n$$\n\\log_{2a}(x+1)>\\log_{2a}1=0\n$$\n<p>若 $2a>1$，则 $\\log_{2a}(x+1)&#x3C;0$，不符合题意. 因而 $0&#x3C;2a&#x3C;1$，即 $0&#x3C;a&#x3C;\\frac{1}{2}$，故选 A.</p>"
+          "solution": "<p>由于 $f(x)=\\log_{2a}(x+1)$ 在所给区间有定义，必须有 $2a>0$ 且 $2a\\ne1$. 对任意 $x\\in(-1,0)$，都有 $0<x+1<1$，所以 $\\ln(x+1)<0$. 当底数 $0<2a<1$ 时，对数函数在正数范围内为减函数，故</p>\n$$\n\\log_{2a}(x+1)>\\log_{2a}1=0\n$$\n<p>若 $2a>1$，则 $\\log_{2a}(x+1)<0$，不符合题意. 因而 $0<2a<1$，即 $0<a<\\frac{1}{2}$，故选 A.</p>"
         },
         {
           "num": 5,
@@ -65,7 +65,7 @@
             "$\\frac{11\\pi}{6}$"
           ],
           "answer": "B",
-          "solution": "<p>先求倒数：</p>\n$$\n\\frac{1}{z}=\\frac{\\sqrt{2}-\\sqrt{6}\\mathrm{i}}{(\\sqrt{2})^{2}+(\\sqrt{6})^{2}}=\\frac{\\sqrt{2}-\\sqrt{6}\\mathrm{i}}{8}\n$$\n<p>该复数的实部为正、虚部为负，位于第四象限，且其辐角的锐角满足</p><p>$\\tan\\theta=\\frac{\\sqrt{6}}{\\sqrt{2}}=\\sqrt{3}$，$\\theta=\\frac{\\pi}{3}$.</p><p>因此在 $0\\le\\arg z&#x3C;2\\pi$ 的约定下，</p>\n$$\n\\arg\\frac{1}{z}=2\\pi-\\frac{\\pi}{3}=\\frac{5\\pi}{3}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>先求倒数：</p>\n$$\n\\frac{1}{z}=\\frac{\\sqrt{2}-\\sqrt{6}\\mathrm{i}}{(\\sqrt{2})^{2}+(\\sqrt{6})^{2}}=\\frac{\\sqrt{2}-\\sqrt{6}\\mathrm{i}}{8}\n$$\n<p>该复数的实部为正、虚部为负，位于第四象限，且其辐角的锐角满足</p><p>$\\tan\\theta=\\frac{\\sqrt{6}}{\\sqrt{2}}=\\sqrt{3}$，$\\theta=\\frac{\\pi}{3}$.</p><p>因此在 $0\\le\\arg z<2\\pi$ 的约定下，</p>\n$$\n\\arg\\frac{1}{z}=2\\pi-\\frac{\\pi}{3}=\\frac{5\\pi}{3}\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 6,
@@ -77,19 +77,19 @@
             "$y = -\\log_{2} \\frac{1}{x - 1}$（$x \\in (1, 2]$）"
           ],
           "answer": "A",
-          "solution": "<p>由 $y=2^{-x}+1$ 得 $y-1=2^{-x}$，所以</p><p>$-x=\\log_{2}(y-1)$，$y=-\\log_{2}(y-1)=\\log_{2}\\frac{1}{y-1}$.</p><p>原函数的定义域为 $x>0$，且 $0&#x3C;2^{-x}&#x3C;1$，所以其值域为 $1&#x3C;y&#x3C;2$. 交换自变量与因变量的记号后，反函数为</p><p>$y=\\log_{2}\\frac{1}{x-1}$，$x\\in(1,2)$.</p><p>故选 A.</p>"
+          "solution": "<p>由 $y=2^{-x}+1$ 得 $y-1=2^{-x}$，所以</p><p>$-x=\\log_{2}(y-1)$，$y=-\\log_{2}(y-1)=\\log_{2}\\frac{1}{y-1}$.</p><p>原函数的定义域为 $x>0$，且 $0<2^{-x}<1$，所以其值域为 $1<y<2$. 交换自变量与因变量的记号后，反函数为</p><p>$y=\\log_{2}\\frac{1}{x-1}$，$x\\in(1,2)$.</p><p>故选 A.</p>"
         },
         {
           "num": 7,
-          "body": "若 $0 &#x3C; \\alpha &#x3C; \\beta &#x3C; \\frac{\\pi}{4}$，$\\sin \\alpha + \\cos \\alpha = a$，$\\sin \\beta + \\cos \\beta = b$，则（ ）",
+          "body": "若 $0 < \\alpha < \\beta < \\frac{\\pi}{4}$，$\\sin \\alpha + \\cos \\alpha = a$，$\\sin \\beta + \\cos \\beta = b$，则（ ）",
           "choices": [
             "$a > b$",
-            "$a &#x3C; b$",
-            "$ab &#x3C; 1$",
+            "$a < b$",
+            "$ab < 1$",
             "$ab > 2$"
           ],
           "answer": "B",
-          "solution": "<p>设 $h(x)=\\sin x+\\cos x$. 在 $0&#x3C;x&#x3C;\\frac{\\pi}{4}$ 时，</p>\n$$\nh'(x)=\\cos x-\\sin x>0\n$$\n<p>所以 $h(x)$ 在该区间内单调递增. 由 $0&#x3C;\\alpha&#x3C;\\beta&#x3C;\\frac{\\pi}{4}$，得</p>\n$$\na=h(\\alpha)&#x3C;h(\\beta)=b\n$$\n<p>故选 B.</p>"
+          "solution": "<p>设 $h(x)=\\sin x+\\cos x$. 在 $0<x<\\frac{\\pi}{4}$ 时，</p>\n$$\nh'(x)=\\cos x-\\sin x>0\n$$\n<p>所以 $h(x)$ 在该区间内单调递增. 由 $0<\\alpha<\\beta<\\frac{\\pi}{4}$，得</p>\n$$\na=h(\\alpha)<h(\\beta)=b\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 8,
@@ -113,7 +113,7 @@
             "②④"
           ],
           "answer": "C",
-          "solution": "<p>任取 $x_{1}&#x3C;x_{2}$，记 $F(x)=f(x)-g(x)$.</p><p>若 $f$，$g$ 都单调递增，取 $f(x)=x$，$g(x)=2x$，则 $F(x)=-x$ 单调递减，命题$①$不成立.</p><p>若 $f$ 单调递增、$g$ 单调递减，则</p>\n$$\nF(x_{2})-F(x_{1})=\\bigl(f(x_{2})-f(x_{1})\\bigr)+\\bigl(g(x_{1})-g(x_{2})\\bigr)\\geqslant0\n$$\n<p>所以 $F$ 单调递增，命题$②$成立.</p><p>若 $f$ 单调递减、$g$ 单调递增，则</p>\n$$\nF(x_{2})-F(x_{1})=\\bigl(f(x_{2})-f(x_{1})\\bigr)-\\bigl(g(x_{2})-g(x_{1})\\bigr)\\leqslant0\n$$\n<p>所以 $F$ 单调递减，命题$③$成立.</p><p>若 $f$，$g$ 都单调递减，取 $f(x)=-x$，$g(x)=-2x$，则 $F(x)=x$ 单调递增，命题$④$不成立. 因此正确的命题是$②$、$③$，故选 C.</p>"
+          "solution": "<p>任取 $x_{1}<x_{2}$，记 $F(x)=f(x)-g(x)$.</p><p>若 $f$，$g$ 都单调递增，取 $f(x)=x$，$g(x)=2x$，则 $F(x)=-x$ 单调递减，命题$①$不成立.</p><p>若 $f$ 单调递增、$g$ 单调递减，则</p>\n$$\nF(x_{2})-F(x_{1})=\\bigl(f(x_{2})-f(x_{1})\\bigr)+\\bigl(g(x_{1})-g(x_{2})\\bigr)\\geqslant0\n$$\n<p>所以 $F$ 单调递增，命题$②$成立.</p><p>若 $f$ 单调递减、$g$ 单调递增，则</p>\n$$\nF(x_{2})-F(x_{1})=\\bigl(f(x_{2})-f(x_{1})\\bigr)-\\bigl(g(x_{2})-g(x_{1})\\bigr)\\leqslant0\n$$\n<p>所以 $F$ 单调递减，命题$③$成立.</p><p>若 $f$，$g$ 都单调递减，取 $f(x)=-x$，$g(x)=-2x$，则 $F(x)=x$ 单调递增，命题$④$不成立. 因此正确的命题是$②$、$③$，故选 C.</p>"
         },
         {
           "num": 10,
@@ -125,7 +125,7 @@
             "$(0, 2)$"
           ],
           "answer": "B",
-          "solution": "<p>将抛物线 $y^{2}=4x$ 上的点参数化为</p><p>$Q(t^{2},2t)$，$t\\in\\mathbb{R}$.</p><p>于是</p>\n$$\n|PQ|^{2}=(t^{2}-a)^{2}+(2t)^{2}=a^{2}+t^{2}\\left(t^{2}+4-2a\\right)\n$$\n<p>题设要求对任意 $t\\in\\mathbb{R}$ 都有 $|PQ|^{2}\\ge a^{2}$. 若 $a\\leqslant2$，则 $t^{2}+4-2a\\geqslant0$，条件成立. 若 $a>2$，取满足 $0&#x3C;t^{2}&#x3C;2a-4$ 的 $t$，则 $t^{2}+4-2a&#x3C;0$，从而 $|PQ|^{2}&#x3C;a^{2}$，与题设矛盾. 所以 $a\\leqslant2$，故选 B.</p>"
+          "solution": "<p>将抛物线 $y^{2}=4x$ 上的点参数化为</p><p>$Q(t^{2},2t)$，$t\\in\\mathbb{R}$.</p><p>于是</p>\n$$\n|PQ|^{2}=(t^{2}-a)^{2}+(2t)^{2}=a^{2}+t^{2}\\left(t^{2}+4-2a\\right)\n$$\n<p>题设要求对任意 $t\\in\\mathbb{R}$ 都有 $|PQ|^{2}\\ge a^{2}$. 若 $a\\leqslant2$，则 $t^{2}+4-2a\\geqslant0$，条件成立. 若 $a>2$，取满足 $0<t^{2}<2a-4$ 的 $t$，则 $t^{2}+4-2a<0$，从而 $|PQ|^{2}<a^{2}$，与题设矛盾. 所以 $a\\leqslant2$，故选 B.</p>"
         },
         {
           "num": 11,
@@ -212,10 +212,10 @@
         },
         {
           "num": 20,
-          "body": "设计一幅宣传画，要求画面面积为 $4840 \\mathrm{~cm}^{2}$，画面的宽与高的比为 $\\lambda$（$\\lambda &#x3C; 1$），画面的上、下各留 $8 \\mathrm{~cm}$ 空白，左、右各留 $5 \\mathrm{~cm}$ 空白. 怎样确定画面的高与宽尺寸，能使宣传画所用纸张面积最小？如果要求 $\\lambda \\in \\left[\\frac{2}{3}, \\frac{3}{4}\\right]$，那么 $\\lambda$ 为何值时，能使宣传画所用纸张面积最小？",
+          "body": "设计一幅宣传画，要求画面面积为 $4840 \\mathrm{~cm}^{2}$，画面的宽与高的比为 $\\lambda$（$\\lambda < 1$），画面的上、下各留 $8 \\mathrm{~cm}$ 空白，左、右各留 $5 \\mathrm{~cm}$ 空白. 怎样确定画面的高与宽尺寸，能使宣传画所用纸张面积最小？如果要求 $\\lambda \\in \\left[\\frac{2}{3}, \\frac{3}{4}\\right]$，那么 $\\lambda$ 为何值时，能使宣传画所用纸张面积最小？",
           "choices": null,
           "answer": "",
-          "solution": "<p>设画面的高为 $h$，宽为 $w$，其中 $0&#x3C;\\lambda&#x3C;1$. 由 $wh=4840$，$\\frac{w}{h}=\\lambda$，可得</p><p>$h=\\sqrt{\\frac{4840}{\\lambda}}$，$w=\\sqrt{4840\\lambda}$.</p><p>纸张的宽为 $w+10$，高为 $h+16$，所以纸张面积为</p>\n$$\nP=(w+10)(h+16)=5000+16w+10h=5000+\\sqrt{4840}\\left(16\\sqrt{\\lambda}+\\frac{10}{\\sqrt{\\lambda}}\\right)\n$$\n<p>对 $\\lambda$ 求导，得</p>\n$$\nP'(\\lambda)=\\sqrt{4840}\\left(\\frac{8}{\\sqrt{\\lambda}}-\\frac{5}{\\lambda^{\\frac{3}{2}}}\\right)=\\frac{\\sqrt{4840}(8\\lambda-5)}{\\lambda^{\\frac{3}{2}}}\n$$\n<p>当 $0&#x3C;\\lambda&#x3C;\\frac{5}{8}$ 时，$P'(\\lambda)&#x3C;0$；当 $\\frac{5}{8}&#x3C;\\lambda&#x3C;1$ 时，$P'(\\lambda)>0$. 所以纸张面积在 $\\lambda=\\frac{5}{8}$ 时取得最小值. 此时</p><p>$h=\\sqrt{\\frac{4840}{\\frac{5}{8}}}=88$，$w=\\frac{5}{8}\\cdot88=55$.</p><p>即画面的高为 $88\\mathrm{~cm}$，宽为 $55\\mathrm{~cm}$.</p><p>若 $\\lambda\\in\\left[\\frac{2}{3},\\frac{3}{4}\\right]$，则整个区间都在 $\\left(\\frac{5}{8},1\\right)$ 内，故 $P'(\\lambda)>0$，纸张面积随 $\\lambda$ 增大而增大，最小值在左端点取得，即</p>\n$$\n\\lambda=\\frac{2}{3}\n$$"
+          "solution": "<p>设画面的高为 $h$，宽为 $w$，其中 $0<\\lambda<1$. 由 $wh=4840$，$\\frac{w}{h}=\\lambda$，可得</p><p>$h=\\sqrt{\\frac{4840}{\\lambda}}$，$w=\\sqrt{4840\\lambda}$.</p><p>纸张的宽为 $w+10$，高为 $h+16$，所以纸张面积为</p>\n$$\nP=(w+10)(h+16)=5000+16w+10h=5000+\\sqrt{4840}\\left(16\\sqrt{\\lambda}+\\frac{10}{\\sqrt{\\lambda}}\\right)\n$$\n<p>对 $\\lambda$ 求导，得</p>\n$$\nP'(\\lambda)=\\sqrt{4840}\\left(\\frac{8}{\\sqrt{\\lambda}}-\\frac{5}{\\lambda^{\\frac{3}{2}}}\\right)=\\frac{\\sqrt{4840}(8\\lambda-5)}{\\lambda^{\\frac{3}{2}}}\n$$\n<p>当 $0<\\lambda<\\frac{5}{8}$ 时，$P'(\\lambda)<0$；当 $\\frac{5}{8}<\\lambda<1$ 时，$P'(\\lambda)>0$. 所以纸张面积在 $\\lambda=\\frac{5}{8}$ 时取得最小值. 此时</p><p>$h=\\sqrt{\\frac{4840}{\\frac{5}{8}}}=88$，$w=\\frac{5}{8}\\cdot88=55$.</p><p>即画面的高为 $88\\mathrm{~cm}$，宽为 $55\\mathrm{~cm}$.</p><p>若 $\\lambda\\in\\left[\\frac{2}{3},\\frac{3}{4}\\right]$，则整个区间都在 $\\left(\\frac{5}{8},1\\right)$ 内，故 $P'(\\lambda)>0$，纸张面积随 $\\lambda$ 增大而增大，最小值在左端点取得，即</p>\n$$\n\\lambda=\\frac{2}{3}\n$$"
         },
         {
           "num": 21,

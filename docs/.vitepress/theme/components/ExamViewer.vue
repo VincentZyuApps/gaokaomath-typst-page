@@ -801,8 +801,27 @@ const CIRCLED_NUM_MAP: Record<string, string> = {
 
 // 原生交互文档辅助函数
 function cleanMathFormula(rawMath: string): string {
+  // 解码 HTML 实体，防止 &#x3C; (小于号) 或 &#x26; (与号) 导致 KaTeX 报错
+  let res = rawMath
+    .replace(/&#x3C;/g, '<')
+    .replace(/&#x3E;/g, '>')
+    .replace(/&#x26;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+  // 修复常见公式瑕疵宏
+  res = res.replace(/\\myarc\{([^}]+)\}/g, '\\overset{\\frown}{$1}');
+  res = res.replace(/\\rmfamily\b/g, '');
+  // 修复紧凑分数与公式内嵌汉字 $可得$
+  res = res.replace(/\\(frac|dfrac|cfrac)\s*\\(mathrm\{e\}|e\b|pi\b)\s*([0-9a-zA-Z])/g, '\\$1{\\mathrm{e}}{$3}');
+  res = res.replace(/\\(frac|dfrac|cfrac)\s*([0-9a-zA-Z])\s*\\(mathrm\{e\}|e\b|pi\b)/g, '\\$1{$2}{\\mathrm{e}}');
+  res = res.replace(/\$([\u4e00-\u9fa5]+)\$/g, '\\text{$1}');
+  res = res.replace(/\\e(?![a-zA-Z])/g, '\\mathrm{e}');
+  res = res.replace(/\\+\s*$/g, '');
+  res = res.replace(/\\mathrm\}\s*\{([a-zA-Z0-9]+)\}/g, (m, p1) => '\\mathrm{' + p1 + '}}');
+  res = res.replace(/\\mathrm\{\s*\}\{([a-zA-Z0-9]+)\}/g, (m, p1) => '\\mathrm{' + p1 + '}');
   // 将数学公式内部的连续下划线填空符如 _______ 或 _______ {} 替换为 KaTeX 标准下划线宏
-  let res = rawMath.replace(/_{2,}\s*(\{\s*\})?/g, '\\underline{\\hspace{2.5em}}');
+  res = res.replace(/_{2,}\s*(\{\s*\})?/g, '\\underline{\\hspace{2.5em}}');
   // 公式内部 \circled 宏转换为 Unicode 带圈字符
   res = res.replace(/\\circled\{?([0-9]+)\}?/g, (_, num) => CIRCLED_NUM_MAP[num] || `(${num})`);
   return res;
@@ -943,8 +962,10 @@ function parseCircleList(text: string): string {
 function renderMath(text: string): string {
   if (!text) return '';
 
-  // 0. 解析 LaTeX 表格环境为语义化 HTML Table
-  let s = parseLatexTable(text);
+  // 0. 剥离被错误包裹在数学公式中的 tabular 文本表格环境
+  let s = text.replace(/(\\[|\$\$|\\\()\s*(\\begin\{tabular\}[\s\S]*?\\end\{tabular\})\s*(\\]|\$\$|\\\))/g, (m, p1, p2) => p2);
+  // 0.1 解析 LaTeX 表格环境为语义化 HTML Table
+  s = parseLatexTable(s);
 
   // 0.2 解析并平铺 LaTeX enumerate / itemize 列表环境与清理排版宏
   s = parseLatexEnumerateAndLists(s);
@@ -952,7 +973,10 @@ function renderMath(text: string): string {
   // 0.3 解析 LaTeX circlelist 带圈列表环境
   s = parseCircleList(s);
 
-  // 0.5 智能公式升格: 将单美元符号 $...$ 内包裹的多行数学环境 (如 cases, matrix, pmatrix, aligned, array) 安全升格为块级公式 $$...$$
+  // 0.4 缝合被美元符号截断的 cases 多分支条件
+  s = s.replace(/&(?:s*\$)?s*（(?:s*\$)?([\s\S]*?)(?:s*\$)?s*）(?:s*\$)?/g, (m, p1) => '& \\text{（' + p1.replace(/\$/g, '').trim() + '）}');
+
+  // 0.5 智能公式升格: 将单美元符号 $...$ 内包裹的多行数学环境 (如 cases, matrix, pmatrix, aligned, array) 安全升格为块级公式 $...$
   s = s.replace(/\$((?:[^\$]|\\\$)*?\\begin\{(?:cases|matrix|pmatrix|vmatrix|bmatrix|aligned|array)\}(?:[^\$]|\\\$)*?\\end\{(?:cases|matrix|pmatrix|vmatrix|bmatrix|aligned|array)\}(?:[^\$]|\\\$)*?)\$/g, (_, mathContent) => {
     return `\n$$\n${mathContent.trim()}\n$$\n`;
   });
@@ -1159,7 +1183,14 @@ onMounted(async () => {
     if (res.ok) {
       manifestData.value = await res.json();
       if (manifestData.value?.pageCount !== undefined) pageCount.value = manifestData.value.pageCount;
-      if (manifestData.value?.questions) totalQuestions.value = manifestData.value.questions.length;
+      if (manifestData.value?.sections) {
+        totalQuestions.value = manifestData.value.sections.reduce(
+          (acc: number, sec: any) => acc + (sec.problems?.length || 0),
+          0
+        );
+      } else if (manifestData.value?.questions) {
+        totalQuestions.value = manifestData.value.questions.length;
+      }
 
       // manifest 加载完毕后，如果 URL 中有 q 和 sol，再次确认展开对应大题
       const params = new URLSearchParams(window.location.search);

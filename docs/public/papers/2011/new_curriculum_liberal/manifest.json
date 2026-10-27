@@ -65,7 +65,7 @@
             "$5040$"
           ],
           "answer": "B",
-          "solution": "初始时 $k=1$，$p=1$. 循环体先执行 $p\\leftarrow p\\cdot k$，再判断 $k&#x3C;N$：若成立，则令 $k\\leftarrow k+1$ 并返回循环体，否则输出 $p$. 输入 $N=6$ 时，$p$ 依次变为 $1$，$2$，$6$，$24$，$120$，$720$，此时 $k=6$，不满足 $k&#x3C;6$，所以输出 $p=720$，故选 B."
+          "solution": "初始时 $k=1$，$p=1$. 循环体先执行 $p\\leftarrow p\\cdot k$，再判断 $k<N$：若成立，则令 $k\\leftarrow k+1$ 并返回循环体，否则输出 $p$. 输入 $N=6$ 时，$p$ 依次变为 $1$，$2$，$6$，$24$，$120$，$720$，此时 $k=6$，不满足 $k<6$，所以输出 $p=720$，故选 B."
         },
         {
           "num": 6,
@@ -125,7 +125,7 @@
             "$\\left(\\frac{1}{2}, \\frac{3}{4}\\right)$"
           ],
           "answer": "C",
-          "solution": "<p>函数 $f(x)=\\mathrm{e}^{x}+4x-3$ 的导数为 $f'(x)=\\mathrm{e}^{x}+4>0$，所以 $f(x)$ 在 $\\mathbb{R}$ 上单调递增. 又 $1&#x3C;\\mathrm{e}&#x3C;16$，故</p><p>$f\\left(\\frac{1}{4}\\right)=\\mathrm{e}^{\\frac{1}{4}}-2&#x3C;0$，而</p><p>$f\\left(\\frac{1}{2}\\right)=\\mathrm{e}^{\\frac{1}{2}}-1>0$. 由零点存在性定理，零点位于 $\\left(\\frac{1}{4},\\frac{1}{2}\\right)$ 内；由单调性知零点唯一，故选 C.</p>"
+          "solution": "<p>函数 $f(x)=\\mathrm{e}^{x}+4x-3$ 的导数为 $f'(x)=\\mathrm{e}^{x}+4>0$，所以 $f(x)$ 在 $\\mathbb{R}$ 上单调递增. 又 $1<\\mathrm{e}<16$，故</p><p>$f\\left(\\frac{1}{4}\\right)=\\mathrm{e}^{\\frac{1}{4}}-2<0$，而</p><p>$f\\left(\\frac{1}{2}\\right)=\\mathrm{e}^{\\frac{1}{2}}-1>0$. 由零点存在性定理，零点位于 $\\left(\\frac{1}{4},\\frac{1}{2}\\right)$ 内；由单调性知零点唯一，故选 C.</p>"
         },
         {
           "num": 11,
@@ -137,7 +137,7 @@
             "$y = f(x)$ 在 $\\left(0, \\frac{\\pi}{2}\\right)$ 单调递减，其图象关于直线 $x = \\frac{\\pi}{2}$ 对称"
           ],
           "answer": "D",
-          "solution": "由和角公式，$f(x)=\\sqrt{2}\\sin\\left(2x+\\frac{\\pi}{2}\\right)=\\sqrt{2}\\cos2x$. 当 $0&#x3C;x&#x3C;\\frac{\\pi}{2}$ 时，$0&#x3C;2x&#x3C;\\pi$，故 $f'(x)=-2\\sqrt{2}\\sin2x&#x3C;0$，函数单调递减；又 $f\\left(\\frac{\\pi}{2}+t\\right)=\\sqrt{2}\\cos(\\pi+2t)=f\\left(\\frac{\\pi}{2}-t\\right)$，图象关于直线 $x=\\frac{\\pi}{2}$ 对称，故选 D."
+          "solution": "由和角公式，$f(x)=\\sqrt{2}\\sin\\left(2x+\\frac{\\pi}{2}\\right)=\\sqrt{2}\\cos2x$. 当 $0<x<\\frac{\\pi}{2}$ 时，$0<2x<\\pi$，故 $f'(x)=-2\\sqrt{2}\\sin2x<0$，函数单调递减；又 $f\\left(\\frac{\\pi}{2}+t\\right)=\\sqrt{2}\\cos(\\pi+2t)=f\\left(\\frac{\\pi}{2}-t\\right)$，图象关于直线 $x=\\frac{\\pi}{2}$ 对称，故选 D."
         },
         {
           "num": 12,
@@ -149,7 +149,7 @@
             "$1$ 个"
           ],
           "answer": "A",
-          "solution": "<p>对 $x>0$，由周期性知，在区间 $[2k-1,2k+1]$ 上有 $f(x)=(x-2k)^{2}$. 先看 $0&#x3C;x&#x3C;1$，此时 $f(x)=x^{2}$，方程化为 $x^{2}+\\lg x=0$. 左端函数导数为 $2x+\\frac{1}{x\\ln10}>0$，且当 $x\\to0^{+}$ 时趋于负无穷，在 $x=1$ 时为 $1$，故有且只有一个交点.</p><p>对 $k=1$，$2$，$3$，$4$，在 $[2k-1,2k]$ 上，$(x-2k)^{2}$ 递减而 $\\lg x$ 递增，端点处两者之差分别为 $1-\\lg(2k-1)>0$ 和 $-\\lg(2k)&#x3C;0$，故各有一个交点. 在 $[2k,2k+1]$ 上，令 $g_{k}(x)=(x-2k)^{2}-\\lg x$，则 $g_{k}''(x)=2+\\frac{1}{x^{2}\\ln10}>0$，且 $g_{k}(2k)&#x3C;0$、$g_{k}(2k+1)=1-\\lg(2k+1)>0$，故各有一个交点.</p><p>当 $k=5$ 时，左半段 $[9,10]$ 有一个交点；右半段 $[10,11]$ 两端的差分别为 $-1$ 和 $1-\\lg11&#x3C;0$，结合 $g_{5}''(x)>0$ 可知该段无交点. 若 $x\\geqslant11$，则 $|\\lg x|=\\lg x>1$，而 $0\\le f(x)\\leqslant1$，也无交点. 因此交点总数为 $1+2\\times4+1=10$，故选 A.</p>"
+          "solution": "<p>对 $x>0$，由周期性知，在区间 $[2k-1,2k+1]$ 上有 $f(x)=(x-2k)^{2}$. 先看 $0<x<1$，此时 $f(x)=x^{2}$，方程化为 $x^{2}+\\lg x=0$. 左端函数导数为 $2x+\\frac{1}{x\\ln10}>0$，且当 $x\\to0^{+}$ 时趋于负无穷，在 $x=1$ 时为 $1$，故有且只有一个交点.</p><p>对 $k=1$，$2$，$3$，$4$，在 $[2k-1,2k]$ 上，$(x-2k)^{2}$ 递减而 $\\lg x$ 递增，端点处两者之差分别为 $1-\\lg(2k-1)>0$ 和 $-\\lg(2k)<0$，故各有一个交点. 在 $[2k,2k+1]$ 上，令 $g_{k}(x)=(x-2k)^{2}-\\lg x$，则 $g_{k}''(x)=2+\\frac{1}{x^{2}\\ln10}>0$，且 $g_{k}(2k)<0$、$g_{k}(2k+1)=1-\\lg(2k+1)>0$，故各有一个交点.</p><p>当 $k=5$ 时，左半段 $[9,10]$ 有一个交点；右半段 $[10,11]$ 两端的差分别为 $-1$ 和 $1-\\lg11<0$，结合 $g_{5}''(x)>0$ 可知该段无交点. 若 $x\\geqslant11$，则 $|\\lg x|=\\lg x>1$，而 $0\\le f(x)\\leqslant1$，也无交点. 因此交点总数为 $1+2\\times4+1=10$，故选 A.</p>"
         }
       ]
     },
@@ -161,7 +161,7 @@
           "body": "已知 $\\mathbf{a}$ 与 $\\mathbf{b}$ 为两个不共线的单位向量，$k$ 为实数，若向量 $\\mathbf{a}+ \\mathbf{b}$ 与向量 $k\\mathbf{a}- \\mathbf{b}$ 垂直，则 $k =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "1",
-          "solution": "<p>由垂直条件，$(\\mathbf{a}+\\mathbf{b})\\cdot(k\\mathbf{a}-\\mathbf{b})=0$. 设 $\\mathbf{a}\\cdot\\mathbf{b}=c$. 因为 $\\mathbf{a}$，$\\mathbf{b}$ 是不共线的单位向量，所以 $c=\\cos\\langle\\mathbf{a},\\mathbf{b}\\rangle$，且 $-1&#x3C;c&#x3C;1$. 因此</p>\n$$\n(\\mathbf{a}+\\mathbf{b})\\cdot(k\\mathbf{a}-\\mathbf{b})=k-c+kc-1=(k-1)(1+c)\n$$\n<p>由 $1+c>0$，垂直条件化为 $k-1=0$，故 $k=1$.</p>"
+          "solution": "<p>由垂直条件，$(\\mathbf{a}+\\mathbf{b})\\cdot(k\\mathbf{a}-\\mathbf{b})=0$. 设 $\\mathbf{a}\\cdot\\mathbf{b}=c$. 因为 $\\mathbf{a}$，$\\mathbf{b}$ 是不共线的单位向量，所以 $c=\\cos\\langle\\mathbf{a},\\mathbf{b}\\rangle$，且 $-1<c<1$. 因此</p>\n$$\n(\\mathbf{a}+\\mathbf{b})\\cdot(k\\mathbf{a}-\\mathbf{b})=k-c+kc-1=(k-1)(1+c)\n$$\n<p>由 $1+c>0$，垂直条件化为 $k-1=0$，故 $k=1$.</p>"
         },
         {
           "num": 14,
@@ -205,7 +205,7 @@
         },
         {
           "num": 19,
-          "body": "<p>某种产品的质量以其质量指标值衡量，质量指标值越大表明质量越好，且质量指标值大于或等于 $102$ 的产品为优质品. 现用两种新配方（分别称为 A 配方和 B 配方）做试验，各生产了 $100$ 件这种产品，并测量了每件产品的质量指标值，得到了下面试验结果：</p><center class=\"center\">A 配方的频数分布表<br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>指标值分组 </td><td style=\"text-align: center\"> $\\left[90,94\\right)$ </td><td style=\"text-align: center\"> $\\left[94,98\\right)$ </td><td style=\"text-align: center\"> $\\left[98,102\\right)$ </td><td style=\"text-align: center\"> $\\left[102,106\\right)$ </td><td style=\"text-align: center\"> $\\left[106,110\\right]$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>频数 </td><td style=\"text-align: center\"> $8$ </td><td style=\"text-align: center\"> $20$ </td><td style=\"text-align: center\"> $42$ </td><td style=\"text-align: center\"> $22$ </td><td style=\"text-align: center\"> $8$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table><br>B 配方的频数分布表<br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>指标值分组 </td><td style=\"text-align: center\"> $\\left[90,94\\right)$ </td><td style=\"text-align: center\"> $\\left[94,98\\right)$ </td><td style=\"text-align: center\"> $\\left[98,102\\right)$ </td><td style=\"text-align: center\"> $\\left[102,106\\right)$ </td><td style=\"text-align: center\"> $\\left[106,110\\right]$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>频数 </td><td style=\"text-align: center\"> $4$ </td><td style=\"text-align: center\"> $12$ </td><td style=\"text-align: center\"> $42$ </td><td style=\"text-align: center\"> $32$ </td><td style=\"text-align: center\"> $10$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>分别估计用 A 配方，B 配方生产的产品优质品率；</p></li><li><p>已知用 B 配方生产一件产品的利润 $y$（单位：元）与其质量指标值 $t$ 的关系式为 $y = \\begin{cases}-2, t &#x3C; 94,\\\\  2, 94 \\le t &#x3C; 102,\\\\  4, t \\ge 102.\\end{cases}$</p><p>估计用 B 配方生产的一件产品的利润大于 $0$ 的概率，并求用 B 配方生产的上述 $100$ 件产品平均一件的利润.</p></li></ol>",
+          "body": "<p>某种产品的质量以其质量指标值衡量，质量指标值越大表明质量越好，且质量指标值大于或等于 $102$ 的产品为优质品. 现用两种新配方（分别称为 A 配方和 B 配方）做试验，各生产了 $100$ 件这种产品，并测量了每件产品的质量指标值，得到了下面试验结果：</p><center class=\"center\">A 配方的频数分布表<br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>指标值分组 </td><td style=\"text-align: center\"> $\\left[90,94\\right)$ </td><td style=\"text-align: center\"> $\\left[94,98\\right)$ </td><td style=\"text-align: center\"> $\\left[98,102\\right)$ </td><td style=\"text-align: center\"> $\\left[102,106\\right)$ </td><td style=\"text-align: center\"> $\\left[106,110\\right]$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>频数 </td><td style=\"text-align: center\"> $8$ </td><td style=\"text-align: center\"> $20$ </td><td style=\"text-align: center\"> $42$ </td><td style=\"text-align: center\"> $22$ </td><td style=\"text-align: center\"> $8$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table><br>B 配方的频数分布表<br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>指标值分组 </td><td style=\"text-align: center\"> $\\left[90,94\\right)$ </td><td style=\"text-align: center\"> $\\left[94,98\\right)$ </td><td style=\"text-align: center\"> $\\left[98,102\\right)$ </td><td style=\"text-align: center\"> $\\left[102,106\\right)$ </td><td style=\"text-align: center\"> $\\left[106,110\\right]$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>频数 </td><td style=\"text-align: center\"> $4$ </td><td style=\"text-align: center\"> $12$ </td><td style=\"text-align: center\"> $42$ </td><td style=\"text-align: center\"> $32$ </td><td style=\"text-align: center\"> $10$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>分别估计用 A 配方，B 配方生产的产品优质品率；</p></li><li><p>已知用 B 配方生产一件产品的利润 $y$（单位：元）与其质量指标值 $t$ 的关系式为 $y = \\begin{cases}-2, t < 94,\\\\  2, 94 \\le t < 102,\\\\  4, t \\ge 102.\\end{cases}$</p><p>估计用 B 配方生产的一件产品的利润大于 $0$ 的概率，并求用 B 配方生产的上述 $100$ 件产品平均一件的利润.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>A 配方生产的产品中，质量指标值不小于 $102$ 的有 $22+8=30$ 件，所以优质品率估计为 $\\frac{30}{100}=30\\%$. B 配方中相应的产品有 $32+10=42$ 件，所以优质品率估计为 $\\frac{42}{100}=42\\%$.</p></li><li><p>B 配方产品的利润大于 $0$ 当且仅当 $t\\geqslant94$，相应的产品数为 $12+42+32+10=96$，所以所求概率估计为 $\\frac{96}{100}=0.96$. 这 $100$ 件产品的总利润为</p>\n$$\n(-2)\\times4+2\\times(12+42)+4\\times(32+10)=268\n$$\n<p>故平均一件的利润为 $\\frac{268}{100}=2.68$ 元.</p></li></ol>"
@@ -222,7 +222,7 @@
           "body": "<p>已知函数 $f(x) = a \\frac{\\ln x}{x + 1}+ \\frac{b}{x}$，曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $x + 2y - 3 = 0$.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$ 的值；</p></li><li><p>证明：当 $x > 0$，且 $x \\neq 1$ 时，$f(x) > \\frac{\\ln x}{x - 1}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\ln1=0$，所以 $f(1)=b$. 切线方程为 $y=\\frac{3-x}{2}$，故 $f(1)=1$，从而 $b=1$. 又</p>\n$$\nf'(x)=a\\frac{\\frac{x+1}{x}-\\ln x}{(x+1)^{2}}-\\frac{b}{x^{2}}\n$$\n<p>因此 $f'(1)=\\frac{a}{2}-1$. 切线斜率为 $-\\frac{1}{2}$，所以 $\\frac{a}{2}-1=-\\frac{1}{2}$，得 $a=1$.</p></li><li><p>此时 $f(x)=\\frac{\\ln x}{x+1}+\\frac{1}{x}$，故</p>\n$$\nf(x)-\\frac{\\ln x}{x-1}=\\frac{1}{x}-\\frac{2\\ln x}{x^{2}-1}=\\frac{2h(x)}{x^{2}-1}\n$$\n<p>其中 $h(x)=\\frac{1}{2}\\left(x-\\frac{1}{x}\\right)-\\ln x$. 有</p><p>$h'(x)=\\frac{(x-1)^{2}}{2x^{2}}\\geqslant0$，$h(1)=0$.</p><p>所以当 $x>1$ 时 $h(x)>0$，当 $0&#x3C;x&#x3C;1$ 时 $h(x)&#x3C;0$；而 $x^{2}-1$ 与 $h(x)$ 同号. 因此当 $x>0$ 且 $x\\neq1$ 时，$\\frac{2h(x)}{x^{2}-1}>0$，即</p>\n$$\nf(x)>\\frac{\\ln x}{x-1}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\ln1=0$，所以 $f(1)=b$. 切线方程为 $y=\\frac{3-x}{2}$，故 $f(1)=1$，从而 $b=1$. 又</p>\n$$\nf'(x)=a\\frac{\\frac{x+1}{x}-\\ln x}{(x+1)^{2}}-\\frac{b}{x^{2}}\n$$\n<p>因此 $f'(1)=\\frac{a}{2}-1$. 切线斜率为 $-\\frac{1}{2}$，所以 $\\frac{a}{2}-1=-\\frac{1}{2}$，得 $a=1$.</p></li><li><p>此时 $f(x)=\\frac{\\ln x}{x+1}+\\frac{1}{x}$，故</p>\n$$\nf(x)-\\frac{\\ln x}{x-1}=\\frac{1}{x}-\\frac{2\\ln x}{x^{2}-1}=\\frac{2h(x)}{x^{2}-1}\n$$\n<p>其中 $h(x)=\\frac{1}{2}\\left(x-\\frac{1}{x}\\right)-\\ln x$. 有</p><p>$h'(x)=\\frac{(x-1)^{2}}{2x^{2}}\\geqslant0$，$h(1)=0$.</p><p>所以当 $x>1$ 时 $h(x)>0$，当 $0<x<1$ 时 $h(x)<0$；而 $x^{2}-1$ 与 $h(x)$ 同号. 因此当 $x>0$ 且 $x\\neq1$ 时，$\\frac{2h(x)}{x^{2}-1}>0$，即</p>\n$$\nf(x)>\\frac{\\ln x}{x-1}\n$$\n</li></ol>"
         },
         {
           "num": 22,
@@ -243,7 +243,7 @@
           "body": "<p>设函数 $f(x) = |x - a| + 3x$，其中 $a > 0$.</p><ol class=\"enumerate\"><li><p>当 $a = 1$ 时，求不等式 $f(x) \\ge 3x + 2$ 的解集；</p></li><li><p>若不等式 $f(x) \\le 0$ 的解集为 $\\{x \\mid x \\le -1\\}$，求 $a$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，不等式化为 $|x-1|\\geqslant2$，所以 $x-1\\geqslant2$ 或 $x-1\\le-2$，解集为</p>\n$$\n(-\\infty,-1]\\cup[3,+\\infty)\n$$\n</li><li><p>当 $x\\ge a$ 时，$f(x)=4x-a$. 条件 $f(x)\\leqslant0$ 要求 $x\\le\\frac{a}{4}$，与 $x\\ge a>0$ 不相容. 当 $x&#x3C;a$ 时，$f(x)=a+2x$，故 $f(x)\\leqslant0$ 等价于 $x\\le-\\frac{a}{2}$. 因此不等式的解集为 $\\left(-\\infty,-\\frac{a}{2}\\right]$. 由题设它等于 $\\{x\\mid x\\le-1\\}$，得 $-\\frac{a}{2}=-1$，所以 $a=2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，不等式化为 $|x-1|\\geqslant2$，所以 $x-1\\geqslant2$ 或 $x-1\\le-2$，解集为</p>\n$$\n(-\\infty,-1]\\cup[3,+\\infty)\n$$\n</li><li><p>当 $x\\ge a$ 时，$f(x)=4x-a$. 条件 $f(x)\\leqslant0$ 要求 $x\\le\\frac{a}{4}$，与 $x\\ge a>0$ 不相容. 当 $x<a$ 时，$f(x)=a+2x$，故 $f(x)\\leqslant0$ 等价于 $x\\le-\\frac{a}{2}$. 因此不等式的解集为 $\\left(-\\infty,-\\frac{a}{2}\\right]$. 由题设它等于 $\\{x\\mid x\\le-1\\}$，得 $-\\frac{a}{2}=-1$，所以 $a=2$.</p></li></ol>"
         }
       ]
     }

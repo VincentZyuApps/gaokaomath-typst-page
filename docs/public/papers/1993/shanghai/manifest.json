@@ -26,7 +26,7 @@
           "body": "设 $z = \\cos \\frac{7\\pi}{5}+ \\mathrm{i}\\sin \\frac{7\\pi}{5}$，$\\mathrm{i}$ 是虚数单位，则 $z$ 的辐角主值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{7\\pi}{5}$",
-          "solution": "题中复数已经写成三角形式 $z=\\cos\\frac{7\\pi}{5}+\\mathrm{i}\\sin\\frac{7\\pi}{5}$. 按本卷复数辐角主值的约定 $0\\le\\arg z&#x3C;2\\pi$，且 $\\frac{7\\pi}{5}$ 属于该区间，故 $\\arg z=\\frac{7\\pi}{5}$."
+          "solution": "题中复数已经写成三角形式 $z=\\cos\\frac{7\\pi}{5}+\\mathrm{i}\\sin\\frac{7\\pi}{5}$. 按本卷复数辐角主值的约定 $0\\le\\arg z<2\\pi$，且 $\\frac{7\\pi}{5}$ 属于该区间，故 $\\arg z=\\frac{7\\pi}{5}$."
         },
         {
           "num": 4,
@@ -61,7 +61,7 @@
           "body": "已知等比数列 $\\{a_{n}\\}$（$a_{n} \\in \\mathbb{R}$），$a_{1} + a_{2} = 9$，$a_{1} \\cdot a_{2} \\cdot a_{3} = 27$，且 $S_{n} = a_{1} + a_{2} + \\cdots + a_{n}$（$n = 1$，$2$，$\\cdots$），则 $\\displaystyle\\lim_{n \\to \\infty}S_{n} =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "12",
-          "solution": "<p>设等比数列的公比为 $q$，则 $a_{2}=a_{1}q$，且</p><p>$a_{1}a_{2}a_{3}=a_{1}^{3}q^{3}=(a_{1}q)^{3}=a_{2}^{3}=27$. 因为 $a_{2}\\in\\mathbb{R}$，故 $a_{2}=3$. 由 $a_{1}+a_{2}=9$ 得 $a_{1}=6$，于是 $q=\\frac{a_{2}}{a_{1}}=\\frac{1}{2}$. 由于 $|q|&#x3C;1$，无穷等比级数收敛，且</p>\n$$\n\\lim_{n\\to\\infty}S_{n}=\\frac{a_{1}}{1-q}=\\frac{6}{1-\\frac{1}{2}}=12\n$$"
+          "solution": "<p>设等比数列的公比为 $q$，则 $a_{2}=a_{1}q$，且</p><p>$a_{1}a_{2}a_{3}=a_{1}^{3}q^{3}=(a_{1}q)^{3}=a_{2}^{3}=27$. 因为 $a_{2}\\in\\mathbb{R}$，故 $a_{2}=3$. 由 $a_{1}+a_{2}=9$ 得 $a_{1}=6$，于是 $q=\\frac{a_{2}}{a_{1}}=\\frac{1}{2}$. 由于 $|q|<1$，无穷等比级数收敛，且</p>\n$$\n\\lim_{n\\to\\infty}S_{n}=\\frac{a_{1}}{1-q}=\\frac{6}{1-\\frac{1}{2}}=12\n$$"
         },
         {
           "num": 9,
@@ -72,7 +72,7 @@
         },
         {
           "num": 10,
-          "body": "<p>如图，正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，过顶点 $B$，$D$，$C_{1}$ 作截面，则二面角 $B - DC_{1} - C$ 的大小是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>（用反三角函数表示）.</p><div class=\"environment minipage\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></div>",
+          "body": "<p>如图，正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，过顶点 $B$，$D$，$C_{1}$ 作截面，则二面角 $B - DC_{1} - C$ 的大小是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>（用反三角函数表示）.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$\\arccos \\frac{\\sqrt{3}}{3}$",
           "solution": "<p>取正方体棱长为 $1$，建立坐标系</p><p>$A(0,0,0)$、$B(1,0,0)$、$C(1,1,0)$、$D(0,1,0)$、$C_{1}(1,1,1)$. 二面角 $B-DC_{1}-C$ 的两个面分别为平面 $BDC_{1}$ 和平面 $DCC_{1}$.</p><p>在平面 $BDC_{1}$ 内，取</p><p>$\\overrightarrow{DC_1}=(1,0,1)$、$\\overrightarrow{DB}=(1,-1,0)$，则该平面的一个法向量为</p><p>$\\mathbf{n}_{1}=\\overrightarrow{DC_1}\\times\\overrightarrow{DB}=(1,1,-1)$. 平面 $DCC_{1}$ 是 $y=1$，其法向量可取 $\\mathbf{n}_{2}=(0,1,0)$. 因此两平面所成的较小角 $\\varphi$ 满足</p>\n$$\n\\cos\\varphi=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>故二面角的大小为 $\\arccos\\frac{\\sqrt{3}}{3}$.</p>"
@@ -92,7 +92,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai/q11_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "C",
-          "solution": "由对数函数的定义，必须有 $a>0$ 且 $a\\neq 1$. 曲线 $y=\\log_{a} x$ 的定义域为 $x>0$，经过点 $(1,0)$，并以 $x=0$ 为渐近线；当 $a>1$ 时它递增且向下凸，当 $0&#x3C;a&#x3C;1$ 时它递减且向上凸. 直线 $y=x+a$ 的斜率为 $1$，与两坐标轴的交点分别为 $(0,a)$ 和 $(-a,0)$. 对照四个图象，只有第三个图象同时满足对数曲线的渐近线、经过点 $(1,0)$ 及单调性，并满足直线的截距关系，故正确选项为第三项."
+          "solution": "由对数函数的定义，必须有 $a>0$ 且 $a\\neq 1$. 曲线 $y=\\log_{a} x$ 的定义域为 $x>0$，经过点 $(1,0)$，并以 $x=0$ 为渐近线；当 $a>1$ 时它递增且向下凸，当 $0<a<1$ 时它递减且向上凸. 直线 $y=x+a$ 的斜率为 $1$，与两坐标轴的交点分别为 $(0,a)$ 和 $(-a,0)$. 对照四个图象，只有第三个图象同时满足对数曲线的渐近线、经过点 $(1,0)$ 及单调性，并满足直线的截距关系，故正确选项为第三项."
         },
         {
           "num": 12,
@@ -122,13 +122,13 @@
           "num": 14,
           "body": "下列不等式中正确的是（ ）",
           "choices": [
-            "$\\arcsin \\left(-\\frac{1}{4}\\right) &#x3C; \\arcsin \\left(-\\frac{1}{3}\\right)$",
-            "$\\arccos \\left(-\\frac{1}{4}\\right) &#x3C; \\arccos \\frac{1}{3}$",
-            "$\\arctan \\frac{1}{4}&#x3C; \\arcsin \\frac{1}{4}$",
-            "$\\operatorname{arccot}\\frac{1}{3}&#x3C; \\arctan \\frac{1}{3}$"
+            "$\\arcsin \\left(-\\frac{1}{4}\\right) < \\arcsin \\left(-\\frac{1}{3}\\right)$",
+            "$\\arccos \\left(-\\frac{1}{4}\\right) < \\arccos \\frac{1}{3}$",
+            "$\\arctan \\frac{1}{4}< \\arcsin \\frac{1}{4}$",
+            "$\\operatorname{arccot}\\frac{1}{3}< \\arctan \\frac{1}{3}$"
           ],
           "answer": "C",
-          "solution": "<p>反正弦函数在 $[-1,1]$ 上递增，而 $-\\frac{1}{4}>-\\frac{1}{3}$，所以</p><p>$\\arcsin\\left(-\\frac{1}{4}\\right)>\\arcsin\\left(-\\frac{1}{3}\\right)$，选项 A 错. 反余弦函数在 $[-1,1]$ 上递减，而 $-\\frac{1}{4}&#x3C;\\frac{1}{3}$，所以</p><p>$\\arccos\\left(-\\frac{1}{4}\\right)>\\arccos\\frac{1}{3}$，选项 B 错.</p><p>设 $\\alpha=\\arctan\\frac{1}{4}$，$\\beta=\\arcsin\\frac{1}{4}$. 则 $\\alpha$、$\\beta\\in\\left(0,\\frac{\\pi}{2}\\right)$，且</p><p>$\\tan\\alpha=\\frac{1}{4}$，$\\tan\\beta=\\frac{\\frac{1}{4}}{\\sqrt{1-\\frac{1}{16}}}=\\frac{1}{\\sqrt{15}}$. 因为 $\\sqrt{15}&#x3C;4$，所以 $\\frac{1}{\\sqrt{15}}> \\frac{1}{4}$，从而 $\\beta>\\alpha$，选项 C 正确.</p><p>对 $t>0$，有 $\\operatorname{arccot}t=\\frac{\\pi}{2}-\\arctan t$，且 $0&#x3C;\\arctan\\frac{1}{3}&#x3C;\\frac{\\pi}{4}$，故 $\\operatorname{arccot}\\frac{1}{3}>\\arctan\\frac{1}{3}$，选项 D 错. 因此选 C.</p>"
+          "solution": "<p>反正弦函数在 $[-1,1]$ 上递增，而 $-\\frac{1}{4}>-\\frac{1}{3}$，所以</p><p>$\\arcsin\\left(-\\frac{1}{4}\\right)>\\arcsin\\left(-\\frac{1}{3}\\right)$，选项 A 错. 反余弦函数在 $[-1,1]$ 上递减，而 $-\\frac{1}{4}<\\frac{1}{3}$，所以</p><p>$\\arccos\\left(-\\frac{1}{4}\\right)>\\arccos\\frac{1}{3}$，选项 B 错.</p><p>设 $\\alpha=\\arctan\\frac{1}{4}$，$\\beta=\\arcsin\\frac{1}{4}$. 则 $\\alpha$、$\\beta\\in\\left(0,\\frac{\\pi}{2}\\right)$，且</p><p>$\\tan\\alpha=\\frac{1}{4}$，$\\tan\\beta=\\frac{\\frac{1}{4}}{\\sqrt{1-\\frac{1}{16}}}=\\frac{1}{\\sqrt{15}}$. 因为 $\\sqrt{15}<4$，所以 $\\frac{1}{\\sqrt{15}}> \\frac{1}{4}$，从而 $\\beta>\\alpha$，选项 C 正确.</p><p>对 $t>0$，有 $\\operatorname{arccot}t=\\frac{\\pi}{2}-\\arctan t$，且 $0<\\arctan\\frac{1}{3}<\\frac{\\pi}{4}$，故 $\\operatorname{arccot}\\frac{1}{3}>\\arctan\\frac{1}{3}$，选项 D 错. 因此选 C.</p>"
         },
         {
           "num": 15,
@@ -140,7 +140,7 @@
             "抛物线"
           ],
           "answer": "D",
-          "solution": "<p>设动点为 $P(x,y)$. 由题意，</p>\n$$\n\\sqrt{(x-2)^{2}+y^{2}}=|x+4|-2\n$$\n<p>因此必须有 $|x+4|\\ge 2$. 当 $x\\ge-4$ 时，条件化为 $x\\ge-2$，平方并整理得</p><p>$(x-2)^{2}+y^{2}=(x+2)^{2}$，$\\Longrightarrow$，$y^{2}=8x$.</p><p>该方程本身要求 $x\\geqslant0$，所以这一支全部满足原条件. 当 $x&#x3C;-4$ 时，条件要求 $x\\le-6$，平方得</p><p>$(x-2)^{2}+y^{2}=(-x-6)^{2}$，$\\Longrightarrow$，$y^{2}=16(x+2)&#x3C;0$</p><p>不可能有实数点. 故轨迹为抛物线 $y^{2}=8x$，选 $D$.</p>"
+          "solution": "<p>设动点为 $P(x,y)$. 由题意，</p>\n$$\n\\sqrt{(x-2)^{2}+y^{2}}=|x+4|-2\n$$\n<p>因此必须有 $|x+4|\\ge 2$. 当 $x\\ge-4$ 时，条件化为 $x\\ge-2$，平方并整理得</p><p>$(x-2)^{2}+y^{2}=(x+2)^{2}$，$\\Longrightarrow$，$y^{2}=8x$.</p><p>该方程本身要求 $x\\geqslant0$，所以这一支全部满足原条件. 当 $x<-4$ 时，条件要求 $x\\le-6$，平方得</p><p>$(x-2)^{2}+y^{2}=(-x-6)^{2}$，$\\Longrightarrow$，$y^{2}=16(x+2)<0$</p><p>不可能有实数点. 故轨迹为抛物线 $y^{2}=8x$，选 $D$.</p>"
         },
         {
           "num": 16,
@@ -195,12 +195,12 @@
           "body": "$a + b > 2c$ 的一个充分条件是（ ）",
           "choices": [
             "$a > c$ 或 $b > c$",
-            "$a > c$ 且 $b &#x3C; c$",
+            "$a > c$ 且 $b < c$",
             "$a > c$ 且 $b > c$",
-            "$a > c$ 或 $b &#x3C; c$"
+            "$a > c$ 或 $b < c$"
           ],
           "answer": "C",
-          "solution": "<p>若 $a>c$ 且 $b>c$，则两式相加得到 $a+b>2c$，所以选项 C 是充分条件.</p><p>其余选项都不能保证结论：只满足 $a>c$ 或只满足 $b&#x3C;c$ 时，另一个数可以取得足够小，使 $a+b\\leqslant2c$；选项 B 也没有保证 $b>c$. 故选 C.</p>"
+          "solution": "<p>若 $a>c$ 且 $b>c$，则两式相加得到 $a+b>2c$，所以选项 C 是充分条件.</p><p>其余选项都不能保证结论：只满足 $a>c$ 或只满足 $b<c$ 时，另一个数可以取得足够小，使 $a+b\\leqslant2c$；选项 B 也没有保证 $b>c$. 故选 C.</p>"
         }
       ]
     },
@@ -240,14 +240,14 @@
           "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n} = na + n(n - 1)b$（$n = 1$，$2$，$\\cdots$），$a$，$b$ 是常数且 $b \\neq 0$.</p><ol class=\"enumerate\"><li><p>证明 $\\{a_{n}\\}$ 是等差数列.</p></li><li><p>证明以 $\\left(a_{n}, \\frac{S_{n}}{n}- 1\\right)$ 为坐标的点 $P_{n}$（$n = 1$，$2$，$\\cdots$）都落在同一条直线上，并写出此直线的方程.</p></li><li><p>设 $a = 1$，$b = \\frac{1}{2}$，$C$ 是以 $(r,r)$ 为圆心，$r$ 为半径的圆（$r > 0$）. 求使得点 $P_{1}$，$P_{2}$，$P_{3}$ 都落在圆 $C$ 外时，$r$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由条件得 $a_{1} = S_{1} = a$. 当 $n \\ge 2$ 时，有</p>\n$$\na_{n} = S_{n} - S_{n - 1}= \\left[na + n(n - 1)b\\right] - \\left[(n - 1)a + (n - 1)(n - 2)b\\right] = a + 2(n - 1)b\n$$\n<p>因此，当 $n \\ge 2$ 时，$a_{n} - a_{n - 1}= \\left[a + 2(n - 1)b\\right] - \\left[a + 2(n - 2)b\\right] = 2b$.</p><p>因此，$\\{a_{n}\\}$ 是以 $a$ 为首项，$2b$ 为公差的等差数列.</p></li><li><p>因为 $b \\neq 0$，对于 $n \\ge 2$，有</p>\n$$\n\\frac{\\left(\\frac{S_{n}}{n} - 1\\right) - \\left(\\frac{S_{1}}{1} - 1\\right)}{a_{n} - a_{1}}= \\frac{\\frac{na + n(n - 1)b}{n} - a}{a + 2(n - 1)b - a}= \\frac{(n - 1)b}{2(n - 1)b}= \\frac{1}{2}\n$$\n<p>因此，所有的点 $P_{n}\\left(a_{n},\\frac{S_{n}}{n}- 1\\right)$（$n = 1$，$2$，$\\cdots$）都落在通过 $P_{1}(a,a - 1)$ 且以 $\\frac{1}{2}$ 为斜率的直线上. 此直线方程为 $y - (a - 1) = \\frac{1}{2}(x - a)$，即 $x - 2y + a - 2 = 0$.</p></li><li><p>当 $a = 1$，$b = \\frac{1}{2}$ 时，$P_{n}$ 的坐标为 $\\left(n,\\frac{n - 1}{2}\\right)$. 使 $P_{1}(1,0)$，$P_{2}\\left(2,\\frac{1}{2}\\right)$，$P_{3}(3,1)$ 都落在圆 $C$ 外的条件是</p>\n$$\n\\begin{cases}(r - 1)^{2} + r^{2} > r^{2},\\\\  (r - 2)^{2} + \\left(r - \\frac{1}{2}\\right)^{2} > r^{2},\\\\  (r - 3)^{2} + (r - 1)^{2} > r^{2}.\\end{cases}\n$$\n<p>即等价于</p>\n$$\n\\begin{cases}(r - 1)^{2} > 0,\\\\  r^{2} - 5r + \\frac{17}{4}> 0,\\\\  r^{2} - 8r + 10 > 0.\\end{cases}\n$$\n<p>由第一个不等式，得 $r \\neq 1$；由第二个不等式，得 $r &#x3C; \\frac{5}{2}- \\sqrt{2}$ 或 $r > \\frac{5}{2}+ \\sqrt{2}$；由第三个不等式，得 $r &#x3C; 4 - \\sqrt{6}$ 或 $r > 4 + \\sqrt{6}$. 再注意到 $r > 0$，且</p>\n$$\n1 &#x3C; \\frac{5}{2}- \\sqrt{2}&#x3C; 4 - \\sqrt{6}&#x3C; \\frac{5}{2}+ \\sqrt{2}&#x3C; 4 + \\sqrt{6}\n$$\n<p>故使 $P_{1}$，$P_{2}$，$P_{3}$ 都落在圆 $C$ 外时，$r$ 的取值范围是</p><p>$(0,1) \\cup \\left(1,\\frac{5}{2}- \\sqrt{2}\\right) \\cup (4 + \\sqrt{6}, +\\infty)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由条件得 $a_{1} = S_{1} = a$. 当 $n \\ge 2$ 时，有</p>\n$$\na_{n} = S_{n} - S_{n - 1}= \\left[na + n(n - 1)b\\right] - \\left[(n - 1)a + (n - 1)(n - 2)b\\right] = a + 2(n - 1)b\n$$\n<p>因此，当 $n \\ge 2$ 时，$a_{n} - a_{n - 1}= \\left[a + 2(n - 1)b\\right] - \\left[a + 2(n - 2)b\\right] = 2b$.</p><p>因此，$\\{a_{n}\\}$ 是以 $a$ 为首项，$2b$ 为公差的等差数列.</p></li><li><p>因为 $b \\neq 0$，对于 $n \\ge 2$，有</p>\n$$\n\\frac{\\left(\\frac{S_{n}}{n} - 1\\right) - \\left(\\frac{S_{1}}{1} - 1\\right)}{a_{n} - a_{1}}= \\frac{\\frac{na + n(n - 1)b}{n} - a}{a + 2(n - 1)b - a}= \\frac{(n - 1)b}{2(n - 1)b}= \\frac{1}{2}\n$$\n<p>因此，所有的点 $P_{n}\\left(a_{n},\\frac{S_{n}}{n}- 1\\right)$（$n = 1$，$2$，$\\cdots$）都落在通过 $P_{1}(a,a - 1)$ 且以 $\\frac{1}{2}$ 为斜率的直线上. 此直线方程为 $y - (a - 1) = \\frac{1}{2}(x - a)$，即 $x - 2y + a - 2 = 0$.</p></li><li><p>当 $a = 1$，$b = \\frac{1}{2}$ 时，$P_{n}$ 的坐标为 $\\left(n,\\frac{n - 1}{2}\\right)$. 使 $P_{1}(1,0)$，$P_{2}\\left(2,\\frac{1}{2}\\right)$，$P_{3}(3,1)$ 都落在圆 $C$ 外的条件是</p>\n$$\n\\begin{cases}(r - 1)^{2} + r^{2} > r^{2},\\\\  (r - 2)^{2} + \\left(r - \\frac{1}{2}\\right)^{2} > r^{2},\\\\  (r - 3)^{2} + (r - 1)^{2} > r^{2}.\\end{cases}\n$$\n<p>即等价于</p>\n$$\n\\begin{cases}(r - 1)^{2} > 0,\\\\  r^{2} - 5r + \\frac{17}{4}> 0,\\\\  r^{2} - 8r + 10 > 0.\\end{cases}\n$$\n<p>由第一个不等式，得 $r \\neq 1$；由第二个不等式，得 $r < \\frac{5}{2}- \\sqrt{2}$ 或 $r > \\frac{5}{2}+ \\sqrt{2}$；由第三个不等式，得 $r < 4 - \\sqrt{6}$ 或 $r > 4 + \\sqrt{6}$. 再注意到 $r > 0$，且</p>\n$$\n1 < \\frac{5}{2}- \\sqrt{2}< 4 - \\sqrt{6}< \\frac{5}{2}+ \\sqrt{2}< 4 + \\sqrt{6}\n$$\n<p>故使 $P_{1}$，$P_{2}$，$P_{3}$ 都落在圆 $C$ 外时，$r$ 的取值范围是</p><p>$(0,1) \\cup \\left(1,\\frac{5}{2}- \\sqrt{2}\\right) \\cup (4 + \\sqrt{6}, +\\infty)$.</p></li></ol>"
         },
         {
           "num": 26,
           "body": "<p>如图，$P$ 为椭圆 $\\frac{x^{2}}{a^{2}}+ y^{2} = 1$ 上的一个动点，它与长轴端点不重合，$a \\ge \\sqrt{2}$，点 $F_{1}$ 和点 $F_{2}$ 分别是双曲线 $\\frac{x^{2}}{a^{2}}- y^{2} = 1$ 的左焦点和右焦点，$\\varphi = \\angle F_{1}PF_{2}$.</p><ol class=\"enumerate\"><li><p>求 $\\tan\\varphi$ 的表达式（用 $a$ 及描述点 $P$ 位置的一个变量来表示）.</p></li><li><p>当 $a$ 固定时，求 $\\varphi$ 的最小值 $\\varphi_{0}$.</p></li><li><p>当 $a$ 在区间 $[\\sqrt{2}, \\sqrt{3}]$ 上变化时，求 $\\varphi_{0}$ 的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q26_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>双曲线的半焦距 $c = \\sqrt{a^{2} + 1}$，焦点为 $F_{1}(-\\sqrt{a^{2} + 1},0)$ 和 $F_{2}(\\sqrt{a^{2} + 1},0)$. 设 $P(x_{0},y_{0})$ 为椭圆上一点，与长轴的端点 $A_{1}$ 及 $A_{2}$ 不重合，由对称性，不妨设 $0 &#x3C; y_{0} \\le 1$.</p><p>作 $PH \\perp F_{1}F_{2}$，垂足为 $H$. 记 $\\alpha = \\angle F_{1}PH$，$\\beta = \\angle HPF_{2}$，则 $\\varphi = \\alpha + \\beta$. 因 $\\tan \\alpha = \\frac{x_{0} + \\sqrt{a^2 + 1}}{y_{0}}$，$\\tan \\beta = \\frac{\\sqrt{a^2 + 1}- x_{0}}{y_{0}}$，</p><p>故</p>\n$$\n\\tan \\varphi  = \\tan(\\alpha + \\beta)  = \\frac{\\tan \\alpha + \\tan \\beta}{1 - \\tan \\alpha \\cdot \\tan \\beta}= \\frac{2\\sqrt{a^2 + 1}\\cdot y_{0}}{x_{0}^{2} + y_{0}^{2} - (a^{2} + 1)}\n$$\n<p>由于 $P(x_{0},y_{0})$ 在椭圆上，$x_{0}^{2} = a^{2}(1 - y_{0}^{2})$，故 $\\tan \\varphi = -\\frac{2\\sqrt{a^2 + 1}\\cdot y_{0}}{(a^{2} - 1)y_{0}^{2} + 1}$.</p></li><li><p>由于 $a \\ge \\sqrt{2}$，故 $a^{2} - 1 \\ge 1$，$\\tan \\varphi &#x3C; 0$，$\\frac{\\pi}{2}&#x3C; \\varphi &#x3C; \\pi$. 又</p>\n$$\n\\tan(\\pi - \\varphi)  = \\frac{2\\sqrt{a^2 + 1}\\cdot y_{0}}{(a^{2} - 1)y_{0}^{2} + 1}= \\frac{2\\sqrt{a^{2} + 1}}{(a^{2} - 1)y_{0} + \\frac{1}{y_0}}\\le \\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}\n$$\n<p>当且仅当 $(a^{2} - 1)y_{0} = \\frac{1}{y_{0}}$，即 $y_{0} = \\frac{1}{\\sqrt{a^{2} - 1}}\\le 1$ 时取“$=$”号. 由于 $0 &#x3C; \\pi - \\varphi &#x3C; \\frac{\\pi}{2}$，且正切函数在 $\\left(0,\\frac{\\pi}{2}\\right)$ 内是增函数，故有 $\\pi - \\varphi \\le \\arctan\\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}$.</p><p>于是 $\\varphi \\ge \\pi - \\arctan\\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}$，</p><p>从而 $\\varphi_{0} = \\pi - \\arctan\\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}$.</p></li><li><p>$\\varphi_{0} = \\pi - \\arctan\\sqrt{1 + \\frac{2}{a^{2} - 1}}$. 由 $\\sqrt{2}\\le a \\le \\sqrt{3}$，故 $2 \\le a^{2} \\le 3$，$1 \\le a^{2} - 1 \\le 2$，于是</p><p>$1 \\le \\frac{2}{a^{2} - 1}\\le 2$，$2 \\le 1 + \\frac{2}{a^{2} - 1}\\le 3$，</p><p>$\\sqrt{2}\\le \\sqrt{1 + \\frac{2}{a^{2} - 1}}\\le \\sqrt{3}$.</p><p>由反正切函数单调性，</p>\n$$\n\\arctan\\sqrt{2}\\le \\arctan\\sqrt{1 + \\frac{2}{a^{2} - 1}}\\le \\arctan\\sqrt{3}= \\frac{\\pi}{3}\n$$\n<p>于是 $\\frac{2\\pi}{3}\\le \\varphi_{0} \\le \\pi - \\arctan\\sqrt{2}$.</p><p>故 $\\varphi_{0}$ 的取值范围是 $\\left[\\frac{2\\pi}{3}, \\pi - \\arctan\\sqrt{2}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>双曲线的半焦距 $c = \\sqrt{a^{2} + 1}$，焦点为 $F_{1}(-\\sqrt{a^{2} + 1},0)$ 和 $F_{2}(\\sqrt{a^{2} + 1},0)$. 设 $P(x_{0},y_{0})$ 为椭圆上一点，与长轴的端点 $A_{1}$ 及 $A_{2}$ 不重合，由对称性，不妨设 $0 < y_{0} \\le 1$.</p><p>作 $PH \\perp F_{1}F_{2}$，垂足为 $H$. 记 $\\alpha = \\angle F_{1}PH$，$\\beta = \\angle HPF_{2}$，则 $\\varphi = \\alpha + \\beta$. 因 $\\tan \\alpha = \\frac{x_{0} + \\sqrt{a^2 + 1}}{y_{0}}$，$\\tan \\beta = \\frac{\\sqrt{a^2 + 1}- x_{0}}{y_{0}}$，</p><p>故</p>\n$$\n\\tan \\varphi  = \\tan(\\alpha + \\beta)  = \\frac{\\tan \\alpha + \\tan \\beta}{1 - \\tan \\alpha \\cdot \\tan \\beta}= \\frac{2\\sqrt{a^2 + 1}\\cdot y_{0}}{x_{0}^{2} + y_{0}^{2} - (a^{2} + 1)}\n$$\n<p>由于 $P(x_{0},y_{0})$ 在椭圆上，$x_{0}^{2} = a^{2}(1 - y_{0}^{2})$，故 $\\tan \\varphi = -\\frac{2\\sqrt{a^2 + 1}\\cdot y_{0}}{(a^{2} - 1)y_{0}^{2} + 1}$.</p></li><li><p>由于 $a \\ge \\sqrt{2}$，故 $a^{2} - 1 \\ge 1$，$\\tan \\varphi < 0$，$\\frac{\\pi}{2}< \\varphi < \\pi$. 又</p>\n$$\n\\tan(\\pi - \\varphi)  = \\frac{2\\sqrt{a^2 + 1}\\cdot y_{0}}{(a^{2} - 1)y_{0}^{2} + 1}= \\frac{2\\sqrt{a^{2} + 1}}{(a^{2} - 1)y_{0} + \\frac{1}{y_0}}\\le \\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}\n$$\n<p>当且仅当 $(a^{2} - 1)y_{0} = \\frac{1}{y_{0}}$，即 $y_{0} = \\frac{1}{\\sqrt{a^{2} - 1}}\\le 1$ 时取“$=$”号. 由于 $0 < \\pi - \\varphi < \\frac{\\pi}{2}$，且正切函数在 $\\left(0,\\frac{\\pi}{2}\\right)$ 内是增函数，故有 $\\pi - \\varphi \\le \\arctan\\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}$.</p><p>于是 $\\varphi \\ge \\pi - \\arctan\\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}$，</p><p>从而 $\\varphi_{0} = \\pi - \\arctan\\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}$.</p></li><li><p>$\\varphi_{0} = \\pi - \\arctan\\sqrt{1 + \\frac{2}{a^{2} - 1}}$. 由 $\\sqrt{2}\\le a \\le \\sqrt{3}$，故 $2 \\le a^{2} \\le 3$，$1 \\le a^{2} - 1 \\le 2$，于是</p><p>$1 \\le \\frac{2}{a^{2} - 1}\\le 2$，$2 \\le 1 + \\frac{2}{a^{2} - 1}\\le 3$，</p><p>$\\sqrt{2}\\le \\sqrt{1 + \\frac{2}{a^{2} - 1}}\\le \\sqrt{3}$.</p><p>由反正切函数单调性，</p>\n$$\n\\arctan\\sqrt{2}\\le \\arctan\\sqrt{1 + \\frac{2}{a^{2} - 1}}\\le \\arctan\\sqrt{3}= \\frac{\\pi}{3}\n$$\n<p>于是 $\\frac{2\\pi}{3}\\le \\varphi_{0} \\le \\pi - \\arctan\\sqrt{2}$.</p><p>故 $\\varphi_{0}$ 的取值范围是 $\\left[\\frac{2\\pi}{3}, \\pi - \\arctan\\sqrt{2}\\right]$.</p></li></ol>"
         }
       ]
     }

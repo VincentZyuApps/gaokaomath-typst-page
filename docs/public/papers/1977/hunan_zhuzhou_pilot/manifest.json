@@ -12,14 +12,14 @@
           "body": "$y=2\\sqrt{x^{2}}$ 和 $y=2x$ 是不是同一个函数？为什么？",
           "choices": null,
           "answer": "",
-          "solution": "<p>两式的定义域都是 $\\mathbb{R}$，但对任意 $x\\in\\mathbb{R}$，有</p>\n$$\n2\\sqrt{x^{2}}=2\\lvert x\\rvert=\\begin{cases}2x,&#x26;x\\geq 0,\\\\  -2x,&#x26;x&#x3C;0.\\end{cases}\n$$\n<p>当 $x=-1$ 时，$2\\sqrt{x^{2}}=2$，而 $2x=-2$，两式的函数值不相等. 因此 $y=2\\sqrt{x^{2}}$ 与 $y=2x$ 不是同一个函数.</p>"
+          "solution": "<p>两式的定义域都是 $\\mathbb{R}$，但对任意 $x\\in\\mathbb{R}$，有</p>\n$$\n2\\sqrt{x^{2}}=2\\lvert x\\rvert=\\begin{cases}2x,&x\\geq 0,\\\\  -2x,&x<0.\\end{cases}\n$$\n<p>当 $x=-1$ 时，$2\\sqrt{x^{2}}=2$，而 $2x=-2$，两式的函数值不相等. 因此 $y=2\\sqrt{x^{2}}$ 与 $y=2x$ 不是同一个函数.</p>"
         },
         {
           "num": 2,
           "body": "<p>确定下列各式的符号：</p><ol class=\"enumerate\"><li><p>$1-\\sin 800^{\\circ}$；</p></li><li><p>$\\cos 20^{\\circ}-\\sin 20^{\\circ}$；</p></li><li><p>$\\tan 288^{\\circ}\\cdot\\tan 510^{\\circ}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $800^{\\circ}=2\\times 360^{\\circ}+80^{\\circ}$，所以</p><p>$1-\\sin 800^{\\circ}=1-\\sin 80^{\\circ}$. 又因为 $0&#x3C;\\sin 80^{\\circ}&#x3C;1$，故 $1-\\sin 800^{\\circ}>0$.</p></li><li><p>$\\cos 20^{\\circ}=\\sin 70^{\\circ}$，所以</p><p>$\\cos 20^{\\circ}-\\sin 20^{\\circ}=\\sin 70^{\\circ}-\\sin 20^{\\circ}$. 由于 $0&#x3C;20^{\\circ}&#x3C;70^{\\circ}&#x3C;90^{\\circ}$，正弦函数在该区间上递增，故 $\\sin 70^{\\circ}-\\sin 20^{\\circ}>0$.</p></li><li><p>由正切函数的周期性和诱导公式，</p>\n$$\n\\tan 288^{\\circ}=\\tan\\left(360^{\\circ}-72^{\\circ}\\right)=-\\tan 72^{\\circ}&#x3C;0\n$$\n\n$$\n\\tan 510^{\\circ}=\\tan\\left(360^{\\circ}+150^{\\circ}\\right)=\\tan 150^{\\circ}=-\\tan 30^{\\circ}&#x3C;0\n$$\n<p>两个负数的乘积为正，所以 $\\tan 288^{\\circ}\\cdot\\tan 510^{\\circ}>0$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $800^{\\circ}=2\\times 360^{\\circ}+80^{\\circ}$，所以</p><p>$1-\\sin 800^{\\circ}=1-\\sin 80^{\\circ}$. 又因为 $0<\\sin 80^{\\circ}<1$，故 $1-\\sin 800^{\\circ}>0$.</p></li><li><p>$\\cos 20^{\\circ}=\\sin 70^{\\circ}$，所以</p><p>$\\cos 20^{\\circ}-\\sin 20^{\\circ}=\\sin 70^{\\circ}-\\sin 20^{\\circ}$. 由于 $0<20^{\\circ}<70^{\\circ}<90^{\\circ}$，正弦函数在该区间上递增，故 $\\sin 70^{\\circ}-\\sin 20^{\\circ}>0$.</p></li><li><p>由正切函数的周期性和诱导公式，</p>\n$$\n\\tan 288^{\\circ}=\\tan\\left(360^{\\circ}-72^{\\circ}\\right)=-\\tan 72^{\\circ}<0\n$$\n\n$$\n\\tan 510^{\\circ}=\\tan\\left(360^{\\circ}+150^{\\circ}\\right)=\\tan 150^{\\circ}=-\\tan 30^{\\circ}<0\n$$\n<p>两个负数的乘积为正，所以 $\\tan 288^{\\circ}\\cdot\\tan 510^{\\circ}>0$.</p></li></ol>"
         },
         {
           "num": 3,
@@ -33,7 +33,7 @@
           "body": "$\\sqrt{\\left(\\log_{3} 20\\right)^{2}-6\\log_{3} 20+9}$？",
           "choices": null,
           "answer": "",
-          "solution": "<p>原式</p>\n$$\n=\\sqrt{\\left(\\log_{3} 20-3\\right)^{2}}=\\left\\lvert\\log_{3} 20-3\\right\\rvert\n$$\n<p>因为底数 $3>1$，对数函数 $\\log_{3}x$ 递增，且</p><p>$3=\\log_{3} 27>\\log_{3} 20$，所以 $\\log_{3} 20-3&#x3C;0$. 因此</p>\n$$\n\\left\\lvert\\log_{3} 20-3\\right\\rvert=3-\\log_{3} 20\n$$"
+          "solution": "<p>原式</p>\n$$\n=\\sqrt{\\left(\\log_{3} 20-3\\right)^{2}}=\\left\\lvert\\log_{3} 20-3\\right\\rvert\n$$\n<p>因为底数 $3>1$，对数函数 $\\log_{3}x$ 递增，且</p><p>$3=\\log_{3} 27>\\log_{3} 20$，所以 $\\log_{3} 20-3<0$. 因此</p>\n$$\n\\left\\lvert\\log_{3} 20-3\\right\\rvert=3-\\log_{3} 20\n$$"
         },
         {
           "num": 5,
@@ -54,7 +54,7 @@
           "body": "$h$ 为何数时，方程 $2hx^{2}+\\left(8h+1\\right)x=-8h$ 有两个不相等的实根？",
           "choices": null,
           "answer": "",
-          "solution": "<p>将方程移项得</p>\n$$\n2hx^{2}+\\left(8h+1\\right)x+8h=0\n$$\n<p>要使它是关于 $x$ 的二次方程，必须有 $2h\\neq 0$，即 $h\\neq 0$. 此时判别式为</p>\n$$\n\\Delta=\\left(8h+1\\right)^{2}-4\\times 2h\\times 8h=16h+1\n$$\n<p>方程有两个不相等的实根，当且仅当 $\\Delta>0$，即 $h>-\\frac{1}{16}$. 再结合 $h\\neq 0$，得到</p>\n$$\n-\\frac{1}{16}&#x3C;h&#x3C;0 \\text{或}  h>0\n$$"
+          "solution": "<p>将方程移项得</p>\n$$\n2hx^{2}+\\left(8h+1\\right)x+8h=0\n$$\n<p>要使它是关于 $x$ 的二次方程，必须有 $2h\\neq 0$，即 $h\\neq 0$. 此时判别式为</p>\n$$\n\\Delta=\\left(8h+1\\right)^{2}-4\\times 2h\\times 8h=16h+1\n$$\n<p>方程有两个不相等的实根，当且仅当 $\\Delta>0$，即 $h>-\\frac{1}{16}$. 再结合 $h\\neq 0$，得到</p>\n$$\n-\\frac{1}{16}<h<0 \\text{或}  h>0\n$$"
         },
         {
           "num": 8,
@@ -89,7 +89,7 @@
           "body": "甲船在 $A$ 点发现乙船在北偏东 $60^{\\circ}$ 的 $B$ 处，乙船以每小时 $a\\text{ 里}$ 的速度向北行驶，已知甲船速度是每小时 $\\sqrt{3}a\\text{ 里}$，问甲船应依什么方向前进，才能最快地与乙船相会？",
           "choices": null,
           "answer": "",
-          "solution": "<p>设经过 $t>0$ 小时两船在 $C$ 点相遇. 乙船沿正北方向行驶，所以 $BC=at$；甲船的路程为 $AC=\\sqrt{3}at$. 由 $AB$ 是北偏东 $60^{\\circ}$ 方向，且 $BC$ 指向正北，得</p>\n$$\n\\angle B=180^{\\circ}-60^{\\circ}=120^{\\circ}\n$$\n<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_zhuzhou_pilot/q12_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>令 $L=AB>0$. 对任意可能的相遇时刻 $t$，乙船位于正北方向的点 $C$，且 $BC=at$. 甲船在时刻 $t$ 至多行驶 $\\sqrt{3}at$，因此必须有 $AC\\leq\\sqrt{3}at$. 由 $\\angle B=120^{\\circ}$ 和余弦定理，</p>\n$$\nAC^{2}=L^{2}+(at)^{2}-2L\\cdot at\\cos120^{\\circ}=L^{2}+Lat+a^{2}t^{2}\n$$\n<p>所以</p>\n$$\nL^{2}+Lat+a^{2}t^{2}\\leq 3a^{2}t^{2}\n$$\n<p>整理得</p>\n$$\n(2at+L)(at-L)\\geq 0\n$$\n<p>由于 $a>0$、$t\\geq 0$ 且 $L>0$，有 $2at+L>0$，故 $at\\geq L$，从而任何相遇时间都满足 $t\\geq \\frac{L}{a}$. 当 $t=\\frac{L}{a}$ 时取等号，甲船沿 $AC$ 以全速直线行驶即可相遇，因而这是最短相遇时间. 此时 $AB=BC=L$，$AC=\\sqrt{3}L$. 在 $\\triangle ABC$ 中由正弦定理，</p>\n$$\n\\frac{AC}{\\sin B}=\\frac{BC}{\\sin A}\n$$\n<p>因此</p>\n$$\n\\sin A=\\frac{BC\\sin B}{AC}=\\frac{L\\sin120^{\\circ}}{\\sqrt{3}L}=\\frac{1}{2}\n$$\n<p>又因为 $A+B+C=180^{\\circ}$，且 $B=120^{\\circ}$，所以 $0&#x3C;A&#x3C;60^{\\circ}$，从而 $A=30^{\\circ}$. 故甲船航线与正北方向的夹角为</p>\n$$\n\\angle NAC=60^{\\circ}-\\angle BAC=60^{\\circ}-30^{\\circ}=30^{\\circ}\n$$\n<p>答：甲船应以北偏东 $30^{\\circ}$ 的方向前进，才能最快地与乙船相会.</p>"
+          "solution": "<p>设经过 $t>0$ 小时两船在 $C$ 点相遇. 乙船沿正北方向行驶，所以 $BC=at$；甲船的路程为 $AC=\\sqrt{3}at$. 由 $AB$ 是北偏东 $60^{\\circ}$ 方向，且 $BC$ 指向正北，得</p>\n$$\n\\angle B=180^{\\circ}-60^{\\circ}=120^{\\circ}\n$$\n<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_zhuzhou_pilot/q12_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>令 $L=AB>0$. 对任意可能的相遇时刻 $t$，乙船位于正北方向的点 $C$，且 $BC=at$. 甲船在时刻 $t$ 至多行驶 $\\sqrt{3}at$，因此必须有 $AC\\leq\\sqrt{3}at$. 由 $\\angle B=120^{\\circ}$ 和余弦定理，</p>\n$$\nAC^{2}=L^{2}+(at)^{2}-2L\\cdot at\\cos120^{\\circ}=L^{2}+Lat+a^{2}t^{2}\n$$\n<p>所以</p>\n$$\nL^{2}+Lat+a^{2}t^{2}\\leq 3a^{2}t^{2}\n$$\n<p>整理得</p>\n$$\n(2at+L)(at-L)\\geq 0\n$$\n<p>由于 $a>0$、$t\\geq 0$ 且 $L>0$，有 $2at+L>0$，故 $at\\geq L$，从而任何相遇时间都满足 $t\\geq \\frac{L}{a}$. 当 $t=\\frac{L}{a}$ 时取等号，甲船沿 $AC$ 以全速直线行驶即可相遇，因而这是最短相遇时间. 此时 $AB=BC=L$，$AC=\\sqrt{3}L$. 在 $\\triangle ABC$ 中由正弦定理，</p>\n$$\n\\frac{AC}{\\sin B}=\\frac{BC}{\\sin A}\n$$\n<p>因此</p>\n$$\n\\sin A=\\frac{BC\\sin B}{AC}=\\frac{L\\sin120^{\\circ}}{\\sqrt{3}L}=\\frac{1}{2}\n$$\n<p>又因为 $A+B+C=180^{\\circ}$，且 $B=120^{\\circ}$，所以 $0<A<60^{\\circ}$，从而 $A=30^{\\circ}$. 故甲船航线与正北方向的夹角为</p>\n$$\n\\angle NAC=60^{\\circ}-\\angle BAC=60^{\\circ}-30^{\\circ}=30^{\\circ}\n$$\n<p>答：甲船应以北偏东 $30^{\\circ}$ 的方向前进，才能最快地与乙船相会.</p>"
         },
         {
           "num": 13,
@@ -122,7 +122,7 @@
           "body": "试求 $f(x)=x^{4}-42x^{3}+435x^{2}+113x-66$ 和 $g(x)=x^{2}-x-462$ 的公根.",
           "choices": null,
           "answer": "",
-          "solution": "<p>先分解二次多项式：</p>\n$$\ng(x)=x^{2}-x-462=(x-22)(x+21)\n$$\n<p>所以公根只能是 $22$ 或 $-21$. 直接代入 $f(x)$，</p>\n$$\n\\begin{aligned}f(22)&#x26;=22^{4}-42\\times22^{3}+435\\times22^{2}+113\\times22-66\\\\&#x26;=234256-447216+210540+2486-66=0,\\end{aligned}\n$$\n<p>而</p>\n$$\n\\begin{aligned}f(-21)&#x26;=(-21)^{4}-42\\times(-21)^{3}+435\\times(-21)^{2}+113\\times(-21)-66\\\\&#x26;=194481+388962+191835-2373-66=772839\\neq 0.\\end{aligned}\n$$\n<p>因此 $22$ 是两个多项式的公根，$-21$ 不是，所求公根为 $x=22$.</p>"
+          "solution": "<p>先分解二次多项式：</p>\n$$\ng(x)=x^{2}-x-462=(x-22)(x+21)\n$$\n<p>所以公根只能是 $22$ 或 $-21$. 直接代入 $f(x)$，</p>\n$$\n\\begin{aligned}f(22)&=22^{4}-42\\times22^{3}+435\\times22^{2}+113\\times22-66\\\\&=234256-447216+210540+2486-66=0,\\end{aligned}\n$$\n<p>而</p>\n$$\n\\begin{aligned}f(-21)&=(-21)^{4}-42\\times(-21)^{3}+435\\times(-21)^{2}+113\\times(-21)-66\\\\&=194481+388962+191835-2373-66=772839\\neq 0.\\end{aligned}\n$$\n<p>因此 $22$ 是两个多项式的公根，$-21$ 不是，所求公根为 $x=22$.</p>"
         },
         {
           "num": 17,

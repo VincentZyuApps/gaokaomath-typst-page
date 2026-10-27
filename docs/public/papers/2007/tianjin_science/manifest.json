@@ -89,7 +89,7 @@
             "在区间 $[-2, -1]$ 上是减函数，在区间 $[3, 4]$ 上是减函数"
           ],
           "answer": "B",
-          "solution": "<p>任取 $-2\\le x_{1}&#x3C;x_{2}\\le-1$，则</p>\n$$\n1\\le-x_{2}&#x3C;-x_{1}\\leqslant2\n$$\n<p>因为 $f(x)$ 在 $[1,2]$ 上是减函数，所以 $f(-x_{2})\\ge f(-x_{1})$. 又因 $f$ 是偶函数，故</p>\n$$\nf(x_{2})=f(-x_{2})\\ge f(-x_{1})=f(x_{1})\n$$\n<p>所以 $f(x)$ 在 $[-2,-1]$ 上是增函数.</p><p>由 $f(x)=f(2-x)=f(x-2)$，任取 $3\\le x_{1}&#x3C;x_{2}\\leqslant4$，有 $1\\le x_{1}-2&#x3C;x_{2}-2\\leqslant2$，从而</p>\n$$\nf(x_{1})=f(x_{1}-2)\\ge f(x_{2}-2)=f(x_{2})\n$$\n<p>所以 $f(x)$ 在 $[3,4]$ 上是减函数. 因此正确选项为 B.</p>"
+          "solution": "<p>任取 $-2\\le x_{1}<x_{2}\\le-1$，则</p>\n$$\n1\\le-x_{2}<-x_{1}\\leqslant2\n$$\n<p>因为 $f(x)$ 在 $[1,2]$ 上是减函数，所以 $f(-x_{2})\\ge f(-x_{1})$. 又因 $f$ 是偶函数，故</p>\n$$\nf(x_{2})=f(-x_{2})\\ge f(-x_{1})=f(x_{1})\n$$\n<p>所以 $f(x)$ 在 $[-2,-1]$ 上是增函数.</p><p>由 $f(x)=f(2-x)=f(x-2)$，任取 $3\\le x_{1}<x_{2}\\leqslant4$，有 $1\\le x_{1}-2<x_{2}-2\\leqslant2$，从而</p>\n$$\nf(x_{1})=f(x_{1}-2)\\ge f(x_{2}-2)=f(x_{2})\n$$\n<p>所以 $f(x)$ 在 $[3,4]$ 上是减函数. 因此正确选项为 B.</p>"
         },
         {
           "num": 8,
@@ -107,13 +107,13 @@
           "num": 9,
           "body": "设 $a$，$b$，$c$ 均为正数，且 $2^{a}= \\log_{\\frac{1}{2}}a$，$\\left(\\frac{1}{2}\\right)^{b}= \\log_{\\frac{1}{2}}b$，$\\left(\\frac{1}{2}\\right)^{c}= \\log_{2}c$. 则（ ）",
           "choices": [
-            "$a &#x3C; b &#x3C; c$",
-            "$c &#x3C; b &#x3C; a$",
-            "$c &#x3C; a &#x3C; b$",
-            "$b &#x3C; a &#x3C; c$"
+            "$a < b < c$",
+            "$c < b < a$",
+            "$c < a < b$",
+            "$b < a < c$"
           ],
           "answer": "A",
-          "solution": "<p>由 $2^{a}=\\log_{\\frac{1}{2}}a>0$，得 $0&#x3C;a&#x3C;1$. 同理，由第二个等式得 $0&#x3C;b&#x3C;1$，由第三个等式得 $c>1$.</p><p>在 $(0,1)$ 上令 $F(x)=-\\log_{2}x-2^{x}$，$G(x)=-\\log_{2}x-2^{-x}$.</p><p>则 $F(a)=0$，$G(b)=0$，并且</p>\n$$\nF'(x)=-\\frac{1}{x\\ln2}-(\\ln2)2^{x}&#x3C;0\n$$\n<p>并且</p>\n$$\nG'(x)=-\\frac{1}{x\\ln2}+(\\ln2)2^{-x}\n$$\n<p>因 $0&#x3C;x&#x3C;1$ 且 $0&#x3C;\\ln2&#x3C;1$，所以</p>\n$$\nx(\\ln2)^{2}&#x3C;1&#x3C;2^{x}\n$$\n<p>即 $(\\ln2)2^{-x}&#x3C;\\frac{1}{(x\\ln2)}$，故 $G'(x)&#x3C;0$. 于是 $G$ 在 $(0,1)$ 上严格递减.</p><p>又</p>\n$$\nG(a)-F(a)=2^{a}-2^{-a}>0\n$$\n<p>所以 $G(a)>0=G(b)$. 由 $G$ 严格递减可得 $a&#x3C;b$. 结合 $c>1$，得到 $a&#x3C;b&#x3C;c$，因此正确选项为 A.</p>"
+          "solution": "<p>由 $2^{a}=\\log_{\\frac{1}{2}}a>0$，得 $0<a<1$. 同理，由第二个等式得 $0<b<1$，由第三个等式得 $c>1$.</p><p>在 $(0,1)$ 上令 $F(x)=-\\log_{2}x-2^{x}$，$G(x)=-\\log_{2}x-2^{-x}$.</p><p>则 $F(a)=0$，$G(b)=0$，并且</p>\n$$\nF'(x)=-\\frac{1}{x\\ln2}-(\\ln2)2^{x}<0\n$$\n<p>并且</p>\n$$\nG'(x)=-\\frac{1}{x\\ln2}+(\\ln2)2^{-x}\n$$\n<p>因 $0<x<1$ 且 $0<\\ln2<1$，所以</p>\n$$\nx(\\ln2)^{2}<1<2^{x}\n$$\n<p>即 $(\\ln2)2^{-x}<\\frac{1}{(x\\ln2)}$，故 $G'(x)<0$. 于是 $G$ 在 $(0,1)$ 上严格递减.</p><p>又</p>\n$$\nG(a)-F(a)=2^{a}-2^{-a}>0\n$$\n<p>所以 $G(a)>0=G(b)$. 由 $G$ 严格递减可得 $a<b$. 结合 $c>1$，得到 $a<b<c$，因此正确选项为 A.</p>"
         },
         {
           "num": 10,
@@ -205,7 +205,7 @@
           "body": "<p>已知函数 $f(x) = \\dfrac{2ax - a^2 + 1}{x^2 + 1}$（$x \\in \\mathbb{R}$），其中 $a \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>当 $a = 1$ 时，求曲线 $y = f(x)$ 在点 $(2, f(2))$ 处的切线方程.</p></li><li><p>当 $a \\neq 0$ 时，求函数 $f(x)$ 的单调区间与极值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，$f(x)=\\dfrac{2x}{x^2+1}$，所以 $f(2)=\\dfrac{4}{5}$，且</p>\n$$\nf'(x)=\\dfrac{2(1-x^2)}{(x^2+1)^2}\n$$\n<p>所以 $f'(2)=-\\dfrac{6}{25}$.</p><p>因此曲线在点 $\\left(2,\\dfrac{4}{5}\\right)$ 处的切线方程为</p>\n$$\ny-\\dfrac{4}{5}=-\\dfrac{6}{25}(x-2), \\text{即}  6x+25y-32=0\n$$\n</li><li><p>对任意 $a\\neq0$，有</p>\n$$\nf'(x)=\\dfrac{-2a x^2+2(a^2-1)x+2a}{(x^2+1)^2}=\\dfrac{-2a(x-a)\\left(x+\\dfrac{1}{a}\\right)}{(x^2+1)^2}\n$$\n<p>所以两个临界点为 $x=a$ 和 $x=-\\dfrac{1}{a}$，并且</p><p>$f(a)=1$，$f\\left(-\\dfrac{1}{a}\\right)=-a^{2}$.</p><p>当 $a>0$ 时，$-\\dfrac{1}{a}&#x3C;a$，故 $f(x)$ 在 $\\left(-\\infty,-\\dfrac{1}{a}\\right)$ 和 $(a,+\\infty)$ 上单调递减，在 $\\left(-\\dfrac{1}{a},a\\right)$ 上单调递增；极小值为 $-a^{2}$，极大值为 $1$.</p><p>当 $a&#x3C;0$ 时，$a&#x3C;-\\dfrac{1}{a}$，故 $f(x)$ 在 $\\left(-\\infty,a\\right)$ 和 $\\left(-\\dfrac{1}{a},+\\infty\\right)$ 上单调递增，在 $\\left(a,-\\dfrac{1}{a}\\right)$ 上单调递减；极大值为 $1$，极小值为 $-a^{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，$f(x)=\\dfrac{2x}{x^2+1}$，所以 $f(2)=\\dfrac{4}{5}$，且</p>\n$$\nf'(x)=\\dfrac{2(1-x^2)}{(x^2+1)^2}\n$$\n<p>所以 $f'(2)=-\\dfrac{6}{25}$.</p><p>因此曲线在点 $\\left(2,\\dfrac{4}{5}\\right)$ 处的切线方程为</p>\n$$\ny-\\dfrac{4}{5}=-\\dfrac{6}{25}(x-2), \\text{即}  6x+25y-32=0\n$$\n</li><li><p>对任意 $a\\neq0$，有</p>\n$$\nf'(x)=\\dfrac{-2a x^2+2(a^2-1)x+2a}{(x^2+1)^2}=\\dfrac{-2a(x-a)\\left(x+\\dfrac{1}{a}\\right)}{(x^2+1)^2}\n$$\n<p>所以两个临界点为 $x=a$ 和 $x=-\\dfrac{1}{a}$，并且</p><p>$f(a)=1$，$f\\left(-\\dfrac{1}{a}\\right)=-a^{2}$.</p><p>当 $a>0$ 时，$-\\dfrac{1}{a}<a$，故 $f(x)$ 在 $\\left(-\\infty,-\\dfrac{1}{a}\\right)$ 和 $(a,+\\infty)$ 上单调递减，在 $\\left(-\\dfrac{1}{a},a\\right)$ 上单调递增；极小值为 $-a^{2}$，极大值为 $1$.</p><p>当 $a<0$ 时，$a<-\\dfrac{1}{a}$，故 $f(x)$ 在 $\\left(-\\infty,a\\right)$ 和 $\\left(-\\dfrac{1}{a},+\\infty\\right)$ 上单调递增，在 $\\left(a,-\\dfrac{1}{a}\\right)$ 上单调递减；极大值为 $1$，极小值为 $-a^{2}$.</p></li></ol>"
         },
         {
           "num": 21,

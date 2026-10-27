@@ -17,7 +17,7 @@
             "第二或第四象限"
           ],
           "answer": "D",
-          "solution": "<p>设 $\\alpha=2k\\pi+\\theta$，其中 $k\\in\\mathbb{Z}$，$\\pi&#x3C;\\theta&#x3C;\\dfrac{3\\pi}{2}$. 则</p><p>$\\dfrac{\\alpha}{2}=k\\pi+\\dfrac{\\theta}{2}$，从而 $\\dfrac{\\theta}{2}\\in\\left(\\dfrac{\\pi}{2},\\dfrac{3\\pi}{4}\\right)$. 当 $k$ 为偶数时，$\\dfrac{\\alpha}{2}$ 在第二象限；当 $k$ 为奇数时，$\\dfrac{\\alpha}{2}$ 在第四象限，所以应选 D.</p>"
+          "solution": "<p>设 $\\alpha=2k\\pi+\\theta$，其中 $k\\in\\mathbb{Z}$，$\\pi<\\theta<\\dfrac{3\\pi}{2}$. 则</p><p>$\\dfrac{\\alpha}{2}=k\\pi+\\dfrac{\\theta}{2}$，从而 $\\dfrac{\\theta}{2}\\in\\left(\\dfrac{\\pi}{2},\\dfrac{3\\pi}{4}\\right)$. 当 $k$ 为偶数时，$\\dfrac{\\alpha}{2}$ 在第二象限；当 $k$ 为奇数时，$\\dfrac{\\alpha}{2}$ 在第四象限，所以应选 D.</p>"
         },
         {
           "num": 2,
@@ -59,25 +59,25 @@
           "num": 5,
           "body": "设 $3^{x}= \\frac{1}{7}$，则（ ）",
           "choices": [
-            "$-2 &#x3C; x &#x3C; -1$",
-            "$-3 &#x3C; x &#x3C; -2$",
-            "$-1 &#x3C; x &#x3C; 0$",
-            "$0 &#x3C; x &#x3C; 1$"
+            "$-2 < x < -1$",
+            "$-3 < x < -2$",
+            "$-1 < x < 0$",
+            "$0 < x < 1$"
           ],
           "answer": "A",
-          "solution": "因为 $3^{-2}=\\dfrac{1}{9}&#x3C;\\dfrac{1}{7}&#x3C;\\dfrac{1}{3}=3^{-1}$，且函数 $3^{x}$ 在 $\\mathbb{R}$ 上单调递增，所以 $-2&#x3C;x&#x3C;-1$，应选 A."
+          "solution": "因为 $3^{-2}=\\dfrac{1}{9}<\\dfrac{1}{7}<\\dfrac{1}{3}=3^{-1}$，且函数 $3^{x}$ 在 $\\mathbb{R}$ 上单调递增，所以 $-2<x<-1$，应选 A."
         },
         {
           "num": 6,
           "body": "若 $a = \\frac{\\ln 2}{2}$，$b = \\frac{\\ln 3}{3}$，$c = \\frac{\\ln 5}{5}$，则（ ）",
           "choices": [
-            "$a &#x3C; b &#x3C; c$",
-            "$c &#x3C; b &#x3C; a$",
-            "$c &#x3C; a &#x3C; b$",
-            "$b &#x3C; a &#x3C; c$"
+            "$a < b < c$",
+            "$c < b < a$",
+            "$c < a < b$",
+            "$b < a < c$"
           ],
           "answer": "C",
-          "solution": "由 $3\\ln2&#x3C;2\\ln3$（等价于 $8&#x3C;9$），得 $a&#x3C;b$. 又由 $2\\ln5&#x3C;5\\ln2$（等价于 $25&#x3C;32$），得 $c&#x3C;a$. 因此 $c&#x3C;a&#x3C;b$，应选 C."
+          "solution": "由 $3\\ln2<2\\ln3$（等价于 $8<9$），得 $a<b$. 又由 $2\\ln5<5\\ln2$（等价于 $25<32$），得 $c<a$. 因此 $c<a<b$，应选 C."
         },
         {
           "num": 7,
@@ -125,7 +125,7 @@
             "$\\sqrt{2}- 1$"
           ],
           "answer": "D",
-          "solution": "<p>设椭圆的长半轴、短半轴和半焦距分别为 $a$、$b$、$c$，则 $a^{2}=b^{2}+c^{2}$. 取长轴为 $x$ 轴，设 $F_{2}=(c,0)$，则过 $F_{2}$ 的长轴垂线为 $x=c$. 设其与椭圆的交点为 $P$，则</p><p>$PF_{2}^{2}=b^{2}\\left(1-\\dfrac{c^2}{a^2}\\right)=\\dfrac{b^4}{a^2}$，从而 $PF_{2}=\\dfrac{b^2}{a}$.</p><p>三角形 $F_{1}PF_{2}$ 在 $F_{2}$ 处为直角，且为等腰三角形，所以 $PF_{2}=F_{1}F_{2}=2c$. 因此 $\\dfrac{b^2}{a}=2c$. 令离心率 $e=\\dfrac{c}{a}$，代入 $b^{2}=a^{2}-c^{2}$，得 $1-e^{2}=2e$. 因为 $0&#x3C;e&#x3C;1$，所以 $e=\\sqrt{2}-1$，应选 D.</p>"
+          "solution": "<p>设椭圆的长半轴、短半轴和半焦距分别为 $a$、$b$、$c$，则 $a^{2}=b^{2}+c^{2}$. 取长轴为 $x$ 轴，设 $F_{2}=(c,0)$，则过 $F_{2}$ 的长轴垂线为 $x=c$. 设其与椭圆的交点为 $P$，则</p><p>$PF_{2}^{2}=b^{2}\\left(1-\\dfrac{c^2}{a^2}\\right)=\\dfrac{b^4}{a^2}$，从而 $PF_{2}=\\dfrac{b^2}{a}$.</p><p>三角形 $F_{1}PF_{2}$ 在 $F_{2}$ 处为直角，且为等腰三角形，所以 $PF_{2}=F_{1}F_{2}=2c$. 因此 $\\dfrac{b^2}{a}=2c$. 令离心率 $e=\\dfrac{c}{a}$，代入 $b^{2}=a^{2}-c^{2}$，得 $1-e^{2}=2e$. 因为 $0<e<1$，所以 $e=\\sqrt{2}-1$，应选 D.</p>"
         },
         {
           "num": 11,
@@ -222,7 +222,7 @@
           "body": "<p>用长为 $90 \\mathrm{~cm}$，宽为 $48 \\mathrm{~cm}$ 的长方形铁皮做一个无盖的容器，先在四角分别截去一个小正方形，然后把四边翻转 $90^{\\circ}$ 角，再焊接而成（如图），问该容器的高为多少时，容器的容积最大？最大容积是多少？</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设截去的小正方形边长为 $h\\mathrm{~cm}$，则容器的高为 $h\\mathrm{~cm}$. 为使底面宽度为正，必须有 $0&#x3C;h&#x3C;24$. 容器底面的长、宽分别为 $(90-2h)\\mathrm{~cm}$、$(48-2h)\\mathrm{cm}$，所以以 $\\mathrm{cm}^{3}$ 为单位的容积函数的数值为</p><p>$V(h)=h(90-2h)(48-2h)=4h^{3}-276h^{2}+4320h$.</p><p>求导得 $V'(h)=12h^{2}-552h+4320=12(h-10)(h-36)$. 在 $0&#x3C;h&#x3C;24$ 时，$V'(h)>0$ 当 $0&#x3C;h&#x3C;10$，$V'(h)&#x3C;0$ 当 $10&#x3C;h&#x3C;24$，所以 $h=10$ 时容积取得最大值. 此时</p><p>$V(10)=10\\times70\\times28=19600$. 因而容器的高为 $10\\mathrm{~cm}$，最大容积为 $19600\\mathrm{~cm}^{3}$.</p>"
+          "solution": "<p>设截去的小正方形边长为 $h\\mathrm{~cm}$，则容器的高为 $h\\mathrm{~cm}$. 为使底面宽度为正，必须有 $0<h<24$. 容器底面的长、宽分别为 $(90-2h)\\mathrm{~cm}$、$(48-2h)\\mathrm{cm}$，所以以 $\\mathrm{cm}^{3}$ 为单位的容积函数的数值为</p><p>$V(h)=h(90-2h)(48-2h)=4h^{3}-276h^{2}+4320h$.</p><p>求导得 $V'(h)=12h^{2}-552h+4320=12(h-10)(h-36)$. 在 $0<h<24$ 时，$V'(h)>0$ 当 $0<h<10$，$V'(h)<0$ 当 $10<h<24$，所以 $h=10$ 时容积取得最大值. 此时</p><p>$V(10)=10\\times70\\times28=19600$. 因而容器的高为 $10\\mathrm{~cm}$，最大容积为 $19600\\mathrm{~cm}^{3}$.</p>"
         },
         {
           "num": 22,

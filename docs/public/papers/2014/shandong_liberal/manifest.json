@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "设集合 $A = \\{x \\mid x^{2} - 2x &#x3C; 0\\}$，$B = \\{x \\mid 1 \\le x \\le 4\\}$，则 $A \\cap B =$（ ）",
+          "body": "设集合 $A = \\{x \\mid x^{2} - 2x < 0\\}$，$B = \\{x \\mid 1 \\le x \\le 4\\}$，则 $A \\cap B =$（ ）",
           "choices": [
             "$(0,2]$",
             "$(1,2)$",
@@ -29,7 +29,7 @@
             "$(1,4)$"
           ],
           "answer": "C",
-          "solution": "<p>由 $x^{2}-2x=x(x-2)&#x3C;0$，得 $0&#x3C;x&#x3C;2$，所以 $A=(0,2)$. 又 $B=[1,4]$，从而</p>\n$$\nA\\cap B=[1,2)\n$$\n<p>故选 C.</p>"
+          "solution": "<p>由 $x^{2}-2x=x(x-2)<0$，得 $0<x<2$，所以 $A=(0,2)$. 又 $B=[1,4]$，从而</p>\n$$\nA\\cap B=[1,2)\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 3,
@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "已知实数 $x$，$y$ 满足 $a^{x} &#x3C; a^{y}$ （$0 &#x3C; a &#x3C; 1$），则下列关系式恒成立的是（ ）",
+          "body": "已知实数 $x$，$y$ 满足 $a^{x} < a^{y}$ （$0 < a < 1$），则下列关系式恒成立的是（ ）",
           "choices": [
             "$x^{3} > y^{3}$",
             "$\\sin x > \\sin y$",
@@ -65,19 +65,19 @@
             "$\\frac{1}{x^{2} + 1}>\\frac{1}{y^{2} + 1}$"
           ],
           "answer": "A",
-          "solution": "<p>当 $0&#x3C;a&#x3C;1$ 时，函数 $a^{x}$ 在 $\\mathbb{R}$ 上单调递减. 由 $a^{x}&#x3C;a^{y}$ 可得 $x>y$. 由于函数 $x^{3}$ 在 $\\mathbb{R}$ 上单调递增，所以</p>\n$$\nx^{3}>y^{3}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>当 $0<a<1$ 时，函数 $a^{x}$ 在 $\\mathbb{R}$ 上单调递减. 由 $a^{x}<a^{y}$ 可得 $x>y$. 由于函数 $x^{3}$ 在 $\\mathbb{R}$ 上单调递增，所以</p>\n$$\nx^{3}>y^{3}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 6,
           "body": "<p>已知函数 $y = \\log_{a} (x + c)$ （$a$，$c$ 为常数，其中 $a > 0$，$a \\neq 1$）的图象如图，则下列结论成立的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$a > 1, c > 1$",
-            "$a > 1$，$0 &#x3C; c &#x3C; 1$",
-            "$0 &#x3C; a &#x3C; 1$，$c > 1$",
-            "$0 &#x3C; a &#x3C; 1$，$0 &#x3C; c &#x3C; 1$"
+            "$a > 1$，$0 < c < 1$",
+            "$0 < a < 1$，$c > 1$",
+            "$0 < a < 1$，$0 < c < 1$"
           ],
           "answer": "D",
-          "solution": "<p>由图象可知函数单调递减，因此 $0&#x3C;a&#x3C;1$. 图象与 $x$ 轴的交点横坐标在 $0$ 与 $1$ 之间，而当 $y=0$ 时，</p><p>$\\log_{a}(x+c)=0$，$\\Longrightarrow$，$x=1-c$.</p><p>所以 $0&#x3C;1-c&#x3C;1$，即 $0&#x3C;c&#x3C;1$. 故选 D.</p>"
+          "solution": "<p>由图象可知函数单调递减，因此 $0<a<1$. 图象与 $x$ 轴的交点横坐标在 $0$ 与 $1$ 之间，而当 $y=0$ 时，</p><p>$\\log_{a}(x+c)=0$，$\\Longrightarrow$，$x=1-c$.</p><p>所以 $0<1-c<1$，即 $0<c<1$. 故选 D.</p>"
         },
         {
           "num": 7,
@@ -184,7 +184,7 @@
           "body": "<p>$\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $a = 3$，$\\cos A = \\frac{\\sqrt{6}}{3}$，$B = A + \\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>求 $b$ 的值；</p></li><li><p>求 $\\triangle ABC$ 的面积.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $A$ 为三角形内角，得 $\\sin A>0$，所以</p>\n$$\n\\sin A=\\sqrt{1-\\cos^{2}A}=\\sqrt{1-\\frac{6}{9}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>又由 $A+B+C=\\pi$ 和 $B=A+\\frac{\\pi}{2}$，得 $2A&#x3C;\\frac{\\pi}{2}$，从而 $C=\\frac{\\pi}{2}-2A>0$，这些角确实满足三角形内角的范围.</p><ol class=\"enumerate\"><li><p>由 $B=A+\\frac{\\pi}{2}$，得 $\\sin B=\\cos A=\\frac{\\sqrt{6}}{3}$. 根据正弦定理，</p>\n$$\n\\frac{b}{\\sin B}=\\frac{a}{\\sin A}\n$$\n<p>从而</p>\n$$\nb=a\\frac{\\sin B}{\\sin A}=3\\cdot\\frac{\\frac{\\sqrt{6}}{3}}{\\frac{\\sqrt{3}}{3}}=3\\sqrt{2}\n$$\n</li><li><p>三角形内角和给出 $C=\\pi-A-B=\\frac{\\pi}{2}-2A$，于是</p>\n$$\n\\sin C=\\cos 2A=\\cos^{2}A-\\sin^{2}A=\\frac{6}{9}-\\frac{3}{9}=\\frac{1}{3}\n$$\n<p>因此三角形面积为</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\cdot3\\cdot3\\sqrt{2}\\cdot\\frac{1}{3}=\\frac{3\\sqrt{2}}{2}\n$$\n</li></ol>"
+          "solution": "<p>由 $A$ 为三角形内角，得 $\\sin A>0$，所以</p>\n$$\n\\sin A=\\sqrt{1-\\cos^{2}A}=\\sqrt{1-\\frac{6}{9}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>又由 $A+B+C=\\pi$ 和 $B=A+\\frac{\\pi}{2}$，得 $2A<\\frac{\\pi}{2}$，从而 $C=\\frac{\\pi}{2}-2A>0$，这些角确实满足三角形内角的范围.</p><ol class=\"enumerate\"><li><p>由 $B=A+\\frac{\\pi}{2}$，得 $\\sin B=\\cos A=\\frac{\\sqrt{6}}{3}$. 根据正弦定理，</p>\n$$\n\\frac{b}{\\sin B}=\\frac{a}{\\sin A}\n$$\n<p>从而</p>\n$$\nb=a\\frac{\\sin B}{\\sin A}=3\\cdot\\frac{\\frac{\\sqrt{6}}{3}}{\\frac{\\sqrt{3}}{3}}=3\\sqrt{2}\n$$\n</li><li><p>三角形内角和给出 $C=\\pi-A-B=\\frac{\\pi}{2}-2A$，于是</p>\n$$\n\\sin C=\\cos 2A=\\cos^{2}A-\\sin^{2}A=\\frac{6}{9}-\\frac{3}{9}=\\frac{1}{3}\n$$\n<p>因此三角形面积为</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\cdot3\\cdot3\\sqrt{2}\\cdot\\frac{1}{3}=\\frac{3\\sqrt{2}}{2}\n$$\n</li></ol>"
         },
         {
           "num": 18,
@@ -198,14 +198,14 @@
           "body": "<p>在等差数列 $\\{a_{n}\\}$ 中，已知公差 $d = 2$，$a_{2}$ 是 $a_{1}$ 与 $a_{4}$ 的等比中项.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $b_{n} = a_{\\frac{n(n+1)}{2}}$，记 $T_{n} = -b_{1} + b_{2} - b_{3} + b_{4} - \\cdots + (-1)^{n} b_{n}$，求 $T_{n}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由公差 $d=2$，得</p><p>$a_{2}=a_{1}+2$，$a_{4}=a_{1}+6$.</p><p>因为 $a_{2}$ 是 $a_{1}$ 与 $a_{4}$ 的等比中项，所以</p>\n$$\n(a_{1}+2)^{2}=a_{1}(a_{1}+6)\n$$\n<p>展开并化简得 $a_{1}^{2}+4a_{1}+4=a_{1}^{2}+6a_{1}$，即 $a_{1}=2$. 因此数列的通项公式为</p>\n$$\na_{n}=a_{1}+(n-1)d=2+2(n-1)=2n\n$$\n</li><li><p>由定义</p>\n$$\nb_{n}=a_{\\frac{n(n+1)}{2}}=2\\cdot\\frac{n(n+1)}{2}=n(n+1)\n$$\n<p>当 $n=2m$ 时，成对相加可得</p>\n$$\nT_{2m}=\\sum_{j=1}^{m}\\bigl[-(2j-1)(2j)+(2j)(2j+1)\\bigr]  =\\sum_{j=1}^{m}4j=2m(m+1)\n$$\n<p>当 $n=2m+1$ 时，</p>\n$$\nT_{2m+1}=T_{2m}-(2m+1)(2m+2)=-2(m+1)^{2}\n$$\n<p>所以</p>\n$$\nT_{n}=\\begin{cases}\\dfrac{n(n+2)}2,&#x26;n=2m,\\\\[6pt]  -\\dfrac{(n+1)^{2}}2,&#x26;n=2m+1,\\end{cases}\n$$\n<p>其中偶数情形 $m\\geqslant1$，奇数情形 $m\\geqslant0$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由公差 $d=2$，得</p><p>$a_{2}=a_{1}+2$，$a_{4}=a_{1}+6$.</p><p>因为 $a_{2}$ 是 $a_{1}$ 与 $a_{4}$ 的等比中项，所以</p>\n$$\n(a_{1}+2)^{2}=a_{1}(a_{1}+6)\n$$\n<p>展开并化简得 $a_{1}^{2}+4a_{1}+4=a_{1}^{2}+6a_{1}$，即 $a_{1}=2$. 因此数列的通项公式为</p>\n$$\na_{n}=a_{1}+(n-1)d=2+2(n-1)=2n\n$$\n</li><li><p>由定义</p>\n$$\nb_{n}=a_{\\frac{n(n+1)}{2}}=2\\cdot\\frac{n(n+1)}{2}=n(n+1)\n$$\n<p>当 $n=2m$ 时，成对相加可得</p>\n$$\nT_{2m}=\\sum_{j=1}^{m}\\bigl[-(2j-1)(2j)+(2j)(2j+1)\\bigr]  =\\sum_{j=1}^{m}4j=2m(m+1)\n$$\n<p>当 $n=2m+1$ 时，</p>\n$$\nT_{2m+1}=T_{2m}-(2m+1)(2m+2)=-2(m+1)^{2}\n$$\n<p>所以</p>\n$$\nT_{n}=\\begin{cases}\\dfrac{n(n+2)}2,&n=2m,\\\\[6pt]  -\\dfrac{(n+1)^{2}}2,&n=2m+1,\\end{cases}\n$$\n<p>其中偶数情形 $m\\geqslant1$，奇数情形 $m\\geqslant0$.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>设函数 $f(x) = a \\ln x + \\frac{x - 1}{x + 1}$，其中 $a$ 为常数.</p><ol class=\"enumerate\"><li><p>若 $a = 0$，求曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线方程；</p></li><li><p>讨论函数 $f(x)$ 的单调性.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>函数的定义域为 $x>0$，且</p>\n$$\nf'(x)=\\frac{a}{x}+\\frac{2}{(x+1)^{2}}=\\frac{a(x+1)^{2}+2x}{x(x+1)^{2}}\n$$\n<ol class=\"enumerate\"><li><p>当 $a=0$ 时，$f(1)=0$，$f'(1)=\\frac{1}{2}$. 因而曲线在 $(1,f(1))=(1,0)$ 处的切线方程为</p>\n$$\ny=\\frac{1}{2}(x-1)\n$$\n</li><li><p>由于 $x(x+1)^{2}>0$，$f'(x)$ 的符号由</p>\n$$\ng(x)=a(x+1)^{2}+2x=ax^{2}+2(a+1)x+a\n$$\n<p>决定.</p><p>当 $a\\geqslant0$ 时，$g(x)>0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调递增.</p><p>当 $a&#x3C;0$ 时，方程 $g(x)=0$ 的判别式为 $4(2a+1)$. 若 $a&#x3C;-\\frac{1}{2}$，判别式小于零，且 $g(0)=a&#x3C;0$，故 $g(x)&#x3C;0$，函数在 $(0,+\\infty)$ 上单调递减. 若 $a=-\\frac{1}{2}$，则</p>\n$$\ng(x)=-\\frac{1}{2}(x-1)^{2}\\leqslant0\n$$\n<p>且 $g(x)=0$ 仅在 $x=1$ 处成立. 因此 $f'(x)&#x3C;0$ 在 $(0,1)$ 和 $(1,+\\infty)$ 上均成立，函数在这两个区间上分别严格递减；又 $f$ 在 $x=1$ 处连续，所以对任意 $0&#x3C;x_{1}&#x3C;1&#x3C;x_{2}$，有 $f(x_{1})>f(1)>f(x_{2})$. 故函数在 $(0,+\\infty)$ 上严格递减.</p><p>若 $-\\frac{1}{2}&#x3C;a&#x3C;0$，令</p><p>$x_{1}=\\frac{-(a+1)+\\sqrt{2a+1}}{a}$，$x_{2}=\\frac{-(a+1)-\\sqrt{2a+1}}{a}$.</p><p>由于 $a&#x3C;0$ 且 $0&#x3C;\\sqrt{2a+1}&#x3C;a+1$，有 $0&#x3C;x_{1}&#x3C;x_{2}$. 此时 $g(x)=0$ 的两个根为 $x_{1}$，$x_{2}$，又因二次项系数 $a&#x3C;0$，故</p><p>$f'(x)&#x3C;0$，（$0&#x3C;x&#x3C;x_{1}\\text{ 或 }x>x_{2}$），$f'(x)>0$，（$x_{1}&#x3C;x&#x3C;x_{2}$）.</p><p>因此函数在 $(0,x_{1})$，$(x_{2},+\\infty)$ 上单调递减，在 $(x_{1},x_{2})$ 上单调递增.</p></li></ol>"
+          "solution": "<p>函数的定义域为 $x>0$，且</p>\n$$\nf'(x)=\\frac{a}{x}+\\frac{2}{(x+1)^{2}}=\\frac{a(x+1)^{2}+2x}{x(x+1)^{2}}\n$$\n<ol class=\"enumerate\"><li><p>当 $a=0$ 时，$f(1)=0$，$f'(1)=\\frac{1}{2}$. 因而曲线在 $(1,f(1))=(1,0)$ 处的切线方程为</p>\n$$\ny=\\frac{1}{2}(x-1)\n$$\n</li><li><p>由于 $x(x+1)^{2}>0$，$f'(x)$ 的符号由</p>\n$$\ng(x)=a(x+1)^{2}+2x=ax^{2}+2(a+1)x+a\n$$\n<p>决定.</p><p>当 $a\\geqslant0$ 时，$g(x)>0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调递增.</p><p>当 $a<0$ 时，方程 $g(x)=0$ 的判别式为 $4(2a+1)$. 若 $a<-\\frac{1}{2}$，判别式小于零，且 $g(0)=a<0$，故 $g(x)<0$，函数在 $(0,+\\infty)$ 上单调递减. 若 $a=-\\frac{1}{2}$，则</p>\n$$\ng(x)=-\\frac{1}{2}(x-1)^{2}\\leqslant0\n$$\n<p>且 $g(x)=0$ 仅在 $x=1$ 处成立. 因此 $f'(x)<0$ 在 $(0,1)$ 和 $(1,+\\infty)$ 上均成立，函数在这两个区间上分别严格递减；又 $f$ 在 $x=1$ 处连续，所以对任意 $0<x_{1}<1<x_{2}$，有 $f(x_{1})>f(1)>f(x_{2})$. 故函数在 $(0,+\\infty)$ 上严格递减.</p><p>若 $-\\frac{1}{2}<a<0$，令</p><p>$x_{1}=\\frac{-(a+1)+\\sqrt{2a+1}}{a}$，$x_{2}=\\frac{-(a+1)-\\sqrt{2a+1}}{a}$.</p><p>由于 $a<0$ 且 $0<\\sqrt{2a+1}<a+1$，有 $0<x_{1}<x_{2}$. 此时 $g(x)=0$ 的两个根为 $x_{1}$，$x_{2}$，又因二次项系数 $a<0$，故</p><p>$f'(x)<0$，（$0<x<x_{1}\\text{ 或 }x>x_{2}$），$f'(x)>0$，（$x_{1}<x<x_{2}$）.</p><p>因此函数在 $(0,x_{1})$，$(x_{2},+\\infty)$ 上单调递减，在 $(x_{1},x_{2})$ 上单调递增.</p></li></ol>"
         },
         {
           "num": 21,

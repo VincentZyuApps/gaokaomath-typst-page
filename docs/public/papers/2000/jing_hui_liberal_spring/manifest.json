@@ -89,7 +89,7 @@
             "是奇函数，在区间 $(0,+\\infty)$ 上单调递减"
           ],
           "answer": "B",
-          "solution": "函数的定义域为 $x\\neq0$，且 $f(-x)=\\lg|-x|=\\lg|x|=f(x)$，所以它是偶函数. 在 $x&#x3C;0$ 时，$f'(x)=\\frac{1}{x\\ln10}&#x3C;0$，故函数在 $(-\\infty,0)$ 上单调递减，选 B."
+          "solution": "函数的定义域为 $x\\neq0$，且 $f(-x)=\\lg|-x|=\\lg|x|=f(x)$，所以它是偶函数. 在 $x<0$ 时，$f'(x)=\\frac{1}{x\\ln10}<0$，故函数在 $(-\\infty,0)$ 上单调递减，选 B."
         },
         {
           "num": 8,
@@ -143,25 +143,25 @@
           "num": 12,
           "body": "设 $\\alpha$，$\\beta$ 是一个钝角三角形的两个锐角，下列四个不等式中不正确的是（$ $）",
           "choices": [
-            "$\\tan \\alpha \\tan \\beta &#x3C; 1$",
-            "$\\sin \\alpha + \\sin \\beta &#x3C; \\sqrt{2}$",
+            "$\\tan \\alpha \\tan \\beta < 1$",
+            "$\\sin \\alpha + \\sin \\beta < \\sqrt{2}$",
             "$\\cos \\alpha + \\cos \\beta > 1$",
-            "$\\frac{1}{2}\\tan\\left(\\alpha+\\beta\\right)&#x3C;\\tan\\frac{\\alpha+\\beta}{2}$"
+            "$\\frac{1}{2}\\tan\\left(\\alpha+\\beta\\right)<\\tan\\frac{\\alpha+\\beta}{2}$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $\\alpha$，$\\beta$ 是钝角三角形的两个锐角，所以 $0&#x3C;\\alpha+\\beta&#x3C;\\frac{\\pi}{2}$. 令 $s=\\alpha+\\beta$. 由正切和角公式，$\\tan s=\\frac{\\tan\\alpha+\\tan\\beta}{1-\\tan\\alpha\\tan\\beta}>0$，故 $\\tan\\alpha\\tan\\beta&#x3C;1$，选项 A 正确. 又</p><p>$\\sin\\alpha+\\sin\\beta=2\\sin\\frac{s}{2}\\cos\\frac{\\alpha-\\beta}{2}\\leq2\\sin\\frac{s}{2}&#x3C;\\sqrt{2}$，选项 B 正确.</p><p>由于 $0\\leq|\\alpha-\\beta|&#x3C;s$，有</p><p>$\\cos\\alpha+\\cos\\beta=2\\cos\\frac{s}{2}\\cos\\frac{\\alpha-\\beta}{2}\\geq2\\cos^{2}\\frac{s}{2}=1+\\cos s>1$，选项 C 正确. 最后，令 $t=\\tan\\frac{s}{2}$，则 $0&#x3C;t&#x3C;1$，且 $\\frac{1}{2}\\tan s=\\frac{t}{1-t^{2}}>t=\\tan\\frac{s}{2}$，所以选项 D 的不等式错误，故选 D.</p>"
+          "solution": "<p>因为 $\\alpha$，$\\beta$ 是钝角三角形的两个锐角，所以 $0<\\alpha+\\beta<\\frac{\\pi}{2}$. 令 $s=\\alpha+\\beta$. 由正切和角公式，$\\tan s=\\frac{\\tan\\alpha+\\tan\\beta}{1-\\tan\\alpha\\tan\\beta}>0$，故 $\\tan\\alpha\\tan\\beta<1$，选项 A 正确. 又</p><p>$\\sin\\alpha+\\sin\\beta=2\\sin\\frac{s}{2}\\cos\\frac{\\alpha-\\beta}{2}\\leq2\\sin\\frac{s}{2}<\\sqrt{2}$，选项 B 正确.</p><p>由于 $0\\leq|\\alpha-\\beta|<s$，有</p><p>$\\cos\\alpha+\\cos\\beta=2\\cos\\frac{s}{2}\\cos\\frac{\\alpha-\\beta}{2}\\geq2\\cos^{2}\\frac{s}{2}=1+\\cos s>1$，选项 C 正确. 最后，令 $t=\\tan\\frac{s}{2}$，则 $0<t<1$，且 $\\frac{1}{2}\\tan s=\\frac{t}{1-t^{2}}>t=\\tan\\frac{s}{2}$，所以选项 D 的不等式错误，故选 D.</p>"
         },
         {
           "num": 13,
           "body": "已知等差数列 $\\{a_{n}\\}$ 满足 $a_{1}+a_{2}+a_{3}+\\cdots+a_{101}=0$，则有（$ $）",
           "choices": [
             "$a_{1}+ a_{101}> 0$",
-            "$a_{2} + a_{100}&#x3C; 0$",
+            "$a_{2} + a_{100}< 0$",
             "$a_{3}+ a_{99}= 0$",
             "$a_{51}= 51$"
           ],
           "answer": "C",
-          "solution": "<p>等差数列的中项为 $a_{51}$，且</p><p>$a_{1}+a_{2}+\\cdots+a_{101}=101a_{51}=0$，所以 $a_{51}=0$. 等差数列关于中项对称，因此 $a_{1}+a_{101}=2a_{51}=0$，$a_{2}+a_{100}=2a_{51}=0$，$a_{3}+a_{99}=2a_{51}=0$.</p><p>所以选项 A 的 $a_{1}+a_{101}>0$ 和选项 B 的 $a_{2}+a_{100}&#x3C;0$ 都错误，选项 C 正确；又 $a_{51}=0\\ne51$，选项 D 错误，故选 C.</p>"
+          "solution": "<p>等差数列的中项为 $a_{51}$，且</p><p>$a_{1}+a_{2}+\\cdots+a_{101}=101a_{51}=0$，所以 $a_{51}=0$. 等差数列关于中项对称，因此 $a_{1}+a_{101}=2a_{51}=0$，$a_{2}+a_{100}=2a_{51}=0$，$a_{3}+a_{99}=2a_{51}=0$.</p><p>所以选项 A 的 $a_{1}+a_{101}>0$ 和选项 B 的 $a_{2}+a_{100}<0$ 都错误，选项 C 正确；又 $a_{51}=0\\ne51$，选项 D 错误，故选 C.</p>"
         },
         {
           "num": 14,
@@ -173,7 +173,7 @@
             "$b\\in(2,+\\infty)$"
           ],
           "answer": "A",
-          "solution": "由图象可读出函数的三个零点为 $0$，$1$，$2$，且当 $x$ 充分大时 $f(x)>0$，所以三次项系数 $a>0$. 因而 $f(x)=ax(x-1)(x-2)=ax^{3}-3ax^{2}+2ax$，比较 $x^{2}$ 项得 $b=-3a&#x3C;0$，故选 A."
+          "solution": "由图象可读出函数的三个零点为 $0$，$1$，$2$，且当 $x$ 充分大时 $f(x)>0$，所以三次项系数 $a>0$. 因而 $f(x)=ax(x-1)(x-2)=ax^{3}-3ax^{2}+2ax$，比较 $x^{2}$ 项得 $b=-3a<0$，故选 A."
         }
       ]
     },
@@ -218,7 +218,7 @@
           "body": "已知二次函数 $f(x)=(\\lg a)x^{2}+2x+4\\lg a$ 的最大值为 $3$，求 $a$ 的值.",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $t=\\lg a$. 因为 $a>0$，且二次函数在 $\\mathbb{R}$ 上有最大值，所以 $t&#x3C;0$. 配方得</p>\n$$\nf(x)=t x^{2}+2x+4t=t\\left(x+\\frac{1}{t}\\right)^{2}+4t-\\frac{1}{t}\n$$\n<p>因此函数的最大值为 $4t-\\frac{1}{t}$，由题意</p>\n$$\n4t-\\frac{1}{t}=3\n$$\n<p>即 $4t^{2}-3t-1=0$，所以 $(4t+1)(t-1)=0$. 由 $t&#x3C;0$ 得 $t=-\\frac{1}{4}$，从而</p>\n$$\na=10^{t}=10^{-\\frac{1}{4}}\n$$"
+          "solution": "<p>令 $t=\\lg a$. 因为 $a>0$，且二次函数在 $\\mathbb{R}$ 上有最大值，所以 $t<0$. 配方得</p>\n$$\nf(x)=t x^{2}+2x+4t=t\\left(x+\\frac{1}{t}\\right)^{2}+4t-\\frac{1}{t}\n$$\n<p>因此函数的最大值为 $4t-\\frac{1}{t}$，由题意</p>\n$$\n4t-\\frac{1}{t}=3\n$$\n<p>即 $4t^{2}-3t-1=0$，所以 $(4t+1)(t-1)=0$. 由 $t<0$ 得 $t=-\\frac{1}{4}$，从而</p>\n$$\na=10^{t}=10^{-\\frac{1}{4}}\n$$"
         },
         {
           "num": 20,

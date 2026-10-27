@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "函数 $y = \\ln \\cos x$（$-\\frac{\\pi}{2}&#x3C; x &#x3C; \\frac{\\pi}{2}$）的图象是（ ）",
+          "body": "函数 $y = \\ln \\cos x$（$-\\frac{\\pi}{2}< x < \\frac{\\pi}{2}$）的图象是（ ）",
           "choices": [
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_science/q3_choiceA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_science/q3_choiceB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
@@ -149,7 +149,7 @@
             "$[\\sqrt{10},9]$"
           ],
           "answer": "C",
-          "solution": "<p>不等式组所表示的区域由三条直线围成. 三条边界直线两两相交所得的三个顶点为</p><p>$(1,9)$，$(2,10)$，$(3,8)$，所以区域 $M$ 是这三个点组成的三角形. 对于 $(x,y)\\in M$，有 $1\\le x\\leqslant3$ 且 $y>0$. 若 $y=a^{x}$，则</p><p>$\\ln a=\\frac{\\ln y}{x}$.</p><p>固定 $x$ 时，$\\frac{\\ln y}{x}$ 随 $y$ 增大而增大. 区域的下边界为 $y=\\frac{19-x}{2}$，上边界在 $[1,2]$ 上为 $y=x+8$，在 $[2,3]$ 上为 $y=14-2x$. 对下边界，函数</p><p>$\\frac{\\ln(\\frac{(19-x)}{2})}{x}$ 的导数为</p><p>$\\frac{-\\frac{x}{(19-x)}-\\ln(\\frac{(19-x)}{2})}{x^{2}}&#x3C;0$，故其最大值和最小值分别在 $x=1$ 和 $x=3$ 处取得，分别为 $\\ln9$ 和 $\\ln2$. 对上边界，在 $[1,2]$ 上</p><p>$\\frac{\\ln(x+8)}{x}$ 的导数为 $\\frac{\\frac{x}{(x+8)}-\\ln(x+8)}{x^{2}}&#x3C;0$，在 $[2,3]$ 上</p><p>$\\frac{\\ln(14-2x)}{x}$ 的导数为 $\\frac{-2\\frac{x}{(14-2x)}-\\ln(14-2x)}{x^{2}}&#x3C;0$，所以整个上边界上的最大值为 $\\ln9$，最小值为 $\\ln2$. 因而</p><p>$\\ln2\\le\\ln a\\le\\ln9$，即 $2\\le a\\leqslant9$. 区域 $M$ 连通，且 $y^{\\frac{1}{x}}$ 连续，所以其中间的每个值都能取得，故选 C.</p>"
+          "solution": "<p>不等式组所表示的区域由三条直线围成. 三条边界直线两两相交所得的三个顶点为</p><p>$(1,9)$，$(2,10)$，$(3,8)$，所以区域 $M$ 是这三个点组成的三角形. 对于 $(x,y)\\in M$，有 $1\\le x\\leqslant3$ 且 $y>0$. 若 $y=a^{x}$，则</p><p>$\\ln a=\\frac{\\ln y}{x}$.</p><p>固定 $x$ 时，$\\frac{\\ln y}{x}$ 随 $y$ 增大而增大. 区域的下边界为 $y=\\frac{19-x}{2}$，上边界在 $[1,2]$ 上为 $y=x+8$，在 $[2,3]$ 上为 $y=14-2x$. 对下边界，函数</p><p>$\\frac{\\ln(\\frac{(19-x)}{2})}{x}$ 的导数为</p><p>$\\frac{-\\frac{x}{(19-x)}-\\ln(\\frac{(19-x)}{2})}{x^{2}}<0$，故其最大值和最小值分别在 $x=1$ 和 $x=3$ 处取得，分别为 $\\ln9$ 和 $\\ln2$. 对上边界，在 $[1,2]$ 上</p><p>$\\frac{\\ln(x+8)}{x}$ 的导数为 $\\frac{\\frac{x}{(x+8)}-\\ln(x+8)}{x^{2}}<0$，在 $[2,3]$ 上</p><p>$\\frac{\\ln(14-2x)}{x}$ 的导数为 $\\frac{-2\\frac{x}{(14-2x)}-\\ln(14-2x)}{x^{2}}<0$，所以整个上边界上的最大值为 $\\ln9$，最小值为 $\\ln2$. 因而</p><p>$\\ln2\\le\\ln a\\le\\ln9$，即 $2\\le a\\leqslant9$. 区域 $M$ 连通，且 $y^{\\frac{1}{x}}$ 连续，所以其中间的每个值都能取得，故选 C.</p>"
         }
       ]
     },
@@ -161,7 +161,7 @@
           "body": "<p>执行下面的程序框图，若 $p = 0.8$，则输出的 $n =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$4$",
-          "solution": "程序开始时 $n=1$，$S=0$. 由于 $0&#x3C;0.8$，第一次循环后 $S=\\frac{1}{2}$，$n=2$；由于 $\\frac{1}{2}&#x3C;0.8$，第二次循环后 $S=\\frac{1}{2}+\\frac{1}{4}=\\frac{3}{4}$，$n=3$；由于 $\\frac{3}{4}&#x3C;0.8$，第三次循环后 $S=\\frac{3}{4}+\\frac{1}{8}=\\frac{7}{8}$，$n=4$. 此时 $\\frac{7}{8}=0.875>0.8$，循环结束，故输出 $n=4$."
+          "solution": "程序开始时 $n=1$，$S=0$. 由于 $0<0.8$，第一次循环后 $S=\\frac{1}{2}$，$n=2$；由于 $\\frac{1}{2}<0.8$，第二次循环后 $S=\\frac{1}{2}+\\frac{1}{4}=\\frac{3}{4}$，$n=3$；由于 $\\frac{3}{4}<0.8$，第三次循环后 $S=\\frac{3}{4}+\\frac{1}{8}=\\frac{7}{8}$，$n=4$. 此时 $\\frac{7}{8}=0.875>0.8$，循环结束，故输出 $n=4$."
         },
         {
           "num": 14,
@@ -175,14 +175,14 @@
           "body": "已知 $a$，$b$，$c$ 为 $\\triangle ABC$ 的三个内角 $A$，$B$，$C$ 的对边，向量 $\\mathbf{m}= (\\sqrt{3}, -1)$，$\\mathbf{n}= (\\cos A, \\sin A)$. 若 $\\mathbf{m}\\perp \\mathbf{n}$，且 $a \\cos B + b \\cos A = c \\sin C$，则角 $B =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{\\pi}{6}$",
-          "solution": "<p>由 $\\mathbf{m}\\perp\\mathbf{n}$，得</p><p>$\\sqrt{3}\\cos A-\\sin A=0$，即 $\\sin A=\\sqrt{3}\\cos A$. 因为 $0&#x3C;A&#x3C;\\pi$ 且 $\\sin A>0$，所以 $\\cos A>0$，从而 $A=\\frac{\\pi}{3}$.</p><p>由余弦定理，</p><p>$\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2ac}$，$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}$. 因而</p><p>$a\\cos B+b\\cos A=\\frac{a^{2}+c^{2}-b^{2}}{2c}+\\frac{b^{2}+c^{2}-a^{2}}{2c}=c$. 题设还给出 $a\\cos B+b\\cos A=c\\sin C$，故 $c=c\\sin C$. 由于 $c>0$，所以 $\\sin C=1$，即 $C=\\frac{\\pi}{2}$. 因此</p><p>$B=\\pi-A-C=\\pi-\\frac{\\pi}{3}-\\frac{\\pi}{2}=\\frac{\\pi}{6}$.</p>"
+          "solution": "<p>由 $\\mathbf{m}\\perp\\mathbf{n}$，得</p><p>$\\sqrt{3}\\cos A-\\sin A=0$，即 $\\sin A=\\sqrt{3}\\cos A$. 因为 $0<A<\\pi$ 且 $\\sin A>0$，所以 $\\cos A>0$，从而 $A=\\frac{\\pi}{3}$.</p><p>由余弦定理，</p><p>$\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2ac}$，$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}$. 因而</p><p>$a\\cos B+b\\cos A=\\frac{a^{2}+c^{2}-b^{2}}{2c}+\\frac{b^{2}+c^{2}-a^{2}}{2c}=c$. 题设还给出 $a\\cos B+b\\cos A=c\\sin C$，故 $c=c\\sin C$. 由于 $c>0$，所以 $\\sin C=1$，即 $C=\\frac{\\pi}{2}$. 因此</p><p>$B=\\pi-A-C=\\pi-\\frac{\\pi}{3}-\\frac{\\pi}{2}=\\frac{\\pi}{6}$.</p>"
         },
         {
           "num": 16,
-          "body": "若不等式 $|3x - b| &#x3C; 4$ 的解集中的整数有且仅有 $1$，$2$，$3$，则 $b$ 的取值范围为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "若不等式 $|3x - b| < 4$ 的解集中的整数有且仅有 $1$，$2$，$3$，则 $b$ 的取值范围为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(5,7)$",
-          "solution": "<p>不等式等价于</p><p>$\\frac{b-4}{3}&#x3C;x&#x3C;\\frac{b+4}{3}$. 为使 $1$，$2$，$3$ 都在解集中，需要 $b&#x3C;7$ 且 $b>5$. 同时，为使整数 0 不在解集中，需要 $\\frac{b-4}{3}\\geqslant0$，为使整数 4 不在解集中，需要 $\\frac{b+4}{3}\\leqslant4$. 后两个条件在 $5&#x3C;b&#x3C;7$ 时自动满足，因此</p><p>$5&#x3C;b&#x3C;7$，即 $b\\in(5,7)$.</p>"
+          "solution": "<p>不等式等价于</p><p>$\\frac{b-4}{3}<x<\\frac{b+4}{3}$. 为使 $1$，$2$，$3$ 都在解集中，需要 $b<7$ 且 $b>5$. 同时，为使整数 0 不在解集中，需要 $\\frac{b-4}{3}\\geqslant0$，为使整数 4 不在解集中，需要 $\\frac{b+4}{3}\\leqslant4$. 后两个条件在 $5<b<7$ 时自动满足，因此</p><p>$5<b<7$，即 $b\\in(5,7)$.</p>"
         }
       ]
     },
@@ -191,10 +191,10 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>已知函数 $f(x) = \\sqrt{3}\\sin(\\omega x + \\varphi) - \\cos(\\omega x + \\varphi)$（$0 &#x3C; \\varphi &#x3C; \\pi$，$\\omega > 0$）为偶函数，且函数 $y = f(x)$ 图象的两相邻对称轴间的距离为 $\\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>求 $f\\left(\\frac{\\pi}{8}\\right)$ 的值；</p></li><li><p>将函数 $y = f(x)$ 的图象向右平移 $\\frac{\\pi}{6}$ 个单位后，再将得到的图象上各点的横坐标伸长到原来的 4 倍，纵坐标不变，得到函数 $y = g(x)$ 的图象，求 $g(x)$ 的单调递减区间.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = \\sqrt{3}\\sin(\\omega x + \\varphi) - \\cos(\\omega x + \\varphi)$（$0 < \\varphi < \\pi$，$\\omega > 0$）为偶函数，且函数 $y = f(x)$ 图象的两相邻对称轴间的距离为 $\\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>求 $f\\left(\\frac{\\pi}{8}\\right)$ 的值；</p></li><li><p>将函数 $y = f(x)$ 的图象向右平移 $\\frac{\\pi}{6}$ 个单位后，再将得到的图象上各点的横坐标伸长到原来的 4 倍，纵坐标不变，得到函数 $y = g(x)$ 的图象，求 $g(x)$ 的单调递减区间.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将函数化为正弦型，得</p><p>$f(x)=2\\sin\\left(\\omega x+\\varphi-\\frac{\\pi}{6}\\right)$. 该函数相邻对称轴间的距离为 $\\frac{\\pi}{\\omega}$，所以 $\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，即 $\\omega=2$. 令 $\\delta=\\varphi-\\frac{\\pi}{6}$，则</p><p>$f(x)=2\\sin(2x+\\delta)=2\\sin2x\\cos\\delta+2\\cos2x\\sin\\delta$. 因为 $f(x)$ 是偶函数，$\\sin2x$ 的系数必须为零，故 $\\cos\\delta=0$. 由 $0&#x3C;\\varphi&#x3C;\\pi$，得 $-\\frac{\\pi}{6}&#x3C;\\delta&#x3C;\\frac{5\\pi}{6}$，所以 $\\delta=\\frac{\\pi}{2}$，从而 $\\varphi=\\frac{2\\pi}{3}$. 因此 $f(x)=2\\cos2x$，于是</p><p>$f\\left(\\frac{\\pi}{8}\\right)=2\\cos\\frac{\\pi}{4}=\\sqrt{2}$.</p></li><li><p>先向右平移 $\\frac{\\pi}{6}$，得到 $y=f\\left(x-\\frac{\\pi}{6}\\right)=2\\cos\\left(2x-\\frac{\\pi}{3}\\right)$. 再将横坐标伸长到原来的 4 倍，得到</p><p>$g(x)=2\\cos\\left(\\frac{x}{2}-\\frac{\\pi}{3}\\right)$. 因而</p><p>$g'(x)=-\\sin\\left(\\frac{x}{2}-\\frac{\\pi}{3}\\right)$. 当</p><p>$\\frac{x}{2}-\\frac{\\pi}{3}\\in[2k\\pi,(2k+1)\\pi]$，即</p><p>$x\\in\\left[4k\\pi+\\frac{2\\pi}{3},4k\\pi+\\frac{8\\pi}{3}\\right]$（$k\\in\\mathbb{Z}$）时，$g'(x)\\leqslant0$，且除端点外严格小于零. 所以 $g(x)$ 的单调递减区间为</p><p>$\\left[4k\\pi+\\frac{2\\pi}{3},4k\\pi+\\frac{8\\pi}{3}\\right]$（$k\\in\\mathbb{Z}$）.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将函数化为正弦型，得</p><p>$f(x)=2\\sin\\left(\\omega x+\\varphi-\\frac{\\pi}{6}\\right)$. 该函数相邻对称轴间的距离为 $\\frac{\\pi}{\\omega}$，所以 $\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，即 $\\omega=2$. 令 $\\delta=\\varphi-\\frac{\\pi}{6}$，则</p><p>$f(x)=2\\sin(2x+\\delta)=2\\sin2x\\cos\\delta+2\\cos2x\\sin\\delta$. 因为 $f(x)$ 是偶函数，$\\sin2x$ 的系数必须为零，故 $\\cos\\delta=0$. 由 $0<\\varphi<\\pi$，得 $-\\frac{\\pi}{6}<\\delta<\\frac{5\\pi}{6}$，所以 $\\delta=\\frac{\\pi}{2}$，从而 $\\varphi=\\frac{2\\pi}{3}$. 因此 $f(x)=2\\cos2x$，于是</p><p>$f\\left(\\frac{\\pi}{8}\\right)=2\\cos\\frac{\\pi}{4}=\\sqrt{2}$.</p></li><li><p>先向右平移 $\\frac{\\pi}{6}$，得到 $y=f\\left(x-\\frac{\\pi}{6}\\right)=2\\cos\\left(2x-\\frac{\\pi}{3}\\right)$. 再将横坐标伸长到原来的 4 倍，得到</p><p>$g(x)=2\\cos\\left(\\frac{x}{2}-\\frac{\\pi}{3}\\right)$. 因而</p><p>$g'(x)=-\\sin\\left(\\frac{x}{2}-\\frac{\\pi}{3}\\right)$. 当</p><p>$\\frac{x}{2}-\\frac{\\pi}{3}\\in[2k\\pi,(2k+1)\\pi]$，即</p><p>$x\\in\\left[4k\\pi+\\frac{2\\pi}{3},4k\\pi+\\frac{8\\pi}{3}\\right]$（$k\\in\\mathbb{Z}$）时，$g'(x)\\leqslant0$，且除端点外严格小于零. 所以 $g(x)$ 的单调递减区间为</p><p>$\\left[4k\\pi+\\frac{2\\pi}{3},4k\\pi+\\frac{8\\pi}{3}\\right]$（$k\\in\\mathbb{Z}$）.</p></li></ol>"
         },
         {
           "num": 18,
@@ -222,7 +222,7 @@
           "body": "<p>已知函数 $f(x) = \\frac{1}{(1 - x)^{n}}+ a \\ln(x - 1)$，其中 $n \\in \\mathbb{N}^{*}$，$a$ 为常数.</p><ol class=\"enumerate\"><li><p>当 $n = 2$ 时，求函数 $f(x)$ 的极值.</p></li><li><p>当 $a = 1$ 时，证明：对任意的正整数 $n$，当 $x \\ge 2$ 时，有 $f(x) \\le x - 1$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $n=2$ 时，定义域为 $x>1$，且令 $t=x-1>0$，则</p><p>$f(x)=\\frac{1}{t^{2}}+a\\ln t$，</p><p>$f'(x)=\\frac{at^{2}-2}{t^{3}}$. 当 $a\\leqslant0$ 时，$f'(x)&#x3C;0$，所以函数在 $(1,+\\infty)$ 上单调递减，没有极值. 当 $a>0$ 时，令 $f'(x)=0$，得 $t=\\sqrt{\\frac{2}{a}}$，即 $x=1+\\sqrt{\\frac{2}{a}}$. 在该点左侧 $f'(x)&#x3C;0$，右侧 $f'(x)>0$，所以该点取得极小值，极小值为</p><p>$\\frac{a}{2}+a\\ln\\sqrt{\\frac{2}{a}}=\\frac{a}{2}\\left(1+\\ln\\frac{2}{a}\\right)$. 因而当 $a>0$ 时，函数的极小值为 $\\frac{a}{2}\\left(1+\\ln\\frac{2}{a}\\right)$，无极大值.</p></li><li><p>当 $a=1$ 且 $x\\geqslant2$ 时，令 $t=x-1\\geqslant1$. 注意到 $\\frac{1}{(1-x)^{n}}=(-1)^{n}t^{-n}$. 当 $n$ 为偶数时，$(-1)^{n}t^{-n}=t^{-n}\\leqslant1$；当 $n$ 为奇数时，$(-1)^{n}t^{-n}=-t^{-n}\\leqslant1$，所以对任意正整数 $n$，均有 $\\frac{1}{(1-x)^{n}}\\leqslant1$. 另一方面，函数 $t-1-\\ln t$ 在 $[1,+\\infty)$ 上的导数为 $1-\\frac{1}{t}\\geqslant0$，且在 $t=1$ 时为 0，故 $\\ln t\\le t-1$. 从而 $f(x)=(-1)^{n}t^{-n}+\\ln t\\leqslant1+(t-1)=t=x-1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $n=2$ 时，定义域为 $x>1$，且令 $t=x-1>0$，则</p><p>$f(x)=\\frac{1}{t^{2}}+a\\ln t$，</p><p>$f'(x)=\\frac{at^{2}-2}{t^{3}}$. 当 $a\\leqslant0$ 时，$f'(x)<0$，所以函数在 $(1,+\\infty)$ 上单调递减，没有极值. 当 $a>0$ 时，令 $f'(x)=0$，得 $t=\\sqrt{\\frac{2}{a}}$，即 $x=1+\\sqrt{\\frac{2}{a}}$. 在该点左侧 $f'(x)<0$，右侧 $f'(x)>0$，所以该点取得极小值，极小值为</p><p>$\\frac{a}{2}+a\\ln\\sqrt{\\frac{2}{a}}=\\frac{a}{2}\\left(1+\\ln\\frac{2}{a}\\right)$. 因而当 $a>0$ 时，函数的极小值为 $\\frac{a}{2}\\left(1+\\ln\\frac{2}{a}\\right)$，无极大值.</p></li><li><p>当 $a=1$ 且 $x\\geqslant2$ 时，令 $t=x-1\\geqslant1$. 注意到 $\\frac{1}{(1-x)^{n}}=(-1)^{n}t^{-n}$. 当 $n$ 为偶数时，$(-1)^{n}t^{-n}=t^{-n}\\leqslant1$；当 $n$ 为奇数时，$(-1)^{n}t^{-n}=-t^{-n}\\leqslant1$，所以对任意正整数 $n$，均有 $\\frac{1}{(1-x)^{n}}\\leqslant1$. 另一方面，函数 $t-1-\\ln t$ 在 $[1,+\\infty)$ 上的导数为 $1-\\frac{1}{t}\\geqslant0$，且在 $t=1$ 时为 0，故 $\\ln t\\le t-1$. 从而 $f(x)=(-1)^{n}t^{-n}+\\ln t\\leqslant1+(t-1)=t=x-1$.</p></li></ol>"
         },
         {
           "num": 22,

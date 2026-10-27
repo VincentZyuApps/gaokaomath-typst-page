@@ -35,13 +35,13 @@
           "num": 3,
           "body": "不等式 $(1 + x)(1 - |x|) > 0$ 的解集是（ ）",
           "choices": [
-            "$\\{x\\mid 0\\le x &#x3C; 1\\}$",
-            "$\\{x\\mid x &#x3C; 0 \\text{ 且 }x\\neq -1\\}$",
-            "$\\{x\\mid -1 &#x3C; x &#x3C; 1\\}$",
-            "$\\{x\\mid x &#x3C; 1 \\text{ 且 }x\\neq -1\\}$"
+            "$\\{x\\mid 0\\le x < 1\\}$",
+            "$\\{x\\mid x < 0 \\text{ 且 }x\\neq -1\\}$",
+            "$\\{x\\mid -1 < x < 1\\}$",
+            "$\\{x\\mid x < 1 \\text{ 且 }x\\neq -1\\}$"
           ],
           "answer": "D",
-          "solution": "<p>分 $x&#x3C;0$ 和 $x\\geqslant0$ 两种情况，有</p>\n$$\n(1+x)(1-|x|)=  \\begin{cases}(1+x)^{2},&#x26;x&#x3C;0,\\\\  (1+x)(1-x),&#x26;x\\geqslant0.\\end{cases}\n$$\n<p>当 $x&#x3C;0$ 时，结果除 $x=-1$ 外均为正；当 $x\\geqslant0$ 时，因 $1+x>0$，还需 $1-x>0$，所以 $0\\le x&#x3C;1$. 合并得解集为 $\\{x\\mid x&#x3C;1\\text{ 且 }x\\neq-1\\}$，故选 D.</p>"
+          "solution": "<p>分 $x<0$ 和 $x\\geqslant0$ 两种情况，有</p>\n$$\n(1+x)(1-|x|)=  \\begin{cases}(1+x)^{2},&x<0,\\\\  (1+x)(1-x),&x\\geqslant0.\\end{cases}\n$$\n<p>当 $x<0$ 时，结果除 $x=-1$ 外均为正；当 $x\\geqslant0$ 时，因 $1+x>0$，还需 $1-x>0$，所以 $0\\le x<1$. 合并得解集为 $\\{x\\mid x<1\\text{ 且 }x\\neq-1\\}$，故选 D.</p>"
         },
         {
           "num": 4,
@@ -53,7 +53,7 @@
             "$\\frac{1}{4}$"
           ],
           "answer": "B",
-          "solution": "指数函数的底数满足 $a>0$ 且 $a\\neq1$. 当 $a>1$ 时，$y=a^{x}$ 在 $[0,1]$ 上递增，最大值为 $a$，最小值为 $1$；当 $0&#x3C;a&#x3C;1$ 时，最大值为 $1$，最小值为 $a$. 两种情况下最大值与最小值之和都为 $a+1$，故 $a+1=3$，得 $a=2$，满足 $a>1$，故选 B."
+          "solution": "指数函数的底数满足 $a>0$ 且 $a\\neq1$. 当 $a>1$ 时，$y=a^{x}$ 在 $[0,1]$ 上递增，最大值为 $a$，最小值为 $1$；当 $0<a<1$ 时，最大值为 $1$，最小值为 $a$. 两种情况下最大值与最小值之和都为 $a+1$，故 $a+1=3$，得 $a=2$，满足 $a>1$，故选 B."
         },
         {
           "num": 5,
@@ -65,7 +65,7 @@
             "$\\left(\\frac{\\pi}{4},\\pi\\right) \\cup \\left(\\frac{5\\pi}{4},\\frac{3\\pi}{2}\\right)$"
           ],
           "answer": "C",
-          "solution": "<p>由 $\\sin x-\\cos x=\\sqrt{2}\\sin\\left(x-\\frac{\\pi}{4}\\right)$，原不等式等价于 $\\sin\\left(x-\\frac{\\pi}{4}\\right)>0$. 当 $0&#x3C;x&#x3C;2\\pi$ 时，只有</p>\n$$\n0&#x3C;x-\\frac{\\pi}{4}&#x3C;\\pi\n$$\n<p>这一段满足正弦值为正，从而 $\\frac{\\pi}{4}&#x3C;x&#x3C;\\frac{5\\pi}{4}$. 故选 C.</p>"
+          "solution": "<p>由 $\\sin x-\\cos x=\\sqrt{2}\\sin\\left(x-\\frac{\\pi}{4}\\right)$，原不等式等价于 $\\sin\\left(x-\\frac{\\pi}{4}\\right)>0$. 当 $0<x<2\\pi$ 时，只有</p>\n$$\n0<x-\\frac{\\pi}{4}<\\pi\n$$\n<p>这一段满足正弦值为正，从而 $\\frac{\\pi}{4}<x<\\frac{5\\pi}{4}$. 故选 C.</p>"
         },
         {
           "num": 6,
@@ -105,15 +105,15 @@
         },
         {
           "num": 9,
-          "body": "已知 $0 &#x3C; x &#x3C; y &#x3C; a &#x3C; 1$，则有（ ）",
+          "body": "已知 $0 < x < y < a < 1$，则有（ ）",
           "choices": [
-            "$\\log_{a}(xy) &#x3C; 0$",
-            "$0 &#x3C; \\log_{a}(xy) &#x3C; 1$",
-            "$1 &#x3C; \\log_{a}(xy) &#x3C; 2$",
+            "$\\log_{a}(xy) < 0$",
+            "$0 < \\log_{a}(xy) < 1$",
+            "$1 < \\log_{a}(xy) < 2$",
             "$\\log_{a}(xy) > 2$"
           ],
           "answer": "D",
-          "solution": "<p>由 $0&#x3C;x&#x3C;a$ 和 $0&#x3C;y&#x3C;a$，得 $0&#x3C;xy&#x3C;a^{2}&#x3C;1$. 因为 $0&#x3C;a&#x3C;1$ 时函数 $\\log_{a}t$ 单调递减，所以</p>\n$$\n\\log_{a}(xy)>\\log_{a}(a^{2})=2\n$$\n<p>故选 D.</p>"
+          "solution": "<p>由 $0<x<a$ 和 $0<y<a$，得 $0<xy<a^{2}<1$. 因为 $0<a<1$ 时函数 $\\log_{a}t$ 单调递减，所以</p>\n$$\n\\log_{a}(xy)>\\log_{a}(a^{2})=2\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 10,
@@ -122,10 +122,10 @@
             "$b \\ge 0$",
             "$b \\le 0$",
             "$b > 0$",
-            "$b &#x3C; 0$"
+            "$b < 0$"
           ],
           "answer": "A",
-          "solution": "函数的导数为 $f'(x)=2x+b$. 当 $b\\geqslant0$ 时，对任意 $x\\geqslant0$ 都有 $f'(x)\\geqslant0$，所以函数在 $[0,+\\infty)$ 上单调递增. 当 $b&#x3C;0$ 时，$f'(x)$ 在 $x=-\\frac{b}{2}$ 处变号，函数先减后增，不是单调函数. 因而充要条件是 $b\\geqslant0$，故选 A."
+          "solution": "函数的导数为 $f'(x)=2x+b$. 当 $b\\geqslant0$ 时，对任意 $x\\geqslant0$ 都有 $f'(x)\\geqslant0$，所以函数在 $[0,+\\infty)$ 上单调递增. 当 $b<0$ 时，$f'(x)$ 在 $x=-\\frac{b}{2}$ 处变号，函数先减后增，不是单调函数. 因而充要条件是 $b\\geqslant0$，故选 A."
         },
         {
           "num": 11,
@@ -137,7 +137,7 @@
             "$\\left(\\sqrt{2}, +\\infty\\right)$"
           ],
           "answer": "D",
-          "solution": "<p>将方程写成标准形式</p>\n$$\n\\frac{x^{2}}{\\tan\\theta}-\\frac{y^{2}}{\\cot\\theta}=1\n$$\n<p>因为 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{4}$，所以 $\\tan\\theta>0$，且这是沿 $x$ 轴方向的双曲线. 令其半实轴、半虚轴分别为 $a_{0}$，$b_{0}$，则</p><p>$a_{0}^{2}=\\tan\\theta$，$b_{0}^{2}=\\cot\\theta$.</p><p>双曲线的焦半距满足 $c^{2}=a_{0}^{2}+b_{0}^{2}$，于是离心率</p>\n$$\ne=\\frac{c}{a_{0}}=\\sqrt{\\frac{\\tan\\theta+\\cot\\theta}{\\tan\\theta}}=\\sqrt{1+\\cot^{2}\\theta}=\\csc\\theta\n$$\n<p>由 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{4}$，得</p>\n$$\n0&#x3C;\\sin\\theta&#x3C;\\frac{\\sqrt{2}}{2}\n$$\n<p>从而 $e=\\frac{1}{\\sin\\theta}>\\sqrt{2}$. 当 $\\theta$ 在 $\\left(0,\\frac{\\pi}{4}\\right)$ 内变化时，$\\sin\\theta$ 取得全部 $\\left(0,\\frac{\\sqrt{2}}{2}\\right)$ 内的值，因此 $e$ 的取值范围为 $\\left(\\sqrt{2},+\\infty\\right)$，选 D.</p>"
+          "solution": "<p>将方程写成标准形式</p>\n$$\n\\frac{x^{2}}{\\tan\\theta}-\\frac{y^{2}}{\\cot\\theta}=1\n$$\n<p>因为 $0<\\theta<\\frac{\\pi}{4}$，所以 $\\tan\\theta>0$，且这是沿 $x$ 轴方向的双曲线. 令其半实轴、半虚轴分别为 $a_{0}$，$b_{0}$，则</p><p>$a_{0}^{2}=\\tan\\theta$，$b_{0}^{2}=\\cot\\theta$.</p><p>双曲线的焦半距满足 $c^{2}=a_{0}^{2}+b_{0}^{2}$，于是离心率</p>\n$$\ne=\\frac{c}{a_{0}}=\\sqrt{\\frac{\\tan\\theta+\\cot\\theta}{\\tan\\theta}}=\\sqrt{1+\\cot^{2}\\theta}=\\csc\\theta\n$$\n<p>由 $0<\\theta<\\frac{\\pi}{4}$，得</p>\n$$\n0<\\sin\\theta<\\frac{\\sqrt{2}}{2}\n$$\n<p>从而 $e=\\frac{1}{\\sin\\theta}>\\sqrt{2}$. 当 $\\theta$ 在 $\\left(0,\\frac{\\pi}{4}\\right)$ 内变化时，$\\sin\\theta$ 取得全部 $\\left(0,\\frac{\\sqrt{2}}{2}\\right)$ 内的值，因此 $e$ 的取值范围为 $\\left(\\sqrt{2},+\\infty\\right)$，选 D.</p>"
         },
         {
           "num": 12,
@@ -168,7 +168,7 @@
           "body": "函数 $y = \\frac{2x}{1 + x}$（$x \\in (-1, +\\infty)$）图象与其反函数图象的交点为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(0,0)$，$(1,1)$",
-          "solution": "<p>记 $f(x)=\\frac{2x}{1+x}$. 在 $x>-1$ 时，</p>\n$$\nf'(x)=\\frac{2}{(1+x)^{2}}>0\n$$\n<p>所以 $f$ 在其定义域上严格递增，反函数存在. 若 $(x,y)$ 同时在函数图象和反函数图象上，则 $y=f(x)$，$x=f(y)$. 若 $x&#x3C;y$，严格递增性给出 $f(x)&#x3C;f(y)$，即 $y&#x3C;x$，矛盾；$x>y$ 同理也矛盾，因此交点必满足 $x=y$. 因而令</p>\n$$\nx=\\frac{2x}{1+x}\n$$\n<p>由于原函数的定义域为 $x>-1$，有 $1+x>0$，可乘以 $1+x$，得</p>\n$$\nx(1+x)=2x\\Longleftrightarrow x(x-1)=0\n$$\n<p>所以 $x=0$ 或 $x=1$，二者都属于原函数定义域，且对应的函数值分别为 $0$，$1$. 因此交点为 $(0,0)$，$(1,1)$.</p>"
+          "solution": "<p>记 $f(x)=\\frac{2x}{1+x}$. 在 $x>-1$ 时，</p>\n$$\nf'(x)=\\frac{2}{(1+x)^{2}}>0\n$$\n<p>所以 $f$ 在其定义域上严格递增，反函数存在. 若 $(x,y)$ 同时在函数图象和反函数图象上，则 $y=f(x)$，$x=f(y)$. 若 $x<y$，严格递增性给出 $f(x)<f(y)$，即 $y<x$，矛盾；$x>y$ 同理也矛盾，因此交点必满足 $x=y$. 因而令</p>\n$$\nx=\\frac{2x}{1+x}\n$$\n<p>由于原函数的定义域为 $x>-1$，有 $1+x>0$，可乘以 $1+x$，得</p>\n$$\nx(1+x)=2x\\Longleftrightarrow x(x-1)=0\n$$\n<p>所以 $x=0$ 或 $x=1$，二者都属于原函数定义域，且对应的函数值分别为 $0$，$1$. 因此交点为 $(0,0)$，$(1,1)$.</p>"
         },
         {
           "num": 15,
@@ -208,14 +208,14 @@
           "body": "<p>四棱锥 $P - ABCD$ 的底面是边长为 $a$ 的正方形，$PB \\perp$ 平面 $ABCD$.</p><ol class=\"enumerate\"><li><p>若面 $PAD$ 与面 $ABCD$ 所成的二面角为 $60^{\\circ}$，求这个四棱锥的体积；</p></li><li><p>证明无论四棱锥的高怎样变化，面 $PAD$ 与面 $PCD$ 所成的二面角恒大于 $90^{\\circ}$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，取 $B=(0,0,0)$，$A=(a,0,0)$，$C=(0,a,0)$，$D=(a,a,0)$，$P=(0,0,h)$，其中 $h>0$. 平面 $PAD$ 的一个法向量为 $\\mathbf{n}_{1}=(h,0,a)$，底面的一个法向量为 $\\mathbf{n}_{0}=(0,0,1)$. 设二面角为 $\\alpha$，则</p>\n$$\n\\cos\\alpha=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{0}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{0}|}=\\frac{a}{\\sqrt{h^{2}+a^{2}}}=\\cos60^{\\circ}\n$$\n<p>所以 $h=\\sqrt{3}a$，四棱锥体积为</p>\n$$\nV=\\frac{1}{3}a^{2}h=\\frac{\\sqrt{3}}{3}a^{3}\n$$\n</li><li><p>仍取上述坐标. 平面 $PAD$ 和平面 $PCD$ 可分别取指向四棱锥外侧的法向量</p><p>$\\mathbf{n}_{1}=(h,0,a)$，$\\mathbf{n}_{2}=(0,h,a)$.</p><p>二者的长度均为 $\\sqrt{h^{2}+a^{2}}$，且</p>\n$$\n\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=a^{2}>0\n$$\n<p>若 $\\beta$ 是这两个外法向量的夹角，则</p>\n$$\n\\cos\\beta=\\frac{a^{2}}{h^{2}+a^{2}}>0\n$$\n<p>所以 $0&#x3C;\\beta&#x3C;90^{\\circ}$. 沿公共棱 $PD$，四棱锥内部所在的二面角是外法向量夹角的补角，即为 $180^{\\circ}-\\beta$，因此恒有 $180^{\\circ}-\\beta>90^{\\circ}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，取 $B=(0,0,0)$，$A=(a,0,0)$，$C=(0,a,0)$，$D=(a,a,0)$，$P=(0,0,h)$，其中 $h>0$. 平面 $PAD$ 的一个法向量为 $\\mathbf{n}_{1}=(h,0,a)$，底面的一个法向量为 $\\mathbf{n}_{0}=(0,0,1)$. 设二面角为 $\\alpha$，则</p>\n$$\n\\cos\\alpha=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{0}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{0}|}=\\frac{a}{\\sqrt{h^{2}+a^{2}}}=\\cos60^{\\circ}\n$$\n<p>所以 $h=\\sqrt{3}a$，四棱锥体积为</p>\n$$\nV=\\frac{1}{3}a^{2}h=\\frac{\\sqrt{3}}{3}a^{3}\n$$\n</li><li><p>仍取上述坐标. 平面 $PAD$ 和平面 $PCD$ 可分别取指向四棱锥外侧的法向量</p><p>$\\mathbf{n}_{1}=(h,0,a)$，$\\mathbf{n}_{2}=(0,h,a)$.</p><p>二者的长度均为 $\\sqrt{h^{2}+a^{2}}$，且</p>\n$$\n\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=a^{2}>0\n$$\n<p>若 $\\beta$ 是这两个外法向量的夹角，则</p>\n$$\n\\cos\\beta=\\frac{a^{2}}{h^{2}+a^{2}}>0\n$$\n<p>所以 $0<\\beta<90^{\\circ}$. 沿公共棱 $PD$，四棱锥内部所在的二面角是外法向量夹角的补角，即为 $180^{\\circ}-\\beta$，因此恒有 $180^{\\circ}-\\beta>90^{\\circ}$.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>设函数 $f(x) = x^{2} + |x - 2| - 1$（$x \\in \\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>判断 $f(x)$ 的奇偶性；</p></li><li><p>求函数 $f(x)$ 的最小值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f(0)=1\\neq0$，所以 $f(x)$ 不是奇函数；又有 $f(2)=3$，$f(-2)=7$，即 $f(-2)\\neq f(2)$，所以 $f(x)$ 也不是偶函数.</p></li><li><p>按 $x&#x3C;2$ 与 $x\\geqslant2$ 分段，得</p>\n$$\nf(x)=  \\begin{cases}x^{2}-x+1=\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4},&#x26;x&#x3C;2,\\\\  x^{2}+x-3,&#x26;x\\geqslant2.\\end{cases}\n$$\n<p>当 $x&#x3C;2$ 时，第一段在 $x=\\frac{1}{2}$ 处取得最小值 $\\frac{3}{4}$；当 $x\\geqslant2$ 时，第二段递增，最小值为 $f(2)=3$. 比较两段，函数的最小值为 $\\frac{3}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f(0)=1\\neq0$，所以 $f(x)$ 不是奇函数；又有 $f(2)=3$，$f(-2)=7$，即 $f(-2)\\neq f(2)$，所以 $f(x)$ 也不是偶函数.</p></li><li><p>按 $x<2$ 与 $x\\geqslant2$ 分段，得</p>\n$$\nf(x)=  \\begin{cases}x^{2}-x+1=\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4},&x<2,\\\\  x^{2}+x-3,&x\\geqslant2.\\end{cases}\n$$\n<p>当 $x<2$ 时，第一段在 $x=\\frac{1}{2}$ 处取得最小值 $\\frac{3}{4}$；当 $x\\geqslant2$ 时，第二段递增，最小值为 $f(2)=3$. 比较两段，函数的最小值为 $\\frac{3}{4}$.</p></li></ol>"
         },
         {
           "num": 21,
@@ -234,7 +234,7 @@
           "body": "<ol class=\"enumerate\"><li><p>给出两块相同的正三角形纸片（如图 1，图 2），要求用其中一块剪拼成一个三棱锥模型，另一块剪拼成一个正三棱柱模型，使它们的全面积都与原三角形的面积相等，请设计一种剪拼方法，分别用虚线标示在图 1，图 2 中，并作简要说明；</p></li><li><p>试比较你剪的正三棱锥与正三棱柱的体积的大小；</p></li><li><p>如果给出的是一块任意三角形的纸片（如图 3），要求剪拼成一个直三棱柱，使它的全面积与给出的三角形的面积相等. 请设计一种剪拼方法，用虚线标示在图 3 中，并作简要说明.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设原正三角形的边长为 $2$，面积为 $S=\\sqrt{3}$. 在图 1 中连接三边的中点，原三角形被分成四个边长为 $1$ 的正三角形. 沿三条中位线折起三个角上的小三角形，使中间的小三角形作为底面，三个角上的小三角形作为侧面，即可拼成棱长为 $1$ 的正三棱锥.</p></li><li><p>设原正三角形的边长为 $2$，在图 2 的三个顶点处按相同方式各剪出一个全等四边形，使四边形贴在原三角形两边上的一组相邻长边均为 $\\frac{1}{2}$，并使其中一组对角为直角. 这样剪下的三个四边形可以拼成一个边长为 $1$ 的正三角形；余下部分沿相应折线折起，成为缺少一个底面的正三棱柱，另一个边长为 $1$ 的正三角形作为上底. 因而正三棱锥与正三棱柱的底面边长均为 $1$.</p><p>正三棱锥的底面面积为 $\\frac{\\sqrt{3}}{4}$，其高为</p>\n$$\nh_{\\text{锥}}=\\sqrt{1-\\left(\\frac{\\sqrt{3}}{3}\\right)^{2}}=\\frac{\\sqrt{6}}{3}\n$$\n<p>正三棱柱的两个底面共占面积 $\\frac{\\sqrt{3}}{2}$，所以三个矩形侧面的总面积为 $S-\\frac{\\sqrt{3}}{2}=\\frac{\\sqrt{3}}{2}$. 由于三个侧面的一边均为 $1$，设正三棱柱的高为 $h_{\\text{柱}}$，由三个侧面的宽度均为 $h_{\\text{柱}}$，得 $3h_{\\text{柱}}=\\frac{\\sqrt{3}}{2}$，从而 $h_{\\text{柱}}=\\frac{\\sqrt{3}}{6}$.</p><p>因此 $V_{\\text{锥}}=\\frac{1}{3}\\cdot\\frac{\\sqrt{3}}{4}\\cdot\\frac{\\sqrt{6}}{3}=\\frac{\\sqrt{2}}{12}$. 又 $V_{\\text{柱}}=\\frac{\\sqrt{3}}{4}\\cdot\\frac{\\sqrt{3}}{6}=\\frac{1}{8}$.</p><p>又因为 $2\\sqrt{2}&#x3C;3$，所以</p>\n$$\nV_{\\text{锥}}-V_{\\text{柱}}=\\frac{\\sqrt{2}}{12}-\\frac{1}{8}=\\frac{2\\sqrt{2}-3}{24}&#x3C;0\n$$\n<p>故 $V_{\\text{锥}}&#x3C;V_{\\text{柱}}$.</p></li><li><p>设任意三角形为 $\\triangle ABC$，内心为 $I$，内切圆半径为 $r$. 分别取 $AI$，$BI$，$CI$ 的中点 $U$，$V$，$W$，以 $\\triangle UVW$ 为直三棱柱的一个底面. 过 $U$ 向 $AB$，$AC$ 作垂线，过 $V$ 向 $BA$，$BC$ 作垂线，过 $W$ 向 $CA$，$CB$ 作垂线，并沿这六条垂线剪开. 三个顶点附近的四边形可以重新拼成与 $\\triangle UVW$ 全等的另一个底面，余下部分由 $\\triangle UVW$ 及其三边外侧的三个矩形组成；沿三角形三边折起这三个矩形，即得到以 $\\triangle UVW$ 为底面的直三棱柱.</p><p>下面验证这个剪拼方法的尺寸和面积. 因为 $U$，$V$，$W$ 分别是以 $I$ 为中心、相似比为 $\\frac{1}{2}$ 的相似变换下 $A$，$B$，$C$ 的像，所以</p>\n$$\nS_{\\triangle UVW}=\\frac{1}{4}S\n$$\n<p>又因为 $UV\\parallel AB$，$VW\\parallel BC$，$WU\\parallel CA$，所以三个侧面矩形的长分别为 $\\frac{1}{2}AB$，$\\frac{1}{2}BC$，$\\frac{1}{2}CA$. 点 $U$，$V$ 到直线 $AB$ 的距离都为 $\\frac{r}{2}$，同理可得其余各组对应点到相应边的距离也都是 $\\frac{r}{2}$，因此这个直棱柱的高为 $\\frac{r}{2}$. 设 $s$ 为 $\\triangle ABC$ 的半周长，则 $S=rs$，三个侧面面积之和为</p>\n$$\n\\left(\\frac{AB+BC+CA}{2}\\right)\\frac{r}{2}=\\frac{rs}{2}=\\frac{S}{2}\n$$\n<p>因此折起后的直三棱柱全面积为</p>\n$$\n2S_{\\triangle UVW}+\\frac{1}{2}S=S\n$$\n<p>与原三角形面积相等.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设原正三角形的边长为 $2$，面积为 $S=\\sqrt{3}$. 在图 1 中连接三边的中点，原三角形被分成四个边长为 $1$ 的正三角形. 沿三条中位线折起三个角上的小三角形，使中间的小三角形作为底面，三个角上的小三角形作为侧面，即可拼成棱长为 $1$ 的正三棱锥.</p></li><li><p>设原正三角形的边长为 $2$，在图 2 的三个顶点处按相同方式各剪出一个全等四边形，使四边形贴在原三角形两边上的一组相邻长边均为 $\\frac{1}{2}$，并使其中一组对角为直角. 这样剪下的三个四边形可以拼成一个边长为 $1$ 的正三角形；余下部分沿相应折线折起，成为缺少一个底面的正三棱柱，另一个边长为 $1$ 的正三角形作为上底. 因而正三棱锥与正三棱柱的底面边长均为 $1$.</p><p>正三棱锥的底面面积为 $\\frac{\\sqrt{3}}{4}$，其高为</p>\n$$\nh_{\\text{锥}}=\\sqrt{1-\\left(\\frac{\\sqrt{3}}{3}\\right)^{2}}=\\frac{\\sqrt{6}}{3}\n$$\n<p>正三棱柱的两个底面共占面积 $\\frac{\\sqrt{3}}{2}$，所以三个矩形侧面的总面积为 $S-\\frac{\\sqrt{3}}{2}=\\frac{\\sqrt{3}}{2}$. 由于三个侧面的一边均为 $1$，设正三棱柱的高为 $h_{\\text{柱}}$，由三个侧面的宽度均为 $h_{\\text{柱}}$，得 $3h_{\\text{柱}}=\\frac{\\sqrt{3}}{2}$，从而 $h_{\\text{柱}}=\\frac{\\sqrt{3}}{6}$.</p><p>因此 $V_{\\text{锥}}=\\frac{1}{3}\\cdot\\frac{\\sqrt{3}}{4}\\cdot\\frac{\\sqrt{6}}{3}=\\frac{\\sqrt{2}}{12}$. 又 $V_{\\text{柱}}=\\frac{\\sqrt{3}}{4}\\cdot\\frac{\\sqrt{3}}{6}=\\frac{1}{8}$.</p><p>又因为 $2\\sqrt{2}<3$，所以</p>\n$$\nV_{\\text{锥}}-V_{\\text{柱}}=\\frac{\\sqrt{2}}{12}-\\frac{1}{8}=\\frac{2\\sqrt{2}-3}{24}<0\n$$\n<p>故 $V_{\\text{锥}}<V_{\\text{柱}}$.</p></li><li><p>设任意三角形为 $\\triangle ABC$，内心为 $I$，内切圆半径为 $r$. 分别取 $AI$，$BI$，$CI$ 的中点 $U$，$V$，$W$，以 $\\triangle UVW$ 为直三棱柱的一个底面. 过 $U$ 向 $AB$，$AC$ 作垂线，过 $V$ 向 $BA$，$BC$ 作垂线，过 $W$ 向 $CA$，$CB$ 作垂线，并沿这六条垂线剪开. 三个顶点附近的四边形可以重新拼成与 $\\triangle UVW$ 全等的另一个底面，余下部分由 $\\triangle UVW$ 及其三边外侧的三个矩形组成；沿三角形三边折起这三个矩形，即得到以 $\\triangle UVW$ 为底面的直三棱柱.</p><p>下面验证这个剪拼方法的尺寸和面积. 因为 $U$，$V$，$W$ 分别是以 $I$ 为中心、相似比为 $\\frac{1}{2}$ 的相似变换下 $A$，$B$，$C$ 的像，所以</p>\n$$\nS_{\\triangle UVW}=\\frac{1}{4}S\n$$\n<p>又因为 $UV\\parallel AB$，$VW\\parallel BC$，$WU\\parallel CA$，所以三个侧面矩形的长分别为 $\\frac{1}{2}AB$，$\\frac{1}{2}BC$，$\\frac{1}{2}CA$. 点 $U$，$V$ 到直线 $AB$ 的距离都为 $\\frac{r}{2}$，同理可得其余各组对应点到相应边的距离也都是 $\\frac{r}{2}$，因此这个直棱柱的高为 $\\frac{r}{2}$. 设 $s$ 为 $\\triangle ABC$ 的半周长，则 $S=rs$，三个侧面面积之和为</p>\n$$\n\\left(\\frac{AB+BC+CA}{2}\\right)\\frac{r}{2}=\\frac{rs}{2}=\\frac{S}{2}\n$$\n<p>因此折起后的直三棱柱全面积为</p>\n$$\n2S_{\\triangle UVW}+\\frac{1}{2}S=S\n$$\n<p>与原三角形面积相等.</p></li></ol>"
         }
       ]
     }

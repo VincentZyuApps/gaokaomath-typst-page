@@ -29,7 +29,7 @@
             "$y = x|x|$"
           ],
           "answer": "",
-          "solution": "<p>逐项判断：$y=x+1$ 不是奇函数；$y=-x^{3}$ 虽为奇函数，但为减函数；$y=\\frac{1}{x}$ 是奇函数. 对于 $y=x|x|$，有</p>\n$$\nx|x|=  \\begin{cases}x^{2},&#x26;x\\geqslant0,\\\\  -x^{2},&#x26;x&#x3C;0.\\end{cases}\n$$\n<p>故它是奇函数. 若 $x&#x3C;y$ 且二者同为非负数，则 $x|x|=x^{2}&#x3C;y^{2}=y|y|$；若二者同为负数，则 $-x^{2}&#x3C;-y^{2}$；若 $x&#x3C;0\\le y$，则 $x|x|&#x3C;0\\le y|y|$. 所以 $x|x|$ 严格递增.</p><p>函数 $y=\\frac{1}{x}$ 在 $(0,+\\infty)$ 上严格递减，因而不是定义域上的增函数. 故选 D.</p>"
+          "solution": "<p>逐项判断：$y=x+1$ 不是奇函数；$y=-x^{3}$ 虽为奇函数，但为减函数；$y=\\frac{1}{x}$ 是奇函数. 对于 $y=x|x|$，有</p>\n$$\nx|x|=  \\begin{cases}x^{2},&x\\geqslant0,\\\\  -x^{2},&x<0.\\end{cases}\n$$\n<p>故它是奇函数. 若 $x<y$ 且二者同为非负数，则 $x|x|=x^{2}<y^{2}=y|y|$；若二者同为负数，则 $-x^{2}<-y^{2}$；若 $x<0\\le y$，则 $x|x|<0\\le y|y|$. 所以 $x|x|$ 严格递增.</p><p>函数 $y=\\frac{1}{x}$ 在 $(0,+\\infty)$ 上严格递减，因而不是定义域上的增函数. 故选 D.</p>"
         },
         {
           "num": 3,
@@ -53,7 +53,7 @@
             "以上三个选项均有可能"
           ],
           "answer": "",
-          "solution": "<p>将圆方程化为</p>\n$$\n(x-2)^{2}+y^{2}=4\n$$\n<p>所以圆心为 $O(2,0)$，半径为 $2$. 点 $P(3,0)$ 到圆心的距离为 $1&#x3C;2$，故 $P$ 在圆内. 过圆内一点的任意直线都与圆相交，因此 $l$ 与 $C$ 相交.</p><p>故选 A.</p>"
+          "solution": "<p>将圆方程化为</p>\n$$\n(x-2)^{2}+y^{2}=4\n$$\n<p>所以圆心为 $O(2,0)$，半径为 $2$. 点 $P(3,0)$ 到圆心的距离为 $1<2$，故 $P$ 在圆内. 过圆内一点的任意直线都与圆相交，因此 $l$ 与 $C$ 相交.</p><p>故选 A.</p>"
         },
         {
           "num": 5,
@@ -71,13 +71,13 @@
           "num": 6,
           "body": "<p>从甲，乙两个城市分别随机抽取 $16\\text{ 台}$ 自动售货机. 对其销售额进行统计，统计数据用茎叶图表示（如图所示）. 设甲，乙两组数据的平均数分别为 $\\overline{x}_{\\text{甲}}$，$\\overline{x}_{\\text{乙}}$，中位数分别为 $m_{\\text{甲}}$，$m_{\\text{乙}}$，则（ ）</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">甲 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center\"> 乙 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$8$，$6$，$5$ </td><td style=\"text-align: center; border-right: 1px solid\"> 0 </td><td style=\"text-align: center\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$8$，$8$，$4$，$0$，$0$ </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td><td style=\"text-align: center\"> $0$，$2$，$8$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$7$，$5$，$2$ </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center\"> $0$，$2$，$3$，$3$，$7$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$8$，$0$，$0$ </td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td><td style=\"text-align: center\"> $1$，$2$，$4$，$4$，$8$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$3  1$ </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center\"> $2$，$3$，$8$</td></tr></tbody></table></center>",
           "choices": [
-            "$\\overline{x}_{\\text{甲}}&#x3C; \\overline{x}_{\\text{乙}}$，$m_{\\text{甲}}> m_{\\text{乙}}$",
-            "$\\overline{x}_{\\text{甲}}&#x3C; \\overline{x}_{\\text{乙}}$，$m_{\\text{甲}}&#x3C; m_{\\text{乙}}$",
+            "$\\overline{x}_{\\text{甲}}< \\overline{x}_{\\text{乙}}$，$m_{\\text{甲}}> m_{\\text{乙}}$",
+            "$\\overline{x}_{\\text{甲}}< \\overline{x}_{\\text{乙}}$，$m_{\\text{甲}}< m_{\\text{乙}}$",
             "$\\overline{x}_{\\text{甲}}> \\overline{x}_{\\text{乙}}$，$m_{\\text{甲}}> m_{\\text{乙}}$",
-            "$\\overline{x}_{\\text{甲}}> \\overline{x}_{\\text{乙}}$，$m_{\\text{甲}}&#x3C; m_{\\text{乙}}$"
+            "$\\overline{x}_{\\text{甲}}> \\overline{x}_{\\text{乙}}$，$m_{\\text{甲}}< m_{\\text{乙}}$"
           ],
           "answer": "",
-          "solution": "<p>由茎叶图读出甲组数据的总和为</p>\n$$\n8+6+5+18+18+14+10+10+27+25+22+38+30+30+43+41=345\n$$\n<p>故 $\\overline{x}_{\\text{甲}}=\\frac{345}{16}$. 乙组数据的总和为</p>\n$$\n10+12+18+20+22+23+23+27+31+32+34+34+38+42+43+48=457\n$$\n<p>故 $\\overline{x}_{\\text{乙}}=\\frac{457}{16}$，从而 $\\overline{x}_{\\text{甲}}&#x3C;\\overline{x}_{\\text{乙}}$.</p><p>甲组从小到大排列后第8、9个数为 $18,22$，所以 $m_{\\text{甲}}=20$；乙组第8、9个数为 $27,31$，所以 $m_{\\text{乙}}=29$. 因而 $m_{\\text{甲}}&#x3C;m_{\\text{乙}}$.</p><p>故选 B.</p>"
+          "solution": "<p>由茎叶图读出甲组数据的总和为</p>\n$$\n8+6+5+18+18+14+10+10+27+25+22+38+30+30+43+41=345\n$$\n<p>故 $\\overline{x}_{\\text{甲}}=\\frac{345}{16}$. 乙组数据的总和为</p>\n$$\n10+12+18+20+22+23+23+27+31+32+34+34+38+42+43+48=457\n$$\n<p>故 $\\overline{x}_{\\text{乙}}=\\frac{457}{16}$，从而 $\\overline{x}_{\\text{甲}}<\\overline{x}_{\\text{乙}}$.</p><p>甲组从小到大排列后第8、9个数为 $18,22$，所以 $m_{\\text{甲}}=20$；乙组第8、9个数为 $27,31$，所以 $m_{\\text{乙}}=29$. 因而 $m_{\\text{甲}}<m_{\\text{乙}}$.</p><p>故选 B.</p>"
         },
         {
           "num": 7,
@@ -89,7 +89,7 @@
             "$x = -1$ 为 $f(x)$ 的极小值点"
           ],
           "answer": "",
-          "solution": "$$\nf'(x)=\\mathrm{e}^{x}(x+1)\n$$\n<p>因为 $\\mathrm{e}^{x}>0$，所以当 $x&#x3C;-1$ 时 $f'(x)&#x3C;0$，当 $x>-1$ 时 $f'(x)>0$. 因此函数在 $(-\\infty,-1)$ 上递减，在 $(-1,+\\infty)$ 上递增，故 $x=-1$ 是极小值点.</p><p>故选 D.</p>"
+          "solution": "$$\nf'(x)=\\mathrm{e}^{x}(x+1)\n$$\n<p>因为 $\\mathrm{e}^{x}>0$，所以当 $x<-1$ 时 $f'(x)<0$，当 $x>-1$ 时 $f'(x)>0$. 因此函数在 $(-\\infty,-1)$ 上递减，在 $(-1,+\\infty)$ 上递增，故 $x=-1$ 是极小值点.</p><p>故选 D.</p>"
         },
         {
           "num": 8,
@@ -134,10 +134,10 @@
       "problems": [
         {
           "num": 11,
-          "body": "观察下列不等式：$1 + \\frac{1}{2^{2}}&#x3C; \\frac{3}{2}$，$1 + \\frac{1}{2^{2}}+ \\frac{1}{3^{2}}&#x3C; \\frac{5}{3}$，$1 + \\frac{1}{2^{2}}+ \\frac{1}{3^{2}}+ \\frac{1}{4^{2}}&#x3C; \\frac{7}{4}$，照此规律，第五个不等式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "观察下列不等式：$1 + \\frac{1}{2^{2}}< \\frac{3}{2}$，$1 + \\frac{1}{2^{2}}+ \\frac{1}{3^{2}}< \\frac{5}{3}$，$1 + \\frac{1}{2^{2}}+ \\frac{1}{3^{2}}+ \\frac{1}{4^{2}}< \\frac{7}{4}$，照此规律，第五个不等式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "",
-          "solution": "<p>第一个不等式含有 $2$ 到 $2$ 的平方倒数，右端为 $\\frac{3}{2}$；第二个含有 $2$ 到 $3$ 的平方倒数，右端为 $\\frac{5}{3}$. 因此第 $n$ 个不等式的规律为</p>\n$$\n1+\\sum_{k=2}^{n+1}\\frac{1}{k^{2}}&#x3C;\\frac{2n+1}{n+1}\n$$\n<p>取 $n=5$，得到</p>\n$$\n1+\\frac{1}{2^{2}}+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}+\\frac{1}{5^{2}}+\\frac{1}{6^{2}}&#x3C;\\frac{11}{6}\n$$"
+          "solution": "<p>第一个不等式含有 $2$ 到 $2$ 的平方倒数，右端为 $\\frac{3}{2}$；第二个含有 $2$ 到 $3$ 的平方倒数，右端为 $\\frac{5}{3}$. 因此第 $n$ 个不等式的规律为</p>\n$$\n1+\\sum_{k=2}^{n+1}\\frac{1}{k^{2}}<\\frac{2n+1}{n+1}\n$$\n<p>取 $n=5$，得到</p>\n$$\n1+\\frac{1}{2^{2}}+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}+\\frac{1}{5^{2}}+\\frac{1}{6^{2}}<\\frac{11}{6}\n$$"
         },
         {
           "num": 12,
@@ -155,10 +155,10 @@
         },
         {
           "num": 14,
-          "body": "设函数 $f(x) = \\begin{cases}\\ln x,&#x26;x > 0,\\\\  -2x - 1,&#x26;x \\le 0,\\end{cases}$ $D$ 是由 $x$ 轴和曲线 $y = f(x)$ 及该曲线在点 $(1,0)$ 处的切线所围成的封闭区域，则 $z = x - 2y$ 在 $D$ 上的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "设函数 $f(x) = \\begin{cases}\\ln x,&x > 0,\\\\  -2x - 1,&x \\le 0,\\end{cases}$ $D$ 是由 $x$ 轴和曲线 $y = f(x)$ 及该曲线在点 $(1,0)$ 处的切线所围成的封闭区域，则 $z = x - 2y$ 在 $D$ 上的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "",
-          "solution": "<p>在 $x=1$ 处，$f(1)=0$，且右支 $y=\\ln x$ 的导数为 $\\frac{1}{x}$，所以切线方程为</p>\n$$\ny=x-1\n$$\n<p>左支直线 $y=-2x-1$ 与 $x$ 轴交于 $\\left(-\\frac{1}{2},0\\right)$，与切线交于 $-2x-1=x-1$，得 $x=0$，$y=-1$，即交点为 $(0,-1)$. 对 $0&#x3C;x&#x3C;1$，有 $\\ln x&#x3C;x-1$，右支 $y=\\ln x$ 与切线在该侧不围成有界区域；因此题目所指的封闭区域由左支直线、$x$ 轴和切线围成，边界是三条线段，顶点为</p><p>$\\left(-\\frac{1}{2},0\\right)$，$(0,-1)$，$(1,0)$.</p><p>线性函数 $z=x-2y$ 在三角形上最大值必在顶点取得. 三个顶点处的值分别为 $-\\frac{1}{2}$，$2$，$1$，故最大值为 $2$.</p>"
+          "solution": "<p>在 $x=1$ 处，$f(1)=0$，且右支 $y=\\ln x$ 的导数为 $\\frac{1}{x}$，所以切线方程为</p>\n$$\ny=x-1\n$$\n<p>左支直线 $y=-2x-1$ 与 $x$ 轴交于 $\\left(-\\frac{1}{2},0\\right)$，与切线交于 $-2x-1=x-1$，得 $x=0$，$y=-1$，即交点为 $(0,-1)$. 对 $0<x<1$，有 $\\ln x<x-1$，右支 $y=\\ln x$ 与切线在该侧不围成有界区域；因此题目所指的封闭区域由左支直线、$x$ 轴和切线围成，边界是三条线段，顶点为</p><p>$\\left(-\\frac{1}{2},0\\right)$，$(0,-1)$，$(1,0)$.</p><p>线性函数 $z=x-2y$ 在三角形上最大值必在顶点取得. 三个顶点处的值分别为 $-\\frac{1}{2}$，$2$，$1$，故最大值为 $2$.</p>"
         }
       ]
     },
@@ -196,7 +196,7 @@
           "body": "<p>函数 $f(x) = A \\sin \\left(\\omega x - \\frac{\\pi}{6}\\right) + 1$（$A > 0$，$\\omega > 0$）的最大值为 $3$，其图象相邻两条对称轴之间的距离为 $\\frac{\\pi}{2}$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的解析式；</p></li><li><p>设 $\\alpha \\in \\left(0, \\frac{\\pi}{2}\\right)$，$f\\left(\\frac{\\alpha}{2}\\right) = 2$，求 $\\alpha$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由最大值 $A+1=3$，得 $A=2$. 正弦函数相邻两条对称轴之间的距离为半个周期，即 $\\frac{\\pi}{\\omega}$，所以</p><p>$\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，$\\omega=2$.</p><p>故</p>\n$$\nf(x)=2\\sin\\left(2x-\\frac{\\pi}{6}\\right)+1\n$$\n</li><li><p>又 $f(\\frac{\\alpha}{2})=2$，所以</p>\n$$\n2\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)+1=2,   \\text{即}   \\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)=\\frac{1}{2}\n$$\n<p>由 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$ 得 $-\\frac{\\pi}{6}&#x3C;\\alpha-\\frac{\\pi}{6}&#x3C;\\frac{\\pi}{3}$. 在此区间内满足正弦值为 $\\frac{1}{2}$ 的只有 $\\alpha-\\frac{\\pi}{6}=\\frac{\\pi}{6}$，故</p>\n$$\n\\alpha=\\frac{\\pi}{3}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由最大值 $A+1=3$，得 $A=2$. 正弦函数相邻两条对称轴之间的距离为半个周期，即 $\\frac{\\pi}{\\omega}$，所以</p><p>$\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，$\\omega=2$.</p><p>故</p>\n$$\nf(x)=2\\sin\\left(2x-\\frac{\\pi}{6}\\right)+1\n$$\n</li><li><p>又 $f(\\frac{\\alpha}{2})=2$，所以</p>\n$$\n2\\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)+1=2,   \\text{即}   \\sin\\left(\\alpha-\\frac{\\pi}{6}\\right)=\\frac{1}{2}\n$$\n<p>由 $0<\\alpha<\\frac{\\pi}{2}$ 得 $-\\frac{\\pi}{6}<\\alpha-\\frac{\\pi}{6}<\\frac{\\pi}{3}$. 在此区间内满足正弦值为 $\\frac{1}{2}$ 的只有 $\\alpha-\\frac{\\pi}{6}=\\frac{\\pi}{6}$，故</p>\n$$\n\\alpha=\\frac{\\pi}{3}\n$$\n</li></ol>"
         },
         {
           "num": 19,
@@ -224,14 +224,14 @@
           "body": "<p>某银行柜台设有一个服务窗口，假设顾客办理业务所需的时间互相独立，且都是整数分钟，对以往顾客办理业务所需的时间统计结果如下：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">办理业务所需的时间（分） </td><td style=\"text-align: center\"> 1 </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 3 </td><td style=\"text-align: center\"> 4 </td><td style=\"text-align: center\"> 5 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>频率 </td><td style=\"text-align: center\"> 0.1 </td><td style=\"text-align: center\"> 0.4 </td><td style=\"text-align: center\"> 0.3 </td><td style=\"text-align: center\"> 0.1 </td><td style=\"text-align: center\"> 0.1</td></tr></tbody></table></center><p>从第一个顾客开始办理业务时计时.</p><ol class=\"enumerate\"><li><p>估计第三个顾客恰好等待 $4\\text{ 分钟}$ 开始办理业务的概率.</p></li><li><p>$X$ 表示至第 $2\\text{ 分钟}$ 末已办理完业务的顾客人数，求 $X$ 的分布列及数学期望.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设一个顾客办理业务所需时间为随机变量 $Y$，则</p><p>$P(Y=1)=0.1$，$P(Y=2)=0.4$，$P(Y=3)=0.3$，$P(Y=4)=0.1$，$P(Y=5)=0.1$.</p><ol class=\"enumerate\"><li><p>第三个顾客开始办理业务的时刻为前两个顾客办理时间之和. 要恰好等待 $4$ 分钟，需</p><p>$(Y_{1},Y_{2})=(1,3)$，$(2,2)$，$(3,1)$.</p><p>利用独立性，所求概率为</p>\n$$\n0.1\\times0.3+0.4\\times0.4+0.3\\times0.1=0.22\n$$\n</li><li><p>在前 $2$ 分钟内，若第一个顾客所需时间大于 $2$，则 $X=0$，故</p>\n$$\nP(X=0)=0.3+0.1+0.1=0.5\n$$\n<p>若第一个顾客用时为 $1$ 分钟且第二个顾客用时大于 $1$ 分钟，或者第一个顾客用时为 $2$ 分钟，则恰好完成一个顾客，故</p>\n$$\nP(X=1)=0.1\\times0.9+0.4=0.49\n$$\n<p>只有前两个顾客都用时 $1$ 分钟时才能完成两个顾客，所以</p>\n$$\nP(X=2)=0.1^{2}=0.01\n$$\n<p>因此分布列为</p>\n$$\n\\begin{tabular}{c|ccc}X&#x26;0&#x26;1&#x26;2\\\\ \\hline\n\nP&#x26;0.5&#x26;0.49&#x26;0.01\\end{tabular}\n$$\n<p>数学期望为</p>\n$$\nE(X)=0\\times0.5+1\\times0.49+2\\times0.01=0.51\n$$\n</li></ol>"
+          "solution": "<p>设一个顾客办理业务所需时间为随机变量 $Y$，则</p><p>$P(Y=1)=0.1$，$P(Y=2)=0.4$，$P(Y=3)=0.3$，$P(Y=4)=0.1$，$P(Y=5)=0.1$.</p><ol class=\"enumerate\"><li><p>第三个顾客开始办理业务的时刻为前两个顾客办理时间之和. 要恰好等待 $4$ 分钟，需</p><p>$(Y_{1},Y_{2})=(1,3)$，$(2,2)$，$(3,1)$.</p><p>利用独立性，所求概率为</p>\n$$\n0.1\\times0.3+0.4\\times0.4+0.3\\times0.1=0.22\n$$\n</li><li><p>在前 $2$ 分钟内，若第一个顾客所需时间大于 $2$，则 $X=0$，故</p>\n$$\nP(X=0)=0.3+0.1+0.1=0.5\n$$\n<p>若第一个顾客用时为 $1$ 分钟且第二个顾客用时大于 $1$ 分钟，或者第一个顾客用时为 $2$ 分钟，则恰好完成一个顾客，故</p>\n$$\nP(X=1)=0.1\\times0.9+0.4=0.49\n$$\n<p>只有前两个顾客都用时 $1$ 分钟时才能完成两个顾客，所以</p>\n$$\nP(X=2)=0.1^{2}=0.01\n$$\n<p>因此分布列为</p>\n$$\n\\begin{tabular}{c|ccc}X&0&1&2\\\\ \\hline\n\nP&0.5&0.49&0.01\\end{tabular}\n$$\n<p>数学期望为</p>\n$$\nE(X)=0\\times0.5+1\\times0.49+2\\times0.01=0.51\n$$\n</li></ol>"
         },
         {
           "num": 23,
           "body": "<p>设函数 $f_{n}(x) = x^{n}+ bx + c$（$n \\in \\N_{+}$，$b$，$c \\in \\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>设 $n \\ge 2$，$b = 1$，$c = -1$，证明：$f_{n}(x)$ 在区间 $\\left(\\frac{1}{2}, 1\\right)$ 内存在唯一零点.</p></li><li><p>设 $n = 2$，若对任意 $x_{1}$，$x_{2} \\in [-1, 1]$，有 $|f_{2}(x_{1}) - f_{2}(x_{2})| \\le 4$，求 $b$ 的取值范围.</p></li><li><p>在第（1）问的条件下，设 $x_{n}$ 是 $f_{n}(x)$ 在 $\\left(\\frac{1}{2}, 1\\right)$ 内的零点，判断数列 $x_{2}$，$x_{3}$，$\\cdots$，$x_{n}$，$\\cdots$ 的增减性.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $n\\geqslant2$、$b=1$、$c=-1$ 时，</p>\n$$\nf_{n}(x)=x^{n}+x-1\n$$\n<p>有</p><p>$f_{n}\\left(\\frac{1}{2}\\right)=\\frac{1}{2^{n}}-\\frac{1}{2}&#x3C;0$，$f_{n}(1)=1>0$.</p><p>由零点存在定理，$f_{n}$ 在 $(\\frac{1}{2},1)$ 内至少有一个零点. 又</p><p>$f_{n}'(x)=nx^{n-1}+1>0$，（$\\frac{1}{2}&#x3C;x&#x3C;1$），</p><p>所以 $f_{n}$ 在该区间严格递增，零点至多一个. 因而存在唯一零点.</p></li><li><p>此时 $f_{2}(x)=x^{2}+bx+c$. 条件等价于该函数在 $[-1,1]$ 上的最大值与最小值之差不超过 $4$. 令 $t=|b|$.</p><p>当 $0\\le t\\leqslant2$ 时，顶点 $-\\frac{b}{2}$ 在区间 $[-1,1]$ 内，故</p><p>$\\max f_{2}=1+t+c$，$\\min f_{2}=c-\\frac{b^{2}}{4}$，</p><p>从而</p>\n$$\n\\max f_{2}-\\min f_{2}=1+t+\\frac{t^{2}}{4}\\leqslant4\n$$\n<p>该不等式等价于 $(t+6)(t-2)\\leqslant0$，在本情形下恒等价于 $t\\leqslant2$.</p><p>当 $t\\geqslant2$ 时，抛物线顶点在区间端点之外，函数在 $[-1,1]$ 上单调，故值域长度为 $2t$. 条件给出 $2t\\leqslant4$，仍得 $t\\leqslant2$.</p><p>综上 $|b|\\leqslant2$，即</p>\n$$\n-2\\le b\\leqslant2\n$$\n</li><li><p>由 $x_{n}$ 是 $f_{n}$ 的零点，</p><p>$x_{n}^{n}+x_{n}-1=0$，$x_{n}^{n}=1-x_{n}$.</p><p>于是</p>\n$$\nf_{n+1}(x_{n})  =x_{n}^{n+1}+x_{n}-1  =x_{n}(1-x_{n})+x_{n}-1  =-(1-x_{n})^{2}&#x3C;0\n$$\n<p>因为 $x_{n}\\in(\\frac{1}{2},1)$. 而 $f_{n+1}$ 在 $(\\frac{1}{2},1)$ 上严格递增，且其唯一零点为 $x_{n+1}$，所以 $x_{n}&#x3C;x_{n+1}$. 因此数列 $x_{2}$，$x_{3}$，$\\ldots$ 为严格递增数列.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $n\\geqslant2$、$b=1$、$c=-1$ 时，</p>\n$$\nf_{n}(x)=x^{n}+x-1\n$$\n<p>有</p><p>$f_{n}\\left(\\frac{1}{2}\\right)=\\frac{1}{2^{n}}-\\frac{1}{2}<0$，$f_{n}(1)=1>0$.</p><p>由零点存在定理，$f_{n}$ 在 $(\\frac{1}{2},1)$ 内至少有一个零点. 又</p><p>$f_{n}'(x)=nx^{n-1}+1>0$，（$\\frac{1}{2}<x<1$），</p><p>所以 $f_{n}$ 在该区间严格递增，零点至多一个. 因而存在唯一零点.</p></li><li><p>此时 $f_{2}(x)=x^{2}+bx+c$. 条件等价于该函数在 $[-1,1]$ 上的最大值与最小值之差不超过 $4$. 令 $t=|b|$.</p><p>当 $0\\le t\\leqslant2$ 时，顶点 $-\\frac{b}{2}$ 在区间 $[-1,1]$ 内，故</p><p>$\\max f_{2}=1+t+c$，$\\min f_{2}=c-\\frac{b^{2}}{4}$，</p><p>从而</p>\n$$\n\\max f_{2}-\\min f_{2}=1+t+\\frac{t^{2}}{4}\\leqslant4\n$$\n<p>该不等式等价于 $(t+6)(t-2)\\leqslant0$，在本情形下恒等价于 $t\\leqslant2$.</p><p>当 $t\\geqslant2$ 时，抛物线顶点在区间端点之外，函数在 $[-1,1]$ 上单调，故值域长度为 $2t$. 条件给出 $2t\\leqslant4$，仍得 $t\\leqslant2$.</p><p>综上 $|b|\\leqslant2$，即</p>\n$$\n-2\\le b\\leqslant2\n$$\n</li><li><p>由 $x_{n}$ 是 $f_{n}$ 的零点，</p><p>$x_{n}^{n}+x_{n}-1=0$，$x_{n}^{n}=1-x_{n}$.</p><p>于是</p>\n$$\nf_{n+1}(x_{n})  =x_{n}^{n+1}+x_{n}-1  =x_{n}(1-x_{n})+x_{n}-1  =-(1-x_{n})^{2}<0\n$$\n<p>因为 $x_{n}\\in(\\frac{1}{2},1)$. 而 $f_{n+1}$ 在 $(\\frac{1}{2},1)$ 上严格递增，且其唯一零点为 $x_{n+1}$，所以 $x_{n}<x_{n+1}$. 因此数列 $x_{2}$，$x_{3}$，$\\ldots$ 为严格递增数列.</p></li></ol>"
         }
       ]
     }

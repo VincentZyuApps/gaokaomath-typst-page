@@ -65,7 +65,7 @@
             "36"
           ],
           "answer": "C",
-          "solution": "<p>按流程执行，初始 $k=2$，$s=0$. 每次满足 $k&#x3C;10$ 时先把当前的 $k$ 加入 $s$，再令 $k=2k-1$：</p>\n$$\n(k,s):(2,0)\\to(3,2)\\to(5,5)\\to(9,10)\\to(17,19)\n$$\n<p>此时 $k=17$，不再满足 $k&#x3C;10$，而题干要求输出的是 $s$，故输出 $s=19$，选 C.</p>"
+          "solution": "<p>按流程执行，初始 $k=2$，$s=0$. 每次满足 $k<10$ 时先把当前的 $k$ 加入 $s$，再令 $k=2k-1$：</p>\n$$\n(k,s):(2,0)\\to(3,2)\\to(5,5)\\to(9,10)\\to(17,19)\n$$\n<p>此时 $k=17$，不再满足 $k<10$，而题干要求输出的是 $s$，故输出 $s=19$，选 C.</p>"
         },
         {
           "num": 6,
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "已知函数 $f(x) = \\begin{cases}\\frac{1}{x + 1} - 3, &#x26; x \\in (-1,0],\\\\\n\nx, &#x26; x \\in (0,1]\\end{cases}$，且 $g(x) = f(x) - mx - m$ 在 $(-1,1]$ 内有且仅有两个不同的零点，则实数 $m$ 的取值范围是（ ）",
+          "body": "已知函数 $f(x) = \\begin{cases}\\frac{1}{x + 1} - 3, & x \\in (-1,0],\\\\\n\nx, & x \\in (0,1]\\end{cases}$，且 $g(x) = f(x) - mx - m$ 在 $(-1,1]$ 内有且仅有两个不同的零点，则实数 $m$ 的取值范围是（ ）",
           "choices": [
             "$\\left(-\\frac{9}{4}, -2\\right] \\cup \\left(0, \\frac{1}{2}\\right]$",
             "$\\left(-\\frac{11}{4}, -2\\right] \\cup \\left(0, \\frac{1}{2}\\right]$",
@@ -125,7 +125,7 @@
             "$\\left(-\\frac{11}{4}, -2\\right] \\cup \\left(0, \\frac{2}{3}\\right]$"
           ],
           "answer": "A",
-          "solution": "<p>当 $x\\in(-1,0]$ 时，令 $t=x+1$，则 $t\\in(0,1]$，且</p>\n$$\ng(x)=\\frac{1}{x+1}-3-m(x+1)=\\frac{1}{t}-3-mt\n$$\n<p>因此左段零点对应于</p><p>$m=\\frac{1-3t}{t^{2}}=:h(t)$，$t\\in(0,1]$.</p><p>有</p>\n$$\nh'(t)=\\frac{3t-2}{t^{3}}\n$$\n<p>所以 $h(t)$ 在 $(0,\\frac{2}{3})$ 上递减，在 $(\\frac{2}{3},1]$ 上递增，且</p><p>$h\\left(\\frac{2}{3}\\right)=-\\frac{9}{4}$，$h(1)=-2$.</p><p>由上述单调性和端点值可知：当 $m\\in(-\\frac{9}{4},-2]$ 时，左段有两个零点；当 $m=-\\frac{9}{4}$ 时有一个零点；当 $m&#x3C;-\\frac{9}{4}$ 时没有零点；当 $m>-2$ 时有一个零点.</p><p>当 $x\\in(0,1]$ 时，$f(x)=x$，故</p>\n$$\ng(x)=(1-m)x-m\n$$\n<p>其零点为 $x=\\frac{m}{1-m}$. 要求 $0&#x3C;x\\leqslant1$，得到 $0&#x3C;m\\le\\frac{1}{2}$，此时右段恰有一个零点；左段也恰有一个零点. 因此总共有两个不同零点时</p>\n$$\nm\\in\\left(-\\frac{9}{4},-2\\right]\\cup\\left(0,\\frac{1}{2}\\right]\n$$\n<p>选 A.</p>"
+          "solution": "<p>当 $x\\in(-1,0]$ 时，令 $t=x+1$，则 $t\\in(0,1]$，且</p>\n$$\ng(x)=\\frac{1}{x+1}-3-m(x+1)=\\frac{1}{t}-3-mt\n$$\n<p>因此左段零点对应于</p><p>$m=\\frac{1-3t}{t^{2}}=:h(t)$，$t\\in(0,1]$.</p><p>有</p>\n$$\nh'(t)=\\frac{3t-2}{t^{3}}\n$$\n<p>所以 $h(t)$ 在 $(0,\\frac{2}{3})$ 上递减，在 $(\\frac{2}{3},1]$ 上递增，且</p><p>$h\\left(\\frac{2}{3}\\right)=-\\frac{9}{4}$，$h(1)=-2$.</p><p>由上述单调性和端点值可知：当 $m\\in(-\\frac{9}{4},-2]$ 时，左段有两个零点；当 $m=-\\frac{9}{4}$ 时有一个零点；当 $m<-\\frac{9}{4}$ 时没有零点；当 $m>-2$ 时有一个零点.</p><p>当 $x\\in(0,1]$ 时，$f(x)=x$，故</p>\n$$\ng(x)=(1-m)x-m\n$$\n<p>其零点为 $x=\\frac{m}{1-m}$. 要求 $0<x\\leqslant1$，得到 $0<m\\le\\frac{1}{2}$，此时右段恰有一个零点；左段也恰有一个零点. 因此总共有两个不同零点时</p>\n$$\nm\\in\\left(-\\frac{9}{4},-2\\right]\\cup\\left(0,\\frac{1}{2}\\right]\n$$\n<p>选 A.</p>"
         }
       ]
     },
@@ -148,10 +148,10 @@
         },
         {
           "num": 13,
-          "body": "将函数 $f(x) = \\sin (\\omega x + \\varphi)$（$\\omega > 0$，$-\\frac{\\pi}{2}\\le \\varphi &#x3C; \\frac{\\pi}{2}$）图象上每一点的横坐标缩短为原来的一半，纵坐标不变，再向右平移 $\\frac{\\pi}{6}$ 个单位长度得到 $y = \\sin x$ 的图象，则 $f\\left(\\frac{\\pi}{6}\\right) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "将函数 $f(x) = \\sin (\\omega x + \\varphi)$（$\\omega > 0$，$-\\frac{\\pi}{2}\\le \\varphi < \\frac{\\pi}{2}$）图象上每一点的横坐标缩短为原来的一半，纵坐标不变，再向右平移 $\\frac{\\pi}{6}$ 个单位长度得到 $y = \\sin x$ 的图象，则 $f\\left(\\frac{\\pi}{6}\\right) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{\\sqrt{2}}{2}$",
-          "solution": "<p>横坐标缩短为原来的一半后，函数图象变为 $y=\\sin(2\\omega x+\\varphi)$；再向右平移 $\\frac{\\pi}{6}$，得到</p>\n$$\ny=\\sin\\left(2\\omega\\left(x-\\frac{\\pi}{6}\\right)+\\varphi\\right)\n$$\n<p>它与 $y=\\sin x$ 的图象相同，因此 $2\\omega=1$，且</p>\n$$\n\\varphi-\\frac{\\pi}{6}=2k\\pi\n$$\n<p>由 $-\\frac{\\pi}{2}\\le\\varphi&#x3C;\\frac{\\pi}{2}$ 可知只能取 $k=0$，从而 $\\omega=\\frac{1}{2}$，$\\varphi=\\frac{\\pi}{6}$. 于是</p>\n$$\nf\\left(\\frac{\\pi}{6}\\right)=\\sin\\left(\\frac{1}{2}\\cdot\\frac{\\pi}{6}+\\frac{\\pi}{6}\\right)=\\sin\\frac{\\pi}{4}=\\frac{\\sqrt{2}}{2}\n$$"
+          "solution": "<p>横坐标缩短为原来的一半后，函数图象变为 $y=\\sin(2\\omega x+\\varphi)$；再向右平移 $\\frac{\\pi}{6}$，得到</p>\n$$\ny=\\sin\\left(2\\omega\\left(x-\\frac{\\pi}{6}\\right)+\\varphi\\right)\n$$\n<p>它与 $y=\\sin x$ 的图象相同，因此 $2\\omega=1$，且</p>\n$$\n\\varphi-\\frac{\\pi}{6}=2k\\pi\n$$\n<p>由 $-\\frac{\\pi}{2}\\le\\varphi<\\frac{\\pi}{2}$ 可知只能取 $k=0$，从而 $\\omega=\\frac{1}{2}$，$\\varphi=\\frac{\\pi}{6}$. 于是</p>\n$$\nf\\left(\\frac{\\pi}{6}\\right)=\\sin\\left(\\frac{1}{2}\\cdot\\frac{\\pi}{6}+\\frac{\\pi}{6}\\right)=\\sin\\frac{\\pi}{4}=\\frac{\\sqrt{2}}{2}\n$$"
         },
         {
           "num": 14,
@@ -191,14 +191,14 @@
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，且 $a + b + c = 8$.</p><ol class=\"enumerate\"><li><p>若 $a = 2$，$b = \\frac{5}{2}$，求 $\\cos C$ 的值；</p></li><li><p>若 $\\sin A \\cos^{2} \\frac{B}{2}+ \\sin B \\cos^{2} \\frac{A}{2}= 2 \\sin C$，且 $\\triangle ABC$ 的面积 $S = \\frac{9}{2}\\sin C$，求 $a$ 和 $b$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $a+b+c=8$，得</p>\n$$\nc=8-2-\\frac{5}{2}=\\frac{7}{2}\n$$\n<p>由余弦定理，</p>\n$$\n\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}=\\frac{2^{2}+\\left(\\frac{5}{2}\\right)^{2}-\\left(\\frac{7}{2}\\right)^{2}}{2\\cdot2\\cdot\\frac{5}{2}}=-\\frac{1}{5}\n$$\n</li><li><p>利用半角公式，题设左端的两倍为</p>\n$$\n\\sin A(1+\\cos B)+\\sin B(1+\\cos A)  =\\sin A+\\sin B+\\sin(A+B)\n$$\n<p>因为 $A+B=\\pi-C$，所以 $\\sin(A+B)=\\sin C$. 题设从而给出</p>\n$$\n\\sin A+\\sin B+\\sin C=4\\sin C\n$$\n<p>即 $\\sin A+\\sin B=3\\sin C$. 由正弦定理，$\\sin A:\\sin B:\\sin C=a:b:c$，故 $a+b=3c$. 结合 $a+b+c=8$，得 $c=2$，$a+b=6$.</p><p>又由三角形面积公式和题设，</p>\n$$\n\\frac{1}{2}ab\\sin C=\\frac{9}{2}\\sin C\n$$\n<p>因 $0&#x3C;C&#x3C;\\pi$，$\\sin C>0$，所以 $ab=9$. 于是 $a$，$b$ 是方程</p>\n$$\nt^{2}-6t+9=0\n$$\n<p>的两个正根，该方程为 $(t-3)^{2}=0$，故 $a=b=3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $a+b+c=8$，得</p>\n$$\nc=8-2-\\frac{5}{2}=\\frac{7}{2}\n$$\n<p>由余弦定理，</p>\n$$\n\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}=\\frac{2^{2}+\\left(\\frac{5}{2}\\right)^{2}-\\left(\\frac{7}{2}\\right)^{2}}{2\\cdot2\\cdot\\frac{5}{2}}=-\\frac{1}{5}\n$$\n</li><li><p>利用半角公式，题设左端的两倍为</p>\n$$\n\\sin A(1+\\cos B)+\\sin B(1+\\cos A)  =\\sin A+\\sin B+\\sin(A+B)\n$$\n<p>因为 $A+B=\\pi-C$，所以 $\\sin(A+B)=\\sin C$. 题设从而给出</p>\n$$\n\\sin A+\\sin B+\\sin C=4\\sin C\n$$\n<p>即 $\\sin A+\\sin B=3\\sin C$. 由正弦定理，$\\sin A:\\sin B:\\sin C=a:b:c$，故 $a+b=3c$. 结合 $a+b+c=8$，得 $c=2$，$a+b=6$.</p><p>又由三角形面积公式和题设，</p>\n$$\n\\frac{1}{2}ab\\sin C=\\frac{9}{2}\\sin C\n$$\n<p>因 $0<C<\\pi$，$\\sin C>0$，所以 $ab=9$. 于是 $a$，$b$ 是方程</p>\n$$\nt^{2}-6t+9=0\n$$\n<p>的两个正根，该方程为 $(t-3)^{2}=0$，故 $a=b=3$.</p></li></ol>"
         },
         {
           "num": 19,
           "body": "<p>已知函数 $f(x) = \\frac{x}{4}+ \\frac{a}{x}- \\ln x - \\frac{3}{2}$，其中 $a \\in \\mathbb{R}$，且曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线垂直于 $y = \\frac{1}{2}x$.</p><ol class=\"enumerate\"><li><p>求 $a$ 的值；</p></li><li><p>求函数 $f(x)$ 的单调区间和极值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{1}{4}-\\frac{a}{x^{2}}-\\frac{1}{x}\n$$\n<p>直线 $y=\\frac{1}{2}x$ 的斜率为 $\\frac{1}{2}$，与其垂直的直线斜率为 $-2$. 因此</p>\n$$\nf'(1)=\\frac{1}{4}-a-1=-2\n$$\n<p>解得 $a=\\frac{5}{4}$.</p></li><li><p>代入 $a=\\frac{5}{4}$，得</p>\n$$\nf'(x)=\\frac{1}{4}-\\frac{5}{4x^{2}}-\\frac{1}{x}=\\frac{x^{2}-4x-5}{4x^{2}}=\\frac{(x-5)(x+1)}{4x^{2}}\n$$\n<p>在定义域 $x>0$ 内，$4x^{2}>0$ 且 $x+1>0$，所以 $f'(x)&#x3C;0$ 当 $0&#x3C;x&#x3C;5$，$f'(x)>0$ 当 $x>5$. 故 $f(x)$ 在 $(0,5)$ 上单调递减，在 $(5,+\\infty)$ 上单调递增，并在 $x=5$ 处取得极小值</p>\n$$\nf(5)=\\frac{5}{4}+\\frac{5}{4\\cdot5}-\\ln5-\\frac{3}{2}=-\\ln5\n$$\n<p>函数没有极大值.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{1}{4}-\\frac{a}{x^{2}}-\\frac{1}{x}\n$$\n<p>直线 $y=\\frac{1}{2}x$ 的斜率为 $\\frac{1}{2}$，与其垂直的直线斜率为 $-2$. 因此</p>\n$$\nf'(1)=\\frac{1}{4}-a-1=-2\n$$\n<p>解得 $a=\\frac{5}{4}$.</p></li><li><p>代入 $a=\\frac{5}{4}$，得</p>\n$$\nf'(x)=\\frac{1}{4}-\\frac{5}{4x^{2}}-\\frac{1}{x}=\\frac{x^{2}-4x-5}{4x^{2}}=\\frac{(x-5)(x+1)}{4x^{2}}\n$$\n<p>在定义域 $x>0$ 内，$4x^{2}>0$ 且 $x+1>0$，所以 $f'(x)<0$ 当 $0<x<5$，$f'(x)>0$ 当 $x>5$. 故 $f(x)$ 在 $(0,5)$ 上单调递减，在 $(5,+\\infty)$ 上单调递增，并在 $x=5$ 处取得极小值</p>\n$$\nf(5)=\\frac{5}{4}+\\frac{5}{4\\cdot5}-\\ln5-\\frac{3}{2}=-\\ln5\n$$\n<p>函数没有极大值.</p></li></ol>"
         },
         {
           "num": 20,

@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "集合 $P = \\{x \\in \\mathbb{Z}\\mid 0 \\le x &#x3C; 3\\}$，$M = \\{x \\in \\mathbb{Z}\\mid x^{2} \\le 9\\}$，则 $P \\cap M =$（ ）",
+          "body": "集合 $P = \\{x \\in \\mathbb{Z}\\mid 0 \\le x < 3\\}$，$M = \\{x \\in \\mathbb{Z}\\mid x^{2} \\le 9\\}$，则 $P \\cap M =$（ ）",
           "choices": [
             "$\\{1, 2\\}$",
             "$\\{0, 1, 2\\}$",
@@ -17,7 +17,7 @@
             "$\\{0, 1, 2, 3\\}$"
           ],
           "answer": "B",
-          "solution": "<p>由题意，$0\\le x&#x3C;3$ 且 $x\\in\\mathbb{Z}$，所以 $P=\\{0,1,2\\}$.又因为 $x^{2}\\leqslant9$，所以 $-3\\le x\\leqslant3$，从而 $M=\\{-3,-2,-1,0,1,2,3\\}$.因此</p>\n$$\nP\\cap M=\\{0,1,2\\}\n$$\n<p>故选 B.</p>"
+          "solution": "<p>由题意，$0\\le x<3$ 且 $x\\in\\mathbb{Z}$，所以 $P=\\{0,1,2\\}$.又因为 $x^{2}\\leqslant9$，所以 $-3\\le x\\leqslant3$，从而 $M=\\{-3,-2,-1,0,1,2,3\\}$.因此</p>\n$$\nP\\cap M=\\{0,1,2\\}\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 2,
@@ -110,24 +110,24 @@
       "problems": [
         {
           "num": 9,
-          "body": "<p>已知函数 $y = \\begin{cases}\\log_{2}x,&#x26;x \\ge 2\\\\  2 - x,&#x26;x &#x3C; 2\\end{cases}$，如图表示的是给定 $x$ 的值，求其对应的函数值 $y$ 的程序框图. ① 应填写<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；② 应填写<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.35<span class=\"macro macro-linewidth\"></span>]img_repaint/2010/beijing_liberal/q9_fig1.tex</p>",
+          "body": "<p>已知函数 $y = \\begin{cases}\\log_{2}x,&x \\ge 2\\\\  2 - x,&x < 2\\end{cases}$，如图表示的是给定 $x$ 的值，求其对应的函数值 $y$ 的程序框图. ① 应填写<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；② 应填写<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.35<span class=\"macro macro-linewidth\"></span>]img_repaint/2010/beijing_liberal/q9_fig1.tex</p>",
           "choices": null,
-          "answer": "$x &#x3C; 2$；$y = \\log_{2}x$",
-          "solution": "流程图在判断框中“是”的分支直接执行 $y=2-x$，所以该分支对应分段函数的条件 $x&#x3C;2$.判断框中“否”的分支对应 $x\\geqslant2$，此时应执行另一段 $y=\\log_{2}x$.因此 $①$ 填 $x&#x3C;2$，$②$ 填 $y=\\log_{2}x$."
+          "answer": "$x < 2$；$y = \\log_{2}x$",
+          "solution": "流程图在判断框中“是”的分支直接执行 $y=2-x$，所以该分支对应分段函数的条件 $x<2$.判断框中“否”的分支对应 $x\\geqslant2$，此时应执行另一段 $y=\\log_{2}x$.因此 $①$ 填 $x<2$，$②$ 填 $y=\\log_{2}x$."
         },
         {
           "num": 10,
           "body": "在 $\\triangle ABC$ 中，若 $b = 1$，$c = \\sqrt{3}$，$\\angle C = \\frac{2\\pi}{3}$，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$1$",
-          "solution": "<p>由正弦定理，</p>\n$$\n\\frac{b}{\\sin B}=\\frac{c}{\\sin C}\n$$\n<p>所以</p>\n$$\n\\sin B=\\frac{b\\sin C}{c}=\\frac{1\\times\\sin\\frac{2\\pi}{3}}{\\sqrt{3}}=\\frac{1}{2}\n$$\n<p>故 $B=\\frac{\\pi}{6}$ 或 $B=\\frac{5\\pi}{6}$.但 $B+C&#x3C;\\pi$，而 $C=\\frac{2\\pi}{3}$，所以 $B&#x3C;\\frac{\\pi}{3}$，只能取 $B=\\frac{\\pi}{6}$.于是 $A=\\frac{\\pi}{6}$.再次由正弦定理，</p>\n$$\na=\\frac{c\\sin A}{\\sin C}=\\frac{\\sqrt{3}\\times\\frac{1}{2}}{\\frac{\\sqrt{3}}{2}}=1\n$$\n<p>故填 $1$.</p>"
+          "solution": "<p>由正弦定理，</p>\n$$\n\\frac{b}{\\sin B}=\\frac{c}{\\sin C}\n$$\n<p>所以</p>\n$$\n\\sin B=\\frac{b\\sin C}{c}=\\frac{1\\times\\sin\\frac{2\\pi}{3}}{\\sqrt{3}}=\\frac{1}{2}\n$$\n<p>故 $B=\\frac{\\pi}{6}$ 或 $B=\\frac{5\\pi}{6}$.但 $B+C<\\pi$，而 $C=\\frac{2\\pi}{3}$，所以 $B<\\frac{\\pi}{3}$，只能取 $B=\\frac{\\pi}{6}$.于是 $A=\\frac{\\pi}{6}$.再次由正弦定理，</p>\n$$\na=\\frac{c\\sin A}{\\sin C}=\\frac{\\sqrt{3}\\times\\frac{1}{2}}{\\frac{\\sqrt{3}}{2}}=1\n$$\n<p>故填 $1$.</p>"
         },
         {
           "num": 11,
-          "body": "若点 $P(m,3)$ 到直线 $4x - 3y + 1 = 0$ 的距离为4，且点 $P$ 在不等式 $2x + y &#x3C; 3$ 表示的平面区域内，则 $m =\\underline{\\hspace{2.5em}}{}$.",
+          "body": "若点 $P(m,3)$ 到直线 $4x - 3y + 1 = 0$ 的距离为4，且点 $P$ 在不等式 $2x + y < 3$ 表示的平面区域内，则 $m =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$-3$",
-          "solution": "<p>由点到直线的距离公式，</p>\n$$\n\\frac{|4m-3\\times3+1|}{\\sqrt{4^{2}+(-3)^{2}}}=4\n$$\n<p>即 $|4m-8|=20$.因此 $m=7$ 或 $m=-3$.又点 $P(m,3)$ 在 $2x+y&#x3C;3$ 表示的区域内，故 $2m+3&#x3C;3$，即 $m&#x3C;0$，所以只能取 $m=-3$.</p>"
+          "solution": "<p>由点到直线的距离公式，</p>\n$$\n\\frac{|4m-3\\times3+1|}{\\sqrt{4^{2}+(-3)^{2}}}=4\n$$\n<p>即 $|4m-8|=20$.因此 $m=7$ 或 $m=-3$.又点 $P(m,3)$ 在 $2x+y<3$ 表示的区域内，故 $2m+3<3$，即 $m<0$，所以只能取 $m=-3$.</p>"
         },
         {
           "num": 12,
@@ -188,7 +188,7 @@
           "body": "<p>已知椭圆 $C$ 的左，右焦点坐标分别是 $(- \\sqrt{2}, 0)$，$(\\sqrt{2}, 0)$，离心率是 $\\frac{\\sqrt{6}}{3}$. 直线 $y = t$ 与椭圆 $C$ 交于不同的两点 $M$，$N$，以线段 $MN$ 为直径作圆 $P$，圆心为 $P$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>若圆 $P$ 与 $x$ 轴相切，求圆心 $P$ 的坐标；</p></li><li><p>设 $Q(x,y)$ 是圆 $P$ 上的动点，当 $t$ 变化时，求 $y$ 的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半长轴、半短轴和焦半距分别为 $a$、$b$、$c$.由焦点坐标知 $c=\\sqrt{2}$，又离心率为 $\\frac{c}{a}=\\frac{\\sqrt{6}}{3}$，所以 $a=\\sqrt{3}$.于是 $b^{2}=a^{2}-c^{2}=3-2=1$，椭圆方程为</p>\n$$\n\\frac{x^{2}}{3}+y^{2}=1\n$$\n</li><li><p>直线 $y=t$ 与椭圆交于不同两点，故 $-1&#x3C;t&#x3C;1$，且</p><p>$M\\left(\\sqrt{3(1-t^{2})},t\\right)$，$N\\left(-\\sqrt{3(1-t^{2})},t\\right)$.</p><p>所以圆心 $P=(0,t)$，半径为 $r=\\sqrt{3(1-t^{2})}$.圆与 $x$ 轴相切等价于 $|t|=r$，即</p>\n$$\nt^{2}=3(1-t^{2})\n$$\n<p>解得 $t=\\pm\\frac{\\sqrt{3}}{2}$.因此圆心坐标为 $\\left(0,\\pm\\frac{\\sqrt{3}}{2}\\right)$.</p></li><li><p>圆 $P$ 的方程为</p>\n$$\nx^{2}+(y-t)^{2}=3(1-t^{2})\n$$\n<p>对固定的 $t$，圆上点的纵坐标满足</p>\n$$\ny\\le t+\\sqrt{3(1-t^{2})}\n$$\n<p>令 $u=t$，$v=\\sqrt{1-t^{2}}$，则 $u^{2}+v^{2}=1$，且 $v>0$.由柯西不等式，</p>\n$$\ny\\le u+\\sqrt{3}v\\le\\sqrt{1^{2}+(\\sqrt{3})^{2}}\\sqrt{u^{2}+v^{2}}=2\n$$\n<p>当 $u=\\frac{1}{2}$，$v=\\frac{\\sqrt{3}}{2}$，即 $t=\\frac{1}{2}$ 且 $x=0$ 时取得等号.因此 $y$ 的最大值为 $2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半长轴、半短轴和焦半距分别为 $a$、$b$、$c$.由焦点坐标知 $c=\\sqrt{2}$，又离心率为 $\\frac{c}{a}=\\frac{\\sqrt{6}}{3}$，所以 $a=\\sqrt{3}$.于是 $b^{2}=a^{2}-c^{2}=3-2=1$，椭圆方程为</p>\n$$\n\\frac{x^{2}}{3}+y^{2}=1\n$$\n</li><li><p>直线 $y=t$ 与椭圆交于不同两点，故 $-1<t<1$，且</p><p>$M\\left(\\sqrt{3(1-t^{2})},t\\right)$，$N\\left(-\\sqrt{3(1-t^{2})},t\\right)$.</p><p>所以圆心 $P=(0,t)$，半径为 $r=\\sqrt{3(1-t^{2})}$.圆与 $x$ 轴相切等价于 $|t|=r$，即</p>\n$$\nt^{2}=3(1-t^{2})\n$$\n<p>解得 $t=\\pm\\frac{\\sqrt{3}}{2}$.因此圆心坐标为 $\\left(0,\\pm\\frac{\\sqrt{3}}{2}\\right)$.</p></li><li><p>圆 $P$ 的方程为</p>\n$$\nx^{2}+(y-t)^{2}=3(1-t^{2})\n$$\n<p>对固定的 $t$，圆上点的纵坐标满足</p>\n$$\ny\\le t+\\sqrt{3(1-t^{2})}\n$$\n<p>令 $u=t$，$v=\\sqrt{1-t^{2}}$，则 $u^{2}+v^{2}=1$，且 $v>0$.由柯西不等式，</p>\n$$\ny\\le u+\\sqrt{3}v\\le\\sqrt{1^{2}+(\\sqrt{3})^{2}}\\sqrt{u^{2}+v^{2}}=2\n$$\n<p>当 $u=\\frac{1}{2}$，$v=\\frac{\\sqrt{3}}{2}$，即 $t=\\frac{1}{2}$ 且 $x=0$ 时取得等号.因此 $y$ 的最大值为 $2$.</p></li></ol>"
         },
         {
           "num": 20,

@@ -9,10 +9,10 @@
       "problems": [
         {
           "num": 1,
-          "body": "不等式 $|x + 1| &#x3C; 1$ 的解是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "不等式 $|x + 1| < 1$ 的解是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$-2 &#x3C; x &#x3C; 0$",
-          "solution": "由绝对值不等式的等价形式，$|x+1|&#x3C;1$ 等价于 $-1&#x3C;x+1&#x3C;1$，两边同时减去 $1$，得 $-2&#x3C;x&#x3C;0$."
+          "answer": "$-2 < x < 0$",
+          "solution": "由绝对值不等式的等价形式，$|x+1|<1$ 等价于 $-1<x+1<1$，两边同时减去 $1$，得 $-2<x<0$."
         },
         {
           "num": 2,
@@ -92,11 +92,11 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_liberal/q11_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "B",
-          "solution": "当 $a>1$ 时，$y=\\log_{a} x$ 的定义域为 $x>0$，在该定义域上单调递增，并且经过点 $(1,0)$，当 $x\\to0^{+}$ 时函数值趋于负无穷；直线 $y=(1-a)x$ 的斜率为 $1-a&#x3C;0$，且经过原点. 选项 A 中直线斜率为正，选项 C、D 中对数函数单调递减，均不符合题设；只有选项 B 同时满足两项性质，故选 B."
+          "solution": "当 $a>1$ 时，$y=\\log_{a} x$ 的定义域为 $x>0$，在该定义域上单调递增，并且经过点 $(1,0)$，当 $x\\to0^{+}$ 时函数值趋于负无穷；直线 $y=(1-a)x$ 的斜率为 $1-a<0$，且经过原点. 选项 A 中直线斜率为正，选项 C、D 中对数函数单调递减，均不符合题设；只有选项 B 同时满足两项性质，故选 B."
         },
         {
           "num": 12,
-          "body": "如果 $0 &#x3C; a &#x3C; 1$，那么下列不等式中正确的是（$ $）",
+          "body": "如果 $0 < a < 1$，那么下列不等式中正确的是（$ $）",
           "choices": [
             "$(1 - a)^{\\frac{1}{3}}> (1 - a)^{\\frac{1}{2}}$",
             "$\\log_{(1 - a)}(1 + a) > 0$",
@@ -104,7 +104,7 @@
             "$(1 - a)^{1 + a}> 1$"
           ],
           "answer": "A",
-          "solution": "<p>令 $r=1-a$，则 $0&#x3C;r&#x3C;1$. 由于底数在 $(0,1)$ 内，函数 $r^{x}$ 关于 $x$ 单调递减. 因为 $\\dfrac{1}{3}&#x3C;\\dfrac{1}{2}$，所以 $r^{\\frac{1}{3}}>r^{\\frac{1}{2}}$，选项 A 正确.</p><p>又因为 $1+a>1$，所以 $\\log_{r}(1+a)&#x3C;0$，B 错误；$0&#x3C;r^{3}&#x3C;1$，而 $(1+a)^{2}>1$，故 C 错误；$1+a>0$ 且 $r&#x3C;1$，所以 $r^{1+a}&#x3C;1$，D 错误. 因此选 A.</p>"
+          "solution": "<p>令 $r=1-a$，则 $0<r<1$. 由于底数在 $(0,1)$ 内，函数 $r^{x}$ 关于 $x$ 单调递减. 因为 $\\dfrac{1}{3}<\\dfrac{1}{2}$，所以 $r^{\\frac{1}{3}}>r^{\\frac{1}{2}}$，选项 A 正确.</p><p>又因为 $1+a>1$，所以 $\\log_{r}(1+a)<0$，B 错误；$0<r^{3}<1$，而 $(1+a)^{2}>1$，故 C 错误；$1+a>0$ 且 $r<1$，所以 $r^{1+a}<1$，D 错误. 因此选 A.</p>"
         },
         {
           "num": 13,
@@ -247,7 +247,7 @@
           "body": "<p>设 $P(1, t)$ 是直角坐标系内的点（$t > 0$）. 将向量 $\\overrightarrow{OP}$ 绕原点 $O$ 按逆时针方向旋转 $\\frac{\\pi}{2}$，再把它的模变为原来的两倍，得到向量 $\\overrightarrow{OQ}$，以 $OP$，$OQ$ 为邻边作矩形 $OPRQ$.</p><ol class=\"enumerate\"><li><p>求点 $Q$，$R$ 的坐标；</p></li><li><p>求矩形 $OPRQ$ 在第一象限部分的面积 $S(t)$；</p></li><li><p>确定函数 $S(t)$ 的单调区间，并加以证明.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$\\overrightarrow{OP}= (1,t)$. 由 $\\overrightarrow{OQ}\\cdot\\overrightarrow{OP}=0$ 和 $\\lvert\\overrightarrow{OQ}\\rvert=2\\lvert\\overrightarrow{OP}\\rvert$，得 $\\overrightarrow{OQ}=\\pm 2(-t,1)$. 根据题意，向量 $\\overrightarrow{OP}$ 按逆时针方向旋转 $\\frac{\\pi}{2}$ 后再把模变为原来的两倍，所以 $\\overrightarrow{OQ}=(-2t,2)$.</p><p>所以 $Q(-2t,2)$. 又 $\\overrightarrow{OR}= \\overrightarrow{OP}+ \\overrightarrow{OQ}= (-2t+1, t+2)$，所以 $R(-2t+1,t+2)$.</p></li><li><p>当 $-2t+1>0$，即 $0&#x3C;t&#x3C;\\frac{1}{2}$ 时，点 $R$ 在第一象限内，此时 $S(t)$ 为四边形 $OPRQ$ 在第一象限部分的面积.</p><p>直线 $QR$ 的方程为 $y-2=t(x+2t)$. 令 $x=0$，得 $y=2t^{2}+2$，设交点为 $K(0,2t^{2}+2)$. 因而</p>\n$$\nS(t)=S_{OPRQ}-S_{OKQ}=2\\left(\\sqrt{1+t^{2}}\\right)^{2}-\\frac{1}{2}(2t^{2}+2)\\cdot 2t=2(1-t+t^{2}-t^{3})\n$$\n<p>当 $-2t+1\\le0$，即 $t\\ge\\frac{1}{2}$ 时，点 $R$ 在 $y$ 轴上或第二象限内，此时 $S(t)$ 为 $\\triangle OPL$ 的面积.</p><p>直线 $PR$ 的方程为 $y-t=-\\dfrac{1}{t}(x-1)$.</p><p>令 $x=0$，得 $y=t+\\dfrac{1}{t}$，设交点为 $L\\!\\left(0,t+\\dfrac{1}{t}\\right)$. 所以 $S(t)=\\dfrac{1}{2}\\left(t+\\dfrac{1}{t}\\right)$.</p><p>因此</p>\n$$\nS(t)=  \\begin{cases}2(1-t+t^{2}-t^{3}),&#x26;0&#x3C;t&#x3C;\\frac{1}{2},\\\\  \\dfrac{1}{2}\\left(t+\\dfrac{1}{t}\\right),&#x26;t\\ge\\frac{1}{2}.\\end{cases}\n$$\n</li><li><p>当 $0&#x3C;t_{1}&#x3C;t_{2}&#x3C;\\frac{1}{2}$ 时，</p><p>$S(t_{1})-S(t_{2})=2(t_{2}-t_{1})\\bigl[1-(t_{1}+t_{2})+(t_{1}^{2}+t_{1}t_{2}+t_{2}^{2})\\bigr]$. 其中 $t_{2}-t_{1}>0$，且</p><p>$1-(t_{1}+t_{2})+(t_{1}^{2}+t_{1}t_{2}+t_{2}^{2})=(1-t_{1})(1-t_{2})+t_{1}^{2}+t_{2}^{2}>0$，所以 $S(t_{1})-S(t_{2})>0$，</p><p>所以 $S(t)$ 在 $(0,\\frac{1}{2})$ 内是减函数.</p><p>当 $\\frac{1}{2}\\le t_{1}&#x3C;t_{2}\\le1$ 时，$t_{1}-t_{2}&#x3C;0$，且 $t_{1}t_{2}&#x3C;1$，所以 $1-\\dfrac{1}{t_1t_2}&#x3C;0$，从而</p><p>$S(t_{1})-S(t_{2})=\\dfrac{1}{2}(t_{1}-t_{2})\\left(1-\\dfrac{1}{t_1t_2}\\right)>0$，</p><p>所以 $S(t)$ 在 $[\\frac{1}{2},1]$ 内也是减函数.</p><p>又</p><p>$S\\!\\left(\\dfrac{1}{2}\\right)=2\\left(1-\\dfrac{1}{2}+\\dfrac{1}{4}-\\dfrac{1}{8}\\right)=\\dfrac{5}{4}$.</p><p>对于 $0&#x3C;t_{1}&#x3C;\\frac{1}{2}\\le t_{2}\\le1$，有 $S(t_{1})>\\dfrac{5}{4}\\ge S(t_{2})$，所以 $S(t)$ 在 $(0,1]$ 内是减函数.</p><p>当 $1\\le t_{1}&#x3C;t_{2}$ 时，$t_{1}-t_{2}&#x3C;0$，且 $t_{1}t_{2}>1$，所以 $1-\\dfrac{1}{t_1t_2}>0$，从而</p><p>$S(t_{1})-S(t_{2})=\\dfrac{1}{2}(t_{1}-t_{2})\\left(1-\\dfrac{1}{t_1t_2}\\right)&#x3C;0$，</p><p>所以 $S(t)$ 在 $[1,+\\infty)$ 内是增函数.</p><p>综上，$S(t)$ 在 $(0,1]$ 上单调递减，在 $[1,+\\infty)$ 上单调递增；因此其单调区间分别为 $(0,1]$ 和 $[1,+\\infty)$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q26_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q26_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
+          "solution": "<ol class=\"enumerate\"><li><p>$\\overrightarrow{OP}= (1,t)$. 由 $\\overrightarrow{OQ}\\cdot\\overrightarrow{OP}=0$ 和 $\\lvert\\overrightarrow{OQ}\\rvert=2\\lvert\\overrightarrow{OP}\\rvert$，得 $\\overrightarrow{OQ}=\\pm 2(-t,1)$. 根据题意，向量 $\\overrightarrow{OP}$ 按逆时针方向旋转 $\\frac{\\pi}{2}$ 后再把模变为原来的两倍，所以 $\\overrightarrow{OQ}=(-2t,2)$.</p><p>所以 $Q(-2t,2)$. 又 $\\overrightarrow{OR}= \\overrightarrow{OP}+ \\overrightarrow{OQ}= (-2t+1, t+2)$，所以 $R(-2t+1,t+2)$.</p></li><li><p>当 $-2t+1>0$，即 $0<t<\\frac{1}{2}$ 时，点 $R$ 在第一象限内，此时 $S(t)$ 为四边形 $OPRQ$ 在第一象限部分的面积.</p><p>直线 $QR$ 的方程为 $y-2=t(x+2t)$. 令 $x=0$，得 $y=2t^{2}+2$，设交点为 $K(0,2t^{2}+2)$. 因而</p>\n$$\nS(t)=S_{OPRQ}-S_{OKQ}=2\\left(\\sqrt{1+t^{2}}\\right)^{2}-\\frac{1}{2}(2t^{2}+2)\\cdot 2t=2(1-t+t^{2}-t^{3})\n$$\n<p>当 $-2t+1\\le0$，即 $t\\ge\\frac{1}{2}$ 时，点 $R$ 在 $y$ 轴上或第二象限内，此时 $S(t)$ 为 $\\triangle OPL$ 的面积.</p><p>直线 $PR$ 的方程为 $y-t=-\\dfrac{1}{t}(x-1)$.</p><p>令 $x=0$，得 $y=t+\\dfrac{1}{t}$，设交点为 $L\\!\\left(0,t+\\dfrac{1}{t}\\right)$. 所以 $S(t)=\\dfrac{1}{2}\\left(t+\\dfrac{1}{t}\\right)$.</p><p>因此</p>\n$$\nS(t)=  \\begin{cases}2(1-t+t^{2}-t^{3}),&0<t<\\frac{1}{2},\\\\  \\dfrac{1}{2}\\left(t+\\dfrac{1}{t}\\right),&t\\ge\\frac{1}{2}.\\end{cases}\n$$\n</li><li><p>当 $0<t_{1}<t_{2}<\\frac{1}{2}$ 时，</p><p>$S(t_{1})-S(t_{2})=2(t_{2}-t_{1})\\bigl[1-(t_{1}+t_{2})+(t_{1}^{2}+t_{1}t_{2}+t_{2}^{2})\\bigr]$. 其中 $t_{2}-t_{1}>0$，且</p><p>$1-(t_{1}+t_{2})+(t_{1}^{2}+t_{1}t_{2}+t_{2}^{2})=(1-t_{1})(1-t_{2})+t_{1}^{2}+t_{2}^{2}>0$，所以 $S(t_{1})-S(t_{2})>0$，</p><p>所以 $S(t)$ 在 $(0,\\frac{1}{2})$ 内是减函数.</p><p>当 $\\frac{1}{2}\\le t_{1}<t_{2}\\le1$ 时，$t_{1}-t_{2}<0$，且 $t_{1}t_{2}<1$，所以 $1-\\dfrac{1}{t_1t_2}<0$，从而</p><p>$S(t_{1})-S(t_{2})=\\dfrac{1}{2}(t_{1}-t_{2})\\left(1-\\dfrac{1}{t_1t_2}\\right)>0$，</p><p>所以 $S(t)$ 在 $[\\frac{1}{2},1]$ 内也是减函数.</p><p>又</p><p>$S\\!\\left(\\dfrac{1}{2}\\right)=2\\left(1-\\dfrac{1}{2}+\\dfrac{1}{4}-\\dfrac{1}{8}\\right)=\\dfrac{5}{4}$.</p><p>对于 $0<t_{1}<\\frac{1}{2}\\le t_{2}\\le1$，有 $S(t_{1})>\\dfrac{5}{4}\\ge S(t_{2})$，所以 $S(t)$ 在 $(0,1]$ 内是减函数.</p><p>当 $1\\le t_{1}<t_{2}$ 时，$t_{1}-t_{2}<0$，且 $t_{1}t_{2}>1$，所以 $1-\\dfrac{1}{t_1t_2}>0$，从而</p><p>$S(t_{1})-S(t_{2})=\\dfrac{1}{2}(t_{1}-t_{2})\\left(1-\\dfrac{1}{t_1t_2}\\right)<0$，</p><p>所以 $S(t)$ 在 $[1,+\\infty)$ 内是增函数.</p><p>综上，$S(t)$ 在 $(0,1]$ 上单调递减，在 $[1,+\\infty)$ 上单调递增；因此其单调区间分别为 $(0,1]$ 和 $[1,+\\infty)$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q26_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q26_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
         }
       ]
     }

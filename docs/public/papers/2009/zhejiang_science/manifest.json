@@ -11,13 +11,13 @@
           "num": 1,
           "body": "设 $U=\\mathbb{R}$，$A=\\{x\\mid x>0\\}$，$B=\\{x\\mid x>1\\}$，则 $A\\cap\\complement_{U} B=$（ ）",
           "choices": [
-            "$\\{x\\mid 0\\le x&#x3C;1\\}$",
-            "$\\{x\\mid 0&#x3C;x\\le 1\\}$",
-            "$\\{x\\mid x&#x3C;0\\}$",
+            "$\\{x\\mid 0\\le x<1\\}$",
+            "$\\{x\\mid 0<x\\le 1\\}$",
+            "$\\{x\\mid x<0\\}$",
             "$\\{x\\mid x>1\\}$"
           ],
           "answer": "B",
-          "solution": "因为 $B=\\{x\\mid x>1\\}$，所以 $\\complement_{U} B=\\{x\\mid x\\le 1\\}$. 因而 $A\\cap\\complement_{U} B=\\{x\\mid 0&#x3C;x\\le 1\\}$，故选 B."
+          "solution": "因为 $B=\\{x\\mid x>1\\}$，所以 $\\complement_{U} B=\\{x\\mid x\\le 1\\}$. 因而 $A\\cap\\complement_{U} B=\\{x\\mid 0<x\\le 1\\}$，故选 B."
         },
         {
           "num": 2,
@@ -65,7 +65,7 @@
             "$90^{\\circ}$"
           ],
           "answer": "C",
-          "solution": "<p>设正三角形底面边长为 $s$，建立直角坐标系，使 $B(0,0,0)$，$C(s,0,0)$，$A\\left(\\dfrac{s}{2},\\dfrac{\\sqrt{3}}{2}s,0\\right)$，并取 $B_{1}(0,0,s)$，$C_{1}(s,0,s)$. 侧面 $BB_{1}C_{1}C$ 的中心为 $D\\left(\\dfrac{s}{2},0,\\dfrac{s}{2}\\right)$，该平面为 $y=0$.</p><p>有 $\\overrightarrow{AD}=\\left(0,-\\dfrac{\\sqrt{3}}{2}s,\\dfrac{1}{2}s\\right)$，故 $|AD|=s$. 设 $AD$ 与平面 $BB_{1}C_{1}C$ 所成的角为 $\\theta$，则线段在该平面法向方向上的分量为 $\\dfrac{\\sqrt{3}}{2}s$，所以 $\\sin\\theta=\\dfrac{\\sqrt{3}}{2}$. 因为 $0&#x3C;\\theta&#x3C;\\dfrac\\pi2$，得 $\\theta=60^{\\circ}$，故选 C.</p>"
+          "solution": "<p>设正三角形底面边长为 $s$，建立直角坐标系，使 $B(0,0,0)$，$C(s,0,0)$，$A\\left(\\dfrac{s}{2},\\dfrac{\\sqrt{3}}{2}s,0\\right)$，并取 $B_{1}(0,0,s)$，$C_{1}(s,0,s)$. 侧面 $BB_{1}C_{1}C$ 的中心为 $D\\left(\\dfrac{s}{2},0,\\dfrac{s}{2}\\right)$，该平面为 $y=0$.</p><p>有 $\\overrightarrow{AD}=\\left(0,-\\dfrac{\\sqrt{3}}{2}s,\\dfrac{1}{2}s\\right)$，故 $|AD|=s$. 设 $AD$ 与平面 $BB_{1}C_{1}C$ 所成的角为 $\\theta$，则线段在该平面法向方向上的分量为 $\\dfrac{\\sqrt{3}}{2}s$，所以 $\\sin\\theta=\\dfrac{\\sqrt{3}}{2}$. 因为 $0<\\theta<\\dfrac\\pi2$，得 $\\theta=60^{\\circ}$，故选 C.</p>"
         },
         {
           "num": 6,
@@ -77,7 +77,7 @@
             "$7$"
           ],
           "answer": "A",
-          "solution": "程序开始时 $S=0$，$k=0$. 第一次循环后 $S=0+2^{0}=1$，$k=1$；第二次循环后 $S=1+2^{1}=3$，$k=2$；第三次循环后 $S=3+2^{3}=11$，$k=3$；第四次循环后 $S=11+2^{11}>100$，$k=4$. 此时不再满足 $S&#x3C;100$，输出 $k=4$，故选 A."
+          "solution": "程序开始时 $S=0$，$k=0$. 第一次循环后 $S=0+2^{0}=1$，$k=1$；第二次循环后 $S=1+2^{1}=3$，$k=2$；第三次循环后 $S=3+2^{3}=11$，$k=3$；第四次循环后 $S=11+2^{11}>100$，$k=4$. 此时不再满足 $S<100$，输出 $k=4$，故选 A."
         },
         {
           "num": 7,
@@ -89,7 +89,7 @@
             "$6$"
           ],
           "answer": "B",
-          "solution": "<p>由 $|\\mathbf{a}|=3$，$|\\mathbf{b}|=4$，且 $\\mathbf{a}\\cdot\\mathbf{b}=0$，得 $|\\mathbf{a}-\\mathbf{b}|=\\sqrt{|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}}=5$. 所以所成三角形的三边为 $3$，$4$，$5$.</p><p>建立直角坐标系，将三角形设为 $A(0,0)$，$B(3,0)$，$C(0,4)$. 任意半径为 $1$ 的圆与每条边所在直线至多有两个交点. 若圆与两条直角边各有两个交点，设圆心为 $(u,v)$，则 $|u|&#x3C;1$，$|v|&#x3C;1$. 斜边所在直线为 $4x+3y=12$，于是 $4u+3v&#x3C;7$，圆心到斜边的距离大于 $1$，所以斜边没有交点. 若圆与 $x$ 轴和斜边各有两个交点，则 $|v|&#x3C;1$ 且 $|4u+3v-12|&#x3C;5$，从而 $4u+3v>7$，故 $u>1$，圆心到 $y$ 轴的距离大于 $1$，不能与另一条直角边相交. 若圆与 $y$ 轴和斜边各有两个交点，同理可得 $v>1$，不能与 $x$ 轴相交. 因此若公共点数超过 $4$，必有矛盾，公共点数至多为 $4$. 取圆心为 $\\left(\\dfrac{6}{5},\\dfrac{4}{5}\\right)$，半径为 $1$，则它与 $x$ 轴的交点为 $\\left(\\dfrac{3}{5},0\\right)$ 和 $\\left(\\dfrac{9}{5},0\\right)$. 将斜边所在直线参数化为 $(x,y)=(3-3t,4t)$，代入圆的方程得 $t=\\dfrac{2}{5}$ 或 $t=\\dfrac{36}{125}$，两值均在 $(0,1)$ 内，所以圆与斜边线段也有两个交点. 这四个交点互不相同，故 $4$ 个交点可以达到，所求最多为 $4$，故选 B.</p>"
+          "solution": "<p>由 $|\\mathbf{a}|=3$，$|\\mathbf{b}|=4$，且 $\\mathbf{a}\\cdot\\mathbf{b}=0$，得 $|\\mathbf{a}-\\mathbf{b}|=\\sqrt{|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}}=5$. 所以所成三角形的三边为 $3$，$4$，$5$.</p><p>建立直角坐标系，将三角形设为 $A(0,0)$，$B(3,0)$，$C(0,4)$. 任意半径为 $1$ 的圆与每条边所在直线至多有两个交点. 若圆与两条直角边各有两个交点，设圆心为 $(u,v)$，则 $|u|<1$，$|v|<1$. 斜边所在直线为 $4x+3y=12$，于是 $4u+3v<7$，圆心到斜边的距离大于 $1$，所以斜边没有交点. 若圆与 $x$ 轴和斜边各有两个交点，则 $|v|<1$ 且 $|4u+3v-12|<5$，从而 $4u+3v>7$，故 $u>1$，圆心到 $y$ 轴的距离大于 $1$，不能与另一条直角边相交. 若圆与 $y$ 轴和斜边各有两个交点，同理可得 $v>1$，不能与 $x$ 轴相交. 因此若公共点数超过 $4$，必有矛盾，公共点数至多为 $4$. 取圆心为 $\\left(\\dfrac{6}{5},\\dfrac{4}{5}\\right)$，半径为 $1$，则它与 $x$ 轴的交点为 $\\left(\\dfrac{3}{5},0\\right)$ 和 $\\left(\\dfrac{9}{5},0\\right)$. 将斜边所在直线参数化为 $(x,y)=(3-3t,4t)$，代入圆的方程得 $t=\\dfrac{2}{5}$ 或 $t=\\dfrac{36}{125}$，两值均在 $(0,1)$ 内，所以圆与斜边线段也有两个交点. 这四个交点互不相同，故 $4$ 个交点可以达到，所求最多为 $4$，故选 B.</p>"
         },
         {
           "num": 8,
@@ -101,7 +101,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang_science/q8_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "当 $a=0$ 时，$f(x)=1$，所以选项 C 的水平直线可以实现. 当 $a\\neq0$ 时，令 $c=|a|>0$，则 $a\\sin ax=c\\sin cx$，从而函数的振幅为 $c$，周期为 $T=\\dfrac{2\\pi}{c}$. 因此振幅大于 $1$ 时必有 $T&#x3C;2\\pi$. 选项 D 的图象振幅大于 $1$，但相邻同相位位置的水平距离大于 $2\\pi$，不符合上述关系，故不可能，选 D."
+          "solution": "当 $a=0$ 时，$f(x)=1$，所以选项 C 的水平直线可以实现. 当 $a\\neq0$ 时，令 $c=|a|>0$，则 $a\\sin ax=c\\sin cx$，从而函数的振幅为 $c$，周期为 $T=\\dfrac{2\\pi}{c}$. 因此振幅大于 $1$ 时必有 $T<2\\pi$. 选项 D 的图象振幅大于 $1$，但相邻同相位位置的水平距离大于 $2\\pi$，不符合上述关系，故不可能，选 D."
         },
         {
           "num": 9,
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "对于正实数 $\\alpha$，记 $M_{\\alpha}$ 为满足下述条件的函数 $f(x)$ 构成的集合：$\\forall x_{1}$，$x_{2}\\in\\mathbb{R}$ 且 $x_{2}>x_{1}$，有 $-\\alpha(x_{2}-x_{1})&#x3C;f(x_{2})-f(x_{1})&#x3C;\\alpha(x_{2}-x_{1})$. 下列结论中正确的是（ ）",
+          "body": "对于正实数 $\\alpha$，记 $M_{\\alpha}$ 为满足下述条件的函数 $f(x)$ 构成的集合：$\\forall x_{1}$，$x_{2}\\in\\mathbb{R}$ 且 $x_{2}>x_{1}$，有 $-\\alpha(x_{2}-x_{1})<f(x_{2})-f(x_{1})<\\alpha(x_{2}-x_{1})$. 下列结论中正确的是（ ）",
           "choices": [
             "若 $f(x)\\in M_{\\alpha_1}, g(x)\\in M_{\\alpha_2}$，则 $f(x)\\cdot g(x)\\in M_{\\alpha_1\\cdot\\alpha_2}$",
             "若 $f(x)\\in M_{\\alpha_1}$，$g(x)\\in M_{\\alpha_2}$ 且 $g(x)\\neq 0$，则 $\\frac{f(x)}{g(x)}\\in M_{\\frac{\\alpha_{1}}{\\alpha_{2}}}$",
@@ -125,7 +125,7 @@
             "若 $f(x)\\in M_{\\alpha_1}$，$g(x)\\in M_{\\alpha_2}$ 且 $\\alpha_{1}>\\alpha_{2}$，则 $f(x)-g(x)\\in M_{\\alpha_1-\\alpha_2}$"
           ],
           "answer": "C",
-          "solution": "<p>若 $f(x)\\in M_{\\alpha_1}$，$g(x)\\in M_{\\alpha_2}$，且 $x_{2}>x_{1}$，则</p><p>$-\\alpha_{1}(x_{2}-x_{1})&#x3C;f(x_{2})-f(x_{1})&#x3C;\\alpha_{1}(x_{2}-x_{1})$，</p><p>$-\\alpha_{2}(x_{2}-x_{1})&#x3C;g(x_{2})-g(x_{1})&#x3C;\\alpha_{2}(x_{2}-x_{1})$.</p><p>将两式相加，得到</p><p>$-(\\alpha_{1}+\\alpha_{2})(x_{2}-x_{1})&#x3C;[f(x_{2})+g(x_{2})]-[f(x_{1})+g(x_{1})]&#x3C;(\\alpha_{1}+\\alpha_{2})(x_{2}-x_{1})$，所以 $f+g\\in M_{\\alpha_1+\\alpha_2}$，选项 C 正确.</p><p>其余选项均不成立. 例如取 $\\alpha_{1}=\\alpha_{2}=1$，$f(x)=2$，$g(x)=\\dfrac{x}{2}$，则 $f\\in M_{1}$，$g\\in M_{1}$，但 $fg=x\\notin M_{1}$，故 A 错；取 $f(x)=\\dfrac{x}{2}$，$g(x)=\\dfrac{1}{2}$，则 $f\\in M_{1}$，$g\\in M_{1}$，且 $g\\neq0$，但 $\\frac{f}{g}=x\\notin M_{1}$，故 B 错；取 $\\alpha_{1}=2$，$\\alpha_{2}=1$，$f(x)=\\dfrac{3}{2}x$，$g(x)=0$，则 $f\\in M_{2}$，$g\\in M_{1}$，但 $f-g=\\dfrac{3}{2}x\\notin M_{1}$，故 D 错.</p>"
+          "solution": "<p>若 $f(x)\\in M_{\\alpha_1}$，$g(x)\\in M_{\\alpha_2}$，且 $x_{2}>x_{1}$，则</p><p>$-\\alpha_{1}(x_{2}-x_{1})<f(x_{2})-f(x_{1})<\\alpha_{1}(x_{2}-x_{1})$，</p><p>$-\\alpha_{2}(x_{2}-x_{1})<g(x_{2})-g(x_{1})<\\alpha_{2}(x_{2}-x_{1})$.</p><p>将两式相加，得到</p><p>$-(\\alpha_{1}+\\alpha_{2})(x_{2}-x_{1})<[f(x_{2})+g(x_{2})]-[f(x_{1})+g(x_{1})]<(\\alpha_{1}+\\alpha_{2})(x_{2}-x_{1})$，所以 $f+g\\in M_{\\alpha_1+\\alpha_2}$，选项 C 正确.</p><p>其余选项均不成立. 例如取 $\\alpha_{1}=\\alpha_{2}=1$，$f(x)=2$，$g(x)=\\dfrac{x}{2}$，则 $f\\in M_{1}$，$g\\in M_{1}$，但 $fg=x\\notin M_{1}$，故 A 错；取 $f(x)=\\dfrac{x}{2}$，$g(x)=\\dfrac{1}{2}$，则 $f\\in M_{1}$，$g\\in M_{1}$，且 $g\\neq0$，但 $\\frac{f}{g}=x\\notin M_{1}$，故 B 错；取 $\\alpha_{1}=2$，$\\alpha_{2}=1$，$f(x)=\\dfrac{3}{2}x$，$g(x)=0$，则 $f\\in M_{2}$，$g\\in M_{1}$，但 $f-g=\\dfrac{3}{2}x\\notin M_{1}$，故 D 错.</p>"
         }
       ]
     },
@@ -179,7 +179,7 @@
           "body": "<p>如图，在长方形 $ABCD$ 中，$AB=2$，$BC=1$，$E$ 为 $DC$ 的中点，$F$ 为线段 $EC$（端点除外）上一动点. 现将 $\\triangle AFD$ 沿 $AF$ 折起，使平面 $ABD\\perp$ 平面 $ABC$. 在平面 $ABD$ 内过点 $D$ 作 $DK\\perp AB$，$K$ 为垂足. 设 $AK=t$，则 $t$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$\\left(\\frac{1}{2},1\\right)$",
-          "solution": "<p>在原平面内建立坐标系，令 $A(0,0)$，$B(2,0)$，$D(0,1)$，$C(2,1)$. 设 $F(u,1)$，其中 $1&#x3C;u&#x3C;2$. 折起后 $A$，$F$ 不动，记点 $D$ 的新位置为 $D'$. 由于平面 $ABD'\\perp$ 平面 $ABC$，且两平面的交线为 $AB$，点 $D'$ 在过 $AB$ 且垂直于原平面的平面内，因此可设 $D'(t,0,z)$，其中 $t=AK$.</p><p>折叠保持长度不变，所以 $AD'=AD=1$，$FD'=FD=u$. 于是</p>\n$$\n\\begin{cases}t^{2}+z^{2}=1,\\\\  (t-u)^{2}+1+z^{2}=u^{2}.\\end{cases}\n$$\n<p>两式相减，得 $t^{2}-2ut+u^{2}+1+z^{2}-(t^{2}+z^{2})=u^{2}-1$，从而 $t=\\dfrac{1}{u}$. 因为 $1&#x3C;u&#x3C;2$，所以 $\\dfrac{1}{2}&#x3C;t&#x3C;1$，故 $t$ 的取值范围为 $\\left(\\dfrac{1}{2},1\\right)$.</p>"
+          "solution": "<p>在原平面内建立坐标系，令 $A(0,0)$，$B(2,0)$，$D(0,1)$，$C(2,1)$. 设 $F(u,1)$，其中 $1<u<2$. 折起后 $A$，$F$ 不动，记点 $D$ 的新位置为 $D'$. 由于平面 $ABD'\\perp$ 平面 $ABC$，且两平面的交线为 $AB$，点 $D'$ 在过 $AB$ 且垂直于原平面的平面内，因此可设 $D'(t,0,z)$，其中 $t=AK$.</p><p>折叠保持长度不变，所以 $AD'=AD=1$，$FD'=FD=u$. 于是</p>\n$$\n\\begin{cases}t^{2}+z^{2}=1,\\\\  (t-u)^{2}+1+z^{2}=u^{2}.\\end{cases}\n$$\n<p>两式相减，得 $t^{2}-2ut+u^{2}+1+z^{2}-(t^{2}+z^{2})=u^{2}-1$，从而 $t=\\dfrac{1}{u}$. 因为 $1<u<2$，所以 $\\dfrac{1}{2}<t<1$，故 $t$ 的取值范围为 $\\left(\\dfrac{1}{2},1\\right)$.</p>"
         }
       ]
     },
@@ -191,35 +191,35 @@
           "body": "<p>在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，且满足 $\\cos\\frac{A}{2}=\\frac{2\\sqrt{5}}{5}$，$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=3$.</p><ol class=\"enumerate\"><li><p>求 $\\triangle ABC$ 的面积；</p></li><li><p>若 $b+c=6$，求 $a$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由半角公式，$\\cos A=2\\cos^{2}\\dfrac{A}{2}-1=2\\left(\\dfrac{2\\sqrt{5}}{5}\\right)^{2}-1=\\dfrac{3}{5}$. 又 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=|AB||AC|\\cos A=bc\\cos A=3$，所以 $bc=5$. 因为 $0&#x3C;A&#x3C;\\pi$，故 $\\sin A=\\sqrt{1-\\cos^{2}A}=\\dfrac{4}{5}$. 因而 $\\triangle ABC$ 的面积为 $S=\\dfrac{1}{2}bc\\sin A=\\dfrac{1}{2}\\times5\\times\\dfrac{4}{5}=2$.</p></li><li><p>由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A=(b+c)^{2}-2bc-2bc\\cos A$. 代入 $b+c=6$，$bc=5$，$\\cos A=\\dfrac{3}{5}$，得 $a^{2}=36-10-6=20$. 因为 $a>0$，所以 $a=2\\sqrt{5}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由半角公式，$\\cos A=2\\cos^{2}\\dfrac{A}{2}-1=2\\left(\\dfrac{2\\sqrt{5}}{5}\\right)^{2}-1=\\dfrac{3}{5}$. 又 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=|AB||AC|\\cos A=bc\\cos A=3$，所以 $bc=5$. 因为 $0<A<\\pi$，故 $\\sin A=\\sqrt{1-\\cos^{2}A}=\\dfrac{4}{5}$. 因而 $\\triangle ABC$ 的面积为 $S=\\dfrac{1}{2}bc\\sin A=\\dfrac{1}{2}\\times5\\times\\dfrac{4}{5}=2$.</p></li><li><p>由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A=(b+c)^{2}-2bc-2bc\\cos A$. 代入 $b+c=6$，$bc=5$，$\\cos A=\\dfrac{3}{5}$，得 $a^{2}=36-10-6=20$. 因为 $a>0$，所以 $a=2\\sqrt{5}$.</p></li></ol>"
         },
         {
           "num": 19,
           "body": "<p>在 $1$，$2$，$3$，$\\cdots$，$9$ 这 $9$ 个自然数中，任取 $3$ 个数.</p><ol class=\"enumerate\"><li><p>求这 $3$ 个数中恰有 $1$ 个是偶数的概率；</p></li><li><p>设 $\\xi$ 为 $3$ 个数中两数相邻的组数（例如：若取出的数为 $1$，$2$，$3$，则有两组相邻的数 $1$，$2$ 和 $2$，$3$，此时 $\\xi$ 的值是 $2$）. 求随机变量 $\\xi$ 的分布列及其数学期望 $E(\\xi)$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$1$ 至 $9$ 中有 $4$ 个偶数和 $5$ 个奇数，任取 $3$ 个数的总数为 $\\mathrm{C}_{9}^{3}$. 恰有 $1$ 个偶数的取法数为 $\\mathrm{C}_{4}^{1}\\mathrm{C}_{5}^{2}$，所以所求概率为</p><p>$\\dfrac{\\mathrm{C}_4^1\\mathrm{C}_5^2}{\\mathrm{C}_9^3}=\\dfrac{40}{84}=\\dfrac{10}{21}$.</p></li><li><p>先求 $\\xi$ 的分布. $\\xi=2$ 当且仅当所取的三个数为连续的三个数，因此取法为 $\\{1,2,3\\}$，$\\{2,3,4\\}$，$\\ldots$，$\\{7,8,9\\}$，共有 $7$ 种，故 $P(\\xi=2)=\\dfrac7{84}=\\dfrac1{12}$.</p><p>$\\xi=0$ 表示任意两个所取的数都不相邻. 设所取数为 $1\\le x_{1}&#x3C;x_{2}&#x3C;x_{3}\\leqslant9$，作变换 $y_{1}=x_{1}$，$y_{2}=x_{2}-1$，$y_{3}=x_{3}-2$，则 $1\\le y_{1}&#x3C;y_{2}&#x3C;y_{3}\\leqslant7$. 所以 $\\xi=0$ 的取法数为 $\\mathrm{C}_{7}^{3}=35$，故 $P(\\xi=0)=\\dfrac{35}{84}=\\dfrac5{12}$.</p><p>剩余取法对应 $\\xi=1$，其取法数为 $84-7-35=42$，故 $P(\\xi=1)=\\dfrac{42}{84}=\\dfrac{1}{2}$. 分布列为</p>\n$$\n\\begin{tabular}{c|ccc}$\\xi$ &#x26; $0$ &#x26; $1$ &#x26; $2$ \\\\\n\n\\hline\n\n$P$ &#x26; $\\dfrac5{12}$ &#x26; $\\dfrac{1}{2}$ &#x26; $\\dfrac1{12}$\\end{tabular}\n$$\n<p>所以 $E(\\xi)=0\\times\\dfrac5{12}+1\\times\\dfrac{1}{2}+2\\times\\dfrac1{12}=\\dfrac{2}{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$1$ 至 $9$ 中有 $4$ 个偶数和 $5$ 个奇数，任取 $3$ 个数的总数为 $\\mathrm{C}_{9}^{3}$. 恰有 $1$ 个偶数的取法数为 $\\mathrm{C}_{4}^{1}\\mathrm{C}_{5}^{2}$，所以所求概率为</p><p>$\\dfrac{\\mathrm{C}_4^1\\mathrm{C}_5^2}{\\mathrm{C}_9^3}=\\dfrac{40}{84}=\\dfrac{10}{21}$.</p></li><li><p>先求 $\\xi$ 的分布. $\\xi=2$ 当且仅当所取的三个数为连续的三个数，因此取法为 $\\{1,2,3\\}$，$\\{2,3,4\\}$，$\\ldots$，$\\{7,8,9\\}$，共有 $7$ 种，故 $P(\\xi=2)=\\dfrac7{84}=\\dfrac1{12}$.</p><p>$\\xi=0$ 表示任意两个所取的数都不相邻. 设所取数为 $1\\le x_{1}<x_{2}<x_{3}\\leqslant9$，作变换 $y_{1}=x_{1}$，$y_{2}=x_{2}-1$，$y_{3}=x_{3}-2$，则 $1\\le y_{1}<y_{2}<y_{3}\\leqslant7$. 所以 $\\xi=0$ 的取法数为 $\\mathrm{C}_{7}^{3}=35$，故 $P(\\xi=0)=\\dfrac{35}{84}=\\dfrac5{12}$.</p><p>剩余取法对应 $\\xi=1$，其取法数为 $84-7-35=42$，故 $P(\\xi=1)=\\dfrac{42}{84}=\\dfrac{1}{2}$. 分布列为</p>\n$$\n\\begin{tabular}{c|ccc}$\\xi$ & $0$ & $1$ & $2$ \\\\\n\n\\hline\n\n$P$ & $\\dfrac5{12}$ & $\\dfrac{1}{2}$ & $\\dfrac1{12}$\\end{tabular}\n$$\n<p>所以 $E(\\xi)=0\\times\\dfrac5{12}+1\\times\\dfrac{1}{2}+2\\times\\dfrac1{12}=\\dfrac{2}{3}$.</p></li></ol>"
         },
         {
           "num": 20,
           "body": "<p>如图，平面 $PAC \\perp$ 平面 $ABC$，$\\triangle ABC$ 是以 $AC$ 为斜边的等腰直角三角形，$E$，$F$，$O$ 分别为 $PA$，$PB$，$AC$ 的中点，$AC=16$，$PA=PC=10$.</p><ol class=\"enumerate\"><li><p>设 $G$ 是 $OC$ 的中点，证明：$FG \\parallel$ 平面 $BOE$；</p></li><li><p>证明：在 $\\triangle ABO$ 内存在一点 $M$，使 $FM \\perp$ 平面 $BOE$，并求点 $M$ 到 $OA$，$OB$ 的距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>建立如图所示的直角坐标系，使平面 $ABC$ 为 $z=0$，并令</p><p>$A(-8,0,0)$，$C(8,0,0)$，$B(0,8,0)$. 由于平面 $PAC\\perp$ 平面 $ABC$，可取平面 $PAC$ 为 $y=0$. 又 $PA=PC=10$，所以 $P(0,0,6)$. 因而</p><p>$E(-4,0,3)$，$F(0,4,3)$，$O(0,0,0)$，$G(4,0,0)$.</p><ol class=\"enumerate\"><li><p>$\\overrightarrow{FG}=(4,-4,-3)$，而平面 $BOE$ 内有方向向量 $\\overrightarrow{OB}=(0,8,0)$，$\\overrightarrow{OE}=(-4,0,3)$. 取其法向量</p><p>$\\mathbf{n}=\\overrightarrow{OB}\\times\\overrightarrow{OE}=(24,0,32)$，可约为 $(3,0,4)$. 因为 $\\overrightarrow{FG}\\cdot\\mathbf{n}=4\\times3+(-4)\\times0+(-3)\\times4=0$，所以 $FG$ 的方向向量平行于平面 $BOE$. 又平面 $BOE$ 的方程为 $3x+4z=0$，而点 $F(0,4,3)$ 不在该平面内，因此 $FG$ 不与平面 $BOE$ 相交，从而 $FG\\parallel$ 平面 $BOE$.</p></li><li><p>平面 $ABO$ 为 $z=0$. 设 $M(x,y,0)$. 若 $FM\\perp$ 平面 $BOE$，则 $\\overrightarrow{FM}=(x,y-4,-3)$ 应平行于平面 $BOE$ 的法向量 $(3,0,4)$. 因此 $y-4=0$，且 $\\dfrac{x}{3}=\\dfrac{-3}{4}$，得 $M\\left(-\\dfrac{9}{4},4,0\\right)$.</p><p>点 $M$ 位于 $\\triangle ABO$ 内，因为 $x&#x3C;0$，$y>0$，且直线 $AB$ 的方程为 $y-x=8$，而 $4-\\left(-\\dfrac{9}{4}\\right)=\\dfrac{25}{4}&#x3C;8$. 又 $FM$ 的方向向量为 $\\left(-\\dfrac{9}{4},0,-3\\right)=-\\dfrac{3}{4}(3,0,4)$，故确有 $FM\\perp$ 平面 $BOE$. 点 $M$ 到 $OA$ 的距离为 $|y|=4$，到 $OB$ 的距离为 $|x|=\\dfrac{9}{4}$.</p></li></ol>"
+          "solution": "<p>建立如图所示的直角坐标系，使平面 $ABC$ 为 $z=0$，并令</p><p>$A(-8,0,0)$，$C(8,0,0)$，$B(0,8,0)$. 由于平面 $PAC\\perp$ 平面 $ABC$，可取平面 $PAC$ 为 $y=0$. 又 $PA=PC=10$，所以 $P(0,0,6)$. 因而</p><p>$E(-4,0,3)$，$F(0,4,3)$，$O(0,0,0)$，$G(4,0,0)$.</p><ol class=\"enumerate\"><li><p>$\\overrightarrow{FG}=(4,-4,-3)$，而平面 $BOE$ 内有方向向量 $\\overrightarrow{OB}=(0,8,0)$，$\\overrightarrow{OE}=(-4,0,3)$. 取其法向量</p><p>$\\mathbf{n}=\\overrightarrow{OB}\\times\\overrightarrow{OE}=(24,0,32)$，可约为 $(3,0,4)$. 因为 $\\overrightarrow{FG}\\cdot\\mathbf{n}=4\\times3+(-4)\\times0+(-3)\\times4=0$，所以 $FG$ 的方向向量平行于平面 $BOE$. 又平面 $BOE$ 的方程为 $3x+4z=0$，而点 $F(0,4,3)$ 不在该平面内，因此 $FG$ 不与平面 $BOE$ 相交，从而 $FG\\parallel$ 平面 $BOE$.</p></li><li><p>平面 $ABO$ 为 $z=0$. 设 $M(x,y,0)$. 若 $FM\\perp$ 平面 $BOE$，则 $\\overrightarrow{FM}=(x,y-4,-3)$ 应平行于平面 $BOE$ 的法向量 $(3,0,4)$. 因此 $y-4=0$，且 $\\dfrac{x}{3}=\\dfrac{-3}{4}$，得 $M\\left(-\\dfrac{9}{4},4,0\\right)$.</p><p>点 $M$ 位于 $\\triangle ABO$ 内，因为 $x<0$，$y>0$，且直线 $AB$ 的方程为 $y-x=8$，而 $4-\\left(-\\dfrac{9}{4}\\right)=\\dfrac{25}{4}<8$. 又 $FM$ 的方向向量为 $\\left(-\\dfrac{9}{4},0,-3\\right)=-\\dfrac{3}{4}(3,0,4)$，故确有 $FM\\perp$ 平面 $BOE$. 点 $M$ 到 $OA$ 的距离为 $|y|=4$，到 $OB$ 的距离为 $|x|=\\dfrac{9}{4}$.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>已知椭圆 $C_{1}:\\frac{y^{2}}{a^{2}}+\\frac{x^{2}}{b^{2}}=1$（$a>b>0$）的右顶点为 $A(1,0)$，过 $C_{1}$ 的焦点且垂直长轴的弦长为 $1$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C_{1}$ 的方程；</p></li><li><p>设点 $P$ 在抛物线 $C_{2}:y=x^{2}+h$（$h\\in\\mathbb{R}$）上，$C_{2}$ 在点 $P$ 处的切线与 $C_{1}$ 交于点 $M$，$N$. 当线段 $AP$ 的中点与 $MN$ 的中点的横坐标相等时，求 $h$ 的最小值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为椭圆的右顶点为 $A(1,0)$，而长轴在 $y$ 轴上，所以 $b=1$. 设其焦点为 $(0,\\pm c)$，则过焦点且垂直长轴的弦为水平弦. 该弦长为</p><p>$2b\\sqrt{1-\\dfrac{c^2}{a^2}}=2b\\sqrt{\\dfrac{a^2-c^2}{a^2}}=\\dfrac{2b^2}{a}$. 代入 $b=1$ 和弦长为 $1$，得 $a=2$. 所以椭圆方程为 $\\dfrac{y^2}{4}+x^{2}=1$.</p></li><li><p>设 $P(u,u^{2}+h)$，其中 $u\\in\\mathbb{R}$. 抛物线在 $P$ 处的切线为</p><p>$y=2ux+h-u^{2}$. 记 $v=h-u^{2}$，将切线方程代入椭圆方程，得</p>\n$$\n(1+u^{2})x^{2}+uvx+\\frac{v^{2}}{4}-1=0\n$$\n<p>设交点 $M$，$N$ 的横坐标分别为 $x_{1}$，$x_{2}$，则</p><p>$x_{1}+x_{2}=-\\dfrac{uv}{1+u^2}$，所以 $MN$ 的中点横坐标为 $-\\dfrac{uv}{2(1+u^2)}$. 而 $AP$ 的中点横坐标为 $\\dfrac{1+u}{2}$. 由题意，</p>\n$$\n-\\frac{u(h-u^{2})}{2(1+u^{2})}=\\frac{1+u}{2}\n$$\n<p>从而 $u\\neq0$，且</p><p>$h=-1-u-\\dfrac{1}{u}$.</p><p>由 $v=h-u^{2}$ 及上式得 $v=-\\dfrac{(u+1)(u^2+1)}{u}$. 因为 $M$，$N$ 为两个实交点，切线与椭圆相交所需的判别式条件为 $4(1+u^{2})-v^{2}\\geqslant0$.</p><p>若 $u>0$，则</p><p>$(u+1)^{2}(1+u^{2})-4u^{2}=(u^{2}-1)^{2}+2u(u^{2}+1)>0$，所以 $|v|>2\\sqrt{1+u^{2}}$，与判别式条件矛盾. 因此 $u&#x3C;0$. 于是</p><p>$u+\\dfrac{1}{u}\\le-2$，从而 $h=-1-u-\\dfrac{1}{u}\\geqslant1$.</p><p>当 $u=-1$ 时取 $h=1$，切线为 $y=-2x$，与椭圆 $x^{2}+\\dfrac{y^2}{4}=1$ 有两个交点，且两个中点的横坐标均为 $0$，条件可以实现. 所以 $h$ 的最小值为 $1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为椭圆的右顶点为 $A(1,0)$，而长轴在 $y$ 轴上，所以 $b=1$. 设其焦点为 $(0,\\pm c)$，则过焦点且垂直长轴的弦为水平弦. 该弦长为</p><p>$2b\\sqrt{1-\\dfrac{c^2}{a^2}}=2b\\sqrt{\\dfrac{a^2-c^2}{a^2}}=\\dfrac{2b^2}{a}$. 代入 $b=1$ 和弦长为 $1$，得 $a=2$. 所以椭圆方程为 $\\dfrac{y^2}{4}+x^{2}=1$.</p></li><li><p>设 $P(u,u^{2}+h)$，其中 $u\\in\\mathbb{R}$. 抛物线在 $P$ 处的切线为</p><p>$y=2ux+h-u^{2}$. 记 $v=h-u^{2}$，将切线方程代入椭圆方程，得</p>\n$$\n(1+u^{2})x^{2}+uvx+\\frac{v^{2}}{4}-1=0\n$$\n<p>设交点 $M$，$N$ 的横坐标分别为 $x_{1}$，$x_{2}$，则</p><p>$x_{1}+x_{2}=-\\dfrac{uv}{1+u^2}$，所以 $MN$ 的中点横坐标为 $-\\dfrac{uv}{2(1+u^2)}$. 而 $AP$ 的中点横坐标为 $\\dfrac{1+u}{2}$. 由题意，</p>\n$$\n-\\frac{u(h-u^{2})}{2(1+u^{2})}=\\frac{1+u}{2}\n$$\n<p>从而 $u\\neq0$，且</p><p>$h=-1-u-\\dfrac{1}{u}$.</p><p>由 $v=h-u^{2}$ 及上式得 $v=-\\dfrac{(u+1)(u^2+1)}{u}$. 因为 $M$，$N$ 为两个实交点，切线与椭圆相交所需的判别式条件为 $4(1+u^{2})-v^{2}\\geqslant0$.</p><p>若 $u>0$，则</p><p>$(u+1)^{2}(1+u^{2})-4u^{2}=(u^{2}-1)^{2}+2u(u^{2}+1)>0$，所以 $|v|>2\\sqrt{1+u^{2}}$，与判别式条件矛盾. 因此 $u<0$. 于是</p><p>$u+\\dfrac{1}{u}\\le-2$，从而 $h=-1-u-\\dfrac{1}{u}\\geqslant1$.</p><p>当 $u=-1$ 时取 $h=1$，切线为 $y=-2x$，与椭圆 $x^{2}+\\dfrac{y^2}{4}=1$ 有两个交点，且两个中点的横坐标均为 $0$，条件可以实现. 所以 $h$ 的最小值为 $1$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "<p>已知函数 $f(x)=x^{3}-(k^{2}-k+1)x^{2}+5x-2$，$g(x)=k^{2}x^{2}+kx+1$，其中 $k\\in\\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>设函数 $p(x)=f(x)+g(x)$. 若 $p(x)$ 在区间 $(0,3)$ 上不单调，求 $k$ 的取值范围；</p></li><li><p>设函数 $q(x)=\\begin{cases}g(x),&#x26;x\\ge 0,\\\\  f(x),&#x26;x&#x3C;0.\\end{cases}$ 是否存在 $k$，对任意给定的非零实数 $x_{1}$，存在唯一的非零实数 $x_{2}$（$x_{2}\\neq x_{1}$），使得 $q'(x_{2})=q'(x_{1})$ 成立？若存在，求 $k$ 的值；若不存在，请说明理由.</p></li></ol>",
+          "body": "<p>已知函数 $f(x)=x^{3}-(k^{2}-k+1)x^{2}+5x-2$，$g(x)=k^{2}x^{2}+kx+1$，其中 $k\\in\\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>设函数 $p(x)=f(x)+g(x)$. 若 $p(x)$ 在区间 $(0,3)$ 上不单调，求 $k$ 的取值范围；</p></li><li><p>设函数 $q(x)=\\begin{cases}g(x),&x\\ge 0,\\\\  f(x),&x<0.\\end{cases}$ 是否存在 $k$，对任意给定的非零实数 $x_{1}$，存在唯一的非零实数 $x_{2}$（$x_{2}\\neq x_{1}$），使得 $q'(x_{2})=q'(x_{1})$ 成立？若存在，求 $k$ 的值；若不存在，请说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>计算得 $p(x)=x^{3}+(k-1)x^{2}+(k+5)x-1$，所以 $p'(x)=3x^{2}+2(k-1)x+k+5$.</p><p>当 $k\\geqslant1$ 时，$p'(x)$ 在 $(0,3)$ 上递增，且 $p'(0)=k+5>0$，故 $p$ 单调递增. 当 $k\\le-8$ 时，$p'(x)$ 在 $(0,3)$ 上递减，且 $p'(3)=7k+26&#x3C;0$，故 $p$ 单调递减.</p><p>当 $-8&#x3C;k&#x3C;1$ 时，$p'$ 的顶点横坐标为 $x_{0}=\\dfrac{1-k}{3}$，且 $x_{0}\\in(0,3)$. 其最小值为</p>\n$$\np'(x_{0})=k+5-\\frac{(k-1)^{2}}{3}=-\\frac{(k-7)(k+2)}{3}\n$$\n<p>当 $-2\\le k&#x3C;1$ 时，$p'(x_{0})\\geqslant0$，故 $p$ 单调递增；当 $-8&#x3C;k&#x3C;-2$ 时，$p'(x_{0})&#x3C;0$. 此时若 $k\\le-5$，则 $p'(0)=k+5\\leqslant0$ 且 $p'(3)=7k+26&#x3C;0$，从而 $p'(x)&#x3C;0$ 于 $(0,3)$，$p$ 单调递减；若 $-5&#x3C;k&#x3C;-2$，则 $p'(0)>0$，而 $p'(x_{0})&#x3C;0$，导数变号，$p$ 不单调. 因此 $k$ 的取值范围为 $(-5,-2)$.</p></li><li><p>对 $x>0$，有 $q'(x)=g'(x)=2k^{2}x+k$. 若 $k=0$，则 $q'(x)=0$ 对所有 $x>0$ 成立，不可能满足唯一性，所以 $k\\neq0$. 此时 $2k^{2}x+k$ 在 $(0,+\\infty)$ 上严格递增，值域为 $(k,+\\infty)$.</p><p>对 $x&#x3C;0$，有 $q'(x)=f'(x)=3x^{2}-2(k^{2}-k+1)x+5$. 由于 $k^{2}-k+1>0$，其导数 $6x-2(k^{2}-k+1)&#x3C;0$，所以 $f'(x)$ 在 $(-\\infty,0)$ 上严格递减，值域为 $(5,+\\infty)$.</p><p>当 $x_{1}>0$ 时，正半轴上不存在另一个相同的导数值，所以必须由负半轴提供唯一的 $x_{2}$. 这要求 $(k,+\\infty)\\subset(5,+\\infty)$，即 $k\\geqslant5$. 当 $x_{1}&#x3C;0$ 时，除 $x_{1}$ 外还必须在正半轴找到唯一的 $x_{2}$，这要求 $(5,+\\infty)\\subset(k,+\\infty)$，即 $k\\leqslant5$. 两者合并得 $k=5$.</p><p>当 $k=5$ 时，正半轴导数的值域为 $(5,+\\infty)$，负半轴导数的值域也是 $(5,+\\infty)$，并且两侧的导数函数都严格单调，因此对任意非零 $x_{1}$，恰有一个异号的非零 $x_{2}$ 满足 $q'(x_{2})=q'(x_{1})$，且 $x_{2}\\neq x_{1}$. 所以存在，且 $k=5$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>计算得 $p(x)=x^{3}+(k-1)x^{2}+(k+5)x-1$，所以 $p'(x)=3x^{2}+2(k-1)x+k+5$.</p><p>当 $k\\geqslant1$ 时，$p'(x)$ 在 $(0,3)$ 上递增，且 $p'(0)=k+5>0$，故 $p$ 单调递增. 当 $k\\le-8$ 时，$p'(x)$ 在 $(0,3)$ 上递减，且 $p'(3)=7k+26<0$，故 $p$ 单调递减.</p><p>当 $-8<k<1$ 时，$p'$ 的顶点横坐标为 $x_{0}=\\dfrac{1-k}{3}$，且 $x_{0}\\in(0,3)$. 其最小值为</p>\n$$\np'(x_{0})=k+5-\\frac{(k-1)^{2}}{3}=-\\frac{(k-7)(k+2)}{3}\n$$\n<p>当 $-2\\le k<1$ 时，$p'(x_{0})\\geqslant0$，故 $p$ 单调递增；当 $-8<k<-2$ 时，$p'(x_{0})<0$. 此时若 $k\\le-5$，则 $p'(0)=k+5\\leqslant0$ 且 $p'(3)=7k+26<0$，从而 $p'(x)<0$ 于 $(0,3)$，$p$ 单调递减；若 $-5<k<-2$，则 $p'(0)>0$，而 $p'(x_{0})<0$，导数变号，$p$ 不单调. 因此 $k$ 的取值范围为 $(-5,-2)$.</p></li><li><p>对 $x>0$，有 $q'(x)=g'(x)=2k^{2}x+k$. 若 $k=0$，则 $q'(x)=0$ 对所有 $x>0$ 成立，不可能满足唯一性，所以 $k\\neq0$. 此时 $2k^{2}x+k$ 在 $(0,+\\infty)$ 上严格递增，值域为 $(k,+\\infty)$.</p><p>对 $x<0$，有 $q'(x)=f'(x)=3x^{2}-2(k^{2}-k+1)x+5$. 由于 $k^{2}-k+1>0$，其导数 $6x-2(k^{2}-k+1)<0$，所以 $f'(x)$ 在 $(-\\infty,0)$ 上严格递减，值域为 $(5,+\\infty)$.</p><p>当 $x_{1}>0$ 时，正半轴上不存在另一个相同的导数值，所以必须由负半轴提供唯一的 $x_{2}$. 这要求 $(k,+\\infty)\\subset(5,+\\infty)$，即 $k\\geqslant5$. 当 $x_{1}<0$ 时，除 $x_{1}$ 外还必须在正半轴找到唯一的 $x_{2}$，这要求 $(5,+\\infty)\\subset(k,+\\infty)$，即 $k\\leqslant5$. 两者合并得 $k=5$.</p><p>当 $k=5$ 时，正半轴导数的值域为 $(5,+\\infty)$，负半轴导数的值域也是 $(5,+\\infty)$，并且两侧的导数函数都严格单调，因此对任意非零 $x_{1}$，恰有一个异号的非零 $x_{2}$ 满足 $q'(x_{2})=q'(x_{1})$，且 $x_{2}\\neq x_{1}$. 所以存在，且 $k=5$.</p></li></ol>"
         }
       ]
     }

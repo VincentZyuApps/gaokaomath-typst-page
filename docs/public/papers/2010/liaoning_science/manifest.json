@@ -53,7 +53,7 @@
             "$\\mathrm{A}_{n}^{m}$"
           ],
           "answer": "D",
-          "solution": "<p>程序开始时 $k=1$，$p=1$. 每次循环先令 $p=p(n-m+k)$，再令 $k=k+1$；当 $k&#x3C;m$ 时继续循环. 因此循环中 $k$ 依次取 $1$，$2$，$\\ldots$，$m$，最终</p>\n$$\np=\\prod_{k=1}^{m}(n-m+k)=(n-m+1)(n-m+2)\\cdots n=\\frac{n!}{(n-m)!}=\\mathrm{A}_{n}^{m}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>程序开始时 $k=1$，$p=1$. 每次循环先令 $p=p(n-m+k)$，再令 $k=k+1$；当 $k<m$ 时继续循环. 因此循环中 $k$ 依次取 $1$，$2$，$\\ldots$，$m$，最终</p>\n$$\np=\\prod_{k=1}^{m}(n-m+k)=(n-m+1)(n-m+2)\\cdots n=\\frac{n!}{(n-m)!}=\\mathrm{A}_{n}^{m}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 5,
@@ -101,7 +101,7 @@
             "$\\frac{1}{2}\\sqrt{|\\mathbf{a}|^{2}|\\mathbf{b}|^{2} + (\\mathbf{a}\\cdot \\mathbf{b})^{2}}$"
           ],
           "answer": "C",
-          "solution": "<p>设向量 $\\mathbf{a}$，$\\mathbf{b}$ 的夹角为 $\\theta$，因为 $O$，$A$，$B$ 不共线，所以 $0&#x3C;\\theta&#x3C;\\pi$. 三角形面积为</p>\n$$\nS_{\\triangle OAB}=\\frac{1}{2}|\\mathbf{a}|\\,|\\mathbf{b}|\\sin\\theta\n$$\n<p>另一方面，$\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}|\\,|\\mathbf{b}|\\cos\\theta$，故</p>\n$$\n\\sqrt{|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}-(\\mathbf{a}\\cdot\\mathbf{b})^{2}}=|\\mathbf{a}|\\,|\\mathbf{b}|\\sin\\theta\n$$\n<p>所以三角形面积等于</p>\n$$\n\\frac{1}{2}\\sqrt{|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}-(\\mathbf{a}\\cdot\\mathbf{b})^{2}}\n$$\n<p>故选 C.</p>"
+          "solution": "<p>设向量 $\\mathbf{a}$，$\\mathbf{b}$ 的夹角为 $\\theta$，因为 $O$，$A$，$B$ 不共线，所以 $0<\\theta<\\pi$. 三角形面积为</p>\n$$\nS_{\\triangle OAB}=\\frac{1}{2}|\\mathbf{a}|\\,|\\mathbf{b}|\\sin\\theta\n$$\n<p>另一方面，$\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}|\\,|\\mathbf{b}|\\cos\\theta$，故</p>\n$$\n\\sqrt{|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}-(\\mathbf{a}\\cdot\\mathbf{b})^{2}}=|\\mathbf{a}|\\,|\\mathbf{b}|\\sin\\theta\n$$\n<p>所以三角形面积等于</p>\n$$\n\\frac{1}{2}\\sqrt{|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}-(\\mathbf{a}\\cdot\\mathbf{b})^{2}}\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 9,
@@ -125,7 +125,7 @@
             "$\\left[\\frac{3\\pi}{4}, \\pi\\right)$"
           ],
           "answer": "D",
-          "solution": "<p>函数的导数为</p>\n$$\ny'=-\\frac{4\\mathrm{e}^{x}}{(\\mathrm{e}^{x}+1)^{2}}\n$$\n<p>令 $t=\\mathrm{e}^{x}>0$，则</p>\n$$\n|y'|=\\frac{4t}{(t+1)^{2}}\\leqslant1\n$$\n<p>其中不等式由 $(t-1)^{2}\\geqslant0$ 得到，且 $t=1$ 时取等号. 因此切线斜率满足 $-1\\le y'&#x3C;0$. 切线倾斜角 $\\alpha$ 在 $(\\frac{\\pi}{2},\\pi)$ 内，且 $\\tan\\alpha=y'$，所以</p>\n$$\n\\frac{3\\pi}{4}\\le\\alpha&#x3C;\\pi\n$$\n<p>故选 D.</p>"
+          "solution": "<p>函数的导数为</p>\n$$\ny'=-\\frac{4\\mathrm{e}^{x}}{(\\mathrm{e}^{x}+1)^{2}}\n$$\n<p>令 $t=\\mathrm{e}^{x}>0$，则</p>\n$$\n|y'|=\\frac{4t}{(t+1)^{2}}\\leqslant1\n$$\n<p>其中不等式由 $(t-1)^{2}\\geqslant0$ 得到，且 $t=1$ 时取等号. 因此切线斜率满足 $-1\\le y'<0$. 切线倾斜角 $\\alpha$ 在 $(\\frac{\\pi}{2},\\pi)$ 内，且 $\\tan\\alpha=y'$，所以</p>\n$$\n\\frac{3\\pi}{4}\\le\\alpha<\\pi\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 11,
@@ -149,7 +149,7 @@
             "$(0,2\\sqrt{2})$"
           ],
           "answer": "A",
-          "solution": "<p>六根铁条构成三棱锥的六条棱时，两根长为 $a$ 的棱只有两种相对位置：相交于同一顶点，或为一对异棱.</p><p>先考虑两根长为 $a$ 的棱相交于顶点 $A$. 设 $AB=AC=a$，其余四条棱 $AD$，$BC$，$BD$，$CD$ 长均为 $2$.</p><p>取 $D=(0,0,0)$，$B=(2,0,0)$，$C=(1,\\sqrt{3},0)$，$A=(x,y,z)$.</p><p>由 $AD=2$ 和 $AB=a$，得 $x^{2}+y^{2}+z^{2}=4$，$(x-2)^{2}+y^{2}+z^{2}=a^{2}$，</p><p>从而 $x=\\frac{8-a^{2}}{4}$. 由 $AC=a$ 得</p>\n$$\n(x-1)^{2}+(y-\\sqrt{3})^{2}+z^{2}=a^{2}\n$$\n<p>结合 $x^{2}+y^{2}+z^{2}=4$，可得 $y=\\frac{x}{\\sqrt{3}}$. 因此</p>\n$$\nz^{2}=4-x^{2}-y^{2}=4-\\frac{4x^{2}}{3}>0\n$$\n<p>等价于 $|x|&#x3C;\\sqrt{3}$，即</p>\n$$\n\\sqrt{6}-\\sqrt{2}&#x3C;a&#x3C;\\sqrt{6}+\\sqrt{2}\n$$\n<p>再考虑两根长为 $a$ 的棱为异棱. 设 $AB=CD=a$，其余四条棱长均为 $2$.</p><p>取 $A=\\left(-\\frac{a}{2},0,0\\right)$，$B=\\left(\\frac{a}{2},0,0\\right)$.</p><p>由 $AC=BC=AD=BD=2$，点 $C$，$D$ 均在平面 $x=0$ 内以原点为圆心、半径</p>\n$$\nr=\\sqrt{4-\\frac{a^{2}}{4}}\n$$\n<p>的圆上. 弦 $CD$ 的长为 $a$，存在非退化弦的充要条件是 $0&#x3C;a&#x3C;2r$，即</p>\n$$\n0&#x3C;a&#x3C;2\\sqrt{2}\n$$\n<p>两种情形的取值范围合并为</p>\n$$\n(0,2\\sqrt{2})\\cup(\\sqrt{6}-\\sqrt{2},\\sqrt{6}+\\sqrt{2})=(0,\\sqrt{6}+\\sqrt{2})\n$$\n<p>故选 A.</p>"
+          "solution": "<p>六根铁条构成三棱锥的六条棱时，两根长为 $a$ 的棱只有两种相对位置：相交于同一顶点，或为一对异棱.</p><p>先考虑两根长为 $a$ 的棱相交于顶点 $A$. 设 $AB=AC=a$，其余四条棱 $AD$，$BC$，$BD$，$CD$ 长均为 $2$.</p><p>取 $D=(0,0,0)$，$B=(2,0,0)$，$C=(1,\\sqrt{3},0)$，$A=(x,y,z)$.</p><p>由 $AD=2$ 和 $AB=a$，得 $x^{2}+y^{2}+z^{2}=4$，$(x-2)^{2}+y^{2}+z^{2}=a^{2}$，</p><p>从而 $x=\\frac{8-a^{2}}{4}$. 由 $AC=a$ 得</p>\n$$\n(x-1)^{2}+(y-\\sqrt{3})^{2}+z^{2}=a^{2}\n$$\n<p>结合 $x^{2}+y^{2}+z^{2}=4$，可得 $y=\\frac{x}{\\sqrt{3}}$. 因此</p>\n$$\nz^{2}=4-x^{2}-y^{2}=4-\\frac{4x^{2}}{3}>0\n$$\n<p>等价于 $|x|<\\sqrt{3}$，即</p>\n$$\n\\sqrt{6}-\\sqrt{2}<a<\\sqrt{6}+\\sqrt{2}\n$$\n<p>再考虑两根长为 $a$ 的棱为异棱. 设 $AB=CD=a$，其余四条棱长均为 $2$.</p><p>取 $A=\\left(-\\frac{a}{2},0,0\\right)$，$B=\\left(\\frac{a}{2},0,0\\right)$.</p><p>由 $AC=BC=AD=BD=2$，点 $C$，$D$ 均在平面 $x=0$ 内以原点为圆心、半径</p>\n$$\nr=\\sqrt{4-\\frac{a^{2}}{4}}\n$$\n<p>的圆上. 弦 $CD$ 的长为 $a$，存在非退化弦的充要条件是 $0<a<2r$，即</p>\n$$\n0<a<2\\sqrt{2}\n$$\n<p>两种情形的取值范围合并为</p>\n$$\n(0,2\\sqrt{2})\\cup(\\sqrt{6}-\\sqrt{2},\\sqrt{6}+\\sqrt{2})=(0,\\sqrt{6}+\\sqrt{2})\n$$\n<p>故选 A.</p>"
         }
       ]
     },
@@ -165,10 +165,10 @@
         },
         {
           "num": 14,
-          "body": "已知 $-1 &#x3C; x + y &#x3C; 4$ 且 $2 &#x3C; x - y &#x3C; 3$，则 $z = 2x - 3y$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （答案用区间表示）",
+          "body": "已知 $-1 < x + y < 4$ 且 $2 < x - y < 3$，则 $z = 2x - 3y$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （答案用区间表示）",
           "choices": null,
           "answer": "$(3,8)$",
-          "solution": "<p>令 $u=x+y$，$v=x-y$，则</p><p>$x=\\frac{u+v}{2}$，$y=\\frac{u-v}{2}$.</p><p>从而</p>\n$$\nz=2x-3y=\\frac{5v-u}{2}\n$$\n<p>因为 $-1&#x3C;u&#x3C;4$，$2&#x3C;v&#x3C;3$，所以 $z$ 的下确界和上确界分别由 $u$ 趋近 $4$、$v$ 趋近 $2$，以及 $u$ 趋近 $-1$、$v$ 趋近 $3$ 得到：</p>\n$$\n\\frac{5\\cdot2-4}{2}=3&#x3C;z&#x3C;\\frac{5\\cdot3-(-1)}{2}=8\n$$\n<p>端点均因原不等式为严格不等式而不能取到，且线性函数在这个开矩形上的值域为开区间，因此 $z\\in(3,8)$.</p>"
+          "solution": "<p>令 $u=x+y$，$v=x-y$，则</p><p>$x=\\frac{u+v}{2}$，$y=\\frac{u-v}{2}$.</p><p>从而</p>\n$$\nz=2x-3y=\\frac{5v-u}{2}\n$$\n<p>因为 $-1<u<4$，$2<v<3$，所以 $z$ 的下确界和上确界分别由 $u$ 趋近 $4$、$v$ 趋近 $2$，以及 $u$ 趋近 $-1$、$v$ 趋近 $3$ 得到：</p>\n$$\n\\frac{5\\cdot2-4}{2}=3<z<\\frac{5\\cdot3-(-1)}{2}=8\n$$\n<p>端点均因原不等式为严格不等式而不能取到，且线性函数在这个开矩形上的值域为开区间，因此 $z\\in(3,8)$.</p>"
         },
         {
           "num": 15,
@@ -194,7 +194,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，$a$，$b$，$c$ 分别为内角 $A$，$B$，$C$ 的对边，且 $2a \\sin A = (2b + c) \\sin B + (2c + b) \\sin C$.</p><ol class=\"enumerate\"><li><p>求 $A$ 的大小；</p></li><li><p>求 $\\sin B + \\sin C$ 的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，设 $a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$，其中 $R$ 为三角形 $ABC$ 的外接圆半径. 将已知等式两边同时除以 $2R$，得</p>\n$$\n2\\sin^{2}A=2\\sin^{2}B+2\\sin^{2}C+2\\sin B\\sin C\n$$\n<p>即 $\\sin^{2}A=\\sin^{2}B+\\sin^{2}C+\\sin B\\sin C$. 另一方面，由余弦定理及正弦定理，$\\sin^{2}A=\\sin^{2}B+\\sin^{2}C-2\\sin B\\sin C\\cos A$. 因为 $B$，$C$ 是三角形内角，所以 $\\sin B\\sin C>0$，从而 $-2\\cos A=1$，即 $\\cos A=-\\frac{1}{2}$. 又 $0&#x3C;A&#x3C;\\pi$，所以 $A=120^{\\circ}$.</p></li><li><p>由 $A+B+C=180^{\\circ}$ 及第（1）问得 $B+C=60^{\\circ}$，因此</p>\n$$\n\\sin B+\\sin C=2\\sin\\frac{B+C}{2}\\cos\\frac{B-C}{2}=\\cos\\frac{B-C}{2}\\leqslant1\n$$\n<p>当且仅当 $B=C=30^{\\circ}$ 时等号成立，所以 $\\sin B+\\sin C$ 的最大值为 $1$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，设 $a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$，其中 $R$ 为三角形 $ABC$ 的外接圆半径. 将已知等式两边同时除以 $2R$，得</p>\n$$\n2\\sin^{2}A=2\\sin^{2}B+2\\sin^{2}C+2\\sin B\\sin C\n$$\n<p>即 $\\sin^{2}A=\\sin^{2}B+\\sin^{2}C+\\sin B\\sin C$. 另一方面，由余弦定理及正弦定理，$\\sin^{2}A=\\sin^{2}B+\\sin^{2}C-2\\sin B\\sin C\\cos A$. 因为 $B$，$C$ 是三角形内角，所以 $\\sin B\\sin C>0$，从而 $-2\\cos A=1$，即 $\\cos A=-\\frac{1}{2}$. 又 $0<A<\\pi$，所以 $A=120^{\\circ}$.</p></li><li><p>由 $A+B+C=180^{\\circ}$ 及第（1）问得 $B+C=60^{\\circ}$，因此</p>\n$$\n\\sin B+\\sin C=2\\sin\\frac{B+C}{2}\\cos\\frac{B-C}{2}=\\cos\\frac{B-C}{2}\\leqslant1\n$$\n<p>当且仅当 $B=C=30^{\\circ}$ 时等号成立，所以 $\\sin B+\\sin C$ 的最大值为 $1$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -219,10 +219,10 @@
         },
         {
           "num": 21,
-          "body": "<p>已知函数 $f(x) = (a + 1)\\ln x + ax^{2} + 1$.</p><ol class=\"enumerate\"><li><p>讨论函数 $f(x)$ 的单调性；</p></li><li><p>设 $a &#x3C; -1$，如果对任意 $x_{1}$，$x_{2}\\in (0, +\\infty)$，$|f(x_{1}) - f(x_{2})| \\ge 4|x_{1}- x_{2}|$，求 $a$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = (a + 1)\\ln x + ax^{2} + 1$.</p><ol class=\"enumerate\"><li><p>讨论函数 $f(x)$ 的单调性；</p></li><li><p>设 $a < -1$，如果对任意 $x_{1}$，$x_{2}\\in (0, +\\infty)$，$|f(x_{1}) - f(x_{2})| \\ge 4|x_{1}- x_{2}|$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{a+1}{x}+2ax=\\frac{a+1+2ax^{2}}{x}\n$$\n<p>因为 $x>0$，只需讨论 $a+1+2ax^{2}$ 的符号. 当 $a\\geqslant0$ 时，$a+1+2ax^{2}>0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调增加；当 $a\\le-1$ 时，$a+1+2ax^{2}&#x3C;0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调减少；当 $-1&#x3C;a&#x3C;0$ 时，令 $f'(x)=0$，得 $x_{0}=\\sqrt{-\\dfrac{a+1}{2a}}$，故 $f(x)$ 在 $\\left(0,\\sqrt{-\\dfrac{a+1}{2a}}\\right)$ 上单调增加，在 $\\left(\\sqrt{-\\dfrac{a+1}{2a}},+\\infty\\right)$ 上单调减少.</p></li><li><p>题设给出 $a&#x3C;-1$，此时 $f'(x)&#x3C;0$. 对任意不同的 $x_{1}$，$x_{2}$，由拉格朗日中值定理，存在 $\\xi$ 严格介于二者之间，使得</p>\n$$\n\\frac{|f(x_{1})-f(x_{2})|}{|x_{1}-x_{2}|}=|f'(\\xi)|\n$$\n<p>所以若 $|f'(x)|\\geqslant4$ 对任意 $x>0$ 成立，则由中值定理可知题设不等式成立；反过来，若题设不等式对任意 $x_{1}$，$x_{2}\\in(0,+\\infty)$ 成立，令 $x_{2}$ 趋于 $x_{1}=x$，可得 $|f'(x)|\\geqslant4$. 因此二者等价. 又</p>\n$$\n|f'(x)|=-f'(x)=\\frac{-a-1}{x}-2ax\n$$\n<p>由基本不等式，$\\frac{-a-1}{x}-2ax\\geqslant2\\sqrt{(-a-1)(-2a)}=2\\sqrt{2a(a+1)}$，且等号可在正数 $x=\\sqrt{\\frac{-a-1}{-2a}}$ 时取得. 所以所需条件为 $2\\sqrt{2a(a+1)}\\geqslant4$，即 $a(a+1)\\geqslant2$. 结合 $a&#x3C;-1$，解得 $a\\le-2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(0,+\\infty)$，且</p>\n$$\nf'(x)=\\frac{a+1}{x}+2ax=\\frac{a+1+2ax^{2}}{x}\n$$\n<p>因为 $x>0$，只需讨论 $a+1+2ax^{2}$ 的符号. 当 $a\\geqslant0$ 时，$a+1+2ax^{2}>0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调增加；当 $a\\le-1$ 时，$a+1+2ax^{2}<0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调减少；当 $-1<a<0$ 时，令 $f'(x)=0$，得 $x_{0}=\\sqrt{-\\dfrac{a+1}{2a}}$，故 $f(x)$ 在 $\\left(0,\\sqrt{-\\dfrac{a+1}{2a}}\\right)$ 上单调增加，在 $\\left(\\sqrt{-\\dfrac{a+1}{2a}},+\\infty\\right)$ 上单调减少.</p></li><li><p>题设给出 $a<-1$，此时 $f'(x)<0$. 对任意不同的 $x_{1}$，$x_{2}$，由拉格朗日中值定理，存在 $\\xi$ 严格介于二者之间，使得</p>\n$$\n\\frac{|f(x_{1})-f(x_{2})|}{|x_{1}-x_{2}|}=|f'(\\xi)|\n$$\n<p>所以若 $|f'(x)|\\geqslant4$ 对任意 $x>0$ 成立，则由中值定理可知题设不等式成立；反过来，若题设不等式对任意 $x_{1}$，$x_{2}\\in(0,+\\infty)$ 成立，令 $x_{2}$ 趋于 $x_{1}=x$，可得 $|f'(x)|\\geqslant4$. 因此二者等价. 又</p>\n$$\n|f'(x)|=-f'(x)=\\frac{-a-1}{x}-2ax\n$$\n<p>由基本不等式，$\\frac{-a-1}{x}-2ax\\geqslant2\\sqrt{(-a-1)(-2a)}=2\\sqrt{2a(a+1)}$，且等号可在正数 $x=\\sqrt{\\frac{-a-1}{-2a}}$ 时取得. 所以所需条件为 $2\\sqrt{2a(a+1)}\\geqslant4$，即 $a(a+1)\\geqslant2$. 结合 $a<-1$，解得 $a\\le-2$.</p></li></ol>"
         }
       ]
     },

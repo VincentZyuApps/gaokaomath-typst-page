@@ -9,15 +9,15 @@
       "problems": [
         {
           "num": 1,
-          "body": "不等式组 $\\begin{cases}x^{2}-1&#x3C;0,\\\\  x^{2}-3x&#x3C;0\\end{cases}$ 的解集为（ ）",
+          "body": "不等式组 $\\begin{cases}x^{2}-1<0,\\\\  x^{2}-3x<0\\end{cases}$ 的解集为（ ）",
           "choices": [
-            "$\\{x\\mid -1&#x3C;x&#x3C;1\\}$",
-            "$\\{x\\mid 0&#x3C;x&#x3C;3\\}$",
-            "$\\{x\\mid 0&#x3C;x&#x3C;1\\}$",
-            "$\\{x\\mid -1&#x3C;x&#x3C;3\\}$"
+            "$\\{x\\mid -1<x<1\\}$",
+            "$\\{x\\mid 0<x<3\\}$",
+            "$\\{x\\mid 0<x<1\\}$",
+            "$\\{x\\mid -1<x<3\\}$"
           ],
           "answer": "C",
-          "solution": "由 $x^{2}-1&#x3C;0$，得 $-1&#x3C;x&#x3C;1$；由 $x^{2}-3x=x\\left(x-3\\right)&#x3C;0$，得 $0&#x3C;x&#x3C;3$. 因此原不等式组的解集为 $\\left(-1,1\\right)\\cap\\left(0,3\\right)=\\left(0,1\\right)$，故选 C."
+          "solution": "由 $x^{2}-1<0$，得 $-1<x<1$；由 $x^{2}-3x=x\\left(x-3\\right)<0$，得 $0<x<3$. 因此原不等式组的解集为 $\\left(-1,1\\right)\\cap\\left(0,3\\right)=\\left(0,1\\right)$，故选 C."
         },
         {
           "num": 2,
@@ -48,11 +48,11 @@
             "$\\theta+\\dfrac{7\\pi}{4}$"
           ],
           "answer": "B",
-          "solution": "<p>有 $1+\\mathrm{i}=\\sqrt{2}\\left(\\cos\\dfrac{\\pi}{4}+\\mathrm{i}\\sin\\dfrac{\\pi}{4}\\right)$，所以</p><p>$\\left(1+\\mathrm{i}\\right)\\left(\\cos\\theta+\\mathrm{i}\\sin\\theta\\right)=\\sqrt{2}\\left(\\cos\\left(\\theta+\\dfrac{\\pi}{4}\\right)+\\mathrm{i}\\sin\\left(\\theta+\\dfrac{\\pi}{4}\\right)\\right)$.</p><p>又因为 $\\dfrac{\\pi}{2}&#x3C;\\theta&#x3C;\\pi$，所以 $\\dfrac{3\\pi}{4}&#x3C;\\theta+\\dfrac{\\pi}{4}&#x3C;\\dfrac{5\\pi}{4}$，该角在 $[0,2\\pi)$ 内，故辐角的主值为 $\\theta+\\dfrac{\\pi}{4}$，选 B.</p>"
+          "solution": "<p>有 $1+\\mathrm{i}=\\sqrt{2}\\left(\\cos\\dfrac{\\pi}{4}+\\mathrm{i}\\sin\\dfrac{\\pi}{4}\\right)$，所以</p><p>$\\left(1+\\mathrm{i}\\right)\\left(\\cos\\theta+\\mathrm{i}\\sin\\theta\\right)=\\sqrt{2}\\left(\\cos\\left(\\theta+\\dfrac{\\pi}{4}\\right)+\\mathrm{i}\\sin\\left(\\theta+\\dfrac{\\pi}{4}\\right)\\right)$.</p><p>又因为 $\\dfrac{\\pi}{2}<\\theta<\\pi$，所以 $\\dfrac{3\\pi}{4}<\\theta+\\dfrac{\\pi}{4}<\\dfrac{5\\pi}{4}$，该角在 $[0,2\\pi)$ 内，故辐角的主值为 $\\theta+\\dfrac{\\pi}{4}$，选 B.</p>"
         },
         {
           "num": 5,
-          "body": "若角 $\\alpha$ 满足条件 $\\sin2\\alpha&#x3C;0$，$\\cos\\alpha-\\sin\\alpha&#x3C;0$，则 $\\alpha$ 在（ ）",
+          "body": "若角 $\\alpha$ 满足条件 $\\sin2\\alpha<0$，$\\cos\\alpha-\\sin\\alpha<0$，则 $\\alpha$ 在（ ）",
           "choices": [
             "第一象限",
             "第二象限",
@@ -60,7 +60,7 @@
             "第四象限"
           ],
           "answer": "B",
-          "solution": "在一个周期内，$\\sin2\\alpha&#x3C;0$ 给出 $\\alpha$ 位于第二或第四象限. 第二象限内 $\\cos\\alpha&#x3C;0$，$\\sin\\alpha>0$，从而 $\\cos\\alpha-\\sin\\alpha&#x3C;0$ 成立；第四象限内 $\\cos\\alpha>0$，$\\sin\\alpha&#x3C;0$，从而 $\\cos\\alpha-\\sin\\alpha>0$，不满足题设. 因此 $\\alpha$ 在第二象限，故选 B."
+          "solution": "在一个周期内，$\\sin2\\alpha<0$ 给出 $\\alpha$ 位于第二或第四象限. 第二象限内 $\\cos\\alpha<0$，$\\sin\\alpha>0$，从而 $\\cos\\alpha-\\sin\\alpha<0$ 成立；第四象限内 $\\cos\\alpha>0$，$\\sin\\alpha<0$，从而 $\\cos\\alpha-\\sin\\alpha>0$，不满足题设. 因此 $\\alpha$ 在第二象限，故选 B."
         },
         {
           "num": 6,
@@ -170,7 +170,7 @@
           "body": "<p>正方形 $ABCD$ 的边长是 2，$E$，$F$ 分别是 $AB$ 和 $CD$ 的中点，将正方形沿 $EF$ 折成直二面角（如图所示）. $M$ 为矩形 $AEFD$ 内一点，如果 $\\angle MBE=\\angle MBC$，$MB$ 和平面 $BCF$ 所成角的正切值为 $\\dfrac{1}{2}$，那么点 $M$ 到直线 $EF$ 的距离为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jing_meng_wan_liberal_spring/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$\\dfrac{\\sqrt{2}}{2}$",
-          "solution": "<p>折叠后取 $EF$ 所在直线为 $x$ 轴，建立空间直角坐标系，使 $E=(0,0,0)$，$F=(2,0,0)$，$B=(0,1,0)$，$C=(2,1,0)$，且平面 $BCF$ 为 $z=0$. 由于 $AE=EB=1$，矩形 $AEFD$ 所在平面与平面 $BCF$ 垂直，设 $M=(t,0,h)$，其中 $0&#x3C;t&#x3C;2$，$0&#x3C;h&#x3C;1$.</p><p>于是 $\\overrightarrow{BM}=(t,-1,h)$，$\\overrightarrow{BE}=(0,-1,0)$，$\\overrightarrow{BC}=(2,0,0)$. 由 $\\angle MBE=\\angle MBC$，有</p>\n$$\n\\cos\\angle MBE=\\dfrac{\\overrightarrow{BM}\\cdot\\overrightarrow{BE}}{\\lvert BM\\rvert\\,\\lvert BE\\rvert}=\\dfrac{1}{\\sqrt{t^{2}+1+h^{2}}}\n$$\n<p>以及</p>\n$$\n\\cos\\angle MBC=\\dfrac{\\overrightarrow{BM}\\cdot\\overrightarrow{BC}}{\\lvert BM\\rvert\\,\\lvert BC\\rvert}=\\dfrac{t}{\\sqrt{t^{2}+1+h^{2}}}\n$$\n<p>因此 $t=1$，即 $M$ 在平面 $AEFD$ 内位于过 $F$ 且垂直于 $EF$ 的直线上. 直线 $MB$ 在平面 $BCF$ 内的射影长度为 $\\sqrt{t^{2}+1}=\\sqrt{2}$.</p><p>设点 $M$ 到平面 $BCF$ 的距离为 $h$，则直线 $MB$ 与平面 $BCF$ 所成角的正切值为</p><p>$\\tan\\angle\\left(MB,\\text{平面 }BCF\\right)=\\dfrac{h}{\\sqrt{2}}=\\dfrac{1}{2}$.</p><p>所以 $h=\\dfrac{\\sqrt{2}}{2}$. 又因为 $M=(1,0,h)$，所以点 $M$ 到直线 $EF$ 的距离为 $h=\\dfrac{\\sqrt{2}}{2}$.</p>"
+          "solution": "<p>折叠后取 $EF$ 所在直线为 $x$ 轴，建立空间直角坐标系，使 $E=(0,0,0)$，$F=(2,0,0)$，$B=(0,1,0)$，$C=(2,1,0)$，且平面 $BCF$ 为 $z=0$. 由于 $AE=EB=1$，矩形 $AEFD$ 所在平面与平面 $BCF$ 垂直，设 $M=(t,0,h)$，其中 $0<t<2$，$0<h<1$.</p><p>于是 $\\overrightarrow{BM}=(t,-1,h)$，$\\overrightarrow{BE}=(0,-1,0)$，$\\overrightarrow{BC}=(2,0,0)$. 由 $\\angle MBE=\\angle MBC$，有</p>\n$$\n\\cos\\angle MBE=\\dfrac{\\overrightarrow{BM}\\cdot\\overrightarrow{BE}}{\\lvert BM\\rvert\\,\\lvert BE\\rvert}=\\dfrac{1}{\\sqrt{t^{2}+1+h^{2}}}\n$$\n<p>以及</p>\n$$\n\\cos\\angle MBC=\\dfrac{\\overrightarrow{BM}\\cdot\\overrightarrow{BC}}{\\lvert BM\\rvert\\,\\lvert BC\\rvert}=\\dfrac{t}{\\sqrt{t^{2}+1+h^{2}}}\n$$\n<p>因此 $t=1$，即 $M$ 在平面 $AEFD$ 内位于过 $F$ 且垂直于 $EF$ 的直线上. 直线 $MB$ 在平面 $BCF$ 内的射影长度为 $\\sqrt{t^{2}+1}=\\sqrt{2}$.</p><p>设点 $M$ 到平面 $BCF$ 的距离为 $h$，则直线 $MB$ 与平面 $BCF$ 所成角的正切值为</p><p>$\\tan\\angle\\left(MB,\\text{平面 }BCF\\right)=\\dfrac{h}{\\sqrt{2}}=\\dfrac{1}{2}$.</p><p>所以 $h=\\dfrac{\\sqrt{2}}{2}$. 又因为 $M=(1,0,h)$，所以点 $M$ 到直线 $EF$ 的距离为 $h=\\dfrac{\\sqrt{2}}{2}$.</p>"
         },
         {
           "num": 16,
@@ -189,14 +189,14 @@
           "body": "在 $\\triangle ABC$ 中，已知 $A$，$B$，$C$ 成等差数列，求 $\\tan\\dfrac{A}{2}+\\tan\\dfrac{C}{2}+\\sqrt{3}\\tan\\dfrac{A}{2}\\tan\\dfrac{C}{2}$ 的值.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $A$，$B$，$C$ 成等差数列，所以 $A+C=2B$. 又因为 $A+B+C=180^{\\circ}$，所以 $3B=180^{\\circ}$，即 $B=60^{\\circ}$，从而</p><p>$\\dfrac{A}{2}+\\dfrac{C}{2}=\\dfrac{A+C}{2}=B=60^{\\circ}$.</p><p>设 $u=\\tan\\dfrac{A}{2}$，$v=\\tan\\dfrac{C}{2}$. 由正切的和角公式，</p>\n$$\n\\sqrt{3}=\\tan60^{\\circ}=\\tan\\left(\\dfrac{A}{2}+\\dfrac{C}{2}\\right)=\\dfrac{u+v}{1-uv}\n$$\n<p>由于 $0&#x3C;\\dfrac{A}{2}+\\dfrac{C}{2}&#x3C;90^{\\circ}$，分母不为零，所以 $u+v=\\sqrt{3}(1-uv)$. 因此</p>\n$$\n\\tan\\dfrac{A}{2}+\\tan\\dfrac{C}{2}+\\sqrt{3}\\tan\\dfrac{A}{2}\\tan\\dfrac{C}{2}=u+v+\\sqrt{3}uv=\\sqrt{3}\n$$"
+          "solution": "<p>因为 $A$，$B$，$C$ 成等差数列，所以 $A+C=2B$. 又因为 $A+B+C=180^{\\circ}$，所以 $3B=180^{\\circ}$，即 $B=60^{\\circ}$，从而</p><p>$\\dfrac{A}{2}+\\dfrac{C}{2}=\\dfrac{A+C}{2}=B=60^{\\circ}$.</p><p>设 $u=\\tan\\dfrac{A}{2}$，$v=\\tan\\dfrac{C}{2}$. 由正切的和角公式，</p>\n$$\n\\sqrt{3}=\\tan60^{\\circ}=\\tan\\left(\\dfrac{A}{2}+\\dfrac{C}{2}\\right)=\\dfrac{u+v}{1-uv}\n$$\n<p>由于 $0<\\dfrac{A}{2}+\\dfrac{C}{2}<90^{\\circ}$，分母不为零，所以 $u+v=\\sqrt{3}(1-uv)$. 因此</p>\n$$\n\\tan\\dfrac{A}{2}+\\tan\\dfrac{C}{2}+\\sqrt{3}\\tan\\dfrac{A}{2}\\tan\\dfrac{C}{2}=u+v+\\sqrt{3}uv=\\sqrt{3}\n$$"
         },
         {
           "num": 18,
           "body": "已知函数 $f(x)$ 是偶函数，而且在 $(0,+\\infty)$ 上是增函数，判断 $f(x)$ 在 $(-\\infty,0)$ 上是增函数还是减函数，并证明你的判断.",
           "choices": null,
           "answer": "",
-          "solution": "设 $x_{1}&#x3C;x_{2}&#x3C;0$. 则 $-x_{1}>-x_{2}>0$. 因为 $f(x)$ 在 $(0,+\\infty)$ 上是增函数，所以 $f(-x_{1})>f(-x_{2})$. 又因为 $f(x)$ 是偶函数，$f(x_{1})=f(-x_{1})$，$f(x_{2})=f(-x_{2})$，于是 $f(x_{1})>f(x_{2})$. 因此当 $x_{1}&#x3C;x_{2}&#x3C;0$ 时有 $f(x_{1})>f(x_{2})$，故 $f(x)$ 在 $(-\\infty,0)$ 上是减函数."
+          "solution": "设 $x_{1}<x_{2}<0$. 则 $-x_{1}>-x_{2}>0$. 因为 $f(x)$ 在 $(0,+\\infty)$ 上是增函数，所以 $f(-x_{1})>f(-x_{2})$. 又因为 $f(x)$ 是偶函数，$f(x_{1})=f(-x_{1})$，$f(x_{2})=f(-x_{2})$，于是 $f(x_{1})>f(x_{2})$. 因此当 $x_{1}<x_{2}<0$ 时有 $f(x_{1})>f(x_{2})$，故 $f(x)$ 在 $(-\\infty,0)$ 上是减函数."
         },
         {
           "num": 19,
@@ -221,7 +221,7 @@
         },
         {
           "num": 22,
-          "body": "<p>已知点的序列 $A_{n}(x_{n},0)$，$n\\in\\mathbb{N}$，其中 $x_{1}=0$，$x_{2}=a$（$a&#x3C;0$），$A_{3}$ 是线段 $A_{1}A_{2}$ 的中点，$A_{4}$ 是线段 $A_{2}A_{3}$ 的中点，$\\cdots$，$A_{n}$ 是线段 $A_{n-2}A_{n-1}$ 的中点，$\\cdots$.</p><ol class=\"enumerate\"><li><p>写出 $x_{n}$ 与 $x_{n-1}$，$x_{n-2}$ 之间的关系式（$n\\geqslant3$）；</p></li><li><p>设 $a_{n}=x_{n+1}-x_{n}$，计算 $a_{1}$，$a_{2}$，$a_{3}$，由此推测数列 $\\{a_{n}\\}$ 的通项公式，并加以证明；</p></li><li><p>求 $\\displaystyle\\lim\\limits_{n\\to\\infty}x_{n}$.</p></li></ol>",
+          "body": "<p>已知点的序列 $A_{n}(x_{n},0)$，$n\\in\\mathbb{N}$，其中 $x_{1}=0$，$x_{2}=a$（$a<0$），$A_{3}$ 是线段 $A_{1}A_{2}$ 的中点，$A_{4}$ 是线段 $A_{2}A_{3}$ 的中点，$\\cdots$，$A_{n}$ 是线段 $A_{n-2}A_{n-1}$ 的中点，$\\cdots$.</p><ol class=\"enumerate\"><li><p>写出 $x_{n}$ 与 $x_{n-1}$，$x_{n-2}$ 之间的关系式（$n\\geqslant3$）；</p></li><li><p>设 $a_{n}=x_{n+1}-x_{n}$，计算 $a_{1}$，$a_{2}$，$a_{3}$，由此推测数列 $\\{a_{n}\\}$ 的通项公式，并加以证明；</p></li><li><p>求 $\\displaystyle\\lim\\limits_{n\\to\\infty}x_{n}$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>由中点定义，$A_{n}$ 是 $A_{n-2}A_{n-1}$ 的中点，所以</p><p>$x_{n}=\\dfrac{x_{n-2}+x_{n-1}}{2}$，其中 $n\\geqslant3$.</p></li><li><p>由 $x_{1}=0$，$x_{2}=a$，得 $a_{1}=x_{2}-x_{1}=a$. 又 $x_{3}=\\dfrac{x_{1}+x_{2}}{2}=\\dfrac{a}{2}$，所以 $a_{2}=x_{3}-x_{2}=-\\dfrac{a}{2}$. 再由 $x_{4}=\\dfrac{x_{2}+x_{3}}{2}=\\dfrac{3a}{4}$，得 $a_{3}=x_{4}-x_{3}=\\dfrac{a}{4}$.</p><p>由第（1）问的递推关系，</p>\n$$\na_{n}=x_{n+1}-x_{n}=\\dfrac{x_{n-1}+x_{n}}{2}-x_{n}=-\\dfrac{1}{2}(x_{n}-x_{n-1})=-\\dfrac{1}{2}a_{n-1}\n$$\n<p>因此由数学归纳法，</p><p>$a_{n}=\\dfrac{(-1)^{n+1}a}{2^{n-1}}$，$n\\geqslant1$</p><p>事实上，$n=1$ 时公式给出 $a_{1}=a$；若对某个 $n$ 成立，则 $a_{n+1}=-\\dfrac{1}{2}a_{n}=\\dfrac{(-1)^{n+2}a}{2^{n}}$，故公式对所有正整数 $n$ 成立.</p></li><li><p>因为 $x_{n}=x_{1}+\\sum_{k=1}^{n-1}a_{k}$，所以</p>\n$$\nx_{n}=a\\sum_{k=0}^{n-2}\\left(-\\dfrac{1}{2}\\right)^{k}=\\dfrac{2a}{3}\\left(1-\\left(-\\dfrac{1}{2}\\right)^{n-1}\\right)\n$$\n<p>由于 $\\left(-\\dfrac{1}{2}\\right)^{n-1}\\to0$，故</p>\n$$\n\\displaystyle\\lim\\limits_{n\\to\\infty}x_{n}=\\dfrac{2a}{3}\n$$\n</li></ol>"

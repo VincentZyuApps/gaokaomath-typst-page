@@ -45,7 +45,7 @@
         },
         {
           "num": 4,
-          "body": "设 $x \\in \\mathbb{R}$，则 “$1 &#x3C; x &#x3C; 2$” 是 “$|x - 2| &#x3C; 1$” 的（ ）",
+          "body": "设 $x \\in \\mathbb{R}$，则 “$1 < x < 2$” 是 “$|x - 2| < 1$” 的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -53,7 +53,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "<p>由 $1&#x3C;x&#x3C;2$ 可得 $-1&#x3C;x-2&#x3C;0$，从而 $\\lvert x-2\\rvert&#x3C;1$，所以前一个条件是后一个条件的充分条件.</p><p>但取 $x=\\frac{5}{2}$ 时，$\\lvert x-2\\rvert=\\frac{1}{2}&#x3C;1$，而 $1&#x3C;x&#x3C;2$ 不成立，故不是必要条件. 因此选 A.</p>"
+          "solution": "<p>由 $1<x<2$ 可得 $-1<x-2<0$，从而 $\\lvert x-2\\rvert<1$，所以前一个条件是后一个条件的充分条件.</p><p>但取 $x=\\frac{5}{2}$ 时，$\\lvert x-2\\rvert=\\frac{1}{2}<1$，而 $1<x<2$ 不成立，故不是必要条件. 因此选 A.</p>"
         },
         {
           "num": 5,
@@ -83,17 +83,17 @@
           "num": 7,
           "body": "已知定义在 $\\mathbb{R}$ 上的函数 $f(x) = 2^{|x - m|}- 1$ （$m$ 为实数） 为偶函数，记 $a = f(\\log_{0.5}3)$，$b = f(\\log_{2} 5)$，$c = f(2m)$，则 $a$，$b$，$c$ 的大小关系为（ ）",
           "choices": [
-            "$a &#x3C; b &#x3C; c$",
-            "$c &#x3C; a &#x3C; b$",
-            "$a &#x3C; c &#x3C; b$",
-            "$c &#x3C; b &#x3C; a$"
+            "$a < b < c$",
+            "$c < a < b$",
+            "$a < c < b$",
+            "$c < b < a$"
           ],
           "answer": "B",
-          "solution": "<p>因为 $f(x)=2^{\\lvert x-m\\rvert}-1$ 为偶函数，所以对任意 $x$ 有</p>\n$$\n2^{\\lvert x-m\\rvert}=2^{\\lvert -x-m\\rvert}\n$$\n<p>指数函数 $2^{t}$ 严格递增，故 $\\lvert x-m\\rvert=\\lvert -x-m\\rvert$. 两边平方后得到</p>\n$$\n(x-m)^{2}=(-x-m)^{2}\n$$\n<p>即 $4xm=0$. 这对任意 $x$ 成立，所以 $m=0$.</p><p>于是</p>\n$$\na=2^{\\lvert\\log_{0.5}3\\rvert}-1=2^{\\log_2 3}-1=2\n$$\n\n$$\nb=2^{\\lvert\\log_2 5\\rvert}-1=2^{\\log_2 5}-1=4\n$$\n\n$$\nc=2^{\\lvert2m-m\\rvert}-1=0\n$$\n<p>因此 $c&#x3C;a&#x3C;b$，选 B.</p>"
+          "solution": "<p>因为 $f(x)=2^{\\lvert x-m\\rvert}-1$ 为偶函数，所以对任意 $x$ 有</p>\n$$\n2^{\\lvert x-m\\rvert}=2^{\\lvert -x-m\\rvert}\n$$\n<p>指数函数 $2^{t}$ 严格递增，故 $\\lvert x-m\\rvert=\\lvert -x-m\\rvert$. 两边平方后得到</p>\n$$\n(x-m)^{2}=(-x-m)^{2}\n$$\n<p>即 $4xm=0$. 这对任意 $x$ 成立，所以 $m=0$.</p><p>于是</p>\n$$\na=2^{\\lvert\\log_{0.5}3\\rvert}-1=2^{\\log_2 3}-1=2\n$$\n\n$$\nb=2^{\\lvert\\log_2 5\\rvert}-1=2^{\\log_2 5}-1=4\n$$\n\n$$\nc=2^{\\lvert2m-m\\rvert}-1=0\n$$\n<p>因此 $c<a<b$，选 B.</p>"
         },
         {
           "num": 8,
-          "body": "已知函数 $f(x) = \\begin{cases}2 - |x|,&#x26;x \\le 2,\\\\  (x - 2)^{2},&#x26;x > 2,\\end{cases}$ 函数 $g(x) = 3 - f(2 - x)$，则函数 $y = f(x) - g(x)$ 的零点个数为（ ）",
+          "body": "已知函数 $f(x) = \\begin{cases}2 - |x|,&x \\le 2,\\\\  (x - 2)^{2},&x > 2,\\end{cases}$ 函数 $g(x) = 3 - f(2 - x)$，则函数 $y = f(x) - g(x)$ 的零点个数为（ ）",
           "choices": [
             "2",
             "3",
@@ -101,7 +101,7 @@
             "5"
           ],
           "answer": "A",
-          "solution": "<p>由 $y=f(x)-g(x)=0$ 及 $g(x)=3-f(2-x)$，零点满足</p>\n$$\nf(x)+f(2-x)=3\n$$\n<p>当 $x\\leqslant0$ 时，$f(x)=2+x$，且 $2-x\\geqslant2$，所以 $f(2-x)=x^{2}$. 方程化为</p>\n$$\nx^{2}+x-1=0\n$$\n<p>其根为 $\\frac{-1\\pm\\sqrt{5}}{2}$，其中只有 $\\frac{-1-\\sqrt{5}}{2}\\leqslant0$ 符合，得到一个零点.</p><p>当 $0\\le x\\leqslant2$ 时，$f(x)=2-x$，$f(2-x)=x$，故 $f(x)+f(2-x)=2$，没有零点.</p><p>当 $x>2$ 时，$f(x)=(x-2)^{2}$，而 $2-x&#x3C;0$，故 $f(2-x)=4-x$. 方程化为</p>\n$$\n(x-2)^{2}+4-x=3\n$$\n<p>即 $x^{2}-5x+5=0$. 其根为 $\\frac{5\\pm\\sqrt{5}}{2}$，其中只有 $\\frac{5+\\sqrt{5}}{2}>2$ 符合，得到一个零点.</p><p>综上，零点共有 $2$ 个，选 A.</p>"
+          "solution": "<p>由 $y=f(x)-g(x)=0$ 及 $g(x)=3-f(2-x)$，零点满足</p>\n$$\nf(x)+f(2-x)=3\n$$\n<p>当 $x\\leqslant0$ 时，$f(x)=2+x$，且 $2-x\\geqslant2$，所以 $f(2-x)=x^{2}$. 方程化为</p>\n$$\nx^{2}+x-1=0\n$$\n<p>其根为 $\\frac{-1\\pm\\sqrt{5}}{2}$，其中只有 $\\frac{-1-\\sqrt{5}}{2}\\leqslant0$ 符合，得到一个零点.</p><p>当 $0\\le x\\leqslant2$ 时，$f(x)=2-x$，$f(2-x)=x$，故 $f(x)+f(2-x)=2$，没有零点.</p><p>当 $x>2$ 时，$f(x)=(x-2)^{2}$，而 $2-x<0$，故 $f(2-x)=4-x$. 方程化为</p>\n$$\n(x-2)^{2}+4-x=3\n$$\n<p>即 $x^{2}-5x+5=0$. 其根为 $\\frac{5\\pm\\sqrt{5}}{2}$，其中只有 $\\frac{5+\\sqrt{5}}{2}>2$ 符合，得到一个零点.</p><p>综上，零点共有 $2$ 个，选 A.</p>"
         }
       ]
     },
@@ -148,7 +148,7 @@
           "body": "已知函数 $f(x) = \\sin \\omega x + \\cos \\omega x$（$\\omega > 0$），$x \\in \\mathbb{R}$. 若函数 $f(x)$ 在区间 $(- \\omega, \\omega)$ 内单调递增，且函数 $y = f(x)$ 的图象关于直线 $x = \\omega$ 对称，则 $\\omega$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{\\sqrt{\\pi}}{2}$",
-          "solution": "<p>将函数写成</p>\n$$\nf(x)=\\sqrt{2}\\sin\\left(\\omega x+\\frac{\\pi}{4}\\right)\n$$\n<p>图象关于直线 $x=\\omega$ 对称，故对任意 $t$ 有 $f(\\omega+t)=f(\\omega-t)$，于是</p>\n$$\n2\\sqrt{2}\\cos\\left(\\omega^{2}+\\frac{\\pi}{4}\\right)\\sin(\\omega t)=0\n$$\n<p>由于 $\\omega>0$，这对任意 $t$ 成立只能是</p>\n$$\n\\cos\\left(\\omega^{2}+\\frac{\\pi}{4}\\right)=0\n$$\n<p>即</p><p>$\\omega^{2}=\\frac{(4k+1)\\pi}{4}$，$k\\in\\mathbb{Z}$.</p><p>又</p>\n$$\nf'(x)=\\omega\\bigl(\\cos\\omega x-\\sin\\omega x\\bigr)=\\sqrt{2}\\omega\\cos\\left(\\omega x+\\frac{\\pi}{4}\\right)\n$$\n<p>函数在 $(-\\omega,\\omega)$ 内单调递增，要求上式在该区间内为正. 若 $k\\le-1$，则 $\\omega^{2}&#x3C;0$ 不可能. 若 $k\\geqslant1$，则 $\\omega^{2}\\ge\\frac{5\\pi}{4}$，取 $x=\\frac{3\\pi}{4\\omega}$，有 $|x|&#x3C;\\omega$ 且</p>\n$$\nf'(x)=\\sqrt{2}\\omega\\cos\\pi&#x3C;0\n$$\n<p>也不满足单调递增. 因此只能 $k=0$. 此时 $\\omega^{2}=\\frac{\\pi}{4}$，且当 $-\\omega&#x3C;x&#x3C;\\omega$ 时</p>\n$$\n0&#x3C;\\omega x+\\frac{\\pi}{4}&#x3C;\\frac{\\pi}{2}\n$$\n<p>从而 $f'(x)>0$，条件确实满足. 故</p>\n$$\n\\omega=\\frac{\\sqrt{\\pi}}{2}\n$$"
+          "solution": "<p>将函数写成</p>\n$$\nf(x)=\\sqrt{2}\\sin\\left(\\omega x+\\frac{\\pi}{4}\\right)\n$$\n<p>图象关于直线 $x=\\omega$ 对称，故对任意 $t$ 有 $f(\\omega+t)=f(\\omega-t)$，于是</p>\n$$\n2\\sqrt{2}\\cos\\left(\\omega^{2}+\\frac{\\pi}{4}\\right)\\sin(\\omega t)=0\n$$\n<p>由于 $\\omega>0$，这对任意 $t$ 成立只能是</p>\n$$\n\\cos\\left(\\omega^{2}+\\frac{\\pi}{4}\\right)=0\n$$\n<p>即</p><p>$\\omega^{2}=\\frac{(4k+1)\\pi}{4}$，$k\\in\\mathbb{Z}$.</p><p>又</p>\n$$\nf'(x)=\\omega\\bigl(\\cos\\omega x-\\sin\\omega x\\bigr)=\\sqrt{2}\\omega\\cos\\left(\\omega x+\\frac{\\pi}{4}\\right)\n$$\n<p>函数在 $(-\\omega,\\omega)$ 内单调递增，要求上式在该区间内为正. 若 $k\\le-1$，则 $\\omega^{2}<0$ 不可能. 若 $k\\geqslant1$，则 $\\omega^{2}\\ge\\frac{5\\pi}{4}$，取 $x=\\frac{3\\pi}{4\\omega}$，有 $|x|<\\omega$ 且</p>\n$$\nf'(x)=\\sqrt{2}\\omega\\cos\\pi<0\n$$\n<p>也不满足单调递增. 因此只能 $k=0$. 此时 $\\omega^{2}=\\frac{\\pi}{4}$，且当 $-\\omega<x<\\omega$ 时</p>\n$$\n0<\\omega x+\\frac{\\pi}{4}<\\frac{\\pi}{2}\n$$\n<p>从而 $f'(x)>0$，条件确实满足. 故</p>\n$$\n\\omega=\\frac{\\sqrt{\\pi}}{2}\n$$"
         }
       ]
     },
@@ -167,7 +167,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $\\triangle ABC$ 的面积为 $3\\sqrt{15}$，$b - c = 2$，$\\cos A = -\\frac{1}{4}$.</p><ol class=\"enumerate\"><li><p>求 $a$ 和 $\\sin C$ 的值；</p></li><li><p>求 $\\cos\\left(2A+\\frac{\\pi}{6}\\right)$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\cos A=-\\frac{1}{4}$，且 $0&#x3C;A&#x3C;\\pi$，所以</p>\n$$\n\\sin A=\\sqrt{1-\\cos^{2}A}=\\frac{\\sqrt{15}}{4}\n$$\n<p>由三角形面积公式</p>\n$$\n\\frac{1}{2}bc\\sin A=3\\sqrt{15}\n$$\n<p>得 $bc=24$. 结合 $b-c=2$，有 $b=c+2$，所以</p>\n$$\nc(c+2)=24\n$$\n<p>由边长为正，得 $c=4$，从而 $b=6$. 由余弦定理</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A=36+16+12=64\n$$\n<p>故 $a=8$. 再由正弦定理</p>\n$$\n\\frac{\\sin C}{c}=\\frac{\\sin A}{a}\n$$\n<p>得</p>\n$$\n\\sin C=\\frac{4\\cdot\\frac{\\sqrt{15}}{4}}{8}=\\frac{\\sqrt{15}}{8}\n$$\n</li><li><p>$\\cos2A=2\\cos^{2}A-1=-\\frac{7}{8}$，$\\sin2A=2\\sin A\\cos A=-\\frac{\\sqrt{15}}{8}$.</p><p>因此</p>\n$$\n\\cos\\left(2A+\\frac{\\pi}{6}\\right)=\\cos2A\\cos\\frac{\\pi}{6}-\\sin2A\\sin\\frac{\\pi}{6}  =-\\frac{7\\sqrt{3}}{16}+\\frac{\\sqrt{15}}{16}=\\frac{\\sqrt{15}-7\\sqrt{3}}{16}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\cos A=-\\frac{1}{4}$，且 $0<A<\\pi$，所以</p>\n$$\n\\sin A=\\sqrt{1-\\cos^{2}A}=\\frac{\\sqrt{15}}{4}\n$$\n<p>由三角形面积公式</p>\n$$\n\\frac{1}{2}bc\\sin A=3\\sqrt{15}\n$$\n<p>得 $bc=24$. 结合 $b-c=2$，有 $b=c+2$，所以</p>\n$$\nc(c+2)=24\n$$\n<p>由边长为正，得 $c=4$，从而 $b=6$. 由余弦定理</p>\n$$\na^{2}=b^{2}+c^{2}-2bc\\cos A=36+16+12=64\n$$\n<p>故 $a=8$. 再由正弦定理</p>\n$$\n\\frac{\\sin C}{c}=\\frac{\\sin A}{a}\n$$\n<p>得</p>\n$$\n\\sin C=\\frac{4\\cdot\\frac{\\sqrt{15}}{4}}{8}=\\frac{\\sqrt{15}}{8}\n$$\n</li><li><p>$\\cos2A=2\\cos^{2}A-1=-\\frac{7}{8}$，$\\sin2A=2\\sin A\\cos A=-\\frac{\\sqrt{15}}{8}$.</p><p>因此</p>\n$$\n\\cos\\left(2A+\\frac{\\pi}{6}\\right)=\\cos2A\\cos\\frac{\\pi}{6}-\\sin2A\\sin\\frac{\\pi}{6}  =-\\frac{7\\sqrt{3}}{16}+\\frac{\\sqrt{15}}{16}=\\frac{\\sqrt{15}-7\\sqrt{3}}{16}\n$$\n</li></ol>"
         },
         {
           "num": 17,
@@ -192,10 +192,10 @@
         },
         {
           "num": 20,
-          "body": "<p>已知函数 $f(x) = 4x - x^{4}$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>设曲线 $y = f(x)$ 与 $x$ 轴正半轴的交点为 $P$，曲线在点 $P$ 处的切线方程为 $y = g(x)$. 求证：对于任意的实数 $x$，都有 $f(x) \\le g(x)$；</p></li><li><p>若方程 $f(x) = a$ （$a$ 为实数） 有两个正实数根 $x_{1}$，$x_{2}$，且 $x_{1} &#x3C; x_{2}$，求证：$x_{2} - x_{1} \\le -\\frac{a}{3}+ 4^{\\frac{1}{3}}$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = 4x - x^{4}$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>设曲线 $y = f(x)$ 与 $x$ 轴正半轴的交点为 $P$，曲线在点 $P$ 处的切线方程为 $y = g(x)$. 求证：对于任意的实数 $x$，都有 $f(x) \\le g(x)$；</p></li><li><p>若方程 $f(x) = a$ （$a$ 为实数） 有两个正实数根 $x_{1}$，$x_{2}$，且 $x_{1} < x_{2}$，求证：$x_{2} - x_{1} \\le -\\frac{a}{3}+ 4^{\\frac{1}{3}}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li>\n$$\nf'(x)=4-4x^{3}=4(1-x^{3})\n$$\n<p>当 $x&#x3C;1$ 时 $f'(x)>0$，当 $x>1$ 时 $f'(x)&#x3C;0$. 所以 $f(x)$ 在 $(-\\infty,1)$ 上单调递增，在 $(1,+\\infty)$ 上单调递减.</p></li><li><p>令 $r=4^{\\frac{1}{3}}$. 曲线与 $x$ 轴正半轴的交点满足 $4x-x^{4}=0$，所以 $P=(r,0)$. 又</p>\n$$\nf'(r)=4-4r^{3}=-12\n$$\n<p>故切线为</p>\n$$\ng(x)=-12(x-r)=-12x+12r\n$$\n<p>于是</p>\n$$\ng(x)-f(x)=x^{4}-16x+12r\n$$\n<p>利用 $r^{3}=4$ 因式分解得</p>\n$$\nx^{4}-16x+12r=(x-r)^{2}(x^{2}+2rx+3r^{2})  =(x-r)^{2}\\bigl((x+r)^{2}+2r^{2}\\bigr)\\geqslant0\n$$\n<p>所以对于任意的实数 $x$，都有 $f(x)\\le g(x)$.</p></li><li><p>由第（1）问，$f$ 在 $(0,1)$ 上递增，在 $(1,r)$ 上递减，且 $f(0)=f(r)=0$，$f(1)=3$. 题设有两个不同的正根，故 $0&#x3C;a&#x3C;3$，并且</p>\n$$\n0&#x3C;x_{1}&#x3C;1&#x3C;x_{2}&#x3C;r\n$$\n<p>令 $u=x_{1}$，$v=x_{2}$. 由 $f(u)=f(v)$ 且 $u&#x3C;v$，得</p><p>$4(u-v)=u^{4}-v^{4}$，$u^{3}+u^{2}v+uv^{2}+v^{3}=4$.</p><p>记 $r^{3}=4$，于是</p>\n$$\nr^{3}-v^{3}=u(u^{2}+uv+v^{2})\n$$\n<p>因此</p>\n$$\nr-v=\\frac{u(u^{2}+uv+v^{2})}{r^{2}+rv+v^{2}}\n$$\n<p>又由</p>\n$$\n(u+v)^{3}\\ge(u+v)(u^{2}+v^{2})=4=r^{3}\n$$\n<p>知 $r\\le u+v$，从而</p>\n$$\nr^{2}+rv+v^{2}\\le(u+v)^{2}+(u+v)v+v^{2}  \\leqslant3(u^{2}+uv+v^{2})\n$$\n<p>故 $r-v\\ge \\frac{u}{3}$，于是</p>\n$$\nv-u\\le r-\\frac{4u}{3}\n$$\n<p>另一方面 $a=f(u)=4u-u^{4}\\leqslant4u$，所以</p>\n$$\nr-\\frac{4u}{3}\\le r-\\frac{a}{3}\n$$\n<p>代回 $u=x_{1}$，$v=x_{2}$，$r=4^{\\frac{1}{3}}$，得到</p>\n$$\nx_{2}-x_{1}\\le-\\frac{a}{3}+4^{\\frac{1}{3}}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li>\n$$\nf'(x)=4-4x^{3}=4(1-x^{3})\n$$\n<p>当 $x<1$ 时 $f'(x)>0$，当 $x>1$ 时 $f'(x)<0$. 所以 $f(x)$ 在 $(-\\infty,1)$ 上单调递增，在 $(1,+\\infty)$ 上单调递减.</p></li><li><p>令 $r=4^{\\frac{1}{3}}$. 曲线与 $x$ 轴正半轴的交点满足 $4x-x^{4}=0$，所以 $P=(r,0)$. 又</p>\n$$\nf'(r)=4-4r^{3}=-12\n$$\n<p>故切线为</p>\n$$\ng(x)=-12(x-r)=-12x+12r\n$$\n<p>于是</p>\n$$\ng(x)-f(x)=x^{4}-16x+12r\n$$\n<p>利用 $r^{3}=4$ 因式分解得</p>\n$$\nx^{4}-16x+12r=(x-r)^{2}(x^{2}+2rx+3r^{2})  =(x-r)^{2}\\bigl((x+r)^{2}+2r^{2}\\bigr)\\geqslant0\n$$\n<p>所以对于任意的实数 $x$，都有 $f(x)\\le g(x)$.</p></li><li><p>由第（1）问，$f$ 在 $(0,1)$ 上递增，在 $(1,r)$ 上递减，且 $f(0)=f(r)=0$，$f(1)=3$. 题设有两个不同的正根，故 $0<a<3$，并且</p>\n$$\n0<x_{1}<1<x_{2}<r\n$$\n<p>令 $u=x_{1}$，$v=x_{2}$. 由 $f(u)=f(v)$ 且 $u<v$，得</p><p>$4(u-v)=u^{4}-v^{4}$，$u^{3}+u^{2}v+uv^{2}+v^{3}=4$.</p><p>记 $r^{3}=4$，于是</p>\n$$\nr^{3}-v^{3}=u(u^{2}+uv+v^{2})\n$$\n<p>因此</p>\n$$\nr-v=\\frac{u(u^{2}+uv+v^{2})}{r^{2}+rv+v^{2}}\n$$\n<p>又由</p>\n$$\n(u+v)^{3}\\ge(u+v)(u^{2}+v^{2})=4=r^{3}\n$$\n<p>知 $r\\le u+v$，从而</p>\n$$\nr^{2}+rv+v^{2}\\le(u+v)^{2}+(u+v)v+v^{2}  \\leqslant3(u^{2}+uv+v^{2})\n$$\n<p>故 $r-v\\ge \\frac{u}{3}$，于是</p>\n$$\nv-u\\le r-\\frac{4u}{3}\n$$\n<p>另一方面 $a=f(u)=4u-u^{4}\\leqslant4u$，所以</p>\n$$\nr-\\frac{4u}{3}\\le r-\\frac{a}{3}\n$$\n<p>代回 $u=x_{1}$，$v=x_{2}$，$r=4^{\\frac{1}{3}}$，得到</p>\n$$\nx_{2}-x_{1}\\le-\\frac{a}{3}+4^{\\frac{1}{3}}\n$$\n</li></ol>"
         }
       ]
     }

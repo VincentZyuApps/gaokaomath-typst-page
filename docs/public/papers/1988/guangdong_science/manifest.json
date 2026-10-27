@@ -101,7 +101,7 @@
             "焦点在 $y$ 轴上的双曲线"
           ],
           "answer": "C",
-          "solution": "<p>第四象限内 $\\sin\\theta&#x3C;0$ 且 $\\cos\\theta>0$，所以 $\\sin2\\theta=2\\sin\\theta\\cos\\theta&#x3C;0$. 原方程化为</p><p>$\\left(-\\sin\\theta\\right)x^{2}-y^{2}=-\\sin2\\theta$，其中两边的系数均为正，故表示焦点在 $x$ 轴上的双曲线，选 C.</p>"
+          "solution": "<p>第四象限内 $\\sin\\theta<0$ 且 $\\cos\\theta>0$，所以 $\\sin2\\theta=2\\sin\\theta\\cos\\theta<0$. 原方程化为</p><p>$\\left(-\\sin\\theta\\right)x^{2}-y^{2}=-\\sin2\\theta$，其中两边的系数均为正，故表示焦点在 $x$ 轴上的双曲线，选 C.</p>"
         },
         {
           "num": 9,
@@ -173,7 +173,7 @@
             "$(x - 3)(2 - x) > 0$"
           ],
           "answer": "B",
-          "solution": "原不等式的定义域为 $x\\ne2$. 在三个区间上分别判断符号：当 $x&#x3C;2$ 时，分子为负、分母为正，分式为负；当 $2&#x3C;x&#x3C;3$ 时，分子、分母均为负，分式为正；当 $x>3$ 时，分子为正、分母为负，分式为负；在 $x=3$ 时分式为零. 所以原不等式的解集为 $2&#x3C;x\\leqslant3$. 另一方面，$\\lg(x-2)\\leqslant0$ 的定义域要求 $x-2>0$，且因常用对数函数递增，$\\lg(x-2)\\leqslant0$ 等价于 $0&#x3C;x-2\\leqslant1$，解集同为 $2&#x3C;x\\leqslant3$. 因此选 B."
+          "solution": "原不等式的定义域为 $x\\ne2$. 在三个区间上分别判断符号：当 $x<2$ 时，分子为负、分母为正，分式为负；当 $2<x<3$ 时，分子、分母均为负，分式为正；当 $x>3$ 时，分子为正、分母为负，分式为负；在 $x=3$ 时分式为零. 所以原不等式的解集为 $2<x\\leqslant3$. 另一方面，$\\lg(x-2)\\leqslant0$ 的定义域要求 $x-2>0$，且因常用对数函数递增，$\\lg(x-2)\\leqslant0$ 等价于 $0<x-2\\leqslant1$，解集同为 $2<x\\leqslant3$. 因此选 B."
         },
         {
           "num": 15,
@@ -203,13 +203,13 @@
           "num": 17,
           "body": "函数值 $\\tan 224^{\\circ}$，$\\sin 136^{\\circ}$，$\\cos 310^{\\circ}$ 的大小关系是（ ）",
           "choices": [
-            "$\\tan 224^{\\circ}&#x3C; \\sin 136^{\\circ}&#x3C; \\cos 310^{\\circ}$",
-            "$\\sin 136^{\\circ}&#x3C; \\cos 310^{\\circ}&#x3C; \\tan 224^{\\circ}$",
-            "$\\cos 310^{\\circ}&#x3C; \\tan 224^{\\circ}&#x3C; \\sin 136^{\\circ}$",
-            "$\\cos 310^{\\circ}&#x3C; \\sin 136^{\\circ}&#x3C; \\tan 224^{\\circ}$"
+            "$\\tan 224^{\\circ}< \\sin 136^{\\circ}< \\cos 310^{\\circ}$",
+            "$\\sin 136^{\\circ}< \\cos 310^{\\circ}< \\tan 224^{\\circ}$",
+            "$\\cos 310^{\\circ}< \\tan 224^{\\circ}< \\sin 136^{\\circ}$",
+            "$\\cos 310^{\\circ}< \\sin 136^{\\circ}< \\tan 224^{\\circ}$"
           ],
           "answer": "D",
-          "solution": "有 $\\tan224^{\\circ}=\\tan44^{\\circ}$，且 $\\tan44^{\\circ}>\\sin44^{\\circ}$. 又 $\\sin136^{\\circ}=\\sin44^{\\circ}$，$\\cos310^{\\circ}=\\cos50^{\\circ}=\\sin40^{\\circ}$，而正弦函数在 $[0,90^{\\circ}]$ 上递增，所以 $\\cos310^{\\circ}&#x3C;\\sin136^{\\circ}&#x3C;\\tan224^{\\circ}$. 故选 D."
+          "solution": "有 $\\tan224^{\\circ}=\\tan44^{\\circ}$，且 $\\tan44^{\\circ}>\\sin44^{\\circ}$. 又 $\\sin136^{\\circ}=\\sin44^{\\circ}$，$\\cos310^{\\circ}=\\cos50^{\\circ}=\\sin40^{\\circ}$，而正弦函数在 $[0,90^{\\circ}]$ 上递增，所以 $\\cos310^{\\circ}<\\sin136^{\\circ}<\\tan224^{\\circ}$. 故选 D."
         },
         {
           "num": 18,
@@ -257,7 +257,7 @@
             "$\\left(0, \\frac{5}{12}\\right)$"
           ],
           "answer": "A",
-          "solution": "<p>圆弧满足 $x^{2}+(y-1)^{2}=4$ 且 $y\\geqslant1$. 代入直线 $y=k(x-2)+4$，得</p><p>$(1+k^{2})x^{2}+2k(3-2k)x+(3-2k)^{2}-4=0$. 其判别式为 $4(12k-5)$，所以直线与整圆有两个交点须有 $k>\\dfrac5{12}$，这时 $k>0$. 设两个交点的横坐标为 $x_{1}&#x3C;x_{2}$. 在线段所在直线上，$y\\geqslant1$ 等价于 $x\\ge x_{0}=2-\\dfrac{3}{k}$.</p><p>当 $\\dfrac5{12}&#x3C;k\\le\\dfrac{3}{4}$ 时，$x_{0}\\le-2$，而圆上横坐标都在 $[-2,2]$ 内，所以两个交点都在上半圆弧上. 当 $k>\\dfrac{3}{4}$ 时，$-2&#x3C;x_{0}&#x3C;2$，且把 $x=x_{0}$ 代入圆的左端表达式得 $x_{0}^{2}-4&#x3C;0$，故 $x_{0}$ 位于两个根之间，即 $x_{1}&#x3C;x_{0}&#x3C;x_{2}$，左侧交点在下半圆，只有右侧交点在上半圆. 因而所求范围为 $\\left(\\dfrac5{12},\\dfrac{3}{4}\\right]$，选 A.</p>"
+          "solution": "<p>圆弧满足 $x^{2}+(y-1)^{2}=4$ 且 $y\\geqslant1$. 代入直线 $y=k(x-2)+4$，得</p><p>$(1+k^{2})x^{2}+2k(3-2k)x+(3-2k)^{2}-4=0$. 其判别式为 $4(12k-5)$，所以直线与整圆有两个交点须有 $k>\\dfrac5{12}$，这时 $k>0$. 设两个交点的横坐标为 $x_{1}<x_{2}$. 在线段所在直线上，$y\\geqslant1$ 等价于 $x\\ge x_{0}=2-\\dfrac{3}{k}$.</p><p>当 $\\dfrac5{12}<k\\le\\dfrac{3}{4}$ 时，$x_{0}\\le-2$，而圆上横坐标都在 $[-2,2]$ 内，所以两个交点都在上半圆弧上. 当 $k>\\dfrac{3}{4}$ 时，$-2<x_{0}<2$，且把 $x=x_{0}$ 代入圆的左端表达式得 $x_{0}^{2}-4<0$，故 $x_{0}$ 位于两个根之间，即 $x_{1}<x_{0}<x_{2}$，左侧交点在下半圆，只有右侧交点在上半圆. 因而所求范围为 $\\left(\\dfrac5{12},\\dfrac{3}{4}\\right]$，选 A.</p>"
         },
         {
           "num": 22,
@@ -269,7 +269,7 @@
             "$x\\left(1 - \\sqrt[3]{x}\\right)$"
           ],
           "answer": "D",
-          "solution": "当 $x&#x3C;0$ 时，$-x>0$. 由奇函数性质，$f(x)=-f(-x)=-\\left[(-x)\\left(1+\\sqrt[3]{-x}\\right)\\right]$. 因为 $\\sqrt[3]{-x}=-\\sqrt[3]{x}$，所以 $f(x)=x\\left(1-\\sqrt[3]{x}\\right)$，选 D."
+          "solution": "当 $x<0$ 时，$-x>0$. 由奇函数性质，$f(x)=-f(-x)=-\\left[(-x)\\left(1+\\sqrt[3]{-x}\\right)\\right]$. 因为 $\\sqrt[3]{-x}=-\\sqrt[3]{x}$，所以 $f(x)=x\\left(1-\\sqrt[3]{x}\\right)$，选 D."
         },
         {
           "num": 23,
@@ -281,7 +281,7 @@
             "$\\sqrt{x^{2} - 2x + 1}$"
           ],
           "answer": "A",
-          "solution": "<p>图象由四段直线组成，依次经过 $(-1,0)$、$(0,1)$、$(1,0)$，两侧射线与横轴的夹角均为 $45^{\\circ}$，斜率分别为 $-1$ 和 $1$. 中间两段由端点坐标求得斜率分别为 $1$ 和 $-1$，故</p>\n$$\nf(x)=\\begin{cases}-x-1, &#x26; x&#x3C;-1,\\\\\n\nx+1, &#x26; -1\\le x\\le0,\\\\\n\n1-x, &#x26; 0&#x3C;x\\le1,\\\\\n\nx-1, &#x26; x>1\\end{cases}\n$$\n<p>这四段恰为 $f(x)=\\left||x|-1\\right|$ 的图象，且各分界点的函数值分别为 $0$、$1$、$0$. 对任意 $x\\in\\mathbb{R}$，$x^{2}-2|x|+1=(|x|-1)^{2}\\ge0$，所以 $\\sqrt{x^{2}-2|x|+1}=\\left||x|-1\\right|$，与图象在整个定义域上相符. 独立比较其余选项：图中 $f(3)=2$，而 B、C 在 $x=3$ 处分别取 $4$、$8$；图中 $f(-1)=0$，而 D 在 $x=-1$ 处取 $2$. 因此其余三项均不符合，选 A.</p>"
+          "solution": "<p>图象由四段直线组成，依次经过 $(-1,0)$、$(0,1)$、$(1,0)$，两侧射线与横轴的夹角均为 $45^{\\circ}$，斜率分别为 $-1$ 和 $1$. 中间两段由端点坐标求得斜率分别为 $1$ 和 $-1$，故</p>\n$$\nf(x)=\\begin{cases}-x-1, & x<-1,\\\\\n\nx+1, & -1\\le x\\le0,\\\\\n\n1-x, & 0<x\\le1,\\\\\n\nx-1, & x>1\\end{cases}\n$$\n<p>这四段恰为 $f(x)=\\left||x|-1\\right|$ 的图象，且各分界点的函数值分别为 $0$、$1$、$0$. 对任意 $x\\in\\mathbb{R}$，$x^{2}-2|x|+1=(|x|-1)^{2}\\ge0$，所以 $\\sqrt{x^{2}-2|x|+1}=\\left||x|-1\\right|$，与图象在整个定义域上相符. 独立比较其余选项：图中 $f(3)=2$，而 B、C 在 $x=3$ 处分别取 $4$、$8$；图中 $f(-1)=0$，而 D 在 $x=-1$ 处取 $2$. 因此其余三项均不符合，选 A.</p>"
         },
         {
           "num": 24,
@@ -293,7 +293,7 @@
             "$\\cos 5 - \\sin 5$"
           ],
           "answer": "B",
-          "solution": "这里角的单位为弧度. 利用半角公式，$1+\\sin10=\\sin^{2}5+2\\sin5\\cos5+\\cos^{2}5=(\\sin5+\\cos5)^{2}$. 因为 $\\dfrac{3\\pi}{2}&#x3C;5&#x3C;2\\pi$，且 $\\pi&#x3C;5-\\dfrac\\pi4&#x3C;\\dfrac{3\\pi}{2}$，所以 $\\cos5+\\sin5=\\sqrt{2}\\cos\\left(5-\\dfrac\\pi4\\right)&#x3C;0$. 故平方根取其相反数，即 $\\sqrt{1+\\sin10}=-\\cos5-\\sin5$，选 B."
+          "solution": "这里角的单位为弧度. 利用半角公式，$1+\\sin10=\\sin^{2}5+2\\sin5\\cos5+\\cos^{2}5=(\\sin5+\\cos5)^{2}$. 因为 $\\dfrac{3\\pi}{2}<5<2\\pi$，且 $\\pi<5-\\dfrac\\pi4<\\dfrac{3\\pi}{2}$，所以 $\\cos5+\\sin5=\\sqrt{2}\\cos\\left(5-\\dfrac\\pi4\\right)<0$. 故平方根取其相反数，即 $\\sqrt{1+\\sin10}=-\\cos5-\\sin5$，选 B."
         },
         {
           "num": 25,
@@ -368,17 +368,17 @@
         },
         {
           "num": 33,
-          "body": "<p>设 $0 &#x3C; \\theta &#x3C; 2\\pi$，复数 $z = 1 - \\cos \\theta + \\mathrm{i}\\sin \\theta$，$u = a^{2} + a\\mathrm{i}$，且 $zu$ 是纯虚数. 这里，$\\mathrm{i}$ 是虚数单位，$a$ 是实数.</p><ol class=\"enumerate\"><li><p>求复数 $u$ 的辐角主值 $\\arg u$（用 $\\theta$ 的代数式表示）；</p></li><li><p>记 $\\omega = z^{2} + u^{2} + 2zu$，试问：$\\omega$ 可能是正实数吗？为什么？</p></li></ol>",
+          "body": "<p>设 $0 < \\theta < 2\\pi$，复数 $z = 1 - \\cos \\theta + \\mathrm{i}\\sin \\theta$，$u = a^{2} + a\\mathrm{i}$，且 $zu$ 是纯虚数. 这里，$\\mathrm{i}$ 是虚数单位，$a$ 是实数.</p><ol class=\"enumerate\"><li><p>求复数 $u$ 的辐角主值 $\\arg u$（用 $\\theta$ 的代数式表示）；</p></li><li><p>记 $\\omega = z^{2} + u^{2} + 2zu$，试问：$\\omega$ 可能是正实数吗？为什么？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $zu=\\left[a^{2}(1-\\cos\\theta)-a\\sin\\theta\\right]+\\left[a^{2}\\sin\\theta+a(1-\\cos\\theta)\\right]\\mathrm{i}$，而 $zu$ 是纯虚数，所以 $a^{2}\\sin\\theta+a(1-\\cos\\theta)\\neq0$，$a^{2}(1-\\cos\\theta)-a\\sin\\theta=0$. 由前一式知 $a\\neq0$. 又因为 $0&#x3C;\\theta&#x3C;2\\pi$，所以 $1-\\cos\\theta\\neq0$. 因此</p>\n$$\na=\\frac{\\sin\\theta}{1-\\cos\\theta}=\\frac{2\\cos\\frac{\\theta}{2}\\sin\\frac{\\theta}{2}}{2\\sin^{2}\\frac{\\theta}{2}}=\\cot\\frac{\\theta}{2}\n$$\n<p>又由上式知 $\\theta\\neq\\pi$. 所以</p>\n$$\n\\tan(\\arg u)=\\frac{a}{a^{2}}=\\frac{1}{a}=\\tan\\frac{\\theta}{2}\n$$\n<p>因为 $0\\le\\arg u&#x3C;2\\pi$，所以当 $0&#x3C;\\theta&#x3C;\\pi$ 时，复平面上与复数 $u=\\cot^{2}\\frac{\\theta}{2}+\\cot\\frac{\\theta}{2}\\mathrm{i}$ 对应的点在第一象限，得 $\\arg u=\\frac{\\theta}{2}$. 当 $\\pi&#x3C;\\theta&#x3C;2\\pi$ 时，该点在第四象限，得 $\\arg u=\\pi+\\frac{\\theta}{2}$.</p></li><li><p>$\\omega$ 不可能是正实数. 因为 $\\omega=(z+u)^{2}$，且</p>\n$$\nz+u=1-\\cos\\theta+a^{2}+(a+\\sin\\theta)\\mathrm{i}\n$$\n<p>记 $z+u=R+I\\mathrm{i}$，则 $R=1-\\cos\\theta+a^{2}>0$. 若 $\\omega=(z+u)^{2}$ 是正实数，则其虚部 $2RI$ 必须为零；由 $R>0$ 得 $I=0$，即 $a+\\sin\\theta=0$，所以 $a=-\\sin\\theta$. 但由上题已得 $a=\\frac{\\sin\\theta}{1-\\cos\\theta}$，且 $\\sin\\theta\\neq0$. 因此 $-\\sin\\theta=\\frac{\\sin\\theta}{1-\\cos\\theta}$，所以 $-1=\\frac{1}{1-\\cos\\theta}$，解得 $\\cos\\theta=2$，这不可能. 因此 $\\omega$ 不能是正实数.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $zu=\\left[a^{2}(1-\\cos\\theta)-a\\sin\\theta\\right]+\\left[a^{2}\\sin\\theta+a(1-\\cos\\theta)\\right]\\mathrm{i}$，而 $zu$ 是纯虚数，所以 $a^{2}\\sin\\theta+a(1-\\cos\\theta)\\neq0$，$a^{2}(1-\\cos\\theta)-a\\sin\\theta=0$. 由前一式知 $a\\neq0$. 又因为 $0<\\theta<2\\pi$，所以 $1-\\cos\\theta\\neq0$. 因此</p>\n$$\na=\\frac{\\sin\\theta}{1-\\cos\\theta}=\\frac{2\\cos\\frac{\\theta}{2}\\sin\\frac{\\theta}{2}}{2\\sin^{2}\\frac{\\theta}{2}}=\\cot\\frac{\\theta}{2}\n$$\n<p>又由上式知 $\\theta\\neq\\pi$. 所以</p>\n$$\n\\tan(\\arg u)=\\frac{a}{a^{2}}=\\frac{1}{a}=\\tan\\frac{\\theta}{2}\n$$\n<p>因为 $0\\le\\arg u<2\\pi$，所以当 $0<\\theta<\\pi$ 时，复平面上与复数 $u=\\cot^{2}\\frac{\\theta}{2}+\\cot\\frac{\\theta}{2}\\mathrm{i}$ 对应的点在第一象限，得 $\\arg u=\\frac{\\theta}{2}$. 当 $\\pi<\\theta<2\\pi$ 时，该点在第四象限，得 $\\arg u=\\pi+\\frac{\\theta}{2}$.</p></li><li><p>$\\omega$ 不可能是正实数. 因为 $\\omega=(z+u)^{2}$，且</p>\n$$\nz+u=1-\\cos\\theta+a^{2}+(a+\\sin\\theta)\\mathrm{i}\n$$\n<p>记 $z+u=R+I\\mathrm{i}$，则 $R=1-\\cos\\theta+a^{2}>0$. 若 $\\omega=(z+u)^{2}$ 是正实数，则其虚部 $2RI$ 必须为零；由 $R>0$ 得 $I=0$，即 $a+\\sin\\theta=0$，所以 $a=-\\sin\\theta$. 但由上题已得 $a=\\frac{\\sin\\theta}{1-\\cos\\theta}$，且 $\\sin\\theta\\neq0$. 因此 $-\\sin\\theta=\\frac{\\sin\\theta}{1-\\cos\\theta}$，所以 $-1=\\frac{1}{1-\\cos\\theta}$，解得 $\\cos\\theta=2$，这不可能. 因此 $\\omega$ 不能是正实数.</p></li></ol>"
         },
         {
           "num": 34,
-          "body": "<p>设 $a > 0$，$a \\neq 1$，$f(x) = \\log_{a}\\left(x + \\sqrt{x^{2} - 1}\\right)$（$x \\ge 1$）.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的反函数 $f^{-1}(x)$ 和这个反函数的定义域；</p></li><li><p>记 $b_{n} = f^{-1}(n)$，$S_{n} = b_{1} + b_{2} + \\cdots + b_{n}$，求证：当 $\\frac{1}{2}&#x3C; a &#x3C; 2$ 时，对任意自然数 $n$，都有 $S_{n} &#x3C; 2^{n} - \\left(\\frac{\\sqrt{2}}{2}\\right)^{n}$.</p></li></ol>",
+          "body": "<p>设 $a > 0$，$a \\neq 1$，$f(x) = \\log_{a}\\left(x + \\sqrt{x^{2} - 1}\\right)$（$x \\ge 1$）.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的反函数 $f^{-1}(x)$ 和这个反函数的定义域；</p></li><li><p>记 $b_{n} = f^{-1}(n)$，$S_{n} = b_{1} + b_{2} + \\cdots + b_{n}$，求证：当 $\\frac{1}{2}< a < 2$ 时，对任意自然数 $n$，都有 $S_{n} < 2^{n} - \\left(\\frac{\\sqrt{2}}{2}\\right)^{n}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由 $y=\\log_{a}\\left(x+\\sqrt{x^{2}-1}\\right)$（$x\\geqslant1$）得 $x+\\sqrt{x^{2}-1}=a^{y}$. 又因为</p><p>$x+\\sqrt{x^{2}-1}=\\frac{x^{2}-(x^{2}-1)}{x-\\sqrt{x^{2}-1}}=\\frac{1}{x-\\sqrt{x^{2}-1}}$，所以 $x-\\sqrt{x^{2}-1}=a^{-y}$. 由这两式可得 $x=\\frac{a^{y}+a^{-y}}{2}$，因此反函数为 $f^{-1}(x)=\\frac{a^{x}+a^{-x}}{2}$.</p><p>令 $h(x)=x+\\sqrt{x^{2}-1}$. 在 $[1,+\\infty)$ 上，$h(1)=1$，且 $h$ 严格递增并趋于 $+\\infty$，所以 $h$ 的值域是 $[1,+\\infty)$. 因而函数 $f$ 的值域与 $a$ 的取值有关：当 $a>1$ 时，$f$ 的值域是 $\\left[0,+\\infty\\right)$；当 $0&#x3C;a&#x3C;1$ 时，$f$ 的值域是 $\\left(-\\infty,0\\right]$. 反函数的定义域分别就是这两个区间.</p></li><li><p>按题面给出的 $\\frac{1}{2}&#x3C;a&#x3C;2$，若 $\\frac{1}{2}&#x3C;a&#x3C;1$，则上问所得反函数定义域为 $(-\\infty,0]$，所以 $b_{1}=f^{-1}(1)$ 无定义，第二问在这段参数范围内并没有定义. 因而以下证明针对使所有 $b_{n}$ 有定义的参数范围 $1&#x3C;a&#x3C;2$；这也明确指出了原题参数范围的题面矛盾. 在此范围内，$1&#x3C;(2a)^{n}$，且 $a^{n}&#x3C;2^{n}$，因而</p>\n$$\n\\begin{gathered}\\frac{1}{2}\\left[(2^n+2^{-n})-(a^n+a^{-n})\\right]=\\frac{1}{2(2a)^{n}}\\left[2^{2n}a^n+a^n-a^{2n}2^n-2^n\\right] \\\\\n\n=\\frac{\\left[(2a)^{n}-1\\right]\\left(2^{n}-a^{n}\\right)}{2(2a)^{n}}>0.\\end{gathered}\n$$\n<p>所以 $\\frac{1}{2}(a^{n}+a^{-n})&#x3C;\\frac{1}{2}(2^{n}+2^{-n})$. 由上题知 $b_{n}=f^{-1}(n)=\\frac{1}{2}(a^{n}+a^{-n})$，因此</p>\n$$\n\\begin{gathered}S_n&#x3C;\\frac{1}{2}(2+2^{-1})+\\frac{1}{2}(2^2+2^{-2})+\\cdots+\\frac{1}{2}(2^n+2^{-n}) \\\\\n\n=\\frac{1}{2}(2+2^2+\\cdots+2^n)+\\frac{1}{2}(2^{-1}+2^{-2}+\\cdots+2^{-n}) \\\\\n\n=2^n-1+\\frac{1}{4}\\left[\\frac{1-2^{-n}}{1-2^{-1}}\\right]=2^n-\\frac{1}{2}(1+2^{-n}).\\end{gathered}\n$$\n<p>对任意自然数 $n\\geqslant1$，都有 $2^{-n}\\neq1$，所以 $\\frac{1}{2}(1+2^{-n})>\\sqrt{2^{-n}}=\\left(\\frac{\\sqrt{2}}{2}\\right)^{n}$，于是 $2^{n}-\\frac{1}{2}(1+2^{-n})&#x3C;2^{n}-\\left(\\frac{\\sqrt{2}}{2}\\right)^{n}$. 故对任意自然数 $n\\geqslant1$，都有 $S_{n}&#x3C;2^{n}-\\left(\\frac{\\sqrt{2}}{2}\\right)^{n}$，即证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由 $y=\\log_{a}\\left(x+\\sqrt{x^{2}-1}\\right)$（$x\\geqslant1$）得 $x+\\sqrt{x^{2}-1}=a^{y}$. 又因为</p><p>$x+\\sqrt{x^{2}-1}=\\frac{x^{2}-(x^{2}-1)}{x-\\sqrt{x^{2}-1}}=\\frac{1}{x-\\sqrt{x^{2}-1}}$，所以 $x-\\sqrt{x^{2}-1}=a^{-y}$. 由这两式可得 $x=\\frac{a^{y}+a^{-y}}{2}$，因此反函数为 $f^{-1}(x)=\\frac{a^{x}+a^{-x}}{2}$.</p><p>令 $h(x)=x+\\sqrt{x^{2}-1}$. 在 $[1,+\\infty)$ 上，$h(1)=1$，且 $h$ 严格递增并趋于 $+\\infty$，所以 $h$ 的值域是 $[1,+\\infty)$. 因而函数 $f$ 的值域与 $a$ 的取值有关：当 $a>1$ 时，$f$ 的值域是 $\\left[0,+\\infty\\right)$；当 $0<a<1$ 时，$f$ 的值域是 $\\left(-\\infty,0\\right]$. 反函数的定义域分别就是这两个区间.</p></li><li><p>按题面给出的 $\\frac{1}{2}<a<2$，若 $\\frac{1}{2}<a<1$，则上问所得反函数定义域为 $(-\\infty,0]$，所以 $b_{1}=f^{-1}(1)$ 无定义，第二问在这段参数范围内并没有定义. 因而以下证明针对使所有 $b_{n}$ 有定义的参数范围 $1<a<2$；这也明确指出了原题参数范围的题面矛盾. 在此范围内，$1<(2a)^{n}$，且 $a^{n}<2^{n}$，因而</p>\n$$\n\\begin{gathered}\\frac{1}{2}\\left[(2^n+2^{-n})-(a^n+a^{-n})\\right]=\\frac{1}{2(2a)^{n}}\\left[2^{2n}a^n+a^n-a^{2n}2^n-2^n\\right] \\\\\n\n=\\frac{\\left[(2a)^{n}-1\\right]\\left(2^{n}-a^{n}\\right)}{2(2a)^{n}}>0.\\end{gathered}\n$$\n<p>所以 $\\frac{1}{2}(a^{n}+a^{-n})<\\frac{1}{2}(2^{n}+2^{-n})$. 由上题知 $b_{n}=f^{-1}(n)=\\frac{1}{2}(a^{n}+a^{-n})$，因此</p>\n$$\n\\begin{gathered}S_n<\\frac{1}{2}(2+2^{-1})+\\frac{1}{2}(2^2+2^{-2})+\\cdots+\\frac{1}{2}(2^n+2^{-n}) \\\\\n\n=\\frac{1}{2}(2+2^2+\\cdots+2^n)+\\frac{1}{2}(2^{-1}+2^{-2}+\\cdots+2^{-n}) \\\\\n\n=2^n-1+\\frac{1}{4}\\left[\\frac{1-2^{-n}}{1-2^{-1}}\\right]=2^n-\\frac{1}{2}(1+2^{-n}).\\end{gathered}\n$$\n<p>对任意自然数 $n\\geqslant1$，都有 $2^{-n}\\neq1$，所以 $\\frac{1}{2}(1+2^{-n})>\\sqrt{2^{-n}}=\\left(\\frac{\\sqrt{2}}{2}\\right)^{n}$，于是 $2^{n}-\\frac{1}{2}(1+2^{-n})<2^{n}-\\left(\\frac{\\sqrt{2}}{2}\\right)^{n}$. 故对任意自然数 $n\\geqslant1$，都有 $S_{n}<2^{n}-\\left(\\frac{\\sqrt{2}}{2}\\right)^{n}$，即证.</p></li></ol>"
         }
       ]
     }

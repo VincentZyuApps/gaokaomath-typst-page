@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "若函数 $f(x)$ 是定义在 $\\mathbb{R}$ 上的偶函数，在 $(- \\infty, 0]$ 上是减函数，且 $f(2) = 0$，则使得 $f(x) &#x3C; 0$ 的 $x$ 的取值范围是（ ）",
+          "body": "若函数 $f(x)$ 是定义在 $\\mathbb{R}$ 上的偶函数，在 $(- \\infty, 0]$ 上是减函数，且 $f(2) = 0$，则使得 $f(x) < 0$ 的 $x$ 的取值范围是（ ）",
           "choices": [
             "$(-\\infty, 2)$",
             "$(2, +\\infty)$",
@@ -41,7 +41,7 @@
             "$(-2, 2)$"
           ],
           "answer": "D",
-          "solution": "<p>由偶函数性质，$f(-2)=f(2)=0$. 因为 $f(x)$ 在 $(-\\infty,0]$ 上是减函数，所以当 $-2&#x3C;x\\leqslant0$ 时，$f(x)&#x3C;f(-2)=0$，</p><p>而当 $x&#x3C;-2$ 时，$f(x)>f(-2)=0$. 再由偶性 $f(x)=f(-x)$，可知当 $0&#x3C;x&#x3C;2$ 时也有 $f(x)&#x3C;0$，且 $x=\\pm2$ 时函数值为 $0$. 因此</p><p>$f(x)&#x3C;0\\Longleftrightarrow -2&#x3C;x&#x3C;2$.</p><p>故选 D.</p>"
+          "solution": "<p>由偶函数性质，$f(-2)=f(2)=0$. 因为 $f(x)$ 在 $(-\\infty,0]$ 上是减函数，所以当 $-2<x\\leqslant0$ 时，$f(x)<f(-2)=0$，</p><p>而当 $x<-2$ 时，$f(x)>f(-2)=0$. 再由偶性 $f(x)=f(-x)$，可知当 $0<x<2$ 时也有 $f(x)<0$，且 $x=\\pm2$ 时函数值为 $0$. 因此</p><p>$f(x)<0\\Longleftrightarrow -2<x<2$.</p><p>故选 D.</p>"
         },
         {
           "num": 4,
@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "已知 $\\alpha$，$\\beta$ 均为锐角，若 $p: \\sin \\alpha &#x3C; \\sin (\\alpha + \\beta)$，$q: \\alpha + \\beta &#x3C; \\frac{\\pi}{2}$，则 $p$ 是 $q$ 的（ ）",
+          "body": "已知 $\\alpha$，$\\beta$ 均为锐角，若 $p: \\sin \\alpha < \\sin (\\alpha + \\beta)$，$q: \\alpha + \\beta < \\frac{\\pi}{2}$，则 $p$ 是 $q$ 的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -77,7 +77,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "B",
-          "solution": "<p>由正弦差公式，$\\sin(\\alpha+\\beta)-\\sin\\alpha=2\\cos\\left(\\alpha+\\frac{\\beta}{2}\\right)\\sin\\frac{\\beta}{2}$.</p><p>由于 $\\beta$ 为锐角，$\\sin\\frac{\\beta}{2}>0$，且 $0&#x3C;\\alpha+\\frac{\\beta}{2}&#x3C;\\frac{3\\pi}{4}$，所以</p><p>$p\\Longleftrightarrow \\alpha+\\frac{\\beta}{2}&#x3C;\\frac{\\pi}{2}$.</p><p>若 $q$ 成立，则 $\\alpha+\\frac{\\beta}{2}&#x3C;\\alpha+\\beta&#x3C;\\frac{\\pi}{2}$，故 $q\\Rightarrow p$. 取 $\\alpha=\\frac{\\pi}{3}$，$\\beta=\\frac{\\pi}{6}$，则 $p$ 成立而 $q$ 不成立. 因此 $p$ 是 $q$ 的必要而不充分条件，选 B.</p>"
+          "solution": "<p>由正弦差公式，$\\sin(\\alpha+\\beta)-\\sin\\alpha=2\\cos\\left(\\alpha+\\frac{\\beta}{2}\\right)\\sin\\frac{\\beta}{2}$.</p><p>由于 $\\beta$ 为锐角，$\\sin\\frac{\\beta}{2}>0$，且 $0<\\alpha+\\frac{\\beta}{2}<\\frac{3\\pi}{4}$，所以</p><p>$p\\Longleftrightarrow \\alpha+\\frac{\\beta}{2}<\\frac{\\pi}{2}$.</p><p>若 $q$ 成立，则 $\\alpha+\\frac{\\beta}{2}<\\alpha+\\beta<\\frac{\\pi}{2}$，故 $q\\Rightarrow p$. 取 $\\alpha=\\frac{\\pi}{3}$，$\\beta=\\frac{\\pi}{6}$，则 $p$ 成立而 $q$ 不成立. 因此 $p$ 是 $q$ 的必要而不充分条件，选 B.</p>"
         },
         {
           "num": 7,
@@ -105,10 +105,10 @@
         },
         {
           "num": 9,
-          "body": "<p>若动点 $(x, y)$ 在曲线 $\\frac{x^{2}}{4}+ \\frac{y^{2}}{b^{2}}= 1$（$b > 0$）上变化，则 $x^{2} + 2y$ 的最大值为（ ）</p><p><span class=\"macro macro-end\"></span>cases<span class=\"macro macro-)\"></span>}</p><p>$\\begin{cases}\\frac{b^2}{4}+ 4,&#x26;0 &#x3C; b &#x3C; 2,\\\\  2b,&#x26;b \\ge 2.\\end{cases}$</p><p>$\\frac{b^{2}}{4}+ 4$</p><p>2b</p>",
+          "body": "<p>若动点 $(x, y)$ 在曲线 $\\frac{x^{2}}{4}+ \\frac{y^{2}}{b^{2}}= 1$（$b > 0$）上变化，则 $x^{2} + 2y$ 的最大值为（ ）</p><p><span class=\"macro macro-end\"></span>cases<span class=\"macro macro-)\"></span>}</p><p>$\\begin{cases}\\frac{b^2}{4}+ 4,&0 < b < 2,\\\\  2b,&b \\ge 2.\\end{cases}$</p><p>$\\frac{b^{2}}{4}+ 4$</p><p>2b</p>",
           "choices": null,
           "answer": "A",
-          "solution": "<p>由椭圆方程可得 $y\\in[-b,b]$，且</p>\n$$\nx^{2}=4\\left(1-\\frac{y^{2}}{b^{2}}\\right)\n$$\n<p>因此</p>\n$$\nx^{2}+2y=4-\\frac{4}{b^{2}}y^{2}+2y  =4+\\frac{b^{2}}{4}-\\frac{4}{b^{2}}\\left(y-\\frac{b^{2}}{4}\\right)^{2}\n$$\n<p>当 $0&#x3C;b&#x3C;4$ 时，$\\frac{b^{2}}{4}\\in(0,b)$，平方项可以取 $0$，最大值为 $\\frac{b^{2}}{4}+4$. 当 $b\\geqslant4$ 时，$\\frac{b^{2}}{4}\\ge b$，上式在区间 $[-b,b]$ 上的最大值在 $y=b$ 处取得，此时 $x=0$，最大值为 $2b$. 当 $b=4$ 时两式同为 $8$. 故最大值为</p>\n$$\n\\begin{cases}\\dfrac{b^2}{4}+4,&#x26;0&#x3C;b&#x3C;4,\\\\  2b,&#x26;b\\geqslant4,\\end{cases}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>由椭圆方程可得 $y\\in[-b,b]$，且</p>\n$$\nx^{2}=4\\left(1-\\frac{y^{2}}{b^{2}}\\right)\n$$\n<p>因此</p>\n$$\nx^{2}+2y=4-\\frac{4}{b^{2}}y^{2}+2y  =4+\\frac{b^{2}}{4}-\\frac{4}{b^{2}}\\left(y-\\frac{b^{2}}{4}\\right)^{2}\n$$\n<p>当 $0<b<4$ 时，$\\frac{b^{2}}{4}\\in(0,b)$，平方项可以取 $0$，最大值为 $\\frac{b^{2}}{4}+4$. 当 $b\\geqslant4$ 时，$\\frac{b^{2}}{4}\\ge b$，上式在区间 $[-b,b]$ 上的最大值在 $y=b$ 处取得，此时 $x=0$，最大值为 $2b$. 当 $b=4$ 时两式同为 $8$. 故最大值为</p>\n$$\n\\begin{cases}\\dfrac{b^2}{4}+4,&0<b<4,\\\\  2b,&b\\geqslant4,\\end{cases}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 10,
@@ -129,10 +129,10 @@
       "problems": [
         {
           "num": 11,
-          "body": "已知集合 $A = \\{x \\in \\mathbb{R}\\mid x^{2} - x - 6 &#x3C; 0\\}$，集合 $B = \\{x \\in \\mathbb{R}\\mid |x - 2| &#x3C; 2\\}$，则 $A \\cap B =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知集合 $A = \\{x \\in \\mathbb{R}\\mid x^{2} - x - 6 < 0\\}$，集合 $B = \\{x \\in \\mathbb{R}\\mid |x - 2| < 2\\}$，则 $A \\cap B =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$\\{x\\mid 0&#x3C;x&#x3C;3\\}$",
-          "solution": "<p>由 $x^{2}-x-6=(x-3)(x+2)$，得 $A=(-2,3)$. 又由 $|x-2|&#x3C;2$，得 $0&#x3C;x&#x3C;4$，</p><p>所以</p>\n$$\nA\\cap B=(-2,3)\\cap(0,4)=(0,3)\n$$\n<p>故 $A\\cap B=\\{x\\in\\mathbb{R}\\mid0&#x3C;x&#x3C;3\\}$.</p>"
+          "answer": "$\\{x\\mid 0<x<3\\}$",
+          "solution": "<p>由 $x^{2}-x-6=(x-3)(x+2)$，得 $A=(-2,3)$. 又由 $|x-2|<2$，得 $0<x<4$，</p><p>所以</p>\n$$\nA\\cap B=(-2,3)\\cap(0,4)=(0,3)\n$$\n<p>故 $A\\cap B=\\{x\\in\\mathbb{R}\\mid0<x<3\\}$.</p>"
         },
         {
           "num": 12,
@@ -153,7 +153,7 @@
           "body": "$\\displaystyle\\lim_{n\\to \\infty}\\frac{2^{3n}- 3^{2n + 1}}{2^{3n}+ 3^{2n}}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>",
           "choices": null,
           "answer": "$-3$",
-          "solution": "<p>分子、分母同除以 $3^{2n}=9^{n}$，得 $\\frac{\\left(\\frac{8}{9}\\right)^{n}-3}{\\left(\\frac{8}{9}\\right)^{n}+1}$.</p><p>因为 $0&#x3C;\\frac{8}{9}&#x3C;1$，所以 $\\displaystyle\\lim_{n\\to\\infty}\\left(\\frac{8}{9}\\right)^{n}=0$. 因而原极限为 $\\frac{0-3}{0+1}=-3$.</p>"
+          "solution": "<p>分子、分母同除以 $3^{2n}=9^{n}$，得 $\\frac{\\left(\\frac{8}{9}\\right)^{n}-3}{\\left(\\frac{8}{9}\\right)^{n}+1}$.</p><p>因为 $0<\\frac{8}{9}<1$，所以 $\\displaystyle\\lim_{n\\to\\infty}\\left(\\frac{8}{9}\\right)^{n}=0$. 因而原极限为 $\\frac{0-3}{0+1}=-3$.</p>"
         },
         {
           "num": 15,
@@ -193,28 +193,28 @@
           "body": "已知 $a \\in \\mathbb{R}$，讨论函数 $f(x) = \\mathrm{e}^{x}(x^{2}+ ax + a + 1)$ 的极值点的个数.",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $g(x)=x^{2}+ax+a+1$，则</p>\n$$\nf'(x)=\\mathrm{e}^{x}\\bigl(g(x)+g'(x)\\bigr)=\\mathrm{e}^{x}\\left[x^{2}+(a+2)x+2a+1\\right]\n$$\n<p>由于 $\\mathrm{e}^{x}>0$，$f'(x)$ 的符号由 $h(x)=x^{2}+(a+2)x+2a+1$ 决定. 其判别式为 $\\Delta=(a+2)^{2}-4(2a+1)=a(a-4)$.</p><p>当 $a&#x3C;0$ 或 $a>4$ 时，$\\Delta>0$，$h(x)$ 有两个不等实根，且开口向上，因此 $f'(x)$ 的符号依次为正、负、正，函数有一个极大值点和一个极小值点，共 $2$ 个极值点.</p><p>当 $0&#x3C;a&#x3C;4$ 时，$\\Delta&#x3C;0$，又二次项系数为正，所以 $h(x)>0$，函数没有极值点. 当 $a=0$ 或 $a=4$ 时，分别有 $h(x)=(x+1)^{2}$ 或 $h(x)=(x+3)^{2}$，</p><p>$f'(x)$ 不变号，也没有极值点.</p><p>所以极值点的个数为</p>\n$$\n\\begin{cases}2, &#x26; a&#x3C;0\\ \\text{或}\\ a>4,\\\\\n\n0, &#x26; 0\\le a\\leqslant4\\end{cases}\n$$\n<p>故极值点的个数按 $a$ 分为上述两种情况.</p>"
+          "solution": "<p>令 $g(x)=x^{2}+ax+a+1$，则</p>\n$$\nf'(x)=\\mathrm{e}^{x}\\bigl(g(x)+g'(x)\\bigr)=\\mathrm{e}^{x}\\left[x^{2}+(a+2)x+2a+1\\right]\n$$\n<p>由于 $\\mathrm{e}^{x}>0$，$f'(x)$ 的符号由 $h(x)=x^{2}+(a+2)x+2a+1$ 决定. 其判别式为 $\\Delta=(a+2)^{2}-4(2a+1)=a(a-4)$.</p><p>当 $a<0$ 或 $a>4$ 时，$\\Delta>0$，$h(x)$ 有两个不等实根，且开口向上，因此 $f'(x)$ 的符号依次为正、负、正，函数有一个极大值点和一个极小值点，共 $2$ 个极值点.</p><p>当 $0<a<4$ 时，$\\Delta<0$，又二次项系数为正，所以 $h(x)>0$，函数没有极值点. 当 $a=0$ 或 $a=4$ 时，分别有 $h(x)=(x+1)^{2}$ 或 $h(x)=(x+3)^{2}$，</p><p>$f'(x)$ 不变号，也没有极值点.</p><p>所以极值点的个数为</p>\n$$\n\\begin{cases}2, & a<0\\ \\text{或}\\ a>4,\\\\\n\n0, & 0\\le a\\leqslant4\\end{cases}\n$$\n<p>故极值点的个数按 $a$ 分为上述两种情况.</p>"
         },
         {
           "num": 20,
           "body": "<p>如图，在三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB \\perp$ 侧面 $BB_{1}C_{1}C$，$E$ 为棱 $CC_{1}$ 上异于 $C$，$C_{1}$ 的一点，$EA \\perp EB_{1}$，已知 $AB = \\sqrt{2}$，$BB_{1}= 2$，$BC = 1$，$\\angle BCC_{1}= \\frac{\\pi}{3}$，求：</p><ol class=\"enumerate\"><li><p>异面直线 $AB$ 与 $EB_{1}$ 的距离；</p></li><li><p>二面角 $A - EB_{1}- A_{1}$ 的平面角的正切值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>建立直角坐标系，令 $B=(0,0,0)$，$C=(1,0,0)$，并令 $z$ 轴垂直于侧面 $BB_{1}C_{1}C$，则 $A=(0,0,\\sqrt{2})$.</p><p>设棱柱的平移向量为 $\\overrightarrow{BB_{1}}=\\overrightarrow{CC_{1}}=(u,v,0)$. 由 $|\\overrightarrow{CC_{1}}|=2$ 以及 $\\angle BCC_{1}=\\frac{\\pi}{3}$，有 $(-1,0,0)\\cdot(u,v,0)=2\\cos\\frac{\\pi}{3}=1$，$u^{2}+v^{2}=4$.</p><p>取 $v>0$，得 $(u,v)=(-1,\\sqrt{3})$，从而 $B_{1}=(-1,\\sqrt{3},0)$，$C_{1}=(0,\\sqrt{3},0)$，$A_{1}=(-1,\\sqrt{3},\\sqrt{2})$. 设 $E=(1-t)C+tC_{1}=(1-t,\\sqrt{3}t,0)$，其中 $0&#x3C;t&#x3C;1$. 由 $EA\\perp EB_{1}$，</p>\n$$\n\\overrightarrow{EA}\\cdot\\overrightarrow{EB_{1}}=(t-1)(t-2)-3t(1-t)=4t^{2}-6t+2=0\n$$\n<p>所以 $(2t-1)(t-1)=0$. 因 $E\\ne C_{1}$，故 $t=\\frac{1}{2}$，即 $E=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$.</p><ol class=\"enumerate\"><li><p>取 $AB$ 和 $EB_{1}$ 的方向向量 $\\mathbf{u}=(0,0,\\sqrt{2})$，$\\mathbf{v}=\\left(-\\frac{3}{2},\\frac{\\sqrt{3}}{2},0\\right)$. 由此 $\\mathbf{u}\\times\\mathbf{v}=\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},0\\right)$，$\\left|\\mathbf{u}\\times\\mathbf{v}\\right|=\\sqrt{6}$.</p><p>因此两异面直线的距离为</p>\n$$\nd=\\frac{\\left|\\overrightarrow{BE}\\cdot(\\mathbf{u}\\times\\mathbf{v})\\right|}{\\left|\\mathbf{u}\\times\\mathbf{v}\\right|}=\\frac{\\left|\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)\\cdot\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},0\\right)\\right|}{\\sqrt{6}}=1\n$$\n<p>所以两异面直线 $AB$ 与 $EB_{1}$ 的距离为 $1$.</p></li><li><p>设平面 $AEB_{1}$，$A_{1}EB_{1}$ 的法向量分别为</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{EA}\\times\\overrightarrow{EB_{1}}=\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},-\\sqrt{3}\\right)\n$$\n\n$$\n\\mathbf{n}_{2}=\\overrightarrow{EA_{1}}\\times\\overrightarrow{EB_{1}}=\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},0\\right)\n$$\n<p>若二面角的平面角为 $\\theta$，则</p>\n$$\n\\tan\\theta=\\frac{|\\mathbf{n}_{1}\\times\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}=\\frac{3\\sqrt{2}}{6}=\\frac{\\sqrt{2}}{2}\n$$\n<p>所以二面角的平面角的正切值为 $\\frac{\\sqrt{2}}{2}$.</p></li></ol>"
+          "solution": "<p>建立直角坐标系，令 $B=(0,0,0)$，$C=(1,0,0)$，并令 $z$ 轴垂直于侧面 $BB_{1}C_{1}C$，则 $A=(0,0,\\sqrt{2})$.</p><p>设棱柱的平移向量为 $\\overrightarrow{BB_{1}}=\\overrightarrow{CC_{1}}=(u,v,0)$. 由 $|\\overrightarrow{CC_{1}}|=2$ 以及 $\\angle BCC_{1}=\\frac{\\pi}{3}$，有 $(-1,0,0)\\cdot(u,v,0)=2\\cos\\frac{\\pi}{3}=1$，$u^{2}+v^{2}=4$.</p><p>取 $v>0$，得 $(u,v)=(-1,\\sqrt{3})$，从而 $B_{1}=(-1,\\sqrt{3},0)$，$C_{1}=(0,\\sqrt{3},0)$，$A_{1}=(-1,\\sqrt{3},\\sqrt{2})$. 设 $E=(1-t)C+tC_{1}=(1-t,\\sqrt{3}t,0)$，其中 $0<t<1$. 由 $EA\\perp EB_{1}$，</p>\n$$\n\\overrightarrow{EA}\\cdot\\overrightarrow{EB_{1}}=(t-1)(t-2)-3t(1-t)=4t^{2}-6t+2=0\n$$\n<p>所以 $(2t-1)(t-1)=0$. 因 $E\\ne C_{1}$，故 $t=\\frac{1}{2}$，即 $E=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$.</p><ol class=\"enumerate\"><li><p>取 $AB$ 和 $EB_{1}$ 的方向向量 $\\mathbf{u}=(0,0,\\sqrt{2})$，$\\mathbf{v}=\\left(-\\frac{3}{2},\\frac{\\sqrt{3}}{2},0\\right)$. 由此 $\\mathbf{u}\\times\\mathbf{v}=\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},0\\right)$，$\\left|\\mathbf{u}\\times\\mathbf{v}\\right|=\\sqrt{6}$.</p><p>因此两异面直线的距离为</p>\n$$\nd=\\frac{\\left|\\overrightarrow{BE}\\cdot(\\mathbf{u}\\times\\mathbf{v})\\right|}{\\left|\\mathbf{u}\\times\\mathbf{v}\\right|}=\\frac{\\left|\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)\\cdot\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},0\\right)\\right|}{\\sqrt{6}}=1\n$$\n<p>所以两异面直线 $AB$ 与 $EB_{1}$ 的距离为 $1$.</p></li><li><p>设平面 $AEB_{1}$，$A_{1}EB_{1}$ 的法向量分别为</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{EA}\\times\\overrightarrow{EB_{1}}=\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},-\\sqrt{3}\\right)\n$$\n\n$$\n\\mathbf{n}_{2}=\\overrightarrow{EA_{1}}\\times\\overrightarrow{EB_{1}}=\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},0\\right)\n$$\n<p>若二面角的平面角为 $\\theta$，则</p>\n$$\n\\tan\\theta=\\frac{|\\mathbf{n}_{1}\\times\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}=\\frac{3\\sqrt{2}}{6}=\\frac{\\sqrt{2}}{2}\n$$\n<p>所以二面角的平面角的正切值为 $\\frac{\\sqrt{2}}{2}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "<p>已知椭圆 $C_{1}$ 的方程为 $\\frac{x^{2}}{4}+ y^{2} = 1$，双曲线 $C_{2}$ 的左、右焦点分别为 $C_{1}$ 的左、右顶点，而 $C_{2}$ 的左、右顶点分别是 $C_{1}$ 的左、右焦点.</p><ol class=\"enumerate\"><li><p>求双曲线 $C_{2}$ 的方程.</p></li><li><p>若直线 $l: y = kx + \\sqrt{2}$ 与椭圆 $C_{1}$ 及双曲线 $C_{2}$ 都恒有两个不同的交点，且 $l$ 与 $C_{2}$ 的两个交点 $A$ 和 $B$ 满足 $\\overrightarrow{OA}\\cdot \\overrightarrow{OB}&#x3C; 6$ （其中 $O$ 为原点），求 $k$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知椭圆 $C_{1}$ 的方程为 $\\frac{x^{2}}{4}+ y^{2} = 1$，双曲线 $C_{2}$ 的左、右焦点分别为 $C_{1}$ 的左、右顶点，而 $C_{2}$ 的左、右顶点分别是 $C_{1}$ 的左、右焦点.</p><ol class=\"enumerate\"><li><p>求双曲线 $C_{2}$ 的方程.</p></li><li><p>若直线 $l: y = kx + \\sqrt{2}$ 与椭圆 $C_{1}$ 及双曲线 $C_{2}$ 都恒有两个不同的交点，且 $l$ 与 $C_{2}$ 的两个交点 $A$ 和 $B$ 满足 $\\overrightarrow{OA}\\cdot \\overrightarrow{OB}< 6$ （其中 $O$ 为原点），求 $k$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>椭圆 $C_{1}$ 的长半轴为 $2$，焦半距为 $\\sqrt{3}$. 因此双曲线 $C_{2}$ 的焦半距为 $2$，实半轴为 $\\sqrt{3}$，虚半轴满足</p><p>$b^{2}=2^{2}-(\\sqrt{3})^{2}=1$，故 $C_{2}:\\frac{x^{2}}{3}-y^{2}=1$.</p></li><li><p>直线 $l$ 与椭圆的交点横坐标满足</p><p>$\\left(k^{2}+\\frac{1}{4}\\right)x^{2}+2\\sqrt{2}kx+1=0$，</p><p>其判别式为 $4k^{2}-1$，所以与椭圆有两个不同交点的条件是 $|k|>\\frac{1}{2}$.</p><p>直线 $l$ 与双曲线的交点横坐标满足</p><p>$\\left(\\frac{1}{3}-k^{2}\\right)x^{2}-2\\sqrt{2}kx-3=0$，</p><p>其判别式为 $4(1-k^{2})$，且二次项系数不能为零. 因此与双曲线有两个不同交点的条件是</p><p>$|k|&#x3C;1$，$k^{2}\\ne\\frac{1}{3}$.</p><p>设 $A$，$B$ 的横坐标分别为 $x_{1}$，$x_{2}$，记 $D=1-3k^{2}$. 由上面的双曲线交点方程及韦达定理，</p><p>$x_{1}+x_{2}=\\frac{6\\sqrt{2}k}{D}$，$x_{1}x_{2}=-\\frac{9}{D}$.</p><p>又 $y_{i}=kx_{i}+\\sqrt{2}$，所以</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=x_{1}x_{2}+y_{1}y_{2}=(1+k^{2})x_{1}x_{2}+\\sqrt{2}k(x_{1}+x_{2})+2  =-\\frac{7+3k^{2}}{1-3k^{2}}\n$$\n<p>令 $t=k^{2}$. 结合交点条件，有 $\\frac{1}{4}&#x3C;t&#x3C;1$，且 $t\\ne\\frac{1}{3}$. 当 $\\frac{1}{4}&#x3C;t&#x3C;\\frac{1}{3}$ 时，上式小于 $0$，自然小于 $6$；当 $\\frac{1}{3}&#x3C;t&#x3C;1$ 时，条件</p><p>$\\frac{7+3t}{3t-1}&#x3C;6$</p><p>等价于 $t>\\frac{13}{15}$. 因此</p>\n$$\nk^{2}\\in\\left(\\frac{1}{4},\\frac{1}{3}\\right)\\cup\\left(\\frac{13}{15},1\\right)\n$$\n<p>即</p>\n$$\nk\\in\\left(-1,-\\sqrt{\\frac{13}{15}}\\right)\\cup\\left(-\\frac{1}{\\sqrt{3}},-\\frac{1}{2}\\right)\\cup\\left(\\frac{1}{2},\\frac{1}{\\sqrt{3}}\\right)\\cup\\left(\\sqrt{\\frac{13}{15}},1\\right)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>椭圆 $C_{1}$ 的长半轴为 $2$，焦半距为 $\\sqrt{3}$. 因此双曲线 $C_{2}$ 的焦半距为 $2$，实半轴为 $\\sqrt{3}$，虚半轴满足</p><p>$b^{2}=2^{2}-(\\sqrt{3})^{2}=1$，故 $C_{2}:\\frac{x^{2}}{3}-y^{2}=1$.</p></li><li><p>直线 $l$ 与椭圆的交点横坐标满足</p><p>$\\left(k^{2}+\\frac{1}{4}\\right)x^{2}+2\\sqrt{2}kx+1=0$，</p><p>其判别式为 $4k^{2}-1$，所以与椭圆有两个不同交点的条件是 $|k|>\\frac{1}{2}$.</p><p>直线 $l$ 与双曲线的交点横坐标满足</p><p>$\\left(\\frac{1}{3}-k^{2}\\right)x^{2}-2\\sqrt{2}kx-3=0$，</p><p>其判别式为 $4(1-k^{2})$，且二次项系数不能为零. 因此与双曲线有两个不同交点的条件是</p><p>$|k|<1$，$k^{2}\\ne\\frac{1}{3}$.</p><p>设 $A$，$B$ 的横坐标分别为 $x_{1}$，$x_{2}$，记 $D=1-3k^{2}$. 由上面的双曲线交点方程及韦达定理，</p><p>$x_{1}+x_{2}=\\frac{6\\sqrt{2}k}{D}$，$x_{1}x_{2}=-\\frac{9}{D}$.</p><p>又 $y_{i}=kx_{i}+\\sqrt{2}$，所以</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=x_{1}x_{2}+y_{1}y_{2}=(1+k^{2})x_{1}x_{2}+\\sqrt{2}k(x_{1}+x_{2})+2  =-\\frac{7+3k^{2}}{1-3k^{2}}\n$$\n<p>令 $t=k^{2}$. 结合交点条件，有 $\\frac{1}{4}<t<1$，且 $t\\ne\\frac{1}{3}$. 当 $\\frac{1}{4}<t<\\frac{1}{3}$ 时，上式小于 $0$，自然小于 $6$；当 $\\frac{1}{3}<t<1$ 时，条件</p><p>$\\frac{7+3t}{3t-1}<6$</p><p>等价于 $t>\\frac{13}{15}$. 因此</p>\n$$\nk^{2}\\in\\left(\\frac{1}{4},\\frac{1}{3}\\right)\\cup\\left(\\frac{13}{15},1\\right)\n$$\n<p>即</p>\n$$\nk\\in\\left(-1,-\\sqrt{\\frac{13}{15}}\\right)\\cup\\left(-\\frac{1}{\\sqrt{3}},-\\frac{1}{2}\\right)\\cup\\left(\\frac{1}{2},\\frac{1}{\\sqrt{3}}\\right)\\cup\\left(\\sqrt{\\frac{13}{15}},1\\right)\n$$\n</li></ol>"
         },
         {
           "num": 22,
-          "body": "<p>数列 $\\{a_{n}\\}$ 满足 $a_{1} = 1$ 且 $a_{n + 1}= \\left(1 + \\frac{1}{n^{2} + n}\\right)a_{n} + \\frac{1}{2^{n}}$ （$n \\ge 1$）.</p><ol class=\"enumerate\"><li><p>用数学归纳法证明： $a_{n}\\ge 2$ （$n \\ge 2$）；</p></li><li><p>已知不等式 $\\ln(1+x) &#x3C; x$ 对 $x > 0$ 成立，证明 $a_{n}&#x3C;\\mathrm{e}^{2}$ （$n\\geqslant1$），其中无理数 $\\mathrm{e}= 2.71828\\cdots$.</p></li></ol>",
+          "body": "<p>数列 $\\{a_{n}\\}$ 满足 $a_{1} = 1$ 且 $a_{n + 1}= \\left(1 + \\frac{1}{n^{2} + n}\\right)a_{n} + \\frac{1}{2^{n}}$ （$n \\ge 1$）.</p><ol class=\"enumerate\"><li><p>用数学归纳法证明： $a_{n}\\ge 2$ （$n \\ge 2$）；</p></li><li><p>已知不等式 $\\ln(1+x) < x$ 对 $x > 0$ 成立，证明 $a_{n}<\\mathrm{e}^{2}$ （$n\\geqslant1$），其中无理数 $\\mathrm{e}= 2.71828\\cdots$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $n=2$ 时，由递推式得</p>\n$$\na_{2}=\\left(1+\\frac{1}{1^{2}+1}\\right)a_{1}+\\frac{1}{2}=\\frac{3}{2}+\\frac{1}{2}=2\n$$\n<p>假设 $n\\geqslant2$ 时 $a_{n}\\geqslant2$，则</p>\n$$\na_{n+1}=\\left(1+\\frac{1}{n^{2}+n}\\right)a_{n}+\\frac{1}{2^{n}}\\geqslant2\\left(1+\\frac{1}{n^{2}+n}\\right)+\\frac{1}{2^{n}}>2\n$$\n<p>所以由数学归纳法，$a_{n}\\geqslant2$ 对一切 $n\\geqslant2$ 成立.</p></li><li><p>令 $p_{1}=1$，$p_{n}=\\prod_{j=1}^{n-1}\\left(1+\\frac{1}{j^{2}+j}\\right)$（$n\\geqslant2$）.</p><p>将递推式除以 $p_{n+1}$，得</p>\n$$\n\\frac{a_{n+1}}{p_{n+1}}=\\frac{a_{n}}{p_{n}}+\\frac{1}{2^{n}p_{n+1}}\n$$\n<p>逐项相加，得到</p>\n$$\n\\frac{a_{n}}{p_{n}}=1+\\sum_{j=1}^{n-1}\\frac{1}{2^{j}p_{j+1}}&#x3C;1+\\sum_{j=1}^{n-1}\\frac{1}{2^{j}}&#x3C;2\n$$\n<p>其中 $p_{j+1}>1$. 另一方面，由题设不等式，</p>\n$$\n\\ln p_{n}=\\sum_{j=1}^{n-1}\\ln\\left(1+\\frac{1}{j^{2}+j}\\right)  &#x3C;\\sum_{j=1}^{n-1}\\frac{1}{j^{2}+j}\n$$\n<p>又</p>\n$$\n\\sum_{j=1}^{n-1}\\frac{1}{j^{2}+j}=\\sum_{j=1}^{n-1}\\left(\\frac{1}{j}-\\frac{1}{j+1}\\right)=1-\\frac{1}{n}&#x3C;1\n$$\n<p>因此 $p_{n}&#x3C;\\mathrm{e}$，从而</p>\n$$\na_{n}&#x3C;2p_{n}&#x3C;2\\mathrm{e}&#x3C;\\mathrm{e}^{2}\n$$\n<p>因为 $\\mathrm{e}>2$. 故 $a_{n}&#x3C;\\mathrm{e}^{2}$ 对一切 $n\\geqslant1$ 成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $n=2$ 时，由递推式得</p>\n$$\na_{2}=\\left(1+\\frac{1}{1^{2}+1}\\right)a_{1}+\\frac{1}{2}=\\frac{3}{2}+\\frac{1}{2}=2\n$$\n<p>假设 $n\\geqslant2$ 时 $a_{n}\\geqslant2$，则</p>\n$$\na_{n+1}=\\left(1+\\frac{1}{n^{2}+n}\\right)a_{n}+\\frac{1}{2^{n}}\\geqslant2\\left(1+\\frac{1}{n^{2}+n}\\right)+\\frac{1}{2^{n}}>2\n$$\n<p>所以由数学归纳法，$a_{n}\\geqslant2$ 对一切 $n\\geqslant2$ 成立.</p></li><li><p>令 $p_{1}=1$，$p_{n}=\\prod_{j=1}^{n-1}\\left(1+\\frac{1}{j^{2}+j}\\right)$（$n\\geqslant2$）.</p><p>将递推式除以 $p_{n+1}$，得</p>\n$$\n\\frac{a_{n+1}}{p_{n+1}}=\\frac{a_{n}}{p_{n}}+\\frac{1}{2^{n}p_{n+1}}\n$$\n<p>逐项相加，得到</p>\n$$\n\\frac{a_{n}}{p_{n}}=1+\\sum_{j=1}^{n-1}\\frac{1}{2^{j}p_{j+1}}<1+\\sum_{j=1}^{n-1}\\frac{1}{2^{j}}<2\n$$\n<p>其中 $p_{j+1}>1$. 另一方面，由题设不等式，</p>\n$$\n\\ln p_{n}=\\sum_{j=1}^{n-1}\\ln\\left(1+\\frac{1}{j^{2}+j}\\right)  <\\sum_{j=1}^{n-1}\\frac{1}{j^{2}+j}\n$$\n<p>又</p>\n$$\n\\sum_{j=1}^{n-1}\\frac{1}{j^{2}+j}=\\sum_{j=1}^{n-1}\\left(\\frac{1}{j}-\\frac{1}{j+1}\\right)=1-\\frac{1}{n}<1\n$$\n<p>因此 $p_{n}<\\mathrm{e}$，从而</p>\n$$\na_{n}<2p_{n}<2\\mathrm{e}<\\mathrm{e}^{2}\n$$\n<p>因为 $\\mathrm{e}>2$. 故 $a_{n}<\\mathrm{e}^{2}$ 对一切 $n\\geqslant1$ 成立.</p></li></ol>"
         }
       ]
     }

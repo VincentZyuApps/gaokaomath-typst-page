@@ -23,17 +23,17 @@
         },
         {
           "num": 3,
-          "body": "化简：$\\left| 6-a \\right|-\\left| 2a+1 \\right|+\\sqrt{a^{2}+10a+25}$（$a&#x3C;-5$）.",
+          "body": "化简：$\\left| 6-a \\right|-\\left| 2a+1 \\right|+\\sqrt{a^{2}+10a+25}$（$a<-5$）.",
           "choices": null,
           "answer": "",
-          "solution": "<p>由 $a&#x3C;-5$，可得 $6-a>0$、$2a+1&#x3C;0$、$a+5&#x3C;0$. 又</p><p>$a^{2}+10a+25=(a+5)^{2}$，所以</p>\n$$\n\\left|6-a\\right|-\\left|2a+1\\right|+\\sqrt{a^{2}+10a+25}=(6-a)+(2a+1)-\\left(a+5\\right)=2\n$$"
+          "solution": "<p>由 $a<-5$，可得 $6-a>0$、$2a+1<0$、$a+5<0$. 又</p><p>$a^{2}+10a+25=(a+5)^{2}$，所以</p>\n$$\n\\left|6-a\\right|-\\left|2a+1\\right|+\\sqrt{a^{2}+10a+25}=(6-a)+(2a+1)-\\left(a+5\\right)=2\n$$"
         },
         {
           "num": 4,
           "body": "解不等式：$\\lg \\left( 2x+1 \\right)>\\lg \\left( 5-x \\right)$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>对数的真数必须为正，因此先得</p><p>$2x+1>0$，$5-x>0$</p><p>即 $x>-\\frac{1}{2}$ 且 $x&#x3C;5$. 在此定义域内，常用对数函数单调递增，故原不等式等价于</p>\n$$\n2x+1>5-x,\\qquad\\text{即}\\qquad x>\\frac{4}{3}\n$$\n<p>与定义域取交集，得到原不等式的解集为</p>\n$$\n\\frac{4}{3}&#x3C;x&#x3C;5\n$$"
+          "solution": "<p>对数的真数必须为正，因此先得</p><p>$2x+1>0$，$5-x>0$</p><p>即 $x>-\\frac{1}{2}$ 且 $x<5$. 在此定义域内，常用对数函数单调递增，故原不等式等价于</p>\n$$\n2x+1>5-x,\\qquad\\text{即}\\qquad x>\\frac{4}{3}\n$$\n<p>与定义域取交集，得到原不等式的解集为</p>\n$$\n\\frac{4}{3}<x<5\n$$"
         },
         {
           "num": 5,
@@ -47,7 +47,7 @@
           "body": "实数 $p$，$q$ 应满足怎样的条件，才能使方程 $x^{2}+px+q=0$ 的两根成为一直角三角形两锐角的正弦？",
           "choices": null,
           "answer": "",
-          "solution": "<p>设直角三角形的一个锐角为 $\\alpha$，则 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$，另一个锐角为 $\\frac{\\pi}{2}-\\alpha$. 若方程的两根为 $x_{1}$、$x_{2}$，则可取</p><p>$x_{1}=\\sin\\alpha$，$x_{2}=\\sin\\left(\\frac{\\pi}{2}-\\alpha\\right)=\\cos\\alpha$.</p><p>由韦达定理，</p><p>$\\sin\\alpha+\\cos\\alpha=-p$，$\\sin\\alpha\\cos\\alpha=q$.</p><p>将第一个等式平方，并利用 $\\sin^{2}\\alpha+\\cos^{2}\\alpha=1$，得到</p>\n$$\np^{2}=\\left(\\sin\\alpha+\\cos\\alpha\\right)^{2}=1+2\\sin\\alpha\\cos\\alpha=1+2q\n$$\n<p>此外，$0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$ 给出</p><p>$1&#x3C;\\sin\\alpha+\\cos\\alpha\\leq\\sqrt{2}$，$0&#x3C;\\sin\\alpha\\cos\\alpha\\leq\\frac{1}{2}$.</p><p>因此必要条件为</p><p>$1+2q=p^{2}$，$-\\sqrt{2}\\leq p&#x3C;-1$，$0&#x3C;q\\leq\\frac{1}{2}$.</p><p>再证这些条件充分. 设 $s=-p$，则 $1&#x3C;s\\leq\\sqrt{2}$，且由关系式 $q=\\frac{s^{2}-1}{2}$. 原方程可写为</p>\n$$\nx^{2}-sx+q=0\n$$\n<p>它的判别式为</p>\n$$\n\\Delta=s^{2}-4q=s^{2}-2\\left(s^{2}-1\\right)=2-s^{2}\\geq0\n$$\n<p>设两根为 $u$、$v$，则 $u+v=s>0$、$uv=q>0$，所以 $u$、$v$ 均为正数；又</p>\n$$\nu^{2}+v^{2}=(u+v)^{2}-2uv=s^{2}-2q=1\n$$\n<p>故 $0&#x3C;u&#x3C;1$、$0&#x3C;v&#x3C;1$. 取锐角 $\\alpha$ 使 $\\sin\\alpha=u$，则 $\\cos\\alpha=\\sqrt{1-u^{2}}=v$，所以两根确为 $\\sin\\alpha$、$\\cos\\alpha$，即为直角三角形两个锐角的正弦.</p><p>所以所求条件是</p><p>$1+2q=p^{2}$，$-\\sqrt{2}\\leq p&#x3C;-1$，$0&#x3C;q\\leq\\frac{1}{2}$.</p>"
+          "solution": "<p>设直角三角形的一个锐角为 $\\alpha$，则 $0<\\alpha<\\frac{\\pi}{2}$，另一个锐角为 $\\frac{\\pi}{2}-\\alpha$. 若方程的两根为 $x_{1}$、$x_{2}$，则可取</p><p>$x_{1}=\\sin\\alpha$，$x_{2}=\\sin\\left(\\frac{\\pi}{2}-\\alpha\\right)=\\cos\\alpha$.</p><p>由韦达定理，</p><p>$\\sin\\alpha+\\cos\\alpha=-p$，$\\sin\\alpha\\cos\\alpha=q$.</p><p>将第一个等式平方，并利用 $\\sin^{2}\\alpha+\\cos^{2}\\alpha=1$，得到</p>\n$$\np^{2}=\\left(\\sin\\alpha+\\cos\\alpha\\right)^{2}=1+2\\sin\\alpha\\cos\\alpha=1+2q\n$$\n<p>此外，$0<\\alpha<\\frac{\\pi}{2}$ 给出</p><p>$1<\\sin\\alpha+\\cos\\alpha\\leq\\sqrt{2}$，$0<\\sin\\alpha\\cos\\alpha\\leq\\frac{1}{2}$.</p><p>因此必要条件为</p><p>$1+2q=p^{2}$，$-\\sqrt{2}\\leq p<-1$，$0<q\\leq\\frac{1}{2}$.</p><p>再证这些条件充分. 设 $s=-p$，则 $1<s\\leq\\sqrt{2}$，且由关系式 $q=\\frac{s^{2}-1}{2}$. 原方程可写为</p>\n$$\nx^{2}-sx+q=0\n$$\n<p>它的判别式为</p>\n$$\n\\Delta=s^{2}-4q=s^{2}-2\\left(s^{2}-1\\right)=2-s^{2}\\geq0\n$$\n<p>设两根为 $u$、$v$，则 $u+v=s>0$、$uv=q>0$，所以 $u$、$v$ 均为正数；又</p>\n$$\nu^{2}+v^{2}=(u+v)^{2}-2uv=s^{2}-2q=1\n$$\n<p>故 $0<u<1$、$0<v<1$. 取锐角 $\\alpha$ 使 $\\sin\\alpha=u$，则 $\\cos\\alpha=\\sqrt{1-u^{2}}=v$，所以两根确为 $\\sin\\alpha$、$\\cos\\alpha$，即为直角三角形两个锐角的正弦.</p><p>所以所求条件是</p><p>$1+2q=p^{2}$，$-\\sqrt{2}\\leq p<-1$，$0<q\\leq\\frac{1}{2}$.</p>"
         },
         {
           "num": 7,
@@ -75,7 +75,7 @@
           "body": "<p>在一块边长为 $a$ 的正方形上，切着两边截去了一个半径为 $r$ 的圆料（$r\\le\\frac{\\left( 2-\\sqrt{2} \\right)a}{4}$）.</p><ol class=\"enumerate\"><li><p>如果象图 1 那样截出一个正方形的料，它的面积为多大？</p></li><li><p>如果象图 2 那样截出的一个正方形的料，它的面积为多大？这二种截法截下的正方形的料的面积哪个较大？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><span class=\"macro macro-hfill\"></span><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi/q10_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>如图 1. 设圆 $\\odot O$ 与正方形 $ABCD$ 的边 $AB$、$BC$ 分别相切于 $E$、$F$. 则 $OEBF$ 是正方形，且圆心 $O$ 在对角线 $BD$ 上. 因此</p><p>$BD=\\sqrt{2}a$，$OB=\\sqrt{2}r$.</p><p>由于 $B'$ 是对角线 $BD$ 与圆的交点，且 $O$ 位于 $B$、$B'$ 之间，$OB'=r$，所以</p><p>$BB'=BO+OB'=\\sqrt{2}r+r$，$qquad B'D=BD-BB'=\\sqrt{2}a-(\\sqrt{2}+1)r$.</p><p>正方形 $A'B'C'D$ 的对角线为 $B'D$，故其面积为</p>\n$$\nS_{1}=\\frac{1}{2}(B'D)^{2}=\\frac{1}{2}\\left[\\sqrt{2}a-(\\sqrt{2}+1)r\\right]^{2}=\\left[a-\\left(1+\\frac{\\sqrt{2}}{2}\\right)r\\right]^{2}\n$$\n</li><li><p>如图 2. 设圆 $\\odot O$ 与 $AB$、$BC$ 分别相切于 $E$、$F$，并与正方形 $A'B'C'D'$ 的边 $A'B'$ 相切于 $G$. 由于 $A'B'=A'D'$，$A'B'\\perp A'D'$，且 $AB\\perp AD$，有 $\\angle AD'A'=\\angle BA'B'$. 两个相应直角三角形全等，从而</p>\n$$\nAA'=BB'=r+FB'\n$$\n<p>从同一点 $A'$ 向圆作的两条切线段相等，故 $A'G=A'E$. 于是</p>\n$$\nA'G=A'E=AB-AA'-EB=a-(r+FB')-r=a-2r-FB'\n$$\n<p>同理，从点 $B'$ 作圆的两条切线段相等，故 $B'G=B'F$. 因而</p>\n$$\nA'B'=A'G+B'G=a-2r-FB'+FB'=a-2r\n$$\n<p>所截正方形的面积为</p>\n$$\nS_{2}=(A'B')^{2}=(a-2r)^{2}\n$$\n<p>因为 $r>0$ 且 $1+\\frac{\\sqrt{2}}{2}&#x3C;2$，又由题设可知两边长均为正，所以</p>\n$$\na-\\left(1+\\frac{\\sqrt{2}}{2}\\right)r>a-2r>0\n$$\n<p>平方后得到 $S_{1}>S_{2}$. 因此第一种截法截下的正方形料面积较大.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>如图 1. 设圆 $\\odot O$ 与正方形 $ABCD$ 的边 $AB$、$BC$ 分别相切于 $E$、$F$. 则 $OEBF$ 是正方形，且圆心 $O$ 在对角线 $BD$ 上. 因此</p><p>$BD=\\sqrt{2}a$，$OB=\\sqrt{2}r$.</p><p>由于 $B'$ 是对角线 $BD$ 与圆的交点，且 $O$ 位于 $B$、$B'$ 之间，$OB'=r$，所以</p><p>$BB'=BO+OB'=\\sqrt{2}r+r$，$qquad B'D=BD-BB'=\\sqrt{2}a-(\\sqrt{2}+1)r$.</p><p>正方形 $A'B'C'D$ 的对角线为 $B'D$，故其面积为</p>\n$$\nS_{1}=\\frac{1}{2}(B'D)^{2}=\\frac{1}{2}\\left[\\sqrt{2}a-(\\sqrt{2}+1)r\\right]^{2}=\\left[a-\\left(1+\\frac{\\sqrt{2}}{2}\\right)r\\right]^{2}\n$$\n</li><li><p>如图 2. 设圆 $\\odot O$ 与 $AB$、$BC$ 分别相切于 $E$、$F$，并与正方形 $A'B'C'D'$ 的边 $A'B'$ 相切于 $G$. 由于 $A'B'=A'D'$，$A'B'\\perp A'D'$，且 $AB\\perp AD$，有 $\\angle AD'A'=\\angle BA'B'$. 两个相应直角三角形全等，从而</p>\n$$\nAA'=BB'=r+FB'\n$$\n<p>从同一点 $A'$ 向圆作的两条切线段相等，故 $A'G=A'E$. 于是</p>\n$$\nA'G=A'E=AB-AA'-EB=a-(r+FB')-r=a-2r-FB'\n$$\n<p>同理，从点 $B'$ 作圆的两条切线段相等，故 $B'G=B'F$. 因而</p>\n$$\nA'B'=A'G+B'G=a-2r-FB'+FB'=a-2r\n$$\n<p>所截正方形的面积为</p>\n$$\nS_{2}=(A'B')^{2}=(a-2r)^{2}\n$$\n<p>因为 $r>0$ 且 $1+\\frac{\\sqrt{2}}{2}<2$，又由题设可知两边长均为正，所以</p>\n$$\na-\\left(1+\\frac{\\sqrt{2}}{2}\\right)r>a-2r>0\n$$\n<p>平方后得到 $S_{1}>S_{2}$. 因此第一种截法截下的正方形料面积较大.</p></li></ol>"
         }
       ]
     },

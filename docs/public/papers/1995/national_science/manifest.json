@@ -29,7 +29,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_science/q2_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "B",
-          "solution": "函数的定义域为 $x\\ne-1$，且 $y\\ne0$. 当 $x>-1$ 时，$x+1>0$，从而 $y&#x3C;0$；当 $x&#x3C;-1$ 时，$x+1&#x3C;0$，从而 $y>0$. 因此图象的两支分别位于直线 $x=-1$ 的右下方和左上方，渐近线为 $x=-1$ 与 $y=0$，所以应选 B."
+          "solution": "函数的定义域为 $x\\ne-1$，且 $y\\ne0$. 当 $x>-1$ 时，$x+1>0$，从而 $y<0$；当 $x<-1$ 时，$x+1<0$，从而 $y>0$. 因此图象的两支分别位于直线 $x=-1$ 的右下方和左上方，渐近线为 $x=-1$ 与 $y=0$，所以应选 B."
         },
         {
           "num": 3,
@@ -59,13 +59,13 @@
           "num": 5,
           "body": "<p>如图，若图中的直线 $l_{1}$，$l_{2}$，$l_{3}$ 的斜率分别为 $k_{1}$，$k_{2}$，$k_{3}$，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$k_{1}&#x3C; k_{2}&#x3C; k_{3}$",
-            "$k_{3}&#x3C; k_{1}&#x3C; k_{2}$",
-            "$k_{3}&#x3C; k_{2}&#x3C; k_{1}$",
-            "$k_{1}&#x3C; k_{3}&#x3C; k_{2}$"
+            "$k_{1}< k_{2}< k_{3}$",
+            "$k_{3}< k_{1}< k_{2}$",
+            "$k_{3}< k_{2}< k_{1}$",
+            "$k_{1}< k_{3}< k_{2}$"
           ],
           "answer": "D",
-          "solution": "直线的斜率等于倾斜角的正切. 图中 $l_{1}$ 向右下方倾斜，所以 $k_{1}&#x3C;0$；$l_{3}$ 向右上方倾斜且较平缓，$l_{2}$ 向右上方倾斜且较陡，所以 $0&#x3C;k_{3}&#x3C;k_{2}$. 因此 $k_{1}&#x3C;k_{3}&#x3C;k_{2}$，故选 D."
+          "solution": "直线的斜率等于倾斜角的正切. 图中 $l_{1}$ 向右下方倾斜，所以 $k_{1}<0$；$l_{3}$ 向右上方倾斜且较平缓，$l_{2}$ 向右上方倾斜且较陡，所以 $0<k_{3}<k_{2}$. 因此 $k_{1}<k_{3}<k_{2}$，故选 D."
         },
         {
           "num": 6,
@@ -113,7 +113,7 @@
             "$-\\frac{2}{3}$"
           ],
           "answer": "A",
-          "solution": "<p>由</p>\n$$\n\\sin^{4}\\theta+\\cos^{4}\\theta  =\\left(\\sin^{2}\\theta+\\cos^{2}\\theta\\right)^{2}-2\\sin^{2}\\theta\\cos^{2}\\theta  =1-\\frac{1}{2}\\sin^{2} 2\\theta\n$$\n<p>得 $1-\\dfrac{1}{2}\\sin^{2} 2\\theta=\\dfrac{5}{9}$，即 $\\sin^{2} 2\\theta=\\dfrac{8}{9}$. 又因为 $\\theta$ 是第三象限角，$\\sin\\theta&#x3C;0$、$\\cos\\theta&#x3C;0$，所以 $\\sin2\\theta=2\\sin\\theta\\cos\\theta>0$. 因此 $\\sin2\\theta=\\dfrac{2\\sqrt{2}}{3}$，故选 A.</p>"
+          "solution": "<p>由</p>\n$$\n\\sin^{4}\\theta+\\cos^{4}\\theta  =\\left(\\sin^{2}\\theta+\\cos^{2}\\theta\\right)^{2}-2\\sin^{2}\\theta\\cos^{2}\\theta  =1-\\frac{1}{2}\\sin^{2} 2\\theta\n$$\n<p>得 $1-\\dfrac{1}{2}\\sin^{2} 2\\theta=\\dfrac{5}{9}$，即 $\\sin^{2} 2\\theta=\\dfrac{8}{9}$. 又因为 $\\theta$ 是第三象限角，$\\sin\\theta<0$、$\\cos\\theta<0$，所以 $\\sin2\\theta=2\\sin\\theta\\cos\\theta>0$. 因此 $\\sin2\\theta=\\dfrac{2\\sqrt{2}}{3}$，故选 A.</p>"
         },
         {
           "num": 10,
@@ -137,7 +137,7 @@
             "$[2, +\\infty)$"
           ],
           "answer": "B",
-          "solution": "要使函数在 $[0,1]$ 上有定义，必须有 $2-ax>0$ 对所有 $x\\in[0,1]$ 成立. 由于 $a>0$，只需 $2-a>0$，即 $0&#x3C;a&#x3C;2$. 当 $0&#x3C;a&#x3C;1$ 时，$2-ax$ 随 $x$ 减小，而底数 $a$ 小于 $1$ 的对数函数是减函数，复合后为增函数；当 $a>1$ 时，复合后为减函数. 又 $a=1$ 不是对数的合法底数，所以 $1&#x3C;a&#x3C;2$，故选 B."
+          "solution": "要使函数在 $[0,1]$ 上有定义，必须有 $2-ax>0$ 对所有 $x\\in[0,1]$ 成立. 由于 $a>0$，只需 $2-a>0$，即 $0<a<2$. 当 $0<a<1$ 时，$2-ax$ 随 $x$ 减小，而底数 $a$ 小于 $1$ 的对数函数是减函数，复合后为增函数；当 $a>1$ 时，复合后为减函数. 又 $a=1$ 不是对数的合法底数，所以 $1<a<2$，故选 B."
         },
         {
           "num": 12,
@@ -173,7 +173,7 @@
             "$\\rho = \\frac{c(1 - e^{2})}{e (1 - e\\cos\\theta)}$"
           ],
           "answer": "D",
-          "solution": "<p>设椭圆的半长轴为 $a$，焦半距为 $c$，则 $0&#x3C;e&#x3C;1$，且 $e=\\dfrac{c}{a}$. 设椭圆上一点的极坐标为 $(\\rho,\\theta)$，两焦点为 $O$ 和 $F(2c,0)$. 由椭圆的定义，</p>\n$$\n\\sqrt{(\\rho\\cos\\theta-2c)^{2}+(\\rho\\sin\\theta)^{2}}+\\rho=2a\n$$\n<p>移项后两边均非负，平方得</p>\n$$\n\\rho^{2}-4c\\rho\\cos\\theta+4c^{2}=4a^{2}-4a\\rho+\\rho^{2}\n$$\n<p>即</p>\n$$\n\\rho\\left(a-c\\cos\\theta\\right)=a^{2}-c^{2}\n$$\n<p>代入 $c=ae$，得到</p>\n$$\n\\rho=\\frac{a(1-e^{2})}{1-e\\cos\\theta}=\\frac{c(1-e^{2})}{e(1-e\\cos\\theta)}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>设椭圆的半长轴为 $a$，焦半距为 $c$，则 $0<e<1$，且 $e=\\dfrac{c}{a}$. 设椭圆上一点的极坐标为 $(\\rho,\\theta)$，两焦点为 $O$ 和 $F(2c,0)$. 由椭圆的定义，</p>\n$$\n\\sqrt{(\\rho\\cos\\theta-2c)^{2}+(\\rho\\sin\\theta)^{2}}+\\rho=2a\n$$\n<p>移项后两边均非负，平方得</p>\n$$\n\\rho^{2}-4c\\rho\\cos\\theta+4c^{2}=4a^{2}-4a\\rho+\\rho^{2}\n$$\n<p>即</p>\n$$\n\\rho\\left(a-c\\cos\\theta\\right)=a^{2}-c^{2}\n$$\n<p>代入 $c=ae$，得到</p>\n$$\n\\rho=\\frac{a(1-e^{2})}{1-e\\cos\\theta}=\\frac{c(1-e^{2})}{e(1-e\\cos\\theta)}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 15,
@@ -196,8 +196,8 @@
           "num": 16,
           "body": "不等式 $\\left(\\frac{1}{3}\\right)^{x^{2} - 8}> 3^{-2x}$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$\\{x\\mid -2 &#x3C; x &#x3C; 4\\}$",
-          "solution": "<p>将左边化为以 $3$ 为底的幂，得</p>\n$$\n\\left(\\frac{1}{3}\\right)^{x^2-8}=3^{8-x^2}\n$$\n<p>因为底数 $3>1$，原不等式等价于 $8-x^{2}>-2x$，即</p>\n$$\nx^{2}-2x-8&#x3C;0\\Longleftrightarrow (x-4)(x+2)&#x3C;0\n$$\n<p>所以解集为 $\\{x\\mid -2&#x3C;x&#x3C;4\\}$.</p>"
+          "answer": "$\\{x\\mid -2 < x < 4\\}$",
+          "solution": "<p>将左边化为以 $3$ 为底的幂，得</p>\n$$\n\\left(\\frac{1}{3}\\right)^{x^2-8}=3^{8-x^2}\n$$\n<p>因为底数 $3>1$，原不等式等价于 $8-x^{2}>-2x$，即</p>\n$$\nx^{2}-2x-8<0\\Longleftrightarrow (x-4)(x+2)<0\n$$\n<p>所以解集为 $\\{x\\mid -2<x<4\\}$.</p>"
         },
         {
           "num": 17,
@@ -258,14 +258,14 @@
           "body": "<p>某地为促进淡水鱼养殖业的发展，将价格控制在适当范围内，决定对淡水鱼养殖提供政府补贴. 设淡水鱼的市场价格为 $x$ 元/千克，政府补贴为 $t$ 元/千克. 根据市场调查，当 $8 \\le x \\le 14$ 时，淡水鱼的市场日供应量 $P$ 千克与市场日需求量 $Q$ 千克近似地满足关系：$P = 1000(x + t - 8)$（$x \\ge 8$，$t \\ge 0$），$Q = 500\\sqrt{40 - (x - 8)^{2}}$（$8 \\le x \\le 14$）.</p><p>当 $P = Q$ 时，市场价格称为市场平衡价格.</p><ol class=\"enumerate\"><li><p>将市场平衡价格表示为政府补贴的函数，并求出函数的定义域.</p></li><li><p>为使市场平衡价格不高于每千克 $10$ 元，政府补贴至少为每千克多少元.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>令 $u=x-8$，则 $0\\le u\\leqslant6$. 由 $P=Q$ 得</p>\n$$\n1000(u+t)=500\\sqrt{40-u^{2}}\n$$\n<p>即 $2(u+t)=\\sqrt{40-u^{2}}$. 由于左边非负，可以平方，得到</p>\n$$\n4(u+t)^{2}=40-u^{2}  \\Longleftrightarrow 5u^{2}+8tu+4t^{2}-40=0\n$$\n<p>解此关于 $u$ 的方程，得</p>\n$$\nu=-\\frac{4}{5}t\\pm\\frac{2}{5}\\sqrt{50-t^{2}}\n$$\n<p>负号分支不满足 $u\\geqslant0$，所以只能取正号. 又 $t\\geqslant0$，且 $u\\geqslant0$ 要求</p>\n$$\n\\sqrt{50-t^{2}}\\geqslant2t\\Longleftrightarrow 0\\le t\\le\\sqrt{10}\n$$\n<p>在此范围内 $u\\leqslant2\\sqrt{2}&#x3C;6$，所以 $u\\leqslant6$ 自动满足. 故市场平衡价格为</p><p>$x(t)=8-\\frac{4}{5}t+\\frac{2}{5}\\sqrt{50-t^{2}}$，$0\\le t\\le\\sqrt{10}$.</p></li><li><p>由上式，要求 $x(t)\\leqslant10$，即</p>\n$$\n8-\\frac{4}{5}t+\\frac{2}{5}\\sqrt{50-t^{2}}\\leqslant10  \\Longleftrightarrow \\sqrt{50-t^{2}}\\leqslant2t+5\n$$\n<p>两边均非负，可以平方，得</p>\n$$\n50-t^{2}\\le(2t+5)^{2}  \\Longleftrightarrow t^{2}+4t-5\\geqslant0  \\Longleftrightarrow (t-1)(t+5)\\geqslant0\n$$\n<p>结合定义域 $t\\geqslant0$，得 $t\\geqslant1$. 因此政府补贴至少为每千克 $1$ 元.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>令 $u=x-8$，则 $0\\le u\\leqslant6$. 由 $P=Q$ 得</p>\n$$\n1000(u+t)=500\\sqrt{40-u^{2}}\n$$\n<p>即 $2(u+t)=\\sqrt{40-u^{2}}$. 由于左边非负，可以平方，得到</p>\n$$\n4(u+t)^{2}=40-u^{2}  \\Longleftrightarrow 5u^{2}+8tu+4t^{2}-40=0\n$$\n<p>解此关于 $u$ 的方程，得</p>\n$$\nu=-\\frac{4}{5}t\\pm\\frac{2}{5}\\sqrt{50-t^{2}}\n$$\n<p>负号分支不满足 $u\\geqslant0$，所以只能取正号. 又 $t\\geqslant0$，且 $u\\geqslant0$ 要求</p>\n$$\n\\sqrt{50-t^{2}}\\geqslant2t\\Longleftrightarrow 0\\le t\\le\\sqrt{10}\n$$\n<p>在此范围内 $u\\leqslant2\\sqrt{2}<6$，所以 $u\\leqslant6$ 自动满足. 故市场平衡价格为</p><p>$x(t)=8-\\frac{4}{5}t+\\frac{2}{5}\\sqrt{50-t^{2}}$，$0\\le t\\le\\sqrt{10}$.</p></li><li><p>由上式，要求 $x(t)\\leqslant10$，即</p>\n$$\n8-\\frac{4}{5}t+\\frac{2}{5}\\sqrt{50-t^{2}}\\leqslant10  \\Longleftrightarrow \\sqrt{50-t^{2}}\\leqslant2t+5\n$$\n<p>两边均非负，可以平方，得</p>\n$$\n50-t^{2}\\le(2t+5)^{2}  \\Longleftrightarrow t^{2}+4t-5\\geqslant0  \\Longleftrightarrow (t-1)(t+5)\\geqslant0\n$$\n<p>结合定义域 $t\\geqslant0$，得 $t\\geqslant1$. 因此政府补贴至少为每千克 $1$ 元.</p></li></ol>"
         },
         {
           "num": 25,
-          "body": "<p>设 $\\{a_{n}\\}$ 是由正数组成的等比数列，$S_{n}$ 是其前 $n$ 项和.</p><ol class=\"enumerate\"><li><p>证明：$\\frac{\\lg S_{n} + \\lg S_{n + 2}}{2}&#x3C; \\lg S_{n + 1}$.</p></li><li><p>是否存在常数 $c > 0$，使得 $\\frac{\\lg (S_{n} - c) + \\lg (S_{n+2}- c)}{2}= \\lg (S_{n+1}- c)$ 成立？并证明你的结论.</p></li></ol>",
+          "body": "<p>设 $\\{a_{n}\\}$ 是由正数组成的等比数列，$S_{n}$ 是其前 $n$ 项和.</p><ol class=\"enumerate\"><li><p>证明：$\\frac{\\lg S_{n} + \\lg S_{n + 2}}{2}< \\lg S_{n + 1}$.</p></li><li><p>是否存在常数 $c > 0$，使得 $\\frac{\\lg (S_{n} - c) + \\lg (S_{n+2}- c)}{2}= \\lg (S_{n+1}- c)$ 成立？并证明你的结论.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设等比数列的首项为 $a_{1}>0$，公比为 $q>0$. 当 $q=1$ 时，$S_{n}=na_{1}$，于是</p>\n$$\nS_{n}S_{n+2}-S_{n+1}^{2}  =na_{1}\\cdot(n+2)a_{1}-(n+1)^{2}a_{1}^{2}  =-a_{1}^{2}&#x3C;0\n$$\n<p>当 $q\\ne1$ 时，$S_{n}=a_{1}\\dfrac{1-q^n}{1-q}$，因此</p>\n$$\nS_{n}S_{n+2}-S_{n+1}^{2}  =\\frac{a_{1}^{2}}{(1-q)^{2}}\\left[(1-q^{n})(1-q^{n+2})-(1-q^{n+1})^{2}\\right]  =-a_{1}^{2}q^{n}&#x3C;0\n$$\n<p>所以 $S_{n}S_{n+2}&#x3C;S_{n+1}^{2}$. 由于各项和均为正数，且 $\\lg$ 是增函数，</p>\n$$\n\\frac{\\lg S_{n}+\\lg S_{n+2}}{2}  =\\lg\\sqrt{S_{n}S_{n+2}}&#x3C;\\lg S_{n+1}\n$$\n</li><li><p>若等式成立，则其两边的对数都有意义，且等价于</p>\n$$\n(S_{n}-c)(S_{n+2}-c)=(S_{n+1}-c)^{2}\n$$\n<p>利用 $S_{n}S_{n+2}-S_{n+1}^{2}=-a_{1}^{2}q^{n}$ 以及 $S_{n}+S_{n+2}-2S_{n+1}=a_{n+2}-a_{n+1}=a_{1}q^{n}(q-1)$，左边减去右边为</p>\n$$\n(S_{n}-c)(S_{n+2}-c)-(S_{n+1}-c)^{2}  =-a_{1}q^{n}\\left[a_{1}-c(1-q)\\right]\n$$\n<p>若 $q\\geqslant1$，上式严格为负，不可能等于零. 若 $0&#x3C;q&#x3C;1$，要使其为零必须 $c=\\dfrac{a_1}{1-q}$，但此时</p>\n$$\nS_{n}=\\frac{a_{1}(1-q^{n})}{1-q}&#x3C;\\frac{a_{1}}{1-q}=c\n$$\n<p>所以 $S_{n}-c&#x3C;0$，对数无意义. 两种情况均不可能，故不存在满足条件的常数 $c>0$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设等比数列的首项为 $a_{1}>0$，公比为 $q>0$. 当 $q=1$ 时，$S_{n}=na_{1}$，于是</p>\n$$\nS_{n}S_{n+2}-S_{n+1}^{2}  =na_{1}\\cdot(n+2)a_{1}-(n+1)^{2}a_{1}^{2}  =-a_{1}^{2}<0\n$$\n<p>当 $q\\ne1$ 时，$S_{n}=a_{1}\\dfrac{1-q^n}{1-q}$，因此</p>\n$$\nS_{n}S_{n+2}-S_{n+1}^{2}  =\\frac{a_{1}^{2}}{(1-q)^{2}}\\left[(1-q^{n})(1-q^{n+2})-(1-q^{n+1})^{2}\\right]  =-a_{1}^{2}q^{n}<0\n$$\n<p>所以 $S_{n}S_{n+2}<S_{n+1}^{2}$. 由于各项和均为正数，且 $\\lg$ 是增函数，</p>\n$$\n\\frac{\\lg S_{n}+\\lg S_{n+2}}{2}  =\\lg\\sqrt{S_{n}S_{n+2}}<\\lg S_{n+1}\n$$\n</li><li><p>若等式成立，则其两边的对数都有意义，且等价于</p>\n$$\n(S_{n}-c)(S_{n+2}-c)=(S_{n+1}-c)^{2}\n$$\n<p>利用 $S_{n}S_{n+2}-S_{n+1}^{2}=-a_{1}^{2}q^{n}$ 以及 $S_{n}+S_{n+2}-2S_{n+1}=a_{n+2}-a_{n+1}=a_{1}q^{n}(q-1)$，左边减去右边为</p>\n$$\n(S_{n}-c)(S_{n+2}-c)-(S_{n+1}-c)^{2}  =-a_{1}q^{n}\\left[a_{1}-c(1-q)\\right]\n$$\n<p>若 $q\\geqslant1$，上式严格为负，不可能等于零. 若 $0<q<1$，要使其为零必须 $c=\\dfrac{a_1}{1-q}$，但此时</p>\n$$\nS_{n}=\\frac{a_{1}(1-q^{n})}{1-q}<\\frac{a_{1}}{1-q}=c\n$$\n<p>所以 $S_{n}-c<0$，对数无意义. 两种情况均不可能，故不存在满足条件的常数 $c>0$.</p></li></ol>"
         },
         {
           "num": 26,

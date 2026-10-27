@@ -125,7 +125,7 @@
             "$\\frac{\\sqrt{3}}{2}$"
           ],
           "answer": "B",
-          "solution": "<p>记 $u=\\alpha-\\dfrac\\beta2$，$v=\\dfrac\\alpha2-\\beta$. 由 $0&#x3C;\\alpha$，$\\beta&#x3C;\\dfrac\\pi2$，知 $-\\dfrac\\pi4&#x3C;u&#x3C;\\dfrac\\pi2$，$-\\dfrac\\pi2&#x3C;v&#x3C;\\dfrac\\pi4$. 因而由</p><p>$\\cos u=\\dfrac{\\sqrt{3}}{2}$ 得 $u=\\dfrac\\pi6$ 或 $u=-\\dfrac\\pi6$，由 $\\sin v=-\\dfrac{1}{2}$ 得 $v=-\\dfrac\\pi6$.</p><p>若 $u=\\dfrac\\pi6$，则由 $\\alpha-\\dfrac\\beta2=\\dfrac\\pi6$ 与 $\\dfrac\\alpha2-\\beta=-\\dfrac\\pi6$ 解得 $\\alpha=\\beta=\\dfrac\\pi3$. 若 $u=-\\dfrac\\pi6$，联立两式解得 $\\alpha=-\\dfrac\\pi9$，不满足 $\\alpha>0$，舍去. 因此 $\\cos(\\alpha+\\beta)=\\cos\\dfrac{2\\pi}{3}=-\\dfrac{1}{2}$，选 B.</p>"
+          "solution": "<p>记 $u=\\alpha-\\dfrac\\beta2$，$v=\\dfrac\\alpha2-\\beta$. 由 $0<\\alpha$，$\\beta<\\dfrac\\pi2$，知 $-\\dfrac\\pi4<u<\\dfrac\\pi2$，$-\\dfrac\\pi2<v<\\dfrac\\pi4$. 因而由</p><p>$\\cos u=\\dfrac{\\sqrt{3}}{2}$ 得 $u=\\dfrac\\pi6$ 或 $u=-\\dfrac\\pi6$，由 $\\sin v=-\\dfrac{1}{2}$ 得 $v=-\\dfrac\\pi6$.</p><p>若 $u=\\dfrac\\pi6$，则由 $\\alpha-\\dfrac\\beta2=\\dfrac\\pi6$ 与 $\\dfrac\\alpha2-\\beta=-\\dfrac\\pi6$ 解得 $\\alpha=\\beta=\\dfrac\\pi3$. 若 $u=-\\dfrac\\pi6$，联立两式解得 $\\alpha=-\\dfrac\\pi9$，不满足 $\\alpha>0$，舍去. 因此 $\\cos(\\alpha+\\beta)=\\cos\\dfrac{2\\pi}{3}=-\\dfrac{1}{2}$，选 B.</p>"
         },
         {
           "num": 11,
@@ -158,10 +158,10 @@
       "problems": [
         {
           "num": 13,
-          "body": "已知 $\\sin \\alpha = \\frac{2\\sqrt{5}}{5}$，$\\frac{\\pi}{2}&#x3C; \\alpha &#x3C; \\pi$，则 $\\tan \\alpha =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知 $\\sin \\alpha = \\frac{2\\sqrt{5}}{5}$，$\\frac{\\pi}{2}< \\alpha < \\pi$，则 $\\tan \\alpha =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-2$",
-          "solution": "<p>由 $\\dfrac\\pi2&#x3C;\\alpha&#x3C;\\pi$，知 $\\cos\\alpha&#x3C;0$. 由同角三角函数基本关系，</p><p>$\\cos\\alpha=-\\sqrt{1-\\sin^{2}\\alpha}=-\\sqrt{1-\\dfrac{4}{5}}=-\\dfrac{\\sqrt{5}}{5}$. 因而</p><p>$\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}=\\dfrac{2\\frac{\\sqrt{5}}{5}}{-\\frac{\\sqrt{5}}{5}}=-2$.</p>"
+          "solution": "<p>由 $\\dfrac\\pi2<\\alpha<\\pi$，知 $\\cos\\alpha<0$. 由同角三角函数基本关系，</p><p>$\\cos\\alpha=-\\sqrt{1-\\sin^{2}\\alpha}=-\\sqrt{1-\\dfrac{4}{5}}=-\\dfrac{\\sqrt{5}}{5}$. 因而</p><p>$\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}=\\dfrac{2\\frac{\\sqrt{5}}{5}}{-\\frac{\\sqrt{5}}{5}}=-2$.</p>"
         },
         {
           "num": 14,
@@ -175,7 +175,7 @@
           "body": "设 $a > 0$，$a \\neq 1$，函数 $f(x) = \\log_{a}(x^{2} - 2x + 3)$ 有最小值，则不等式 $\\log_{a}(x - 1) > 0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(2,+\\infty)$",
-          "solution": "<p>函数的真数为 $x^{2}-2x+3=(x-1)^{2}+2$，其最小值为 $2$. 若 $0&#x3C;a&#x3C;1$，则对数函数在正数上单调递减，且当 $|x|\\to+\\infty$ 时 $\\log_{a}((x-1)^{2}+2)\\to-\\infty$，函数不可能有最小值. 因此题设的“有最小值”说明 $a>1$.</p><p>此时 $\\log_{a}(x-1)>0$ 要求真数 $x-1>0$，并且等价于 $x-1>1$，所以解集为 $(2,+\\infty)$.</p>"
+          "solution": "<p>函数的真数为 $x^{2}-2x+3=(x-1)^{2}+2$，其最小值为 $2$. 若 $0<a<1$，则对数函数在正数上单调递减，且当 $|x|\\to+\\infty$ 时 $\\log_{a}((x-1)^{2}+2)\\to-\\infty$，函数不可能有最小值. 因此题设的“有最小值”说明 $a>1$.</p><p>此时 $\\log_{a}(x-1)>0$ 要求真数 $x-1>0$，并且等价于 $x-1>1$，所以解集为 $(2,+\\infty)$.</p>"
         },
         {
           "num": 16,
@@ -208,7 +208,7 @@
           "body": "<p>设函数 $f(x) = x^{3} - 3ax^{2} + 3bx$ 的图象与直线 $12x + y - 1 = 0$ 相切于点 $(1,-11)$.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$ 的值；</p></li><li><p>讨论函数 $f(x)$ 的单调性.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为切点 $\\left(1,-11\\right)$ 在函数图象上，所以 $f(1)=-11$，即 $1-3a+3b=-11$. 又因为直线 $12x+y-1=0$ 的斜率为 $-12$，且该直线与函数图象在 $\\left(1,-11\\right)$ 处相切，所以 $f'(1)=-12$. 由 $f'(x)=3x^{2}-6ax+3b$，得</p>\n$$\n\\begin{cases}1-3a+3b=-11,\\\\  3-6a+3b=-12.\\end{cases}\n$$\n<p>两式分别化简为 $b-a=-4$ 和 $b-2a=-5$，解得 $a=1$，$b=-3$.</p></li><li><p>此时 $f'(x)=3x^{2}-6x-9=3(x+1)(x-3)$. 因而当 $x\\in(-\\infty,-1)$ 或 $x\\in(3,+\\infty)$ 时，$f'(x)>0$，函数 $f(x)$ 单调递增；当 $x\\in(-1,3)$ 时，$f'(x)&#x3C;0$，函数 $f(x)$ 单调递减.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为切点 $\\left(1,-11\\right)$ 在函数图象上，所以 $f(1)=-11$，即 $1-3a+3b=-11$. 又因为直线 $12x+y-1=0$ 的斜率为 $-12$，且该直线与函数图象在 $\\left(1,-11\\right)$ 处相切，所以 $f'(1)=-12$. 由 $f'(x)=3x^{2}-6ax+3b$，得</p>\n$$\n\\begin{cases}1-3a+3b=-11,\\\\  3-6a+3b=-12.\\end{cases}\n$$\n<p>两式分别化简为 $b-a=-4$ 和 $b-2a=-5$，解得 $a=1$，$b=-3$.</p></li><li><p>此时 $f'(x)=3x^{2}-6x-9=3(x+1)(x-3)$. 因而当 $x\\in(-\\infty,-1)$ 或 $x\\in(3,+\\infty)$ 时，$f'(x)>0$，函数 $f(x)$ 单调递增；当 $x\\in(-1,3)$ 时，$f'(x)<0$，函数 $f(x)$ 单调递减.</p></li></ol>"
         },
         {
           "num": 20,
@@ -219,10 +219,10 @@
         },
         {
           "num": 21,
-          "body": "<p>已知定义域为 $\\mathbb{R}$ 的函数 $f(x) = \\frac{-2^{x} + b}{2^{x + 1}+ a}$ 是奇函数.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$ 的值；</p></li><li><p>若对任意的 $t \\in \\mathbb{R}$，不等式 $f(t^{2} - 2t) + f(2t^{2} - k) &#x3C; 0$ 恒成立，求 $k$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知定义域为 $\\mathbb{R}$ 的函数 $f(x) = \\frac{-2^{x} + b}{2^{x + 1}+ a}$ 是奇函数.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$ 的值；</p></li><li><p>若对任意的 $t \\in \\mathbb{R}$，不等式 $f(t^{2} - 2t) + f(2t^{2} - k) < 0$ 恒成立，求 $k$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>令 $u=2^{x}$，则 $u>0$，且 $f(x)=\\frac{b-u}{2u+a}$. 由 $f(x)$ 的定义域为 $\\mathbb{R}$，知 $2u+a$ 对一切 $u>0$ 均不为零. 又因为 $f(x)$ 是奇函数，所以</p>\n$$\n\\frac{bu-1}{2+au}=f(-x)=-f(x)=\\frac{u-b}{2u+a}\n$$\n<p>于是对一切 $u>0$，有 $\\left(bu-1\\right)\\left(2u+a\\right)=\\left(u-b\\right)\\left(2+au\\right)$，即 $2bu^{2}+(ab-2)u-a=au^{2}+(2-ab)u-2b$. 比较两边关于 $u$ 的系数，得到 $a=2b$ 且 $ab=2$，所以 $b=\\pm1$，$a=\\pm2$，且 $a$，$b$ 同号. 当 $a=-2$ 时，$x=0$ 使分母 $2^{x+1}+a=0$，与定义域为 $\\mathbb{R}$ 矛盾，故 $a=2$，$b=1$.</p></li><li><p>代入 $a=2$，$b=1$，得 $f(x)=\\frac{1-2^{x}}{2(1+2^{x})}$. 令 $u=2^{t^2-2t}$，$v=2^{2t^2-k}$，则 $u>0$，$v>0$，并且</p>\n$$\nf(t^{2}-2t)+f(2t^{2}-k)=\\frac{1-uv}{(1+u)(1+v)}\n$$\n<p>分母恒为正，因此原不等式等价于 $uv>1$，即 $2^{3t^2-2t-k}>1$，也即 $3t^{2}-2t-k>0$ 对任意 $t\\in\\mathbb{R}$ 恒成立. 配方得 $3t^{2}-2t-k=3\\left(t-\\frac{1}{3}\\right)^{2}-\\frac{1}{3}-k$，其最小值为 $-\\frac{1}{3}-k$. 由于题设要求严格大于零，必须且只需 $-\\frac{1}{3}-k>0$，故 $k&#x3C;-\\frac{1}{3}$. 当 $k=-\\frac{1}{3}$ 时在 $t=\\frac{1}{3}$ 处等号成立，不能取；当 $k>-\\frac{1}{3}$ 时在 $t=\\frac{1}{3}$ 处不等式更不成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>令 $u=2^{x}$，则 $u>0$，且 $f(x)=\\frac{b-u}{2u+a}$. 由 $f(x)$ 的定义域为 $\\mathbb{R}$，知 $2u+a$ 对一切 $u>0$ 均不为零. 又因为 $f(x)$ 是奇函数，所以</p>\n$$\n\\frac{bu-1}{2+au}=f(-x)=-f(x)=\\frac{u-b}{2u+a}\n$$\n<p>于是对一切 $u>0$，有 $\\left(bu-1\\right)\\left(2u+a\\right)=\\left(u-b\\right)\\left(2+au\\right)$，即 $2bu^{2}+(ab-2)u-a=au^{2}+(2-ab)u-2b$. 比较两边关于 $u$ 的系数，得到 $a=2b$ 且 $ab=2$，所以 $b=\\pm1$，$a=\\pm2$，且 $a$，$b$ 同号. 当 $a=-2$ 时，$x=0$ 使分母 $2^{x+1}+a=0$，与定义域为 $\\mathbb{R}$ 矛盾，故 $a=2$，$b=1$.</p></li><li><p>代入 $a=2$，$b=1$，得 $f(x)=\\frac{1-2^{x}}{2(1+2^{x})}$. 令 $u=2^{t^2-2t}$，$v=2^{2t^2-k}$，则 $u>0$，$v>0$，并且</p>\n$$\nf(t^{2}-2t)+f(2t^{2}-k)=\\frac{1-uv}{(1+u)(1+v)}\n$$\n<p>分母恒为正，因此原不等式等价于 $uv>1$，即 $2^{3t^2-2t-k}>1$，也即 $3t^{2}-2t-k>0$ 对任意 $t\\in\\mathbb{R}$ 恒成立. 配方得 $3t^{2}-2t-k=3\\left(t-\\frac{1}{3}\\right)^{2}-\\frac{1}{3}-k$，其最小值为 $-\\frac{1}{3}-k$. 由于题设要求严格大于零，必须且只需 $-\\frac{1}{3}-k>0$，故 $k<-\\frac{1}{3}$. 当 $k=-\\frac{1}{3}$ 时在 $t=\\frac{1}{3}$ 处等号成立，不能取；当 $k>-\\frac{1}{3}$ 时在 $t=\\frac{1}{3}$ 处不等式更不成立.</p></li></ol>"
         },
         {
           "num": 22,

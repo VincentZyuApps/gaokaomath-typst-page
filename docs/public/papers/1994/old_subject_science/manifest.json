@@ -29,7 +29,7 @@
             "$(0, 1)$"
           ],
           "answer": "D",
-          "solution": "方程表示椭圆，必须有 $k > 0$，此时方程化为 $\\frac{x^{2}}{2}+ \\frac{y^{2}}{\\frac{2}{k}}= 1$. 焦点在 $y$ 轴上，说明 $y$ 方向的半轴更长，即 $\\frac{2}{k}> 2$，解得 $0 &#x3C; k &#x3C; 1$，故选 D."
+          "solution": "方程表示椭圆，必须有 $k > 0$，此时方程化为 $\\frac{x^{2}}{2}+ \\frac{y^{2}}{\\frac{2}{k}}= 1$. 焦点在 $y$ 轴上，说明 $y$ 方向的半轴更长，即 $\\frac{2}{k}> 2$，解得 $0 < k < 1$，故选 D."
         },
         {
           "num": 3,
@@ -48,12 +48,12 @@
           "body": "设 $\\theta$ 是第二象限的角，则必有（ ）",
           "choices": [
             "$\\tan \\frac{\\theta}{2}> \\cot \\frac{\\theta}{2}$",
-            "$\\tan \\frac{\\theta}{2}&#x3C; \\cot \\frac{\\theta}{2}$",
+            "$\\tan \\frac{\\theta}{2}< \\cot \\frac{\\theta}{2}$",
             "$\\sin \\frac{\\theta}{2}> \\cos \\frac{\\theta}{2}$",
-            "$\\sin \\frac{\\theta}{2}&#x3C; \\cos \\frac{\\theta}{2}$"
+            "$\\sin \\frac{\\theta}{2}< \\cos \\frac{\\theta}{2}$"
           ],
           "answer": "A",
-          "solution": "<p>因为 $\\theta$ 是第二象限的角，所以存在 $k \\in \\mathbb{Z}$，使 $\\frac{\\pi}{2}+ 2k\\pi &#x3C; \\theta &#x3C; \\pi + 2k\\pi$. 令 $\\varphi = \\frac{\\theta}{2}$，则 $\\frac{\\pi}{4}+ k\\pi &#x3C; \\varphi &#x3C; \\frac{\\pi}{2}+ k\\pi$. 由正切函数以 $\\pi$ 为周期，得 $\\tan \\varphi > 1$，从而 $\\cot \\varphi = \\frac{1}{\\tan \\varphi}&#x3C; 1$，所以 $\\tan \\frac{\\theta}{2}> \\cot \\frac{\\theta}{2}$ 恒成立.</p><p>另一方面，$\\sin \\varphi - \\cos \\varphi = \\sqrt{2}\\sin \\left(\\varphi - \\frac{\\pi}{4}\\right)$，而 $\\varphi - \\frac{\\pi}{4}\\in \\left(k\\pi, k\\pi + \\frac{\\pi}{4}\\right)$ 的正负随 $k$ 的奇偶而变，故 C、D 均不恒成立，故选 A.</p>"
+          "solution": "<p>因为 $\\theta$ 是第二象限的角，所以存在 $k \\in \\mathbb{Z}$，使 $\\frac{\\pi}{2}+ 2k\\pi < \\theta < \\pi + 2k\\pi$. 令 $\\varphi = \\frac{\\theta}{2}$，则 $\\frac{\\pi}{4}+ k\\pi < \\varphi < \\frac{\\pi}{2}+ k\\pi$. 由正切函数以 $\\pi$ 为周期，得 $\\tan \\varphi > 1$，从而 $\\cot \\varphi = \\frac{1}{\\tan \\varphi}< 1$，所以 $\\tan \\frac{\\theta}{2}> \\cot \\frac{\\theta}{2}$ 恒成立.</p><p>另一方面，$\\sin \\varphi - \\cos \\varphi = \\sqrt{2}\\sin \\left(\\varphi - \\frac{\\pi}{4}\\right)$，而 $\\varphi - \\frac{\\pi}{4}\\in \\left(k\\pi, k\\pi + \\frac{\\pi}{4}\\right)$ 的正负随 $k$ 的奇偶而变，故 C、D 均不恒成立，故选 A.</p>"
         },
         {
           "num": 5,
@@ -165,7 +165,7 @@
         },
         {
           "num": 14,
-          "body": "函数 $y = \\arccos \\left(\\sin x\\right)$（$-\\frac{\\pi}{3}&#x3C; x &#x3C; \\frac{2\\pi}{3}$）的值域是（ ）",
+          "body": "函数 $y = \\arccos \\left(\\sin x\\right)$（$-\\frac{\\pi}{3}< x < \\frac{2\\pi}{3}$）的值域是（ ）",
           "choices": [
             "$\\left(\\frac{\\pi}{6}, \\frac{5\\pi}{6}\\right)$",
             "$\\left[0, \\frac{5\\pi}{6}\\right)$",
@@ -173,7 +173,7 @@
             "$\\left[\\frac{\\pi}{6}, \\frac{2\\pi}{3}\\right)$"
           ],
           "answer": "B",
-          "solution": "当 $-\\frac{\\pi}{3}&#x3C; x &#x3C; \\frac{2\\pi}{3}$ 时，$\\sin x$ 的取值范围是 $\\left(-\\frac{\\sqrt{3}}{2}, 1\\right]$：最大值 $1$ 在 $x = \\frac{\\pi}{2}$ 处取到，左端点处 $\\sin \\left(-\\frac{\\pi}{3}\\right) = -\\frac{\\sqrt{3}}{2}$ 取不到. 因为 $\\arccos t$ 在 $[-1, 1]$ 上严格递减，所以 $y$ 的最小值是 $\\arccos 1 = 0$（可取到），且 $y &#x3C; \\arccos \\left(-\\frac{\\sqrt{3}}{2}\\right) = \\frac{5\\pi}{6}$（取不到）. 故值域为 $\\left[0, \\frac{5\\pi}{6}\\right)$，故选 B."
+          "solution": "当 $-\\frac{\\pi}{3}< x < \\frac{2\\pi}{3}$ 时，$\\sin x$ 的取值范围是 $\\left(-\\frac{\\sqrt{3}}{2}, 1\\right]$：最大值 $1$ 在 $x = \\frac{\\pi}{2}$ 处取到，左端点处 $\\sin \\left(-\\frac{\\pi}{3}\\right) = -\\frac{\\sqrt{3}}{2}$ 取不到. 因为 $\\arccos t$ 在 $[-1, 1]$ 上严格递减，所以 $y$ 的最小值是 $\\arccos 1 = 0$（可取到），且 $y < \\arccos \\left(-\\frac{\\sqrt{3}}{2}\\right) = \\frac{5\\pi}{6}$（取不到）. 故值域为 $\\left[0, \\frac{5\\pi}{6}\\right)$，故选 B."
         },
         {
           "num": 15,
@@ -208,10 +208,10 @@
         },
         {
           "num": 18,
-          "body": "若 $\\frac{5}{4}\\pi &#x3C; \\theta &#x3C; \\frac{3}{2}\\pi$，$\\sin 2\\theta = a$，则 $\\cos \\theta - \\sin \\theta$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "若 $\\frac{5}{4}\\pi < \\theta < \\frac{3}{2}\\pi$，$\\sin 2\\theta = a$，则 $\\cos \\theta - \\sin \\theta$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\sqrt{1 - a}$",
-          "solution": "由 $\\left(\\cos \\theta - \\sin \\theta\\right)^{2} = 1 - \\sin 2\\theta = 1 - a$，得 $\\cos \\theta - \\sin \\theta = \\pm\\sqrt{1 - a}$. 当 $\\frac{5}{4}\\pi &#x3C; \\theta &#x3C; \\frac{3}{2}\\pi$ 时，例如取 $\\theta = \\frac{4\\pi}{3}$，有 $\\cos \\theta - \\sin \\theta = -\\frac{1}{2}+ \\frac{\\sqrt{3}}{2}> 0$. 一般地，此时 $\\theta - \\frac{\\pi}{4}\\in (\\pi, \\frac{5\\pi}{4})$，而 $\\cos \\theta - \\sin \\theta = \\sqrt{2}\\cos \\left(\\theta + \\frac{\\pi}{4}\\right)$，$\\theta + \\frac{\\pi}{4}\\in \\left(\\frac{3\\pi}{2}, \\frac{7\\pi}{4}\\right)$ 的余弦为正. 故取正号，即 $\\cos \\theta - \\sin \\theta = \\sqrt{1 - a}$."
+          "solution": "由 $\\left(\\cos \\theta - \\sin \\theta\\right)^{2} = 1 - \\sin 2\\theta = 1 - a$，得 $\\cos \\theta - \\sin \\theta = \\pm\\sqrt{1 - a}$. 当 $\\frac{5}{4}\\pi < \\theta < \\frac{3}{2}\\pi$ 时，例如取 $\\theta = \\frac{4\\pi}{3}$，有 $\\cos \\theta - \\sin \\theta = -\\frac{1}{2}+ \\frac{\\sqrt{3}}{2}> 0$. 一般地，此时 $\\theta - \\frac{\\pi}{4}\\in (\\pi, \\frac{5\\pi}{4})$，而 $\\cos \\theta - \\sin \\theta = \\sqrt{2}\\cos \\left(\\theta + \\frac{\\pi}{4}\\right)$，$\\theta + \\frac{\\pi}{4}\\in \\left(\\frac{3\\pi}{2}, \\frac{7\\pi}{4}\\right)$ 的余弦为正. 故取正号，即 $\\cos \\theta - \\sin \\theta = \\sqrt{1 - a}$."
         },
         {
           "num": 19,
@@ -244,7 +244,7 @@
           "body": "已知函数 $f(x) = \\tan x$，$x \\in \\left(0, \\frac{\\pi}{2}\\right)$. 若 $x_{1}$，$x_{2} \\in \\left(0, \\frac{\\pi}{2}\\right)$，且 $x_{1} \\neq x_{2}$，证明 $\\frac{1}{2}\\left[f(x_{1}) + f(x_{2})\\right] > f\\left(\\frac{x_{1} + x_{2}}{2}\\right)$.",
           "choices": null,
           "answer": "",
-          "solution": "由正切的和角公式，$\\tan x_{1} + \\tan x_{2} = \\frac{\\sin x_{1}}{\\cos x_{1}}+ \\frac{\\sin x_{2}}{\\cos x_{2}}= \\frac{\\sin \\left(x_{1} + x_{2}\\right)}{\\cos x_{1} \\cos x_{2}}$. 记 $S = x_{1} + x_{2}$，$D = x_{1} - x_{2}$，则 $S \\in (0, \\pi)$，$D \\neq 0$. 由积化和差，$\\cos x_{1} \\cos x_{2} = \\frac{1}{2}\\left[\\cos S + \\cos D\\right]$，所以 $\\frac{1}{2}\\left(\\tan x_{1} + \\tan x_{2}\\right) = \\frac{\\sin S}{\\cos S + \\cos D}$. 另一方面，$\\tan \\frac{S}{2}= \\frac{\\sin S}{1 + \\cos S}$. 两式相减得 $\\frac{1}{2}\\left(\\tan x_{1} + \\tan x_{2}\\right) - \\tan \\frac{S}{2}= \\frac{\\sin S\\left(1 - \\cos D\\right)}{\\left(\\cos S + \\cos D\\right)\\left(1 + \\cos S\\right)}$. 其中 $\\sin S > 0$（$0 &#x3C; S &#x3C; \\pi$），$1 - \\cos D > 0$（$D \\neq 0$），$\\cos S + \\cos D = 2\\cos x_{1} \\cos x_{2} > 0$，$1 + \\cos S > 0$. 故上式为正，即 $\\frac{1}{2}\\left[f(x_{1}) + f(x_{2})\\right] > f\\left(\\frac{x_{1} + x_{2}}{2}\\right)$."
+          "solution": "由正切的和角公式，$\\tan x_{1} + \\tan x_{2} = \\frac{\\sin x_{1}}{\\cos x_{1}}+ \\frac{\\sin x_{2}}{\\cos x_{2}}= \\frac{\\sin \\left(x_{1} + x_{2}\\right)}{\\cos x_{1} \\cos x_{2}}$. 记 $S = x_{1} + x_{2}$，$D = x_{1} - x_{2}$，则 $S \\in (0, \\pi)$，$D \\neq 0$. 由积化和差，$\\cos x_{1} \\cos x_{2} = \\frac{1}{2}\\left[\\cos S + \\cos D\\right]$，所以 $\\frac{1}{2}\\left(\\tan x_{1} + \\tan x_{2}\\right) = \\frac{\\sin S}{\\cos S + \\cos D}$. 另一方面，$\\tan \\frac{S}{2}= \\frac{\\sin S}{1 + \\cos S}$. 两式相减得 $\\frac{1}{2}\\left(\\tan x_{1} + \\tan x_{2}\\right) - \\tan \\frac{S}{2}= \\frac{\\sin S\\left(1 - \\cos D\\right)}{\\left(\\cos S + \\cos D\\right)\\left(1 + \\cos S\\right)}$. 其中 $\\sin S > 0$（$0 < S < \\pi$），$1 - \\cos D > 0$（$D \\neq 0$），$\\cos S + \\cos D = 2\\cos x_{1} \\cos x_{2} > 0$，$1 + \\cos S > 0$. 故上式为正，即 $\\frac{1}{2}\\left[f(x_{1}) + f(x_{2})\\right] > f\\left(\\frac{x_{1} + x_{2}}{2}\\right)$."
         },
         {
           "num": 23,

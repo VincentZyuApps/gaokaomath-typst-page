@@ -19,14 +19,14 @@
           "body": "求直线 $\\sqrt{3}x+y-2=0$ 的斜率，倾斜角及在 $x$ 轴，$y$ 轴上的截距.",
           "choices": null,
           "answer": "",
-          "solution": "<p>将直线方程化为斜截式，得 $y=-\\sqrt{3}x+2$，所以直线的斜率为 $k=-\\sqrt{3}$. 设直线的倾斜角为 $\\alpha$，其中 $0\\le\\alpha&#x3C;\\pi$，则 $\\tan\\alpha=k=-\\sqrt{3}$，故 $\\alpha=\\frac{2\\pi}{3}=120^{\\circ}$.</p><p>令 $y=0$，得 $\\sqrt{3}x-2=0$，所以直线与 $x$ 轴的交点为 $\\left(\\frac{2}{\\sqrt{3}},0\\right)=\\left(\\frac{2\\sqrt{3}}{3},0\\right)$，在 $x$ 轴上的截距为 $\\frac{2\\sqrt{3}}{3}$. 令 $x=0$，得 $y=2$，所以直线与 $y$ 轴的交点为 $\\left(0,2\\right)$，在 $y$ 轴上的截距为 $2$.</p>"
+          "solution": "<p>将直线方程化为斜截式，得 $y=-\\sqrt{3}x+2$，所以直线的斜率为 $k=-\\sqrt{3}$. 设直线的倾斜角为 $\\alpha$，其中 $0\\le\\alpha<\\pi$，则 $\\tan\\alpha=k=-\\sqrt{3}$，故 $\\alpha=\\frac{2\\pi}{3}=120^{\\circ}$.</p><p>令 $y=0$，得 $\\sqrt{3}x-2=0$，所以直线与 $x$ 轴的交点为 $\\left(\\frac{2}{\\sqrt{3}},0\\right)=\\left(\\frac{2\\sqrt{3}}{3},0\\right)$，在 $x$ 轴上的截距为 $\\frac{2\\sqrt{3}}{3}$. 令 $x=0$，得 $y=2$，所以直线与 $y$ 轴的交点为 $\\left(0,2\\right)$，在 $y$ 轴上的截距为 $2$.</p>"
         },
         {
           "num": 3,
           "body": "把 $A$ 点的极坐标 $\\left(4,\\frac{3\\pi}{4}\\right)$ 化成直角坐标；把 $B$ 点的直角坐标 $\\left(-\\sqrt{3},1\\right)$ 化成极坐标.",
           "choices": null,
           "answer": "",
-          "solution": "<p>对点 $A$，由极坐标与直角坐标的关系 $x=r\\cos\\theta$，$y=r\\sin\\theta$，得 $x=4\\cos\\frac{3\\pi}{4}=-2\\sqrt{2}$，$y=4\\sin\\frac{3\\pi}{4}=2\\sqrt{2}$. 因此点 $A$ 的直角坐标为 $\\left(-2\\sqrt{2},2\\sqrt{2}\\right)$.</p><p>对点 $B$，其极径为 $r=\\sqrt{x^{2}+y^{2}}=\\sqrt{\\left(-\\sqrt{3}\\right)^{2}+1^{2}}=2$. 又因为 $\\cos\\theta=\\frac{x}{r}=-\\frac{\\sqrt{3}}{2}$，$\\sin\\theta=\\frac{y}{r}=\\frac{1}{2}$，所以 $\\theta=\\frac{5\\pi}{6}+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 取 $0\\le\\theta&#x3C;2\\pi$ 时，$\\theta=\\frac{5\\pi}{6}$，故点 $B$ 的一个极坐标为 $\\left(2,\\frac{5\\pi}{6}\\right)$.</p>"
+          "solution": "<p>对点 $A$，由极坐标与直角坐标的关系 $x=r\\cos\\theta$，$y=r\\sin\\theta$，得 $x=4\\cos\\frac{3\\pi}{4}=-2\\sqrt{2}$，$y=4\\sin\\frac{3\\pi}{4}=2\\sqrt{2}$. 因此点 $A$ 的直角坐标为 $\\left(-2\\sqrt{2},2\\sqrt{2}\\right)$.</p><p>对点 $B$，其极径为 $r=\\sqrt{x^{2}+y^{2}}=\\sqrt{\\left(-\\sqrt{3}\\right)^{2}+1^{2}}=2$. 又因为 $\\cos\\theta=\\frac{x}{r}=-\\frac{\\sqrt{3}}{2}$，$\\sin\\theta=\\frac{y}{r}=\\frac{1}{2}$，所以 $\\theta=\\frac{5\\pi}{6}+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 取 $0\\le\\theta<2\\pi$ 时，$\\theta=\\frac{5\\pi}{6}$，故点 $B$ 的一个极坐标为 $\\left(2,\\frac{5\\pi}{6}\\right)$.</p>"
         },
         {
           "num": 4,
@@ -40,7 +40,7 @@
           "body": "<p>已知 $x$ 是正的纯小数，化简</p><p>$\\sqrt{x^{2}-2+\\frac{1}{x^2}}\\cdot \\left(x+\\frac{1}{x}\\right) \\div \\frac{2x^{-2}}{1-\\frac{x^{2}}{1+x^{2}}}$.</p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $x$ 是正的纯小数，所以 $0&#x3C;x&#x3C;1$，从而 $\\frac{1}{x}-x>0$. 因此</p>\n$$\n\\sqrt{x^{2}-2+\\frac{1}{x^2}}=\\sqrt{\\left(\\frac{1}{x}-x\\right)^{2}}=\\frac{1}{x}-x\n$$\n<p>又</p>\n$$\n1-\\frac{x^{2}}{1+x^{2}}=\\frac{1}{1+x^{2}}\n$$\n<p>所以</p>\n$$\n\\frac{2x^{-2}}{1-\\frac{x^{2}}{1+x^{2}}}=\\frac{2x^{-2}}{\\frac{1}{1+x^{2}}}=\\frac{2\\left(1+x^{2}\\right)}{x^{2}}\n$$\n<p>于是原式</p>\n$$\n=\\left(\\frac{1}{x}-x\\right)\\left(x+\\frac{1}{x}\\right)\\div\\frac{2\\left(1+x^{2}\\right)}{x^{2}}=\\frac{1-x^{2}}{x}\\cdot\\frac{1+x^{2}}{x}\\cdot\\frac{x^{2}}{2\\left(1+x^{2}\\right)}=\\frac{1-x^{2}}{2}\n$$"
+          "solution": "<p>因为 $x$ 是正的纯小数，所以 $0<x<1$，从而 $\\frac{1}{x}-x>0$. 因此</p>\n$$\n\\sqrt{x^{2}-2+\\frac{1}{x^2}}=\\sqrt{\\left(\\frac{1}{x}-x\\right)^{2}}=\\frac{1}{x}-x\n$$\n<p>又</p>\n$$\n1-\\frac{x^{2}}{1+x^{2}}=\\frac{1}{1+x^{2}}\n$$\n<p>所以</p>\n$$\n\\frac{2x^{-2}}{1-\\frac{x^{2}}{1+x^{2}}}=\\frac{2x^{-2}}{\\frac{1}{1+x^{2}}}=\\frac{2\\left(1+x^{2}\\right)}{x^{2}}\n$$\n<p>于是原式</p>\n$$\n=\\left(\\frac{1}{x}-x\\right)\\left(x+\\frac{1}{x}\\right)\\div\\frac{2\\left(1+x^{2}\\right)}{x^{2}}=\\frac{1-x^{2}}{x}\\cdot\\frac{1+x^{2}}{x}\\cdot\\frac{x^{2}}{2\\left(1+x^{2}\\right)}=\\frac{1-x^{2}}{2}\n$$"
         },
         {
           "num": 6,
@@ -68,14 +68,14 @@
           "body": "已知一元二次方程 $2x^{2}+4\\left(2e-1\\right)x+4e^{2}-1=0$ 有两个相等的实数根，以 $e$ 作为椭圆的离心率，这个椭圆的中心在原点，焦点在 $x$ 轴上，半长轴的长是 $10$，求这个椭圆的方程.",
           "choices": null,
           "answer": "",
-          "solution": "<p>原一元二次方程有两个相等的实数根，所以判别式为零，即</p>\n$$\n\\Delta=\\left[4\\left(2e-1\\right)\\right]^{2}-4\\cdot2\\left(4e^{2}-1\\right)  =16\\left(2e-1\\right)^{2}-8\\left(4e^{2}-1\\right)  =8\\left(4e^{2}-8e+3\\right)=0\n$$\n<p>因为 $4e^{2}-8e+3=(2e-1)(2e-3)$，所以 $e=\\frac{1}{2}$ 或 $e=\\frac{3}{2}$. 椭圆的离心率满足 $0&#x3C;e&#x3C;1$，故舍去 $e=\\frac{3}{2}$，取 $e=\\frac{1}{2}$.</p><p>设椭圆的半长轴为 $a=10$，焦距的一半为 $c$，则离心率 $e=\\frac{c}{a}$，从而 $c=ae=5$. 由椭圆关系式 $b^{2}=a^{2}-c^{2}$，得 $b^{2}=10^{2}-5^{2}=75$. 因为焦点在 $x$ 轴上且中心在原点，椭圆方程为</p>\n$$\n\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1\n$$\n<p>即 $\\frac{x^{2}}{100}+\\frac{y^{2}}{75}=1$.</p>"
+          "solution": "<p>原一元二次方程有两个相等的实数根，所以判别式为零，即</p>\n$$\n\\Delta=\\left[4\\left(2e-1\\right)\\right]^{2}-4\\cdot2\\left(4e^{2}-1\\right)  =16\\left(2e-1\\right)^{2}-8\\left(4e^{2}-1\\right)  =8\\left(4e^{2}-8e+3\\right)=0\n$$\n<p>因为 $4e^{2}-8e+3=(2e-1)(2e-3)$，所以 $e=\\frac{1}{2}$ 或 $e=\\frac{3}{2}$. 椭圆的离心率满足 $0<e<1$，故舍去 $e=\\frac{3}{2}$，取 $e=\\frac{1}{2}$.</p><p>设椭圆的半长轴为 $a=10$，焦距的一半为 $c$，则离心率 $e=\\frac{c}{a}$，从而 $c=ae=5$. 由椭圆关系式 $b^{2}=a^{2}-c^{2}$，得 $b^{2}=10^{2}-5^{2}=75$. 因为焦点在 $x$ 轴上且中心在原点，椭圆方程为</p>\n$$\n\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1\n$$\n<p>即 $\\frac{x^{2}}{100}+\\frac{y^{2}}{75}=1$.</p>"
         },
         {
           "num": 10,
           "body": "已知 $\\triangle ABC$ 的三边 $a$，$b$，$c$ 成等差数列，$a>b>c$，$b$ 边的对角是 $\\angle B$. 求证：$\\angle B$ 的度数小于 $60^{\\circ}$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $a$，$b$，$c$ 成等差数列且 $a>b>c$，设公差为 $d>0$，则 $a=b+d$，$c=b-d$. 由余弦定理，</p>\n$$\n\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2ac}\n$$\n<p>而</p>\n$$\na^{2}+c^{2}-b^{2}-ac=(b+d)^{2}+(b-d)^{2}-b^{2}-(b+d)(b-d)=3d^{2}>0\n$$\n<p>所以 $a^{2}+c^{2}-b^{2}>ac$. 因为 $a$，$c>0$，由余弦定理可得 $\\cos B>\\frac{1}{2}=\\cos60^{\\circ}$. 三角形内角满足 $0^{\\circ}&#x3C;B&#x3C;180^{\\circ}$，而余弦函数在此区间上递减，故 $B&#x3C;60^{\\circ}$.</p>"
+          "solution": "<p>因为 $a$，$b$，$c$ 成等差数列且 $a>b>c$，设公差为 $d>0$，则 $a=b+d$，$c=b-d$. 由余弦定理，</p>\n$$\n\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2ac}\n$$\n<p>而</p>\n$$\na^{2}+c^{2}-b^{2}-ac=(b+d)^{2}+(b-d)^{2}-b^{2}-(b+d)(b-d)=3d^{2}>0\n$$\n<p>所以 $a^{2}+c^{2}-b^{2}>ac$. 因为 $a$，$c>0$，由余弦定理可得 $\\cos B>\\frac{1}{2}=\\cos60^{\\circ}$. 三角形内角满足 $0^{\\circ}<B<180^{\\circ}$，而余弦函数在此区间上递减，故 $B<60^{\\circ}$.</p>"
         }
       ]
     }

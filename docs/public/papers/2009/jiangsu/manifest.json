@@ -26,7 +26,7 @@
           "body": "函数 $f(x)=x^{3}-15x^{2}-33x+6$ 的单调减区间为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(-1,11)$",
-          "solution": "$$\nf'(x)=3x^{2}-30x-33=3(x-11)(x+1)\n$$\n<p>函数在 $f'(x)&#x3C;0$ 时单调递减. 由于</p>\n$$\n(x-11)(x+1)&#x3C;0 \\Longleftrightarrow  -1&#x3C;x&#x3C;11\n$$\n<p>所以函数的单调减区间为 $(-1,11)$.</p>"
+          "solution": "$$\nf'(x)=3x^{2}-30x-33=3(x-11)(x+1)\n$$\n<p>函数在 $f'(x)<0$ 时单调递减. 由于</p>\n$$\n(x-11)(x+1)<0 \\Longleftrightarrow  -1<x<11\n$$\n<p>所以函数的单调减区间为 $(-1,11)$.</p>"
         },
         {
           "num": 4,
@@ -54,7 +54,7 @@
           "body": "<p>如图是一个算法的流程图，最后输出的 $W=\\underline{\\hspace{2.5em}}{}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q7_flow.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$22$",
-          "solution": "<p>初始时 $S=0$，$T=1$. 每次先作 $S\\leftarrow T^{2}-S$，若 $S&#x3C;10$，再作 $T\\leftarrow T+2$ 并重复计算. 因此各次计算得到</p><p>$(S,T)=(1,1)$，$(8,3)$，$(17,5)$.</p><p>前两次的 $S$ 都小于 $10$，第三次得到 $S=17\\ge10$，于是停止并输出</p>\n$$\nW=S+T=17+5=22\n$$"
+          "solution": "<p>初始时 $S=0$，$T=1$. 每次先作 $S\\leftarrow T^{2}-S$，若 $S<10$，再作 $T\\leftarrow T+2$ 并重复计算. 因此各次计算得到</p><p>$(S,T)=(1,1)$，$(8,3)$，$(17,5)$.</p><p>前两次的 $S$ 都小于 $10$，第三次得到 $S=17\\ge10$，于是停止并输出</p>\n$$\nW=S+T=17+5=22\n$$"
         },
         {
           "num": 8,
@@ -74,15 +74,15 @@
           "num": 10,
           "body": "已知 $a=\\frac{\\sqrt{5}-1}{2}$，函数 $f(x)=a^{x}$，若实数 $m$，$n$ 满足 $f(m)>f(n)$，则 $m$，$n$ 的大小关系为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$m&#x3C;n$",
-          "solution": "<p>因为 $1&#x3C;\\sqrt{5}&#x3C;3$，所以</p>\n$$\n0&#x3C;a=\\frac{\\sqrt{5}-1}{2}&#x3C;1\n$$\n<p>因此指数函数 $f(x)=a^{x}$ 在 $\\mathbb{R}$ 上单调递减. 由 $f(m)>f(n)$ 可知自变量的大小规律相反，所以 $m&#x3C;n$.</p>"
+          "answer": "$m<n$",
+          "solution": "<p>因为 $1<\\sqrt{5}<3$，所以</p>\n$$\n0<a=\\frac{\\sqrt{5}-1}{2}<1\n$$\n<p>因此指数函数 $f(x)=a^{x}$ 在 $\\mathbb{R}$ 上单调递减. 由 $f(m)>f(n)$ 可知自变量的大小规律相反，所以 $m<n$.</p>"
         },
         {
           "num": 11,
           "body": "已知集合 $A=\\{x\\mid \\log_{2} x\\le2\\}$，$B=(-\\infty,a)$，若 $A\\subseteq B$，则实数 $a$ 的取值范围是 $(c,+\\infty)$，其中 $c=\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$4$",
-          "solution": "<p>由对数不等式及定义域，</p>\n$$\n\\log_{2}x\\le2 \\Longleftrightarrow  0&#x3C;x\\le4\n$$\n<p>所以 $A=(0,4]$. 又 $B=(-\\infty,a)$ 不含端点 $a$，要使 $A\\subseteq B$，必须且只需 $a>4$. 因而题设中的 $c=4$.</p>"
+          "solution": "<p>由对数不等式及定义域，</p>\n$$\n\\log_{2}x\\le2 \\Longleftrightarrow  0<x\\le4\n$$\n<p>所以 $A=(0,4]$. 又 $B=(-\\infty,a)$ 不含端点 $a$，要使 $A\\subseteq B$，必须且只需 $a>4$. 因而题设中的 $c=4$.</p>"
         },
         {
           "num": 12,
@@ -96,7 +96,7 @@
           "body": "<p>如图，在平面直角坐标系 $xOy$ 中，$A_{1}$，$A_{2}$，$B_{1}$，$B_{2}$ 为椭圆 $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$ （$a>b>0$）的四个顶点，$F$ 为其右焦点. 直线 $A_{1}B_{2}$ 与直线 $B_{1}F$ 相交于点 $T$，线段 $OT$ 与椭圆的交点 $M$ 恰为线段 $OT$ 的中点，则该椭圆的离心率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$2\\sqrt{7}-5$",
-          "solution": "<p>设 $A_{1}=(-a,0)$，$B_{2}=(0,b)$，$B_{1}=(0,-b)$，椭圆的右焦点为 $F(c,0)$，其中 $c=\\sqrt{a^{2}-b^{2}}$，并记离心率为 $e=\\dfrac{c}{a}$. 由两点式，直线 $A_{1}B_{2}$ 和直线 $B_{1}F$ 分别可写为</p><p>$\\frac{x}{a}-\\frac{y}{b}=-1$，$\\frac{x}{c}-\\frac{y}{b}=1$.</p><p>联立得交点</p>\n$$\nT\\left(\\frac{2ac}{a-c},\\frac{b(a+c)}{a-c}\\right)\n$$\n<p>因为 $M$ 是线段 $OT$ 的中点，所以</p>\n$$\nM\\left(\\frac{ac}{a-c},\\frac{b(a+c)}{2(a-c)}\\right)\n$$\n<p>将 $M$ 代入椭圆方程，得</p>\n$$\n\\frac{c^{2}}{(a-c)^{2}}+\\frac{(a+c)^{2}}{4(a-c)^{2}}=1\n$$\n<p>整理为</p>\n$$\n3a^{2}-10ac-c^{2}=0\n$$\n<p>除以 $a^{2}>0$，得到</p>\n$$\ne^{2}+10e-3=0\n$$\n<p>又 $0&#x3C;e&#x3C;1$，故</p>\n$$\ne=-5+2\\sqrt{7}=2\\sqrt{7}-5\n$$"
+          "solution": "<p>设 $A_{1}=(-a,0)$，$B_{2}=(0,b)$，$B_{1}=(0,-b)$，椭圆的右焦点为 $F(c,0)$，其中 $c=\\sqrt{a^{2}-b^{2}}$，并记离心率为 $e=\\dfrac{c}{a}$. 由两点式，直线 $A_{1}B_{2}$ 和直线 $B_{1}F$ 分别可写为</p><p>$\\frac{x}{a}-\\frac{y}{b}=-1$，$\\frac{x}{c}-\\frac{y}{b}=1$.</p><p>联立得交点</p>\n$$\nT\\left(\\frac{2ac}{a-c},\\frac{b(a+c)}{a-c}\\right)\n$$\n<p>因为 $M$ 是线段 $OT$ 的中点，所以</p>\n$$\nM\\left(\\frac{ac}{a-c},\\frac{b(a+c)}{2(a-c)}\\right)\n$$\n<p>将 $M$ 代入椭圆方程，得</p>\n$$\n\\frac{c^{2}}{(a-c)^{2}}+\\frac{(a+c)^{2}}{4(a-c)^{2}}=1\n$$\n<p>整理为</p>\n$$\n3a^{2}-10ac-c^{2}=0\n$$\n<p>除以 $a^{2}>0$，得到</p>\n$$\ne^{2}+10e-3=0\n$$\n<p>又 $0<e<1$，故</p>\n$$\ne=-5+2\\sqrt{7}=2\\sqrt{7}-5\n$$"
         },
         {
           "num": 14,
@@ -150,7 +150,7 @@
           "body": "<p>设 $a$ 为实数，函数 $f(x)=2x^{2}+(x-a)|x-a|$.</p><ol class=\"enumerate\"><li><p>若 $f(0)\\ge1$，求 $a$ 的取值范围；</p></li><li><p>求 $f(x)$ 的最小值；</p></li><li><p>设函数 $h(x)=f(x)$，$x\\in(a,+\\infty)$，直接写出（不需给出演算步骤）不等式 $h(x)\\ge1$ 的解集.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为</p>\n$$\nf(0)=-a|a|\n$$\n<p>当 $a\\ge0$ 时，$-a^{2}\\ge1$ 不可能；当 $a&#x3C;0$ 时，$a^{2}\\ge1$，所以 $a\\le-1$.</p></li><li><p>当 $x\\ge a$ 时，</p>\n$$\nf(x)=3x^{2}-2ax+a^{2}\n$$\n<p>其顶点横坐标为 $x=\\frac{a}{3}$. 当 $a\\ge0$ 时，顶点不在区间 $[a,+\\infty)$ 内，最小值在 $x=a$ 处取得，为 $2a^{2}$；当 $a&#x3C;0$ 时，顶点在区间 $[a,+\\infty)$ 内，最小值为 $\\frac{2a^{2}}{3}$.</p><p>当 $x&#x3C;a$ 时，</p>\n$$\nf(x)=x^{2}+2ax-a^{2}\n$$\n<p>当 $a>0$ 时，顶点 $x=-a$ 在该分支的定义域内，最小值为 $-2a^{2}$；当 $a=0$ 时，左支为 $x^{2}$，而 $x=0$ 属于右支，故全局最小值为 $0$；当 $a&#x3C;0$ 时，该分支在 $x&#x3C;a$ 上递减，其下确界为在 $x=a$ 处的函数值 $2a^{2}$，而右侧分支可在 $x=\\frac{a}{3}$ 处取得更小的值 $2\\frac{a^{2}}{3}$. 因此</p>\n$$\n\\min_{x\\in\\mathbb{R}}f(x)=  \\begin{cases}-2a^{2},&#x26;a\\ge0,\\\\[2pt]  \\dfrac{2a^2}{3},&#x26;a&#x3C;0.\\end{cases}\n$$\n</li><li><p>因为 $x\\in(a,+\\infty)$，所以</p>\n$$\nh(x)=3x^{2}-2ax+a^{2}\n$$\n<p>不等式 $h(x)\\ge1$ 等价于</p>\n$$\n3x^{2}-2ax+a^{2}-1\\ge0\n$$\n<p>其判别式为 $12-8a^{2}$，根（存在时）分别为 $r_{-}=\\frac{a-\\sqrt{3-2a^{2}}}{3}$ 和 $r_{+}=\\frac{a+\\sqrt{3-2a^{2}}}{3}$.</p><p>与定义域 $(a,+\\infty)$ 结合，解集为</p>\n$$\n\\{x\\in(a,+\\infty)\\mid h(x)\\ge1\\}=  \\begin{cases}(a,+\\infty),&#x26;a\\in\\left(-\\infty,-\\dfrac{\\sqrt{6}}{2}\\right]\\cup\\left[\\dfrac{\\sqrt{6}}{2},+\\infty\\right),\\\\[6pt]  \\left[r_{+},+\\infty\\right),&#x26;a\\in\\left[-\\dfrac{\\sqrt{2}}{2},\\dfrac{\\sqrt{2}}{2}\\right),\\\\[6pt]  \\left(a,r_{-}\\right]\\cup\\left[r_{+},+\\infty\\right),&#x26;a\\in\\left(-\\dfrac{\\sqrt{6}}{2},-\\dfrac{\\sqrt{2}}{2}\\right),\\\\[6pt]  (a,+\\infty),&#x26;a\\in\\left[\\dfrac{\\sqrt{2}}{2},\\dfrac{\\sqrt{6}}{2}\\right).\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为</p>\n$$\nf(0)=-a|a|\n$$\n<p>当 $a\\ge0$ 时，$-a^{2}\\ge1$ 不可能；当 $a<0$ 时，$a^{2}\\ge1$，所以 $a\\le-1$.</p></li><li><p>当 $x\\ge a$ 时，</p>\n$$\nf(x)=3x^{2}-2ax+a^{2}\n$$\n<p>其顶点横坐标为 $x=\\frac{a}{3}$. 当 $a\\ge0$ 时，顶点不在区间 $[a,+\\infty)$ 内，最小值在 $x=a$ 处取得，为 $2a^{2}$；当 $a<0$ 时，顶点在区间 $[a,+\\infty)$ 内，最小值为 $\\frac{2a^{2}}{3}$.</p><p>当 $x<a$ 时，</p>\n$$\nf(x)=x^{2}+2ax-a^{2}\n$$\n<p>当 $a>0$ 时，顶点 $x=-a$ 在该分支的定义域内，最小值为 $-2a^{2}$；当 $a=0$ 时，左支为 $x^{2}$，而 $x=0$ 属于右支，故全局最小值为 $0$；当 $a<0$ 时，该分支在 $x<a$ 上递减，其下确界为在 $x=a$ 处的函数值 $2a^{2}$，而右侧分支可在 $x=\\frac{a}{3}$ 处取得更小的值 $2\\frac{a^{2}}{3}$. 因此</p>\n$$\n\\min_{x\\in\\mathbb{R}}f(x)=  \\begin{cases}-2a^{2},&a\\ge0,\\\\[2pt]  \\dfrac{2a^2}{3},&a<0.\\end{cases}\n$$\n</li><li><p>因为 $x\\in(a,+\\infty)$，所以</p>\n$$\nh(x)=3x^{2}-2ax+a^{2}\n$$\n<p>不等式 $h(x)\\ge1$ 等价于</p>\n$$\n3x^{2}-2ax+a^{2}-1\\ge0\n$$\n<p>其判别式为 $12-8a^{2}$，根（存在时）分别为 $r_{-}=\\frac{a-\\sqrt{3-2a^{2}}}{3}$ 和 $r_{+}=\\frac{a+\\sqrt{3-2a^{2}}}{3}$.</p><p>与定义域 $(a,+\\infty)$ 结合，解集为</p>\n$$\n\\{x\\in(a,+\\infty)\\mid h(x)\\ge1\\}=  \\begin{cases}(a,+\\infty),&a\\in\\left(-\\infty,-\\dfrac{\\sqrt{6}}{2}\\right]\\cup\\left[\\dfrac{\\sqrt{6}}{2},+\\infty\\right),\\\\[6pt]  \\left[r_{+},+\\infty\\right),&a\\in\\left[-\\dfrac{\\sqrt{2}}{2},\\dfrac{\\sqrt{2}}{2}\\right),\\\\[6pt]  \\left(a,r_{-}\\right]\\cup\\left[r_{+},+\\infty\\right),&a\\in\\left(-\\dfrac{\\sqrt{6}}{2},-\\dfrac{\\sqrt{2}}{2}\\right),\\\\[6pt]  (a,+\\infty),&a\\in\\left[\\dfrac{\\sqrt{2}}{2},\\dfrac{\\sqrt{6}}{2}\\right).\\end{cases}\n$$\n</li></ol>"
         }
       ]
     },
@@ -166,10 +166,10 @@
         },
         {
           "num": 22,
-          "body": "求矩阵 $A=\\begin{bmatrix}3&#x26;2\\\\2&#x26;1\\end{bmatrix}$ 的逆矩阵.",
+          "body": "求矩阵 $A=\\begin{bmatrix}3&2\\\\2&1\\end{bmatrix}$ 的逆矩阵.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $A^{-1}=\\begin{bmatrix}p&#x26;q\\\\r&#x26;s\\end{bmatrix}$. 因为</p>\n$$\nA\\begin{bmatrix}p&#x26;q\\\\r&#x26;s\\end{bmatrix}  =\\begin{bmatrix}3p+2r&#x26;3q+2s\\\\2p+r&#x26;2q+s\\end{bmatrix}  =\\begin{bmatrix}1&#x26;0\\\\0&#x26;1\\end{bmatrix}\n$$\n<p>所以</p>\n$$\n\\begin{cases}3p+2r=1,\\\\  3q+2s=0,\\\\  2p+r=0,\\\\  2q+s=1.\\end{cases}\n$$\n<p>解得 $p=-1$，$q=2$，$r=2$，$s=-3$. 因此</p>\n$$\nA^{-1}=\\begin{bmatrix}-1&#x26;2\\\\2&#x26;-3\\end{bmatrix}\n$$"
+          "solution": "<p>设 $A^{-1}=\\begin{bmatrix}p&q\\\\r&s\\end{bmatrix}$. 因为</p>\n$$\nA\\begin{bmatrix}p&q\\\\r&s\\end{bmatrix}  =\\begin{bmatrix}3p+2r&3q+2s\\\\2p+r&2q+s\\end{bmatrix}  =\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}\n$$\n<p>所以</p>\n$$\n\\begin{cases}3p+2r=1,\\\\  3q+2s=0,\\\\  2p+r=0,\\\\  2q+s=1.\\end{cases}\n$$\n<p>解得 $p=-1$，$q=2$，$r=2$，$s=-3$. 因此</p>\n$$\nA^{-1}=\\begin{bmatrix}-1&2\\\\2&-3\\end{bmatrix}\n$$"
         },
         {
           "num": 23,
@@ -190,14 +190,14 @@
           "body": "<p>在平面直角坐标系 $xOy$ 中，抛物线 $C$ 的顶点在原点，经过点 $A(2,2)$，其焦点 $F$ 在 $x$ 轴上.</p><ol class=\"enumerate\"><li><p>求抛物线 $C$ 的标准方程；</p></li><li><p>求过点 $F$，且与直线 $OA$ 垂直的直线的方程；</p></li><li><p>设过点 $M(m,0)$（$m>0$）的直线交抛物线 $C$ 于 $D$，$E$ 两点，$ME=2DM$，记 $D$ 和 $E$ 两点间的距离为 $f(m)$，求 $f(m)$ 关于 $m$ 的表达式.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为抛物线顶点在原点且焦点在 $x$ 轴上，设其标准方程为 $y^{2}=4px$，则焦点为 $(p,0)$. 将 $A(2,2)$ 代入得 $4=8p$，所以 $p=\\frac{1}{2}$，从而抛物线的标准方程为</p>\n$$\ny^{2}=2x\n$$\n</li><li><p>由 $y^{2}=2x$ 可知焦点为 $F\\left(\\frac{1}{2},0\\right)$. 直线 $OA$ 的斜率为 $1$，所以过 $F$ 且垂直于 $OA$ 的直线斜率为 $-1$，其方程为</p>\n$$\ny=-\\left(x-\\frac{1}{2}\\right)\n$$\n<p>即 $2x+2y-1=0$.</p></li><li><p>先考虑非竖直且非水平直线，设其斜率为 $k\\ne0$，用参数 $t$ 表示直线上的点：</p>\n$$\n(x,y)=(m+t,kt)\n$$\n<p>代入抛物线方程得</p>\n$$\nk^{2}t^{2}=2(m+t)\n$$\n<p>即</p>\n$$\nk^{2}t^{2}-2t-2m=0\n$$\n<p>设对应于 $D$，$E$ 的根分别为 $t_{D}$，$t_{E}$. 由韦达定理，$t_{D}+t_{E}=\\frac{2}{k^{2}}>0$，$t_{D}t_{E}=-\\frac{2m}{k^{2}}&#x3C;0$.</p><p>所以两根异号. 由 $ME=2DM$，设 $|t_{D}|=r$，$|t_{E}|=2r$，其中 $r>0$. 结合两根之和为正，必有 $t_{D}=-r$，$t_{E}=2r$. 于是 $r=\\frac{2}{k^{2}}$，$-2r^{2}=-\\frac{2m}{k^{2}}$.</p><p>由第一式得 $k^{2}=\\frac{2}{r}$，代入第二式得 $r=\\frac{m}{2}$，从而 $k^{2}=\\frac{4}{m}$. 因此</p>\n$$\nDE=|t_{E}-t_{D}|\\sqrt{1+k^{2}}=3\\frac{m}{2}\\sqrt{1+\\frac{4}{m}}=\\frac{3}{2}\\sqrt{m(m+4)}\n$$\n<p>水平直线 $y=0$ 与抛物线只有一个交点，不符合题设；竖直直线 $x=m$ 与抛物线的两个交点关于 $M$ 对称，满足 $ME=DM$，也不满足题设比例，因此不产生其他情形. 故</p>\n$$\nf(m)=\\frac{3}{2}\\sqrt{m(m+4)}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为抛物线顶点在原点且焦点在 $x$ 轴上，设其标准方程为 $y^{2}=4px$，则焦点为 $(p,0)$. 将 $A(2,2)$ 代入得 $4=8p$，所以 $p=\\frac{1}{2}$，从而抛物线的标准方程为</p>\n$$\ny^{2}=2x\n$$\n</li><li><p>由 $y^{2}=2x$ 可知焦点为 $F\\left(\\frac{1}{2},0\\right)$. 直线 $OA$ 的斜率为 $1$，所以过 $F$ 且垂直于 $OA$ 的直线斜率为 $-1$，其方程为</p>\n$$\ny=-\\left(x-\\frac{1}{2}\\right)\n$$\n<p>即 $2x+2y-1=0$.</p></li><li><p>先考虑非竖直且非水平直线，设其斜率为 $k\\ne0$，用参数 $t$ 表示直线上的点：</p>\n$$\n(x,y)=(m+t,kt)\n$$\n<p>代入抛物线方程得</p>\n$$\nk^{2}t^{2}=2(m+t)\n$$\n<p>即</p>\n$$\nk^{2}t^{2}-2t-2m=0\n$$\n<p>设对应于 $D$，$E$ 的根分别为 $t_{D}$，$t_{E}$. 由韦达定理，$t_{D}+t_{E}=\\frac{2}{k^{2}}>0$，$t_{D}t_{E}=-\\frac{2m}{k^{2}}<0$.</p><p>所以两根异号. 由 $ME=2DM$，设 $|t_{D}|=r$，$|t_{E}|=2r$，其中 $r>0$. 结合两根之和为正，必有 $t_{D}=-r$，$t_{E}=2r$. 于是 $r=\\frac{2}{k^{2}}$，$-2r^{2}=-\\frac{2m}{k^{2}}$.</p><p>由第一式得 $k^{2}=\\frac{2}{r}$，代入第二式得 $r=\\frac{m}{2}$，从而 $k^{2}=\\frac{4}{m}$. 因此</p>\n$$\nDE=|t_{E}-t_{D}|\\sqrt{1+k^{2}}=3\\frac{m}{2}\\sqrt{1+\\frac{4}{m}}=\\frac{3}{2}\\sqrt{m(m+4)}\n$$\n<p>水平直线 $y=0$ 与抛物线只有一个交点，不符合题设；竖直直线 $x=m$ 与抛物线的两个交点关于 $M$ 对称，满足 $ME=DM$，也不满足题设比例，因此不产生其他情形. 故</p>\n$$\nf(m)=\\frac{3}{2}\\sqrt{m(m+4)}\n$$\n</li></ol>"
         },
         {
           "num": 26,
           "body": "<p>对于正整数 $n\\ge2$，用 $T_{n}$ 表示关于 $x$ 的一元二次方程 $x^{2}+2ax+b=0$ 有实数根的有序数组 $(a,b)$ 的组数，其中 $a$，$b\\in\\{1,2,\\cdots,n\\}$（$a$ 和 $b$ 可以相等）；对于随机选取的 $a$，$b\\in\\{1,2,\\cdots,n\\}$（$a$ 和 $b$ 可以相等），记 $P_{n}$ 为关于 $x$ 的一元二次方程 $x^{2}+2ax+b=0$ 有实数根的概率.</p><ol class=\"enumerate\"><li><p>求 $T_{n^2}$ 和 $P_{n^2}$；</p></li><li><p>求证：对任意正整数 $n\\ge2$，有 $P_{n}>1-\\frac{1}{\\sqrt{n}}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>方程 $x^{2}+2ax+b=0$ 有实数根的充要条件是判别式</p>\n$$\n\\Delta=(2a)^{2}-4b=4(a^{2}-b)\\ge0\n$$\n<p>即 $b\\le a^{2}$. 计算 $T_{n^2}$ 时，令 $a=i$，$b=j$，其中 $i$，$j\\in\\{1,2,\\ldots,n^{2}\\}$. 当 $1\\le i\\le n$ 时，可取的 $j$ 有 $i^{2}$ 个；当 $n+1\\le i\\le n^{2}$ 时，$i^{2}\\ge n^{2}$，所有 $n^{2}$ 个 $j$ 均可取. 所以</p>\n$$\nT_{n^2}=\\sum_{i=1}^{n}i^{2}+(n^{2}-n)n^{2}  =\\frac{n(n+1)(2n+1)}{6}+n^{4}-n^{3}  =\\frac{n(6n^{3}-4n^{2}+3n+1)}{6}\n$$\n<p>因此</p>\n$$\nP_{n^2}=\\frac{T_{n^2}}{n^{4}}=1-\\frac{(n-1)(4n+1)}{6n^{3}}\n$$\n</li><li><p>在 $a$，$b\\in\\{1,2,\\ldots,n\\}$ 时，不满足有实数根的数组必须满足 $b>a^{2}$，这要求 $a^{2}&#x3C;n$，即 $a&#x3C;\\sqrt{n}$. 这样的正整数 $a$ 少于 $\\sqrt{n}$ 个，而每个 $a$ 对应的不合格 $b$ 数量小于 $n$. 因此不合格数组总数严格小于 $n\\sqrt{n}$. 于是</p>\n$$\n1-P_{n}  =\\frac{\\text{不合格数组数}}{n^{2}}&#x3C;\\frac{n\\sqrt{n}}{n^{2}}=\\frac{1}{\\sqrt{n}}\n$$\n<p>从而</p>\n$$\nP_{n}>1-\\frac{1}{\\sqrt{n}}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>方程 $x^{2}+2ax+b=0$ 有实数根的充要条件是判别式</p>\n$$\n\\Delta=(2a)^{2}-4b=4(a^{2}-b)\\ge0\n$$\n<p>即 $b\\le a^{2}$. 计算 $T_{n^2}$ 时，令 $a=i$，$b=j$，其中 $i$，$j\\in\\{1,2,\\ldots,n^{2}\\}$. 当 $1\\le i\\le n$ 时，可取的 $j$ 有 $i^{2}$ 个；当 $n+1\\le i\\le n^{2}$ 时，$i^{2}\\ge n^{2}$，所有 $n^{2}$ 个 $j$ 均可取. 所以</p>\n$$\nT_{n^2}=\\sum_{i=1}^{n}i^{2}+(n^{2}-n)n^{2}  =\\frac{n(n+1)(2n+1)}{6}+n^{4}-n^{3}  =\\frac{n(6n^{3}-4n^{2}+3n+1)}{6}\n$$\n<p>因此</p>\n$$\nP_{n^2}=\\frac{T_{n^2}}{n^{4}}=1-\\frac{(n-1)(4n+1)}{6n^{3}}\n$$\n</li><li><p>在 $a$，$b\\in\\{1,2,\\ldots,n\\}$ 时，不满足有实数根的数组必须满足 $b>a^{2}$，这要求 $a^{2}<n$，即 $a<\\sqrt{n}$. 这样的正整数 $a$ 少于 $\\sqrt{n}$ 个，而每个 $a$ 对应的不合格 $b$ 数量小于 $n$. 因此不合格数组总数严格小于 $n\\sqrt{n}$. 于是</p>\n$$\n1-P_{n}  =\\frac{\\text{不合格数组数}}{n^{2}}<\\frac{n\\sqrt{n}}{n^{2}}=\\frac{1}{\\sqrt{n}}\n$$\n<p>从而</p>\n$$\nP_{n}>1-\\frac{1}{\\sqrt{n}}\n$$\n</li></ol>"
         }
       ]
     }

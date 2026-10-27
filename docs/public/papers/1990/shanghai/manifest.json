@@ -40,7 +40,7 @@
           "body": "在 $\\triangle ABC$ 中，已知 $\\cos A=-\\frac{3}{5}$，则 $\\sin\\frac{A}{2}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\frac{2\\sqrt{5}}{5}$",
-          "solution": "<p>因为 $A$ 是三角形内角，所以 $0&#x3C;A&#x3C;\\pi$，从而 $0&#x3C;\\frac{A}{2}&#x3C;\\frac{\\pi}{2}$，故半角正弦取正值. 由半角公式，</p><p>$\\sin\\frac{A}{2}=\\sqrt{\\frac{1-\\cos A}{2}}=\\sqrt{\\frac{1-(-\\frac{3}{5})}{2}}=\\sqrt{\\frac{4}{5}}=\\frac{2\\sqrt{5}}{5}$.</p>"
+          "solution": "<p>因为 $A$ 是三角形内角，所以 $0<A<\\pi$，从而 $0<\\frac{A}{2}<\\frac{\\pi}{2}$，故半角正弦取正值. 由半角公式，</p><p>$\\sin\\frac{A}{2}=\\sqrt{\\frac{1-\\cos A}{2}}=\\sqrt{\\frac{1-(-\\frac{3}{5})}{2}}=\\sqrt{\\frac{4}{5}}=\\frac{2\\sqrt{5}}{5}$.</p>"
         },
         {
           "num": 6,
@@ -68,7 +68,7 @@
           "body": "双曲线 $2mx^{2}-my^{2}=2$ 的一条准线是 $y=1$，则 $m=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-\\frac{4}{3}$",
-          "solution": "<p>当 $m=0$ 时，方程化为 $0=2$，不表示双曲线，故 $m\\ne0$. 若 $m>0$，则方程化为 $\\frac{x^{2}}{\\frac{1}{m}}-\\frac{y^{2}}{\\frac{2}{m}}=1$，其准线是竖直直线，不可能为 $y=1$，所以必须有 $m&#x3C;0$. 此时</p><p>$\\frac{y^{2}}{-\\frac{2}{m}}-\\frac{x^{2}}{-\\frac{1}{m}}=1$. 令 $a^{2}=-\\frac{2}{m}$，$b^{2}=-\\frac{1}{m}$，则这是纵轴双曲线，且</p><p>$e^{2}=1+\\frac{b^{2}}{a^{2}}=1+\\frac{1}{2}=\\frac{3}{2}$. 纵轴双曲线的准线为 $y=\\pm\\frac{a}{e}$，故</p><p>$1=\\frac{a}{e}=\\sqrt{\\frac{-\\frac{2}{m}}{\\frac{3}{2}}}=\\sqrt{-\\frac{4}{3m}}$. 两边平方得 $m=-\\frac{4}{3}$，满足 $m&#x3C;0$，所以所求值为 $-\\frac{4}{3}$.</p>"
+          "solution": "<p>当 $m=0$ 时，方程化为 $0=2$，不表示双曲线，故 $m\\ne0$. 若 $m>0$，则方程化为 $\\frac{x^{2}}{\\frac{1}{m}}-\\frac{y^{2}}{\\frac{2}{m}}=1$，其准线是竖直直线，不可能为 $y=1$，所以必须有 $m<0$. 此时</p><p>$\\frac{y^{2}}{-\\frac{2}{m}}-\\frac{x^{2}}{-\\frac{1}{m}}=1$. 令 $a^{2}=-\\frac{2}{m}$，$b^{2}=-\\frac{1}{m}$，则这是纵轴双曲线，且</p><p>$e^{2}=1+\\frac{b^{2}}{a^{2}}=1+\\frac{1}{2}=\\frac{3}{2}$. 纵轴双曲线的准线为 $y=\\pm\\frac{a}{e}$，故</p><p>$1=\\frac{a}{e}=\\sqrt{\\frac{-\\frac{2}{m}}{\\frac{3}{2}}}=\\sqrt{-\\frac{4}{3m}}$. 两边平方得 $m=-\\frac{4}{3}$，满足 $m<0$，所以所求值为 $-\\frac{4}{3}$.</p>"
         },
         {
           "num": 10,
@@ -110,13 +110,13 @@
           "num": 13,
           "body": "设点 $P$ 在有向线段 $\\overrightarrow{AB}$ 的延长线上，$P$ 分 $\\overrightarrow{AB}$ 所成的比为 $\\lambda$，则（ ）",
           "choices": [
-            "$\\lambda&#x3C;-1$",
-            "$-1&#x3C;\\lambda&#x3C;0$",
-            "$0&#x3C;\\lambda&#x3C;1$",
+            "$\\lambda<-1$",
+            "$-1<\\lambda<0$",
+            "$0<\\lambda<1$",
             "$\\lambda>1$"
           ],
           "answer": "A",
-          "solution": "<p>取有向直线上的坐标 $A=0$，$B=1$. “$\\overrightarrow{AB}$ 的延长线”指向 $B$ 的一侧，所以设 $P$ 的坐标为 $p>1$. 由有向线段定比分点的定义，</p><p>$\\lambda=\\frac{\\overline{AP}}{\\overline{PB}}=\\frac{p}{1-p}$. 此时分母为负，故 $\\lambda&#x3C;0$. 又因 $p>1$，有 $p>p-1=|1-p|$，所以</p><p>$\\lambda=-\\frac{p}{p-1}&#x3C;-1$. 因此选 A.</p>"
+          "solution": "<p>取有向直线上的坐标 $A=0$，$B=1$. “$\\overrightarrow{AB}$ 的延长线”指向 $B$ 的一侧，所以设 $P$ 的坐标为 $p>1$. 由有向线段定比分点的定义，</p><p>$\\lambda=\\frac{\\overline{AP}}{\\overline{PB}}=\\frac{p}{1-p}$. 此时分母为负，故 $\\lambda<0$. 又因 $p>1$，有 $p>p-1=|1-p|$，所以</p><p>$\\lambda=-\\frac{p}{p-1}<-1$. 因此选 A.</p>"
         },
         {
           "num": 14,
@@ -140,7 +140,7 @@
             "第四象限"
           ],
           "answer": "C",
-          "solution": "<p>由 $\\left|\\cos\\frac{\\alpha}{2}\\right|=-\\cos\\frac{\\alpha}{2}$，且 $\\alpha$ 属于第二象限、半角不在坐标轴上，知 $\\cos\\frac{\\alpha}{2}&#x3C;0$. 又因 $\\alpha$ 属于第二象限，所以 $\\sin\\alpha>0$. 利用倍角公式，</p><p>$\\sin\\alpha=2\\sin\\frac{\\alpha}{2}\\cos\\frac{\\alpha}{2}>0$. 由于 $\\cos\\frac{\\alpha}{2}&#x3C;0$，只能有 $\\sin\\frac{\\alpha}{2}&#x3C;0$. 因此半角的正弦、余弦均为负，$\\frac{\\alpha}{2}$ 属于第三象限，选 C.</p>"
+          "solution": "<p>由 $\\left|\\cos\\frac{\\alpha}{2}\\right|=-\\cos\\frac{\\alpha}{2}$，且 $\\alpha$ 属于第二象限、半角不在坐标轴上，知 $\\cos\\frac{\\alpha}{2}<0$. 又因 $\\alpha$ 属于第二象限，所以 $\\sin\\alpha>0$. 利用倍角公式，</p><p>$\\sin\\alpha=2\\sin\\frac{\\alpha}{2}\\cos\\frac{\\alpha}{2}>0$. 由于 $\\cos\\frac{\\alpha}{2}<0$，只能有 $\\sin\\frac{\\alpha}{2}<0$. 因此半角的正弦、余弦均为负，$\\frac{\\alpha}{2}$ 属于第三象限，选 C.</p>"
         },
         {
           "num": 16,
@@ -168,15 +168,15 @@
         },
         {
           "num": 18,
-          "body": "已知 $1&#x3C;x&#x3C;d$，令 $a=\\left(\\log_{d} x\\right)^{2}$，$b=\\log_{d}\\left(x^{2}\\right)$，$c=\\log_{d}\\left(\\log_{d} x\\right)$，则（ ）",
+          "body": "已知 $1<x<d$，令 $a=\\left(\\log_{d} x\\right)^{2}$，$b=\\log_{d}\\left(x^{2}\\right)$，$c=\\log_{d}\\left(\\log_{d} x\\right)$，则（ ）",
           "choices": [
-            "$a&#x3C;b&#x3C;c$",
-            "$a&#x3C;c&#x3C;b$",
-            "$c&#x3C;b&#x3C;a$",
-            "$c&#x3C;a&#x3C;b$"
+            "$a<b<c$",
+            "$a<c<b$",
+            "$c<b<a$",
+            "$c<a<b$"
           ],
           "answer": "D",
-          "solution": "<p>由对数的定义域，底数满足 $d>0$ 且 $d\\ne1$. 又因 $1&#x3C;x&#x3C;d$，只能有 $d>1$. 令 $t=\\log_{d} x$，由 $1&#x3C;x&#x3C;d$ 得 $0&#x3C;t&#x3C;1$. 因而</p><p>$a=t^{2}>0$，$b=\\log_{d}\\left(x^{2}\\right)=2\\log_{d} x=2t>0$，而因为 $0&#x3C;t&#x3C;1$ 且 $d>1$，有 $c=\\log_{d} t&#x3C;0$. 另外 $0&#x3C;t&#x3C;1$ 给出 $t^{2}&#x3C;2t$，所以 $c&#x3C;a&#x3C;b$，选 D.</p>"
+          "solution": "<p>由对数的定义域，底数满足 $d>0$ 且 $d\\ne1$. 又因 $1<x<d$，只能有 $d>1$. 令 $t=\\log_{d} x$，由 $1<x<d$ 得 $0<t<1$. 因而</p><p>$a=t^{2}>0$，$b=\\log_{d}\\left(x^{2}\\right)=2\\log_{d} x=2t>0$，而因为 $0<t<1$ 且 $d>1$，有 $c=\\log_{d} t<0$. 另外 $0<t<1$ 给出 $t^{2}<2t$，所以 $c<a<b$，选 D.</p>"
         },
         {
           "num": 19,
@@ -219,14 +219,14 @@
           "body": "求方程 $\\sqrt{5}\\cos x+\\cos 2x+\\sin x=0$ 在 $[0,2\\pi)$ 上的解.",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $s=\\sin x$，$c=\\cos x$. 原方程为 $\\sqrt{5}c+2c^{2}-1+s=0$. 利用 $c^{2}=1-s^{2}$，可写成</p><p>$\\sqrt{5}c=2s^{2}-s-1$. 两边平方，并用 $c^{2}=1-s^{2}$，得</p>\n$$\n\\left(2s^{2}-s-1\\right)^{2}=5\\left(1-s^{2}\\right)\n$$\n<p>展开并移项，得</p>\n$$\n4s^{4}-4s^{3}-3s^{2}+2s+1=5-5s^{2}  \\Longleftrightarrow 2s^{4}-2s^{3}+s^{2}+s-2=0\n$$\n<p>再因式分解为</p>\n$$\n2(s-1)\\left(2s^{3}+s+2\\right)=0\n$$\n<p>先看 $s=1$. 此时 $c^{2}=1-s^{2}=0$，所以 $c=0$，对应 $x=\\frac{\\pi}{2}$.</p><p>再看 $2s^{3}+s+2=0$. 令 $h(s)=2s^{3}+s+2$，则 $h'(s)=6s^{2}+1>0$，所以该方程至多有一个实根. 又 $h(-1)=-1&#x3C;0$，$h(-\\frac{1}{2})=\\frac{5}{4}>0$，故它有且只有一个根 $s_{0}\\in(-1,-\\frac{1}{2})$. 对此根，$(s_{0}-1)(2s_{0}+1)>0$，所以 $2s_{0}^{2}-s_{0}-1>0$. 由未平方的关系取</p><p>$c_{0}=\\frac{2s_{0}^{2}-s_{0}-1}{\\sqrt{5}}>0$. 前面的平方等式又保证 $c_{0}^{2}=1-s_{0}^{2}$，故 $(s_{0},c_{0})$ 确实满足原方程，没有增根. 由于正弦为负、余弦为正，相应角在第四象限，解为 $x=2\\pi+\\arcsin s_{0}$.</p><p>用卡尔丹公式求三次方程的实根，得到</p>\n$$\ns_{0}=\\sqrt[3]{\\frac{-18+\\sqrt{330}}{36}}+\\sqrt[3]{\\frac{-18-\\sqrt{330}}{36}}\n$$\n<p>所以在 $[0,2\\pi)$ 内的全部解为 $x=\\frac{\\pi}{2}$ 和 $x=2\\pi+\\arcsin s_{0}$，其中 $s_{0}$ 为上式的实数值.</p>"
+          "solution": "<p>令 $s=\\sin x$，$c=\\cos x$. 原方程为 $\\sqrt{5}c+2c^{2}-1+s=0$. 利用 $c^{2}=1-s^{2}$，可写成</p><p>$\\sqrt{5}c=2s^{2}-s-1$. 两边平方，并用 $c^{2}=1-s^{2}$，得</p>\n$$\n\\left(2s^{2}-s-1\\right)^{2}=5\\left(1-s^{2}\\right)\n$$\n<p>展开并移项，得</p>\n$$\n4s^{4}-4s^{3}-3s^{2}+2s+1=5-5s^{2}  \\Longleftrightarrow 2s^{4}-2s^{3}+s^{2}+s-2=0\n$$\n<p>再因式分解为</p>\n$$\n2(s-1)\\left(2s^{3}+s+2\\right)=0\n$$\n<p>先看 $s=1$. 此时 $c^{2}=1-s^{2}=0$，所以 $c=0$，对应 $x=\\frac{\\pi}{2}$.</p><p>再看 $2s^{3}+s+2=0$. 令 $h(s)=2s^{3}+s+2$，则 $h'(s)=6s^{2}+1>0$，所以该方程至多有一个实根. 又 $h(-1)=-1<0$，$h(-\\frac{1}{2})=\\frac{5}{4}>0$，故它有且只有一个根 $s_{0}\\in(-1,-\\frac{1}{2})$. 对此根，$(s_{0}-1)(2s_{0}+1)>0$，所以 $2s_{0}^{2}-s_{0}-1>0$. 由未平方的关系取</p><p>$c_{0}=\\frac{2s_{0}^{2}-s_{0}-1}{\\sqrt{5}}>0$. 前面的平方等式又保证 $c_{0}^{2}=1-s_{0}^{2}$，故 $(s_{0},c_{0})$ 确实满足原方程，没有增根. 由于正弦为负、余弦为正，相应角在第四象限，解为 $x=2\\pi+\\arcsin s_{0}$.</p><p>用卡尔丹公式求三次方程的实根，得到</p>\n$$\ns_{0}=\\sqrt[3]{\\frac{-18+\\sqrt{330}}{36}}+\\sqrt[3]{\\frac{-18-\\sqrt{330}}{36}}\n$$\n<p>所以在 $[0,2\\pi)$ 内的全部解为 $x=\\frac{\\pi}{2}$ 和 $x=2\\pi+\\arcsin s_{0}$，其中 $s_{0}$ 为上式的实数值.</p>"
         },
         {
           "num": 23,
           "body": "已知点 $P$ 在直线 $x=2$ 上移动，直线 $l$ 通过原点且与 $OP$ 垂直，通过点 $A(1,0)$ 及点 $P$ 的直线 $m$ 和直线 $l$ 交于点 $Q$. 求点 $Q$ 的轨迹方程，并指出该轨迹的名称和它的焦点坐标.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $P=(2,t)$，其中 $t\\in\\mathbb{R}$. 向量 $\\overrightarrow{OP}=(2,t)$，所以过原点且垂直于 $OP$ 的直线 $l$ 为 $2x+ty=0$. 过 $A=(1,0)$ 和 $P=(2,t)$ 的直线 $m$ 的斜率为 $t$，故 $m$ 的方程为 $y=t(x-1)$. 设 $Q=(X,Y)$，联立两式：</p><p>$Q=(X,Y)=\\left(\\frac{t^{2}}{t^{2}+2},-\\frac{2t}{t^{2}+2}\\right)$.</p><p>由 $2X+tY=0$ 和 $Y=t(X-1)$，联立可得 $X=\\frac{t^{2}}{t^{2}+2}$，$Y=-\\frac{2t}{t^{2}+2}$.</p><p>于是 $1-X=\\frac{2}{t^{2}+2}$，所以</p><p>$Y^{2}=\\frac{4t^{2}}{(t^{2}+2)^{2}}=2X(1-X)$. 因而轨迹方程为</p>\n$$\n4\\left(X-\\frac{1}{2}\\right)^{2}+2Y^{2}=1\n$$\n<p>将其写成标准式：</p>\n$$\n\\frac{\\left(X-\\frac{1}{2}\\right)^{2}}{\\left(\\frac{1}{2}\\right)^{2}}+\\frac{Y^{2}}{\\left(\\frac{1}{\\sqrt{2}}\\right)^{2}}=1\n$$\n<p>因此轨迹所在的曲线是中心为 $\\left(\\frac{1}{2},0\\right)$、长轴在 $y$ 轴方向的椭圆，半长轴为 $\\frac{1}{\\sqrt{2}}$，半短轴为 $\\frac{1}{2}$. 焦半距为</p><p>$c=\\sqrt{\\left(\\frac{1}{\\sqrt{2}}\\right)^{2}-\\left(\\frac{1}{2}\\right)^{2}}=\\frac{1}{2}$，故焦点为 $\\left(\\frac{1}{2},\\frac{1}{2}\\right)$ 和 $\\left(\\frac{1}{2},-\\frac{1}{2}\\right)$.</p><p>参数 $t$ 为有限实数时 $X&#x3C;1$，所以椭圆上的点 $(1,0)$ 不会取到. 反过来，椭圆上任一点只要不为 $(1,0)$，均可由 $t=-\\frac{Y}{(1-X)}$ 得到，因此实际轨迹是上述椭圆去掉点 $(1,0)$.</p>"
+          "solution": "<p>设 $P=(2,t)$，其中 $t\\in\\mathbb{R}$. 向量 $\\overrightarrow{OP}=(2,t)$，所以过原点且垂直于 $OP$ 的直线 $l$ 为 $2x+ty=0$. 过 $A=(1,0)$ 和 $P=(2,t)$ 的直线 $m$ 的斜率为 $t$，故 $m$ 的方程为 $y=t(x-1)$. 设 $Q=(X,Y)$，联立两式：</p><p>$Q=(X,Y)=\\left(\\frac{t^{2}}{t^{2}+2},-\\frac{2t}{t^{2}+2}\\right)$.</p><p>由 $2X+tY=0$ 和 $Y=t(X-1)$，联立可得 $X=\\frac{t^{2}}{t^{2}+2}$，$Y=-\\frac{2t}{t^{2}+2}$.</p><p>于是 $1-X=\\frac{2}{t^{2}+2}$，所以</p><p>$Y^{2}=\\frac{4t^{2}}{(t^{2}+2)^{2}}=2X(1-X)$. 因而轨迹方程为</p>\n$$\n4\\left(X-\\frac{1}{2}\\right)^{2}+2Y^{2}=1\n$$\n<p>将其写成标准式：</p>\n$$\n\\frac{\\left(X-\\frac{1}{2}\\right)^{2}}{\\left(\\frac{1}{2}\\right)^{2}}+\\frac{Y^{2}}{\\left(\\frac{1}{\\sqrt{2}}\\right)^{2}}=1\n$$\n<p>因此轨迹所在的曲线是中心为 $\\left(\\frac{1}{2},0\\right)$、长轴在 $y$ 轴方向的椭圆，半长轴为 $\\frac{1}{\\sqrt{2}}$，半短轴为 $\\frac{1}{2}$. 焦半距为</p><p>$c=\\sqrt{\\left(\\frac{1}{\\sqrt{2}}\\right)^{2}-\\left(\\frac{1}{2}\\right)^{2}}=\\frac{1}{2}$，故焦点为 $\\left(\\frac{1}{2},\\frac{1}{2}\\right)$ 和 $\\left(\\frac{1}{2},-\\frac{1}{2}\\right)$.</p><p>参数 $t$ 为有限实数时 $X<1$，所以椭圆上的点 $(1,0)$ 不会取到. 反过来，椭圆上任一点只要不为 $(1,0)$，均可由 $t=-\\frac{Y}{(1-X)}$ 得到，因此实际轨迹是上述椭圆去掉点 $(1,0)$.</p>"
         },
         {
           "num": 24,
@@ -254,7 +254,7 @@
           "body": "复平面上点 $A$，$B$ 对应的复数分别为 $z_{1}=2$，$z_{2}=-3$，点 $P$ 对应的复数为 $z$，$\\frac{z-z_{1}}{z-z_{2}}$ 的辐角主值为 $\\varphi$. 当点 $P$ 在以原点为圆心，$1$ 为半径的上半圆周（不包括两个端点）上运动时，求 $\\varphi$ 的最小值.",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $P=(\\cos t,\\sin t)$，其中 $0&#x3C;t&#x3C;\\pi$. 因为 $P$ 在上半平面，向量 $\\overrightarrow{AP}=(\\cos t-2,\\sin t)$ 在第二象限，向量 $\\overrightarrow{BP}=(\\cos t+3,\\sin t)$ 在第一象限，所以</p><p>$\\varphi=\\arg\\overrightarrow{AP}-\\arg\\overrightarrow{BP}$ 是三角形 $APB$ 在 $P$ 处的内角，且 $\\frac{\\pi}{2}&#x3C;\\varphi&#x3C;\\pi$.</p><p>两向量的内积和行列式分别为</p>\n$$\n\\overrightarrow{AP}\\cdot\\overrightarrow{BP}=(\\cos t-2)(\\cos t+3)+\\sin^{2}t=\\cos t-5\n$$\n\n$$\n\\left|\\det(\\overrightarrow{AP},\\overrightarrow{BP})\\right|=5\\sin t\n$$\n<p>令 $\\delta=\\pi-\\varphi$，则 $\\delta$ 为锐角，且</p>\n$$\n\\tan\\delta=\\frac{5\\sin t}{5-\\cos t}\n$$\n<p>因此使 $\\varphi$ 最小，等价于使 $\\frac{\\sin t}{5-\\cos t}$ 最大. 对其求导，</p>\n$$\n\\left(\\frac{\\sin t}{5-\\cos t}\\right)'=\\frac{5\\cos t-1}{(5-\\cos t)^{2}}\n$$\n<p>所以最大值在 $\\cos t=\\frac{1}{5}$ 处取得，此时 $\\sin t=\\frac{2\\sqrt{6}}{5}$，从而</p><p>$\\tan\\delta=\\frac{5\\sqrt{6}}{12}$. 于是</p>\n$$\n\\varphi_{\\min}=\\pi-\\arctan\\frac{5\\sqrt{6}}{12}\n$$"
+          "solution": "<p>设 $P=(\\cos t,\\sin t)$，其中 $0<t<\\pi$. 因为 $P$ 在上半平面，向量 $\\overrightarrow{AP}=(\\cos t-2,\\sin t)$ 在第二象限，向量 $\\overrightarrow{BP}=(\\cos t+3,\\sin t)$ 在第一象限，所以</p><p>$\\varphi=\\arg\\overrightarrow{AP}-\\arg\\overrightarrow{BP}$ 是三角形 $APB$ 在 $P$ 处的内角，且 $\\frac{\\pi}{2}<\\varphi<\\pi$.</p><p>两向量的内积和行列式分别为</p>\n$$\n\\overrightarrow{AP}\\cdot\\overrightarrow{BP}=(\\cos t-2)(\\cos t+3)+\\sin^{2}t=\\cos t-5\n$$\n\n$$\n\\left|\\det(\\overrightarrow{AP},\\overrightarrow{BP})\\right|=5\\sin t\n$$\n<p>令 $\\delta=\\pi-\\varphi$，则 $\\delta$ 为锐角，且</p>\n$$\n\\tan\\delta=\\frac{5\\sin t}{5-\\cos t}\n$$\n<p>因此使 $\\varphi$ 最小，等价于使 $\\frac{\\sin t}{5-\\cos t}$ 最大. 对其求导，</p>\n$$\n\\left(\\frac{\\sin t}{5-\\cos t}\\right)'=\\frac{5\\cos t-1}{(5-\\cos t)^{2}}\n$$\n<p>所以最大值在 $\\cos t=\\frac{1}{5}$ 处取得，此时 $\\sin t=\\frac{2\\sqrt{6}}{5}$，从而</p><p>$\\tan\\delta=\\frac{5\\sqrt{6}}{12}$. 于是</p>\n$$\n\\varphi_{\\min}=\\pi-\\arctan\\frac{5\\sqrt{6}}{12}\n$$"
         }
       ]
     }

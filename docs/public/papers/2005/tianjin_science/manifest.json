@@ -41,7 +41,7 @@
             "$3$"
           ],
           "answer": "B",
-          "solution": "<p>对命题（1），函数 $g(x)=\\dfrac{x}{1+x}$ 在 $x>-1$ 上满足</p><p>$g'(x)=\\dfrac{1}{(1+x)^2}>0$，所以 $a\\ge b$ 时</p><p>$g(a)\\ge g(b)$，命题（1）正确.</p><p>对命题（2），两边非负，平方后只需证 $4m(n-m)\\le n^{2}$. 而</p>\n$$\nn^{2}-4m(n-m)=(n-2m)^{2}\\geqslant0\n$$\n<p>所以命题（2）正确. 命题（3）的条件只说明 $P$ 同时在两圆上，不能推出两圆相切.</p><p>例如取 $P=(3,0)$，$Q=(3,1)$，则 $P$ 在 $O_{1}$ 上且</p><p>$PQ=1$，但两圆圆心距为 $\\sqrt{10}$，满足</p><p>$|3-1|&#x3C;\\sqrt{10}&#x3C;3+1$，两圆相交于两个点而不相切，所以命题（3）错误.</p><p>假命题有 $1$ 个，故选 B.</p>"
+          "solution": "<p>对命题（1），函数 $g(x)=\\dfrac{x}{1+x}$ 在 $x>-1$ 上满足</p><p>$g'(x)=\\dfrac{1}{(1+x)^2}>0$，所以 $a\\ge b$ 时</p><p>$g(a)\\ge g(b)$，命题（1）正确.</p><p>对命题（2），两边非负，平方后只需证 $4m(n-m)\\le n^{2}$. 而</p>\n$$\nn^{2}-4m(n-m)=(n-2m)^{2}\\geqslant0\n$$\n<p>所以命题（2）正确. 命题（3）的条件只说明 $P$ 同时在两圆上，不能推出两圆相切.</p><p>例如取 $P=(3,0)$，$Q=(3,1)$，则 $P$ 在 $O_{1}$ 上且</p><p>$PQ=1$，但两圆圆心距为 $\\sqrt{10}$，满足</p><p>$|3-1|<\\sqrt{10}<3+1$，两圆相交于两个点而不相切，所以命题（3）错误.</p><p>假命题有 $1$ 个，故选 B.</p>"
         },
         {
           "num": 4,
@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "<p>从集合 $\\{1,2,3,\\cdots,11\\}$ 中任选两个元素作为椭圆方程</p><p>$\\dfrac{x^2}{m^2}+\\dfrac{y^2}{n^2}=1$ 中的 $m$ 和 $n$，则能组成落在矩形区域</p><p>$B=\\{(x,y)\\mid |x|&#x3C;11\\text{ 且 }|y|&#x3C;9\\}$ 内的椭圆个数为（$ $）</p>",
+          "body": "<p>从集合 $\\{1,2,3,\\cdots,11\\}$ 中任选两个元素作为椭圆方程</p><p>$\\dfrac{x^2}{m^2}+\\dfrac{y^2}{n^2}=1$ 中的 $m$ 和 $n$，则能组成落在矩形区域</p><p>$B=\\{(x,y)\\mid |x|<11\\text{ 且 }|y|<9\\}$ 内的椭圆个数为（$ $）</p>",
           "choices": [
             "$43$",
             "$72$",
@@ -77,7 +77,7 @@
             "$90$"
           ],
           "answer": "B",
-          "solution": "<p>椭圆上点的横坐标绝对值不超过 $m$，要使整个椭圆落在 $|x|&#x3C;11$ 内，必须且只需</p><p>$m\\leqslant10$；同理，必须且只需 $n\\leqslant8$. 先把 $m$ 和 $n$ 看作有序取值，</p><p>共有 $10\\times8$ 种. 题目要求选取两个不同元素，因此要删去 $m=n$ 且</p><p>$m=n\\in\\{1,2,\\ldots,8\\}$ 的 $8$ 种，故个数为</p><p>$10\\times8-8=72$，选 B.</p>"
+          "solution": "<p>椭圆上点的横坐标绝对值不超过 $m$，要使整个椭圆落在 $|x|<11$ 内，必须且只需</p><p>$m\\leqslant10$；同理，必须且只需 $n\\leqslant8$. 先把 $m$ 和 $n$ 看作有序取值，</p><p>共有 $10\\times8$ 种. 题目要求选取两个不同元素，因此要删去 $m=n$ 且</p><p>$m=n\\in\\{1,2,\\ldots,8\\}$ 的 $8$ 种，故个数为</p><p>$10\\times8-8=72$，选 B.</p>"
         },
         {
           "num": 7,
@@ -125,7 +125,7 @@
             "$\\left(1,\\dfrac{9}{4}\\right)$"
           ],
           "answer": "B",
-          "solution": "<p>在 $x\\in\\left(-\\dfrac{1}{2},0\\right)$ 时 $x&#x3C;0$，所以真数</p><p>$x^{3}-ax=x(x^{2}-a)>0$ 等价于 $a>x^{2}$. 要使真数在整个开区间内有定义，</p><p>必要充分条件为 $a\\ge\\dfrac{1}{4}$.</p><p>令 $g(x)=x^{3}-ax$，则 $g'(x)=3x^{2}-a$. 若 $0&#x3C;a&#x3C;1$，对数函数递减，</p><p>要使 $\\log_{a} g(x)$ 递增，需在整个区间内有 $g'(x)&#x3C;0$. 当</p><p>$a\\ge\\dfrac{3}{4}$ 时，由 $x^{2}&#x3C;\\dfrac{1}{4}$ 得</p><p>$g'(x)&#x3C;\\dfrac{3}{4}-a\\leqslant0$，且不等号实际为严格不等号；当</p><p>$\\dfrac{1}{4}\\le a&#x3C;\\dfrac{3}{4}$ 时，可取充分接近 $-\\dfrac{1}{2}$ 的 $x$，使</p><p>$3x^{2}-a>0$，此时复合函数的导数为负，不能在整个区间内递增. 若 $a>1$，</p><p>则需 $g'(x)>0$，但 $g'(x)&#x3C;\\dfrac{3}{4}-a&#x3C;0$，不可能. 结合 $a\\ne1$，得</p><p>$a\\in\\left[\\dfrac{3}{4},1\\right)$，故选 B.</p>"
+          "solution": "<p>在 $x\\in\\left(-\\dfrac{1}{2},0\\right)$ 时 $x<0$，所以真数</p><p>$x^{3}-ax=x(x^{2}-a)>0$ 等价于 $a>x^{2}$. 要使真数在整个开区间内有定义，</p><p>必要充分条件为 $a\\ge\\dfrac{1}{4}$.</p><p>令 $g(x)=x^{3}-ax$，则 $g'(x)=3x^{2}-a$. 若 $0<a<1$，对数函数递减，</p><p>要使 $\\log_{a} g(x)$ 递增，需在整个区间内有 $g'(x)<0$. 当</p><p>$a\\ge\\dfrac{3}{4}$ 时，由 $x^{2}<\\dfrac{1}{4}$ 得</p><p>$g'(x)<\\dfrac{3}{4}-a\\leqslant0$，且不等号实际为严格不等号；当</p><p>$\\dfrac{1}{4}\\le a<\\dfrac{3}{4}$ 时，可取充分接近 $-\\dfrac{1}{2}$ 的 $x$，使</p><p>$3x^{2}-a>0$，此时复合函数的导数为负，不能在整个区间内递增. 若 $a>1$，</p><p>则需 $g'(x)>0$，但 $g'(x)<\\dfrac{3}{4}-a<0$，不可能. 结合 $a\\ne1$，得</p><p>$a\\in\\left[\\dfrac{3}{4},1\\right)$，故选 B.</p>"
         }
       ]
     },
@@ -205,21 +205,21 @@
           "body": "<p>某人在一山坡 $P$ 处观看对面山顶上的一座铁塔，如图所示，塔高</p><p>$BC=80\\text{ 米}$，塔所在的山高 $OB=220\\text{ 米}$，$OA=200\\text{ 米}$.</p><p>图中所示的山坡可视为直线 $l$ 且点 $P$ 在直线 $l$ 上，$l$ 与水平地面的夹角为</p><p>$\\alpha$，$\\tan\\alpha=\\dfrac{1}{2}$. 试问此人距水平地面多高时，观看塔的视角</p><p>$\\angle BPC$ 最大？（不计此人的身高）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $P$ 距水平地面的高度为 $h\\geqslant0$. 取 $O$ 为原点、水平向右为 $x$ 轴，</p><p>则 $A=(200,0)$，$B=(0,220)$，$C=(0,300)$. 由于山坡斜率为</p><p>$\\dfrac{1}{2}$，有 $P=(200+2h,h)$. 记 $x=200+2h$，则</p><p>$\\overrightarrow{PB}=(-x,220-h)$，$\\overrightarrow{PC}=(-x,300-h)$.</p><p>视角为锐角，且</p>\n$$\n\\tan\\angle BPC  =\\frac{|\\overrightarrow{PB}\\times\\overrightarrow{PC}|}{\\overrightarrow{PB}\\cdot\\overrightarrow{PC}}=\\frac{80x}{x^{2}+(220-h)(300-h)}=\\frac{160(h+100)}{5h^{2}+280h+106000}\n$$\n<p>令右端为 $T(h)$，则 $T'(h)$ 的符号由</p>\n$$\n5h^{2}+280h+106000-(h+100)(10h+280)  =-5(h-60)(h+260)\n$$\n<p>决定. 所以 $T(h)$ 在 $0\\le h&#x3C;60$ 上递增，在 $h>60$ 上递减，</p><p>最大值在 $h=60$ 时取得. 因而此人距水平地面 $60$ 米高时视角最大.</p>"
+          "solution": "<p>设 $P$ 距水平地面的高度为 $h\\geqslant0$. 取 $O$ 为原点、水平向右为 $x$ 轴，</p><p>则 $A=(200,0)$，$B=(0,220)$，$C=(0,300)$. 由于山坡斜率为</p><p>$\\dfrac{1}{2}$，有 $P=(200+2h,h)$. 记 $x=200+2h$，则</p><p>$\\overrightarrow{PB}=(-x,220-h)$，$\\overrightarrow{PC}=(-x,300-h)$.</p><p>视角为锐角，且</p>\n$$\n\\tan\\angle BPC  =\\frac{|\\overrightarrow{PB}\\times\\overrightarrow{PC}|}{\\overrightarrow{PB}\\cdot\\overrightarrow{PC}}=\\frac{80x}{x^{2}+(220-h)(300-h)}=\\frac{160(h+100)}{5h^{2}+280h+106000}\n$$\n<p>令右端为 $T(h)$，则 $T'(h)$ 的符号由</p>\n$$\n5h^{2}+280h+106000-(h+100)(10h+280)  =-5(h-60)(h+260)\n$$\n<p>决定. 所以 $T(h)$ 在 $0\\le h<60$ 上递增，在 $h>60$ 上递减，</p><p>最大值在 $h=60$ 时取得. 因而此人距水平地面 $60$ 米高时视角最大.</p>"
         },
         {
           "num": 21,
-          "body": "<p>抛物线 $C$ 的方程为 $y=ax^{2}$（$a&#x3C;0$），过抛物线 $C$ 上一点</p><p>$P(x_{0},y_{0})$（$x_{0}\\ne0$）作斜率为 $k_{1}$，$k_{2}$ 的两条直线分别交抛物线</p><p>$C$ 于 $A(x_{1},y_{1})$，$B(x_{2},y_{2})$ 两点（$P$，$A$，$B$ 三点互不相同），</p><p>且满足 $k_{2}+\\lambda k_{1}=0$（$\\lambda\\ne0$，$\\lambda\\ne-1$）.</p><ol class=\"enumerate\"><li><p>求抛物线 $C$ 的焦点坐标和准线方程；</p></li><li><p>设直线 $AB$ 上一点 $M$，满足 $\\overrightarrow{BM}=\\lambda\\overrightarrow{MA}$，</p><p>证明线段 $PM$ 的中点在 $y$ 轴上；</p></li><li><p>当 $\\lambda=1$ 时，若点 $P$ 的坐标为 $(1,-1)$，求</p><p>$\\angle PAB$ 为钝角时点 $A$ 的纵坐标 $y_{1}$ 的取值范围.</p></li></ol>",
+          "body": "<p>抛物线 $C$ 的方程为 $y=ax^{2}$（$a<0$），过抛物线 $C$ 上一点</p><p>$P(x_{0},y_{0})$（$x_{0}\\ne0$）作斜率为 $k_{1}$，$k_{2}$ 的两条直线分别交抛物线</p><p>$C$ 于 $A(x_{1},y_{1})$，$B(x_{2},y_{2})$ 两点（$P$，$A$，$B$ 三点互不相同），</p><p>且满足 $k_{2}+\\lambda k_{1}=0$（$\\lambda\\ne0$，$\\lambda\\ne-1$）.</p><ol class=\"enumerate\"><li><p>求抛物线 $C$ 的焦点坐标和准线方程；</p></li><li><p>设直线 $AB$ 上一点 $M$，满足 $\\overrightarrow{BM}=\\lambda\\overrightarrow{MA}$，</p><p>证明线段 $PM$ 的中点在 $y$ 轴上；</p></li><li><p>当 $\\lambda=1$ 时，若点 $P$ 的坐标为 $(1,-1)$，求</p><p>$\\angle PAB$ 为钝角时点 $A$ 的纵坐标 $y_{1}$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>将 $y=ax^{2}$ 写成 $x^{2}=\\dfrac{1}{a}y=4py$，得 $p=\\dfrac1{4a}$.</p><p>所以焦点为 $\\left(0,\\dfrac1{4a}\\right)$，准线为 $y=-\\dfrac1{4a}$.</p></li><li><p>抛物线上两点的弦斜率满足</p>\n$$\n\\frac{y_{1}-y_{0}}{x_{1}-x_{0}}=a(x_{1}+x_{0})\n$$\n<p>故 $k_{1}=a(x_{0}+x_{1})$，$k_{2}=a(x_{0}+x_{2})$. 由条件得</p>\n$$\nx_{2}+\\lambda x_{1}+(1+\\lambda)x_{0}=0\n$$\n<p>又 $\\overrightarrow{BM}=\\lambda\\overrightarrow{MA}$ 给出</p><p>$(1+\\lambda)M=B+\\lambda A$，所以</p>\n$$\nx_{M}=\\frac{x_{2}+\\lambda x_{1}}{1+\\lambda}=-x_{0}\n$$\n<p>因而 $PM$ 的中点横坐标为 $\\dfrac{x_0-x_0}{2}=0$，即线段 $PM$ 的中点在</p><p>$y$ 轴上.</p></li><li><p>$P=(1,-1)$ 在抛物线上，故 $a=-1$，抛物线为 $y=-x^{2}$. 令 $x_{1}=t$，</p><p>由 $k_{1}+k_{2}=0$ 得 $x_{2}=-2-t$. 于是</p><p>$A=(t,-t^{2})$，$B=(-2-t,-(t+2)^{2})$.</p><p>并且</p><p>$\\overrightarrow{AP}=(1-t)(1,-t-1)$，$\\overrightarrow{AB}=-2(t+1)(1,2)$.</p><p>因而</p>\n$$\n\\overrightarrow{AP}\\cdot\\overrightarrow{AB}=2(1-t)(t+1)(2t+1)\n$$\n<p>$\\angle PAB$ 为钝角等价于该内积小于零，即</p>\n$$\nt\\in\\left(-1,-\\frac{1}{2}\\right)\\cup(1,+\\infty)\n$$\n<p>题设还排除 $t=-1$ 时 $A=B$、$t=1$ 时 $A=P$ 以及 $t=-3$ 时</p><p>$B=P$ 的情形；其中 $t=-3$ 不在上面的钝角范围内. 因为 $y_{1}=-t^{2}$，故</p>\n$$\ny_{1}\\in(-\\infty,-1)\\cup\\left(-1,-\\frac{1}{4}\\right)\n$$\n</li></ol>"
         },
         {
           "num": 22,
-          "body": "<p>设函数 $f(x)=x\\sin x$（$x\\in\\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>证明 $f(x+2k\\pi)-f(x)=2k\\pi\\sin x$，其中 $k$ 为整数；</p></li><li><p>设 $x_{0}$ 为 $f(x)$ 的一个极值点，证明</p><p>$\\left[f(x_{0})\\right]^{2}=\\dfrac{x_0^4}{1+x_0^2}$；</p></li><li><p>设 $f(x)$ 在 $(0,+\\infty)$ 内的全部极值点按从小到大的顺序排列</p><p>$a_{1}$，$a_{2}$，$\\ldots$，$a_{n}$，$\\ldots$，证明</p><p>$\\dfrac\\pi2&#x3C;a_{n+1}-a_{n}&#x3C;\\pi$（$n=1$，$2$，$\\ldots$）.</p></li></ol>",
+          "body": "<p>设函数 $f(x)=x\\sin x$（$x\\in\\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>证明 $f(x+2k\\pi)-f(x)=2k\\pi\\sin x$，其中 $k$ 为整数；</p></li><li><p>设 $x_{0}$ 为 $f(x)$ 的一个极值点，证明</p><p>$\\left[f(x_{0})\\right]^{2}=\\dfrac{x_0^4}{1+x_0^2}$；</p></li><li><p>设 $f(x)$ 在 $(0,+\\infty)$ 内的全部极值点按从小到大的顺序排列</p><p>$a_{1}$，$a_{2}$，$\\ldots$，$a_{n}$，$\\ldots$，证明</p><p>$\\dfrac\\pi2<a_{n+1}-a_{n}<\\pi$（$n=1$，$2$，$\\ldots$）.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\sin(x+2k\\pi)=\\sin x$，所以</p>\n$$\nf(x+2k\\pi)-f(x)  =(x+2k\\pi)\\sin x-x\\sin x  =2k\\pi\\sin x\n$$\n</li><li><p>$f'(x)=\\sin x+x\\cos x$. 在极值点 $x_{0}$ 有</p><p>$\\sin x_{0}+x_{0}\\cos x_{0}=0$，即 $\\sin x_{0}=-x_{0}\\cos x_{0}$. 与</p><p>$\\sin^{2}x_{0}+\\cos^{2}x_{0}=1$ 联立，得</p>\n$$\n(1+x_{0}^{2})\\cos^{2}x_{0}=1\n$$\n<p>所以 $\\sin^{2}x_{0}=\\dfrac{x_0^2}{1+x_0^2}$.</p><p>因此</p>\n$$\n\\left[f(x_{0})\\right]^{2}=x_{0}^{2}\\sin^{2}x_{0}  =\\frac{x_{0}^{4}}{1+x_{0}^{2}}\n$$\n</li><li><p>极值点不能满足 $\\cos x=0$，因为此时</p><p>$f'(x)=\\sin x\\ne0$. 因而正极值点必须满足 $\\tan x=-x$. 对 $x>0$，</p><p>右端 $-x&#x3C;0$，所以只需考察正切函数为负的区间</p><p>$I_{n}=\\left(\\left(n-\\frac{1}{2}\\right)\\pi,n\\pi\\right)$，$n=1$，$2$，$\\ldots$</p><p>令 $g(x)=\\tan x+x$. 在每个 $I_{n}$ 上，</p><p>$g'(x)=\\sec^{2}x+1>0$，且当 $x$ 从区间左端趋近时 $g(x)\\to-\\infty$，而</p><p>$g(n\\pi)=n\\pi>0$，所以每个 $I_{n}$ 内恰有一个根，记为 $a_{n}$. 根的两侧</p><p>$g$ 符号相反，而 $\\cos x$ 在 $I_{n}$ 内不变号，因此</p><p>$f'(x)=\\cos x\\,g(x)$ 在 $a_{n}$ 两侧变号；这些根恰为全部正极值点. 由</p><p>$a_{n}&#x3C;n\\pi$ 及 $a_{n+1}>\\left(n+\\frac{1}{2}\\right)\\pi$，得</p>\n$$\na_{n}+\\frac{\\pi}{2}&#x3C;\\left(n+\\frac{1}{2}\\right)\\pi&#x3C;a_{n+1}\n$$\n<p>所以 $a_{n+1}-a_{n}>\\dfrac\\pi2$. 又因为</p><p>$a_{n}>\\left(n-\\frac{1}{2}\\right)\\pi$ 且 $a_{n}&#x3C;n\\pi$，有 $a_{n}+\\pi\\in I_{n+1}$，且</p>\n$$\ng(a_{n}+\\pi)=\\tan a_{n}+a_{n}+\\pi=\\pi>0\n$$\n<p>由于 $g$ 在 $I_{n+1}$ 上递增且在根处为零，根 $a_{n+1}$ 位于 $a_{n}+\\pi$ 左侧，</p><p>故 $a_{n+1}-a_{n}&#x3C;\\pi$. 结论成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\sin(x+2k\\pi)=\\sin x$，所以</p>\n$$\nf(x+2k\\pi)-f(x)  =(x+2k\\pi)\\sin x-x\\sin x  =2k\\pi\\sin x\n$$\n</li><li><p>$f'(x)=\\sin x+x\\cos x$. 在极值点 $x_{0}$ 有</p><p>$\\sin x_{0}+x_{0}\\cos x_{0}=0$，即 $\\sin x_{0}=-x_{0}\\cos x_{0}$. 与</p><p>$\\sin^{2}x_{0}+\\cos^{2}x_{0}=1$ 联立，得</p>\n$$\n(1+x_{0}^{2})\\cos^{2}x_{0}=1\n$$\n<p>所以 $\\sin^{2}x_{0}=\\dfrac{x_0^2}{1+x_0^2}$.</p><p>因此</p>\n$$\n\\left[f(x_{0})\\right]^{2}=x_{0}^{2}\\sin^{2}x_{0}  =\\frac{x_{0}^{4}}{1+x_{0}^{2}}\n$$\n</li><li><p>极值点不能满足 $\\cos x=0$，因为此时</p><p>$f'(x)=\\sin x\\ne0$. 因而正极值点必须满足 $\\tan x=-x$. 对 $x>0$，</p><p>右端 $-x<0$，所以只需考察正切函数为负的区间</p><p>$I_{n}=\\left(\\left(n-\\frac{1}{2}\\right)\\pi,n\\pi\\right)$，$n=1$，$2$，$\\ldots$</p><p>令 $g(x)=\\tan x+x$. 在每个 $I_{n}$ 上，</p><p>$g'(x)=\\sec^{2}x+1>0$，且当 $x$ 从区间左端趋近时 $g(x)\\to-\\infty$，而</p><p>$g(n\\pi)=n\\pi>0$，所以每个 $I_{n}$ 内恰有一个根，记为 $a_{n}$. 根的两侧</p><p>$g$ 符号相反，而 $\\cos x$ 在 $I_{n}$ 内不变号，因此</p><p>$f'(x)=\\cos x\\,g(x)$ 在 $a_{n}$ 两侧变号；这些根恰为全部正极值点. 由</p><p>$a_{n}<n\\pi$ 及 $a_{n+1}>\\left(n+\\frac{1}{2}\\right)\\pi$，得</p>\n$$\na_{n}+\\frac{\\pi}{2}<\\left(n+\\frac{1}{2}\\right)\\pi<a_{n+1}\n$$\n<p>所以 $a_{n+1}-a_{n}>\\dfrac\\pi2$. 又因为</p><p>$a_{n}>\\left(n-\\frac{1}{2}\\right)\\pi$ 且 $a_{n}<n\\pi$，有 $a_{n}+\\pi\\in I_{n+1}$，且</p>\n$$\ng(a_{n}+\\pi)=\\tan a_{n}+a_{n}+\\pi=\\pi>0\n$$\n<p>由于 $g$ 在 $I_{n+1}$ 上递增且在根处为零，根 $a_{n+1}$ 位于 $a_{n}+\\pi$ 左侧，</p><p>故 $a_{n+1}-a_{n}<\\pi$. 结论成立.</p></li></ol>"
         }
       ]
     }

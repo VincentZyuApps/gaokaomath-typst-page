@@ -101,7 +101,7 @@
             "$2$"
           ],
           "answer": "D",
-          "solution": "程序开始时 $t=1$，$M=100$，$S=0$.当 $N=1$ 时循环一次，输出 $S=100$，不小于 $91$.当 $N=2$ 时，第一次循环后 $S=100$，$M=-10$；第二次循环后 $S=100-10=90&#x3C;91$.由于 $N$ 为正整数，满足条件的最小值为 $2$，故选 D."
+          "solution": "程序开始时 $t=1$，$M=100$，$S=0$.当 $N=1$ 时循环一次，输出 $S=100$，不小于 $91$.当 $N=2$ 时，第一次循环后 $S=100$，$M=-10$；第二次循环后 $S=100-10=90<91$.由于 $N$ 为正整数，满足条件的最小值为 $2$，故选 D."
         },
         {
           "num": 9,
@@ -179,10 +179,10 @@
         },
         {
           "num": 16,
-          "body": "<p>设函数</p><p><span class=\"macro macro-examdisplaycases\"></span>f(x)=<br>x+1, &#x26; x<span class=\"macro macro-le\"></span> 0,<br class=\"linebreak\"><br>2^x, &#x26; x>0<br></p><p>则满足 $f(x)+f\\left(x-\\dfrac{1}{2}\\right)>1$ 的 $x$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "body": "<p>设函数</p><p><span class=\"macro macro-examdisplaycases\"></span>f(x)=<br>x+1, & x<span class=\"macro macro-le\"></span> 0,<br class=\"linebreak\"><br>2^x, & x>0<br></p><p>则满足 $f(x)+f\\left(x-\\dfrac{1}{2}\\right)>1$ 的 $x$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
           "choices": null,
           "answer": "$\\left(-\\dfrac{1}{4},+\\infty\\right)$",
-          "solution": "<p>分三段讨论 $x$ 与 $x-\\dfrac{1}{2}$ 所在的区间.当 $x\\leq0$ 时，</p><p>$f(x)+f\\left(x-\\dfrac{1}{2}\\right)=(x+1)+\\left(x-\\dfrac{1}{2}+1\\right)=2x+\\dfrac{3}{2}$，不等式化为 $x>-\\dfrac{1}{4}$，故得到 $\\left(-\\dfrac{1}{4},0\\right]$.</p><p>当 $0&#x3C;x\\leq\\dfrac{1}{2}$ 时，左边为 $2^{x}+x+\\dfrac{1}{2}$，因 $2^{x}>1$ 且 $x>0$，恒大于 $1$.当 $x>\\dfrac{1}{2}$ 时，左边为 $2^{x}+2^{x-\\frac{1}{2}}>1$，也恒成立.合并得 $x\\in\\left(-\\dfrac{1}{4},+\\infty\\right)$.</p>"
+          "solution": "<p>分三段讨论 $x$ 与 $x-\\dfrac{1}{2}$ 所在的区间.当 $x\\leq0$ 时，</p><p>$f(x)+f\\left(x-\\dfrac{1}{2}\\right)=(x+1)+\\left(x-\\dfrac{1}{2}+1\\right)=2x+\\dfrac{3}{2}$，不等式化为 $x>-\\dfrac{1}{4}$，故得到 $\\left(-\\dfrac{1}{4},0\\right]$.</p><p>当 $0<x\\leq\\dfrac{1}{2}$ 时，左边为 $2^{x}+x+\\dfrac{1}{2}$，因 $2^{x}>1$ 且 $x>0$，恒大于 $1$.当 $x>\\dfrac{1}{2}$ 时，左边为 $2^{x}+2^{x-\\frac{1}{2}}>1$，也恒成立.合并得 $x\\in\\left(-\\dfrac{1}{4},+\\infty\\right)$.</p>"
         }
       ]
     },
@@ -219,10 +219,10 @@
         },
         {
           "num": 21,
-          "body": "<p>已知函数 $f(x)=\\ln x+ax^{2}+(2a+1)x$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>当 $a&#x3C;0$ 时，证明 $f(x)\\le -\\dfrac{3}{4a}-2$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x)=\\ln x+ax^{2}+(2a+1)x$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>当 $a<0$ 时，证明 $f(x)\\le -\\dfrac{3}{4a}-2$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>0$，且</p><p>$f'(x)=\\dfrac{1}{x}+2ax+2a+1=\\dfrac{(2ax+1)(x+1)}{x}$.由于 $x>0$，$x+1>0$，所以 $f'(x)$ 的符号由 $2ax+1$ 决定.</p><p>当 $a\\geq0$ 时，$2ax+1>0$，故 $f(x)$ 在 $(0,+\\infty)$ 上单调递增.当 $a&#x3C;0$ 时，令 $2ax+1=0$，得 $x_{0}=-\\dfrac{1}{2a}>0$.在 $0&#x3C;x&#x3C;x_{0}$ 时 $f'(x)>0$，在 $x>x_{0}$ 时 $f'(x)&#x3C;0$，所以 $f(x)$ 在 $\\left(0,-\\dfrac{1}{2a}\\right)$ 上单调递增，在 $\\left(-\\dfrac{1}{2a},+\\infty\\right)$ 上单调递减.</p></li><li><p>当 $a&#x3C;0$ 时，由上问知 $f(x)$ 的最大值为</p><p>$f\\left(-\\dfrac{1}{2a}\\right)=\\ln\\left(-\\dfrac{1}{2a}\\right)-1-\\dfrac{1}{4a}$.令 $t=-\\dfrac{1}{2a}>0$，则需证明</p><p>$\\ln t-1-\\dfrac{1}{4a}\\leq-\\dfrac{3}{4a}-2$，这等价于 $\\ln t+1-t\\leq0$.</p><p>令 $g(t)=\\ln t+1-t$，则 $g'(t)=\\dfrac{1}{t}-1=\\dfrac{1-t}{t}$.因此 $g(t)$ 在 $(0,1)$ 上递增，在 $(1,+\\infty)$ 上递减，最大值为 $g(1)=0$.所以 $\\ln t+1-t\\leq0$，从而</p><p>$f(x)\\leq f\\left(-\\dfrac{1}{2a}\\right)\\leq-\\dfrac{3}{4a}-2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>0$，且</p><p>$f'(x)=\\dfrac{1}{x}+2ax+2a+1=\\dfrac{(2ax+1)(x+1)}{x}$.由于 $x>0$，$x+1>0$，所以 $f'(x)$ 的符号由 $2ax+1$ 决定.</p><p>当 $a\\geq0$ 时，$2ax+1>0$，故 $f(x)$ 在 $(0,+\\infty)$ 上单调递增.当 $a<0$ 时，令 $2ax+1=0$，得 $x_{0}=-\\dfrac{1}{2a}>0$.在 $0<x<x_{0}$ 时 $f'(x)>0$，在 $x>x_{0}$ 时 $f'(x)<0$，所以 $f(x)$ 在 $\\left(0,-\\dfrac{1}{2a}\\right)$ 上单调递增，在 $\\left(-\\dfrac{1}{2a},+\\infty\\right)$ 上单调递减.</p></li><li><p>当 $a<0$ 时，由上问知 $f(x)$ 的最大值为</p><p>$f\\left(-\\dfrac{1}{2a}\\right)=\\ln\\left(-\\dfrac{1}{2a}\\right)-1-\\dfrac{1}{4a}$.令 $t=-\\dfrac{1}{2a}>0$，则需证明</p><p>$\\ln t-1-\\dfrac{1}{4a}\\leq-\\dfrac{3}{4a}-2$，这等价于 $\\ln t+1-t\\leq0$.</p><p>令 $g(t)=\\ln t+1-t$，则 $g'(t)=\\dfrac{1}{t}-1=\\dfrac{1-t}{t}$.因此 $g(t)$ 在 $(0,1)$ 上递增，在 $(1,+\\infty)$ 上递减，最大值为 $g(1)=0$.所以 $\\ln t+1-t\\leq0$，从而</p><p>$f(x)\\leq f\\left(-\\dfrac{1}{2a}\\right)\\leq-\\dfrac{3}{4a}-2$.</p></li></ol>"
         }
       ]
     },
@@ -241,7 +241,7 @@
           "body": "<p>已知函数 $f(x)=|x+1|-|x-2|$.</p><ol class=\"enumerate\"><li><p>求不等式 $f(x)\\ge 1$ 的解集；</p></li><li><p>若不等式 $f(x)\\ge x^{2}-x+m$ 的解集非空，求 $m$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>按 $x$ 与 $-1$，$2$ 的位置分段，有</p><p>$\\displaystyle f(x)=  \\begin{cases}-3,&#x26;x\\leq-1,\\\\  2x-1,&#x26;-1&#x3C;x&#x3C;2,\\\\  3,&#x26;x\\geq2.\\end{cases}$</p><p>当 $x\\leq-1$ 时，$f(x)=-3&#x3C;1$；当 $-1&#x3C;x&#x3C;2$ 时，$2x-1\\geq1$ 等价于 $x\\geq1$；当 $x\\geq2$ 时，$f(x)=3\\geq1$.所以解集为 $[1,+\\infty)$.</p></li><li><p>原不等式有解，当且仅当存在 $x$ 使 $m\\leq f(x)-x^{2}+x$.令 $g(x)=f(x)-x^{2}+x$，则</p><p>$\\displaystyle g(x)=  \\begin{cases}-x^{2}+x-3,&#x26;x\\leq-1,\\\\  -x^{2}+3x-1,&#x26;-1&#x3C;x&#x3C;2,\\\\  -x^{2}+x+3,&#x26;x\\geq2.\\end{cases}$</p><p>在 $x\\leq-1$ 上，二次函数顶点在区间外且递增，最大值为 $g(-1)=-5$.在 $-1&#x3C;x&#x3C;2$ 上，顶点为 $x=\\dfrac{3}{2}$，最大值为 $g\\left(\\dfrac{3}{2}\\right)=\\dfrac{5}{4}$.在 $x\\geq2$ 上函数递减，最大值为 $g(2)=1$.故 $g(x)$ 的全局最大值为 $\\dfrac{5}{4}$，原不等式有解等价于 $m\\leq\\dfrac{5}{4}$.因此 $m\\in\\left(-\\infty,\\dfrac{5}{4}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>按 $x$ 与 $-1$，$2$ 的位置分段，有</p><p>$\\displaystyle f(x)=  \\begin{cases}-3,&x\\leq-1,\\\\  2x-1,&-1<x<2,\\\\  3,&x\\geq2.\\end{cases}$</p><p>当 $x\\leq-1$ 时，$f(x)=-3<1$；当 $-1<x<2$ 时，$2x-1\\geq1$ 等价于 $x\\geq1$；当 $x\\geq2$ 时，$f(x)=3\\geq1$.所以解集为 $[1,+\\infty)$.</p></li><li><p>原不等式有解，当且仅当存在 $x$ 使 $m\\leq f(x)-x^{2}+x$.令 $g(x)=f(x)-x^{2}+x$，则</p><p>$\\displaystyle g(x)=  \\begin{cases}-x^{2}+x-3,&x\\leq-1,\\\\  -x^{2}+3x-1,&-1<x<2,\\\\  -x^{2}+x+3,&x\\geq2.\\end{cases}$</p><p>在 $x\\leq-1$ 上，二次函数顶点在区间外且递增，最大值为 $g(-1)=-5$.在 $-1<x<2$ 上，顶点为 $x=\\dfrac{3}{2}$，最大值为 $g\\left(\\dfrac{3}{2}\\right)=\\dfrac{5}{4}$.在 $x\\geq2$ 上函数递减，最大值为 $g(2)=1$.故 $g(x)$ 的全局最大值为 $\\dfrac{5}{4}$，原不等式有解等价于 $m\\leq\\dfrac{5}{4}$.因此 $m\\in\\left(-\\infty,\\dfrac{5}{4}\\right]$.</p></li></ol>"
         }
       ]
     }

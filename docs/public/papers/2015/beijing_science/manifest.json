@@ -69,24 +69,24 @@
         },
         {
           "num": 6,
-          "body": "<p>设 $\\{a_{n}\\}$ 是等差数列，下列结论中正确的是（ ）</p><p>C</p><p>设等差数列的公差为 $d$，则 $a_{2}=a_{1}+d$、$a_{3}=a_{1}+2d$.</p><p>选项 A 不成立，例如取 $a_{1}=1$、$d=-\\frac{3}{2}$，则 $a_{1}+a_{2}=\\frac{1}{2}>0$，但 $a_{2}+a_{3}=-\\frac{5}{2}&#x3C;0$. 选项 B 不成立，例如取 $a_{1}=1$、$d=-\\frac{6}{5}$，则 $a_{1}+a_{3}=-\\frac{2}{5}&#x3C;0$，但 $a_{1}+a_{2}=\\frac{4}{5}>0$.</p><p>若 $0&#x3C;a_{1}&#x3C;a_{2}$，则 $d>0$，且</p>\n$$\na_{2}^{2}-a_{1}a_{3}=(a_{1}+d)^{2}-a_{1}(a_{1}+2d)=d^{2}>0\n$$\n<p>由于 $a_{1}a_{3}>0$，故 $a_{2}>\\sqrt{a_{1}a_{3}}$，选项 C 正确. 对于选项 D，有 $(a_{2}-a_{1})(a_{2}-a_{3})=d(-d)=-d^{2}\\leqslant0$，不可能大于零，故选 C.</p>",
+          "body": "<p>设 $\\{a_{n}\\}$ 是等差数列，下列结论中正确的是（ ）</p><p>C</p><p>设等差数列的公差为 $d$，则 $a_{2}=a_{1}+d$、$a_{3}=a_{1}+2d$.</p><p>选项 A 不成立，例如取 $a_{1}=1$、$d=-\\frac{3}{2}$，则 $a_{1}+a_{2}=\\frac{1}{2}>0$，但 $a_{2}+a_{3}=-\\frac{5}{2}<0$. 选项 B 不成立，例如取 $a_{1}=1$、$d=-\\frac{6}{5}$，则 $a_{1}+a_{3}=-\\frac{2}{5}<0$，但 $a_{1}+a_{2}=\\frac{4}{5}>0$.</p><p>若 $0<a_{1}<a_{2}$，则 $d>0$，且</p>\n$$\na_{2}^{2}-a_{1}a_{3}=(a_{1}+d)^{2}-a_{1}(a_{1}+2d)=d^{2}>0\n$$\n<p>由于 $a_{1}a_{3}>0$，故 $a_{2}>\\sqrt{a_{1}a_{3}}$，选项 C 正确. 对于选项 D，有 $(a_{2}-a_{1})(a_{2}-a_{3})=d(-d)=-d^{2}\\leqslant0$，不可能大于零，故选 C.</p>",
           "choices": [
             "若 $a_{1}+ a_{2}> 0$，则 $a_{2}+ a_{3}> 0$",
-            "若 $a_{1}+ a_{3}&#x3C; 0$，则 $a_{1}+ a_{2}&#x3C; 0$",
-            "若 $0 &#x3C; a_{1}&#x3C; a_{2}$，则 $a_{2}> \\sqrt{a_{1}a_{3}}$",
-            "若 $a_{1}&#x3C; 0$，则 $(a_{2}- a_{1})(a_{2}- a_{3}) > 0$"
+            "若 $a_{1}+ a_{3}< 0$，则 $a_{1}+ a_{2}< 0$",
+            "若 $0 < a_{1}< a_{2}$，则 $a_{2}> \\sqrt{a_{1}a_{3}}$",
+            "若 $a_{1}< 0$，则 $(a_{2}- a_{1})(a_{2}- a_{3}) > 0$"
           ],
           "answer": "",
           "solution": ""
         },
         {
           "num": 7,
-          "body": "<p>如图，函数 $f(x)$ 的图象为折线 $ACB$，则不等式 $f(x) \\ge \\log_{2}(x + 1)$ 的解集是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>C</p><p>由图可知，折线 $ACB$ 的端点横坐标为 $-1$、$2$，且 $C=(0,2)$. 当 $-1&#x3C;x\\leqslant0$ 时，$f(x)=2x+2=2(x+1)>0$，而 $0&#x3C;x+1\\leqslant1$ 时 $\\log_{2}(x+1)\\leqslant0$，所以不等式成立.</p><p>当 $0\\le x\\leqslant1$ 时，$f(x)=2-x\\geqslant1$，且 $1\\le x+1\\leqslant2$，故 $\\log_{2}(x+1)\\leqslant1$，不等式仍成立. 当 $1&#x3C;x\\leqslant2$ 时，$f(x)=2-x&#x3C;1$，而 $\\log_{2}(x+1)>1$，不等式不成立. 另外，$x=-1$ 不在对数函数定义域内，因此解集为 $\\{x\\mid-1&#x3C;x\\leqslant1\\}$，故选 C.</p>",
+          "body": "<p>如图，函数 $f(x)$ 的图象为折线 $ACB$，则不等式 $f(x) \\ge \\log_{2}(x + 1)$ 的解集是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>C</p><p>由图可知，折线 $ACB$ 的端点横坐标为 $-1$、$2$，且 $C=(0,2)$. 当 $-1<x\\leqslant0$ 时，$f(x)=2x+2=2(x+1)>0$，而 $0<x+1\\leqslant1$ 时 $\\log_{2}(x+1)\\leqslant0$，所以不等式成立.</p><p>当 $0\\le x\\leqslant1$ 时，$f(x)=2-x\\geqslant1$，且 $1\\le x+1\\leqslant2$，故 $\\log_{2}(x+1)\\leqslant1$，不等式仍成立. 当 $1<x\\leqslant2$ 时，$f(x)=2-x<1$，而 $\\log_{2}(x+1)>1$，不等式不成立. 另外，$x=-1$ 不在对数函数定义域内，因此解集为 $\\{x\\mid-1<x\\leqslant1\\}$，故选 C.</p>",
           "choices": [
-            "$\\{x\\mid-1&#x3C;x\\leq0\\}$",
+            "$\\{x\\mid-1<x\\leq0\\}$",
             "$\\{x\\mid -1\\le x\\le 1\\}$",
-            "$\\{x\\mid -1 &#x3C; x\\le 1\\}$",
-            "$\\{x\\mid -1 &#x3C; x\\le 2\\}$"
+            "$\\{x\\mid -1 < x\\le 1\\}$",
+            "$\\{x\\mid -1 < x\\le 2\\}$"
           ],
           "answer": "",
           "solution": ""
@@ -145,7 +145,7 @@
         },
         {
           "num": 14,
-          "body": "<p>函数 $f(x)=\\begin{cases}2^{x}-a,&#x26;x&#x3C;1,\\\\  4(x-a)(x-2a),&#x26;x\\ge 1.\\end{cases}$</p><ol class=\"enumerate\"><li><p>若 $a=1$，则 $f(x)$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；</p></li><li><p>若 $f(x)$ 恰有 $2$ 个零点，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p></li></ol><p>$-1$，$\\left[\\dfrac{1}{2},1\\right)\\cup[2,+\\infty)$</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，$x&#x3C;1$ 时 $f(x)=2^{x}-1$，该函数递增且下界为 $-1$. 当 $x\\geqslant1$ 时，$f(x)=4(x-1)(x-2)$，其顶点为 $\\left(\\frac{3}{2},-1\\right)$，且顶点在定义域内. 所以 $f(x)$ 的最小值为 $-1$.</p></li><li><p>当 $x&#x3C;1$ 时，方程 $f(x)=0$ 等价于 $2^{x}=a$，它有一个定义域内的根当且仅当 $0&#x3C;a&#x3C;2$. 当 $x\\geqslant1$ 时，方程 $f(x)=0$ 的根为 $x=a$ 和 $x=2a$，分别满足定义域条件当且仅当 $a\\geqslant1$ 和 $a\\ge\\frac{1}{2}$.</p><p>当 $a\\leqslant0$ 时没有零点；当 $0&#x3C;a&#x3C;\\frac{1}{2}$ 时只有第一个分支的一个零点；当 $\\frac{1}{2}\\le a&#x3C;1$ 时有第一个分支的一个零点和第二分支的一个零点；当 $1\\le a&#x3C;2$ 时共有三个零点. 当 $a\\geqslant2$ 时第一个分支没有零点，而第二分支的两个根均在定义域内. 因此恰有两个零点时，$a\\in\\left[\\frac{1}{2},1\\right)\\cup[2,+\\infty)$.</p></li></ol>",
+          "body": "<p>函数 $f(x)=\\begin{cases}2^{x}-a,&x<1,\\\\  4(x-a)(x-2a),&x\\ge 1.\\end{cases}$</p><ol class=\"enumerate\"><li><p>若 $a=1$，则 $f(x)$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；</p></li><li><p>若 $f(x)$ 恰有 $2$ 个零点，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p></li></ol><p>$-1$，$\\left[\\dfrac{1}{2},1\\right)\\cup[2,+\\infty)$</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，$x<1$ 时 $f(x)=2^{x}-1$，该函数递增且下界为 $-1$. 当 $x\\geqslant1$ 时，$f(x)=4(x-1)(x-2)$，其顶点为 $\\left(\\frac{3}{2},-1\\right)$，且顶点在定义域内. 所以 $f(x)$ 的最小值为 $-1$.</p></li><li><p>当 $x<1$ 时，方程 $f(x)=0$ 等价于 $2^{x}=a$，它有一个定义域内的根当且仅当 $0<a<2$. 当 $x\\geqslant1$ 时，方程 $f(x)=0$ 的根为 $x=a$ 和 $x=2a$，分别满足定义域条件当且仅当 $a\\geqslant1$ 和 $a\\ge\\frac{1}{2}$.</p><p>当 $a\\leqslant0$ 时没有零点；当 $0<a<\\frac{1}{2}$ 时只有第一个分支的一个零点；当 $\\frac{1}{2}\\le a<1$ 时有第一个分支的一个零点和第二分支的一个零点；当 $1\\le a<2$ 时共有三个零点. 当 $a\\geqslant2$ 时第一个分支没有零点，而第二分支的两个根均在定义域内. 因此恰有两个零点时，$a\\in\\left[\\frac{1}{2},1\\right)\\cup[2,+\\infty)$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -181,7 +181,7 @@
           "body": "<p>已知函数 $f(x)=\\ln\\dfrac{1+x}{1-x}$.</p><ol class=\"enumerate\"><li><p>求曲线 $y=f(x)$ 在点 $(0,f(0))$ 处的切线方程；</p></li><li><p>求证：当 $x\\in(0,1)$ 时，$f(x)>2\\left(x+\\dfrac{x^3}{3}\\right)$；</p></li><li><p>设实数 $k$ 使得 $f(x)>k\\left(x+\\dfrac{x^3}{3}\\right)$ 对 $x\\in(0,1)$ 恒成立，求 $k$ 的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(-1,1)$，且 $f(0)=0$. 由</p>\n$$\nf'(x)=\\frac{1}{1+x}+\\frac{1}{1-x}=\\frac{2}{1-x^{2}}\n$$\n<p>得 $f'(0)=2$. 因此曲线在 $(0,f(0))=(0,0)$ 处的切线方程为 $y=2x$.</p></li><li><p>令 $g(x)=f(x)-2\\left(x+\\dfrac{x^3}{3}\\right)$. 则 $g(0)=0$，且当 $0&#x3C;x&#x3C;1$ 时</p>\n$$\ng'(x)=\\frac{2}{1-x^{2}}-2-2x^{2}  =\\frac{2x^{4}}{1-x^{2}}>0\n$$\n<p>所以 $g(x)>g(0)=0$，即 $f(x)>2\\left(x+\\dfrac{x^3}{3}\\right)$.</p></li><li><p>记 $h(x)=x+\\dfrac{x^3}{3}$. 当 $0&#x3C;x&#x3C;1$ 时，$h(x)>0$，第（2）问说明 $k=2$ 符合条件. 另一方面，</p>\n$$\n\\lim_{x\\to0^+}\\frac{f(x)}{h(x)}=\\lim_{x\\to0^+}\\frac{f'(x)}{h'(x)}=\\frac{2}{1}=2\n$$\n<p>若某个实数 $k$ 使得对所有 $x\\in(0,1)$ 都有 $f(x)>k h(x)$，则因 $h(x)>0$ 有 $\\dfrac{f(x)}{h(x)}>k$，取极限可得 $2\\ge k$. 所以满足条件的 $k$ 不超过 $2$，最大值为 $2$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $(-1,1)$，且 $f(0)=0$. 由</p>\n$$\nf'(x)=\\frac{1}{1+x}+\\frac{1}{1-x}=\\frac{2}{1-x^{2}}\n$$\n<p>得 $f'(0)=2$. 因此曲线在 $(0,f(0))=(0,0)$ 处的切线方程为 $y=2x$.</p></li><li><p>令 $g(x)=f(x)-2\\left(x+\\dfrac{x^3}{3}\\right)$. 则 $g(0)=0$，且当 $0<x<1$ 时</p>\n$$\ng'(x)=\\frac{2}{1-x^{2}}-2-2x^{2}  =\\frac{2x^{4}}{1-x^{2}}>0\n$$\n<p>所以 $g(x)>g(0)=0$，即 $f(x)>2\\left(x+\\dfrac{x^3}{3}\\right)$.</p></li><li><p>记 $h(x)=x+\\dfrac{x^3}{3}$. 当 $0<x<1$ 时，$h(x)>0$，第（2）问说明 $k=2$ 符合条件. 另一方面，</p>\n$$\n\\lim_{x\\to0^+}\\frac{f(x)}{h(x)}=\\lim_{x\\to0^+}\\frac{f'(x)}{h'(x)}=\\frac{2}{1}=2\n$$\n<p>若某个实数 $k$ 使得对所有 $x\\in(0,1)$ 都有 $f(x)>k h(x)$，则因 $h(x)>0$ 有 $\\dfrac{f(x)}{h(x)}>k$，取极限可得 $2\\ge k$. 所以满足条件的 $k$ 不超过 $2$，最大值为 $2$.</p></li></ol>"
         },
         {
           "num": 19,
@@ -192,7 +192,7 @@
         },
         {
           "num": 20,
-          "body": "<p>已知数列 $\\{a_{n}\\}$ 满足：$a_{1}\\in\\mathbb{N}^{*}$，$a_{1}\\le 36$，且 $a_{n+1}=\\begin{cases}2a_{n},&#x26;a_{n}\\le 18,\\\\  2a_{n}-36,&#x26;a_{n}>18,\\end{cases}$（$n=1$，$2$，$\\cdots$）. 记集合 $M=\\{a_{n}\\mid n\\in\\mathbb{N}^{*}\\}$.</p><ol class=\"enumerate\"><li><p>若 $a_{1}=6$，写出集合 $M$ 的所有元素；</p></li><li><p>若集合 $M$ 存在一个元素是 $3$ 的倍数，证明：$M$ 的所有元素都是 $3$ 的倍数；</p></li><li><p>求集合 $M$ 的元素个数的最大值.</p></li></ol>",
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 满足：$a_{1}\\in\\mathbb{N}^{*}$，$a_{1}\\le 36$，且 $a_{n+1}=\\begin{cases}2a_{n},&a_{n}\\le 18,\\\\  2a_{n}-36,&a_{n}>18,\\end{cases}$（$n=1$，$2$，$\\cdots$）. 记集合 $M=\\{a_{n}\\mid n\\in\\mathbb{N}^{*}\\}$.</p><ol class=\"enumerate\"><li><p>若 $a_{1}=6$，写出集合 $M$ 的所有元素；</p></li><li><p>若集合 $M$ 存在一个元素是 $3$ 的倍数，证明：$M$ 的所有元素都是 $3$ 的倍数；</p></li><li><p>求集合 $M$ 的元素个数的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": "<ol class=\"enumerate\"><li><p>当 $a_{1}=6$ 时，数列依次为 $6$，$12$，$24$，$12$，$24$，$\\ldots$，所以 $M=\\{6,12,24\\}$.</p></li><li><p>对任意 $n$，递推式都可写成 $a_{n+1}\\equiv2a_{n}\\pmod3$，因为 $36$ 是 $3$ 的倍数. 由于 $2$ 在模 $3$ 意义下可逆，故</p>\n$$\n3\\mid a_{n+1}\\Longleftrightarrow3\\mid a_{n}\n$$\n<p>若 $M$ 中有一个元素是 $3$ 的倍数，则该元素之前的各项和之后的各项均为 $3$ 的倍数，所以 $M$ 的所有元素都是 $3$ 的倍数.</p></li><li><p>将递推式看作在 $1$，$2$，$\\ldots$，$36$ 中进行的 $2a_{n}$ 对 $36$ 取余，其中余数 $0$ 用 $36$ 表示. 若 $3\\mid a_{1}$，令 $a_{n}=3b_{n}$，则 $b_{n+1}\\equiv2b_{n}\\pmod{12}$. 从第三项开始，$b_{3}\\equiv4b_{1}\\pmod{12}$，因而后续各项至多形成一个长度为 $2$ 的循环；连同前两项，元素个数不超过 $4$.</p><p>若 $3\\nmid a_{1}$，则所有 $a_{n}$ 都不是 $3$ 的倍数. 从第三项开始，$a_{n}$ 都是 $4$ 的倍数，可写为 $a_{n}=4c_{n}$，其中 $c_{n}$ 按模 $9$ 递推为 $c_{n+1}\\equiv2c_{n}\\pmod9$. 非三倍数的模 $9$ 非零剩余在乘以 $2$ 后至多经过 $6$ 项循环，因为 $2^{6}\\equiv1\\pmod9$. 因此从第三项开始至多有 $6$ 个不同元素，连同前两项，$|M|\\leqslant8$.</p><p>取 $a_{1}=1$，得到</p><p>$1$，$2$，$4$，$8$，$16$，$32$，$28$，$20$，$4$，$\\ldots$</p><p>其中前八项互不相同，所以 $|M|=8$ 可以达到. 因此集合 $M$ 的元素个数的最大值为 $8$.</p></li></ol>"

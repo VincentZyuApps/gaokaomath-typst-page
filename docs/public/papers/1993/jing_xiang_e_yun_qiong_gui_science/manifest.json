@@ -65,7 +65,7 @@
             "减函数且是偶函数"
           ],
           "answer": "A",
-          "solution": "<p>因为 $5$ 是奇数，$x^{\\frac{3}{5}}$ 对每个实数 $x$ 都有意义. 若 $x_{1}&#x3C;x_{2}$，则</p><p>$\\sqrt[5]{x_{1}}&#x3C;\\sqrt[5]{x_{2}}$，$\\Longrightarrow$，$\\left(\\sqrt[5]{x_{1}}\\right)^{3}&#x3C;\\left(\\sqrt[5]{x_{2}}\\right)^{3}$，</p><p>所以 $y=x^{\\frac{3}{5}}$ 是增函数. 又</p>\n$$\n(-x)^{\\frac{3}{5}}=-x^{\\frac{3}{5}}\n$$\n<p>所以它是奇函数，故选 A.</p>"
+          "solution": "<p>因为 $5$ 是奇数，$x^{\\frac{3}{5}}$ 对每个实数 $x$ 都有意义. 若 $x_{1}<x_{2}$，则</p><p>$\\sqrt[5]{x_{1}}<\\sqrt[5]{x_{2}}$，$\\Longrightarrow$，$\\left(\\sqrt[5]{x_{1}}\\right)^{3}<\\left(\\sqrt[5]{x_{2}}\\right)^{3}$，</p><p>所以 $y=x^{\\frac{3}{5}}$ 是增函数. 又</p>\n$$\n(-x)^{\\frac{3}{5}}=-x^{\\frac{3}{5}}\n$$\n<p>所以它是奇函数，故选 A.</p>"
         },
         {
           "num": 6,
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "参数方程 $x=\\left|\\cos\\frac{\\theta}{2}+\\sin\\frac{\\theta}{2}\\right|$，$y=\\frac{1}{2}(1+\\sin\\theta)$（$0&#x3C;\\theta&#x3C;2\\pi$）表示（ ）",
+          "body": "参数方程 $x=\\left|\\cos\\frac{\\theta}{2}+\\sin\\frac{\\theta}{2}\\right|$，$y=\\frac{1}{2}(1+\\sin\\theta)$（$0<\\theta<2\\pi$）表示（ ）",
           "choices": [
             "双曲线的一支，这支过点 $\\left(1,\\frac{1}{2}\\right)$",
             "抛物线的一部分，这部分过 $\\left(1,\\frac{1}{2}\\right)$",
@@ -120,12 +120,12 @@
           "body": "若 $a$，$b$ 是任意实数，且 $a>b$，则（ ）",
           "choices": [
             "$a^{2}>b^{2}$",
-            "$\\frac{b}{a}&#x3C;1$",
+            "$\\frac{b}{a}<1$",
             "$\\lg(a-b)>0$",
-            "$\\left(\\frac{1}{2}\\right)^{a}&#x3C;\\left(\\frac{1}{2}\\right)^{b}$"
+            "$\\left(\\frac{1}{2}\\right)^{a}<\\left(\\frac{1}{2}\\right)^{b}$"
           ],
           "answer": "D",
-          "solution": "<p>前三个选项均不恒成立：取 $a=1$，$b=-2$，有 $a>b$ 但 $a^{2}&#x3C;b^{2}$；取 $a=-1$，$b=-2$，有 $\\frac{b}{a}=2>1$；取 $a=1$，$b=0$，有 $\\lg(a-b)=\\lg1=0$. 对于选项 D，因为底数 $\\frac{1}{2}\\in(0,1)$，指数函数 $y=\\left(\\frac{1}{2}\\right)^{x}$ 是减函数，所以由 $a>b$ 得</p>\n$$\n\\left(\\frac{1}{2}\\right)^{a}&#x3C;\\left(\\frac{1}{2}\\right)^{b}\n$$\n<p>故选 D.</p>"
+          "solution": "<p>前三个选项均不恒成立：取 $a=1$，$b=-2$，有 $a>b$ 但 $a^{2}<b^{2}$；取 $a=-1$，$b=-2$，有 $\\frac{b}{a}=2>1$；取 $a=1$，$b=0$，有 $\\lg(a-b)=\\lg1=0$. 对于选项 D，因为底数 $\\frac{1}{2}\\in(0,1)$，指数函数 $y=\\left(\\frac{1}{2}\\right)^{x}$ 是减函数，所以由 $a>b$ 得</p>\n$$\n\\left(\\frac{1}{2}\\right)^{a}<\\left(\\frac{1}{2}\\right)^{b}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 11,
@@ -137,7 +137,7 @@
             "抛物线"
           ],
           "answer": "C",
-          "solution": "<p>两已知圆的圆心和半径分别为</p><p>$O_{1}=(0,0)$，$r_{1}=1$，$O_{2}=(4,0)$，$r_{2}=2$.</p><p>设动圆圆心为 $P$，半径为 $r$. 外切条件给出</p><p>$PO_{1}=r+1$，$PO_{2}=r+2$.</p><p>相减得</p>\n$$\nPO_{2}-PO_{1}=1\n$$\n<p>这表示点 $P$ 到两个定点 $O_{1}$，$O_{2}$ 的距离之差为定值 $1$，且 $1&#x3C;O_{1}O_{2}=4$，所以 $P$ 的轨迹是双曲线的一支，故选 C.</p>"
+          "solution": "<p>两已知圆的圆心和半径分别为</p><p>$O_{1}=(0,0)$，$r_{1}=1$，$O_{2}=(4,0)$，$r_{2}=2$.</p><p>设动圆圆心为 $P$，半径为 $r$. 外切条件给出</p><p>$PO_{1}=r+1$，$PO_{2}=r+2$.</p><p>相减得</p>\n$$\nPO_{2}-PO_{1}=1\n$$\n<p>这表示点 $P$ 到两个定点 $O_{1}$，$O_{2}$ 的距离之差为定值 $1$，且 $1<O_{1}O_{2}=4$，所以 $P$ 的轨迹是双曲线的一支，故选 C.</p>"
         },
         {
           "num": 12,
@@ -149,7 +149,7 @@
             "$2\\left(\\frac{l}{4}\\right)^{3}\\pi$"
           ],
           "answer": "A",
-          "solution": "<p>设圆柱底面半径为 $r$，高为 $h$. 轴截面是长为 $h$、宽为 $2r$ 的矩形，因此</p><p>$2h+4r=l$，$h=\\frac{l}{2}-2r$，$0&#x3C;r&#x3C;\\frac{l}{4}$.</p><p>体积为</p>\n$$\nV=\\pi r^{2}h=\\pi r^{2}\\left(\\frac{l}{2}-2r\\right)\n$$\n<p>求导得</p>\n$$\nV'(r)=\\pi r(l-6r)\n$$\n<p>在 $0&#x3C;r&#x3C;\\frac{l}{4}$ 内，$V'(r)$ 在 $r=\\frac{l}{6}$ 左侧为正、右侧为负，因此最大值在 $r=\\frac{l}{6}$ 时取得. 此时 $h=\\frac{l}{6}$，故</p>\n$$\nV_{\\max}=\\pi\\left(\\frac{l}{6}\\right)^{3}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>设圆柱底面半径为 $r$，高为 $h$. 轴截面是长为 $h$、宽为 $2r$ 的矩形，因此</p><p>$2h+4r=l$，$h=\\frac{l}{2}-2r$，$0<r<\\frac{l}{4}$.</p><p>体积为</p>\n$$\nV=\\pi r^{2}h=\\pi r^{2}\\left(\\frac{l}{2}-2r\\right)\n$$\n<p>求导得</p>\n$$\nV'(r)=\\pi r(l-6r)\n$$\n<p>在 $0<r<\\frac{l}{4}$ 内，$V'(r)$ 在 $r=\\frac{l}{6}$ 左侧为正、右侧为负，因此最大值在 $r=\\frac{l}{6}$ 时取得. 此时 $h=\\frac{l}{6}$，故</p>\n$$\nV_{\\max}=\\pi\\left(\\frac{l}{6}\\right)^{3}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 13,
@@ -180,12 +180,12 @@
           "body": "已知 $a_{1}$，$a_{2}$，$\\cdots$，$a_{8}$ 为各项都大于零的等比数列，公比 $q\\neq 1$，则（ ）",
           "choices": [
             "$a_{1}+a_{8}>a_{4}+a_{5}$",
-            "$a_{1}+a_{8}&#x3C;a_{4}+a_{5}$",
+            "$a_{1}+a_{8}<a_{4}+a_{5}$",
             "$a_{1}+a_{8}=a_{4}+a_{5}$",
             "$a_{1}+a_{8}$ 和 $a_{4}+a_{5}$ 的大小关系不能由已知条件确定"
           ],
           "answer": "A",
-          "solution": "<p>因各项均为正，公比 $q>0$. 写出各项得</p>\n$$\na_{1}+a_{8}-a_{4}-a_{5}  =a_{1}(1+q^{7}-q^{3}-q^{4})  =a_{1}(1-q^{3})(1-q^{4})\n$$\n<p>当 $0&#x3C;q&#x3C;1$ 时，两个括号均为正；当 $q>1$ 时，两个括号均为负. 又 $q\\neq1$，所以两括号的乘积始终为正，从而</p>\n$$\na_{1}+a_{8}>a_{4}+a_{5}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>因各项均为正，公比 $q>0$. 写出各项得</p>\n$$\na_{1}+a_{8}-a_{4}-a_{5}  =a_{1}(1+q^{7}-q^{3}-q^{4})  =a_{1}(1-q^{3})(1-q^{4})\n$$\n<p>当 $0<q<1$ 时，两个括号均为正；当 $q>1$ 时，两个括号均为负. 又 $q\\neq1$，所以两括号的乘积始终为正，从而</p>\n$$\na_{1}+a_{8}>a_{4}+a_{5}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 16,
@@ -268,7 +268,7 @@
           "body": "<p>已知 $f(x)=\\log_{a}\\frac{1+x}{1-x}$（$a>0$，$a\\neq 1$）.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的定义域；</p></li><li><p>判断 $f(x)$ 的奇偶性并予以证明；</p></li><li><p>求使 $f(x)>0$ 的 $x$ 取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由对数真数必须为正，得 $\\frac{1+x}{1-x}>0$.</p><p>在临界点 $-1$，$1$ 两侧讨论符号，只有 $-1&#x3C;x&#x3C;1$ 时上式成立，所以 $f(x)$ 的定义域为 $(-1,1)$.</p></li><li><p>定义域关于原点对称，且对任意 $x\\in(-1,1)$，有</p>\n$$\nf(-x)=\\log_{a}\\frac{1-x}{1+x}=\\log_{a}\\left(\\frac{1+x}{1-x}\\right)^{-1}=-\\log_{a}\\frac{1+x}{1-x}=-f(x)\n$$\n<p>因此 $f(x)$ 是奇函数.</p></li><li><p>在定义域 $(-1,1)$ 内，</p>\n$$\n\\frac{1+x}{1-x}>1\\Longleftrightarrow 1+x>1-x\\Longleftrightarrow x>0\n$$\n<p>并且 $\\frac{1+x}{1-x}&#x3C;1$ 等价于 $x&#x3C;0$. 当 $a>1$ 时，$\\log_{a} t>0$ 等价于 $t>1$，故 $f(x)>0$ 的解为 $(0,1)$；当 $0&#x3C;a&#x3C;1$ 时，$\\log_{a} t>0$ 等价于 $0&#x3C;t&#x3C;1$，故解为 $(-1,0)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由对数真数必须为正，得 $\\frac{1+x}{1-x}>0$.</p><p>在临界点 $-1$，$1$ 两侧讨论符号，只有 $-1<x<1$ 时上式成立，所以 $f(x)$ 的定义域为 $(-1,1)$.</p></li><li><p>定义域关于原点对称，且对任意 $x\\in(-1,1)$，有</p>\n$$\nf(-x)=\\log_{a}\\frac{1-x}{1+x}=\\log_{a}\\left(\\frac{1+x}{1-x}\\right)^{-1}=-\\log_{a}\\frac{1+x}{1-x}=-f(x)\n$$\n<p>因此 $f(x)$ 是奇函数.</p></li><li><p>在定义域 $(-1,1)$ 内，</p>\n$$\n\\frac{1+x}{1-x}>1\\Longleftrightarrow 1+x>1-x\\Longleftrightarrow x>0\n$$\n<p>并且 $\\frac{1+x}{1-x}<1$ 等价于 $x<0$. 当 $a>1$ 时，$\\log_{a} t>0$ 等价于 $t>1$，故 $f(x)>0$ 的解为 $(0,1)$；当 $0<a<1$ 时，$\\log_{a} t>0$ 等价于 $0<t<1$，故解为 $(-1,0)$.</p></li></ol>"
         },
         {
           "num": 25,
@@ -293,10 +293,10 @@
         },
         {
           "num": 28,
-          "body": "设复数 $z=\\cos\\theta+\\mathrm{i}\\sin\\theta$（$0&#x3C;\\theta&#x3C;\\pi$），$\\omega=\\frac{1-\\left(\\overline{z}\\right)^{4}}{1+z^{4}}$，并且 $|\\omega|=\\frac{\\sqrt{3}}{3}$，$\\arg \\omega&#x3C;\\frac{\\pi}{2}$，求 $\\theta$.",
+          "body": "设复数 $z=\\cos\\theta+\\mathrm{i}\\sin\\theta$（$0<\\theta<\\pi$），$\\omega=\\frac{1-\\left(\\overline{z}\\right)^{4}}{1+z^{4}}$，并且 $|\\omega|=\\frac{\\sqrt{3}}{3}$，$\\arg \\omega<\\frac{\\pi}{2}$，求 $\\theta$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>因为 $z=\\mathrm{e}^{\\mathrm{i}\\theta}$，所以 $\\overline z=\\mathrm{e}^{-\\mathrm{i}\\theta}$，从而</p>\n$$\n\\omega=\\frac{1-\\mathrm{e}^{-4\\mathrm{i}\\theta}}{1+\\mathrm{e}^{4\\mathrm{i}\\theta}}=\\frac{2\\mathrm{i}\\mathrm{e}^{-2\\mathrm{i}\\theta}\\sin2\\theta}{2\\mathrm{e}^{2\\mathrm{i}\\theta}\\cos2\\theta}=\\mathrm{i}\\mathrm{e}^{-4\\mathrm{i}\\theta}\\tan2\\theta  =\\tan2\\theta\\left(\\sin4\\theta+\\mathrm{i}\\cos4\\theta\\right)\n$$\n<p>因此</p>\n$$\n|\\omega|=|\\tan2\\theta|=\\frac{\\sqrt{3}}{3}\n$$\n<p>即 $\\tan2\\theta=\\pm\\frac{\\sqrt{3}}{3}$. 结合 $0&#x3C;\\theta&#x3C;\\pi$，得到四个候选值</p><p>$\\theta=\\frac{\\pi}{12}$，$\\frac{5\\pi}{12}$，$\\frac{7\\pi}{12}$，$\\frac{11\\pi}{12}$.</p><p>当 $\\theta=\\frac{\\pi}{12}$ 或 $\\frac{7\\pi}{12}$ 时，$\\tan2\\theta=\\frac{\\sqrt{3}}{3}$，且 $4\\theta$ 与 $\\frac{\\pi}{3}$ 同余，故</p><p>$\\omega=\\frac{1}{2}+\\frac{\\sqrt{3}}{6}\\mathrm{i}$，$\\arg\\omega=\\frac{\\pi}{6}&#x3C;\\frac{\\pi}{2}$.</p><p>当 $\\theta=\\frac{5\\pi}{12}$ 或 $\\frac{11\\pi}{12}$ 时，$\\tan2\\theta=-\\frac{\\sqrt{3}}{3}$，且 $4\\theta$ 与 $\\frac{5\\pi}{3}$ 同余，故</p><p>$\\omega=\\frac{1}{2}-\\frac{\\sqrt{3}}{6}\\mathrm{i}$，$\\arg\\omega=\\frac{11\\pi}{6}>\\frac{\\pi}{2}$.</p><p>所以</p>\n$$\n\\boxed{\\theta=\\frac{\\pi}{12}\\text{ 或 }\\theta=\\frac{7\\pi}{12}}\n$$"
+          "solution": "<p>因为 $z=\\mathrm{e}^{\\mathrm{i}\\theta}$，所以 $\\overline z=\\mathrm{e}^{-\\mathrm{i}\\theta}$，从而</p>\n$$\n\\omega=\\frac{1-\\mathrm{e}^{-4\\mathrm{i}\\theta}}{1+\\mathrm{e}^{4\\mathrm{i}\\theta}}=\\frac{2\\mathrm{i}\\mathrm{e}^{-2\\mathrm{i}\\theta}\\sin2\\theta}{2\\mathrm{e}^{2\\mathrm{i}\\theta}\\cos2\\theta}=\\mathrm{i}\\mathrm{e}^{-4\\mathrm{i}\\theta}\\tan2\\theta  =\\tan2\\theta\\left(\\sin4\\theta+\\mathrm{i}\\cos4\\theta\\right)\n$$\n<p>因此</p>\n$$\n|\\omega|=|\\tan2\\theta|=\\frac{\\sqrt{3}}{3}\n$$\n<p>即 $\\tan2\\theta=\\pm\\frac{\\sqrt{3}}{3}$. 结合 $0<\\theta<\\pi$，得到四个候选值</p><p>$\\theta=\\frac{\\pi}{12}$，$\\frac{5\\pi}{12}$，$\\frac{7\\pi}{12}$，$\\frac{11\\pi}{12}$.</p><p>当 $\\theta=\\frac{\\pi}{12}$ 或 $\\frac{7\\pi}{12}$ 时，$\\tan2\\theta=\\frac{\\sqrt{3}}{3}$，且 $4\\theta$ 与 $\\frac{\\pi}{3}$ 同余，故</p><p>$\\omega=\\frac{1}{2}+\\frac{\\sqrt{3}}{6}\\mathrm{i}$，$\\arg\\omega=\\frac{\\pi}{6}<\\frac{\\pi}{2}$.</p><p>当 $\\theta=\\frac{5\\pi}{12}$ 或 $\\frac{11\\pi}{12}$ 时，$\\tan2\\theta=-\\frac{\\sqrt{3}}{3}$，且 $4\\theta$ 与 $\\frac{5\\pi}{3}$ 同余，故</p><p>$\\omega=\\frac{1}{2}-\\frac{\\sqrt{3}}{6}\\mathrm{i}$，$\\arg\\omega=\\frac{11\\pi}{6}>\\frac{\\pi}{2}$.</p><p>所以</p>\n$$\n\\boxed{\\theta=\\frac{\\pi}{12}\\text{ 或 }\\theta=\\frac{7\\pi}{12}}\n$$"
         }
       ]
     }

@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $M = \\{x \\mid x^{2} + x - 6 &#x3C; 0\\}$，$N = \\{x \\mid 1 \\le x \\le 3\\}$. 则 $M \\cap N =$（ ）",
+          "body": "设集合 $M = \\{x \\mid x^{2} + x - 6 < 0\\}$，$N = \\{x \\mid 1 \\le x \\le 3\\}$. 则 $M \\cap N =$（ ）",
           "choices": [
             "$[1, 2)$",
             "$[1, 2]$",
@@ -17,7 +17,7 @@
             "$[2, 3]$"
           ],
           "answer": "A",
-          "solution": "<p>由 $x^{2}+x-6=(x+3)(x-2)$，且二次项系数为正，得</p><p>$x^{2}+x-6&#x3C;0$ 的解集为 $M=(-3,2)$. 又 $N=[1,3]$，所以</p><p>$M\\cap N=(-3,2)\\cap[1,3]=[1,2)$，故选 A.</p>"
+          "solution": "<p>由 $x^{2}+x-6=(x+3)(x-2)$，且二次项系数为正，得</p><p>$x^{2}+x-6<0$ 的解集为 $M=(-3,2)$. 又 $N=[1,3]$，所以</p><p>$M\\cap N=(-3,2)\\cap[1,3]=[1,2)$，故选 A.</p>"
         },
         {
           "num": 2,
@@ -29,7 +29,7 @@
             "第四象限"
           ],
           "answer": "D",
-          "solution": "<p>分子、分母同乘分母的共轭复数 $2-\\mathrm{i}$，得</p><p>$z=\\dfrac{(2-\\mathrm{i})^2}{(2+\\mathrm{i})(2-\\mathrm{i})}=\\dfrac{4-4\\mathrm{i}+\\mathrm{i}^2}{4-\\mathrm{i}^2}=\\dfrac{3-4\\mathrm{i}}{5}=\\dfrac{3}{5}-\\dfrac{4}{5}\\mathrm{i}$.</p><p>因此 $z$ 的实部 $\\frac{3}{5}>0$，虚部 $-\\frac{4}{5}&#x3C;0$，对应点在第四象限，故选 D.</p>"
+          "solution": "<p>分子、分母同乘分母的共轭复数 $2-\\mathrm{i}$，得</p><p>$z=\\dfrac{(2-\\mathrm{i})^2}{(2+\\mathrm{i})(2-\\mathrm{i})}=\\dfrac{4-4\\mathrm{i}+\\mathrm{i}^2}{4-\\mathrm{i}^2}=\\dfrac{3-4\\mathrm{i}}{5}=\\dfrac{3}{5}-\\dfrac{4}{5}\\mathrm{i}$.</p><p>因此 $z$ 的实部 $\\frac{3}{5}>0$，虚部 $-\\frac{4}{5}<0$，对应点在第四象限，故选 D.</p>"
         },
         {
           "num": 3,
@@ -53,7 +53,7 @@
             "$(- \\infty, -4] \\cup [6, +\\infty)$"
           ],
           "answer": "D",
-          "solution": "<p>按 $-3$、$5$ 分段讨论. 当 $x&#x3C;-3$ 时，</p><p>$|x-5|+|x+3|=(5-x)+(-x-3)=2-2x$，故 $2-2x\\geqslant10$，得 $x\\le-4$.</p><p>当 $-3\\le x\\leqslant5$ 时，</p><p>$|x-5|+|x+3|=(5-x)+(x+3)=8&#x3C;10$，没有满足条件的 $x$.</p><p>当 $x>5$ 时，</p><p>$|x-5|+|x+3|=(x-5)+(x+3)=2x-2$，故 $2x-2\\geqslant10$，得 $x\\geqslant6$.</p><p>所以解集为 $(-\\infty,-4]\\cup[6,+\\infty)$，故选 D.</p>"
+          "solution": "<p>按 $-3$、$5$ 分段讨论. 当 $x<-3$ 时，</p><p>$|x-5|+|x+3|=(5-x)+(-x-3)=2-2x$，故 $2-2x\\geqslant10$，得 $x\\le-4$.</p><p>当 $-3\\le x\\leqslant5$ 时，</p><p>$|x-5|+|x+3|=(5-x)+(x+3)=8<10$，没有满足条件的 $x$.</p><p>当 $x>5$ 时，</p><p>$|x-5|+|x+3|=(x-5)+(x+3)=2x-2$，故 $2x-2\\geqslant10$，得 $x\\geqslant6$.</p><p>所以解集为 $(-\\infty,-4]\\cup[6,+\\infty)$，故选 D.</p>"
         },
         {
           "num": 5,
@@ -77,7 +77,7 @@
             "$\\frac{2}{3}$"
           ],
           "answer": "C",
-          "solution": "<p>$f'(x)=\\omega\\cos(\\omega x)$，且 $\\omega>0$. 逐一检验选项：</p><p>当 $\\omega=3$ 时，$f'(\\frac{\\pi}{3})=3\\cos\\pi&#x3C;0$，不可能在第一段上单调递增；</p><p>当 $\\omega=2$ 时，$f'(\\frac{\\pi}{3})=2\\cos\\frac{2\\pi}{3}&#x3C;0$，同样不满足第一段要求；</p><p>当 $\\omega=\\frac{2}{3}$ 时，$f'(\\frac{\\pi}{2})=\\frac{2}{3}\\cos\\frac{\\pi}{3}>0$，不可能在第二段上单调递减.</p><p>当 $\\omega=\\frac{3}{2}$ 时，$\\omega x$ 在 $[0,\\frac{\\pi}{3}]$ 上取值于 $[0,\\frac{\\pi}{2}]$，故 $f'(x)\\geqslant0$；在 $[\\frac{\\pi}{3},\\frac{\\pi}{2}]$ 上取值于 $[\\frac{\\pi}{2},\\frac{3\\pi}{4}]$，故 $f'(x)\\leqslant0$. 条件满足，因此 $\\omega=\\frac{3}{2}$，选 C.</p>"
+          "solution": "<p>$f'(x)=\\omega\\cos(\\omega x)$，且 $\\omega>0$. 逐一检验选项：</p><p>当 $\\omega=3$ 时，$f'(\\frac{\\pi}{3})=3\\cos\\pi<0$，不可能在第一段上单调递增；</p><p>当 $\\omega=2$ 时，$f'(\\frac{\\pi}{3})=2\\cos\\frac{2\\pi}{3}<0$，同样不满足第一段要求；</p><p>当 $\\omega=\\frac{2}{3}$ 时，$f'(\\frac{\\pi}{2})=\\frac{2}{3}\\cos\\frac{\\pi}{3}>0$，不可能在第二段上单调递减.</p><p>当 $\\omega=\\frac{3}{2}$ 时，$\\omega x$ 在 $[0,\\frac{\\pi}{3}]$ 上取值于 $[0,\\frac{\\pi}{2}]$，故 $f'(x)\\geqslant0$；在 $[\\frac{\\pi}{3},\\frac{\\pi}{2}]$ 上取值于 $[\\frac{\\pi}{2},\\frac{3\\pi}{4}]$，故 $f'(x)\\leqslant0$. 条件满足，因此 $\\omega=\\frac{3}{2}$，选 C.</p>"
         },
         {
           "num": 7,
@@ -113,11 +113,11 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_science/q9_choice_d.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "C",
-          "solution": "<p>记 $g(x)=\\dfrac{x}{2}-2\\sin x$. 则</p><p>$g(0)=0$，且 $g'(x)=\\dfrac{1}{2}-2\\cos x$，所以 $g'(0)=g'(2\\pi)=-\\dfrac{3}{2}&#x3C;0$. 因此图象在原点处从上向下穿过 $x$ 轴，并且在 $x=2\\pi$ 处于下降状态.</p><p>另外，$g(2\\pi)=\\pi>0$，而 $g(x+2\\pi)=g(x)+\\pi$，说明每相隔 $2\\pi$ 的波动形状相同但整体上移；同时 $g(-x)=-g(x)$，图象关于原点中心对称. 只有选项 C 同时符合这些性质，故选 C.</p>"
+          "solution": "<p>记 $g(x)=\\dfrac{x}{2}-2\\sin x$. 则</p><p>$g(0)=0$，且 $g'(x)=\\dfrac{1}{2}-2\\cos x$，所以 $g'(0)=g'(2\\pi)=-\\dfrac{3}{2}<0$. 因此图象在原点处从上向下穿过 $x$ 轴，并且在 $x=2\\pi$ 处于下降状态.</p><p>另外，$g(2\\pi)=\\pi>0$，而 $g(x+2\\pi)=g(x)+\\pi$，说明每相隔 $2\\pi$ 的波动形状相同但整体上移；同时 $g(-x)=-g(x)$，图象关于原点中心对称. 只有选项 C 同时符合这些性质，故选 C.</p>"
         },
         {
           "num": 10,
-          "body": "已知 $f(x)$ 是 $\\mathbb{R}$ 上最小正周期为 2 的周期函数，且当 $0 \\le x &#x3C; 2$ 时，$f(x) = x^{3} - x$，则函数 $y = f(x)$ 的图象在区间 $[0, 6]$ 上与 $x$ 轴的交点的个数为（ ）",
+          "body": "已知 $f(x)$ 是 $\\mathbb{R}$ 上最小正周期为 2 的周期函数，且当 $0 \\le x < 2$ 时，$f(x) = x^{3} - x$，则函数 $y = f(x)$ 的图象在区间 $[0, 6]$ 上与 $x$ 轴的交点的个数为（ ）",
           "choices": [
             "6",
             "7",
@@ -125,7 +125,7 @@
             "9"
           ],
           "answer": "B",
-          "solution": "<p>在 $0\\le x&#x3C;2$ 时，</p><p>$f(x)=x^{3}-x=x(x-1)(x+1)$. 在该区间内零点为 $x=0$，$1$.</p><p>由周期性 $f(x+2)=f(x)$，所以在每个区间 $[2k,2k+2)$ 内零点为 $2k$ 和 $2k+1$. 对 $k=0$，$1$，$2$，得到 $0$，$1$，$2$，$3$，$4$，$5$；闭区间还包含端点 $6$，且 $f(6)=f(0)=0$. 因此交点横坐标为 $0$，$1$，$2$，$3$，$4$，$5$，$6$，共有 $7$ 个，故选 B.</p>"
+          "solution": "<p>在 $0\\le x<2$ 时，</p><p>$f(x)=x^{3}-x=x(x-1)(x+1)$. 在该区间内零点为 $x=0$，$1$.</p><p>由周期性 $f(x+2)=f(x)$，所以在每个区间 $[2k,2k+2)$ 内零点为 $2k$ 和 $2k+1$. 对 $k=0$，$1$，$2$，得到 $0$，$1$，$2$，$3$，$4$，$5$；闭区间还包含端点 $6$，且 $f(6)=f(0)=0$. 因此交点横坐标为 $0$，$1$，$2$，$3$，$4$，$5$，$6$，共有 $7$ 个，故选 B.</p>"
         },
         {
           "num": 11,
@@ -149,7 +149,7 @@
             "$C$，$D$ 不可能同时在线段 $AB$ 的延长线上"
           ],
           "answer": "D",
-          "solution": "<p>设 $\\overrightarrow{AC}=\\lambda\\overrightarrow{AB}$、$\\overrightarrow{AD}=\\mu\\overrightarrow{AB}$. 由于四点两两不同，$\\lambda$、$\\mu$ 均不等于 $0$ 或 $1$. 由</p><p>$\\dfrac1\\lambda+\\dfrac1\\mu=2$ 得</p><p>$\\mu=\\dfrac{\\lambda}{2\\lambda-1}$，其中 $\\lambda\\ne\\frac{1}{2}$.</p><p>若 $C$ 是线段 $AB$ 的中点，则 $\\lambda=\\frac{1}{2}$，代入原关系会得到 $\\frac{1}{\\mu}=0$，不可能；同理 $D$ 也不可能是中点，所以前两项均错误.</p><p>若 $0&#x3C;\\lambda&#x3C;\\frac{1}{2}$，则 $\\mu&#x3C;0$；若 $\\frac{1}{2}&#x3C;\\lambda&#x3C;1$，则 $\\mu=\\frac{\\lambda}{2\\lambda-1}>1$. 因而当 $C$ 在线段 $AB$ 上时，$D$ 在线段外，不能同时在线段上，第三项错误.</p><p>若 $\\lambda&#x3C;0$，则 $0&#x3C;\\mu&#x3C;\\frac{1}{2}$；若 $\\lambda>1$，则 $\\frac{1}{2}&#x3C;\\mu&#x3C;1$. 因而当 $C$ 在线段 $AB$ 的延长线上时，$D$ 反而在线段 $AB$ 内，二者不可能同时在延长线上. 故只有 D 正确，选 D.</p>"
+          "solution": "<p>设 $\\overrightarrow{AC}=\\lambda\\overrightarrow{AB}$、$\\overrightarrow{AD}=\\mu\\overrightarrow{AB}$. 由于四点两两不同，$\\lambda$、$\\mu$ 均不等于 $0$ 或 $1$. 由</p><p>$\\dfrac1\\lambda+\\dfrac1\\mu=2$ 得</p><p>$\\mu=\\dfrac{\\lambda}{2\\lambda-1}$，其中 $\\lambda\\ne\\frac{1}{2}$.</p><p>若 $C$ 是线段 $AB$ 的中点，则 $\\lambda=\\frac{1}{2}$，代入原关系会得到 $\\frac{1}{\\mu}=0$，不可能；同理 $D$ 也不可能是中点，所以前两项均错误.</p><p>若 $0<\\lambda<\\frac{1}{2}$，则 $\\mu<0$；若 $\\frac{1}{2}<\\lambda<1$，则 $\\mu=\\frac{\\lambda}{2\\lambda-1}>1$. 因而当 $C$ 在线段 $AB$ 上时，$D$ 在线段外，不能同时在线段上，第三项错误.</p><p>若 $\\lambda<0$，则 $0<\\mu<\\frac{1}{2}$；若 $\\lambda>1$，则 $\\frac{1}{2}<\\mu<1$. 因而当 $C$ 在线段 $AB$ 的延长线上时，$D$ 反而在线段 $AB$ 内，二者不可能同时在延长线上. 故只有 D 正确，选 D.</p>"
         }
       ]
     },
@@ -179,10 +179,10 @@
         },
         {
           "num": 16,
-          "body": "已知函数 $f(x) = \\log_{a} x + x - b$（$a > 0$，且 $a \\neq 1$）. 当 $2 &#x3C; a &#x3C; 3 &#x3C; b &#x3C; 4$ 时，函数 $f(x)$ 的零点 $x_{0} \\in (n, n+1)$，$n \\in \\mathbb{N}^{*}$，则 $n =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知函数 $f(x) = \\log_{a} x + x - b$（$a > 0$，且 $a \\neq 1$）. 当 $2 < a < 3 < b < 4$ 时，函数 $f(x)$ 的零点 $x_{0} \\in (n, n+1)$，$n \\in \\mathbb{N}^{*}$，则 $n =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "2",
-          "solution": "<p>由 $2&#x3C;a&#x3C;3$ 且 $a>1$，有 $\\log_{a}2&#x3C;1$，再由 $b>3$ 得</p><p>$f(2)=\\log_{a}2+2-b&#x3C;1+2-3=0$.</p><p>同理，$a&#x3C;3$ 且 $a>1$ 时 $\\log_{a}3>1$，再由 $b&#x3C;4$ 得</p><p>$f(3)=\\log_{a}3+3-b>1+3-4=0$.</p><p>函数 $f$ 在 $(0,+\\infty)$ 上连续，且</p><p>$f'(x)=\\dfrac1{x\\ln a}+1>0$，所以它严格递增. 由介值定理，零点存在于 $(2,3)$；由严格递增性，零点唯一. 因而题设中的 $x_{0}\\in(n,n+1)$ 满足 $(n,n+1)=(2,3)$，故 $n=2$.</p>"
+          "solution": "<p>由 $2<a<3$ 且 $a>1$，有 $\\log_{a}2<1$，再由 $b>3$ 得</p><p>$f(2)=\\log_{a}2+2-b<1+2-3=0$.</p><p>同理，$a<3$ 且 $a>1$ 时 $\\log_{a}3>1$，再由 $b<4$ 得</p><p>$f(3)=\\log_{a}3+3-b>1+3-4=0$.</p><p>函数 $f$ 在 $(0,+\\infty)$ 上连续，且</p><p>$f'(x)=\\dfrac1{x\\ln a}+1>0$，所以它严格递增. 由介值定理，零点存在于 $(2,3)$；由严格递增性，零点唯一. 因而题设中的 $x_{0}\\in(n,n+1)$ 满足 $(n,n+1)=(2,3)$，故 $n=2$.</p>"
         }
       ]
     },
@@ -215,14 +215,14 @@
           "body": "<p>等比数列 $\\{a_{n}\\}$ 中，$a_{1}$，$a_{2}$，$a_{3}$ 分别是下表第一，二，三行中的某一个数，且 $a_{1}$，$a_{2}$，$a_{3}$ 中的任何两个数不在下表的同一列.</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"></td><td style=\"text-align: center\"> 第一列 </td><td style=\"text-align: center\"> 第二列 </td><td style=\"text-align: center\"> 第三列 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>第一行 </td><td style=\"text-align: center\"> 3 </td><td style=\"text-align: center\"> 2 </td><td style=\"text-align: center\"> 10 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>第二行 </td><td style=\"text-align: center\"> 6 </td><td style=\"text-align: center\"> 4 </td><td style=\"text-align: center\"> 14 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>第三行 </td><td style=\"text-align: center\"> 9 </td><td style=\"text-align: center\"> 8 </td><td style=\"text-align: center\"> 18</td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若数列 $\\{b_{n}\\}$ 满足： $b_{n}= a_{n}+ (-1)^{n}\\ln a_{n}$，求数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $S_{n}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设公比为 $q$. 因为 $a_{3}=a_{2}q$、$a_{2}=a_{1}q$，所以</p><p>$a_{3}=\\dfrac{a_2^2}{a_1}$. 逐一检验第一行和第二行的组合：</p><p>$a_{1}=3$ 时，$a_{2}=6$，$4$，$14$ 分别要求 $a_{3}=12$，$\\frac{16}{3}$，$\\frac{196}{3}$，均不在第三行；</p><p>$a_{1}=2$ 时，$a_{2}=6$ 要求 $a_{3}=18$，三项所在列依次为第二、第一、第三列，符合条件；$a_{2}=4$ 时 $a_{3}=8$，与 $a_{1}$ 同列；$a_{2}=14$ 时 $a_{3}=98$，不在第三行；</p><p>$a_{1}=10$ 时，$a_{2}=6$，$4$，$14$ 分别要求 $a_{3}=\\frac{18}{5}$，$\\frac{8}{5}$，$\\frac{98}{5}$，均不在第三行. 因此唯一可能的三项为 $a_{1}=2$、$a_{2}=6$、$a_{3}=18$. 公比</p><p>$q=\\dfrac{a_2}{a_1}=3$，故通项公式为 $a_{n}=2\\cdot3^{n-1}$.</p></li><li><p>因为 $a_{n}=2\\cdot3^{n-1}>0$，所以</p><p>$b_{n}=2\\cdot3^{n-1}+(-1)^{n}\\bigl(\\ln2+(n-1)\\ln3\\bigr)$. 于是</p><p>$S_{n}=\\sum_{k=1}^{n}2\\cdot3^{k-1}+\\ln2\\sum_{k=1}^{n}(-1)^{k}+\\ln3\\sum_{k=1}^{n}(-1)^{k}(k-1)$.</p><p>其中 $\\sum_{k=1}^{n}2\\cdot3^{k-1}=3^{n}-1$. 若 $n$ 为偶数，则</p><p>$\\sum_{k=1}^{n}(-1)^{k}=0$，并将相邻两项配对得</p><p>$\\sum_{k=1}^{n}(-1)^{k}(k-1)=\\frac{n}{2}$. 若 $n$ 为奇数，则</p><p>$\\sum_{k=1}^{n}(-1)^{k}=-1$，并得</p><p>$\\sum_{k=1}^{n}(-1)^{k}(k-1)=-\\frac{n-1}{2}$. 因此</p><p>$S_{n}=\\begin{cases}3^{n}-1+\\dfrac{n}{2}\\ln3,&#x26;n\\text{为偶数},\\\\  3^{n}-1-\\ln2-\\dfrac{n-1}{2}\\ln3,&#x26;n\\text{为奇数}.\\end{cases}$</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设公比为 $q$. 因为 $a_{3}=a_{2}q$、$a_{2}=a_{1}q$，所以</p><p>$a_{3}=\\dfrac{a_2^2}{a_1}$. 逐一检验第一行和第二行的组合：</p><p>$a_{1}=3$ 时，$a_{2}=6$，$4$，$14$ 分别要求 $a_{3}=12$，$\\frac{16}{3}$，$\\frac{196}{3}$，均不在第三行；</p><p>$a_{1}=2$ 时，$a_{2}=6$ 要求 $a_{3}=18$，三项所在列依次为第二、第一、第三列，符合条件；$a_{2}=4$ 时 $a_{3}=8$，与 $a_{1}$ 同列；$a_{2}=14$ 时 $a_{3}=98$，不在第三行；</p><p>$a_{1}=10$ 时，$a_{2}=6$，$4$，$14$ 分别要求 $a_{3}=\\frac{18}{5}$，$\\frac{8}{5}$，$\\frac{98}{5}$，均不在第三行. 因此唯一可能的三项为 $a_{1}=2$、$a_{2}=6$、$a_{3}=18$. 公比</p><p>$q=\\dfrac{a_2}{a_1}=3$，故通项公式为 $a_{n}=2\\cdot3^{n-1}$.</p></li><li><p>因为 $a_{n}=2\\cdot3^{n-1}>0$，所以</p><p>$b_{n}=2\\cdot3^{n-1}+(-1)^{n}\\bigl(\\ln2+(n-1)\\ln3\\bigr)$. 于是</p><p>$S_{n}=\\sum_{k=1}^{n}2\\cdot3^{k-1}+\\ln2\\sum_{k=1}^{n}(-1)^{k}+\\ln3\\sum_{k=1}^{n}(-1)^{k}(k-1)$.</p><p>其中 $\\sum_{k=1}^{n}2\\cdot3^{k-1}=3^{n}-1$. 若 $n$ 为偶数，则</p><p>$\\sum_{k=1}^{n}(-1)^{k}=0$，并将相邻两项配对得</p><p>$\\sum_{k=1}^{n}(-1)^{k}(k-1)=\\frac{n}{2}$. 若 $n$ 为奇数，则</p><p>$\\sum_{k=1}^{n}(-1)^{k}=-1$，并得</p><p>$\\sum_{k=1}^{n}(-1)^{k}(k-1)=-\\frac{n-1}{2}$. 因此</p><p>$S_{n}=\\begin{cases}3^{n}-1+\\dfrac{n}{2}\\ln3,&n\\text{为偶数},\\\\  3^{n}-1-\\ln2-\\dfrac{n-1}{2}\\ln3,&n\\text{为奇数}.\\end{cases}$</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>某企业拟建造如图所示的容器（不计厚度，长度单位：米），其中容器的中间为圆柱形，左右两端均为半球形，按照设计要求容器的容积为 $\\frac{80\\pi}{3}\\text{ 立方米}$，且 $l\\geqslant2r$. 假设该容器的建造费用仅与其表面积有关. 已知圆柱形部分每平方米建造费用为 $3\\text{ 千元}$，半球形部分每平方米建造费用为 $c\\text{ 千元}$（$c>3$）. 设该容器的建造费用为 $y\\text{ 千元}$.</p><ol class=\"enumerate\"><li><p>写出 $y$ 关于 $r$ 的函数表达式，并求该函数的定义域；</p></li><li><p>求该容器的建造费用最小时的 $r$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>圆柱部分的容积为 $\\pi r^{2}l$，两个半球合起来是一个球，容积为 $\\frac{4}{3}\\pi r^{3}$. 因此</p><p>$\\pi r^{2}l+\\frac{4}{3}\\pi r^{3}=\\frac{80\\pi}{3}$，解得</p><p>$l=\\frac{80}{3r^{2}}-\\frac{4}{3}r$.</p><p>由设计条件 $l\\geqslant2r$，得</p><p>$\\frac{80}{3r^{2}}-\\frac{4}{3}r\\geqslant2r$，即 $80\\geqslant10r^{3}$. 又 $r>0$，所以 $0&#x3C;r\\leqslant2$.</p><p>圆柱侧面积为 $2\\pi rl$，两端半球的总表面积为一个球的表面积 $4\\pi r^{2}$. 因而费用函数为</p><p>$y=3\\cdot2\\pi rl+c\\cdot4\\pi r^{2}$</p><p>$=6\\pi r\\left(\\frac{80}{3r^{2}}-\\frac{4}{3}r\\right)+4c\\pi r^{2}  =\\frac{160\\pi}{r}+4\\pi(c-2)r^{2}$.</p><p>所以 $y$ 的定义域为 $0&#x3C;r\\leqslant2$.</p></li><li><p>在 $0&#x3C;r\\leqslant2$ 上，</p><p>$y'(r)=8\\pi(c-2)r-\\frac{160\\pi}{r^{2}}=\\frac{8\\pi}{r^{2}}\\bigl((c-2)r^{3}-20\\bigr)$.</p><p>若 $3&#x3C;c\\le\\frac{9}{2}$，则对 $0&#x3C;r\\leqslant2$ 有</p><p>$(c-2)r^{3}-20\\leqslant8(c-2)-20\\leqslant0$，所以 $y$ 在定义域上递减，最小值在 $r=2$ 处取得.</p><p>若 $c>\\frac{9}{2}$，令 $y'(r)=0$，得</p><p>$r_{0}=\\sqrt[3]{\\frac{20}{c-2}}&#x3C;2$. 当 $0&#x3C;r&#x3C;r_{0}$ 时 $y'(r)&#x3C;0$，当 $r_{0}&#x3C;r\\leqslant2$ 时 $y'(r)>0$，所以最小值在 $r=r_{0}$ 处取得.</p><p>综上，$r=2$（$3&#x3C;c\\le\\frac{9}{2}$），或</p><p>$r=\\sqrt[3]{\\frac{20}{c-2}}$（$c>\\frac{9}{2}$）.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>圆柱部分的容积为 $\\pi r^{2}l$，两个半球合起来是一个球，容积为 $\\frac{4}{3}\\pi r^{3}$. 因此</p><p>$\\pi r^{2}l+\\frac{4}{3}\\pi r^{3}=\\frac{80\\pi}{3}$，解得</p><p>$l=\\frac{80}{3r^{2}}-\\frac{4}{3}r$.</p><p>由设计条件 $l\\geqslant2r$，得</p><p>$\\frac{80}{3r^{2}}-\\frac{4}{3}r\\geqslant2r$，即 $80\\geqslant10r^{3}$. 又 $r>0$，所以 $0<r\\leqslant2$.</p><p>圆柱侧面积为 $2\\pi rl$，两端半球的总表面积为一个球的表面积 $4\\pi r^{2}$. 因而费用函数为</p><p>$y=3\\cdot2\\pi rl+c\\cdot4\\pi r^{2}$</p><p>$=6\\pi r\\left(\\frac{80}{3r^{2}}-\\frac{4}{3}r\\right)+4c\\pi r^{2}  =\\frac{160\\pi}{r}+4\\pi(c-2)r^{2}$.</p><p>所以 $y$ 的定义域为 $0<r\\leqslant2$.</p></li><li><p>在 $0<r\\leqslant2$ 上，</p><p>$y'(r)=8\\pi(c-2)r-\\frac{160\\pi}{r^{2}}=\\frac{8\\pi}{r^{2}}\\bigl((c-2)r^{3}-20\\bigr)$.</p><p>若 $3<c\\le\\frac{9}{2}$，则对 $0<r\\leqslant2$ 有</p><p>$(c-2)r^{3}-20\\leqslant8(c-2)-20\\leqslant0$，所以 $y$ 在定义域上递减，最小值在 $r=2$ 处取得.</p><p>若 $c>\\frac{9}{2}$，令 $y'(r)=0$，得</p><p>$r_{0}=\\sqrt[3]{\\frac{20}{c-2}}<2$. 当 $0<r<r_{0}$ 时 $y'(r)<0$，当 $r_{0}<r\\leqslant2$ 时 $y'(r)>0$，所以最小值在 $r=r_{0}$ 处取得.</p><p>综上，$r=2$（$3<c\\le\\frac{9}{2}$），或</p><p>$r=\\sqrt[3]{\\frac{20}{c-2}}$（$c>\\frac{9}{2}$）.</p></li></ol>"
         },
         {
           "num": 22,

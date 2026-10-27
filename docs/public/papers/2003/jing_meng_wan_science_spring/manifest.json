@@ -69,15 +69,15 @@
         },
         {
           "num": 6,
-          "body": "若 $A$，$B$，$C$ 是 $\\triangle ABC$ 的三个内角，且 $A&#x3C;B&#x3C;C$（$C\\ne\\dfrac\\pi2$），则下列结论中正确的是（ ）",
+          "body": "若 $A$，$B$，$C$ 是 $\\triangle ABC$ 的三个内角，且 $A<B<C$（$C\\ne\\dfrac\\pi2$），则下列结论中正确的是（ ）",
           "choices": [
-            "$\\sin A&#x3C;\\sin C$",
-            "$\\cos A&#x3C;\\cos C$",
-            "$\\tan A&#x3C;\\tan C$",
-            "$\\cot A&#x3C;\\cot C$"
+            "$\\sin A<\\sin C$",
+            "$\\cos A<\\cos C$",
+            "$\\tan A<\\tan C$",
+            "$\\cot A<\\cot C$"
           ],
           "answer": "A",
-          "solution": "<p>三角形内角满足 $A+B+C=\\pi$. 由 $A&#x3C;B&#x3C;C$ 得 $3A&#x3C;\\pi&#x3C;3C$，所以 $A&#x3C;\\dfrac\\pi3&#x3C;C$.</p><p>若 $C&#x3C;\\dfrac\\pi2$，则 $0&#x3C;A&#x3C;C&#x3C;\\dfrac\\pi2$，正弦函数在此区间上递增，因而 $\\sin A&#x3C;\\sin C$.</p><p>若 $C>\\dfrac\\pi2$，则 $A+B=\\pi-C&#x3C;\\dfrac\\pi2$，且 $A&#x3C;A+B$，所以</p>\n$$\n\\sin A&#x3C;\\sin(A+B)=\\sin(\\pi-C)=\\sin C\n$$\n<p>题设排除了 $C=\\dfrac\\pi2$，故总有 $\\sin A&#x3C;\\sin C$. 另外，余弦函数在 $(0,\\pi)$ 上递减，所以 $\\cos A>\\cos C$；当 $C>\\dfrac\\pi2$ 时 $\\tan C&#x3C;0&#x3C;\\tan A$，且余切函数在 $(0,\\pi)$ 上递减，其余三个选项均不成立. 因此正确选项为 A.</p>"
+          "solution": "<p>三角形内角满足 $A+B+C=\\pi$. 由 $A<B<C$ 得 $3A<\\pi<3C$，所以 $A<\\dfrac\\pi3<C$.</p><p>若 $C<\\dfrac\\pi2$，则 $0<A<C<\\dfrac\\pi2$，正弦函数在此区间上递增，因而 $\\sin A<\\sin C$.</p><p>若 $C>\\dfrac\\pi2$，则 $A+B=\\pi-C<\\dfrac\\pi2$，且 $A<A+B$，所以</p>\n$$\n\\sin A<\\sin(A+B)=\\sin(\\pi-C)=\\sin C\n$$\n<p>题设排除了 $C=\\dfrac\\pi2$，故总有 $\\sin A<\\sin C$. 另外，余弦函数在 $(0,\\pi)$ 上递减，所以 $\\cos A>\\cos C$；当 $C>\\dfrac\\pi2$ 时 $\\tan C<0<\\tan A$，且余切函数在 $(0,\\pi)$ 上递减，其余三个选项均不成立. 因此正确选项为 A.</p>"
         },
         {
           "num": 7,
@@ -129,7 +129,7 @@
         },
         {
           "num": 11,
-          "body": "若不等式 $|ax+2|&#x3C;6$ 的解集为 $(-1,2)$，则实数 $a$ 等于（ ）",
+          "body": "若不等式 $|ax+2|<6$ 的解集为 $(-1,2)$，则实数 $a$ 等于（ ）",
           "choices": [
             "$8$",
             "$2$",
@@ -137,7 +137,7 @@
             "$-8$"
           ],
           "answer": "C",
-          "solution": "<p>不等式 $|ax+2|&#x3C;6$ 的解集关于方程 $ax+2=0$ 的解 $-\\dfrac{2}{a}$ 对称. 因此该解集的中点满足</p>\n$$\n-\\dfrac{2}{a}=\\dfrac{-1+2}{2}=\\dfrac{1}{2}\n$$\n<p>从而 $a=-4$. 直接检验：</p>\n$$\n|-4x+2|&#x3C;6  \\Longleftrightarrow -6&#x3C;-4x+2&#x3C;6  \\Longleftrightarrow -1&#x3C;x&#x3C;2\n$$\n<p>所以 $a=-4$，对应选项为 C.</p>"
+          "solution": "<p>不等式 $|ax+2|<6$ 的解集关于方程 $ax+2=0$ 的解 $-\\dfrac{2}{a}$ 对称. 因此该解集的中点满足</p>\n$$\n-\\dfrac{2}{a}=\\dfrac{-1+2}{2}=\\dfrac{1}{2}\n$$\n<p>从而 $a=-4$. 直接检验：</p>\n$$\n|-4x+2|<6  \\Longleftrightarrow -6<-4x+2<6  \\Longleftrightarrow -1<x<2\n$$\n<p>所以 $a=-4$，对应选项为 C.</p>"
         },
         {
           "num": 12,
@@ -194,7 +194,7 @@
           "body": "解不等式：$\\log_{\\frac{1}{2}}(x^{2}-x-2)>\\log_{\\frac{1}{2}}(x-1)-1$.",
           "choices": null,
           "answer": "",
-          "solution": "<p>首先由对数真数为正，得</p><p>$x^{2}-x-2>0$，$x-1>0$.</p><p>其中</p>\n$$\nx^{2}-x-2=(x-2)(x+1)\n$$\n<p>所以定义域为 $x>2$.</p><p>因为 $0&#x3C;\\dfrac{1}{2}&#x3C;1$，函数 $y=\\log_{\\frac{1}{2}}x$ 在正数范围内单调递减. 又因为 $x>2$，有 $2(x-1)>0$，并且</p>\n$$\n\\log_{\\frac{1}{2}}(x-1)-1  =\\log_{\\frac{1}{2}}(x-1)+\\log_{\\frac{1}{2}}2  =\\log_{\\frac{1}{2}}\\bigl(2(x-1)\\bigr)\n$$\n<p>因此原不等式等价于</p>\n$$\nx^{2}-x-2&#x3C;2(x-1)\n$$\n<p>即</p>\n$$\nx^{2}-3x&#x3C;0\n$$\n<p>所以 $0&#x3C;x&#x3C;3$. 与定义域 $x>2$ 取交集，得</p>\n$$\n2&#x3C;x&#x3C;3\n$$\n<p>端点 $x=2$ 使第一个对数的真数为零，端点 $x=3$ 使不等式成为等式，均不能取. 故原不等式的解集为 $(2,3)$.</p>"
+          "solution": "<p>首先由对数真数为正，得</p><p>$x^{2}-x-2>0$，$x-1>0$.</p><p>其中</p>\n$$\nx^{2}-x-2=(x-2)(x+1)\n$$\n<p>所以定义域为 $x>2$.</p><p>因为 $0<\\dfrac{1}{2}<1$，函数 $y=\\log_{\\frac{1}{2}}x$ 在正数范围内单调递减. 又因为 $x>2$，有 $2(x-1)>0$，并且</p>\n$$\n\\log_{\\frac{1}{2}}(x-1)-1  =\\log_{\\frac{1}{2}}(x-1)+\\log_{\\frac{1}{2}}2  =\\log_{\\frac{1}{2}}\\bigl(2(x-1)\\bigr)\n$$\n<p>因此原不等式等价于</p>\n$$\nx^{2}-x-2<2(x-1)\n$$\n<p>即</p>\n$$\nx^{2}-3x<0\n$$\n<p>所以 $0<x<3$. 与定义域 $x>2$ 取交集，得</p>\n$$\n2<x<3\n$$\n<p>端点 $x=2$ 使第一个对数的真数为零，端点 $x=3$ 使不等式成为等式，均不能取. 故原不等式的解集为 $(2,3)$.</p>"
         },
         {
           "num": 18,
@@ -229,7 +229,7 @@
           "body": "<p>已知动圆过定点 $P(1,0)$，且与定直线 $l:x=-1$ 相切，点 $C$ 在 $l$ 上.</p><ol class=\"enumerate\"><li><p>求动圆圆心的轨迹 $M$ 的方程；</p></li><li><p>设过点 $P$，且斜率为 $-\\sqrt{3}$ 的直线与曲线 $M$ 相交于 $A$，$B$ 两点.</p><p></p><ol class=\"enumerate\"><li><p>问：$\\triangle ABC$ 能否为正三角形？若能，求点 $C$ 的坐标；若不能，说明理由；</p></li><li><p>当 $\\triangle ABC$ 为钝角三角形时，求这种点 $C$ 的纵坐标的取值范围.</p></li></ol><p></p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设动圆圆心为 $M(x,y)$，则动圆半径既等于 $MP$，又等于点 $M$ 到直线 $l:x=-1$ 的距离. 因此</p>\n$$\n\\sqrt{(x-1)^{2}+y^{2}}=|x+1|\n$$\n<p>两边平方并整理，得</p>\n$$\n(x-1)^{2}+y^{2}=(x+1)^{2}   \\Longleftrightarrow  y^{2}=4x\n$$\n<p>故动圆圆心的轨迹 $M$ 的方程为 $y^{2}=4x$.</p><ol class=\"enumerate\"><li><p>过 $P(1,0)$ 且斜率为 $-\\sqrt{3}$ 的直线方程为</p>\n$$\ny=-\\sqrt{3}(x-1)\n$$\n<p>与 $y^{2}=4x$ 联立，得</p>\n$$\n3(x-1)^{2}=4x   \\Longleftrightarrow   3x^{2}-10x+3=0   \\Longleftrightarrow   (3x-1)(x-3)=0\n$$\n<p>所以可取 $A=(3,-2\\sqrt{3})$，$B=\\left(\\dfrac{1}{3},\\dfrac{2\\sqrt{3}}{3}\\right)$.</p><p>又因 $C\\in l$，设 $C=(-1,t)$.</p><p>先求 $AB$ 的长度：</p>\n$$\nAB^{2}=\\left(3-\\dfrac{1}{3}\\right)^{2}+\\left(-2\\sqrt{3}-\\dfrac{2\\sqrt{3}}{3}\\right)^{2}=\\dfrac{256}{9}\n$$\n<p>若 $\\triangle ABC$ 为正三角形，则必有 $CA=CB$. 而 $CA^{2}=t^{2}+4\\sqrt{3}t+28$，$CB^{2}=t^{2}-\\dfrac{4\\sqrt{3}}{3}t+\\dfrac{28}{9}$.</p><p>令两式相等，得 $\\dfrac{16\\sqrt{3}}{3}t=-\\dfrac{224}{9}$，从而 $t=-\\dfrac{14\\sqrt{3}}{9}$.</p><p>将此值代入 $CA^{2}$，得</p>\n$$\nCA^{2}=\\dfrac{448}{27}\\ne\\dfrac{256}{9}=AB^{2}\n$$\n<p>所以不存在同时满足 $CA=CB=AB$ 的点 $C$，即 $\\triangle ABC$ 不能为正三角形.</p></li><li><p>由上面的坐标，三角形各顶点处的角可用向量内积判断. 有</p>\n$$\n\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\dfrac{8}{3}(10+\\sqrt{3}t)\n$$\n<p>所以角 $A$ 为钝角的条件是</p>\n$$\nt&#x3C;-\\dfrac{10\\sqrt{3}}{3}\n$$\n<p>又</p>\n$$\n\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=\\dfrac{8}{9}(2-3\\sqrt{3}t)\n$$\n<p>所以角 $B$ 为钝角的条件是</p>\n$$\nt>\\dfrac{2\\sqrt{3}}{9}\n$$\n<p>最后</p>\n$$\n\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=\\dfrac{1}{3}\\left(\\sqrt{3}t+2\\right)^{2}\\geqslant0\n$$\n<p>故角 $C$ 不可能为钝角.</p><p>还需排除三点共线的情形. 直线 $AB$ 的方程就是 $y=-\\sqrt{3}(x-1)$，它与 $x=-1$ 的交点为 $(-1,2\\sqrt{3})$，所以 $t=2\\sqrt{3}$ 时三角形退化，不能计入钝角三角形. 因而当 $\\triangle ABC$ 为钝角三角形时，点 $C$ 的纵坐标取值范围为</p>\n$$\nt\\in\\left(-\\infty,-\\dfrac{10\\sqrt{3}}{3}\\right)\\cup\\left(\\dfrac{2\\sqrt{3}}{9},2\\sqrt{3}\\right)\\cup\\left(2\\sqrt{3},+\\infty\\right)\n$$\n</li></ol>"
+          "solution": "<p>设动圆圆心为 $M(x,y)$，则动圆半径既等于 $MP$，又等于点 $M$ 到直线 $l:x=-1$ 的距离. 因此</p>\n$$\n\\sqrt{(x-1)^{2}+y^{2}}=|x+1|\n$$\n<p>两边平方并整理，得</p>\n$$\n(x-1)^{2}+y^{2}=(x+1)^{2}   \\Longleftrightarrow  y^{2}=4x\n$$\n<p>故动圆圆心的轨迹 $M$ 的方程为 $y^{2}=4x$.</p><ol class=\"enumerate\"><li><p>过 $P(1,0)$ 且斜率为 $-\\sqrt{3}$ 的直线方程为</p>\n$$\ny=-\\sqrt{3}(x-1)\n$$\n<p>与 $y^{2}=4x$ 联立，得</p>\n$$\n3(x-1)^{2}=4x   \\Longleftrightarrow   3x^{2}-10x+3=0   \\Longleftrightarrow   (3x-1)(x-3)=0\n$$\n<p>所以可取 $A=(3,-2\\sqrt{3})$，$B=\\left(\\dfrac{1}{3},\\dfrac{2\\sqrt{3}}{3}\\right)$.</p><p>又因 $C\\in l$，设 $C=(-1,t)$.</p><p>先求 $AB$ 的长度：</p>\n$$\nAB^{2}=\\left(3-\\dfrac{1}{3}\\right)^{2}+\\left(-2\\sqrt{3}-\\dfrac{2\\sqrt{3}}{3}\\right)^{2}=\\dfrac{256}{9}\n$$\n<p>若 $\\triangle ABC$ 为正三角形，则必有 $CA=CB$. 而 $CA^{2}=t^{2}+4\\sqrt{3}t+28$，$CB^{2}=t^{2}-\\dfrac{4\\sqrt{3}}{3}t+\\dfrac{28}{9}$.</p><p>令两式相等，得 $\\dfrac{16\\sqrt{3}}{3}t=-\\dfrac{224}{9}$，从而 $t=-\\dfrac{14\\sqrt{3}}{9}$.</p><p>将此值代入 $CA^{2}$，得</p>\n$$\nCA^{2}=\\dfrac{448}{27}\\ne\\dfrac{256}{9}=AB^{2}\n$$\n<p>所以不存在同时满足 $CA=CB=AB$ 的点 $C$，即 $\\triangle ABC$ 不能为正三角形.</p></li><li><p>由上面的坐标，三角形各顶点处的角可用向量内积判断. 有</p>\n$$\n\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\dfrac{8}{3}(10+\\sqrt{3}t)\n$$\n<p>所以角 $A$ 为钝角的条件是</p>\n$$\nt<-\\dfrac{10\\sqrt{3}}{3}\n$$\n<p>又</p>\n$$\n\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=\\dfrac{8}{9}(2-3\\sqrt{3}t)\n$$\n<p>所以角 $B$ 为钝角的条件是</p>\n$$\nt>\\dfrac{2\\sqrt{3}}{9}\n$$\n<p>最后</p>\n$$\n\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=\\dfrac{1}{3}\\left(\\sqrt{3}t+2\\right)^{2}\\geqslant0\n$$\n<p>故角 $C$ 不可能为钝角.</p><p>还需排除三点共线的情形. 直线 $AB$ 的方程就是 $y=-\\sqrt{3}(x-1)$，它与 $x=-1$ 的交点为 $(-1,2\\sqrt{3})$，所以 $t=2\\sqrt{3}$ 时三角形退化，不能计入钝角三角形. 因而当 $\\triangle ABC$ 为钝角三角形时，点 $C$ 的纵坐标取值范围为</p>\n$$\nt\\in\\left(-\\infty,-\\dfrac{10\\sqrt{3}}{3}\\right)\\cup\\left(\\dfrac{2\\sqrt{3}}{9},2\\sqrt{3}\\right)\\cup\\left(2\\sqrt{3},+\\infty\\right)\n$$\n</li></ol>"
         }
       ]
     }

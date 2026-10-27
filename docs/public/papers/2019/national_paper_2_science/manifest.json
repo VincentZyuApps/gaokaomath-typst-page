@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $A=\\{x\\mid x^{2}-5x+6>0\\}$，$B=\\{x\\mid x-1&#x3C;0\\}$，则 $A\\cap B=$（ ）",
+          "body": "设集合 $A=\\{x\\mid x^{2}-5x+6>0\\}$，$B=\\{x\\mid x-1<0\\}$，则 $A\\cap B=$（ ）",
           "choices": [
             "$(-\\infty,1)$",
             "$(-2,1)$",
@@ -17,7 +17,7 @@
             "$(3,+\\infty)$"
           ],
           "answer": "A",
-          "solution": "由 $x^{2}-5x+6=(x-2)(x-3)$，得 $A=(-\\infty,2)\\cup(3,+\\infty)$；由 $x-1&#x3C;0$，得 $B=(-\\infty,1)$. 因此 $A\\cap B=(-\\infty,1)$，故选 A."
+          "solution": "由 $x^{2}-5x+6=(x-2)(x-3)$，得 $A=(-\\infty,2)\\cup(3,+\\infty)$；由 $x-1<0$，得 $B=(-\\infty,1)$. 因此 $A\\cap B=(-\\infty,1)$，故选 A."
         },
         {
           "num": 2,
@@ -29,7 +29,7 @@
             "第四象限"
           ],
           "answer": "C",
-          "solution": "复数 $z=-3+2\\mathrm{i}$ 的共轭复数为 $\\overline z=-3-2\\mathrm{i}$. 其对应点的横坐标为 $-3&#x3C;0$，纵坐标为 $-2&#x3C;0$，所以该点位于第三象限，故选 C."
+          "solution": "复数 $z=-3+2\\mathrm{i}$ 的共轭复数为 $\\overline z=-3-2\\mathrm{i}$. 其对应点的横坐标为 $-3<0$，纵坐标为 $-2<0$，所以该点位于第三象限，故选 C."
         },
         {
           "num": 3,
@@ -72,7 +72,7 @@
           "body": "若 $a>b$，则（ ）",
           "choices": [
             "$\\ln(a-b)>0$",
-            "$3^{a}&#x3C;3^{b}$",
+            "$3^{a}<3^{b}$",
             "$a^{3}-b^{3}>0$",
             "$|a|>|b|$"
           ],
@@ -149,7 +149,7 @@
             "$(-\\infty,\\dfrac{8}{3}]$"
           ],
           "answer": "B",
-          "solution": "<p>对任意整数 $n$，令 $x=n+t$，其中 $t\\in(0,1]$. 由 $f(x+1)=2f(x)$ 和 $f(t)=t(t-1)$，得 $f(x)=2^{n} t(t-1)$. 当 $n\\leq1$ 时，$t(t-1)\\geq-\\frac{1}{4}$，所以 $f(x)\\geq-\\frac{2^{n}}{4}\\geq-\\frac{1}{2}>-\\frac{8}{9}$.</p><p>当 $n=2$ 时，$f(x)=4t(t-1)$. 其中 $f(x)&#x3C;-\\frac{8}{9}$ 等价于 $t(t-1)&#x3C;-\\frac{2}{9}$，即 $t^{2}-t+\\frac{2}{9}&#x3C;0$，所以 $\\frac{1}{3}&#x3C;t&#x3C;\\frac{2}{3}$，对应 $\\frac{7}{3}&#x3C;x&#x3C;\\frac{8}{3}$. 因而当且仅当 $m\\leq\\frac{7}{3}$ 时，所有 $x\\leq m$ 都满足 $f(x)\\geq-\\frac{8}{9}$，故 $m\\in(-\\infty,\\frac{7}{3}]$，选 B.</p>"
+          "solution": "<p>对任意整数 $n$，令 $x=n+t$，其中 $t\\in(0,1]$. 由 $f(x+1)=2f(x)$ 和 $f(t)=t(t-1)$，得 $f(x)=2^{n} t(t-1)$. 当 $n\\leq1$ 时，$t(t-1)\\geq-\\frac{1}{4}$，所以 $f(x)\\geq-\\frac{2^{n}}{4}\\geq-\\frac{1}{2}>-\\frac{8}{9}$.</p><p>当 $n=2$ 时，$f(x)=4t(t-1)$. 其中 $f(x)<-\\frac{8}{9}$ 等价于 $t(t-1)<-\\frac{2}{9}$，即 $t^{2}-t+\\frac{2}{9}<0$，所以 $\\frac{1}{3}<t<\\frac{2}{3}$，对应 $\\frac{7}{3}<x<\\frac{8}{3}$. 因而当且仅当 $m\\leq\\frac{7}{3}$ 时，所有 $x\\leq m$ 都满足 $f(x)\\geq-\\frac{8}{9}$，故 $m\\in(-\\infty,\\frac{7}{3}]$，选 B.</p>"
         }
       ]
     },
@@ -165,10 +165,10 @@
         },
         {
           "num": 14,
-          "body": "已知 $f(x)$ 是奇函数，且当 $x&#x3C;0$ 时，$f(x)=-\\mathrm{e}^{ax}$. 若 $f(\\ln2)=8$，则 $a=\\underline{\\hspace{2.5em}}{}$",
+          "body": "已知 $f(x)$ 是奇函数，且当 $x<0$ 时，$f(x)=-\\mathrm{e}^{ax}$. 若 $f(\\ln2)=8$，则 $a=\\underline{\\hspace{2.5em}}{}$",
           "choices": null,
           "answer": "$-3$",
-          "solution": "因为 $f$ 是奇函数，且 $-\\ln2&#x3C;0$，所以 $f(-\\ln2)=-\\mathrm{e}^{-a\\ln2}=-2^{-a}$，从而 $f(\\ln2)=2^{-a}$. 由 $f(\\ln2)=8=2^{3}$，得 $-a=3$，所以 $a=-3$."
+          "solution": "因为 $f$ 是奇函数，且 $-\\ln2<0$，所以 $f(-\\ln2)=-\\mathrm{e}^{-a\\ln2}=-2^{-a}$，从而 $f(\\ln2)=2^{-a}$. 由 $f(\\ln2)=8=2^{3}$，得 $-a=3$，所以 $a=-3$."
         },
         {
           "num": 15,
@@ -182,7 +182,7 @@
           "body": "<p>中国有悠久的金石文化，印信是金石文化的代表之一. 印信的形状多为长方体，正方体或圆柱体，但南北朝时期的官员独孤信的印信形状是“半正多面体”（图 1）. 半正多面体是由两种或两种以上的正多边形围成的多面体. 半正多面体体现了数学的对称美. 图 2 是一个棱数为 $48$ 的半正多面体，它的所有顶点都在同一个正方体的表面上，且此正方体的棱长为 $1$. 则该半正多面体共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 个面，其棱长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u></p><p><span class=\"macro macro-examfiguregroup\"></span>[float=inline]img/2019/national_paper_2_science/q16_fig1.png<br><span class=\"macro macro-bitmapinclude\"></span>[max width=5.0cm]img/2019/national_paper_2_science/q16_fig1.png<span class=\"macro macro-hfill\"></span><br><span class=\"macro macro-bitmapinclude\"></span>[max width=5.0cm]img/2019/national_paper_2_science/q16_fig2.png<br></p>",
           "choices": null,
           "answer": "$26$，$\\sqrt{2}-1$",
-          "solution": "<p>将包含该多面体的正方体中心取为原点，令其棱长方向为坐标轴，则正方体的六个表面分别为 $x=\\pm\\frac{1}{2}$、$y=\\pm\\frac{1}{2}$、$z=\\pm\\frac{1}{2}$. 由图形的对称性，设多面体顶点为所有带符号排列的 $(\\frac{1}{2},u,u)$，其中 $0&#x3C;u&#x3C;\\frac{1}{2}$. 因而共有 $3\\times2^{3}=24$ 个顶点.</p><p>同一正方体表面上的四个顶点，例如 $(\\frac{1}{2},\\pm u,\\pm u)$，组成一个正方形，其边长就是多面体棱长，记为 $\\ell$，故 $\\ell=2u$. 在正方体的一个顶点附近，三个顶点 $(\\frac{1}{2},u,u)$、$(u,\\frac{1}{2},u)$、$(u,u,\\frac{1}{2})$ 组成一个正三角形，所以 $\\ell^{2}=2(\\frac{1}{2}-u)^{2}$. 联立 $\\ell=2u$，得 $4u^{2}=2(\\frac{1}{2}-u)^{2}$. 由于 $0&#x3C;u&#x3C;\\frac{1}{2}$，所以 $\\sqrt{2}u=\\frac{1}{2}-u$，从而 $u=\\frac{1}{[2(1+\\sqrt{2})]}$，$\\ell=2u=\\frac{1}{(1+\\sqrt{2})}=\\sqrt{2}-1$.</p><p>由欧拉公式 $V-E+F=2$，代入 $V=24$、$E=48$，得 $F=2-24+48=26$. 因而该多面体共有 $26$ 个面，棱长为 $\\sqrt{2}-1$.</p>"
+          "solution": "<p>将包含该多面体的正方体中心取为原点，令其棱长方向为坐标轴，则正方体的六个表面分别为 $x=\\pm\\frac{1}{2}$、$y=\\pm\\frac{1}{2}$、$z=\\pm\\frac{1}{2}$. 由图形的对称性，设多面体顶点为所有带符号排列的 $(\\frac{1}{2},u,u)$，其中 $0<u<\\frac{1}{2}$. 因而共有 $3\\times2^{3}=24$ 个顶点.</p><p>同一正方体表面上的四个顶点，例如 $(\\frac{1}{2},\\pm u,\\pm u)$，组成一个正方形，其边长就是多面体棱长，记为 $\\ell$，故 $\\ell=2u$. 在正方体的一个顶点附近，三个顶点 $(\\frac{1}{2},u,u)$、$(u,\\frac{1}{2},u)$、$(u,u,\\frac{1}{2})$ 组成一个正三角形，所以 $\\ell^{2}=2(\\frac{1}{2}-u)^{2}$. 联立 $\\ell=2u$，得 $4u^{2}=2(\\frac{1}{2}-u)^{2}$. 由于 $0<u<\\frac{1}{2}$，所以 $\\sqrt{2}u=\\frac{1}{2}-u$，从而 $u=\\frac{1}{[2(1+\\sqrt{2})]}$，$\\ell=2u=\\frac{1}{(1+\\sqrt{2})}=\\sqrt{2}-1$.</p><p>由欧拉公式 $V-E+F=2$，代入 $V=24$、$E=48$，得 $F=2-24+48=26$. 因而该多面体共有 $26$ 个面，棱长为 $\\sqrt{2}-1$.</p>"
         }
       ]
     },
@@ -238,10 +238,10 @@
         },
         {
           "num": 23,
-          "body": "<p>已知 $f(x)=|x-a|x+|x-2|(x-a)$.</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，求不等式 $f(x)&#x3C;0$ 的解集；</p></li><li><p>当 $x\\in(-\\infty,1]$ 时，$f(x)&#x3C;0$，求 $a$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知 $f(x)=|x-a|x+|x-2|(x-a)$.</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，求不等式 $f(x)<0$ 的解集；</p></li><li><p>当 $x\\in(-\\infty,1]$ 时，$f(x)<0$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，按 $x=1$，$x=2$ 分段讨论.</p><p>当 $x&#x3C;1$ 时，</p>\n$$\nf(x)=(1-x)x+(2-x)(x-1)=-2(x-1)^{2}&#x3C;0\n$$\n<p>当 $1\\le x&#x3C;2$ 时，</p>\n$$\nf(x)=(x-1)x+(2-x)(x-1)=2(x-1)\\ge0\n$$\n<p>当 $x\\ge2$ 时，</p>\n$$\nf(x)=(x-1)x+(x-2)(x-1)=2(x-1)^{2}>0\n$$\n<p>所以不等式 $f(x)&#x3C;0$ 的解集为 $(-\\infty,1)$.</p></li><li><p>按原题给出的闭区间取 $x=1$. 若 $a\\le1$，则</p>\n$$\nf(1)=|1-a|+(1-a)=2(1-a)\\ge0;\n$$\n<p>若 $a>1$，则</p>\n$$\nf(1)=|1-a|+(1-a)=(a-1)+(1-a)=0\n$$\n<p>两种情形都不满足 $f(1)&#x3C;0$. 因此按原 PDF 中 $x\\in(-\\infty,1]$ 的字面，$a$ 不存在，即 $a$ 的取值范围为空集.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，按 $x=1$，$x=2$ 分段讨论.</p><p>当 $x<1$ 时，</p>\n$$\nf(x)=(1-x)x+(2-x)(x-1)=-2(x-1)^{2}<0\n$$\n<p>当 $1\\le x<2$ 时，</p>\n$$\nf(x)=(x-1)x+(2-x)(x-1)=2(x-1)\\ge0\n$$\n<p>当 $x\\ge2$ 时，</p>\n$$\nf(x)=(x-1)x+(x-2)(x-1)=2(x-1)^{2}>0\n$$\n<p>所以不等式 $f(x)<0$ 的解集为 $(-\\infty,1)$.</p></li><li><p>按原题给出的闭区间取 $x=1$. 若 $a\\le1$，则</p>\n$$\nf(1)=|1-a|+(1-a)=2(1-a)\\ge0;\n$$\n<p>若 $a>1$，则</p>\n$$\nf(1)=|1-a|+(1-a)=(a-1)+(1-a)=0\n$$\n<p>两种情形都不满足 $f(1)<0$. 因此按原 PDF 中 $x\\in(-\\infty,1]$ 的字面，$a$ 不存在，即 $a$ 的取值范围为空集.</p></li></ol>"
         }
       ]
     }

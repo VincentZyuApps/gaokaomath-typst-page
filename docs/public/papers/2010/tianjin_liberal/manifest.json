@@ -53,7 +53,7 @@
             "$(1,2)$"
           ],
           "answer": "C",
-          "solution": "<p>$f(x)=\\mathrm{e}^{x}+x-2$ 在 $\\mathbb{R}$ 上连续，且</p><p>$f(0)=1+0-2=-1&#x3C;0$，$f(1)=\\mathrm{e}+1-2=\\mathrm{e}-1>0$.</p><p>由零点存在定理，$f$ 在 $(0,1)$ 内至少有一个零点. 因此零点所在的一个区间是 $(0,1)$，故选 C.</p>"
+          "solution": "<p>$f(x)=\\mathrm{e}^{x}+x-2$ 在 $\\mathbb{R}$ 上连续，且</p><p>$f(0)=1+0-2=-1<0$，$f(1)=\\mathrm{e}+1-2=\\mathrm{e}-1>0$.</p><p>由零点存在定理，$f$ 在 $(0,1)$ 内至少有一个零点. 因此零点所在的一个区间是 $(0,1)$，故选 C.</p>"
         },
         {
           "num": 5,
@@ -71,17 +71,17 @@
           "num": 6,
           "body": "设 $a = \\log_{5}4$，$b = (\\log_{5}3)^{2}$，$c = \\log_{4}5$，则（ ）",
           "choices": [
-            "$a &#x3C; c &#x3C; b$",
-            "$b &#x3C; c &#x3C; a$",
-            "$a &#x3C; b &#x3C; c$",
-            "$b &#x3C; a &#x3C; c$"
+            "$a < c < b$",
+            "$b < c < a$",
+            "$a < b < c$",
+            "$b < a < c$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $3&#x3C;4&#x3C;5$，所以</p>\n$$\n0&#x3C;\\log_{5} 3&#x3C;\\log_{5} 4&#x3C;1\n$$\n<p>记 $t=\\log_{5} 3$，则 $0&#x3C;t&#x3C;1$，故 $t^{2}&#x3C;t$. 因而</p>\n$$\nb=(\\log_{5} 3)^{2}&#x3C;\\log_{5} 3&#x3C;\\log_{5} 4=a\n$$\n<p>又 $0&#x3C;a&#x3C;1$，所以 $c=\\log_{4} 5=\\frac{1}{\\log_{5} 4}=\\frac{1}{a}>a$. 综上</p>\n$$\nb&#x3C;a&#x3C;c\n$$\n<p>故选 D.</p>"
+          "solution": "<p>因为 $3<4<5$，所以</p>\n$$\n0<\\log_{5} 3<\\log_{5} 4<1\n$$\n<p>记 $t=\\log_{5} 3$，则 $0<t<1$，故 $t^{2}<t$. 因而</p>\n$$\nb=(\\log_{5} 3)^{2}<\\log_{5} 3<\\log_{5} 4=a\n$$\n<p>又 $0<a<1$，所以 $c=\\log_{4} 5=\\frac{1}{\\log_{5} 4}=\\frac{1}{a}>a$. 综上</p>\n$$\nb<a<c\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 7,
-          "body": "设集合 $A = \\{x \\mid |x - a| &#x3C; 1,\\ x \\in \\mathbb{R}\\}$，$B = \\{x \\mid 1 &#x3C; x &#x3C; 5,\\ x \\in \\mathbb{R}\\}$. 若 $A \\cap B = \\varnothing$，则实数 $a$ 的取值范围是（ ）",
+          "body": "设集合 $A = \\{x \\mid |x - a| < 1,\\ x \\in \\mathbb{R}\\}$，$B = \\{x \\mid 1 < x < 5,\\ x \\in \\mathbb{R}\\}$. 若 $A \\cap B = \\varnothing$，则实数 $a$ 的取值范围是（ ）",
           "choices": [
             "$\\{a \\mid 0 \\le a \\le 6\\}$",
             "$\\{a \\mid a \\le 2\\text{ 或 }a \\ge 4\\}$",
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "<p>设函数 $g(x) = x^{2}- 2$ （$x \\in \\mathbb{R}$），$f(x) = \\begin{cases}g(x) + x + 4, &#x26; x &#x3C; g(x),\\\\\n\ng(x) - x, &#x26; x \\ge g(x),\\end{cases}$，</p><p>则 $f(x)$ 的值域是（ ）</p>",
+          "body": "<p>设函数 $g(x) = x^{2}- 2$ （$x \\in \\mathbb{R}$），$f(x) = \\begin{cases}g(x) + x + 4, & x < g(x),\\\\\n\ng(x) - x, & x \\ge g(x),\\end{cases}$，</p><p>则 $f(x)$ 的值域是（ ）</p>",
           "choices": [
             "$\\left[-\\frac{9}{4}, 0\\right] \\cup (1, +\\infty)$",
             "$[0, +\\infty)$",
@@ -125,7 +125,7 @@
             "$\\left[-\\frac{9}{4}, 0\\right] \\cup (2, +\\infty)$"
           ],
           "answer": "D",
-          "solution": "<p>由 $x&#x3C;g(x)$ 得</p>\n$$\nx&#x3C;x^{2}-2\\iff x^{2}-x-2>0\\iff x&#x3C;-1\\text{ 或 }x>2\n$$\n<p>在这部分，</p>\n$$\nf(x)=x^{2}-2+x+4=x^{2}+x+2\n$$\n<p>当 $x&#x3C;-1$ 时，该函数在此区间上递减，且趋近于 $-1$ 时趋近于 $2$，所以值域为 $(2,+\\infty)$；当 $x>2$ 时，函数递增，值域为 $(8,+\\infty)$，这是 $(2,+\\infty)$ 的子集. 因而第一部分总值域为 $(2,+\\infty)$.</p><p>由 $x\\ge g(x)$ 得</p>\n$$\nx\\ge x^{2}-2\\iff x^{2}-x-2\\leqslant0\\iff -1\\le x\\leqslant2\n$$\n<p>在此区间，</p>\n$$\nf(x)=x^{2}-x-2=\\left(x-\\frac{1}{2}\\right)^{2}-\\frac{9}{4}\n$$\n<p>故值域为 $\\left[-\\frac{9}{4},0\\right]$. 合并两部分得到</p>\n$$\n\\left[-\\frac{9}{4},0\\right]\\cup(2,+\\infty)\n$$\n<p>故选 D.</p>"
+          "solution": "<p>由 $x<g(x)$ 得</p>\n$$\nx<x^{2}-2\\iff x^{2}-x-2>0\\iff x<-1\\text{ 或 }x>2\n$$\n<p>在这部分，</p>\n$$\nf(x)=x^{2}-2+x+4=x^{2}+x+2\n$$\n<p>当 $x<-1$ 时，该函数在此区间上递减，且趋近于 $-1$ 时趋近于 $2$，所以值域为 $(2,+\\infty)$；当 $x>2$ 时，函数递增，值域为 $(8,+\\infty)$，这是 $(2,+\\infty)$ 的子集. 因而第一部分总值域为 $(2,+\\infty)$.</p><p>由 $x\\ge g(x)$ 得</p>\n$$\nx\\ge x^{2}-2\\iff x^{2}-x-2\\leqslant0\\iff -1\\le x\\leqslant2\n$$\n<p>在此区间，</p>\n$$\nf(x)=x^{2}-x-2=\\left(x-\\frac{1}{2}\\right)^{2}-\\frac{9}{4}\n$$\n<p>故值域为 $\\left[-\\frac{9}{4},0\\right]$. 合并两部分得到</p>\n$$\n\\left[-\\frac{9}{4},0\\right]\\cup(2,+\\infty)\n$$\n<p>故选 D.</p>"
         }
       ]
     },
@@ -165,14 +165,14 @@
           "body": "设 $\\{a_{n}\\}$ 是等比数列，公比 $q = \\sqrt{2}$. $S_{n}$ 为 $\\{a_{n}\\}$ 的前 $n$ 项和. 记 $T_{n} = \\frac{17S_{n} - S_{2n}}{a_{n+1}}$，$\\ n \\in \\mathbf{N}^{*}$. 设 $T_{n_0}$ 为数列 $\\{T_{n}\\}$ 的最大项，则 $n_{0} =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "4",
-          "solution": "<p>设首项为 $a_{1}$. 由于题设中的 $T_{n}$ 有定义，故 $a_{1}\\ne0$. 公比 $q=\\sqrt{2}\\ne1$，</p><p>$S_{n}=a_{1}\\frac{q^{n}-1}{q-1}$，$S_{2n}=a_{1}\\frac{q^{2n}-1}{q-1}$.</p><p>代入 $T_{n}$，并利用 $a_{n+1}=a_{1}q^{n}$，得</p>\n$$\nT_{n}=\\frac{17-q^{n}-16q^{-n}}{q-1}\n$$\n<p>于是</p>\n$$\nT_{n+1}-T_{n}=-q^{n}+16q^{-(n+1)}\n$$\n<p>因为 $q>0$，差值为正当且仅当</p>\n$$\nq^{2n+1}&#x3C;16\n$$\n<p>当 $n=1$，$2$，$3$ 时该不等式成立，而当 $n\\geqslant4$ 时不成立. 因此 $T_{n}$ 先增后减，最大项为 $T_{4}$，即 $n_{0}=4$.</p>"
+          "solution": "<p>设首项为 $a_{1}$. 由于题设中的 $T_{n}$ 有定义，故 $a_{1}\\ne0$. 公比 $q=\\sqrt{2}\\ne1$，</p><p>$S_{n}=a_{1}\\frac{q^{n}-1}{q-1}$，$S_{2n}=a_{1}\\frac{q^{2n}-1}{q-1}$.</p><p>代入 $T_{n}$，并利用 $a_{n+1}=a_{1}q^{n}$，得</p>\n$$\nT_{n}=\\frac{17-q^{n}-16q^{-n}}{q-1}\n$$\n<p>于是</p>\n$$\nT_{n+1}-T_{n}=-q^{n}+16q^{-(n+1)}\n$$\n<p>因为 $q>0$，差值为正当且仅当</p>\n$$\nq^{2n+1}<16\n$$\n<p>当 $n=1$，$2$，$3$ 时该不等式成立，而当 $n\\geqslant4$ 时不成立. 因此 $T_{n}$ 先增后减，最大项为 $T_{4}$，即 $n_{0}=4$.</p>"
         },
         {
           "num": 16,
-          "body": "设函数 $f(x) = x - \\frac{1}{x}$，对任意 $x \\in [1,+\\infty)$，$f(mx) + mf(x) &#x3C; 0$ 恒成立，则实数 $m$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "设函数 $f(x) = x - \\frac{1}{x}$，对任意 $x \\in [1,+\\infty)$，$f(mx) + mf(x) < 0$ 恒成立，则实数 $m$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$m &#x3C; -1$",
-          "solution": "<p>题设对任意 $x\\geqslant1$ 都要求 $f(mx)$ 有意义，因此 $m\\ne0$. 直接计算得</p>\n$$\nf(mx)+mf(x)=mx-\\frac{1}{mx}+m\\left(x-\\frac{1}{x}\\right)  =2mx-\\frac{m+\\frac{1}{m}}{x}=\\frac{2mx^{2}-m-\\frac{1}{m}}{x}\n$$\n<p>若 $m>0$，当 $x$ 足够大时上式为正，不可能恒小于 0. 所以必须有 $m&#x3C;0$.</p><p>当 $m&#x3C;0$ 时，分母 $x>0$，且分子 $2mx^{2}-m-\\frac{1}{m}$ 关于 $x^{2}$ 递减. 因此对所有 $x\\geqslant1$ 为负，等价于在 $x=1$ 时为负：</p>\n$$\n2m-m-\\frac{1}{m}=m-\\frac{1}{m}&#x3C;0\n$$\n<p>令 $m=-t$，其中 $t>0$，则上式等价于</p>\n$$\n-t+\\frac{1}{t}&#x3C;0\\iff t>1\\iff m&#x3C;-1\n$$\n<p>故 $m$ 的取值范围为 $m&#x3C;-1$.</p>"
+          "answer": "$m < -1$",
+          "solution": "<p>题设对任意 $x\\geqslant1$ 都要求 $f(mx)$ 有意义，因此 $m\\ne0$. 直接计算得</p>\n$$\nf(mx)+mf(x)=mx-\\frac{1}{mx}+m\\left(x-\\frac{1}{x}\\right)  =2mx-\\frac{m+\\frac{1}{m}}{x}=\\frac{2mx^{2}-m-\\frac{1}{m}}{x}\n$$\n<p>若 $m>0$，当 $x$ 足够大时上式为正，不可能恒小于 0. 所以必须有 $m<0$.</p><p>当 $m<0$ 时，分母 $x>0$，且分子 $2mx^{2}-m-\\frac{1}{m}$ 关于 $x^{2}$ 递减. 因此对所有 $x\\geqslant1$ 为负，等价于在 $x=1$ 时为负：</p>\n$$\n2m-m-\\frac{1}{m}=m-\\frac{1}{m}<0\n$$\n<p>令 $m=-t$，其中 $t>0$，则上式等价于</p>\n$$\n-t+\\frac{1}{t}<0\\iff t>1\\iff m<-1\n$$\n<p>故 $m$ 的取值范围为 $m<-1$.</p>"
         }
       ]
     },
@@ -184,7 +184,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，$\\frac{AC}{AB}= \\frac{\\cos B}{\\cos C}$.</p><ol class=\"enumerate\"><li><p>证明：$B = C$；</p></li><li><p>若 $\\cos A = -\\frac{1}{3}$，求 $\\sin \\left(4B + \\frac{\\pi}{3}\\right)$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，</p>\n$$\n\\frac{AC}{AB}=\\frac{\\sin B}{\\sin C}\n$$\n<p>结合题设得</p>\n$$\n\\frac{\\sin B}{\\sin C}=\\frac{\\cos B}{\\cos C}\n$$\n<p>所以 $\\sin B\\cos C=\\sin C\\cos B$，即 $\\sin(B-C)=0$. 由于 $B$，$C\\in(0,\\pi)$，且 $B-C\\in(-\\pi,\\pi)$，只能有 $B=C$.</p></li><li><p>由 $B=C$ 及三角形内角和，$A+2B=\\pi$. 题设给出</p>\n$$\n\\cos A=\\cos(\\pi-2B)=-\\cos2B=-\\frac{1}{3}\n$$\n<p>故 $\\cos2B=\\frac{1}{3}$. 因为 $0&#x3C;B&#x3C;\\frac{\\pi}{2}$，所以</p>\n$$\n\\sin2B=\\sqrt{1-\\cos^{2}2B}=\\frac{2\\sqrt{2}}{3}\n$$\n<p>于是</p><p>$\\sin4B=2\\sin2B\\cos2B=\\frac{4\\sqrt{2}}{9}$，$\\cos4B=2\\cos^{2}2B-1=-\\frac{7}{9}$.</p><p>最后</p>\n$$\n\\sin\\left(4B+\\frac{\\pi}{3}\\right)  =\\sin4B\\cos\\frac{\\pi}{3}+\\cos4B\\sin\\frac{\\pi}{3}=\\frac{4\\sqrt{2}-7\\sqrt{3}}{18}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，</p>\n$$\n\\frac{AC}{AB}=\\frac{\\sin B}{\\sin C}\n$$\n<p>结合题设得</p>\n$$\n\\frac{\\sin B}{\\sin C}=\\frac{\\cos B}{\\cos C}\n$$\n<p>所以 $\\sin B\\cos C=\\sin C\\cos B$，即 $\\sin(B-C)=0$. 由于 $B$，$C\\in(0,\\pi)$，且 $B-C\\in(-\\pi,\\pi)$，只能有 $B=C$.</p></li><li><p>由 $B=C$ 及三角形内角和，$A+2B=\\pi$. 题设给出</p>\n$$\n\\cos A=\\cos(\\pi-2B)=-\\cos2B=-\\frac{1}{3}\n$$\n<p>故 $\\cos2B=\\frac{1}{3}$. 因为 $0<B<\\frac{\\pi}{2}$，所以</p>\n$$\n\\sin2B=\\sqrt{1-\\cos^{2}2B}=\\frac{2\\sqrt{2}}{3}\n$$\n<p>于是</p><p>$\\sin4B=2\\sin2B\\cos2B=\\frac{4\\sqrt{2}}{9}$，$\\cos4B=2\\cos^{2}2B-1=-\\frac{7}{9}$.</p><p>最后</p>\n$$\n\\sin\\left(4B+\\frac{\\pi}{3}\\right)  =\\sin4B\\cos\\frac{\\pi}{3}+\\cos4B\\sin\\frac{\\pi}{3}=\\frac{4\\sqrt{2}-7\\sqrt{3}}{18}\n$$\n</li></ol>"
         },
         {
           "num": 18,
@@ -205,7 +205,7 @@
           "body": "<p>已知函数 $f(x) = ax^{3} - \\frac{3}{2}x^{2} + 1$ （$x \\in \\mathbb{R}$），其中 $a > 0$.</p><ol class=\"enumerate\"><li><p>若 $a = 1$，求曲线 $y = f(x)$ 在点 $(2,f(2))$ 处的切线方程；</p></li><li><p>若在区间 $\\left[-\\frac{1}{2}, \\frac{1}{2}\\right]$ 上，$f(x) > 0$ 恒成立，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，</p><p>$f(x)=x^{3}-\\frac{3}{2}x^{2}+1$，$f(2)=8-6+1=3$.</p><p>又</p><p>$f'(x)=3x^{2}-3x$，$f'(2)=6$.</p><p>所以曲线在 $(2,3)$ 处的切线为</p>\n$$\ny-3=6(x-2)\n$$\n<p>即 $y=6x-9$.</p></li><li><p>必要性方面，若 $f(x)>0$ 在区间上恒成立，则特别有</p>\n$$\nf\\left(-\\frac{1}{2}\\right)  =-\\frac{a}{8}-\\frac{3}{8}+1  =\\frac{5-a}{8}>0\n$$\n<p>所以 $a&#x3C;5$. 结合题设 $a>0$，必要条件为 $0&#x3C;a&#x3C;5$.</p><p>下面证明该条件充分. 对 $x\\in[-\\frac{1}{2},0]$，有</p>\n$$\nf'(x)=3x(ax-1)\\geqslant0\n$$\n<p>（因为 $x\\leqslant0$、$a>0$，且 $ax-1&#x3C;0$），故 $f$ 在该区间上递增，最小值为</p>\n$$\nf\\left(-\\frac{1}{2}\\right)=\\frac{5-a}{8}>0\n$$\n<p>当 $0\\le x\\le\\frac{1}{2}$ 时分两种情况讨论：</p><p>若 $0&#x3C;a\\leqslant2$，则 $ax\\leqslant1$，从而 $f'(x)\\leqslant0$，最小值在 $x=\\frac{1}{2}$ 处，且</p>\n$$\nf\\left(\\frac{1}{2}\\right)=\\frac{a}{8}-\\frac{3}{8}+1=\\frac{a+5}{8}>0\n$$\n<p>若 $2&#x3C;a&#x3C;5$，则 $f'(x)$ 在 $x=\\frac{1}{a}$ 处由负变正，故最小值为</p>\n$$\nf\\left(\\frac{1}{a}\\right)  =1+\\frac{1}{a^{2}}-\\frac{3}{2a^{2}}=1-\\frac{1}{2a^{2}}>0\n$$\n<p>所以当且仅当 $0&#x3C;a&#x3C;5$ 时，区间 $[-\\frac{1}{2},\\frac{1}{2}]$ 上恒有 $f(x)>0$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，</p><p>$f(x)=x^{3}-\\frac{3}{2}x^{2}+1$，$f(2)=8-6+1=3$.</p><p>又</p><p>$f'(x)=3x^{2}-3x$，$f'(2)=6$.</p><p>所以曲线在 $(2,3)$ 处的切线为</p>\n$$\ny-3=6(x-2)\n$$\n<p>即 $y=6x-9$.</p></li><li><p>必要性方面，若 $f(x)>0$ 在区间上恒成立，则特别有</p>\n$$\nf\\left(-\\frac{1}{2}\\right)  =-\\frac{a}{8}-\\frac{3}{8}+1  =\\frac{5-a}{8}>0\n$$\n<p>所以 $a<5$. 结合题设 $a>0$，必要条件为 $0<a<5$.</p><p>下面证明该条件充分. 对 $x\\in[-\\frac{1}{2},0]$，有</p>\n$$\nf'(x)=3x(ax-1)\\geqslant0\n$$\n<p>（因为 $x\\leqslant0$、$a>0$，且 $ax-1<0$），故 $f$ 在该区间上递增，最小值为</p>\n$$\nf\\left(-\\frac{1}{2}\\right)=\\frac{5-a}{8}>0\n$$\n<p>当 $0\\le x\\le\\frac{1}{2}$ 时分两种情况讨论：</p><p>若 $0<a\\leqslant2$，则 $ax\\leqslant1$，从而 $f'(x)\\leqslant0$，最小值在 $x=\\frac{1}{2}$ 处，且</p>\n$$\nf\\left(\\frac{1}{2}\\right)=\\frac{a}{8}-\\frac{3}{8}+1=\\frac{a+5}{8}>0\n$$\n<p>若 $2<a<5$，则 $f'(x)$ 在 $x=\\frac{1}{a}$ 处由负变正，故最小值为</p>\n$$\nf\\left(\\frac{1}{a}\\right)  =1+\\frac{1}{a^{2}}-\\frac{3}{2a^{2}}=1-\\frac{1}{2a^{2}}>0\n$$\n<p>所以当且仅当 $0<a<5$ 时，区间 $[-\\frac{1}{2},\\frac{1}{2}]$ 上恒有 $f(x)>0$.</p></li></ol>"
         },
         {
           "num": 21,
@@ -216,10 +216,10 @@
         },
         {
           "num": 22,
-          "body": "<p>在数列 $\\{a_{n}\\}$ 中，$a_{1} = 0$，且对任意 $k \\in \\mathbf{N}^{*}$，$a_{2k-1}$，$a_{2k}$，$a_{2k+1}$ 成等差数列，其公差为 $2k$.</p><ol class=\"enumerate\"><li><p>证明 $a_{4}$，$a_{5}$，$a_{6}$ 成等比数列；</p></li><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>记 $T_{n} = \\frac{2^{2}}{a_{2}}+ \\frac{3^{2}}{a_{3}}+ \\cdots + \\frac{n^{2}}{a_{n}}$，证明 $\\frac{3}{2}&#x3C; 2n - T_{n} \\le 2$（$n \\ge 2$）.</p></li></ol>",
+          "body": "<p>在数列 $\\{a_{n}\\}$ 中，$a_{1} = 0$，且对任意 $k \\in \\mathbf{N}^{*}$，$a_{2k-1}$，$a_{2k}$，$a_{2k+1}$ 成等差数列，其公差为 $2k$.</p><ol class=\"enumerate\"><li><p>证明 $a_{4}$，$a_{5}$，$a_{6}$ 成等比数列；</p></li><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>记 $T_{n} = \\frac{2^{2}}{a_{2}}+ \\frac{3^{2}}{a_{3}}+ \\cdots + \\frac{n^{2}}{a_{n}}$，证明 $\\frac{3}{2}< 2n - T_{n} \\le 2$（$n \\ge 2$）.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $a_{2k-1}$、$a_{2k}$、$a_{2k+1}$ 成等差数列且公差为 $2k$，所以</p><p>$a_{2k}=a_{2k-1}+2k$，$a_{2k+1}=a_{2k}+2k=a_{2k-1}+4k$.</p><p>取 $k=1$，得 $a_{2}=2$、$a_{3}=4$；取 $k=2$，得</p><p>$a_{4}=8$，$a_{5}=12$.</p><p>再取 $k=3$，由 $a_{5}$，$a_{6}$，$a_{7}$ 成等差数列且公差为 $6$，得 $a_{6}=18$.</p><p>由于</p>\n$$\na_{5}^{2}=12^{2}=144=8\\cdot18=a_{4}a_{6}\n$$\n<p>所以 $a_{4}$、$a_{5}$、$a_{6}$ 成等比数列，公比为 $\\frac{12}{8}=\\frac{3}{2}$.</p></li><li><p>由</p><p>$a_{2k+1}=a_{2k-1}+4k$，$a_{1}=0$</p><p>逐项累加得</p>\n$$\na_{2k+1}=4\\sum_{j=1}^{k}j=2k(k+1)\n$$\n<p>令 $n=2k+1$，得到</p><p>$a_{n}=\\frac{n^{2}-1}{2}$，$(n\\text{为奇数})$.</p><p>再由 $a_{2k}=a_{2k-1}+2k$，得</p>\n$$\na_{2k}=2k(k-1)+2k=2k^{2}=\\frac{(2k)^{2}}{2}\n$$\n<p>因此</p>\n$$\na_{n}=\\begin{cases}\\dfrac{n^2-1}{2},&#x26;n\\text{为奇数},\\\\[4pt]  \\dfrac{n^2}{2},&#x26;n\\text{为偶数}.\\end{cases}\n$$\n</li><li><p>当 $k$ 为偶数时，由通项公式</p>\n$$\n\\frac{k^{2}}{a_{k}}=2\n$$\n<p>当 $k=2j+1$ 为奇数时</p>\n$$\n\\frac{k^{2}}{a_{k}}=\\frac{2k^{2}}{k^{2}-1}=2+\\frac{2}{k^{2}-1}=2+\\frac{1}{2j(j+1)}\n$$\n<p>设 $m$ 为不超过 $n$ 的奇数 $3$，$5$，$\\ldots$ 的个数，则</p>\n$$\n\\sum_{j=1}^{m}\\frac{1}{2j(j+1)}=\\frac{1}{2}\\sum_{j=1}^{m}\\left(\\frac{1}{j}-\\frac{1}{j+1}\\right)  =\\frac{1}{2}-\\frac{1}{2(m+1)}\n$$\n<p>若 $n=2r$，则 $m=r-1$，从而</p><p>$T_{n}=2(n-1)+\\frac{1}{2}-\\frac{1}{n}$，$2n-T_{n}=\\frac{3}{2}+\\frac{1}{n}$.</p><p>若 $n=2r+1$，则 $m=r$，从而</p><p>$T_{n}=2(n-1)+\\frac{1}{2}-\\frac{1}{n+1}$，$2n-T_{n}=\\frac{3}{2}+\\frac{1}{n+1}$.</p><p>当 $n\\geqslant2$ 时，上述两种情形均有 $2n-T_{n}>\\frac{3}{2}$. 又当 $n$ 为偶数时 $\\frac{1}{n}\\le\\frac{1}{2}$，当 $n$ 为奇数时 $\\frac{1}{(n+1)}\\le\\frac{1}{2}$，所以 $2n-T_{n}\\leqslant2$. 因而</p>\n$$\n\\frac{3}{2}&#x3C;2n-T_{n}\\leqslant2\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $a_{2k-1}$、$a_{2k}$、$a_{2k+1}$ 成等差数列且公差为 $2k$，所以</p><p>$a_{2k}=a_{2k-1}+2k$，$a_{2k+1}=a_{2k}+2k=a_{2k-1}+4k$.</p><p>取 $k=1$，得 $a_{2}=2$、$a_{3}=4$；取 $k=2$，得</p><p>$a_{4}=8$，$a_{5}=12$.</p><p>再取 $k=3$，由 $a_{5}$，$a_{6}$，$a_{7}$ 成等差数列且公差为 $6$，得 $a_{6}=18$.</p><p>由于</p>\n$$\na_{5}^{2}=12^{2}=144=8\\cdot18=a_{4}a_{6}\n$$\n<p>所以 $a_{4}$、$a_{5}$、$a_{6}$ 成等比数列，公比为 $\\frac{12}{8}=\\frac{3}{2}$.</p></li><li><p>由</p><p>$a_{2k+1}=a_{2k-1}+4k$，$a_{1}=0$</p><p>逐项累加得</p>\n$$\na_{2k+1}=4\\sum_{j=1}^{k}j=2k(k+1)\n$$\n<p>令 $n=2k+1$，得到</p><p>$a_{n}=\\frac{n^{2}-1}{2}$，$(n\\text{为奇数})$.</p><p>再由 $a_{2k}=a_{2k-1}+2k$，得</p>\n$$\na_{2k}=2k(k-1)+2k=2k^{2}=\\frac{(2k)^{2}}{2}\n$$\n<p>因此</p>\n$$\na_{n}=\\begin{cases}\\dfrac{n^2-1}{2},&n\\text{为奇数},\\\\[4pt]  \\dfrac{n^2}{2},&n\\text{为偶数}.\\end{cases}\n$$\n</li><li><p>当 $k$ 为偶数时，由通项公式</p>\n$$\n\\frac{k^{2}}{a_{k}}=2\n$$\n<p>当 $k=2j+1$ 为奇数时</p>\n$$\n\\frac{k^{2}}{a_{k}}=\\frac{2k^{2}}{k^{2}-1}=2+\\frac{2}{k^{2}-1}=2+\\frac{1}{2j(j+1)}\n$$\n<p>设 $m$ 为不超过 $n$ 的奇数 $3$，$5$，$\\ldots$ 的个数，则</p>\n$$\n\\sum_{j=1}^{m}\\frac{1}{2j(j+1)}=\\frac{1}{2}\\sum_{j=1}^{m}\\left(\\frac{1}{j}-\\frac{1}{j+1}\\right)  =\\frac{1}{2}-\\frac{1}{2(m+1)}\n$$\n<p>若 $n=2r$，则 $m=r-1$，从而</p><p>$T_{n}=2(n-1)+\\frac{1}{2}-\\frac{1}{n}$，$2n-T_{n}=\\frac{3}{2}+\\frac{1}{n}$.</p><p>若 $n=2r+1$，则 $m=r$，从而</p><p>$T_{n}=2(n-1)+\\frac{1}{2}-\\frac{1}{n+1}$，$2n-T_{n}=\\frac{3}{2}+\\frac{1}{n+1}$.</p><p>当 $n\\geqslant2$ 时，上述两种情形均有 $2n-T_{n}>\\frac{3}{2}$. 又当 $n$ 为偶数时 $\\frac{1}{n}\\le\\frac{1}{2}$，当 $n$ 为奇数时 $\\frac{1}{(n+1)}\\le\\frac{1}{2}$，所以 $2n-T_{n}\\leqslant2$. 因而</p>\n$$\n\\frac{3}{2}<2n-T_{n}\\leqslant2\n$$\n</li></ol>"
         }
       ]
     }

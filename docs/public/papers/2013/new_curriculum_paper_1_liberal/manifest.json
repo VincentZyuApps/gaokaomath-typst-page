@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "已知命题 $p$：$\\forall x \\in \\mathbb{R}$，$2^{x} &#x3C; 3^{x}$；命题 $q$：$\\exists x \\in \\mathbb{R}$，$x^{3} = 1 - x^{2}$，则下列命题中为真命题的是（ ）",
+          "body": "已知命题 $p$：$\\forall x \\in \\mathbb{R}$，$2^{x} < 3^{x}$；命题 $q$：$\\exists x \\in \\mathbb{R}$，$x^{3} = 1 - x^{2}$，则下列命题中为真命题的是（ ）",
           "choices": [
             "$p \\wedge q$",
             "$\\neg p \\land q$",
@@ -65,7 +65,7 @@
             "$\\neg p \\land \\neg q$"
           ],
           "answer": "B",
-          "solution": "命题 $p$ 不成立，因为取 $x=-1$ 时 $2^{-1}=\\frac{1}{2}>\\frac{1}{3}=3^{-1}$. 令 $h(x)=x^{3}+x^{2}-1$，则 $h(0)=-1&#x3C;0$，$h(1)=1>0$，由零点存在性定理，方程 $x^{3}=1-x^{2}$ 在 $(0,1)$ 内有实根，所以命题 $q$ 成立. 因此真命题为 $\\neg p\\wedge q$，故选 B."
+          "solution": "命题 $p$ 不成立，因为取 $x=-1$ 时 $2^{-1}=\\frac{1}{2}>\\frac{1}{3}=3^{-1}$. 令 $h(x)=x^{3}+x^{2}-1$，则 $h(0)=-1<0$，$h(1)=1>0$，由零点存在性定理，方程 $x^{3}=1-x^{2}$ 在 $(0,1)$ 内有实根，所以命题 $q$ 成立. 因此真命题为 $\\neg p\\wedge q$，故选 B."
         },
         {
           "num": 6,
@@ -89,7 +89,7 @@
             "$[-2,5]$"
           ],
           "answer": "A",
-          "solution": "当 $t&#x3C;1$ 时，$t\\in[-1,1)$，程序输出 $s=3t$，故 $s\\in[-3,3)$. 当 $t\\geqslant1$ 时，$t\\in[1,3]$，输出 $s=4t-t^{2}=4-(t-2)^{2}$，故 $s\\in[3,4]$. 合并得 $s\\in[-3,4]$，故选 A."
+          "solution": "当 $t<1$ 时，$t\\in[-1,1)$，程序输出 $s=3t$，故 $s\\in[-3,3)$. 当 $t\\geqslant1$ 时，$t\\in[1,3]$，输出 $s=4t-t^{2}=4-(t-2)^{2}$，故 $s\\in[3,4]$. 合并得 $s\\in[-3,4]$，故选 A."
         },
         {
           "num": 8,
@@ -141,7 +141,7 @@
         },
         {
           "num": 12,
-          "body": "已知函数 $f(x) = \\begin{cases}-x^{2} + 2x,&#x26;x \\le 0,\\\\  \\ln (x + 1),&#x26;x > 0,\\end{cases}$ 若 $|f(x)| \\ge ax$，则 $a$ 的取值范围是（ ）",
+          "body": "已知函数 $f(x) = \\begin{cases}-x^{2} + 2x,&x \\le 0,\\\\  \\ln (x + 1),&x > 0,\\end{cases}$ 若 $|f(x)| \\ge ax$，则 $a$ 的取值范围是（ ）",
           "choices": [
             "$\\left(-\\infty,0\\right]$",
             "$\\left(-\\infty,1\\right]$",
@@ -149,7 +149,7 @@
             "$\\left[-2,0\\right]$"
           ],
           "answer": "D",
-          "solution": "<p>当 $x\\leqslant0$ 时，$f(x)=-x^{2}+2x\\leqslant0$，所以 $|f(x)|=x^{2}-2x$. 要使不等式对所有 $x\\leqslant0$ 成立，需要</p><p>$x^{2}-2x\\ge ax$，即 $x\\bigl(x-a-2\\bigr)\\geqslant0$. 对全部 $x\\leqslant0$ 成立的充要条件是 $a\\ge-2$. 当 $x>0$ 时，$f(x)=\\ln(x+1)>0$，不等式等价于 $\\displaystyle a\\le\\frac{\\ln(x+1)}{x}$. 由于 $\\displaystyle\\lim_{x\\to+\\infty}\\frac{\\ln(x+1)}{x}=0$，要对所有 $x>0$ 成立必须 $a\\leqslant0$；反之 $a\\leqslant0$ 时右端 $ax\\leqslant0&#x3C;f(x)$，不等式确实成立. 因此 $a\\in[-2,0]$，故选 D.</p>"
+          "solution": "<p>当 $x\\leqslant0$ 时，$f(x)=-x^{2}+2x\\leqslant0$，所以 $|f(x)|=x^{2}-2x$. 要使不等式对所有 $x\\leqslant0$ 成立，需要</p><p>$x^{2}-2x\\ge ax$，即 $x\\bigl(x-a-2\\bigr)\\geqslant0$. 对全部 $x\\leqslant0$ 成立的充要条件是 $a\\ge-2$. 当 $x>0$ 时，$f(x)=\\ln(x+1)>0$，不等式等价于 $\\displaystyle a\\le\\frac{\\ln(x+1)}{x}$. 由于 $\\displaystyle\\lim_{x\\to+\\infty}\\frac{\\ln(x+1)}{x}=0$，要对所有 $x>0$ 成立必须 $a\\leqslant0$；反之 $a\\leqslant0$ 时右端 $ax\\leqslant0<f(x)$，不等式确实成立. 因此 $a\\in[-2,0]$，故选 D.</p>"
         }
       ]
     },
@@ -215,7 +215,7 @@
           "body": "<p>已知函数 $f(x) = \\mathrm{e}^{x}(ax + b) - x^{2}- 4x$，曲线 $y = f(x)$ 在点 $(0,f(0))$ 处的切线方程为 $y = 4x + 4$.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$ 的值；</p></li><li><p>讨论 $f(x)$ 的单调性，并求 $f(x)$ 的极大值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由切线经过 $(0,f(0))$，得 $f(0)=4$，即 $b=4$. 又</p><p>$\\displaystyle f'(x)=\\mathrm{e}^{x}(ax+a+b)-2x-4$，所以 $f'(0)=a+b-4$. 切线斜率为 $4$，故 $a+b-4=4$. 代入 $b=4$ 得 $a=4$.</p></li><li><p>代入 $a=b=4$，得</p><p>$\\displaystyle f'(x)=\\mathrm{e}^{x}(4x+8)-2x-4=2(x+2)(2\\mathrm{e}^{x}-1)$. 因此临界点为 $x=-2$ 和 $x=-\\ln2$. 当 $x&#x3C;-2$ 时，$x+2&#x3C;0$ 且 $2\\mathrm{e}^{x}-1&#x3C;0$，故 $f'(x)>0$；当 $-2&#x3C;x&#x3C;-\\ln2$ 时，$f'(x)&#x3C;0$；当 $x>-\\ln2$ 时，$f'(x)>0$. 所以 $f(x)$ 在 $(-\\infty,-2)$ 和 $(-\\ln2,+\\infty)$ 上单调递增，在 $(-2,-\\ln2)$ 上单调递减. 在 $x=-2$ 处导数由正变负，故函数取得极大值</p><p>$\\displaystyle f(-2)=\\mathrm{e}^{-2}(-8+4)-4-4(-2)=4(1-\\mathrm{e}^{-2})$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由切线经过 $(0,f(0))$，得 $f(0)=4$，即 $b=4$. 又</p><p>$\\displaystyle f'(x)=\\mathrm{e}^{x}(ax+a+b)-2x-4$，所以 $f'(0)=a+b-4$. 切线斜率为 $4$，故 $a+b-4=4$. 代入 $b=4$ 得 $a=4$.</p></li><li><p>代入 $a=b=4$，得</p><p>$\\displaystyle f'(x)=\\mathrm{e}^{x}(4x+8)-2x-4=2(x+2)(2\\mathrm{e}^{x}-1)$. 因此临界点为 $x=-2$ 和 $x=-\\ln2$. 当 $x<-2$ 时，$x+2<0$ 且 $2\\mathrm{e}^{x}-1<0$，故 $f'(x)>0$；当 $-2<x<-\\ln2$ 时，$f'(x)<0$；当 $x>-\\ln2$ 时，$f'(x)>0$. 所以 $f(x)$ 在 $(-\\infty,-2)$ 和 $(-\\ln2,+\\infty)$ 上单调递增，在 $(-2,-\\ln2)$ 上单调递减. 在 $x=-2$ 处导数由正变负，故函数取得极大值</p><p>$\\displaystyle f(-2)=\\mathrm{e}^{-2}(-8+4)-4-4(-2)=4(1-\\mathrm{e}^{-2})$.</p></li></ol>"
         },
         {
           "num": 21,
@@ -233,17 +233,17 @@
         },
         {
           "num": 23,
-          "body": "<p>已知曲线 $C_{1}$ 的参数方程为 $\\begin{cases}x = 4 + 5\\cos t,\\\\\n\ny = 5 + 5\\sin t,\\end{cases}$（$t$ 为参数），以坐标原点为极点，$x$ 轴的正半轴为极轴建立极坐标系，曲线 $C_{2}$ 的极坐标方程为 $\\rho = 2\\sin\\theta$.</p><ol class=\"enumerate\"><li><p>把 $C_{1}$ 的参数方程化为极坐标方程；</p></li><li><p>求 $C_{1}$ 与 $C_{2}$ 交点的极坐标 （$\\rho \\ge 0, 0 \\le \\theta &#x3C; 2\\pi$）.</p></li></ol>",
+          "body": "<p>已知曲线 $C_{1}$ 的参数方程为 $\\begin{cases}x = 4 + 5\\cos t,\\\\\n\ny = 5 + 5\\sin t,\\end{cases}$（$t$ 为参数），以坐标原点为极点，$x$ 轴的正半轴为极轴建立极坐标系，曲线 $C_{2}$ 的极坐标方程为 $\\rho = 2\\sin\\theta$.</p><ol class=\"enumerate\"><li><p>把 $C_{1}$ 的参数方程化为极坐标方程；</p></li><li><p>求 $C_{1}$ 与 $C_{2}$ 交点的极坐标 （$\\rho \\ge 0, 0 \\le \\theta < 2\\pi$）.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由参数方程消去 $t$，得 $(x-4)^{2}+(y-5)^{2}=25$，即 $x^{2}+y^{2}-8x-10y+16=0$. 代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得到</p><p>$\\rho^{2}-8\\rho\\cos\\theta-10\\rho\\sin\\theta+16=0$.</p></li><li><p>方程 $\\rho=2\\sin\\theta$ 等价于 $x^{2}+y^{2}=2y$. 与 $C_{1}$ 的直角坐标方程联立，作差得 $x+y=2$. 代入 $x^{2}+y^{2}=2y$，得</p><p>$\\displaystyle(2-y)^{2}+y^{2}=2y$，即 $y^{2}-3y+2=0$. 因此交点为 $(1,1)$ 和 $(0,2)$. 在 $\\rho\\geqslant0$，$0\\le\\theta&#x3C;2\\pi$ 的条件下，它们的极坐标分别为 $\\left(\\sqrt{2},\\frac{\\pi}{4}\\right)$ 和 $\\left(2,\\frac{\\pi}{2}\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由参数方程消去 $t$，得 $(x-4)^{2}+(y-5)^{2}=25$，即 $x^{2}+y^{2}-8x-10y+16=0$. 代入 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，得到</p><p>$\\rho^{2}-8\\rho\\cos\\theta-10\\rho\\sin\\theta+16=0$.</p></li><li><p>方程 $\\rho=2\\sin\\theta$ 等价于 $x^{2}+y^{2}=2y$. 与 $C_{1}$ 的直角坐标方程联立，作差得 $x+y=2$. 代入 $x^{2}+y^{2}=2y$，得</p><p>$\\displaystyle(2-y)^{2}+y^{2}=2y$，即 $y^{2}-3y+2=0$. 因此交点为 $(1,1)$ 和 $(0,2)$. 在 $\\rho\\geqslant0$，$0\\le\\theta<2\\pi$ 的条件下，它们的极坐标分别为 $\\left(\\sqrt{2},\\frac{\\pi}{4}\\right)$ 和 $\\left(2,\\frac{\\pi}{2}\\right)$.</p></li></ol>"
         },
         {
           "num": 24,
-          "body": "<p>已知函数 $f(x) = |2x - 1| + |2x + a|$，$g(x) = x + 3$.</p><ol class=\"enumerate\"><li><p>当 $a = -2$ 时，求不等式 $f(x) &#x3C; g(x)$ 的解集；</p></li><li><p>设 $a > -1$，且当 $x \\in \\left[-\\frac{a}{2}, \\frac{1}{2}\\right)$ 时，$f(x) \\le g(x)$，求 $a$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = |2x - 1| + |2x + a|$，$g(x) = x + 3$.</p><ol class=\"enumerate\"><li><p>当 $a = -2$ 时，求不等式 $f(x) < g(x)$ 的解集；</p></li><li><p>设 $a > -1$，且当 $x \\in \\left[-\\frac{a}{2}, \\frac{1}{2}\\right)$ 时，$f(x) \\le g(x)$，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=-2$ 时，$f(x)=|2x-1|+|2x-2|$. 按 $x=\\frac{1}{2}$，$x=1$ 分段：</p>\n$$\nf(x)=  \\begin{cases}3-4x,&#x26;x&#x3C;\\frac{1}{2},\\\\  1,&#x26;\\frac{1}{2}\\le x&#x3C;1,\\\\  4x-3,&#x26;x\\geqslant1.\\end{cases}\n$$\n<p>在 $x&#x3C;\\frac{1}{2}$ 时，$3-4x&#x3C;x+3$ 等价于 $x>0$，得到 $\\left(0,\\frac{1}{2}\\right)$；在 $\\frac{1}{2}\\le x&#x3C;1$ 时，不等式恒成立；在 $x\\geqslant1$ 时，$4x-3&#x3C;x+3$ 等价于 $x&#x3C;2$，得到 $[1,2)$. 合并得解集为 $(0,2)$.</p></li><li><p>因为 $a>-1$，所以 $-\\frac{a}{2}&#x3C;\\frac{1}{2}$. 当 $x\\in\\left[-\\frac{a}{2},\\frac{1}{2}\\right)$ 时，$2x+a\\geqslant0$，$2x-1&#x3C;0$，从而 $f(x)=1-2x+2x+a=a+1$. 要使 $f(x)\\le g(x)=x+3$ 对该区间内所有 $x$ 成立，只需在左端点取最小值，即</p><p>$\\displaystyle a+1\\le-\\frac{a}{2}+3$. 解得 $a\\le\\frac{4}{3}$. 与 $a>-1$ 合并，得 $a\\in\\left(-1,\\frac{4}{3}\\right]$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=-2$ 时，$f(x)=|2x-1|+|2x-2|$. 按 $x=\\frac{1}{2}$，$x=1$ 分段：</p>\n$$\nf(x)=  \\begin{cases}3-4x,&x<\\frac{1}{2},\\\\  1,&\\frac{1}{2}\\le x<1,\\\\  4x-3,&x\\geqslant1.\\end{cases}\n$$\n<p>在 $x<\\frac{1}{2}$ 时，$3-4x<x+3$ 等价于 $x>0$，得到 $\\left(0,\\frac{1}{2}\\right)$；在 $\\frac{1}{2}\\le x<1$ 时，不等式恒成立；在 $x\\geqslant1$ 时，$4x-3<x+3$ 等价于 $x<2$，得到 $[1,2)$. 合并得解集为 $(0,2)$.</p></li><li><p>因为 $a>-1$，所以 $-\\frac{a}{2}<\\frac{1}{2}$. 当 $x\\in\\left[-\\frac{a}{2},\\frac{1}{2}\\right)$ 时，$2x+a\\geqslant0$，$2x-1<0$，从而 $f(x)=1-2x+2x+a=a+1$. 要使 $f(x)\\le g(x)=x+3$ 对该区间内所有 $x$ 成立，只需在左端点取最小值，即</p><p>$\\displaystyle a+1\\le-\\frac{a}{2}+3$. 解得 $a\\le\\frac{4}{3}$. 与 $a>-1$ 合并，得 $a\\in\\left(-1,\\frac{4}{3}\\right]$.</p></li></ol>"
         }
       ]
     }

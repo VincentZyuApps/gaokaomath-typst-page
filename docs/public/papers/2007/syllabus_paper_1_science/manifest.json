@@ -17,7 +17,7 @@
             "$-\\frac{5}{13}$"
           ],
           "answer": "D",
-          "solution": "由 $\\tan\\alpha=-\\frac{5}{12}$，且 $\\alpha$ 是第四象限角，知 $\\sin\\alpha&#x3C;0$，$\\cos\\alpha>0$. 由 $1+\\tan^{2}\\alpha=\\frac{1}{\\cos^{2}\\alpha}$ 得 $\\cos\\alpha=\\frac{12}{13}$，所以 $\\sin\\alpha=\\tan\\alpha\\cos\\alpha=-\\frac{5}{13}$，故选 D."
+          "solution": "由 $\\tan\\alpha=-\\frac{5}{12}$，且 $\\alpha$ 是第四象限角，知 $\\sin\\alpha<0$，$\\cos\\alpha>0$. 由 $1+\\tan^{2}\\alpha=\\frac{1}{\\cos^{2}\\alpha}$ 得 $\\cos\\alpha=\\frac{12}{13}$，所以 $\\sin\\alpha=\\tan\\alpha\\cos\\alpha=-\\frac{5}{13}$，故选 D."
         },
         {
           "num": 2,
@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "下面给出的四个点中，到直线 $x - y + 1 = 0$ 的距离为 $\\frac{\\sqrt{2}}{2}$，且位于 $\\begin{cases}x + y - 1 &#x3C; 0,\\\\\n\nx - y + 1 > 0\\end{cases}$ 表示的平面区域内的点是（ ）",
+          "body": "下面给出的四个点中，到直线 $x - y + 1 = 0$ 的距离为 $\\frac{\\sqrt{2}}{2}$，且位于 $\\begin{cases}x + y - 1 < 0,\\\\\n\nx - y + 1 > 0\\end{cases}$ 表示的平面区域内的点是（ ）",
           "choices": [
             "$(1,1)$",
             "$(-1,1)$",
@@ -77,7 +77,7 @@
             "$(1,-1)$"
           ],
           "answer": "C",
-          "solution": "点 $(x,y)$ 到直线 $x-y+1=0$ 的距离为 $\\frac{|x-y+1|}{\\sqrt{2}}$. 由题设距离条件及区域条件 $x-y+1>0$，得 $x-y+1=1$. 对四个点分别检验：$(1,1)$ 满足等式但 $x+y-1=1>0$；$(-1,1)$ 有 $x-y+1=-1$；$(-1,-1)$ 满足等式且 $x+y-1=-3&#x3C;0$；$(1,-1)$ 有 $x-y+1=3$. 所以符合条件的点为 $(-1,-1)$，故选 C."
+          "solution": "点 $(x,y)$ 到直线 $x-y+1=0$ 的距离为 $\\frac{|x-y+1|}{\\sqrt{2}}$. 由题设距离条件及区域条件 $x-y+1>0$，得 $x-y+1=1$. 对四个点分别检验：$(1,1)$ 满足等式但 $x+y-1=1>0$；$(-1,1)$ 有 $x-y+1=-1$；$(-1,-1)$ 满足等式且 $x+y-1=-3<0$；$(1,-1)$ 有 $x-y+1=3$. 所以符合条件的点为 $(-1,-1)$，故选 C."
         },
         {
           "num": 7,
@@ -149,7 +149,7 @@
             "$\\left(-\\frac{\\pi}{6},\\frac{\\pi}{6}\\right)$"
           ],
           "answer": "A",
-          "solution": "<p>由 $2\\cos^{2}\\frac{x}{2}=1+\\cos x$，得 $f(x)=\\cos^{2}x-1-\\cos x$，所以</p>\n$$\nf'(x)=-\\sin2x+\\sin x=\\sin x(1-2\\cos x)\n$$\n<p>在 $\\left(\\frac{\\pi}{3},\\frac{2\\pi}{3}\\right)$ 内，$\\sin x>0$，且 $\\cos x&#x3C;\\frac{1}{2}$，故 $f'(x)>0$. 因而该区间是函数的一个单调增区间，故选 A.</p>"
+          "solution": "<p>由 $2\\cos^{2}\\frac{x}{2}=1+\\cos x$，得 $f(x)=\\cos^{2}x-1-\\cos x$，所以</p>\n$$\nf'(x)=-\\sin2x+\\sin x=\\sin x(1-2\\cos x)\n$$\n<p>在 $\\left(\\frac{\\pi}{3},\\frac{2\\pi}{3}\\right)$ 内，$\\sin x>0$，且 $\\cos x<\\frac{1}{2}$，故 $f'(x)>0$. 因而该区间是函数的一个单调增区间，故选 A.</p>"
         }
       ]
     },
@@ -194,7 +194,7 @@
           "body": "<p>设锐角三角形 $ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，$a = 2b\\sin A$.</p><ol class=\"enumerate\"><li><p>求 $B$ 的大小；</p></li><li><p>求 $\\cos A + \\sin C$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由正弦定理，$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$. 结合 $a=2b\\sin A$，得 $\\frac{1}{\\sin B}=2$，所以 $\\sin B=\\frac{1}{2}$. 因为三角形 $ABC$ 为锐角三角形，故 $B=\\frac{\\pi}{6}$.</p><p>又因为 $A+B+C=\\pi$，所以 $C=\\frac{5\\pi}{6}-A$. 锐角条件给出 $0&#x3C;A&#x3C;\\frac{\\pi}{2}$ 且 $0&#x3C;C&#x3C;\\frac{\\pi}{2}$，从而 $\\frac{\\pi}{3}&#x3C;A&#x3C;\\frac{\\pi}{2}$. 于是</p>\n$$\n\\cos A+\\sin C=\\cos A+\\sin\\left(\\frac{5\\pi}{6}-A\\right)=\\frac{3}{2}\\cos A+\\frac{\\sqrt{3}}{2}\\sin A=\\sqrt{3}\\cos\\left(A-\\frac{\\pi}{6}\\right)\n$$\n<p>当 $\\frac{\\pi}{3}&#x3C;A&#x3C;\\frac{\\pi}{2}$ 时，$\\frac{\\pi}{6}&#x3C;A-\\frac{\\pi}{6}&#x3C;\\frac{\\pi}{3}$，故</p>\n$$\n\\frac{\\sqrt{3}}{2}&#x3C;\\sqrt{3}\\cos\\left(A-\\frac{\\pi}{6}\\right)&#x3C;\\frac{3}{2}\n$$\n<p>所以 $\\cos A+\\sin C$ 的取值范围为 $\\left(\\frac{\\sqrt{3}}{2},\\frac{3}{2}\\right)$.</p>"
+          "solution": "<p>由正弦定理，$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$. 结合 $a=2b\\sin A$，得 $\\frac{1}{\\sin B}=2$，所以 $\\sin B=\\frac{1}{2}$. 因为三角形 $ABC$ 为锐角三角形，故 $B=\\frac{\\pi}{6}$.</p><p>又因为 $A+B+C=\\pi$，所以 $C=\\frac{5\\pi}{6}-A$. 锐角条件给出 $0<A<\\frac{\\pi}{2}$ 且 $0<C<\\frac{\\pi}{2}$，从而 $\\frac{\\pi}{3}<A<\\frac{\\pi}{2}$. 于是</p>\n$$\n\\cos A+\\sin C=\\cos A+\\sin\\left(\\frac{5\\pi}{6}-A\\right)=\\frac{3}{2}\\cos A+\\frac{\\sqrt{3}}{2}\\sin A=\\sqrt{3}\\cos\\left(A-\\frac{\\pi}{6}\\right)\n$$\n<p>当 $\\frac{\\pi}{3}<A<\\frac{\\pi}{2}$ 时，$\\frac{\\pi}{6}<A-\\frac{\\pi}{6}<\\frac{\\pi}{3}$，故</p>\n$$\n\\frac{\\sqrt{3}}{2}<\\sqrt{3}\\cos\\left(A-\\frac{\\pi}{6}\\right)<\\frac{3}{2}\n$$\n<p>所以 $\\cos A+\\sin C$ 的取值范围为 $\\left(\\frac{\\sqrt{3}}{2},\\frac{3}{2}\\right)$.</p>"
         },
         {
           "num": 18,
@@ -219,17 +219,17 @@
         },
         {
           "num": 21,
-          "body": "<p>已知椭圆 $\\frac{x^{2}}{3}+ \\frac{y^{2}}{2}= 1$ 的左，右焦点分别为 $F_{1}$，$F_{2}$. 过 $F_{1}$ 的直线交椭圆于 $B$，$D$ 两点，过 $F_{2}$ 的直线交椭圆于 $A$，$C$ 两点，且 $AC \\perp BD$，垂足为 $P$.</p><ol class=\"enumerate\"><li><p>设 $P$ 点的坐标为 $(x_{0}, y_{0})$，证明：$\\frac{x_{0}^{2}}{3}+ \\frac{y_{0}^{2}}{2}&#x3C; 1$；</p></li><li><p>求四边形 $ABCD$ 的面积的最小值.</p></li></ol>",
+          "body": "<p>已知椭圆 $\\frac{x^{2}}{3}+ \\frac{y^{2}}{2}= 1$ 的左，右焦点分别为 $F_{1}$，$F_{2}$. 过 $F_{1}$ 的直线交椭圆于 $B$，$D$ 两点，过 $F_{2}$ 的直线交椭圆于 $A$，$C$ 两点，且 $AC \\perp BD$，垂足为 $P$.</p><ol class=\"enumerate\"><li><p>设 $P$ 点的坐标为 $(x_{0}, y_{0})$，证明：$\\frac{x_{0}^{2}}{3}+ \\frac{y_{0}^{2}}{2}< 1$；</p></li><li><p>求四边形 $ABCD$ 的面积的最小值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>由椭圆方程知两个焦点为 $F_{1}=(-1,0)$，$F_{2}=(1,0)$. 设直线 $AC$ 的单位方向向量为 $\\mathbf{u}=(\\cos\\theta,\\sin\\theta)$，则直线 $BD$ 的单位方向向量可取为 $\\mathbf{v}=(-\\sin\\theta,\\cos\\theta)$. 设 $P=(x_{0},y_{0})$，因为 $P$ 同时在两条直线上，可写成</p>\n$$\nP=F_{2}+t\\mathbf{u}=F_{1}+s\\mathbf{v}\n$$\n<p>又因 $F_{2}-F_{1}=(2,0)$，对上式分别与 $\\mathbf{u}$ 和 $\\mathbf{v}$ 做内积，得 $t=-2\\cos\\theta$、$s=-2\\sin\\theta$. 从而</p>\n$$\nP=(1,0)-2\\cos\\theta(\\cos\\theta,\\sin\\theta)  =(1-2\\cos^{2}\\theta,-2\\sin\\theta\\cos\\theta)\n$$\n<p>因此</p>\n$$\nx_{0}^{2}+y_{0}^{2}=(1-2\\cos^{2}\\theta)^{2}+4\\sin^{2}\\theta\\cos^{2}\\theta=1\n$$\n<p>于是</p>\n$$\n\\frac{x_{0}^{2}}{3}+\\frac{y_{0}^{2}}{2}=1-\\frac{2x_{0}^{2}}{3}-\\frac{y_{0}^{2}}{2}&#x3C;1\n$$\n<p>从而 $P$ 在椭圆内部.</p><p>设直线 $AC$ 的单位方向向量为 $(\\cos\\theta,\\sin\\theta)$，则直线 $BD$ 的单位方向向量可取为 $(-\\sin\\theta,\\cos\\theta)$. 先求 $AC$ 的长度. 过 $F_{2}=(1,0)$ 的直线可参数表示为</p>\n$$\n(x,y)=(1+t\\cos\\theta,t\\sin\\theta)\n$$\n<p>代入椭圆方程，得关于 $t$ 的方程</p>\n$$\n\\frac{3-\\cos^{2}\\theta}{6}t^{2}+\\frac{2\\cos\\theta}{3}t-\\frac{2}{3}=0\n$$\n<p>其判别式为 $\\frac{4}{3}$，故两根之差的绝对值为 $\\frac{4\\sqrt{3}}{3-\\cos^{2}\\theta}$. 因为方向向量是单位向量，所以</p>\n$$\nAC=\\frac{4\\sqrt{3}}{3-\\cos^{2}\\theta}\n$$\n<p>对过 $F_{1}$ 且方向为 $(-\\sin\\theta,\\cos\\theta)$ 的直线作同样计算，得</p>\n$$\nBD=\\frac{4\\sqrt{3}}{3-\\sin^{2}\\theta}=\\frac{4\\sqrt{3}}{2+\\cos^{2}\\theta}\n$$\n<p>四边形的两条对角线 $AC$，$BD$ 垂直，因此</p>\n$$\nS_{ABCD}=\\frac{1}{2}AC\\cdot BD=\\frac{24}{(3-\\cos^{2}\\theta)(2+\\cos^{2}\\theta)}\n$$\n<p>令 $u=\\cos^{2}\\theta\\in[0,1]$，则</p>\n$$\n(3-u)(2+u)=6+u-u^{2}=\\frac{25}{4}-\\left(u-\\frac{1}{2}\\right)^{2}\\le\\frac{25}{4}\n$$\n<p>所以 $S_{ABCD}\\ge\\frac{96}{25}$，当且仅当 $u=\\frac{1}{2}$ 时取等号. 四边形 $ABCD$ 的面积最小值为 $\\frac{96}{25}$.</p>"
+          "solution": "<p>由椭圆方程知两个焦点为 $F_{1}=(-1,0)$，$F_{2}=(1,0)$. 设直线 $AC$ 的单位方向向量为 $\\mathbf{u}=(\\cos\\theta,\\sin\\theta)$，则直线 $BD$ 的单位方向向量可取为 $\\mathbf{v}=(-\\sin\\theta,\\cos\\theta)$. 设 $P=(x_{0},y_{0})$，因为 $P$ 同时在两条直线上，可写成</p>\n$$\nP=F_{2}+t\\mathbf{u}=F_{1}+s\\mathbf{v}\n$$\n<p>又因 $F_{2}-F_{1}=(2,0)$，对上式分别与 $\\mathbf{u}$ 和 $\\mathbf{v}$ 做内积，得 $t=-2\\cos\\theta$、$s=-2\\sin\\theta$. 从而</p>\n$$\nP=(1,0)-2\\cos\\theta(\\cos\\theta,\\sin\\theta)  =(1-2\\cos^{2}\\theta,-2\\sin\\theta\\cos\\theta)\n$$\n<p>因此</p>\n$$\nx_{0}^{2}+y_{0}^{2}=(1-2\\cos^{2}\\theta)^{2}+4\\sin^{2}\\theta\\cos^{2}\\theta=1\n$$\n<p>于是</p>\n$$\n\\frac{x_{0}^{2}}{3}+\\frac{y_{0}^{2}}{2}=1-\\frac{2x_{0}^{2}}{3}-\\frac{y_{0}^{2}}{2}<1\n$$\n<p>从而 $P$ 在椭圆内部.</p><p>设直线 $AC$ 的单位方向向量为 $(\\cos\\theta,\\sin\\theta)$，则直线 $BD$ 的单位方向向量可取为 $(-\\sin\\theta,\\cos\\theta)$. 先求 $AC$ 的长度. 过 $F_{2}=(1,0)$ 的直线可参数表示为</p>\n$$\n(x,y)=(1+t\\cos\\theta,t\\sin\\theta)\n$$\n<p>代入椭圆方程，得关于 $t$ 的方程</p>\n$$\n\\frac{3-\\cos^{2}\\theta}{6}t^{2}+\\frac{2\\cos\\theta}{3}t-\\frac{2}{3}=0\n$$\n<p>其判别式为 $\\frac{4}{3}$，故两根之差的绝对值为 $\\frac{4\\sqrt{3}}{3-\\cos^{2}\\theta}$. 因为方向向量是单位向量，所以</p>\n$$\nAC=\\frac{4\\sqrt{3}}{3-\\cos^{2}\\theta}\n$$\n<p>对过 $F_{1}$ 且方向为 $(-\\sin\\theta,\\cos\\theta)$ 的直线作同样计算，得</p>\n$$\nBD=\\frac{4\\sqrt{3}}{3-\\sin^{2}\\theta}=\\frac{4\\sqrt{3}}{2+\\cos^{2}\\theta}\n$$\n<p>四边形的两条对角线 $AC$，$BD$ 垂直，因此</p>\n$$\nS_{ABCD}=\\frac{1}{2}AC\\cdot BD=\\frac{24}{(3-\\cos^{2}\\theta)(2+\\cos^{2}\\theta)}\n$$\n<p>令 $u=\\cos^{2}\\theta\\in[0,1]$，则</p>\n$$\n(3-u)(2+u)=6+u-u^{2}=\\frac{25}{4}-\\left(u-\\frac{1}{2}\\right)^{2}\\le\\frac{25}{4}\n$$\n<p>所以 $S_{ABCD}\\ge\\frac{96}{25}$，当且仅当 $u=\\frac{1}{2}$ 时取等号. 四边形 $ABCD$ 的面积最小值为 $\\frac{96}{25}$.</p>"
         },
         {
           "num": 22,
-          "body": "<p>已知数列 $\\{a_{n}\\}$ 中 $a_{1}= 2$，$a_{n+1}= (\\sqrt{2}- 1)(a_{n}+ 2)$，$n = 1$，$2$，$3$，$\\cdots$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若数列 $\\{b_{n}\\}$ 中 $b_{1} = 2$，$b_{n+1}= \\frac{3b_{n} + 4}{2b_{n} + 3}$，$n = 1$，$2$，$3$，$\\cdots$，证明：$\\sqrt{2}&#x3C; b_{n} \\le a_{4n-3}$，$n = 1$，$2$，$3$，$\\cdots$.</p></li></ol>",
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 中 $a_{1}= 2$，$a_{n+1}= (\\sqrt{2}- 1)(a_{n}+ 2)$，$n = 1$，$2$，$3$，$\\cdots$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若数列 $\\{b_{n}\\}$ 中 $b_{1} = 2$，$b_{n+1}= \\frac{3b_{n} + 4}{2b_{n} + 3}$，$n = 1$，$2$，$3$，$\\cdots$，证明：$\\sqrt{2}< b_{n} \\le a_{4n-3}$，$n = 1$，$2$，$3$，$\\cdots$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>令 $r=\\sqrt{2}-1$，则 $0&#x3C;r&#x3C;1$，且 $r(\\sqrt{2}+2)=\\sqrt{2}$. 因此</p>\n$$\na_{n+1}-\\sqrt{2}=r(a_{n}+2)-\\sqrt{2}=r(a_{n}-\\sqrt{2})\n$$\n<p>又 $a_{1}-\\sqrt{2}=2-\\sqrt{2}=\\sqrt{2}r$，所以</p><p>$a_{n}-\\sqrt{2}=\\sqrt{2}r^{n}$，$a_{n}=\\sqrt{2}(1+r^{n})$.</p><p>记 $\\varphi(x)=\\frac{3x+4}{2x+3}$. 先证下界. 直接计算得</p>\n$$\n\\varphi(x)-\\sqrt{2}=\\frac{(3-2\\sqrt{2})(x-\\sqrt{2})}{2x+3}=\\frac{r^{2}(x-\\sqrt{2})}{2x+3}\n$$\n<p>由于 $b_{1}=2>\\sqrt{2}$，归纳可得 $b_{n}>\\sqrt{2}$ 对所有正整数 $n$ 成立.</p><p>又 $\\varphi'(x)=\\frac{1}{(2x+3)^{2}}>0$，所以 $\\varphi$ 在 $(\\sqrt{2},+\\infty)$ 上单调递增. 对任意正整数 $k$，由 $a_{k}=\\sqrt{2}(1+r^{k})$ 得</p>\n$$\n\\varphi(a_{k})-\\sqrt{2}=\\frac{\\sqrt{2}r^{k+2}}{3+2\\sqrt{2}(1+r^{k})}\n$$\n<p>因为 $3+2\\sqrt{2}=r^{-2}$，故</p><p>$3+2\\sqrt{2}(1+r^{k})\\ge r^{-2}$，$\\varphi(a_{k})-\\sqrt{2}\\le\\sqrt{2}r^{k+4}=a_{k+4}-\\sqrt{2}$.</p><p>即 $\\varphi(a_{k})\\le a_{k+4}$.</p><p>当 $n=1$ 时，$b_{1}=2=a_{1}$. 若 $b_{n}\\le a_{4n-3}$，则由 $\\varphi$ 的单调性及上面的结论，$b_{n+1}=\\varphi(b_{n})\\le\\varphi(a_{4n-3})\\le a_{4n+1}=a_{4(n+1)-3}$. 归纳得 $b_{n}\\le a_{4n-3}$. 结合下界，结论为 $\\sqrt{2}&#x3C;b_{n}\\le a_{4n-3}$.</p>"
+          "solution": "<p>令 $r=\\sqrt{2}-1$，则 $0<r<1$，且 $r(\\sqrt{2}+2)=\\sqrt{2}$. 因此</p>\n$$\na_{n+1}-\\sqrt{2}=r(a_{n}+2)-\\sqrt{2}=r(a_{n}-\\sqrt{2})\n$$\n<p>又 $a_{1}-\\sqrt{2}=2-\\sqrt{2}=\\sqrt{2}r$，所以</p><p>$a_{n}-\\sqrt{2}=\\sqrt{2}r^{n}$，$a_{n}=\\sqrt{2}(1+r^{n})$.</p><p>记 $\\varphi(x)=\\frac{3x+4}{2x+3}$. 先证下界. 直接计算得</p>\n$$\n\\varphi(x)-\\sqrt{2}=\\frac{(3-2\\sqrt{2})(x-\\sqrt{2})}{2x+3}=\\frac{r^{2}(x-\\sqrt{2})}{2x+3}\n$$\n<p>由于 $b_{1}=2>\\sqrt{2}$，归纳可得 $b_{n}>\\sqrt{2}$ 对所有正整数 $n$ 成立.</p><p>又 $\\varphi'(x)=\\frac{1}{(2x+3)^{2}}>0$，所以 $\\varphi$ 在 $(\\sqrt{2},+\\infty)$ 上单调递增. 对任意正整数 $k$，由 $a_{k}=\\sqrt{2}(1+r^{k})$ 得</p>\n$$\n\\varphi(a_{k})-\\sqrt{2}=\\frac{\\sqrt{2}r^{k+2}}{3+2\\sqrt{2}(1+r^{k})}\n$$\n<p>因为 $3+2\\sqrt{2}=r^{-2}$，故</p><p>$3+2\\sqrt{2}(1+r^{k})\\ge r^{-2}$，$\\varphi(a_{k})-\\sqrt{2}\\le\\sqrt{2}r^{k+4}=a_{k+4}-\\sqrt{2}$.</p><p>即 $\\varphi(a_{k})\\le a_{k+4}$.</p><p>当 $n=1$ 时，$b_{1}=2=a_{1}$. 若 $b_{n}\\le a_{4n-3}$，则由 $\\varphi$ 的单调性及上面的结论，$b_{n+1}=\\varphi(b_{n})\\le\\varphi(a_{4n-3})\\le a_{4n+1}=a_{4(n+1)-3}$. 归纳得 $b_{n}\\le a_{4n-3}$. 结合下界，结论为 $\\sqrt{2}<b_{n}\\le a_{4n-3}$.</p>"
         }
       ]
     }

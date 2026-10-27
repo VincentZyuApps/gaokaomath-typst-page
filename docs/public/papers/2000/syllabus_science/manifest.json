@@ -53,7 +53,7 @@
             "若 $\\alpha$，$\\beta$ 是第四象限角，则 $\\tan\\alpha>\\tan\\beta$"
           ],
           "answer": "D",
-          "solution": "在第一象限内，正弦函数递增，所以 $\\sin\\alpha>\\sin\\beta$ 推出 $\\alpha>\\beta$，而余弦函数递减，故选项 A 错误. 在第二象限内正弦函数递减，因而 $\\alpha&#x3C;\\beta$，正切函数递增，选项 B 错误. 在第三象限内正弦函数递减且余弦函数递增，仍有 $\\cos\\alpha&#x3C;\\cos\\beta$，选项 C 错误. 在第四象限内正弦函数递增，故 $\\alpha>\\beta$，又正切函数递增，所以 $\\tan\\alpha>\\tan\\beta$. 故选 D."
+          "solution": "在第一象限内，正弦函数递增，所以 $\\sin\\alpha>\\sin\\beta$ 推出 $\\alpha>\\beta$，而余弦函数递减，故选项 A 错误. 在第二象限内正弦函数递减，因而 $\\alpha<\\beta$，正切函数递增，选项 B 错误. 在第三象限内正弦函数递减且余弦函数递增，仍有 $\\cos\\alpha<\\cos\\beta$，选项 C 错误. 在第四象限内正弦函数递增，故 $\\alpha>\\beta$，又正切函数递增，所以 $\\tan\\alpha>\\tan\\beta$. 故选 D."
         },
         {
           "num": 5,
@@ -65,7 +65,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_science/q5_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "函数满足 $y(0)=0$. 当 $x$ 在原点右侧且足够接近原点时，$\\cos x>0$，所以 $y=-x\\cos x&#x3C;0$；当 $x$ 在原点左侧且足够接近原点时，$y>0$. 此外，$x=\\frac{\\pi}{2}$ 是另一个零点，且在 $0&#x3C;x&#x3C;\\frac{\\pi}{2}$ 时函数值为负，在 $x>\\frac{\\pi}{2}$ 且接近该点时函数值为正. 因此图象过原点时由左上方向右下方向穿过，并在右侧先位于 $x$ 轴下方，符合选项 D. 故选 D."
+          "solution": "函数满足 $y(0)=0$. 当 $x$ 在原点右侧且足够接近原点时，$\\cos x>0$，所以 $y=-x\\cos x<0$；当 $x$ 在原点左侧且足够接近原点时，$y>0$. 此外，$x=\\frac{\\pi}{2}$ 是另一个零点，且在 $0<x<\\frac{\\pi}{2}$ 时函数值为负，在 $x>\\frac{\\pi}{2}$ 且接近该点时函数值为正. 因此图象过原点时由左上方向右下方向穿过，并在右侧先位于 $x$ 轴下方，符合选项 D. 故选 D."
         },
         {
           "num": 6,
@@ -77,19 +77,19 @@
             "$1500\\text{ 元}-2800\\text{ 元}$"
           ],
           "answer": "C",
-          "solution": "<p>设超过免税额的部分为 $t$ 元，则工资、薪金所得为 $t+800$ 元. 当 $0\\le t\\leqslant500$ 时，税款至多为 $0.05\\times500=25$ 元，不可能是 $26.78$ 元. 因此 $500&#x3C;t\\leqslant2000$，税款为</p>\n$$\n25+0.1(t-500)=26.78\n$$\n<p>解得 $t=517.8$，所以当月工资、薪金所得为 $1317.8$ 元，介于 $1200$ 元和 $1500$ 元之间，故选 C.</p>"
+          "solution": "<p>设超过免税额的部分为 $t$ 元，则工资、薪金所得为 $t+800$ 元. 当 $0\\le t\\leqslant500$ 时，税款至多为 $0.05\\times500=25$ 元，不可能是 $26.78$ 元. 因此 $500<t\\leqslant2000$，税款为</p>\n$$\n25+0.1(t-500)=26.78\n$$\n<p>解得 $t=517.8$，所以当月工资、薪金所得为 $1317.8$ 元，介于 $1200$ 元和 $1500$ 元之间，故选 C.</p>"
         },
         {
           "num": 7,
           "body": "若 $a>b>1$，$P=\\sqrt{\\lg a\\cdot\\lg b}$，$Q=\\frac{1}{2}\\left(\\lg a+\\lg b\\right)$，$R=\\lg\\left(\\frac{a+b}{2}\\right)$，则（ ）",
           "choices": [
-            "$R&#x3C;P&#x3C;Q$",
-            "$P&#x3C;Q&#x3C;R$",
-            "$Q&#x3C;P&#x3C;R$",
-            "$P&#x3C;R&#x3C;Q$"
+            "$R<P<Q$",
+            "$P<Q<R$",
+            "$Q<P<R$",
+            "$P<R<Q$"
           ],
           "answer": "B",
-          "solution": "<p>令 $u=\\lg a$，$v=\\lg b$. 因为 $a>b>1$，所以 $u>v>0$. 由算术平均数不小于几何平均数，且 $u\\ne v$，得</p>\n$$\nP=\\sqrt{uv}&#x3C;\\frac{u+v}{2}=Q\n$$\n<p>因为 $a\\ne b$，所以 $(a+b)^{2}>4ab$，从而</p>\n$$\n\\frac{a+b}{2}>\\sqrt{ab}\n$$\n<p>对正数应用 $\\lg x$ 的单调性，得到</p>\n$$\nR=\\lg\\left(\\frac{a+b}{2}\\right)>\\lg\\sqrt{ab}=\\frac{1}{2}\\lg(ab)=\\frac{\\lg a+\\lg b}{2}=Q\n$$\n<p>因此 $P&#x3C;Q&#x3C;R$，故选 B.</p>"
+          "solution": "<p>令 $u=\\lg a$，$v=\\lg b$. 因为 $a>b>1$，所以 $u>v>0$. 由算术平均数不小于几何平均数，且 $u\\ne v$，得</p>\n$$\nP=\\sqrt{uv}<\\frac{u+v}{2}=Q\n$$\n<p>因为 $a\\ne b$，所以 $(a+b)^{2}>4ab$，从而</p>\n$$\n\\frac{a+b}{2}>\\sqrt{ab}\n$$\n<p>对正数应用 $\\lg x$ 的单调性，得到</p>\n$$\nR=\\lg\\left(\\frac{a+b}{2}\\right)>\\lg\\sqrt{ab}=\\frac{1}{2}\\lg(ab)=\\frac{\\lg a+\\lg b}{2}=Q\n$$\n<p>因此 $P<Q<R$，故选 B.</p>"
         },
         {
           "num": 8,
@@ -137,7 +137,7 @@
             "$\\frac{4}{a}$"
           ],
           "answer": "C",
-          "solution": "<p>抛物线 $y=ax^{2}$ 的焦点为 $F\\left(0,\\frac{1}{4a}\\right)$. 设过焦点的直线方程为</p>\n$$\ny-\\frac{1}{4a}=kx\n$$\n<p>它与抛物线的两个交点的横坐标 $x_{1}$，$x_{2}$ 是方程</p>\n$$\nax^{2}-kx-\\frac{1}{4a}=0\n$$\n<p>的两个根. 因此 $x_{1}x_{2}=-\\frac{1}{4a^{2}}&#x3C;0$，两根异号，且</p>\n$$\n|x_{1}-x_{2}|=\\frac{\\sqrt{k^{2}+1}}{a}\n$$\n<p>由于直线上横坐标相差 $|x|$ 时距离相差 $|x|\\sqrt{1+k^{2}}$，且 $x_{1}$，$x_{2}$ 异号，所以 $|x_{1}|+|x_{2}|=|x_{1}-x_{2}|$. 因而</p>\n$$\n\\frac{1}{p}+\\frac{1}{q}=\\frac{1}{\\sqrt{1+k^{2}}}\\left(\\frac{1}{|x_{1}|}+\\frac{1}{|x_{2}|}\\right)  =\\frac{|x_{1}-x_{2}|}{|x_{1}x_{2}|\\sqrt{1+k^2}}=4a\n$$\n<p>故选 C.</p>"
+          "solution": "<p>抛物线 $y=ax^{2}$ 的焦点为 $F\\left(0,\\frac{1}{4a}\\right)$. 设过焦点的直线方程为</p>\n$$\ny-\\frac{1}{4a}=kx\n$$\n<p>它与抛物线的两个交点的横坐标 $x_{1}$，$x_{2}$ 是方程</p>\n$$\nax^{2}-kx-\\frac{1}{4a}=0\n$$\n<p>的两个根. 因此 $x_{1}x_{2}=-\\frac{1}{4a^{2}}<0$，两根异号，且</p>\n$$\n|x_{1}-x_{2}|=\\frac{\\sqrt{k^{2}+1}}{a}\n$$\n<p>由于直线上横坐标相差 $|x|$ 时距离相差 $|x|\\sqrt{1+k^{2}}$，且 $x_{1}$，$x_{2}$ 异号，所以 $|x_{1}|+|x_{2}|=|x_{1}-x_{2}|$. 因而</p>\n$$\n\\frac{1}{p}+\\frac{1}{q}=\\frac{1}{\\sqrt{1+k^{2}}}\\left(\\frac{1}{|x_{1}|}+\\frac{1}{|x_{2}|}\\right)  =\\frac{|x_{1}-x_{2}|}{|x_{1}x_{2}|\\sqrt{1+k^2}}=4a\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 12,
@@ -167,8 +167,8 @@
           "num": 14,
           "body": "椭圆 $\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$ 的焦点 $F_{1}$，$F_{2}$，点 $P$ 为其上的动点，当 $\\angle F_{1}PF_{2}$ 为钝角时，点 $P$ 横坐标的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
-          "answer": "$-\\frac{3}{\\sqrt{5}}&#x3C;x&#x3C;\\frac{3}{\\sqrt{5}}$",
-          "solution": "<p>椭圆的长半轴为 $3$，短半轴为 $2$，所以 $c=\\sqrt{3^{2}-2^{2}}=\\sqrt{5}$，可设</p><p>$F_{1}=(-\\sqrt{5},0)$，$F_{2}=(\\sqrt{5},0)$，$P=(x,y)$. 角 $\\angle F_{1}PF_{2}$ 为钝角，当且仅当</p>\n$$\n\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}&#x3C;0\n$$\n<p>而</p>\n$$\n\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}=(-\\sqrt{5}-x)(\\sqrt{5}-x)+y^{2}=x^{2}+y^{2}-5\n$$\n<p>因此钝角条件为 $x^{2}+y^{2}&#x3C;5$. 由椭圆方程得 $y^{2}=4-\\frac{4}{9}x^{2}$，代入可得</p>\n$$\n4+\\frac{5}{9}x^{2}&#x3C;5\n$$\n<p>即 $x^{2}&#x3C;\\frac{9}{5}$. 所以点 $P$ 的横坐标范围为</p>\n$$\n-\\frac{3}{\\sqrt{5}}&#x3C;x&#x3C;\\frac{3}{\\sqrt{5}}\n$$"
+          "answer": "$-\\frac{3}{\\sqrt{5}}<x<\\frac{3}{\\sqrt{5}}$",
+          "solution": "<p>椭圆的长半轴为 $3$，短半轴为 $2$，所以 $c=\\sqrt{3^{2}-2^{2}}=\\sqrt{5}$，可设</p><p>$F_{1}=(-\\sqrt{5},0)$，$F_{2}=(\\sqrt{5},0)$，$P=(x,y)$. 角 $\\angle F_{1}PF_{2}$ 为钝角，当且仅当</p>\n$$\n\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}<0\n$$\n<p>而</p>\n$$\n\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}=(-\\sqrt{5}-x)(\\sqrt{5}-x)+y^{2}=x^{2}+y^{2}-5\n$$\n<p>因此钝角条件为 $x^{2}+y^{2}<5$. 由椭圆方程得 $y^{2}=4-\\frac{4}{9}x^{2}$，代入可得</p>\n$$\n4+\\frac{5}{9}x^{2}<5\n$$\n<p>即 $x^{2}<\\frac{9}{5}$. 所以点 $P$ 的横坐标范围为</p>\n$$\n-\\frac{3}{\\sqrt{5}}<x<\\frac{3}{\\sqrt{5}}\n$$"
         },
         {
           "num": 15,
@@ -208,7 +208,7 @@
           "body": "<p>设函数 $f(x)=\\sqrt{x^{2}+1}-ax$，其中 $a>0$.</p><ol class=\"enumerate\"><li><p>解不等式 $f(x)\\leqslant1$；</p></li><li><p>求 $a$ 的取值范围，使函数 $f(x)$ 在区间 $[0,+\\infty)$ 上是单调函数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>原不等式等价于</p>\n$$\n\\sqrt{x^{2}+1}\\le 1+ax\n$$\n<p>由于左边非负，必须有 $1+ax\\geqslant0$. 在此条件下两边平方，得</p>\n$$\nx^{2}+1\\le(1+ax)^{2}\n$$\n<p>即</p>\n$$\nx\\bigl((1-a^{2})x-2a\\bigr)\\leqslant0\n$$\n<p>$0&#x3C;a&#x3C;1$ 时，第二个不等式的两个根为 $0$ 和 $\\frac{2a}{1-a^{2}}>0$，故其解集为 $\\left[0,\\frac{2a}{1-a^{2}}\\right]$，且其中每个 $x$ 都满足 $1+ax>0$. 因此此时原不等式的解集为</p>\n$$\n\\left[0,\\frac{2a}{1-a^{2}}\\right]\n$$\n<p>当 $a=1$ 时，平方后的不等式为 $-2x\\leqslant0$，结合 $1+x\\geqslant0$，得到解集 $[0,+\\infty)$. 当 $a>1$ 时，平方后的不等式解为</p>\n$$\n\\left(-\\infty,-\\frac{2a}{a^{2}-1}\\right]\\cup[0,+\\infty)\n$$\n<p>但 $x\\le-\\frac{2a}{a^{2}-1}$ 时有 $1+ax&#x3C;0$，不符合平方前的必要条件，所以原不等式的解集仍为 $[0,+\\infty)$. 综上，</p>\n$$\n\\begin{cases}\\left[0,\\dfrac{2a}{1-a^2}\\right],&#x26;0&#x3C;a&#x3C;1,\\\\  [0,+\\infty),&#x26;a\\geqslant1.\\end{cases}\n$$\n</li><li><p>在 $x\\geqslant0$ 时，函数的导数为</p>\n$$\nf'(x)=\\frac{x}{\\sqrt{x^{2}+1}}-a\n$$\n<p>又因为 $0\\le\\frac{x}{\\sqrt{x^{2}+1}}&#x3C;1$. 当 $a\\geqslant1$ 时，$f'(x)&#x3C;0$，所以 $f(x)$ 在 $[0,+\\infty)$ 上单调递减.</p><p>当 $0&#x3C;a&#x3C;1$ 时，令</p>\n$$\nx_{0}=\\frac{a}{\\sqrt{1-a^{2}}}>0\n$$\n<p>由 $\\frac{x_{0}}{\\sqrt{x_{0}^{2}+1}}=a$，可知 $f'(x)&#x3C;0$（$0\\le x&#x3C;x_{0}$），而 $f'(x)>0$（$x>x_{0}$）. 因此函数先减后增，不是单调函数. 故所求 $a$ 的取值范围为</p>\n$$\na\\geqslant1\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>原不等式等价于</p>\n$$\n\\sqrt{x^{2}+1}\\le 1+ax\n$$\n<p>由于左边非负，必须有 $1+ax\\geqslant0$. 在此条件下两边平方，得</p>\n$$\nx^{2}+1\\le(1+ax)^{2}\n$$\n<p>即</p>\n$$\nx\\bigl((1-a^{2})x-2a\\bigr)\\leqslant0\n$$\n<p>$0<a<1$ 时，第二个不等式的两个根为 $0$ 和 $\\frac{2a}{1-a^{2}}>0$，故其解集为 $\\left[0,\\frac{2a}{1-a^{2}}\\right]$，且其中每个 $x$ 都满足 $1+ax>0$. 因此此时原不等式的解集为</p>\n$$\n\\left[0,\\frac{2a}{1-a^{2}}\\right]\n$$\n<p>当 $a=1$ 时，平方后的不等式为 $-2x\\leqslant0$，结合 $1+x\\geqslant0$，得到解集 $[0,+\\infty)$. 当 $a>1$ 时，平方后的不等式解为</p>\n$$\n\\left(-\\infty,-\\frac{2a}{a^{2}-1}\\right]\\cup[0,+\\infty)\n$$\n<p>但 $x\\le-\\frac{2a}{a^{2}-1}$ 时有 $1+ax<0$，不符合平方前的必要条件，所以原不等式的解集仍为 $[0,+\\infty)$. 综上，</p>\n$$\n\\begin{cases}\\left[0,\\dfrac{2a}{1-a^2}\\right],&0<a<1,\\\\  [0,+\\infty),&a\\geqslant1.\\end{cases}\n$$\n</li><li><p>在 $x\\geqslant0$ 时，函数的导数为</p>\n$$\nf'(x)=\\frac{x}{\\sqrt{x^{2}+1}}-a\n$$\n<p>又因为 $0\\le\\frac{x}{\\sqrt{x^{2}+1}}<1$. 当 $a\\geqslant1$ 时，$f'(x)<0$，所以 $f(x)$ 在 $[0,+\\infty)$ 上单调递减.</p><p>当 $0<a<1$ 时，令</p>\n$$\nx_{0}=\\frac{a}{\\sqrt{1-a^{2}}}>0\n$$\n<p>由 $\\frac{x_{0}}{\\sqrt{x_{0}^{2}+1}}=a$，可知 $f'(x)<0$（$0\\le x<x_{0}$），而 $f'(x)>0$（$x>x_{0}$）. 因此函数先减后增，不是单调函数. 故所求 $a$ 的取值范围为</p>\n$$\na\\geqslant1\n$$\n</li></ol>"
         },
         {
           "num": 20,
@@ -222,14 +222,14 @@
           "body": "<p>某蔬菜基地种植西红柿，由历年市场行情得知，从二月一日起的 $300$ 天内，西红柿市场售价与上市时间的关系用图一的一条折线表示；西红柿的种植成本与上市时间的关系用图二的抛物线段表示.</p><ol class=\"enumerate\"><li><p>写出图一表示的市场售价与时间的函数关系式 $p=f(t)$；写出图二表示的种植成本与时间的函数关系式 $Q=g(t)$；</p></li><li><p>认定市场售价减去种植成本为纯收益，问何时上市的西红柿纯收益最大？</p></li></ol><p>注：市场售价和种植成本的单位：$\\text{ 元}/10^{2}\\mathrm{~kg}$，时间单位：$\\text{天}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>由图一，市场售价折线经过 $(0,300)$、$(200,100)$、$(300,300)$. 前一段斜率为</p><p>$\\frac{100-300}{200-0}=-1$，后一段斜率为</p><p>$\\frac{300-100}{300-200}=2$，所以</p>\n$$\np=f(t)=\\begin{cases}300-t,&#x26;0\\le t\\leqslant200,\\\\  2t-300,&#x26;200&#x3C;t\\leqslant300.\\end{cases}\n$$\n<p>由图二，成本曲线的顶点为 $(150,100)$，且经过 $(50,150)$，可设</p>\n$$\nQ=g(t)=k(t-150)^{2}+100\n$$\n<p>代入 $(50,150)$，得</p>\n$$\n150=100+k(50-150)^{2}=100+10000k\n$$\n<p>所以 $k=\\frac{1}{200}$，从而</p><p>$g(t)=\\frac{1}{200}(t-150)^{2}+100$，（$0\\le t\\leqslant300$）.</p></li><li><p>设纯收益为 $H(t)=f(t)-g(t)$. 当 $0\\le t\\leqslant200$ 时，</p>\n$$\nH(t)=300-t-\\left[\\frac{1}{200}(t-150)^{2}+100\\right]  =100-\\frac{(t-50)^{2}}{200}\n$$\n<p>因此这一段的最大值在 $t=50$ 时取得，最大值为 $100$.</p><p>当 $200&#x3C;t\\leqslant300$ 时，</p>\n$$\nH(t)=2t-300-\\left[\\frac{1}{200}(t-150)^{2}+100\\right]  =100-\\frac{(t-350)^{2}}{200}\n$$\n<p>在区间 $(200,300]$ 内，$t$ 越大，$(t-350)^{2}$ 越小，所以这一段的最大值在 $t=300$ 时取得，等于 $\\frac{175}{2}$. 因为 $100>\\frac{175}{2}$，故纯收益最大时 $t=50$，即从二月一日起第 $50$ 天上市.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>由图一，市场售价折线经过 $(0,300)$、$(200,100)$、$(300,300)$. 前一段斜率为</p><p>$\\frac{100-300}{200-0}=-1$，后一段斜率为</p><p>$\\frac{300-100}{300-200}=2$，所以</p>\n$$\np=f(t)=\\begin{cases}300-t,&0\\le t\\leqslant200,\\\\  2t-300,&200<t\\leqslant300.\\end{cases}\n$$\n<p>由图二，成本曲线的顶点为 $(150,100)$，且经过 $(50,150)$，可设</p>\n$$\nQ=g(t)=k(t-150)^{2}+100\n$$\n<p>代入 $(50,150)$，得</p>\n$$\n150=100+k(50-150)^{2}=100+10000k\n$$\n<p>所以 $k=\\frac{1}{200}$，从而</p><p>$g(t)=\\frac{1}{200}(t-150)^{2}+100$，（$0\\le t\\leqslant300$）.</p></li><li><p>设纯收益为 $H(t)=f(t)-g(t)$. 当 $0\\le t\\leqslant200$ 时，</p>\n$$\nH(t)=300-t-\\left[\\frac{1}{200}(t-150)^{2}+100\\right]  =100-\\frac{(t-50)^{2}}{200}\n$$\n<p>因此这一段的最大值在 $t=50$ 时取得，最大值为 $100$.</p><p>当 $200<t\\leqslant300$ 时，</p>\n$$\nH(t)=2t-300-\\left[\\frac{1}{200}(t-150)^{2}+100\\right]  =100-\\frac{(t-350)^{2}}{200}\n$$\n<p>在区间 $(200,300]$ 内，$t$ 越大，$(t-350)^{2}$ 越小，所以这一段的最大值在 $t=300$ 时取得，等于 $\\frac{175}{2}$. 因为 $100>\\frac{175}{2}$，故纯收益最大时 $t=50$，即从二月一日起第 $50$ 天上市.</p></li></ol>"
         },
         {
           "num": 22,
           "body": "<p>如图，已知梯形 $ABCD$ 中 $|AB|=2|CD|$，点 $E$ 分有向线段 $\\overrightarrow{AC}$ 所成的比为 $\\lambda$，双曲线过 $C$，$D$，$E$ 三点，且以 $A$，$B$ 为焦点，当 $\\frac{2}{3}\\le\\lambda\\le\\frac{3}{4}$ 时，求双曲线离心率 $e$ 的取值范围.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设双曲线的中心为 $O$，焦点 $A$，$B$ 分别为 $(-c,0)$，$(c,0)$，则 $AB=2c$，且双曲线方程可写为</p><p>$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，$c^{2}=a^{2}+b^{2}$，$e=\\frac{c}{a}$.</p><p>由图中 $CD\\parallel AB$，且 $C$，$D$ 在双曲线的两支上，设它们的纵坐标均为 $y_{0}$. 双曲线方程关于 $y$ 轴对称，所以 $C$，$D$ 的横坐标互为相反数. 又</p>\n$$\nCD=\\frac{AB}{2}=c\n$$\n<p>故可设</p><p>$C\\left(\\frac{c}{2},y_{0}\\right)$，$D\\left(-\\frac{c}{2},y_{0}\\right)$.</p><p>由点 $C$ 在双曲线上，</p>\n$$\n\\frac{c^{2}}{4a^{2}}-\\frac{y_{0}^{2}}{b^{2}}=1\n$$\n<p>由 $\\frac{AE}{EC}=\\lambda$，点 $E$ 的坐标为内分点公式</p>\n$$\nE=\\frac{A+\\lambda C}{1+\\lambda}=\\left(\\frac{c(\\lambda-2)}{2(1+\\lambda)},\\frac{\\lambda y_{0}}{1+\\lambda}\\right)\n$$\n<p>因为 $E$ 也在双曲线上，</p>\n$$\n\\frac{c^{2}(\\lambda-2)^{2}}{4a^{2}(1+\\lambda)^{2}}-\\frac{\\lambda^{2}y_{0}^{2}}{b^{2}(1+\\lambda)^{2}}=1\n$$\n<p>令 $e^{2}=\\frac{c^{2}}{a^{2}}$，由点 $C$ 的关系得到</p>\n$$\n\\frac{y_{0}^{2}}{b^{2}}=\\frac{e^{2}}{4}-1\n$$\n<p>将其代入点 $E$ 的关系，并乘以 $(1+\\lambda)^{2}$，得</p>\n$$\n\\frac{e^{2}(\\lambda-2)^{2}}{4}-\\lambda^{2}\\left(\\frac{e^{2}}{4}-1\\right)=(1+\\lambda)^{2}\n$$\n<p>化简可得</p><p>$e^{2}(1-\\lambda)+\\lambda^{2}=1+2\\lambda+\\lambda^{2}$，$e^{2}=\\frac{1+2\\lambda}{1-\\lambda}$.</p><p>由于 $\\frac{2}{3}\\le\\lambda\\le\\frac{3}{4}&#x3C;1$，且</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}\\lambda}\\left(\\frac{1+2\\lambda}{1-\\lambda}\\right)=\\frac{3}{(1-\\lambda)^{2}}>0\n$$\n<p>所以 $e^{2}$ 随 $\\lambda$ 增大而增大. 因此</p>\n$$\ne^{2}\\in\\left[\\frac{1+2\\cdot\\frac{2}{3}}{1-\\frac{2}{3}},\\frac{1+2\\cdot\\frac{3}{4}}{1-\\frac{3}{4}}\\right]=[7,10]\n$$\n<p>由 $e>0$，得到</p>\n$$\n\\sqrt{7}\\le e\\le\\sqrt{10}\n$$"
+          "solution": "<p>设双曲线的中心为 $O$，焦点 $A$，$B$ 分别为 $(-c,0)$，$(c,0)$，则 $AB=2c$，且双曲线方程可写为</p><p>$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，$c^{2}=a^{2}+b^{2}$，$e=\\frac{c}{a}$.</p><p>由图中 $CD\\parallel AB$，且 $C$，$D$ 在双曲线的两支上，设它们的纵坐标均为 $y_{0}$. 双曲线方程关于 $y$ 轴对称，所以 $C$，$D$ 的横坐标互为相反数. 又</p>\n$$\nCD=\\frac{AB}{2}=c\n$$\n<p>故可设</p><p>$C\\left(\\frac{c}{2},y_{0}\\right)$，$D\\left(-\\frac{c}{2},y_{0}\\right)$.</p><p>由点 $C$ 在双曲线上，</p>\n$$\n\\frac{c^{2}}{4a^{2}}-\\frac{y_{0}^{2}}{b^{2}}=1\n$$\n<p>由 $\\frac{AE}{EC}=\\lambda$，点 $E$ 的坐标为内分点公式</p>\n$$\nE=\\frac{A+\\lambda C}{1+\\lambda}=\\left(\\frac{c(\\lambda-2)}{2(1+\\lambda)},\\frac{\\lambda y_{0}}{1+\\lambda}\\right)\n$$\n<p>因为 $E$ 也在双曲线上，</p>\n$$\n\\frac{c^{2}(\\lambda-2)^{2}}{4a^{2}(1+\\lambda)^{2}}-\\frac{\\lambda^{2}y_{0}^{2}}{b^{2}(1+\\lambda)^{2}}=1\n$$\n<p>令 $e^{2}=\\frac{c^{2}}{a^{2}}$，由点 $C$ 的关系得到</p>\n$$\n\\frac{y_{0}^{2}}{b^{2}}=\\frac{e^{2}}{4}-1\n$$\n<p>将其代入点 $E$ 的关系，并乘以 $(1+\\lambda)^{2}$，得</p>\n$$\n\\frac{e^{2}(\\lambda-2)^{2}}{4}-\\lambda^{2}\\left(\\frac{e^{2}}{4}-1\\right)=(1+\\lambda)^{2}\n$$\n<p>化简可得</p><p>$e^{2}(1-\\lambda)+\\lambda^{2}=1+2\\lambda+\\lambda^{2}$，$e^{2}=\\frac{1+2\\lambda}{1-\\lambda}$.</p><p>由于 $\\frac{2}{3}\\le\\lambda\\le\\frac{3}{4}<1$，且</p>\n$$\n\\frac{\\mathrm{d}}{\\mathrm{d}\\lambda}\\left(\\frac{1+2\\lambda}{1-\\lambda}\\right)=\\frac{3}{(1-\\lambda)^{2}}>0\n$$\n<p>所以 $e^{2}$ 随 $\\lambda$ 增大而增大. 因此</p>\n$$\ne^{2}\\in\\left[\\frac{1+2\\cdot\\frac{2}{3}}{1-\\frac{2}{3}},\\frac{1+2\\cdot\\frac{3}{4}}{1-\\frac{3}{4}}\\right]=[7,10]\n$$\n<p>由 $e>0$，得到</p>\n$$\n\\sqrt{7}\\le e\\le\\sqrt{10}\n$$"
         }
       ]
     }

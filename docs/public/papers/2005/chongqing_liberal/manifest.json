@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "若函数 $f(x)$ 是定义在 $\\mathbb{R}$ 上的偶函数，在 $(- \\infty, 0]$ 上是减函数，且 $f(2) = 0$，则使得 $f(x) &#x3C; 0$ 的 $x$ 的取值范围是（ ）",
+          "body": "若函数 $f(x)$ 是定义在 $\\mathbb{R}$ 上的偶函数，在 $(- \\infty, 0]$ 上是减函数，且 $f(2) = 0$，则使得 $f(x) < 0$ 的 $x$ 的取值范围是（ ）",
           "choices": [
             "$(-\\infty, 2)$",
             "$(2, +\\infty)$",
@@ -41,7 +41,7 @@
             "$(-2, 2)$"
           ],
           "answer": "D",
-          "solution": "因为 $f$ 在 $(-\\infty,0]$ 上严格递减且为偶函数，$f(-2)=f(2)=0$. 当 $x\\in(-2,0]$ 时，由严格递减性得 $f(x)&#x3C;f(-2)=0$；当 $x\\in[0,2)$ 时，$-x\\in(-2,0]$，从而 $f(x)=f(-x)&#x3C;0$. 当 $x&#x3C;-2$ 时，$f(x)>f(-2)=0$，再由偶性知当 $x>2$ 时也有 $f(x)>0$，而 $x=\\pm2$ 时函数值为零. 因此 $f(x)&#x3C;0$ 的取值范围为 $(-2,2)$，故选 D."
+          "solution": "因为 $f$ 在 $(-\\infty,0]$ 上严格递减且为偶函数，$f(-2)=f(2)=0$. 当 $x\\in(-2,0]$ 时，由严格递减性得 $f(x)<f(-2)=0$；当 $x\\in[0,2)$ 时，$-x\\in(-2,0]$，从而 $f(x)=f(-x)<0$. 当 $x<-2$ 时，$f(x)>f(-2)=0$，再由偶性知当 $x>2$ 时也有 $f(x)>0$，而 $x=\\pm2$ 时函数值为零. 因此 $f(x)<0$ 的取值范围为 $(-2,2)$，故选 D."
         },
         {
           "num": 4,
@@ -57,7 +57,7 @@
         },
         {
           "num": 5,
-          "body": "不等式组 $\\begin{cases}|x-2|&#x3C;2,\\\\  \\log_{2}(x^{2}-1)>1\\end{cases}$ 的解集为（ ）",
+          "body": "不等式组 $\\begin{cases}|x-2|<2,\\\\  \\log_{2}(x^{2}-1)>1\\end{cases}$ 的解集为（ ）",
           "choices": [
             "$(0, \\sqrt{3})$",
             "$(\\sqrt{3}, 2)$",
@@ -65,11 +65,11 @@
             "$(2,4)$"
           ],
           "answer": "C",
-          "solution": "由 $|x-2|&#x3C;2$ 得 $0&#x3C;x&#x3C;4$. 对数不等式还要求 $x^{2}-1>0$，且由于底数 $2>1$，有 $\\log_{2}(x^{2}-1)>1\\Longleftrightarrow x^{2}-1>2$，即 $x^{2}>3$. 与 $0&#x3C;x&#x3C;4$ 交集为 $(\\sqrt{3},4)$，故选 C."
+          "solution": "由 $|x-2|<2$ 得 $0<x<4$. 对数不等式还要求 $x^{2}-1>0$，且由于底数 $2>1$，有 $\\log_{2}(x^{2}-1)>1\\Longleftrightarrow x^{2}-1>2$，即 $x^{2}>3$. 与 $0<x<4$ 交集为 $(\\sqrt{3},4)$，故选 C."
         },
         {
           "num": 6,
-          "body": "已知 $\\alpha$，$\\beta$ 均为锐角，若 $p: \\sin \\alpha &#x3C; \\sin (\\alpha + \\beta)$，$q: \\alpha + \\beta &#x3C; \\frac{\\pi}{2}$，则 $p$ 是 $q$ 的（ ）",
+          "body": "已知 $\\alpha$，$\\beta$ 均为锐角，若 $p: \\sin \\alpha < \\sin (\\alpha + \\beta)$，$q: \\alpha + \\beta < \\frac{\\pi}{2}$，则 $p$ 是 $q$ 的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -77,7 +77,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "B",
-          "solution": "由和差化积公式，$\\sin(\\alpha+\\beta)-\\sin\\alpha=2\\cos\\left(\\alpha+\\frac{\\beta}{2}\\right)\\sin\\frac{\\beta}{2}$. 由于 $\\beta$ 为锐角，$\\sin\\frac{\\beta}{2}>0$，所以命题 $p$ 等价于 $\\alpha+\\frac{\\beta}{2}&#x3C;\\frac{\\pi}{2}$. 若命题 $q$ 成立，则 $\\alpha+\\frac{\\beta}{2}&#x3C;\\alpha+\\beta&#x3C;\\frac{\\pi}{2}$，故 $q\\Rightarrow p$. 但取 $\\alpha=\\frac{7\\pi}{18}$，$\\beta=\\frac{\\pi}{6}$，有 $\\alpha+\\frac{\\beta}{2}=\\frac{5\\pi}{12}&#x3C;\\frac{\\pi}{2}$，命题 $p$ 成立，而 $\\alpha+\\beta=\\frac{5\\pi}{9}>\\frac{\\pi}{2}$，命题 $q$ 不成立. 因此 $p$ 是 $q$ 的必要而不充分条件，故选 B."
+          "solution": "由和差化积公式，$\\sin(\\alpha+\\beta)-\\sin\\alpha=2\\cos\\left(\\alpha+\\frac{\\beta}{2}\\right)\\sin\\frac{\\beta}{2}$. 由于 $\\beta$ 为锐角，$\\sin\\frac{\\beta}{2}>0$，所以命题 $p$ 等价于 $\\alpha+\\frac{\\beta}{2}<\\frac{\\pi}{2}$. 若命题 $q$ 成立，则 $\\alpha+\\frac{\\beta}{2}<\\alpha+\\beta<\\frac{\\pi}{2}$，故 $q\\Rightarrow p$. 但取 $\\alpha=\\frac{7\\pi}{18}$，$\\beta=\\frac{\\pi}{6}$，有 $\\alpha+\\frac{\\beta}{2}=\\frac{5\\pi}{12}<\\frac{\\pi}{2}$，命题 $p$ 成立，而 $\\alpha+\\beta=\\frac{5\\pi}{9}>\\frac{\\pi}{2}$，命题 $q$ 不成立. 因此 $p$ 是 $q$ 的必要而不充分条件，故选 B."
         },
         {
           "num": 7,
@@ -105,10 +105,10 @@
         },
         {
           "num": 9,
-          "body": "<p>若动点 $(x, y)$ 在曲线 $\\frac{x^{2}}{4}+ \\frac{y^{2}}{b^{2}}= 1$（$b > 0$）上变化，则 $x^{2} + 2y$ 的最大值为（ ）</p><p><span class=\"macro macro-end\"></span>cases<span class=\"macro macro-)\"></span>}</p><p>$\\begin{cases}\\frac{b^2}{4}+4,&#x26;0 &#x3C; b &#x3C; 2,\\\\  2b,&#x26;b\\ge 2.\\end{cases}$</p><p>$\\frac{b^{2}}{4}+ 4$</p><p>$2b$</p>",
+          "body": "<p>若动点 $(x, y)$ 在曲线 $\\frac{x^{2}}{4}+ \\frac{y^{2}}{b^{2}}= 1$（$b > 0$）上变化，则 $x^{2} + 2y$ 的最大值为（ ）</p><p><span class=\"macro macro-end\"></span>cases<span class=\"macro macro-)\"></span>}</p><p>$\\begin{cases}\\frac{b^2}{4}+4,&0 < b < 2,\\\\  2b,&b\\ge 2.\\end{cases}$</p><p>$\\frac{b^{2}}{4}+ 4$</p><p>$2b$</p>",
           "choices": null,
           "answer": "A",
-          "solution": "<p>由椭圆方程得 $x^{2}=4\\left(1-\\frac{y^{2}}{b^{2}}\\right)$，且 $-b\\le y\\le b$. 因此 $x^{2}+2y=4+2y-\\frac{4y^{2}}{b^{2}}$. 这是关于 $y$ 的开口向下的二次函数，其顶点横坐标为 $y=\\frac{b^{2}}{4}$.</p><p>当 $0&#x3C;b&#x3C;4$ 时，$\\frac{b^{2}}{4}&#x3C;b$，顶点在区间 $[-b,b]$ 内，最大值为 $4+\\frac{b^{2}}{4}$. 当 $b\\geqslant4$ 时，顶点横坐标不小于右端点，二次函数在 $[-b,b]$ 上的最大值在 $y=b$ 处取得，最大值为 $2b$. 当 $b=4$ 时两式均为 $8$，故选 A.</p>"
+          "solution": "<p>由椭圆方程得 $x^{2}=4\\left(1-\\frac{y^{2}}{b^{2}}\\right)$，且 $-b\\le y\\le b$. 因此 $x^{2}+2y=4+2y-\\frac{4y^{2}}{b^{2}}$. 这是关于 $y$ 的开口向下的二次函数，其顶点横坐标为 $y=\\frac{b^{2}}{4}$.</p><p>当 $0<b<4$ 时，$\\frac{b^{2}}{4}<b$，顶点在区间 $[-b,b]$ 内，最大值为 $4+\\frac{b^{2}}{4}$. 当 $b\\geqslant4$ 时，顶点横坐标不小于右端点，二次函数在 $[-b,b]$ 上的最大值在 $y=b$ 处取得，最大值为 $2b$. 当 $b=4$ 时两式均为 $8$，故选 A.</p>"
         },
         {
           "num": 10,
@@ -129,10 +129,10 @@
       "problems": [
         {
           "num": 11,
-          "body": "若集合 $A = \\{x \\in \\mathbb{R}\\mid x^{2} - 4x + 3 &#x3C; 0\\}$，集合 $B = \\{x \\in \\mathbb{R}\\mid (x - 2)(x - 5) &#x3C; 0\\}$，则 $A \\cap B =\\underline{\\hspace{2.5em}}{}$.",
+          "body": "若集合 $A = \\{x \\in \\mathbb{R}\\mid x^{2} - 4x + 3 < 0\\}$，集合 $B = \\{x \\in \\mathbb{R}\\mid (x - 2)(x - 5) < 0\\}$，则 $A \\cap B =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$(2,3)$",
-          "solution": "由 $x^{2}-4x+3=(x-1)(x-3)$，得 $A=(1,3)$. 又由 $(x-2)(x-5)&#x3C;0$，得 $B=(2,5)$. 因此 $A\\cap B=(2,3)$."
+          "solution": "由 $x^{2}-4x+3=(x-1)(x-3)$，得 $A=(1,3)$. 又由 $(x-2)(x-5)<0$，得 $B=(2,5)$. 因此 $A\\cap B=(2,3)$."
         },
         {
           "num": 12,
@@ -190,7 +190,7 @@
         },
         {
           "num": 19,
-          "body": "<p>设函数 $f(x) = 2x^{3}- 3(a + 1)x^{2}+ 6ax + 8$，其中 $a \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>若 $f(x)$ 在 $x = 3$ 处取得极值，求常数 $a$ 的值；</p></li><li><p>若 $f(x)$ 在 $(-\\infty,0)$ 上为增函数，求 $a$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>函数可导，若在 $x=3$ 处取得极值，则必须有 $f'(3)=0$. 而 $f'(x)=6x^{2}-6(a+1)x+6a=6(x-1)(x-a)$，所以 $0=f'(3)=12(3-a)$，得 $a=3$. 当 $a=3$ 时，$f'(x)=6(x-1)(x-3)$，在 $x=3$ 左侧为负、右侧为正，确实在 $x=3$ 处取得极小值.</p></li><li><p>由 $f'(x)=6(x-1)(x-a)$，当 $x&#x3C;0$ 时有 $x-1&#x3C;0$. 要使 $f$ 在 $(-\\infty,0)$ 上为增函数，需对一切 $x&#x3C;0$ 有 $f'(x)>0$，这等价于 $x-a&#x3C;0$ 对一切 $x&#x3C;0$ 成立，也就是 $a\\geqslant0$. 当 $a\\geqslant0$ 时确有 $x-a&#x3C;0$，故 $f'(x)>0$；若 $a&#x3C;0$，取 $x\\in(a,0)$，则 $f'(x)&#x3C;0$. 故 $a\\in[0,+\\infty)$.</p></li></ol>",
+          "body": "<p>设函数 $f(x) = 2x^{3}- 3(a + 1)x^{2}+ 6ax + 8$，其中 $a \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>若 $f(x)$ 在 $x = 3$ 处取得极值，求常数 $a$ 的值；</p></li><li><p>若 $f(x)$ 在 $(-\\infty,0)$ 上为增函数，求 $a$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>函数可导，若在 $x=3$ 处取得极值，则必须有 $f'(3)=0$. 而 $f'(x)=6x^{2}-6(a+1)x+6a=6(x-1)(x-a)$，所以 $0=f'(3)=12(3-a)$，得 $a=3$. 当 $a=3$ 时，$f'(x)=6(x-1)(x-3)$，在 $x=3$ 左侧为负、右侧为正，确实在 $x=3$ 处取得极小值.</p></li><li><p>由 $f'(x)=6(x-1)(x-a)$，当 $x<0$ 时有 $x-1<0$. 要使 $f$ 在 $(-\\infty,0)$ 上为增函数，需对一切 $x<0$ 有 $f'(x)>0$，这等价于 $x-a<0$ 对一切 $x<0$ 成立，也就是 $a\\geqslant0$. 当 $a\\geqslant0$ 时确有 $x-a<0$，故 $f'(x)>0$；若 $a<0$，取 $x\\in(a,0)$，则 $f'(x)<0$. 故 $a\\in[0,+\\infty)$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -204,7 +204,7 @@
         },
         {
           "num": 21,
-          "body": "<p>已知中心在原点的双曲线 $C$ 的右焦点为 $(2,0)$，右顶点为 $(\\sqrt{3},0)$.</p><ol class=\"enumerate\"><li><p>求双曲线 $C$ 的方程；</p></li><li><p>若直线 $l: y = kx + \\sqrt{2}$ 与双曲线 $C$ 恒有两个不同的交点 $A$ 和 $B$，且 $\\overrightarrow{OA}\\cdot \\overrightarrow{OB}> 2$（其中 $O$ 为原点）. 求 $k$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>设双曲线的标准方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，则右焦点横坐标为 $c=2$，右顶点横坐标为 $a=\\sqrt{3}$. 由 $c^{2}=a^{2}+b^{2}$ 得 $b^{2}=4-3=1$，所以双曲线方程为 $\\frac{x^{2}}{3}-y^{2}=1$.</p></li><li><p>将 $y=kx+\\sqrt{2}$ 代入双曲线方程，得 $\\left(\\frac{1}{3}-k^{2}\\right)x^{2}-2\\sqrt{2}kx-3=0$. 要有两个不同的交点，首先判别式 $\\Delta=(-2\\sqrt{2}k)^{2}-4\\left(\\frac{1}{3}-k^{2}\\right)(-3)=4(1-k^{2})>0$，故 $|k|&#x3C;1$；同时二次项系数不能为零，否则只有一个有限交点，所以 $k\\ne\\pm\\frac{\\sqrt{3}}{3}$. 设两交点横坐标为 $x_{1}$，$x_{2}$，由韦达定理得 $x_{1}+x_{2}=\\frac{2\\sqrt{2}k}{\\frac{1}{3}-k^{2}}$，$x_{1}x_{2}=-\\frac{3}{\\frac{1}{3}-k^{2}}$. 由于 $y_{i}=kx_{i}+\\sqrt{2}$，有 $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=x_{1}x_{2}+y_{1}y_{2}=(1+k^{2})x_{1}x_{2}+\\sqrt{2}k(x_{1}+x_{2})+2$. 代入上式化简，得到 $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}-2=\\frac{k^{2}-3}{\\frac{1}{3}-k^{2}}$. 在 $|k|&#x3C;1$ 时分子恒为负，因此该式大于零当且仅当 $\\frac{1}{3}-k^{2}&#x3C;0$，即 $|k|>\\frac{\\sqrt{3}}{3}$. 故 $k\\in\\left(-1,-\\frac{\\sqrt{3}}{3}\\right)\\cup\\left(\\frac{\\sqrt{3}}{3},1\\right)$.</p></li></ol>",
+          "body": "<p>已知中心在原点的双曲线 $C$ 的右焦点为 $(2,0)$，右顶点为 $(\\sqrt{3},0)$.</p><ol class=\"enumerate\"><li><p>求双曲线 $C$ 的方程；</p></li><li><p>若直线 $l: y = kx + \\sqrt{2}$ 与双曲线 $C$ 恒有两个不同的交点 $A$ 和 $B$，且 $\\overrightarrow{OA}\\cdot \\overrightarrow{OB}> 2$（其中 $O$ 为原点）. 求 $k$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>设双曲线的标准方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，则右焦点横坐标为 $c=2$，右顶点横坐标为 $a=\\sqrt{3}$. 由 $c^{2}=a^{2}+b^{2}$ 得 $b^{2}=4-3=1$，所以双曲线方程为 $\\frac{x^{2}}{3}-y^{2}=1$.</p></li><li><p>将 $y=kx+\\sqrt{2}$ 代入双曲线方程，得 $\\left(\\frac{1}{3}-k^{2}\\right)x^{2}-2\\sqrt{2}kx-3=0$. 要有两个不同的交点，首先判别式 $\\Delta=(-2\\sqrt{2}k)^{2}-4\\left(\\frac{1}{3}-k^{2}\\right)(-3)=4(1-k^{2})>0$，故 $|k|<1$；同时二次项系数不能为零，否则只有一个有限交点，所以 $k\\ne\\pm\\frac{\\sqrt{3}}{3}$. 设两交点横坐标为 $x_{1}$，$x_{2}$，由韦达定理得 $x_{1}+x_{2}=\\frac{2\\sqrt{2}k}{\\frac{1}{3}-k^{2}}$，$x_{1}x_{2}=-\\frac{3}{\\frac{1}{3}-k^{2}}$. 由于 $y_{i}=kx_{i}+\\sqrt{2}$，有 $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=x_{1}x_{2}+y_{1}y_{2}=(1+k^{2})x_{1}x_{2}+\\sqrt{2}k(x_{1}+x_{2})+2$. 代入上式化简，得到 $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}-2=\\frac{k^{2}-3}{\\frac{1}{3}-k^{2}}$. 在 $|k|<1$ 时分子恒为负，因此该式大于零当且仅当 $\\frac{1}{3}-k^{2}<0$，即 $|k|>\\frac{\\sqrt{3}}{3}$. 故 $k\\in\\left(-1,-\\frac{\\sqrt{3}}{3}\\right)\\cup\\left(\\frac{\\sqrt{3}}{3},1\\right)$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

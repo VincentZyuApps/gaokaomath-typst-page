@@ -21,12 +21,12 @@
         },
         {
           "num": 2,
-          "body": "<p>命题“对任意 $x \\in \\mathbb{R}$，都有 $x^{2} \\ge 0$”的否定为（ ）</p><p>D</p><p>原命题是“对任意 $x\\in\\mathbb{R}$，都有 $x^{2}\\geqslant0$”，全称命题的否定是存在一个实数使得结论不成立. 因此其否定为存在 $x_{0}\\in\\mathbb{R}$，使得</p>\n$$\nx_{0}^{2}&#x3C;0\n$$\n<p>故选 D.</p>",
+          "body": "<p>命题“对任意 $x \\in \\mathbb{R}$，都有 $x^{2} \\ge 0$”的否定为（ ）</p><p>D</p><p>原命题是“对任意 $x\\in\\mathbb{R}$，都有 $x^{2}\\geqslant0$”，全称命题的否定是存在一个实数使得结论不成立. 因此其否定为存在 $x_{0}\\in\\mathbb{R}$，使得</p>\n$$\nx_{0}^{2}<0\n$$\n<p>故选 D.</p>",
           "choices": [
-            "对任意 $x \\in \\mathbb{R}$，都有 $x^{2} &#x3C; 0$",
-            "不存在 $x \\in \\mathbb{R}$，使得 $x^{2} &#x3C; 0$",
+            "对任意 $x \\in \\mathbb{R}$，都有 $x^{2} < 0$",
+            "不存在 $x \\in \\mathbb{R}$，使得 $x^{2} < 0$",
             "存在 $x_{0} \\in \\mathbb{R}$，使得 $x_{0}^{2} \\ge 0$",
-            "存在 $x_{0} \\in \\mathbb{R}$，使得 $x_{0}^{2} &#x3C; 0$"
+            "存在 $x_{0} \\in \\mathbb{R}$，使得 $x_{0}^{2} < 0$"
           ],
           "answer": "",
           "solution": ""
@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "<p>若 $a &#x3C; b &#x3C; c$，则函数 $f(x) = (x - a)(x - b) + (x - b)(x - c) + (x - c)(x - a)$ 的两个零点分别位于区间（ ）</p><p>A</p><p>将函数在三个点处的值分别计算为</p>\n$$\nf(a)=(a-b)(a-c)>0\n$$\n\n$$\nf(b)=(b-c)(b-a)&#x3C;0\n$$\n\n$$\nf(c)=(c-a)(c-b)>0\n$$\n<p>由于 $f(x)$ 是连续函数，由零点存在定理，$f(x)$ 在 $(a,b)$ 内至少有一个零点，在 $(b,c)$ 内至少有一个零点.</p><p>展开得</p>\n$$\nf(x)=3x^{2}-2(a+b+c)x+(ab+bc+ca)\n$$\n<p>这是二次函数，至多有两个零点. 因此它的两个零点分别位于 $(a,b)$ 和 $(b,c)$ 内，故选 A.</p>",
+          "body": "<p>若 $a < b < c$，则函数 $f(x) = (x - a)(x - b) + (x - b)(x - c) + (x - c)(x - a)$ 的两个零点分别位于区间（ ）</p><p>A</p><p>将函数在三个点处的值分别计算为</p>\n$$\nf(a)=(a-b)(a-c)>0\n$$\n\n$$\nf(b)=(b-c)(b-a)<0\n$$\n\n$$\nf(c)=(c-a)(c-b)>0\n$$\n<p>由于 $f(x)$ 是连续函数，由零点存在定理，$f(x)$ 在 $(a,b)$ 内至少有一个零点，在 $(b,c)$ 内至少有一个零点.</p><p>展开得</p>\n$$\nf(x)=3x^{2}-2(a+b+c)x+(ab+bc+ca)\n$$\n<p>这是二次函数，至多有两个零点. 因此它的两个零点分别位于 $(a,b)$ 和 $(b,c)$ 内，故选 A.</p>",
           "choices": [
             "$(a, b)$ 和 $(b, c)$ 内",
             "$(-\\infty, a)$ 和 $(a, b)$ 内",
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "<p>$4\\cos 50^{\\circ}- \\tan 40^{\\circ}=$（ ）</p><p>C</p><p>利用余弦与正弦的互余关系，</p>\n$$\n\\begin{aligned}4\\cos50^{\\circ}-\\tan40^{\\circ}&#x26;=4\\sin40^{\\circ}-\\frac{\\sin40^{\\circ}}{\\cos40^{\\circ}}\\\\&#x26;=\\frac{4\\sin40^{\\circ}\\cos40^{\\circ}-\\sin40^{\\circ}}{\\cos40^{\\circ}}.\\end{aligned}\n$$\n<p>又因为</p>\n$$\n\\sin40^{\\circ}+\\sqrt{3}\\cos40^{\\circ}=2\\sin100^{\\circ}=2\\sin80^{\\circ}\n$$\n<p>所以</p>\n$$\n4\\sin40^{\\circ}\\cos40^{\\circ}-\\sin40^{\\circ}=2\\sin80^{\\circ}-\\sin40^{\\circ}=\\sqrt{3}\\cos40^{\\circ}\n$$\n<p>故原式等于 $\\sqrt{3}$，选 C.</p>",
+          "body": "<p>$4\\cos 50^{\\circ}- \\tan 40^{\\circ}=$（ ）</p><p>C</p><p>利用余弦与正弦的互余关系，</p>\n$$\n\\begin{aligned}4\\cos50^{\\circ}-\\tan40^{\\circ}&=4\\sin40^{\\circ}-\\frac{\\sin40^{\\circ}}{\\cos40^{\\circ}}\\\\&=\\frac{4\\sin40^{\\circ}\\cos40^{\\circ}-\\sin40^{\\circ}}{\\cos40^{\\circ}}.\\end{aligned}\n$$\n<p>又因为</p>\n$$\n\\sin40^{\\circ}+\\sqrt{3}\\cos40^{\\circ}=2\\sin100^{\\circ}=2\\sin80^{\\circ}\n$$\n<p>所以</p>\n$$\n4\\sin40^{\\circ}\\cos40^{\\circ}-\\sin40^{\\circ}=2\\sin80^{\\circ}-\\sin40^{\\circ}=\\sqrt{3}\\cos40^{\\circ}\n$$\n<p>故原式等于 $\\sqrt{3}$，选 C.</p>",
           "choices": [
             "$\\sqrt{2}$",
             "$\\frac{\\sqrt{2} + \\sqrt{3}}{2}$",
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "<p>在平面上，$\\overrightarrow{AB_1}\\perp \\overrightarrow{AB_2}$，$|\\overrightarrow{OB_1}| = |\\overrightarrow{OB_2}| = 1$，$\\overrightarrow{AP}= \\overrightarrow{AB_1}+ \\overrightarrow{AB_2}$. 若 $|\\overrightarrow{OP}| &#x3C; \\frac{1}{2}$，则 $|\\overrightarrow{OA}|$ 的取值范围是（ ）</p><p>D</p><p>设</p><p>$\\mathbf{a}=\\overrightarrow{OA}$，$\\mathbf{b}_{1}=\\overrightarrow{OB_1}$，$\\mathbf{b}_{2}=\\overrightarrow{OB_2}$，$\\mathbf{p}=\\overrightarrow{OP}$.</p><p>由向量条件</p>\n$$\n\\mathbf{p}-\\mathbf{a}=(\\mathbf{b}_{1}-\\mathbf{a})+(\\mathbf{b}_{2}-\\mathbf{a})\n$$\n<p>得</p>\n$$\n\\mathbf{a}=\\mathbf{b}_{1}+\\mathbf{b}_{2}-\\mathbf{p}\n$$\n<p>又因为 $|\\mathbf{b}_{1}|=|\\mathbf{b}_{2}|=1$，且 $\\overrightarrow{AB_1}\\perp\\overrightarrow{AB_2}$，所以</p>\n$$\n(\\mathbf{b}_{1}-\\mathbf{a})\\cdot(\\mathbf{b}_{2}-\\mathbf{a})=0\n$$\n<p>代入 $\\mathbf{a}=\\mathbf{b}_{1}+\\mathbf{b}_{2}-\\mathbf{p}$，得到</p>\n$$\n(\\mathbf{p}-\\mathbf{b}_{2})\\cdot(\\mathbf{p}-\\mathbf{b}_{1})=0\n$$\n<p>记 $q=|\\mathbf{p}|=|\\overrightarrow{OP}|$，$d=\\mathbf{b}_{1}\\cdot\\mathbf{b}_{2}$，则</p>\n$$\n\\mathbf{p}\\cdot(\\mathbf{b}_{1}+\\mathbf{b}_{2})=q^{2}+d\n$$\n<p>因此</p>\n$$\n\\begin{aligned}|\\overrightarrow{OA}|^{2}&#x26;=|\\mathbf{b}_{1}+\\mathbf{b}_{2}-\\mathbf{p}|^{2}\\\\&#x26;=2+2d+q^{2}-2(q^{2}+d)=2-q^{2}.\\end{aligned}\n$$\n<p>由 $0\\le q&#x3C;\\frac{1}{2}$，可得</p>\n$$\n\\frac{\\sqrt{7}}{2}&#x3C;|\\overrightarrow{OA}|\\le\\sqrt{2}\n$$\n<p>当 $q=0$ 时取到右端点；当 $q$ 趋近于 $\\frac{1}{2}$ 时左端点不取到，故选 D.</p><p>为说明区间内的值均可取到，对任意 $q\\in[0,\\frac{1}{2})$，取</p><p>$\\mathbf{b}_{1}=(1,0)$，$\\mathbf{b}_{2}=(0,1)$，$\\mathbf{p}=\\frac{q^{2}}{2}(1,1)+\\sqrt{q^{2}-\\frac{q^4}{2}}\\frac{(1,-1)}{\\sqrt{2}}$.</p><p>则 $|\\mathbf{p}|=q$，且 $\\mathbf{p}\\cdot(\\mathbf{b}_{1}+\\mathbf{b}_{2})=q^{2}$. 令</p><p>$\\mathbf{a}=\\mathbf{b}_{1}+\\mathbf{b}_{2}-\\mathbf{p}$，便有</p><p>$(\\mathbf{p}-\\mathbf{b}_{2})\\cdot(\\mathbf{p}-\\mathbf{b}_{1})=0$，从而满足题设的垂直条件. 因此上述范围恰好可取到，故选 D.</p>",
+          "body": "<p>在平面上，$\\overrightarrow{AB_1}\\perp \\overrightarrow{AB_2}$，$|\\overrightarrow{OB_1}| = |\\overrightarrow{OB_2}| = 1$，$\\overrightarrow{AP}= \\overrightarrow{AB_1}+ \\overrightarrow{AB_2}$. 若 $|\\overrightarrow{OP}| < \\frac{1}{2}$，则 $|\\overrightarrow{OA}|$ 的取值范围是（ ）</p><p>D</p><p>设</p><p>$\\mathbf{a}=\\overrightarrow{OA}$，$\\mathbf{b}_{1}=\\overrightarrow{OB_1}$，$\\mathbf{b}_{2}=\\overrightarrow{OB_2}$，$\\mathbf{p}=\\overrightarrow{OP}$.</p><p>由向量条件</p>\n$$\n\\mathbf{p}-\\mathbf{a}=(\\mathbf{b}_{1}-\\mathbf{a})+(\\mathbf{b}_{2}-\\mathbf{a})\n$$\n<p>得</p>\n$$\n\\mathbf{a}=\\mathbf{b}_{1}+\\mathbf{b}_{2}-\\mathbf{p}\n$$\n<p>又因为 $|\\mathbf{b}_{1}|=|\\mathbf{b}_{2}|=1$，且 $\\overrightarrow{AB_1}\\perp\\overrightarrow{AB_2}$，所以</p>\n$$\n(\\mathbf{b}_{1}-\\mathbf{a})\\cdot(\\mathbf{b}_{2}-\\mathbf{a})=0\n$$\n<p>代入 $\\mathbf{a}=\\mathbf{b}_{1}+\\mathbf{b}_{2}-\\mathbf{p}$，得到</p>\n$$\n(\\mathbf{p}-\\mathbf{b}_{2})\\cdot(\\mathbf{p}-\\mathbf{b}_{1})=0\n$$\n<p>记 $q=|\\mathbf{p}|=|\\overrightarrow{OP}|$，$d=\\mathbf{b}_{1}\\cdot\\mathbf{b}_{2}$，则</p>\n$$\n\\mathbf{p}\\cdot(\\mathbf{b}_{1}+\\mathbf{b}_{2})=q^{2}+d\n$$\n<p>因此</p>\n$$\n\\begin{aligned}|\\overrightarrow{OA}|^{2}&=|\\mathbf{b}_{1}+\\mathbf{b}_{2}-\\mathbf{p}|^{2}\\\\&=2+2d+q^{2}-2(q^{2}+d)=2-q^{2}.\\end{aligned}\n$$\n<p>由 $0\\le q<\\frac{1}{2}$，可得</p>\n$$\n\\frac{\\sqrt{7}}{2}<|\\overrightarrow{OA}|\\le\\sqrt{2}\n$$\n<p>当 $q=0$ 时取到右端点；当 $q$ 趋近于 $\\frac{1}{2}$ 时左端点不取到，故选 D.</p><p>为说明区间内的值均可取到，对任意 $q\\in[0,\\frac{1}{2})$，取</p><p>$\\mathbf{b}_{1}=(1,0)$，$\\mathbf{b}_{2}=(0,1)$，$\\mathbf{p}=\\frac{q^{2}}{2}(1,1)+\\sqrt{q^{2}-\\frac{q^4}{2}}\\frac{(1,-1)}{\\sqrt{2}}$.</p><p>则 $|\\mathbf{p}|=q$，且 $\\mathbf{p}\\cdot(\\mathbf{b}_{1}+\\mathbf{b}_{2})=q^{2}$. 令</p><p>$\\mathbf{a}=\\mathbf{b}_{1}+\\mathbf{b}_{2}-\\mathbf{p}$，便有</p><p>$(\\mathbf{p}-\\mathbf{b}_{2})\\cdot(\\mathbf{p}-\\mathbf{b}_{1})=0$，从而满足题设的垂直条件. 因此上述范围恰好可取到，故选 D.</p>",
           "choices": [
             "$\\left(0, \\frac{\\sqrt{5}}{2}\\right]$",
             "$\\left(\\frac{\\sqrt{5}}{2}, \\frac{\\sqrt{7}}{2}\\right]$",
@@ -148,7 +148,7 @@
         },
         {
           "num": 13,
-          "body": "<p>从 $3$ 名骨科、$4$ 名脑外科和 $5$ 名内科医生中选派 $5$ 人组成一个抗震救灾医疗小组，骨科、脑外科和内科医生都至少有 $1$ 人的选派方法种数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$590$</p><p>从 $12$ 名医生中任选五人共有</p>\n$$\n\\mathrm{C}_{12}^{5}\n$$\n<p>种. 减去没有骨科医生、没有脑外科医生、没有内科医生的情况，再加回同时缺少两个科室的情况，得到</p>\n$$\n\\begin{aligned}N&#x26;=\\mathrm{C}_{12}^{5}-\\mathrm{C}_{9}^{5}-\\mathrm{C}_{8}^{5}-\\mathrm{C}_{7}^{5}\\\\&#x26; +\\mathrm{C}_{5}^{5}+\\mathrm{C}_{4}^{5}+\\mathrm{C}_{3}^{5}\\\\&#x26;=792-126-56-21+1+0+0=590.\\end{aligned}\n$$\n<p>所以选派方法数为 $590$.</p>",
+          "body": "<p>从 $3$ 名骨科、$4$ 名脑外科和 $5$ 名内科医生中选派 $5$ 人组成一个抗震救灾医疗小组，骨科、脑外科和内科医生都至少有 $1$ 人的选派方法种数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$590$</p><p>从 $12$ 名医生中任选五人共有</p>\n$$\n\\mathrm{C}_{12}^{5}\n$$\n<p>种. 减去没有骨科医生、没有脑外科医生、没有内科医生的情况，再加回同时缺少两个科室的情况，得到</p>\n$$\n\\begin{aligned}N&=\\mathrm{C}_{12}^{5}-\\mathrm{C}_{9}^{5}-\\mathrm{C}_{8}^{5}-\\mathrm{C}_{7}^{5}\\\\& +\\mathrm{C}_{5}^{5}+\\mathrm{C}_{4}^{5}+\\mathrm{C}_{3}^{5}\\\\&=792-126-56-21+1+0+0=590.\\end{aligned}\n$$\n<p>所以选派方法数为 $590$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -169,7 +169,7 @@
         },
         {
           "num": 16,
-          "body": "<p>若关于实数 $x$ 的不等式 $|x - 5| + |x + 3| &#x3C; a$ 无解，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$a \\le 8$</p><p>由三角不等式，任意实数 $x$ 都满足</p>\n$$\n|x-5|+|x+3|\\ge\\left|(x-5)-(x+3)\\right|=8\n$$\n<p>当且仅当 $x\\in[-3,5]$ 时等号成立，因此左端的最小值为 $8$. 当 $a\\leqslant8$ 时，不可能有左端小于 $a$；当 $a>8$ 时，取 $x=-3$ 即有 $8&#x3C;a$，不等式有解.</p><p>所以实数 $a$ 的取值范围为</p>\n$$\na\\leqslant8\n$$",
+          "body": "<p>若关于实数 $x$ 的不等式 $|x - 5| + |x + 3| < a$ 无解，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$a \\le 8$</p><p>由三角不等式，任意实数 $x$ 都满足</p>\n$$\n|x-5|+|x+3|\\ge\\left|(x-5)-(x+3)\\right|=8\n$$\n<p>当且仅当 $x\\in[-3,5]$ 时等号成立，因此左端的最小值为 $8$. 当 $a\\leqslant8$ 时，不可能有左端小于 $a$；当 $a>8$ 时，取 $x=-3$ 即有 $8<a$，不等式有解.</p><p>所以实数 $a$ 的取值范围为</p>\n$$\na\\leqslant8\n$$",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -181,7 +181,7 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>设 $f(x) = a(x - 5)^{2} + 6\\ln x$，其中 $a \\in \\mathbb{R}$，曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线与 $y$ 轴相交于点 $(0, 6)$.</p><ol class=\"enumerate\"><li><p>确定 $a$ 的值；</p></li><li><p>求函数 $f(x)$ 的单调区间与极值.</p></li></ol><p>函数的定义域为 $x>0$，且</p><p>$f(1)=16a$，$f'(x)=2a(x-5)+\\frac{6}{x}$，$f'(1)=6-8a$.</p><p>曲线在 $(1,f(1))$ 处的切线方程为 $y=f(1)+f'(1)(x-1)$，所以它在 $y$ 轴上的截距为 $f(1)-f'(1)$. 由题意，</p>\n$$\n16a-(6-8a)=6\n$$\n<p>解得 $a=\\frac{1}{2}$. 此时</p>\n$$\nf'(x)=x-5+\\frac{6}{x}=\\frac{(x-2)(x-3)}{x}\n$$\n<p>因为 $x>0$，所以当 $0&#x3C;x&#x3C;2$ 或 $x>3$ 时 $f'(x)>0$，当 $2&#x3C;x&#x3C;3$ 时 $f'(x)&#x3C;0$. 因此，$f(x)$ 在 $(0,2)$ 和 $(3,+\\infty)$ 上单调递增，在 $(2,3)$ 上单调递减.</p><p>又</p><p>$f(2)=\\frac{9}{2}+6\\ln 2$，$f(3)=2+6\\ln 3$.</p><p>所以 $x=2$ 时取得极大值 $\\frac{9}{2}+6\\ln 2$，$x=3$ 时取得极小值 $2+6\\ln 3$.</p>",
+          "body": "<p>设 $f(x) = a(x - 5)^{2} + 6\\ln x$，其中 $a \\in \\mathbb{R}$，曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线与 $y$ 轴相交于点 $(0, 6)$.</p><ol class=\"enumerate\"><li><p>确定 $a$ 的值；</p></li><li><p>求函数 $f(x)$ 的单调区间与极值.</p></li></ol><p>函数的定义域为 $x>0$，且</p><p>$f(1)=16a$，$f'(x)=2a(x-5)+\\frac{6}{x}$，$f'(1)=6-8a$.</p><p>曲线在 $(1,f(1))$ 处的切线方程为 $y=f(1)+f'(1)(x-1)$，所以它在 $y$ 轴上的截距为 $f(1)-f'(1)$. 由题意，</p>\n$$\n16a-(6-8a)=6\n$$\n<p>解得 $a=\\frac{1}{2}$. 此时</p>\n$$\nf'(x)=x-5+\\frac{6}{x}=\\frac{(x-2)(x-3)}{x}\n$$\n<p>因为 $x>0$，所以当 $0<x<2$ 或 $x>3$ 时 $f'(x)>0$，当 $2<x<3$ 时 $f'(x)<0$. 因此，$f(x)$ 在 $(0,2)$ 和 $(3,+\\infty)$ 上单调递增，在 $(2,3)$ 上单调递减.</p><p>又</p><p>$f(2)=\\frac{9}{2}+6\\ln 2$，$f(3)=2+6\\ln 3$.</p><p>所以 $x=2$ 时取得极大值 $\\frac{9}{2}+6\\ln 2$，$x=3$ 时取得极小值 $2+6\\ln 3$.</p>",
           "choices": null,
           "answer": "",
           "solution": ""

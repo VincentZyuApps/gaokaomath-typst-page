@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "若 $\\cos \\theta > 0$，$\\sin 2\\theta &#x3C; 0$，则角 $\\theta$ 的终边所在象限是（ ）",
+          "body": "若 $\\cos \\theta > 0$，$\\sin 2\\theta < 0$，则角 $\\theta$ 的终边所在象限是（ ）",
           "choices": [
             "第一象限",
             "第二象限",
@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "<p>对于 $0 &#x3C; a &#x3C; 1$，给出下列四个不等式：</p><ol class=\"enumerate\"><li><p>$\\log_{a}(1 + a) &#x3C; \\log_{a}\\left(1 + \\frac{1}{a}\\right)$；</p></li><li><p>$\\log_{a}(1 + a) > \\log_{a}\\left(1 + \\frac{1}{a}\\right)$；</p></li><li><p>$a^{1 + a}&#x3C; a^{1 + \\frac{1}{a}}$；</p></li><li><p>$a^{1 + a}> a^{1 + \\frac{1}{a}}$.</p></li></ol><p>其中成立的是（ ）</p>",
+          "body": "<p>对于 $0 < a < 1$，给出下列四个不等式：</p><ol class=\"enumerate\"><li><p>$\\log_{a}(1 + a) < \\log_{a}\\left(1 + \\frac{1}{a}\\right)$；</p></li><li><p>$\\log_{a}(1 + a) > \\log_{a}\\left(1 + \\frac{1}{a}\\right)$；</p></li><li><p>$a^{1 + a}< a^{1 + \\frac{1}{a}}$；</p></li><li><p>$a^{1 + a}> a^{1 + \\frac{1}{a}}$.</p></li></ol><p>其中成立的是（ ）</p>",
           "choices": [
             "①与③",
             "①与④",
@@ -219,14 +219,14 @@
         },
         {
           "num": 21,
-          "body": "<p>已知函数 $f(x)=ax-\\frac{3}{2}x^{2}$ 的最大值不大于 $\\frac{1}{6}$，又当 $x \\in \\left[\\frac{1}{4}, \\frac{1}{2}\\right]$ 时，$f(x) \\ge \\frac{1}{8}$.</p><ol class=\"enumerate\"><li><p>求 $a$ 的值；</p></li><li><p>设 $0 &#x3C; a_{1} &#x3C; \\frac{1}{2}$，$a_{n+1}= f(a_{n})$，$n \\in \\mathbb{N}^{*}$. 证明 $a_{n} &#x3C; \\frac{1}{n+1}$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x)=ax-\\frac{3}{2}x^{2}$ 的最大值不大于 $\\frac{1}{6}$，又当 $x \\in \\left[\\frac{1}{4}, \\frac{1}{2}\\right]$ 时，$f(x) \\ge \\frac{1}{8}$.</p><ol class=\"enumerate\"><li><p>求 $a$ 的值；</p></li><li><p>设 $0 < a_{1} < \\frac{1}{2}$，$a_{n+1}= f(a_{n})$，$n \\in \\mathbb{N}^{*}$. 证明 $a_{n} < \\frac{1}{n+1}$.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""
         },
         {
           "num": 22,
-          "body": "<p>已知函数 $f(x) = \\ln(\\mathrm{e}^{x} + a)$（$a > 0$）.</p><ol class=\"enumerate\"><li><p>求函数 $y = f(x)$ 的反函数 $y = f^{-1}(x)$ 及 $f(x)$ 的导数 $f'(x)$；</p></li><li><p>假设对任意 $x \\in [\\ln(3a), \\ln(4a)]$，不等式 $|m - f^{-1}(x)| + \\ln(f'(x)) &#x3C; 0$ 成立，求实数 $m$ 的取值范围.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = \\ln(\\mathrm{e}^{x} + a)$（$a > 0$）.</p><ol class=\"enumerate\"><li><p>求函数 $y = f(x)$ 的反函数 $y = f^{-1}(x)$ 及 $f(x)$ 的导数 $f'(x)$；</p></li><li><p>假设对任意 $x \\in [\\ln(3a), \\ln(4a)]$，不等式 $|m - f^{-1}(x)| + \\ln(f'(x)) < 0$ 成立，求实数 $m$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

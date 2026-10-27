@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "<p>设集合 $A = \\{x \\mid x > 3\\}$，$B = \\left\\{x \\mid \\frac{x - 1}{x - 4}&#x3C; 0\\right\\}$，则 $A \\cap B =$（ ）</p><p><span class=\"macro macro-answer\"></span>B</p><p>由 $\\dfrac{x-1}{x-4}&#x3C;0$，临界点为 $1$ 和 $4$；在 $(-\\infty,1)$ 与 $(4,+\\infty)$ 上分子、分母同号，商为正，在 $(1,4)$ 上分子、分母异号，商为负，且 $x=4$ 不在定义域内，所以</p>\n$$\nB=(1,4)\n$$\n<p>因此 $A\\cap B=(3,+\\infty)\\cap(1,4)=(3,4)$，故选 B.</p>",
+          "body": "<p>设集合 $A = \\{x \\mid x > 3\\}$，$B = \\left\\{x \\mid \\frac{x - 1}{x - 4}< 0\\right\\}$，则 $A \\cap B =$（ ）</p><p><span class=\"macro macro-answer\"></span>B</p><p>由 $\\dfrac{x-1}{x-4}<0$，临界点为 $1$ 和 $4$；在 $(-\\infty,1)$ 与 $(4,+\\infty)$ 上分子、分母同号，商为正，在 $(1,4)$ 上分子、分母异号，商为负，且 $x=4$ 不在定义域内，所以</p>\n$$\nB=(1,4)\n$$\n<p>因此 $A\\cap B=(3,+\\infty)\\cap(1,4)=(3,4)$，故选 B.</p>",
           "choices": [
             "$\\varnothing$",
             "$(3,4)$",
@@ -33,7 +33,7 @@
         },
         {
           "num": 3,
-          "body": "<p>已知 $\\triangle ABC$ 中，$\\cot A = -\\frac{12}{5}$，则 $\\cos A =$（ ）</p><p><span class=\"macro macro-answer\"></span>D</p><p>三角形的内角满足 $0&#x3C;A&#x3C;\\pi$，而 $\\cot A&#x3C;0$，所以 $A$ 为钝角，$\\cos A&#x3C;0$，$\\sin A>0$. 由</p>\n$$\n\\cot A=\\frac{\\cos A}{\\sin A}=-\\frac{12}{5}\n$$\n<p>又 $\\sin^{2}A+\\cos^{2}A=1$，且 $\\sin A>0$，故 $\\sin A=\\frac{5}{13}$，从而 $\\cos A=-\\frac{12}{13}$. 故选 D.</p>",
+          "body": "<p>已知 $\\triangle ABC$ 中，$\\cot A = -\\frac{12}{5}$，则 $\\cos A =$（ ）</p><p><span class=\"macro macro-answer\"></span>D</p><p>三角形的内角满足 $0<A<\\pi$，而 $\\cot A<0$，所以 $A$ 为钝角，$\\cos A<0$，$\\sin A>0$. 由</p>\n$$\n\\cot A=\\frac{\\cos A}{\\sin A}=-\\frac{12}{5}\n$$\n<p>又 $\\sin^{2}A+\\cos^{2}A=1$，且 $\\sin A>0$，故 $\\sin A=\\frac{5}{13}$，从而 $\\cos A=-\\frac{12}{13}$. 故选 D.</p>",
           "choices": [
             "$\\frac{12}{13}$",
             "$\\frac{5}{13}$",
@@ -81,7 +81,7 @@
         },
         {
           "num": 7,
-          "body": "<p>设 $a = \\log_{3} \\pi$，$b = \\log_{2} \\sqrt{3}$，$c = \\log_{3} \\sqrt{2}$，则（ ）</p><p><span class=\"macro macro-answer\"></span>A</p><p>因为 $\\pi>3$，所以 $a=\\log_{3}\\pi>1$. 又因为 $\\sqrt{3}&#x3C;2$，所以 $b=\\log_{2}\\sqrt{3}&#x3C;1$，从而 $a>b$. 此外</p>\n$$\nb=\\frac{\\ln3}{2\\ln2}\n$$\n<p>又 $c=\\frac{\\ln2}{2\\ln3}$. 且 $\\ln3>\\ln2>0$，并且 $b-c=\\frac{(\\ln3)^{2}-(\\ln2)^{2}}{2\\ln2\\ln3}>0$，故 $b>c$. 因此 $a>b>c$，故选 A.</p>",
+          "body": "<p>设 $a = \\log_{3} \\pi$，$b = \\log_{2} \\sqrt{3}$，$c = \\log_{3} \\sqrt{2}$，则（ ）</p><p><span class=\"macro macro-answer\"></span>A</p><p>因为 $\\pi>3$，所以 $a=\\log_{3}\\pi>1$. 又因为 $\\sqrt{3}<2$，所以 $b=\\log_{2}\\sqrt{3}<1$，从而 $a>b$. 此外</p>\n$$\nb=\\frac{\\ln3}{2\\ln2}\n$$\n<p>又 $c=\\frac{\\ln2}{2\\ln3}$. 且 $\\ln3>\\ln2>0$，并且 $b-c=\\frac{(\\ln3)^{2}-(\\ln2)^{2}}{2\\ln2\\ln3}>0$，故 $b>c$. 因此 $a>b>c$，故选 A.</p>",
           "choices": [
             "$a > b > c$",
             "$a > c > b$",
@@ -191,7 +191,7 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边长分别为 $a$，$b$，$c$，$\\cos (A - C) + \\cos B = \\frac{3}{2}$，$b^{2} = ac$，求 $B$.</p><p>由 $A+B+C=\\pi$，得 $B=\\pi-(A+C)$，所以 $\\cos B=-\\cos(A+C)$. 因而</p>\n$$\n\\cos(A-C)-\\cos(A+C)=\\frac{3}{2}\n$$\n<p>利用和差化积公式，得 $2\\sin A\\sin C=\\frac{3}{2}$，即</p>\n$$\n\\sin A\\sin C=\\frac{3}{4}\n$$\n<p>由正弦定理，存在 $R>0$ 使 $a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$. 代入 $b^{2}=ac$，得</p>\n$$\n\\sin^{2}B=\\sin A\\sin C=\\frac{3}{4}\n$$\n<p>因为 $0&#x3C;B&#x3C;\\pi$，所以 $\\sin B=\\frac{\\sqrt{3}}{2}$，从而 $B=\\frac{\\pi}{3}$ 或 $B=\\frac{2\\pi}{3}$.</p><p>又由 $b^{2}=ac$，至少有一个数 $a$，$c$ 不小于 $b$. 由边角大小规律，至少有一个角 $A$，$C$ 不小于 $B$，于是 $A+C\\ge B$，即 $\\pi-B\\ge B$，所以 $B\\le\\frac{\\pi}{2}$. 排除 $B=\\frac{2\\pi}{3}$，故</p>\n$$\nB=\\frac{\\pi}{3}=60^{\\circ}\n$$",
+          "body": "<p>设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边长分别为 $a$，$b$，$c$，$\\cos (A - C) + \\cos B = \\frac{3}{2}$，$b^{2} = ac$，求 $B$.</p><p>由 $A+B+C=\\pi$，得 $B=\\pi-(A+C)$，所以 $\\cos B=-\\cos(A+C)$. 因而</p>\n$$\n\\cos(A-C)-\\cos(A+C)=\\frac{3}{2}\n$$\n<p>利用和差化积公式，得 $2\\sin A\\sin C=\\frac{3}{2}$，即</p>\n$$\n\\sin A\\sin C=\\frac{3}{4}\n$$\n<p>由正弦定理，存在 $R>0$ 使 $a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$. 代入 $b^{2}=ac$，得</p>\n$$\n\\sin^{2}B=\\sin A\\sin C=\\frac{3}{4}\n$$\n<p>因为 $0<B<\\pi$，所以 $\\sin B=\\frac{\\sqrt{3}}{2}$，从而 $B=\\frac{\\pi}{3}$ 或 $B=\\frac{2\\pi}{3}$.</p><p>又由 $b^{2}=ac$，至少有一个数 $a$，$c$ 不小于 $b$. 由边角大小规律，至少有一个角 $A$，$C$ 不小于 $B$，于是 $A+C\\ge B$，即 $\\pi-B\\ge B$，所以 $B\\le\\frac{\\pi}{2}$. 排除 $B=\\frac{2\\pi}{3}$，故</p>\n$$\nB=\\frac{\\pi}{3}=60^{\\circ}\n$$",
           "choices": null,
           "answer": "",
           "solution": ""
@@ -226,7 +226,7 @@
         },
         {
           "num": 22,
-          "body": "<p>设函数 $f(x) = x^{2}+ a\\ln (1 + x)$ 有两个极值点 $x_{1}$，$x_{2}$，且 $x_{1}&#x3C; x_{2}$.</p><ol class=\"enumerate\"><li><p>求 $a$ 的取值范围，并讨论 $f(x)$ 的单调性.</p></li><li><p>证明： $f(x_{2}) > \\frac{1 - 2\\ln 2}{4}$.</p></li></ol><ol class=\"enumerate\"><li><p>函数的定义域为 $(-1,+\\infty)$，且</p>\n$$\nf'(x)=2x+\\frac{a}{1+x}=\\frac{2x^{2}+2x+a}{1+x}\n$$\n<p>要有两个定义域内的极值点，二次方程 $2x^{2}+2x+a=0$ 必须有两个不相等且都大于 $-1$ 的根. 其根为</p>\n$$\nx_{1}=\\frac{-1-\\sqrt{1-2a}}{2}\n$$\n<p>又 $x_{2}=\\frac{-1+\\sqrt{1-2a}}{2}$.</p><p>两根不相等要求 $a&#x3C;\\frac{1}{2}$，而 $x_{1}>-1$ 要求 $\\sqrt{1-2a}&#x3C;1$，即 $a>0$. 因此</p>\n$$\n0&#x3C;a&#x3C;\\frac{1}{2}\n$$\n<p>在定义域内 $1+x>0$，而二次式 $2x^{2}+2x+a$ 在两根外为正、两根之间为负，所以 $f(x)$ 在 $(-1,x_{1})$ 和 $(x_{2},+\\infty)$ 上单调递增，在 $(x_{1},x_{2})$ 上单调递减.</p></li><li><p>令 $t=1+x_{2}$. 由 $x_{2}\\in(-1,0)$ 且 $0&#x3C;a&#x3C;\\frac{1}{2}$，有 $\\frac{1}{2}&#x3C;t&#x3C;1$. 又因 $f'(x_{2})=0$，</p>\n$$\na=-2x_{2}(1+x_{2})=2t(1-t)\n$$\n<p>于是</p>\n$$\nf(x_{2})=(1-t)^{2}+2t(1-t)\\ln t=:H(t)\n$$\n<p>求导得</p>\n$$\nH'(t)=2(1-2t)\\ln t\n$$\n<p>当 $\\frac{1}{2}&#x3C;t&#x3C;1$ 时，$1-2t&#x3C;0$ 且 $\\ln t&#x3C;0$，故 $H'(t)>0$. 因而</p>\n$$\nf(x_{2})=H(t)>H\\left(\\frac{1}{2}\\right)=\\frac{1}{4}+\\frac{1}{2}\\ln\\frac{1}{2}=\\frac{1-2\\ln2}{4}\n$$\n</li></ol>",
+          "body": "<p>设函数 $f(x) = x^{2}+ a\\ln (1 + x)$ 有两个极值点 $x_{1}$，$x_{2}$，且 $x_{1}< x_{2}$.</p><ol class=\"enumerate\"><li><p>求 $a$ 的取值范围，并讨论 $f(x)$ 的单调性.</p></li><li><p>证明： $f(x_{2}) > \\frac{1 - 2\\ln 2}{4}$.</p></li></ol><ol class=\"enumerate\"><li><p>函数的定义域为 $(-1,+\\infty)$，且</p>\n$$\nf'(x)=2x+\\frac{a}{1+x}=\\frac{2x^{2}+2x+a}{1+x}\n$$\n<p>要有两个定义域内的极值点，二次方程 $2x^{2}+2x+a=0$ 必须有两个不相等且都大于 $-1$ 的根. 其根为</p>\n$$\nx_{1}=\\frac{-1-\\sqrt{1-2a}}{2}\n$$\n<p>又 $x_{2}=\\frac{-1+\\sqrt{1-2a}}{2}$.</p><p>两根不相等要求 $a<\\frac{1}{2}$，而 $x_{1}>-1$ 要求 $\\sqrt{1-2a}<1$，即 $a>0$. 因此</p>\n$$\n0<a<\\frac{1}{2}\n$$\n<p>在定义域内 $1+x>0$，而二次式 $2x^{2}+2x+a$ 在两根外为正、两根之间为负，所以 $f(x)$ 在 $(-1,x_{1})$ 和 $(x_{2},+\\infty)$ 上单调递增，在 $(x_{1},x_{2})$ 上单调递减.</p></li><li><p>令 $t=1+x_{2}$. 由 $x_{2}\\in(-1,0)$ 且 $0<a<\\frac{1}{2}$，有 $\\frac{1}{2}<t<1$. 又因 $f'(x_{2})=0$，</p>\n$$\na=-2x_{2}(1+x_{2})=2t(1-t)\n$$\n<p>于是</p>\n$$\nf(x_{2})=(1-t)^{2}+2t(1-t)\\ln t=:H(t)\n$$\n<p>求导得</p>\n$$\nH'(t)=2(1-2t)\\ln t\n$$\n<p>当 $\\frac{1}{2}<t<1$ 时，$1-2t<0$ 且 $\\ln t<0$，故 $H'(t)>0$. 因而</p>\n$$\nf(x_{2})=H(t)>H\\left(\\frac{1}{2}\\right)=\\frac{1}{4}+\\frac{1}{2}\\ln\\frac{1}{2}=\\frac{1-2\\ln2}{4}\n$$\n</li></ol>",
           "choices": null,
           "answer": "",
           "solution": ""

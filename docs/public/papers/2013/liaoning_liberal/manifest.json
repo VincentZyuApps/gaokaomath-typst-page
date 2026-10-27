@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A = \\{0, 1, 2, 3, 4\\}$，$B = \\{x \\mid |x| &#x3C; 2\\}$，则 $A \\cap B =$（ ）",
+          "body": "已知集合 $A = \\{0, 1, 2, 3, 4\\}$，$B = \\{x \\mid |x| < 2\\}$，则 $A \\cap B =$（ ）",
           "choices": [
             "$\\{0\\}$",
             "$\\{0,1\\}$",
@@ -17,7 +17,7 @@
             "$\\{0,1,2\\}$"
           ],
           "answer": "B",
-          "solution": "<p>由 $B=\\{x\\mid |x|&#x3C;2\\}=(-2,2)$，而 $A=\\{0,1,2,3,4\\}$，所以</p><p>$A\\cap B=\\{0,1\\}$，故选 B.</p>"
+          "solution": "<p>由 $B=\\{x\\mid |x|<2\\}=(-2,2)$，而 $A=\\{0,1,2,3,4\\}$，所以</p><p>$A\\cap B=\\{0,1\\}$，故选 B.</p>"
         },
         {
           "num": 2,
@@ -77,7 +77,7 @@
             "$\\frac{5\\pi}{6}$"
           ],
           "answer": "A",
-          "solution": "<p>由正弦定理，存在正数 $2R$，使得</p><p>$a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$. 因而</p>\n$$\na\\cos C+c\\cos A  =2R(\\sin A\\cos C+\\sin C\\cos A)  =2R\\sin(A+C)=2R\\sin B=b\n$$\n<p>题设等式化为 $b\\sin B=\\frac{1}{2}b$，所以</p><p>$\\sin B=\\frac{1}{2}$. 由于 $0&#x3C;B&#x3C;\\pi$，故</p><p>$B=\\frac{\\pi}{6}$ 或 $B=\\frac{5\\pi}{6}$.</p><p>又因 $a>b$，由正弦定理得 $\\sin A>\\sin B=\\frac{1}{2}$. 若</p><p>$B=\\frac{5\\pi}{6}$，则 $A&#x3C;\\frac{\\pi}{6}$，从而</p><p>$\\sin A&#x3C;\\frac{1}{2}$，矛盾. 因此</p>\n$$\nB=\\frac{\\pi}{6}\n$$\n<p>故选 A.</p>"
+          "solution": "<p>由正弦定理，存在正数 $2R$，使得</p><p>$a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$. 因而</p>\n$$\na\\cos C+c\\cos A  =2R(\\sin A\\cos C+\\sin C\\cos A)  =2R\\sin(A+C)=2R\\sin B=b\n$$\n<p>题设等式化为 $b\\sin B=\\frac{1}{2}b$，所以</p><p>$\\sin B=\\frac{1}{2}$. 由于 $0<B<\\pi$，故</p><p>$B=\\frac{\\pi}{6}$ 或 $B=\\frac{5\\pi}{6}$.</p><p>又因 $a>b$，由正弦定理得 $\\sin A>\\sin B=\\frac{1}{2}$. 若</p><p>$B=\\frac{5\\pi}{6}$，则 $A<\\frac{\\pi}{6}$，从而</p><p>$\\sin A<\\frac{1}{2}$，矛盾. 因此</p>\n$$\nB=\\frac{\\pi}{6}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 7,
@@ -149,7 +149,7 @@
             "$a^{2} + 2a - 16$"
           ],
           "answer": "B",
-          "solution": "<p>两函数之差为</p>\n$$\nf(x)-g(x)=2\\bigl((x-a)^{2}-4\\bigr)\n$$\n<p>故交点横坐标为 $a-2$ 与 $a+2$，且在区间 $[a-2,a+2]$ 内有 $f\\le g$.</p><p>函数 $H_{1}=\\max\\{f,g\\}$ 在左侧取 $f$，中间取 $g$，右侧取 $f$. 因为</p><p>$f(x)=(x-a-2)^{2}-4a-4$，其在右侧交点处取得最小值，故</p>\n$$\nA=H_{1}(a+2)=f(a+2)=-4a-4\n$$\n<p>函数 $H_{2}=\\min\\{f,g\\}$ 在中间取 $f$，两侧取 $g$. 在中间区间上，$f$</p><p>在左端点取得最大值；左侧的 $g$ 也在左端点取得最大值，而右侧的 $g$ 在右端点取得最大值</p><p>$g(a+2)=-4a-4&#x3C;12-4a$，因此</p>\n$$\nB=H_{2}(a-2)=f(a-2)=g(a-2)=12-4a\n$$\n<p>所以</p>\n$$\nA-B=(-4a-4)-(12-4a)=-16\n$$\n<p>故选 B.</p>"
+          "solution": "<p>两函数之差为</p>\n$$\nf(x)-g(x)=2\\bigl((x-a)^{2}-4\\bigr)\n$$\n<p>故交点横坐标为 $a-2$ 与 $a+2$，且在区间 $[a-2,a+2]$ 内有 $f\\le g$.</p><p>函数 $H_{1}=\\max\\{f,g\\}$ 在左侧取 $f$，中间取 $g$，右侧取 $f$. 因为</p><p>$f(x)=(x-a-2)^{2}-4a-4$，其在右侧交点处取得最小值，故</p>\n$$\nA=H_{1}(a+2)=f(a+2)=-4a-4\n$$\n<p>函数 $H_{2}=\\min\\{f,g\\}$ 在中间取 $f$，两侧取 $g$. 在中间区间上，$f$</p><p>在左端点取得最大值；左侧的 $g$ 也在左端点取得最大值，而右侧的 $g$ 在右端点取得最大值</p><p>$g(a+2)=-4a-4<12-4a$，因此</p>\n$$\nB=H_{2}(a-2)=f(a-2)=g(a-2)=12-4a\n$$\n<p>所以</p>\n$$\nA-B=(-4a-4)-(12-4a)=-16\n$$\n<p>故选 B.</p>"
         }
       ]
     },
@@ -248,7 +248,7 @@
           "body": "<p>已知函数 $f(x) = |x - a|$，其中 $a > 1$.</p><ol class=\"enumerate\"><li><p>当 $a = 2$ 时，求不等式 $f(x) \\ge 4 - |x - 4|$ 的解集；</p></li><li><p>已知关于 $x$ 的不等式 $\\left|f(2x + a) - 2f(x)\\right| \\le 2$ 的解集为 $\\{x \\mid 1 \\le x \\le 2\\}$，求 $a$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，分三段讨论.</p><p>当 $x\\leqslant2$ 时，原不等式为</p>\n$$\n2-x\\ge x\n$$\n<p>得 $x\\leqslant1$. 当 $2\\le x\\leqslant4$ 时，原不等式为</p><p>$x-2\\ge x$，无解. 当 $x\\geqslant4$ 时，原不等式为</p>\n$$\nx-2\\geqslant8-x\n$$\n<p>得 $x\\geqslant5$. 所以解集为</p>\n$$\n(-\\infty,1]\\cup[5,+\\infty)\n$$\n</li><li><p>因 $a>1$，有</p>\n$$\nf(2x+a)=|2x|=2|x|\n$$\n<p>题设不等式等价于</p>\n$$\n\\left||x|-|x-a|\\right|\\leqslant1\n$$\n<p>当 $x&#x3C;0$ 时，$|x|=-x$，$|x-a|=a-x$，左边等于 $a>1$，无解.</p><p>当 $0\\le x\\le a$ 时，左边为 $|2x-a|$，所以</p>\n$$\n\\frac{a-1}{2}\\le x\\le\\frac{a+1}{2}\n$$\n<p>当 $x\\ge a$ 时，左边等于 $a>1$，也无解. 因而解集为</p>\n$$\n\\left[\\frac{a-1}{2},\\frac{a+1}{2}\\right]\n$$\n<p>与题设的 $[1,2]$ 相同，故 $a=3$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，分三段讨论.</p><p>当 $x\\leqslant2$ 时，原不等式为</p>\n$$\n2-x\\ge x\n$$\n<p>得 $x\\leqslant1$. 当 $2\\le x\\leqslant4$ 时，原不等式为</p><p>$x-2\\ge x$，无解. 当 $x\\geqslant4$ 时，原不等式为</p>\n$$\nx-2\\geqslant8-x\n$$\n<p>得 $x\\geqslant5$. 所以解集为</p>\n$$\n(-\\infty,1]\\cup[5,+\\infty)\n$$\n</li><li><p>因 $a>1$，有</p>\n$$\nf(2x+a)=|2x|=2|x|\n$$\n<p>题设不等式等价于</p>\n$$\n\\left||x|-|x-a|\\right|\\leqslant1\n$$\n<p>当 $x<0$ 时，$|x|=-x$，$|x-a|=a-x$，左边等于 $a>1$，无解.</p><p>当 $0\\le x\\le a$ 时，左边为 $|2x-a|$，所以</p>\n$$\n\\frac{a-1}{2}\\le x\\le\\frac{a+1}{2}\n$$\n<p>当 $x\\ge a$ 时，左边等于 $a>1$，也无解. 因而解集为</p>\n$$\n\\left[\\frac{a-1}{2},\\frac{a+1}{2}\\right]\n$$\n<p>与题设的 $[1,2]$ 相同，故 $a=3$.</p></li></ol>"
         }
       ]
     }

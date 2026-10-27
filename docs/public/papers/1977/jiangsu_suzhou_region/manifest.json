@@ -117,7 +117,7 @@
           "body": "<p>在 $\\triangle ABC$ 中，$\\angle A=45^{\\circ}$，$AB+AC=10\\mathrm{~cm}$.</p><ol class=\"enumerate\"><li><p>用公式法表示 $\\triangle ABC$ 的面积 $S$ 与一边长 $AB$（$x$）之间的函数关系；</p></li><li><p>$x$ 为何值时 $S$ 为最大；</p></li><li><p>求 $S$ 的最大值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设 $AB=x$，则 $AC=10-x$. 因为三角形两边长均为正，所以定义域为 $0&#x3C;x&#x3C;10$.</p><ol class=\"enumerate\"><li><p>由三角形面积公式，$S=\\dfrac{1}{2}AB\\cdot AC\\cdot\\sin A$，所以 $S=\\dfrac{1}{2}x(10-x)\\sin45^{\\circ}=\\dfrac{\\sqrt{2}}{4}x(10-x)$.</p></li><li><p>配方得 $S=\\dfrac{\\sqrt{2}}{4}\\left[25-(x-5)^{2}\\right]$. 因为 $(x-5)^{2}\\geqslant0$，所以 $S\\le\\dfrac{25\\sqrt{2}}{4}$. 又 $x=5$ 属于定义域，故当且仅当 $x=5$ 时，$S$ 取得最大值.</p></li><li><p>当 $x=5$，即 $AB=5\\mathrm{~cm}$、$AC=5\\mathrm{~cm}$ 时，$S$ 的最大值为 $\\dfrac{25\\sqrt{2}}{4}\\mathrm{~cm}^{2}$.</p></li></ol>"
+          "solution": "<p>设 $AB=x$，则 $AC=10-x$. 因为三角形两边长均为正，所以定义域为 $0<x<10$.</p><ol class=\"enumerate\"><li><p>由三角形面积公式，$S=\\dfrac{1}{2}AB\\cdot AC\\cdot\\sin A$，所以 $S=\\dfrac{1}{2}x(10-x)\\sin45^{\\circ}=\\dfrac{\\sqrt{2}}{4}x(10-x)$.</p></li><li><p>配方得 $S=\\dfrac{\\sqrt{2}}{4}\\left[25-(x-5)^{2}\\right]$. 因为 $(x-5)^{2}\\geqslant0$，所以 $S\\le\\dfrac{25\\sqrt{2}}{4}$. 又 $x=5$ 属于定义域，故当且仅当 $x=5$ 时，$S$ 取得最大值.</p></li><li><p>当 $x=5$，即 $AB=5\\mathrm{~cm}$、$AC=5\\mathrm{~cm}$ 时，$S$ 的最大值为 $\\dfrac{25\\sqrt{2}}{4}\\mathrm{~cm}^{2}$.</p></li></ol>"
         },
         {
           "num": 17,

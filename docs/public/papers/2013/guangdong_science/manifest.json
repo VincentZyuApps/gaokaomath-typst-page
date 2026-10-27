@@ -93,7 +93,7 @@
         },
         {
           "num": 8,
-          "body": "<p>设整数 $n \\ge 4$，集合 $X = \\{1, 2, 3, \\cdots, n\\}$.</p><p>令集合 $S = \\{(x, y, z) \\mid x, y, z \\in X,\\ \\text{且三条件 }x &#x3C; y &#x3C; z, y &#x3C; z &#x3C; x, z &#x3C; x &#x3C; y \\text{ 恰有一个成立}\\}$，若 $(x, y, z)$ 和 $(z, w, x)$ 都在 $S$ 中，则下列选项正确的是（ ）</p>",
+          "body": "<p>设整数 $n \\ge 4$，集合 $X = \\{1, 2, 3, \\cdots, n\\}$.</p><p>令集合 $S = \\{(x, y, z) \\mid x, y, z \\in X,\\ \\text{且三条件 }x < y < z, y < z < x, z < x < y \\text{ 恰有一个成立}\\}$，若 $(x, y, z)$ 和 $(z, w, x)$ 都在 $S$ 中，则下列选项正确的是（ ）</p>",
           "choices": [
             "$(y, z, w) \\in S, (x, y, w) \\notin S$",
             "$(y, z, w) \\in S$，$(x, y, w) \\in S$",
@@ -101,7 +101,7 @@
             "$(y,z,w)\\notin S$，$(x,y,w)\\notin S$"
           ],
           "answer": "B.",
-          "solution": "<p>由 $(x,y,z)\\in S$，三个数互不相等. 分三种循环顺序讨论. 若 $x&#x3C;y&#x3C;z$，由 $(z,w,x)\\in S$ 可知 $w&#x3C;x$ 或 $w>z$. 当 $w&#x3C;x&#x3C;y&#x3C;z$ 时，$w&#x3C;y&#x3C;z$ 和 $w&#x3C;x&#x3C;y$ 分别说明 $(y,z,w)\\in S$ 和 $(x,y,w)\\in S$；当 $x&#x3C;y&#x3C;z&#x3C;w$ 时，$y&#x3C;z&#x3C;w$ 和 $x&#x3C;y&#x3C;w$ 分别说明这两个三元组也都属于 $S$.</p><p>若 $y&#x3C;z&#x3C;x$，由 $(z,w,x)\\in S$ 必有 $z&#x3C;w&#x3C;x$. 于是 $y&#x3C;z&#x3C;w&#x3C;x$，从而 $y&#x3C;z&#x3C;w$ 以及 $y&#x3C;w&#x3C;x$ 成立，故 $(y,z,w)\\in S$ 且 $(x,y,w)\\in S$. 若 $z&#x3C;x&#x3C;y$，同理由 $(z,w,x)\\in S$ 得 $z&#x3C;w&#x3C;x&#x3C;y$，此时 $z&#x3C;w&#x3C;y$ 以及 $w&#x3C;x&#x3C;y$ 成立，故两个三元组仍都属于 $S$. 因此正确选项为 B.</p>"
+          "solution": "<p>由 $(x,y,z)\\in S$，三个数互不相等. 分三种循环顺序讨论. 若 $x<y<z$，由 $(z,w,x)\\in S$ 可知 $w<x$ 或 $w>z$. 当 $w<x<y<z$ 时，$w<y<z$ 和 $w<x<y$ 分别说明 $(y,z,w)\\in S$ 和 $(x,y,w)\\in S$；当 $x<y<z<w$ 时，$y<z<w$ 和 $x<y<w$ 分别说明这两个三元组也都属于 $S$.</p><p>若 $y<z<x$，由 $(z,w,x)\\in S$ 必有 $z<w<x$. 于是 $y<z<w<x$，从而 $y<z<w$ 以及 $y<w<x$ 成立，故 $(y,z,w)\\in S$ 且 $(x,y,w)\\in S$. 若 $z<x<y$，同理由 $(z,w,x)\\in S$ 得 $z<w<x<y$，此时 $z<w<y$ 以及 $w<x<y$ 成立，故两个三元组仍都属于 $S$. 因此正确选项为 B.</p>"
         }
       ]
     },
@@ -110,7 +110,7 @@
       "problems": [
         {
           "num": 9,
-          "body": "不等式 $x^{2}+ x - 2 &#x3C; 0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "不等式 $x^{2}+ x - 2 < 0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$(-2,1)$.",
           "solution": "因式分解得 $x^{2}+x-2=(x+2)(x-1)$. 两根为 $-2$ 和 $1$，二次项系数为正，所以乘积小于零时 $x$ 在两根之间，即解集为 $(-2,1)$."
@@ -172,7 +172,7 @@
           "body": "<p>已知函数 $f(x) = \\sqrt{2}\\cos\\left(x - \\frac{\\pi}{12}\\right)$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>求 $f\\left(-\\frac{\\pi}{6}\\right)$ 的值.</p></li><li><p>若 $\\cos \\theta = \\frac{3}{5}$，$\\theta \\in \\left(\\frac{3\\pi}{2}, 2\\pi\\right)$，求 $f\\left(2\\theta + \\frac{\\pi}{3}\\right)$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>$f\\left(-\\frac{\\pi}{6}\\right)=\\sqrt{2}\\cos\\left(-\\frac{\\pi}{6}-\\frac{\\pi}{12}\\right)=\\sqrt{2}\\cos\\left(-\\frac{\\pi}{4}\\right)=1$.</p></li><li><p>因为 $\\theta\\in(\\frac{3\\pi}{2},2\\pi)$，所以 $\\sin\\theta&#x3C;0$. 由 $\\cos\\theta=\\frac{3}{5}$，得 $\\sin\\theta=-\\frac{4}{5}$，从而 $\\cos2\\theta=2\\cos^{2}\\theta-1=-\\frac{7}{25}$，$\\sin2\\theta=2\\sin\\theta\\cos\\theta=-\\frac{24}{25}$. 因此</p><p>$f\\left(2\\theta+\\frac{\\pi}{3}\\right)=\\sqrt{2}\\cos\\left(2\\theta+\\frac{\\pi}{4}\\right)=\\sqrt{2}\\left(\\cos2\\theta\\cos\\frac{\\pi}{4}-\\sin2\\theta\\sin\\frac{\\pi}{4}\\right)=\\frac{17}{25}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>$f\\left(-\\frac{\\pi}{6}\\right)=\\sqrt{2}\\cos\\left(-\\frac{\\pi}{6}-\\frac{\\pi}{12}\\right)=\\sqrt{2}\\cos\\left(-\\frac{\\pi}{4}\\right)=1$.</p></li><li><p>因为 $\\theta\\in(\\frac{3\\pi}{2},2\\pi)$，所以 $\\sin\\theta<0$. 由 $\\cos\\theta=\\frac{3}{5}$，得 $\\sin\\theta=-\\frac{4}{5}$，从而 $\\cos2\\theta=2\\cos^{2}\\theta-1=-\\frac{7}{25}$，$\\sin2\\theta=2\\sin\\theta\\cos\\theta=-\\frac{24}{25}$. 因此</p><p>$f\\left(2\\theta+\\frac{\\pi}{3}\\right)=\\sqrt{2}\\cos\\left(2\\theta+\\frac{\\pi}{4}\\right)=\\sqrt{2}\\left(\\cos2\\theta\\cos\\frac{\\pi}{4}-\\sin2\\theta\\sin\\frac{\\pi}{4}\\right)=\\frac{17}{25}$.</p></li></ol>"
         },
         {
           "num": 17,
@@ -190,10 +190,10 @@
         },
         {
           "num": 19,
-          "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，已知 $a_{1}= 1$，$\\frac{2S_{n}}{n}= a_{n+1}- \\frac{1}{3}n^{2}- n - \\frac{2}{3}$，$n \\in \\mathbb{N}^{*}$.</p><ol class=\"enumerate\"><li><p>求 $a_{2}$ 的值.</p></li><li><p>求数列 $\\{a_{n}\\}$ 的通项公式.</p></li><li><p>证明：对一切正整数 $n$，有 $\\frac{1}{a_{1}}+ \\frac{1}{a_{2}}+ \\cdots + \\frac{1}{a_{n}}&#x3C; \\frac{7}{4}$.</p></li></ol>",
+          "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，已知 $a_{1}= 1$，$\\frac{2S_{n}}{n}= a_{n+1}- \\frac{1}{3}n^{2}- n - \\frac{2}{3}$，$n \\in \\mathbb{N}^{*}$.</p><ol class=\"enumerate\"><li><p>求 $a_{2}$ 的值.</p></li><li><p>求数列 $\\{a_{n}\\}$ 的通项公式.</p></li><li><p>证明：对一切正整数 $n$，有 $\\frac{1}{a_{1}}+ \\frac{1}{a_{2}}+ \\cdots + \\frac{1}{a_{n}}< \\frac{7}{4}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>取 $n=1$，由 $S_{1}=a_{1}=1$ 得 $2=a_{2}-\\frac{1}{3}-1-\\frac{2}{3}=a_{2}-2$，所以 $a_{2}=4$.</p></li><li><p>将已知关系写成 $2S_{n}=na_{n+1}-\\frac{n(n+1)(n+2)}{3}$. 当 $n\\geqslant2$ 时，与 $n-1$ 时的关系相减，利用 $S_{n}-S_{n-1}=a_{n}$，得</p><p>$2a_{n}=na_{n+1}-(n-1)a_{n}-n(n+1)$，即 $na_{n+1}=(n+1)a_{n}+n(n+1)$. 因此 $\\frac{a_{n+1}}{n+1}=\\frac{a_{n}}{n}+1$. 又 $\\frac{a_{2}}{2}=2=\\frac{a_{1}}{1}+1$，所以令 $b_{n}=\\frac{a_{n}}{n}$，有 $b_{1}=1$，且 $b_{n+1}=b_{n}+1$，从而 $b_{n}=n$，故 $a_{n}=n^{2}$.</p></li><li><p>由上式，原不等式等价于证明 $\\sum_{k=1}^{n}\\frac{1}{k^{2}}&#x3C;\\frac{7}{4}$. 当 $n=1$，$2$ 时，左端分别为 $1$ 和 $\\frac{5}{4}$，结论成立. 当 $n\\geqslant3$ 时，对 $k\\geqslant3$，有 $\\frac{1}{k^{2}}&#x3C;\\frac{1}{k(k-1)}=\\frac{1}{k-1}-\\frac{1}{k}$，所以</p><p>$\\sum_{k=1}^{n}\\frac{1}{k^{2}}&#x3C;1+\\frac{1}{4}+\\sum_{k=3}^{n}\\left(\\frac{1}{k-1}-\\frac{1}{k}\\right)=\\frac{5}{4}+\\frac{1}{2}-\\frac{1}{n}=\\frac{7}{4}-\\frac{1}{n}&#x3C;\\frac{7}{4}$. 故对一切正整数 $n$ 均有结论成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>取 $n=1$，由 $S_{1}=a_{1}=1$ 得 $2=a_{2}-\\frac{1}{3}-1-\\frac{2}{3}=a_{2}-2$，所以 $a_{2}=4$.</p></li><li><p>将已知关系写成 $2S_{n}=na_{n+1}-\\frac{n(n+1)(n+2)}{3}$. 当 $n\\geqslant2$ 时，与 $n-1$ 时的关系相减，利用 $S_{n}-S_{n-1}=a_{n}$，得</p><p>$2a_{n}=na_{n+1}-(n-1)a_{n}-n(n+1)$，即 $na_{n+1}=(n+1)a_{n}+n(n+1)$. 因此 $\\frac{a_{n+1}}{n+1}=\\frac{a_{n}}{n}+1$. 又 $\\frac{a_{2}}{2}=2=\\frac{a_{1}}{1}+1$，所以令 $b_{n}=\\frac{a_{n}}{n}$，有 $b_{1}=1$，且 $b_{n+1}=b_{n}+1$，从而 $b_{n}=n$，故 $a_{n}=n^{2}$.</p></li><li><p>由上式，原不等式等价于证明 $\\sum_{k=1}^{n}\\frac{1}{k^{2}}<\\frac{7}{4}$. 当 $n=1$，$2$ 时，左端分别为 $1$ 和 $\\frac{5}{4}$，结论成立. 当 $n\\geqslant3$ 时，对 $k\\geqslant3$，有 $\\frac{1}{k^{2}}<\\frac{1}{k(k-1)}=\\frac{1}{k-1}-\\frac{1}{k}$，所以</p><p>$\\sum_{k=1}^{n}\\frac{1}{k^{2}}<1+\\frac{1}{4}+\\sum_{k=3}^{n}\\left(\\frac{1}{k-1}-\\frac{1}{k}\\right)=\\frac{5}{4}+\\frac{1}{2}-\\frac{1}{n}=\\frac{7}{4}-\\frac{1}{n}<\\frac{7}{4}$. 故对一切正整数 $n$ 均有结论成立.</p></li></ol>"
         },
         {
           "num": 20,
@@ -207,7 +207,7 @@
           "body": "<p>设函数 $f(x) = (x - 1)\\mathrm{e}^{x}- kx^{2}$ （$k \\in \\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>当 $k = 1$ 时，求函数 $f(x)$ 的单调区间.</p></li><li><p>当 $k \\in \\left(\\frac{1}{2}, 1\\right]$ 时，求函数 $f(x)$ 在 $[0, k]$ 上的最大值 $M$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $k=1$ 时，$f'(x)=x\\mathrm{e}^{x}-2x=x(\\mathrm{e}^{x}-2)$. 临界点为 $x=0$ 和 $x=\\ln2$. 当 $x&#x3C;0$ 时，$x&#x3C;0$ 且 $\\mathrm{e}^{x}-2&#x3C;0$，故 $f'(x)>0$；当 $0&#x3C;x&#x3C;\\ln2$ 时，$f'(x)&#x3C;0$；当 $x>\\ln2$ 时，$f'(x)>0$. 所以函数的递增区间为 $(-\\infty,0)$ 和 $(\\ln2,+\\infty)$，递减区间为 $(0,\\ln2)$.</p></li><li><p>对任意给定的 $k\\in(\\frac{1}{2},1]$，有 $f'(x)=x(\\mathrm{e}^{x}-2k)$. 因为 $2k>1$，且由 $\\mathrm{e}^{k}\\geqslant1+k\\geqslant2k$（$k=1$ 时仍有 $\\mathrm{e}>2$），可知 $0&#x3C;\\ln(2k)&#x3C;k$. 因此在 $[0,k]$ 上，函数先减后增，最大值只能在 $x=0$ 或 $x=k$ 处取得. 又 $f(0)=-1$，$f(k)=(k-1)\\mathrm{e}^{k}-k^{3}$. 为比较两端点，令 $g(t)=1+t+t^{2}-\\mathrm{e}^{t}$. 在 $0\\le t\\leqslant1$ 上，$g'(t)=1+2t-\\mathrm{e}^{t}$，且 $g''(t)=2-\\mathrm{e}^{t}$，所以 $g'$ 先增后减；又 $g'(0)=0$，$g'(1)=3-\\mathrm{e}>0$，从而 $g'(t)\\geqslant0$，即 $\\mathrm{e}^{t}\\leqslant1+t+t^{2}$. 于是</p><p>$f(k)-f(0)=1-(1-k)\\mathrm{e}^{k}-k^{3}\\geqslant1-(1-k)(1+k+k^{2})-k^{3}=0$. 所以最大值在 $x=k$ 处取得，且 $M=(k-1)\\mathrm{e}^{k}-k^{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $k=1$ 时，$f'(x)=x\\mathrm{e}^{x}-2x=x(\\mathrm{e}^{x}-2)$. 临界点为 $x=0$ 和 $x=\\ln2$. 当 $x<0$ 时，$x<0$ 且 $\\mathrm{e}^{x}-2<0$，故 $f'(x)>0$；当 $0<x<\\ln2$ 时，$f'(x)<0$；当 $x>\\ln2$ 时，$f'(x)>0$. 所以函数的递增区间为 $(-\\infty,0)$ 和 $(\\ln2,+\\infty)$，递减区间为 $(0,\\ln2)$.</p></li><li><p>对任意给定的 $k\\in(\\frac{1}{2},1]$，有 $f'(x)=x(\\mathrm{e}^{x}-2k)$. 因为 $2k>1$，且由 $\\mathrm{e}^{k}\\geqslant1+k\\geqslant2k$（$k=1$ 时仍有 $\\mathrm{e}>2$），可知 $0<\\ln(2k)<k$. 因此在 $[0,k]$ 上，函数先减后增，最大值只能在 $x=0$ 或 $x=k$ 处取得. 又 $f(0)=-1$，$f(k)=(k-1)\\mathrm{e}^{k}-k^{3}$. 为比较两端点，令 $g(t)=1+t+t^{2}-\\mathrm{e}^{t}$. 在 $0\\le t\\leqslant1$ 上，$g'(t)=1+2t-\\mathrm{e}^{t}$，且 $g''(t)=2-\\mathrm{e}^{t}$，所以 $g'$ 先增后减；又 $g'(0)=0$，$g'(1)=3-\\mathrm{e}>0$，从而 $g'(t)\\geqslant0$，即 $\\mathrm{e}^{t}\\leqslant1+t+t^{2}$. 于是</p><p>$f(k)-f(0)=1-(1-k)\\mathrm{e}^{k}-k^{3}\\geqslant1-(1-k)(1+k+k^{2})-k^{3}=0$. 所以最大值在 $x=k$ 处取得，且 $M=(k-1)\\mathrm{e}^{k}-k^{3}$.</p></li></ol>"
         }
       ]
     }

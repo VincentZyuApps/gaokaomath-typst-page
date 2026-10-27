@@ -33,15 +33,15 @@
         },
         {
           "num": 3,
-          "body": "不等式 $\\left|\\frac{x + 1}{x - 1}\\right| &#x3C; 1$ 的解集为（ ）",
+          "body": "不等式 $\\left|\\frac{x + 1}{x - 1}\\right| < 1$ 的解集为（ ）",
           "choices": [
-            "$\\{x\\mid 0 &#x3C; x &#x3C; 1\\} \\cup \\{x\\mid x > 1\\}$",
-            "$\\{x\\mid 0 &#x3C; x &#x3C; 1\\}$",
-            "$\\{x\\mid -1 &#x3C; x &#x3C; 0\\}$",
-            "$\\{x\\mid x &#x3C; 0\\}$"
+            "$\\{x\\mid 0 < x < 1\\} \\cup \\{x\\mid x > 1\\}$",
+            "$\\{x\\mid 0 < x < 1\\}$",
+            "$\\{x\\mid -1 < x < 0\\}$",
+            "$\\{x\\mid x < 0\\}$"
           ],
           "answer": "D",
-          "solution": "<p>定义域要求 $x\\ne1$. 在此条件下，原不等式等价于</p><p>$\\lvert x+1\\rvert&#x3C;\\lvert x-1\\rvert$，两边平方得</p><p>$x^{2}+2x+1&#x3C;x^{2}-2x+1$，即 $x&#x3C;0$. 因此解集为</p><p>$\\{x\\mid x&#x3C;0\\}$，故选 D.</p>"
+          "solution": "<p>定义域要求 $x\\ne1$. 在此条件下，原不等式等价于</p><p>$\\lvert x+1\\rvert<\\lvert x-1\\rvert$，两边平方得</p><p>$x^{2}+2x+1<x^{2}-2x+1$，即 $x<0$. 因此解集为</p><p>$\\{x\\mid x<0\\}$，故选 D.</p>"
         },
         {
           "num": 4,
@@ -179,10 +179,10 @@
         },
         {
           "num": 16,
-          "body": "若 $\\frac{\\pi}{4}&#x3C; x &#x3C; \\frac{\\pi}{2}$，则函数 $y = \\tan 2x \\tan^{3} x$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "若 $\\frac{\\pi}{4}< x < \\frac{\\pi}{2}$，则函数 $y = \\tan 2x \\tan^{3} x$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$-8$",
-          "solution": "<p>在 $\\frac{\\pi}{4}&#x3C;x&#x3C;\\frac{\\pi}{2}$ 内令 $t=\\tan x$，则 $t>1$，且</p>\n$$\ny=\\tan2x\\tan^{3}x=\\frac{2t}{1-t^{2}}t^{3}=-\\frac{2t^{4}}{t^{2}-1}\n$$\n<p>令 $u=t^{2}-1>0$，则</p>\n$$\ny=-2\\left(u+2+\\frac{1}{u}\\right)\\le-2(2+2)=-8\n$$\n<p>其中使用了 $u+\\frac{1}{u}\\geqslant2$. 当 $u=1$，即 $t=\\sqrt{2}$ 时取等号，且此时的 $x$ 在给定区间内. 所以最大值为 $-8$.</p>"
+          "solution": "<p>在 $\\frac{\\pi}{4}<x<\\frac{\\pi}{2}$ 内令 $t=\\tan x$，则 $t>1$，且</p>\n$$\ny=\\tan2x\\tan^{3}x=\\frac{2t}{1-t^{2}}t^{3}=-\\frac{2t^{4}}{t^{2}-1}\n$$\n<p>令 $u=t^{2}-1>0$，则</p>\n$$\ny=-2\\left(u+2+\\frac{1}{u}\\right)\\le-2(2+2)=-8\n$$\n<p>其中使用了 $u+\\frac{1}{u}\\geqslant2$. 当 $u=1$，即 $t=\\sqrt{2}$ 时取等号，且此时的 $x$ 在给定区间内. 所以最大值为 $-8$.</p>"
         }
       ]
     },
@@ -208,7 +208,7 @@
           "body": "<p>甲，乙二人进行一次围棋比赛，约定先胜 $3\\text{ 局}$者获得这次比赛的胜利，比赛结束. 假设在一局中，甲获胜的概率为 $0.6$，乙获胜的概率为 $0.4$，各局比赛结果相互独立，已知前 $2\\text{ 局}$中，甲，乙各胜 $1\\text{ 局}$.</p><ol class=\"enumerate\"><li><p>求甲获得这次比赛胜利的概率；</p></li><li><p>设 $\\xi$ 表示从第 $3\\text{ 局}$开始到比赛结束所进行的局数，求 $\\xi$ 的分布列及数学期望.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>前 $2$ 局中甲、乙各胜 $1$ 局，所以从第 $3$ 局开始，甲、乙都还需要胜 $2$ 局才能获胜. 记甲、乙在一局中获胜的概率分别为 $p=0.6=\\frac{3}{5}$，$q=0.4=\\frac{2}{5}$.</p><ol class=\"enumerate\"><li><p>甲获胜的互斥情形为：第 $3$、$4$ 局连胜；第 $3$ 局乙胜且第 $4$、$5$ 局甲连胜；第 $3$ 局甲胜、第 $4$ 局乙胜且第 $5$ 局甲胜. 因此</p>\n$$\nP(\\text{甲获胜})=p^{2}+2p\\cdot q\\cdot p=p^{2}+2p^{2}q  =\\left(\\frac{3}{5}\\right)^{2}+2\\left(\\frac{3}{5}\\right)^{2}\\frac{2}{5}=\\frac{81}{125}\n$$\n</li><li><p>从第 $3$ 局开始的前 $2$ 局若均由同一方获胜，比赛在第 $4$ 局结束；若这 $2$ 局甲、乙各胜 $1$ 局，则还需进行第 $5$ 局. 因此</p>\n$$\nP(\\xi=2)=p^{2}+q^{2}  =\\left(\\frac{3}{5}\\right)^{2}+\\left(\\frac{2}{5}\\right)^{2}  =\\frac{13}{25}\n$$\n\n$$\nP(\\xi=3)=2pq  =2\\cdot\\frac{3}{5}\\cdot\\frac{2}{5}=\\frac{12}{25}\n$$\n<p>除 $2$，$3$ 外，$\\xi$ 不取其他值，即</p>\n$$\nP(\\xi=k)=  \\begin{cases}\\dfrac{13}{25},&#x26;k=2,\\\\\n\n\\dfrac{12}{25},&#x26;k=3,\\\\\n\n0,&#x26;\\text{其他}\\end{cases}\n$$\n<p>所以</p>\n$$\nE(\\xi)=2\\cdot\\frac{13}{25}+3\\cdot\\frac{12}{25}=\\frac{62}{25}\n$$\n</li></ol>"
+          "solution": "<p>前 $2$ 局中甲、乙各胜 $1$ 局，所以从第 $3$ 局开始，甲、乙都还需要胜 $2$ 局才能获胜. 记甲、乙在一局中获胜的概率分别为 $p=0.6=\\frac{3}{5}$，$q=0.4=\\frac{2}{5}$.</p><ol class=\"enumerate\"><li><p>甲获胜的互斥情形为：第 $3$、$4$ 局连胜；第 $3$ 局乙胜且第 $4$、$5$ 局甲连胜；第 $3$ 局甲胜、第 $4$ 局乙胜且第 $5$ 局甲胜. 因此</p>\n$$\nP(\\text{甲获胜})=p^{2}+2p\\cdot q\\cdot p=p^{2}+2p^{2}q  =\\left(\\frac{3}{5}\\right)^{2}+2\\left(\\frac{3}{5}\\right)^{2}\\frac{2}{5}=\\frac{81}{125}\n$$\n</li><li><p>从第 $3$ 局开始的前 $2$ 局若均由同一方获胜，比赛在第 $4$ 局结束；若这 $2$ 局甲、乙各胜 $1$ 局，则还需进行第 $5$ 局. 因此</p>\n$$\nP(\\xi=2)=p^{2}+q^{2}  =\\left(\\frac{3}{5}\\right)^{2}+\\left(\\frac{2}{5}\\right)^{2}  =\\frac{13}{25}\n$$\n\n$$\nP(\\xi=3)=2pq  =2\\cdot\\frac{3}{5}\\cdot\\frac{2}{5}=\\frac{12}{25}\n$$\n<p>除 $2$，$3$ 外，$\\xi$ 不取其他值，即</p>\n$$\nP(\\xi=k)=  \\begin{cases}\\dfrac{13}{25},&k=2,\\\\\n\n\\dfrac{12}{25},&k=3,\\\\\n\n0,&\\text{其他}\\end{cases}\n$$\n<p>所以</p>\n$$\nE(\\xi)=2\\cdot\\frac{13}{25}+3\\cdot\\frac{12}{25}=\\frac{62}{25}\n$$\n</li></ol>"
         },
         {
           "num": 20,
@@ -222,7 +222,7 @@
           "body": "<p>如图，已知抛物线 $E: y^{2}= x$ 与圆 $M: \\left(x - 4\\right)^{2}+ y^{2}= r^{2}$ （$r > 0$）相交于 $A$，$B$，$C$，$D$ 四个点.</p><ol class=\"enumerate\"><li><p>求 $r$ 的取值范围；</p></li><li><p>当四边形 $ABCD$ 的面积最大时，求对角线 $AC$，$BD$ 的交点 $P$ 坐标.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_paper_1_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将抛物线 $y^{2}=x$ 代入圆的方程，得</p>\n$$\n\\left(x-4\\right)^{2}+x=r^{2}\n$$\n<p>即</p>\n$$\nx^{2}-7x+16-r^{2}=0\n$$\n<p>要使圆与抛物线有四个交点，上式必须有两个不相等的正根. 其判别式为</p>\n$$\n\\Delta=49-4\\left(16-r^{2}\\right)=4r^{2}-15>0\n$$\n<p>且两根之积为 $16-r^{2}>0$. 因为两根之和为 $7>0$，两根均为正数，所以 $r>\\frac{\\sqrt{15}}{2}$，$r&#x3C;4$，因此 $r$ 的取值范围为 $\\frac{\\sqrt{15}}{2}&#x3C;r&#x3C;4$.</p></li><li><p>设上述二次方程的两个根为 $x_{1}$，$x_{2}$，且 $0&#x3C;x_{1}&#x3C;x_{2}$. 设 $u=\\sqrt{x_{1}}$，$v=\\sqrt{x_{2}}$，则四个交点可表示为 $A(x_{1},u)$，$B(x_{1},-u)$，$D(x_{2},v)$，$C(x_{2},-v)$.</p><p>由韦达定理，得 $x_{1}+x_{2}=7$，所以 $u^{2}+v^{2}=7$. 四边形 $ABCD$ 的两条平行边为 $AB=2u$，$CD=2v$，两平行边之间的距离为 $x_{2}-x_{1}=v^{2}-u^{2}$，故其面积为</p>\n$$\nS=\\frac{1}{2}\\left(2u+2v\\right)\\left(v^{2}-u^{2}\\right)=\\left(u+v\\right)^{2}(v-u)\n$$\n<p>令 $d=v-u$，则 $d>0$，并且</p>\n$$\n\\left(u+v\\right)^{2}+\\left(v-u\\right)^{2}=2\\left(u^{2}+v^{2}\\right)=14\n$$\n<p>于是</p>\n$$\nS=\\left(14-d^{2}\\right)d=14d-d^{3}\n$$\n<p>当 $0&#x3C;d&#x3C;\\sqrt{7}$ 时，</p>\n$$\nS'=14-3d^{2}\n$$\n<p>所以当 $d^{2}=\\frac{14}{3}$ 时，$S$ 取得最大值. 此时</p>\n$$\n\\left(u+v\\right)^{2}=14-\\frac{14}{3}=\\frac{28}{3}\n$$\n<p>由图形关于 $x$ 轴对称，且两条对角线关于 $x$ 轴互为对称图形，故其交点 $P$ 在 $x$ 轴上. 直线 $AC$ 与 $x$ 轴交点的横坐标为</p>\n$$\nx_{P}=x_{1}+\\frac{x_{2}-x_{1}}{u+v}u  =u^{2}+\\frac{(v-u)(v+u)}{u+v}u  =uv\n$$\n<p>又</p>\n$$\nuv=\\frac{(u+v)^{2}-(v-u)^{2}}{4}=\\frac{\\frac{28}{3}-\\frac{14}{3}}{4}=\\frac{7}{6}\n$$\n<p>因此</p>\n$$\nP\\left(\\frac{7}{6},0\\right)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将抛物线 $y^{2}=x$ 代入圆的方程，得</p>\n$$\n\\left(x-4\\right)^{2}+x=r^{2}\n$$\n<p>即</p>\n$$\nx^{2}-7x+16-r^{2}=0\n$$\n<p>要使圆与抛物线有四个交点，上式必须有两个不相等的正根. 其判别式为</p>\n$$\n\\Delta=49-4\\left(16-r^{2}\\right)=4r^{2}-15>0\n$$\n<p>且两根之积为 $16-r^{2}>0$. 因为两根之和为 $7>0$，两根均为正数，所以 $r>\\frac{\\sqrt{15}}{2}$，$r<4$，因此 $r$ 的取值范围为 $\\frac{\\sqrt{15}}{2}<r<4$.</p></li><li><p>设上述二次方程的两个根为 $x_{1}$，$x_{2}$，且 $0<x_{1}<x_{2}$. 设 $u=\\sqrt{x_{1}}$，$v=\\sqrt{x_{2}}$，则四个交点可表示为 $A(x_{1},u)$，$B(x_{1},-u)$，$D(x_{2},v)$，$C(x_{2},-v)$.</p><p>由韦达定理，得 $x_{1}+x_{2}=7$，所以 $u^{2}+v^{2}=7$. 四边形 $ABCD$ 的两条平行边为 $AB=2u$，$CD=2v$，两平行边之间的距离为 $x_{2}-x_{1}=v^{2}-u^{2}$，故其面积为</p>\n$$\nS=\\frac{1}{2}\\left(2u+2v\\right)\\left(v^{2}-u^{2}\\right)=\\left(u+v\\right)^{2}(v-u)\n$$\n<p>令 $d=v-u$，则 $d>0$，并且</p>\n$$\n\\left(u+v\\right)^{2}+\\left(v-u\\right)^{2}=2\\left(u^{2}+v^{2}\\right)=14\n$$\n<p>于是</p>\n$$\nS=\\left(14-d^{2}\\right)d=14d-d^{3}\n$$\n<p>当 $0<d<\\sqrt{7}$ 时，</p>\n$$\nS'=14-3d^{2}\n$$\n<p>所以当 $d^{2}=\\frac{14}{3}$ 时，$S$ 取得最大值. 此时</p>\n$$\n\\left(u+v\\right)^{2}=14-\\frac{14}{3}=\\frac{28}{3}\n$$\n<p>由图形关于 $x$ 轴对称，且两条对角线关于 $x$ 轴互为对称图形，故其交点 $P$ 在 $x$ 轴上. 直线 $AC$ 与 $x$ 轴交点的横坐标为</p>\n$$\nx_{P}=x_{1}+\\frac{x_{2}-x_{1}}{u+v}u  =u^{2}+\\frac{(v-u)(v+u)}{u+v}u  =uv\n$$\n<p>又</p>\n$$\nuv=\\frac{(u+v)^{2}-(v-u)^{2}}{4}=\\frac{\\frac{28}{3}-\\frac{14}{3}}{4}=\\frac{7}{6}\n$$\n<p>因此</p>\n$$\nP\\left(\\frac{7}{6},0\\right)\n$$\n</li></ol>"
         },
         {
           "num": 22,

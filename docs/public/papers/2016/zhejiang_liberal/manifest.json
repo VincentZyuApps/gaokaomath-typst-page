@@ -41,7 +41,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang_liberal/q3_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "令 $f(x)=\\sin x^{2}$. 有 $f(-x)=\\sin(-x)^{2}=\\sin x^{2}=f(x)$，所以图象关于 $y$ 轴对称；且 $f(0)=0$. 当 $0&#x3C;x&#x3C;\\sqrt{\\pi}$ 时，$0&#x3C;x^{2}&#x3C;\\pi$，从而 $f(x)>0$，并且在 $x=\\sqrt{\\frac{\\pi}{2}}$ 时取得 $1$，在 $x=\\sqrt{\\pi}$ 时回到 $0$. 因此图象应关于 $y$ 轴对称，在原点处过原点并在两侧形成相同的正弦波形，故选 D."
+          "solution": "令 $f(x)=\\sin x^{2}$. 有 $f(-x)=\\sin(-x)^{2}=\\sin x^{2}=f(x)$，所以图象关于 $y$ 轴对称；且 $f(0)=0$. 当 $0<x<\\sqrt{\\pi}$ 时，$0<x^{2}<\\pi$，从而 $f(x)>0$，并且在 $x=\\sqrt{\\frac{\\pi}{2}}$ 时取得 $1$，在 $x=\\sqrt{\\pi}$ 时回到 $0$. 因此图象应关于 $y$ 轴对称，在原点处过原点并在两侧形成相同的正弦波形，故选 D."
         },
         {
           "num": 4,
@@ -59,17 +59,17 @@
           "num": 5,
           "body": "已知 $a$，$b>0$，且 $a\\ne1$，$b\\ne1$，若 $\\log_{a} b>1$，则（ ）",
           "choices": [
-            "$(a-1)(b-1)&#x3C;0$",
+            "$(a-1)(b-1)<0$",
             "$(a-1)(a-b)>0$",
-            "$(b-1)(b-a)&#x3C;0$",
+            "$(b-1)(b-a)<0$",
             "$(b-1)(b-a)>0$"
           ],
           "answer": "D",
-          "solution": "<p>若 $a>1$，则对数函数 $\\log_{a} x$ 递增，由 $\\log_{a} b>\\log_{a} a=1$ 得 $b>a>1$. 若 $0&#x3C;a&#x3C;1$，则对数函数递减，由 $\\log_{a} b>\\log_{a} a=1$ 得 $0&#x3C;b&#x3C;a&#x3C;1$. 因此总有</p>\n$$\n(b-1)(b-a)>0\n$$\n<p>故选 D.</p>"
+          "solution": "<p>若 $a>1$，则对数函数 $\\log_{a} x$ 递增，由 $\\log_{a} b>\\log_{a} a=1$ 得 $b>a>1$. 若 $0<a<1$，则对数函数递减，由 $\\log_{a} b>\\log_{a} a=1$ 得 $0<b<a<1$. 因此总有</p>\n$$\n(b-1)(b-a)>0\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 6,
-          "body": "已知函数 $f(x)=x^{2}+bx$，则“$b&#x3C;0$”是“$f(f(x))$ 的最小值与 $f(x)$ 的最小值相等”的（ ）",
+          "body": "已知函数 $f(x)=x^{2}+bx$，则“$b<0$”是“$f(f(x))$ 的最小值与 $f(x)$ 的最小值相等”的（ ）",
           "choices": [
             "<span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">充分不必要条件</span></span>",
             "<span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">必要不充分条件</span></span>",
@@ -77,7 +77,7 @@
             "<span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">既不充分也不必要条件</span></span>"
           ],
           "answer": "A",
-          "solution": "<p>记 $m=\\min f(x)=-\\dfrac{b^2}{4}$，且</p>\n$$\nf(x)=\\left(x+\\frac{b}{2}\\right)^{2}-\\frac{b^{2}}{4},\\qquad f(\\mathbb{R})=[m,+\\infty)\n$$\n<p>当 $b&#x3C;0$ 时，二次函数 $f$ 的顶点横坐标 $-\\frac{b}{2}>0$，而 $m&#x3C;0$，所以顶点属于区间 $[m,+\\infty)$. 于是</p>\n$$\n\\min f(f(x))=\\min_{y\\ge m}f(y)=m=\\min f(x)\n$$\n<p>说明“$b&#x3C;0$”是题述相等关系的充分条件.</p><p>但取 $b=0$ 时，$f(x)=x^{2}$，从而 $\\min f(x)=0$，且 $f(f(x))=x^{4}$，也有 $\\min f(f(x))=0$，而此时 $b&#x3C;0$ 不成立. 因此该条件不是必要条件，故选 A.</p>"
+          "solution": "<p>记 $m=\\min f(x)=-\\dfrac{b^2}{4}$，且</p>\n$$\nf(x)=\\left(x+\\frac{b}{2}\\right)^{2}-\\frac{b^{2}}{4},\\qquad f(\\mathbb{R})=[m,+\\infty)\n$$\n<p>当 $b<0$ 时，二次函数 $f$ 的顶点横坐标 $-\\frac{b}{2}>0$，而 $m<0$，所以顶点属于区间 $[m,+\\infty)$. 于是</p>\n$$\n\\min f(f(x))=\\min_{y\\ge m}f(y)=m=\\min f(x)\n$$\n<p>说明“$b<0$”是题述相等关系的充分条件.</p><p>但取 $b=0$ 时，$f(x)=x^{2}$，从而 $\\min f(x)=0$，且 $f(f(x))=x^{4}$，也有 $\\min f(f(x))=0$，而此时 $b<0$ 不成立. 因此该条件不是必要条件，故选 A.</p>"
         },
         {
           "num": 7,
@@ -141,7 +141,7 @@
           "body": "设双曲线 $x^{2}-\\dfrac{y^2}{3}=1$ 的左，右焦点分别为 $F_{1}$，$F_{2}$，若点 $P$ 在双曲线上，且 $\\triangle F_{1}PF_{2}$ 为锐角三角形，则 $|PF_{1}|+|PF_{2}|$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(2\\sqrt{7},8\\right)$",
-          "solution": "<p>双曲线的焦距参数满足 $a_{0}^{2}=1$，$b_{0}^{2}=3$，所以 $c^{2}=a_{0}^{2}+b_{0}^{2}=4$，两个焦点间距离为 $F_{1}F_{2}=4$. 记</p><p>$r_{1}=|PF_{1}|$，$r_{2}=|PF_{2}|$.</p><p>由双曲线的定义，$|r_{2}-r_{1}|=2$. 不妨设 $r_{2}=r_{1}+2$，记 $r_{1}=r>0$. 此时三角形三边为 $r$，$r+2$，$4$.</p><p>三角形为锐角三角形，当且仅当每一边的平方小于另外两边平方和. 其中非平凡的两个条件为</p><p>$r^{2}+(r+2)^{2}>4^{2}$，$r^{2}+4^{2}>(r+2)^{2}$.</p><p>它们分别化为</p><p>$r^{2}+2r-6>0$，$\\Longrightarrow$，$r>\\sqrt{7}-1$</p><p>以及</p><p>$16>4r+4$，$\\Longrightarrow$，$r&#x3C;3$.</p><p>第三个不等式自动成立. 因而</p>\n$$\n|PF_{1}|+|PF_{2}|=2r+2\\in\\left(2\\sqrt{7},8\\right)\n$$\n<p>端点分别对应直角三角形，不能取到，故取值范围为 $\\left(2\\sqrt{7},8\\right)$.</p>"
+          "solution": "<p>双曲线的焦距参数满足 $a_{0}^{2}=1$，$b_{0}^{2}=3$，所以 $c^{2}=a_{0}^{2}+b_{0}^{2}=4$，两个焦点间距离为 $F_{1}F_{2}=4$. 记</p><p>$r_{1}=|PF_{1}|$，$r_{2}=|PF_{2}|$.</p><p>由双曲线的定义，$|r_{2}-r_{1}|=2$. 不妨设 $r_{2}=r_{1}+2$，记 $r_{1}=r>0$. 此时三角形三边为 $r$，$r+2$，$4$.</p><p>三角形为锐角三角形，当且仅当每一边的平方小于另外两边平方和. 其中非平凡的两个条件为</p><p>$r^{2}+(r+2)^{2}>4^{2}$，$r^{2}+4^{2}>(r+2)^{2}$.</p><p>它们分别化为</p><p>$r^{2}+2r-6>0$，$\\Longrightarrow$，$r>\\sqrt{7}-1$</p><p>以及</p><p>$16>4r+4$，$\\Longrightarrow$，$r<3$.</p><p>第三个不等式自动成立. 因而</p>\n$$\n|PF_{1}|+|PF_{2}|=2r+2\\in\\left(2\\sqrt{7},8\\right)\n$$\n<p>端点分别对应直角三角形，不能取到，故取值范围为 $\\left(2\\sqrt{7},8\\right)$.</p>"
         },
         {
           "num": 14,
@@ -174,7 +174,7 @@
           "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，已知 $S_{2}=4$，$a_{n+1}=2S_{n}+1$，$n\\in\\mathbb{N}^{*}$.</p><ol class=\"enumerate\"><li><p>求通项公式 $a_{n}$；</p></li><li><p>求数列 $\\{|a_{n}-n-2|\\}$ 的前 $n$ 项和.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记 $S_{1}=a_{1}$. 由 $a_{2}=2S_{1}+1$ 及 $S_{2}=S_{1}+a_{2}=4$，得</p><p>$3S_{1}+1=4$，$S_{1}=a_{1}=1$.</p><p>对任意 $n\\in\\mathbb{N}^{*}$，由递推关系得</p>\n$$\nS_{n+1}=S_{n}+a_{n+1}=3S_{n}+1\n$$\n<p>于是 $S_{n+1}+\\frac{1}{2}=3\\left(S_{n}+\\frac{1}{2}\\right)$. 结合 $S_{1}=1$，可得</p>\n$$\nS_{n}+\\frac{1}{2}=3^{n-1}\\left(S_{1}+\\frac{1}{2}\\right)=\\frac{3^{n}}{2}\n$$\n<p>即 $S_{n}=\\frac{3^{n}-1}{2}$. 因此 $a_{1}=1$，且对 $n\\geqslant2$，</p>\n$$\na_{n}=S_{n}-S_{n-1}=\\frac{3^{n}-1}{2}-\\frac{3^{n-1}-1}{2}=3^{n-1}\n$$\n<p>故对一切 $n\\in\\mathbb{N}^{*}$，$a_{n}=3^{n-1}$.</p></li><li><p>由 $a_{1}=1$，$a_{2}=3$，可得</p><p>$|a_{1}-1-2|=2$，$|a_{2}-2-2|=1$.</p><p>当 $k\\geqslant3$ 时，$3^{k-1}>k+2$：当 $k=3$ 时不等式成立；若对某个 $k\\geqslant3$ 成立，则 $3^{k}>3(k+2)>k+3$，所以可由归纳法得证. 因此</p><p>$|a_{k}-k-2|=3^{k-1}-k-2$，（$k\\geqslant3$）.</p><p>当 $n=1$ 或 $n=2$ 时，前 $n$ 项和分别为 $2$ 和 $3$. 当 $n\\geqslant3$ 时，</p>\n$$\n\\sum_{k=1}^{n}|a_{k}-k-2|=3+\\frac{3^{n}-9}{2}-\\left(\\frac{n(n+1)}{2}+2n-7\\right)\n$$\n<p>化简得</p>\n$$\n\\sum_{k=1}^{n}|a_{k}-k-2|=\\frac{3^{n}-n^{2}-5n+11}{2}\n$$\n<p>综上，数列 $\\{|a_{n}-n-2|\\}$ 的前 $n$ 项和为</p>\n$$\n\\sum_{k=1}^{n}|a_{k}-k-2|=  \\begin{cases}2,&#x26;n=1,\\\\  3,&#x26;n=2,\\\\  \\dfrac{3^n-n^2-5n+11}{2},&#x26;n\\geqslant3.\\end{cases}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记 $S_{1}=a_{1}$. 由 $a_{2}=2S_{1}+1$ 及 $S_{2}=S_{1}+a_{2}=4$，得</p><p>$3S_{1}+1=4$，$S_{1}=a_{1}=1$.</p><p>对任意 $n\\in\\mathbb{N}^{*}$，由递推关系得</p>\n$$\nS_{n+1}=S_{n}+a_{n+1}=3S_{n}+1\n$$\n<p>于是 $S_{n+1}+\\frac{1}{2}=3\\left(S_{n}+\\frac{1}{2}\\right)$. 结合 $S_{1}=1$，可得</p>\n$$\nS_{n}+\\frac{1}{2}=3^{n-1}\\left(S_{1}+\\frac{1}{2}\\right)=\\frac{3^{n}}{2}\n$$\n<p>即 $S_{n}=\\frac{3^{n}-1}{2}$. 因此 $a_{1}=1$，且对 $n\\geqslant2$，</p>\n$$\na_{n}=S_{n}-S_{n-1}=\\frac{3^{n}-1}{2}-\\frac{3^{n-1}-1}{2}=3^{n-1}\n$$\n<p>故对一切 $n\\in\\mathbb{N}^{*}$，$a_{n}=3^{n-1}$.</p></li><li><p>由 $a_{1}=1$，$a_{2}=3$，可得</p><p>$|a_{1}-1-2|=2$，$|a_{2}-2-2|=1$.</p><p>当 $k\\geqslant3$ 时，$3^{k-1}>k+2$：当 $k=3$ 时不等式成立；若对某个 $k\\geqslant3$ 成立，则 $3^{k}>3(k+2)>k+3$，所以可由归纳法得证. 因此</p><p>$|a_{k}-k-2|=3^{k-1}-k-2$，（$k\\geqslant3$）.</p><p>当 $n=1$ 或 $n=2$ 时，前 $n$ 项和分别为 $2$ 和 $3$. 当 $n\\geqslant3$ 时，</p>\n$$\n\\sum_{k=1}^{n}|a_{k}-k-2|=3+\\frac{3^{n}-9}{2}-\\left(\\frac{n(n+1)}{2}+2n-7\\right)\n$$\n<p>化简得</p>\n$$\n\\sum_{k=1}^{n}|a_{k}-k-2|=\\frac{3^{n}-n^{2}-5n+11}{2}\n$$\n<p>综上，数列 $\\{|a_{n}-n-2|\\}$ 的前 $n$ 项和为</p>\n$$\n\\sum_{k=1}^{n}|a_{k}-k-2|=  \\begin{cases}2,&n=1,\\\\  3,&n=2,\\\\  \\dfrac{3^n-n^2-5n+11}{2},&n\\geqslant3.\\end{cases}\n$$\n</li></ol>"
         },
         {
           "num": 18,
@@ -188,14 +188,14 @@
           "body": "<p>如图，设抛物线 $y^{2}=2px$（$p>0$）的焦点为 $F$，抛物线上的点 $A$ 到 $y$ 轴的距离等于 $|AF|-1$.</p><ol class=\"enumerate\"><li><p>求 $p$ 的值；</p></li><li><p>若直线 $AF$ 交抛物线于另一点 $B$，过 $B$ 与 $x$ 轴平行的直线和过 $F$ 与 $AB$ 垂直的直线交于点 $N$，$AN$ 与 $x$ 轴交于点 $M$，求 $M$ 的横坐标的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设抛物线上的点 $A$ 的参数为 $t$，则</p><p>$A=\\left(\\frac{p}{2}t^{2},pt\\right)$，$F=\\left(\\frac{p}{2},0\\right)$.</p><p>由于抛物线在右侧，点 $A$ 到 $y$ 轴的距离为 $\\frac{p}{2}t^{2}$，而</p>\n$$\n|AF|=\\sqrt{\\left(\\frac{p}{2}t^{2}-\\frac{p}{2}\\right)^{2}+p^{2}t^{2}}=\\frac{p}{2}(t^{2}+1)\n$$\n<p>由题意，$\\frac{p}{2}t^{2}=\\frac{p}{2}(t^{2}+1)-1$，所以 $p=2$.</p></li><li><p>此时抛物线方程为 $y^{2}=4x$，焦点为 $F=(1,0)$，且</p>\n$$\nA=(t^{2},2t)\n$$\n<p>设直线 $AF$ 与抛物线的另一交点为 $B$，记 $B$ 的参数为 $s$. 过参数为 $t$，$s$ 的两点的弦所在直线方程为</p>\n$$\n(t+s)y=2x+2ts\n$$\n<p>因为焦点 $F=(1,0)$ 在直线 $AB$ 上，所以 $2+2ts=0$，即 $ts=-1$，从而</p><p>$B=\\left(\\frac{1}{t^{2}},-\\frac{2}{t}\\right)$，$t\\ne0$.</p><p>过 $B$ 的水平直线为 $y=-\\frac{2}{t}$. 直线 $AB$ 的方向向量可取 $(t^{2}-1,2t)$. 设过 $F$ 且垂直于 $AB$ 的直线与上述水平直线交于 $N=(u,-\\frac{2}{t})$，则</p>\n$$\n(u-1,-\\tfrac2t)\\cdot(t^{2}-1,2t)=0\n$$\n<p>所以 $u=1+\\frac{4}{t^{2}-1}$.</p><p>当 $t^{2}=1$ 时，$AB$ 为过 $F$ 的竖直直线，过 $F$ 的垂线与过 $B$ 的水平线平行，点 $N$ 不存在，故还需有 $t^{2}\\ne1$.</p><p>设 $M=(m,0)$. 因为 $A$，$N$，$M$ 三点共线，由截距关系得</p>\n$$\nm=\\frac{t^{2}(1+u)}{t^{2}+1}=\\frac{2t^{2}}{t^{2}-1}\n$$\n<p>令 $v=t^{2}$，则 $v>0$ 且 $v\\ne1$. 当 $0&#x3C;v&#x3C;1$ 时，$m=\\frac{2v}{v-1}$ 的取值范围为 $(-\\infty,0)$；当 $v>1$ 时，$m=2+\\frac{2}{v-1}$ 的取值范围为 $(2,+\\infty)$. 因此 $M$ 的横坐标的取值范围为</p>\n$$\n(-\\infty,0)\\cup(2,+\\infty)\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设抛物线上的点 $A$ 的参数为 $t$，则</p><p>$A=\\left(\\frac{p}{2}t^{2},pt\\right)$，$F=\\left(\\frac{p}{2},0\\right)$.</p><p>由于抛物线在右侧，点 $A$ 到 $y$ 轴的距离为 $\\frac{p}{2}t^{2}$，而</p>\n$$\n|AF|=\\sqrt{\\left(\\frac{p}{2}t^{2}-\\frac{p}{2}\\right)^{2}+p^{2}t^{2}}=\\frac{p}{2}(t^{2}+1)\n$$\n<p>由题意，$\\frac{p}{2}t^{2}=\\frac{p}{2}(t^{2}+1)-1$，所以 $p=2$.</p></li><li><p>此时抛物线方程为 $y^{2}=4x$，焦点为 $F=(1,0)$，且</p>\n$$\nA=(t^{2},2t)\n$$\n<p>设直线 $AF$ 与抛物线的另一交点为 $B$，记 $B$ 的参数为 $s$. 过参数为 $t$，$s$ 的两点的弦所在直线方程为</p>\n$$\n(t+s)y=2x+2ts\n$$\n<p>因为焦点 $F=(1,0)$ 在直线 $AB$ 上，所以 $2+2ts=0$，即 $ts=-1$，从而</p><p>$B=\\left(\\frac{1}{t^{2}},-\\frac{2}{t}\\right)$，$t\\ne0$.</p><p>过 $B$ 的水平直线为 $y=-\\frac{2}{t}$. 直线 $AB$ 的方向向量可取 $(t^{2}-1,2t)$. 设过 $F$ 且垂直于 $AB$ 的直线与上述水平直线交于 $N=(u,-\\frac{2}{t})$，则</p>\n$$\n(u-1,-\\tfrac2t)\\cdot(t^{2}-1,2t)=0\n$$\n<p>所以 $u=1+\\frac{4}{t^{2}-1}$.</p><p>当 $t^{2}=1$ 时，$AB$ 为过 $F$ 的竖直直线，过 $F$ 的垂线与过 $B$ 的水平线平行，点 $N$ 不存在，故还需有 $t^{2}\\ne1$.</p><p>设 $M=(m,0)$. 因为 $A$，$N$，$M$ 三点共线，由截距关系得</p>\n$$\nm=\\frac{t^{2}(1+u)}{t^{2}+1}=\\frac{2t^{2}}{t^{2}-1}\n$$\n<p>令 $v=t^{2}$，则 $v>0$ 且 $v\\ne1$. 当 $0<v<1$ 时，$m=\\frac{2v}{v-1}$ 的取值范围为 $(-\\infty,0)$；当 $v>1$ 时，$m=2+\\frac{2}{v-1}$ 的取值范围为 $(2,+\\infty)$. 因此 $M$ 的横坐标的取值范围为</p>\n$$\n(-\\infty,0)\\cup(2,+\\infty)\n$$\n</li></ol>"
         },
         {
           "num": 20,
-          "body": "<p>设函数 $f(x)=x^{3}+\\dfrac{1}{x+1}$，$x\\in[0,1]$，证明：</p><ol class=\"enumerate\"><li><p>$f(x)\\ge1-x+x^{2}$；</p></li><li><p>$\\dfrac{3}{4}&#x3C;f(x)\\le\\dfrac{3}{2}$.</p></li></ol>",
+          "body": "<p>设函数 $f(x)=x^{3}+\\dfrac{1}{x+1}$，$x\\in[0,1]$，证明：</p><ol class=\"enumerate\"><li><p>$f(x)\\ge1-x+x^{2}$；</p></li><li><p>$\\dfrac{3}{4}<f(x)\\le\\dfrac{3}{2}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>在 $x\\in[0,1]$ 时，$x+1>0$，于是</p>\n$$\nf(x)-(1-x+x^{2})=x^{3}+\\frac{1}{x+1}-1+x-x^{2}=\\frac{x^{4}}{x+1}\\geqslant0\n$$\n<p>所以 $f(x)\\geqslant1-x+x^{2}$.</p></li><li><p>由</p>\n$$\n1-x+x^{2}=\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}\\ge\\frac{3}{4}\n$$\n<p>及第（1）问知 $f(x)\\ge\\frac{3}{4}$. 若 $x\\ne\\frac{1}{2}$，则上式中的二次式严格大于 $\\frac{3}{4}$；若 $x=\\frac{1}{2}$，则</p>\n$$\nf(x)-(1-x+x^{2})=\\frac{x^{4}}{x+1}>0\n$$\n<p>故始终有 $f(x)>\\frac{3}{4}$.</p><p>另一方面，</p>\n$$\n\\frac{3}{2}-f(x)=\\frac{3}{2}-x^{3}-\\frac{1}{x+1}=\\frac{(1-x)(2x^{3}+4x^{2}+4x+1)}{2(x+1)}\\geqslant0\n$$\n<p>其中最后一个不等号由 $x\\in[0,1]$ 得到. 所以 $f(x)\\le\\frac{3}{2}$，且当 $x=1$ 时取等号. 综上，</p>\n$$\n\\frac{3}{4}&#x3C;f(x)\\le\\frac{3}{2}\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>在 $x\\in[0,1]$ 时，$x+1>0$，于是</p>\n$$\nf(x)-(1-x+x^{2})=x^{3}+\\frac{1}{x+1}-1+x-x^{2}=\\frac{x^{4}}{x+1}\\geqslant0\n$$\n<p>所以 $f(x)\\geqslant1-x+x^{2}$.</p></li><li><p>由</p>\n$$\n1-x+x^{2}=\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}\\ge\\frac{3}{4}\n$$\n<p>及第（1）问知 $f(x)\\ge\\frac{3}{4}$. 若 $x\\ne\\frac{1}{2}$，则上式中的二次式严格大于 $\\frac{3}{4}$；若 $x=\\frac{1}{2}$，则</p>\n$$\nf(x)-(1-x+x^{2})=\\frac{x^{4}}{x+1}>0\n$$\n<p>故始终有 $f(x)>\\frac{3}{4}$.</p><p>另一方面，</p>\n$$\n\\frac{3}{2}-f(x)=\\frac{3}{2}-x^{3}-\\frac{1}{x+1}=\\frac{(1-x)(2x^{3}+4x^{2}+4x+1)}{2(x+1)}\\geqslant0\n$$\n<p>其中最后一个不等号由 $x\\in[0,1]$ 得到. 所以 $f(x)\\le\\frac{3}{2}$，且当 $x=1$ 时取等号. 综上，</p>\n$$\n\\frac{3}{4}<f(x)\\le\\frac{3}{2}\n$$\n</li></ol>"
         }
       ]
     }

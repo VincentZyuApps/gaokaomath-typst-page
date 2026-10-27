@@ -77,7 +77,7 @@
             "$2$"
           ],
           "answer": "D",
-          "solution": "$f'(x)=3x^{2}-12=3(x-2)(x+2)$. 当 $x&#x3C;-2$ 或 $x>2$ 时，$f'(x)>0$；当 $-2&#x3C;x&#x3C;2$ 时，$f'(x)&#x3C;0$. 因此 $x=-2$ 是极大值点，$x=2$ 是极小值点，故选 D."
+          "solution": "$f'(x)=3x^{2}-12=3(x-2)(x+2)$. 当 $x<-2$ 或 $x>2$ 时，$f'(x)>0$；当 $-2<x<2$ 时，$f'(x)<0$. 因此 $x=-2$ 是极大值点，$x=2$ 是极小值点，故选 D."
         },
         {
           "num": 7,
@@ -117,7 +117,7 @@
         },
         {
           "num": 10,
-          "body": "设直线 $l_{1}$，$l_{2}$ 分别是函数 $f(x)=\\begin{cases}-\\ln x,&#x26;0&#x3C;x&#x3C;1,\\\\\n\n\\ln x,&#x26;x>1,\\end{cases}$ 图象上点 $P_{1}$，$P_{2}$ 处的切线，$l_{1}$ 与 $l_{2}$ 垂直相交于点 $P$，且 $l_{1}$，$l_{2}$ 分别与 $y$ 轴相交于点 $A$，$B$，则 $\\triangle PAB$ 的面积的取值范围是（ ）",
+          "body": "设直线 $l_{1}$，$l_{2}$ 分别是函数 $f(x)=\\begin{cases}-\\ln x,&0<x<1,\\\\\n\n\\ln x,&x>1,\\end{cases}$ 图象上点 $P_{1}$，$P_{2}$ 处的切线，$l_{1}$ 与 $l_{2}$ 垂直相交于点 $P$，且 $l_{1}$，$l_{2}$ 分别与 $y$ 轴相交于点 $A$，$B$，则 $\\triangle PAB$ 的面积的取值范围是（ ）",
           "choices": [
             "$(0,1)$",
             "$(0,2)$",
@@ -125,7 +125,7 @@
             "$(1,+\\infty)$"
           ],
           "answer": "A",
-          "solution": "<p>设 $P_{1}=(t,-\\ln t)$，其中 $0&#x3C;t&#x3C;1$，设 $P_{2}=(s,\\ln s)$，其中 $s>1$. 两条切线的斜率分别为 $-\\dfrac{1}{t}$ 与 $\\dfrac{1}{s}$. 由两直线垂直，得 $-\\dfrac1{ts}=-1$，所以 $s=\\dfrac{1}{t}$. 记 $L=-\\ln t$，则两个切点的纵坐标都为 $L$.</p><p>两条切线方程分别为 $l_{1}:y=-\\dfrac{x}{t}+L+1$ 和 $l_{2}:y=tx+L-1$，故它们在 $y$ 轴上的截距为 $A(0,L+1)$，$B(0,L-1)$. 联立两式得交点 $P$ 的横坐标为 $\\dfrac{2t}{1+t^2}$，而 $|AB|=2$. 因此</p><p>$S_{\\triangle PAB}=\\dfrac{1}{2}\\times2\\times\\dfrac{2t}{1+t^2}=\\dfrac{2t}{1+t^2}$.</p><p>因为 $0&#x3C;t&#x3C;1$，有 $0&#x3C;\\dfrac{2t}{1+t^2}&#x3C;1$，且该函数在 $(0,1)$ 上连续，故面积的取值范围为 $(0,1)$，选 A.</p>"
+          "solution": "<p>设 $P_{1}=(t,-\\ln t)$，其中 $0<t<1$，设 $P_{2}=(s,\\ln s)$，其中 $s>1$. 两条切线的斜率分别为 $-\\dfrac{1}{t}$ 与 $\\dfrac{1}{s}$. 由两直线垂直，得 $-\\dfrac1{ts}=-1$，所以 $s=\\dfrac{1}{t}$. 记 $L=-\\ln t$，则两个切点的纵坐标都为 $L$.</p><p>两条切线方程分别为 $l_{1}:y=-\\dfrac{x}{t}+L+1$ 和 $l_{2}:y=tx+L-1$，故它们在 $y$ 轴上的截距为 $A(0,L+1)$，$B(0,L-1)$. 联立两式得交点 $P$ 的横坐标为 $\\dfrac{2t}{1+t^2}$，而 $|AB|=2$. 因此</p><p>$S_{\\triangle PAB}=\\dfrac{1}{2}\\times2\\times\\dfrac{2t}{1+t^2}=\\dfrac{2t}{1+t^2}$.</p><p>因为 $0<t<1$，有 $0<\\dfrac{2t}{1+t^2}<1$，且该函数在 $(0,1)$ 上连续，故面积的取值范围为 $(0,1)$，选 A.</p>"
         }
       ]
     },
@@ -155,7 +155,7 @@
         },
         {
           "num": 14,
-          "body": "若函数 $f(x)$ 是定义在 $\\mathbb{R}$ 上的周期为 $2$ 的奇函数，当 $0&#x3C;x&#x3C;1$ 时，$f(x)=4^{x}$，则 $f\\!\\left(-\\dfrac{5}{2}\\right)+f(2)=\\underline{\\hspace{2.5em}}{}$.",
+          "body": "若函数 $f(x)$ 是定义在 $\\mathbb{R}$ 上的周期为 $2$ 的奇函数，当 $0<x<1$ 时，$f(x)=4^{x}$，则 $f\\!\\left(-\\dfrac{5}{2}\\right)+f(2)=\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$-2$",
           "solution": "由周期性，$f\\!\\left(-\\dfrac{5}{2}\\right)=f\\!\\left(-\\dfrac{1}{2}\\right)$，再由奇函数性质，$f\\!\\left(-\\dfrac{1}{2}\\right)=-f\\!\\left(\\dfrac{1}{2}\\right)=-4^{\\frac{1}{2}}=-2$. 又因 $f(0)=0$，周期为 $2$ 给出 $f(2)=f(0)=0$，所以原式等于 $-2$."
@@ -205,14 +205,14 @@
           "body": "<p>已知椭圆 $E:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的一个焦点与短轴的两个端点是正三角形的三个顶点，点 $P\\!\\left(\\sqrt{3},\\dfrac{1}{2}\\right)$ 在椭圆 $E$ 上.</p><ol class=\"enumerate\"><li><p>求椭圆 $E$ 的方程；</p></li><li><p>设不过原点 $O$ 且斜率为 $\\dfrac{1}{2}$ 的直线 $l$ 与椭圆 $E$ 交于不同的两点 $A$，$B$，线段 $AB$ 的中点为 $M$，直线 $OM$ 与椭圆 $E$ 交于 $C$，$D$，证明：$|MA|\\cdot|MB|=|MC|\\cdot|MD|$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设椭圆焦点为 $F$，短轴端点为 $B_{1}$，$B_{2}$，焦距的一半为 $c$. 由正三角形条件，短轴长 $2b$ 等于焦点到任一短轴端点的距离，而后者为 $a$，所以 $a=2b$. 又 $c^{2}=a^{2}-b^{2}=3b^{2}$.</p><p>将 $P\\left(\\sqrt{3},\\dfrac{1}{2}\\right)$ 代入椭圆方程，得 $\\dfrac{3}{a^2}+\\dfrac{1}{4b^2}=1$. 代入 $a^{2}=4b^{2}$，得 $\\dfrac{1}{b^2}=1$，所以 $b=1$，$a=2$. 椭圆 $E$ 的方程为 $\\dfrac{x^2}{4}+y^{2}=1$.</p></li><li><p>记椭圆的二次型为 $Q(x,y)=\\dfrac{x^2}{4}+y^{2}$，设 $M=(u,v)$. 因直线 $AB$ 的斜率为 $\\dfrac{1}{2}$，可设 $A=M+t(2,1)$，$B=M-t(2,1)$，其中 $t\\neq0$. 由 $A$，$B$ 都在椭圆上，分别代入 $Q=1$ 并相减，得 $2t(u+2v)=0$，所以 $u+2v=0$，即 $v=-\\dfrac{u}{2}$. 再代入任一点的椭圆方程，得 $Q(M)+2t^{2}=1$. 因直线 $l$ 不经过原点，$M\\ne O$，结合 $t\\ne0$ 可知 $0&#x3C;Q(M)&#x3C;1$.</p><p>因为 $|MA|=|MB|=\\sqrt{5}|t|$，所以 $|MA|\\cdot|MB|=5t^{2}$. 直线 $OM$ 上的椭圆交点可写为 $C=\\rho M$，$D=-\\rho M$，其中 $\\rho=\\dfrac1{\\sqrt{Q(M)}}>1$. 因此 $|MC|\\cdot|MD|=(\\rho-1)(\\rho+1)|M|^{2}=\\dfrac{|M|^2}{Q(M)}\\left(1-Q(M)\\right)$.</p><p>由 $v=-\\dfrac{u}{2}$，有 $|M|^{2}=\\dfrac{5}{4}u^{2}$，$Q(M)=\\dfrac{1}{2}u^{2}$，故 $\\dfrac{|M|^2}{Q(M)}=\\dfrac{5}{2}$. 结合 $1-Q(M)=2t^{2}$，得 $|MC|\\cdot|MD|=\\dfrac{5}{2}\\times2t^{2}=5t^{2}=|MA|\\cdot|MB|$，命题得证.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆焦点为 $F$，短轴端点为 $B_{1}$，$B_{2}$，焦距的一半为 $c$. 由正三角形条件，短轴长 $2b$ 等于焦点到任一短轴端点的距离，而后者为 $a$，所以 $a=2b$. 又 $c^{2}=a^{2}-b^{2}=3b^{2}$.</p><p>将 $P\\left(\\sqrt{3},\\dfrac{1}{2}\\right)$ 代入椭圆方程，得 $\\dfrac{3}{a^2}+\\dfrac{1}{4b^2}=1$. 代入 $a^{2}=4b^{2}$，得 $\\dfrac{1}{b^2}=1$，所以 $b=1$，$a=2$. 椭圆 $E$ 的方程为 $\\dfrac{x^2}{4}+y^{2}=1$.</p></li><li><p>记椭圆的二次型为 $Q(x,y)=\\dfrac{x^2}{4}+y^{2}$，设 $M=(u,v)$. 因直线 $AB$ 的斜率为 $\\dfrac{1}{2}$，可设 $A=M+t(2,1)$，$B=M-t(2,1)$，其中 $t\\neq0$. 由 $A$，$B$ 都在椭圆上，分别代入 $Q=1$ 并相减，得 $2t(u+2v)=0$，所以 $u+2v=0$，即 $v=-\\dfrac{u}{2}$. 再代入任一点的椭圆方程，得 $Q(M)+2t^{2}=1$. 因直线 $l$ 不经过原点，$M\\ne O$，结合 $t\\ne0$ 可知 $0<Q(M)<1$.</p><p>因为 $|MA|=|MB|=\\sqrt{5}|t|$，所以 $|MA|\\cdot|MB|=5t^{2}$. 直线 $OM$ 上的椭圆交点可写为 $C=\\rho M$，$D=-\\rho M$，其中 $\\rho=\\dfrac1{\\sqrt{Q(M)}}>1$. 因此 $|MC|\\cdot|MD|=(\\rho-1)(\\rho+1)|M|^{2}=\\dfrac{|M|^2}{Q(M)}\\left(1-Q(M)\\right)$.</p><p>由 $v=-\\dfrac{u}{2}$，有 $|M|^{2}=\\dfrac{5}{4}u^{2}$，$Q(M)=\\dfrac{1}{2}u^{2}$，故 $\\dfrac{|M|^2}{Q(M)}=\\dfrac{5}{2}$. 结合 $1-Q(M)=2t^{2}$，得 $|MC|\\cdot|MD|=\\dfrac{5}{2}\\times2t^{2}=5t^{2}=|MA|\\cdot|MB|$，命题得证.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>设函数 $f(x)=ax^{2}-a-\\ln x$，$g(x)=\\dfrac{1}{x}-\\dfrac{\\mathrm{e}}{\\mathrm{e}^x}$，其中 $a\\in\\mathbb{R}$，$\\mathrm{e}=2.718\\ldots$ 为自然对数的底数.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>证明：当 $x>1$ 时，$g(x)>0$；</p></li><li><p>确定 $a$ 的所有可能取值，使得 $f(x)>g(x)$ 在区间 $(1,+\\infty)$ 内恒成立.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,+\\infty)$，且 $f'(x)=2ax-\\dfrac{1}{x}=\\dfrac{2ax^2-1}{x}$. 当 $a\\leqslant0$ 时，$f'(x)&#x3C;0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调递减. 当 $a>0$ 时，$f'(x)&#x3C;0$ 对应 $0&#x3C;x&#x3C;\\dfrac1{\\sqrt{2a}}$，$f'(x)>0$ 对应 $x>\\dfrac1{\\sqrt{2a}}$，所以函数先减后增.</p></li><li><p>当 $x>1$ 时，令 $h(x)=x-1-\\ln x$，则 $h(1)=0$，且 $h'(x)=1-\\dfrac{1}{x}>0$. 所以 $h(x)>0$，即 $\\ln x&#x3C;x-1$. 两边取指数或等价变形得 $\\mathrm{e}^{1-x}&#x3C;\\dfrac{1}{x}$，故 $g(x)=\\dfrac{1}{x}-\\mathrm{e}^{1-x}>0$.</p></li><li><p>令 $F(x)=\\dfrac{1}{2}(x^{2}-1)-\\ln x-\\dfrac{1}{x}+\\mathrm{e}^{1-x}$. 有 $F(1)=0$，并且 $F'(x)=x-\\dfrac{1}{x}+\\dfrac1{x^2}-\\mathrm{e}^{1-x}$，$F'(1)=0$. 进一步 $F''(x)=1+\\dfrac1{x^2}-\\dfrac2{x^3}+\\mathrm{e}^{1-x}=\\dfrac{(x-1)(x^2+x+2)}{x^3}+\\mathrm{e}^{1-x}>0$（$x>1$），所以 $F'(x)>0$，进而 $F(x)>0$.</p><p>当 $a=\\dfrac{1}{2}$ 时，$f(x)-g(x)=F(x)>0$；当 $a>\\dfrac{1}{2}$ 时，$f(x)-g(x)=F(x)+\\left(a-\\dfrac{1}{2}\\right)(x^{2}-1)>0$，故所有 $a\\ge\\dfrac{1}{2}$ 均满足条件.</p><p>反之，若 $f(x)>g(x)$ 对一切 $x>1$ 成立，则 $a>\\dfrac{\\ln x+\\dfrac{1}{x}-\\mathrm{e}^{1-x}}{x^2-1}$. 右侧当 $x\\to1^{+}$ 时由洛必达法则趋于 $\\dfrac{1}{2}$. 若 $a&#x3C;\\dfrac{1}{2}$，则取充分接近 $1$ 的 $x$，可使右侧大于 $a$，与上式矛盾. 因此 $a$ 的所有可能取值为 $\\left[\\dfrac{1}{2},+\\infty\\right)$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $(0,+\\infty)$，且 $f'(x)=2ax-\\dfrac{1}{x}=\\dfrac{2ax^2-1}{x}$. 当 $a\\leqslant0$ 时，$f'(x)<0$，所以 $f(x)$ 在 $(0,+\\infty)$ 上单调递减. 当 $a>0$ 时，$f'(x)<0$ 对应 $0<x<\\dfrac1{\\sqrt{2a}}$，$f'(x)>0$ 对应 $x>\\dfrac1{\\sqrt{2a}}$，所以函数先减后增.</p></li><li><p>当 $x>1$ 时，令 $h(x)=x-1-\\ln x$，则 $h(1)=0$，且 $h'(x)=1-\\dfrac{1}{x}>0$. 所以 $h(x)>0$，即 $\\ln x<x-1$. 两边取指数或等价变形得 $\\mathrm{e}^{1-x}<\\dfrac{1}{x}$，故 $g(x)=\\dfrac{1}{x}-\\mathrm{e}^{1-x}>0$.</p></li><li><p>令 $F(x)=\\dfrac{1}{2}(x^{2}-1)-\\ln x-\\dfrac{1}{x}+\\mathrm{e}^{1-x}$. 有 $F(1)=0$，并且 $F'(x)=x-\\dfrac{1}{x}+\\dfrac1{x^2}-\\mathrm{e}^{1-x}$，$F'(1)=0$. 进一步 $F''(x)=1+\\dfrac1{x^2}-\\dfrac2{x^3}+\\mathrm{e}^{1-x}=\\dfrac{(x-1)(x^2+x+2)}{x^3}+\\mathrm{e}^{1-x}>0$（$x>1$），所以 $F'(x)>0$，进而 $F(x)>0$.</p><p>当 $a=\\dfrac{1}{2}$ 时，$f(x)-g(x)=F(x)>0$；当 $a>\\dfrac{1}{2}$ 时，$f(x)-g(x)=F(x)+\\left(a-\\dfrac{1}{2}\\right)(x^{2}-1)>0$，故所有 $a\\ge\\dfrac{1}{2}$ 均满足条件.</p><p>反之，若 $f(x)>g(x)$ 对一切 $x>1$ 成立，则 $a>\\dfrac{\\ln x+\\dfrac{1}{x}-\\mathrm{e}^{1-x}}{x^2-1}$. 右侧当 $x\\to1^{+}$ 时由洛必达法则趋于 $\\dfrac{1}{2}$. 若 $a<\\dfrac{1}{2}$，则取充分接近 $1$ 的 $x$，可使右侧大于 $a$，与上式矛盾. 因此 $a$ 的所有可能取值为 $\\left[\\dfrac{1}{2},+\\infty\\right)$.</p></li></ol>"
         }
       ]
     }

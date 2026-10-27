@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "如果复数 $z=3+a\\mathrm{i}$ 满足条件 $\\left| z-2 \\right|&#x3C;2$，那么实数 $a$ 的取值范围是（ ）",
+          "body": "如果复数 $z=3+a\\mathrm{i}$ 满足条件 $\\left| z-2 \\right|<2$，那么实数 $a$ 的取值范围是（ ）",
           "choices": [
             "$(-2\\sqrt{2}, 2\\sqrt{2})$",
             "$(-2,2)$",
@@ -77,7 +77,7 @@
             "$(-\\sqrt{3}, \\sqrt{3})$"
           ],
           "answer": "D",
-          "solution": "<p>由 $z=3+a\\mathrm{i}$，有 $z-2=1+a\\mathrm{i}$，于是</p><p>$|z-2|=|1+a\\mathrm{i}|=\\sqrt{1+a^{2}}$.</p><p>题设不等式等价于 $\\sqrt{1+a^{2}}&#x3C;2$，即 $a^{2}&#x3C;3$. 因此</p><p>$-\\sqrt{3}&#x3C;a&#x3C;\\sqrt{3}$，</p><p>故选 D.</p>"
+          "solution": "<p>由 $z=3+a\\mathrm{i}$，有 $z-2=1+a\\mathrm{i}$，于是</p><p>$|z-2|=|1+a\\mathrm{i}|=\\sqrt{1+a^{2}}$.</p><p>题设不等式等价于 $\\sqrt{1+a^{2}}<2$，即 $a^{2}<3$. 因此</p><p>$-\\sqrt{3}<a<\\sqrt{3}$，</p><p>故选 D.</p>"
         },
         {
           "num": 7,
@@ -125,7 +125,7 @@
             "$(-\\infty,4]$"
           ],
           "answer": "A",
-          "solution": "<p>抛物线 $y=(x+4)^{2}$ 的顶点横坐标为 $-4$. 当 $x\\le-4$ 时，若 $x_{1}&#x3C;x_{2}$，则</p><p>$x_{1}+4&#x3C;x_{2}+4\\leqslant0$，</p><p>从而 $(x_{1}+4)^{2}>(x_{2}+4)^{2}$，函数在 $(-\\infty,-4]$ 上是减函数. 第二、第三个选项位于顶点右侧，函数递增；第四个选项跨过顶点，不能保持减性. 因此选 A.</p>"
+          "solution": "<p>抛物线 $y=(x+4)^{2}$ 的顶点横坐标为 $-4$. 当 $x\\le-4$ 时，若 $x_{1}<x_{2}$，则</p><p>$x_{1}+4<x_{2}+4\\leqslant0$，</p><p>从而 $(x_{1}+4)^{2}>(x_{2}+4)^{2}$，函数在 $(-\\infty,-4]$ 上是减函数. 第二、第三个选项位于顶点右侧，函数递增；第四个选项跨过顶点，不能保持减性. 因此选 A.</p>"
         },
         {
           "num": 11,
@@ -141,7 +141,7 @@
         },
         {
           "num": 12,
-          "body": "<p>已知下图是函数 $y=2\\sin\\left( \\omega x+\\varphi \\right)$（$\\left| \\varphi \\right|&#x3C;\\frac{\\pi}{2}$）的图象，那么（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>已知下图是函数 $y=2\\sin\\left( \\omega x+\\varphi \\right)$（$\\left| \\varphi \\right|<\\frac{\\pi}{2}$）的图象，那么（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\omega=2$，$\\varphi=-\\frac{\\pi}{6}$",
             "$\\omega=2$，$\\varphi=\\frac{\\pi}{6}$",
@@ -149,7 +149,7 @@
             "$\\omega=\\frac{10}{11}$，$\\varphi=-\\frac{\\pi}{6}$"
           ],
           "answer": "B",
-          "solution": "图象与 $y$ 轴交于 $\\left(0,1\\right)$，所以 $2\\sin\\varphi=1$. 因为 $\\left|\\varphi\\right|&#x3C;\\frac{\\pi}{2}$，且正弦函数在 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 上严格递增，所以 $\\varphi=\\frac{\\pi}{6}$. 图象在 $x=0$ 附近递增，而 $y'(0)=2\\omega\\cos\\varphi=\\sqrt{3}\\omega$，故 $\\omega>0$. 从图中可见，曲线在正半轴上经过一个极大值、一个向下穿过横轴的零点及一个极小值后，于 $x=\\frac{11\\pi}{12}$ 首次向上穿过横轴. 因此此处相位为 $2\\pi$，即 $\\omega\\cdot\\frac{11\\pi}{12}+\\frac{\\pi}{6}=2\\pi$，解得 $\\omega=2$. 验算：$2\\sin\\frac{\\pi}{6}=1$，且 $2\\cdot\\frac{11\\pi}{12}+\\frac{\\pi}{6}=2\\pi$，此处斜率为 $4\\cos2\\pi=4>0$，与图象一致. 另一候选 $\\omega=\\frac{10}{11}$ 在该零点的相位为 $\\pi$，斜率为负，与图象穿越方向相反. 所以选 B."
+          "solution": "图象与 $y$ 轴交于 $\\left(0,1\\right)$，所以 $2\\sin\\varphi=1$. 因为 $\\left|\\varphi\\right|<\\frac{\\pi}{2}$，且正弦函数在 $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 上严格递增，所以 $\\varphi=\\frac{\\pi}{6}$. 图象在 $x=0$ 附近递增，而 $y'(0)=2\\omega\\cos\\varphi=\\sqrt{3}\\omega$，故 $\\omega>0$. 从图中可见，曲线在正半轴上经过一个极大值、一个向下穿过横轴的零点及一个极小值后，于 $x=\\frac{11\\pi}{12}$ 首次向上穿过横轴. 因此此处相位为 $2\\pi$，即 $\\omega\\cdot\\frac{11\\pi}{12}+\\frac{\\pi}{6}=2\\pi$，解得 $\\omega=2$. 验算：$2\\sin\\frac{\\pi}{6}=1$，且 $2\\cdot\\frac{11\\pi}{12}+\\frac{\\pi}{6}=2\\pi$，此处斜率为 $4\\cos2\\pi=4>0$，与图象一致. 另一候选 $\\omega=\\frac{10}{11}$ 在该零点的相位为 $\\pi$，斜率为负，与图象穿越方向相反. 所以选 B."
         },
         {
           "num": 13,
@@ -179,17 +179,17 @@
           "num": 15,
           "body": "如果 $\\log_{a}2 > \\log_{b}2 > 0$，那么（ ）",
           "choices": [
-            "$1&#x3C;a&#x3C;b$",
-            "$1&#x3C;b&#x3C;a$",
-            "$0&#x3C;a&#x3C;b&#x3C;1$",
-            "$0&#x3C;b&#x3C;a&#x3C;1$"
+            "$1<a<b$",
+            "$1<b<a$",
+            "$0<a<b<1$",
+            "$0<b<a<1$"
           ],
           "answer": "A",
-          "solution": "<p>对数有意义要求 $a>0$、$a\\ne1$、$b>0$、$b\\ne1$. 因为 $2>1$ 且</p><p>$\\log_{a}2>0$、$\\log_{b}2>0$，</p><p>所以 $a>1$、$b>1$. 又</p><p>$\\log_{a}2=\\frac{\\ln2}{\\ln a}$、$\\log_{b}2=\\frac{\\ln2}{\\ln b}$.</p><p>在 $a$，$b>1$ 时，分母为正，题设 $\\log_{a}2>\\log_{b}2$ 等价于 $\\ln a&#x3C;\\ln b$，即 $a&#x3C;b$. 因此 $1&#x3C;a&#x3C;b$，选 A.</p>"
+          "solution": "<p>对数有意义要求 $a>0$、$a\\ne1$、$b>0$、$b\\ne1$. 因为 $2>1$ 且</p><p>$\\log_{a}2>0$、$\\log_{b}2>0$，</p><p>所以 $a>1$、$b>1$. 又</p><p>$\\log_{a}2=\\frac{\\ln2}{\\ln a}$、$\\log_{b}2=\\frac{\\ln2}{\\ln b}$.</p><p>在 $a$，$b>1$ 时，分母为正，题设 $\\log_{a}2>\\log_{b}2$ 等价于 $\\ln a<\\ln b$，即 $a<b$. 因此 $1<a<b$，选 A.</p>"
         },
         {
           "num": 16,
-          "body": "复数 $1+\\mathrm{i}\\cot\\theta$（$\\pi&#x3C;\\theta&#x3C;2\\pi$）的三角形式是（ ）",
+          "body": "复数 $1+\\mathrm{i}\\cot\\theta$（$\\pi<\\theta<2\\pi$）的三角形式是（ ）",
           "choices": [
             "$\\frac{1}{\\sin\\theta}\\left( \\sin\\theta+\\mathrm{i}\\cos\\theta \\right)$",
             "$\\frac{1}{\\sin\\theta}\\left[ \\cos\\left( \\frac{\\pi}{2}-\\theta \\right)+\\mathrm{i}\\sin\\left( \\frac{\\pi}{2}-\\theta \\right) \\right]$",
@@ -197,7 +197,7 @@
             "$-\\frac{1}{\\sin\\theta}\\left[ \\cos\\left( \\frac{3\\pi}{2}-\\theta \\right)+\\mathrm{i}\\sin\\left( \\frac{3\\pi}{2}-\\theta \\right) \\right]$"
           ],
           "answer": "D",
-          "solution": "<p>因为 $\\pi&#x3C;\\theta&#x3C;2\\pi$，所以 $\\sin\\theta&#x3C;0$. 先将复数化为</p><p>$1+\\mathrm{i}\\cot\\theta=\\frac{\\sin\\theta+\\mathrm{i}\\cos\\theta}{\\sin\\theta}$.</p><p>又</p><p>$\\cos\\left(\\frac{3\\pi}{2}-\\theta\\right)=-\\sin\\theta$、$\\sin\\left(\\frac{3\\pi}{2}-\\theta\\right)=-\\cos\\theta$.</p><p>因此</p>\n$$\n1+\\mathrm{i}\\cot\\theta  =-\\frac{1}{\\sin\\theta}\\left[  \\cos\\left(\\frac{3\\pi}{2}-\\theta\\right)  +\\mathrm{i}\\sin\\left(\\frac{3\\pi}{2}-\\theta\\right)  \\right]\n$$\n<p>由于 $-\\frac{1}{\\sin\\theta}>0$，这已经是三角形式，故选 D.</p>"
+          "solution": "<p>因为 $\\pi<\\theta<2\\pi$，所以 $\\sin\\theta<0$. 先将复数化为</p><p>$1+\\mathrm{i}\\cot\\theta=\\frac{\\sin\\theta+\\mathrm{i}\\cos\\theta}{\\sin\\theta}$.</p><p>又</p><p>$\\cos\\left(\\frac{3\\pi}{2}-\\theta\\right)=-\\sin\\theta$、$\\sin\\left(\\frac{3\\pi}{2}-\\theta\\right)=-\\cos\\theta$.</p><p>因此</p>\n$$\n1+\\mathrm{i}\\cot\\theta  =-\\frac{1}{\\sin\\theta}\\left[  \\cos\\left(\\frac{3\\pi}{2}-\\theta\\right)  +\\mathrm{i}\\sin\\left(\\frac{3\\pi}{2}-\\theta\\right)  \\right]\n$$\n<p>由于 $-\\frac{1}{\\sin\\theta}>0$，这已经是三角形式，故选 D.</p>"
         },
         {
           "num": 17,
@@ -375,10 +375,10 @@
         },
         {
           "num": 34,
-          "body": "<p>设 $f(x)=\\lg\\frac{1+2^{x}+4^{x}a}{3}$. 其中 $a\\in\\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>如果 $0&#x3C;a\\leqslant1$，求证：当 $x\\neq0$ 时，有 $2f(x)&#x3C;f(2x)$；</p></li><li><p>如果当 $x\\in(-\\infty,1]$ 时 $f(x)$ 有意义，求 $a$ 的取值范围.</p></li></ol>",
+          "body": "<p>设 $f(x)=\\lg\\frac{1+2^{x}+4^{x}a}{3}$. 其中 $a\\in\\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>如果 $0<a\\leqslant1$，求证：当 $x\\neq0$ 时，有 $2f(x)<f(2x)$；</p></li><li><p>如果当 $x\\in(-\\infty,1]$ 时 $f(x)$ 有意义，求 $a$ 的取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>记 $p=1$，$q=2^{x}$，$r=4^{x}a$. 因为 $0&#x3C;a\\leqslant1$，所以 $p$、$q$、$r$ 均为正数；又因为 $x\\neq0$，所以 $p\\neq q$，从而 $p^{2}+q^{2}>2pq$，并且 $q^{2}+r^{2}\\geqslant2qr$、$r^{2}+p^{2}\\geqslant2rp$. 由三式相加可得</p>\n$$\n\\frac{1}{9}(p+q+r)^{2}  &#x3C;\\frac{1}{9}\\left(3p^{2}+3q^{2}+3r^{2}\\right)  =\\frac{1}{3}(p^{2}+q^{2}+r^{2})  =\\frac{1}{3}\\left(1+2^{2x}+4^{2x}a^{2}\\right)  \\le\\frac{1}{3}\\left(1+2^{2x}+4^{2x}a\\right)\n$$\n<p>另一方面，$2f(x)=\\lg\\frac{(p+q+r)^{2}}{9}$，而 $f(2x)=\\lg\\frac{1+2^{2x}+4^{2x}a}{3}$. 上面的严格不等式以及常用对数函数的单调性给出 $2f(x)&#x3C;f(2x)$.</p></li><li><p>当 $x\\in(-\\infty,1]$ 时，$f(x)$ 有意义的充要条件是 $1+2^{x}+4^{x}a>0$. 因为 $4^{x}>0$，这等价于 $\\displaystyle a>-\\left[\\left(\\frac{1}{4}\\right)^{x}+\\left(\\frac{1}{2}\\right)^{x}\\right]$. 函数 $-\\left(\\frac{1}{4}\\right)^{x}-\\left(\\frac{1}{2}\\right)^{x}$ 在 $(-\\infty,1]$ 上递增，在 $x=1$ 时取得最大值 $-\\frac{3}{4}$. 因而所求取值范围为 $\\displaystyle a>-\\frac{3}{4}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>记 $p=1$，$q=2^{x}$，$r=4^{x}a$. 因为 $0<a\\leqslant1$，所以 $p$、$q$、$r$ 均为正数；又因为 $x\\neq0$，所以 $p\\neq q$，从而 $p^{2}+q^{2}>2pq$，并且 $q^{2}+r^{2}\\geqslant2qr$、$r^{2}+p^{2}\\geqslant2rp$. 由三式相加可得</p>\n$$\n\\frac{1}{9}(p+q+r)^{2}  <\\frac{1}{9}\\left(3p^{2}+3q^{2}+3r^{2}\\right)  =\\frac{1}{3}(p^{2}+q^{2}+r^{2})  =\\frac{1}{3}\\left(1+2^{2x}+4^{2x}a^{2}\\right)  \\le\\frac{1}{3}\\left(1+2^{2x}+4^{2x}a\\right)\n$$\n<p>另一方面，$2f(x)=\\lg\\frac{(p+q+r)^{2}}{9}$，而 $f(2x)=\\lg\\frac{1+2^{2x}+4^{2x}a}{3}$. 上面的严格不等式以及常用对数函数的单调性给出 $2f(x)<f(2x)$.</p></li><li><p>当 $x\\in(-\\infty,1]$ 时，$f(x)$ 有意义的充要条件是 $1+2^{x}+4^{x}a>0$. 因为 $4^{x}>0$，这等价于 $\\displaystyle a>-\\left[\\left(\\frac{1}{4}\\right)^{x}+\\left(\\frac{1}{2}\\right)^{x}\\right]$. 函数 $-\\left(\\frac{1}{4}\\right)^{x}-\\left(\\frac{1}{2}\\right)^{x}$ 在 $(-\\infty,1]$ 上递增，在 $x=1$ 时取得最大值 $-\\frac{3}{4}$. 因而所求取值范围为 $\\displaystyle a>-\\frac{3}{4}$.</p></li></ol>"
         }
       ]
     }

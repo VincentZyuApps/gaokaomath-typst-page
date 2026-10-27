@@ -110,15 +110,15 @@
         },
         {
           "num": 14,
-          "body": "如果 $a &#x3C; 0$，$b > 0$，那么，下列不等式中正确的是（ ）",
+          "body": "如果 $a < 0$，$b > 0$，那么，下列不等式中正确的是（ ）",
           "choices": [
-            "$\\frac{1}{a}&#x3C; \\frac{1}{b}$",
-            "$\\sqrt{-a}&#x3C; \\sqrt{b}$",
-            "$a^{2} &#x3C; b^{2}$",
+            "$\\frac{1}{a}< \\frac{1}{b}$",
+            "$\\sqrt{-a}< \\sqrt{b}$",
+            "$a^{2} < b^{2}$",
             "$|a| > |b|$"
           ],
           "answer": "A",
-          "solution": "由 $a&#x3C;0$、$b>0$，可得 $\\dfrac{1}{a}&#x3C;0&#x3C;\\dfrac{1}{b}$，所以 $\\dfrac{1}{a}&#x3C;\\dfrac{1}{b}$ 必然成立，故选 A."
+          "solution": "由 $a<0$、$b>0$，可得 $\\dfrac{1}{a}<0<\\dfrac{1}{b}$，所以 $\\dfrac{1}{a}<\\dfrac{1}{b}$ 必然成立，故选 A."
         },
         {
           "num": 15,
@@ -172,10 +172,10 @@
         },
         {
           "num": 20,
-          "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，且对任意正整数 $n$，$a_{n} + S_{n} = 4096$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设数列 $\\{\\log_{2} a_{n}\\}$ 的前 $n$ 项和为 $T_{n}$，对数列 $\\{T_{n}\\}$，从第几项起 $T_{n} &#x3C; -509$？</p></li></ol>",
+          "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，且对任意正整数 $n$，$a_{n} + S_{n} = 4096$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设数列 $\\{\\log_{2} a_{n}\\}$ 的前 $n$ 项和为 $T_{n}$，对数列 $\\{T_{n}\\}$，从第几项起 $T_{n} < -509$？</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $n=1$ 时，$S_{1}=a_{1}$，由题设</p><p>$a_{1}+S_{1}=2a_{1}=4096$，$a_{1}=2048$.</p><p>对任意 $n\\geqslant2$，由 $S_{n}=S_{n-1}+a_{n}$ 以及题设分别有</p><p>$a_{n}+S_{n}=4096$，$a_{n-1}+S_{n-1}=4096$.</p><p>两式相减得</p>\n$$\na_{n}+S_{n-1}+a_{n}-\\left(a_{n-1}+S_{n-1}\\right)=0\n$$\n<p>即</p><p>$2a_{n}=a_{n-1}$，$a_{n}=\\frac{1}{2}a_{n-1}$.</p><p>所以 $\\{a_{n}\\}$ 是首项为 $2048$、公比为 $\\dfrac{1}{2}$ 的等比数列，从而</p>\n$$\na_{n}=2048\\left(\\frac{1}{2}\\right)^{n-1}=2^{12-n}\n$$\n</li><li><p>由上式</p>\n$$\n\\log_{2}a_{n}=12-n\n$$\n<p>因此</p>\n$$\nT_{n}=\\sum_{k=1}^{n}(12-k)  =12n-\\frac{n(n+1)}{2}  =\\frac{-n^{2}+23n}{2}\n$$\n<p>要求 $T_{n}&#x3C;-509$，即</p><p>$T_{45}=\\frac{-45^{2}+23\\cdot45}{2}=-495>-509$，$T_{46}=\\frac{-46^{2}+23\\cdot46}{2}=-529&#x3C;-509$.</p><p>又</p>\n$$\nT_{n}-T_{n-1}=12-n\n$$\n<p>所以当 $n\\geqslant12$ 时，$\\{T_{n}\\}$ 严格递减；由 $T_{45}>-509$ 和</p><p>$T_{46}&#x3C;-509$ 可知，从第 $46$ 项起 $T_{n}&#x3C;-509$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $n=1$ 时，$S_{1}=a_{1}$，由题设</p><p>$a_{1}+S_{1}=2a_{1}=4096$，$a_{1}=2048$.</p><p>对任意 $n\\geqslant2$，由 $S_{n}=S_{n-1}+a_{n}$ 以及题设分别有</p><p>$a_{n}+S_{n}=4096$，$a_{n-1}+S_{n-1}=4096$.</p><p>两式相减得</p>\n$$\na_{n}+S_{n-1}+a_{n}-\\left(a_{n-1}+S_{n-1}\\right)=0\n$$\n<p>即</p><p>$2a_{n}=a_{n-1}$，$a_{n}=\\frac{1}{2}a_{n-1}$.</p><p>所以 $\\{a_{n}\\}$ 是首项为 $2048$、公比为 $\\dfrac{1}{2}$ 的等比数列，从而</p>\n$$\na_{n}=2048\\left(\\frac{1}{2}\\right)^{n-1}=2^{12-n}\n$$\n</li><li><p>由上式</p>\n$$\n\\log_{2}a_{n}=12-n\n$$\n<p>因此</p>\n$$\nT_{n}=\\sum_{k=1}^{n}(12-k)  =12n-\\frac{n(n+1)}{2}  =\\frac{-n^{2}+23n}{2}\n$$\n<p>要求 $T_{n}<-509$，即</p><p>$T_{45}=\\frac{-45^{2}+23\\cdot45}{2}=-495>-509$，$T_{46}=\\frac{-46^{2}+23\\cdot46}{2}=-529<-509$.</p><p>又</p>\n$$\nT_{n}-T_{n-1}=12-n\n$$\n<p>所以当 $n\\geqslant12$ 时，$\\{T_{n}\\}$ 严格递减；由 $T_{45}>-509$ 和</p><p>$T_{46}<-509$ 可知，从第 $46$ 项起 $T_{n}<-509$.</p></li></ol>"
         },
         {
           "num": 21,
@@ -189,7 +189,7 @@
           "body": "<p>已知函数 $y = x + \\frac{a}{x}$ 有如下性质：如果常数 $a > 0$，那么该函数在 $(0, \\sqrt{a}]$ 上是减函数，在 $[\\sqrt{a}, +\\infty)$ 上是增函数.</p><ol class=\"enumerate\"><li><p>如果函数 $y = x + \\frac{2^{b}}{x}$（$x > 0$）在 $(0,4]$ 上是减函数，在 $[4, +\\infty)$ 上是增函数，求 $b$ 的值；</p></li><li><p>设常数 $c \\in [1,4]$，求函数 $f(x) = x + \\frac{c}{x}$（$1 \\le x \\le 2$）的最大值和最小值；</p></li><li><p>当 $n$ 是正整数时，研究函数 $g(x) = x^{n} + \\frac{c}{x^{n}}$（$c > 0$）的单调性，并说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>题设给出的性质中，函数 $x+\\dfrac{a}{x}$ 的转折点是 $x=\\sqrt{a}$. 这里 $a=2^{b}$，而转折点为 $4$，所以</p>\n$$\n\\sqrt{2^{b}}=4  \\iff 2^{b}=16  \\iff b=4\n$$\n</li><li><p>在 $x>0$ 时，题设性质表明 $f(x)=x+\\dfrac{c}{x}$ 在</p>\n$$\n\\left(0,\\sqrt{c}\\right]\\text{ 上递减，在 }\\left[\\sqrt{c},+\\infty\\right)\\text{ 上递增}\n$$\n<p>由于 $c\\in[1,4]$，所以 $\\sqrt{c}\\in[1,2]$，转折点属于定义域 $[1,2]$，因此最小值为</p>\n$$\nf(\\sqrt{c})=2\\sqrt{c}\n$$\n<p>最大值只能在端点 $x=1$，$2$ 处取得. 两个端点函数值为</p><p>$f(1)=1+c$，$f(2)=2+\\frac{c}{2}$.</p><p>比较二者：</p>\n$$\nf(1)-f(2)=\\frac{c}{2}-1\n$$\n<p>所以</p>\n$$\n\\max f(x)=  \\begin{cases}2+\\dfrac{c}{2},&#x26;1\\le c\\leqslant2,\\\\\n\n1+c,&#x26;2\\le c\\leqslant4,\\end{cases}  \\qquad  \\min f(x)=2\\sqrt{c}\n$$\n</li><li><p>令 $r=\\sqrt[2n]{c}>0$，并令 $t=x^{n}$. 此时</p>\n$$\ng(x)=t+\\frac{c}{t}\n$$\n<p>当 $x>0$ 时，$t=x^{n}$ 随 $x$ 增大而增大；而 $t+\\dfrac{c}{t}$ 在</p><p>$(0,\\sqrt{c}]$ 上递减、在 $[\\sqrt{c},+\\infty)$ 上递增. 转折点</p><p>$t=\\sqrt{c}$ 对应 $x=r$，所以 $g$ 在 $(0,r]$ 上递减，在</p><p>$[r,+\\infty)$ 上递增.</p><p>当 $x&#x3C;0$ 时，考察</p><p>$h(t)=t+\\frac{c}{t}$，$h'(t)=1-\\frac{c}{t^{2}}$.</p><p>因此 $h$ 在 $(-\\infty,-\\sqrt{c}]$ 上递增，在</p><p>$[-\\sqrt{c},0)$ 上递减.</p><p>若 $n$ 为奇数，$x^{n}$ 随 $x$ 增大而增大，且</p>\n$$\n(-\\infty,-r]\\xrightarrow{x^n}(-\\infty,-\\sqrt{c}],\\qquad  [-r,0)\\xrightarrow{x^n}[-\\sqrt{c},0)\n$$\n<p>故 $g$ 在 $(-\\infty,-r]$ 上递增，在 $[-r,0)$ 上递减.</p><p>若 $n$ 为偶数，$x^{n}$ 在负半轴上随 $x$ 增大而减小. 当</p>\n$$\n(-\\infty,-r]\\xrightarrow{x^n}[\\sqrt{c},+\\infty),\\qquad  [-r,0)\\xrightarrow{x^n}(0,\\sqrt{c}]\n$$\n<p>结合 $h$ 在正数上的增减性，得 $g$ 在</p><p>$(-\\infty,-r]$ 上递减，在 $[-r,0)$ 上递增.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>题设给出的性质中，函数 $x+\\dfrac{a}{x}$ 的转折点是 $x=\\sqrt{a}$. 这里 $a=2^{b}$，而转折点为 $4$，所以</p>\n$$\n\\sqrt{2^{b}}=4  \\iff 2^{b}=16  \\iff b=4\n$$\n</li><li><p>在 $x>0$ 时，题设性质表明 $f(x)=x+\\dfrac{c}{x}$ 在</p>\n$$\n\\left(0,\\sqrt{c}\\right]\\text{ 上递减，在 }\\left[\\sqrt{c},+\\infty\\right)\\text{ 上递增}\n$$\n<p>由于 $c\\in[1,4]$，所以 $\\sqrt{c}\\in[1,2]$，转折点属于定义域 $[1,2]$，因此最小值为</p>\n$$\nf(\\sqrt{c})=2\\sqrt{c}\n$$\n<p>最大值只能在端点 $x=1$，$2$ 处取得. 两个端点函数值为</p><p>$f(1)=1+c$，$f(2)=2+\\frac{c}{2}$.</p><p>比较二者：</p>\n$$\nf(1)-f(2)=\\frac{c}{2}-1\n$$\n<p>所以</p>\n$$\n\\max f(x)=  \\begin{cases}2+\\dfrac{c}{2},&1\\le c\\leqslant2,\\\\\n\n1+c,&2\\le c\\leqslant4,\\end{cases}  \\qquad  \\min f(x)=2\\sqrt{c}\n$$\n</li><li><p>令 $r=\\sqrt[2n]{c}>0$，并令 $t=x^{n}$. 此时</p>\n$$\ng(x)=t+\\frac{c}{t}\n$$\n<p>当 $x>0$ 时，$t=x^{n}$ 随 $x$ 增大而增大；而 $t+\\dfrac{c}{t}$ 在</p><p>$(0,\\sqrt{c}]$ 上递减、在 $[\\sqrt{c},+\\infty)$ 上递增. 转折点</p><p>$t=\\sqrt{c}$ 对应 $x=r$，所以 $g$ 在 $(0,r]$ 上递减，在</p><p>$[r,+\\infty)$ 上递增.</p><p>当 $x<0$ 时，考察</p><p>$h(t)=t+\\frac{c}{t}$，$h'(t)=1-\\frac{c}{t^{2}}$.</p><p>因此 $h$ 在 $(-\\infty,-\\sqrt{c}]$ 上递增，在</p><p>$[-\\sqrt{c},0)$ 上递减.</p><p>若 $n$ 为奇数，$x^{n}$ 随 $x$ 增大而增大，且</p>\n$$\n(-\\infty,-r]\\xrightarrow{x^n}(-\\infty,-\\sqrt{c}],\\qquad  [-r,0)\\xrightarrow{x^n}[-\\sqrt{c},0)\n$$\n<p>故 $g$ 在 $(-\\infty,-r]$ 上递增，在 $[-r,0)$ 上递减.</p><p>若 $n$ 为偶数，$x^{n}$ 在负半轴上随 $x$ 增大而减小. 当</p>\n$$\n(-\\infty,-r]\\xrightarrow{x^n}[\\sqrt{c},+\\infty),\\qquad  [-r,0)\\xrightarrow{x^n}(0,\\sqrt{c}]\n$$\n<p>结合 $h$ 在正数上的增减性，得 $g$ 在</p><p>$(-\\infty,-r]$ 上递减，在 $[-r,0)$ 上递增.</p></li></ol>"
         }
       ]
     }

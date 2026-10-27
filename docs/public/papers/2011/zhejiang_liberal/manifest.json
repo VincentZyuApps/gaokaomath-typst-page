@@ -9,7 +9,7 @@
       "problems": [
         {
           "num": 1,
-          "body": "若 $P = \\{x \\mid x &#x3C; 1\\}$，$Q = \\{x \\mid x > -1\\}$，则（ ）",
+          "body": "若 $P = \\{x \\mid x < 1\\}$，$Q = \\{x \\mid x > -1\\}$，则（ ）",
           "choices": [
             "$P \\subseteq Q$",
             "$Q \\subseteq P$",
@@ -17,7 +17,7 @@
             "$Q \\subseteq \\complement_{\\mathbb{R}}P$"
           ],
           "answer": "C",
-          "solution": "由 $P=\\{x\\in\\mathbb{R}\\mid x&#x3C;1\\}$，得 $\\complement_{\\mathbb{R}}P=\\{x\\in\\mathbb{R}\\mid x\\ge 1\\}$. 任取 $x\\in\\complement_{\\mathbb{R}}P$，都有 $x\\ge 1>-1$，所以 $x\\in Q$，从而 $\\complement_{\\mathbb{R}}P\\subseteq Q$. 另外，取 $x=-2$ 可知 $P\\not\\subseteq Q$，取 $x=2$ 可知 $Q\\not\\subseteq P$，且 $0\\in Q$ 但 $0\\notin\\complement_{\\mathbb{R}}P$，故只有第三个选项 正确."
+          "solution": "由 $P=\\{x\\in\\mathbb{R}\\mid x<1\\}$，得 $\\complement_{\\mathbb{R}}P=\\{x\\in\\mathbb{R}\\mid x\\ge 1\\}$. 任取 $x\\in\\complement_{\\mathbb{R}}P$，都有 $x\\ge 1>-1$，所以 $x\\in Q$，从而 $\\complement_{\\mathbb{R}}P\\subseteq Q$. 另外，取 $x=-2$ 可知 $P\\not\\subseteq Q$，取 $x=2$ 可知 $Q\\not\\subseteq P$，且 $0\\in Q$ 但 $0\\notin\\complement_{\\mathbb{R}}P$，故只有第三个选项 正确."
         },
         {
           "num": 2,
@@ -69,7 +69,7 @@
         },
         {
           "num": 6,
-          "body": "若 $a$，$b$ 为实数，则“$0 &#x3C; ab &#x3C; 1$”是“$b &#x3C; \\frac{1}{a}$”的（ ）",
+          "body": "若 $a$，$b$ 为实数，则“$0 < ab < 1$”是“$b < \\frac{1}{a}$”的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -77,7 +77,7 @@
             "既不充分也不必要条件"
           ],
           "answer": "D",
-          "solution": "若 $0&#x3C;ab&#x3C;1$，则 $a\\neq 0$. 当 $a>0$ 时，除以 $a$ 得 $0&#x3C;b&#x3C;\\frac{1}{a}$，因而 $b&#x3C;\\frac{1}{a}$；当 $a&#x3C;0$ 时，除以 $a$ 时不等号反向，得 $\\frac{1}{a}&#x3C;b&#x3C;0$，此时 $b&#x3C;\\frac{1}{a}$ 反而不成立，所以该条件不是充分条件. 反过来，取 $a=1$，$b=-1$，有 $b&#x3C;\\frac{1}{a}$，但 $ab=-1\\notin(0,1)$，所以它也不是必要条件. 故第四个选项 正确."
+          "solution": "若 $0<ab<1$，则 $a\\neq 0$. 当 $a>0$ 时，除以 $a$ 得 $0<b<\\frac{1}{a}$，因而 $b<\\frac{1}{a}$；当 $a<0$ 时，除以 $a$ 时不等号反向，得 $\\frac{1}{a}<b<0$，此时 $b<\\frac{1}{a}$ 反而不成立，所以该条件不是充分条件. 反过来，取 $a=1$，$b=-1$，有 $b<\\frac{1}{a}$，但 $ab=-1\\notin(0,1)$，所以它也不是必要条件. 故第四个选项 正确."
         },
         {
           "num": 7,
@@ -125,7 +125,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang_liberal/q10_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "令 $g(x)=f(x)\\mathrm{e}^{x}$. 因为 $\\mathrm{e}^{x}>0$，有 $g'(x)=\\mathrm{e}^{x}\\bigl(f'(x)+f(x)\\bigr)$. 由 $x=-1$ 是极值点，首先有 $g'(-1)=0$，于是 $f'(-1)+f(-1)=(-2a+b)+(a-b+c)=c-a=0$，即 $c=a$. 因此所有可能的抛物线都满足 $f(x)=ax^{2}+bx+a$. 若第四个选项 的图象成立，则其开口向上，且两个零点都在 $-1$ 的左侧. 设两个零点为 $x_{1}$，$x_{2}$，由韦达定理 $x_{1}x_{2}=\\frac{a}{a}=1$，但 $x_{1}&#x3C;-1$，$x_{2}&#x3C;-1$ 会推出 $x_{1}x_{2}>1$，矛盾. 因此第四个选项 的图象不可能."
+          "solution": "令 $g(x)=f(x)\\mathrm{e}^{x}$. 因为 $\\mathrm{e}^{x}>0$，有 $g'(x)=\\mathrm{e}^{x}\\bigl(f'(x)+f(x)\\bigr)$. 由 $x=-1$ 是极值点，首先有 $g'(-1)=0$，于是 $f'(-1)+f(-1)=(-2a+b)+(a-b+c)=c-a=0$，即 $c=a$. 因此所有可能的抛物线都满足 $f(x)=ax^{2}+bx+a$. 若第四个选项 的图象成立，则其开口向上，且两个零点都在 $-1$ 的左侧. 设两个零点为 $x_{1}$，$x_{2}$，由韦达定理 $x_{1}x_{2}=\\frac{a}{a}=1$，但 $x_{1}<-1$，$x_{2}<-1$ 会推出 $x_{1}x_{2}>1$，矛盾. 因此第四个选项 的图象不可能."
         }
       ]
     },
@@ -158,14 +158,14 @@
           "body": "<p>某程序框图如图所示，则该程序运行后输出的 $k$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.70<span class=\"macro macro-linewidth\"></span>]img_repaint/2011/zhejiang_liberal/q14_fig1.tex</p>",
           "choices": null,
           "answer": "$5$",
-          "solution": "程序开始时 $k=2$，执行一次 $k\\leftarrow k+1$ 后得到 $k=3$，此时 $4^{3}=64&#x3C;3^{4}=81$，继续循环. 随后 $k=4$ 时 $4^{4}=4^{4}$，仍不满足 $4^{k}>k^{4}$. 再执行一次循环得到 $k=5$，此时 $4^{5}=1024>5^{4}=625$，程序输出 $k=5$."
+          "solution": "程序开始时 $k=2$，执行一次 $k\\leftarrow k+1$ 后得到 $k=3$，此时 $4^{3}=64<3^{4}=81$，继续循环. 随后 $k=4$ 时 $4^{4}=4^{4}$，仍不满足 $4^{k}>k^{4}$. 再执行一次循环得到 $k=5$，此时 $4^{5}=1024>5^{4}=625$，程序输出 $k=5$."
         },
         {
           "num": 15,
           "body": "若平面向量 $\\mathbf{\\alpha}$，$\\mathbf{\\beta}$ 满足 $|\\mathbf{\\alpha}| = 1$，$|\\mathbf{\\beta}| \\le 1$，且以向量 $\\mathbf{\\alpha}$，$\\mathbf{\\beta}$ 为邻边的平行四边形的面积为 $\\frac{1}{2}$，则 $\\mathbf{\\alpha}$ 和 $\\mathbf{\\beta}$ 的夹角 $\\theta$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left[\\frac{\\pi}{6},\\frac{5\\pi}{6}\\right]$",
-          "solution": "平行四边形的面积满足 $|\\mathbf{\\alpha}|\\,|\\mathbf{\\beta}|\\sin\\theta=\\frac{1}{2}$. 由 $|\\mathbf{\\alpha}|=1$ 及 $|\\mathbf{\\beta}|\\leqslant1$，得 $\\sin\\theta=\\frac{1}{2|\\mathbf{\\beta}|}\\ge\\frac{1}{2}$. 面积为正，故 $0&#x3C;\\theta&#x3C;\\pi$. 因此 $\\sin\\theta\\ge\\frac{1}{2}$ 等价于 $\\frac{\\pi}{6}\\le\\theta\\le\\frac{5\\pi}{6}$. 反之，对该区间内任意的 $\\theta$，取 $|\\mathbf{\\beta}|=\\frac{1}{2\\sin\\theta}\\leqslant1$ 即可满足面积条件，所以取值范围正是上述闭区间."
+          "solution": "平行四边形的面积满足 $|\\mathbf{\\alpha}|\\,|\\mathbf{\\beta}|\\sin\\theta=\\frac{1}{2}$. 由 $|\\mathbf{\\alpha}|=1$ 及 $|\\mathbf{\\beta}|\\leqslant1$，得 $\\sin\\theta=\\frac{1}{2|\\mathbf{\\beta}|}\\ge\\frac{1}{2}$. 面积为正，故 $0<\\theta<\\pi$. 因此 $\\sin\\theta\\ge\\frac{1}{2}$ 等价于 $\\frac{\\pi}{6}\\le\\theta\\le\\frac{5\\pi}{6}$. 反之，对该区间内任意的 $\\theta$，取 $|\\mathbf{\\beta}|=\\frac{1}{2\\sin\\theta}\\leqslant1$ 即可满足面积条件，所以取值范围正是上述闭区间."
         },
         {
           "num": 16,
@@ -179,7 +179,7 @@
           "body": "若数列 $\\left\\{n(n + 4)\\left(\\frac{2}{3}\\right)^{n}\\right\\}$ 中的最大项是第 $k$ 项，则 $k =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$4$",
-          "solution": "记 $u_{n}=n(n+4)\\left(\\frac{2}{3}\\right)^{n}$. 因为 $u_{n}>0$，考察相邻两项之比，得 $\\frac{u_{n+1}}{u_{n}}=\\frac{(n+1)(n+5)}{n(n+4)}\\cdot\\frac{2}{3}$. 当 $n\\in\\mathbb{N}^{*}$ 时，$\\frac{u_{n+1}}{u_{n}}>1$ 等价于 $2(n+1)(n+5)>3n(n+4)$，即 $n^{2}&#x3C;10$. 所以 $u_{1}&#x3C;u_{2}&#x3C;u_{3}&#x3C;u_{4}$，而从 $n=4$ 开始相邻两项之比小于 $1$，数列递减. 故最大项为第 $4$ 项，即 $k=4$."
+          "solution": "记 $u_{n}=n(n+4)\\left(\\frac{2}{3}\\right)^{n}$. 因为 $u_{n}>0$，考察相邻两项之比，得 $\\frac{u_{n+1}}{u_{n}}=\\frac{(n+1)(n+5)}{n(n+4)}\\cdot\\frac{2}{3}$. 当 $n\\in\\mathbb{N}^{*}$ 时，$\\frac{u_{n+1}}{u_{n}}>1$ 等价于 $2(n+1)(n+5)>3n(n+4)$，即 $n^{2}<10$. 所以 $u_{1}<u_{2}<u_{3}<u_{4}$，而从 $n=4$ 开始相邻两项之比小于 $1$，数列递减. 故最大项为第 $4$ 项，即 $k=4$."
         }
       ]
     },
@@ -188,17 +188,17 @@
       "problems": [
         {
           "num": 18,
-          "body": "<p>已知函数 $f(x) = A \\sin \\left( \\frac{\\pi}{3}x + \\varphi \\right)$，$x \\in \\mathbb{R}$，$A > 0$，$0 &#x3C; \\varphi &#x3C; \\frac{\\pi}{2}$. $y = f(x)$ 的部分图象如图所示，$P$，$Q$ 分别为该图象的最高点和最低点，点 $P$ 的坐标为 $(1,A)$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的最小正周期及 $\\varphi$ 的值；</p></li><li><p>若点 $R$ 的坐标为 $(1,0)$，$\\angle PRQ = \\frac{2\\pi}{3}$，求 $A$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "body": "<p>已知函数 $f(x) = A \\sin \\left( \\frac{\\pi}{3}x + \\varphi \\right)$，$x \\in \\mathbb{R}$，$A > 0$，$0 < \\varphi < \\frac{\\pi}{2}$. $y = f(x)$ 的部分图象如图所示，$P$，$Q$ 分别为该图象的最高点和最低点，点 $P$ 的坐标为 $(1,A)$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的最小正周期及 $\\varphi$ 的值；</p></li><li><p>若点 $R$ 的坐标为 $(1,0)$，$\\angle PRQ = \\frac{2\\pi}{3}$，求 $A$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的角频率为 $\\frac{\\pi}{3}$，所以最小正周期 $T=\\frac{2\\pi}{\\frac{\\pi}{3}}=6$. 又因为 $P=(1,A)$ 是最高点，所以 $\\sin\\left(\\frac{\\pi}{3}+\\varphi\\right)=1$. 由 $0&#x3C;\\varphi&#x3C;\\frac{\\pi}{2}$，有 $\\frac{\\pi}{3}&#x3C;\\frac{\\pi}{3}+\\varphi&#x3C;\\frac{5\\pi}{6}$，故只能取 $\\frac{\\pi}{3}+\\varphi=\\frac{\\pi}{2}$，从而 $\\varphi=\\frac{\\pi}{6}$.</p></li><li><p>由 $\\varphi=\\frac{\\pi}{6}$，函数最低点的横坐标满足 $\\frac{\\pi}{3}x+\\frac{\\pi}{6}=\\frac{3\\pi}{2}$，结合图中所示位置得 $Q=(4,-A)$. 于是 $\\overrightarrow{RP}=(0,A)$，$\\overrightarrow{RQ}=(3,-A)$. 由夹角公式，</p>\n$$\n\\cos\\angle PRQ=\\frac{\\overrightarrow{RP}\\cdot\\overrightarrow{RQ}}{|\\overrightarrow{RP}|\\,|\\overrightarrow{RQ}|}=-\\frac{A}{\\sqrt{9+A^{2}}}\n$$\n<p>代入 $\\angle PRQ=\\frac{2\\pi}{3}$，得 $-\\frac{A}{\\sqrt{9+A^{2}}}=-\\frac{1}{2}$，所以 $4A^{2}=9+A^{2}$. 因为 $A>0$，故 $A=\\sqrt{3}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的角频率为 $\\frac{\\pi}{3}$，所以最小正周期 $T=\\frac{2\\pi}{\\frac{\\pi}{3}}=6$. 又因为 $P=(1,A)$ 是最高点，所以 $\\sin\\left(\\frac{\\pi}{3}+\\varphi\\right)=1$. 由 $0<\\varphi<\\frac{\\pi}{2}$，有 $\\frac{\\pi}{3}<\\frac{\\pi}{3}+\\varphi<\\frac{5\\pi}{6}$，故只能取 $\\frac{\\pi}{3}+\\varphi=\\frac{\\pi}{2}$，从而 $\\varphi=\\frac{\\pi}{6}$.</p></li><li><p>由 $\\varphi=\\frac{\\pi}{6}$，函数最低点的横坐标满足 $\\frac{\\pi}{3}x+\\frac{\\pi}{6}=\\frac{3\\pi}{2}$，结合图中所示位置得 $Q=(4,-A)$. 于是 $\\overrightarrow{RP}=(0,A)$，$\\overrightarrow{RQ}=(3,-A)$. 由夹角公式，</p>\n$$\n\\cos\\angle PRQ=\\frac{\\overrightarrow{RP}\\cdot\\overrightarrow{RQ}}{|\\overrightarrow{RP}|\\,|\\overrightarrow{RQ}|}=-\\frac{A}{\\sqrt{9+A^{2}}}\n$$\n<p>代入 $\\angle PRQ=\\frac{2\\pi}{3}$，得 $-\\frac{A}{\\sqrt{9+A^{2}}}=-\\frac{1}{2}$，所以 $4A^{2}=9+A^{2}$. 因为 $A>0$，故 $A=\\sqrt{3}$.</p></li></ol>"
         },
         {
           "num": 19,
           "body": "<p>已知公差不为 0 的等差数列 $\\{a_{n}\\}$ 的首项 $a_{1}$ 为 $a$ （$a \\in \\mathbb{R}$），且 $\\frac{1}{a_{1}}$，$\\frac{1}{a_{2}}$，$\\frac{1}{a_{4}}$ 成等比数列.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>对 $n \\in \\mathbb{N}^{*}$，试比较 $\\frac{1}{a_{2}}+ \\frac{1}{a_{2^2}}+ \\frac{1}{a_{2^3}}+ \\cdots + \\frac{1}{a_{2^n}}$ 与 $\\frac{1}{a_{1}}$ 的大小.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>设公差为 $d$，则 $a_{1}=a$，$a_{2}=a+d$，$a_{4}=a+3d$. 因为三个倒数成等比数列，所以 $\\left(\\frac{1}{a_{2}}\\right)^{2}=\\frac{1}{a_{1}a_{4}}$，即 $a(a+3d)=(a+d)^{2}$. 整理得 $d(a-d)=0$. 由 $d\\neq0$，得 $d=a$，于是 $a_{n}=a+(n-1)d=na$. 由于 $\\frac{1}{a_{1}}$ 有意义，所以 $a\\neq0$.</p></li><li><p>由 $a_{2^j}=2^{j} a$，所求和为 $S_{n}=\\frac{1}{a}\\left(\\frac{1}{2}+\\frac{1}{2^{2}}+\\cdots+\\frac{1}{2^{n}}\\right)=\\frac{1}{a}\\left(1-\\frac{1}{2^{n}}\\right)$. 因此 $S_{n}-\\frac{1}{a}=-\\frac{1}{a2^{n}}$. 当 $a>0$ 时，$S_{n}&#x3C;\\frac{1}{a}$；当 $a&#x3C;0$ 时，$S_{n}>\\frac{1}{a}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>设公差为 $d$，则 $a_{1}=a$，$a_{2}=a+d$，$a_{4}=a+3d$. 因为三个倒数成等比数列，所以 $\\left(\\frac{1}{a_{2}}\\right)^{2}=\\frac{1}{a_{1}a_{4}}$，即 $a(a+3d)=(a+d)^{2}$. 整理得 $d(a-d)=0$. 由 $d\\neq0$，得 $d=a$，于是 $a_{n}=a+(n-1)d=na$. 由于 $\\frac{1}{a_{1}}$ 有意义，所以 $a\\neq0$.</p></li><li><p>由 $a_{2^j}=2^{j} a$，所求和为 $S_{n}=\\frac{1}{a}\\left(\\frac{1}{2}+\\frac{1}{2^{2}}+\\cdots+\\frac{1}{2^{n}}\\right)=\\frac{1}{a}\\left(1-\\frac{1}{2^{n}}\\right)$. 因此 $S_{n}-\\frac{1}{a}=-\\frac{1}{a2^{n}}$. 当 $a>0$ 时，$S_{n}<\\frac{1}{a}$；当 $a<0$ 时，$S_{n}>\\frac{1}{a}$.</p></li></ol>"
         },
         {
           "num": 20,

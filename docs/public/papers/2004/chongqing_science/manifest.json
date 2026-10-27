@@ -17,7 +17,7 @@
             "$\\left(\\frac{2}{3},1\\right]$"
           ],
           "answer": "D",
-          "solution": "<p>根式有意义要求 $\\log_{\\frac{1}{2}}(3x-2)\\geqslant0$. 同时，对数的真数必须为正. 由于底数 $\\frac{1}{2}$ 小于 $1$，有</p>\n$$\n\\log_{\\frac{1}{2}}(3x-2)\\geqslant0\\Longleftrightarrow 0&#x3C;3x-2\\leqslant1\n$$\n<p>因此 $\\frac{2}{3}&#x3C;x\\leqslant1$，定义域为 $\\left(\\frac{2}{3},1\\right]$，故选 D.</p>"
+          "solution": "<p>根式有意义要求 $\\log_{\\frac{1}{2}}(3x-2)\\geqslant0$. 同时，对数的真数必须为正. 由于底数 $\\frac{1}{2}$ 小于 $1$，有</p>\n$$\n\\log_{\\frac{1}{2}}(3x-2)\\geqslant0\\Longleftrightarrow 0<3x-2\\leqslant1\n$$\n<p>因此 $\\frac{2}{3}<x\\leqslant1$，定义域为 $\\left(\\frac{2}{3},1\\right]$，故选 D.</p>"
         },
         {
           "num": 2,
@@ -83,13 +83,13 @@
           "num": 7,
           "body": "一元二次方程 $ax^{2}+2x+1=0$（$a\\neq0$）有一个正根和一个负根的充分不必要条件是（ ）",
           "choices": [
-            "$a&#x3C;0$",
+            "$a<0$",
             "$a>0$",
-            "$a&#x3C;-1$",
+            "$a<-1$",
             "$a>1$"
           ],
           "answer": "C",
-          "solution": "<p>设方程的两个根为 $x_{1}$，$x_{2}$. 若两根一正一负，则由韦达定理</p>\n$$\nx_{1}x_{2}=\\frac{1}{a}&#x3C;0\n$$\n<p>从而必须有 $a&#x3C;0$. 反之，当 $a&#x3C;0$ 时，判别式</p>\n$$\n\\Delta=2^{2}-4a=4(1-a)>0\n$$\n<p>方程有两个不等实根，且根的乘积 $\\frac{1}{a}&#x3C;0$，因此两根必然一正一负. 可见，方程有一个正根和一个负根的充要条件是 $a&#x3C;0$.</p><p>题目要求的是这个性质的充分不必要条件. 当 $a&#x3C;-1$ 时必有 $a&#x3C;0$，所以方程必有一个正根和一个负根；但例如 $a=-\\frac{1}{2}$ 时方程同样有一个正根和一个负根，而 $a&#x3C;-1$ 不成立，故 $a&#x3C;-1$ 不是必要条件. 因此所求条件为 $a&#x3C;-1$，故选 C.</p>"
+          "solution": "<p>设方程的两个根为 $x_{1}$，$x_{2}$. 若两根一正一负，则由韦达定理</p>\n$$\nx_{1}x_{2}=\\frac{1}{a}<0\n$$\n<p>从而必须有 $a<0$. 反之，当 $a<0$ 时，判别式</p>\n$$\n\\Delta=2^{2}-4a=4(1-a)>0\n$$\n<p>方程有两个不等实根，且根的乘积 $\\frac{1}{a}<0$，因此两根必然一正一负. 可见，方程有一个正根和一个负根的充要条件是 $a<0$.</p><p>题目要求的是这个性质的充分不必要条件. 当 $a<-1$ 时必有 $a<0$，所以方程必有一个正根和一个负根；但例如 $a=-\\frac{1}{2}$ 时方程同样有一个正根和一个负根，而 $a<-1$ 不成立，故 $a<-1$ 不是必要条件. 因此所求条件为 $a<-1$，故选 C.</p>"
         },
         {
           "num": 8,
@@ -105,7 +105,7 @@
         },
         {
           "num": 9,
-          "body": "若数列 $\\{a_{n}\\}$ 是等差数列，首项 $a_{1}>0$，$a_{2003}+a_{2004}>0$，$a_{2003}\\cdot a_{2004}&#x3C;0$，则使前 $n$ 项和 $S_{n}>0$ 成立的最大自然数 $n$ 是（ ）",
+          "body": "若数列 $\\{a_{n}\\}$ 是等差数列，首项 $a_{1}>0$，$a_{2003}+a_{2004}>0$，$a_{2003}\\cdot a_{2004}<0$，则使前 $n$ 项和 $S_{n}>0$ 成立的最大自然数 $n$ 是（ ）",
           "choices": [
             "$4005$",
             "$4006$",
@@ -113,7 +113,7 @@
             "$4008$"
           ],
           "answer": "B",
-          "solution": "<p>设公差为 $d$. 由 $a_{1}>0$ 及 $a_{2003}a_{2004}&#x3C;0$，可知 $d&#x3C;0$，并且</p>\n$$\na_{2003}>0>a_{2004}\n$$\n<p>令</p>\n$$\nr=-\\frac{2a_{1}}{d}>0\n$$\n<p>由 $a_{2003}>0$，$a_{2004}&#x3C;0$ 以及 $a_{2003}+a_{2004}>0$，分别得到</p><p>$r>4004$，$r&#x3C;4006$，$r>4005$，</p><p>所以 $4005&#x3C;r&#x3C;4006$. 又</p>\n$$\nS_{n}=\\frac{n}{2}\\left(2a_{1}+(n-1)d\\right)=\\frac{nd}{2}\\left((n-1)-r\\right)\n$$\n<p>因为 $n>0$ 且 $d&#x3C;0$，故 $S_{n}>0$ 等价于 $n-1&#x3C;r$. 由 $4005&#x3C;r&#x3C;4006$，满足条件的最大自然数为 $n=4006$，故选 B.</p>"
+          "solution": "<p>设公差为 $d$. 由 $a_{1}>0$ 及 $a_{2003}a_{2004}<0$，可知 $d<0$，并且</p>\n$$\na_{2003}>0>a_{2004}\n$$\n<p>令</p>\n$$\nr=-\\frac{2a_{1}}{d}>0\n$$\n<p>由 $a_{2003}>0$，$a_{2004}<0$ 以及 $a_{2003}+a_{2004}>0$，分别得到</p><p>$r>4004$，$r<4006$，$r>4005$，</p><p>所以 $4005<r<4006$. 又</p>\n$$\nS_{n}=\\frac{n}{2}\\left(2a_{1}+(n-1)d\\right)=\\frac{nd}{2}\\left((n-1)-r\\right)\n$$\n<p>因为 $n>0$ 且 $d<0$，故 $S_{n}>0$ 等价于 $n-1<r$. 由 $4005<r<4006$，满足条件的最大自然数为 $n=4006$，故选 B.</p>"
         },
         {
           "num": 10,
@@ -149,7 +149,7 @@
             "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/chongqing_science/q12_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "<p>设平面 $ABC$ 与平面 $BCD$ 所成的二面角为 $\\omega$. 对位于平面 $ABC$ 内的点 $P$，其到平面 $BCD$ 的距离等于其到交线 $BC$ 的平面距离乘以 $\\sin\\omega$. 因此题设条件可写为</p>\n$$\nd(P,AB)=d(P,BC)\\sin\\omega\n$$\n<p>其中 $0&#x3C;\\sin\\omega\\leqslant1$.</p><p>设 $\\angle ABC=\\beta$，射线 $BP$ 与 $BC$ 的夹角为 $\\varphi$. 则</p><p>$d(P,BC)=BP\\sin\\varphi$，$d(P,AB)=BP\\sin\\left(\\beta-\\varphi\\right)$</p><p>题设等式确定了从 $B$ 出发的一条直线射线，因为</p>\n$$\n\\frac{\\sin\\left(\\beta-\\varphi\\right)}{\\sin\\varphi}=\\sin\\omega\n$$\n<p>左端随 $\\varphi$ 在 $\\left(0,\\beta\\right)$ 内严格减小，且在角平分线处等于 $1$. 由于右端不大于 $1$，轨迹必在角平分线靠近 $BA$ 的一侧，即更靠近边 $AB$ 的直线. 四个图形中符合这一位置关系的是第四个图形，故选 D.</p>"
+          "solution": "<p>设平面 $ABC$ 与平面 $BCD$ 所成的二面角为 $\\omega$. 对位于平面 $ABC$ 内的点 $P$，其到平面 $BCD$ 的距离等于其到交线 $BC$ 的平面距离乘以 $\\sin\\omega$. 因此题设条件可写为</p>\n$$\nd(P,AB)=d(P,BC)\\sin\\omega\n$$\n<p>其中 $0<\\sin\\omega\\leqslant1$.</p><p>设 $\\angle ABC=\\beta$，射线 $BP$ 与 $BC$ 的夹角为 $\\varphi$. 则</p><p>$d(P,BC)=BP\\sin\\varphi$，$d(P,AB)=BP\\sin\\left(\\beta-\\varphi\\right)$</p><p>题设等式确定了从 $B$ 出发的一条直线射线，因为</p>\n$$\n\\frac{\\sin\\left(\\beta-\\varphi\\right)}{\\sin\\varphi}=\\sin\\omega\n$$\n<p>左端随 $\\varphi$ 在 $\\left(0,\\beta\\right)$ 内严格减小，且在角平分线处等于 $1$. 由于右端不大于 $1$，轨迹必在角平分线靠近 $BA$ 的一侧，即更靠近边 $AB$ 的直线. 四个图形中符合这一位置关系的是第四个图形，故选 D.</p>"
         }
       ]
     },
@@ -229,7 +229,7 @@
           "body": "<p>设数列 $\\{a_{n}\\}$ 满足 $a_{1}=2$，$a_{n+1}=a_{n}+\\frac{1}{a_{n}}$（$n=1$，$2$，$3$，$\\ldots$）.</p><ol class=\"enumerate\"><li><p>证明 $a_{n}>\\sqrt{2n+1}$ 对一切正整数 $n$ 成立；</p></li><li><p>令 $b_{n}=\\frac{a_{n}}{\\sqrt[n]{n}}$（$n=1$，$2$，$\\cdots$），判断 $b_{n}$ 与 $b_{n+1}$ 的大小，并说明理由.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $n=1$ 时，$a_{1}=2>\\sqrt{3}=\\sqrt{2\\cdot1+1}$. 若对某个正整数 $n$ 有 $a_{n}>\\sqrt{2n+1}>0$，则</p>\n$$\na_{n+1}^{2}=\\left(a_{n}+\\frac{1}{a_{n}}\\right)^{2}=a_{n}^{2}+2+\\frac{1}{a_{n}^{2}}>2n+1+2=2(n+1)+1\n$$\n<p>又 $a_{n+1}>0$，所以 $a_{n+1}>\\sqrt{2(n+1)+1}$. 由数学归纳法，结论对一切正整数 $n$ 成立.</p></li><li><p>由递推式知 $a_{n+1}>a_{n}>0$. 先比较前两项，$a_{2}=\\frac{5}{2}$，故</p>\n$$\nb_{1}=2>\\frac{5}{2\\sqrt{2}}=b_{2}\n$$\n<p>其中不等式平方后为 $32>25$.</p><p>当 $n=2$ 时，$a_{3}=\\frac{29}{10}$，且</p>\n$$\nb_{3}>b_{2}\\Longleftrightarrow29\\sqrt{2}>25\\sqrt[3]{3}\n$$\n<p>由于 $\\sqrt{2}>\\frac{7}{5}$，$\\sqrt[3]{3}&#x3C;\\frac{3}{2}$，有</p>\n$$\n29\\sqrt{2}>\\frac{203}{5}>\\frac{75}{2}>25\\sqrt[3]{3}\n$$\n<p>故 $b_{3}>b_{2}$.</p><p>当 $n\\geqslant3$ 时，函数 $g(x)=\\frac{\\ln x}{x}$ 满足</p>\n$$\ng'(x)=\\frac{1-\\ln x}{x^{2}}&#x3C;0\n$$\n<p>所以 $(n+1)^{\\frac{1}{(n+1)}}&#x3C;n^{\\frac{1}{n}}$. 结合 $a_{n+1}>a_{n}>0$，得到</p>\n$$\nb_{n+1}=\\frac{a_{n+1}}{(n+1)^{\\frac{1}{(n+1)}}}>\\frac{a_{n}}{n^{\\frac{1}{n}}}=b_{n}\n$$\n<p>综上，$b_{1}>b_{2}$，且对一切 $n\\geqslant2$，都有 $b_{n}&#x3C;b_{n+1}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $n=1$ 时，$a_{1}=2>\\sqrt{3}=\\sqrt{2\\cdot1+1}$. 若对某个正整数 $n$ 有 $a_{n}>\\sqrt{2n+1}>0$，则</p>\n$$\na_{n+1}^{2}=\\left(a_{n}+\\frac{1}{a_{n}}\\right)^{2}=a_{n}^{2}+2+\\frac{1}{a_{n}^{2}}>2n+1+2=2(n+1)+1\n$$\n<p>又 $a_{n+1}>0$，所以 $a_{n+1}>\\sqrt{2(n+1)+1}$. 由数学归纳法，结论对一切正整数 $n$ 成立.</p></li><li><p>由递推式知 $a_{n+1}>a_{n}>0$. 先比较前两项，$a_{2}=\\frac{5}{2}$，故</p>\n$$\nb_{1}=2>\\frac{5}{2\\sqrt{2}}=b_{2}\n$$\n<p>其中不等式平方后为 $32>25$.</p><p>当 $n=2$ 时，$a_{3}=\\frac{29}{10}$，且</p>\n$$\nb_{3}>b_{2}\\Longleftrightarrow29\\sqrt{2}>25\\sqrt[3]{3}\n$$\n<p>由于 $\\sqrt{2}>\\frac{7}{5}$，$\\sqrt[3]{3}<\\frac{3}{2}$，有</p>\n$$\n29\\sqrt{2}>\\frac{203}{5}>\\frac{75}{2}>25\\sqrt[3]{3}\n$$\n<p>故 $b_{3}>b_{2}$.</p><p>当 $n\\geqslant3$ 时，函数 $g(x)=\\frac{\\ln x}{x}$ 满足</p>\n$$\ng'(x)=\\frac{1-\\ln x}{x^{2}}<0\n$$\n<p>所以 $(n+1)^{\\frac{1}{(n+1)}}<n^{\\frac{1}{n}}$. 结合 $a_{n+1}>a_{n}>0$，得到</p>\n$$\nb_{n+1}=\\frac{a_{n+1}}{(n+1)^{\\frac{1}{(n+1)}}}>\\frac{a_{n}}{n^{\\frac{1}{n}}}=b_{n}\n$$\n<p>综上，$b_{1}>b_{2}$，且对一切 $n\\geqslant2$，都有 $b_{n}<b_{n+1}$.</p></li></ol>"
         }
       ]
     }

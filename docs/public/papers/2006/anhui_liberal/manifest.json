@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "不等式 $\\frac{1}{x}&#x3C; \\frac{1}{2}$ 的解集是（ ）",
+          "body": "不等式 $\\frac{1}{x}< \\frac{1}{2}$ 的解集是（ ）",
           "choices": [
             "$(-\\infty, 2)$",
             "$(2, +\\infty)$",
@@ -29,7 +29,7 @@
             "$(-\\infty, 2) \\cup (2, +\\infty)$"
           ],
           "answer": "D",
-          "solution": "原不等式的定义域要求 $x\\ne0$. 移项并通分，得 $\\frac{1}{x}-\\frac{1}{2}=\\frac{2-x}{2x}&#x3C;0$. 临界点为 $0$ 和 $2$. 当 $x\\in(-\\infty,0)$ 时，分子为正、分母为负，分式小于零；当 $x\\in(0,2)$ 时，分子、分母均为正，分式大于零；当 $x\\in(2,+\\infty)$ 时，分子为负、分母为正，分式小于零. 所以严格按定义域得到的解集为 $\\left(-\\infty,0\\right)\\cup\\left(2,+\\infty\\right)$. 原卷选项 D 写成 $(-\\infty,2)\\cup(2,+\\infty)$，其中包含无定义点 $x=0$，题面选项存在印刷错误；按原卷标准答案本题记为 D."
+          "solution": "原不等式的定义域要求 $x\\ne0$. 移项并通分，得 $\\frac{1}{x}-\\frac{1}{2}=\\frac{2-x}{2x}<0$. 临界点为 $0$ 和 $2$. 当 $x\\in(-\\infty,0)$ 时，分子为正、分母为负，分式小于零；当 $x\\in(0,2)$ 时，分子、分母均为正，分式大于零；当 $x\\in(2,+\\infty)$ 时，分子为负、分母为正，分式小于零. 所以严格按定义域得到的解集为 $\\left(-\\infty,0\\right)\\cup\\left(2,+\\infty\\right)$. 原卷选项 D 写成 $(-\\infty,2)\\cup(2,+\\infty)$，其中包含无定义点 $x=0$，题面选项存在印刷错误；按原卷标准答案本题记为 D."
         },
         {
           "num": 3,
@@ -89,11 +89,11 @@
             "$(0, \\sqrt{2}+ 1)$"
           ],
           "answer": "A",
-          "solution": "圆的方程可化为 $x^{2}+(y-a)^{2}=a^{2}$，圆心为 $(0,a)$，半径为 $a$. 圆心到直线 $x+y-1=0$ 的距离为 $\\frac{|a-1|}{\\sqrt{2}}$. 直线与圆没有公共点，当且仅当 $\\frac{|a-1|}{\\sqrt{2}}>a$. 当 $a\\geq1$ 时不等式不可能成立；当 $0&#x3C;a&#x3C;1$ 时，$1-a>\\sqrt{2}a$，即 $a&#x3C;\\frac{1}{1+\\sqrt{2}}=\\sqrt{2}-1$. 所以 $0&#x3C;a&#x3C;\\sqrt{2}-1$，选 A."
+          "solution": "圆的方程可化为 $x^{2}+(y-a)^{2}=a^{2}$，圆心为 $(0,a)$，半径为 $a$. 圆心到直线 $x+y-1=0$ 的距离为 $\\frac{|a-1|}{\\sqrt{2}}$. 直线与圆没有公共点，当且仅当 $\\frac{|a-1|}{\\sqrt{2}}>a$. 当 $a\\geq1$ 时不等式不可能成立；当 $0<a<1$ 时，$1-a>\\sqrt{2}a$，即 $a<\\frac{1}{1+\\sqrt{2}}=\\sqrt{2}-1$. 所以 $0<a<\\sqrt{2}-1$，选 A."
         },
         {
           "num": 8,
-          "body": "对于函数 $f(x) = \\frac{\\sin x + 1}{\\sin x}$（$0 &#x3C; x &#x3C; \\pi$），下列结论正确的是（ ）",
+          "body": "对于函数 $f(x) = \\frac{\\sin x + 1}{\\sin x}$（$0 < x < \\pi$），下列结论正确的是（ ）",
           "choices": [
             "有最大值而无最小值",
             "有最小值而无最大值",
@@ -101,7 +101,7 @@
             "既无最大值又无最小值"
           ],
           "answer": "B",
-          "solution": "在 $0&#x3C;x&#x3C;\\pi$ 时，$0&#x3C;\\sin x\\leq1$，故 $f(x)=1+\\frac{1}{\\sin x}\\geq2$. 当 $x=\\frac{\\pi}{2}$ 时取到 $f(x)=2$，所以函数有最小值. 当 $x\\to0^{+}$ 或 $x\\to\\pi^{-}$ 时，$\\sin x\\to0^{+}$，从而 $f(x)\\to+\\infty$，函数没有最大值，故选 B."
+          "solution": "在 $0<x<\\pi$ 时，$0<\\sin x\\leq1$，故 $f(x)=1+\\frac{1}{\\sin x}\\geq2$. 当 $x=\\frac{\\pi}{2}$ 时取到 $f(x)=2$，所以函数有最小值. 当 $x\\to0^{+}$ 或 $x\\to\\pi^{-}$ 时，$\\sin x\\to0^{+}$，从而 $f(x)\\to+\\infty$，函数没有最大值，故选 B."
         },
         {
           "num": 9,
@@ -137,7 +137,7 @@
             "$\\triangle A_{1}B_{1}C_{1}$ 是锐角三角形，$\\triangle A_{2}B_{2}C_{2}$ 是钝角三角形"
           ],
           "answer": "D",
-          "solution": "<p>设两个三角形对应的内角分别为 $A_{i}$，$B_{i}$，$C_{i}$，其中 $\\cos A_{1}=\\sin A_{2}$、$\\cos B_{1}=\\sin B_{2}$、$\\cos C_{1}=\\sin C_{2}$. 右侧三个正弦值均为正，所以左侧三个余弦值均为正，故 $\\triangle A_{1}B_{1}C_{1}$ 为锐角三角形.</p><p>若 $\\triangle A_{2}B_{2}C_{2}$ 也是锐角三角形，则 $\\sin A_{2}=\\cos\\left(\\frac{\\pi}{2}-A_{2}\\right)$，且两角均在 $(0,\\pi)$，由余弦函数在 $(0,\\pi)$ 上的单调性可得 $A_{1}=\\frac{\\pi}{2}-A_{2}$，另外两角同理. 三式相加将得到 $A_{1}+B_{1}+C_{1}=\\frac{\\pi}{2}$，与三角形内角和为 $\\pi$ 矛盾. $\\triangle A_{2}B_{2}C_{2}$ 也不可能有直角，因为若例如 $A_{2}=\\frac{\\pi}{2}$，则 $\\cos A_{1}=\\sin A_{2}=1$，这与三角形内角 $A_{1}\\in(0,\\pi)$ 时 $\\cos A_{1}&#x3C;1$ 矛盾. 因此 $\\triangle A_{2}B_{2}C_{2}$ 必有一个钝角，故选 D.</p>"
+          "solution": "<p>设两个三角形对应的内角分别为 $A_{i}$，$B_{i}$，$C_{i}$，其中 $\\cos A_{1}=\\sin A_{2}$、$\\cos B_{1}=\\sin B_{2}$、$\\cos C_{1}=\\sin C_{2}$. 右侧三个正弦值均为正，所以左侧三个余弦值均为正，故 $\\triangle A_{1}B_{1}C_{1}$ 为锐角三角形.</p><p>若 $\\triangle A_{2}B_{2}C_{2}$ 也是锐角三角形，则 $\\sin A_{2}=\\cos\\left(\\frac{\\pi}{2}-A_{2}\\right)$，且两角均在 $(0,\\pi)$，由余弦函数在 $(0,\\pi)$ 上的单调性可得 $A_{1}=\\frac{\\pi}{2}-A_{2}$，另外两角同理. 三式相加将得到 $A_{1}+B_{1}+C_{1}=\\frac{\\pi}{2}$，与三角形内角和为 $\\pi$ 矛盾. $\\triangle A_{2}B_{2}C_{2}$ 也不可能有直角，因为若例如 $A_{2}=\\frac{\\pi}{2}$，则 $\\cos A_{1}=\\sin A_{2}=1$，这与三角形内角 $A_{1}\\in(0,\\pi)$ 时 $\\cos A_{1}<1$ 矛盾. 因此 $\\triangle A_{2}B_{2}C_{2}$ 必有一个钝角，故选 D.</p>"
         },
         {
           "num": 12,
@@ -191,10 +191,10 @@
       "problems": [
         {
           "num": 17,
-          "body": "<p>已知 $0 &#x3C; \\alpha &#x3C; \\frac{\\pi}{2}$，$\\sin \\alpha = \\frac{4}{5}$.</p><ol class=\"enumerate\"><li><p>求 $\\frac{\\sin^{2}\\alpha + \\sin 2\\alpha}{\\cos^{2}\\alpha + \\cos 2\\alpha}$ 的值.</p></li><li><p>求 $\\tan\\left(\\alpha-\\frac{5\\pi}{4}\\right)$ 的值.</p></li></ol>",
+          "body": "<p>已知 $0 < \\alpha < \\frac{\\pi}{2}$，$\\sin \\alpha = \\frac{4}{5}$.</p><ol class=\"enumerate\"><li><p>求 $\\frac{\\sin^{2}\\alpha + \\sin 2\\alpha}{\\cos^{2}\\alpha + \\cos 2\\alpha}$ 的值.</p></li><li><p>求 $\\tan\\left(\\alpha-\\frac{5\\pi}{4}\\right)$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$，所以 $\\cos\\alpha=\\sqrt{1-\\sin^{2}\\alpha}=\\frac{3}{5}$. 从而 $\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha=\\frac{24}{25}$，$\\cos2\\alpha=\\cos^{2}\\alpha-\\sin^{2}\\alpha=-\\frac{7}{25}$. 因此</p><p>$\\frac{\\sin^{2}\\alpha+\\sin2\\alpha}{\\cos^{2}\\alpha+\\cos2\\alpha}=\\frac{\\frac{16}{25}+\\frac{24}{25}}{\\frac{9}{25}-\\frac{7}{25}}=20$.</p></li><li><p>$\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{4}{3}$. 由于正切函数的周期为 $\\pi$，$\\tan\\left(\\alpha-\\frac{5\\pi}{4}\\right)=\\tan\\left(\\alpha-\\frac{\\pi}{4}\\right)$. 所以</p><p>$\\tan\\left(\\alpha-\\frac{\\pi}{4}\\right)=\\frac{\\tan\\alpha-1}{1+\\tan\\alpha}=\\frac{\\frac{4}{3}-1}{1+\\frac{4}{3}}=\\frac{1}{7}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $0<\\alpha<\\frac{\\pi}{2}$，所以 $\\cos\\alpha=\\sqrt{1-\\sin^{2}\\alpha}=\\frac{3}{5}$. 从而 $\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha=\\frac{24}{25}$，$\\cos2\\alpha=\\cos^{2}\\alpha-\\sin^{2}\\alpha=-\\frac{7}{25}$. 因此</p><p>$\\frac{\\sin^{2}\\alpha+\\sin2\\alpha}{\\cos^{2}\\alpha+\\cos2\\alpha}=\\frac{\\frac{16}{25}+\\frac{24}{25}}{\\frac{9}{25}-\\frac{7}{25}}=20$.</p></li><li><p>$\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{4}{3}$. 由于正切函数的周期为 $\\pi$，$\\tan\\left(\\alpha-\\frac{5\\pi}{4}\\right)=\\tan\\left(\\alpha-\\frac{\\pi}{4}\\right)$. 所以</p><p>$\\tan\\left(\\alpha-\\frac{\\pi}{4}\\right)=\\frac{\\tan\\alpha-1}{1+\\tan\\alpha}=\\frac{\\frac{4}{3}-1}{1+\\frac{4}{3}}=\\frac{1}{7}$.</p></li></ol>"
         },
         {
           "num": 18,
@@ -215,7 +215,7 @@
           "body": "<p>设函数 $f(x) = x^{3} + bx^{2} + cx$（$x \\in \\mathbb{R}$），已知 $g(x) = f(x) - f'(x)$ 是奇函数.</p><ol class=\"enumerate\"><li><p>求 $b$，$c$ 的值.</p></li><li><p>求 $g(x)$ 的单调区间与极值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>先求导，得 $f'(x)=3x^{2}+2bx+c$，所以 $g(x)=x^{3}+(b-3)x^{2}+(c-2b)x-c$. 多项式为奇函数，当且仅当偶次项系数为零，故 $b-3=0$，且 $-c=0$，从而 $b=3$，$c=0$.</p></li><li><p>代入上式，得 $g(x)=x^{3}-6x$，于是 $g'(x)=3x^{2}-6=3(x-\\sqrt{2})(x+\\sqrt{2})$. 因此 $g'(x)>0$ 在 $(-\\infty,-\\sqrt{2})$ 和 $(\\sqrt{2},+\\infty)$ 上成立，$g'(x)&#x3C;0$ 在 $(-\\sqrt{2},\\sqrt{2})$ 上成立. 所以 $g(x)$ 在前两个区间上单调递增，在中间区间上单调递减. 又 $g(-\\sqrt{2})=4\\sqrt{2}$，$g(\\sqrt{2})=-4\\sqrt{2}$，故 $x=-\\sqrt{2}$ 处取得极大值 $4\\sqrt{2}$，$x=\\sqrt{2}$ 处取得极小值 $-4\\sqrt{2}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>先求导，得 $f'(x)=3x^{2}+2bx+c$，所以 $g(x)=x^{3}+(b-3)x^{2}+(c-2b)x-c$. 多项式为奇函数，当且仅当偶次项系数为零，故 $b-3=0$，且 $-c=0$，从而 $b=3$，$c=0$.</p></li><li><p>代入上式，得 $g(x)=x^{3}-6x$，于是 $g'(x)=3x^{2}-6=3(x-\\sqrt{2})(x+\\sqrt{2})$. 因此 $g'(x)>0$ 在 $(-\\infty,-\\sqrt{2})$ 和 $(\\sqrt{2},+\\infty)$ 上成立，$g'(x)<0$ 在 $(-\\sqrt{2},\\sqrt{2})$ 上成立. 所以 $g(x)$ 在前两个区间上单调递增，在中间区间上单调递减. 又 $g(-\\sqrt{2})=4\\sqrt{2}$，$g(\\sqrt{2})=-4\\sqrt{2}$，故 $x=-\\sqrt{2}$ 处取得极大值 $4\\sqrt{2}$，$x=\\sqrt{2}$ 处取得极小值 $-4\\sqrt{2}$.</p></li></ol>"
         },
         {
           "num": 21,

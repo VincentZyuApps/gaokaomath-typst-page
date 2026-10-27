@@ -9,15 +9,15 @@
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $M = \\{x \\mid x^{2} &#x3C; 4\\}$，$N = \\{x \\mid x^{2} - 2x - 3 &#x3C; 0\\}$，则集合 $M \\cap N =$（$ $）",
+          "body": "已知集合 $M = \\{x \\mid x^{2} < 4\\}$，$N = \\{x \\mid x^{2} - 2x - 3 < 0\\}$，则集合 $M \\cap N =$（$ $）",
           "choices": [
-            "$\\{x \\mid x &#x3C; -2\\}$",
+            "$\\{x \\mid x < -2\\}$",
             "$\\{x \\mid x > 3\\}$",
-            "$\\{x \\mid -1 &#x3C; x &#x3C; 2\\}$",
-            "$\\{x \\mid 2 &#x3C; x &#x3C; 3\\}$"
+            "$\\{x \\mid -1 < x < 2\\}$",
+            "$\\{x \\mid 2 < x < 3\\}$"
           ],
           "answer": "C",
-          "solution": "<p>由 $x^{2}&#x3C;4$ 得 $-2&#x3C;x&#x3C;2$，所以 $M=(-2,2)$. 又因为</p><p>$x^{2}-2x-3=(x+1)(x-3)$，且二次函数开口向上，所以 $N=(-1,3)$. 因此</p><p>$M\\cap N=(-1,2)=\\{x\\mid -1&#x3C;x&#x3C;2\\}$，故选 C.</p>"
+          "solution": "<p>由 $x^{2}<4$ 得 $-2<x<2$，所以 $M=(-2,2)$. 又因为</p><p>$x^{2}-2x-3=(x+1)(x-3)$，且二次函数开口向上，所以 $N=(-1,3)$. 因此</p><p>$M\\cap N=(-1,2)=\\{x\\mid -1<x<2\\}$，故选 C.</p>"
         },
         {
           "num": 2,
@@ -101,7 +101,7 @@
             "$4\\text{ 条}$"
           ],
           "answer": "B",
-          "solution": "<p>设所求直线为 $l$，取单位法向量 $\\mathbf{n}$，并写成 $\\mathbf{n}\\cdot X=c$. 由点到直线的距离条件，存在</p><p>$\\varepsilon_{A}$，$\\varepsilon_{B}\\in\\{1,-1\\}$，使得</p><p>$\\mathbf{n}\\cdot A-c=\\varepsilon_{A}$，$\\mathbf{n}\\cdot B-c=2\\varepsilon_{B}$</p><p>相减得</p>\n$$\n\\mathbf{n}\\cdot\\overrightarrow{AB}=2\\varepsilon_{B}-\\varepsilon_{A}\n$$\n<p>其中 $\\overrightarrow{AB}=(2,-1)$，$\\lvert AB\\rvert=\\sqrt{5}$. 右端为 $\\pm3$ 时不可能，因为</p><p>$\\lvert\\mathbf{n}\\cdot\\overrightarrow{AB}\\rvert\\le\\lvert AB\\rvert=\\sqrt{5}&#x3C;3$.</p><p>当右端为 $1$ 时，设 $\\mathbf{n}=(u,v)$，则</p><p>$2u-v=1$，且 $u^{2}+v^{2}=1$. 由 $v=2u-1$ 得</p><p>$u^{2}+(2u-1)^{2}=1$，即 $u(5u-4)=0$，所以</p>\n$$\n(u,v)=(0,-1) \\text{或}  (u,v)=\\left(\\frac{4}{5},\\frac{3}{5}\\right)\n$$\n<p>这两组单位法向量分别给出直线 $y=3$ 和 $4x+3y=5$. 右端为 $-1$ 时得到的是这两条直线的相反法向量表示，不产生新直线. 因此共有两条直线，选 B.</p>"
+          "solution": "<p>设所求直线为 $l$，取单位法向量 $\\mathbf{n}$，并写成 $\\mathbf{n}\\cdot X=c$. 由点到直线的距离条件，存在</p><p>$\\varepsilon_{A}$，$\\varepsilon_{B}\\in\\{1,-1\\}$，使得</p><p>$\\mathbf{n}\\cdot A-c=\\varepsilon_{A}$，$\\mathbf{n}\\cdot B-c=2\\varepsilon_{B}$</p><p>相减得</p>\n$$\n\\mathbf{n}\\cdot\\overrightarrow{AB}=2\\varepsilon_{B}-\\varepsilon_{A}\n$$\n<p>其中 $\\overrightarrow{AB}=(2,-1)$，$\\lvert AB\\rvert=\\sqrt{5}$. 右端为 $\\pm3$ 时不可能，因为</p><p>$\\lvert\\mathbf{n}\\cdot\\overrightarrow{AB}\\rvert\\le\\lvert AB\\rvert=\\sqrt{5}<3$.</p><p>当右端为 $1$ 时，设 $\\mathbf{n}=(u,v)$，则</p><p>$2u-v=1$，且 $u^{2}+v^{2}=1$. 由 $v=2u-1$ 得</p><p>$u^{2}+(2u-1)^{2}=1$，即 $u(5u-4)=0$，所以</p>\n$$\n(u,v)=(0,-1) \\text{或}  (u,v)=\\left(\\frac{4}{5},\\frac{3}{5}\\right)\n$$\n<p>这两组单位法向量分别给出直线 $y=3$ 和 $4x+3y=5$. 右端为 $-1$ 时得到的是这两条直线的相反法向量表示，不产生新直线. 因此共有两条直线，选 B.</p>"
         },
         {
           "num": 9,
@@ -125,7 +125,7 @@
             "$(2\\pi, 3\\pi)$"
           ],
           "answer": "B",
-          "solution": "<p>设 $f(x)=x\\cos x-\\sin x$，则 $f'(x)=-x\\sin x$. 四个选项中的区间都在正半轴上，所以在这些区间内，$f'(x)>0$ 等价于 $\\sin x&#x3C;0$.</p><p>在 $(\\pi,2\\pi)$ 内始终有 $\\sin x&#x3C;0$，所以 $f$ 在该区间内递增. 其余三个区间都包含 $\\sin x>0$ 的子区间，函数在这些子区间上递减，不能在整个区间内递增. 因此选 B.</p>"
+          "solution": "<p>设 $f(x)=x\\cos x-\\sin x$，则 $f'(x)=-x\\sin x$. 四个选项中的区间都在正半轴上，所以在这些区间内，$f'(x)>0$ 等价于 $\\sin x<0$.</p><p>在 $(\\pi,2\\pi)$ 内始终有 $\\sin x<0$，所以 $f$ 在该区间内递增. 其余三个区间都包含 $\\sin x>0$ 的子区间，函数在这些子区间上递减，不能在整个区间内递增. 因此选 B.</p>"
         },
         {
           "num": 11,
@@ -222,14 +222,14 @@
           "body": "<p>给定抛物线 $C: y^{2}= 4x$，$F$ 是 $C$ 的焦点，过点 $F$ 的直线 $l$ 与 $C$ 相交于 $A$，$B$ 两点.</p><ol class=\"enumerate\"><li><p>设 $l$ 的斜率为 $1$，求 $\\overrightarrow{OA}$ 与 $\\overrightarrow{OB}$ 夹角的大小；</p></li><li><p>设 $\\overrightarrow{FB}= \\lambda\\overrightarrow{AF}$，若 $\\lambda \\in [4,9]$，求 $l$ 在 $y$ 轴上截距的变化范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=4x$ 的焦点为 $F=(1,0)$. 因为直线 $l$ 过 $F$ 且斜率为 $1$，故其方程为 $y=x-1$. 代入抛物线方程，得</p><p>$(x-1)^{2}=4x$，$x^{2}-6x+1=0$.</p><p>所以交点的横坐标为 $3+2\\sqrt{2}$、$3-2\\sqrt{2}$，相应纵坐标为 $2+2\\sqrt{2}$、$2-2\\sqrt{2}$. 设这两个交点分别为 $A$、$B$，则</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=(3+2\\sqrt{2})(3-2\\sqrt{2})+(2+2\\sqrt{2})(2-2\\sqrt{2})=1-4=-3\n$$\n<p>并且</p><p>$\\lvert\\overrightarrow{OA}\\rvert^{2}=29+20\\sqrt{2}$，$\\lvert\\overrightarrow{OB}\\rvert^{2}=29-20\\sqrt{2}$，</p><p>所以</p>\n$$\n\\lvert\\overrightarrow{OA}\\rvert^{2}\\lvert\\overrightarrow{OB}\\rvert^{2}  =(29+20\\sqrt{2})(29-20\\sqrt{2})=29^{2}-800=41\n$$\n<p>因此</p>\n$$\n\\cos\\angle AOB=-\\frac{3}{\\sqrt{41}}=-\\frac{3\\sqrt{41}}{41}\n$$\n<p>由于夹角属于 $[0,\\pi]$，故夹角为 $\\displaystyle\\pi-\\arccos\\frac{3\\sqrt{41}}{41}$.</p></li><li><p>用参数表示抛物线上的点：$P(t)=(t^{2},2t)$. 设 $A=P(t_{A})$、$B=P(t_{B})$. 两点参数为 $u$、$v$ 时，弦的方程为</p>\n$$\n2x-(u+v)y+2uv=0\n$$\n<p>弦 $AB$ 过焦点 $F=(1,0)$，代入上式得 $2+2t_{A} t_{B}=0$，即 $t_{A} t_{B}=-1$. 令 $t_{B}=t$，则 $t_{A}=-\\frac{1}{t}$. 于是</p><p>$\\overrightarrow{FB}=(t^{2}-1,2t)$，$\\overrightarrow{AF}=\\left(1-\\frac{1}{t^{2}},\\frac{2}{t}\\right)$.</p><p>由 $\\overrightarrow{FB}=\\lambda\\overrightarrow{AF}$ 的分量比，得 $\\lambda=t^{2}$. 所以 $t=\\pm\\sqrt{\\lambda}$，其中 $\\lambda\\in[4,9]$.</p><p>直线 $l$ 过 $F$，其斜率为</p>\n$$\nm=\\frac{2t}{t^{2}-1}\n$$\n<p>故在 $y$ 轴上的截距为</p>\n$$\nb=-m=-\\frac{2t}{t^{2}-1}\n$$\n<p>令 $u=\\lvert t\\rvert=\\sqrt{\\lambda}$，则 $u\\in[2,3]$，且</p>\n$$\n\\left(\\frac{2u}{u^{2}-1}\\right)'=-\\frac{2(u^{2}+1)}{(u^{2}-1)^{2}}&#x3C;0\n$$\n<p>其端点值为 $\\frac{4}{3}$、$\\frac{3}{4}$. 考虑 $t$ 的正负两种情形，截距的变化范围为</p>\n$$\n\\left[-\\frac{4}{3},-\\frac{3}{4}\\right]\\cup\\left[\\frac{3}{4},\\frac{4}{3}\\right]\n$$\n</li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=4x$ 的焦点为 $F=(1,0)$. 因为直线 $l$ 过 $F$ 且斜率为 $1$，故其方程为 $y=x-1$. 代入抛物线方程，得</p><p>$(x-1)^{2}=4x$，$x^{2}-6x+1=0$.</p><p>所以交点的横坐标为 $3+2\\sqrt{2}$、$3-2\\sqrt{2}$，相应纵坐标为 $2+2\\sqrt{2}$、$2-2\\sqrt{2}$. 设这两个交点分别为 $A$、$B$，则</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=(3+2\\sqrt{2})(3-2\\sqrt{2})+(2+2\\sqrt{2})(2-2\\sqrt{2})=1-4=-3\n$$\n<p>并且</p><p>$\\lvert\\overrightarrow{OA}\\rvert^{2}=29+20\\sqrt{2}$，$\\lvert\\overrightarrow{OB}\\rvert^{2}=29-20\\sqrt{2}$，</p><p>所以</p>\n$$\n\\lvert\\overrightarrow{OA}\\rvert^{2}\\lvert\\overrightarrow{OB}\\rvert^{2}  =(29+20\\sqrt{2})(29-20\\sqrt{2})=29^{2}-800=41\n$$\n<p>因此</p>\n$$\n\\cos\\angle AOB=-\\frac{3}{\\sqrt{41}}=-\\frac{3\\sqrt{41}}{41}\n$$\n<p>由于夹角属于 $[0,\\pi]$，故夹角为 $\\displaystyle\\pi-\\arccos\\frac{3\\sqrt{41}}{41}$.</p></li><li><p>用参数表示抛物线上的点：$P(t)=(t^{2},2t)$. 设 $A=P(t_{A})$、$B=P(t_{B})$. 两点参数为 $u$、$v$ 时，弦的方程为</p>\n$$\n2x-(u+v)y+2uv=0\n$$\n<p>弦 $AB$ 过焦点 $F=(1,0)$，代入上式得 $2+2t_{A} t_{B}=0$，即 $t_{A} t_{B}=-1$. 令 $t_{B}=t$，则 $t_{A}=-\\frac{1}{t}$. 于是</p><p>$\\overrightarrow{FB}=(t^{2}-1,2t)$，$\\overrightarrow{AF}=\\left(1-\\frac{1}{t^{2}},\\frac{2}{t}\\right)$.</p><p>由 $\\overrightarrow{FB}=\\lambda\\overrightarrow{AF}$ 的分量比，得 $\\lambda=t^{2}$. 所以 $t=\\pm\\sqrt{\\lambda}$，其中 $\\lambda\\in[4,9]$.</p><p>直线 $l$ 过 $F$，其斜率为</p>\n$$\nm=\\frac{2t}{t^{2}-1}\n$$\n<p>故在 $y$ 轴上的截距为</p>\n$$\nb=-m=-\\frac{2t}{t^{2}-1}\n$$\n<p>令 $u=\\lvert t\\rvert=\\sqrt{\\lambda}$，则 $u\\in[2,3]$，且</p>\n$$\n\\left(\\frac{2u}{u^{2}-1}\\right)'=-\\frac{2(u^{2}+1)}{(u^{2}-1)^{2}}<0\n$$\n<p>其端点值为 $\\frac{4}{3}$、$\\frac{3}{4}$. 考虑 $t$ 的正负两种情形，截距的变化范围为</p>\n$$\n\\left[-\\frac{4}{3},-\\frac{3}{4}\\right]\\cup\\left[\\frac{3}{4},\\frac{4}{3}\\right]\n$$\n</li></ol>"
         },
         {
           "num": 22,
-          "body": "<p>已知函数 $f(x) = \\ln(1 + x) - x$，$g(x) = x \\ln x$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的最大值；</p></li><li><p>设 $0 &#x3C; a &#x3C; b$，证明：$0 &#x3C; g(a) + g(b) - 2g\\left(\\frac{a + b}{2}\\right) &#x3C; (b - a)\\ln 2$.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = \\ln(1 + x) - x$，$g(x) = x \\ln x$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的最大值；</p></li><li><p>设 $0 < a < b$，证明：$0 < g(a) + g(b) - 2g\\left(\\frac{a + b}{2}\\right) < (b - a)\\ln 2$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-1$，且</p>\n$$\nf'(x)=\\frac{1}{1+x}-1=-\\frac{x}{1+x}\n$$\n<p>当 $-1&#x3C;x&#x3C;0$ 时，$f'(x)>0$；当 $x>0$ 时，$f'(x)&#x3C;0$. 所以 $f(x)$ 在 $(-1,0)$ 上递增，在 $(0,+\\infty)$ 上递减，最大值在 $x=0$ 处取得，且 $f(0)=0$. 故最大值为 $0$.</p></li><li><p>设 $m=\\frac{a+b}{2}$，并令 $t=\\frac{b-a}{a+b}$，则 $0&#x3C;t&#x3C;1$，且 $a=m(1-t)$、$b=m(1+t)$. 由 $g(x)=x\\ln x$，有</p>\n$$\ng(a)+g(b)-2g(m)=m\\bigl((1-t)\\ln(1-t)+(1+t)\\ln(1+t)\\bigr)\n$$\n<p>令 $H(t)=(1-t)\\ln(1-t)+(1+t)\\ln(1+t)$. 则</p><p>$H'(t)=\\ln\\frac{1+t}{1-t}>0$，$H''(t)=\\frac{2}{1-t^{2}}>0$.</p><p>故 $H(t)>H(0)=0$. 又 $H$ 在 $[0,1]$ 上严格凸，且 $H(0)=0$、$H(1)=2\\ln2$，所以对 $0&#x3C;t&#x3C;1$，有 $H(t)&#x3C;2t\\ln2$. 于是</p>\n$$\n0&#x3C;mH(t)&#x3C;2mt\\ln2=(b-a)\\ln2\n$$\n<p>所证不等式成立.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>-1$，且</p>\n$$\nf'(x)=\\frac{1}{1+x}-1=-\\frac{x}{1+x}\n$$\n<p>当 $-1<x<0$ 时，$f'(x)>0$；当 $x>0$ 时，$f'(x)<0$. 所以 $f(x)$ 在 $(-1,0)$ 上递增，在 $(0,+\\infty)$ 上递减，最大值在 $x=0$ 处取得，且 $f(0)=0$. 故最大值为 $0$.</p></li><li><p>设 $m=\\frac{a+b}{2}$，并令 $t=\\frac{b-a}{a+b}$，则 $0<t<1$，且 $a=m(1-t)$、$b=m(1+t)$. 由 $g(x)=x\\ln x$，有</p>\n$$\ng(a)+g(b)-2g(m)=m\\bigl((1-t)\\ln(1-t)+(1+t)\\ln(1+t)\\bigr)\n$$\n<p>令 $H(t)=(1-t)\\ln(1-t)+(1+t)\\ln(1+t)$. 则</p><p>$H'(t)=\\ln\\frac{1+t}{1-t}>0$，$H''(t)=\\frac{2}{1-t^{2}}>0$.</p><p>故 $H(t)>H(0)=0$. 又 $H$ 在 $[0,1]$ 上严格凸，且 $H(0)=0$、$H(1)=2\\ln2$，所以对 $0<t<1$，有 $H(t)<2t\\ln2$. 于是</p>\n$$\n0<mH(t)<2mt\\ln2=(b-a)\\ln2\n$$\n<p>所证不等式成立.</p></li></ol>"
         }
       ]
     }

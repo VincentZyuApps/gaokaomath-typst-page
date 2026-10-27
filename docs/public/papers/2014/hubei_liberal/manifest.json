@@ -59,25 +59,25 @@
           "num": 5,
           "body": "随机掷两枚质地均匀的骰子，它们向上的点数之和不超过 $5$ 的概率记为 $p_{1}$，点数之和大于 $5$ 的概率记为 $p_{2}$，点数之和为偶数的概率记为 $p_{3}$. 则（ ）",
           "choices": [
-            "$p_{1}&#x3C; p_{2}&#x3C; p_{3}$",
-            "$p_{2}&#x3C; p_{1}&#x3C; p_{3}$",
-            "$p_{1}&#x3C; p_{3}&#x3C; p_{2}$",
-            "$p_{3}&#x3C; p_{1}&#x3C; p_{2}$"
+            "$p_{1}< p_{2}< p_{3}$",
+            "$p_{2}< p_{1}< p_{3}$",
+            "$p_{1}< p_{3}< p_{2}$",
+            "$p_{3}< p_{1}< p_{2}$"
           ],
           "answer": "C",
-          "solution": "<p>两枚骰子的有序结果共有 $6\\times6=36$ 种，且等可能.</p><p>点数和不超过 $5$ 的结果数为 $1+2+3+4=10$，所以 $p_{1}=\\frac{10}{36}=\\frac{5}{18}$. 因而 $p_{2}=1-p_{1}=\\frac{13}{18}$.</p><p>点数和为偶数，当且仅当两枚骰子的点数同奇偶. 奇数、偶数各有 $3$ 个，因此结果数为 $3\\times3+3\\times3=18$，从而 $p_{3}=\\frac{18}{36}=\\frac{1}{2}=\\frac{9}{18}$. 因此 $p_{1}&#x3C;p_{3}&#x3C;p_{2}$，选择 C.</p>"
+          "solution": "<p>两枚骰子的有序结果共有 $6\\times6=36$ 种，且等可能.</p><p>点数和不超过 $5$ 的结果数为 $1+2+3+4=10$，所以 $p_{1}=\\frac{10}{36}=\\frac{5}{18}$. 因而 $p_{2}=1-p_{1}=\\frac{13}{18}$.</p><p>点数和为偶数，当且仅当两枚骰子的点数同奇偶. 奇数、偶数各有 $3$ 个，因此结果数为 $3\\times3+3\\times3=18$，从而 $p_{3}=\\frac{18}{36}=\\frac{1}{2}=\\frac{9}{18}$. 因此 $p_{1}<p_{3}<p_{2}$，选择 C.</p>"
         },
         {
           "num": 6,
           "body": "<p>根据如下样本数据</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$x$ </td><td style=\"text-align: center\"> 3 </td><td style=\"text-align: center\"> 4 </td><td style=\"text-align: center\"> 5 </td><td style=\"text-align: center\"> 6 </td><td style=\"text-align: center\"> 7 </td><td style=\"text-align: center\"> 8 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$y$ </td><td style=\"text-align: center\"> 4.0 </td><td style=\"text-align: center\"> 2.5 </td><td style=\"text-align: center\"> $-0.5$ </td><td style=\"text-align: center\"> 0.5 </td><td style=\"text-align: center\"> $-2.0$ </td><td style=\"text-align: center\"> $-3.0$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>得到的回归方程为 $\\hat{y}= bx + a$，则（ ）</p>",
           "choices": [
-            "$a > 0$，$b &#x3C; 0$",
+            "$a > 0$，$b < 0$",
             "$a > 0$，$b > 0$",
-            "$a &#x3C; 0$，$b &#x3C; 0$",
-            "$a &#x3C; 0$，$b > 0$"
+            "$a < 0$，$b < 0$",
+            "$a < 0$，$b > 0$"
           ],
           "answer": "A",
-          "solution": "<p>样本中 $\\bar{x}=\\frac{3+4+5+6+7+8}{6}=\\frac{11}{2}$，$\\bar{y}=\\frac{4.0+2.5-0.5+0.5-2.0-3.0}{6}=\\frac{1}{4}$.</p><p>回归方程 $\\hat y=bx+a$ 中</p>\n$$\nb=\\frac{\\sum_{i=1}^{6}(x_{i}-\\bar x)(y_{i}-\\bar y)}{\\sum_{i=1}^{6}(x_{i}-\\bar x)^{2}}\n$$\n<p>分母为</p>\n$$\n\\left(-\\frac{5}{2}\\right)^{2}+\\left(-\\frac{3}{2}\\right)^{2}+\\left(-\\frac{1}{2}\\right)^{2}+\\left(\\frac{1}{2}\\right)^{2}+\\left(\\frac{3}{2}\\right)^{2}+\\left(\\frac{5}{2}\\right)^{2}=\\frac{35}{2}>0\n$$\n<p>分子为</p>\n$$\n\\sum_{i=1}^{6}(x_{i}-\\bar x)(y_{i}-\\bar y)  =\\left(-\\frac{5}{2}\\right)\\frac{15}{4}+\\left(-\\frac{3}{2}\\right)\\frac{9}{4}+\\left(-\\frac{1}{2}\\right)\\left(-\\frac{3}{4}\\right)+\\frac{1}{2}\\cdot\\frac{1}{4}+\\frac{3}{2}\\left(-\\frac{9}{4}\\right)+\\frac{5}{2}\\left(-\\frac{13}{4}\\right)=-\\frac{95}{4}&#x3C;0\n$$\n<p>所以 $b&#x3C;0$. 又</p>\n$$\na=\\bar y-b\\bar x=\\frac{1}{4}-\\left(-\\frac{19}{14}\\right)\\frac{11}{2}=\\frac{54}{7}>0\n$$\n<p>因此选择 A.</p>"
+          "solution": "<p>样本中 $\\bar{x}=\\frac{3+4+5+6+7+8}{6}=\\frac{11}{2}$，$\\bar{y}=\\frac{4.0+2.5-0.5+0.5-2.0-3.0}{6}=\\frac{1}{4}$.</p><p>回归方程 $\\hat y=bx+a$ 中</p>\n$$\nb=\\frac{\\sum_{i=1}^{6}(x_{i}-\\bar x)(y_{i}-\\bar y)}{\\sum_{i=1}^{6}(x_{i}-\\bar x)^{2}}\n$$\n<p>分母为</p>\n$$\n\\left(-\\frac{5}{2}\\right)^{2}+\\left(-\\frac{3}{2}\\right)^{2}+\\left(-\\frac{1}{2}\\right)^{2}+\\left(\\frac{1}{2}\\right)^{2}+\\left(\\frac{3}{2}\\right)^{2}+\\left(\\frac{5}{2}\\right)^{2}=\\frac{35}{2}>0\n$$\n<p>分子为</p>\n$$\n\\sum_{i=1}^{6}(x_{i}-\\bar x)(y_{i}-\\bar y)  =\\left(-\\frac{5}{2}\\right)\\frac{15}{4}+\\left(-\\frac{3}{2}\\right)\\frac{9}{4}+\\left(-\\frac{1}{2}\\right)\\left(-\\frac{3}{4}\\right)+\\frac{1}{2}\\cdot\\frac{1}{4}+\\frac{3}{2}\\left(-\\frac{9}{4}\\right)+\\frac{5}{2}\\left(-\\frac{13}{4}\\right)=-\\frac{95}{4}<0\n$$\n<p>所以 $b<0$. 又</p>\n$$\na=\\bar y-b\\bar x=\\frac{1}{4}-\\left(-\\frac{19}{14}\\right)\\frac{11}{2}=\\frac{54}{7}>0\n$$\n<p>因此选择 A.</p>"
         },
         {
           "num": 7,
@@ -113,7 +113,7 @@
             "$\\{-2 - \\sqrt{7}, 1, 3\\}$"
           ],
           "answer": "D",
-          "solution": "<p>当 $x\\geqslant0$ 时，</p>\n$$\ng(x)=x^{2}-3x-x+3=x^{2}-4x+3=(x-1)(x-3)\n$$\n<p>所以得到零点 $x=1$，$3$.</p><p>当 $x&#x3C;0$ 时，由 $f$ 为奇函数，</p>\n$$\nf(x)=-f(-x)=-\\left[(-x)^{2}-3(-x)\\right]=-x^{2}-3x\n$$\n<p>于是 $g(x)=-x^{2}-3x-x+3=-x^{2}-4x+3$，即 $x^{2}+4x-3=0$. 解得 $x=-2\\pm\\sqrt{7}$，其中 $-2+\\sqrt{7}>0$ 不符合 $x&#x3C;0$，只有 $-2-\\sqrt{7}$ 有效.</p><p>因此零点集合为 $\\{-2-\\sqrt{7},1,3\\}$，选择 D.</p>"
+          "solution": "<p>当 $x\\geqslant0$ 时，</p>\n$$\ng(x)=x^{2}-3x-x+3=x^{2}-4x+3=(x-1)(x-3)\n$$\n<p>所以得到零点 $x=1$，$3$.</p><p>当 $x<0$ 时，由 $f$ 为奇函数，</p>\n$$\nf(x)=-f(-x)=-\\left[(-x)^{2}-3(-x)\\right]=-x^{2}-3x\n$$\n<p>于是 $g(x)=-x^{2}-3x-x+3=-x^{2}-4x+3$，即 $x^{2}+4x-3=0$. 解得 $x=-2\\pm\\sqrt{7}$，其中 $-2+\\sqrt{7}>0$ 不符合 $x<0$，只有 $-2-\\sqrt{7}$ 有效.</p><p>因此零点集合为 $\\{-2-\\sqrt{7},1,3\\}$，选择 D.</p>"
         },
         {
           "num": 10,
@@ -151,7 +151,7 @@
           "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，已知 $A = \\frac{\\pi}{6}$，$a = 1$，$b = \\sqrt{3}$，则 $B =\\underline{\\hspace{2.5em}}{}$.",
           "choices": null,
           "answer": "$\\frac{\\pi}{3}$ 或 $\\frac{2\\pi}{3}$",
-          "solution": "<p>由正弦定理，$\\frac{b}{\\sin B}=\\frac{a}{\\sin A}$.</p><p>所以</p>\n$$\n\\sin B=\\frac{b\\sin A}{a}=\\frac{\\sqrt{3}\\cdot\\frac{1}{2}}{1}=\\frac{\\sqrt{3}}{2}\n$$\n<p>三角形内角满足 $0&#x3C;B&#x3C;\\pi$，故 $B=\\frac{\\pi}{3}$ 或 $B=\\frac{2\\pi}{3}$.</p><p>两种取值分别使 $C=\\pi-A-B$ 等于 $\\frac{\\pi}{2}$ 或 $\\frac{\\pi}{6}$，均能构成三角形.</p>"
+          "solution": "<p>由正弦定理，$\\frac{b}{\\sin B}=\\frac{a}{\\sin A}$.</p><p>所以</p>\n$$\n\\sin B=\\frac{b\\sin A}{a}=\\frac{\\sqrt{3}\\cdot\\frac{1}{2}}{1}=\\frac{\\sqrt{3}}{2}\n$$\n<p>三角形内角满足 $0<B<\\pi$，故 $B=\\frac{\\pi}{3}$ 或 $B=\\frac{2\\pi}{3}$.</p><p>两种取值分别使 $C=\\pi-A-B$ 等于 $\\frac{\\pi}{2}$ 或 $\\frac{\\pi}{6}$，均能构成三角形.</p>"
         },
         {
           "num": 14,
@@ -165,14 +165,14 @@
           "body": "<p>如图所示，函数 $y = f(x)$ 的图象由两条射线和三条线段组成.</p><p>若 $\\forall x\\in \\mathbb{R}$，$f(x) > f(x - 1)$，则正实数 $a$ 的取值范围为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-problemresetlayout\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "$\\left(0,\\frac{1}{6}\\right)$",
-          "solution": "<p>把横坐标按 $a$ 缩放，令 $t=\\frac{x}{a}$，$h=\\frac{1}{a}$，</p><p>并令 $f(x)=a\\varphi(t)$. 由图像可得</p>\n$$\n\\varphi(t)=  \\begin{cases}t+3,&#x26;t\\le-2,\\\\\n\n1,&#x26;-2\\le t\\le-1,\\\\\n\n-t,&#x26;-1\\le t\\leqslant1,\\\\\n\n-1,&#x26;1\\le t\\leqslant2,\\\\\n\nt-3,&#x26;t\\geqslant2\\end{cases}\n$$\n<p>题设 $f(x)>f(x-1)$ 对任意 $x$ 成立，等价于 $\\varphi(t)>\\varphi(t-h)$ 对任意 $t$ 成立.</p><p>令 $q(t)=\\varphi(t)-t$. 从上面的分段式可知 $-3\\le q(t)\\leqslant3$，所以当 $h>6$ 时，</p>\n$$\n\\varphi(t)-\\varphi(t-h)  =h+q(t)-q(t-h)\\ge h-6>0\n$$\n<p>因此 $h>6$ 时题设不等式对所有 $t$ 成立.</p><p>反之，若 $0&#x3C;h\\leqslant2$，取 $t=-1+h$，则</p>\n$$\n\\varphi(t)=1-h&#x3C;1=\\varphi(t-h)\n$$\n<p>若 $2&#x3C;h\\leqslant6$，取 $t=-2+h$，则 $t-h=-2$. 当 $2&#x3C;h\\leqslant4$ 时 $\\varphi(t)&#x3C;1$，当 $4&#x3C;h\\leqslant6$ 时 $\\varphi(t)=h-5\\leqslant1$，故均有 $\\varphi(t)\\le\\varphi(t-h)$. 因而必须 $h>6$.</p><p>于是 $\\frac{1}{a}>6\\Longleftrightarrow0&#x3C;a&#x3C;\\frac{1}{6}$.</p>"
+          "solution": "<p>把横坐标按 $a$ 缩放，令 $t=\\frac{x}{a}$，$h=\\frac{1}{a}$，</p><p>并令 $f(x)=a\\varphi(t)$. 由图像可得</p>\n$$\n\\varphi(t)=  \\begin{cases}t+3,&t\\le-2,\\\\\n\n1,&-2\\le t\\le-1,\\\\\n\n-t,&-1\\le t\\leqslant1,\\\\\n\n-1,&1\\le t\\leqslant2,\\\\\n\nt-3,&t\\geqslant2\\end{cases}\n$$\n<p>题设 $f(x)>f(x-1)$ 对任意 $x$ 成立，等价于 $\\varphi(t)>\\varphi(t-h)$ 对任意 $t$ 成立.</p><p>令 $q(t)=\\varphi(t)-t$. 从上面的分段式可知 $-3\\le q(t)\\leqslant3$，所以当 $h>6$ 时，</p>\n$$\n\\varphi(t)-\\varphi(t-h)  =h+q(t)-q(t-h)\\ge h-6>0\n$$\n<p>因此 $h>6$ 时题设不等式对所有 $t$ 成立.</p><p>反之，若 $0<h\\leqslant2$，取 $t=-1+h$，则</p>\n$$\n\\varphi(t)=1-h<1=\\varphi(t-h)\n$$\n<p>若 $2<h\\leqslant6$，取 $t=-2+h$，则 $t-h=-2$. 当 $2<h\\leqslant4$ 时 $\\varphi(t)<1$，当 $4<h\\leqslant6$ 时 $\\varphi(t)=h-5\\leqslant1$，故均有 $\\varphi(t)\\le\\varphi(t-h)$. 因而必须 $h>6$.</p><p>于是 $\\frac{1}{a}>6\\Longleftrightarrow0<a<\\frac{1}{6}$.</p>"
         },
         {
           "num": 16,
           "body": "<p>某项研究表明：在考虑行车安全的情况下，某路段车流量 $F$（单位时间内经过测量点的车辆数，单位：$\\text{辆}/\\text{小时}$）与车流速度 $v$（假设车辆以相同速度 $v$ 行驶，单位：$\\text{米}/\\text{秒}$），平均车长 $l$（单位：$\\text{米}$）的值有关，其公式为 $F = \\frac{76000v}{v^{2} + 18v + 20l}$.</p><ol class=\"enumerate\"><li><p>如果不限定车型，$l = 6.05$，则最大车流量为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{辆}/\\text{小时}$；</p></li><li><p>如果限定车型，$l = 5$，则最大车流量比（1）中的最大车流量增加<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{辆}/\\text{小时}$.</p></li></ol>",
           "choices": null,
           "answer": "$1900$；$100$",
-          "solution": "<p>把 $l$ 看作常数，且 $v>0$. 对 $F(v)=\\frac{76000v}{v^{2}+18v+20l}$ 求导，得</p>\n$$\nF'(v)=\\frac{76000(20l-v^{2})}{(v^{2}+18v+20l)^{2}}\n$$\n<p>所以 $F(v)$ 在 $0&#x3C;v&#x3C;\\sqrt{20l}$ 时递增，在 $v>\\sqrt{20l}$ 时递减，最大值在 $v=\\sqrt{20l}$ 处取得. 最大值为 $F_{\\max}(l)=\\frac{76000}{18+2\\sqrt{20l}}$.</p><p>当 $l=6.05$ 时，$\\sqrt{20l}=\\sqrt{121}=11$，故 $F_{\\max}(6.05)=\\frac{76000}{18+22}=1900\\text{ 辆}/\\text{小时}$. 当 $l=5$ 时，$\\sqrt{20l}=10$，故 $F_{\\max}(5)=\\frac{76000}{18+20}=2000\\text{ 辆}/\\text{小时}$.</p><p>增加量为 $2000-1900=100\\text{ 辆}/\\text{小时}$.</p>"
+          "solution": "<p>把 $l$ 看作常数，且 $v>0$. 对 $F(v)=\\frac{76000v}{v^{2}+18v+20l}$ 求导，得</p>\n$$\nF'(v)=\\frac{76000(20l-v^{2})}{(v^{2}+18v+20l)^{2}}\n$$\n<p>所以 $F(v)$ 在 $0<v<\\sqrt{20l}$ 时递增，在 $v>\\sqrt{20l}$ 时递减，最大值在 $v=\\sqrt{20l}$ 处取得. 最大值为 $F_{\\max}(l)=\\frac{76000}{18+2\\sqrt{20l}}$.</p><p>当 $l=6.05$ 时，$\\sqrt{20l}=\\sqrt{121}=11$，故 $F_{\\max}(6.05)=\\frac{76000}{18+22}=1900\\text{ 辆}/\\text{小时}$. 当 $l=5$ 时，$\\sqrt{20l}=10$，故 $F_{\\max}(5)=\\frac{76000}{18+20}=2000\\text{ 辆}/\\text{小时}$.</p><p>增加量为 $2000-1900=100\\text{ 辆}/\\text{小时}$.</p>"
         },
         {
           "num": 17,
@@ -191,7 +191,7 @@
           "body": "<p>某实验室一天的温度（单位：$^{\\circ}\\mathrm{C}$）随时间 $t$（单位：$\\mathrm{h}$）的变化近似满足函数关系：$f(t)=10-\\sqrt{3}\\cos\\frac{\\pi}{12}t-\\sin\\frac{\\pi}{12}t$，$\\ t\\in[0,24)$.</p><ol class=\"enumerate\"><li><p>求实验室这一天上午 $8$ 时的温度；</p></li><li><p>求实验室这一天的最大温差.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>当 $t=8$ 时，$\\frac{\\pi}{12}t=\\frac{2\\pi}{3}$，因此</p>\n$$\nf(8)=10-\\sqrt{3}\\cos\\frac{2\\pi}{3}-\\sin\\frac{2\\pi}{3}=10-\\sqrt{3}\\left(-\\frac{1}{2}\\right)-\\frac{\\sqrt{3}}{2}=10\n$$\n<p>所以实验室这一天上午 $8$ 时的温度为 $10^{\\circ}\\mathrm{C}$.</p></li><li><p>令 $u=\\frac{\\pi}{12}t$，则 $0\\le u&#x3C;2\\pi$. 利用辅助角公式，得 $\\sqrt{3}\\cos u+\\sin u=2\\cos\\left(u-\\frac{\\pi}{6}\\right)$，从而 $f(t)=10-2\\cos\\left(u-\\frac{\\pi}{6}\\right)$.</p><p>当 $u=\\frac{\\pi}{6}$ 时，$\\cos\\left(u-\\frac{\\pi}{6}\\right)=1$，温度取得最小值 $8$；当 $u=\\frac{7\\pi}{6}$ 时，该余弦值为 $-1$，温度取得最大值 $12$. 两个取值都对应 $t\\in[0,24)$，所以最大温差为 $12-8=4^{\\circ}\\mathrm{C}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>当 $t=8$ 时，$\\frac{\\pi}{12}t=\\frac{2\\pi}{3}$，因此</p>\n$$\nf(8)=10-\\sqrt{3}\\cos\\frac{2\\pi}{3}-\\sin\\frac{2\\pi}{3}=10-\\sqrt{3}\\left(-\\frac{1}{2}\\right)-\\frac{\\sqrt{3}}{2}=10\n$$\n<p>所以实验室这一天上午 $8$ 时的温度为 $10^{\\circ}\\mathrm{C}$.</p></li><li><p>令 $u=\\frac{\\pi}{12}t$，则 $0\\le u<2\\pi$. 利用辅助角公式，得 $\\sqrt{3}\\cos u+\\sin u=2\\cos\\left(u-\\frac{\\pi}{6}\\right)$，从而 $f(t)=10-2\\cos\\left(u-\\frac{\\pi}{6}\\right)$.</p><p>当 $u=\\frac{\\pi}{6}$ 时，$\\cos\\left(u-\\frac{\\pi}{6}\\right)=1$，温度取得最小值 $8$；当 $u=\\frac{7\\pi}{6}$ 时，该余弦值为 $-1$，温度取得最大值 $12$. 两个取值都对应 $t\\in[0,24)$，所以最大温差为 $12-8=4^{\\circ}\\mathrm{C}$.</p></li></ol>"
         },
         {
           "num": 19,
@@ -212,14 +212,14 @@
           "body": "<p>$\\pi$ 为圆周率，$\\mathrm{e}= 2.71828\\cdots$ 为自然对数的底数.</p><ol class=\"enumerate\"><li><p>求函数 $f(x) = \\frac{\\ln x}{x}$ 的单调区间；</p></li><li><p>求 $\\mathrm{e}^{3}$，$3^{\\mathrm{e}}$，$\\mathrm{e}^{\\pi}$，$\\pi^{\\mathrm{e}}$，$3^{\\pi}$，$\\pi^{3}$ 这 6 个数中的最大数与最小数.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $x>0$，且 $f'(x)=\\frac{1-\\ln x}{x^{2}}$.</p><p>因为 $x^{2}>0$，所以当 $0&#x3C;x&#x3C;\\mathrm{e}$ 时，$f'(x)>0$；当 $x=\\mathrm{e}$ 时，$f'(x)=0$；当 $x>\\mathrm{e}$ 时，$f'(x)&#x3C;0$. 因此，$f(x)$ 在 $(0,\\mathrm{e})$ 上单调递增，在 $(\\mathrm{e},+\\infty)$ 上单调递减.</p></li><li><p>记 $\\varphi(x)=\\frac{\\ln x}{x}$. 由第（1）问，且 $\\mathrm{e}&#x3C;3&#x3C;\\pi$，有 $\\varphi(\\mathrm{e})>\\varphi(3)>\\varphi(\\pi)$. 其中 $\\varphi(\\mathrm{e})>\\varphi(3)$ 等价于 $\\mathrm{e}\\ln3&#x3C;3$，于是 $\\ln\\left(3^{\\mathrm{e}}\\right)=\\mathrm{e}\\ln3&#x3C;3=\\ln\\left(\\mathrm{e}^{3}\\right)$.</p><p>所以 $3^{\\mathrm{e}}&#x3C;\\mathrm{e}^{3}$. 又因为 $3&#x3C;\\pi$、$\\mathrm{e}&#x3C;\\pi$，所以 $3^{\\mathrm{e}}&#x3C;\\pi^{\\mathrm{e}}$，$3^{\\mathrm{e}}&#x3C;3^{\\pi}$.</p><p>同时，由 $\\mathrm{e}\\ln3&#x3C;3&#x3C;\\pi$，有 $\\ln\\left(3^{\\mathrm{e}}\\right)&#x3C;\\pi=\\ln\\left(\\mathrm{e}^{\\pi}\\right)$. 故 $3^{\\mathrm{e}}&#x3C;\\mathrm{e}^{\\pi}$. 还由于 $\\mathrm{e}&#x3C;3&#x3C;\\pi$，有 $3^{\\mathrm{e}}&#x3C;3^{3}&#x3C;\\pi^{3}$.</p><p>因此 $3^{\\mathrm{e}}$ 小于题目中的另外五个数，是最小数.</p><p>由 $\\varphi(3)>\\varphi(\\pi)$，得</p>\n$$\n\\frac{\\ln3}{3}>\\frac{\\ln\\pi}{\\pi}\\Longleftrightarrow \\pi\\ln3>3\\ln\\pi  \\Longleftrightarrow 3^{\\pi}>\\pi^{3}\n$$\n<p>又因为 $\\mathrm{e}&#x3C;3&#x3C;\\pi$，所以 $\\mathrm{e}^{3}&#x3C;\\pi^{3}&#x3C;3^{\\pi}$，$\\pi^{\\mathrm{e}}&#x3C;\\pi^{3}&#x3C;3^{\\pi}$，</p><p>并且 $\\mathrm{e}^{\\pi}&#x3C;3^{\\pi}$，$3^{\\mathrm{e}}&#x3C;3^{\\pi}$. 所以 $3^{\\pi}$ 大于其余五个数，是最大数.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $x>0$，且 $f'(x)=\\frac{1-\\ln x}{x^{2}}$.</p><p>因为 $x^{2}>0$，所以当 $0<x<\\mathrm{e}$ 时，$f'(x)>0$；当 $x=\\mathrm{e}$ 时，$f'(x)=0$；当 $x>\\mathrm{e}$ 时，$f'(x)<0$. 因此，$f(x)$ 在 $(0,\\mathrm{e})$ 上单调递增，在 $(\\mathrm{e},+\\infty)$ 上单调递减.</p></li><li><p>记 $\\varphi(x)=\\frac{\\ln x}{x}$. 由第（1）问，且 $\\mathrm{e}<3<\\pi$，有 $\\varphi(\\mathrm{e})>\\varphi(3)>\\varphi(\\pi)$. 其中 $\\varphi(\\mathrm{e})>\\varphi(3)$ 等价于 $\\mathrm{e}\\ln3<3$，于是 $\\ln\\left(3^{\\mathrm{e}}\\right)=\\mathrm{e}\\ln3<3=\\ln\\left(\\mathrm{e}^{3}\\right)$.</p><p>所以 $3^{\\mathrm{e}}<\\mathrm{e}^{3}$. 又因为 $3<\\pi$、$\\mathrm{e}<\\pi$，所以 $3^{\\mathrm{e}}<\\pi^{\\mathrm{e}}$，$3^{\\mathrm{e}}<3^{\\pi}$.</p><p>同时，由 $\\mathrm{e}\\ln3<3<\\pi$，有 $\\ln\\left(3^{\\mathrm{e}}\\right)<\\pi=\\ln\\left(\\mathrm{e}^{\\pi}\\right)$. 故 $3^{\\mathrm{e}}<\\mathrm{e}^{\\pi}$. 还由于 $\\mathrm{e}<3<\\pi$，有 $3^{\\mathrm{e}}<3^{3}<\\pi^{3}$.</p><p>因此 $3^{\\mathrm{e}}$ 小于题目中的另外五个数，是最小数.</p><p>由 $\\varphi(3)>\\varphi(\\pi)$，得</p>\n$$\n\\frac{\\ln3}{3}>\\frac{\\ln\\pi}{\\pi}\\Longleftrightarrow \\pi\\ln3>3\\ln\\pi  \\Longleftrightarrow 3^{\\pi}>\\pi^{3}\n$$\n<p>又因为 $\\mathrm{e}<3<\\pi$，所以 $\\mathrm{e}^{3}<\\pi^{3}<3^{\\pi}$，$\\pi^{\\mathrm{e}}<\\pi^{3}<3^{\\pi}$，</p><p>并且 $\\mathrm{e}^{\\pi}<3^{\\pi}$，$3^{\\mathrm{e}}<3^{\\pi}$. 所以 $3^{\\pi}$ 大于其余五个数，是最大数.</p></li></ol>"
         },
         {
           "num": 22,
           "body": "<p>在平面直角坐标系 $xOy$ 中，点 $M$ 到点 $F(1,0)$ 的距离比它到 $y$ 轴的距离多 1，记点 $M$ 的轨迹为 $C$.</p><ol class=\"enumerate\"><li><p>求轨迹为 $C$ 的方程；</p></li><li><p>设斜率为 $k$ 的直线 $l$ 过定点 $P(-2,1)$，求直线 $l$ 与轨迹 $C$ 恰好有一个公共点，两个公共点，三个公共点时 $k$ 的相应取值范围.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<p>设点 $M$ 的坐标为 $(x,y)$. 由题意 $\\sqrt{(x-1)^{2}+y^{2}}=|x|+1$. 两边均非负，平方并整理得 $(x-1)^{2}+y^{2}=(|x|+1)^{2}\\Longleftrightarrow y^{2}=2x+2|x|$.</p><p>当 $x\\geqslant0$ 时，$y^{2}=4x$；当 $x&#x3C;0$ 时，$y=0$. 因此轨迹 $C$ 的方程可写为</p>\n$$\nC:\\begin{cases}y^{2}=4x,&#x26;x\\geqslant0,\\\\  y=0,&#x26;x\\leqslant0\\end{cases}\n$$\n<p>直线 $l$ 的方程为 $y-1=k(x+2)$.</p><p>先考察它与抛物线 $y^{2}=4x$ 的交点. 当 $k\\ne0$ 时，令 $x=\\frac{y^{2}}{4}$，代入直线方程，得 $ky^{2}-4y+8k+4=0$.</p><p>其判别式为</p>\n$$\n\\Delta=16-4k(8k+4)=16(1+k)(1-2k)\n$$\n<p>所以，当 $k&#x3C;-1$ 或 $k>\\frac{1}{2}$ 时，抛物线交点数为 $0$；当 $k=-1$ 或 $k=\\frac{1}{2}$ 时，交点数为 $1$；当 $-1&#x3C;k&#x3C;\\frac{1}{2}$ 且 $k\\ne0$ 时，交点数为 $2$. 当 $k=0$ 时，直线为 $y=1$，与抛物线只有一个交点.</p><p>再考察它与射线 $y=0$，$x\\leqslant0$ 的交点. 当 $k\\ne0$ 时，令 $y=0$，得 $x=-2-\\frac{1}{k}$.</p><p>该点满足 $x\\leqslant0$ 当且仅当 $k>0$ 或 $k\\le-\\frac{1}{2}$；当 $k=0$ 时没有交点. 在 $k=-\\frac{1}{2}$ 时，射线交点为原点，而原点也是抛物线交点，需要只计一次.</p><p>综合两部分交点数，得到：</p>\n$$\n\\begin{cases}1,&#x26;k\\in(-\\infty,-1)\\cup\\{0\\}\\cup\\left(\\frac{1}{2},+\\infty\\right),\\\\\n\n2,&#x26;k\\in\\{-1\\}\\cup\\left[-\\frac{1}{2},0\\right)\\cup\\left\\{\\frac{1}{2}\\right\\},\\\\\n\n3,&#x26;k\\in\\left(-1,-\\frac{1}{2}\\right)\\cup\\left(0,\\frac{1}{2}\\right)\\end{cases}\n$$"
+          "solution": "<p>设点 $M$ 的坐标为 $(x,y)$. 由题意 $\\sqrt{(x-1)^{2}+y^{2}}=|x|+1$. 两边均非负，平方并整理得 $(x-1)^{2}+y^{2}=(|x|+1)^{2}\\Longleftrightarrow y^{2}=2x+2|x|$.</p><p>当 $x\\geqslant0$ 时，$y^{2}=4x$；当 $x<0$ 时，$y=0$. 因此轨迹 $C$ 的方程可写为</p>\n$$\nC:\\begin{cases}y^{2}=4x,&x\\geqslant0,\\\\  y=0,&x\\leqslant0\\end{cases}\n$$\n<p>直线 $l$ 的方程为 $y-1=k(x+2)$.</p><p>先考察它与抛物线 $y^{2}=4x$ 的交点. 当 $k\\ne0$ 时，令 $x=\\frac{y^{2}}{4}$，代入直线方程，得 $ky^{2}-4y+8k+4=0$.</p><p>其判别式为</p>\n$$\n\\Delta=16-4k(8k+4)=16(1+k)(1-2k)\n$$\n<p>所以，当 $k<-1$ 或 $k>\\frac{1}{2}$ 时，抛物线交点数为 $0$；当 $k=-1$ 或 $k=\\frac{1}{2}$ 时，交点数为 $1$；当 $-1<k<\\frac{1}{2}$ 且 $k\\ne0$ 时，交点数为 $2$. 当 $k=0$ 时，直线为 $y=1$，与抛物线只有一个交点.</p><p>再考察它与射线 $y=0$，$x\\leqslant0$ 的交点. 当 $k\\ne0$ 时，令 $y=0$，得 $x=-2-\\frac{1}{k}$.</p><p>该点满足 $x\\leqslant0$ 当且仅当 $k>0$ 或 $k\\le-\\frac{1}{2}$；当 $k=0$ 时没有交点. 在 $k=-\\frac{1}{2}$ 时，射线交点为原点，而原点也是抛物线交点，需要只计一次.</p><p>综合两部分交点数，得到：</p>\n$$\n\\begin{cases}1,&k\\in(-\\infty,-1)\\cup\\{0\\}\\cup\\left(\\frac{1}{2},+\\infty\\right),\\\\\n\n2,&k\\in\\{-1\\}\\cup\\left[-\\frac{1}{2},0\\right)\\cup\\left\\{\\frac{1}{2}\\right\\},\\\\\n\n3,&k\\in\\left(-1,-\\frac{1}{2}\\right)\\cup\\left(0,\\frac{1}{2}\\right)\\end{cases}\n$$"
         }
       ]
     }

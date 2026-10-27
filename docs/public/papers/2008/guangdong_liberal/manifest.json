@@ -21,7 +21,7 @@
         },
         {
           "num": 2,
-          "body": "已知 $0 &#x3C; a &#x3C; 2$，复数 $z = a + \\mathrm{i}$（$\\mathrm{i}$ 是虚数单位），则 $|z|$ 的取值范围是（ ）",
+          "body": "已知 $0 < a < 2$，复数 $z = a + \\mathrm{i}$（$\\mathrm{i}$ 是虚数单位），则 $|z|$ 的取值范围是（ ）",
           "choices": [
             "$(1, \\sqrt{3})$",
             "$(1, \\sqrt{5})$",
@@ -29,7 +29,7 @@
             "$(1, 5)$"
           ],
           "answer": "B",
-          "solution": "由复数模的定义，$|z|=\\sqrt{a^{2}+1}$. 因为 $0&#x3C;a&#x3C;2$，所以 $1&#x3C;a^{2}+1&#x3C;5$，而平方根函数在正数集上单调递增，故 $1&#x3C;|z|&#x3C;\\sqrt{5}$，选 B."
+          "solution": "由复数模的定义，$|z|=\\sqrt{a^{2}+1}$. 因为 $0<a<2$，所以 $1<a^{2}+1<5$，而平方根函数在正数集上单调递增，故 $1<|z|<\\sqrt{5}$，选 B."
         },
         {
           "num": 3,
@@ -93,39 +93,39 @@
         },
         {
           "num": 8,
-          "body": "命题“若函数 $f(x) = \\log_{a} x$（$a > 0$，$a \\neq 1$）在其定义域内是减函数，则 $\\log_{a} 2 &#x3C; 0$”的逆否命题是（ ）",
+          "body": "命题“若函数 $f(x) = \\log_{a} x$（$a > 0$，$a \\neq 1$）在其定义域内是减函数，则 $\\log_{a} 2 < 0$”的逆否命题是（ ）",
           "choices": [
-            "若 $\\log_{a} 2 &#x3C; 0$，则函数 $f(x) = \\log_{a} x$（$a > 0$，$a \\neq 1$）在其定义域内不是减函数",
+            "若 $\\log_{a} 2 < 0$，则函数 $f(x) = \\log_{a} x$（$a > 0$，$a \\neq 1$）在其定义域内不是减函数",
             "若 $\\log_{a} 2 \\ge 0$，则函数 $f(x) = \\log_{a} x$（$a > 0$，$a \\neq 1$）在其定义域内不是减函数",
-            "若 $\\log_{a} 2 &#x3C; 0$，则函数 $f(x) = \\log_{a} x$（$a > 0$，$a \\neq 1$）在其定义域内是减函数",
+            "若 $\\log_{a} 2 < 0$，则函数 $f(x) = \\log_{a} x$（$a > 0$，$a \\neq 1$）在其定义域内是减函数",
             "若 $\\log_{a} 2 \\ge 0$，则函数 $f(x) = \\log_{a} x$（$a > 0$，$a \\neq 1$）在其定义域内是减函数"
           ],
           "answer": "B",
-          "solution": "原命题是“若 $p$，则 $q$”，其中 $p$ 表示函数在定义域内是减函数，$q$ 表示 $\\log_{a}2&#x3C;0$. 逆否命题为“若 $\\lnot q$，则 $\\lnot p$”，即若 $\\log_{a}2\\geqslant0$，则函数在定义域内不是减函数，故选 B."
+          "solution": "原命题是“若 $p$，则 $q$”，其中 $p$ 表示函数在定义域内是减函数，$q$ 表示 $\\log_{a}2<0$. 逆否命题为“若 $\\lnot q$，则 $\\lnot p$”，即若 $\\log_{a}2\\geqslant0$，则函数在定义域内不是减函数，故选 B."
         },
         {
           "num": 9,
           "body": "设 $a \\in \\mathbb{R}$，若函数 $y = \\mathrm{e}^{x} + ax$（$x \\in \\mathbb{R}$）有大于零的极值点，则（ ）",
           "choices": [
-            "$a &#x3C; -1$",
+            "$a < -1$",
             "$a > -1$",
             "$a > -\\frac{1}{\\mathrm{e}}$",
-            "$a &#x3C; -\\frac{1}{\\mathrm{e}}$"
+            "$a < -\\frac{1}{\\mathrm{e}}$"
           ],
           "answer": "A",
-          "solution": "函数的导数为 $y'=\\mathrm{e}^{x}+a$. 若函数有极值点，则存在 $x_{0}$ 使 $\\mathrm{e}^{x_0}+a=0$，从而 $a&#x3C;0$，且 $x_{0}=\\ln(-a)$. 当 $a&#x3C;0$ 时，$y'$ 随 $x$ 严格递增，并在 $x_{0}$ 左侧为负、右侧为正，所以 $x_{0}$ 确为极小值点. 题意中的“大于零的极值点”指极值点的横坐标大于零，因此 $\\ln(-a)>0$，即 $-a>1$，所以 $a&#x3C;-1$，故选 A."
+          "solution": "函数的导数为 $y'=\\mathrm{e}^{x}+a$. 若函数有极值点，则存在 $x_{0}$ 使 $\\mathrm{e}^{x_0}+a=0$，从而 $a<0$，且 $x_{0}=\\ln(-a)$. 当 $a<0$ 时，$y'$ 随 $x$ 严格递增，并在 $x_{0}$ 左侧为负、右侧为正，所以 $x_{0}$ 确为极小值点. 题意中的“大于零的极值点”指极值点的横坐标大于零，因此 $\\ln(-a)>0$，即 $-a>1$，所以 $a<-1$，故选 A."
         },
         {
           "num": 10,
           "body": "设 $a$，$b \\in \\mathbb{R}$，若 $a - |b| > 0$，则下列不等式中正确的是（ ）",
           "choices": [
             "$b - a > 0$",
-            "$a^{3} + b^{3} &#x3C; 0$",
+            "$a^{3} + b^{3} < 0$",
             "$b + a > 0$",
-            "$a^{2} - b^{2} &#x3C; 0$"
+            "$a^{2} - b^{2} < 0$"
           ],
           "answer": "C",
-          "solution": "<p>由 $a-|b|>0$ 得 $a>|b|\\geqslant0$，所以 $a>0$ 且 $-a&#x3C;b&#x3C;a$. 因而 $a+b>0$，选项 C 正确；同时 $b-a&#x3C;0$，故 A 错误；又</p><p>$a^{3}+b^{3}=(a+b)(a^{2}-ab+b^{2})>0$，故 B 错误；最后 $a^{2}-b^{2}=(a-|b|)(a+|b|)>0$，故 D 错误，故选 C.</p>"
+          "solution": "<p>由 $a-|b|>0$ 得 $a>|b|\\geqslant0$，所以 $a>0$ 且 $-a<b<a$. 因而 $a+b>0$，选项 C 正确；同时 $b-a<0$，故 A 错误；又</p><p>$a^{3}+b^{3}=(a+b)(a^{2}-ab+b^{2})>0$，故 B 错误；最后 $a^{2}-b^{2}=(a-|b|)(a+|b|)>0$，故 D 错误，故选 C.</p>"
         }
       ]
     },
@@ -160,10 +160,10 @@
       "problems": [
         {
           "num": 14,
-          "body": "已知曲线 $C_{1}$，$C_{2}$ 的极坐标方程分别为 $\\rho \\cos \\theta = 3$，$\\rho = 4 \\cos \\theta$（$\\rho \\ge 0$，$0 \\le \\theta &#x3C; \\frac{\\pi}{2}$），则曲线 $C_{1}$ 与 $C_{2}$ 交点的极坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "body": "已知曲线 $C_{1}$，$C_{2}$ 的极坐标方程分别为 $\\rho \\cos \\theta = 3$，$\\rho = 4 \\cos \\theta$（$\\rho \\ge 0$，$0 \\le \\theta < \\frac{\\pi}{2}$），则曲线 $C_{1}$ 与 $C_{2}$ 交点的极坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
           "choices": null,
           "answer": "$\\left(2\\sqrt{3},\\frac{\\pi}{6}\\right)$",
-          "solution": "由 $\\rho\\cos\\theta=3$ 及 $\\rho=4\\cos\\theta$，得 $4\\cos^{2}\\theta=3$. 由于 $0\\le\\theta&#x3C;\\frac{\\pi}{2}$，所以 $\\cos\\theta=\\frac{\\sqrt{3}}{2}$，从而 $\\theta=\\frac{\\pi}{6}$，$\\rho=4\\cos\\theta=2\\sqrt{3}$. 因此交点的极坐标为 $\\left(2\\sqrt{3},\\frac{\\pi}{6}\\right)$."
+          "solution": "由 $\\rho\\cos\\theta=3$ 及 $\\rho=4\\cos\\theta$，得 $4\\cos^{2}\\theta=3$. 由于 $0\\le\\theta<\\frac{\\pi}{2}$，所以 $\\cos\\theta=\\frac{\\sqrt{3}}{2}$，从而 $\\theta=\\frac{\\pi}{6}$，$\\rho=4\\cos\\theta=2\\sqrt{3}$. 因此交点的极坐标为 $\\left(2\\sqrt{3},\\frac{\\pi}{6}\\right)$."
         },
         {
           "num": 15,
@@ -179,10 +179,10 @@
       "problems": [
         {
           "num": 16,
-          "body": "<p>已知函数 $f(x) = A \\sin (x + \\varphi)$（$A > 0$，$0 &#x3C; \\varphi &#x3C; \\pi$），$x \\in \\mathbb{R}$ 的最大值是 1，其图象经过点 $M\\left( \\frac{\\pi}{3}, \\frac{1}{2}\\right)$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的解析式；</p></li><li><p>已知 $\\alpha$，$\\beta \\in \\left( 0, \\frac{\\pi}{2}\\right)$，且 $f(\\alpha) = \\frac{3}{5}$，$f(\\beta) = \\frac{12}{13}$，求 $f(\\alpha - \\beta)$ 的值.</p></li></ol>",
+          "body": "<p>已知函数 $f(x) = A \\sin (x + \\varphi)$（$A > 0$，$0 < \\varphi < \\pi$），$x \\in \\mathbb{R}$ 的最大值是 1，其图象经过点 $M\\left( \\frac{\\pi}{3}, \\frac{1}{2}\\right)$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的解析式；</p></li><li><p>已知 $\\alpha$，$\\beta \\in \\left( 0, \\frac{\\pi}{2}\\right)$，且 $f(\\alpha) = \\frac{3}{5}$，$f(\\beta) = \\frac{12}{13}$，求 $f(\\alpha - \\beta)$ 的值.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>因为 $A>0$，函数 $A\\sin(x+\\varphi)$ 的最大值为 $A$，所以 $A=1$. 又因图象经过点 $M$，有 $\\sin\\left(\\frac{\\pi}{3}+\\varphi\\right)=\\frac{1}{2}$. 由 $0&#x3C;\\varphi&#x3C;\\pi$，得 $\\frac{\\pi}{3}&#x3C;\\frac{\\pi}{3}+\\varphi&#x3C;\\frac{4\\pi}{3}$，故 $\\frac{\\pi}{3}+\\varphi=\\frac{5\\pi}{6}$，从而 $\\varphi=\\frac{\\pi}{2}$. 因此 $f(x)=\\sin\\left(x+\\frac{\\pi}{2}\\right)=\\cos x$.</p></li><li><p>由 $f(x)=\\cos x$ 及 $\\alpha$，$\\beta\\in\\left(0,\\frac{\\pi}{2}\\right)$，得</p><p>$\\cos\\alpha=\\frac{3}{5}$，$\\cos\\beta=\\frac{12}{13}$，以及 $\\sin\\alpha=\\frac{4}{5}$，$\\sin\\beta=\\frac{5}{13}$. 所以</p><p>$f(\\alpha-\\beta)=\\cos(\\alpha-\\beta)=\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta=\\frac{3}{5}\\cdot\\frac{12}{13}+\\frac{4}{5}\\cdot\\frac{5}{13}=\\frac{56}{65}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $A>0$，函数 $A\\sin(x+\\varphi)$ 的最大值为 $A$，所以 $A=1$. 又因图象经过点 $M$，有 $\\sin\\left(\\frac{\\pi}{3}+\\varphi\\right)=\\frac{1}{2}$. 由 $0<\\varphi<\\pi$，得 $\\frac{\\pi}{3}<\\frac{\\pi}{3}+\\varphi<\\frac{4\\pi}{3}$，故 $\\frac{\\pi}{3}+\\varphi=\\frac{5\\pi}{6}$，从而 $\\varphi=\\frac{\\pi}{2}$. 因此 $f(x)=\\sin\\left(x+\\frac{\\pi}{2}\\right)=\\cos x$.</p></li><li><p>由 $f(x)=\\cos x$ 及 $\\alpha$，$\\beta\\in\\left(0,\\frac{\\pi}{2}\\right)$，得</p><p>$\\cos\\alpha=\\frac{3}{5}$，$\\cos\\beta=\\frac{12}{13}$，以及 $\\sin\\alpha=\\frac{4}{5}$，$\\sin\\beta=\\frac{5}{13}$. 所以</p><p>$f(\\alpha-\\beta)=\\cos(\\alpha-\\beta)=\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta=\\frac{3}{5}\\cdot\\frac{12}{13}+\\frac{4}{5}\\cdot\\frac{5}{13}=\\frac{56}{65}$.</p></li></ol>"
         },
         {
           "num": 17,
@@ -210,14 +210,14 @@
           "body": "<p>设 $b > 0$，椭圆方程为 $\\frac{x^{2}}{2b^{2}}+ \\frac{y^{2}}{b^{2}}= 1$，抛物线方程为 $x^{2} = 8(y - b)$. 如图所示，过点 $F(0, b + 2)$ 作 $x$ 轴的平行线，与抛物线在第一象限的交点为 $G$. 已知抛物线在点 $G$ 的切线经过椭圆的右焦点 $F_{1}$.</p><ol class=\"enumerate\"><li><p>求满足条件的椭圆方程和抛物线方程；</p></li><li><p>设 $A$，$B$ 分别是椭圆长轴的左，右端点. 试探究在抛物线上是否存在点 $P$，使得 $\\triangle ABP$ 为直角三角形；若存在，请指出共有几个这样的点，并说明理由（不必具体求出这些点的坐标）.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>抛物线可写为 $x^{2}=8(y-b)$. 直线 $y=b+2$ 与抛物线在第一象限的交点满足 $x^{2}=16$，故 $G(4,b+2)$. 对抛物线方程求导，得 $2x=8y'$，所以在 $G$ 点的切线斜率为 $1$，切线方程为 $y-(b+2)=x-4$，即 $y=x+b-2$.</p><p>椭圆的长半轴平方为 $2b^{2}$，短半轴平方为 $b^{2}$，所以焦距的一半满足 $c^{2}=2b^{2}-b^{2}=b^{2}$. 因 $b>0$，椭圆右焦点为 $F_{1}(b,0)$. 由切线经过 $F_{1}$，得 $0=b+b-2$，即 $b=1$. 因此椭圆方程为 $\\frac{x^{2}}{2}+y^{2}=1$，抛物线方程为 $x^{2}=8(y-1)$.</p></li><li><p>此时椭圆长轴的左、右端点分别为 $A(-\\sqrt{2},0)$，$B(\\sqrt{2},0)$，抛物线上点 $P$ 可表示为 $P\\left(x,1+\\frac{x^{2}}{8}\\right)$.</p><p>若 $\\angle PAB=90^{\\circ}$，则 $AP\\perp AB$. 由于 $AB$ 在 $x$ 轴上，$AP$ 必为竖直线，所以点 $P$ 的横坐标必须为 $-\\sqrt{2}$. 代入抛物线可得唯一点 $P\\left(-\\sqrt{2},\\frac{5}{4}\\right)$. 若 $\\angle PBA=90^{\\circ}$，同理由 $BP\\perp AB$ 得点 $P$ 的横坐标必须为 $\\sqrt{2}$，代入抛物线可得唯一点 $P\\left(\\sqrt{2},\\frac{5}{4}\\right)$. 因而这两种情形各有一个点.</p><p>若 $\\angle APB=90^{\\circ}$，由 $\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=0$，得</p><p>$x^{2}-2+\\left(1+\\frac{x^{2}}{8}\\right)^{2}=0$. 令 $t=x^{2}$，则 $t^{2}+80t-64=0$，解得 $t=-40\\pm8\\sqrt{26}$. 其中 $t=-40-8\\sqrt{26}&#x3C;0$ 不合题意，而 $t=-40+8\\sqrt{26}>0$ 符合，因此 $x=\\pm\\sqrt{-40+8\\sqrt{26}}$，对应两个点. 这两个点的横坐标不等于 $\\pm\\sqrt{2}$，所以不与前两种情形重复. 综上，抛物线上共有 $1+1+2=4$ 个点，使 $\\triangle ABP$ 为直角三角形.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>抛物线可写为 $x^{2}=8(y-b)$. 直线 $y=b+2$ 与抛物线在第一象限的交点满足 $x^{2}=16$，故 $G(4,b+2)$. 对抛物线方程求导，得 $2x=8y'$，所以在 $G$ 点的切线斜率为 $1$，切线方程为 $y-(b+2)=x-4$，即 $y=x+b-2$.</p><p>椭圆的长半轴平方为 $2b^{2}$，短半轴平方为 $b^{2}$，所以焦距的一半满足 $c^{2}=2b^{2}-b^{2}=b^{2}$. 因 $b>0$，椭圆右焦点为 $F_{1}(b,0)$. 由切线经过 $F_{1}$，得 $0=b+b-2$，即 $b=1$. 因此椭圆方程为 $\\frac{x^{2}}{2}+y^{2}=1$，抛物线方程为 $x^{2}=8(y-1)$.</p></li><li><p>此时椭圆长轴的左、右端点分别为 $A(-\\sqrt{2},0)$，$B(\\sqrt{2},0)$，抛物线上点 $P$ 可表示为 $P\\left(x,1+\\frac{x^{2}}{8}\\right)$.</p><p>若 $\\angle PAB=90^{\\circ}$，则 $AP\\perp AB$. 由于 $AB$ 在 $x$ 轴上，$AP$ 必为竖直线，所以点 $P$ 的横坐标必须为 $-\\sqrt{2}$. 代入抛物线可得唯一点 $P\\left(-\\sqrt{2},\\frac{5}{4}\\right)$. 若 $\\angle PBA=90^{\\circ}$，同理由 $BP\\perp AB$ 得点 $P$ 的横坐标必须为 $\\sqrt{2}$，代入抛物线可得唯一点 $P\\left(\\sqrt{2},\\frac{5}{4}\\right)$. 因而这两种情形各有一个点.</p><p>若 $\\angle APB=90^{\\circ}$，由 $\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=0$，得</p><p>$x^{2}-2+\\left(1+\\frac{x^{2}}{8}\\right)^{2}=0$. 令 $t=x^{2}$，则 $t^{2}+80t-64=0$，解得 $t=-40\\pm8\\sqrt{26}$. 其中 $t=-40-8\\sqrt{26}<0$ 不合题意，而 $t=-40+8\\sqrt{26}>0$ 符合，因此 $x=\\pm\\sqrt{-40+8\\sqrt{26}}$，对应两个点. 这两个点的横坐标不等于 $\\pm\\sqrt{2}$，所以不与前两种情形重复. 综上，抛物线上共有 $1+1+2=4$ 个点，使 $\\triangle ABP$ 为直角三角形.</p></li></ol>"
         },
         {
           "num": 21,
           "body": "<p>设数列 $\\{a_{n}\\}$ 满足 $a_{1} = 1$，$a_{2} = 2$，$a_{n} = \\frac{1}{3}(a_{n-1}+ 2a_{n-2})$（$n = 3$，$4$，$\\cdots$）. 数列 $\\{b_{n}\\}$ 满足 $b_{1} = 1$，$b_{n}$（$n = 2$，$3$，$\\cdots$）是非零整数，且对任意的正整数 $m$ 和自然数 $k$，都有 $-1 \\le b_{m} + b_{m+1}+ \\cdots + b_{m+k}\\le 1$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>若 $c_{n} = na_{n}b_{n}$（$n = 1$，$2$，$\\dots$），求数列 $\\{c_{n}\\}$ 的前 $n$ 项和 $S_{n}$.</p></li></ol>",
           "choices": null,
           "answer": "",
-          "solution": "<ol class=\"enumerate\"><li><p>将递推式改写为 $3a_{n}-a_{n-1}-2a_{n-2}=0$. 其特征方程为 $3r^{2}-r-2=0$，即 $(r-1)(3r+2)=0$，所以两个特征根为 $1$ 和 $-\\frac{2}{3}$. 因此设</p><p>$a_{n}=A+B\\left(-\\frac{2}{3}\\right)^{n-1}$. 代入前两项得</p><p>$A+B=1$，$A-\\frac{2}{3}B=2$. 两式相减得 $-\\frac{5}{3}B=1$，所以 $B=-\\frac{3}{5}$，再由 $A+B=1$ 得 $A=\\frac{8}{5}$. 从而</p><p>$a_{n}=\\frac{8}{5}-\\frac{3}{5}\\left(-\\frac{2}{3}\\right)^{n-1}$.</p><p>在题设中取 $k=0$，得到 $-1\\le b_{m}\\leqslant1$. 由于 $b_{m}$ 是非零整数，所以 $b_{m}$ 只能取 $-1$ 或 $1$. 再取 $k=1$，有 $-1\\le b_{m}+b_{m+1}\\leqslant1$. 两项都属于 $\\{-1,1\\}$，故它们不能同号，只能满足 $b_{m+1}=-b_{m}$. 结合 $b_{1}=1$，逐项得到 $b_{n}=(-1)^{n+1}$. 反过来，交错数列从任意一项开始的连续和在区间 $[-1,1]$ 内：当连续项数为偶数时和为 $0$，当连续项数为奇数时和为首项 $1$ 或 $-1$，所以它确实满足题设条件.</p></li><li><p>由 $a_{n}$ 与 $b_{n}$ 的通项公式，</p><p>$c_{n}=na_{n}b_{n}=\\frac{8}{5}n(-1)^{n+1}-\\frac{3}{5}n\\left(\\frac{2}{3}\\right)^{n-1}$. 因而</p><p>$S_{n}=\\frac{8}{5}\\sum_{k=1}^{n} k(-1)^{k+1}-\\frac{3}{5}\\sum_{k=1}^{n} k\\left(\\frac{2}{3}\\right)^{k-1}$.</p><p>先计算交错和. 将相邻两项配对可得</p><p>$\\displaystyle\\sum_{k=1}^{n} k(-1)^{k+1}=\\begin{cases}-\\frac{n}{2},&#x26;n\\text{ 为偶数},\\\\[2pt]  \\frac{n+1}{2},&#x26;n\\text{ 为奇数},\\end{cases}$</p><p>这也可统一写成 $\\displaystyle\\frac{1+(-1)^{n+1}(2n+1)}{4}$. 对于任意 $r\\neq1$，由有限等比数列和</p><p>$\\displaystyle\\sum_{k=1}^{n} r^{k}=\\frac{r-r^{n+1}}{1-r}$ 对 $r$ 求导，得</p><p>$\\displaystyle\\sum_{k=1}^{n} kr^{k-1}=\\frac{1-(n+1)r^{n}+nr^{n+1}}{(1-r)^{2}}$. 令 $r=\\frac{2}{3}$，则</p><p>$\\displaystyle\\sum_{k=1}^{n} k\\left(\\frac{2}{3}\\right)^{k-1}=9\\left[1-(n+1)\\left(\\frac{2}{3}\\right)^{n}+n\\left(\\frac{2}{3}\\right)^{n+1}\\right]=9-3(n+3)\\left(\\frac{2}{3}\\right)^{n}$.</p><p>代回 $S_{n}$，分别化简两部分，得到</p><p>$S_{n}=\\frac{8}{5}\\cdot\\frac{1+(-1)^{n+1}(2n+1)}{4}-\\frac{3}{5}\\left[9-3(n+3)\\left(\\frac{2}{3}\\right)^{n}\\right]$</p><p>$=-5+\\frac{2}{5}(-1)^{n+1}(2n+1)+\\frac{9}{5}(n+3)\\left(\\frac{2}{3}\\right)^{n}$.</p></li></ol>"
+          "solution": "<ol class=\"enumerate\"><li><p>将递推式改写为 $3a_{n}-a_{n-1}-2a_{n-2}=0$. 其特征方程为 $3r^{2}-r-2=0$，即 $(r-1)(3r+2)=0$，所以两个特征根为 $1$ 和 $-\\frac{2}{3}$. 因此设</p><p>$a_{n}=A+B\\left(-\\frac{2}{3}\\right)^{n-1}$. 代入前两项得</p><p>$A+B=1$，$A-\\frac{2}{3}B=2$. 两式相减得 $-\\frac{5}{3}B=1$，所以 $B=-\\frac{3}{5}$，再由 $A+B=1$ 得 $A=\\frac{8}{5}$. 从而</p><p>$a_{n}=\\frac{8}{5}-\\frac{3}{5}\\left(-\\frac{2}{3}\\right)^{n-1}$.</p><p>在题设中取 $k=0$，得到 $-1\\le b_{m}\\leqslant1$. 由于 $b_{m}$ 是非零整数，所以 $b_{m}$ 只能取 $-1$ 或 $1$. 再取 $k=1$，有 $-1\\le b_{m}+b_{m+1}\\leqslant1$. 两项都属于 $\\{-1,1\\}$，故它们不能同号，只能满足 $b_{m+1}=-b_{m}$. 结合 $b_{1}=1$，逐项得到 $b_{n}=(-1)^{n+1}$. 反过来，交错数列从任意一项开始的连续和在区间 $[-1,1]$ 内：当连续项数为偶数时和为 $0$，当连续项数为奇数时和为首项 $1$ 或 $-1$，所以它确实满足题设条件.</p></li><li><p>由 $a_{n}$ 与 $b_{n}$ 的通项公式，</p><p>$c_{n}=na_{n}b_{n}=\\frac{8}{5}n(-1)^{n+1}-\\frac{3}{5}n\\left(\\frac{2}{3}\\right)^{n-1}$. 因而</p><p>$S_{n}=\\frac{8}{5}\\sum_{k=1}^{n} k(-1)^{k+1}-\\frac{3}{5}\\sum_{k=1}^{n} k\\left(\\frac{2}{3}\\right)^{k-1}$.</p><p>先计算交错和. 将相邻两项配对可得</p><p>$\\displaystyle\\sum_{k=1}^{n} k(-1)^{k+1}=\\begin{cases}-\\frac{n}{2},&n\\text{ 为偶数},\\\\[2pt]  \\frac{n+1}{2},&n\\text{ 为奇数},\\end{cases}$</p><p>这也可统一写成 $\\displaystyle\\frac{1+(-1)^{n+1}(2n+1)}{4}$. 对于任意 $r\\neq1$，由有限等比数列和</p><p>$\\displaystyle\\sum_{k=1}^{n} r^{k}=\\frac{r-r^{n+1}}{1-r}$ 对 $r$ 求导，得</p><p>$\\displaystyle\\sum_{k=1}^{n} kr^{k-1}=\\frac{1-(n+1)r^{n}+nr^{n+1}}{(1-r)^{2}}$. 令 $r=\\frac{2}{3}$，则</p><p>$\\displaystyle\\sum_{k=1}^{n} k\\left(\\frac{2}{3}\\right)^{k-1}=9\\left[1-(n+1)\\left(\\frac{2}{3}\\right)^{n}+n\\left(\\frac{2}{3}\\right)^{n+1}\\right]=9-3(n+3)\\left(\\frac{2}{3}\\right)^{n}$.</p><p>代回 $S_{n}$，分别化简两部分，得到</p><p>$S_{n}=\\frac{8}{5}\\cdot\\frac{1+(-1)^{n+1}(2n+1)}{4}-\\frac{3}{5}\\left[9-3(n+3)\\left(\\frac{2}{3}\\right)^{n}\\right]$</p><p>$=-5+\\frac{2}{5}(-1)^{n+1}(2n+1)+\\frac{9}{5}(n+3)\\left(\\frac{2}{3}\\right)^{n}$.</p></li></ol>"
         }
       ]
     }
